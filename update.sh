@@ -7,4 +7,4 @@ echo "Processing SteamVR..."
 
 FixUCS2
 
-CreateCommit "Update"
+CreateCommit "$(cat bin/version.txt)"
