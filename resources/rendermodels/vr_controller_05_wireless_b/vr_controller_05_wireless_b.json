@@ -1,0 +1,152 @@
+{
+    "thumbnail" : "mrhat_controller_thumbnail.png",
+    "components": {
+        "trigger": {
+            "filename": "vr_controller_05_wireless_b_trigger.obj",
+            "motion":{
+                "type":"rotate",
+                "controller_axis":1,
+                "controller_axis_component":0,
+                "value_mapping": [0.0,-15.0],
+                "__pressed_value_override":-18.0,
+                "pivot": [0.0000, -0.016, 0.048],
+                "axis": [1.0, 0.0, 0.0]
+            },
+            "component_local" : {
+                "origin": [0.0, -0.036, 0.066],
+                "rotate_xyz" : [-76.319,0.0,0.0]
+            }
+        },
+        "trackpad": {
+            "filename": "vr_controller_05_wireless_b_trackpad.obj",
+            "motion":{
+                "type":"trackpad",
+                "controller_axis": 0,
+                "center": [0.0, 0.004, 0.047],
+                "rotate_xyz": [9.0,0.0,0.0],
+                "press_rotation_x": [7,-7],
+                "press_rotation_y": [4,-4],
+                "press_translate": [0.0, -0.001, 0.0]
+            },
+            "component_local" : {
+                "origin": [0.0, 0.004, 0.047],
+                "rotate_xyz" : [0.0,99.0,-90.0]
+            }
+        },
+        "trackpad_touch": {
+            "filename": "vr_controller_05_wireless_b_trackpad_touch.obj",
+            "motion":{
+                "type":"trackpad",
+                "controller_axis": 0,
+                "center": [0.0, 0.004, 0.047],
+                "rotate_xyz": [9.0,0.0,0.0],
+                "press_rotation_x": [7,-7],
+                "press_rotation_y": [4,-4],
+                "press_translate": [0.0, -0.001, 0.0],
+                "touch_translate_x": [ -0.019, 0.019 ],
+                "touch_translate_y": [ 0.019, -0.019 ]
+            },
+            "visibility": {
+            	"default": false,
+            	"touch": true,
+            	"press": true
+            },
+            "component_local" : {
+                "origin": [0.0, 0.004, 0.047],
+                "rotate_xyz" : [0.0,99.0,-90.0]
+            }
+        },
+        "lgrip": {
+            "filename": "vr_controller_05_wireless_b_Lgrip.obj",
+            "motion":{
+                "type":"rotate",
+                "controller_button": 2,
+                "value_mapping": [0.0,2.0],
+                "pivot": [-0.019, -0.006, 0.075],
+                "axis": [0.0, 1.0, 0.0]
+            },
+            "component_local" : {
+                "origin": [-0.020, -0.006, 0.086],
+                "rotate_xyz" : [0.0,94.234,0.0]
+            }
+        },
+        "rgrip": {
+            "filename": "vr_controller_05_wireless_b_Rgrip.obj",
+            "motion":{
+                "type":"rotate",
+                "controller_button": 2,
+                "value_mapping": [0.0,-2.0],
+                "pivot": [0.019, -0.006, 0.075],
+                "axis": [0.0, 1.0, 0.0]
+            },
+            "component_local" : {
+                "origin": [0.020, -0.006, 0.086],
+                "rotate_xyz" : [0.0,-94.234,0.0]
+            }
+        },
+        "sys_button": {
+            "filename": "vr_controller_05_wireless_b_system_button.obj",
+            "motion":{
+                "type":"translate",
+                "controller_button": 0,
+                "value_mapping": [0.0, 0.00075],
+                "axis": [0.0, -1.0, 0.0]
+            },
+            "component_local" : {
+                "origin": [0.0, 0.006, 0.089],
+                "rotate_xyz" : [81.1,0.0,0.0]
+            }
+        },
+        "button": {
+            "filename": "vr_controller_05_wireless_b_button.obj",
+            "motion":{
+                "type":"translate",
+                "controller_button": 1,
+                "value_mapping": [0.0, 0.00075],
+                "axis": [0.0, -1.0, 0.0]
+            },
+            "component_local" : {
+                "origin": [0.0, 0.004, 0.077],
+                "rotate_xyz" : [81.1,0.0,0.0]
+            }
+        },
+        "body": {
+            "filename": "vr_controller_05_wireless_b_body.obj",
+            "component_local" : {
+                "origin": [0.0, -0.009, 0.063],
+                "rotate_xyz" : [-7.0,0.0,0.0]
+            }
+        },
+        "trackhat": {
+            "filename": "vr_controller_05_wireless_b_trackhat.obj",
+            "component_local" : {
+                "origin": [0.0, -0.016, -0.042],
+                "rotate_xyz" : [-7.0,0.0,0.0]
+            }
+        },
+        "base": {
+            "component_local" : {
+                "origin": [0.0, 0.008, 0.190],
+                "rotate_xyz" : [7.0,-180.0,0.0]
+            }
+        },
+        "gdc2015": {
+            "component_local" : {
+                "origin": [0.0, 0.0, 0.0],
+                "rotate_xyz" : [0.0,0.0,0.0]
+            }
+        },
+        "tip": {
+            "component_local" : {
+                "origin": [0.0, -0.016, -0.042],
+                "rotate_xyz" : [-7.0,0.0,0.0]
+            }
+        },
+        "handgrip": {
+            "component_local" : {
+                "origin": [0.0, -0.009, 0.063],
+                "rotate_xyz" : [-7.0,0.0,0.0]
+            }
+        }
+    }
+}
