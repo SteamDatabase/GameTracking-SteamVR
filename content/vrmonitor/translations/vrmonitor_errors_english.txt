@@ -1,0 +1,785 @@
+﻿"lang"
+{
+"Language" "English" 
+"Tokens"
+{
+
+"Error_NoHMDAvailable_Header" "Headset not found"
+"Error_NoHMDAvailable_Description" "Your headset was not found. Make sure it is connected properly and restart SteamVR."
+"Error_NoHMDAvailable_Action" "Troubleshooting"
+"Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
+"Error_HMDDoesNotTrack_Header" "Headset not tracking"
+"Error_HMDDoesNotTrack_Description" "This headset is connected but not tracking. Make sure it can see a base station. "
+"Error_HMDDoesNotTrack_Action" "Troubleshooting"
+"Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
+
+"Error_NoCompositorAvailable_Header" "Compositor is not available"
+"Error_NoCompositorAvailable_Description" "You'll need this to run SteamVR to work correctly."
+"Error_NoCompositorAvailable_Action" "Launch Compositor"
+"Error_NoCompositorAvailable_ActionURL" "vrmonitor://reconnectcompositor"
+
+"Error_NoChaperoneAvailable_Header" "Room is not set up"
+"Error_NoChaperoneAvailable_Description" "Set your room up for SteamVR to work correctly."
+"Error_NoChaperoneAvailable_Action" "Launch Room Setup"
+"Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+
+"Error_CompositorNotFullscreen_Header" "Compositor is not fullscreen"
+"Error_CompositorNotFullscreen_Description" "You'll need this to be fullscreen for SteamVR to work correctly."
+"Error_CompositorNotFullscreen_Action" "Make Compositor fullscreen"
+"Error_CompositorNotFullscreen_ActionURL" "vrmonitor://makecompositorfullscreen"
+
+"Error_CompositorNotRunning_Header" "Compositor is not running"
+"Error_CompositorNotRunning_Description" "You'll need this for SteamVR to work correctly."
+"Error_CompositorNotRunning_Action" "Launch Compositor"
+"Error_CompositorNotRunning_ActionURL" "vrmonitor://reconnectcompositor"
+
+"Error_CompositorTooManyRunning_Header" "Too many compositors running"
+"Error_CompositorTooManyRunning_Description" "Only one compositor can run for SteamVR to work correctly."
+"Error_CompositorTooManyRunning_Action" "Restart SteamVR"
+"Error_CompositorTooManyRunning_ActionURL" "vrmonitor://restartsystem"
+
+"Error_VRServerNotRunning_Header" "VR Server is not running"
+"Error_VRServerNotRunning_Description" "You'll need this for SteamVR to work correctly."
+"Error_VRServerNotRunning_Action" "Launch VR Server"
+"Error_VRServerNotRunning_ActionURL" "vrmonitor://reconnectvrserver"
+
+"Error_TrackingDevice_NotValid_Header" "Device is not connected"
+"Error_TrackingDevice_NotValid_Description" "We can't find this device. Make sure it is connected correctly and try again."
+"Error_TrackingDevice_NotValid_Action" "Try to reconnect"
+"Error_TrackingDevice_NotValid_ActionURL" "vrmonitor://restartsystem"
+
+"Error_TrackingDevice_NoPose_Header" "Device is not tracking"
+"Error_TrackingDevice_NoPose_Description" "This device is not tracking. Make sure it is visible from the base stations."
+"Error_TrackingDevice_NoPose_Action" "Troubleshooting"
+"Error_TrackingDevice_NoPose_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
+
+"VRInitError_Unknown_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Unknown_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Unknown_Action" "Check SteamVR Support"
+"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_InstallationNotFound_Header" "Missing files"
+"VRInitError_Init_InstallationNotFound_Description" "Some files aren't where where we thought they were."
+"VRInitError_Init_InstallationNotFound_Action" "Try again from the current directory"
+"VRInitError_Init_InstallationNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
+
+"VRInitError_Init_InstallationCorrupt_Header" "Missing files"
+"VRInitError_Init_InstallationCorrupt_Description" "Some files we need for SteamVR are missing, please check your SteamVR installation."
+"VRInitError_Init_InstallationCorrupt_Action" "Troubleshooting"
+"VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Init_VRClientDLLNotFound_Header" "Missing file"
+"VRInitError_Init_VRClientDLLNotFound_Description" "A file we need for SteamVR is missing, please check your SteamVR installation."
+"VRInitError_Init_VRClientDLLNotFound_Action" "Troubleshooting"
+"VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Init_FileNotFound_Header" "Missing file"
+"VRInitError_Init_FileNotFound_Description" "A file we need for SteamVR is missing, please check your SteamVR installation."
+"VRInitError_Init_FileNotFound_Action" "Troubleshooting"
+"VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Init_FactoryNotFound_Header" "Missing file"
+"VRInitError_Init_FactoryNotFound_Description" "A file we need for SteamVR is missing, please check your SteamVR installation."
+"VRInitError_Init_FactoryNotFound_Action" "Troubleshooting"
+"VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Init_InterfaceNotFound_Header" "SteamVR is out of date"
+"VRInitError_Init_InterfaceNotFound_Description" "This version of SteamVR is too old, update to the latest version of SteamVR through Steam."
+"VRInitError_Init_InterfaceNotFound_Action" ""
+"VRInitError_Init_InterfaceNotFound_ActionURL" ""
+
+"VRInitError_Init_InvalidInterface_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_InvalidInterface_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_InvalidInterface_Action" "Check SteamVR Support"
+"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_UserConfigDirectoryInvalid_Header" "Something is wrong"
+"VRInitError_Init_UserConfigDirectoryInvalid_Description" "We can't find your config directory and need to set a new one."
+"VRInitError_Init_UserConfigDirectoryInvalid_Action" "Set Config Directory"
+"VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
+
+"VRInitError_Init_HmdNotFound_Header" "Headset not detected"
+"VRInitError_Init_HmdNotFound_Description" "Make sure your headset is connected properly, then reboot it by clicking below."
+"VRInitError_Init_HmdNotFound_FirstAction" "Reboot Headset"
+"VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://rebootvive"
+"VRInitError_Init_HmdNotFound_Action" "Troubleshooting"
+"VRInitError_Init_HmdNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
+"VRInitError_Init_NotInitialized_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_NotInitialized_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_NotInitialized_Action" "Check SteamVR Support"
+"VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PathRegistryNotFound_Header" "Missing files"
+"VRInitError_Init_PathRegistryNotFound_Description" "Some files aren't where we thought they were."
+"VRInitError_Init_PathRegistryNotFound_Action" "Try again from the current directory"
+"VRInitError_Init_PathRegistryNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
+
+"VRInitError_Init_NoConfigPath_Header" "Missing path"
+"VRInitError_Init_NoConfigPath_Description" "We can't find your config path and need to set a new one."
+"VRInitError_Init_NoConfigPath_Action" "Set Config Path"
+"VRInitError_Init_NoConfigPath_ActionURL" "vrmonitor://setconfig"
+
+"VRInitError_Init_NoLogPath_Header" "Missing path"
+"VRInitError_Init_NoLogPath_Description" "We can't find your log path and need to set a new one."
+"VRInitError_Init_NoLogPath_Action" "Set Log Path"
+"VRInitError_Init_NoLogPath_ActionURL" "vrmonitor://setlog"
+
+"VRInitError_Init_PathRegistryNotWritable_Header" "Something is wrong"
+"VRInitError_Init_PathRegistryNotWritable_Description" "Your path registry is not writable - this is necessary for SteamVR to work correctly."
+"VRInitError_Init_PathRegistryNotWritable_Action" "Troubleshooting"
+"VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28113.29_Path_Registry_Not_Writable"
+
+"VRInitError_Init_AppInfoInitFailed_Header" "Something is wrong"
+"VRInitError_Init_AppInfoInitFailed_Description" "An internal component of SteamVR isn't working properly. Please check SteamVR Support for help."
+"VRInitError_Init_AppInfoInitFailed_Action" "Check SteamVR Support"
+"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_Retry_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_Retry_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_Retry_Action" "Check SteamVR Support"
+"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_InitCanceledByUser_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_InitCanceledByUser_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_InitCanceledByUser_Action" "Check SteamVR Support"
+"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_AnotherAppLaunching_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_AnotherAppLaunching_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_AnotherAppLaunching_Action" "Check SteamVR Support"
+"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_SettingsInitFailed_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_SettingsInitFailed_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_SettingsInitFailed_Action" "Check SteamVR Support"
+"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_ShuttingDown_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_ShuttingDown_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_ShuttingDown_Action" "Check SteamVR Support"
+"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_TooManyObjects_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_TooManyObjects_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_TooManyObjects_Action" "Check SteamVR Support"
+"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_NoServerForBackgroundApp_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_NoServerForBackgroundApp_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_NoServerForBackgroundApp_Action" "Check SteamVR Support"
+"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_NotSupportedWithCompositor_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_NotSupportedWithCompositor_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_NotSupportedWithCompositor_Action" "Check SteamVR Support"
+"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_NotAvailableToUtilityApps_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Init_NotAvailableToUtilityApps_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Init_NotAvailableToUtilityApps_Action" "Check SteamVR Support"
+"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Internal_Header" "Hmm, that shouldn't have happened."
+"VRInitError_Internal_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_Internal_Action" "Check SteamVR Support"
+"VRInitError_Internal_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_HmdDriverIdIsNone_Header" "Headset not detected"
+"VRInitError_Init_HmdDriverIdIsNone_Description" "Make sure your headset is connected properly, then reboot it by clicking below."
+"VRInitError_Init_HmdDriverIdIsNone_FirstAction" "Reboot Headset"
+"VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://rebootvive"
+"VRInitError_Init_HmdDriverIdIsNone_Action" "Troubleshooting"
+"VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
+"VRInitError_Init_HmdNotFoundPresenceFailed_Header" "Headset not detected"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Make sure your headset is connected properly, then reboot it by clicking below."
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "Reboot Headset"
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://rebootvive"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "Troubleshooting"
+"VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
+"VRInitError_Driver_Failed_Header" "Something is wrong"
+"VRInitError_Driver_Failed_Description" "There was an internal error - Click below for more info."
+"VRInitError_Driver_Failed_Action" "Troubleshooting"
+"VRInitError_Driver_Failed_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28200.29_Driver_Failed"
+
+"VRInitError_Driver_Unknown_Header" "Something is wrong"
+"VRInitError_Driver_Unknown_Description" "A driver configured in settings isn't valid."
+"VRInitError_Driver_Unknown_Action" "Try to fix this"
+"VRInitError_Driver_Unknown_ActionURL" "vrmonitor://unsetforceddriver"
+
+"VRInitError_Driver_HmdUnknown_Header" "Headset not recognized"
+"VRInitError_Driver_HmdUnknown_Description" "The specific headset serial number named in the settings cannot be found."
+"VRInitError_Driver_HmdUnknown_Action" "Try to fix this"
+"VRInitError_Driver_HmdUnknown_ActionURL" "vrmonitor://unsetforcedhmd"
+
+"VRInitError_Driver_NotLoaded_Header" "File not loading"
+"VRInitError_Driver_NotLoaded_Description" "A driver required for SteamVR isn't loading correctly, please check your SteamVR installation."
+"VRInitError_Driver_NotLoaded_Action" "Troubleshooting"
+"VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Driver_RuntimeOutOfDate_Header" "Oculus software is out of date"
+"VRInitError_Driver_RuntimeOutOfDate_Description" "The Oculus runtime is out of date, please install the latest version."
+"VRInitError_Driver_RuntimeOutOfDate_Action" "Visit developer.oculus.com"
+"VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://developer.oculus.com/downloads/"
+
+"VRInitError_Driver_HmdInUse_Header" "Headset in use"
+"VRInitError_Driver_HmdInUse_Description" "The headset is being used by another application. Please quit any other VR apps to continue."
+"VRInitError_Driver_HmdInUse_Action" "Try again"
+"VRInitError_Driver_HmdInUse_ActionURL" "vrmonitor://refresh"
+
+"VRInitError_Driver_NotCalibrated_Header" "Driver not calibrated"
+"VRInitError_Driver_NotCalibrated_Description" "We are having trouble loading a calibration file."
+"VRInitError_Driver_NotCalibrated_Action" "Troubleshooting"
+"VRInitError_Driver_NotCalibrated_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28206.29_Driver_Not_Calibrated"
+
+"VRInitError_Driver_CalibrationInvalid_Header" "Driver calibration failed"
+"VRInitError_Driver_CalibrationInvalid_Description" "We are having trouble loading a calibration file."
+"VRInitError_Driver_CalibrationInvalid_Action" "Troubleshooting"
+"VRInitError_Driver_CalibrationInvalid_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28207.29_Driver_Calibration_Invalid"
+
+"VRInitError_Driver_HmdDisplayNotFound_Header" "Headset not connected properly"
+"VRInitError_Driver_HmdDisplayNotFound_Description" "The headset's display was not found, please make sure your HDMI cables are securely connected, then reboot it by clicking below."
+"VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Reboot Headset"
+"VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://rebootvive"
+"VRInitError_Driver_HmdDisplayNotFound_Action" "Troubleshooting"
+"VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28208.29_HMD_Display_Not_Found"
+
+"VRInitError_Driver_HmdDisplayMirrored_Header" "Headset display mirrored"
+"VRInitError_Driver_HmdDisplayMirrored_Description" "The headset's display was not found, but a mirrored display was detected.  Please set the HMD to extended rather than mirrored."
+"VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Open Display Properties"
+"VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+"VRInitError_Driver_HmdDisplayMirrored_Action" "Troubleshooting"
+"VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28208.29_HMD_Display_Not_Found"
+
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset not detected"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Make sure your headset is connected properly, then reboot it by clicking below."
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Reboot Headset"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://rebootvive"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "Troubleshooting"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Driver Not Compatible"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "The driver used by this headset is not compatible with this version of SteamVR."
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "Troubleshooting"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28208.29_Driver_TrackedDeviceInterfaceUnknown"
+
+"VRInitError_IPC_ServerInitFailed_Header" "Something is wrong"
+"VRInitError_IPC_ServerInitFailed_Description" "A key component of SteamVR isn't working properly, please check your SteamVR installation, then reboot your headset by clicking below."
+"VRInitError_IPC_ServerInitFailed_FirstAction" "Reboot Headset"
+"VRInitError_IPC_ServerInitFailed_FirstActionURL" "vrmonitor://rebootvive"
+"VRInitError_IPC_ServerInitFailed_Action" "Troubleshooting"
+"VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_IPC_ConnectFailed_Header" "Connect Failed"
+"VRInitError_IPC_ConnectFailed_Description" "A key component of SteamVR isn't working properly."
+"VRInitError_IPC_ConnectFailed_Action" "Troubleshooting"
+"VRInitError_IPC_ConnectFailed_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28301.29_Connect_Failed"
+
+"VRInitError_IPC_SharedStateInitFailed_Header" "Init Failed"
+"VRInitError_IPC_SharedStateInitFailed_Description" "A key component of SteamVR isn't working properly."
+"VRInitError_IPC_SharedStateInitFailed_Action" "Troubleshooting"
+"VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28302.29_Shared_State_Init_Failed"
+
+"VRInitError_IPC_CompositorInitFailed_Header" "Something is wrong"
+"VRInitError_IPC_CompositorInitFailed_Description" "A key component of SteamVR isn't working correctly, please check your SteamVR installation"
+"VRInitError_IPC_CompositorInitFailed_Action" "Troubleshooting"
+"VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_IPC_MutexInitFailed_Header" "Something is wrong"
+"VRInitError_IPC_MutexInitFailed_Description" "A key component of SteamVR isn't working correctly, please check your SteamVR installation"
+"VRInitError_IPC_MutexInitFailed_Action" "Troubleshooting"
+"VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_IPC_Failed_Header" "Hmm, that shouldn't have happened."
+"VRInitError_IPC_Failed_Description" "There was an unexpected problem. Please check SteamVR Support for help."
+"VRInitError_IPC_Failed_Action" "Check SteamVR Support"
+"VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_IPC_CompositorConnectFailed_Header" "Connect Failed"
+"VRInitError_IPC_CompositorConnectFailed_Description" "A key component of SteamVR isn't working properly."
+"VRInitError_IPC_CompositorConnectFailed_Action" "Troubleshooting"
+"VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28301.29_Connect_Failed"
+
+"VRInitError_IPC_CompositorInvalidConnectResponse_Header" "Connect Failed"
+"VRInitError_IPC_CompositorInvalidConnectResponse_Description" "A key component of SteamVR isn't working properly."
+"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "Troubleshooting"
+"VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28301.29_Connect_Failed"
+
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "Connect Failed"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "A key component of SteamVR isn't working properly."
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "Troubleshooting"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.28301.29_Connect_Failed"
+
+
+"VRInitError_Compositor_D3D11HardwareRequired_Header" "Compositor did not start"
+"VRInitError_Compositor_D3D11HardwareRequired_Description" "The compositor was unable to locate DirectX 11 compatible hardware or drivers.  You may need to upgrade."
+"VRInitError_Compositor_D3D11HardwareRequired_Action" "Launch Compositor"
+"VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "vrmonitor://reconnectcompositor"
+
+
+"VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Compositor Rejected Initialization"
+"VRInitError_Compositor_FirmwareRequiresUpdate_Description" "Your headset is detected, but requires a mandatory firmware update to ensure correct operation."
+"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Update Firmware"
+"VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
+
+
+"VRInitError_Compositor_UnableToCreateDevice_Header" "Compositor Unable to Create Device"
+"VRInitError_Compositor_UnableToCreateDevice_Description" "The compositor was unable to create a graphics device as part of its initialization."
+"VRInitError_Compositor_UnableToCreateDevice_Action" "Troubleshooting"
+"VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+///
+
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Unable to connect to Oculus runtime"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR was unable to connect to the Oculus runtime. Please make sure you have the latest version installed."
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Visit developer.oculus.com"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://developer.oculus.com/downloads/"
+
+
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "USB Error"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "Your headset is detected, but there is a problem."
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "Troubleshooting"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/Error_Codes#.281101-1112.29_USB_Error"
+
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Something is wrong"
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "Your headset is detected, but there is a problem with the hardware. You will need to contact HTC."
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "Visits HTC Website"
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "http://www.htcvive.com"
+
+"VRInitError_Steam_SteamInstallationNotFound_Header" "Steam not detected"
+"VRInitError_Steam_SteamInstallationNotFound_Description" "Steam needs to be installed for SteamVR to work correctly."
+"VRInitError_Steam_SteamInstallationNotFound_Action" "Install Steam"
+"VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
+
+"ChaperoneCalibrationState_Warning_Header" "Room Setup is invalid"
+"ChaperoneCalibrationState_Warning_Description" "Please run Room Setup again."
+"ChaperoneCalibrationState_Warning_Action" "Run Room Setup"
+"ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "Base station moved"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "It looks like a base station might have moved, please run Room Setup."
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Run Room Setup"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Base station removed"
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "We lost track of one of the base stations, please run Room Setup."
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "Run Room Setup"
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_Room Setup"
+
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header" "No seated position"
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description" "Seated position hasn't been set up yet."
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action" "Run Room Setup"
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+
+"ChaperoneCalibrationState_Error_Header" "Room Setup is invalid"
+"ChaperoneCalibrationState_Error_Description" "Please run Room Setup again."
+"ChaperoneCalibrationState_Error_Action" "Run Room Setup"
+"ChaperoneCalibrationState_Error_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header" "Room is not set up"
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description" "Please run Room Setup to begin using SteamVR."
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Run Room Setup"
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+
+"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Problem with play area"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Your play area needs to be set up again to continue."
+"ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Run Room Setup"
+"ChaperoneCalibrationState_Error_BaseStationConflict_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Play area not set up"
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Your play area needs to be set up to continue."
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Run Room Setup"
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Collision bounds not set up"
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "Your collision bounds need to be set to continue."
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Run Room Setup"
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+
+"Lighthouse_UnknownEvent_Header" "Lighthouse error"
+"Lighthouse_UnknownEvent_Description" "Something is wrong with your Lighthouse system. Please check SteamVR Support for help."
+"Lighthouse_UnknownEvent_Action" "Check SteamVR Support"
+"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"Lighthouse_BasestationFactoryError_Header" "Base station unusable"
+"Lighthouse_BasestationFactoryError_Description" "This base station has a manufacturing error, please contact HTC for a replacement base station."
+"Lighthouse_BasestationFactoryError_Action" "Visit htcvive.com/support"
+"Lighthouse_BasestationFactoryError_ActionURL" "http://www.htcvive.com/support"
+
+"Lighthouse_BasestationInternalFault_01_Header" "Base station unusable"
+"Lighthouse_BasestationInternalFault_01_Description" "A base station has developed an internal problem (fault 01). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_01_Action" "Visit htcvive.com/support"
+"Lighthouse_BasestationInternalFault_01_ActionURL" "http://www.htcvive.com/support"
+
+"Lighthouse_BasestationInternalFault_02_Header" "Base station unusable"
+"Lighthouse_BasestationInternalFault_02_Description" "A base station has developed an internal problem (fault 02). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_02_Action" "Visit htcvive.com/support"
+"Lighthouse_BasestationInternalFault_02_ActionURL" "http://www.htcvive.com/support"
+
+"Lighthouse_BasestationInternalFault_03_Header" "Base station unusable"
+"Lighthouse_BasestationInternalFault_03_Description" "A base station has developed an internal problem (fault 03). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_03_Action" "Visit htcvive.com/support"
+"Lighthouse_BasestationInternalFault_03_ActionURL" "http://www.htcvive.com/support"
+
+"Lighthouse_BasestationInternalFault_04_Header" "Base station unusable"
+"Lighthouse_BasestationInternalFault_04_Description" "A base station has developed an internal problem (fault 04). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_04_Action" "Visit htcvive.com/support"
+"Lighthouse_BasestationInternalFault_04_ActionURL" "http://www.htcvive.com/support"
+
+"Lighthouse_BasestationInternalFault_05_Header" "Base station unusable"
+"Lighthouse_BasestationInternalFault_05_Description" "A base station has developed an internal problem (fault 05). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_05_Action" "Visit htcvive.com/support"
+"Lighthouse_BasestationInternalFault_05_ActionURL" "http://www.htcvive.com/support"
+
+"Lighthouse_Disambiguator_TooManyBasestations_Header" "Too many base stations"
+"Lighthouse_Disambiguator_TooManyBasestations_Description" "Please make sure only two base stations are visible to your headset and controllers."
+"Lighthouse_Disambiguator_TooManyBasestations_Action" "Check Again"
+"Lighthouse_Disambiguator_TooManyBasestations_ActionURL" "vrmonitor://lighthouse_check"
+
+"Lighthouse_Disambiguator_TdmConfigurationError_Header" "Base station setup problem"
+"Lighthouse_Disambiguator_TdmConfigurationError_Description" "Your base stations are not syncing, please make sure they are set up properly."
+"Lighthouse_Disambiguator_TdmConfigurationError_Action" "Troubleshooting"
+"Lighthouse_Disambiguator_TdmConfigurationError_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
+
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Base station setup problem"
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Your bases are in modes 'A' and 'c'.  Switch 'A' base to mode 'b' for optical sync."
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Troubleshooting"
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
+
+"Popover_Off_Invalid_Header" "Invalid Device not connected"
+"Popover_Off_Invalid_Description" " "
+"Popover_Off_Invalid_Action" " "
+"Popover_Off_Invalid_ActionURL" " "
+
+"Popover_Off_HMD_Header" "Headset not connected"
+"Popover_Off_HMD_Description" "Make sure it is powered and connected properly."
+"Popover_Off_HMD_Action" "Troubleshooting"
+"Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
+"Popover_Off_Controller_Header" "Controller not connected"
+"Popover_Off_Controller_Description" "Make sure it is powered on and nearby."
+"Popover_Off_Controller_Action" "Troubleshooting"
+"Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#controllers"
+"Popover_Off_Controller_FirstAction" "Pair Controller"
+"Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
+
+"Popover_Off_Base_Header" "Base station not detected"
+"Popover_Off_Base_Description" "Make sure it is powered and connected."
+"Popover_Off_Base_Action" "Troubleshooting"
+"Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
+
+"Popover_Off_Tracker_Header" "Tracker not connected"
+"Popover_Off_Tracker_Description" " "
+"Popover_Off_Tracker_Action" " "
+"Popover_Off_Tracker_ActionURL" " "
+
+
+"Popover_NotReady_Invalid_Header" "Device is not ready"
+"Popover_NotReady_Invalid_Description" " "
+"Popover_NotReady_Invalid_Action" "Troubleshooting"
+"Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326"
+
+"Popover_NotReady_HMD_Header" "Headset is not ready"
+"Popover_NotReady_HMD_Description" " "
+"Popover_NotReady_HMD_Action" " "
+"Popover_NotReady_HMD_ActionURL" " "
+
+"Popover_NotReady_Controller_Header" "Controller is not ready"
+"Popover_NotReady_Controller_Description" "Make sure it is powered on and nearby."
+"Popover_NotReady_Controller_Action" " "
+"Popover_NotReady_Controller_ActionURL" " "
+
+"Popover_NotReady_Base_Header" "Base station is not ready"
+"Popover_NotReady_Base_Description" " "
+"Popover_NotReady_Base_Action" " "
+"Popover_NotReady_Base_ActionURL" " "
+
+"Popover_NotReady_Tracker_Header" "Tracker not ready"
+"Popover_NotReady_Tracker_Description" " "
+"Popover_NotReady_Tracker_Action" " "
+"Popover_NotReady_Tracker_ActionURL" " "
+
+
+"Popover_Pose_Invalid_Header" "Invalid Device Ready"
+"Popover_Pose_Invalid_Description" " "
+"Popover_Pose_Invalid_Action" " "
+"Popover_Pose_Invalid_ActionURL" ""
+
+"Popover_Pose_HMD_Header" "Headset ready"
+"Popover_Pose_HMD_Description" "This headset is connected and tracking."
+"Popover_Pose_HMD_Action" " "
+"Popover_Pose_HMD_ActionURL" " "
+
+"Popover_Pose_Controller_Header" "Controller ready"
+"Popover_Pose_Controller_Description" "This controller is connected and tracking."
+"Popover_Pose_Controller_Action" "Identify controller"
+"Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_Pose_Base_Header" "Base station ready"
+"Popover_Pose_Base_Description" "This base station is powered and tracking."
+"Popover_Pose_Base_Action" "Identify base station"
+"Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
+
+"Popover_Pose_Tracker_Header" "Tracker ready"
+"Popover_Pose_Tracker_Description" "This device is connected and tracking."
+"Popover_Pose_Tracker_Action" " "
+"Popover_Pose_Tracker_ActionURL" " "
+
+
+"Popover_NoPose_Invalid_Header" "Invalid device not tracking"
+"Popover_NoPose_Invalid_Description" " "
+"Popover_NoPose_Invalid_Action" " "
+"Popover_NoPose_Invalid_ActionURL" ""
+
+"Popover_NoPose_HMD_Header" "Headset not tracking"
+"Popover_NoPose_HMD_Description" "This headset is connected but not tracking. Make sure it can see a base station. "
+"Popover_NoPose_HMD_Action" " "
+"Popover_NoPose_HMD_ActionURL" " "
+
+"Popover_NoPose_Controller_Header" "Controller not tracking"
+"Popover_NoPose_Controller_Description" "This controller is connected but not tracking. Make sure it can see a base station. "
+"Popover_NoPose_Controller_Action" "Identify controller"
+"Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoPose_Base_Header" "Base station not tracking"
+"Popover_NoPose_Base_Description" "This base station is powered but not tracking. Make sure it is visible from your headset or a controller."
+"Popover_NoPose_Base_Action" " "
+"Popover_NoPose_Base_ActionURL" " "
+
+"Popover_NoPose_Tracker_Header" "Tracker not tracking"
+"Popover_NoPose_Tracker_Description" "This device is connected but not tracking."
+"Popover_NoPose_Tracker_Action" " "
+"Popover_NoPose_Tracker_ActionURL" " "
+
+"Popover_Standby_Invalid_Header" "Invalid device is in standby"
+"Popover_Standby_Invalid_Description" " "
+"Popover_Standby_Invalid_Action" " "
+"Popover_Standby_Invalid_ActionURL" ""
+
+"Popover_Standby_HMD_Header" "Headset is in standby"
+"Popover_Standby_HMD_Description" "This headset is in standby mode. Move it to wake it up."
+"Popover_Standby_HMD_Action" " "
+"Popover_Standby_HMD_ActionURL" " "
+
+"Popover_Standby_Controller_Header" "Controller is in standby"
+"Popover_Standby_Controller_Description" "This controller is in standby mode. Move it to wake it up."
+"Popover_Standby_Controller_Action" " "
+"Popover_Standby_Controller_ActionURL" " "
+
+"Popover_Standby_Base_Header" "Base station is in standby"
+"Popover_Standby_Base_Description" "This base station is in standby mode."
+"Popover_Standby_Base_Action" " "
+"Popover_Standby_Base_ActionURL" " "
+
+"Popover_Standby_Tracker_Header" "Tracker is in standby"
+"Popover_Standby_Tracker_Description" "This device is in standby."
+"Popover_Standby_Tracker_Action" " "
+"Popover_Standby_Tracker_ActionURL" " "
+
+"Popover_LowBattery_HMD_Header" "HMD ready with low battery"
+"Popover_LowBattery_HMD_Description" "This HMD is connected and tracking but the battery is low."
+"Popover_LowBattery_HMD_Action" " "
+"Popover_LowBattery_HMD_ActionURL" " "
+
+"Popover_LowBattery_Controller_Header" "Controller ready with low battery"
+"Popover_LowBattery_Controller_Description" "This controller is connected and tracking but the battery is low."
+"Popover_LowBattery_Controller_Action" "Identify controller"
+"Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_LowBattery_Tracker_Header" "Tracker ready with low battery"
+"Popover_LowBattery_Tracker_Description" "This tracker is connected and tracking but the battery is low."
+"Popover_LowBattery_Tracker_Action" " "
+"Popover_LowBattery_Tracker_ActionURL" " "
+
+"Popover_BaseStationNoPowerManagement_Header" "No power management"
+"Popover_BaseStationNoPowerManagement_Description" "This base station can not participate in the power management."
+"Popover_BaseStationNoPowerManagement_Action" " "
+"Popover_BaseStationNoPowerManagement_ActionURL" " "
+
+
+"Popover_NoSteamWarning_Header" "Steam not detected"
+"Popover_NoSteamWarning_Description" "Make sure Steam is installed and running."
+"Popover_NoSteamWarning_Action" "Start Steam"
+"Popover_NoSteamWarning_ActionURL" "vrmonitor://startsteam"
+
+"Popover_FirmwareUpdateNeededWarning_Header" "Firmware out of date"
+"Popover_FirmwareUpdateNeededWarning_Description" "Your firmware is out of date, please update it to ensure your device works correctly."
+"Popover_FirmwareUpdateNeededWarning_Action" "Troubleshooting"
+"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Update available"
+"Popover_FirmwareUpdateNeededWarning_ActionURL" "https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware"
+
+"Popover_ConnectionRefusedBySteam_Header" "Can not connect to Steam"
+"Popover_ConnectionRefusedBySteam_Description" "There is a problem in the connection to Steam. Restart the Steam Client to fix."
+"Popover_ConnectionRefusedBySteam_Action" " "
+"Popover_ConnectionRefusedBySteam_ActionURL" " "
+
+"Popover_DirectModeDriverUpdate_Header" "Update graphics drivers"
+"Popover_DirectModeDriverUpdate_Description" "To enable direct display mode, please update your video drivers. Version %1 is installed, but direct mode requires version %2"
+"Popover_DirectModeDriverUpdate_Action" "Download Drivers"
+"Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
+"Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
+
+"Popover_BaseStationsTooFarApart_Header" "Base Stations too far apart"
+"Popover_BaseStationsTooFarApart_Description" "The distance between the base stations is %1 meters, the recommended distance is less than 5.5 meters."
+"Popover_BaseStationsTooFarApart_Action" " "
+"Popover_BaseStationsTooFarApart_ActionURL" " "
+
+"Popover_SeeOnlyOneBase_Header" "Only one Base Station visible"
+"Popover_SeeOnlyOneBase_Description" "If you are running SteamVR with only one base station on purpose, switching this base to mode A will have better tracking results."
+"Popover_SeeOnlyOneBase_Action" " "
+"Popover_SeeOnlyOneBase_ActionURL" " "
+
+"Warning_DismissableWarning_RunTutorialAgain_Header" "Room Setup and Tutorial"
+"Warning_DismissableWarning_RunTutorialAgain_Description" "You can run Room Setup or the Tutorial again anytime from the SteamVR menu below."
+"Warning_DismissableWarning_RunTutorialAgain_Action" " "
+"Warning_DismissableWarning_RunTutorialAgain_ActionURL" " "
+
+"Warning_DismissableWarning_BasestationsTooFarApart_Header" "Base stations are too far apart"
+"Warning_DismissableWarning_BasestationsTooFarApart_Description" "For the best experience, your base stations should not be more than 5.5 meters apart."
+"Warning_DismissableWarning_BasestationsTooFarApart_Action" " "
+"Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" " "
+
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "Base stations lost optical sync"
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "There may be something blocking line of sight between the two base stations. If this warning persists between sessions you might consider switching to cabled sync."
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "More info"
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
+
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Only one base station detected"
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "If you are only using one base station, tracking quality will improve if you switch this basestation to mode A."
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" " "
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" " "
+
+"Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Device info"
+"Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Hover over the icons below to see details and status about each device. If you need to take an action like updating firmware, you will see an ( i ) appear on the icon."
+"Warning_DismissableWarning_WarningsForTheFirstTime_Action" " "
+"Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" " "
+
+"Warning_DismissableWarning_MissedFrames_Header" "Application running too slowly"
+"Warning_DismissableWarning_MissedFrames_Description" "The current VR application runs too slowly, which can give you a bad experience. This may be because the application is too demanding, or your computer is too slow."
+"Warning_DismissableWarning_MissedFrames_Action" " "
+"Warning_DismissableWarning_MissedFrames_ActionURL" " "
+
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Bluetooth Driver"
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "A driver needs to be installed to complete Link Box installation. SteamVR needs to be restarted after successful installation."
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Install"
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://vivelink/driverinstall"
+
+"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Header" "Bluetooth Driver installation failed"
+"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Description" "A driver needs to be installed to complete Link Box installation. Restart SteamVR and try again."
+"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Action" "Retry"
+"Warning_DismissableWarning_BluetoothDriverFailedInstallation_ActionURL" "vrmonitor://vivelink/driverinstall"
+
+"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Header" "Bluetooth Link"
+"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Description" "Bluetooth Link needs to be installed to enable Link Box communication."
+"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Action" "Install"
+"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_ActionURL" "vrmonitor://vivelink/install"
+
+"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Header" "Bluetooth Link installation failed"
+"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Description" "Bluetooth Link needs to be installed to enable Link Box communication. Restart SteamVR and try again."
+"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Action" "Retry"
+"Warning_DismissableWarning_BluetoothLinkFailedInstallation_ActionURL" "vrmonitor://vivelink/install"
+
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Bluetooth Link communication failed"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Bluetooth Link might need to restart to enable Link Box communication. Restart SteamVR if this fails."
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Restart"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://vivelink/restart"
+
+
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Mirroring Displays"
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "Some displays seemed to be set to mirror its content. This might impact your graphics performance, or renders the headset display unusable."
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action" "Open Display Properties"
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_ActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+
+"Warning_DismissableWarning_UnknownHardwareDetected_Header" "Unknown Hardware Detected"
+"Warning_DismissableWarning_UnknownHardwareDetected_Description" "The firmware manifest has no entries for some of the detected hardware."
+"Warning_DismissableWarning_UnknownHardwareDetected_Action" " "
+"Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" " "
+
+"Warning_DismissableWarning_WindowsAeroDisabled_Header" "Windows Aero disabled"
+"Warning_DismissableWarning_WindowsAeroDisabled_Description" "For best performance when running VR, please switch to an Aero Theme by right-clicking on desktop and selecting Personalize in the drop-down."
+"Warning_DismissableWarning_WindowsAeroDisabled_Action" "Open Personalization"
+"Warning_DismissableWarning_WindowsAeroDisabled_ActionURL" "vrmonitor://controlpanel/Microsoft.Personalization"
+
+"Warning_DismissableWarning_Windows8_Header" "Windows 8 detected"
+"Warning_DismissableWarning_Windows8_Description" "SteamVR is not supported on Windows 8. Please upgrade to Windows 8.1 or Windows 10 for the best results."
+"Warning_DismissableWarning_Windows8_Action" " "
+"Warning_DismissableWarning_Windows8_ActionURL" " "
+
+
+"Warning_DismissableWarning_DisplayInExtendedMode_Header" "SteamVR is in Extended Mode"
+"Warning_DismissableWarning_DisplayInExtendedMode_Description" "Extended Mode is not recommended. For the best results, please switch to Direct Mode."
+"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Enable Direct Mode"
+"Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
+
+"Warning_DismissableWarning_IssuesWithOneDongle_Header" "Wireless Receiver Not Detected"
+"Warning_DismissableWarning_IssuesWithOneDongle_Description" "One of the wireless receivers in your Vive Headset was not detected."
+"Warning_DismissableWarning_IssuesWithOneDongle_Action" "Troubleshooting"
+"Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
+
+"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Wireless Receivers Not Detected"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "The wireless receivers in your Vive Headset were not detected."
+"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Troubleshooting"
+"Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
+
+
+}
+}  
