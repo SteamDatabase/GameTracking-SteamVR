@@ -1,0 +1,309 @@
+// Home
+"soundscape_home_plains"
+{
+	"playevent"
+	{
+		"event"	"home_amb_plains"
+	}
+}
+"soundscape_home_forest"
+{
+	"playevent"
+	{
+		"event"	"home_amb_forest"
+	}
+}
+"soundscape_home_caves"
+{
+	"playevent"
+	{
+		"event"	"home_amb_caves"
+	}
+}
+"soundscape_home_city"
+{
+	"playevent"
+	{
+		"event"	"home_amb_city"
+	}
+}
+"soundscape_home_ocean"
+{
+	"playevent"
+	{
+		"event"	"home_amb_ocean"
+	}
+}
+"soundscape_home_desert"
+{
+	"playevent"
+	{
+		"event"	"home_amb_desert"
+	}
+}
+
+// Mars
+// Positions 0 and 1 are in the rover units body
+// Positions 2 is at the rear of the rover
+// Positions 3 is on the tall camera arm on the rover
+"soundscape_mars" 
+{
+
+	// Rover Body
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_70dB"
+		"position"  	"0"
+		"wave"			"sounds/mars/rover_loop_power.vsnd"
+	}
+	"playlooping"
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_50dB"
+		"position"  	"1"
+		"wave"			"sounds/mars/rover_loop_computer.vsnd"
+	}
+	"playrandom"
+	{
+		"volume"		"0.1"
+		"pitch"			"100" 	
+		"time"			"4, 9"
+		"soundlevel" 	"SNDLVL_50dB"
+		"position"  	"1"
+		"rndwave"
+		{
+			"wave"		"sounds/mars/rover_mechanism_01.vsnd"
+			"wave"		"sounds/mars/rover_mechanism_02.vsnd"
+			"wave"		"sounds/mars/rover_mechanism_03.vsnd"
+			"wave"		"sounds/mars/rover_mechanism_04.vsnd"
+			"wave"		"sounds/mars/rover_mechanism_05.vsnd"
+			"wave"		"sounds/mars/rover_mechanism_06.vsnd"
+			"wave"		"sounds/mars/rover_mechanism_07.vsnd"				
+		}
+	}
+	"playrandom"
+	{
+		"volume"		"0.1"
+		"pitch"			"10, 30" 
+		"time"			"15, 30"
+		"soundlevel" 	"SNDLVL_40dB"
+		"position"  	"0"
+		"rndwave"
+		{
+			"wave"		"sounds/mars/rover_comms_01.vsnd"
+			"wave"		"sounds/mars/rover_comms_02.vsnd"
+			"wave"		"sounds/mars/rover_comms_03.vsnd"
+			"wave"		"sounds/mars/rover_comms_04.vsnd"			
+		}
+	}
+	// Rover front / camera
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_45dB"
+		"position"  	"3"
+		"wave"			"sounds/mars/rover_loop_buzz_01.vsnd"
+	}
+	"playrandom"
+	{
+		"volume"		"0.1"
+		"pitch"			"100" 	
+		"time"			"5, 10"
+		"soundlevel" 	"SNDLVL_50dB"
+		"position"  	"3"
+		"rndwave"
+		{
+			"wave"		"sounds/mars/rover_camera_01.vsnd"
+			"wave"		"sounds/mars/rover_camera_02.vsnd"
+			"wave"		"sounds/mars/rover_camera_03.vsnd"
+			"wave"		"sounds/mars/rover_camera_04.vsnd"
+			"wave"		"sounds/mars/rover_camera_05.vsnd"
+			"wave"		"sounds/mars/rover_camera_06.vsnd"
+			"wave"		"sounds/mars/rover_camera_07.vsnd"	
+			"wave"		"sounds/mars/rover_camera_08.vsnd"	
+			"wave"		"sounds/mars/rover_camera_11.vsnd"
+			"wave"		"sounds/mars/rover_camera_12.vsnd"			
+		}
+	}	
+	// Rover rear
+	"playlooping"
+	{
+		"volume"		"0.15"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_45dB"
+		"position"  	"2"
+		"wave"			"sounds/mars/rover_loop_buzz_02.vsnd"
+	}
+	"playrandom"
+	{
+		"volume"		"0.3"
+		"pitch"			"100" 	
+		"time"			"5, 10"
+		"soundlevel" 	"SNDLVL_45dB"
+		"position"  	"2"
+		"rndwave"
+		{
+			"wave"		"sounds/mars/rover_calculations_01.vsnd"
+			"wave"		"sounds/mars/rover_calculations_02.vsnd"
+			"wave"		"sounds/mars/rover_calculations_03.vsnd"
+			"wave"		"sounds/mars/rover_calculations_04.vsnd"
+			"wave"		"sounds/mars/rover_calculations_05.vsnd"
+			"wave"		"sounds/mars/rover_calculations_06.vsnd"
+			"wave"		"sounds/mars/rover_calculations_07.vsnd"	
+			"wave"		"sounds/mars/rover_calculations_08.vsnd"
+			"wave"		"sounds/mars/rover_calculations_09.vsnd"		
+		}
+	}
+	// Environment
+	"playlooping"
+	{
+		"volume"		"0.18"
+		"pitch"			"100"
+		"wave"			"sounds/mars/ambient_wind_loop.vsnd"
+	}
+	"playrandom"
+	{
+		"volume"		"0.12"	
+		"pitch"			"95, 105"
+		"time"			"15, 25"
+		"rndwave"
+		{
+			"wave"		"sounds/mars/ambient_rumble_01.vsnd"
+			"wave"		"sounds/mars/ambient_rumble_02.vsnd"
+			"wave"		"sounds/mars/ambient_rumble_03.vsnd"
+			"wave"		"sounds/mars/ambient_rumble_04.vsnd"			
+		}
+	}
+}
+
+// English Churchyard
+// Position 0 is the church tower
+// Positions 1, 2, 3 and 4 are in the trees
+// Positions 5, 6 and 7 are in the surrounding town
+"soundscape_english_churchyard" 
+{
+	// Environment
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"sounds/english_churchyard/ambient_countryside_loop.vsnd"
+	}
+	// Jackdaws
+	"playrandom"
+	{
+		"time"			"12, 20"
+		"volume"		"0.4"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_70dB"
+		"position"  	"1"
+		"rndwave"
+		{
+			"wave"		"sounds/english_churchyard/birds_jackdaws_a_01.vsnd"
+			"wave"		"sounds/english_churchyard/birds_jackdaws_a_02.vsnd"
+			"wave"		"sounds/english_churchyard/birds_jackdaws_a_03.vsnd"
+			"wave"		"sounds/english_churchyard/birds_jackdaws_a_04.vsnd"
+			"wave"		"sounds/english_churchyard/birds_jackdaws_a_05.vsnd"			
+		}
+	}
+	"playrandom"
+	{
+		"time"			"12, 20"
+		"volume"		"0.4"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_70dB"
+		"position"  	"3"
+		"rndwave"
+		{
+			"wave"		"sounds/english_churchyard/birds_jackdaws_b_01.vsnd"
+			"wave"		"sounds/english_churchyard/birds_jackdaws_b_02.vsnd"
+			"wave"		"sounds/english_churchyard/birds_jackdaws_b_03.vsnd"
+			"wave"		"sounds/english_churchyard/birds_jackdaws_b_04.vsnd"
+			"wave"		"sounds/english_churchyard/birds_jackdaws_b_05.vsnd"			
+		}
+	}
+	// Songbirds
+	"playrandom"
+	{
+		"time"			"8,12"
+		"volume"		"0.18"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_70dB"
+		"position"  	"2"
+		"rndwave"
+		{
+			"wave"		"sounds/english_churchyard/bird_song_a_01.vsnd"
+			"wave"		"sounds/english_churchyard/bird_song_a_02.vsnd"
+			"wave"		"sounds/english_churchyard/bird_song_a_03.vsnd"
+			"wave"		"sounds/english_churchyard/bird_song_a_04.vsnd"
+			"wave"		"sounds/english_churchyard/bird_song_a_05.vsnd"	
+			"wave"		"sounds/english_churchyard/bird_song_a_06.vsnd"			
+		}
+	}
+	"playrandom"
+	{
+		"time"			"9,14"
+		"volume"		"0.18"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_65dB"
+		"position"  	"4"
+		"rndwave"
+		{
+			"wave"		"sounds/english_churchyard/bird_song_b_01.vsnd"
+			"wave"		"sounds/english_churchyard/bird_song_b_02.vsnd"
+			"wave"		"sounds/english_churchyard/bird_song_b_03.vsnd"			
+		}
+	}
+	// Pigeon in tower
+	"playrandom"
+	{
+		"time"			"5,18"
+		"volume"		"0.25"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_60dB"
+		"position"  	"0"
+		"rndwave"
+		{
+			"wave"		"sounds/english_churchyard/birds_pigeon_tower_01.vsnd"
+			"wave"		"sounds/english_churchyard/birds_pigeon_tower_02.vsnd"
+			"wave"		"sounds/english_churchyard/birds_pigeon_tower_03.vsnd"		
+		}
+	}
+	// Dogs
+	"playrandom"
+	{
+		"time"			"10, 20"
+		"volume"		"0.1"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_75dB"
+		"position"  	"5"
+		"rndwave"
+		{
+			"wave"		"sounds/english_churchyard/dog_a_01.vsnd"
+			"wave"		"sounds/english_churchyard/dog_a_02.vsnd"
+			"wave"		"sounds/english_churchyard/dog_a_03.vsnd"		
+			"wave"		"sounds/english_churchyard/dog_a_04.vsnd"
+			"wave"		"sounds/english_churchyard/dog_a_05.vsnd"			
+		}
+	}
+	"playrandom"
+	{
+		"time"			"10, 20"
+		"volume"		"0.1"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_75dB"
+		"position"  	"7"
+		"rndwave"
+		{
+			"wave"		"sounds/english_churchyard/dog_b_01.vsnd"
+			"wave"		"sounds/english_churchyard/dog_b_02.vsnd"
+			"wave"		"sounds/english_churchyard/dog_b_03.vsnd"		
+			"wave"		"sounds/english_churchyard/dog_b_04.vsnd"
+			"wave"		"sounds/english_churchyard/dog_b_05.vsnd"			
+		}
+	}
+}

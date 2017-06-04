@@ -1,0 +1,318 @@
+"home_music_parent"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations_start_soundevent_2"
+		soundevent_name_01 = "music_base"
+		soundevent_name_02 = "music_layer"
+	}}
+
+"music_base"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_2d"
+		volume = "0.300000"
+		vsnd_files = 
+		[
+			"sounds/home/music_base_loop.vsnd",
+		]
+	}}
+
+"music_layer"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.envelope_2d"
+		volume_low = "0.020000"
+		volume_high = "0.600000"
+		fade_up_length = "20.000000"
+		fade_down_length = "20.000000"
+		vsnd_files = 
+		[
+			"sounds/home/music_layer_loop.vsnd",
+		]
+	}}
+
+"music_transition_start"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations_opvar_setter"
+		set_value = "1.000000"
+		stack_name = "destinations_opvars"
+		operator_name = "homehub_music_opvars"
+		field_name = "transition_start"
+	}}
+
+"music_transition_end"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations_opvar_setter"
+		set_value = "1.000000"
+		stack_name = "destinations_opvars"
+		operator_name = "homehub_music_opvars"
+		field_name = "transition_end"
+	}}
+
+"home_ground_deploy"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = "0.100000"
+		vsnd_files = 
+		[
+			"sounds/home/ground_deploy.vsnd",
+		]
+	}}
+
+"home_amb_forest"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations_ambient_rand"
+		random_soundevent_01_name = "home_amb_forest_bird"
+		random_soundevent_01_timer_min = "5.000000"
+		random_soundevent_01_timer_max = "10.000000"
+		random_soundevent_02_name = "home_amb_forest_wind"
+		random_soundevent_02_timer_min = "15.000000"
+		random_soundevent_02_timer_max = "20.000000"
+	}}
+
+"home_amb_forest_bird"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.randompos"
+		volume = "0.100000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_forest_bird_01.vsnd",
+			"sounds/home/ambient_forest_bird_02.vsnd",
+			"sounds/home/ambient_forest_bird_03.vsnd",
+			"sounds/home/ambient_forest_bird_04.vsnd",
+			"sounds/home/ambient_forest_bird_05.vsnd",
+			"sounds/home/ambient_forest_bird_06.vsnd",
+		]
+	}}
+
+"home_amb_forest_wind"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_2d"
+		volume = "0.100000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_forest_wind_01.vsnd",
+			"sounds/home/ambient_forest_wind_02.vsnd",
+			"sounds/home/ambient_forest_wind_03.vsnd",
+			"sounds/home/ambient_forest_wind_04.vsnd",
+		]
+	}}
+
+"home_amb_desert"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations_ambient_rand"
+		random_soundevent_01_name = "home_amb_desert_hawk"
+		random_soundevent_01_timer_min = "25.000000"
+		random_soundevent_01_timer_max = "35.000000"
+		random_soundevent_02_name = "home_amb_desert_wind"
+		random_soundevent_02_timer_min = "15.000000"
+		random_soundevent_02_timer_max = "20.000000"
+	}}
+
+"home_amb_desert_hawk"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.randompos"
+		volume = "0.100000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_desert_hawk.vsnd",
+		]
+	}}
+
+"home_amb_desert_wind"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_2d"
+		volume = "0.140000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_desert_wind_01.vsnd",
+			"sounds/home/ambient_desert_wind_02.vsnd",
+			"sounds/home/ambient_desert_wind_03.vsnd",
+		]
+	}}
+
+"home_amb_ocean"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations_ambient_rand"
+		random_soundevent_01_name = "home_amb_ocean_bird"
+		random_soundevent_01_timer_min = "12.000000"
+		random_soundevent_01_timer_max = "18.000000"
+		random_soundevent_02_name = "home_amb_ocean_waves"
+		random_soundevent_02_timer_min = "10.000000"
+		random_soundevent_02_timer_max = "18.000000"
+	}}
+
+"home_amb_ocean_bird"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.randompos"
+		volume = "0.100000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_ocean_gull_01.vsnd",
+			"sounds/home/ambient_ocean_gull_02.vsnd",
+			"sounds/home/ambient_ocean_gull_03.vsnd",
+		]
+	}}
+
+"home_amb_ocean_waves"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_2d"
+		volume = "0.160000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_ocean_waves_01.vsnd",
+			"sounds/home/ambient_ocean_waves_02.vsnd",
+			"sounds/home/ambient_ocean_waves_03.vsnd",
+			"sounds/home/ambient_ocean_waves_04.vsnd",
+		]
+	}}
+
+"home_amb_plains"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations_ambient_rand"
+		random_soundevent_01_name = "home_amb_plains_bird"
+		random_soundevent_01_timer_min = "5.000000"
+		random_soundevent_01_timer_max = "10.000000"
+		random_soundevent_02_name = "home_amb_plains_wind"
+		random_soundevent_02_timer_min = "14.000000"
+		random_soundevent_02_timer_max = "22.000000"
+	}}
+
+"home_amb_plains_bird"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.randompos"
+		volume = "0.100000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_plains_bird_01.vsnd",
+			"sounds/home/ambient_plains_bird_02.vsnd",
+			"sounds/home/ambient_plains_bird_03.vsnd",
+			"sounds/home/ambient_plains_bird_04.vsnd",
+			"sounds/home/ambient_plains_bird_05.vsnd",
+			"sounds/home/ambient_plains_bird_06.vsnd",
+			"sounds/home/ambient_plains_bird_07.vsnd",
+		]
+	}}
+
+"home_amb_plains_wind"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_2d"
+		volume = "0.100000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_plains_wind_01.vsnd",
+			"sounds/home/ambient_plains_wind_02.vsnd",
+			"sounds/home/ambient_plains_wind_03.vsnd",
+			"sounds/home/ambient_plains_wind_04.vsnd",
+		]
+	}}
+
+"home_amb_city"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations_ambient_rand"
+		random_soundevent_01_name = "home_amb_city_vehicle"
+		random_soundevent_01_timer_min = "8.000000"
+		random_soundevent_01_timer_max = "12.000000"
+	}}
+
+"home_amb_city_vehicle"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.randompos"
+		volume = "0.150000"
+		volume_random_min = "-0.030000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_future_vehicle_01.vsnd",
+			"sounds/home/ambient_future_vehicle_02.vsnd",
+			"sounds/home/ambient_future_vehicle_03.vsnd",
+			"sounds/home/ambient_future_vehicle_04.vsnd",
+			"sounds/home/ambient_future_vehicle_05.vsnd",
+			"sounds/home/ambient_future_vehicle_06.vsnd",
+			"sounds/home/ambient_future_vehicle_07.vsnd",
+			"sounds/home/ambient_future_vehicle_08.vsnd",
+		]
+	}}
+
+"home_amb_caves"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations_ambient_rand"
+		random_soundevent_01_name = "home_amb_cave_drip"
+		random_soundevent_01_timer_min = "3.000000"
+		random_soundevent_01_timer_max = "6.000000"
+		random_soundevent_02_name = "home_amb_cave_rumble"
+		random_soundevent_02_timer_min = "8.000000"
+		random_soundevent_02_timer_max = "20.000000"
+	}}
+
+"home_amb_cave_rumble"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_2d"
+		volume = "0.300000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_cave_rumbles_01.vsnd",
+			"sounds/home/ambient_cave_rumbles_02.vsnd",
+			"sounds/home/ambient_cave_rumbles_03.vsnd",
+			"sounds/home/ambient_cave_rumbles_04.vsnd",
+		]
+	}}
+
+"home_amb_cave_drip"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.randompos"
+		volume = "0.100000"
+		vsnd_files = 
+		[
+			"sounds/home/ambient_cave_drip_01.vsnd",
+			"sounds/home/ambient_cave_drip_02.vsnd",
+			"sounds/home/ambient_cave_drip_03.vsnd",
+			"sounds/home/ambient_cave_drip_04.vsnd",
+			"sounds/home/ambient_cave_drip_05.vsnd",
+			"sounds/home/ambient_cave_drip_06.vsnd",
+			"sounds/home/ambient_cave_drip_07.vsnd",
+		]
+	}}
+

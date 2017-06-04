@@ -1,0 +1,90 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/notifications_panel.vcss_c" />
+	</styles>
+
+	<snippets>
+		<snippet name="NotificationPlayerCreated">
+			<Panel class="Notification">
+				<Image class="NotificationImageClear"  src="s2r://panorama/images/content_browser/player_joined_icon_png.vtex"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_PlayerCreated" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationPlayerRemoved">
+			<Panel class="Notification">
+				<Image class="NotificationImageClear"  src="s2r://panorama/images/content_browser/player_left_icon_png.vtex"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_PlayerRemoved" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationLobbyInvite">
+			<Panel class="Notification">
+				<Image class="NotificationImageClear"  src="s2r://panorama/images/content_browser/player_invite_icon_png.vtex"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_LobbyInvite" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationItemUnlocked">
+			<Panel class="Notification">
+				<Image id="NotificationImage" class="NotificationImageSquare"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_ItemUnlocked" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationWearableUnlocked">
+			<Panel class="Notification">
+				<Image id="NotificationImage" class="NotificationImageSquare"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_WearableUnlocked" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationAvatarUnlocked">
+			<Panel class="Notification">
+				<Image id="NotificationImage" class="NotificationImageSquare"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_AvatarUnlocked" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationUserHasUnlocked">
+			<Panel class="Notification">
+				<Image id="NotificationImage" class="NotificationImageSquare"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_UserUnlockedItem" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationLoadingDestination">
+			<Panel class="Notification">
+				<Image id="NotificationImage" class="NotificationImageSquare"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_LoadingDestination" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationNoDestinationForcedHome">
+			<Panel class="Notification">
+				<Image id="NotificationImage" class="NotificationImageSquare"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_NoDestinationForcedHome" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationHostingPublicLobby">
+			<Panel class="Notification">
+				<Image id="NotificationImage" class="NotificationImageSquare"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_HostingPublicLobby" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationVisitingPublicLobby">
+			<Panel class="Notification">
+				<Image id="NotificationImage" class="NotificationImageSquare"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_VisitingPublicLobby" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationClientDisconnected">
+			<Panel class="Notification">
+				<Image class="NotificationImageClear"  src="s2r://panorama/images/content_browser/icon_warning_png.vtex"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_ClientDisconnected" />
+			</Panel>
+		</snippet>
+		<snippet name="NotificationGameSaved">
+			<Panel class="Notification">
+				<Image class="NotificationImageClear"  src="s2r://panorama/images/content_browser/save_icon_png.vtex"/>
+				<Label id="NotificationText" class="NotificationText" text="#Notification_GameSaved" />
+			</Panel>
+		</snippet>
+	</snippets>
+
+	<SteamToursNotifications>
+	</SteamToursNotifications>
+</root>

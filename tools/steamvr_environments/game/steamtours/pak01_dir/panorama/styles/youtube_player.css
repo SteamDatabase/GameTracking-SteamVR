@@ -1,0 +1,88 @@
+.Container
+{
+    width: 100%;
+    height: 100%;
+}
+
+#Browser
+{
+    width: 100%;
+    height: 100%;
+}
+
+.Controls
+{
+    width: 1500px;
+    height: 300px;
+    vertical-align: bottom;
+    horizontal-align: center;
+    flow-children: down;
+    padding: 30px;
+    background-color: #111111ff;
+    margin-bottom: 50px;
+    opacity: 0;
+}
+
+.Container:hover .Controls
+{
+    opacity: 1;
+}
+
+
+.ButtonControls
+{
+    width: 100%;
+    flow-children: right;
+    margin-bottom: 10px;
+}
+
+.DestinationButton Label
+{
+    vertical-align: center;
+}
+
+.DestinationButton
+{
+    margin: 5px;
+}
+
+.SeekBar
+{
+    width: 100%;
+    height: 50px;
+}
+
+.SeekBar #SliderTrack
+{
+    vertical-align: center;
+    background-color: #ffffff22;
+}
+
+.SeekBar #SliderTrackProgress
+{
+    vertical-align: center;
+    border-radius: 5px 0px 0px 5px;
+    //border: 1px solid #ffffffaa;
+    //border-right: 0px;
+    background-color: button_gradient_bright;
+}
+
+.SeekBar #SliderThumb
+{
+    width: 30px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #ffffffaa;
+    background-color: button_gradient_bright;
+    vertical-align: center;
+}
+
+.SeekBar:focus #SliderThumb
+{
+    width: 30px;
+    height: 50px;
+    border-radius: 5px;
+    border: 4px solid #ffffffaa;
+    background-color: white;
+    vertical-align: center;
+}

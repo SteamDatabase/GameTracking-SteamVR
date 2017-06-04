@@ -1,0 +1,131 @@
+
+"soundscape_home_interior"
+{
+	"playevent"
+	{
+		"event"	"sndscp_home_interior_birds_parent"
+	}
+	"playlooping"
+	{
+		"volume"		"0.9"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_60dB"
+		"wave"			"sounds/ambient_loop_indoor.vsnd"
+	}
+}
+"soundscape_home_threshold"
+{
+	"playevent"
+	{
+		"event"	"sndscp_home_threshold_birds_parent"
+	}
+	"playlooping"
+	{
+		"volume"		"0.7"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_60dB"
+		"wave"			"sounds/ambient_loop_threshold.vsnd"
+	}
+	"playrandom"
+	{
+		"volume"        "0.1"
+		"pitch"         "100"    
+		"time"          "30, 40"		
+		"soundlevel"    "SNDLVL_70dB"
+		"position"      "1"
+		"rndwave"
+		{
+			"wave"       "sounds/bird_woodpecker_01.vsnd"
+			"wave"       "sounds/bird_woodpecker_02.vsnd"	
+			"wave"       "sounds/bird_woodpecker_03.vsnd"	
+			"wave"       "sounds/bird_woodpecker_04.vsnd"				
+		}
+	}
+	"playrandom"
+	{
+		"volume"        "0.1"
+		"pitch"         "100"     
+		"time"          "40, 50"
+		"soundlevel"    "SNDLVL_60dB"
+		"position"      "0"
+		"rndwave"
+		{
+			"wave"       "sounds/bird_hawk_01.vsnd"
+			"wave"       "sounds/bird_hawk_02.vsnd"		   
+		}
+	}
+	"playrandom"
+	{
+		"volume"        "0.1"
+		"pitch"         "100"     
+		"time"          "20, 30"
+		"soundlevel"    "SNDLVL_50dB"
+		"rndwave"
+		{
+			"wave"       "sounds/wind_01.vsnd"
+			"wave"       "sounds/wind_02.vsnd"
+			"wave"       "sounds/wind_03.vsnd"
+			"wave"       "sounds/wind_04.vsnd"				
+		}
+	}
+}
+"soundscape_home_exterior"
+{
+	"playevent"
+	{
+		"event"	"sndscp_home_exterior_birds_parent"
+	}
+	"playlooping"
+	{
+		"volume"		"1.0"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_60dB"
+		"wave"			"sounds/ambient_loop_outdoor.vsnd"
+	}
+	"playrandom"
+	{
+		"volume"        "0.1"
+		"pitch"         "100"    
+		"time"          "30, 40"		
+		"soundlevel"    "SNDLVL_80dB"
+		"position"      "1"
+		"rndwave"
+		{
+			"wave"       "sounds/bird_woodpecker_01.vsnd"
+			"wave"       "sounds/bird_woodpecker_02.vsnd"	
+			"wave"       "sounds/bird_woodpecker_03.vsnd"	
+			"wave"       "sounds/bird_woodpecker_04.vsnd"				
+		}
+	}
+	"playrandom"
+	{
+		"volume"        "0.1"
+		"pitch"         "100"     
+		"time"          "40, 50"
+		"soundlevel"    "SNDLVL_80dB"
+		"position"      "0"
+		"rndwave"
+		{
+			"wave"       "sounds/bird_hawk_01.vsnd"
+			"wave"       "sounds/bird_hawk_02.vsnd"		   
+		}
+	}
+	"playrandom"
+	{
+		"volume"        "0.1"
+		"pitch"         "100"     
+		"time"          "20, 30"
+		"soundlevel"    "SNDLVL_70dB"
+		"rndwave"
+		{
+			"wave"       "sounds/wind_01.vsnd"
+			"wave"       "sounds/wind_02.vsnd"
+			"wave"       "sounds/wind_03.vsnd"
+			"wave"       "sounds/wind_04.vsnd"				
+		}
+	}
+}
+
+
+
+	

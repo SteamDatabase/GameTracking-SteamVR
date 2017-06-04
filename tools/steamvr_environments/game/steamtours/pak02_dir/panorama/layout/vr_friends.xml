@@ -1,0 +1,9 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+	</styles>
+
+	<ClientUIDialogPanel hittest="0">
+		<SteamToursFriends id="SteamToursFriends" hittest="0"/>
+	</ClientUIDialogPanel>
+</root>

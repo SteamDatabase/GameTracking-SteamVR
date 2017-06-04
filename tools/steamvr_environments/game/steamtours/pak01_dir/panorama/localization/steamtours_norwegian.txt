@@ -1,0 +1,19 @@
+﻿"lang"
+{
+"Language"	"norwegian"
+"Tokens"
+{
+"Intro2_Youre_Here_Part2"	"Åh! Du er her!"
+"[english]Intro2_Youre_Here_Part2"	"Oh! You're here!"
+"Room10_Perfect"	"Perfekt."
+"[english]Room10_Perfect"	"Perfect."
+"ControllerLabel_Trigger"	"Avtrekker"
+"[english]ControllerLabel_Trigger"	"Trigger"
+"ControllerLabel_System"	"Systemknapp"
+"[english]ControllerLabel_System"	"System Button"
+"UILabel_RightChannel"	"HØYRE KANAL"
+"[english]UILabel_RightChannel"	"RIGHT CHANNEL"
+"UILabel_Retail_CenterSpace_Title"	"Gå til midten"
+"[english]UILabel_Retail_CenterSpace_Title"	"Walk to the middle"
+}
+}

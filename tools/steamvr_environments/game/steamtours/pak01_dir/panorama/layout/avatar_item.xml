@@ -1,0 +1,11 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/content_browser.vcss_c" />
+	</styles>
+
+  <AvatarCustomizationItem class="AvatarCustomizationItem">
+    <Label class="CustomizationName" id="CustomizationName" />
+    <Slider class="CustomizationValue" id="CustomizationValue" direction="horizontal" />
+  </AvatarCustomizationItem>
+</root>

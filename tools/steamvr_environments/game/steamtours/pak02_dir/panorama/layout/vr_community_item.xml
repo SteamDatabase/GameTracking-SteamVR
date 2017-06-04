@@ -1,0 +1,143 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/steamvr_community_item.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/scripts/community_home_item.vjs_c" />
+	</scripts>
+
+	<script>
+		function ShowMapsTab()
+		{
+			$.DispatchEvent( "ShowContentBrowserMaps" );
+		}
+	</script>
+
+	<snippets>
+		<snippet name="ItemThumb">
+			<Button class="ScreenshotThumbContainer">
+				<Image id="ItemThumbImage" class="ScreenshotThumb" scaling="stretch-to-cover-preserve-aspect" />
+			</Button>
+		</snippet>
+
+		<snippet name="App">
+			<Panel class="VRTitleItem">
+				<Image id="VRTitleImage" class="VRTitleImage" src="s2r://panorama/images/content_browser/icon_recent_default_png.vtex" />
+				<Panel class="VRTitleRight">
+					<Label class="VRTitleLabel" text="#VRTitleLabel" />
+					<Panel id="VRTitlePopularity" class="VRTitlePopularity" />
+				</Panel>
+			</Panel>
+		</snippet>		
+	</snippets>
+	
+	<ClientUIDialogPanel class="CommunityItemWrapper">
+		<Button id="CommunityItem" class="CommunityItem" onload="RegisterCommunityItemPanel()" defaultfocus="CloseItemDetailBtn">
+
+			<Image id="ItemImage" class="ItemImage" scaling="stretch-to-fit-preserve-aspect"    />
+
+			<Panel class="LoadingSpinner" >
+				<Image class="SpinnerIcon" src="s2r://panorama/images/content_browser/icon_spinner_png.vtex" />
+			</Panel>
+			<Image class="SteamLogoLoader" src="s2r://panorama/images/content_browser/steam_logo_high_png.vtex" />
+
+			<Image id="ItemImageFull" class="ItemImage" scaling="stretch-to-fit-preserve-aspect" />
+
+			<Panel class="ItemDetails">
+				<Panel class="ItemDetailText">
+					<Panel class="CreatorDetails">
+						<Label class="ItemCreator_Screenshot" text="#UGCItem_Creator_Screenshot_Text" />
+						<Label class="ItemCreator_Artwork" text="#UGCItem_Creator_Artwork_Text" />
+						<Label class="ItemCreator" text="#UGCItem_Creator" />
+					</Panel>
+					<Panel class="TitleDetails">	
+						<Label class="Title_Desc" text="#UGCItem_Title_Text" />
+						<Label class="Title_Text" text="#UGCItem_Title" />					
+					</Panel>
+				</Panel>	
+			</Panel>
+			<Button class="CloseButton DestinationButton" id="CloseItemDetailBtn">
+				<Image class="CloseIcon" src="s2r://panorama/images/content_browser/icon_unsubscribe_png.vtex" />
+			</Button>	
+
+			<Button id="PrevItemBtn" class="PreviousButton DestinationButton">
+				<Image class="PreviousButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+			</Button>
+			<Button id="NextItemBtn" class="NextButton DestinationButton">
+				<Image class="NextButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+			</Button>
+
+		</Button>
+		<Button class="SaveCopy DestinationButton">
+			<Image class="CopyIcon" src="s2r://panorama/images/content_browser/icon_copy_png.vtex" />
+			<Label class="SaveCopyLabel" text="#SaveCopyLabel" />
+		</Button>
+
+		<Panel id="EnvironmentDetail" class="EnvironmentDetail">
+
+			<Panel class="EnvironmentDetailWindow">
+				<Image class="EnvironmentImage" id="ItemImageFull" src="s2r://panorama/images/contentdb/english_church_png.vtex" />		
+				<Panel class="DetailRight">
+					<Label class="ItemDetailTitle" text="#UGCItem_Title" />	
+					
+					<Panel class="EnvironmentMetadata">
+						<Image id="ItemCreatorAvatar" class="ItemCreatorAvatar" src="s2r://panorama/images/content_browser/avatar_default_image_png.vtex" />
+						<Panel class="ItemMetadata">
+							<Panel class="ItemMetadataWrapper">
+								<Label class="ItemCreatorLabel" text="#ItemDetail_CreatedLabel" />
+								<Label class="ItemCreatorName" text="#UGCItem_Creator" />
+							</Panel>					
+							<Panel class="ItemMetadataWrapper">
+								<Label class="ItemCatLabel" text="#ItemDetail_TypeLabel" />
+								<Label class="ItemCatDesc" id="ItemTypeDesc" text="#ItemDetail_Type_SteamVREnvironment" />
+							</Panel>						
+							<Panel class="ItemMetadataWrapper">
+								<Label class="ItemCatLabel" text="#ItemDetail_ThemeLabel" />
+								<Label class="ItemCatDesc" text="#ItemDetail_ThemeDesc" />	
+							</Panel>	
+							<Panel class="ItemRating RatingNoStars">
+								<Panel class="StarRating">
+									<Image id="StarRatingImage" src="s2r://panorama/images/content_browser/rating_nostars_png.vtex" />
+								</Panel>																					
+								<Label class="StarRatingDesc" text="#ItemDetail_Ratings_Desc" /> 
+							</Panel>																					
+						</Panel>
+					</Panel>
+
+					<Label class="ItemDescription" text="#ItemDetail_Desc" />
+
+					<Panel class="ButtonRow">
+						<Button class="DestinationButton" id="BrowseSubscribeBtn">
+							<Label class="SubscribeLabel" text="#SubscribeLabel" />
+						</Button>
+						<Button class="DestinationButton" id="BrowseUnsubscribeBtn">
+							<Label class="SubscribeLabel" id="UnsubscribeLabelTextHover" text="#UnsubscribeLabel" />
+						</Button>
+						<Button class="DestinationButton" id="ViewInWorkshopBtn">
+							<Label class="ButtonLabel" id="BrowseWorkshop_ViewInWorkshop" text="#BrowseWorkshop_ViewInWorkshop" />				
+						</Button>
+						<Label class="DownloadingLabel" text="#DownloadingLabel" />	
+						<Button class="DestinationButton" id="VisitBtn">
+							<Label class="ButtonLabel" id="BrowseWorkshop_Visit" text="#BrowseWorkshop_Visit" />				
+						</Button>	
+					</Panel>
+				</Panel>
+			</Panel>	
+			
+			<Panel class="EnvironmentControls">
+				<Button id="PrevItemBtn" class="PreviousButton DestinationButton">
+					<Image class="PreviousButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+				</Button>
+				<Button class="CloseButton DestinationButton" id="CloseItemDetailBtn">
+					<Image class="CloseIcon" src="s2r://panorama/images/content_browser/icon_unsubscribe_png.vtex" />
+				</Button>
+				<Button id="NextItemBtn" class="NextButton DestinationButton">
+					<Image class="NextButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+				</Button>				
+			</Panel>
+
+		</Panel>
+
+	</ClientUIDialogPanel>
+</root>

@@ -1,0 +1,23 @@
+<root>
+  <styles>
+    <include src="s2r://panorama/styles/base_styles.vcss_c" />
+    <include src="s2r://panorama/styles/trackpad_ui.vcss_c" />
+  </styles>
+
+  <TrackpadUIPanel class="trackpad_ui_root">
+    <Panel class="upper" beginAngle="0" endAngle="180" layoutRadius="0.8">
+      <Button class="GestureButton" id="closed_fist" action="SetHandSequence( idle_to_fist )">
+        <Image class="GestureImage" src="s2r://panorama/images/gestures/gesture_fist_png.vtex" />
+      </Button>
+      <Button class="GestureButton" id="peace_sign" action="SetHandSequence( idle_to_peace )">
+        <Image class="GestureImage" src="s2r://panorama/images/gestures/gesture_peace_sign_png.vtex" />
+      </Button>
+      <Button class="GestureButton" id="index_pointing" action="SetHandSequence( idle_to_point )">
+        <Image class="GestureImage" src="s2r://panorama/images/gestures/gesture_point_png.vtex" />
+      </Button>
+      <Button class="GestureButton" id="thumb_out" action="SetHandSequence( idle_to_thumbsup )">
+        <Image class="GestureImage" src="s2r://panorama/images/gestures/gesture_thumb_png.vtex" />
+      </Button>
+    </Panel>
+  </TrackpadUIPanel>
+</root>

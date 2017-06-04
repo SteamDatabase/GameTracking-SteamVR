@@ -1,0 +1,1151 @@
+#CommunityHomeWrapper
+{
+}
+
+.CommunityHomeWrapper
+{
+	width: 100%;
+	height: 100%;
+	flow-children: none;	
+}
+
+.CommunityHomeWrapper.ViewingCommunityItemDetail
+{
+	wash-color: rgba( 0, 0, 0, 0.99 );
+}
+
+.Tutorial .CommunityHomeWrapper
+{
+	visibility: collapse;
+}
+
+.GamepadController .CommunityHomeWrapper
+{
+	opacity: .7;
+}
+
+.GamepadController.ViewFocus .CommunityHomeWrapper
+{
+	opacity: 1;
+}
+
+//--------------------
+//  Power On / Off
+//--------------------
+
+.TitleBar,
+.LoadingSpinnerWrapper,
+#CommunityContentContainer,
+#EnvironmentsContainer,
+.SteamVRNow,
+#PowerOff,
+.UGCTabs,
+.ConfirmationPanel,
+.BlackOut,
+.ScreenOn #PowerOn,
+.ScreenOn .SteamVRLogo,
+.ScreenOn .SteamDisclaimer,
+.ScreenOn .TutorialState
+{
+	visibility: collapse;
+}
+
+.ScreenOn .TitleBar,
+.ScreenOn .LoadingSpinnerWrapper,
+.ScreenOn #CommunityContentContainer,
+.ScreenOn .SelectedUGC_environments #EnvironmentsContainer,
+.ScreenOn .SteamVRNow,
+.ScreenOn #PowerOff,
+.ScreenOn .UGCTabs,
+.ScreenOn .ConfirmationPanel,
+.ScreenOn .BlackOut,
+.SteamVRLogo,
+#PowerOn
+{
+	visibility: visible;
+}
+
+.CommunityHomeWrapper
+{
+	background-color: #111111ff;
+}
+
+.SteamDisclaimer
+{
+	horizontal-align: center;
+	vertical-align: bottom;
+	margin-bottom: 150px;
+	margin-top: 100px;
+	color: #ffffff15;
+	font-size: 50px;
+}
+
+//--------------------
+//  No Steam State =  .NoSteam
+//--------------------
+
+
+.NoSteam .TitleBar,
+.NoSteam .LoadingSpinnerWrapper,
+.NoSteam #CommunityContentContainer,
+.NoSteam #EnvironmentsContainer,
+.NoSteam .SteamVRNow,
+.NoSteam #PowerOff,
+.NoSteam #PowerOn,
+.NoSteam .UGCTabs,
+.NoSteam .SteamDisclaimer,
+.TutorialState
+{
+	visibility: collapse;
+}
+
+.ScreenOff .SteamVRLogo,
+.NoSteam .SteamVRLogo
+{
+	visibility: visible;
+}
+
+//--------------------
+//  Gamepad = no UGC wall
+//--------------------
+
+.GamepadController #PowerOn,
+.GamepadController .SteamDisclaimer
+{
+	visibility: collapse;
+}
+
+//--------------------
+//  UGC Title Panel
+//--------------------
+
+.TitleBar
+{
+	width: 100%;
+	height: 230px;
+}
+
+.SteamVRNowTitle
+{
+	color: white;
+	font-weight: bold;
+	font-size: 100px;
+	margin-left: 40px;
+	margin-top: 35px;
+}
+
+.SteamVRNowDesc
+{
+	color: white;
+	font-size: 45px;
+	margin-top: 165px;
+	margin-left: 40px;
+}
+
+.UGCTitleBar
+{
+	//width: 2550px;
+	width: 1500px;
+	height: 230px;
+	margin-left: 1040px;
+	flow-children: down;
+	//background-color: red;
+}
+
+.UGCTitle
+{
+	color: white;
+	font-weight: bold;
+	font-size: 100px;
+	margin-left: 10px;
+	margin-top: 35px;
+}
+
+.UGCDesc
+{
+	color: white;
+	font-size: 45px;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+.UGCTabs
+{
+	width: 1230px;
+	height: 130px;
+	margin-top: 50px;
+	margin-right: 200px;
+	border: 5px solid #555555ff;
+	border-radius: 5px;
+	horizontal-align: right;
+	flow-children: right;
+}
+
+.EnvironmentsTab,
+.ScreenshotsTab,
+.ArtworkTab
+{
+	width: 410px;
+	height: 130px;
+	pre-transform-scale2d: 1;
+	transition-property: background-color;
+	transition-duration: 0.23s;
+
+}
+
+.ScreenshotsTab:hover,
+.ArtworkTab:hover,
+.EnvironmentsTab:hover,
+.GamepadController .ScreenshotsTab:focus,
+.GamepadController .ArtworkTab:focus,
+.GamepadController .EnvironmentsTab:focus
+{
+	background-color: #555555ff;
+}
+
+.SelectedUGC_screenshots .ScreenshotsTab,
+.SelectedUGC_artwork .ArtworkTab,
+.SelectedUGC_environments .EnvironmentsTab
+{
+	background-color: #333333ff;
+}
+
+.TabLabel
+{
+	flow-children: right;
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+.TabText
+{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+.TabDivider
+{
+	height: 100%;
+	width: 5px;
+	background-color: #555555ff;
+}
+
+.PowerButton
+{
+	width: 130px;
+	height: 130px;
+	margin-top: 50px;
+	//margin-right: 70px;
+	margin-right: 50px;
+	horizontal-align: right;
+	background-color: black;
+	border: 2px solid #555555ff;
+	//border-radius: 50%;
+}
+
+#PowerOn
+{
+	margin: 0px;
+	margin-bottom: 290px;
+	flow-children: right;
+	height: 130px;
+	width: fit-children;
+	vertical-align: bottom;
+	horizontal-align: center;
+	//border: 2px solid white;
+	background-color: #55555511;
+}
+
+#PowerOn .PowerIcon
+{
+	width: 55px;
+	height: 55px;
+	margin-left: 40px;
+}
+
+#PowerOnText
+{
+	width: fit-children;
+	margin: 0px 50px 0px 40px;
+	vertical-align: center;
+	horizontal-align: center;
+	color: white;
+	//font-weight: bold;
+	font-size: 45px;
+}
+
+.PowerButton:hover,
+.GamepadController .PowerButton:focus
+{
+	//background-color: #555555ff;
+	background-color: #b7000055;
+}
+
+.PowerIcon
+{
+	width: 50px;
+	height: 50px;
+	horizontal-align: center;
+	vertical-align: center;
+	//border-radius: 50%;
+}
+
+#PowerOn:hover,
+.GamepadController #PowerOn:focus
+{
+	background-color: #555555ff;
+	//background-color: blue;
+}
+
+//----------------
+//  Screenshots / Artwork
+//----------------
+
+#CommunityHomeContainer 
+{
+	width: 2550px;
+	height: 100%;
+	horizontal-align: right;
+}
+
+#CommunityContentContainer
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 230px;
+	flow-children: right-wrap;
+}
+
+.ScreenshotThumbContainer 
+{
+	//width: 230px;
+	//height: 230px;
+	width: 250px;
+	height: 250px;
+
+	overflow: clip;
+	border: 10px solid #111111ff;
+	//margin: 10px;
+	background-color: #222222ff;
+}
+
+.ScreenshotThumb 
+{
+	//width: 292px;
+	//height: 292px;
+	width: 100%; 
+	height: 100%;
+	margin: 2px;
+	overflow: clip;
+	pre-transform-scale2d: 1;
+	transition-property: wash-color, opacity;
+	transition-duration: 0.23s;
+}
+
+.FadingOut .ScreenshotThumb
+{
+	animation-name: screenshot-out;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+}
+
+.FadingIn .ScreenshotThumb
+{
+	animation-name: screenshot-in;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+}
+
+.ScreenshotThumbContainer:hover .ScreenshotThumb,
+.GamepadController .ScreenshotThumbContainer:focus .ScreenshotThumb
+{
+	wash-color: #2f6682aa;
+}
+
+//----------------
+//  Environments panel
+//----------------
+
+#EnvironmentsContainer
+{
+	width: 2550px;
+	height: 100%;
+	margin-top: 230px;
+	padding-left: 7px;
+	horizontal-align: right;
+	background-color: #111111ff;
+	//flow-children: right-wrap;
+
+	visibility: collapse;
+}
+
+.HTC_Promotion
+{
+	height: 250px;
+	width: 1235px;
+	margin: 6px;
+	margin-left: 1253px;
+	border-radius: 2px;
+	border: 3px solid #ffffff20;
+	//background-color: button_gradient;
+	background-color: #222222ff;	
+	transition-property: background-color, border;
+	transition-duration: 0.23s;
+
+	vertical-align: bottom;
+	margin-bottom: 50px;
+
+	visibility: collapse;
+}
+
+.Valve_Promotion
+{
+	height: 250px;
+	//width: 1235px;
+	width: 2480px;
+	margin: 6px;
+	border-radius: 2px;
+	border: 3px solid #ffffff20;
+	//background-color: button_gradient;
+	background-color: #222222ff;	
+	//background-color: #333333ff;	
+	transition-property: background-color, border;
+	transition-duration: 0.23s;
+
+	vertical-align: bottom;
+	margin-bottom: 50px;
+
+}
+
+.PromoImage
+{
+	//width: 300px;
+	width: 606px;
+	height: 250px;
+	vertical-align: center;
+	//margin-left: 40px;
+}
+
+.PromoTitle
+{
+	color: white;
+	font-size: 60px;
+	//margin-left: 350px;	
+	margin-left: 660px;
+	margin-top: 55px;
+	font-weight: bold;
+}
+
+.PromoDesc
+{
+	color: #ffffff99;
+	font-size: 45px;
+	//margin-left: 350px;
+	margin-left: 660px;
+	margin-top: 130px;
+}
+
+.TopEnvironments
+{
+	//margin-top: 270px;
+	flow-children: right-wrap;
+}
+
+.EnvironmentItem
+{
+	width: 300px;
+	height: 300px;
+	//border: 10px solid #111111ff;
+	//margin: 10px;
+	background-color: #222222ff;
+	border: 3px solid #ffffff00;
+	margin: 6px;
+	transition-property: background-color, border, wash-color;
+	transition-duration: 0.23s;
+}
+
+.EnvironmentImage
+{
+	width: 300px;
+	height: 300px;
+	opacity: 1;
+	//transition-property: wash-color;
+	//transition-duration: 0.23s;
+}
+
+.EnvironmentItem .SubscribedCheck
+{
+	width: 80px;
+	height: 80px;
+	margin-top: 15px;
+	margin-left: 15px;
+	border-radius: 5px;
+	background-color: #111111ee;
+	//background-color: gradient( linear, 0% 0%, 75% 75%, from( #000000ff ), to( #00000000 ) );
+	visibility: collapse;
+}
+.EnvironmentItem.Subscribed .SubscribedCheck
+{
+	visibility: visible;
+}
+
+.SubscribedCheck .CheckImage
+{
+	//margin-left: 10px;
+	//margin-top: 10px;
+	horizontal-align: center;
+	vertical-align: center;
+	width: 50px;
+	height: 50px;
+	wash-color: green;
+}
+
+.EnvironmentItem:hover,
+.HTC_Promotion:hover,
+.Valve_Promotion:hover
+{
+	//background-color: #333333ff;
+	border: 3px solid #ffffffaa;
+	//wash-color: none;
+}
+
+//Valve Environments dialog
+
+.ValveEnvironmentsWrapper
+{
+	width: 2500px;
+	height: 1515px;
+	margin-right: 50px;
+	horizontal-align: right;
+	background-color: #111111fa;
+	visibility: collapse;
+}
+
+.ValveDialogOn .ValveEnvironmentsWrapper
+{
+	visibility: visible;
+}
+
+.ValveEnvironmentsDialog
+{
+	//width: 2020px;
+	width: 2340px;
+	height: 1030px;
+	vertical-align: center;
+	horizontal-align: center;
+	background-color: #111111ff;
+	//box-shadow: #111111ff -3px 0px 50px 0px;
+	border: 4px solid #ffffff11;
+	border-radius: 5px;
+}
+
+.DialogTitleBar
+{
+	flow-children: none;
+	width: 100%;
+}
+
+.DialogTitle
+{
+	color: white;
+	font-size: 70px;
+	margin-top: 80px;
+	margin-left: 80px;
+}
+
+.DialogDesc
+{
+	color: #ffffff88;
+	font-size: 50px;
+	width: 1650px;
+	margin-top: 190px;
+	margin-left: 80px;
+}
+
+.CloseDialogButton
+{
+	width: 120px;
+	height: 120px;
+	margin-top: 50px;
+	//horizontal-align: right;
+	//margin-left: 1850px;
+	margin-left: 2150px;
+	border: 1px solid #ffffff00;
+	transition-property: background-color, border, pre-transform-scale2d;
+	transition-duration: 0.23s;
+}
+
+.CloseDialogButtonImage
+{
+	width: 80px;
+	height: 80px;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+.CloseDialogButton:hover
+{
+	background-color: #333333ff;
+	border: 1px solid white;
+}
+
+.CloseDialogButton:active
+{
+	pre-transform-scale2d: .98;
+}
+
+.ValveEnvironments
+{
+	width: 100%;
+	height: 100%;
+	margin: 300px 70px 70px 70px;
+	flow-children: right-wrap;
+}
+
+//--------------------
+//  SteamVR Now Panel
+//--------------------
+
+.SteamVRNow
+{
+	width: 1050px;
+	height: 100%;
+	margin-top: 210px;
+	horizontal-align: left;
+	background-color: #111111ff;
+	flow-children: down;
+	opacity: 0;
+
+	//background-color: green;
+}
+
+#CommunityHomeWrapper.HasData .SteamVRNow
+{
+	opacity: 1;
+}
+
+
+.Divider
+{
+	width: 100%;
+	height: 4px;
+	background-color: #ffffff10;
+	margin-top: 60px;	
+	margin-bottom: 40px;
+
+	visibility: collapse;
+}
+
+
+
+.SinglePlayerLabel,
+.MultiPlayerLabel
+{
+	color: #ffffffaa;
+	font-size: 50px;
+	margin-top: 40px;
+	margin-left: 40px;
+	font-weight: bold;
+}
+
+.MultiPlayerLabel
+{
+	margin-top: 70px;
+}
+
+.VRTitlesContainer
+{
+	height: 655px;
+	flow-children: down;
+}
+
+.VRTitleItem
+{
+	flow-children: right;	
+	margin-left: 40px;
+	margin-top: 11px;
+	transition-property: background-color;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;	
+}
+
+.VRTitleItem:hover,
+.GamepadController .VRTitleItem:focus
+{
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( #2f668255 ), to( #142d3a22 ) );
+}
+
+.VRTitleItem:hover Label,
+.GamepadController .VRTitleItem:focus Label
+{
+	color: white;
+}
+
+.VRTitleItem:hover .VRTitleImage,
+.GamepadController .VRTitleItem:focus .VRTitleImage
+{
+	//border: 2px solid #ffffffff;
+	//box-shadow: #ffffff11 0px 0px 8px 0px;
+}
+
+
+.VRTitleItem:hover .VRTitlePopularity,
+.GamepadController .VRTitleItem:focus .VRTitlePopularity
+{
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( white ), to( blue ) );
+}
+
+.VRTitleImage
+{
+	width: 253px;
+	height: 119px; 
+	border: 2px solid #ffffff00;	
+	box-shadow: none;
+
+	transition-property: border, box-shadow;
+	transition-duration: .2s;
+	transition-timing-function: bigpicture-ease-in-out;	
+}
+
+
+.VRTitleRight
+{
+	flow-children: down;
+	width: 700px;
+	//background-color: red;
+}
+
+.VRTitleLabel
+{
+	color: #ffffff88;
+	font-size: 45px;
+	width: 750px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 24px;
+
+	transition-property: color;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;	
+}
+
+.VRTitlePopularity
+{
+	height: 20px;
+	width: 600px;
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( blue ), to( #142d3a55 ) );
+	margin-top: 24px;
+	margin-left: 5px;
+
+	transition-property: background-color;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;		
+}
+
+
+
+//------------------------
+//   CONFIRMATION PANEL 
+//-------------------------
+
+
+
+.AppConfirm .ConfirmationPanel
+{
+	opacity: 1;
+	pre-transform-scale2d: 1;
+	//box-shadow: #ffffff11 0px 0px 20px 0px;
+}
+
+.AppConfirm .BlackOut
+{
+	opacity: .95;
+}
+
+
+.ConfirmationPanel
+{
+	width: 800px;
+	height: 900px;
+	background-color: #222222ff;
+	//box-shadow: #ffffff00 0px 0px 20px 0px;
+	border-radius: 10px;
+	horizontal-align: left;
+	margin-left: 100px;
+	vertical-align: center;
+	pre-transform-scale2d: .95;
+	opacity: 0;
+
+	transition-property: opacity, box-shadow, pre-transform-scale2d;
+	transition-duration: 0.23s;
+	transition-timing-function: bigpicture-ease-in-out;	
+}
+
+.BlackOut
+{
+	width: 1000px;
+	height: 100%;
+	//height: 1540px;
+	border-radius: 10px;
+	background-color: black_gradient;
+	opacity: 0;
+	//margin-top: 210px;
+
+	transition-property: opacity;
+	transition-duration: 0.23s;
+	//transition-timing-function: bigpicture-ease-in-out;	
+}
+
+
+.GamepadController .ConfirmationPanel
+{
+	visibility: collapse;
+}
+
+.GamepadController .AppConfirm .ConfirmationPanel
+{
+	visibility: visible;
+}
+
+.DefaultLaunchAppImage,
+.LaunchAppImage
+{
+	horizontal-align: center;
+	width: 620px;
+	height: 290px;
+	margin-top: 80px;
+	border: 2px solid #ffffff10;
+}
+
+.ConfirmationPanel Button
+{
+	horizontal-align: center;
+	width: 400px;
+	height: 130px;
+	//background-color: button_gradient;
+	background-color: #333333ff;
+}
+
+.ConfirmationPanel Button:hover,
+.GamepadController .ConfirmationPanel Button:focus
+{
+	background-color: #444444ff;
+}
+
+.ConfirmationPanel Button Label
+{
+	vertical-align: center;
+	font-size: 50px;
+}
+
+.LaunchConfirmation
+{
+	horizontal-align: center;
+	margin-top: 400px;
+	color: white;
+	font-size: 55px;	
+}
+
+.LaunchButton
+{
+	margin-top: 510px;	
+	border: 2px solid #ffffff77;
+	visibility: collapse;
+}
+
+.DetailsButton
+{
+	margin-top: 510px;
+}
+
+.CancelButton
+{
+	margin-top: 670px;	
+}
+
+// some styles change if the app is launchable
+
+.CanLaunchApp .LaunchButton
+{
+	visibility: visible;
+}
+
+.CanLaunchApp .DetailsButton
+{
+	margin-top: 660px;
+}
+
+.CanLaunchApp .CancelButton
+{
+	margin-top: 810px;	
+}
+
+.CanLaunchApp .ConfirmationPanel
+{
+	height: 1050px;
+}
+
+
+
+
+// Old
+
+//--------------------
+//  Steam Stats Panel
+//--------------------
+
+.SteamLogo
+{
+	width: 170px;
+	height: 170px;
+	margin: 50px 30px 25px 40px;
+	horizontal-align: right;
+	visibility: collapse;
+}
+
+.SteamStats
+{
+	width: 1060px;
+	height: 250px;
+	horizontal-align: right;
+	background-color: #111111ff;
+	flow-children: down;
+	opacity: 0;
+	//background-color: red;
+	visibility: collapse;
+}
+
+#CommunityHomeWrapper.HasData .SteamStats
+{
+	opacity: 1;
+}
+
+.SteamPlayerNumber
+{
+	color: white;
+	font-size: 120px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.SteamPlayerDesc1
+{
+	color: white;
+	font-size: 45px;
+	//font-weight: bold;
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+.SteamPlayerDesc2
+{
+	color: #ffffff66;
+	//color: #000000aa;	
+	font-size: 50px;
+	//font-weight: bold;
+	margin-top: 5px;
+	margin-left: 30px;
+
+	visibility: collapse;
+}
+
+
+//-------------------
+//  Screenshot Stats
+//-------------------
+
+.ScreenshotStats
+{
+
+	width: 1250px;
+	height: 250px;
+	margin: 2px 0px 0px 0px;
+	vertical-align: top;
+	horizontal-align: left;
+	background-color: #111111ff;	
+	flow-children: down;
+	opacity: 0;
+
+	//background-color: red;
+	visibility: collapse;
+}
+
+#CommunityHomeWrapper.HasData .ScreenshotStats
+{
+	opacity: 1;
+}
+
+.ScreenshotNumber
+{
+	color: white;
+	//color: black;
+	font-size: 120px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.ScreenshotDesc1
+{
+	color: white;
+	//color: black;
+	font-size: 45px;
+	//font-weight: bold;	
+	margin-top: 0px;
+	margin-left: 40px;
+}
+
+.ScreenshotDesc2
+{
+	color: #ffffff66;
+	//color: #000000aa;
+	font-size: 50px;
+	//font-weight: bold;	
+	margin-top: 5px;
+	margin-left: 40px;
+
+	visibility: collapse;
+}
+
+/*---------------------
+   WELCOME STATE
+   First time players get the Welcome message asking them to open the menu
+---------------------*/
+
+.TutorialState 
+{
+	visibility: collapse;
+}
+
+.Tutorial .TutorialState,
+.NoSteam.Tutorial .TutorialState
+{
+	width: 100%;
+	height: 100%;
+	visibility: visible;
+}
+
+.SteamVRLogo
+{
+	width: 2100px;
+	height: 500px;
+	horizontal-align: center;
+	vertical-align: center;
+	//margin-left: 450px;
+	//margin-top: 200px;
+}
+
+.Tutorial .SteamVRLogo,
+.NoSteam.Tutorial .SteamVRLogo
+{
+	visibility: visible;
+}
+
+//-------------------
+//  Loading Spinner
+//-------------------
+
+.LoadingSpinnerWrapper
+{
+	width: 100%;
+	height: 100%;
+}
+
+.LoadingSpinner
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 400px;
+	vertical-align: center;
+	opacity: 0.6;
+
+	//pre-transform-rotate2d: 45deg;
+
+	animation-name: loading-spinner;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+	//transform: rotateZ( 45deg );
+
+
+	//transition-property: pre-transform-rotate2d, opacity;
+	//transition-duration: 0.23s;
+}
+
+.SteamLogoLoader
+{
+	width: 160px;
+	height: 160px;
+	margin-left: 420px;
+	vertical-align: center;
+}
+
+#RightIcon
+{
+	margin-left: 2220px;
+}
+
+#RightSpinner
+{
+	margin-left: 2200px;
+}
+
+/*------------------
+     ANIMATIONS 
+------------------*/
+
+@keyframes 'screenshot-out'
+{
+	0%
+	{
+		opacity: 1;
+	}
+
+	100%
+	{
+		opacity: 0;
+	}
+}	
+
+@keyframes 'screenshot-in'
+{
+	0%
+	{
+		opacity: 0;
+	}
+
+	100%
+	{
+		opacity: 1;
+	}
+}	
+
+
+@keyframes 'loading-spinner'
+{
+	0%
+	{
+		transform: rotateZ( 0deg );
+	}
+
+	33%
+	{
+		transform: rotateZ( 120deg );
+	}
+
+	66%
+	{
+		transform: rotateZ( 240deg );
+	}
+
+	100%
+	{
+		transform: rotateZ( 0deg );
+	}
+
+}

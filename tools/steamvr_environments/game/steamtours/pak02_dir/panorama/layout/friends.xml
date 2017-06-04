@@ -1,0 +1,349 @@
+
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/friends.vcss_c" />
+	</styles>
+ 
+	<script>
+	
+		function LobbyDetailBack()
+		{
+			$( "#SteamToursFriends" ).RemoveClass( "ShowLobbyDetail" );
+			$( "#SteamToursFriends" ).AddClass( "ShowLobbyList" );
+		}
+
+		function OpenHostDialog()
+		{
+			$( "#FriendsWrapperPanel" ).AddClass( "HostDialogOn" );	
+		}
+
+		function CloseHostDialog()
+		{
+			$( "#FriendsWrapperPanel" ).RemoveClass( "HostDialogOn" );	
+		}
+
+		function OpenConfirmationDialog()
+		{
+			$( "#FriendsWrapperPanel" ).AddClass( "ClosingLobby" );	
+		}
+
+		function CloseConfirmationDialog()
+		{
+			$( "#FriendsWrapperPanel" ).RemoveClass( "ClosingLobby" );	
+		}
+
+
+	</script> 
+  
+	<SteamToursFriends class="Scrolling FriendsMinimized" tabindex="auto" selectionpos="auto">
+		<Panel id="FriendsWrapperPanel">
+
+			<Panel class="FriendsToggle" id="FriendsToggle">
+				<Button class="FriendsToggleOff" id="FriendsToggleOff" onactivate="AddStyle(SteamToursFriends,FriendsMinimized); RemoveStyle(SteamToursFriends,FriendsMaximized); SetInputFocus(FriendsToggleOn)">
+					<Panel class="HorizontalLine" />
+				</Button>
+	
+				<Button class="FriendsToggleOn" id="FriendsToggleOn" onactivate="AddStyle(SteamToursFriends,FriendsMaximized); RemoveStyle(SteamToursFriends,FriendsMinimized); LobbiesTabSelected();">
+
+								<Image class="FriendsToggleImage" src="s2r://panorama/images/content_browser/friends_toggle_button_color_png.vtex" />	
+	
+					<Panel class="FriendsToggleLabel">
+						<Label class="FriendsToggleLabelText" text="#FriendsToggleLabelText" />				
+					</Panel>
+					<Panel class="FriendsControllerHint">
+						<Label class="FriendsControllerHintText" text="#FriendsControllerHintText" />
+					</Panel>
+			
+				</Button>
+
+			</Panel>
+
+			<Panel class="FriendsMain" id="FriendsMain">
+	
+				<Panel class="FriendsTitleBar" id="FriendsTitleBar">
+					<Panel class="SocialTabs" id="SocialTabs">
+						<Button class="DestinationButton" id="LobbiesTab" onactivate="LobbiesTabSelected();">
+							<Label class="SocialTabsText" text="#LobbiesTabText"/>
+						</Button>	
+									
+						<Panel class="VerticalDivider" />
+
+						<Button class="DestinationButton" id="FriendsTab" onactivate="FriendsTabSelected()">
+							<Label class="SocialTabsText" id="FriendsTabText" text="#FriendsTabText"/>
+							<Panel class="AlertPanel" id="AlertPanel">
+								<Label class="AlertPanelText" text="!" />
+							</Panel>
+						</Button>	
+
+					</Panel>				
+					<Label class="Friends_Title" text="#Friends_Title" />
+					<Label class="WorldPublicLobbyTitle" text="#WorldPublicLobbyTitle" />
+					<Label class="WorldFriendsTitle" text="#WorldFriendsTitle" />
+				</Panel>
+			
+				<Panel class="FriendsContainer" id="FriendsContainer">
+								<Panel class="FriendsBottom SortAlphaSelected">
+										<Panel class="FriendsLeft" >
+												<Panel class="FriendsContentContainer">
+														<Panel class="ContentContainer" id="FriendsContentContainer" tabindex="auto" selectionpos="auto" rememberchildfocus="true" />
+												</Panel>
+										</Panel>
+	
+										<Panel class="FriendsRight" onactivate="None();" >
+												<Panel class="ScrollButtonWrapper">
+														<Button class="DestinationButton" id="ScrollButtonUp" onactivate="MoveUpContentItem();" mousecanactivate="unfocused" >
+																<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_up_png.vtex" />
+														</Button>	
+	
+														<Button class="DestinationButton" id="ScrollButtonDown" onactivate="MoveDownContentItem();" mousecanactivate="unfocused" >
+																<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+														</Button>
+												</Panel>
+										</Panel>
+								</Panel>
+				</Panel>                                                                         
+	
+						<Panel class="FriendDetail" id="FriendDetail" >
+	
+								<Panel class="FriendDetailTop">
+										<Button id="FriendBackButton" class="BackButton" onactivate="FriendDetailBack();">
+													<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+										</Button>					
+											<Panel class="FriendNames">
+												<Label class="FriendsName" text="#Friends_Name" />
+										</Panel>
+
+								</Panel>
+	
+								<Panel class="FriendDetailBottom" >
+										<Panel class="FriendRightTop" >
+												<Panel class="FriendsDetailAvatar" id="FriendsDetailAvatar">
+														<Image class="FriendsAvatarDetail" id="FriendsAvatar" />
+												</Panel>
+												<Panel class="FriendsItemRight" id="FriendsDetailItemRight">
+													<Label class="FriendsNick" text="Friends_NickName" />
+														<Label class="FriendStatus" text="#Friends_Offline" id="FriendStatus" />
+								<Label class="FriendDestination" text="#Friends_Destination" id="FriendDestination" />
+								<Label class="FriendInvited" text="#Friends_Invited" />
+		  								<!-- <Label class="FriendAppTitle" text="#Friends_App_Title" id="FriendAppTitle" /> -->
+												</Panel>
+										</Panel>
+	
+						<Panel class="FriendButtons">
+											<Panel class="FriendButtonsLeft" >
+													<Button class="DestinationButton" id="FriendInviteButton" onactivate="FriendInvite();" mousecanactivate="unfocused" >
+															<Label class="FriendsInvite" text="#Friends_Button_Invite" />
+													</Button>	
+													<Button class="DestinationButton" id="FriendJoinButton" onactivate="FriendJoin();" mousecanactivate="unfocused" >
+															<Label class="FriendsJoin" text="#Friends_Button_Join" />
+													</Button>	
+											</Panel>    
+											<!--<Panel class="FriendButtonsRight" />-->
+
+		     			</Panel>           
+								</Panel>
+						</Panel>
+			
+							<Panel class="LobbyDetail" id="LobbyDetail" >
+				
+					<Panel class="LobbiesTop" id="LobbiesTop">				
+
+						<Button id="LobbyBackButton" class="BackButton" onactivate="LobbyDetailBack();">
+													<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+										</Button>		
+						<Panel class="LobbyDestinationTitle">
+							<Label class="LobbyDestinationHeader" id="LobbyTitleVisitingText" text="#Lobby_Title" />
+							<Label class="LobbyDestinationHeader" id="LobbyTitleHostingText" text="#Lobby_Title_Hosting" />
+							<Label class="LobbyDestination" text="#Lobby_Destination" />
+						</Panel>				
+					</Panel>
+				
+									<Panel class="LobbyDetailContainer" id="LobbyDetailContainer">
+											<Panel class="FriendsBottom SortAlphaSelected">
+													<Panel class="FriendsLeft" >			
+												<Button class="DestinationButton" id="LeaveLobbyButton" onactivate="LeaveLobby();" mousecanactivate="unfocused" >
+														<Label class="LobbyButtonLabel" id="LeaveLobbyLabel" text="#Lobby_Leave" />
+												</Button>
+												<Button class="DestinationButton" id="CloseLobbyButton" onactivate="OpenConfirmationDialog(); SetInputFocus(ConfirmationButtonOK)" mousecanactivate="unfocused" >
+														<Label class="LobbyButtonLabel" text="#Lobby_Close" />
+												</Button>
+												<Button class="DestinationButton" id="QuickCloseLobbyButton" onactivate="LeaveLobby();">
+														<Label class="LobbyButtonLabel" text="#Lobby_Close" />
+												</Button>
+															<Panel class="FriendsContentContainer" >
+																	<Panel class="ContentContainer" id="LobbyDetailContentContainer" tabindex="auto" selectionpos="auto" rememberchildfocus="true" />
+															</Panel>
+													</Panel>
+
+													<Panel class="FriendsRight" onactivate="None();" >
+															<Panel class="ScrollButtonWrapper">
+																	<Button class="DestinationButton" id="ScrollButtonUp" onactivate="MoveUpContentItem();" mousecanactivate="unfocused" >
+																			<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_up_png.vtex" />
+																	</Button>	
+
+																	<Button class="DestinationButton" id="ScrollButtonDown" onactivate="MoveDownContentItem();" mousecanactivate="unfocused" >
+																			<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+																	</Button>
+															</Panel>
+													</Panel>
+											</Panel>
+									</Panel>                                                                         
+
+							</Panel>
+            			
+				<Panel class="LobbiesContainer" id="LobbiesContainer">       
+
+								<Panel class="LobbiesBottom SortAlphaSelected" >
+										<DestinationsScrollPanel class="FriendsLeft" id="LobbyScrollContainer"  >			           
+												<Button class="DestinationButton" id="HostRoomButton" onactivate="OpenHostDialog(); SetInputFocus(CloseHostDialog);" mousecanactivate="unfocused" >
+														<Label class="OpenLobby" text="#HostRoomButton" />
+								<Image class="OpenLobbyIcon" src="s2r://panorama/images/content_browser/friends_toggle_button_png.vtex" />
+												</Button>	
+
+												<Panel class="FriendsContentContainer">
+														<Panel class="ContentContainer" id="LobbiesContentContainer" tabindex="auto" selectionpos="auto" rememberchildfocus="true" />
+												</Panel>
+
+							<Panel class="WorldPanelLobbyButtons">
+								<Button class="DestinationButton" id="LeaveLobbyButton" onactivate="LeaveLobby();" mousecanactivate="unfocused" >
+														<Label class="LobbyButtonLabel" id="LeaveLobbyLabel" text="#Lobby_Leave" />
+												</Button>
+												<Button class="DestinationButton" id="CloseLobbyButton" onactivate="OpenConfirmationDialog();" mousecanactivate="unfocused" >
+														<Label class="LobbyButtonLabel" text="#Lobby_Close" />
+												</Button>
+												<Button class="DestinationButton" id="QuickCloseLobbyButton" onactivate="LeaveLobby();">
+														<Label class="LobbyButtonLabel" text="#Lobby_Close" />
+												</Button>
+							</Panel>
+
+
+		                	                
+
+										</DestinationsScrollPanel>
+	
+										<Panel class="FriendsRight" onactivate="None();" >
+												<Panel class="ScrollButtonWrapper">
+														<Button class="DestinationButton" id="ScrollButtonUp" onactivate="PagePanelUp(LobbyScrollContainer);" mousecanactivate="unfocused" >
+																<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_up_png.vtex" />
+														</Button>	
+	
+														<Button class="DestinationButton" id="ScrollButtonDown" onactivate="PagePanelDown(LobbyScrollContainer);" mousecanactivate="unfocused" >
+																<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+														</Button>
+												</Panel>
+										</Panel>
+								</Panel>			  
+				</Panel>
+
+							<Panel class="LobbyMemberDetail" id="LobbyMemberDetail" >
+
+									<Panel class="FriendDetailTop">
+											<Button id="FriendBackButton" class="BackButton" onactivate="LobbyMemberDetailBack();">
+													<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+											</Button>					
+											<Panel class="FriendNames">
+													<Label class="FriendsName" text="#Friends_Name" />
+											</Panel>
+											<Button class="DestinationButton" id="LobbyMemberKick" onactivate="LobbyMemberKick(); LobbyMemberDetailBack();" mousecanactivate="unfocused" >
+													<Label class="LobbyMemberKick" text="#LobbyMember_Button_Kick" />
+											</Button>	
+
+									</Panel>
+
+									<Panel class="FriendDetailBottom" >
+											<Panel class="FriendRightTop" >
+													<Panel class="FriendsDetailAvatar" id="FriendsDetailAvatar">
+															<Image class="FriendsAvatarDetail" id="FriendsAvatar" />
+													</Panel>
+													<Panel class="FriendsItemRight" id="FriendsDetailItemRight">
+													<Label class="FriendsNick" text="#Friends_NickName" />
+	<!--                      <Label class="FriendStatus" text="#Friends_Offline" id="FriendStatus" />
+														<Label class="FriendDestination" text="#Friends_Destination" id="FriendDestination" />
+														<Label class="FriendInvited" text="#Friends_Invited" />-->
+													</Panel>
+											</Panel>
+
+											<Panel class="FriendButtons">
+													<Panel class="FriendButtonsLeft" >
+															<Button class="DestinationButton" id="LobbyMemberMute" onactivate="LobbyMemberMute();" mousecanactivate="unfocused" >
+																	<Label class="LobbyMemberMute" text="#LobbyMember_Button_Mute" />
+															</Button>	
+															<Button class="DestinationButton" id="LobbyMemberUnmute" onactivate="LobbyMemberUnmute();" mousecanactivate="unfocused" >
+																	<Label class="LobbyMemberUnmute" text="#LobbyMember_Button_Unmute" />
+															</Button>	
+															<Button class="DestinationButton" id="LobbyMemberAdd" onactivate="LobbyMemberAdd();" mousecanactivate="unfocused" >
+																	<Label class="LobbyMemberAdd" text="#LobbyMember_Button_Add" />
+															</Button>
+
+													</Panel>  
+											<Panel class="FriendButtonsRight" >  
+
+	
+											</Panel>                          
+											</Panel>           
+									</Panel>
+							</Panel>
+
+			</Panel>
+
+       		<Panel class="BottomGradient" />		
+			
+			<Panel class="AlertPanel" id="AlertPanel">
+				<Label class="AlertPanelText" text="!" />
+			</Panel>
+
+			<Panel class="ConfirmationMessageWrapper" onactivate="SetInputFocus(ConfirmationButtonOK)">
+				<Panel class="ConfirmationMessage" id="ConfirmationMessage">
+					<Panel class="ConfirmationTitle">
+						<Image class="ConfirmationIcon" src="s2r://panorama/images/content_browser/alert_icon_png.vtex" />			
+						<Label class="ConfirmationMessageTitle" text="#ConfirmationTitle" />	
+					</Panel>
+					<Label class="ConfirmationMessageText" id="ConfirmationMessage" text="#ConfirmationMessage" />
+					<Label class="ConfirmationMessageText" id="ConfirmationLeaveMessage" text="#ConfirmationLeaveMessage" />
+					<Panel class="ConfirmationButtons">
+						<Button class="DestinationButton" id="ConfirmationButtonOK" onactivate="LeaveLobby();">
+							<Label text="#ConfirmationButtonOKText" />
+						</Button>
+						<Button class="DestinationButton" id="ConfirmationButtonCancel" onactivate="CloseConfirmationDialog();">
+							<Label text="#ConfirmationButtonCancelText" />					
+						</Button>
+					</Panel>
+				</Panel>
+			</Panel>
+
+			<Panel class="HostRoomDialogWrapper">
+				<Panel class="HostRoomDialog">
+						<Panel class="LobbiesButtons">
+						<Label class="HostDialogTitle" text="HostDialogTitle" />
+									<Label class="LobbyDescription" text="#LobbiesDescription" />	
+										<Button class="DestinationButton" id="OpenLobbyButton" onactivate="OpenLobby(); RemoveStyle(FriendsWrapperPanel,HostDialogOn);" mousecanactivate="unfocused" >
+												<Label class="OpenLobby" text="#LobbiesOpenLobby" />
+							<Image class="OpenLobbyIcon" src="s2r://panorama/images/content_browser/friends_toggle_button_png.vtex" />
+										</Button>	
+										<Button class="DestinationButton" id="OpenFriendLobbyButton" onactivate="OpenFriendLobby(); RemoveStyle(FriendsWrapperPanel,HostDialogOn);" mousecanactivate="unfocused" >
+												<Label class="OpenLobby" text="#FriendLobbiesOpenLobby" />
+							<Image class="OpenLobbyIcon" src="s2r://panorama/images/content_browser/friends_toggle_button_png.vtex" />
+										</Button>	
+						<Button class="DestinationButton" id="CloseHostDialog" onactivate="CloseHostDialog();">
+							<Label text="#ConfirmationButtonCancelText" />					
+						</Button>
+								</Panel>
+
+	       		</Panel>
+			</Panel>
+		
+			<Panel class="FirstTimeState">
+				<Image class="SteamLogo" src="s2r://panorama/images/content_browser/steam_logo_png.vtex" />				
+			</Panel>
+
+			<Panel class="NoSteamState">
+				<Image class="SteamLogo" src="s2r://panorama/images/content_browser/steam_logo_png.vtex" />
+				<Label class="NoSteamText1" text="#NoSteamText1" />			
+			</Panel>
+
+		</Panel>
+
+	</SteamToursFriends>
+
+</root>

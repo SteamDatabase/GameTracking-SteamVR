@@ -1,0 +1,325 @@
+/* styles for the settings panel */
+
+#DestinationsSettingsPanel {
+	flow-children: none;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	/*background-color: gradient( linear, 0% 0%, 0% 100%, from( #fbfbfbff ), to( #c0c0c0c0 ) ); */
+	//border-radius: 10px;
+	pre-transform-scale2d: 1;
+}
+
+#DestinationsSettingsPanel.Visible
+{
+	opacity: 1;
+	pre-transform-scale2d: 1;
+	transition-property: opacity, pre-transform-scale2d;
+	transition-duration: shortduration !immediate;
+	transition-timing-function: bigpicture-ease-in-out;
+	transition-delay: 0s;
+}
+
+.Hidden #DestinationsSettingsPanel {
+	opacity: 0;
+}
+
+
+
+.Page {
+	height: 100%;
+	width: 100%;
+	//background-color: gradient( linear, 0% 0%, 0% 100%, from( #111111ff ), to( #000000ee ) );
+	margin: 0px;
+	opacity: 0;
+	//horizontal-align: center;
+
+}
+
+.Page.Visible
+{
+	opacity: 1;
+
+}
+
+.SettingsTop {
+	width: 100%;
+	height: 150px;
+	background-color: background_gradient;	
+	border-radius: 5px;	
+}
+
+#SecondNavButton {
+	vertical-align: center;
+	horizontal-align: right;
+	margin-right: 30px;	
+	width: 220px;
+}
+
+#SecondNavButton Label {
+	vertical-align: center;	
+}
+
+.Title
+ {
+	color: #ddddddff;
+	font-size: 50px;
+	font-weight: light;
+	//text-align: left;
+	vertical-align: center;
+	horizontal-align: center;
+	margin-left: 35px;
+	//margin: 50px 0px 0px 35px;
+}
+
+.NavButton,
+.NavButton:focus {
+	width: 250px;
+	height: 100px;
+	margin: 40px 30px 4px 0px;
+	border-radius: 5px;	
+	//background-color: #00000033;
+	background-color: button_gradient_hover;		
+	border: 3px solid #ffffff20;
+	box-shadow: none;
+	horizontal-align: right;
+	pre-transform-scale2d: 1;
+	transition-property: transform, border, background-color, opacity, pre-transform-scale2d, box-shadow !immediate;
+	transition-duration: 0.23s;
+	transition-timing-function: bigpicture-ease-in-out;
+}
+
+.NavButton:hover,
+.FocusOnEnable .NavButton:focus
+{
+	//background-color: ui_color_mid;	
+	background-color: button_gradient_bright;		
+	pre-transform-scale2d: 1;
+	border: 3px solid white;
+	box-shadow: ui_color 0px 0px 10px 0px;
+}
+
+.NavButton:active {
+
+}
+
+
+.NavButton Label
+{
+	font-family: platformfont;
+	font-size: 35px;
+	font-weight: light;
+	color: white;
+	transition-property: transform, color;
+	transition-timing-function: ease-out;
+	transition-duration: 0.3s;
+	margin: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 17px;
+}
+.NavButton:hover Label
+{
+	color: white;
+	transition-duration: 0.25s !immediate;
+	box-shadow: none;
+}
+
+.BackButton,
+.BackButton:focus
+{
+	flow-children: right;
+	width: 222px;
+	height: 100px;
+	margin-left: 35px;
+	border-radius: 5px;
+	background-color: button_gradient;
+	border: 2px solid #ffffff20;
+  	vertical-align: center;
+	pre-transform-scale2d: 1;
+	transition-property: transform, border, background-color, opacity, pre-transform-scale2d, box-shadow;
+	transition-duration: 0.23s;
+	transition-timing-function: bigpicture-ease-in-out;
+}
+
+.DestinationButton .ScrollButtonImage,
+.BackButton .ScrollButtonImage 
+{
+	transform: rotateZ( 90deg );
+	width: 70px;
+	height: 70px;
+	vertical-align: center;
+}
+
+.BackButton:hover,
+.GamepadController .BackButton:focus
+{
+	background-color: button_gradient_hover;
+	pre-transform-scale2d: 1;
+	border: 2px solid white;
+	box-shadow: button_glow 0px 0px 10px 0px;
+}
+
+
+.BackButtonText 
+{
+	color: white;
+	font-size: 35px;
+	vertical-align: center;
+	margin-left: 10px;
+}
+
+.BackButton:active
+{
+	pre-transform-scale2d:.97;
+}
+
+.HorizontalDivider{
+	width: 100%;
+	height: 3px;
+	background-color: #ffffff05;
+	margin-top: 10px;
+	//margin-bottom: 10px;
+	
+	margin-bottom: 40px;
+}
+
+
+.SettingsArea {
+	width: 100%;
+	height: 900px;
+	flow-children: right;
+	margin-top: 155px;
+	border-radius: 5px;
+	background-color: background_center_gradient;
+}
+
+.SettingsLeft,
+.SettingsRight
+{
+	width: 50%;
+	height: 750px;
+	padding-top: 35px;
+	flow-children: down;
+}
+
+.SettingsLeft ToggleButton
+{
+	margin-left: 35px;	
+	margin-bottom: 20px;
+}
+
+.DescriptionText
+{
+	width: 600px;
+	color: #ffffff90;
+	font-size: 30px;	
+	margin-left: 110px;
+}
+
+.OtherLabel
+{
+	font-size: 35px;
+	color: white;
+	margin: 10px 0px 5px 25px;
+}
+
+.StatusDropDown
+{
+	margin-left: 25px;
+	margin-bottom: 30px;
+}
+
+.PersonalBubbleSlider
+{
+	margin-left: 40px;
+	height: 60px;
+	width: 500px;	
+	//background-color: red;
+}
+
+.PersonalBubbleSlider #SliderTrack
+{
+	vertical-align: center;
+	background-color: #ffffff22;
+}
+
+.PersonalBubbleSlider #SliderTrackProgress
+{
+	vertical-align: center;
+	border-radius: 5px 0px 0px 5px;
+	//border: 1px solid #ffffffaa;
+	//border-right: 0px;
+	background-color: button_gradient_bright;
+}
+
+.PersonalBubbleSlider #SliderThumb
+{
+	width: 30px;
+	height: 50px;
+	border-radius: 5px;
+	border: 2px solid #ffffffaa;
+	background-color: button_gradient_bright;
+	vertical-align: center;
+}
+
+.PersonalBubbleSlider:focus #SliderThumb
+{
+	width: 30px;
+	height: 50px;
+	border-radius: 5px;
+	border: 4px solid #ffffffaa;
+	background-color: white;
+	vertical-align: center;
+}
+
+.BubbleTitle
+{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	color: white;
+	font-size: 40px;	
+}
+
+.BubbleLabels
+{
+	//flow-children: none;
+	width: 500px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+#BigBubble
+{
+	horizontal-align: right;
+	//margin-left: 400px;
+}
+
+.BubbleLabel
+{
+	font-size: 20px;
+	color: #ffffff55;	
+}
+
+.BubbleDesc
+{
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 550px;
+	color: #ffffff88;
+	font-size: 30px;	
+}
+
+#SettingsDivider
+{
+	margin-left: 40px;
+	width: 550px;	
+}
+
+.ResetAnchorButton
+{
+	margin-left: 40px;
+	margin-top: 30px;
+	width: 400px;	
+}

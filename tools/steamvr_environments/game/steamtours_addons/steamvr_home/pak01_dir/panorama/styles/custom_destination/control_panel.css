@@ -1,0 +1,318 @@
+.InWorldDirectionPagePanel
+{
+	//width: 320px;
+    //height: 192px;
+    //width: 350px;
+    //height: 180px;
+    width: 525px;
+    height: 250px;
+	background-color: black;
+	font-family: Motiva Sans;
+	font-size: 30px;
+	horizontal-align: center;
+	vertical-align: top;
+	flow-children: none;
+	//border: 2px solid #ffffff60;
+	border-radius: 5px;
+	pre-transform-scale2d: .95;
+	transition-property: opacity, pre-transform-scale2d, wash-color, saturation, border;
+	transition-duration: .25s;
+	opacity: 0;
+}
+
+.InWorldDirectionPagePanel.PlayerChoosingTeleportLocation 
+{
+	opacity: 0.7;
+	//background-color: #222222ff;
+	pre-transform-scale2d: 1;
+}
+
+.InWorldDirectionPagePanel.Activated.PlayerChoosingTeleportLocation 
+{
+	opacity: 0.7;
+	//background-color: #222222ff;
+	pre-transform-scale2d: 1;
+}
+
+.InWorldDirectionPagePanel.Activated .Instruction,
+.InWorldDirectionPagePanel.Activated .Control
+{
+	opacity: 1;
+}
+
+.InWorldDirectionPagePanel.Activated
+{
+	//background-color: none;
+	opacity: 1;
+	pre-transform-scale2d: 1;
+}
+
+.GamepadController .InWorldDirectionPagePanel.Activated
+{
+	opacity: .7;
+}
+
+.ViewFocus.GamepadController .InWorldDirectionPagePanel.Activated
+{
+	opacity: 1;
+}
+
+.Instruction
+{
+	width: 100%;
+	height: 100%;
+	color: white;
+	vertical-align: center;
+	horizontal-align: center;
+	text-align: center;
+	text-overflow: clip;
+	border: 0px solid blue;
+	flow-children: down;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: .25s;
+}
+
+#InstructionText
+{
+	margin-top: 37px;
+	margin-left: 33px;
+	horizontal-align: left;
+	vertical-align: top; 
+	font-size: 37px;
+}
+
+.Control
+{
+	width: 100%;
+	height: 100%;
+	color: white;
+	vertical-align: center;
+	horizontal-align: center;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: .25s;
+}
+
+
+
+.Description
+{
+	width: 50%;
+	height: 100%;
+	color: white;
+	vertical-align: center;
+	horizontal-align: center;
+	text-align: center;
+	text-overflow: clip;
+	border: 0px solid white;
+}
+
+#DescriptionText
+{
+	margin-top: 0px;
+	horizontal-align: center;
+	vertical-align: center; 
+}
+
+.RoomButtonPanel
+{
+	margin-top: 100px;
+	margin-left: 30px;
+	flow-children: right;
+}
+
+.RoomButton
+{
+	width: 105px;
+	height: 105px;
+	border-radius: 3px;
+	border: 2px solid #ffffff20;
+	margin: 5px;
+
+
+	transition-property: border;
+	transition-duration: .1s;
+	transition-timing-function: linear;
+}
+
+
+.RoomButton:hover,
+.GamepadController .RoomButton:focus 
+{
+	border: 2px solid white;
+}
+
+.RoomButton:active
+{
+	pre-transform-scale2d: .97;
+}
+
+.Default #DefaultButton,
+.LivingRoom #CouchButton,
+.Bedroom #BedButton,
+.Office #DeskButton,
+.Nothing #NothingButton,
+.Pagoda #PagodaButton,
+.Birdbath #BirdbathButton,
+.Statue #StatueButton
+{
+	background-color: #ffffff05;
+	border: 2px solid #ffffff60;
+}
+
+.ButtonImage
+{
+	width: 80px;
+	height: 80px;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+.InfoButton
+{
+	width: 50px;
+	height: 50px;
+	border: 2px solid #ffffff20;
+	background-color: #ffffff05;
+	border-radius: 3px;
+	margin: 35px 40px 0px 0px;
+	horizontal-align: right;
+	opacity: .8;
+
+	transition-property: border, opacity;
+	transition-duration: .1s;
+	transition-timing-function: linear;	
+}
+
+.InfoButton:hover,
+.GamepadController .InfoButton:focus 
+{
+	border: 2px solid #ffffff80;
+	opacity: 1;
+}
+
+.InfoButton:active
+{
+	pre-transform-scale2d: .95;
+}
+
+.GamepadController #InteriorInfoButton
+{
+	visibility: collapse;
+	// this information is not relevant to gamepad users
+}
+
+// Info Panel
+
+.InfoPanel
+{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	visibility: collapse;
+}
+
+.InfoPanelOn .InfoPanel
+{
+	visibility: visible;
+}
+
+.InfoPanelOn .RoomButtonPanel
+{
+	visibility: collapse;
+}
+
+.InfoImage
+{
+	width: 140px;
+	height: 140px;
+	vertical-align: center;
+	horizontal-align: right;
+	margin-right: 30px;
+	margin-top: 65px;
+}
+
+.InfoImagePatio
+{
+	width: 90px;
+	height: 90px;
+	wash-color: #2f94c2ff;
+	vertical-align: center;
+	horizontal-align: right;
+	margin-right: 40px;
+	margin-top: 65px;
+}
+
+.InfoImageBackground   
+{
+	width: 100px;
+	height: 100px;
+	vertical-align: center;
+	horizontal-align: right;
+	margin-right: 30px;
+	margin-top: 80px;
+}
+
+.InfoText
+{
+	color: white;
+	font-size: 25px;
+	width: 330px;
+	horizontal-align: left;
+	//vertical-align: center;
+	margin-top: 100px;
+	margin-left: 33px;
+	//background-color: red;
+}
+
+#patioInfoText
+{
+	width: 350px;
+}
+
+
+.Control .ScrollButtonImage
+{
+	width: 40px;
+	height: 40px;
+	margin-bottom: 1px;
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+.InfoPanel .ScrollButtonImage
+{
+	width: 25px;
+	height: 25px;
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+.BackButton
+{
+	width: 50px;
+	height: 50px;
+	border: 2px solid #ffffff20;
+	background-color: #ffffff05;
+	border-radius: 3px;
+	margin: 35px 40px 0px 0px;
+	horizontal-align: right;
+	opacity: .8;
+
+	transition-property: border, opacity;
+	transition-duration: .1s;
+	transition-timing-function: linear;	
+}
+
+.BackButton:hover,
+.GamepadController .BackButton:focus
+{
+	border: 2px solid #ffffff40;
+	opacity: 1;
+}
+
+.BackButton:active
+{
+	pre-transform-scale2d: .95;
+}

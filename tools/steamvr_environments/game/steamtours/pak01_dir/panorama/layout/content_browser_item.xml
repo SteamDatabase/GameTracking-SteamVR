@@ -1,0 +1,71 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/content_browser.vcss_c" />
+	</styles>
+
+
+
+
+
+<ContentBrowserItem class="Item">
+
+		<Image id="ItemPreviewImage" class="ItemPreviewImage" />
+
+
+		<Panel class="ItemGradient" />
+		<Panel class="DestinationGradient" />
+		<Panel class="NewItemDot" />
+		<Panel class="TopRightGradient" />
+		
+		<Image class="FavoriteItemStar" src="s2r://panorama/images/content_browser/icon_favorite_shadow_png.vtex" />	
+		<Image class="LockedItemOverlay" src="s2r://panorama/images/content_browser/locked_item_png.vtex" />	
+			
+		<Image class="ItemToolIcon" src="s2r://panorama/images/content_browser/icon_tool_png.vtex" />	
+
+		<Panel class="SaveGameIcon">
+			<Image class="SaveGameImage" src="s2r://panorama/images/content_browser/save_icon_png.vtex" />
+		</Panel>	
+		
+		<Image class="LocalItem" src="s2r://panorama/images/content_browser/icon_local_item_png.vtex" />		
+		<Label class="LocalItemLabel" text="#ContentBrowser_Local" />
+		
+		<Panel class="SpawnDisabledOverlay">
+			<Image class="SpawnDisabledImage" src="s2r://panorama/images/content_browser/disabled_item_png.vtex"/>	
+			<Label class="SpawnDisabledText" text="#SpawnDisabledText" />		
+		</Panel>
+		
+		<Panel class="PlayerNumber">
+			<Image class="PlayerNumberIcon" src="s2r://panorama/images/content_browser/friends_toggle_button_png.vtex" />		
+			<Label class="PlayerNumberText" text="#Player_Number" />			
+			<Label class="PlayerNumberText" text="#Player_Number_Label" />	
+		</Panel>
+		
+
+
+<!-- 
+		In case we need to call these item types out in the future		
+		<Image class="DefaultItem" src="s2r://panorama/images/content_browser/icon_default_item_png.vtex" />
+		<Image class="WorkshopItem" src="s2r://panorama/images/content_browser/icon_workshop_item_png.vtex" />
+		<Label class="DefaultItemLabel" text="#ContentBrowser_Default" />
+		<Label class="WorkshopItemLabel" text="#ContentBrowser_Workshop" />
+-->
+
+
+		<Button id="ViewDetailsBtn" class="ItemGradientHit">
+			<Image class="BlackGradient" src="s2r://panorama/images/content_browser/black_gradient_png.vtex" />			
+			<Label class="ItemTitle" text="#ContentBrowser_ItemName" />
+			<Image class="ItemInfoIcon" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />			
+		</Button>
+
+		<Label class="ItemTitleWearable" text="#ContentBrowser_ItemName" />		
+	
+	
+		<Panel class="ItemDownloadProgressContainer">
+			<Panel id="ItemDownloadProgressBar" class="ItemDownloadProgressBar" />
+		</Panel>
+
+</ContentBrowserItem>
+
+
+</root>

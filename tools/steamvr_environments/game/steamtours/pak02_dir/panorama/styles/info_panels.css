@@ -1,0 +1,225 @@
+/* base styles for all in-world info panels */
+
+.InWorldInfoPanel {
+	opacity: 0;
+	wash-color: ui_color;
+	border: 4px solid ui_color_fade;
+	border-radius: 30px;
+	saturation: 0.5;
+	pre-transform-scale2d: .95;
+	transition-property: opacity, pre-transform-scale2d, wash-color, saturation, border;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;
+}
+
+.InWorldInfoPanel.PlayerChoosingTeleportLocation {
+	opacity: 0.7;
+	pre-transform-scale2d: 1;
+	border: 4px solid ui_color_fade;
+	background-color: ui_color_mid;
+	border-radius: 30px;
+}
+
+.InWorldInfoPanel.Read.PlayerChoosingTeleportLocation {
+	background-color: white;
+	wash-color: white;
+	opacity: 0.4;
+
+}
+
+.InWorldInfoPanel.PlayerChoosingTeleportLocation.Activated{
+	border-color: none;
+	background-color: none;
+	opacity: 0.8;
+}
+
+
+.InWorldInfoPanel .TextArea,
+.InWorldInfoPanel.PlayerChoosingTeleportLocation .TextArea, 
+.InWorldInfoPanel .InfoDialogButton, 
+.InWorldInfoPanel.PlayerChoosingTeleportLocation .InfoDialogButton,
+.InWorldInfoPanel .InfoPanelScroll, 
+.InWorldInfoPanel.PlayerChoosingTeleportLocation .InfoPanelScroll{
+	transition-property: opacity;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;
+	opacity: 0;
+}
+
+.InWorldInfoPanel.Activated,
+.InWorldInfoPanel.Activated .TextArea,
+.InWorldInfoPanel.AlwaysVisible,
+.InWorldInfoPanel.AlwaysVisible .TextArea,
+.InWorldInfoPanel.Activated .InfoDialogButton,
+.InWorldInfoPanel.AlwaysVisible .InfoDialogButton, 
+.InWorldInfoPanel.Activated .InfoPanelScroll,
+.InWorldInfoPanel.AlwaysVisible .InfoPanelScroll {
+	opacity: 1;
+	wash-color: none;
+	saturation: 1;
+	pre-transform-scale2d: 1;
+}
+
+.InWorldInfoPanel.Activated {
+	border: 4px solid ui_color_fade;
+}
+
+.InWorldInfoPanel .InfoScrollingUp .TextArea,
+.InWorldInfoPanel .InfoScrollingDown .TextArea {
+	opacity-mask: url("s2r://panorama/images/content_browser/info_panel_opacity_mask_png.vtex");
+}
+
+.Page {
+	width: 100%;
+	height: 100%;
+	flow-children: none;
+
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #000000ee ), to( #000000dd ) );
+	border-radius: 20px;
+
+	border: 4px solid ui_color_mid;
+
+}
+
+.Title, .Desc {
+	color: #eeeeeeff;
+	text-align: left;
+}
+
+.Title
+{
+	font-size: 90px;
+	font-weight: bold;
+}
+
+.Desc {
+	horizontal-align: left;
+	padding-top: 60px;
+	font-size: 55px;
+}
+
+
+
+.TextArea {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	flow-children: down;
+	padding: 100px;
+	overflow: clip scroll;
+	background-color: none;
+}
+
+.TextArea.WithButtons {
+	padding-bottom: 50px;
+}
+
+.InfoDialogButton{
+	vertical-align: bottom;
+	horizontal-align: center;
+}
+
+.InfoPanelScroll {
+	width: 100%;
+	height: 100%;
+	background-color: none;
+}
+
+.ScrollPanelUp {
+	width: 160px;
+	height: 80px;
+	border-radius: 10px;
+	background-color: #000000aa;
+	horizontal-align: center;
+	vertical-align: top;
+	
+	transition-property: opacity, border, background-color, box-shadow;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;
+	opacity: 0;
+	margin-top: 10px;
+}
+
+.ScrollPanelDown {
+	width: 160px;
+	height: 80px;
+	border-radius: 10px;
+	background-color: #000000aa;
+	horizontal-align: center;
+	vertical-align: bottom;
+	
+	transition-property: opacity, border, background-color, box-shadow;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;
+	opacity: 0;
+	margin-bottom: 10px;
+}
+
+.ScrollPanelUp:hover,
+.ScrollPanelDown:hover,
+.FocusOnEnable .ScrollPanelUp:focus,
+.FocusOnEnable .ScrollPanelDown:focus {
+	background-color: ui_color_mid;	
+	pre-transform-scale2d: 1;
+	border: 3px solid white;
+	box-shadow: ui_color 0px 0px 10px 0px;
+}
+
+.InfoScrollingUp .ScrollPanelUp {
+	opacity: 1;
+}
+
+.InfoScrollingDown .ScrollPanelDown {
+	opacity: 1;
+}
+
+.ScrollButtonImage {
+	width: 80px;
+	height: 80px;
+	horizontal-align: center;
+}
+
+.DialogButton,
+.DialogButton:focus {
+	width: 600px;
+	height: 100px;
+	padding: 10px;
+	margin-bottom: 30px;
+	border-radius: 15px;	
+	background-color: #000000aa;
+	border: 3px solid #ffffff20;
+	color: white;
+	horizontal-align: center;
+	vertical-align: bottom;
+	visibility: collapse;
+	
+	transition-property: border, background-color, box-shadow;
+	transition-duration: 0.23s;
+	transition-timing-function: bigpicture-ease-in-out;	
+}
+
+.DialogButton.Visible {
+	visibility: visible;
+}
+
+.DialogButton:hover,
+.FocusOnEnable .DialogButton:focus{
+	background-color: ui_color_mid;	
+	pre-transform-scale2d: 1;
+	border: 3px solid white;
+	box-shadow: ui_color 0px 0px 10px 0px;
+}
+
+.DialogButton:active {
+	pre-transform-scale2d: .97;
+}
+
+.DialogButton Label {
+	font-family: platformfont;
+	font-size: 40px;
+	font-weight: light;
+	color: white;
+	width: 100%;
+	text-align: center;
+	vertical-align: center;
+}

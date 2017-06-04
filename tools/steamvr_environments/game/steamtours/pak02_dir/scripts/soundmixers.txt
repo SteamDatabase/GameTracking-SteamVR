@@ -1,0 +1,16 @@
+"MixGroups"
+{																										
+//	group name		dir/name 	classname	chan		sndlvl_min	sndlvl_max	priority 	Is Ducked	Ducks		Duck Pct%	Duck Threshold
+	"ambient"		""			""			""			""			""			""			""			""			""			""							
+	"ui"			""			""			""			""			""			""			""			""			""			""
+}
+
+"SoundMixers"
+{
+	"Default_Mix"
+	{
+	//	group name		vol		lvl		dsp		solo	mute
+		"ambient"		"1.0"	"1.0"   "1.0"   "0.0"   "0.0"		
+		"ui"			"1.0"	"1.0"   "1.0"   "0.0"   "0.0"
+	}
+}

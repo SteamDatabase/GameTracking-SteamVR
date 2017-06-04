@@ -1,0 +1,52 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/puppet.vcss_c" />
+	</styles>
+
+	<script>
+		function OnRotateAvatarSliderChanged()
+		{
+			var value = $( "#RotateSlider" ).value;
+			$.DispatchEvent( "RotateAvatarPuppet", value );
+		}
+	</script>
+
+	<ClientUIDialogPanel onload="SetInputFocus(AvatarToggleOn);" hittest="0">
+		<Panel id="PuppetControls" class="AvatarMinimized" hittest="0">		
+				<Button class="AvatarToggleOff" id="AvatarToggleOff" onactivate="HidePuppet(); AddStyle(PuppetControls,AvatarMinimized); RemoveStyle(PuppetControls,AvatarMaximized); SetInputFocus(AvatarToggleOn)">
+					<Panel class="HorizontalLine" />
+				</Button>
+				<Panel class="AvatarPreviewPanel">
+					<Label class="AvatarPreviewText" id="AvatarPreviewText" text="#AvatarPreviewText" />				
+					<Label class="AvatarPreviewText" id="AvatarPreviewHover" text="#AvatarPreviewHover" />	
+				</Panel>
+				<Button class="AvatarCustomizeButton DestinationButton" onactivate="ShowAvatarDashboard();">
+					<Label class="AvatarPreviewText" id="AvatarPreviewText" text="#AvatarCustomizeButtonText" />
+				</Button>
+
+				<Panel class="AvatarEditPanel">
+					<Panel class="WearableDescriptionPanel">
+						<Label class="AvatarPreviewText" id="AvatarEditText" text="#AvatarEditText" />							
+					</Panel>
+					<Panel class="RotatePanel">
+						<Label class="AvatarPreviewText" id="AvatarRotateText" text="#AvatarRotateText" />				
+						<Slider class="RotateSlider" id="RotateSlider" direction="horizontal" onvaluechanged="OnRotateAvatarSliderChanged()" />
+					</Panel>
+				</Panel>
+		
+				<Button class="AvatarToggleOn" id="AvatarToggleOn" onactivate="ShowPuppet(); AddStyle(PuppetControls,AvatarMaximized); RemoveStyle(PuppetControls,AvatarMinimized); SetInputFocus(AvatarToggleOff)">
+					<Panel class="AvatarToggleLabel">
+						<Label class="AvatarToggleLabelText" text="#AvatarToggleLabelText" />				
+					</Panel>
+					
+		            <Image class="AvatarToggleImage" src="s2r://panorama/images/content_browser/avatar_toggle_button_color_png.vtex" />	
+		
+	
+					<Panel class="AvatarControllerHint">
+						<Label class="AvatarControllerHintText" text="#AvatarControllerHintText" />
+					</Panel>
+				</Button>
+		</Panel>
+	</ClientUIDialogPanel>
+</root>

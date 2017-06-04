@@ -1,0 +1,89 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/custom_destination/control_panel.vcss_c" />
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/scripts/custom_destination/interior_control_panel.vjs_c" />
+	</scripts>
+	<script>
+
+		function ClearRoomClasses()
+		{
+			$( "#ControlPanel" ).RemoveClass( "Default" );
+			$( "#ControlPanel" ).RemoveClass( "LivingRoom" );	
+			$( "#ControlPanel" ).RemoveClass( "Bedroom" );					
+			$( "#ControlPanel" ).RemoveClass( "Office" );
+		}	
+
+		function LoadDefault()
+		{
+			ClearRoomClasses()
+			$.Msg("Loading Default");
+			$( "#ControlPanel" ).AddClass( "Default" );
+			$.DispatchEvent( "ClientUI_FireOutput", '0' );
+		}
+
+		function LoadLivingRoom()
+		{
+			ClearRoomClasses()
+			$.Msg("Loading Living Room");
+			$( "#ControlPanel" ).AddClass( "LivingRoom" );
+			$.DispatchEvent( "ClientUI_FireOutput", '1' );
+		}
+
+		function LoadBedroom()
+		{
+			ClearRoomClasses()
+			$.Msg("Loading Bedroom");
+			$( "#ControlPanel" ).AddClass( "Bedroom" );
+			$.DispatchEvent( "ClientUI_FireOutput", '2' );
+		}
+
+		function LoadOffice()
+		{
+			ClearRoomClasses()
+			$.Msg("Loading Office");
+			$( "#ControlPanel" ).AddClass( "Office" );
+			$.DispatchEvent( "ClientUI_FireOutput", '3' );
+		}
+
+	</script>
+	<Panel class="InWorldDirectionPagePanel">
+		<Panel id="InstructionPanel" class="Instruction" >
+			<Label id="InstructionText" text="#VRHome_Config_Change" />
+		</Panel>
+		<Panel id="ControlPanel" class="Control Default" defaultfocus="DefaultButton" tabindex="auto" selectionpos="auto">
+			
+			<Panel class="RoomButtonPanel">
+				<Button class="RoomButton" id="DefaultButton" onactivate="LoadDefault();">
+					<Image class="ButtonImage" src="s2r://panorama/images/custom_destination/icon_bench_png.vtex" />
+				</Button>			
+				<Button class="RoomButton" id="CouchButton" onactivate="LoadLivingRoom();">
+					<Image class="ButtonImage" src="s2r://panorama/images/custom_destination/icon_couch_png.vtex" />
+				</Button>			
+				<Button class="RoomButton" id="BedButton" onactivate="LoadBedroom();">
+					<Image class="ButtonImage" src="s2r://panorama/images/custom_destination/icon_bed_png.vtex" />
+				</Button>			
+				<Button class="RoomButton" id="DeskButton" onactivate="LoadOffice();">
+					<Image class="ButtonImage" src="s2r://panorama/images/custom_destination/icon_desk_png.vtex" />
+				</Button>		
+			</Panel>		
+
+			<Button class="InfoButton" onactivate="AddStyle(ControlPanel,InfoPanelOn);" id="InteriorInfoButton">
+	            <Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/icon_info_png.vtex" />
+			</Button>
+
+			<Panel class="InfoPanel">
+				<Label id="InstructionText" text="#VRHome_Info_Title" />
+	            <Button class="BackButton" id="BackButton" onactivate="RemoveStyle(ControlPanel,InfoPanelOn);">
+	                <Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/icon_unsubscribe_png.vtex" />
+	            </Button>
+				<Image class="InfoImage" src="s2r://panorama/images/content_browser/multi_tutorial_icon_png.vtex" />
+				<Label class="InfoText" text="#VRHome_Desc" />
+			</Panel> 
+	
+		</Panel>
+
+	</Panel>
+</root>

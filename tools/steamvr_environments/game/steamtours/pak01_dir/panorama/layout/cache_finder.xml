@@ -1,0 +1,31 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/cache_finder.vcss_c" />
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/scripts/cache_finder.vjs_c" />
+	</scripts>
+	<Panel class="InWorldDirectionPagePanel">
+		<Panel id="InstructionPanel" class="Instruction" >
+			<Label id="NoCacheText" text="#VR_PropTool_CacheFinder_None" />
+			<Label id="InstructionText" text="#VR_PropTool_CacheFinder_Find" />
+		</Panel>
+		<Panel id="ProgressPanel" class="Progress" >
+			<Label id="ProgressBar" />
+		</Panel>
+		<Panel id="CacheFinderImages" class="CacheFinderImages">
+			<Image class="NoCacheImage Image1" src="s2r://panorama/images/cache_finder/no_cache_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+			<Image class="NoCacheImage Image2" src="s2r://panorama/images/cache_finder/no_cache_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+			<Image class="LocateCacheImage Image1" src="s2r://panorama/images/cache_finder/locate_cache_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+			<Image class="LocateCacheImage Image2" src="s2r://panorama/images/cache_finder/locate_cache_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+			<Image class="RetrieveCacheImage Image1" src="s2r://panorama/images/cache_finder/retrieve_cache_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+			<Image class="RetrieveCacheImage Image2" src="s2r://panorama/images/cache_finder/retrieve_cache_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+			<Image class="OpenCacheImage Image1" src="s2r://panorama/images/cache_finder/open_cache_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+			<Image class="OpenCacheImage Image2" src="s2r://panorama/images/cache_finder/open_cache_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>	
+			<Image class="CapturedCacheImage Image1" src="s2r://panorama/images/cache_finder/captured_cache_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+			<Image class="CapturedCacheImage Image2" src="s2r://panorama/images/cache_finder/captured_cache_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>	
+		</Panel>
+	</Panel>
+</root>
+

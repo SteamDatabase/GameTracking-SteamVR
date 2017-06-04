@@ -1,0 +1,2867 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	maps =
+	[
+		{
+			id = "home"
+			name = "#VR_Map_Home"
+			desc = "#VR_Map_Home_Desc"
+			content = "home"
+			preview_image = "file://{images}/contentdb/home.png"
+			tags = "abstract, imaginary"
+			dev_only = true
+		},
+		{
+			id = "venice_courtyard"
+			name = "#VR_Map_Venice_Courtyard"
+			desc = "#VR_Map_Venice_Courtyard_Desc"
+			content = "venice_courtyard"
+			preview_image = "file://{images}/contentdb/venice_courtyard.png"
+			dev_only = true
+		},
+		{
+			id = "lava_tube"
+			name = "#VR_Map_Lava_Tube"
+			desc = "#VR_Map_Lava_Tube_Desc"
+			content = "lava_tube"
+			preview_image = "file://{images}/contentdb/lava_tube.png"
+			dev_only = true
+		},
+		{
+			id = "vesper_peak"
+			name = "#VR_Map_Vesper_Peak"
+			desc = "#VR_Map_Vesper_Peak_Desc"
+			content = "vesper_peak_01"
+			preview_image = "file://{images}/contentdb/vesper_peak.png"
+			dev_only = true
+		}
+	]
+
+	avatar_heads =
+	[
+		{
+			id = "default_head"
+			name = "#VR_Avatar_Head_Default"
+			desc = "#VR_Avatar_Head_Default_Desc"
+			content = "models/characters/avatars/generic_hmd.vmdl"
+			preview_image = "file://{images}/contentdb/default_headset.png"
+		},
+		{
+			id = "head_a_model"
+			name = "#VR_Avatar_A"
+			desc = "#VR_Avatar_A_Desc"
+			content = "models/characters/avatars/head_a_model.vmdl"
+			preview_image = "file://{images}/contentdb/head_a_thumb.png"
+		},
+		{
+			id = "head_b_model"
+			name = "#VR_Avatar_B"
+			desc = "#VR_Avatar_B_Desc"
+			content = "models/characters/avatars/head_b_model.vmdl"
+			preview_image = "file://{images}/contentdb/head_b_thumb.png"
+		},
+		{
+			id = "head_c_model"
+			name = "#VR_Avatar_C"
+			desc = "#VR_Avatar_C_Desc"
+			content = "models/characters/avatars/head_c_model.vmdl"
+			preview_image = "file://{images}/contentdb/head_c_thumb.png"
+		},
+		{
+			id = "head_d_model"
+			name = "#VR_Avatar_D"
+			desc = "#VR_Avatar_D_Desc"
+			content = "models/characters/avatars/head_d_model.vmdl"
+			preview_image = "file://{images}/contentdb/head_d_thumb.png"
+		},				
+		{
+			id = "head_e_model"
+			name = "#VR_Avatar_E"
+			desc = "#VR_Avatar_E_Desc"
+			content = "models/characters/avatars/head_e_model.vmdl"
+			preview_image = "file://{images}/contentdb/head_e_thumb.png"
+		},
+		{
+			id = "head_f_model"
+			name = "#VR_Avatar_F"
+			desc = "#VR_Avatar_F_Desc"
+			content = "models/characters/avatars/head_f_model.vmdl"
+			preview_image = "file://{images}/contentdb/head_f_thumb.png"
+		},
+		{
+			id = "head_g_model"
+			name = "#VR_Avatar_G"
+			desc = "#VR_Avatar_G_Desc"
+			content = "models/characters/avatars/head_g_model.vmdl"
+			preview_image = "file://{images}/contentdb/head_g_thumb.png"
+		},
+		{
+			id = "head_h_model"
+			name = "#VR_Avatar_H"
+			desc = "#VR_Avatar_H_Desc"
+			content = "models/characters/avatars/head_h_model.vmdl"
+			preview_image = "file://{images}/contentdb/head_h_thumb.png"
+		},
+		{
+			id = "head_i_model"
+			name = "#VR_Avatar_I"
+			desc = "#VR_Avatar_I_Desc"
+			content = "models/characters/avatars/head_i_model.vmdl"
+			preview_image = "file://{images}/contentdb/head_i_thumb.png"
+		},
+		{
+			id = "headcrab"
+			name = "#VR_Avatar_Crab"
+			desc = "#VR_Avatar_Crab_Desc"
+			content = "models/characters/avatars/aa_headcrab.vmdl"
+			locked_by_quest = true		
+			preview_image = "file://{images}/contentdb/head_crab_thumb.png"
+		},
+		{
+			id = "jackolantern_01"
+			name = "#VR_Avatar_Jackolantern_01"
+			desc = "#VR_Avatar_Jackolantern_01_Desc"
+			content = "models/props/toys/jackolantern_01.vmdl"
+			preview_image = "file://{images}/contentdb/jackolantern_01.png"
+			locked_by_quest = true
+		},	
+		{
+			id = "head001_a_model"
+			name = "#VR_Avatar_Head001_A"
+			desc = "#VR_Avatar_Head001_A_Desc"
+			content = "models/characters/avatars/head001_a_model.vmdl"
+			preview_image = "file://{images}/contentdb/head001_a_thumb.png"
+		},	
+		{
+			id = "head001_b_model"
+			name = "#VR_Avatar_Head001_B"
+			desc = "#VR_Avatar_Head001_B_Desc"
+			content = "models/characters/avatars/head001_b_model.vmdl"
+			preview_image = "file://{images}/contentdb/head001_b_thumb.png"
+		},	
+		{
+			id = "head001_c_model"
+			name = "#VR_Avatar_Head001_C"
+			desc = "#VR_Avatar_Head001_C_Desc"
+			content = "models/characters/avatars/head001_c_model.vmdl"
+			preview_image = "file://{images}/contentdb/head001_c_thumb.png"
+		},	
+		{
+			id = "head001_d_model"
+			name = "#VR_Avatar_Head001_D"
+			desc = "#VR_Avatar_Head001_D_Desc"
+			content = "models/characters/avatars/head001_d_model.vmdl"
+			preview_image = "file://{images}/contentdb/head001_d_thumb.png"
+		},	
+		{
+			id = "head001_e_model"
+			name = "#VR_Avatar_Head001_E"
+			desc = "#VR_Avatar_Head001_E_Desc"
+			content = "models/characters/avatars/head001_e_model.vmdl"
+			preview_image = "file://{images}/contentdb/head001_e_thumb.png"
+		},	
+		{
+			id = "head001_f_model"
+			name = "#VR_Avatar_Head001_F"
+			desc = "#VR_Avatar_Head001_F_Desc"
+			content = "models/characters/avatars/head001_f_model.vmdl"
+			preview_image = "file://{images}/contentdb/head001_f_thumb.png"
+		},
+		{
+			id = "companion_bot001"
+			name = "#VR_Avatar_Companion_Bot"
+			desc = "#VR_Avatar_Companion_Bot_Desc"
+			content = "models/characters/avatars/companion_bot001.vmdl"
+			preview_image = "file://{images}/contentdb/companion_bot001.png"
+		},
+		{
+			id = "offense_bot001"
+			name = "#VR_Avatar_Offense_Bot"
+			desc = "#VR_Avatar_Offense_Bot_Desc"
+			content = "models/characters/avatars/offense_bot001.vmdl"
+			preview_image = "file://{images}/contentdb/offense_bot001.png"
+		},
+		// tf2
+		{
+			id = "tf2_bot_demo"
+			name = "#VR_Avatar_TF2_Bot_Demo"
+			desc = "#VR_Avatar_TF2_Bot_Demo_Desc"
+			content = "models/characters/avatars/tf2_bot_demo.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_bot_demo.png"
+			locked_by_quest = true
+			inventory_service_id = 100
+		},
+		{
+			id = "tf2_bot_engineer"
+			name = "#VR_Avatar_TF2_Bot_Engineer"
+			desc = "#VR_Avatar_TF2_Bot_Engineer_Desc"
+			content = "models/characters/avatars/tf2_bot_engineer.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_bot_engineer.png"
+			locked_by_quest = true
+			inventory_service_id = 101
+		},
+		{
+			id = "tf2_bot_heavy"
+			name = "#VR_Avatar_TF2_Bot_Heavy"
+			desc = "#VR_Avatar_TF2_Bot_Heavy_Desc"
+			content = "models/characters/avatars/tf2_bot_heavy.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_bot_heavy.png"
+			locked_by_quest = true
+			inventory_service_id = 102
+		},
+		{
+			id = "tf2_bot_medic"
+			name = "#VR_Avatar_TF2_Bot_Medic"
+			desc = "#VR_Avatar_TF2_Bot_Medic_Desc"
+			content = "models/characters/avatars/tf2_bot_medic.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_bot_medic.png"
+			locked_by_quest = true
+			inventory_service_id = 103
+		},
+		{
+			id = "tf2_bot_pyro"
+			name = "#VR_Avatar_TF2_Bot_Pyro"
+			desc = "#VR_Avatar_TF2_Bot_Pyro_Desc"
+			content = "models/characters/avatars/tf2_bot_pyro.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_bot_pyro.png"
+			locked_by_quest = true
+			inventory_service_id = 104
+		},
+		{
+			id = "tf2_bot_scout"
+			name = "#VR_Avatar_TF2_Bot_Scout"
+			desc = "#VR_Avatar_TF2_Bot_Scout_Desc"
+			content = "models/characters/avatars/tf2_bot_scout.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_bot_scout.png"
+			locked_by_quest = true
+			inventory_service_id = 105
+		},
+		{
+			id = "tf2_bot_sniper"
+			name = "#VR_Avatar_TF2_Bot_Sniper"
+			desc = "#VR_Avatar_TF2_Bot_Sniper_Desc"
+			content = "models/characters/avatars/tf2_bot_sniper.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_bot_sniper.png"
+			locked_by_quest = true
+			inventory_service_id = 106
+		},
+		{
+			id = "tf2_bot_soldier"
+			name = "#VR_Avatar_TF2_Bot_Soldier"
+			desc = "#VR_Avatar_TF2_Bot_Soldier_Desc"
+			content = "models/characters/avatars/tf2_bot_soldier.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_bot_soldier.png"
+			locked_by_quest = true
+			inventory_service_id = 107
+		},
+		{
+			id = "tf2_bot_spy"
+			name = "#VR_Avatar_TF2_Bot_Spy"
+			desc = "#VR_Avatar_TF2_Bot_Spy_Desc"
+			content = "models/characters/avatars/tf2_bot_spy.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_bot_spy.png"
+			locked_by_quest = true
+			inventory_service_id = 108
+		},
+		// seadocks		
+		{
+			id = "keemo_head"
+			name = "#VR_Avatar_keemo_head"
+			desc = "#VR_Avatar_keemo_head_Desc"
+			content = "models/characters/avatars/keemo_head.vmdl"
+			preview_image = "file://{images}/contentdb/keemo.png"
+			locked_by_quest = true
+			inventory_service_id = 109
+		},
+		{
+			id = "keli_head"
+			name = "#VR_Avatar_keli_head"
+			desc = "#VR_Avatar_keli_head_Desc"
+			content = "models/characters/avatars/keli_head.vmdl"
+			preview_image = "file://{images}/contentdb/keli.png"
+			locked_by_quest = true
+			inventory_service_id = 110
+		},
+		{
+			id = "mochi_head"
+			name = "#VR_Avatar_mochi_head"
+			desc = "#VR_Avatar_mochi_head_Desc"
+			content = "models/characters/avatars/mochi_head.vmdl"
+			preview_image = "file://{images}/contentdb/mochi.png"
+			locked_by_quest = true
+			inventory_service_id = 111
+		},
+		{
+			id = "teemo_head"
+			name = "#VR_Avatar_teemo_head"
+			desc = "#VR_Avatar_teemo_head_Desc"
+			content = "models/characters/avatars/teemo_head.vmdl"
+			preview_image = "file://{images}/contentdb/teemo.png"
+			locked_by_quest = true
+			inventory_service_id = 112
+		},
+		
+	]
+
+	avatar_hands =
+	[
+		{
+			id = "vive_controllers"
+			name = "#VR_Avatar_Hand_Default"
+			desc = "#VR_Avatar_Hand_Default_Desc"
+			content = "models/controllers/vr_controller_vive_1_5.vmdl"
+			preview_image = "file://{images}/contentdb/default_controllers.png"
+		},
+		{
+			id = "touch_controllers"
+			name = "#VR_Avatar_Touch"
+			desc = "#VR_Avatar_Touch_Desc"
+			content = "models/controllers/oculus_cv1_controller_left.vmdl"
+			preview_image = "file://{images}/contentdb/oculus_cv1_controller.png"
+		},
+		{
+			id = "v2_hands"
+			name = "#VR_Avatar_Hands_Mittens"
+			desc = "#VR_Avatar_Hands_Mittens_Desc"
+			content = "models/characters/avatars/hand_l_v2.vmdl"
+			preview_image = "file://{images}/contentdb/hands_mittens.png"
+			dev_only = true
+		},
+		{
+			id = "v3_hands"
+			name = "#VR_Avatar_Hands_Fingers"
+			desc = "#VR_Avatar_Hands_Fingers_Desc"
+			content = "models/characters/avatars/hand_l_v3.vmdl"
+			preview_image = "file://{images}/contentdb/hands_fingers.png"
+		},
+	]
+
+	avatar_wearables =
+	[
+		{
+			id = "basic_sphere001"
+			name = "#VR_Avatar_Wearable_BasicSphere001"
+			desc = "#VR_Avatar_Wearable_BasicSphere001_Desc"
+			content = "models/props/accessories/basic_sphere001.vmdl"
+			preview_image = "file://{images}/contentdb/basic_sphere001.png"
+			inventory_service_id = 200
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "basic_cube001"
+			name = "#VR_Avatar_Wearable_BasicCube001"
+			desc = "#VR_Avatar_Wearable_BasicCube001_Desc"
+			content = "models/props/accessories/basic_cube001.vmdl"
+			preview_image = "file://{images}/contentdb/basic_cube001.png"
+			inventory_service_id = 201
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "basic_rectangle001"
+			name = "#VR_Avatar_Wearable_BasicRectangle001"
+			desc = "#VR_Avatar_Wearable_BasicRectangle001_Desc"
+			content = "models/props/accessories/basic_rectangle001.vmdl"
+			preview_image = "file://{images}/contentdb/basic_rectangle001.png"
+			inventory_service_id = 202
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "basic_cylinder001"
+			name = "#VR_Avatar_Wearable_BasicCylinder001"
+			desc = "#VR_Avatar_Wearable_BasicCylinder001_Desc"
+			content = "models/props/accessories/basic_cylinder001.vmdl"
+			preview_image = "file://{images}/contentdb/basic_cylinder001.png"
+			inventory_service_id = 203
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "basic_pyramid001"
+			name = "#VR_Avatar_Wearable_BasicPyramid001"
+			desc = "#VR_Avatar_Wearable_BasicPyramid001_Desc"
+			content = "models/props/accessories/basic_pyramid001.vmdl"
+			preview_image = "file://{images}/contentdb/basic_pyramid001.png"
+			inventory_service_id = 204
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "basic_disc001"
+			name = "#VR_Avatar_Wearable_BasicDisc001"
+			desc = "#VR_Avatar_Wearable_BasicDisc001_Desc"
+			content = "models/props/accessories/basic_disc001.vmdl"
+			preview_image = "file://{images}/contentdb/basic_disc001.png"
+			inventory_service_id = 205
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "basic_panel001"
+			name = "#VR_Avatar_Wearable_BasicPanel001"
+			desc = "#VR_Avatar_Wearable_BasicPanel001_Desc"
+			content = "models/props/accessories/basic_panel001.vmdl"
+			preview_image = "file://{images}/contentdb/basic_panel001.png"
+			inventory_service_id = 206
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "top_hat001"
+			name = "#VR_Avatar_Wearable_TopHat"
+			desc = "#VR_Avatar_Wearable_TopHat_Desc"
+			content = "models/props/hats/top_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/top_hat001.png"
+			locked_by_quest = false
+			inventory_service_id = 207
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "baseball_cap001"
+			name = "#VR_Avatar_Wearable_BaseballCap001"
+			desc = "#VR_Avatar_Wearable_BaseballCap001_Desc"
+			content = "models/props/hats/baseball_cap001.vmdl"
+			preview_image = "file://{images}/contentdb/baseball_cap001.png"
+			locked_by_quest = false
+			inventory_service_id = 208
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "cowboy_hat001"
+			name = "#VR_Avatar_Wearable_CowboyHat001"
+			desc = "#VR_Avatar_Wearable_CowboyHat001_Desc"
+			content = "models/props/hats/cowboy_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/cowboy_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 209
+			default_color = [ 248,236,206 ]
+		},
+		{
+			id = "beard001"
+			name = "#VR_Avatar_Wearable_Beard001"
+			desc = "#VR_Avatar_Wearable_Beard001_Desc"
+			content = "models/props/accessories/beard001.vmdl"
+			preview_image = "file://{images}/contentdb/beard001.png"
+			locked_by_quest = true
+			inventory_service_id = 210
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "beard002"
+			name = "#VR_Avatar_Wearable_Beard002"
+			desc = "#VR_Avatar_Wearable_Beard002_Desc"
+			content = "models/props/accessories/beard002.vmdl"
+			preview_image = "file://{images}/contentdb/beard002.png"
+			locked_by_quest = true
+			inventory_service_id = 211
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "mustache001"
+			name = "#VR_Avatar_Wearable_Mustache001"
+			desc = "#VR_Avatar_Wearable_Mustache001_Desc"
+			content = "models/props/accessories/mustache001.vmdl"
+			preview_image = "file://{images}/contentdb/mustache001.png"
+			locked_by_quest = true
+			inventory_service_id = 212
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "dragonknight_helmet001"
+			name = "#VR_Avatar_Wearable_DKHelmet001"
+			desc = "#VR_Avatar_Wearable_DKHelmet001_Desc"
+			content = "models/props/hats/dragonknight_helmet001.vmdl"
+			preview_image = "file://{images}/contentdb/dragonknight_helmet001.png"
+			locked_by_quest = true
+			inventory_service_id = 213
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "gsg9_helmet001"
+			name = "#VR_Avatar_Wearable_GSG9Helmet001"
+			desc = "#VR_Avatar_Wearable_GSG9Helmet001_Desc"
+			content = "models/props/hats/gsg9_helmet001.vmdl"
+			preview_image = "file://{images}/contentdb/gsg9_helmet001.png"
+			locked_by_quest = true
+			inventory_service_id = 214
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "gyro_cap001"
+			name = "#VR_Avatar_Wearable_GyroCap001"
+			desc = "#VR_Avatar_Wearable_GyroCap001_Desc"
+			content = "models/props/hats/gyro_cap001.vmdl"
+			preview_image = "file://{images}/contentdb/gyro_cap001.png"
+			locked_by_quest = true
+			inventory_service_id = 215
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "hair_female001"
+			name = "#VR_Avatar_Wearable_HairFemale001"
+			desc = "#VR_Avatar_Wearable_HairFemale001_Desc"
+			content = "models/props/accessories/hair_female001.vmdl"
+			preview_image = "file://{images}/contentdb/hair_female001.png"
+			locked_by_quest = true
+			inventory_service_id = 216
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_female002"
+			name = "#VR_Avatar_Wearable_HairFemale002"
+			desc = "#VR_Avatar_Wearable_HairFemale002_Desc"
+			content = "models/props/accessories/hair_female002.vmdl"
+			preview_image = "file://{images}/contentdb/hair_female002.png"
+			locked_by_quest = true
+			inventory_service_id = 217
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_female003"
+			name = "#VR_Avatar_Wearable_HairFemale003"
+			desc = "#VR_Avatar_Wearable_HairFemale003_Desc"
+			content = "models/props/accessories/hair_female003.vmdl"
+			preview_image = "file://{images}/contentdb/hair_female003.png"
+			locked_by_quest = true
+			inventory_service_id = 218
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_male001"
+			name = "#VR_Avatar_Wearable_HairMale001"
+			desc = "#VR_Avatar_Wearable_HairMale001_Desc"
+			content = "models/props/accessories/hair_male001.vmdl"
+			preview_image = "file://{images}/contentdb/hair_male001.png"
+			locked_by_quest = true
+			inventory_service_id = 219
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_male002"
+			name = "#VR_Avatar_Wearable_HairMale002"
+			desc = "#VR_Avatar_Wearable_HairMale002_Desc"
+			content = "models/props/accessories/hair_male002.vmdl"
+			preview_image = "file://{images}/contentdb/hair_male002.png"
+			locked_by_quest = true
+			inventory_service_id = 220
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_male003"
+			name = "#VR_Avatar_Wearable_HairMale003"
+			desc = "#VR_Avatar_Wearable_HairMale003_Desc"
+			content = "models/props/accessories/hair_male003.vmdl"
+			preview_image = "file://{images}/contentdb/hair_male003.png"
+			locked_by_quest = true
+			inventory_service_id = 221
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_male004"
+			name = "#VR_Avatar_Wearable_HairMale004"
+			desc = "#VR_Avatar_Wearable_HairMale004_Desc"
+			content = "models/props/accessories/hair_male004.vmdl"
+			preview_image = "file://{images}/contentdb/hair_male004.png"
+			locked_by_quest = true
+			inventory_service_id = 222
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_male005"
+			name = "#VR_Avatar_Wearable_HairMale005"
+			desc = "#VR_Avatar_Wearable_HairMale005_Desc"
+			content = "models/props/accessories/hair_male005.vmdl"
+			preview_image = "file://{images}/contentdb/hair_male005.png"
+			locked_by_quest = true
+			inventory_service_id = 223
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_male006"
+			name = "#VR_Avatar_Wearable_HairMale006"
+			desc = "#VR_Avatar_Wearable_HairMale006_Desc"
+			content = "models/props/accessories/hair_male006.vmdl"
+			preview_image = "file://{images}/contentdb/hair_male006.png"
+			locked_by_quest = true
+			inventory_service_id = 224
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_male007"
+			name = "#VR_Avatar_Wearable_HairMale007"
+			desc = "#VR_Avatar_Wearable_HairMale007_Desc"
+			content = "models/props/accessories/hair_male007.vmdl"
+			preview_image = "file://{images}/contentdb/hair_male007.png"
+			locked_by_quest = true
+			inventory_service_id = 225
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "hair_male008"
+			name = "#VR_Avatar_Wearable_HairMale008"
+			desc = "#VR_Avatar_Wearable_HairMale008_Desc"
+			content = "models/props/accessories/hair_male008.vmdl"
+			preview_image = "file://{images}/contentdb/hair_male008.png"
+			locked_by_quest = true
+			inventory_service_id = 226
+			default_color = [ 0,0,0 ]
+		},
+		{
+			id = "juggernaut_mask001"
+			name = "#VR_Avatar_Wearable_JuggernautMask001"
+			desc = "#VR_Avatar_Wearable_JuggernautMask001_Desc"
+			content = "models/props/accessories/juggernaut_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/juggernaut_mask001.png"
+			locked_by_quest = true
+			inventory_service_id = 227
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "stocking_cap001"
+			name = "#VR_Avatar_Wearable_StockingCap001"
+			desc = "#VR_Avatar_Wearable_StockingCap001_Desc"
+			content = "models/props/hats/stocking_cap001.vmdl"
+			preview_image = "file://{images}/contentdb/stocking_cap001.png"
+			locked_by_quest = true
+			inventory_service_id = 228
+			default_color = [ 122,35,36 ]			
+		},
+		{
+			id = "sunglasses001"
+			name = "#VR_Avatar_Wearable_Sunglasses001"
+			desc = "#VR_Avatar_Wearable_Sunglasses001_Desc"
+			content = "models/props/accessories/sunglasses001.vmdl"
+			preview_image = "file://{images}/contentdb/sunglasses001.png"
+			locked_by_quest = false
+			inventory_service_id = 229
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "sunglasses002"
+			name = "#VR_Avatar_Wearable_Sunglasses002"
+			desc = "#VR_Avatar_Wearable_Sunglasses002_Desc"
+			content = "models/props/accessories/sunglasses002.vmdl"
+			preview_image = "file://{images}/contentdb/sunglasses002.png"
+			locked_by_quest = true
+			inventory_service_id = 230
+			default_color = [ 120,120,120 ]
+		},
+		{
+			id = "swarm_helmet001"
+			name = "#VR_Avatar_Wearable_SwarmHelmet001"
+			desc = "#VR_Avatar_Wearable_SwarmHelmet001_Desc"
+			content = "models/props/hats/swarm_helmet001.vmdl"
+			preview_image = "file://{images}/contentdb/swarm_helmet001.png"
+			locked_by_quest = true
+			inventory_service_id = 231
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "welding_mask001"
+			name = "#VR_Avatar_Wearable_WeldingMask001"
+			desc = "#VR_Avatar_Wearable_WeldingMask001_Desc"
+			content = "models/props/accessories/welding_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/welding_mask001.png"
+			locked_by_quest = true
+			inventory_service_id = 232
+			default_color = [ 120,120,120 ]
+		},
+		{
+			id = "santa_hat001"
+			name = "#VR_Avatar_Wearable_SantaHat001"
+			desc = "#VR_Avatar_Wearable_SantaHat001_Desc"
+			content = "models/props/hats/santa_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/santa_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 233
+			default_color = [ 149,15,15 ]
+		},
+		{
+			id = "football_helmet001"
+			name = "#VR_Avatar_Wearable_FootballHelmet001"
+			desc = "#VR_Avatar_Wearable_FootballHelmet001_Desc"
+			content = "models/props/hats/football_helmet001.vmdl"
+			preview_image = "file://{images}/contentdb/football_helmet001.png"
+			locked_by_quest = true
+			inventory_service_id = 234
+			default_color = [ 22,22,89 ]
+		},
+		{
+			id = "chef_hat001"
+			name = "#VR_Avatar_Wearable_ChefHat001"
+			desc = "#VR_Avatar_Wearable_ChefHat001_Desc"
+			content = "models/props/hats/chef_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/chef_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 235
+			default_color = [ 173,183,193 ]
+		},
+		{
+			id = "beanie001"
+			name = "#VR_Avatar_Wearable_Beanie001"
+			desc = "#VR_Avatar_Wearable_Beanie001_Desc"
+			content = "models/props/hats/beanie001.vmdl"
+			preview_image = "file://{images}/contentdb/beanie001.png"
+			locked_by_quest = true
+			inventory_service_id = 236
+			default_color = [ 192,103,1 ]
+		},
+		{
+			id = "fireman_helmet001"
+			name = "#VR_Avatar_Wearable_FiremanHelmet001"
+			desc = "#VR_Avatar_Wearable_FiremanHelmet001_Desc"
+			content = "models/props/hats/fireman_helmet001.vmdl"
+			preview_image = "file://{images}/contentdb/fireman_helmet001.png"
+			locked_by_quest = true
+			inventory_service_id = 237
+			default_color = [ 135,10,10 ]
+		},
+		{
+			id = "veteran_hat001"
+			name = "#VR_Avatar_Wearable_VeteranHat001"
+			desc = "#VR_Avatar_Wearable_VeteranHat001_Desc"
+			content = "models/props/hats/veteran_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/veteran_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 238
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "military_beret001"
+			name = "#VR_Avatar_Wearable_MilitaryBeret001"
+			desc = "#VR_Avatar_Wearable_MilitaryBeret001_Desc"
+			content = "models/props/hats/military_beret001.vmdl"
+			preview_image = "file://{images}/contentdb/military_beret001.png"
+			locked_by_quest = true
+			inventory_service_id = 239
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "captain_hat001"
+			name = "#VR_Avatar_Wearable_CaptainHat001"
+			desc = "#VR_Avatar_Wearable_CaptainHat001_Desc"
+			content = "models/props/hats/captain_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/captain_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 240
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fishing_hat001"
+			name = "#VR_Avatar_Wearable_FishingHat001"
+			desc = "#VR_Avatar_Wearable_FishingHat001_Desc"
+			content = "models/props/hats/fishing_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/fishing_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 241
+			default_color = [ 181,116,51 ]
+		},
+		{
+			id = "hardhat001"
+			name = "#VR_Avatar_Wearable_HardHat001"
+			desc = "#VR_Avatar_Wearable_HardHat001_Desc"
+			content = "models/props/hats/hardhat001.vmdl"
+			preview_image = "file://{images}/contentdb/hardhat001.png"
+			locked_by_quest = true
+			inventory_service_id = 242
+			default_color = [ 224,169,19 ]
+			particle_effects = [
+				{
+					effect = "particles/cosmetic_fx/light_headlamp001.vpcf"
+					attachment = "headlamp"
+				}
+			]
+		},
+		{
+			id = "madame_dixie001"
+			name = "#VR_Avatar_Wearable_MadameDixie001"
+			desc = "#VR_Avatar_Wearable_MadameDixie001_Desc"
+			content = "models/props/hats/madame_dixie001.vmdl"
+			preview_image = "file://{images}/contentdb/madame_dixie001.png"
+			locked_by_quest = true
+			inventory_service_id = 243
+			default_color = [ 106,151,18 ]
+		},
+		{
+			id = "straw_hat001"
+			name = "#VR_Avatar_Wearable_StrawHat001"
+			desc = "#VR_Avatar_Wearable_StrawHat001_Desc"
+			content = "models/props/hats/straw_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/straw_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 244
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "train_hat001"
+			name = "#VR_Avatar_Wearable_TrainHat001"
+			desc = "#VR_Avatar_Wearable_TrainHat001_Desc"
+			content = "models/props/hats/train_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/train_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 245
+			default_color = [ 55,55,75 ]
+		},
+		{
+			id = "ski_hat001"
+			name = "#VR_Avatar_Wearable_SkiHat001"
+			desc = "#VR_Avatar_Wearable_SkiHat001_Desc"
+			content = "models/props/hats/ski_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/ski_hat001.png"
+			locked_by_quest = false
+			inventory_service_id = 246
+			default_color = [ 147,197,213 ]
+		},
+		{
+			id = "ski_goggles001"
+			name = "#VR_Avatar_Wearable_SkiGoggles001"
+			desc = "#VR_Avatar_Wearable_SkiGoggles001_Desc"
+			content = "models/props/accessories/ski_goggles001.vmdl"
+			preview_image = "file://{images}/contentdb/ski_goggles001.png"
+			locked_by_quest = true
+			inventory_service_id = 247
+			default_color = [ 190,69,10 ]
+		},
+		{
+			id = "baseball_cap002"
+			name = "#VR_Avatar_Wearable_BaseballCap002"
+			desc = "#VR_Avatar_Wearable_BaseballCap002_Desc"
+			content = "models/props/hats/baseball_cap002.vmdl"
+			preview_image = "file://{images}/contentdb/baseball_cap002.png"
+			locked_by_quest = true
+			inventory_service_id = 248
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fedora001"
+			name = "#VR_Avatar_Wearable_Fedora001"
+			desc = "#VR_Avatar_Wearable_Fedora001_Desc"
+			content = "models/props/hats/fedora001.vmdl"
+			preview_image = "file://{images}/contentdb/fedora001.png"
+			locked_by_quest = true
+			inventory_service_id = 249
+			default_color = [ 171,167,122 ]
+		},
+		{
+			id = "propeller_beanie001"
+			name = "#VR_Avatar_Wearable_PropellerBeanie001"
+			desc = "#VR_Avatar_Wearable_PropellerBeanie001_Desc"
+			content = "models/props/hats/propeller_beanie001.vmdl"
+			preview_image = "file://{images}/contentdb/propeller_beanie001.png"
+			locked_by_quest = true
+			inventory_service_id = 250
+			default_color = [ 145,6,7 ]
+		},
+		{
+			id = "clockwerk_mask001"
+			name = "#VR_Avatar_Wearable_ClockwerkMask001"
+			desc = "#VR_Avatar_Wearable_ClockwerkMask001_Desc"
+			content = "models/props/accessories/clockwerk_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/clockwerk_mask001.png"
+			locked_by_quest = true
+			inventory_service_id = 251
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "diving_helmet001"
+			name = "#VR_Avatar_Wearable_DivingHelmet001"
+			desc = "#VR_Avatar_Wearable_DivingHelmet001_Desc"
+			content = "models/props/hats/diving_helmet001.vmdl"
+			preview_image = "file://{images}/contentdb/diving_helmet001.png"
+			locked_by_quest = true
+			inventory_service_id = 252
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "headphones001"
+			name = "#VR_Avatar_Wearable_Headphones001"
+			desc = "#VR_Avatar_Wearable_Headphones001_Desc"
+			content = "models/props/accessories/headphones001.vmdl"
+			preview_image = "file://{images}/contentdb/headphones001.png"
+			locked_by_quest = true
+			inventory_service_id = 253
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "monocle001"
+			name = "#VR_Avatar_Wearable_Monocle001"
+			desc = "#VR_Avatar_Wearable_Monocle001_Desc"
+			content = "models/props/accessories/monocle001.vmdl"
+			preview_image = "file://{images}/contentdb/monocle001.png"
+			locked_by_quest = false
+			inventory_service_id = 254
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "parasite_hat001"
+			name = "#VR_Avatar_Wearable_ParasiteHat001"
+			desc = "#VR_Avatar_Wearable_ParasiteHat001_Desc"
+			content = "models/props/hats/parasite_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/parasite_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 255
+			default_color = [ 107,109,73 ]
+		},
+		{
+			id = "crown001"
+			name = "#VR_Avatar_Wearable_Crown001"
+			desc = "#VR_Avatar_Wearable_Crown001_Desc"
+			content = "models/props/hats/crown001.vmdl"
+			preview_image = "file://{images}/contentdb/crown001.png"
+			locked_by_quest = true
+			inventory_service_id = 256
+			default_color = [ 255,0,0 ]
+		},
+		{
+			id = "stormspirit_hat001"
+			name = "#VR_Avatar_Wearable_StormSpiritHat001"
+			desc = "#VR_Avatar_Wearable_StormSpiritHat001_Desc"
+			content = "models/props/hats/stormspirit_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/stormspirit_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 257
+			default_color = [ 72,209,204 ]
+		},
+		{
+			id = "undying_helmet001"
+			name = "#VR_Avatar_Wearable_UndyingHelmet001"
+			desc = "#VR_Avatar_Wearable_UndyingHelmet001_Desc"
+			content = "models/props/hats/undying_helmet001.vmdl"
+			preview_image = "file://{images}/contentdb/undying_helmet001.png"
+			locked_by_quest = true
+			inventory_service_id = 258
+			default_color = [ 0,100,0 ]
+		},
+		{
+			id = "sombrero001"
+			name = "#VR_Avatar_Wearable_Sombrero001"
+			desc = "#VR_Avatar_Wearable_Sombrero001_Desc"
+			content = "models/props/hats/sombrero001.vmdl"
+			preview_image = "file://{images}/contentdb/sombrero001.png"
+			locked_by_quest = true
+			inventory_service_id = 259
+			default_color = [ 255,0,0 ]
+		},
+		{
+			id = "feather001"
+			name = "#VR_Avatar_Wearable_Feather001"
+			desc = "#VR_Avatar_Wearable_Feather001_Desc"
+			content = "models/props/accessories/feather001.vmdl"
+			preview_image = "file://{images}/contentdb/feather001.png"
+			locked_by_quest = true
+			inventory_service_id = 260
+			default_color = [ 255,165,0 ]
+		},
+		{
+			id = "flower001"
+			name = "#VR_Avatar_Wearable_Flower001"
+			desc = "#VR_Avatar_Wearable_Flower001_Desc"
+			content = "models/props/accessories/flower001.vmdl"
+			preview_image = "file://{images}/contentdb/flower001.png"
+			locked_by_quest = false
+			inventory_service_id = 261
+			default_color = [ 139,0,0 ]
+		},
+		{
+			id = "bow001"
+			name = "#VR_Avatar_Wearable_Bow001"
+			desc = "#VR_Avatar_Wearable_Bow001_Desc"
+			content = "models/props/accessories/bow001.vmdl"
+			preview_image = "file://{images}/contentdb/bow001.png"
+			locked_by_quest = true
+			inventory_service_id = 262
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "sailor_hat001"
+			name = "#VR_Avatar_Wearable_SailorHat001"
+			desc = "#VR_Avatar_Wearable_SailorHat001_Desc"
+			content = "models/props/hats/sailor_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/sailor_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 263
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "party_hat001"
+			name = "#VR_Avatar_Wearable_PartyHat001"
+			desc = "#VR_Avatar_Wearable_PartyHat001_Desc"
+			content = "models/props/hats/party_hat001.vmdl"
+			preview_image = "file://{images}/contentdb/party_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 264
+			default_color = [ 255,0,0 ]
+		},
+		{
+			id = "vr_hmd001"
+			name = "#VR_Avatar_Wearable_VRHMD001"
+			desc = "#VR_Avatar_Wearable_VRHMD001_Desc"
+			content = "models/props/accessories/vr_hmd001.vmdl"
+			preview_image = "file://{images}/contentdb/vr_hmd001.png"
+			locked_by_quest = true
+			inventory_service_id = 265
+			default_color = [ 82,74,74 ]
+		},
+		{
+			id = "rasta_hat001"
+			name = "#VR_Avatar_Wearable_rasta_hat001"
+			desc = "#VR_Avatar_Wearable_rasta_hat001_Desc"
+			content = "models/props/hats/rasta_hat.vmdl"
+			preview_image = "file://{images}/contentdb/rasta_hat001.png"
+			locked_by_quest = true
+			inventory_service_id = 266
+			dev_only = true
+			default_color = [ 224,169,19 ]
+		},
+		{
+			id = "moped_helmet001"
+			name = "#VR_Avatar_Wearable_MopedHelmet001"
+			desc = "#VR_Avatar_Wearable_MopedHelmet001_Desc"
+			content = "models/props/hats/moped_helmet001.vmdl"
+			preview_image = "file://{images}/contentdb/moped_helmet001.png"
+			locked_by_quest = true
+			inventory_service_id = 267
+			default_color = [ 179,146,175 ]
+		},
+		{
+			id = "pin_hawaii_chell"
+			name = "#VR_Avatar_Wearable_PinHawaiiChell"
+			desc = "#VR_Avatar_Wearable_PinHawaiiChell_Desc"
+			content = "models/props/accessories/pin_hawaii_chell.vmdl"
+			preview_image = "file://{images}/contentdb/pin_hawaii_chell.png"
+			locked_by_quest = true
+			// inventory_service_id = 268
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "pin_hawaii_lab"
+			name = "#VR_Avatar_Wearable_PinHawaiiLab"
+			desc = "#VR_Avatar_Wearable_PinHawaiiLab_Desc"
+			content = "models/props/accessories/pin_hawaii_lab.vmdl"
+			preview_image = "file://{images}/contentdb/pin_hawaii_lab.png"
+			locked_by_quest = true
+			// inventory_service_id = 269
+			default_color = [ 255,255,255 ]
+		},
+	]
+	
+
+	prop_tools =
+	[
+		{
+			id = "drone_controller"
+			name = "#VR_PropTool_Drone"
+			desc = "#VR_PropTool_Drone_Desc"
+			content = "models/props_gameplay/drone_controller001.vmdl"
+			script = "tools/drone"
+			equip_sound = "drone_equip"
+			preview_image = "file://{images}/contentdb/drone_controller001.png"
+			locked_by_quest = true
+			// inventory_service_id = 500
+		},
+		{
+			id = "toy_gun"
+			name = "#VR_PropTool_ToyGun"
+			desc = "#VR_PropTool_ToyGun_Desc"
+			content = "models/props_gameplay/toy_gun001.vmdl"
+			script = "tools/blaster"
+			equip_sound = "toy_gun_equip"
+			preview_image = "file://{images}/contentdb/toy_gun001.png"
+			locked_by_quest = true
+			// inventory_service_id = 501
+		},
+		{
+			id = "tagmarker"
+			name = "#VR_PropTool_TagMarker"
+			desc = "#VR_PropTool_TagMarker_Desc"
+			content = "models/props_gameplay/airbrush_tool.vmdl"
+			script = "tools/tagmarker"
+			equip_sound = "tagmarker_equip"
+			preview_image = "file://{images}/contentdb/vr_controller_brush.png"
+			locked_by_quest = false
+			// inventory_service_id = 502
+		},
+		{
+			id = "ballooninator"
+			name = "#VR_PropTool_Ballooninator"
+			desc = "#VR_PropTool_Ballooninator_Desc"
+			content = "models/props_gameplay/ballooninator001.vmdl"
+			script = "tools/ballooninator"
+			equip_sound = "ballooninator_equip"
+			preview_image = "file://{images}/contentdb/ballooninator001.png"
+			locked_by_quest = true
+			// inventory_service_id = 503
+		},
+		{
+			id = "cache_finder"
+			name = "#VR_PropTool_CacheFinder"
+			desc = "#VR_PropTool_CacheFinder_Desc"
+			content = "models/props_gameplay/cache_finder001.vmdl"
+			script = "tools/cache_finder_tool"
+			equip_sound = "cache_finder_equip"
+			preview_image = "file://{images}/contentdb/cache_finder001.png"
+			locked_by_quest = false
+			// inventory_service_id = 504
+		},
+		{
+			id = "freeze_tool"
+			name = "#VR_PropTool_FreezeTool"
+			desc = "#VR_PropTool_FreezeTool_Desc"
+			content = "models/props_gameplay/freeze_tool001.vmdl"
+			script = "tools/freeze_tool"
+			equip_sound = "freeze_tool_equip"
+			preview_image = "file://{images}/contentdb/freeze_tool001.png"
+			locked_by_quest = false
+			// inventory_service_id = 505
+		},
+		{
+			id = "box_bot"
+			name = "#VR_PropTool_BoxBot"
+			desc = "#VR_PropTool_BoxBot_Desc"
+			content = "models/boxing/boxing_freeze_tool.vmdl"
+			script = "tools/box_bot_tool"
+			equip_sound = "freeze_tool_equip"
+			preview_image = "file://{images}/contentdb/box_bot001.png"
+			locked_by_quest = true
+			dev_only = true
+			inventory_service_id = 506
+		},
+		//{
+		//	id = "wand_fireball"
+		//	name = "#VR_PropTool_FireballWand"
+		//	desc = "#VR_PropTool_FireballWand_Desc"
+		//	content = "models/props_gameplay/magic_wand.vmdl"
+		//	script = "tools/blaster"
+		//	preview_image = "file://{images}/contentdb/example.png"
+		//},
+	]
+
+	physics_props =
+	[
+		{
+			id = "beach_ball1"
+			name = "#VR_PhysicsProp_BeachBall"
+			desc = "#VR_PhysicsProp_BeachBall_Desc"
+			content = "models/props/toys/ball001.vmdl"
+			preview_image = "file://{images}/contentdb/beach_ball.png"
+			inventory_service_id = 1000
+			default_color = [ 240,103,76 ]
+		},
+		{
+			id = "beach_ball2"
+			name = "#VR_PhysicsProp_BeachBall2"
+			desc = "#VR_PhysicsProp_BeachBall2_Desc"
+			content = "models/props/toys/beachball_model.vmdl"
+			preview_image = "file://{images}/contentdb/beach_ball_2.png"
+			inventory_service_id = 1001
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "watermelon"
+			name = "#VR_PhysicsProp_Watermelon"
+			desc = "#VR_PhysicsProp_Watermelon_Desc"
+			content = "models/props_junk/watermelon01.vmdl"
+			preview_image = "file://{images}/contentdb/watermelon.png"
+			locked_by_quest = true
+			dev_only = true
+			inventory_service_id = 1002
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "dice"
+			name = "#VR_PhysicsProp_Dice"
+			desc = "#VR_PhysicsProp_Dice_Desc"
+			content = "models/props/toys/dice1.vmdl"
+			preview_image = "file://{images}/contentdb/dice.png"
+			inventory_service_id = 1003
+			default_color = [ 184,30,30 ]
+		},
+		{
+			id = "storage_cube"
+			name = "#VR_PhysicsProp_StorageCube"
+			desc = "#VR_PhysicsProp_StorageCube_Desc"
+			content = "models/props/toys/metal_box.vmdl"
+			preview_image = "file://{images}/contentdb/cube.png"
+			inventory_service_id = 1004
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "oil_drum"
+			name = "#VR_PhysicsProp_OilDrum"
+			desc = "#VR_PhysicsProp_OilDrum_Desc"
+			content = "models/props/toys/oil_drum001.vmdl"
+			preview_image = "file://{images}/contentdb/oil_drum_thumb.png"
+			inventory_service_id = 1005
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			locked_by_quest = true
+			dev_only = true
+		},
+		{
+			id = "earth_ball"
+			name = "#VR_PhysicsProp_Earth"
+			desc = "#VR_PhysicsProp_Earth_Desc"
+			content = "models/globes/earth/earth.vmdl"
+			preview_image = "file://{images}/contentdb/earth_prop.png"
+			locked_by_quest = true
+			// inventory_service_id = 1006
+			default_color = [ 0,182,255 ]
+		},
+		{
+			id = "mars_ball"
+			name = "#VR_PhysicsProp_Mars"
+			desc = "#VR_PhysicsProp_Mars_Desc"
+			content = "models/globes/mars/mars.vmdl"
+			preview_image = "file://{images}/contentdb/mars_prop.png"
+			locked_by_quest = true
+			// inventory_service_id = 1007
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "balloonicorn"
+			name = "#VR_PhysicsProp_Balloonicorn"
+			desc = "#VR_PhysicsProp_Balloonicorn_Desc"
+			content = "models/props/toys/balloonicorn.vmdl"
+			preview_image = "file://{images}/contentdb/balloonicorn.png"
+			locked_by_quest = true
+			// inventory_service_id = 1009
+			default_color = [ 52,192,193 ]
+		},	
+		{
+			id = "portal_cake"
+			name = "#VR_PhysicsProp_PortalCake"
+			desc = "#VR_PhysicsProp_PortalCake_Desc"
+			content = "models/props/toys/portal_cake.vmdl"
+			preview_image = "file://{images}/contentdb/portal_cake.png"
+			locked_by_quest = true
+			// inventory_service_id = 1010
+			default_color = [ 178,34,34 ]
+		},
+		{
+			id = "lizard"
+			name = "#VR_PhysicsProp_Lizard"
+			desc = "#VR_PhysicsProp_Lizard_Desc"
+			content = "models/props/toys/lizard001.vmdl"
+			preview_image = "file://{images}/contentdb/lizard.png"
+			locked_by_quest = true
+			// inventory_service_id = 1011
+			default_color = [ 82,199,238 ]
+		},	
+		{
+			id = "medkit"
+			name = "#VR_PhysicsProp_Medkit"
+			desc = "#VR_PhysicsProp_Medkit_Desc"
+			content = "models/props/toys/l4d_medkit.vmdl"
+			preview_image = "file://{images}/contentdb/medkit.png"
+			locked_by_quest = true
+			// inventory_service_id = 1012
+			default_color = [ 255,0,0 ]
+		},	
+		{
+			id = "techies_barrel"
+			name = "#VR_PhysicsProp_Techies_Barrel"
+			desc = "#VR_PhysicsProp_Techies_Barrel_Desc"
+			content = "models/props/toys/dota2_techies_barrel.vmdl"
+			preview_image = "file://{images}/contentdb/techies_barrel.png"
+			locked_by_quest = true
+			// inventory_service_id = 1013
+			default_color = [ 241,187,94 ]
+		},	
+		{
+			id = "drumstick001"
+			name = "#VR_PhysicsProp_Drum_Stick"
+			desc = "#VR_PhysicsProp_Drum_Stick_Desc"
+			content = "models/props/toys/drumstick001.vmdl"
+			preview_image = "file://{images}/contentdb/drumstick001.png"
+			locked_by_quest = true
+			// inventory_service_id = 1014
+			default_color = [ 255,255,255 ]
+		},	
+		{
+			id = "fortification_block001"
+			name = "#VR_PhysicsProp_Fortification_Block"
+			dev_name = "fortification_block001"
+			desc = "#VR_PhysicsProp_Fortification_Block_Desc"
+			content = "models/props/toys/fortification_block001.vmdl"
+			preview_image = "file://{images}/contentdb/fortification_block001.png"
+			locked_by_quest = true
+			// inventory_service_id = 1015
+			default_color = [ 144,139,131 ]
+		},	
+		{
+			id = "pumpkin_01"
+			name = "#VR_PhysicsProp_Pumpkin_01"
+			desc = "#VR_PhysicsProp_Pumpkin_01_Desc"
+			content = "models/props/toys/pumpkin_01.vmdl"
+			preview_image = "file://{images}/contentdb/pumpkin_01.png"
+			locked_by_quest = true
+			// inventory_service_id = 1016
+			default_color = [ 196,149,99 ]
+		},	
+		{
+			id = "toy_soldier001"
+			name = "#VR_PhysicsProp_Toy_Soldier"
+			desc = "#VR_PhysicsProp_Toy_Soldier_Desc"
+			content = "models/props/toys/toy_soldier001.vmdl"
+			preview_image = "file://{images}/contentdb/toy_soldier001.png"
+			locked_by_quest = true
+			// inventory_service_id = 1017
+			default_color = [ 156,45,45 ]
+		},
+		{
+			id = "baseball_bat001"
+			name = "#VR_PhysicsProp_BaseballBat001"
+			desc = "#VR_PhysicsProp_BaseballBat001_Desc"
+			content = "models/props/toys/baseball_bat001.vmdl"
+			preview_image = "file://{images}/contentdb/baseball_bat001.png"
+			locked_by_quest = true
+			// inventory_service_id = 1018
+			default_color = [ 201,169,9 ]
+			dev_only = true
+		},
+		{
+			id = "l4d_stuffed_alligator"
+			name = "#VR_PhysicsProp_StuffedAlligator"
+			desc = "#VR_PhysicsProp_StuffedAlligator_Desc"
+			content = "models/props/toys/l4d_stuffed_alligator.vmdl"
+			preview_image = "file://{images}/contentdb/l4d_stuffed_alligator.png"
+			locked_by_quest = true
+			// inventory_service_id = 1019
+			default_color = [ 140,139,125 ]
+		},
+		{
+			id = "l4d_stuffed_elephant"
+			name = "#VR_PhysicsProp_StuffedElephant"
+			desc = "#VR_PhysicsProp_StuffedElephant_Desc"
+			content = "models/props/toys/l4d_stuffed_elephant.vmdl"
+			preview_image = "file://{images}/contentdb/l4d_stuffed_elephant.png"
+			locked_by_quest = true
+			// inventory_service_id = 1020
+			default_color = [ 140,140,136 ]
+		},
+		{
+			id = "l4d_stuffed_giraffe"
+			name = "#VR_PhysicsProp_StuffedGiraffe"
+			desc = "#VR_PhysicsProp_StuffedGiraffe_Desc"
+			content = "models/props/toys/l4d_stuffed_giraffe.vmdl"
+			preview_image = "file://{images}/contentdb/l4d_stuffed_giraffe.png"
+			locked_by_quest = true
+			// inventory_service_id = 1021
+			default_color = [ 133,125,115 ]
+		},
+		{
+			id = "l4d_stuffed_snake"
+			name = "#VR_PhysicsProp_StuffedSnake"
+			desc = "#VR_PhysicsProp_StuffedSnake_Desc"
+			content = "models/props/toys/l4d_stuffed_snake.vmdl"
+			preview_image = "file://{images}/contentdb/l4d_stuffed_snake.png"
+			locked_by_quest = true
+			// inventory_service_id = 1022
+			default_color = [ 164,168,156 ]
+		},
+		{
+			id = "tidehunter_toy001"
+			name = "#VR_PhysicsProp_TidehunterToy001"
+			desc = "#VR_PhysicsProp_TidehunterToy001_Desc"
+			content = "models/props/toys/tidehunter_toy001.vmdl"
+			preview_image = "file://{images}/contentdb/tidehunter_toy001.png"
+			locked_by_quest = true
+			// inventory_service_id = 1023
+			default_color = [ 60,204,81 ]
+		},
+		{
+			id = "pyro_vinyl001"
+			name = "#VR_PhysicsProp_PyroVinyl001"
+			desc = "#VR_PhysicsProp_PyroVinyl001_Desc"
+			content = "models/props/toys/pyro_vinyl001.vmdl"
+			preview_image = "file://{images}/contentdb/pyro_vinyl001.png"
+			locked_by_quest = false
+			// inventory_service_id = 1024
+			default_color = [ 173,62,53 ]
+		},
+	]
+
+	prop_furniture =
+	[
+		{
+			id = "book001"
+			name = "#VR_Furniture_Book001"
+			desc = "#VR_Furniture_Book001_Desc"
+			content = "models/props_furniture/book001.vmdl"
+			preview_image = "file://{images}/contentdb/book001.png"
+			locked_by_quest = false
+			script = "props/book_panda"
+			// inventory_service_id = 2001
+			default_color = [ 255,178,2 ]
+		},
+		{
+			id = "bookshelf001"
+			name = "#VR_Furniture_Bookshelf001"
+			desc = "#VR_Furniture_Bookshelf001_Desc"
+			content = "models/props_furniture/bookshelf001.vmdl"
+			preview_image = "file://{images}/contentdb/bookshelf001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2002
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "chair001"
+			name = "#VR_Furniture_Chair001"
+			desc = "#VR_Furniture_Chair001_Desc"
+			content = "models/props_furniture/chair001.vmdl"
+			preview_image = "file://{images}/contentdb/chair001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2003
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "corner_table001"
+			name = "#VR_Furniture_CornerTable001"
+			desc = "#VR_Furniture_CornerTable001_Desc"
+			content = "models/props_furniture/corner_table001.vmdl"
+			preview_image = "file://{images}/contentdb/corner_table001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2005
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "desk001"
+			name = "#VR_Furniture_Desk001"
+			desc = "#VR_Furniture_Desk001_Desc"
+			content = "models/props_furniture/desk001.vmdl"
+			preview_image = "file://{images}/contentdb/desk001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2006
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "dresser001"
+			name = "#VR_Furniture_Dresser001"
+			desc = "#VR_Furniture_Dresser001_Desc"
+			content = "models/props_furniture/dresser001.vmdl"
+			preview_image = "file://{images}/contentdb/dresser001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2008
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "filing_cabinet001"
+			name = "#VR_Furniture_FilingCabinet001"
+			desc = "#VR_Furniture_FilingCabinet001_Desc"
+			content = "models/props_furniture/filing_cabinet001.vmdl"
+			preview_image = "file://{images}/contentdb/filing_cabinet001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2009
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "globe001"
+			name = "#VR_Furniture_Globe001"
+			desc = "#VR_Furniture_Globe001_Desc"
+			content = "models/props_furniture/globe001.vmdl"
+			preview_image = "file://{images}/contentdb/globe001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2010
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "picture_frame001"
+			name = "#VR_Furniture_PictureFrame001"
+			desc = "#VR_Furniture_PictureFrame001_Desc"
+			content = "models/props_furniture/picture_frame001.vmdl"
+			script = "props/picture_frame_landscape"
+			preview_image = "file://{images}/contentdb/picture_frame001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2011
+			default_color = [ 33,33,33 ]
+			default_scale = 0.25
+		},
+		{
+			id = "picture_frame002"
+			name = "#VR_Furniture_PictureFrame002"
+			desc = "#VR_Furniture_PictureFrame002_Desc"
+			content = "models/props_furniture/picture_frame002.vmdl"
+			script = "props/picture_frame_portrait"
+			preview_image = "file://{images}/contentdb/picture_frame002.png"
+			locked_by_quest = false
+			// inventory_service_id = 2012
+			default_color = [ 33,33,33 ]
+			default_scale = 0.25
+		},
+		{
+			id = "safe001"
+			name = "#VR_Furniture_Safe001"
+			desc = "#VR_Furniture_Safe001_Desc"
+			content = "models/props_furniture/safe001.vmdl"
+			preview_image = "file://{images}/contentdb/safe001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2013
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "trunk001"
+			name = "#VR_Furniture_Trunk001"
+			desc = "#VR_Furniture_Trunk001_Desc"
+			content = "models/props_furniture/trunk001.vmdl"
+			preview_image = "file://{images}/contentdb/trunk001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2014
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "wardrobe001"
+			name = "#VR_Furniture_Wardrobe001"
+			desc = "#VR_Furniture_Wardrobe001_Desc"
+			content = "models/props_furniture/wardrobe001.vmdl"
+			preview_image = "file://{images}/contentdb/wardrobe001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2015
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "dining_table001"
+			name = "#VR_Furniture_DiningTable001"
+			desc = "#VR_Furniture_DiningTable001_Desc"
+			content = "models/props_furniture/dining_table001.vmdl"
+			preview_image = "file://{images}/contentdb/dining_table001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2016
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "sofa001"
+			name = "#VR_Furniture_Sofa001"
+			desc = "#VR_Furniture_Sofa001_Desc"
+			content = "models/props_furniture/sofa001.vmdl"
+			preview_image = "file://{images}/contentdb/sofa001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2017
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "twin_bed001"
+			name = "#VR_Furniture_TwinBed001"
+			desc = "#VR_Furniture_TwinBed001_Desc"
+			content = "models/props_furniture/twin_bed001.vmdl"
+			preview_image = "file://{images}/contentdb/twin_bed001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2018
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "counter001"
+			name = "#VR_Furniture_Counter001"
+			desc = "#VR_Furniture_Counter001_Desc"
+			content = "models/props_furniture/counter001.vmdl"
+			preview_image = "file://{images}/contentdb/counter001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2019
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "sink001"
+			name = "#VR_Furniture_Sink001"
+			desc = "#VR_Furniture_Sink001_Desc"
+			content = "models/props_furniture/sink001.vmdl"
+			preview_image = "file://{images}/contentdb/sink001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2020
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "cabinet001_left"
+			name = "#VR_Furniture_Cabinet001Left"
+			desc = "#VR_Furniture_Cabinet001Left_Desc"
+			content = "models/props_furniture/cabinet001_left.vmdl"
+			preview_image = "file://{images}/contentdb/cabinet001_left.png"
+			locked_by_quest = true
+			// inventory_service_id = 2021
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "cabinet001_right"
+			name = "#VR_Furniture_Cabinet001Right"
+			desc = "#VR_Furniture_Cabinet001Right_Desc"
+			content = "models/props_furniture/cabinet001_right.vmdl"
+			preview_image = "file://{images}/contentdb/cabinet001_right.png"
+			locked_by_quest = true
+			// inventory_service_id = 2022
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "range001"
+			name = "#VR_Furniture_Range001"
+			desc = "#VR_Furniture_Range001_Desc"
+			content = "models/props_furniture/range001.vmdl"
+			preview_image = "file://{images}/contentdb/range001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2023
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "fridge001"
+			name = "#VR_Furniture_Fridge001"
+			desc = "#VR_Furniture_Fridge001_Desc"
+			content = "models/props_furniture/fridge001.vmdl"
+			preview_image = "file://{images}/contentdb/fridge001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2024
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true			
+		},
+		{
+			id = "toilet001"
+			name = "#VR_Furniture_Toilet001"
+			desc = "#VR_Furniture_Toilet001_Desc"
+			content = "models/props_furniture/toilet001.vmdl"
+			preview_image = "file://{images}/contentdb/toilet001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2025
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "bathtub001"
+			name = "#VR_Furniture_Bathtub001"
+			desc = "#VR_Furniture_Bathtub001_Desc"
+			content = "models/props_furniture/bathtub001.vmdl"
+			preview_image = "file://{images}/contentdb/bathtub001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2026
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "stand001"
+			name = "#VR_Furniture_Stand001"
+			desc = "#VR_Furniture_Stand001_Desc"
+			content = "models/props_furniture/stand001.vmdl"
+			preview_image = "file://{images}/contentdb/stand001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2027
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "house_plant001"
+			name = "#VR_Furniture_HousePlant001"
+			desc = "#VR_Furniture_HousePlant001_Desc"
+			content = "models/props_furniture/house_plant001.vmdl"
+			preview_image = "file://{images}/contentdb/house_plant001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2028
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "computer_desk001"
+			name = "#VR_Furniture_ComputerDesk001"
+			desc = "#VR_Furniture_ComputerDesk001_Desc"
+			content = "models/props_furniture/computer_desk001.vmdl"
+			preview_image = "file://{images}/contentdb/computer_desk001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2029
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "monitor001"
+			name = "#VR_Furniture_Monitor001"
+			desc = "#VR_Furniture_Monitor001_Desc"
+			content = "models/props_furniture/monitor001.vmdl"
+			preview_image = "file://{images}/contentdb/monitor001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2030
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "desktop_pc001"
+			name = "#VR_Furniture_DesktopPC001"
+			desc = "#VR_Furniture_DesktopPC001_Desc"
+			content = "models/props_furniture/desktop_pc001.vmdl"
+			preview_image = "file://{images}/contentdb/desktop_pc001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2031
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "keyboard001"
+			name = "#VR_Furniture_Keyboard001"
+			desc = "#VR_Furniture_Keyboard001_Desc"
+			content = "models/props_furniture/keyboard001.vmdl"
+			preview_image = "file://{images}/contentdb/keyboard001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2032
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "mousepad001"
+			name = "#VR_Furniture_Mousepad001"
+			desc = "#VR_Furniture_Mousepad001_Desc"
+			content = "models/props_furniture/mousepad001.vmdl"
+			preview_image = "file://{images}/contentdb/mousepad001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2033
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "mouse001"
+			name = "#VR_Furniture_Mouse001"
+			desc = "#VR_Furniture_Mouse001_Desc"
+			content = "models/props_furniture/mouse001.vmdl"
+			preview_image = "file://{images}/contentdb/mouse001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2034
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "desk_phone001"
+			name = "#VR_Furniture_DeskPhone001"
+			desc = "#VR_Furniture_DeskPhone001_Desc"
+			content = "models/props_furniture/desk_phone001.vmdl"
+			preview_image = "file://{images}/contentdb/desk_phone001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2035
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "office_stool001"
+			name = "#VR_Furniture_OfficeStool001"
+			desc = "#VR_Furniture_OfficeStool001_Desc"
+			content = "models/props_furniture/office_stool001.vmdl"
+			preview_image = "file://{images}/contentdb/office_stool001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2036
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+			dev_only = true
+		},
+		{
+			id = "coffee_mug001"
+			name = "#VR_Furniture_CoffeeMug001"
+			desc = "#VR_Furniture_CoffeeMug001_Desc"
+			content = "models/props_furniture/coffee_mug001.vmdl"
+			preview_image = "file://{images}/contentdb/coffee_mug001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2037
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "couch001"
+			name = "#VR_Furniture_Couch001"
+			desc = "#VR_Furniture_Couch001_Desc"
+			content = "models/props_furniture/couch001.vmdl"
+			preview_image = "file://{images}/contentdb/couch001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2038
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "pillow001"
+			name = "#VR_Furniture_Pillow001"
+			desc = "#VR_Furniture_Pillow001_Desc"
+			content = "models/props_furniture/pillow001.vmdl"
+			preview_image = "file://{images}/contentdb/pillow001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2039
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "coffee_table001"
+			name = "#VR_Furniture_CoffeeTable001"
+			desc = "#VR_Furniture_CoffeeTable001_Desc"
+			content = "models/props_furniture/coffee_table001.vmdl"
+			preview_image = "file://{images}/contentdb/coffee_table001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2040
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "bar_stool001"
+			name = "#VR_Furniture_BarStool001"
+			desc = "#VR_Furniture_BarStool001_Desc"
+			content = "models/props_furniture/bar_stool001.vmdl"
+			preview_image = "file://{images}/contentdb/bar_stool001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2041
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "tv_stand001"
+			name = "#VR_Furniture_TVStand001"
+			desc = "#VR_Furniture_TVStand001_Desc"
+			content = "models/props_furniture/tv_stand001.vmdl"
+			preview_image = "file://{images}/contentdb/tv_stand001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2042
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "television001"
+			name = "#VR_Furniture_Television001"
+			desc = "#VR_Furniture_Television001_Desc"
+			content = "models/props_furniture/television001.vmdl"
+			preview_image = "file://{images}/contentdb/television001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2043
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "frying_pan001"
+			name = "#VR_Furniture_FryingPan001"
+			desc = "#VR_Furniture_FryingPan001_Desc"
+			content = "models/props_furniture/frying_pan001.vmdl"
+			preview_image = "file://{images}/contentdb/frying_pan001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2044
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},
+		{
+			id = "spatula001"
+			name = "#VR_Furniture_Spatula001"
+			desc = "#VR_Furniture_Spatula001_Desc"
+			content = "models/props_furniture/spatula001.vmdl"
+			preview_image = "file://{images}/contentdb/spatula001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2045
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},
+		{
+			id = "dresser002"
+			name = "#VR_Furniture_Dresser002"
+			desc = "#VR_Furniture_Dresser002_Desc"
+			content = "models/props_furniture/dresser002.vmdl"
+			preview_image = "file://{images}/contentdb/dresser002.png"
+			locked_by_quest = false
+			// inventory_service_id = 2046
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "night_table001"
+			name = "#VR_Furniture_NightTable001"
+			desc = "#VR_Furniture_NightTable001_Desc"
+			content = "models/props_furniture/night_table001.vmdl"
+			preview_image = "file://{images}/contentdb/night_table001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2047
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "lamp001"
+			name = "#VR_Furniture_Lamp001"
+			desc = "#VR_Furniture_Lamp001_Desc"
+			content = "models/props_furniture/lamp001.vmdl"
+			preview_image = "file://{images}/contentdb/lamp001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2048
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},
+		{
+			id = "lamp002"
+			name = "#VR_Furniture_Lamp002"
+			desc = "#VR_Furniture_Lamp002_Desc"
+			content = "models/props_furniture/lamp002.vmdl"
+			preview_image = "file://{images}/contentdb/lamp002.png"
+			locked_by_quest = true
+			// inventory_service_id = 2049
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},
+		{
+			id = "queen_bed001"
+			name = "#VR_Furniture_QueenBed001"
+			desc = "#VR_Furniture_QueenBed001_Desc"
+			content = "models/props_furniture/queen_bed001.vmdl"
+			preview_image = "file://{images}/contentdb/queen_bed001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2050
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "pillow002"
+			name = "#VR_Furniture_Pillow002"
+			desc = "#VR_Furniture_Pillow002_Desc"
+			content = "models/props_furniture/pillow002.vmdl"
+			preview_image = "file://{images}/contentdb/pillow002.png"
+			locked_by_quest = false
+			// inventory_service_id = 2051
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "jar001"
+			name = "#VR_Furniture_Jar001"
+			desc = "#VR_Furniture_Jar001_Desc"
+			content = "models/props_furniture/jar001.vmdl"
+			preview_image = "file://{images}/contentdb/jar001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2052
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},
+		{
+			id = "pot001"
+			name = "#VR_Furniture_Pot001"
+			desc = "#VR_Furniture_Pot001_Desc"
+			content = "models/props_furniture/pot001.vmdl"
+			preview_image = "file://{images}/contentdb/pot001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2053
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},
+		{
+			id = "pot002"
+			name = "#VR_Furniture_Pot002"
+			desc = "#VR_Furniture_Pot002_Desc"
+			content = "models/props_furniture/pot002.vmdl"
+			preview_image = "file://{images}/contentdb/pot002.png"
+			locked_by_quest = true
+			// inventory_service_id = 2054
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},
+		{
+			id = "pot002_lid"
+			name = "#VR_Furniture_Pot002Lid"
+			desc = "#VR_Furniture_Pot002Lid_Desc"
+			content = "models/props_furniture/pot002_lid.vmdl"
+			preview_image = "file://{images}/contentdb/pot002_lid.png"
+			locked_by_quest = true
+			// inventory_service_id = 2055
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},
+		{
+			id = "plate001"
+			name = "#VR_Furniture_Plate001"
+			desc = "#VR_Furniture_Plate001_Desc"
+			content = "models/props_furniture/plate001.vmdl"
+			preview_image = "file://{images}/contentdb/plate001.png"
+			locked_by_quest = true
+			// inventory_service_id = 2056
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},
+		{
+			id = "bench001"
+			name = "#VR_Furniture_Bench001"
+			desc = "#VR_Furniture_Bench001_Desc"
+			content = "models/props_furniture/bench001.vmdl"
+			preview_image = "file://{images}/contentdb/bench001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2057
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "patio_chair001"
+			name = "#VR_Furniture_PatioChair001"
+			desc = "#VR_Furniture_PatioChair001_Desc"
+			content = "models/props_furniture/patio_chair001.vmdl"
+			preview_image = "file://{images}/contentdb/patio_chair001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2058
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "patio_table001"
+			name = "#VR_Furniture_PatioTable001"
+			desc = "#VR_Furniture_PatioTable001_Desc"
+			content = "models/props_furniture/patio_table001.vmdl"
+			preview_image = "file://{images}/contentdb/patio_table001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2059
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "statue001"
+			name = "#VR_Furniture_Statue001"
+			desc = "#VR_Furniture_Statue001_Desc"
+			content = "models/props_furniture/statue001.vmdl"
+			preview_image = "file://{images}/contentdb/statue001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2060
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "classical_statue001"
+			name = "#VR_Furniture_ClassicalStatue001"
+			desc = "#VR_Furniture_ClassicalStatue001_Desc"
+			content = "models/props_furniture/classical_statue001.vmdl"
+			preview_image = "file://{images}/contentdb/classical_statue001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2061
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "garden_pagoda001"
+			name = "#VR_Furniture_GardenPagoda001"
+			desc = "#VR_Furniture_GardenPagoda001_Desc"
+			content = "models/props_furniture/garden_pagoda001.vmdl"
+			preview_image = "file://{images}/contentdb/garden_pagoda001.png"
+			locked_by_quest = false
+			// inventory_service_id = 2062
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "wall_clock_analog"
+			name = "#VR_Furniture_WallClockAnalog"
+			desc = "#VR_Furniture_WallClockAnalog_Desc"
+			content = "models/props_furniture/wall_clock_analog_body.vmdl"
+			preview_image = "file://{images}/contentdb/wall_clock001.png"
+			locked_by_quest = false
+			script = "furniture/wall_clock_analog"
+			// inventory_service_id = 2063
+			default_color = [ 52,192,193 ]
+		},
+	]
+
+	addons =
+	[
+		{
+			id = "english_church"
+			name = "#VR_Map_English_Church"
+			desc = "#VR_Map_English_Church_Desc"
+			content = "english_church"
+			preview_image = "file://{images}/contentdb/english_church.png"
+			tags = "architecture, real"
+			dev_only = true
+		},
+		{
+			id = "mars"
+			name = "#VR_Map_Mars"
+			desc = "#VR_Map_Mars_Desc"
+			content = "mars"
+			preview_image = "file://{images}/contentdb/mars.png"
+			tags = "space, real"
+			dev_only = true
+		},
+		{
+			id = "example"
+			name = "#VR_Addon_Example"
+			desc = "#VR_Addon_Example_Desc"
+			content = "example"
+			preview_image = "file://{images}/contentdb/example.png"
+			tags = "game, imaginary"
+			dev_only = true
+		},
+		{
+			id = "turrets"
+			name = "#VR_Addon_Turrets"
+			desc = "#VR_Addon_Turrets_Desc"
+			content = "turrets"
+			preview_image = "file://{images}/contentdb/turrets.png"
+			tags = "game, imaginary"
+			timestamp_updated = 1466132400
+			dev_only = true
+		},
+		{
+			id = "la_pedrera"
+			name = "#VR_Map_La_Pedrera"
+			desc = "#VR_Map_La_Pedrera_Desc"
+			content = "la_pedrera"
+			preview_image = "file://{images}/contentdb/la_pedrera.png"
+			tags = "architecture, real"
+			timestamp_updated = 1471910400
+			dev_only = true
+		},
+		{
+			id = "valvelobby"
+			name = "#VR_Map_Valve_Lobby"
+			desc = "#VR_Map_Valve_Lobby_Desc"
+			content = "valvelobby"
+			preview_image = "file://{images}/contentdb/valve_lobby.png"
+			tags = "architecture, real"
+			timestamp_updated = 1471910400
+			dev_only = true
+		},
+		{
+			id = "arcade_roll"
+			name = "#VR_Map_Arcade_Roll"
+			desc = "#VR_Map_Arcade_Roll_Desc"
+			content = "arcade_roll"
+			preview_image = "file://{images}/contentdb/arcade_toss.png"
+			tags = "game, imaginary"
+			timestamp_updated = 1471910400
+			dev_only = true
+		},
+		{
+			id = "towerbridge"
+			name = "#VR_Map_Tower_Bridge"
+			desc = "#VR_Map_Tower_Bridge_Desc"
+			content = "towerbridge"
+			preview_image = "file://{images}/contentdb/towerbridge.png"
+			tags = "architecture, real"
+			timestamp_updated = 1477526400
+			dev_only = true
+		},
+		{
+			id = "jam_session"
+			name = "#VR_Map_Jam_Session"
+			desc = "#VR_Map_Jam_Session_Desc"
+			content = "jam_session"
+			preview_image = "file://{images}/contentdb/jam_session.png"
+			tags = "game, real"
+			timestamp_updated = 1477526400
+			dev_only = true
+		},
+		{
+			id = "cannon_wars"
+			name = "#VR_Map_Cannon_Wars"
+			desc = "#VR_Map_Cannon_Wars_Desc"
+			content = "cannon_wars"
+			preview_image = "file://{images}/contentdb/cannon_wars.png"
+			tags = "game, imaginary"
+			timestamp_updated = 1477526400
+			dev_only = true
+		},
+		{
+			id = "seadocks"
+			name = "#VR_Map_Seadocks"
+			desc = "#VR_Map_Seadocks_Desc"
+			content = "seadocks"
+			preview_image = "file://{images}/contentdb/seadocks.png"
+			tags = "imaginary, relaxing"
+			timestamp_updated = 1451606400
+			dev_only = true
+		},
+		{
+			id = "clockwork_ruins"
+			name = "#VR_Map_ClockworkOrrery"
+			desc = "#VR_Map_ClockworkOrrery_Desc"
+			content = "clockwork_ruins"
+			preview_image = "file://{images}/contentdb/clockwork_orrery.png"
+			tags = "imaginary"
+			timestamp_updated = 1451606400
+			dev_only = true
+		},
+		{
+			id = "peanut_gallery"
+			name = "#VR_Map_PeanutGallery"
+			desc = "#VR_Map_PeanutGallery_Desc"
+			content = "peanut_gallery"
+			preview_image = "file://{images}/contentdb/peanut_gallery.png"
+			tags = "game, real"
+			timestamp_updated = 1487376344
+			dev_only = true
+		},
+		{
+			id = "steamvr_home"
+			name = "#VR_Map_SteamVRHome"
+			desc = "#VR_Map_SteamVRHome_Desc"
+			content = "steamvr_home"
+			preview_image = "file://{images}/contentdb/steamvr_home.png"
+			tags = "game, real"
+			timestamp_updated = 1491335453
+		},
+		{
+			id = "hawaii_beach"
+			name = "#VR_Map_HawaiiBeach"
+			desc = "#VR_Map_HawaiiBeach_Desc"
+			content = "hawaii_beach"
+			preview_image = "file://{images}/contentdb/hawaii_beach.png"
+			tags = "real"
+			timestamp_updated = 1496340312
+		},
+
+	]
+
+	quests_visit_multiple_maps = [
+		{
+			id = "jackolantern_01"
+			name = "#Quest_Jackolantern"
+			desc = "#Quest_Jackolantern_Desc"
+			content = "cannon_wars,jam_session,towerbridge"
+			preview_image = "file://{images}/contentdb/jackolantern_01.png"
+			quest_type = "multiple_maps"
+			item_generator = "item_generator_jackolantern"
+			dev_only = true
+		},
+		{
+			id = "quest_toy_gun"
+			name = "#Quest_ToyGun"
+			desc = "#Quest_ToyGun_Desc"
+			preview_image = "file://{images}/contentdb/toy_gun001.png"
+			item_generator = "item_generator_toy_gun"
+		},
+	]
+
+	quests_vote = [
+		{
+			id = "pumpkin_01"
+			name = "#Quest_Pumpkin"
+			desc = "#Quest_Pumpkin_Desc"
+			content = "cannon_wars"
+			preview_image = "file://{images}/contentdb/pumpkin_01.png"
+			item_generator = "item_generator_pumpkin"
+		},
+	]
+
+	quests_map_specific =
+	[
+		{
+			id = "headcrab"
+			name = "#Quest_Headcrab"
+			desc = "#Quest_Headcrab_Desc"
+			preview_image = "file://{images}/contentdb/head_crab_thumb.png"
+			item_generator = "item_generator_headcrab"
+			addon = "valvelobby"
+			steamvr_addon = "928179372"
+		},
+		{
+			id = "earth_ball"
+			name = "#Quest_EarthBall"
+			desc = "#Quest_EarthBall_Desc"
+			preview_image = "file://{images}/contentdb/earth_prop.png"
+			item_generator = "item_generator_earthball"
+			addon = "english_church"
+			steamvr_addon = "928163034" // id on public
+		},
+		{
+			id = "mars_ball"
+			name = "#Quest_MarsBall"
+			desc = "#Quest_MarsBall_Desc"
+			preview_image = "file://{images}/contentdb/mars_prop.png"
+			item_generator = "item_generator_marsball"
+			addon = "mars"
+			steamvr_addon = "928142301" // id on public
+		},
+		{
+			id = "balloonicorn"
+			name = "#Quest_Balloonicorn"
+			desc = "#Quest_Balloonicorn_Desc"
+			preview_image = "file://{images}/contentdb/balloonicorn.png"
+			item_generator = "item_generator_balloonicorn"
+			addon = "arcade_roll"
+			steamvr_addon = "928200532" // id on public
+		},
+		{
+			id = "portal_cake"
+			name = "#Quest_PortalCake"
+			desc = "#Quest_PortalCake_Desc"
+			preview_image = "file://{images}/contentdb/portal_cake.png"
+			item_generator = "item_generator_portal_cake"
+			addon = "turrets"
+			steamvr_addon = "928184711" // id on public
+		},
+		{
+			id = "lizard"
+			name = "#Quest_Lizard"
+			desc = "#Quest_Lizard_Desc"
+			preview_image = "file://{images}/contentdb/lizard.png"
+			item_generator = "item_generator_lizard"
+			addon = "la_pedrera"
+			steamvr_addon = "928136942" // id on public
+		},
+		{
+			id = "medkit"
+			name = "#Quest_Medkit"
+			desc = "#Quest_Medkit_Desc"
+			preview_image = "file://{images}/contentdb/medkit.png"
+			item_generator = "item_generator_medkit"
+			addon = "valvelobby"
+			steamvr_addon = "928179372"
+		},
+		{
+			id = "techies_barrel"
+			name = "#Quest_TechiesBarrel"
+			desc = "#Quest_TechiesBarrel_Desc"
+			preview_image = "file://{images}/contentdb/techies_barrel.png"
+			quest_type = "map"
+			item_generator = "item_generator_techies_barrel"
+			addon = "valvelobby"
+			steamvr_addon = "928179372"
+		},
+		{
+			id = "drumstick001"
+			name = "#Quest_Drumstick"
+			desc = "#Quest_Drumstick_Desc"
+			preview_image = "file://{images}/contentdb/drumstick001.png"
+			item_generator = "item_generator_drumstick"
+			addon = "jam_session"
+			steamvr_addon = "928174467" // id on public
+		},
+		{
+			id = "fortification_block001"
+			name = "#Quest_FortificationBlock"
+			desc = "#Quest_FortificationBlock_Desc"
+			preview_image = "file://{images}/contentdb/fortification_block001.png"
+			quest_type = "map"
+			item_generator = "item_generator_fortification_block"
+			addon = "cannon_wars"
+			steamvr_addon = "928202705" // id on public
+		},
+		{
+			id = "toy_soldier001"
+			name = "#Quest_ToySoldier"
+			desc = "#Quest_ToySoldier_Desc"
+			preview_image = "file://{images}/contentdb/toy_soldier001.png"
+			item_generator = "item_generator_toy_soldier"
+			addon = "towerbridge"
+			steamvr_addon = "928171131" // id on public
+		},
+		{
+			id = "quest_drone"
+			name = "#Quest_Drone"
+			desc = "#Quest_Drone_Desc"
+			preview_image = "file://{images}/contentdb/drone_controller001.png"
+			item_generator = "item_generator_drone"
+			addon = "clockwork_ruins"
+			steamvr_addon = "927903293" // id on public
+		},
+		{
+			id = "quest_ballooninator"
+			name = "#Quest_Ballooninator"
+			desc = "#Quest_Ballooninator_Desc"
+			preview_image = "file://{images}/contentdb/ballooninator001.png"
+			item_generator = "item_generator_ballooninator"
+			addon = "seadocks"
+			steamvr_addon = "927882107" // id on public
+		},
+
+		{
+			id = "quest_l4d_stuffed_snake"
+			name = "#Quest_PeanutGallery_Snake"
+			desc = "#Quest_PeanutGallery_Snake_Desc"
+			preview_image = "file://{images}/contentdb/l4d_stuffed_snake.png"
+			item_generator = "item_generator_l4d_stuffed_snake"
+			addon = "peanut_gallery"
+			steamvr_addon = "928204582" // id on public
+		},
+		{
+			id = "quest_l4d_stuffed_alligator"
+			name = "#Quest_PeanutGallery_Alligator"
+			desc = "#Quest_PeanutGallery_Alligator_Desc"
+			preview_image = "file://{images}/contentdb/l4d_stuffed_alligator.png"
+			item_generator = "item_generator_l4d_stuffed_alligator"
+			addon = "peanut_gallery"
+			steamvr_addon = "928204582" // id on public
+		},
+		{
+			id = "quest_l4d_stuffed_giraffe"
+			name = "#Quest_PeanutGallery_Giraffe"
+			desc = "#Quest_PeanutGallery_Giraffe_Desc"
+			preview_image = "file://{images}/contentdb/l4d_stuffed_giraffe.png"
+			item_generator = "item_generator_l4d_stuffed_giraffe"
+			addon = "peanut_gallery"
+			steamvr_addon = "928204582" // id on public
+		},
+		{
+			id = "quest_l4d_stuffed_elephant"
+			name = "#Quest_PeanutGallery_Elephant"
+			desc = "#Quest_PeanutGallery_Elephant_Desc"
+			preview_image = "file://{images}/contentdb/l4d_stuffed_elephant.png"
+			item_generator = "item_generator_l4d_stuffed_elephant"
+			addon = "peanut_gallery"
+			steamvr_addon = "928204582" // id on public
+		},	
+		{
+			id = "quest_pin_hawaii_chell"
+			name = "#Quest_Pin_Hawaii_Chell"
+			desc = "#Quest_Pin_Hawaii_Chell_Desc"
+			preview_image = "file://{images}/contentdb/pin_hawaii_chell.png"
+			item_generator = "item_generator_pin_hawaii_chell"
+			addon = "hawaii_beach"
+			steamvr_addon = "937504294" // id on public
+		},
+		{
+			id = "quest_pin_hawaii_lab"
+			name = "#Quest_Pin_Hawaii_Lab"
+			desc = "#Quest_Pin_Hawaii_Lab_Desc"
+			preview_image = "file://{images}/contentdb/pin_hawaii_lab.png"
+			item_generator = "item_generator_pin_hawaii_lab"
+			addon = "hawaii_beach"
+			steamvr_addon = "937504294" // id on public
+		},
+	]
+
+	quests_detector =
+	[
+		{
+			id = "detector_quest"
+			name = "#Quest_Detector"
+			desc = "#Quest_Detector_Desc"
+			preview_image = "file://{images}/contentdb/steam_workshop_default_image.png"
+			drop_start_date = 1485388800		// 2017-01-26
+			drop_interval_seconds = 604800 		// 7 days
+			dev_drop_interval_seconds = 300 	// 5 minutes
+			drop_max_per_interval = 5		// how many items we can drop per interval.  this explodes into many inventory service items, so you should have some space allocated after inventory_service_id
+			inventory_service_id = 10001
+			item_generator = "item_generator_geocache_quests"
+		}
+	]
+
+	item_generators =
+	[
+		// for normal quests
+		{
+			id = "item_generator_jackolantern"
+			items = [
+				{
+					id = "jackolantern_01"
+				}
+			]
+		},
+		{
+			id = "item_generator_pumpkin"
+			items = [
+				{
+					id = "pumpkin_01"
+				}
+			]
+		},
+		{
+			id = "item_generator_headcrab"
+			items = [
+				{
+					id = "headcrab"
+				}
+			]
+		},
+		{
+			id = "item_generator_earthball"
+			items = [
+				{
+					id = "earth_ball"
+				}
+			]
+		},
+		{
+			id = "item_generator_marsball"
+			items = [
+				{
+					id = "mars_ball"
+				}
+			]
+		},
+		{
+			id = "item_generator_balloonicorn"
+			items = [
+				{
+					id = "balloonicorn"
+				}
+			]
+		},
+		{
+			id = "item_generator_portal_cake"
+			items = [
+				{
+					id = "portal_cake"
+				}
+			]
+		},
+		{
+			id = "item_generator_lizard"
+			items = [
+				{
+					id = "lizard"
+				}
+			]
+		},
+		{
+			id = "item_generator_medkit"
+			items = [
+				{
+					id = "medkit"
+				}
+			]
+		},
+		{
+			id = "item_generator_techies_barrel"
+			items = [
+				{
+					id = "techies_barrel"
+				}
+			]
+		},
+		{
+			id = "item_generator_drumstick"
+			items = [
+				{
+					id = "drumstick001"
+				}
+			]
+		},
+		{
+			id = "item_generator_fortification_block"
+			items = [
+				{
+					id = "fortification_block001"
+				}
+			]
+		},
+		{
+			id = "item_generator_toy_soldier"
+			items = [
+				{
+					id = "toy_soldier001"
+				}
+			]
+		},
+		{
+			id = "item_generator_drone"
+			items = [
+				{
+					id = "drone_controller"
+				}
+			]
+		},
+		{
+			id = "item_generator_ballooninator"
+			items = [
+				{
+					id = "ballooninator"
+				}
+			]
+		},
+		{
+			id = "item_generator_toy_gun"
+			items = [
+				{
+					id = "toy_gun"
+				}
+			]
+		},
+		// for peanut gallery quests
+		{
+			id = "item_generator_l4d_stuffed_snake"
+			items = [
+				{
+					id = "l4d_stuffed_snake"
+				}
+			]
+		},
+		{
+			id = "item_generator_l4d_stuffed_alligator"
+			items = [
+				{
+					id = "l4d_stuffed_alligator"
+				}
+			]
+		},
+		{
+			id = "item_generator_l4d_stuffed_giraffe"
+			items = [
+				{
+					id = "l4d_stuffed_giraffe"
+				}
+			]
+		},
+		{
+			id = "item_generator_l4d_stuffed_elephant"
+			items = [
+				{
+					id = "l4d_stuffed_elephant"
+				}
+			]
+		},
+		// for hawaii beach quests
+		{
+			id = "item_generator_pin_hawaii_chell"
+			items = [
+				{
+					id = "pin_hawaii_chell"
+				}
+			]
+		},
+		{
+			id = "item_generator_pin_hawaii_lab"
+			items = [
+				{
+					id = "pin_hawaii_lab"
+				}
+			]
+		},
+		
+		// for geo-caching quests
+		{
+			id = "item_generator_geocache_quests"
+			items = [
+				{
+					id = "item_generator_common_items"
+					chance = 90
+				},
+				{
+					id = "item_generator_rare_tf2_heads"
+					chance = 5
+				},
+				{
+					id = "item_generator_rare_seadocks_heads"
+					chance = 5
+				}
+			]
+		},
+
+		// common items for geo-caching quests
+		{
+			id = "item_generator_common_items"
+			inventory_service_id = 20000
+			items = [
+				{
+					id = "cowboy_hat001"
+				},
+				{
+					id = "beard001"
+				},
+				{
+					id = "beard002"
+				},
+				{
+					id = "mustache001"
+				},
+				{
+					id = "dragonknight_helmet001"
+				},
+				{
+					id = "gsg9_helmet001"
+				},
+				{
+					id = "gyro_cap001"
+				},
+				{
+					id = "hair_female001"
+				},
+				{
+					id = "hair_female002"
+				},
+				{
+					id = "hair_female003"
+				},
+				{
+					id = "hair_male001"
+				},
+				{
+					id = "hair_male002"
+				},
+				{
+					id = "hair_male003"
+				},
+				{
+					id = "hair_male004"
+				},
+				{
+					id = "hair_male005"
+				},
+				{
+					id = "hair_male006"
+				},
+				{
+					id = "hair_male007"
+				},
+				{
+					id = "hair_male008"
+				},
+				{
+					id = "juggernaut_mask001"
+				},
+				{
+					id = "stocking_cap001"
+				},
+				{
+					id = "sunglasses002"
+				},
+				{
+					id = "swarm_helmet001"
+				},
+				{
+					id = "welding_mask001"
+				},
+				{
+					id = "santa_hat001"
+				},
+				{
+					id = "football_helmet001"
+				},
+				{
+					id = "chef_hat001"
+				},
+				{
+					id = "beanie001"
+				},
+				{
+					id = "fireman_helmet001"
+				},
+				{
+					id = "veteran_hat001"
+				},
+				{
+					id = "military_beret001"
+				},
+				{
+					id = "captain_hat001"
+				},
+				{
+					id = "fishing_hat001"
+				},
+				{
+					id = "hardhat001"
+				},
+				{
+					id = "madame_dixie001"
+				},
+				{
+					id = "straw_hat001"
+				},
+				{
+					id = "train_hat001"
+				},
+				{
+					id = "ski_goggles001"
+				},
+				{
+					id = "baseball_cap002"
+				},
+				{
+					id = "fedora001"
+				},
+				{
+					id = "propeller_beanie001"
+				},
+				{
+					id = "clockwerk_mask001"
+				},
+				{
+					id = "diving_helmet001"
+				},
+				{
+					id = "headphones001"
+				},
+				{
+					id = "parasite_hat001"
+				},
+				{
+					id = "crown001"
+				},
+				{
+					id = "stormspirit_hat001"
+				},
+				{
+					id = "undying_helmet001"
+				},
+				{
+					id = "sombrero001"
+				},
+				{
+					id = "feather001"
+				},
+				{
+					id = "bow001"
+				},
+				{
+					id = "sailor_hat001"
+				},
+				{
+					id = "party_hat001"
+				},
+				{
+					id = "vr_hmd001"
+				},
+				{
+					id = "moped_helmet001"
+				}
+			]
+		},
+
+		// rare TF2 heads for geo-caching quests
+		{
+			id = "item_generator_rare_tf2_heads"
+			inventory_service_id = 20001
+			items = [
+				{
+					id = "tf2_bot_demo"
+				},
+				{
+					id = "tf2_bot_engineer"
+				},
+				{
+					id = "tf2_bot_heavy"
+				},
+				{
+					id = "tf2_bot_medic"
+				},
+				{
+					id = "tf2_bot_pyro"
+				},
+				{
+					id = "tf2_bot_scout"
+				},
+				{
+					id = "tf2_bot_sniper"
+				},
+				{
+					id = "tf2_bot_soldier"
+				},
+				{
+					id = "tf2_bot_spy"
+				}
+			]
+		},
+		
+		// rare seadocks heads for geo-caching quests
+		{
+			id = "item_generator_rare_seadocks_heads"
+			inventory_service_id = 20002
+			items = [
+				{
+					id = "keemo_head"
+				},
+				{
+					id = "keli_head"
+				},
+				{
+					id = "mochi_head"
+				},
+				{
+					id = "teemo_head"
+				}
+			]
+		}
+		
+	]
+
+}
+
