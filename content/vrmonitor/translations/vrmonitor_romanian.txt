@@ -1340,5 +1340,9 @@
 "[english]FirmwareWizard_UpdateGenericTracker_Success_UpperText"	"Success!"
 "FirmwareWizard_UpdateGenericTracker_Success_LowerText"	"Apasă pe \"Gata\" pentru a finaliza sau pe \"Actualizează mai mult Firmware\" dacă mai ai hardware de actualizat."
 "[english]FirmwareWizard_UpdateGenericTracker_Success_LowerText"	"Click 'Done' to finish, or 'Update More Firmware' if you have more hardware to update. "
+"BugReporter_Description"	"Descriere:"
+"[english]BugReporter_Description"	"Description:"
+"BugReporter_ReportType_Bug"	"Bug"
+"[english]BugReporter_ReportType_Bug"	"Bug"
 }
 }

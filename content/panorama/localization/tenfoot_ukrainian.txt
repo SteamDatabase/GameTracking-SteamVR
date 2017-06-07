@@ -474,7 +474,7 @@
 "[english]CollisionBoundSquares"	"Squares"
 "CollisionBoundAdvanced"	"Прогресивний"
 "[english]CollisionBoundAdvanced"	"Advanced"
-"CollisionBoundDeveloper"	"Розробник"
+"CollisionBoundDeveloper"	"Розробникам"
 "[english]CollisionBoundDeveloper"	"Developer"
 "BoundsColor"	"Колір меж"
 "[english]BoundsColor"	"Bounds Color"

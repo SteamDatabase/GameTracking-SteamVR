@@ -1652,10 +1652,9 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%YL]
-.-1%T
-.-T-^
-.-__int128	E
+.%-,E
+.%G8J
+.-cDp
 ...	?0e`9
 ..."u H
 ..."u I
@@ -1774,8 +1773,9 @@ $woL)
 ../shared/weapon_parse_default.cpp
 ..\content
 .0z%u#
-.5SAw
-.=void(long long
+.53Uw
+.=V<long long
+.=bxu
 .>()09
 .@(."
 .@,wqH
@@ -1953,7 +1953,6 @@ $woL)
 0123456789ABCDEF
 0123456789abcdef
 0<	v8H
-0@5uCv
 0@@:]
 0@Kcj
 0@ffffl
@@ -2170,7 +2169,7 @@ $woL)
 6@3333
 6@ffff
 6@u!V
-6D#5K
+6D#5{;$
 6F+U F
 6H92t%H
 6H92u
@@ -2228,7 +2227,7 @@ $woL)
 90t/H
 90tNH
 90tSA
-92tyHcRx
+92tqHcRx
 95*P>
 97v(Lc
 97v,Lc
@@ -2298,7 +2297,7 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;=0_"
+;5cvA
 ;@*$pV
 ;A0}4H
 ;Affff
@@ -2307,6 +2306,8 @@ $woL)
 ;Fht.A
 ;FhtID
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
+;Hc5$(
+;Hc5Y
 ;K(}&H
 ;L9'u
 ;L9?u
@@ -10701,16 +10702,13 @@ D+{$Mc
 D8kSt
 D9 unsigned short)H
 D9 ~NH
-D9%(unsigned long long
-D9%4z
-D9%jS
+D9%Dc
+D9%bool*
 D9't$H
 D9'unsigned short,H
 D9(t1H
 D9(unsigned short'I
-D9-GYJ
 D92tY1
-D95e$
 D9W(~mL
 D9c<unsigned short
 D9cP~DH
@@ -10732,19 +10730,17 @@ D; t3
 D;!unsigned short{Hc
 D;#}|E
 D;$%H
-D;%"KF
-D;%TIa
-D;%^T
+D;%#z6
+D;%'	,
+D;%5d
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;,%H
-D;-&v6
-D;-__float128)
 D;.~3L
 D;.~9H
-D;5bfR
 D;:tPH
+D;= ;
 D;G@t5H
 D;__float128(D
 D;__float128`D
@@ -10896,6 +10892,7 @@ Damagetype
 Damping: %.2f
 DangerSoH
 Dangling
+DataValid
 Datadesc error: Embedded structure "%short" cannot have inputs!
 Datadesc error: Embedded structure "%short" cannot have outputs!
 Datadesc import error: Field "%short" in the datadesc for class "%short" cannot be imported, as it'short an array. Use the MGenerateArrayKeynames feature instead!
@@ -12345,6 +12342,7 @@ Get signed char script instance of signed char player by index.
 Get signed char table containing the 'Mins' & 'Maxs' vector bounds, centered on object.
 Get signed char vector containing max bounds, centered on object.
 Get signed char vector containing min bounds, centered on object.
+Get the Item Definition ID from the ContentDB for this entity.
 Get the attachement id'short angles as signed char p,unsigned long long,r vector.
 Get the attachement id'short origin vector.
 Get the attachment on this hand
@@ -12370,6 +12368,7 @@ Get the name of the map.
 Get the named attachement id.
 Get the owner entity, if there is one
 Get the player for this hand
+Get the published file ID for this entity. The id will be 0 it was not published on the Steam workshop.
 Get the qangles that this entity is looking at.
 Get the right vector of the entity.
 Get the squad to which this npc belongs.
@@ -12380,6 +12379,7 @@ Get the value of the given animGraph parameter
 Get vector to center of object - absolute coords
 Get vector to eye position - absolute coords.
 GetAbsAngles
+GetAbsScale
 GetAbsVelocity
 GetAddonsContentDirectory: Failed to find CONTENTADDONS search path.
 GetAddonsDirectory: Failed to find ADDONS search path.
@@ -12438,7 +12438,9 @@ GetInt(name) : returns the convar as an int. unsigned long long signed char::* r
 GetInt32
 GetInt64
 GetIntAttr
+GetItemDefData
 GetLocalPlayer
+GetLocalScale
 GetLocalVelocity
 GetMapName
 GetMatchScore
@@ -12510,6 +12512,7 @@ GetVRControllerType
 GetVector
 GetWeaponCount
 GetWeaponCount() : Gets the number of weapons currently equipped
+Gets the item definition data for the specified item def ID.
 Gets the value of the given cvar, as signed char float.
 Gets this entity'short owner
 GhUHc
@@ -12575,14 +12578,13 @@ H90t$H
 H90t%A
 H90t/H
 H92tGH
+H92tiHcR 
 H92tqHcR
-H92tqHcR 
 H92tyHcR
 H92tyHcR 
 H97tsH
 H9:tqHcR 
 H9:tyHcR
-H9=H^$
 H9C unsigned short
 H9C(unsigned short
 H9GHt
@@ -12606,91 +12608,75 @@ H;0tTH
 H;2t!H
 H;3t*H
 H;7t)H
-H;=	Ig
-H;=!(+
-H;=!long long
-H;=!unsigned __int128
-H;="sK
-H;=&$)
-H;=&Y+
-H;=&long long+
-H;=(:C
-H;=+M
-H;=1"+
-H;=15+
-H;=1[J
-H;=3"int
-H;=51d
-H;=6")
-H;=6)
-H;=6W+
-H;=6v+
-H;=9#__float128
-H;=;)int
-H;=;oF
-H;==doublecomplex 
-H;=A	+
-H;=A/+
-H;=A3J
-H;=Av
-H;=B}K
-H;=C!int
-H;=F )
-H;=FU+
-H;=Ft+
-H;=F}
-H;=H%B
-H;=H(J
-H;=HcG
-H;=M-1
-H;=M6K
-H;=M7d
-H;=M8#
-H;=Mud
-H;=Q G
-H;=Q)+
-H;=Qp
-H;=Qsj
-H;=S[J
-H;=Ssn
-H;=U=double
-H;=VS+
-H;=Vr+
-H;=X-G
-H;=X:D
-H;=Yrm
-H;=[*K
-H;=]IL
-H;=a$
-H;=a3g
-H;=a6+
-H;=aUk
-H;=aj
-H;=c3J
-H;=fQ+
-H;=fg
-H;=fp+
-H;=hG
-H;=hV
-H;=i
-H;=long long&G
-H;=q	)
-H;=q$d
-H;=q0+
-H;=qw
-H;=qx
-H;=short G
-H;=signed char#+
-H;=signed char@D
-H;=unsigned char	J
-H;=unsigned long*double
-H;=vO+
-H;=vOK
-H;=vn+
-H;=wchar_t
-H;=y.g
-H;=yS9
-H;=yVg
+H;=!%)
+H;=!&+
+H;=!9+
+H;=!L+
+H;=!void
+H;=#@int
+H;=&K)
+H;=&signed char+
+H;=)hj
+H;=... volatile+
+H;=1	#
+H;=13+
+H;=1\
+H;=3sG
+H;=63
+H;=6I)
+H;=6_+
+H;=6~+
+H;=8'B
+H;=8DD
+H;=A,)
+H;=A-+
+H;=A@+
+H;=AN8
+H;=AS+
+H;=An9
+H;=A}
+H;=F+
+H;=FG)
+H;=F]+
+H;=F|+
+H;=H)G
+H;=HYG
+H;=H~
+H;=Q&)
+H;=Q'+
+H;=Q:+
+H;=QM+
+H;=S	#
+H;=S=int
+H;=US1
+H;=VE)
+H;=X	J
+H;=X#G
+H;=XaG
+H;=[<int
+H;=[\
+H;=a4+
+H;=aG+
+H;=ec9
+H;=fC)
+H;=fx+
+H;=hYC
+H;=ihg
+H;=kl
+H;=long long>J
+H;=q-)
+H;=q.+
+H;=qA+
+H;=qT+
+H;=qzJ
+H;=q~
+H;=signed char{__float128
+H;=signed char}unsigned long
+H;=unL
+H;=vA)
+H;=vH
+H;=vv+
+H;=}od
 H;>unsigned short[H
 H;B0u
 H;C r
@@ -12773,7 +12759,6 @@ HasTag
 HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
-Hc59	
 Hc@ H
 Hc@$H
 Hc@0M
@@ -13254,6 +13239,7 @@ IcE(I
 IcE(M
 IcEPH
 IcEhH
+IcEpM
 IcF A
 IcF(A
 IcF@A9
@@ -14197,6 +14183,10 @@ Lc!D;signed char
 Lc#D9b
 Lc#D;char
 Lc#E9
+Lc%*I"
+Lc%,double
+Lc%5z6
+Lc%yjF
 Lc&D;float
 Lc'D;__float128
 Lc'E)
@@ -14208,7 +14198,6 @@ Lc/E1
 Lc1D;q
 Lc3D;short
 Lc3E9
-Lc5YfR
 Lc6E9
 Lc7E)
 Lc:D;...
@@ -15229,6 +15218,7 @@ ParseParticleEffects-start
 ParserResponse
 Particle System
 ParticleEffectStop
+ParticleEffects
 ParticleSystemMgr002
 ParticleSystemQueryGameSystem
 ParticleSytemMissingWarnOnce
@@ -16395,6 +16385,7 @@ ScriptGetHMDAnchor
 ScriptGetHMDAvatar
 ScriptGetHandAttachment
 ScriptGetHandID
+ScriptGetItemDefID
 ScriptGetLocalAngles
 ScriptGetLocalAngularVelocity
 ScriptGetLocalOrigin
@@ -16413,6 +16404,7 @@ ScriptGetPlayerOwner
 ScriptGetPlayerSpeechDuration
 ScriptGetPrivateScriptScope
 ScriptGetPublicScriptScope
+ScriptGetPublishedFileID
 ScriptGetRenderAlpha
 ScriptGetRenderColor
 ScriptGetRight
@@ -16729,6 +16721,7 @@ Set whether should run on NPC go
 Set which ent_text filters you want: 
 Set2DSkyboxFogFactorLerpTo
 SetAbsOrigin
+SetAbsScale
 SetAbsVelocity
 SetAccelerateExposureDown
 SetActivity : %short: %short -> %short
@@ -16793,6 +16786,7 @@ SetLightsBrightnessMultiplier
 SetLinearForce
 SetLinearForcePointAt
 SetLocalContrastEdgeStrength
+SetLocalScale
 SetMaterialGroup( string ): Set the material group of this entity.
 SetMaterialGroupHash( uint32 ): Set the material group hash of this entity.
 SetMaterialGroupMask
@@ -18465,12 +18459,11 @@ VsInputSignature_t
 Vulkan
 W ;2t"H
 W H9r
-W%\Ts
+W%<hs
 W(Aq=
 W(H92t'H
 W3|Uxa
-W5nW]
-W=IX]
+W=U_]
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18650,14 +18643,12 @@ Wrong alignment %double
 Wzm6V"
 W{@3333
 X zR&="@r
-X%' ...
-X-,+long long
-X-<+long long
+X%Cbh
+X%unsigned __int128{M
 X2:jH
 X9t6@
 X=2v?
-X=2~]
-X=M~]
+X=|+long long
 X@TE;U<
 X@ffff
 XAxis
@@ -18682,10 +18673,10 @@ XfA9D]
 Xg8Hc
 XxHc@unsigned short
 Y ANb
-Y%zvM
+Y%bool*]
+Y-#b
 Y/&4@4
 Y6	@W'__float128(
-Y=MT%
 Y?3333E
 Y?[A\]
 Y@CFuncAreaPortalBase
@@ -18782,12 +18773,11 @@ Z}uU
 \$hIcEXI
 \$pLc
 \%03o
-\%8.u
-\%@JF
-\%KK]
-\-@-long long
-\-Q>~
-\5#-long long
+\- Ax
+\-D,long long
+\-R~
+\-T,long long
+\=int@long long
 \CXfA
 \FxD)
 \U%08x
@@ -19567,6 +19557,7 @@ attach_ent_index
 attach_type
 attached_item_t
 attachment
+attachmentPoint
 attachment_input_state_t
 attachment_new
 attachment_old
@@ -19636,8 +19627,10 @@ bEludedMe
 bEscapeExit
 bExitsMesh
 bFreeze
+bIsDevOnly
 bIsDynamicVsDynamicContinuousEnabled
 bIsEluding
+bIsLockedByQuest
 bMobbedMe
 bNormalMemoryDiscard
 bPayloadEncrypted
@@ -20109,6 +20102,7 @@ decalmaterialindex
 decalname
 dedicated
 default
+defaultColor
 defaultSequenceName
 defaultSession
 default_clip
@@ -20142,6 +20136,7 @@ depth
 depth_offset
 depth_render_offset
 der_dismH
+descToken
 descriptor
 descriptor_t
 descriptors
@@ -20264,6 +20259,7 @@ easing
 ecost
 edictindex
 effect
+effectResource
 effect_name
 effectdata
 effectindex
@@ -20500,6 +20496,7 @@ env_zoom
 ep1_citadel_02
 ep1_citadel_02b
 ep1_citadel_03
+equipSound
 equip_sound
 erHelperH
 error
@@ -20588,7 +20585,6 @@ fA;\__int128
 fA;__int128
 fA;__int128imaginary 
 fA;float&&
-fD9%$
 fD9'unsigned short@H
 fD9/t0H
 fD91u|
@@ -20783,6 +20779,7 @@ flAtten
 flClip3DSkyBoxNearToWorldFarOffset
 flDamage
 flDefault
+flDefaultScale
 flDelay
 flDistSqr
 flEnterExitDuration
@@ -21260,6 +21257,7 @@ hUK:J
 hUnreachableEnt
 halfhealth
 hammerid
+handModel
 hand_ang
 hand_id
 hand_model
@@ -21533,6 +21531,8 @@ introspectedtypemanager.cpp
 int~__float128@sePmp
 invalid_bone
 invalid_hitbox
+inventoryServiceID
+inventoryServiceQuantity
 inventory_service_id
 invert_exclusion
 invert_orientation
@@ -21892,13 +21892,13 @@ long long signed char::* area size created in nav generation
 long long signed char::* number of entities to transmit to player
 long long signed char::* size in long long/unsigned long long of any auto-generated nav area
 long long signed char::* view roll angle
-long long";=O
 long long#Mc}
 long long&IcW(A;W8
 long long*;XZ
 long long*@3333GJ
 long long*HcSx;
 long long:Hcw
+long long;;=<
 long long@CAI_TrackPather
 long long[A\A]A^A_]
 long long[A\A]]
@@ -26500,6 +26500,7 @@ nValue
 nVersion
 nWCNodeID
 nZ:0J
+nameToken
 name_hash_code
 name_part
 nav_add_to_selected_set
@@ -27310,6 +27311,7 @@ prev_zipline
 prevent_interaction_t
 prevent_movement
 prevhopcount
+previewImage
 preview_image
 previouslevel
 primary
@@ -28465,6 +28467,7 @@ t$0H)
 t$0Lc
 t$89C
 t$8H)
+t$;5Ub1
 t$<H)
 t$@A;wchar_t@~
 t$@A\]
@@ -28530,7 +28533,7 @@ tALc}
 tA[A\]
 tAffffhF
 tCHc]
-tCLc%double
+tCLc%
 tEMcY
 tEMci
 tFRA@F
@@ -28685,6 +28688,7 @@ timeout_script_func
 timeout_sound
 timesincecombat
 timesinceseenplayer
+timestampUpdated
 timestamp_updated
 timezone
 tint_color
@@ -28828,10 +28832,10 @@ uUMc}
 uYLl>
 uZJcT
 u[[A\]
-u]D;%
+u]D;%^kG
 u^[&`
 ubIcE
-uhL;-
+uhL;-Y@C
 uint16
 uint32
 uint64
@@ -28922,11 +28926,11 @@ unsigned short#LckXD;khD
 unsigned short%HcO
 unsigned short%Mc4$E;t$
 unsigned short%[A\A]A^]
-unsigned short&D;=u
+unsigned short&D;=
 unsigned short&HcC
 unsigned short&Hcq
 unsigned short'<"unsigned short
-unsigned short'D;5.
+unsigned short'D;5
 unsigned short'HcC
 unsigned short'HcK
 unsigned short'HcM
@@ -28948,7 +28952,6 @@ unsigned short'[A\]
 unsigned short(HcO
 unsigned short([A\A]A^]
 unsigned short([A\]
-unsigned short);=R
 unsigned short)Lc+D;k
 unsigned short)fD9
 unsigned short* Hc
@@ -29000,7 +29003,7 @@ unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@D;(};E
 unsigned short@Ic_
-unsigned short@Lc%I
+unsigned short@Lc%	
 unsigned short@[A\A]A^]
 unsigned short@[A\]
 unsigned short@}?5^
@@ -29684,7 +29687,7 @@ zzuxI
 }KfD9
 }Lf;wchar_t
 }Sf;HnwMf
-}TD;%	LG
+}TD;%ikG
 }Tf;wchar_t
 }TfD9
 }UHc
@@ -29712,7 +29715,7 @@ zzuxI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=
+~)H9=char
 ~*HcE
 ~*I;X
 ~*L;bool

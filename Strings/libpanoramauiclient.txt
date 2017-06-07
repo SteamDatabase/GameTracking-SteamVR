@@ -4696,6 +4696,6 @@ zuusH
 ~)A;]
 ~)H97tC
 ~0;x0
-~7Lc%H
+~7Lc%unsigned char
 ~CMoviePlayer
 ~CPanel2D - destroy members

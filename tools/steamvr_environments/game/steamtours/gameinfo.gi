@@ -166,6 +166,6 @@
 
 	SoundSystem
 	{
-		"DisableSteamAudio"			"1"
+		"DisableSteamAudio"			"0"
 	}
 }

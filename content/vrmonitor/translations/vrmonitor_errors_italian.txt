@@ -835,5 +835,11 @@
 "[english]Popover_LowBattery_HMD_Header"	"HMD ready with low battery"
 "Popover_LowBattery_HMD_Description"	"Questo visore è connesso ed è in funzione, ma la carica della batteria è bassa."
 "[english]Popover_LowBattery_HMD_Description"	"This HMD is connected and tracking but the battery is low."
+"VRInitError_Compositor_UnableToCreateDevice_Header"	"Il compositore non è riuscito a creare un dispositivo"
+"[english]VRInitError_Compositor_UnableToCreateDevice_Header"	"Compositor Unable to Create Device"
+"VRInitError_Compositor_UnableToCreateDevice_Description"	"Il compositore non è riuscito a creare un dispositivo grafico al momento della sua inizializzazione."
+"[english]VRInitError_Compositor_UnableToCreateDevice_Description"	"The compositor was unable to create a graphics device as part of its initialization."
+"VRInitError_Compositor_UnableToCreateDevice_Action"	"Risoluzione dei problemi"
+"[english]VRInitError_Compositor_UnableToCreateDevice_Action"	"Troubleshooting"
 }
 }

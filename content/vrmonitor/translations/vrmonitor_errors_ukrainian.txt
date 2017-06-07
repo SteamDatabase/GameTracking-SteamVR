@@ -837,5 +837,11 @@
 "[english]Popover_LowBattery_HMD_Header"	"HMD ready with low battery"
 "Popover_LowBattery_HMD_Description"	"Цей шолом підключений і відстежується, проте заряд батареї низький."
 "[english]Popover_LowBattery_HMD_Description"	"This HMD is connected and tracking but the battery is low."
+"VRInitError_Compositor_UnableToCreateDevice_Header"	"Компонувальнику не вдалося створити пристрій"
+"[english]VRInitError_Compositor_UnableToCreateDevice_Header"	"Compositor Unable to Create Device"
+"VRInitError_Compositor_UnableToCreateDevice_Description"	"Компонувальнику не вдалося створити графічний пристрій у ході ініціалізації."
+"[english]VRInitError_Compositor_UnableToCreateDevice_Description"	"The compositor was unable to create a graphics device as part of its initialization."
+"VRInitError_Compositor_UnableToCreateDevice_Action"	"Вирішення проблем"
+"[english]VRInitError_Compositor_UnableToCreateDevice_Action"	"Troubleshooting"
 }
 }

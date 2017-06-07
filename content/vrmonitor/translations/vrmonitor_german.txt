@@ -1944,7 +1944,7 @@
 "[english]BugReporter_PreviewReportTitle"	"Report A Bug - Preview Report"
 "BugReporter_ProgressSubmitting"	"Wird übermittelt..."
 "[english]BugReporter_ProgressSubmitting"	"Submitting..."
-"Settings_HomeAppCheck"	"SteamVR Startort Beta"
+"Settings_HomeAppCheck"	"SteamVR-Startortbeta"
 "[english]Settings_HomeAppCheck"	"SteamVR Home Beta"
 "Settings_HomeAppDesc"	"Ihr ganz neuer SteamVR-Startort bietet Ihnen ein neues Zuhause, Gesellschaftsfunktionen und vieles mehr. Wir befinden uns noch in der Betaphase und würden uns über Ihr Feedback in den Foren freuen."
 "[english]Settings_HomeAppDesc"	"The new SteamVR Home experience supports richer home spaces, social features, and more. This feature is currently in Beta, please provide feedback on the forums."

@@ -831,5 +831,7 @@
 "[english]Popover_LowBattery_HMD_Header"	"HMD ready with low battery"
 "Popover_LowBattery_HMD_Description"	"Dette HMD er tilsluttet og sporer, men batteriet er lavt."
 "[english]Popover_LowBattery_HMD_Description"	"This HMD is connected and tracking but the battery is low."
+"VRInitError_Compositor_UnableToCreateDevice_Action"	"Fejlfinding"
+"[english]VRInitError_Compositor_UnableToCreateDevice_Action"	"Troubleshooting"
 }
 }

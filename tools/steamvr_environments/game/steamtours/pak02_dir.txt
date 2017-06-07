@@ -443,7 +443,7 @@ panorama/layout/vr_community_home.vxml_c CRC:00c41df7aa size:13907
 panorama/layout/vr_community_item.vxml_c CRC:0001014c0d size:11595
 panorama/layout/vr_content_browser.vxml_c CRC:00395e7967 size:756
 panorama/layout/vr_friends.vxml_c CRC:00fce56fe4 size:621
-panorama/localization/steamtours_english.txt CRC:00cb89013a size:102577
+panorama/localization/steamtours_english.txt CRC:0015913bd5 size:102563
 panorama/panorama_config.txt CRC:00a597fc0e size:294
 panorama/scripts/community_home.vjs_c CRC:003460daf5 size:18145
 panorama/scripts/community_home_item.vjs_c CRC:003c14ef9b size:10393
@@ -451,8 +451,8 @@ panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
 panorama/styles/base_styles.vcss_c CRC:003489a3ad size:25102
 panorama/styles/base_world_panel.vcss_c CRC:00e800239c size:452
-panorama/styles/content_browser.vcss_c CRC:00de406f68 size:104549
-panorama/styles/friends.vcss_c CRC:00203edcf2 size:42623
+panorama/styles/content_browser.vcss_c CRC:0010b0f86a size:104648
+panorama/styles/friends.vcss_c CRC:009098c007 size:42645
 panorama/styles/hud.vcss_c CRC:00221b4d9e size:723
 panorama/styles/info_panels.vcss_c CRC:00e61c6748 size:6038
 panorama/styles/notifications_panel.vcss_c CRC:007ceb86a8 size:1829
@@ -461,7 +461,7 @@ panorama/styles/recent_apps.vcss_c CRC:00de5c4b19 size:12711
 panorama/styles/settings.vcss_c CRC:000b264b66 size:5817
 panorama/styles/steamvr_community_home.vcss_c CRC:0066abd06c size:17829
 panorama/styles/steamvr_community_item.vcss_c CRC:003a0dcfbe size:9422
-panorama/styles/tutorial.vcss_c CRC:0089aa322c size:10640
+panorama/styles/tutorial.vcss_c CRC:008a98ab7f size:10638
 particles/tool_fx/brush_spray.vpcf_c CRC:0085104424 size:1760
 particles/tool_fx/brush_spray_cloud.vpcf_c CRC:002ce2c7d2 size:1740
 particles/tool_fx/brush_stroke_colored.vpcf_c CRC:002b442e1f size:1967
@@ -472,7 +472,7 @@ particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
 resource/gameevents.res CRC:001284caec size:1002
 resource/modevents.res CRC:00a360fb36 size:903
 resource/serverevents.res CRC:000df59f67 size:3694
-scripts/contentdb.txt CRC:004f0dd1b8 size:85725
+scripts/contentdb.txt CRC:005237f96b size:85750
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70

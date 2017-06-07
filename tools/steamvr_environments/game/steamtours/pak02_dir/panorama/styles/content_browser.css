@@ -20,7 +20,8 @@ SteamToursContentBrowser.Visible
 	opacity: 1;
 }
 
-SteamToursContentBrowser.Hidden 
+SteamToursContentBrowser.Hidden,
+.Tutorial SteamToursContentBrowser
 {
 	visibility: collapse;
 }
@@ -1615,10 +1616,10 @@ AvatarCustomizationItem #SliderThumb
 .ItemTitleWearable
 {
 	color: white;
-	font-size: 27px;
-	min-height: 30%;
-	max-height: 47%;
-	width: 75%;
+	font-size: 26px;
+	//min-height: 30%;
+	//max-height: 40%;
+	width: 85%;
 	horizontal-align: left;
 	vertical-align: bottom;
 	margin-bottom: 20px;
@@ -3541,7 +3542,7 @@ AvatarCustomizationItem #SliderThumb
 	width: 360px;
 	font-size: 28px;
 	margin-left: 180px;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 
@@ -3556,6 +3557,7 @@ AvatarCustomizationItem #SliderThumb
 {
 	width: 360px;
 	font-size: 25px;
+	margin-top: 5px;
 }
 
 /*---------------------------------------------
@@ -3911,13 +3913,15 @@ AvatarCustomizationItem #SliderThumb
 .ItemTitle 
 {
 	color: white;
-	font-size: 27px;
+	//font-size: 27px;
+	font-size: 26px;
 	min-height: 30%;
 	max-height: 100%;
+	//max-height: 90%;
 	width: 75%;
 	horizontal-align: left;
 	vertical-align: center;	
-	margin-bottom: 3px;
+	//margin-bottom: 3px;
 	margin-left: 20px;
 }
 
@@ -4542,7 +4546,7 @@ AvatarCustomizationItem #SliderThumb
 
 .Scrolling .ItemTitle 
 {
-	font-size: 28px;
+	font-size: 26px;
 }
 
 .GamepadController .Scrolling.MapsTab .Item 

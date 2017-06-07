@@ -770,6 +770,7 @@ $woL)
 .%.-.3.7.9.?.W.[.o.y.
 .%X&1
 .&ruA
+.-Fc7
 ...+4/\M
 ...-index
 ...-u+H
@@ -791,10 +792,12 @@ $woL)
 ..uR5&unsigned long
 ./}7^Y
 .5P<long double
+.5p/A
+.5}c7
 .6<A>Y
 .97yY
 .<P]A
-.=3d7
+.=t.A
 .>N^__int128~
 .AV8 WorkerThread
 .B4zWuU
@@ -1398,7 +1401,6 @@ $woL)
 @0!!!P
 @89tp
 @8D)`
-@:=	long long
 @<:nq
 @@:2u
 @@H;E
@@ -2022,6 +2024,7 @@ BITSTR_CB
 BITWRAP
 BIsAnimating
 BKbhTb~XBK!;
+BLoadLocalizationFile
 BN lib
 BNRAND
 BN_BLINDING_convert_ex
@@ -3067,9 +3070,8 @@ D9{ D
 D9{ L
 D9{(~XH
 D9|$ 
+D; t_
 D;!unsigned short{Hc
-D;%mZw
-D;%zXw
 D;'unsigned short{Hc
 D;)tNB
 D;*unsigned short>H
@@ -3097,7 +3099,6 @@ D;int }
 D;k D
 D;k ~M
 D;k ~U
-D;k(D
 D;k0D
 D;k8|
 D;kdw
@@ -3419,6 +3420,7 @@ E;l$X~KA
 E;long double(}
 E;oL|
 E;t$ M
+E;t$(D
 E;t$0
 E;u8|
 E;|long
@@ -3789,7 +3791,9 @@ FV|FgUV
 F`@tn
 F`@tz
 Failed to create temporary file %short
+Failed to load base english localization file as backup to %short!
 Failed to load image data from %short
+Failed to load localization file %short!
 Failed to load localization file for language %short, ignoring
 Failed to normalize @import url '%short'
 Failed to parse properties for keyframe: %short
@@ -4132,20 +4136,20 @@ H9wpH
 H;,$H
 H;0t%H
 H;2t-H
-H;='"
-H;=4_
-H;=?%
-H;=?.
-H;=@5
-H;=F2
-H;=Ld
-H;=O/
-H;=XC
-H;=eF
-H;=ek
-H;=signed char*
-H;=wchar_t<
-H;=zR
+H;='!
+H;=4^
+H;=?$
+H;=?-
+H;=@4
+H;=F1
+H;=Lc
+H;=O.
+H;=P`
+H;=XB
+H;=eE
+H;=ej
+H;=wchar_t;
+H;=zQ
 H;D$ 
 H;D$(
 H;D$@
@@ -4800,11 +4804,11 @@ Layout FPS:
 Layout FPS:	%1.2f
 Lc!D;signed char
 Lc#D;char
-Lc%qXw
 Lc'D;__float128
 Lc,$H
 Lc.D;__int128
 Lc/E)
+Lc5[^q
 Lc6E9
 Lc7E)
 LcA E9
@@ -6466,7 +6470,7 @@ T$tA
 T$vHc
 T$xI)
 T$xdH3
-T%void,A
+T%V+A
 T*|?int|~
 T5w?30d
 T72[unsigned short
@@ -6937,9 +6941,10 @@ W0H92t'H
 W0Hc_8A
 W0uMH
 W3i+,
-W5t\B
+W5T[B
 W8L+N@L
 W;()float
+W=unsigned short[B
 W>peSp>9
 WARNING
 WARNING: CDirWatcher not implemented
@@ -7184,7 +7189,7 @@ Xw:vP
 X~ '.
 Y93a=7c@
 Y;C;8V
-Y=qD0
+Y=1C0
 Y@#GameUI_Language_English
 YH_!
 YMI( 
@@ -7336,13 +7341,13 @@ Z}	8%]
 ]r}R{
 ]xIcEpL
 ^ unsigned short+H
-^%uU7
+^%5T7
 ^+long}long
-^-9X7
+^-QT7
 ^...%u#G
 ^.om5r
 ^/wchar_t __float128
-^=Yt0
+^5mT7
 ^DQQI
 ^DqPt
 ^J_spY
@@ -8095,6 +8100,8 @@ aybSr
 azure
 b2i_PVK_bio
 bB"`3
+bLoadedFile
+bLoadedSpecificLanguage
 bPb:L7X)
 bSh&+
 bV}TS
@@ -9204,7 +9211,6 @@ fD9 unsigned short-D9m
 fD9"u
 fD91u|
 fD; tBL
-fD;%!
 fD;/t1H
 fD;0tPL
 fD;an
@@ -10977,6 +10983,7 @@ ow@fA
 ow@fD
 owner
 owpfD
+oxATSH
 oxLc`
 ozPfE
 ozpfD
@@ -12781,20 +12788,20 @@ unsigned __int128 ATI
 unsigned __int128 ATSH
 unsigned __int128 tUH
 unsigned __int128!>double]
-unsigned __int128%$%H
-unsigned __int128%,BH
-unsigned __int128%KMH
-unsigned __int128%zdH
+unsigned __int128%$$H
+unsigned __int128%,AH
+unsigned __int128%KLH
+unsigned __int128%zcH
 unsigned __int128&m&
 unsigned __int128(ATSH
 unsigned __int128*:TJ&
-unsigned __int128-EoH
-unsigned __int128-q%H
+unsigned __int128-EnH
+unsigned __int128-q$H
 unsigned __int128<$fA
 unsigned __int128<$fD
 unsigned __int128<$fE
 unsigned __int128=*oh
-unsigned __int128=zpH
+unsigned __int128=zoH
 unsigned __int128@ fA
 unsigned __int128@0fE
 unsigned __int128@@fA
@@ -12872,7 +12879,7 @@ unsigned short&HcO
 unsigned short&HcU
 unsigned short&[A\]
 unsigned short'(Hc
-unsigned short'D;5n'C
+unsigned short'D;5n&C
 unsigned short'HcU
 unsigned short'[A\A]A^]
 unsigned short(1pC
@@ -13388,9 +13395,9 @@ zxNIjo
 ~	ATI
 ~ ;long long 
 ~ [A\A]A^A_]
-~"Hcu
 ~"}+)8
 ~%D9+unsigned short H
+~(Hcu
 ~)A;]
 ~)H97tC
 ~)Lc+I
@@ -13405,7 +13412,7 @@ zxNIjo
 ~4fA9
 ~5fD9
 ~6fA9
-~7Lc%hZw
+~7Lc%
 ~8fA9
 ~?HcS
 ~D$ H

@@ -396,7 +396,7 @@
 {
 	padding: 15px 15px 10px 15px;
 	color: #eeeeeeff;
-	font-size: 34px;
+	font-size: 30px;
 	overflow: clip scroll;
 	vertical-align: top;
 }
@@ -505,7 +505,7 @@
 	horizontal-align: center;
 	background-color: none;
 
-	//visibility: collapse;
+	visibility: collapse;
 	//collapse this for now until we get scrolling properly hooked up
 }
 

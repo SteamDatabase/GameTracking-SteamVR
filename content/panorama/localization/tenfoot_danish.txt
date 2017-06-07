@@ -614,4 +614,10 @@
 "[english]Transition_Progress_Description"	"WAITING FOR..."
 "Now_Waiting"	"VENTER..."
 "[english]Now_Waiting"	"WAITING..."
+"MutedLabel"	"Dæmpet"
+"[english]MutedLabel"	"Muted"
+"BackToApp"	"TILBAGE TIL APP"
+"[english]BackToApp"	"BACK TO APP"
+"QuitApp"	"AFSLUT APP"
+"[english]QuitApp"	"QUIT APP"
 }

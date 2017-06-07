@@ -2057,6 +2057,7 @@
 			script = "furniture/wall_clock_analog"
 			// inventory_service_id = 2063
 			default_color = [ 52,192,193 ]
+			default_scale = 0.60
 		},
 	]
 
