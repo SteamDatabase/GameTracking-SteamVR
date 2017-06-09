@@ -1,0 +1,52 @@
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 2
+	m_flConstantRadius = 26.000000
+	m_nAllowRenderControlPoint = 3
+	m_bShouldSort = false
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_bAdditive = true
+			m_flMinSize = 0.250000
+			m_flMaxSize = 0.500000
+			m_bDisableZBuffering = true
+			m_hTexture = resource:"materials/particle/particle_flares/particle_flare_009.vtex"
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_PositionLock"
+			m_nControlPointNumber = 1
+		},
+		{
+			_class = "C_OP_BasicMovement"
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_CreateWithinSphere"
+			m_nControlPointNumber = 1
+		},
+		{
+			_class = "C_INIT_RandomRotation"
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 1
+			m_nMaxEmittedPerFrame = 100
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/tool_fx/flashlight_thirdperson_glow2.vpcf"
+		},
+	]
+}

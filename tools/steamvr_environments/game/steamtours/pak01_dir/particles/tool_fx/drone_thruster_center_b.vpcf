@@ -1,0 +1,163 @@
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 64
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_FadeInSimple"
+			m_flFadeInTime = 0.010000
+		},
+		{
+			_class = "C_OP_FadeOutSimple"
+		},
+		{
+			_class = "C_OP_BasicMovement"
+			m_fDrag = 0.300000
+		},
+		{
+			_class = "C_OP_SpinUpdate"
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_Spin"
+			m_nSpinRateDegrees = 32
+			m_nSpinRateMinDegrees = 84
+		},
+		{
+			_class = "C_OP_Decay"
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flBias = 0.800000
+			m_flEndScale = 0.500000
+		},
+		{
+			_class = "C_OP_ColorInterpolate"
+			m_ColorFade = 
+			[
+				180,
+				240,
+				247,
+				255,
+			]
+			m_flFadeEndTime = 0.500000
+		},
+		{
+			_class = "C_OP_Orient2DRelToCP"
+			m_flRotOffset = 180.000000
+			m_flSpinStrength = 10.000000
+			m_nCP = 1
+			m_nFieldOutput = 12
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_PositionLock"
+			m_flJumpThreshold = 4.000000
+		},
+		{
+			_class = "C_OP_RemapCPtoVector"
+			m_nCPInput = 2
+			m_nFieldOutput = 6
+			m_vInputMax = 
+			[
+				255.000000,
+				255.000000,
+				255.000000,
+			]
+			m_vOutputMax = 
+			[
+				1.000000,
+				1.000000,
+				1.000000,
+			]
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_RemapCPtoVector"
+			m_nCPInput = 1
+			m_bDisableOperator = true
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_hTexture = resource:"materials/particle/particle_ring_wave_crisp_3.vtex"
+			m_flSelfIllumAmount = 1.000000
+			m_bAdditive = true
+			m_nOrientationType = 2
+			m_nOrientationControlPoint = 1
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_RandomColor"
+			m_ColorMin = 
+			[
+				21,
+				242,
+				250,
+				255,
+			]
+			m_ColorMax = 
+			[
+				15,
+				244,
+				228,
+				255,
+			]
+		},
+		{
+			_class = "C_INIT_RandomAlpha"
+			m_nAlphaMin = 16
+			m_nAlphaMax = 64
+		},
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMin = 1.000000
+			m_fLifetimeMax = 1.000000
+		},
+		{
+			_class = "C_INIT_CreateWithinSphere"
+		},
+		{
+			_class = "C_INIT_RandomRotation"
+			m_nFieldOutput = 12
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMax = 4.000000
+			m_flRadiusMin = 3.000000
+		},
+		{
+			_class = "C_INIT_CreateFromParentParticles"
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_INIT_InitialVelocityNoise"
+			m_vecOutputMin = 
+			[
+				-100.000000,
+				-100.000000,
+				-100.000000,
+			]
+			m_vecOutputMax = 
+			[
+				100.000000,
+				100.000000,
+				100.000000,
+			]
+			m_flNoiseScale = 2.000000
+			m_flNoiseScaleLoc = 0.000000
+			m_bDisableOperator = true
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_ContinuousEmitter"
+			m_flEmitRate = 8.000000
+		},
+	]
+}

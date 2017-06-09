@@ -1,0 +1,122 @@
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 200
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_FadeInSimple"
+			m_flFadeInTime = 0.010000
+		},
+		{
+			_class = "C_OP_FadeOutSimple"
+		},
+		{
+			_class = "C_OP_BasicMovement"
+			m_fDrag = 0.150000
+		},
+		{
+			_class = "C_OP_SpinUpdate"
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_Spin"
+			m_nSpinRateDegrees = 100
+			m_nSpinRateMinDegrees = 80
+		},
+		{
+			_class = "C_OP_Decay"
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flStartScale = 1.500000
+			m_flBias = 0.800000
+		},
+		{
+			_class = "C_OP_ColorInterpolate"
+			m_ColorFade = 
+			[
+				255,
+				0,
+				0,
+				255,
+			]
+			m_flFadeEndTime = 0.500000
+		},
+		{
+			_class = "C_OP_Orient2DRelToCP"
+			m_flRotOffset = 180.000000
+			m_flSpinStrength = 10.000000
+			m_nCP = 1
+			m_nFieldOutput = 12
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_PositionLock"
+			m_bDisableOperator = true
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_hTexture = resource:"materials/particle/particle_ring_wave_2.vtex"
+			m_flSelfIllumAmount = 1.000000
+			m_bAdditive = true
+			m_nOrientationType = 2
+			m_nOrientationControlPoint = 1
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_RandomColor"
+			m_ColorMin = 
+			[
+				255,
+				235,
+				235,
+				255,
+			]
+			m_ColorMax = 
+			[
+				219,
+				219,
+				219,
+				255,
+			]
+		},
+		{
+			_class = "C_INIT_RandomAlpha"
+		},
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMin = 0.100000
+			m_fLifetimeMax = 0.100000
+		},
+		{
+			_class = "C_INIT_CreateWithinSphere"
+			m_fSpeedMin = 1.000000
+			m_fSpeedMax = 1.000000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_INIT_RandomRotation"
+			m_nFieldOutput = 12
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMin = 1.200000
+			m_flRadiusMax = 1.200000
+		},
+		{
+			_class = "C_INIT_CreateFromParentParticles"
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_ContinuousEmitter"
+			m_flEmitRate = 800.000000
+		},
+	]
+}

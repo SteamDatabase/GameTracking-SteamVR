@@ -1,0 +1,95 @@
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 28
+	m_nAllowRenderControlPoint = 3
+	m_flNoDrawTimeToGoToSleep = 100000.000000
+	m_bShouldSort = false
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_bAdditive = true
+			m_flStartFadeSize = 0.300000
+			m_flEndFadeSize = 0.370000
+			m_flOverbrightFactor = 0.020000
+			m_hTexture = resource:"materials/particle/particle_glow_01.vtex"
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_BasicMovement"
+		},
+		{
+			_class = "C_OP_MaintainSequentialPath"
+			m_flNumToAssign = 18.000000
+			m_PathParams = 
+			{
+				m_nStartControlPointNumber = 1
+				m_nEndControlPointNumber = 2
+			}
+		},
+		{
+			_class = "C_OP_DistanceToCP"
+			m_flInputMax = 32.000000
+			m_nFieldOutput = 7
+			m_flOutputMax = 0.050000
+			m_nStartCP = 2
+		},
+		{
+			_class = "C_OP_DistanceToCP"
+			m_flInputMax = 320.000000
+			m_flOutputMin = 5.000000
+			m_flOutputMax = 160.000000
+			m_nStartCP = 1
+		},
+		{
+			_class = "C_OP_Spin"
+			m_nSpinRateDegrees = 5
+		},
+		{
+			_class = "C_OP_DistanceToCP"
+			m_nStartCP = 1
+			m_nFieldOutput = 16
+			m_flInputMax = 10.000000
+			m_flInputMin = 4.000000
+		},
+		{
+			_class = "C_OP_RemapCPtoVector"
+			m_nCPInput = 5
+			m_nFieldOutput = 6
+			m_vInputMax = 
+			[
+				255.000000,
+				255.000000,
+				255.000000,
+			]
+			m_vOutputMax = 
+			[
+				1.000000,
+				1.000000,
+				1.000000,
+			]
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_CreateSequentialPath"
+			m_flNumToAssign = 14.000000
+			m_PathParams = 
+			{
+				m_nStartControlPointNumber = 1
+				m_nEndControlPointNumber = 2
+			}
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 18
+			m_nMaxEmittedPerFrame = 100
+		},
+	]
+}

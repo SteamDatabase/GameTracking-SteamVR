@@ -1,0 +1,40 @@
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 24
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_PositionLock"
+			m_flJumpThreshold = 1.000000
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_bAdditive = true
+			m_hTexture = resource:"materials/particle/particle_flares/aircraft_white.vtex"
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_RandomRotation"
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMin = 3.000000
+			m_flRadiusMax = 5.000000
+		},
+		{
+			_class = "C_INIT_CreateWithinSphere"
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 10
+		},
+	]
+}

@@ -1,0 +1,102 @@
+{
+	_class = "CParticleSystemDefinition"
+	m_flConstantRadius = 24.000000
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_BasicMovement"
+			m_Gravity = 
+			[
+				0.000000,
+				0.000000,
+				5.000000,
+			]
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flStartScale = 0.100000
+			m_flBias = 0.950000
+		},
+		{
+			_class = "C_OP_ColorInterpolate"
+			m_ColorFade = 
+			[
+				13,
+				13,
+				13,
+				255,
+			]
+			m_flFadeStartTime = 0.100000
+			m_flFadeEndTime = 0.400000
+		},
+		{
+			_class = "C_OP_FadeAndKill"
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_flAnimationRate = 1.500000
+			m_flSelfIllumAmount = 1.000000
+			m_hTexture = resource:"materials/particle/fire_particle_2/fire_particle_2.vtex"
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_RandomRotation"
+		},
+		{
+			_class = "C_INIT_RandomColor"
+		},
+		{
+			_class = "C_INIT_SequenceLifeTime"
+		},
+		{
+			_class = "C_INIT_RandomYawFlip"
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMin = 1.500000
+			m_flRadiusMax = 2.500000
+		},
+		{
+			_class = "C_INIT_CreateWithinBox"
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_INIT_CreateWithinSphere"
+			m_fSpeedMax = 1.000000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_INIT_RandomAlpha"
+			m_nAlphaMin = 128
+			m_nAlphaMax = 160
+		},
+		{
+			_class = "C_INIT_CreateFromParentParticles"
+			m_flVelocityScale = 0.500000
+		},
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMin = 2.000000
+			m_fLifetimeMax = 2.000000
+			m_bDisableOperator = true
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 3
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_ContinuousEmitter"
+			m_flEmissionDuration = 0.250000
+			m_flEmitRate = 1000.000000
+		},
+	]
+}

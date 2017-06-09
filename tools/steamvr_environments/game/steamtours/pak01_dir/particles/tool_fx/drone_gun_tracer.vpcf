@@ -1,0 +1,105 @@
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 64
+	m_bShouldSort = false
+	m_flAggregateRadius = 32768.000000
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderModels"
+			m_ModelList = 
+			[
+				{
+					m_model = resource:"particles/tracer_fx/tracer/tracer.vmdl"
+				},
+			]
+			m_bAnimated = true
+			m_bManualAnimFrame = true
+			m_nManualFrameField = 26
+			m_flAnimationRate = 0.000000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_RenderSprites"
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_BasicMovement"
+		},
+		{
+			_class = "C_OP_Decay"
+		},
+		{
+			_class = "C_OP_DistanceToCP"
+			m_nFieldOutput = 26
+			m_flInputMax = 190.000000
+			m_flOutputMax = 20.000000
+			m_bDisableOperator = true
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_CreateWithinSphere"
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMax = 5.000000
+			m_flRadiusMin = 4.000000
+		},
+		{
+			_class = "C_INIT_MoveBetweenPoints"
+			m_flSpeedMin = 8000.000000
+			m_flSpeedMax = 8000.000000
+		},
+		{
+			_class = "C_INIT_NormalAlignToCP"
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_INIT_RandomColor"
+			m_ColorMin = 
+			[
+				255,
+				22,
+				22,
+				255,
+			]
+			m_ColorMax = 
+			[
+				255,
+				40,
+				40,
+				255,
+			]
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 1
+			m_nMaxEmittedPerFrame = 1000
+		},
+		{
+			_class = "C_OP_ContinuousEmitter"
+			m_flEmitRate = 60.000000
+			m_flEmissionDuration = 0.100000
+			m_bDisableOperator = true
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/tool_fx/toy_gun_tracer_hit.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/tool_fx/toy_gun_tracer_projectile_rings.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/tool_fx/drone_gun_tracer_beam.vpcf"
+		},
+	]
+}

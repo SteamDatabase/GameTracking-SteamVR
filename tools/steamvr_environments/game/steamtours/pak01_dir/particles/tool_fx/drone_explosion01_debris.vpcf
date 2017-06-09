@@ -1,0 +1,187 @@
+{
+	_class = "CParticleSystemDefinition"
+	m_ConstantColor = 
+	[
+		255,
+		163,
+		5,
+		255,
+	]
+	m_flConstantRadius = 0.500000
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_Decay"
+		},
+		{
+			_class = "C_OP_BasicMovement"
+			m_Gravity = 
+			[
+				0.000000,
+				0.000000,
+				-100.000000,
+			]
+			m_fDrag = 0.050000
+			m_bLockULCorner = true
+		},
+		{
+			_class = "C_OP_FadeOutSimple"
+			m_flFadeOutTime = 0.010000
+		},
+		{
+			_class = "C_OP_FadeInSimple"
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flEndScale = 0.750000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_ColorInterpolate"
+			m_ColorFade = 
+			[
+				84,
+				140,
+				145,
+				255,
+			]
+			m_bEaseInOut = false
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_OscillateVector"
+			m_RateMin = 
+			[
+				-2.000000,
+				-2.000000,
+				-2.000000,
+			]
+			m_RateMax = 
+			[
+				2.000000,
+				2.000000,
+				2.000000,
+			]
+			m_FrequencyMax = 
+			[
+				2.000000,
+				2.000000,
+				2.000000,
+			]
+			m_flStartTime_min = 0.100000
+			m_flStartTime_max = 0.110000
+			m_flOscMult = 1.000000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_Spin"
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderTrails"
+			m_bAdditive = true
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_RenderModels"
+			m_ModelList = 
+			[
+				{
+					m_model = resource:"models/props_junk/metal_bolt001.vmdl"
+				},
+				{
+					m_model = resource:"models/props_junk/metal_bolt001.vmdl"
+				},
+			]
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_CreateWithinSphere"
+			m_vecDistanceBiasAbs = 
+			[
+				0.000000,
+				0.000000,
+				1.000000,
+			]
+			m_fSpeedMin = 1.000000
+			m_fSpeedMax = 20.000000
+			m_LocalCoordinateSystemSpeedMin = 
+			[
+				-400.000000,
+				-400.000000,
+				-400.000000,
+			]
+			m_LocalCoordinateSystemSpeedMax = 
+			[
+				400.000000,
+				400.000000,
+				400.000000,
+			]
+			m_fRadiusMax = 2.000000
+		},
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMin = 0.500000
+			m_fLifetimeMax = 1.000000
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMax = 2.000000
+		},
+		{
+			_class = "C_INIT_RandomYaw"
+			m_nFieldOutput = 20
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_INIT_RandomRotation"
+			m_nFieldOutput = 20
+		},
+		{
+			_class = "C_INIT_RandomRotation"
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 3
+		},
+	]
+	m_ForceGenerators = 
+	[
+		{
+			_class = "C_OP_RandomForce"
+			m_MinForce = 
+			[
+				-5.000000,
+				-5.000000,
+				-5.000000,
+			]
+			m_MaxForce = 
+			[
+				5.000000,
+				5.000000,
+				5.000000,
+			]
+			m_bDisableOperator = true
+		},
+	]
+	m_Constraints = 
+	[
+		{
+			_class = "C_OP_WorldTraceConstraint"
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/tool_fx/drone_explosion01_debris_trail.vpcf"
+		},
+	]
+}
