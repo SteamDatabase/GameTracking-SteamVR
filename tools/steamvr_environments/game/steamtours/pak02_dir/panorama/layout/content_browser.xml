@@ -246,7 +246,6 @@
 							<Button id="LaunchPublicDestinationBtn" class="DestinationButton" onactivate="OnChooseContentItem()">
 								<Panel class="ItemDetailImageWrapper">
 									<Image id="ItemDetailImage" class="ItemDetailImage" scaling="stretch"/>
-									<Image class="LockedDetailOverlay" src="s2r://panorama/images/content_browser/locked_item_center_png.vtex" />	
 								</Panel>
 								<Panel class="HorizontalDivider" />
 								<Panel class="LaunchPublicDestinationSubBtn">
@@ -349,8 +348,7 @@
 											<Image class="ButtonIcon" id="NewWindowIcon" src="s2r://panorama/images/content_browser/steam_logo_png.vtex" />	
 										</Button>
 										<Label class="ButtonDescription" id="ItemDetail_ViewInWorkshop" text="#ItemDetail_ViewInWorkshop" />											
-									</Panel>	
-									scr
+									</Panel>
 									<Panel class="ButtonAndDescription" id="UnsubscribeBtnWrapper">											
 										<Button id="UnsubscribeBtn" class="DestinationButton" mousecanactivate="unfocused">
 											<Image class="ButtonIcon" src="s2r://panorama/images/content_browser/icon_unsubscribe_png.vtex" />												
@@ -738,7 +736,6 @@
 								<Label class="DashboardCurrentlyHeader" text="#Current_Destination"/>
 								<Panel class="CurrentDestinationDetails">
 								
-									<!--<Label class="DetailLabel" text="1 Player"/>-->	
 									<Panel class="SelfMutedPanel">
 										<Image class="MuteImage" src="s2r://panorama/images/content_browser/icon_muted_cropped_png.vtex"/>	
 										<Label class="MutedLabel" text="#SelfMutedLabel"/>								
@@ -926,7 +923,7 @@
 					<Button class="DestinationButton" id="SaveButtonOK" onactivate="SaveState();">
 						<Label text="#SaveButtonOKText" />
 					</Button>
-					<Button class="DestinationButton" id="ConfirmationButtonCancel" onactivate="RemoveStyle(SteamToursContentBrowser,ClosingLobby);RemoveStyle(SteamToursContentBrowser,LeavingLobby);RemoveStyle(SteamToursContentBrowser,GoingHome);RemoveStyle(SteamToursContentBrowser,SavingState);">
+					<Button class="DestinationButton" id="ConfirmationButtonCancel" onactivate="RemoveStyle(SteamToursContentBrowser,ClosingLobby);RemoveStyle(SteamToursContentBrowser,GoingHome);RemoveStyle(SteamToursContentBrowser,SavingState);">
 						<Label text="#ConfirmationButtonCancelText" />					
 					</Button>
 				</Panel>

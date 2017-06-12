@@ -5,10 +5,6 @@ cfg/controller.vdf CRC:004aaa9540 size:382
 cfg/machine_convars_default_vr.vcfg CRC:000d240e98 size:445
 cfg/machine_convars_default_vr_360.vcfg CRC:001ae2cbe5 size:167
 cfg/user_keys_default_vr_360.vcfg CRC:005012ec21 size:206
-maps/home_baked/home_custom_cubemap_19.vtex_c CRC:00aeccc91e size:8389400
-maps/legacy_environment.vpk CRC:00dbebf14c size:26039
-maps/no_items_at_all.vpk CRC:00ac78ee10 size:48719
-maps/no_tools.vpk CRC:0083e8ffa4 size:48324
 materials/backgrounds/inverted_sphere.vmat_c CRC:005fd25153 size:5160
 materials/backgrounds/steamvr_tutorial/backrooms.vmat_c CRC:008375cd1e size:4536
 materials/backgrounds/steamvr_tutorial/backrooms_tga_5d7de7fe.vtex_c CRC:00454ea646 size:176572
@@ -752,8 +748,6 @@ materials/particle/confetti/confetti.vtex_c CRC:00845871d0 size:179080
 materials/particle/electricity/electrical_arc_white.vtex_c CRC:0070643e23 size:1379000
 materials/particle/particle_modulate_08.vtex_c CRC:00c1c1696e size:18244
 materials/particle/particle_ring_wave_crisp_3.vtex_c CRC:00f5de2f78 size:67428
-materials/photogrammetry/lava_tube/lava_tube_skylight_white001.vmat_c CRC:00a8caac74 size:4728
-materials/photogrammetry/lava_tube/lava_tube_skylight_white001_color_psd_8ffda16b.vtex_c CRC:0008efc2bd size:45580
 materials/skyboxes/badwater_day_png_f652705.vtex_c CRC:00218653b7 size:8389368
 materials/skyboxes/badwater_night_png_337b6678.vtex_c CRC:00988d11c2 size:8389384
 materials/skyboxes/blue_saltflats_png_beb604a9.vtex_c CRC:0056f342ed size:8389384
@@ -1672,7 +1666,6 @@ panorama/images/content_browser/icon_tool_png.vtex_c CRC:00d6a1881e size:361876
 panorama/images/content_browser/icon_warning_png.vtex_c CRC:00fdb9bd05 size:361876
 panorama/images/content_browser/icon_workshop_item_png.vtex_c CRC:001cc79852 size:41908
 panorama/images/content_browser/info_panel_opacity_mask_png.vtex_c CRC:00eb415de2 size:453124
-panorama/images/content_browser/locked_item_png.vtex_c CRC:00a288514f size:361876
 panorama/images/content_browser/player_invite_icon_png.vtex_c CRC:00b13f59c5 size:361908
 panorama/images/content_browser/player_joined_icon_png.vtex_c CRC:0027540d09 size:361908
 panorama/images/content_browser/player_left_icon_png.vtex_c CRC:000dc6aaf8 size:361892
@@ -1882,7 +1875,7 @@ panorama/layout/box_bot/bot_health_meter.vxml_c CRC:00b5946712 size:759
 panorama/layout/box_bot/boxing_caption_test.vxml_c CRC:008b24436a size:806
 panorama/layout/box_bot/boxing_tool.vxml_c CRC:000ea57e35 size:951
 panorama/layout/cache_finder.vxml_c CRC:008699c92e size:7884
-panorama/layout/content_browser_item.vxml_c CRC:00143c097b size:9088
+panorama/layout/content_browser_item.vxml_c CRC:00559aa3c5 size:8475
 panorama/layout/fingers_hand_poses.vxml_c CRC:006add07d7 size:3819
 panorama/layout/freeze_tool.vxml_c CRC:00a6b2509d size:919
 panorama/layout/lobby_item.vxml_c CRC:007f19f86b size:2234

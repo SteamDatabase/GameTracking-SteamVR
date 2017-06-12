@@ -4437,6 +4437,7 @@ D9(t1H
 D9+~F
 D9+~cE
 D99ts
+D9=YDu
 D9F<~
 D9L$0A
 D9L$0~VM
@@ -5533,7 +5534,6 @@ Grestart
 H	p(]
 H	wchar_t(UH
 H!wchar_t(H
-H+5AR
 H+CXH
 H+CXHcJ
 H+H;q
@@ -5554,14 +5554,14 @@ H9GHt
 H9W8t	]
 H9p0txH
 H;=	6
-H;=!*
+H;=!%
 H;=!:
-H;=!A
 H;=!char
 H;=!void
-H;=&6
+H;=#4
+H;=%unsigned char
 H;=&P
-H;=(r
+H;=(X
 H;=/(
 H;=/)
 H;=14
@@ -5569,42 +5569,44 @@ H;=6E
 H;=6N
 H;=8<
 H;=8l
+H;=;;
 H;=<(
 H;=A.
-H;=A4
 H;=Aj
+H;=Aw
 H;=A}
-H;=CA
-H;=FE
 H;=FL
 H;=H6
-H;=HI
 H;=Ht
+H;=O/
+H;=Q%
+H;=Q&
 H;=Qd
 H;=Qw
-H;=VC
 H;=VJ
+H;=X`
+H;=X}void
+H;=_9
 H;=a5
 H;=aq
 H;=bool(
-H;=c4
-H;=eh
+H;=cw
+H;=fF
 H;=fH
 H;=hQ
-H;=hX
-H;=int const
 H;=p
+H;=p/
 H;=q/
 H;=qe
 H;=qk
 H;=q~
-H;=signed char%
+H;=short%
 H;=signed char^
 H;=unsigned char,
 H;=vF
 H;=xZ
 H;={6
-H;={;
+H;=}S
 H;=}unsigned char
 H;=~'
 H;B u
@@ -5636,7 +5638,6 @@ HangWatchdog_IndicateActivity
 HasField
 HasGameUI
 HasModAppSystems
-Hc5$)
 Hc8Hi
 Hc@$H
 Hc@(H
@@ -6525,6 +6526,7 @@ Lc+D;k
 Lc/E)
 Lc/E1
 Lc3D;short
+Lc5{Nh
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -12777,7 +12779,7 @@ t$@A\]
 t$@tsHc
 t$D9j
 t$D9m
-t$D;%
+t$D;%C
 t$E9e
 t$H9h
 t$HcP
@@ -12831,7 +12833,6 @@ tI[A\A]A^]
 tJHcC
 tK~%E1
 tM[A\A]A^]
-tP95=
 tRNS chunk has out-of-range samples for bit_depth
 tRNS chunk not allowed with alpha channel
 tR[A\A]A^]
@@ -13127,10 +13128,10 @@ unsigned short#Hc{,H
 unsigned short#Lcc
 unsigned short#Lcc0D;char@D
 unsigned short#Lck
-unsigned short&D;=
+unsigned short&D;=U
 unsigned short&Hcq
 unsigned short&L;unsigned long
-unsigned short'D;5
+unsigned short'D;5~
 unsigned short'Hc{
 unsigned short'Hc{ H
 unsigned short'Hc{$H
@@ -13148,8 +13149,8 @@ unsigned short'[A\]
 unsigned short(HcCH
 unsigned short(HcO
 unsigned short(Lc#D;char
-unsigned short)D;-
-unsigned short)D;=@
+unsigned short)D;-P
+unsigned short)D;=
 unsigned short)HcE
 unsigned short*:E1
 unsigned short*<*u
@@ -13173,7 +13174,7 @@ unsigned short,IcD$
 unsigned short,Lc+H
 unsigned short,Mcl$
 unsigned short-;wchar_t,r
-unsigned short-D;=
+unsigned short-D;=L
 unsigned short-Hc{
 unsigned short-Lck
 unsigned short-void char::*
@@ -13194,6 +13195,7 @@ unsigned short@[A\A]A^]
 unsigned short\G9l
 unsigned short]D;long double
 unsigned short^[A\]
+unsigned short`95I
 unsigned short`D;unsigned char }nf
 unsigned short`[A\]
 unsigned short{</u

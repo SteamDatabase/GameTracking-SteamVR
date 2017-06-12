@@ -11,7 +11,7 @@
 				<Image class="RecentAppsItemImage" id="RecentAppsItemImage" />
 				<Panel class="AppLabel">
 					<Panel class="LabelBack" />
-					<Label class="RecentAppName" text="#App_Name" id="RecentAppName" />
+					<Label class="RecentAppName" id="RecentAppName" />
 				</Panel>
 			</RecentAppsItem>
 		</snippet>

@@ -1652,9 +1652,10 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%-,E
-.%G8J
-.-cDp
+.%78J
+.%`cw
+.-SDp
+.-pDx
 ...	?0e`9
 ..."u H
 ..."u I
@@ -1773,9 +1774,8 @@ $woL)
 ../shared/weapon_parse_default.cpp
 ..\content
 .0z%u#
-.53Uw
-.=V<long long
-.=bxu
+.=6@long long
+.=B|u
 .>()09
 .@(."
 .@,wqH
@@ -10702,8 +10702,8 @@ D+{$Mc
 D8kSt
 D9 unsigned short)H
 D9 ~NH
-D9%Dc
-D9%bool*
+D9%T_
+D9%`^
 D9't$H
 D9'unsigned short,H
 D9(t1H
@@ -10731,8 +10731,7 @@ D;!unsigned short{Hc
 D;#}|E
 D;$%H
 D;%#z6
-D;%'	,
-D;%5d
+D;%E`
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
@@ -10740,7 +10739,7 @@ D;,%H
 D;.~3L
 D;.~9H
 D;:tPH
-D;= ;
+D;=07
 D;G@t5H
 D;__float128(D
 D;__float128`D
@@ -13239,7 +13238,7 @@ IcE(I
 IcE(M
 IcEPH
 IcEhH
-IcEpM
+IcExM
 IcF A
 IcF(A
 IcF@A9
@@ -14183,9 +14182,9 @@ Lc!D;signed char
 Lc#D9b
 Lc#D;char
 Lc#E9
-Lc%*I"
-Lc%,double
 Lc%5z6
+Lc%:E"
+Lc%<`
 Lc%yjF
 Lc&D;float
 Lc'D;__float128
@@ -14553,9 +14552,10 @@ McgPE
 Mcl$ E;l$0D
 Mcl$XE;l$hD
 Mcl$`H
+McmxI
 McoXE;ohD
-McopI
 McoxE;
+McoxI
 Mct$ E;t$0D
 Mct$81
 Mct$8E;t$HD
@@ -16517,6 +16517,7 @@ Script_GetDetectorQuestLocation
 Script_GetDetectorQuestNumItemsUnlocked
 Script_GetDetectorQuestUnlockedItemDefID
 Script_GetFrameCount
+Script_GetHandHoldingEntity
 Script_GetInflictor
 Script_GetListenServerHost
 Script_GetPhysAngularVelocity
@@ -18459,11 +18460,11 @@ VsInputSignature_t
 Vulkan
 W ;2t"H
 W H9r
-W%<hs
 W(Aq=
 W(H92t'H
 W3|Uxa
-W=U_]
+W=E_]
+W=unsigned __int128\]
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18643,12 +18644,13 @@ Wrong alignment %double
 Wzm6V"
 W{@3333
 X zR&="@r
-X%Cbh
-X%unsigned __int128{M
+X%3bh
+X%_{M
 X2:jH
+X5l/long long
 X9t6@
 X=2v?
-X=|+long long
+X=\/long long
 X@TE;U<
 X@ffff
 XAxis
@@ -18673,10 +18675,11 @@ XfA9D]
 Xg8Hc
 XxHc@unsigned short
 Y ANb
-Y%bool*]
-Y-#b
+Y%@bool]
+Y%ul-
 Y/&4@4
 Y6	@W'__float128(
+Y=unsigned long long=]
 Y?3333E
 Y?[A\]
 Y@CFuncAreaPortalBase
@@ -18771,13 +18774,12 @@ Z}uU
 \$(Mc
 \$HfA
 \$hIcEXI
-\$pLc
+\$xLc
 \%03o
-\- Ax
-\-D,long long
-\-R~
-\-T,long long
-\=int@long long
+\-$0x
+\-40x
+\-fDx
+\=IDx
 \CXfA
 \FxD)
 \U%08x
@@ -18802,7 +18804,6 @@ Z}uU
 ]`[A\A]A^]
 ]hIcE`L
 ]u9n5;> )"
-]xMcmpI
 ^ unsigned short+H
 ^)8~@
 ^-wf"
@@ -21257,10 +21258,8 @@ hUK:J
 hUnreachableEnt
 halfhealth
 hammerid
-handModel
 hand_ang
 hand_id
-hand_model
 hand_pos
 hand_use_controller
 hand_use_controller.ventr
@@ -21532,8 +21531,10 @@ int~__float128@sePmp
 invalid_bone
 invalid_hitbox
 inventoryServiceID
+inventoryServicePromoRules
 inventoryServiceQuantity
 inventory_service_id
+inventory_service_promo_rules
 invert_exclusion
 invert_orientation
 ionMoveDH
@@ -27595,6 +27596,7 @@ responsegroup
 responsevalue
 resumecondition
 returndelay
+returns the hand holding the entity, or nil if its not currently held
 returnspeed
 reversalsound%short
 reversalsoundthreshold%short
@@ -28494,7 +28496,7 @@ t$XA\]
 t$`D+
 t$`HcE
 t$`HcU
-t$pE;
+t$xE;
 t.D9p
 t.H9w(t8H9w0tBH9w8tLH9w@unsigned short
 t.Lc#M
@@ -29003,7 +29005,7 @@ unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@D;(};E
 unsigned short@Ic_
-unsigned short@Lc%	
+unsigned short@Lc%
 unsigned short@[A\A]A^]
 unsigned short@[A\]
 unsigned short@}?5^

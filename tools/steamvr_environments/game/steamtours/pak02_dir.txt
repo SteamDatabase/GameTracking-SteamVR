@@ -1,4 +1,4 @@
-cfg/machine_convars_default.vcfg CRC:00b89b0055 size:202
+cfg/machine_convars_default.vcfg CRC:003901f078 size:230
 cfg/user_keys_default.vcfg CRC:00e1125064 size:1426
 manifests/models.vrman_c CRC:004f61938d size:328
 materials/default/default_color_tga_47b1af3d.vtex_c CRC:003bd4d9a2 size:1756
@@ -321,7 +321,6 @@ panorama/images/content_browser/icon_power_png.vtex_c CRC:00b637857d size:18260
 panorama/images/content_browser/icon_recent_default_png.vtex_c CRC:0010ce6e8a size:133200
 panorama/images/content_browser/icon_spinner_png.vtex_c CRC:00f82781ad size:361876
 panorama/images/content_browser/icon_unsubscribe_png.vtex_c CRC:00c4f53d73 size:41892
-panorama/images/content_browser/locked_item_center_png.vtex_c CRC:00dfb23241 size:361908
 panorama/images/content_browser/moving_tutorial_icon_png.vtex_c CRC:009981efa5 size:361908
 panorama/images/content_browser/multi_tutorial_icon_png.vtex_c CRC:0080bc41b8 size:361908
 panorama/images/content_browser/private_tutorial_icon_png.vtex_c CRC:003f0619ca size:361924
@@ -430,12 +429,12 @@ panorama/images/welcome_panel/destinations_welcome_black_touch_png.vtex_c CRC:00
 panorama/layout/avatar.vxml_c CRC:00896d8f51 size:6314
 panorama/layout/base_hud.vxml_c CRC:00d4b1fab1 size:584
 panorama/layout/base_world_panel.vxml_c CRC:0026d30938 size:548
-panorama/layout/content_browser.vxml_c CRC:00d6a77e98 size:66703
+panorama/layout/content_browser.vxml_c CRC:002b9bba1d size:65892
 panorama/layout/friends.vxml_c CRC:00443e2b3d size:20234
 panorama/layout/friends_item.vxml_c CRC:005e29ac7f size:2425
 panorama/layout/hud.vxml_c CRC:00e9832024 size:534
 panorama/layout/notifications_panel.vxml_c CRC:001b2ba924 size:7396
-panorama/layout/recent_apps.vxml_c CRC:00b4c9940d size:8043
+panorama/layout/recent_apps.vxml_c CRC:000749cca7 size:8026
 panorama/layout/settings.vxml_c CRC:00dfa5c3eb size:4149
 panorama/layout/tutorial.vxml_c CRC:0039c1bd95 size:84856
 panorama/layout/vr_avatar.vxml_c CRC:001f9cdbdf size:3724
@@ -451,7 +450,7 @@ panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
 panorama/styles/base_styles.vcss_c CRC:003489a3ad size:25102
 panorama/styles/base_world_panel.vcss_c CRC:00e800239c size:452
-panorama/styles/content_browser.vcss_c CRC:0010b0f86a size:104648
+panorama/styles/content_browser.vcss_c CRC:003e62d0ce size:104091
 panorama/styles/friends.vcss_c CRC:009098c007 size:42645
 panorama/styles/hud.vcss_c CRC:00221b4d9e size:723
 panorama/styles/info_panels.vcss_c CRC:00e61c6748 size:6038

@@ -459,7 +459,7 @@
  T ipl::CpuImpulseResponse::channel(int)
  T ipl::CpuImpulseResponse::getNumChannels() const
  T ipl::CpuImpulseResponse::~CpuImpulseResponse()
- T ipl::CpuReflectionSimulator::CpuReflectionSimulator(ipl::Bands const&, int, int, bool)
+ T ipl::CpuReflectionSimulator::CpuReflectionSimulator(ipl::Bands const&, int, int, float, int, bool)
  T ipl::CpuReflectionSimulator::calculateHitPoints()
  T ipl::CpuReflectionSimulator::countEscapedRays()
  T ipl::CpuReflectionSimulator::fixHitNormals()
@@ -469,6 +469,7 @@
  T ipl::CpuReflectionSimulator::generateShadowRays(ipl::Vector3<float> const&)
  T ipl::CpuReflectionSimulator::getBouncedRays()
  T ipl::CpuReflectionSimulator::logTimingStatistics(std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >)
+ T ipl::CpuReflectionSimulator::pruneRaysByDistance()
  T ipl::CpuReflectionSimulator::reflect(ipl::Vector3<float> const&, ipl::Vector3<float> const&)
  T ipl::CpuReflectionSimulator::reset()
  T ipl::CpuReflectionSimulator::setPrimaryRaysFromBouncedRays(ipl::CpuReflectionSimulator&)
@@ -525,20 +526,27 @@
  T ipl::DefaultHrtfDatabase::verifyDataHeader(unsigned char const*&)
  T ipl::DirectSimulator::DirectSimulator()
  T ipl::DirectSimulator::directPathDelay(ipl::Vector3<float> const&, ipl::Vector3<float> const&)
- T ipl::DirectSimulator::simulate(std::shared_ptr<ipl::DirectSimulator>, std::shared_ptr<ipl::Scene>, ipl::CoordinateSpace3<float> const&, ipl::Vector3<float> const&, float, ipl::DirectSimulator::OcclusionMethod, ipl::DirectSoundPath&)
+ T ipl::DirectSimulator::simulate(std::shared_ptr<ipl::DirectSimulator>, std::shared_ptr<ipl::Scene>, ipl::CoordinateSpace3<float> const&, ipl::Vector3<float> const&, float, ipl::DirectSimulator::OcclusionMode, ipl::DirectSimulator::OcclusionMethod, ipl::DirectSoundPath&)
  T ipl::DirectSimulator::~DirectSimulator()
  T ipl::DirectSimulatorFactory::create(ipl::SimulationSettings const&, std::shared_ptr<ipl::OpenClComputeDevice>)
+ T ipl::DirectSoundEffect::DirectSoundEffect(std::shared_ptr<ipl::EnvironmentalRenderer>, ipl::AudioFormat const&, ipl::AudioFormat const&)
+ T ipl::DirectSoundEffect::apply(ipl::AudioBuffer const&, float, std::vector<float, std::allocator<float> >, bool, ipl::AudioBuffer&)
+ T ipl::DirectSoundEffect::calculate(bool, float, bool, float, bool, float const*, bool, bool, float const*, float&, std::vector<float, std::allocator<float> >&)
+ T ipl::DirectSoundEffect::flush()
+ T ipl::DirectSoundEffect::~DirectSoundEffect()
  T ipl::DirectSoundPath::DirectSoundPath(ipl::Bands const&)
  T ipl::DirectSoundPath::getAirAbsorption(int) const
  T ipl::DirectSoundPath::getDirection() const
  T ipl::DirectSoundPath::getDistanceAttenuation() const
  T ipl::DirectSoundPath::getOcclusionFactor() const
  T ipl::DirectSoundPath::getPropagationDelay() const
+ T ipl::DirectSoundPath::getTransmissionFactor(int) const
  T ipl::DirectSoundPath::setAirAbsorption(int, float)
  T ipl::DirectSoundPath::setDirection(ipl::Vector3<float> const&)
  T ipl::DirectSoundPath::setDistanceAttenuation(float)
  T ipl::DirectSoundPath::setOcclusionFactor(float)
  T ipl::DirectSoundPath::setPropagationDelay(float)
+ T ipl::DirectSoundPath::setTransmissionFactor(int, float)
  T ipl::DirectSoundPath::~DirectSoundPath()
  T ipl::Echogram::Echogram(float, ipl::Bands const&)
  T ipl::Echogram::Echogram(int, int)
@@ -568,6 +576,7 @@
  T ipl::Filter::apply(float)
  T ipl::Filter::apply(ipl::RealSignal const&, ipl::RealSignal&)
  T ipl::Filter::commit()
+ T ipl::Filter::flush()
  T ipl::Filter::makeBandPass(float, float, int)
  T ipl::Filter::makeHighPass(float, int)
  T ipl::Filter::makeHighShelf(float, float, int)
@@ -576,7 +585,7 @@
  T ipl::Filter::makePeaking(float, float, float, int)
  T ipl::Filter::reset()
  T ipl::Filter::spectrum(float)
- T ipl::FirBatch::FirBatch(int, std::shared_ptr<ipl::SlotAssigner>, ipl::SimulationSettings const&, ipl::RenderingSettings const&, ipl::AudioFormat)
+ T ipl::FirBatch::FirBatch(int, ipl::SimulationSettings const&, ipl::RenderingSettings const&, ipl::AudioFormat)
  T ipl::FirBatchFactory::create(int, std::shared_ptr<ipl::SlotAssigner>, ipl::SimulationSettings const&, ipl::RenderingSettings const&, std::shared_ptr<ipl::OpenClComputeDevice>, ipl::AudioFormat)
  T ipl::FirFilter::FirFilter(ipl::SimulationSettings const&, ipl::RenderingSettings const&)
  T ipl::FirFilter::flush()
@@ -674,14 +683,13 @@
  T ipl::ParametricReverbEstimator::reverbTime(ipl::Histogram const&, float)
  T ipl::ParametricReverbEstimator::totalEnergyInHistogram(ipl::Histogram const&)
  T ipl::ParametricReverbEstimator::totalEnergyInHistogramRange(float, float, ipl::Histogram const&)
- T ipl::PhononFirBatch::PhononFirBatch(int, std::shared_ptr<ipl::SlotAssigner>, ipl::SimulationSettings const&, ipl::RenderingSettings const&, ipl::AudioFormat)
+ T ipl::PhononFirBatch::PhononFirBatch(int, ipl::SimulationSettings const&, ipl::RenderingSettings const&, ipl::AudioFormat)
  T ipl::PhononFirBatch::flush(int)
  T ipl::PhononFirBatch::getMixedWetAudio(std::vector<bool, ipl::allocator<bool> > const&, ipl::AudioBuffer&)
- T ipl::PhononFirBatch::getPendingSources()
  T ipl::PhononFirBatch::getWetAudio(int, ipl::AudioBuffer&)
  T ipl::PhononFirBatch::setDryAudio(int, ipl::AudioBuffer const&)
  T ipl::PhononFirBatch::setImpulseResponse(int, ipl::ImpulseResponse*)
- T ipl::PhononFirBatch::swapBuffers()
+ T ipl::PhononFirBatch::swapBuffers(std::vector<bool, ipl::allocator<bool> > const&)
  T ipl::PhononScene::PhononScene()
  T ipl::PhononScene::PhononScene(ipl::Bands const&, int)
  T ipl::PhononScene::addStaticMesh(int, int)
@@ -761,7 +769,7 @@
  T ipl::RealSignal::zero()
  T ipl::RealTimeIndirectSimulator::RealTimeIndirectSimulator(ipl::SimulationSettings const&, std::shared_ptr<ipl::OpenClComputeDevice>)
  T ipl::RealTimeIndirectSimulator::simulate(std::shared_ptr<ipl::Scene>, std::shared_ptr<ipl::ProbeManager>, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, std::vector<std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >, ipl::allocator<std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > > > const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)
- T ipl::ReflectionSimulator::ReflectionSimulator(ipl::Bands const&, int, int)
+ T ipl::ReflectionSimulator::ReflectionSimulator(ipl::Bands const&, int, int, int)
  T ipl::ReflectionSimulator::~ReflectionSimulator()
  T ipl::ReflectionSimulatorFactory::create(ipl::SimulationSettings const&, std::shared_ptr<ipl::OpenClComputeDevice>)
  T ipl::RenderingSettings::RenderingSettings(int, int)
@@ -777,6 +785,11 @@
  T ipl::Samples::transformSphereVolumeSample(int, ipl::Sphere const&)
  T ipl::Samples::uniformRandom()
  T ipl::Samples::~Samples()
+ T ipl::ScalarInterpolator::get()
+ T ipl::ScalarInterpolator::init(int)
+ T ipl::ScalarInterpolator::reset()
+ T ipl::ScalarInterpolator::set(float)
+ T ipl::ScalarInterpolator::update(int, float&)
  T ipl::Scene::Scene()
  T ipl::Scene::Scene(ipl::Bands const&, int)
  T ipl::Scene::deserialize(ipl::SerializedObject&)
@@ -807,15 +820,18 @@
  T ipl::SimulationThread::SimulationThread(std::shared_ptr<ipl::Environment>, ipl::RenderingSettings const&, int)
  T ipl::SimulationThread::recordLatestSourceNames()
  T ipl::SimulationThread::runSimulation(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)
- T ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)
+ T ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)
  T ipl::SimulationThread::setSourceName(int, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&)
  T ipl::SimulationThread::stopSimulation()
  T ipl::SimulationThread::~SimulationThread()
  T ipl::SlotAssigner::SlotAssigner(int)
  T ipl::SlotAssigner::acquireSlot()
- T ipl::SlotAssigner::getOccupiedSlots(ipl::Array<bool>&)
+ T ipl::SlotAssigner::getOccupiedSlots(std::vector<bool, ipl::allocator<bool> >&)
  T ipl::SlotAssigner::releaseSlot(int)
+ T ipl::SphericalHarmonics::applyRotation(int, ipl::sh::Rotation const&)
  T ipl::SphericalHarmonics::applyRotation(int, std::vector<float, ipl::allocator<float> >&, ipl::sh::Rotation const&, std::vector<float, ipl::allocator<float> >&)
+ T ipl::SphericalHarmonics::convertedDirection(ipl::Vector3<float> const&)
+ T ipl::SphericalHarmonics::correctedCoefficient(int, int, float)
  T ipl::SphericalHarmonics::createRotation(int)
  T ipl::SphericalHarmonics::evaluate(int, int, ipl::Vector3<float> const&)
  T ipl::SphericalHarmonics::evaluateSum(int, std::vector<float, ipl::allocator<float> > const&, ipl::Vector3<float> const&)
@@ -852,6 +868,7 @@
  T ipl::sh::ProjectFunction(int, std::vector<ipl::Vector3<float>, ipl::allocator<ipl::Vector3<float> > > const&, std::vector<float, ipl::allocator<float> > const&, std::vector<float, ipl::allocator<float> >&)
  T ipl::sh::ProjectSparseSamples(int, std::vector<ipl::Vector3<double>, std::allocator<ipl::Vector3<double> > > const&, std::vector<double, std::allocator<double> > const&)
  T ipl::sh::ProjectSparseSamples(int, std::vector<ipl::Vector3<double>, std::allocator<ipl::Vector3<double> > > const&, std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> >&)
+ T ipl::sh::Rotation::Apply()
  T ipl::sh::Rotation::Apply(std::vector<float, ipl::allocator<float> > const&, std::vector<float, ipl::allocator<float> >*) const
  T ipl::sh::Rotation::Create(int)
  T ipl::sh::Rotation::Create(int, ipl::sh::Rotation const&)
@@ -860,7 +877,9 @@
  T ipl::sh::Rotation::SetRotation(ipl::Quaternion<float> const&)
  T ipl::sh::Rotation::SetRotation(ipl::SquareMatrix<float, 3ul> const&)
  T ipl::sh::Rotation::band_rotation(int) const
+ T ipl::sh::Rotation::coefficient(int, int)
  T ipl::sh::Rotation::order() const
+ T ipl::sh::Rotation::rotatedCoefficient(int, int)
  T ipl::sh::Rotation::rotation() const
  T ipl::sh::ToSphericalCoords(ipl::Vector3<double> const&, double*, double*)
  T ipl::sh::ToVector(double, double)
@@ -869,6 +888,7 @@
  T iplApplyAmbisonicsBinauralEffect
  T iplApplyAmbisonicsPanningEffect
  T iplApplyBinauralEffect
+ T iplApplyDirectSoundEffect
  T iplApplyPanningEffect
  T iplApplyVirtualSurroundEffect
  T iplBakePropagation
@@ -884,6 +904,7 @@
  T iplCreateBinauralRenderer
  T iplCreateComputeDevice
  T iplCreateConvolutionEffect
+ T iplCreateDirectSoundEffect
  T iplCreateEnvironment
  T iplCreateEnvironmentalRenderer
  T iplCreatePanningEffect
@@ -903,6 +924,7 @@
  T iplDestroyBinauralRenderer
  T iplDestroyComputeDevice
  T iplDestroyConvolutionEffect
+ T iplDestroyDirectSoundEffect
  T iplDestroyEnvironment
  T iplDestroyEnvironmentalRenderer
  T iplDestroyPanningEffect
@@ -920,6 +942,7 @@
  T iplFlushAmbisonicsPanningEffect
  T iplFlushBinauralEffect
  T iplFlushConvolutionEffect
+ T iplFlushDirectSoundEffect
  T iplFlushPanningEffect
  T iplFlushVirtualSurroundEffect
  T iplGenerateSimulationData
@@ -1557,9 +1580,13 @@
  T mkl_blas_avx512_mic_s_generic_fullacopybcopy
  T mkl_blas_avx512_mic_s_pst_wrapper
  T mkl_blas_avx512_mic_sgemm_copyan
+ T mkl_blas_avx512_mic_sgemm_copyan_knm
  T mkl_blas_avx512_mic_sgemm_copyat
+ T mkl_blas_avx512_mic_sgemm_copyat_knm
  T mkl_blas_avx512_mic_sgemm_copybn
+ T mkl_blas_avx512_mic_sgemm_copybn_knm
  T mkl_blas_avx512_mic_sgemm_copybt
+ T mkl_blas_avx512_mic_sgemm_copybt_knm
  T mkl_blas_avx512_mic_sgemm_free_bufs
  T mkl_blas_avx512_mic_sgemm_get_bufs
  T mkl_blas_avx512_mic_sgemm_get_bufs_pack
@@ -1567,8 +1594,11 @@
  T mkl_blas_avx512_mic_sgemm_initialize_kernel_info
  T mkl_blas_avx512_mic_sgemm_initialize_strategy
  T mkl_blas_avx512_mic_sgemm_ker0
+ T mkl_blas_avx512_mic_sgemm_ker0_knm
  T mkl_blas_avx512_mic_sgemm_kernel_0
  T mkl_blas_avx512_mic_sgemm_kernel_0_b0
+ T mkl_blas_avx512_mic_sgemm_kernel_0_b0_knm
+ T mkl_blas_avx512_mic_sgemm_kernel_0_knm
  T mkl_blas_avx512_mic_sgemm_kernel_nocopy_NN_b0
  T mkl_blas_avx512_mic_sgemm_kernel_nocopy_NN_b1
  T mkl_blas_avx512_mic_sgemm_kernel_nocopy_NN_bn
@@ -2517,6 +2547,7 @@
  T mkl_dft_avx2_coDFTColBatch_Compact_Bwd_v_10_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Bwd_v_11_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Bwd_v_12_s
+ T mkl_dft_avx2_coDFTColBatch_Compact_Bwd_v_13_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Bwd_v_14_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Bwd_v_15_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Bwd_v_16_s
@@ -2530,6 +2561,7 @@
  T mkl_dft_avx2_coDFTColBatch_Compact_Fwd_v_10_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Fwd_v_11_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Fwd_v_12_s
+ T mkl_dft_avx2_coDFTColBatch_Compact_Fwd_v_13_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Fwd_v_14_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Fwd_v_15_s
  T mkl_dft_avx2_coDFTColBatch_Compact_Fwd_v_16_s
@@ -2543,12 +2575,14 @@
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_10_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_11_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_12_s
+ T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_13_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_14_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_15_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_16_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_18_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_25_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_32_s
+ T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_4_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_5_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_6_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Bwd_v_7_s
@@ -2557,12 +2591,14 @@
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_10_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_11_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_12_s
+ T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_13_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_14_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_15_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_16_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_18_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_25_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_32_s
+ T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_4_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_5_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_6_s
  T mkl_dft_avx2_coDFTColTwid_Compact_Fwd_v_7_s
@@ -4015,6 +4051,7 @@
  T mkl_dft_avx512_coDFTColBatch_Compact_Bwd_v_10_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Bwd_v_11_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Bwd_v_12_s
+ T mkl_dft_avx512_coDFTColBatch_Compact_Bwd_v_13_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Bwd_v_14_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Bwd_v_15_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Bwd_v_16_s
@@ -4028,6 +4065,7 @@
  T mkl_dft_avx512_coDFTColBatch_Compact_Fwd_v_10_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Fwd_v_11_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Fwd_v_12_s
+ T mkl_dft_avx512_coDFTColBatch_Compact_Fwd_v_13_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Fwd_v_14_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Fwd_v_15_s
  T mkl_dft_avx512_coDFTColBatch_Compact_Fwd_v_16_s
@@ -4041,12 +4079,14 @@
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_10_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_11_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_12_s
+ T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_13_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_14_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_15_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_16_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_18_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_25_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_32_s
+ T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_4_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_5_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_6_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Bwd_v_7_s
@@ -4055,12 +4095,14 @@
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_10_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_11_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_12_s
+ T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_13_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_14_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_15_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_16_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_18_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_25_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_32_s
+ T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_4_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_5_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_6_s
  T mkl_dft_avx512_coDFTColTwid_Compact_Fwd_v_7_s
@@ -5174,6 +5216,7 @@
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Bwd_v_10_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Bwd_v_11_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Bwd_v_12_s
+ T mkl_dft_avx512_mic_coDFTColBatch_Compact_Bwd_v_13_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Bwd_v_14_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Bwd_v_15_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Bwd_v_16_s
@@ -5187,6 +5230,7 @@
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Fwd_v_10_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Fwd_v_11_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Fwd_v_12_s
+ T mkl_dft_avx512_mic_coDFTColBatch_Compact_Fwd_v_13_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Fwd_v_14_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Fwd_v_15_s
  T mkl_dft_avx512_mic_coDFTColBatch_Compact_Fwd_v_16_s
@@ -5200,12 +5244,14 @@
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_10_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_11_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_12_s
+ T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_13_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_14_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_15_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_16_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_18_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_25_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_32_s
+ T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_4_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_5_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_6_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Bwd_v_7_s
@@ -5214,12 +5260,14 @@
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_10_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_11_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_12_s
+ T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_13_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_14_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_15_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_16_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_18_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_25_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_32_s
+ T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_4_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_5_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_6_s
  T mkl_dft_avx512_mic_coDFTColTwid_Compact_Fwd_v_7_s
@@ -6472,6 +6520,7 @@
  T mkl_dft_avx_coDFTColBatch_Compact_Bwd_v_10_s
  T mkl_dft_avx_coDFTColBatch_Compact_Bwd_v_11_s
  T mkl_dft_avx_coDFTColBatch_Compact_Bwd_v_12_s
+ T mkl_dft_avx_coDFTColBatch_Compact_Bwd_v_13_s
  T mkl_dft_avx_coDFTColBatch_Compact_Bwd_v_14_s
  T mkl_dft_avx_coDFTColBatch_Compact_Bwd_v_15_s
  T mkl_dft_avx_coDFTColBatch_Compact_Bwd_v_16_s
@@ -6485,6 +6534,7 @@
  T mkl_dft_avx_coDFTColBatch_Compact_Fwd_v_10_s
  T mkl_dft_avx_coDFTColBatch_Compact_Fwd_v_11_s
  T mkl_dft_avx_coDFTColBatch_Compact_Fwd_v_12_s
+ T mkl_dft_avx_coDFTColBatch_Compact_Fwd_v_13_s
  T mkl_dft_avx_coDFTColBatch_Compact_Fwd_v_14_s
  T mkl_dft_avx_coDFTColBatch_Compact_Fwd_v_15_s
  T mkl_dft_avx_coDFTColBatch_Compact_Fwd_v_16_s
@@ -6498,12 +6548,14 @@
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_10_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_11_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_12_s
+ T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_13_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_14_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_15_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_16_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_18_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_25_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_32_s
+ T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_4_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_5_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_6_s
  T mkl_dft_avx_coDFTColTwid_Compact_Bwd_v_7_s
@@ -6512,12 +6564,14 @@
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_10_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_11_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_12_s
+ T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_13_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_14_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_15_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_16_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_18_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_25_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_32_s
+ T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_4_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_5_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_6_s
  T mkl_dft_avx_coDFTColTwid_Compact_Fwd_v_7_s
@@ -12619,6 +12673,7 @@
  T mkl_serv_cpuisatomssse3
  T mkl_serv_cpuisbulldozer
  T mkl_serv_cpuisitbarcelona
+ T mkl_serv_cpuisknm
  T mkl_serv_cpuisskl
  T mkl_serv_d_int
  T mkl_serv_d_powi
@@ -13212,6 +13267,7 @@
  V typeinfo for std::_Sp_counted_ptr_inplace<ipl::AmbisonicsRotator, std::allocator<ipl::AmbisonicsRotator>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo for std::_Sp_counted_ptr_inplace<ipl::BinauralRenderer, std::allocator<ipl::BinauralRenderer>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo for std::_Sp_counted_ptr_inplace<ipl::ConvolutionEffect, std::allocator<ipl::ConvolutionEffect>, (__gnu_cxx::_Lock_policy)2>
+ V typeinfo for std::_Sp_counted_ptr_inplace<ipl::DirectSoundEffect, std::allocator<ipl::DirectSoundEffect>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo for std::_Sp_counted_ptr_inplace<ipl::Environment, std::allocator<ipl::Environment>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo for std::_Sp_counted_ptr_inplace<ipl::EnvironmentalRenderer, std::allocator<ipl::EnvironmentalRenderer>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo for std::_Sp_counted_ptr_inplace<ipl::ObjectBasedBinauralEffect, std::allocator<ipl::ObjectBasedBinauralEffect>, (__gnu_cxx::_Lock_policy)2>
@@ -13282,6 +13338,7 @@
  V typeinfo name for std::_Sp_counted_ptr_inplace<ipl::AmbisonicsRotator, std::allocator<ipl::AmbisonicsRotator>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo name for std::_Sp_counted_ptr_inplace<ipl::BinauralRenderer, std::allocator<ipl::BinauralRenderer>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo name for std::_Sp_counted_ptr_inplace<ipl::ConvolutionEffect, std::allocator<ipl::ConvolutionEffect>, (__gnu_cxx::_Lock_policy)2>
+ V typeinfo name for std::_Sp_counted_ptr_inplace<ipl::DirectSoundEffect, std::allocator<ipl::DirectSoundEffect>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo name for std::_Sp_counted_ptr_inplace<ipl::Environment, std::allocator<ipl::Environment>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo name for std::_Sp_counted_ptr_inplace<ipl::EnvironmentalRenderer, std::allocator<ipl::EnvironmentalRenderer>, (__gnu_cxx::_Lock_policy)2>
  V typeinfo name for std::_Sp_counted_ptr_inplace<ipl::ObjectBasedBinauralEffect, std::allocator<ipl::ObjectBasedBinauralEffect>, (__gnu_cxx::_Lock_policy)2>
@@ -13357,6 +13414,7 @@
  V vtable for std::_Sp_counted_ptr_inplace<ipl::AmbisonicsRotator, std::allocator<ipl::AmbisonicsRotator>, (__gnu_cxx::_Lock_policy)2>
  V vtable for std::_Sp_counted_ptr_inplace<ipl::BinauralRenderer, std::allocator<ipl::BinauralRenderer>, (__gnu_cxx::_Lock_policy)2>
  V vtable for std::_Sp_counted_ptr_inplace<ipl::ConvolutionEffect, std::allocator<ipl::ConvolutionEffect>, (__gnu_cxx::_Lock_policy)2>
+ V vtable for std::_Sp_counted_ptr_inplace<ipl::DirectSoundEffect, std::allocator<ipl::DirectSoundEffect>, (__gnu_cxx::_Lock_policy)2>
  V vtable for std::_Sp_counted_ptr_inplace<ipl::Environment, std::allocator<ipl::Environment>, (__gnu_cxx::_Lock_policy)2>
  V vtable for std::_Sp_counted_ptr_inplace<ipl::EnvironmentalRenderer, std::allocator<ipl::EnvironmentalRenderer>, (__gnu_cxx::_Lock_policy)2>
  V vtable for std::_Sp_counted_ptr_inplace<ipl::ObjectBasedBinauralEffect, std::allocator<ipl::ObjectBasedBinauralEffect>, (__gnu_cxx::_Lock_policy)2>
@@ -13409,7 +13467,6 @@
  W std::_Function_handler<void (float), void (*)(float)>::_M_invoke(std::_Any_data const&, float)
  W std::_Function_handler<void (float*, std::complex<float>*, std::complex<float>*), void (*)(float*, std::complex<float>*, std::complex<float>*)>::_M_invoke(std::_Any_data const&, float*, std::complex<float>*, std::complex<float>*)
  W std::_Function_handler<void (int, int, void (*)(void*, float*, std::complex<float>*), void*), void (*)(int, int, void (*)(void*, float*, std::complex<float>*), void*)>::_M_invoke(std::_Any_data const&, int, int, void (*)(void*, float*, std::complex<float>*), void*)
- W std::_Hashtable<int, std::pair<int const, ipl::Vector3<float> >, ipl::allocator<std::pair<int const, ipl::Vector3<float> > >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<int const, ipl::Vector3<float> >, false>*)
  W std::_Hashtable<std::shared_ptr<ipl::ProbeBatch>, std::shared_ptr<ipl::ProbeBatch>, ipl::allocator<std::shared_ptr<ipl::ProbeBatch> >, std::__detail::_Identity, std::equal_to<std::shared_ptr<ipl::ProbeBatch> >, std::hash<std::shared_ptr<ipl::ProbeBatch> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::shared_ptr<ipl::ProbeBatch>, false>*)
  W std::_List_base<std::shared_ptr<ipl::SceneObject>, ipl::allocator<std::shared_ptr<ipl::SceneObject> > >::_M_clear()
  W std::_Rb_tree<std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const, std::shared_ptr<ipl::ProbeData> >, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const, std::shared_ptr<ipl::ProbeData> > >, std::less<std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > >, ipl::allocator<std::pair<std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const, std::shared_ptr<ipl::ProbeData> > > >::_M_copy(std::_Rb_tree_node<std::pair<std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const, std::shared_ptr<ipl::ProbeData> > > const*, std::_Rb_tree_node<std::pair<std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const, std::shared_ptr<ipl::ProbeData> > >*)
@@ -13468,6 +13525,10 @@
  W std::_Sp_counted_ptr_inplace<ipl::ConvolutionEffect, std::allocator<ipl::ConvolutionEffect>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
  W std::_Sp_counted_ptr_inplace<ipl::ConvolutionEffect, std::allocator<ipl::ConvolutionEffect>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
  W std::_Sp_counted_ptr_inplace<ipl::ConvolutionEffect, std::allocator<ipl::ConvolutionEffect>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+ W std::_Sp_counted_ptr_inplace<ipl::DirectSoundEffect, std::allocator<ipl::DirectSoundEffect>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+ W std::_Sp_counted_ptr_inplace<ipl::DirectSoundEffect, std::allocator<ipl::DirectSoundEffect>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+ W std::_Sp_counted_ptr_inplace<ipl::DirectSoundEffect, std::allocator<ipl::DirectSoundEffect>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+ W std::_Sp_counted_ptr_inplace<ipl::DirectSoundEffect, std::allocator<ipl::DirectSoundEffect>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
  W std::_Sp_counted_ptr_inplace<ipl::Environment, std::allocator<ipl::Environment>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
  W std::_Sp_counted_ptr_inplace<ipl::Environment, std::allocator<ipl::Environment>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
  W std::_Sp_counted_ptr_inplace<ipl::Environment, std::allocator<ipl::Environment>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
@@ -13541,8 +13602,7 @@
  W std::unique_ptr<ipl::CustomHrtfDatabase, std::default_delete<ipl::CustomHrtfDatabase> > ipl::make_unique<ipl::CustomHrtfDatabase, ipl::RenderingSettings const&, int&, std::function<void (int, int, void (*)(void*, float*, std::complex<float>*), void*)>&, std::function<void ()>&, std::function<void (float*, std::complex<float>*, std::complex<float>*)>&>(ipl::RenderingSettings const&, int&, std::function<void (int, int, void (*)(void*, float*, std::complex<float>*), void*)>&, std::function<void ()>&, std::function<void (float*, std::complex<float>*, std::complex<float>*)>&)
  W std::unique_ptr<ipl::ImpulseResponseMarshal, std::default_delete<ipl::ImpulseResponseMarshal> > ipl::make_unique<ipl::ImpulseResponseMarshal, ipl::SimulationSettings&, ipl::RenderingSettings const&, std::shared_ptr<ipl::OpenClComputeDevice>&>(ipl::SimulationSettings&, ipl::RenderingSettings const&, std::shared_ptr<ipl::OpenClComputeDevice>&)
  W std::unique_ptr<ipl::ObjectBasedBinauralEffect, std::default_delete<ipl::ObjectBasedBinauralEffect> > ipl::make_unique<ipl::ObjectBasedBinauralEffect, std::shared_ptr<ipl::BinauralRenderer>&, ipl::AudioFormat, ipl::AudioFormat>(std::shared_ptr<ipl::BinauralRenderer>&, ipl::AudioFormat&&, ipl::AudioFormat&&)
- W std::unique_ptr<ipl::PhononFirBatch, std::default_delete<ipl::PhononFirBatch> > ipl::make_unique<ipl::PhononFirBatch, int const&, std::shared_ptr<ipl::SlotAssigner>&, ipl::SimulationSettings const&, ipl::RenderingSettings const&, ipl::AudioFormat const&>(int const&, std::shared_ptr<ipl::SlotAssigner>&, ipl::SimulationSettings const&, ipl::RenderingSettings const&, ipl::AudioFormat const&)
- W std::unique_ptr<ipl::PropagationMedium, std::default_delete<ipl::PropagationMedium> > ipl::make_unique<ipl::PropagationMedium, ipl::Bands const&>(ipl::Bands const&)
+ W std::unique_ptr<ipl::PhononFirBatch, std::default_delete<ipl::PhononFirBatch> > ipl::make_unique<ipl::PhononFirBatch, int const&, ipl::SimulationSettings const&, ipl::RenderingSettings const&, ipl::AudioFormat const&>(int const&, ipl::SimulationSettings const&, ipl::RenderingSettings const&, ipl::AudioFormat const&)
  W std::unique_ptr<ipl::PropagationMedium, std::default_delete<ipl::PropagationMedium> > ipl::make_unique<ipl::PropagationMedium, ipl::Bands>(ipl::Bands&&)
  W std::unique_ptr<ipl::RealTimeIndirectSimulator, std::default_delete<ipl::RealTimeIndirectSimulator> > ipl::make_unique<ipl::RealTimeIndirectSimulator, ipl::SimulationSettings&, std::shared_ptr<ipl::OpenClComputeDevice>&>(ipl::SimulationSettings&, std::shared_ptr<ipl::OpenClComputeDevice>&)
  W std::vector<bool, ipl::allocator<bool> >::_M_fill_insert(std::_Bit_iterator, unsigned long, bool)
@@ -13550,6 +13610,7 @@
  W std::vector<double, std::allocator<double> >::~vector()
  W std::vector<float, ipl::allocator<float> >::_M_default_append(unsigned long)
  W std::vector<float, ipl::allocator<float> >::_M_fill_assign(unsigned long, float const&)
+ W std::vector<float, std::allocator<float> >::_M_default_append(unsigned long)
  W std::vector<int, ipl::allocator<int> >::_M_default_append(unsigned long)
  W std::vector<ipl::Triangle, ipl::allocator<ipl::Triangle> >::_M_default_append(unsigned long)
  W std::vector<ipl::Vector4<float>, ipl::allocator<ipl::Vector4<float> > >::_M_default_append(unsigned long)
@@ -13622,34 +13683,35 @@
  asinf@@GLIBC_2.2.5
  atan2@@GLIBC_2.2.5
  atan2f@@GLIBC_2.2.5
- b COILoader.962.0.2
- b COILoader.976.0.57
- b COILoaderLoaded.962.0.2
- b COILoaderLoaded.976.0.57
+ b COILoader.965.0.2
+ b COILoader.983.0.61
+ b COILoaderLoaded.965.0.2
+ b COILoaderLoaded.983.0.61
  b DispLibCWD
  b DispLibPath
  b EXEPath
  b FunctionAddress.189.0.1
  b FunctionAddress.203.0.1
- b FunctionAddress.286.0.1
+ b FunctionAddress.289.0.1
+ b _ENABLED_AVX512_MIC_E1
  b _VML_THISFUNC_NAME
  b __intel_mkl_feature_indicator
  b __intel_mkl_feature_indicator_x
  b __sngl_was_called
- b c_zero.3373.0.1
+ b c_zero.3417.0.1
  b cacheSize
  b card_buff_addr
  b cleanup_list
  b cleanup_list_items
  b completed.6973
- b current_device_type.543.0.1
+ b current_device_type.546.0.1
  b current_stat
  b custom_core_exit
- b detect_data_caches_lock.242.0.5
- b done.717.0.10
- b env_processed.551.0.17
- b env_read.655.0.4
- b env_read_lock.747.0.14
+ b detect_data_caches_lock.248.0.5
+ b done.731.0.12
+ b env_processed.554.0.17
+ b env_read.658.0.4
+ b env_read_lock.753.0.14
  b g_device_data
  b g_offload_report_level
  b g_timers_enabled
@@ -13658,20 +13720,20 @@
  b global_threading_params
  b head_alloc_node
  b head_buff_node
- b info.446.0.5
+ b info.449.0.5
  b ipl::Log::message(ipl::MessageSeverity, char const*, ...)::kFormattedMessageBuffer
  b ipl::Log::message(ipl::MessageSeverity, char const*, ...)::kMessageBuffer
  b ipl::sh::(anonymous namespace)::cosine_lobe
- b lib_status.670.0.7
- b lib_status.815.0.23
- b lock.274.0.1
- b lock.277.0.2
+ b lib_status.673.0.7
+ b lib_status.818.0.23
+ b lock.277.0.1
+ b lock.280.0.2
  b mask_prev
  b max_stat
  b mem_handler
  b mem_stat_lock
  b message_catalog
- b mic_enable_env.547.0.16
+ b mic_enable_env.550.0.16
  b mkl_aa_flags
  b mkl_aa_fw_mutex
  b mkl_cache_sizes
@@ -13682,7 +13744,7 @@
  b mkl_hbw_free
  b mkl_hbw_malloc
  b mkl_hbw_malloc_psize
- b mkl_init_lock.1141.0.11
+ b mkl_init_lock.1148.0.11
  b mkl_progress_address
  b mkl_set_memory_limit_lock
  b mkl_xerbla_address
@@ -13691,17 +13753,17 @@
  b mm_fast_memory_update_limit_lock
  b mm_tid
  b mm_vector_lock
- b mpi_ppn.847.0.17
+ b mpi_ppn.853.0.17
  b ownFeatures
  b ownFeaturesAreValid
  b print_buf
- b print_lock.309.0.4
- b printed.309.0.4
- b r_zero.3373.0.1
- b registration_state_lock.1376.0.69
+ b print_lock.312.0.4
+ b printed.312.0.4
+ b r_zero.3417.0.1
+ b registration_state_lock.1385.0.73
  b registrations
  b static_mklapi_entries
- b stats_gc_lock.1528.0.32
+ b stats_gc_lock.1549.0.36
  b str_handler
  b sys_alloc
  b sys_allocate
@@ -13709,10 +13771,10 @@
  b sys_free
  b sys_realloc
  b tls_key_status
- b unknown.300.0.1
- b unknown.303.0.2
- b verbose_val_lock.312.0.3
- b want_dump_env_read_lock.2558.0.1
+ b unknown.303.0.1
+ b unknown.306.0.2
+ b verbose_val_lock.315.0.3
+ b want_dump_env_read_lock.2561.0.1
  cabsf@@GLIBC_2.2.5
  calloc@@GLIBC_2.2.5
  catgets@@GLIBC_2.2.5
@@ -13747,7 +13809,6 @@
  d Pi_4
  d RDFT
  d R_Pi1
- d SEPARATOR.863.0.5
  d _DYNAMIC
  d _ENABLED_AVX
  d _ENABLED_AVX2
@@ -13778,28 +13839,30 @@
  d __threads_env_NOT_readed
  d api_probe_is_called
  d arraddr
- d base_b.3373.0.1
- d batchfft.4167.0.7
- d c_one.3373.0.1
- d cached.365.0.5
- d cached.368.0.4
- d cached_mei.717.0.10
- d cin.3373.0.1
+ d base_b.3415.0.1
+ d batchfft.4182.0.7
+ d c_one.3417.0.1
+ d cached.371.0.5
+ d cached.374.0.4
+ d cached_mei.731.0.12
+ d cin.3417.0.1
  d db1DivLn2
  d dbBias
  d dbExpPoly
  d dbLn2
  d dbMinusShifter
- d device_count.512.0.1
+ d device_count.515.0.1
  d disable_fast_mm
  d dll_cfg_names
- d dll_memkind_name.1120.0.9
- d emax_b.3373.0.1
- d emin_b.3373.0.1
+ d dll_memkind_name.1127.0.9
+ d emax_b.3415.0.1
+ d emin_b.3415.0.1
  d enable_global_stat
+ d env_cpu_type.738.0.13
+ d env_cpu_type_set.738.0.13
  d env_has_been_cached
  d env_read
- d eps_b.3373.0.1
+ d eps_b.3415.0.1
  d exp2f_table
  d factorization_db
  d first_msg
@@ -13815,17 +13878,19 @@
  d flMinusShifter
  d flm160
  d ftrans
- d func_b0.434.0.0.1
- d func_b1.434.0.0.1
- d func_bn.434.0.0.1
+ d func_b0.437.0.0.1
+ d func_b1.437.0.0.1
+ d func_bn.437.0.0.1
  d g_offload_report_enabled
  d g_timers_need_reset
- d in_one.3373.0.1
+ d in_one.3417.0.1
  d ipl::kMessageSeverityNames
- d itisAtomSSE4_2.399.0.11
- d itisAtomSSSE3.406.0.12
- d itisBarcelona.413.0.13
- d itisBulldozer.394.0.10
+ d isknm.649.0.2
+ d itisAtomSSE4_2.405.0.11
+ d itisAtomSSSE3.412.0.12
+ d itisBarcelona.419.0.13
+ d itisBulldozer.400.0.10
+ d itisKNM.429.0.15
  d ker_notw_db
  d ker_twid_db
  d legacy
@@ -13836,7 +13901,7 @@
  d mkl_verbose_val
  d mm_book
  d mm_fast_memory_limit
- d mm_init_done.1141.0.11
+ d mm_init_done.1148.0.11
  d null
  d ownFeaturesMask
  d ownStatus
@@ -13922,12 +13987,12 @@
  d owngDFTInvBatch_32fcw7_envlambda3_vtable
  d owngDFTInvBatch_32fcw7_envlambda6_vtable
  d owngDFTInvBatch_32fcw7_envlambda9_vtable
- d prec_b.3373.0.1
- d r_one.3373.0.1
- d registration_state.1376.0.69
- d rmax_b.3373.0.1
- d rmin_b.3373.0.1
- d rnd_b.3373.0.1
+ d prec_b.3415.0.1
+ d r_one.3417.0.1
+ d registration_state.1385.0.73
+ d rmax_b.3415.0.1
+ d rmin_b.3415.0.1
+ d rnd_b.3415.0.1
  d s_dbA0
  d s_dbA21
  d s_dbA43
@@ -13945,16 +14010,16 @@
  d s_fExp2
  d s_fOne
  d s_fRS
- d search_done.1017.0.7
- d sfmax2_b.3373.0.1
- d sfmin2_b.3373.0.1
- d sfmin_b.3373.0.1
- d small1_b.3373.0.1
- d sminv1_b.3373.0.1
+ d search_done.1020.0.7
+ d sfmax2_b.3415.0.1
+ d sfmin2_b.3415.0.1
+ d sfmin_b.3415.0.1
+ d small1_b.3415.0.1
+ d sminv1_b.3415.0.1
  d static_bkdown_list
  d static_methods
  d suggest_optimal_nt
- d t_b.3373.0.1
+ d t_b.3415.0.1
  d tableCache
  d tbl
  d tbl_cDFTfwd_small
@@ -13981,7 +14046,7 @@
  d tbl_rFFTfwd_small_scale
  d tbl_rFFTinv_small
  d tbl_rFFTinv_small_scale
- d tol_b.3373.0.1
+ d tol_b.3415.0.1
  d typeinfo for ipl::Baker::bakeListener(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::Sphere const&, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#1}
  d typeinfo for ipl::Baker::bakeListener(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::Sphere const&, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#2}
  d typeinfo for ipl::Baker::bakeListener(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::Sphere const&, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#3}
@@ -13993,35 +14058,35 @@
  d typeinfo for ipl::Baker::bakeReverb(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#3}
  d typeinfo for std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>
  d typeinfo for std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>*
- d typeinfo for std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>
- d typeinfo for std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>*
+ d typeinfo for std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>
+ d typeinfo for std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>*
  d typeinfo for std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>
- d typeinfo for std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>
- d typeinfo for std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>
- d typeinfo for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>
- d typeinfo for std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
+ d typeinfo for std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
  d typeinfo for std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>
- d typeinfo for std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
+ d typeinfo for std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
  d typeinfo for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >
- d typeinfo for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >
+ d typeinfo for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >
  d use_internal_msg
- d verbose_ptr.286.0.1
+ d verbose_ptr.289.0.1
  d vtable for std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>
- d vtable for std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>
- d vtable for std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>
- d vtable for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>
- d vtable for std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
+ d vtable for std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
  d vtable for std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>
- d vtable for std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
+ d vtable for std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
  d vtable for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >
- d vtable for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >
- d want_dump.2556.0.1
+ d vtable for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >
+ d want_dump.2559.0.1
  difftime@@GLIBC_2.2.5
  dladdr@@GLIBC_2.2.5
  dlerror@@GLIBC_2.2.5
@@ -14077,11 +14142,11 @@
  pthread_mutex_unlock@@GLIBC_2.2.5
  pthread_once@@GLIBC_2.2.5
  pthread_setspecific@@GLIBC_2.2.5
- r ._172
  r ._173
  r ._174
+ r ._175
  r .eh_frame_seg
- r A0.1547.0.0.35
+ r A0.1568.0.0.39
  r CC_12_9
  r CC_15_32
  r CC_1_11
@@ -14124,8 +14189,8 @@
  r IM_1_8
  r IM_2_16
  r IM_3_16
- r KEY_N_SOCKETS_ar.1020.0.0.27
- r N_physical_id_ar.1020.0.0.27
+ r KEY_N_SOCKETS_ar.1026.0.0.27
+ r N_physical_id_ar.1026.0.0.27
  r P
  r PI04
  r PONE
@@ -14577,12 +14642,12 @@
  r __STRLITPACK_97
  r __STRLITPACK_98
  r __STRLITPACK_99
- r __mkl_tmp_one.4376.0.0.24
- r __mkl_tmp_one.4392.0.0.25
- r __mkl_tmp_one.4556.0.0.24
- r __mkl_tmp_one.4572.0.0.25
- r __mkl_tmp_one.4638.0.0.24
- r __mkl_tmp_one.4654.0.0.25
+ r __mkl_tmp_one.4391.0.0.24
+ r __mkl_tmp_one.4407.0.0.25
+ r __mkl_tmp_one.4571.0.0.24
+ r __mkl_tmp_one.4587.0.0.25
+ r __mkl_tmp_one.4653.0.0.24
+ r __mkl_tmp_one.4669.0.0.25
  r __own_z0_PRECFUNCACC_data
  r _coeff_c
  r _coeff_s
@@ -14604,8 +14669,8 @@
  r bm.231.0.2
  r bm.234.0.2
  r bm.251.0.2
- r c.4390.0.0.23
- r c.4391.0.0.24
+ r c.4405.0.0.23
+ r c.4406.0.0.24
  r c2_p1m1
  r c3_p1m1
  r c4_p1m1
@@ -14806,33 +14871,33 @@
  r iTmp.4342.0.0.61
  r iTmp.4660.0.0.79
  r iTmp.4780.0.0.85
- r info.519.0.0.3
- r lock_buf.702.0.0.4
+ r info.522.0.0.3
+ r lock_buf.705.0.0.4
  r mkl_ao_fft_ctr_worker
  r mkl_ao_fft_dtr_worker
  r mkl_ao_fft_fwd_worker
  r mkl_ao_fft_inv_worker
- r ntz1.3905.0.0.1
- r ntz1.4085.0.0.1
- r one.4374.0.0.24
- r one.4388.0.0.25
- r one.4554.0.0.24
- r one.4568.0.0.25
- r one.4636.0.0.24
- r one.4650.0.0.25
+ r ntz1.3920.0.0.1
+ r ntz1.4100.0.0.1
+ r one.4389.0.0.24
+ r one.4403.0.0.25
+ r one.4569.0.0.24
+ r one.4583.0.0.25
+ r one.4651.0.0.24
+ r one.4665.0.0.25
  r ones
- r scale.4191.0.0.4
- r scale.4197.0.0.4
- r scale.4371.0.0.4
- r scale.4377.0.0.4
- r scale.4459.0.0.4
- r scale.4465.0.0.4
- r stat.1302.0.0.67
+ r scale.4206.0.0.4
+ r scale.4212.0.0.4
+ r scale.4386.0.0.4
+ r scale.4392.0.0.4
+ r scale.4474.0.0.4
+ r scale.4480.0.0.4
+ r stat.1311.0.0.71
  r std::piecewise_construct
  r tbl_blk_order
  r tbl_buf_order
  r tbl_len_conv
- r thread.3903.0.0.2
+ r thread.3918.0.0.2
  r typeinfo name for ipl::Baker::bakeListener(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::Sphere const&, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#1}
  r typeinfo name for ipl::Baker::bakeListener(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::Sphere const&, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#2}
  r typeinfo name for ipl::Baker::bakeListener(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::Sphere const&, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#3}
@@ -14844,34 +14909,34 @@
  r typeinfo name for ipl::Baker::bakeReverb(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#3}
  r typeinfo name for std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>
  r typeinfo name for std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>*
- r typeinfo name for std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>
- r typeinfo name for std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>*
+ r typeinfo name for std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>
+ r typeinfo name for std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>*
  r typeinfo name for std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>
- r typeinfo name for std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
+ r typeinfo name for std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>
- r typeinfo name for std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
+ r typeinfo name for std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>
- r typeinfo name for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>
+ r typeinfo name for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>
- r typeinfo name for std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
+ r typeinfo name for std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
  r typeinfo name for std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>
- r typeinfo name for std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
+ r typeinfo name for std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>
  r typeinfo name for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >
- r typeinfo name for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >
- r unlock_buf.661.0.0.2
- r unlock_buf.661.0.0.3
- r verbose_unknown.286.0.1
+ r typeinfo name for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >
+ r unlock_buf.664.0.0.2
+ r unlock_buf.664.0.0.3
+ r verbose_unknown.289.0.1
  r vsexp_data
  r vssincos_data
- r zero.4186.0.0.26
- r zero.4191.0.0.27
- r zero.4256.0.0.33
- r zero.4366.0.0.26
- r zero.4371.0.0.27
- r zero.4436.0.0.33
- r zero.4454.0.0.26
- r zero.4459.0.0.27
- r zero.4518.0.0.33
+ r zero.4201.0.0.26
+ r zero.4206.0.0.27
+ r zero.4271.0.0.33
+ r zero.4381.0.0.26
+ r zero.4386.0.0.27
+ r zero.4451.0.0.33
+ r zero.4469.0.0.26
+ r zero.4474.0.0.27
+ r zero.4529.0.0.33
  r zero_none
  r zerone
  rand@@GLIBC_2.2.5
@@ -15736,6 +15801,7 @@
  t _GLOBAL__sub_I_ConvolutionEffect.cpp
  t _GLOBAL__sub_I_DirectSimulator.cpp
  t _GLOBAL__sub_I_DirectSimulatorFactory.cpp
+ t _GLOBAL__sub_I_DirectSoundEffect.cpp
  t _GLOBAL__sub_I_Environment.cpp
  t _GLOBAL__sub_I_EnvironmentalRenderer.cpp
  t _GLOBAL__sub_I_Mesh.cpp
@@ -15767,6 +15833,7 @@
  t _GLOBAL__sub_I_api_compute_device.cpp
  t _GLOBAL__sub_I_api_convolution_effect.cpp
  t _GLOBAL__sub_I_api_direct_sound.cpp
+ t _GLOBAL__sub_I_api_direct_sound_effect.cpp
  t _GLOBAL__sub_I_api_environment.cpp
  t _GLOBAL__sub_I_api_environmental_renderer.cpp
  t _GLOBAL__sub_I_api_geometry.cpp
@@ -16097,6 +16164,7 @@
  t ker_col_batch_bwd_v_10
  t ker_col_batch_bwd_v_11
  t ker_col_batch_bwd_v_12
+ t ker_col_batch_bwd_v_13
  t ker_col_batch_bwd_v_14
  t ker_col_batch_bwd_v_15
  t ker_col_batch_bwd_v_16
@@ -16110,6 +16178,7 @@
  t ker_col_batch_fwd_v_10
  t ker_col_batch_fwd_v_11
  t ker_col_batch_fwd_v_12
+ t ker_col_batch_fwd_v_13
  t ker_col_batch_fwd_v_14
  t ker_col_batch_fwd_v_15
  t ker_col_batch_fwd_v_16
@@ -16123,12 +16192,14 @@
  t ker_twid_compact_op_bwd_v_10
  t ker_twid_compact_op_bwd_v_11
  t ker_twid_compact_op_bwd_v_12
+ t ker_twid_compact_op_bwd_v_13
  t ker_twid_compact_op_bwd_v_14
  t ker_twid_compact_op_bwd_v_15
  t ker_twid_compact_op_bwd_v_16
  t ker_twid_compact_op_bwd_v_18
  t ker_twid_compact_op_bwd_v_25
  t ker_twid_compact_op_bwd_v_32
+ t ker_twid_compact_op_bwd_v_4
  t ker_twid_compact_op_bwd_v_5
  t ker_twid_compact_op_bwd_v_6
  t ker_twid_compact_op_bwd_v_7
@@ -16137,12 +16208,14 @@
  t ker_twid_compact_op_fwd_v_10
  t ker_twid_compact_op_fwd_v_11
  t ker_twid_compact_op_fwd_v_12
+ t ker_twid_compact_op_fwd_v_13
  t ker_twid_compact_op_fwd_v_14
  t ker_twid_compact_op_fwd_v_15
  t ker_twid_compact_op_fwd_v_16
  t ker_twid_compact_op_fwd_v_18
  t ker_twid_compact_op_fwd_v_25
  t ker_twid_compact_op_fwd_v_32
+ t ker_twid_compact_op_fwd_v_4
  t ker_twid_compact_op_fwd_v_5
  t ker_twid_compact_op_fwd_v_6
  t ker_twid_compact_op_fwd_v_7
@@ -16688,7 +16761,7 @@
  t std::_Function_base::_Base_manager<ipl::Baker::bakeReverb(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ipl::Baker::bakeReverb(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#2}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<ipl::Baker::bakeReverb(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#3}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ipl::Baker::bakeReverb(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#3}> const&, std::_Manager_operation)
  t std::_Function_base::_Ref_manager<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >::_M_manager(std::_Any_data&, std::_Function_base::_Ref_manager<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> > const&, std::_Manager_operation)
- t std::_Function_base::_Ref_manager<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >::_M_manager(std::_Any_data&, std::_Function_base::_Ref_manager<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> > const&, std::_Manager_operation)
+ t std::_Function_base::_Ref_manager<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >::_M_manager(std::_Any_data&, std::_Function_base::_Ref_manager<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> > const&, std::_Manager_operation)
  t std::_Function_handler<bool (ipl::Probe const&), ipl::Baker::bakeListener(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::Sphere const&, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#1}>::_M_invoke(std::_Any_data const&, ipl::Probe const&)
  t std::_Function_handler<bool (ipl::Probe const&), ipl::Baker::bakePropagation(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::Sphere const&, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#1}>::_M_invoke(std::_Any_data const&, ipl::Probe const&)
  t std::_Function_handler<bool (ipl::Probe const&), ipl::Baker::bakeReverb(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#1}>::_M_invoke(std::_Any_data const&, ipl::Probe const&)
@@ -16699,69 +16772,69 @@
  t std::_Function_handler<ipl::Vector3<float> (ipl::Probe const&), ipl::Baker::bakePropagation(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::Sphere const&, std::basic_string<char, std::char_traits<char>, ipl::allocator<char> > const&, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#3}>::_M_invoke(std::_Any_data const&, ipl::Probe const&)
  t std::_Function_handler<ipl::Vector3<float> (ipl::Probe const&), ipl::Baker::bakeReverb(std::shared_ptr<ipl::Environment>, std::shared_ptr<ipl::ProbeBox>, ipl::BakingSettings const&, std::function<void (float)>)::{lambda(ipl::Probe const&)#3}>::_M_invoke(std::_Any_data const&, ipl::Probe const&)
  t std::_Function_handler<void (), std::reference_wrapper<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> > >::_M_invoke(std::_Any_data const&)
- t std::_Function_handler<void (), std::reference_wrapper<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> > >::_M_invoke(std::_Any_data const&)
+ t std::_Function_handler<void (), std::reference_wrapper<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> > >::_M_invoke(std::_Any_data const&)
  t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
  t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
  t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
  t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
- t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
- t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
- t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
- t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+ t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+ t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+ t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+ t std::_Sp_counted_ptr_inplace<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
  t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
  t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
  t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
  t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>, std::allocator<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()> >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
- t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
- t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
- t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
- t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+ t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+ t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+ t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+ t std::_Sp_counted_ptr_inplace<std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>, std::allocator<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)> >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
  t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
  t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
  t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
  t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
- t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
- t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
- t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
- t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+ t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+ t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+ t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+ t std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >, std::allocator<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
  t std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::~_Async_state_impl()
- t std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::~_Async_state_impl()
+ t std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::~_Async_state_impl()
  t std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_M_run_deferred()
  t std::__future_base::_Deferred_state<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::~_Deferred_state()
- t std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_M_run_deferred()
- t std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::~_Deferred_state()
+ t std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_M_run_deferred()
+ t std::__future_base::_Deferred_state<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::~_Deferred_state()
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_clone(ipl::allocator<char> const&, unsigned long) [clone .isra.129]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_clone(ipl::allocator<char> const&, unsigned long) [clone .isra.46]
- t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_destroy(ipl::allocator<char> const&) [clone .isra.132]
+ t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_destroy(ipl::allocator<char> const&) [clone .isra.125]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_destroy(ipl::allocator<char> const&) [clone .isra.21]
- t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_destroy(ipl::allocator<char> const&) [clone .isra.29]
+ t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_destroy(ipl::allocator<char> const&) [clone .isra.28]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_destroy(ipl::allocator<char> const&) [clone .isra.41]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_destroy(ipl::allocator<char> const&) [clone .isra.49]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_destroy(ipl::allocator<char> const&) [clone .isra.52]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_destroy(ipl::allocator<char> const&) [clone .isra.62]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.106] [clone .part.107]
- t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.133]
- t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.169] [clone .part.170]
+ t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.126]
+ t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.176] [clone .part.177]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.22]
+ t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.29]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.29] [clone .part.30]
- t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.30]
  t std::basic_string<char, std::char_traits<char>, ipl::allocator<char> >::_Rep::_M_dispose(ipl::allocator<char> const&) [clone .isra.42]
  t std::default_delete<ipl::AudioBuffer>::operator()(ipl::AudioBuffer*) const [clone .isra.3]
  t std::default_delete<ipl::Bands>::operator()(ipl::Bands*) const [clone .isra.35]
  t std::default_delete<ipl::Bands>::operator()(ipl::Bands*) const [clone .isra.56]
- t std::default_delete<ipl::ComplexSignal>::operator()(ipl::ComplexSignal*) const [clone .isra.57]
+ t std::default_delete<ipl::ComplexSignal>::operator()(ipl::ComplexSignal*) const [clone .isra.55]
  t std::default_delete<ipl::ProbeTreeNode>::operator()(ipl::ProbeTreeNode*) const [clone .isra.11]
  t std::default_delete<ipl::ProbeTreeNode>::operator()(ipl::ProbeTreeNode*) const [clone .isra.18]
  t std::default_delete<ipl::ProbeTreeNode>::operator()(ipl::ProbeTreeNode*) const [clone .isra.30]
  t std::default_delete<ipl::RealSignal>::operator()(ipl::RealSignal*) const [clone .isra.10]
  t std::default_delete<ipl::RealSignal>::operator()(ipl::RealSignal*) const [clone .isra.19]
  t std::default_delete<ipl::RealSignal>::operator()(ipl::RealSignal*) const [clone .isra.27]
- t std::default_delete<ipl::RealSignal>::operator()(ipl::RealSignal*) const [clone .isra.35]
+ t std::default_delete<ipl::RealSignal>::operator()(ipl::RealSignal*) const [clone .isra.33]
  t std::default_delete<ipl::RealSignal>::operator()(ipl::RealSignal*) const [clone .isra.68]
  t std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >::_M_run()
  t std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} ()>, void>::_Async_state_impl(ipl::DecoupledReflectionSimulator::simulate(ipl::Scene const*, ipl::CoordinateSpace3<float> const&, ipl::Array<ipl::Vector3<float> > const&, ipl::Array<bool> const&, int, std::vector<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> >, ipl::allocator<std::unique_ptr<ipl::EnergyField, std::default_delete<ipl::EnergyField> > > >&, std::atomic<bool>&)::{lambda()#1} (&&)())::{lambda()#1} ()> >::~_Impl()
- t std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >::_M_run()
- t std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::SlotAssigner>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> > const&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >::~_Impl()
+ t std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >::_M_run()
+ t std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)>, void>::_Async_state_impl(ipl::SimulationThread::runSimulationIfIdle(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>, std::vector<bool, ipl::allocator<bool> >&)::{lambda(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>)#1} (&&)(std::shared_ptr<ipl::SimulationThread>, std::shared_ptr<ipl::FirBatch>))::{lambda()#1} ()> >::~_Impl()
  t step345
  t step345_inv
  t step_fft16_norm_fwd_cr

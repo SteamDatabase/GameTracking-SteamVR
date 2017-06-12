@@ -3888,11 +3888,6 @@ AvatarCustomizationItem #SliderThumb
 	pre-transform-scale2d: .97;
 }
 
-.LockedByQuest.LockedItem.Item:active 
-{
-	pre-transform-scale2d: 1;
-}
-
 .Item:disabled .ItemPreviewImage 
 {
 	opacity: .3;
@@ -3953,12 +3948,6 @@ AvatarCustomizationItem #SliderThumb
 .Item:hover .ItemInfoIcon
 {
 	opacity: .7;
-}
-
-.LockedByQuest.LockedItem.Item:hover
-{
-	box-shadow: none;
-	border: 4px solid #ffffff10;
 }
 
 //////////////////////////////////////////////////////
@@ -4070,11 +4059,6 @@ AvatarCustomizationItem #SliderThumb
 .ItemGradientHit:hover 
 {
 	border-top: 2px solid white;
-}
-
-.LockedByQuest.LockedItem.ItemGradientHit:hover 
-{
-	border-top: 2px solid #ffffff20;
 }
 
 .ItemInfoIcon 
@@ -4367,18 +4351,6 @@ AvatarCustomizationItem #SliderThumb
 	wash-color: #e9d02bff;
 	horizontal-align: right;
 	visibility: collapse;
-}
-
-.LockedItemOverlay 
-{
-	width: 100%;
-	height: 100%;
-	visibility: collapse;
-}
-
-.LockedByQuest.LockedItem .LockedItemOverlay
-{
-	visibility: visible;
 }
 
 .SpawnDisabledOverlay
@@ -5129,17 +5101,6 @@ AvatarCustomizationItem #SliderThumb
 	visibility: visible;
 }*/
 
-
-.LockedByQuest.LockedItem .LaunchDestination,
-.IsMap.InPublicLobby .LaunchDestination
-{
-	visibility: collapse;
-}
-
-.LockedByQuest.LockedItem .LockedDetailOverlay
-{
-	visibility: visible;
-}
 
 .LockedItem.Item
 {
@@ -5915,6 +5876,7 @@ background-color: gradient(linear, 0% 0%, 100% 0%, from(#ff0000), color-stop(0.1
 }
 
 .MiniBrowser .LockedByQuest.Item,
+.MiniBrowser .PromoItem.Item,
 .MiniBrowser .DestinationGradient,
 .MiniBrowser .ItemGradientHit,
 .MiniBrowser .ItemGradient

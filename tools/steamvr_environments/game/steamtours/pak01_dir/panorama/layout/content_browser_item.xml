@@ -19,7 +19,6 @@
 		<Panel class="TopRightGradient" />
 		
 		<Image class="FavoriteItemStar" src="s2r://panorama/images/content_browser/icon_favorite_shadow_png.vtex" />	
-		<Image class="LockedItemOverlay" src="s2r://panorama/images/content_browser/locked_item_png.vtex" />	
 			
 		<Image class="ItemToolIcon" src="s2r://panorama/images/content_browser/icon_tool_png.vtex" />	
 
