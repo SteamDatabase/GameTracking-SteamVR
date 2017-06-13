@@ -9,4 +9,4 @@ ProcessDepot ".so"
 ProcessVPK
 FixUCS2
 
-CreateCommit "$(cat bin/version.txt | grep -o '[0-9\.]*')"
+CreateCommit "$(cat bin/version.txt | grep -o '[0-9\.]*')" "$1"
