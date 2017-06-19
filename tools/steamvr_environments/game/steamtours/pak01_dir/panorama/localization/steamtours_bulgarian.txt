@@ -2557,5 +2557,13 @@
 "[english]Quest_Pin_Hawaii_Lab"	"Aperture Science Pin Quest"
 "Quest_Pin_Hawaii_Lab_Desc"	"Намерете скритата значка на Апъчър Сайънс сред магмените скали на плажа."
 "[english]Quest_Pin_Hawaii_Lab_Desc"	"Find a hidden Aperture Science pin among the lava rocks on the beach."
+"VR_PhysicsProp_AudioshieldShield001"	"Щит от Audioshield"
+"[english]VR_PhysicsProp_AudioshieldShield001"	"Audio Shield"
+"VR_PhysicsProp_AudioshieldShield001_Desc"	"Ръчен щит от Audioshield."
+"[english]VR_PhysicsProp_AudioshieldShield001_Desc"	"Equip in case of musical bombardment.\n\nUnlocked by owning Audioshield."
+"VR_PhysicsProp_NekoPlushie"	"Neko играчка"
+"[english]VR_PhysicsProp_NekoPlushie"	"Neko Toy"
+"VR_PhysicsProp_NekoPlushie_Desc"	"Мяу, мяу, мяу, мяу.\n\nДиректно от Fantastic Contraption."
+"[english]VR_PhysicsProp_NekoPlushie_Desc"	"Meow meow meow meow.\n\nUnlocked by owning Fantastic Contraption."
 }
 }

@@ -1729,7 +1729,7 @@
 "[english]TutorialAvatar_Bottom_Desc"	"Up to four outfits can be saved via the Outfit dropdown on the Avatar dashboard."
 "TutorialProps_Tile3_Touch_Desc"	"Mit zwei Händen können sie die ausgewählte Requisite verkleinern oder vergrößern und mit dem Joystick deren Farbe ändern."
 "[english]TutorialProps_Tile3_Touch_Desc"	"To scale props, use both hands. To change a prop's color, move your joystick and click to set the color."
-"TutorialWizard_Bottom_Desc"	"Zum Fortsetzen bitte \"Weiter\" klicken."
+"TutorialWizard_Bottom_Desc"	"Zum Fortsetzen bitte mit der Trigger-Taste auf \"Weiter\" klicken."
 "[english]TutorialWizard_Bottom_Desc"	"Select Next with the Trigger button to continue."
 "WelcomeTutorialLabel"	"Willkommen"
 "[english]WelcomeTutorialLabel"	"Welcome"
@@ -2507,5 +2507,7 @@
 "[english]VR_Map_HawaiiBeach"	"Hawai'i Beach"
 "VR_Map_HawaiiBeach_Desc"	"Ein Strand an der Insel Hawaii."
 "[english]VR_Map_HawaiiBeach_Desc"	"A beach on the Island of Hawai'i."
+"VR_PhysicsProp_ASAmmoBox"	"Munitionskiste"
+"[english]VR_PhysicsProp_ASAmmoBox"	"Ammo Box"
 }
 }

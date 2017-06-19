@@ -382,25 +382,6 @@
 	visibility: collapse;
 }
 
-.HTC_Promotion
-{
-	height: 250px;
-	width: 1235px;
-	margin: 6px;
-	margin-left: 1253px;
-	border-radius: 2px;
-	border: 3px solid #ffffff20;
-	//background-color: button_gradient;
-	background-color: #222222ff;	
-	transition-property: background-color, border;
-	transition-duration: 0.23s;
-
-	vertical-align: bottom;
-	margin-bottom: 50px;
-
-	visibility: collapse;
-}
-
 .Valve_Promotion
 {
 	height: 250px;
@@ -505,7 +486,8 @@
 
 .EnvironmentItem:hover,
 .HTC_Promotion:hover,
-.Valve_Promotion:hover
+.Valve_Promotion:hover,
+.HMD_Manufacturer_HTC .Valve_Promotion:hover
 {
 	//background-color: #333333ff;
 	border: 3px solid #ffffffaa;
@@ -560,7 +542,7 @@
 {
 	color: #ffffff88;
 	font-size: 50px;
-	width: 1650px;
+	width: 1750px;
 	margin-top: 190px;
 	margin-left: 80px;
 }
@@ -603,6 +585,162 @@
 	height: 100%;
 	margin: 300px 70px 70px 70px;
 	flow-children: right-wrap;
+}
+
+//--------------------
+//  Vive Specific Promotion
+//--------------------
+
+.VivePromoImage,
+.HMD_Manufacturer_HTC .PromoImage
+{
+	visibility: collapse;
+}
+
+.HMD_Manufacturer_HTC .VivePromoImage
+{
+	visibility: visible;
+}
+
+.VivePromoImage
+{
+	width: 300px;
+	height: 250px;
+	vertical-align: center;
+	horizontal-align: left;
+}
+
+.HMD_Manufacturer_HTC .PromoTitle
+{
+	color: white;
+	font-size: 60px;
+	margin-left: 350px;	
+	//margin-left: 660px;
+	//margin-top: 55px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.HMD_Manufacturer_HTC .PromoDesc
+{
+	color: #ffffff99;
+	font-size: 45px;
+	margin-left: 350px;
+	//margin-left: 660px;
+	//margin-top: 130px;
+	margin-top: 110px;
+	width: 800px;
+}
+
+.HMD_Manufacturer_HTC .Valve_Promotion
+{
+	height: 250px;
+	width: 1235px;
+	//width: 2480px;
+	margin: 6px;
+	border-radius: 2px;
+	border: 3px solid #ffffff20;
+	//background-color: button_gradient;
+	background-color: #222222ff;	
+	//background-color: #333333ff;	
+	transition-property: background-color, border;
+	transition-duration: 0.23s;
+
+	vertical-align: bottom;
+	margin-bottom: 50px;
+
+}
+
+.HTC_Promotion
+{
+	height: 250px;
+	width: 1235px;
+	margin: 6px;
+	margin-left: 1253px;
+	border-radius: 2px;
+	border: 3px solid #ffffff20;
+	background-color: #222222ff;	
+	transition-property: background-color, border;
+	transition-duration: 0.23s;
+
+	vertical-align: bottom;
+	margin-bottom: 50px;
+
+	visibility: collapse;
+}
+
+.HMD_Manufacturer_HTC .HTC_Promotion
+{
+	visibility: visible;
+}
+
+.VivePromoWrapper
+{
+	width: 2500px;
+	height: 1515px;
+	margin-right: 50px;
+	horizontal-align: right;
+	background-color: #111111fa;
+	visibility: collapse;
+}
+
+.ViveDialogOn .VivePromoWrapper
+{
+	visibility: visible;
+}
+
+
+.VivePromoDialog
+{
+	width: 2020px;
+	//width: 2340px;
+	//height: 1030px;
+	height: 850px;
+	vertical-align: center;
+	horizontal-align: center;
+	background-color: #111111ff;
+	//box-shadow: #111111ff -3px 0px 50px 0px;
+	border: 4px solid #ffffff11;
+	border-radius: 5px;
+	flow-children: down;	
+}
+
+.DialogPromoImages
+{
+	flow-children: right;
+	margin-left: 80px;
+	margin-top: 60px;
+}
+
+.DialogPromoImage
+{
+	margin-left: 50px;
+}
+
+.VivePromoWrapper .DialogDesc
+{
+	width: 650px;
+	margin: 0px;
+	margin-right: 50px;
+}
+
+.VivePromoWrapper .CloseDialogButton
+{
+	width: 120px;
+	height: 120px;
+	margin-top: 50px;
+	//horizontal-align: right;
+	//margin-left: 1850px;
+	margin-left: 1850px;
+	border: 1px solid #ffffff00;
+	transition-property: background-color, border, pre-transform-scale2d;
+	transition-duration: 0.23s;
+}
+
+.VivePromoWrapper .CloseDialogButton:hover
+{
+	background-color: #333333ff;
+	border: 1px solid white;
 }
 
 //--------------------

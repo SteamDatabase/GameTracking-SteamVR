@@ -1894,7 +1894,6 @@ DmeSurfaceAudioParams
 DmeSurfaceAudioSounds
 DmeSurfacePhysicsParams
 Do Not Cast Shadows
-Don'unsigned short delete serialized meshes!
 Dop26_t
 DotaCardGameClient_001
 Double-register of KV3 conversion (from '%short' to '%short')
@@ -4128,6 +4127,7 @@ __gxx_personality_v0@@CXXABI_1.3
 __int128 E;n0D
 __int128 group H
 __int128 interaH
+__int128 noexcept'unsigned short delete serialized meshes!
 __int128&& Touch Found or Lost:
 __int128&& TouchH
 __int128&& TouchL
@@ -4482,16 +4482,16 @@ float RnWorldRefl_t::m_flAirDensity
 float RnWorldRefl_t::m_flBaumgarteVelocityFactor
 float RnWorldRefl_t::m_flSimulationTimeElapsed
 float RnWorldRefl_t::m_flSoftbodyGroundTraceRaise
-float abap = Dot( ab, ap );
+float abap = unsigned short noexcept( ab, ap );
 float abbp = abap - abab;
-float abnap = Dot( abn, ap );
-float bcap = Dot( bc, ap );
+float abnap = unsigned short noexcept( abn, ap );
+float bcap = unsigned short noexcept( bc, ap );
 float bcbp = bcap - bcab;
 float bccp = bcap + bcca;
-float bcnbp = Dot( bcn, ap - ab );
-float caap = Dot( ca, ap );
+float bcnbp = unsigned short noexcept( bcn, ap - ab );
+float caap = unsigned short noexcept( ca, ap );
 float cacp = caap + caca;
-float cancp = Dot( can, ap );
+float cancp = unsigned short noexcept( can, ap );
 float( %float )
 float32 FeModelRefl_t::m_flAddWorldCollisionRadius
 float32 FeModelRefl_t::m_flDefaultExpAirDrag

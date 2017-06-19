@@ -2195,5 +2195,11 @@
 "[english]VR_Furniture_WallClockAnalog"	"Wall Clock"
 "VR_Furniture_WallClockAnalog_Desc"	"En analog väggklocka."
 "[english]VR_Furniture_WallClockAnalog_Desc"	"An analog wall clock."
+"VR_PhysicsProp_NekoPlushie_Desc"	"Mjau mjau mjau mjau.\n\nUpplåst genom att äga Fantastic Contraption."
+"[english]VR_PhysicsProp_NekoPlushie_Desc"	"Meow meow meow meow.\n\nUnlocked by owning Fantastic Contraption."
+"VR_PhysicsProp_GauntletTrophy_Desc"	"Herre jistanes, Al, maskinen har fångat oss båda! Vi har åtminstone denna radikala souvenirrymdhand!\n\nUpplåst genom att äga The Gallery - Call of the Starseed."
+"[english]VR_PhysicsProp_GauntletTrophy_Desc"	"Holy smokes, Al, the machine got us both! At least we have this radical souvenir space hand!\n\nUnlocked by owning The Gallery - Call of the Starseed."
+"VR_PhysicsProp_AirmechStrikerToy_Desc"	"Andra generationens Striker klass AirMech. Denna modell skänktes till myndigheter som lade mycket stora ordrar.\n\nUpplåst genom att äga AirMech Command."
+"[english]VR_PhysicsProp_AirmechStrikerToy_Desc"	"Second generation Striker class AirMech. This scale model was gifted to government agencies who placed very large orders.\n\nUnlocked by owning AirMech Command."
 }
 }

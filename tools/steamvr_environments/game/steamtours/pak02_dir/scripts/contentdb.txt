@@ -300,7 +300,59 @@
 			locked_by_quest = true
 			inventory_service_id = 112
 		},
-		
+		{
+			id = "space_pirate_helmet"
+			name = "#VR_Avatar_SpacePirateHelmet"
+			desc = "#VR_Avatar_SpacePirateHelmet_Desc"
+			content = "models/third_party/characters/avatars/space_pirate_helmet.vmdl"
+			preview_image = "file://{images}/contentdb/space_pirate_helmet.png"
+			locked_by_quest = false
+			inventory_service_id = 113
+			inventory_service_promo_rules = "owns:418650" // must own Space Pirate Trainer
+			inventory_service_promo_appid = 418650
+		},	
+		{
+			id = "vive_headset"
+			name = "#VR_Avatar_ViveHeadset"
+			desc = "#VR_Avatar_ViveHeadset_Desc"
+			content = "models/third_party/characters/avatars/vive_headset.vmdl"
+			preview_image = "file://{images}/contentdb/vive_headset.png"
+			locked_by_quest = false
+			//inventory_service_id = 114
+		},	
+		{
+			id = "onward_head"
+			name = "#VR_Avatar_OnwardHead"
+			desc = "#VR_Avatar_OnwardHead_Desc"
+			content = "models/third_party/characters/avatars/onward_head.vmdl"
+			preview_image = "file://{images}/contentdb/onward_head.png"
+			locked_by_quest = false
+			inventory_service_id = 115
+			inventory_service_promo_rules = "owns:496240" // must own Onward
+			inventory_service_promo_appid = 496240
+		},	
+		{
+			id = "serious_sam_helmet"
+			name = "#VR_Avatar_SeriousSamHelmet"
+			desc = "#VR_Avatar_SeriousSamHelmet_Desc"
+			content = "models/third_party/characters/avatars/serious_sam_helmet.vmdl"
+			preview_image = "file://{images}/contentdb/serious_sam_helmet.png"
+			locked_by_quest = false
+			dev_only = true
+			//inventory_service_id = 116
+			inventory_service_promo_rules = "owns:552450" // must own Serious Sam VR: The First Encounter
+			inventory_service_promo_appid = 552450
+		},	
+		{
+			id = "mptam_hmd"
+			name = "#VR_Avatar_MptamHmd"
+			desc = "#VR_Avatar_MptamHmd_Desc"
+			content = "models/characters/avatars/mptam_hmd.vmdl"
+			preview_image = "file://{images}/contentdb/mptam_hmd.png"
+			locked_by_quest = false
+			inventory_service_id = 117
+			dev_only = true			
+		},
 	]
 
 	avatar_hands =
@@ -320,6 +372,13 @@
 			preview_image = "file://{images}/contentdb/oculus_cv1_controller.png"
 		},
 		{
+			id = "knuckles_controllers"
+			name = "#VR_Avatar_Knuckles"
+			desc = "#VR_Avatar_Knuckles_Desc"
+			content = "models/controller/knuckles_ev_1_3/knuckles_left_ev_1_3.vmdl"
+			preview_image = "file://{images}/contentdb/knuckles_dev_thumb.png"
+		},
+		{
 			id = "v2_hands"
 			name = "#VR_Avatar_Hands_Mittens"
 			desc = "#VR_Avatar_Hands_Mittens_Desc"
@@ -333,6 +392,69 @@
 			desc = "#VR_Avatar_Hands_Fingers_Desc"
 			content = "models/characters/avatars/hand_l_v3.vmdl"
 			preview_image = "file://{images}/contentdb/hands_fingers.png"
+		},
+		{
+			id = "more_fingers_test"
+			name = "#VR_Avatar_Hands_More_Fingers"
+			desc = "#VR_Avatar_Hands_More_Fingers_Desc"
+			content = "models/hands/vr_hand_scaffold_left.vmdl"
+			preview_image = "file://{images}/contentdb/dev_hands_thumb.png"
+		},
+		{
+			id = "814739886"
+			name = "Tron"
+			desc = "Tron"
+			content = "models/steamvr_controllers/814739886/814739886.vmdl"
+			preview_image = ""
+			dev_only = true
+		},
+		{
+			id = "688739751"
+			name = "Asiimov"
+			desc = "Asiimov"
+			content = "models/steamvr_controllers/688739751/688739751.vmdl"
+			preview_image = ""
+			dev_only = true
+		},
+		{
+			id = "683303810"
+			name = "Banana"
+			desc = "Banana"
+			content = "models/steamvr_controllers/683303810/683303810.vmdl"
+			preview_image = ""
+			dev_only = true
+		},
+		{
+			id = "931015598"
+			name = "Translucent Rainbow"
+			desc = "Translucent Rainbow"
+			content = "models/steamvr_controllers/931015598/931015598.vmdl"
+			preview_image = ""
+			dev_only = true
+		},
+		{
+			id = "683679721"
+			name = "blue laser"
+			desc = "blue laser"
+			content = "models/steamvr_controllers/683679721/683679721.vmdl"
+			preview_image = ""
+			dev_only = true
+		},
+		{
+			id = "683676651"
+			name = "green laser"
+			desc = "green laser"
+			content = "models/steamvr_controllers/683676651/683676651.vmdl"
+			preview_image = ""
+			dev_only = true
+		},
+		{
+			id = "683566279"
+			name = "red laser"
+			desc = "red laser"
+			content = "models/steamvr_controllers/683566279/683566279.vmdl"
+			preview_image = ""
+			dev_only = true
 		},
 	]
 
@@ -1360,9 +1482,12 @@
 			desc = "#VR_PhysicsProp_TidehunterToy001_Desc"
 			content = "models/props/toys/tidehunter_toy001.vmdl"
 			preview_image = "file://{images}/contentdb/tidehunter_toy001.png"
-			locked_by_quest = true
-			// inventory_service_id = 1023
+			locked_by_quest = false
+			inventory_service_id = 1023
+			inventory_service_promo_rules = "played:570/60" // must have played Dota 2 for 60 minutes
+			inventory_service_promo_appid = 570
 			default_color = [ 60,204,81 ]
+			default_scale = 0.5
 		},
 		{
 			id = "pyro_vinyl001"
@@ -1373,6 +1498,156 @@
 			locked_by_quest = false
 			// inventory_service_id = 1024
 			default_color = [ 173,62,53 ]
+		},
+		{
+			id = "audioshield_shield001"
+			name = "#VR_PhysicsProp_AudioshieldShield001"
+			desc = "#VR_PhysicsProp_AudioshieldShield001_Desc"
+			content = "models/third_party/props/toys/audioshield_shield001.vmdl"
+			preview_image = "file://{images}/contentdb/audioshield_shield001.png"
+			locked_by_quest = false
+			inventory_service_id = 1025
+			inventory_service_promo_rules = "owns:412740" // must own Audioshield
+			inventory_service_promo_appid = 412740
+			default_color = [ 0,128,255 ]
+		},
+		{
+			id = "neko_plushie"
+			name = "#VR_PhysicsProp_NekoPlushie"
+			desc = "#VR_PhysicsProp_NekoPlushie_Desc"
+			content = "models/third_party/props/toys/neko_plushie.vmdl"
+			preview_image = "file://{images}/contentdb/neko_plushie.png"
+			locked_by_quest = false
+			script = "props/neko_plushie"
+			inventory_service_id = 1026
+			inventory_service_promo_rules = "owns:386690" // must own Fantastic Contraption
+			inventory_service_promo_appid = 386690
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "gauntlet_trophy"
+			name = "#VR_PhysicsProp_GauntletTrophy"
+			desc = "#VR_PhysicsProp_GauntletTrophy_Desc"
+			content = "models/third_party/props/toys/gauntlet_trophy.vmdl"
+			preview_image = "file://{images}/contentdb/gauntlet_trophy.png"
+			locked_by_quest = false
+			inventory_service_id = 1027
+			inventory_service_promo_rules = "owns:270130" // must own The Gallery - Episode 1: Call of the Starseed
+			inventory_service_promo_appid = 270130
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "as_ammobox"
+			name = "#VR_PhysicsProp_ASAmmoBox"
+			desc = "#VR_PhysicsProp_ASAmmoBox_Desc"
+			content = "models/third_party/props/toys/as_ammobox.vmdl"
+			preview_image = "file://{images}/contentdb/as_ammobox.png"
+			locked_by_quest = false
+			inventory_service_id = 1028
+			inventory_service_promo_rules = "owns:342180" // must own Arizona Sunshine
+			inventory_service_promo_appid = 342180
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "meeseeks_ball"
+			name = "#VR_PropTool_meeseeks_ball"
+			desc = "#VR_PropTool_meeseeks_ball_Desc"
+			content = "models/third_party/props/mrmeeseeks/meeseeks_ball.vmdl"
+			script = "props/meeseeks_ball"
+			equip_sound = "freeze_tool_equip"
+			preview_image = "file://{images}/contentdb/mrmeeseeks_ball001.png"
+			locked_by_quest = false
+			dev_only = true
+			inventory_service_id = 1029
+			default_color = [ 50,150,200 ]
+			inventory_service_promo_rules = "owns:469610" // must own Rick and Morty: Virtual Rick-ality
+			inventory_service_promo_appid = 469610
+		},
+		{
+			id = "airmech_striker_toy"
+			name = "#VR_PhysicsProp_AirmechStrikerToy"
+			desc = "#VR_PhysicsProp_AirmechStrikerToy_Desc"
+			content = "models/third_party/props/toys/airmech_striker_toy.vmdl"
+			preview_image = "file://{images}/contentdb/airmech_striker_toy.png"
+			locked_by_quest = false
+			inventory_service_id = 1030
+			inventory_service_promo_rules = "owns:364630" // must own AirMech Command
+			inventory_service_promo_appid = 364630
+			default_color = [ 255,153,57 ]
+		},
+		{
+			id = "hj_gunther_toy"
+			name = "#VR_PhysicsProp_HJGuntherToy"
+			desc = "#VR_PhysicsProp_HJGuntherToy_Desc"
+			content = "models/third_party/props/toys/hj_gunther_toy.vmdl"
+			preview_image = "file://{images}/contentdb/hj_gunther_toy.png"
+			locked_by_quest = false
+			inventory_service_id = 1031
+			inventory_service_promo_rules = "owns:380220" // must own Hover Junkers
+			inventory_service_promo_appid = 380220
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "mini_atlas"
+			name = "#VR_PhysicsProp_MiniAtlas"
+			desc = "#VR_PhysicsProp_MiniAtlas_Desc"
+			content = "models/props/toys/mini_atlas.vmdl"
+			preview_image = "file://{images}/contentdb/mini_atlas.png"
+			inventory_service_id = 1032
+			inventory_service_promo_rules = "played:450390/15" // must have played The Lab for 15 minutes
+			inventory_service_promo_appid = 450390
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "vive_logo_statue"
+			name = "#VR_PhysicsProp_ViveLogoStatue"
+			desc = "#VR_PhysicsProp_ViveLogoStatue_Desc"
+			content = "models/third_party/props/toys/vive_logo_statue.vmdl"
+			preview_image = "file://{images}/contentdb/vive_logo_statue.png"
+			// inventory_service_id = 1033
+			default_color = [ 21,174,252 ]
+		},
+		{
+			id = "js_coffee_mug"
+			name = "#VR_PhysicsProp_JSCoffeeMug"
+			desc = "#VR_PhysicsProp_JSCoffeeMug_Desc"
+			content = "models/third_party/props/toys/js_coffee_mug.vmdl"
+			preview_image = "file://{images}/contentdb/js_coffee_mug.png"
+			inventory_service_promo_rules = "owns:448280" // must own Job Simulator
+			inventory_service_promo_appid = 448280
+			inventory_service_id = 1034
+			default_color = [ 246,246,213 ]
+		},
+		{
+			id = "serious_sam_kleer_head_trophy"
+			name = "#VR_PhysicsProp_SeriousSamKleerHeadTrophy"
+			desc = "#VR_PhysicsProp_SeriousSamKleerHeadTrophy_Desc"
+			content = "models/third_party/props/toys/serious_sam_kleer_head_trophy.vmdl"
+			preview_image = "file://{images}/contentdb/serious_sam_kleer_head_trophy.png"
+			inventory_service_promo_rules = "owns:465240" // must own Serious Sam VR: The Last Hope
+			inventory_service_promo_appid = 465240
+			inventory_service_id = 1035
+			default_color = [ 220,73,19 ]
+		},
+		{
+			id = "test_complex_item"
+			name = "COMPLEX ITEM"
+			desc = "This item is complex!!"
+			content = "models/props/toys/ball001.vmdl"
+			preview_image = "file://{images}/contentdb/beach_ball.png"
+			//inventory_service_id = 10099
+			default_color = [ 240,103,76 ]
+			dev_only = true
+			child_items = [
+				{
+					name = "child1"
+					model = "models/props/toys/dice1.vmdl"
+					attachment = ""
+					local_position = [ 0, 15, 0 ]
+					local_angles = [ 0, 0, 0 ]
+					local_scale = 1
+				}
+			]
 		},
 	]
 

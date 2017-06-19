@@ -3331,8 +3331,6 @@ DispatchPanelEvent
 DispatchQueuedEvent: %double events queued for %double distinct events
 DispatchVideoPlayerEvent
 Dl23CSplitScreenAddedConVar
-Don'unsigned short lookup extension types if they aren'unsigned short present (1). 
-Don'unsigned short lookup extension types if they aren'unsigned short present (2). 
 DotaCardGameClient_001
 DragCallbacks
 DragDrop
@@ -7868,6 +7866,8 @@ __int128	ATSH
 __int128 >= 0
 __int128 ATL
 __int128 does not equal p q
+__int128 noexcept'unsigned short lookup extension types if they aren'unsigned short present (1). 
+__int128 noexcept'unsigned short lookup extension types if they aren'unsigned short present (2). 
 __int128:2C[
 __int128<!TH+9
 __isoc99_sscanf

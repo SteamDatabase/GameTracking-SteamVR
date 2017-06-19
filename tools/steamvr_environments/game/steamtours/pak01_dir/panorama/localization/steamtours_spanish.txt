@@ -2435,5 +2435,15 @@
 "[english]VR_Furniture_WallClockAnalog_Desc"	"An analog wall clock."
 "VR_Avatar_Wearable_PinHawaiiLab"	"Pin - Personaje de Aperture Science"
 "[english]VR_Avatar_Wearable_PinHawaiiLab"	"Pin - Aperture Science"
+"VR_PhysicsProp_AudioshieldShield001"	"Escudo de Audioshield"
+"[english]VR_PhysicsProp_AudioshieldShield001"	"Audio Shield"
+"VR_PhysicsProp_GauntletTrophy"	"El guantelete"
+"[english]VR_PhysicsProp_GauntletTrophy"	"The Gauntlet"
+"VR_PhysicsProp_ASAmmoBox"	"Caja de munición"
+"[english]VR_PhysicsProp_ASAmmoBox"	"Ammo Box"
+"VR_PhysicsProp_HJGuntherToy"	"Gunther"
+"[english]VR_PhysicsProp_HJGuntherToy"	"Gunther"
+"VR_PhysicsProp_MiniAtlas"	"Atlas en miniatura"
+"[english]VR_PhysicsProp_MiniAtlas"	"Miniature Atlas"
 }
 }

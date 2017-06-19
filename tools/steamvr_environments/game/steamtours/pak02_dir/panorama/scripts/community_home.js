@@ -504,6 +504,8 @@ function OnLoadCommunityHomeData()
 		gUGCItemsContext.UpdateAllSubscriptionInfo();		
 	};
 	GameEvents.Subscribe( "HideValveItems", onHideValveItems );
+
+
 	
 	RequestCommunityHomeData( true, true );
 
@@ -603,4 +605,14 @@ function HideValveItems()
 {
 	var data = {};
 	GameEvents.SendCustomGameEventToAllClients( "HideValveItems", data );
+}
+
+function ShowViveItems()
+{
+	$( "#EnvironmentsContainer" ).AddClass( "ViveDialogOn" );
+}
+
+function HideViveItems()
+{
+	$( "#EnvironmentsContainer" ).RemoveClass( "ViveDialogOn" );
 }

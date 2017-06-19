@@ -119,9 +119,29 @@
 		"VR_PhysicsProp_StuffedSnake"			"Stuffed Snake"
 		"VR_PhysicsProp_StuffedSnake_Desc"		"A stuffed animal snake."
 		"VR_PhysicsProp_TidehunterToy001"			"Tidehunter Toy"
-		"VR_PhysicsProp_TidehunterToy001_Desc"		"The Tidehunter Toy from Dota 2."
+		"VR_PhysicsProp_TidehunterToy001_Desc"		"The Tidehunter Toy from Dota 2.\n\nUnlocked by playing Dota 2."
 		"VR_PhysicsProp_PyroVinyl001"			"Pyro Toy"
 		"VR_PhysicsProp_PyroVinyl001_Desc"		"The Pyro Toy from TF2."
+		"VR_PhysicsProp_AudioshieldShield001"			"Audio Shield"
+		"VR_PhysicsProp_AudioshieldShield001_Desc"		"Equip in case of musical bombardment.\n\nUnlocked by owning Audioshield."
+		"VR_PhysicsProp_NekoPlushie"					"Neko Toy"
+		"VR_PhysicsProp_NekoPlushie_Desc"				"Meow meow meow meow.\n\nUnlocked by owning Fantastic Contraption."
+		"VR_PhysicsProp_GauntletTrophy"					"The Gauntlet"
+		"VR_PhysicsProp_GauntletTrophy_Desc"			"Holy smokes, Al, the machine got us both! At least we have this radical souvenir space hand!\n\nUnlocked by owning The Gallery - Call of the Starseed."
+		"VR_PhysicsProp_ASAmmoBox"					"Ammo Box"
+		"VR_PhysicsProp_ASAmmoBox_Desc"				"Ammo Box, Yeah baby! Sweet, sweet ammo! \n\nUnlocked by owning Arizona Sunshine."
+		"VR_PhysicsProp_AirmechStrikerToy"				"Beta Striker"
+		"VR_PhysicsProp_AirmechStrikerToy_Desc"			"Second generation Striker class AirMech. This scale model was gifted to government agencies who placed very large orders.\n\nUnlocked by owning AirMech Command."
+		"VR_PhysicsProp_HJGuntherToy"				"Gunther"
+		"VR_PhysicsProp_HJGuntherToy_Desc"			"Branching out from his diner business, Gunther has entered the world of merchandising. Own your very own Gunther figure today!\n\nUnlocked by owning Hover Junkers."
+		"VR_PhysicsProp_MiniAtlas"					"Miniature Atlas"
+		"VR_PhysicsProp_MiniAtlas_Desc"				"When not suffering the indignities of attempted repair by one of GLaDOS's hapless test subjects, this fine robotic product of Aperture Laboratories can now suffer the indignities of being a desk ornament.\n\nUnlocked by playing The Lab."
+		"VR_PhysicsProp_ViveLogoStatue"					"Vive Sculpture"
+		"VR_PhysicsProp_ViveLogoStatue_Desc"			"A classic abstraction that represents the dichotomy between post-modernist realities and... hey, it’s the Vive Logo Sculpture!\n\nAvailable to Vive users."
+		"VR_PhysicsProp_JSCoffeeMug"					"I <3 Job Mug"
+		"VR_PhysicsProp_JSCoffeeMug_Desc"				"Although humans traditionally utilized cylindrical ceramic vessels for ingesting caffeinated liquids, these items also acted as projectiles for disgruntled workers to toss at their coworkers and superiors.\n\nUnlocked by owning Job Simulator."
+		"VR_PhysicsProp_SeriousSamKleerHeadTrophy"		"Serious Skull"
+		"VR_PhysicsProp_SeriousSamKleerHeadTrophy_Desc"	"Impress your friends and frighten your enemies with this high-quality Kleer skull, organically sourced from the Kleer horde by the tender hands of Sam Stone. Because you are SERIOUS about the environment.\n\nUnlocked by owning Serious Sam VR: The Last Hope."
 
 		// furniture
 		"VR_Furniture_Book001"						"Book"
@@ -260,6 +280,8 @@
 		"VR_PropTool_Drone_Desc"		"Take control a flying drone!\n\nAiming the controller aims the drone. Pull the trigger to send it flying in the direction that it's facing. The trackpad can be used to recall the drone to you, or make it fire deadly lasers."
 		"VR_PropTool_FreezeTool"			"Multi-Tool"
 		"VR_PropTool_FreezeTool_Desc"		"Use this tool to freeze objects in place, thaw objects that are frozen, clone objects or delete them from the world."
+		"VR_PropTool_meeseeks_ball"			"Mr. Meeseeks Ball"
+		"VR_PropTool_meeseeks_ball_Desc"	"HI! I'M MR MEESEEKS! LOOK AT ME!\n\nUnlocked by owning Rick and Morty: Virtual Rickality"
 		"VR_PropTool_BoxBot"				"Boxing Bot"
 		"VR_PropTool_BoxBot_Desc"			""
 
@@ -346,6 +368,15 @@
 		"VR_Avatar_teemo_head"			"Teemo"
 		"VR_Avatar_teemo_head_Desc"	"Teemo from seadocks."		
 		
+		"VR_Avatar_SpacePirateHelmet"			"Space Pirate Helmet"
+		"VR_Avatar_SpacePirateHelmet_Desc"		"Filled with neuro-stimulators to enhance vision, sound and the ability to slow down time, this helmet is the perfect kit for any top Space Pirate, even those in training.\n\nUnlocked by owning Space Pirate Trainer."	
+		"VR_Avatar_ViveHeadset"				"HTC Vive Headset"
+		"VR_Avatar_ViveHeadset_Desc"		"The HTC Vive Headset with Deluxe Audio Strap.\n\nAvailable to Vive users."	
+		"VR_Avatar_OnwardHead"				"MARSOC Helmet"
+		"VR_Avatar_OnwardHead_Desc"			"A ballistic helmet from the tactical multiplayer shooter, Onward. \n\nSafety first!\n\nUnlocked by owning Onward."
+		"VR_Avatar_MptamHmd"				"Early Valve Prototype"
+		"VR_Avatar_MptamHmd_Desc"			"A camera mounted on the headset recognizes codes placed on the walls to track the wearer's position. The prototype displays were built from two cellphones connected with custom circuitry."
+
 		// avatars hands
 		"VR_Avatar_Hand_Default"		"Vive controllers"
 		"VR_Avatar_Hand_Default_Desc"	"The standard controllers included with the Vive."
@@ -355,6 +386,10 @@
 		"VR_Avatar_Hands_Mittens_Desc"	"Hands in mittens. Super cozy."
 		"VR_Avatar_Hands_Fingers"		"Hands"
 		"VR_Avatar_Hands_Fingers_Desc"	"Hands with fingers. Who really uses all five of their fingers anyway?"
+		"VR_Avatar_Hands_More_Fingers"	"[Dev] Five Finger Hand"
+		"VR_Avatar_Hands_More_Fingers_Desc"	"[Dev] Five Finger Hand used for testing with experimental 'Knuckles' controllers"
+		"VR_Avatar_Knuckles"			"[Dev] Knuckles controllers"
+		"VR_Avatar_Knuckles_Desc"		"[Dev] Experimental controllers codenamed 'Knuckles' being tested by Valve"
 
 		// avatar wearables
 		"VR_Avatar_Wearable_BasicSphere001"		"Simple Sphere"
@@ -672,8 +707,8 @@
 		"QuestDashboardTitle"			"Quests"
 		
 		// promoted items
-		"PromotedItemTitle"				"HTC Vive Environment"
-		"PromotedItemDescription"		"Visit the home environment created by HTC for Vive users. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+		"PromotedItemTitle"				"Vive Environment"
+		"PromotedItemDescription"		"Visit the home environment created by HTC for Vive users."
 		"DismissLabel"					"Not Now"
 		"ItemDetail_Ratings_Temp"		"32 Ratings"
 		"PromotedTitle"					"Featured Environment"
@@ -921,12 +956,15 @@
 		"SinglePlayerLabel"	"SINGLE-PLAYER VR"
 		"MultiPlayerLabel"	"MULTIPLAYER VR"
 		"VRTitleLabel"		"{s:app_name}"
-		"HTCPromoTitle"		"VIVE ENVIRONMENT"
-		"HTCPromoDesc"		"Made by HTC for Vive owners."
-		"ValvePromoTitle"	"VALVE ENVIRONMENTS COLLECTION"
+		"HTCPromoTitle"		"VIVE ITEMS"
+		"HTCPromoDesc"		"Don't forget to check out Vive avatar and prop for Vive owners."
+		"ValvePromoTitle"	"VALVE ENVIRONMENTS"
 		"ValvePromoDesc"	"Click here for environments made by Valve artists for SteamVR."
 		"ValveEnvironmentsTitle"	"Environments by Valve Artists"
 		"ValveEnvironmentsDesc"		"Download and visit environments created by Valve artists for SteamVR."
+		"VivePromoTitle"	"Vive Items"
+		"VivePromoDesc"		"Vive users have access to a Vive Headset Avatar and a Vive Logo statue.\n\nYou can find these in the Avatars and Things sections of the menu."
+			
 
 		// Community Item Detail Panel
 		"UGCItem_Creator_Screenshot_Text" "Screenshot By:"

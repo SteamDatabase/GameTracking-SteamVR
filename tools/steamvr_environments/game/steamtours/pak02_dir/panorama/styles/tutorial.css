@@ -303,7 +303,8 @@
 }
 
 
-.ViveController .ViveHelp
+.ViveController .ViveHelp,
+.KnucklesController .ViveHelp
 {
 	visibility: visible;
 }
@@ -327,6 +328,9 @@
 .ViveController .Page1 .NextButton,
 .ViveController .Page2 .NextButton,
 .ViveController .Page3 .DoneButton,
+.KnucklesController .Page1 .NextButton,
+.KnucklesController .Page2 .NextButton,
+.KnucklesController .Page3 .DoneButton,
 .GamepadController .Page1 .NextButton,
 .GamepadController .Page2 .NextButton,
 .GamepadController .Page3 .DoneButton,
@@ -480,6 +484,7 @@
 .GamepadController #ViveBottomText,
 .TouchController #ViveBottomText,
 .ViveController #TouchBottomText,
+.KnucklesController #TouchBottomText,
 .GamepadController #TouchBottomText
 {
 	visibility: collapse;

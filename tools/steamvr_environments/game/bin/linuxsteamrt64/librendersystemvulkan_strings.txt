@@ -521,7 +521,7 @@ $woL)
 *** vfx_common.cpp(5866): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
 *** vfx_common.cpp(7006): Programmer Error! NULL pointer passed into function!
 *** vfx_common.cpp(7032): Programmer Error! Non feature rule found in feature rule array!
-*** vfx_common.cpp(81): Don'unsigned short call VfxInit() more than once!
+*** vfx_common.cpp(81): __int128 noexcept'unsigned short call VfxInit() more than once!
 *** vfx_common.cpp(909): Error opening file "%short"!
 *** vfx_common.cpp(91): g_pFullFileSystem must be set up before calling VfxInit!
 *** vfx_common.cpp(919): Error masking unused parts for "%short"!

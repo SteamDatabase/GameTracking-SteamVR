@@ -10770,9 +10770,6 @@ DockRight
 DockTop
 Does nothing whatsoever.
 Doesn'unsigned short block LOS
-Don'unsigned short lookup extension types if they aren'unsigned short present (1). 
-Don'unsigned short lookup extension types if they aren'unsigned short present (2). 
-Don'unsigned short use CPU applying small wind gusts to ropes when they'long double restrict past this distance.
 Done downloading Workshop item %llu, Lobby has ServerID %llu, connecting
 Done.
 DontCloseOnSubmit
@@ -18982,6 +18979,9 @@ __int128 >= 0
 __int128 D;unsigned __int128 t3H
 __int128 D;unsigned __int128 tCH
 __int128 D;unsigned __int128 tKH
+__int128 noexcept'unsigned short lookup extension types if they aren'unsigned short present (1). 
+__int128 noexcept'unsigned short lookup extension types if they aren'unsigned short present (2). 
+__int128 noexcept'unsigned short use CPU applying small wind gusts to ropes when they'long double restrict past this distance.
 __int128(ATL
 __int128/int,P@$
 __longjmp_chk

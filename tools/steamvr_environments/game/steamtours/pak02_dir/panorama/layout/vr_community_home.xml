@@ -133,11 +133,12 @@
 					</Panel>
 					<Panel class="Valve_Promotion" onactivate="ShowValveItems()">
 						<Image class="PromoImage" src="s2r://panorama/images/content_browser/valve_promo_png.vtex" />			
+						<Image class="VivePromoImage" src="s2r://panorama/images/content_browser/valve_promo_small_png.vtex" />
 						<Label class="PromoTitle" text="#ValvePromoTitle"/>
 						<Label class="PromoDesc" text="#ValvePromoDesc"/>
 					</Panel>
-					<Panel class="HTC_Promotion">
-						<Image class="PromoImage" src="s2r://panorama/images/content_browser/vive_promo_png.vtex" scaling="stretch-to-fit-preserve-aspect" />	
+					<Panel class="HTC_Promotion" onactivate="ShowViveItems()">
+						<Image class="VivePromoImage" src="s2r://panorama/images/content_browser/vive_promo_png.vtex"/>	
 						<Label class="PromoTitle" text="#HTCPromoTitle"/>
 						<Label class="PromoDesc" text="#HTCPromoDesc"/>
 					</Panel>
@@ -156,6 +157,23 @@
 							</Panel>
 						</Panel>
 					</Panel>
+
+					<Panel class="VivePromoWrapper">
+						<Panel class="VivePromoDialog">
+							<Panel class="DialogTitleBar">
+								<Label class="DialogTitle" text="#VivePromoTitle"/>
+								<Button class="CloseDialogButton" onactivate="HideViveItems()">
+									<Image class="CloseDialogButtonImage" src="s2r://panorama/images/content_browser/icon_unsubscribe_png.vtex" />	
+								</Button>	
+							</Panel>
+							<Panel class="DialogPromoImages">
+								<Label class="DialogDesc" text="#VivePromoDesc"/>
+								<Image class="DialogPromoImage" src="s2r://panorama/images/contentdb/vive_headset_png.vtex" />
+								<Image class="DialogPromoImage" src="s2r://panorama/images/contentdb/vive_logo_statue_png.vtex" />
+							</Panel>
+						</Panel>
+					</Panel>
+										
 				</Panel>
 
 			</Panel>

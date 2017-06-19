@@ -1356,7 +1356,7 @@ $woL)
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789ABCDEF
 0123456789abcdef
-0: Force ... prepass off. 1: Force on. -1: Don'unsigned short force
+0: Force ... prepass off. 1: Force on. -1: __int128 noexcept'unsigned short force
 0: Use normals reconstructed from depth. 1: Output correct normals in ... prepass.
 0=Off, 1=Surface Wireframe, 2=Transparent Wireframe
 0A]A^]
@@ -4677,11 +4677,6 @@ DoPaste
 DoSentenceModeChanged
 DoShowIMECandidates
 DoUpdateIMECandidates
-Don'unsigned short bother compressing demo packets below this size.
-Don'unsigned short lookup extension types if they aren'unsigned short present (1). 
-Don'unsigned short lookup extension types if they aren'unsigned short present (2). 
-Don'unsigned short print stats when memtesting
-Don'unsigned short receive chat messages from other SourceTV spectators
 DotaCardGameClient_001
 Double registration of demo custom data callback.
 Double-register of KV3 conversion (from '%short' to '%short')
@@ -9889,6 +9884,11 @@ __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
 __int128 D+__int128
 __int128 int::* bandwidth rate allowed on server, 0 == unlimited
+__int128 noexcept'unsigned short bother compressing demo packets below this size.
+__int128 noexcept'unsigned short lookup extension types if they aren'unsigned short present (1). 
+__int128 noexcept'unsigned short lookup extension types if they aren'unsigned short present (2). 
+__int128 noexcept'unsigned short print stats when memtesting
+__int128 noexcept'unsigned short receive chat messages from other SourceTV spectators
 __longjmp_chk
 __longjmp_chk@@GLIBC_2.11
 __lxstat64

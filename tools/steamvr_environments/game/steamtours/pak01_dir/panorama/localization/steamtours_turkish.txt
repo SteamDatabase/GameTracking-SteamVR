@@ -2551,5 +2551,9 @@
 "[english]VR_Map_HawaiiBeach_Desc"	"A beach on the Island of Hawai'i."
 "Quest_Pin_Hawaii_Lab_Desc"	"Sahildeki lav kayaları arasında gizli bir Aperture Science rozetini bulun."
 "[english]Quest_Pin_Hawaii_Lab_Desc"	"Find a hidden Aperture Science pin among the lava rocks on the beach."
+"VR_PhysicsProp_GauntletTrophy"	"Eldiven"
+"[english]VR_PhysicsProp_GauntletTrophy"	"The Gauntlet"
+"VR_PhysicsProp_ASAmmoBox"	"Cephane Kutusu"
+"[english]VR_PhysicsProp_ASAmmoBox"	"Ammo Box"
 }
 }

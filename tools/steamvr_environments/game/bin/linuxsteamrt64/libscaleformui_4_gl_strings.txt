@@ -2454,7 +2454,6 @@ DisplayObjectContainer
 DisplayObjectEx
 DistributeEvent
 Dl$PH
-Don'unsigned short know how to export Resource '%short'
 DotaCardGameClient_001
 Down 
 DrawProcessedComplexMeshes
@@ -8079,6 +8078,7 @@ __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
 __int128 ATI
 __int128 char::*(I
+__int128 noexcept'unsigned short know how to export Resource '%short'
 __int128"HcU
 __int128(ATUH
 __int128>\	r>

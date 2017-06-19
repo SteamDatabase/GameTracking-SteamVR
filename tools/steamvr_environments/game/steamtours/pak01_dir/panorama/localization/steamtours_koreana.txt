@@ -2181,7 +2181,7 @@
 "[english]RecentApps_Title"	"RECENTLY LAUNCHED"
 "RecentApps_Footer"	"모든 애플리케이션에 적용되도록, 시스템 버튼을 누르십시오."
 "[english]RecentApps_Footer"	"For all applications, press the System button."
-"VR_Map_SteamVRHome"	"산꼭대기의 쉼터"
+"VR_Map_SteamVRHome"	"산꼭대기 쉼터"
 "[english]VR_Map_SteamVRHome"	"Summit Pavilion"
 "VR_Map_SteamVRHome_Desc"	"산 속에 있는 쉼터입니다."
 "[english]VR_Map_SteamVRHome_Desc"	"A pavilion in the mountains."
@@ -2483,5 +2483,11 @@
 "[english]Quest_PeanutGallery_Elephant"	"Stuffed Elephant Quest"
 "Quest_PeanutGallery_Elephant_Desc"	"땅콩 갤러리에서 2000점 이상 획득하면 코끼리 인형을 상으로 받을 수 있습니다."
 "[english]Quest_PeanutGallery_Elephant_Desc"	"Win the Stuffed Elephant prize by scoring at least 2500 points in Peanut Gallery."
+"ResetButtonText"	"위치 초기화"
+"[english]ResetButtonText"	"Reset Position"
+"ResetAnchorButtonText"	"위치 초기화"
+"[english]ResetAnchorButtonText"	"Reset Position"
+"VR_Map_HawaiiBeach"	"하와이 해변"
+"[english]VR_Map_HawaiiBeach"	"Hawai'i Beach"
 }
 }

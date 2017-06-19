@@ -1547,8 +1547,7 @@ SteamToursFriends.Hidden {
 	visibility: collapse;	
 }
 
-.ClosingLobby .ConfirmationMessageWrapper,
-.LeavingLobby .ConfirmationMessageWrapper
+.ClosingLobby .ConfirmationMessageWrapper
 {
 	visibility: visible;	
 }
@@ -1603,14 +1602,12 @@ SteamToursFriends.Hidden {
 	//background-color: red;
 }
 
-#ConfirmationMessage,
-#ConfirmationLeaveMessage
+#ConfirmationMessage
 {
 	visibility: collapse;	
 }
 
-.ClosingLobby #ConfirmationMessage,
-.LeavingLobby #ConfirmationLeaveMessage
+.ClosingLobby #ConfirmationMessage
 {
 	visibility: visible;
 }

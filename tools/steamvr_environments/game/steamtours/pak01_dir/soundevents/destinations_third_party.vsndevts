@@ -1,0 +1,166 @@
+"neko_purr"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = "1.0"
+		pitch = "1.0"
+		vsnd_files = "sounds/third_party/neko_purr_lp.vsnd"
+	}}
+
+"neko_fart"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = "1.0"
+		pitch = "1.0"
+		vsnd_files = 
+		[
+			"sounds/third_party/neko_fart_01.vsnd",
+			"sounds/third_party/neko_fart_02.vsnd",
+			"sounds/third_party/neko_fart_03.vsnd",
+			"sounds/third_party/neko_fart_04.vsnd",
+		]
+	}}
+
+"meeseeks_can_do"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_can_do.vsnd"
+	}}
+
+"meeseeks_yes_sirree"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_yes_sirree.vsnd"
+	}}
+
+"meeseeks_existence_is_pain"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_existence_is_pain.vsnd"
+	}}
+
+"meeseeks_golf"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_golf.vsnd"
+	}}
+
+"meeseeks_rope_me"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_rope_me.vsnd"
+	}}
+
+"meeseeks_cant_take_it"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_cant_take_it.vsnd"
+	}}
+
+"meeseeks_follow_through"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_follow_through.vsnd"
+	}}
+
+"meeseeks_getting_weird"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_getting_weird.vsnd"
+	}}
+
+"meeseeks_setting_free"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_setting_free.vsnd"
+	}}
+
+"meeseeks_hi"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_hi.vsnd"
+	}}
+
+"mister_meeseeks_01"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/mister_meeseeks_01.vsnd"
+	}}
+
+"meeseeks_spawn"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_spawn.vsnd"
+	}}
+
+"meeseeks_delete"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_delete.vsnd"
+	}}
+
+"meeseeks_box_button"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.5
+		fade_in = 0.1
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_box_button.vsnd"
+	}}
+
