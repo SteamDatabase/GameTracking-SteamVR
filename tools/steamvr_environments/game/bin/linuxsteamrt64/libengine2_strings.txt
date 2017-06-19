@@ -1435,6 +1435,7 @@ $woL)
 6H92t%H
 6H92u
 6I90t
+6~%...]
 7At!H
 7[A\A]A^]
 7x4f.
@@ -1489,6 +1490,7 @@ $woL)
 ;*unsigned short*1
 ;2|?H
 ;2~.H
+;5Ycy
 ;BX}dH
 ;D;O$v
 ;D;__float128 
@@ -4437,7 +4439,7 @@ D9(t1H
 D9+~F
 D9+~cE
 D99ts
-D9=YDu
+D9=iBu
 D9F<~
 D9L$0A
 D9L$0~VM
@@ -4459,6 +4461,7 @@ D;+};H
 D;... void
 D;.~3L
 D;.~9H
+D;5DNh
 D;9tGH9
 D;9tc
 D;@(D
@@ -5549,59 +5552,56 @@ H9GHt
 H9W8t	]
 H9p0txH
 H;=	6
-H;=!%
-H;=!:
-H;=!char
-H;=!void
-H;=#4
-H;=%unsigned char
-H;=&P
-H;=(X
-H;=/(
-H;=/)
-H;=14
-H;=6E
-H;=6N
+H;=!5
+H;=!^
+H;=!q
+H;=#wchar_t
+H;=&F
+H;=&H
+H;=0/
+H;=1/
+H;=1~
+H;=3%
+H;=6F
 H;=8<
 H;=8l
-H;=;;
 H;=<(
-H;=A.
-H;=Aj
-H;=Aw
-H;=A}
-H;=FL
+H;==S
+H;=?	
+H;=A'
+H;=Ae
+H;=Ax
+H;=FD
 H;=H6
+H;=HN
 H;=Ht
-H;=O/
-H;=Q%
-H;=Q&
-H;=Qd
-H;=Qw
-H;=VJ
-H;=X`
-H;=X}void
-H;=_9
-H;=a5
-H;=aq
+H;=LF
+H;=Q6
+H;=Q_
+H;=Qr
+H;=R/
+H;=Sh
+H;=VB
+H;=X5
+H;=a0
+H;=al
 H;=bool(
-H;=cw
-H;=fF
-H;=fH
+H;=float=
 H;=hQ
-H;=p
-H;=p/
-H;=q/
+H;=k
+H;=mV
+H;=q(
+H;=q*
 H;=qe
-H;=qk
-H;=q~
-H;=short%
-H;=signed char^
+H;=qf
+H;=qy
+H;=rF
+H;=signed char?
+H;=unsigned __int128(
 H;=unsigned char,
-H;=vF
+H;=void;
 H;=xZ
 H;={6
-H;=}S
 H;=}unsigned char
 H;=~'
 H;B u
@@ -6521,7 +6521,7 @@ Lc+D;k
 Lc/E)
 Lc/E1
 Lc3D;short
-Lc5{Nh
+Lc5;Nh
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -9367,7 +9367,7 @@ X2:jH
 X360_DST16
 X360_DST24
 X360_DST24F
-X=<8#
+X=\8#
 XA+M4M
 XD$ A
 XETPH
@@ -9376,7 +9376,6 @@ X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 XboxSystemInterface001
-Y-hl#
 YD$$L
 YR ~UK
 Y[A\A]]
@@ -9938,6 +9937,7 @@ _setjmp@@GLIBC_2.2.5
 _temp_mapcycle.txt
 _test_conversion_counter
 _vr_360
+_vr_knuckles
 _vr_vive
 _widescreen
 `D;S8}DI
@@ -12779,7 +12779,7 @@ t$@A\]
 t$@tsHc
 t$D9j
 t$D9m
-t$D;%C
+t$D;%
 t$E9e
 t$H9h
 t$HcP
@@ -13128,10 +13128,10 @@ unsigned short#Hc{,H
 unsigned short#Lcc
 unsigned short#Lcc0D;char@D
 unsigned short#Lck
-unsigned short&D;=U
+unsigned short&D;=
 unsigned short&Hcq
 unsigned short&L;unsigned long
-unsigned short'D;5~
+unsigned short'D;5>
 unsigned short'Hc{
 unsigned short'Hc{ H
 unsigned short'Hc{$H
@@ -13149,13 +13149,14 @@ unsigned short'[A\]
 unsigned short(HcCH
 unsigned short(HcO
 unsigned short(Lc#D;char
-unsigned short)D;-P
+unsigned short);=bool
+unsigned short)D;-
 unsigned short)D;=
 unsigned short)HcE
 unsigned short*:E1
 unsigned short*<*u
 unsigned short*<-H
-unsigned short*D;=
+unsigned short*D;=Y
 unsigned short*HcC
 unsigned short*HcC(
 unsigned short*HcC`;Cp
@@ -13174,7 +13175,7 @@ unsigned short,IcD$
 unsigned short,Lc+H
 unsigned short,Mcl$
 unsigned short-;wchar_t,r
-unsigned short-D;=L
+unsigned short-D;=
 unsigned short-Hc{
 unsigned short-Lck
 unsigned short-void char::*
@@ -13195,7 +13196,7 @@ unsigned short@[A\A]A^]
 unsigned short\G9l
 unsigned short]D;long double
 unsigned short^[A\]
-unsigned short`95I
+unsigned short`95	
 unsigned short`D;unsigned char }nf
 unsigned short`[A\]
 unsigned short{</u

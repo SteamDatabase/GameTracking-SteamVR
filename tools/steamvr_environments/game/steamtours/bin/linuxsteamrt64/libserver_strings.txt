@@ -1652,10 +1652,14 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%78J
-.%`cw
-.-SDp
-.-pDx
+.% ew
+.%-,E
+.%G8J
+.%cew
+.%mBv
+.-0Fx
+.-cDp
+.-p4x
 ...	?0e`9
 ..."u H
 ..."u I
@@ -1774,8 +1778,9 @@ $woL)
 ../shared/weapon_parse_default.cpp
 ..\content
 .0z%u#
-.=6@long long
-.=B|u
+.=CSx
+.=U{u
+.=p{u
 .>()09
 .@(."
 .@,wqH
@@ -2169,7 +2174,7 @@ $woL)
 6@3333
 6@ffff
 6@u!V
-6D#5{;$
+6D#5k;$
 6F+U F
 6H92t%H
 6H92u
@@ -2297,7 +2302,6 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;5cvA
 ;@*$pV
 ;A0}4H
 ;Affff
@@ -2306,8 +2310,7 @@ $woL)
 ;Fht.A
 ;FhtID
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5$(
-;Hc5Y
+;Hc5I
 ;K(}&H
 ;L9'u
 ;L9?u
@@ -3116,8 +3119,8 @@ A;G A
 A;GP~
 A;Gp|
 A;L$8
-A;L$@~LA
 A;L$Pt
+A;M@~HA
 A;Nh|
 A;T$ 
 A;T$H
@@ -10702,8 +10705,9 @@ D+{$Mc
 D8kSt
 D9 unsigned short)H
 D9 ~NH
-D9%T_
-D9%`^
+D9%D]
+D9%P\
+D9%bool~
 D9't$H
 D9'unsigned short,H
 D9(t1H
@@ -10730,16 +10734,17 @@ D; t3
 D;!unsigned short{Hc
 D;#}|E
 D;$%H
-D;%#z6
-D;%E`
+D;%5^
+D;%rjF
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;,%H
 D;.~3L
 D;.~9H
+D;5s"8
 D;:tPH
-D;=07
+D;= 5
 D;G@t5H
 D;__float128(D
 D;__float128`D
@@ -11260,12 +11265,12 @@ E;n$}*H
 E;t$ M
 E;t$8D
 E;t$Pt
+E;u(D
 E;uH|
 E;u`D
 E;wchar_t ~EA
 E;wchar_t`D
 E;|$ D
-E;|$(D
 E;} D
 E@7l[
 EBaseClientMessages
@@ -12598,75 +12603,80 @@ H;0tTH
 H;2t!H
 H;3t*H
 H;7t)H
-H;=!%)
-H;=!&+
-H;=!9+
-H;=!L+
-H;=!void
-H;=#@int
-H;=&K)
-H;=&signed char+
-H;=)hj
-H;=... volatile+
-H;=1	#
-H;=13+
-H;=1\
-H;=3sG
-H;=63
-H;=6I)
-H;=6_+
-H;=6~+
-H;=8'B
-H;=8DD
-H;=A,)
-H;=A-+
-H;=A@+
-H;=AN8
-H;=AS+
-H;=An9
-H;=A}
-H;=F+
-H;=FG)
-H;=F]+
-H;=F|+
-H;=H)G
-H;=HYG
-H;=H~
-H;=Q&)
-H;=Q'+
-H;=Q:+
-H;=QM+
-H;=S	#
-H;=S=int
-H;=US1
-H;=VE)
-H;=X	J
-H;=X#G
-H;=XaG
-H;=[<int
-H;=[\
-H;=a4+
-H;=aG+
-H;=ec9
-H;=fC)
-H;=fx+
-H;=hYC
-H;=ihg
-H;=kl
-H;=long long>J
-H;=q-)
-H;=q.+
-H;=qA+
-H;=qT+
-H;=qzJ
-H;=q~
-H;=signed char{__float128
-H;=signed char}unsigned long
-H;=unL
-H;=vA)
-H;=vH
-H;=vv+
-H;=}od
+H;=!	#
+H;=!3+
+H;=!F+
+H;=!}
+H;=#sG
+H;=&0
+H;=&I)
+H;=&_+
+H;=&~+
+H;=('B
+H;=(DD
+H;=1,)
+H;=1-+
+H;=1@+
+H;=1N8
+H;=6G)
+H;=6]+
+H;=6|+
+H;=8)G
+H;=8YG
+H;=A&)
+H;=A'+
+H;=A:+
+H;=AC
+H;=AM+
+H;=C	#
+H;=C=int
+H;=FE)
+H;=Fz+
+H;=H	J
+H;=H#G
+H;=HaG
+H;=Hf
+H;=Hu
+H;=K<int
+H;=ML1
+H;=Q+
+H;=Q4+
+H;=QG+
+H;=Q{__float128
+H;=Q}unsigned long
+H;=Q~
+H;=S+
+H;=VC)
+H;=XYC
+H;=Yhg
+H;=a.+
+H;=aA+
+H;=aT+
+H;=azJ
+H;=enL
+H;=fA)
+H;=fG
+H;=fv+
+H;=long long volatile+
+H;=mod
+H;=q')
+H;=q(+
+H;=q;+
+H;=qN+
+H;=qRJ
+H;=signed char-)
+H;=u,double
+H;=unsigned char>J
+H;=unsigned long long&double
+H;=v2
+H;=void?)
+H;=vt+
+H;=x5#
+H;=xDB
+H;=xGJ
+H;=yr9
+H;=}UK
+H;=}W#
 H;>unsigned short[H
 H;B0u
 H;C r
@@ -13256,20 +13266,20 @@ IcT$ I
 IcT$$
 IcT$(A;T$8
 IcT$(I
-IcT$(L
 IcT$,
 IcT$0I
 IcT$4H
 IcT$8H
 IcT$8I
 IcT$@A;T$P
-IcT$@L
 IcT$X
 IcT$\1
 IcT$hL
 IcU E
+IcU(L
 IcU8H
 IcU@A;UP
+IcU@L
 IcUPA;U`
 IcV H
 IcV(H
@@ -14173,10 +14183,9 @@ Lc!D;signed char
 Lc#D9b
 Lc#D;char
 Lc#E9
-Lc%5z6
-Lc%:E"
-Lc%<`
-Lc%yjF
+Lc%*C"
+Lc%,^
+Lc%ijF
 Lc&D;float
 Lc'D;__float128
 Lc'E)
@@ -14551,10 +14560,10 @@ Mct$ E;t$0D
 Mct$81
 Mct$8E;t$HD
 Mct$hE;t$xD
+Mcu0E;u@D
 McuPE
 McwPf
 Mc|$ E;|$0
-Mc|$0E;|$@D
 Mc|$XE;|$hD
 MeasureTH
 Measures distance along signed char ray
@@ -18453,9 +18462,9 @@ W ;2t"H
 W H9r
 W(Aq=
 W(H92t'H
+W-TI|
 W3|Uxa
-W=E_]
-W=unsigned __int128\]
+W=U_]
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18635,13 +18644,15 @@ Wrong alignment %double
 Wzm6V"
 W{@3333
 X zR&="@r
-X%3bh
-X%_{M
+X%Cbh
+X%unsigned __int128{M
+X-L1x
+X-l1x
 X2:jH
-X5l/long long
+X5,x
 X9t6@
 X=2v?
-X=\/long long
+X=|Dx
 X@TE;U<
 X@ffff
 XAxis
@@ -18666,11 +18677,11 @@ XfA9D]
 Xg8Hc
 XxHc@unsigned short
 Y ANb
-Y%@bool]
-Y%ul-
+Y%bool*]
+Y-#b
 Y/&4@4
 Y6	@W'__float128(
-Y=unsigned long long=]
+Y=MY%
 Y?3333E
 Y?[A\]
 Y@CFuncAreaPortalBase
@@ -18767,10 +18778,11 @@ Z}uU
 \$hIcEXI
 \$xLc
 \%03o
-\-$0x
-\-40x
-\-fDx
-\=IDx
+\%t9z
+\-&Fx
+\5H5x
+\=	Fx
+\=M4x
 \CXfA
 \FxD)
 \U%08x
@@ -18804,6 +18816,7 @@ Z}uU
 ^Fa.@
 ^`V(R
 _ ~`I
+_%ZDv
 _8t;A
 _@')UG3;
 _D$HH
@@ -19522,7 +19535,6 @@ animationsystem
 animevents_dump
 animgraph_enable
 aponThinH
-appid
 application
 applycontext
 applycontexttoworld
@@ -20586,6 +20598,7 @@ fA;\__int128
 fA;__int128
 fA;__int128imaginary 
 fA;float&&
+fD9%$
 fD9'unsigned short@H
 fD9/t0H
 fD91u|
@@ -21534,6 +21547,7 @@ inventoryServiceID
 inventoryServicePromoRules
 inventoryServiceQuantity
 inventory_service_id
+inventory_service_promo_appid
 inventory_service_promo_rules
 invert_exclusion
 invert_orientation
@@ -21899,7 +21913,7 @@ long long*;XZ
 long long*@3333GJ
 long long*HcSx;
 long long:Hcw
-long long;;=<
+long long;;=,
 long long@CAI_TrackPather
 long long[A\A]A^A_]
 long long[A\A]]
@@ -28469,7 +28483,7 @@ t$0H)
 t$0Lc
 t$89C
 t$8H)
-t$;5Ub1
+t$;5Eb1
 t$<H)
 t$@A;wchar_t@~
 t$@A\]
@@ -28834,10 +28848,10 @@ uUMc}
 uYLl>
 uZJcT
 u[[A\]
-u]D;%^kG
+u]D;%NkG
 u^[&`
 ubIcE
-uhL;-Y@C
+uhL;-I@C
 uint16
 uint32
 uint64
@@ -29005,7 +29019,7 @@ unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@D;(};E
 unsigned short@Ic_
-unsigned short@Lc%
+unsigned short@Lc%	
 unsigned short@[A\A]A^]
 unsigned short@[A\]
 unsigned short@}?5^
@@ -29689,7 +29703,7 @@ zzuxI
 }KfD9
 }Lf;wchar_t
 }Sf;HnwMf
-}TD;%ikG
+}TD;%YkG
 }Tf;wchar_t
 }TfD9
 }UHc
@@ -29717,7 +29731,7 @@ zzuxI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=char
+~)H9=
 ~*HcE
 ~*I;X
 ~*L;bool

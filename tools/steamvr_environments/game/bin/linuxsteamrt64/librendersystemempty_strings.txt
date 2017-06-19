@@ -613,6 +613,7 @@ Cannot quantize to fewer than %double colors
 Cannot quantize to more than %double colors
 Cannot transcode due to multiple use of quantization table %double
 Caution: quantization tables are too coarse for baseline JPEG
+Ccx	signed char
 ChangeSize
 Clibpng warning: %short
 Closed temporary file %short
