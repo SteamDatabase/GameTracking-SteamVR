@@ -23,7 +23,6 @@
 "ctrl"	"1"
 "id" "elementid" 
 "keycode"	"%short"
-"pA3Q
 "shift"	"1"
 "unsigned short&L;}
 #Frame_Untitled
@@ -577,7 +576,7 @@ D48D9
 D9y@tO
 D;!unsigned short{Hc
 D;'unsigned short{Hc
-D;5DK1
+D;5D61
 D;__float128(D
 D;cPD
 D;char D
@@ -1018,7 +1017,7 @@ Lc(D;unsigned char
 Lc+D;k
 Lc/E)
 Lc3D;short
-Lc5;K1
+Lc5;61
 Lc6E9
 Lc7E)
 Lcc@H
@@ -1155,6 +1154,7 @@ Plat_ExitProcess
 Plat_FlashWindow
 Plat_FloatTime
 Plat_GetOSType
+Plat_GetThreadIndex
 Plat_GetWindowBounds
 Plat_GetWindowClientSize
 Plat_IsHighDPI
@@ -1871,10 +1871,6 @@ memset
 memset@@GLIBC_2.2.5
 minimum-height
 minimum-width
-modeldoc0
-modeldoc1
-modeldoc2
-modeldoc3
 mouseinputenabled
 navDown
 navLeft

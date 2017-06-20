@@ -60,6 +60,7 @@
  Plat_GetModuleInterfaceFactory
  Plat_GetOSType
  Plat_GetPlatformError
+ Plat_GetThreadIndex
  Plat_GetTime
  Plat_IgnoreContentAsserts
  Plat_InitializeCOM

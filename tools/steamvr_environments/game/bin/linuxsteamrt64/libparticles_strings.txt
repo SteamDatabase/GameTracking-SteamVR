@@ -111,20 +111,21 @@ $woL)
 &YA1H
 &YA1L
 &[A\A]A^]
-&tQD9
 '	?@XC
 '":+;
 'Lighten blend mode
 'Number of columns in grid
 'Number of rows in grid
-(%K[P
 (*%short*), 
-(->XP
+(-nfP
+(-x4,
 (4$t%
-(5[.0
-(5ta0
-(5yn0
+(5.5,
+(5C=0
+(5R.0
+(5h7,
 (9s ~@H
+(=%8,
 (@ Mc
 (A9] 
 (A9^ 
@@ -160,6 +161,7 @@ $woL)
 (bool f.
 (d1 D
 (t2 A
+(tQD9
 (|$ A
 )&unsigned short<Lc
 )9t7L
@@ -226,6 +228,7 @@ $woL)
 .125 .125 .125
 .25 .25 .25
 .5 .5 .5
+.5Ne+
 .8z#u!
 .@long{'
 .D$DsjL
@@ -621,6 +624,7 @@ Amount to multiply light brightness by
 Amount to multiply particle system radius by to get light radius
 Anchor point source
 AnimFile
+AnimProxy
 Animation
 Animation Sequence
 AnimationList
@@ -635,6 +639,7 @@ Approximate size in feet of the texture before repeat
 Arc Duration Maximum
 Arc Speed
 AssertMsg_ConditionFailed
+AssetBrowse( psf )
 AssetBrowse( vmat )
 AssetBrowse( vmdl )
 AssetBrowse( vtex )
@@ -710,9 +715,9 @@ C(Z[]
 C([A\]
 C,[A\A]]
 C,[A\]
-C3[A\]
 C8HcG
 C8[A\]
+C;[A\]
 CAimConstraint
 CAtomicManipulator<CResourceArray<AttachmentData_t> >
 CAtomicManipulator<CResourceArray<BaseConstraint_t> >
@@ -1043,6 +1048,7 @@ CParticleOperatorDefinition<C_OP_FadeOutSimple>
 CParticleOperatorDefinition<C_OP_ForceBasedOnDistanceToPlane>
 CParticleOperatorDefinition<C_OP_GlobalLight>
 CParticleOperatorDefinition<C_OP_InheritFromParentParticles>
+CParticleOperatorDefinition<C_OP_InitSetSnapshotOnCP>
 CParticleOperatorDefinition<C_OP_InstantaneousEmitter>
 CParticleOperatorDefinition<C_OP_InterpolateRadius>
 CParticleOperatorDefinition<C_OP_LagCompensation>
@@ -1135,6 +1141,7 @@ CParticleOperatorDefinition<C_OP_RenderSound>
 CParticleOperatorDefinition<C_OP_RenderSprites>
 CParticleOperatorDefinition<C_OP_RenderStandardLight>
 CParticleOperatorDefinition<C_OP_RenderStatusEffect>
+CParticleOperatorDefinition<C_OP_RenderText>
 CParticleOperatorDefinition<C_OP_RenderTrails>
 CParticleOperatorDefinition<C_OP_RenderTreeShake>
 CParticleOperatorDefinition<C_OP_RestartAfterDuration>
@@ -1214,6 +1221,7 @@ CPtRHcS$H
 CREATION_TIME
 CRefCountServiceBase<true, CRefMT>
 CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >
+CRefCounted<CRefCountServiceBase<true, CRefMT> >
 CReferenceCleanupTraversal
 CRenderBufferBinding
 CRenderMesh
@@ -1393,6 +1401,7 @@ CSchemaClassBinding<C_OP_FadeOutSimple>
 CSchemaClassBinding<C_OP_ForceBasedOnDistanceToPlane>
 CSchemaClassBinding<C_OP_GlobalLight>
 CSchemaClassBinding<C_OP_InheritFromParentParticles>
+CSchemaClassBinding<C_OP_InitSetSnapshotOnCP>
 CSchemaClassBinding<C_OP_InstantaneousEmitter>
 CSchemaClassBinding<C_OP_InterpolateRadius>
 CSchemaClassBinding<C_OP_LagCompensation>
@@ -1485,6 +1494,7 @@ CSchemaClassBinding<C_OP_RenderSound>
 CSchemaClassBinding<C_OP_RenderSprites>
 CSchemaClassBinding<C_OP_RenderStandardLight>
 CSchemaClassBinding<C_OP_RenderStatusEffect>
+CSchemaClassBinding<C_OP_RenderText>
 CSchemaClassBinding<C_OP_RenderTrails>
 CSchemaClassBinding<C_OP_RenderTreeShake>
 CSchemaClassBinding<C_OP_RestartAfterDuration>
@@ -1934,6 +1944,7 @@ C_OP_FadeOutSimple
 C_OP_ForceBasedOnDistanceToPlane
 C_OP_GlobalLight
 C_OP_InheritFromParentParticles
+C_OP_InitSetSnapshotOnCP
 C_OP_InstantaneousEmitter
 C_OP_InterpolateRadius
 C_OP_LagCompensation
@@ -2027,6 +2038,7 @@ C_OP_RenderSound
 C_OP_RenderSprites
 C_OP_RenderStandardLight
 C_OP_RenderStatusEffect
+C_OP_RenderText
 C_OP_RenderTrails
 C_OP_RenderTreeShake
 C_OP_RestartAfterDuration
@@ -2250,16 +2262,15 @@ D+k$Mc
 D+s$Mc
 D+{$Mc
 D8TE9CTE
-D9=)UC
-D9=ySC
+D9=iRC
 D9cX~6A
 D9{ u
 D:...	tUHc
 D:...	unsigned short
 D;!unsigned short{Hc
 D;'unsigned short{Hc
-D;-FIX
 D;.~9H
+D;__float128 D
 D;__float128(D
 D;__float128`D
 D;char D
@@ -2443,7 +2454,6 @@ Expecting element type name, didn'unsigned short find it!
 Expecting element type, didn'unsigned short find it!
 Expecting quoted attribute value for attribute "%short", didn'unsigned short find one!
 Expecting quoted value for element ID, didn'unsigned short find one!
-Ext!H
 External wind force
 Extra Arc Data Point
 F 9G tq
@@ -2630,7 +2640,7 @@ HammerMapLoader001
 Hc3Ic
 Hc@$H
 Hc@pH
-HcA`;Ap
+HcAp;
 HcB0D
 HcB0I
 HcB8H
@@ -2808,6 +2818,7 @@ Init from CP snapshot
 Init from control point snapshot
 Init from killed parent particle
 Init position within general cylinder
+Init set snapshot on control point
 Init vector attribute from signed char list of values
 Initial Color Bias
 Input Control Point Number
@@ -2832,6 +2843,9 @@ Invalid format for element ID encountered for attribute "%short"
 Invalid header
 Invalid input layout field format %double for joint indices
 Invalid member name '%short'
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 Invert Abs Value
 IsoSurface
 J A9wX
@@ -2880,7 +2894,6 @@ Lc!D;signed char
 Lc#D;char
 Lc#E9
 Lc&D;float
-Lc'D;__float128
 Lc'E)
 Lc+D;k
 Lc.D;__int128
@@ -3276,7 +3289,7 @@ Override CP 2 (X/Y/Z *= Pitch/Yaw/Roll)
 Override CP field
 Override long long signed char::* Velocity from this CP
 P0Mc>E;~
-P8A9^`
+P8A9^p
 P8H=vpcftb1
 P@A	E
 PARALLEL_PROCESS utlsoacontainer.cpp:2532
@@ -3324,7 +3337,6 @@ PRECIPITATION
 PREV_XYZ
 P[A\A]A^A_]
 P[A\A]A^]
-P`HcE
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -3381,6 +3393,7 @@ PhysFeModelDesc_t
 PhysSoftbodyDesc_t
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsShapeCapsule
 PhysicsShapeHull
@@ -3401,6 +3414,7 @@ Plat_GetEnv
 Plat_GetModuleFilename
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
 Plat_MSTime
@@ -3466,6 +3480,7 @@ Position within hexahedron random
 Position within sphere random
 Positions in grid
 PostProcessingSystem_001
+PpHcE
 PpI	F(
 Prevent passing through signed char plane
 Prevent passing through static part of world
@@ -3644,6 +3659,7 @@ Render Flatten Grass
 Render Screen Shake
 Render Sound
 Render Status Effect
+Render Text
 Render Tree Shake
 Render as models
 Render as models (DEPRECATED)
@@ -3817,6 +3833,8 @@ Sequence random
 Sequence random from model activity
 Sequence two random
 SequenceCombineMode_t
+SequenceMarkup
+SequenceMarkupList
 SequencePicker( 1 )
 SequencePicker( 2 )
 SerializeDMX: Unable to open file "%short"
@@ -3933,6 +3951,7 @@ T$XD9
 T$`D9
 T$`unsigned short-A
 T$xH+D$pH
+T%C|,
 TA9GTA
 TD9GTD
 TD9YTD
@@ -4235,6 +4254,7 @@ Visibility input maximum
 Visibility input minimum
 VpropBreakablePartData_t
 VsInputSignature_t
+Vxt!H
 W H9r
 W w4H
 W,f9G*
@@ -5875,6 +5895,7 @@ m_linearLimitSpring
 m_linearLimitValue
 m_lodGroupSwitchDistances
 m_material
+m_materialGroupName
 m_materialGroups
 m_materials
 m_maxForce
@@ -6230,6 +6251,7 @@ m_sequenceName
 m_shape
 m_skeleton
 m_slaves
+m_snapshotName
 m_solverIterationCount
 m_spheres
 m_stencilTestID
@@ -6476,6 +6498,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modellib
 multiplayerBreak_t
 nTries < 10000000
@@ -7024,7 +7048,7 @@ surface_prop
 szLce
 t$ A\]
 t$'H)
-t$3A\A]A^]
+t$;A\A]A^]
 t$@A\]
 t$@tsHc
 t$D9j
@@ -7302,7 +7326,6 @@ write stencil on ...-buffer test failure
 write stencil on ...-buffer test success
 wxLcE
 x0;wX}+Hc
-xA\A]A^A_]
 xGHcO
 xJA;E
 xOHcO

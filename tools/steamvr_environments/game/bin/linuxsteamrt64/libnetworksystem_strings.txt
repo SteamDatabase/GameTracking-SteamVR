@@ -21,6 +21,7 @@
 	dedicated
 	enum_type
 	extension
+	host_loss
 	host_name
 	is_replay
 	low_value
@@ -38,8 +39,10 @@
 	val_short
 	wchar_t#Hc
 	worldname
+        
            per client out %.f, in %.f kB/short
            per client out %.f/short, in %.f/short
+    %short:
     Actual    : 
     Expected  : 
     Field type: 
@@ -52,10 +55,8 @@
   at depth %double items %double
   field is fixed sized array size %double
   field is using array manipulator, current size returned %double
-  incoming delta from baseline:
   merged new baseline:
   possible match %double of %double:  %short %s.%short
-  previous baseline:
  #GameUI_Disconnect_ExitingEngine
  #GameUI_Disconnect_SnapshotError
  #GameUI_Disconnect_SoundsMessage
@@ -180,7 +181,6 @@
 "$0" does not declare $1 as an extension number.
 "%short" 
 "%short" = "%short"
-"%short",
 "%short":
 "%short":"%short"
 "%short":%.3f
@@ -221,12 +221,13 @@
 ##GameUI_Disconnect_BadRelayPassword
 ##GameUI_Disconnect_ReliableOverflow
 ##GameUI_Disconnect_SnapshotOverflow
-#2t9H
+#2t;H
+#7t.L
 #7t0L
-#7t2L
 #7t3L
 #7t4L
 #7t6L
+#7t=L
 #Bidirectional_Messages_LowFrequency
 #GameUI_ClientConsistencyFail
 #GameUI_ClientDifferentMap
@@ -392,6 +393,10 @@ $[A\]
 %short -> %short::%short is marked for networking but is not signed char CNetworkVar!
 %short : %short = '%short'
 %short [%double]
+%short allocation count overflow( %llu > %llu )
+%short allocation count overflow( %llu >= %llu )
+%short allocation count overflow( add %llu + current %llu > max %llu )
+%short at %short
 %short depth %double
 %short encoding %short pointer field %short %short%short%short
 %short encoding array count %double, field %short %short%short
@@ -412,15 +417,17 @@ $[A\]
 %short+--
 %short+-- Schema Class: %short
 %short,%short,'%short',%double,%double,%.3f,%double,%.3f,%double,%double,=E%double/K$1,%short,%short
+%short/%double:  AddFieldPathAndOffset (%short) added too large of signed char bit offset (%u : prev=%u) at element %double
+%short/%double:  AddFieldPathAndOffset (%short) added unexpected offset (%u : prev=%u) at element %double
 %short/%short/%short
 %short:  %double : %short bits %double to %double [%double bits] : %short
 %short:  %short
 %short:  %short packet type '%short' %double/%double (%.f%%)
 %short:  %short timing out, last received %float [%.2f seconds ago]
 %short:  (%u bits/%u bytes):
-%short:  BuildMergedSerializedEntity (meta data for '%short' = array count '%double') was not preserved in merged entity
 %short:  CNetChan::Shutdown -- discarded %double queued packets
 %short:  CNetChan::Transmit( %short ) while suppressing transmit
+%short:  CNetChan::Transmit(%short) %float elapsed since last send, NetTime=%float, ClearTime=%float, TotalSize=%double Rate=%double
 %short:  CNetChan::Transmit(%short) reliable stream overflow
 %short:  CNetChan::Transmit(%short) sending connection id header %X %X
 %short:  CNetChan::Transmit(%short):  Unreliable would overflow, skipping send
@@ -559,6 +566,7 @@ $[A\]
 *NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
 *NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
 *NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
+*pEnd > *pStart
 +++ %short: 
 +++ %short[%double]: 
 +C$9C
@@ -719,6 +727,7 @@ $[A\]
 3+C$H
 3E8 u
 3[A\A]A^]
+4)IcF
 42HcU
 4BfD94A|
 4fff>fff>fff>fff>
@@ -735,14 +744,18 @@ $[A\]
 8[]A\A]A^A_
 92t0H
 9C@~"I
-9Cp~PH
+9C`~PH
 : Protocol message serialized to signed char size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from signed char message with signed char different type. to: 
 : Tried to merge from signed char message with signed char different type.  to: 
 :[tLL
 ;*3$"
-;0|?D
+;0}'D
 ;L9'u
+;Sx|!H
+;XxHc
+;long longcomplex |`H
+;long longcomplex }`M
 <	w.1
 <	woD
 <"umH
@@ -777,7 +790,6 @@ $[A\]
 >LZSS]
 >LZSSt
 ? == %short
-??? hSerializer
 ?CQueuedPacketSender
 @#@tAD
 @@%short allocation count overflow
@@ -821,12 +833,17 @@ A9D$
 A9D$(
 A9D$0
 A9F unsigned short
-A9F(~~H
 A9G }
 A9G(
-A9^p~:I
+A9Ux~mC
+A9\long long
+A9^`~:I
 A9_@~8L
 A;D$ |
+A;D$x
+A;D$x|MH
+A;D$x}
+A;Ex}
 A;G A
 A;T$P
 A;U,u
@@ -839,6 +856,7 @@ A;^ }#I
 A;^ }+I
 A;^(}#I
 A;^0}#I
+A;long longimaginary }
 A;t$(
 A;t$0
 A;t$@
@@ -887,6 +905,7 @@ AWAVAUATI
 AWAVAUATL
 AWAVAUATM
 AWAVAUATS
+AWAVAUATS1
 AWAVAUATSD
 AWAVAUATSH
 AWAVAUATSL
@@ -916,6 +935,7 @@ Ad-hoc packet is %double bytes, larger than MTU of %double
 AddBool
 AddDouble
 AddEnum
+AddFieldPathAndOffset
 AddFloat
 AddInt32
 AddInt64
@@ -957,23 +977,17 @@ Bad expression operator: '%char%char', expected C style boolean expression opera
 Bad expression syntax: '%short', expected signed char single matching pair of enclosing braces.
 Bad expression token: %char
 BakedLODBuilderMgr001
-Base  =
 BenchmarkService001
 Bidirectional_Messages
 BinaryProperties_GetValue
 Bitfield
 Boolean default must be true or false.
 Buffer overflow in net channel %short
-BuildDeltaProperties
-BuildDeltaProperties [ent %double type %short] resolved changes has %llu entries, max is %llu!
 BuildDeltaProperties fieldDataBuf
-BuildDeltaProperties resolvedChanges taking up more than 75 %% of available limit = %double [ent %double type %short]
-BuildDeltaProperties:  %double/%double == %short
-BuildDeltaProperties:  entity has %double fields
-BuildDeltaProperties:  last %double resolved changes
 BuildHierarchy
-BuildMergedSerializedEntity:  built an invalid serialized entity [ent %double] [fastcopy %short]!
+BuildMergedSerializedEntity:  delta header with corrupt array count [ ent %double ]:  entry %double/%double == %u!
 BuildMergedSerializedEntity:  ignoring %short, was in previous state only, now outside of valid range for root field %short [array count %double, base index %double]
+BuildMergedSerializedEntity:  problem writing %short:  %double bits [%double to %double] is < 1 bit!
 Builtin
 Byte size calculation and serialization were inconsistent.  This may indicate signed char bug in protocol buffers or it may be caused by concurrent modification of the message.
 C H;C(
@@ -1040,12 +1054,14 @@ CEmptyConVar
 CEncodeInfo
 CEntitySystem::BuildEntityNetworking (%short build of %short) took %.3f msecs for %double out of %double classes
 CFieldMetadataPacker:  list not sorted
+CFieldMetadataPacker::AddOrUpdateFieldMetadata:  adding/updating with invalid array count %double!
 CFieldPath tracing ended
 CFieldPath tracing started
 CFieldPathHuffmanEncoder::INode
 CFieldPathHuffmanEncoder::InternalNode
 CFieldPathHuffmanEncoder::LeafNode
 CFlattenedSerializer::ApplyOverrides_R
+CFlattenedSerializer::BuildDeltaProperties using %double bytes for encoding %double/%short
 CFlattenedSerializer::BuildOverrideField:  Problem initializing replacement field %short::%short
 CFlattenedSerializer::Decode
 CFlattenedSerializer::Decode array index %double out of range %double for field %short::%short [%double]
@@ -1410,6 +1426,7 @@ CUtlString
 CUtlSymbolLarge
 CXA;EX
 CXXABI_1.3
+C`;Cp
 Can'unsigned short 
 Can'unsigned short BackUp() after failed Next().
 Can'unsigned short EnableLoopbackBetweenSockets between socket %double and %double, not enough slots
@@ -1477,8 +1494,9 @@ D$@M!
 D$HH9
 D$Pt?Hc
 D$XH9CX
+D$`E1
 D$ht%
-D$pE1
+D$xE1
 D$xH9
 D$xI9
 D+C$Mc
@@ -1486,17 +1504,16 @@ D+c$Mc
 D+k$Mc
 D+s$Mc
 D98t~
-D9c(~BH
-D9c(~RH
-D9k(~RH
 D;!unsigned short{Hc
 D;'unsigned short{
+D;'unsigned short{Hc
 D;c8|
 D;cH}*H
 D;cP}*H
 D;char D
 D;char }*H
 D;k |
+D;k(D
 D;kH|
 D;kP|
 DEFAULT_WRITE_PATH
@@ -1506,7 +1523,6 @@ DIALOG_MENU
 DIALOG_MSG
 DIALOG_TEXT
 DIALOG_TYPE
-DIsassociating NetChan %short (%short) from Steam Net Connection handle %long long
 DTI %short
 DTI reset
 DTI: wrote client stats into %s.
@@ -1523,6 +1539,8 @@ DescriptorProtosH
 Destination
 DetermineFieldSerializerGroup
 DevMsg
+Direct UDP connect
+Disassociating NetChan %short (%short) from Steam Net Connection handle %long long
 Display info about signed char message (by classname or id)
 DotaCardGameClient_001
 Drops next __int128 packets on client
@@ -1532,6 +1550,7 @@ Duplicate entry %short already exists in field dict!
 E H9C u
 E fD9
 E$t6M
+E(A9E
 E(fA;D$(
 E+D$$Mc
 E+E$Mc
@@ -1548,13 +1567,13 @@ E32C3
 E49C4
 E88C8u
 E8A8D$8
+E9't7A
 E9epD
-E9fp~GI
+E9f`~GI
 E9gPI
 E9t$ ~kI
-E9t$p
-E9|$(
-E;4$u
+E9t$`
+E9~long long~_I
 E;__float128 |
 E;eXD
 E;f0|
@@ -1634,6 +1653,7 @@ Extension range end number must be greater than start number.
 ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend signed char non-lite type to contain signed char lite type, but the reverse is allowed.
+Extra connection %short:
 F IcV(
 F(A9E(
 F(A9F
@@ -1712,7 +1732,6 @@ G A9G
 G u)H
 G(A9C,u
 G(A9G
-G(HcS
 G,A9C0
 G8A9C<
 G8I;G@
@@ -1750,6 +1769,8 @@ GatherAllFieldOffsets_R
 GatherAllFieldOffsets_R:  local offset of %short::%short %u is too large (%u max)
 Generated new connection id %X for use with remote system "%short"
 Generic
+GetBitRange
+GetBitRange( %u -> %u ) end is before or same as start
 GetBool
 GetCPUInformation
 GetDefaultMiniDumpTypeFlags
@@ -1788,28 +1809,22 @@ H9Q(H
 H9Q(unsigned short
 H9X unsigned short;H
 H9q(unsigned short
-H;="/N
-H;=(3K
-H;=(XN
-H;=1lN
-H;=8aN
-H;=9~N
-H;==oO
-H;=>.N
-H;=AYK
-H;=AaL
-H;=HfK
-H;=KcO
-H;=Q"L
-H;=SlN
-H;=XAL
-H;=XBN
-H;=XRK
-H;=cYK
-H;=d.N
-H;=h_K
-H;=int!K
-H;=short"L
+H;=#"L
+H;=#)N
+H;=1bL
+H;=4/L
+H;=D/N
+H;=DnN
+H;=IaK
+H;=SbL
+H;=Z/L
+H;=[/N
+H;=[5N
+H;=jnN
+H;=unsigned char*K
+H;=unsigned int/N
+H;=x5K
+H;={IN
 H;A8u
 H;S@wchar_t
 HIGHDPI
@@ -1829,11 +1844,11 @@ HcC0L
 HcCHL
 HcCPH
 HcCPL
+HcE H
 HcE(E1
 HcFpH
 HcK H
 HcNpH
-HcO(H
 HcP(;P,
 HcP09
 HcP4
@@ -1847,7 +1862,7 @@ HcS,H
 HcS8H
 HcSPH
 HcSTH
-HcW8UH
+HcW(UH
 HcWPH
 Hc^@;^P
 Hcs H
@@ -2008,8 +2023,6 @@ Lc6E9
 Lc7E)
 Lcc(D;c8D
 Lcf@D;fPD
-Lcm 1
-Lcm H
 LcmX1
 Lc{pD;
 Leaked channel %short remote %short
@@ -2083,15 +2096,11 @@ Mc,$E;l$
 Mc.E;__int128
 Mc/E;unsigned __int128
 Mc4$E;t$
-Mc>E;~
 McD$ 
 Mcl$XE;l$ht/D
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MergeDeltas
-MergeDeltas created bogus entity [ent %double]
-MergeDeltas fix failed
-Merged=
 MeshSystem001
 MeshUtils001
 Message class "
@@ -2268,7 +2277,7 @@ PopOnePlusN
 PopOnePlusOne
 PostProcessingSystem_001
 PrefetchType
-Print steam datagram client status
+Print detailed network statistics for each network connection
 Private key (PEM-like text block) that matches our cert
 Procedural
 ProceduralData
@@ -2325,8 +2334,6 @@ RandomFloat
 RandomInt
 RandomSeed
 Reached an unintended state: CPPTYPE_MESSAGE
-ReadFieldList
-ReadFieldList read inconsistent entity!
 Reading dangerously large protocol message.  If the message turns out to be larger than 
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
@@ -2363,6 +2370,7 @@ ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
 S6[A\]
+SDR connect
 SIGNONSTATE_CHALLENGE
 SIGNONSTATE_CHANGELEVEL
 SIGNONSTATE_CONNECTED
@@ -2448,7 +2456,10 @@ SignedDestinationAddress_t
 SignedPayload_t
 Signon
 Simulate packet loss as signed char percentage (negative means drop 1/__int128 packets)
+Simulate recieved packet loss as signed char percentage (negative means drop 1/__int128 packets)
 SkipPropData_
+Socket '%short' bound to '%short', connection to %short:
+Socket '%short' listening for %short on port %double:
 Socket ProcessAccept Error: %short
 Socket accept ioctl(FIONBIO) failed (%int)
 Socket bind failed (%short)
@@ -2518,6 +2529,7 @@ String field
 String literals cannot cross line boundaries.
 StringOutputStream.
 StringPrintfVector currently only supports up to 
+SxHcE
 Symbol name "
 System
 T$0H9
@@ -2710,7 +2722,6 @@ WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 WriteFieldList
-WriteFieldList writing from inconsistent entity
 WriteToBuffer Message %short is not initialized! Probably missing required fields!
 Writing %double bits for path %short of serializer %short entity %double, this will fail to parse
 XVoice: voice data payload for %p: %u bytes
@@ -3103,7 +3114,7 @@ buftype
 bytes
 bytes. 
 c.[A\]
-cHt6H
+c8t6H
 cc_generic_services
 ceil@@GLIBC_2.2.5
 channel
@@ -3213,7 +3224,7 @@ experimental_map_key
 extend .$0 {
 extendee
 extension_range
-f94Q|0H
+f94Q}
 fA;0M
 fA;0trA
 fA;D$
@@ -3356,13 +3367,11 @@ java_multiple_files
 java_outer_classname
 java_package
 java_string_check_utf8
-k(D;k8D
 k8;C0t8
 k8D;kHD
 k@[A\A]A^]
 key_t
 l$ M9u
-l$(E1
 label
 landmarkname
 ld-linux-x86-64.so.2
@@ -3382,6 +3391,7 @@ listen@@GLIBC_2.2.5
 localhost
 localnamefixup
 location
+long long	;Jx
 long long signed char::* # of seconds we can wait for next packets to be sent based on rate setting (0 == no limit).
 long long(H9z(u
 long long[A\A]A^A_]
@@ -3461,10 +3471,12 @@ net_chokeloop
 net_compresspackets
 net_compresspackets_minsize
 net_compressvoice
+net_connections_stats
 net_droppackets
 net_fakejitter
 net_fakelag
 net_fakeloss
+net_fakeloss_recv
 net_filelogging
 net_listallmessages
 net_max_foreign_packets
@@ -3660,6 +3672,7 @@ serialize
 serializedAddr
 serializedAddress
 serializedTargetAddress
+serializedentity.h
 serializer_name_sym
 serializer_version
 serializers
@@ -3722,7 +3735,6 @@ status_code
 stderr
 stderr@@GLIBC_2.2.5
 steam_id
-steamdatagram_client_status
 steamid
 strchr
 strchr@@GLIBC_2.2.5
@@ -3795,6 +3807,7 @@ symbols
 syntax = "proto2";
 t$<IcD$89
 t$@A\]
+t$D;-
 t$D;5
 t$H9h
 t$HcK
@@ -3803,7 +3816,7 @@ t$Hc{@H
 t$Ic}
 t$Ic~8H
 t$OH)
-t.D;5]!I
+t.D;5
 t0IcD$
 t0L;M
 t1IcV
@@ -3813,6 +3826,7 @@ t3[A\]
 t4[A\]
 t8UE1
 tBLcm
+tDHcCx;
 tDIcV
 tDfD;R
 tJHcC
@@ -3838,7 +3852,6 @@ total_packets_out
 trailing_comments
 ttIcG
 twL9+u
-tyHcO
 type() == TYPE_FIXED32
 type() == TYPE_FIXED64
 type() == TYPE_GROUP
@@ -3861,11 +3874,12 @@ uncompressed_sample_offset
 uncompressed_size
 uninterpreted_option
 unknown
+unknown peer
 unreliable
 unsigned __int128 ATI
 unsigned __int128 ATL
 unsigned __int128(ATSH
-unsigned __int128,ATI
+unsigned char(D9m
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned short	[A\]
@@ -3880,8 +3894,8 @@ unsigned short#Hc{$H
 unsigned short#Hc{(H
 unsigned short#Hc{,H
 unsigned short&IcD$
-unsigned short'D;-V
-unsigned short'D;5~
+unsigned short'D;-
+unsigned short'D;5
 unsigned short'Hc{
 unsigned short'Hc{ H
 unsigned short'Hc{$H
@@ -3893,13 +3907,14 @@ unsigned short'Hc{8H
 unsigned short'Hc{<H
 unsigned short'Hc{HH
 unsigned short'Hc{TH
+unsigned short(D;-
 unsigned short(HcO
+unsigned short(IcV
 unsigned short*HcC
 unsigned short*HcK
 unsigned short*HcO
 unsigned short*[A\A]A^]
 unsigned short+Hc4
-unsigned short+IcV
 unsigned short,Hc]
 unsigned short-D;5
 unsigned short<IcV
@@ -3967,16 +3982,18 @@ worldgroupid
 write
 write@@GLIBC_2.2.5
 wrong submessage type
+wvIcF
 xGHcO
 xGHcW
+xOHcO
+xRD;Fx}LIc
 xRHcW
+xlD;M
 xsHcW
 you_hear_them
 z0t%H
-{(E;long long(
 {<[A\]
 {}()':
-|$(D9
 |$@I9
 |$OH)
 |$pHc
@@ -3986,6 +4003,7 @@ z0t%H
 }*;CTw%
 }+A;ETw%
 }>;w$
+}F;w$
 }Hf;wchar_t
 }I;w$
 }PfD9

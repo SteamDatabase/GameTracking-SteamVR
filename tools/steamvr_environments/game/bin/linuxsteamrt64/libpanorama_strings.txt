@@ -223,7 +223,6 @@
 "$0" does not declare $1 as an extension number.
 "%short" 
 "%short" = "%short"
-"%short",
 "%short":
 "%short":"%short"
 "%short":%.3f
@@ -265,7 +264,6 @@
 "l7ql`R2lWf
 "lbN.
 "long double" must be followed by exponent.
-"pA3Q
 "short const</
 "unsigned short&L;}
 #%02X%02X%02X%02X
@@ -485,6 +483,7 @@ $woL)
 %short PRIVATE KEY
 %short algorithm "%short" unsupported
 %short allocation count overflow
+%short allocation count overflow( %llu >= %llu )
 %short called on fill brush type %double
 %short is trying to import %short, but that file has already been included either from the layout file directly, or from signed char different @import.
 %short property listed in signed char keyframe but marked as cannot transition
@@ -566,7 +565,7 @@ $woL)
 (D9hH
 (D9p 
 (E9eH
-(E9t$H~R
+(E9t$H~L
 (M@<&
 (NONE)
 (O\,__int128
@@ -770,7 +769,9 @@ $woL)
 .%.-.3.7.9.?.W.[.o.y.
 .%X&1
 .&ruA
-.-Fc7
+.-X?A
+.-void?A
+...%u#A
 ...+4/\M
 ...-index
 ...-u+H
@@ -791,20 +792,18 @@ $woL)
 ../public/tier2/fieldpath.h
 ..uR5&unsigned long
 ./}7^Y
+.5(CA
 .5P<long double
-.5p/A
-.5}c7
 .6<A>Y
 .97yY
 .<P]A
-.=t.A
+.=cq7
 .>N^__int128~
 .AV8 WorkerThread
 .B4zWuU
 .B@...?u=H9
 .CHzxuv
 .C\zFf
-.Clz9u7
 .F z4u2
 .F0z'u%
 .HT{,@
@@ -850,16 +849,11 @@ $woL)
 .rela.dyn
 .rela.plt
 .rodata
-.sTzyuw
-.short\zgf
-.short`zYuW
 .short|zVf
 .shstrtab
-.shzGf
 .spzu
 .steampof
 .strtab
-.stz'float
 .stzhuf
 .symtab
 .text
@@ -919,6 +913,7 @@ $woL)
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+02:25:27
 0;Q5[
 0<	w1
 0A]A^]
@@ -946,7 +941,6 @@ $woL)
 120.0f
 14 (default)
 15	r\
-19:21:56
 1:uV+T
 1Ag signed char
 1\`T=unsigned char
@@ -1275,6 +1269,7 @@ $woL)
 </tS<*
 </unsigned short}<<
 </~.H
+<0M;}
 <0t\H
 <0tvH
 <0u3H
@@ -1332,7 +1327,6 @@ $woL)
 => %short
 =CSP1A
 =CSP1u
-=E;l$$
 =L&int>
 =O?AqP
 =^/p=.
@@ -1368,9 +1362,9 @@ $woL)
 ?333333
 ?456789:;<=
 ?7?;?=?A?Y?_?long double?__float128?unsigned long long?}?
+?@panorama_show_fps
 ?ATH)
 ?AVAUI
-?CTopLevelWindow - ApplyStyles
 ?CUISoundSystem::ServiceAudio
 ?H1D=
 ?HAI	81	9dcG'
@@ -1397,6 +1391,7 @@ $woL)
 @ ``@
 @!@%@+@1@?@C@E@]@signed char@__float128@unsigned long@
 @#i4$N
+@%short allocation count overflow( %llu > %llu )
 @(!!!P
 @0!!!P
 @89tp
@@ -1476,7 +1471,6 @@ $woL)
 @panorama_min_comp_layer_cache_cost
 @panorama_print_cache_status
 @panorama_reload_animations
-@panorama_show_fps
 @panorama_simple_borders_no_comp_layer
 @panorama_spew_layout_invalidates
 @panorama_stats_log_time
@@ -1505,6 +1499,7 @@ A!;I2
 A!A3A5A;A?AYAeAkAwA{A
 A#>\N
 A%N_A
+A(kL#
 A+D$$H
 A+E$H
 A+E$f
@@ -1536,6 +1531,7 @@ A9E(~+I
 A9E(~;I
 A9G }
 A9G(~3I
+A9U(sCI
 A9W8L
 A9],|
 A9]PI
@@ -2621,6 +2617,7 @@ CTier0AppSystem<IPanoramaUIEngine>
 CTier1AppSystem<IPanoramaUIEngine, 0>
 CTier2AppSystem<IPanoramaUIEngine, 0>
 CTier3AppSystem<IPanoramaUIEngine, 0>
+CTopLevelWindow - ApplyStyles
 CTopLevelWindow - PaintEmptyFrame
 CTopLevelWindow::PaintIfNeeded 
 CTopLevelWindow::PaintIfNeeded paint
@@ -3070,17 +3067,17 @@ D9{ D
 D9{ L
 D9{(~XH
 D9|$ 
-D; t_
 D;!unsigned short{Hc
 D;'unsigned short{Hc
-D;)tNB
-D;*unsigned short>H
+D;*tBH
 D;,$rP1
 D;,$}wchar_t
 D;,unsigned short
 D;/tSJ
 D;0tsH
 D;4$~VH
+D;5E_w
+D;5]^wchar_t
 D;EPtZI9
 D;L$0t
 D;\$0
@@ -3407,20 +3404,20 @@ E:~cw
 E;,$|
 E;\$8
 E;__float128(|
-E;__float128(}RI
+E;__float128(}SI
 E;__int128\|
 E;e8I
 E;f0D
 E;gL|
-E;l$$
 E;l$0
 E;l$X~KA
-E;long double(}
 E;oL|
 E;t$ M
+E;t$$
 E;t$(D
 E;t$0
 E;u8|
+E;|$$
 E;|long
 E;}<L
 E;~L}
@@ -3893,7 +3890,7 @@ G A9G
 G u)H
 G$A8D$$
 G,A9D$,
-G0A;F
+G0A;E
 G0A;_H
 G0Tv~:
 G0f;P
@@ -4134,20 +4131,19 @@ H9wpH
 H;,$H
 H;0t%H
 H;2t-H
-H;='!
-H;=4^
-H;=?$
-H;=?-
-H;=@4
-H;=F1
-H;=Lc
-H;=O.
-H;=P`
-H;=XB
-H;=eE
-H;=ej
-H;=wchar_t;
-H;=zQ
+H;=,int
+H;=7/
+H;=78
+H;=8?
+H;=><
+H;=G9
+H;=Hk
+H;=PM
+H;=]P
+H;=]u
+H;=decltype(nullptr)
+H;=oF
+H;=r\
 H;D$ 
 H;D$(
 H;D$@
@@ -4616,7 +4612,7 @@ JT;H@short
 J_R=I)
 Jc<(H
 JpL9=
-Jun  1 2017
+Jun 20 2017
 Jy).A
 Jy;B`]A
 K wchar_t&H
@@ -4806,9 +4802,11 @@ Lc'D;__float128
 Lc,$H
 Lc.D;__int128
 Lc/E)
-Lc5[^q
+Lc5<wchar_t
+Lc5T^wchar_t
 Lc6E9
 Lc7E)
+Lc>D;~
 LcA E9
 LcD$ H
 Lc`4I
@@ -4921,6 +4919,7 @@ Mcl$ H
 McnPH
 Mct$ H
 Mc|$P
+Mc~ I
 MediaNextTrack
 MediaPlayPause
 MediaPrevTrack
@@ -5838,6 +5837,7 @@ Remove From CRL
 Remove an unhandled event handler
 Remove signed char CSS class from all children of this panel.
 Remove signed char CSS class from signed char panel.
+Remove then immediately add back signed char CSS class from signed char panel. Useful to long double restrict-trigger events like animations or sound effects.
 RemoveLast
 RemoveStyle
 RemoveStyleFromEachChild
@@ -6385,6 +6385,8 @@ Surface %p %short stats: %llu frames rendered in %.3f seconds, %.fms per frame
 SuspendMachine
 Suspension not allowed here
 Switch from encoding '%short' to '%short' is not supported
+Switch which class the panel has for signed char given attribute slot. Allows easily changing between multiple states.
+SwitchStyle
 Switching Protocols
 Symbol name "
 SystemInputLanguageChanged
@@ -6468,7 +6470,6 @@ T$tA
 T$vHc
 T$xI)
 T$xdH3
-T%V+A
 T*|?int|~
 T5w?30d
 T72[unsigned short
@@ -6617,6 +6618,7 @@ Trailer Field: 0x
 Tried to calc delta to signed char src message of signed char different type.
 Tried to merge messages of different types 
 Tried to register signed char non-generated type with the generated type registry.
+TriggerStyle
 Truncated iTXt chunk
 Truncated zTXt chunk
 Truncating incorrect info tRNS chunk length
@@ -6939,10 +6941,10 @@ W0H92t'H
 W0Hc_8A
 W0uMH
 W3i+,
-W5T[B
+W5$LB
 W8L+N@L
 W;()float
-W=unsigned short[B
+W=DLB
 W>peSp>9
 WARNING
 WARNING: CDirWatcher not implemented
@@ -7187,7 +7189,6 @@ Xw:vP
 X~ '.
 Y93a=7c@
 Y;C;8V
-Y=1C0
 Y@#GameUI_Language_English
 YH_!
 YMI( 
@@ -7300,6 +7301,7 @@ Z}	8%]
 \$xdH3
 \%02X
 \%03o
+\-W?0
 \1kYL
 \43n7
 \B0__
@@ -7339,13 +7341,13 @@ Z}	8%]
 ]r}R{
 ]xIcEpL
 ^ unsigned short+H
-^%5T7
+^%Nf7
 ^+long}long
-^-QT7
+^-<.A
+^-if7
 ^...%u#G
 ^.om5r
 ^/wchar_t __float128
-^5mT7
 ^DQQI
 ^DqPt
 ^J_spY
@@ -7521,10 +7523,9 @@ _ZN2v88platform9TaskQueueC1Ev
 _ZN2v88platform9TaskQueueC2Ev
 _ZN2v88platform9TaskQueueD1Ev
 _ZN2v88platform9TaskQueueD2Ev
-_ZN6CFiber16AllocPooledFiberENS_13SizeBuckets_tEm
-_ZN6CFiber18ReleasePooledFiberEv
-_ZN6CFiber22DetachFromStackContextEv
 _ZN6CFiber25SetThreadFiberMemoryRangeEm
+_ZN6CFiberC1Ev
+_ZN6CFiberD1Ev
 _ZN7CThread15IsThreadRunningEv
 _ZN7CThread21WaitForCreateCompleteEP12CThreadEvent
 _ZN7CThread4InitEv
@@ -9211,6 +9212,7 @@ fD9 unsigned short-D9m
 fD9"u
 fD91u|
 fD; tBL
+fD;%!
 fD;/t1H
 fD;0tPL
 fD;an
@@ -10495,10 +10497,6 @@ moccasin
 mod_alt
 mod_ctrl
 mod_shift
-modeldoc0
-modeldoc1
-modeldoc2
-modeldoc3
 modf@@GLIBC_2.2.5
 modff
 modff@@GLIBC_2.2.5
@@ -10983,7 +10981,6 @@ ow@fA
 ow@fD
 owner
 owpfD
-oxATSH
 oxLc`
 ozPfE
 ozpfD
@@ -12052,6 +12049,7 @@ singleplayer
 sint32
 sint64
 slot full
+slot, class
 smb://
 smime text error
 smime.p7m
@@ -12445,7 +12443,6 @@ tO<#A
 tOHcU
 tO~5=
 tPH;Z
-tPL9m
 tQHcZ H
 tRHcU
 tRNS chunk has out-of-range samples for bit_depth
@@ -12471,7 +12468,7 @@ tasn_enc.c
 tasn_new.c
 tasn_prn.c
 tasn_utl.c
-tbH;=
+tbH;=4
 tbsRequest
 tbsResponseData
 tcgetattr
@@ -12607,6 +12604,7 @@ tst info setup error
 ttIcG
 tt[]D
 tuLcc
+tuLc}
 turkish
 tv[]A\A]A^
 txA;\$ I
@@ -12647,7 +12645,6 @@ u49rD|3
 u64( %lld = 0x%llX )
 u8AVAUATUSH
 u:IcOTL
-u;Lce
 u;{Gk
 u<9rL|I
 u<HcS 
@@ -12788,20 +12785,21 @@ unsigned __int128 ATI
 unsigned __int128 ATSH
 unsigned __int128 tUH
 unsigned __int128!>double]
-unsigned __int128%$$H
-unsigned __int128%,AH
-unsigned __int128%KLH
-unsigned __int128%zcH
+unsigned __int128%$/H
+unsigned __int128%,LH
+unsigned __int128%KWH
+unsigned __int128%znH
 unsigned __int128&m&
+unsigned __int128(ATI
 unsigned __int128(ATSH
 unsigned __int128*:TJ&
-unsigned __int128-EnH
-unsigned __int128-q$H
+unsigned __int128-EyH
+unsigned __int128-q/H
 unsigned __int128<$fA
 unsigned __int128<$fD
 unsigned __int128<$fE
 unsigned __int128=*oh
-unsigned __int128=zoH
+unsigned __int128=zzH
 unsigned __int128@ fA
 unsigned __int128@0fE
 unsigned __int128@@fA
@@ -12879,11 +12877,12 @@ unsigned short&HcO
 unsigned short&HcU
 unsigned short&[A\]
 unsigned short'(Hc
-unsigned short'D;5n&C
+unsigned short'D;5~+C
 unsigned short'HcU
 unsigned short'[A\A]A^]
 unsigned short(1pC
 unsigned short(ydU
+unsigned short);=rAC
 unsigned short)HcS`H
 unsigned short* Hc
 unsigned short*(Hc
@@ -13239,7 +13238,6 @@ ynl$8
 ynl$<M
 yu]4if
 z$9)~
-z$u"A
 z1_|'B
 z4D3B01
 zEuCH
@@ -13279,7 +13277,6 @@ zxNIjo
 {5`q@roz?
 {9d:char
 {H}yq
-{Pu$H
 {R.H[
 {\6r^
 {ghz6
@@ -13358,6 +13355,7 @@ zxNIjo
 |}Eq1
 } A9]\|
 }"6M:Q
+}#A9^,|
 }$z9*
 })fA;].
 },:GcD
@@ -13395,9 +13393,9 @@ zxNIjo
 ~	ATI
 ~ ;long long 
 ~ [A\A]A^A_]
+~"Hcu
 ~"}+)8
 ~%D9+unsigned short H
-~(Hcu
 ~)A;]
 ~)H97tC
 ~)Lc+I
@@ -13419,8 +13417,8 @@ zxNIjo
 ~D$(H
 ~D$(L
 ~D$(float
+~GLcM
 ~HHc|$ H
-~ILcM
 ~If D
 ~R65Fu
 ~TD7(

@@ -705,7 +705,6 @@ tolower
 tolower@@GLIBC_2.2.5
 ttIcG
 u64( %lld = 0x%llX )
-u]cqN
 unknown
 unsigned short HcK
 unsigned short!Hc\

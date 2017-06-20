@@ -44,6 +44,7 @@
 "unsigned short&L;}
 #3CScs
 #RenderSystem_CannotCreateDevice
+#RenderSystem_UnableToStartGame
 #[A\]
 #base
 #base is NULL 
@@ -77,10 +78,10 @@ $woL)
 &6FVfv
 '	?@XC
 '7GWgw
-(%+%/
 (%short): ADD %short = %short
 (%short): Setting %short to %short
 (*%short*), 
+(-~!/
 (8HXhx
 (D>C9[
 ([A\A]A^A_]
@@ -124,7 +125,9 @@ $woL)
 -maxdxlevel
 -maxtextureres
 -preloadtextures
+-r_max_device_threads
 -rendersystem_thread_mode
+-shaderstats
 -sse2
 -sse3
 -sse4
@@ -135,6 +138,7 @@ $woL)
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utlfixedmemory.h
 ../public/tier1/utllinkedlist.h
+.5IL	
 .>N^__int128~
 .M;UU
 ._?hN
@@ -181,7 +185,6 @@ $woL)
 3[A\A]A^]
 4+D+M
 4fff>fff>fff>fff>
-5#RenderSystem_UnableToStartGame
 5UUUU
 692t&H
 6H92t%H
@@ -339,7 +342,6 @@ AWAVAUATA
 AWAVAUATE1
 AWAVAUATI
 AWAVAUATL
-AWAVAUATM
 AWAVAUATS
 AWAVAUATSD
 AWAVAUATSH
@@ -475,6 +477,8 @@ CIndexBufferBase
 CJob
 CJobH
 CKeyValuesDumpContextAsDevMsg
+CLargeCommandBufferChunk CUtlMemoryPoolMT
+CMediumCommandBufferChunk CUtlMemoryPoolMT
 CMemAllocSystemInitialize
 CMemberFunctor0<FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CEikonalExecuteControls> >*, void (FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CEikonalExecuteControls> >::*)(), CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 CMemberFunctor0<FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CHeatTransferEquationControls> >*, void (FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CHeatTransferEquationControls> >::*)(), CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
@@ -613,7 +617,6 @@ Cannot quantize to fewer than %double colors
 Cannot quantize to more than %double colors
 Cannot transcode due to multiple use of quantization table %double
 Caution: quantization tables are too coarse for baseline JPEG
-Ccx	signed char
 ChangeSize
 Clibpng warning: %short
 Closed temporary file %short
@@ -887,13 +890,9 @@ H9*tgH
 H97trH
 H9GHt
 H9W8t	]
-H;=BS.
-H;=WU.
-H;=ZS.
-H;=`}.
-H;=long long}.
-H;=oU.
-H;=wP.
+H;='W.
+H;=/R.
+H;=GR.
 H;B(uLL
 H;C r
 H;CHs
@@ -1106,6 +1105,7 @@ Invalid sRGB after IDAT
 Invalid scan script at entry %double
 Invalid sequence number %double!!!
 Invalid tRNS after IDAT
+Invalid thread index (%double) given
 JFIF APP0 marker: version %d.%02d, density %dx%double  %double
 JFIF extension marker: JPEG-compressed thumbnail image, length %u
 JFIF extension marker: RGB thumbnail image, length %u
@@ -1292,6 +1292,8 @@ ORENDER_MULTISAMPLE_INVALID
 O`D+wchar_t@D)
 Obtained EMS handle %u
 Obtained XMS handle %u
+Only BC6H compression not supported on this target (windows only).
+Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 OpenGL
 Opened temporary file %short
@@ -1336,6 +1338,7 @@ Plat_GetModuleFilename
 Plat_GetMonitorResolution
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_GetWindowMonitorIndex
 Plat_GlobalMemoryStatus
 Plat_IsHighDPI
@@ -1511,6 +1514,7 @@ Selected %double colors for quantization
 SequenceFloatParam_t
 SeriousWarning
 ServerUploadGameStats001
+SetAssociatedThreadIndex
 SheetFrameImage_t
 SheetSequenceFrame_t
 SheetSequence_t
@@ -1589,6 +1593,7 @@ ThreadSleep
 ThreadYield
 Too many IDATs found
 Too many color components: %double, max %double
+Too many threads (%double) accessing the render device, need to increase -r_max_device_threads (%double)
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -1635,6 +1640,7 @@ Unsupported compression type.
 Unsupported format.
 Unsupported marker type 0x%02x
 Unsupported version or scanline.
+Upper limit on texture pool size.
 UserInfoChangeService_001
 V@I;VHs
 VApplication001
@@ -1952,6 +1958,7 @@ cfg/videodefaults.txt
 channels
 char restrict?Quh
 char@L9cHv
+char`hC]>+
 cheat
 chlist
 client
@@ -1993,14 +2000,14 @@ float
 float( %float )
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(114): Unknown gamma type "%short"!
-floatbitmap.cpp(2062): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2073): Error loading %short
-floatbitmap.cpp(2096): Error! Unknown file type for %short
-floatbitmap.cpp(2115): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(298): Conversion not supported yet!
-floatbitmap.cpp(398): Conversion not supported yet!
-floatbitmap.cpp(833): Unsupported color format "%short", skipping!
+floatbitmap.cpp(122): Unknown gamma type "%short"!
+floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2097): Error loading %short
+floatbitmap.cpp(2120): Error! Unknown file type for %short
+floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(306): Conversion not supported yet!
+floatbitmap.cpp(406): Conversion not supported yet!
+floatbitmap.cpp(842): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -2084,7 +2091,6 @@ localtime@@GLIBC_2.2.5
 long long ;short|~
 long long<IcH
 long long[A\A]A^A_]
-long long[A\A]]
 long long[]A\A]A^A_
 longjmp
 longjmp@@GLIBC_2.2.5
@@ -2190,6 +2196,7 @@ puwUH
 queued
 r_fullscreen_gamma
 r_gpu_mem_stats
+r_max_texture_pool_size
 r_texture_pool_size
 r_texture_stream_mip_bias
 r_texturefilteringquality
@@ -2197,6 +2204,7 @@ r_textures_evict_all
 r_wait_on_present
 realloc
 realloc@@GLIBC_2.2.5
+rendercontextbase.cpp
 renderdevicemgrbase.cpp
 rendersystemempty
 rendersystemglobals.cpp
@@ -2238,6 +2246,8 @@ setting.maxdxlevel
 setting.nowindowborder
 setting.recommendedheight
 setting.recommendedwidth
+setting.refreshrate_denominator
+setting.refreshrate_numerator
 setting.resettodefaults
 setting.shaderquality
 sheetcache.cpp
@@ -2302,18 +2312,18 @@ tVHcC
 tWA9]
 tdA:]
 text compression mode is out of range
-texturebase.cpp(1291):Error loading texture: %short
-texturebase.cpp(2078):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2089):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2100):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2121):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2132):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2143):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2154):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2175):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2186):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2197):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2208):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(1297):Error loading texture: %short
+texturebase.cpp(2088):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2099):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2110):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2131):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2142):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2153):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2164):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2185):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2196):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2207):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2218):ResourceHandleToData( %short ) failed! Falling back to error texture!
 tfUMc
 tgE+long double D9
 time@@GLIBC_2.2.5
@@ -2326,7 +2336,6 @@ trunc
 trunc@@GLIBC_2.2.5
 ttIcG
 txA;\$ I
-tzD9m
 u	[A\]
 u Ic}`F
 u LcU
@@ -2338,6 +2347,7 @@ u64( %lld = 0x%llX )
 u:[A\A]A^A_]
 u?IcF
 uA[A\A]A^]
+uC[A\]
 uHMc~
 uMHcN
 unknown

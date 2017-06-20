@@ -62,6 +62,7 @@
  Plat_GetOSType
  Plat_GetPlatformError
  Plat_GetProcAddress
+ Plat_GetThreadIndex
  Plat_GetWindowClientSize
  Plat_GetWindowMonitorIndex
  Plat_GlobalMemoryStatus

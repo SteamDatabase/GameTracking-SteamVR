@@ -37,6 +37,7 @@ $[A\]
 %int %int %int %int
 %ls [wstring, len = %double]
 %short allocation count overflow
+%short allocation count overflow( %llu >= %llu )
 %short%20s : %40s %5.3f
 %short(token %int) : %short
 %short,%short
@@ -318,7 +319,6 @@ Ease In/Out
 Ease Out
 EconItemToolModel_001
 EngineServiceMgr001
-EnsureCapacity
 EnvironmentMapBuilder_001
 EventSystem001
 Expecting '{' in enumeration '%short', got '%short'
@@ -590,7 +590,6 @@ ToolGameSimulationSystem_001
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
-UNt&H
 Unable to load #included script %short
 UserInfoChangeService_001
 V0u@H
@@ -949,6 +948,7 @@ x7Hcw
 xGHcO
 xSIcL$
 {}()':
+|$Nt-I
 }-HcH
 }>;w$
 }FHcr

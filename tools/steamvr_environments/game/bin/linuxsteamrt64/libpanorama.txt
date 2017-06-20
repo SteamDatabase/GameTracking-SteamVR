@@ -2,10 +2,9 @@
  A _edata
  A _end
  AssertMsg_ConditionFailed
- CFiber::AllocPooledFiber(CFiber::SizeBuckets_t, unsigned long)
- CFiber::DetachFromStackContext()
- CFiber::ReleasePooledFiber()
+ CFiber::CFiber()
  CFiber::SetThreadFiberMemoryRange(unsigned long)
+ CFiber::~CFiber()
  CMemAllocSystemInitialize
  CThread::CThread()
  CThread::Init()

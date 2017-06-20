@@ -177,7 +177,6 @@
 "$0" does not declare $1 as an extension number.
 "%short" 
 "%short" = "%short"
-"%short",
 "%short":
 "%short":"%short"
 "%short":%.3f
@@ -393,6 +392,7 @@ $tjHcF
 &C;*]
 &N''iN''int
 &TR::
+&YA1H
 &YA1L
 &_{u 
 &`Pqy?
@@ -589,7 +589,6 @@ $tjHcF
 .6<A>Y
 .97yY
 .<P]A
-.A(wwA
 .I`Mb"(
 .PLACEHOLDER_VALUE
 .Q.Ol
@@ -857,7 +856,7 @@ $tjHcF
 9#9%9)9/9=9A9M9[9k9y9}9
 9*tfH
 90t4H
-92tqHcR
+92tiHcR
 9:dzGN
 9@Xp&
 9J9;6
@@ -898,6 +897,9 @@ $tjHcF
 ;*3$"
 ;2(-/
 ;5jNf
+;=*>H
+;=0>H
+;=4>H
 ;>4>se=
 ;D$(~EA9
 ;D$0D
@@ -1085,12 +1087,13 @@ A9]PI
 A9_@~8L
 A9ue_
 A:   
-A:N8t
-A:N9t
-A:N:unsigned short
-A:N;unsigned short
+A:N0t
+A:N1t
+A:N2t
+A:N3t
 A;4J|8L
 A;<J|<L
+A;D$PA
 A;DC04
 A;G A
 A;YPu
@@ -1578,7 +1581,6 @@ C(H1CHM
 C(t3H
 C(unsigned short&H
 C(unsigned short@H
-C0D;cH
 C6pH[
 C7HSY
 C8t4M
@@ -2064,8 +2066,6 @@ D$ ~k
 D$$fA
 D$$fD
 D$$uRH
-D$%A:F%unsigned short!
-D$&A:F&u
 D$(9D$0
 D$(A;G
 D$(D3|$`D3T$dL
@@ -2097,6 +2097,7 @@ D$,void(A
 D$0)D$8H
 D$0;unsigned char
 D$0@H
+D$0A;\$H
 D$0E1
 D$0H	
 D$0H)
@@ -2278,7 +2279,6 @@ D;\$0
 D;\$p
 D;char D
 D;d$$
-D;k8~H
 D;l$@
 D;l$D
 D;l$X
@@ -2482,8 +2482,6 @@ E unsigned short"H
 E unsigned short(H
 E unsigned short:H
 E!-<p
-E%A:F%
-E&A:F&
 E)2G\
 E+D$$Mc
 E+E$Mc
@@ -2499,9 +2497,12 @@ E0[]A\A]
 E0tc1
 E8|$p
 E9gPI
+E9|$L
 E::'F9
 E;float |
 E;float }
+E;l$8~NA
+E;|$L
 E@tPH
 EC PARAMETERS
 EC PRIVATE KEY
@@ -2784,9 +2785,6 @@ Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend signed char non-lite type to contain signed char lite type, but the reverse is allowed.
 F 9G u
 F#bgn?MwN|%
-F$A8D$$
-F$A8E$|*
-F&A:E&
 F(rif
 F,mZq
 FALSE
@@ -3121,7 +3119,6 @@ HcR H
 HcS ;U u
 HcS,H
 HcS8A
-HcS8L
 HcSPH
 HcT$ H
 HcT$ L
@@ -3227,6 +3224,7 @@ IcD$ I
 IcGdH
 IcT$(I
 IcT$,
+IcT$8H
 IcWTI
 Ic]PI
 Icu`H
@@ -4467,6 +4465,7 @@ T$@t0
 T$@tA
 T$DA!
 T$HE1
+T$HHc
 T$HJ1T 
 T$HM)
 T$Hx'H
@@ -5126,7 +5125,6 @@ ZwKiZwKi
 \sG7tPD
 \u0000
 \unsigned short!Hc
-]$E8^$|#
 ]&@+fk:
 ]&__float128''}
 ]8d$@
@@ -5892,7 +5890,6 @@ cessationOfOperation
 challenge
 challenge is different
 challengePassword
-char&wchar_t\H
 char`FE%
 characteristic-two-field
 cheat
@@ -7278,6 +7275,7 @@ l$0L)
 l$0fE
 l$0t'I
 l$4!
+l$8E9
 l$8H3D$0H3l$@
 l$8M1
 l$<fA
@@ -7680,8 +7678,9 @@ o$g31
 o0;W,unsigned short
 o1+v3
 o2i_ECPublicKey
-o5p%)
-o5x")
+o5a&)
+o5p-)
+o5x*)
 oB4Do4
 oBFX}k6U
 oBpfA
@@ -9250,15 +9249,17 @@ unprotectedAttrs
 unsafe legacy renegotiation disabled
 unsigned __int128 tUH
 unsigned __int128!>double]
-unsigned __int128%$&)
-unsigned __int128%(#)
-unsigned __int128%<!)
-unsigned __int128%unsigned long(
+unsigned __int128%$.)
+unsigned __int128%$u(
+unsigned __int128%(+)
+unsigned __int128%<))
 unsigned __int128&m&
 unsigned __int128(ATSH
 unsigned __int128*:TJ&
-unsigned __int128- -)
-unsigned __int128-qm(
+unsigned __int128- 5)
+unsigned __int128-=&)
+unsigned __int128-q&)
+unsigned __int128-qu(
 unsigned __int128<$fA
 unsigned __int128<$fD
 unsigned __int128<$fE

@@ -21,7 +21,8 @@ enum ESteamToursClientMessages {
 	CM_SetPlayerPersonalSpace = 515;
 	CM_ContentBrowserToggled = 516;
 	CM_SetSteamVRBackground = 517;
-	CM_ResetAnchor = 518;
+	CM_SetSteamVRController = 518;
+	CM_ResetAnchor = 519;
 }
 
 message CClientMsg_SpawnPhysicsProp {
@@ -94,6 +95,11 @@ message CClientMsg_SetSequence {
 	optional uint32 ent_ehandle = 1;
 	optional float cycle = 2;
 	optional string sequence = 3;
+	optional float finger00 = 4;
+	optional float finger01 = 5;
+	optional float finger02 = 6;
+	optional float finger03 = 7;
+	optional float finger04 = 8;
 }
 
 message CClientMsg_SetEntityColor {
@@ -131,6 +137,11 @@ message CClientMsg_ContentBrowserToggled {
 }
 
 message CClientMsg_SetSteamVRBackground {
+	optional string itemdefid = 1;
+	optional uint64 publishedfileid = 2;
+}
+
+message CClientMsg_SetSteamVRController {
 	optional string itemdefid = 1;
 	optional uint64 publishedfileid = 2;
 }

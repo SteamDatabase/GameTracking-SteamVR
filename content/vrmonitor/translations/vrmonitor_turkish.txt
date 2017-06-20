@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"turkish"
 "Tokens"
@@ -1960,5 +1960,7 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"Gece Modu, başlığın ışık seviyesini 05:00'e kadar veya SteamVR yeniden başlatılana kadar kısar."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_PauseOnStandby"	"Başlık boştayken işlemeyi duraklat"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

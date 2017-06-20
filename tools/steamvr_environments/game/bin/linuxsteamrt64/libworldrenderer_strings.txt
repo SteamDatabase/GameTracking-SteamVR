@@ -123,6 +123,8 @@ $woL)
 %short - unknown world layer '%short'
 %short DynamicAtr:%short = '%short'
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
+%short allocation count overflow( %llu >= %llu )
 %short executing script: %short
 %short( No I/O Connections )
 %short+--
@@ -149,9 +151,9 @@ $woL)
 '	?@XC
 '":+;
 '7GWgw
-(%koO
+(%[ZO
 (*%short*), 
-(-^lO
+(->WO
 (8HXhx
 (9s ~@H
 (A9] 
@@ -243,6 +245,7 @@ $woL)
 -sse2
 -sse3
 -sse4
+.-D`'
 .../u-H
 ../public/entity2/concreteentitylist.h
 ../public/networksystem/networkfieldscratchdata.h
@@ -255,6 +258,7 @@ $woL)
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier2/fieldpath.h
+.5=S'
 .>N^__int128~
 .Gdz#u!
 .K,...[
@@ -324,6 +328,7 @@ $woL)
 4$A\A]A^]
 4+D+M
 42HcU
+4:A9L$
 4BfD94A|
 4fff>fff>fff>fff>
 4vf;T
@@ -360,9 +365,11 @@ $woL)
 9WXt#H
 9\?8c{
 9w UH
+9zD~ Hcr@1
 9~0UH
 9~4t*9~8t-9~<
 :>	As?K
+:A9L$
 :[tLL
 ;*3$"
 ;*unsigned short*1
@@ -410,7 +417,7 @@ $woL)
 <}tI<{uO
 =../public/tier2/fileutils.h
 === %sEntity List Summary (%short) ===
-=== Total: %short entities%short ===
+=== Total: %short/%short %short entities%short ===
 =CSP1A
 =CSP1u
 =_modelbuilder_phys_%i.vphys
@@ -458,12 +465,12 @@ $woL)
 A	D$0
 A!;I2
 A!\$8[A\]
-A(fA9
 A+D$$H
 A+D$$Lc
 A+E$H
 A+E$f
 A+F$H
+A+F$Lc
 A+G$H
 A+G$Lc
 A+H A+
@@ -475,6 +482,7 @@ A+T$$Hc
 A+U$A
 A+U$Hc
 A+U$f
+A+V$A
 A+V$Hc
 A+W$A
 A+W$A9
@@ -492,8 +500,6 @@ A9D$8
 A9D$`~2H
 A9G }
 A9T$$
-A9T$H
-A9T$`
 A9W8L
 A9\long long
 A9^\~*A
@@ -513,9 +519,6 @@ A;GP~
 A;Gdt:A
 A;L$ 
 A;L$8
-A;T$H
-A;T$`
-A;T$x
 A;Vhr
 A;W`~IA
 A;\$ A
@@ -667,6 +670,7 @@ AllocateResource
 AllocateResource: Cannot find DATA block in resource %short!
 AllocateResource: Cannot find VXVS data in resource %short!
 AnimFile
+AnimProxy
 AnimatableSceneObjectDesc
 Animation
 AnimationList
@@ -940,7 +944,6 @@ CDHcs@
 CDefSaveRestoreBlockHandler
 CDefSaveRestoreOps
 CDefaultAccessor
-CDefaultIntrospectedTypeManager<1936291446ull, CVoxelVisibility>
 CDefaultIntrospectedTypeManager<431316170614ull, World_t>
 CDefaultIntrospectedTypeManager<435711929462ull, LightTreeResourceData_t>
 CDefaultIntrospectedTypeManager<470105092214ull, PRTMatrixData_t>
@@ -1554,6 +1557,7 @@ ConCommandBase
 ConVar
 ConVar(%short) defined with infinite float value (%short)
 ConVarRef %short doesn'unsigned short point to an existing ConVar
+ConcreteEntityList:  approaching limit, allocating entity chuck %double/%double for ents [%double -> %double]
 Conditional Error: %short
 ConfigurationSystem_001
 ConnectInterfaces
@@ -1635,7 +1639,6 @@ D$TE1
 D$XA9
 D$XE1
 D$XHc
-D$\E1
 D$\M9
 D$hD)unsigned long
 D$hE1
@@ -1672,8 +1675,6 @@ D92tY1
 D9F<~
 D9L$0A
 D9L$0~VM
-D9`D~
-D9bD~ Hcr@1
 D9c@~
 D9c@~bH
 D9cP~XH
@@ -1689,6 +1690,7 @@ D;'unsigned short{Hc
 D;*unsigned short>H
 D;.~3L
 D;.~9H
+D;__float128 D
 D;__float128`D
 D;`0|
 D;cPD
@@ -1794,6 +1796,7 @@ E+l$$Mc
 E+l$@unsigned short
 E+o$Mc
 E+u$Mc
+E+w$Mc
 E+}$Mc
 E,?long|
 E09E(
@@ -1853,7 +1856,6 @@ ERROR: Resource name "%short" has the incorrect extension "%short" for the speci
 ERROR: Specified full path %short does not lie under the mod search path!)
 ERROR: Specified path %short could not be made content-relative
 EXA;]`
-EXHcAL
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -2055,6 +2057,7 @@ GLOBAL_ILLUMINATION_BAKE
 GLOBAL_ILLUMINATION_NONE
 GLOBAL_ILLUMINATION_REALTIME_RADIOSITY
 GT[A\]
+GXHcAL
 GameDataList
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -2120,9 +2123,8 @@ H92t,
 H97tkH
 H9GHt
 H9W8t	]
-H;=PM=
+H;=(K=
 H;B(uIL
-H;B(uLL
 H;C r
 H;CHs
 H;S@wchar_t
@@ -2146,7 +2148,7 @@ Hc@(H
 Hc@0M
 Hc@PH
 Hc@pH
-HcA`;Ap
+HcAp;
 HcBtH
 HcC$9
 HcC$H
@@ -2340,7 +2342,6 @@ IcT$(H
 IcT$8
 IcT$8H
 IcT$X
-IcT$\1
 IcT$hL
 IcU E
 IcUPA;U`
@@ -2484,6 +2485,9 @@ Invalid palette length
 Invalid palette size, hIST allocation skipped
 Invalid progressive parameters at scan script entry %double
 Invalid progressive parameters std::basic_string<char, std::char_traits<char>, std::allocator<char> >=%double Se=%double Ah=%double Al=%double
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 Invalid sBIT after IDAT
 Invalid sCAL after IDAT
 Invalid sCAL chunk ignored: bad height format
@@ -2592,6 +2596,7 @@ Lc/E)
 Lc/E1
 Lc3D;short
 Lc6E9
+Lc7D)
 Lc7E)
 Lc;D;{
 LcPhE
@@ -2609,12 +2614,12 @@ LccPL
 Lcc`D;cpt>D
 Lcf I9
 Lcg D;g0D
-LcgxD;
 Lch<M
 Lcs8D;sHD
 LcsPD;short`D
 LcshD;sxD
 LcspH
+LcwxD;
 Lc{0D;{@D
 Lc{pD;
 Lc{xD;
@@ -2909,6 +2914,8 @@ ObjectTypeFlags_t
 Obtained EMS handle %u
 Obtained XMS handle %u
 OnDiskBufferData_t
+Only BC6H compression not supported on this target (windows only).
+Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 Opened temporary file %short
 Out of memory processing zTXt chunk
@@ -2925,7 +2932,7 @@ Output file write error --- out of disk space?
 Output unserialization of entities on map load. 0 - off, 1 - client/server, 2 - server, 3 - client
 Override fademaxdist for purposes of streaming visiblity calculation.
 P0Mc>E;~
-P8A9^`
+P8A9^p
 P8Hc@8
 P@H;]
 PARALLEL_PROCESS utlsoacontainer.cpp:2532
@@ -2941,7 +2948,6 @@ PRTMatrixData_t
 P[A\A]A^A_]
 P[A\A]A^]
 P[A\]
-P`HcE
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -2954,6 +2960,7 @@ ParticleSystemMgr002
 Path Overflow, must be less than 260 characters.
 Path_AddToTail
 Path_AddToTail failed for read only CFieldPath
+Path_AddToTail failed, depth already == DEFAULT_MAX_PATH_DEPTH(%double)
 Path_PopLast
 Path_PopLast failed for read only CFieldPath
 Path_RemoveAll
@@ -2987,6 +2994,7 @@ PhysFeModelDesc_t
 PhysSoftbodyDesc_t
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsShapeCapsule
 PhysicsShapeHull
@@ -3002,6 +3010,7 @@ Plat_GetEnv
 Plat_GetModuleFilename
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
 Plat_NeedsLowFragmentation
@@ -3027,6 +3036,7 @@ PopOnePlusOne
 PosXYZ
 PostProcessingSystem_001
 Potential overflow in png_zalloc()
+PpHcE
 PpMco@E;oPD
 Precaches signed char specific resource
 Premature end of JPEG file
@@ -3072,7 +3082,7 @@ QueuedLoaderVersion001
 R channel not found
 R16F_EXPAND
 R8Y[]
-R@Path_AddToTail failed, depth already == DEFAULT_MAX_PATH_DEPTH(%double)
+R@read
 RAUATL
 RESLH
 RESOURCE_TYPE_ENTITY_LUMP
@@ -3220,6 +3230,8 @@ Script_MakeStringToken
 Scripting disabled or no server running
 Seek failed on temporary file
 Selected %double colors for quantization
+SequenceMarkup
+SequenceMarkupList
 Serialize
 SerializeKeys
 ServerUploadGameStats001
@@ -3609,7 +3621,6 @@ X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 XxHc@unsigned short
-Y5]$)
 Y>t$7?*
 YD$$L
 YR ~UK
@@ -3886,6 +3897,7 @@ default
 delete
 developer
 dir=%double %double %double, err=%float
+dire_tree_stump002_tintable.vmesh
 displayWindow
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
@@ -3934,14 +3946,14 @@ float;C.w
 float;S(}.H
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(114): Unknown gamma type "%short"!
-floatbitmap.cpp(2062): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2073): Error loading %short
-floatbitmap.cpp(2096): Error! Unknown file type for %short
-floatbitmap.cpp(2115): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(298): Conversion not supported yet!
-floatbitmap.cpp(398): Conversion not supported yet!
-floatbitmap.cpp(833): Unsupported color format "%short", skipping!
+floatbitmap.cpp(122): Unknown gamma type "%short"!
+floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2097): Error loading %short
+floatbitmap.cpp(2120): Error! Unknown file type for %short
+floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(306): Conversion not supported yet!
+floatbitmap.cpp(406): Conversion not supported yet!
+floatbitmap.cpp(842): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -4681,6 +4693,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modellib
 modf@@GLIBC_2.2.5
 multiplayerBreak_t
@@ -4688,6 +4702,7 @@ nTries < 10000000
 need dictionary
 nexttoken
 noIvp
+non-networkable
 normal
 notconnected
 notify
@@ -4748,6 +4763,7 @@ p}?virtualvolumetexture.cpp(420):
 qangle
 quaternion
 r)H9]
+rA9D$
 r_drawworld
 r_grass_allow_flattening
 r_grass_alpha_test
@@ -4923,6 +4939,7 @@ tfUMc
 tf[A\]
 tgE+long double D9
 tgHcQ
+tg[A\]
 th_BEGINH
 th___ENDH
 thisEntity
@@ -4988,7 +5005,7 @@ unsigned short"HcO
 unsigned short#D9"
 unsigned short&Hcq
 unsigned short&[A\A]A^]
-unsigned short'D;5n
+unsigned short'D;5
 unsigned short'[A\A]A^]
 unsigned short(;;tR
 unsigned short*:E1
@@ -5062,7 +5079,6 @@ vvisH
 vvisL
 vvvtx
 vwenvmap
-vwenvmap0d[
 vwenvmapH
 vwenvmapL
 vwnod
@@ -5087,13 +5103,13 @@ world_layer_list
 world_layer_set_visible
 world_layer_set_visible %short %short false
 world_layer_set_visible %short %short true
+worldnode.cpp(353): 
 worldrenderer
 worldspawn
 wx=%double, wy=%double, long long restrict=%double, unsigned long long restrict=%double
 wxLcE
 x.Lcm
 x0;wX}+Hc
-xA\A]A^A_]
 xBE;,$}<Mc
 xD;3}@H
 xGHcO

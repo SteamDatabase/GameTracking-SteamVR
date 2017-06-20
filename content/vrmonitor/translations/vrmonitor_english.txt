@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language" "English"
 "Tokens"
@@ -235,6 +235,7 @@
 "Settings_ForceReprojection_Info" "This setting is only suitable for non-active games, as it trades off increased\npositional prediction to provide more time for slower applications to render."
 "Settings_EnableDashboard" "Enable VR Dashboard"
 "Settings_ArcadeMode" "Enable Arcade Mode"
+"Settings_PauseOnStandby" "Pause rendering when headset is idle"
 
 "Settings_CheckForMissedFramesWarning" "Show missed frame warning"
 "Settings_ShowPlaylistMenu" "Show Playlist Menu"

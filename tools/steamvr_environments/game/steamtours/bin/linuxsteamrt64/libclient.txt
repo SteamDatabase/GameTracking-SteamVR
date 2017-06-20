@@ -5,10 +5,9 @@
  B pcre_callout
  B pcre_stack_guard
  B pcrecpp::RE::no_arg
- CFiber::AllocPooledFiber(CFiber::SizeBuckets_t, unsigned long)
- CFiber::DetachFromStackContext()
- CFiber::ReleasePooledFiber()
+ CFiber::CFiber()
  CFiber::SetThreadFiberMemoryRange(unsigned long)
+ CFiber::~CFiber()
  CGaussianRandomStream::AttachToStream(IUniformRandomStream*)
  CGaussianRandomStream::CGaussianRandomStream(IUniformRandomStream*)
  CMemAllocSystemInitialize
@@ -127,6 +126,7 @@
  Plat_GetModuleProcAddress
  Plat_GetOSType
  Plat_GetPlatformError
+ Plat_GetThreadIndex
  Plat_GetTime
  Plat_GetTimeString
  Plat_IgnoreContentAsserts

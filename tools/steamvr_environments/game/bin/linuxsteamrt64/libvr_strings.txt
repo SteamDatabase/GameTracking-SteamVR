@@ -146,8 +146,10 @@ $fD	8
 '	?@XC
 '":+;
 '7GWgw
-(%ns	
+(%.short	
+(%bm	
 (*%short*), 
+(-~Y2
 (8HXhx
 (9s ~@H
 (A9] 
@@ -176,7 +178,7 @@ $fD	8
 )D$ ~UL
 *** Eye %double Pixel( %double, %double ) has the smallest uv area
 *** Eye %double: %dx%double area RenderTarget( %float, %float ) Scale( %float, %float )
-*-1=C
+*-17C
 *:JZjz
 *CMemberFunctor1<CParallelProcessorAbstract<CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}> >*, void (CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}>::*)(int), int, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 *D$4A
@@ -250,8 +252,8 @@ $fD	8
 ../public/tier1/utlrbtree.h
 .>N^__int128~
 .ITzau_
+.M; unsigned char
 .M;UU
-.M;`int
 .W4{Jf.
 ._?hN
 .comment
@@ -309,6 +311,7 @@ $fD	8
 3[A\A]A^]
 4+D+M
 42HcU
+4:A9L$
 4fff>fff>fff>fff>
 5UUUU
 6H92t%H
@@ -326,7 +329,6 @@ $fD	8
 8|)fC
 8~Mc
 9.1.15
-9=D6C
 9C0~!E1
 9G ti+G$H
 9G ~%
@@ -337,10 +339,11 @@ $fD	8
 9~0UH
 9~4t*9~8t-9~<
 :>	As?K
+:A9L$
 :[tLL
 ;*3$"
 ;*unsigned short*1
-;5	C@
+;5i>@
 ;A0}4H
 ;ConvertFloatToChannel: Trying to convert to signed char signed char float to signed char destation of byte size %double
 ;K(}&H
@@ -434,8 +437,6 @@ A0fD+"E
 A9D$`~2H
 A9G }
 A9T$$
-A9T$H
-A9T$`
 A9W8L
 A9]P~6
 A9^\~*A
@@ -447,9 +448,6 @@ A;GL}G
 A;GP~
 A;L$ 
 A;L$8
-A;T$H
-A;T$`
-A;T$x
 A;W`~IA
 A;\$ A
 A;\$0t
@@ -573,6 +571,7 @@ AllocateAndCopy
 AllocateResource
 Allocating %short bytes for perf test data
 AnimFile
+AnimProxy
 Animation
 AnimationList
 AnimationSystemUtils_001
@@ -838,6 +837,7 @@ CRC error
 CRITICAL DROP vr_fidelity_level %d. Last frames = %.2fms, %.2fms, %.2fms > %.2f
 CRefCountServiceBase<true, CRefMT>
 CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >
+CRefCounted<CRefCountServiceBase<true, CRefMT> >
 CReferenceCleanupTraversal
 CRenderBufferBinding
 CRenderMesh
@@ -1219,7 +1219,6 @@ D$PA\]
 D$TE1
 D$XA9
 D$XE1
-D$\E1
 D$\M9
 D$hD)unsigned long
 D$hE1
@@ -1255,6 +1254,7 @@ D:...	unsigned short
 D;!unsigned short{Hc
 D;'unsigned short{Hc
 D;.~9H
+D;__float128 D
 D;__float128`D
 D;`0|
 D;char D
@@ -1368,7 +1368,6 @@ ERROR: Resource name "%short" has the incorrect extension "%short" for the speci
 ERROR: Specified full path %short does not lie under the mod search path!)
 ERROR: Specified path %short could not be made content-relative
 EXA;]`
-EXHcAL
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -1516,6 +1515,7 @@ GLIBC_2.3.4
 GLIBC_2.4
 GPU: 
 GT[A\]
+GXHcAL
 GameDataList
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -1545,13 +1545,15 @@ H9GHt
 H9H unsigned short
 H9H unsigned short)H
 H9W8t	]
-H;=/J=
-H;=2H=
-H;=8r=
-H;=GJ=
+H;= q=
+H;="C=
+H;=7E=
+H;=:C=
+H;=@unsigned long=
 H;=OE=
-H;=Pr=
-H;=gE=
+H;=W@=
+H;=Xm=
+H;=unsigned __int128@=
 H;C r
 H;CHs
 H;S@wchar_t
@@ -1570,7 +1572,7 @@ Hc8Hi
 Hc@$H
 Hc@(H
 Hc@pH
-HcA`;Ap
+HcAp;
 HcC$9
 HcC$H
 HcC(1
@@ -1717,7 +1719,6 @@ IcT$$
 IcT$8
 IcT$8H
 IcT$X
-IcT$\1
 IcU E
 IcUPA;U`
 IcW L
@@ -1846,6 +1847,9 @@ Invalid palette length
 Invalid palette size, hIST allocation skipped
 Invalid progressive parameters at scan script entry %double
 Invalid progressive parameters std::basic_string<char, std::char_traits<char>, std::allocator<char> >=%double Se=%double Ah=%double Al=%double
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 Invalid sBIT after IDAT
 Invalid sCAL after IDAT
 Invalid sCAL chunk ignored: bad height format
@@ -1920,13 +1924,13 @@ Lc!D;signed char
 Lc#D;char
 Lc#E9
 Lc&D;float
-Lc'D;__float128
 Lc'E)
 Lc+D;k
-Lc-R^E
+Lc-WE
 Lc/E)
 Lc/E1
 Lc6E9
+Lc7D)
 Lc7E)
 Lc[PD
 Lc`4I
@@ -1934,7 +1938,7 @@ Lcc D;c0t<D
 Lcc4J
 Lcf I9
 Lcg D;g0D
-LcgxD;
+LcwxD;
 Lc{0D;{@D
 Lc{pD;
 Lc{xD;
@@ -2156,6 +2160,8 @@ O`D+wchar_t@D)
 Obtained EMS handle %u
 Obtained XMS handle %u
 OnDiskBufferData_t
+Only BC6H compression not supported on this target (windows only).
+Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 OpenVR event vr::VREvent_InputFocusCaptured
 OpenVR event vr::VREvent_InputFocusReleased
@@ -2174,7 +2180,7 @@ Output file write error --- out of disk space?
 Output:  
 Overall FOV (H/V): 
 P0Mc>E;~
-P8A9^`
+P8A9^p
 PARALLEL_PROCESS utlsoacontainer.cpp:2532
 PNG file corrupted by ASCII conversion
 PNG load error %short
@@ -2184,7 +2190,6 @@ POSIX
 PREDICTIVE DROP vr_fidelity_level %d. Last frames = %.2fms, %.2fms, %.2fms > %.2f
 P[A\A]A^A_]
 P[A\A]A^]
-P`HcE
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -2214,6 +2219,7 @@ PhysFeModelDesc_t
 PhysSoftbodyDesc_t
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsShapeCapsule
 PhysicsShapeHull
@@ -2229,6 +2235,7 @@ Plat_GetEnv
 Plat_GetModuleFilename
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_GlobalMemoryStatus
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
@@ -2243,6 +2250,7 @@ Plat_getwd
 PosXYZ
 PostProcessingSystem_001
 Potential overflow in png_zalloc()
+PpHcE
 Premature end of JPEG file
 Premature end of input file
 Print model load-time conversion info
@@ -2371,6 +2379,8 @@ SchemaTestExternal_Two_001
 Seek failed on temporary file
 Selected %double colors for quantization
 SendActionToAssertDialog
+SequenceMarkup
+SequenceMarkupList
 ServerUploadGameStats001
 Set to 1 when you want frames to be captured by the SteamVR perf test.
 SetAssertionCallback
@@ -2786,7 +2796,7 @@ Zero length tRNS chunk
 \$ E1
 \$0[A\A]A^]
 \$HfA
-\-+.	
+\-K1	
 \u0000
 \unsigned short!Hc
 ]Ht,A
@@ -2994,6 +3004,7 @@ default
 delete
 developer
 dir=%double %double %double, err=%float
+dire_tree_stump002_tintable.vmesh
 displayWindow
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
@@ -3026,14 +3037,14 @@ float( %float )
 float;C.w
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(114): Unknown gamma type "%short"!
-floatbitmap.cpp(2062): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2073): Error loading %short
-floatbitmap.cpp(2096): Error! Unknown file type for %short
-floatbitmap.cpp(2115): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(298): Conversion not supported yet!
-floatbitmap.cpp(398): Conversion not supported yet!
-floatbitmap.cpp(833): Unsupported color format "%short", skipping!
+floatbitmap.cpp(122): Unknown gamma type "%short"!
+floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2097): Error loading %short
+floatbitmap.cpp(2120): Error! Unknown file type for %short
+floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(306): Conversion not supported yet!
+floatbitmap.cpp(406): Conversion not supported yet!
+floatbitmap.cpp(842): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -3146,7 +3157,6 @@ localtime@@GLIBC_2.2.5
 long long ;short|~
 long long<IcH
 long long[A\A]A^A_]
-long long[A\A]]
 long long[]A\A]A^A_
 long long{HcS
 longjmp
@@ -3522,6 +3532,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modellib
 modf@@GLIBC_2.2.5
 multiplayerBreak_t
@@ -3580,6 +3592,7 @@ pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 puwUH
 r)H9]
+rA9D$
 r_gpu_driver_high
 r_gpu_driver_low
 r_multigpu_num_gpus_found
@@ -3717,6 +3730,7 @@ tfUMc
 tf[A\]
 tgE+long double D9
 tgHcQ
+tg[A\]
 th_BEGINH
 th___ENDH
 time@@GLIBC_2.2.5
@@ -3812,19 +3826,19 @@ vortex
 vphys
 vr.cpp
 vr.cpp(1088): 
-vr.cpp(4392): ERROR! Unknown controller axis type %double!
-vr.cpp(5476): VR - Destroying old VB for Stenciling!
-vr.cpp(5521): VR - Error! VB handle is invalid in CVrStencilRenderer!
-vr.cpp(5665): VR - Destroying old VB for SubviewStenciling!
-vr.cpp(6007): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
-vr.cpp(6188): VR - Destroying old IB for warping!
-vr.cpp(6266): VR - Error! VB handle is invalid in CVrWarpRenderer!
-vr.cpp(6275): VR - Error! IB handle is invalid in CVrWarpRenderer!
-vr.cpp(6425): VR - Destroying old VB for reconstruction eye %double!
-vr.cpp(6432): VR - Destroying old IB for reconstruction eye %double!
-vr.cpp(6453): VR - Destroying old IB for reconstruction!
-vr.cpp(6593): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
-vr.cpp(6602): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(4407): ERROR! Unknown controller axis type %double!
+vr.cpp(5494): VR - Destroying old VB for Stenciling!
+vr.cpp(5539): VR - Error! VB handle is invalid in CVrStencilRenderer!
+vr.cpp(5683): VR - Destroying old VB for SubviewStenciling!
+vr.cpp(6025): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
+vr.cpp(6206): VR - Destroying old IB for warping!
+vr.cpp(6284): VR - Error! VB handle is invalid in CVrWarpRenderer!
+vr.cpp(6293): VR - Error! IB handle is invalid in CVrWarpRenderer!
+vr.cpp(6443): VR - Destroying old VB for reconstruction eye %double!
+vr.cpp(6450): VR - Destroying old IB for reconstruction eye %double!
+vr.cpp(6471): VR - Destroying old IB for reconstruction!
+vr.cpp(6611): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(6620): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
 vr_author_refpt vrfly_refpt_pos vrfly_refpt_ang anchor models/dev/gordon_at_desk.vmdl
 vr_black_level_clamp
 vr_chaperone_hardbounds_disabled
@@ -3934,7 +3948,6 @@ wx=%double, wy=%double, long long restrict=%double, unsigned long long restrict=
 wxLcE
 x.Lcm
 x0;wX}+Hc
-xA\A]A^A_]
 xGHcO
 xJA;E
 xOHcO

@@ -41,7 +41,6 @@
  [$0]
  [%.3f server clamped to %.3f]
  [A\A]A^]
- [A\A^A_]
  [A\]
  []A\
  [default = $0
@@ -105,7 +104,6 @@
 "$0" does not declare $1 as an extension number.
 "%short" 
 "%short" = "%short"
-"%short",
 "%short":
 "%short":"%short"
 "%short":%.3f
@@ -205,6 +203,8 @@ $woL)
 %s_Right
 %short %short 
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
+%short allocation count overflow( %llu >= %llu )
 %short called on fill brush type %double
 %short requires %double arguments; only %double given.
 %short%sbps
@@ -342,6 +342,7 @@ $woL)
 0Lc`0
 0[A\A]A^A_]
 0[A\A]A^]
+0[A\A^A_]
 0[A\]
 0[A^]
 0[]A\A]A^
@@ -477,6 +478,7 @@ $woL)
 @82t+1
 @8wtt
 @:2t'
+@:9tx
 @@H;E
 @A;t$
 @ATSH
@@ -1222,7 +1224,6 @@ Default value for an enum field must be an identifier.
 DelayLoadList
 DelayLoadListLoadVisiblePanels
 DelayLoadPanel
-DelayLoadPanelUpdateLoaded
 DeleteAsync
 DeleteFrameRowButton
 DeletePanel
@@ -1594,11 +1595,12 @@ H9X unsigned short
 H9\$P
 H9w UH
 H9w(UH
-H;=$)R
-H;=(&R
-H;==0R
-H;=char:R
-H;=zBB
+H;=$#R
+H;=<(R
+H;=@%R
+H;=U/R
+H;=bAB
+H;={9R
 H;C I
 H;C unsigned short%H
 H;C(H
@@ -2193,6 +2195,7 @@ ReloadStyleFile
 Remove
 Remove signed char CSS class from all children of this panel.
 Remove signed char CSS class from signed char panel.
+Remove then immediately add back signed char CSS class from signed char panel. Useful to long double restrict-trigger events like animations or sound effects.
 RemoveAllOptions
 RemoveAndDeleteChildren
 RemoveClass
@@ -2513,7 +2516,9 @@ StyleLink
 SuggestionPanel
 Sundanese
 SuspendMachine
+Switch which class the panel has for signed char given attribute slot. Allows easily changing between multiple states.
 SwitchClass
+SwitchStyle
 Syloti_Nagri
 Symbol name "
 Syriac
@@ -2627,6 +2632,7 @@ TopMouseScrollRegion
 Tried to calc delta to signed char src message of signed char different type.
 Tried to merge messages of different types 
 Tried to register signed char non-generated type with the generated type registry.
+TriggerStyle
 TurnOffActiveController
 Type appears to be in generated pool but wasn'unsigned short 
 Type is already registered: 
@@ -2947,10 +2953,9 @@ _ZN2v88Function4CallENS_6HandleINS_5ValueEEEiPS3_
 _ZN2v88Template3SetENS_6HandleINS_4NameEEENS1_INS_4DataEEENS_17PropertyAttributeE
 _ZN2v88TryCatchC1Ev
 _ZN2v88TryCatchD1Ev
-_ZN6CFiber16AllocPooledFiberENS_13SizeBuckets_tEm
-_ZN6CFiber18ReleasePooledFiberEv
-_ZN6CFiber22DetachFromStackContextEv
 _ZN6CFiber25SetThreadFiberMemoryRangeEm
+_ZN6CFiberC1Ev
+_ZN6CFiberD1Ev
 _ZN7pcrecpp2RE6no_argE
 _ZN7pcrecpp2RE7CleanupEv
 _ZN7pcrecpp2RE7CompileENS0_6AnchorE
@@ -4359,6 +4364,7 @@ sincosf@@GLIBC_2.2.5
 singleplayer
 sint32
 sint64
+slot, class
 smb://
 snprintf@@GLIBC_2.2.5
 solid
@@ -4596,7 +4602,6 @@ unrecognized character after (?P
 unrecognized character follows \
 unset
 unsigned __int128 ATI
-unsigned __int128 ATSH
 unsigned __int128(ATI
 unsigned char*[A\]
 unsigned char[A\A]A^A_]
@@ -4696,6 +4701,6 @@ zuusH
 ~)A;]
 ~)H97tC
 ~0;x0
-~7Lc%unsigned char
+~7Lc%
 ~CMoviePlayer
 ~CPanel2D - destroy members

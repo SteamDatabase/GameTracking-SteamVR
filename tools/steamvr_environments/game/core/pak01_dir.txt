@@ -97,7 +97,7 @@ materials/dev/noillum_primary_green_color_tga_204e1abb.vtex_c CRC:00b1fd4c03 siz
 materials/dev/normal_test.vmat_c CRC:00cb0b9bc4 size:5592
 materials/dev/primary_black_color.vtex_c CRC:0004e6313b size:1820
 materials/dev/primary_black_color_alpha0.vtex_c CRC:0004c30091 size:1860
-materials/dev/primary_blue.vmat_c CRC:003a89ecf2 size:5656
+materials/dev/primary_blue.vmat_c CRC:00c3297fde size:5736
 materials/dev/primary_blue_color_tga_41d1da7a.vtex_c CRC:0050728050 size:1756
 materials/dev/primary_green.vmat_c CRC:0065b471f7 size:5680
 materials/dev/primary_green_additive.vmat_c CRC:00b79e1fe2 size:5952
@@ -702,7 +702,7 @@ panorama/fonts/conf.d/81-final-rendering-inf-7-xp.conf CRC:009f646759 size:1107
 panorama/fonts/conf.d/90-no-synthetic.conf CRC:00a1ee023c size:2270
 panorama/fonts/conf.d/90-reject.conf CRC:009c08ff16 size:687
 panorama/fonts/conf.d/95-valve.conf CRC:006eff1bfd size:1008
-panorama/fonts/fonts.conf CRC:006e9b9673 size:5395
+panorama/fonts/fonts.conf CRC:009eefec83 size:5341
 panorama/images/collapse_tga.vtex_c CRC:00d02ffb85 size:2272
 panorama/images/cursors/arrow_png.vtex_c CRC:00a80c9daf size:4312
 panorama/images/cursors/ibeam_png.vtex_c CRC:00c4e903a8 size:4312
@@ -743,7 +743,7 @@ panorama/styles/popups/popup_generic.vcss_c CRC:0034917120 size:2319
 panorama/styles/popups/popup_generic_text_entry.vcss_c CRC:00ac252092 size:1722
 panorama/styles/popups/popup_manager.vcss_c CRC:0034172631 size:1163
 panorama/styles/popups/popups_shared.vcss_c CRC:002fa0155d size:2259
-panorama/styles/tooltips/tooltip_base.vcss_c CRC:003128b7a7 size:7661
+panorama/styles/tooltips/tooltip_base.vcss_c CRC:00e6f70e70 size:7721
 panorama/styles/tooltips/tooltip_text.vcss_c CRC:00768fc93b size:1114
 panorama/styles/tooltips/tooltip_title_image_text.vcss_c CRC:00d3b7b489 size:862
 panorama/styles/tooltips/tooltip_title_text.vcss_c CRC:003f88eb1e size:703
@@ -764,8 +764,6 @@ particles/dev/dev_snapshot_preview_sprites_skinned.vpcf_c CRC:007aa37af8 size:15
 particles/dev/dev_snapshot_preview_trails.vpcf_c CRC:006bf0a6a0 size:1455
 particles/dev/dev_snapshot_preview_trails_skinned.vpcf_c CRC:00d202f81b size:1621
 particles/dev/dev_texture_effect.vpcf_c CRC:009e9531f7 size:1141
-particles/dev/placeholder.psf CRC:00ba738f90 size:36891
-particles/dev/placeholder_skinned_kv.psf CRC:002b5c0d34 size:2288
 particles/dev/two_attachment_point_effect.vpcf_c CRC:001c8cf16d size:1136
 particles/entity/player_teleport_sparks.vpcf_c CRC:00f512474c size:1246
 particles/entity/rope_segment.vpcf_c CRC:000cc71c72 size:1369
@@ -783,9 +781,9 @@ resource/dmecontrols_english.txt CRC:005479af9d size:4470
 resource/gamemenu.res CRC:00e1f8d188 size:22
 resource/sourcescheme.res CRC:0032256ea5 size:25510
 resource/valve_brazilian.txt CRC:00aab7d469 size:109778
-resource/valve_bulgarian.txt CRC:000740cd98 size:111514
+resource/valve_bulgarian.txt CRC:00ea3a7844 size:111510
 resource/valve_czech.txt CRC:003dee8ae3 size:108858
-resource/valve_danish.txt CRC:004fbd029b size:101794
+resource/valve_danish.txt CRC:00ebceb7f9 size:102314
 resource/valve_dutch.txt CRC:00d72f177b size:110888
 resource/valve_finnish.txt CRC:00a92e9cfe size:102680
 resource/valve_french.txt CRC:00f459ec3a size:111982
@@ -798,7 +796,7 @@ resource/valve_korean.txt CRC:00e4f4cfac size:96452
 resource/valve_koreana.txt CRC:00e4f4cfac size:96452
 resource/valve_norwegian.txt CRC:00d6d3149a size:101154
 resource/valve_polish.txt CRC:00a9b6c954 size:108970
-resource/valve_portuguese.txt CRC:00dbc91dc6 size:110012
+resource/valve_portuguese.txt CRC:0023fa8f7a size:110010
 resource/valve_romanian.txt CRC:0065a2dcab size:97020
 resource/valve_russian.txt CRC:00d36313a9 size:109040
 resource/valve_schinese.txt CRC:0067470d3a size:92674
@@ -807,7 +805,7 @@ resource/valve_swedish.txt CRC:00fe75dd9c size:108424
 resource/valve_tchinese.txt CRC:008517a599 size:91382
 resource/valve_thai.txt CRC:0088a77664 size:104006
 resource/valve_turkish.txt CRC:00f91b6fa5 size:108462
-resource/valve_ukrainian.txt CRC:0021b80056 size:109306
+resource/valve_ukrainian.txt CRC:0027cdc6bb size:109324
 resource/vgui_danish.txt CRC:00e4a6bc70 size:18080
 resource/vgui_dutch.txt CRC:00ab8b90db size:18140
 resource/vgui_finnish.txt CRC:005ecd5708 size:18128

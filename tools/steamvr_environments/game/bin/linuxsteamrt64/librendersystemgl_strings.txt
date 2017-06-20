@@ -135,6 +135,9 @@ $woL)
 %s.360%short
 %s_%d_%d_%d_%double
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
+%short allocation count overflow( %llu >= %llu )
+%short allocation count overflow( add %llu + current %llu > max %llu )
 %short called on an immutable constant buffer
 %short(): Trying to add an empty VS input signature
 %short/%short
@@ -248,14 +251,15 @@ $woL)
 *** vfx_common.cpp(1147): Error opening file "%short"!
 *** vfx_common.cpp(1224): Error opening file "%short"!
 *** vfx_common.cpp(4877): Error opening file "%short"!
-*** vfx_common.cpp(5011): Error opening file "%short"!
-*** vfx_common.cpp(5234): Error opening file "%short"!
-*** vfx_common.cpp(5268): Error opening file "%short"!
-*** vfx_common.cpp(5307): Error opening file "%short"!
-*** vfx_common.cpp(5411): Error opening file "%short"!
-*** vfx_common.cpp(5866): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
-*** vfx_common.cpp(7006): Programmer Error! NULL pointer passed into function!
-*** vfx_common.cpp(7032): Programmer Error! Non feature rule found in feature rule array!
+*** vfx_common.cpp(5027): Error opening include file in features list"%short"!
+*** vfx_common.cpp(5066): Error opening file "%short"!
+*** vfx_common.cpp(5295): Error opening file "%short"!
+*** vfx_common.cpp(5329): Error opening file "%short"!
+*** vfx_common.cpp(5368): Error opening file "%short"!
+*** vfx_common.cpp(5472): Error opening file "%short"!
+*** vfx_common.cpp(5927): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
+*** vfx_common.cpp(7062): Programmer Error! NULL pointer passed into function!
+*** vfx_common.cpp(7088): Programmer Error! Non feature rule found in feature rule array!
 *** vfx_common.cpp(81): __int128 noexcept'unsigned short call VfxInit() more than once!
 *** vfx_common.cpp(909): Error opening file "%short"!
 *** vfx_common.cpp(91): g_pFullFileSystem must be set up before calling VfxInit!
@@ -346,7 +350,9 @@ $woL)
 -nogammaramp
 -oldtexturestreaming
 -preloadtextures
+-r_max_device_threads
 -rendersystem_thread_mode
+-shaderstats
 -sse2
 -sse3
 -sse4
@@ -457,7 +463,7 @@ $woL)
 :[tLL
 ;*3$"
 ;*unsigned short*1
-;5)X:
+;59l:
 ;_addons
 ;wchar_t`v.L
 <	McO
@@ -664,7 +670,6 @@ AWAVAUATI
 AWAVAUATI9
 AWAVAUATL
 AWAVAUATLc
-AWAVAUATM
 AWAVAUATS
 AWAVAUATSD
 AWAVAUATSH
@@ -869,7 +874,9 @@ CKeyValuesDumpContextAsDevMsg
 CLA;E
 CLZInWindow
 CL[A\A]A^]
+CLargeCommandBufferChunk CUtlMemoryPoolMT
 CLayoutInsert
+CMediumCommandBufferChunk CUtlMemoryPoolMT
 CMemAllocSystemInitialize
 CMemberFunctor0<FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CEikonalExecuteControls> >*, void (FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CEikonalExecuteControls> >::*)(), CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 CMemberFunctor0<FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CHeatTransferEquationControls> >*, void (FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CHeatTransferEquationControls> >::*)(), CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
@@ -1062,6 +1069,7 @@ ChildOf(
 Chipset version %double %double 
 Clibpng warning: %short
 Closed temporary file %short
+Command stream pools: %short bytes in base, %short bytes in medium, %short bytes in large (%short extra data fallbacks)
 CommandLine
 Commit
 Compatibility
@@ -1153,7 +1161,8 @@ D84;unsigned short
 D8T;4
 D9+~/L
 D93~"Mc/E;unsigned __int128
-D9=iN:
+D9=)^:
+D9=unsigned long long\:
 D9A$t
 D9F<~
 D9L$0A
@@ -3538,6 +3547,9 @@ H9GHt
 H9O0r
 H9W8t	]
 H;0tGH
+H;=B)7
+H;=Z)7
+H;=\(7
 H;B(uLL
 H;C r
 H;CHs
@@ -3666,12 +3678,12 @@ IcGdD
 IcGdE)
 IcGhI)
 IcL$XH9
-IcQxA;
 IcT$ 
 IcT$8
 IcT$8H
 IcV8A
 IcW(H
+IcWxA;
 Ic](A;]8
 Ic]PI
 Ic^xA;
@@ -3805,6 +3817,7 @@ Invalid sRGB after IDAT
 Invalid scan script at entry %double
 Invalid sequence number %double!!!
 Invalid tRNS after IDAT
+Invalid thread index (%double) given
 JFIF APP0 marker: version %d.%02d, density %dx%double  %double
 JFIF extension marker: JPEG-compressed thumbnail image, length %u
 JFIF extension marker: RGB thumbnail image, length %u
@@ -3931,6 +3944,7 @@ MapListService_001
 MaterialUtils_001
 MathLib_Init
 MaxDeviceID
+Maximum device access threads: %u
 Maximum supported image dimension is %u pixels
 MbP?+
 Mc&E;float
@@ -4068,6 +4082,8 @@ Obtained XMS handle %u
 OnGenerateMipMaps on non-existing texture.
 OnUpdateIndexBuffer
 OnUpdateVertexBuffer
+Only BC6H compression not supported on this target (windows only).
+Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 OpenGL
 OpenGL %short (%08x)
@@ -4116,7 +4132,6 @@ PC_SM_4_1_VULKAN
 PC_SM_5_0
 PC_SM_5_0_GL
 PC_SM_5_0_VULKAN
-PE9uH
 PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.
 PERFORMANCE
 PLE9|$H
@@ -4154,6 +4169,7 @@ Plat_GetModuleFilename
 Plat_GetOSType
 Plat_GetPlatformError
 Plat_GetProcAddress
+Plat_GetThreadIndex
 Plat_GetWindowClientSize
 Plat_GetWindowMonitorIndex
 Plat_GlobalMemoryStatus
@@ -4380,6 +4396,7 @@ Serialize
 SerializeStaticComboWorker
 SeriousWarning
 ServerUploadGameStats001
+SetAssociatedThreadIndex
 SetConstantBufferDataInternal
 SetHardwareGammaRamp( %float )
 Shader %short doesn'unsigned short support compile target %short
@@ -4387,6 +4404,7 @@ Shader API Driver Info:
 Shader Compile Time: %llu ms (Count: %double) 
 Shader attribute "%short" has inconsistent value or type across multiple shaders of signed char feature combo!
 Shader file version mismatch.  Expected (%double), Got (%double).
+ShadingComplexity
 SheetFrameImage_t
 SheetSequenceFrame_t
 SheetSequence_t
@@ -4477,7 +4495,6 @@ TSPEC_VOLUME_TEXTURE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
-Texture created overall: %short; textures evicted: %short
 Texture manager out of space! Can'unsigned short allocate new texture!
 Texture memory discrepancy! %llu != %llu
 Texture memory limit: %short; in use: %short in %short textures
@@ -4486,6 +4503,7 @@ TextureDimLog2
 TextureHeader_t
 TextureSheetData
 TextureSpecificationFlags_t
+Textures created overall: %short; textures evicted: %short
 The filename may only contain lower case alphanumeric characters and underscores.
 The value of field.m_nSlot (%double) exceeds the value of MAX_D3DVERTEXELEMENTS (%double)!
 ThreadGetCurrentId
@@ -4498,6 +4516,7 @@ Timed out waiting for thread to exit? hung?
 Too many IDATs found
 Too many bytes for PNG signature
 Too many color components: %double, max %double
+Too many threads (%double) accessing the render device, need to increase -r_max_device_threads (%double)
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -4563,6 +4582,7 @@ Unsupported compression type.
 Unsupported format.
 Unsupported marker type 0x%02x
 Unsupported version or scanline.
+Upper limit on texture pool size.
 UserInfoChangeService_001
 V0u@H
 V89W8|
@@ -5146,14 +5166,14 @@ float4x4
 float;C.w
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(114): Unknown gamma type "%short"!
-floatbitmap.cpp(2062): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2073): Error loading %short
-floatbitmap.cpp(2096): Error! Unknown file type for %short
-floatbitmap.cpp(2115): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(298): Conversion not supported yet!
-floatbitmap.cpp(398): Conversion not supported yet!
-floatbitmap.cpp(833): Unsupported color format "%short", skipping!
+floatbitmap.cpp(122): Unknown gamma type "%short"!
+floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2097): Error loading %short
+floatbitmap.cpp(2120): Error! Unknown file type for %short
+floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(306): Conversion not supported yet!
+floatbitmap.cpp(406): Conversion not supported yet!
+floatbitmap.cpp(842): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -5198,10 +5218,12 @@ gl/renderdevicegl.cpp(1516):
 gl/renderdevicegl.cpp(1969): 
 gl/renderdevicegl.cpp(1976): 
 gl/renderdevicegl.cpp(2014): 
+gl/renderdevicegl.cpp(2224): 
 gl/renderdevicegl.cpp(355): 
 gl/renderdevicegl.cpp(493): 
 gl/renderdevicegl.cpp(581): 
 gl/renderdevicegl.cpp(599): 
+gl/renderdevicegl.cpp(874): 
 gl/renderthreadgl.cpp(1689): 
 gl/togl/glmdisplaydb.cpp
 gl/togl/glmgr_flush.inl
@@ -5622,7 +5644,6 @@ long long signed char::* Vertex Texture Image Units : %double
 long long/fA)]
 long long<IcH
 long long[A\A]A^A_]
-long long[A\A]]
 long long[]A\A]A^A_
 longjmp
 longjmp@@GLIBC_2.2.5
@@ -5843,6 +5864,7 @@ r0[A\]
 r_frame_sync_enable
 r_fullscreen_gamma
 r_gpu_mem_stats
+r_max_texture_pool_size
 r_texture_eager_eviction
 r_texture_pool_size
 r_texture_stream_debug_spew
@@ -5854,6 +5876,7 @@ r_textures_evict_all
 r_wait_on_present
 realloc
 realloc@@GLIBC_2.2.5
+rendercontextbase.cpp
 renderdevicemgrbase.cpp
 renderdoc
 rendersystemgl
@@ -5916,6 +5939,8 @@ setting.maxdxlevel
 setting.nowindowborder
 setting.recommendedheight
 setting.recommendedwidth
+setting.refreshrate_denominator
+setting.refreshrate_numerator
 setting.resettodefaults
 setting.shaderquality
 shadercache/gl
@@ -6031,18 +6056,18 @@ tessfactor
 texCoords = vec4( inTexCoords, 0.0, 0.0 );  
 texcoord
 text compression mode is out of range
-texturebase.cpp(1291):Error loading texture: %short
-texturebase.cpp(2078):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2089):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2100):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2121):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2132):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2143):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2154):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2175):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2186):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2197):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2208):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(1297):Error loading texture: %short
+texturebase.cpp(2088):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2099):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2110):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2131):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2142):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2153):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2164):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2185):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2196):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2207):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2218):ResourceHandleToData( %short ) failed! Falling back to error texture!
 tfUMc
 tgE+long double D9
 tgHcS
@@ -6058,7 +6083,6 @@ trunc
 trunc@@GLIBC_2.2.5
 ttIcG
 txA;\$ I
-tzD9m
 u	[A\]
 u Ic}`F
 u LcU
@@ -6073,6 +6097,7 @@ u7[A\A]A^]
 u:[A\A]A^A_]
 u?IcF
 uA[A\A]A^]
+uC[A\]
 uHMc~
 uMHcN
 uRLcc
@@ -6141,11 +6166,11 @@ vendor id: 0x%long long
 vfx_common.cpp
 vfx_common.cpp(3362): Error! Ref count !=0 for static combo data cache entry!
 vfx_common.cpp(3449): Error! Ref count !=0 for static combo data cache entry!
-vfx_common.cpp(6546): Error opening file %short
-vfx_common.cpp(6620): VCS %short Unserialize failed
-vfx_common.cpp(6634): VCS %short Unserialize hit EOF
-vfx_common.cpp(6768): Error opening file %short
-vfx_common.cpp(6775): Error calling SkipAndValidateVCSHeader() for %short
+vfx_common.cpp(6598): Error opening file %short
+vfx_common.cpp(6672): VCS %short Unserialize failed
+vfx_common.cpp(6686): VCS %short Unserialize hit EOF
+vfx_common.cpp(6824): Error opening file %short
+vfx_common.cpp(6831): Error calling SkipAndValidateVCSHeader() for %short
 vfx_compile_target_expr.cpp(106): : Failed to create lexer from "%short"
 vfx_compile_target_expr.cpp(114): : Failed to create token stream from "%short"
 vfx_compile_target_expr.cpp(122): : Failed to create parser from "%short"

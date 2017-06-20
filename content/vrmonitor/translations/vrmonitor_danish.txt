@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"danish"
 "Tokens"
@@ -1901,5 +1901,7 @@
 "[english]BugReporter_SubmissionTimeout"	"Submission Timeout.\n\nThe network upload is taking longer than expected. Please try again later.\n"
 "BugReporter_ProgressSubmittingPercent"	"Indsender...%1%"
 "[english]BugReporter_ProgressSubmittingPercent"	"Submitting...%1%"
+"Settings_PauseOnStandby"	"Sæt rendering på pause mens headsettet er passivt"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

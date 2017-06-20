@@ -47,6 +47,7 @@
 	[A\A]A^]
 	enum_type
 	extension
+	host_loss
 	name_part
 	tickcount
 	type_name
@@ -99,6 +100,7 @@
  CSVCMsg_GameSessionConfiguration
  Can'unsigned short back up over more bytes than were returned by the last call to Next().
  Cast Shadows %4dx%4d.
+ ChangesH
  Color: %double %double %d.
  D;t$
  DbgDrawLvl:
@@ -143,9 +145,7 @@
  args were given.  Full format string was: "
  arguments. 
  auto alias
- check: H
  contains invalid 
- culled H
  inflate 1.2.5 Copyright 1995-2010 Mark Adler 
  is not valid for field 
  libpng version 1.5.2 - March 31, 2011
@@ -225,7 +225,6 @@
 "$0" does not declare $1 as an extension number.
 "%short" 
 "%short" = "%short"
-"%short",
 "%short":
 "%short":"%short"
 "%short":%.3f
@@ -281,9 +280,11 @@
 #%short/%short/BatchRenderList frame( %double )
 #%short/%short/LayerClear
 #%short/%short/PrimaryContext frame( %double )
+#%short/%short/Resolves
 #%short/%short/UpdatePerViewConstantBuffer%double
 #%short/RenderAView/RenderAView
 #%short/UpdatePerViewConstantBuffers
+#%short/UpdatePerViewConstantBuffers%double
 #3CScs
 #GameUI_ClientConsistencyFail
 #GameUI_ClientDifferentMap
@@ -428,6 +429,7 @@ $uxA
 %short : %short
 %short [%short] 
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
 %short: %short
 %short: string format requested %double chars
 %short\%short
@@ -519,8 +521,8 @@ $uxA
 )NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
 )NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
 )NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
-*%6Sj
-*5%unsigned int&&
+*%rj
+*-6rj
 *:JZjz
 *CMemberFunctor1<CParallelProcessorAbstract<CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}> >*, void (CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}>::*)(int), int, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 *InitLightBinnerVr(IRenderContext*, CSceneView*, unsigned long long, unsigned long long)::{lambda(CEnvMapSceneObject*)#1}
@@ -597,7 +599,7 @@ $uxA
 ...@tmD
 ../_generated_code/scenesystem/release/linuxsteamrt64/../../../../public/scenesystem/sceneobject.h
 ../public/resourcefile/resourcestream.h
-../public/scenesystem/sceneobject.h(2662): Material %short cannot render in mode %short but is being asked to
+../public/scenesystem/sceneobject.h(2661): Material %short cannot render in mode %short but is being asked to
 ../public/schemasystem/schema.h
 ../public/tier0/tslist.h
 ../public/tier1/utlblockmemory.h
@@ -934,7 +936,7 @@ $uxA
 ?u='@
 ?|7m=U
 @  0x%08X %short,
-@4HcH0E
+@$HcH E
 @8A]A^]
 @@H;E
 @@fD9
@@ -986,7 +988,6 @@ A9T$$
 A9W8L
 A9^\~*A
 A9_@~8L
-A;D$ 
 A;G A
 A;GL}G
 A;GP~
@@ -1145,6 +1146,7 @@ Allocating new transform texture!
 Already saw decimal point or exponent; can'unsigned short have another one.
 AnZZI
 AnimFile
+AnimProxy
 Animation
 AnimationList
 AnimationSnapshot_t
@@ -1386,7 +1388,6 @@ CConstraintTarget
 CCopySkyLightingPixelsProceduralLayer
 CCopySkyLightingReadTexturePixelsCallback
 CCountedStringPool
-CDAZ[]
 CDHcs@
 CDSSu
 CDZ[]
@@ -1559,6 +1560,7 @@ CKeyValues3Cluster
 CKeyValues3Cluster allocated with bad alignment! (%p) (If this is inside of signed char heap allocation, you may need to inherit from CAlignedNewDelete< KV3_CLUSTER_SIZEOF >.)
 CKeyValuesDumpContextAsDevMsg
 CLightBinner::UpdateBinTexture
+CLightBinnerVr: Unsupported VrMaxLights %double
 CLightObjectDesc
 CLightProbeVolumeObjectDesc
 CLightPropagationVolumeObjectDesc
@@ -1658,6 +1660,7 @@ CPtRHcS$H
 CRC error
 CRefCountServiceBase<true, CRefMT>
 CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >
+CRefCounted<CRefCountServiceBase<true, CRefMT> >
 CReferenceCleanupTraversal
 CRenderBufferBinding
 CRenderMesh
@@ -2202,10 +2205,11 @@ D9|$
 D:...	tUHc
 D:...	unsigned short
 D;!unsigned short{Hc
-D;%Y-unsigned int
+D;%)8j
 D;'unsigned short{Hc
 D;.~9H
 D;P0}B
+D;__float128 D
 D;__float128`D
 D;char D
 D;ch}
@@ -2291,6 +2295,7 @@ Duplicate view id found for %llu
 E A+E
 E$Ic\$ 
 E(9E 
+E(A9E
 E)O(A
 E)rTA
 E)t$ M
@@ -2332,6 +2337,8 @@ E;D$$
 E;\$8
 E;__float128 |
 E;__int128\|
+E;fh|
+E;fh}hI
 E;float }
 E;float(|
 E;float(}
@@ -2444,7 +2451,6 @@ F A;F0
 F Hcu
 F I9D$ 
 F Lc#D;char
-F(A9F
 F(D9e
 F(I9D$(
 F49C`
@@ -2645,9 +2651,9 @@ H	p(]
 H	wchar_t(UH
 H!wchar_t(H
 H#A H9
+H$HcH E
 H0~sUA
 H3P I
-H4HcH0E
 H9*tgH
 H90t%A
 H90t4
@@ -2658,20 +2664,20 @@ H9W(unsigned short	]
 H9W8t	]
 H9q(u
 H;:t21
-H;=,ej
-H;=B!long
-H;=Czm
-H;=Idj
-H;=Iyl
-H;=Q	k
-H;=Rej
-H;=bool+long
-H;=ndj
-H;=short	k
-H;=xlC
+H;=.long
+H;=={long
+H;=GFl
+H;=_Il
+H;=`Yl
+H;=fVl
+H;=long&
+H;=oSl
+H;=pLk
+H;=xgl
 H;C r
 H;CHs
 H;S@wchar_t
+H@LcA
 HIGHDPI
 HW Does not support occlusion queries!
 H[A\A]A^A_]
@@ -2686,7 +2692,7 @@ Hc8Hi
 Hc@$H
 Hc@(H
 Hc@pH
-HcA`;Ap
+HcAp;
 HcC L
 HcC$9
 HcC$H
@@ -2913,6 +2919,7 @@ InfoForResourceTypeCTextureBase
 InfoForResourceTypeIMaterial2
 InfoForResourceTypeMorphSetData_t
 InfoForResourceTypeSequenceGroupResourceData_t
+InitForFrustum
 Input file read error
 InputService_001
 InputStackSystemVersion001
@@ -2994,6 +3001,9 @@ Invalid progressive parameters at scan script entry %double
 Invalid progressive parameters std::basic_string<char, std::char_traits<char>, std::allocator<char> >=%double Se=%double Ah=%double Al=%double
 Invalid proto descriptor for file "
 Invalid public dependency index.
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 Invalid sBIT after IDAT
 Invalid sCAL after IDAT
 Invalid sCAL chunk ignored: bad height format
@@ -3094,7 +3104,6 @@ Lc!D;signed char
 Lc#D;char
 Lc#E9
 Lc&D;float
-Lc'D;__float128
 Lc'E)
 Lc+D;k
 Lc/E)
@@ -3190,6 +3199,7 @@ Malformed iCCP chunk
 Malformed iTXt chunk
 MapListService_001
 Material Changes: 
+MaterialA
 MaterialDrawDescriptor_t
 MaterialGroupList
 MaterialGroup_t
@@ -3410,7 +3420,6 @@ Note that enum values use C++ scoping rules, meaning that enum values are siblin
 Num Tran
 Num Transform rows used: 
 Num Unique materials in the frame: 
-Num objeH
 Num objects passing cull check: 
 Num occluder tris being clipped: 
 Num occluder tris: 
@@ -3419,7 +3428,6 @@ Num occluders:
 Num occlusion renders: 
 Num tris created from clipping: 
 Num tris rasterized: 
-Number oH
 Number of Object culled by vis: 
 Number of display lists submitted: 
 Number of jobs used to render: 
@@ -3451,6 +3459,8 @@ Occlusion system scratch mem use:
 OnDiskBufferData_t
 Oneof must have at least one field.
 OneofDescriptorProto
+Only BC6H compression not supported on this target (windows only).
+Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 Opened temporary file %short
 Optimize the partition assignment of objects based on the next frame'short render
@@ -3479,7 +3489,7 @@ Overrides the map'short fog settings (-1 populates fog_ vars with map'short valu
 P$HcH E
 P(HcE
 P0Mc>E;~
-P8A9^`
+P8A9^p
 PARALLEL_PROCESS utlsoacontainer.cpp:2532
 PE9|$
 PLACEHOLDER_VALUE
@@ -3491,7 +3501,6 @@ POSIX
 P[A\A]A^A_]
 P[A\A]A^]
 P[A\]
-P`HcE
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -3532,6 +3541,7 @@ PhysFeModelDesc_t
 PhysSoftbodyDesc_t
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsShapeCapsule
 PhysicsShapeHull
@@ -3552,6 +3562,7 @@ Plat_GetEnv
 Plat_GetModuleFilename
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
 Plat_MSTime
@@ -3585,6 +3596,7 @@ Position4D
 PostProcessVertexLayout
 PostProcessingSystem_001
 Potential overflow in png_zalloc()
+PpHcE
 Premature end of JPEG file
 Premature end of input file
 PrimitivA
@@ -3786,7 +3798,10 @@ SceneSystem/VolumetricFog
 SceneSystem/VrDefaultShadowTextureHeight
 SceneSystem/VrDefaultShadowTextureWidth
 SceneSystem/VrLightBinner
+SceneSystem/VrLightBinnerLightLimitInGameView
+SceneSystem/VrLightBinnerLightLimitInToolsView
 SceneSystem/VrLightBinnerLightPriority
+SceneSystem/VrLightBinnerMaxLights
 SceneSystemInit
 SceneSystem_002
 SceneUtils_001
@@ -3802,6 +3817,8 @@ Second argument to Swap() (of type "
 Second argument to SwapFields() (of type "
 Seek failed on temporary file
 Selected %double colors for quantization
+SequenceMarkup
+SequenceMarkupList
 ServerUploadGameStats001
 ServiceDescriptorProto
 ServiceOptions
@@ -3826,6 +3843,7 @@ SetRepeatedUInt64
 SetString
 SetUInt32
 SetUInt64
+SetupLightingForViewVr
 Shadowed spot lights require more than the allocated %dx%double shadow map! Some will be removed!
 Show occluder
 Show the occluder depth buffer mip level. 0=off, 1=1st mip, 2=nd mip, etc...
@@ -4258,7 +4276,7 @@ VrLightCookieSettings
 VsInputSignature_t
 W H9r
 W,HcG(E
-W-~:0
+W->N0
 W0Hc_8A
 WARNING
 WARNING: Could not find schema data for helper class for resource type %lld '%short'. (Missing MDiskDataForResourceType metadata or schema data isn'unsigned short loaded?)
@@ -4300,10 +4318,9 @@ X360_DST24F
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
-Y%#	2
-Y-/	2
+Y%:B)
 Y89Z8
-Y=ND0
+Y=NV0
 YD$$L
 YR ~UK
 YS|fE
@@ -4330,7 +4347,6 @@ Zero length tRNS chunk
 \$0[A\A]A^]
 \$HfA
 \%03o
-\%D6*
 \U%08x
 \long long%02x
 \u0000
@@ -4338,7 +4354,7 @@ Zero length tRNS chunk
 ]0t@H
 ]Ht,A
 ^ unsigned short+H
-^=c/
+^%BY5
 ^XM;S0
 ^[A\A]]
 _ ~`I
@@ -4697,7 +4713,6 @@ _setjmp
 _setjmp@@GLIBC_2.2.5
 _test_conversion_counter
 `$HcH E
-`@IcD$
 `D;S8}DI
 `D;l$(L
 `D;{8
@@ -4741,7 +4756,6 @@ buf error
 buffer error
 buffer. Use the 'bytes' type if you intend to send raw 
 bulletimpact
-by vis: H
 bytes
 bytes. 
 c.[A\]
@@ -4805,7 +4819,6 @@ csm_res_override_3
 csm_slope_scale_db_override
 csm_split_log_scalar
 csm_viewdir_shadow_bias
-cts passH
 ctype
 cube.pfm
 curvature
@@ -4889,7 +4902,6 @@ flags
 float
 float %double %double %double
 float == __null || dynamic_cast<To>(float) != __null
-float ObjectH
 float displaH
 float jobs uH
 float renderH
@@ -4900,14 +4912,14 @@ float;C*wchar_t
 float;C.w
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(114): Unknown gamma type "%short"!
-floatbitmap.cpp(2062): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2073): Error loading %short
-floatbitmap.cpp(2096): Error! Unknown file type for %short
-floatbitmap.cpp(2115): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(298): Conversion not supported yet!
-floatbitmap.cpp(398): Conversion not supported yet!
-floatbitmap.cpp(833): Unsupported color format "%short", skipping!
+floatbitmap.cpp(122): Unknown gamma type "%short"!
+floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2097): Error loading %short
+floatbitmap.cpp(2120): Error! Unknown file type for %short
+floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(306): Conversion not supported yet!
+floatbitmap.cpp(406): Conversion not supported yet!
+floatbitmap.cpp(842): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -4957,7 +4969,6 @@ gfffffffH
 go_package
 group
 gx=%double, gy=%double, bx=%double, by=%double
-h$HcH E
 hdLcH
 header crc mismatch
 host_computationtime
@@ -4979,7 +4990,6 @@ incorrect header check
 incorrect length check
 indsH
 infinity
-ing cullH
 input_type
 instanceidbuffer
 instanceidbuffer2
@@ -5023,7 +5033,7 @@ java_outer_classname
 java_package
 java_string_check_utf8
 jumpfactor
-k unsigned short'H
+k unsigned short?H
 k8;C0t8
 k8D;kHD
 k8~XA
@@ -5057,6 +5067,7 @@ light_priority_enabled
 light_priority_fade_dist_far
 light_priority_fade_dist_near
 lightbinner_total_data_%d.vtex
+lightbinner_vr.cpp
 lighting_array_fog_RT1.vtex
 lighting_array_fog_RT2.vtex
 lightingbasis
@@ -5574,6 +5585,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modellib
 modf@@GLIBC_2.2.5
 morphcomposite
@@ -5630,8 +5643,8 @@ output_type
 outputcolor
 outputdepth
 p Icx`F
-p$HcH E
 p4AUA
+p4HcH0
 p?VGUI
 p@ATI
 pChunk
@@ -5843,8 +5856,8 @@ scenesysCone
 scenesysDodecahedron
 scenesystem
 scenesystem.cpp
-scenesystem.cpp(5221): Expecting 1 renderable pass for material "%short" but found %double!
-scenesystem.cpp(6379): Waited 500 ms for jobs to complete. Attempt to drain windows message queue. Jobs in queue = %double
+scenesystem.cpp(5222): Expecting 1 renderable pass for material "%short" but found %double!
+scenesystem.cpp(6380): Waited 500 ms for jobs to complete. Attempt to drain windows message queue. Jobs in queue = %double
 scenesystemdebug
 sceneview.cpp
 sceneviewdebugoverlays.cpp
@@ -6093,7 +6106,6 @@ unsigned __int128 ATI
 unsigned __int128 ATL
 unsigned __int128 E;o0D
 unsigned __int128(ATSH
-unsigned __int128,ATI
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned char[]A\A]A^A_
@@ -6232,9 +6244,8 @@ ws used:H
 ws: H
 wx=%double, wy=%double, long long restrict=%double, unsigned long long restrict=%double
 wxLcE
-x$HcH E
+x$HcH 
 x0;wX}+Hc
-xA\A]A^A_]
 xBE;,$}<Mc
 xD;3}@H
 xGHcO

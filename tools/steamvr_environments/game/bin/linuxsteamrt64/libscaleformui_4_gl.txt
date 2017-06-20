@@ -1,10 +1,9 @@
  A __bss_start
  A _edata
  A _end
- CFiber::AllocPooledFiber(CFiber::SizeBuckets_t, unsigned long)
- CFiber::DetachFromStackContext()
- CFiber::ReleasePooledFiber()
+ CFiber::CFiber()
  CFiber::SetThreadFiberMemoryRange(unsigned long)
+ CFiber::~CFiber()
  CMemAllocSystemInitialize
  CThreadEvent::CThreadEvent(bool)
  CThreadEvent::Set()
@@ -51,6 +50,7 @@
  Plat_FileSize
  Plat_FloatTime
  Plat_GetOSType
+ Plat_GetThreadIndex
  Plat_GetTime
  Plat_IsHighDPI
  Plat_IsInDebugSessionRaw

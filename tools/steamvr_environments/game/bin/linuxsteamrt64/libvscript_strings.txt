@@ -21,6 +21,7 @@
 	no module '%short' in file '%short'
   __int128@(
  !"#$%&'()*+,-./0123
+ %short: 
  %short="%double"
  %short="%short"
  ( def. "%short" )
@@ -140,6 +141,7 @@ $[]A\
 ,0[]A\
 ,I9F 
 -+ #0
+-luajit
 -sse2
 -sse3
 -sse4
@@ -177,6 +179,7 @@ $[]A\
 .tbss
 .text
 /* GNU ld script
+/var/srcH
 0123456789ABCDEF
 0123456789abcdef
 0@volatile
@@ -865,7 +868,7 @@ SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
 Script Runtime Error: %short
-Script load error for script %short: %short
+Script load error for script
 Script_Msg
 Script_Warning
 ServerUploadGameStats001
@@ -1400,6 +1403,8 @@ dlsym
 dlsym@@GLIBC_2.2.5
 dofile
 double
+double/dota
+ds/shareH
 duplicate label '%short'
 elseif
 enabled
@@ -1806,7 +1811,7 @@ nparams
 number
 numchildren
 offsetof
-op\conteH
+op/conteH
 output
 p$9p 
 p$9p s8H
@@ -1878,8 +1883,8 @@ running
 runtime code generation failed, restricted kernel?
 sX)S H
 schemasystem
+scripts/H
 scripts/vscripts/%short
-scripts\
 searchpath
 seeall
 selectHtonumber
@@ -1901,7 +1906,7 @@ setvbuf@@GLIBC_2.2.5
 short
 short#HcP
 short%[]A\A]H
-short\workshH
+short/workshH
 short_src
 shutdown
 shutdown@@GLIBC_2.2.5

@@ -47,6 +47,7 @@
  Plat_GetPlatformError
  Plat_GetProcAddress
  Plat_GetProcAddresses
+ Plat_GetThreadIndex
  Plat_IsHighDPI
  Plat_IsInDebugSessionRaw
  Plat_LoadInterface

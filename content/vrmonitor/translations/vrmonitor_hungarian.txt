@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"hungarian"
 "Tokens"
@@ -1972,5 +1972,7 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"Az Éjszakai mód reggel öt óráig (vagy a SteamVR újraindításáig) leveszi a fejszett fényerejét."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_PauseOnStandby"	"Képalkotás felfüggesztése, amikor a fejszett tétlen"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

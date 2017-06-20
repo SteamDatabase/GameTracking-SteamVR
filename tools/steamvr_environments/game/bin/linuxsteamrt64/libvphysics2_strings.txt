@@ -64,7 +64,6 @@
  []A\
  both shH
  both sides of collision in the same hierarchy must have self-collision and solid contacts enabled.
- collisiH
  do NOT H
  excludeH
  flags: H
@@ -75,7 +74,6 @@
  max. %float
  min. %float
  must beH
- never cH
  not colH
  persistH
  presentH
@@ -87,8 +85,6 @@
  the shaH
  vsfD
  vsfE
- with coH
- with coL
  with collision enabled
 !m_bNeedsSort
 "%short" 
@@ -295,7 +291,8 @@ $[A\]
 -unittest
 -validate
 -with flH
-.%@unsigned char'
+.%FZ&
+.-!unsigned int,
 .../u-H
 ...`u^A
 ../public/resourcefile/introspectedtypemanager.h
@@ -306,8 +303,6 @@ $[A\]
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier1/utlsortvector.h
-.5=unsigned long long&
-.5L|&
 .CTw}
 .G({FH
 .G,...#u!
@@ -344,7 +339,7 @@ $[A\]
 // only one region left, because 
 00000000-0000-0000-0000-000000000000
 0123456789ABCDEF
-0A9_8~gI
+0A9_8~oI
 0A;\$
 0AUATSH
 0D;Kpr
@@ -363,7 +358,6 @@ $[A\]
 1 1 1
 1 << %u
 1000000
-131667. H
 1Mc'H
 2017-05-11 17:37:44.703000
 2WAY_0( 
@@ -464,14 +458,13 @@ $[A\]
 ?unsupported?
 ?~t8H
 @ A\]
-@ Ic@(
-@ flag
 @ flagH
 @ ith:
 @ ith:I
 @$A;t$
 @( flafD
 @(ers:
+@(ers:H
 @(lag
 @(lideH
 @(lidef
@@ -648,6 +641,7 @@ AWAVI
 AWAVL
 AWAVLc
 AWAVM
+AWAVSH
 A\A]A^A_]
 A\A]A^A_]A
 A\A]A^]
@@ -691,6 +685,7 @@ AngularMotions[ 0 ]
 AngularMotions[ 1 ]
 AngularMotions[ 2 ]
 AnimFile
+AnimProxy
 AnimSpace
 Animation
 AnimationList
@@ -796,10 +791,8 @@ Burst Randomize
 Burst Scale
 C E9w 
 C ~6A
-C$[A\]
 C&[A\A]A^]
 C(9C 
-C(9C D
 C([A\A]A^]
 C([A\]
 C(tBL
@@ -1817,6 +1810,7 @@ D+{$Mc
 D.$Hc
 D/4Hc
 D64Hc
+D9=int(5
 D9[(v5D
 D9c(D
 D9k(E
@@ -1824,6 +1818,7 @@ D9{ u
 D;!unsigned short{Hc
 D;'unsigned short{Hc
 D;.~9H
+D;__float128 D
 D;__float128(E
 D;__float128@D
 D;__float128`D
@@ -1936,7 +1931,6 @@ E9t$8D
 E9ulw
 E9|$ 
 E9~H~bI
-E;"t1I
 E;,$|
 E;J,}	
 E;__float128(D
@@ -1950,7 +1944,7 @@ E;fH|
 E;l$(D
 E;l$(|
 E;l$@|
-E;l$H}kI
+E;l$H}sI
 E;t$0u
 E;t$\
 E;ulH
@@ -2011,6 +2005,7 @@ Expected value or ']'
 F	ATH
 F 9G tq
 F A;F0
+F IcF(
 F Lc#D;char
 F(Lc+D;k
 F68G6t
@@ -2096,7 +2091,6 @@ For Hitbox Test
 ForcedUpdates
 FormatV
 Found max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
-FpMc7H
 Fraction
 FreeNodeCount
 FrictionNotifications
@@ -2204,7 +2198,7 @@ HammerMapLoader001
 Hc0;s0rUH
 Hc<0L
 Hc@$H
-HcA`;Ap
+HcAp;
 HcB Icw
 HcBT1
 HcC 1
@@ -2238,6 +2232,7 @@ HcC|I
 HcF(UH
 HcFhI
 HcG H
+HcG I
 HcGDUH
 HcG`UH
 HcGdH
@@ -2293,7 +2288,6 @@ HcKl1
 HcKt1
 HcKxH
 HcK|1
-HcO H
 HcO H9
 HcO(U1
 HcO0U1
@@ -2328,7 +2322,6 @@ HcW@U1
 HcWPH
 Hcp,Hc@$H
 Hcs H
-Hcx$H
 Hcz I
 Hcz(1
 HelpSystem_001
@@ -2434,6 +2427,7 @@ IcD$$E
 IcD$41
 IcD$D
 IcD$DM
+IcD$H
 IcD$HE
 IcD$XH
 IcD$h
@@ -2471,6 +2465,8 @@ Ic^PA;^`
 Icr 1
 Icu`H
 Ic|$`
+Ic~$H
+Ic~,I
 Inconsistent collision attribute index array of size %double, expected %double (number of shapes)
 Infinite Joint Weights encountered: Skinning will not work!
 InfoForResourceTypeAnimationGroupResourceData_t
@@ -2495,7 +2491,6 @@ Interact-as-exclude: excluded as-layers:
 Interact-as-exclude: not excluded. All tests passed. These shapes should Collide.
 Interact-as-with test fails: there no common interaction layers found in the shapes
 Interact-as-with test passes, common layers: 
-InteractH
 InteractL
 InteractionLayerMask(uint64)
 Internal inconsistency between the layout format and attribute is detected.
@@ -2516,6 +2511,9 @@ Invalid input layout field format %double for joint indices
 Invalid interaction layer %short
 Invalid layer %short
 Invalid member name '%short'
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 Invalid, 
 IslandIndex
 IslandSolve
@@ -2896,7 +2894,7 @@ P(A;wchar_t
 P,[A\A]A^]
 P0Mc>E;~
 P2fA3W2f
-P8A9^`
+P8A9^p
 P8HcG H
 PHYSICS_DEBUG_MATERIAL_COUNT
 PHYSICS_DEBUG_MATERIAL_NODEPTHTEST
@@ -2928,7 +2926,6 @@ PSEUDO_SHAPE_NONE
 PULLEY
 P[A\A]A^]
 P[A\]
-P`HcE
 Pair Flags (%double) include INTERSECTION_PAIR_TRIGGER.
 PairBuffer
 PairCount
@@ -2986,6 +2983,7 @@ PhysicsBodyType_t
 PhysicsBuilderMgr001
 PhysicsConicalJointSave_t
 PhysicsDebugMaterialId_t
+PhysicsFile
 PhysicsFileReference
 PhysicsGameSystem::FinishSimulateFrame
 PhysicsGameSystem::OnSimulate(Per World, Deprecated)
@@ -3029,6 +3027,7 @@ Plat_GetEnv
 Plat_GetModuleFilename
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
 Plat_RelativeTicks
@@ -3045,6 +3044,7 @@ Point[%double]
 Pointer Array
 PosXYZ
 PostProcessingSystem_001
+PpHcE
 PreacquireMask
 PrepareContacts
 PrepareJoints
@@ -3053,7 +3053,6 @@ Prismatic
 ProcessUpdaterStatusChanges
 Projectile
 PropertyEditorSystem_001
-Proxy
 ProxyCount
 PullKinematicTransformsWorker
 PullKinematicTransformsWorker_PerWorld_Deprecated
@@ -3444,14 +3443,14 @@ SearchContact
 Second bL
 Second body has no Aggregate.
 Second bool
-See CL 2
 See CL 2131667. Two non-dynamic bodies with Resolve must never collide or report collision
-See CL 2L
 Select
 Selection from unrecognized world %p
 Self Collisions
 Self-Collision Left: %short, Right: %short
 Separation
+SequenceMarkup
+SequenceMarkupList
 ServerUploadGameStats001
 Set to 1 to reload resources and reconstruct physics of entities on the fly. unsigned long long signed char::* unexpectedly change behavior or crash the game, because game code is generally unaware of underlying resource reloads and may hold references to physics that may become invalid during resource reload. It is inherently harder for physics to deal with resource reloads because of persistent nature of objects being simulated (textures can be easily reloaded on the fly; if an entity holds signed char handle to signed char ragdoll body part, it may expect that handle to stay valid while the ragdoll exists)
 Set up debug-draw of physics internal state
@@ -3590,13 +3589,24 @@ T$0A\A]]
 T$0H9
 T$0Hc
 T$8H)
-T$@L)
 T$HfA
 T$LHcC
 T$PfD
 T$`D9
+T$`E1
 T$zfA
+T%AC,
+T-22,
+T-4R,
+T-PS,
 T64Hc
+T9$Hc
+T= R,
+T=.E,
+T=G1,
+T=GR,
+T=bT,
+T=s3,
 TLc#D;char
 TOI: Count
 TOI: Failures
@@ -3674,7 +3684,6 @@ Two mesh
 Two meshH
 Two meshes may not have collision
 Two non-
-Two non-H
 Two non-L
 Two non-dynamics do NOT have signed char Trigger flag
 Two non-dynamics have signed char Trigger flag
@@ -3948,13 +3957,13 @@ VpropBreakablePartData_t
 VsInputSignature_t
 W H9r
 W"f3P
+W%"wchar_t,
+W%RA,
+W%char ,
 W(tFL
 W,f9G*
-W5[7.
-W5\D,
-W5z+,
-W=55&
-W=zD,
+W5\[%
+W=char[%
 W@HcJ
 WARNING: Could not find schema data for helper class for resource type %lld '%short'. (Missing MDiskDataForResourceType metadata or schema data isn'unsigned short loaded?)
 WARNING: LoadAndValidateResourceHeader - FileSystem not initialized!
@@ -3986,32 +3995,33 @@ Writing kdTree with %double triangles
 Wrong alignment %double
 Wz_JT1
 Wz_JT2
-X%r*E
+X%jsC
+X-__float128{C
 X2:jH
+X=4J&
 X@8Hc
 XE;l$
 XForm1
 XForm2
-XT$`E
 XT(0I
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
-Y%D".
+Y%$J$
+Y%Lf$
+Y%void&,
+Y->f$
 Y@/*const char *g_ReflFieldNames[ %double ] =
 Y@Tu	
 YC4tL
 YD$$L
 YD$tL
 YG4tY
-Yd$lE
 Yd$lL
-Yl$dA
 You do not delete serialized hulls: it'short impossible
 Z(H+r
 Z@H+r0L
 [%double] %double convex, %double mesh
-[,[A\]
 [A\A]A^A_]
 [A\A]A^A_]A
 [A\A]A^]
@@ -4019,6 +4029,7 @@ Z@H+r0L
 [A\A]]A
 [A\A^A_]
 [A\A^]
+[A^A_]
 [CBroadphaseProxyData]
 [CRnContact]
 [CRnJoint]
@@ -4040,12 +4051,10 @@ Z@H+r0L
 \$4E1
 \$HfA
 \$xI9
-\-V %
 \u0000
 \unsigned short!Hc
 ]Ht,A
 ^ unsigned short+H
-^-V>&
 _ HcG
 _ ~`I
 _&f9_$
@@ -4208,7 +4217,6 @@ blendweight
 blendweights
 blocklight
 blocklos
-bodies wH
 body hasH
 bool BevelGearRefl_t::m_bProject
 bool BevelGearRefl_t::m_bWarmStart
@@ -4335,12 +4343,10 @@ door_blocker
 dormant
 dragBasis
 dy has nH
-dynamic H
 dynamic_bodies
 dynamicsH
 else // %short < 0
 ema H
-enabled
 encoding
 eractionH
 ersiH
@@ -4596,7 +4602,6 @@ interfaces.cpp
 introspectedtypemanager.cpp
 ion PairH
 isabled.H
-ith ResoH
 joints[%double]
 jumpfactor
 k IcD$
@@ -4639,7 +4644,6 @@ lightmapuv
 linear X:%short Y:%short Z:%short angular X:%short Y:%short Z:%short
 lision dH
 llide teH
-llision H
 localToGlobal
 long double has anH
 long double notifiH
@@ -4656,7 +4660,6 @@ looping
 lowprecisionuv
 lowprecisionuv1
 luded asH
-lve mustH
 m8D;char
 mM+.H
 m_Bounds
@@ -5195,6 +5198,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modellib
 moveable
 multiplayerBreak_t
@@ -5217,7 +5222,6 @@ o0ATA
 o0ATSH
 oHATA
 ody has H
-ollide oH
 on allowH
 on flagsH
 on touchH
@@ -5299,7 +5303,6 @@ qOrientation
 qOrientation0
 r H;r(
 r Lost:
-r reportH
 r)H9]
 r2f9B,
 reaction frequency of signed char soft contact
@@ -5411,6 +5414,7 @@ t$8Ic
 t$;H9
 t$>fE
 t$@A\]
+t$@D;k
 t$@tsHc
 t$BfE
 t$D9j
@@ -5420,11 +5424,11 @@ t$HA\A]A^]
 t$HD;k
 t$HcP
 t$HfA
+t$IcV
 t$PH9
 t$TH9
 t$XA\]
 t$XLc+D;k
-t$[H9
 t$`D;k
 t$`Lc+D;k
 t$`fE
@@ -5453,19 +5457,17 @@ t7D;.~'L
 t7HcB
 t8D;&~'L
 t8HcB
-t9$Hc
 tB~<<
-tDIcV
 tEMcY
 tEMci
 tGIcV
 tLc#D;char
-tQIcW
 tQ[A\A]A^]
 tR[A\A]A^]
 tSHcO
 tV;0~'L
 tWA9]
+tWIcT$
 tWIct$
 tZHcS
 t_HcU
@@ -5484,7 +5486,6 @@ texcoord
 texcoordH
 tf[A\]
 tf~$<
-tf~4<
 tgHcQ
 th_BEGINH
 th___ENDH
@@ -5636,17 +5637,16 @@ unsigned charcomplex [A\A]]
 unsigned long long callbaH
 unsigned short	;sP
 unsigned short	[A\]
+unsigned short IcV
 unsigned short RnBodyRefl_t::m_nGameIndex
 unsigned short!0M9
 unsigned short"HcK
 unsigned short"HcO
-unsigned short#IcV
 unsigned short%IcL$P
 unsigned short&Hcq
 unsigned short'IcG01
-unsigned short'IcV
 unsigned short(HcO
-unsigned short* const%M
+unsigned short* const"M
 unsigned short*<-H
 unsigned short*Hc;1
 unsigned short*HcE
@@ -5667,6 +5667,7 @@ unsigned short<UHc
 unsigned short<fA9
 unsigned short=$Hc
 unsigned short>HcB
+unsigned short>IcV
 unsigned short>[A\]
 unsigned short?HcB
 unsigned short?[A\]
@@ -5775,7 +5776,6 @@ wxLcE
 x0;wX}+Hc
 xAVAUATA
 xAVAUATSH
-xA\A]A^A_]
 xGHcO
 xHL;{
 xJA;E
@@ -5783,7 +5783,7 @@ xOHcO
 xo;wX}jHc
 zGuEI
 zSuQHcG
-zkuiL
+zrupL
 { L;u
 { [A\]
 {0[A\]
@@ -5838,4 +5838,5 @@ zkuiL
 ~`D9k
 ~oHc6H
 ~pA\A]A^A_]
+~pLc1D;q
 ~|HcE

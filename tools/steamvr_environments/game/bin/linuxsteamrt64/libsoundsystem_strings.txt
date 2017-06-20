@@ -90,6 +90,8 @@ $[A\]
 %short = %short: %int : %int : %int : %int : %int
 %short Operator Fields: %int
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
+%short allocation count overflow( %llu >= %llu )
 %short references : 
 %short set to %.2f
 %short set to %long long (%short)
@@ -177,7 +179,6 @@ $[A\]
 ../public/tier1/utlleanvector.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
-../public/tier2/fieldpath.h
 .D$<wchar_t
 .D$Tr
 .D$Tv
@@ -253,12 +254,12 @@ $[A\]
 :@uCUH
 :[tLL
 ;*3$"
+;../public/tier2/fieldpath.h
 ;/u.H
 ;7t01
 ;9t/H
 ;A@unsigned short+H
 ;C8~KH
-;Path_AddToTail failed, depth already == DEFAULT_MAX_PATH_DEPTH(%double)
 ;W |K
 ;mempool.cpp
 ;t%H
@@ -436,6 +437,7 @@ AWAVAUATSHc
 AWAVAUATSL
 AWAVAUATUSH
 AWAVAUE
+AWAVAUE1
 AWAVAUI
 AWAVAUL
 AWAVAULc
@@ -477,6 +479,7 @@ Allocate
 AllocateAndCopy
 AllocateResource
 AnimFile
+AnimProxy
 Animation
 AnimationList
 AnimationSystemUtils_001
@@ -706,6 +709,7 @@ CSosOperatorLogicSwitch12Float
 CSosOperatorLogicSwitch3Float
 CSosOperatorLogicSwitch3Float3
 CSosOperatorLogicSwitchFloat3
+CSosOperatorLogicSwitchSpeakers
 CSosOperatorMathAverage8
 CSosOperatorMixGraphInput
 CSosOperatorMixGroup
@@ -910,6 +914,7 @@ D+s$Mc
 D+stMc
 D+{$Mc
 D+{tMc
+D9%QK6
 D9bH~lH
 D9k ~>A
 D:r(unsigned short+A
@@ -1173,6 +1178,7 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3.4
 GLIBC_2.4
+G`D;short
 Game v.o. volume
 Game volume
 GameDataList
@@ -1521,6 +1527,7 @@ Output channels
 Output file types
 Output sample rate
 Output sample width
+P@HcE
 PARAM COUNT COMPARE FAIL: %short->%short
 PARAMDATA COMPARE FAIL: %short->%short : %short
 PARAMINFO COMPARE FAIL: %short->%short
@@ -1545,6 +1552,7 @@ Parsing SoundMixers:
 ParticleSystemMgr002
 Path_AddToTail
 Path_AddToTail failed for read only CFieldPath
+Path_AddToTail failed, depth already == DEFAULT_MAX_PATH_DEPTH(%double)
 Path_PopLast
 Path_PopLast failed for read only CFieldPath
 Path_RemoveAll
@@ -1553,6 +1561,7 @@ Peak Amplitude
 Performing fixup on '%short'
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsShapeCapsule
 PhysicsShapeHull
@@ -1741,6 +1750,8 @@ SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
 SelectedEditItemInfo_t
+SequenceMarkup
+SequenceMarkupList
 ServerUploadGameStats001
 Set an input mix value
 Set input %short to %short on graph %short
@@ -1903,6 +1914,7 @@ URn : rhotacized lower-mid central vowel
 URn : rhotacized schwa
 UUUUUUUUH
 UUUUUUUUUH
+Unable to create voice for vmix "%short" check script.
 Unable to determine buffer encoding.
 Unable to find soundevent: %short
 Unable to load sound system data.
@@ -2291,6 +2303,8 @@ calc_spatialize_VR
 calc_spatialize_speakers
 ceilf
 ceilf@@GLIBC_2.2.5
+center1
+center2
 cheat
 check_event_data
 checksum
@@ -2315,6 +2329,7 @@ ctrl_switch3_float
 ctrl_switch3_float3
 ctrl_switch_float
 ctrl_switch_float3
+ctrl_switch_speakers
 curve_type
 dBCompressionThreshold
 dBKneeWidth
@@ -2645,7 +2660,11 @@ kv3format_manager.cpp
 l$ M9u
 l$0E;l$@D
 left_front
+left_front1
+left_front2
 left_rear
+left_rear1
+left_rear2
 left_up
 length
 less_than
@@ -2753,6 +2772,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 movie_fixwave
 movie_fixwave: File '%short' does not exist
 mp3_miles.cpp
@@ -2943,7 +2964,11 @@ resource
 resourcesystem
 right_down
 right_front
+right_front1
+right_front2
 right_rear
+right_rear1
+right_rear2
 rmsTime
 rootNode
 round
@@ -3199,7 +3224,7 @@ tSLc{8L
 tWA9]
 tWLc%
 tXLcc
-tZHc5W
+tZHc5w
 taG : voiced velar stop
 tb[A\]
 tdA:]
@@ -3337,8 +3362,7 @@ weights_field_name
 x1HcC@H9
 x8;7}4H
 xCHcq
-xD9%<
-xD95]
+xD9%|
 xGHcO
 xHIcL$
 xYHcFpH9
@@ -3359,8 +3383,8 @@ zuusH
 |$HfA
 |$PE1
 |$xfA
-}!D9%.
 }!float;S&wchar_t
+}'D9%
 }(;ST
 }*float;C
 }:;A$
@@ -3371,13 +3395,13 @@ zuusH
 }vA;]T
 }}float;wchar_t
 ~	ATI
+~%Lce
 ~'D9c
 ~(A\A]A^]
 ~)A;]
 ~)H97tC
+~)H;short
 ~)I;L$
-~)Lce
-~*I;u
 ~AVAUL
 ~BIc_
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %short via shutdown

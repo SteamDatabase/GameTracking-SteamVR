@@ -42,6 +42,7 @@
  Plat_GetModuleFilename
  Plat_GetOSType
  Plat_GetPlatformError
+ Plat_GetThreadIndex
  Plat_IsHighDPI
  Plat_IsInDebugSessionRaw
  Plat_RelativeTicks

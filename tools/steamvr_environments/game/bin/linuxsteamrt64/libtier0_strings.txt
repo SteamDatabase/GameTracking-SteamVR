@@ -254,19 +254,23 @@ $[A\]
 0'>0c*>
 0123456789ABCDEF
 0[A\A]A^]
+0[A\]
 0[]A\A]A^
 5`SM2F
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
-95-Z#
+95FF#
+95}P#
+9=n%
 9@tPA
 ::<lambdfD
 ::_CAssertFastInternal::AssertionFailed
 :>	Q>>
 :bD/bool
 ;*3$"
-;=ZZ#
+;='Q#
+;=cP#
 <$.t"L
 <$.t`L
 <+u)H
@@ -909,6 +913,7 @@ SDL_GetRelativeMouseMode
 SDL_GetScancodeFromKey
 SDL_GetScancodeName
 SDL_GetWindowDisplayIndex
+SDL_GetWindowDisplayMode
 SDL_GetWindowFlags
 SDL_GetWindowFromID
 SDL_GetWindowGrab
@@ -957,6 +962,7 @@ SDL_SetHint
 SDL_SetRelativeMouseMode
 SDL_SetTextInputRect
 SDL_SetWindowBordered
+SDL_SetWindowDisplayMode
 SDL_SetWindowFullscreen
 SDL_SetWindowGammaRamp
 SDL_SetWindowGrab
@@ -1335,6 +1341,9 @@ XA\A]A^A_]
 XS&Y+
 X[A\A]A^A_]
 X[]A\A]A^A_
+X]{ivZ
+ZN17CThreadLocalScopeC1EP16ThreadHandle_t(bool)
+ZN17CThreadLocalScopeC2EP16ThreadHandle_t(bool)
 [ func+child      func ]       Count
 [ func+child      func ]  [ func+child   func ]  [ func+child   func ]    Count   Peak
 [/code]
@@ -1357,6 +1366,7 @@ X[]A\A]A^A_
 [list]
 [url=
 \D2%4
+\|4W\S
 ]tK9]
 ^ unsigned short+H
 _AssertValidReadPtr
@@ -1549,8 +1559,6 @@ _ZN17CThreadLocalScope31CScopeCreatedOrDestroyedHandlerC1EPFvPS_bE
 _ZN17CThreadLocalScope31CScopeCreatedOrDestroyedHandlerC2EPFvPS_bE
 _ZN17CThreadLocalScope31CScopeCreatedOrDestroyedHandlerD1Ev
 _ZN17CThreadLocalScope31CScopeCreatedOrDestroyedHandlerD2Ev
-_ZN17CThreadLocalScopeC1EP16ThreadHandle_t__
-_ZN17CThreadLocalScopeC2EP16ThreadHandle_t__
 _ZN17CThreadLocalScopeD1Ev
 _ZN17CThreadLocalScopeD2Ev
 _ZN17CThreadSpinRWLock10UnlockReadEv
@@ -1658,8 +1666,8 @@ _ZN6CFiber15IsReadyToResumeEv
 _ZN6CFiber16AllocPooledFiberENS_13SizeBuckets_tEm
 _ZN6CFiber16InitStackContextEPvmbm
 _ZN6CFiber17RunInThreadMemoryEPFxPvES0_
-_ZN6CFiber18ReleasePooledFiberEv
 _ZN6CFiber20WaitForJobCompletionER14CEventListNode
+_ZN6CFiber21ReachedZeroReferencesEv
 _ZN6CFiber22DetachFromStackContextEv
 _ZN6CFiber23IsRunningInThreadMemoryEv
 _ZN6CFiber25SetThreadFiberMemoryRangeEm
@@ -1728,6 +1736,7 @@ _ZN9CVProfileD1Ev
 _ZN9CVProfileD2Ev
 _ZNK13CWorkerThread12GetCallParamEv
 _ZNK16CThreadFullMutex9IsCreatorEv
+_ZNK17CThreadLocalScope18IsLocalThreadScopeEv
 _ZNK17CThreadSyncObjectntEv
 _ZNK20CCallStackMarkerBase35TestMarkerAgainstCapturedStackIndexEPKPKvii
 _ZNK22MiniDumpStandardData_t21HandlerQueueHeartBeatEv
@@ -2146,6 +2155,7 @@ pthread_getschedparam
 pthread_getschedparam@@GLIBC_2.2.5
 pthread_join
 pthread_join@@GLIBC_2.2.5
+pthread_key_create@@GLIBC_2.2.5
 pthread_kill
 pthread_kill@@GLIBC_2.2.5
 pthread_mutex_destroy
@@ -2170,6 +2180,8 @@ pthread_self
 pthread_self@@GLIBC_2.2.5
 pthread_setname_np
 pthread_setname_np@@GLIBC_2.12
+pthread_setspecific
+pthread_setspecific@@GLIBC_2.2.5
 pthread_yield
 pthread_yield@@GLIBC_2.2.5
 putenv

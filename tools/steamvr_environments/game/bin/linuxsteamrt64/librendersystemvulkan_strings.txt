@@ -374,6 +374,9 @@ $woL)
 %short %short (
 %short (%double)
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
+%short allocation count overflow( %llu >= %llu )
+%short allocation count overflow( add %llu + current %llu > max %llu )
 %short called on an immutable constant buffer
 %short profile; removed in version %double
 %short(): Trying to add an empty VS input signature
@@ -397,7 +400,7 @@ $woL)
 (%short): ADD %short = %short
 (%short): Setting %short to %short
 (*%short*), 
-(-~#9
+(-__int128%9
 (...)
 (8HXhx
 (;unsigned long long(|
@@ -410,7 +413,6 @@ $woL)
 ([A\A]A^A_]
 ([A\A]A^]
 ([A\A]]
-([A\A^]
 ([]A\
 ([]A\A]
 ([]A\A]A^A_
@@ -513,14 +515,15 @@ $woL)
 *** vfx_common.cpp(1147): Error opening file "%short"!
 *** vfx_common.cpp(1224): Error opening file "%short"!
 *** vfx_common.cpp(4877): Error opening file "%short"!
-*** vfx_common.cpp(5011): Error opening file "%short"!
-*** vfx_common.cpp(5234): Error opening file "%short"!
-*** vfx_common.cpp(5268): Error opening file "%short"!
-*** vfx_common.cpp(5307): Error opening file "%short"!
-*** vfx_common.cpp(5411): Error opening file "%short"!
-*** vfx_common.cpp(5866): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
-*** vfx_common.cpp(7006): Programmer Error! NULL pointer passed into function!
-*** vfx_common.cpp(7032): Programmer Error! Non feature rule found in feature rule array!
+*** vfx_common.cpp(5027): Error opening include file in features list"%short"!
+*** vfx_common.cpp(5066): Error opening file "%short"!
+*** vfx_common.cpp(5295): Error opening file "%short"!
+*** vfx_common.cpp(5329): Error opening file "%short"!
+*** vfx_common.cpp(5368): Error opening file "%short"!
+*** vfx_common.cpp(5472): Error opening file "%short"!
+*** vfx_common.cpp(5927): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
+*** vfx_common.cpp(7062): Programmer Error! NULL pointer passed into function!
+*** vfx_common.cpp(7088): Programmer Error! Non feature rule found in feature rule array!
 *** vfx_common.cpp(81): __int128 noexcept'unsigned short call VfxInit() more than once!
 *** vfx_common.cpp(909): Error opening file "%short"!
 *** vfx_common.cpp(91): g_pFullFileSystem must be set up before calling VfxInit!
@@ -616,8 +619,10 @@ $woL)
 -nomultigpu
 -noscaleform
 -preloadtextures
+-r_max_device_threads
 -rendersystem_thread_mode
 -sgpu
+-shaderstats
 -sse2
 -sse3
 -sse4
@@ -638,7 +643,6 @@ $woL)
 -vulkan_enable_nvx_trim_command_pool
 -vulkan_enable_validation
 -vulkan_force_sm30
--vulkan_max_threads
 -vulkan_minimal_validation
 -vulkan_no_image_transitions
 -vulkan_nv_disable_kepler_workaround
@@ -646,7 +650,7 @@ $woL)
 -vulkan_use_glsl
 -vulkanrenderthreadstack
 .#IND
-.-a8"
+.-AC"
 .../u-H
 ...>vr_flush_on_timer
 ../public/resourcefile/introspectedtypemanager.h
@@ -702,8 +706,10 @@ $woL)
 0: Use classic mode. 1: Use per-thread persistently mapped buffers.
 0@81t
 0A9\$0
+0A\A]A^]
 0E91A
 0H91t
+0HcW H
 0Ocd.TA
 0Ocl>TA
 0[A\A]A^A_]
@@ -793,7 +799,6 @@ $woL)
 ;*3$"
 ;*unsigned short*1
 ;1|,;q
-;5	uP
 ;_addons
 ;l$ H
 ;mempool.cpp
@@ -806,7 +811,6 @@ $woL)
 <$[]A\
 <$tEL
 <'L;long long
-<*D9gls9H
 <-uWI
 </tF<*u
 </uLH
@@ -975,6 +979,7 @@ A<9w>
 ADD_ASSIGN
 ALIGN_TYPE is wrong, please fix
 ALL_PC
+AMD RADV
 AMPERSAND
 AND_ASSIGN
 AND_OP
@@ -1024,7 +1029,6 @@ AUATUS
 AUATUSD
 AUATUSH
 AUATUSv
-AVATI
 AVATSH
 AVAUA
 AVAUATA
@@ -1097,14 +1101,12 @@ A\A]A^L
 A\A]A^]
 A\A]]
 A\A]]A
-A\A^]
 A]A^A
 A]A^H
 A]A^]
 AbandonOutstandingStreamingRequest
 Aboring OnReadPixels because of GPU memory allocation failure.
 Absolute value
-AcquireUniqueIndexForThread
 Actually dude, we didn'unsigned short seem to be expecting anything here, or at least
 AddMultipleToTail
 AddToTailGetPtr
@@ -1325,7 +1327,9 @@ CKeyValuesDumpContextAsDevMsg
 CLA;E
 CLZInWindow
 CL[A\A]A^]
+CLargeCommandBufferChunk CUtlMemoryPoolMT
 CLayoutInsert
+CMediumCommandBufferChunk CUtlMemoryPoolMT
 CMemAllocSystemInitialize
 CMemberFunctor0<FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CEikonalExecuteControls> >*, void (FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CEikonalExecuteControls> >::*)(), CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 CMemberFunctor0<FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CHeatTransferEquationControls> >*, void (FastSweepThreadedExecutionState<JoinedClasses_t<CValveThreadingControls, CHeatTransferEquationControls> >::*)(), CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
@@ -1547,6 +1551,7 @@ ClearLayout
 Clibpng warning: %short
 Closed temporary file %short
 Comma
+Command stream pools: %short bytes in base, %short bytes in medium, %short bytes in large (%short extra data fallbacks)
 CommandLine
 Commit
 Compare Equal
@@ -1867,11 +1872,10 @@ D24X4S4
 D24X8
 D24X8_SHADOW
 D3DCOLORtoUBYTE4
-D64Hc
 D84;unsigned short
 D8T;4
 D93~"Mc/E;unsigned __int128
-D9=)8P
+D9=	AP
 D9A$t
 D9F t.
 D9F<~
@@ -1905,6 +1909,7 @@ D;long long H
 D;long long ~
 D;unsigned __int128 ~&H
 D;unsigned char H
+D;{ u
 D;{8D
 D= L)
 DATAH
@@ -2030,13 +2035,13 @@ E9/~}L
 E9C$t!H
 E9gPI
 E9l$8
-E9l$H
+E9l$Hv
 E9l$\
 E9t$ ~kI
 E9t$8H
-E9t$Lv5D
-E9t$Lw
 E9t$\
+E9wLv4D
+E9wLw
 E;D$$
 E;\$8
 E;__int128 A
@@ -2470,56 +2475,52 @@ H9l$0tBH
 H;,$I
 H;,$u
 H;0tOH
-H;5Lh5
 H;<$u+H
 H;<$u<H
 H;<unsigned short
-H;= 3B
-H;="__int128<
-H;=##9
-H;=#T<
-H;=&C>
-H;=&L>
-H;='<7
-H;=)>7
-H;=+yC
-H;=,TE
-H;=...|D
-H;=.~C
-H;=/double=
-H;=30?
-H;=: E
-H;=:#7
-H;=<wC
-H;==#>
-H;=>BA
-H;=E:?
-H;=JB7
-H;=L'8
-H;=N*9
-H;=Q9D
-H;=R;M
-H;=RA>
-H;=TTE
-H;=]int>
-H;=`!9
-H;=`JD
-H;=`w7
-H;=a0F
-H;=cI>
-H;=fG<
-H;=fY6
-H;=hc8
-H;=int<7
-H;=jE>
-H;=kD<
-H;=lAA
-H;=long:M
-H;=nA<
-H;=unsigned int;M
-H;=unsigned long restrict<
-H;=unsigned long<
-H;=~ID
+H;= h8
+H;=!A7
+H;="J>
+H;=#I<
+H;=$FA
+H;=&F<
+H;=*r<
+H;=.\<
+H;=4$E
+H;=4q>
+H;=6ND
+H;=7o<
+H;=;YE
+H;=<o7
+H;==)9
+H;=>m5
+H;=@X7
+H;=C.9
+H;=F:>
+H;=FM<
+H;=HJM
+H;=MP?
+H;=OZE
+H;=QOA
+H;=RkD
+H;=T5?
+H;=UFA
+H;=X;B
+H;=Y<D
+H;=\R>
+H;=`JM
+H;=b39
+H;=ch=
+H;=dlD
+H;=ifC
+H;=ld7
+H;=long double\6
+H;=pE=
+H;=short/9
+H;=vYE
+H;=wchar_t>?
+H;=x5B
+H;=y9;
 H;@Pt7H
 H;A r
 H;B void
@@ -2583,6 +2584,7 @@ HcC8H
 HcC@H
 HcCdE)
 HcChI)
+HcC|L
 HcD$(1
 HcD$(H
 HcD$4H
@@ -2592,6 +2594,7 @@ HcD$`
 HcE H
 HcE Hc
 HcE0H
+HcE`E
 HcG L
 HcHhH
 HcL$LH
@@ -2746,11 +2749,11 @@ IcGdD
 IcGdE)
 IcGhI)
 IcL$XH9
-IcQxA;
 IcT$ 
 IcT$8
 IcT$8H
 IcW(H
+IcWxA;
 Ic](A;]8
 Ic]PI
 Ic^xA;
@@ -2884,6 +2887,7 @@ Invalid scan script at entry %double
 Invalid sequence number %double!!!
 Invalid shader In/Out variable semantic: 
 Invalid tRNS after IDAT
+Invalid thread index (%double) given
 Invalid variable index to flattened array
 InvocationId
 J7hs\)short
@@ -2939,7 +2943,6 @@ L$8dH3
 L$@A\A]A^
 L$@E1
 L$@H;L$HH
-L$HE)
 L$HfA
 L$P<&
 L$PE1
@@ -2948,7 +2951,6 @@ L$Xt:
 L$Xw	D
 L$hdH3
 L$pMc
-L64Hc
 L8.I;N
 L9$$tRI
 L9$$tbI
@@ -3096,9 +3098,11 @@ Malformed iCCP chunk
 Malformed iTXt chunk
 Mantle
 MapListService_001
+MarkIssuesCommands
 MaterialUtils_001
 MathLib_Init
 MaxDeviceID
+Maximum device access threads: %u
 Maximum supported image dimension is %u pixels
 MbP?+
 Mc&E;float
@@ -3251,6 +3255,8 @@ Obtained EMS handle %u
 Obtained XMS handle %u
 OhIcW M
 OnMultiGpuTransferTexture: No texture specification for destination texture, skipping transfer.
+Only BC6H compression not supported on this target (windows only).
+Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 Only one push_constant block is allowed per stage
 OpH;OxH
@@ -3303,7 +3309,6 @@ PC_SM_4_1_VULKAN
 PC_SM_5_0
 PC_SM_5_0_GL
 PC_SM_5_0_VULKAN
-PE9uH
 PERCENT
 PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.
 PHD2h
@@ -3352,6 +3357,7 @@ Plat_GetModuleFilename
 Plat_GetMonitorResolution
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_GetWindowClientSize
 Plat_GetWindowMonitorIndex
 Plat_GlobalMemoryStatus
@@ -3546,6 +3552,7 @@ RegisterConfigValue: Unknown error constructing config value "%short"!
 RegisterStringToken
 Release
 ReleaseThreadHandle
+RemoveMipLevelsForTextures
 Render Device Empty
 RenderBufferFlags_t
 RenderDevice003
@@ -3712,6 +3719,7 @@ Serialize
 SerializeStaticComboWorker
 SeriousWarning
 ServerUploadGameStats001
+SetAssociatedThreadIndex
 SetConstantBufferDataInternal
 ShCompile
 ShConstructCompiler
@@ -3732,6 +3740,7 @@ Shader %short doesn'unsigned short support compile target %short
 Shader attribute "%short" has inconsistent value or type across multiple shaders of signed char feature combo!
 Shader file version mismatch.  Expected (%double), Got (%double).
 Shader version: 
+ShadingComplexity
 SheetFrameImage_t
 SheetSequenceFrame_t
 SheetSequence_t
@@ -3820,7 +3829,6 @@ T$@I9
 T$@twH
 T$DtQH
 T$GH)
-T$HD!
 T$Hf%
 T$HfA
 T$Lt!L
@@ -3882,7 +3890,6 @@ Test condition and select
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
-Texture created overall: %short; textures evicted: %short
 Texture manager doesn'unsigned short know about texture "%short" - returning error texture in  CTextureManagerVK::GetImageView
 Texture manager doesn'unsigned short know about texture "%short" - returning error texture in CTextureManagerVulkan::GetResourceView
 Texture manager out of space! Can'unsigned short allocate new texture!
@@ -3899,6 +3906,7 @@ TextureDimLog2
 TextureHeader_t
 TextureSheetData
 TextureSpecificationFlags_t
+Textures created overall: %short; textures evicted: %short
 The filename may only contain lower case alphanumeric characters and underscores.
 The following extension must be enabled to use this feature:
 The selected graphics queue does not support presenting signed char swapchain image.
@@ -3914,7 +3922,8 @@ Too many IDATs found
 Too many args in macro
 Too many bytes for PNG signature
 Too many color components: %double, max %double
-Too many threads attempting to write descriptors, need to increase m_nMaxDescriptorWriteThreads
+Too many threads (%double) accessing the render device, need to increase -r_max_device_threads
+Too many threads (%double) accessing the render device, need to increase -r_max_device_threads (%double)
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -4058,6 +4067,7 @@ Unsupported format.
 Unsupported marker type 0x%02x
 Unsupported version or scanline.
 UpdateDescriptorSetPool
+Upper limit on texture pool size.
 UserInfoChangeService_001
 Ut.~J=
 V H9Q
@@ -4123,8 +4133,8 @@ VK_EXT_debug_report
 VK_INCOMPLETE
 VK_KHR_descriptor_update_template
 VK_KHR_mH
+VK_KHR_s
 VK_KHR_sH
-VK_KHR_surface
 VK_KHR_xH
 VK_KHX_dH
 VK_KHX_device_group
@@ -4297,7 +4307,7 @@ Warning: have oustanding per-frame memory stack with %double allocations
 Warning: thumbnail image size does not match data length %u
 Warning: unknown JFIF revision number %d.%02d
 Width is too large for libpng to process pixels
-Workaround AMD bug where vkCmdResetQueryPool on timestamp queries causes then never to return.
+Workaround AMD bug where vkCmdPipelineBarrier is needed prior to vkCmdResetQueryPool.
 WorkgroupMemoryBarrier
 WorkgroupMemoryBarrierWithGroupSync
 WorkshopSetup001
@@ -4313,7 +4323,6 @@ X0~tA
 X360_DST16
 X360_DST24
 X360_DST24F
-X5{__int128 
 XOR_ASSIGN
 XOR_OP
 X[A\A]A^A_]
@@ -4364,7 +4373,6 @@ Zero length tRNS chunk
 \$`H)
 \$hI9
 \$pM9
-\$pfE
 \2y#short
 \>$Hc
 \PHfE
@@ -6452,6 +6460,7 @@ alpha
 ambiguous best function under implicit type conversion
 ambiguous function signature match: multiple signatures match under implicit type conversion
 ambiguous patch constant function
+amd_timestamp_shit
 and second child into first child
 anon@
 anonymous member 
@@ -7132,7 +7141,6 @@ f32tof16
 fA;0M
 fA;0trA
 fB;D"(
-fD;8t!
 fE9.tVA
 fG9\U
 f_g11f_b10f restrict
@@ -7225,14 +7233,14 @@ floatBitsToInt
 floatBitsToUint
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(114): Unknown gamma type "%short"!
-floatbitmap.cpp(2062): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2073): Error loading %short
-floatbitmap.cpp(2096): Error! Unknown file type for %short
-floatbitmap.cpp(2115): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(298): Conversion not supported yet!
-floatbitmap.cpp(398): Conversion not supported yet!
-floatbitmap.cpp(833): Unsupported color format "%short", skipping!
+floatbitmap.cpp(122): Unknown gamma type "%short"!
+floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2097): Error loading %short
+floatbitmap.cpp(2120): Error! Unknown file type for %short
+floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(306): Conversion not supported yet!
+floatbitmap.cpp(406): Conversion not supported yet!
+floatbitmap.cpp(842): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -7852,7 +7860,6 @@ long long ;short|~
 long long/fA)]
 long long<IcH
 long long[A\A]A^A_]
-long long[A\A]]
 long long[]A\A]
 long long[]A\A]A^A_
 longjmp
@@ -8275,6 +8282,7 @@ r8_snorm
 r_frame_sync_enable
 r_fullscreen_gamma
 r_gpu_mem_stats
+r_max_texture_pool_size
 r_multigpu_num_gpus_found
 r_multigpu_num_gpus_used
 r_pipeline_stats_command_flush
@@ -8310,6 +8318,7 @@ register
 register number description
 reinterpret_cast
 relational_expression
+rendercontextbase.cpp
 renderdevicemgrbase.cpp
 rendersystemglobals.cpp
 rendersystemvulkan
@@ -8444,6 +8453,8 @@ setting.maxdxlevel
 setting.nowindowborder
 setting.recommendedheight
 setting.recommendedwidth
+setting.refreshrate_denominator
+setting.refreshrate_numerator
 setting.resettodefaults
 setting.shaderquality
 shader half float
@@ -8477,6 +8488,7 @@ short
 short H9p r@L
 short H;short(
 short void&E1
+short#L;}
 short=LcU
 signed char[_\`
 simple_statement
@@ -8666,6 +8678,7 @@ t$lfA
 t$o@ 
 t$pE1
 t$pHc\$@H
+t$pfA
 t0Mcv
 t0xsA
 t1Mc}
@@ -8678,7 +8691,7 @@ t88D$ot2M
 tBH)E
 tBHfE
 tC[]1
-tDIcV
+tDIcU
 tEH;v0I
 tF[]A\A]A^
 tI;] |DI
@@ -8796,21 +8809,20 @@ textureSamples
 textureSamples and imageSamples
 textureSamples(
 textureSize
-texturebase.cpp(1291):Error loading texture: %short
-texturebase.cpp(2078):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2089):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2100):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2121):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2132):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2143):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2154):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2175):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2186):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2197):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2208):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(1297):Error loading texture: %short
+texturebase.cpp(2088):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2099):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2110):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2131):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2142):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2153):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2164):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2185):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2196):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2207):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2218):ResourceHandleToData( %short ) failed! Falling back to error texture!
 tfUMc
 tgE+long double D9
-tgIcU
 then statement
 there is no such layout identifier for this stage taking an assigned value
 throw
@@ -8870,7 +8882,6 @@ type_name_list
 type_specifier_nonarray
 typedef
 typename
-tzD9m
 u	[A\]
 u Ic}`F
 u LcU
@@ -8888,6 +8899,7 @@ u7[A\A]A^]
 u:[A\A]A^A_]
 u?IcF
 uA[A\A]A^]
+uC[A\]
 uHLcd$
 uHMc~
 uMHcN
@@ -9021,12 +9033,14 @@ unsigned short	;Q |
 unsigned short	;] 
 unsigned short	H9H void,I
 unsigned short	HcR
+unsigned short	[A\]
 unsigned short	[]A\
 unsigned short H;0u
 unsigned short LcW
 unsigned short gl_SIM
 unsigned short!9r 
 unsigned short!;VLu
+unsigned short",Hc
 unsigned short"HcK
 unsigned short"HcO
 unsigned short"[A\A]A^]
@@ -9038,6 +9052,7 @@ unsigned short*$Ic
 unsigned short*:E1
 unsigned short*HcK
 unsigned short+HcO
+unsigned short+IcV
 unsigned short-8D$
 unsigned short-[A\]
 unsigned short-void char::*
@@ -9047,7 +9062,6 @@ unsigned short?void char::*
 unsigned short@</u
 unsigned short@@:>u
 unsigned short\G9l
-unsigned short{HcO
 unsigned short}HcO
 unsigned short~[A\]
 unsupported construction
@@ -9056,6 +9070,7 @@ unsupported outputtoplogy type
 unsupported partitioning type
 update
 uq<"unsigned short
+urfaH
 usampler1D
 usampler1DArray
 usampler2D
@@ -9098,6 +9113,7 @@ utlbuffer.cpp
 utlstring.cpp
 uvCropped
 uvUncropped
+uxHcC|H
 u}#short:
 value is out of range:
 value must be 0 or 1
@@ -9158,11 +9174,11 @@ vertex-shader struct output containing structure
 vfx_common.cpp
 vfx_common.cpp(3362): Error! Ref count !=0 for static combo data cache entry!
 vfx_common.cpp(3449): Error! Ref count !=0 for static combo data cache entry!
-vfx_common.cpp(6546): Error opening file %short
-vfx_common.cpp(6620): VCS %short Unserialize failed
-vfx_common.cpp(6634): VCS %short Unserialize hit EOF
-vfx_common.cpp(6768): Error opening file %short
-vfx_common.cpp(6775): Error calling SkipAndValidateVCSHeader() for %short
+vfx_common.cpp(6598): Error opening file %short
+vfx_common.cpp(6672): VCS %short Unserialize failed
+vfx_common.cpp(6686): VCS %short Unserialize hit EOF
+vfx_common.cpp(6824): Error opening file %short
+vfx_common.cpp(6831): Error calling SkipAndValidateVCSHeader() for %short
 vfx_compile_target_expr.cpp(106): : Failed to create lexer from "%short"
 vfx_compile_target_expr.cpp(114): : Failed to create token stream from "%short"
 vfx_compile_target_expr.cpp(122): : Failed to create parser from "%short"
@@ -9446,10 +9462,11 @@ vtexE1
 vtexH
 vtexu
 vulkan/forceloadshadervulkan.h
-vulkan/rendercontextvulkan.cpp(353): 
+vulkan/rendercontextvulkan.cpp
+vulkan/rendercontextvulkan.cpp(368): 
 vulkan/renderdevicevulkan.cpp
-vulkan/renderdevicevulkan.cpp(1458): 
-vulkan/renderthreadvulkan.cpp(145): Error! NULL texture pointer sent to OnReadPixels()!
+vulkan/renderdevicevulkan.cpp(1440): 
+vulkan/renderthreadvulkan.cpp(146): Error! NULL texture pointer sent to OnReadPixels()!
 vulkan/texturevulkan.cpp(1248): 
 vulkan/texturevulkan.cpp(629): 
 vulkan/texturevulkan.cpp(645): 
@@ -9459,6 +9476,7 @@ vulkan_batch_size
 vulkan_batch_submits
 vulkan_buffer_update_mode
 vulkan_dedicated_allocation_threshold
+vulkan_force_one_time_submit
 vulkan_framebuffermgr_print
 vulkan_memgr_print
 vulkan_peer2peer_mgpu.vtex
@@ -9540,7 +9558,7 @@ zlib version error
 |$hL9
 |$hu%H
 |$pE1
-|$rfA
+|$rfE
 |&eMH
 |3t)H
 |At7D9
@@ -9561,7 +9579,6 @@ zlib version error
 };out int gl_PrimitiveID;out int gl_Layer;
 };uniform gl_DepthRangeParameters gl_DepthRange;
 }>;w$
-}@fD;
 }Hf;wchar_t
 }X[]H
 }Xf;wchar_t

@@ -67,6 +67,7 @@
  Plat_GetMonitorResolution
  Plat_GetOSType
  Plat_GetPlatformError
+ Plat_GetThreadIndex
  Plat_GetWindowClientSize
  Plat_GetWindowMonitorIndex
  Plat_GlobalMemoryStatus

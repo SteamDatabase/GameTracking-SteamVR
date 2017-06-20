@@ -111,7 +111,6 @@
 		"AddonMapCommand"		"destinations_load_addon"
 		"UseUncompressedVertices"	"1"
 		"UsesBakedLighting"		"1"
-		"BakedLightingUseVRAD2"		"1"
 		"BakedLightingVRAD2WorkerCount"	"0"
 	}
 

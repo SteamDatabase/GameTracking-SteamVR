@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"spanish"
 "Tokens"
@@ -835,5 +835,17 @@
 "[english]Popover_LowBattery_HMD_Header"	"HMD ready with low battery"
 "Popover_LowBattery_HMD_Description"	"Este visor está conectado y en seguimiento, pero tiene poca batería."
 "[english]Popover_LowBattery_HMD_Description"	"This HMD is connected and tracking but the battery is low."
+"Lighthouse_BasestationInternalFault_06_Header"	"Estación base inservible"
+"[english]Lighthouse_BasestationInternalFault_06_Header"	"Base station unusable"
+"Lighthouse_BasestationInternalFault_06_Description"	"Una estación base ha desarrollado un problema interno (error 06). Apaga y enciende la estación base que muestra una luz roja intermitente. Si el problema persiste, ponte en contacto con el fabricante para obtener ayuda."
+"[english]Lighthouse_BasestationInternalFault_06_Description"	"A base station has developed an internal problem (fault 06). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_06_Action"	"Visitar htcvive.com/support"
+"[english]Lighthouse_BasestationInternalFault_06_Action"	"Visit htcvive.com/support"
+"Lighthouse_BasestationInternalFault_07_Header"	"Estación base inservible"
+"[english]Lighthouse_BasestationInternalFault_07_Header"	"Base station unusable"
+"Lighthouse_BasestationInternalFault_07_Description"	"Una estación base ha desarrollado un problema interno (error 07). Apaga y enciende la estación base que muestra una luz roja intermitente. Si el problema persiste, ponte en contacto con el fabricante para obtener ayuda."
+"[english]Lighthouse_BasestationInternalFault_07_Description"	"A base station has developed an internal problem (fault 07). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_07_Action"	"Visitar htcvive.com/support"
+"[english]Lighthouse_BasestationInternalFault_07_Action"	"Visit htcvive.com/support"
 }
 }

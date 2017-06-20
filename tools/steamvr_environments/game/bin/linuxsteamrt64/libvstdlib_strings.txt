@@ -170,7 +170,6 @@ $woL)
 ;*3$"
 ;2tiH
 ;C@}/Mct$@M
-;Hc5z54
 ;L9'u
 ;[A\]
 ;mempool.cpp
@@ -575,6 +574,7 @@ H[A\A]A^A_]
 H[]A\A]A^A_
 HammerMapLoader001
 HangWatchdog_IndicateActivity
+Hc5_64
 Hc@pH
 HcC ;C
 HcC$H
@@ -1163,8 +1163,7 @@ _ZN25CThreadMultiWaitSemaphore7ReleaseEv
 _ZN25CThreadMultiWaitSemaphoreC1Ev
 _ZN25CThreadMultiWaitSemaphoreD1Ev
 _ZN6CFiber15IsReadyToResumeEv
-_ZN6CFiber18ReleasePooledFiberEv
-_ZN6CFiber22DetachFromStackContextEv
+_ZN6CFiber21ReachedZeroReferencesEv
 _ZN6CFiber9ResumeJobEPv
 _ZN7CThread15GetThreadHandleEv
 _ZN7CThread15IsThreadRunningEv

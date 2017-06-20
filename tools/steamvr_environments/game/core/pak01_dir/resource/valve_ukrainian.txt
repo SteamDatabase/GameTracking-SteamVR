@@ -703,7 +703,7 @@ In Overview Map Mode move around with:
 "[english]NewItemMethod_FoundInCrate"	"You Unboxed:"
 "NewItemMethod_Gifted"	"Ви отримали в подарунок:"
 "[english]NewItemMethod_Gifted"	"You Received a Gift:"
-"NewItemMethod_Promotion"	"Ви отримали акційний предмет:"
+"NewItemMethod_Promotion"	"Ви отримали акційний предмет крамниці:"
 "[english]NewItemMethod_Promotion"	"You Received a Store Promotion Item:"
 "NewItemMethod_Earned"	"Ви здобули:"
 "[english]NewItemMethod_Earned"	"You Earned:"

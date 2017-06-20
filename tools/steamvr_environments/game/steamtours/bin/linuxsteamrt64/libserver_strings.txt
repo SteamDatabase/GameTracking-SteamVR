@@ -75,6 +75,7 @@
 		SCHED_HIDE_AND_RELOAD	Tasks		TASK_STOP_MOVING			0		TASK_SET_FAIL_SCHEDULE		SCHEDULE:SCHED_RELOAD		TASK_FIND_COVER_FROM_ENEMY	0		TASK_RUN_PATH				0		TASK_WAIT_FOR_MOVEMENT		0		TASK_REMEMBER				MEMORY:INCOVER		TASK_FACE_ENEMY				0		TASK_SET_SCHEDULE			SCHEDULE:SCHED_RELOAD	Interrupts		COND_HEAR_DANGER
 		SCHED_HOLD_ASSAULT_POINT	Tasks		TASK_SET_ACTIVITY			ACTIVITY:ACT_IDLE		TASK_WAIT					3	Interrupts		COND_NEW_ENEMY		COND_ENEMY_DEAD		COND_CAN_RANGE_ATTACK1		COND_CAN_MELEE_ATTACK1		COND_CAN_RANGE_ATTACK2		COND_CAN_MELEE_ATTACK2		COND_TOO_CLOSE_TO_ATTACK		COND_LOST_ENEMY		COND_HEAR_DANGER		COND_HEAR_BULLET_IMPACT		COND_NO_PRIMARY_AMMO
 		SCHED_HOLD_RALLY_POINT	Tasks		TASK_FACE_RALLY_POINT					0		TASK_AWAIT_CUE							0		TASK_WAIT_ASSAULT_DELAY					0		Interrupts		COND_NEW_ENEMY		COND_CAN_RANGE_ATTACK1		COND_CAN_MELEE_ATTACK1		COND_LIGHT_DAMAGE		COND_HEAVY_DAMAGE		COND_PLAYER_PUSHING		COND_HEAR_DANGER		COND_HEAR_BULLET_IMPACT		COND_NO_PRIMARY_AMMO		COND_TOO_CLOSE_TO_ATTACK
+		SCHED_IDLE_RUN	Tasks		TASK_GET_WALK_PATH		0		TASK_RUN_PATH			9999		TASK_WAIT_FOR_MOVEMENT	0		TASK_WAIT_PVS			0	Interrupts		COND_NEW_ENEMY		COND_SEE_ENEMY		COND_LIGHT_DAMAGE		COND_HEAVY_DAMAGE		COND_SMELL		COND_PROVOKED		COND_HEAR_COMBAT		COND_HEAR_BULLET_IMPACT		COND_WAIT_AT_PATHCORNER
 		SCHED_IDLE_STAND	Tasks		TASK_STOP_MOVING		1		TASK_SET_ACTIVITY		ACTIVITY:ACT_IDLE		TASK_WAIT				5		TASK_WAIT_PVS			0	Interrupts		COND_NEW_ENEMY		COND_SEE_FEAR		COND_LIGHT_DAMAGE		COND_HEAVY_DAMAGE		COND_SMELL		COND_PROVOKED		COND_GIVE_WAY		COND_HEAR_PLAYER		COND_HEAR_DANGER		COND_HEAR_COMBAT		COND_HEAR_BULLET_IMPACT		COND_IDLE_INTERRUPT
 		SCHED_IDLE_WALK	Tasks		TASK_GET_WALK_PATH		0		TASK_WALK_PATH			9999		TASK_WAIT_FOR_MOVEMENT	0		TASK_WAIT_PVS			0	Interrupts		COND_NEW_ENEMY		COND_SEE_ENEMY		COND_LIGHT_DAMAGE		COND_HEAVY_DAMAGE		COND_SMELL		COND_PROVOKED		COND_HEAR_COMBAT		COND_HEAR_BULLET_IMPACT		COND_WAIT_AT_PATHCORNER
 		SCHED_IDLE_WANDER	Tasks		TASK_SET_ROUTE_SEARCH_TIME		5		TASK_GET_PATH_TO_RANDOM_NODE	200		TASK_WALK_PATH					0		TASK_WAIT_FOR_MOVEMENT			0		TASK_WAIT_PVS					0	Interrupts		COND_GIVE_WAY		COND_HEAR_COMBAT		COND_HEAR_DANGER		COND_NEW_ENEMY		COND_SEE_ENEMY		COND_SEE_FEAR		COND_LIGHT_DAMAGE		COND_HEAVY_DAMAGE		COND_IDLE_INTERRUPT
@@ -140,6 +141,7 @@
 	"%short" "%llu"
 	"%short" "%short"
 	"%short" "%short" // local
+	%3d:  ignoring %short::%short
 	%short : %.2f
 	%short : %short
 	(unsigned long long=up=green, ...=forward=blue, long long=left=red). 
@@ -167,6 +169,7 @@
 	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at
 	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at 
 	Arguments:   	{npc_name} / {npc_class_name} / no argument picks what player is looking at 
+	Arguments:   <varname>=<value>		{entity_name} / {class_name} / no argument picks what player is looking at 
 	Arguments:  minx miny miny maxx maxy maxz <lifetime = 10.0> <r __float128 bool signed char>
 	Arguments: <health to lose>
 	Arguments: <item_name>
@@ -259,6 +262,7 @@
 	has_panel
 	hero_name
 	hold_time
+	host_loss
 	host_name
 	int_value
 	is_replay
@@ -410,7 +414,7 @@
    Type:      %short
    Waypoint tol: %.f
    Yaw to dest
-   done
+   datatable_validate <map | all | classname> [<verbose | simple | ignores>]
    ent_fire <target> [action] [value] [delay]
    ent_info <class name>
    ent_setname <new name> <entity name>
@@ -484,9 +488,9 @@
  AUATSH
  A\H	
  B@ml
+ BCBreakableProp
  B\9{
  BackUp() can only be called after Next().
- Bpoint_enable_motion_fixup
  CClientMsg_ContentBrowserToggled
  CClientMsg_CustomGameEventBounce
  CNETMsg_SpawnGroup_LoadCompleted
@@ -558,7 +562,7 @@
  with %.1fs delay.
  wnUHc
  zWuUM
- |@vstdlib
+ |@CPointBonusMapsAccessor
 !	@%short - %short %short
 !! %short(%short,%short) doesn'unsigned short match type from %short(%short)
 !! ERROR: bad input/output link:
@@ -664,7 +668,6 @@
 "%short" %float
 "%short" %float %int
 "%short" = "%short"
-"%short",
 "%short":
 "%short":"%short"
 "%short":%.3f
@@ -845,6 +848,7 @@ $0rpc $1(.$2) returns (.$3)
 $2Ict$ H
 $8A9\$
 $90t@H9
+$@NavAttributeEnum
 $@nlv
 $A+D$$H
 $A3333
@@ -873,7 +877,7 @@ $^?Su
 $`tys8
 $gender
 $lFH.
-$tHai_relationship
+$tHCAI_Relationship
 $uL'#
 $woL)
 %#GameUI_Disconnect_BadClientDeltaTick
@@ -1017,6 +1021,7 @@ $woL)
 %short %short: 
 %short '%short' failed to find signed char valid spawnpoint in destination group: '%short'
 %short '%short' has signed char base specified as '%short', but there is no matching entry in propdata.txt.
+%short (%.2f, %.2f, %.2f)
 %short (%int)
 %short (%long long) spoke %short (%float)
 %short (%short) at (%.3f %.3f %.3f) using obsolete or unknown material type.
@@ -1031,22 +1036,27 @@ $woL)
 %short (%short) was unable to point at an entity named: %short
 %short (%short): StopSchedule called on NPC %s.
 %short (%short: %double/%short) [%double]
-%short - %short
 %short --------------------------------------------------
-%short : %8.2f:  canceled
+%short : %8.2f:  actor %double: %short : %short emitting sound %short : gender '%short'
 %short : %8.2f:  clearing events
 %short : %8.2f:  finish %short [%short]
 %short : %8.2f:  finished
 %short : %8.2f:  ignored %short [%short]
 %short : %8.2f:  start %short [%short]
 %short : %8.2f: MOVETO canceled but actor %short not at goal
+%short : %8.2f: canceled
+%short : %8.2f: interrupting scene
+%short : %8.2f: paused
+%short : %8.2f: requesting pause at next interrupt.
+%short : %8.2f: resumed
 %short : %8.2f: waiting for actor %short to complete MOVETO but actor not in SCHED_SCENE_GENERIC
+%short : %8.2f: waiting scene to become interruptible
 %short : %short : %short -- %short "%short"
+%short : %short marked FCAP_DONT_SAVE
 %short : Automatically canceling playback
 %short : Automatically resuming playback
 %short : PauseThink canceling playback
 %short : Unknown action %int, automatically resuming playback
-%short : actor %double: %short : %short emitting sound %short : gender '%short'
 %short : canceled for '%short'
 %short : canceled via input
 %short : canceled via input at interrupt point
@@ -1065,8 +1075,11 @@ $woL)
 %short Ladder Count: %double
 %short Model '%short' doesn'unsigned short have attachment '%short' to attach particle system '%short' to.
 %short Touching %short %short %short; 
+%short [%double times]
 %short [%double]
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
+%short allocation count overflow( %llu >= %llu )
 %short at %.0f %.0f %0.f uses model %short, which has an invalid prop_data type. DELETED.
 %short at %.0f %.0f %0.f uses model %short, which has no propdata which means it must be used on signed char prop_static. DELETED.
 %short at %.0f %.0f %0.f uses model %short, which has propdata which means that it be used on signed char prop_physics or prop_door_xxx. DELETED.
@@ -1111,6 +1124,7 @@ $woL)
 %short%int:'%short'
 %short%s.%short
 %short%short%short%short
+%short%short::%short - %short
 %short( %short, %short )
 %short(%double), flags (%double), weight: %.2f, cycle: %.2f, order (%double), aim (%double)
 %short(%double):       TaskFail -> %short
@@ -1138,6 +1152,7 @@ $woL)
 %short/%short
 %short/%short:  discarded rule because of invalid criterion %int:  %short
 %short/*.*
+%short:  
 %short:  %double decals saved 
 %short:  %double of %double decals restored
 %short:  %double | 
@@ -1222,6 +1237,10 @@ $woL)
 %short:  transition %short into %double
 %short:  transition game save to %s...
 %short:  transitioning '%short' entities from previous map '%short' (landmark='%short')
+%short:  validating all entities
+%short:  validating all entities after first map loaded
+%short:  validating currently loaded entities
+%short: %double missing fields
 %short: %float
 %short: %short
 %short: %short could not find viewposition %s.
@@ -1242,6 +1261,7 @@ $woL)
 %short:%short
 %short:%short:%__float128
 %short:%short:%short has no sequence for act:%short
+%short::%short
 %short:SetKinematic(CVariant::type=%short) expected bool argument
 %short\%short
 %short\Settings
@@ -1358,9 +1378,10 @@ $woL)
 (ACTIVE)
 (Addresses differ: existing '%short' @ '%p' != requested '%short' @ '%p')
 (Affff
+(CFuncTimescale
 (D9k8
 (D9p 
-(D9sh~ZL
+(D9sh~bL
 (E9,$
 (E9<$~oM
 (E9G ~"M
@@ -1373,10 +1394,11 @@ $woL)
 (E;,unsigned short
 (Existing entry.)
 (H97txH
+(HcC8L
 (HcH,I
 (HcH4I
-(IcG8L
 (IcGxA;
+(JcD 
 (Lcg D;g0D
 (Lcg8D;gHD
 (Module names differ: existing '%short' != requested '%short')
@@ -1398,7 +1420,6 @@ $woL)
 (broken)
 (cannot determine missing fields for lite message)
 (const char *)
-(func_timescale
 (hInflictor, hAttacker, flDamage) - Allocate signed char damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (inactive)
 (int iIndex, int iPoint, Vector vecForward ) - Set the forward direction for signed char control on signed char particle effect
@@ -1488,6 +1509,8 @@ $woL)
 *CNavSplitObstacleMgr::SplitObstacleCore(CNavSplitObstacle&)::{lambda()#1}
 *CPathCostRecorder::DebugDraw() const::BFSAreaCollector_t
 *CPathCostRecorder::DebugDraw() const::BFSAreaCollector_t*
+*CTacticalSearch::DoSearch()::{lambda(CNavArea const&)#2}
+*CTacticalSearch::DoSearch()::{lambda(Vector const&, CNavArea const&)#1}
 *DEAD*
 *DEAD*(TEAM)
 *DISABLED*
@@ -1591,6 +1614,7 @@ $woL)
 ----End Script Dump
 ----Script Dump for entity "%short"
 --> %-26s
+--> ignores for %short
 --CLoopModeGame::LoopInit
 --CLoopModeGame::ReceivedServerInfo
 --CLoopModeGame::SetWorldSession
@@ -1652,14 +1676,10 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.% ew
-.%-,E
-.%G8J
-.%cew
-.%mBv
-.-0Fx
-.-cDp
-.-p4x
+.%'unsigned int~
+.%5oG
+.%@C~
+.%jqu
 ...	?0e`9
 ..."u H
 ..."u I
@@ -1696,7 +1716,6 @@ $woL)
 ...:u8H
 ...:u8I
 ...;u9H
-...;u9I
 ...<u:A
 ...<u:H
 ...<u:[A\]
@@ -1778,14 +1797,12 @@ $woL)
 ../shared/weapon_parse_default.cpp
 ..\content
 .0z%u#
-.=CSx
-.=U{u
-.=p{u
+.5y^W
 .>()09
 .@(."
 .@,wqH
 .@Hz!
-.@TvGA
+.@TvaA
 .@T{`
 .@jfo!vCf?
 .@mV}
@@ -1850,7 +1867,7 @@ $woL)
 .D$,zPuNL
 .D$Hz
 .D$Lz
-.D$hz
+.D$pz
 .D=3w
 .EClientUIEvent
 .EDv$1
@@ -1859,7 +1876,7 @@ $woL)
 .ENetworkDisconnectionReason"
 .ESplitScreenMessageType
 .Ex{,H
-.F(UH
+.F4UH
 .F<void'
 .G,...)u'H
 .G,zquo
@@ -1868,6 +1885,8 @@ $woL)
 .K,...[
 .K8zBf
 .KdzIuGH
+.KtznulL
+.M;0j
 .M;UU
 .N,wchar_t&
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
@@ -1883,16 +1902,15 @@ $woL)
 .Vq6_
 .W4{Jf.
 .[,...@u>H
-.[xz+u)H
+.[0fA
+.[xz-u+H
 .\$,w0I
 .],wchar_t!A
 ._,wchar_t!A
 .__float128[rA
 .`Tz-u+H
-.c0fA
-.cdzhufH
-.cdznulL
 .comment
+.ctzxuvH
 .data
 .data.rel.ro
 .dummy
@@ -1928,6 +1946,7 @@ $woL)
 .zDuBcomplex 
 // Choreo version 1
 // Choreo version 1:  <%int> Exported Events
+//fileserver/user/joed/steamvr_import/steamvr_controller_%llu.vpk
 /I9D$
 /L\int@
 /L~Z@
@@ -1970,6 +1989,7 @@ $woL)
 0E;T$ 
 0H9:unsigned short
 0H;long long 
+0McnhE
 0N2(	
 0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
 0R@ffffF(
@@ -2004,6 +2024,7 @@ $woL)
 180_recovery
 1B84 unsigned short H
 1GERA
+1H90t
 1f92u
 2 .CBidirMsg_RelayInfo.Operation_t
 2 .ProtoFlattenedSerializerField_t"!
@@ -2063,6 +2084,7 @@ $woL)
 33333
 33333#
 333333
+3333333
 33333333H
 33333333H)
 33333B
@@ -2145,6 +2167,7 @@ $woL)
 42HcU
 43A94
 440.0
+4:A9L$
 4@AUI
 4@G8-long long
 4@move_x
@@ -2174,7 +2197,8 @@ $woL)
 6@3333
 6@ffff
 6@u!V
-6D#5k;$
+6D#5Kf-
+6D#5{]-
 6F+U F
 6H92t%H
 6H92u
@@ -2240,6 +2264,8 @@ $woL)
 999999
 999999.0
 9:unsigned short,H
+9=+|...
+9=k{...
 9>J"@TJ
 9@(D@
 9A3333#
@@ -2283,13 +2309,15 @@ $woL)
 :5HcJ
 :=]7e
 :@p%;6
+:A9L$
 :AX[]
+:AZ[]
+:CLogicalEntity
 :CNavVolumeSphere
 :T@dY0
 :Ug59
 :Z0LA
 :[tLL
-:animTimeSerializer
 :long long&4I,
 :m2OS
 ; @unsigned short{Ic
@@ -2302,6 +2330,8 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
+;=(&[
+;=X&[
 ;@*$pV
 ;A0}4H
 ;Affff
@@ -2310,10 +2340,9 @@ $woL)
 ;Fht.A
 ;FhtID
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5I
+;Hc5TY
 ;K(}&H
 ;L9'u
-;L9?u
 ;L;7u
 ;O<gK
 ;S(}+H
@@ -2324,7 +2353,6 @@ $woL)
 ;p\unsigned short"H
 ;player_changename
 ;short(tc
-;short(unsigned short{
 ;sv_pausable;sv_cheats
 ;w8|	]
 ;wX|#
@@ -2358,6 +2386,7 @@ $woL)
 <-uuH
 <.unsigned short	H
 </uLH
+</uUH
 </unsigned short`L
 </~.H
 <0u3H
@@ -2403,7 +2432,7 @@ $woL)
 <}tI<{uO
 =-k?l1.
 === %sEntity List Summary (%short) ===
-=== Total: %short entities%short ===
+=== Total: %short/%short %short entities%short ===
 =======================================
 ====================================================================
 =?_w_:R
@@ -2431,7 +2460,7 @@ $woL)
 >9K!0>N
 >;short(unsigned short{
 >@A~6r
->@start: (%.2f,%.2f,%.2f)
+>@CBeam
 >@unsigned short<H
 >A9U$
 >CAI_SentenceBase
@@ -2557,26 +2586,31 @@ $woL)
 ?B@|h8
 ?BA)Z
 ?B\9{__float128
+?CAI_AllySpeechManager
 ?CAI_AnimGraphMotor
 ?CAI_Enemies
 ?CAI_MoveAndShootOverlay
 ?CAI_Navigator
+?CBasePlayer
 ?CBaseVRHandAttachment
 ?CBaseViewModel
 ?CConstraintAnchor
+?CDynamicProp
 ?CEntityInstance
-?CGameEntity
+?CInfoWorldLayer
 ?CItemGenericTriggerHelper
 ?CLightComponentReferenced
 ?CModelState
+?CPointGamestatsCounter
 ?CRagdollMagnet
 ?CResourceManifestPrerequisite
 ?CSceneTokenProcessor::Error:  %short in '%short' at offset %llu : line %u : char %llu
+?CTargetChangeGravity
 ?D]`,
 ?F:"'FL
-?GAMEOVER_ALLY
-?H;{@unsigned short&H
+?H;{@unsigned short
 ?J(}!
+?L9'u
 ?LrA/<,M?+
 ?Mct$ 
 ?N%E\
@@ -2603,7 +2637,6 @@ $woL)
 ?Yni5$
 ?Zbe4
 ?[%double] Decode %.3f: 
-?[GS %short - %7.2f] %short
 ?[]N	
 ?[}uU
 ?\%F9
@@ -2640,12 +2673,10 @@ $woL)
 ?globalentity_t
 ?h$B#
 ?h2-
-?ignoremsg
 ?jN^double
 ?k,am
 ?kIG9
 ?kdWZF
-?l4d_airport05_runway
 ?l_@/
 ?lightstyle
 ?long double;:	
@@ -2669,7 +2700,6 @@ $woL)
 ?qe?A
 ?r4GV~	
 ?rQ-"
-?target_changegravity
 ?tpUH
 ?u0<]
 ?uP.2
@@ -2707,7 +2737,7 @@ $woL)
 @ H9B u
 @ Lc+D
 @ [A\]
-@ unsigned short[H
+@ tWH
 @"6X8I
 @"lxz
 @$*T7
@@ -2723,11 +2753,13 @@ $woL)
 @(mdl
 @)XKP
 @){K9_
+@*CNavSpliceBlock::SpliceBlock(CNavGenRtBlock const&, CNavMesh&)::{lambda(CNavArea*)#1}
 @+,]float}/
 @,A\]
 @-oyrn
 @../shared/baseflex_shared.cpp
 @/5B?S
+@0A\]
 @0A]A^]
 @0bDG
 @2!AL
@@ -2824,14 +2856,16 @@ $woL)
 @@unsigned char=|
 @@w8p
 @A9^`
+@CEntityFlame
 @CHandUseControllerShared
 @CNetworkOriginQuantizedVector
+@CPropHMDAvatar
+@CShadowControl
 @CW"P
 @DA9G
 @DP5z5@
 @E;float(},IcF$
 @GZ*oG 7@
-@General.BurningFlesh
 @Gr}H
 @H97tbH
 @HcC(
@@ -2970,7 +3004,6 @@ $woL)
 @prop_zipline
 @p}Xo
 @sJ@L
-@shadow_control
 @t0~>
 @u'fA
 @u.[A\]
@@ -2984,6 +3017,7 @@ $woL)
 @unsigned short{Ic
 @v28J^
 @v7Ou
+@vb phys
 @vf'(
 @wchar_t:Fh
 @wr<UtZ
@@ -3017,9 +3051,9 @@ A+D$$H
 A+E$H
 A+E$f
 A+F$H
+A+F$Lc
 A+G$H
 A+G$Lc
-A+L$$Hc
 A+N$Hc
 A+O$Hc
 A+T$$Hc
@@ -3067,11 +3101,13 @@ A8Mcl$ E;l$0
 A8Y(unsigned short
 A8~uLc
 A9<unsigned short
+A9A@uWA
 A9D$ 
 A9D$(
 A9D$0
 A9D$0t
 A9D$8
+A9D$@
 A9D$@unsigned short#I
 A9D$@~*I
 A9D$XH
@@ -3088,8 +3124,6 @@ A9L$<|
 A9P unsigned short%A
 A9T$$
 A9T$@unsigned short
-A9T$H
-A9T$`
 A9T$h
 A9T$h~5I
 A9T$pA
@@ -3099,7 +3133,7 @@ A9\$}ulH
 A9\unsigned char
 A9]PI
 A9]ht
-A9]htBA
+A9]htCA
 A9]unsigned char~3I
 A9]unsigned char~GL
 A9_@~8L
@@ -3123,11 +3157,8 @@ A;L$Pt
 A;M@~HA
 A;Nh|
 A;T$ 
-A;T$H
 A;T$P
 A;T$Pt
-A;T$`
-A;T$x
 A;W`~IA
 A;\$ A
 A;\$(
@@ -3142,7 +3173,7 @@ A;](}*I
 A;]@|
 A;]P|
 A;]X|
-A;]X}@I
+A;]X}-I
 A;^ |
 A;^ }#I
 A;^ }+I
@@ -4143,6 +4174,7 @@ ACT_WALK_STIMULATED
 ACT_WALK_SUITCASE
 ACT_ZOMBIE_LUNGE
 ACT_ZOMBIE_TRIP
+ACVRApertureMultitool
 ADDED %short (%short) to transition.
 ADDED.
 ADD_AND_REMOVE_ANIMATION_LAYERS
@@ -4669,8 +4701,8 @@ Angle sensor '%short' could not find look at entity '%short'.
 AngleDiff
 Angles: %short
 AnimFile
+AnimProxy
 AnimStateServer.log
-AnimTagListenerHelper<ISequenceFinishedAnimTag>
 AnimThinH
 AnimateTH
 AnimateUH
@@ -4741,7 +4773,6 @@ AsyncAppend: Attempted to write to signed char read-only file
 AsyncWrite (%short/%double)...
 AsyncWrite: Attempted to write to signed char read-only file
 Asynchronously spawn an entity group from signed char list of spawn tables. A callback will be triggered when the spawning is complete
-Ateleport_ray_loop
 Attached Target Body
 Attached wormhole to hand
 Attachment index for attachment mode
@@ -4765,6 +4796,7 @@ Attempted to restore FIELD_EMBEDDEDBYREF %short but there is no destination memo
 Attempted to set attribute %short as if it was signed char non-attribute key!
 Attempted to set non-attribute value %short as if it was an attribute!
 Attempted to use non-precached material %short
+Attempting to call TASK_GRAPH_VARIABLE_SET on an NPC without an animgraph
 Attempting to create an entity too early, GameRules has not been created yet!.
 Attempting to create unknown particle system '%short' 
 Attempting to find cover from best sound, but best sound not founc.
@@ -4798,10 +4830,12 @@ B-Spline
 B09F0t H
 B0t}D
 B8Lck D;k0
+B8Lcs D;s0
 B?ffff
 BADFUNCTIONPOINTER
 BCDestinationsQuestGeocache
 BCFish
+BCPathKeyFrame
 BEAM_ENTPOINT
 BEAM_ENTS
 BEAM_HOSE
@@ -5219,6 +5253,8 @@ CAmbientGeneric::CEntityInstanceEntityClass
 CAmmoDef
 CAnchorList
 CAnimGraphNetworkedVariables
+CAnimTagListenerHelper<ISequenceFinishedAnimTag>
+CAnimTagListenerHelper<ITaskStatusAnimTag>
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (1)
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (2)
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (3)
@@ -5681,6 +5717,7 @@ CBubbling::CEntityInstanceEntityClass
 CButtonTimed
 CButtonTimed::CEntityInstanceEntityClass
 CCAI_Motor
+CCBaseAnimating
 CCEnvPlayerSurfaceTrigger
 CCFunc_Dust
 CCLCMsg_BaselineAck
@@ -5699,7 +5736,7 @@ CCLCMsg_ServerStatus
 CCLCMsg_SplitPlayerConnect
 CCLCMsg_SplitPlayerDisconnect
 CCLCMsg_VoiceData
-CCThrustController
+CCPhysicsCannister
 CC_ResetGameStats : Server cleared game stats
 CCallback<CAchievementMgr, UserStatsStored_t, false>
 CCallbackBase
@@ -5715,7 +5752,9 @@ CChoreoScene
 CChoreoStringPool
 CClassPtrSaveRestoreOps
 CCleanupDefaultRelationships
+CClientMessagePB<505, CClientMsg_SetModel, (NetChannelBufType_t)1>
 CClientMessagePB<517, CClientMsg_SetSteamVRBackground, (NetChannelBufType_t)1>
+CClientMessagePB<518, CClientMsg_SetSteamVRController, (NetChannelBufType_t)1>
 CClientMsg_AttachObjectToAvatar
 CClientMsg_AttachObjectToAvatar_t
 CClientMsg_ClientUIEvent
@@ -5755,6 +5794,8 @@ CClientMsg_SetSequence
 CClientMsg_SetSequence_t
 CClientMsg_SetSteamVRBackground
 CClientMsg_SetSteamVRBackground_t
+CClientMsg_SetSteamVRController
+CClientMsg_SetSteamVRController_t
 CClientMsg_SpawnPhysicsProp
 CClientMsg_SpawnPhysicsProp_t
 CClientMsg_SpawnPropTool
@@ -5814,6 +5855,7 @@ CD[A\]
 CDamageComponent
 CDamageComponentReferenced
 CDamageComponentReferencedPtr
+CDatatableValidateAutoCompletionFunctor
 CDebugHistory
 CDebugHistory::CEntityInstanceEntityClass
 CDebugOverlayGameSystem
@@ -6284,6 +6326,8 @@ CFuncAreaPortalWindow
 CFuncAreaPortalWindow::CEntityInstanceEntityClass
 CFuncBrush
 CFuncBrush::CEntityInstanceEntityClass
+CFuncCombineBarrier
+CFuncCombineBarrier::CEntityInstanceEntityClass
 CFuncConveyor
 CFuncConveyor::CEntityInstanceEntityClass
 CFuncDistanceOccluder
@@ -6775,6 +6819,8 @@ CItemGenericTriggerHelper
 CItemGenericTriggerHelper::CEntityInstanceEntityClass
 CItemSoda
 CItemSoda::CEntityInstanceEntityClass
+CJob
+CJobH
 CKeepUpright
 CKeepUpright::CEntityInstanceEntityClass
 CKeyValues3Cluster
@@ -6911,6 +6957,7 @@ CM_SetModel
 CM_SetPlayerPersonalSpace
 CM_SetSequence
 CM_SetSteamVRBackground
+CM_SetSteamVRController
 CM_SpawnPhysicsProp
 CM_SpawnPropTool
 CM_SpawnWearables
@@ -7067,6 +7114,8 @@ CNavArea::PostLoad: Corrupt navigation ladder data. Cannot connect Navigation Ar
 CNavAreaExtended
 CNavBreadthFirstSearch
 CNavBreadthFirstSearch:BreadthFirstSearchCore
+CNavBreadthFirstSearchLattice
+CNavBreadthFirstSearchLattice*
 CNavDraw
 CNavDrawArea
 CNavDrawAreaExt
@@ -7081,6 +7130,8 @@ CNavGameSystem::PostSpawnGroupUnload (%short)
 CNavGameSystem::PreSpawnGroupLoad (%short)
 CNavGameSystem::SpawnGroupPrecache (%short)
 CNavGenParams - Nav mesh requests project default generation parameters but actual parameters
+CNavGenRt - Thread pool = %short, active job = %short, #tasks = %double, #blocks = %double
+CNavGenRtJob
 CNavGenerator
 CNavGeneratorAAQuad
 CNavGeneratorBase
@@ -7198,7 +7249,9 @@ CNetMessagePB<423, CMsgTEPhysicsProp, (SignonGroup_t)5, (NetChannelBufType_t)0, 
 CNetMessagePB<424, CMsgTEPlayerDecal, (SignonGroup_t)5, (NetChannelBufType_t)0, true>
 CNetMessagePB<425, CMsgTEProjectedDecal, (SignonGroup_t)5, (NetChannelBufType_t)0, true>
 CNetMessagePB<426, CMsgTESmoke, (SignonGroup_t)5, (NetChannelBufType_t)0, true>
+CNetMessagePB<505, CClientMsg_SetModel, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetMessagePB<517, CClientMsg_SetSteamVRBackground, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
+CNetMessagePB<518, CClientMsg_SetSteamVRController, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetMessagePB<62, CSVCMsg_HLTVStatus, (SignonGroup_t)0, (NetChannelBufType_t)1, true>
 CNetworkFieldScratchData
 CNetworkFieldScratchData.m_MemoryStacks[ %double ]
@@ -7624,6 +7677,7 @@ CRandStopwatch
 CRecipientFilter
 CRefCountServiceBase<true, CRefMT>
 CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >
+CRefCounted1<IRefCounted, CRefCountServiceBase<true, CRefMT> >
 CRefCounted<CRefCountServiceBase<true, CRefMT> >
 CRefPointAuthoringController
 CRefPointAuthoringController::CEntityInstanceEntityClass
@@ -8739,6 +8793,8 @@ CSchemaNonConstructibleClassBinding<CFuncAreaPortalWindow::CEntityInstanceEntity
 CSchemaNonConstructibleClassBinding<CFuncAreaPortalWindow>
 CSchemaNonConstructibleClassBinding<CFuncBrush::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<CFuncBrush>
+CSchemaNonConstructibleClassBinding<CFuncCombineBarrier::CEntityInstanceEntityClass>
+CSchemaNonConstructibleClassBinding<CFuncCombineBarrier>
 CSchemaNonConstructibleClassBinding<CFuncConveyor::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<CFuncConveyor>
 CSchemaNonConstructibleClassBinding<CFuncDistanceOccluder::CEntityInstanceEntityClass>
@@ -9716,6 +9772,7 @@ CStopwatchBase
 CStringTableSaveRestoreOps
 CStripWeapons
 CStripWeapons::CEntityInstanceEntityClass
+CStrongHandle
 CSun
 CSun::CEntityInstanceEntityClass
 CTEArmorRicochet
@@ -9821,6 +9878,7 @@ CTonemapController2Alias_env_tonemap_controller2::CEntityInstanceEntityClass
 CTonemapTrigger
 CTonemapTrigger::CEntityInstanceEntityClass
 CToolGameSimulationAPI
+CToolGameSimulationAPI::LoadSavegame:  not such save file '%short'
 CToolObjectFactory<CEnvTimeOfDayPreviewer>
 CTraceFilter
 CTraceFilterAgainstEntityList
@@ -10180,7 +10238,7 @@ CYA8D$Y
 CZA8D$Zu&1
 CZombieBorder
 CZombieBorder::CEntityInstanceEntityClass
-C[%double]: '%short'
+C`H+CXH
 C`[A\A]A^]
 C`[A\]
 CalcAnimationState
@@ -10403,6 +10461,7 @@ ConVar(%short) defined with infinite float value (%short)
 ConVarRef %short doesn'unsigned short point to an existing ConVar
 ConceptHistory_t
 ConcreteChunks
+ConcreteEntityList:  approaching limit, allocating entity chuck %double/%double for ents [%double -> %double]
 Cond: %short
 Conditional Error: %short
 Cone %.f, Bias %.2f
@@ -10541,6 +10600,8 @@ Cycles through the various hull sizes.  Currently selected hull size is written 
 C|[A\A]A^]
 D	0Hc
 D	0Lc
+D	short float
+D#- *H
 D$  unsigned short	I
 D$ 9C 
 D$ 9C unsigned short
@@ -10634,6 +10695,7 @@ D$HH9
 D$HL;}
 D$HfA
 D$H~EA
+D$Lu!A
 D$PA\]
 D$PH9CP
 D$P[A\]
@@ -10662,7 +10724,6 @@ D$XA\A]A^]
 D$XE1
 D$Y8CYt!H
 D$Z8CZt!H
-D$\E1
 D$\f9C\unsigned short"H
 D$^f9C^unsigned short"H
 D$`8C`unsigned short!H
@@ -10670,6 +10731,9 @@ D$`;E
 D$`H9
 D$a8Cat!H
 D$b8Cbt!H
+D$eA8
+D$fA8
+D$gA8
 D$h9Cht H
 D$hD)unsigned long
 D$hE1
@@ -10682,8 +10746,10 @@ D$p9Cpt H
 D$pH9
 D$pIc
 D$pt"H
+D$sA8
 D$t9Ctt H
 D$ttGD
+D$vA8
 D$x9Cxt H
 D$xA\]
 D$xH9
@@ -10705,14 +10771,14 @@ D+{$Mc
 D8kSt
 D9 unsigned short)H
 D9 ~NH
-D9%D]
-D9%P\
-D9%bool~
+D9%$9
 D9't$H
 D9'unsigned short,H
 D9(t1H
 D9(unsigned short'I
+D9-3uA
 D92tY1
+D95Q+4
 D9W(~mL
 D9c<unsigned short
 D9cP~DH
@@ -10734,18 +10800,18 @@ D; t3
 D;!unsigned short{Hc
 D;#}|E
 D;$%H
-D;%5^
-D;%rjF
+D;%ba
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;,%H
+D;-/Y
 D;.~3L
 D;.~9H
-D;5s"8
+D;5	(long double
 D;:tPH
-D;= 5
 D;G@t5H
+D;__float128 D
 D;__float128(D
 D;__float128`D
 D;`0|
@@ -10791,6 +10857,7 @@ D;sHD
 D;signed char(D
 D;unsigned __int128 D
 D;{(D
+D;~PD
 D@tI00
 DAMAGEORDEATH_INTERRUPTABILITY
 DAMAGE_EVENTS_ONLY
@@ -10805,6 +10872,7 @@ DEATH_INTERRUPTABILITY
 DEBRIS
 DEBUG HISTORY IS ENABLED. Disable before release (in env_debughistory.h).
 DEFAULT_WRITE_PATH
+DEFINE_FIELD_IGNORE( %short ),
 DEM_ClassInfo
 DEM_ConsoleCmd
 DEM_CustomData
@@ -10907,6 +10975,7 @@ DeadEnd
 Deallocate
 Deals the target damage by the given amount
 Debug History of Category %double is EMPTY
+Debug animation graph
 Debug bits toggled on '%short' (class='%short')
 Debug the NPC dynamic interaction system.
 Debug the attempted connection between two nodes
@@ -11187,8 +11256,10 @@ E A+E
 E D	`
 E D!`
 E I;D$ unsigned short
+E#4$H
 E#t$<tJE#E<E
 E$Ic\$ 
+E(A9E
 E(fA9
 E+D$$Mc
 E+E$Mc
@@ -11250,6 +11321,7 @@ E;float }"HcC
 E;float(|
 E;float(}
 E;fl|
+E;l$ D
 E;l$ }
 E;l$(}
 E;l$0}
@@ -11402,6 +11474,7 @@ ERROR: LoadSchd (%short): (%short) Malformed AI Schedule.  Expecting ':' after t
 ERROR: LoadSchd (%short): (%short) Malformed AI Schedule.  Expecting ':' after type 'SOUND.
 ERROR: LoadSchd (%short): (%short) Malformed AI Schedule.  Expecting ':' after type 'STATE.
 ERROR: LoadSchd (%short): (%short) Malformed AI Schedule.  Expecting ':' after type 'SYMBOL.
+ERROR: LoadSchd (%short): (%short) Malformed AI Schedule.  Expecting ':' after type 'TAG.
 ERROR: LoadSchd (%short): (%short) Malformed AI Schedule.  Expecting 'Tasks' keyword.
 ERROR: LoadSchd (%short): (%short) Unknown activity %short!
 ERROR: LoadSchd (%short): (%short) Unknown goal type  %short!
@@ -11450,7 +11523,6 @@ EVENT_CREDITS with negative elapsed time (unsigned short restrict %float startti
 EVENT_LEVELSHUTDOWN:  with negative elapsed time (unsigned short restrict %float starttime %float)
 EXA;]`
 EXECUTABLE_PATH
-EXHcAL
 EXL)long double
 EXPLOSION_DEFAULT
 EXPLOSION_FIREWORKS
@@ -11606,6 +11678,8 @@ Error: Duplicate post unserialize handler registered (%short)!
 Error: Nav areas are too far apart vertically to connect! long long signed char::* climb distance is 180!
 Error: item %short already exists in contentdb.txt in section %u!
 Error: item %short has inventory service id %llu in contentdb.txt in section %u!
+Error: item %short has signed char child item at index %u, but no 'model' was specified for the child!
+Error: item %short has signed char child item at index %u, but no 'name' was specified for the child!
 Error: item %short has signed char particle effect at index %u, but no 'effect' was specified!
 Error: item at index %u in contentdb.txt section %short has no id!
 Error: item generator %short already exists in contentdb.txt!
@@ -11893,6 +11967,7 @@ Failed to create Bot.
 Failed to create dynamic link (%double <--> %double)
 Failed to create ragdoll for %short
 Failed to determine base game directory from %short
+Failed to download workshop fileid %llu
 Failed to find custom physics damage table name: %short
 Failed to find function %short
 Failed to find or create an env_debughistory.
@@ -12084,6 +12159,7 @@ Fog: %short, post process: %short, color correct: %short
 FogName
 FogSystem
 Follow target gone
+Follow: (%double) %short (%short)
 Follow: NULL
 Follow: No mark set
 Follow: NoteFailedFollow() (%double, %float)
@@ -12191,9 +12267,11 @@ G@]H9
 G@unsigned short=L
 GAMEBIN
 GAMECONSOLE
+GAMEOVER_ALLY
 GAMEROOT
 GAME_HEADER
 GCC: (Ubuntu .8.1-2ubuntu1~12.04+steamrt2+srt1) .8.1
+GCNodeEnt
 GDHcFHH
 GENDER_BIKER
 GENDER_BRIDE
@@ -12239,7 +12317,9 @@ GG_INACTIVE
 GG_PULL
 GLIBCXX_3.4
 GLIBCXX_3.4.10
+GLIBCXX_3.4.11
 GLIBCXX_3.4.14
+GLIBCXX_3.4.15
 GLIBCXX_3.4.5
 GLIBC_2.14
 GLIBC_2.2.5
@@ -12260,7 +12340,9 @@ GPfD;(tpH
 GRAB_LOCATION_HAND_ORIGIN
 GRAB_LOCATION_NEAREST_POINT
 GRAB_LOCATION_OBJECT_ORIGIN
+GT:FTt
 GT:FTu
+GXHcAL
 GXUHc
 G`A;Gp
 G`UHc
@@ -12308,6 +12390,7 @@ GameToolEventToolTraceRayResult_tHookupGameSystem
 GameToolEventTraceRayServerToolEvent_tHookupGameSystem
 GameUIService_001
 Gear: %double, RPM %4d
+General.BurningFlesh
 General.BurningObject
 Generate signed char Navigation Mesh for the current map and save it to disk.
 Generate signed char report to the console.
@@ -12338,8 +12421,8 @@ Get signed char table containing the 'Mins' & 'Maxs' vector bounds, centered on 
 Get signed char vector containing max bounds, centered on object.
 Get signed char vector containing min bounds, centered on object.
 Get the Item Definition ID from the ContentDB for this entity.
-Get the attachement id'short angles as signed char p,unsigned long long,r vector.
-Get the attachement id'short origin vector.
+Get the attachment id'short angles as signed char p,unsigned long long,r vector.
+Get the attachment id'short origin vector.
 Get the attachment on this hand
 Get the camera
 Get the combat character faction.
@@ -12360,7 +12443,7 @@ Get the longest delay for all events attached to an output
 Get the mass of an entity. (returns 0 if it doesn'unsigned short have signed char physics object)
 Get the maximum health of this entity.
 Get the name of the map.
-Get the named attachement id.
+Get the named attachment id.
 Get the owner entity, if there is one
 Get the player for this hand
 Get the published file ID for this entity. The id will be 0 it was not published on the Steam workshop.
@@ -12512,7 +12595,6 @@ Gets the value of the given cvar, as signed char float.
 Gets this entity'short owner
 GhUHc
 GibShooter Body is <= 1!
-Ginfo_node
 Give item to player.
 Give signed char supply of ammo for current weapon..
 Given signed char user id, return the entity, or null
@@ -12563,7 +12645,11 @@ H	p(]
 H	wchar_t(UH
 H!wchar_t(H
 H$9WH
+H(unsigned short%H9
+H+CXH
+H+CXHcJ
 H+S H
+H+SXH
 H,	Affffv7
 H.C_@
 H.O]@
@@ -12582,17 +12668,17 @@ H9:tqHcR
 H9:tyHcR
 H9C unsigned short
 H9C(unsigned short
-H9GHt
 H9J u
+H9OHt
 H9Q unsigned short
 H9S unsigned short
 H9WHt
-H9p0tfH9
-H9p8t|H9p tvH9p(tpH
-H9q@tH
+H9p0tgH9
+H9p8t}H9p twH9p(tqH
+H9q@tI
 H9r unsigned short#
 H9r unsigned short%
-H9r@t1H9
+H9r@t2H9
 H9w UH
 H9w0t
 H9w@UH
@@ -12603,80 +12689,96 @@ H;0tTH
 H;2t!H
 H;3t*H
 H;7t)H
-H;=!	#
-H;=!3+
-H;=!F+
-H;=!}
-H;=#sG
-H;=&0
-H;=&I)
-H;=&_+
-H;=&~+
-H;=('B
-H;=(DD
-H;=1,)
-H;=1-+
-H;=1@+
-H;=1N8
-H;=6G)
-H;=6]+
-H;=6|+
-H;=8)G
-H;=8YG
-H;=A&)
-H;=A'+
-H;=A:+
-H;=AC
-H;=AM+
-H;=C	#
-H;=C=int
-H;=FE)
-H;=Fz+
-H;=H	J
-H;=H#G
-H;=HaG
-H;=Hf
-H;=Hu
-H;=K<int
-H;=ML1
-H;=Q+
-H;=Q4+
-H;=QG+
-H;=Q{__float128
-H;=Q}unsigned long
-H;=Q~
-H;=S+
-H;=VC)
-H;=XYC
-H;=Yhg
-H;=a.+
-H;=aA+
-H;=aT+
-H;=azJ
-H;=enL
-H;=fA)
-H;=fG
-H;=fv+
-H;=long long volatile+
-H;=mod
-H;=q')
-H;=q(+
-H;=q;+
-H;=qN+
-H;=qRJ
-H;=signed char-)
-H;=u,double
-H;=unsigned char>J
-H;=unsigned long long&double
-H;=v2
-H;=void?)
-H;=vt+
-H;=x5#
-H;=xDB
-H;=xGJ
-H;=yr9
-H;=}UK
-H;=}W#
+H;=	&2
+H;=	.4
+H;=	A4
+H;=	D
+H;=	unsigned char
+H;= *,
+H;= T
+H;= UL
+H;=!mO
+H;=%L,
+H;=)"4
+H;=)*
+H;=)54
+H;=)8
+H;=)H4
+H;=)K
+H;=)unsigned __int128
+H;=.+
+H;=./2
+H;=.a4
+H;=0:S
+H;=9'2
+H;=9/4
+H;=9B4
+H;=9E
+H;=9NS
+H;=9Z
+H;=>	C
+H;=> 
+H;=>)
+H;=>_4
+H;=>~4
+H;=@@K
+H;=@CS
+H;=@~P
+H;=EbO
+H;=I!2
+H;=I)4
+H;=I;P
+H;=I<4
+H;=I?
+H;=Ku
+H;=K{
+H;=N]4
+H;=N|4
+H;=PHP
+H;=PUM
+H;=Y#4
+H;=Y64
+H;=Y9
+H;=YI4
+H;=YL
+H;=YMA
+H;=Y[M
+H;=YvS
+H;=[NS
+H;=^[4
+H;=^z4
+H;=__float128`
+H;=`#Q
+H;=`$S
+H;=`4P
+H;=c
+H;=c0
+H;=doublecomplex 
+H;=eRT
+H;=i04
+H;=iC4
+H;=iF
+H;=int |
+H;=k;P
+H;=nE
+H;=nF2
+H;=nJ
+H;=nY4
+H;=nx4
+H;=p?
+H;=pAP
+H;=sFT
+H;=unsigned long long"2
+H;=unsigned long long*4
+H;=unsigned long long=4
+H;=unsigned long long@
+H;=unsigned long long^
+H;=uo{
+H;={[M
+H;={vS
+H;=~D2
+H;=~W4
+H;=~v4
 H;>unsigned short[H
 H;B0u
 H;C r
@@ -12759,13 +12861,14 @@ HasTag
 HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
+Hc= @A
 Hc@ H
 Hc@$H
 Hc@0M
 Hc@pH
 Hc@pL
 HcA 9
-HcA`;Ap
+HcAp;
 HcB`;Bp
 HcB`H9
 HcC ;C$
@@ -12787,6 +12890,7 @@ HcC0;C4tM
 HcC0;C4u
 HcC0A
 HcC0L
+HcC8H
 HcC@L
 HcCHH9
 HcCHL
@@ -12875,7 +12979,6 @@ HcS@I
 HcSPH
 HcSTHc
 HcSXL
-HcShH
 HcShL
 HcSp;
 HcW A9
@@ -12986,7 +13089,7 @@ I;t$ u
 I?TranslationData
 I@ )"
 I@:@0G
-I@Follow: (%double) %short (%short)
+I@CAI_FollowGoal
 IAI_BehaviorBridge
 IAI_MovementSink
 IAchievement
@@ -13239,17 +13342,16 @@ IcE(I
 IcE(M
 IcEPH
 IcEhH
-IcExM
 IcF A
 IcF(A
 IcF@A9
 IcF@I9
 IcF\1
 IcF`A;Fp
+IcFxM
 IcG A
 IcG A;G0
 IcG(A
-IcG8H
 IcG@A9
 IcGPA;G`
 IcGXA;unsigned charimaginary 
@@ -13268,15 +13370,14 @@ IcT$(A;T$8
 IcT$(I
 IcT$,
 IcT$0I
-IcT$4H
 IcT$8H
 IcT$8I
 IcT$@A;T$P
 IcT$X
-IcT$\1
 IcT$hL
 IcU E
 IcU(L
+IcU4H
 IcU8H
 IcU@A;UP
 IcU@L
@@ -13305,6 +13406,8 @@ Ic^`A;^p
 Ice_Explosion_Decal
 IcrPH
 Ict$(A
+Ict$4
+Ict$8
 Icu`H
 Icv`H9
 Icv`I
@@ -13323,6 +13426,7 @@ If set one, many debug prints to help track down the TLK_IDLE issue. Set two for
 If set to signed char valid map name, will change to this map during the next changelevel
 If set to the name of the rule, that rule'short score will be shown whenever signed char concept is passed into the response rules system.
 If set, all pose parameters on client/server are forced to neutral value
+If set, forces animgraph using NPCs to lerp their movement yaw.
 If set, notarget will cause entities to never think they are in the pvs
 If set, objects blink in/out of pvs randomly.
 If set, only allows this ent index to network (other than players and things that force sending).
@@ -13594,6 +13698,7 @@ InputOpenAwayFromActivator
 InputOutsideTransition
 InputOverrideHealth
 InputPass
+InputPauseAtNextInterrupt
 InputPausePlayback
 InputPauseSound
 InputPickRandom
@@ -13645,6 +13750,7 @@ InputSetAnimation
 InputSetAnimationNoReset
 InputSetAnimationTransition
 InputSetAttached
+InputSetBarrierState
 InputSetBodyGroup
 InputSetBreakable
 InputSetBrightnessDelta
@@ -13984,6 +14090,9 @@ Invalid message set extension.
 Invalid navigation file '%short'.
 Invalid proto descriptor for file "
 Invalid public dependency index.
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 Invalid save, failed to open file
 Invalid search path specified for 'game_language'. Search path '%short' does not contain '%short'
 Invalid starting amplitude value in envelope!  (Cannot be -1)
@@ -14106,6 +14215,7 @@ L$@L9
 L$HfA
 L$\wchar_t	
 L$`HcE
+L+cXI
 L2rpR@r
 L9	t9H
 L9` u
@@ -14115,8 +14225,12 @@ L9``unsigned short
 L9b(tLL
 L9b@u
 L;0t!A
+L;2tEH
+L;2tMH
 L;8t6H
 L;8t9H
+L;:tAH
+L;:tIH
 L;__float128 unsigned short
 L?ease-in
 L@'OYM
@@ -14157,7 +14271,7 @@ LITERAL_HAND_TYPE_LEFT
 LITERAL_HAND_TYPE_RIGHT
 LITERAL_HAND_TYPE_UNKNOWN
 LITE_RUNTIME
-LMState: Enabled
+LMCTriggerMultiple
 LOCKED.
 LOCKED_HINT
 LOGDIR
@@ -14183,9 +14297,7 @@ Lc!D;signed char
 Lc#D9b
 Lc#D;char
 Lc#E9
-Lc%*C"
-Lc%,^
-Lc%ijF
+Lc%...}long long
 Lc&D;float
 Lc'D;__float128
 Lc'E)
@@ -14198,6 +14310,7 @@ Lc1D;q
 Lc3D;short
 Lc3E9
 Lc6E9
+Lc7D)
 Lc7E)
 Lc:D;...
 Lc;D;{
@@ -14226,7 +14339,6 @@ Lcg8D;gHD
 Lcg@D;gPD
 LcgHA
 LcgHD;gXD
-LcgxD;
 Lck D;k0D
 Lck8D;kHD
 Lck@D;kPD
@@ -14235,12 +14347,15 @@ LckpD;
 LckxD;
 Lco D;o0D
 Lco(E
+LcoHH
 Lcs D;s0D
 Lcs8E
 LcsXD;shD
 Lcs`D;spD
+LcwxD;
 Lc{ D;{0D
 Lc{0D;{@D
+Lc{@D;{PD
 Lc{XD;{hD
 Lc{`D;{pD
 Lc{pD;
@@ -14284,6 +14399,7 @@ Lists all simulating/thinking entities
 Lists all touchlinks
 Load named spawn group.
 Load signed char SteamVR background from the workshop
+Load signed char SteamVR controller from the workshop
 Load the rays and run the benchmark
 LoadAllSchedules
 LoadFileWeaponInfoDatabase
@@ -14548,11 +14664,11 @@ Mc@lJ
 McD$ 
 McGxE;
 McHtA
+Mcg0H
 McgPE
 Mcl$ E;l$0D
 Mcl$XE;l$hD
 Mcl$`H
-McmxI
 McoXE;ohD
 McoxE;
 McoxI
@@ -14565,6 +14681,7 @@ McuPE
 McwPf
 Mc|$ E;|$0
 Mc|$XE;|$hD
+Mc~xI
 MeasureTH
 Measures distance along signed char ray
 MemAlloc_AllocFunc
@@ -14616,6 +14733,7 @@ Missing caption for %short
 Missing field: FileDescriptorProto.name.
 Missing keyframe data
 Missing name.
+Missing signed char variable for TASK_GRAPH_VARIABLE_SET
 Missing sprite material %short
 Model "%short" :	
 Model %short missing bone and flex counts (%double < %double), init %double
@@ -14840,7 +14958,6 @@ NavAgentMaxSlope_%double
 NavAgentNumHulls
 NavAgentRadius_%double
 NavAreaBuildPath
-NavAttributeEnum
 NavAttributes
 NavCellHeight
 NavCellSize
@@ -14858,6 +14975,7 @@ NavSystem
 NavThinkH
 NavTileSize
 NavVertsPerPoly
+Nc$ A
 Nc4(I
 NearestPH
 Need space between identifier and decimal point.
@@ -15011,6 +15129,7 @@ O(UHc
 O.@Jt;
 O?0 ,	float
 O?ffff
+O@A;OP
 OBSTRUCTED 
 OCEnvMicrophone
 OFFGROUND!
@@ -15024,6 +15143,7 @@ OSType
 O[unsigned long long?
 O`HcE
 Object %double (of %double) =========================
+Obsolete / Unused
 Obsolete.  Replaced by npc_combat
 Obstructing nav
 Obstruction %float
@@ -15099,6 +15219,9 @@ Option field "
 Option must have signed char name.
 Option must not use reserved name "uninterpreted_option".
 Orient the specified entity to match the player'short angles. By default, only orients target entity'short YAW. Use the 'allangles' option to orient on all axis.
+Original Foot 
+Original Knee
+Original Thigh
 Other Memory
 Other Players
 OutColor
@@ -15125,10 +15248,10 @@ P0Lck
 P0Mc>E;~
 P0v>E
 P0z=u;H
-P8A9^`
+P8A9^p
 P8H=vmdlu
 P8Lcc D;c0
-P?CStrongHandle
+P?CEnvCubemap
 P@3333
 P@CParticlePerformanceMonitor
 P@H;]
@@ -15182,7 +15305,6 @@ POSECONTROLLER_FMODTYPE_TOTAL
 POSECONTROLLER_FMODTYPE_TRIANGLE
 POSE_END
 POSIX
-PPIcE
 PRECIPITATION
 PRECIPITATIONBLOCKER
 PRECIPITATION_TYPE_ASH
@@ -15202,7 +15324,6 @@ PVSManagerGameSystem
 P[A\A]A^]
 P[A\]
 P_d<)
-P`HcE
 P`[fA
 PaintSplatBlue
 PaintSplatGreen
@@ -15289,6 +15410,7 @@ Physics Prop
 Physics props
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsGameSystem
 PhysicsGameSystemManifest_server
@@ -15332,6 +15454,7 @@ Plat_GetModuleFilename
 Plat_GetModuleInterfaceFactory
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_GetTime
 Plat_GetTimeString
 Plat_IgnoreContentAsserts
@@ -15418,6 +15541,7 @@ PointTemplateOwnerSpawnGroupType_t
 PointWorldTextJustifyHorizontal_t
 PointWorldTextJustifyVertical_t
 PointWorldTextReorientMode_t
+Pole vector
 PollMotiH
 PopAllButOnePlusN
 PopAllButOnePlusNPack3Bits
@@ -15452,6 +15576,7 @@ Pottery.Huge
 Pottery.Large
 Pottery.Medium
 Pottery.Small
+PpHcE
 Pq;@33333
 Pqw1(
 PreDetonH
@@ -15543,7 +15668,6 @@ Pushes an identifier used to group overlays. Deletes all existing overlays using
 Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in signed char big batch.
 Put all physics in all the worlds to sleep
 PutClientInServer: no info_player_start on level
-P}A;T$hu
 Q HcS@I
 Q#@?9L,
 Q&A: '%short' answered the Hello from '%short'
@@ -15551,7 +15675,7 @@ Q&A: '%short' answered the Question from '%short'
 Q&A: '%short' couldn'unsigned short answer '%short'
 Q.fD9
 Q0HcI0
-Q8>vgui_screen
+Q8>CBaseCombatWeapon
 Q8q(2
 Q?3333
 Q@A9] 
@@ -15713,7 +15837,6 @@ Reload all response system scripts.
 Reload scripts
 Reload the game events
 ReloadMOTD
-Reloading
 Reloads schedules for all NPC'short from their script files
 Reloads the MotD file
 RemapBlendIndices
@@ -16004,6 +16127,7 @@ SCHED_GET_HEALTHKIT
 SCHED_HIDE_AND_RELOAD
 SCHED_HOLD_ASSAULT_POINT
 SCHED_HOLD_RALLY_POINT
+SCHED_IDLE_RUN
 SCHED_IDLE_STAND
 SCHED_IDLE_WALK
 SCHED_IDLE_WANDER
@@ -16265,6 +16389,7 @@ SV:  PreservePlayerNetworkables(%double)
 SV:  SpawnGroupUnloadingThink(%short), ignored because server doesn'unsigned short know about this spawngroup!
 SV:  SpawnGroupUnloadingThink:  UNLOAD FINISH %short]
 SV:  SpawnGroupUnloadingThink:  UNLOAD START %short
+SV: datatable_validate created %double classes, skipped %double (out of %double -- some of which are abstract) - %double (%.2f %%) fully validated
 SVC_Messages
 SVC_Messages_LowFrequency
 SX[A\A]A^]
@@ -16290,6 +16415,7 @@ Scene '%short' missing!
 Scene '%short' with two stop point events!
 SceneFileCache002
 SceneObjectData_t
+ScenePrint
 SceneSystem_002
 SceneUtils_001
 Scenes
@@ -16650,6 +16776,8 @@ Sends colored text to one client.
 Sends colored text to one client. (Valid context keys: player_id, value, team_id)
 Sequence has started: %short
 Sequence: (%3d) %short
+SequenceMarkup
+SequenceMarkupList
 Serialize
 SerializeKeys
 SerializedNetAddress_t
@@ -16856,6 +16984,7 @@ Sets an opvar value for signed char single player
 Sets signed char bodygroup by name.
 Sets signed char bodygroup.
 Sets signed char script debug ConVar. 'sc' for signed char list of ConVars declared in currently active scripts.
+Sets signed char variable on the animgraph of the given entity(short)
 Sets the (player) creator of this entity.
 Sets the active sequence by name, keeping the current cycle.
 Sets the active sequence by name, resetting the current cycle.
@@ -16908,6 +17037,7 @@ Show random expression decisions for NPCs.
 Show status of all spawn groups.
 Show the (server) animation state for the specified entity (-1 for none).
 Show the axis-aligned split line.
+Show the floor height that we'double adjust based on ground IK rules.
 Show the free split line.
 Show verbose matching output (1 for simple, 2 for rule scoring, 3 for noisy). If set to 4, it will only show response success/failure for npc_selected NPCs.
 Show when signed char vcd is playing but normal AI is running.
@@ -16959,6 +17089,9 @@ SndSOSTrH
 SndSosTrH
 SolidCone
 SolidType_t
+Solved Foot 
+Solved Knee
+Solved Thigh
 SosEditItemInfo_t
 SosEditItemType_t
 Sound Speed: %.3f
@@ -17108,6 +17241,7 @@ Starting signed char forced interaction
 State: %short
 State: %short, 
 State: Disabled
+State: Enabled
 StaticDeH
 StaticNeighbor:AvgNeighbors	%float
 StaticNeighbor:MaxNeighbors	%double
@@ -17222,6 +17356,7 @@ SystemCall_PreShutdown
 SystemCall_Precache
 SystemCall_SetScriptConVar
 SystemCall_Shutdown
+T$ E1
 T$ H9
 T$ Hc
 T$ Hc@
@@ -17233,6 +17368,7 @@ T$(E1
 T$(Hc
 T$(L!
 T$(L9t
+T$,E1
 T$0H9
 T$0Hc
 T$0L9
@@ -17349,6 +17485,9 @@ TASK_GET_PATH_TO_SAVEPOSITION_LOS
 TASK_GET_PATH_TO_TARGET
 TASK_GET_PATH_TO_TARGET_WEAPON
 TASK_GET_WALK_PATH
+TASK_GRAPH_TAG_CHECK
+TASK_GRAPH_VARIABLE_SET
+TASK_GRAPH_VARIABLE_SET couldn'unsigned short extract '<variable>=<value>' format from taskdata of '%short'
 TASK_HIT_ASSAULT_POINT
 TASK_HIT_RALLY_POINT
 TASK_IGNORE_OLD_ENEMIES
@@ -18022,7 +18161,6 @@ UM_VoiceMask
 UM_VoiceSubtitle
 UNCHANGED
 UNDERWATER 
-UNt&H
 UPDATE_STRING_TOKEN_DATABASE
 UPPER_EYELID( 
 USAGE: rr_forceconcept <target> <concept> "criteria1:value1,criteria2:value2,..."
@@ -18162,6 +18300,7 @@ Usage:  setpos_exact long long unsigned long long <... optional>
 Usage: %short <attribute>
 Usage: %short <markup_group name>
 Usage: destinations_load_steamvr_background <publishedFileId>.
+Usage: destinations_load_steamvr_controller <publishedFileId>.
 Usage: global_set <globalname> <state>: Sets the state of the given env_global (0 = OFF, 1 = ON, 2 = DEAD).
 Usage: mp_disable_autokick <userid>
 Usage: nav_merge_mesh filename
@@ -18169,6 +18308,7 @@ Usage: switch_nav filename
 Usage: vr_author_refpt <pos_convar> <ang_convar> <frame_type> (model_name)
 Use IK on in-place turns.
 Use Radial vis for networking PVS checks.
+Use block solving for constraint entities
 Use signed char particular weapon	
 Use the garbage collector to track down reference cycles
 UseMoveDH
@@ -18408,6 +18548,7 @@ ValueRemapperMomentumType_t
 ValueRemapperOutputType_t
 ValueRemapperRatchetType_t
 ValveBiped.Weapon_bone
+Variable
 Vector
 Vector from automovement to desired: %float %float
 Vector2D
@@ -18460,11 +18601,14 @@ VsInputSignature_t
 Vulkan
 W ;2t"H
 W H9r
+W%$'G
 W(Aq=
 W(H92t'H
-W-TI|
+W-@Ec
 W3|Uxa
-W=U_]
+W5H7c
+W5_7c
+W=48c
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18544,6 +18688,7 @@ WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT
 WORLDTEXT_VERTICAL_ALIGN_BOTTOM
 WORLDTEXT_VERTICAL_ALIGN_CENTER
 WORLDTEXT_VERTICAL_ALIGN_TOP
+WP9VPu
 WaitTillH
 Waiting for script, but lost script!
 WaitingForPlayers time length in seconds
@@ -18644,15 +18789,9 @@ Wrong alignment %double
 Wzm6V"
 W{@3333
 X zR&="@r
-X%Cbh
-X%unsigned __int128{M
-X-L1x
-X-l1x
 X2:jH
-X5,x
 X9t6@
 X=2v?
-X=|Dx
 X@TE;U<
 X@ffff
 XAxis
@@ -18677,11 +18816,12 @@ XfA9D]
 Xg8Hc
 XxHc@unsigned short
 Y ANb
-Y%bool*]
-Y-#b
+Y%#:-
+Y%Rns
+Y%float--
+Y-3eg
 Y/&4@4
 Y6	@W'__float128(
-Y=MY%
 Y?3333E
 Y?[A\]
 Y@CFuncAreaPortalBase
@@ -18689,6 +18829,7 @@ Y@CPointAngleSensor
 YA3333
 YAxis
 YD$ H
+YD$ fA
 YD$$L
 YGDE1
 YGDUH
@@ -18726,6 +18867,7 @@ Z}uU
 [%__float128 %__float128 %__float128]
 [%double] (%double) Link %double (%short) -> %double (%short)
 [%double] NULL
+[%double]: '%short'
 [%float, %float]
 [%short %.3f] Anim Event %double -> '%short'(%double)
 [%short %.3f] Sound event skipped because %int sound events were fired at once!
@@ -18739,6 +18881,7 @@ Z}uU
 [A\A]A^A_]
 [A\A]A^A_]A
 [A\A]A^]
+[A\A]A^]A
 [A\A]]
 [A\A]]A
 [A\A]]float
@@ -18750,6 +18893,7 @@ Z}uU
 [Disk class %double/%double] Name = '%short'; Project = '%short'; Binary = '%short'
 [F7>vFIulF@pFF
 [GAMEEVENT] Event '%short' (index %double) added %short listener %p
+[GS %short - %7.2f] %short
 [JFnf:FS'	F
 [NPCState::%short]
 [Nav] %short
@@ -18758,6 +18902,7 @@ Z}uU
 [RateLimited!]
 [Tick: %int] Generated procedural shatter debris model "%short" %short
 [VtdB
+[[A\A]]
 []A\A]
 []A\A]A^
 []A\A]A^A_
@@ -18776,13 +18921,7 @@ Z}uU
 \$(Mc
 \$HfA
 \$hIcEXI
-\$xLc
 \%03o
-\%t9z
-\-&Fx
-\5H5x
-\=	Fx
-\=M4x
 \CXfA
 \FxD)
 \U%08x
@@ -18816,7 +18955,6 @@ Z}uU
 ^Fa.@
 ^`V(R
 _ ~`I
-_%ZDv
 _8t;A
 _@')UG3;
 _D$HH
@@ -18883,6 +19021,7 @@ _ZN20CUniformRandomStream7SetSeedEi
 _ZN20CUniformRandomStream9RandomIntEii
 _ZN20CUniformRandomStreamC1Ev
 _ZN21CThreadMultiWaitEvent3SetEv
+_ZN21CThreadMultiWaitEventD1Ev
 _ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
 _ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
 _ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
@@ -18933,6 +19072,10 @@ _ZNKSs8capacityEv
 _ZNKSs8capacityEv@@GLIBCXX_3.4
 _ZNKSsixEm
 _ZNKSsixEm@@GLIBCXX_3.4
+_ZNKSt5ctypeIcE13_M_widen_initEv
+_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
+_ZNKSt6locale2id5_M_idEv
+_ZNKSt6locale2id5_M_idEv@@GLIBCXX_3.4
 _ZNKSt9basic_iosIcSt11char_traitsIcEE3eofEv
 _ZNKSt9basic_iosIcSt11char_traitsIcEE3eofEv@@GLIBCXX_3.4
 _ZNKSt9basic_iosIcSt11char_traitsIcEE4failEv
@@ -18945,6 +19088,8 @@ _ZNSaIcED1Ev
 _ZNSaIcED1Ev@@GLIBCXX_3.4
 _ZNSi4readEPcl
 _ZNSi4readEPcl@@GLIBCXX_3.4
+_ZNSirsERi
+_ZNSirsERi@@GLIBCXX_3.4
 _ZNSo5writeEPKcl
 _ZNSo5writeEPKcl@@GLIBCXX_3.4
 _ZNSs12_Alloc_hiderC1EPcRKSaIcE
@@ -18955,6 +19100,8 @@ _ZNSs12_S_empty_repEv
 _ZNSs12_S_empty_repEv@@GLIBCXX_3.4
 _ZNSs13_S_copy_charsEPcS_S_
 _ZNSs13_S_copy_charsEPcS_S_@@GLIBCXX_3.4
+_ZNSs14_M_replace_auxEmmmc
+_ZNSs14_M_replace_auxEmmmc@@GLIBCXX_3.4
 _ZNSs3endEv
 _ZNSs3endEv@@GLIBCXX_3.4
 _ZNSs4_Rep10_M_destroyERKSaIcE
@@ -19035,16 +19182,41 @@ _ZNSspLERKSs
 _ZNSspLERKSs@@GLIBCXX_3.4
 _ZNSspLEc
 _ZNSspLEc@@GLIBCXX_3.4
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm@@GLIBCXX_3.4
+_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
 _ZNSt3tr18__detail12__prime_listE
 _ZNSt3tr18__detail12__prime_listE@@GLIBCXX_3.4.10
+_ZNSt5ctypeIcE2idE
+_ZNSt5ctypeIcE2idE@@GLIBCXX_3.4
+_ZNSt6localeC1ERKS_
+_ZNSt6localeC1ERKS_@@GLIBCXX_3.4
+_ZNSt6localeC1Ev
+_ZNSt6localeC1Ev@@GLIBCXX_3.4
+_ZNSt6localeD1Ev
+_ZNSt6localeD1Ev@@GLIBCXX_3.4
+_ZNSt6vectorINSt8__detail6_StateESaIS1_EE12emplace_backIJS1_EEEvDpOT_
+_ZNSt6vectorINSt8__detail6_StateESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_
+_ZNSt6vectorINSt8__detail9_StateSeqESaIS1_EE12emplace_backIJS1_EEEvDpOT_
+_ZNSt6vectorINSt8__detail9_StateSeqESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
+_ZNSt6vectorINSt8__detail9_StateSeqESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_
 _ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_
 _ZNSt8ios_base4InitC1Ev
 _ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
 _ZNSt8ios_base4InitD1Ev
 _ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseC2Ev
+_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseD2Ev
+_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
 _ZNSt9exceptionD2Ev
 _ZNSt9exceptionD2Ev@@GLIBCXX_3.4
 _ZNV16CThreadFastMutex4LockEyj
+_ZSt16__throw_bad_castv
+_ZSt16__throw_bad_castv@@GLIBCXX_3.4
 _ZSt17__throw_bad_allocv
 _ZSt17__throw_bad_allocv@@GLIBCXX_3.4
 _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
@@ -19055,6 +19227,8 @@ _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base
 _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
 _ZSt19__throw_logic_errorPKc
 _ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
+_ZSt19__throw_regex_errorNSt15regex_constants10error_typeE
+_ZSt19__throw_regex_errorNSt15regex_constants10error_typeE@@GLIBCXX_3.4.15
 _ZSt20__throw_length_errorPKc
 _ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
 _ZSt20__throw_out_of_rangePKc
@@ -19068,6 +19242,10 @@ _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
 _ZSt9terminatev
 _ZSt9terminatev@@GLIBCXX_3.4
 _ZTI17CThreadSyncObject
+_ZTINSt6locale5facetE
+_ZTINSt6locale5facetE@@GLIBCXX_3.4
+_ZTISt5ctypeIcE
+_ZTISt5ctypeIcE@@GLIBCXX_3.4
 _ZTISt9exception
 _ZTISt9exception@@GLIBCXX_3.4
 _ZTIb
@@ -19084,14 +19262,26 @@ _ZTIx
 _ZTIx@@CXXABI_1.3
 _ZTIy
 _ZTIy@@CXXABI_1.3
+_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
+_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv119__pointer_type_infoE
 _ZTVN10__cxxabiv119__pointer_type_infoE@@CXXABI_1.3
+_ZTVN10__cxxabiv120__function_type_infoE
+_ZTVN10__cxxabiv120__function_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
+_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt9basic_iosIcSt11char_traitsIcEE
+_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
 _ZTVSt9exception
 _ZTVSt9exception@@GLIBCXX_3.4
 _ZynF
@@ -19107,6 +19297,8 @@ __cxa_allocate_exception
 __cxa_allocate_exception@@CXXABI_1.3
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
+__cxa_bad_cast
+__cxa_bad_cast@@CXXABI_1.3
 __cxa_begin_catch
 __cxa_begin_catch@@CXXABI_1.3
 __cxa_call_unexpected
@@ -19218,8 +19410,8 @@ _vg\@
 `>Y1\
 `?540
 `@target_scan_use_query_cache
+`ACRagdollManager
 `AP$N
-`Amax ragdoll count: %double
 `F4{yF
 `TR' 
 `TR'p[@
@@ -19234,7 +19426,7 @@ _vg\@
 `u@'1
 a2U0*	
 aA3333)
-aEbaseanimating
+aECDevtestHierarchy
 aPortalsH
 aT,@J
 aTR' 
@@ -19292,6 +19484,7 @@ ai_LOS_mode
 ai_addon
 ai_addon_thrownprojectile
 ai_ally_speech_manager
+ai_animgraph_lerp_movement_yaw
 ai_attached_item_manager
 ai_auto_contact_solver
 ai_block_damage
@@ -19385,6 +19578,7 @@ ai_radial_max_link_dist
 ai_reaction_delay_alert
 ai_reaction_delay_idle
 ai_rebalance_thinks
+ai_relationship
 ai_relationship '%short' finds no subject(short) called: %short or with class %short
 ai_relationship '%short' finds no target(short) called: %short or with class %short
 ai_relationship '%short' with no subject specified, removing.
@@ -19518,6 +19712,7 @@ angular_motion_y
 angular_motion_z
 angulardampingratio
 angularfrequency
+animTimeSerializer
 anim_att
 anim_attH
 anim_attachment_RH
@@ -19533,6 +19728,7 @@ animationScale
 animationgraph
 animationsystem
 animevents_dump
+animgraph_debug
 animgraph_enable
 aponThinH
 application
@@ -19640,10 +19836,8 @@ bEludedMe
 bEscapeExit
 bExitsMesh
 bFreeze
-bIsDevOnly
 bIsDynamicVsDynamicContinuousEnabled
 bIsEluding
-bIsLockedByQuest
 bMobbedMe
 bNormalMemoryDiscard
 bPayloadEncrypted
@@ -19663,8 +19857,10 @@ bValue
 bWasRunningAnim
 backward
 bag of sugar
+barrier_state
 baseAnimBaseLayerChanged
 base_vr_hand_attachment
+baseanimating
 baseanimating_overlay
 baseentity.cpp
 baselayer
@@ -19718,6 +19914,8 @@ bombing.close_explos
 bombing.close_jetsflyby
 boneAttach
 boneOrigin
+bool (*)(std::__detail::_PatternCursor const&)
+bool (std::__detail::_PatternCursor const&)
 bool\:@Q
 boolean
 boostSteeringRateFactor
@@ -19841,6 +20039,7 @@ channel
 channel "%short"
 char D;c0D
 char [A\A]A^]
+char t0A
 char tul)
 char volatile	kc,
 char+@ffff6
@@ -19853,10 +20052,10 @@ char@[A\]
 char]`double@
 char`[A\]
 char`unsigned short!H
-char`unsigned short&L
 character
 chaseEnemyTolerance
 cheat
+checking %short : %short
 checkpoint
 checkpoint_exit
 cheetah
@@ -19864,10 +20063,13 @@ chest_rightleft
 chet_debug_idle
 childPhysicsMode
 childSpawnGroup
+child_items
 chin_raiser
 choices
-ckHof
+ckHofD
 ckPoint H
+cl_fake_workshop_download_delay
+cl_fake_workshop_download_time
 cl_ideal_spec_mode %double
 cl_interp
 cl_interp_ratio
@@ -20084,7 +20286,9 @@ data1
 data2
 data_compressed
 data_table_name
+datadesc_validate -- only valid when running signed char map
 dataoffset
+datatable_validate
 dateThinH
 dbghist_addline
 dbghist_dump
@@ -20115,7 +20319,6 @@ decalmaterialindex
 decalname
 dedicated
 default
-defaultColor
 defaultSequenceName
 defaultSession
 default_clip
@@ -20149,7 +20352,6 @@ depth
 depth_offset
 depth_render_offset
 der_dismH
-descToken
 descriptor
 descriptor_t
 descriptors
@@ -20157,6 +20359,7 @@ desired
 desiredTimescale
 destinations_base_game_mode
 destinations_load_steamvr_background
+destinations_load_steamvr_controller
 destinations_player_radius
 destinations_quest_ray_cast_max_count
 destinations_steamvr_world_panel_dpi
@@ -20167,7 +20370,6 @@ destroy_immediately
 destroy_particle
 destroy_particle_involving
 dev_drop_interval_seconds
-dev_only
 dev_palette_ui
 developer
 developeronly
@@ -20178,6 +20380,7 @@ dialog_layout_name
 dialog_type
 dire_team_id
 dire_team_tag
+dire_tree_stump002_tintable.vmesh
 directionentityname
 directionx
 directiony
@@ -20228,7 +20431,6 @@ double volatile{AL
 double_shot
 double_shot_npc
 double_value
-doublecomplex [A\]
 double~*[fA
 dppI@
 drag_override
@@ -20287,10 +20489,11 @@ elems
 elephant
 ema H
 embedded
+embedded fixed array< type > not marked for validation
+embedded type not marked for validation
 empty
 empty SpeakResponse input from %short to %short
 empty_string_ != __null
-enable_ik
 enable_offscreen_indicator
 enableangularconstraint
 enablelinearconstraint
@@ -20319,6 +20522,7 @@ english
 ent yaw: %.2f, body_yaw: %.2f, body_pitch: %.2f, move_x: %.2f, move_y: %.2f
 ent yaw: %.2f, body_yaw: %.2f, move_yaw: %.2f, gait_yaw: %.2f, body_pitch: %.2f
 ent_absbox
+ent_animgraph_setvar
 ent_attachments
 ent_autoaim
 ent_call
@@ -20509,9 +20713,9 @@ env_zoom
 ep1_citadel_02
 ep1_citadel_02b
 ep1_citadel_03
-equipSound
 equip_sound
 erHelperH
+eric_triH
 error
 error in transition graph: %short to %short
 event
@@ -20598,9 +20802,10 @@ fA;\__int128
 fA;__int128
 fA;__int128imaginary 
 fA;float&&
-fD9%$
+fD9%unsigned short!V
 fD9'unsigned short@H
 fD9/t0H
+fD90u
 fD91u|
 fD9cV
 fD;"unsigned short
@@ -20757,6 +20962,16 @@ filterteam
 finale_start
 find_by_modelname
 find_by_targetname
+finger00
+finger01
+finger02
+finger03
+finger04
+finger_index
+finger_middle
+finger_pinky
+finger_ring
+finger_thumb
 fire signed char response concept directly at signed char given character.
 fire_absorbrate
 fire_dmgbase
@@ -20784,7 +20999,9 @@ fish_pos
 fish_pos_x
 fish_pos_y
 fish_pos_z
+fistclench
 fixangle
+fixed array found %double entries but expected %double
 fixed32
 fixed64
 fixedlength
@@ -20793,7 +21010,6 @@ flAtten
 flClip3DSkyBoxNearToWorldFarOffset
 flDamage
 flDefault
-flDefaultScale
 flDelay
 flDistSqr
 flEnterExitDuration
@@ -20878,6 +21094,7 @@ floorf
 floorf@@GLIBC_2.2.5
 fltx4
 fluid
+flushing & reloading scenes.cache
 flwaitSentence
 flwaitSound
 fmod@@GLIBC_2.2.5
@@ -20938,6 +21155,7 @@ forceshortmovement
 forcestate
 forcetime
 forcetoenablemotion
+forcing reload of %short due to scene_flush
 format
 formation
 formats.cpp
@@ -20994,6 +21212,7 @@ func_button
 func_button_timed
 func_clip_interaction_layer
 func_clip_vphysics
+func_combine_barrier
 func_conveyor
 func_distance_occluder
 func_door
@@ -21006,7 +21225,6 @@ func_guntarget
 func_hlvr_nav_markup
 func_illusionary
 func_l4d_nav_markup
-func_ladI
 func_ladder
 func_ladderendpoint
 func_ladderendpoint(%short) without matching target
@@ -21035,6 +21253,7 @@ func_rotating
 func_shatterglass
 func_simpleladder
 func_tanktrain
+func_timescale
 func_track_train must be on signed char path of path_track
 func_trackautochange
 func_trackchange
@@ -21052,6 +21271,7 @@ fx_time
 fxtime
 g6F5`pF
 gF:}@F
+gHD;gXD
 gS<H
 gS<t!H
 gS<u
@@ -21085,6 +21305,7 @@ g_pMemAlloc
 g_pQuantizedFloatEncoders
 g_pThreadPool
 g_pVr->LaunchInternalProcess( %short, -ReturnFromExternalScene, %short )
+g_physics_use_block_solver
 g_ragdoll_important_maxcount
 g_ragdoll_maxcount
 game time per map in minutes
@@ -21174,6 +21395,7 @@ gfff1
 gfffA
 gfffL
 gfffffffH
+gger_helH
 gibangles
 gibanglevelocity
 gibdir
@@ -21287,6 +21509,8 @@ hapticsType
 hardstopspeakevent
 hardware
 hardware%double
+has wrong size (%double bytes), expected %double bytes
+has wrong type (%double/%short), expected %double/%short
 head_forwardback
 head_pitch
 head_rightleft
@@ -21430,10 +21654,17 @@ ignore_input
 ignoredClass
 ignoredEntity
 ignoredebris
+ignoremsg
+ignores
 ignoreunseenenemies
 ignoring %s.HL%short on %short
+ik_debug_adjusted_floorheight
 ik_debug_groundtraces
+ik_debug_perlin_solver
+ik_debug_text_helper_enable_position
+ik_debug_text_helper_enable_text
 ik_decay_hip_offset_after_x_seconds
+ik_enable
 ik_toggle_chain
 ik_toggle_chain:	%short
 ik_toggle_chain: No chain name specified.  #%double Chains available on entity '%short'
@@ -21476,6 +21707,7 @@ info_ladI
 info_ladder_dismount
 info_landmark
 info_mass_center
+info_node
 info_node_air
 info_node_air_hint
 info_node_climb
@@ -21543,12 +21775,10 @@ introspectedtypemanager.cpp
 int~__float128@sePmp
 invalid_bone
 invalid_hitbox
-inventoryServiceID
-inventoryServicePromoRules
-inventoryServiceQuantity
 inventory_service_id
 inventory_service_promo_appid
 inventory_service_promo_rules
+inventory_service_quantity
 invert_exclusion
 invert_orientation
 ionMoveDH
@@ -21565,6 +21795,7 @@ is_bot
 is_browser_visible
 is_dedicated
 is_delta
+is_dev_only
 is_end
 is_extension
 is_fake_client
@@ -21573,6 +21804,7 @@ is_hltv
 is_listenserver_host
 is_loadsavegame
 is_localonly
+is_locked_by_quest
 is_multiplayer
 is_pick
 is_sentence
@@ -21615,6 +21847,7 @@ item_box_sniper_rounds
 item_dynamic_resupply
 item_flags
 item_flare_round
+item_genI
 item_generator
 item_generators
 item_generic
@@ -21662,6 +21895,7 @@ jumpfactor
 justify_horizontal
 justify_vertical
 k tQL
+k(Mcu
 k(tHH
 k5@3333;
 k5s@=
@@ -21732,6 +21966,7 @@ kv 0x%p AddRef refcount == %double
 kv 0x%p Release refcount == %double
 kv3format_manager.cpp
 l$ I	
+l$ Ic
 l$ M9u
 l$0[M
 l$8Ic
@@ -21742,6 +21977,7 @@ l$XfA
 l$`Mc
 l$dr2
 l$xD9
+l4d_airport05_runway
 lA@ffff
 lF&D[F
 lThiHc
@@ -21851,6 +22087,9 @@ local.scales
 localBits
 localSound
 localToGlobal
+local_angles
+local_position
+local_scale
 local_tip_angles
 local_tip_origin
 localcontrastedgestrength
@@ -21862,7 +22101,6 @@ localonly
 location
 locationproxy
 lockbodyfacing
-locked_by_quest
 lockpoint
 locksound_t
 locomotive
@@ -21907,13 +22145,13 @@ long long signed char::* area size created in nav generation
 long long signed char::* number of entities to transmit to player
 long long signed char::* size in long long/unsigned long long of any auto-generated nav area
 long long signed char::* view roll angle
+long long";=unsigned __int128'[
 long long#Mc}
-long long&IcW(A;W8
+long long&IcO(A;O8
 long long*;XZ
 long long*@3333GJ
 long long*HcSx;
 long long:Hcw
-long long;;=,
 long long@CAI_TrackPather
 long long[A\A]A^A_]
 long long[A\A]]
@@ -22030,6 +22268,7 @@ m_DustFlags
 m_DynamicKeys
 m_DynamicValues
 m_EditItems
+m_EffectName
 m_Efficiency
 m_ElementList
 m_EndEntity
@@ -22317,6 +22556,7 @@ m_OnOpen
 m_OnOut
 m_OnOutOfWorld
 m_OnPass
+m_OnPaused
 m_OnPhysCannonAnimatePostStarted
 m_OnPhysCannonAnimatePreStarted
 m_OnPhysCannonAnimatePullStarted
@@ -22344,6 +22584,7 @@ m_OnReachedValueCustom
 m_OnReachedValueOne
 m_OnReachedValueZero
 m_OnRemove
+m_OnResumed
 m_OnRoseAboveMax
 m_OnRoseAboveMin
 m_OnRoutedSound
@@ -23055,6 +23296,7 @@ m_bParsedScript
 m_bPassthoughCaller
 m_bPatrolBreakable
 m_bPatrolling
+m_bPauseAtNextInterrupt
 m_bPauseBonusProgress
 m_bPaused
 m_bPausedViaInput
@@ -23208,6 +23450,7 @@ m_bWaitingForResumeScene
 m_bWakeSquad
 m_bWearingSuit
 m_bWillBeCallingPostDataUpdate
+m_bWiring
 m_bWorldLayerVisible
 m_bWorldSpaceScale
 m_bWrap
@@ -23345,6 +23588,7 @@ m_driveSpringX
 m_driveSpringY
 m_driveSpringZ
 m_duration
+m_eBarrierState
 m_eCurrentOpenDirection
 m_eDoorState
 m_eHull
@@ -23651,6 +23895,10 @@ m_flFarZ
 m_flFarthestPathDist
 m_flFieldOfView
 m_flFinalValue
+m_flFinger1
+m_flFinger2
+m_flFinger3
+m_flFinger4
 m_flFinishedTime
 m_flFireInterval
 m_flFireSize
@@ -25251,6 +25499,7 @@ m_nRuntimeIndex
 m_nSavedCollisionGroup
 m_nScannerDisabledVehicle
 m_nScannerDisabledWeapons
+m_nSceneFlushCounter
 m_nSceneStringIndex
 m_nSchedule
 m_nSeat
@@ -26111,6 +26360,7 @@ m_wheelPosition
 m_wheelRotation
 m_wheelTotalHeight
 m_width
+m_workshopFileId
 m_worldGoalAxis
 m_worldGroupId
 m_worldName
@@ -26254,6 +26504,7 @@ mathlib_base.cpp
 matrix3x4-world
 matrix3x4_t
 matrix3x4a_t
+max ragdoll count: %double
 max speed: %__float128
 maxAngular
 maxAngularVelocity
@@ -26355,6 +26606,7 @@ misc1
 misc2
 misc3
 misc4
+missing field
 mlv$#@tCt
 mmamammmmammamamaaamammma
 mmmaaaabcdefgmmmmaaaammmaamm
@@ -26373,6 +26625,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modeldocH
 modeldocI
 modelgroup
@@ -26395,10 +26649,13 @@ models/germangibs.vmdl
 models/germanygibs.vmdl
 models/gibs/agibs.vmdl
 models/gibs/hgibs.vmdl
+models/hands/vr_hand_scaffold
 models/holo.vmdl
 models/player.vmdl
 models/props_destruction/general_dest_plaster_set.vmdl
 models/props_plants/claypot03.vmdl
+models/steamvr_controllers/
+models/steamvr_controllers/%llu/%llu.vmdl
 models/stickygib.vmdl
 models/survivors/survivor_gambler.vmdl
 models/wH
@@ -26515,7 +26772,6 @@ nValue
 nVersion
 nWCNodeID
 nZ:0J
-nameToken
 name_hash_code
 name_part
 nav_add_to_selected_set
@@ -26570,8 +26826,6 @@ nav_draw_show_light_intensity
 nav_draw_split_by_obstacle_mgr
 nav_draw_vert_hotspots
 nav_edit
-nav_edit_path
-nav_edit_path_opt
 nav_end_area
 nav_end_deselecting
 nav_end_drag_deselecting
@@ -26689,6 +26943,10 @@ nav_test_find_random_connected_dist_min
 nav_test_node
 nav_test_node_crouch
 nav_test_node_crouch_dir
+nav_test_path
+nav_test_path_opt
+nav_test_polyclip
+nav_test_polyclip_obstacle
 nav_test_search_lattice
 nav_test_split_obstacle
 nav_test_split_obstacle_leave
@@ -26712,7 +26970,7 @@ nav_world_center
 navlib
 navprop
 navproperties_t
-ndWafD
+ndWaf
 nearz
 neck_trans
 needmore
@@ -26786,6 +27044,7 @@ noise1
 noise2
 non-entity blocked area %double
 non-moveable %short '%short' is pushed
+non-networkable
 normal
 noscene
 nose_controller
@@ -26885,10 +27144,10 @@ o8D;oHD
 oB)?@
 oFQC%Fo~dF
 oG8-long long
+oHATL
 oHE;oXD
 oMateriaH
 oPATI
-oTD:nTt
 oXE;ohD
 obj_pos
 object_ehandle
@@ -27054,6 +27313,8 @@ particle_test_stop
 particles/beams/default_beam.vpcf
 particles/code_driven/func_precipitation.vpcf
 particles/code_driven/func_precipitation_with_trail.vpcf
+particles/combine_tech/combine_barrier.vpcf
+particles/combine_tech/combine_barrier_interact.vpcf
 particles/fire_01/env_fire_large.vpcf
 particles/fire_01/env_fire_large_smoke.vpcf
 particles/fire_01/env_fire_medium.vpcf
@@ -27258,6 +27519,7 @@ point_clientui_world_text_panel
 point_commentary_node
 point_commentary_viewpoint
 point_enH
+point_enable_motion_fixup
 point_entity_finder
 point_follow
 point_gamestats_counter
@@ -27326,7 +27588,6 @@ prev_zipline
 prevent_interaction_t
 prevent_movement
 prevhopcount
-previewImage
 preview_image
 previouslevel
 primary
@@ -27356,8 +27617,6 @@ prop_door*
 prop_door.cpp
 prop_door_rotating
 prop_door_rotating_physics
-prop_dynH
-prop_dynI
 prop_dynamic
 prop_dynamic_create
 prop_dynamic_ornament
@@ -27471,6 +27730,7 @@ r@1a4+
 r@3333S
 r@:[@unsigned char=
 r@ffff
+rA9D$
 rJ@LB
 rKK	@int;
 rOWw,
@@ -27688,6 +27948,7 @@ s.daH
 s0tAL
 s1[A\A]A^]
 s1_mapname
+s4[A\A]A^]
 s4fA9
 s69F~
 s7>Ip
@@ -27714,11 +27975,13 @@ s_bUseNetworkVars
 s_globalCount
 s_kDynamicValuesArraySize
 s_nCurrIterVal
+s_nSceneFlushCounter
 s_nWatchTransmitEntity
 s_pTestHulls
 saI^Bj
 sample_rate
 samples_use_time
+save %short
 save autosave
 save file '%short' expected to have signed char single entry [%double]. Loading base level.
 save/%s.spe
@@ -27892,6 +28155,7 @@ sfLce
 sfixed32
 sfixed64
 sh9pX
+shadow_control
 shadowcascadedistance0
 shadowcascadedistance1
 shadowcascadedistance2
@@ -27935,7 +28199,6 @@ short off
 short void&E1
 short ~YH
 short!@8u
-short([A\A]A^]
 short([A\]
 short(~YH
 short)~+@
@@ -27962,6 +28225,7 @@ signed char@ffff
 signedPayload
 signon_state
 silent
+simple
 simple_cubic
 simple_physics_brush
 simple_physics_prop
@@ -28002,6 +28266,7 @@ skeletonMeshGroupMaskChanged
 skeletonModelChanged
 skeletonMotionTypeChanged
 skeletonRenderingEnableChanged
+skeleton_instance_smear_boneflags
 skeletoninstancehash
 skid_highfriction
 skid_lowfriction
@@ -28034,7 +28299,6 @@ sm_bDatadescValidating
 sm_bDisableTouchFuncs
 sm_pTimeOfDay
 small car
-smear_boneflags
 smg1_grenade
 smokegrenade_detonate
 smoothstairs
@@ -28174,13 +28438,19 @@ squadname
 src/public/tier0/platform.h
 srcid
 ssThink
+ss_active
 ss_added
+ss_dead
+ss_loading
+ss_paused
+ss_waitingforgamesessionmanifest
 sscanf@@GLIBC_2.2.5
 stabilizerconstant
 stack_hash
 stackname
 start
 start %float %float %float
+start: (%.2f,%.2f,%.2f)
 startLerpTo
 startOnSpawn
 start_active
@@ -28209,14 +28479,45 @@ starttime
 startvalue
 state
 static const unsigned int ISequenceFinishedAnimTag::MyTypeID()
+static const unsigned int ITaskStatusAnimTag::MyTypeID()
 staticsolid
 stats.txt
 status_code
+std::_Bind<std::_Mem_fn<bool (CCoverGoal::*)(Vector const&)> (CCoverGoal*, std::_Placeholder<1>)>
+std::_Bind<std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&)> (CCoverLowGoal*, std::_Placeholder<1>)>
+std::_Bind<std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&)> (CCoverWallGoal*, std::_Placeholder<1>)>
 std::_Bind<std::_Mem_fn<void (CFuncNavBlocker::*)(CNavArea&)> (CFuncNavBlocker*, std::_Placeholder<1>)>
+std::_Function_base
+std::_Maybe_get_result_type<true, std::_Mem_fn<bool (CCoverGoal::*)(Vector const&)> >
+std::_Maybe_get_result_type<true, std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&)> >
+std::_Maybe_get_result_type<true, std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&)> >
 std::_Maybe_get_result_type<true, std::_Mem_fn<void (CFuncNavBlocker::*)(CNavArea&)> >
+std::_Maybe_unary_or_binary_function<NavSearchPosResult_t<Vector const&, CNavArea const&> >
+std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
+std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
+std::_Sp_counted_ptr<std::__detail::_Nfa*, (__gnu_cxx::_Lock_policy)2>
+std::_Vector_base<std::__detail::_State, std::allocator<std::__detail::_State> >
+std::_Weak_result_type<std::_Mem_fn<bool (CCoverGoal::*)(Vector const&)> >
+std::_Weak_result_type<std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&)> >
+std::_Weak_result_type<std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&)> >
 std::_Weak_result_type<std::_Mem_fn<void (CFuncNavBlocker::*)(CNavArea&)> >
+std::_Weak_result_type_impl<std::_Mem_fn<bool (CCoverGoal::*)(Vector const&)> >
+std::_Weak_result_type_impl<std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&)> >
+std::_Weak_result_type_impl<std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&)> >
 std::_Weak_result_type_impl<std::_Mem_fn<void (CFuncNavBlocker::*)(CNavArea&)> >
+std::__detail::_Automaton
+std::__detail::_CharMatcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::regex_traits<char> >
+std::__detail::_EndTagger<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::regex_traits<char> >
+std::__detail::_Nfa
+std::__detail::_RangeMatcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::regex_traits<char> >
+std::__detail::_Scanner<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+std::__detail::_Scanner_base
+std::__detail::_StartTagger<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::regex_traits<char> >
+std::binary_function<Vector const&, CNavArea const&, NavSearchPosResult_t>
+std::function<NavSearchPosResult_t (Vector const&, CNavArea const&)>
+std::function<NavSearchPosResult_t (Vector const&, CNavArea const&)>*
 std::operator alignof: %short, 
+std::vector<std::__detail::_State, std::allocator<std::__detail::_State> >
 stderr
 stderr@@GLIBC_2.2.5
 stdout
@@ -28334,6 +28635,8 @@ sv_disable_lighting
 sv_disable_querycache
 sv_ent_showonlyattachment
 sv_ent_showonlyhitbox
+sv_fake_workshop_download_delay
+sv_fake_workshop_download_time
 sv_footstepinterval
 sv_footsteps
 sv_force_transmit_ents
@@ -28483,7 +28786,6 @@ t$0H)
 t$0Lc
 t$89C
 t$8H)
-t$;5Eb1
 t$<H)
 t$@A;wchar_t@~
 t$@A\]
@@ -28548,6 +28850,7 @@ tALcc
 tALc}
 tA[A\]
 tAffffhF
+tB<#unsigned short>
 tCHc]
 tCLc%
 tEMcY
@@ -28561,7 +28864,6 @@ tG[A\]
 tIH9V
 tJHcC
 tJI9\$HtCH
-tLE;unsigned __int128
 tLHcE
 tM[A\]
 tNHcE
@@ -28573,6 +28875,7 @@ tS[A\]
 tT;G0tg
 tThiHc
 tThif
+tUE;G
 tV;0~'L
 tVLck
 tWA9]
@@ -28603,6 +28906,7 @@ targetMoveTolerance
 targetPosition
 targetRotation
 target_attachment
+target_changegravity
 target_faction
 target_point
 targetattachment
@@ -28637,6 +28941,7 @@ teleport_go
 teleport_latch
 teleport_origin
 teleport_parented_entities
+teleport_ray_loop
 teleport_ray_reject
 teleport_ray_start
 teleportfollowdistance
@@ -28662,6 +28967,7 @@ texturescale
 tf[A\]
 tf_escort_score_rate
 tgHcQ
+tg[A\]
 th_BEGINH
 th___ENDH
 the Earth
@@ -28676,6 +28982,7 @@ thisEntity
 threshold
 throttleSteeringRestRateFactor
 throttleTime
+tiD;u
 tick_interval
 ticleSysH
 tiltforce
@@ -28704,12 +29011,12 @@ timeout_script_func
 timeout_sound
 timesincecombat
 timesinceseenplayer
-timestampUpdated
 timestamp_updated
 timezone
 tint_color
 tk#C,
 tnr\@
+toD;u
 toggles whether the server allows spectator mode or not
 tolerance ang (dot): %.2f (%float)
 tolower
@@ -28737,6 +29044,8 @@ touchlink_t CUtlMemoryPool
 touchoutputperentitydelay
 toupper
 toupper@@GLIBC_2.2.5
+tqHcU
+tr#CL
 trHcO
 traceline_spin
 tracer_particle
@@ -28787,6 +29096,7 @@ tsH;E
 ttIcG
 turnThrottleReduceFast
 turnThrottleReduceSlow
+tv#CL
 tv28&G@sK
 tv_allow_camera_man
 tv_allow_static_shots
@@ -28797,6 +29107,7 @@ twHcu
 twHc}
 twL9+u
 txA;\$ I
+ty#CL
 tyHcO
 type != DATA_UPDATE_CREATED
 type() == TYPE_FIXED32
@@ -28848,10 +29159,10 @@ uUMc}
 uYLl>
 uZJcT
 u[[A\]
-u]D;%NkG
+u]D;%N
 u^[&`
 ubIcE
-uhL;-I@C
+uhL;-
 uint16
 uint32
 uint64
@@ -28887,7 +29198,6 @@ unsigned __int128 ATSH
 unsigned __int128(ATE1
 unsigned __int128(ATSH
 unsigned __int128*Ral
-unsigned __int128,ATI
 unsigned __int128?ffff
 unsigned __int128@ATL
 unsigned __int128@u-J
@@ -28946,7 +29256,7 @@ unsigned short&D;=
 unsigned short&HcC
 unsigned short&Hcq
 unsigned short'<"unsigned short
-unsigned short'D;5
+unsigned short'D;5~[
 unsigned short'HcC
 unsigned short'HcK
 unsigned short'HcM
@@ -28968,6 +29278,7 @@ unsigned short'[A\]
 unsigned short(HcO
 unsigned short([A\A]A^]
 unsigned short([A\]
+unsigned short);=rq
 unsigned short)Lc+D;k
 unsigned short)fD9
 unsigned short* Hc
@@ -28983,6 +29294,7 @@ unsigned short*fA9
 unsigned short*imaginary 	E
 unsigned short*xHc
 unsigned short+<\u
+unsigned short+H;p
 unsigned short+Hc4
 unsigned short+HcsX
 unsigned short+Hc{lH
@@ -28993,14 +29305,13 @@ unsigned short+Mc&E;float
 unsigned short+[A\]
 unsigned short+fA9
 unsigned short,I9}
+unsigned short,I;q
 unsigned short,Lc%
 unsigned short,Mc}
-unsigned short-H;p
 unsigned short-Mc,$E;l$
 unsigned short-rex
 unsigned short/9w t29w0t=1
 unsigned short/H;p
-unsigned short/I;q
 unsigned short: Hc
 unsigned short:Lc+Ic
 unsigned short:[A\]
@@ -29019,7 +29330,7 @@ unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@D;(};E
 unsigned short@Ic_
-unsigned short@Lc%	
+unsigned short@Lc%Ya
 unsigned short@[A\A]A^]
 unsigned short@[A\]
 unsigned short@}?5^
@@ -29033,7 +29344,8 @@ unsigned short{E;l$
 unsigned short{HcM
 unsigned short{HcO
 unsigned short{Icv
-unsigned short|#C,
+unsigned short|#CL
+unsigned short}#CL
 unsigned short}HcM
 unsigned short}HcO
 unsigned short~HcJ
@@ -29090,7 +29402,6 @@ utlstring
 utlstring.cpp
 utlstringtoken
 uxD:&u
-uy[A^]
 uz9GxV
 u|D:u
 u|JcL
@@ -29114,6 +29425,7 @@ val_byte
 val_long
 val_string
 val_uint64
+validation for %short [%short] TBD
 validslots
 value
 value { %short }
@@ -29123,9 +29435,8 @@ var_name
 var_name_sym
 var_type_sym
 variant
-vb phys
 vcd error, gesture %short of model %short is marked as STUDIO_LOOPING!
-veDof
+veDofD
 veIfUncaH
 vec3_invalid
 vec3_origin
@@ -29187,6 +29498,7 @@ version
 vertical spacing - from center to center
 vertical_align
 vesper_peak_01
+vgui_screen
 vgui_screen.ventr
 vgui_screen_server
 vgui_screen_team
@@ -29239,7 +29551,7 @@ void*</uO
 void/Icw
 void;<\t7I
 void>zlK9T
-void@Obsolete / Unused
+void@CAI_Hint
 void@ffff
 void\C_0
 void{~@+
@@ -29388,6 +29700,7 @@ vrfly_nohands
 vrscriptsystem
 vscripts
 vsnprintf@@GLIBC_2.2.5
+vstdlib
 vsurf
 vtexATI
 vtexL
@@ -29475,6 +29788,7 @@ wheels
 wheelsperaxle
 width
 windradius
+wiring
 wnThink
 wn}!f9
 world_interactions
@@ -29502,7 +29816,6 @@ x7Hcw
 x8Lcc D;c0
 x8Mcl$ E;l$0
 x8uwH
-xA\A]A^A_]
 xED;char }?E
 xG;wh|
 xGHcO
@@ -29587,12 +29900,12 @@ zm6Vb
 zmukIc
 znulA
 znulI
-zpunI
 zrupH
 zsuq1
 zt?Updating goal pos
 zuusH
 zuusI
+zvutI
 zxuvH
 zxuvI
 zxuvM
@@ -29600,6 +29913,8 @@ zzuxH
 zzuxI
 { uaH
 {(D9{8D
+{(Mc'E;__float128
+{(Mc/E;unsigned __int128
 {([A\]
 {)<8"@
 {0@cz
@@ -29622,6 +29937,7 @@ zzuxI
 |$8E1
 |$@A\A]A^]
 |$HfA
+|$Nt-I
 |$PA\A]A^]
 |$PVCCD
 |$PfA;
@@ -29703,7 +30019,7 @@ zzuxI
 }KfD9
 }Lf;wchar_t
 }Sf;HnwMf
-}TD;%YkG
+}TD;%Y
 }Tf;wchar_t
 }TfD9
 }UHc
@@ -29720,27 +30036,29 @@ zzuxI
 }hf;wchar_t
 }l7f~
 }qfD;c6wjfA
+}unsigned long long;w$
 }wchar_t+unsigned short const
 }xfE9ffrqL
+~	;longcomplex 
 ~	ATI
 ~%D9#t2
+~%L;float
 ~&D;char(u
-~&L;float
 ~&L;q
 ~'fE;__float128
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=
+~)H9=short	S
+~)H;_
 ~*HcE
 ~*I;X
-~*L;bool
 ~*L;signed char
 ~+A9\$
 ~,L;q
 ~,Lc#M
+~-L;bool
 ~-L;signed char
-~.H;_
 ~099t
 ~0AffffN
 ~31]H

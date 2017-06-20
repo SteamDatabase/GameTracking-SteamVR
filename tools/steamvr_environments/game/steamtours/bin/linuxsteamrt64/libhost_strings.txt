@@ -9,6 +9,7 @@
 	TYPE_ENUM
 	enum_type
 	extension
+	host_loss
 	name_part
 	tickcount
 	type_name
@@ -139,7 +140,6 @@
 "$0" does not declare $1 as an extension number.
 "%short" 
 "%short" = "%short"
-"%short",
 "%short":
 "%short":"%short"
 "%short":%.3f
@@ -314,6 +314,8 @@ $woL)
 %s_tempcontent
 %short DynamicAtr:%short = '%short'
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
+%short allocation count overflow( %llu >= %llu )
 %short executing script: %short
 %short%short%short
 %short+--
@@ -593,7 +595,7 @@ $woL)
 :[tLL
 ;*3$"
 ;*unsigned short*1
-;Hc5t
+;Hc5)
 ;K(}&H
 ;S(}+H
 ;[A\]
@@ -641,7 +643,7 @@ $woL)
 <unsigned short&<<unsigned short*`<S
 <}tI<{uO
 === %sEntity List Summary (%short) ===
-=== Total: %short entities%short ===
+=== Total: %short/%short %short entities%short ===
 =CSP1A
 =CSP1u
 =baselayer
@@ -670,18 +672,19 @@ A file with this name is already in the pool.
 A game file appears to be missing or corrupted.  In the Steam client go to the game'short properties.  In the 'Local Files' tab select 'Verify Integrity of Game Cache' to have Steam double-check the game'short installation.
 A protocol message was rejected because it was too big (more than 
 A!\$8[A\]
-A(fA9
 A+D$$H
 A+E$H
 A+E$f
 A+F$H
+A+F$Lc
 A+G$H
 A+G$Lc
-A+L$$Hc
 A+T$$Hc
 A+U$A
 A+U$Hc
 A+U$f
+A+V$A
+A+W$A
 A+W$Hc
 A+W$f
 A+\$$Hc
@@ -840,6 +843,7 @@ AllocateEntityIdentity
 AllocateResource
 Already saw decimal point or exponent; can'unsigned short have another one.
 AnimFile
+AnimProxy
 Animation
 AnimationList
 AnimationSystemUtils_001
@@ -1339,6 +1343,8 @@ CPointConstraint
 CPostConnectCallback
 CPredictionDiffMgr
 CP~F[A\]
+CRefCountServiceBase<true, CRefMT>
+CRefCounted<CRefCountServiceBase<true, CRefMT> >
 CReferenceCleanupTraversal
 CRenderBufferBinding
 CRenderMesh
@@ -1781,6 +1787,7 @@ ConCommandBase
 ConVar
 ConVar(%short) defined with infinite float value (%short)
 ConVarRef %short doesn'unsigned short point to an existing ConVar
+ConcreteEntityList:  approaching limit, allocating entity chuck %double/%double for ents [%double -> %double]
 Conditional Error: %short
 ConfigurationSystem_001
 ConnectGameInterfaces
@@ -1850,7 +1857,7 @@ D9 unsigned short)H
 D9'unsigned short,H
 D9(t1H
 D90tAH
-D9=)i7
+D9=9_7
 D9cP~DH
 D9{ u
 D:!ts
@@ -1859,6 +1866,7 @@ D;'unsigned short{Hc
 D;*unsigned short>H
 D;.~3L
 D;.~9H
+D;__float128 D
 D;__float128`D
 D;cP|
 D;char D
@@ -1909,6 +1917,7 @@ Double-register of KV3 conversion (from '%short' to '%short')
 Double-save to Member '%short'
 E A+E
 E$Ic\$ 
+E(A9E
 E(fA9
 E+D$$Mc
 E+E$Mc
@@ -1921,6 +1930,7 @@ E+f$Mc
 E+g$Mc
 E+o$Mc
 E+u$Mc
+E+w$Mc
 E+}$Mc
 E9't2I
 E9'tRI
@@ -2099,7 +2109,6 @@ F A;F0
 F D;char
 F D;k
 F Lc#D;char
-F(A9F
 F0[A\]
 FATAL
 FCVAR_NEVER_AS_STRING
@@ -2288,22 +2297,16 @@ H	wchar_t(UH
 H!wchar_t(H
 H+S H
 H9*tgH
-H;=#_W
-H;=&8V
-H;=3rV
-H;=5TV
-H;=AIV
-H;=L\V
-H;=W"V
-H;=W+V
-H;=X2V
-H;=^/V
-H;=__float128,V
-H;=daV
-H;=p@V
-H;=unsigned char^V
-H;=}CV
-H;=}hV
+H;=)(U
+H;=*iV
+H;=IPU
+H;=JsV
+H;=K(U
+H;=U,V
+H;=char V
+H;=kPU
+H;={kW
+H;=~EV
 H;S@wchar_t
 HBWARNING: Trying to create signed char CRenderContextPtr without signed char valid context.
 HIGHDPI
@@ -2313,10 +2316,9 @@ H[]A\A]A^A_
 HammerMapLoader001
 HangWatchdog_IndicateActivity
 HasField
-Hc54VC
 Hc@$H
 Hc@0M
-HcA`;Ap
+HcAp;
 HcC L
 HcC$H
 HcC(1
@@ -2507,6 +2509,9 @@ Invalid member name '%short'
 Invalid message set extension.
 Invalid proto descriptor for file "
 Invalid public dependency index.
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 Invalid search path specified for 'game_language'. Search path '%short' does not contain '%short'
 Invalid strings::Substitute() format string: "
 Invalid symbol name: 
@@ -2550,7 +2555,6 @@ Lc!D;signed char
 Lc#D;char
 Lc#E9
 Lc&D;float
-Lc'D;__float128
 Lc'E)
 Lc+D;k
 Lc/E)
@@ -2828,7 +2832,7 @@ Option must have signed char name.
 Option must not use reserved name "uninterpreted_option".
 Output unserialization of entities on map load. 0 - off, 1 - client/server, 2 - server, 3 - client
 P0Mc>E;~
-P8A9^`
+P8A9^p
 P@H;]
 PAUATSH
 PEvent
@@ -2839,7 +2843,6 @@ POSITION
 POSIX
 P[A\A]A^]
 P[A\]
-P`HcE
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -2879,6 +2882,7 @@ PhysFeModelDesc_t
 PhysSoftbodyDesc_t
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsShapeCapsule
 PhysicsShapeHull
@@ -2903,6 +2907,7 @@ Plat_GetModuleFilename
 Plat_GetModuleInterfaceFactory
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_GetTime
 Plat_IgnoreContentAsserts
 Plat_InitializeCOM
@@ -2944,6 +2949,7 @@ PopOnePlusN
 PopOnePlusOne
 PosXYZ
 PostProcessingSystem_001
+PpHcE
 Precaches signed char specific resource
 PredictionDiffManager001
 PropertyEditorSystem_001
@@ -3101,6 +3107,8 @@ Scripting disabled or no server running
 SearchPaths
 Second argument to Swap() (of type "
 Second argument to SwapFields() (of type "
+SequenceMarkup
+SequenceMarkupList
 Serialize
 SerializeKeys
 ServerUploadGameStats001
@@ -4543,6 +4551,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modellib
 msg_data
 msg_type
@@ -4570,6 +4580,7 @@ networkbasetypes.proto
 networksystem
 nexttoken
 no_standard_descriptor_accessor
+non-networkable
 normal
 notconnected
 notify
@@ -4864,7 +4875,6 @@ unsigned
 unsigned __int128 ATI
 unsigned __int128 ATL
 unsigned __int128(ATSH
-unsigned __int128,ATI
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned int@[A\A]]
@@ -4879,7 +4889,7 @@ unsigned short#Hc{
 unsigned short%HcK
 unsigned short&Hcq
 unsigned short&Icw
-unsigned short'D;5~s6
+unsigned short'D;5
 unsigned short'Hc{(H
 unsigned short'Hc{,H
 unsigned short'Hc{0H
@@ -4975,7 +4985,6 @@ wrong submessage type
 wxLcE
 x0;wX}+Hc
 x3IcM
-xA\A]A^A_]
 xGHcO
 xJA;E
 xOHcO

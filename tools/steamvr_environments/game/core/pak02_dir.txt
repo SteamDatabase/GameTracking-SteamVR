@@ -45,7 +45,7 @@ materials/dev/gaussian_bloom_blur.vmat_c CRC:00098f9ecb size:2296
 materials/dev/generalfilter.vmat_c CRC:001e896489 size:2464
 materials/dev/generalfilter_additive.vmat_c CRC:00f4d52c39 size:2520
 materials/dev/glowproperty.vmat_c CRC:00aa50bb1d size:3464
-materials/dev/gray_50.vmat_c CRC:00c892ea6b size:5624
+materials/dev/gray_50.vmat_c CRC:0068175009 size:5704
 materials/dev/gray_50_color_tga_4b0d64ba.vtex_c CRC:001dcef55f size:176492
 materials/dev/hdrpostprocessing.vmat_c CRC:0038e21bb9 size:2488
 materials/dev/morphcomposite.vmat_c CRC:005b2976ae size:3200

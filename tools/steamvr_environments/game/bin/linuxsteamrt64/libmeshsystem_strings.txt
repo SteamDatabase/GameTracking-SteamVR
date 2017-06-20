@@ -124,7 +124,6 @@ $[A\]
 ../public/tier1/utlrbtree.h
 ../public/tier2/fileutils.h
 .K,...[
-.M; `
 .M;UU
 .W4{Jf.
 .comment
@@ -169,6 +168,7 @@ $[A\]
 3E8 u
 3[A\A]A^]
 42HcU
+4:A9L$
 4fff>fff>fff>fff>
 4vf;T
 6H92t%H
@@ -185,6 +185,7 @@ $[A\]
 9w UH
 9~0UH
 9~4t*9~8t-9~<
+:A9L$
 :[tLL
 ;*3$"
 ;*unsigned short*1
@@ -254,17 +255,12 @@ A0fD+"E
 A9D$`~2H
 A9G }
 A9T$$
-A9T$H
-A9T$`
 A9\long long
 A9_@~8L
 A;D$(
 A;D$l
 A;G A
 A;GP~
-A;T$H
-A;T$`
-A;T$x
 A;W`~IA
 A;\$ A
 A;\$\
@@ -321,12 +317,14 @@ AWAVAUA
 AWAVAUATA
 AWAVAUATE
 AWAVAUATI
+AWAVAUATL
 AWAVAUATLc
 AWAVAUATM
 AWAVAUATS
 AWAVAUATSH
 AWAVAUATSHc
 AWAVAUATUSH
+AWAVAUE1
 AWAVAUH
 AWAVAUI
 AWAVAUL
@@ -356,6 +354,7 @@ AllocateResource: Cannot find DATA block in resource %short!
 AllocateResource: Cannot find VBIB block in resource %short!
 AllocateResource: Cannot find VBIB data in resource %short!
 AnimFile
+AnimProxy
 AnimatableSceneObjectDesc
 Animation
 AnimationList
@@ -926,7 +925,6 @@ D$PA\]
 D$TE1
 D$XA9
 D$XE1
-D$\E1
 D$hD)unsigned long
 D$hE1
 D$pH9
@@ -943,6 +941,7 @@ D9{ u
 D;!unsigned short{Hc
 D;'unsigned short{Hc
 D;.~9H
+D;__float128 D
 D;__float128`D
 D;`0|
 D;char D
@@ -1006,7 +1005,6 @@ ERROR: Resource name "%short" has the incorrect extension "%short" for the speci
 ERROR: Specified full path %short does not lie under the mod search path!)
 ERROR: Specified path %short could not be made content-relative
 EXA;]`
-EXHcAL
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -1155,6 +1153,7 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3.4
 GLIBC_2.4
+GXHcAL
 GameDataList
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -1186,7 +1185,7 @@ H[A\A]]
 H[]A\A]A^A_
 HammerMapLoader001
 Hc@$H
-HcA`;Ap
+HcAp;
 HcC$H
 HcC(1
 HcC01
@@ -1303,7 +1302,6 @@ IcF\1
 IcMPA;M`
 IcT$$
 IcT$X
-IcT$\1
 IcU E
 IcUPA;U`
 IcW L
@@ -1339,6 +1337,9 @@ Invalid data.
 Invalid header
 Invalid input layout field format %double for joint indices
 Invalid member name '%short'
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 JLLc$WH
 Jc<(H
 Jc<0I
@@ -1370,18 +1371,18 @@ Lc!D;signed char
 Lc#D;char
 Lc#E9
 Lc&D;float
-Lc'D;__float128
 Lc'E)
 Lc+D;k
 Lc/E)
 Lc/E1
 Lc6E9
+Lc7D)
 Lc7E)
 Lc9D;unsigned long long
 Lcc`D;cpt>D
 Lcf I9
 Lcg D;g0D
-LcgxD;
+LcwxD;
 Lc{0D;{@D
 Lc{pD;
 Lc{xD;
@@ -1525,11 +1526,10 @@ O 9N unsigned short
 OnDiskBufferData_t
 Only the last override will be set!
 P0Mc>E;~
-P8A9^`
+P8A9^p
 POSITION
 POSIX
 P[A\A]A^]
-P`HcE
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -1560,6 +1560,7 @@ PhysSoftbodyDesc_t
 Physics interface checksum is 0x%08X, expected 0x%08X. One of the binaries is out of date, please rebuild %s.
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsShapeCapsule
 PhysicsShapeHull
@@ -1573,6 +1574,7 @@ Plat_GetEnv
 Plat_GetModuleFilename
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
 Plat_RelativeTicks
@@ -1584,6 +1586,7 @@ Plat_VirtualFree
 Plat_getwd
 PosXYZ
 PostProcessingSystem_001
+PpHcE
 Print model load-time conversion info
 ProjectedDecal
 PropertyEditorSystem_001
@@ -1725,6 +1728,8 @@ SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
+SequenceMarkup
+SequenceMarkupList
 ServerUploadGameStats001
 Sht7Lc{pD;
 SkeletonBoneBbox_t
@@ -1759,9 +1764,9 @@ T$(D;u
 T$(Hc
 T$0H9
 T$8H)
-T$HH+D$@H
 T$HfA
-T$hH+D$`H
+T$XH+D$PH
+T$xH+D$pH
 TestFormatA
 TestFormatB
 TestFormatC
@@ -2120,6 +2125,7 @@ dH3<%(
 default
 delete
 developer
+dire_tree_stump002_tintable.vmesh
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 dme_position_map
@@ -2577,6 +2583,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modellib
 models/dev/error.vmdl
 models/dev/error.vmesh
@@ -2612,6 +2620,7 @@ pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 r)H9]
+rA9D$
 remapping vertex %double[wchar_t%double] invalid: %double->%double >= %double
 remapping vertex %double[wchar_t%double] invalid: %double->? >= %double
 rendermeshmgr.cpp
@@ -2700,6 +2709,7 @@ texcoord
 texcoordH
 tf[A\]
 tgHcQ
+tg[A\]
 th_BEGINH
 th___ENDH
 tolower
@@ -2779,7 +2789,6 @@ wcslen@@GLIBC_2.2.5
 wxLcE
 x.Lcm
 x0;wX}+Hc
-xA\A]A^A_]
 xGHcO
 xJA;E
 xOHcO

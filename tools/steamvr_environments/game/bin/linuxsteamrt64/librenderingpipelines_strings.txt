@@ -317,6 +317,7 @@ Allocate
 AllocateAndCopy
 AllocateResource
 AnimFile
+AnimProxy
 Animation
 AnimationList
 AnimationSystemUtils_001
@@ -324,6 +325,7 @@ AnimationSystem_001
 ApplyFog
 ApplyIndirectLighting
 ApplyLowResSSAO
+AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
@@ -537,6 +539,8 @@ CPointConstraint
 CPostConnectCallback
 CPostProcessRenderer
 CPostProcessRenderer needs to use signed char layer which has had signed char render attribute called "ColorBuffer" set!
+CRefCountServiceBase<true, CRefMT>
+CRefCounted<CRefCountServiceBase<true, CRefMT> >
 CReferenceCleanupTraversal
 CRenderBufferBinding
 CRenderMesh
@@ -909,6 +913,7 @@ D9{ u
 D;!unsigned short{Hc
 D;'unsigned short{Hc
 D;.~9H
+D;__float128 D
 D;__float128`D
 D;char D
 D;ch}
@@ -989,6 +994,7 @@ EarlyInit_Tier0
 EconItemToolModel_001
 EmissiveGBuffer
 Engine2/RenderingPipeline/AmbientInToolsVis
+Engine2/RenderingPipeline/ToolsVisModes
 EngineServiceMgr001
 EnvironmentMapBuilder_001
 Error loading resource "%short" (Invalid resource version: %double != %double)
@@ -1125,7 +1131,7 @@ H[A\A]]
 H[]A\A]A^A_
 HammerMapLoader001
 Hc@$H
-HcA`;Ap
+HcAp;
 HcC$H
 HcC(1
 HcC01
@@ -1257,6 +1263,9 @@ Invalid data.
 Invalid header
 Invalid input layout field format %double for joint indices
 Invalid member name '%short'
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 IrradianceProbe
 IrradianceProbeParam
 Jc<(H
@@ -1300,7 +1309,6 @@ Lc!D;signed char
 Lc#D;char
 Lc#E9
 Lc&D;float
-Lc'D;__float128
 Lc'E)
 Lc+D;k
 Lc/E)
@@ -1467,12 +1475,11 @@ OpaqueForward
 OuterSky
 OuterSkyProxy
 P0Mc>E;~
-P8A9^`
+P8A9^p
 POSITION
 POSIX
 P[A\A]A^]
-P`D;} 
-P`HcE
+P`D;u 
 PaintPost0
 PaintPost1
 PaintPost2
@@ -1509,6 +1516,7 @@ PhysFeModelDesc_t
 PhysSoftbodyDesc_t
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsShapeCapsule
 PhysicsShapeHull
@@ -1521,6 +1529,7 @@ Plat_GetEnv
 Plat_GetModuleFilename
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
 Plat_RelativeTicks
@@ -1539,6 +1548,7 @@ PostProcessManifest
 PostProcessPipeline
 PostProcessing
 PostProcessingSystem_001
+PpHcE
 PrevFrameHDRBuffer
 PropertyEditorSystem_001
 Q.fD9
@@ -1652,6 +1662,8 @@ ScreenSpaceReflBuffer
 ScreenSpaceReflections
 ScreenSpaceReflectionsManifest
 ScreenSpaceReflectionsRenderer
+SequenceMarkup
+SequenceMarkupList
 ServerUploadGameStats001
 ShadowVisLayer
 Sht7Lc{pD;
@@ -2066,7 +2078,6 @@ configvalue.cpp
 curvature
 dH34%(
 dH3<%(
-db#{void
 default
 degrees to add to fov to compensate for just-in-time HMD
 delete
@@ -2132,7 +2143,6 @@ lightmap
 lightmapuv
 localToGlobal
 long long[A\A]A^A_]
-long long[A\A]]
 looping
 lowprecisionuv
 lowprecisionuv1
@@ -2515,6 +2525,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modellib
 multiplayerBreak_t
 normal
@@ -2524,6 +2536,7 @@ optionallycompressedtangentframe
 outputColor
 outputDepth
 overlay
+p[A\A]A^]
 p[A\]
 pervertexlighting
 phys_res
@@ -2768,7 +2781,6 @@ wcslen
 wcslen@@GLIBC_2.2.5
 wxLcE
 x0;wX}+Hc
-xA\A]A^A_]
 xGHcO
 xJA;E
 xOHcO

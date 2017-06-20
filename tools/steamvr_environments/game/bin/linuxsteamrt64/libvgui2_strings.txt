@@ -12,7 +12,6 @@
  min. %float
 "%short" 
 "%short" = "%short"
-"pA3Q
 "unsigned short&L;}
 #[A\A]A^]
 #[A\]
@@ -41,6 +40,7 @@ $[A\]
 %short Queue dispatching command( %short, %short -- %int )
 %short Queue dispatching( %short -- %int )
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
 %short: string format requested %double chars
 '"KEY_APOSTROPHE
 () ,+-
@@ -158,6 +158,7 @@ $[A\]
 <unsigned short&<<unsigned short*`<S
 <}tI<{uO
 =+KEY_EQUAL, L
+=/-KE'4]
 =CSP1A
 =CSP1u
 ?ImageBorder
@@ -1246,10 +1247,6 @@ memset
 memset@@GLIBC_2.2.5
 min height
 min width
-modeldoc0
-modeldoc1
-modeldoc2
-modeldoc3
 mouse input
 mousepressed
 nNKEY_N

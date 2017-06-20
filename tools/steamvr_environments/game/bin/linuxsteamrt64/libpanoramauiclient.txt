@@ -5,10 +5,9 @@
  B pcre_callout
  B pcre_stack_guard
  B pcrecpp::RE::no_arg
- CFiber::AllocPooledFiber(CFiber::SizeBuckets_t, unsigned long)
- CFiber::DetachFromStackContext()
- CFiber::ReleasePooledFiber()
+ CFiber::CFiber()
  CFiber::SetThreadFiberMemoryRange(unsigned long)
+ CFiber::~CFiber()
  CMemAllocSystemInitialize
  CThreadEvent::CThreadEvent(bool)
  CThreadEvent::Reset()

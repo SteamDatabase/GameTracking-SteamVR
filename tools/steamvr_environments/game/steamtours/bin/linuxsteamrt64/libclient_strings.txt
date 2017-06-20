@@ -116,6 +116,7 @@
 	has_panel
 	hero_name
 	hold_time
+	host_loss
 	host_name
 	image_url
 	init_time
@@ -343,7 +344,6 @@
  [%double] (%double) %short (%short) %short%short
  [A\A]A^A_]
  [A\A]A^]
- [A\A^A_]
  [A\A^]
  [A\]
  [A^]
@@ -515,7 +515,6 @@
 "%short" %float
 "%short" %float %int
 "%short" = "%short"
-"%short",
 "%short":
 "%short":"%short"
 "%short":%.3f
@@ -1080,8 +1079,6 @@ $~gHc
 %short %short %short %short
 %short %short : %short
 %short '%short' has signed char base specified as '%short', but there is no matching entry in propdata.txt.
-%short (%double) : Assert( !engine->IsLocalPlayerResolvable() ) failed
-%short (%double) : Assert( engine->IsLocalPlayerResolvable() ) failed
 %short (%short) has no particle system name specified!
 %short --------------------------------------------------
 %short : %8.2f:  clearing events
@@ -1096,6 +1093,8 @@ $~gHc
 %short Touching %short %short %short; 
 %short [%double]
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
+%short allocation count overflow( %llu >= %llu )
 %short at %.0f %.0f %0.f uses model %short, which has an invalid prop_data type. DELETED.
 %short at %.0f %.0f %0.f uses model %short, which has no propdata which means it must be used on signed char prop_static. DELETED.
 %short at %.6f (interp %.6f) target %.6f
@@ -1351,12 +1350,14 @@ $~gHc
 (*%short*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
+(-?G(
 (0x%08X)'??'
 (1 + __int128) * 3 <= vecsize
 (1@zD
 (8HXhx
 (9s ~@H
-(=__int128 volatile'
+(=C/'
+(=S#'
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1378,7 +1379,7 @@ $~gHc
 (E9g 
 (E9g ~jH
 (E9l$ 
-(E9oH~eH
+(E9nH~aH
 (Existing entry.)
 (Gprop_dynamic
 (H97txH
@@ -1826,10 +1827,12 @@ $~gHc
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 .%0*llu
-.%2z{
 .(Optional) Set of tags for the published file.
+.-!0B
+.-cBB
 ...	?0e`9
 ... axis
+..."u A
 ..."u H
 ..."u I
 ...#8@short
@@ -1838,7 +1841,6 @@ $~gHc
 ...#u!I
 ...%u#A
 ...&u$H
-...&u$]
 ...'u%1
 ...'u%H
 ...("tF
@@ -1848,7 +1850,6 @@ $~gHc
 ...("unsigned short,float
 ...("unsigned short`
 ...(u&<
-...(u&C
 ...(u&I
 ...(u&float
 ...)u'1
@@ -1864,11 +1865,11 @@ $~gHc
 ...>Unserialization Error: %short
 ...>u<H
 ...?u=H
+...?u=I
 ...@u>H
 ...[uYH
 ...^u\9P
 ...^u\M
-...`u^H
 ...imaginary (<.
 ...|uzL
 ../../_generated_code/client_steamtours/release/linuxsteamrt64/../../../../game/client/c_basecombatcharacter.cpp
@@ -1954,7 +1955,8 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.54nt
+.54M.
+.=0	float
 .>()09
 .>N^__int128~
 .@(."
@@ -2049,7 +2051,7 @@ $~gHc
 .CUserMessageShake
 .CUserMessageVGUIMenu.Keys
 .C\zFf
-.CdzxuvH
+.CtzxuvH
 .D$(...
 .D$(void
 .D$,...
@@ -2064,14 +2066,10 @@ $~gHc
 .D=3w
 .EClientUIEvent
 .EHapticPulseType"I
-.ELzOuMH
 .ENetworkDisconnectionReason"
 .EProtoExecutionSite:
-.EPzVuTH
 .ESourceEngine:
 .ESplitScreenMessageType
-.ETz]u[H
-.EXzdubA
 .Exclude any files that have any of these tags.
 .F z4u2
 .F0z'u%
@@ -2081,10 +2079,8 @@ $~gHc
 .G0UH
 .GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION
 .GCConnectionStatus
-.GXzkui
-.G\zs
-.G`zxuv
 .GprqL
+.Gtz#
 .HTr@H
 .K${;
 .K,...[
@@ -2125,7 +2121,6 @@ $~gHc
 ._,wchar_t!A
 ._?hN
 .__float128[rA
-.`Hz,u*
 .`Tz-u+H
 .comment
 .data
@@ -2140,7 +2135,6 @@ $~gHc
 .fini
 .fini_array
 .foo = value".
-.gHz u
 .gLz2f
 .gnu.hash
 .gnu.version
@@ -2148,8 +2142,8 @@ $~gHc
 .gnu_debuglink
 .init
 .init_array
+.kHz"float
 .note.gnu.build-id
-.pLz$
 .pTr>A
 .placeholder.proto
 .rOWw
@@ -2176,6 +2170,7 @@ $~gHc
 // aligns the bottom right corner of the image with the bottom right corner of the panel (same as "100% 100%")
 // centers the image within the background (same as "center center")
 // the top left corner of the image is placed 10px to the right of, 40px below the top left corner of the panel
+//fileserver/user/joed/steamvr_import/steamvr_controller_%llu.vpk
 /><B&?
 /?O_o
 /I9D$
@@ -2232,6 +2227,7 @@ $~gHc
 0E;D$(
 0E;L$ 
 0E;T$ 
+0JcD' 
 0Lc`0
 0N2(	
 0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
@@ -2239,6 +2235,7 @@ $~gHc
 0R@ffffF(
 0[A\A]A^A_]
 0[A\A]A^]
+0[A\A^A_]
 0[A\]
 0[A^]
 0[]A\A]A^
@@ -2341,6 +2338,7 @@ $~gHc
 250.0
 255 255 255 255
 26.CUserMsg_ParticleManager.ChangeControlPointAttachment
+291t[
 2: Same as 1, with but long long and unsigned long long sensitivity are scaled by m_pitch and m_yaw respectively.
 2;.CMsgNotificationOfSuspiciousActivity.MultipleGameInstances
 2=.CWorkshop_SetItemPaymentRules_Request.PartnerItemPaymentRule
@@ -2571,7 +2569,6 @@ $~gHc
 95*P>
 98N*>
 99w(|&H
-9=...~A
 9>J"@TJ
 9@(D@
 9A3333#
@@ -2679,9 +2676,9 @@ $~gHc
 ;C(}+H
 ;C@tXH
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
+;Hc50
 ;K(}&H
 ;O<gK
-;P0}$H
 ;PX|'H
 ;S(}+H
 ;Sp~'
@@ -2821,7 +2818,7 @@ $~gHc
 =../public/tier2/fileutils.h
 === %sEntity List Summary (%short) ===
 === %short ===
-=== Total: %short entities%short ===
+=== Total: %short/%short %short entities%short ===
 =?_w_:R
 =CSP1A
 =CSP1u
@@ -3008,6 +3005,7 @@ $~gHc
 ?C_FuncAreaPortalWindow
 ?C_GameEntity
 ?C_TestTraceline
+?D;%4
 ?D]`,
 ?DebugAutoComplete
 ?F:"'FL
@@ -3142,7 +3140,6 @@ $~gHc
 ?~U.T
 ?~]<rZ&
 @	N} unsigned long long
-@  u!1
 @  u#H
 @ <bool>@import</bool> 
 @ A9G 
@@ -3261,6 +3258,7 @@ $~gHc
 @:#J{
 @:-OR&V
 @:2t'
+@:9tx
 @:qPt
 @:w$UH
 @<8A<unsigned short
@@ -3412,6 +3410,7 @@ $~gHc
 @ffff~2
 @ffff~A
 @g3^%
+@hA\]
 @hi]YX&
 @i4^_
 @k:LEt
@@ -3483,6 +3482,7 @@ A+D$$Lc
 A+E$H
 A+E$f
 A+F$H
+A+F$Lc
 A+G$H
 A+G$Lc
 A+H A+
@@ -3570,7 +3570,6 @@ A9\$0A
 A9\$4|
 A9\$H
 A9\$H~,I
-A9\$L~
 A9\double|
 A9\long long
 A9]PI
@@ -3588,7 +3587,6 @@ A;D$ |
 A;D$(|
 A;D$@unsigned short
 A;D$H|
-A;D$PA
 A;D$PtME
 A;D$d
 A;D$h
@@ -3619,14 +3617,13 @@ A;T$0}T
 A;T$P
 A;T$Pt
 A;T$\
+A;V0}
 A;V0}L
 A;W`~IA
 A;\$ 
 A;\$ A
 A;\$(
 A;\$0t
-A;\$L|8
-A;\$L}
 A;\$`I
 A;\$|r
 A;\double
@@ -3655,7 +3652,7 @@ A;^0}+I
 A;^8}#I
 A;_X~JA
 A;_`I
-A;longimaginary |
+A;longimaginary |$
 A;t$(
 A;t$0
 A;t$8
@@ -5038,8 +5035,6 @@ AddDouble
 AddEnum
 AddExcludedTagToQuery
 AddFloat
-AddGlobalFlexController
-AddGlobalFlexController(%short) overlowed global flex array of %double elements
 AddGravity
 AddImpulseAtPosition
 AddInt32
@@ -5132,8 +5127,8 @@ An isolated instance of signed char rulescript database.
 An omnidirectional light entity
 AngleDiff
 AnimFile
+AnimProxy
 AnimStateClient.log
-AnimTagListenerHelper<ISequenceFinishedAnimTag>
 AnimThinH
 AnimatableSceneObjectDesc
 Animated characters who have vertex flex capability.
@@ -5629,7 +5624,7 @@ C8}~1
 C9,h5
 C<D;long double
 C<[A\A]A^]
-C@D;%char{
+C@D;%
 C@D;k8D
 C@H;CHs
 C@Ll>
@@ -5656,6 +5651,7 @@ CAimConstraint
 CAimTargetManager
 CAmmoDef
 CAnimGraphNetworkedVariables
+CAnimTagListenerHelper<ISequenceFinishedAnimTag>
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (1)
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (2)
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (3)
@@ -6106,7 +6102,8 @@ CClientMessagePB<514, CClientMsg_SetControllerTipTransform, (NetChannelBufType_t
 CClientMessagePB<515, CClientMsg_SetPlayerPersonalSpace, (NetChannelBufType_t)1>
 CClientMessagePB<516, CClientMsg_ContentBrowserToggled, (NetChannelBufType_t)1>
 CClientMessagePB<517, CClientMsg_SetSteamVRBackground, (NetChannelBufType_t)1>
-CClientMessagePB<518, CClientMsg_ResetAnchor, (NetChannelBufType_t)1>
+CClientMessagePB<518, CClientMsg_SetSteamVRController, (NetChannelBufType_t)1>
+CClientMessagePB<519, CClientMsg_ResetAnchor, (NetChannelBufType_t)1>
 CClientModeGameSystem
 CClientMsg_AttachObjectToAvatar
 CClientMsg_AttachObjectToAvatar_t
@@ -6147,6 +6144,8 @@ CClientMsg_SetSequence
 CClientMsg_SetSequence_t
 CClientMsg_SetSteamVRBackground
 CClientMsg_SetSteamVRBackground_t
+CClientMsg_SetSteamVRController
+CClientMsg_SetSteamVRController_t
 CClientMsg_SpawnPhysicsProp
 CClientMsg_SpawnPhysicsProp_t
 CClientMsg_SpawnPropTool
@@ -6390,11 +6389,13 @@ CEntitySpawner<C_PhysPropClientside>
 CEntitySpawner<C_RopeKeyframe>
 CEntitySpawnerAsync<CPointOffScreenIndicatorUi>
 CEntitySpawnerAsync<C_AvatarPuppetClientSide>
+CEntitySpawnerAsync<C_BaseAnimating>
 CEntitySpawnerAsync<C_BaseEntity>
 CEntitySpawnerAsync<C_DynamicPropClientside>
 CEntitySpawnerAsync<C_PointClientUIWorldPanel>
 CEntitySpawnerAsyncBase<CPointOffScreenIndicatorUi>
 CEntitySpawnerAsyncBase<C_AvatarPuppetClientSide>
+CEntitySpawnerAsyncBase<C_BaseAnimating>
 CEntitySpawnerAsyncBase<C_BaseEntity>
 CEntitySpawnerAsyncBase<C_DynamicPropClientside>
 CEntitySpawnerAsyncBase<C_PointClientUIWorldPanel>
@@ -6402,6 +6403,7 @@ CEntitySpawnerBase<CClient_Precipitation>
 CEntitySpawnerBase<CPointOffScreenIndicatorUi>
 CEntitySpawnerBase<CViewAngleAnimation>
 CEntitySpawnerBase<C_AvatarPuppetClientSide>
+CEntitySpawnerBase<C_BaseAnimating>
 CEntitySpawnerBase<C_BaseEntity>
 CEntitySpawnerBase<C_Beam>
 CEntitySpawnerBase<C_CombatWeaponClone>
@@ -6471,6 +6473,7 @@ CForwardingScrollBar
 CFreeCamera
 CFuncAreaPortalWindow
 CFuncBrush
+CFuncCombineBarrier
 CFuncConveyor
 CFuncDistanceOccluder
 CFuncLadder
@@ -7106,6 +7109,7 @@ CM_SetModel
 CM_SetPlayerPersonalSpace
 CM_SetSequence
 CM_SetSteamVRBackground
+CM_SetSteamVRController
 CM_SpawnPhysicsProp
 CM_SpawnPropTool
 CM_SpawnWearables
@@ -7398,7 +7402,8 @@ CNetMessagePB<514, CClientMsg_SetControllerTipTransform, (SignonGroup_t)14, (Net
 CNetMessagePB<515, CClientMsg_SetPlayerPersonalSpace, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetMessagePB<516, CClientMsg_ContentBrowserToggled, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetMessagePB<517, CClientMsg_SetSteamVRBackground, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
-CNetMessagePB<518, CClientMsg_ResetAnchor, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
+CNetMessagePB<518, CClientMsg_SetSteamVRController, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
+CNetMessagePB<519, CClientMsg_ResetAnchor, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetworkFieldScratchData
 CNetworkFieldScratchData.m_MemoryStacks[ %double ]
 CNetworkFieldScratchData.m_MemoryStacks[ 0 ]
@@ -8432,6 +8437,8 @@ CSchemaNonConstructibleClassBinding<C_FuncAreaPortalWindow::CEntityInstanceEntit
 CSchemaNonConstructibleClassBinding<C_FuncAreaPortalWindow>
 CSchemaNonConstructibleClassBinding<C_FuncBrush::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<C_FuncBrush>
+CSchemaNonConstructibleClassBinding<C_FuncCombineBarrier::CEntityInstanceEntityClass>
+CSchemaNonConstructibleClassBinding<C_FuncCombineBarrier>
 CSchemaNonConstructibleClassBinding<C_FuncConveyor::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<C_FuncConveyor>
 CSchemaNonConstructibleClassBinding<C_FuncDistanceOccluder::CEntityInstanceEntityClass>
@@ -9446,6 +9453,8 @@ C_FuncAreaPortalWindow
 C_FuncAreaPortalWindow::CEntityInstanceEntityClass
 C_FuncBrush
 C_FuncBrush::CEntityInstanceEntityClass
+C_FuncCombineBarrier
+C_FuncCombineBarrier::CEntityInstanceEntityClass
 C_FuncConveyor
 C_FuncConveyor::CEntityInstanceEntityClass
 C_FuncDistanceOccluder
@@ -9950,6 +9959,7 @@ ConVarRef %short doesn'unsigned short point to an existing ConVar
 ConVar_ServerBounded
 ConVar_m_pitch
 Concept
+ConcreteEntityList:  approaching limit, allocating entity chuck %double/%double for ents [%double -> %double]
 Conditional Error: %short
 ConfigName
 ConfigurationSystem_001
@@ -10302,8 +10312,6 @@ D24X8_SHADOW
 D4	_A
 D6	 H
 D7	 H
-D8hL)
-D8tL)
 D9 unsigned short)H
 D9 ~zH
 D9!u"
@@ -10315,7 +10323,6 @@ D9(unsigned short'I
 D9+~[L
 D90t[A
 D9;~dL
-D9=91
 D9D$4B
 D9D$4H
 D9F<~
@@ -10356,16 +10363,15 @@ D:...	tUHc
 D:...	unsigned short
 D; unsigned short=H
 D;!unsigned short{Hc
-D;%s1
+D;%?Q
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;+};H
-D;-?{
+D;-/S
+D;-]`
 D;.~3L
 D;.~9H
-D;5	X)
-D;5Vn
 D;:tPH
 D;D7(H
 D;__float128 D
@@ -10547,6 +10553,7 @@ Datadesc import error: Field "%short" in the datadesc for class "%short" points 
 Date Cell
 Deactivate
 Deallocate
+Debug animation graph
 Debug bits toggled on '%short' (class='%short')
 Debug notifications
 Debug the root of the hud
@@ -10629,7 +10636,6 @@ Degrees per second
 DelayLoadList
 DelayLoadListLoadVisiblePanels
 DelayLoadPanel
-DelayLoadPanelUpdateLoaded
 DelayedStart
 Delete
 Delete this entity
@@ -10893,8 +10899,8 @@ DynamicAtr:%short
 E -rD
 E A+E
 E!?u!
+E#4$H
 E$Ic\$ 
-E%(wchar_t#
 E(9E 
 E(A9E
 E(fA9
@@ -10918,6 +10924,7 @@ E+t$HE
 E+t$d
 E+t$h
 E+u$Mc
+E+w$Mc
 E+|$0E
 E+}$Mc
 E,?long|
@@ -10987,6 +10994,7 @@ E;float(|
 E;float(}
 E;float,~
 E;float@}
+E;g8~IA
 E;gL|
 E;l$ 
 E;l$ D
@@ -11001,11 +11009,9 @@ E;l$0|
 E;l$0}
 E;l$0}AI
 E;l$8}$HcC8
-E;l$8~NA
 E;l$@}
 E;l$@}$HcC@
 E;l$H}
-E;l$L
 E;l$P}
 E;l$P}$HcCP
 E;l$X}
@@ -11021,6 +11027,7 @@ E;t$8
 E;t$8D
 E;t$Pt
 E;t$d
+E;t$x
 E;w8u
 E;wL|
 E;wL|'A
@@ -11309,6 +11316,8 @@ Error: Bad soundscape!
 Error: Duplicate post unserialize handler registered (%short)!
 Error: item %short already exists in contentdb.txt in section %u!
 Error: item %short has inventory service id %llu in contentdb.txt in section %u!
+Error: item %short has signed char child item at index %u, but no 'model' was specified for the child!
+Error: item %short has signed char child item at index %u, but no 'name' was specified for the child!
 Error: item %short has signed char particle effect at index %u, but no 'effect' was specified!
 Error: item at index %u in contentdb.txt section %short has no id!
 Error: item generator %short already exists in contentdb.txt!
@@ -11772,6 +11781,7 @@ FindOrCreateCustomResponseSystem
 FindOrCreateCustomResponseSystem %short - Finish
 FindOrCreateCustomResponseSystem %short - Start
 FindOrCreateQuantizedFloatEncoder
+FingerData: 	%.4f	%.4f	%.4f	%.4f	%.4f
 FinishGravity
 Finished pinging.
 Fire Completion
@@ -12422,110 +12432,94 @@ H;0tHH
 H;0t]Hc
 H;0u%
 H;2u%
+H;5cy#
 H;8tU
 H;8t]
 H;:unsigned short(float
-H;=	*1
-H;=	EN
-H;=	f0
-H;=	}Q
-H;= ;-
-H;= H>
-H;= W4
-H;= {
-H;=$+
-H;=%@N
-H;='A1
-H;='O
-H;=(Q5
-H;=)1
-H;=)WC
-H;=+*1
-H;=+f0
-H;=0N,
-H;=0Z0
-H;=0d
-H;=0n
-H;=0w0
-H;=3q9
-H;=7j
-H;=9 
-H;=9A:
-H;=9[1
-H;=9d
-H;=:/<
-H;=:A4
-H;=;CS
-H;=;~D
-H;=>%
-H;=@X5
-H;=@s5
-H;=ADQ
-H;=CF
-H;=CJS
-H;=CL
-H;=DH
-H;=Dk
-H;=HA1
-H;=HO
-H;=ICC
-H;=IX
-H;=IY#
-H;=J+
-H;=J6
-H;=JW?
-H;=KBS
-H;=NQ5
-H;=Nm#
-H;=Py4
-H;=Qm
-H;=U{N
-H;=Y2
-H;=Y?>
-H;=Y?Q
-H;=YM1
-H;=Yq
-H;=[A:
-H;=[[1
-H;=]	0
-H;=^4
-H;=^k#
-H;=^unsigned long long
-H;=`.5
-H;=`]
-H;=`unsigned int
-H;=`z9
-H;=aEC
-H;=char/:
-H;=char=,
-H;=double*-
-H;=i5-
-H;=iTQ
-H;=ie
-H;=int\
-H;=int}5
-H;=jA1
-H;=jO
-H;=ja?
-H;=jk
-H;=long double#J
-H;=long double(Q
-H;=n51
-H;=nI
-H;=ni#
-H;=qi
-H;=qyK
-H;=short?S
-H;=tQ5
-H;=unsigned long long<C
-H;=wp
-H;=yZ#
-H;={>S
-H;={?>
-H;={DD
-H;={M1
-H;=~ 
-H;=~__float128#
+H;=	&
+H;=	CT
+H;=	eR
+H;=!	
+H;=! &
+H;=!T1
+H;=#...;
+H;=#3
+H;=(...-
+H;=(p
+H;=+QM
+H;=+V
+H;=+gO
+H;=/u?
+H;=0t
+H;=3OM
+H;=3i1
+H;=3}D
+H;=6[
+H;=8%-
+H;=875
+H;=9 T
+H;=:T
+H;=A1
+H;=Bn<
+H;=CT1
+H;=C~D
+H;=FY
+H;=Fs
+H;=H";
+H;=H\4
+H;=Hn
+H;=Hs
+H;=H{
+H;=KF
+H;=MU
+H;=Q-5
+H;=Q]
+H;=Qc
+H;=RT
+H;=S"U
+H;=TS
+H;=VE
+H;=Xc
+H;=[cO
+H;=_X
+H;=_]	
+H;=_^	
+H;=bool volatile
+H;=cSM
+H;=cdO
+H;=char volatile
+H;=eA(
+H;=eH0
+H;=fC
+H;=g
+H;=hB>
+H;=hl
+H;=hm5
+H;=hq
+H;=hw
+H;=int&
+H;=kn:
+H;=k|,
+H;=long long"<
+H;=os
+H;=q2
+H;=q8
+H;=qO
+H;=qV>
+H;=qt-
+H;=r
+H;=s
+H;=sRM
+H;=sc
+H;=short-5
+H;=unsigned short volatile
+H;=vA
+H;=vt1
+H;=xK>
+H;=yA
+H;={U
+H;=|Q
+H;=|unsigned short
 H;>unsigned short[H
 H;C I
 H;C r
@@ -12643,9 +12637,6 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc50T
-Hc5v`long
-Hc5z>
 Hc8Hi
 Hc@ H
 Hc@$H
@@ -12655,7 +12646,7 @@ Hc@pH
 HcA 9
 HcA(9
 HcA89
-HcA`;Ap
+HcAp;
 HcB`H9
 HcC ;C$
 HcC ;C$tI
@@ -13190,7 +13181,6 @@ IcD$@
 IcD$@9
 IcD$@A
 IcD$@I
-IcD$D
 IcD$H
 IcD$H9
 IcD$HA
@@ -13225,19 +13215,21 @@ IcG A
 IcG A;G0
 IcG(A
 IcG(H
+IcG<I
 IcG@A9
 IcGPA;G`
 IcGPH)
 IcGdD
 IcGdE)
 IcGhI)
+IcH A9
 IcL$(I
-IcL$4H
-IcL$8H
 IcL$`
 IcL$`H9
 IcM(I
 IcM41
+IcM4H
+IcM8H
 IcMPA;M`
 IcO`H9
 IcT$ 
@@ -13248,6 +13240,7 @@ IcT$,
 IcT$,E1
 IcT$0H
 IcT$0I
+IcT$4H
 IcT$8
 IcT$8H
 IcT$8I
@@ -13256,7 +13249,6 @@ IcT$\
 IcT$hL
 IcU L
 IcU(I
-IcU4H
 IcU8H
 IcU@I
 IcUPA;U`
@@ -13603,6 +13595,9 @@ Invalid property name
 Invalid property value
 Invalid proto descriptor for file "
 Invalid public dependency index.
+Invalid request for mesh %double in model %short with %double entry remapping start table
+Invalid request for mesh %double in model %short with no remapping table
+Invalid request for mesh %double in model %short with no remapping table starts
 Invalid sBIT after IDAT
 Invalid sCAL after IDAT
 Invalid sCAL chunk ignored: bad height format
@@ -13791,7 +13786,6 @@ L$$IcL$ E
 L$(;q0twH
 L$(H9
 L$0 I
-L$0+Q A
 L$0A;
 L$0D9
 L$0Hc
@@ -13823,8 +13817,6 @@ L8.I;N
 L9	tx
 L9,$Mc
 L9O tOH
-L9O tQH
-L9O unsigned short}H
 L9b(tLL
 L9cHv
 L9l$(u
@@ -13916,15 +13908,14 @@ Lc!D;signed char
 Lc"D;bool
 Lc#D;char
 Lc#E9
-Lc%float&)
-Lc%int{
-Lc%j1
+Lc%YQ
 Lc&D;float
 Lc'D;__float128
 Lc'E)
 Lc)D;int
 Lc+D9
 Lc+D;k
+Lc-T`
 Lc/E)
 Lc/E1
 Lc1D;q
@@ -13935,7 +13926,6 @@ Lc7E)
 Lc;D;{
 Lc?D;
 Lc@`L9
-LcA E9
 LcA(E9
 LcB`L9
 LcKlH
@@ -13993,7 +13983,6 @@ LeftHandle
 LeftLegend
 LeftMouseScrollRegion
 LeftOfFocus%double
-LegacyController
 Length of the long double restrict*-Round time
 Lepcha
 LerpVectors
@@ -14128,6 +14117,7 @@ M#,$M#|$
 M(~?A
 M98t`
 M9<$u
+M9X tPI
 M;n0w7A
 M=@Un
 M@3333C
@@ -14349,12 +14339,12 @@ Mct$81
 Mct$8E;t$HD
 Mct$@E;t$PD
 Mct$hE;t$xD
+Mct$hH
 Mcu(E;u8
 Mcw0E;wchar_t@D
 McwPf
 Mc|$ E;|$0
 Mc|$P
-Mc}hH
 MediaNextTrack
 MediaPlayPause
 MediaPrevTrack
@@ -14817,6 +14807,7 @@ O(A9O
 O(H;t;H
 O(UHc
 O.@Jt;
+O0+Q A
 O0A;GH
 O0~_G
 O<D8M
@@ -14912,6 +14903,8 @@ OnViewTargetChanged
 OnWearablesChanged
 Oneof must have at least one field.
 OneofDescriptorProto
+Only BC6H compression not supported on this target (windows only).
+Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 Opaque type representing signed char return value from the old response system.
 Open lessons...
@@ -14984,7 +14977,7 @@ P0[D)
 P2P ping to "%short". Timed out after %.2fms
 P2P_Messages
 P4Ic\$ A;\$0
-P8A9^`
+P8A9^p
 P8H=vmdl
 P8H=vmdlu
 P?DXT5
@@ -15092,7 +15085,6 @@ P[A\A]A^A_]
 P[A\A]A^]
 P[A\]
 P_d<)
-P`HcE
 P`[fA
 PadBackButton
 PadBackButtonUp
@@ -15191,7 +15183,7 @@ Permit Responses
 PersonaName
 PersonaNameReplacementToken
 PersonalBubbleSlider
-PhHc5iy
+PhHc5I
 Phags_Pa
 Phoenician
 Phoneme delay to account for sound system latency.
@@ -15206,6 +15198,7 @@ Physics Debug World
 Physics.WaterSplash
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+PhysicsFile
 PhysicsFileReference
 PhysicsGameSystem
 PhysicsGameSystemManifest_client
@@ -15246,6 +15239,7 @@ Plat_GetModuleInterfaceFactory
 Plat_GetModuleProcAddress
 Plat_GetOSType
 Plat_GetPlatformError
+Plat_GetThreadIndex
 Plat_GetTime
 Plat_GetTimeString
 Plat_IgnoreContentAsserts
@@ -15342,6 +15336,7 @@ PostProcessParameterNames_t
 PostProcessParameters_t
 PostProcessingSystem_001
 Potential overflow in png_zalloc()
+PpHcE
 Pp[A\A]A^]
 Pq;@33333
 Pqw1(
@@ -15740,6 +15735,7 @@ Remove signed char filter from the game debug overlay
 Remove signed char watch from the game debug overlay
 Remove the C proxy for signed char script-based spawn group filter
 Remove the decals from the entity under the crosshair.
+Remove then immediately add back signed char CSS class from signed char panel. Useful to long double restrict-trigger events like animations or sound effects.
 Remove updater 
 RemoveAllInScope
 RemoveAllOptions
@@ -15843,6 +15839,7 @@ Retrieve, creating if necessary, the private per-instance script-side data assoc
 Retrieve, creating if necessary, the public script-side data associated with an entity
 Returns signed char sequence id given signed char name
 Returns the active sequence
+Returns the appid of the current app
 Returns the connected universe
 Returns the duration in seconds of the specified sequence
 Returns the engines current frame count
@@ -16109,6 +16106,7 @@ Scales entities.	Arguments: <scale factor> {entity_name} / {class_name} / no arg
 Scan script does not transmit all data
 SceneFileCache002
 SceneObjectData_t
+ScenePrint
 SceneSystem_002
 SceneUtils_001
 Scenes
@@ -16318,6 +16316,8 @@ Sending ping request %double/4.
 Sends the prepared query
 Sequence: (%3d) %short
 SequenceDuration
+SequenceMarkup
+SequenceMarkupList
 Serialize
 SerializeKeys
 SerializedNetAddress_t
@@ -16550,6 +16550,7 @@ Show more field info when spewing prediction errors.
 Show prediction errors, 2 for above plus detailed field deltas.
 Show status of all spawn groups.
 Show the (client) animation state for the specified entity (-1 for none).
+Show the floor height that we'double adjust based on ground IK rules.
 Show user command encoding
 Show verbose matching output (1 for simple, 2 for rule scoring, 3 for noisy). If set to 4, it will only show response success/failure for npc_selected NPCs.
 Show which entities are having their bones setup each frame.
@@ -16933,7 +16934,9 @@ Switch to orthographic camera.
 Switch to thirdperson Maya-like camera controls.
 Switch to thirdperson camera.
 Switch to thirdperson-shoulder camera.
+Switch which class the panel has for signed char given attribute slot. Allows easily changing between multiple states.
 SwitchClass
+SwitchStyle
 Syloti_Nagri
 Symbol name "
 Synchronously spawn an entity group from signed char list of spawn tables.
@@ -16951,7 +16954,6 @@ T$"<iA
 T$$A;U
 T$$IcT$ E
 T$(;J to
-T$(D!
 T$(E1
 T$(Hc
 T$(L!
@@ -16981,14 +16983,14 @@ T$hA)
 T$lHc
 T$pH9
 T$pL)
-T%>^.
-T%Q\.
-T%U^.
-T%cZ.
-T-KZ.
+T%1f.
+T%5h.
+T%Cd.
+T%vg.
+T-+d.
+T-oe.
 T.$Hc
 T0@GZ
-T5=\.
 T5i@H
 T82fE
 T@MResourceBlockType
@@ -17377,6 +17379,7 @@ Tried to merge messages of different types
 Tried to read clouded file, but we don'unsigned short have Steam interfaces?  Probably bug with order of initialization, or trying to run without steam
 Tried to register signed char non-generated type with the generated type registry.
 Tried to write clouded file, but we don'unsigned short have Steam interfaces?  Probably bug with order of initialization, or trying to run without steam
+TriggerStyle
 True if the joystick is enabled, false otherwise.
 Truncated iTXt chunk
 Truncated zTXt chunk
@@ -17472,7 +17475,6 @@ UM_VoiceMask
 UM_VoiceSubtitle
 UNCHANGED
 UNUSED_job_name
-UNt&H
 UOnly valid in PublishedFile.GetUserFiles and not normal PublishedFile.GetDetail calls
 UPDATE_STRING_TOKEN_DATABASE
 UPPER_EYELID( 
@@ -17977,19 +17979,15 @@ Vulkan
 W H9r
 W HcE
 W%:O&unsigned short
-W%nT'
+W%nZ'
 W(Aq=
 W(H92t'H
 W,:V,u
-W-FV7
-W-se-
 W0Hc_8A
 W0t	H
 W3|Uxa
-W5<unsigned char-
-W5le-
-W=ee-
-W=unsigned charcomplex -
+W5Lo-
+W=std::basic_ostream<char, std::char_traits<char> >-
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18069,7 +18067,9 @@ Warning font %short does not have signed char 'name' key! No windows font will b
 Warning parsing text-format 
 Warning! Can'unsigned short specify mins/maxs for point entities! (%short)
 Warning:  %short = '%short' is infinite, clamping value.
+Warning: !engine->IsLocalPlayerResolvable() failed at %short (%double)
 Warning: Unused import: "
+Warning: engine->IsLocalPlayerResolvable() failed at %short (%double)
 Warning: system time went backward by %double seconds
 Warning: thumbnail image size does not match data length %u
 Warning: unknown JFIF revision number %d.%02d
@@ -18198,15 +18198,18 @@ X\V@%
 X^'@double
 XboxSystemInterface001
 Y ANb
+Y%T&wchar_t
+Y%yT9
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-&void"
-Y-<F/
-Y-__int128~3
+Y-&6"
+Y-long?signed char
+Y-|:/
 Y/&4@4
 Y6	@W'__float128(
+Y=q!8
 Y?3333E
 Y?OnTimerPaused
-Y@C_PropVRHand
+Y@idle_to_fist
 YA3333
 YD$$L
 YGDUH
@@ -18331,8 +18334,7 @@ Z}uU
 \$HfA
 \$XfE
 \$hIcEXI
-\$xA9
-\$xLc
+\$xA;
 \%03o
 \C not allowed in lookbehind assertion
 \I8r!H
@@ -18503,10 +18505,9 @@ _ZN2v88Function4CallENS_6HandleINS_5ValueEEEiPS3_
 _ZN2v88Template3SetENS_6HandleINS_4NameEEENS1_INS_4DataEEENS_17PropertyAttributeE
 _ZN2v88TryCatchC1Ev
 _ZN2v88TryCatchD1Ev
-_ZN6CFiber16AllocPooledFiberENS_13SizeBuckets_tEm
-_ZN6CFiber18ReleasePooledFiberEv
-_ZN6CFiber22DetachFromStackContextEv
 _ZN6CFiber25SetThreadFiberMemoryRangeEm
+_ZN6CFiberC1Ev
+_ZN6CFiberD1Ev
 _ZN7CThread15IsThreadRunningEv
 _ZN7CThread21WaitForCreateCompleteEP12CThreadEvent
 _ZN7CThread4InitEv
@@ -19194,6 +19195,7 @@ animationScale
 animationgraph
 animationsystem
 animdebugger
+animgraph_debug
 animgraph_enable
 antialias
 antiquewhite
@@ -19669,6 +19671,7 @@ cheat
 cheetah
 childPhysicsMode
 childSpawnGroup
+child_items
 children
 childselectionposstart
 childtabindexstart
@@ -19702,6 +19705,8 @@ cl_decal_shoot
 cl_demoviewoverride
 cl_destroy_ragdolls
 cl_disable_ragdolls
+cl_display_finger_data
+cl_display_finger_data_thres
 cl_display_game_events
 cl_dormant_spew
 cl_drawcross
@@ -19715,7 +19720,6 @@ cl_dumpentity
 cl_dumpsplithacks
 cl_ejectbrass
 cl_enable_eye_occlusion
-cl_enable_ik
 cl_ent_absbox
 cl_ent_attachments
 cl_ent_bbox
@@ -19768,6 +19772,8 @@ cl_eye_sin_wave
 cl_eye_target_override
 cl_eye_yaw_multiplier
 cl_eyeball_override
+cl_fake_workshop_download_delay
+cl_fake_workshop_download_time
 cl_fasttempentcollision
 cl_flex_cycler_think_interval
 cl_flex_expression
@@ -19781,6 +19787,7 @@ cl_glow_item_far_r
 cl_glow_physics_props
 cl_groups
 cl_hitbox_debug
+cl_ik_enable
 cl_ik_toggle_chain
 cl_interp
 cl_interp_all
@@ -19797,6 +19804,7 @@ cl_jiggle_bone_debug_pitch_constraints
 cl_jiggle_bone_debug_yaw_constraints
 cl_jiggle_bone_invert
 cl_jiggle_bone_sanity
+cl_knuckles_filtering_mode
 cl_lagcomp_errorcheck
 cl_lagcompensation
 cl_latch_report
@@ -19914,8 +19922,8 @@ cl_showhelp
 cl_showpos
 cl_showtextmsg
 cl_sidespeed
+cl_skeleton_instance_smear_boneflags
 cl_skip_update_animations
-cl_smear_boneflags
 cl_smooth
 cl_smoothtime
 cl_snd_new_visualize
@@ -20654,6 +20662,7 @@ eyelid_up_down
 eyes_follow
 eyes_rightleft
 eyes_updown
+f0E;float@D
 f90tG
 f98w0
 f9Cnr
@@ -20681,6 +20690,7 @@ fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB94`
 fD9 unsigned short
+fD9%$	
 fD9/t0H
 fD91u|
 fD9cV
@@ -20877,6 +20887,16 @@ filterinY
 filterinZ
 filterinfo
 find text autosuggest hot spots
+finger00
+finger01
+finger02
+finger03
+finger04
+finger_index
+finger_middle
+finger_pinky
+finger_ring
+finger_thumb
 finnish
 fire_interactions
 firebrick
@@ -20886,6 +20906,7 @@ fish_pos
 fish_pos_x
 fish_pos_y
 fish_pos_z
+fistclench
 fit-children
 fixed poH
 fixed point overflow ignored
@@ -20954,14 +20975,14 @@ float@ffff
 float^7:!
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(114): Unknown gamma type "%short"!
-floatbitmap.cpp(2062): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2073): Error loading %short
-floatbitmap.cpp(2096): Error! Unknown file type for %short
-floatbitmap.cpp(2115): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(298): Conversion not supported yet!
-floatbitmap.cpp(398): Conversion not supported yet!
-floatbitmap.cpp(833): Unsupported color format "%short", skipping!
+floatbitmap.cpp(122): Unknown gamma type "%short"!
+floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2097): Error loading %short
+floatbitmap.cpp(2120): Error! Unknown file type for %short
+floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(306): Conversion not supported yet!
+floatbitmap.cpp(406): Conversion not supported yet!
+floatbitmap.cpp(842): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -21479,6 +21500,7 @@ ignore_input
 ignoredisabledchildren
 ignoring %s.HL%short on %short
 ignoring out of range rgb_to_gray coefficients
+ik_debug_adjusted_floorheight
 ik_debug_groundtraces
 ik_decay_hip_offset_after_x_seconds
 ik_toggle_chain:	%short
@@ -22052,9 +22074,7 @@ l$ fA
 l$,long long-L
 l$0[M
 l$4D9
-l$8E9
 l$8Ic
-l$HA9
 l$HfA
 l$XfA
 l$hA+^@
@@ -22193,6 +22213,9 @@ localBits
 localSound
 localToGlobal
 local_%short
+local_angles
+local_position
+local_scale
 local_temp_entity
 local_tip_angles
 local_tip_origin
@@ -22303,6 +22326,7 @@ m_DustFlags
 m_DynamicKeys
 m_DynamicValues
 m_EditItems
+m_EffectName
 m_EntClientFlags
 m_EnvWindShared
 m_Exponent
@@ -23003,6 +23027,7 @@ m_driveSpringX
 m_driveSpringY
 m_driveSpringZ
 m_duration
+m_eBarrierState
 m_eDoorState
 m_ejectBrassEffect
 m_elasticity
@@ -23070,6 +23095,7 @@ m_fWidth
 m_fadeMaxDist
 m_fadeMinDist
 m_filter
+m_fingerPoseArray
 m_flAbsScale
 m_flAccelerateExposureDown
 m_flAmbient
@@ -23191,6 +23217,10 @@ m_flFarFocusDepth
 m_flFarZ
 m_flFieldOfView
 m_flFinalValue
+m_flFinger1
+m_flFinger2
+m_flFinger3
+m_flFinger4
 m_flFireTime
 m_flFirstReceivedTime
 m_flFlashlightTime
@@ -23489,7 +23519,6 @@ m_fl_vr_multitool_tp_fade_time
 m_flexController
 m_flexControllerToken
 m_flexWeight
-m_flexcontroller.Count() <= ARRAYSIZE( m_GlobalFlexWeight )
 m_flexnum
 m_flextarget
 m_flextime
@@ -23700,6 +23729,7 @@ m_iEyeLidLeftRightPP
 m_iEyeLidUpDownPP
 m_iFOV
 m_iFOVStart
+m_iFingerPoseIdx
 m_iFlags
 m_iFlashTimer
 m_iForcePointMoveCounter
@@ -23891,6 +23921,7 @@ m_nActiveInteraction
 m_nActivity
 m_nAllHelpersFlags
 m_nAlpha
+m_nAmbientEffect
 m_nAnimationParity
 m_nAttachHoldIndex
 m_nAttachIndex
@@ -24166,7 +24197,6 @@ m_nTimesToFire
 m_nTotalTicks
 m_nTotalTicksThisFrame
 m_nTracerAttachmentIndex
-m_nTrackedDeviceIndex
 m_nTranslateMotion
 m_nTransmitStateOwnedCounter
 m_nType
@@ -24336,6 +24366,7 @@ m_refSequenceGroups
 m_reflectivity
 m_remappingTable
 m_remappingTableStarts
+m_requestedProxyModelName
 m_requiredEHandle
 m_rightFootAttachment
 m_rnShape
@@ -24657,6 +24688,8 @@ m_wigglePhase
 m_wiggleRate
 m_wiggleTimer
 m_windRadius
+m_workshopFileId
+m_workshopModelProxy
 m_worldGroupId
 m_worldModel
 m_worldName
@@ -24889,7 +24922,6 @@ method
 method_description
 method_name
 microtxn
-middle
 midnightblue
 min-distance
 min-height
@@ -24933,6 +24965,8 @@ modeldoc0
 modeldoc1
 modeldoc2
 modeldoc3
+modeldoc4
+modeldoc5
 modelindex
 modellib
 models/
@@ -24943,11 +24977,19 @@ models/characters/avatars/hand_l_v3.vmdl
 models/characters/avatars/hand_r_model.vmdl
 models/characters/avatars/hand_r_v2.vmdl
 models/characters/avatars/hand_r_v3.vmdl
+models/controller/knuckles_ev_1_3
+models/controller/knuckles_ev_1_3/knuckles_left_ev_1_3.vmdl
+models/controller/knuckles_ev_1_3/knuckles_right_ev_1_3.vmdl
 models/controllers/oculus_cv1_controller_left.vmdl
 models/controllers/oculus_cv1_controller_right.vmdl
 models/controllers/vr_controller_vive_1_5.vmdl
 models/controllers/vr_controller_vive_1_5_left.vmdl
 models/error.vmdl
+models/hands/vr_hand_scaffold
+models/hands/vr_hand_scaffold_left.vmdl
+models/hands/vr_hand_scaffold_right.vmdl
+models/steamvr_controllers/
+models/steamvr_controllers/%llu/%llu.vmdl
 models/survivors/survivor_gambler.vmdl
 models/w_models/weapons/w_desert_rifle.vmdl
 models\
@@ -24957,6 +24999,7 @@ modifiers
 module_attach
 momentumModifier
 momentumType
+more_fingers_test
 motiondisabled
 mouse_pitchyaw_sensitivity
 mousedown
@@ -25095,6 +25138,7 @@ no_standard_descriptor_accessor
 nodelay
 noheader
 non-hex character in \long long{} (closing brace missing?)
+non-networkable
 non-octal character in \unsigned __int128{} (closing brace missing?)
 none 
 normal
@@ -26732,6 +26776,7 @@ sleep for time
 slime_splash_01.vpcf
 slime_splash_02.vpcf
 slime_splash_03.vpcf
+slot, class
 slot0
 slot1
 slot10
@@ -26863,9 +26908,14 @@ srcid
 srcset
 srcset_current
 srgbgammatolinear
+ss_active
 ss_added
+ss_dead
 ss_debug_draw_player
+ss_loading
 ss_mimic
+ss_paused
+ss_waitingforgamesessionmanifest
 sscanf@@GLIBC_2.2.5
 stabilizerconstant
 stack_hash
@@ -27097,6 +27147,8 @@ sv_client_predict
 sv_debug_player_use
 sv_disable_lighting
 sv_disable_querycache
+sv_fake_workshop_download_delay
+sv_fake_workshop_download_time
 sv_footstepinterval
 sv_footsteps
 sv_friction
@@ -27196,6 +27248,7 @@ t$0Lc
 t$4Lc
 t$8E1
 t$8H)
+t$;5e
 t$<	unsigned short 
 t$<H)
 t$@A;wchar_t@~
@@ -27230,7 +27283,7 @@ t$pH)
 t$xE;
 t$xH)
 t.D9p
-t.D;%M
+t.D;%
 t.Lc#M
 t.fA9
 t0Mcv
@@ -27256,7 +27309,6 @@ t6 H)
 t6H;C t0H
 t6Lc#H
 t6Lc#I
-t7 Ic
 t7<.u&
 t7D;&~&L
 t7D;.~'L
@@ -27401,6 +27453,7 @@ tf_arena_max_streak
 tf_arena_preround_time
 tf_arena_round_time
 tgE+long double D9
+tgHcH
 tgHcQ
 tgL9#u
 thA:vhtbA
@@ -27460,7 +27513,6 @@ title
 tjLc@
 tk#C,
 tkHc_x
-tmHcH
 tmLcX
 tnr\@
 today
@@ -27536,6 +27588,8 @@ translucenthit
 transparency
 transparent
 trigger1
+trigger2
+trigger3
 triggerValue
 trigger_traversal_base
 trigger_traversal_base_tp_interrupt
@@ -27745,6 +27799,7 @@ unsigned short!HcO
 unsigned short!Hc\
 unsigned short!Lc#D;char
 unsigned short!Lc+D;k
+unsigned short" Hc
 unsigned short"+wHx
 unsigned short"HcK
 unsigned short"HcM
@@ -27765,7 +27820,7 @@ unsigned short#Lck
 unsigned short#[A\A]A^]
 unsigned short%;2t%H
 unsigned short%D;%
-unsigned short%D;-
+unsigned short%D;-$6(
 unsigned short%L;long double
 unsigned short%Mc4$E;t$
 unsigned short%[A\A]A^]
@@ -27773,7 +27828,7 @@ unsigned short%[A\]
 unsigned short&@8>unsigned short+H
 unsigned short&D;%
 unsigned short&D;=
-unsigned short&D;=long double%
+unsigned short&D;=5h
 unsigned short&Hc]
 unsigned short&Hcq
 unsigned short'<"unsigned short
@@ -27804,6 +27859,7 @@ unsigned short(Ic},H
 unsigned short(Ic}@H
 unsigned short(Ic~0H
 unsigned short([A\A]A^]
+unsigned short);52
 unsigned short)D;=
 unsigned short)Lc+D;k
 unsigned short* Hc
@@ -27812,8 +27868,9 @@ unsigned short*:E1
 unsigned short*<*u
 unsigned short*<-H
 unsigned short*D;-
-unsigned short*D;-11
+unsigned short*D;-signed char
 unsigned short*D;5
+unsigned short*D;5Q
 unsigned short*HcC
 unsigned short*HcE
 unsigned short*HcKH
@@ -27824,7 +27881,7 @@ unsigned short*LcC
 unsigned short*complex 'H
 unsigned short*fA9
 unsigned short+<\u
-unsigned short+D;-2,
+unsigned short+D;-
 unsigned short+Hc4
 unsigned short+HcO
 unsigned short+Hcp
@@ -27844,7 +27901,6 @@ unsigned short-rex
 unsigned short-void char::*
 unsigned short/9w t29w0t=1
 unsigned short/H;E
-unsigned short/Lc+
 unsigned short:Lc+Ic
 unsigned short:[A\]
 unsigned short;[A\]
@@ -28279,6 +28335,7 @@ vr_puppet_dist
 vr_puppet_enabled
 vr_puppet_left_offset
 vr_puppet_vert_offset
+vr_steamtours_knuckles_used
 vr_teleport_area
 vr_teleport_marker
 vr_text_hmdattach_offset
@@ -28476,7 +28533,6 @@ x0[A\]
 x7Hcw
 x8Lcc D;c0
 x8Mcl$ E;l$0
-xA\A]A^A_]
 xGHcO
 xJA;E
 xL9-C
@@ -28506,7 +28562,6 @@ youtube_videoid
 youtubevideoid
 z$?N(D
 z$?TR'
-z$u"C
 z$u"I
 z.u,M
 z0u.[A\]
@@ -28525,17 +28580,17 @@ z9u7H
 z9u7f
 zCuAH
 zD?fffff*
-zEuCH
 zEuCH9
 zF!8YFr
 zFGjIF}
 zGuEH
 zH"UI
 zH"tDf
-zHAUL
+zHATL
 zIuGH
 zJuHH
 zJuHfA
+zKuIH
 zMuKH
 zNear
 zNuLH
@@ -28554,7 +28609,7 @@ zZuXH
 zZuXL
 z_u]H
 zau_H
-zdATL
+zdubH
 zeucH
 zfriction
 zh_CN
@@ -28590,6 +28645,7 @@ zyuwA
 {`D;{pD
 {`xQuxH
 {double[A9
+{knuckles}valve_controller_knu
 {localization}
 {o3@yCu
 {uyfn?...
@@ -28620,6 +28676,7 @@ zyuwA
 |$8	~A
 |$@Mc
 |$HfA
+|$Nt-I
 |$PA\A]A^]
 |$PVCCD
 |$X@u
@@ -28651,7 +28708,6 @@ zyuwA
 |?5^double@
 |?5~M
 |?5~int
-|?E9&u
 |At7D9
 |P>~k
 |]J@E

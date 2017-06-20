@@ -1,6 +1,7 @@
  A __bss_start
  A _edata
  A _end
+ AssertMsg_ConditionFailed
  CMemAllocSystemInitialize
  CThreadEvent::CThreadEvent(bool)
  CThreadEvent::Set()
@@ -39,6 +40,7 @@
  Plat_GetModuleFilename
  Plat_GetOSType
  Plat_GetPlatformError
+ Plat_GetThreadIndex
  Plat_IsHighDPI
  Plat_IsInDebugSessionRaw
  Plat_RelativeTicks

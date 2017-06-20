@@ -990,5 +990,7 @@ In Overview Map Mode move around with:
 "[english]OpenGL_UnableToStartGame"	"Unable To Start Game"
 "General_UnableToStartGame"	"Ikke i stand til at starte spil"
 "[english]General_UnableToStartGame"	"Unable To Start Game"
+"Vulkan_InitializationFailure"	"Kunne ikke initialisere Vulkan.\nSørg for, at din driver og dit grafikkort understøtter Vulkan.\n"
+"[english]Vulkan_InitializationFailure"	"Failed to initialize Vulkan.\nPlease make sure your driver and GPU support Vulkan.\n"
 }
 }

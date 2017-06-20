@@ -3,10 +3,9 @@
  A _end
  AssertMsg_ConditionFailed
  CCallStackCapture::CCallStackCapture(int (*)(void**, int, int), unsigned int, unsigned int)
- CFiber::AllocPooledFiber(CFiber::SizeBuckets_t, unsigned long)
- CFiber::DetachFromStackContext()
- CFiber::ReleasePooledFiber()
+ CFiber::CFiber()
  CFiber::SetThreadFiberMemoryRange(unsigned long)
+ CFiber::~CFiber()
  CMemAllocSystemInitialize
  COM_TimestampedLog
  CStackTop_Base::CStackTop_Base()
@@ -138,6 +137,7 @@
  Plat_GetPagedPoolInfo
  Plat_GetPeakRSS
  Plat_GetPlatformError
+ Plat_GetThreadIndex
  Plat_GetTime
  Plat_GetTimeString
  Plat_GetWindowBounds

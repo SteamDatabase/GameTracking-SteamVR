@@ -254,7 +254,6 @@
 "L;)unsigned short#H
 "bf=G%"5
 "float?WAf?
-"pA3Q
 "unsigned short&L;}
 #3CScs
 #?K8#?{V#?
@@ -358,6 +357,7 @@ $zxvwfD
 %sGFxShaders-%08x.cache
 %short ...<truncated>
 %short allocation count overflow
+%short allocation count overflow( %llu > %llu )
 %short%short%s.%short
 %short, CallFrame('%short') - unknown frame
 %short/%s.swf
@@ -673,6 +673,7 @@ $zxvwfD
 -sse3
 -sse4
 -void?Hov?
+.-N|I
 ...&?0Xz?
 ...(tFH
 ...(u&H
@@ -686,7 +687,6 @@ $zxvwfD
 ../public/tier2/fieldpath.h
 .;S 2;Bl5;
 .=&T/=
-.=7*K
 .>@;0>~
 .>N^__int128~
 .?g1.?KN.?+k.?
@@ -4662,6 +4662,7 @@ Plat_ExitProcess
 Plat_FileSize
 Plat_FloatTime
 Plat_GetOSType
+Plat_GetThreadIndex
 Plat_GetTime
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
@@ -7099,7 +7100,6 @@ T$xurA
 T+<E1
 T+<fF
 T2?Zp2?
-T5ffN
 T?.GT?
 TABSTOPS
 TAB_CHILDREN_CHANGE
@@ -7600,21 +7600,23 @@ V}?N]}?
 V~?cX~?
 W tIH
 W%	short;M@
-W%(^/
-W%2,=
+W%signed char+>
 W(H9P
 W)?h.+?'
-W-/ =
+W-SC^
+W-W%=
+W-iB>
+W-q+>
 W0+W(
 W0+W(H
 W0L9V0t
 W0[H)
-W5LE^
-W5|B^
+W5B$=
+W5LC^
 W8t4L
-W=SE^
-W=k!=
-W=uB^
+W=#F^
+W=+!=
+W=EC^
 W?>NX?
 W@H#B
 WARNING: CDirWatcher not implemented
@@ -7673,6 +7675,7 @@ Write to EMS failed
 Write to XMS failed
 Writing zero-length unknown chunk
 Wrong JPEG library version: library is %double, caller expects %double
+X-signed char`F
 X0~tA
 X360_DST16
 X360_DST24
@@ -7722,10 +7725,10 @@ Xl$(D
 Xl$(D9l$$A
 Xt$(E
 X|$ D9t$
-Y%A|I
-Y%bh8
-Y%wchar_t,Q
-Y=kh8
+Y%Bh8
+Y%W,Q
+Y-y3Q
+Y=Kh8
 Y>|-Z>
 YD$ L
 YD$$H
@@ -7906,10 +7909,10 @@ Z|?4^|?Mb|?bf|?tj|?
 \$pt5
 \$pt:H
 \$puaH
-\%!8>
+\%{<>
 \(?...complex (?
-\-T{$
-\-w6>
+\-4{$
+\-76>
 \.??C/?
 \>/8w>
 \?x9\?
@@ -7959,6 +7962,7 @@ Z|?4^|?Mb|?bf|?tj|?
 ]unsigned char?Nlh?
 ]~?Q_~?
 ^ unsigned short+H
+^-bP^
 ^>|6`>...
 ^?bool|_?
 ^[A\A]]
@@ -8012,10 +8016,9 @@ _ZN17CThreadSpinRWLock11UnlockWriteEv
 _ZN17CThreadSpinRWLock16SpinLockForWriteEy
 _ZN17CThreadSyncObject8WaitImplEj
 _ZN17CThreadSyncObjectD2Ev
-_ZN6CFiber16AllocPooledFiberENS_13SizeBuckets_tEm
-_ZN6CFiber18ReleasePooledFiberEv
-_ZN6CFiber22DetachFromStackContextEv
 _ZN6CFiber25SetThreadFiberMemoryRangeEm
+_ZN6CFiberC1Ev
+_ZN6CFiberD1Ev
 _ZNSs12_M_leak_hardEv
 _ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
 _ZNV16CThreadFastMutex4LockEyj
@@ -10069,10 +10072,6 @@ miter
 mixed
 ml$PfD
 modalClip
-modeldoc0
-modeldoc1
-modeldoc2
-modeldoc3
 modf@@GLIBC_2.2.5
 modificationDate
 month
@@ -10166,7 +10165,6 @@ numberOfFramePools
 numbers out of order in {} quantifier
 nxH;oxsRH
 nxv#H
-o5&%&
 o8ATUH
 oD$ float
 oD$@fD
@@ -10343,7 +10341,6 @@ pATUSH
 pH;D$
 pHfA+0H9
 pHv%I
-p[A\A]A^]
 p[A\]
 p[]A\
 p[]A\A]A^
@@ -11446,8 +11443,7 @@ unsigned __int128 ATI
 unsigned __int128 ATUH
 unsigned __int128 ATUSH
 unsigned __int128 KPBf
-unsigned __int128%"-&
-unsigned __int128%_5&
+unsigned __int128%?5&
 unsigned __int128(ATI
 unsigned __int128(ATSH
 unsigned __int128(ATUSH
@@ -11523,11 +11519,12 @@ unsigned short%;W(wchar_t%H
 unsigned short%<	unsigned short&<
 unsigned short&&?TXt?
 unsigned short&[]A\
-unsigned short'D;5
+unsigned short'D;5n
 unsigned short'H9P u
 unsigned short(H9X
 unsigned short(H9^
 unsigned short(HcO
+unsigned short);=bool/
 unsigned short)IcD$
 unsigned short*HcC
 unsigned short*complex #H
