@@ -790,6 +790,16 @@
 "Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Troubleshooting"
 "Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
 
+"Warning_DismissableWarning_NeedKnucklesDriver_Header" "Knuckles Driver Available"
+"Warning_DismissableWarning_NeedKnucklesDriver_Description" "You are using Knuckes controllers, but don't have the Knuckles driver installed."
+"Warning_DismissableWarning_NeedKnucklesDriver_Action" "Install Driver"
+"Warning_DismissableWarning_NeedKnucklesDriver_ActionURL" "vrmonitor://installdriver/knuckles"
+
+"Warning_DismissableWarning_NewDriverInstalled_Header" "New Driver Installed"
+"Warning_DismissableWarning_NewDriverInstalled_Description" "To use your new driver you will need to restart SteamVR."
+"Warning_DismissableWarning_NewDriverInstalled_Action" "Restart"
+"Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
+
 
 }
 }

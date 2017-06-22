@@ -2198,8 +2198,6 @@ scripts/vscripts/map_scripts/no_items_at_all.lua CRC:006fc920d6 size:118
 scripts/vscripts/map_scripts/no_tools.lua CRC:006ed57bf5 size:1707
 scripts/vscripts/props/book_panda.lua CRC:00957346fb size:887
 scripts/vscripts/props/globe.lua CRC:0044b12c01 size:1037
-scripts/vscripts/props/meeseeks.lua CRC:004e6ef8a1 size:10121
-scripts/vscripts/props/meeseeks_ball.lua CRC:00ccc8a389 size:8685
 scripts/vscripts/props/neko_plushie.lua CRC:00306484e6 size:1798
 scripts/vscripts/props/picture_frame_landscape.lua CRC:0089b94b64 size:433
 scripts/vscripts/props/picture_frame_portrait.lua CRC:009f07e996 size:508

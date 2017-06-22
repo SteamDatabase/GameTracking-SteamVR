@@ -3005,7 +3005,6 @@ $~gHc
 ?C_FuncAreaPortalWindow
 ?C_GameEntity
 ?C_TestTraceline
-?D;%4
 ?D]`,
 ?DebugAutoComplete
 ?F:"'FL
@@ -5624,7 +5623,7 @@ C8}~1
 C9,h5
 C<D;long double
 C<[A\A]A^]
-C@D;%
+C@D;%3
 C@D;k8D
 C@H;CHs
 C@Ll>
@@ -10364,12 +10363,11 @@ D:...	unsigned short
 D; unsigned short=H
 D;!unsigned short{Hc
 D;%?Q
+D;%long&
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;+};H
-D;-/S
-D;-]`
 D;.~3L
 D;.~9H
 D;:tPH
@@ -12436,90 +12434,106 @@ H;5cy#
 H;8tU
 H;8t]
 H;:unsigned short(float
-H;=	&
 H;=	CT
 H;=	eR
-H;=!	
+H;=	p
+H;= V
+H;= unsigned __int128
 H;=! &
+H;=!...
+H;=!5
 H;=!T1
+H;="(
 H;=#...;
-H;=#3
+H;=&F
+H;=&]
 H;=(...-
+H;=(_
 H;=(p
 H;=+QM
 H;=+V
 H;=+gO
+H;=,u
 H;=/u?
-H;=0t
 H;=3OM
 H;=3i1
 H;=3}D
-H;=6[
+H;=60
+H;=6=
+H;=7*
 H;=8%-
 H;=875
 H;=9 T
-H;=:T
+H;=:(
+H;=@R
+H;=A!
 H;=A1
 H;=Bn<
+H;=Bo
 H;=CT1
 H;=C~D
-H;=FY
-H;=Fs
+H;=E[
+H;=F;
+H;=Fg
+H;=Fw
 H;=H";
 H;=H\4
 H;=Hn
-H;=Hs
-H;=H{
-H;=KF
-H;=MU
+H;=J
+H;=O*
 H;=Q-5
+H;=QA
+H;=QL
+H;=QX
 H;=Q]
 H;=Qc
-H;=RT
 H;=S"U
-H;=TS
+H;=T
 H;=VE
-H;=Xc
+H;=Vu
+H;=W%
+H;=XR
 H;=[cO
-H;=_X
 H;=_]	
 H;=_^	
+H;=aU
 H;=bool volatile
 H;=cSM
 H;=cdO
-H;=char volatile
+H;=char16_t
 H;=eA(
 H;=eH0
 H;=fC
-H;=g
+H;=ff
+H;=fv
+H;=fw
 H;=hB>
+H;=hH
 H;=hl
 H;=hm5
 H;=hq
-H;=hw
-H;=int&
+H;=int%
+H;=js
 H;=kn:
 H;=k|,
 H;=long long"<
-H;=os
 H;=q2
-H;=q8
+H;=qE
 H;=qO
 H;=qV>
+H;=qb
 H;=qt-
-H;=r
-H;=s
+H;=sL
 H;=sRM
 H;=sc
 H;=short-5
-H;=unsigned short volatile
+H;=signed char+
+H;=unsigned __int128%
+H;=unsigned int=
 H;=vA
 H;=vt1
 H;=xK>
-H;=yA
-H;={U
-H;=|Q
-H;=|unsigned short
+H;=~r
 H;>unsigned short[H
 H;C I
 H;C r
@@ -13915,7 +13929,6 @@ Lc'E)
 Lc)D;int
 Lc+D9
 Lc+D;k
-Lc-T`
 Lc/E)
 Lc/E1
 Lc1D;q
@@ -20690,7 +20703,6 @@ fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB94`
 fD9 unsigned short
-fD9%$	
 fD9/t0H
 fD91u|
 fD9cV
@@ -27859,7 +27871,6 @@ unsigned short(Ic},H
 unsigned short(Ic}@H
 unsigned short(Ic~0H
 unsigned short([A\A]A^]
-unsigned short);52
 unsigned short)D;=
 unsigned short)Lc+D;k
 unsigned short* Hc
@@ -27917,7 +27928,7 @@ unsigned short?[A\]
 unsigned short?void char::*
 unsigned short@@:>u
 unsigned short@Ic_
-unsigned short@Lc%
+unsigned short@Lc%Il
 unsigned short@[A\A]A^]
 unsigned short@}?5^
 unsigned short[IcE
@@ -28816,7 +28827,7 @@ zyuwA
 ~1Hc<
 ~31]H
 ~79ZP
-~7Lc%
+~7Lc%(
 ~:Lc+A
 ~<Lc{
 ~=FLD4F
