@@ -22,9 +22,7 @@ materials/effects/teleport/teleportarea_pattern_color_psd_e74ff716.vtex_c CRC:00
 materials/effects/teleport/teleportarea_pattern_trans_psd_85102529.vtex_c CRC:002e81a614 size:351364
 materials/models/effects/teleport/teleport_marker.vmat_c CRC:004a9817b6 size:5048
 materials/models/effects/teleport/teleport_marker_color_psd_48a3057e.vtex_c CRC:00d90a2a2c size:89556
-materials/models/props/accessories/basic_primitive.vmat_c CRC:00d1c9f2ef size:6368
-materials/models/props/accessories/basic_primitive_color_tga_29900a15.vtex_c CRC:00864e3780 size:176604
-materials/models/props/accessories/basic_primitive_vmat_g_tnormal_5980b2a7.vtex_c CRC:005ffe8971 size:1940
+materials/models/props/accessories/basic_primitive.vmat_c CRC:00a46aaf5f size:6344
 materials/models/props/toys/balloonicorn01.vmat_c CRC:004c478f13 size:7988
 materials/models/props/toys/balloonicorn01_ao_psd_34814988.vtex_c CRC:00d188e4f8 size:1050388
 materials/models/props/toys/balloonicorn01_color_psd_695f6ddd.vtex_c CRC:002ed8913e size:2798324
@@ -429,7 +427,7 @@ panorama/images/welcome_panel/destinations_welcome_black_touch_png.vtex_c CRC:00
 panorama/layout/avatar.vxml_c CRC:00896d8f51 size:6314
 panorama/layout/base_hud.vxml_c CRC:00d4b1fab1 size:584
 panorama/layout/base_world_panel.vxml_c CRC:0026d30938 size:548
-panorama/layout/content_browser.vxml_c CRC:0073582654 size:65892
+panorama/layout/content_browser.vxml_c CRC:00a412897f size:66679
 panorama/layout/friends.vxml_c CRC:00443e2b3d size:20234
 panorama/layout/friends_item.vxml_c CRC:005e29ac7f size:2425
 panorama/layout/hud.vxml_c CRC:00e9832024 size:534
@@ -442,7 +440,7 @@ panorama/layout/vr_community_home.vxml_c CRC:0036efbd44 size:16287
 panorama/layout/vr_community_item.vxml_c CRC:0001014c0d size:11595
 panorama/layout/vr_content_browser.vxml_c CRC:00395e7967 size:756
 panorama/layout/vr_friends.vxml_c CRC:00fce56fe4 size:621
-panorama/localization/steamtours_english.txt CRC:006b55fe70 size:106686
+panorama/localization/steamtours_english.txt CRC:00d41f5ce7 size:106741
 panorama/panorama_config.txt CRC:00a597fc0e size:294
 panorama/scripts/community_home.vjs_c CRC:009cff460c size:18328
 panorama/scripts/community_home_item.vjs_c CRC:003c14ef9b size:10393
@@ -450,7 +448,7 @@ panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
 panorama/styles/base_styles.vcss_c CRC:003489a3ad size:25102
 panorama/styles/base_world_panel.vcss_c CRC:00e800239c size:452
-panorama/styles/content_browser.vcss_c CRC:00d48de504 size:104762
+panorama/styles/content_browser.vcss_c CRC:00703faa72 size:105448
 panorama/styles/friends.vcss_c CRC:009ad69348 size:42534
 panorama/styles/hud.vcss_c CRC:00221b4d9e size:723
 panorama/styles/info_panels.vcss_c CRC:00e61c6748 size:6038

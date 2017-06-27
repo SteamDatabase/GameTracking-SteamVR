@@ -4413,6 +4413,17 @@ AvatarCustomizationItem #SliderThumb
 	visibility: collapse;
 }
 
+.PromoItemIcon 
+{
+	width: 40px;
+	height: 40px;
+	opacity: .5;
+	vertical-align: top;
+	horizontal-align: right;
+	margin: 20px 20px 0px 0px;	
+	visibility: collapse;
+}
+
 .SaveGameIcon
 {
 	height: 60px;
@@ -4446,6 +4457,11 @@ AvatarCustomizationItem #SliderThumb
 .HasSaveGame .SaveGameIcon
 {
 	visibility: visible;	
+}
+
+.PromoItem .PromoItemIcon
+{
+	visibility: visible;
 }
 
 .ItemTool .ItemToolIcon
@@ -5184,6 +5200,34 @@ AvatarCustomizationItem #SliderThumb
 	horizontal-align: right;
 }
 
+.PromoItemAvatar 
+{
+	width: 90px;
+	height: 90px;
+	opacity: .8;
+	margin-top: 10px;
+	background-color: none;
+	//border-radius: 5px;
+	margin-left: 0px;
+	margin-right: 20px;
+	//border: 2px solid black;
+	horizontal-align: right;
+	visibility: collapse;
+}
+
+.PromoItem .PromoItemAvatar
+{
+	visibility: visible;
+}
+
+.PromoItem .ItemCreatorAvatar,
+.PromoItem .ItemCreatorLabel,
+.PromoItem .ItemCreatorName,
+.PromoItem #ItemTypeDesc
+{
+	visibility: collapse;
+}
+
 .ItemMetadata 
 {
 	flow-children: down;
@@ -5231,7 +5275,8 @@ AvatarCustomizationItem #SliderThumb
 	margin-left: 15px;
 }
 
-#ItemTypeDesc 
+#ItemTypeDesc,
+#ItemTypeCollectible
 {
 	margin-left: 40px;
 }

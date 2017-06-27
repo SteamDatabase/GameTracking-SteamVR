@@ -740,6 +740,7 @@
 		"ItemDetail_Type_SteamVRBackground"	"SteamVR Custom Background"
 		"ItemDetail_Type_SteamVREnvironment"	"SteamVR Custom Environment"
 		"ItemDetail_Type_SteamVRController"	"SteamVR Custom Controller"
+		"ItemDetail_Type_Collectible"	"SteamVR Collectible"
 		"ItemDetail_ThemeLabel" "Theme: "
 		"ItemDetail_ThemeDesc" "{s:item_theme}"
 		"ItemDetail_Theme_None"	"None"

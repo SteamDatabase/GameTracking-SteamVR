@@ -1963,7 +1963,7 @@
 "VR_PhysicsProp_TidehunterToy001"	"潮汐獵人玩具"
 "[english]VR_PhysicsProp_TidehunterToy001"	"Tidehunter Toy"
 "VR_PhysicsProp_TidehunterToy001_Desc"	"《Dota 2》中的潮汐獵人玩具。"
-"[english]VR_PhysicsProp_TidehunterToy001_Desc"	"The Tidehunter Toy from Dota 2."
+"[english]VR_PhysicsProp_TidehunterToy001_Desc"	"The Tidehunter Toy from Dota 2.\n\nUnlocked by playing Dota 2."
 "SmallBubble"	"小"
 "[english]SmallBubble"	"SMALL"
 "BigBubble"	"大"

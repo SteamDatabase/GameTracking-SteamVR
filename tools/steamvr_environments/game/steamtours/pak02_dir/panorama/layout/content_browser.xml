@@ -281,6 +281,7 @@
 
 								<Panel class="ItemDetailMetadata">
 									<Image id="ItemCreatorAvatar" class="ItemCreatorAvatar" src="s2r://panorama/images/content_browser/avatar_default_image_png.vtex" />
+									<Image class="PromoItemAvatar" src="s2r://panorama/images/content_browser/ico_collectibles_high_png.vtex" />
 									<Panel class="ItemMetadata">
 										<Panel class="ItemMetadataWrapper">
 											<Label class="ItemCreatorLabel" text="#ItemDetail_CreatedLabel" />
@@ -289,6 +290,7 @@
 										<Panel class="ItemMetadataWrapper">
 											<Label class="ItemCatLabel" text="#ItemDetail_TypeLabel" />
 											<Label class="ItemCatDesc" id="ItemTypeDesc" text="#ItemDetail_TypeDesc" />
+											<Label class="ItemCatDesc" id="ItemTypeCollectible" text="#ItemDetail_Type_Collectible" />
 										</Panel>						
 										<Panel class="ItemMetadataWrapper">
 											<Label class="ItemCatLabel" text="#ItemDetail_ThemeLabel" />

@@ -21,6 +21,7 @@
 		<Image class="FavoriteItemStar" src="s2r://panorama/images/content_browser/icon_favorite_shadow_png.vtex" />	
 			
 		<Image class="ItemToolIcon" src="s2r://panorama/images/content_browser/icon_tool_png.vtex" />	
+		<Image class="PromoItemIcon" src="s2r://panorama/images/content_browser/ico_collectibles_png.vtex" />		
 
 		<Panel class="SaveGameIcon">
 			<Image class="SaveGameImage" src="s2r://panorama/images/content_browser/save_icon_png.vtex" />
