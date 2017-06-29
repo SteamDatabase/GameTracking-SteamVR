@@ -2212,7 +2212,7 @@ scripts/vscripts/tools/box_bot.lua CRC:002f2d8d6f size:111790
 scripts/vscripts/tools/box_bot_tool.lua CRC:00d7ffab1a size:37957
 scripts/vscripts/tools/boxer_ball_remove.lua CRC:00ce204c0b size:144
 scripts/vscripts/tools/cache_crate.lua CRC:00fe5c83f8 size:27657
-scripts/vscripts/tools/cache_finder_tool.lua CRC:00eabd8a67 size:32462
+scripts/vscripts/tools/cache_finder_tool.lua CRC:00981e7486 size:32538
 scripts/vscripts/tools/drone.lua CRC:00f6667619 size:26339
 scripts/vscripts/tools/drone_prop.lua CRC:002e46e4a2 size:1032
 scripts/vscripts/tools/freeze_tool.lua CRC:00c0243cfc size:24873

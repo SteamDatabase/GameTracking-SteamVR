@@ -1350,14 +1350,12 @@ $~gHc
 (*%short*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(-?G(
 (0x%08X)'??'
 (1 + __int128) * 3 <= vecsize
 (1@zD
 (8HXhx
 (9s ~@H
-(=C/'
-(=S#'
+(=kn'
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1828,11 +1826,8 @@ $~gHc
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 .%0*llu
 .(Optional) Set of tags for the published file.
-.-!0B
-.-cBB
 ...	?0e`9
 ... axis
-..."u A
 ..."u H
 ..."u I
 ...#8@short
@@ -1841,7 +1836,9 @@ $~gHc
 ...#u!I
 ...%u#A
 ...&u$H
+...&u$]
 ...'u%1
+...'u%A
 ...'u%H
 ...("tF
 ...("tG
@@ -1855,6 +1852,7 @@ $~gHc
 ...)u'1
 ...+u)1
 ...+u)H
+...,u*H
 ...-index
 .../u-H
 ...:u8I
@@ -1865,9 +1863,9 @@ $~gHc
 ...>Unserialization Error: %short
 ...>u<H
 ...?u=H
-...?u=I
 ...@u>H
 ...[uYH
+...\uZL
 ...^u\9P
 ...^u\M
 ...imaginary (<.
@@ -1955,8 +1953,7 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.54M.
-.=0	float
+.5$M.
 .>()09
 .>N^__int128~
 .@(."
@@ -2051,7 +2048,7 @@ $~gHc
 .CUserMessageShake
 .CUserMessageVGUIMenu.Keys
 .C\zFf
-.CtzxuvH
+.Cxz~u|H
 .D$(...
 .D$(void
 .D$,...
@@ -2080,7 +2077,8 @@ $~gHc
 .GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION
 .GCConnectionStatus
 .GprqL
-.Gtz#
+.Gpzs
+.Gtzxuv
 .HTr@H
 .K${;
 .K,...[
@@ -2142,7 +2140,6 @@ $~gHc
 .gnu_debuglink
 .init
 .init_array
-.kHz"float
 .note.gnu.build-id
 .pTr>A
 .placeholder.proto
@@ -2676,7 +2673,7 @@ $~gHc
 ;C(}+H
 ;C@tXH
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc50
+;Hc5 
 ;K(}&H
 ;O<gK
 ;PX|'H
@@ -3005,6 +3002,7 @@ $~gHc
 ?C_FuncAreaPortalWindow
 ?C_GameEntity
 ?C_TestTraceline
+?D;%$
 ?D]`,
 ?DebugAutoComplete
 ?F:"'FL
@@ -5623,7 +5621,7 @@ C8}~1
 C9,h5
 C<D;long double
 C<[A\A]A^]
-C@D;%3
+C@D;%
 C@D;k8D
 C@H;CHs
 C@Ll>
@@ -5671,6 +5669,7 @@ CAtomicManipulator<CCopyableUtlVector<AvatarOutfit_t> >
 CAtomicManipulator<CEntityHandle>
 CAtomicManipulator<CEntityIndex>
 CAtomicManipulator<CEntityOutputTemplate<float> >
+CAtomicManipulator<CHandle<C_AvatarPuppetClientSide> >
 CAtomicManipulator<CHandle<C_BaseAnimating> >
 CAtomicManipulator<CHandle<C_BaseCombatCharacter> >
 CAtomicManipulator<CHandle<C_BaseCombatWeapon> >
@@ -6388,13 +6387,11 @@ CEntitySpawner<C_PhysPropClientside>
 CEntitySpawner<C_RopeKeyframe>
 CEntitySpawnerAsync<CPointOffScreenIndicatorUi>
 CEntitySpawnerAsync<C_AvatarPuppetClientSide>
-CEntitySpawnerAsync<C_BaseAnimating>
 CEntitySpawnerAsync<C_BaseEntity>
 CEntitySpawnerAsync<C_DynamicPropClientside>
 CEntitySpawnerAsync<C_PointClientUIWorldPanel>
 CEntitySpawnerAsyncBase<CPointOffScreenIndicatorUi>
 CEntitySpawnerAsyncBase<C_AvatarPuppetClientSide>
-CEntitySpawnerAsyncBase<C_BaseAnimating>
 CEntitySpawnerAsyncBase<C_BaseEntity>
 CEntitySpawnerAsyncBase<C_DynamicPropClientside>
 CEntitySpawnerAsyncBase<C_PointClientUIWorldPanel>
@@ -6402,7 +6399,6 @@ CEntitySpawnerBase<CClient_Precipitation>
 CEntitySpawnerBase<CPointOffScreenIndicatorUi>
 CEntitySpawnerBase<CViewAngleAnimation>
 CEntitySpawnerBase<C_AvatarPuppetClientSide>
-CEntitySpawnerBase<C_BaseAnimating>
 CEntitySpawnerBase<C_BaseEntity>
 CEntitySpawnerBase<C_Beam>
 CEntitySpawnerBase<C_CombatWeaponClone>
@@ -8065,6 +8061,7 @@ CSchemaManipulator<CCopyableUtlVector<AvatarOutfit_t> >
 CSchemaManipulator<CEntityHandle>
 CSchemaManipulator<CEntityIndex>
 CSchemaManipulator<CEntityOutputTemplate<float> >
+CSchemaManipulator<CHandle<C_AvatarPuppetClientSide> >
 CSchemaManipulator<CHandle<C_BaseAnimating> >
 CSchemaManipulator<CHandle<C_BaseCombatCharacter> >
 CSchemaManipulator<CHandle<C_BaseCombatWeapon> >
@@ -10362,12 +10359,13 @@ D:...	tUHc
 D:...	unsigned short
 D; unsigned short=H
 D;!unsigned short{Hc
-D;%?Q
-D;%long&
+D;%Bu
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;+};H
+D;-?long double
+D;-i.
 D;.~3L
 D;.~9H
 D;:tPH
@@ -12430,110 +12428,92 @@ H;0tHH
 H;0t]Hc
 H;0u%
 H;2u%
-H;5cy#
+H;5c@
 H;8tU
 H;8t]
 H;:unsigned short(float
-H;=	CT
-H;=	eR
-H;=	p
-H;= V
-H;= unsigned __int128
-H;=! &
-H;=!...
-H;=!5
-H;=!T1
-H;="(
-H;=#...;
+H;=!long
+H;="$
+H;=#~1
+H;=&$
+H;=&%
+H;=&D
 H;=&F
-H;=&]
-H;=(...-
-H;=(_
-H;=(p
-H;=+QM
-H;=+V
-H;=+gO
-H;=,u
-H;=/u?
-H;=3OM
-H;=3i1
-H;=3}D
-H;=60
-H;=6=
-H;=7*
-H;=8%-
-H;=875
-H;=9 T
-H;=:(
-H;=@R
-H;=A!
-H;=A1
-H;=Bn<
-H;=Bo
-H;=CT1
-H;=C~D
-H;=E[
-H;=F;
-H;=Fg
-H;=Fw
-H;=H";
-H;=H\4
-H;=Hn
-H;=J
-H;=O*
-H;=Q-5
-H;=QA
-H;=QL
-H;=QX
-H;=Q]
-H;=Qc
-H;=S"U
-H;=T
-H;=VE
-H;=Vu
-H;=W%
-H;=XR
-H;=[cO
-H;=_]	
-H;=_^	
-H;=aU
-H;=bool volatile
-H;=cSM
-H;=cdO
-H;=char16_t
-H;=eA(
-H;=eH0
-H;=fC
-H;=ff
-H;=fv
-H;=fw
-H;=hB>
-H;=hH
-H;=hl
-H;=hm5
-H;=hq
-H;=int%
-H;=js
-H;=kn:
-H;=k|,
-H;=long long"<
-H;=q2
-H;=qE
-H;=qO
-H;=qV>
-H;=qb
-H;=qt-
-H;=sL
-H;=sRM
-H;=sc
-H;=short-5
-H;=signed char+
-H;=unsigned __int128%
-H;=unsigned int=
-H;=vA
-H;=vt1
-H;=xK>
-H;=~r
+H;=&~
+H;=(	1
+H;=(7>
+H;=(L;
+H;=*K
+H;=-'O
+H;=-_
+H;=1)
+H;=1=
+H;=1W5
+H;=1[
+H;=3TU
+H;=4J
+H;=6D
+H;=8F0
+H;=8v
+H;=8{
+H;=9/
+H;=:G
+H;=:^
+H;==unsigned __int128
+H;=A#
+H;=A#0
+H;=AL
+H;=BC>
+H;=Er0
+H;=F)
+H;=FB
+H;=Fo
+H;=Hl>
+H;=PK
+H;=Q4C
+H;=Qm
+H;=R^
+H;=SW5
+H;=T]
+H;=Us(
+H;=V@
+H;=XL<
+H;=Xu>
+H;=Xy
+H;=ZH-
+H;=]J
+H;=^B>
+H;=aR<
+H;=char#0
+H;=fk
+H;=float>
+H;=hJ
+H;=i0
+H;=ihC
+H;=int/C
+H;=jr0
+H;=long double#
+H;=long long)
+H;=long long|
+H;=q$
+H;=q,O
+H;=qF&
+H;=signed char*
+H;=signed char\
+H;=unsigned char;1
+H;=unsigned char=5
+H;=unsigned long long const
+H;=unsigned long volatile
+H;=vK
+H;=vX&
+H;=vi
+H;=void#
+H;=void<
+H;=xE5
+H;=xV>
+H;=xw
+H;={%
+H;=}{N
 H;>unsigned short[H
 H;C I
 H;C r
@@ -12651,6 +12631,7 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
+Hc5JQ
 Hc8Hi
 Hc@ H
 Hc@$H
@@ -13922,7 +13903,7 @@ Lc!D;signed char
 Lc"D;bool
 Lc#D;char
 Lc#E9
-Lc%YQ
+Lc%9u
 Lc&D;float
 Lc'D;__float128
 Lc'E)
@@ -15091,7 +15072,6 @@ PRECIPITATION_TYPE_SNOW
 PRECIPITATION_TYPE_SNOWFALL
 PREVENT_PHYSICS_FORCE
 PRUNE
-PTzluj
 PXA9]
 PXD9c
 P[A\A]A^A_]
@@ -15196,7 +15176,7 @@ Permit Responses
 PersonaName
 PersonaNameReplacementToken
 PersonalBubbleSlider
-PhHc5I
+PhHc5
 Phags_Pa
 Phoenician
 Phoneme delay to account for sound system latency.
@@ -15455,6 +15435,7 @@ PublishedFileDetails_Tag
 PublishedFileDetails_VoteData
 PublishedFileId_t
 Pulling Kinematic %short {%__float128,%__float128,%__float128}
+Puppet manager: %double vpk files remained
 PuppetVisible
 Purge
 PushAndClearDebugOverlayScope
@@ -16996,12 +16977,12 @@ T$hA)
 T$lHc
 T$pH9
 T$pL)
-T%1f.
-T%5h.
-T%Cd.
-T%vg.
-T-+d.
-T-oe.
+T%!f.
+T%%h.
+T%3d.
+T%fg.
+T%zc.
+T-_e.
 T.$Hc
 T0@GZ
 T5i@H
@@ -17992,15 +17973,16 @@ Vulkan
 W H9r
 W HcE
 W%:O&unsigned short
-W%nZ'
+W%^Z'
 W(Aq=
 W(H92t'H
 W,:V,u
+W-vb7
 W0Hc_8A
 W0t	H
 W3|Uxa
-W5Lo-
-W=std::basic_ostream<char, std::char_traits<char> >-
+W5<unsigned __int128-
+W=unsigned __int128complex -
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18187,6 +18169,7 @@ Wrong alignment %double
 Wzm6V"
 W{@3333
 X zR&="@r
+X%Mv6
 X(Optional) If true, only return the published file ids of files that satisfy this query.
 X0~tA
 X2:jH
@@ -18211,18 +18194,17 @@ X\V@%
 X^'@double
 XboxSystemInterface001
 Y ANb
-Y%T&wchar_t
-Y%yT9
+Y%$Qw
+Y%)V9
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-&6"
-Y-long?signed char
-Y-|:/
+Y-CR`
+Y-long:/
 Y/&4@4
 Y6	@W'__float128(
-Y=q!8
+Y=!#8
 Y?3333E
 Y?OnTimerPaused
-Y@idle_to_fist
+Y@C_PropVRHand
 YA3333
 YD$$L
 YGDUH
@@ -18349,6 +18331,7 @@ Z}uU
 \$hIcEXI
 \$xA;
 \%03o
+\-knI
 \C not allowed in lookbehind assertion
 \I8r!H
 \N is not supported in signed char class
@@ -18384,6 +18367,7 @@ Z}uU
 ^ unsigned short+H
 ^$IcV 
 ^$IcV E
+^%unsigned short)	
 ^)8~@
 ^,...=u;
 ^-wf"
@@ -19785,8 +19769,6 @@ cl_eye_sin_wave
 cl_eye_target_override
 cl_eye_yaw_multiplier
 cl_eyeball_override
-cl_fake_workshop_download_delay
-cl_fake_workshop_download_time
 cl_fasttempentcollision
 cl_flex_cycler_think_interval
 cl_flex_expression
@@ -20745,6 +20727,8 @@ fadescale
 failed (+exclude rule)
 failed to get memory
 failed_lookup_steamids
+fake_workshop_download_delay
+fake_workshop_download_time
 fakeplayer
 fallback
 fallback_position
@@ -21503,6 +21487,7 @@ icles.
 ideal angles
 identifier_value
 idle: %short, weight: %.2f
+idle_to_fist
 ids_only
 ignite
 ignorePhonemes
@@ -21669,6 +21654,7 @@ ip[[long long
 is in an unsupported path for game "%short"!
 is running without signed char known mod!
 isActive
+isProxy
 is_account_locked_down
 is_adjacent
 is_ambient
@@ -22783,6 +22769,7 @@ m_bIsOccluder
 m_bIsOn
 m_bIsOverrideProp
 m_bIsPlayingBack
+m_bIsProxy
 m_bIsRenderingEnabled
 m_bIsRenderingWithViewModels
 m_bIsSmokeGrenade
@@ -23025,6 +23012,7 @@ m_deltaTime
 m_density
 m_description
 m_designerName
+m_desiredWorkshopFileId
 m_drawCalls
 m_driveDampingSlerp
 m_driveDampingSwing
@@ -23229,6 +23217,7 @@ m_flFarFocusDepth
 m_flFarZ
 m_flFieldOfView
 m_flFinalValue
+m_flFinger0
 m_flFinger1
 m_flFinger2
 m_flFinger3
@@ -23384,6 +23373,7 @@ m_flOverlayTimes
 m_flParameters
 m_flParticleInnerDist
 m_flPathDistance
+m_flPersonalSpaceRadius
 m_flPhi
 m_flPhysics
 m_flPlaceTime
@@ -23880,6 +23870,9 @@ m_linearLimitRestitution
 m_linearLimitSpring
 m_linearLimitValue
 m_loadedPublishedFileId
+m_loadedWorkshopFileId
+m_loadingModelProxy
+m_loadingWorkshopFileId
 m_locBody
 m_locHeader
 m_localLifeState
@@ -24338,6 +24331,10 @@ m_previousCycle
 m_previousElapsedTime
 m_projectionAngularTolerance
 m_projectionLinearTolerance
+m_proxyCycle
+m_proxyMeshGroup
+m_proxyPoseParams
+m_proxySequence
 m_pszCPPClassname
 m_pszCapLayoutInHUD
 m_pszClassname
@@ -24378,7 +24375,6 @@ m_refSequenceGroups
 m_reflectivity
 m_remappingTable
 m_remappingTableStarts
-m_requestedProxyModelName
 m_requiredEHandle
 m_rightFootAttachment
 m_rnShape
@@ -24989,7 +24985,6 @@ models/characters/avatars/hand_l_v3.vmdl
 models/characters/avatars/hand_r_model.vmdl
 models/characters/avatars/hand_r_v2.vmdl
 models/characters/avatars/hand_r_v3.vmdl
-models/controller/knuckles_ev_1_3
 models/controller/knuckles_ev_1_3/knuckles_left_ev_1_3.vmdl
 models/controller/knuckles_ev_1_3/knuckles_right_ev_1_3.vmdl
 models/controllers/oculus_cv1_controller_left.vmdl
@@ -24998,9 +24993,9 @@ models/controllers/vr_controller_vive_1_5.vmdl
 models/controllers/vr_controller_vive_1_5_left.vmdl
 models/error.vmdl
 models/hands/vr_hand_scaffold
+models/hands/vr_hand_scaffold_
 models/hands/vr_hand_scaffold_left.vmdl
 models/hands/vr_hand_scaffold_right.vmdl
-models/steamvr_controllers/
 models/steamvr_controllers/%llu/%llu.vmdl
 models/survivors/survivor_gambler.vmdl
 models/w_models/weapons/w_desert_rifle.vmdl
@@ -27159,8 +27154,6 @@ sv_client_predict
 sv_debug_player_use
 sv_disable_lighting
 sv_disable_querycache
-sv_fake_workshop_download_delay
-sv_fake_workshop_download_time
 sv_footstepinterval
 sv_footsteps
 sv_friction
@@ -27260,7 +27253,7 @@ t$0Lc
 t$4Lc
 t$8E1
 t$8H)
-t$;5e
+t$;5E
 t$<	unsigned short 
 t$<H)
 t$@A;wchar_t@~
@@ -27295,7 +27288,7 @@ t$pH)
 t$xE;
 t$xH)
 t.D9p
-t.D;%
+t.D;%}
 t.Lc#M
 t.fA9
 t0Mcv
@@ -27338,7 +27331,7 @@ tAw3A
 tBL;unsigned char L
 tCLc%
 tC[A\A]A^]
-tD@:5
+tD@:5Y
 tDHcx D
 tEMcY
 tEMci
@@ -27406,7 +27399,7 @@ taunt
 tax_usd
 tbHcO
 tb[A\]
-tc@:5
+tc@:5T
 tcHcQ
 tchinese
 td@Q4
@@ -27832,7 +27825,7 @@ unsigned short#Lck
 unsigned short#[A\A]A^]
 unsigned short%;2t%H
 unsigned short%D;%
-unsigned short%D;-$6(
+unsigned short%D;-
 unsigned short%L;long double
 unsigned short%Mc4$E;t$
 unsigned short%[A\A]A^]
@@ -27840,7 +27833,6 @@ unsigned short%[A\]
 unsigned short&@8>unsigned short+H
 unsigned short&D;%
 unsigned short&D;=
-unsigned short&D;=5h
 unsigned short&Hc]
 unsigned short&Hcq
 unsigned short'<"unsigned short
@@ -27863,7 +27855,7 @@ unsigned short'Lcs
 unsigned short'[A\]
 unsigned short(92t(H
 unsigned short(<)u
-unsigned short(D;=
+unsigned short(D;=?
 unsigned short(E;u
 unsigned short(HcO
 unsigned short(Ic}(H
@@ -27871,7 +27863,9 @@ unsigned short(Ic},H
 unsigned short(Ic}@H
 unsigned short(Ic~0H
 unsigned short([A\A]A^]
+unsigned short);5B
 unsigned short)D;=
+unsigned short)D;=unsigned char
 unsigned short)Lc+D;k
 unsigned short* Hc
 unsigned short*(Hc
@@ -27879,9 +27873,9 @@ unsigned short*:E1
 unsigned short*<*u
 unsigned short*<-H
 unsigned short*D;-
-unsigned short*D;-signed char
+unsigned short*D;-q
 unsigned short*D;5
-unsigned short*D;5Q
+unsigned short*D;5a
 unsigned short*HcC
 unsigned short*HcE
 unsigned short*HcKH
@@ -27903,7 +27897,7 @@ unsigned short+IcD$
 unsigned short+Jc4
 unsigned short+Mcl$pE;
 unsigned short+fA9
-unsigned short,D;=
+unsigned short,D;={
 unsigned short,Mc}
 unsigned short,Ut[I
 unsigned short-LcH
@@ -27928,7 +27922,7 @@ unsigned short?[A\]
 unsigned short?void char::*
 unsigned short@@:>u
 unsigned short@Ic_
-unsigned short@Lc%Il
+unsigned short@Lc%
 unsigned short@[A\A]A^]
 unsigned short@}?5^
 unsigned short[IcE
@@ -28184,6 +28178,7 @@ vr_controller_trackpad_corner
 vr_controller_trackpad_pos
 vr_controller_vive
 vr_core/color_wheel_sceneobject.cpp
+vr_debug_hidden_objects
 vr_debug_overlay
 vr_debug_velocity
 vr_fakebind_hand0_AX_dn
@@ -28350,6 +28345,7 @@ vr_steamtours_knuckles_used
 vr_teleport_area
 vr_teleport_marker
 vr_text_hmdattach_offset
+vr_third_person_alpha_for_hidden_objects
 vr_throw_ang_scale
 vr_throw_velocity_scale
 vr_throw_velocity_scale_debug
@@ -28588,7 +28584,9 @@ z8"unsigned short|
 z8u6A
 z8u6H
 z9u7H
+z9u7I
 z9u7f
+zBu@H
 zCuAH
 zD?fffff*
 zEuCH9
@@ -28597,11 +28595,10 @@ zFGjIF}
 zGuEH
 zH"UI
 zH"tDf
-zHATL
+zHAUL
 zIuGH
 zJuHH
 zJuHfA
-zKuIH
 zMuKH
 zNear
 zNuLH
@@ -28620,12 +28617,13 @@ zZuXH
 zZuXL
 z_u]H
 zau_H
-zdubH
+zdATL
 zeucH
 zfriction
 zh_CN
 zh_TW
 ziugA
+ziugH
 ziugI
 zkuiE
 zlib memory error
@@ -28633,10 +28631,10 @@ zlib stream error
 zlib version error
 zm6Vb
 znul1
-znulH
 zoom_autoaim
 zoom_sensitivity_ratio
 zpunH
+zpunL
 zquoH
 zuusH
 zwuuH
@@ -28827,7 +28825,7 @@ zyuwA
 ~1Hc<
 ~31]H
 ~79ZP
-~7Lc%(
+~7Lc%
 ~:Lc+A
 ~<Lc{
 ~=FLD4F

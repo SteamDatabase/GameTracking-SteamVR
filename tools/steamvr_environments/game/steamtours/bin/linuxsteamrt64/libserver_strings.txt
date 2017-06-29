@@ -1676,10 +1676,8 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%'unsigned int~
-.%5oG
-.%@C~
-.%jqu
+.%'p~
+.%@I~
 ...	?0e`9
 ..."u H
 ..."u I
@@ -1797,7 +1795,10 @@ $woL)
 ../shared/weapon_parse_default.cpp
 ..\content
 .0z%u#
-.5y^W
+.5)eW
+.5W&double
+.=6&double
+.=8$|
 .>()09
 .@(."
 .@,wqH
@@ -1857,6 +1858,7 @@ $woL)
 .CUserMessageVGUIMenu.Keys
 .CxzRuPH
 .Cxzau_H
+.CxzsuqL
 .D$ ...
 .D$$z
 .D$(...
@@ -1885,8 +1887,7 @@ $woL)
 .K,...[
 .K8zBf
 .KdzIuGH
-.KtznulL
-.M;0j
+.M; long
 .M;UU
 .N,wchar_t&
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
@@ -1910,7 +1911,6 @@ $woL)
 .__float128[rA
 .`Tz-u+H
 .comment
-.ctzxuvH
 .data
 .data.rel.ro
 .dummy
@@ -1930,6 +1930,7 @@ $woL)
 .gnu_debuglink
 .init
 .init_array
+.kxzy
 .note.gnu.build-id
 .placeholder.proto
 .rOWw
@@ -1946,7 +1947,6 @@ $woL)
 .zDuBcomplex 
 // Choreo version 1
 // Choreo version 1:  <%int> Exported Events
-//fileserver/user/joed/steamvr_import/steamvr_controller_%llu.vpk
 /I9D$
 /L\int@
 /L~Z@
@@ -2197,8 +2197,6 @@ $woL)
 6@3333
 6@ffff
 6@u!V
-6D#5Kf-
-6D#5{]-
 6F+U F
 6H92t%H
 6H92u
@@ -2264,8 +2262,6 @@ $woL)
 999999
 999999.0
 9:unsigned short,H
-9=+|...
-9=k{...
 9>J"@TJ
 9@(D@
 9A3333#
@@ -2330,8 +2326,7 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;=(&[
-;=X&[
+;=X-[
 ;@*$pV
 ;A0}4H
 ;Affff
@@ -2340,7 +2335,7 @@ $woL)
 ;Fht.A
 ;FhtID
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5TY
+;Hc5iV
 ;K(}&H
 ;L9'u
 ;L;7u
@@ -5752,7 +5747,6 @@ CChoreoScene
 CChoreoStringPool
 CClassPtrSaveRestoreOps
 CCleanupDefaultRelationships
-CClientMessagePB<505, CClientMsg_SetModel, (NetChannelBufType_t)1>
 CClientMessagePB<517, CClientMsg_SetSteamVRBackground, (NetChannelBufType_t)1>
 CClientMessagePB<518, CClientMsg_SetSteamVRController, (NetChannelBufType_t)1>
 CClientMsg_AttachObjectToAvatar
@@ -7249,7 +7243,6 @@ CNetMessagePB<423, CMsgTEPhysicsProp, (SignonGroup_t)5, (NetChannelBufType_t)0, 
 CNetMessagePB<424, CMsgTEPlayerDecal, (SignonGroup_t)5, (NetChannelBufType_t)0, true>
 CNetMessagePB<425, CMsgTEProjectedDecal, (SignonGroup_t)5, (NetChannelBufType_t)0, true>
 CNetMessagePB<426, CMsgTESmoke, (SignonGroup_t)5, (NetChannelBufType_t)0, true>
-CNetMessagePB<505, CClientMsg_SetModel, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetMessagePB<517, CClientMsg_SetSteamVRBackground, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetMessagePB<518, CClientMsg_SetSteamVRController, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetMessagePB<62, CSVCMsg_HLTVStatus, (SignonGroup_t)0, (NetChannelBufType_t)1, true>
@@ -10601,7 +10594,6 @@ C|[A\A]A^]
 D	0Hc
 D	0Lc
 D	short float
-D#- *H
 D$  unsigned short	I
 D$ 9C 
 D$ 9C unsigned short
@@ -10771,14 +10763,15 @@ D+{$Mc
 D8kSt
 D9 unsigned short)H
 D9 ~NH
-D9%$9
+D9%	G
+D9%*rG
 D9't$H
 D9'unsigned short,H
 D9(t1H
 D9(unsigned short'I
-D9-3uA
 D92tY1
-D95Q+4
+D95U$[
+D95a84
 D9W(~mL
 D9c<unsigned short
 D9cP~DH
@@ -10800,16 +10793,17 @@ D; t3
 D;!unsigned short{Hc
 D;#}|E
 D;$%H
-D;%ba
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;,%H
-D;-/Y
+D;-'(R
+D;-X(R
+D;-_8Y
 D;.~3L
 D;.~9H
-D;5	(long double
 D;:tPH
+D;=i4e
 D;G@t5H
 D;__float128 D
 D;__float128(D
@@ -11967,7 +11961,6 @@ Failed to create Bot.
 Failed to create dynamic link (%double <--> %double)
 Failed to create ragdoll for %short
 Failed to determine base game directory from %short
-Failed to download workshop fileid %llu
 Failed to find custom physics damage table name: %short
 Failed to find function %short
 Failed to find or create an env_debughistory.
@@ -12688,97 +12681,93 @@ H:Ly?
 H;0tTH
 H;2t!H
 H;3t*H
+H;5qBd
 H;7t)H
-H;=	&2
-H;=	.4
-H;=	A4
-H;=	D
-H;=	unsigned char
-H;= *,
-H;= T
-H;= UL
-H;=!mO
-H;=%L,
-H;=)"4
-H;=)*
-H;=)54
-H;=)8
-H;=)H4
-H;=)K
-H;=)unsigned __int128
-H;=.+
-H;=./2
-H;=.a4
-H;=0:S
-H;=9'2
-H;=9/4
-H;=9B4
-H;=9E
-H;=9NS
-H;=9Z
-H;=>	C
-H;=> 
-H;=>)
-H;=>_4
-H;=>~4
-H;=@@K
-H;=@CS
-H;=@~P
-H;=EbO
-H;=I!2
-H;=I)4
-H;=I;P
-H;=I<4
-H;=I?
-H;=Ku
-H;=K{
-H;=N]4
-H;=N|4
-H;=PHP
-H;=PUM
-H;=Y#4
-H;=Y64
-H;=Y9
-H;=YI4
-H;=YL
-H;=YMA
-H;=Y[M
-H;=YvS
-H;=[NS
-H;=^[4
-H;=^z4
-H;=__float128`
-H;=`#Q
-H;=`$S
-H;=`4P
-H;=c
-H;=c0
-H;=doublecomplex 
-H;=eRT
-H;=i04
-H;=iC4
-H;=iF
-H;=int |
-H;=k;P
-H;=nE
-H;=nF2
-H;=nJ
-H;=nY4
-H;=nx4
-H;=p?
-H;=pAP
-H;=sFT
-H;=unsigned long long"2
-H;=unsigned long long*4
-H;=unsigned long long=4
-H;=unsigned long long@
-H;=unsigned long long^
-H;=uo{
-H;={[M
-H;={vS
-H;=~D2
-H;=~W4
-H;=~v4
+H;=	!4
+H;=	3|
+H;=	44
+H;=	B
+H;=	G4
+H;=	U
+H;= -Q
+H;= H
+H;= kP
+H;=) 2
+H;=)(4
+H;=);4
+H;=)I
+H;=)N4
+H;=.F2
+H;=.Y4
+H;=.x4
+H;=0/M
+H;=0rM
+H;=7VT
+H;=8i
+H;=9!
+H;=9"4
+H;=954
+H;=9C
+H;=9H4
+H;=9V
+H;=>D2
+H;=>v4
+H;=@^'
+H;=@wchar_t
+H;=@|P
+H;=AwO
+H;=C}
+H;=I'2
+H;=I/4
+H;=IB4
+H;=II
+H;=IN
+H;=IP
+H;=NB2
+H;=Nt4
+H;=OYT
+H;=ObT
+H;=P=M
+H;=P?,
+H;=PIM
+H;=PiT
+H;=S|
+H;=U9|
+H;=VfT
+H;=Y!2
+H;=Y)4
+H;=Y.
+H;=Y<4
+H;=YJ
+H;=YO4
+H;=YrP
+H;=Zi
+H;=^@2
+H;=^r4
+H;=^}
+H;=__int128!
+H;=__int128>2
+H;=_cT
+H;=`\S
+H;=elO
+H;=hwT
+H;=i64
+H;=iD
+H;=iI4
+H;=iW
+H;=int#4
+H;=ne
+H;=np4
+H;=unsigned long long(2
+H;=uzT
+H;=y.
+H;=y04
+H;=yC4
+H;=yQ
+H;={rP
+H;=~#
+H;=~<2
+H;=~n4
 H;>unsigned short[H
 H;B0u
 H;C r
@@ -12861,7 +12850,9 @@ HasTag
 HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
-Hc= @A
+Hc5%P8
+Hc5X[A
+Hc5y`
 Hc@ H
 Hc@$H
 Hc@0M
@@ -14297,12 +14288,14 @@ Lc!D;signed char
 Lc#D9b
 Lc#D;char
 Lc#E9
-Lc%...}long long
+Lc%bool>long double
 Lc&D;float
 Lc'D;__float128
 Lc'E)
 Lc)D;int
 Lc+D;k
+Lc-((R
+Lc-S(R
 Lc/D;unsigned __int128
 Lc/E)
 Lc/E1
@@ -17368,7 +17361,6 @@ T$(E1
 T$(Hc
 T$(L!
 T$(L9t
-T$,E1
 T$0H9
 T$0Hc
 T$0L9
@@ -18601,14 +18593,14 @@ VsInputSignature_t
 Vulkan
 W ;2t"H
 W H9r
-W%$'G
 W(Aq=
 W(H92t'H
-W-@Ec
+W- Lc
 W3|Uxa
-W5H7c
-W5_7c
-W=48c
+W5(>char
+W5?>char
+W5p>char
+W=_>char
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18816,10 +18808,8 @@ XfA9D]
 Xg8Hc
 XxHc@unsigned short
 Y ANb
-Y%#:-
-Y%Rns
-Y%float--
-Y-3eg
+Y%38-
+Y%void+-
 Y/&4@4
 Y6	@W'__float128(
 Y?3333E
@@ -20068,8 +20058,6 @@ chin_raiser
 choices
 ckHofD
 ckPoint H
-cl_fake_workshop_download_delay
-cl_fake_workshop_download_time
 cl_ideal_spec_mode %double
 cl_interp
 cl_interp_ratio
@@ -20802,7 +20790,6 @@ fA;\__int128
 fA;__int128
 fA;__int128imaginary 
 fA;float&&
-fD9%unsigned short!V
 fD9'unsigned short@H
 fD9/t0H
 fD90u
@@ -20851,6 +20838,8 @@ fadescale
 fadetime
 fadetoblackstrength
 failed (+exclude rule)
+fake_workshop_download_delay
+fake_workshop_download_time
 fakeplayer
 fall_%double%char
 fallback_position
@@ -22145,13 +22134,13 @@ long long signed char::* area size created in nav generation
 long long signed char::* number of entities to transmit to player
 long long signed char::* size in long long/unsigned long long of any auto-generated nav area
 long long signed char::* view roll angle
-long long";=unsigned __int128'[
 long long#Mc}
 long long&IcO(A;O8
 long long*;XZ
 long long*@3333GJ
 long long*HcSx;
 long long:Hcw
+long long;;=,-[
 long long@CAI_TrackPather
 long long[A\A]A^A_]
 long long[A\A]]
@@ -22159,6 +22148,7 @@ long long[A\A^]
 long long[HcO
 long long]/(@
 long long`;8}\H
+long longcomplex [A\]
 long longimaginary @unsigned short	H
 long long{HcS
 long=C8f9
@@ -23895,6 +23885,7 @@ m_flFarZ
 m_flFarthestPathDist
 m_flFieldOfView
 m_flFinalValue
+m_flFinger0
 m_flFinger1
 m_flFinger2
 m_flFinger3
@@ -25809,6 +25800,10 @@ m_prevSample
 m_projectionAngularTolerance
 m_projectionLinearTolerance
 m_proximityTimer
+m_proxyCycle
+m_proxyMeshGroup
+m_proxyPoseParams
+m_proxySequence
 m_pszCPPClassname
 m_pszClassname
 m_pszDescription
@@ -26655,7 +26650,6 @@ models/player.vmdl
 models/props_destruction/general_dest_plaster_set.vmdl
 models/props_plants/claypot03.vmdl
 models/steamvr_controllers/
-models/steamvr_controllers/%llu/%llu.vmdl
 models/stickygib.vmdl
 models/survivors/survivor_gambler.vmdl
 models/wH
@@ -28635,8 +28629,6 @@ sv_disable_lighting
 sv_disable_querycache
 sv_ent_showonlyattachment
 sv_ent_showonlyhitbox
-sv_fake_workshop_download_delay
-sv_fake_workshop_download_time
 sv_footstepinterval
 sv_footsteps
 sv_force_transmit_ents
@@ -28786,6 +28778,7 @@ t$0H)
 t$0Lc
 t$89C
 t$8H)
+t$;5e
 t$<H)
 t$@A;wchar_t@~
 t$@A\]
@@ -28852,7 +28845,8 @@ tA[A\]
 tAffffhF
 tB<#unsigned short>
 tCHc]
-tCLc%
+tCLc%4
+tEE;G
 tEMcY
 tEMci
 tFRA@F
@@ -28875,7 +28869,6 @@ tS[A\]
 tT;G0tg
 tThiHc
 tThif
-tUE;G
 tV;0~'L
 tVLck
 tWA9]
@@ -29159,7 +29152,7 @@ uUMc}
 uYLl>
 uZJcT
 u[[A\]
-u]D;%N
+u]D;%
 u^[&`
 ubIcE
 uhL;-
@@ -29252,11 +29245,11 @@ unsigned short#LckXD;khD
 unsigned short%HcO
 unsigned short%Mc4$E;t$
 unsigned short%[A\A]A^]
-unsigned short&D;=
+unsigned short&D;=U
 unsigned short&HcC
 unsigned short&Hcq
 unsigned short'<"unsigned short
-unsigned short'D;5~[
+unsigned short'D;5
 unsigned short'HcC
 unsigned short'HcK
 unsigned short'HcM
@@ -29278,7 +29271,6 @@ unsigned short'[A\]
 unsigned short(HcO
 unsigned short([A\A]A^]
 unsigned short([A\]
-unsigned short);=rq
 unsigned short)Lc+D;k
 unsigned short)fD9
 unsigned short* Hc
@@ -29330,7 +29322,7 @@ unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@D;(};E
 unsigned short@Ic_
-unsigned short@Lc%Ya
+unsigned short@Lc%
 unsigned short@[A\A]A^]
 unsigned short@[A\]
 unsigned short@}?5^
@@ -29677,7 +29669,6 @@ vr_scriptsystem
 vr_swap_logical_hands
 vr_teleport_area
 vr_teleport_marker
-vr_third_person_alpha_for_hidden_objects
 vr_throw_ang_scale
 vr_throw_velocity_scale
 vr_track_lost_hand_bug_debug
@@ -29834,6 +29825,7 @@ xbox_throttlespoof
 xc_crouch_debounce
 xen_plant*
 xo;wX}jHc
+xsHcW
 xtw?__float128
 yH"ts
 yaw "%int"
@@ -30019,7 +30011,7 @@ zzuxI
 }KfD9
 }Lf;wchar_t
 }Sf;HnwMf
-}TD;%Y
+}TD;%
 }Tf;wchar_t
 }TfD9
 }UHc
@@ -30036,7 +30028,7 @@ zzuxI
 }hf;wchar_t
 }l7f~
 }qfD;c6wjfA
-}unsigned long long;w$
+}unsigned int;w$
 }wchar_t+unsigned short const
 }xfE9ffrqL
 ~	;longcomplex 
@@ -30049,7 +30041,7 @@ zzuxI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=short	S
+~)H9=
 ~)H;_
 ~*HcE
 ~*I;X

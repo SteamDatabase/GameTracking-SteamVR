@@ -110,7 +110,7 @@ function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
 					launchImagePanel.SetImage( panel.GetAttributeString( "image_path", "" ) );
 
 					var appid = panel.GetAttributeInt( "appid", 0 );
-					$.Msg( "Clicked APP ID: " + appid );
+//					$.Msg( "Clicked APP ID: " + appid );
 					var vrAppData = VRUtils.GetVRAppPropertyData( appid );
 					if ( vrAppData.data_valid == 0 )
 					{
@@ -121,13 +121,13 @@ function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
 						wrapperPanel.AddClass( "CanLaunchApp" );
 					}
 
-					$.Msg( "VRAppData.app_name: " + vrAppData.app_name );
+//					$.Msg( "VRAppData.app_name: " + vrAppData.app_name );
 
 					//Launch button
 					var launchButton = confirmationPanel.FindChildInLayoutFile( "LaunchAppButton" );
 					var onLaunchButtonActivate = function( localAppid ) {
 							return function() {
-								$.Msg( "Local APP ID: " + localAppid );
+//								$.Msg( "Local APP ID: " + localAppid );
 								VRUtils.LaunchSteamApp( localAppid );
 							}
 					}( appid );
@@ -137,7 +137,7 @@ function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
 					var detailsButton = confirmationPanel.FindChildInLayoutFile( "DetailsButton" );
 					var onDetailsButtonActivate = function( localAppid ) {
 							return function() {
-								$.Msg( "Local APP ID: " + localAppid );
+//								$.Msg( "Local APP ID: " + localAppid );
 								$.DispatchEvent( 'ShowAppInSteamVR', localAppid );
 							}
 					}( appid );
@@ -236,7 +236,7 @@ function AddUGC( parentPanelID, rgUGCItems )
 					var ugc_index = panel.GetAttributeInt( "ugc_index", 0 );
 					var rgItems = gUGCItemsContext.GetItems();
 					var item = rgItems[ugc_index];
-					$.Msg( "trying to show: " + item.m_item.publishedfileid );
+//					$.Msg( "trying to show: " + item.m_item.publishedfileid );
 					item.ShowItem();
 				}
 			}( panelItem );
@@ -251,7 +251,7 @@ function ChangeUGCThumbnails()
 {
 	if ( gSection != "environments" )
 	{
-		$.Msg( "ChangeUGCThumbnails" );
+//		$.Msg( "ChangeUGCThumbnails" );
 		var rgItems = gUGCItemsContext.GetItems();
 		var rgShuffledItems = rgItems.slice();
 		shuffle( rgShuffledItems );
@@ -320,7 +320,7 @@ function AddEnvironmentItem( detail, parentPanel )
 			var ugc_index = panel.GetAttributeInt( "ugc_index", 0 );
 			var rgItems = gUGCItemsContext.GetItems();
 			var item = rgItems[ugc_index];
-			$.Msg( "trying to show enviroment at index " + ugc_index + " => publishedfileid: " + item.m_item.publishedfileid );
+//			$.Msg( "trying to show enviroment at index " + ugc_index + " => publishedfileid: " + item.m_item.publishedfileid );
 			item.ShowItem();
 		}
 	}( panelItem );
@@ -348,9 +348,9 @@ function PopulateValveEnvironments( rgChildren )
 	};
 	SteamUGC.ConfigureQuery( queryHandle, params );
 	var onQueryComplete = function( data ) {
-		$.Msg( "PopulateValveEnvironments: " + data.num_results );
+//		$.Msg( "PopulateValveEnvironments: " + data.num_results );
 		var parentPanel = $( "#ValveEnvironments" );
-		$.Msg( "PopulateValveEnvironments: " + parentPanel.id );
+//		$.Msg( "PopulateValveEnvironments: " + parentPanel.id );
 		
 		for ( var i = 0; i < data.num_results; ++i )
 		{
@@ -400,7 +400,7 @@ function RequestValveEnvironments()
 	};
 	SteamUGC.ConfigureQuery( queryHandle, params );
 	var onQueryComplete = function( data ) {
-		$.Msg( "RequestValveEnvironments: " + data.num_results );
+//		$.Msg( "RequestValveEnvironments: " + data.num_results );
 		if ( data.num_results == 1 )
 		{
 			var details = data.details[0];
@@ -465,7 +465,7 @@ function OnLoadCommunityHomeData()
 	// respond to paging
 	var onShowUGCSibling = function( panel ) {
 		return function( data ) {
-			$.Msg( "trying to show sibling of: " + data.publishedfileid );
+//			$.Msg( "trying to show sibling of: " + data.publishedfileid );
 			var rgItems = gUGCItemsContext.GetItems();
 			for ( var i = 0; i < rgItems.length; ++i )
 			{
@@ -485,7 +485,7 @@ function OnLoadCommunityHomeData()
 					var siblingItem = rgItems[siblingIdx];
 					siblingItem.ShowItem();
 
-					$.Msg( "Found sibling: " + siblingItem.m_item.publishedfileid );
+//					$.Msg( "Found sibling: " + siblingItem.m_item.publishedfileid );
 				}
 			}
 		}

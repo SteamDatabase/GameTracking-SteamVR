@@ -442,7 +442,7 @@ panorama/layout/vr_content_browser.vxml_c CRC:00395e7967 size:756
 panorama/layout/vr_friends.vxml_c CRC:00fce56fe4 size:621
 panorama/localization/steamtours_english.txt CRC:00d41f5ce7 size:106741
 panorama/panorama_config.txt CRC:00a597fc0e size:294
-panorama/scripts/community_home.vjs_c CRC:009cff460c size:18328
+panorama/scripts/community_home.vjs_c CRC:00fd97c88e size:18352
 panorama/scripts/community_home_item.vjs_c CRC:003c14ef9b size:10393
 panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
