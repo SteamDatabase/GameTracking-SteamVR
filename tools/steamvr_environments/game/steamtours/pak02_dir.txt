@@ -428,7 +428,7 @@ panorama/layout/avatar.vxml_c CRC:00896d8f51 size:6314
 panorama/layout/base_hud.vxml_c CRC:00d4b1fab1 size:584
 panorama/layout/base_world_panel.vxml_c CRC:0026d30938 size:548
 panorama/layout/content_browser.vxml_c CRC:00a412897f size:66679
-panorama/layout/friends.vxml_c CRC:00443e2b3d size:20234
+panorama/layout/friends.vxml_c CRC:007aee7ae8 size:20372
 panorama/layout/friends_item.vxml_c CRC:005e29ac7f size:2425
 panorama/layout/hud.vxml_c CRC:00e9832024 size:534
 panorama/layout/notifications_panel.vxml_c CRC:001b2ba924 size:7396
@@ -440,7 +440,7 @@ panorama/layout/vr_community_home.vxml_c CRC:0036efbd44 size:16287
 panorama/layout/vr_community_item.vxml_c CRC:0001014c0d size:11595
 panorama/layout/vr_content_browser.vxml_c CRC:00395e7967 size:756
 panorama/layout/vr_friends.vxml_c CRC:00fce56fe4 size:621
-panorama/localization/steamtours_english.txt CRC:00d41f5ce7 size:106741
+panorama/localization/steamtours_english.txt CRC:00ede9c3f3 size:109161
 panorama/panorama_config.txt CRC:00a597fc0e size:294
 panorama/scripts/community_home.vjs_c CRC:00fd97c88e size:18352
 panorama/scripts/community_home_item.vjs_c CRC:003c14ef9b size:10393
@@ -449,7 +449,7 @@ panorama/styles/base.vcss_c CRC:00396395b7 size:932
 panorama/styles/base_styles.vcss_c CRC:003489a3ad size:25102
 panorama/styles/base_world_panel.vcss_c CRC:00e800239c size:452
 panorama/styles/content_browser.vcss_c CRC:00703faa72 size:105448
-panorama/styles/friends.vcss_c CRC:009ad69348 size:42534
+panorama/styles/friends.vcss_c CRC:0080e0e56f size:43142
 panorama/styles/hud.vcss_c CRC:00221b4d9e size:723
 panorama/styles/info_panels.vcss_c CRC:00e61c6748 size:6038
 panorama/styles/notifications_panel.vcss_c CRC:007ceb86a8 size:1829
@@ -469,7 +469,7 @@ particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
 resource/gameevents.res CRC:001284caec size:1002
 resource/modevents.res CRC:00a360fb36 size:903
 resource/serverevents.res CRC:000df59f67 size:3694
-scripts/contentdb.txt CRC:006aae66d6 size:95569
+scripts/contentdb.txt CRC:00bebfa4c2 size:101074
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70

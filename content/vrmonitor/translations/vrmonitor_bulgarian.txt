@@ -1955,7 +1955,5 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"Нощният режим затъмнява ВР шлема до 05:00 часа сутринта (или до рестартирането на SteamVR)."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
-"Settings_PauseOnStandby"	"Паузиране на рендирането, когато ВР шлемът е бездействащ"
-"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

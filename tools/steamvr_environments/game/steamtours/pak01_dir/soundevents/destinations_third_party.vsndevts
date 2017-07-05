@@ -64,14 +64,14 @@
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_golf.vsnd"
 	}}
 
-"meeseeks_rope_me"
+"meeseeks_all_done"
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
 		fade_in = 0.1
-		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_rope_me.vsnd"
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_all_done.vsnd"
 	}}
 
 "meeseeks_cant_take_it"
@@ -84,14 +84,14 @@
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_cant_take_it.vsnd"
 	}}
 
-"meeseeks_follow_through"
+"meeseeks_fumbling"
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
 		fade_in = 0.1
-		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_follow_through.vsnd"
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_fumbling.vsnd"
 	}}
 
 "meeseeks_getting_weird"
@@ -104,34 +104,24 @@
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_getting_weird.vsnd"
 	}}
 
-"meeseeks_setting_free"
+"meeseeks_yes_mam"
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
 		fade_in = 0.1
-		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_setting_free.vsnd"
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_yes_mam.vsnd"
 	}}
 
-"meeseeks_hi"
+"meeseeks_look_at_me"
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
 		fade_in = 0.1
-		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_hi.vsnd"
-	}}
-
-"mister_meeseeks_01"
-{
-	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
-	{
-		type = "destinations.simple_vr"
-		volume = 0.5
-		fade_in = 0.1
-		vsnd_files = "sounds/third_party/mrmeeseeks/mister_meeseeks_01.vsnd"
+		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_look_at_me.vsnd"
 	}}
 
 "meeseeks_spawn"

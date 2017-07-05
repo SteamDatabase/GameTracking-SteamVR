@@ -198,27 +198,26 @@
 										<DestinationsScrollPanel class="FriendsLeft" id="LobbyScrollContainer"  >			           
 												<Button class="DestinationButton" id="HostRoomButton" onactivate="OpenHostDialog(); SetInputFocus(CloseHostDialog);" mousecanactivate="unfocused" >
 														<Label class="OpenLobby" text="#HostRoomButton" />
-								<Image class="OpenLobbyIcon" src="s2r://panorama/images/content_browser/friends_toggle_button_png.vtex" />
+														<Image class="OpenLobbyIcon" src="s2r://panorama/images/content_browser/friends_toggle_button_png.vtex" />
 												</Button>	
 
 												<Panel class="FriendsContentContainer">
 														<Panel class="ContentContainer" id="LobbiesContentContainer" tabindex="auto" selectionpos="auto" rememberchildfocus="true" />
 												</Panel>
 
-							<Panel class="WorldPanelLobbyButtons">
-								<Button class="DestinationButton" id="LeaveLobbyButton" onactivate="LeaveLobby();" mousecanactivate="unfocused" >
-														<Label class="LobbyButtonLabel" id="LeaveLobbyLabel" text="#Lobby_Leave" />
-												</Button>
-												<Button class="DestinationButton" id="CloseLobbyButton" onactivate="OpenConfirmationDialog();" mousecanactivate="unfocused" >
-														<Label class="LobbyButtonLabel" text="#Lobby_Close" />
-												</Button>
-												<Button class="DestinationButton" id="QuickCloseLobbyButton" onactivate="LeaveLobby();">
-														<Label class="LobbyButtonLabel" text="#Lobby_Close" />
-												</Button>
-							</Panel>
-
-
-		                	                
+												<Panel class="WorldPanelLobbyButtons">
+													<Button class="DestinationButton" id="LeaveLobbyButton" onactivate="LeaveLobby();" mousecanactivate="unfocused" >
+																			<Label class="LobbyButtonLabel" id="LeaveLobbyLabel" text="#Lobby_Leave" />
+																	</Button>
+																	<Button class="DestinationButton" id="CloseLobbyButton" onactivate="OpenConfirmationDialog();" mousecanactivate="unfocused" >
+																			<Label class="LobbyButtonLabel" text="#Lobby_Close" />
+																	</Button>
+																	<Button class="DestinationButton" id="QuickCloseLobbyButton" onactivate="LeaveLobby();">
+																			<Label class="LobbyButtonLabel" text="#Lobby_Close" />
+																	</Button>
+												</Panel>
+                	                
+                	                			<Label class="BetaDesc" text="#Beta_Desc" />
 
 										</DestinationsScrollPanel>
 	

@@ -308,7 +308,7 @@
 			preview_image = "file://{images}/contentdb/space_pirate_helmet.png"
 			locked_by_quest = false
 			inventory_service_id = 113
-			inventory_service_promo_rules = "owns:418650" // must own Space Pirate Trainer
+			inventory_service_promo_rules = "played:418650/120" // must have played for 2 hours - Space Pirate Trainer
 			inventory_service_promo_appid = 418650
 		},	
 		{
@@ -318,6 +318,7 @@
 			content = "models/third_party/characters/avatars/vive_headset.vmdl"
 			preview_image = "file://{images}/contentdb/vive_headset.png"
 			locked_by_quest = false
+			// default_color = [ 36,36,36 ]
 			//inventory_service_id = 114
 		},	
 		{
@@ -328,7 +329,7 @@
 			preview_image = "file://{images}/contentdb/onward_head.png"
 			locked_by_quest = false
 			inventory_service_id = 115
-			inventory_service_promo_rules = "owns:496240" // must own Onward
+			inventory_service_promo_rules = "played:496240/120" // must have played for 2 hours - Onward
 			inventory_service_promo_appid = 496240
 		},	
 		{
@@ -340,7 +341,7 @@
 			locked_by_quest = false
 			dev_only = true
 			//inventory_service_id = 116
-			inventory_service_promo_rules = "owns:552450" // must own Serious Sam VR: The First Encounter
+			inventory_service_promo_rules = "played:552450/120" // must have played for 2 hours - Serious Sam VR: The First Encounter
 			inventory_service_promo_appid = 552450
 		},	
 		{
@@ -353,6 +354,17 @@
 			inventory_service_id = 117
 			dev_only = true			
 		},
+		{
+			id = "raw_data_saija_head"
+			name = "#VR_Avatar_RawDataSaijaHead"
+			desc = "#VR_Avatar_RawDataSaijaHead_Desc"
+			content = "models/third_party/characters/avatars/raw_data_saija_head.vmdl"
+			preview_image = "file://{images}/contentdb/raw_data_saija_head.png"
+			locked_by_quest = false
+			inventory_service_id = 118
+			inventory_service_promo_rules = "played:436320/120" // must have played for 2 hours - Raw Data
+			inventory_service_promo_appid = 436320
+		},	
 	]
 
 	avatar_hands =
@@ -1160,9 +1172,19 @@
 			// inventory_service_id = 269
 			default_color = [ 255,255,255 ]
 		},
+		{
+			id = "to_the_top_kitsune_mask"
+			name = "#VR_Avatar_Wearable_ToTheTopKitsuneMask"
+			desc = "#VR_Avatar_Wearable_ToTheTopKitsuneMask_Desc"
+			content = "models/third_party/props/accessories/to_the_top_kitsune_mask.vmdl"
+			preview_image = "file://{images}/contentdb/to_the_top_kitsune_mask.png"
+			locked_by_quest = false
+			//inventory_service_id = 270
+			inventory_service_promo_rules = "played:509250/120" // must have played for 2 hours - To The Top
+			inventory_service_promo_appid = 509250
+			default_color = [ 209,13,32 ]
+		},
 	]
-	
-
 	prop_tools =
 	[
 		{
@@ -1507,7 +1529,7 @@
 			preview_image = "file://{images}/contentdb/audioshield_shield001.png"
 			locked_by_quest = false
 			inventory_service_id = 1025
-			inventory_service_promo_rules = "owns:412740" // must own Audioshield
+			inventory_service_promo_rules = "played:412740/120" // must have played for 2 hours - Audioshield
 			inventory_service_promo_appid = 412740
 			default_color = [ 0,128,255 ]
 		},
@@ -1520,7 +1542,7 @@
 			locked_by_quest = false
 			script = "props/neko_plushie"
 			inventory_service_id = 1026
-			inventory_service_promo_rules = "owns:386690" // must own Fantastic Contraption
+			inventory_service_promo_rules = "played:386690/120" // must have played for 2 hours - Fantastic Contraption
 			inventory_service_promo_appid = 386690
 			default_color = [ 255,255,255 ]
 		},
@@ -1532,7 +1554,7 @@
 			preview_image = "file://{images}/contentdb/gauntlet_trophy.png"
 			locked_by_quest = false
 			inventory_service_id = 1027
-			inventory_service_promo_rules = "owns:270130" // must own The Gallery - Episode 1: Call of the Starseed
+			inventory_service_promo_rules = "played:270130/120" // must have played for 2 hours - The Gallery - Episode 1: Call of the Starseed
 			inventory_service_promo_appid = 270130
 			default_color = [ 255,255,255 ]
 		},
@@ -1544,7 +1566,7 @@
 			preview_image = "file://{images}/contentdb/as_ammobox.png"
 			locked_by_quest = false
 			inventory_service_id = 1028
-			inventory_service_promo_rules = "owns:342180" // must own Arizona Sunshine
+			inventory_service_promo_rules = "played:342180/120" // must have played for 2 hours - Arizona Sunshine
 			inventory_service_promo_appid = 342180
 			default_color = [ 255,255,255 ]
 		},
@@ -1557,10 +1579,9 @@
 			equip_sound = "freeze_tool_equip"
 			preview_image = "file://{images}/contentdb/mrmeeseeks_ball001.png"
 			locked_by_quest = false
-			dev_only = true
 			inventory_service_id = 1029
 			default_color = [ 50,150,200 ]
-			inventory_service_promo_rules = "owns:469610" // must own Rick and Morty: Virtual Rick-ality
+			inventory_service_promo_rules = "played:469610/120" // must have played for 2 hours - Rick and Morty: Virtual Rick-ality
 			inventory_service_promo_appid = 469610
 		},
 		{
@@ -1571,7 +1592,7 @@
 			preview_image = "file://{images}/contentdb/airmech_striker_toy.png"
 			locked_by_quest = false
 			inventory_service_id = 1030
-			inventory_service_promo_rules = "owns:364630" // must own AirMech Command
+			inventory_service_promo_rules = "played:364630/120" // must have played for 2 hours - AirMech Command
 			inventory_service_promo_appid = 364630
 			default_color = [ 255,153,57 ]
 		},
@@ -1583,7 +1604,7 @@
 			preview_image = "file://{images}/contentdb/hj_gunther_toy.png"
 			locked_by_quest = false
 			inventory_service_id = 1031
-			inventory_service_promo_rules = "owns:380220" // must own Hover Junkers
+			inventory_service_promo_rules = "played:380220/120" // must have played for 2 hours - Hover Junkers
 			inventory_service_promo_appid = 380220
 			default_color = [ 255,255,255 ]
 		},
@@ -1613,7 +1634,7 @@
 			desc = "#VR_PhysicsProp_JSCoffeeMug_Desc"
 			content = "models/third_party/props/toys/js_coffee_mug.vmdl"
 			preview_image = "file://{images}/contentdb/js_coffee_mug.png"
-			inventory_service_promo_rules = "owns:448280" // must own Job Simulator
+			inventory_service_promo_rules = "played:448280/120" // must have played for 2 hours - Job Simulator
 			inventory_service_promo_appid = 448280
 			inventory_service_id = 1034
 			default_color = [ 246,246,213 ]
@@ -1624,10 +1645,101 @@
 			desc = "#VR_PhysicsProp_SeriousSamKleerHeadTrophy_Desc"
 			content = "models/third_party/props/toys/serious_sam_kleer_head_trophy.vmdl"
 			preview_image = "file://{images}/contentdb/serious_sam_kleer_head_trophy.png"
-			inventory_service_promo_rules = "owns:465240" // must own Serious Sam VR: The Last Hope
+			inventory_service_promo_rules = "played:465240/120" // must have played for 2 hours - Serious Sam VR: The Last Hope
 			inventory_service_promo_appid = 465240
 			inventory_service_id = 1035
 			default_color = [ 220,73,19 ]
+		},
+		{
+			id = "cosmic_trip_friendbot"
+			name = "#VR_PhysicsProp_CosmicTripFriendbot"
+			desc = "#VR_PhysicsProp_CosmicTripFriendbot_Desc"
+			content = "models/third_party/props/toys/cosmic_trip_friendbot.vmdl"
+			preview_image = "file://{images}/contentdb/cosmic_trip_friendbot.png"
+			inventory_service_promo_rules = "played:427240/120" // must have played for 2 hours - Cosmic Trip
+			inventory_service_promo_appid = 427240
+			inventory_service_id = 1036
+			script = "props/cosmic_trip_friendbot"
+			default_color = [ 239,167,29 ]
+		},
+		{
+			id = "anyland_ring"
+			name = "#VR_PhysicsProp_AnylandRing"
+			desc = "#VR_PhysicsProp_AnylandRing_Desc"
+			content = "models/third_party/props/toys/anyland_ring.vmdl"
+			preview_image = "file://{images}/contentdb/anyland_ring.png"
+			inventory_service_promo_rules = "played:505700/15" // must have played Anyland for 15 minutes (it's free-to-play)
+			inventory_service_promo_appid = 505700
+			inventory_service_id = 1037
+			default_color = [ 175,238,238 ]
+		},
+		{
+			id = "rec_room_bucket"
+			name = "#VR_PhysicsProp_RecRoomBucket"
+			desc = "#VR_PhysicsProp_RecRoomBucket_Desc"
+			content = "models/third_party/props/toys/rec_room_bucket.vmdl"
+			preview_image = "file://{images}/contentdb/rec_room_bucket.png"
+			inventory_service_promo_rules = "played:471710/60" // must have played Rec Room for 60 minutes (it's free-to-play)
+			inventory_service_promo_appid = 471710
+			inventory_service_id = 1038
+			default_color = [ 224,109,25 ]
+		},
+		{
+			id = "quivr_quiver_with_arrows"
+			name = "#VR_PhysicsProp_QuiVrQuiverWithArrows"
+			desc = "#VR_PhysicsProp_QuiVrQuiverWithArrows_Desc"
+			content = "models/third_party/props/toys/quivr_quiver_with_arrows.vmdl"
+			preview_image = "file://{images}/contentdb/quivr_quiver_with_arrows.png"
+			inventory_service_promo_rules = "played:489380/120" // must have played for 2 hours - QuiVr
+			inventory_service_promo_appid = 489380
+			inventory_service_id = 1039
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "rom_extraction_figurine"
+			name = "#VR_PhysicsProp_RomExtractionFigurine"
+			desc = "#VR_PhysicsProp_RomExtractionFigurine_Desc"
+			content = "models/third_party/props/toys/rom_extraction_figurine.vmdl"
+			preview_image = "file://{images}/contentdb/rom_extraction_figurine.png"
+			inventory_service_promo_rules = "played:530960/120" // must have played for 2 hours - ROM: Extraction
+			inventory_service_promo_appid = 530960
+			inventory_service_id = 1040
+			default_color = [ 167,164,128 ]
+		},
+		{
+			id = "superhotvr_figurine"
+			name = "#VR_PhysicsProp_SuperhotVRFigurine"
+			desc = "#VR_PhysicsProp_SuperhotVRFigurine_Desc"
+			content = "models/third_party/props/toys/superhotvr_figurine.vmdl"
+			preview_image = "file://{images}/contentdb/superhotvr_figurine.png"
+			inventory_service_promo_rules = "played:617830/120" // must have played for 2 hours - SUPERHOT VR
+			inventory_service_promo_appid = 617830
+			inventory_service_id = 1041
+			default_color = [ 230,0,0 ]
+			default_scale = 0.5
+		},
+		{
+			id = "fa_geebee_trophy"
+			name = "#VR_PhysicsProp_FAGeeBeeTrophy"
+			desc = "#VR_PhysicsProp_FAGeeBeeTrophy_Desc"
+			content = "models/third_party/props/toys/fa_geebee_trophy.vmdl"
+			preview_image = "file://{images}/contentdb/fa_geebee_trophy.png"
+			inventory_service_promo_rules = "played:380670/120" // must have played for 2 hours - Final Approach
+			inventory_service_promo_appid = 380670
+			inventory_service_id = 1042
+			default_color = [ 150,0,0 ]
+		},
+		{
+			id = "island359_t_rex_figurine"
+			name = "#VR_PhysicsProp_Island359TRexFigurine"
+			desc = "#VR_PhysicsProp_Island359TRexFigurine_Desc"
+			content = "models/third_party/props/toys/island359_t_rex_figurine.vmdl"
+			preview_image = "file://{images}/contentdb/island359_t_rex_figurine.png"
+			inventory_service_promo_rules = "played:476700/120" // must have played for 2 hours - Island 359
+			inventory_service_promo_appid = 476700
+			inventory_service_id = 1043
+			default_color = [ 255,255,255 ]
+			default_scale = 0.5
 		},
 		{
 			id = "test_complex_item"
@@ -1801,6 +1913,7 @@
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
 			dev_only = true
+
 		},
 		{
 			id = "dining_table001"
@@ -2482,6 +2595,7 @@
 			preview_image = "file://{images}/contentdb/hawaii_beach.png"
 			tags = "real"
 			timestamp_updated = 1496340312
+			dev_only = true
 		},
 
 	]

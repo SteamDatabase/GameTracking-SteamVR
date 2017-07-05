@@ -1197,6 +1197,47 @@ SteamToursFriends.Hidden {
 	transition-timing-function: bigpicture-ease-in-out;	
 }
 
+//SteamVR Beta branch lobby shenanigans
+
+.LobbyItem.InBeta,
+.Branch_Beta .LobbyItem
+{
+	visibility: collapse;
+}
+
+.Branch_Beta .LobbyItem.InBeta
+{
+	visibility: visible;
+}
+
+.BetaDesc
+{
+	color: #ffffff77;
+	font-size: 30px;
+	margin: 10px 150px 0px 30px;
+	visibility: collapse;
+}
+
+.WorldPanelPublicLobbies .BetaDesc
+{
+	color: #ffffff77;
+	font-size: 45px;
+	margin: 20px 60px 0px 60px;
+}
+
+.Branch_Beta .BetaDesc
+{
+	visibility: visible;
+}
+
+.WorldPanelPublicLobbies.IsHostingPublicLobby .BetaDesc,
+.WorldPanelPublicLobbies.IsHostingFriendsOnlyLobby .BetaDesc
+{
+	visibility: collapse;
+}
+
+//end beta branch shenanigans
+
 .InThisLobby.LobbyItem
 {
 	border: 2px solid white;	

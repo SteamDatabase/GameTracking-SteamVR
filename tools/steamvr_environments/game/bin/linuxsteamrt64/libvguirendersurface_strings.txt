@@ -576,7 +576,6 @@ D48D9
 D9y@tO
 D;!unsigned short{Hc
 D;'unsigned short{Hc
-D;5D61
 D;__float128(D
 D;cPD
 D;char D
@@ -1017,7 +1016,6 @@ Lc(D;unsigned char
 Lc+D;k
 Lc/E)
 Lc3D;short
-Lc5;61
 Lc6E9
 Lc7E)
 Lcc@H

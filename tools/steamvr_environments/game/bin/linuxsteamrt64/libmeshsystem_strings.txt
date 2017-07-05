@@ -2160,8 +2160,8 @@ gameinfo.txt
 gamematerial
 gameproperties
 generic
-gfffD
 gfffE
+gfffLc
 impactHardThreshold
 impacthard
 impactsoft

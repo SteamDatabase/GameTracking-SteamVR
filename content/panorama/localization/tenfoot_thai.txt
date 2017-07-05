@@ -616,10 +616,10 @@
 "[english]NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Transition_Progress_Description"	"กำลังรอ..."
 "[english]Transition_Progress_Description"	"WAITING FOR..."
-"Now_Waiting"	"กำลังรอ..."
+"Now_Waiting"	"กำลังรอ"
 "[english]Now_Waiting"	"WAITING..."
 "HomeAppCheck"	"สภาพแวดล้อม SteamVR แบบเสริมประสิทธิภาพ"
 "[english]HomeAppCheck"	"Enhanced SteamVR Environments"
-"HomeAppDesc"	"สภาพแวดล้อม SteamVR ใหม่รองรับพื้นที่บ้านที่ดียิ่งขึ้น คุณสมบัติทางสังคม และอีกมากมาย เข้าร่วมเพื่อทดสอบและให้ข้อเสนอแนะบนฟอรัม SteamVR"
+"HomeAppDesc"	"สภาพแวดล้อม SteamVR ใหม่สนับสนุนพื้นที่ภายในบ้านยิ่งขึ้น คุณสมบัติทางสังคม และอีกมากมาย เข้าร่วมเพื่อทดสอบและให้ข้อเสนอแนะบนฟอรัม SteamVR"
 "[english]HomeAppDesc"	"The new SteamVR Environments supports richer home spaces, social features, and more. Opt in to test and provide feedback on the SteamVR forums."
 }

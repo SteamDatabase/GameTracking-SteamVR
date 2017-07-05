@@ -2555,6 +2555,8 @@
 "[english]VR_PhysicsProp_AudioshieldShield001"	"Audio Shield"
 "VR_PhysicsProp_AudioshieldShield001_Desc"	"Müzikal bombardıman olduğu takdirde kuşanın.\n\nAudioshield'da görüldüğü gibi."
 "[english]VR_PhysicsProp_AudioshieldShield001_Desc"	"Equip in case of musical bombardment.\n\nUnlocked by owning Audioshield."
+"VR_PhysicsProp_NekoPlushie_Desc"	"Miyav miyav miyav miyav.\n\nFantastic Contraption sahip olunduğu için açıldı."
+"[english]VR_PhysicsProp_NekoPlushie_Desc"	"Meow meow meow meow.\n\nUnlocked by owning Fantastic Contraption."
 "VR_PhysicsProp_GauntletTrophy"	"Eldiven"
 "[english]VR_PhysicsProp_GauntletTrophy"	"The Gauntlet"
 "VR_PhysicsProp_ASAmmoBox"	"Cephane Kutusu"
@@ -2571,5 +2573,9 @@
 "[english]VR_Avatar_MptamHmd"	"Early Valve Prototype"
 "VivePromoTitle"	"Vive Öğeleri"
 "[english]VivePromoTitle"	"Vive Items"
+"VR_PhysicsProp_JSCoffeeMug"	"\"I <3 Job\" Kupası"
+"[english]VR_PhysicsProp_JSCoffeeMug"	"I <3 Job Mug"
+"VR_PhysicsProp_SeriousSamKleerHeadTrophy"	"Ciddi Kafatası"
+"[english]VR_PhysicsProp_SeriousSamKleerHeadTrophy"	"Serious Skull"
 }
 }
