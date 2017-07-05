@@ -1857,7 +1857,7 @@ D9 unsigned short)H
 D9'unsigned short,H
 D9(t1H
 D90tAH
-D9=9_7
+D9=9]7
 D9cP~DH
 D9{ u
 D:!ts
@@ -4889,12 +4889,13 @@ unsigned short#Hc{
 unsigned short%HcK
 unsigned short&Hcq
 unsigned short&Icw
-unsigned short'D;5
+unsigned short'D;5Nu6
 unsigned short'Hc{(H
 unsigned short'Hc{,H
 unsigned short'Hc{0H
 unsigned short'Hc{TH
 unsigned short'[A\]
+unsigned short);=B
 unsigned short*<*u
 unsigned short*<-H
 unsigned short*HcE

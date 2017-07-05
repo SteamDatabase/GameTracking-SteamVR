@@ -365,6 +365,7 @@ $t_Mc
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
+957S7
 9A$~WH
 9G ti+G$H
 9OD|[
@@ -918,7 +919,7 @@ D$@Hc
 D$@I9
 D$@L9
 D$DA9GDu
-D$HD98~FH
+D$HD98~NH
 D$HD;unsigned char
 D$HfA
 D$rfA
@@ -941,7 +942,7 @@ D24X8_SHADOW
 D84;unsigned short
 D8T;4
 D93~"Mc/E;unsigned __int128
-D9=int<(
+D9=int;(
 D9A$t
 D9c@~lH
 D9c\tC
@@ -1949,6 +1950,7 @@ WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 Wrong alignment %double
+X A8^ 
 X360_DST16
 X360_DST24
 X360_DST24F
@@ -2206,6 +2208,7 @@ kHt6L
 keyvalues3.cpp
 kv3format_manager.cpp
 l$ M9u
+l$:fA
 l$HfA
 l$PE1
 lBHfE
@@ -2489,7 +2492,6 @@ shaders\vfx\
 shaders_pc.vpk
 shaders_pcgl.vpk
 shaders_vulkan.vpk
-short A8v 
 short void&E1
 short=LcU
 signed char`unsigned short<L
@@ -2658,7 +2660,6 @@ z1u/H
 {0t	L
 {H+S$Hc
 {HD;unsigned __int128
-{S2Ew
 {hD9U
 {}()':
 {}[]()=&, 	
@@ -2666,6 +2667,7 @@ z1u/H
 |$(HcW
 |$@Lc
 |$HfA
+|$lfE
 |)D9}
 |sHf9
 }(HcW

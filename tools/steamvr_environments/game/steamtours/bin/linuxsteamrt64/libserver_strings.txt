@@ -1676,8 +1676,8 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%'p~
-.%@I~
+.%-!}
+.%vRR
 ...	?0e`9
 ..."u H
 ..."u I
@@ -1714,6 +1714,7 @@ $woL)
 ...:u8H
 ...:u8I
 ...;u9H
+...;u9I
 ...<u:A
 ...<u:H
 ...<u:[A\]
@@ -1795,15 +1796,14 @@ $woL)
 ../shared/weapon_parse_default.cpp
 ..\content
 .0z%u#
-.5)eW
-.5W&double
-.=6&double
-.=8$|
+.5Qoz
+.5YiW
+.=2"|
 .>()09
 .@(."
 .@,wqH
 .@Hz!
-.@TvaA
+.@TvDA
 .@T{`
 .@jfo!vCf?
 .@mV}
@@ -1887,7 +1887,6 @@ $woL)
 .K,...[
 .K8zBf
 .KdzIuGH
-.M; long
 .M;UU
 .N,wchar_t&
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
@@ -1904,7 +1903,7 @@ $woL)
 .W4{Jf.
 .[,...@u>H
 .[0fA
-.[xz-u+H
+.[xz+u)H
 .\$,w0I
 .],wchar_t!A
 ._,wchar_t!A
@@ -2197,6 +2196,7 @@ $woL)
 6@3333
 6@ffff
 6@u!V
+6D#5[__float128-
 6F+U F
 6H92t%H
 6H92u
@@ -2326,7 +2326,7 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;=X-[
+;=X)[
 ;@*$pV
 ;A0}4H
 ;Affff
@@ -2335,9 +2335,10 @@ $woL)
 ;Fht.A
 ;FhtID
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5iV
+;Hc54b
 ;K(}&H
 ;L9'u
+;L9?u
 ;L;7u
 ;O<gK
 ;S(}+H
@@ -2605,7 +2606,6 @@ $woL)
 ?F:"'FL
 ?H;{@unsigned short
 ?J(}!
-?L9'u
 ?LrA/<,M?+
 ?Mct$ 
 ?N%E\
@@ -3091,7 +3091,6 @@ A8F6t
 A8F7t
 A8Lcc D;c0
 A8Lck D;k0
-A8Lcs D;s0
 A8Mcl$ E;l$0
 A8Y(unsigned short
 A8~uLc
@@ -4821,6 +4820,7 @@ A}@3333
 B!@3333
 B#U@;long long
 B%short doesn'unsigned short like %short
+B(Lck D;k0
 B-Spline
 B09F0t H
 B0t}D
@@ -10593,7 +10593,6 @@ Cycles through the various hull sizes.  Currently selected hull size is written 
 C|[A\A]A^]
 D	0Hc
 D	0Lc
-D	short float
 D$  unsigned short	I
 D$ 9C 
 D$ 9C unsigned short
@@ -10687,7 +10686,6 @@ D$HH9
 D$HL;}
 D$HfA
 D$H~EA
-D$Lu!A
 D$PA\]
 D$PH9CP
 D$P[A\]
@@ -10763,15 +10761,18 @@ D+{$Mc
 D8kSt
 D9 unsigned short)H
 D9 ~NH
-D9%	G
-D9%*rG
+D9%#{A
+D9%27
+D9%9?
+D9%>8
+D9%ZC
 D9't$H
 D9'unsigned short,H
 D9(t1H
 D9(unsigned short'I
 D92tY1
-D95U$[
-D95a84
+D95!.4
+D95U [
 D9W(~mL
 D9c<unsigned short
 D9cP~DH
@@ -10793,17 +10794,19 @@ D; t3
 D;!unsigned short{Hc
 D;#}|E
 D;$%H
+D;%-<long double
+D;%IxL
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;,%H
-D;-'(R
-D;-X(R
-D;-_8Y
+D;-?4Y
+D;-?G
 D;.~3L
 D;.~9H
+D;5!|H
 D;:tPH
-D;=i4e
+D;=y2e
 D;G@t5H
 D;__float128 D
 D;__float128(D
@@ -10851,7 +10854,6 @@ D;sHD
 D;signed char(D
 D;unsigned __int128 D
 D;{(D
-D;~PD
 D@tI00
 DAMAGEORDEATH_INTERRUPTABILITY
 DAMAGE_EVENTS_ONLY
@@ -11846,7 +11848,7 @@ FCVAR_UNREGISTERED
 FCVAR_USERINFO
 FCVAR_VCONSOLE_SET_FOCUS
 FE0@$^
-FHH9GHt	[1
+FHH9GHt
 FIELD_BOOLEAN
 FIELD_CHARACTER
 FIELD_CLASSPTR
@@ -12681,93 +12683,94 @@ H:Ly?
 H;0tTH
 H;2t!H
 H;3t*H
-H;5qBd
 H;7t)H
-H;=	!4
-H;=	3|
-H;=	44
-H;=	B
-H;=	G4
-H;=	U
-H;= -Q
-H;= H
-H;= kP
-H;=) 2
-H;=)(4
-H;=);4
-H;=)I
-H;=)N4
-H;=.F2
-H;=.Y4
-H;=.x4
-H;=0/M
-H;=0rM
-H;=7VT
-H;=8i
-H;=9!
-H;=9"4
-H;=954
-H;=9C
-H;=9H4
-H;=9V
-H;=>D2
-H;=>v4
-H;=@^'
-H;=@wchar_t
-H;=@|P
-H;=AwO
-H;=C}
-H;=I'2
-H;=I/4
-H;=IB4
-H;=II
-H;=IN
-H;=IP
-H;=NB2
-H;=Nt4
-H;=OYT
-H;=ObT
-H;=P=M
-H;=P?,
-H;=PIM
-H;=PiT
-H;=S|
-H;=U9|
-H;=VfT
-H;=Y!2
-H;=Y)4
-H;=Y.
-H;=Y<4
-H;=YJ
-H;=YO4
-H;=YrP
-H;=Zi
-H;=^@2
-H;=^r4
-H;=^}
-H;=__int128!
-H;=__int128>2
-H;=_cT
-H;=`\S
-H;=elO
-H;=hwT
-H;=i64
-H;=iD
-H;=iI4
-H;=iW
-H;=int#4
-H;=ne
-H;=np4
-H;=unsigned long long(2
-H;=uzT
+H;=	/4
+H;=	3
+H;=	B4
+H;=	F
+H;=	TS
+H;= 9
+H;= NP
+H;= [M
+H;=)#2
+H;=)#4
+H;=)*|
+H;=)64
+H;=):
+H;=)I4
+H;=)TA
+H;=)aM
+H;=)|S
+H;=+TS
+H;=.)
+H;=...]'
+H;=.v4
+H;=0)Q
+H;=0*S
+H;=0:P
+H;=3d
+H;=5XT
+H;=5y{
+H;=8Z
+H;=904
+H;=94
+H;=9C4
+H;=9G
+H;=9h
+H;=9n
+H;=;AP
+H;=>t4
+H;=@+,
+H;=@GP
+H;=CLT
+H;=EM,
+H;=EM|
+H;=I*4
+H;=I5|
+H;=I=4
+H;=IA
+H;=IP4
+H;=IV
+H;=KaM
+H;=K|S
+H;=K}
+H;=M'}
+H;=N3
+H;=NH2
+H;=Nr4
+H;=S{
+H;=U0|
+H;=Y$2
+H;=Y$4
+H;=Y74
+H;=Y;
+H;=YJ4
+H;=ZZ
+H;=^-
+H;=^F2
+H;=^p4
+H;=^qT
+H;=^r
+H;=__int128]
+H;=`/Q
+H;=`mP
+H;=i14
+H;=i5
+H;=iD4
+H;=iH
+H;=nD2
+H;=nn4
+H;=p	M
+H;=p1M
+H;=ptM
+H;=unsigned long long+4
+H;=unsigned long long>4
+H;=wXT
 H;=y.
-H;=y04
-H;=yC4
-H;=yQ
-H;={rP
-H;=~#
-H;=~<2
-H;=~n4
+H;=yB
+H;=yQ4
+H;=~B2
+H;=~l4
 H;>unsigned short[H
 H;B0u
 H;C r
@@ -12850,9 +12853,6 @@ HasTag
 HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
-Hc5%P8
-Hc5X[A
-Hc5y`
 Hc@ H
 Hc@$H
 Hc@0M
@@ -14138,6 +14138,7 @@ J@ffff
 J@lxz
 JHMc,$D
 JHbQ*D
+JHu'H
 JLLc$WH
 Jc<&H
 Jc<(H
@@ -14288,14 +14289,13 @@ Lc!D;signed char
 Lc#D9b
 Lc#D;char
 Lc#E9
-Lc%bool>long double
+Lc%[xL
+Lc%r<long double
 Lc&D;float
 Lc'D;__float128
 Lc'E)
 Lc)D;int
 Lc+D;k
-Lc-((R
-Lc-S(R
 Lc/D;unsigned __int128
 Lc/E)
 Lc/E1
@@ -14332,6 +14332,7 @@ Lcg8D;gHD
 Lcg@D;gPD
 LcgHA
 LcgHD;gXD
+Lck D;k0
 Lck D;k0D
 Lck8D;kHD
 Lck@D;kPD
@@ -14640,6 +14641,7 @@ Maybe local angvel
 MbP?CBaseAnimatingOverlay
 Mc'E;__float128
 Mc,$D
+Mc,$E9l$
 Mc,$E;l$
 Mc,$H
 Mc,$L
@@ -15122,7 +15124,6 @@ O(UHc
 O.@Jt;
 O?0 ,	float
 O?ffff
-O@A;OP
 OBSTRUCTED 
 OCEnvMicrophone
 OFFGROUND!
@@ -17363,6 +17364,7 @@ T$(L!
 T$(L9t
 T$0H9
 T$0Hc
+T$0Hk
 T$0L9
 T$0Lc
 T$4tJH
@@ -18593,14 +18595,14 @@ VsInputSignature_t
 Vulkan
 W ;2t"H
 W H9r
+W%|!...
 W(Aq=
 W(H92t'H
-W- Lc
+W-pGc
+W-{{D
 W3|Uxa
-W5(>char
-W5?>char
-W5p>char
-W=_>char
+W5x9c
+W=double:char
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18808,9 +18810,12 @@ XfA9D]
 Xg8Hc
 XxHc@unsigned short
 Y ANb
-Y%38-
-Y%void+-
+Y%*r~
+Y%Qg$
+Y%s6-
+Y-#ls
 Y/&4@4
+Y5+ls
 Y6	@W'__float128(
 Y?3333E
 Y?[A\]
@@ -18892,7 +18897,6 @@ Z}uU
 [RateLimited!]
 [Tick: %int] Generated procedural shatter debris model "%short" %short
 [VtdB
-[[A\A]]
 []A\A]
 []A\A]A^
 []A\A]A^A_
@@ -18908,7 +18912,6 @@ Z}uU
 \$ H;
 \$ I9
 \$ [A\]
-\$(Mc
 \$HfA
 \$hIcEXI
 \%03o
@@ -20243,6 +20246,7 @@ cycler_flex
 cycler_flex used on model "%short" specified unknown sequence "%short"
 cycler_flex used on model %short without enough flexes.
 d$(D9
+d$0Hk
 d$XE1
 d3_breen_01
 d3_citadel_03
@@ -20790,9 +20794,9 @@ fA;\__int128
 fA;__int128
 fA;__int128imaginary 
 fA;float&&
+fD9%D!V
 fD9'unsigned short@H
 fD9/t0H
-fD90u
 fD91u|
 fD9cV
 fD;"unsigned short
@@ -22140,7 +22144,7 @@ long long*;XZ
 long long*@3333GJ
 long long*HcSx;
 long long:Hcw
-long long;;=,-[
+long long;;=,)[
 long long@CAI_TrackPather
 long long[A\A]A^A_]
 long long[A\A]]
@@ -27107,7 +27111,7 @@ npcstate
 nqCBJ
 ntThink
 ntilDeadH
-ntitf
+ntitfD
 num_attached_items
 num_backup_commands
 num_bits
@@ -28770,15 +28774,14 @@ szFailSchedule
 szIdealSchedule
 szName
 szSchedule
-t$ A\]
 t$'H)
 t$(E;t$8D
 t$0A\]
 t$0H)
 t$0Lc
+t$0Mk
 t$89C
 t$8H)
-t$;5e
 t$<H)
 t$@A;wchar_t@~
 t$@A\]
@@ -28845,7 +28848,7 @@ tA[A\]
 tAffffhF
 tB<#unsigned short>
 tCHc]
-tCLc%4
+tCLc%unsigned short
 tEE;G
 tEMcY
 tEMci
@@ -29245,7 +29248,7 @@ unsigned short#LckXD;khD
 unsigned short%HcO
 unsigned short%Mc4$E;t$
 unsigned short%[A\A]A^]
-unsigned short&D;=U
+unsigned short&D;=long double
 unsigned short&HcC
 unsigned short&Hcq
 unsigned short'<"unsigned short
@@ -29298,7 +29301,7 @@ unsigned short+[A\]
 unsigned short+fA9
 unsigned short,I9}
 unsigned short,I;q
-unsigned short,Lc%
+unsigned short,Lc%u
 unsigned short,Mc}
 unsigned short-Mc,$E;l$
 unsigned short-rex
@@ -29336,6 +29339,7 @@ unsigned short{E;l$
 unsigned short{HcM
 unsigned short{HcO
 unsigned short{Icv
+unsigned short|#C,
 unsigned short|#CL
 unsigned short}#CL
 unsigned short}HcM
@@ -29897,7 +29901,6 @@ zsuq1
 zt?Updating goal pos
 zuusH
 zuusI
-zvutI
 zxuvH
 zxuvI
 zxuvM
@@ -30041,7 +30044,7 @@ zzuxI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=
+~)H9=S	S
 ~)H;_
 ~*HcE
 ~*I;X

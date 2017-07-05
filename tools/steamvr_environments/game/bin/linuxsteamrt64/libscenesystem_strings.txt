@@ -521,8 +521,8 @@ $uxA
 )NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
 )NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
 )NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
-*%rj
-*-6rj
+*%bvj
+*-fvj
 *:JZjz
 *CMemberFunctor1<CParallelProcessorAbstract<CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}> >*, void (CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}>::*)(int), int, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 *InitLightBinnerVr(IRenderContext*, CSceneView*, unsigned long long, unsigned long long)::{lambda(CEnvMapSceneObject*)#1}
@@ -2205,7 +2205,7 @@ D9|$
 D:...	tUHc
 D:...	unsigned short
 D;!unsigned short{Hc
-D;%)8j
+D;%Y<unsigned int
 D;'unsigned short{Hc
 D;.~9H
 D;P0}B
@@ -2268,6 +2268,8 @@ Double-register of KV3 conversion (from '%short' to '%short')
 Double-save to Member '%short'
 Downsample2x
 Downsample4x
+Draw Cal
+Draw CalI
 Draw Calls: 
 Draw Proxy: qh:%p org:<%double,%double,%double> (frame:%double)
 Draw everything normal and ignore the source for rendering
@@ -3104,6 +3106,7 @@ Lc!D;signed char
 Lc#D;char
 Lc#E9
 Lc&D;float
+Lc'D;__float128
 Lc'E)
 Lc+D;k
 Lc/E)
@@ -3428,6 +3431,7 @@ Num occluders:
 Num occlusion renders: 
 Num tris created from clipping: 
 Num tris rasterized: 
+Number oH
 Number of Object culled by vis: 
 Number of display lists submitted: 
 Number of jobs used to render: 
@@ -4003,7 +4007,6 @@ ToolScriptManager001
 ToolService_001
 Total Lights: %double
 TranslucentScreenSpace
-Triangle
 Triangles Rendered: 
 Tried to calc delta to signed char src message of signed char different type.
 Tried to load signed char polymorphic pointer with no '%short' key
@@ -4276,7 +4279,7 @@ VrLightCookieSettings
 VsInputSignature_t
 W H9r
 W,HcG(E
-W->N0
+W-NU0
 W0Hc_8A
 WARNING
 WARNING: Could not find schema data for helper class for resource type %lld '%short'. (Missing MDiskDataForResourceType metadata or schema data isn'unsigned short loaded?)
@@ -4318,9 +4321,13 @@ X360_DST24F
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
-Y%:B)
+Y%)m2
+Y%zB)
+Y-5m2
+Y5{\5
 Y89Z8
-Y=NV0
+Y=.]0
+Y=int\5
 YD$$L
 YR ~UK
 YS|fE
@@ -4354,7 +4361,7 @@ Zero length tRNS chunk
 ]0t@H
 ]Ht,A
 ^ unsigned short+H
-^%BY5
+^%Rb5
 ^XM;S0
 ^[A\A]]
 _ ~`I
@@ -4850,13 +4857,12 @@ draw2D
 drawmaterialquad2
 drawspotlights
 e$~sH
-ed: H
 eikonal
 elements
 ema H
 empty_string_ != __null
 encoding
-endeH
+endef
 entityfiltername
 entitylumpname
 error in user chunk
@@ -4904,9 +4910,7 @@ float %double %double %double
 float == __null || dynamic_cast<To>(float) != __null
 float displaH
 float jobs uH
-float renderH
 float views H
-float world H
 float( %float )
 float;C*wchar_t
 float;C.w
@@ -4988,7 +4992,6 @@ incorrect data check
 incorrect gamma=(%double/100000)
 incorrect header check
 incorrect length check
-indsH
 infinity
 input_type
 instanceidbuffer
@@ -5093,6 +5096,7 @@ longjmp@@GLIBC_2.2.5
 looping
 lowprecisionuv
 lowprecisionuv1
+ls: A
 ls: H
 lseek
 lseek@@GLIBC_2.2.5
@@ -5627,7 +5631,6 @@ null material
 num_server_players
 number
 nxnstripped
-occludersceneobject.cpp(92): 
 occlusionproxyvb
 oneof_decl
 oneof_index
@@ -5891,8 +5894,8 @@ sform roH
 shader_roughness_cone
 shader_roughness_ellipse
 shadowcolor
-short RenderH
 short off
+short unsigned short}H
 short void&E1
 short ~YH
 short(~YH
@@ -6032,7 +6035,6 @@ t_Lc]
 tanf@@GLIBC_2.2.5
 tangent
 tangentu_signv
-target bH
 tb[A\]
 tcHcQ
 tdA:]
@@ -6065,7 +6067,6 @@ trHcO
 trailing_comments
 transformtexture_.vtex
 transparency
-traversaH
 trunc
 trunc@@GLIBC_2.2.5
 ttIcG

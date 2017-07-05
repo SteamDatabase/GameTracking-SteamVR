@@ -1355,7 +1355,7 @@ $~gHc
 (1@zD
 (8HXhx
 (9s ~@H
-(=kn'
+(=[unsigned __int128'
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1377,7 +1377,7 @@ $~gHc
 (E9g 
 (E9g ~jH
 (E9l$ 
-(E9nH~aH
+(E9oH~eH
 (Existing entry.)
 (Gprop_dynamic
 (H97txH
@@ -1826,6 +1826,7 @@ $~gHc
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 .%0*llu
 .(Optional) Set of tags for the published file.
+.-SGB
 ...	?0e`9
 ... axis
 ..."u H
@@ -1953,7 +1954,6 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.5$M.
 .>()09
 .>N^__int128~
 .@(."
@@ -2224,7 +2224,6 @@ $~gHc
 0E;D$(
 0E;L$ 
 0E;T$ 
-0JcD' 
 0Lc`0
 0N2(	
 0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
@@ -2673,9 +2672,9 @@ $~gHc
 ;C(}+H
 ;C@tXH
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5 
 ;K(}&H
 ;O<gK
+;P0}$H
 ;PX|'H
 ;S(}+H
 ;Sp~'
@@ -3002,7 +3001,7 @@ $~gHc
 ?C_FuncAreaPortalWindow
 ?C_GameEntity
 ?C_TestTraceline
-?D;%$
+?D;%H
 ?D]`,
 ?DebugAutoComplete
 ?F:"'FL
@@ -3137,6 +3136,7 @@ $~gHc
 ?~U.T
 ?~]<rZ&
 @	N} unsigned long long
+@  u!1
 @  u#H
 @ <bool>@import</bool> 
 @ A9G 
@@ -3567,6 +3567,7 @@ A9\$0A
 A9\$4|
 A9\$H
 A9\$H~,I
+A9\$L~
 A9\double|
 A9\long long
 A9]PI
@@ -3584,6 +3585,7 @@ A;D$ |
 A;D$(|
 A;D$@unsigned short
 A;D$H|
+A;D$PA
 A;D$PtME
 A;D$d
 A;D$h
@@ -3614,13 +3616,14 @@ A;T$0}T
 A;T$P
 A;T$Pt
 A;T$\
-A;V0}
 A;V0}L
 A;W`~IA
 A;\$ 
 A;\$ A
 A;\$(
 A;\$0t
+A;\$L|8
+A;\$L}
 A;\$`I
 A;\$|r
 A;\double
@@ -3649,7 +3652,7 @@ A;^0}+I
 A;^8}#I
 A;_X~JA
 A;_`I
-A;longimaginary |$
+A;longimaginary |
 A;t$(
 A;t$0
 A;t$8
@@ -5510,6 +5513,8 @@ BoxAngles
 Bp9Fpt
 Brahmi
 Braille
+Branch_Beta
+Branch_Release
 BreakModelCreateSingle: clientside doesn'unsigned short support ragdoll breakmodels.
 BreakModelsPrecached
 BreakThiH
@@ -10319,6 +10324,7 @@ D9(unsigned short'I
 D9+~[L
 D90t[A
 D9;~dL
+D9=i7
 D9D$4B
 D9D$4H
 D9F<~
@@ -10359,13 +10365,12 @@ D:...	tUHc
 D:...	unsigned short
 D; unsigned short=H
 D;!unsigned short{Hc
-D;%Bu
+D;%u66
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;+};H
-D;-?long double
-D;-i.
+D;-91
 D;.~3L
 D;.~9H
 D;:tPH
@@ -10990,7 +10995,6 @@ E;float(|
 E;float(}
 E;float,~
 E;float@}
-E;g8~IA
 E;gL|
 E;l$ 
 E;l$ D
@@ -11005,9 +11009,11 @@ E;l$0|
 E;l$0}
 E;l$0}AI
 E;l$8}$HcC8
+E;l$8~NA
 E;l$@}
 E;l$@}$HcC@
 E;l$H}
+E;l$L
 E;l$P}
 E;l$P}$HcCP
 E;l$X}
@@ -12428,92 +12434,85 @@ H;0tHH
 H;0t]Hc
 H;0u%
 H;2u%
-H;5c@
 H;8tU
 H;8t]
 H;:unsigned short(float
-H;=!long
-H;="$
-H;=#~1
-H;=&$
-H;=&%
-H;=&D
-H;=&F
-H;=&~
-H;=(	1
-H;=(7>
-H;=(L;
-H;=*K
-H;=-'O
-H;=-_
-H;=1)
-H;=1=
-H;=1W5
-H;=1[
-H;=3TU
-H;=4J
-H;=6D
-H;=8F0
-H;=8v
-H;=8{
-H;=9/
-H;=:G
-H;=:^
-H;==unsigned __int128
-H;=A#
-H;=A#0
-H;=AL
-H;=BC>
-H;=Er0
-H;=F)
-H;=FB
-H;=Fo
-H;=Hl>
-H;=PK
-H;=Q4C
-H;=Qm
-H;=R^
-H;=SW5
-H;=T]
-H;=Us(
-H;=V@
-H;=XL<
-H;=Xu>
-H;=Xy
-H;=ZH-
-H;=]J
-H;=^B>
-H;=aR<
-H;=char#0
+H;=	5
+H;= C>
+H;= H
+H;=!.1
+H;=#$5
+H;=&@
+H;=&B
+H;=&unsigned int
+H;='<
+H;=(*5
+H;=(7:
+H;=(W-
+H;=)AF
+H;=*:
+H;=->O
+H;=-G
+H;=0d
+H;=1!
+H;=1*
+H;=5 
+H;=6>
+H;=8G
+H;=8q,
+H;=8|-
+H;=9uT
+H;=?<
+H;=A$
+H;=A[
+H;=Ai
+H;=A{
+H;=A}$
+H;=C.1
+H;=F<
+H;=FC>
+H;=FH
+H;=FV
+H;=G7
+H;=H&
+H;=H7<
+H;=HP5
+H;=Hd
+H;=H}
+H;=InK
+H;=K"
+H;=K~
+H;=Qe
+H;=Q~1
+H;=V:
+H;=VG
+H;=Z 
+H;=_7
+H;=az
+H;=f8
 H;=fk
-H;=float>
-H;=hJ
-H;=i0
-H;=ihC
-H;=int/C
-H;=jr0
-H;=long double#
-H;=long long)
-H;=long long|
-H;=q$
-H;=q,O
-H;=qF&
-H;=signed char*
-H;=signed char\
-H;=unsigned char;1
-H;=unsigned char=5
-H;=unsigned long long const
+H;=float`
+H;=hO-
+H;=ha5
+H;=iRT
+H;=ko
+H;=lC>
+H;=lH
+H;=long long	1
+H;=long long~
+H;=q%
+H;=qQ
+H;=qj
+H;=short~1
+H;=signed char+
+H;=unsigned char{
 H;=unsigned long volatile
-H;=vK
-H;=vX&
+H;=v6
 H;=vi
-H;=void#
-H;=void<
-H;=xE5
-H;=xV>
-H;=xw
-H;={%
-H;=}{N
+H;=void volatile
+H;=x7>
+H;=xL;
+H;=}'O
 H;>unsigned short[H
 H;C I
 H;C r
@@ -12631,7 +12630,8 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5JQ
+Hc5V[unsigned int
+Hc5eQ
 Hc8Hi
 Hc@ H
 Hc@$H
@@ -12894,7 +12894,7 @@ I90t!I
 I90t0I
 I98t&I
 I98ts1
-I9F`A
+I9G`A
 I9GhH
 I9T$H
 I9pPt
@@ -13176,6 +13176,7 @@ IcD$@
 IcD$@9
 IcD$@A
 IcD$@I
+IcD$D
 IcD$H
 IcD$H9
 IcD$HA
@@ -13210,14 +13211,12 @@ IcG A
 IcG A;G0
 IcG(A
 IcG(H
-IcG<I
 IcG@A9
 IcGPA;G`
 IcGPH)
 IcGdD
 IcGdE)
 IcGhI)
-IcH A9
 IcL$(I
 IcL$`
 IcL$`H9
@@ -13335,6 +13334,7 @@ Importing signed char response system with no Rules
 Improper call to JPEG library in state %double
 In logon queue; waiting for GC to confirm connection.
 In:%float Out:%float Frametime:%float
+InBeta
 InMemoryFileUpdate
 InMemoryFilesSaved
 InSettings
@@ -13781,6 +13781,7 @@ L$$IcL$ E
 L$(;q0twH
 L$(H9
 L$0 I
+L$0+Q A
 L$0A;
 L$0D9
 L$0Hc
@@ -13903,7 +13904,7 @@ Lc!D;signed char
 Lc"D;bool
 Lc#D;char
 Lc#E9
-Lc%9u
+Lc%	r
 Lc&D;float
 Lc'D;__float128
 Lc'E)
@@ -13920,6 +13921,7 @@ Lc7E)
 Lc;D;{
 Lc?D;
 Lc@`L9
+LcA E9
 LcA(E9
 LcB`L9
 LcKlH
@@ -14801,7 +14803,6 @@ O(A9O
 O(H;t;H
 O(UHc
 O.@Jt;
-O0+Q A
 O0A;GH
 O0~_G
 O<D8M
@@ -15176,7 +15177,7 @@ Permit Responses
 PersonaName
 PersonaNameReplacementToken
 PersonalBubbleSlider
-PhHc5
+PhHc5Y
 Phags_Pa
 Phoenician
 Phoneme delay to account for sound system latency.
@@ -15704,7 +15705,6 @@ RegisterStringToken
 ReinitPredictables
 Rejang
 Relative score of this match'short quality (based on number of criteria matched)
-Release
 ReleaseLast
 ReleaseMessage
 ReleaseParticleIndex
@@ -16948,6 +16948,7 @@ T$"<iA
 T$$A;U
 T$$IcT$ E
 T$(;J to
+T$(D!
 T$(E1
 T$(Hc
 T$(L!
@@ -16977,12 +16978,8 @@ T$hA)
 T$lHc
 T$pH9
 T$pL)
-T%!f.
-T%%h.
-T%3d.
-T%fg.
-T%zc.
-T-_e.
+T%&h.
+T%:d.
 T.$Hc
 T0@GZ
 T5i@H
@@ -17973,16 +17970,16 @@ Vulkan
 W H9r
 W HcE
 W%:O&unsigned short
-W%^Z'
+W%NZ'
 W(Aq=
 W(H92t'H
 W,:V,u
-W-vb7
 W0Hc_8A
 W0t	H
 W3|Uxa
-W5<unsigned __int128-
-W=unsigned __int128complex -
+W5lq-
+W5uow
+W=sq-
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18169,7 +18166,6 @@ Wrong alignment %double
 Wzm6V"
 W{@3333
 X zR&="@r
-X%Mv6
 X(Optional) If true, only return the published file ids of files that satisfy this query.
 X0~tA
 X2:jH
@@ -18194,14 +18190,12 @@ X\V@%
 X^'@double
 XboxSystemInterface001
 Y ANb
-Y%$Qw
-Y%)V9
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-CR`
-Y-long:/
+Y-Kdw
+Y-long</
 Y/&4@4
 Y6	@W'__float128(
-Y=!#8
+Y=a$8
 Y?3333E
 Y?OnTimerPaused
 Y@C_PropVRHand
@@ -18331,7 +18325,6 @@ Z}uU
 \$hIcEXI
 \$xA;
 \%03o
-\-knI
 \C not allowed in lookbehind assertion
 \I8r!H
 \N is not supported in signed char class
@@ -18367,7 +18360,7 @@ Z}uU
 ^ unsigned short+H
 ^$IcV 
 ^$IcV E
-^%unsigned short)	
+^%double)	
 ^)8~@
 ^,...=u;
 ^-wf"
@@ -20657,7 +20650,6 @@ eyelid_up_down
 eyes_follow
 eyes_rightleft
 eyes_updown
-f0E;float@D
 f90tG
 f98w0
 f9Cnr
@@ -20685,6 +20677,7 @@ fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB94`
 fD9 unsigned short
+fD9%D=
 fD9/t0H
 fD91u|
 fD9cV
@@ -21882,7 +21875,7 @@ justify_vertical
 k tQL
 k([A\A]A^]
 k(tHH
-k(unsigned short%H
+k(tRH
 k0tRH
 k5@3333;
 k5s@=
@@ -22072,7 +22065,9 @@ l$ fA
 l$,long long-L
 l$0[M
 l$4D9
+l$8E9
 l$8Ic
+l$HA9
 l$HfA
 l$XfA
 l$hA+^@
@@ -26987,6 +26982,7 @@ steam://open/bigpicture/library/
 steam://open/bigpicture/librarydetails/%u
 steam://open/bigpicture/workshopitem/%llu
 steamTours_item_tool
+steam_branch
 steam_id
 steam_level
 steam_txn_type
@@ -27253,7 +27249,6 @@ t$0Lc
 t$4Lc
 t$8E1
 t$8H)
-t$;5E
 t$<	unsigned short 
 t$<H)
 t$@A;wchar_t@~
@@ -27288,7 +27283,7 @@ t$pH)
 t$xE;
 t$xH)
 t.D9p
-t.D;%}
+t.D;%M
 t.Lc#M
 t.fA9
 t0Mcv
@@ -27314,6 +27309,7 @@ t6 H)
 t6H;C t0H
 t6Lc#H
 t6Lc#I
+t7 Ic
 t7<.u&
 t7D;&~&L
 t7D;.~'L
@@ -27331,7 +27327,7 @@ tAw3A
 tBL;unsigned char L
 tCLc%
 tC[A\A]A^]
-tD@:5Y
+tD@:5
 tDHcx D
 tEMcY
 tEMci
@@ -27399,7 +27395,7 @@ taunt
 tax_usd
 tbHcO
 tb[A\]
-tc@:5T
+tc@:5
 tcHcQ
 tchinese
 td@Q4
@@ -27804,7 +27800,6 @@ unsigned short!HcO
 unsigned short!Hc\
 unsigned short!Lc#D;char
 unsigned short!Lc+D;k
-unsigned short" Hc
 unsigned short"+wHx
 unsigned short"HcK
 unsigned short"HcM
@@ -27825,18 +27820,19 @@ unsigned short#Lck
 unsigned short#[A\A]A^]
 unsigned short%;2t%H
 unsigned short%D;%
-unsigned short%D;-
+unsigned short%D;-signed char(
 unsigned short%L;long double
 unsigned short%Mc4$E;t$
 unsigned short%[A\A]A^]
 unsigned short%[A\]
 unsigned short&@8>unsigned short+H
-unsigned short&D;%
+unsigned short&D;%U
 unsigned short&D;=
+unsigned short&D;=E
 unsigned short&Hc]
 unsigned short&Hcq
 unsigned short'<"unsigned short
-unsigned short'D;5
+unsigned short'D;5n
 unsigned short'Hc{
 unsigned short'Hc{ H
 unsigned short'Hc{$H
@@ -27855,7 +27851,7 @@ unsigned short'Lcs
 unsigned short'[A\]
 unsigned short(92t(H
 unsigned short(<)u
-unsigned short(D;=?
+unsigned short(D;=
 unsigned short(E;u
 unsigned short(HcO
 unsigned short(Ic}(H
@@ -27863,9 +27859,9 @@ unsigned short(Ic},H
 unsigned short(Ic}@H
 unsigned short(Ic~0H
 unsigned short([A\A]A^]
-unsigned short);5B
+unsigned short);=bool
 unsigned short)D;=
-unsigned short)D;=unsigned char
+unsigned short)D;=8
 unsigned short)Lc+D;k
 unsigned short* Hc
 unsigned short*(Hc
@@ -27873,9 +27869,7 @@ unsigned short*:E1
 unsigned short*<*u
 unsigned short*<-H
 unsigned short*D;-
-unsigned short*D;-q
 unsigned short*D;5
-unsigned short*D;5a
 unsigned short*HcC
 unsigned short*HcE
 unsigned short*HcKH
@@ -27897,7 +27891,7 @@ unsigned short+IcD$
 unsigned short+Jc4
 unsigned short+Mcl$pE;
 unsigned short+fA9
-unsigned short,D;={
+unsigned short,D;=
 unsigned short,Mc}
 unsigned short,Ut[I
 unsigned short-LcH
@@ -27906,6 +27900,7 @@ unsigned short-rex
 unsigned short-void char::*
 unsigned short/9w t29w0t=1
 unsigned short/H;E
+unsigned short/Lc+
 unsigned short:Lc+Ic
 unsigned short:[A\]
 unsigned short;[A\]
@@ -28721,6 +28716,7 @@ zyuwA
 |P>~k
 |]J@E
 |a2U0
+|cE9'u
 |sA;t$0
 |xA;t$P
 |yA;t$8

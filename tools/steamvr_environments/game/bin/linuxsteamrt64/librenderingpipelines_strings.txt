@@ -1479,7 +1479,7 @@ P8A9^p
 POSITION
 POSIX
 P[A\A]A^]
-P`D;u 
+P`D;} 
 PaintPost0
 PaintPost1
 PaintPost2

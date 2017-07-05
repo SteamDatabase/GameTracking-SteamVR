@@ -1958,7 +1958,6 @@ cfg/videodefaults.txt
 channels
 char restrict?Quh
 char@L9cHv
-char`hC]>+
 cheat
 chlist
 client
