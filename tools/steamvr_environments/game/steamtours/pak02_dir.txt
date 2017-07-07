@@ -469,7 +469,7 @@ particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
 resource/gameevents.res CRC:001284caec size:1002
 resource/modevents.res CRC:00a360fb36 size:903
 resource/serverevents.res CRC:000df59f67 size:3694
-scripts/contentdb.txt CRC:00bebfa4c2 size:101074
+scripts/contentdb.txt CRC:004b7c3f38 size:101072
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70

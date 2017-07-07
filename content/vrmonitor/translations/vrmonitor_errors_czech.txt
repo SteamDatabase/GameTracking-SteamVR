@@ -843,5 +843,9 @@
 "[english]VRInitError_Compositor_UnableToCreateDevice_Description"	"The compositor was unable to create a graphics device as part of its initialization."
 "VRInitError_Compositor_UnableToCreateDevice_Action"	"Více informací"
 "[english]VRInitError_Compositor_UnableToCreateDevice_Action"	"Troubleshooting"
+"Lighthouse_BasestationInternalFault_06_Action"	"Přejít na htcvive.com/support"
+"[english]Lighthouse_BasestationInternalFault_06_Action"	"Visit htcvive.com/support"
+"Lighthouse_BasestationInternalFault_07_Action"	"Přejít na htcvive.com/support"
+"[english]Lighthouse_BasestationInternalFault_07_Action"	"Visit htcvive.com/support"
 }
 }

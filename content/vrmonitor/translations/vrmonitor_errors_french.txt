@@ -841,5 +841,17 @@
 "[english]VRInitError_Compositor_UnableToCreateDevice_Description"	"The compositor was unable to create a graphics device as part of its initialization."
 "VRInitError_Compositor_UnableToCreateDevice_Action"	"Dépannage"
 "[english]VRInitError_Compositor_UnableToCreateDevice_Action"	"Troubleshooting"
+"Lighthouse_BasestationInternalFault_06_Header"	"Station de base inutilisable"
+"[english]Lighthouse_BasestationInternalFault_06_Header"	"Base station unusable"
+"Lighthouse_BasestationInternalFault_06_Description"	"Une station de base a rencontré une erreur interne (erreur 06). Veuillez débrancher puis rebrancher le câble d’alimentation de la station de base dont le voyant rouge clignote. Si le problème persiste, veuillez contacter le constructeur pour recevoir de l'aide."
+"[english]Lighthouse_BasestationInternalFault_06_Description"	"A base station has developed an internal problem (fault 06). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_06_Action"	"Visiter htcvive.com/support"
+"[english]Lighthouse_BasestationInternalFault_06_Action"	"Visit htcvive.com/support"
+"Lighthouse_BasestationInternalFault_07_Header"	"Station de base inutilisable"
+"[english]Lighthouse_BasestationInternalFault_07_Header"	"Base station unusable"
+"Lighthouse_BasestationInternalFault_07_Description"	"Une station de base a rencontré une erreur interne (erreur 07). Veuillez débrancher puis rebrancher le câble d’alimentation de la station de base dont le voyant rouge clignote. Si le problème persiste, veuillez contacter le constructeur pour recevoir de l'aide."
+"[english]Lighthouse_BasestationInternalFault_07_Description"	"A base station has developed an internal problem (fault 07). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_07_Action"	"Visiter htcvive.com/support"
+"[english]Lighthouse_BasestationInternalFault_07_Action"	"Visit htcvive.com/support"
 }
 }

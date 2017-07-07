@@ -838,5 +838,7 @@ Du behöver kontakta HTC."
 "[english]Popover_LowBattery_HMD_Header"	"HMD ready with low battery"
 "Popover_LowBattery_HMD_Description"	"Denna HMD är ansluten och spårar men batterinivån är låg."
 "[english]Popover_LowBattery_HMD_Description"	"This HMD is connected and tracking but the battery is low."
+"VRInitError_Compositor_UnableToCreateDevice_Action"	"Felsökning"
+"[english]VRInitError_Compositor_UnableToCreateDevice_Action"	"Troubleshooting"
 }
 }

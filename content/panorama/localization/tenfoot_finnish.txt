@@ -510,7 +510,7 @@
 "[english]VRSettingsBackground"	"Customize"
 "VRSettingsCamera"	"Kameran asetukset"
 "[english]VRSettingsCamera"	"Camera Settings"
-"VRSettings_CameraInDashboard"	"Ota kamera käyttöön kojelaudalla"
+"VRSettings_CameraInDashboard"	"Käynnistä kamera kojelaudalla"
 "[english]VRSettings_CameraInDashboard"	"Enable Camera in Dashboard"
 "VRSettings_CameraInChaperone"	"Käytä kameraa Chaperone-rajoihin"
 "[english]VRSettings_CameraInChaperone"	"Use Camera for Chaperone Bounds"

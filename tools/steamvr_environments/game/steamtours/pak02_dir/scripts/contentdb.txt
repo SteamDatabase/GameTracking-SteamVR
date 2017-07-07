@@ -1179,7 +1179,7 @@
 			content = "models/third_party/props/accessories/to_the_top_kitsune_mask.vmdl"
 			preview_image = "file://{images}/contentdb/to_the_top_kitsune_mask.png"
 			locked_by_quest = false
-			//inventory_service_id = 270
+			inventory_service_id = 270
 			inventory_service_promo_rules = "played:509250/120" // must have played for 2 hours - To The Top
 			inventory_service_promo_appid = 509250
 			default_color = [ 209,13,32 ]
