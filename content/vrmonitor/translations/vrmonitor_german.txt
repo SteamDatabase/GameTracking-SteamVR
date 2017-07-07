@@ -1926,8 +1926,6 @@
 "[english]BugReporter_ReportType"	"Report Type:"
 "BugReporter_ReportType_Bug"	"Fehler"
 "[english]BugReporter_ReportType_Bug"	"Bug"
-"BugReporter_ReportType_FeatureRequest"	"Funktionswunsch"
-"[english]BugReporter_ReportType_FeatureRequest"	"Feature Request"
 "BugReporter_ReportType_Feedback"	"Feedback"
 "[english]BugReporter_ReportType_Feedback"	"Feedback"
 "BugReporter_PreviewReport"	"Vorschau"

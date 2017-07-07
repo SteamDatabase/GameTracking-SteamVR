@@ -843,13 +843,5 @@
 "[english]VRInitError_Compositor_UnableToCreateDevice_Description"	"The compositor was unable to create a graphics device as part of its initialization."
 "VRInitError_Compositor_UnableToCreateDevice_Action"	"Arıza Giderme"
 "[english]VRInitError_Compositor_UnableToCreateDevice_Action"	"Troubleshooting"
-"Lighthouse_BasestationInternalFault_06_Header"	"Ana üs kullanım dışı"
-"[english]Lighthouse_BasestationInternalFault_06_Header"	"Base station unusable"
-"Lighthouse_BasestationInternalFault_06_Action"	"htcvive.com/support sayfasını ziyaret edin"
-"[english]Lighthouse_BasestationInternalFault_06_Action"	"Visit htcvive.com/support"
-"Lighthouse_BasestationInternalFault_07_Header"	"Ana üs kullanım dışı"
-"[english]Lighthouse_BasestationInternalFault_07_Header"	"Base station unusable"
-"Lighthouse_BasestationInternalFault_07_Action"	"htcvive.com/support adresini ziyaret edin"
-"[english]Lighthouse_BasestationInternalFault_07_Action"	"Visit htcvive.com/support"
 }
 }

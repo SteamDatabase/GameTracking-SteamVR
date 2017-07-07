@@ -1971,7 +1971,5 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"Tryb nocny przyciemnia gogle do 5:00 (lub do chwili ponownego uruchomienia SteamVR)."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
-"Settings_PauseOnStandby"	"Wstrzymaj renderowanie, gdy gogle są w stanie bezczynności"
-"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }
