@@ -1945,9 +1945,15 @@
 "[english]BugReporter_SubmissionTimeout"	"Submission Timeout.\n\nThe network upload is taking longer than expected. Please try again later.\n"
 "BugReporter_ProgressSubmittingPercent"	"Invio in corso...%1%"
 "[english]BugReporter_ProgressSubmittingPercent"	"Submitting...%1%"
+"Settings_HomeAppCheck"	"SteamVR Home (Beta)"
+"[english]Settings_HomeAppCheck"	"SteamVR Home Beta"
+"Settings_HomeAppDesc"	"Il nuovo SteamVR Home consente spazi iniziali migliori, funzionalità \"social\" e molto altro. Questa funzionalità è attualmente in beta: facci sapere cosa ne pensi nei forum."
+"[english]Settings_HomeAppDesc"	"The new SteamVR Home experience supports richer home spaces, social features, and more. This feature is currently in Beta, please provide feedback on the forums."
 "Settings_NightModeCheck"	"Modalità notturna"
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"La modalità notturna attenua la luminosità del visore fino alle 5 del mattino (o fino al riavvio di SteamVR)."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_PauseOnStandby"	"Sospendi il rendering mentre il visore è inattivo"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

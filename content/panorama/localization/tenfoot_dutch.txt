@@ -630,4 +630,6 @@
 "[english]GoHome"	"GO HOME"
 "QuitApp"	"APP AFSLUITEN"
 "[english]QuitApp"	"QUIT APP"
+"VRSettingsKnucklesTitle"	"Knuckles"
+"[english]VRSettingsKnucklesTitle"	"Knuckles"
 }

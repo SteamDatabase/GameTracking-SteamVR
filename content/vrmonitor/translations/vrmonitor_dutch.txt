@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"dutch"
 "Tokens"
@@ -1818,5 +1818,7 @@
 "[english]BugReporter_PreviewReport"	"Preview Report"
 "BugReporter_ProgressSubmitting"	"Verzenden..."
 "[english]BugReporter_ProgressSubmitting"	"Submitting..."
+"Settings_HomeAppCheck"	"SteamVR Home (bèta)"
+"[english]Settings_HomeAppCheck"	"SteamVR Home Beta"
 }
 }

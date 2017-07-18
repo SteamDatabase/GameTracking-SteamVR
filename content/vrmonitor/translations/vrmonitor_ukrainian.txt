@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"ukrainian"
 "Tokens"
@@ -1967,5 +1967,7 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"Нічний режим затемнює шолом до 5:00 (або до перезапуску SteamVR)."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_PauseOnStandby"	"Призупиняти візуалізацію, коли шолом бездіяльний"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

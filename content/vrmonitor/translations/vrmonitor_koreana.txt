@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"korean"
 "Tokens"
@@ -1891,6 +1891,8 @@
 "[english]MenuAction_Workshop_ViewWiki"	"SteamVR Environments Wiki"
 "Settings_EnableLinuxGPUProfiling"	"GPU 정보 수집 가능"
 "[english]Settings_EnableLinuxGPUProfiling"	"Enable GPU profiling"
+"BugReporter_ReportType_FeatureRequest"	"기능 요청"
+"[english]BugReporter_ReportType_FeatureRequest"	"Feature Request"
 "Settings_HomeAppCheck"	"SteamVR 홈 베타"
 "[english]Settings_HomeAppCheck"	"SteamVR Home Beta"
 "Settings_HomeAppDesc"	"새로 바뀐 SteamVR Home 경험은 더욱 알찬 홈 공간과 소셜 기능 등을 지원합니다. 해당 기능은 현재 베타에서 사용 가능합니다. 포럼에서 피드백을 제공해 주세요."
@@ -1899,5 +1901,7 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"야간 모드는 오전 5시까지(또는 SteamVR을 다시 시작하기 전까지) 헤드셋의 밝기를 낮춥니다."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_PauseOnStandby"	"헤드셋이 유휴 상태일 때 렌더링 일시 정지"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

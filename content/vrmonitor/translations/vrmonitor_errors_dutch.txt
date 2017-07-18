@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"dutch"
 "Tokens"
@@ -815,5 +815,15 @@
 "[english]Popover_LowBattery_HMD_Header"	"HMD ready with low battery"
 "Popover_LowBattery_HMD_Description"	"Deze HMD is verbonden en volgt, maar de batterij is bijna leeg."
 "[english]Popover_LowBattery_HMD_Description"	"This HMD is connected and tracking but the battery is low."
+"Lighthouse_BasestationInternalFault_06_Header"	"Basisstation onbruikbaar"
+"[english]Lighthouse_BasestationInternalFault_06_Header"	"Base station unusable"
+"Lighthouse_BasestationInternalFault_07_Header"	"Basisstation onbruikbaar"
+"[english]Lighthouse_BasestationInternalFault_07_Header"	"Base station unusable"
+"Warning_DismissableWarning_NeedKnucklesDriver_Action"	"Stuurprogramma installeren"
+"[english]Warning_DismissableWarning_NeedKnucklesDriver_Action"	"Install Driver"
+"Warning_DismissableWarning_NewDriverInstalled_Header"	"Nieuw stuurprogramma geïnstalleerd"
+"[english]Warning_DismissableWarning_NewDriverInstalled_Header"	"New Driver Installed"
+"Warning_DismissableWarning_NewDriverInstalled_Action"	"Opnieuw opstarten"
+"[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
 }
 }

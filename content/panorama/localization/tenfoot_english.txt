@@ -329,6 +329,13 @@
 	"SettingsTime_1h" "after 1 hour of idle time"
 	"SettingsTime_Never" "Never"
 
+	"VRSettingsKnucklesTitle" "Knuckles"
+	"VRSettingsKnuckles_CapsenseMode" "Cap Sense Mode"
+	"KnucklesCapsenseMode_0" "Finger Tracking (Default)"
+	"KnucklesCapsenseMode_1" "Finger Tracking Disabled"
+	"KnucklesCapsenseMode_2" "Cap Sense controls Trigger"
+	"KnucklesCapsenseMode_3" "Cap Sense controls Grip"
+	
 	"VRSettingsGeneral" "SteamVR Settings"
 	"VRSettingsChaperone" "Chaperone Settings"
 	"VRSettingsBackground" "Customize"

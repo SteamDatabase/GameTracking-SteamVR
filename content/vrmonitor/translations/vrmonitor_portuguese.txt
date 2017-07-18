@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"portuguese"
 "Tokens"
@@ -1963,13 +1963,15 @@
 "[english]BugReporter_SubmissionTimeout"	"Submission Timeout.\n\nThe network upload is taking longer than expected. Please try again later.\n"
 "BugReporter_ProgressSubmittingPercent"	"A enviar...%1%"
 "[english]BugReporter_ProgressSubmittingPercent"	"Submitting...%1%"
-"Settings_HomeAppCheck"	"Central do SteamVR (Beta)"
+"Settings_HomeAppCheck"	"SteamVR Home (Beta)"
 "[english]Settings_HomeAppCheck"	"SteamVR Home Beta"
-"Settings_HomeAppDesc"	"A nova Central do SteamVR permite espaços iniciais melhores, funcionalidades sociais e muito mais. Atualmente em fase Beta; por favor, diz-nos o que achas nos fóruns."
+"Settings_HomeAppDesc"	"O SteamVR Home permite espaços iniciais melhores, funcionalidades sociais e muito mais. Atualmente em fase Beta; por favor, diz-nos a tua opinião nos fóruns."
 "[english]Settings_HomeAppDesc"	"The new SteamVR Home experience supports richer home spaces, social features, and more. This feature is currently in Beta, please provide feedback on the forums."
 "Settings_NightModeCheck"	"Modo noturno"
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"O modo noturno reduz o brilho do headset até às 5:00 (ou até o SteamVR ser reiniciado)."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_PauseOnStandby"	"Pausar renderização se headset estiver inativo"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

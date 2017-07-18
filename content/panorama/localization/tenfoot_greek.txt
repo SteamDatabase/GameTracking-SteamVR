@@ -632,4 +632,6 @@
 "[english]QuitApp"	"QUIT APP"
 "Customization_Disclaimer"	"Αν τα Ενισχυμένα μέρη SteamVR είναι ενεργά, χρησιμοποιήστε το μενού εντός εφαρμογής για να προσαρμόσετε τον αρχικό σας χώρο."
 "[english]Customization_Disclaimer"	"If Enhanced SteamVR Environments is enabled, use the in-app menu to customize your home space."
+"VRSettingsKnucklesTitle"	"Knuckles"
+"[english]VRSettingsKnucklesTitle"	"Knuckles"
 }

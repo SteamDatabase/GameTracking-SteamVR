@@ -1837,6 +1837,8 @@
 "[english]FirmwareWizard_UpdateGenericTracker_Success_MiddleText"	"Tracker firmware successfully updated. You may need to power cycle the tracker before the firmware registers as updated. "
 "FirmwareWizard_UpdateGenericTracker_Success_LowerText"	"Klik på \"Færdig\" for at afslutte eller \"Opdater mere firmware\", hvis du har mere hardware at opdatere."
 "[english]FirmwareWizard_UpdateGenericTracker_Success_LowerText"	"Click 'Done' to finish, or 'Update More Firmware' if you have more hardware to update. "
+"VRInitError_Driver_HmdUnknown_Description"	"Det specifikke headset-serienummer, du har indtastet i indstillinger, kan ikke findes."
+"[english]VRInitError_Driver_HmdUnknown_Description"	"The specific headset serial number named in the settings cannot be found."
 "Settings_Advanced_Supersampling_Header"	"Supersampling"
 "[english]Settings_Advanced_Supersampling_Header"	"Supersampling"
 "Settings_Advanced_Supersampling_RequiresRestart"	"Denne ændring kræver at SteamVR genstartes for at træde i kraft."
@@ -1901,5 +1903,7 @@
 "[english]BugReporter_SubmissionTimeout"	"Submission Timeout.\n\nThe network upload is taking longer than expected. Please try again later.\n"
 "BugReporter_ProgressSubmittingPercent"	"Indsender...%1%"
 "[english]BugReporter_ProgressSubmittingPercent"	"Submitting...%1%"
+"Settings_PauseOnStandby"	"Sæt rendering på pause mens headsettet er passivt"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

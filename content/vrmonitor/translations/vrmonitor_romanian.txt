@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"romanian"
 "Tokens"
@@ -445,6 +445,8 @@
 "[english]Advanced_StatsWillBeLive"	""
 "Advanced_CurConfig"	"<CurConfig>"
 "[english]Advanced_CurConfig"	"<CurConfig>"
+"Advanced_RunPerfTest"	"Rulează testul de performanță"
+"[english]Advanced_RunPerfTest"	"Run Performance Test"
 "Advanced_LoadPerfTest"	"Încarcă rezultatele testului..."
 "[english]Advanced_LoadPerfTest"	"Load Test Results..."
 "Advanced_DrawingCompositor"	"Compozitor"
@@ -887,6 +889,8 @@
 "[english]FirmwareWizard_CameraUpdate"	"Camera Update"
 "FirmwareWizard_VRCUpdate"	"Actualizare VRC"
 "[english]FirmwareWizard_VRCUpdate"	"VRC Update"
+"FirmwareWizard_DisplayFPGAUpdate"	"Afișează actualizarea FPGA"
+"[english]FirmwareWizard_DisplayFPGAUpdate"	"Display FPGA Update"
 "Settings_BaseStationsWakeUpAll"	"Trezește toate stațiile de bază"
 "[english]Settings_BaseStationsWakeUpAll"	"Wake Up All Base Stations"
 "VRState_PseudoState_Waiting"	"Se așteaptă..."

@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"tchinese"
 "Tokens"
@@ -835,5 +835,11 @@
 "[english]Popover_LowBattery_HMD_Header"	"HMD ready with low battery"
 "Popover_LowBattery_HMD_Description"	"該頭戴顯示器已連線並且定位但電力不足。"
 "[english]Popover_LowBattery_HMD_Description"	"This HMD is connected and tracking but the battery is low."
+"VRInitError_Compositor_UnableToCreateDevice_Header"	"疊影器無法建立裝置"
+"[english]VRInitError_Compositor_UnableToCreateDevice_Header"	"Compositor Unable to Create Device"
+"VRInitError_Compositor_UnableToCreateDevice_Description"	"疊影器無法在初始化過程中建立影像裝置。"
+"[english]VRInitError_Compositor_UnableToCreateDevice_Description"	"The compositor was unable to create a graphics device as part of its initialization."
+"VRInitError_Compositor_UnableToCreateDevice_Action"	"疑難排解"
+"[english]VRInitError_Compositor_UnableToCreateDevice_Action"	"Troubleshooting"
 }
 }

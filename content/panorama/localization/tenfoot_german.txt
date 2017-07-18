@@ -634,4 +634,10 @@
 "[english]QuitApp"	"QUIT APP"
 "Customization_Disclaimer"	"Wenn die Einstellung \"Erweiterte SteamVR-Umgebungen\" aktiviert ist, nutzen Sie bitte das Menü in der App, um Ihre Startumgebung anzupassen."
 "[english]Customization_Disclaimer"	"If Enhanced SteamVR Environments is enabled, use the in-app menu to customize your home space."
+"VRSettingsKnucklesTitle"	"Knuckles"
+"[english]VRSettingsKnucklesTitle"	"Knuckles"
+"KnucklesCapsenseMode_0"	"Fingererfassung (Standard)"
+"[english]KnucklesCapsenseMode_0"	"Finger Tracking (Default)"
+"KnucklesCapsenseMode_1"	"Fingererfassung deaktiviert"
+"[english]KnucklesCapsenseMode_1"	"Finger Tracking Disabled"
 }

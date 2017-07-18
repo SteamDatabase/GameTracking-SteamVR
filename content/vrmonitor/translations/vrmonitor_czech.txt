@@ -1970,5 +1970,7 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"V nočním režimu je do 5.00 ráno (nebo do restartování režimu SteamVR) headset ztmavený."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_PauseOnStandby"	"Pozastavit renderování, když je headset nečinný"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }
