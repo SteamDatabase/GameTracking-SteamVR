@@ -140,8 +140,9 @@
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
-		type = "destinations.simple_vr_oneshot"
+		type = "destinations.simple_vr"
 		volume = 0.1
+		block_stop = 1.0
 		volume_falloff_min = 100.0
 		volume_falloff_max = 1000.0
 		vsnd_files = 
@@ -252,6 +253,50 @@
 			"sounds/props/drone_impact_01.vsnd",
 			"sounds/props/drone_impact_02.vsnd",
 			"sounds/props/drone_impact_03.vsnd",
+		]
+	}}
+
+"prop_boxing_robot_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr_scalable"
+		volume = 0.5
+		vsnd_files = 
+		[
+			"sounds/props/clockwerk_mask_impact_01.vsnd",
+			"sounds/props/clockwerk_mask_impact_02.vsnd",
+			"sounds/props/clockwerk_mask_impact_03.vsnd",
+		]
+	}}
+
+"prop_boxing_glove_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr_scalable"
+		volume = 0.3
+		vsnd_files = 
+		[
+			"sounds/props/boxing_glove_impact_01.vsnd",
+			"sounds/props/boxing_glove_impact_02.vsnd",
+			"sounds/props/boxing_glove_impact_03.vsnd",
+			"sounds/props/boxing_glove_impact_04.vsnd",
+		]
+	}}
+
+"prop_gym_weights_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr_scalable"
+		volume = 0.3
+		vsnd_files = 
+		[
+			"sounds/props/gym_weights_impact_01.vsnd",
+			"sounds/props/gym_weights_impact_02.vsnd",
+			"sounds/props/gym_weights_impact_03.vsnd",
+			"sounds/props/gym_weights_impact_04.vsnd",
 		]
 	}}
 

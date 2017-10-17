@@ -1,0 +1,77 @@
+{
+    "action_binds" : [
+        {
+            "action" : "/actions/system/SystemButtonChord",
+            "source" : "/filters/system_button/held"
+        },
+        {
+            "action" : "/actions/system/ToggleDashboard",
+            "source" : "/filters/system_button/single"
+        },
+        {
+            "action" : "/actions/system/TakeScreenshot",
+            "source" : "/filters/screenshot_chord/result"
+        },
+        {
+            "action" : "/actions/system/ShowPowerMenu",
+            "source" : "/filters/system_button/long"
+        },
+        {
+            "action" : "/actions/system/ToggleRoomView",
+            "source" : "/filters/system_button/double"
+        },
+        {
+            "action" : "/actions/lasermouse/Pointer",
+            "source" : "/user/hand/primary/pose"
+        },
+        {
+            "action" : "/actions/lasermouse/LeftClick",
+            "source" : "/user/hand/primary/trigger/click"
+        },
+        {
+            "action" : "/actions/lasermouse/Back",
+            "source" : "/user/hand/primary/grip"
+        },
+        {
+            "action" : "/actions/lasermouse/Home",
+            "source" : "/user/hand/primary/application_menu"
+        },
+        {
+            "action" : "/actions/lasermouse/SwitchLaserHand",
+            "source" : "/user/hand/secondary/trigger/click"
+        }
+    ],
+
+	"filters" :[
+		{
+			"name" : "system_button",
+			"type" : "boolean_button_press_state",
+			"input" : "/devices/*/system",
+			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse" ],
+			"cancel_on_action_sets" : [ "/actions/chord" ],
+			"parameters" : 
+			{
+				"long_press_delay" : 1.5
+			},
+			"output" : 							 
+			{
+				"long" : "long",
+				"double" : "double",
+				"single" : "single",
+				"held" : "held"
+			}
+		},
+		{
+			"name" : "screenshot_chord",
+			"type" : "boolean_and",
+			"action_sets" : [ "/actions/chord" ],
+			"input" : 
+			{
+				"1":"/filters/system_button/held",
+				"2":"/user/hand/*/trigger/click"
+			},
+			"output" : "result"
+		}
+
+	]
+}

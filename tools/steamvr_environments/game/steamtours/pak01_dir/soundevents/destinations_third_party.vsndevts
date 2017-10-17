@@ -30,7 +30,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_can_do.vsnd"
 	}}
 
@@ -40,7 +39,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_yes_sirree.vsnd"
 	}}
 
@@ -50,7 +48,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_existence_is_pain.vsnd"
 	}}
 
@@ -60,7 +57,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_golf.vsnd"
 	}}
 
@@ -70,7 +66,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_all_done.vsnd"
 	}}
 
@@ -80,7 +75,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_cant_take_it.vsnd"
 	}}
 
@@ -90,7 +84,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_fumbling.vsnd"
 	}}
 
@@ -100,7 +93,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_getting_weird.vsnd"
 	}}
 
@@ -110,7 +102,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_yes_mam.vsnd"
 	}}
 
@@ -120,7 +111,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_look_at_me.vsnd"
 	}}
 
@@ -130,7 +120,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_spawn.vsnd"
 	}}
 
@@ -140,7 +129,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_delete.vsnd"
 	}}
 
@@ -150,7 +138,6 @@
 	{
 		type = "destinations.simple_vr"
 		volume = 0.5
-		fade_in = 0.1
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_box_button.vsnd"
 	}}
 

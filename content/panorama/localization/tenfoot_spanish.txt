@@ -634,4 +634,8 @@
 "[english]Customization_Disclaimer"	"If Enhanced SteamVR Environments is enabled, use the in-app menu to customize your home space."
 "VRSettingsKnucklesTitle"	"Knuckles"
 "[english]VRSettingsKnucklesTitle"	"Knuckles"
+"KnucklesCapsenseMode_0"	"Seguimiento de dedos (predeterminado)"
+"[english]KnucklesCapsenseMode_0"	"Finger Tracking (Default)"
+"KnucklesCapsenseMode_1"	"Seguimiento de dedos desactivado"
+"[english]KnucklesCapsenseMode_1"	"Finger Tracking Disabled"
 }

@@ -39,6 +39,10 @@
  CommandLine
  ConColorMsg(Color const&, char const*, ...)
  ConMsg(char const*, ...)
+ Coroutine_Continue
+ Coroutine_Create
+ Coroutine_DebugBreak
+ Coroutine_YieldToMain
  CreateNewThreadPool
  CreateSimpleThread
  DevMsg
@@ -115,6 +119,7 @@
  Plat_ShouldCollectMiniDumpsForFatalErrors
  Plat_ShutdownCOM
  Plat_TickDiffMilliSecF
+ Plat_TicksAfterMicroSecs
  Plat_TranslateSymbolicLinks
  Plat_UUIDFromString
  Plat_UUIDToString
@@ -136,10 +141,13 @@
  SteamAPI_GetHSteamPipe
  SteamAPI_GetHSteamUser
  SteamAPI_Init
+ SteamAPI_RegisterCallResult
  SteamAPI_RegisterCallback
+ SteamAPI_UnregisterCallResult
  SteamAPI_UnregisterCallback
  SteamGameServer_GetHSteamPipe
  SteamGameServer_GetHSteamUser
+ SteamInternal_ContextInit
  SteamInternal_CreateInterface
  T BinaryProperties_GetValue
  T CreateInterface
@@ -182,9 +190,9 @@
  V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
  V_UnicodeLength(char const*)
  V_UnqualifiedFileName
- V_acos
  V_acosf
  V_asinf
+ V_atan2
  V_atan2f
  V_atanf
  V_atod
@@ -216,7 +224,6 @@
  V_strtoui64
  V_strupper_fast
  V_swscanf
- V_tan
  V_tanf
  V_vscprintf
  V_vsnprintf

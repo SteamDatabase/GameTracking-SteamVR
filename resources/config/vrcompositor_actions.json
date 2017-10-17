@@ -1,0 +1,98 @@
+{
+    "actions" : [
+        {
+            "name" : "/actions/system/ToggleDashboard",
+            "type" : "boolean",
+			"scope" : "global"
+        },
+        {
+            "name" : "/actions/system/TakeScreenshot",
+            "type" : "boolean",
+			"scope" : "global"
+        },
+        {
+            "name" : "/actions/system/ShowPowerMenu",
+            "type" : "boolean",
+			"scope" : "global"
+        },
+        {
+            "name" : "/actions/system/SystemButtonChord",
+            "type" : "boolean",
+			"scope" : "global"
+        },
+        {
+            "name" : "/actions/system/ToggleRoomView",
+            "type" : "boolean",
+			"scope" : "global"
+        },
+        {
+            "name" : "/actions/lasermouse/SwitchLaserHand",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/Pointer",
+            "type" : "pose"
+        },
+        {
+            "name" : "/actions/lasermouse/LeftClick",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/RightClick",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/Home",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/Back",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/MoveRight",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/MoveUp",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/MoveLeft",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/MoveDown",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/Enter",
+            "type" : "boolean"
+        }
+    ],
+
+    "localization" : [
+        {
+            "language_tag": "en",
+
+            "/actions/system/ToggleDashboard" : "Toggle Dashboard",
+            "/actions/system/TakeScreenshot" : "Take Screenshot",
+            "/actions/system/ToggleRoomView" : "Toggle Room View",
+            "/actions/system/SystemButtonChord" : "System Button",
+            "/actions/system/ShowPowerMenu" : "Show Power Menu",
+
+            "/actions/lasermouse/LeftClick" : "Left Click",
+            "/actions/lasermouse/RightClick" : "Right Click",
+            "/actions/lasermouse/Home" : "Home",
+            "/actions/lasermouse/Back" : "Back",
+            "/actions/lasermouse/MoveRight" : "Move Right",
+            "/actions/lasermouse/MoveUp" : "Move Up",
+            "/actions/lasermouse/MoveLeft" : "Move Left",
+            "/actions/lasermouse/MoveDown" : "Move Down",
+
+			"/actions/normal" : "Normal operation",
+			"/actions/chord" : "System Button Chords",
+			"/actions/lasermouse" : "Laser Mouse"
+        }
+    ]
+}

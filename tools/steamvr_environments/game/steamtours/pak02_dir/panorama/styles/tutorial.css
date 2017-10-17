@@ -297,26 +297,20 @@
 
 .ViveHelp, 
 .ControllerHelp,
-.TouchHelp
+.TouchHelp,
+.WinMRHelp
 {
 	visibility: collapse;
 }
 
 
 .ViveController .ViveHelp,
-.KnucklesController .ViveHelp
+.KnucklesController .ViveHelp,
+.GamepadController .ControllerHelp,
+.TouchController .TouchHelp,
+.WinMRController .WinMRHelp
 {
 	visibility: visible;
-}
-
-.GamepadController .ControllerHelp
-{
-	visibility: visible;
-}
-
-.TouchController .TouchHelp
-{
-	visibility: visible;	
 }
 
 .NextButton,
@@ -336,7 +330,10 @@
 .GamepadController .Page3 .DoneButton,
 .TouchController .Page1 .NextButton,
 .TouchController .Page2 .NextButton,
-.TouchController .Page3 .DoneButton
+.TouchController .Page3 .DoneButton,
+.WinMRController .Page1 .NextButton,
+.WinMRController .Page2 .NextButton,
+.WinMRController .Page3 .DoneButton
 {
 	visibility: visible;	
 }

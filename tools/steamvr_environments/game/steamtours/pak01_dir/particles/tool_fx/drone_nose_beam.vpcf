@@ -6,20 +6,6 @@
 	m_Renderers = 
 	[
 		{
-			_class = "C_OP_RenderModels"
-			m_ModelList = 
-			[
-				{
-					m_model = resource:"particles/tracer_fx/tracer/tracer.vmdl"
-				},
-			]
-			m_bAnimated = true
-			m_bManualAnimFrame = true
-			m_nManualFrameField = 26
-			m_flAnimationRate = 0.000000
-			m_bDisableOperator = true
-		},
-		{
 			_class = "C_OP_RenderSprites"
 			m_bDisableOperator = true
 		},

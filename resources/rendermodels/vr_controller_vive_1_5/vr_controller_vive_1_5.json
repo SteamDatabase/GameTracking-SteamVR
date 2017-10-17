@@ -7,6 +7,7 @@
                 "type":"rotate",
                 "controller_axis":1,
                 "controller_axis_component":0,
+                "trigger_path" : "/trigger",
                 "value_mapping": [0.0,-17.0],
                 "pivot": [0.0000, -0.016, 0.039],
                 "axis": [1.0, 0.0, 0.0]
@@ -21,6 +22,7 @@
             "motion":{
                 "type":"trackpad",
                 "controller_axis": 0,
+                "component_path" : "/trackpad",
                 "center": [0.0, 0.002, 0.049],
                 "rotate_xyz": [6.55,0.0,0.0],
                 "press_rotation_x": [7,-7],
@@ -41,6 +43,7 @@
             "motion":{
                 "type":"trackpad",
                 "controller_axis": 0,
+                "component_path" : "/trackpad",
                 "center": [0.0, 0.002, 0.049],
                 "rotate_xyz": [6.55,0.0,0.0],
                 "press_rotation_x": [7,-7],
@@ -64,6 +67,7 @@
             "filename": "l_grip.obj",
             "motion":{
                 "type":"rotate",
+                "pressed_path" : "/grip",
                 "controller_button": 2,
                 "value_mapping": [0.0,2.0],
                 "pivot": [-0.019, -0.006, 0.075],
@@ -78,6 +82,7 @@
             "filename": "r_grip.obj",
             "motion":{
                 "type":"rotate",
+                "pressed_path" : "/grip",
                 "controller_button": 2,
                 "value_mapping": [0.0,-2.0],
                 "pivot": [0.019, -0.006, 0.075],
@@ -92,6 +97,7 @@
             "filename": "sys_button.obj",
             "motion":{
                 "type":"translate",
+                "pressed_path" : "/system",
                 "controller_button": 0,
                 "value_mapping": [0.0, 0.00075],
                 "axis": [0.0, -1.0, 0.0]
@@ -105,6 +111,7 @@
             "filename": "button.obj",
             "motion":{
                 "type":"translate",
+                "pressed_path" : "/application_menu",
                 "controller_button": 1,
                 "value_mapping": [0.0, 0.00075],
                 "axis": [0.0, -1.0, 0.0]
@@ -166,6 +173,8 @@
             "filename": "scroll_wheel.obj",
             "motion":{
                 "type":"rotate",
+                "touched_path" : "/trackpad/touch",
+                "x_path" : "/trackpad/y",
                 "controller_axis":0,
                 "controller_axis_component":1,
                 "value_mapping": [0.0,-40.0],

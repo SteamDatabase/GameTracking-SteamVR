@@ -18,6 +18,7 @@
 @define background_center_gradient_hover: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #1f5673 ), to( #12334c ) );
 
 @define background_center_gradient_dark: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #0e3c55 ), to( #12334c ) );
+@define background_center_gradient_darker: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #0e3c55 ), to( #0d2537 ) );
 
 @define button_gradient: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #1f5673 ), to( #12334c ) );
 @define button_gradient_hover: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #2b6483 ), to( #397595 ) );

@@ -31,7 +31,7 @@
 		"volume"        "0.1"
 		"pitch"         "100"    
 		"time"          "30, 40"		
-		"soundlevel"    "SNDLVL_70dB"
+		"soundlevel"    "SNDLVL_60dB"
 		"position"      "1"
 		"rndwave"
 		{
@@ -46,7 +46,7 @@
 		"volume"        "0.1"
 		"pitch"         "100"     
 		"time"          "40, 50"
-		"soundlevel"    "SNDLVL_60dB"
+		"soundlevel"    "SNDLVL_50dB"
 		"position"      "0"
 		"rndwave"
 		{
@@ -87,7 +87,7 @@
 		"volume"        "0.1"
 		"pitch"         "100"    
 		"time"          "30, 40"		
-		"soundlevel"    "SNDLVL_80dB"
+		"soundlevel"    "SNDLVL_70dB"
 		"position"      "1"
 		"rndwave"
 		{
@@ -102,7 +102,7 @@
 		"volume"        "0.1"
 		"pitch"         "100"     
 		"time"          "40, 50"
-		"soundlevel"    "SNDLVL_80dB"
+		"soundlevel"    "SNDLVL_70dB"
 		"position"      "0"
 		"rndwave"
 		{

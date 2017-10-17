@@ -34,7 +34,9 @@ function RegisterCommunityItemPanel()
 			parentPanel.RemoveClass( "Hidden" );
 
 			parentPanel.SetAttributeString( "publishedfileid", data.publishedfileid );
-
+			parentPanel.SetAttributeInt( "image_width", data.imageWidth );
+			parentPanel.SetAttributeInt( "image_height", data.imageHeight );
+			
 			// extra stuff for Environments
 			if ( data.fromSection == "environments" )
 			{
@@ -197,7 +199,7 @@ function RegisterCommunityItemPanel()
 							var visitBtn = panel.FindChildTraverse( "VisitBtn" );
 							var onVisit = function( publishedfileid ) {
 								return function() {
-									$.DispatchEvent( "ShowContentBrowserMaps" );
+									$.DispatchEvent( "ShowContentBrowserSection", "Maps" );
 									$.DispatchEvent( "ShowItemDetails", "workshop_" + publishedfileid );
 								}
 							} ( details.publishedfileid );
@@ -218,7 +220,7 @@ function RegisterCommunityItemPanel()
 		}
 	} (parentPanel);
 	GameEvents.Subscribe( "HideCommunityItemDetail", onHide );
-	
+
 	var rgPanels = [ parentPanel.FindChildTraverse( "CommunityItem" ), parentPanel.FindChildTraverse( "EnvironmentDetail" ) ];
 	for ( var i = 0; i < rgPanels.length; ++i )
 	{		
@@ -260,5 +262,21 @@ function RegisterCommunityItemPanel()
 		}( parentPanel );
 		var nextItemBtn = panelDetails.FindChildTraverse( "NextItemBtn" );
 		nextItemBtn.SetPanelEvent( "onactivate", showNextItem );
+
+		// spawn in-world copy
+		if ( i == 0 )
+		{
+			var saveCopy = function( panel ) {
+				return function() {
+					// spawn the in-world panel
+					var publishedfileid = panel.GetAttributeString( "publishedfileid", "" );
+					var image_width = panel.GetAttributeInt( "image_width", 256 );
+					var image_height = panel.GetAttributeInt( "image_height", 256 );
+					SteamVRHome.SpawnImagePanel( publishedfileid, image_width, image_height );
+				}
+			}( parentPanel );
+			var saveCopyBtn = panelDetails.FindChildTraverse( "SaveCopyBtn" );
+			saveCopyBtn.SetPanelEvent( "onactivate", saveCopy );
+		}
 	}
 }

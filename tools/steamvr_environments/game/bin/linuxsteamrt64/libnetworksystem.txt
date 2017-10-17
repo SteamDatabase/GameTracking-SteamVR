@@ -73,15 +73,18 @@
  RegisterStringToken
  SteamAPI_GetHSteamPipe
  SteamAPI_GetHSteamUser
+ SteamAPI_RegisterCallResult
  SteamAPI_RegisterCallback
+ SteamAPI_UnregisterCallResult
  SteamAPI_UnregisterCallback
- SteamDatagramClient_Init
+ SteamDatagramClient_Init_Internal
+ SteamDatagramClient_Internal_SteamAPIKludge
  SteamDatagramClient_Kill
- SteamDatagramServer_Init
+ SteamDatagramServer_Init_Internal
  SteamDatagramServer_Kill
+ SteamDatagram_SetDebugOutputFunction
  SteamGameServer_GetHSteamPipe
  SteamGameServer_GetHSteamUser
- SteamInternal_ContextInit
  SteamInternal_CreateInterface
  SteamNetworkingUtils
  SteamSocketNetworking
@@ -98,6 +101,7 @@
  ThreadSetDebugNameS2
  ThreadSleep
  V_AddBackSlashesToSpecialChars
+ V_FixDoubleSlashes
  V_FixSlashes
  V_GetErrno
  V_RemoveDotSlashes
@@ -112,7 +116,6 @@
  V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
  V_UnicodeLength(char const*)
  V_UnqualifiedFileName
- V_acos
  V_acosf
  V_asinf
  V_atan2f
@@ -141,7 +144,6 @@
  V_strtoui64
  V_strupper_fast
  V_swscanf
- V_tan
  V_tanf
  V_vsnprintf
  V_vsnprintfRet
@@ -202,7 +204,7 @@
  floorf@@GLIBC_2.2.5
  fopen64@@GLIBC_2.2.5
  fprintf@@GLIBC_2.2.5
- free@@GLIBC_2.2.5
+ free
  freeifaddrs@@GLIBC_2.3
  g_Tier1_BitWriteMasks
  g_Tier1_CRC32Table

@@ -196,6 +196,8 @@ var CUGCItem = (function()
 			creatorSteamID : this.m_item.creator,
 			creatorName: this.m_item.creator_name,
 			imageURL: this.m_item.image_url,
+			imageWidth : this.m_item.image_width,
+			imageHeight : this.m_item.image_height,
 			fullImageURL: this.m_item.full_image_url,
 			itemText: this.m_item.app_name,
 			fromSection: gSection
@@ -332,6 +334,8 @@ function AddEnvironmentItem( detail, parentPanel )
 		creator : detail.creator_steamid,
 		creator_name : "",
 		image_url : thumbURL,
+		image_width : 256,
+		image_height : 256,
 		full_image_url : detail.preview_image,
 		app_name : "SteamVR"
 	};

@@ -1,0 +1,442 @@
+GameTrophyAppLogoPanel
+{
+	horizontal-align: center;
+	vertical-align: bottom;
+}
+
+.AppLogo
+{
+	width: 300px;
+	horizontal-align: center;
+	height: 141px;
+	border: 2px solid #ffffff00;	
+	border-radius: 5px;
+	box-shadow: none;
+	vertical-align: bottom;
+	transition-property: border;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;
+}
+
+.AppLogo:hover
+{
+	border: 2px solid #ffffffcc;
+}
+
+
+GameTrophyDetailsPanel
+{
+	//width: 300px;
+	width: 400px;
+	height: 100%;
+	horizontal-align: center;
+}
+
+.GameTrophyContainer
+{
+    width: 100%;
+	horizontal-align: center;
+    height: 100%;
+}
+
+.GameDetails
+{
+	width: 100%;
+	height: fit-children;
+	margin-bottom: 142px;
+	opacity: 0;
+	//background-color: #000000;
+	border-radius: 5px;
+	//padding: 15px;
+	flow-children: down;
+	transition-property: opacity;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;
+	vertical-align: bottom;
+}
+
+.HasFoilBadge .GameDetails
+{
+	background-color: #505050;
+}
+
+.DetailsVisible.HasDetails .GameDetails
+{
+	opacity: 1;
+}
+
+.CloseButton
+{
+	opacity: 0;
+	horizontal-align: center;
+	width: 300px;
+	//width: 400px;
+	height: 141px;
+	border: 2px solid #88888888;
+	border-radius: 5px;
+	background-color: #000000fa;
+	vertical-align: bottom;
+
+	transition-property: opacity, border, width;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;
+}
+
+.CloseButton:hover
+{
+	border: 2px solid #ffffff;
+}
+
+.CloseButton #CloseButtonImage
+{
+	width: 50px;
+	height: 50px;
+}
+
+.DetailsVisible .CloseButton
+{
+	opacity: 1;
+	width: 400px;
+}
+
+.PlayButton
+{
+	//width: 300px;
+	width: 400px;
+	//height: 110px;
+	height: 141px;
+	background-color: #a3cf06bb;
+	border-radius: 5px;
+	border: 2px solid #a3cf06ff;
+	visibility: collapse;
+	vertical-align: bottom;
+	horizontal-align: center;
+	transition-property: border, background-color, opacity;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;
+}
+
+.PlayButton:hover
+{
+	background-color: #a3cf06ff;
+	border: 2px solid white;
+}
+
+.PlayButton Label,
+.CloseButton Label
+{
+	width: 100%;
+	font-size: 36px;
+	text-align: center;
+	vertical-align: center;
+	color: #ffffffff;
+}
+
+.PlayButton Label
+{
+	font-size: 38px;
+	font-weight: bold;
+	color: black;
+}
+
+.CanPlay .PlayButton
+{
+	visibility: visible;
+}
+
+/////////////////////////////
+//      GAME DETAILS
+/////////////////////////////
+
+.GameDetailsWrapper
+{
+	width: 100%;
+	height: 100%;
+	flow-children: down;
+}
+
+.DetailPanel
+{
+	width: 400px;
+	//width: 300px;
+	border: 2px solid #88888800;
+	border-radius: 5px;
+	padding: 15px;
+	height: fit-children;
+	background-color: #000000;
+	flow-children: down;
+
+	transition-property: border;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;
+}
+
+
+.DetailPanel.DetailButton:hover
+{
+	border: 2px solid #ffffff;
+}
+
+
+.SpacerPanel
+{
+	width: 300px;
+	height: 2px;
+	//height: 1px;
+}
+
+.AppName
+{
+	width: 100%;
+	font-size: 32px;
+	//margin-bottom: 15px;
+	//text-align: center;
+	color: white;
+}
+
+.DetailPanel.AppTitle
+{
+	max-height: 110px;	
+}
+
+.OwnerWrapper
+{
+	flow-children: right;
+}
+
+.OwnerAvatar
+{
+	width: 64px;
+	height: 64px;
+	margin-right: 10px;
+	background-color: none;
+	horizontal-align: left;
+	border-radius: 0px;
+	margin-left: 0px;
+}
+
+.OwnerDetails
+{
+	flow-children: down;
+	width: 290px;
+	vertical-align: center;
+}
+
+.OwnerName
+{
+	font-size: 24px;
+	color: white;
+	margin-bottom: 3px;
+}
+
+.Playtime,
+.DetailsLabel,
+.Achievements
+{
+	margin-bottom: 4px;
+	width: 100%;
+	font-size: 18px;
+	color: #ccccccff;
+}
+
+// BADGE LEVEL
+
+.BadgeDetails
+{
+	border-top: 2px solid #ffffff20;
+	margin-top: 10px;
+	padding-top: 10px;
+	visibility: collapse;
+	flow-children: right-wrap;
+	width: 100%;
+}
+.HasBadge .BadgeDetails
+{
+	visibility: visible;
+}
+
+.BadgeName
+{
+	font-size: 24px;
+	color: white;
+}
+
+.BadgeLevel
+{
+	font-size: 18px;
+	color: #ccccccff;
+}
+
+.BadgeIcon
+{
+	width: 48px;
+	height: 48px;
+	margin: 5px 15px 5px 10px;
+	//margin-left: 10px;
+	//margin-right: 10px;
+	background-color: none;
+	horizontal-align: left;
+	border-radius: 0px;
+	//margin-left: 0px;
+}
+
+#NormalBadgeLabel
+{
+	visibility: visible;
+}
+.HasFoilBadge #NormalBadgeLabel
+{
+	visibility: collapse;
+}
+#FoilBadgeLabel
+{
+	visibility: collapse;
+}
+.HasFoilBadge #FoilBadgeLabel
+{
+	visibility: visible;
+}
+
+// ACHIEVEMENTS
+
+.AchievementsPanel
+{
+	visibility: collapse;
+}
+
+.HasAchievements .AchievementsPanel,
+{
+	visibility: visible;
+}
+
+.Achievements
+{
+	width: 100%;
+	font-size: 15px;
+	horizontal-align: center;
+	color: #aaaaaaff;
+	vertical-align: center;
+	margin-top: 2px;
+	text-align: center;
+	visibility: collapse;
+}
+
+.AchievementProgressWrapper
+{
+	width: 100%;
+	height: 35px;
+	border: 2px solid #ffffff20;
+	margin-top: 0px;
+	visibility: collapse;
+}
+
+.AchievementProgress
+{
+	visibility: collapse;
+	height: 35px;
+	width: 0px;
+	//background-color: gradient( linear, 0% 0%, 100% 100%, from( blue ), to( #142d3a55 ) );
+	background-color: blue;
+	transition-property: background-color;
+	transition-duration: shortduration;
+	transition-timing-function: bigpicture-ease-in-out;		
+}
+
+.BronzeTrophy .AchievementProgress
+{
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( #472819ff ), color-stop( 0.7, #d99e4cff ), to( #865d1bff ) );	
+}
+
+.SilverTrophy .AchievementProgress
+{
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( #666666 ), color-stop( 0.7, #999999 ), to( #bbbbbb ) );	
+}
+
+.GoldTrophy .AchievementProgress
+{
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( #472819ff ), color-stop( 0.7, #d99e4cff ), to( #e2b566ff ) );	
+}
+
+.PlatinumTrophy .AchievementProgress
+{
+	background-color: white;
+	animation-name: glow-pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+.PlatinumTrophy .AchievementsPanel .DetailsLabel
+{
+	color: white;
+}
+
+.HasAchievements .AchievementProgressWrapper,
+.HasAchievements .AchievementProgress,
+{
+	visibility: visible;
+}
+
+//SCREENSHOTS
+
+#ScreenshotsContainer,
+#NoScreenshotsContainer,
+.HasScreenshots.IsOwner #NoScreenshotsContainer,
+{
+	flow-children: down;
+	visibility: collapse;
+}
+
+.HasScreenshots #ScreenshotsContainer,
+.IsOwner #NoScreenshotsContainer
+{
+	flow-children: down;	
+	visibility: visible;
+}
+
+.HideUGC #ScreenshotsContainer
+{
+	visibility: collapse;
+}
+
+.ScreenshotPanel
+{
+	flow-children: right;
+}
+
+.NoScreenshotsLabel
+{
+	font-size: 18px;
+	color: #ffffff50;
+}
+
+.TrophyScreenshot
+{
+	width: 115px;
+	height: 115px;
+}
+
+#Screenshot1,
+#Screenshot2
+{
+	margin-right: 10px;
+}
+
+//ANIMATIONS
+
+@keyframes 'glow-pulse'
+{
+	0%
+	{
+		opacity: 0.75;
+	}
+
+	50%
+	{
+		opacity: 1;
+	}
+
+	100%
+	{
+		opacity: 0.75;
+	}
+}	

@@ -364,6 +364,28 @@
 			inventory_service_id = 118
 			inventory_service_promo_rules = "played:436320/120" // must have played for 2 hours - Raw Data
 			inventory_service_promo_appid = 436320
+		},
+		{
+			id = "dh_dog_head"
+			name = "#VR_Avatar_DuckHuntDogHead"
+			desc = "#VR_Avatar_DuckHuntDogHead_Desc"
+			content = "models/third_party/characters/avatars/dh_dog_head.vmdl"
+			preview_image = "file://{images}/contentdb/dh_dog_head.png"
+			locked_by_quest = false
+			inventory_service_id = 119
+			inventory_service_promo_rules = "played:503580/120" // must have played for 2 hours - Duck Season
+			inventory_service_promo_appid = 503580
+		},		
+		{
+			id = "smashbox_arena_poppy_head"
+			name = "#VR_Avatar_SmashboxArenaPoppyHead"
+			desc = "#VR_Avatar_SmashboxArenaPoppyHead_Desc"
+			content = "models/third_party/characters/avatars/smashbox_arena_poppy_head.vmdl"
+			preview_image = "file://{images}/contentdb/smashbox_arena_poppy_head.png"
+			locked_by_quest = false
+			inventory_service_id = 120
+			inventory_service_promo_rules = "played:530350/120" // must have played for 2 hours - Smashbox Arena
+			inventory_service_promo_appid = 530350
 		},	
 	]
 
@@ -390,6 +412,20 @@
 			content = "models/controller/knuckles_ev_1_3/knuckles_left_ev_1_3.vmdl"
 			preview_image = "file://{images}/contentdb/knuckles_dev_thumb.png"
 		},
+		{
+			id = "windowsmr_controllers"
+			name = "#VR_Avatar_WindowsMR_Controllers"
+			desc = "#VR_Avatar_WindowsMR_Controllers_Desc"
+			content = "models/controllers/windows_mr_controller_left.vmdl"
+			preview_image = "file://{images}/contentdb/winmr_controllers.png"
+		},		
+		{
+			id = "generic_tracked_controllers"
+			name = "#VR_Avatar_Generic_Tracked"
+			desc = "#VR_Avatar_Generic_Tracked_Desc"
+			content = "models/controllers/vr_controller_vive_1_5.vmdl"
+			preview_image = "file://{images}/contentdb/default_controllers.png"
+		},		
 		{
 			id = "v2_hands"
 			name = "#VR_Avatar_Hands_Mittens"
@@ -1184,7 +1220,283 @@
 			inventory_service_promo_appid = 509250
 			default_color = [ 209,13,32 ]
 		},
+		{
+			id = "halloween_bag_mask001"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask001"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask001_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask001.png"
+			locked_by_quest = true
+			inventory_service_id = 271
+			default_color = [ 43,139,208 ]
+		},
+		{
+			id = "halloween_bag_demo"
+			name = "#VR_Avatar_Wearable_HalloweenBagDemo"
+			desc = "#VR_Avatar_Wearable_HalloweenBagDemo_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_demo.png"
+			locked_by_quest = true
+			inventory_service_id = 272
+			default_color = [ 255,255,255 ]
+			skin = "demo"
+		},
+		{
+			id = "halloween_bag_engineer"
+			name = "#VR_Avatar_Wearable_HalloweenBagEngineer"
+			desc = "#VR_Avatar_Wearable_HalloweenBagEngineer_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_engineer.png"
+			locked_by_quest = true
+			inventory_service_id = 273
+			default_color = [ 255,255,255 ]
+			skin = "engineer"
+		},
+		{
+			id = "halloween_bag_heavy"
+			name = "#VR_Avatar_Wearable_HalloweenBagHeavy"
+			desc = "#VR_Avatar_Wearable_HalloweenBagHeavy_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_heavy.png"
+			locked_by_quest = true
+			inventory_service_id = 274
+			default_color = [ 255,255,255 ]
+			skin = "heavy"
+		},
+		{
+			id = "halloween_bag_medic"
+			name = "#VR_Avatar_Wearable_HalloweenBagMedic"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMedic_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_medic.png"
+			locked_by_quest = true
+			inventory_service_id = 275
+			default_color = [ 255,255,255 ]
+			skin = "medic"
+		},
+		{
+			id = "halloween_bag_pyro"
+			name = "#VR_Avatar_Wearable_HalloweenBagPyro"
+			desc = "#VR_Avatar_Wearable_HalloweenBagPyro_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_pyro.png"
+			locked_by_quest = true
+			inventory_service_id = 276
+			default_color = [ 255,255,255 ]
+			skin = "pyro"
+		},
+		{
+			id = "halloween_bag_scout"
+			name = "#VR_Avatar_Wearable_HalloweenBagScout"
+			desc = "#VR_Avatar_Wearable_HalloweenBagScout_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_scout.png"
+			locked_by_quest = true
+			inventory_service_id = 277
+			default_color = [ 255,255,255 ]
+			skin = "scout"
+		},
+		{
+			id = "halloween_bag_sniper"
+			name = "#VR_Avatar_Wearable_HalloweenBagSniper"
+			desc = "#VR_Avatar_Wearable_HalloweenBagSniper_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_sniper.png"
+			locked_by_quest = true
+			inventory_service_id = 278
+			default_color = [ 255,255,255 ]
+			skin = "sniper"
+		},
+		{
+			id = "halloween_bag_soldier"
+			name = "#VR_Avatar_Wearable_HalloweenBagSoldier"
+			desc = "#VR_Avatar_Wearable_HalloweenBagSoldier_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_soldier.png"
+			locked_by_quest = true
+			inventory_service_id = 279
+			default_color = [ 255,255,255 ]
+			skin = "soldier"
+		},
+		{
+			id = "halloween_bag_spy"
+			name = "#VR_Avatar_Wearable_HalloweenBagSpy"
+			desc = "#VR_Avatar_Wearable_HalloweenBagSpy_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_spy.png"
+			locked_by_quest = true
+			inventory_service_id = 280
+			default_color = [ 255,255,255 ]
+			skin = "spy"
+		},
+		{
+			id = "halloween_bag_saxton"
+			name = "#VR_Avatar_Wearable_HalloweenBagSaxton"
+			desc = "#VR_Avatar_Wearable_HalloweenBagSaxton_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_saxton.png"
+			locked_by_quest = true
+			inventory_service_id = 281
+			default_color = [ 255,255,255 ]
+			skin = "saxton"
+		},
+		{
+			id = "halloween_bag_mask002"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask002"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask002_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask002.png"
+			locked_by_quest = true
+			inventory_service_id = 282
+			default_color = [ 184,57,60 ]
+			skin = "mask002"
+		},
+		{
+			id = "halloween_bag_mask003"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask003"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask003_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask003.png"
+			locked_by_quest = true
+			inventory_service_id = 283
+			default_color = [ 184,57,60 ]
+			skin = "mask003"
+		},
+		{
+			id = "halloween_bag_mask004"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask004"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask004_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask004.png"
+			locked_by_quest = true
+			inventory_service_id = 284
+			default_color = [ 184,57,60 ]
+			skin = "mask004"
+		},
+		{
+			id = "halloween_bag_mask005"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask005"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask005_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask005.png"
+			locked_by_quest = true
+			inventory_service_id = 285
+			default_color = [ 184,57,60 ]
+			skin = "mask005"
+		},
+		{
+			id = "halloween_bag_mask006"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask006"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask006_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask006.png"
+			locked_by_quest = true
+			inventory_service_id = 286
+			default_color = [ 184,57,60 ]
+			skin = "mask006"
+		},
+		{
+			id = "halloween_bag_mask007"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask007"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask007_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask007.png"
+			locked_by_quest = true
+			inventory_service_id = 287
+			default_color = [ 184,57,60 ]
+			skin = "mask007"
+		},
+		{
+			id = "halloween_bag_mask008"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask008"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask008_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask008.png"
+			locked_by_quest = true
+			inventory_service_id = 288
+			default_color = [ 184,57,60 ]
+			skin = "mask008"
+		},
+		{
+			id = "halloween_bag_mask009"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask009"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask009_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask009.png"
+			locked_by_quest = true
+			inventory_service_id = 289
+			default_color = [ 184,57,60 ]
+			skin = "mask009"
+		},
+		{
+			id = "halloween_bag_mask010"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask010"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask010_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask010.png"
+			locked_by_quest = true
+			inventory_service_id = 290
+			default_color = [ 184,57,60 ]
+			skin = "mask010"
+		},
+		{
+			id = "halloween_bag_mask011"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask011"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask011_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask011.png"
+			locked_by_quest = true
+			inventory_service_id = 291
+			default_color = [ 254,66,78 ]
+			skin = "mask011"
+		},
+		{
+			id = "halloween_bag_mask012"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask012"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask012_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask012.png"
+			locked_by_quest = true
+			inventory_service_id = 292
+			default_color = [ 255,214,6 ]
+			skin = "mask012"
+		},
+		{
+			id = "halloween_bag_mask013"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask013"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask013_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask013.png"
+			locked_by_quest = true
+			inventory_service_id = 293
+			default_color = [ 27,155,246 ]
+			skin = "mask013"
+		},
+		{
+			id = "halloween_bag_mask014"
+			name = "#VR_Avatar_Wearable_HalloweenBagMask014"
+			desc = "#VR_Avatar_Wearable_HalloweenBagMask014_Desc"
+			content = "models/props/accessories/halloween_bag_mask001.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_bag_mask014.png"
+			locked_by_quest = true
+			inventory_service_id = 294
+			default_color = [ 255,255,255 ]
+			skin = "mask014"
+		},
+		{
+			id = "gorn_winged_helmet"
+			name = "#VR_Avatar_Wearable_GornWingedHelmet"
+			desc = "#VR_Avatar_Wearable_GornWingedHelmet_Desc"
+			content = "models/third_party/props/accessories/gorn_winged_helmet.vmdl"
+			preview_image = "file://{images}/contentdb/gorn_winged_helmet.png"
+			locked_by_quest = false
+			inventory_service_id = 295
+			inventory_service_promo_rules = "played:578620/120" // must have played for 2 hours - GORN
+			inventory_service_promo_appid = 578620
+			default_color = [ 255,255,255 ]
+		},
 	]
+	
 	prop_tools =
 	[
 		{
@@ -1742,6 +2054,128 @@
 			default_scale = 0.5
 		},
 		{
+			id = "pierhead_toy_bear"
+			name = "#VR_PhysicsProp_PierheadToyBear"
+			desc = "#VR_PhysicsProp_PierheadToyBear_Desc"
+			content = "models/third_party/props/toys/pierhead_toy_bear.vmdl"
+			preview_image = "file://{images}/contentdb/pierhead_toy_bear.png"
+			inventory_service_promo_rules = "played:435490/120" // must have played for 2 hours - Pierhead Arcade
+			inventory_service_promo_appid = 435490
+			inventory_service_id = 1044
+			default_color = [ 212,163,92 ]
+		},
+		{
+			id = "battlezone_toy_tank"
+			name = "#VR_PhysicsProp_BattlezoneToyTank"
+			desc = "#VR_PhysicsProp_BattlezoneToyTank_Desc"
+			content = "models/third_party/props/toys/battlezone_toy_tank.vmdl"
+			preview_image = "file://{images}/contentdb/battlezone_toy_tank.png"
+			inventory_service_promo_rules = "played:312650/120" // must have played for 2 hours - Battlezone
+			inventory_service_promo_appid = 312650
+			inventory_service_id = 1045
+			default_color = [ 96,20,9 ]
+		},
+		{
+			id = "locodojo_sensei"
+			name = "#VR_PhysicsProp_LocodojoSensei"
+			desc = "#VR_PhysicsProp_LocodojoSensei_Desc"
+			content = "models/third_party/props/toys/locodojo_sensei.vmdl"
+			preview_image = "file://{images}/contentdb/locodojo_sensei.png"
+			inventory_service_promo_rules = "played:667800/120" // must have played for 2 hours - Loco Dojo
+			inventory_service_promo_appid = 667800
+			inventory_service_id = 1046
+			default_color = [ 254,85,55 ]
+		},
+		{
+			id = "kettle_bell"
+			name = "#VR_PhysicsProp_KettleBell"
+			desc = "#VR_PhysicsProp_KettleBell_Desc"
+			content = "models/props/toys/kettle_bell.vmdl"
+			preview_image = "file://{images}/contentdb/kettle_bell.png"
+			locked_by_quest = true
+			//inventory_service_id = 1047
+			default_color = [ 124,37,40 ]
+			default_scale = 0.75
+		},
+		{
+			id = "weight_barbell"
+			name = "#VR_PhysicsProp_WeightBarbell"
+			desc = "#VR_PhysicsProp_WeightBarbell_Desc"
+			content = "models/props/toys/weight_barbell.vmdl"
+			preview_image = "file://{images}/contentdb/weight_barbell.png"
+			locked_by_quest = true
+			//inventory_service_id = 1048
+			default_color = [ 24,24,24 ]
+			default_scale = 0.5
+		},
+		{
+			id = "traffic_cone001"
+			name = "#VR_PhysicsProp_TrafficCone001"
+			desc = "#VR_PhysicsProp_TrafficCone001_Desc"
+			content = "models/props/toys/traffic_cone001.vmdl"
+			preview_image = "file://{images}/contentdb/traffic_cone001.png"
+			locked_by_quest = false
+			//inventory_service_id = 1049
+			default_color = [ 255,140,0 ]
+		},
+		{
+			id = "google_earth_globe"
+			name = "#VR_PhysicsProp_GoogleEarthGlobe"
+			desc = "#VR_PhysicsProp_GoogleEarthGlobe_Desc"
+			content = "models/third_party/props/toys/google_earth_globe.vmdl"
+			preview_image = "file://{images}/contentdb/google_earth_globe.png"
+			script = "props/google_earth_globe"
+			inventory_service_promo_rules = "played:348250/120" // must have played for 2 hours - Google Earth VR
+			inventory_service_promo_appid = 348250
+			inventory_service_id = 1050
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "katana_x"
+			name = "#VR_PhysicsProp_KatanaX"
+			desc = "#VR_PhysicsProp_KatanaX_Desc"
+			content = "models/third_party/props/toys/katana_x.vmdl"
+			preview_image = "file://{images}/contentdb/katana_x.png"
+			inventory_service_promo_rules = "played:615910/120" // must have played for 2 hours - Katana X
+			inventory_service_promo_appid = 615910
+			inventory_service_id = 1051
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "racket_nx_figurine"
+			name = "#VR_PhysicsProp_RacketNxFigurine"
+			desc = "#VR_PhysicsProp_RacketNxFigurine_Desc"
+			content = "models/third_party/props/toys/racket_nx_figurine.vmdl"
+			preview_image = "file://{images}/contentdb/racket_nx_figurine.png"
+			inventory_service_promo_rules = "played:428080/120" // must have played for 2 hours - Racket: Nx
+			inventory_service_promo_appid = 428080
+			inventory_service_id = 1052
+			default_color = [ 216,92,10 ]
+			default_scale = 0.5
+		},
+		{
+			id = "rez_hero_figurine"
+			name = "#VR_PhysicsProp_RezHeroFigurine"
+			desc = "#VR_PhysicsProp_RezHeroFigurine_Desc"
+			content = "models/third_party/props/toys/rez_hero_figurine.vmdl"
+			preview_image = "file://{images}/contentdb/rez_hero_figurine.png"
+			inventory_service_promo_rules = "played:636450/120" // must have played for 2 hours - Rez Infinite
+			inventory_service_promo_appid = 636450
+			inventory_service_id = 1053
+			default_color = [ 204,115,10 ]
+		},
+		{
+			id = "overturn_magi_figurine"
+			name = "#VR_PhysicsProp_OverturnMagiFigurine"
+			desc = "#VR_PhysicsProp_OverturnMagiFigurine_Desc"
+			content = "models/third_party/props/toys/overturn_magi_figurine.vmdl"
+			preview_image = "file://{images}/contentdb/overturn_magi_figurine.png"
+			inventory_service_promo_rules = "played:650070/120" // must have played for 2 hours - OVERTURN
+			inventory_service_promo_appid = 650070
+			inventory_service_id = 1054
+			default_color = [ 255,255,255 ]
+		},
+		{
 			id = "test_complex_item"
 			name = "COMPLEX ITEM"
 			desc = "This item is complex!!"
@@ -1782,11 +2216,10 @@
 			desc = "#VR_Furniture_Bookshelf001_Desc"
 			content = "models/props_furniture/bookshelf001.vmdl"
 			preview_image = "file://{images}/contentdb/bookshelf001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2002
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "chair001"
@@ -1816,11 +2249,10 @@
 			desc = "#VR_Furniture_Desk001_Desc"
 			content = "models/props_furniture/desk001.vmdl"
 			preview_image = "file://{images}/contentdb/desk001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2006
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "dresser001"
@@ -1828,11 +2260,10 @@
 			desc = "#VR_Furniture_Dresser001_Desc"
 			content = "models/props_furniture/dresser001.vmdl"
 			preview_image = "file://{images}/contentdb/dresser001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2008
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "filing_cabinet001"
@@ -1885,11 +2316,10 @@
 			desc = "#VR_Furniture_Safe001_Desc"
 			content = "models/props_furniture/safe001.vmdl"
 			preview_image = "file://{images}/contentdb/safe001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2013
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "trunk001"
@@ -1908,12 +2338,10 @@
 			desc = "#VR_Furniture_Wardrobe001_Desc"
 			content = "models/props_furniture/wardrobe001.vmdl"
 			preview_image = "file://{images}/contentdb/wardrobe001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2015
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
-
 		},
 		{
 			id = "dining_table001"
@@ -1921,11 +2349,10 @@
 			desc = "#VR_Furniture_DiningTable001_Desc"
 			content = "models/props_furniture/dining_table001.vmdl"
 			preview_image = "file://{images}/contentdb/dining_table001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2016
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "sofa001"
@@ -1945,11 +2372,10 @@
 			desc = "#VR_Furniture_TwinBed001_Desc"
 			content = "models/props_furniture/twin_bed001.vmdl"
 			preview_image = "file://{images}/contentdb/twin_bed001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2018
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "counter001"
@@ -1957,11 +2383,10 @@
 			desc = "#VR_Furniture_Counter001_Desc"
 			content = "models/props_furniture/counter001.vmdl"
 			preview_image = "file://{images}/contentdb/counter001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2019
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "sink001"
@@ -1969,11 +2394,10 @@
 			desc = "#VR_Furniture_Sink001_Desc"
 			content = "models/props_furniture/sink001.vmdl"
 			preview_image = "file://{images}/contentdb/sink001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2020
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "cabinet001_left"
@@ -1981,11 +2405,10 @@
 			desc = "#VR_Furniture_Cabinet001Left_Desc"
 			content = "models/props_furniture/cabinet001_left.vmdl"
 			preview_image = "file://{images}/contentdb/cabinet001_left.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2021
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "cabinet001_right"
@@ -1993,11 +2416,10 @@
 			desc = "#VR_Furniture_Cabinet001Right_Desc"
 			content = "models/props_furniture/cabinet001_right.vmdl"
 			preview_image = "file://{images}/contentdb/cabinet001_right.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2022
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "range001"
@@ -2005,11 +2427,10 @@
 			desc = "#VR_Furniture_Range001_Desc"
 			content = "models/props_furniture/range001.vmdl"
 			preview_image = "file://{images}/contentdb/range001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2023
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "fridge001"
@@ -2017,11 +2438,10 @@
 			desc = "#VR_Furniture_Fridge001_Desc"
 			content = "models/props_furniture/fridge001.vmdl"
 			preview_image = "file://{images}/contentdb/fridge001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2024
 			default_color = [ 255,255,255 ]
-			default_scale = 0.25
-			dev_only = true			
+			default_scale = 0.25		
 		},
 		{
 			id = "toilet001"
@@ -2029,11 +2449,10 @@
 			desc = "#VR_Furniture_Toilet001_Desc"
 			content = "models/props_furniture/toilet001.vmdl"
 			preview_image = "file://{images}/contentdb/toilet001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2025
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "bathtub001"
@@ -2041,11 +2460,10 @@
 			desc = "#VR_Furniture_Bathtub001_Desc"
 			content = "models/props_furniture/bathtub001.vmdl"
 			preview_image = "file://{images}/contentdb/bathtub001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2026
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "stand001"
@@ -2053,11 +2471,10 @@
 			desc = "#VR_Furniture_Stand001_Desc"
 			content = "models/props_furniture/stand001.vmdl"
 			preview_image = "file://{images}/contentdb/stand001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2027
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "house_plant001"
@@ -2146,11 +2563,10 @@
 			desc = "#VR_Furniture_OfficeStool001_Desc"
 			content = "models/props_furniture/office_stool001.vmdl"
 			preview_image = "file://{images}/contentdb/office_stool001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2036
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
-			dev_only = true
 		},
 		{
 			id = "coffee_mug001"
@@ -2233,10 +2649,9 @@
 			desc = "#VR_Furniture_FryingPan001_Desc"
 			content = "models/props_furniture/frying_pan001.vmdl"
 			preview_image = "file://{images}/contentdb/frying_pan001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2044
 			default_color = [ 255,255,255 ]
-			dev_only = true
 		},
 		{
 			id = "spatula001"
@@ -2244,10 +2659,9 @@
 			desc = "#VR_Furniture_Spatula001_Desc"
 			content = "models/props_furniture/spatula001.vmdl"
 			preview_image = "file://{images}/contentdb/spatula001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2045
 			default_color = [ 255,255,255 ]
-			dev_only = true
 		},
 		{
 			id = "dresser002"
@@ -2320,10 +2734,9 @@
 			desc = "#VR_Furniture_Jar001_Desc"
 			content = "models/props_furniture/jar001.vmdl"
 			preview_image = "file://{images}/contentdb/jar001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2052
 			default_color = [ 255,255,255 ]
-			dev_only = true
 		},
 		{
 			id = "pot001"
@@ -2331,10 +2744,9 @@
 			desc = "#VR_Furniture_Pot001_Desc"
 			content = "models/props_furniture/pot001.vmdl"
 			preview_image = "file://{images}/contentdb/pot001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2053
 			default_color = [ 255,255,255 ]
-			dev_only = true
 		},
 		{
 			id = "pot002"
@@ -2342,10 +2754,9 @@
 			desc = "#VR_Furniture_Pot002_Desc"
 			content = "models/props_furniture/pot002.vmdl"
 			preview_image = "file://{images}/contentdb/pot002.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2054
 			default_color = [ 255,255,255 ]
-			dev_only = true
 		},
 		{
 			id = "pot002_lid"
@@ -2353,10 +2764,9 @@
 			desc = "#VR_Furniture_Pot002Lid_Desc"
 			content = "models/props_furniture/pot002_lid.vmdl"
 			preview_image = "file://{images}/contentdb/pot002_lid.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2055
 			default_color = [ 255,255,255 ]
-			dev_only = true
 		},
 		{
 			id = "plate001"
@@ -2364,10 +2774,9 @@
 			desc = "#VR_Furniture_Plate001_Desc"
 			content = "models/props_furniture/plate001.vmdl"
 			preview_image = "file://{images}/contentdb/plate001.png"
-			locked_by_quest = true
+			locked_by_quest = false
 			// inventory_service_id = 2056
 			default_color = [ 255,255,255 ]
-			dev_only = true
 		},
 		{
 			id = "bench001"
@@ -2446,6 +2855,62 @@
 			// inventory_service_id = 2063
 			default_color = [ 52,192,193 ]
 			default_scale = 0.60
+		},
+		{
+			id = "trophy_shelves"
+			name = "#VR_Furniture_TrophyShelves"
+			desc = "#VR_Furniture_TrophyShelves_Desc"
+			content = "models/props_furniture/trophy_shelves.vmdl"
+			preview_image = "file://{images}/contentdb/trophy_shelves.png"
+			locked_by_quest = false
+			// inventory_service_id = 2064
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+		{
+			id = "trophy_shelves_short"
+			name = "#VR_Furniture_TrophyShelvesShort"
+			desc = "#VR_Furniture_TrophyShelvesShort_Desc"
+			content = "models/props_furniture/trophy_shelves_short.vmdl"
+			preview_image = "file://{images}/contentdb/trophy_shelves_short.png"
+			locked_by_quest = false
+			// inventory_service_id = 2065
+			default_color = [ 255,255,255 ]
+			default_scale = 0.25
+		},
+	]
+
+	game_trophies =
+	[
+		{
+			id = "trophy_no_achievements"
+			name = "#VR_GameTrophy_NoAchievements"
+			desc = "#VR_GameTrophy_NoAchievements_Desc"
+			content = "models/props/trophies/trophy_bronze.vmdl"
+		},
+		{
+			id = "trophy_bronze"
+			name = "#VR_GameTrophy_Bronze"
+			desc = "#VR_GameTrophy_Bronze_Desc"
+			content = "models/props/trophies/trophy_bronze.vmdl"
+		},
+		{
+			id = "trophy_silver"
+			name = "#VR_GameTrophy_Silver"
+			desc = "#VR_GameTrophy_Silver_Desc"
+			content = "models/props/trophies/trophy_silver.vmdl"
+		},
+		{
+			id = "trophy_gold"
+			name = "#VR_GameTrophy_Gold"
+			desc = "#VR_GameTrophy_Gold_Desc"
+			content = "models/props/trophies/trophy_gold.vmdl"
+		},
+		{
+			id = "trophy_platinum"
+			name = "#VR_GameTrophy_Platinum"
+			desc = "#VR_GameTrophy_Platinum_Desc"
+			content = "models/props/trophies/trophy_gold.vmdl"
 		},
 	]
 
@@ -2807,6 +3272,24 @@
 			addon = "hawaii_beach"
 			steamvr_addon = "937504294" // id on public
 		},
+		{
+			id = "quest_kettle_bell"
+			name = "#Quest_Kettle_Bell"
+			desc = "#Quest_Kettle_Bell_Desc"
+			preview_image = "file://{images}/contentdb/kettle_bell.png"
+			item_generator = "item_generator_kettle_bell"
+			addon = "boxing_ring"
+			steamvr_addon = "1128953611" // id on public
+		},
+		{
+			id = "quest_weight_barbell"
+			name = "#Quest_Weight_Barbell"
+			desc = "#Quest_Weight_Barbell_Desc"
+			preview_image = "file://{images}/contentdb/weight_barbell.png"
+			item_generator = "item_generator_weight_barbell"
+			addon = "boxing_ring"
+			steamvr_addon = "1128953611" // id on public
+		},
 	]
 
 	quests_detector =
@@ -2989,6 +3472,22 @@
 				}
 			]
 		},
+		{
+			id = "item_generator_kettle_bell"
+			items = [
+				{
+					id = "kettle_bell"
+				}
+			]
+		},
+		{
+			id = "item_generator_weight_barbell"
+			items = [
+				{
+					id = "weight_barbell"
+				}
+			]
+		},
 		// for hawaii beach quests
 		{
 			id = "item_generator_pin_hawaii_chell"
@@ -3013,15 +3512,22 @@
 			items = [
 				{
 					id = "item_generator_common_items"
-					chance = 90
+					//chance = 90
+					//for halloween
+					chance = 40
+
 				},
 				{
 					id = "item_generator_rare_tf2_heads"
-					chance = 5
+					chance = 5					
 				},
 				{
 					id = "item_generator_rare_seadocks_heads"
 					chance = 5
+				},				{
+					id = "item_generator_halloween_hats"
+					//for halloween
+					chance = 50
 				}
 			]
 		},
@@ -3249,7 +3755,87 @@
 					id = "teemo_head"
 				}
 			]
-		}
+		},
+		
+		// time limited halloween hats for geo-caching quests
+		{
+			id = "item_generator_halloween_hats"
+			inventory_service_id = 20003
+			items = [
+				{
+					id = "halloween_bag_mask001"
+				},
+				{
+					id = "halloween_bag_demo"
+				},
+				{
+					id = "halloween_bag_engineer"
+				},
+				{
+					id = "halloween_bag_heavy"
+				},
+				{
+					id = "halloween_bag_medic"
+				},
+				{
+					id = "halloween_bag_pyro"
+				},
+				{
+					id = "halloween_bag_scout"
+				},
+				{
+					id = "halloween_bag_sniper"
+				},
+				{
+					id = "halloween_bag_soldier"
+				},
+				{
+					id = "halloween_bag_spy"
+				},
+				{
+					id = "halloween_bag_saxton"
+				},
+				{
+					id = "halloween_bag_mask002"
+				},
+				{
+					id = "halloween_bag_mask003"
+				},
+				{
+					id = "halloween_bag_mask004"
+				},
+				{
+					id = "halloween_bag_mask005"
+				},
+				{
+					id = "halloween_bag_mask006"
+				},
+				{
+					id = "halloween_bag_mask007"
+				},
+				{
+					id = "halloween_bag_mask008"
+				},
+				{
+					id = "halloween_bag_mask009"
+				},
+				{
+					id = "halloween_bag_mask010"
+				},
+				{
+					id = "halloween_bag_mask011"
+				},
+				{
+					id = "halloween_bag_mask012"
+				},
+				{
+					id = "halloween_bag_mask013"
+				},
+				{
+					id = "halloween_bag_mask014"
+				}
+			]
+		}		
 		
 	]
 

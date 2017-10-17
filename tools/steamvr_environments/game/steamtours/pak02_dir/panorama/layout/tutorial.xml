@@ -753,6 +753,22 @@
 						<Label class="TutorialDesc" text="#TutorialWelcome_Tile3_Touch_Desc" />
 
 					</Panel>
+	
+					<Panel class="TutorialTile WinMRHelp">
+						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
+						<Label class="TutorialDesc" text="#TutorialWelcome_Tile1_WinMR_Desc" />
+
+					</Panel>
+					<Panel class="TutorialTile WinMRHelp">
+						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
+						<Label class="TutorialDesc" text="#TutorialWelcome_Tile2_WinMR_Desc" />
+
+					</Panel>
+					<Panel class="TutorialTile WinMRHelp">
+						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_winmr_3_png.vtex" />		
+						<Label class="TutorialDesc" text="#TutorialWelcome_Tile3_WinMR_Desc" />
+
+					</Panel>
 					
 					<Panel class="TutorialTile ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
@@ -832,6 +848,20 @@
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_3_png.vtex" scaling="stretch-to-fit-preserve-aspect" />		
 						<Label class="TutorialDesc" text="#TutorialTeleport_Tile3_Touch_Desc" />
 					</Panel>
+
+					<Panel class="TutorialTile WinMRHelp">
+						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_winmr_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
+						<Label class="TutorialDesc" text="#TutorialTeleport_Tile1_Touch_Desc" />
+					</Panel>
+					<Panel class="TutorialTile WinMRHelp">
+						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_winmr_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
+						<Label class="TutorialDesc" text="#TutorialTeleport_Tile2_Touch_Desc" />
+
+					</Panel>
+					<Panel class="TutorialTile WinMRHelp">
+						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_3_png.vtex" scaling="stretch-to-fit-preserve-aspect" />		
+						<Label class="TutorialDesc" text="#TutorialTeleport_Tile3_Touch_Desc" />
+					</Panel>
 					
 					<Panel class="TutorialTile ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_controller_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
@@ -886,16 +916,16 @@
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage3Scroll" overscroll-y="100" target="TutorialPage3">
 
 		
-					<Panel class="TutorialTile ViveHelp TouchHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialend_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialEnd_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialend_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialEnd_Tile2_Desc" />
 
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialend_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialEnd_Tile3_Desc" />
 					</Panel>

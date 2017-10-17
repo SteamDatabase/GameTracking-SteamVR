@@ -11,17 +11,6 @@
 			_class = "C_OP_RenderSprites"
 			m_hTexture = resource:"materials/particle/particle_modulate_01.vtex"
 		},
-		{
-			_class = "C_OP_RenderModels"
-			m_ModelList = 
-			[
-				{
-					m_model = resource:"models/dev/sphere.vmdl"
-				},
-			]
-			m_bDisableShadows = true
-			m_bDisableOperator = true
-		},
 	]
 	m_Operators = 
 	[

@@ -853,7 +853,17 @@
 "[english]Lighthouse_BasestationInternalFault_07_Description"	"A base station has developed an internal problem (fault 07). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
 "Lighthouse_BasestationInternalFault_07_Action"	"Visitar htcvive.com/support"
 "[english]Lighthouse_BasestationInternalFault_07_Action"	"Visit htcvive.com/support"
+"Warning_DismissableWarning_NeedKnucklesDriver_Header"	"Controlador de Knuckles disponible"
+"[english]Warning_DismissableWarning_NeedKnucklesDriver_Header"	"Knuckles Driver Available"
+"Warning_DismissableWarning_NeedKnucklesDriver_Description"	"Estás utilizando mandos Knuckles, pero no tienes instalado su controlador."
+"[english]Warning_DismissableWarning_NeedKnucklesDriver_Description"	"You are using Knuckes controllers, but don't have the Knuckles driver installed."
+"Warning_DismissableWarning_NeedKnucklesDriver_Action"	"Instalar controlador"
+"[english]Warning_DismissableWarning_NeedKnucklesDriver_Action"	"Install Driver"
 "Warning_DismissableWarning_NewDriverInstalled_Header"	"Nuevo controlador instalado"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Header"	"New Driver Installed"
+"Warning_DismissableWarning_NewDriverInstalled_Description"	"Para usar tu nuevo controlador necesitarás reiniciar SteamVR."
+"[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
+"Warning_DismissableWarning_NewDriverInstalled_Action"	"Reiniciar"
+"[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
 }
 }

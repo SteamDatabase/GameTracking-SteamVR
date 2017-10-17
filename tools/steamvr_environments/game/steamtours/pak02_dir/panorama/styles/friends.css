@@ -1906,10 +1906,7 @@ SteamToursFriends.Hidden {
 .WorldPanelPublicLobbies .LobbiesContainer
 {
 	visibility: visible;
-	//background-color: red;
 	height: 1400px;
-	//background-color: black_gradient;
-	//background-color: gradient( radial, 50% 50%, 0% 0%, 100% 100%, from( #2b6483 ), to( #12334c ) );
 }
 
 .WorldPanelPublicLobbies .LobbyItem

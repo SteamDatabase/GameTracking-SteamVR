@@ -1,0 +1,14 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/game_trophy.vcss_c" />
+	</styles>
+
+	<scripts>
+		<include src="s2r://panorama/scripts/game_trophy.vjs_c" />
+	</scripts>
+
+	<GameTrophyAppLogoPanel hittest="0">
+		<Image id="AppLogo" class="AppLogo" src="s2r://panorama/images/content_browser/icon_recent_default_png.vtex" onactivate="ShowDetails()"/>
+	</GameTrophyAppLogoPanel>
+</root>

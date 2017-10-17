@@ -195,7 +195,7 @@
 				<Panel class="LobbiesContainer" id="LobbiesContainer">       
 
 								<Panel class="LobbiesBottom SortAlphaSelected" >
-										<DestinationsScrollPanel class="FriendsLeft" id="LobbyScrollContainer"  >			           
+										<Panel class="FriendsLeft" id="LobbyScrollContainer"  >			           
 												<Button class="DestinationButton" id="HostRoomButton" onactivate="OpenHostDialog(); SetInputFocus(CloseHostDialog);" mousecanactivate="unfocused" >
 														<Label class="OpenLobby" text="#HostRoomButton" />
 														<Image class="OpenLobbyIcon" src="s2r://panorama/images/content_browser/friends_toggle_button_png.vtex" />
@@ -219,7 +219,7 @@
                 	                
                 	                			<Label class="BetaDesc" text="#Beta_Desc" />
 
-										</DestinationsScrollPanel>
+										</Panel>
 	
 										<Panel class="FriendsRight" onactivate="None();" >
 												<Panel class="ScrollButtonWrapper">

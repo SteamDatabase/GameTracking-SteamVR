@@ -47,6 +47,12 @@
         	<ToggleButton id="HidePlayerNames" class="CheckBox" onactivate="DestinationsSettingsChanged()">
 				<Label text="#HidePlayerNames" class="CheckboxLabel" />       		
 			</ToggleButton>
+
+        	<ToggleButton id="HideUGC" class="CheckBox" onactivate="DestinationsSettingsChanged()">
+				<Label text="#HideUGC" class="CheckboxLabel" />       		
+			</ToggleButton>
+
+			<Label class="BubbleDesc" id="HideUGCDescLabel" text="#HideUGCDesc" />  
      	
         </Panel>
 

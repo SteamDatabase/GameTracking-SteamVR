@@ -146,6 +146,7 @@
  T glslang::HlslGrammar::acceptCompilationUnit()
  T glslang::HlslGrammar::acceptCompoundStatement(TIntermNode*&)
  T glslang::HlslGrammar::acceptConditionalExpression(glslang::TIntermTyped*&)
+ T glslang::HlslGrammar::acceptConstantBufferType(glslang::TType&)
  T glslang::HlslGrammar::acceptConstructor(glslang::TIntermTyped*&)
  T glslang::HlslGrammar::acceptControlDeclaration(TIntermNode*&)
  T glslang::HlslGrammar::acceptDeclaration(TIntermNode*&)
@@ -160,7 +161,7 @@
  T glslang::HlslGrammar::acceptFunctionParameters(glslang::TFunction&)
  T glslang::HlslGrammar::acceptIdentifier(glslang::HlslToken&)
  T glslang::HlslGrammar::acceptInitializer(glslang::TIntermTyped*&)
- T glslang::HlslGrammar::acceptIterationStatement(TIntermNode*&)
+ T glslang::HlslGrammar::acceptIterationStatement(TIntermNode*&, glslang::TAttributeMap const&)
  T glslang::HlslGrammar::acceptJumpStatement(TIntermNode*&)
  T glslang::HlslGrammar::acceptLayoutQualifierList(glslang::TQualifier&)
  T glslang::HlslGrammar::acceptLiteral(glslang::TIntermTyped*&)
@@ -176,13 +177,14 @@
  T glslang::HlslGrammar::acceptSamplerType(glslang::TType&)
  T glslang::HlslGrammar::acceptScopedCompoundStatement(TIntermNode*&)
  T glslang::HlslGrammar::acceptScopedStatement(TIntermNode*&)
- T glslang::HlslGrammar::acceptSelectionStatement(TIntermNode*&)
+ T glslang::HlslGrammar::acceptSelectionStatement(TIntermNode*&, glslang::TAttributeMap const&)
+ T glslang::HlslGrammar::acceptSimpleStatement(TIntermNode*&)
  T glslang::HlslGrammar::acceptStatement(TIntermNode*&)
  T glslang::HlslGrammar::acceptStreamOutTemplateType(glslang::TType&, glslang::TLayoutGeometry&)
  T glslang::HlslGrammar::acceptStruct(glslang::TType&, TIntermNode*&)
  T glslang::HlslGrammar::acceptStructBufferType(glslang::TType&)
  T glslang::HlslGrammar::acceptStructDeclarationList(glslang::TVector<glslang::TTypeLoc>*&, TIntermNode*&, glslang::TVector<glslang::TFunctionDeclarator>&)
- T glslang::HlslGrammar::acceptSwitchStatement(TIntermNode*&)
+ T glslang::HlslGrammar::acceptSwitchStatement(TIntermNode*&, glslang::TAttributeMap const&)
  T glslang::HlslGrammar::acceptTemplateVecMatBasicType(glslang::TBasicType&)
  T glslang::HlslGrammar::acceptTessellationDeclType(glslang::TBuiltInVariable&)
  T glslang::HlslGrammar::acceptTessellationPatchTemplateType(glslang::TType&)
@@ -193,6 +195,7 @@
  T glslang::HlslGrammar::acceptVectorTemplateType(glslang::TType&)
  T glslang::HlslGrammar::captureBlockTokens(glslang::TVector<glslang::HlslToken>&)
  T glslang::HlslGrammar::expected(char const*)
+ T glslang::HlslGrammar::getTypeString(glslang::EHlslTokenClass) const
  T glslang::HlslGrammar::parse()
  T glslang::HlslGrammar::unimplemented(char const*)
  T glslang::HlslOpMap::assignment(glslang::EHlslTokenClass)
@@ -205,11 +208,14 @@
  T glslang::HlslParseContext::addInterstageIoToLinkage()
  T glslang::HlslParseContext::addOutputArgumentConversions(glslang::TFunction const&, glslang::TIntermOperator&)
  T glslang::HlslParseContext::addPatchConstantInvocation()
- T glslang::HlslParseContext::addSwitch(glslang::TSourceLoc const&, glslang::TIntermTyped*, glslang::TIntermAggregate*)
+ T glslang::HlslParseContext::addStructBuffArguments(glslang::TSourceLoc const&, glslang::TIntermAggregate*&)
+ T glslang::HlslParseContext::addStructBufferHiddenCounterParam(glslang::TSourceLoc const&, glslang::TParameter&, glslang::TIntermAggregate*&)
+ T glslang::HlslParseContext::addSwitch(glslang::TSourceLoc const&, glslang::TIntermTyped*, glslang::TIntermAggregate*, glslang::TSelectionControl)
  T glslang::HlslParseContext::arrayDimMerge(glslang::TType&, glslang::TArraySizes const*)
  T glslang::HlslParseContext::arraySizeCheck(glslang::TSourceLoc const&, glslang::TIntermTyped*, glslang::TArraySize&)
  T glslang::HlslParseContext::arraySizeRequiredCheck(glslang::TSourceLoc const&, glslang::TArraySizes const&)
- T glslang::HlslParseContext::assignLocations(glslang::TVariable&)
+ T glslang::HlslParseContext::assignClipCullDistance(glslang::TSourceLoc const&, glslang::TOperator, glslang::TIntermTyped*, glslang::TIntermTyped*)
+ T glslang::HlslParseContext::assignToInterface(glslang::TVariable&)
  T glslang::HlslParseContext::builtInOpCheck(glslang::TSourceLoc const&, glslang::TFunction const&, glslang::TIntermOperator&)
  T glslang::HlslParseContext::checkIndex(glslang::TSourceLoc const&, glslang::TType const&, int&)
  T glslang::HlslParseContext::clearUniform(glslang::TQualifier&)
@@ -220,17 +226,20 @@
  T glslang::HlslParseContext::constructBuiltIn(glslang::TType const&, glslang::TOperator, glslang::TIntermTyped*, glslang::TSourceLoc const&, bool)
  T glslang::HlslParseContext::constructorError(glslang::TSourceLoc const&, TIntermNode*, glslang::TFunction&, glslang::TOperator, glslang::TType&)
  T glslang::HlslParseContext::constructorTextureSamplerError(glslang::TSourceLoc const&, glslang::TFunction const&)
+ T glslang::HlslParseContext::convertArray(glslang::TIntermTyped*, glslang::TType const&)
  T glslang::HlslParseContext::convertConditionalExpression(glslang::TSourceLoc const&, glslang::TIntermTyped*, bool)
  T glslang::HlslParseContext::convertInitializerList(glslang::TSourceLoc const&, glslang::TType const&, glslang::TIntermTyped*, glslang::TIntermTyped*)
  T glslang::HlslParseContext::correctInput(glslang::TQualifier&)
  T glslang::HlslParseContext::correctOutput(glslang::TQualifier&)
  T glslang::HlslParseContext::correctUniform(glslang::TQualifier&)
+ T glslang::HlslParseContext::counterBufferType(glslang::TSourceLoc const&, glslang::TType&)
  T glslang::HlslParseContext::decomposeGeometryMethods(glslang::TSourceLoc const&, glslang::TIntermTyped*&, TIntermNode*)
  T glslang::HlslParseContext::decomposeIntrinsic(glslang::TSourceLoc const&, glslang::TIntermTyped*&, TIntermNode*)
  T glslang::HlslParseContext::decomposeSampleMethods(glslang::TSourceLoc const&, glslang::TIntermTyped*&, TIntermNode*)
  T glslang::HlslParseContext::decomposeStructBufferMethods(glslang::TSourceLoc const&, glslang::TIntermTyped*&, TIntermNode*)
- T glslang::HlslParseContext::executeInitializer(glslang::TSourceLoc const&, glslang::TIntermTyped*, glslang::TVariable*)
- T glslang::HlslParseContext::findFunction(glslang::TSourceLoc const&, glslang::TFunction&, bool&, glslang::TIntermTyped*&)
+ T glslang::HlslParseContext::executeInitializer(glslang::TSourceLoc const&, glslang::TIntermTyped*, glslang::TVariable*, bool)
+ T glslang::HlslParseContext::expandArguments(glslang::TSourceLoc const&, glslang::TFunction const&, glslang::TIntermTyped*&)
+ T glslang::HlslParseContext::findFunction(glslang::TSourceLoc const&, glslang::TFunction&, bool&, int&, glslang::TIntermTyped*&)
  T glslang::HlslParseContext::findLinkageSymbol(glslang::TBuiltInVariable) const
  T glslang::HlslParseContext::finish()
  T glslang::HlslParseContext::fixBlockLocations(glslang::TSourceLoc const&, glslang::TQualifier&, glslang::TVector<glslang::TTypeLoc>&, bool, bool)
@@ -239,8 +248,11 @@
  T glslang::HlslParseContext::fixBuiltInIoType(glslang::TType&)
  T glslang::HlslParseContext::flatten(glslang::TSourceLoc const&, glslang::TVariable const&)
  T glslang::HlslParseContext::flattenAccess(glslang::TIntermTyped*, int)
+ T glslang::HlslParseContext::flattenAccess(int, int, glslang::TType const&, int)
+ T glslang::HlslParseContext::flattenedInit(glslang::TSourceLoc const&, glslang::TIntermSymbol*, glslang::TIntermAggregate const&)
  T glslang::HlslParseContext::getLayoutFromTxType(glslang::TSourceLoc const&, glslang::TType const&)
  T glslang::HlslParseContext::getMatrixComponentsColumn(int, glslang::TSwizzleSelectors<glslang::TMatrixSelector> const&)
+ T glslang::HlslParseContext::getSamplePosArray(int)
  T glslang::HlslParseContext::getSplitIoVar(glslang::TIntermTyped const*) const
  T glslang::HlslParseContext::getSplitIoVar(glslang::TVariable const*) const
  T glslang::HlslParseContext::getSplitIoVar(int) const
@@ -261,13 +273,17 @@
  T glslang::HlslParseContext::handleFunctionDeclarator(glslang::TSourceLoc const&, glslang::TFunction&, bool)
  T glslang::HlslParseContext::handleFunctionDefinition(glslang::TSourceLoc const&, glslang::TFunction&, glslang::TAttributeMap const&, TIntermNode*&)
  T glslang::HlslParseContext::handleInputGeometry(glslang::TSourceLoc const&, glslang::TLayoutGeometry const&)
- T glslang::HlslParseContext::handleLvalue(glslang::TSourceLoc const&, char const*, glslang::TIntermTyped*)
+ T glslang::HlslParseContext::handleLoopControl(glslang::TAttributeMap const&) const
+ T glslang::HlslParseContext::handleLvalue(glslang::TSourceLoc const&, char const*, glslang::TIntermTyped*&)
  T glslang::HlslParseContext::handleOutputGeometry(glslang::TSourceLoc const&, glslang::TLayoutGeometry const&)
  T glslang::HlslParseContext::handleReturnValue(glslang::TSourceLoc const&, glslang::TIntermTyped*)
+ T glslang::HlslParseContext::handleSamplerLvalue(glslang::TSourceLoc const&, char const*, glslang::TIntermTyped*&)
  T glslang::HlslParseContext::handleSamplerTextureCombine(glslang::TSourceLoc const&, glslang::TIntermTyped*, glslang::TIntermTyped*)
+ T glslang::HlslParseContext::handleSelectionControl(glslang::TAttributeMap const&) const
  T glslang::HlslParseContext::handleUnaryMath(glslang::TSourceLoc const&, char const*, glslang::TOperator, glslang::TIntermTyped*)
  T glslang::HlslParseContext::hasInput(glslang::TQualifier const&) const
  T glslang::HlslParseContext::hasOutput(glslang::TQualifier const&) const
+ T glslang::HlslParseContext::hasStructBuffCounter(glslang::TType const&) const
  T glslang::HlslParseContext::hasUniform(glslang::TQualifier const&) const
  T glslang::HlslParseContext::indexStructBufferContent(glslang::TSourceLoc const&, glslang::TIntermTyped*) const
  T glslang::HlslParseContext::inheritGlobalDefaults(glslang::TQualifier&) const
@@ -288,14 +304,16 @@
  T glslang::HlslParseContext::paramFix(glslang::TType&)
  T glslang::HlslParseContext::parseShaderStrings(glslang::TPpContext&, glslang::TInputScanner&, bool)
  T glslang::HlslParseContext::popNamespace()
- T glslang::HlslParseContext::pushThisScope(glslang::TType const&)
+ T glslang::HlslParseContext::pushFrontArguments(glslang::TIntermTyped*, glslang::TIntermTyped*&)
+ T glslang::HlslParseContext::pushThisScope(glslang::TType const&, glslang::TVector<glslang::TFunctionDeclarator> const&)
  T glslang::HlslParseContext::remapEntryPointIO(glslang::TFunction&, glslang::TVariable*&, glslang::TVector<glslang::TVariable*>&, glslang::TVector<glslang::TVariable*>&)
  T glslang::HlslParseContext::remapNonEntryPointIO(glslang::TFunction&)
  T glslang::HlslParseContext::removeUnusedStructBufferCounters()
  T glslang::HlslParseContext::setLimits(TBuiltInResource const&)
+ T glslang::HlslParseContext::setOpaqueLvalue(glslang::TIntermTyped*, glslang::TIntermTyped*)
  T glslang::HlslParseContext::shareStructBufferType(glslang::TType&)
  T glslang::HlslParseContext::shouldConvertLValue(TIntermNode const*) const
- T glslang::HlslParseContext::shouldFlattenUniform(glslang::TType const&) const
+ T glslang::HlslParseContext::shouldFlatten(glslang::TType const&) const
  T glslang::HlslParseContext::specializationCheck(glslang::TSourceLoc const&, glslang::TType const&, char const*)
  T glslang::HlslParseContext::split(glslang::TIntermTyped*)
  T glslang::HlslParseContext::split(glslang::TVariable const&)
@@ -350,6 +368,7 @@
  T glslang::TAllocation::checkGuardBlock(unsigned char*, unsigned char, char const*) const
  T glslang::TAnonMember::clone() const
  T glslang::TAnonMember::dump(TInfoSink&) const
+ T glslang::TAttributeMap::contains(glslang::TAttributeType) const
  T glslang::TAttributeMap::operator[](glslang::TAttributeType) const
  T glslang::TBuiltInParseables::TBuiltInParseables()
  T glslang::TBuiltInParseables::~TBuiltInParseables()
@@ -414,14 +433,16 @@
  T glslang::TIntermediate::addConstantUnion(glslang::TConstUnionArray const&, glslang::TType const&, glslang::TSourceLoc const&, bool) const
  T glslang::TIntermediate::addConstantUnion(int, glslang::TSourceLoc const&, bool) const
  T glslang::TIntermediate::addConstantUnion(long long, glslang::TSourceLoc const&, bool) const
+ T glslang::TIntermediate::addConstantUnion(short, glslang::TSourceLoc const&, bool) const
  T glslang::TIntermediate::addConstantUnion(unsigned int, glslang::TSourceLoc const&, bool) const
  T glslang::TIntermediate::addConstantUnion(unsigned long long, glslang::TSourceLoc const&, bool) const
+ T glslang::TIntermediate::addConstantUnion(unsigned short, glslang::TSourceLoc const&, bool) const
  T glslang::TIntermediate::addConversion(glslang::TOperator, glslang::TType const&, glslang::TIntermTyped*) const
- T glslang::TIntermediate::addForLoop(TIntermNode*, TIntermNode*, glslang::TIntermTyped*, glslang::TIntermTyped*, bool, glslang::TSourceLoc const&)
+ T glslang::TIntermediate::addForLoop(TIntermNode*, TIntermNode*, glslang::TIntermTyped*, glslang::TIntermTyped*, bool, glslang::TSourceLoc const&, glslang::TLoopControl)
  T glslang::TIntermediate::addIndex(glslang::TOperator, glslang::TIntermTyped*, glslang::TIntermTyped*, glslang::TSourceLoc)
- T glslang::TIntermediate::addLoop(TIntermNode*, glslang::TIntermTyped*, glslang::TIntermTyped*, bool, glslang::TSourceLoc const&)
- T glslang::TIntermediate::addSelection(glslang::TIntermTyped*, glslang::TIntermNodePair, glslang::TSourceLoc const&)
- T glslang::TIntermediate::addSelection(glslang::TIntermTyped*, glslang::TIntermTyped*, glslang::TIntermTyped*, glslang::TSourceLoc const&)
+ T glslang::TIntermediate::addLoop(TIntermNode*, glslang::TIntermTyped*, glslang::TIntermTyped*, bool, glslang::TSourceLoc const&, glslang::TLoopControl)
+ T glslang::TIntermediate::addSelection(glslang::TIntermTyped*, glslang::TIntermNodePair, glslang::TSourceLoc const&, glslang::TSelectionControl)
+ T glslang::TIntermediate::addSelection(glslang::TIntermTyped*, glslang::TIntermTyped*, glslang::TIntermTyped*, glslang::TSourceLoc const&, glslang::TSelectionControl)
  T glslang::TIntermediate::addShapeConversion(glslang::TType const&, glslang::TIntermTyped*)
  T glslang::TIntermediate::addSymbol(glslang::TIntermSymbol const&)
  T glslang::TIntermediate::addSymbol(glslang::TType const&, glslang::TSourceLoc const&)
@@ -471,6 +492,7 @@
  T glslang::TIntermediate::mergeLinkerObjects(TInfoSink&, glslang::TVector<TIntermNode*>&, glslang::TVector<TIntermNode*> const&)
  T glslang::TIntermediate::output(TInfoSink&, bool)
  T glslang::TIntermediate::parseConstTree(TIntermNode*, glslang::TConstUnionArray, glslang::TOperator, glslang::TType const&, bool)
+ T glslang::TIntermediate::performTextureUpgradeAndSamplerRemovalTransformation(TIntermNode*)
  T glslang::TIntermediate::postProcess(TIntermNode*, EShLanguage)
  T glslang::TIntermediate::promote(glslang::TIntermOperator*)
  T glslang::TIntermediate::promoteAggregate(glslang::TIntermAggregate&)
@@ -508,7 +530,7 @@
  T glslang::TParseContext::arrayQualifierError(glslang::TSourceLoc const&, glslang::TQualifier const&)
  T glslang::TParseContext::arraySizeCheck(glslang::TSourceLoc const&, glslang::TIntermTyped*, glslang::TArraySize&)
  T glslang::TParseContext::arraySizeRequiredCheck(glslang::TSourceLoc const&, glslang::TArraySizes const&)
- T glslang::TParseContext::arrayUnsizedCheck(glslang::TSourceLoc const&, glslang::TQualifier const&, glslang::TArraySizes const*, bool, bool)
+ T glslang::TParseContext::arraySizesCheck(glslang::TSourceLoc const&, glslang::TQualifier const&, glslang::TArraySizes const*, bool, bool)
  T glslang::TParseContext::blockQualifierCheck(glslang::TSourceLoc const&, glslang::TQualifier const&, bool)
  T glslang::TParseContext::blockStageIoCheck(glslang::TSourceLoc const&, glslang::TQualifier const&)
  T glslang::TParseContext::boolCheck(glslang::TSourceLoc const&, glslang::TIntermTyped const*)
@@ -566,6 +588,7 @@
  T glslang::TParseContext::invariantCheck(glslang::TSourceLoc const&, glslang::TQualifier const&)
  T glslang::TParseContext::isIoResizeArray(glslang::TType const&) const
  T glslang::TParseContext::lValueErrorCheck(glslang::TSourceLoc const&, char const*, glslang::TIntermTyped*)
+ T glslang::TParseContext::layoutMemberLocationArrayCheck(glslang::TSourceLoc const&, bool, glslang::TArraySizes*)
  T glslang::TParseContext::layoutObjectCheck(glslang::TSourceLoc const&, glslang::TSymbol const&)
  T glslang::TParseContext::layoutQualifierCheck(glslang::TSourceLoc const&, glslang::TQualifier const&)
  T glslang::TParseContext::layoutTypeCheck(glslang::TSourceLoc const&, glslang::TType const&)
@@ -621,6 +644,7 @@
  T glslang::TParseVersions::fullIntegerCheck(glslang::TSourceLoc const&, char const*)
  T glslang::TParseVersions::getExtensionBehavior(char const*)
  T glslang::TParseVersions::initializeExtensionBehavior()
+ T glslang::TParseVersions::int16Check(glslang::TSourceLoc const&, char const*, bool)
  T glslang::TParseVersions::int64Check(glslang::TSourceLoc const&, char const*, bool)
  T glslang::TParseVersions::ppRequireExtensions(glslang::TSourceLoc const&, int, char const* const*, char const*)
  T glslang::TParseVersions::profileRequires(glslang::TSourceLoc const&, int, int, char const*, char const*)
@@ -633,6 +657,7 @@
  T glslang::TParseVersions::requireStage(glslang::TSourceLoc const&, EShLanguageMask, char const*)
  T glslang::TParseVersions::requireVulkan(glslang::TSourceLoc const&, char const*)
  T glslang::TParseVersions::spvRemoved(glslang::TSourceLoc const&, char const*)
+ T glslang::TParseVersions::unimplemented(glslang::TSourceLoc const&, char const*)
  T glslang::TParseVersions::updateExtensionBehavior(char const*, glslang::TExtensionBehavior)
  T glslang::TParseVersions::updateExtensionBehavior(int, char const*, char const*)
  T glslang::TParseVersions::vulkanRemoved(glslang::TSourceLoc const&, char const*)
@@ -731,8 +756,8 @@
  T glslang::TShader::getInfoDebugLog()
  T glslang::TShader::getInfoLog()
  T glslang::TShader::parse(TBuiltInResource const*, int, EProfile, bool, bool, EShMessages, glslang::TShader::Includer&)
- T glslang::TShader::parse(TBuiltInResource const*, int, bool, EShMessages)
  T glslang::TShader::setAutoMapBindings(bool)
+ T glslang::TShader::setAutoMapLocations(bool)
  T glslang::TShader::setEntryPoint(char const*)
  T glslang::TShader::setFlattenUniformArrays(bool)
  T glslang::TShader::setHlslIoMapping(bool)
@@ -748,6 +773,7 @@
  T glslang::TShader::setStrings(char const* const*, int)
  T glslang::TShader::setStringsWithLengths(char const* const*, int const*, int)
  T glslang::TShader::setStringsWithLengthsAndNames(char const* const*, int const*, char const* const*, int)
+ T glslang::TShader::setTextureSamplerTransformMode(EShTextureSamplerTransformMode)
  T glslang::TShader::~TShader()
  T glslang::TStringAtomMap::TStringAtomMap()
  T glslang::TSymbol::TSymbol(glslang::TSymbol const&)
@@ -763,7 +789,7 @@
  T glslang::TVariable::clone() const
  T glslang::TVariable::dump(TInfoSink&) const
  T spv::Builder::Builder(unsigned int, spv::SpvBuildLogger*)
- T spv::Builder::If::If(unsigned int, spv::Builder&)
+ T spv::Builder::If::If(unsigned int, unsigned int, spv::Builder&)
  T spv::Builder::If::makeBeginElse()
  T spv::Builder::If::makeEndIf()
  T spv::Builder::accessChainGetInferredType()
@@ -773,7 +799,7 @@
  T spv::Builder::addDecoration(unsigned int, spv::Decoration, int)
  T spv::Builder::addEntryPoint(spv::ExecutionModel, spv::Function*, char const*)
  T spv::Builder::addExecutionMode(spv::Function*, spv::ExecutionMode, int, int, int)
- T spv::Builder::addLine(unsigned int, unsigned int, int, int)
+ T spv::Builder::addLine(unsigned int, int, int)
  T spv::Builder::addMemberDecoration(unsigned int, unsigned int, spv::Decoration, int)
  T spv::Builder::addMemberName(unsigned int, int, char const*)
  T spv::Builder::addName(unsigned int, char const*)
@@ -845,6 +871,7 @@
  T spv::Builder::makeVectorType(unsigned int, int)
  T spv::Builder::makeVoidType()
  T spv::Builder::promoteScalar(spv::Decoration, unsigned int&, unsigned int&)
+ T spv::Builder::setLine(int)
  T spv::Builder::simplifyAccessChainSwizzle()
  T spv::Builder::smearScalar(spv::Decoration, unsigned int, unsigned int)
  T spv::Builder::transferAccessChainSwizzle(bool)
@@ -920,14 +947,13 @@
  V typeinfo for glslang::TRemoveTraverser
  V typeinfo for glslang::TScanContext
  V typeinfo for glslang::TShader
- V typeinfo for glslang::TShader::ForbidIncluder
- V typeinfo for glslang::TShader::Includer
  V typeinfo for glslang::TSmallArrayVector
  V typeinfo for glslang::TSymbol
  V typeinfo for glslang::TType
  V typeinfo for glslang::TVarGatherTraverser
  V typeinfo for glslang::TVarSetTraverser
  V typeinfo for glslang::TVariable
+ V typeinfo for glslang::TextureUpgradeAndSamplerRemovalTransform
  V typeinfo for spv::Block
  V typeinfo for spv::Builder
  V typeinfo for spv::Function
@@ -995,14 +1021,13 @@
  V typeinfo name for glslang::TRemoveTraverser
  V typeinfo name for glslang::TScanContext
  V typeinfo name for glslang::TShader
- V typeinfo name for glslang::TShader::ForbidIncluder
- V typeinfo name for glslang::TShader::Includer
  V typeinfo name for glslang::TSmallArrayVector
  V typeinfo name for glslang::TSymbol
  V typeinfo name for glslang::TType
  V typeinfo name for glslang::TVarGatherTraverser
  V typeinfo name for glslang::TVarSetTraverser
  V typeinfo name for glslang::TVariable
+ V typeinfo name for glslang::TextureUpgradeAndSamplerRemovalTransform
  V typeinfo name for spv::Block
  V typeinfo name for spv::Builder
  V typeinfo name for spv::Function
@@ -1070,14 +1095,13 @@
  V vtable for glslang::TRemoveTraverser
  V vtable for glslang::TScanContext
  V vtable for glslang::TShader
- V vtable for glslang::TShader::ForbidIncluder
- V vtable for glslang::TShader::Includer
  V vtable for glslang::TSmallArrayVector
  V vtable for glslang::TSymbol
  V vtable for glslang::TType
  V vtable for glslang::TVarGatherTraverser
  V vtable for glslang::TVarSetTraverser
  V vtable for glslang::TVariable
+ V vtable for glslang::TextureUpgradeAndSamplerRemovalTransform
  V vtable for spv::Block
  V vtable for spv::Builder
  V vtable for spv::Function
@@ -1086,7 +1110,6 @@
  VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
  VTT for std::basic_ofstream<char, std::char_traits<char> >@@GLIBCXX_3.4
  VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
- VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
  V_CopyMemory3D
  V_FixDoubleSlashes
  V_FixSlashes
@@ -1106,7 +1129,6 @@
  V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
  V_UnicodeLength(char const*)
  V_UnqualifiedFileName
- V_acos
  V_acosf
  V_asinf
  V_atan2f
@@ -1120,7 +1142,6 @@
  V_fopen
  V_fprintf
  V_localeconv
- V_log2
  V_logf
  V_pow
  V_powf
@@ -1140,7 +1161,6 @@
  V_strtoui64
  V_strupper_fast
  V_swscanf
- V_tan
  V_tanf
  V_vscprintf
  V_vsnprintf
@@ -1237,7 +1257,12 @@
  W glslang::TDefaultIoResolver::resolveBinding(EShLanguage, char const*, glslang::TType const&, bool)
  W glslang::TDefaultIoResolver::validateBinding(EShLanguage, char const*, glslang::TType const&, bool)
  W glslang::TDefaultIoResolver::~TDefaultIoResolver()
- W glslang::TDefaultIoResolverBase::getFreeSlot(int, int)
+ W glslang::TDefaultIoResolverBase::beginNotifications(EShLanguage)
+ W glslang::TDefaultIoResolverBase::beginResolve(EShLanguage)
+ W glslang::TDefaultIoResolverBase::endNotifications(EShLanguage)
+ W glslang::TDefaultIoResolverBase::endResolve(EShLanguage)
+ W glslang::TDefaultIoResolverBase::notifyBinding(EShLanguage, char const*, glslang::TType const&, bool)
+ W glslang::TDefaultIoResolverBase::notifyInOut(EShLanguage, char const*, glslang::TType const&, bool)
  W glslang::TDefaultIoResolverBase::resolveInOutComponent(EShLanguage, char const*, glslang::TType const&, bool)
  W glslang::TDefaultIoResolverBase::resolveInOutIndex(EShLanguage, char const*, glslang::TType const&, bool)
  W glslang::TDefaultIoResolverBase::resolveInOutLocation(EShLanguage, char const*, glslang::TType const&, bool)
@@ -1273,6 +1298,7 @@
  W glslang::TIndexTraverser::~TIndexTraverser()
  W glslang::TInductiveTraverser::~TInductiveTraverser()
  W glslang::TInfoSinkBase::message(glslang::TPrefixType, char const*)
+ W glslang::TInfoSinkBase::message(glslang::TPrefixType, char const*, glslang::TSourceLoc const&)
  W glslang::TInfoSinkBase::operator<<(int)
  W glslang::TInfoSinkBase::prefix(glslang::TPrefixType)
  W glslang::TInputScanner::TInputScanner(int, char const* const*, unsigned long*, char const* const*, int, int, bool)
@@ -1394,12 +1420,14 @@
  W glslang::TPpContext::pushInput(glslang::TPpContext::tInput*)
  W glslang::TPpContext::scanToken(glslang::TPpToken*)
  W glslang::TPpContext::tInput::endOfReplacementList()
+ W glslang::TPpContext::tInput::isMacroInput()
  W glslang::TPpContext::tInput::notifyActivated()
  W glslang::TPpContext::tInput::notifyDeleted()
  W glslang::TPpContext::tInput::peekPasting()
  W glslang::TPpContext::tInput::~tInput()
  W glslang::TPpContext::tMacroInput::endOfReplacementList()
  W glslang::TPpContext::tMacroInput::getch()
+ W glslang::TPpContext::tMacroInput::isMacroInput()
  W glslang::TPpContext::tMacroInput::peekPasting()
  W glslang::TPpContext::tMacroInput::ungetch()
  W glslang::TPpContext::tMacroInput::~tMacroInput()
@@ -1446,11 +1474,6 @@
  W glslang::TRemoveTraverser::~TRemoveTraverser()
  W glslang::TSampler::getString() const
  W glslang::TScanContext::~TScanContext()
- W glslang::TShader::ForbidIncluder::releaseInclude(glslang::TShader::Includer::IncludeResult*)
- W glslang::TShader::ForbidIncluder::~ForbidIncluder()
- W glslang::TShader::Includer::includeLocal(char const*, char const*, unsigned long)
- W glslang::TShader::Includer::includeSystem(char const*, char const*, unsigned long)
- W glslang::TShader::Includer::~Includer()
  W glslang::TShaderQualifiers::merge(glslang::TShaderQualifiers const&)
  W glslang::TSmallArrayVector::push_back(unsigned int, glslang::TIntermTyped*)
  W glslang::TSmallArrayVector::~TSmallArrayVector()
@@ -1511,6 +1534,7 @@
  W glslang::TType::getOuterArraySize() const
  W glslang::TType::getQualifier()
  W glslang::TType::getQualifier() const
+ W glslang::TType::getSampler()
  W glslang::TType::getSampler() const
  W glslang::TType::getTypeName() const
  W glslang::TType::getVectorSize() const
@@ -1523,6 +1547,7 @@
  W glslang::TType::isFloatingDomain() const
  W glslang::TType::isImage() const
  W glslang::TType::isImplicitlySizedArray() const
+ W glslang::TType::isIntegerDomain() const
  W glslang::TType::isLooseAndBuiltIn(EShLanguage) const
  W glslang::TType::isMatrix() const
  W glslang::TType::isOpaque() const
@@ -1556,12 +1581,19 @@
  W glslang::TVariable::setConstArray(glslang::TConstUnionArray const&)
  W glslang::TVariable::setConstSubtree(glslang::TIntermTyped*)
  W glslang::TVariable::~TVariable()
+ W glslang::TextureUpgradeAndSamplerRemovalTransform::visitAggregate(glslang::TVisit, glslang::TIntermAggregate*)
+ W glslang::TextureUpgradeAndSamplerRemovalTransform::visitAggregate(glslang::TVisit, glslang::TIntermAggregate*)::{lambda(TIntermNode*)#1}::_FUN(TIntermNode*)
+ W glslang::TextureUpgradeAndSamplerRemovalTransform::visitAggregate(glslang::TVisit, glslang::TIntermAggregate*)::{lambda(TIntermNode*)#1}::operator()(TIntermNode*) const
+ W glslang::TextureUpgradeAndSamplerRemovalTransform::visitSymbol(glslang::TIntermSymbol*)
+ W glslang::TextureUpgradeAndSamplerRemovalTransform::~TextureUpgradeAndSamplerRemovalTransform()
  W spv::Block::Block(unsigned int, spv::Function&)
  W spv::Block::~Block()
  W spv::Builder::AccessChain::~AccessChain()
  W spv::Builder::addExtension(char const*)
+ W spv::Builder::makeInt16Constant(short, bool)
  W spv::Builder::makeInt64Constant(long long, bool)
  W spv::Builder::makeIntConstant(int, bool)
+ W spv::Builder::makeUint16Constant(unsigned short, bool)
  W spv::Builder::makeUint64Constant(unsigned long long, bool)
  W spv::Builder::makeUintConstant(unsigned int, bool)
  W spv::Function::~Function()
@@ -1570,12 +1602,10 @@
  W spv::Module::mapInstruction(spv::Instruction*)
  W spv::Module::~Module()
  W spv::SpvBuildLogger::~SpvBuildLogger()
- W std::_Rb_tree_iterator<std::pair<glslang::TVector<glslang::TTypeLoc> const* const, glslang::HlslParseContext::tIoKinds> > std::_Rb_tree<glslang::TVector<glslang::TTypeLoc> const*, std::pair<glslang::TVector<glslang::TTypeLoc> const* const, glslang::HlslParseContext::tIoKinds>, std::_Select1st<std::pair<glslang::TVector<glslang::TTypeLoc> const* const, glslang::HlslParseContext::tIoKinds> >, std::less<glslang::TVector<glslang::TTypeLoc> const*>, glslang::pool_allocator<std::pair<glslang::TVector<glslang::TTypeLoc> const* const, glslang::HlslParseContext::tIoKinds> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<glslang::TVector<glslang::TTypeLoc> const*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<glslang::TVector<glslang::TTypeLoc> const* const, glslang::HlslParseContext::tIoKinds> >, std::piecewise_construct_t const&, std::tuple<glslang::TVector<glslang::TTypeLoc> const*&&>&&, std::tuple<>&&)
  W std::_Rb_tree_iterator<std::pair<glslang::TVector<glslang::TTypeLoc>* const, glslang::TVector<glslang::TTypeLoc>*> > std::_Rb_tree<glslang::TVector<glslang::TTypeLoc>*, std::pair<glslang::TVector<glslang::TTypeLoc>* const, glslang::TVector<glslang::TTypeLoc>*>, std::_Select1st<std::pair<glslang::TVector<glslang::TTypeLoc>* const, glslang::TVector<glslang::TTypeLoc>*> >, std::less<glslang::TVector<glslang::TTypeLoc>*>, glslang::pool_allocator<std::pair<glslang::TVector<glslang::TTypeLoc>* const, glslang::TVector<glslang::TTypeLoc>*> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<glslang::TVector<glslang::TTypeLoc>* const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<glslang::TVector<glslang::TTypeLoc>* const, glslang::TVector<glslang::TTypeLoc>*> >, std::piecewise_construct_t const&, std::tuple<glslang::TVector<glslang::TTypeLoc>* const&>&&, std::tuple<>&&)
  W std::_Rb_tree_iterator<std::pair<int const, glslang::HlslParseContext::TFlattenData> > std::_Rb_tree<int, std::pair<int const, glslang::HlslParseContext::TFlattenData>, std::_Select1st<std::pair<int const, glslang::HlslParseContext::TFlattenData> >, std::less<int>, glslang::pool_allocator<std::pair<int const, glslang::HlslParseContext::TFlattenData> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<int&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<int const, glslang::HlslParseContext::TFlattenData> >, std::piecewise_construct_t const&, std::tuple<int&&>&&, std::tuple<>&&)
  W std::_Rb_tree_iterator<std::pair<int const, glslang::TPpContext::MacroSymbol> > std::_Rb_tree<int, std::pair<int const, glslang::TPpContext::MacroSymbol>, std::_Select1st<std::pair<int const, glslang::TPpContext::MacroSymbol> >, std::less<int>, glslang::pool_allocator<std::pair<int const, glslang::TPpContext::MacroSymbol> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<int const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<int const, glslang::TPpContext::MacroSymbol> >, std::piecewise_construct_t const&, std::tuple<int const&>&&, std::tuple<>&&)
  W std::_Rb_tree_iterator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, bool> > std::_Rb_tree<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, bool>, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, bool> >, std::less<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > >, glslang::pool_allocator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, bool> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, bool> >, std::piecewise_construct_t const&, std::tuple<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const&>&&, std::tuple<>&&)
- W std::_Rb_tree_iterator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TBuiltInVariable> > std::_Rb_tree<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TBuiltInVariable>, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TBuiltInVariable> >, std::less<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > >, glslang::pool_allocator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TBuiltInVariable> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TBuiltInVariable> >, std::piecewise_construct_t const&, std::tuple<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const&>&&, std::tuple<>&&)
  W std::_Rb_tree_iterator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TExtensionBehavior> > std::_Rb_tree<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TExtensionBehavior>, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TExtensionBehavior> >, std::less<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > >, glslang::pool_allocator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TExtensionBehavior> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> >&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, glslang::TExtensionBehavior> >, std::piecewise_construct_t const&, std::tuple<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> >&&>&&, std::tuple<>&&)
  W std::_Rb_tree_iterator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, int> > std::_Rb_tree<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, int>, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, int> >, std::less<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, int> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, int> >, std::piecewise_construct_t const&, std::tuple<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const&>&&, std::tuple<>&&)
  W std::_Rb_tree_node<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > > >* std::_Rb_tree<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > >, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > > >, std::less<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > >, glslang::pool_allocator<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > > > >::_M_create_node<std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > > const&>(std::pair<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > const, std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > > const&)
@@ -1593,14 +1623,15 @@
  W void std::vector<TShHandleBase*, glslang::pool_allocator<TShHandleBase*> >::_M_emplace_back_aux<TShHandleBase*>(TShHandleBase*&&)
  W void std::vector<char const*, std::allocator<char const*> >::_M_emplace_back_aux<char const* const&>(char const* const&)
  W void std::vector<glslang::HlslParseContext::tInterstageIoData, std::allocator<glslang::HlslParseContext::tInterstageIoData> >::_M_emplace_back_aux<glslang::HlslParseContext::tInterstageIoData const&>(glslang::HlslParseContext::tInterstageIoData const&)
+ W void std::vector<glslang::HlslParseContext::tMipsOperatorData, glslang::pool_allocator<glslang::HlslParseContext::tMipsOperatorData> >::_M_emplace_back_aux<glslang::HlslParseContext::tMipsOperatorData>(glslang::HlslParseContext::tMipsOperatorData&&)
  W void std::vector<glslang::HlslToken, glslang::pool_allocator<glslang::HlslToken> >::_M_emplace_back_aux<glslang::HlslToken const&>(glslang::HlslToken const&)
  W void std::vector<glslang::TArraySize, glslang::pool_allocator<glslang::TArraySize> >::_M_emplace_back_aux<glslang::TArraySize const&>(glslang::TArraySize const&)
  W void std::vector<glslang::TConstUnionArray, glslang::pool_allocator<glslang::TConstUnionArray> >::_M_emplace_back_aux<glslang::TConstUnionArray const&>(glslang::TConstUnionArray const&)
  W void std::vector<glslang::TFunction const*, glslang::pool_allocator<glslang::TFunction const*> >::_M_emplace_back_aux<glslang::TFunction const*>(glslang::TFunction const*&&)
  W void std::vector<glslang::TIntermTyped*, glslang::pool_allocator<glslang::TIntermTyped*> >::_M_emplace_back_aux<glslang::TIntermTyped* const&>(glslang::TIntermTyped* const&)
+ W void std::vector<glslang::TIntermTyped*, glslang::pool_allocator<glslang::TIntermTyped*> >::_M_emplace_back_aux<glslang::TIntermTyped*>(glslang::TIntermTyped*&&)
  W void std::vector<glslang::TIoRange, std::allocator<glslang::TIoRange> >::_M_emplace_back_aux<glslang::TIoRange const&>(glslang::TIoRange const&)
  W void std::vector<glslang::TObjectReflection, std::allocator<glslang::TObjectReflection> >::_M_emplace_back_aux<glslang::TObjectReflection>(glslang::TObjectReflection&&)
- W void std::vector<glslang::TObjectReflection, std::allocator<glslang::TObjectReflection> >::emplace_back<glslang::TObjectReflection>(glslang::TObjectReflection&&)
  W void std::vector<glslang::TOffsetRange, std::allocator<glslang::TOffsetRange> >::_M_emplace_back_aux<glslang::TOffsetRange const&>(glslang::TOffsetRange const&)
  W void std::vector<glslang::TParameter, glslang::pool_allocator<glslang::TParameter> >::_M_emplace_back_aux<glslang::TParameter const&>(glslang::TParameter const&)
  W void std::vector<glslang::TParameter, glslang::pool_allocator<glslang::TParameter> >::_M_insert_aux<glslang::TParameter const&>(__gnu_cxx::__normal_iterator<glslang::TParameter*, std::vector<glslang::TParameter, glslang::pool_allocator<glslang::TParameter> > >, glslang::TParameter const&)
@@ -1625,9 +1656,11 @@
  W void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int const&>(int const&)
  W void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&)
  W void std::vector<int, std::allocator<int> >::_M_insert_aux<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+ W void std::vector<int, std::allocator<int> >::_M_insert_aux<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&)
  W void std::vector<spv::Block*, std::allocator<spv::Block*> >::_M_emplace_back_aux<spv::Block* const&>(spv::Block* const&)
  W void std::vector<spv::Block*, std::allocator<spv::Block*> >::_M_emplace_back_aux<spv::Block*>(spv::Block*&&)
  W void std::vector<spv::Builder::AccessChain, std::allocator<spv::Builder::AccessChain> >::_M_emplace_back_aux<spv::Builder::AccessChain>(spv::Builder::AccessChain&&)
+ W void std::vector<spv::Decoration, std::allocator<spv::Decoration> >::_M_emplace_back_aux<spv::Decoration const&>(spv::Decoration const&)
  W void std::vector<spv::Decoration, std::allocator<spv::Decoration> >::_M_emplace_back_aux<spv::Decoration>(spv::Decoration&&)
  W void std::vector<spv::Function*, std::allocator<spv::Function*> >::_M_emplace_back_aux<spv::Function* const&>(spv::Function* const&)
  W void std::vector<spv::Instruction*, std::allocator<spv::Instruction*> >::_M_emplace_back_aux<spv::Instruction* const&>(spv::Instruction* const&)
@@ -1732,7 +1765,6 @@
  operator delete(void*, std::nothrow_t const&)@@GLIBCXX_3.4
  operator new(unsigned long, std::nothrow_t const&)@@GLIBCXX_3.4
  pow@@GLIBC_2.2.5
- powf@@GLIBC_2.2.5
  pthread_getspecific@@GLIBC_2.2.5
  pthread_key_create@@GLIBC_2.2.5
  pthread_key_delete@@GLIBC_2.2.5
@@ -1777,7 +1809,6 @@
  std::basic_filebuf<char, std::char_traits<char> >::~basic_filebuf()@@GLIBCXX_3.4
  std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)@@GLIBCXX_3.4
  std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@@GLIBCXX_3.4
- std::basic_iostream<char, std::char_traits<char> >::~basic_iostream()@@GLIBCXX_3.4
  std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)@@GLIBCXX_3.4
  std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()@@GLIBCXX_3.4
  std::basic_ofstream<char, std::char_traits<char> >::~basic_ofstream()@@GLIBCXX_3.4
@@ -1961,6 +1992,7 @@
  vkQueueWaitIdle
  vkResetCommandBuffer
  vkResetDescriptorPool
+ vkResetFences
  vkUnmapMemory
  vkUpdateDescriptorSets
  vkWaitForFences
@@ -1975,6 +2007,5 @@
  vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
  vtable for std::basic_streambuf<char, std::char_traits<char> >@@GLIBCXX_3.4
  vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
- vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
  wcslen@@GLIBC_2.2.5
  xcb_connect

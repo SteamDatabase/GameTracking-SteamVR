@@ -8,7 +8,6 @@ SteamToursContentBrowser
 	flow-children: none;
 	width: 100%;
 	height: 100%;
-	//border-radius: 10px;
 	opacity: 1;
 	transition-property: opacity;
 	transition-duration: shortduration;
@@ -103,25 +102,6 @@ SteamToursContentBrowser.Hidden,
 	//opacity: 0;
 }
 
-//////////////////////
-/// HIDE TEST BUTTON
-//////////////////////
-
-#HideTestButton
-{
-	height: 100px;
-	width: 220px;
-	margin-left: 505px;
-	vertical-align: center;
-}
-
-#HideTestButton Label
-{
-	padding: 0px;
-	vertical-align: center;
-}
-
-//////////////////////
 
 #GoHomeButton,
 #QuickGoHomeButton,
@@ -328,7 +308,6 @@ SteamToursContentBrowser.Hidden,
 	background-color: ui_color_mid;
 	pre-transform-scale2d: 1;
 	border: 2px solid white;
-	//box-shadow: ui_color 0px 0px 10px 0px;
 }
 
 .ContentBrowserButton:active 
@@ -384,10 +363,19 @@ SteamToursContentBrowser.Hidden,
 .PropsTab #PropsContainer,
 .AvatarsTab.HeadSelected #AvatarHeadsContainer,
 .AvatarsTab.HandsSelected #AvatarHandsContainer,
-.BrowseWorkshopTab #BrowseWorkshopContainer 
+.BrowseWorkshopTab #BrowseWorkshopContainer,
+.ScreenshotsOn #AppsWithScreenshotsContainer,
+.ArtworkOn #AppsWithArtworkContainer,
+.ScreenshotsByApp #AppImagesContainer,
+.ArtworkByApp #AppImagesContainer
 {
-	//opacity: 1.0;
 	visibility: visible;
+}
+
+.PropsTab.ArtworkOn #PropsContainer,
+.PropsTab.ScreenshotsOn #PropsContainer
+{
+	visibility: collapse;
 }
 
 .PropsTab .HomeButton,
@@ -462,12 +450,14 @@ SteamToursContentBrowser.Hidden,
 	background-color: background_center_gradient;
 }
 
-.Dashboard .ContentBrowserButton 
+.Dashboard .ContentBrowserButton, 
+#QuestsTabButton
 {
 	horizontal-align: left;
 	flow-children: down;
 	height: 448px;
 	width: 477px;
+	pre-transform-scale2d: 1;
 	margin-bottom: 0px;
 	border: 2px solid #000000ff;
 	background-color: background_center_gradient;
@@ -1093,6 +1083,101 @@ SteamToursContentBrowser.Hidden,
 	border: 4px;
 }
 
+/*----------------------
+     THING DASHBOARD
+-----------------------*/
+
+.ThingsDashboard
+{
+	width: 100%;
+	height: 100%;
+	visibility: collapse;	
+}
+
+.ThingsDashboardOn .ThingsDashboard
+{
+	visibility: visible;
+}
+
+.ThingsDashboardBody 
+{
+	width: 100%;
+	height: 900px;
+	border-radius: 5px;
+	border: 2px solid panel_stroke;	
+	margin-top: 155px;
+	padding: 20px;
+	background-color: background_center_gradient;
+	flow-children: right-wrap;
+}
+
+.ThingsButton
+{
+	//width: 450px;
+	width: 335px;
+	height: 410px;
+	margin-left: 10px;
+	margin-top: 10px;
+	horizontal-align: left;
+	border: 2px solid #ffffff08;
+	background-color: background_center_gradient_darker;
+}
+
+.ThingIcon
+{
+	width: 250px;
+	//height: 250px;
+	margin-top: 60px;
+	horizontal-align: center;
+}
+
+
+.ThingsButton:hover 
+{
+	background-color: background_center_gradient_hover;
+	pre-transform-scale2d: 1;
+	border: 2px solid #ffffff50;
+	//box-shadow: button_glow 0px 0px 10px 0px;
+}
+
+
+.ContentBrowserButton.ThingsButton Label
+{
+	//font-size: 40px;
+	font-size: 36px;
+	horizontal-align: center;
+	vertical-align: bottom;
+	padding: 0px;
+	text-align: center;
+	//margin-bottom: 35px;
+	margin-bottom: 50px;
+	width: 420px;
+}
+
+#BackToThingsDashboard
+{
+	vertical-align: top;
+	margin-top: 25px;
+	margin-left: 35px;
+	flow-children: right;
+	width: 220px;
+	visibility: collapse;
+}
+
+.ThingsSubpage #BackToThingsDashboard
+{
+	visibility: visible;
+}
+
+// Turn off trophies, spawnable panels, screenshots, and artwork if Steam is not detected
+
+.NoSteam #TrophiesButton,
+.NoSteam #SpawnablePanelsButton,
+.NoSteam #ScreenshotsButton,
+.NoSteam #ArtworkButton
+{
+	visibility: collapse;
+}
 
 /*----------------------
      AVATAR DASHBOARD
@@ -1885,9 +1970,16 @@ AvatarCustomizationItem #SliderThumb
 #BrowseAvatarsTitleHead,
 #BrowseAvatarsTitleHands,
 #BrowseAvatarsTitleWearables,
-#BrowsePropsTitle,
+#BrowseThingsTitle,
 #BrowseWorkshopTitle,
-.PropsTab.WearableEditMode #BrowsePropsTitle 
+.ThingType,
+.PropsTab.WearableEditMode #BrowseThingsTitle,
+.PropsTab.WearableEditMode .ThingType,
+.ThingsSubpage.PropsTab #BrowseThingsTitle,
+.ScreenshotsByApp.PropsTab #BrowseThingsTitle,
+.ArtworkByApp.PropsTab #BrowseThingsTitle, 
+.PropsTab.ScreenshotDetail #BrowseThingsTitle,
+.PropsTab.ArtworkDetail #BrowseThingsTitle 
 {
 	visibility: collapse;
 }
@@ -1896,9 +1988,19 @@ AvatarCustomizationItem #SliderThumb
 .BackgroundsTab #BrowseBackgroundsTitle,
 .HeadSelected #BrowseAvatarsTitleHead,
 .HandsSelected #BrowseAvatarsTitleHands,
-.PropsTab #BrowsePropsTitle,
+.PropsTab #BrowseThingsTitle,
 .BrowseWorkshopTab #BrowseWorkshopTitle,
-.WearableEditMode #BrowseAvatarsTitleWearables 
+.WearableEditMode #BrowseAvatarsTitleWearables,
+.ThingsSubpage.PropsOn #BrowsePropsTitle,
+.ThingsSubpage.ToolsOn #BrowseToolsTitle,
+.ThingsSubpage.WearablesOn #BrowseWearablesTitle,
+.ThingsSubpage.FurnitureOn #BrowseFurnitureTitle,
+.ThingsSubpage.TrophiesOn #BrowseTrophiesTitle,
+.ScreenshotsByApp #BrowseScreenshotsTitle,
+.ArtworkByApp #BrowseArtworkTitle,
+.ThingsSubpage.SpawnablePanelsOn #BrowseSpawnablePanelsTitle,
+.ScreenshotDetail #ScreenshotDetailTitle,
+.ArtworkDetail #ArtworkDetailTitle
 {
 	visibility: visible;
 }
@@ -1997,7 +2099,6 @@ AvatarCustomizationItem #SliderThumb
 }
 
 .WearablesSelected #WearableInfoText,
-.PhysicsTab #InteractablesInfoText,
 .MapsTab #DestinationsInfoText,
 .BrowseWorkshopTab #DestinationsWorkshopInfoText,
 .HeadSelected #AvatarHeadsInfoText,
@@ -2010,7 +2111,7 @@ AvatarCustomizationItem #SliderThumb
      CONTENT BROWSER TAGS AREA
 ---------------------------*/
 
-.PropsTab .ContentContainer
+.PropsTab.WearableEditMode .ContentContainer
 {
 	padding-top: 125px;	
 }
@@ -2019,7 +2120,8 @@ AvatarCustomizationItem #SliderThumb
 .PropsTab #PropsTag,
 .PropsTab #ToolsTag,
 .PropsTab #WearablesTag,
-.PropsTab #FurnitureTag
+.PropsTab #FurnitureTag,
+.PropsTab #SteamVRTag
 {
 	visibility: visible;
 }
@@ -2048,11 +2150,10 @@ AvatarCustomizationItem #SliderThumb
 	horizontal-align: center;
 }
 
-.PropsTab .ContentContainerTags
+.PropsTab.WearableEditMode .ContentContainerTags
 {
 	visibility: visible;	
 }
-
 
 .TagTitle
 {
@@ -2154,6 +2255,8 @@ AvatarCustomizationItem #SliderThumb
 .ItemAvatarWearable,
 .ItemFurniture,
 .Environment,
+.ItemTrophy,
+.ItemSpawnablePanel,
 .Background
 {
 	visibility: collapse;
@@ -2162,7 +2265,9 @@ AvatarCustomizationItem #SliderThumb
 .PropsOn .ItemPhysicsProp,
 .ToolsOn .ItemTool,
 .WearablesOn .ItemAvatarWearable,
-.FurnitureOn .ItemFurniture
+.FurnitureOn .ItemFurniture,
+.TrophiesOn .ItemTrophy,
+.SpawnablePanelsOn .ItemSpawnablePanel
 {
 	visibility: visible;
 }
@@ -2203,6 +2308,279 @@ AvatarCustomizationItem #SliderThumb
 {
 	visibility: collapse;
 }
+
+/*---------------------------
+    GAME TROPHY SECTION
+---------------------------*/
+
+.TrophyItemTitle
+{
+	visibility: collapse;
+}
+
+.ItemTrophy .TrophyItemTitle
+{
+	visibility: visible;
+}
+
+
+.Scrolling .Item.ItemTrophy,
+.Scrolling .Item.ItemTrophy #ItemPreviewImage
+{
+	width: 400px;
+	height: 187px;
+	opacity: 1;
+}
+
+.Scrolling .Item.ItemTrophy #ViewDetailsBtn,
+.Scrolling .Item.ItemTrophy .DestinationGradient,
+.Scrolling .Item.ItemTrophy .ItemGradient,
+.TrophyItemTitle
+{
+	opacity: 0;
+	transition-property: opacity, background-color;
+	transition-duration: .17s;
+	transition-timing-function: bigpicture-ease-in-out;
+}
+
+.Scrolling .Item.ItemTrophy:hover .DestinationGradient,
+.Scrolling .Item.ItemTrophy:hover .ItemGradient,
+.Scrolling .Item.ItemTrophy:hover .TrophyItemTitle
+{
+	opacity: 1;
+}
+
+.TrophyItemTitle
+{
+	width: 370px;
+	height: 30px;
+	vertical-align: bottom;
+	margin-left: 15px;
+	margin-bottom: 12px;
+	color: white;
+	font-size: 24px;
+}
+
+.DefaultAppImage
+{
+	visibility: collapse;
+}
+
+.ItemTrophy .DefaultAppImage
+{
+	visibility: visible;
+}
+
+/*--------------------------------
+    ARTWORK & SCREENSHOTS SECTIONS
+--------------------------------*/
+
+#BackToScreenshotApps,
+#BackToArtworkApps,
+#BackToScreenshotsByApp,
+#BackToArtworkByApp,
+.ScreenshotsOn #BackToDashboard,
+.ArtworkOn #BackToDashboard,
+.ScreenshotsByApp #BackToDashboard,
+.ArtworkByApp #BackToDashboard,
+.ScreenshotDetail #BackToDashboard,
+.ArtworkDetail #BackToDashboard
+{
+	visibility: collapse;
+}
+
+.ScreenshotsByApp #BackToScreenshotApps,
+.ArtworkByApp #BackToArtworkApps,
+.ScreenshotDetail #BackToScreenshotsByApp,
+.ArtworkDetail #BackToArtworkByApp
+{
+	visibility: visible;
+}
+
+#ArtworkTabs .DestinationButton,
+#ScreenshotsTabs .DestinationButton
+{
+	width: 350px;
+}
+
+.ArtworkOn #ArtworkTabs,
+.ScreenshotsOn #ScreenshotsTabs
+{
+	visibility: visible;
+}
+
+/*---------------------------
+    ARTWORK AND SCREENSHOTS
+---------------------------*/
+
+.Item.AppWithSpawnableImage
+{
+	height: 200px;
+	width: 428px;
+	margin: 0px 15px 15px 0px;
+	background-color: blue;
+	//border: 2px solid #000000aa;
+	visibility: collapse;
+}
+
+.Item.AppWithSpawnableImage .ItemPreviewImage
+{
+	height: 200px;
+	width: 428px;
+}
+
+.Item.AppWithSpawnableImage #ViewDetailsBtn,
+.Item.AppWithSpawnableImage .DestinationGradient,
+.Item.AppWithSpawnableImage .ItemGradient
+{
+	visibility: collapse;
+}
+
+.Item.ItemSpawnableImage
+{
+	//height: fit-children;
+	//width: fit-children;
+	height: 256px;
+	width: 256px;
+	margin: 0px 15px 15px 0px;
+}
+
+.Item.ItemSpawnableImage .ItemPreviewImage
+{
+	//height: fit-children;
+	//width: fit-children;
+	height: 256px;
+	width: 256px;
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+.Item.ItemSpawnableImage #ViewDetailsBtn,
+.Item.ItemSpawnableImage .DestinationGradient,
+.Item.ItemSpawnableImage .ItemGradient
+{
+	visibility: collapse;
+}
+
+.ScreenshotsOn .AppWithSpawnableImage,
+.ArtworkOn .AppWithSpawnableImage
+{
+	visibility: visible;
+}
+
+.MyArtwork #Artwork_MyTab,
+.CommunityArtwork #Artwork_CommunityTab,
+.MyScreenshots #Screenshots_MyTab,
+.CommunityScreenshots #Screenshots_CommunityTab
+{
+	background-color: button_gradient_bright;
+}
+
+#Artwork_MyTab:active,
+#Artwork_CommunityTab:active,
+#Screenshots_MyTab:active,
+#Screenshots_CommunityTab:active
+{
+	pre-transform-scale2d: 1;
+}
+
+// Detail view
+
+.ContentDetail
+{
+	width: 100%;
+	height: 800px;
+	margin-top: 200px;
+	flow-children: down;
+	visibility: collapse;
+}
+
+.ScreenshotDetail .ContentDetail,
+.ArtworkDetail .ContentDetail
+{
+	visibility: visible;
+}
+
+.Scrolling.ScreenshotDetail .ContentBrowserRight,
+.Scrolling.ArtworkDetail .ContentBrowserRight
+{
+	visibility: collapse;
+}
+
+.ContentDetailImage
+{
+	horizontal-align: center;
+	//margin-top: 200px;
+	height: 680px;
+	width: 80%;
+
+}
+.ContentDetailButtons
+{
+	horizontal-align: center;
+	margin-top: 20px;
+	flow-children: right;
+}
+
+.PreviousButton,
+.NextButton
+{
+	width: 150px;
+	height: 100px;
+	vertical-align: bottom;
+	//background-color: #1a1a1aff;
+}
+
+.PreviousButtonImage
+{
+	width: 100px;
+	height: 100px;
+	horizontal-align: center;
+	vertical-align: center;
+	transform: rotateZ( 90deg );
+	opacity: 1;
+}
+
+.NextButtonImage
+{
+	width: 100px;
+	height: 100px;
+	horizontal-align: center;
+	vertical-align: center;
+	transform: rotateZ( 270deg );
+	opacity: 1;
+}
+
+
+.SaveCopy
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	horizontal-align: right;
+	vertical-align: bottom;
+	//background-color: #222222ff;
+	width: 420px;
+	height: 100px;
+}
+
+
+.SaveCopy Label
+{
+	vertical-align: center;
+	font-size: 40px;
+	width: 300px;
+	margin-left: 85px;
+}
+
+.CopyIcon
+{
+	vertical-align: center;
+	margin-left: 20px;
+	opacity: .6;
+	height: 55px;
+	width: 55px;
+}
+
 
 /*---------------------------
     WORKSHOP BROWSING
@@ -2435,7 +2813,7 @@ AvatarCustomizationItem #SliderThumb
 {
 	color: white;
 	font-size: 33px;
-	height: 30px;
+	height: 33px;
 	width: 75%;
 	horizontal-align: center;
 	text-align: center;
@@ -3154,6 +3532,7 @@ AvatarCustomizationItem #SliderThumb
 {
 	width: 100%;
 	height: 100%;
+
 	background-color: #000000dc;
 }
 
@@ -4417,7 +4796,7 @@ AvatarCustomizationItem #SliderThumb
 {
 	width: 40px;
 	height: 40px;
-	opacity: .5;
+	opacity: .2;
 	vertical-align: top;
 	horizontal-align: right;
 	margin: 20px 20px 0px 0px;	
@@ -5128,6 +5507,8 @@ AvatarCustomizationItem #SliderThumb
 .item_def_vive_controllers,
 .item_def_touch_controllers,
 .item_def_knuckles_controllers,
+.item_def_windowsmr_controllers,
+.item_def_generic_tracked_controllers,
 .item_def_more_fingers_test
 {
 	visibility: collapse;
@@ -5143,6 +5524,14 @@ AvatarCustomizationItem #SliderThumb
 }
 .KnucklesController .item_def_knuckles_controllers,
 .KnucklesController .item_def_more_fingers_test
+{
+	visibility: visible;
+}
+.WinMRController .item_def_windowsmr_controllers
+{
+	visibility: visible;
+}
+.GenericTrackedController .item_def_generic_tracked_controllers
 {
 	visibility: visible;
 }
@@ -6078,6 +6467,58 @@ background-color: gradient(linear, 0% 0%, 100% 0%, from(#ff0000), color-stop(0.1
 
 
 
+
+
+/*------------------
+     HIDE UGC STATE
+------------------*/
+
+.HideUGC #ArtworkTabs,
+.HideUGC #ScreenshotsTabs,
+.HideUGC .AppWithSpawnableImage
+{
+	visibility: collapse;
+}
+
+.HiddenDesc
+{
+	width: 1000px;
+	height: 1000px;
+	horizontal-align: center;
+	vertical-align: center;
+	visibility: collapse;
+}
+
+.BlackBack
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.HiddenIcon
+{
+	width: 100px;
+	height: 100px;
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+
+.HiddenLabel
+{
+	color: #ffffff66;
+	font-size: 30px;
+	margin-bottom: 300px;
+	horizontal-align: center;
+	vertical-align: bottom;
+}
+
+.HideUGC .HiddenDesc,
+.HideUGC .HiddenDesc
+{
+	visibility: visible;
+}
 
 
 

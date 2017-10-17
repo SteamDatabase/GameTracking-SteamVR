@@ -5,219 +5,9 @@
 		<include src="s2r://panorama/styles/content_browser.vcss_c" />
 	</styles>
 
-	<script>
-	
-		function HideDashboardAndShowContentItems( section )
-		{
-			RemoveTabClasses();
-			$.DispatchEvent( "ShowContentItems", section );
-			$.DispatchEvent( "HideAvatarCustomization" );
-			$( "#BackToDashboard" ).SetFocus();
-		}	
-
-		function HideDashboardAndShowBackgroundItems( section )
-		{
-			RemoveTabClasses();
-			$.DispatchEvent( "ShowContentItems", section );
-			$.DispatchEvent( "HideAvatarCustomization" );
-			$( "#BackgroundsContainer").FindChild( "#BackToDashboard" ).SetFocus();
-		}	
-
-		function RemoveTabClasses()
-		{
-			$( "#SteamToursContentBrowser" ).RemoveClass( "BrowseWorkshopTab" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "MapsTab" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "BackgroundsTab" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "PropsOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "DashboardOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "ToolsOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "FurnitureOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "LegacyOn" );
-		}	
-
-		function EditWearables()
-		{
-			$.DispatchEvent( "ShowPuppet" );
-			$.DispatchEvent( "HideAvatarCustomization" );
-			$.DispatchEvent( "EnterWearableEditMode" );
-		}
-
-		function HideDashboard()
-		{
-			$( "#SteamToursContentBrowser" ).RemoveClass( "DashboardOn" );
-		}
-
-		function GoBackToAvatarDashboard()
-		{
-			$.DispatchEvent( "ShowPuppet" );	
-			$.DispatchEvent( "LeaveWearableEditMode" );
-			$( "#SteamToursAvatarCustomization" ).AddClass( "Visible" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "MapsTab" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "PropsTab" );			
-			$( "#SteamToursContentBrowser" ).RemoveClass( "BrowseWorkshopTab" );	
-			$( "#SteamToursContentBrowser" ).RemoveClass( "FurnitureOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "DashboardOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "HeadSelected" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "HandsSelected" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "WearablesSelected" );			
-			$( "#SteamToursContentBrowser" ).RemoveClass( "Scrolling" );
-			$( "#SteamToursAvatarCustomization" ).SetFocus();
-
-		}	
-		
-		function MapsGetMoreFocus()
-		{
-			$( "#BrowseWorkshopContainer").SetFocus();	
-		}
-
-		function ShowQuestDashboard()
-		{
-			$( "#SteamToursContentBrowser" ).AddClass( "ShowQuestDashboard" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "MapsTab" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "PropsTab" );			
-			$( "#SteamToursContentBrowser" ).RemoveClass( "BrowseWorkshopTab" );	
-			$( "#SteamToursContentBrowser" ).RemoveClass( "DashboardOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "HeadSelected" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "HandsSelected" );						
-			$( "#SteamToursContentBrowser" ).RemoveClass( "Scrolling" );
-		}				
-
-		function ShowCurrentQuests()
-		{
-			$( "#QuestDashboard" ).RemoveClass( "CompletedQuestTab" );		
-			$( "#QuestDashboard" ).AddClass( "CurrentQuestTab" );	
-		}
-
-		function ShowCompletedQuests()
-		{
-			$( "#QuestDashboard" ).RemoveClass( "CurrentQuestTab" );
-			$( "#QuestDashboard" ).AddClass( "CompletedQuestTab" );		
-		}
-
-		function ShowAvatarContentItems( section )
-		{
-			$.DispatchEvent( "ShowContentItems", section );
-		}
-
-		function ClearTags()
-		{
-			$( "#SteamToursContentBrowser" ).RemoveClass( "PropsOn" );	
-			$( "#SteamToursContentBrowser" ).RemoveClass( "ToolsOn" );	
-			$( "#SteamToursContentBrowser" ).RemoveClass( "WearablesOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "FurnitureOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "LegacyOn" );
-			$( "#SteamToursContentBrowser" ).RemoveClass( "BackgroundsOn" );
-			$.Msg( "Clearing Tags" );
-		}
-		
-		function SelectTab( TabSelection )
-		{
-			ClearTags();
-			$( "#SteamToursContentBrowser" ).AddClass( TabSelection );		
-			$.Msg( "Selecting a Tab" );	
-		}
-
-		function SaveState()
-		{
-			$( "#SteamToursContentBrowser" ).RemoveClass( "SavingState" );
-			$.DispatchEvent( "SteamToursToggleContentBrowser", 0 );
-			$.DispatchEventAsync( 0.5, "SaveGame" );
-		}
-			
-		function ShowAvatarTutorial()
-		{
-		    $( "#SteamToursContentBrowser" ).AddClass( "AvatarTutorialOn" );				
-		}
-		
-		function ShowDialogPanel( content )
-		{
-		}
-
-		function HideDialogPanel()
-		{
-		    $( "#SteamToursContentBrowser" ).RemoveClass( "AvatarTutorialOn" );	
-		}
-
-		function HostPublicRoom()
-		{
-			var bLoadSaveGame = $( "#SavedEnvironmentCheck" ).checked;
-			$.DispatchEvent( "LoadMapFromCurrentContentItem", bLoadSaveGame, 2 );
-		}
-
-		function HostFriendsOnlyRoom()
-		{
-			var bLoadSaveGame = $( "#SavedEnvironmentCheck" ).checked;
-			$.DispatchEvent( "LoadMapFromCurrentContentItem", bLoadSaveGame, 1 );
-		}
-
-		function MoveLobby( bLoadSaveGame )
-		{
-			if ( $( "#SteamToursContentBrowser" ).BHasClass( "IsHostingFriendsOnlyLobby" ) )
-			{
-				$.DispatchEvent( "LoadMapFromCurrentContentItem", bLoadSaveGame, 1 );
-			}			
-			else if ( $( "#SteamToursContentBrowser" ).BHasClass( "IsHostingPublicLobby" ) )
-			{
-				$.DispatchEvent( "LoadMapFromCurrentContentItem", bLoadSaveGame, 2 );
-			}
-		}
-
-		function OnChooseContentItem()
-		{
-			var bIsMap = $( "#ItemDetail" ).BHasClass( "IsMap" );
-			if ( bIsMap )
-			{
-				var bIsHosting = $( "#SteamToursContentBrowser" ).BHasClass( "IsHostingPublicLobby" ) || $( "#SteamToursContentBrowser" ).BHasClass( "IsHostingFriendsOnlyLobby" ) || $( "#SteamToursContentBrowser" ).BHasClass( "LobbyHasVisitors" )
-				$.Msg( "Is Hosting? " + bIsHosting );
-				if ( bIsHosting )
-				{
-					PromptMoveLobby();
-				}
-				else
-				{
-					$( "#SteamToursContentBrowser" ).AddClass( "HostDialogOn" );
-				}
-			}
-			else
-			{
-				$.DispatchEvent( "ActivateCurrentContentItem" );
-			}
-		}
-
-		function PromptMoveLobby()
-		{
-			if ( $( "#SteamToursContentBrowser" ).BHasClass( "SavedEnvironmentPresent" ) )
-			{
-				$( "#SteamToursContentBrowser" ).AddClass( "MoveDialogOn" );
-			}
-			else if ( $( "#SteamToursContentBrowser" ).BHasClass( "IsHostingFriendsOnlyLobby" ) )
-			{
-				$.DispatchEvent( "LoadMapFromCurrentContentItem", false, 1 );
-			}			
-			else if ( $( "#SteamToursContentBrowser" ).BHasClass( "IsHostingPublicLobby" ) )
-			{
-				$.DispatchEvent( "LoadMapFromCurrentContentItem", false, 2 );
-			}
-		}
-
-		function PromptVisitOnMyOwn()
-		{
-			if ( $( "#SteamToursContentBrowser" ).BHasClass( "SavedEnvironmentPresent" ) )
-			{
-				$( "#SteamToursContentBrowser" ).AddClass( "VisitDialogOn" );
-			}
-			else
-			{
-				$.DispatchEvent( "LoadMapFromCurrentContentItem", false, 0 );
-			}
-		}
-
-		function VisitPrivately( bLoadSaveGame )
-		{
-			$.DispatchEvent( "LoadMapFromCurrentContentItem", bLoadSaveGame, 0 );
-		}
-
-	</script>
+	<scripts>
+		<include src="s2r://panorama/scripts/content_browser.vjs_c" />
+	</scripts>
 	
 	<snippets>
 		<snippet name="ItemDetail">
@@ -453,6 +243,33 @@
 							<Label class="BackButtonText" text="#BackButtonText" />
 						</Button>
 
+						<Button class="BackButton" id="BackToThingsDashboard" onactivate="HideDashboardAndShowThingsDashboard();">
+							<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+							<Label class="BackButtonText" text="#BackButtonText" />
+						</Button>
+
+						<Button class="BackButton" id="BackToScreenshotApps" onactivate="HideDashboardAndShowContentItems('Screenshots');">
+							<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+							<Label class="BackButtonText" text="#BackButtonText" />
+						</Button>
+
+						<Button class="BackButton" id="BackToArtworkApps" onactivate="HideDashboardAndShowContentItems('Artwork');">
+							<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+							<Label class="BackButtonText" text="#BackButtonText" />
+						</Button>
+
+						<!-- Tom Bui: not used yet -->
+						<Button class="BackButton" id="BackToScreenshotsByApp" onactivate="ShowScreenshotsByApp('Screenshots');">
+							<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+							<Label class="BackButtonText" text="#BackButtonText" />
+						</Button>
+
+						<!-- Tom Bui: not used yet -->
+						<Button class="BackButton" id="BackToArtworkByApp" onactivate="ShowArtworkByApp('Artwork');">
+							<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+							<Label class="BackButtonText" text="#BackButtonText" />
+						</Button>
+
 						<Panel class="ContainerTabs" id="DestinationTabs">
 							<Button class="DestinationButton LeftTab" id="DestinationTabButton" onactivate="HideDashboardAndShowContentItems('Maps');">
 								<Label class="TabsText" id="PlacesTabText" text="#BrowseDestinationsTitle"/>
@@ -476,6 +293,30 @@
 								<Label class="TabsText" text="#BrowseGetMoreTitle"/>
 							</Button>	
 						</Panel>						
+
+						<Panel class="ContainerTabs" id="ScreenshotsTabs">
+							<Button class="DestinationButton LeftTab" id="Screenshots_MyTab" onactivate="HideDashboardAndShowContentItems('MyScreenshots');">
+								<Label class="TabsText" text="#Screenshots_MyTab_Label"/>
+							</Button>	
+											
+							<Panel class="VerticalDivider" />
+			
+							<Button class="DestinationButton RightTab" id="Screenshots_CommunityTab" onactivate="HideDashboardAndShowContentItems('CommunityScreenshots');">
+								<Label class="TabsText" text="#Screenshots_CommunityTab_Label"/>
+							</Button>	
+						</Panel>
+
+						<Panel class="ContainerTabs" id="ArtworkTabs">
+							<Button class="DestinationButton LeftTab" id="Artwork_MyTab" onactivate="HideDashboardAndShowContentItems('MyArtwork');">
+								<Label class="TabsText" text="#Artwork_MyTab_Label"/>
+							</Button>	
+											
+							<Panel class="VerticalDivider" />
+			
+							<Button class="DestinationButton RightTab" id="Artwork_CommunityTab" onactivate="HideDashboardAndShowContentItems('CommunityArtwork');">
+								<Label class="TabsText" text="#Artwork_CommunityTab_Label"/>
+							</Button>	
+						</Panel>
 
 						<Panel class="ContainerTabs" id="AvatarHeadTabs">
 							<Button class="DestinationButton LeftTab" id="AvatarHeadTabButton" onactivate="RemoveStyle(SteamToursContentBrowser,AvatarHeadsGetMore);">
@@ -506,8 +347,18 @@
 						<Label class="ItemDetailTitle" id="BrowseAvatarsTitleHead" text="#BrowseAvatarsTitleHead" />
 						<Label class="ItemDetailTitle" id="BrowseAvatarsTitleHands" text="#BrowseAvatarsTitleHands" />
 						<Label class="ItemDetailTitle" id="BrowseAvatarsTitleWearables" text="#BrowseAvatarsTitleWearables" />
-						<Label class="ItemDetailTitle" id="BrowsePropsTitle" text="#BrowsePropsTitle" />	
-						
+						<Label class="ItemDetailTitle" id="BrowseThingsTitle" text="#BrowseThingsTitle" />
+						<Label class="ItemDetailTitle ThingType" id="BrowsePropsTitle" text="#BrowsePropsTitle" />	
+						<Label class="ItemDetailTitle ThingType" id="BrowseToolsTitle" text="#BrowseToolsTitle" />	
+						<Label class="ItemDetailTitle ThingType" id="BrowseWearablesTitle" text="#BrowseWearablesTitle" />	
+						<Label class="ItemDetailTitle ThingType" id="BrowseFurnitureTitle" text="#BrowseFurnitureTitle" />	
+						<Label class="ItemDetailTitle ThingType" id="BrowseTrophiesTitle" text="#BrowseTrophiesTitle" />
+						<Label class="ItemDetailTitle ThingType" id="BrowseScreenshotsTitle" text="#BrowseScreenshotsTitle" />
+						<Label class="ItemDetailTitle ThingType" id="BrowseArtworkTitle" text="#BrowseArtworkTitle" />
+						<Label class="ItemDetailTitle ThingType" id="ArtworkDetailTitle" text="#ArtworkDetailTitle" />
+						<Label class="ItemDetailTitle ThingType" id="ScreenshotDetailTitle" text="#ScreenshotDetailTitle" />	
+						<Label class="ItemDetailTitle ThingType" id="BrowseSpawnablePanelsTitle" text="#BrowseSpawnablePanelsTitle" />	
+																		
 						<Button class="DestinationButton AvatarTutorialButton" id="AvatarTutorialButton" onactivate="ShowAvatarTutorial();">
 							<Label text="#AvatarTutorialButton" />
 						</Button>
@@ -710,6 +561,12 @@
 		</Panel>
 
 		<Panel class="ContentContainers" id="ContentContainers"/>
+		
+		<Panel class="HiddenDesc" id="CloseItemDetailBtn">
+			<Panel class="BlackBack" />
+			<Image class="HiddenIcon" src="s2r://panorama/images/content_browser/icon_hidden_png.vtex" />
+			<Label class="HiddenLabel" text="UGCHiddenLabel" />
+		</Panel>
 			
 		<Panel class="Dashboard" id="Dashboard" >
 
@@ -809,26 +666,20 @@
 						<Label class="DashboardButtonLine1" id="PersonalizeButtonGamepad1" text="#Dashboard_Avatars_1_Gamepad" />
 						<Label class="DashboardButtonLine2" id="PersonalizeButtonGamepad2" text="#Dashboard_Avatars_2_Gamepad" />
 					</Button>
-
-	
 				</Panel>
 					
 				<Panel class="DashboardRight">
-
-						<Button class="ContentBrowserButton PropsTab" id="PropsTab" onactivate="HideDashboardAndShowContentItems('Props');" >
+					<Button class="ContentBrowserButton PropsTab" id="PropsTab" onactivate="HideDashboardAndShowThingsDashboard();" >
 						<!--<Label class="DashboardButtonLine1" text="#Dashboard_Props_1" />-->
 						<Image class="DashboardButtonImage" src="s2r://panorama/images/content_browser/dashboard_play_icon_png.vtex" scaling="stretch-to-fit-preserve-aspect" />	
 						<Label class="DashboardButtonLine2" id="PlayButton" text="#Dashboard_Props_2" />			
-
 					</Button>
 
-
-					<Button class="ContentBrowserButton" onactivate="ShowQuestDashboard();">
+					<Button class="ContentBrowserButton" id="QuestsTabButton" onactivate="ShowQuestDashboard();">
 						<!--<Label class="DashboardButtonLine1" text="Dashboard_Workshop_1" />-->
 						<Image class="DashboardButtonImage" src="s2r://panorama/images/content_browser/dashboard_quest_icon_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
 						<Label class="DashboardButtonLine2" id="QuestButton" text="#Dashboard_Quests" />
 						<Label class="DashboardButtonLine1" id="QuestsAvailable" text="#Dashboard_Quests_Available" />
-
 					</Button>
 				</Panel>
 				
@@ -882,6 +733,53 @@
 				</Panel>
 			</Panel>
 			
+		</Panel>
+
+		<Panel class="ThingsDashboard">	
+
+				<Panel class="ContentContainerOptions" >
+					<Button class="BackButton" id="BackToDashboard" onactivate="ThingsDashboardBack();">
+						<Image class="ScrollButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+						<Label class="BackButtonText" text="#BackButtonText" />
+					</Button>	
+					<Label class="ItemDetailTitle" text="#BrowseThingsTitle" />	
+				</Panel>
+
+				<Panel class="ThingsDashboardBody">
+					<Button class="ContentBrowserButton ThingsButton" onactivate="ShowThings('PropsOn');" >
+						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_props_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+						<Label class="ThingsButtonLabel"  text="#ContentBrowser_Things_Props" />			
+					</Button>
+					<Button class="ContentBrowserButton ThingsButton" onactivate="ShowThings('ToolsOn');" >
+						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_tools_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+						<Label class="ThingsButtonLabel"  text="#ContentBrowser_Things_Tools" />			
+					</Button>
+					<Button class="ContentBrowserButton ThingsButton" onactivate="ShowThings('WearablesOn');" >
+						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_wearables_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+						<Label class="ThingsButtonLabel"  text="#ContentBrowser_Things_Wearables" />
+					</Button>
+					<Button class="ContentBrowserButton ThingsButton" onactivate="ShowThings('FurnitureOn');" >
+						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_furniture_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+						<Label class="ThingsButtonLabel"  text="#ContentBrowser_Things_Furniture" />
+					</Button>
+					<Button id="TrophiesButton" class="ContentBrowserButton ThingsButton" onactivate="ShowThings('TrophiesOn');" >
+						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_trophies_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+						<Label class="ThingsButtonLabel" text="#ContentBrowser_Things_Trophies" />			
+					</Button>
+					<Button id="ScreenshotsButton" class="ContentBrowserButton ThingsButton" onactivate="HideDashboardAndShowContentItems('Screenshots');" >
+						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_screenshots_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+						<Label class="ThingsButtonLabel" text="#ContentBrowser_Things_Screenshots" />			
+					</Button>	
+					<Button id="ArtworkButton" class="ContentBrowserButton ThingsButton" onactivate="HideDashboardAndShowContentItems('Artwork');" >
+						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_artwork_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+						<Label class="ThingsButtonLabel" text="#ContentBrowser_Things_Artwork" />			
+					</Button>	
+					<Button id="SpawnablePanelsButton" class="ContentBrowserButton ThingsButton" onactivate="ShowThings('SpawnablePanelsOn');" >
+						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_panels_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
+						<Label class="ThingsButtonLabel" text="#ContentBrowser_Things_SpawnablePanels" />			
+					</Button>					
+				</Panel>
+
 		</Panel>
 
 
@@ -1028,7 +926,27 @@
 			</Panel>
 			<Label class="LoadingBackgroundMessage" text="#LoadingBackgroundMessage" />
 		</Panel>
-			
+
+		<Panel class="ContentDetail" onactivate="">
+				
+				<Image class="ContentDetailImage" id="ContentDetailImage" src="s2r://panorama/images/content_browser/icon_recent_default_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
+
+				<Panel class="ContentDetailButtons">
+					<Button id="PrevItemBtn" class="PreviousButton DestinationButton">
+						<Image class="PreviousButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+					</Button>
+
+					<Button id="SaveCopyBtn" class="SaveCopy DestinationButton">
+						<Image class="CopyIcon" src="s2r://panorama/images/content_browser/icon_copy_png.vtex" />
+						<Label class="SaveCopyLabel" text="#SaveCopyLabel" />
+					</Button>
+
+					<Button id="NextItemBtn" class="NextButton DestinationButton">
+						<Image class="NextButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+					</Button>
+				</Panel>
+		</Panel>
+
 	</SteamToursContentBrowser>
 
 </root>

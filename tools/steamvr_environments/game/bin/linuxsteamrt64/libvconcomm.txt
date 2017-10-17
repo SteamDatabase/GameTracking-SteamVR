@@ -77,6 +77,7 @@
  ThreadInterlockedExchange64
  ThreadSetDebugNameS2
  ThreadSleep
+ V_FixDoubleSlashes
  V_FixSlashes
  V_GetErrno
  V_RemoveDotSlashes

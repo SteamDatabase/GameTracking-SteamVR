@@ -23,6 +23,8 @@ enum ESteamToursClientMessages {
 	CM_SetSteamVRBackground = 517;
 	CM_SetSteamVRController = 518;
 	CM_ResetAnchor = 519;
+	CM_SpawnGameTrophy = 520;
+	CM_SpawnPanel = 521;
 }
 
 message CClientMsg_SpawnPhysicsProp {
@@ -54,6 +56,24 @@ message CClientMsg_SpawnWearables {
 	}
 
 	repeated .CClientMsg_SpawnWearables.WearableConfig wearables = 1;
+}
+
+message CClientMsg_SpawnGameTrophy {
+	optional uint32 appid = 1;
+	optional string itemdefid = 2;
+	optional float scale = 3 [default = 1];
+	optional uint32 handid = 4;
+	optional uint32 badge_level = 5;
+	optional uint32 badge_border = 6;
+	optional uint32 achievement_level = 7;
+}
+
+message CClientMsg_SpawnPanel {
+	optional uint32 steamvr_panel_type = 1;
+	optional uint32 handid = 2;
+	optional uint64 publishedfileid = 3;
+	optional float width = 4;
+	optional float height = 5;
 }
 
 message CClientMsg_PickupObject {

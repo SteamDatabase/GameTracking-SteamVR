@@ -601,7 +601,7 @@
 "[english]Explanation_ResetDismissableWarnings"	"Temporary warnings are reset and will show again as needed."
 "Warning_DismissableWarning_OpticalBasestationSyncWarning_Action"	"Plus d'informations"
 "[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Action"	"More info"
-"Warning_DismissableWarning_MissedFrames_Description"	"L’application VR en cours d’exécution tourne trop lentement pour un rendu fidèle. Cela peut être dû au fait que l'application est trop exigeante en terme de ressources, ou que votre ordinateur n’est pas assez puissant."
+"Warning_DismissableWarning_MissedFrames_Description"	"L’application VR en cours d’exécution tourne trop lentement pour un rendu fidèle. Cela peut être dû au fait que l'application est trop exigeante en matière de ressources, ou que votre ordinateur n’est pas assez puissant."
 "[english]Warning_DismissableWarning_MissedFrames_Description"	"The current VR application runs too slowly, which can give you a bad experience. This may be because the application is too demanding, or your computer is too slow."
 "Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header"	"Pilote Bluetooth"
 "[english]Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header"	"Bluetooth Driver"

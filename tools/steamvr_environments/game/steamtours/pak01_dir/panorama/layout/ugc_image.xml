@@ -1,0 +1,20 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/ugc_image.vcss_c" />
+	</styles>
+	
+	<scripts>
+		<include src="s2r://panorama/scripts/ugc_image.vjs_c" />
+	</scripts>
+	
+	<SteamToursUGCImage onload="OnLoadDetailsPanel()">
+		<Image id="UGCImage" scaling="stretch-to-fit-preserve-aspect" />
+		<Image class="SteamLogoLoader" src="s2r://panorama/images/content_browser/steam_logo_high_png.vtex" />
+		<Panel class="HiddenDesc">
+			<Panel class="BlackBack" />
+			<Image class="HiddenIcon" src="s2r://panorama/images/content_browser/icon_hidden_png.vtex" />
+			<Label class="HiddenLabel" text="UGCHiddenLabel" />
+		</Panel>
+	</SteamToursUGCImage>
+</root>

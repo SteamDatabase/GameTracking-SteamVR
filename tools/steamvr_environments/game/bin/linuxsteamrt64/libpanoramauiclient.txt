@@ -5,9 +5,9 @@
  B pcre_callout
  B pcre_stack_guard
  B pcrecpp::RE::no_arg
- CFiber::CFiber()
+ CFiber::AllocPooledFiber(CFiber::SizeBuckets_t, unsigned long)
+ CFiber::ReachedZeroReferences()
  CFiber::SetThreadFiberMemoryRange(unsigned long)
- CFiber::~CFiber()
  CMemAllocSystemInitialize
  CThreadEvent::CThreadEvent(bool)
  CThreadEvent::Reset()
@@ -55,6 +55,7 @@
  Plat_FileSize
  Plat_FloatTime
  Plat_GetCPUFrequency
+ Plat_GetDPI
  Plat_GetModuleProcAddress
  Plat_GetOSType
  Plat_GetTime
@@ -186,7 +187,6 @@
  V_UnicodeLength(char const*)
  V_UnicodeLength(wchar_t const*)
  V_UnqualifiedFileName
- V_acos
  V_acosf
  V_asinf
  V_atan2f
@@ -222,7 +222,6 @@
  V_strtoui64
  V_strupper_fast
  V_swscanf
- V_tan
  V_tanf
  V_vscprintf
  V_vsnprintf

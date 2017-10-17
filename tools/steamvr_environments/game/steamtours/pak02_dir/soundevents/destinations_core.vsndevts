@@ -10,7 +10,8 @@
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
-		type = "destinations.src1_code_vr"
+		type = "destinations.simple_vr_soundscapes"
+		volume_input_01 = 0.7
 		vsnd_files = "sounds/common/null.vsnd"
 	}}
 
@@ -239,9 +240,9 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.3
+		volume = 0.2
 		volume_falloff_min = 100.0
-		volume_falloff_max = 1200.0
+		volume_falloff_max = 900.0
 		vsnd_files = 
 		[
 			"sounds/tools/balloon_pop_01.vsnd",
@@ -302,7 +303,7 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.3
+		volume = 0.15
 		vsnd_files = "sounds/tools/cachefinder_equip.vsnd"
 	}}
 
@@ -311,7 +312,7 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.45
+		volume = 0.2
 		vsnd_files = "sounds/tools/cachefinder_target_start.vsnd"
 	}}
 
@@ -339,7 +340,7 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.5
+		volume = 0.4
 		vsnd_files = "sounds/tools/cachefinder_trigger_nocache.vsnd"
 	}}
 
@@ -366,7 +367,7 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 1.0
+		volume = 0.7
 		vsnd_files = "sounds/tools/cache_released.vsnd"
 	}}
 
@@ -375,7 +376,7 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 1.0
+		volume = 0.7
 		vsnd_files = "sounds/tools/cache_open.vsnd"
 	}}
 
@@ -384,7 +385,7 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.8
+		volume = 0.4
 		vsnd_files = "sounds/tools/cache_open.vsnd"
 	}}
 
@@ -429,7 +430,7 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.6
+		volume = 0.3
 		vsnd_files = "sounds/tools/drone_equip.vsnd"
 	}}
 
@@ -487,8 +488,9 @@
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
-		type = "destinations.drone_acc"
+		type = "destinations.simple_vr"
 		volume = 0.35
+		fade_out = 0.1
 		vsnd_files = 
 		[
 			"sounds/tools/drone_speed_acc_01.vsnd",
@@ -501,8 +503,8 @@
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
-		type = "destinations.drone_dec"
-		volume = 0.2
+		type = "destinations.simple_vr"
+		volume = 0.1
 		vsnd_files = 
 		[
 			"sounds/tools/drone_speed_dec_01.vsnd",

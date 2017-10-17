@@ -349,7 +349,8 @@ SteamToursRecentApps.Hidden
 
 .MotionController,
 .Controller,
-.TouchImage 
+.TouchImage,
+.WinMRImage 
 {
 	width: 900px;
 	height: 900px;
@@ -359,15 +360,17 @@ SteamToursRecentApps.Hidden
 
 // if no class set, it's a Vive
 .MotionController,
-.PressMenuButton {
+.PressMenuButton 
+{
 	visibility: visible;	
 }
 
-// if it's a gamepad or a touch, show the relevant bits
+// if it's a gamepad, winmr controller or a touch, show the relevant bits
 .GamepadController .Controller,
 .GamepadController .PressYButton,
 .TouchController .TouchImage,
-.TouchController .PressBButton
+.TouchController .PressBButton,
+.WinMRController .WinMRImage
 {
 	visibility: visible;	
 }
@@ -409,6 +412,14 @@ SteamToursRecentApps.Hidden
 {
 	margin-bottom: 240px;
 	margin-left: 450px;
+}
+
+.WinMRController .GlowAnim
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 200px;
+	margin-right: 30px;
 }
 
 /*---------------------
@@ -602,13 +613,17 @@ SteamToursRecentApps.Hidden
 .ConfirmationPanel
 {
 	width: 800px;
-	height: 900px;
+	//height: 900px;
+	height: fit-children;
+	padding: 80px;
 	background-color: #222222ff;
 	box-shadow: #ffffff00 0px 0px 20px 0px;
 	horizontal-align: center;
 	vertical-align: center;
 	pre-transform-scale2d: .95;
 	opacity: 0;
+
+	flow-children: down;
 
 	transition-property: opacity, box-shadow, pre-transform-scale2d;
 	transition-duration: 0.23s;
@@ -625,13 +640,20 @@ SteamToursRecentApps.Hidden
 	visibility: visible;
 }
 
+.AppImageWrapper
+{
+	flow-children: none;
+	horizontal-align: center;
+	//margin-top: 
+}
+
 .DefaultLaunchAppImage,
 .LaunchAppImage
 {
 	horizontal-align: center;
 	width: 620px;
 	height: 290px;
-	margin-top: 80px;
+	//margin-top: 80px;
 	border: 2px solid #ffffff10;
 }
 
@@ -659,25 +681,30 @@ SteamToursRecentApps.Hidden
 .LaunchConfirmation
 {
 	horizontal-align: center;
-	margin-top: 400px;
+	text-align: center;
+	width: 80%;
+	//margin-top: 400px;
+	margin-top: 30px;
 	color: white;
 	font-size: 55px;	
 }
 
+.LaunchButton,
+.DetailsButton,
+.CancelButton
+{
+	margin-top: 30px;
+}
+
+
 .LaunchButton
 {
-	margin-top: 510px;	
+	margin-top: 40px;
 }
 
 .DetailsButton
 {
-	margin-top: 660px;
 	visibility: collapse;
-}
-
-.CancelButton
-{
-	margin-top: 660px;	
 }
 
 .BlackOut
@@ -687,28 +714,15 @@ SteamToursRecentApps.Hidden
 	border-radius: 10px;
 	background-color: black_gradient;
 	opacity: 0;
-	//background-color: #0e3c55cc;
 	margin-top: 210px;
-	//visibility: collapse;
 
 	transition-property: opacity;
 	transition-duration: 0.23s;
-	//transition-timing-function: bigpicture-ease-in-out;	
 }
 
 .IsSteamApp .DetailsButton
 {
 	visibility: visible;
-}
-
-.IsSteamApp .CancelButton
-{
-	margin-top: 810px;	
-}
-
-.IsSteamApp .ConfirmationPanel
-{
-	height: 1050px;
 }
 
 //ANIMATIONS

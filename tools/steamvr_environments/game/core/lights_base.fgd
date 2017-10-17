@@ -90,7 +90,7 @@
 [
 	attenuation1(float) : "Linear Attenuation" : "0.0"
 	attenuation2(float) : "Quadratic Attenuation" : "1.0"
-	lightsourceradius(float) : "Light Source Radius" : "0.0" : "The radius of the light source in game units"
+	lightsourceradius(float) : "Light Source Radius" : "2.0" : "The radius of the light source in game units"
 ]
 
 

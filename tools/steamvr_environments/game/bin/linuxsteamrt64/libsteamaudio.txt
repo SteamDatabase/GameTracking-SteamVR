@@ -20,20 +20,38 @@
  T InstallSchemaBindings
  T _fini
  T _init
+ V_FixDoubleSlashes
+ V_FixSlashes
+ V_RemoveDotSlashes
+ V_StrTrim
+ V_StripTrailingSlash
+ V_UTF32ToUTF8
+ V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
+ V_UnqualifiedFileName
  V_atof
  V_atoi
  V_qsort_s
  V_snprintf
  V_sscanf
  V_stricmp_fast
+ V_stristr_fast(char const*, char const*)
+ V_strlower_fast
  V_strtod
  V_strtoi64
  V_strtoui64
+ V_strupper_fast
  V_vsnprintf
+ V_vsnprintfSize
  Warning
  _ITM_deregisterTMCloneTable
  _ITM_registerTMCloneTable
  _Jv_RegisterClasses
+ _V_ComposeFileName
+ _V_ExtractFileExtension
+ _V_FileBase
+ _V_MakeAbsolutePath
+ _V_StripExtension
+ _V_StripLastDir
  _V_strncat
  _V_strncpy
  _V_strnistr_fast
@@ -66,6 +84,7 @@
  strcmp@@GLIBC_2.2.5
  strlen@@GLIBC_2.2.5
  strnlen@@GLIBC_2.2.5
+ strstr@@GLIBC_2.2.5
  vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
  vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
  vtable for __cxxabiv1::__vmi_class_type_info@@CXXABI_1.3

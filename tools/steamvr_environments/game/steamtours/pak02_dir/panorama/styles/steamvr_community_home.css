@@ -1234,6 +1234,58 @@
 }
 
 /*------------------
+     HIDE UGC STATE
+------------------*/
+
+.HideUGC .SelectedUGC_screenshots #CommunityContentContainer,
+.HideUGC .SelectedUGC_artwork #CommunityContentContainer,
+.HideUGC .LoadingSpinnerWrapper
+{
+	visibility: collapse;
+}
+
+.HiddenDesc
+{
+	width: 1000px;
+	height: 1000px;
+	horizontal-align: center;
+	vertical-align: center;
+	visibility: collapse;
+}
+
+.BlackBack
+{
+	width: 100%;
+	height: 100%;
+	background-color: #111111ff;
+}
+
+
+.HiddenIcon
+{
+	width: 100px;
+	height: 100px;
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+
+.HiddenLabel
+{
+	color: #333333ff;
+	font-size: 30px;
+	margin-bottom: 300px;
+	horizontal-align: center;
+	vertical-align: bottom;
+}
+
+.HideUGC .SelectedUGC_screenshots .HiddenDesc,
+.HideUGC .SelectedUGC_artwork .HiddenDesc
+{
+	visibility: visible;
+}
+
+/*------------------
      ANIMATIONS 
 ------------------*/
 
@@ -1287,3 +1339,5 @@
 	}
 
 }
+
+

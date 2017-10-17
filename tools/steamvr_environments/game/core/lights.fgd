@@ -45,6 +45,18 @@
 	box_maxs(vector) : "Box Maxs" : "512 512 512"
 ]
 
+@BaseClass = IndoorOutdoorLevel
+[
+	indoor_outdoor_level(choices) : "Indoor-Outdoor" : "0" : "" = 
+	[
+		"-2" : "Outdoor Space"
+		"-1" : "Outdoor Space (Confined)"
+		"0" : "Default"
+		"1" : "Indoor Space"
+		"2" : "Indoor Space (Confined)"
+	]
+]
+
 @BaseClass = BaseLightProbeVolume
 [
 	lightprobetexture(resource:texture) : "Light Probe Texture" : "" : "Name of the light probe texture"
@@ -79,7 +91,7 @@
 ]
 
 @PointClass
-	base( Targetname, Parentname, EnableDisable, BaseLightProbeVolume )
+	base( Targetname, Parentname, EnableDisable, BaseLightProbeVolume, IndoorOutdoorLevel )
 	editormodel( "models/editor/iv_helper" )
 	orientedwirebox( box_mins, box_maxs )
 	bakeresource( lightprobetexture, vtex, env_light_probe_volume, "ToolObjects/LightProbeVolume" )
@@ -88,7 +100,7 @@
 ]
 
 @PointClass
-	base( Targetname, Parentname, EnableDisable, BaseCubemap )
+	base( Targetname, Parentname, EnableDisable, BaseCubemap, IndoorOutdoorLevel )
 	editormodel( "models/editor/env_cubemap" )
 	leansphere( influenceradius, 128, 128, 255 )
 	bakeresource( cubemaptexture, vtex, env_cubemap, "ToolObjects/CubeMap" )
@@ -98,7 +110,7 @@
 ]
 
 @PointClass
-	base( Targetname, Parentname, EnableDisable, BaseCubemap )
+	base( Targetname, Parentname, EnableDisable, BaseCubemap, IndoorOutdoorLevel )
 	editormodel( "models/editor/env_cubemap" )
 	orientedwirebox( box_mins, box_maxs )
 	bakeresource( cubemaptexture, vtex, env_cubemap, "ToolObjects/CubeMap" )
@@ -109,7 +121,7 @@
 ]
 
 @PointClass
-	base( Targetname, Parentname, EnableDisable, BaseCubemap, BaseLightProbeVolume )
+	base( Targetname, Parentname, EnableDisable, BaseCubemap, BaseLightProbeVolume, IndoorOutdoorLevel )
 	editormodel( "models/editor/env_cubemap" )
 	orientedwirebox( box_mins, box_maxs )
 	bakeresource( lightprobetexture, vtex, env_light_probe_volume, "ToolObjects/LightProbeVolume" )

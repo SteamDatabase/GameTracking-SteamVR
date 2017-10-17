@@ -7,13 +7,6 @@
 		<include src="s2r://panorama/scripts/community_home_item.vjs_c" />
 	</scripts>
 
-	<script>
-		function ShowMapsTab()
-		{
-			$.DispatchEvent( "ShowContentBrowserMaps" );
-		}
-	</script>
-
 	<snippets>
 		<snippet name="ItemThumb">
 			<Button class="ScreenshotThumbContainer">
@@ -45,6 +38,24 @@
 			<Image id="ItemImageFull" class="ItemImage" scaling="stretch-to-fit-preserve-aspect" />
 
 			<Panel class="ItemDetails">
+
+				<Button id="PrevItemBtn" class="PreviousButton DestinationButton">
+					<Image class="PreviousButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+				</Button>
+
+				<Button class="CloseButton DestinationButton" id="CloseItemDetailBtn">
+					<Image class="CloseIcon" src="s2r://panorama/images/content_browser/icon_unsubscribe_png.vtex" />
+				</Button>	
+
+				<Button id="NextItemBtn" class="NextButton DestinationButton">
+					<Image class="NextButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
+				</Button>
+
+				<Button id="SaveCopyBtn" class="SaveCopy DestinationButton">
+					<Image class="CopyIcon" src="s2r://panorama/images/content_browser/icon_copy_png.vtex" />
+					<Label class="SaveCopyLabel" text="#SaveCopyLabel" />
+				</Button>
+
 				<Panel class="ItemDetailText">
 					<Panel class="CreatorDetails">
 						<Label class="ItemCreator_Screenshot" text="#UGCItem_Creator_Screenshot_Text" />
@@ -56,23 +67,12 @@
 						<Label class="Title_Text" text="#UGCItem_Title" />					
 					</Panel>
 				</Panel>	
+
+
 			</Panel>
-			<Button class="CloseButton DestinationButton" id="CloseItemDetailBtn">
-				<Image class="CloseIcon" src="s2r://panorama/images/content_browser/icon_unsubscribe_png.vtex" />
-			</Button>	
-
-			<Button id="PrevItemBtn" class="PreviousButton DestinationButton">
-				<Image class="PreviousButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
-			</Button>
-			<Button id="NextItemBtn" class="NextButton DestinationButton">
-				<Image class="NextButtonImage" src="s2r://panorama/images/content_browser/scroll_down_png.vtex" />
-			</Button>
 
 		</Button>
-		<Button class="SaveCopy DestinationButton">
-			<Image class="CopyIcon" src="s2r://panorama/images/content_browser/icon_copy_png.vtex" />
-			<Label class="SaveCopyLabel" text="#SaveCopyLabel" />
-		</Button>
+
 
 		<Panel id="EnvironmentDetail" class="EnvironmentDetail">
 
@@ -137,6 +137,12 @@
 				</Button>				
 			</Panel>
 
+		</Panel>
+
+		<Panel class="HiddenDesc" id="CloseItemDetailBtn">
+			<Panel class="BlackBack" />
+			<Image class="HiddenIcon" src="s2r://panorama/images/content_browser/icon_hidden_png.vtex" />
+			<Label class="HiddenLabel" text="UGCHiddenLabel" />
 		</Panel>
 
 	</ClientUIDialogPanel>

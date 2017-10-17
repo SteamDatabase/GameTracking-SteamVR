@@ -94,6 +94,13 @@
 	SceneTrigger( string ) : "Scene Trigger"
 ]
 
+@PointClass base(ChoreoEvent) = animgraphcontroller : "AnimGraph Controller" 
+[
+	Parameters( string ) : "Graph Parameter Name"
+	Parameters2( boolean ) : "Graph Parameter Value"
+]
+
+
 @PointClass base(ChoreoEvent) = flexanimation : "Flex Animation" 
 [
 ]

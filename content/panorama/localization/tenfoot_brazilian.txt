@@ -554,7 +554,7 @@
 "[english]PlayAreaButton"	"Play Area"
 "ModelSkinName_Stage"	"Ambiente"
 "[english]ModelSkinName_Stage"	"Environment"
-"Screenshot_Progress_Description"	"Progresso da screenshot"
+"Screenshot_Progress_Description"	"Progresso da captura"
 "[english]Screenshot_Progress_Description"	"Screenshot Progress"
 "MimeHandlersHeader"	"Programas padrão"
 "[english]MimeHandlersHeader"	"Default Programs"

@@ -10,8 +10,8 @@
 
 <ContentBrowserItem class="Item">
 
-		<Image id="ItemPreviewImage" class="ItemPreviewImage" />
-
+		<Image class="DefaultAppImage" src="s2r://panorama/images/content_browser/icon_recent_default_png.vtex" />
+		<Image id="ItemPreviewImage" class="ItemPreviewImage" scaling="stretch-to-cover-preserve-aspect" />
 
 		<Panel class="ItemGradient" />
 		<Panel class="DestinationGradient" />
@@ -59,7 +59,8 @@
 		</Button>
 
 		<Label class="ItemTitleWearable" text="#ContentBrowser_ItemName" />		
-	
+
+		<Label class="TrophyItemTitle" text="#ContentBrowser_ItemName" />
 	
 		<Panel class="ItemDownloadProgressContainer">
 			<Panel id="ItemDownloadProgressBar" class="ItemDownloadProgressBar" />

@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"romanian"
 "Tokens"
@@ -809,5 +809,17 @@
 "[english]Popover_LowBattery_Tracker_Header"	"Tracker ready with low battery"
 "Popover_LowBattery_Tracker_Description"	"Acest tracker este conectat și urmărește, dar bateria este aproape descărcată."
 "[english]Popover_LowBattery_Tracker_Description"	"This tracker is connected and tracking but the battery is low."
+"Lighthouse_BasestationInternalFault_06_Header"	"Stația de bază este inutilizabilă"
+"[english]Lighthouse_BasestationInternalFault_06_Header"	"Base station unusable"
+"Lighthouse_BasestationInternalFault_06_Description"	"O stație de bază a dezvoltat o problemă internă (eroare 06). Te rugăm să oprești și să repornești stația de bază cu indicatorul roșu intermitent. Dacă situația persistă, te rugăm să contactezi producătorul pentru asistență."
+"[english]Lighthouse_BasestationInternalFault_06_Description"	"A base station has developed an internal problem (fault 06). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_06_Action"	"Vizitează htcvive.com/support"
+"[english]Lighthouse_BasestationInternalFault_06_Action"	"Visit htcvive.com/support"
+"Lighthouse_BasestationInternalFault_07_Header"	"Stația de bază este inutilizabilă"
+"[english]Lighthouse_BasestationInternalFault_07_Header"	"Base station unusable"
+"Lighthouse_BasestationInternalFault_07_Description"	"O stație de bază a dezvoltat o problemă internă (eroare 07). Te rugăm să oprești și să repornești stația de bază cu indicatorul roșu intermitent. Dacă situația persistă, te rugăm să contactezi producătorul pentru asistență."
+"[english]Lighthouse_BasestationInternalFault_07_Description"	"A base station has developed an internal problem (fault 07). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
+"Lighthouse_BasestationInternalFault_07_Action"	"Vizitează htcvive.com/support"
+"[english]Lighthouse_BasestationInternalFault_07_Action"	"Visit htcvive.com/support"
 }
 }

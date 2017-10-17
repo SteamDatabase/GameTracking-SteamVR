@@ -408,6 +408,20 @@ CHelpData CHelpData_0
 			string m_FriendlyName = "Damping"
 			string m_TooltipOverride = ""
 			string m_HelpText = "Controls how fast the character will turn when <b>Turn to Face</b> is true.  "
+		},
+		CHelpEntry
+		{
+			string m_Id = "Attribute.CBoneMaskAnimNode.m_flRootMotionBlend"
+			string m_FriendlyName = "Root Motion Blend"
+			string m_TooltipOverride = ""
+			string m_HelpText = "Controls how the root motion is blended between the two source animations.  A value of 0 means use only the motion from child1, a value of 1 means use only child2"
+		},
+		CHelpEntry
+		{
+			string m_Id = "Element.CDirectPlaybackAnimNode"
+			string m_FriendlyName = "Direct Playback Node"
+			string m_TooltipOverride = ""
+			string m_HelpText = "Allows game code to tell the graph the play a sequence at this point in the graph hierarchy.  This node is necessary in order to play scripted sequences.  "
 		}
 	]
 }

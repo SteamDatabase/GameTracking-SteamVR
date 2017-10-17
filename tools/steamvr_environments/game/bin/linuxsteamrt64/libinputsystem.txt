@@ -31,9 +31,11 @@
  MemAlloc_AllocFunc
  MemAlloc_FreeFunc
  Msg
+ Plat_CheckSDL
  Plat_DebugPrint
  Plat_ExitProcess
  Plat_GetDefaultMonitorIndex
+ Plat_GetDesktopBounds
  Plat_GetDesktopResolution
  Plat_GetEnv
  Plat_GetOSType
@@ -63,6 +65,7 @@
  T _init
  ThreadGetCurrentId
  ThreadInterlockedExchange64
+ V_FixDoubleSlashes
  V_FixSlashes
  V_GetErrno
  V_RemoveDotSlashes

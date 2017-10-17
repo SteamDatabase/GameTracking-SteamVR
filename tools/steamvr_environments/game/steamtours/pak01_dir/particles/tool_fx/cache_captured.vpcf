@@ -33,17 +33,6 @@
 	m_Renderers = 
 	[
 		{
-			_class = "C_OP_RenderModels"
-			m_ModelList = 
-			[
-				{
-					m_model = resource:"models/props_gameplay/cache_lockbox001.vmdl"
-				},
-			]
-			m_bOrientZ = true
-			m_bDisableOperator = true
-		},
-		{
 			_class = "C_OP_RenderSprites"
 			m_hTexture = resource:"materials/particle/particle_flares/particle_flare_002.vtex"
 		},

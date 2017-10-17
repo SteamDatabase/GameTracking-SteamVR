@@ -843,5 +843,13 @@
 "[english]Lighthouse_BasestationInternalFault_07_Description"	"A base station has developed an internal problem (fault 07). Please power cycle the base station with the red blinking indicator light. If the condition persists, please contact the manufacturer for assistance."
 "Lighthouse_BasestationInternalFault_07_Action"	"htcvive.com/support 방문"
 "[english]Lighthouse_BasestationInternalFault_07_Action"	"Visit htcvive.com/support"
+"Warning_DismissableWarning_NeedKnucklesDriver_Action"	"드라이버 설치"
+"[english]Warning_DismissableWarning_NeedKnucklesDriver_Action"	"Install Driver"
+"Warning_DismissableWarning_NewDriverInstalled_Header"	"새 드라이버 설치됨"
+"[english]Warning_DismissableWarning_NewDriverInstalled_Header"	"New Driver Installed"
+"Warning_DismissableWarning_NewDriverInstalled_Description"	"새 드라이버를 적용하려면 SteamVR을 재시작 해야 합니다."
+"[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
+"Warning_DismissableWarning_NewDriverInstalled_Action"	"재시작"
+"[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
 }
 }
