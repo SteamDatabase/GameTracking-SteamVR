@@ -1,3 +1,4 @@
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
  ( def. "%short" )
  ReadToken overflow
  [%.3f server clamped to %.3f]
@@ -34,6 +35,7 @@ $[A\]
 %short\Settings
 (*%short*), 
 ([A\A]A^A_]
+([A\A]]
 ([]A\A]A^A_
 +C$9C
 +C$;C
@@ -45,6 +47,7 @@ $[A\]
 -all_languages
 -ccsyntax
 -textlanguage
+../public/ordered_constructor.h
 ../public/tier1/utlrbtree.h
 .comment
 .data
@@ -147,6 +150,7 @@ AWAVL
 A\A]A^A_]
 A\A]A^]
 A\A]]
+AddRef
 AnimationSystemUtils_001
 AnimationSystem_001
 AssetBrowserSystem_001
@@ -336,7 +340,7 @@ MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
 MeshUtils001
-ModelDocCommandSystem001
+ModelDocUtils001
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -345,6 +349,7 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
+Ordered constructor wrapped type has no default constructor.
 POSIX
 P[A\A]A^]
 PanoramaTextServices001
@@ -383,17 +388,18 @@ ResourceManifestRegistry001
 ResourceSystem013
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION008
-STEAMHTMLSURFACE_INTERFACE_VERSION_003
+STEAMHTMLSURFACE_INTERFACE_VERSION_004
 STEAMHTTP_INTERFACE_VERSION002
-STEAMINVENTORY_INTERFACE_V001
+STEAMINVENTORY_INTERFACE_V002
 STEAMMUSICREMOTE_INTERFACE_VERSION001
 STEAMMUSIC_INTERFACE_VERSION001
+STEAMPARENTALSETTINGS_INTERFACE_VERSION001
 STEAMREMOTESTORAGE_INTERFACE_VERSION014
 STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMUGC_INTERFACE_VERSION009
+STEAMUGC_INTERFACE_VERSION010
 STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
 STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V001
+STEAMVIDEO_INTERFACE_V002
 ScaleformUI001
 SceneSystem_002
 SceneUtils_001
@@ -430,7 +436,7 @@ SteamMatchMaking009
 SteamMatchMakingServers002
 SteamNetworking005
 SteamUser019
-SteamUtils008
+SteamUtils009
 String %double: ref:%double %short
 T$8H)
 TestScriptMgr001
@@ -479,6 +485,7 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
+V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
 V_IsAbsolutePath

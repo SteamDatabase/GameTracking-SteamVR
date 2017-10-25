@@ -1,6 +1,7 @@
 	CODE_SIZE
 	TYPE_BOOL
 	TYPE_ENUM
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	enum_type
 	extension
 	name_part
@@ -41,6 +42,7 @@
  [$0]
  [%.3f server clamped to %.3f]
  [A\A]A^]
+ [A\A^A_]
  [A\]
  []A\
  [default = $0
@@ -260,9 +262,9 @@ $woL)
 , %short )
 , from:
 , not just within "
-,A9^long long
 ,E9ex
 ,E9ux
+,long long [9]
 --- %short: 
 --- %short[%double]: 
 -all_languages
@@ -276,6 +278,7 @@ $woL)
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ...-index
 .../u-H
+../public/ordered_constructor.h
 ../public/panorama/layout/fillbrush.h
 ../public/tier1/utlleanvector.h
 ../public/tier1/utllinkedlist.h
@@ -342,7 +345,6 @@ $woL)
 0Lc`0
 0[A\A]A^A_]
 0[A\A]A^]
-0[A\A^A_]
 0[A\]
 0[A^]
 0[]A\A]A^
@@ -385,10 +387,10 @@ $woL)
 9G unsigned short@H
 9G unsigned short[H
 9G$t)H
-9G(tEH
 9G(tQH
 9G(tSH
 9G(tWH
+9G(unsigned short=H
 9G0t(H
 9G@tQH
 9G@t_H
@@ -461,12 +463,12 @@ $woL)
 =CSP1A
 =CSP1u
 >Filename Cell Directory
+>SteamClient017
 ?333333
 ?AnimatedImageStrip
 ?DebugAutoComplete
 ?LeftArrow
 ?PaginationButton
-?SteamClient017
 ?TextInputHandlerActive
 ?TooltipVisible
 ?file://{resources}/layout/debugpanel.xml
@@ -478,7 +480,6 @@ $woL)
 @82t+1
 @8wtt
 @:2t'
-@:9tx
 @@H;E
 @A;t$
 @ATSH
@@ -571,6 +572,7 @@ AUATUSH
 AVATSH
 AVAUA
 AVAUATA
+AVAUATE1
 AVAUATI
 AVAUATL
 AVAUATM
@@ -644,6 +646,7 @@ AddInt32
 AddInt64
 AddMessage
 AddOption
+AddRef
 AddString
 AddStyle
 AddStyleToEachChild
@@ -687,6 +690,7 @@ B D9@ uD
 BAcceptsFocus
 BAcceptsInput
 BAdjustingVolume
+BAscendantHasClass
 BCanSeeInParentScroll
 BCreateChildren
 BHasClass
@@ -1152,6 +1156,7 @@ D9t$H
 D9{ D
 D9{ L
 D;!unsigned short{Hc
+D;X,}
 D;__float128 D
 D;char D
 D;char H
@@ -1163,6 +1168,7 @@ D;g8~H
 D;k D
 D;k ~M
 D;k ~U
+D;k,}^L
 D;l$H
 D;short D
 D;t$@
@@ -1446,6 +1452,7 @@ Files that do not use optimize_for = LITE_RUNTIME cannot import files which do u
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 Filesize Cell
 Filetype Cell
+FindAndRemove
 FindChild
 FindChildInLayoutFile
 FindChildTraverse
@@ -1595,21 +1602,18 @@ H9X unsigned short
 H9\$P
 H9w UH
 H9w(UH
-H;=$#R
-H;=<(R
-H;=@%R
-H;=U/R
-H;=bAB
-H;={9R
+H;=CWR
+H;=E9R
+H;=\AR
+H;=tFR
+H;=xCR
 H;C I
 H;C unsigned short%H
 H;C(H
 H;C(unsigned short
 H;C8t,H
 H;S@wchar_t
-H;XHt!H
 H;\$(u
-H;^Hu
 H;wchar_t unsigned short
 H;|$ unsigned short	H
 HE;D$
@@ -1972,7 +1976,7 @@ Minimum velocity that the mouse must be moving as mouse up time to qualify as si
 Minimum velocity that the mouse must be moving as mouse up time to qualify as signed char drag scroll flick in VR
 Missing field: FileDescriptorProto.name.
 Missing name.
-ModelDocCommandSystem001
+ModelDocUtils001
 Mongolian
 MousePanningImage
 MouseScroll
@@ -2066,6 +2070,7 @@ Option field "
 Option must have signed char name.
 Option must not use reserved name "uninterpreted_option".
 Option_%double
+Ordered constructor wrapped type has no default constructor.
 Oriya
 Osmanya
 OverMaxPips
@@ -2121,6 +2126,7 @@ Plat_ExitProcess
 Plat_FileSize
 Plat_FloatTime
 Plat_GetCPUFrequency
+Plat_GetDPI
 Plat_GetModuleProcAddress
 Plat_GetOSType
 Plat_GetTime
@@ -2192,7 +2198,6 @@ Release
 ReleaseLast
 ReleaseMessage
 ReloadStyleFile
-Remove
 Remove signed char CSS class from all children of this panel.
 Remove signed char CSS class from signed char panel.
 Remove then immediately add back signed char CSS class from signed char panel. Useful to long double restrict-trigger events like animations or sound effects.
@@ -2236,17 +2241,18 @@ SPEED
 SSE and SSE2 are required.
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION008
-STEAMHTMLSURFACE_INTERFACE_VERSION_003
+STEAMHTMLSURFACE_INTERFACE_VERSION_004
 STEAMHTTP_INTERFACE_VERSION002
-STEAMINVENTORY_INTERFACE_V001
+STEAMINVENTORY_INTERFACE_V002
 STEAMMUSICREMOTE_INTERFACE_VERSION001
 STEAMMUSIC_INTERFACE_VERSION001
+STEAMPARENTALSETTINGS_INTERFACE_VERSION001
 STEAMREMOTESTORAGE_INTERFACE_VERSION014
 STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMUGC_INTERFACE_VERSION009
+STEAMUGC_INTERFACE_VERSION010
 STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
 STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V001
+STEAMVIDEO_INTERFACE_V002
 STRING
 STRING_PIECE
 S`D;cx
@@ -2497,7 +2503,7 @@ SteamMatchMakingServers002
 SteamNetworking005
 SteamPad
 SteamUser019
-SteamUtils008
+SteamUtils009
 SteamVRController
 SteampadGuideButton
 SteampadGuideButtonUp
@@ -2731,7 +2737,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -2766,7 +2771,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_vscprintf
 V_vsnprintf
@@ -2953,9 +2957,9 @@ _ZN2v88Function4CallENS_6HandleINS_5ValueEEEiPS3_
 _ZN2v88Template3SetENS_6HandleINS_4NameEEENS1_INS_4DataEEENS_17PropertyAttributeE
 _ZN2v88TryCatchC1Ev
 _ZN2v88TryCatchD1Ev
+_ZN6CFiber16AllocPooledFiberENS_13SizeBuckets_tEm
+_ZN6CFiber21ReachedZeroReferencesEv
 _ZN6CFiber25SetThreadFiberMemoryRangeEm
-_ZN6CFiberC1Ev
-_ZN6CFiberD1Ev
 _ZN7pcrecpp2RE6no_argE
 _ZN7pcrecpp2RE7CleanupEv
 _ZN7pcrecpp2RE7CompileENS0_6AnchorE
@@ -3438,7 +3442,6 @@ ceilf
 ceilf@@GLIBC_2.2.5
 center
 char Mct$
-char(9C(
 character value in \long long{} or \unsigned __int128{} is too large
 character value in \u.... sequence is too large
 chartreuse

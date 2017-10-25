@@ -31,6 +31,7 @@ $[A\]
 %8x-%4x-%4x-%2x%2x-%2x%2x%2x%2x%2x%2x
 %double frames sampled for %.2f seconds
 %llu,%u,%u,%short
+%s.txt
 %short %int %short
 %short '%short'
 %short (%double) : %short
@@ -260,17 +261,15 @@ $[A\]
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
-95FF#
-95}P#
-9=n%
+9=:^#
+9=Z^#
 9@tPA
-::<lambdfD
+::<lambda_
 ::_CAssertFastInternal::AssertionFailed
 :>	Q>>
 :bD/bool
 ;*3$"
-;='Q#
-;=cP#
+;=__float128[#
 <$.t"L
 <$.t`L
 <+u)H
@@ -290,12 +289,11 @@ $[A\]
 <img src="
 <pre>
 <unsigned short&<<unsigned short*`<S
->::operaH
+>::operator ()
 ?0,/a,
 ?Y(<un
 ?uname -unsigned long
 @Fv^k
-A;D$0
 A>}?E>
 ATSA9
 ATSE1
@@ -354,6 +352,7 @@ Always Ignore
 AppendMiniProfilerToList
 Assert
 AssertMsg_ConditionFailed
+AssertMsg_ConditionFailed_ContextFunc
 AssertValidStringPtr
 AssertValidWStringPtr
 Assertion Failed
@@ -362,6 +361,7 @@ Assertion Failure: %short (%double)
 AssertionFailureListenerMiniDumpContext_t
 AuthenticAMD
 Average %.2f fps, %.2f ms per frame
+B09C0
 Bad node link detected
 BasicStatStructFieldDesc
 BinaryProperties_GetValue
@@ -372,7 +372,7 @@ C tiI
 C0A9D$
 C0A9E
 C0H;S8v
-C@[A\]
+C8[A\]
 CColorizedLoggingListener
 CCommandLine
 CDefaultLoggingResponsePolicy
@@ -388,6 +388,11 @@ CPerfTraceDepotDefault
 CSimpleLoggingListener
 CStdMemAlloc<MemoryAllocationHeader_t<MemConfig<false, false, DefaultAdditionalProperties> > >
 CStdMemAlloc<MemoryAllocationHeader_t<MemConfig<false, false, RuntimeAdditionalProperties> > >
+CStdMemAlloc_Data<MemoryAllocationHeader_t<MemConfig<false, false, DefaultAdditionalProperties> > >
+CStdMemAlloc_Data<MemoryAllocationHeader_t<MemConfig<false, false, RuntimeAdditionalProperties> > >
+CStdMemAlloc_Data_Base
+CStdMemAlloc_Data_StackStats<MemoryAllocationHeader_t<MemConfig<false, false, DefaultAdditionalProperties> >, false>
+CStdMemAlloc_Data_StackStats<MemoryAllocationHeader_t<MemConfig<false, false, RuntimeAdditionalProperties> >, false>
 CTSList
 CTSQueue
 CTSQueue corruption
@@ -450,7 +455,6 @@ Developer
 DeveloperConsole
 DeveloperVerbose
 DoAssertDialog: invalid Assert response returned from dialog/vxconsole - breaking to debugger
-E0A9D$0
 E8[A\A]A^]
 ENABLE_ASSERT_DIALOG_PRINT
 ERROR: Alloc exceeded allocation limit /+/ %llu > %llu
@@ -716,6 +720,7 @@ Plat_GetDesktopResolution
 Plat_GetDocumentDirectory
 Plat_GetEnv
 Plat_GetExecutablePathUTF8
+Plat_GetGlobalListRegistry
 Plat_GetLocalTime
 Plat_GetMemPageSize
 Plat_GetMiniDumpErrorString
@@ -1810,6 +1815,8 @@ _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+_ZTVN10__cxxabiv121__vmi_class_type_infoE
+_ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
 _ZdaPv
 _ZdaPv@@GLIBCXX_3.4
 _ZdlPv
@@ -2090,6 +2097,7 @@ memcmp@@GLIBC_2.2.5
 memcpy@@GLIBC_2.14
 memmove@@GLIBC_2.2.5
 memset@@GLIBC_2.2.5
+memstats_%d.txt
 memstd.cpp
 message
 mkdir
@@ -2292,11 +2300,11 @@ timestamped.log
 tkL;long double
 tmpnam@@GLIBC_2.2.5
 tolower@@GLIBC_2.2.5
-tor float
 toupper@@GLIBC_2.2.5
 towlower@@GLIBC_2.2.5
 towupper@@GLIBC_2.2.5
 ttIcG
+tzL9-
 u	[A\]
 uU[A\A]A^]
 uname -mrsv
@@ -2311,6 +2319,7 @@ unsigned long[-)
 unsigned short	HcCpD9
 unsigned short![A\]
 unsigned short-L)char f.
+unsigned short@L90
 unsigned short]D;sptWH9
 upHcCHH
 usleep

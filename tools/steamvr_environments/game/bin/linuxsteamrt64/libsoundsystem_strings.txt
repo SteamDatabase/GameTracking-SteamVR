@@ -15,6 +15,7 @@
 	Track: %short
 	VOL: %float
 	WORD %short %.3f %.3f
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	[%2d] %16.16s : %short (%double)
 	checksum %double
 	voice_duck %double
@@ -32,8 +33,6 @@
  []A\
  max. %float
  min. %float
-!	@(%db) %6i : %short
-!	@CSosOperatorMixGroup
 "%short" 
 "%short" = "%short"
 "L9k(H
@@ -53,7 +52,7 @@ $A9D$ unsigned short
 $A;D$
 $A;T$
 $A;\$
-$E;D$
+$E;L$
 $E;\$
 $HcS<H
 $ORIGIN
@@ -62,6 +61,7 @@ $[A\]
 %*sNameSpace: %short
 %*sOperator Stack: %short
 %*sSize: %int
+%*sSoundEvent Hash: %double
 %*short%s.%short: 
 %*short(%08x):Pausing: %short (%08x) : elapsed time: %.fs
 %*short(%08x):Stopping: %short (%08x) : elapsed time: %.fs
@@ -117,7 +117,6 @@ $[A\]
 %short:%short: 
 %short::%short
 %short::Execute: Can'unsigned short find operator stack %short in %short
-&YA1D
 &YA1H
 &YA1L
 '":+;
@@ -128,7 +127,6 @@ $[A\]
 (D9kX~
 (D9p 
 (Lc.E
-(None)
 (Unknown)
 ([A\A]A^A_]
 ([A\A]]
@@ -136,7 +134,6 @@ $[A\]
 ([]A\A]A^A_
 (connected: %short %int )
 (null)
-)D90u
 *SoundEvent Data*
 +C$9C
 +C$;C
@@ -171,8 +168,8 @@ $[A\]
 -tools
 .../u-1
 .../u-H
-...<u:A
 ...>Unserialization Error: %short
+../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
 ../public/tier0/tslist.h
@@ -183,6 +180,7 @@ $[A\]
 .D$Tr
 .D$Tv
 .D$Tz
+.F(__int128 restrict
 .comment
 .data
 .data.rel.ro
@@ -221,8 +219,10 @@ $[A\]
 0[]A\A]A^
 0x%016llX
 1440.0
+1DBlend
 2CRS[]
 3+C$H
+3,,)H
 33333333H
 33333333H)
 3E8 u
@@ -232,19 +232,20 @@ $[A\]
 4BfD94A|
 4fff>fff>fff>fff>
 4vf;T
+5?Unknown track name %short, will not play voice %short
 6H92t%H
 6I90t
 7A+G$H
 7[A\A]A^]
-8@333333
 8@unsigned short(1
 8It#H
 8VBKVt6HcF
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
-90v{H
+90vvH
 91t1H
+9=_-6
 9G ti+G$H
 9G,unsigned short	]
 9S unsigned short{+S$H
@@ -254,12 +255,12 @@ $[A\]
 :@uCUH
 :[tLL
 ;*3$"
-;../public/tier2/fieldpath.h
 ;/u.H
 ;7t01
 ;9t/H
+;=l$9
 ;A@unsigned short+H
-;C8~KH
+;C<~@H
 ;W |K
 ;mempool.cpp
 ;t%H
@@ -270,8 +271,8 @@ $[A\]
 ;w0}=H
 ;w0}gH
 ;w8|	]
-<	trM
-<	uSL
+<	u@UH
+<	u[L
 <	w.1
 <	woD
 <!-- kv3 encoding:%short:version{%short} format:%short:version{%short} -->
@@ -288,20 +289,20 @@ $[A\]
 <UNRESOLVED>
 <invalid soundevent name>
 <null>
+<qHcK
 <unknown>
 <unsigned short&<<unsigned short*`<S
 <}tI<{uO
 =CSP1A
 =CSP1u
-=debug.solo
+>SDL Audio Device
 >\Lc+D;k
 >math_remap_float
 >q`unsigned short<
-?33333su@
-?<sil>
+?../public/tier2/fieldpath.h
+?333333
 ?Cleaning up leaked audio stream!
 ?NEW DSP NODE: size:(%.0f,%.0f) height:(%.0f) dif %.4f : refl %.4f : cobj: %.0f : sky %.0f 
-?SDL Audio Device
 ?Sound Disabled.
 ?input_folliage_loss
 ?input_max_velocity
@@ -311,6 +312,7 @@ $[A\]
 ?true
 @ A\A]A^]
 @8;PX
+@8=uO.
 @A\A]A^A_]
 @I uJH
 @PF9l8
@@ -324,6 +326,7 @@ A+E$H
 A+E$f
 A+G$H
 A+G$Lc
+A+M$Hc
 A+O$Hc
 A+T$$Hc
 A+U$A
@@ -391,6 +394,7 @@ AUATL
 AUATLc
 AUATM
 AUATS
+AUATS1
 AUATSD
 AUATSH
 AUATSHc
@@ -410,7 +414,6 @@ AVAUATI
 AVAUATL
 AVAUATS
 AVAUATS1
-AVAUATSD
 AVAUATSH
 AVAUATSL
 AVAUATSu'
@@ -437,7 +440,6 @@ AWAVAUATSHc
 AWAVAUATSL
 AWAVAUATUSH
 AWAVAUE
-AWAVAUE1
 AWAVAUI
 AWAVAUL
 AWAVAULc
@@ -450,6 +452,7 @@ AWAVI
 AWAVL
 AWAVLc
 AWAVM
+A\A]A^A_
 A\A]A^A_]
 A\A]A^A_]A
 A\A]A^]
@@ -461,6 +464,7 @@ Abort processing sound event %short (scheduled recursively will not process this
 Active ?: %short
 Active Voices: %double
 AddNewSoundEvent:  %short has signed char hash collision with existing %short
+AddRef
 AddSoundEvent event with empty name
 AddSoundEvent:  %short has signed char hash collision with existing %short
 AddSoundEvent:AddSoundEvent event with empty name
@@ -478,6 +482,7 @@ AllocInternal
 Allocate
 AllocateAndCopy
 AllocateResource
+AnimDelta
 AnimFile
 AnimProxy
 Animation
@@ -539,11 +544,14 @@ BenchmarkService001
 Big : voiced alveolar stop
 BinaryProperties_GetValue
 Bits/Sample:	%double
+BlendList
 Blocking I/O hitch.  Freed memory while streaming in %short
 BodyGroupList
 C$Mce
 C$[A\A]A^]
 C$[A\]
+C(%db) %6i : %short
+C([A\]
 C(~2H
 C*[A\A]A^]
 C,[A\A]]
@@ -665,6 +673,7 @@ CSosOperatorArrangementStart
 CSosOperatorAudibility
 CSosOperatorBlockEvents
 CSosOperatorBlockTest
+CSosOperatorCalcDirectionalVec3
 CSosOperatorCalcDoppler
 CSosOperatorCalcFixedRotation
 CSosOperatorClampFloat
@@ -678,6 +687,7 @@ CSosOperatorDistantDSP
 CSosOperatorDotaGroundUnderWater
 CSosOperatorDrawRadius
 CSosOperatorEntityInfo
+CSosOperatorEntityWorldAABB
 CSosOperatorFacing
 CSosOperatorFalloff
 CSosOperatorFalloffTail
@@ -724,6 +734,8 @@ CSosOperatorPauseSoundEvents
 CSosOperatorPlayVSnd
 CSosOperatorPointContents
 CSosOperatorPointOnLine
+CSosOperatorPointOnSphere
+CSosOperatorPointOnVolume
 CSosOperatorPosVec8
 CSosOperatorPrintFloat
 CSosOperatorPrintFloat3
@@ -849,6 +861,7 @@ CVSoundStackScriptTypeManager::Allocate stack with empty name
 CVSoundTypeManager
 CXXABI_1.3
 C`9Cp
+C`H9H
 Can'unsigned short find mix layer %short
 Can'unsigned short find mixgroup name %short for submix
 Can'unsigned short find sound event to remove for %short!
@@ -885,16 +898,19 @@ Cutoff Freq
 Cutoff Frequency
 Cycle or diamond double-reference to '%short'
 D$ H9
+D$ L9
 D$ L90t,wchar_t
 D$(E1
 D$(L;}
 D$,unsigned short	H
 D$0H9
+D$0L9
 D$8Hc
 D$8I9
 D$8IcW
 D$8L9
 D$8fD
+D$@H9
 D$@I9
 D$@L9
 D$HfA
@@ -902,7 +918,6 @@ D$P9D$4
 D$PA\J
 D$PfA
 D$XHc
-D$pfA
 D$xx"L
 D+C$Mc
 D+CtMc
@@ -914,14 +929,17 @@ D+s$Mc
 D+stMc
 D+{$Mc
 D+{tMc
-D9%QK6
+D3	E1
+D9%6,9
+D9%r+9
 D9bH~lH
 D9k ~>A
 D:r(unsigned short+A
 D; |!1
 D;!unsigned short{Hc
 D;"t7
-D;7tv1
+D;%	u6
+D;--67
 D;@Xt
 D;A(|
 D;I }
@@ -943,13 +961,11 @@ D;k@|
 D;kHD
 D;sHD
 D;signed char(H
-D;t 
 D;unsigned __int128(D
 D;{(D
 D;{0D
 D;{0J
 D;{HD
-DATAH
 DATAL
 DNSVA
 DNSVtp
@@ -1018,7 +1034,6 @@ E9gPI
 E9t$ ~kI
 E;<$|
 E;X }
-E;__int128 |
 E;__int128(D
 E;gLs1Lc+Ic
 E;gX|
@@ -1050,6 +1065,7 @@ EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
 Element Count: %int
+EmptyAnim
 Enable automatic buffer latency detection (requires driver support)
 EngineServiceMgr001
 EnsureCapacity
@@ -1103,7 +1119,6 @@ Exponential
 Exponential Ramp
 Extra taps
 F D;8t
-F@u6A
 FCVAR_NEVER_AS_STRING
 FIELDATA COMPARE FAIL: %short->%short
 FIELDATASIZE COMPARE FAIL: %short->%short
@@ -1141,12 +1156,12 @@ FontManager_001
 Fork : voiceless labiodental fricative
 FormatV
 Forward Saw
+FpHcD$`H
 Free ?: %short
 From Class Binding
 From Enum Binding
 G A+G
 G A9G
-G Lc#D;char
 G ]fD
 G u)H
 G,~	[A\]
@@ -1170,6 +1185,7 @@ G<@unsigned short L
 G<@unsigned short#float
 G<@unsigned short+]H
 G<@unsigned short:
+G<sil>
 G@UHc
 GAMECONSOLE
 GCC: (Ubuntu .8.1-2ubuntu1~12.04+steamrt2+srt1) .8.1
@@ -1204,7 +1220,6 @@ GetSoundEventUpdateStackHash: unable to get event by hash %int
 GetSoundEventUpdateStackHash: unable to get event by name %short
 GetVSndNameForSoundEvent( %short ) missing
 GhH;0t/H
-GpHcD$`H
 Graphs
 Group: %short
 Groups %int: %int
@@ -1241,12 +1256,12 @@ HcC$H
 HcCX;unsigned charcomplex 
 HcCXE1
 HcJ H
-HcK@H
 HcK@H9
 HcS(L
 HcS0D
 HcS@E1
 HcS@H
+HcS@I
 HcS@L
 HcSH;SX
 HcSPH
@@ -1269,7 +1284,6 @@ HitboxSetList
 HookUpConfigValue
 HostStateMgr001
 I;V@wchar_t
-I@%*sSoundEvent Hash: %double
 IAppSystem
 IAsyncWavDataCache
 IAtomicManipulator
@@ -1304,6 +1318,7 @@ ISoundSystem
 IVAudio
 IVConCommDataReceived
 IVMixToolServices
+Ic4$H)
 IcD$D
 IcF8A;FH
 IcG8A;GH
@@ -1313,7 +1328,7 @@ IcO@H9
 IcT$(H
 IcU@H9
 IcUPA;U`
-IcUpL
+IcVpL
 IcW@A;WP
 IcWhD
 Ic\$ A;\$0
@@ -1377,12 +1392,12 @@ LOG_GENERAL
 LOWVIOLENCE
 LayerTriggers
 Lc!D;signed char
-Lc"D;bool
 Lc#D;char
 Lc&D;float
+Lc(D;unsigned char
 Lc+D;k
+Lc-067
 Lc/E)
-Lc0D;p
 Lc3D;short
 Lc6E9
 Lc7E)
@@ -1467,8 +1482,8 @@ Mcl$
 Mcl$8
 Mcl$8E;l$HD
 Mct$ 
-Mct$8E;t$HD
 Mc|$0I
+Mc|$8E;|$HD
 Mc|$8L
 Medium
 MemAlloc_AllocFunc
@@ -1483,7 +1498,7 @@ MixGroups
 MixLayer triggered %short:
 MixLayers
 MixLayers %short:
-ModelDocCommandSystem001
+ModelDocUtils001
 Modulation Depth
 Modulation Frequency
 Music volume
@@ -1507,6 +1522,7 @@ NonTopoComplex
 NonTopoComplexPack4Bits
 NonTopoPenultimatePluseOne
 Num Match groups: %int
+O$IcE
 O8HcG
 O8HcW
 O8v	1
@@ -1523,6 +1539,7 @@ Operator Field: %short
 Operator Field: %short = 
 Operator Index: %int
 Operator Stack: %short
+Ordered constructor wrapped type has no default constructor.
 Output channels
 Output file types
 Output sample rate
@@ -1853,6 +1870,7 @@ Stops signed char specified soundevent
 Stops the specified track
 String %double: ref:%double %short
 String Count: %int
+Subtract
 Sustain target amplitude
 Sustain time (ms)
 Sync Track: %short
@@ -1922,7 +1940,6 @@ Unable to write file: %short
 Unexpected end of file
 Unknown
 Unknown field type %short for field %short
-Unknown track name %short, will not play voice %short
 Unrecognized flag name '%short'
 Unrecognized phoneme %short
 Unrecognized phoneme code %int
@@ -2015,10 +2032,8 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
-V_atan2
 V_atan2f
 V_atanf
 V_atod
@@ -2026,19 +2041,11 @@ V_atof
 V_atoi
 V_atoi64
 V_atoui64
-V_cos
 V_cosf
 V_coshf
 V_expf
-V_fclose
 V_fmodf
-V_fopenUTF8
-V_fread
-V_fseek
-V_ftell
-V_fwrite
 V_localeconv
-V_log
 V_log10f
 V_logf
 V_powf
@@ -2077,7 +2084,6 @@ VisBuilder_001
 Voice overflow, voice count == MAX_CHANNELS
 Voice volume
 Volume of sounds in tools (e.g. Hammer, SFM)
-W$IcE
 W)LcG
 W8A\A]A^]
 W8HcO
@@ -2123,7 +2129,6 @@ Yacht : voiced palatal approximant
 Z8Hcr
 Zap : voiced alveolar fricative
 [%short] %short : src %double : channel %double : %double dB : vol %.2f : time %.3f
-[([A\]
 [A\A]A^A_]
 [A\A]A^A_]A
 [A\A]A^]
@@ -2135,6 +2140,7 @@ Zap : voiced alveolar fricative
 []A\A]
 []A\A]A^
 []A\A]A^A_
+\$$t$A
 \$HA;\$X
 \H$H9
 \\fileserver\User\Morasky\L4Dsoundlogs\%s_%short
@@ -2221,6 +2227,7 @@ __float128 E;g0D
 __gmon_start__
 __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
+__oldschema_object_name
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
@@ -2265,6 +2272,9 @@ adsp_street_min
 adsp_tunnel_min
 adsp_wall_height
 advanced
+anim_name
+anim_name_a
+anim_name_b
 anim_type
 aplay
 apply
@@ -2291,6 +2301,8 @@ cXD;chD
 calc_angles_facing
 calc_audibility
 calc_closest_point_on_line
+calc_closest_point_on_sphere
+calc_closest_point_on_volume
 calc_distance
 calc_distant_dsp
 calc_falloff
@@ -2316,6 +2328,7 @@ client
 clientcmd_can_execute
 collision_prop
 command
+composite
 configvalue.cpp
 construction_stack
 convar_get
@@ -2341,6 +2354,7 @@ dH3<%(
 dOg : lower-mid back rounded vowel
 data_type
 dbGain
+debug.solo
 default_to_max
 delay count
 delete
@@ -2403,6 +2417,8 @@ ffff.
 fffff.
 ffffff.
 field_override
+float char::* E;f0D
+float char::*`E;fpD
 float( %float )
 float2
 float4
@@ -2419,6 +2435,7 @@ floorf@@GLIBC_2.2.5
 fmt D
 force_direction
 fork@@GLIBC_2.2.5
+frame
 free@@GLIBC_2.2.5
 frequency
 function
@@ -2433,6 +2450,7 @@ g_mastermixlayer:
 g_pMemAlloc
 g_pScheduledFunctions
 game_entity_info
+game_entity_world_aabb
 game_get_point_contents
 game_get_source_info
 generic
@@ -2584,6 +2602,8 @@ input_soundlevel
 input_source_position
 input_spawn_oneshots
 input_speaker_volumes
+input_sphere_pos
+input_sphere_radius
 input_spread_max
 input_spread_max_value
 input_spread_min
@@ -2598,6 +2618,7 @@ input_start5
 input_start6
 input_start7
 input_start8
+input_start_position
 input_start_value
 input_stop
 input_stop_at_time
@@ -2621,6 +2642,8 @@ input_trigger
 input_update_opvar_args
 input_use_namespace
 input_use_parent_seed
+input_volume_pos_max
+input_volume_pos_min
 input_vsnd
 input_vsnd1
 input_vsnd2
@@ -2683,12 +2706,9 @@ limiterRatio
 linear
 localPlayer
 log10
-long double char::* E;e0D
-long double char::*`E;epD
 long long'Hc?L
 long long>;W4}9
 long long>D+k(Ic
-long long@;7I
 long long[A\A]A^A_]
 lvl: %.2f 
 m_EditItems
@@ -2727,6 +2747,7 @@ match_this_event
 math_accumulate12_float
 math_animate_float3
 math_average8_float
+math_calc_directional_vec3
 math_calc_doppler
 math_calc_fixed_rotation
 math_clamp_float
@@ -2770,10 +2791,15 @@ mixDownRule
 mix_input
 modeldoc0
 modeldoc1
+modeldoc10
 modeldoc2
 modeldoc3
 modeldoc4
 modeldoc5
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
 movie_fixwave
 movie_fixwave: File '%short' does not exist
 mp3_miles.cpp
@@ -2802,7 +2828,6 @@ numerator
 o0ATI
 o0D;unsigned __int128@D
 oHATA
-oXATSH
 occlusion_db_loss
 operator_arg_field
 operator_field_display
@@ -2875,6 +2900,8 @@ output_mixgroups
 output_opvar_elements
 output_opvar_exists
 output_pos
+output_pos_max
+output_pos_min
 output_position
 output_position_x
 output_position_y
@@ -2950,10 +2977,12 @@ public.release
 public.sample
 public.start_point
 public.volume
+r6LcA
 random
 random_exclusive
 random_weighted
 ratio
+recenter_on_parent_bone
 redist/x64
 reference_operator
 reference_stack
@@ -2988,7 +3017,7 @@ sequence_index
 sequencer_start
 server_can_execute
 shift & multiply = %2.5f 
-short<u7H
+short<u2H
 short@+CdH
 short`D;spD
 siNG : voiced velar nasal
@@ -3028,7 +3057,6 @@ snd_gain_max
 snd_gain_min
 snd_gamevoicevolume
 snd_gamevolume
-snd_getmixer
 snd_headphone_pan_exponent
 snd_headphone_pan_radial_weight
 snd_list
@@ -3051,6 +3079,7 @@ snd_op_sys/sos_vmidi_samplers.cpp
 snd_op_sys/sos_vmidi_sequencer.cpp
 snd_op_test_convar
 snd_print_arrangements
+snd_print_current_mixer_mixgroup
 snd_print_samplers
 snd_print_sequences
 snd_print_soundevent
@@ -3177,6 +3206,7 @@ soundstacks/sosgroups.txt
 soundstacks/sosstrings.txt
 soundstacks/soundstacks_manifest.vrman
 soundsystem
+source_filename
 sparse_convolution
 spawn_orphans
 speaker_config
@@ -3224,7 +3254,7 @@ tSLc{8L
 tWA9]
 tWLc%
 tXLcc
-tZHc5w
+tZHc5
 taG : voiced velar stop
 tb[A\]
 tdA:]
@@ -3242,7 +3272,6 @@ u	[A\]
 u A\A]A^]
 u [A\]
 u"HcCD
-u.[A\A]A^]
 u/IcE
 u0Lcm
 u64( %lld = 0x%llX )
@@ -3257,8 +3286,8 @@ um[A\]
 unicode
 unknown
 unknown error
+unsigned __int128 ATL
 unsigned __int128 ATSH
-unsigned __int128(ATSH
 unsigned __int128`ATI
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
@@ -3268,14 +3297,15 @@ unsigned short signed char::* : voiced bilabial nasal
 unsigned short"HcK
 unsigned short"HcO
 unsigned short%HcB
-unsigned short'D;5
+unsigned short'D;5>
+unsigned short);=2
 unsigned short*<-H
 unsigned short*HcE
 unsigned short*HcO
+unsigned short+Hc4
 unsigned short+Jc4
 unsigned short;[A\]
 unsigned short<IcV
-unsigned short<Icu
 unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@D;__float128
@@ -3346,12 +3376,13 @@ vsndstckH
 vsndstckI
 vsndstckSH
 w8ATSH
-w8AUI
 wLc+D;k
 wXATE1
+wXATI
 wait_for_track
 waitpid
 waitpid@@GLIBC_2.2.5
+wchar_t(AUATI
 wchar_t(twA
 wchar_t`AUATL
 wcscmp
@@ -3361,35 +3392,38 @@ wcslen@@GLIBC_2.2.5
 weights_field_name
 x1HcC@H9
 x8;7}4H
+xB;7I
 xCHcq
-xD9%|
+xD9%long
+xD95]"9
 xGHcO
 xHIcL$
 xYHcFpH9
 xe;wX}XUH
 xfade
 xhA\A]A^A_]
+z5u3A
 z7u5H
-z8u6H
-zGuEA
-zIuGH
+zTuRA
 zVuTI
 zgueA
-zgueL
+zoumL
 zuusH
+{YIN?
 {}()':
 {}[]()=&, 	
 {}[]=, 	
 |$HfA
 |$PE1
 |$xfA
+}!D9%
 }!float;S&wchar_t
-}'D9%
 }(;ST
 }*float;C
 }:;A$
 }>;w$
 }>A;D$,
+}ALc+D
 }Hf;wchar_t
 }Xf;wchar_t
 }vA;]T
@@ -3400,13 +3434,13 @@ zuusH
 ~(A\A]A^]
 ~)A;]
 ~)H97tC
-~)H;short
 ~)I;L$
+~*I;u
 ~AVAUL
 ~BIc_
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %short via shutdown
-~DLc+D
 ~M;D$
 ~OM;D$
 ~P;2u
+~PHcK@
 ~[HcW

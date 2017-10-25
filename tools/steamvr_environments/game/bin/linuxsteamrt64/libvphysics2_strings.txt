@@ -11,23 +11,22 @@
 		transparent 128           - draw transparent (0-255)
 		wireframe                 - draw wireframe
 		{collisionGroup, interactAs, interactWith, interactExclude} #FFFFFFFF
-	!O3M
+	!O3H
 	"%short",
 	%8X - %short
 	%d.  %16llx - %short%short
 	%d. %4x - %short
 	ATSH
 	LcP E
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	{ 0x%08X, %3u, %3u }, // %short
    (even though it was there already)
    and adding Touch Persist flag, because of trigger group
    as-wH
    as-with:(
    so, A
-   so, H
    so, adding Intersection Pair Trigger flag
-   wit
-   witH
+   witA
    with-as:(
  %.f ticks
  %llu aggs, %short total data
@@ -42,7 +41,6 @@
  - %double / %double allocated
  - Cluster[%double]@%8p = '%short' (type %double)
  /*%u:0x%08X*/ "%short",
- A;]pr
  A\H	
  AggregaH
  Astiffness=%__float128 damping=%__float128
@@ -165,7 +163,6 @@ $[A\]
 %short\%short
 %srel rotation {%.2f,%.2f,%.2f,%.2f}
 %u.%u
-&YA1D
 &YA1H
 &YA1L
 &[A\A]A^]
@@ -186,12 +183,11 @@ $[A\]
 (E9g 
 (E9g ~jH
 (E9l$ 
+(E9} 
 (E;l$
 (F0UH
 (FPUH
 (G0UH
-(HcH,I
-(HcH4I
 (HcO,H
 (HcP L
 (HcW,H
@@ -206,17 +202,21 @@ $[A\]
 ([A\A]]
 ([]A\A]A^A_
 (job %double): %short ticks per alloc
-)	A9Vlw
-) - No iA
-) - No ifD
+)	9Gl
+)	9Glv2H
+)	9Wlw
+) - No iL
+) - No int
 ) - No interaction allowed
 ) right 
 ) right (
 ) right I
+)D$PI
 *%double %short
 *BevelGearRefl_t::GetReflChildren(CBevelGear const*, CUtlVector<ReflectedElement_t, CUtlMemory<ReflectedElement_t, int> >&)::CReflBitfield_CBevelGear_bProject
 *BevelGearRefl_t::GetReflChildren(CBevelGear const*, CUtlVector<ReflectedElement_t, CUtlMemory<ReflectedElement_t, int> >&)::CReflBitfield_CBevelGear_bWarmStart
-*CMemberFunctor1<CParallelForAndPostProcessor<CUtlVectorFixedGrowable<CPostUpdateContacts, 16ul>, CRnWorld::UpdateContactsParallel(CContactArray&)::{lambda(CPostUpdateContacts&, int)#1}, EmptySequentialFunctor_t, 1>*, void (EmptySequentialFunctor_t::*)(CPostUpdateContacts*), CParallelForAndPostProcessor<CUtlVectorFixedGrowable<CPostUpdateContacts, 16ul>, CRnWorld::UpdateContactsParallel(CContactArray&)::{lambda(CPostUpdateContacts&, int)#1}, EmptySequentialFunctor_t, 1>*, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
+*CMemberFunctor1<CParallelForAndPostProcessor<CUtlVectorFixedGrowable<CPostUpdateContacts, 16ul>, CRnWorld::UpdateContactsParallel(CContactArray&)::{lambda(CPostUpdateContacts&, unsigned int)#1}, EmptySequentialFunctor_t, 1>*, void (EmptySequentialFunctor_t::*)(CPostUpdateContacts*), CParallelForAndPostProcessor<CUtlVectorFixedGrowable<CPostUpdateContacts, 16ul>, CRnWorld::UpdateContactsParallel(CContactArray&)::{lambda(CPostUpdateContacts&, unsigned int)#1}, EmptySequentialFunctor_t, 1>*, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
+*D9sl
 *RnBodyRefl_t::GetReflChildren(CRnBody const*, CUtlVector<ReflectedElement_t, CUtlMemory<ReflectedElement_t, int> >&)::CReflBitfield_CRnBody_bAutoSleeping
 *RnBodyRefl_t::GetReflChildren(CRnBody const*, CUtlVector<ReflectedElement_t, CUtlMemory<ReflectedElement_t, int> >&)::CReflBitfield_CRnBody_bDragEnabled
 *RnBodyRefl_t::GetReflChildren(CRnBody const*, CUtlVector<ReflectedElement_t, CUtlMemory<ReflectedElement_t, int> >&)::CReflBitfield_CRnBody_bEnabled
@@ -244,6 +244,7 @@ $[A\]
 *RnSoftbodyRefl_t::GetReflChildren(CRnSoftbody const*, CUtlVector<ReflectedElement_t, CUtlMemory<ReflectedElement_t, int> >&)::CReflBitfield_CRnSoftbody_bFrozenInLocalSpace
 *RnSoftbodyRefl_t::GetReflChildren(CRnSoftbody const*, CUtlVector<ReflectedElement_t, CUtlMemory<ReflectedElement_t, int> >&)::CReflBitfield_CRnSoftbody_bGravityDisabled
 *RnSoftbodyRefl_t::GetReflChildren(CRnSoftbody const*, CUtlVector<ReflectedElement_t, CUtlMemory<ReflectedElement_t, int> >&)::CReflBitfield_CRnSoftbody_bSimTransformsOutdated
+*xNIH
 +Always Notify on Touch Found or Lost
 +C$9C
 +C$;C
@@ -266,6 +267,7 @@ $[A\]
 , miss: 
 ,RATI
 ,RIcT$
+,iD9kl
 --  Increase the size of the resource stream   --
 --  Need %double bytes, but only have %double bytes
 -----------------
@@ -277,7 +279,6 @@ $[A\]
 -aggs
 -as-exclH
 -as-withH
--layers:H
 -processheap
 -profiletraces
 -rndebug
@@ -291,10 +292,10 @@ $[A\]
 -unittest
 -validate
 -with flH
-.%FZ&
-.-!unsigned int,
+.%KH'
+.-)unsigned long'
 .../u-H
-...`u^A
+../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
 ../public/schemasystem/schema.h
@@ -303,6 +304,7 @@ $[A\]
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier1/utlsortvector.h
+.51y'
 .CTw}
 .G({FH
 .G,...#u!
@@ -328,6 +330,7 @@ $[A\]
 .note.gnu.build-id
 .rela.dyn
 .rela.plt
+.rnsnoop.inl
 .rodata
 .shstrtab
 .strtab
@@ -339,15 +342,12 @@ $[A\]
 // only one region left, because 
 00000000-0000-0000-0000-000000000000
 0123456789ABCDEF
-0A9_8~oI
+0A9_8~WI
 0A;\$
 0AUATSH
-0D;Kpr
-0D;[p
 0E9/~/Lc#
 0HcO4H
 0Lc+D;k
-0SoftI
 0[A\A]A^A_]
 0[A\A]A^]
 0[A\]
@@ -358,8 +358,9 @@ $[A\]
 1 1 1
 1 << %u
 1000000
+1DBlend
 1Mc'H
-2017-05-11 17:37:44.703000
+2017-08-04 16:11:41.726000
 2WAY_0( 
 2WAY_1( 
 3+C$H
@@ -370,12 +371,13 @@ $[A\]
 3E8 u
 3[A\A]A^]
 4$D;k
+4$IcT$
 42HcU
 4@IcD$ A
 4@IcD$(A
 4A9\$8
+4H;H 
 4fff>fff>fff>fff>
-4rD9sl
 692t&H
 6H92t%H
 6H92u
@@ -383,7 +385,6 @@ $[A\]
 7D;unsigned __int128(D
 7HcP H
 89w float restrict;wchar_t
-8@CTSQueue corruption
 8LcgPL
 8ST: Translation %__float128,%__float128,%__float128 on #%double %short
 8VBKVt6HcF
@@ -391,8 +392,8 @@ $[A\]
 8[A\A]]
 8[]A\A]A^A_
 9G ti+G$H
-9Glv0H
 9KH~;H
+9Kl~BI
 9S unsigned short{+S$H
 9Z<t39Z@
 9w UH
@@ -400,16 +401,18 @@ $[A\]
 9wPUH
 9~0UH
 9~4t*9~8t-9~<
+:D9sl
 :[tLL
 ;*3$"
 ;*unsigned short*1
 ;BH}&H
 ;K(}&H
 ;S(}+H
-;WlsJH
+;Wls5H
 ;wX|#
 ;wchar_t(UH
-<	uSL
+<	u@UH
+<	u[L
 <	w.1
 <	woD
 < FLT_EPSILON
@@ -445,21 +448,17 @@ $[A\]
 >@unsigned short<H
 >A9U$
 >CGear
+>SoftbodyProcessor
 >vphysics_save_cphysicsbody_t
 >~:Hc
-?%short %float %float %float %float %float %float %float %float %float
 ?A\A]A^A_]
-?AimConstraint: %short - Cannot Find Aim Up Target Bone
 ?Mct$ 
 ?char%double unsigned long%double pt%double
 ?fff?
-?meshUtilsKeyValues
-?rnsnoop.inl
 ?unsupported?
 ?~t8H
 @ A\]
 @ flagH
-@ ith:
 @ ith:I
 @$A;t$
 @( flafD
@@ -472,20 +471,21 @@ $[A\]
 @2fA3F2f
 @8A]A^]
 @@NotifD
-@ANo Self Collision
-@Capsule r=%__float128, unsigned char=%__float128
+@ACapsule r=%__float128, unsigned char=%__float128
 @HcC(
-@Hull %double verts %double edges %double faces %__float128 diameter
+@HcC01
+@HcC81
+@Physics Console Communications is not initialized
 @Ppes
-@SoftbodyProcessor
 @[A\A]A^A_]
 @[A\A]A^]
 @[A\]
 @hA\]
-@pD;q
+@pD;r
 @pLc!H
 @u'fA
-A(9{p
+A%short %float %float %float %float %float %float %float %float %float
+A(9sp
 A(IcA0
 A(Mc}
 A+D$$H
@@ -493,6 +493,7 @@ A+E$H
 A+E$f
 A+G$H
 A+G$Lc
+A+M$Hc
 A+T$$Hc
 A+U$A
 A+U$Hc
@@ -505,7 +506,7 @@ A+]$Hc
 A+_0A;_(~QA
 A+t$$Hc
 A+u$Hc
-A0fD+"E
+A0fD+ E
 A8HcO$H
 A9D$8
 A9D$8~*I
@@ -518,9 +519,11 @@ A9GH~QI
 A9GH~RI
 A9T$$
 A9Vlv
+A9Vlw
 A9\$8
 A9\$8~.
 A9\$8~void
+A9\$pw
 A9\long
 A9^(void
 A9^(~6M
@@ -529,13 +532,14 @@ A;<$}MD
 A;<$}eD
 A;D$8r
 A;D$H|
+A;EP~
 A;G A
 A;G8|
-A;GP~
-A;M`~HA
+A;O`~HA
 A;T$0
+A;U`~IA
 A;WDs
-A;W`~IA
+A;Wh|
 A;\$ A
 A;\$0|
 A;\long
@@ -547,15 +551,14 @@ A;]P|
 A;]X|
 A;]`|
 A;]`}{
-A;]pr
 A;^H|
 A;^H}7I
 A;u$|
-A;unsigned char volatile|
 A;w$t
 A@IcA
 AABB_t
 ACK_GLOBH
+ACTSQueue corruption
 AL_FRICTH
 ANGULAR_CONSTRAINT_DISABLED
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %double!
@@ -610,15 +613,14 @@ AVAUL
 AVAULc
 AVAUM
 AWAVA
-AWAVATI
 AWAVATSH
+AWAVAU
 AWAVAUA
 AWAVAUATA
 AWAVAUATE
 AWAVAUATE1
 AWAVAUATI
 AWAVAUATL
-AWAVAUATLc
 AWAVAUATM
 AWAVAUATS
 AWAVAUATS1
@@ -649,15 +651,18 @@ A\A]]
 A\A^]
 A]A^A_]
 A]A^]
+A^A_]
 AcquireMask
 Active/Total Softbodies
 ActivityState
+AddRef
 AddWorldCollisionRadius
 AggregatH
 Aggregate Count
 AggregateInstance
 AimConstraint: %short - Cannot Find Aim Slave Bone
 AimConstraint: %short - Cannot Find Aim Up Target Attachment: %short
+AimConstraint: %short - Cannot Find Aim Up Target Bone
 AirDensity
 Align
 All Groups:
@@ -684,6 +689,7 @@ AngularLambdas[ 2 ]
 AngularMotions[ 0 ]
 AngularMotions[ 1 ]
 AngularMotions[ 2 ]
+AnimDelta
 AnimFile
 AnimProxy
 AnimSpace
@@ -720,6 +726,7 @@ B0t}D
 B8HcW$H
 BAUMGARTE_STAB
 BEVEL_GEAR_FAST_JOINT
+BNo Self Collision
 BODY_DYNAMIC
 BODY_KEYFRAMED
 BODY_STATIC
@@ -762,6 +769,7 @@ BaumgarteVelocityFactor
 BenchmarkService001
 BevelGearRefl_t
 BinaryProperties_GetValue
+BlendList
 Body #%double
 Body::BuildMass
 Body::SetTransform
@@ -1147,6 +1155,7 @@ CResourceArray< CTransformUnaligned > RnSoftbodyDescRefl_t::m_InitPoseArray
 CResourceArray< CUtlPair< ReflId_t, RnShadowControllerRefl_t > > RnWorldRefl_t::m_ShadowControllers
 CResourceArray< CUtlPair< uint32, uint > > NameIndexRefl_t::m_NameToIndex
 CResourceArray< FeAabb_t > RnSoftbodyRefl_t::m_AabbArray
+CResourceArray< FeAnimStrayRadius_t > FeModelRefl_t::m_AnimStrayRadiiArray
 CResourceArray< FeAxialEdgeBend_t > FeModelRefl_t::m_AxialEdgesArray
 CResourceArray< FeCollisionPlane_t > FeModelRefl_t::m_CollisionPlanesArray
 CResourceArray< FeCollisionSphere_t > FeModelRefl_t::m_CollisionSpheresArray
@@ -1160,6 +1169,7 @@ CResourceArray< FeNodeIntegrator_t > FeModelRefl_t::m_NodeIntegratorArray
 CResourceArray< FeNodeReverseOffset_t > FeModelRefl_t::m_ReverseOffsetsArray
 CResourceArray< FeQuad_t > FeModelRefl_t::m_QuadsArray
 CResourceArray< FeRodConstraint_t > FeModelRefl_t::m_RodsArray
+CResourceArray< FeSimdAnimStrayRadius_t > FeModelRefl_t::m_SimdAnimStrayRadiiArray
 CResourceArray< FeSimdFitMatrices_t > FeModelRefl_t::m_SimdFitMatricesArray
 CResourceArray< FeSimdNodeBase_t > FeModelRefl_t::m_SimdNodeBasesArray
 CResourceArray< FeSimdQuad_t > FeModelRefl_t::m_SimdQuadsArray
@@ -1225,6 +1235,7 @@ CResourceArray< uint32 > ConnHierarchyRefl_t::m_BlendsEndArray
 CResourceArray< uint32 > ConnHierarchyRefl_t::m_SpringsEndArray
 CResourceArray< uint32 > ConnMatrixFillRefl_t::m_RowStartsArray
 CResourceArray< uint32 > FeModelRefl_t::m_CtrlHashArray
+CResourceArray< uint32 > FeModelRefl_t::m_RopeNodeFlipsArray
 CResourceArray< uint32 > HierarchicalBitVectorRefl_t::m_Level0
 CResourceArray< uint32 > HierarchicalBitVectorRefl_t::m_Level1
 CResourceArray< uint32 > RnMeshContactRefl_t::m_TriangleCache
@@ -1708,8 +1719,8 @@ CommandLine
 CommandProcedure
 CommandProcedureList
 Commit
+Common iH
 Common iL
-Common int
 Common interaction flags
 ConCommand
 ConCommandBase
@@ -1759,25 +1770,25 @@ D$ E1
 D$ E9l$
 D$ H9
 D$ IcD$`D
+D$ L9
 D$ L90t,wchar_t
 D$$E1
 D$$Mc
 D$(E1
 D$(Ic
-D$,D9
 D$/H)
 D$0	4
 D$0A9
-D$0E1
 D$0H9
 D$0HcS<
+D$0L9
 D$0Mc
 D$4E1
 D$4LckPD;k`D
 D$8H9
 D$8I9
 D$8L9
-D$@A\H
+D$@H9
 D$@I9
 D$@L9
 D$DA\
@@ -1810,8 +1821,10 @@ D+{$Mc
 D.$Hc
 D/4Hc
 D64Hc
-D9=int(5
+D9=	:5
+D9Cpw
 D9[(v5D
+D9`pv#H
 D9c(D
 D9k(E
 D9{ u
@@ -1899,7 +1912,7 @@ DynamicNodeFlags
 E A+E
 E L;long double
 E$Ic\$ 
-E(D;{long
+E(D9sl
 E(Lc#D;char
 E+D$$Mc
 E+E$Mc
@@ -1948,12 +1961,11 @@ E;l$H}sI
 E;t$0u
 E;t$\
 E;ulH
-E;wchar_t ~EA
 E;wchar_t(D
 E;|$ |
 E;|$,
 E;|$H|
-E;~lD
+E;} ~EA
 EDA]A^]
 EHA;]8D
 EHL;}
@@ -1972,6 +1984,7 @@ EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
 EffectiveIt
+EmptyAnim
 EnableWorldShapeCollision
 EndTouchEvents
 EnergyPerUnitMass
@@ -2033,6 +2046,7 @@ Failed to save unsupported class
 Failed to transfer KV3 data for resource '%short' - %short
 Failed trying to Commit %u bytes, used %u bytes, reserved %u bytes
 FeAabb_t
+FeAnimStrayRadius_t
 FeAxialEdgeBend_t
 FeCollisionPlane_t
 FeCollisionSphere_t
@@ -2048,6 +2062,7 @@ FeNodeIntegrator_t
 FeNodeReverseOffset_t
 FeQuad_t
 FeRodConstraint_t
+FeSimdAnimStrayRadius_t
 FeSimdFitMatrices_t
 FeSimdNodeBase_t
 FeSimdQuad_t
@@ -2091,6 +2106,7 @@ For Hitbox Test
 ForcedUpdates
 FormatV
 Found max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
+FpMc7H
 Fraction
 FreeNodeCount
 FrictionNotifications
@@ -2139,7 +2155,6 @@ GLIBC_2.2.5
 GLIBC_2.3.4
 GLIBC_2.4
 GO@t0H
-GPUHc
 GXH	G
 GXUHc
 G`H	G
@@ -2165,10 +2180,10 @@ H	p(]
 H	wchar_t(UH
 H E	4
 H H9J 
-H Hc@ Mc
+H Hc@ Lc
 H!wchar_t(H
 H#C`I
-H(unsigned short!I
+H(unsigned short!M
 H+B0H
 H+C(H
 H+C@H
@@ -2216,6 +2231,7 @@ HcC,I
 HcC01
 HcC4I
 HcC<I
+HcC@1
 HcC@E1
 HcC@I
 HcCDI
@@ -2224,15 +2240,14 @@ HcCHH
 HcCLI
 HcCTI
 HcCTL
-HcCX1
+HcC\I
+HcCdI
+HcCh1
 HcChL
 HcClH
-HcCp1
-HcC|I
 HcF(UH
 HcFhI
 HcG H
-HcG I
 HcGDUH
 HcG`UH
 HcGdH
@@ -2271,22 +2286,21 @@ HcK,1
 HcK01
 HcK41
 HcK81
-HcK8H
 HcK<1
 HcK@1
-HcK@H
 HcKH1
 HcKHH
 HcKP1
 HcKPH
 HcKT1
 HcKX1
+HcKXH
 HcK\1
 HcK`1
+HcK`H
 HcKd1
 HcKl1
 HcKt1
-HcKxH
 HcK|1
 HcO H9
 HcO(U1
@@ -2295,6 +2309,7 @@ HcP Hc
 HcP Hc1
 HcP L
 HcP,1
+HcPdI
 HcQP1
 HcQX1
 HcR41
@@ -2320,12 +2335,13 @@ HcW4D
 HcW<1
 HcW@U1
 HcWPH
-Hcp,Hc@$H
+Hcp,H
+Hcp4H
 Hcs H
+Hcx$H
 Hcz I
 Hcz(1
 HelpSystem_001
-HhHcPdH
 HierarchicalBitVectorRefl_t
 HierarchicalBitVectorRefl_t BroadphaseRefl_t::m_MoveBuffer
 HierarchicalBitVectorRefl_t RnSoftbodyRefl_t::m_StickyBuffer
@@ -2342,6 +2358,7 @@ HitboxSetList
 Hm, it'short the same shape, it cannot collide with itself
 HookUpConfigValue
 HostStateMgr001
+Hull %double verts %double edges %double faces %__float128 diameter
 Hull was passed signed char flat point clound. Point clound normal{%__float128,%__float128,%__float128} and center{%__float128,%__float128,%__float128} were detected and it was extruded; fail-safe hull generated successfully. Please clean up the code that generated this point cloud.
 Hull%d.obj
 HullBuildBounds
@@ -2420,6 +2437,7 @@ IVPhysics2
 IVPhysics2World
 IVSSequence
 IVertColorBase
+Ic4$H)
 Ic<$H
 IcD$ 
 IcD$ L
@@ -2444,17 +2462,17 @@ IcT$(I
 IcT$<1
 IcT$`
 IcT$`1
+IcU L
 IcUPA;U`
 IcU`L
 IcV Hc
 IcV(H
 IcV(I
 IcVdH
-IcW L
 IcW$L
 IcW(L
 IcW01
-IcW`L
+IcW`H
 Ic\$ A9
 Ic\$(A
 Ic](A
@@ -2462,11 +2480,10 @@ Ic](A;]8
 Ic]PI
 Ic^8A;^H
 Ic^PA;^`
+Ic_PA;_`
 Icr 1
 Icu`H
 Ic|$`
-Ic~$H
-Ic~,I
 Inconsistent collision attribute index array of size %double, expected %double (number of shapes)
 Infinite Joint Weights encountered: Skinning will not work!
 InfoForResourceTypeAnimationGroupResourceData_t
@@ -2533,7 +2550,6 @@ JOINT_STATE_LIMIT_ENABLED
 JOINT_STATE_LINEAR_CONSTRAINT_DISABLED
 JOINT_STATE_MOTOR_ENABLED
 Jc<(H
-Jf9wH
 Joint Indices (%double) Out float&& Range for SINT16: Skinning will not work ! 
 Joint Indices (%double) Out float&& Range for UINT10: Skinning will not work ! 
 Joint Indices (%double) Out float&& Range for UINT8: Skinning will not work ! 
@@ -2555,7 +2571,6 @@ KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn'unsigned short open file "%short" in path "%short".
 KeyValuesSystem
 KpHcCl
-L ,Hc
 L$(E1
 L$(H9
 L$(fD
@@ -2570,7 +2585,6 @@ L9 u"H
 L9 u$H
 L9 u&H
 L9;unsigned short%D
-L;__float128(H
 LD;c0|
 LIMIT_AT_LIMIT
 LIMIT_AT_LOWER_LIMIT
@@ -2596,21 +2610,19 @@ Lc/E1
 Lc6E9
 Lc7E)
 Lc:D;...
-LcF B
 LcF E
-LcF H
 LcFx1
 LcH(E
+LcN@E
+LcNHE
+LcNPE
+LcNXE
+LcN`E
+LcNhE
+LcNpE
 LcP LcY
 LcP Lcy
 LcP(E
-LcV@E
-LcVHE
-LcVPE
-LcVXE
-LcV`E
-LcVhE
-LcVpE
 LccHD;cXD
 LccHE1
 LcchD;cxD
@@ -2743,14 +2755,13 @@ Mc,$E;l$
 Mc.E;__int128
 Mc/E;unsigned __int128
 Mc4$E;t$
-Mc@lJ
+Mc@tJ
 McF E
 McGxE;
 McQ E
 McZ E
-McePE;long double`D
 Mct$81
-Mct$8E;t$HD
+Mc|$8E;|$HD
 Md5 Hash: %02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -2777,7 +2788,7 @@ Model %short missing bone and flex counts (%double < %double), init %double
 ModelBoneFlexComponent_t
 ModelBoneFlexDriverControl_t
 ModelBoneFlexDriver_t
-ModelDocCommandSystem001
+ModelDocUtils001
 ModelScale
 ModelSkeletonData_t
 ModelSkeletonData_t::BLEND_PREALIGNED
@@ -2856,20 +2867,18 @@ Next[ 0 ]
 Next[ 1 ]
 No Touch event enabled on either shape: GetCollisionFunctionMask() = {%double, %double} does not include FCOLLISION_FUNC_ENABLE_TOUCH_EVENT = %double
 No commoA
-No commoH
 No common interaction as-with flags, so no (trigger) flag is added
 No matchH
-No matchI
 No matching exclude flags
 No valid format conversion from '%short' to '%short'
 NodePool
 Non-dynamics interactions are generally disabled, unless the collision groups intersect with Trigger and without Resolve flags
 Not found: %short
 NotiL
-NotifA
+NotifD
 Notify
 Notify F
-Notify FI
+Notify FH
 Notify Found
 Notify LA
 Notify Lost
@@ -2885,6 +2894,7 @@ OHUE1
 Object: %short
 OnDiskBufferData_t
 One of the collision groups is Conditionally Solid - No interaction allowed
+Ordered constructor wrapped type has no default constructor.
 Out of %double unit test hulls, %double failed to build, %double were ultra-thin
 OverPredict
 Overlap in reporting by type: %.f%%, %short unique pointers / %short total = %.f
@@ -2906,6 +2916,7 @@ PHYSICS_DEBUG_MATERIAL_WIRE
 PHYS_CALLBACK_COUNT
 PHYS_CALLBACK_END_OF_STEP
 PHcC$H
+PHcp,Hc@$H
 PIID_IPHYSAGGREGATE
 PIID_IPHYSICSBODY
 PIID_IPHYSICSJOINT
@@ -2916,6 +2927,7 @@ PIID_NUM_TYPES
 PIID_UNKNOWN
 POSITION
 POSIX
+PPL;:
 PRISMATIC_JOINT
 PRISMATIC_WELD_FUSED_JOINT
 PROJECTION_STAB
@@ -2949,6 +2961,7 @@ PermModelInfo_t::FLAG_DO_NOT_CAST_SHADOWS
 PermModelInfo_t::FLAG_FORCE_PHONEME_CROSSFADE
 PermModelInfo_t::FLAG_HAS_SKINNED_MESHES
 PermModelInfo_t::FLAG_IMPLICIT_BIND_POSE_SEQUENCE
+PermModelInfo_t::FLAG_MODEL_DOC
 PermModelInfo_t::FLAG_MODEL_IS_RUNTIME_COMBINED
 PermModelInfo_t::FLAG_MODEL_PART_CHILD
 PermModelInfo_t::FLAG_NAV_GEN_HULL
@@ -2974,7 +2987,6 @@ PhysSurfacePropertiesPhysicsRefl_t PhysSurfacePropertiesRefl_t::m_physics
 PhysSurfacePropertiesRefl_t
 PhysSurfacePropertiesSoundNamesRefl_t
 PhysSurfacePropertiesSoundNamesRefl_t PhysSurfacePropertiesRefl_t::m_audioSounds
-Physics Console Communications is not initialized
 Physics RnMeshCreate: cannot create degenerate mesh (%double tris)
 Physics RnMeshCreate: removing %double degenerate triangles of %double
 Physics doesn'unsigned short know how to handle Comm request %double (data:%double)
@@ -3146,7 +3158,6 @@ RNc49)
 RPD;{
 RPE;u
 RPE;}
-RPH;2
 RandomFloat
 RandomInt
 RandomSeed
@@ -3234,7 +3245,7 @@ RenderUtils_001
 ReportClassError
 ReportEvents
 Reported
-ReportedJ
+ReportedH
 ReportedL
 ReserveVirtualMemory
 ResofD
@@ -3470,6 +3481,7 @@ ShouldCoH
 ShouldCollide tests passed
 Sht7Lc{pD;
 SimFlags
+SimdAnimStrayRadiusCount
 SimdFitMatrixCount[ 0 ]
 SimdFitMatrixCount[ 1 ]
 SimdFitMatrixCount[ 2 ]
@@ -3494,6 +3506,7 @@ Sl[A\]
 SleepTime
 Snoop
 Snooper could not lock snooper mutex proc %double addr %llx in %ums, snoop is unsafe and may crash. Error %d.
+SoftI
 SoftL
 Softbody #%double %s.%double %short (%.4g,%.4g)
 Softbody:SetANimatedTransforms called on dormant softbody; please use IsDormant()
@@ -3572,6 +3585,7 @@ Stopping saving snapshots at Frame %u into '%short'
 String %double: ref:%double %short
 String Array
 SubResult
+Subtract
 Surface Prop Hash
 Surface Properties file not loaded.!
 Surface properties are not loaded.
@@ -3585,28 +3599,18 @@ T$ H;B
 T$ Hc@
 T$(9Z 
 T$(Hc
+T$(Ic
 T$0A\A]]
 T$0H9
 T$0Hc
 T$8H)
 T$HfA
 T$LHcC
-T$PfD
-T$`D9
 T$`E1
+T$fD9
 T$zfA
-T%AC,
-T-22,
-T-4R,
-T-PS,
 T64Hc
 T9$Hc
-T= R,
-T=.E,
-T=G1,
-T=GR,
-T=bT,
-T=s3,
 TLc#D;char
 TOI: Count
 TOI: Failures
@@ -3669,7 +3673,7 @@ TriangleCache
 TriangleMaterials
 Tried to load resource reference '%short' from signed char value without signed char resource reference flag.
 Tried to load signed char polymorphic pointer with no '%short' key
-Trigger H
+Trigger 
 Trigger flags are not set. Intersection flags remains %double
 Try changing the number of bones per vertex or the skin weighting, and send Sergiy signed char repro mesh with this error description.
 Trying to concatenate meshes with different numbers of attributes!
@@ -3684,6 +3688,7 @@ Two mesh
 Two meshH
 Two meshes may not have collision
 Two non-
+Two non-H
 Two non-L
 Two non-dynamics do NOT have signed char Trigger flag
 Two non-dynamics have signed char Trigger flag
@@ -3739,6 +3744,7 @@ Using 10-bit blend indices: are you sure they are supproted on the target hardwa
 Using 16-bit blend indices
 V D9W unsigned short
 V H9B
+V%QdH
 V0u@H
 V2f9F,vF
 VApplication001
@@ -3849,10 +3855,8 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
-V_atan2
 V_atan2f
 V_atanf
 V_atod
@@ -3884,7 +3888,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_vscprintf
 V_vsnprintf
@@ -3957,13 +3960,11 @@ VpropBreakablePartData_t
 VsInputSignature_t
 W H9r
 W"f3P
-W%"wchar_t,
-W%RA,
-W%char ,
+W%8-*
 W(tFL
 W,f9G*
-W5\[%
-W=char[%
+W-Gq'
+W=:(,
 W@HcJ
 WARNING: Could not find schema data for helper class for resource type %lld '%short'. (Missing MDiskDataForResourceType metadata or schema data isn'unsigned short loaded?)
 WARNING: LoadAndValidateResourceHeader - FileSystem not initialized!
@@ -3995,10 +3996,7 @@ Writing kdTree with %double triangles
 Wrong alignment %double
 Wz_JT1
 Wz_JT2
-X%jsC
-X-__float128{C
 X2:jH
-X=4J&
 X@8Hc
 XE;l$
 XForm1
@@ -4007,15 +4005,12 @@ XT(0I
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
-Y%$J$
-Y%Lf$
-Y%void&,
-Y->f$
+Y%yP*
+Y-+{'
 Y@/*const char *g_ReflFieldNames[ %double ] =
 Y@Tu	
 YC4tL
 YD$$L
-YD$tL
 YG4tY
 Yd$lL
 You do not delete serialized hulls: it'short impossible
@@ -4026,8 +4021,6 @@ Z@H+r0L
 [A\A]A^A_]A
 [A\A]A^]
 [A\A]]
-[A\A]]A
-[A\A^A_]
 [A\A^]
 [A^A_]
 [CBroadphaseProxyData]
@@ -4047,6 +4040,7 @@ Z@H+r0L
 []A\A]A^A_
 [double[A\A]A^]
 [empty]
+\ ,Hc
 \$0A;]unsigned char
 \$4E1
 \$HfA
@@ -4145,6 +4139,7 @@ __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
 __memset_chk
 __memset_chk@@GLIBC_2.3.4
+__oldschema_object_name
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
@@ -4166,6 +4161,9 @@ adding IH
 ags, so H
 always
 angDragBasis
+anim_name
+anim_name_a
+anim_name_b
 archive
 ate.H
 ation: "H
@@ -4205,6 +4203,7 @@ bWarmStart
 bWarmstart
 baselayer
 bcnbp
+bentnormal
 binary
 binary_bc
 bit %double
@@ -4265,7 +4264,6 @@ cLc#D;char
 cancp
 capsule
 cation.
-ceil@@GLIBC_2.2.5
 ceilf
 ceilf@@GLIBC_2.2.5
 chD;cxD
@@ -4316,6 +4314,7 @@ collisionGroup
 collisionGroup 
 collision_prop
 color
+composite
 configvalue.cpp
 contact_indices
 contact_manifolds
@@ -4334,6 +4333,7 @@ debugphysics
 debugphysiscs
 default
 delete
+delta
 developer
 dissolving
 dl_iterate_phdr
@@ -4345,6 +4345,7 @@ dragBasis
 dy has nH
 dynamic_bodies
 dynamicsH
+e$IcM
 else // %short < 0
 ema H
 encoding
@@ -4367,6 +4368,7 @@ fA;0M
 fA;0trA
 fA;D$
 fA;G0
+fE9e2
 fF94)unsigned short
 false
 ffff.
@@ -4433,6 +4435,7 @@ float RnJointRefl_t::m_flMaxLinearConstraintImpulse
 float RnMaterialRefl_t::m_flDensity
 float RnMaterialRefl_t::m_flFriction
 float RnMaterialRefl_t::m_flRestitution
+float RnMaterialRefl_t::m_flThickness
 float RnPrismaticJointRefl_t::m_flLinearLambda1
 float RnPrismaticJointRefl_t::m_flLinearLambda2
 float RnPrismaticJointRefl_t::m_flLowerLimitLambda
@@ -4541,6 +4544,7 @@ gs=0. DoH
 have signed char TH
 hit: 
 hull{
+i$xCH
 iLc#D;char
 icesH
 id = %double
@@ -4552,7 +4556,6 @@ impactsoft
 in_vehicle
 inertia_boxes
 ing exclH
-ing exclI
 int RnBodyRefl_t::m_nBodyIndexInWorld
 int RnBodyRefl_t::m_nIslandIndex
 int RnBodyRefl_t::m_nMinPositionIterations
@@ -4620,7 +4623,6 @@ l$ M9u
 l$0E;l$@D
 l$8HcC0D
 l$8Ic
-l$:fA
 l$HL9
 l$HfA
 l$`tz
@@ -4659,7 +4661,6 @@ long long[A\A]]
 looping
 lowprecisionuv
 lowprecisionuv1
-luded asH
 m8D;char
 mM+.H
 m_Bounds
@@ -4747,6 +4748,7 @@ m_bNoShadows
 m_bSelected
 m_bSleeping
 m_bTranslationOnly
+m_bUseBlockSolver
 m_bUseCompressedNormalTangent
 m_bUseShadowFastPath
 m_bVisible
@@ -4982,11 +4984,11 @@ m_nWeight2
 m_nWidth
 m_nXLeftDst
 m_nYTopDst
-m_name
 m_nameHash
 m_offsets
 m_orientation
 m_pAabb
+m_pAnimStrayRadii
 m_pAxialEdges
 m_pBlends
 m_pBlendsEnd
@@ -5032,8 +5034,10 @@ m_pQuads
 m_pReverseOffsets
 m_pRods
 m_pRopeEnds
+m_pRopeNodeFlips
 m_pRopes
 m_pRowStarts
+m_pSimdAnimStrayRadii
 m_pSimdFitMatrices
 m_pSimdNodeBases
 m_pSimdQuads
@@ -5187,6 +5191,10 @@ mempool.cpp
 memset
 memset@@GLIBC_2.2.5
 mesh.cpp
+meshUtilsKeyValues
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 mesh_edge_indices
 mesh_face_indices
 mesh_vertex_indices
@@ -5196,14 +5204,20 @@ mmon layH
 model.cpp
 modeldoc0
 modeldoc1
+modeldoc10
 modeldoc2
 modeldoc3
 modeldoc4
 modeldoc5
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
 modellib
 moveable
 multiplayerBreak_t
 n0uzH
+nPATI
 nTries < 10000000
 never
 no (trigH
@@ -5216,12 +5230,14 @@ npc_actor
 npc_scripted
 npcclip
 ntact enH
+nteracti
 nteractiH
 ntersectH
 o0ATA
 o0ATSH
 oHATA
 ody has H
+ohATSH
 on allowH
 on flagsH
 on touchH
@@ -5295,7 +5311,6 @@ pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 pushaway
 pz_clip
-q$xCH
 q%d.%double
 qLocalFrame1
 qLocalFrame2
@@ -5305,7 +5320,9 @@ r H;r(
 r Lost:
 r)H9]
 r2f9B,
+r6LcA
 reaction frequency of signed char soft contact
+recenter_on_parent_bone
 recorded_forces
 recorded_raycasts
 remapping vertex %double[wchar_t%double] invalid: %double->%double >= %double
@@ -5340,6 +5357,7 @@ sdktools/bin/vprojUI.exe
 se shapeH
 sed. TheH
 seq_trans
+sequence_name
 serialize2_v%d.inl
 server
 server 
@@ -5367,6 +5385,7 @@ softbody_indices
 softbody_node_names
 softness of the soft contact
 solid
+source_filename
 sphere
 sqrt@@GLIBC_2.2.5
 sqrtf
@@ -5411,13 +5430,13 @@ t$0x2Hc
 t$4HcK0HcS4
 t$4fH
 t$8Ic
+t$:fA
 t$;H9
-t$>fE
 t$@A\]
-t$@D;k
 t$@tsHc
 t$BfE
 t$D9j
+t$FfE
 t$GH9
 t$H9h
 t$HA\A]A^]
@@ -5431,7 +5450,7 @@ t$XA\]
 t$XLc+D;k
 t$`D;k
 t$`Lc+D;k
-t$`fE
+t$ffE
 t$hLc+H
 t.D9p
 t.fA9
@@ -5499,7 +5518,6 @@ transparent
 transparent %double 
 trigger
 ttIcG
-tuHc~
 tv~4<
 u	[A\A]A^]
 u	[A\]
@@ -5518,8 +5536,6 @@ uQHcs
 ucMcl$
 udL#B
 ude flagH
-ude flagI
-ude: excH
 ude: notH
 uint ConnHierarchyRefl_t::m_nLevelCount
 uint ConnMatrixFillRefl_t::m_nFillCount
@@ -5533,6 +5549,7 @@ uint RnSoftbodyRefl_t::m_nParticleCount
 uint RnSoftbodyRefl_t::m_nSoftbodySerial
 uint RnWorldRefl_t::m_nSimulationFrame
 uint16
+uint16 FeModelRefl_t::m_nAnimStrayRadiusCount
 uint16 FeModelRefl_t::m_nAxialEdgeCount
 uint16 FeModelRefl_t::m_nCollisionPlanes
 uint16 FeModelRefl_t::m_nCollisionSpheres[ 2 ]
@@ -5551,6 +5568,7 @@ uint16 FeModelRefl_t::m_nRodVelocitySmoothIterations
 uint16 FeModelRefl_t::m_nRopeCount
 uint16 FeModelRefl_t::m_nRopeIndexCount
 uint16 FeModelRefl_t::m_nRotLockStaticNodes
+uint16 FeModelRefl_t::m_nSimdAnimStrayRadiusCount
 uint16 FeModelRefl_t::m_nSimdFitMatrixCount[ 3 ]
 uint16 FeModelRefl_t::m_nSimdNodeBaseCount
 uint16 FeModelRefl_t::m_nSimdQuadCount[ 3 ]
@@ -5625,12 +5643,12 @@ uint8 RnWorldRefl_t::m_Simulation
 uint8 RnWorldRefl_t::m_Stabilization
 und D
 unknown
+unsigned __int128 ATL
 unsigned __int128 AggregH
 unsigned __int128(ATI
 unsigned __int128(ATSH
 unsigned __int128@Mesh %double verts %double tris %__float128 diameter
 unsigned char-asH
-unsigned char-asf
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned charcomplex [A\A]]
@@ -5652,9 +5670,10 @@ unsigned short*Hc;1
 unsigned short*HcE
 unsigned short*Lc#D;char
 unsigned short*fA9
+unsigned short+D9s
+unsigned short+Hc4
 unsigned short+IcU
 unsigned short+IcV
-unsigned short+[A\A]A^]
 unsigned short+fA9
 unsigned short/9w t29w0t=1
 unsigned short:HcB
@@ -5669,6 +5688,7 @@ unsigned short=$Hc
 unsigned short>HcB
 unsigned short>IcV
 unsigned short>[A\]
+unsigned short>fA9
 unsigned short?HcB
 unsigned short?[A\]
 unsigned short@@:>u
@@ -5756,13 +5776,13 @@ vphysics_shadow_port
 vrgrp
 vrnmd
 vsurf
-w8AUI
 wHAUI
-wPAUI
+wPf9wN
 wakeup
 walkleft
 walkright
 water
+wchar_t(AUATI
 wcslen
 wcslen@@GLIBC_2.2.5
 weapon
@@ -5780,24 +5800,25 @@ xGHcO
 xHL;{
 xJA;E
 xOHcO
-xo;wX}jHc
+xb;wX}]Hc
 zGuEI
 zSuQHcG
-zrupL
+z_u]A
+zkuiL
 { L;u
 { [A\]
 {0[A\]
+{YIN?
 {}()':
 {}[]()=&, 	
 {}[]=, 	
 |$ E1
 |$ fE
+|$$E1
 |$'H)
 |$(E1
 |$HfA
-|$PA\A]A^]
 |$PfA
-|$lfE
 |)A9\$0
 |*$Hc
 |.4Hc
@@ -5807,8 +5828,7 @@ zrupL
 |9Ic>I
 |:$Hc
 |<unsigned short*L
-}$IcM
-}%Mc'E;__float128
+}!Mc7E;wchar_t
 }>;w$
 }D;w$w?
 }F;w$
@@ -5824,7 +5844,7 @@ zrupL
 ~)A;]
 ~)H97tC
 ~*HcE
-~+HcJ01
+~,HcJ01
 ~/HcE
 ~79wlH
 ~89xt

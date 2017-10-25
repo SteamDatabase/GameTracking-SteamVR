@@ -9,6 +9,7 @@
 	Q?& Q?]6Q?
 	T$8H
 	T$dD
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	nw?}
 	u?L-u?{Pu?\su?
 	v1M)
@@ -673,7 +674,7 @@ $zxvwfD
 -sse3
 -sse4
 -void?Hov?
-.-N|I
+.-__int128}I
 ...&?0Xz?
 ...(tFH
 ...(u&H
@@ -681,10 +682,12 @@ $zxvwfD
 ...?k {?pH{?
 ...\uZA
 ...`9H\unsigned short#9HTt61
+../public/ordered_constructor.h
 ../public/tier1/utlleanvector.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier2/fieldpath.h
+.5nPI
 .;S 2;Bl5;
 .=&T/=
 .>@;0>~
@@ -995,7 +998,6 @@ $zxvwfD
 ;J,~%
 ;Jq=<
 ;L$lu'
-;MDmElementType
 ;T$@}WH
 ;[A\]
 ;\$ u
@@ -1186,8 +1188,10 @@ $zxvwfD
 ?Begin-
 ?D,	?:
 ?Lc\$
+?MDmElementType
 ?Out of Memory
 ?RemoveElement
+?Scaleform::Render::MatrixPoolImpl::HMatrixConstants
 ?[]A\
 ?[]A\H
 ?digestStatus
@@ -1507,6 +1511,7 @@ AddFrameName(%double, '%short') -- frame name already assigned to frame %double;
 AddInputConsumer
 AddKeyInputConsumer
 AddMouseInputConsumer
+AddRef
 Adobe APP14 marker: version %double, flags 0x%04x 0x%04x, transform %double
 AdvanceSlot
 Afff?
@@ -2296,6 +2301,7 @@ D24FS8
 D24X4S4
 D24X8
 D24X8_SHADOW
+D3	E1
 D9(~oH
 D93~F
 D9@4w
@@ -2340,6 +2346,7 @@ D9|$@A
 D9|$T
 D9|$XD
 D9|long
+D;!unsigned short{Hc
 D;2s>A
 D;4$u
 D;<$u
@@ -3431,6 +3438,7 @@ ISchemaSearchTester<CSchemaClassInfo const*>
 ISearchableText
 ISimpleTextSelection
 Ic4$H
+Ic4$H)
 Ic7McO
 Ic@xE
 IcD$ H
@@ -4351,7 +4359,7 @@ Missing PLTE before tRNS
 Missing font "%short" in "%short". Search log:
 MnZ/long double restrict
 ModeSw
-ModelDocCommandSystem001
+ModelDocUtils001
 Mongolian
 MorphCharacterDef, first shape:
 MorphCharacterDef, second shape:
@@ -4529,6 +4537,7 @@ Only compression windows <= 32k supported by PNG
 Only compression windows >= 256 supported by PNG
 Opened temporary file %short
 Opt3A
+Ordered constructor wrapped type has no default constructor.
 Oriya
 Osmanya
 Out of memory processing zTXt chunk
@@ -4920,17 +4929,18 @@ SSE and SSE2 are required.
 STANDARD
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION008
-STEAMHTMLSURFACE_INTERFACE_VERSION_003
+STEAMHTMLSURFACE_INTERFACE_VERSION_004
 STEAMHTTP_INTERFACE_VERSION002
-STEAMINVENTORY_INTERFACE_V001
+STEAMINVENTORY_INTERFACE_V002
 STEAMMUSICREMOTE_INTERFACE_VERSION001
 STEAMMUSIC_INTERFACE_VERSION001
+STEAMPARENTALSETTINGS_INTERFACE_VERSION001
 STEAMREMOTESTORAGE_INTERFACE_VERSION014
 STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMUGC_INTERFACE_VERSION009
+STEAMUGC_INTERFACE_VERSION010
 STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
 STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V001
+STEAMVIDEO_INTERFACE_V002
 STRING_BEGIN
 STRING_BREAK
 STRING_CLEARDISPLAY
@@ -6282,7 +6292,6 @@ Scaleform::Mutex_AreadyLockedAcquireInterface
 Scaleform::NewOverrideBase<2>
 Scaleform::NewOverrideBase<323>
 Scaleform::NewOverrideBase<326>
-Scaleform::NewOverrideBase<327>
 Scaleform::NewOverrideBase<328>
 Scaleform::NewOverrideBase<329>
 Scaleform::NewOverrideBase<338>
@@ -6646,7 +6655,6 @@ Scaleform::Render::Matrix3x4Ref<float>
 Scaleform::Render::Matrix4x4<float>
 Scaleform::Render::Matrix4x4Data<float>
 Scaleform::Render::Matrix4x4Ref<float>
-Scaleform::Render::MatrixPoolImpl::HMatrixConstants
 Scaleform::Render::MatrixPoolImpl::MatrixPool
 Scaleform::Render::MatrixState
 Scaleform::Render::MemoryBufferImage
@@ -6945,7 +6953,7 @@ SteamMatchMaking009
 SteamMatchMakingServers002
 SteamNetworking005
 SteamUser019
-SteamUtils008
+SteamUtils009
 StopSound
 StoreRegister[%double] - register out of bounds!
 String %double: ref:%double %short
@@ -7100,6 +7108,7 @@ T$xurA
 T+<E1
 T+<fF
 T2?Zp2?
+T5&gN
 T?.GT?
 TABSTOPS
 TAB_CHILDREN_CHANGE
@@ -7547,7 +7556,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -7574,7 +7582,6 @@ V_strtok
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_vsnprintf
 V_vsnprintfRet
@@ -7600,23 +7607,18 @@ V}?N]}?
 V~?cX~?
 W tIH
 W%	short;M@
-W%signed char+>
 W(H9P
 W)?h.+?'
-W-SC^
-W-W%=
-W-iB>
-W-q+>
+W-wchar_t&=
 W0+W(
 W0+W(H
 W0L9V0t
 W0[H)
-W5B$=
-W5LC^
+W5LG^
+W5b%=
 W8t4L
-W=#F^
-W=+!=
-W=EC^
+W=K"=
+W=SG^
 W?>NX?
 W@H#B
 WARNING: CDirWatcher not implemented
@@ -7675,7 +7677,8 @@ Write to EMS failed
 Write to XMS failed
 Writing zero-length unknown chunk
 Wrong JPEG library version: library is %double, caller expects %double
-X-signed char`F
+X-MbF
+X-zo"
 X0~tA
 X360_DST16
 X360_DST24
@@ -7725,10 +7728,13 @@ Xl$(D
 Xl$(D9l$$A
 Xt$(E
 X|$ D9t$
-Y%Bh8
-Y%W,Q
-Y-y3Q
-Y=Kh8
+Y%!}I
+Y-)5Q
+Y-4g8
+Y-qi8
+Y5YS:
+Y5ci8
+Y=HT:
 Y>|-Z>
 YD$ L
 YD$$H
@@ -7909,10 +7915,8 @@ Z|?4^|?Mb|?bf|?tj|?
 \$pt5
 \$pt:H
 \$puaH
-\%{<>
 \(?...complex (?
-\-4{$
-\-76>
+\-W7>
 \.??C/?
 \>/8w>
 \?x9\?
@@ -7962,7 +7966,6 @@ Z|?4^|?Mb|?bf|?tj|?
 ]unsigned char?Nlh?
 ]~?Q_~?
 ^ unsigned short+H
-^-bP^
 ^>|6`>...
 ^?bool|_?
 ^[A\A]]
@@ -8016,9 +8019,9 @@ _ZN17CThreadSpinRWLock11UnlockWriteEv
 _ZN17CThreadSpinRWLock16SpinLockForWriteEy
 _ZN17CThreadSyncObject8WaitImplEj
 _ZN17CThreadSyncObjectD2Ev
+_ZN6CFiber16AllocPooledFiberENS_13SizeBuckets_tEm
+_ZN6CFiber21ReachedZeroReferencesEv
 _ZN6CFiber25SetThreadFiberMemoryRangeEm
-_ZN6CFiberC1Ev
-_ZN6CFiberD1Ev
 _ZNSs12_M_leak_hardEv
 _ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
 _ZNV16CThreadFastMutex4LockEyj
@@ -8458,7 +8461,6 @@ char += U * vec4(0.0, -0.392, 2.017, 0.0);
 char += V * vec4(1.596, -0.813, 0.0, 0.0);
 char []A\
 char">] #>&
-char([A\]
 char>I3d> 
 char?+0c?
 charAt
@@ -8934,6 +8936,7 @@ float;0tr
 float;C.w
 float;T$>H
 float? )__float128?
+float@Scaleform::NewOverrideBase<327>
 floodFill
 floor
 floor0_exportbundle
@@ -10165,6 +10168,7 @@ numberOfFramePools
 numbers out of order in {} quantifier
 nxH;oxsRH
 nxv#H
+o5^$&
 o8ATUH
 oD$ float
 oD$@fD
@@ -10492,6 +10496,7 @@ r(AUATU1
 r/L;unsigned long
 r0H9p0tB
 r0H9p0tC
+r6LcA
 r8H9p8u
 r?+&r?
 r?char+r?
@@ -11443,10 +11448,17 @@ unsigned __int128 ATI
 unsigned __int128 ATUH
 unsigned __int128 ATUSH
 unsigned __int128 KPBf
-unsigned __int128%?5&
+unsigned __int128%J.&
+unsigned __int128%L&&
+unsigned __int128%M$&
+unsigned __int128%W)&
+unsigned __int128%_:&
 unsigned __int128(ATI
-unsigned __int128(ATSH
 unsigned __int128(ATUSH
+unsigned __int128=Q(&
+unsigned __int128=Q_#
+unsigned __int128=Y9&
+unsigned __int128=bc#
 unsigned __int128@ATI
 unsigned __int128@ATU
 unsigned __int128\$@float
@@ -11519,18 +11531,18 @@ unsigned short%;W(wchar_t%H
 unsigned short%<	unsigned short&<
 unsigned short&&?TXt?
 unsigned short&[]A\
-unsigned short'D;5n
+unsigned short'D;5
 unsigned short'H9P u
 unsigned short(H9X
 unsigned short(H9^
 unsigned short(HcO
-unsigned short);=bool/
 unsigned short)IcD$
 unsigned short*HcC
 unsigned short*complex #H
 unsigned short+BE1
 unsigned short+BfB
 unsigned short+H9r
+unsigned short+Hc4
 unsigned short+Jc4
 unsigned short-<	unsigned short
 unsigned short-H;D$8s&
@@ -11897,7 +11909,6 @@ w5L;unsigned long
 w6I;\$
 w8AUATUH
 w8AUATUSH
-w8AUI
 w8AUL
 w8L;cxwzH
 wBM;l$

@@ -12,6 +12,7 @@
 		m_ints = 
 		m_stringVal	= "Hi.",
 	&	J	unsigned char	
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	[builtin#%double]:
 	m_NuggetName = "TableName!",
 	m_RawStruct1 = 
@@ -149,6 +150,7 @@ $[]A\
 ...*u(float
 .../u-H
 ../_generated_code/vscript/release/linuxsteamrt64/../../../../vscript/vscript_nuggets.cpp
+../public/ordered_constructor.h
 ../public/tier1/utlrbtree.h
 ./?.lua;/usr/local/share/luajit-2.0.4/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua
 ./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so
@@ -174,6 +176,7 @@ $[]A\
 .rela.plt
 .rodata
 .shstrtab
+.steam
 .strtab
 .symtab
 .tbss
@@ -199,7 +202,7 @@ $[]A\
 42HcU
 4fff>fff>fff>fff>
 6H92t%H
-8@unsigned short:H
+8@unsigned short>H
 8VBKVt6HcF
 8[A\A]A^A_]
 8[A\A]]
@@ -371,6 +374,7 @@ A\A]A^A_]A
 A\A]A^]
 A\A]]
 A]A^A_
+AddRef
 AllocateNugget
 AnimationSystemUtils_001
 AnimationSystem_001
@@ -473,7 +477,6 @@ Constructor called without signed char class constructor - internal error?
 CreateInterface
 CreateNonBlockingSocket
 Cross
-D#-short const-
 D$ H9
 D$$L)
 D$(E1
@@ -751,7 +754,7 @@ MeshUtils001
 Message count limit of %double hit. Subsequent duplicate messages will be squelched.
 Missing breakpoint data ( breakpoint with ID %s. )
 Missing breakpoint with given ID %s.
-ModelDocCommandSystem001
+ModelDocUtils001
 MrkBJ
 Must use luaL_newstate() for 64 bit target
 NYI: cannot call this C function (yet)
@@ -774,6 +777,7 @@ No function binding found!
 No more nugget handles! Increase NUGGET_HANDLE_BITS...
 Normalized
 Not sure how we got here.
+Ordered constructor wrapped type has no default constructor.
 P'A;U
 P?fmod
 PANIC: unprotected error in call to Lua API (
@@ -970,6 +974,7 @@ VScript Nugget Table: used slots (%double/%double), avg serial (%double/%double)
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
+V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
 V_IsAbsolutePath
@@ -982,7 +987,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -1008,7 +1012,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_vsnprintf
 V_vsnprintfRet
@@ -1410,7 +1413,6 @@ elseif
 enabled
 encoding
 errno
-error
 error in error handling
 error loading module '%short' from file '%short':
 errorEpcall
@@ -1650,6 +1652,7 @@ luaL_unref
 luaL_where
 lua_VALVE_HOOK_ALLOCATIONS
 lua_VALVE_OVERRIDE_MMAP
+lua_assert_on_error
 lua_atpanic
 lua_call
 lua_checkstack
@@ -1977,7 +1980,6 @@ strrchr
 strrchr@@GLIBC_2.2.5
 strstr
 strstr@@GLIBC_2.2.5
-strtod@@GLIBC_2.2.5
 strtol
 strtol@@GLIBC_2.2.5
 strtoul

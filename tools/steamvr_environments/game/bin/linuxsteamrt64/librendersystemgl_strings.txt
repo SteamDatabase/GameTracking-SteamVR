@@ -7,6 +7,7 @@
 	 or unterminated input element such as: "STRING["]
 	%short at offset %double, 
 	>Nsj?
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	long long signed char::* size allowed : %double Requested : %double
         %3d %3d %3d %3d %3d %3d %3d %3d
         %4u %4u %4u %4u %4u %4u %4u %4u
@@ -53,13 +54,13 @@
  H92t
  HcC`L
  HcClI)
- IcG`L
- IcGlI)
+ IcD$`L
+ IcD$lI)
  IcT$
+ Lc[PH)
+ Lc[hH)
+ Lc[lH
  LinePos:
- Mc_PH)
- Mc_hH)
- Mc_lH
  ReadToken overflow
  SRGB
  [%.3f server clamped to %.3f]
@@ -179,7 +180,7 @@ $woL)
 (end of input).
 (unknown)
 )9IYiy
-)D$ ~UL
+)D$ ~SL
 ** CGLMQuery::GetData: can'unsigned short GetData before issue/start/stop
 *** %short "%short" in %short does not follow the 0..N format!
 *** %short "%short" in %short has max(%double) > 254!
@@ -250,16 +251,16 @@ $woL)
 *** VB "%short": Tried to lock twice without an unlock!
 *** vfx_common.cpp(1147): Error opening file "%short"!
 *** vfx_common.cpp(1224): Error opening file "%short"!
-*** vfx_common.cpp(4877): Error opening file "%short"!
-*** vfx_common.cpp(5027): Error opening include file in features list"%short"!
-*** vfx_common.cpp(5066): Error opening file "%short"!
-*** vfx_common.cpp(5295): Error opening file "%short"!
-*** vfx_common.cpp(5329): Error opening file "%short"!
-*** vfx_common.cpp(5368): Error opening file "%short"!
-*** vfx_common.cpp(5472): Error opening file "%short"!
-*** vfx_common.cpp(5927): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
-*** vfx_common.cpp(7062): Programmer Error! NULL pointer passed into function!
-*** vfx_common.cpp(7088): Programmer Error! Non feature rule found in feature rule array!
+*** vfx_common.cpp(4882): Error opening file "%short"!
+*** vfx_common.cpp(5032): Error opening include file in features list"%short"!
+*** vfx_common.cpp(5071): Error opening file "%short"!
+*** vfx_common.cpp(5300): Error opening file "%short"!
+*** vfx_common.cpp(5334): Error opening file "%short"!
+*** vfx_common.cpp(5373): Error opening file "%short"!
+*** vfx_common.cpp(5477): Error opening file "%short"!
+*** vfx_common.cpp(5932): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
+*** vfx_common.cpp(7067): Programmer Error! NULL pointer passed into function!
+*** vfx_common.cpp(7093): Programmer Error! Non feature rule found in feature rule array!
 *** vfx_common.cpp(81): __int128 noexcept'unsigned short call VfxInit() more than once!
 *** vfx_common.cpp(909): Error opening file "%short"!
 *** vfx_common.cpp(91): g_pFullFileSystem must be set up before calling VfxInit!
@@ -359,6 +360,7 @@ $woL)
 -unknown source-
 -unknown source-(
 .../u-H
+../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
 ../public/tier0/tslist.h
@@ -463,8 +465,6 @@ $woL)
 :[tLL
 ;*3$"
 ;*unsigned short*1
-;59l:
-;_addons
 ;wchar_t`v.L
 <	McO
 <	w.1
@@ -522,6 +522,7 @@ $woL)
 ?LZMAt
 ?Out of Memory
 ?UNKNOWNTYPE
+?_addons
 ?u='@
 ?|7m=U
 ?}unsigned short%L
@@ -566,7 +567,7 @@ A+_$Hc
 A+u$Hc
 A9G }
 A9L$@
-A9M`~.I
+A9M`~6I
 A9W8L
 A9^\~*A
 A9_@~8L
@@ -702,6 +703,7 @@ A]A^]
 AbandonOutstandingStreamingRequest
 Actually dude, we didn'unsigned short seem to be expecting anything here, or at least
 AddMultipleToTail
+AddRef
 AddToTailGetPtr
 Adobe APP14 marker: version %double, flags 0x%04x 0x%04x, transform %double
 Align
@@ -799,13 +801,13 @@ C<9C8tAE
 C<vNH
 C@;CP
 C@H;CHs
-CAtomicManipulator<CCopyableUtlVector<VsInputSignatureElement_t> >
 CAtomicManipulator<CResourceArray<SequenceFloatParam_t> >
 CAtomicManipulator<CResourceArray<SheetFrameImage_t> >
 CAtomicManipulator<CResourceArray<SheetSequenceFrame_t> >
 CAtomicManipulator<CResourceArray<SheetSequence_t> >
 CAtomicManipulator<CResourcePointer<Sheet_t> >
 CAtomicManipulator<CResourceString>
+CAtomicManipulator<CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> > >
 CAtomicManipulator<Vector2D>
 CAtomicManipulator<Vector4D>
 CB: %u buffers, %.2f MB
@@ -816,7 +818,6 @@ CBaseIntrospectedTypeManager:  Bindings don'unsigned short match.
 CBaseIntrospectedTypeManager:  Missing TYPEMETA MDiskDataForResourceType
 CBlendStateCreator
 CCIR601 sampling not implemented yet
-CCMemberFunctorCallback1
 CColorFormatBase
 CColorFormatGL
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
@@ -827,7 +828,6 @@ CCompileTargetExprStackMachineBuilder
 CConCommandMemberAccessor<CRenderDeviceBase>
 CConCommandMemberAccessor<CTextureManagerBase>
 CConstantBufferGL
-CCopyableUtlVector
 CCountedStringPool
 CDefaultAccessor
 CDefaultIntrospectedTypeManager<2019914870ull, TextureHeader_t>
@@ -896,6 +896,7 @@ CMemberFunctor7<CSOAContainer*, void (CSOAContainer::*)(int, int, int, int, CSOA
 CMemberFunctor7<CSOAContainer*, void (CSOAContainer::*)(int, int, int, int, int, int, int), int, int, int, int, int, int, int, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 CMemberFunctor8<CSOAContainer*, void (CSOAContainer::*)(int, int, int, int, CSOAContainer const*, int, int, int), int, int, int, int, CSOAContainer const*, int, int, int, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 CMemberFunctor9<CSOAContainer*, void (CSOAContainer::*)(int, int, int, int, int, int, int, Vector, bool), int, int, int, int, int, int, int, Vector, bool, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
+CMemberFunctorCallback1
 CMemberFunctorCallback1<CRenderDeviceGL, GLMContext*, CFuncMemPolicyNone>
 CMemoryStack %short
 CMyUnknownImp
@@ -979,18 +980,18 @@ CSchemaEnumBindingBase
 CSchemaFieldVisitor
 CSchemaFieldVisitorInfoMap<CExtrefTraversal>
 CSchemaInstallCallback
-CSchemaManipulator<CCopyableUtlVector<VsInputSignatureElement_t> >
 CSchemaManipulator<CResourceArray<SequenceFloatParam_t> >
 CSchemaManipulator<CResourceArray<SheetFrameImage_t> >
 CSchemaManipulator<CResourceArray<SheetSequenceFrame_t> >
 CSchemaManipulator<CResourceArray<SheetSequence_t> >
 CSchemaManipulator<CResourcePointer<Sheet_t> >
 CSchemaManipulator<CResourceString>
+CSchemaManipulator<CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> > >
 CSchemaManipulator<Vector2D>
 CSchemaManipulator<Vector4D>
 CSchemaRegistration
 CSchemaRegistration_rendersystemgl
-CSchemaUtlVectorManipulator<CCopyableUtlVector<VsInputSignatureElement_t>, VsInputSignatureElement_t>
+CSchemaUtlVectorManipulator<CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >, VsInputSignatureElement_t>
 CSchemaVisitorBase
 CSchemaVisitorInfoMapBase
 CSheetHashConstructor
@@ -1037,6 +1038,7 @@ CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
 CUtlStackMachineBuilder
 CUtlStreamBuffer does not support TEXT_BUFFER'short use CUtlBuffer
+CUtlVector
 CVertexBufferBase
 CVertexBufferGL
 CVertexShaderGL
@@ -1112,6 +1114,7 @@ CubeMapFace_t
 D$ A#
 D$ H9
 D$ H9D$
+D$ L9
 D$$-long long
 D$(-Hq
 D$(E1
@@ -1121,16 +1124,19 @@ D$(I;
 D$(IcT$
 D$0A\A]A^]
 D$0H9
+D$0L9
 D$8D+|$8+D$ 
 D$8E1
 D$8I9
 D$8L9
 D$@A9G@u
 D$@E1
+D$@H9
 D$@I9
 D$@L9
 D$DA9GDu
 D$D[A\]
+D$HH9
 D$HfA
 D$PM!
 D$\M9
@@ -1161,8 +1167,7 @@ D84;unsigned short
 D8T;4
 D9+~/L
 D93~"Mc/E;unsigned __int128
-D9=)^:
-D9=unsigned long long\:
+D9=	unsigned short:
 D9A$t
 D9F<~
 D9L$0A
@@ -3547,9 +3552,11 @@ H9GHt
 H9O0r
 H9W8t	]
 H;0tGH
-H;=B)7
-H;=Z)7
-H;=\(7
+H;=(E7
+H;=6??
+H;=@E7
+H;=G)?
+H;=G*?
 H;B(uLL
 H;C r
 H;CHs
@@ -3579,6 +3586,7 @@ HcC$9
 HcC$H
 HcC8H
 HcC@H
+HcCdD
 HcCdE)
 HcChI)
 HcE H
@@ -3664,19 +3672,19 @@ ITSHashConstructor<InputLayoutGL_t*>
 ITSHashConstructor<void*>
 IToolsResourceListener
 IUnknown
+Ic4$H)
 Ic7McO
 Ic@xE
 IcD$,A
 IcD$,Hc
 IcD$0
+IcD$PH)
+IcD$dE)
+IcD$hI)
 IcE$H
 IcF0D
 IcF0H
 IcG(H
-IcGPH)
-IcGdD
-IcGdE)
-IcGhI)
 IcL$XH9
 IcT$ 
 IcT$8
@@ -3885,6 +3893,7 @@ Lc6E9
 Lc7E)
 Lc7E1
 Lc[PD
+Lc[`E)
 Lc`4I
 Lcc D;c0t<D
 Lcc4J
@@ -3948,13 +3957,13 @@ Maximum device access threads: %u
 Maximum supported image dimension is %u pixels
 MbP?+
 Mc&E;float
+Mc'E;__float128
 Mc,$D
 Mc,$E;l$
 Mc.E;__int128
 Mc/E;unsigned __int128
 McD$<B
 McH<B
-Mc_`E)
 McgXO
 McnPH
 Mc|$P
@@ -4003,7 +4012,7 @@ Missing PLTE before hIST
 Missing PLTE before tRNS
 Missing basic OpenGL v1.0 -> v2.0 required OpenGL functionality.
 Missing token
-ModelDocCommandSystem001
+ModelDocUtils001
 Multiply defined variable "%short"
 N [A\A]A^A_]
 N$]9G$
@@ -4089,6 +4098,7 @@ OpenGL
 OpenGL %short (%08x)
 Opened temporary file %short
 OpenfD
+Ordered constructor wrapped type has no default constructor.
 Out of memory processing zTXt chunk
 Out of memory while processing sCAL chunk
 Out of memory while processing sPLT chunk
@@ -4260,6 +4270,7 @@ RENDER_PRIM_6_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_7_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_8_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_9_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_COMPUTE_SHADER
 RENDER_PRIM_HETEROGENOUS
 RENDER_PRIM_INSTANCED_QUADS
 RENDER_PRIM_LINES
@@ -4325,6 +4336,7 @@ RenderPrimitiveType_t
 RenderService_001
 RenderSlotType_t
 RenderSystem
+RenderSystem/AllowSampleableDepthInVr
 RenderSystem/AlwaysPreloadTexturesInGame
 RenderSystemSurface001
 Requested feature was omitted at compile time
@@ -4649,7 +4661,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -4663,7 +4674,6 @@ V_fmodf
 V_fopen
 V_fprintf
 V_localeconv
-V_log2
 V_logf
 V_pow
 V_powf
@@ -4682,7 +4692,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_vscprintf
 V_vsnprintf
@@ -4703,6 +4712,7 @@ Vfx Error: attribute type does not exist or does not support attribute literals.
 Vfx Error: attribute unsupported or requires signed char parameter binding.
 Vfx file "%short" has both compute shader and other shaders. Compute shaders must be the only shader type in signed char vfx file.
 VfxFindOrBuildFeatureComboData
+VfxFindOrBuildFeatureComboVertexShaderInputSignatureStep1
 VfxInit
 Video Card %short (%04x : %04x)
 Virtual array controller messed up
@@ -5135,6 +5145,7 @@ e$~sH
 eikonal
 error in user chunk
 exit@@GLIBC_2.2.5
+fA9\$
 fA;0M
 fA;0trA
 fB;D:
@@ -5166,14 +5177,14 @@ float4x4
 float;C.w
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(122): Unknown gamma type "%short"!
-floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2097): Error loading %short
-floatbitmap.cpp(2120): Error! Unknown file type for %short
-floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(306): Conversion not supported yet!
-floatbitmap.cpp(406): Conversion not supported yet!
-floatbitmap.cpp(842): Unsupported color format "%short", skipping!
+floatbitmap.cpp(124): Unknown gamma type "%short"!
+floatbitmap.cpp(2096): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2107): Error loading %short
+floatbitmap.cpp(2130): Error! Unknown file type for %short
+floatbitmap.cpp(2149): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(308): Conversion not supported yet!
+floatbitmap.cpp(408): Conversion not supported yet!
+floatbitmap.cpp(844): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -5815,6 +5826,7 @@ outColor = vec4( 0.0, 0.0, 0.0, 1.0 );
 p Icx`F
 pA*** VB "%short": Tried to lock too much memory for subregion (%double>%double)!
 pE9e\
+pXA]A^]
 p[A\A]A^A_]
 p[A\A]A^]
 p[A\]
@@ -5830,7 +5842,6 @@ png_set_gamma screen gamma
 position
 positiont
 pow@@GLIBC_2.2.5
-powf@@GLIBC_2.2.5
 preload2DTex
 preload3DTex
 preloadCube
@@ -5861,6 +5872,7 @@ puwUH
 q$D9w$u
 queued
 r0[A\]
+r6LcA
 r_frame_sync_enable
 r_fullscreen_gamma
 r_gpu_mem_stats
@@ -6056,18 +6068,18 @@ tessfactor
 texCoords = vec4( inTexCoords, 0.0, 0.0 );  
 texcoord
 text compression mode is out of range
-texturebase.cpp(1297):Error loading texture: %short
-texturebase.cpp(2088):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2099):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2110):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2131):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2142):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2153):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2164):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2185):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2196):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2207):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2218):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(1299):Error loading texture: %short
+texturebase.cpp(2090):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2101):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2112):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2133):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2144):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2155):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2166):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2187):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2198):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2209):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2220):ResourceHandleToData( %short ) failed! Falling back to error texture!
 tfUMc
 tgE+long double D9
 tgHcS
@@ -6122,8 +6134,6 @@ unknown
 unknown compression method
 unknown critical chunk
 unknown header flags set
-unsigned __int128(ATSH
-unsigned __int128@TEX read request: %double KB; %short
 unsigned __int128`-VUUUH
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
@@ -6138,6 +6148,7 @@ unsigned short"[A\A]A^]
 unsigned short#H9q
 unsigned short%[A\]
 unsigned short*:E1
+unsigned short+Hc4
 unsigned short+HcO
 unsigned short,Lce
 unsigned short-[A\]
@@ -6166,11 +6177,11 @@ vendor id: 0x%long long
 vfx_common.cpp
 vfx_common.cpp(3362): Error! Ref count !=0 for static combo data cache entry!
 vfx_common.cpp(3449): Error! Ref count !=0 for static combo data cache entry!
-vfx_common.cpp(6598): Error opening file %short
-vfx_common.cpp(6672): VCS %short Unserialize failed
-vfx_common.cpp(6686): VCS %short Unserialize hit EOF
-vfx_common.cpp(6824): Error opening file %short
-vfx_common.cpp(6831): Error calling SkipAndValidateVCSHeader() for %short
+vfx_common.cpp(6603): Error opening file %short
+vfx_common.cpp(6677): VCS %short Unserialize failed
+vfx_common.cpp(6691): VCS %short Unserialize hit EOF
+vfx_common.cpp(6829): Error opening file %short
+vfx_common.cpp(6836): Error calling SkipAndValidateVCSHeader() for %short
 vfx_compile_target_expr.cpp(106): : Failed to create lexer from "%short"
 vfx_compile_target_expr.cpp(114): : Failed to create token stream from "%short"
 vfx_compile_target_expr.cpp(122): : Failed to create parser from "%short"
@@ -6197,13 +6208,12 @@ vtexE
 vtexE1
 vtexH
 vtexu
-w8AUI
 w9D;kPD
 wDA;X
 wPATSH
 wchar_t trH
 wchar_t unsigned short|H
-wchar_t#L;}
+wchar_t(AUATI
 wchar_t<)O )OH
 wchar_t=fD;unsigned long"
 wcslen
@@ -6213,7 +6223,9 @@ wx=%double, wy=%double, long long restrict=%double, unsigned long long restrict=
 xGHcO
 xL;wchar_t\
 xcHcW
+xhE;u
 z5u3I
+zDTEX read request: %double KB; %short
 zEuCH9
 zlib memory error
 zlib stream error

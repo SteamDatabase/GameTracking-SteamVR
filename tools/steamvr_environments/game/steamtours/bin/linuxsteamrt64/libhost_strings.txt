@@ -1,4 +1,4 @@
-	!O3M
+	!O3H
 	CODE_SIZE
 	None
 	Private script scope:
@@ -7,6 +7,7 @@
 	Rename one of the keyfieldnames to fix the error.
 	TYPE_BOOL
 	TYPE_ENUM
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	enum_type
 	extension
 	host_loss
@@ -31,6 +32,7 @@
   Problem     : Enum value did not match field type:
   Problem     : Field is not the right type for this message:
  #GameUI_Disconnect_ExitingEngine
+ #GameUI_Disconnect_InternalError
  #GameUI_Disconnect_SnapshotError
  #GameUI_Disconnect_SoundsMessage
  #GameUI_Disconnect_SteamIDBanned
@@ -91,8 +93,10 @@
 !#GameUI_ServerRejectFailedChannel
 !CNETMsg_SpawnGroup_ManifestUpdate
 !NETWORK_DISCONNECT_HLTVRESTRICTED
+!NETWORK_DISCONNECT_INTERNAL_ERROR
 !NETWORK_DISCONNECT_LOOPDEACTIVATE
 !NETWORK_DISCONNECT_REJECT_NOLOBBY
+!NETWORK_DISCONNECT_REMOTE_TIMEOUT
 !host_framestarttime_std_deviation
 !tQE1
 " because it is missing required fields: 
@@ -168,6 +172,7 @@
 "CNETMsg_SpawnGroup_SetCreationTick
 "MutableRawRepeatedField"
 "NETWORK_DISCONNECT_HLTVUNAVAILABLE
+"NETWORK_DISCONNECT_REMOTE_BADCRYPT
 "NETWORK_DISCONNECT_SERVER_SHUTDOWN
 "NETWORK_DISCONNECT_STEAM_DENY_MISC
 "NETWORK_DISCONNECT_STEAM_OWNERSHIP
@@ -207,6 +212,7 @@
 #GameUI_Disconnect_SteamVAC
 #GameUI_Disconnect_TickMessage
 #GameUI_Disconnect_TimedOut
+#GameUI_Disconnect_Unusual
 #GameUI_Disconnect_User
 #GameUI_Disconnect_UserCmd
 #GameUI_ServerAuthDisabled
@@ -276,6 +282,7 @@ $woL)
 %#GameUI_Disconnect_ConnectionOverflow
 %#GameUI_Disconnect_ConnectionTimedout
 %#GameUI_Disconnect_CreateServerFailed
+%#GameUI_Disconnect_LocalProblem_Other
 %#GameUI_Disconnect_ReplayIncompatible
 %#GameUI_Disconnect_ServerIncompatible
 %#GameUI_Disconnect_ServerInfoOverflow
@@ -292,6 +299,7 @@ $woL)
 %A %bool %double
 %NETWORK_DISCONNECT_CONNECTION_FAILURE
 %NETWORK_DISCONNECT_DISCONNECT_BY_USER
+%NETWORK_DISCONNECT_LOCALPROBLEM_OTHER
 %NETWORK_DISCONNECT_REJECT_BADPASSWORD
 %NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
 %NETWORK_DISCONNECT_REJECT_LANRESTRICT
@@ -342,6 +350,7 @@ $woL)
 &#GameUI_Disconnect_InvalidMessageError
 &#GameUI_Disconnect_NoPeerGroupHandlers
 &#GameUI_Disconnect_PureServer_Mismatch
+&#GameUI_Disconnect_RemoteProblem_Other
 &#GameUI_ServerRejectInvalidReservation
 &NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
 &NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
@@ -371,6 +380,7 @@ $woL)
 'SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES
 'out_location' must not be NULL
 (#GameUI_Disconnect_LoopLevelLoadActivate
+(#GameUI_Disconnect_RemoteProblem_Timeout
 (*%short*), 
 (9s ~@H
 (A9] 
@@ -383,9 +393,8 @@ $woL)
 (E9g 
 (E9g ~jH
 (E9l$ 
+(E9} 
 (Existing entry.)
-(HcH,I
-(HcH4I
 (Lcg D;g0D
 (Lcg8D;gHD
 (Module names differ: existing '%short' != requested '%short')
@@ -393,6 +402,7 @@ $woL)
 (NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
 (NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
 (NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
+(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
 (NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM
 (NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
 (None)
@@ -405,17 +415,22 @@ $woL)
 (null)
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using signed char leading '.'(i.e., "(.
 )#GameUI_Disconnect_PureServer_ClientExtra
+)#GameUI_Disconnect_RemoteProblem_BadCrypt
 )#GameUI_Disconnect_SteamDeny_BadAntiCheat
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+)D$PA
 )NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
 )NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
 )NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
+*#GameUI_Disconnect_LocalProblem_ManyRelays
 ***************** ERROR: Cannot call CAppSystemDict::AddSystems without initializing first!
 *LANGUAGE*
 *NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
+*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
 *NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
 *NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
 *NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
+*xNIH
 +++ %short: 
 +++ %short[%double]: 
 +C$9C
@@ -441,9 +456,11 @@ $woL)
 ,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
 ,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 ,NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED
+,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
 ,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 ,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
 ,NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE
+-#GameUI_Disconnect_LocalProblem_NetworkConfig
 --  Increase the size of the resource stream   --
 --  Need %double bytes, but only have %double bytes
 --- %short: 
@@ -454,6 +471,7 @@ $woL)
 ----Script Dump for entity "%short"
 -> %short
 -NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
+-NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG
 -NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
 -VUUU
 -addon_path
@@ -484,9 +502,13 @@ $woL)
 -use_tier2_bundle
 -use_tier3_bundle
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+.%7=%
+.%]>%
 .../u-H
+...>Unserialization Error: %short
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
+../../public/ordered_constructor.h
 ../../public/tier1/utlrbtree.h
 ../gamecore/igamesystem.cpp
 ../public/appframework/tier1app.h
@@ -540,6 +562,7 @@ $woL)
 .strtab
 .symtab
 .text
+/#GameUI_Disconnect_RemoteProblem_CertNotTrusted
 /I9D$
 /content/
 /game/
@@ -558,17 +581,22 @@ $woL)
 0[]A\A]A^
 0x%016llX
 1 1 1
+1DBlend
 2#.CSVCMsgList_UserMessages.usermsg_t
+2#GameUI_Disconnect_RemoteProblem_TimeoutConnecting
 2H90u
 2WAY_0( 
 2WAY_1( 
 3+C$H
 33333333H
 33333333H)
+33s?(knNFound max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
 3E8 u
 3[A\A]A^]
+4$IcT$
 42HcU
 4BfD94A|
+4H;H 
 4fff>fff>fff>fff>
 4vf;T
 6H92t%H
@@ -577,13 +605,17 @@ $woL)
 7At!H
 7[A\A]A^]
 8!unsigned short&H
+8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
 89w float restrict;wchar_t
 8HcC`H
 8LcgPL
+8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
 8VBKVt6HcF
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
+9=...)V
+9=[*V
 9G ti+G$H
 9S unsigned short{+S$H
 9w UH
@@ -595,13 +627,14 @@ $woL)
 :[tLL
 ;*3$"
 ;*unsigned short*1
-;Hc5)
+;Hc5$RY
 ;K(}&H
 ;S(}+H
 ;[A\]
 ;mempool.cpp
 ;wX|#
-<	uSL
+<	u@UH
+<	u[L
 <	w.1
 <	woD
 <!-- kv3 encoding:%short:version{%short} format:%short:version{%short} -->
@@ -640,6 +673,7 @@ $woL)
 <none>
 <null>
 <unknown hash %u>
+<unknown>
 <unsigned short&<<unsigned short*`<S
 <}tI<{uO
 === %sEntity List Summary (%short) ===
@@ -652,7 +686,7 @@ $woL)
 >@unsigned short<H
 >A9U$
 ?Mct$ 
-@  0x%08X %short,
+?model.cpp
 @7tHA
 @8A]A^]
 @:0tn
@@ -663,6 +697,7 @@ $woL)
 @P<*u
 @P<*unsigned short
 @P</unsigned short
+@WARNING: Trying to create signed char CRenderContextPtr without signed char valid context.
 @[A\A]A^]
 @[A\]
 @pA\]
@@ -679,6 +714,7 @@ A+F$H
 A+F$Lc
 A+G$H
 A+G$Lc
+A+M$Hc
 A+T$$Hc
 A+U$A
 A+U$Hc
@@ -692,7 +728,7 @@ A+]$Hc
 A+^$Hc
 A+t$$Hc
 A+u$Hc
-A0fD+"E
+A0fD+ E
 A8Lck D;k0
 A9D$ 
 A9D$(
@@ -700,9 +736,10 @@ A9G }
 A9T$$
 A9]PI
 A9_@~8L
+A;EP~
 A;G A
-A;GP~
-A;W`~IA
+A;U`~IA
+A;Wh|
 A;\$ A
 A;\unsigned char|
 A;](|
@@ -713,7 +750,6 @@ A;^ }+I
 A;^(}#I
 A;t$(
 A;t$0
-A;unsigned char volatile|
 A;w$t
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %double!
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!
@@ -771,13 +807,13 @@ AVAUL
 AVAULc
 AVAUM
 AWAVA
+AWAVAU
 AWAVAUA
 AWAVAUATA
 AWAVAUATE
 AWAVAUATE1
 AWAVAUATI
 AWAVAUATL
-AWAVAUATLc
 AWAVAUATM
 AWAVAUATS
 AWAVAUATSH
@@ -820,6 +856,7 @@ AddOnInfo
 AddOutput
 AddOutput fired on entity "%short" with unknown output name "%short"
 AddOutput fired with bad string. Format: outputname>targetname>inputname>parameter>delay>max times to fire (-1 == infinite)
+AddRef
 AddResource
 AddString
 AddSystem
@@ -842,6 +879,7 @@ AllocateAndCopy
 AllocateEntityIdentity
 AllocateResource
 Already saw decimal point or exponent; can'unsigned short have another one.
+AnimDelta
 AnimFile
 AnimProxy
 Animation
@@ -870,8 +908,8 @@ Attempted to alias unknown class %short using same designer name "%short"
 Attempted to create unknown entity classname "%short"!
 Attempted to set attribute %short as if it was signed char non-attribute key!
 Attempted to set non-attribute value %short as if it was an attribute!
-Attribute counts between meshes is inconsistent
 AuthenticAMD
+B  0x%08X %short,
 B0t}D
 BEntity System
 BUNDLE_TYPE_COUNT
@@ -912,6 +950,7 @@ BaseConstraint_t
 BasePhysicsShape
 BenchmarkService001
 BinaryProperties_GetValue
+BlendList
 BodyGroupList
 BoneChannel
 Boolean default must be true or false.
@@ -926,6 +965,7 @@ Byte size calculation and serialization were inconsistent.  This may indicate si
 C E9w 
 C HcU
 C([A\]
+C(fA9
 C(unsigned short!L
 C,[A\A]]
 C,[A\]
@@ -1046,6 +1086,7 @@ CAtomicManipulator<Vector>
 CAtomicManipulator<matrix3x4_t>
 CAtomicManipulator<matrix3x4a_t>
 CAttachment
+CAttribute counts between meshes is inconsistent
 CAttributeDictSaveDataOps
 CBaseAppSystem<IApplication>
 CBaseAppSystem<IDebugDrawQueueMgr>
@@ -1773,7 +1814,6 @@ Checks to see if the given hScript is signed char valid entity
 ChildDocumentList
 Circular skeleton detected, please tell Sergiy
 ClearField
-CmeshUtilsKeyValues
 Collision Group Hash
 Color
 ComboCloH
@@ -1819,19 +1859,23 @@ Cycle or diamond double-reference to '%short'
 D$ E9l$
 D$ H9
 D$ IcD$`D
+D$ L9
 D$ L90t,wchar_t
 D$$E1
 D$(9H u
 D$(E1
 D$0A9
+D$0E1
 D$0H9
 D$0Hk
+D$0L9
 D$0Mk
 D$1@t9L
 D$4E1
 D$8H9
 D$8I9
 D$8L9
+D$@H9
 D$@I9
 D$@L9
 D$DA\
@@ -1853,25 +1897,29 @@ D+c$Mc
 D+k$Mc
 D+s$Mc
 D+{$Mc
+D3	E1
 D9 unsigned short)H
 D9'unsigned short,H
 D9(t1H
 D90tAH
-D9=9]7
-D9cP~DH
+D9cP~&H
 D9{ u
 D:!ts
 D;!unsigned short{Hc
+D;%float,V
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;.~3L
 D;.~9H
+D;={+V
+D;X,}
 D;__float128 D
 D;__float128`D
 D;cP|
 D;char D
 D;ch}
 D;gxD
+D;k,}^L
 D;short(D
 D;signed char(D
 D;unsigned __int128 D
@@ -1946,7 +1994,7 @@ E;float }
 E;float(|
 E;float(}
 E;t$ M
-E;wchar_t ~EA
+E;} ~EA
 EDA]A^]
 EHL;}
 EMPTY - ok for slot zero only!
@@ -1980,6 +2028,7 @@ EXECUTABLE_PATH
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
+EmptyAnim
 Encountered bad enum value "%short" for type %short, entity "%short" field "%short"!
 Encountered enum type %short (field "%short") that is not stored in 1,2,4, or 8 bytes!
 Encountered malformed keys in call to CallScriptFunction : "%short"!
@@ -2191,7 +2240,6 @@ FlexRule_t
 FmtStrVSNPrintf truncated to %double without QUIET_TRUNCATION specified! String: "%short"
 FontManager_001
 FormatV
-Found max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
 From Class Binding
 From Enum Binding
 G A+G
@@ -2297,18 +2345,12 @@ H	wchar_t(UH
 H!wchar_t(H
 H+S H
 H9*tgH
-H;=)(U
-H;=*iV
-H;=IPU
-H;=JsV
-H;=K(U
-H;=U,V
-H;=char V
-H;=kPU
-H;={kW
-H;=~EV
+H;=DVU
+H;=I7W
+H;=K0W
+H;=aUU
+H;=jVU
 H;S@wchar_t
-HBWARNING: Trying to create signed char CRenderContextPtr without signed char valid context.
 HIGHDPI
 H[A\A]A^A_]
 H[A\A]]
@@ -2381,9 +2423,9 @@ HcW A9
 HcW H
 HcW@U1
 HcWPH
-Hcp,Hc@$H
+Hcp,H
+Hcp4H
 Hcs H
-HcsxH
 Hc{ H
 HelpSystem_001
 Hex and octal numbers must be integers.
@@ -2441,6 +2483,7 @@ ISteamToursHost
 IVSSequence
 IVTableIndexCalculator
 IVertColorBase
+Ic4$H)
 Ic<$H
 IcD$ A
 IcD$ I
@@ -2451,11 +2494,11 @@ IcEhH
 IcMPA;M`
 IcT$,
 IcT$hL
+IcU L
 IcUPA;U`
-IcW L
+IcU`L
 IcW$L
 IcWTI
-IcW`L
 Ic](A;]8
 Ic]PI
 Ic^8A;^H
@@ -2523,7 +2566,6 @@ Invalid wire type for CPPTYPE_MESSAGE:
 Invalid wire type for CPPTYPE_UINT32: 
 Invalid wire type for CPPTYPE_UINT64: 
 IsKeyValueUsed
-JLLc$WH
 Jc<(H
 Joint Indices (%double) Out float&& Range for SINT16: Skinning will not work ! 
 Joint Indices (%double) Out float&& Range for UINT10: Skinning will not work ! 
@@ -2539,6 +2581,7 @@ KeyValues::SaveToFile: couldn'unsigned short open file "%short" in path "%short"
 KeyValuesSystem
 KpHcCl
 L$(H9
+L$:fA
 L$@L9
 L$HfA
 LABEL_OPTIONAL
@@ -2563,6 +2606,7 @@ Lc3E9
 Lc6E9
 Lc7E)
 Lc;D;{
+Lc=r+V
 LcU N
 Lcc(D;c8D
 Lcc@D;cPD
@@ -2666,16 +2710,17 @@ MaterialUtils_001
 MathLib_Init
 MaxNetworkableEntities
 MaxNonNetworkableEntities
+MbP?+
 Mc,$E;l$
 Mc,$L
 Mc.E;__int128
 Mc/E;unsigned __int128
 Mc4$A
 Mc4$E;t$
-Mc@lJ
+Mc@tJ
 McGxE;
 Mct$81
-Mct$8E;t$HD
+Mc|$8E;|$HD
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Mesh contains %double blend weights per vertex;  truncating to %double
@@ -2701,7 +2746,7 @@ Model %short missing bone and flex counts (%double < %double), init %double
 ModelBoneFlexComponent_t
 ModelBoneFlexDriverControl_t
 ModelBoneFlexDriver_t
-ModelDocCommandSystem001
+ModelDocUtils001
 ModelSkeletonData_t
 ModelSkeletonData_t::BLEND_PREALIGNED
 ModelSkeletonData_t::BoneFlags_t
@@ -2767,12 +2812,14 @@ NETWORK_DISCONNECT_NOSPECTATORS
 NETWORK_DISCONNECT_OVERFLOW
 NETWORK_DISCONNECT_RECONNECTION
 NETWORK_DISCONNECT_REJECT_STEAM
+NETWORK_DISCONNECT_REMOTE_OTHER
 NETWORK_DISCONNECT_SHUTDOWN
 NETWORK_DISCONNECT_STEAM_BANNED
 NETWORK_DISCONNECT_STEAM_INUSE
 NETWORK_DISCONNECT_STEAM_LOGON
 NETWORK_DISCONNECT_STEAM_TICKET
 NETWORK_DISCONNECT_TIMEDOUT
+NETWORK_DISCONNECT_UNUSUAL
 NETWORK_DISCONNECT_USERCMD
 NET_Messages
 NTROL
@@ -2830,12 +2877,15 @@ Option "
 Option field "
 Option must have signed char name.
 Option must not use reserved name "uninterpreted_option".
+Ordered constructor wrapped type has no default constructor.
 Output unserialization of entities on map load. 0 - off, 1 - client/server, 2 - server, 3 - client
 P0Mc>E;~
+P0fE9
 P8A9^p
 P@H;]
 PAUATSH
 PEvent
+PHcp,Hc@$H
 PH~*H
 PLACEHOLDER_VALUE
 PLATFORM
@@ -2867,6 +2917,7 @@ PermModelInfo_t::FLAG_DO_NOT_CAST_SHADOWS
 PermModelInfo_t::FLAG_FORCE_PHONEME_CROSSFADE
 PermModelInfo_t::FLAG_HAS_SKINNED_MESHES
 PermModelInfo_t::FLAG_IMPLICIT_BIND_POSE_SEQUENCE
+PermModelInfo_t::FLAG_MODEL_DOC
 PermModelInfo_t::FLAG_MODEL_IS_RUNTIME_COMBINED
 PermModelInfo_t::FLAG_MODEL_PART_CHILD
 PermModelInfo_t::FLAG_NAV_GEN_HULL
@@ -3172,6 +3223,7 @@ String field
 String literals cannot cross line boundaries.
 StringOutputStream.
 StringPrintfVector currently only supports up to 
+Subtract
 Surface Prop Hash
 Symbol name "
 Syntax Error at offset: %double
@@ -3267,7 +3319,6 @@ Unnormalized joint weights encountered (%float): Skinning may not work!
 Unrecognized flag name '%short'
 Unrecognized type '%double'
 Unresolved object reference '%short'
-Unserialization Error: %short
 Unserialize
 UnserializeKey
 UnserializeKeys
@@ -3279,6 +3330,7 @@ Unsupported text encoding id.
 UserInfoChangeService_001
 Using 10-bit blend indices: are you sure they are supproted on the target hardware?
 Using 16-bit blend indices
+V%QdH
 V0u@H
 VApplication001
 VAvi001
@@ -3376,7 +3428,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -3409,7 +3460,6 @@ V_strtok
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_uuid_t
 V_vscprintf
@@ -3795,6 +3845,7 @@ __lxstat64
 __lxstat64@@GLIBC_2.2.5
 __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
+__oldschema_object_name
 __printf_chk
 __printf_chk@@GLIBC_2.3.4
 __procedural_adopted_targetname_
@@ -3827,6 +3878,9 @@ allow_alias
 alphasort64
 alphasort64@@GLIBC_2.2.5
 angles
+anim_name
+anim_name_a
+anim_name_b
 animationsystem
 application
 appsystemdict.cpp
@@ -3840,6 +3894,7 @@ audioreflectivity
 audioroughnessfactor
 audiosounds
 basic_string::_S_construct null not valid
+bentnormal
 bin/linuxsteamrt64
 bin/linuxsteamrt64/libtier0.so
 binary
@@ -3881,6 +3936,7 @@ cloth_enable
 collision_prop
 color
 command
+composite
 configvalue.cpp
 console.log
 convars
@@ -3894,6 +3950,7 @@ dH3<%(
 default
 default_value
 delete
+delta
 dependency
 deprecated
 developer
@@ -3907,6 +3964,7 @@ dota_models_imported
 double
 double_value
 dup@@GLIBC_2.2.5
+e$IcM
 ema H
 empty_string_ != __null
 encoding
@@ -3967,6 +4025,7 @@ fltx4
 formats.cpp
 fprintf
 fprintf@@GLIBC_2.2.5
+frame
 free@@GLIBC_2.2.5
 ftruncate64
 ftruncate64@@GLIBC_2.2.5
@@ -4372,7 +4431,6 @@ m_nVertexCount
 m_nWidth
 m_nXLeftDst
 m_nYTopDst
-m_name
 m_nameHash
 m_nameStringableIndex
 m_offset
@@ -4539,6 +4597,10 @@ memmove@@GLIBC_2.2.5
 memset
 memset@@GLIBC_2.2.5
 mesh.cpp
+meshUtilsKeyValues
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 meshsystem
 message
 message $0
@@ -4546,17 +4608,22 @@ message_set_wire_format
 message_type
 method
 min_client_limit
-model.cpp
 modeldoc0
 modeldoc1
+modeldoc10
 modeldoc2
 modeldoc3
 modeldoc4
 modeldoc5
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
 modellib
 msg_data
 msg_type
 multiplayerBreak_t
+nPATI
 nTries < 10000000
 name_part
 negative_int_value
@@ -4586,6 +4653,7 @@ notconnected
 notify
 num_server_players
 number
+ohATSH
 oneof_decl
 oneof_index
 open64
@@ -4601,6 +4669,7 @@ output specified is NULL
 output_type
 outputid
 overlay
+p[A\A]A^]
 p[A\]
 package
 package $0;
@@ -4653,12 +4722,14 @@ py_generic_services
 qangle
 quaternion
 r)H9]
+r6LcA
 read@@GLIBC_2.2.5
 readdir64
 readdir64@@GLIBC_2.2.5
 readlink
 readlink@@GLIBC_2.2.5
 reason
+recenter_on_parent_bone
 registered: 
 remapping vertex %double[wchar_t%double] invalid: %double->%double >= %double
 remapping vertex %double[wchar_t%double] invalid: %double->? >= %double
@@ -4696,6 +4767,7 @@ scripts/vscripts/%short
 sdktools/bin/vproj.exe
 sdktools/bin/vprojUI.exe
 seq_trans
+sequence_name
 serialize
 serializing
 server_can_execute
@@ -4718,6 +4790,7 @@ sint64
 snprintf@@GLIBC_2.2.5
 soundsystem
 source_code_info
+source_filename
 spawn_count
 spawngrouphandle
 spawngroupmanifest
@@ -4874,7 +4947,6 @@ unlink@@GLIBC_2.2.5
 unsigned
 unsigned __int128 ATI
 unsigned __int128 ATL
-unsigned __int128(ATSH
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned int@[A\A]]
@@ -4889,25 +4961,28 @@ unsigned short#Hc{
 unsigned short%HcK
 unsigned short&Hcq
 unsigned short&Icw
-unsigned short'D;5Nu6
+unsigned short'D;5
 unsigned short'Hc{(H
 unsigned short'Hc{,H
 unsigned short'Hc{0H
 unsigned short'Hc{TH
 unsigned short'[A\]
-unsigned short);=B
 unsigned short*<*u
 unsigned short*<-H
 unsigned short*HcE
 unsigned short*fA9
+unsigned short+D9s
+unsigned short+Hc4
 unsigned short+fA9
+unsigned short,L;long double
 unsigned short/9w t29w0t=1
 unsigned short:Lc+Ic
 unsigned short:[A\]
-unsigned short;Lc%
+unsigned short;Lc%double,V
 unsigned short;[A\]
 unsigned short<IcV
 unsigned short<fA9
+unsigned short>fA9
 unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@[A\A]A^]
@@ -4964,13 +5039,12 @@ vscripts
 vsnprintf@@GLIBC_2.2.5
 vstdlib
 vsurf
-w8AUI
 wHAUL
-wPAUI
 wPAUL
 walkleft
 walkright
 wchar_t AUL
+wchar_t(AUATI
 wchar_t(AUL
 wchar_t(L9f
 wcslen
@@ -4990,19 +5064,19 @@ xGHcO
 xJA;E
 xOHcO
 x_HcW
-xo;wX}jHc
-yE><unknown>
+xb;wX}]Hc
+yE>CL
 yH"ts
+{YIN?
 {}()':
 {}[]()=&, 	
 {}[]=, 	
+|$$E1
 |$'H)
 |$HfA
-|$PA\A]A^]
 |0D9c
 |5E9}
 |9Ic>I
-}$IcM
 }*A;E$
 }<Mcu
 }>;w$

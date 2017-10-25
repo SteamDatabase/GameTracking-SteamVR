@@ -1,3 +1,4 @@
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	[A\]
       
     Total committed memory: %double KB
@@ -111,6 +112,7 @@ $woL)
 ([A\A]]
 ([]A\A]A^A_
 (no name)
+)D$PA
 *(anonymous namespace)::CaptionGripPanel
 *(anonymous namespace)::GripPanel
 *(anonymous namespace)::ScrollBarButton
@@ -133,6 +135,7 @@ $woL)
 ../../public/tier1/utllinkedlist.h
 ../../public/tier1/utlrbtree.h
 ../../public/tier1/utlsortvector.h
+../public/ordered_constructor.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlsortvector.h
 .L;w
@@ -238,6 +241,7 @@ $woL)
 ?ComboBoxButton
 ?L97u
 ?L;'u
+?VGuiPaintSurfaceLayout
 ?north-west
 @ A\A]A^]
 @ A\]
@@ -347,6 +351,7 @@ A]A^A_]
 A]A^]
 Accel
 ActivateItem
+AddRef
 After selecting and moving signed char panel Ctrl-... will undo the move.
 AllocInternal
 Already have converter for type %short, ignoring...
@@ -559,8 +564,11 @@ D$(E1
 D$(H9
 D$0E1
 D$0H9
+D$0L9
 D$8I9
 D$8L9
+D$:fA
+D$@H9
 D$@Hc
 D$@I9
 D$@L9
@@ -831,6 +839,7 @@ ISchemeSurface
 ITextureDictionary
 IVGuiPaintSurface
 IVGuiRenderSurface
+Ic4$H)
 IcExA;
 Ic]PI
 Ic_XA;unsigned char
@@ -1084,7 +1093,7 @@ Message '%short', sent to '%short', has invalid parameter types
 MessageBox
 MessageBoxText
 MinimizeToSysTray
-ModelDocCommandSystem001
+ModelDocUtils001
 MouseCaptureLost
 MouseDoublePressed
 MousePressed
@@ -1121,6 +1130,7 @@ OnRequestFocus
 OnScreenSizeChanged
 OpenColumnChoiceMenu
 OpenContextMenu
+Ordered constructor wrapped type has no default constructor.
 P HcE
 P8H=vtext?H
 POSIX
@@ -1450,6 +1460,7 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
+V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
 V_IsAbsolutePath
@@ -1464,7 +1475,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -1490,7 +1500,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_vsnprintf
 V_vsnprintfRet
@@ -1546,7 +1555,6 @@ YD$$L
 \unsigned short!Hc
 ]H+G 
 ]Ht,A
-]VGuiPaintSurfaceLayout
 ^ unsigned short+H
 ^@Lcc0D;char@D
 _ITM_deregisterTMCloneTable
@@ -1932,6 +1940,7 @@ qsort
 qsort@@GLIBC_2.2.5
 quaternion
 quaternion_array
+r6LcA
 r_screen_size_expansion
 reading file '%short' of legacy format '%short' - dmxconvert this file to signed char newer format!
 replace
@@ -2015,8 +2024,10 @@ t$@Lc
 t$H9h
 t.Hcu
 t3Lc+I
+t3[A\]
 t4[A\]
 t5Lc+I
+t6HcO
 t9HcE
 tR[A\A]A^]
 tSHcO
@@ -2079,12 +2090,10 @@ unicode
 unknown
 unnamed
 unsigned __int128 char::*@E;oP
-unsigned __int128(ATSH
 unsigned char@unsigned short)H
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned short	[A\A]A^]
-unsigned short	[A\]
 unsigned short fD;(u
 unsigned short"HcK
 unsigned short"HcO
@@ -2092,10 +2101,10 @@ unsigned short"Lc+D;k
 unsigned short'Lc#D;char
 unsigned short(Lc#D;char
 unsigned short*HcO
+unsigned short+Hc4
 unsigned short+Jc4
 unsigned short,Lc+H
 unsigned short-Lck
-unsigned short:HcO
 unsigned short?D9u
 unsigned short@@:>u
 unsigned short[HcU
@@ -2194,7 +2203,7 @@ void!<\unsigned short
 vslider
 vtexH
 w0AUATSH
-w8AUI
+wchar_t(AUATI
 wcschr
 wcschr@@GLIBC_2.2.5
 wcscmp
@@ -2218,6 +2227,7 @@ xWHcW
 {}()':
 |$@Lc
 |+A;\$
+}-float;wchar_t"wchar_t'H
 }>;w$
 }F;w$
 }Hf;wchar_t
@@ -2225,7 +2235,6 @@ xWHcW
 }N;w$
 }[fA;
 }ef;wchar_t
-}f;wchar_t"wchar_t+H
 }unsigned long@:wchar_t
 ~	ATI
 ~ A\A]A^]

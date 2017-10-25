@@ -1,3 +1,4 @@
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
  %float elapsed wchar_t/unsigned __int128 int/unsigned __int128
  ( def. "%short" )
  - %u
@@ -83,6 +84,7 @@ $uXA
 -log_opened_files
 -noasync
 -onethreadpool
+../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utlfixedmemory.h
@@ -243,6 +245,7 @@ AbortAfterServicing
 Aborting IO request for %short
 AddFile
 AddFileToDirectory
+AddRef
 Adding VPK file: %short
 Addreffing existing VPK file: %short
 Alignment
@@ -399,7 +402,7 @@ D+c$Mc
 D+k$Mc
 D+s$Mc
 D9 t5H
-D9%![(
+D9%QZ(
 D;!unsigned short{Hc
 D;'unsigned short{Hc
 D;K0Mc
@@ -640,7 +643,7 @@ MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
 MeshUtils001
-ModelDocCommandSystem001
+ModelDocUtils001
 Modifying Async Filesystem Request after it has been submitted
 MustRead
 NetworkClientService_001
@@ -654,6 +657,7 @@ NewNode
 O tqH
 Open( %llu microsecs, %short )
 Open( %short )
+Ordered constructor wrapped type has no default constructor.
 P0HcE
 PH97tbH
 PHHcU
@@ -733,17 +737,18 @@ SERVICING_IO
 STATUS_UNDEFINED
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION008
-STEAMHTMLSURFACE_INTERFACE_VERSION_003
+STEAMHTMLSURFACE_INTERFACE_VERSION_004
 STEAMHTTP_INTERFACE_VERSION002
-STEAMINVENTORY_INTERFACE_V001
+STEAMINVENTORY_INTERFACE_V002
 STEAMMUSICREMOTE_INTERFACE_VERSION001
 STEAMMUSIC_INTERFACE_VERSION001
+STEAMPARENTALSETTINGS_INTERFACE_VERSION001
 STEAMREMOTESTORAGE_INTERFACE_VERSION014
 STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMUGC_INTERFACE_VERSION009
+STEAMUGC_INTERFACE_VERSION010
 STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
 STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V001
+STEAMVIDEO_INTERFACE_V002
 ScaleformUI001
 SceneSystem_002
 SceneUtils_001
@@ -787,7 +792,7 @@ SteamMatchMaking009
 SteamMatchMakingServers002
 SteamNetworking005
 SteamUser019
-SteamUtils008
+SteamUtils009
 String %double: ref:%double %short
 SubmitAsyncFileRequest
 SubmitSyncFileRequest
@@ -983,7 +988,6 @@ _V_FixupPathName
 _V_GetFirstDir
 _V_MakeAbsolutePath
 _V_MakeRelativePath
-_V_SetExtension
 _V_StrSubst
 _V_StringAfterPrefix
 _V_StripExtension

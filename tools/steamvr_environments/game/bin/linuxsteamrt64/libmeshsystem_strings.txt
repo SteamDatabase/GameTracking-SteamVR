@@ -1,4 +1,5 @@
-	!O3M
+	!O3H
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
  %llu aggs, %short total data
  ( def. "%short" )
  - %double / %double allocated
@@ -49,10 +50,10 @@ $[A\]
 %int %int %int %int
 %ls [wstring, len = %double]
 %s.360%short
+%short#%double
 %short: %short
 %short: string format requested %double chars
 %short\%short
-&YA1D
 &YA1H
 &YA1I
 &YA1L
@@ -69,8 +70,7 @@ $[A\]
 (E9g 
 (E9g ~jH
 (E9l$ 
-(HcH,I
-(HcH4I
+(E9} 
 (L$PD
 (Lcg D;g0D
 (Lcg8D;gHD
@@ -89,11 +89,12 @@ $[A\]
 (\$@H
 (d$ A
 (d$0I
-(knNFound max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
+)D$PI
 )J fA
 )L$ u
 )T$ u
 *CDecalDrawDataRefCounted::Release()::{lambda()#1}
+*xNIH
 +C$9C
 +C$;C
 +C$Hc
@@ -114,6 +115,8 @@ $[A\]
 -sse3
 -sse4
 .../u-H
+...>Unserialization Error: %short
+../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
 ../public/scenesystem/memoryvertex.h(156): 
@@ -160,15 +163,19 @@ $[A\]
 0[]A\A]A^
 0x%016llX
 1 1 1
+1DBlend
 2WAY_0( 
 2WAY_1( 
 3+C$H
 33333333H
 33333333H)
+33s?(knN
 3E8 u
 3[A\A]A^]
+4$IcT$
 42HcU
 4:A9L$
+4H;H 
 4fff>fff>fff>fff>
 4vf;T
 6H92t%H
@@ -176,6 +183,7 @@ $[A\]
 6I90t
 89w float restrict;wchar_t
 8LcgPL
+8RESOURCE_TYPE_MORPHSET_INTERNAL
 8VBKVt6HcF
 8[A\A]A^A_]
 8[A\A]]
@@ -193,9 +201,9 @@ $[A\]
 ;K(}&H
 ;S(}+H
 ;W }7H
-;fA	G(H
 ;wX|#
-<	uSL
+<	u@UH
+<	u[L
 <	w.1
 <	woD
 <!-- kv3 encoding:%short:version{%short} format:%short:version{%short} -->
@@ -217,13 +225,11 @@ $[A\]
 =CSP1A
 =CSP1u
 =_addons
-=meshUtilsKeyValues
 >@unsigned short<H
 >A9U$
 >[A\A]]
 ?Mct$ 
-?RESOURCE_TYPE_MORPHSET_INTERNAL
-@  0x%08X %short,
+?MeshUtils001
 @8A]A^]
 @A9^`
 @E;float(},IcF$
@@ -251,7 +257,7 @@ A+]$Hc
 A+t$$Hc
 A+u$Hc
 A0]9B0
-A0fD+"E
+A0fD+ E
 A9D$`~2H
 A9G }
 A9T$$
@@ -259,16 +265,16 @@ A9\long long
 A9_@~8L
 A;D$(
 A;D$l
+A;EP~
 A;G A
-A;GP~
-A;W`~IA
+A;U`~IA
+A;Wh|
 A;\$ A
 A;\$\
 A;\$\|
 A;\unsigned char|
 A;]@|
 A;]`|
-A;unsigned char volatile|
 A;w$t
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %double!
 ATSHc
@@ -285,7 +291,6 @@ AUATL
 AUATLc
 AUATM
 AUATS
-AUATS1
 AUATSD
 AUATSH
 AUATSL
@@ -313,6 +318,7 @@ AVAUL
 AVAULc
 AVAUM
 AWAVA
+AWAVAU
 AWAVAUA
 AWAVAUATA
 AWAVAUATE
@@ -343,6 +349,7 @@ A\A]A^A_]A
 A\A]A^]
 A\A]]
 A]A^]
+AddRef
 AimConstraint: %short - Cannot Find Aim Slave Bone
 AimConstraint: %short - Cannot Find Aim Up Target Attachment: %short
 Align
@@ -353,6 +360,7 @@ AllocateResource
 AllocateResource: Cannot find DATA block in resource %short!
 AllocateResource: Cannot find VBIB block in resource %short!
 AllocateResource: Cannot find VBIB data in resource %short!
+AnimDelta
 AnimFile
 AnimProxy
 AnimatableSceneObjectDesc
@@ -371,6 +379,7 @@ AttachmentData_t
 AttachmentInfluenceFlags_t
 AttachmentList
 Attribute counts between meshes is inconsistent
+B  0x%08X %short,
 B0t}D
 BFeModel combiner: Too many ropes (%u) or links (%u): cannot fit sum in uint16
 BUNDLE_TYPE_COUNT
@@ -397,12 +406,15 @@ Bad header format (malformed UUID)
 Bad header: invalid binary marker
 Bad header: invalid compression header
 Bad header: unrecognized encoding id
+Bad keyname
+Bad value
 BakedLODBuilderMgr001
 BaseConstraint_t
 BasePhysicsShape
 BaseSceneObjectDesc
 BenchmarkService001
 BinaryProperties_GetValue
+BlendList
 BodyGroupList
 BoneChannel
 BundleData_t
@@ -415,7 +427,6 @@ C,[A\A]]
 C,[A\]
 C0[A\A]A^]
 CAimConstraint
-CAtomicManipulator<CCopyableUtlVector<VsInputSignatureElement_t> >
 CAtomicManipulator<CResourceArray<AttachmentData_t> >
 CAtomicManipulator<CResourceArray<BaseConstraint_t> >
 CAtomicManipulator<CResourceArray<BundleData_t> >
@@ -491,6 +502,7 @@ CAtomicManipulator<CUtlVector<CHitBoxSet, CUtlMemory<CHitBoxSet, int> > >
 CAtomicManipulator<CUtlVector<CMaterialDrawDescriptor, CUtlMemory<CMaterialDrawDescriptor, int> > >
 CAtomicManipulator<CUtlVector<CPhysSurfaceProperties*, CUtlMemory<CPhysSurfaceProperties*, int> > >
 CAtomicManipulator<CUtlVector<RenderSkeletonBone_t, CUtlMemory<RenderSkeletonBone_t, int> > >
+CAtomicManipulator<CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> > >
 CAtomicManipulator<CUtlVector<int, CUtlMemory<int, int> > >
 CAtomicManipulator<CUtlVectorFixedGrowable<CSceneObjectData, 1ul> >
 CAtomicManipulator<CWeakHandle<InfoForResourceTypeAnimationGroupResourceData_t> >
@@ -518,7 +530,6 @@ CCommand::Tokenize: Encountered command which overflows the argument buffer.. Cl
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CConstraintSlave
 CConstraintTarget
-CCopyableUtlVector
 CCountedStringPool
 CDHcs@
 CDefaultAccessor
@@ -707,7 +718,6 @@ CSchemaEnumBindingBase
 CSchemaFieldVisitor
 CSchemaFieldVisitorInfoMap<CExtrefTraversal>
 CSchemaInstallCallback
-CSchemaManipulator<CCopyableUtlVector<VsInputSignatureElement_t> >
 CSchemaManipulator<CResourceArray<AttachmentData_t> >
 CSchemaManipulator<CResourceArray<BaseConstraint_t> >
 CSchemaManipulator<CResourceArray<BundleData_t> >
@@ -783,6 +793,7 @@ CSchemaManipulator<CUtlVector<CHitBoxSet, CUtlMemory<CHitBoxSet, int> > >
 CSchemaManipulator<CUtlVector<CMaterialDrawDescriptor, CUtlMemory<CMaterialDrawDescriptor, int> > >
 CSchemaManipulator<CUtlVector<CPhysSurfaceProperties*, CUtlMemory<CPhysSurfaceProperties*, int> > >
 CSchemaManipulator<CUtlVector<RenderSkeletonBone_t, CUtlMemory<RenderSkeletonBone_t, int> > >
+CSchemaManipulator<CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> > >
 CSchemaManipulator<CUtlVector<int, CUtlMemory<int, int> > >
 CSchemaManipulator<CUtlVectorFixedGrowable<CSceneObjectData, 1ul> >
 CSchemaManipulator<CWeakHandle<InfoForResourceTypeAnimationGroupResourceData_t> >
@@ -801,11 +812,9 @@ CSchemaManipulator<matrix3x4_t>
 CSchemaManipulator<matrix3x4a_t>
 CSchemaNonConstructibleClassBinding<CBaseConstraint>
 CSchemaNonConstructibleClassBindingBase
-CSchemaRegistration
 CSchemaRegistration_meshsystem
 CSchemaRegistration_modellib
 CSchemaStrongHandleInspectionManipulator<InfoForResourceTypeIMaterial2>
-CSchemaUtlVectorManipulator<CCopyableUtlVector<VsInputSignatureElement_t>, VsInputSignatureElement_t>
 CSchemaUtlVectorManipulator<CUtlVector<CBaseConstraint*, CUtlMemory<CBaseConstraint*, int> >, CBaseConstraint*>
 CSchemaUtlVectorManipulator<CUtlVector<CConstraintSlave, CUtlMemory<CConstraintSlave, int> >, CConstraintSlave>
 CSchemaUtlVectorManipulator<CUtlVector<CConstraintTarget, CUtlMemory<CConstraintTarget, int> >, CConstraintTarget>
@@ -814,6 +823,7 @@ CSchemaUtlVectorManipulator<CUtlVector<CHitBoxSet, CUtlMemory<CHitBoxSet, int> >
 CSchemaUtlVectorManipulator<CUtlVector<CMaterialDrawDescriptor, CUtlMemory<CMaterialDrawDescriptor, int> >, CMaterialDrawDescriptor>
 CSchemaUtlVectorManipulator<CUtlVector<CPhysSurfaceProperties*, CUtlMemory<CPhysSurfaceProperties*, int> >, CPhysSurfaceProperties*>
 CSchemaUtlVectorManipulator<CUtlVector<RenderSkeletonBone_t, CUtlMemory<RenderSkeletonBone_t, int> >, RenderSkeletonBone_t>
+CSchemaUtlVectorManipulator<CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >, VsInputSignatureElement_t>
 CSchemaUtlVectorManipulator<CUtlVector<int, CUtlMemory<int, int> >, int>
 CSchemaUtlVectorManipulator<CUtlVectorFixedGrowable<CSceneObjectData, 1ul>, CSceneObjectData>
 CSchemaVisitorBase
@@ -864,6 +874,7 @@ CXXABI_1.3
 CX[A\]
 CXt	I
 C`[A\]
+Cables
 Can'unsigned short write binary data to signed char text buffer.
 Cannot allocate abstract class
 Cannot allocate virtual address space in CResourceStreamVM::ReserveVirtualMemory, error %u
@@ -905,16 +916,18 @@ Cycle or diamond double-reference to '%short'
 D$ E9l$
 D$ H9
 D$ IcD$`D
+D$ L9
 D$ L90t,wchar_t
 D$$E1
 D$(E1
 D$0A9
-D$0E1
 D$0H9
+D$0L9
 D$4E1
 D$8H9
 D$8I9
 D$8L9
+D$@H9
 D$@I9
 D$@L9
 D$DA\
@@ -925,6 +938,7 @@ D$PA\]
 D$TE1
 D$XA9
 D$XE1
+D$`tqA
 D$hD)unsigned long
 D$hE1
 D$pH9
@@ -935,8 +949,9 @@ D+c$Mc
 D+k$Mc
 D+s$Mc
 D+{$Mc
+D0(A9
 D92tY1
-D9rp}K
+D9vp}K
 D9{ u
 D;!unsigned short{Hc
 D;'unsigned short{Hc
@@ -991,7 +1006,7 @@ E9o ~WL
 E9t$ ~kI
 E9|$ 
 E;l$`|
-E;wchar_t ~EA
+E;} ~EA
 EDA]A^]
 EHL;}
 EMPTY - ok for slot zero only!
@@ -1008,6 +1023,7 @@ EXA;]`
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
+EmptyAnim
 EngineServiceMgr001
 EnvironmentMapBuilder_001
 Error loading resource "%short" (Invalid resource version: %double != %double)
@@ -1028,7 +1044,11 @@ Expected hex byte (eg. 00-FF)
 Expected member name or '}'
 Expected token
 Expected type of next member
+Expected value after =
 Expected value or ']'
+Expected value.
+Expected {
+Expected }
 F 9G tq
 F A;F0
 F Lc#D;char
@@ -1120,6 +1140,7 @@ FlexRule_t
 FmtStrVSNPrintf truncated to %double without QUIET_TRUNCATION specified! String: "%short"
 FontManager_001
 FormatV
+Found max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
 From Class Binding
 From Enum Binding
 G A+G
@@ -1193,7 +1214,6 @@ HcCTL
 HcChL
 HcClH
 HcF ;F$
-HcG`;GpA
 HcG`UH
 HcGdH
 HcGdL
@@ -1248,7 +1268,8 @@ HcW H
 HcW@U1
 HcWPH
 Hc_`;_p
-Hcp,Hc@$H
+Hcp,H
+Hcp4H
 Hcs H
 HelpSystem_001
 HitBoxSet_t
@@ -1257,6 +1278,7 @@ Hitbox indexing is incorrect for set %short, hitbox %s. Hitboxes will not be set
 HitboxSetList
 HookUpConfigValue
 HostStateMgr001
+Hxt}H
 I;V@wchar_t
 IAppSystem
 IAtomicManipulator
@@ -1292,6 +1314,7 @@ ISequence
 IToolsResourceListener
 IVSSequence
 IVertColorBase
+Ic4$H)
 Ic<$H
 IcD$$
 IcD$LH
@@ -1303,10 +1326,10 @@ IcMPA;M`
 IcT$$
 IcT$X
 IcU E
+IcU L
 IcUPA;U`
-IcW L
+IcU`L
 IcW$L
-IcW`L
 Ic](A;]8
 Ic]0A;]@
 Ic]PI
@@ -1340,7 +1363,6 @@ Invalid member name '%short'
 Invalid request for mesh %double in model %short with %double entry remapping start table
 Invalid request for mesh %double in model %short with no remapping table
 Invalid request for mesh %double in model %short with no remapping table starts
-JLLc$WH
 Jc<(H
 Jc<0I
 Joint Indices (%double) Out float&& Range for SINT16: Skinning will not work ! 
@@ -1389,7 +1411,9 @@ Lc{xD;
 LightingBasis
 LightingBuilderMgr001
 LightmapUV
+Line %double at "%short": 
 Line %double at "%short": %short
+Line %double: 
 Line %double: %short
 Line %double: Invalid literal value "%short"
 Line %double: Invalid value "%short"
@@ -1446,14 +1470,15 @@ MaterialGroupList
 MaterialGroup_t
 MaterialUtils_001
 MathLib_Init
+MbP?+
 Mc,$E;l$
 Mc.E;__int128
 Mc/E;unsigned __int128
 Mc4$E;t$
-Mc@lJ
+Mc@tJ
 McGxE;
 Mct$81
-Mct$8E;t$HD
+Mc|$8E;|$HD
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Mesh contains %double blend weights per vertex;  truncating to %double
@@ -1462,14 +1487,13 @@ MeshSystem
 MeshSystem001
 MeshSystem::InitPosedProp: Bone mismatch between transforms out (%double) and transforms in skeleton (%double)
 MeshTranslucencyType_t
-MeshUtils001
 Model %short missing bone and flex counts (%double < %double), init %double
 Model %short: Attempted to attach attachment %short to an unknown bone %short!
 Model conversion: %double conversions in %.3fsec (%.fms each)
 ModelBoneFlexComponent_t
 ModelBoneFlexDriverControl_t
 ModelBoneFlexDriver_t
-ModelDocCommandSystem001
+ModelDocUtils001
 ModelSkeletonData_t
 ModelSkeletonData_t::BLEND_PREALIGNED
 ModelSkeletonData_t::BoneFlags_t
@@ -1525,8 +1549,10 @@ No valid format conversion from '%short' to '%short'
 O 9N unsigned short
 OnDiskBufferData_t
 Only the last override will be set!
+Ordered constructor wrapped type has no default constructor.
 P0Mc>E;~
 P8A9^p
+PHcp,Hc@$H
 POSITION
 POSIX
 P[A\A]A^]
@@ -1534,6 +1560,7 @@ PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
 ParticleSystemMgr002
+Particles.ControlPoints
 Path Overflow, must be less than 260 characters.
 PerVertexLighting
 PermModelData_t
@@ -1544,6 +1571,7 @@ PermModelInfo_t::FLAG_DO_NOT_CAST_SHADOWS
 PermModelInfo_t::FLAG_FORCE_PHONEME_CROSSFADE
 PermModelInfo_t::FLAG_HAS_SKINNED_MESHES
 PermModelInfo_t::FLAG_IMPLICIT_BIND_POSE_SEQUENCE
+PermModelInfo_t::FLAG_MODEL_DOC
 PermModelInfo_t::FLAG_MODEL_IS_RUNTIME_COMBINED
 PermModelInfo_t::FLAG_MODEL_PART_CHILD
 PermModelInfo_t::FLAG_NAV_GEN_HULL
@@ -1644,6 +1672,7 @@ RENDER_PRIM_6_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_7_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_8_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_9_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_COMPUTE_SHADER
 RENDER_PRIM_HETEROGENOUS
 RENDER_PRIM_INSTANCED_QUADS
 RENDER_PRIM_LINES
@@ -1756,6 +1785,7 @@ SsE9~
 StatsService_001
 SteamAudio001
 String %double: ref:%double %short
+Subtract
 Surface Prop Hash
 Syntax Error at offset: %double
 T$ Hc
@@ -1808,12 +1838,12 @@ Unnormalized joint weights encountered (%float): Skinning may not work!
 Unrecognized flag name '%short'
 Unrecognized type '%double'
 Unresolved object reference '%short'
-Unserialization Error: %short
 Unsupported binary encoding id.
 Unsupported text encoding id.
 UserInfoChangeService_001
 Using 10-bit blend indices: are you sure they are supproted on the target hardware?
 Using 16-bit blend indices
+V%QdH
 V0u@H
 VApplication001
 VAvi001
@@ -1906,7 +1936,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -1937,7 +1966,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_vsnprintf
 V_vsnprintfRet
@@ -1989,7 +2017,6 @@ ZIeRH
 [A\A]A^A_]A
 [A\A]A^]
 [A\A]]
-[A\A]]A
 [A\A^]
 [Disk class %double/%double] Name = '%short'; Project = '%short'; Binary = '%short'
 []A\A]
@@ -2072,6 +2099,7 @@ __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
 __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
+__oldschema_object_name
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
@@ -2081,12 +2109,16 @@ _class
 _edata
 _fini
 _init
+_root_keyname
 _test_conversion_counter
 `0D;__float128
 `[A\A]A^]
 `[A\]
 `hHc@double
 abort@@GLIBC_2.2.5
+anim_name
+anim_name_a
+anim_name_b
 animationsystem
 archive
 audioHardMinVelocity
@@ -2097,6 +2129,7 @@ audioroughnessfactor
 audiosounds
 bOwnVBAndIB == m_bOwnVBAndIB && m_pFixedMeshDataOverride
 baselayer
+bentnormal
 binary
 binary_bc
 blendindices
@@ -2105,6 +2138,7 @@ blendweights
 borrow
 bulletimpact
 c.[A\]
+cables_list
 can'unsigned short solve quadratic for light %float %float
 ceilf
 ceilf@@GLIBC_2.2.5
@@ -2118,20 +2152,26 @@ climbable
 cloth_enable
 collision_prop
 color
+composite
 configvalue.cpp
+control_points_list
 curvature
 dH34%(
 dH3<%(
 default
 delete
+delta
 developer
 dire_tree_stump002_tintable.vmesh
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 dme_position_map
+e$IcM
 ema H
 encoding
 error opening required file %short
+eye_data
+eye_data_list
 fA;0M
 fA;0trA
 fA;D$
@@ -2140,6 +2180,7 @@ ffff.
 fffff.
 ffffff.
 fieldtype_t
+float	P(H
 float %double %double %double
 float( %float )
 float;0tr
@@ -2149,6 +2190,7 @@ floor@@GLIBC_2.2.5
 floorf
 floorf@@GLIBC_2.2.5
 formats.cpp
+frame
 free@@GLIBC_2.2.5
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -2160,8 +2202,8 @@ gameinfo.txt
 gamematerial
 gameproperties
 generic
+gfffD
 gfffE
-gfffLc
 impactHardThreshold
 impacthard
 impactsoft
@@ -2179,7 +2221,6 @@ kv3format_manager.cpp
 l$ M9u
 l$'H)
 l$8Ic
-l$:fA
 l$HfA
 libc.so.6
 libm.so.6
@@ -2197,7 +2238,7 @@ localToGlobal
 long long D;x$}
 long long[A\A]A^A_]
 long long[A\A]]
-long long{HcS
+long long^HcS
 looping
 lowprecisionuv
 lowprecisionuv1
@@ -2446,7 +2487,6 @@ m_nVertexCount
 m_nWidth
 m_nXLeftDst
 m_nYTopDst
-m_name
 m_nameHash
 m_offsets
 m_pBreakablePartData
@@ -2572,6 +2612,10 @@ mempool.cpp
 memset
 memset@@GLIBC_2.2.5
 mesh.cpp
+meshUtilsKeyValues
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 meshinstance_imp.cpp
 meshsystem
 meshsystem.cpp
@@ -2581,21 +2625,30 @@ model.cpp
 model_dump_convert_info
 modeldoc0
 modeldoc1
+modeldoc10
 modeldoc2
 modeldoc3
 modeldoc4
 modeldoc5
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
 modellib
 models/dev/error.vmdl
 models/dev/error.vmesh
 multiplayerBreak_t
+nPATI
 nTries < 10000000
 normal
 notconnected
 notify
+ohATSH
 optionallycompressedtangentframe
 overlay
+p[A\A]A^]
 p[A\]
+particles_list
 pervertexlighting
 phys_res
 physib
@@ -2620,7 +2673,9 @@ pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 r)H9]
+r6LcA
 rA9D$
+recenter_on_parent_bone
 remapping vertex %double[wchar_t%double] invalid: %double->%double >= %double
 remapping vertex %double[wchar_t%double] invalid: %double->? >= %double
 rendermeshmgr.cpp
@@ -2641,6 +2696,7 @@ scrapesmooth
 sdktools/bin/vproj.exe
 sdktools/bin/vprojUI.exe
 seq_trans
+sequence_name
 server_can_execute
 short off
 short void&E1
@@ -2650,6 +2706,7 @@ shortcomplex [A\]
 sincosf
 sincosf@@GLIBC_2.2.5
 singleplayer
+source_filename
 sqrt@@GLIBC_2.2.5
 sqrtf
 sqrtf@@GLIBC_2.2.5
@@ -2672,6 +2729,7 @@ surfacePropertyName
 surface_prop
 t$'H)
 t$4Lc
+t$:fA
 t$@A\]
 t$@tsHc
 t$D9j
@@ -2681,6 +2739,7 @@ t$HfA
 t$XA\]
 t.D9p
 t.fA9
+t2[A\]
 t4HcS
 t4[A\A]A^]
 t4[A\]
@@ -2726,7 +2785,7 @@ u@[A\]
 uGIc]
 unable to load mesh "%short"
 unknown
-unsigned __int128(ATSH
+unsigned __int128 ATL
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned long long(H9z(u
@@ -2740,12 +2799,15 @@ unsigned short*<-H
 unsigned short*HcE
 unsigned short*HcO
 unsigned short*fA9
+unsigned short+D9s
+unsigned short+Hc4
 unsigned short+fA9
 unsigned short/9w t29w0t=1
 unsigned short:[A\]
 unsigned short;[A\]
 unsigned short<IcV
 unsigned short<fA9
+unsigned short>fA9
 unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@[A\A]A^]
@@ -2758,7 +2820,6 @@ update
 usemtl initialShadingGroup
 utlbuffer.cpp
 utlstring.cpp
-value
 vb phys
 version
 vmatAUM
@@ -2779,10 +2840,9 @@ vphysics2
 vrgrp
 vrnmd
 vsurf
-w8AUI
-wPAUI
 walkleft
 walkright
+wchar_t(AUATI
 wchar_t(AUI
 wcslen
 wcslen@@GLIBC_2.2.5
@@ -2792,20 +2852,20 @@ x0;wX}+Hc
 xGHcO
 xJA;E
 xOHcO
-xo;wX}jHc
+xb;wX}]Hc
 y49z4
+yE>CSchemaRegistration
+{YIN?
 {}()':
 {}[]()=&, 	
 {}[]=, 	
+|$$E1
 |$'H)
 |$HfA
-|$PA\A]A^]
-|$lfE
 |$pE1
 |0D9c
 |5E9}
 |9Ic>I
-}$IcM
 }:Mc,$L
 }>;w$
 }D;w$w?

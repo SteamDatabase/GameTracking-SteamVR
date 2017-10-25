@@ -6,8 +6,8 @@
 	 The lexer was matching from line %double, offset %double, which
 	 This indicates signed char poorly specified lexer RULE
 	 or unterminated input element such as: "STRING["]
+	#	(	-	2	7	=	C	I	O	U	[	signed char	float	void	{	
 	%short at offset %double, 
-	*	/	4	<	<	G	G	Q	T	signed char	short	
 	// Overload400-PrecQual.2000 12-Apr-2017
 	>Nsj?
 	Avail Count ( %double ) ( %llu MB ) 
@@ -20,6 +20,7 @@
 	Static Type ( %short ): Count ( %double ) ( %llu MB ) ( Free: %llu MB, Largest Free Block %llu MB )
 	Thread (%llu) Command Buffers (%double)
 	Total Command Buffers (%double)
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	gl_FragDepth = texelFetch( resolveTex, ivec2( vSamplePos ), 0 ).r;	
 	gl_Position.w = 1.0;							
 	gl_Position.w = 1.0;								
@@ -80,14 +81,14 @@
  H92t
  HcC`L
  HcClI)
- IcG`L
- IcGlI)
+ IcD$`L
+ IcD$lI)
  IcT$
+ Lc[PH)
+ Lc[hH)
+ Lc[lH
  LinePos:
  M;|$
- Mc_PH)
- Mc_hH)
- Mc_lH
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^A_]
@@ -123,8 +124,6 @@
  int;
  invariant
  is being used for 
- is not yet complete; most version-specific features are present, but some are missing.
- is unknown.
  layoutSecondaryViewportRelativeOffset=
  layoutViewportRelative
  left of '[' is not of type array, matrix, or vector 
@@ -151,7 +150,7 @@
  stream=
  textureSize(
  uint uaddCarry(highp  uint, highp  uint, out lowp  uint carry);uvec2 uaddCarry(highp uvec2, highp uvec2, out lowp uvec2 carry);uvec3 uaddCarry(highp uvec3, highp uvec3, out lowp uvec3 carry);uvec4 uaddCarry(highp uvec4, highp uvec4, out lowp uvec4 carry); uint usubBorrow(highp  uint, highp  uint, out lowp  uint borrow);uvec2 usubBorrow(highp uvec2, highp uvec2, out lowp uvec2 borrow);uvec3 usubBorrow(highp uvec3, highp uvec3, out lowp uvec3 borrow);uvec4 usubBorrow(highp uvec4, highp uvec4, out lowp uvec4 borrow);void umulExtended(highp  uint, highp  uint, out highp  uint, out highp  uint lsb);void umulExtended(highp uvec2, highp uvec2, out highp uvec2, out highp uvec2 lsb);void umulExtended(highp uvec3, highp uvec3, out highp uvec3, out highp uvec3 lsb);void umulExtended(highp uvec4, highp uvec4, out highp uvec4, out highp uvec4 lsb);void imulExtended(highp   int, highp   int, out highp   int, out highp   int lsb);void imulExtended(highp ivec2, highp ivec2, out highp ivec2, out highp ivec2 lsb);void imulExtended(highp ivec3, highp ivec3, out highp ivec3, out highp ivec3 lsb);void imulExtended(highp ivec4, highp ivec4, out highp ivec4, out highp ivec4 lsb);  int bitfieldReverse(highp   int);ivec2 bitfieldReverse(highp ivec2);ivec3 bitfieldReverse(highp ivec3);ivec4 bitfieldReverse(highp ivec4); uint bitfieldReverse(highp  uint);uvec2 bitfieldReverse(highp uvec2);uvec3 bitfieldReverse(highp uvec3);uvec4 bitfieldReverse(highp uvec4);
- unknown undex type 
+ unknown index type 
  unsigned short[Hc
  volatile
  with expression
@@ -187,9 +186,11 @@
 #define
 #define GL_AMD_gcn_shader 1
 #define GL_AMD_gpu_shader_half_float 1
+#define GL_AMD_gpu_shader_int16 1
 #define GL_AMD_shader_ballot 1
 #define GL_AMD_shader_explicit_vertex_parameter 1
 #define GL_AMD_shader_trinary_minmax 1
+#define GL_AMD_texture_gather_bias_lod 1
 #define GL_ANDROID_extension_pack_es31a 1
 #define GL_ARB_compute_shader 1
 #define GL_ARB_derivative_control 1
@@ -197,12 +198,14 @@
 #define GL_ARB_explicit_attrib_location 1
 #define GL_ARB_gpu_shader5 1
 #define GL_ARB_gpu_shader_int64 1
+#define GL_ARB_post_depth_coverage 1
 #define GL_ARB_separate_shader_objects 1
 #define GL_ARB_shader_atomic_counters 1
 #define GL_ARB_shader_ballot 1
 #define GL_ARB_shader_draw_parameters 1
 #define GL_ARB_shader_group_vote 1
 #define GL_ARB_shader_image_load_store 1
+#define GL_ARB_shader_stencil_export 1
 #define GL_ARB_shader_texture_image_samples 1
 #define GL_ARB_shader_texture_lod 1
 #define GL_ARB_shading_language_420pack 1
@@ -220,11 +223,13 @@
 #define GL_EXT_geometry_shader 1
 #define GL_EXT_gpu_shader5 1
 #define GL_EXT_multiview 1
+#define GL_EXT_post_depth_coverage 1
 #define GL_EXT_primitive_bounding_box 1
 #define GL_EXT_shader_image_load_formatted 1
 #define GL_EXT_shader_io_blocks 1
 #define GL_EXT_shader_non_constant_global_initializers 1
 #define GL_EXT_shader_texture_lod 1
+#define GL_EXT_shadow_samplers 1
 #define GL_EXT_tessellation_point_size 1
 #define GL_EXT_tessellation_shader 1
 #define GL_EXT_texture_buffer 1
@@ -252,6 +257,8 @@
 #define GL_OES_texture_buffer 1
 #define GL_OES_texture_cube_map_array 1
 #define GL_OES_texture_storage_multisample_2d_array 1
+#define GL_OVR_multiview 1
+#define GL_OVR_multiview2 1
 #define GL_SPIRV 
 #define GL_compatibility_profile 1
 #define GL_core_profile 1
@@ -301,7 +308,7 @@
 #version: versions 300 and 310 require specifying the 'es' profile
 #version: versions 300 and 310 support only the es profile
 #version: versions before 150 do not allow signed char profile token
-$$tXH
+$$tWH
 $&,V,S
 $&,V,S,V
 $&2,S
@@ -312,6 +319,7 @@ $,!long-|__int128
 $2,>S,,
 $8L;signed char
 $:L;`
+$;D$p
 $A+D$$H
 $A;D$
 $A;\$
@@ -319,6 +327,7 @@ $A\A]A^
 $Global
 $H	|$
 $H9D$
+$H;H 
 $Hcl$
 $ORIGIN
 $[A\]
@@ -400,7 +409,6 @@ $woL)
 (%short): ADD %short = %short
 (%short): Setting %short to %short
 (*%short*), 
-(-__int128%9
 (...)
 (8HXhx
 (;unsigned long long(|
@@ -408,12 +416,13 @@ $woL)
 (D>C9[
 (Did you mean gl_InstanceIndex?)
 (Did you mean gl_VertexIndex?)
-(H9\$ 
+(H9l$
+(H9l$ 
 (L  P
 ([A\A]A^A_]
 ([A\A]A^]
 ([A\A]]
-([]A\
+([]())
 ([]A\A]
 ([]A\A]A^A_
 ([]A\A]A^A_H
@@ -426,7 +435,7 @@ $woL)
 ), while in source code it is (
 )9IYiy
 ): error at column 
-)D$ ~UL
+)D$ ~SL
 *(anonymous namespace)::DoPreprocessing::operator()(glslang::TParseContextBase&, glslang::TPpContext&, glslang::TInputScanner&, bool, glslang::TSymbolTable&, glslang::TIntermediate&, EShOptimizationLevel, EShMessages)::{lambda(int, char const*)#5}
 *(anonymous namespace)::DoPreprocessing::operator()(glslang::TParseContextBase&, glslang::TPpContext&, glslang::TInputScanner&, bool, glslang::TSymbolTable&, glslang::TIntermediate&, EShOptimizationLevel, EShMessages)::{lambda(int, char const*, char const*)#1}
 *(anonymous namespace)::DoPreprocessing::operator()(glslang::TParseContextBase&, glslang::TPpContext&, glslang::TInputScanner&, bool, glslang::TSymbolTable&, glslang::TIntermediate&, EShOptimizationLevel, EShMessages)::{lambda(int, glslang::TVector<std::basic_string<char, std::char_traits<char>, glslang::pool_allocator<char> > > const&)#4}
@@ -514,16 +523,16 @@ $woL)
 *** VB "%short": Tried to lock twice without an unlock!
 *** vfx_common.cpp(1147): Error opening file "%short"!
 *** vfx_common.cpp(1224): Error opening file "%short"!
-*** vfx_common.cpp(4877): Error opening file "%short"!
-*** vfx_common.cpp(5027): Error opening include file in features list"%short"!
-*** vfx_common.cpp(5066): Error opening file "%short"!
-*** vfx_common.cpp(5295): Error opening file "%short"!
-*** vfx_common.cpp(5329): Error opening file "%short"!
-*** vfx_common.cpp(5368): Error opening file "%short"!
-*** vfx_common.cpp(5472): Error opening file "%short"!
-*** vfx_common.cpp(5927): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
-*** vfx_common.cpp(7062): Programmer Error! NULL pointer passed into function!
-*** vfx_common.cpp(7088): Programmer Error! Non feature rule found in feature rule array!
+*** vfx_common.cpp(4882): Error opening file "%short"!
+*** vfx_common.cpp(5032): Error opening include file in features list"%short"!
+*** vfx_common.cpp(5071): Error opening file "%short"!
+*** vfx_common.cpp(5300): Error opening file "%short"!
+*** vfx_common.cpp(5334): Error opening file "%short"!
+*** vfx_common.cpp(5373): Error opening file "%short"!
+*** vfx_common.cpp(5477): Error opening file "%short"!
+*** vfx_common.cpp(5932): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
+*** vfx_common.cpp(7067): Programmer Error! NULL pointer passed into function!
+*** vfx_common.cpp(7093): Programmer Error! Non feature rule found in feature rule array!
 *** vfx_common.cpp(81): __int128 noexcept'unsigned short call VfxInit() more than once!
 *** vfx_common.cpp(909): Error opening file "%short"!
 *** vfx_common.cpp(91): g_pFullFileSystem must be set up before calling VfxInit!
@@ -534,9 +543,10 @@ $woL)
 *;__int128 }BL
 *CMemberFunctor1<CParallelProcessorAbstract<CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}> >*, void (CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}>::*)(int), int, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 *CompileAllShadersForStaticCombo(unsigned long long, CVfxStaticComboData&, CVfx&, VfxProgram_t, IVfx*)::{lambda(int&)#1}
+*H;__int128 sHL
 *S?~uJ?long long
-*glslang::HlslParseContext::findFunction(glslang::TSourceLoc const&, glslang::TFunction&, bool&, glslang::TIntermTyped*&)::{lambda(glslang::TType const&, glslang::TType const&, glslang::TOperator, int)#1}
-*glslang::HlslParseContext::findFunction(glslang::TSourceLoc const&, glslang::TFunction&, bool&, glslang::TIntermTyped*&)::{lambda(glslang::TType const&, glslang::TType const&, glslang::TType const&)#2}
+*glslang::HlslParseContext::findFunction(glslang::TSourceLoc const&, glslang::TFunction&, bool&, int&, glslang::TIntermTyped*&)::{lambda(glslang::TType const&, glslang::TType const&, glslang::TOperator, int)#1}
+*glslang::HlslParseContext::findFunction(glslang::TSourceLoc const&, glslang::TFunction&, bool&, int&, glslang::TIntermTyped*&)::{lambda(glslang::TType const&, glslang::TType const&, glslang::TType const&)#2}
 *glslang::HlslParseContext::handleAssign(glslang::TSourceLoc const&, glslang::TOperator, glslang::TIntermTyped*, glslang::TIntermTyped*)::{lambda(glslang::TIntermTyped*, glslang::TIntermTyped*, glslang::TIntermTyped*, glslang::TIntermTyped*)#2}
 *glslang::HlslParseContext::shareStructBufferType(glslang::TType&)::{lambda(glslang::TType&, glslang::TType&)#1}
 *glslang::TIntermediate::finalCheck(TInfoSink&, bool)::TFinalLinkTraverser
@@ -579,9 +589,9 @@ $woL)
 , vec
 , xfb_stride 
 ,$E;l$
+,'L;unsigned char
 ,*L;unsigned char
 ,/L;unsigned char
-,8L;int
 ,<L\long|
 ,float,float
 ,int);
@@ -633,8 +643,11 @@ $woL)
 -vulkan_cmd_buffer_pool_size
 -vulkan_depth_texture_as_r32f
 -vulkan_descriptor_sets_per_pool
+-vulkan_disable_async_compute
 -vulkan_disable_device_coherent_allocations
 -vulkan_disable_khr_descriptor_update_template
+-vulkan_disable_khr_image_format_list
+-vulkan_disable_mipgen_compute_shader
 -vulkan_disable_nv_dedicated_allocation
 -vulkan_disable_occlusion_queries
 -vulkan_disable_pipeline_cache
@@ -650,9 +663,10 @@ $woL)
 -vulkan_use_glsl
 -vulkanrenderthreadstack
 .#IND
-.-AC"
+.-qG#
 .../u-H
-...>vr_flush_on_timer
+...>vr_explicit_timing_mode
+../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
 ../public/tier0/tslist.h
@@ -699,6 +713,7 @@ $woL)
 /?O_o
 /I9D$
 /home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/vfx/compiletargetexpr.g
+0123456789
 0123456789)"
 0123456789ABCDEF
 09K H
@@ -706,6 +721,7 @@ $woL)
 0: Use classic mode. 1: Use per-thread persistently mapped buffers.
 0@81t
 0A9\$0
+0AUATI
 0A\A]A^]
 0E91A
 0H91t
@@ -724,25 +740,34 @@ $woL)
 1.2.5
 1.5.2
 1/4 stride is too large:
+16-bit integer
+16-bit integer literal
+16-bit integer vector
+16-bit unsigned integer
+16-bit unsigned integer literal
+16-bit unsigned integer vector
 2|&fB
 3+C$H
 3333333
 3E8 u
 3[A\A]A^]
+3[]A\A]A^
 4"L;p
 4$A\A]A^]
+4$H;P 
 4$t!L
 4$}2I
 4$}wI
 4'L;p
 4(D;char
+4*tYH
 4+D+M
 4.20 glslang LunarG Khronos.Overload400-PrecQual.2000 12-Apr-2017
-4/L;p
 42HcU
 43A84$
 49B848
 4:H;p
+4;L;p
 4fff>fff>fff>fff>
 4iA\J
 4vf;T
@@ -761,7 +786,6 @@ $woL)
 7J_M_
 7L9FHtOL9FPtaH
 7[A\A]A^]
-7bUg.
 8"unsigned short>H
 89w float restrict;wchar_t
 8A]A^]
@@ -790,6 +814,7 @@ $woL)
 9H short?L9x
 9T$0~	H
 9\?8c{
+9w unsigned short	
 : direct index for structure
 : lexer error %double :
 :>	As?K
@@ -799,8 +824,10 @@ $woL)
 ;*3$"
 ;*unsigned short*1
 ;1|,;q
-;_addons
-;l$ H
+;D$0tLL
+;D$@tLL
+;\$ H
+;l$(H
 ;mempool.cpp
 <	McO
 <	w.1
@@ -810,26 +837,25 @@ $woL)
 <$A\A]A^]
 <$[]A\
 <$tEL
-<'L;long long
 <-uWI
 </tF<*u
 </uLH
 <19{ |.
+<1D9gls9H
 <1tj<0
 <6E9t$
 <7;long long?5
 <8L;unsigned long long
-<9wqH
 <:L;long long
-<;L;long long
+<:wqH
 << NULL >>
 <>unsigned short)<
 <@tYA
 <DOWN>
 <EOR>
 <Iwi>unsigned long long
-<Mt_<Nu$H
 <NULL>
+<Nt_<Ou$H
 <Unknown
 <XujI
 <XulI
@@ -843,7 +869,6 @@ $woL)
 <no text for the token>
 <null>
 <qA]A^]
-<tL</unsigned short
 <uint4>
 <unknown multisample type
 <unknown op>
@@ -853,7 +878,7 @@ $woL)
 =	 ();,
 =CSP1A
 =CSP1u
-=VK ERROR %short %llu:%double: %short
+=w$IcD
 =yvn?
 ={=void?
 >!RB??
@@ -875,18 +900,19 @@ $woL)
 ?5?short!
 ?<	tL<
 ?ATUH
-?H9D$X
 ?H9|$ I
 ?I;D$
 ?L;|$
 ?LZMA]
 ?LZMAt
 ?Out of Memory
+?VK ERROR %short %llu:%double: %short
+?_addons
 ?u='@
 ?|7m=U
 ?}unsigned short%L
+@ " @
 @ $   
-@ * @
 @#1,>S,
 @#2,>S,,
 @$;unsigned int 
@@ -916,6 +942,7 @@ $woL)
 @glslang::TIntermLoop
 @patchConstantOutput
 @patchConstantResult
+@sampleCount
 @this
 A!;I2
 A#D$ 	
@@ -946,10 +973,9 @@ A+W,float
 A+_$Hc
 A+u$Hc
 A8=K9
-A8H+A0H
 A9@$A
 A9G }
-A9M`~.I
+A9M`~6I
 A9W8L
 A9\$L
 A9^\~*A
@@ -976,6 +1002,7 @@ A;\$0t
 A;_xs:
 A<9w+
 A<9w>
+ABf%?
 ADD_ASSIGN
 ALIGN_TYPE is wrong, please fix
 ALL_PC
@@ -1028,6 +1055,7 @@ AUATUL
 AUATUS
 AUATUSD
 AUATUSH
+AUATUSL
 AUATUSv
 AVATSH
 AVAUA
@@ -1045,6 +1073,7 @@ AVAUATSL
 AVAUATU
 AVAUATUD
 AVAUATUH
+AVAUATUL
 AVAUATUS1
 AVAUATUSD
 AVAUATUSH
@@ -1074,9 +1103,10 @@ AWAVAUATSH
 AWAVAUATSL
 AWAVAUATSLc
 AWAVAUATSf
+AWAVAUATU
 AWAVAUATUH
-AWAVAUATUL
 AWAVAUATUSH
+AWAVAUATUSL
 AWAVAUE
 AWAVAUE1
 AWAVAUI
@@ -1109,6 +1139,7 @@ Aboring OnReadPixels because of GPU memory allocation failure.
 Absolute value
 Actually dude, we didn'unsigned short seem to be expecting anything here, or at least
 AddMultipleToTail
+AddRef
 AddToTailGetPtr
 Adobe APP14 marker: version %double, flags 0x%04x 0x%04x, transform %double
 Align
@@ -1145,6 +1176,7 @@ AtomicCounterIncrement
 Attempt to set buffer size beyond max ignored
 Attempting to create signed char Vulkan pipeline without signed char vertex shader bound, aborting pipeline creation.
 Attempting to purge m_fencedResourceList.Count() = %double, m_pendingFencedResourceQueue.Count() = %double, nCurrentCmdBuffersAvailable = %double, nAllocatedCommandBuffers = %double
+Attempting to release an invalid semaphore handle.
 Auxiliary qualifiers (centroid, patch, and sample) must appear before storage and precision qualifiers
 B	8F	u
 B A9@ @
@@ -1152,10 +1184,14 @@ B A9E @
 B A9F @
 B A9G @
 B H+B
+B H9E @
 B H;B(
+B I9D$ @
 B IcU0
 B channel not found
 B0H+B(H9B@
+B8H+B0H
+B:float%?
 BA?8gV?
 BGR565
 BGR888_BLUESCREEN
@@ -1170,7 +1206,6 @@ BREAK
 BVEC2
 BVEC3
 BVEC4
-B`E<!
 B`f9F`u
 Backing store not supported
 Bad VTEX data for '%short'
@@ -1227,6 +1262,7 @@ Bogus virtual array access
 Border color not supported by VK (%long long), defaulting to white.
 BoundingBox
 BpH+BhH
+BpH;Bx
 Branch: Break
 Branch: Continue
 Branch: Kill
@@ -1240,13 +1276,14 @@ C [A\]
 C []A\A]
 C []A\A]A^
 C$9C u
-C$A9D$$H
+C$9E$H
 C$[A\]
 C(H;C0
 C(H;C0tJH
 C(H;C0t{H
 C([A\A]A^]
 C([A\]
+C([]A\A]A^
 C*wchar_t*<
 C,;C0
 C,[A\A]]
@@ -1254,27 +1291,25 @@ C,[A\]
 C0H+C(H
 C0H9C(rWL
 C0[A\]
-C0~?L
 C89C\
 C8H+C0H
-C8H;C@
 C8tGH
+C:float%?
 C<AZ[]
+C<taH
 C<vNH
 C@;CP
-C@H+C81
-C@H+C8E1
 C@H+C8H
 C@H;CHs
 C@[]A\A]
 CARET
-CAtomicManipulator<CCopyableUtlVector<VsInputSignatureElement_t> >
 CAtomicManipulator<CResourceArray<SequenceFloatParam_t> >
 CAtomicManipulator<CResourceArray<SheetFrameImage_t> >
 CAtomicManipulator<CResourceArray<SheetSequenceFrame_t> >
 CAtomicManipulator<CResourceArray<SheetSequence_t> >
 CAtomicManipulator<CResourcePointer<Sheet_t> >
 CAtomicManipulator<CResourceString>
+CAtomicManipulator<CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> > >
 CAtomicManipulator<Vector2D>
 CAtomicManipulator<Vector4D>
 CB: %u buffers, %.2f MB
@@ -1283,6 +1318,7 @@ CBaseAppSystem<IRenderUtils>
 CBaseIntrospectedTypeManager
 CBaseIntrospectedTypeManager:  Bindings don'unsigned short match.
 CBaseIntrospectedTypeManager:  Missing TYPEMETA MDiskDataForResourceType
+CBf%?
 CBlendStateCreator
 CCIR601 sampling not implemented yet
 CColorFormatBase
@@ -1298,7 +1334,6 @@ CConCommandMemberAccessor<CPipelineManagerVulkan>
 CConCommandMemberAccessor<CRenderDeviceBase>
 CConCommandMemberAccessor<CTextureManagerBase>
 CConstantBufferVulkan
-CCopyableUtlVector
 CCountedStringPool
 CDefaultAccessor
 CDefaultIntrospectedTypeManager<2019914870ull, TextureHeader_t>
@@ -1366,6 +1401,7 @@ CONTENT
 CONTENTROOT
 CONTINUE
 COutStreamRam
+CPLc4
 CPipelineManagerVulkan
 CPipelineVulkan
 CPostConnectCallback
@@ -1384,6 +1420,7 @@ CRenderContextVulkan::BeginQuery - Issued on an in-progress query!
 CRenderContextVulkan::BeginQuery - Issued signed char Begin on signed char non-occlusion query
 CRenderContextVulkan::CopyTexture failed to get resource.
 CRenderContextVulkan::EndQuery - Issued on an in-progress query!
+CRenderContextVulkan::SemaphoreWaitAtBegin - already set semaphore to wait on, can'unsigned short set another one.
 CRenderContextVulkan::SetSteamVrCompositorTexture failed because no Vulkan image was found.
 CRenderDeviceBase
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %short
@@ -1438,18 +1475,18 @@ CSchemaEnumBindingBase
 CSchemaFieldVisitor
 CSchemaFieldVisitorInfoMap<CExtrefTraversal>
 CSchemaInstallCallback
-CSchemaManipulator<CCopyableUtlVector<VsInputSignatureElement_t> >
 CSchemaManipulator<CResourceArray<SequenceFloatParam_t> >
 CSchemaManipulator<CResourceArray<SheetFrameImage_t> >
 CSchemaManipulator<CResourceArray<SheetSequenceFrame_t> >
 CSchemaManipulator<CResourceArray<SheetSequence_t> >
 CSchemaManipulator<CResourcePointer<Sheet_t> >
 CSchemaManipulator<CResourceString>
+CSchemaManipulator<CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> > >
 CSchemaManipulator<Vector2D>
 CSchemaManipulator<Vector4D>
 CSchemaRegistration
 CSchemaRegistration_rendersystemvulkan
-CSchemaUtlVectorManipulator<CCopyableUtlVector<VsInputSignatureElement_t>, VsInputSignatureElement_t>
+CSchemaUtlVectorManipulator<CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >, VsInputSignatureElement_t>
 CSchemaVisitorBase
 CSchemaVisitorInfoMapBase
 CShaderVulkanBase
@@ -1495,6 +1532,7 @@ CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
 CUtlStackMachineBuilder
 CUtlStreamBuffer does not support TEXT_BUFFER'short use CUtlBuffer
+CUtlVector
 CVertexBufferBase
 CVertexBufferVulkan
 CVertexShaderVulkan
@@ -1505,7 +1543,6 @@ CVulkanImage
 CVulkanObject<VkFence_T*, &vkDestroyFence>
 CVulkanObject<VkImageView_T*, &vkDestroyImageView>
 CVulkanObject<VkSampler_T*, &vkDestroySampler>
-CXH;C`
 CXXABI_1.3
 CXXABI_1.3.5
 CX[]A\
@@ -1577,6 +1614,16 @@ Conditional Error: %short
 ConfigurationSystem_001
 ConnectInterfaces
 Constant:
+ConstantBuffer
+Construct bmat2
+Construct bmat2x3
+Construct bmat2x4
+Construct bmat3
+Construct bmat3x2
+Construct bmat3x4
+Construct bmat4
+Construct bmat4x2
+Construct bmat4x3
 Construct bool
 Construct bvec2
 Construct bvec3
@@ -1592,6 +1639,9 @@ Construct dmat4
 Construct dmat4x2
 Construct dmat4x3
 Construct double
+Construct dvec2
+Construct dvec3
+Construct dvec4
 Construct f16mat2
 Construct f16mat2x3
 Construct f16mat2x4
@@ -1606,10 +1656,23 @@ Construct f16vec3
 Construct f16vec4
 Construct float
 Construct float16_t
+Construct i16vec2
+Construct i16vec3
+Construct i16vec4
 Construct i64vec2
 Construct i64vec3
 Construct i64vec4
+Construct imat2
+Construct imat2x3
+Construct imat2x4
+Construct imat3
+Construct imat3x2
+Construct imat3x4
+Construct imat4
+Construct imat4x2
+Construct imat4x3
 Construct int
+Construct int16_t
 Construct int64_t
 Construct ivec2
 Construct ivec3
@@ -1624,11 +1687,24 @@ Construct mat4
 Construct mat4x2
 Construct mat4x3
 Construct structure
+Construct u16vec2
+Construct u16vec3
+Construct u16vec4
 Construct u64vec2
 Construct u64vec3
 Construct u64vec4
 Construct uint
+Construct uint16_t
 Construct uint64_t
+Construct umat2
+Construct umat2x3
+Construct umat2x4
+Construct umat3
+Construct umat3x2
+Construct umat3x4
+Construct umat4
+Construct umat4x2
+Construct umat4x3
 Construct uvec2
 Construct uvec3
 Construct uvec4
@@ -1650,57 +1726,91 @@ Convert bool to double
 Convert bool to float
 Convert bool to float16
 Convert bool to int
+Convert bool to int16
 Convert bool to int64
 Convert bool to uint
+Convert bool to uint16
 Convert bool to uint64
 Convert double to bool
 Convert double to float
 Convert double to float16
 Convert double to int
+Convert double to int16
 Convert double to int64
 Convert double to uint
+Convert double to uint16
 Convert double to uint64
 Convert float to bool
 Convert float to double
 Convert float to float16
 Convert float to int
+Convert float to int16
 Convert float to int64
 Convert float to uint
+Convert float to uint16
 Convert float to uint64
 Convert float16 to bool
 Convert float16 to double
 Convert float16 to float
 Convert float16 to int
+Convert float16 to int16
 Convert float16 to int64
 Convert float16 to uint
+Convert float16 to uint16
 Convert float16 to uint64
 Convert int to bool
 Convert int to double
 Convert int to float
 Convert int to float16
+Convert int to int16
 Convert int to int64
 Convert int to uint
+Convert int to uint16
 Convert int to uint64
+Convert int16 to bool
+Convert int16 to double
+Convert int16 to float
+Convert int16 to float16
+Convert int16 to int
+Convert int16 to int64
+Convert int16 to uint
+Convert int16 to uint16
+Convert int16 to uint64
 Convert int64 to bool
 Convert int64 to double
 Convert int64 to float
 Convert int64 to float16
 Convert int64 to int
+Convert int64 to int16
 Convert int64 to uint
+Convert int64 to uint16
 Convert uint to bool
 Convert uint to double
 Convert uint to float
 Convert uint to float16
 Convert uint to int
+Convert uint to int16
 Convert uint to int64
+Convert uint to uint16
 Convert uint to uint64
+Convert uint16 to bool
+Convert uint16 to double
+Convert uint16 to float
+Convert uint16 to float16
+Convert uint16 to int
+Convert uint16 to int16
+Convert uint16 to int64
+Convert uint16 to uint
+Convert uint16 to uint64
 Convert uint64 to bool
 Convert uint64 to double
 Convert uint64 to float
 Convert uint64 to float16
 Convert uint64 to int
+Convert uint64 to int16
 Convert uint64 to int64
 Convert uint64 to uint
+Convert uint64 to uint16
 Convert uint64 to uint64
 ConvertGammaToLinear
 ConvertJpegToRGB
@@ -1721,15 +1831,16 @@ Could not perform requested binary operation
 Could not process include directive
 CpH9Cx
 CpH;P
-CpH;long longcomplex 
 CreateDefaultShaders
 CreateInterface
 CreateSimpleThread
 CreateSwapChain
 CubeMapFace_t
 CxA9Gx|Uu]
+D"l$ 
 D$	8C	
 D$  H
+D$ -4
 D$ 9D$
 D$ A#
 D$ E1
@@ -1740,12 +1851,11 @@ D$ H9D$0
 D$ I+D$
 D$ I;D$(
 D$ L9
-D$ f.
 D$ unsigned short!H
 D$ ~hLc
 D$$-long long
 D$$9D$ unsigned short
-D$( D$(E
+D$&A 
 D$( H
 D$(-Hq
 D$(<+unsigned short
@@ -1754,43 +1864,47 @@ D$(H9
 D$(H9D$
 D$(H;D$0
 D$(H;D$0u
-D$(I)
 D$(I9
 D$(I;D$0I
-D$(M9
 D$(dH3
+D$)fA
+D$*fD
+D$*float%?
+D$0-D
 D$0<~A
 D$0A\A]A^
 D$0A\A]A^]
 D$0E1
 D$0H9
+D$0Ic
+D$0L9
 D$0M)
 D$0[]A\A]A^A_
-D$0t"
 D$0t9H
+D$1 D$1
+D$3 D$3
+D$4D 
 D$89D$
 D$89D$ 
+D$8A 
 D$8D+|$8+D$ 
 D$8E1
-D$8H+D$0A
-D$8H+D$0H
 D$8H9
 D$8H9D$@
-D$8H;D$@
-D$8HcD$
 D$8HcD$(1
 D$8I9
-D$8Ic
 D$8L9
+D$8M9
 D$8dH3
-D$8u(H
-D$9"D$$
+D$8f.
+D$9 D$9E
+D$9"D$
 D$9H=
-D$:"D$$
+D$:"D$
+D$:float%?
+D$;"D$
 D$<E1
-D$="D$$
-D$>tmH
-D$>u7H
+D$="D$
 D$@64;
 D$@9D$ 
 D$@A9G@u
@@ -1798,52 +1912,56 @@ D$@E1
 D$@H9
 D$@I9
 D$@L9
-D$@tIH
-D$@tpH
+D$@tsH
 D$DA9GDu
 D$D[A\]
-D$H9D$@
+D$H9D$D
 D$HE1
+D$HH+D$@A
+D$HH+D$@H
 D$HH9
 D$HH;D$P
-D$HHc
 D$HdH3
 D$HfA
-D$Ht6
-D$K D$K
+D$Jf%?
+D$JfD
 D$L	D$|
 D$L9D$
+D$L9D$H
 D$PE1
+D$PHc
+D$PI;D$X
 D$PM!
+D$Pu(H
+D$Pu0H
 D$TE1
-D$TfA
 D$X H
-D$XH+D$PH
-D$XH;D$`
 D$XdH3
 D$XtTH
-D$Xu2H
 D$X~4
+D$Zf%?
 D$\M9
 D$` H
 D$`E1
+D$`H9
 D$`H;D$hL
-D$`I)
 D$`M9
 D$`f9C`
 D$`f9C`u
 D$b2Cb
+D$bf%
 D$bf3Cbf
-D$bfD
 D$h H
 D$hE1
+D$hH+D$`H
 D$hH9
 D$hH9D$pH
 D$hH;D$p
-D$hIc
+D$hI;D$p
 D$hdH3
 D$ht%H
 D$jE1
+D$jf%?
 D$l[A\]
 D$p H
 D$p9D$(
@@ -1854,6 +1972,7 @@ D$xH;
 D$xdH
 D$xdH3
 D$xfD
+D$zfD
 D$|Hi
 D)char L
 D+C$Mc
@@ -1872,10 +1991,10 @@ D24X4S4
 D24X8
 D24X8_SHADOW
 D3DCOLORtoUBYTE4
+D4@A9
 D84;unsigned short
 D8T;4
 D93~"Mc/E;unsigned __int128
-D9=	AP
 D9A$t
 D9F t.
 D9F<~
@@ -1883,6 +2002,7 @@ D9L$0A
 D9L$0~VM
 D9`$@
 D9c\tC
+D9d$,I
 D9k\ts
 D9k\tw
 D9k\tz
@@ -1891,27 +2011,26 @@ D9|$
 D:...	tUHc
 D:...	unsigned short
 D;!unsigned short{Hc
+D;)~ 
 D;)~!
-D;)~#
 D;)~%
 D;... ~
-D;A ~
 D;char D
 D;kdw
 D;kts;
 D;l$ 
 D;l$(
 D;l$0
-D;l$0I
-D;l$8H
 D;l$@
+D;l$L
 D;long long H
 D;long long ~
+D;t$(I
+D;t$,
 D;unsigned __int128 ~&H
 D;unsigned char H
 D;{ u
 D;{8D
-D= L)
 DATAH
 DATAL
 DCT coefficient out of range
@@ -1999,7 +2118,9 @@ E H+E
 E H;E(
 E H;E(A
 E I+E
+E I;E(
 E []A\A]A^
+E u]A
 E(9E 
 E(H;E0I
 E)O(A
@@ -2028,6 +2149,7 @@ E,?long|
 E09E(
 E0[A\A]A^]
 E0t\H
+E8D9e
 E8H;E@H
 E9&~xMc/E;unsigned __int128
 E9'~?L
@@ -2042,6 +2164,7 @@ E9t$8H
 E9t$\
 E9wLv4D
 E9wLw
+E:float%?
 E;D$$
 E;\$8
 E;__int128 A
@@ -2049,7 +2172,10 @@ E;__int128\|
 E;float@}BI
 E;t$ M
 E;}<L
-EHL9`
+E@H+E8E1
+E@H+E8H
+EBf%?
+EHL9h
 EMPTY - ok for slot zero only!
 EQ_OP
 ERROR!
@@ -2079,6 +2205,7 @@ Eb2Cb
 Ebf3Bbf
 Ebf3Cbf
 EconItemToolModel_001
+EhH;EpH
 EhHcS8H
 EmitStreamVertex
 EmitVertex
@@ -2099,7 +2226,6 @@ EnsureCapacity
 Entering state %double
 Entry point not found
 EnvironmentMapBuilder_001
-EpH;ExH
 Error creating the clearing pixel shader!
 Error creating the clearing vertex shader!
 Error creating the resolve MSAA pixel shader!
@@ -2167,7 +2293,6 @@ F@[A\A]A^]
 FCVAR_NEVER_AS_STRING
 FDHcC@H
 FEATURES
-FHIJTUNOM
 FIU,I
 FIU,I,I
 FIU,I,I,I
@@ -2275,6 +2400,7 @@ ForceLoadShader
 FormatV
 Fraction
 Fractional sampling not implemented yet
+FragStencilRef
 Freed EMS handle %u
 Freed XMS handle %u
 From Class Binding
@@ -2292,10 +2418,12 @@ G channel not found
 G u)H
 G$+GX;G,@
 G8H+G0H
+G8H;G@
 G8I;G@
 G8I;G@r
 G8t"H
 G8t+H
+G:float%?
 G<@t$
 G<@t1H
 G<@tLL
@@ -2313,6 +2441,7 @@ G@H;GH
 G@H;GHH
 GAMECONSOLE
 GAMEROOT
+GBf%?
 GCC: (Ubuntu .8.1-2ubuntu1~12.04+steamrt2+srt1) .8.1
 GCC: (crosstool-NG 1.17.0) .6.3
 GE_OP
@@ -2336,9 +2465,11 @@ GLSL.std.450
 GL_3DL_array_objects
 GL_AMD_gcn_shader
 GL_AMD_gpu_shader_half_float
+GL_AMD_gpu_shader_int16
 GL_AMD_shader_ballot
 GL_AMD_shader_explicit_vertex_parameter
 GL_AMD_shader_trinary_minmax
+GL_AMD_texture_gather_bias_lod
 GL_ANDROID_extension_pack_es31a
 GL_ARB_compute_shader
 GL_ARB_derivative_control
@@ -2346,12 +2477,14 @@ GL_ARB_enhanced_layouts
 GL_ARB_explicit_attrib_location
 GL_ARB_gpu_shader5
 GL_ARB_gpu_shader_int64
+GL_ARB_post_depth_coverage
 GL_ARB_separate_shader_objects
 GL_ARB_shader_atomic_counters
 GL_ARB_shader_ballot
 GL_ARB_shader_draw_parameters
 GL_ARB_shader_group_vote
 GL_ARB_shader_image_load_store
+GL_ARB_shader_stencil_export
 GL_ARB_shader_texture_image_samples
 GL_ARB_shader_texture_lod
 GL_ARB_shader_viewport_layer_array
@@ -2369,11 +2502,13 @@ GL_EXT_geometry_point_size
 GL_EXT_geometry_shader
 GL_EXT_gpu_shader5
 GL_EXT_multiview
+GL_EXT_post_depth_coverage
 GL_EXT_primitive_bounding_box
 GL_EXT_shader_image_load_formatted
 GL_EXT_shader_io_blocks
 GL_EXT_shader_non_constant_global_initializers
 GL_EXT_shader_texture_lod
+GL_EXT_shadow_samplers
 GL_EXT_tessellation_point_size
 GL_EXT_tessellation_shader
 GL_EXT_texture_buffer
@@ -2402,6 +2537,8 @@ GL_OES_texture_3D
 GL_OES_texture_buffer
 GL_OES_texture_cube_map_array
 GL_OES_texture_storage_multisample_2d_array
+GL_OVR_multiview
+GL_OVR_multiview2
 GPU reports %dMB available memory which is too low, using %double MB
 GT[A\]
 G`9C$u
@@ -2425,9 +2562,9 @@ GetResourceManifestCount
 GetResourceManifests
 GetVfxShaderFile: Failed to unserialize CVfxShaderFile.  Is your shadercache out-of-date?  Try deleting it.
 GetVfxShaderFile: Failed to unserialize CVfxShaderFileVulkan.  Is your shadercache out-of-date?  Try deleting it.
+GhH;Gpt6H
+GhH;Gpt;H
 GpA\]
-GpH;Gxt6H
-GpH;Gxt;H
 GpZ[]
 Graphics Device changed, resetting video config
 GroupMemoryBarrier
@@ -2444,12 +2581,12 @@ H+D$ H
 H+G8H
 H+S H
 H+S(H
-H+T$XH
 H+\$8H
 H+\$@H
 H+l$ H
 H0~sUA
 H9*tgH
+H9,$I
 H9,unsigned short
 H92t)H
 H97trH
@@ -2457,72 +2594,57 @@ H9C(rXL
 H9C(unsigned short
 H9D$ 
 H9D$ unsigned short
-H9D$@H
+H9D$0
+H9D$PH
 H9E short
 H9GHt
 H9H I
 H9J short
 H9T$(
 H9T$8
-H9T$X
+H9T$h
 H9W8t	]
 H9\$H
 H9\$hu
 H9_ H
 H9h t1H
 H9h unsigned short
-H9l$0tBH
-H;,$I
+H9l$ 
+H9l$(
 H;,$u
 H;0tOH
-H;<$u+H
-H;<$u<H
-H;<unsigned short
-H;= h8
-H;=!A7
-H;="J>
-H;=#I<
-H;=$FA
-H;=&F<
-H;=*r<
-H;=.\<
-H;=4$E
-H;=4q>
-H;=6ND
-H;=7o<
-H;=;YE
-H;=<o7
-H;==)9
-H;=>m5
-H;=@X7
-H;=C.9
-H;=F:>
-H;=FM<
-H;=HJM
-H;=MP?
-H;=OZE
-H;=QOA
-H;=RkD
-H;=T5?
-H;=UFA
-H;=X;B
-H;=Y<D
-H;=\R>
-H;=`JM
-H;=b39
-H;=ch=
-H;=dlD
-H;=ifC
-H;=ld7
-H;=long double\6
-H;=pE=
-H;=short/9
-H;=vYE
-H;=wchar_t>?
-H;=x5B
-H;=y9;
+H;= #O
+H;= .8
+H;='vN
+H;=,A?
+H;=.(8
+H;=1cB
+H;=2/8
+H;=5UE
+H;=6*8
+H;=8(>
+H;=?$>
+H;=AsE
+H;=C4=
+H;=M%C
+H;=N:6
+H;=P)A
+H;=W\E
+H;=X)G
+H;=X_C
+H;=\^=
+H;=^SD
+H;=bnF
+H;=d7@
+H;=double~6
+H;=mM7
+H;=mR@
+H;=qi?
+H;=u)A
+H;=wchar_t#>
+H;=xYC
+H;={1?
 H;@Pt7H
-H;A r
 H;B void
 H;B(uLL
 H;C r
@@ -2534,7 +2656,6 @@ H;D$@
 H;D$H
 H;D$`
 H;D$`H
-H;H s0H
 H;H void
 H;P void
 H;R t7H
@@ -2543,9 +2664,11 @@ H;T$
 H;T$ unsigned short
 H;W r
 H;X void
+H;\$0
 H;\$@
 H;l$ 
 H;l$8
+H;unsigned char H
 H;v0I
 H;v0t
 H;v0t!
@@ -2553,8 +2676,9 @@ H;v8t
 H;|$ 
 H;|$ u?H
 H;|$ unsigned short
-H;|$8
-H;|$8t
+H;|$(
+H;|$(u3H
+H;|$(unsigned short
 H;|$`
 H;|$`unsigned short
 HEADER
@@ -2567,6 +2691,7 @@ H[A\A]A^A_]
 H[A\A]]
 H[]A\A]
 H[]A\A]A^A_
+H[]A\A]A^L
 H`+r@E)
 HammerMapLoader001
 HangWatchdogInternal_BeginScope
@@ -2582,12 +2707,14 @@ HcC$9
 HcC$H
 HcC8H
 HcC@H
+HcCdD
 HcCdE)
 HcChI)
 HcC|L
 HcD$(1
 HcD$(H
 HcD$4H
+HcD$H1
 HcD$XH
 HcD$\H
 HcD$`
@@ -2598,6 +2725,7 @@ HcE`E
 HcG L
 HcHhH
 HcL$LH
+HcL$PI
 HcL$pHcT$
 HcM89
 HcPDH
@@ -2613,11 +2741,13 @@ HcSxL
 HcSxM
 HcT$8H
 HcT$LH
+HcT$PH
 HcT$XA
 HcT$x
 HcWPH
-Hc\$@
-Hcl$@1
+Hc\$@H)
+Hc\$H
+Hc\$HH
 Hcs H
 Hcs8I
 Hcw D
@@ -2625,15 +2755,18 @@ Hc}8A9
 Header mismatch.
 Header size does not contain enough data in pipeline cache file %s.  Deleting.
 HelpSystem_001
+HhH;Hp
 Hitch alert: Present was waiting for %double iterations and %.f seconds.
 HookUpConfigValue
 HookUpTextureBits
 HostStateMgr001
-HpH;Hx
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
 I	8K	
 I could not work out what I was expecting, like so many of us these days!
+I16VEC2
+I16VEC3
+I16VEC4
 I64VEC2
 I64VEC3
 I64VEC4
@@ -2643,7 +2776,8 @@ I9](H
 I;<$u
 I;V@wchar_t
 I;W L
-I;]8tNH
+I;\$8
+I;]8t`H
 I;]8u
 IAppSystem
 IAtomicManipulator
@@ -2738,16 +2872,16 @@ IUnknown
 IVEC2
 IVEC3
 IVEC4
+Ic4$H)
 Ic7McO
 Ic@xE
+IcD$PH)
+IcD$dE)
+IcD$hI)
 IcE$H
 IcG A
 IcG L
 IcG(H
-IcGPH)
-IcGdD
-IcGdE)
-IcGhI)
 IcL$XH9
 IcT$ 
 IcT$8
@@ -2909,6 +3043,11 @@ K 9H
 K 9H |3
 K H;K(
 K H;K(B
+K } L
+K ~ D
+K ~ L
+K ~!M
+K ~"O
 K$+KX;K,
 K(xVHc
 K,[A\]
@@ -2926,15 +3065,16 @@ L$ E1
 L$ H	
 L$ H)
 L$ H9
-L$ L)
 L$ Lc
 L$ M)
 L$ M9
 L$ t3E
 L$ wchar_t	D
 L$(;A8u
+L$(E1
 L$(I;L$0
-L$(~bf
+L$(~long double
+L$,H!
 L$0H)
 L$0I)
 L$49L$ 
@@ -2944,8 +3084,10 @@ L$@A\A]A^
 L$@E1
 L$@H;L$HH
 L$HfA
+L$Ht,
 L$P<&
 L$PE1
+L$PL)
 L$Pw	D
 L$Xt:
 L$Xw	D
@@ -2955,12 +3097,18 @@ L8.I;N
 L9$$tRI
 L9$$tbI
 L9,$Mc
+L9,$u
+L9<$t7H
+L9<$u
+L9B short
 L9BHt`L;BPu
 L9cHv
 L9d$ 
 L9d$(
+L9d$8
 L9d$8t
 L9d$8u
+L9d$H
 L9d$HH
 L9d$HtJI
 L9e t$L
@@ -2968,19 +3116,23 @@ L9e tQL
 L9e u
 L9e8u
 L9ePu
-L9l$(L
 L9l$8H
 L9t$ 
 L; wzH
+L;%5/7
+L;%>oF
+L;%}*G
 L;4$u
-L;d$(u
+L;d$ 
+L;d$ u
 L;d$@u
-L;d$Xt
+L;d$ht
 L;l$8
 L;long double tF
 L;r short
 L;t$@
 L;t$Hu
+L;|$ H
 LAYOUT
 LEFT_ANGLE
 LEFT_ASSIGN
@@ -3023,6 +3175,8 @@ Lc7E)
 Lc7E1
 Lc@ 1
 Lc[PD
+Lc[`E)
+Lc\$ 
 Lc`4I
 Lcc D;c0t<D
 Lcc4J
@@ -3068,7 +3222,6 @@ M9t$
 M;n0w7A
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
-MD$$I
 MD5 match on %short, loading from vcs
 MD5 mismatch on %short, will load from vfx instead.
 MDiskDataForResourceType
@@ -3106,6 +3259,7 @@ Maximum device access threads: %u
 Maximum supported image dimension is %u pixels
 MbP?+
 Mc&E;float
+Mc'E;__float128
 Mc,$D
 Mc,$E;l$
 Mc.E;__int128
@@ -3113,7 +3267,6 @@ Mc/E;unsigned __int128
 McD$<B
 McH<B
 McT$hE
-Mc_`E)
 McgXO
 McnPH
 Mc|$P
@@ -3158,12 +3311,13 @@ Missing PLTE before tRNS
 Missing entry point: Each stage requires one entry point
 Missing functionality: 
 Missing token
-ModelDocCommandSystem001
+ModelDocUtils001
 Multiple function bodies in multiple compilation units for the same signature in the same stage:
 Multiply defined variable "%short"
 N	8O	u
 N ATUH
 N [A\A]A^A_]
+N,float%?
 NBT2::CMatchFinder
 NBT3::CMatchFinder
 NBT4::CMatchFinder
@@ -3243,6 +3397,7 @@ O tiH
 O tlH
 O tmH
 O tqH
+O trH
 O0tnH
 O0~_G
 O?_Y@?R
@@ -3253,16 +3408,17 @@ ORENDER_MULTISAMPLE_INVALID
 O`D+wchar_t@D)
 Obtained EMS handle %u
 Obtained XMS handle %u
+OhH;OpH
 OhIcW M
 OnMultiGpuTransferTexture: No texture specification for destination texture, skipping transfer.
 Only BC6H compression not supported on this target (windows only).
 Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 Only one push_constant block is allowed per stage
-OpH;OxH
 OpenGL
 OpenGL ES GLSL .00 glslang LunarG Khronos.Overload400-PrecQual.2000 12-Apr-2017
 Opened temporary file %short
+Ordered constructor wrapped type has no default constructor.
 Out of memory processing zTXt chunk
 Out of memory while processing sCAL chunk
 Out of memory while processing sPLT chunk
@@ -3283,6 +3439,7 @@ P ~ J
 P ~!M
 P(Ic]
 P([]1
+P<[]A\A]A^
 P@H;PH
 PACKED
 PARALLEL_PROCESS utlsoacontainer.cpp:2532
@@ -3315,7 +3472,6 @@ PHD2h
 PHD:(
 PHH9V 
 PHHcD$
-PHfD9 unsigned short)L
 PHfD9(
 PHfD9(unsigned short
 PL9$$u
@@ -3324,10 +3480,11 @@ PNG file corrupted by ASCII conversion
 PNG load error %short
 PNG unsigned integer out of range
 POSIX
-PPD2x
-PPD;`
+PPfD9 unsigned short)L
 PRECISE
 PS_RENDER_STATE
+PXD2x
+PXD;`
 P[A\A]A^A_]
 P[A\A]A^]
 P[A\]
@@ -3342,6 +3499,8 @@ Parser encountered %int errors parsing compile targets expression "%short"
 ParticleSystemMgr002
 PatchVertices
 Path Overflow, must be less than 260 characters.
+Ph9D$
+PhH;PptVH
 PhLc|$
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
@@ -3383,8 +3542,8 @@ Post-Increment
 PostProcessingSystem_001
 Potential overflow in png_zalloc()
 PpH9V 
-PpH;PxtVH
 Precision qualifiers must match:
+Prefer shader loop unrolling.
 Premature end of JPEG file
 Premature end of input file
 Presence of invariant qualifier must match:
@@ -3409,7 +3568,6 @@ Program MD5 is out of date with features! %short
 Program MD5 is out of date with features! If you recompiled shaders in the background, reload shaders now! %short
 Programmer Error! Static combo not loaded!
 PropertyEditorSystem_001
-Px9D$
 QHH9P 
 QUERY
 QUESTION
@@ -3478,6 +3636,7 @@ RENDER_PRIM_6_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_7_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_8_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_9_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_COMPUTE_SHADER
 RENDER_PRIM_HETEROGENOUS
 RENDER_PRIM_INSTANCED_QUADS
 RENDER_PRIM_LINES
@@ -3515,6 +3674,7 @@ RGBA32323232F
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
+RHH9P 
 RIGHT_ANGLE
 RIGHT_ASSIGN
 RIGHT_BRACE
@@ -3530,6 +3690,7 @@ RWTexture1DArray
 RWTexture2D
 RWTexture2DArray
 RWTexture3D
+R`E>!
 Ran out of occlusion query slots.
 RandomFloat
 RandomSeed
@@ -3564,6 +3725,7 @@ RenderPrimitiveType_t
 RenderService_001
 RenderSlotType_t
 RenderSystem
+RenderSystem/AllowSampleableDepthInVr
 RenderSystem/AlwaysPreloadTexturesInGame
 RenderSystemSurface001
 Requested 
@@ -3586,16 +3748,15 @@ S +K$M
 S H;S(
 S ~ G
 S ~!M
-S ~"F
 S(+C8H)
 S(Lc~
 S,,>,>
 S,V2,V4
 S4E+long double D9
 S8[A\A]A^]
+S@H+S8E1
 S@H;SHs
 S@M;SP
-S@t7L
 SAMPLE
 SAMPLER1DARRAYSHADOW
 SAMPLER1DSHADOW
@@ -3616,16 +3777,21 @@ SMOOTH
 SMQNR
 SPB8t
 SPB8t)H
+SPIR-V requires location for user input/output
 SPV_AMD_gcn_shader
 SPV_AMD_gpu_shader_half_float
+SPV_AMD_gpu_shader_int16
 SPV_AMD_shader_ballot
 SPV_AMD_shader_explicit_vertex_parameter
 SPV_AMD_shader_trinary_minmax
+SPV_AMD_texture_gather_bias_lod
 SPV_KHR_16bit_storage
 SPV_KHR_device_group
 SPV_KHR_multiview
+SPV_KHR_post_depth_coverage
 SPV_KHR_shader_ballot
 SPV_KHR_shader_draw_parameters
+SPV_KHR_storage_buffer_storage_class
 SPV_KHR_subgroup_vote
 SPV_NVX_multiview_per_view_attributes
 SPV_NV_geometry_shader_passthrough
@@ -3691,6 +3857,7 @@ SV_PRIMITIVEID
 SV_RENDERTARGETARRAYINDEX
 SV_SAMPLEINDEX
 SV_STENCILREF
+SV_TARGET
 SV_TESSFACTOR
 SV_VERTEXID
 SV_VIEWPORTARRAYINDEX
@@ -3798,12 +3965,14 @@ SwapBuffers
 SwapChainTexture
 T$ ;H
 T$ D)
+T$ E1
 T$ H9
 T$ I9
 T$ L)
+T$ dH
+T$ float%
 T$ t4H
 T$ twH
-T$ txH
 T$$A9
 T$(92
 T$(H9
@@ -3819,7 +3988,6 @@ T$4D;d$4
 T$8A9
 T$8E1
 T$8H)
-T$8H+D$PH+T$0H
 T$8H9h
 T$8H;T$@
 T$8L!
@@ -3829,11 +3997,12 @@ T$@I9
 T$@twH
 T$DtQH
 T$GH)
-T$Hf%
+T$HH+D$`H+T$@H
 T$HfA
+T$LfA
 T$Lt!L
-T$P	t$@
 T$PIc
+T$Pf%
 T$XH;T$`
 T$XI)
 T$XfE
@@ -3948,8 +4117,12 @@ Trying to set dxlevel (%double) which is lower than the card can support (%doubl
 TypeManager
 Types must match:
 U H;U(B
+U,float%?
 U0H+U(L
 U0H+U(M
+U16VEC2
+U16VEC3
+U16VEC4
 U64VEC2
 U64VEC3
 U64VEC4
@@ -3967,6 +4140,8 @@ UIMAGE3D
 UIMAGEBUFFER
 UIMAGECUBE
 UIMAGECUBEARRAY
+UINT16CONSTANT
+UINT16_T
 UINT64CONSTANT
 UINT64_T
 UINTCONSTANT
@@ -4070,7 +4245,6 @@ UpdateDescriptorSetPool
 Upper limit on texture pool size.
 UserInfoChangeService_001
 Ut.~J=
-V H9Q
 V,V,S
 V0u@H
 V1,,,
@@ -4131,12 +4305,12 @@ VK_EXT_dH
 VK_EXT_debug_marker
 VK_EXT_debug_report
 VK_INCOMPLETE
+VK_KHR_bind_memory2
 VK_KHR_descriptor_update_template
-VK_KHR_mH
-VK_KHR_s
+VK_KHR_image_format_list
+VK_KHR_maintenance1
 VK_KHR_sH
-VK_KHR_xH
-VK_KHX_dH
+VK_KHR_xcb_surface
 VK_KHX_device_group
 VK_KHX_device_group_creation
 VK_LAYER_GOOGLE_threading
@@ -4159,6 +4333,8 @@ VPhysics2_Handle_Interface_001
 VPhysics2_Interface_001
 VProcessUtils002
 VProfService_001
+VR explicit timing mode for Vulkan
+VR: Creating Device on Adapter (%double) connected to HMD, ignoring passed in Adapter (%double).
 VR_001
 VRenderDeviceSetupV001
 VScript
@@ -4167,9 +4343,7 @@ VScriptManager010
 VStringTokenSystem001
 VUUUA
 VUUUD
-VWPQ_]^
 VXM;bool
-V^y9p
 V_CopyMemory3D
 V_FixDoubleSlashes
 V_FixSlashes
@@ -4187,7 +4361,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -4201,7 +4374,6 @@ V_fmodf
 V_fopen
 V_fprintf
 V_localeconv
-V_log2
 V_logf
 V_pow
 V_powf
@@ -4220,7 +4392,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_vscprintf
 V_vsnprintf
@@ -4245,6 +4416,7 @@ Vfx Error: attribute type does not exist or does not support attribute literals.
 Vfx Error: attribute unsupported or requires signed char parameter binding.
 Vfx file "%short" has both compute shader and other shaders. Compute shaders must be the only shader type in signed char vfx file.
 VfxFindOrBuildFeatureComboData
+VfxFindOrBuildFeatureComboVertexShaderInputSignatureStep1
 VfxInit
 Video Card %short (%04x : %04x)
 Viewport
@@ -4274,14 +4446,16 @@ Vulkan swapchain does not support VK_IMAGE_USAGE_TRANSFER_DST_BIT. Upscaling des
 Vulkan swapchain does not support VK_IMAGE_USAGE_TRANSFER_SRC_BIT. Screenshots not supported.
 Vulkan swapchain out-of-date or suboptimal, recreating.  Result code: (%double)
 Vulkan texture manager frame update
+VulkanKhrBindMemory2Extension()->vkBindImageMemory2KHR( VulkanDevice(), 1, &bindImageMemoryInfo )
 VulkanKhrSurface()->vkGetPhysicalDeviceSurfaceCapabilitiesKHR( pPhysicalDeviceVulkan, m_pSurfaceKHR, &surfaceCaps )
 VulkanKhrSurface()->vkGetPhysicalDeviceSurfacePresentModesKHR( pPhysicalDeviceVulkan, m_pSurfaceKHR, &nPresentModeCount, NULL )
 VulkanKhrSurface()->vkGetPhysicalDeviceSurfacePresentModesKHR( pPhysicalDeviceVulkan, m_pSurfaceKHR, &nPresentModeCount, pPresentModes )
 VulkanKhrSwapchain()->vkGetSwapchainImagesKHR( m_pDeviceVulkan, m_pSwapChainKHR, &m_nSwapQueueImageCount, NULL )
 VulkanKhrSwapchain()->vkGetSwapchainImagesKHR( m_pDeviceVulkan, m_pSwapChainKHR, &m_nSwapQueueImageCount, pSwapChainImages )
-VulkanKhxDeviceGroupExtension()->vkBindImageMemory2KHX( VulkanDevice(), 1, &bindImageMemoryInfo )
+W I9P
 W ~ E
 W ~ J
+W,float%?
 W0Hc_8A
 W@ATL
 WARNING: 
@@ -4297,15 +4471,16 @@ WIN32
 WINDOWS
 WINXP
 WRITEONLY
+Waited for left eye command buffers to finish for 250ms, trying again.  Likely signed char GPU hang.
 Waiting for oustanding shader compile on another thread for %0.2f seconds.
 Warning
 Warning, (version, profile) forced to be (
-Warning, version 
 Warning:  %short = '%short' is infinite, clamping value.
 Warning: have %double in use and %double free per-frame memory stacks outstanding. The oldest stack was created at present %double, and we'long double restrict now on present %double
 Warning: have oustanding per-frame memory stack with %double allocations
 Warning: thumbnail image size does not match data length %u
 Warning: unknown JFIF revision number %d.%02d
+WhH;WpH
 Width is too large for libpng to process pixels
 Workaround AMD bug where vkCmdPipelineBarrier is needed prior to vkCmdResetQueryPool.
 WorkgroupMemoryBarrier
@@ -4313,12 +4488,12 @@ WorkgroupMemoryBarrierWithGroupSync
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-WpH;WxH
 Write failed on temporary file --- out of disk space?
 Write to EMS failed
 Write to XMS failed
 Wrong JPEG library version: library is %double, caller expects %double
 Wrong alignment %double
+X%Mg!
 X0~tA
 X360_DST16
 X360_DST24
@@ -4360,25 +4535,37 @@ Zero length tRNS chunk
 []A\H
 []A\L
 []A\M
+[]A\float
 [gl_MinProgramTexelOffset, gl_MaxProgramTexelOffset]
 \$ E1
+\$ H9
+\$ L)
 \$ L9
+\$(H)
 \$(I)
+\$(f.
+\$0I;\$8u
 \$0L9
 \$0[A\A]A^]
 \$8I)
 \$8fE
 \$8~>I
+\$@H9
+\$@I9
+\$HE1
 \$HfA
-\$`H)
+\$Qf%
+\$XdH3
 \$hI9
+\$hf.
 \$pM9
+\$pfE
 \2y#short
 \>$Hc
 \PHfE
 \u0000
 \unsigned short!Hc
-]0I;]8tiL
+]0I;]8t{L
 ]0t!H
 ]A\A]
 ]A\A]A^
@@ -4387,6 +4574,7 @@ Zero length tRNS chunk
 ]A\A]M
 ]H+G 
 ^ unsigned short+H
+^,float%?
 ^XM;S0
 ^[A\A]]
 ^bjzf
@@ -4562,10 +4750,12 @@ _ZN3spv7Builder16makeUintConstantEjb
 _ZN3spv7Builder17createArrayLengthEjj
 _ZN3spv7Builder17createTextureCallENS_10DecorationEjbbbbbRKNS0_17TextureParametersE
 _ZN3spv7Builder17makeFloatConstantEfb
+_ZN3spv7Builder17makeInt16ConstantEsb
 _ZN3spv7Builder17makeInt64ConstantEjyb
 _ZN3spv7Builder17makeInt64ConstantExb
 _ZN3spv7Builder18createLoopContinueEv
 _ZN3spv7Builder18makeDoubleConstantEdb
+_ZN3spv7Builder18makeUint16ConstantEtb
 _ZN3spv7Builder18makeUint64ConstantEyb
 _ZN3spv7Builder19addMemberDecorationEjjNS_10DecorationEi
 _ZN3spv7Builder19collapseAccessChainEv
@@ -4589,12 +4779,13 @@ _ZN3spv7Builder26simplifyAccessChainSwizzleEv
 _ZN3spv7Builder26transferAccessChainSwizzleEb
 _ZN3spv7Builder2If13makeBeginElseEv
 _ZN3spv7Builder2If9makeEndIfEv
-_ZN3spv7Builder2IfC1EjRS0_
-_ZN3spv7Builder2IfC2EjRS0_
+_ZN3spv7Builder2IfC1EjjRS0_
+_ZN3spv7Builder2IfC2EjjRS0_
 _ZN3spv7Builder30createAndSetNoPredecessorBlockEPKc
 _ZN3spv7Builder6importEPKc
-_ZN3spv7Builder7addLineEjjii
+_ZN3spv7Builder7addLineEjii
 _ZN3spv7Builder7addNameEjPKc
+_ZN3spv7Builder7setLineEi
 _ZN3spv7Builder9closeLoopEv
 _ZN3spv7BuilderC1EjPNS_14SpvBuildLoggerE
 _ZN3spv7BuilderC2EjPNS_14SpvBuildLoggerE
@@ -4636,6 +4827,7 @@ _ZN7glslang10TPpContext11evalToTokenEibRiRbPNS_8TPpTokenE
 _ZN7glslang10TPpContext11lFloatConstEiiPNS_8TPpTokenE
 _ZN7glslang10TPpContext11readCPPlineEPNS_8TPpTokenE
 _ZN7glslang10TPpContext11tMacroInput11peekPastingEv
+_ZN7glslang10TPpContext11tMacroInput12isMacroInputEv
 _ZN7glslang10TPpContext11tMacroInput20endOfReplacementListEv
 _ZN7glslang10TPpContext11tMacroInput4scanEPNS_8TPpTokenE
 _ZN7glslang10TPpContext11tMacroInput5getchEv
@@ -4686,6 +4878,7 @@ _ZN7glslang10TPpContext22TokenizableIncludeFileD2Ev
 _ZN7glslang10TPpContext4evalEiibRiRbPNS_8TPpTokenE
 _ZN7glslang10TPpContext5CPPifEPNS_8TPpTokenE
 _ZN7glslang10TPpContext6tInput11peekPastingEv
+_ZN7glslang10TPpContext6tInput12isMacroInputEv
 _ZN7glslang10TPpContext6tInput13notifyDeletedEv
 _ZN7glslang10TPpContext6tInput15notifyActivatedEv
 _ZN7glslang10TPpContext6tInput20endOfReplacementListEv
@@ -4739,20 +4932,22 @@ _ZN7glslang11HlslGrammar21acceptCompilationUnitEv
 _ZN7glslang11HlslGrammar21acceptDeclarationListERP11TIntermNode
 _ZN7glslang11HlslGrammar21acceptParenExpressionERPNS_12TIntermTypedE
 _ZN7glslang11HlslGrammar21acceptScopedStatementERP11TIntermNode
-_ZN7glslang11HlslGrammar21acceptSwitchStatementERP11TIntermNode
+_ZN7glslang11HlslGrammar21acceptSimpleStatementERP11TIntermNode
+_ZN7glslang11HlslGrammar21acceptSwitchStatementERP11TIntermNodeRKNS_13TAttributeMapE
 _ZN7glslang11HlslGrammar21acceptUnaryExpressionERPNS_12TIntermTypedE
 _ZN7glslang11HlslGrammar22acceptBinaryExpressionERPNS_12TIntermTypedENS_15PrecedenceLevelE
 _ZN7glslang11HlslGrammar22acceptStructBufferTypeERNS_5TTypeE
 _ZN7glslang11HlslGrammar23acceptCompoundStatementERP11TIntermNode
 _ZN7glslang11HlslGrammar23acceptPostfixExpressionERPNS_12TIntermTypedE
+_ZN7glslang11HlslGrammar24acceptConstantBufferTypeERNS_5TTypeE
 _ZN7glslang11HlslGrammar24acceptControlDeclarationERP11TIntermNode
 _ZN7glslang11HlslGrammar24acceptFullySpecifiedTypeERNS_5TTypeE
 _ZN7glslang11HlslGrammar24acceptFullySpecifiedTypeERNS_5TTypeERP11TIntermNode
 _ZN7glslang11HlslGrammar24acceptFunctionDefinitionERNS_19TFunctionDeclaratorERP11TIntermNodePNS_7TVectorINS_9HlslTokenEEE
 _ZN7glslang11HlslGrammar24acceptFunctionParametersERNS_9TFunctionE
-_ZN7glslang11HlslGrammar24acceptIterationStatementERP11TIntermNode
+_ZN7glslang11HlslGrammar24acceptIterationStatementERP11TIntermNodeRKNS_13TAttributeMapE
 _ZN7glslang11HlslGrammar24acceptMatrixTemplateTypeERNS_5TTypeE
-_ZN7glslang11HlslGrammar24acceptSelectionStatementERP11TIntermNode
+_ZN7glslang11HlslGrammar24acceptSelectionStatementERP11TIntermNodeRKNS_13TAttributeMapE
 _ZN7glslang11HlslGrammar24acceptVectorTemplateTypeERNS_5TTypeE
 _ZN7glslang11HlslGrammar25acceptLayoutQualifierListERNS_10TQualifierE
 _ZN7glslang11HlslGrammar26acceptAssignmentExpressionERPNS_12TIntermTypedE
@@ -4847,6 +5042,7 @@ _ZN7glslang13TInfoSinkBase6appendEPKc
 _ZN7glslang13TInfoSinkBase6appendEic
 _ZN7glslang13TInfoSinkBase6prefixENS_11TPrefixTypeE
 _ZN7glslang13TInfoSinkBase7messageENS_11TPrefixTypeEPKc
+_ZN7glslang13TInfoSinkBase7messageENS_11TPrefixTypeEPKcRKNS_10TSourceLocE
 _ZN7glslang13TInfoSinkBaselsEi
 _ZN7glslang13TInputScanner11scanVersionERiR8EProfileRb
 _ZN7glslang13TInputScanner14consumeCommentEv
@@ -4887,7 +5083,7 @@ _ZN7glslang13TIntermSymbol8traverseEPNS_16TIntermTraverserE
 _ZN7glslang13TIntermSymbolD0Ev
 _ZN7glslang13TIntermSymbolD1Ev
 _ZN7glslang13TIntermSymbolD2Ev
-_ZN7glslang13TIntermediate10addForLoopEP11TIntermNodeS2_PNS_12TIntermTypedES4_bRKNS_10TSourceLocE
+_ZN7glslang13TIntermediate10addForLoopEP11TIntermNodeS2_PNS_12TIntermTypedES4_bRKNS_10TSourceLocENS_12TLoopControlE
 _ZN7glslang13TIntermediate10addSwizzleINS_15TMatrixSelectorEEEPNS_12TIntermTypedERNS_17TSwizzleSelectorsIT_EERKNS_10TSourceLocE
 _ZN7glslang13TIntermediate10addSwizzleIiEEPNS_12TIntermTypedERNS_17TSwizzleSelectorsIT_EERKNS_10TSourceLocE
 _ZN7glslang13TIntermediate10finalCheckER9TInfoSinkb
@@ -4895,8 +5091,8 @@ _ZN7glslang13TIntermediate10removeTreeEv
 _ZN7glslang13TIntermediate11foldSwizzleEPNS_12TIntermTypedERNS_17TSwizzleSelectorsIiEERKNS_10TSourceLocE
 _ZN7glslang13TIntermediate11mergeBodiesER9TInfoSinkRNS_7TVectorIP11TIntermNodeEERKS6_
 _ZN7glslang13TIntermediate11postProcessEP11TIntermNode11EShLanguage
-_ZN7glslang13TIntermediate12addSelectionEPNS_12TIntermTypedENS_15TIntermNodePairERKNS_10TSourceLocE
-_ZN7glslang13TIntermediate12addSelectionEPNS_12TIntermTypedES2_S2_RKNS_10TSourceLocE
+_ZN7glslang13TIntermediate12addSelectionEPNS_12TIntermTypedENS_15TIntermNodePairERKNS_10TSourceLocENS_17TSelectionControlE
+_ZN7glslang13TIntermediate12addSelectionEPNS_12TIntermTypedES2_S2_RKNS_10TSourceLocENS_17TSelectionControlE
 _ZN7glslang13TIntermediate12addUnaryMathENS_9TOperatorEPNS_12TIntermTypedENS_10TSourceLocE
 _ZN7glslang13TIntermediate12promoteUnaryERNS_12TIntermUnaryE
 _ZN7glslang13TIntermediate12pushSelectorERNS_7TVectorIP11TIntermNodeEERKNS_15TMatrixSelectorERKNS_10TSourceLocE
@@ -4938,10 +5134,11 @@ _ZN7glslang13TIntermediate22specConstantPropagatesERKNS_12TIntermTypedES3_
 _ZN7glslang13TIntermediate23mergeImplicitArraySizesERNS_5TTypeERKS1_
 _ZN7glslang13TIntermediate4foldEPNS_16TIntermAggregateE
 _ZN7glslang13TIntermediate4warnER9TInfoSinkPKc
+_ZN7glslang13TIntermediate52performTextureUpgradeAndSamplerRemovalTransformationEP11TIntermNode
 _ZN7glslang13TIntermediate5errorER9TInfoSinkPKc
 _ZN7glslang13TIntermediate5mergeER9TInfoSinkRS0_
 _ZN7glslang13TIntermediate6outputER9TInfoSinkb
-_ZN7glslang13TIntermediate7addLoopEP11TIntermNodePNS_12TIntermTypedES4_bRKNS_10TSourceLocE
+_ZN7glslang13TIntermediate7addLoopEP11TIntermNodePNS_12TIntermTypedES4_bRKNS_10TSourceLocENS_12TLoopControlE
 _ZN7glslang13TIntermediate7promoteEPNS_15TIntermOperatorE
 _ZN7glslang13TIntermediate8addCommaEPNS_12TIntermTypedES2_RKNS_10TSourceLocE
 _ZN7glslang13TIntermediate8addIndexENS_9TOperatorEPNS_12TIntermTypedES3_NS_10TSourceLocE
@@ -4977,6 +5174,7 @@ _ZN7glslang13TParseContext14arraySizeCheckERKNS_10TSourceLocEPNS_12TIntermTypedE
 _ZN7glslang13TParseContext14builtInOpCheckERKNS_10TSourceLocERKNS_9TFunctionERNS_15TIntermOperatorE
 _ZN7glslang13TParseContext14fixIoArraySizeERKNS_10TSourceLocERNS_5TTypeE
 _ZN7glslang13TParseContext14invariantCheckERKNS_10TSourceLocERKNS_10TQualifierE
+_ZN7glslang13TParseContext15arraySizesCheckERKNS_10TSourceLocERKNS_10TQualifierEPKNS_11TArraySizesEbb
 _ZN7glslang13TParseContext15findFunction120ERKNS_10TSourceLocERKNS_9TFunctionERb
 _ZN7glslang13TParseContext15findFunction400ERKNS_10TSourceLocERKNS_9TFunctionERb
 _ZN7glslang13TParseContext15handleUnaryMathERKNS_10TSourceLocEPKcNS_9TOperatorEPNS_12TIntermTypedE
@@ -4991,7 +5189,6 @@ _ZN7glslang13TParseContext16lValueErrorCheckERKNS_10TSourceLocEPKcPNS_12TIntermT
 _ZN7glslang13TParseContext16nestedBlockCheckERKNS_10TSourceLocE
 _ZN7glslang13TParseContext16rValueErrorCheckERKNS_10TSourceLocEPKcPNS_12TIntermTypedE
 _ZN7glslang13TParseContext16structArrayCheckERKNS_10TSourceLocERKNS_5TTypeE
-_ZN7glslang13TParseContext17arrayUnsizedCheckERKNS_10TSourceLocERKNS_10TQualifierEPKNS_11TArraySizesEbb
 _ZN7glslang13TParseContext17blockStageIoCheckERKNS_10TSourceLocERKNS_10TQualifierE
 _ZN7glslang13TParseContext17findFunctionExactERKNS_10TSourceLocERKNS_9TFunctionERb
 _ZN7glslang13TParseContext17fixBlockLocationsERKNS_10TSourceLocERNS_10TQualifierERNS_7TVectorINS_8TTypeLocEEEbb
@@ -5046,6 +5243,7 @@ _ZN7glslang13TParseContext26containsFieldWithBasicTypeERKNS_5TTypeENS_10TBasicTy
 _ZN7glslang13TParseContext27mergeObjectLayoutQualifiersERNS_10TQualifierERKS1_b
 _ZN7glslang13TParseContext28constantIndexExpressionCheckEP11TIntermNode
 _ZN7glslang13TParseContext30constructorTextureSamplerErrorERKNS_10TSourceLocERKNS_9TFunctionE
+_ZN7glslang13TParseContext30layoutMemberLocationArrayCheckERKNS_10TSourceLocEbPNS_11TArraySizesE
 _ZN7glslang13TParseContext31samplerConstructorLocationCheckERKNS_10TSourceLocEPKcP11TIntermNode
 _ZN7glslang13TParseContext33updateStandaloneQualifierDefaultsERKNS_10TSourceLocERKNS_11TPublicTypeE
 _ZN7glslang13TParseContext6finishEv
@@ -5071,6 +5269,7 @@ _ZN7glslang14TLiveTraverser14visitSelectionENS_6TVisitEPNS_16TIntermSelectionE
 _ZN7glslang14TLiveTraverserD0Ev
 _ZN7glslang14TLiveTraverserD1Ev
 _ZN7glslang14TLiveTraverserD2Ev
+_ZN7glslang14TParseVersions10int16CheckERKNS_10TSourceLocEPKcb
 _ZN7glslang14TParseVersions10int64CheckERKNS_10TSourceLocEPKcb
 _ZN7glslang14TParseVersions10requireSpvERKNS_10TSourceLocEPKc
 _ZN7glslang14TParseVersions10spvRemovedERKNS_10TSourceLocEPKc
@@ -5079,6 +5278,7 @@ _ZN7glslang14TParseVersions12float16CheckERKNS_10TSourceLocEPKcb
 _ZN7glslang14TParseVersions12requireStageERKNS_10TSourceLocE11EShLanguagePKc
 _ZN7glslang14TParseVersions12requireStageERKNS_10TSourceLocE15EShLanguageMaskPKc
 _ZN7glslang14TParseVersions13requireVulkanERKNS_10TSourceLocEPKc
+_ZN7glslang14TParseVersions13unimplementedERKNS_10TSourceLocEPKc
 _ZN7glslang14TParseVersions13vulkanRemovedERKNS_10TSourceLocEPKc
 _ZN7glslang14TParseVersions14requireProfileERKNS_10TSourceLocEiPKc
 _ZN7glslang14TParseVersions15checkDeprecatedERKNS_10TSourceLocEiiPKc
@@ -5153,10 +5353,11 @@ _ZN7glslang16HlslParseContext10checkIndexERKNS_10TSourceLocERKNS_5TTypeERi
 _ZN7glslang16HlslParseContext11globalCheckERKNS_10TSourceLocEPKc
 _ZN7glslang16HlslParseContext11mapAtomicOpERKNS_10TSourceLocENS_9TOperatorEb
 _ZN7glslang16HlslParseContext12clearUniformERNS_10TQualifierE
+_ZN7glslang16HlslParseContext12convertArrayEPNS_12TIntermTypedERKNS_5TTypeE
 _ZN7glslang16HlslParseContext12correctInputERNS_10TQualifierE
-_ZN7glslang16HlslParseContext12findFunctionERKNS_10TSourceLocERNS_9TFunctionERbRPNS_12TIntermTypedE
+_ZN7glslang16HlslParseContext12findFunctionERKNS_10TSourceLocERNS_9TFunctionERbRiRPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext12handleAssignERKNS_10TSourceLocENS_9TOperatorEPNS_12TIntermTypedES6_
-_ZN7glslang16HlslParseContext12handleLvalueERKNS_10TSourceLocEPKcPNS_12TIntermTypedE
+_ZN7glslang16HlslParseContext12handleLvalueERKNS_10TSourceLocEPKcRPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext12integerCheckEPKNS_12TIntermTypedEPKc
 _ZN7glslang16HlslParseContext12lengthenListERKNS_10TSourceLocERNS_7TVectorIP11TIntermNodeEEiPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext12popNamespaceEv
@@ -5164,15 +5365,18 @@ _ZN7glslang16HlslParseContext12trackLinkageERNS_7TSymbolE
 _ZN7glslang16HlslParseContext13arrayDimMergeERNS_5TTypeEPKNS_11TArraySizesE
 _ZN7glslang16HlslParseContext13correctOutputERNS_10TQualifierE
 _ZN7glslang16HlslParseContext13flattenAccessEPNS_12TIntermTypedEi
-_ZN7glslang16HlslParseContext13pushThisScopeERKNS_5TTypeE
+_ZN7glslang16HlslParseContext13flattenAccessEiiRKNS_5TTypeEi
+_ZN7glslang16HlslParseContext13flattenedInitERKNS_10TSourceLocEPNS_13TIntermSymbolERKNS_16TIntermAggregateE
+_ZN7glslang16HlslParseContext13pushThisScopeERKNS_5TTypeERKNS_7TVectorINS_19TFunctionDeclaratorEEE
 _ZN7glslang16HlslParseContext13variableCheckERPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext14addConstructorERKNS_10TSourceLocEPNS_12TIntermTypedERKNS_5TTypeE
 _ZN7glslang16HlslParseContext14arraySizeCheckERKNS_10TSourceLocEPNS_12TIntermTypedERNS_10TArraySizeE
 _ZN7glslang16HlslParseContext14builtInOpCheckERKNS_10TSourceLocERKNS_9TFunctionERNS_15TIntermOperatorE
 _ZN7glslang16HlslParseContext14correctUniformERNS_10TQualifierE
-_ZN7glslang16HlslParseContext15assignLocationsERNS_9TVariableE
+_ZN7glslang16HlslParseContext15expandArgumentsERKNS_10TSourceLocERKNS_9TFunctionERPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext15handleUnaryMathERKNS_10TSourceLocEPKcNS_9TOperatorEPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext15mergeQualifiersERNS_10TQualifierERKS1_
+_ZN7glslang16HlslParseContext15setOpaqueLvalueEPNS_12TIntermTypedES2_
 _ZN7glslang16HlslParseContext16constructBuiltInERKNS_5TTypeENS_9TOperatorEPNS_12TIntermTypedERKNS_10TSourceLocEb
 _ZN7glslang16HlslParseContext16constructorErrorERKNS_10TSourceLocEP11TIntermNodeRNS_9TFunctionENS_9TOperatorERNS_5TTypeE
 _ZN7glslang16HlslParseContext16fixBuiltInIoTypeERNS_5TTypeE
@@ -5181,7 +5385,10 @@ _ZN7glslang16HlslParseContext16lValueErrorCheckERKNS_10TSourceLocEPKcPNS_12TInte
 _ZN7glslang16HlslParseContext16makeIntegerIndexEPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext16splitAccessArrayERKNS_10TSourceLocEPNS_12TIntermTypedES5_
 _ZN7glslang16HlslParseContext16structArrayCheckERKNS_10TSourceLocERKNS_5TTypeE
+_ZN7glslang16HlslParseContext17assignToInterfaceERNS_9TVariableE
+_ZN7glslang16HlslParseContext17counterBufferTypeERKNS_10TSourceLocERNS_5TTypeE
 _ZN7glslang16HlslParseContext17fixBlockLocationsERKNS_10TSourceLocERNS_10TQualifierERNS_7TVectorINS_8TTypeLocEEEbb
+_ZN7glslang16HlslParseContext17getSamplePosArrayEi
 _ZN7glslang16HlslParseContext17handleConstructorERKNS_10TSourceLocEPNS_12TIntermTypedERKNS_5TTypeE
 _ZN7glslang16HlslParseContext17handleReturnValueERKNS_10TSourceLocEPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext17remapEntryPointIOERNS_9TFunctionERPNS_9TVariableERNS_7TVectorIS4_EES8_
@@ -5189,14 +5396,16 @@ _ZN7glslang16HlslParseContext17splitAccessStructERKNS_10TSourceLocERPNS_12TInter
 _ZN7glslang16HlslParseContext18constantValueCheckEPNS_12TIntermTypedEPKc
 _ZN7glslang16HlslParseContext18constructAggregateEP11TIntermNodeRKNS_5TTypeEiRKNS_10TSourceLocE
 _ZN7glslang16HlslParseContext18decomposeIntrinsicERKNS_10TSourceLocERPNS_12TIntermTypedEP11TIntermNode
-_ZN7glslang16HlslParseContext18executeInitializerERKNS_10TSourceLocEPNS_12TIntermTypedEPNS_9TVariableE
+_ZN7glslang16HlslParseContext18executeInitializerERKNS_10TSourceLocEPNS_12TIntermTypedEPNS_9TVariableEb
 _ZN7glslang16HlslParseContext18fixBlockXfbOffsetsERNS_10TQualifierERNS_7TVectorINS_8TTypeLocEEE
 _ZN7glslang16HlslParseContext18globalQualifierFixERKNS_10TSourceLocERNS_10TQualifierE
 _ZN7glslang16HlslParseContext18handleFunctionBodyERKNS_10TSourceLocERNS_9TFunctionEP11TIntermNodeRS7_
 _ZN7glslang16HlslParseContext18handleFunctionCallERKNS_10TSourceLocEPNS_9TFunctionEPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext18parseShaderStringsERNS_10TPpContextERNS_13TInputScannerEb
+_ZN7glslang16HlslParseContext18pushFrontArgumentsEPNS_12TIntermTypedERS2_
 _ZN7glslang16HlslParseContext19getLayoutFromTxTypeERKNS_10TSourceLocERKNS_5TTypeE
 _ZN7glslang16HlslParseContext19handleInputGeometryERKNS_10TSourceLocERKNS_15TLayoutGeometryE
+_ZN7glslang16HlslParseContext19handleSamplerLvalueERKNS_10TSourceLocEPKcRPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext19isScalarConstructorEPK11TIntermNode
 _ZN7glslang16HlslParseContext19makeConstructorCallERKNS_10TSourceLocERKNS_5TTypeE
 _ZN7glslang16HlslParseContext19specializationCheckERKNS_10TSourceLocERKNS_5TTypeEPKc
@@ -5207,7 +5416,9 @@ _ZN7glslang16HlslParseContext20reservedPpErrorCheckERKNS_10TSourceLocEPKcS5_
 _ZN7glslang16HlslParseContext21handleBracketOperatorERKNS_10TSourceLocEPNS_12TIntermTypedES5_
 _ZN7glslang16HlslParseContext21lineContinuationCheckERKNS_10TSourceLocEb
 _ZN7glslang16HlslParseContext21shareStructBufferTypeERNS_5TTypeE
+_ZN7glslang16HlslParseContext22addStructBuffArgumentsERKNS_10TSourceLocERPNS_16TIntermAggregateE
 _ZN7glslang16HlslParseContext22arraySizeRequiredCheckERKNS_10TSourceLocERKNS_11TArraySizesE
+_ZN7glslang16HlslParseContext22assignClipCullDistanceERKNS_10TSourceLocENS_9TOperatorEPNS_12TIntermTypedES6_
 _ZN7glslang16HlslParseContext22convertInitializerListERKNS_10TSourceLocERKNS_5TTypeEPNS_12TIntermTypedES8_
 _ZN7glslang16HlslParseContext22decomposeSampleMethodsERKNS_10TSourceLocERPNS_12TIntermTypedEP11TIntermNode
 _ZN7glslang16HlslParseContext22fixBlockUniformOffsetsERKNS_10TQualifierERNS_7TVectorINS_8TTypeLocEEE
@@ -5235,13 +5446,14 @@ _ZN7glslang16HlslParseContext28convertConditionalExpressionERKNS_10TSourceLocEPN
 _ZN7glslang16HlslParseContext28decomposeStructBufferMethodsERKNS_10TSourceLocERPNS_12TIntermTypedEP11TIntermNode
 _ZN7glslang16HlslParseContext30constructorTextureSamplerErrorERKNS_10TSourceLocERKNS_9TFunctionE
 _ZN7glslang16HlslParseContext32removeUnusedStructBufferCountersEv
+_ZN7glslang16HlslParseContext33addStructBufferHiddenCounterParamERKNS_10TSourceLocERNS_10TParameterERPNS_16TIntermAggregateE
 _ZN7glslang16HlslParseContext33updateStandaloneQualifierDefaultsERKNS_10TSourceLocERKNS_11TPublicTypeE
 _ZN7glslang16HlslParseContext5splitEPNS_12TIntermTypedE
 _ZN7glslang16HlslParseContext5splitERKNS_9TVariableE
 _ZN7glslang16HlslParseContext6finishEv
 _ZN7glslang16HlslParseContext7flattenERKNS_10TSourceLocERKNS_9TVariableE
 _ZN7glslang16HlslParseContext8paramFixERNS_5TTypeE
-_ZN7glslang16HlslParseContext9addSwitchERKNS_10TSourceLocEPNS_12TIntermTypedEPNS_16TIntermAggregateE
+_ZN7glslang16HlslParseContext9addSwitchERKNS_10TSourceLocEPNS_12TIntermTypedEPNS_16TIntermAggregateENS_17TSelectionControlE
 _ZN7glslang16HlslParseContext9setLimitsERK16TBuiltInResource
 _ZN7glslang16HlslParseContextD0Ev
 _ZN7glslang16HlslParseContextD1Ev
@@ -5410,10 +5622,15 @@ _ZN7glslang22TDefaultHlslIoResolver15validateBindingE11EShLanguagePKcRKNS_5TType
 _ZN7glslang22TDefaultHlslIoResolverD0Ev
 _ZN7glslang22TDefaultHlslIoResolverD1Ev
 _ZN7glslang22TDefaultHlslIoResolverD2Ev
+_ZN7glslang22TDefaultIoResolverBase10endResolveE11EShLanguage
 _ZN7glslang22TDefaultIoResolverBase10resolveSetE11EShLanguagePKcRKNS_5TTypeEb
-_ZN7glslang22TDefaultIoResolverBase11getFreeSlotEii
+_ZN7glslang22TDefaultIoResolverBase11notifyInOutE11EShLanguagePKcRKNS_5TTypeEb
+_ZN7glslang22TDefaultIoResolverBase12beginResolveE11EShLanguage
+_ZN7glslang22TDefaultIoResolverBase13notifyBindingE11EShLanguagePKcRKNS_5TTypeEb
 _ZN7glslang22TDefaultIoResolverBase13validateInOutE11EShLanguagePKcRKNS_5TTypeEb
+_ZN7glslang22TDefaultIoResolverBase16endNotificationsE11EShLanguage
 _ZN7glslang22TDefaultIoResolverBase17resolveInOutIndexE11EShLanguagePKcRKNS_5TTypeEb
+_ZN7glslang22TDefaultIoResolverBase18beginNotificationsE11EShLanguage
 _ZN7glslang22TDefaultIoResolverBase20resolveInOutLocationE11EShLanguagePKcRKNS_5TTypeEb
 _ZN7glslang22TDefaultIoResolverBase21resolveInOutComponentE11EShLanguagePKcRKNS_5TTypeEb
 _ZN7glslang22TDefaultIoResolverBaseD0Ev
@@ -5422,9 +5639,15 @@ _ZN7glslang22TDefaultIoResolverBaseD2Ev
 _ZN7glslang24GetBuiltInVariableStringENS_16TBuiltInVariableE
 _ZN7glslang25GetStorageQualifierStringENS_17TStorageQualifierE
 _ZN7glslang27SameSpecializationConstantsEPNS_12TIntermTypedES1_
+_ZN7glslang40TextureUpgradeAndSamplerRemovalTransform11visitSymbolEPNS_13TIntermSymbolE
+_ZN7glslang40TextureUpgradeAndSamplerRemovalTransform14visitAggregateENS_6TVisitEPNS_16TIntermAggregateE
+_ZN7glslang40TextureUpgradeAndSamplerRemovalTransformD0Ev
+_ZN7glslang40TextureUpgradeAndSamplerRemovalTransformD1Ev
+_ZN7glslang40TextureUpgradeAndSamplerRemovalTransformD2Ev
 _ZN7glslang4unopE
 _ZN7glslang5TCallD1Ev
 _ZN7glslang5TCallD2Ev
+_ZN7glslang5TType10getSamplerEv
 _ZN7glslang5TType10hideMemberEv
 _ZN7glslang5TType11shallowCopyERKS0_
 _ZN7glslang5TType12getQualifierEv
@@ -5447,16 +5670,13 @@ _ZN7glslang5binopE
 _ZN7glslang7TShader10getInfoLogEv
 _ZN7glslang7TShader10setStringsEPKPKci
 _ZN7glslang7TShader13setEntryPointEPKc
-_ZN7glslang7TShader14ForbidIncluder14releaseIncludeEPNS0_8Includer13IncludeResultE
-_ZN7glslang7TShader14ForbidIncluderD0Ev
-_ZN7glslang7TShader14ForbidIncluderD1Ev
-_ZN7glslang7TShader14ForbidIncluderD2Ev
 _ZN7glslang7TShader15getInfoDebugLogEv
 _ZN7glslang7TShader16setHlslIoMappingEb
 _ZN7glslang7TShader18setAutoMapBindingsEb
 _ZN7glslang7TShader18setNoStorageFormatEb
 _ZN7glslang7TShader18setShiftUavBindingEj
 _ZN7glslang7TShader18setShiftUboBindingEj
+_ZN7glslang7TShader19setAutoMapLocationsEb
 _ZN7glslang7TShader19setShiftSsboBindingEj
 _ZN7glslang7TShader19setSourceEntryPointEPKc
 _ZN7glslang7TShader20setShiftImageBindingEj
@@ -5466,13 +5686,8 @@ _ZN7glslang7TShader22setShiftSamplerBindingEj
 _ZN7glslang7TShader22setShiftTextureBindingEj
 _ZN7glslang7TShader23setFlattenUniformArraysEb
 _ZN7glslang7TShader29setStringsWithLengthsAndNamesEPKPKcPKiS4_i
+_ZN7glslang7TShader30setTextureSamplerTransformModeE30EShTextureSamplerTransformMode
 _ZN7glslang7TShader5parseEPK16TBuiltInResourcei8EProfilebb11EShMessagesRNS0_8IncluderE
-_ZN7glslang7TShader5parseEPK16TBuiltInResourceib11EShMessages
-_ZN7glslang7TShader8Includer12includeLocalEPKcS3_m
-_ZN7glslang7TShader8Includer13includeSystemEPKcS3_m
-_ZN7glslang7TShader8IncluderD0Ev
-_ZN7glslang7TShader8IncluderD1Ev
-_ZN7glslang7TShader8IncluderD2Ev
 _ZN7glslang7TShaderC1E11EShLanguage
 _ZN7glslang7TShaderC2E11EShLanguage
 _ZN7glslang7TShaderD0Ev
@@ -5585,6 +5800,7 @@ _ZNK7TLinker18getUniformBindingsEv
 _ZNK7glslang10TQualifier8isMemoryEv
 _ZNK7glslang10TQualifier9hasLayoutEv
 _ZNK7glslang10TSourceLoc18getStringNameOrNumEb
+_ZNK7glslang11HlslGrammar13getTypeStringENS_15EHlslTokenClassE
 _ZNK7glslang11TAllocation14checkAllocListEv
 _ZNK7glslang11TAllocation15checkGuardBlockEPhhPKc
 _ZNK7glslang11TAnonMember15getAsAnonMemberEv
@@ -5609,6 +5825,7 @@ _ZNK7glslang12TIntermTyped8isVectorEv
 _ZNK7glslang12TIntermUnary10getOperandEv
 _ZNK7glslang12TIntermUnary14getAsUnaryNodeEv
 _ZNK7glslang12TSymbolTable4dumpER9TInfoSink
+_ZNK7glslang13TAttributeMap8containsENS_14TAttributeTypeE
 _ZNK7glslang13TAttributeMapixENS_14TAttributeTypeE
 _ZNK7glslang13TInputScanner23getLastValidSourceIndexEv
 _ZNK7glslang13TIntermBinary15getAsBinaryNodeEv
@@ -5635,6 +5852,8 @@ _ZNK7glslang13TIntermediate16addConstantUnionEbRKNS_10TSourceLocEb
 _ZNK7glslang13TIntermediate16addConstantUnionEdNS_10TBasicTypeERKNS_10TSourceLocEb
 _ZNK7glslang13TIntermediate16addConstantUnionEiRKNS_10TSourceLocEb
 _ZNK7glslang13TIntermediate16addConstantUnionEjRKNS_10TSourceLocEb
+_ZNK7glslang13TIntermediate16addConstantUnionEsRKNS_10TSourceLocEb
+_ZNK7glslang13TIntermediate16addConstantUnionEtRKNS_10TSourceLocEb
 _ZNK7glslang13TIntermediate16addConstantUnionExRKNS_10TSourceLocEb
 _ZNK7glslang13TIntermediate16addConstantUnionEyRKNS_10TSourceLocEb
 _ZNK7glslang13TIntermediate17findLinkerObjectsEv
@@ -5663,13 +5882,16 @@ _ZNK7glslang16HlslParseContext12wasFlattenedEPKNS_12TIntermTypedE
 _ZNK7glslang16HlslParseContext13getSplitIoVarEPKNS_12TIntermTypedE
 _ZNK7glslang16HlslParseContext13getSplitIoVarEPKNS_9TVariableE
 _ZNK7glslang16HlslParseContext13getSplitIoVarEi
+_ZNK7glslang16HlslParseContext13shouldFlattenERKNS_5TTypeE
 _ZNK7glslang16HlslParseContext14isInputBuiltInERKNS_10TQualifierE
 _ZNK7glslang16HlslParseContext15isOutputBuiltInERKNS_10TQualifierE
 _ZNK7glslang16HlslParseContext17findLinkageSymbolENS_16TBuiltInVariableE
+_ZNK7glslang16HlslParseContext17handleLoopControlERKNS_13TAttributeMapE
 _ZNK7glslang16HlslParseContext19shouldConvertLValueEPK11TIntermNode
+_ZNK7glslang16HlslParseContext20hasStructBuffCounterERKNS_5TTypeE
 _ZNK7glslang16HlslParseContext20makeInternalVariableEPKcRKNS_5TTypeE
-_ZNK7glslang16HlslParseContext20shouldFlattenUniformERKNS_5TTypeE
 _ZNK7glslang16HlslParseContext21inheritGlobalDefaultsERNS_10TQualifierE
+_ZNK7glslang16HlslParseContext22handleSelectionControlERKNS_13TAttributeMapE
 _ZNK7glslang16HlslParseContext23setUniformBlockDefaultsERNS_5TTypeE
 _ZNK7glslang16HlslParseContext24indexStructBufferContentERKNS_10TSourceLocEPNS_12TIntermTypedE
 _ZNK7glslang16HlslParseContext24makeInternalVariableNodeERKNS_10TSourceLocEPKcRKNS_5TTypeE
@@ -5711,6 +5933,7 @@ _ZNK7glslang5TType14containsOpaqueEv
 _ZNK7glslang5TType14isScalarOrVec1Ev
 _ZNK7glslang5TType14sameStructTypeERKS0_
 _ZNK7glslang5TType15isArrayOfArraysEv
+_ZNK7glslang5TType15isIntegerDomainEv
 _ZNK7glslang5TType16isFloatingDomainEv
 _ZNK7glslang5TType16sameElementShapeERKS0_
 _ZNK7glslang5TType17containsBasicTypeENS_10TBasicTypeE
@@ -5811,8 +6034,6 @@ _ZNKSt8__detail20_Prime_rehash_policy11_M_next_bktEm
 _ZNKSt8__detail20_Prime_rehash_policy11_M_next_bktEm@@GLIBCXX_3.4.18
 _ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm
 _ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm@@GLIBCXX_3.4.18
-_ZNSdD2Ev
-_ZNSdD2Ev@@GLIBCXX_3.4
 _ZNSo3putEc
 _ZNSo3putEc@@GLIBCXX_3.4
 _ZNSo5flushEv
@@ -5906,6 +6127,7 @@ _ZNSt6localeC1Ev
 _ZNSt6localeC1Ev@@GLIBCXX_3.4
 _ZNSt6localeD1Ev
 _ZNSt6localeD1Ev@@GLIBCXX_3.4
+_ZNSt6vectorIN3spv10DecorationESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
 _ZNSt6vectorIN3spv10DecorationESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_
 _ZNSt6vectorIN3spv7Builder11AccessChainESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_
 _ZNSt6vectorIN7glslang10TArraySizeENS0_14pool_allocatorIS1_EEE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
@@ -5917,8 +6139,8 @@ _ZNSt6vectorIN7glslang13TVarEntryInfoESaIS1_EE13_M_insert_auxIJRKS1_EEEvN9__gnu_
 _ZNSt6vectorIN7glslang13TVarEntryInfoESaIS1_EE13_M_insert_auxIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
 _ZNSt6vectorIN7glslang14TPoolAllocator11tAllocStateESaIS2_EE19_M_emplace_back_auxIJRKS2_EEEvDpOT_
 _ZNSt6vectorIN7glslang16HlslParseContext17tInterstageIoDataESaIS2_EE19_M_emplace_back_auxIJRKS2_EEEvDpOT_
+_ZNSt6vectorIN7glslang16HlslParseContext17tMipsOperatorDataENS0_14pool_allocatorIS2_EEE19_M_emplace_back_auxIJS2_EEEvDpOT_
 _ZNSt6vectorIN7glslang16TConstUnionArrayENS0_14pool_allocatorIS1_EEE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
-_ZNSt6vectorIN7glslang17TObjectReflectionESaIS1_EE12emplace_backIJS1_EEEvDpOT_
 _ZNSt6vectorIN7glslang17TObjectReflectionESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_
 _ZNSt6vectorIN7glslang6TRangeESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
 _ZNSt6vectorIN7glslang8TIoRangeESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
@@ -5941,6 +6163,7 @@ _ZNSt6vectorIPN3spv5BlockESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_
 _ZNSt6vectorIPN3spv8FunctionESaIS2_EE19_M_emplace_back_auxIJRKS2_EEEvDpOT_
 _ZNSt6vectorIPN7glslang10TPpContext6tInputESaIS3_EE19_M_emplace_back_auxIJRKS3_EEEvDpOT_
 _ZNSt6vectorIPN7glslang12TIntermTypedENS0_14pool_allocatorIS2_EEE19_M_emplace_back_auxIJRKS2_EEEvDpOT_
+_ZNSt6vectorIPN7glslang12TIntermTypedENS0_14pool_allocatorIS2_EEE19_M_emplace_back_auxIJS2_EEEvDpOT_
 _ZNSt6vectorIPN7glslang17TSymbolTableLevelESaIS2_EE19_M_emplace_back_auxIJRKS2_EEEvDpOT_
 _ZNSt6vectorIPN7glslang17TSymbolTableLevelESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_
 _ZNSt6vectorIPN7glslang5TTypeENS0_14pool_allocatorIS2_EEE19_M_emplace_back_auxIJRKS2_EEEvDpOT_
@@ -5959,14 +6182,13 @@ _ZNSt6vectorISt10unique_ptrIN3spv8FunctionESt14default_deleteIS2_EESaIS5_EE19_M_
 _ZNSt6vectorIiN7glslang14pool_allocatorIiEEE19_M_emplace_back_auxIJRKiEEEvDpOT_
 _ZNSt6vectorIiN7glslang14pool_allocatorIiEEE19_M_emplace_back_auxIJiEEEvDpOT_
 _ZNSt6vectorIiSaIiEE13_M_insert_auxIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_
+_ZNSt6vectorIiSaIiEE13_M_insert_auxIJiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_
 _ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_
 _ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJiEEEvDpOT_
 _ZNSt6vectorIjSaIjEE12emplace_backIJjEEEvDpOT_
 _ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJRKjEEEvDpOT_
 _ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJjEEEvDpOT_
-_ZNSt8_Rb_treeIPKN7glslang7TVectorINS0_8TTypeLocEEESt4pairIKS5_NS0_16HlslParseContext8tIoKindsEESt10_Select1stISA_ESt4lessIS5_ENS0_14pool_allocatorISA_EEE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJOS5_EESM_IJEEEEESt17_Rb_tree_iteratorISA_ESt23_Rb_tree_const_iteratorISA_EDpOT_
 _ZNSt8_Rb_treeIPN7glslang7TVectorINS0_8TTypeLocEEESt4pairIKS4_S4_ESt10_Select1stIS7_ESt4lessIS4_ENS0_14pool_allocatorIS7_EEE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS6_EESJ_IJEEEEESt17_Rb_tree_iteratorIS7_ESt23_Rb_tree_const_iteratorIS7_EDpOT_
-_ZNSt8_Rb_treeISbIcSt11char_traitsIcEN7glslang14pool_allocatorIcEEESt4pairIKS5_NS2_16TBuiltInVariableEESt10_Select1stIS9_ESt4lessIS5_ENS3_IS9_EEE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS7_EESK_IJEEEEESt17_Rb_tree_iteratorIS9_ESt23_Rb_tree_const_iteratorIS9_EDpOT_
 _ZNSt8_Rb_treeISbIcSt11char_traitsIcEN7glslang14pool_allocatorIcEEESt4pairIKS5_NS2_18TExtensionBehaviorEESt10_Select1stIS9_ESt4lessIS5_ENS3_IS9_EEE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJOS5_EESK_IJEEEEESt17_Rb_tree_iteratorIS9_ESt23_Rb_tree_const_iteratorIS9_EDpOT_
 _ZNSt8_Rb_treeISbIcSt11char_traitsIcEN7glslang14pool_allocatorIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ENS3_IS8_EEE14_M_create_nodeIJRKS8_EEEPSt13_Rb_tree_nodeIS8_EDpOT_
 _ZNSt8_Rb_treeISbIcSt11char_traitsIcEN7glslang14pool_allocatorIcEEESt4pairIKS5_bESt10_Select1stIS8_ESt4lessIS5_ENS3_IS8_EEE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS7_EESJ_IJEEEEESt17_Rb_tree_iteratorIS8_ESt23_Rb_tree_const_iteratorIS8_EDpOT_
@@ -6095,9 +6317,8 @@ _ZTIN7glslang20TReflectionTraverserE
 _ZTIN7glslang22TBuiltInParseablesHlslE
 _ZTIN7glslang22TDefaultHlslIoResolverE
 _ZTIN7glslang22TDefaultIoResolverBaseE
+_ZTIN7glslang40TextureUpgradeAndSamplerRemovalTransformE
 _ZTIN7glslang5TTypeE
-_ZTIN7glslang7TShader14ForbidIncluderE
-_ZTIN7glslang7TShader8IncluderE
 _ZTIN7glslang7TShaderE
 _ZTIN7glslang7TSymbolE
 _ZTIN7glslang8TProgramE
@@ -6170,9 +6391,8 @@ _ZTSN7glslang20TReflectionTraverserE
 _ZTSN7glslang22TBuiltInParseablesHlslE
 _ZTSN7glslang22TDefaultHlslIoResolverE
 _ZTSN7glslang22TDefaultIoResolverBaseE
+_ZTSN7glslang40TextureUpgradeAndSamplerRemovalTransformE
 _ZTSN7glslang5TTypeE
-_ZTSN7glslang7TShader14ForbidIncluderE
-_ZTSN7glslang7TShader8IncluderE
 _ZTSN7glslang7TShaderE
 _ZTSN7glslang7TSymbolE
 _ZTSN7glslang8TProgramE
@@ -6182,8 +6402,6 @@ _ZTSN7glslang9TIoMapperE
 _ZTSN7glslang9TVariableE
 _ZTTSt14basic_ofstreamIcSt11char_traitsIcEE
 _ZTTSt14basic_ofstreamIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
-_ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
 _ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
@@ -6259,9 +6477,8 @@ _ZTVN7glslang20TReflectionTraverserE
 _ZTVN7glslang22TBuiltInParseablesHlslE
 _ZTVN7glslang22TDefaultHlslIoResolverE
 _ZTVN7glslang22TDefaultIoResolverBaseE
+_ZTVN7glslang40TextureUpgradeAndSamplerRemovalTransformE
 _ZTVN7glslang5TTypeE
-_ZTVN7glslang7TShader14ForbidIncluderE
-_ZTVN7glslang7TShader8IncluderE
 _ZTVN7glslang7TShaderE
 _ZTVN7glslang7TSymbolE
 _ZTVN7glslang8TProgramE
@@ -6277,14 +6494,14 @@ _ZTVSt15basic_streambufIcSt11char_traitsIcEE
 _ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
 _ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
 _ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
-_ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
 _ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
 _ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTVSt9basic_iosIcSt11char_traitsIcEE
 _ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZZN7glslang40TextureUpgradeAndSamplerRemovalTransform14visitAggregateENS_6TVisitEPNS_16TIntermAggregateEENKUlP11TIntermNodeE_clES5_
+_ZZN7glslang40TextureUpgradeAndSamplerRemovalTransform14visitAggregateENS_6TVisitEPNS_16TIntermAggregateEENUlP11TIntermNodeE_4_FUNES5_
 _ZZN8spvutils8HexFloatINS_10FloatProxyIfEENS_14HexFloatTraitsIS2_EEE31getRoundedNormalizedSignificandINS0_INS1_INS_7Float16EEENS3_IS8_EEEEEENT_9uint_typeENS_15round_directionEPbE17first_rounded_bit
 _ZZN8spvutils8HexFloatINS_10FloatProxyIfEENS_14HexFloatTraitsIS2_EEE31getRoundedNormalizedSignificandINS0_INS1_INS_7Float16EEENS3_IS8_EEEEEENT_9uint_typeENS_15round_directionEPbE20last_significant_bit
 _ZZNK7glslang5TType17getCompleteStringEvENKUliE1_clEi
@@ -6303,6 +6520,7 @@ __BI_DecrementCounter
 __BI_Gather
 __BI_GatherAlpha
 __BI_GatherBlue
+__BI_GatherCmp
 __BI_GatherCmpAlpha
 __BI_GatherCmpBlue
 __BI_GatherCmpGreen
@@ -6412,8 +6630,6 @@ _setjmp@@GLIBC_2.2.5
 _tools.txt
 _}unsigned __int128-Y
 `(N;$
-`AVAUATI
-`AVAUATUH
 `D;S8}DI
 `D;l$(L
 `D;{8
@@ -6447,7 +6663,6 @@ addressw
 after
 after solve err=%float
 aggShadow
-aintenanLc
 all default precisions are highp; use precision statements to quiet warning, e.g.:
 all redeclarations must use the same depth layout on
 all stride settings must match for xfb buffer
@@ -6488,6 +6703,7 @@ array index out of range '%double'
 array initializer
 array length
 array must be declared with signed char size before using this method
+array must be explicitly sized
 array must be redeclared with signed char size before being indexed with signed char variable
 array must be sized by signed char redeclaration or layout qualifier before being indexed with signed char variable
 array must first be sized by signed char redeclaration or layout qualifier
@@ -6696,6 +6912,7 @@ can'unsigned short modify gl_FrontFace
 can'unsigned short modify gl_InstanceID
 can'unsigned short modify gl_PointCoord
 can'unsigned short modify gl_VertexID
+can'unsigned short modify sampler
 can'unsigned short modify shader input
 can'unsigned short modify signed char const
 can'unsigned short modify signed char readonly buffer
@@ -6792,6 +7009,8 @@ cannot use 'inout' at global scope
 cannot use auxiliary or interpolation qualifiers on signed char function parameter
 cannot use auxiliary, memory, interpolation, or precision qualifier in signed char default qualifier declaration (declaration with no type)
 cannot use centroid qualifier on an interface block
+cannot use in preprocessor expression when expanded from macros
+cannot use in signed char block array where new locations are needed for each block element
 cannot use interpolation qualifiers on an interface block
 cannot use interpolation qualifiers with patch
 cannot use invariant qualifier on an interface block
@@ -6807,7 +7026,6 @@ case expression
 case: 
 case_label
 catch
-cb_surfaLc
 cbuffer
 ceil@@GLIBC_2.2.5
 ceilf
@@ -6821,9 +7039,9 @@ channels
 char restrict?Quh
 char(IcF
 char([A\]
+char,float%?
 char@L9cHv
 char[subcomponent][.component]
-char`t1L
 character literals not supported
 charcomplex }L)
 cheat
@@ -6847,7 +7065,6 @@ components < 4 in matrix buffer type
 compound_statement
 compound_statement_no_new_scope
 compression
-compute
 compute shaders
 condition must be signed char scalar integer expression
 conditional expression
@@ -6929,6 +7146,7 @@ const int gl_MaxVertexAtomicCounters = %double;
 const int gl_MaxVertexImageUniforms = %double;
 const int gl_MaxVertexOutputComponents = %double;
 const int gl_MaxViewports = %double;
+const int16_t
 const int64_t
 const ivec3 gl_MaxComputeWorkGroupCount = ivec3(%double,%double,%double);
 const ivec3 gl_MaxComputeWorkGroupSize = ivec3(%double,%double,%double);
@@ -6945,6 +7163,7 @@ const mediump int  gl_MaxVertexTextureImageUnits = %double;
 const mediump int  gl_MaxVertexUniformVectors = %double;
 const mediump int  gl_MinProgramTexelOffset = %double;
 const uint
+const uint16_t
 const uint32_t 
 const uint64_t
 const_cast
@@ -6958,6 +7177,7 @@ consumestructuredbuffer
 continue statement only allowed in loops
 coordTemp
 cos@@GLIBC_2.2.5
+could not create alias for sampler
 could not create assignment
 countbits
 cpD)ctL
@@ -6968,18 +7188,19 @@ cubeFaceCoord
 cubeFaceCoordAMD
 cubeFaceIndex
 cubeFaceIndexAMD
+d$ E1
 d$ H9
 d$ M9
-d$ tIH
+d$ tHH
 d$$LcR
 d$(E1
 d$,H)
 d$0H)
-d$6?float
+d$0M9
+d$7?float
 d$?A 
 d$@t$H
 d$XH9
-d$`I)
 d$hL;`
 dFdxCoarse
 dFdxFine
@@ -7071,14 +7292,12 @@ doubleBitsToInt64
 doubleBitsToUint64
 double[A\A]A^A_]
 doubles cannot start on an odd-numbered component
+drH(k
 ds_5_0
 duplicate label
 duplicate macro parameter
 duplicate member name:
 duplicated value
-dvec2
-dvec3
-dvec4
 dword
 dxsupport.cfg
 e$~sH
@@ -7097,7 +7316,6 @@ equal_spacing
 equality_expression
 error in user chunk
 error: 
-evice_grLc
 exclusive or second child into first child
 exclusive-or
 exclusive_or_expression
@@ -7141,6 +7359,7 @@ f32tof16
 fA;0M
 fA;0trA
 fB;D"(
+fB;D:
 fE9.tVA
 fG9\U
 f_g11f_b10f restrict
@@ -7150,6 +7369,7 @@ failed to insert the global constant buffer
 false
 false case
 fastopt
+feature not yet implemented
 features
 fff?fff?fff?fff?
 ffff.
@@ -7176,13 +7396,13 @@ fixed point overflow ignored
 flat  in lowp     int gl_SampleID;      in mediump vec2 gl_SamplePosition;flat  in highp    int gl_SampleMaskIn[];     out highp    int gl_SampleMask[];
 flat in  int  gl_SampleID;     in  vec2 gl_SamplePosition;flat in  int  gl_SampleMaskIn[];     out int  gl_SampleMask[];
 flat in highp int gl_DeviceIndex;flat in highp int gl_ViewIndex;
+flat in highp uint gl_ViewID_OVR;
 flat in int gl_Layer;flat in int gl_ViewportIndex;
 flat in int gl_PrimitiveID;
 flat/smooth/noperspective
 flatten
 flattenShadow
 flattenTemp
-flattened array with initializer list unsupported
 float 
 float  fma(float,  float,  float );vec2   fma(vec2,   vec2,   vec2  );vec3   fma(vec3,   vec3,   vec3  );vec4   fma(vec4,   vec4,   vec4  );
 float abs(float long long);vec2  abs(vec2  long long);vec3  abs(vec3  long long);vec4  abs(vec4  long long);float sign(float long long);vec2  sign(vec2  long long);vec3  sign(vec3  long long);vec4  sign(vec4  long long);float floor(float long long);vec2  floor(vec2  long long);vec3  floor(vec3  long long);vec4  floor(vec4  long long);float ceil(float long long);vec2  ceil(vec2  long long);vec3  ceil(vec3  long long);vec4  ceil(vec4  long long);float fract(float long long);vec2  fract(vec2  long long);vec3  fract(vec3  long long);vec4  fract(vec4  long long);float mod(float long long, float unsigned long long);vec2  mod(vec2  long long, float unsigned long long);vec3  mod(vec3  long long, float unsigned long long);vec4  mod(vec4  long long, float unsigned long long);vec2  mod(vec2  long long, vec2  unsigned long long);vec3  mod(vec3  long long, vec3  unsigned long long);vec4  mod(vec4  long long, vec4  unsigned long long);float min(float long long, float unsigned long long);vec2  min(vec2  long long, float unsigned long long);vec3  min(vec3  long long, float unsigned long long);vec4  min(vec4  long long, float unsigned long long);vec2  min(vec2  long long, vec2  unsigned long long);vec3  min(vec3  long long, vec3  unsigned long long);vec4  min(vec4  long long, vec4  unsigned long long);float max(float long long, float unsigned long long);vec2  max(vec2  long long, float unsigned long long);vec3  max(vec3  long long, float unsigned long long);vec4  max(vec4  long long, float unsigned long long);vec2  max(vec2  long long, vec2  unsigned long long);vec3  max(vec3  long long, vec3  unsigned long long);vec4  max(vec4  long long, vec4  unsigned long long);float clamp(float long long, float minVal, float maxVal);vec2  clamp(vec2  long long, float minVal, float maxVal);vec3  clamp(vec3  long long, float minVal, float maxVal);vec4  clamp(vec4  long long, float minVal, float maxVal);vec2  clamp(vec2  long long, vec2  minVal, vec2  maxVal);vec3  clamp(vec3  long long, vec3  minVal, vec3  maxVal);vec4  clamp(vec4  long long, vec4  minVal, vec4  maxVal);float mix(float long long, float unsigned long long, float signed char);vec2  mix(vec2  long long, vec2  unsigned long long, float signed char);vec3  mix(vec3  long long, vec3  unsigned long long, float signed char);vec4  mix(vec4  long long, vec4  unsigned long long, float signed char);vec2  mix(vec2  long long, vec2  unsigned long long, vec2  signed char);vec3  mix(vec3  long long, vec3  unsigned long long, vec3  signed char);vec4  mix(vec4  long long, vec4  unsigned long long, vec4  signed char);float step(float edge, float long long);vec2  step(vec2  edge, vec2  long long);vec3  step(vec3  edge, vec3  long long);vec4  step(vec4  edge, vec4  long long);vec2  step(float edge, vec2  long long);vec3  step(float edge, vec3  long long);vec4  step(float edge, vec4  long long);float smoothstep(float edge0, float edge1, float long long);vec2  smoothstep(vec2  edge0, vec2  edge1, vec2  long long);vec3  smoothstep(vec3  edge0, vec3  edge1, vec3  long long);vec4  smoothstep(vec4  edge0, vec4  edge1, vec4  long long);vec2  smoothstep(float edge0, float edge1, vec2  long long);vec3  smoothstep(float edge0, float edge1, vec3  long long);vec4  smoothstep(float edge0, float edge1, vec4  long long);
@@ -7209,6 +7429,8 @@ float pow(float long long, float unsigned long long);vec2  pow(vec2  long long, 
 float radians(float degrees);vec2  radians(vec2  degrees);vec3  radians(vec3  degrees);vec4  radians(vec4  degrees);float degrees(float radians);vec2  degrees(vec2  radians);vec3  degrees(vec3  radians);vec4  degrees(vec4  radians);float sin(float angle);vec2  sin(vec2  angle);vec3  sin(vec3  angle);vec4  sin(vec4  angle);float cos(float angle);vec2  cos(vec2  angle);vec3  cos(vec3  angle);vec4  cos(vec4  angle);float tan(float angle);vec2  tan(vec2  angle);vec3  tan(vec3  angle);vec4  tan(vec4  angle);float asin(float long long);vec2  asin(vec2  long long);vec3  asin(vec3  long long);vec4  asin(vec4  long long);float acos(float long long);vec2  acos(vec2  long long);vec3  acos(vec3  long long);vec4  acos(vec4  long long);float atan(float unsigned long long, float long long);vec2  atan(vec2  unsigned long long, vec2  long long);vec3  atan(vec3  unsigned long long, vec3  long long);vec4  atan(vec4  unsigned long long, vec4  long long);float atan(float y_over_x);vec2  atan(vec2  y_over_x);vec3  atan(vec3  y_over_x);vec4  atan(vec4  y_over_x);
 float sinh(float angle);vec2  sinh(vec2  angle);vec3  sinh(vec3  angle);vec4  sinh(vec4  angle);float cosh(float angle);vec2  cosh(vec2  angle);vec3  cosh(vec3  angle);vec4  cosh(vec4  angle);float tanh(float angle);vec2  tanh(vec2  angle);vec3  tanh(vec3  angle);vec4  tanh(vec4  angle);float asinh(float long long);vec2  asinh(vec2  long long);vec3  asinh(vec3  long long);vec4  asinh(vec4  long long);float acosh(float long long);vec2  acosh(vec2  long long);vec3  acosh(vec3  long long);vec4  acosh(vec4  long long);float atanh(float y_over_x);vec2  atanh(vec2  y_over_x);vec3  atanh(vec3  y_over_x);vec4  atanh(vec4  y_over_x);
 float( %float )
+float16BitsToInt16
+float16BitsToUint16
 float16_t dFdx(float16_t);f16vec2   dFdx(f16vec2);f16vec3   dFdx(f16vec3);f16vec4   dFdx(f16vec4);float16_t dFdy(float16_t);f16vec2   dFdy(f16vec2);f16vec3   dFdy(f16vec3);f16vec4   dFdy(f16vec4);float16_t dFdxFine(float16_t);f16vec2   dFdxFine(f16vec2);f16vec3   dFdxFine(f16vec3);f16vec4   dFdxFine(f16vec4);float16_t dFdyFine(float16_t);f16vec2   dFdyFine(f16vec2);f16vec3   dFdyFine(f16vec3);f16vec4   dFdyFine(f16vec4);float16_t dFdxCoarse(float16_t);f16vec2   dFdxCoarse(f16vec2);f16vec3   dFdxCoarse(f16vec3);f16vec4   dFdxCoarse(f16vec4);float16_t dFdyCoarse(float16_t);f16vec2   dFdyCoarse(f16vec2);f16vec3   dFdyCoarse(f16vec3);f16vec4   dFdyCoarse(f16vec4);float16_t fwidth(float16_t);f16vec2   fwidth(f16vec2);f16vec3   fwidth(f16vec3);f16vec4   fwidth(f16vec4);float16_t fwidthFine(float16_t);f16vec2   fwidthFine(f16vec2);f16vec3   fwidthFine(f16vec3);f16vec4   fwidthFine(f16vec4);float16_t fwidthCoarse(float16_t);f16vec2   fwidthCoarse(f16vec2);f16vec3   fwidthCoarse(f16vec3);f16vec4   fwidthCoarse(f16vec4);float16_t interpolateAtCentroid(float16_t);f16vec2   interpolateAtCentroid(f16vec2);f16vec3   interpolateAtCentroid(f16vec3);f16vec4   interpolateAtCentroid(f16vec4);float16_t interpolateAtSample(float16_t, int);f16vec2   interpolateAtSample(f16vec2,   int);f16vec3   interpolateAtSample(f16vec3,   int);f16vec4   interpolateAtSample(f16vec4,   int);float16_t interpolateAtOffset(float16_t, f16vec2);f16vec2   interpolateAtOffset(f16vec2,   f16vec2);f16vec3   interpolateAtOffset(f16vec3,   f16vec2);f16vec4   interpolateAtOffset(f16vec4,   f16vec2);
 float16_t radians(float16_t);f16vec2   radians(f16vec2);f16vec3   radians(f16vec3);f16vec4   radians(f16vec4);float16_t degrees(float16_t);f16vec2   degrees(f16vec2);f16vec3   degrees(f16vec3);f16vec4   degrees(f16vec4);float16_t sin(float16_t);f16vec2   sin(f16vec2);f16vec3   sin(f16vec3);f16vec4   sin(f16vec4);float16_t cos(float16_t);f16vec2   cos(f16vec2);f16vec3   cos(f16vec3);f16vec4   cos(f16vec4);float16_t tan(float16_t);f16vec2   tan(f16vec2);f16vec3   tan(f16vec3);f16vec4   tan(f16vec4);float16_t asin(float16_t);f16vec2   asin(f16vec2);f16vec3   asin(f16vec3);f16vec4   asin(f16vec4);float16_t acos(float16_t);f16vec2   acos(f16vec2);f16vec3   acos(f16vec3);f16vec4   acos(f16vec4);float16_t atan(float16_t, float16_t);f16vec2   atan(f16vec2,   f16vec2);f16vec3   atan(f16vec3,   f16vec3);f16vec4   atan(f16vec4,   f16vec4);float16_t atan(float16_t);f16vec2   atan(f16vec2);f16vec3   atan(f16vec3);f16vec4   atan(f16vec4);float16_t sinh(float16_t);f16vec2   sinh(f16vec2);f16vec3   sinh(f16vec3);f16vec4   sinh(f16vec4);float16_t cosh(float16_t);f16vec2   cosh(f16vec2);f16vec3   cosh(f16vec3);f16vec4   cosh(f16vec4);float16_t tanh(float16_t);f16vec2   tanh(f16vec2);f16vec3   tanh(f16vec3);f16vec4   tanh(f16vec4);float16_t asinh(float16_t);f16vec2   asinh(f16vec2);f16vec3   asinh(f16vec3);f16vec4   asinh(f16vec4);float16_t acosh(float16_t);f16vec2   acosh(f16vec2);f16vec3   acosh(f16vec3);f16vec4   acosh(f16vec4);float16_t atanh(float16_t);f16vec2   atanh(f16vec2);f16vec3   atanh(f16vec3);f16vec4   atanh(f16vec4);float16_t pow(float16_t, float16_t);f16vec2   pow(f16vec2,   f16vec2);f16vec3   pow(f16vec3,   f16vec3);f16vec4   pow(f16vec4,   f16vec4);float16_t exp(float16_t);f16vec2   exp(f16vec2);f16vec3   exp(f16vec3);f16vec4   exp(f16vec4);float16_t log(float16_t);f16vec2   log(f16vec2);f16vec3   log(f16vec3);f16vec4   log(f16vec4);float16_t exp2(float16_t);f16vec2   exp2(f16vec2);f16vec3   exp2(f16vec3);f16vec4   exp2(f16vec4);float16_t log2(float16_t);f16vec2   log2(f16vec2);f16vec3   log2(f16vec3);f16vec4   log2(f16vec4);float16_t sqrt(float16_t);f16vec2   sqrt(f16vec2);f16vec3   sqrt(f16vec3);f16vec4   sqrt(f16vec4);float16_t inversesqrt(float16_t);f16vec2   inversesqrt(f16vec2);f16vec3   inversesqrt(f16vec3);f16vec4   inversesqrt(f16vec4);float16_t abs(float16_t);f16vec2   abs(f16vec2);f16vec3   abs(f16vec3);f16vec4   abs(f16vec4);float16_t sign(float16_t);f16vec2   sign(f16vec2);f16vec3   sign(f16vec3);f16vec4   sign(f16vec4);float16_t floor(float16_t);f16vec2   floor(f16vec2);f16vec3   floor(f16vec3);f16vec4   floor(f16vec4);float16_t trunc(float16_t);f16vec2   trunc(f16vec2);f16vec3   trunc(f16vec3);f16vec4   trunc(f16vec4);float16_t round(float16_t);f16vec2   round(f16vec2);f16vec3   round(f16vec3);f16vec4   round(f16vec4);float16_t roundEven(float16_t);f16vec2   roundEven(f16vec2);f16vec3   roundEven(f16vec3);f16vec4   roundEven(f16vec4);float16_t ceil(float16_t);f16vec2   ceil(f16vec2);f16vec3   ceil(f16vec3);f16vec4   ceil(f16vec4);float16_t fract(float16_t);f16vec2   fract(f16vec2);f16vec3   fract(f16vec3);f16vec4   fract(f16vec4);float16_t mod(float16_t, float16_t);f16vec2   mod(f16vec2,   float16_t);f16vec3   mod(f16vec3,   float16_t);f16vec4   mod(f16vec4,   float16_t);f16vec2   mod(f16vec2,   f16vec2);f16vec3   mod(f16vec3,   f16vec3);f16vec4   mod(f16vec4,   f16vec4);float16_t modf(float16_t, out float16_t);f16vec2   modf(f16vec2,   out f16vec2);f16vec3   modf(f16vec3,   out f16vec3);f16vec4   modf(f16vec4,   out f16vec4);float16_t min(float16_t, float16_t);f16vec2   min(f16vec2,   float16_t);f16vec3   min(f16vec3,   float16_t);f16vec4   min(f16vec4,   float16_t);f16vec2   min(f16vec2,   f16vec2);f16vec3   min(f16vec3,   f16vec3);f16vec4   min(f16vec4,   f16vec4);float16_t max(float16_t, float16_t);f16vec2   max(f16vec2,   float16_t);f16vec3   max(f16vec3,   float16_t);f16vec4   max(f16vec4,   float16_t);f16vec2   max(f16vec2,   f16vec2);f16vec3   max(f16vec3,   f16vec3);f16vec4   max(f16vec4,   f16vec4);float16_t clamp(float16_t, float16_t, float16_t);f16vec2   clamp(f16vec2,   float16_t, float16_t);f16vec3   clamp(f16vec3,   float16_t, float16_t);f16vec4   clamp(f16vec4,   float16_t, float16_t);f16vec2   clamp(f16vec2,   f16vec2,   f16vec2);f16vec3   clamp(f16vec3,   f16vec3,   f16vec3);f16vec4   clamp(f16vec4,   f16vec4,   f16vec4);float16_t mix(float16_t, float16_t, float16_t);f16vec2   mix(f16vec2,   f16vec2,   float16_t);f16vec3   mix(f16vec3,   f16vec3,   float16_t);f16vec4   mix(f16vec4,   f16vec4,   float16_t);f16vec2   mix(f16vec2,   f16vec2,   f16vec2);f16vec3   mix(f16vec3,   f16vec3,   f16vec3);f16vec4   mix(f16vec4,   f16vec4,   f16vec4);float16_t mix(float16_t, float16_t, bool);f16vec2   mix(f16vec2,   f16vec2,   bvec2);f16vec3   mix(f16vec3,   f16vec3,   bvec3);f16vec4   mix(f16vec4,   f16vec4,   bvec4);float16_t step(float16_t, float16_t);f16vec2   step(f16vec2,   f16vec2);f16vec3   step(f16vec3,   f16vec3);f16vec4   step(f16vec4,   f16vec4);f16vec2   step(float16_t, f16vec2);f16vec3   step(float16_t, f16vec3);f16vec4   step(float16_t, f16vec4);float16_t smoothstep(float16_t, float16_t, float16_t);f16vec2   smoothstep(f16vec2,   f16vec2,   f16vec2);f16vec3   smoothstep(f16vec3,   f16vec3,   f16vec3);f16vec4   smoothstep(f16vec4,   f16vec4,   f16vec4);f16vec2   smoothstep(float16_t, float16_t, f16vec2);f16vec3   smoothstep(float16_t, float16_t, f16vec3);f16vec4   smoothstep(float16_t, float16_t, f16vec4);bool  isnan(float16_t);bvec2 isnan(f16vec2);bvec3 isnan(f16vec3);bvec4 isnan(f16vec4);bool  isinf(float16_t);bvec2 isinf(f16vec2);bvec3 isinf(f16vec3);bvec4 isinf(f16vec4);float16_t fma(float16_t, float16_t, float16_t);f16vec2   fma(f16vec2,   f16vec2,   f16vec2);f16vec3   fma(f16vec3,   f16vec3,   f16vec3);f16vec4   fma(f16vec4,   f16vec4,   f16vec4);float16_t frexp(float16_t, out int);f16vec2   frexp(f16vec2,   out ivec2);f16vec3   frexp(f16vec3,   out ivec3);f16vec4   frexp(f16vec4,   out ivec4);float16_t ldexp(float16_t, in int);f16vec2   ldexp(f16vec2,   in ivec2);f16vec3   ldexp(f16vec3,   in ivec3);f16vec4   ldexp(f16vec4,   in ivec4);uint    packFloat2x16(f16vec2);f16vec2 unpackFloat2x16(uint);float16_t length(float16_t);float16_t length(f16vec2);float16_t length(f16vec3);float16_t length(f16vec4);float16_t distance(float16_t, float16_t);float16_t distance(f16vec2,   f16vec2);float16_t distance(f16vec3,   f16vec3);float16_t distance(f16vec4,   f16vec4);float16_t dot(float16_t, float16_t);float16_t dot(f16vec2,   f16vec2);float16_t dot(f16vec3,   f16vec3);float16_t dot(f16vec4,   f16vec4);f16vec3 cross(f16vec3, f16vec3);float16_t normalize(float16_t);f16vec2   normalize(f16vec2);f16vec3   normalize(f16vec3);f16vec4   normalize(f16vec4);float16_t faceforward(float16_t, float16_t, float16_t);f16vec2   faceforward(f16vec2,   f16vec2,   f16vec2);f16vec3   faceforward(f16vec3,   f16vec3,   f16vec3);f16vec4   faceforward(f16vec4,   f16vec4,   f16vec4);float16_t reflect(float16_t, float16_t);f16vec2   reflect(f16vec2,   f16vec2);f16vec3   reflect(f16vec3,   f16vec3);f16vec4   reflect(f16vec4,   f16vec4);float16_t refract(float16_t, float16_t, float16_t);f16vec2   refract(f16vec2,   f16vec2,   float16_t);f16vec3   refract(f16vec3,   f16vec3,   float16_t);f16vec4   refract(f16vec4,   f16vec4,   float16_t);f16mat2   matrixCompMult(f16mat2,   f16mat2);f16mat3   matrixCompMult(f16mat3,   f16mat3);f16mat4   matrixCompMult(f16mat4,   f16mat4);f16mat2x3 matrixCompMult(f16mat2x3, f16mat2x3);f16mat2x4 matrixCompMult(f16mat2x4, f16mat2x4);f16mat3x2 matrixCompMult(f16mat3x2, f16mat3x2);f16mat3x4 matrixCompMult(f16mat3x4, f16mat3x4);f16mat4x2 matrixCompMult(f16mat4x2, f16mat4x2);f16mat4x3 matrixCompMult(f16mat4x3, f16mat4x3);f16mat2   outerProduct(f16vec2, f16vec2);f16mat3   outerProduct(f16vec3, f16vec3);f16mat4   outerProduct(f16vec4, f16vec4);f16mat2x3 outerProduct(f16vec3, f16vec2);f16mat3x2 outerProduct(f16vec2, f16vec3);f16mat2x4 outerProduct(f16vec4, f16vec2);f16mat4x2 outerProduct(f16vec2, f16vec4);f16mat3x4 outerProduct(f16vec4, f16vec3);f16mat4x3 outerProduct(f16vec3, f16vec4);f16mat2   transpose(f16mat2);f16mat3   transpose(f16mat3);f16mat4   transpose(f16mat4);f16mat2x3 transpose(f16mat3x2);f16mat3x2 transpose(f16mat2x3);f16mat2x4 transpose(f16mat4x2);f16mat4x2 transpose(f16mat2x4);f16mat3x4 transpose(f16mat4x3);f16mat4x3 transpose(f16mat3x4);float16_t determinant(f16mat2);float16_t determinant(f16mat3);float16_t determinant(f16mat4);f16mat2 inverse(f16mat2);f16mat3 inverse(f16mat3);f16mat4 inverse(f16mat4);bvec2 lessThan(f16vec2, f16vec2);bvec3 lessThan(f16vec3, f16vec3);bvec4 lessThan(f16vec4, f16vec4);bvec2 lessThanEqual(f16vec2, f16vec2);bvec3 lessThanEqual(f16vec3, f16vec3);bvec4 lessThanEqual(f16vec4, f16vec4);bvec2 greaterThan(f16vec2, f16vec2);bvec3 greaterThan(f16vec3, f16vec3);bvec4 greaterThan(f16vec4, f16vec4);bvec2 greaterThanEqual(f16vec2, f16vec2);bvec3 greaterThanEqual(f16vec3, f16vec3);bvec4 greaterThanEqual(f16vec4, f16vec4);bvec2 equal(f16vec2, f16vec2);bvec3 equal(f16vec3, f16vec3);bvec4 equal(f16vec4, f16vec4);bvec2 notEqual(f16vec2, f16vec2);bvec3 notEqual(f16vec3, f16vec3);bvec4 notEqual(f16vec4, f16vec4);
 float1x1
@@ -7233,14 +7455,14 @@ floatBitsToInt
 floatBitsToUint
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(122): Unknown gamma type "%short"!
-floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2097): Error loading %short
-floatbitmap.cpp(2120): Error! Unknown file type for %short
-floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(306): Conversion not supported yet!
-floatbitmap.cpp(406): Conversion not supported yet!
-floatbitmap.cpp(842): Unsupported color format "%short", skipping!
+floatbitmap.cpp(124): Unknown gamma type "%short"!
+floatbitmap.cpp(2096): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2107): Error loading %short
+floatbitmap.cpp(2130): Error! Unknown file type for %short
+floatbitmap.cpp(2149): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(308): Conversion not supported yet!
+floatbitmap.cpp(408): Conversion not supported yet!
+floatbitmap.cpp(844): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -7248,6 +7470,7 @@ floorf@@GLIBC_2.2.5
 flow in H
 for header name: %short
 for sub-statement
+for-loop initializer statement
 for_init_statement
 for_rest_statement
 forcecase
@@ -7314,7 +7537,6 @@ fwrite
 fwrite@@GLIBC_2.2.5
 g$D;unsigned long
 g$E9w
-gHUSH
 gRCA unsigned long
 g_Mathlib_GammaToLinearByteTable
 g_Tier1_CRC32Table
@@ -7363,6 +7585,7 @@ gl_FragCoord redeclarations must match across shaders
 gl_FragData
 gl_FragDepth
 gl_FragDepthEXT
+gl_FragStencilRefARB
 gl_FrontColor
 gl_FrontFacing
 gl_FrontSecondaryColor
@@ -7433,6 +7656,7 @@ gl_TexCoord array size
 gl_Vertex
 gl_VertexId
 gl_VertexIndex
+gl_ViewID_OVR
 gl_ViewIndex
 gl_ViewportIndex
 gl_ViewportMask
@@ -7507,6 +7731,7 @@ glslang::TType
 glslang::TVarGatherTraverser
 glslang::TVarSetTraverser
 glslang::TVariable
+glslang::TextureUpgradeAndSamplerRemovalTransform
 greaterThan
 greaterThanEqual
 groupshared
@@ -7515,16 +7740,32 @@ gs_4_1
 gs_5_0
 gx=%double, gy=%double, bx=%double, by=%double
 h8t\I
-hAVAUATUSH
+hAVAUATI
 hE9/~\L
 half float literal
 half float matrix
 half float vector
 half floating-point suffix
 half1
+half1x1
+half1x2
+half1x3
+half1x4
 half2
+half2x1
+half2x2
+half2x3
+half2x4
 half3
+half3x1
+half3x2
+half3x3
+half3x4
 half4
+half4x1
+half4x2
+half4x3
+half4x4
 hdLcH
 header crc mismatch
 header name too long
@@ -7542,6 +7783,7 @@ highp uint packSnorm2x16(vec2);      vec2 unpackSnorm2x16(highp uint);highp uint
 highp uint packSnorm4x8(vec4);highp uint packUnorm4x8(vec4);
 highp uint packUnorm2x16(vec2);vec2 unpackUnorm2x16(highp uint);
 highp vec4  gl_Position;highp float gl_PointSize;
+hjklvwpqo
 hs_5_0
 hvec2
 hvec3
@@ -7571,7 +7813,7 @@ illegal use of escape character
 illegal use of type 'void'
 image load store
 image load-store format
-image variables declared 'writeonly' without signed char format layout qualifier
+image variables not declared 'writeonly' and without signed char format layout qualifier
 imageAtomic
 imageAtomicAdd
 imageAtomicAnd
@@ -7589,7 +7831,6 @@ imageSamples(readonly writeonly volatile coherent
 imageSize
 imageStore
 immediate sampler state
-implicitly sized atomic_uint array treated as having one element for tracking the default offset
 imulExtended
 in    highp uvec3 gl_NumWorkGroups;const highp uvec3 gl_WorkGroupSize = uvec3(1,1,1);in highp uvec3 gl_WorkGroupID;in highp uvec3 gl_LocalInvocationID;in highp uvec3 gl_GlobalInvocationID;in highp uint gl_LocalInvocationIndex;
 in float gl_ClipDistance[];
@@ -7607,6 +7848,7 @@ in highp int gl_PatchVerticesIn;in highp int gl_PrimitiveID;in highp vec3 gl_Tes
 in highp int gl_PrimitiveIDIn;in highp int gl_InvocationID;
 in highp int gl_VertexID;in highp int gl_InstanceID;
 in highp int gl_VertexIndex;in highp int gl_InstanceIndex;
+in highp uint gl_ViewID_OVR;
 in int gl_BaseVertexARB;in int gl_BaseInstanceARB;in int gl_DrawIDARB;
 in int gl_InvocationID;
 in int gl_PatchVerticesIn;in int gl_PrimitiveID;in int gl_InvocationID;out gl_PerVertex {vec4 gl_Position;float gl_PointSize;float gl_ClipDistance[];
@@ -7655,6 +7897,7 @@ int sparseImageLoadARB(readonly volatile coherent
 int textureQueryLevels(
 int( %double = 0x%X )
 int(J;,
+int16_t abs(int16_t);i16vec2 abs(i16vec2);i16vec3 abs(i16vec3);i16vec4 abs(i16vec4);int16_t sign(int16_t);i16vec2 sign(i16vec2);i16vec3 sign(i16vec3);i16vec4 sign(i16vec4);int16_t  min(int16_t,  int16_t);i16vec2  min(i16vec2,  int16_t);i16vec3  min(i16vec3,  int16_t);i16vec4  min(i16vec4,  int16_t);i16vec2  min(i16vec2,  i16vec2);i16vec3  min(i16vec3,  i16vec3);i16vec4  min(i16vec4,  i16vec4);uint16_t min(uint16_t, uint16_t);u16vec2  min(u16vec2,  uint16_t);u16vec3  min(u16vec3,  uint16_t);u16vec4  min(u16vec4,  uint16_t);u16vec2  min(u16vec2,  u16vec2);u16vec3  min(u16vec3,  u16vec3);u16vec4  min(u16vec4,  u16vec4);int16_t  max(int16_t,  int16_t);i16vec2  max(i16vec2,  int16_t);i16vec3  max(i16vec3,  int16_t);i16vec4  max(i16vec4,  int16_t);i16vec2  max(i16vec2,  i16vec2);i16vec3  max(i16vec3,  i16vec3);i16vec4  max(i16vec4,  i16vec4);uint16_t max(uint16_t, uint16_t);u16vec2  max(u16vec2,  uint16_t);u16vec3  max(u16vec3,  uint16_t);u16vec4  max(u16vec4,  uint16_t);u16vec2  max(u16vec2,  u16vec2);u16vec3  max(u16vec3,  u16vec3);u16vec4  max(u16vec4,  u16vec4);int16_t  clamp(int16_t,  int16_t,  int16_t);i16vec2  clamp(i16vec2,  int16_t,  int16_t);i16vec3  clamp(i16vec3,  int16_t,  int16_t);i16vec4  clamp(i16vec4,  int16_t,  int16_t);i16vec2  clamp(i16vec2,  i16vec2,  i16vec2);i16vec3  clamp(i16vec3,  i16vec3,  i16vec3);i16vec4  clamp(i16vec4,  i16vec4,  i16vec4);uint16_t clamp(uint16_t, uint16_t, uint16_t);u16vec2  clamp(u16vec2,  uint16_t, uint16_t);u16vec3  clamp(u16vec3,  uint16_t, uint16_t);u16vec4  clamp(u16vec4,  uint16_t, uint16_t);u16vec2  clamp(u16vec2,  u16vec2,  u16vec2);u16vec3  clamp(u16vec3,  u16vec3,  u16vec3);u16vec4  clamp(u16vec4,  u16vec4,  u16vec4);int16_t  mix(int16_t,  int16_t,  bool);i16vec2  mix(i16vec2,  i16vec2,  bvec2);i16vec3  mix(i16vec3,  i16vec3,  bvec3);i16vec4  mix(i16vec4,  i16vec4,  bvec4);uint16_t mix(uint16_t, uint16_t, bool);u16vec2  mix(u16vec2,  u16vec2,  bvec2);u16vec3  mix(u16vec3,  u16vec3,  bvec3);u16vec4  mix(u16vec4,  u16vec4,  bvec4);float16_t frexp(float16_t, out int16_t);f16vec2   frexp(f16vec2,   out i16vec2);f16vec3   frexp(f16vec3,   out i16vec3);f16vec4   frexp(f16vec4,   out i16vec4);float16_t ldexp(float16_t, int16_t);f16vec2   ldexp(f16vec2,   i16vec2);f16vec3   ldexp(f16vec3,   i16vec3);f16vec4   ldexp(f16vec4,   i16vec4);int16_t float16BitsToInt16(float16_t);i16vec2 float16BitsToInt16(f16vec2);i16vec3 float16BitsToInt16(f16vec3);i16vec4 float16BitsToInt16(f16vec4);uint16_t float16BitsToUint16(float16_t);u16vec2  float16BitsToUint16(f16vec2);u16vec3  float16BitsToUint16(f16vec3);u16vec4  float16BitsToUint16(f16vec4);float16_t int16BitsToFloat16(int16_t);f16vec2   int16BitsToFloat16(i16vec2);f16vec3   int16BitsToFloat16(i16vec3);f16vec4   int16BitsToFloat16(i16vec4);float16_t uint16BitsToFloat16(uint16_t);f16vec2   uint16BitsToFloat16(u16vec2);f16vec3   uint16BitsToFloat16(u16vec3);f16vec4   uint16BitsToFloat16(u16vec4);int      packInt2x16(i16vec2);uint     packUint2x16(u16vec2);int64_t  packInt4x16(i16vec4);uint64_t packUint4x16(u16vec4);i16vec2  unpackInt2x16(int);u16vec2  unpackUint2x16(uint);i16vec4  unpackInt4x16(int64_t);u16vec4  unpackUint4x16(uint64_t);bvec2 lessThan(i16vec2, i16vec2);bvec3 lessThan(i16vec3, i16vec3);bvec4 lessThan(i16vec4, i16vec4);bvec2 lessThan(u16vec2, u16vec2);bvec3 lessThan(u16vec3, u16vec3);bvec4 lessThan(u16vec4, u16vec4);bvec2 lessThanEqual(i16vec2, i16vec2);bvec3 lessThanEqual(i16vec3, i16vec3);bvec4 lessThanEqual(i16vec4, i16vec4);bvec2 lessThanEqual(u16vec2, u16vec2);bvec3 lessThanEqual(u16vec3, u16vec3);bvec4 lessThanEqual(u16vec4, u16vec4);bvec2 greaterThan(i16vec2, i16vec2);bvec3 greaterThan(i16vec3, i16vec3);bvec4 greaterThan(i16vec4, i16vec4);bvec2 greaterThan(u16vec2, u16vec2);bvec3 greaterThan(u16vec3, u16vec3);bvec4 greaterThan(u16vec4, u16vec4);bvec2 greaterThanEqual(i16vec2, i16vec2);bvec3 greaterThanEqual(i16vec3, i16vec3);bvec4 greaterThanEqual(i16vec4, i16vec4);bvec2 greaterThanEqual(u16vec2, u16vec2);bvec3 greaterThanEqual(u16vec3, u16vec3);bvec4 greaterThanEqual(u16vec4, u16vec4);bvec2 equal(i16vec2, i16vec2);bvec3 equal(i16vec3, i16vec3);bvec4 equal(i16vec4, i16vec4);bvec2 equal(u16vec2, u16vec2);bvec3 equal(u16vec3, u16vec3);bvec4 equal(u16vec4, u16vec4);bvec2 notEqual(i16vec2, i16vec2);bvec3 notEqual(i16vec3, i16vec3);bvec4 notEqual(i16vec4, i16vec4);bvec2 notEqual(u16vec2, u16vec2);bvec3 notEqual(u16vec3, u16vec3);bvec4 notEqual(u16vec4, u16vec4);
 int64_t abs(int64_t);i64vec2 abs(i64vec2);i64vec3 abs(i64vec3);i64vec4 abs(i64vec4);int64_t sign(int64_t);i64vec2 sign(i64vec2);i64vec3 sign(i64vec3);i64vec4 sign(i64vec4);int64_t  min(int64_t,  int64_t);i64vec2  min(i64vec2,  int64_t);i64vec3  min(i64vec3,  int64_t);i64vec4  min(i64vec4,  int64_t);i64vec2  min(i64vec2,  i64vec2);i64vec3  min(i64vec3,  i64vec3);i64vec4  min(i64vec4,  i64vec4);uint64_t min(uint64_t, uint64_t);u64vec2  min(u64vec2,  uint64_t);u64vec3  min(u64vec3,  uint64_t);u64vec4  min(u64vec4,  uint64_t);u64vec2  min(u64vec2,  u64vec2);u64vec3  min(u64vec3,  u64vec3);u64vec4  min(u64vec4,  u64vec4);int64_t  max(int64_t,  int64_t);i64vec2  max(i64vec2,  int64_t);i64vec3  max(i64vec3,  int64_t);i64vec4  max(i64vec4,  int64_t);i64vec2  max(i64vec2,  i64vec2);i64vec3  max(i64vec3,  i64vec3);i64vec4  max(i64vec4,  i64vec4);uint64_t max(uint64_t, uint64_t);u64vec2  max(u64vec2,  uint64_t);u64vec3  max(u64vec3,  uint64_t);u64vec4  max(u64vec4,  uint64_t);u64vec2  max(u64vec2,  u64vec2);u64vec3  max(u64vec3,  u64vec3);u64vec4  max(u64vec4,  u64vec4);int64_t  clamp(int64_t,  int64_t,  int64_t);i64vec2  clamp(i64vec2,  int64_t,  int64_t);i64vec3  clamp(i64vec3,  int64_t,  int64_t);i64vec4  clamp(i64vec4,  int64_t,  int64_t);i64vec2  clamp(i64vec2,  i64vec2,  i64vec2);i64vec3  clamp(i64vec3,  i64vec3,  i64vec3);i64vec4  clamp(i64vec4,  i64vec4,  i64vec4);uint64_t clamp(uint64_t, uint64_t, uint64_t);u64vec2  clamp(u64vec2,  uint64_t, uint64_t);u64vec3  clamp(u64vec3,  uint64_t, uint64_t);u64vec4  clamp(u64vec4,  uint64_t, uint64_t);u64vec2  clamp(u64vec2,  u64vec2,  u64vec2);u64vec3  clamp(u64vec3,  u64vec3,  u64vec3);u64vec4  clamp(u64vec4,  u64vec4,  u64vec4);int64_t  mix(int64_t,  int64_t,  bool);i64vec2  mix(i64vec2,  i64vec2,  bvec2);i64vec3  mix(i64vec3,  i64vec3,  bvec3);i64vec4  mix(i64vec4,  i64vec4,  bvec4);uint64_t mix(uint64_t, uint64_t, bool);u64vec2  mix(u64vec2,  u64vec2,  bvec2);u64vec3  mix(u64vec3,  u64vec3,  bvec3);u64vec4  mix(u64vec4,  u64vec4,  bvec4);int64_t doubleBitsToInt64(double);i64vec2 doubleBitsToInt64(dvec2);i64vec3 doubleBitsToInt64(dvec3);i64vec4 doubleBitsToInt64(dvec4);uint64_t doubleBitsToUint64(double);u64vec2  doubleBitsToUint64(dvec2);u64vec3  doubleBitsToUint64(dvec3);u64vec4  doubleBitsToUint64(dvec4);double int64BitsToDouble(int64_t);dvec2  int64BitsToDouble(i64vec2);dvec3  int64BitsToDouble(i64vec3);dvec4  int64BitsToDouble(i64vec4);double uint64BitsToDouble(uint64_t);dvec2  uint64BitsToDouble(u64vec2);dvec3  uint64BitsToDouble(u64vec3);dvec4  uint64BitsToDouble(u64vec4);int64_t  packInt2x32(ivec2);uint64_t packUint2x32(uvec2);ivec2    unpackInt2x32(int64_t);uvec2    unpackUint2x32(uint64_t);bvec2 lessThan(i64vec2, i64vec2);bvec3 lessThan(i64vec3, i64vec3);bvec4 lessThan(i64vec4, i64vec4);bvec2 lessThan(u64vec2, u64vec2);bvec3 lessThan(u64vec3, u64vec3);bvec4 lessThan(u64vec4, u64vec4);bvec2 lessThanEqual(i64vec2, i64vec2);bvec3 lessThanEqual(i64vec3, i64vec3);bvec4 lessThanEqual(i64vec4, i64vec4);bvec2 lessThanEqual(u64vec2, u64vec2);bvec3 lessThanEqual(u64vec3, u64vec3);bvec4 lessThanEqual(u64vec4, u64vec4);bvec2 greaterThan(i64vec2, i64vec2);bvec3 greaterThan(i64vec3, i64vec3);bvec4 greaterThan(i64vec4, i64vec4);bvec2 greaterThan(u64vec2, u64vec2);bvec3 greaterThan(u64vec3, u64vec3);bvec4 greaterThan(u64vec4, u64vec4);bvec2 greaterThanEqual(i64vec2, i64vec2);bvec3 greaterThanEqual(i64vec3, i64vec3);bvec4 greaterThanEqual(i64vec4, i64vec4);bvec2 greaterThanEqual(u64vec2, u64vec2);bvec3 greaterThanEqual(u64vec3, u64vec3);bvec4 greaterThanEqual(u64vec4, u64vec4);bvec2 equal(i64vec2, i64vec2);bvec3 equal(i64vec3, i64vec3);bvec4 equal(i64vec4, i64vec4);bvec2 equal(u64vec2, u64vec2);bvec3 equal(u64vec3, u64vec3);bvec4 equal(u64vec4, u64vec4);bvec2 notEqual(i64vec2, i64vec2);bvec3 notEqual(i64vec3, i64vec3);bvec4 notEqual(i64vec4, i64vec4);bvec2 notEqual(u64vec2, u64vec2);bvec3 notEqual(u64vec3, u64vec3);bvec4 notEqual(u64vec4, u64vec4);int   findLSB(int64_t);ivec2 findLSB(i64vec2);ivec3 findLSB(i64vec3);ivec4 findLSB(i64vec4);int   findLSB(uint64_t);ivec2 findLSB(u64vec2);ivec3 findLSB(u64vec3);ivec4 findLSB(u64vec4);int   findMSB(int64_t);ivec2 findMSB(i64vec2);ivec3 findMSB(i64vec3);ivec4 findMSB(i64vec4);int   findMSB(uint64_t);ivec2 findMSB(u64vec2);ivec3 findMSB(u64vec3);ivec4 findMSB(u64vec4);
 integer_expression
 interface
@@ -7688,7 +7931,7 @@ invalid handle
 invalid literal/length code
 invalid literal/lengths set
 invalid outputcontrolpoints
-invalid outputtoplogy
+invalid outputtopology
 invalid parameter after default value parameters
 invalid partitioning
 invalid patch constant function
@@ -7740,34 +7983,33 @@ jP7Zv;
 jump_statement
 k []A\
 k unsigned short@1
+k,float%?
 k0u@I
 k8;C0t8
 k8D;kHD
 k@[A\A]A^]
+l$	float%
 l$ E9
 l$ Lc
 l$ dH
 l$ u'
-l$&D"l$$
 l$(E1
 l$(I9
 l$0H)
 l$0I9
-l$0L9
 l$0dH
-l$8L+l$0H
 l$8fE
-l$<A 
 l$@E1
 l$@I9
 l$@M	
-l$HE1
+l$HL+l$@H
 l$PE1
+l$XE1
 l$XI9
+l$`H)
+l$`u&A
 l$hA+^@
-l$if%
 l$pD;l$@
-l$pE1
 lBHfE
 lPHfE
 last case/default label not followed by statements
@@ -7862,13 +8104,14 @@ long long<IcH
 long long[A\A]A^A_]
 long long[]A\A]
 long long[]A\A]A^A_
+long long[]A\A]A^D
 longjmp
 longjmp@@GLIBC_2.2.5
 looks like this:
 lowp   int bitCount(  int);lowp ivec2 bitCount(ivec2);lowp ivec3 bitCount(ivec3);lowp ivec4 bitCount(ivec4);lowp   int bitCount( uint);lowp ivec2 bitCount(uvec2);lowp ivec3 bitCount(uvec3);lowp ivec4 bitCount(uvec4);lowp   int findMSB(highp   int);lowp ivec2 findMSB(highp ivec2);lowp ivec3 findMSB(highp ivec3);lowp ivec4 findMSB(highp ivec4);lowp   int findMSB(highp  uint);lowp ivec2 findMSB(highp uvec2);lowp ivec3 findMSB(highp uvec3);lowp ivec4 findMSB(highp uvec4);
 lowp   int findLSB(  int);lowp ivec2 findLSB(ivec2);lowp ivec3 findLSB(ivec3);lowp ivec4 findLSB(ivec4);lowp   int findLSB( uint);lowp ivec2 findLSB(uvec2);lowp ivec3 findLSB(uvec3);lowp ivec4 findLSB(uvec4);
 lowp precision qualifier
-lx]Mr
+lx]J_
 mB<VC
 m_Format
 m_Frames
@@ -8108,9 +8351,11 @@ non-constant offset argument
 non-literal layout-id value
 non-matching or non-convertible constant type for const initializer
 non-opaque uniforms outside signed char block
+non-structure type in ConstantBuffer
 non-uniform struct contains an atomic_uint:
 non-uniform struct contains signed char sampler or image:
 non-void function must return signed char value
+nonportable when expanded from macros for preprocessor expression
 normalize
 not allowed in nested scope
 not allowed in this version
@@ -8125,11 +8370,12 @@ notEqual
 notconnected
 notify
 nterm
+num_views
 numeric literal too big
 numeric literal too long
 numthreads
 o0ATUH
-o8ATM
+o8ATUSH
 oXATA
 octal and hex sequences not supported
 octal literal digit too large
@@ -8140,6 +8386,7 @@ offset on block member
 offset/align
 offset/align can only be used on signed char uniform or buffer
 offsets argument
+ohATUH
 only allowed when generating SPIR-V
 only allowed when using GLSL for Vulkan
 only applies to block members, not blocks
@@ -8147,6 +8394,7 @@ only apply to images
 only one array dimension supported for builtIn IO variable
 only one precision qualifier allowed
 only outermost dimension of an array of arrays can be implicitly sized
+only outermost dimension of an array of arrays can be signed char specialization constant
 only simple assignment to non-simple matrix swizzle is supported
 only supported on image with format r32f
 only supported on image with format r32i or r32ui
@@ -8166,6 +8414,7 @@ out gl_PerVertex {highp vec4 gl_Position;highp float gl_PointSize;};
 out gl_PerVertex {vec4 gl_Position;float gl_PointSize;float gl_ClipDistance[];
 out highp int gl_PrimitiveID;out highp int gl_Layer;
 out int  gl_ViewportIndex;out int  gl_Layer;out int  gl_ViewportMask[];out vec4 gl_SecondaryPositionNV;out int  gl_SecondaryViewportMaskNV[];out vec4 gl_PositionPerViewNV[];out int  gl_ViewportMaskPerViewNV[];
+out int gl_FragStencilRefARB;
 out int gl_ViewportIndex;
 out int gl_ViewportIndex;out int gl_Layer;out int gl_ViewportMask[];out int gl_SecondaryViewportMaskNV[];out vec4 gl_SecondaryPositionNV;out vec4 gl_PositionPerViewNV[];out int  gl_ViewportMaskPerViewNV[];
 out int gl_ViewportMask[];out int gl_SecondaryViewportMaskNV[];out vec4 gl_SecondaryPositionNV;out vec4 gl_PositionPerViewNV[];out int  gl_ViewportMaskPerViewNV[];
@@ -8175,7 +8424,6 @@ outer product
 outerProduct
 output primitive = 
 output primitive geometry redefinition
-outputtopology
 overlapping offsets at
 overlapping use of location
 overloaded functions must have the same parameter precision qualifiers for argument
@@ -8184,15 +8432,18 @@ overloaded functions must have the same return type
 override_coverage
 p Icx`F
 p$t.A9
+p:E" 
 p<@unsigned short#H
 p<@unsigned short(H
 p<@unsigned short(M
-p<@unsigned short+H
+p<@unsigned short,H
 pE9e\
 pExt->vkCreateDescriptorUpdateTemplateKHR( m_pDeviceVulkan, &descriptorUpdateTemplateCreateInfo, NULL, &pPipelineOut->m_pDescriptorUpdateTemplate )
+pXA]A^]
 p[A\A]A^A_]
 p[A\A]A^]
 p[A\]
+p[]A\
 p[]A\A]A^
 packed
 packoffset
@@ -8201,6 +8452,7 @@ parameter error
 parameter_declaration
 parameter_declarator
 parameter_type_specifier
+parenthesized array constructor not allowed
 partition
 patch constant function not found
 patchconstantfunc
@@ -8216,14 +8468,16 @@ png_set_gamma screen gamma
 point_mode
 position
 positiont
+post depth coverage
 post-discard
 post-loop-break
 post-loop-continue
 post-return
 post-switch-break
+post_coverage_coverage
+post_depth_coverage requires early_fragment_tests
 postfix_expression
 pow@@GLIBC_2.2.5
-powf@@GLIBC_2.2.5
 precise
 precise qualifier must appear first
 precise_qualifier
@@ -8270,6 +8524,7 @@ pthread_setspecific@@GLIBC_2.2.5
 ptr( 0x%p )
 public
 puwUH
+qUtx`
 q`f9s`
 quads
 qualifier has no effect on non-output parameters
@@ -8278,15 +8533,18 @@ r0[A\]
 r16_snorm
 r16ui
 r32ui
+r6LcA
 r8_snorm
 r_frame_sync_enable
 r_fullscreen_gamma
 r_gpu_mem_stats
 r_max_texture_pool_size
+r_mipgen_compute_shader
 r_multigpu_num_gpus_found
 r_multigpu_num_gpus_used
 r_pipeline_stats_command_flush
 r_pipeline_stats_present_flush
+r_prefer_loop_unrolling
 r_texture_eager_eviction
 r_texture_pool_size
 r_texture_stream_debug_spew
@@ -8386,6 +8644,7 @@ sample mask override coverage
 sampler binding not less than gl_MaxCombinedTextureImageUnits
 sampler constructor must appear at point of use
 sampler name
+sampler or image aliased under control flow; consumption must be in same path
 sampler-constructor cannot make an array of samplers
 sampler-constructor first argument must be signed char scalar textureXXX type
 sampler-constructor first argument must match type and dimensionality of constructor type
@@ -8459,7 +8718,9 @@ setting.resettodefaults
 setting.shaderquality
 shader half float
 shader input/output
+shader int16
 shader int64
+shader stencil export
 shader thread state machine violation
 shader_%04d.txt
 shadercache/vulkan
@@ -8472,9 +8733,11 @@ shadow1DProj
 shadow1DProjGradARB
 shadow1DProjLod
 shadow2D
+shadow2DEXT
 shadow2DGradARB
 shadow2DLod
 shadow2DProj
+shadow2DProjEXT
 shadow2DProjGradARB
 shadow2DProjLod
 shadow2DRect
@@ -8488,7 +8751,8 @@ short
 short H9p r@L
 short H;short(
 short void&E1
-short#L;}
+short(N;4
+short,float%?
 short=LcU
 signed char[_\`
 simple_statement
@@ -8505,26 +8769,46 @@ sizeof
 smoothstep
 snprintf@@GLIBC_2.2.5
 space identifier
+sparseImageLoad
 sparseImageLoadARB
 sparseTexel
+sparseTexelFetch
 sparseTexelFetchARB
+sparseTexelFetchOffset
 sparseTexelFetchOffsetARB
 sparseTexelsResident
 sparseTexelsResidentARB
 sparseTexture
 sparseTextureARB
+sparseTextureClamp
 sparseTextureClampARB
 sparseTextureGather
 sparseTextureGatherARB
+sparseTextureGatherLod
+sparseTextureGatherLodAMD
+sparseTextureGatherLodOffset
+sparseTextureGatherLodOffsetAMD
+sparseTextureGatherLodOffsets
+sparseTextureGatherLodOffsetsAMD
+sparseTextureGatherOffset
 sparseTextureGatherOffsetARB
+sparseTextureGatherOffsets
 sparseTextureGatherOffsetsARB
+sparseTextureGrad
 sparseTextureGradARB
+sparseTextureGradClamp
 sparseTextureGradClampARB
+sparseTextureGradOffset
 sparseTextureGradOffsetARB
+sparseTextureGradOffsetClam
 sparseTextureGradOffsetClampARB
+sparseTextureLod
 sparseTextureLodARB
+sparseTextureLodOffset
 sparseTextureLodOffsetARB
+sparseTextureOffset
 sparseTextureOffsetARB
+sparseTextureOffsetClamp
 sparseTextureOffsetClampARB
 specialization-constant id already used
 specialization-constant id is too large
@@ -8642,23 +8926,24 @@ syntax error, unexpected %short, expecting %short or %short or %short
 syntax error, unexpected %short, expecting %short or %short or %short or %short
 system.fxc
 szLce
+t$ ;q 
 t$ E1
-t$ H)
+t$ H9
 t$ M)
 t$ f.
 t$(H9
 t$(H;p
-t$(Hc
 t$(I)
 t$(L)
 t$(uzI
+t$0H9t$@
 t$0I)
 t$0L9
+t$0fD
 t$8E1
 t$8H)
-t$8L;t$@
-t$8dH34%(
-t$>D"t$$
+t$8Hc
+t$8L9t$@
 t$@A\]
 t$@E1
 t$@H9
@@ -8667,18 +8952,13 @@ t$@dH
 t$H9h
 t$HcP
 t$HfA
-t$PH)
-t$PL!unsigned long
 t$PfA
-t$XH)D$X1
+t$XH)
 t$hH)D$hH
 t$hH;
 t$hIc
 t$lfA
 t$o@ 
-t$pE1
-t$pHc\$@H
-t$pfA
 t0Mcv
 t0xsA
 t1Mc}
@@ -8693,7 +8973,6 @@ tBHfE
 tC[]1
 tDIcU
 tEH;v0I
-tF[]A\A]A^
 tI;] |DI
 tIW?Z
 tJAVAUATUH
@@ -8779,6 +9058,7 @@ texture3DLod
 texture3DProj
 texture3DProjGradARB
 texture3DProjLod
+textureClamp
 textureClampARB
 textureCubeGradARB
 textureCubeGradEXT
@@ -8787,15 +9067,24 @@ textureCubeLodEXT
 textureFetch
 textureFetchOffset
 textureGather
+textureGatherLod
+textureGatherLodAMD
+textureGatherLodOffset
+textureGatherLodOffsetAMD
+textureGatherLodOffsets
+textureGatherLodOffsetsAMD
 textureGatherOffset
 textureGatherOffsets
 textureGrad
+textureGradClamp
 textureGradClampARB
 textureGradOffset
+textureGradOffsetClamp
 textureGradOffsetClampARB
 textureLod
 textureLodOffset
 textureOffset
+textureOffsetClamp
 textureOffsetClampARB
 textureProj
 textureProjGrad
@@ -8809,20 +9098,21 @@ textureSamples
 textureSamples and imageSamples
 textureSamples(
 textureSize
-texturebase.cpp(1297):Error loading texture: %short
-texturebase.cpp(2088):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2099):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2110):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2131):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2142):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2153):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2164):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2185):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2196):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2207):ResourceHandleToData( %short ) failed! Falling back to error texture!
-texturebase.cpp(2218):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(1299):Error loading texture: %short
+texturebase.cpp(2090):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2101):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2112):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2133):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2144):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2155):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2166):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2187):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2198):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2209):ResourceHandleToData( %short ) failed! Falling back to error texture!
+texturebase.cpp(2220):ResourceHandleToData( %short ) failed! Falling back to error texture!
 tfUMc
 tgE+long double D9
+tgHcS
 then statement
 there is no such layout identifier for this stage taking an assigned value
 throw
@@ -8830,7 +9120,6 @@ tiHcS
 time@@GLIBC_2.2.5
 timeAMD
 tlHcU
-tn;l$0
 toHcS
 token pasting (##)
 token too long
@@ -8888,10 +9177,11 @@ u LcU
 u [A\]
 u!L9]
 u"[A\A]A^]
-u#L;5
+u#L;5\
 u'[]A\A]A^
 u(D+H<H
 u+HcT$
+u0tuH9
 u3HD}
 u64( %lld = 0x%llX )
 u6[A\]
@@ -8920,6 +9210,7 @@ uimageCube
 uimageCubeArray
 uint atomicAdd(coherent volatile inout uint, uint); int atomicAdd(coherent volatile inout  int,  int);uint atomicMin(coherent volatile inout uint, uint); int atomicMin(coherent volatile inout  int,  int);uint atomicMax(coherent volatile inout uint, uint); int atomicMax(coherent volatile inout  int,  int);uint atomicAnd(coherent volatile inout uint, uint); int atomicAnd(coherent volatile inout  int,  int);uint atomicOr (coherent volatile inout uint, uint); int atomicOr (coherent volatile inout  int,  int);uint atomicXor(coherent volatile inout uint, uint); int atomicXor(coherent volatile inout  int,  int);uint atomicExchange(coherent volatile inout uint, uint); int atomicExchange(coherent volatile inout  int,  int);uint atomicCompSwap(coherent volatile inout uint, uint, uint); int atomicCompSwap(coherent volatile inout  int,  int,  int);
 uint atomicCounterIncrement(atomic_uint long long);uint atomicCounterDecrement(atomic_uint long long);uint atomicCounter(atomic_uint long long);
+uint16BitsToFloat16
 uint1x1
 uint1x2
 uint1x3
@@ -8956,6 +9247,8 @@ unexpected initializer-list type:
 unexpected location
 unexpected location; end of argument
 unexpected location; end of replacement list
+unexpected operator on texture type:
+unexpected texture type for .mips[][] operator:
 unexpected token
 unexpected tokens following #ifdef directive - expected signed char newline
 unexpected tokens following directive
@@ -8971,7 +9264,6 @@ uniform mat4  gl_TextureMatrix[gl_MaxTextureCoords];uniform mat4  gl_TextureMatr
 uniform uint gl_SubGroupSizeARB;in uint     gl_SubGroupInvocationARB;in uint64_t gl_SubGroupEqMaskARB;in uint64_t gl_SubGroupGeMaskARB;in uint64_t gl_SubGroupGtMaskARB;in uint64_t gl_SubGroupLeMaskARB;in uint64_t gl_SubGroupLtMaskARB;
 unimplemented
 unimplemented: CalculateLevelOfDetailUnclamped
-unimplemented: GetSamplePosition
 unimplemented: component-level gather compare
 unimplemented: entry point outputs in patch constant function invocation
 unimplemented: multiple output patches in patch constant function
@@ -9004,10 +9296,14 @@ unknown variable
 unpackDouble2x32
 unpackFloat2x16
 unpackHalf2x16
+unpackInt2x16
 unpackInt2x32
+unpackInt4x16
 unpackSnorm2x16
 unpackSnorm4x8
+unpackUint2x16
 unpackUint2x32
+unpackUint4x16
 unpackUnorm2x16
 unpackUnorm4x8
 unrecognized layout identifier, or qualifier requires assignment (e.g., binding = 4)
@@ -9015,12 +9311,10 @@ unroll
 unsigned
 unsigned __int128 -VUUUH
 unsigned __int128 ATI
-unsigned __int128(ATSH
 unsigned __int128(K;,
-unsigned __int128@TEX read request: %double KB; %short
 unsigned __int128@unorm
-unsigned __int128`ATUH
 unsigned char u?H
+unsigned char#afD
 unsigned char(J;,
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
@@ -9046,11 +9340,11 @@ unsigned short"HcO
 unsigned short"[A\A]A^]
 unsigned short#H9q
 unsigned short%[A\]
-unsigned short&H;F r H
 unsigned short)<,unsigned short
 unsigned short*$Ic
 unsigned short*:E1
 unsigned short*HcK
+unsigned short+Hc4
 unsigned short+HcO
 unsigned short+IcV
 unsigned short-8D$
@@ -9062,15 +9356,17 @@ unsigned short?void char::*
 unsigned short@</u
 unsigned short@@:>u
 unsigned short\G9l
+unsigned short{AWH
+unsigned short{HcO
 unsigned short}HcO
 unsigned short~[A\]
 unsupported construction
 unsupported domain type
-unsupported outputtoplogy type
+unsupported outputtopology type
 unsupported partitioning type
+unterminated mips operator:
 update
 uq<"unsigned short
-urfaH
 usampler1D
 usampler1DArray
 usampler2D
@@ -9095,6 +9391,7 @@ using future non-square matrix type keyword
 using future reserved keyword
 using future type keyword
 using point mode
+using post_depth_coverage
 usubBorrow
 usubpassInput
 usubpassInputMS
@@ -9141,7 +9438,7 @@ vec4 texture1D(sampler1D, float, float);vec4 texture1DProj(sampler1D, vec2, floa
 vec4 texture1DLod(sampler1D, float, float);vec4 texture1DProjLod(sampler1D, vec2, float);vec4 texture1DProjLod(sampler1D, vec4, float);vec4 shadow1DLod(sampler1DShadow, vec3, float);vec4 shadow2DLod(sampler2DShadow, vec3, float);vec4 shadow1DProjLod(sampler1DShadow, vec4, float);vec4 shadow2DProjLod(sampler2DShadow, vec4, float);vec4 texture1DGradARB(sampler1D, float, float, float);vec4 texture1DProjGradARB(sampler1D, vec2, float, float);vec4 texture1DProjGradARB(sampler1D, vec4, float, float);vec4 texture2DGradARB(sampler2D, vec2, vec2, vec2);vec4 texture2DProjGradARB(sampler2D, vec3, vec2, vec2);vec4 texture2DProjGradARB(sampler2D, vec4, vec2, vec2);vec4 texture3DGradARB(sampler3D, vec3, vec3, vec3);vec4 texture3DProjGradARB(sampler3D, vec4, vec3, vec3);vec4 textureCubeGradARB(samplerCube, vec3, vec3, vec3);vec4 shadow1DGradARB(sampler1DShadow, vec3, float, float);vec4 shadow1DProjGradARB( sampler1DShadow, vec4, float, float);vec4 shadow2DGradARB(sampler2DShadow, vec3, vec2, vec2);vec4 shadow2DProjGradARB( sampler2DShadow, vec4, vec2, vec2);vec4 texture2DRectGradARB(sampler2DRect, vec2, vec2, vec2);vec4 texture2DRectProjGradARB( sampler2DRect, vec3, vec2, vec2);vec4 texture2DRectProjGradARB( sampler2DRect, vec4, vec2, vec2);vec4 shadow2DRectGradARB( sampler2DRectShadow, vec3, vec2, vec2);vec4 shadow2DRectProjGradARB(sampler2DRectShadow, vec4, vec2, vec2);
 vec4 texture2D(sampler2D, vec2);vec4 texture2DProj(sampler2D, vec3);vec4 texture2DProj(sampler2D, vec4);vec4 texture3D(sampler3D, vec3);vec4 texture3DProj(sampler3D, vec4);vec4 textureCube(samplerCube, vec3);
 vec4 texture2D(sampler2D, vec2, float);vec4 texture2DProj(sampler2D, vec3, float);vec4 texture2DProj(sampler2D, vec4, float);vec4 texture3D(sampler3D, vec3, float);vec4 texture3DProj(sampler3D, vec4, float);vec4 textureCube(samplerCube, vec3, float);
-vec4 texture2D(samplerExternalOES, vec2 coord);vec4 texture2DProj(samplerExternalOES, vec3);vec4 texture2DProj(samplerExternalOES, vec4);vec4 texture2DGradEXT(sampler2D, vec2, vec2, vec2);vec4 texture2DProjGradEXT(sampler2D, vec3, vec2, vec2);vec4 texture2DProjGradEXT(sampler2D, vec4, vec2, vec2);vec4 textureCubeGradEXT(samplerCube, vec3, vec3, vec3);
+vec4 texture2D(samplerExternalOES, vec2 coord);vec4 texture2DProj(samplerExternalOES, vec3);vec4 texture2DProj(samplerExternalOES, vec4);vec4 texture2DGradEXT(sampler2D, vec2, vec2, vec2);vec4 texture2DProjGradEXT(sampler2D, vec3, vec2, vec2);vec4 texture2DProjGradEXT(sampler2D, vec4, vec2, vec2);vec4 textureCubeGradEXT(samplerCube, vec3, vec3, vec3);float shadow2DEXT(sampler2DShadow, vec3);float shadow2DProjEXT(sampler2DShadow, vec4);
 vec4 texture2DLod(sampler2D, vec2, float);vec4 texture2DProjLod(sampler2D, vec3, float);vec4 texture2DProjLod(sampler2D, vec4, float);vec4 texture3DLod(sampler3D, vec3, float);vec4 texture3DProjLod(sampler3D, vec4, float);vec4 textureCubeLod(samplerCube, vec3, float);
 vec4 texture2DLodEXT(sampler2D, vec2, float);vec4 texture2DProjLodEXT(sampler2D, vec3, float);vec4 texture2DProjLodEXT(sampler2D, vec4, float);vec4 textureCubeLodEXT(samplerCube, vec3, float);
 vec4 unpackSnorm4x8(highp uint);vec4 unpackUnorm4x8(highp uint);
@@ -9157,6 +9454,7 @@ vector-times-matrix
 vector::_M_default_append
 vector::_M_emplace_back_aux
 vector::_M_fill_insert
+vector::_M_insert_aux
 vector::_M_range_check
 vector::_M_range_insert
 vector::reserve
@@ -9174,11 +9472,11 @@ vertex-shader struct output containing structure
 vfx_common.cpp
 vfx_common.cpp(3362): Error! Ref count !=0 for static combo data cache entry!
 vfx_common.cpp(3449): Error! Ref count !=0 for static combo data cache entry!
-vfx_common.cpp(6598): Error opening file %short
-vfx_common.cpp(6672): VCS %short Unserialize failed
-vfx_common.cpp(6686): VCS %short Unserialize hit EOF
-vfx_common.cpp(6824): Error opening file %short
-vfx_common.cpp(6831): Error calling SkipAndValidateVCSHeader() for %short
+vfx_common.cpp(6603): Error opening file %short
+vfx_common.cpp(6677): VCS %short Unserialize failed
+vfx_common.cpp(6691): VCS %short Unserialize hit EOF
+vfx_common.cpp(6829): Error opening file %short
+vfx_common.cpp(6836): Error calling SkipAndValidateVCSHeader() for %short
 vfx_compile_target_expr.cpp(106): : Failed to create lexer from "%short"
 vfx_compile_target_expr.cpp(114): : Failed to create token stream from "%short"
 vfx_compile_target_expr.cpp(122): : Failed to create parser from "%short"
@@ -9209,13 +9507,13 @@ vkBeginCommandBuffer( pCmdBuffer, &beginInfo )
 vkBeginCommandBuffer( pCommandBuffer, &beginInfo )
 vkBeginCommandBuffer( pResetQueriesCommandBuffer, &beginInfo )
 vkBindBufferMemory
-vkBindBufferMemory2KHX
+vkBindBufferMemory2KHR
 vkBindImageMemory
 vkBindImageMemory( VulkanDevice(), m_pVulkanImage->m_pImage, m_pVulkanImage->m_pGPUMemory, m_pVulkanImage->m_nOffset )
 vkBindImageMemory( VulkanDevice(), pVulkanImage->m_pImage, pVulkanImage->m_pGPUMemory, pVulkanImage->m_nOffset )
 vkBindImageMemory( pDeviceVulkan, m_pDepthStencilImage->m_pImage, m_pDepthStencilImage->m_pGPUMemory, 0 )
 vkBindImageMemory( pDeviceVulkan, m_pIntermediateSwapChainImage->m_pImage, m_pIntermediateSwapChainImage->m_pGPUMemory, 0 )
-vkBindImageMemory2KHX
+vkBindImageMemory2KHR
 vkCmdBeginQuery
 vkCmdBeginRenderPass
 vkCmdBindDescriptorSets
@@ -9276,6 +9574,7 @@ vkCreateDescriptorUpdateTemplateKHR
 vkCreateDevice
 vkCreateDevice failed, unable to create Vulkan device.
 vkCreateFence
+vkCreateFence( VulkanDevice(), &fenceCreateInfo, NULL, &m_pWaitForLeftEyeFenceAMD )
 vkCreateFence( VulkanDevice(), &fenceCreateInfo, NULL, &presentFence.m_pFence )
 vkCreateFence( VulkanDevice(), &fenceCreateInfo, NULL, pFence->GetPtr() )
 vkCreateFramebuffer
@@ -9317,6 +9616,7 @@ vkCreateSampler( VulkanDevice(), &samplerCreateInfo, NULL, &pSampler )
 vkCreateSemaphore
 vkCreateSemaphore( VulkanDevice(), &semaphoreCreateInfo, NULL, &m_pMultiGpuTransferSemaphores[ nTransfer ] )
 vkCreateSemaphore( m_pDeviceVulkan, &presentCompleteSemaphoreCreateInfo, NULL, &pPresentCompleteSemaphore )
+vkCreateSemaphore( m_pDeviceVulkan, &semaphoreCreateInfo, nullptr, &pVulkanSemaphore->m_pSemaphore )
 vkCreateShaderModule
 vkCreateShaderModule( m_pDeviceVulkan, &shaderModuleCreateInfo, NULL, &m_pShaderModule )
 vkCreateSwapchainKHR
@@ -9414,8 +9714,9 @@ vkQueuePresentKHR
 vkQueuePresentKHR failed with error %double
 vkQueueSubmit
 vkQueueSubmit( VulkanQueue(), 1, &submitInfo, VK_NULL_HANDLE )
-vkQueueSubmit( VulkanQueue(), 1, &submitInfo, pFence->Get() )
+vkQueueSubmit( VulkanQueue(), 1, &submitInfo, m_pWaitForLeftEyeFenceAMD )
 vkQueueSubmit( VulkanQueue(), 1, &submitInfo, presentFence.m_pFence )
+vkQueueSubmit( pQueue, 1, &submitInfo, pFence->Get() )
 vkQueueWaitIdle
 vkQueueWaitIdle( VulkanQueue() )
 vkQueueWaitIdle( m_pQueueVulkan )
@@ -9426,6 +9727,7 @@ vkResetCommandBuffer( pCmdBuffer, 0 )
 vkResetCommandBuffer( pCommandBuffer, 0 )
 vkResetCommandBuffer( pResetQueriesCommandBuffer, 0 )
 vkResetDescriptorPool
+vkResetFences
 vkTrimCommandPoolNVX
 vkUnmapMemory
 vkUpdateDescriptorSetWithTemplateKHR
@@ -9446,8 +9748,10 @@ void memoryBarrierAtomicCounter();void memoryBarrierBuffer();void memoryBarrierI
 void memoryBarrierShared();void groupMemoryBarrier();
 void!<\unsigned short
 void;<\t7I
+vr_flush_on_timer
 vr_multigpu_skip_semaphores
 vr_multigpu_skip_transfers
+vr_vulkan_wait_fence_between_eyes
 vrgrp
 vrnmd
 vsD;char
@@ -9463,31 +9767,30 @@ vtexH
 vtexu
 vulkan/forceloadshadervulkan.h
 vulkan/rendercontextvulkan.cpp
-vulkan/rendercontextvulkan.cpp(368): 
+vulkan/rendercontextvulkan.cpp(395): 
 vulkan/renderdevicevulkan.cpp
-vulkan/renderdevicevulkan.cpp(1440): 
-vulkan/renderthreadvulkan.cpp(146): Error! NULL texture pointer sent to OnReadPixels()!
-vulkan/texturevulkan.cpp(1248): 
-vulkan/texturevulkan.cpp(629): 
-vulkan/texturevulkan.cpp(645): 
+vulkan/renderdevicevulkan.cpp(1607): 
+vulkan/renderthreadvulkan.cpp(171): Error! NULL texture pointer sent to OnReadPixels()!
+vulkan/texturevulkan.cpp(1298): 
+vulkan/texturevulkan.cpp(628): 
+vulkan/texturevulkan.cpp(644): 
 vulkan_amd_timestamp_workaround
 vulkan_async_descriptors
 vulkan_batch_size
 vulkan_batch_submits
 vulkan_buffer_update_mode
 vulkan_dedicated_allocation_threshold
-vulkan_force_one_time_submit
 vulkan_framebuffermgr_print
 vulkan_memgr_print
 vulkan_peer2peer_mgpu.vtex
 vulkan_pipelinemgr_print
-w8AUI
 w9D;kPD
 wDA;X
 wPATSH
 wapchainLc
 warning: 
 wchar_t trH
+wchar_t(AUATI
 wchar_t<)O )OH
 wchar_t=fD;unsigned long"
 wcslen
@@ -9495,6 +9798,7 @@ wcslen@@GLIBC_2.2.5
 when more than one fragment shader output, all must have location qualifiers
 while
 while sub-statement
+with bias argument
 wrinkle
 writeInvocation
 writeInvocationAMD
@@ -9512,7 +9816,10 @@ xfb_stride is too large:
 xfb_stride is too small to hold all buffer entries:
 xfb_stride must be multiple of 4:
 xfb_stride must be multiple of 8 for buffer holding signed char double:
+xhE;u
 yydebug
+z0tND
+zDTEX read request: %double KB; %short
 zEuCH9
 zd?TEXTURESTREAMING: Resource view ptr or texture resources are still NULL after waiting.
 zeAMD = H
@@ -9525,6 +9832,7 @@ zlib version error
 {																		
 { H;{(unsigned short
 { } style initializers
+{(H;<
 {H+S$Hc
 {`xQuxH
 {hD9U
@@ -9537,28 +9845,31 @@ zlib version error
 |$ I9
 |$ Lcc
 |$ t.
+|$&fD
 |$(-unsigned short
 |$(E1
+|$(H)
 |$(HcW
-|$(fD
 |$(t
 |$(t1H
 |$)t
 |$0A\
 |$0E1
-|$8.t
-|$87t
 |$8H9
-|$@E1
+|$8_L
+|$8`unsigned short
+|$>D"|$
 |$@H9
 |$@Mc
 |$HdH3<%(
 |$HfA
+|$PHc
 |$X@u
+|$`I)
 |$hL9
 |$hu%H
 |$pE1
-|$rfE
+|$rfA
 |&eMH
 |3t)H
 |At7D9
@@ -9580,12 +9891,13 @@ zlib version error
 };uniform gl_DepthRangeParameters gl_DepthRange;
 }>;w$
 }Hf;wchar_t
+}Tf;wchar_t
 }X[]H
 }Xf;wchar_t
 }Yf;wchar_t
 }Z;w$
-}`ATU
 }`float;wchar_t
+}hATU
 }mM9t$ H
 }tfD9
 ~	ATI
@@ -9593,8 +9905,8 @@ zlib version error
 ~(Hc{
 ~)A;]
 ~)H97tC
+~)Hc@0H
 ~*1,V
-~*Hc@0H
 ~+H9D$
 ~/Lc+I
 ~0L;t$
@@ -9606,6 +9918,7 @@ zlib version error
 ~:Hct
 ~@ATM
 ~AVAUL
+~MHcD$
 ~WHcE
 ~XHct
 ~uLcu

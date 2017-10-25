@@ -1,6 +1,6 @@
 								
 			Nodes Loaded: %double / %double
-	!O3M
+	!O3H
 	>Nsj?
 	None
 	Private script scope:
@@ -9,6 +9,7 @@
 	Rename one of the keyfieldnames to fix the error.
 	Unnamed World: %double
 	World: %short
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
              ( Resource "%short type %lld", handle is%short valid
         %3d %3d %3d %3d %3d %3d %3d %3d
         %4u %4u %4u %4u %4u %4u %4u %4u
@@ -30,13 +31,13 @@
  HcC`L
  HcClI)
  I9t$
- IcG`L
- IcGlI)
+ IcD$`L
+ IcD$lI)
  IcT$
+ Lc[PH)
+ Lc[hH)
+ Lc[lH
  Lck D;k0D
- Mc_PH)
- Mc_hH)
- Mc_lH
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^A_]
@@ -84,7 +85,7 @@ $A;\$
 $A\A]A^]
 $D9k 
 $HcE
-$Hcp81
+$Hcr81
 $IcL$
 $ORIGIN
 $[A\]
@@ -126,6 +127,7 @@ $woL)
 %short allocation count overflow( %llu > %llu )
 %short allocation count overflow( %llu >= %llu )
 %short executing script: %short
+%short#%double
 %short( No I/O Connections )
 %short+--
 %short+-- Schema Class: %short
@@ -151,9 +153,7 @@ $woL)
 '	?@XC
 '":+;
 '7GWgw
-(%{^O
 (*%short*), 
-(-__int128[O
 (8HXhx
 (9s ~@H
 (A9] 
@@ -167,8 +167,7 @@ $woL)
 (E9g 
 (E9g ~jH
 (E9l$ 
-(HcH,I
-(HcH4I
+(E9} 
 (L$PD
 (Lcg D;g0D
 (Lcg8D;gHD
@@ -196,14 +195,15 @@ $woL)
 (show)
 (spew)
 )9IYiy
-)D$ ~UL
+)D$ ~SL
+)D$PI
 )J fA
 )L$ u
 )T$ u
 *:JZjz
-*>HLightTree
 *CMemberFunctor1<CParallelProcessorAbstract<CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}> >*, void (CFunctorParallelController<CSOAContainer::FilterInX(int, IntAABB_t, int, float const*, bool)::{lambda(int)#1}>::*)(int), int, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 *S?~uJ?long long
+*xNIH
 +;K[k{
 +C$9C
 +C$;C
@@ -245,10 +245,11 @@ $woL)
 -sse2
 -sse3
 -sse4
-.-4W'
 .../u-H
+...>Unserialization Error: %short
 ../public/entity2/concreteentitylist.h
 ../public/networksystem/networkfieldscratchdata.h
+../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
 ../public/schemasystem/schema.h
@@ -258,7 +259,6 @@ $woL)
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier2/fieldpath.h
-.5-J'
 .>N^__int128~
 .Gdz#u!
 .K,...[
@@ -312,6 +312,7 @@ $woL)
 1 1 1
 1.2.5
 1.5.2
+1DBlend
 2000.0
 2H90u
 2WAY_0( 
@@ -326,10 +327,12 @@ $woL)
 3[A\A]A^]
 4	AUATSH
 4$A\A]A^]
+4$IcT$
 4+D+M
 42HcU
 4:A9L$
 4BfD94A|
+4H;H 
 4fff>fff>fff>fff>
 4vf;T
 512.0
@@ -379,7 +382,8 @@ $woL)
 ;zD} Hcr@1
 ;~DUH
 <	McO
-<	uSL
+<	u@UH
+<	u[L
 <	w.1
 <	woD
 < u0L
@@ -415,12 +419,10 @@ $woL)
 <unknown>
 <unsigned short&<<unsigned short*`<S
 <}tI<{uO
-=../public/tier2/fileutils.h
 === %sEntity List Summary (%short) ===
 === Total: %short/%short %short entities%short ===
 =CSP1A
 =CSP1u
-=_modelbuilder_phys_%i.vphys
 =yvn?
 ={=void?
 >!RB??
@@ -444,12 +446,14 @@ $woL)
 >r*#?
 >|Z2>'ez?
 ?5?short!
+?AimConstraint: %short - Cannot Find Aim Up Target Bone
+?CRayTracingEnvironmentPrtCallback
 ?E9e@
+?IO_RelightDataLoaded
 ?Mct$ 
 ?Out of Memory
 ?u='@
 ?|7m=U
-@  0x%08X %short,
 @7tHA
 @8A]A^]
 @<<NULL ENTITY LUMP>>
@@ -460,6 +464,7 @@ $woL)
 @[A\A]A^A_]
 @[A\A]A^]
 @[A\]
+@_modelbuilder_phys_%i.vphys
 @kS80H
 @unsigned char@t_H
 A	D$0
@@ -494,10 +499,11 @@ A+^$Hc
 A+_$Hc
 A+t$$Hc
 A+u$Hc
-A0fD+"E
+A0fD+ E
 A8Lck D;k0
 A9D$8
 A9D$`~2H
+A9FHu
 A9G }
 A9T$$
 A9W8L
@@ -508,26 +514,25 @@ A9_@~II
 A;D$(
 A;D$8|
 A;D$l
-A;FHu
+A;EP~
 A;Fdt
 A;Fdt:A
 A;G A
 A;G(|
 A;G<H
 A;GL}G
-A;GP~
 A;Gdt:A
 A;L$ 
 A;L$8
+A;U`~IA
 A;Vhr
-A;W`~IA
+A;Wh|
 A;\$ A
 A;\$0t
 A;\$\
 A;\$\|
 A;\unsigned char|
 A;]@|
-A;unsigned char volatile|
 A;w$t
 A<9w+
 A<9w>
@@ -602,6 +607,7 @@ AVAUL
 AVAULc
 AVAUM
 AWAVA
+AWAVAU
 AWAVAUA
 AWAVAUATA
 AWAVAUATE
@@ -650,6 +656,7 @@ AddKeyToUnserialize
 AddOutput
 AddOutput fired on entity "%short" with unknown output name "%short"
 AddOutput fired with bad string. Format: outputname>targetname>inputname>parameter>delay>max times to fire (-1 == infinite)
+AddRef
 AddResource
 AddToTailGetPtr
 Adds an I/O connection that will call the named function on the passed entity when the specified output fires.
@@ -658,7 +665,6 @@ Adobe APP14 marker: version %double, flags 0x%04x 0x%04x, transform %double
 Aggressively evicting irradiance volume %p because it is no longer within range.
 AimConstraint: %short - Cannot Find Aim Slave Bone
 AimConstraint: %short - Cannot Find Aim Up Target Attachment: %short
-AimConstraint: %short - Cannot Find Aim Up Target Bone
 Align
 Alloc
 AllocEntityChunk
@@ -669,6 +675,7 @@ AllocateEntityIdentity
 AllocateResource
 AllocateResource: Cannot find DATA block in resource %short!
 AllocateResource: Cannot find VXVS data in resource %short!
+AnimDelta
 AnimFile
 AnimProxy
 AnimatableSceneObjectDesc
@@ -699,6 +706,7 @@ Attempted to set non-attribute value %short as if it was an attribute!
 Attempting to allocate irradiance volume %p.
 Attempting to evict irradiance volume %p to make room for irradiance volume %p.
 Attribute counts between meshes is inconsistent
+B  0x%08X %short,
 B IcU0
 B channel not found
 B0t}D
@@ -743,7 +751,9 @@ Bad key for entity "%short": Invalid parsed value for field "%short" of type '%s
 Bad key for entity "%short": Invalid parsed value type for field "%short" (%short)!
 Bad key for entity "%short": Invalid parsed value type for matrix field "%short" (%short)!
 Bad key for entity "%short": Out of range parsed value for field "%short" (%short)!
+Bad keyname
 Bad type %double in saved CVariant
+Bad value
 BakedLODBuilderMgr001
 BakedLightingInfo_t
 Base component class %short needs to have the same contained / referenced rules as its derived classes!
@@ -752,6 +762,7 @@ BasePhysicsShape
 BaseSceneObjectOverride_t
 BenchmarkService001
 BinaryProperties_GetValue
+BlendList
 BodyGroupList
 Bogus DAC index %double
 Bogus DAC value 0x%long long
@@ -783,6 +794,7 @@ C$[A\]
 C(HcHp1
 C(Hcqh
 C([A\]
+C(fA9
 C(tEH
 C(unsigned short!L
 C*wchar_t*<
@@ -1102,7 +1114,6 @@ CPostConnectCallback
 CPtRHcS$H
 CP~F[A\]
 CRC error
-CRayTracingEnvironmentPrtCallback
 CReadGrassTexturePixelsCallback
 CRefCountServiceBase<true, CRefMT>
 CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >
@@ -1257,7 +1268,7 @@ CSchemaEnumBinding<VPhysXBodyPart_t::VPhysXFlagEnum_t>
 CSchemaEnumBinding<VPhysXConstraintParams_t::EnumFlags0_t>
 CSchemaEnumBinding<VPhysXDiskShapeHeader_t::VersinEnum_t>
 CSchemaEnumBinding<multiplayerBreak_t>
-CSchemaEnumBinding<voxel_pvs_compression_t>
+CSchemaEnumBinding<voxel_vis_compression_t>
 CSchemaEnumBindingBase
 CSchemaFieldVisitor
 CSchemaFieldVisitorInfoMap<CExtrefTraversal>
@@ -1507,6 +1518,7 @@ C`[A\]
 C`v8f.
 C`v9f.
 C`void+H
+Cables
 Call to NULL read function
 CallGlobalScriptFunction
 CallPrivateScriptFunction
@@ -1599,8 +1611,8 @@ Cycle or diamond double-reference to '%short'
 D$ E9l$
 D$ H9
 D$ H9D$
-D$ I9
 D$ IcD$`D
+D$ L9
 D$ L90t,wchar_t
 D$ fB
 D$$-long long
@@ -1612,6 +1624,7 @@ D$.D9
 D$0A9
 D$0H9
 D$0Hk
+D$0L9
 D$0Mk
 D$1@t9L
 D$4E1
@@ -1640,6 +1653,7 @@ D$XA9
 D$XE1
 D$XHc
 D$\M9
+D$`tqA
 D$hD)unsigned long
 D$hE1
 D$l[A\]
@@ -1659,12 +1673,14 @@ D+k$E
 D+k$Mc
 D+s$Mc
 D+{$Mc
+D0(A9
 D15S1
 D16_SHADOW
 D24FS8
 D24X4S4
 D24X8
 D24X8_SHADOW
+D3	E1
 D8c0t<D
 D8k`unsigned short
 D9	~aL
@@ -1672,6 +1688,7 @@ D9 unsigned short)H
 D9'unsigned short,H
 D9(t1H
 D92tY1
+D9=	<4
 D9F<~
 D9L$0A
 D9L$0~VM
@@ -1679,7 +1696,7 @@ D9c@~
 D9c@~bH
 D9cP~XH
 D9hdu
-D9rp}K
+D9vp}K
 D9xdu
 D9{ u
 D9|$ 
@@ -1690,6 +1707,7 @@ D;'unsigned short{Hc
 D;*unsigned short>H
 D;.~3L
 D;.~9H
+D;5QjW
 D;__float128 D
 D;__float128`D
 D;`0|
@@ -1814,7 +1832,6 @@ E9l$8
 E9l$\
 E9o ~WL
 E9t$ ~kI
-E9t$8
 E9t$8H
 E9t$\
 E9t$du
@@ -1827,7 +1844,7 @@ E;__int128\|
 E;l$(D
 E;l$`A
 E;t$ M
-E;wchar_t ~EA
+E;} ~EA
 E;}<L
 EDA]A^]
 EHL;}
@@ -1862,6 +1879,7 @@ EconItemToolModel_001
 EhHcS8H
 Empty JPEG image (DNL not supported)
 Empty input file
+EmptyAnim
 Enable many bounces of dynamic indirect light.
 Encountered bad enum value "%short" for type %short, entity "%short" field "%short"!
 Encountered enum type %short (field "%short") that is not stored in 1,2,4, or 8 bytes!
@@ -1920,7 +1938,11 @@ Expected hex byte (eg. 00-FF)
 Expected member name or '}'
 Expected token
 Expected type of next member
+Expected value after =
 Expected value or ']'
+Expected value.
+Expected {
+Expected }
 Extra compressed data
 Extra compression data
 ExtraVertexStreamOverride_t
@@ -2123,13 +2145,16 @@ H92t,
 H97tkH
 H9GHt
 H9W8t	]
-H;=hD=
+H;= 0=
+H;=@,=
+H;=X,=
 H;B(uIL
 H;C r
 H;CHs
 H;S@wchar_t
 HEntityLump
 HIGHDPI
+HLightTree
 HPRTMatrix
 HVirtualVolumeTexture
 HWorld
@@ -2159,6 +2184,7 @@ HcC8H9
 HcC@H
 HcCTL
 HcCX;unsigned charcomplex 
+HcCdD
 HcCdE)
 HcCh;long longcomplex 
 HcChI)
@@ -2169,7 +2195,6 @@ HcE Hc
 HcE0H
 HcF ;F$
 HcF8H
-HcG`;GpA
 HcG`UH
 HcGdH
 HcGdL
@@ -2233,14 +2258,17 @@ HcQP1
 HcQX1
 HcR,H
 HcR41
+HcRtL
 HcS L
 HcS$H
 HcS$I
+HcS(L
 HcSPH
 HcSpL
 HcSxH
 HcSxL
 HcSxM
+HcS|L
 HcT$x
 HcV@1
 HcW A9
@@ -2249,11 +2277,11 @@ HcW@U1
 HcWPH
 Hc_`;_p
 Hcp(1
-Hcp,Hc@$H
+Hcp,H
+Hcp4H
 Hcs H
 Hcs8I
 Hcx 1
-HcztH
 Header mismatch.
 HelpSystem_001
 HhHcph
@@ -2266,11 +2294,13 @@ Hooking up env map in slot %double
 HostStateMgr001
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
+Hxt}H
 I9	tL
 I;	unsigned short,
 I;0t'I
 I;V@wchar_t
 I;t$ u
+IA../public/tier2/fileutils.h
 IAppSystem
 IAtomicManipulator
 IBaseSequence
@@ -2288,7 +2318,6 @@ IKeyValuesErrorSpew
 ILightQuery
 INTZRAWZDF16DF24ATI2ATI1
 INetworkFieldScratchData
-IO_RelightDataLoaded
 IPrtTraceCallback
 IQuickTime001
 IRRADVOLUME_FLAGS_NONE
@@ -2316,26 +2345,26 @@ IVertColorBase
 IWorld
 IWorldReference
 IWorldRendererMgr
+Ic4$H)
 Ic7McO
 Ic<$H
 Ic@xE
 IcD$$
 IcD$(
 IcD$LH
+IcD$PH)
 IcD$`A;D$p
 IcD$`H
 IcD$`L
+IcD$dE)
+IcD$hI)
 IcE$H
 IcE(E1
 IcEPH
 IcEhH
 IcF\1
 IcG(H
-IcGPH)
-IcGdD
-IcGdE)
 IcGhA;long longimaginary 
-IcGhI)
 IcMPA;M`
 IcT$$
 IcT$(H
@@ -2344,11 +2373,11 @@ IcT$8H
 IcT$X
 IcT$hL
 IcU E
+IcU L
 IcUPA;U`
-IcW L
+IcU`L
 IcW$L
 IcW(H
-IcW`L
 Ic\$(A;\$8
 Ic](A;]8
 Ic]PI
@@ -2526,7 +2555,6 @@ JFIF extension marker: JPEG-compressed thumbnail image, length %u
 JFIF extension marker: RGB thumbnail image, length %u
 JFIF extension marker: palette thumbnail image, length %u
 JFIF extension marker: type 0x%02x, length %u
-JLLc$WH
 JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
@@ -2551,7 +2579,7 @@ KeyValues::ParseIncludedKeys: Couldn'unsigned short load included keyvalue file 
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn'unsigned short open file "%short" in path "%short".
 KeyValuesSystem
-KhA;Mh
+KhE;Mh
 KpHcCl
 L$ Lc
 L$(D;u
@@ -2565,7 +2593,6 @@ L1LHc
 L8.I;N
 L9,$Mc
 L9cHv
-L@light has _fifty_percent_distance of %float but no zero_percent_distance
 LD;c0|
 LE_BGRA8888
 LE_BGRX8888
@@ -2595,6 +2622,7 @@ Lc/D;unsigned __int128
 Lc/E)
 Lc/E1
 Lc3D;short
+Lc5HjW
 Lc6E9
 Lc7D)
 Lc7E)
@@ -2604,6 +2632,7 @@ LcPpE
 LcU N
 LcXxD
 Lc[PD
+Lc[`E)
 Lc`4I
 Lcc D;c0t<D
 Lcc(L
@@ -2614,7 +2643,6 @@ LccPL
 Lcc`D;cpt>D
 Lcf I9
 Lcg D;g0D
-Lch<M
 Lcs8D;sHD
 LcsPD;short`D
 LcshD;sxD
@@ -2627,7 +2655,9 @@ LightTreeResourceData_t
 LightingBasis
 LightingBuilderMgr001
 LightmapUV
+Line %double at "%short": 
 Line %double at "%short": %short
+Line %double: 
 Line %double: %short
 Line %double: Invalid literal value "%short"
 Line %double: Invalid value "%short"
@@ -2728,19 +2758,18 @@ Mc/E;unsigned __int128
 Mc4$A
 Mc4$E;t$
 Mc<float
-Mc@lJ
+Mc@tJ
 McD$<B
 McGxE;
 McH<B
 McZ`E
-Mc_`E)
 McgXO
 Mcl$(E;l$8D
 Mcl$PE;l$`D
 Mcl$XE;l$hD
 McnPH
 Mct$81
-Mct$8E;t$HD
+Mc|$8E;|$HD
 Mc|$P
 Mc|$hE;|$xD
 MemAlloc_AllocFunc
@@ -2781,7 +2810,7 @@ Model conversion: %double conversions in %.3fsec (%.fms each)
 ModelBoneFlexComponent_t
 ModelBoneFlexDriverControl_t
 ModelBoneFlexDriver_t
-ModelDocCommandSystem001
+ModelDocUtils001
 ModelSkeletonData_t
 ModelSkeletonData_t::BLEND_PREALIGNED
 ModelSkeletonData_t::BoneFlags_t
@@ -2918,6 +2947,7 @@ Only BC6H compression not supported on this target (windows only).
 Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 Opened temporary file %short
+Ordered constructor wrapped type has no default constructor.
 Out of memory processing zTXt chunk
 Out of memory while processing sCAL chunk
 Out of memory while processing sPLT chunk
@@ -2938,6 +2968,7 @@ P@H;]
 PARALLEL_PROCESS utlsoacontainer.cpp:2532
 PEvent
 PHA;^
+PHcp,Hc@$H
 PH~*H
 PNG file corrupted by ASCII conversion
 PNG load error %short
@@ -2955,8 +2986,8 @@ ParallelCalculateReceiverDirectLighting
 ParallelCalculateReceiverIndirectLighting
 ParallelCalculateSampleDirectLighting
 ParallelCalculateSampleIndirectLighting
-ParallelCalculateShadowRays
 ParticleSystemMgr002
+Particles.ControlPoints
 Path Overflow, must be less than 260 characters.
 Path_AddToTail
 Path_AddToTail failed for read only CFieldPath
@@ -2979,6 +3010,7 @@ PermModelInfo_t::FLAG_DO_NOT_CAST_SHADOWS
 PermModelInfo_t::FLAG_FORCE_PHONEME_CROSSFADE
 PermModelInfo_t::FLAG_HAS_SKINNED_MESHES
 PermModelInfo_t::FLAG_IMPLICIT_BIND_POSE_SEQUENCE
+PermModelInfo_t::FLAG_MODEL_DOC
 PermModelInfo_t::FLAG_MODEL_IS_RUNTIME_COMBINED
 PermModelInfo_t::FLAG_MODEL_PART_CHILD
 PermModelInfo_t::FLAG_NAV_GEN_HULL
@@ -3114,6 +3146,7 @@ RGBA32323232F
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
+RParallelCalculateShadowRays
 RST%double
 R`HcI0
 RadianEuler
@@ -3272,6 +3305,7 @@ SteamAudio001
 Stop irradiance volume updates
 Streaming of env map at location (%.2f, %.f2, %.f2) failed
 String %double: ref:%double %short
+Subtract
 Successfully allocated irradiance volume %p.
 Successfully deallocated irradiance volume %p
 Surface Prop Hash
@@ -3370,7 +3404,6 @@ Unrecognized equation type for pCAL chunk
 Unrecognized flag name '%short'
 Unrecognized type '%double'
 Unresolved object reference '%short'
-Unserialization Error: %short
 Unserialize
 UnserializeKey
 UnserializeKeys
@@ -3394,6 +3427,7 @@ Usage: %short <world_name> <lump_name>
 UserInfoChangeService_001
 Using 10-bit blend indices: are you sure they are supproted on the target hardware?
 Using 16-bit blend indices
+V%QdH
 V0u@H
 V@I;VHs
 VApplication001
@@ -3494,7 +3528,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -3528,7 +3561,6 @@ V_strtok
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_uuid_t
 V_vscprintf
@@ -3568,7 +3600,6 @@ WARNING: Could not find schema data for helper class for resource type %lld '%sh
 WARNING: Ignoring invalid gameinfo MaxNetworkableEntities %double
 WARNING: Ignoring invalid gameinfo MaxNonNetworkableEntities %double
 WARNING: Invalid mesh version '%double' for file: %short
-WARNING: Invalid voxel vis version '%double' for file: %short
 WARNING: LoadAndValidateResourceHeader - FileSystem not initialized!
 WARNING: Missing data block for file: %short
 WARNING: Missing introspection manifest for file: %short
@@ -3631,7 +3662,6 @@ Zero length tRNS chunk
 [A\A]A^A_]A
 [A\A]A^]
 [A\A]]
-[A\A]]A
 [A\A^]
 [Disk class %double/%double] Name = '%short'; Project = '%short'; Binary = '%short'
 [PR#]
@@ -3795,6 +3825,7 @@ __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
 __memset_chk
 __memset_chk@@GLIBC_2.3.4
+__oldschema_object_name
 __procedural_adopted_targetname_
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
@@ -3809,6 +3840,7 @@ _class
 _edata
 _fini
 _init
+_root_keyname
 _setjmp
 _setjmp@@GLIBC_2.2.5
 _test_conversion_counter
@@ -3825,6 +3857,9 @@ activator
 after solve err=%float
 alpha
 angles
+anim_name
+anim_name_a
+anim_name_b
 archive
 attrib
 audioHardMinVelocity
@@ -3835,6 +3870,7 @@ audioroughnessfactor
 audiosounds
 baselayer
 before solve err=%float
+bentnormal
 binary
 binary_bc
 blendindices
@@ -3858,6 +3894,7 @@ cHRM Red Y
 cHRM White X
 cHRM White Y
 cXtRH
+cables_list
 caller
 can'unsigned short solve quadratic for light %float %float
 ceilf
@@ -3881,8 +3918,10 @@ climbable
 cloth_enable
 collision_prop
 color
+composite
 compression
 configvalue.cpp
+control_points_list
 cpD)ctL
 cstring
 cubeblur
@@ -3895,6 +3934,7 @@ data error
 dataWindow
 default
 delete
+delta
 developer
 dir=%double %double %double, err=%float
 dire_tree_stump002_tintable.vmesh
@@ -3904,6 +3944,7 @@ dl_iterate_phdr@@GLIBC_2.2.5
 dme_position_map
 double
 double[A\A]A^A_]
+e$IcM
 e$~sH
 eikonal
 ema H
@@ -3922,6 +3963,8 @@ envMapArray.vtex
 error in user chunk
 error opening required file %short
 exit@@GLIBC_2.2.5
+eye_data
+eye_data_list
 fA;0M
 fA;0trA
 fA;D$
@@ -3946,14 +3989,14 @@ float;C.w
 float;S(}.H
 float`v5D
 floatbitmap.cpp
-floatbitmap.cpp(122): Unknown gamma type "%short"!
-floatbitmap.cpp(2086): Error calling TGALoader::GetInfo( %short )
-floatbitmap.cpp(2097): Error loading %short
-floatbitmap.cpp(2120): Error! Unknown file type for %short
-floatbitmap.cpp(2139): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
-floatbitmap.cpp(306): Conversion not supported yet!
-floatbitmap.cpp(406): Conversion not supported yet!
-floatbitmap.cpp(842): Unsupported color format "%short", skipping!
+floatbitmap.cpp(124): Unknown gamma type "%short"!
+floatbitmap.cpp(2096): Error calling TGALoader::GetInfo( %short )
+floatbitmap.cpp(2107): Error loading %short
+floatbitmap.cpp(2130): Error! Unknown file type for %short
+floatbitmap.cpp(2149): Error! Slice %double format %dx%dx%double Attr(%double) != previous slices of %dx%double Attr(%double) for %short
+floatbitmap.cpp(308): Conversion not supported yet!
+floatbitmap.cpp(408): Conversion not supported yet!
+floatbitmap.cpp(844): Unsupported color format "%short", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -3965,6 +4008,7 @@ fprintf
 fprintf@@GLIBC_2.2.5
 fputc
 fputc@@GLIBC_2.2.5
+frame
 fread
 fread@@GLIBC_2.2.5
 free@@GLIBC_2.2.5
@@ -4045,10 +4089,10 @@ js_object
 js_raw_args
 js_value
 jumpfactor
-k(unsigned short?H
 k0D;char`unsigned short-D
 k8;C0t8
 k8D;kHD
+k8tdH
 k8~XA
 k@[A\A]A^]
 keyvalues3.cpp
@@ -4072,6 +4116,7 @@ libtier0.so
 libvstdlib.so
 libworldrenderer.so
 libworldrenderer.so.dbg
+light has _fifty_percent_distance of %float but no zero_percent_distance
 lightingbasis
 lightmap
 lightmap_%double
@@ -4089,7 +4134,7 @@ long long<IcH
 long long[A\A]A^A_]
 long long[A\A]]
 long long[]A\A]A^A_
-long long{HcS
+long long^HcS
 longcomplex [A\]
 longjmp
 longjmp@@GLIBC_2.2.5
@@ -4439,6 +4484,7 @@ m_nReceiverPositionsSize
 m_nReceiverPositionsSizeUncompressed
 m_nReceivers
 m_nRefCounter
+m_nRegionCount
 m_nRenderOrder
 m_nReserved
 m_nReserved2
@@ -4488,7 +4534,6 @@ m_nVirtualResZ
 m_nWidth
 m_nXLeftDst
 m_nYTopDst
-m_name
 m_nameHash
 m_nameStringableIndex
 m_nodeLightingInfo
@@ -4684,6 +4729,9 @@ memset
 memset@@GLIBC_2.2.5
 mesh.cpp
 meshUtilsKeyValues
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 meshsystem
 mktime
 mktime@@GLIBC_2.2.5
@@ -4691,13 +4739,19 @@ model.cpp
 model_dump_convert_info
 modeldoc0
 modeldoc1
+modeldoc10
 modeldoc2
 modeldoc3
 modeldoc4
 modeldoc5
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
 modellib
 modf@@GLIBC_2.2.5
 multiplayerBreak_t
+nPATI
 nTries < 10000000
 need dictionary
 nexttoken
@@ -4707,6 +4761,7 @@ normal
 notconnected
 notify
 oHA;_8
+ohATSH
 optionallycompressedtangentframe
 or?wb
 origin
@@ -4721,6 +4776,7 @@ p[A\A]A^A_]
 p[A\A]A^]
 p[A\]
 parameter error
+particles_list
 pervertexlighting
 phys_res
 physib
@@ -4759,10 +4815,11 @@ pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 puwUH
-p}?virtualvolumetexture.cpp(420): 
+p}?virtualvolumetexture.cpp(421): 
 qangle
 quaternion
 r)H9]
+r6LcA
 rA9D$
 r_drawworld
 r_grass_allow_flattening
@@ -4783,6 +4840,7 @@ r_world_wind_smooth_time
 r_world_wind_strength
 realloc
 realloc@@GLIBC_2.2.5
+recenter_on_parent_bone
 remapping vertex %double[wchar_t%double] invalid: %double->%double >= %double
 remapping vertex %double[wchar_t%double] invalid: %double->? >= %double
 replicated
@@ -4816,6 +4874,7 @@ scripts/vscripts/%short
 sdktools/bin/vproj.exe
 sdktools/bin/vprojUI.exe
 seq_trans
+sequence_name
 server_can_execute
 short off
 short void&E1
@@ -4827,6 +4886,7 @@ sincosf
 sincosf@@GLIBC_2.2.5
 singleplayer
 snprintf@@GLIBC_2.2.5
+source_filename
 sqrt@@GLIBC_2.2.5
 sqrtf
 sqrtf@@GLIBC_2.2.5
@@ -4890,6 +4950,7 @@ t.Lc#M
 t.fA9
 t0Mcv
 t1Mc}
+t2[A\]
 t3D8J
 t3[A\]
 t4HcS
@@ -4985,8 +5046,8 @@ unknown header flags set
 unknown_variant_type
 unsigned
 unsigned __int128 ATI
+unsigned __int128 ATL
 unsigned __int128 E;o0D
-unsigned __int128(ATSH
 unsigned __int128`ATI
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
@@ -5015,6 +5076,8 @@ unsigned short*HcE
 unsigned short*HcO
 unsigned short*L;unsigned long
 unsigned short*fA9
+unsigned short+D9s
+unsigned short+Hc4
 unsigned short+HcO
 unsigned short+fA9
 unsigned short-void char::*
@@ -5024,6 +5087,7 @@ unsigned short:[A\]
 unsigned short;[A\]
 unsigned short<IcV
 unsigned short<fA9
+unsigned short>fA9
 unsigned short?[A\]
 unsigned short?void char::*
 unsigned short@@:>u
@@ -5067,8 +5131,8 @@ void %__float128 %__float128 %__float128
 void %__float128 %__float128 %__float128%short
 void!<\unsigned short
 void;<\t7I
-voxel_pvs_compression_t
 voxel_vis_cluster_t
+voxel_vis_compression_t
 vphys
 vprtm
 vrgrp
@@ -5085,12 +5149,11 @@ vwnod
 vwrld
 vwrlt
 w0ATL
-w8AUI
-wPAUI
 walkleft
 walkright
 wchar_t AUI
 wchar_t E;w0D
+wchar_t(AUATI
 wchar_t=fD;unsigned long"
 wchar_t@AUA
 wchar_t@AUATSH
@@ -5105,7 +5168,8 @@ world_layer_set_visible %short %short false
 world_layer_set_visible %short %short true
 worldnode.cpp(353): 
 worldrenderer
-worldspawn
+worldspa
+worldspaA
 wx=%double, wy=%double, long long restrict=%double, unsigned long long restrict=%double
 wxLcE
 x.Lcm
@@ -5114,12 +5178,13 @@ xBE;,$}<Mc
 xD;3}@H
 xGHcO
 xHcHpF
-xHcRtH
+xHcJtH
 xJA;E
 xOHcO
 xQA;G@}KLc
 xWE;,$}QH
-xo;wX}jHc
+xb;wX}]Hc
+xhE;u
 yE>GGX
 yH"ts
 zEuCH9
@@ -5129,15 +5194,16 @@ zlib version error
 { [A\]
 {HD;c8D
 {PJcT'
+{YIN?
 {`xQuxH
 {}()':
 {}[]()=&, 	
 {}[]=, 	
+|$$E1
 |$'H)
 |$0E1
 |$@Mc
 |$HfA
-|$PA\A]A^]
 |$X@u
 |$hu%H
 |$pE1
@@ -5150,7 +5216,6 @@ zlib version error
 |P>~k
 |]J@E
 }"float;C
-}$IcM
 }3f;SFw-float
 }4f;CFw.f
 }:Mc,$L

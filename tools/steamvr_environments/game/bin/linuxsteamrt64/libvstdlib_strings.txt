@@ -2,6 +2,7 @@
 	Invalid variable type "%short"!
 	Value is actually %short, code is expecting signed char %short value
 	Value is actually type %short, code is expecting signed char %short type value
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	child: "%short"
 	parent (wins): "%short"
                                             // 'console' but without the tag 'developer' to 'verbose'.
@@ -110,6 +111,7 @@ $woL)
 -testscript_inline
 -teststringtokencollision
 -threads
+../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/quantizedfloatencoder.h
 ../public/tier1/utlfixedmemory.h
@@ -143,6 +145,7 @@ $woL)
 /I9D$
 /content/
 /game/
+/|?5c} 
 0123456789ABCDEF
 0123456789abcdef
 0HcBpH
@@ -268,6 +271,7 @@ A\A]A^]A
 A\A]]
 A]A^]
 AddCompletionCallback
+AddRef
 All functions are case insensitive.
 AllocInternal
 AnimationSystemUtils_001
@@ -435,11 +439,14 @@ CreateInterface
 CreateNewThreadPool
 CreateSimpleThread
 D$ H9
+D$ L9
 D$(A9D$8t"H
 D$(E1
 D$0H9
+D$0L9
 D$8I9
 D$8L9
+D$@H9
 D$@I9
 D$@L9
 D$HE1
@@ -451,6 +458,7 @@ D+C$Mc
 D+c$Mc
 D+k$Mc
 D+s$Mc
+D;!unsigned short{Hc
 D;char D
 D;k D
 DEFAULT_WRITE_PATH
@@ -574,7 +582,8 @@ H[A\A]A^A_]
 H[]A\A]A^A_
 HammerMapLoader001
 HangWatchdog_IndicateActivity
-Hc5_64
+Hc5Of4
+Hc5n+(
 Hc@pH
 HcC ;C
 HcC$H
@@ -623,6 +632,7 @@ ITestScriptMgr
 IThreadPool
 IUniformRandomStream
 IUtlStringTokenSystem
+Ic4$H)
 IcWTI
 Ic\$(I
 Ic\$@I
@@ -712,7 +722,7 @@ MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
 MeshUtils001
-ModelDocCommandSystem001
+ModelDocUtils001
 NOTIFY
 NOT_CONNECTED
 NetworkClientService_001
@@ -727,6 +737,7 @@ Not continuing coroutine due to g_bPreventCoroutineContinue, %short
 O tiH
 O tlH
 OS error message:
+Ordered constructor wrapped type has no default constructor.
 Out of keyvalue string space
 P(Mc,$H
 POLISH
@@ -1409,6 +1420,7 @@ ptr( 0x%p )
 pwrite64
 pwrite64@@GLIBC_2.2.5
 qangle
+r6LcA
 read@@GLIBC_2.2.5
 readdir64
 readdir64@@GLIBC_2.2.5
@@ -1480,7 +1492,6 @@ unit test
 unknown
 unlink
 unlink@@GLIBC_2.2.5
-unsigned __int128(ATSH
 unsigned char[A\A]A^A_]
 unsigned short!HcO
 unsigned short";2u
@@ -1490,6 +1501,7 @@ unsigned short"HcM
 unsigned short"HcO
 unsigned short(HcO
 unsigned short)[A\]
+unsigned short+Hc4
 unsigned short+Mc}
 unsigned short,IcG
 unsigned short-E;.H
@@ -1511,13 +1523,13 @@ vector4
 verbosity: off, essential, default,         // Sets how verbose signed char channel is allowed to be.
 void!<\unsigned short
 vstdlib
-w8AUI
 wHAUA
 wPAUI
 wXAUE1
 warning
 wchar_t AUL
 wchar_t tgH
+wchar_t(AUATI
 wchar_t@AUM
 wcslen
 wcslen@@GLIBC_2.2.5

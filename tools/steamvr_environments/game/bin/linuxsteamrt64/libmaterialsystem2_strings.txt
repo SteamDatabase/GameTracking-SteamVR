@@ -7,6 +7,7 @@
 	%short at offset %double, 
 	Dynamic:
 	Static:
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	w9H9
      
                      Cost
@@ -143,13 +144,13 @@ $t_Mc
 'exists'
 'return'
 (*%short*), 
-(None)
 ([A\A]A^A_]
 ([A\A]]
 ([]A\A]A^A_
 (__int128&& the line reading %short):
 (channel = 
 (end of input).
+)D$PA
 *** %short "%short" in %short does not follow the 0..N format!
 *** %short "%short" in %short has max(%double) > 254!
 *** %short "%short" in %short has min(%double) < 0!
@@ -215,16 +216,16 @@ $t_Mc
 *** material2.cpp(1064): Error! Trying to load material "%short" without any params!
 *** vfx_common.cpp(1147): Error opening file "%short"!
 *** vfx_common.cpp(1224): Error opening file "%short"!
-*** vfx_common.cpp(4877): Error opening file "%short"!
-*** vfx_common.cpp(5027): Error opening include file in features list"%short"!
-*** vfx_common.cpp(5066): Error opening file "%short"!
-*** vfx_common.cpp(5295): Error opening file "%short"!
-*** vfx_common.cpp(5329): Error opening file "%short"!
-*** vfx_common.cpp(5368): Error opening file "%short"!
-*** vfx_common.cpp(5472): Error opening file "%short"!
-*** vfx_common.cpp(5927): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
-*** vfx_common.cpp(7062): Programmer Error! NULL pointer passed into function!
-*** vfx_common.cpp(7088): Programmer Error! Non feature rule found in feature rule array!
+*** vfx_common.cpp(4882): Error opening file "%short"!
+*** vfx_common.cpp(5032): Error opening include file in features list"%short"!
+*** vfx_common.cpp(5071): Error opening file "%short"!
+*** vfx_common.cpp(5300): Error opening file "%short"!
+*** vfx_common.cpp(5334): Error opening file "%short"!
+*** vfx_common.cpp(5373): Error opening file "%short"!
+*** vfx_common.cpp(5477): Error opening file "%short"!
+*** vfx_common.cpp(5932): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
+*** vfx_common.cpp(7067): Programmer Error! NULL pointer passed into function!
+*** vfx_common.cpp(7093): Programmer Error! Non feature rule found in feature rule array!
 *** vfx_common.cpp(81): __int128 noexcept'unsigned short call VfxInit() more than once!
 *** vfx_common.cpp(909): Error opening file "%short"!
 *** vfx_common.cpp(91): g_pFullFileSystem must be set up before calling VfxInit!
@@ -261,6 +262,7 @@ $t_Mc
 --------------------WARNING----------------------
 -Stop: 
 -VUUU
+-asyncfeatureload
 -batchwarnings
 -end of input-(
 -materialsystem2_strict
@@ -281,6 +283,7 @@ $t_Mc
 -vulkan_use_pcgl_vcs
 .../u-H
 ../_generated_code/materialsystem2/release/linuxsteamrt64/../../../../public/resourcefile/resourcestream.h
+../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
 ../public/tier0/tslist.h
@@ -342,6 +345,7 @@ $t_Mc
 0x%016llX
 1.0 0.5 0.25
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
+1DBlend
 3+C$H
 33333333H
 33333333H)
@@ -365,7 +369,6 @@ $t_Mc
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
-957S7
 9A$~WH
 9G ti+G$H
 9OD|[
@@ -385,7 +388,8 @@ $t_Mc
 ;mempool.cpp
 ;r@unsigned short)
 ;wchar_t,}@
-<	uSL
+<	u@UH
+<	u[L
 <	w.1
 <	woD
 <!-- kv3 encoding:%short:version{%short} format:%short:version{%short} -->
@@ -422,6 +426,7 @@ $t_Mc
 >LZMA]
 >LZMAt
 ?A\A]A^]
+?CBitmapFont::Create
 ?Glyph Miss: FontHandle_t:0x%8.8llx (%short), %short
 ?HPostProcessing
 ?LZMA]
@@ -447,6 +452,7 @@ A+F$H
 A+G$H
 A+G$Lc
 A+G,H
+A+M$Hc
 A+N,Hc
 A+T$$Hc
 A+U$A
@@ -466,7 +472,7 @@ A9A(t6L
 A9D$@
 A9F@~cI
 A9G }
-A9M`~.I
+A9M`~6I
 A9\$@
 A9_@~8L
 A9p$t$H
@@ -526,7 +532,6 @@ AVAUE1
 AVAUI
 AVAUL
 AVAULc
-AVAUM
 AWAVA
 AWAVAUA
 AWAVAUATA
@@ -564,6 +569,7 @@ A\A]]A
 A]A^]
 Actually dude, we didn'unsigned short seem to be expecting anything here, or at least
 AddMultipleToTail
+AddRef
 AddToTailGetPtr
 Align
 All Bad! Talk to Brian and Alex. g_pRenderHardwareConfig is NULL which means we won'unsigned short load this material correctly: %short
@@ -576,6 +582,7 @@ AllocateResource
 Allow
 Allow%double
 Allow%double( 
+AnimDelta
 AnimFile
 AnimProxy
 Animation
@@ -644,6 +651,7 @@ BinaryProperties_GetValue
 BindTextureToFile: Invalid texture id %double
 BindTextureToFile: Invalid texture id for file %short
 BindTextureToTextureHandle: Invalid texture id %double
+BlendList
 BloomBlendMode_t
 BodyGroupList
 C unsigned short/H
@@ -681,7 +689,6 @@ CBaseIntrospectedTypeManager:  Bindings don'unsigned short match.
 CBaseIntrospectedTypeManager:  Missing TYPEMETA MDiskDataForResourceType
 CBaseQueuedRenderable
 CBitmapFont
-CBitmapFont::Create
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCompileTargetExprOpCodeHandler
@@ -720,6 +727,7 @@ CMaterialSystem2::ReloadMaterials
 CMaterialSystem2Utils
 CMaterialSystem2Utils::DrawNDCSpaceUntexturedPolygon GetMode == NULL? Can'unsigned short Render
 CMaterialSystem2Utils::DrawScreenSpaceRectangle GetMode == NULL? Can'unsigned short Render
+CMaterialSystem2Utils::GenerateMipMaps: Can'unsigned short get resources for compute shader, falling back to normal mipgen.
 CMaterialSystem2Utils::RenderAxes GetMode == NULL? Can'unsigned short Render
 CMaterialSystem2Utils::RenderBoxInternal GetMode == NULL? Can'unsigned short Render
 CMaterialSystem2Utils::RenderLine GetMode == NULL? Can'unsigned short Render
@@ -906,21 +914,25 @@ Custom font file '%short' ignored because no font name was given
 Cycle or diamond double-reference to '%short'
 D$ A#
 D$ H9
+D$ L9
 D$ L90t,wchar_t
 D$(A\]
 D$(E1
 D$0A\A]A^]
 D$0E1
 D$0H9
+D$0L9
 D$8I9
 D$8L9
 D$@A9G@u
+D$@H9
 D$@Hc
 D$@I9
 D$@L9
 D$DA9GDu
-D$HD98~NH
+D$HD98~FH
 D$HD;unsigned char
+D$HH9
 D$HfA
 D$rfA
 D$tfA
@@ -942,7 +954,7 @@ D24X8_SHADOW
 D84;unsigned short
 D8T;4
 D93~"Mc/E;unsigned __int128
-D9=int;(
+D9=iW(
 D9A$t
 D9c@~lH
 D9c\tC
@@ -1026,6 +1038,7 @@ EXPORTSYSTEM_INTERFACE_VERSION_001
 Early exit
 EarlyInit_Tier0
 EconItemToolModel_001
+EmptyAnim
 EngineServiceMgr001
 EnsureCapacity
 EnvironmentMapBuilder_001
@@ -1302,6 +1315,7 @@ ITSHashConstructor<CVfx*>
 ITextLayout
 ITextureDictionary
 IUnknown
+Ic4$H)
 IcGPL9
 IcGxL9
 IcL$XH9
@@ -1344,8 +1358,8 @@ L$$D1
 L$8A;G
 L$HD;int
 L$HfA
+L9'u;
 L96t#H
-L;'u?
 LAYOUTPOSITIONTYPE_FRACTIONAL
 LAYOUTPOSITIONTYPE_NONE
 LAYOUTPOSITIONTYPE_VIEWPORT_RELATIVE
@@ -1372,6 +1386,7 @@ LayoutPositionType_e
 Lc D;`
 Lc!D;signed char
 Lc#D;char
+Lc&D;float
 Lc'D;__float128
 Lc'E)
 Lc+D;k
@@ -1448,12 +1463,13 @@ MaterialUtils_001
 MathLib_Init
 Maximum time in ms to spend initializing shaders for materials each frame.
 Mc&E;float
+Mc'E;__float128
 Mc,$D
 Mc.E;__int128
 Mc/E;unsigned __int128
 Mc4$E;t$
-Mct$8E;t$HD
 Mcu@E;uPD
+Mc|$8E;|$HD
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MemZeroMemory
@@ -1462,7 +1478,7 @@ MeshUtils001
 Mismatched Token Exception
 Mismatched set
 Missing token
-ModelDocCommandSystem001
+ModelDocUtils001
 Multiply defined variable "%short"
 Must run with -shaderstats to use mat_shading_complexity!
 NBT2::CMatchFinder
@@ -1493,6 +1509,7 @@ No valid format conversion from '%short' to '%short'
 No valid vcs file found for shader %short
 OCTAL_ESC
 OD;NDu
+Ordered constructor wrapped type has no default constructor.
 P HcS
 P8H=vmatt,H
 P8H=vtex
@@ -1724,11 +1741,13 @@ T$(L9
 T$0D9
 T$0H9
 T$8H)
+T$:fA
 T$@I9
 T$@twH
 T$DtQH
 T$HD;2tOH
 T$HfA
+T$PHc
 T$PIc
 THcPT
 TKHIc
@@ -1867,7 +1886,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -1902,7 +1920,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_towupper32
 V_vsnprintf
@@ -1929,6 +1946,7 @@ Vfx Error: attribute type does not exist or does not support attribute literals.
 Vfx Error: attribute unsupported or requires signed char parameter binding.
 Vfx file "%short" has both compute shader and other shaders. Compute shaders must be the only shader type in signed char vfx file.
 VfxFindOrBuildFeatureComboData
+VfxFindOrBuildFeatureComboVertexShaderInputSignatureStep1
 VfxInit
 Viewport
 VisBuilder_001
@@ -1950,7 +1968,6 @@ WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 Wrong alignment %double
-X A8^ 
 X360_DST16
 X360_DST24
 X360_DST24F
@@ -2074,6 +2091,7 @@ __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
 __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
+__oldschema_object_name
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __sprintf_chk
@@ -2096,6 +2114,9 @@ _test_conversion_counter
 `[A\A]A^]
 `[A\]
 abort@@GLIBC_2.2.5
+anim_name
+anim_name_a
+anim_name_b
 appendstructuredbuffer
 archive
 argeH
@@ -2124,6 +2145,7 @@ clientcmd_can_execute
 collision_prop
 color
 colorcorrection_%p.vtex
+composite
 configvalue.cpp
 consumestructuredbuffer
 cs_5_0
@@ -2133,6 +2155,7 @@ dH3<%(
 dPHfE
 default
 delete
+delta
 dev/materialsystem2utils/pixel.vtex
 dev/vgui/materials/renderui.vmat
 developer
@@ -2176,6 +2199,7 @@ font_show_glyph_miss
 fontmanager/fontmanager.cpp
 fputc
 fputc@@GLIBC_2.2.5
+frame
 free@@GLIBC_2.2.5
 fwrite
 fwrite@@GLIBC_2.2.5
@@ -2208,7 +2232,6 @@ kHt6L
 keyvalues3.cpp
 kv3format_manager.cpp
 l$ M9u
-l$:fA
 l$HfA
 l$PE1
 lBHfE
@@ -2233,6 +2256,7 @@ looks like this:
 looping
 m_Glyphs
 m_TextureSheet
+m_bHDRMode
 m_bHasBloomParams
 m_bHasTonemapParams
 m_bHasVignetteParams
@@ -2272,7 +2296,6 @@ m_materialName
 m_nColorCorrectionVolumeDim
 m_nValue
 m_nVariableSourceMax
-m_name
 m_pValue
 m_renderAttributesUsed
 m_shaderName
@@ -2341,14 +2364,14 @@ material2.cpp(1199): Error creating fallback shader %short for %short and cannot
 material2.cpp(1229): Error creating shader %short for material %short!
 material2.cpp(1234): Error creating shader %short and cannot load error.vfx instead!
 material2.cpp(1242): Error creating static combos for shader %short and error.vfx instead!
-material2.cpp(1731): DxSupportLevel %double not supported!
-material2.cpp(2010): Dynamic Combos should be assumed to be unique for dynamic shader compile! %double != %double
-material2.cpp(2044): Dynamic shader compile failed for %short in material "%short"!
+material2.cpp(1754): DxSupportLevel %double not supported!
+material2.cpp(2033): Dynamic Combos should be assumed to be unique for dynamic shader compile! %double != %double
 material2.cpp(2067): Dynamic shader compile failed for %short in material "%short"!
-material2.cpp(2295): Failed call to FindOrLoadStaticComboData()!
-material2.cpp(2493): Too many passes for caller! Ignoring layer %double pass %double
-material2.cpp(2578): All bad! The error material failed in dynamic shader compile!
-material2.cpp(3206): Find signed char graphics programmer! Trying to bind signed char "%short" shader that doesn'unsigned short exist! for %short
+material2.cpp(2090): Dynamic shader compile failed for %short in material "%short"!
+material2.cpp(2342): Failed call to FindOrLoadStaticComboData()!
+material2.cpp(2540): Too many passes for caller! Ignoring layer %double pass %double
+material2.cpp(2625): All bad! The error material failed in dynamic shader compile!
+material2.cpp(3253): Find signed char graphics programmer! Trying to bind signed char "%short" shader that doesn'unsigned short exist! for %short
 material2.cpp(507): Material "%short" is requesting signed char bad mode "%short"!
 material2.cpp(607): Error! Material "%short" doesn'unsigned short have any valid layers to get the CVsInputSignatureVector from!
 material2.cpp(631): Error! Material "%short" doesn'unsigned short have signed char CVsInputSignatureVector!
@@ -2382,20 +2405,21 @@ material_shader_params.cpp(937): Error evaluating expression for render state va
 material_shader_params.cpp(943): Invalid variable source type for render state variable %short in material "%short"!
 material_type_manager.cpp
 material_type_manager.cpp(52): GetErrorMaterial() called before error material exists!
+materials/dev/cs_mipgen.vmat
 materials/dev/debug_solid.vmat
 materials/dev/debug_wireframe.vmat
 materials/error.vmat
 materialsystem2
 materialsystem2.cpp
-materialsystem2.cpp(140): ERROR! Empty shader mode string found! Use "Default" instead!
-materialsystem2.cpp(156): ERROR! Shader mode "%short" has unsupported type "%short" specified gameinfo.gi!
-materialsystem2.cpp(2453): pVfx == NULL!
-materialsystem2.cpp(2504): pVfx == NULL!
-materialsystem2.cpp(2778): Error reading index!
-materialsystem2.cpp(329): ERROR!!! Materials not released by other systems on shutdown! (See spew above)
-materialsystem2.cpp(334): ERROR!!! Shaders not freed on shutdown, likely due to unreleased materials! (See spew above)
-materialsystem2.cpp(348): GetErrorMaterial() called when m_pMaterialTypeManager == NULL!
-materialsystem2.cpp(778): ERROR!!! Shaders not freed before shader reload! (See spew above)
+materialsystem2.cpp(143): ERROR! Empty shader mode string found! Use "Default" instead!
+materialsystem2.cpp(159): ERROR! Shader mode "%short" has unsupported type "%short" specified gameinfo.gi!
+materialsystem2.cpp(2456): pVfx == NULL!
+materialsystem2.cpp(2507): pVfx == NULL!
+materialsystem2.cpp(2781): Error reading index!
+materialsystem2.cpp(332): ERROR!!! Materials not released by other systems on shutdown! (See spew above)
+materialsystem2.cpp(337): ERROR!!! Shaders not freed on shutdown, likely due to unreleased materials! (See spew above)
+materialsystem2.cpp(351): GetErrorMaterial() called when m_pMaterialTypeManager == NULL!
+materialsystem2.cpp(781): ERROR!!! Shaders not freed before shader reload! (See spew above)
 mathlib_base.cpp
 matsystemtexture_%s_%lld.vtex
 memcmp
@@ -2409,10 +2433,15 @@ memset@@GLIBC_2.2.5
 method( void )
 modeldoc0
 modeldoc1
+modeldoc10
 modeldoc2
 modeldoc3
 modeldoc4
 modeldoc5
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
 nBatchIndices <= nMaxIndexCountPerPass
 nCombos
 nTries < 10000000
@@ -2453,9 +2482,11 @@ pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 r0[A\]
+r6LcA
 random
 realloc
 realloc@@GLIBC_2.2.5
+recenter_on_parent_bone
 rendersystemdx9
 replicated
 resource
@@ -2485,6 +2516,7 @@ schema
 schemasystem
 sdktools/bin/vproj.exe
 sdktools/bin/vprojUI.exe
+sequence_name
 server_can_execute
 setting.shaderquality
 shader
@@ -2492,6 +2524,7 @@ shaders\vfx\
 shaders_pc.vpk
 shaders_pcgl.vpk
 shaders_vulkan.vpk
+short A8v 
 short void&E1
 short=LcU
 signed char`unsigned short<L
@@ -2501,6 +2534,7 @@ singleplayer
 slant
 smoothstep
 sortedHandleArray.Count() = %double
+source_filename
 spew_fonts
 sqrt@@GLIBC_2.2.5
 sqrtf
@@ -2548,6 +2582,7 @@ t$HfA
 t$`Hc
 t4[A\]
 t5[A\]
+t6HcO
 tBHfE
 tC[A\A]A^]
 tFMc}
@@ -2575,8 +2610,8 @@ u [A\]
 u64( %lld = 0x%llX )
 u6[A\]
 unknown
+unsigned __int128 ATL
 unsigned __int128 char::*@E;oP
-unsigned __int128(ATSH
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned short	[A\]
@@ -2593,8 +2628,8 @@ unsigned short*<-H
 unsigned short*HcC
 unsigned short*HcE
 unsigned short*HcO
+unsigned short+Hc4
 unsigned short-[A\]
-unsigned short:HcO
 unsigned short;IcU
 unsigned short;[A\]
 unsigned short<IcV
@@ -2613,11 +2648,11 @@ vfont
 vfx_common.cpp
 vfx_common.cpp(3362): Error! Ref count !=0 for static combo data cache entry!
 vfx_common.cpp(3449): Error! Ref count !=0 for static combo data cache entry!
-vfx_common.cpp(6598): Error opening file %short
-vfx_common.cpp(6672): VCS %short Unserialize failed
-vfx_common.cpp(6686): VCS %short Unserialize hit EOF
-vfx_common.cpp(6824): Error opening file %short
-vfx_common.cpp(6831): Error calling SkipAndValidateVCSHeader() for %short
+vfx_common.cpp(6603): Error opening file %short
+vfx_common.cpp(6677): VCS %short Unserialize failed
+vfx_common.cpp(6691): VCS %short Unserialize hit EOF
+vfx_common.cpp(6829): Error opening file %short
+vfx_common.cpp(6836): Error calling SkipAndValidateVCSHeader() for %short
 vfx_compile_target_expr.cpp(106): : Failed to create lexer from "%short"
 vfx_compile_target_expr.cpp(114): : Failed to create token stream from "%short"
 vfx_compile_target_expr.cpp(122): : Failed to create parser from "%short"
@@ -2645,8 +2680,8 @@ vs_4_1
 vs_5_0
 vtexH
 w0AUATSH
-w8AUI
 wchar_t trH
+wchar_t(AUATI
 wchar_t<)O )OH
 wcslen
 wcslen@@GLIBC_2.2.5
@@ -2660,6 +2695,7 @@ z1u/H
 {0t	L
 {H+S$Hc
 {HD;unsigned __int128
+{YIN?
 {hD9U
 {}()':
 {}[]()=&, 	
@@ -2667,10 +2703,10 @@ z1u/H
 |$(HcW
 |$@Lc
 |$HfA
-|$lfE
 |)D9}
 |sHf9
 }(HcW
+}-float;wchar_t"wchar_t'H
 }>;w$
 }Hf;wchar_t
 }N;w$
@@ -2679,10 +2715,10 @@ z1u/H
 }cHcp
 }dfA;
 }ef;wchar_t
-}f;wchar_t"wchar_t+H
 ~	ATI
 ~)A;]
 ~)H97tC
+~0Mc&E;float
 ~:Hct
 ~@ATM
 ~AVAUL

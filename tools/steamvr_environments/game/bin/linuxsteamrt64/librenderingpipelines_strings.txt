@@ -1,4 +1,5 @@
-	!O3M
+	!O3H
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
  %llu aggs, %short total data
  ( def. "%short" )
  - %double / %double allocated
@@ -47,7 +48,6 @@ $[A\]
 %short: %short
 %short: string format requested %double chars
 %short\%short
-&YA1D
 &YA1H
 &YA1L
 &[A\A]A^]
@@ -62,15 +62,15 @@ $[A\]
 (E9g 
 (E9g ~jH
 (E9l$ 
-(HcH,I
-(HcH4I
+(E9} 
 (Lcg D;g0D
 (Lcg8D;gHD
 (None)
 ([A\A]A^A_]
 ([A\A]]
 ([]A\A]A^A_
-(knNFound max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
+)D$PI
+*xNIH
 +C$9C
 +C$;C
 +C$Hc
@@ -90,11 +90,13 @@ $[A\]
 -sse3
 -sse4
 .../u-H
+../public/ordered_constructor.h
 ../public/resourcefile/resourcestream.h
 ../public/schemasystem/schema.h
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
+.M;0u
 .M;UU
 .W4{Jf.
 .comment
@@ -135,11 +137,13 @@ $[A\]
 0x%016llX
 1 - Use quarter res gbuffers for SSAO calculation. 0 - Use full res gbuffers for SSAO calculations.
 1 1 1
+1DBlend
 2WAY_0( 
 2WAY_1( 
 3+C$H
 33333333H
 33333333H)
+33s?(knN
 3D Skybox
 3D Skybox Procedural
 3DSkybox Translucent Forward
@@ -150,7 +154,9 @@ $[A\]
 3DSkyboxTranslucentProxy
 3E8 u
 3[A\A]A^]
+4$IcT$
 42HcU
+4H;H 
 4fff>fff>fff>fff>
 6H92t%H
 6H92u
@@ -170,11 +176,12 @@ $[A\]
 ;%02x
 ;*3$"
 ;*unsigned short*1
+;G(}3
 ;K(}&H
 ;S(}+H
-;root
 ;wX|#
-<	uSL
+<	u@UH
+<	u[L
 <	w.1
 <	woD
 <!-- kv3 encoding:%short:version{%short} format:%short:version{%short} -->
@@ -200,8 +207,11 @@ $[A\]
 >A9U$
 ?Mct$ 
 ?librenderingpipelines.so
-@  0x%08X %short,
+?materials/dev/post_process.vmat
+?root
+@0twf
 @8A]A^]
+@ATTACHMENT_INFLUENCE_FLAGS_NONE
 @HcC(
 @[A\A]A^]
 @[A\]
@@ -210,6 +220,7 @@ A+E$H
 A+E$f
 A+G$H
 A+G$Lc
+A+M$Hc
 A+T$$Hc
 A+U$A
 A+U$Hc
@@ -220,17 +231,17 @@ A+\$$Hc
 A+]$Hc
 A+t$$Hc
 A+u$Hc
-A0fD+"E
+A0fD+ E
 A9G }
 A9T$$
 A9_@~8L
+A;EP~
 A;G A
-A;GP~
-A;W`~IA
+A;U`~IA
+A;Wh|
 A;\$ A
 A;\unsigned char|
 A;]@|
-A;unsigned char volatile|
 A;w$t
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %double!
 ATI1N
@@ -250,10 +261,8 @@ AUATL
 AUATLc
 AUATM
 AUATS
-AUATS1
 AUATSD
 AUATSH
-AUATSI
 AUATSL
 AUATSt	H
 AUATStII
@@ -271,19 +280,18 @@ AVAUATL
 AVAUATLc
 AVAUATS
 AVAUATSH
-AVAUATSL
 AVAUATUSH
 AVAUE1
 AVAUI
 AVAUL
 AVAULc
-AVAUM
 AWAVA
+AWAVAU
 AWAVAUA
 AWAVAUATA
 AWAVAUATE
 AWAVAUATI
-AWAVAUATLc
+AWAVAUATL
 AWAVAUATM
 AWAVAUATS
 AWAVAUATSH
@@ -306,16 +314,19 @@ A\A]A^A_]A
 A\A]A^]
 A\A]]
 A]A^]
+AddRef
 After3DGeo
 AfterTranslucent3D
 AimConstraint: %short - Cannot Find Aim Slave Bone
 AimConstraint: %short - Cannot Find Aim Up Target Attachment: %short
 AimConstraint: %short - Cannot Find Aim Up Target Bone
+AlbedoOrReflectivity
 Align
 AllocInternal
 Allocate
 AllocateAndCopy
 AllocateResource
+AnimDelta
 AnimFile
 AnimProxy
 Animation
@@ -334,6 +345,7 @@ AttachmentData_t
 AttachmentInfluenceFlags_t
 AttachmentList
 Attribute counts between meshes is inconsistent
+B  0x%08X %short,
 B0t}D
 BGR565
 BGR888_BLUESCREEN
@@ -346,7 +358,6 @@ BUNDLE_TYPE_COUNT
 BUNDLE_TYPE_NONE
 BUNDLE_TYPE_NORMAL_WRINKLE
 BUNDLE_TYPE_POSITION_SPEED
-B[ssaoBlurTemp2
 Bad expression operator: '%char%char', expected C style boolean expression operator.
 Bad expression syntax: '%short', expected signed char single matching pair of enclosing braces.
 Bad expression token: %char
@@ -369,8 +380,10 @@ Bad header: unrecognized encoding id
 BakedLODBuilderMgr001
 BaseConstraint_t
 BasePhysicsShape
+BeforeTranslucent
 BenchmarkService001
 BinaryProperties_GetValue
+BlendList
 BlitLowResLightingToHighResDiffuse
 BlitLowResLightingToHighResSpecular
 BlitMSAATarget
@@ -842,7 +855,6 @@ ClearHdrBackBuffer
 ClearLighting
 ClearLightingFromSSAO
 ClearOutputDepth
-CmeshUtilsKeyValues
 Collision Group Hash
 Combine
 CombineDecals
@@ -877,15 +889,19 @@ Cycle or diamond double-reference to '%short'
 D$ E9l$
 D$ H9
 D$ IcD$`D
+D$ L9
 D$ L90t,wchar_t
 D$$E1
 D$(E1
 D$0A9
 D$0H9
+D$0L9
+D$0u"H
 D$4E1
 D$8H9
 D$8I9
 D$8L9
+D$@H9
 D$@I9
 D$@L9
 D$DA\
@@ -909,6 +925,7 @@ D24FS8
 D24X4S4
 D24X8
 D24X8_SHADOW
+D9=9"*
 D9{ u
 D;!unsigned short{Hc
 D;'unsigned short{Hc
@@ -975,7 +992,7 @@ E9l$$~}
 E9o ~WL
 E9t$ ~kI
 E9|$ 
-E;wchar_t ~EA
+E;} ~EA
 EDA]A^]
 EHL;}
 EMPTY - ok for slot zero only!
@@ -993,6 +1010,7 @@ EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
 EmissiveGBuffer
+EmptyAnim
 Engine2/RenderingPipeline/AmbientInToolsVis
 Engine2/RenderingPipeline/ToolsVisModes
 EngineServiceMgr001
@@ -1057,6 +1075,7 @@ FormatV
 ForwardDecals
 ForwardLightSetup
 ForwardOpaque
+Found max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
 From Class Binding
 From Enum Binding
 G A+G
@@ -1100,11 +1119,13 @@ GLIBC_2.3.4
 GLIBC_2.4
 GVertexPostProcess_t
 GameDataList
+GameOverlay
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameStartup
 GameStartup_SM40
 GameUIService_001
+Gaussian Bloom
 GaussianBloomBlurManifest
 GenerateCodeBasedManifestName: Invalid CodeBasedManifestType_t %double
 GenerateResourceNameFromFileName: Invalid extension specified in file name "%short"!
@@ -1115,12 +1136,13 @@ GetResourceManifestCount
 GetResourceManifests
 GpUHc
 GroundFog
+H	C0H
+H	P0H
 H	p(]
 H	wchar_t(UH
 H!wchar_t(H
 H9*tgH
 H;S@wchar_t
-HBATTACHMENT_INFLUENCE_FLAGS_NONE
 HDRBloom
 HDRColorBuffer
 HDRColorBufferCopy
@@ -1190,7 +1212,8 @@ HcW H
 HcW@U1
 HcWPH
 HcY(;Y8
-Hcp,Hc@$H
+Hcp,H
+Hcp4H
 Hcs H
 HelpSystem_001
 HitBoxSet_t
@@ -1225,14 +1248,15 @@ ISchemaSearchTester<CSchemaClassInfo const*>
 ISequence
 IVSSequence
 IVertColorBase
+Ic4$H)
 Ic<$H
 IcEPH
 IcEhH
 IcMPA;M`
+IcU L
 IcUPA;U`
-IcW L
+IcU`L
 IcW$L
-IcW`L
 Ic](A;]8
 Ic]PI
 Ic^8A;^H
@@ -1391,10 +1415,10 @@ Mc,$E;l$
 Mc.E;__int128
 Mc/E;unsigned __int128
 Mc4$E;t$
-Mc@lJ
+Mc@tJ
 McGxE;
 Mct$81
-Mct$8E;t$HD
+Mc|$8E;|$HD
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Mesh contains %double blend weights per vertex;  truncating to %double
@@ -1406,7 +1430,7 @@ Model %short missing bone and flex counts (%double < %double), init %double
 ModelBoneFlexComponent_t
 ModelBoneFlexDriverControl_t
 ModelBoneFlexDriver_t
-ModelDocCommandSystem001
+ModelDocUtils001
 ModelSkeletonData_t
 ModelSkeletonData_t::BLEND_PREALIGNED
 ModelSkeletonData_t::BoneFlags_t
@@ -1472,10 +1496,12 @@ OnDiskBufferData_t
 Opaque Forward
 Opaque Forward Not Depth long double restrict*-passed
 OpaqueForward
+Ordered constructor wrapped type has no default constructor.
 OuterSky
 OuterSkyProxy
 P0Mc>E;~
 P8A9^p
+PHcp,Hc@$H
 POSITION
 POSIX
 P[A\A]A^]
@@ -1501,6 +1527,7 @@ PermModelInfo_t::FLAG_DO_NOT_CAST_SHADOWS
 PermModelInfo_t::FLAG_FORCE_PHONEME_CROSSFADE
 PermModelInfo_t::FLAG_HAS_SKINNED_MESHES
 PermModelInfo_t::FLAG_IMPLICIT_BIND_POSE_SEQUENCE
+PermModelInfo_t::FLAG_MODEL_DOC
 PermModelInfo_t::FLAG_MODEL_IS_RUNTIME_COMBINED
 PermModelInfo_t::FLAG_MODEL_PART_CHILD
 PermModelInfo_t::FLAG_NAV_GEN_HULL
@@ -1619,8 +1646,11 @@ RenderingPipelineHybridManifest
 RenderingPipelinePostProcessManifest
 RenderingPipelineSSAOManifest
 RenderingPipelineSlimDeferredManifest
+RenderingPipelineVrDeveloperMode
+RenderingPipelineVrDeveloperModeGroup
 RenderingPipelineVrGroup
 RenderingPipelineVrManifest
+RenderingPipelineVrManifestDeveloperModeOnly
 RenderingPipelineVrStartup
 RenderingPipelines_001
 ReportClassError
@@ -1695,6 +1725,7 @@ StaticGBuffer
 StatsService_001
 SteamAudio001
 String %double: ref:%double %short
+Subtract
 Surface Prop Hash
 Syntax Error at offset: %double
 T$ Hc@
@@ -1726,7 +1757,11 @@ ToolScriptManager001
 ToolService_001
 ToolsUtil Opaque
 ToolsUtil Translucent
-ToolsUtil Translucent pre-pass
+Tools_Opaque
+Tools_PreTranslucent
+Tools_Translucent
+Tools_TranslucentInsertionPoint
+TranslucentDebugDraw
 TranslucentLight
 TranslucentViewModel
 Tried to load signed char polymorphic pointer with no '%short' key
@@ -1734,6 +1769,7 @@ Try changing the number of bones per vertex or the skin weighting, and send Serg
 Trying to concatenate meshes with different numbers of attributes!
 Trying to concatenate meshes with incompatible attribute sets!
 Trying to register KV3 conversion too late (from '%short' to '%short')
+TssaoBlurTemp2
 TypeManager
 UNKNOWN
 UPDATE_STRING_TOKEN_DATABASE
@@ -1757,6 +1793,7 @@ Unsupported text encoding id.
 UserInfoChangeService_001
 Using 10-bit blend indices: are you sure they are supproted on the target hardware?
 Using 16-bit blend indices
+V%QdH
 V0u@H
 VApplication001
 VAvi001
@@ -1849,7 +1886,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -1880,7 +1916,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_vsnprintf
 V_vsnprintfRet
@@ -1948,7 +1983,6 @@ YD$$L
 [A\A]A^A_]A
 [A\A]A^]
 [A\A]]
-[A\A]]A
 [A\A^]
 [A]A^]
 [Disk class %double/%double] Name = '%short'; Project = '%short'; Binary = '%short'
@@ -2032,6 +2066,7 @@ __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
 __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
+__oldschema_object_name
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
@@ -2046,6 +2081,9 @@ _test_conversion_counter
 `[A\A]A^]
 `[A\]
 abort@@GLIBC_2.2.5
+anim_name
+anim_name_a
+anim_name_b
 archive
 audioHardMinVelocity
 audiohardnessfactor
@@ -2054,6 +2092,7 @@ audioreflectivity
 audioroughnessfactor
 audiosounds
 baselayer
+bentnormal
 binary
 binary_bc
 blendindices
@@ -2074,6 +2113,7 @@ climbable
 cloth_enable
 collision_prop
 color
+composite
 configvalue.cpp
 curvature
 dH34%(
@@ -2081,11 +2121,13 @@ dH3<%(
 default
 degrees to add to fov to compensate for just-in-time HMD
 delete
+delta
 depthprepass
 developer
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 dme_position_map
+e$IcM
 ema H
 encoding
 fA;0M
@@ -2104,6 +2146,7 @@ floorf
 floorf@@GLIBC_2.2.5
 fogAccumulation
 formats.cpp
+frame
 free@@GLIBC_2.2.5
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -2381,7 +2424,6 @@ m_nVertexCount
 m_nWidth
 m_nXLeftDst
 m_nYTopDst
-m_name
 m_nameHash
 m_offsets
 m_pBreakablePartData
@@ -2498,7 +2540,6 @@ materials/dev/gaussian_bloom_blur.vmat
 materials/dev/generalfilter_additive.vmat
 materials/dev/hdrpostprocessing.vmat
 materials/dev/paintpostprocessing.vmat
-materials/dev/post_process.vmat
 materials/dev/screenspacereflectionblur.vmat
 materials/dev/screenspacereflections.vmat
 materials/dev/visualize_depth.vmat
@@ -2520,18 +2561,29 @@ memmove@@GLIBC_2.2.5
 memset
 memset@@GLIBC_2.2.5
 mesh.cpp
+meshUtilsKeyValues
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 model.cpp
 modeldoc0
 modeldoc1
+modeldoc10
 modeldoc2
 modeldoc3
 modeldoc4
 modeldoc5
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
 modellib
 multiplayerBreak_t
+nPATI
 normal
 notconnected
 notify
+ohATSH
 optionallycompressedtangentframe
 outputColor
 outputDepth
@@ -2565,6 +2617,7 @@ pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 r)H9]
+r6LcA
 r_deferred_cubemap_diffuse
 r_deferred_debugvis
 r_expensive_draws_last
@@ -2572,10 +2625,13 @@ r_hdr_bloom
 r_paint_post
 r_post_bloom
 r_post_bloom_kawase_steps
+r_post_bloom_strength
 r_post_colorcorrection
 r_post_film_grain
 r_post_fxaa
 r_post_vignette
+r_showdebugoverlays
+r_showsceneobjectbounds
 r_skipForwardOnlyObjects
 r_ssao
 r_ssaoAffectsIndirectOnly
@@ -2587,6 +2643,7 @@ r_ssao_strength
 r_transmissive_lighting
 r_vignette
 r_vr_3d_skybox
+recenter_on_parent_bone
 remapping vertex %double[wchar_t%double] invalid: %double->%double >= %double
 remapping vertex %double[wchar_t%double] invalid: %double->? >= %double
 renderingpipeline_vr.cpp
@@ -2594,7 +2651,7 @@ renderingpipelinedeferred.cpp
 renderingpipelineforward.cpp
 renderingpipelinehybrid.cpp
 renderingpipelinepostprocess.cpp
-renderingpipelinepostprocess.cpp(70): Need to use signed char layer which has signed char render attribute called "InputBuffer" set!
+renderingpipelinepostprocess.cpp(72): Need to use signed char layer which has signed char render attribute called "InputBuffer" set!
 renderingpipelineslimdeferred.cpp
 renderingpipelinessao.cpp
 replicated
@@ -2610,6 +2667,7 @@ sPHcGh;G`|
 sXHcGp;unsigned charimaginary |
 sc_ground_fog_depth
 sc_ground_fog_top
+sc_use_fullsort_for_opaque
 scenesystem
 schema
 scrapeRoughThreshold
@@ -2621,6 +2679,7 @@ screenspace_reflections.cpp
 sdktools/bin/vproj.exe
 sdktools/bin/vprojUI.exe
 seq_trans
+sequence_name
 server_can_execute
 short off
 short void&E1
@@ -2630,6 +2689,7 @@ shortcomplex [A\]
 sincosf
 sincosf@@GLIBC_2.2.5
 singleplayer
+source_filename
 sqrtf
 sqrtf@@GLIBC_2.2.5
 src/public/tier0/platform.h
@@ -2689,8 +2749,10 @@ teLch
 te[A\]
 texcoord
 texcoordH
+textures/dev/albedo_chart.vtex
 textures/dev/ggx_integrate_brdf_lut.vtex
 textures/dev/ggx_integrate_brdf_lut_schlick.vtex
+textures/dev/reflectivity_scale.vtex
 tf[A\]
 tgHcQ
 th_BEGINH
@@ -2706,7 +2768,7 @@ u=Ic]
 u@[A\]
 uGIc]
 unknown
-unsigned __int128(ATSH
+unsigned __int128 ATL
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned short	;sP
@@ -2719,12 +2781,15 @@ unsigned short&Hcq
 unsigned short*<-H
 unsigned short*HcE
 unsigned short*fA9
+unsigned short+D9s
+unsigned short+Hc4
 unsigned short+fA9
 unsigned short/9w t29w0t=1
 unsigned short:[A\]
 unsigned short;[A\]
 unsigned short<IcV
 unsigned short<fA9
+unsigned short>fA9
 unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@[A\A]A^]
@@ -2760,6 +2825,7 @@ vr_enable_translucent_screen_space
 vr_enable_volume_fog
 vr_expand_cull_frustum
 vr_render_decals
+vr_render_dynamic_objects
 vr_render_opaque
 vr_render_opaque_notzprepassed
 vr_render_overlays
@@ -2773,10 +2839,9 @@ vr_warp_debug
 vrgrp
 vrnmd
 vsurf
-w8AUI
-wPAUI
 walkleft
 walkright
+wchar_t(AUATI
 wcslen
 wcslen@@GLIBC_2.2.5
 wxLcE
@@ -2784,17 +2849,17 @@ x0;wX}+Hc
 xGHcO
 xJA;E
 xOHcO
-xo;wX}jHc
+xb;wX}]Hc
+{YIN?
 {}()':
 {}[]()=&, 	
 {}[]=, 	
+|$$E1
 |$'H)
 |$HfA
-|$PA\A]A^]
 |0D9c
 |5E9}
 |9Ic>I
-}$IcM
 }>;w$
 }D;w$w?
 }F;w$

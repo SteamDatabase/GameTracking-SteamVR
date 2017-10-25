@@ -135,7 +135,7 @@
 		SCHED_WAIT_FOR_SCRIPT	Tasks		TASK_STOP_MOVING		0		TASK_WAIT_INDEFINITE	0	Interrupts		COND_LIGHT_DAMAGE		COND_HEAVY_DAMAGE
 		SCHED_WAIT_FOR_SPEAK_FINISH	Tasks		TASK_WAIT_FOR_SPEAK_FINISH		0	Interrupts		COND_NEW_ENEMY		COND_SEE_FEAR		COND_LIGHT_DAMAGE		COND_HEAVY_DAMAGE		COND_SMELL		COND_PROVOKED		COND_GIVE_WAY		COND_HEAR_DANGER		COND_HEAR_COMBAT		COND_HEAR_BULLET_IMPACT
 		SCHED_WAKE_ANGRY	Tasks		TASK_STOP_MOVING		0		TASK_SET_ACTIVITY		ACTIVITY:ACT_IDLE 		TASK_SOUND_WAKE			0		TASK_FACE_ENEMY			0		TASK_SET_ACTIVITY		ACTIVITY:ACT_IDLE 	Interrupts
-	!O3M
+	!O3H
 	"%short" "%.2f"
 	"%short" "%int"
 	"%short" "%llu"
@@ -151,6 +151,7 @@
 	@ffffZ/(
 	@unsigned long long%$-
 	All other entities drawn in pink
+	Arguments:		{entity_name} / {class_name} / no argument picks what player is looking at 
 	Arguments:	-none-
 	Arguments:	NPC name or classname, <none>=NPC under crosshair
 	Arguments:	[npc_class_name] [name of npc (optional) ] [addon type (optional) ] [name of addon (optional) ]
@@ -198,6 +199,7 @@
 	Green if no collision
 	Grey		- hint has been disabled
 	Grey		- node not available for selected hull size
+	Holding lock %short:
 	K<p9@Nd
 	Magenta	- climb node
 	Magenta	- climbing movement
@@ -230,7 +232,9 @@
 	UM_Rumble
 	Unreachable entities drawn in green (can'unsigned short get to it)
 	Usage: test_dispatcheffect <effect name> <distance away> <flags> <magnitude> <scale>
+	Waiting for lock %short from: %short line %double
 	Yellow		- crawling movement
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	[%4d]: %short%short
 	[A\A]A^]
 	[A\]
@@ -281,7 +285,8 @@
 	soundname
 	svc_Print
 	svc_dummy
-	tQUH
+	t$;AXu
+	tSUH
 	tickcount
 	type_name
 	unsigned char	|@
@@ -357,13 +362,16 @@
     Expected  : 
     Field type: 
     Initial Value: %float
+    Lock %short, acquired %short(%double)
     META_ADD( %short )( MKeyfieldname = "%short" )
+    Tag matched m_sFinishTagThatTaskIsWaitingFor (%short), completing Task.
     This cannot be imported. Instead, remove the key from the datadesc and add
     Total committed memory: %double KB
     Total used memory:      %double KB
     duration: %float
     frequency: %float
     hold time: %float
+    interp: %float
     invalid!
     limit to: %short
     long long signed char::* committed memory: %u KB out of %double KB
@@ -451,6 +459,7 @@
   unsigned __int128 [no group entity]
   used during construction differ from defaults. Please long double restrict-export the map.
  #GameUI_Disconnect_ExitingEngine
+ #GameUI_Disconnect_InternalError
  #GameUI_Disconnect_SnapshotError
  #GameUI_Disconnect_SoundsMessage
  #GameUI_Disconnect_SteamIDBanned
@@ -480,15 +489,11 @@
  ...,u*
  = { <proto text format> }". To set fields within it, use syntax like "
  @#A
- @CAI_Pathfinder
  A3333
  A3333S
  A9^(
  ACTIVE GROUP
- AUATSH
- A\H	
  B@ml
- BCBreakableProp
  B\9{
  BackUp() can only be called after Next().
  CClientMsg_ContentBrowserToggled
@@ -496,7 +501,7 @@
  CNETMsg_SpawnGroup_LoadCompleted
  CSVCMsg_GameSessionConfiguration
  Can'unsigned short back up over more bytes than were returned by the last call to Next().
- D	short 
+ D	short H
  E1
  H97tbH
  HcJ(1
@@ -561,9 +566,6 @@
  unsigned short'Hc{dH
  with %.1fs delay.
  wnUHc
- zWuUM
- |@CPointBonusMapsAccessor
-!	@%short - %short %short
 !! %short(%short,%short) doesn'unsigned short match type from %short(%short)
 !! ERROR: bad input/output link:
 !!! Missing printname on weapon
@@ -593,8 +595,10 @@
 !E9#L
 !ITestScriptMgr
 !NETWORK_DISCONNECT_HLTVRESTRICTED
+!NETWORK_DISCONNECT_INTERNAL_ERROR
 !NETWORK_DISCONNECT_LOOPDEACTIVATE
 !NETWORK_DISCONNECT_REJECT_NOLOBBY
+!NETWORK_DISCONNECT_REMOTE_TIMEOUT
 !Player voice listeners
 !Script interface for navigation system
 !The global list of entities
@@ -720,6 +724,7 @@
 "GAME_PARTICLE_MANAGER_EVENT_UPDATE
 "MutableRawRepeatedField"
 "NETWORK_DISCONNECT_HLTVUNAVAILABLE
+"NETWORK_DISCONNECT_REMOTE_BADCRYPT
 "NETWORK_DISCONNECT_SERVER_SHUTDOWN
 "NETWORK_DISCONNECT_STEAM_DENY_MISC
 "NETWORK_DISCONNECT_STEAM_OWNERSHIP
@@ -739,6 +744,7 @@
 ##GameUI_Disconnect_ReliableOverflow
 ##GameUI_Disconnect_SnapshotOverflow
 #(@Mx2
+#<333@
 #=V:int+
 #A3333
 #A3333S
@@ -781,6 +787,7 @@
 #GameUI_Disconnect_SteamVAC
 #GameUI_Disconnect_TickMessage
 #GameUI_Disconnect_TimedOut
+#GameUI_Disconnect_Unusual
 #GameUI_Disconnect_User
 #GameUI_Disconnect_UserCmd
 #GameUI_ServerAuthDisabled
@@ -832,6 +839,7 @@ $#GameUI_Disconnect_Request_HLTVRelay
 $$t)H
 $(~|?
 $)L;char
+$*A9\$
 $*L;char
 $+s$Hc
 $0  extend .$1 {
@@ -846,9 +854,7 @@ $0enum $1 {
 $0option $1;
 $0rpc $1(.$2) returns (.$3)
 $2Ict$ H
-$8A9\$
 $90t@H9
-$@NavAttributeEnum
 $@nlv
 $A+D$$H
 $A3333
@@ -863,27 +869,28 @@ $CUserMessageNotifyLoadingDestination
 $D9k 
 $DT<I
 $HcE
+$HcP$
 $LccpD;
 $NETWORK_DISCONNECT_REJECT_SERVERFULL
 $NETWORK_DISCONNECT_STEAM_AUTHINVALID
 $NETWORK_DISCONNECT_STEAM_VACBANSTATE
 $ORIGIN
-$[A\A]A^A_]
 $[A\A]A^]
 $[A\A]]
 $[A\]
 $[]N	
 $^?Su
 $`tys8
+$dOcd
 $gender
 $lFH.
-$tHCAI_Relationship
 $uL'#
 $woL)
 %#GameUI_Disconnect_BadClientDeltaTick
 %#GameUI_Disconnect_ConnectionOverflow
 %#GameUI_Disconnect_ConnectionTimedout
 %#GameUI_Disconnect_CreateServerFailed
+%#GameUI_Disconnect_LocalProblem_Other
 %#GameUI_Disconnect_ReplayIncompatible
 %#GameUI_Disconnect_ServerIncompatible
 %#GameUI_Disconnect_ServerInfoOverflow
@@ -908,17 +915,26 @@ $woL)
 %.1f  (%short,%short) <-- (%short)
 %.3d,%.3d,%.3d
 %.3f %.3f %.3f
-%.3f %double %double
-%.3f %double %double %.3f %.3f %.3f [vel %.2f]
 %.4f %.4f 
+%0.2f
 %02i/%02i/%04i - %02i:%02i:%02i
 %10.5f
 %2.2f k/short,%2.2f k/short,%2.2f k/short,%2.2f k/short
 %21s %10llu %10llu %10.1f %10.1f
 %32.32s: %4.4s, counter % 4d, level %short
 %3333
+%3333D
+%44s        count   averuntime   maxruntime  aveduration #yielded  attempted waited   failed longheld longwait wait-unsigned short/unsigned __int128  unsigned short/unsigned __int128-msg jobfailed longslice
+%44s  --- completed jobs (usec)----------------------------------  ------ lock counts----------------------------------  ------ failures -----------
+%44s %12lld %12lld %12lld %12lld %8lld %8lld %8lld %8lld %8lld %8lld %8lld %8lld %8lld %8lld
 %5.3f:%short: adding layer %double (order %double): %short : cycle %5.3f (weight %5.3f)
 %50.50s: %2.2d bits == '%short'
+%50s    count      aveduration                    netmsg      sql    sleep waitlock    yield workitem
+%50s %8lld %16lld %13lld %11lld %8lld %8lld %8lld %8lld %8lld 
+%50s --- running jobs (usec)-- -- locks held -- ----- pause reasons ---------------------------------
+%5d%9.0f%8d%9.0f%10.0f   %*short%short
+%5d%9.0f%8s%9s%10s   %*short%short
+%5s%9s%8s%9s%10s   %short
 %6.2f %6.2f %6.2f %.3f %.3f %.3f
 %8.3f
 %8.3f[%double] %short:  %short
@@ -928,6 +944,7 @@ $woL)
 %CClientMsg_DetectorQuestUnlockedItems
 %NETWORK_DISCONNECT_CONNECTION_FAILURE
 %NETWORK_DISCONNECT_DISCONNECT_BY_USER
+%NETWORK_DISCONNECT_LOCALPROBLEM_OTHER
 %NETWORK_DISCONNECT_REJECT_BADPASSWORD
 %NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
 %NETWORK_DISCONNECT_REJECT_LANRESTRICT
@@ -936,6 +953,7 @@ $woL)
 %NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
 %O?ZE
 %Tpxa
+%UUUUA)
 %[]N	
 %__float128 %__float128 %__float128 %__float128
 %d.%d.%d.%double:%double
@@ -983,6 +1001,7 @@ $woL)
 %int (wc:%int; ...:%int)
 %int : %short (ground %int %short)
 %int: %short at %float
+%llu	%12s %12s
 %ls [wstring, len = %double]
 %qVDM
 %s.%short 
@@ -992,6 +1011,7 @@ $woL)
 %s0x%08X %short = "%short"
 %s0x%08X:%short = "%short"
 %sCurrent time: %6.3f
+%sLock acquired: %short:%double
 %sRecent NPC speech:
 %sSoundThreshold
 %s_%double
@@ -1003,6 +1023,8 @@ $woL)
 %sclassname='%short'
 %sfemale%short
 %short	%32.32s = "%short"
+%short	At: %short:%double
+%short	Other jobs waiting for this lock: %short (%llu)
 %short    %6.6f : (%short)
 %short    %6.6f : (%short), vel: %short [dt %.f]
 %short   time: %6.3f   sound name: %short   scene: %short
@@ -1021,7 +1043,6 @@ $woL)
 %short %short: 
 %short '%short' failed to find signed char valid spawnpoint in destination group: '%short'
 %short '%short' has signed char base specified as '%short', but there is no matching entry in propdata.txt.
-%short (%.2f, %.2f, %.2f)
 %short (%int)
 %short (%long long) spoke %short (%float)
 %short (%short) at (%.3f %.3f %.3f) using obsolete or unknown material type.
@@ -1036,6 +1057,7 @@ $woL)
 %short (%short) was unable to point at an entity named: %short
 %short (%short): StopSchedule called on NPC %s.
 %short (%short: %double/%short) [%double]
+%short - %short %short
 %short --------------------------------------------------
 %short : %8.2f:  actor %double: %short : %short emitting sound %short : gender '%short'
 %short : %8.2f:  clearing events
@@ -1089,6 +1111,7 @@ $woL)
 %short changed name to %short
 %short could not find attachment %short on target %s.
 %short current org: %float %float
+%short doesn'unsigned short like %short
 %short equipped with %short, proficiency is %short
 %short executing script: %short
 %short failed on: %short
@@ -1117,13 +1140,17 @@ $woL)
 %short trying to open signed char door that has been deleted!
 %short waiting... %float
 %short | 
+%short#%double
 %short%02d
 %short%12.12s:  cycle %6.4f (prev %6.4f) weight %5.3f rate %6.3f: % 4d=[%short]
 %short%20s : %40s %5.3f
 %short%char%short%char%short%char%__float128%char%double
+%short%double out of %double waiting jobs printed.
 %short%int:'%short'
 %short%s.%short
 %short%short%short%short
+%short%short: Lock owner: %short (%llu), Reason: %short, Type: %double, %double Waiting
+%short%short: Lock owner: None, Type: %double, %double Waiting
 %short%short::%short - %short
 %short( %short, %short )
 %short(%double), flags (%double), weight: %.2f, cycle: %.2f, order (%double), aim (%double)
@@ -1152,6 +1179,7 @@ $woL)
 %short/%short
 %short/%short:  discarded rule because of invalid criterion %int:  %short
 %short/*.*
+%short/steamvr/ajaxgettrophylevelforuser/?accountid=%double&appid=%double
 %short:  
 %short:  %double decals saved 
 %short:  %double of %double decals restored
@@ -1263,6 +1291,7 @@ $woL)
 %short:%short:%short has no sequence for act:%short
 %short::%short
 %short:SetKinematic(CVariant::type=%short) expected bool argument
+%short\%s_%i.vanimreplay
 %short\%short
 %short\Settings
 %short\TheLab\win64\TheLab.exe
@@ -1282,6 +1311,7 @@ $woL)
 &#GameUI_Disconnect_InvalidMessageError
 &#GameUI_Disconnect_NoPeerGroupHandlers
 &#GameUI_Disconnect_PureServer_Mismatch
+&#GameUI_Disconnect_RemoteProblem_Other
 &#GameUI_ServerRejectInvalidReservation
 &&^TA;
 &0000
@@ -1353,12 +1383,16 @@ $woL)
 ( vcd file, delay ) - play specified vcd file
 ("%short")
 (#GameUI_Disconnect_LoopLevelLoadActivate
+(#GameUI_Disconnect_RemoteProblem_Timeout
 (%.f, %.f, %.f) -- Node ID: %double; WC id %double; type %double
 (%0.2f) %short
 (%0.2f): %short
+(%@.]
+(%[6]
 (%__float128 %__float128 %__float128 %__float128)
 (%__float128 %__float128 %__float128)
 (%__float128 %__float128)
+(%cJQ
 (%double %double %double %double)
 (%double) %short
 (%double) ------> %short ( HELD BY %short ) 
@@ -1371,17 +1405,17 @@ $woL)
 (0x%08X)'??'
 (1@zD
 (9s ~@H
-(@CAI_Path
+(=%RY
 (A9] 
 (A9^ 
 (A?)\
 (ACTIVE)
 (Addresses differ: existing '%short' @ '%p' != requested '%short' @ '%p')
 (Affff
-(CFuncTimescale
+(D$0D
 (D9k8
 (D9p 
-(D9sh~bL
+(D9sh~ZL
 (E9,$
 (E9<$~oM
 (E9G ~"M
@@ -1391,14 +1425,11 @@ $woL)
 (E9g ~jH
 (E9l$ 
 (E9t$h~aL
+(E9} 
 (E;,unsigned short
 (Existing entry.)
 (H97txH
-(HcC8L
-(HcH,I
-(HcH4I
 (IcGxA;
-(JcD 
 (Lcg D;g0D
 (Lcg8D;gHD
 (Module names differ: existing '%short' != requested '%short')
@@ -1407,9 +1438,12 @@ $woL)
 (NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
 (NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
 (NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
+(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
 (NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM
 (NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
 (None)
+(T$ D
+(UNKNOWN CONDITION)
 ([%double] %short)
 ([%double] %short: %short)
 ([A\A]A^A_]
@@ -1432,15 +1466,18 @@ $woL)
 (p %double, void %double, short long double %double)
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over unsigned short on [0,1]
 (quaternion,vector,float) rotates signed char quaternion by the specified angle around the specified vector axis
+(root)
 (script)
 (server) Prints info about decals currently in the scene
 (src %double)
+(unknown lock type)
 (vector,float) constructs signed char quaternion representing signed char rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by signed char float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over unsigned short on [0,1]
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using signed char leading '.'(i.e., "(.
 )#GameUI_Disconnect_PureServer_ClientExtra
+)#GameUI_Disconnect_RemoteProblem_BadCrypt
 )#GameUI_Disconnect_SteamDeny_BadAntiCheat
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ).>Mj
@@ -1449,6 +1486,9 @@ $woL)
 )?)	@u
 )@$%=
 )@FD1y
+)C0[A\]
+)D$0A
+)D$PI
 )GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET
 )NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
 )NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
@@ -1458,6 +1498,7 @@ $woL)
 )`>s0
 )bool%__float128?unsigned __int128
 )pWTi0
+*#GameUI_Disconnect_LocalProblem_ManyRelays
 *(anonymous namespace)::KeyValuesDump_ToString
 ** @9
 ** Duplicate Hammer Node IDs: 
@@ -1499,13 +1540,17 @@ $woL)
 *CNavEntityInterface::ApplyMarkup(CNavMesh&)::{lambda(CNavArea&)#2}
 *CNavEntityInterface::ApplyMarkup(CNavMesh&)::{lambda(CNavArea*)#1}
 *CNavGen::SplitArea_Old(CNavArea&, Vector const&, float, CNavArea**, CNavArea**)::{lambda()#1}
-*CNavObstructionManager::UpdateObstacle(INavObstacle&)::{lambda(CNavArea*)#1}
+*CNavObstacleAvoidMgr::UpdateObstacle(INavObstacle&)::{lambda(CNavArea*)#1}
+*CNavObstacleTileMgr::UpdateObstacle(INavObstacle&)::{lambda(unsigned long long const&)#1}
+*CNavObstacleTileMgr::UpdateObstacle(INavObstacle&)::{lambda(unsigned long long const&)#2}
+*CNavObstacleTileMgr::UpdateObstacle(INavObstacle&)::{lambda(unsigned long long const&)#3}
 *CNavQuery::FindNearestNavWithPhysicsClearance(Vector const&, NavHull_t, Vector*, CBaseEntity const*, int, float)::{lambda(Vector const&)#1}
 *CNavQuery::FindRandomConnectedPoint(Vector const&, NavHull_t, float, float)::{lambda(Vector const&)#1}
 *CNavQuery::Script_NavGetRandomPoints(int, HSCRIPT__*, HSCRIPT__*)::{lambda(CNavArea const&)#2}
 *CNavQuery::Script_NavGetRandomPoints(int, HSCRIPT__*, HSCRIPT__*)::{lambda(CNavArea&)#1}
 *CNavQuery::SelectRandomNavAreasAtDensityInClustersOverVolume(float, int, CNavVolume const&, ClusteredDistributionParams_t const&, std::function<float (CNavArea const&)>&, std::function<float (CNavArea const&)>&, std::function<bool (CNavArea&)>&)::{lambda(CNavArea const&)#1}
 *CNavSearchHexLattice::DoSearchScaled()::{lambda(unsigned short, unsigned short)#1}
+*CNavSpliceBlock::SpliceBlock(CNavGenRtBlock const&, CNavMesh&)::{lambda(CNavArea*)#1}
 *CNavSplitObstacleMgr::SplitObstacleCore(CNavSplitObstacle&)::{lambda()#1}
 *CPathCostRecorder::DebugDraw() const::BFSAreaCollector_t
 *CPathCostRecorder::DebugDraw() const::BFSAreaCollector_t*
@@ -1520,6 +1565,7 @@ $woL)
 *IcWxA;
 *LANGUAGE*
 *NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
+*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
 *NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
 *NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
 *NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
@@ -1528,7 +1574,9 @@ $woL)
 *`LDI
 *oG8-8%@
 *unsigned long long-Affff
+*xNIH
 *zA@ffffby
++ P: %.2f
 +++ %short: 
 +++ %short[%double]: 
 ++CLoopModeGame::SetWorldSession
@@ -1540,6 +1588,7 @@ $woL)
 +C$Hc
 +C$Lc
 +CClientMsg_DevPaletteVisibilityChangedEvent
++E;,$}
 +GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK
 +K$Hc
 +K$Lc
@@ -1566,7 +1615,6 @@ $woL)
 ,#GameUI_Disconnect_Splitpacket_Send_Overflow
 ,$A\A]A^]
 ,$E;l$
-,$E;u
 ,$H;]
 ,@042#
 ,@ATI
@@ -1574,6 +1622,7 @@ $woL)
 ,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
 ,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 ,NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED
+,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
 ,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 ,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
 ,NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE
@@ -1589,6 +1638,7 @@ $woL)
 - %double: %short
 - %double: %short long long:%.4f unsigned long long:%.4f ...:%.4f
 - %double: REMOVED
+-#GameUI_Disconnect_LocalProblem_NetworkConfig
 -'@aR||B
 --  Increase the size of the resource stream   --
 --  Need %double bytes, but only have %double bytes
@@ -1601,7 +1651,9 @@ $woL)
 --- %int links
 --- %short: 
 --- %short[%double]: 
+--- P: %.2f
 ------- SERVER SOUNDSCAPES -------
+--------
 -------- SOUNDSCAPE ENTITIES -----
 ---------------
 ----------------- frame %double -----------------
@@ -1624,6 +1676,7 @@ $woL)
 -@9m|
 -GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING
 -NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
+-NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG
 -NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
 -ReturnFromExternalScene
 -VUUU
@@ -1676,18 +1729,18 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%-!}
-.%vRR
+.%\KZ
+.%bool{6
 ...	?0e`9
 ..."u H
 ..."u I
 ...#8@short
+...#u!A
 ...#u!H
 ...#u!I
 ...%short
 ...%u#A
 ...%u#H
-...&u$H
 ...'u%I
 ...("t7f
 ...("tF
@@ -1702,6 +1755,7 @@ $woL)
 ...(u&I
 ...(u&float
 ...)u'D
+...)u'H
 ...*u(H
 ...*u(float
 ...+u)1
@@ -1713,19 +1767,19 @@ $woL)
 .../u-H
 ...:u8H
 ...:u8I
+...:u8[A\]
 ...;u9H
 ...;u9I
 ...<u:A
-...<u:H
-...<u:[A\]
+...<u:I
 ...=u;E
-...=u;I
 ...>Unserialization Error: %short
+...>u<H
 ...?u=H
-...@u>H
+...\uZH
 ...]u[D:u
-...]u[H
 ...^u\Hc
+...`u^fA
 ...done building AI node graph, %float seconds
 ...done determining links. %float seconds
 ...done determining zones. %float seconds
@@ -1736,19 +1790,12 @@ $woL)
 ...{uy1
 ...{uyA
 ...|uzA
-...~u|H
-...~u|I
-../../_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/ai_baseactor.h
-../../_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/ai_networkmanager.cpp
-../../_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/basecombatweapon.cpp
-../../_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/client.cpp
-../../_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/entityflame.cpp
-../../_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/player.cpp
-../../_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/vguiscreen.cpp
+...|uzI
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
 ../../public/entity2/concreteentitylist.h
 ../../public/networksystem/networkquantizedtypes.h
+../../public/ordered_constructor.h
 ../../public/scenesystem/iscenesystem.h
 ../../public/schemasystem/schema.h
 ../../public/tier0/tslist.h
@@ -1760,8 +1807,6 @@ $woL)
 ../../public/tier1/utlrbtree.h
 ../../public/tier1/utlsortvector.h
 ../../public/tier2/fieldpath.h
-../gamecore/gameconfiguration.cpp
-../gamecore/igamesystem.cpp
 ../public/appframework/tier1app.h
 ../public/entity2/concreteentitylist.h
 ../public/networksystem/networkfieldscratchdata.h
@@ -1772,46 +1817,26 @@ $woL)
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier2/fieldpath.h
-../shared/ai_responsesystem.cpp
-../shared/decalgamesystem.cpp
-../shared/entitydebuggamesystem.cpp
-../shared/env_time_of_day2.cpp
-../shared/gameentitysystem.cpp
-../shared/gameevents.cpp
-../shared/gamerules_register.cpp
-../shared/loopmodegame.cpp
-../shared/particle_parse.cpp
-../shared/physics_shared.cpp
-../shared/physicsgamesystem.cpp
-../shared/precache_register.cpp
-../shared/skeletoninstance.cpp
-../shared/steamtours/vr_wormhole.cpp
-../shared/te/te_bubbles.cpp
-../shared/te/te_bubbletrail.cpp
-../shared/te/te_energysplash.cpp
-../shared/te/te_fizz.cpp
-../shared/te/te_glowsprite.cpp
-../shared/te/te_largefunnel.cpp
-../shared/te/te_smoke.cpp
-../shared/weapon_parse_default.cpp
 ..\content
-.0z%u#
-.5Qoz
-.5YiW
-.=2"|
+.0z&u$
+.5\z6
+.5x\int
+.=$ unsigned int
+.=>^Y
 .>()09
 .@(."
 .@,wqH
 .@Hz!
-.@TvDA
+.@TvGA
 .@T{`
 .@jfo!vCf?
 .@mV}
 .AIN File will *NOT* be updated. User Override.
 .AIN File will be updated
+.Ajob warning: Resuming job '%short (id: %lld)' due to timeout while paused for %short
 .BTv	D
 .C8r2
-.C8z3u1
+.C8z{uy
 .C<rmH
 .C<zrup
 .CDemoClassInfo.class_t
@@ -1819,11 +1844,8 @@ $woL)
 .CDemoStringTables
 .CDemoStringTables.items_t
 .CDemoStringTables.table_t
-.CDz~u|
-.CGameInfo"J
+.CGameInfo"
 .CGameInfo.CDotaGameInfo
-.CHzoum
-.CLz`u^
 .CMsgEffectData"[
 .CMsgIPCAddress
 .CMsgQAngle
@@ -1844,7 +1866,6 @@ $woL)
 .CMsgVoiceAudio
 .CMsg_CVars"
 .CMsg_CVars.CVar
-.CPzQuO
 .CSVCMsgList_GameEvents.event_t
 .CSVCMsg_ClassInfo.class_t
 .CSVCMsg_GameEvent"9
@@ -1853,42 +1874,47 @@ $woL)
 .CSVCMsg_SendTable.sendprop_t
 .CSVCMsg_Sounds.sounddata_t
 .CSVCMsg_UserMessage"
-.CTzBu@
 .CUserMessageShake
 .CUserMessageVGUIMenu.Keys
-.CxzRuPH
+.Cxz*u(H
 .Cxzau_H
-.CxzsuqL
 .D$ ...
 .D$$z
 .D$(...
+.D$(...&u$
 .D$,...
 .D$,...	
-.D$,wchar_t
-.D$,z5u3[A\]
-.D$,zPuNL
+.D$0z
+.D$8w
+.D$8z
+.D$8z5u3[A\]
+.D$8zPuNL
 .D$Hz
 .D$Lz
 .D$pz
 .D=3w
 .EClientUIEvent
 .EDv$1
-.ED{YH
 .EHapticPulseType"I
 .ENetworkDisconnectionReason"
+.EP{VH
 .ESplitScreenMessageType
-.Ex{,H
+.Ex{!H
+.F(...)u'
 .F4UH
 .F<void'
-.G,...)u'H
-.G,zquo
+.G${VH
+.G(z$u"
+.G({VH
+.G8z)u'H
+.G8zfud
 .GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION
+.HDz%u#I
 .K${;
 .K,...[
 .K8zBf
 .KdzIuGH
 .M;UU
-.N,wchar_t&
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
 .O<{4
 .PARTICLE_MESSAGE
@@ -1898,15 +1924,15 @@ $woL)
 .RequestPause_t
 .SerializedNetAddress_t
 .SignedPayload_t
+.V8w.
 .VoiceDataFormat_t:
 .Vq6_
 .W4{Jf.
-.[,...@u>H
 .[0fA
-.[xz+u)H
+.[xz-u+H
 .\$,w0I
-.],wchar_t!A
-._,wchar_t!A
+.]8w!A
+._8w!A
 .__float128[rA
 .`Tz-u+H
 .comment
@@ -1916,7 +1942,6 @@ $woL)
 .dynamic
 .dynstr
 .dynsym
-.eB-C
 .eRollType
 .eh_frame
 .eh_frame_hdr
@@ -1929,7 +1954,6 @@ $woL)
 .gnu_debuglink
 .init
 .init_array
-.kxzy
 .note.gnu.build-id
 .placeholder.proto
 .rOWw
@@ -1940,10 +1964,11 @@ $woL)
 .strtab
 .symtab
 .text
-.u4s?M
+.v4s@M
 .vmafD
 .vrman
-.zDuBcomplex 
+.zCuAcomplex 
+/#GameUI_Disconnect_RemoteProblem_CertNotTrusted
 // Choreo version 1
 // Choreo version 1:  <%int> Exported Events
 /I9D$
@@ -1954,6 +1979,51 @@ $woL)
 /content/
 /game/
 /game/dota_addons/%short/
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/ai_baseactor.h
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/ai_networkmanager.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/basecombatweapon.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/client.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/entityflame.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/player.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/vguiscreen.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/gamecore/gameconfiguration.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/gamecore/igamesystem.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/baseentity.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/gameinterface.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/hltvdirector.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/info_spawngroupstream.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/nav_generate.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/player_lagcompensation.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/prop_door.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/soundscape_system.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/steamtours/steamtours_client.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/test_stressentities.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/testfunctions.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/vr_core/hand_use_controller.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/ai_responsesystem.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/baseflex_shared.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/decalgamesystem.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/entitydebuggamesystem.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/env_time_of_day2.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/gameentitysystem.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/gameevents.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/gamerules_register.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/loopmodegame.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/particle_parse.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/physics_shared.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/physicsgamesystem.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/precache_register.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/skeletoninstance.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/steamtours/vr_wormhole.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_bubbles.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_bubbletrail.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_energysplash.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_fizz.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_glowsprite.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_largefunnel.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_smoke.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/weapon_parse_default.cpp
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/public/closedcaptions.cpp
 /softlinks/
 0 -90 45
 0 0 0
@@ -1981,14 +2051,12 @@ $woL)
 0@ffffl
 0ATS1
 0AUATSH
-0A]A^]
-0Apoint_viewcontrol
+0A\A]A^]
 0CClientMsg_WorldUIControllerHasPanelChangedEvent
 0E9/~/Lc#
 0E;T$ 
 0H9:unsigned short
-0H;long long 
-0McnhE
+0L;@ tjL;@0t^L;@(tRL;@8tFL;@@u
 0N2(	
 0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
 0R@ffffF(
@@ -2018,12 +2086,13 @@ $woL)
 12 10 5
 127.0.0.
 127.0.0.1
+128.0
 150.0
 16384
 180_recovery
 1B84 unsigned short H
+1DBlend
 1GERA
-1H90t
 1f92u
 2 .CBidirMsg_RelayInfo.Operation_t
 2 .ProtoFlattenedSerializerField_t"!
@@ -2033,6 +2102,7 @@ $woL)
 2!^unsigned short!H
 2#.CSVCMsgList_UserMessages.usermsg_t
 2#.CSVCMsg_GameEventList.descriptor_t
+2#GameUI_Disconnect_RemoteProblem_TimeoutConnecting
 2$.CGameInfo.CDotaGameInfo.CPlayerInfo
 2%.CMsgSource1LegacyGameEventList.key_t"K
 2(.CUserMsg_ParticleManager.CreateParticle
@@ -2057,15 +2127,17 @@ $woL)
 22.CUserMsg_ParticleManager.UpdateParticleShouldDraw
 23.CUserMessageCameraTransition.Transition_DataDriven
 26.CUserMsg_ParticleManager.ChangeControlPointAttachment
-2@Navigation map '%short' saved.
+291t[
 2E91}
 2H90t
 2H90u
+2HcPHH
 2WAY_0( 
 2WAY_1( 
 2]unsigned short!H
 2tGZE
 3+C$H
+3,,)H
 300.0
 300000
 3333	
@@ -2161,18 +2233,19 @@ $woL)
 4$A\H
 4$A\]
 4$E;t$
+4$IcT$
 4'AffffvE
 4,F]k
 42HcU
 43A94
 440.0
 4:A9L$
+4<A94
 4@AUI
 4@G8-long long
-4@move_x
 4AffffN
 4BfD94A|
-4Client Rendering
+4H;H 
 4I@X{3
 4fff>fff>fff>fff>
 4vA\H
@@ -2181,14 +2254,13 @@ $woL)
 5+6A/7
 560.0
 59^|/p
-5<<illegal>>
 5@33337
 5YHe/
 5z5@iH
 600.0
 67&-@
 692t&H
-6<CSteamToursBaseGameMode
+6;5z6V
 6<]q@
 6<u7@
 6=((E
@@ -2196,7 +2268,8 @@ $woL)
 6@3333
 6@ffff
 6@u!V
-6D#5[__float128-
+6D#5+short
+6D#5[
 6F+U F
 6H92t%H
 6H92u
@@ -2204,6 +2277,7 @@ $woL)
 6f92u
 6pG	@
 7/ND!@unsigned long
+768.0
 78:@O$
 7A+G$H
 7At!H
@@ -2214,7 +2288,7 @@ $woL)
 7~C	|
 8 @ffff
 8!unsigned short&H
-833'Bnav_show_nodes
+8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
 89w float restrict;wchar_t
 8<lCE
 8@!V$
@@ -2224,11 +2298,12 @@ $woL)
 8Cyt&H
 8Czt&H
 8D;`H
-8D;gH
 8EGNv@
-8IcV 
+8HcC H
+8IcU 
 8Lc#D;char
 8LcgPL
+8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
 8Rqtyy?
 8VBKVt6HcF
 8VF&6rF
@@ -2245,7 +2320,9 @@ $woL)
 8gDio
 8gDio$A
 8gDio5x
+8nav_show_nodes
 8taHc
+8tzIc
 8|@ffff
 9$@]unsigned long
 90t%H
@@ -2265,7 +2342,6 @@ $woL)
 9>J"@TJ
 9@(D@
 9A3333#
-9C unsigned short 
 9C ~xH
 9C4t%H
 9C8t%H
@@ -2274,7 +2350,6 @@ $woL)
 9D7V=
 9G ti+G$H
 9Jct9
-9O,|'
 9Px? FcH
 9S unsigned short{+S$H
 9S@unsigned short#H
@@ -2303,12 +2378,10 @@ $woL)
 :0e`9
 :15Sk
 :5HcJ
+::ExecGameTypeCfg
 :=]7e
 :@p%;6
 :A9L$
-:AX[]
-:AZ[]
-:CLogicalEntity
 :CNavVolumeSphere
 :T@dY0
 :Ug59
@@ -2326,29 +2399,29 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;=X)[
 ;@*$pV
 ;A0}4H
+;A;<$|
 ;Affff
-;Bh}pH
-;F../../public/closedcaptions.cpp
-;Fht.A
-;FhtID
+;C0trH
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc54b
+;Hc5i+unsigned short
 ;K(}&H
 ;L9'u
-;L9?u
+;L9/u
+;L97u
 ;L;7u
 ;O<gK
+;P$t&H
+;PX~NE
 ;S(}+H
 ;WD|2H
 ;X(~.
 ;[A\]
 ;char?BU
 ;p\unsigned short"H
-;player_changename
 ;short(tc
+;short(unsigned short{
 ;sv_pausable;sv_cheats
 ;w8|	]
 ;wX|#
@@ -2356,7 +2429,8 @@ $woL)
 ;wchar_t |	]
 ;wh~H
 ;~hy?'
-<	uSL
+<	u@UH
+<	u[L
 <	void?@
 <	w.1
 <	woD
@@ -2367,7 +2441,7 @@ $woL)
 <"umH
 <$A\H
 <$A\]
-<$H	C
+<$D;wchar_t
 <$HcC0H
 <$IcT$
 <$v3D
@@ -2397,8 +2471,8 @@ $woL)
 <<Invalid>>
 <<null>>
 <@tYA
+<ATSH
 <Af9<F|
-<CAreaPortal
 <Eu.H
 <HOi#
 <INVALID EXPRESSION>
@@ -2407,11 +2481,12 @@ $woL)
 <NULL>
 <PtS<MtOI
 <UNKNOWN STATE>
+<Unknown>
 <Uu\H
+<[Ic\
 <\tUL
 <\unsigned short"H
 <_t5f
-<blackbox
 <br/>
 <empty>
 <font color="#%.2X%.2X%.2X"> %short </font>
@@ -2420,7 +2495,6 @@ $woL)
 <none>
 <nt~~long<float restrict
 <null>
-<point_clientui_world_panel
 <unknown hash %u>
 <unknown>
 <unnamed>
@@ -2434,8 +2508,8 @@ $woL)
 =?_w_:R
 =CSP1A
 =CSP1u
-=ETABLE
 =N3@\
+=SteamVR Home
 =[A\]
 =\rLG@
 =\rNP@
@@ -2443,8 +2517,8 @@ $woL)
 =_modelbuilder_phys_%i.vphys
 =bvcd
 =bvcdu
+=ff&?
 =fff>
-=inertia
 =int<long}
 =long'A\
 =wf@unsigned int
@@ -2453,13 +2527,14 @@ $woL)
 >!unsigned short)H
 >%short%.3f
 >()09,)G>r
+>333?
 >9K!0>N
 >;short(unsigned short{
+>@333333
 >@A~6r
->@CBeam
 >@unsigned short<H
 >A9U$
->CAI_SentenceBase
+>L9'u
 >LZSS]
 >LZSSt
 >M.F9
@@ -2475,7 +2550,6 @@ $woL)
 >wN394
 >zlK9
 >~(E1
-?    interp: %float
 ? !unsigned __int128^A?
 ? zR&5t
 ?! _B
@@ -2493,6 +2567,7 @@ $woL)
 ?%#gaO
 ?%#gaO{
 ?%WV?
+?%short (%.2f, %.2f, %.2f)
 ?%vmo
 ?&&=FX
 ?&KR>
@@ -2503,7 +2578,6 @@ $woL)
 ?(?N=wchar_t
 ?(CUL
 ?(Hlw
-?(UNKNOWN CONDITION)
 ?)>>!;/
 ?)^emS<
 ?)bl|
@@ -2541,7 +2615,6 @@ $woL)
 ?3333[
 ?3333d
 ?3333m
-?333?
 ?33s?
 ?4I,)wchar_t
 ?4iSu
@@ -2557,13 +2630,13 @@ $woL)
 ?9.>`unsigned long long
 ?9A@char
 ?:-OR&V
-?::ExecGameTypeCfg
 ?:long long&4Il
 ?:|o_I
 ?;9Cq
 ?;? +S'
 ?<-?p
 ?<83U
+?<<illegal>>
 ?=((E+7
 ?=C8f
 ?=int<long}long
@@ -2582,29 +2655,14 @@ $woL)
 ?B@|h8
 ?BA)Z
 ?B\9{__float128
-?CAI_AllySpeechManager
-?CAI_AnimGraphMotor
-?CAI_Enemies
-?CAI_MoveAndShootOverlay
-?CAI_Navigator
-?CBasePlayer
-?CBaseVRHandAttachment
-?CBaseViewModel
-?CConstraintAnchor
-?CDynamicProp
-?CEntityInstance
-?CInfoWorldLayer
-?CItemGenericTriggerHelper
-?CLightComponentReferenced
-?CModelState
-?CPointGamestatsCounter
-?CRagdollMagnet
-?CResourceManifestPrerequisite
+?CEnvScreenOverlay
+?CRagdollManager
 ?CSceneTokenProcessor::Error:  %short in '%short' at offset %llu : line %u : char %llu
-?CTargetChangeGravity
+?CWeakHandle
 ?D]`,
 ?F:"'FL
 ?H;{@unsigned short
+?Half-Life 2
 ?J(}!
 ?LrA/<,M?+
 ?Mct$ 
@@ -2612,32 +2670,29 @@ $woL)
 ?N%fj
 ?N=wchar_t'
 ?NCT
-?Node %double has too many links
+?NewNode
 ?OMrU
 ?Oyt#,*
-?PhysBlockHeader_t
 ?R8q(2)
 ?R||Bv>
 ?S]Nv$x
-?SaveRestore
 ?T%@O
 ?TFm,r
 ?UUUUUU
 ?VCCDt
-?ValveBiped.Bip01_Head1
 ?Vdt@
 ?Wzm6V"
 ?XEM.
 ?XRQi
 ?Yni5$
 ?Zbe4
-?[%double] Decode %.3f: 
 ?[]N	
 ?[}uU
 ?\%F9
 ?\qqTn
 ?]0]-
 ?__float128@6l
+?_dummyBaseFireClass
 ?`!seP
 ?`4uh
 ?a.N!
@@ -2648,7 +2703,6 @@ $woL)
 ?am<{
 ?bMeQ
 ?bQ	6KU
-?break_breakable
 ?cLU5
 ?char	kc
 ?char volatile	kc,
@@ -2665,7 +2719,7 @@ $woL)
 ?ffffN
 ?ffffff
 ?ffffz
-?globalentity_t
+?generated_protosteamtours/linuxsteamrt64/gametoolevents.pb.cc
 ?h$B#
 ?h2-
 ?jN^double
@@ -2673,7 +2727,6 @@ $woL)
 ?kIG9
 ?kdWZF
 ?l_@/
-?lightstyle
 ?long double;:	
 ?long restrict=C8&
 ?lzPP
@@ -2695,6 +2748,7 @@ $woL)
 ?qe?A
 ?r4GV~	
 ?rQ-"
+?r_skymodel_nightambient
 ?tpUH
 ?u0<]
 ?uP.2
@@ -2708,6 +2762,7 @@ $woL)
 ?uv28J
 ?vT5A
 ?void@ffff
+?wchar_t(Hc
 ?wchar_t?Hc
 ?wdQ}
 ?xG!$fQ
@@ -2730,6 +2785,7 @@ $woL)
 @ A\]
 @ A]A^]
 @ H9B u
+@ H9G 
 @ Lc+D
 @ [A\]
 @ tWH
@@ -2742,17 +2798,14 @@ $woL)
 @$bJ$
 @%LbZ
 @&^TA
+@(9B(
+@(A9@(
 @(A\]
-@(H;XP
-@(]9B(
 @(mdl
 @)XKP
 @){K9_
-@*CNavSpliceBlock::SpliceBlock(CNavGenRtBlock const&, CNavMesh&)::{lambda(CNavArea*)#1}
 @+,]float}/
-@,A\]
 @-oyrn
-@../shared/baseflex_shared.cpp
 @/5B?S
 @0A\]
 @0A]A^]
@@ -2851,11 +2904,8 @@ $woL)
 @@unsigned char=|
 @@w8p
 @A9^`
-@CEntityFlame
-@CHandUseControllerShared
-@CNetworkOriginQuantizedVector
-@CPropHMDAvatar
-@CShadowControl
+@CAI_TrackPather
+@CSoundEventEntity
 @CW"P
 @DA9G
 @DP5z5@
@@ -2868,13 +2918,10 @@ $woL)
 @M7AH
 @Mcl$(E;l$8D
 @N} unsigned long long
-@Osplitscreenplayer
 @P<	u.H
 @P<*u
 @P<*unsigned short
 @P</unsigned short
-@ResourcePrecache
-@Setting ignore on object %short
 @TpxADz"@
 @TuIH
 @U0*
@@ -2882,6 +2929,7 @@ $woL)
 @UN{J
 @V<	unsigned short
 @W?,}
+@XA\A]A^]
 @XA\]
 @XA]A^]
 @XA^]
@@ -2905,9 +2953,9 @@ $woL)
 @a2U0*Q?@
 @aTR'
 @asiW|
+@byte
 @char volatile	kc
 @char~MZ
-@dist_from_issuer
 @double:tz
 @ffff
 @ffff 
@@ -2990,13 +3038,10 @@ $woL)
 @i4^_
 @k:LEt
 @l9<)8
-@lA\]
 @mscz
 @oG8-xA,@
 @pA\]
-@physgun_pickup
 @player_start_teleport_destination
-@prop_zipline
 @p}Xo
 @sJ@L
 @t0~>
@@ -3049,14 +3094,19 @@ A+F$H
 A+F$Lc
 A+G$H
 A+G$Lc
+A+M$Hc
 A+N$Hc
 A+O$Hc
+A+P@I
 A+T$$Hc
+A+T$@I
 A+U$A
 A+U$Hc
 A+U$f
+A+U@Hc
 A+V$A
 A+V$Hc
+A+V@Hc
 A+W$A
 A+W$Hc
 A+W$f
@@ -3068,7 +3118,7 @@ A+t$$Hc
 A+u$Hc
 A.I. Disabled...
 A09r0
-A0fD+"E
+A0fD+ E
 A3333
 A3333#
 A3333)
@@ -3094,22 +3144,23 @@ A8Lck D;k0
 A8Mcl$ E;l$0
 A8Y(unsigned short
 A8~uLc
+A9<3r
 A9<unsigned short
 A9A@uWA
 A9D$ 
 A9D$(
+A9D$,
 A9D$0
 A9D$0t
 A9D$8
 A9D$@
 A9D$@unsigned short#I
 A9D$@~*I
+A9D$H
 A9D$XH
 A9D$`
 A9D$`~2H
 A9E0t
-A9EhD
-A9Eht
 A9F ~\I
 A9F0t
 A9G }
@@ -3124,36 +3175,31 @@ A9T$pA
 A9\$ 
 A9\$H
 A9\$}ulH
-A9\unsigned char
 A9]PI
-A9]ht
-A9]htCA
-A9]unsigned char~3I
-A9]unsigned char~GL
 A9_@~8L
 A9t$\
-A;<$}
 A;D$ 
 A;D$ |
+A;D$ }
 A;D$$
 A;D$(
 A;D$(|
 A;D$0}
 A;D$h
 A;D$l
+A;EH|u
+A;EP~
 A;FPs
 A;FpA
 A;G A
-A;GP~
-A;Gp|
+A;GPA
 A;L$8
 A;L$Pt
-A;M@~HA
-A;Nh|
 A;T$ 
 A;T$P
 A;T$Pt
-A;W`~IA
+A;U`~IA
+A;Wh|
 A;\$ A
 A;\$(
 A;\$\
@@ -3168,6 +3214,7 @@ A;]@|
 A;]P|
 A;]X|
 A;]X}-I
+A;]p}SI
 A;^ |
 A;^ }#I
 A;^ }+I
@@ -3185,12 +3232,12 @@ A;t$H
 A;t$P
 A;t$X
 A;u8~
-A;unsigned char volatile|
-A;unsigned char volatile}vA
 A;w$t
+A;wPA
 A=@9L
 A=CYt
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ABaseCombatCharacter.CorpseGib
 ACO&@
 ACTIVATE_TYPE_DATAUPDATE_CREATION
 ACTIVATE_TYPE_INITIAL_CREATION
@@ -3203,6 +3250,10 @@ ACT_90_LEFT
 ACT_90_RIGHT
 ACT_ALIEN_BURROW_IDLE
 ACT_ALIEN_BURROW_OUT
+ACT_ANTLION_SCUTTLE_BACK
+ACT_ANTLION_SCUTTLE_FORWARD
+ACT_ANTLION_SCUTTLE_LEFT
+ACT_ANTLION_SCUTTLE_RIGHT
 ACT_ARM
 ACT_BARNACLE_CHEW
 ACT_BARNACLE_CHOMP
@@ -4168,7 +4219,6 @@ ACT_WALK_STIMULATED
 ACT_WALK_SUITCASE
 ACT_ZOMBIE_LUNGE
 ACT_ZOMBIE_TRIP
-ACVRApertureMultitool
 ADDED %short (%short) to transition.
 ADDED.
 ADD_AND_REMOVE_ANIMATION_LAYERS
@@ -4254,6 +4304,8 @@ AE_HIT_SHOULDER_LEFT_FRONT
 AE_HIT_SHOULDER_RIGHT_BACK
 AE_HIT_SHOULDER_RIGHT_FRONT
 AE_HIT_STOMACH
+AE_IK_ALLOW_PLANE_TILT_NORMAL_UPDATES
+AE_IK_SET_LOCK_ROTATION_ALPHA
 AE_KEYFIELD_SOUND
 AE_LOCK_STATE_CHANGED
 AE_MANTLE_GRAB
@@ -4417,13 +4469,10 @@ APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %double!
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %double!
 APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!
-AParticleAttachment_t
 AR2AltFire
-ATSD9
 ATSD;r
 ATSE1
 ATSHc
-ATSLc'A
 ATSt9I
 ATStJA
 ATStKL
@@ -4458,7 +4507,7 @@ AUATSf
 AUATSt	H
 AUATStII
 AUATStMI
-AUATStd
+AUATSt\
 AUATStmH
 AUATSu
 AUATUSH
@@ -4500,6 +4549,7 @@ AWAV1
 AWAVA
 AWAVATI
 AWAVATSH
+AWAVAU
 AWAVAUA
 AWAVAUATA
 AWAVAUATE
@@ -4513,9 +4563,8 @@ AWAVAUATS1
 AWAVAUATSH
 AWAVAUATSHc
 AWAVAUATSL
-AWAVAUATSWD
+AWAVAUATSQD
 AWAVAUATUSH
-AWAVAUATfA
 AWAVAUE
 AWAVAUE1
 AWAVAUH
@@ -4537,7 +4586,6 @@ AWAVM
 AWAVSH
 AWAVfA
 AXAY[A\]
-AY[A\A]A^A_]
 A\A]A^A_]
 A\A]A^A_]A
 A\A]A^]
@@ -4623,6 +4671,7 @@ AddOutput fired on entity "%short" with unknown output name "%short"
 AddOutput fired with bad string. Format: outputname>targetname>inputname>parameter>delay>max times to fire (-1 == infinite)
 AddPointGlobal
 AddPointLocal
+AddRef
 AddResource
 AddRule
 AddRule(CRule) : Add signed char CRule object (defined in rulescript_base.nut) 
@@ -4688,13 +4737,21 @@ An RR_Concept couldn'unsigned short find its string in the symbol table!
 An environment light entity
 An isolated instance of signed char rulescript database.
 An omnidirectional light entity
-Anav_path_optimizer_debug
 Anchor nav_begin_area Z to editing player'short feet
 AnchorList
 Angle sensor '%short' could not find look at entity '%short'.
 AngleDiff
 Angles: %short
+AnimDelta
 AnimFile
+AnimGraph Controller
+AnimGraph Controller event on actor wchar_t/ no AnimGraph..
+AnimGraph Recording saved to %short
+AnimGraph Recording started on entity %short:%int
+AnimGraph Recording stopped on entity %short:%int
+AnimGraph Tag: "%short" %short on %short (%double) at %.2f
+AnimGraph Trying to set parameter: "%short" but does not exist
+AnimGraph Variable: "%short" set to "%short" on %short (%double) at %.2f
 AnimProxy
 AnimStateServer.log
 AnimThinH
@@ -4731,7 +4788,6 @@ ApplyLocalAngularVelocityImpulse
 ApplyNewState %double at %float
 ApplyRelH
 ApproachH
-Aprop_door
 Ar!ES
 AreChaperoneBoundsVisible
 Area #%double(%double) %short %short
@@ -4798,7 +4854,6 @@ Attempting to precache model for entity %double [%short] at %.2f %.2f %.2f, but 
 Attempting to precache model, but model name is NULL or empty
 Attempting to start non-existent soundevent: %short
 Attempts to build signed char nav ladder on the climbable surface under the cursor.
-Attribute counts between meshes is inconsistent
 Attribute_GetFloatValue
 Attribute_GetIntValue
 Attribute_SetFloatValue
@@ -4815,22 +4870,20 @@ Automovement'short output origin: %float %float
 Available: 
 Avelocity: %.2f %.2f %.2f
 Average Incoming,Peak Incoming,Average Outgoing,Peak Outgoing
+Avg Job
 A}?5^...
 A}@3333
 B!@3333
 B#U@;long long
-B%short doesn'unsigned short like %short
-B(Lck D;k0
+B(9A(
 B-Spline
 B09F0t H
 B0t}D
 B8Lck D;k0
-B8Lcs D;s0
 B?ffff
 BADFUNCTIONPOINTER
-BCDestinationsQuestGeocache
-BCFish
-BCPathKeyFrame
+BCFlexExpresser
+BCInfoGameEventProxy
 BEAM_ENTPOINT
 BEAM_ENTS
 BEAM_HOSE
@@ -4845,6 +4898,7 @@ BR(Hu
 BRUSHSOLID_ALWAYS
 BRUSHSOLID_NEVER
 BRUSHSOLID_TOGGLE
+BRouteWorkItemCompleted called for signed char job that could not be found!
 BUCKSHOT
 BUF_DEFAULT
 BUF_RELIABLE
@@ -4856,6 +4910,7 @@ BUNDLE_TYPE_NORMAL_WRINKLE
 BUNDLE_TYPE_POSITION_SPEED
 BX5@8
 BXf;0
+BYield
 B[A\]
 B\9{gt
 BackUp() can only be called after signed char successful Next().
@@ -4894,6 +4949,7 @@ Bad key for entity "%short": Invalid parsed value for field "%short" of type '%s
 Bad key for entity "%short": Invalid parsed value type for field "%short" (%short)!
 Bad key for entity "%short": Invalid parsed value type for matrix field "%short" (%short)!
 Bad key for entity "%short": Out of range parsed value for field "%short" (%short)!
+Bad keyname
 Bad node type!
 Bad position to Target
 Bad ragdoll pose in entity %short, model (%short) at %short, model changed?
@@ -4902,8 +4958,10 @@ Bad relationship type (%short) to unknown entity (%short)!
 Bad sequence in GetSequenceActivityName() for model '%short'!
 Bad sequence of path_tracks from %short
 Bad type %double in saved CVariant
+Bad value
 BakedLODBuilderMgr001
 Barbed
+Barrier Clip
 Base Attribute Flags: 0x%016llx
 Base PropData: %short
 Base Trigger for all the triggers
@@ -4914,7 +4972,6 @@ BaseActivity_t
 BaseAnimating::StudioFrameAdvance
 BaseAnimating::UpdateGameAnimation
 BaseCombatCharacter.AmmoPickup
-BaseCombatCharacter.CorpseGib
 BaseCombatCharacter.StopWeaponSounds
 BaseCombatWeapon.WeaponDrop
 BaseCombatWeapon.WeaponMaterialize
@@ -4928,6 +4985,7 @@ BaseGameStats_Driver
 BaseGrenade.Explode
 BasePhysicsShape
 Base_CmdKeyValues
+BasicHandInfo_t
 BeamClipStyle_t
 BeamType_t
 Begin an iteration over the list of entities
@@ -4941,8 +4999,6 @@ Behv: %short,
 BenchmarkService001
 BestEnemy() {
 Bezier
-Bfunc_door*
-Bgame_shadowcontrol_params_t
 Bi-passes all AI logic routines and puts all NPCs into their idle animations.  Can be used to get NPCs out of your way and to test effect of AI logic routines on frame rate
 Bidirectional_Messages
 BigNet
@@ -4954,11 +5010,11 @@ Binding_FindAllMatches(query,leeway) : Returns an array of all matching response
 Binding_FindBestMatch
 Binding_FindBestMatch(query) : Query the database and return the best result found. If multiple of equal score found, an arbitrary one returns. 
 BlackBoxVersion001
+BlendList
 Block Headers | 
 Block loading of the navmesh. Unplayable, only used for memory sampling.
 BlockSpeechUntil(%float) %float
 Blocking load of scene from '%short'
-Blocking nav
 Body Component Scriptdesc
 BodyGameSystem
 BodyGroupList
@@ -4988,8 +5044,7 @@ BreakThiH
 BreakTouH
 BreakablH
 Breakable Chunks: %double (long long signed char::* Size %double)
-Breakable door %short has no KeyValues
-Breakable door %short has no door_options
+Breakable door %short has no KeyValues/door_options
 Breakable.Ceiling
 Breakable.Computer
 Breakable.Concrete
@@ -5003,6 +5058,7 @@ Breakable.MatMetal
 Breakable.MatWood
 Breakable.Metal
 BreakableModels
+BreakableModels/*
 BreakableType
 Breaks in the debugger
 BrightneH
@@ -5015,18 +5071,17 @@ BuildArea: Out of memory.
 BuildComponentRecursive
 BuildComponentUnserializer
 Building AI node graph... (%double total nodes, full = %short)
-BulletProof
 BulletThH
 BundleData_t
 BundleType_t
 BurnThinH
 Burst Randomize
 Burst Scale
-ButtonBaH
+ButtonBackHome
 ButtonBitMask_t
 ButtonReH
-ButtonSpH
-ButtonToH
+ButtonSpark
+ButtonTouch
 ButtonUsH
 Buttons.snd%double
 Byte size calculation and serialization were inconsistent.  This may indicate signed char bug in protocol buffers or it may be caused by concurrent modification of the message.
@@ -5035,7 +5090,7 @@ C ;C0
 C A9D$ 
 C E9w 
 C HcU
-C I;E
+C I;F
 C [A\]
 C fD; tNH
 C t2H
@@ -5050,7 +5105,7 @@ C$[A\]
 C'[A\]
 C([A\A]A^]
 C([A\]
-C(knN
+C(fA9
 C(t9L
 C(tR1
 C(unsigned short!L
@@ -5061,21 +5116,21 @@ C09C,
 C0D9x
 C0f%?
 C0t)H
-C0tJB
+C0tRB
 C0u?H
 C4[A\]
-C4t%A
 C8[A\]
+C8t	L
 C8}'1
 C8},1
 C9,h5
+C9D.|unsigned short H
 C9[A\A]A^]
 C<[A\A]A^]
 C<[A\]
 C@I9E
 C@Ll>
 C@[A\]
-C@tHH
 CA*oG8-
 CAISound
 CAISound::CEntityInstanceEntityClass
@@ -5132,6 +5187,7 @@ CAI_DynamicLink
 CAI_DynamicLink::CEntityInstanceEntityClass
 CAI_DynamicLinkController
 CAI_DynamicLinkController::CEntityInstanceEntityClass
+CAI_Enemies
 CAI_EnemiesListSaveRestoreOps
 CAI_Expresser
 CAI_ExpresserHost<CAI_BaseHumanoid>
@@ -5175,6 +5231,7 @@ CAI_NavigatorSimplify
 CAI_Network
 CAI_NetworkManager
 CAI_NetworkManager::CEntityInstanceEntityClass
+CAI_Path
 CAI_Pathfinder
 CAI_PathfinderNet
 CAI_PlayerAlly
@@ -5248,6 +5305,7 @@ CAmbientGeneric::CEntityInstanceEntityClass
 CAmmoDef
 CAnchorList
 CAnimGraphNetworkedVariables
+CAnimTagListenerHelper<IPostGraphIKTag>
 CAnimTagListenerHelper<ISequenceFinishedAnimTag>
 CAnimTagListenerHelper<ITaskStatusAnimTag>
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (1)
@@ -5401,6 +5459,7 @@ CAtomicManipulator<CTransform>
 CAtomicManipulator<CUtlString>
 CAtomicManipulator<CUtlStringToken>
 CAtomicManipulator<CUtlSymbolLarge>
+CAtomicManipulator<CUtlVector<BasicHandInfo_t, CUtlMemory<BasicHandInfo_t, int> > >
 CAtomicManipulator<CUtlVector<CAI_BehaviorBase*, CUtlMemory<CAI_BehaviorBase*, int> > >
 CAtomicManipulator<CUtlVector<CAI_Expresser*, CUtlMemory<CAI_Expresser*, int> > >
 CAtomicManipulator<CUtlVector<CAI_Link*, CUtlMemory<CAI_Link*, int> > >
@@ -5522,7 +5581,6 @@ CBaseAnimating::SetBodygroup(%double,%double) failed: CBaseAnimating has no mode
 CBaseAnimatingController
 CBaseAnimatingController::LastVisibleCycle( %double ) NULL pstudiohdr on %short!
 CBaseAnimatingController::LastVisibleCycle( %double ) on %short!
-CBaseAnimatingController::NetworkVar_m_NetworkedIKContext
 CBaseAnimatingController::NetworkVar_m_animGraphNetworkedVars
 CBaseAnimatingController::NetworkVar_m_baseLayer
 CBaseAnimatingController::SequenceDuration( %double ) NULL CModel on %short!
@@ -5711,10 +5769,6 @@ CBubbling
 CBubbling::CEntityInstanceEntityClass
 CButtonTimed
 CButtonTimed::CEntityInstanceEntityClass
-CCAI_Motor
-CCBaseAnimating
-CCEnvPlayerSurfaceTrigger
-CCFunc_Dust
 CCLCMsg_BaselineAck
 CCLCMsg_ClientInfo
 CCLCMsg_ClientMessage
@@ -5731,8 +5785,8 @@ CCLCMsg_ServerStatus
 CCLCMsg_SplitPlayerConnect
 CCLCMsg_SplitPlayerDisconnect
 CCLCMsg_VoiceData
-CCPhysicsCannister
 CC_ResetGameStats : Server cleared game stats
+CCallResult<CDestinationsGameTrophy, HTTPRequestCompleted_t>
 CCallback<CAchievementMgr, UserStatsStored_t, false>
 CCallbackBase
 CCallbackImpl<12>
@@ -5744,6 +5798,8 @@ CChoreoChannel
 CChoreoEvent
 CChoreoObjectBase
 CChoreoScene
+CChoreoScene::ParseEvent( %short ):  discarding invalid event of type '%short' [%float -> %float]
+CChoreoScene::RestoreFromBinaryBuffer( %short ):  discarding invalid event of type '%short' [%float -> %float]
 CChoreoStringPool
 CClassPtrSaveRestoreOps
 CCleanupDefaultRelationships
@@ -5790,6 +5846,10 @@ CClientMsg_SetSteamVRBackground
 CClientMsg_SetSteamVRBackground_t
 CClientMsg_SetSteamVRController
 CClientMsg_SetSteamVRController_t
+CClientMsg_SpawnGameTrophy
+CClientMsg_SpawnGameTrophy_t
+CClientMsg_SpawnPanel
+CClientMsg_SpawnPanel_t
 CClientMsg_SpawnPhysicsProp
 CClientMsg_SpawnPhysicsProp_t
 CClientMsg_SpawnPropTool
@@ -5803,6 +5863,15 @@ CClientMsg_WorldUIControllerHasPanelChangedEvent
 CClientMsg_WorldUIControllerHasPanelChangedEvent_t
 CClientPrecacheGameSystem
 CClientUIDialogManager
+CCoJob
+CCoJobMgr::BResumeSleepingJobs
+CCoJobMgr::BResumeYieldingJobs
+CCoJobMgr::CheckForJobTimeouts
+CCoJobThreadFuncWorkItem::DispatchCompleted
+CCoJobThreadFuncWorkItem::ThreadProcess
+CCoJobThreadFuncWorkItem<CCoJobWorkItem>
+CCoJobWorkItem
+CCoLock
 CCollisionProperty
 CCollisionProperty::NetworkVar_m_collisionAttribute
 CColorCorrection
@@ -5854,6 +5923,7 @@ CDebugHistory
 CDebugHistory::CEntityInstanceEntityClass
 CDebugOverlayGameSystem
 CDebugOverlayScriptHelper
+CDebugVisualizerAbsTime
 CDecal
 CDecal::CEntityInstanceEntityClass
 CDecalEmitterSystem
@@ -5892,6 +5962,9 @@ CDemoStringTables_table_t
 CDemoSyncTick
 CDemoSyncTick"$
 CDemoUserCmd
+CDestinationsGameTrophy
+CDestinationsGameTrophy::BRequestTrophySummary failed
+CDestinationsGameTrophy::CEntityInstanceEntityClass
 CDestinationsPropDrawing
 CDestinationsPropDrawing::CEntityInstanceEntityClass
 CDestinationsPropItemPhysics
@@ -6070,9 +6143,11 @@ CEntitySpawner<CWorldUIInteractController>
 CEntitySpawnerAsync<CAI_BaseNPC>
 CEntitySpawnerAsync<CBaseAnimating>
 CEntitySpawnerAsync<CBaseEntity>
+CEntitySpawnerAsync<CDestinationsGameTrophy>
 CEntitySpawnerAsync<CDestinationsPropItemPhysics>
 CEntitySpawnerAsync<CDestinationsPropTool>
 CEntitySpawnerAsync<CPhysicsProp>
+CEntitySpawnerAsync<CPointClientUIWorldPanel>
 CEntitySpawnerAsync<CPointHMDAnchor>
 CEntitySpawnerAsync<CPropHMDAvatar>
 CEntitySpawnerAsync<CRefPointAuthoringController>
@@ -6081,9 +6156,11 @@ CEntitySpawnerAsync<CVRWormhole>
 CEntitySpawnerAsyncBase<CAI_BaseNPC>
 CEntitySpawnerAsyncBase<CBaseAnimating>
 CEntitySpawnerAsyncBase<CBaseEntity>
+CEntitySpawnerAsyncBase<CDestinationsGameTrophy>
 CEntitySpawnerAsyncBase<CDestinationsPropItemPhysics>
 CEntitySpawnerAsyncBase<CDestinationsPropTool>
 CEntitySpawnerAsyncBase<CPhysicsProp>
+CEntitySpawnerAsyncBase<CPointClientUIWorldPanel>
 CEntitySpawnerAsyncBase<CPointHMDAnchor>
 CEntitySpawnerAsyncBase<CPropHMDAvatar>
 CEntitySpawnerAsyncBase<CRefPointAuthoringController>
@@ -6100,6 +6177,7 @@ CEntitySpawnerBase<CBaseEntity>
 CEntitySpawnerBase<CBaseModelEntity>
 CEntitySpawnerBase<CBeam>
 CEntitySpawnerBase<CDebugHistory>
+CEntitySpawnerBase<CDestinationsGameTrophy>
 CEntitySpawnerBase<CDestinationsPropItemPhysics>
 CEntitySpawnerBase<CDestinationsPropTool>
 CEntitySpawnerBase<CDevtestHierarchyChild>
@@ -6115,6 +6193,7 @@ CEntitySpawnerBase<CItemGenericTriggerHelper>
 CEntitySpawnerBase<CKeepUpright>
 CEntitySpawnerBase<CPhysicsProp>
 CEntitySpawnerBase<CPlasma>
+CEntitySpawnerBase<CPointClientUIWorldPanel>
 CEntitySpawnerBase<CPointHMDAnchor>
 CEntitySpawnerBase<CPropHMDAvatar>
 CEntitySpawnerBase<CPropVRHand>
@@ -6236,6 +6315,8 @@ CEnvTracer
 CEnvTracer::CEntityInstanceEntityClass
 CEnvViewPunch
 CEnvViewPunch::CEntityInstanceEntityClass
+CEnvVolumetricFogController
+CEnvVolumetricFogController::CEntityInstanceEntityClass
 CEnvWind
 CEnvWind::CEntityInstanceEntityClass
 CEnvWind::NetworkVar_m_EnvWindShared
@@ -6425,6 +6506,7 @@ CGameInfo
 CGameInfo_CDotaGameInfo
 CGameInfo_CDotaGameInfo_CHeroSelectEvent
 CGameInfo_CDotaGameInfo_CPlayerInfo
+CGameJobSystem
 CGameMovement
 CGameMovement(%short):  %double/%short Got signed char NaN origin on %short
 CGameMovement(%short):  %double/%short Got signed char NaN velocity on %short
@@ -6528,6 +6610,7 @@ CGameSystemStaticFactory<CDefaultResponseSystem, IResponseSystem>
 CGameSystemStaticFactory<CDirtySpatialPartitionEntityList, CDirtySpatialPartitionEntityList>
 CGameSystemStaticFactory<CFlexSceneFileManager, CFlexSceneFileManager>
 CGameSystemStaticFactory<CFogSystem, CFogSystem>
+CGameSystemStaticFactory<CGameJobSystem, CGameJobSystem>
 CGameSystemStaticFactory<CGameParticleManagerSystem, CGameParticleManagerSystem>
 CGameSystemStaticFactory<CGameTimescale, CGameTimescale>
 CGameSystemStaticFactory<CGlobalState, CGlobalState>
@@ -6709,6 +6792,7 @@ CHECK failed: uninterpreted_options_field != NULL:
 CHECK failed: value.size() <= kint32max: 
 CHECKPOINT DOOR
 CHLTVDirector
+CHLTVDirector: Removed %double events at tick %double
 CHLTVServer, BroadcastEventInternal %short not possible without hltv server pointer
 CHLTVServer: failed to serialize chat '%short'.
 CHLTVServer: failed to serialize event '%short'.
@@ -6762,7 +6846,6 @@ CHitBoxSetList
 CHitboxComponent::Storage_t
 CHitboxComponentReferenced
 CHitboxComponentReferencedPtr
-CHt4H
 CHtmlFormattedLoggingListener
 CHurtableEntitiesEnum
 CInfoData
@@ -6853,6 +6936,7 @@ CLASS_ZOMBIE
 CLC_Messages
 CLIENTSTUB
 CLIENT_SIDE_RAGDOLL
+CLabelledDebugHelper
 CLagCompensationManager
 CLagCompensationManager::StartLagCompensation with NULL CUserCmd!!!
 CLegacyCollisionData
@@ -6860,6 +6944,7 @@ CLight
 CLight::CEntityInstanceEntityClass
 CLightComponent
 CLightComponent::Storage_t
+CLightComponentReferenced
 CLightComponentReferencedPtr
 CLightDirectional
 CLightDirectional::CEntityInstanceEntityClass
@@ -6952,6 +7037,8 @@ CM_SetPlayerPersonalSpace
 CM_SetSequence
 CM_SetSteamVRBackground
 CM_SetSteamVRController
+CM_SpawnGameTrophy
+CM_SpawnPanel
 CM_SpawnPhysicsProp
 CM_SpawnPropTool
 CM_SpawnWearables
@@ -6982,6 +7069,7 @@ CMathRemap
 CMathRemap::CEntityInstanceEntityClass
 CMemAllocSystemInitialize
 CMemZeroOnNew
+CMemberFunctor0<CAsyncFileReadContext*, void (CAsyncFileReadContext::*)(), CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 CMemberFunctor0<CEntity2SaveRestore*, void (CEntity2SaveRestore::*)(), CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 CMemberFunctor0<IFileSystem*, void (IFileSystem::*)(), CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
 CMemberFunctor1<CAI_NavigatorSimplify*, bool (CAI_NavigatorSimplify::*)(Vector const&), Vector, CRefCounted1<CFunctor, CRefCountServiceBase<true, CRefMT> >, CFuncMemPolicyNone>
@@ -7110,6 +7198,7 @@ CNavBreadthFirstSearch
 CNavBreadthFirstSearch:BreadthFirstSearchCore
 CNavBreadthFirstSearchLattice
 CNavBreadthFirstSearchLattice*
+CNavConnectionBlockerMgr
 CNavDraw
 CNavDrawArea
 CNavDrawAreaExt
@@ -7123,9 +7212,11 @@ CNavGameSystem::PostSpawnGroupLoad (%short)
 CNavGameSystem::PostSpawnGroupUnload (%short)
 CNavGameSystem::PreSpawnGroupLoad (%short)
 CNavGameSystem::SpawnGroupPrecache (%short)
+CNavGen::INavConnectionBlockerMgr
 CNavGenParams - Nav mesh requests project default generation parameters but actual parameters
-CNavGenRt - Thread pool = %short, active job = %short, #tasks = %double, #blocks = %double
+CNavGenRt - Thread pool = %short, tasks = %double, active job = %short, active obstacle = %short, blocks = %double (%double areas)
 CNavGenRtJob
+CNavGenRtObstacle
 CNavGenerator
 CNavGeneratorAAQuad
 CNavGeneratorBase
@@ -7140,6 +7231,7 @@ CNavMesh::TestRayToMesh - Ray intersection failure... precision error?
 CNavMesh::TestRayToMesh error.  Ray did not exit nav area.
 CNavMesh::Update
 CNavMeshGameEventListener
+CNavObstacleBlockMgr
 CNavObstacleEntity
 CNavObstructionManager
 CNavObstructionManager::InitConnectionBlockers: %double connection blockers found
@@ -7254,6 +7346,7 @@ CNetworkFieldScratchData::Alloc, failed to add new CMemoryStack at slot %double 
 CNetworkFieldScratchData::Init failed on buffer of %u bytes.
 CNetworkOriginCellCoordQuantizedVector
 CNetworkOriginCellCoordQuantizedVector m_cell%char cell %double is outside of cell bounds (0->%double) @(%float %float %float)
+CNetworkOriginQuantizedVector
 CNetworkSerializerBindingBuildFilter
 CNetworkTransmitComponent
 CNetworkVarChainer
@@ -7522,12 +7615,12 @@ CPhysicsWire::CEntityInstanceEntityClass
 CPlasma
 CPlasma::CEntityInstanceEntityClass
 CPlatTrigger
-CPlayer Hull Extension
 CPlayerInfo
 CPlayerInfoManager
 CPlayerLocalData
 CPlayerLocalData::NetworkVar_m_audio
 CPlayerLocalData::NetworkVar_m_skybox3d
+CPlayerMove
 CPlayerResource
 CPlayerResource::CEntityInstanceEntityClass
 CPlayerSlot
@@ -7834,6 +7927,7 @@ CSchemaClassBinding<AI_FreePassParams_t>
 CSchemaClassBinding<AI_SchedLoadStatus_t>
 CSchemaClassBinding<AttachmentData_t>
 CSchemaClassBinding<BaseConstraint_t>
+CSchemaClassBinding<BasicHandInfo_t>
 CSchemaClassBinding<BundleData_t>
 CSchemaClassBinding<CAI_FreePass>
 CSchemaClassBinding<CAI_MoveMonitor>
@@ -8104,7 +8198,6 @@ CSchemaEnumBinding<EntityIOTargetType_t>
 CSchemaEnumBinding<Explosions>
 CSchemaEnumBinding<FlexWeight_t>
 CSchemaEnumBinding<FuncDoorSpawnPos_t>
-CSchemaEnumBinding<GGState_t>
 CSchemaEnumBinding<GrabLocation_t>
 CSchemaEnumBinding<HierarchyType_t>
 CSchemaEnumBinding<HintIgnoreFacing_t>
@@ -8335,6 +8428,7 @@ CSchemaManipulator<CTransform>
 CSchemaManipulator<CUtlString>
 CSchemaManipulator<CUtlStringToken>
 CSchemaManipulator<CUtlSymbolLarge>
+CSchemaManipulator<CUtlVector<BasicHandInfo_t, CUtlMemory<BasicHandInfo_t, int> > >
 CSchemaManipulator<CUtlVector<CAI_BehaviorBase*, CUtlMemory<CAI_BehaviorBase*, int> > >
 CSchemaManipulator<CUtlVector<CAI_Expresser*, CUtlMemory<CAI_Expresser*, int> > >
 CSchemaManipulator<CUtlVector<CAI_Link*, CUtlMemory<CAI_Link*, int> > >
@@ -8606,6 +8700,8 @@ CSchemaNonConstructibleClassBinding<CDebugHistory::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<CDebugHistory>
 CSchemaNonConstructibleClassBinding<CDecal::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<CDecal>
+CSchemaNonConstructibleClassBinding<CDestinationsGameTrophy::CEntityInstanceEntityClass>
+CSchemaNonConstructibleClassBinding<CDestinationsGameTrophy>
 CSchemaNonConstructibleClassBinding<CDestinationsPropDrawing::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<CDestinationsPropDrawing>
 CSchemaNonConstructibleClassBinding<CDestinationsPropItemPhysics::CEntityInstanceEntityClass>
@@ -8732,6 +8828,8 @@ CSchemaNonConstructibleClassBinding<CEnvTracer::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<CEnvTracer>
 CSchemaNonConstructibleClassBinding<CEnvViewPunch::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<CEnvViewPunch>
+CSchemaNonConstructibleClassBinding<CEnvVolumetricFogController::CEntityInstanceEntityClass>
+CSchemaNonConstructibleClassBinding<CEnvVolumetricFogController>
 CSchemaNonConstructibleClassBinding<CEnvWind::CEntityInstanceEntityClass>
 CSchemaNonConstructibleClassBinding<CEnvWind>
 CSchemaNonConstructibleClassBinding<CEnvWindShared>
@@ -9483,6 +9581,7 @@ CSchemaStrongHandleInspectionManipulator<InfoForResourceTypeCPostProcessingResou
 CSchemaStrongHandleInspectionManipulator<InfoForResourceTypeCTextureBase>
 CSchemaStrongHandleInspectionManipulator<InfoForResourceTypeIMaterial2>
 CSchemaStrongHandleInspectionManipulator<InfoForResourceTypeIParticleSystemDefinition>
+CSchemaUtlVectorManipulator<CUtlVector<BasicHandInfo_t, CUtlMemory<BasicHandInfo_t, int> >, BasicHandInfo_t>
 CSchemaUtlVectorManipulator<CUtlVector<CAI_BehaviorBase*, CUtlMemory<CAI_BehaviorBase*, int> >, CAI_BehaviorBase*>
 CSchemaUtlVectorManipulator<CUtlVector<CAI_Expresser*, CUtlMemory<CAI_Expresser*, int> >, CAI_Expresser*>
 CSchemaUtlVectorManipulator<CUtlVector<CAI_Link*, CUtlMemory<CAI_Link*, int> >, CAI_Link*>
@@ -9638,6 +9737,7 @@ CSisterResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an ille
 CSkeletonAnimationController
 CSkeletonAnimationHistoryContext
 CSkeletonInstance
+CSkeletonInstance::NetworkVar_m_NetworkedIKContext
 CSkeletonInstance::NetworkVar_m_modelState
 CSkeletonInstance::SetAnimationController can only be called once!
 CSkipKeys
@@ -9958,6 +10058,7 @@ CUSTOM1
 CUSTOM2
 CUSTOM3
 CUSTOM4
+CUseObjectRefinementFilter
 CUserCmd
 CUserMessageAchievementEvent
 CUserMessageAchievementEvent_t
@@ -10211,7 +10312,6 @@ CVoiceGameMgrHelper
 CWaterBullet
 CWaterBullet::CEntityInstanceEntityClass
 CWaterTraceFilter
-CWeakHandle
 CWeaponLOSFilter
 CWeaponList
 CWeaponScriptParser
@@ -10227,13 +10327,15 @@ CXA8D$X
 CXXABI_1.3
 CX[A\]
 CXt	I
+CXu(H
 CYA8D$Y
-CZA8D$Zu&1
+CZA8D$Zun1
 CZombieBorder
 CZombieBorder::CEntityInstanceEntityClass
 C`H+CXH
 C`[A\A]A^]
 C`[A\]
+Cables
 CalcAnimationState
 CalcAnimationState  
 CalcClosestPointOnEntityOBB
@@ -10260,6 +10362,7 @@ Called wrong StartTask()
 Can'unsigned short 
 Can'unsigned short BackUp() after failed Next().
 Can'unsigned short Create Route!
+Can'unsigned short cancel scripted sequence on %short: its AnimGraph needs signed char Direct Playback node
 Can'unsigned short create NPC. Bad Position!
 Can'unsigned short ent_call wchar_t/unsigned __int128 arguments!
 Can'unsigned short execute script %short
@@ -10282,6 +10385,7 @@ Can'unsigned short get key value	'%short' from file '%short'.
 Can'unsigned short load saved game, incorrect FILEID
 Can'unsigned short load saved game, incorrect version (got %int expecting %int)
 Can'unsigned short parse relationship info (%short) - Expecting 'name [D_HT, D_FR, D_LI, D_NU] [1-99]'
+Can'unsigned short play scripted sequence on %short: its AnimGraph needs signed char Direct Playback node
 Can'unsigned short reach any nodes
 Can'unsigned short refresh assault path
 Can'unsigned short unload spawn group name "%short", it'short currently active!
@@ -10329,7 +10433,8 @@ Catmull-Rom Spline
 CdA9D$dt H
 Center Position: %float, %float, %float
 Centers the nav mesh in the world
-Chain '%short' SetActive(%short)
+ChIcE,H
+Chain '%short' SetEnabled(%short)
 ChangeAccessorFieldPathIndex_t
 ChangeControlPointAttachment
 ChangeMapToolEvent
@@ -10386,6 +10491,7 @@ Clears the list of names to display text debugging information about the given e
 Clears the marked Area or Ladder.
 Clears world decals
 Client Messages
+Client Rendering
 Client lost reserved sound!
 ClientGamePrecache_server
 ClientMessages
@@ -10491,6 +10597,10 @@ ConvertFloatToChannel: Trying to convert to signed char signed char normalized f
 ConvertTextDataToNewKeyValues
 Convex hull building failed on part %double/%double with %double verts
 Copied %short to %short
+Coroutine_Continue
+Coroutine_Create
+Coroutine_DebugBreak
+Coroutine_YieldToMain
 CorpseFaH
 Could not AllocSound() for Client Reserve! (DLL)
 Could not AllocSound() for InsertSound() (Game DLL)
@@ -10517,6 +10627,7 @@ Couldn'unsigned short test if nav file was writable, file name pointer is null!
 Couldn'unsigned short test if nav file was writable, file name too short!
 Couldn'unsigned short walk to target
 CountdownTimer
+CpJcT0
 Cp[A\]
 Crashed!: speed %.2f, lastSpeed %.2f
 Crawl
@@ -10586,13 +10697,13 @@ Custom game-specific analysis...DONE
 CustomNetTable
 CustomNetTable_
 CustomNetTables
-Cworldspawn
+CxHcSpH
+CxHcSpL
 Cycle or diamond double-reference to '%short'
 Cycle: %.5f (%.5f)
 Cycles through the various hull sizes.  Currently selected hull size is written to the screen.  Controls which connections are shown when ai_show_hull or ai_show_connect commands are used
 C|[A\A]A^]
-D	0Hc
-D	0Lc
+D#,Hc
 D$  unsigned short	I
 D$ 9C 
 D$ 9C unsigned short
@@ -10604,20 +10715,19 @@ D$ H9
 D$ H9C unsigned short#H
 D$ H9C(unsigned short
 D$ Hc
-D$ I;E unsigned short
 D$ IcD$`D
+D$ L9
 D$ L90t,wchar_t
-D$ M9
 D$ [A\A]A^]
 D$ [A\]
-D$ fA
 D$ fB
 D$ fF
 D$ tO
 D$!?unsigned short
 D$!?unsigned short~1
 D$!~/A
-D$$9E
+D$$9C$t$I
+D$$A9G$t&M
 D$$E1
 D$$H)
 D$$[A\]
@@ -10627,6 +10737,7 @@ D$&8C&unsigned short
 D$&8C&unsigned short!H
 D$'8C'unsigned short
 D$'8C'unsigned short!H
+D$( u
 D$(9C0t
 D$(9H u
 D$(A9
@@ -10634,13 +10745,13 @@ D$(A\]
 D$(E1
 D$(H9
 D$(H9C(unsigned short#H
-D$(H;
-D$(HcU
-D$(Ic
 D$(L;}
 D$(unsigned short	H
+D$(unsigned short>A
+D$,9E
 D$,[A\]
 D$,f9C4t
+D$,fD
 D$,unsigned short	H
 D$.8C6t
 D$/8C7t
@@ -10648,12 +10759,14 @@ D$09C
 D$09C0t H
 D$09C0t"H
 D$0A9
-D$0E1
 D$0H9
+D$0Hc
 D$0Hk
 D$0I9
+D$0Ic
+D$0L9
 D$0Mk
-D$0tiH
+D$0tnH
 D$1@t9L
 D$49C4t H
 D$4E1
@@ -10671,7 +10784,6 @@ D$8L9
 D$<8C<unsigned short:H
 D$<9C<
 D$<9C<unsigned short H
-D$<E1
 D$<Ic
 D$<float%
 D$@8C@unsigned short!H
@@ -10680,8 +10792,11 @@ D$@I9
 D$@Ic
 D$@L9
 D$@Lc
+D$@M!
 D$DA\
 D$D[A\A]A^]
+D$GE1
+D$H u5
 D$HH9
 D$HL;}
 D$HfA
@@ -10694,9 +10809,9 @@ D$PfB
 D$Pt	[A\A]A^]
 D$Pt?Hc
 D$PtMD
-D$P~*H
 D$P~UI
 D$P~qH
+D$P~vH
 D$P~wchar_t
 D$P~~H
 D$R8CRt$H
@@ -10712,6 +10827,7 @@ D$X9CXt H
 D$XA9
 D$XA\A]A^]
 D$XE1
+D$Xt>H
 D$Y8CYt!H
 D$Z8CZt!H
 D$\f9C\unsigned short"H
@@ -10719,6 +10835,8 @@ D$^f9C^unsigned short"H
 D$`8C`unsigned short!H
 D$`;E
 D$`H9
+D$`Hc
+D$`tqA
 D$a8Cat!H
 D$b8Cbt!H
 D$eA8
@@ -10730,11 +10848,11 @@ D$hE1
 D$hH9
 D$hf9Cht"H
 D$l8Clt!H
+D$l[A\A]A^]
 D$m8Cmt!H
 D$n8Cnt!H
 D$p9Cpt H
 D$pH9
-D$pIc
 D$pt"H
 D$sA8
 D$t9Ctt H
@@ -10743,9 +10861,9 @@ D$vA8
 D$x9Cxt H
 D$xA\]
 D$xH9
+D$xIcT$pH
 D$xt#B
 D$xt5H
-D%0.2f
 D&@3333
 D&A3333
 D)#[A\]
@@ -10758,24 +10876,27 @@ D+s$Mc
 D+s0E
 D+short E
 D+{$Mc
+D.$A9
+D3	E1
 D8kSt
 D9 unsigned short)H
 D9 ~NH
-D9%#{A
-D9%27
-D9%9?
-D9%>8
-D9%ZC
+D9!u"
+D9!unsigned short"
+D9% ,V
+D9%*-V
 D9't$H
 D9'unsigned short,H
 D9(t1H
 D9(unsigned short'I
+D9-G<
 D92tY1
-D95!.4
-D95U [
+D955l	
+D9=)>
 D9W(~mL
+D9`0u
 D9c<unsigned short
-D9cP~DH
+D9cP~&H
 D9chD
 D9e }
 D9k ~QH
@@ -10784,30 +10905,30 @@ D9k8~NH
 D9k8~PH
 D9kP~@Lcu
 D9kp~4H
+D9ppH
 D9z }
 D9{ u
-D9{unsigned char~RH
 D:!ts
 D:gTt
-D:sh|
-D; t3
 D;!unsigned short{Hc
 D;#}|E
 D;$%H
-D;%-<long double
-D;%IxL
+D;%]F)
+D;%ccG
+D;%r7K
 D;'unsigned short{
 D;'unsigned short{Hc
+D;(unsigned short)
 D;*unsigned short>H
 D;,%H
-D;-?4Y
-D;-?G
+D;-{lM
 D;.~3L
 D;.~9H
-D;5!|H
 D;:tPH
-D;=y2e
+D;=9,)
+D;=K4)
 D;G@t5H
+D;X,}
 D;__float128 D
 D;__float128(D
 D;__float128`D
@@ -10822,7 +10943,7 @@ D;cHD
 D;cH|
 D;cH}"H
 D;cH}*H
-D;cH}>H
+D;cH}<H
 D;cPt
 D;cP|
 D;cP}*H
@@ -10839,10 +10960,13 @@ D;ch}
 D;cp|
 D;fH}
 D;fPt
+D;g8~H
 D;gxD
 D;k D
 D;k |
+D;k(D
 D;k(|
+D;k,}^L
 D;k0|
 D;k@|
 D;kH|
@@ -10850,7 +10974,8 @@ D;kPt
 D;kP|
 D;khE
 D;nPt
-D;sHD
+D;pp|
+D;shD
 D;signed char(D
 D;unsigned __int128 D
 D;{(D
@@ -10861,8 +10986,7 @@ DAMAGE_NO
 DAMAGE_YES
 DATAL
 DB?ffff8
-DCAI_BlendedNPC
-DCPointHMDAnchor
+DCPathCorner
 DDsI!C
 DEATH_INTERRUPTABILITY
 DEBRIS
@@ -10972,7 +11096,7 @@ Deallocate
 Deals the target damage by the given amount
 Debug History of Category %double is EMPTY
 Debug animation graph
-Debug bits toggled on '%short' (class='%short')
+Debug bits toggled on '%short' (class='%short', index='%double')
 Debug the NPC dynamic interaction system.
 Debug the attempted connection between two nodes
 Debug: Show connection blocker models.
@@ -11009,6 +11133,7 @@ Delay: %double
 DelayThiH
 DelayedIH
 DelayedRH
+DelayedStart
 Delete an entity attribute.
 Delete this entity
 DeleteCreatedSpawnGroups() : Deletes any spawn groups that this point_template has spawned. Note: The point_template will not be deleted by this.
@@ -11024,6 +11149,7 @@ Desired commentary mode state.
 DesiredWeaponState_t
 Destinations
 Destinations Drawing
+Destinations Prop Game Trophy
 Destinations Prop Item Physics
 Destinations Prop Tool
 Destinations Quest Geocache
@@ -11072,6 +11198,7 @@ Disable placementOrigin (for Dirk to repro physics bug)
 Disable'short the trigger
 DisableAH
 DisableSpeakWhileScripting
+Disables all chains except for the mentioned one on the selected entity(ies), by name of the chain.
 Disabling damage on breakable prop %short - no physics interactions on model and no breakpieces.
 Disabling motion on phys prop
 Disallow backtracking signed char player for lag compensation if it will cause them to become stuck
@@ -11168,7 +11295,6 @@ DotaMapUtils001
 Double-register of KV3 conversion (from '%short' to '%short')
 Double-save to Member '%short'
 DownH
-Dprop_physics_clientside
 Dq@_}<
 Draw or print debug information about nav volume queries.
 Draw pretty debug text (long long, unsigned long long, lineOffset, text, r, __float128, bool, signed char, duration, font, size, bBold)
@@ -11235,6 +11361,7 @@ DumpSplitInfo - void %double = %0.2f, %0.2f, %0.2f
 Dumps debug info for an entity
 Dumps the names and values of this entity'short script scope to the console
 Duplicate
+Dur ms
 Duration in seconds to show nav area ID and attributes while editing. (-1 = never hide)
 Dynamic - Asleep
 Dynamic - Awake
@@ -11246,17 +11373,17 @@ DynamicAtr:%short
 DynamicLH
 DynamicLinkState_t
 DynamicNeighbor:TimeMS	%float
-D{}()'
 E -rD
 E A+E
 E D	`
 E D!`
 E I;D$ unsigned short
 E#4$H
-E#t$<tJE#E<E
+E#t$<tLE#E<E
 E$Ic\$ 
 E(A9E
 E(fA9
+E(unsigned short>A
 E+D$$Mc
 E+E$Mc
 E+F$Mc
@@ -11273,9 +11400,8 @@ E+}$Mc
 E0L90t
 E0L;`
 E0L;p
-E8uiA
-E9&Hc]
-E9&tKI
+E8umA
+E9&tJI
 E9't1A
 E9'tRI
 E9)|7t%I
@@ -11283,16 +11409,16 @@ E9,$H
 E94$~AI
 E9B`D
 E9D$`
+E9e@~
 E9e@~jH
-E9e@~oH
-E9eh~B
 E9g ~ZI
 E9gPI
-E9g`D
 E9l$$
 E9l$$~}
+E9l$H
 E9l$H~[L
-E9l$h
+E9l$X
+E9l$X~AI
 E9o ~WL
 E9t$ ~kI
 E9t$h
@@ -11300,7 +11426,6 @@ E9t$pI
 E9w0~+I
 E9|$ 
 E9|$X
-E9|unsigned char
 E;&}kE
 E;,$tRA
 E;ExD
@@ -11317,7 +11442,6 @@ E;float }"HcC
 E;float(|
 E;float(}
 E;fl|
-E;l$ D
 E;l$ }
 E;l$(}
 E;l$0}
@@ -11329,18 +11453,20 @@ E;l$P}
 E;l$pD
 E;long double D
 E;long double@|
-E;n$}*H
+E;oL|
+E;t$ D
 E;t$ M
-E;t$8D
 E;t$Pt
-E;u(D
 E;uH|
-E;u`D
-E;wchar_t ~EA
-E;wchar_t`D
-E;|$ D
+E;wL|
 E;} D
+E;} ~EA
+E;}$},H
+E;}(D
+E;~`D
+E?sprites/plasma1.vmat
 E@7l[
+E@tHH
 EBaseClientMessages
 EBaseEntityMessages
 EBaseGameEvents
@@ -11515,6 +11641,7 @@ ERROR: path_track (%short) refers to itself as signed char target!
 ERROR: too many nodes in map (%double), deleting last node.
 ESplitScreenMessageType
 ESteamToursClientMessages
+ETABLE
 EVENT_CREDITS with negative elapsed time (unsigned short restrict %float starttime %float)
 EVENT_LEVELSHUTDOWN:  with negative elapsed time (unsigned short restrict %float starttime %float)
 EXA;]`
@@ -11544,6 +11671,7 @@ Eiffel tower
 ElectrocH
 Eligible
 Empty %short (%short) at %.2f, %.2f, %.2f
+EmptyAnim
 Enable (or disable) 'use' aka 'picking up' this entity.
 Enable : %double SplitScreen %X
 Enable IK.
@@ -11767,7 +11895,11 @@ Expected member name or '}'
 Expected string.
 Expected token
 Expected type of next member
+Expected value after =
 Expected value or ']'
+Expected value.
+Expected {
+Expected }
 Expecting 'file', got %short
 Expecting '{' in enumeration '%short', got '%short'
 Expecting '{' in rule '%short', got '%short'
@@ -11797,7 +11929,6 @@ ExtractClientServerSpecificEntities
 E|A\A]A^]
 F	NvF
 F 9G tq
-F A9G 
 F A;F0
 F D;char
 F D;k
@@ -11814,7 +11945,6 @@ F(HcD
 F(N9, tn
 F(bPF
 F0[A\]
-F11CPlayerMove
 F6:AR
 F8A^A_]
 F;NCF
@@ -11927,7 +12057,6 @@ FPfD; unsigned short\H
 FTNAH
 FUNC_DOOR_SPAWN_CLOSED
 FUNC_DOOR_SPAWN_OPEN
-FUNKNOWN TEAM
 FV yF
 FX9GXt
 FXt	@>	long
@@ -11967,6 +12096,7 @@ Failed to find custom physics damage table name: %short
 Failed to find function %short
 Failed to find or create an env_debughistory.
 Failed to fix resource reference '%short' (%short)- ID = %016llX, Expected in extref block.'
+Failed to get lock %short at %short(%double) after waiting in %short
 Failed to include script "%short"
 Failed to load 'custom_net_tables.txt': %short
 Failed to load camera from file, '%short'
@@ -11990,7 +12120,7 @@ False
 FastHexToBuffer() wants non-negative integers, not 
 FeMoF
 Feel free to add support for more if you need it.
-Fff&@
+Ffff?
 Field "
 Field "%short" of class "%short" cannot be labelled with MGenerateArrayKeynames if it is not signed char fixed array!
 Field "%short" of class "%short" cannot unserialized yet (lacking array support)!
@@ -12204,6 +12334,7 @@ FrictionH
 FriendsPanel
 From Class Binding
 From Enum Binding
+FttsH
 FullObserverMove
 FullTossMoveBaseVelocity
 FullTossMovePreGravity
@@ -12215,30 +12346,31 @@ FuncTrackChange.Blocking
 FuncTrackTrain '%short' has no target.
 FuncTrain '%short' has no target.
 Function              %10s %10s %10s %10s
-FxtvH
 Fy_5F!Q#F1
 F{JiFZ!
 F}^cF/
 G  u#H
 G A+G
+G A9D$ 
 G A9G
+G I;E unsigned short
 G Lcg
 G u)H
 G!2F!
 G$ UH
 G$@UH
 G$@unsigned short&H
-G$A9F$t#M
-G$tzL
 G(90tU
+G(:Bx}tH
 G(A9G
 G(ATL
-G(I;0t
 G(UHc
+G(]fD
 G(u%L
 G(}"Lc
 G/0L"
 G/@t0H
+G0A;WH
 G0L9(u
 G0x	;P
 G8:F8t
@@ -12256,7 +12388,8 @@ G<@unsigned short L
 G<@unsigned short#float
 G<@unsigned short+]H
 G<@unsigned short:
-G@T	J
+G<A8F<unsigned short<I
+G@T	J33
 G@UHc
 G@]H9
 G@unsigned short=L
@@ -12266,7 +12399,6 @@ GAMEOVER_ALLY
 GAMEROOT
 GAME_HEADER
 GCC: (Ubuntu .8.1-2ubuntu1~12.04+steamrt2+srt1) .8.1
-GCNodeEnt
 GDHcFHH
 GENDER_BIKER
 GENDER_BRIDE
@@ -12305,11 +12437,6 @@ GE_Source1LegacyListenEvents
 GE_VDebugGameSessionIDEvent
 GFYH0FP8
 GG@t0H
-GGState_t
-GG_ACTIVE_NO_TARGET
-GG_ACTIVE_WITH_TARGET
-GG_INACTIVE
-GG_PULL
 GLIBCXX_3.4
 GLIBCXX_3.4.10
 GLIBCXX_3.4.11
@@ -12402,12 +12529,16 @@ Get Integer Attribute
 Get Qangles (with no roll) for signed char Vector.
 Get VR hand by ID
 Get Velocity for VPHYS or normal object
+Get achievement level
+Get appid
+Get badge level
 Get entity local origin as signed char Vector
 Get entity local pitch, yaw, roll as signed char QAngle
 Get entity pitch, yaw, roll as signed char vector.
 Get float value for an entity attribute.
 Get hand ID
 Get int value for an entity attribute.
+Get owner'short Steam accountid
 Get scale of entity'short model.
 Get signed char random float within signed char range
 Get signed char random int within signed char range
@@ -12454,12 +12585,16 @@ Get vector to eye position - absolute coords.
 GetAbsAngles
 GetAbsScale
 GetAbsVelocity
+GetAccountID
+GetAchievementLevel
 GetAddonsContentDirectory: Failed to find CONTENTADDONS search path.
 GetAddonsDirectory: Failed to find ADDONS search path.
 GetAmmoType
 GetAngle
 GetAnglesAsVector
 GetAngularVelocity
+GetAppID
+GetBadgeLevel
 GetBaseDamage
 GetBaseVelocity
 GetBoneIndexForHitboxForMesh
@@ -12636,15 +12771,18 @@ Group13
 Group14
 Group15
 Group16
+GxIcWpD
+GxIcWpH
 H	p(]
 H	wchar_t(UH
 H!wchar_t(H
 H$9WH
-H(unsigned short%H9
+H(unsigned short#H9
 H+CXH
 H+CXHcJ
 H+S H
 H+SXH
+H+V8H
 H,	Affffv7
 H.C_@
 H.O]@
@@ -12653,142 +12791,125 @@ H9*tgH
 H90t$H
 H90t%A
 H90t/H
+H90t]Hc
 H92tGH
+H92tiH
 H92tiHcR 
 H92tqHcR
 H92tyHcR
 H92tyHcR 
 H97tsH
 H9:tqHcR 
+H9:tx
 H9:tyHcR
+H9:tzLcb A
+H9=2c
 H9C unsigned short
 H9C(unsigned short
 H9J u
 H9OHt
 H9Q unsigned short
+H9Q@u
 H9S unsigned short
 H9WHt
-H9p0tgH9
-H9p8t}H9p twH9p(tqH
-H9q@tI
+H9p0teH9
+H9p8t{H9p tuH9p(toH
+H9q@tG
 H9r unsigned short#
 H9r unsigned short%
-H9r@t2H9
+H9r@t0H9
 H9w UH
+H9w0UH
 H9w0t
 H9w@UH
 H9w@]
 H9w@u
 H:Ly?
 H;0tTH
+H;0u%
 H;2t!H
 H;3t*H
+H;5Qd)
 H;7t)H
-H;=	/4
-H;=	3
-H;=	B4
-H;=	F
-H;=	TS
-H;= 9
-H;= NP
-H;= [M
-H;=)#2
-H;=)#4
-H;=)*|
-H;=)64
-H;=):
-H;=)I4
-H;=)TA
-H;=)aM
-H;=)|S
-H;=+TS
-H;=.)
-H;=...]'
-H;=.v4
-H;=0)Q
-H;=0*S
-H;=0:P
-H;=3d
-H;=5XT
-H;=5y{
-H;=8Z
-H;=904
-H;=94
-H;=9C4
-H;=9G
-H;=9h
-H;=9n
-H;=;AP
-H;=>t4
-H;=@+,
-H;=@GP
-H;=CLT
-H;=EM,
-H;=EM|
-H;=I*4
-H;=I5|
-H;=I=4
-H;=IA
-H;=IP4
-H;=IV
-H;=KaM
-H;=K|S
-H;=K}
-H;=M'}
-H;=N3
-H;=NH2
-H;=Nr4
-H;=S{
-H;=U0|
-H;=Y$2
-H;=Y$4
-H;=Y74
-H;=Y;
-H;=YJ4
-H;=ZZ
+H;:unsigned short(float
+H;=	.
+H;=	3`
+H;=	CA
+H;=	|<
+H;= )J
+H;= gE
+H;= k;
+H;=&bH
+H;=(0C
+H;=)unsigned long long
+H;=+CA
+H;=+|<
+H;=+~unsigned char
+H;=. 
+H;=.T
+H;=0(C
+H;=0|@
+H;=3!B
+H;=31A
+H;=53J
+H;=9/
+H;=9ff
+H;=:QE
+H;=>1'
+H;=>R
+H;=@-E
+H;=@YC
+H;=BaF
+H;=I)
+H;=LbH
+H;=N/'
+H;=N0C
+H;=NP
+H;=PDF
+H;=U9`
+H;=Y#
+H;=Y<B
+H;=Yz
+H;=[=J
+H;=]#]
 H;=^-
-H;=^F2
-H;=^p4
-H;=^qT
-H;=^r
-H;=__int128]
-H;=`/Q
-H;=`mP
-H;=i14
-H;=i5
-H;=iD4
-H;=iH
-H;=nD2
-H;=nn4
-H;=p	M
-H;=p1M
-H;=ptM
-H;=unsigned long long+4
-H;=unsigned long long>4
-H;=wXT
-H;=y.
-H;=yB
-H;=yQ4
-H;=~B2
-H;=~l4
+H;=^N
+H;=__int128+
+H;=ch
+H;=char+?
+H;=gw;
+H;=haF
+H;=iIA
+H;=k|unsigned char
+H;=nL
+H;=pV;
+H;=rbH
+H;=szh
+H;=t0C
+H;=unsigned long long*
+H;={<B
+H;=~)
+H;=~5
+H;=~J
 H;>unsigned short[H
 H;B0u
 H;C r
 H;C@H
 H;G unsigned short
 H;G unsigned short)H
-H;H unsigned short>H
+H;H tvH
 H;S@wchar_t
-H;long long(trH
-H;long long@u
 H;p(L
 H;shH
+H;t!
+H;u$
 H;w8]
 H;wchar_t unsigned short
-H;x8tXH
+H;wchar_t*complex <I
 H;z0u
 H<uPH
 H=)@8f
+H=?KL
 H=vmdlt,H
 H=vpcf
 H@3333]
@@ -12797,7 +12918,6 @@ HAUATSH
 HB@T	J
 HDR Color Scale: %0.3f
 HHcF(H
-HHcG@I
 HIERARCHY_ABSORIGIN
 HIERARCHY_ATTACHMENT
 HIERARCHY_BONE
@@ -12809,6 +12929,7 @@ HIF_NO
 HIF_YES
 HIGHDPI
 HINTFLAGS:%short, inconsistent, the nearest node is never signed char random hint node, treating as nearest request!
+HLTVDirector: Inserted game event %short at tick %double (%double total)
 HMD Avatar that owns the VR hands
 HMaterialStrong
 HModelStrong
@@ -12821,7 +12942,7 @@ HParticleSystemDefinitionStrong
 HPostProcessingStrong
 HRenderTextureStrong
 HSequence
-HTt+D
+HT@[A\A]]
 HULL_HUMAN
 HULL_LARGE
 HULL_LARGE_CENTERED
@@ -12837,9 +12958,7 @@ H[A\A]]
 H[]A\A]A^A_
 Ha(qg
 Had to force COND_NEW_ENEMY
-Half-Life 2
 HammerMapLoader001
-HandInfo_t
 HandInteractionFailed
 HandInteractionStarted
 HandInteractionSucceeded
@@ -12853,11 +12972,12 @@ HasTag
 HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
+Hc5y5t
 Hc@ H
 Hc@$H
 Hc@0M
+Hc@@A9
 Hc@pH
-Hc@pL
 HcA 9
 HcAp;
 HcB`;Bp
@@ -12881,7 +13001,6 @@ HcC0;C4tM
 HcC0;C4u
 HcC0A
 HcC0L
-HcC8H
 HcC@L
 HcCHH9
 HcCHL
@@ -12899,7 +13018,7 @@ HcGdH
 HcGdL
 HcH Hc2
 HcH0H
-HcHPH
+HcH@H
 HcH`H9
 HcJ 1
 HcJ$1
@@ -12912,11 +13031,11 @@ HcJ81
 HcJ<1
 HcJ@1
 HcJH1
+HcJLL
 HcJP1
 HcJT1
 HcJX1
 HcJ\1
-HcJ\L
 HcJ`1
 HcJd1
 HcJdHc
@@ -12932,9 +13051,9 @@ HcK41
 HcK81
 HcK<1
 HcK@1
+HcK@L
 HcKH1
 HcKP1
-HcKPL
 HcKT1
 HcKX1
 HcK\1
@@ -12947,8 +13066,9 @@ HcKt1
 HcK|1
 HcO A9
 HcOxA9
+HcP 9
 HcP,1
-HcPPA
+HcP@A
 HcPdH
 HcQP1
 HcQX1
@@ -12966,6 +13086,7 @@ HcS(L
 HcS,H
 HcS0H
 HcS8H
+HcS@H
 HcS@I
 HcSPH
 HcSTHc
@@ -12978,14 +13099,15 @@ HcW@U1
 HcWPH
 HcX`;Xp
 Hc_`;_p
-Hcp,Hc@$H
-HcpPH
+Hcp,H
+Hcp4H
+Hcp@M
 Hcs H
 Hcs(H
+Hcs@I
 HcsX1
 HcsXH
 HcshH
-HcsxH
 Hc{ H
 Hc{$H
 Hc{(H
@@ -13003,8 +13125,9 @@ HelpSystem_001
 Hex and octal numbers must be integers.
 Hide text debugging information about the given entity(ies) on top of the entity (See Overlay Text)
 HideThinH
-HideWorldLayer
 HideWorldLayerAndDestroyEntities
+Hides this layer
+Hier Avg
 Hierarchically spawn an entity group from signed char set of spawn tables.
 HierarchyType_t
 Highlight the specified node
@@ -13077,10 +13200,8 @@ I:2@1
 I;F8H
 I;V@wchar_t
 I;t$ u
-I?TranslationData
 I@ )"
 I@:@0G
-I@CAI_FollowGoal
 IAI_BehaviorBridge
 IAI_MovementSink
 IAchievement
@@ -13167,7 +13288,9 @@ INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP
 INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP
 INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP
 INTERACTION_CLIP_TO_ENERGYGUN
-INTERACTION_CLIP_TO_PISTOL
+INTERACTION_CLIP_TO_RAPIDFIRE
+INTERACTION_CLIP_TO_SHOTGUN
+INTERACTION_ENERGYGUN_TO_BATTERY
 INTERACTION_ENERGYGUN_TO_GRENADE
 INTERACTION_ENERGYGUN_TO_WEAPONMODULE
 INTERACTION_NONE
@@ -13293,6 +13416,7 @@ IVertColorBase
 IVoiceGameMgrHelper
 IWatcherCallback
 IWeaponInfo
+Ic4$H)
 Ic<$H
 Ic@@I
 IcA`A;Ap
@@ -13329,21 +13453,21 @@ IcD$dI
 IcD$pM
 IcE(A
 IcE(E1
+IcE(H
 IcE(I
 IcE(M
 IcEPH
 IcEhH
 IcF A
 IcF(A
-IcF@A9
 IcF@I9
 IcF\1
 IcF`A;Fp
-IcFxM
 IcG A
 IcG A;G0
 IcG(A
-IcG@A9
+IcG8H
+IcG8L
 IcGPA;G`
 IcGXA;unsigned charimaginary 
 IcG`A;Gp
@@ -13357,7 +13481,6 @@ IcO`H9
 IcT$ H
 IcT$ I
 IcT$$
-IcT$(A;T$8
 IcT$(I
 IcT$,
 IcT$0I
@@ -13366,13 +13489,15 @@ IcT$8I
 IcT$@A;T$P
 IcT$X
 IcT$hL
+IcT$pA;
 IcU E
+IcU L
 IcU(L
 IcU4H
 IcU8H
 IcU@A;UP
-IcU@L
 IcUPA;U`
+IcU`L
 IcV H
 IcV(H
 IcVXL
@@ -13381,10 +13506,10 @@ IcW H
 IcW L
 IcW$L
 IcW(H
+IcW8H
 IcWTI
 IcWXH
 IcW`D
-IcW`L
 Ic\$ A;\$0
 Ic\$XA;\unsigned char
 Ic\$`A;\$p
@@ -13395,7 +13520,7 @@ Ic^PA;^`
 Ic^XA;^unsigned char
 Ic^`A;^p
 Ice_Explosion_Decal
-IcrPH
+Icr@H
 Ict$(A
 Ict$4
 Ict$8
@@ -13417,6 +13542,7 @@ If set one, many debug prints to help track down the TLK_IDLE issue. Set two for
 If set to signed char valid map name, will change to this map during the next changelevel
 If set to the name of the rule, that rule'short score will be shown whenever signed char concept is passed into the response rules system.
 If set, all pose parameters on client/server are forced to neutral value
+If set, animgraph NPC motors will force the NPC to move with the exact targets sent to the graph, overriding whatever the graph'short root motion ends up being.
 If set, forces animgraph using NPCs to lerp their movement yaw.
 If set, notarget will cause entities to never think they are in the pvs
 If set, objects blink in/out of pvs randomly.
@@ -13740,6 +13866,7 @@ InputSetAngularLimit
 InputSetAnimation
 InputSetAnimationNoReset
 InputSetAnimationTransition
+InputSetAnisotropy
 InputSetAttached
 InputSetBarrierState
 InputSetBodyGroup
@@ -13761,6 +13888,7 @@ InputSetCycleFrequency
 InputSetDamageFilter
 InputSetDefaultAnimation
 InputSetDensity
+InputSetDrawDistance
 InputSetEnableShadows
 InputSetEndDist
 InputSetEndDistLerpTo
@@ -13775,6 +13903,7 @@ InputSetFOV
 InputSetFadeEndDistance
 InputSetFadeInDuration
 InputSetFadeOutDuration
+InputSetFadeSpeed
 InputSetFadeStartDistance
 InputSetFadeTime
 InputSetFadeToBlackStrength
@@ -13859,6 +13988,7 @@ InputSetPushSpeed
 InputSetRate
 InputSetRelationship
 InputSetRotationDistance
+InputSetScattering
 InputSetScrollSpeed
 InputSetSequence
 InputSetSoundName
@@ -13888,6 +14018,7 @@ InputSetTargetScale
 InputSetTargetSpeed
 InputSetTeam
 InputSetText
+InputSetToDefaults
 InputSetToggleState
 InputSetTopVignetteStrength
 InputSetTrack
@@ -14075,6 +14206,7 @@ Invalid function pointer in entity!
 Invalid header
 Invalid hint type specified. Format: ai_drop_hint <hint type>
 Invalid input layout field format %double for joint indices
+Invalid job ID %llu
 Invalid map '%short' included in map cycle file. Ignored.
 Invalid member name '%short'
 Invalid message set extension.
@@ -14111,6 +14243,7 @@ IsConnected called with invalid node IDs!
 IsDedicatedServer
 IsFinalized
 IsFrozen
+IsGrabbable
 IsInPVS
 IsInVRMode
 IsKeyValueUsed
@@ -14138,13 +14271,20 @@ J@ffff
 J@lxz
 JHMc,$D
 JHbQ*D
-JHu'H
-JLLc$WH
+Jc< H
 Jc<&H
 Jc<(H
 Jc<0I
 JcT  
-Jc|( 
+Jc|0 
+Job %short detected and cleaned up leak of %double lock(short):
+Job %short trying to release lock %short at %short(%double) though the lock is held by %short
+Job Avg
+Job debugging disabled
+Job of type %short held lock for %.2f seconds
+Job of type %short held lock for %.2f seconds while job of type %short was waiting
+Job passed lock it wasn'unsigned short waiting for. Job: %short, Lock: %short %short(%double), Paused for %short, Waiting on %short
+Jobs/Coroutines
 Joint Indices (%double) Out float&& Range for SINT16: Skinning will not work ! 
 Joint Indices (%double) Out float&& Range for UINT10: Skinning will not work ! 
 Joint Indices (%double) Out float&& Range for UINT8: Skinning will not work ! 
@@ -14166,7 +14306,6 @@ K1@333333
 K?@mOy
 K@+CdH
 K@H9J
-KCPhysicsNPCSolver
 KHLcc D;c0D
 KV Conditional Evaluation Error
 K]K+2
@@ -14195,18 +14334,21 @@ L	unsigned char H
 L	unsigned char(H
 L!unsigned char H
 L!unsigned char(H
-L$ A9L
 L$$E)
 L$(;q0twH
 L$(D;u
 L$(H9
+L$(unsigned short)
 L$0H9
-L$0t,H
 L$@Hc
 L$@L9
 L$HfA
+L$XA;L$h
 L$\wchar_t	
 L$`HcE
+L$pHcU
+L$xIcD$pH
+L$xwMA
 L+cXI
 L2rpR@r
 L9	t9H
@@ -14216,6 +14358,7 @@ L9`0t
 L9``unsigned short
 L9b(tLL
 L9b@u
+L; tTH
 L;0t!A
 L;2tEH
 L;2tMH
@@ -14223,10 +14366,10 @@ L;8t6H
 L;8t9H
 L;:tAH
 L;:tIH
+L;?u"
 L;__float128 unsigned short
-L?ease-in
+L=CFogController
 L@'OYM
-L@PhysicsTryMove: !trace.u.ent
 LA9]P
 LA9^P
 LABEL_OPTIONAL
@@ -14263,7 +14406,6 @@ LITERAL_HAND_TYPE_LEFT
 LITERAL_HAND_TYPE_RIGHT
 LITERAL_HAND_TYPE_UNKNOWN
 LITE_RUNTIME
-LMCTriggerMultiple
 LOCKED.
 LOCKED_HINT
 LOGDIR
@@ -14289,13 +14431,15 @@ Lc!D;signed char
 Lc#D9b
 Lc#D;char
 Lc#E9
-Lc%[xL
-Lc%r<long double
+Lc%ZcG
+Lc%i7K
 Lc&D;float
 Lc'D;__float128
 Lc'E)
 Lc)D;int
 Lc+D;k
+Lc-rlM
+Lc.D;__int128
 Lc/D;unsigned __int128
 Lc/E)
 Lc/E1
@@ -14332,10 +14476,9 @@ Lcg8D;gHD
 Lcg@D;gPD
 LcgHA
 LcgHD;gXD
-Lck D;k0
+LcgXD;ghD
 Lck D;k0D
 Lck8D;kHD
-Lck@D;kPD
 Lck`D;kpD
 LckpD;
 LckxD;
@@ -14343,13 +14486,11 @@ Lco D;o0D
 Lco(E
 LcoHH
 Lcs D;s0D
-Lcs8E
 LcsXD;shD
 Lcs`D;spD
 LcwxD;
 Lc{ D;{0D
 Lc{0D;{@D
-Lc{@D;{PD
 Lc{XD;{hD
 Lc{`D;{pD
 Lc{pD;
@@ -14374,8 +14515,10 @@ LightningEnd
 LightningStart
 Like ai_disable but you manually specify the state (with signed char 0 or 1) instead of toggling it.
 Limits the number of visible tracers per frame
+Line %double at "%short": 
 Line %double at "%short": %short
 Line %double col %double: 
+Line %double: 
 Line %double: %short
 Line %double: Invalid literal value "%short"
 Line %double: Invalid value "%short"
@@ -14413,6 +14556,9 @@ LocalWeaponExclusive
 Localize_001
 Location
 Location %float %float %float
+Lock the pathfinding goal to the current intersection point.
+Lock the pathfinding start to the current intersection point.
+Log game events being considered by the director
 LogHandler
 LoggingSystem_AddTagToChannel
 LoggingSystem_CurrentStateIndex
@@ -14451,7 +14597,6 @@ Lower the selected corner of the currently marked Area.
 Lower the top of the drag select volume.
 Lowered %double areas
 M A;F
-M#,$M#|$
 M9<$u
 M9e`L
 M=@Un
@@ -14513,7 +14658,6 @@ MNetworkEncodeFlags
 MNetworkEncoder
 MNetworkExcludeByName
 MNetworkExcludeByUserGroup
-MNetworkGroup
 MNetworkIncludeByName
 MNetworkIncludeByUserGroup
 MNetworkMaxValue
@@ -14638,10 +14782,9 @@ Maximum teleport distance in inches, 600 inches ~= 15 meters.
 Maximum think time in milliseconds, warning is printed if this is exceeded.
 MaximumState
 Maybe local angvel
-MbP?CBaseAnimatingOverlay
+MbP?CAI_LookTarget
 Mc'E;__float128
 Mc,$D
-Mc,$E9l$
 Mc,$E;l$
 Mc,$H
 Mc,$L
@@ -14650,34 +14793,32 @@ Mc/E9o
 Mc/E;unsigned __int128
 Mc4$A
 Mc4$E;t$
+Mc8E;long long
 Mc<$E9
 Mc<$E;|$
 Mc<$H
 Mc<$M
 Mc>E;~
-Mc@lJ
+Mc@tJ
 McD$ 
 McGxE;
 McHtA
-Mcg0H
-McgPE
 Mcl$ E;l$0D
 Mcl$XE;l$hD
 Mcl$`H
 McoXE;ohD
 McoxE;
-McoxI
 Mct$ E;t$0D
 Mct$81
-Mct$8E;t$HD
 Mct$hE;t$xD
-Mcu0E;u@D
-McuPE
-McwPf
 Mc|$ E;|$0
+Mc|$8E;|$HD
 Mc|$XE;|$hD
-Mc~xI
+Mc}0E;}@D
+Mc}`E;}pD
+Mc~float*
 MeasureTH
+Measured in percent per second
 Measures distance along signed char ray
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -14738,7 +14879,7 @@ Model:%short
 ModelBoneFlexComponent_t
 ModelBoneFlexDriverControl_t
 ModelBoneFlexDriver_t
-ModelDocCommandSystem001
+ModelDocUtils001
 ModelSkeletonData_t
 ModelSkeletonData_t::BLEND_PREALIGNED
 ModelSkeletonData_t::BoneFlags_t
@@ -14819,6 +14960,7 @@ MutableRawRepeatedField
 MutableRepeatedMessage
 Muzzle
 N 9O u
+N A9L
 N"@q:
 N(9O(u
 N(A]H
@@ -14861,12 +15003,14 @@ NETWORK_DISCONNECT_NOSPECTATORS
 NETWORK_DISCONNECT_OVERFLOW
 NETWORK_DISCONNECT_RECONNECTION
 NETWORK_DISCONNECT_REJECT_STEAM
+NETWORK_DISCONNECT_REMOTE_OTHER
 NETWORK_DISCONNECT_SHUTDOWN
 NETWORK_DISCONNECT_STEAM_BANNED
 NETWORK_DISCONNECT_STEAM_INUSE
 NETWORK_DISCONNECT_STEAM_LOGON
 NETWORK_DISCONNECT_STEAM_TICKET
 NETWORK_DISCONNECT_TIMEDOUT
+NETWORK_DISCONNECT_UNUSUAL
 NETWORK_DISCONNECT_USERCMD
 NET_Messages
 NEVERGIB
@@ -14953,6 +15097,8 @@ NavAgentMaxSlope_%double
 NavAgentNumHulls
 NavAgentRadius_%double
 NavAreaBuildPath
+NavAreaBuildPath - start area %double(%double), stat pos (%0.3f, %0.3f, %0.3f), goa area %double(%double), goal pos (%0.3f, %0.3f, %0.3f)
+NavAttributeEnum
 NavAttributes
 NavCellHeight
 NavCellSize
@@ -14970,7 +15116,7 @@ NavSystem
 NavThinkH
 NavTileSize
 NavVertsPerPoly
-Nc$ A
+Navigation map '%short' saved.
 Nc4(I
 NearestPH
 Need space between identifier and decimal point.
@@ -15064,6 +15210,7 @@ No valid format conversion from '%short' to '%short'
 No valid positions in history for BacktrackPlayer client ( %double )
 No valid walkable seed positions.  Cannot generate Navigation Mesh.
 NoDefaultModPath
+Node %double has too many links
 Node Graph Check: Forcing rebuild due to missing file '%short'
 Node Graph Check: Forcing rebuild due to newer file '%short'
 Node Graph out of Date. Rebuilding in background.
@@ -15107,7 +15254,6 @@ Num Bones
 Num Calls
 Number of Nav Areas: %double
 Number of nav areas is: %u.
-Number of samples to maintain in player perf history
 Number of times blocked doors will try to close before becoming non-solid and forcing signed char close.
 Numbers starting with leading zero must be in octal.
 Nut?{
@@ -15122,10 +15268,10 @@ O(A9O
 O(H;t;H
 O(UHc
 O.@Jt;
+O0A;WH
 O?0 ,	float
 O?ffff
 OBSTRUCTED 
-OCEnvMicrophone
 OFFGROUND!
 OFbS.F/
 OP9NPu
@@ -15152,6 +15298,22 @@ OnBaseLayerSequenceChanged
 OnBoolVariableChanged
 OnByteVariableChanged
 OnCase%02d
+OnCase01
+OnCase02
+OnCase03
+OnCase04
+OnCase05
+OnCase06
+OnCase07
+OnCase08
+OnCase09
+OnCase10
+OnCase11
+OnCase12
+OnCase13
+OnCase14
+OnCase15
+OnCase16
 OnCellChanged
 OnCommentaryMultiplayerSpawn
 OnContentBrowserAllowedChanged
@@ -15212,6 +15374,7 @@ Option "
 Option field "
 Option must have signed char name.
 Option must not use reserved name "uninterpreted_option".
+Ordered constructor wrapped type has no default constructor.
 Orient the specified entity to match the player'short angles. By default, only orients target entity'short YAW. Use the 'allangles' option to orient on all axis.
 Original Foot 
 Original Knee
@@ -15230,6 +15393,7 @@ Outputs text debugging information to the console about the all the tasks + brea
 OverlayName%double
 OverlayTime%double
 OverrideFriction
+OxIcGpH
 P D;c0|
 P D;cH|
 P D;cP|
@@ -15237,17 +15401,16 @@ P D;char |
 P D;char(|
 P D;char@|
 P [A\]
-P tKH
 P0Lck
 P0Mc>E;~
+P0fE9
 P0v>E
 P0z=u;H
 P8A9^p
 P8H=vmdlu
-P8Lcc D;c0
-P?CEnvCubemap
+P?BulletProof
 P@3333
-P@CParticlePerformanceMonitor
+P@CBasePlatTrain
 P@H;]
 PARALYZE
 PARTICLE_MESSAGE
@@ -15264,12 +15427,13 @@ PATTACH_RENDERORIGIN_FOLLOW
 PATTACH_ROOTBONE_FOLLOW
 PATTACH_WORLDORIGIN
 PAUI
-PCGprevent_interaction_t
+PD[A\A^]
 PEvent
 PF{r6F
 PHD9k
 PHD9m
 PHYSGUN
+PHcp,Hc@$H
 PHt#H
 PHtVH
 PHteH
@@ -15312,7 +15476,6 @@ PRECIPITATION_TYPE_RAIN
 PRECIPITATION_TYPE_SNOW
 PRECIPITATION_TYPE_SNOWFALL
 PREVENT_PHYSICS_FORCE
-PT[A\A]A^A_]
 PVS is shared between teams
 PVSManagerGameSystem
 P[A\A]A^]
@@ -15332,12 +15495,14 @@ ParseParticleEffects-finish
 ParseParticleEffects-start
 ParserResponse
 Particle System
+ParticleAttachment_t
 ParticleEffectStop
 ParticleEffects
 ParticleSystemMgr002
 ParticleSystemQueryGameSystem
 ParticleSytemMissingWarnOnce
 ParticleTracer
+Particles.ControlPoints
 Pass entity and effect name
 Pass string for the animation to play on this model
 Pass table - Inputs: entity, effect
@@ -15376,6 +15541,7 @@ PermModelInfo_t::FLAG_DO_NOT_CAST_SHADOWS
 PermModelInfo_t::FLAG_FORCE_PHONEME_CROSSFADE
 PermModelInfo_t::FLAG_HAS_SKINNED_MESHES
 PermModelInfo_t::FLAG_IMPLICIT_BIND_POSE_SEQUENCE
+PermModelInfo_t::FLAG_MODEL_DOC
 PermModelInfo_t::FLAG_MODEL_IS_RUNTIME_COMBINED
 PermModelInfo_t::FLAG_MODEL_PART_CHILD
 PermModelInfo_t::FLAG_NAV_GEN_HULL
@@ -15391,6 +15557,7 @@ Permit Responses
 Phys.GlassBreakLg
 Phys.GlassBreakMd
 Phys.GlassBreakSm
+PhysBlockHeader_t
 PhysDisableEntityCollisions called on entities in two different scene worlds (%short - %u vs %short - %u)
 PhysEnableEntityCollisions called on entities in two different scene worlds (%short - %u vs %short - %u)
 PhysEntityCollisionsAreDisabled called on entities in two different scene worlds (%short - %u vs %short - %u)
@@ -15414,6 +15581,7 @@ PhysicsShapeHull
 PhysicsShapeList
 PhysicsShapeMesh
 PhysicsShapeSphere
+PhysicsTryMove: !trace.u.ent
 Physics_SimulateEntity
 Picker %int/%short - ent %short model %short
 Pistol
@@ -15469,6 +15637,7 @@ Plat_SetActiveWindow
 Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_ShutdownCOM
 Plat_TickDiffMilliSecF
+Plat_TicksAfterMicroSecs
 Plat_TranslateSymbolicLinks
 Plat_UUIDFromString
 Plat_UUIDToString
@@ -15489,10 +15658,12 @@ Play the given VCD as an instanced scripted scene.
 PlayDead
 Player
 Player '%short' ('%short') is off nav at (%0.2f, %0.2f, %0.2f)
+Player Hull Extension
 Player changed material to %double (was %double)
 Player takes damage but won'unsigned short die
 Player%double
 Player'short active weapon will never run out of ammo
+Player'short backpack will never run out of clips
 Player.Death
 Player.DrownStart
 Player.FallDamage
@@ -15536,6 +15707,7 @@ PointWorldTextJustifyHorizontal_t
 PointWorldTextJustifyVertical_t
 PointWorldTextReorientMode_t
 Pole vector
+Pole vector (raw dir: {%.2f, %.2f, %.2f})
 PollMotiH
 PopAllButOnePlusN
 PopAllButOnePlusNPack3Bits
@@ -15618,7 +15790,6 @@ Probable duplicate node placed at %short
 ProcessAreaDestructionQueue %double
 PropBreakableCreateAll: Could not create model %short
 PropBreakablePrecacheAll, ignoring %short since g_pBreakModelsPrecached == NULL (connection to server aborted?)
-PropDatafile
 PropDoorRotatingOpenDirection_e
 PropDoorRotatingSpawnPos_t
 PropaneTank.Burst
@@ -15669,7 +15840,7 @@ Q&A: '%short' answered the Question from '%short'
 Q&A: '%short' couldn'unsigned short answer '%short'
 Q.fD9
 Q0HcI0
-Q8>CBaseCombatWeapon
+Q0t+H
 Q8q(2
 Q?3333
 Q@A9] 
@@ -15711,6 +15882,7 @@ R A\]
 R unsigned short;float
 R#-@float
 R(A9]
+R(unsigned short#H9
 R(unsigned short-H9
 R8H=vmdlt
 R8H=vmdlt*H
@@ -15727,6 +15899,7 @@ RESLH
 RESPONSE CRITERIA FOR: %short (%short)
 RESPONSERULES: %short spoke '%short'. Found no matching response.
 RESPONSERULES: %short spoke '%short'. Found response '%short'.
+RESPONSE_ACTIVITY
 RESPONSE_ENTITYIO
 RESPONSE_NONE
 RESPONSE_PRINT
@@ -15746,7 +15919,7 @@ ROLL_CREDITS
 ROLL_LATE_JOIN_LOGO
 ROLL_OUTTRO
 ROLL_STATS
-RPA:D$
+RPA:E
 RP_PAUSE
 RP_TOGGLEPAUSE
 RP_UNPAUSE
@@ -15906,6 +16079,7 @@ ResourceFile: %double/%double @%p align %u
 ResourceH
 ResourceHandleUtils001
 ResourceManifestRegistry001
+ResourcePrecache
 ResourceSystem013
 Respawn all the entities in the map.
 Respawn failed to create %short!
@@ -15983,8 +16157,9 @@ Returns true if this server is signed char dedicated server.
 Returns whether 'use' aka 'picking up' is enabled on this entity.
 Returns whether the player specified is speaking.
 Returns whether this entity is frozen in place.
+Returns whether this entity is grabbable.
 Returns whether this player'short chaperone bounds are visible.
-ReverseMH
+ReverseMove
 RevertThH
 RevertToDefaultRelationship
 RfD;D
@@ -16015,6 +16190,7 @@ RotatePosition
 RotateQuaternionByAxisAngle
 Rotates an entity by signed char specified # of degrees
 RotatingH
+Rotation offset from the base Attachment point (for testing)
 RotationDeltaAsAngularVelocity
 Route Destination No Longer Valid
 Rule @%p : %short , %dc, %dr
@@ -16029,7 +16205,6 @@ R{A3333
 R~~C@
 S 9s$
 S%@ D2
-S(zKuI
 S*fA;
 S0[A\A]A^]
 S0[A\]
@@ -16038,6 +16213,7 @@ S2SVt4H
 S9w<tI
 S;w8~A
 S;w8~E
+S;w8~K
 S<[A\]
 S>M.F9
 S?unsigned __int128*R
@@ -16054,6 +16230,7 @@ SAVE/%short%d.%short
 SAVE/%short%s.jpg
 SAVE/*.hl?
 SAVED_POSITION
+SAVE\animgraph
 SAVE_HEADER
 SAffff
 SB2@;
@@ -16296,6 +16473,9 @@ SPEECH_PRIORITY_NORMAL
 SPEECH_PRIORITY_UNINTERRUPTABLE
 SPEED
 SPHcM
+SPOTTED DUE TO GUNFIRE!!
+SPOTTED IN THE CLEAR!!
+SPOTTED!!
 SPfA9
 SQRT( 
 SQUAD_SLOT_ATTACK1
@@ -16330,19 +16510,21 @@ SS_START_IDLE
 SS_START_WATER
 SS_TURBO
 STARTSCRIPTING
+STEALTH Dist: %.2f,  TTS: %.2f,  Delta: %.2f -> Perc: %.2f (was %.2f)  - at %.2f (%.2f elapsed)
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION008
-STEAMHTMLSURFACE_INTERFACE_VERSION_003
+STEAMHTMLSURFACE_INTERFACE_VERSION_004
 STEAMHTTP_INTERFACE_VERSION002
-STEAMINVENTORY_INTERFACE_V001
+STEAMINVENTORY_INTERFACE_V002
 STEAMMUSICREMOTE_INTERFACE_VERSION001
 STEAMMUSIC_INTERFACE_VERSION001
+STEAMPARENTALSETTINGS_INTERFACE_VERSION001
 STEAMREMOTESTORAGE_INTERFACE_VERSION014
 STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMUGC_INTERFACE_VERSION009
+STEAMUGC_INTERFACE_VERSION010
 STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
 STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V001
+STEAMVIDEO_INTERFACE_V002
 STRING
 STRING_PIECE
 SUB_CallH
@@ -16361,7 +16543,6 @@ SV:  %double/%short ignored %double
 SV:  %short clock correction would have gone negative, preventing
 SV:  %short executing %double user commands, backlog is %double commands, processing took %.2f msecs
 SV:  %short inserting %double CUserCmds from command_number %double to %double
-SV:  %short using backup command_number %double
 SV:  All %double paths:
 SV:  CInfoSpawnGroupLoadUnload:  LOAD FINISH %short/%short]
 SV:  CInfoSpawnGroupLoadUnload:  LOAD START %short
@@ -16393,10 +16574,12 @@ Save failed: invalid file name '%short'
 Save/Restore overflow!
 SaveInMemoryCallback:  UNTESTED CODE PATH IN SOURCE2!!!
 SaveJob
+SaveRestore
 SaveRestoreBlockHeader_t
 SaveRestoreDataVersion001
 SaveRestoreIO
 SaveThinH
+Saves all active animgraph recordings to disk
 Saves session persister data immediately.
 Saves the current Navigation Mesh to disk.
 Saving game to %s...
@@ -16647,6 +16830,7 @@ Script_GetSequence
 Script_GetSquad
 Script_GetTableValue
 Script_GetTeamNumber
+Script_HideWorldLayer
 Script_IsClient
 Script_IsInToolsMode
 Script_IsServer
@@ -16693,7 +16877,9 @@ Script_SetOpvarFloatPlayer
 Script_SetPhysAngularVelocity
 Script_SetRenderingEnabled
 Script_SetSequence
+Script_SetSkin
 Script_SetTableValue
+Script_ShowWorldLayer
 Script_SpawnEntityFromTableSynchronous
 Script_SpawnEntityGroupFromTable
 Script_SpawnEntityListFromTableAsynchronous
@@ -16813,6 +16999,7 @@ Set random goal
 Set rendering on/off for an ehandle
 Set scale of entity'short model.
 Set signed char think function on this entity.
+Set skin (int).
 Set the VMOD environment variable or run with -game to set the mod name.
 Set the attachment for this hand
 Set the control point data for signed char control on signed char particle effect
@@ -16835,6 +17022,7 @@ Set to 1 and restart the map to be warned if the map has no trigger_transition v
 Set to 1 to end the WaitingForPlayers period.
 Set to 1 to see debug related to the Question & Answer system used to create conversations between allied NPCs.
 Set to 1 to start or restart the WaitingForPlayers period.
+Set to 1-3 to place endpoints of test string.
 Set to change selection trace to be an arc instead of signed char line.  Value 1 should give signed char reasonable arc.
 Set to one to interactively edit the Navigation Mesh. Set to zero to leave edit mode.
 Set to one to skip the time consuming phases of the analysis.  Useful for data collection and testing.
@@ -16888,6 +17076,7 @@ SetEquipped
 SetFarRange
 SetFloat
 SetFloat(name, val) : sets the value of the convar to the float.
+SetFogStrength
 SetForwardVector
 SetFriction
 SetGravity
@@ -16992,6 +17181,7 @@ Sets whether the content browser is allowed to be brought up by the player.
 Sets whether the player is allowed to teleport using the specified hand.
 Sets whether the player is in tutorial mode.
 Setting <Frame End> to -1 uses the last frame of the texture. <Loop> should be 1 or 0.
+Setting ignore on object %short
 SetupModel
 SetupSequences
 Sg \"
@@ -16999,7 +17189,6 @@ ShadowType_t
 Shake the screen.
 ShakeCommand_t
 ShakeRopes
-Shared<->Private Event collision!
 SharedRandomAngle
 SharedRandomFloat
 SharedRandomInt
@@ -17035,14 +17224,13 @@ Show the floor height that we'double adjust based on ground IK rules.
 Show the free split line.
 Show verbose matching output (1 for simple, 2 for rule scoring, 3 for noisy). If set to 4, it will only show response success/failure for npc_selected NPCs.
 Show when signed char vcd is playing but normal AI is running.
-ShowWorldLayer
 ShowWorldLayerAndSpawnEntities
 Shows client (red) and server (green) footsteps (1=client-only, 2=server-only, 3=both)
 Shows memory of NPC.  Draws an X on top of each memory.
+Shows this layer
 Shows trigger brushes
 Sht7Lc{pD;
 Shut down wrote to '%short'
-Sh~&L
 Sidekick
 SignedDestinationAddress_t
 SignedPayload_t
@@ -17056,15 +17244,14 @@ SimpleConstraintSoundProfile::kHIGHWATER
 SimpleConstraintSoundProfile::kMIN_FULL
 SimpleConstraintSoundProfile::kMIN_THRESHOLD
 Simplified path
-Size of nav dump file '%short' is %u bytes.
-Size of nav file '%short' is %u bytes.
-Size of vpk file '%short' is %u bytes.
+Size of nav dump file '%short' is %llu bytes.
+Size of nav file '%short' is %llu bytes.
+Size of vpk file '%short' is %llu bytes.
 SkeletonBoneBbox_t
 SkeletonBoneBounds_t
 Skin: %double
 Skinned Entity Decals: %double
 Skipped enemy selection due to schedule restriction
-Skipping unrecongized subcriterion '%short' in '%short'
 SkyStateChanged
 Sl[A\]
 SlideTouH
@@ -17073,7 +17260,6 @@ Slow %.f, %short %.f
 Small,Medium,Large
 Smear boneflags across the model.  Costs computation, but tests to make sure your bone flags are consistent.
 Smokf
-SmokfD
 Smooth curve decreasing slower as it approaches zero
 Smooth player eye ... coordinate when traversing stairs.
 Snap player eyes and orientation to specified pitch yaw <roll:optional> (must have sv_cheats).
@@ -17176,9 +17362,9 @@ Spew all current markup groups and their members
 Spew touch link activity
 Spew warning if command queue has grown above this many backlogged commands.
 Spews the list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)
-SpinDownH
+SpinDownMove
 SpinThinH
-SpinUpMoH
+SpinUpMove
 Split created signed char polygon with more than %double verts
 SplitAreasUnderOverhangs()
 SplitContext:  warning, ignoring context '%short', missing colon separator!
@@ -17196,7 +17382,7 @@ Squads
 SquareUpAreas()
 SsE9~
 Standard nav area minimum size
-Starf
+StarfD
 Start TASK_STOP_MOVING
 Start Time: %float
 Start continuously adding to the selected set.
@@ -17249,7 +17435,9 @@ Steam not running, achievements disabled. Cannot view or unlock achievements.
 SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
 SteamAPI_Init
+SteamAPI_RegisterCallResult
 SteamAPI_RegisterCallback
+SteamAPI_UnregisterCallResult
 SteamAPI_UnregisterCallback
 SteamAudio001
 SteamClient017
@@ -17259,6 +17447,7 @@ SteamGameServer012
 SteamGameServerStats001
 SteamGameServer_GetHSteamPipe
 SteamGameServer_GetHSteamUser
+SteamInternal_ContextInit
 SteamInternal_CreateInterface
 SteamMatchMaking009
 SteamMatchMakingServers002
@@ -17266,10 +17455,10 @@ SteamNetworking005
 SteamToursFriends
 SteamToursHost001
 SteamToursRecentApps
+SteamToursUGCImage
 SteamToursUserMessageIds
 SteamUser019
-SteamUtils008
-SteamVR Home
+SteamUtils009
 Steer
 StepSimulationFuncRotatingAnglesSerializer
 StepSimulationHook
@@ -17331,6 +17520,7 @@ Swaps which hand is considered 'primary' and 'secondary' (ie. dominant/off-hand)
 SweptBox
 Switched to state: %double (%short)
 Switches to navmesh for the specified spawngroup
+Sx~L
 Symbol name "
 Synchronously spawn an entity group from signed char list of spawn tables.
 Synchronously spawns signed char single entity from signed char table
@@ -17350,7 +17540,6 @@ SystemCall_PreShutdown
 SystemCall_Precache
 SystemCall_SetScriptConVar
 SystemCall_Shutdown
-T$ E1
 T$ H9
 T$ Hc
 T$ Hc@
@@ -17359,12 +17548,12 @@ T$ L;}
 T$(;J to
 T$(D;u
 T$(E1
+T$(H9
 T$(Hc
 T$(L!
 T$(L9t
 T$0H9
 T$0Hc
-T$0Hk
 T$0L9
 T$0Lc
 T$4tJH
@@ -17374,8 +17563,10 @@ T$HfA
 T$NA\A]A^]
 T$XHc
 T$`Hc
+T$`Lc
 T$lHc
 T$pH9
+T$xA9
 T$xH9
 T$xfA
 T0@GZ
@@ -17992,6 +18183,7 @@ Toggles graph connection display for the node that the player is looking at.  No
 Toggles input/output message display for the selected entity(ies).  The name of the entity will be displayed as well as any messages that it sends or receives.
 Toggles node display.  First call displays the nodes for the given network as green objects.  Second call  displays the nodes and their IDs.  Nodes are color coded as follows:
 Toggles on signed char chain in the selected entity(ies), by name of the chain.
+Toggles recording of animgraph replay of the given entity(short)
 Toggles server decal debug visualization
 Toggles the 'avoid this area when possible' flag used by the AI system.
 Toggles the 'dont avoid obstacles' flag used by the AI system.
@@ -18035,8 +18227,8 @@ Top-%u
 TopDownTight
 Total %double entities (%double empty)
 Total Size: %.2f Mb (%double bytes)
+Total job count: %double
 Total:TimeMS	%float
-Toucf
 ToucfD
 TouchChaH
 Touch_t
@@ -18062,6 +18254,7 @@ TrainVelocity_Instantaneous
 TrainVelocity_LinearBlend
 Transition_DataDriven
 TransitioningLayer_t
+TranslationData
 Translucent
 Triangle
 Tried to add game system %short twice!
@@ -18073,7 +18266,7 @@ Tried to load signed char polymorphic pointer with no '%short' key
 Tried to merge messages of different types 
 Tried to register signed char non-generated type with the generated type registry.
 Trigger NPC to think
-TriggerAH
+TriggerAndWait
 TriggerDH
 TriggerProximity - Missing measure target or measure target with no origin!
 TriggerTrackChange
@@ -18155,6 +18348,7 @@ UM_VoiceMask
 UM_VoiceSubtitle
 UNCHANGED
 UNDERWATER 
+UNKNOWN TEAM
 UPDATE_STRING_TOKEN_DATABASE
 UPPER_EYELID( 
 USAGE: rr_forceconcept <target> <concept> "criteria1:value1,criteria2:value2,..."
@@ -18278,8 +18472,10 @@ UpdateParticleSetFrozen
 UpdateParticleShouldDraw
 UpdateQueryCache
 UpdateThH
+UpdateThink
 UpdateViH
 Updating HMD in the same frame as signed char teleport, ignored. %double, tick %double
+Updating goal pos
 Updating goal pos while jumping!
 Usage:
 Usage:  %short <groupname>
@@ -18318,9 +18514,11 @@ Using 10-bit blend indices: are you sure they are supproted on the target hardwa
 Using 16-bit blend indices
 Using model "%short"
 V tC1
+V$AUATI
+V%QdH
 V(unsigned short+H
 V0u@H
-V;8W;u
+V<8S<unsigned short:H
 V?ffff
 VALVt
 VAffff&
@@ -18415,9 +18613,11 @@ VRScriptScope
 VRStartup
 VRVScriptGameSystem
 VR_001
+VR_CONTROLLER_TYPE_GENERIC_TRACKED
 VR_CONTROLLER_TYPE_TOUCH
 VR_CONTROLLER_TYPE_UNKNOWN
 VR_CONTROLLER_TYPE_VIVE
+VR_CONTROLLER_TYPE_WINDOWSMR
 VR_CONTROLLER_TYPE_X360
 VR_HAND_HAPTIC_PULSE_LIGHT
 VR_HAND_HAPTIC_PULSE_MEDIUM
@@ -18469,9 +18669,9 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
+V_atan2
 V_atan2f
 V_atanf
 V_atod
@@ -18502,7 +18702,6 @@ V_strtok
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_uuid_t
 V_vscprintf
@@ -18541,6 +18740,7 @@ ValueRemapperInputType_t
 ValueRemapperMomentumType_t
 ValueRemapperOutputType_t
 ValueRemapperRatchetType_t
+ValveBiped.Bip01_Head1
 ValveBiped.Weapon_bone
 Variable
 Vector
@@ -18569,6 +18769,7 @@ VerticalGlowSize
 Very Good
 VguiScreen
 ViewLockData_t
+ViewSmoothingData_t
 VisBuilder_001
 VisMon: %double traces performed during this polling cycle (long long signed char::*: %double)
 VisMon: Added Entity: %short (%short)
@@ -18593,16 +18794,11 @@ Vortigaunt
 VpropBreakablePartData_t
 VsInputSignature_t
 Vulkan
-W ;2t"H
+W ;2t$H
 W H9r
-W%|!...
 W(Aq=
 W(H92t'H
-W-pGc
-W-{{D
 W3|Uxa
-W5x9c
-W=double:char
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18616,6 +18812,8 @@ WARNING: BackupPlayer trying to back player into signed char bad position - clie
 WARNING: CDirWatcher not implemented
 WARNING: Could not find schema data for helper class for resource type %lld '%short'. (Missing MDiskDataForResourceType metadata or schema data isn'unsigned short loaded?)
 WARNING: FORCE QUITTING PROCESS DUE TO 'ai_quit_after_nth_build' CONVAR (%double)
+WARNING: Failed to load propdata.txt: %short
+WARNING: Failed to read propdata.txt
 WARNING: Ignoring invalid gameinfo MaxNetworkableEntities %double
 WARNING: Ignoring invalid gameinfo MaxNonNetworkableEntities %double
 WARNING: Level contains NPCs but has no path nodes
@@ -18673,6 +18871,7 @@ WILL TRANSITION
 WIN32
 WINDOWS
 WINXP
+WOL: 0x%p (%short)
 WORLDTEXT_HORIZONTAL_ALIGN_CENTER
 WORLDTEXT_HORIZONTAL_ALIGN_LEFT
 WORLDTEXT_HORIZONTAL_ALIGN_RIGHT
@@ -18683,10 +18882,15 @@ WORLDTEXT_VERTICAL_ALIGN_BOTTOM
 WORLDTEXT_VERTICAL_ALIGN_CENTER
 WORLDTEXT_VERTICAL_ALIGN_TOP
 WP9VPu
+W`H92
+Wait ms
 WaitTillH
 Waiting for script, but lost script!
 WaitingForPlayers time length in seconds
 Wake all physics objects in the Main physics up
+WakeAfterCompletedWorkItem
+WakeDependentJobFinished
+WakeGotLock
 Walkable position marked.
 Warning
 Warning parsing text-format 
@@ -18726,6 +18930,7 @@ WeaponTexture_t
 Weapon_ShootPosition
 WearableConfig
 Weld Joint: %short -> %short
+WheelDust
 When -gamestatsfileoutputonly is specified, file will be emitted here instead of to modpath
 When calculating repathing tolerance, clamp entity speed to be at least this value (i.e. consider slow entities to be this fast).
 When computing respondents for signed char 'THEN ANY' rule, all rule-matching scores within this much of the best score will be considered.
@@ -18737,6 +18942,7 @@ When playing back, show the directions of faceto events.
 When playing back, show the directions of look events.
 When selecting an area under nav_edit, allow area marked as blocked.
 When specifying keyvalues to spawn or precache, you must specify signed char classname!
+When true, npc_teleport will look for clear space and fail if none is found.
 When true, print amount and type of all damage received by player to console.
 Will loop action sequence
 Will synch post idles
@@ -18783,44 +18989,56 @@ Wrong alignment %double
 Wzm6V"
 W{@3333
 X zR&="@r
+X%T?9
+X%e2@
+X(9Y(
 X2:jH
 X9t6@
 X=2v?
-X@TE;U<
+X=37[
+X@TA;U<
 X@ffff
 XAxis
 XBowBolt
 XD$(H
 XD$(L
-XD$8L
+XD$P1
+XD$T1
 XFcH?F
 XGDUH
+XL$8H
+XL$<H
+XT$@L
 XXf94
-XZ[A\]
 X[A\A]A^A_]
 X[A\A]]
 X[A\]
 X[]A\A]A^A_
+X\$8L
 X\V@%
 X^'@double
 X`fA9
 XboxSystemInterface001
+Xd$ D
 Xd$0M
 XfA9D]
 Xg8Hc
 XxHc@unsigned short
 Y ANb
-Y%*r~
-Y%Qg$
-Y%s6-
-Y-#ls
+Y%&q%
+Y%&unsigned __int128%
+Y%1""
+Y%8V$
+Y%ape
+Y(;Y8
+Y(E9^(A
 Y/&4@4
-Y5+ls
 Y6	@W'__float128(
+Y=-Fo
+Y=Ms8
 Y?3333E
 Y?[A\]
-Y@CFuncAreaPortalBase
-Y@CPointAngleSensor
+Y@CPropVRTrackedObject
 YA3333
 YAxis
 YD$ H
@@ -18844,6 +19062,8 @@ You must now restart to use Grunt-unsigned __int128-matic.
 Y}@)\
 Z	M#@
 Z tolerance for adding new nav areas.
+Z(9X(
+Z(9Y(A
 ZB8~@
 Zd;_<
 Zd;char
@@ -18861,6 +19081,7 @@ Z}uU
 [%9.9s] (%double)%short at %.6f phase not supported
 [%__float128 %__float128 %__float128]
 [%double] (%double) Link %double (%short) -> %double (%short)
+[%double] Decode %.3f: 
 [%double] NULL
 [%double]: '%short'
 [%float, %float]
@@ -18882,8 +19103,8 @@ Z}uU
 [A\A]]float
 [A\A^A_]
 [A\A^]
+[A\[A\]
 [A\]A
-[A]A^A_]
 [DIFFERS]
 [Disk class %double/%double] Name = '%short'; Project = '%short'; Binary = '%short'
 [F7>vFIulF@pFF
@@ -18904,6 +19125,7 @@ Z}uU
 [jRDe
 [lazy = true] can only be specified for submessage fields.
 [long double\'double
+[none]
 [packed = true] can only be specified for repeated primitive fields.
 [unsigned char] %8llx (%short) <%short%short> [unsigned __int128] %8.3f %8.3f %8.3f [signed char] %6.3f %6.3f %6.3f %6.3f [short] %6.3f
 [vH!@
@@ -18912,11 +19134,13 @@ Z}uU
 \$ H;
 \$ I9
 \$ [A\]
+\$(Mc
+\$@u	A
 \$HfA
 \$hIcEXI
 \%03o
-\CXfA
-\FxD)
+\-9?9
+\-Jf9
 \U%08x
 \long long%02x
 \r@__int128|7'@^
@@ -18926,6 +19150,7 @@ Z}uU
 \unsigned char[A\]
 \unsigned short!Hc
 \|e9d
+] ~.H
 ]"^AR
 ]%unsigned char@sh
 ](unsigned short[H
@@ -18934,12 +19159,14 @@ Z}uU
 ]H+G 
 ]Ht,A
 ]Kyw@
+]PA;]`tT
 ]XA;\$hHc
-]\$pA
+][lA9
 ]`[A\A]A^]
 ]hIcE`L
 ]u9n5;> )"
 ^ unsigned short+H
+^%DH\
 ^)8~@
 ^-wf"
 ^8D9+
@@ -18948,6 +19175,7 @@ Z}uU
 ^Fa.@
 ^`V(R
 _ ~`I
+_(D9X(
 _8t;A
 _@')UG3;
 _D$HH
@@ -19352,6 +19580,7 @@ __lxstat64@@GLIBC_2.2.5
 __m_pChainEntity
 __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
+__oldschema_object_name
 __printf_chk
 __printf_chk@@GLIBC_2.3.4
 __procedural_adopted_targetname_
@@ -19371,13 +19600,14 @@ __xstat64@@GLIBC_2.2.5
 _addons
 _attr_
 _bfA3333
-_dummyBaseFireClass
 _edata
 _female
 _filter A
 _fini
 _firesmoke
 _gamestats.dat
+_glowing
+_glowingJ
 _init
 _inner_cone
 _light
@@ -19385,15 +19615,18 @@ _male
 _models/H
 _nav.txt
 _nav.txtH
+_noachieH
+_noachievements
 _plasma
-_previewH
 _resetgamestats
 _rifle.vH
+_root_keyname
 _selected_
 _tHcF
 _test_conversion_counter
 _to_curve_
 _vg\@
+_xIcGpL
 `'float const"
 `0D;__float128
 `4[A\]
@@ -19402,14 +19635,13 @@ _vg\@
 `7l[T.@Ho
 `>Y1\
 `?540
-`@target_scan_use_query_cache
-`ACRagdollManager
 `AP$N
 `F4{yF
 `TR' 
 `TR'p[@
 `TR'u
 `TRge@
+`X[A\]
 `[A\A]A^]
 `[A\A^A_]
 `[A\]
@@ -19419,7 +19651,6 @@ _vg\@
 `u@'1
 a2U0*	
 aA3333)
-aECDevtestHierarchy
 aPortalsH
 aT,@J
 aTR' 
@@ -19442,6 +19673,7 @@ achievement_debug
 achievement_disable
 achievement_earned
 achievement_event
+achievement_level
 achievement_name
 achment_
 achment_H
@@ -19504,6 +19736,8 @@ ai_debug_ragdoll_magnets
 ai_debug_shoot_positions
 ai_debug_speech
 ai_debug_squads
+ai_debug_stealth
+ai_debug_stealth_prevent_actual_spotting
 ai_debug_teleport_buffer
 ai_debug_think_ticks
 ai_debug_unragdoll
@@ -19563,6 +19797,7 @@ ai_norebuildgraph
 ai_path_adjust_speed_on_immediate_turns
 ai_path_insert_pause_at_est_end
 ai_path_insert_pause_at_obstruction
+ai_peeking_enabled
 ai_plane_solver_debug
 ai_plane_solver_use_navmesh
 ai_post_frame_navigation
@@ -19614,6 +19849,7 @@ ai_spread_pattern_focus_time
 ai_step
 ai_strong_optimizations
 ai_strong_optimizations_no_checkstand
+ai_tacticalservices_max_los_search
 ai_task_pre_script
 ai_test_los
 ai_test_moveprobe_ignoresmall
@@ -19710,6 +19946,9 @@ anim_att
 anim_attH
 anim_attachment_RH
 anim_disable
+anim_name
+anim_name_a
+anim_name_b
 anim_noposeparameters
 anim_prefix
 anim_state_graph_test
@@ -19722,8 +19961,13 @@ animationgraph
 animationsystem
 animevents_dump
 animgraph_debug
+animgraph_debug_tags
+animgraph_debug_variables
 animgraph_enable
+animgraph_motor_override_graph_movement
+animgraphcontroller
 aponThinH
+appid
 application
 applycontext
 applycontexttoworld
@@ -19746,7 +19990,6 @@ assaulttolerance
 asynchronous
 at %short
 at console
-atan2
 atan2@@GLIBC_2.2.5
 atan2f@@GLIBC_2.2.5
 atan@@GLIBC_2.2.5
@@ -19841,6 +20084,7 @@ bTaskRanAutomovement
 bTaskUpdatedYaw
 bTeleportAllowed
 bTouf
+bToufD
 bTutorial
 bUnforgettable
 bUpright
@@ -19849,13 +20093,14 @@ bValidOnCurrentEnemy
 bValue
 bWasRunningAnim
 backward
+badge_border
+badge_level
 bag of sugar
 barrier_state
 baseAnimBaseLayerChanged
 base_vr_hand_attachment
 baseanimating
 baseanimating_overlay
-baseentity.cpp
 baselayer
 baseline
 baseline_nr
@@ -19867,6 +20112,7 @@ bbC0@
 bbox.maxs
 bbox.mins
 beams
+bentnormal
 beveragetype
 bezier
 bezier { %short } 
@@ -19883,6 +20129,7 @@ binary_bc
 birds_debug
 bitsDamageType
 bj@@J
+blackbox
 blendDeltaMultiplier
 blenddeltamultiplier
 blendindices
@@ -19924,6 +20171,7 @@ box_mins
 brakeSteeringRateFactor
 brakefactor
 brakematerial
+break_breakable
 break_prop
 breakable_count
 breakable_disable_gib_limit
@@ -19965,14 +20213,14 @@ c.[A\]
 c4[A\]
 c8D;cHD
 c8[A\]
-c8t A
 c8u(1
 cD@oG8-long long
-cHt#L
 cL[A\]
 cPD;char`D
 cX[A\]
+cXt*H
 ca[A\]
+cables_list
 cache_ragdoll_t
 callback_index
 caller
@@ -19982,6 +20230,8 @@ cameraspace
 can'unsigned short solve quadratic for light %float %float
 cancelselect
 cantdie
+carbfD
+carbon
 carry_distance_offset
 carry_type
 castResult flDist = %float
@@ -20037,14 +20287,15 @@ char tul)
 char volatile	kc,
 char+@ffff6
 char<[A\]
-char>m_vecVelocity
 char?Mg'
 char?kdWZF
 char@3333#)
 char@[A\]
+char@unsigned short@A
 char]`double@
 char`[A\]
 char`unsigned short!H
+char`unsigned short&L
 character
 chaseEnemyTolerance
 cheat
@@ -20059,7 +20310,6 @@ childSpawnGroup
 child_items
 chin_raiser
 choices
-ckHofD
 ckPoint H
 cl_ideal_spec_mode %double
 cl_interp
@@ -20126,6 +20376,7 @@ cloth_iv_store_back
 cmd_number
 code_filename
 codec
+cojob.cpp
 collect_entity_model_name
 collision_prop
 collision_shake_amp
@@ -20145,6 +20396,7 @@ colortransitiontime
 combo
 combo 
 command
+command_number
 commandline hook to run signed char nav_analyze and then quit.
 commentary_auto
 commentary_available
@@ -20152,9 +20404,9 @@ commentary_cvarsnotchanging
 commentary_finishnode
 commentary_semaphore
 commentaryfile
+composite
 computer_guid
 configvalue.cpp
-connections
 console.log
 constraintCount
 constraint_axislimit_t
@@ -20170,6 +20422,7 @@ context_value
 context_world
 contextsubject
 control_point
+control_points_list
 convar
 convars
 converts delta QAngle to an angular velocity Vector
@@ -20195,7 +20448,6 @@ cpuRamMB
 cpuVendor
 crashSounds
 crashsound
-crate
 createClientOnlyEntities
 createClientSideChild
 create_flare
@@ -20217,7 +20469,7 @@ cspinup
 css_classes
 cstring
 ctype
-ctz5u3E1
+ctz@u>E1
 cuP.2f
 cubemaptexture
 cur_val
@@ -20246,7 +20498,6 @@ cycler_flex
 cycler_flex used on model "%short" specified unknown sequence "%short"
 cycler_flex used on model %short without enough flexes.
 d$(D9
-d$0Hk
 d$XE1
 d3_breen_01
 d3_citadel_03
@@ -20310,6 +20561,8 @@ decalfrequency
 decalmaterialindex
 decalname
 dedicated
+defaf
+defafD
 default
 defaultSequenceName
 defaultSession
@@ -20343,7 +20596,6 @@ deprecated
 depth
 depth_offset
 depth_render_offset
-der_dismH
 descriptor
 descriptor_t
 descriptors
@@ -20394,6 +20646,7 @@ displaytext
 displaytime
 disposition
 dissolvetype
+dist_from_issuer
 distance
 distance from the player to the item browser
 distance_check_subtitle
@@ -20420,6 +20673,8 @@ dota_models_imported
 double
 double volatile{AA
 double volatile{AL
+double!$Hc
+double:$Hc
 double_shot
 double_shot_npc
 double_value
@@ -20442,9 +20697,11 @@ duration
 dynamicAttachOffset
 dynamicResetCount
 dynamic_interactions
+dynamic_joint_debug
 dynamic_prop
 dynpitchvol_base_t
 dynpitchvol_t
+e$IcM
 e0F$J
 eDc?unsigned short
 eKeypoints
@@ -20457,6 +20714,7 @@ ePropTouH
 eQueryCvarValueStatus_NotACvar
 eScaHc
 eZQ9\
+ease-in
 ease-in-ease-out
 ease_in_out
 easein
@@ -20475,7 +20733,7 @@ effects
 effects/H
 effects/flashlight001
 effects/fleck_wood2.vmat
-efref
+efrefD
 ehandle
 elems
 elephant
@@ -20514,6 +20772,7 @@ english
 ent yaw: %.2f, body_yaw: %.2f, body_pitch: %.2f, move_x: %.2f, move_y: %.2f
 ent yaw: %.2f, body_yaw: %.2f, move_yaw: %.2f, gait_yaw: %.2f, body_pitch: %.2f
 ent_absbox
+ent_animgraph_record
 ent_animgraph_setvar
 ent_attachments
 ent_autoaim
@@ -20700,6 +20959,7 @@ env_tonemap_controller2
 env_tracer
 env_tracer: unknown entity "%short"
 env_viewpunch
+env_volumetric_fog_controller
 env_wind
 env_zoom
 ep1_citadel_02
@@ -20707,7 +20967,6 @@ ep1_citadel_02b
 ep1_citadel_03
 equip_sound
 erHelperH
-eric_triH
 error
 error in transition graph: %short to %short
 event
@@ -20770,6 +21029,8 @@ extent
 extractlevelsfromsavegame
 extrapolated [%.2f]
 extrapolated [1.0] (single sample)
+eye_data
+eye_data_list
 eyebrows_controller
 eyebrows_mover
 eyes_follow
@@ -20782,6 +21043,7 @@ fA9D$4t
 fA9E4t
 fA9F4t
 fA9Gn
+fA9Of
 fA9\float
 fA;0M
 fA;0trA
@@ -20793,19 +21055,19 @@ fA;\$6
 fA;\__int128
 fA;__int128
 fA;__int128imaginary 
-fA;float&&
-fD9%D!V
-fD9'unsigned short@H
 fD9/t0H
 fD91u|
 fD9cV
+fD9cfr
 fD;"unsigned short
+fD;(unsigned short@H
 fD;/t1H
+fD;/unsigned short@H
 fD;KR
-fD;cfw
 fD;ff
 fE9.t5A
 fE9.t8A
+fE9XTu
 fE9of
 fE;l$
 fE;|$
@@ -20813,6 +21075,7 @@ fE;~__int128
 fE;~nw
 fExpireTime
 fIgnoreFacing
+fPE;float`D
 fPfA;
 fPitch
 fRadius
@@ -20986,6 +21249,7 @@ firetarget
 firetrigger
 firetype
 fireworks
+firing_ready
 fish_count
 fish_dormant
 fish_pos
@@ -21078,7 +21342,6 @@ float;S(}.H
 float;rnw
 float;wht
 float?3333{
-float@WheelDust
 float@ffff
 float^7:!
 floor
@@ -21103,6 +21366,7 @@ fog_volume_debug
 fogblend
 fogcolor
 fogcolor2
+fogcontributionstrength
 fogdir
 fogenable
 fogend
@@ -21209,6 +21473,7 @@ func_combine_barrier
 func_conveyor
 func_distance_occluder
 func_door
+func_door*
 func_door_rotating
 func_dustcloud
 func_dustmotes
@@ -21330,8 +21595,10 @@ game_ragdoll_manager
 game_score
 game_session_config
 game_session_manifest
+game_shadowcontrol_params_t
 game_team_master
 game_text
+game_trophies
 game_ui
 game_weapon_manager
 game_winner
@@ -21341,7 +21608,6 @@ gameevents.proto
 gameinfo
 gameinfo.gi
 gameinfo.txt
-gameinterface.cpp
 gameinterfaces.cpp
 gamematerial
 gamemode
@@ -21349,7 +21615,7 @@ gameproperties
 gamerules_masks
 gamescenenodehandle
 gamesessionid
-gamestatA
+gamestatL
 gamestats.log
 gamestats_
 gamestats_file_output_directory
@@ -21364,7 +21630,6 @@ generate bone setup statistics
 generated_protosteamtours/linuxsteamrt64/clientmessages.pb.cc
 generated_protosteamtours/linuxsteamrt64/demo.pb.cc
 generated_protosteamtours/linuxsteamrt64/gameevents.pb.cc
-generated_protosteamtours/linuxsteamrt64/gametoolevents.pb.cc
 generated_protosteamtours/linuxsteamrt64/netmessages.pb.cc
 generated_protosteamtours/linuxsteamrt64/network_connection.pb.cc
 generated_protosteamtours/linuxsteamrt64/networkbasetypes.pb.cc
@@ -21388,7 +21653,6 @@ gfff1
 gfffA
 gfffL
 gfffffffH
-gger_helH
 gibangles
 gibanglevelocity
 gibdir
@@ -21404,6 +21668,7 @@ global
 global %short
 global_set
 global_set <globalname> <state>: Sets the state of the given env_global (0 = OFF, 1 = ON, 2 = DEAD).
+globalentity_t
 globalentitydatabase_t
 globalname
 globname
@@ -21448,8 +21713,11 @@ gpuSubSysID
 gpuVendor
 gpuVendorID
 graball
+grabbable
 grabs the object in front of the player. Options: -loose -multiple -toggle
 grainstrength
+granfD
+granite
 gripValue
 groundlink_t CUtlMemoryPool
 groundlist
@@ -21498,6 +21766,10 @@ handle_dummy
 handle_test
 handles
 handshake
+haptic_second_pulse_delay
+haptic_strength_bias
+haptic_strength_max
+haptic_strength_min
 hapticsType
 hardstopspeakevent
 hardware
@@ -21580,9 +21852,9 @@ hltv_spectate
 hltv_status
 hltv_title
 hltv_versioninfo
-hltvdirector.cpp
 hlvr_weapon_energygun
-hlvr_weapon_pistol
+hlvr_weapon_rapidfire
+hlvr_weapon_shotgun
 hlvr_weaponmodule_
 hmaterial
 hmodel
@@ -21608,6 +21880,9 @@ hscript-light
 hscript_lightbinding
 hscriptnew
 ht_bordeH
+https://beta.steamcommunity.com
+https://localhost
+https://steamcommunity.com
 hudtextparms_t
 hull long long%long long
 hull_name
@@ -21628,6 +21903,7 @@ iGroup
 iHitboxGroup
 iLockedSentence
 iLoopBreakTriggerMethod
+iSkin
 iTaskInterrupt
 iTeamNum
 iTriggerMethod
@@ -21654,13 +21930,18 @@ ignoring %s.HL%short on %short
 ik_debug_adjusted_floorheight
 ik_debug_groundtraces
 ik_debug_perlin_solver
-ik_debug_text_helper_enable_position
-ik_debug_text_helper_enable_text
 ik_decay_hip_offset_after_x_seconds
 ik_enable
+ik_enable_only_this_chain
+ik_enable_only_this_chain: Couldn'unsigned short find chain named '%short', or signed char unique match.  #%double Chains available on entity '%short'
+ik_enable_only_this_chain: No chain name specified.  #%double Chains available on entity '%short'
+ik_enable_only_this_chain: no valid entities found in picker.
 ik_toggle_chain
 ik_toggle_chain:	%short
+ik_toggle_chain: Couldn'unsigned short find chain named '%short', or signed char unique match.  #%double Chains available on entity '%short'
 ik_toggle_chain: No chain name specified.  #%double Chains available on entity '%short'
+ik_toggle_chain: no chains available on entity '%short'
+ik_toggle_chain: no valid entities found in picker.
 imemanager
 impact
 impactHardThreshold
@@ -21681,6 +21962,8 @@ incoming
 index
 indexindex
 indirectlight
+indoor_outdoor_level
+inertia
 inertiafactor
 inertiascale
 ineye
@@ -21696,7 +21979,6 @@ info_game_event_proxy
 info_hint
 info_hint (HammerID: %double, position (%.2f, %.2f, %.2f)) with no hint type.
 info_intermission
-info_ladI
 info_ladder_dismount
 info_landmark
 info_mass_center
@@ -21724,7 +22006,6 @@ info_spawngroup_landmark(%short) in %short: %float %float %float
 info_spawngroup_load
 info_spawngroup_load_unload
 info_spawngroup_load_unload wchar_t/unsigned __int128 specifying map name, removing entity!!!
-info_spawngroupstream.cpp
 info_target
 info_target_instructor_hint
 info_teleport_destination
@@ -21840,7 +22121,6 @@ item_box_sniper_rounds
 item_dynamic_resupply
 item_flags
 item_flare_round
-item_genI
 item_generator
 item_generators
 item_generic
@@ -21849,6 +22129,8 @@ item_health*
 item_healthkit
 item_healthvial
 item_hlvr_grenade_
+item_hlvr_prop_battery
+item_item_crate
 item_pickup
 item_rpg_round
 item_sodacan
@@ -21859,6 +22141,7 @@ itemname
 items
 items_clientside
 items_t
+j$t;H
 j7t@3333
 jMVy@
 jMs|@unsigned char
@@ -21876,9 +22159,12 @@ jaw_tilt
 jaw_tilt_controller
 jeR6@%
 jf-U 
+jhATI
 jiggle
 jklmnopqrstuvwxyzyxwvutsrqponmlkj
 joy_autoaimdampen
+joystickX
+joystickY
 js_array
 js_object
 js_raw_args
@@ -21890,6 +22176,7 @@ justify_vertical
 k tQL
 k(Mcu
 k(tHH
+k0tAL
 k5@3333;
 k5s@=
 k8;C0t8
@@ -21935,7 +22222,6 @@ kRenderTransAlphaAdd
 kRenderTransColor
 kRenderTransTexture
 kRenderWorldGlow
-kXtkH
 k_@/\
 k`t8L
 k`twH
@@ -21961,6 +22247,7 @@ kv3format_manager.cpp
 l$ I	
 l$ Ic
 l$ M9u
+l$ fE
 l$0[M
 l$8Ic
 l$@D;k@t5H
@@ -21968,6 +22255,7 @@ l$HfA
 l$LD:kLt
 l$XfA
 l$`Mc
+l$`fA
 l$dr2
 l$xD9
 l4d_airport05_runway
@@ -21978,11 +22266,17 @@ lVU=@
 lV}.*
 lV}float@
 label
+labelled_debug_helper_arc_segments
+labelled_debug_helper_enabled
+labelled_debug_helper_scale
+labelled_debug_helper_show_position
+labelled_debug_helper_show_text
 ladderSurfaceProperties
 landmarkModelSpace
 landmarkname
 large car
 lashlighH
+last_cmd_number
 launchoptions
 lava_tube
 layerSequence%double
@@ -22048,8 +22342,10 @@ lightprobetexture
 lightquery_debug_direct_lighting
 lightquery_debug_indirect_lighting
 lightquery_debug_indirect_lighting_fast
+lightstyle
 lightworld
 limbs
+limittoentity
 linear_damping_ratio_x
 linear_damping_ratio_y
 linear_damping_ratio_z
@@ -22087,12 +22383,12 @@ local_tip_angles
 local_tip_origin
 localcontrastedgestrength
 localcontraststrength
-localhost
 localize
 localnamefixup
 localonly
 location
 locationproxy
+lock:%short locked line %double %short
 lockbodyfacing
 lockpoint
 locksound_t
@@ -22129,7 +22425,7 @@ logic_scene_list_manager
 logic_script
 logic_timer
 logo_length
-long double char::*@E;ePt1D
+long double char::*@E;ePD
 long double restrict*-think
 long double&-analyze the current Navigation Mesh and save it to disk.
 long double&-selects the stored selected set.
@@ -22138,23 +22434,26 @@ long long signed char::* area size created in nav generation
 long long signed char::* number of entities to transmit to player
 long long signed char::* size in long long/unsigned long long of any auto-generated nav area
 long long signed char::* view roll angle
+long long"IcO(A;O8
 long long#Mc}
-long long&IcO(A;O8
+long long&IcT$ A;T$0
+long long&Lce
+long long'Lcm
+long long'Lc}
+long long(A\A]A^]
 long long*;XZ
 long long*@3333GJ
 long long*HcSx;
 long long:Hcw
-long long;;=,)[
-long long@CAI_TrackPather
+long long;;=\__int128
 long long[A\A]A^A_]
 long long[A\A]]
 long long[A\A^]
 long long[HcO
 long long]/(@
+long long^HcS
 long long`;8}\H
-long longcomplex [A\]
 long longimaginary @unsigned short	H
-long long{HcS
 long=C8f9
 lookatname
 loop_break_trigger
@@ -22173,6 +22472,7 @@ lseek64@@GLIBC_2.2.5
 lseek@@GLIBC_2.2.5
 lservercfgfile
 lu9% 
+m8~#H
 mQfWK@
 m_AIAddOn
 m_Activity
@@ -22445,6 +22745,22 @@ m_OnCancelFailedSequence
 m_OnCancelSequence
 m_OnCanceled
 m_OnCase
+m_OnCase[ 0 ]
+m_OnCase[ 1 ]
+m_OnCase[ 10 ]
+m_OnCase[ 11 ]
+m_OnCase[ 12 ]
+m_OnCase[ 13 ]
+m_OnCase[ 14 ]
+m_OnCase[ 15 ]
+m_OnCase[ 2 ]
+m_OnCase[ 3 ]
+m_OnCase[ 4 ]
+m_OnCase[ 5 ]
+m_OnCase[ 6 ]
+m_OnCase[ 7 ]
+m_OnCase[ 8 ]
+m_OnCase[ 9 ]
 m_OnChangeLevel
 m_OnChangedFromMax
 m_OnChangedFromMin
@@ -22652,6 +22968,7 @@ m_OnUser3
 m_OnUser4
 m_OnWake
 m_OpCode
+m_OpvarValueString
 m_Origin
 m_OutColor1
 m_OutColor2
@@ -22728,6 +23045,7 @@ m_SeenMisc
 m_SeenNPCs
 m_SequenceTransitioner
 m_ShotRegulator
+m_SkyColor
 m_Slack
 m_SlaveName
 m_SleepFlags
@@ -22901,6 +23219,7 @@ m_bAllInteractionsDisabled
 m_bAllocated
 m_bAllowAutoMovement
 m_bAllowDiversion
+m_bAllowFadeInView
 m_bAllowFindLateralLos
 m_bAllowFlipping
 m_bAllowFriendlyFire
@@ -22918,6 +23237,7 @@ m_bAltFiresUnderwater
 m_bAlwaysFireBlockedOutputs
 m_bAlwaysTransmitToClient
 m_bAlwaysUpdate
+m_bAnimGraph_ReadyToFire
 m_bAnimateOnServer
 m_bAnimatedEveryTick
 m_bApplyStressDamage
@@ -22929,6 +23249,7 @@ m_bAutoStart
 m_bAutoStartAmbientSound
 m_bAutoSwitchFrom
 m_bAutoSwitchTo
+m_bAutogenerated
 m_bAutomated
 m_bAvoidFeedback
 m_bAwake
@@ -23056,6 +23377,7 @@ m_bFirstBlocked
 m_bFirstCollisionAfterLaunch
 m_bFirstFacing
 m_bFirstTick
+m_bFirstTime
 m_bFirstUpdate
 m_bFixedUpIds
 m_bFlashing
@@ -23072,7 +23394,6 @@ m_bForceNavIgnore
 m_bForceNewLevelUnit
 m_bForceOrigin
 m_bForceParentToBeNetworked
-m_bForceRemove
 m_bForceServerRagdoll
 m_bForceSynch
 m_bForceUpdate
@@ -23085,7 +23406,6 @@ m_bFoundInitialSafeLocation
 m_bFreezeTrigger
 m_bFrozen
 m_bFullbright
-m_bGGActive
 m_bGameEndAlly
 m_bGamePaused
 m_bGenerated
@@ -23096,6 +23416,7 @@ m_bGlowing
 m_bGoalPosSet
 m_bGoalTypeSet
 m_bGrabAll
+m_bGrabbable
 m_bGroupByPrefab
 m_bGroupByVolume
 m_bGroupOtherGroups
@@ -23111,12 +23432,12 @@ m_bHasBeenAwakened
 m_bHasBeenPhysgunned
 m_bHasBeenPreFiltered
 m_bHasBoost
+m_bHasChanged
 m_bHasCollision
 m_bHasCollisionInHand
 m_bHasGrabbityGloves
 m_bHasGun
 m_bHasHitSomething
-m_bHasMoved
 m_bHasOwner
 m_bHasPerInstanceBakedLightingData
 m_bHasPickupRadius
@@ -23127,7 +23448,6 @@ m_bHasTriggerRadius
 m_bHasWarnedAI
 m_bHeatAtLevel
 m_bHeldObjectPhysicsInContact
-m_bHideBeam
 m_bHintGroupNavLimiting
 m_bHitAssaultPoint
 m_bHitMax
@@ -23212,6 +23532,7 @@ m_bIsSmokeGrenade
 m_bIsSprite
 m_bIsTeleportAllowed
 m_bIsTeleportingDueToMoveTo
+m_bIsTouching
 m_bIsTracking
 m_bIsUrgent
 m_bIsUsable
@@ -23346,6 +23667,7 @@ m_bSendHandle
 m_bSequenceChangeNetworked
 m_bSequenceFinished
 m_bSessionPersister
+m_bSetOnSpawn
 m_bShouldBePhysicallyConstrained
 m_bShouldBruteForceFailedNav
 m_bShouldDeleteActivationRecord
@@ -23435,6 +23757,7 @@ m_bVRControllersActive
 m_bValidateActivitySpeed
 m_bVisible
 m_bVolIs2D
+m_bVolumeFogEnabled
 m_bVolumetric
 m_bWaitForBeginSequence
 m_bWaitForRefire
@@ -23731,6 +24054,7 @@ m_flAnimTime
 m_flAnimationLifeSpan
 m_flAnimationScale
 m_flAnimationStartTime
+m_flAnisotropy
 m_flArcTimeOffset
 m_flArcTimeStep
 m_flAreaCaptureScoreAccumulator
@@ -23824,7 +24148,10 @@ m_flDangerousTime
 m_flDeathAnimTime
 m_flDeathTime
 m_flDecelSpeed
+m_flDefaultAnisotropy
+m_flDefaultDrawDistance
 m_flDefaultFadeScale
+m_flDefaultScattering
 m_flDelay
 m_flDepthOffset
 m_flDesiredSpeed
@@ -23843,6 +24170,7 @@ m_flDmgModExplosive
 m_flDmgModFire
 m_flDmgResetTime
 m_flDotTolerance
+m_flDrawDistance
 m_flDuration
 m_flElasticity
 m_flEnableTime
@@ -23875,6 +24203,7 @@ m_flFadeOutModelStart
 m_flFadeOutStart
 m_flFadeOutStartTime
 m_flFadeScale
+m_flFadeSpeed
 m_flFadeStartDist
 m_flFadeStartTime
 m_flFadeTime
@@ -23904,6 +24233,7 @@ m_flFloatLerpEndValue
 m_flFloatLerpStartValue
 m_flFloatLerpTransitionTime
 m_flFocusTargetRange
+m_flFogContributionStength
 m_flFogEnd
 m_flFogMaxDensity
 m_flFogMaxEnd
@@ -23924,7 +24254,6 @@ m_flFreeKnowledgeDuration
 m_flFriction
 m_flFrozenMoveBlock
 m_flFuel
-m_flGGDeactivatedAt
 m_flGibAngVelocity
 m_flGibGravityScale
 m_flGibLife
@@ -23980,6 +24309,8 @@ m_flInterest
 m_flIntermissionEndTime
 m_flInterpolatedTime
 m_flInterval
+m_flJoystickAnalogValueX
+m_flJoystickAnalogValueY
 m_flJumpFactor
 m_flJumpMaxDist
 m_flJumpMaxDrop
@@ -24010,6 +24341,7 @@ m_flLastPickupCheck
 m_flLastPlayerDamageTime
 m_flLastRealThinkTime
 m_flLastSawAnEnemyAt
+m_flLastSawPeekingPlayerAt
 m_flLastSawPlayerTime
 m_flLastShatterSoundEmitTime
 m_flLastSimTime
@@ -24128,7 +24460,6 @@ m_flNextIdleSpeechTime
 m_flNextMPSoundTime
 m_flNextMoveSoundTime
 m_flNextPrimaryAttack
-m_flNextPullCheckTime
 m_flNextRandAnim
 m_flNextRandomExpressionTime
 m_flNextRandomLookTime
@@ -24177,6 +24508,7 @@ m_flOuterRadius
 m_flOverlayTimes
 m_flOverriddenFriction
 m_flPathMaxSpeed
+m_flPeekingPlayerSpottedPerc
 m_flPersonalSpaceRadius
 m_flPhi
 m_flPickupRadius
@@ -24205,8 +24537,6 @@ m_flPreventUseTime
 m_flPreviousUpdateTickTime
 m_flPreviousValue
 m_flProjectionSize
-m_flPullChargeTimeForTarget
-m_flPullStartedAt
 m_flPushScale
 m_flPushSpeed
 m_flQuadraticAttenuation
@@ -24237,9 +24567,11 @@ m_flSaveTime
 m_flScale
 m_flScaleTime
 m_flScaleTimeStart
+m_flScattering
 m_flSceneTime
 m_flScrollSpeed
 m_flSearchDist
+m_flSecondPulseTime
 m_flSensitivity
 m_flShadowCascadeDistance0
 m_flShadowCascadeDistance1
@@ -24256,6 +24588,7 @@ m_flSize
 m_flSizeMax
 m_flSizeMin
 m_flSkinWidth
+m_flSkyIntensity
 m_flSmoothFactor
 m_flSnapValue
 m_flSoarTime
@@ -24278,13 +24611,19 @@ m_flSpriteScale
 m_flSquadSoundWaitTime
 m_flStabilityDamage
 m_flStartAnimTime
+m_flStartAnisoTime
+m_flStartAnisotropy
 m_flStartClockSeconds
+m_flStartDrawDistance
+m_flStartDrawDistanceTime
 m_flStartFadeInWeight
 m_flStartFadeOutWeight
 m_flStartFrame
 m_flStartGameTime
 m_flStartPosition
 m_flStartScale
+m_flStartScatterTime
+m_flStartScattering
 m_flStartTime
 m_flStartWeight
 m_flStartWindSpeed
@@ -24344,8 +24683,8 @@ m_flTonemapPercentBrightPixels
 m_flTonemapPercentTarget
 m_flTotalMass
 m_flTouchOutputPerEntityDelay
-m_flTrackpadOrJoystickAnalogValueX
-m_flTrackpadOrJoystickAnalogValueY
+m_flTrackpadAnalogValueX
+m_flTrackpadAnalogValueY
 m_flTransitionTime
 m_flTranslucencyLimit
 m_flTriggerAnalogValue
@@ -24406,6 +24745,7 @@ m_flextarget
 m_flextime
 m_flgeigerDelay
 m_flgeigerRange
+m_fllastTouchTime
 m_float
 m_fog
 m_fog.blend
@@ -24606,9 +24946,7 @@ m_hOwnerEntity
 m_hParentItem
 m_hPassenger
 m_hPendingSequence
-m_hPhysicallyConstrainedWeldJoint1
-m_hPhysicallyConstrainedWeldJoint2
-m_hPhysicallyConstrainedWeldJoint3
+m_hPhysicallyConstrainedWeldJoint
 m_hPhysicsAttacker
 m_hPhysicsBlocker
 m_hPickupFilter
@@ -24622,13 +24960,11 @@ m_hPostProcessController
 m_hPostProcessCtrl
 m_hPostSettings
 m_hPotentialSpeechTarget
-m_hPrevPullTarget
 m_hPrevZipline
 m_hProjectedDecal
 m_hPropHMDAvatar
 m_hProps
 m_hProxySoundscape
-m_hPullTarget
 m_hRagdollObject
 m_hRallyPoint
 m_hReference
@@ -25001,6 +25337,7 @@ m_iszExpressionScene
 m_iszFilterName
 m_iszGibModel
 m_iszGoal
+m_iszGraphVariableToSetOnTaskEnd
 m_iszGustSound
 m_iszHintTargetEntity
 m_iszHourHandName
@@ -25142,6 +25479,7 @@ m_life
 m_lifeState
 m_lifeTime
 m_lightCookie
+m_limitToEntity
 m_linear
 m_linearForce
 m_linearLimit
@@ -25179,6 +25517,7 @@ m_mInteractionTransformTarget
 m_mNodeToWorld
 m_mapName
 m_massScale
+m_matGlobalHandTransform0
 m_matHoldTransform
 m_matInteractionPosition
 m_matPanelTransform
@@ -25223,6 +25562,8 @@ m_movementSoundName
 m_movementType
 m_mpBreakMode
 m_nAITraceMask
+m_nAccountID
+m_nAchievementLevel
 m_nActiveInteraction
 m_nActivity
 m_nAllHelpersFlags
@@ -25230,6 +25571,7 @@ m_nAngularMotionX
 m_nAngularMotionY
 m_nAngularMotionZ
 m_nAnimationParity
+m_nAppID
 m_nAttachHoldIndex
 m_nAttachIndex
 m_nAttachUseIndex
@@ -25238,6 +25580,8 @@ m_nAttachmentID
 m_nAttachmentIndex
 m_nAttachmentName
 m_nAutomatedAction
+m_nBadgeBorder
+m_nBadgeLevel
 m_nBaseOffset
 m_nBaseVertex
 m_nBeamFlags
@@ -25293,7 +25637,6 @@ m_nDamagesInSum
 m_nDangerCount
 m_nDebugBits
 m_nDebugCurIndex
-m_nDebugIndex
 m_nDebugPauseIndex
 m_nDecalMaterialIndex
 m_nDefaultMeshGroupMask
@@ -25369,6 +25712,7 @@ m_nIdealMotionType
 m_nImpulse
 m_nIndexCount
 m_nIndirectLight
+m_nIndoorOutdoorLevel
 m_nInfluences
 m_nInputCount
 m_nInputType
@@ -25438,6 +25782,7 @@ m_nNumShardsEverCreated
 m_nOldButtons
 m_nOldTakeDamage
 m_nOldTickBase
+m_nOpvarType
 m_nOrder
 m_nOuterMaxDist
 m_nOutputCount
@@ -25498,6 +25843,7 @@ m_nSceneFlushCounter
 m_nSceneStringIndex
 m_nSchedule
 m_nSeat
+m_nSecondPulseStrength
 m_nSegments
 m_nShadowCascadeResolution0
 m_nShadowCascadeResolution1
@@ -25589,7 +25935,6 @@ m_nWorldGroupID
 m_nXLeftDst
 m_nYTopDst
 m_n_vr_multitool_tp_beam_segment_count
-m_name
 m_nameAttach
 m_nameAttach1
 m_nameAttach2
@@ -25734,6 +26079,7 @@ m_pScene
 m_pSceneNode
 m_pSceneObject
 m_pSchedule
+m_pSenses
 m_pServerVehicle
 m_pShadowCrouch
 m_pShadowStand
@@ -25863,11 +26209,14 @@ m_roughThreshold
 m_roughnessFactor
 m_runStepLeft
 m_runStepRight
+m_sAnimGraphFiringTag
+m_sAnimGraphWeaponFiredTag
 m_sAnimationPrefix
 m_sBlockName
 m_sBoneName
 m_sComment
 m_sExclusivity
+m_sFinishTagThatTaskIsWaitingFor
 m_sFixedSpawnGroupName
 m_sGlowEntity
 m_sGoalEnt
@@ -26194,9 +26543,13 @@ m_vPointA
 m_vPointB
 m_vPosition
 m_vPositions
+m_vPrecomputeDirection
+m_vPrecomputePosition
+m_vPrecomputeUp
 m_vPrecomputedBoundsMaxs
 m_vPrecomputedBoundsMins
 m_vPrevTeleportHapticPulsePos
+m_vPreviousHandInfo
 m_vRagdollPoint
 m_vRotationAxis
 m_vSampler
@@ -26287,6 +26640,9 @@ m_vecLatchWorldPosition
 m_vecLights
 m_vecLinearForcePointAt
 m_vecLocalTop
+m_vecLocks.Count(): %double this: 0x%p, pLock: 0x%p pLock->GetJobLocking(): %short (0x%p)
+m_vecLocks.Count(): %double, this: 0x%p, pLock->GetJobLocking(): %short (0x%p)
+m_vecLocks[%double]: %short (0x%p) %short(%double)
 m_vecMaxs
 m_vecMins
 m_vecMoveAng
@@ -26296,11 +26652,9 @@ m_vecOrigin
 m_vecOriginalAngles
 m_vecOverViewpoint
 m_vecPanelNormalWs
-m_vecPlayerCmdInfo
 m_vecPlayerHullExtensionPos
 m_vecPlayerMountPositionBottom
 m_vecPlayerMountPositionTop
-m_vecPlayerSimInfo
 m_vecPosition
 m_vecPosition1
 m_vecPosition2
@@ -26330,6 +26684,7 @@ m_vecUnragdollLocation
 m_vecUseEntities
 m_vecVehicleViewAngles
 m_vecVehicleViewOrigin
+m_vecVelocity
 m_vecViewOffset
 m_vecWaterJumpVel
 m_vecWorldOffset
@@ -26385,6 +26740,7 @@ malloc@@GLIBC_2.2.5
 mamamamamama
 manifestincomplete
 manifestloadpriority
+manual
 map %short
 map key must name signed char scalar or string field.
 map type is only allowed for fields with signed char message type.
@@ -26445,6 +26801,7 @@ match_id
 matched, weight %4.2f (short %4.2f long long char %4.2f)
 matchonce
 material
+materialA
 materialVar
 material_modify_control
 materials/
@@ -26564,6 +26921,10 @@ menu_key_values
 menuselect
 menustring
 mesh.cpp
+meshUtilsKeyValues
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 meshsystem
 message
 message $0
@@ -26582,6 +26943,7 @@ minBlendRate
 minState
 minStateTime
 min_client_limit
+min_contact_duration
 min_rotation
 min_speed
 min_speed_change
@@ -26622,12 +26984,16 @@ model_folder
 model_index
 modeldoc0
 modeldoc1
+modeldoc10
 modeldoc2
 modeldoc3
 modeldoc4
 modeldoc5
-modeldocH
-modeldocI
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
+modeldoc_preview_ent
 modelgroup
 modelindex
 modellib
@@ -26680,6 +27046,7 @@ moveTolerance
 move_keyframed
 move_rope has TextureScale greater than 10 at (%2.2f, %2.2f, %2.2f)
 move_rope has TextureScale less than 0.1 at (%2.2f, %2.2f, %2.2f)
+move_x
 move_y
 move_yaw
 moveable 
@@ -26754,6 +27121,7 @@ nMeshGroupMask
 nMode
 nNodeID
 nObjects
+nPATI
 nPitch
 nPlanes
 nPoint
@@ -26763,7 +27131,7 @@ nSignature
 nStrength
 nTargetWCNodeID
 nTaskStatus
-nThifD
+nThif
 nTotalDamageReceived
 nTries < 10000000
 nValue
@@ -26804,6 +27172,15 @@ nav_corner_select
 nav_create_area_at_feet
 nav_create_place_on_ground
 nav_crouch
+nav_curve_attract
+nav_curve_dist
+nav_curve_iter
+nav_curve_lock
+nav_curve_max_step
+nav_curve_repel
+nav_curve_set
+nav_curve_step
+nav_curve_torque
 nav_debug_blocked
 nav_delete
 nav_delete_marked
@@ -26815,8 +27192,10 @@ nav_draw_area_bgcolor
 nav_draw_area_vert_order
 nav_draw_blocked
 nav_draw_connected_area_radius
+nav_draw_connections
 nav_draw_hull_boundary
 nav_draw_hull_support
+nav_draw_indices
 nav_draw_inset_margin
 nav_draw_limit
 nav_draw_should_be_destroyed
@@ -26824,6 +27203,7 @@ nav_draw_show_light_intensity
 nav_draw_split_by_obstacle_mgr
 nav_draw_vert_hotspots
 nav_edit
+nav_edit_draw_mesh
 nav_end_area
 nav_end_deselecting
 nav_end_drag_deselecting
@@ -26832,7 +27212,6 @@ nav_end_selecting
 nav_end_shift_xy
 nav_flood_select
 nav_generate
-nav_generate.cpp
 nav_generate_compute_lighting
 nav_generate_fencetops
 nav_generate_fixup_jump_areas
@@ -26841,6 +27220,10 @@ nav_generate_incremental_range
 nav_generate_incremental_tolerance
 nav_generate_no_restart
 nav_generate_remove_jump_areas
+nav_genrt_debug
+nav_genrt_no_splice
+nav_genrt_no_split
+nav_genrt_step
 nav_jump
 nav_ladder_flip
 nav_load
@@ -26858,12 +27241,14 @@ nav_merge
 nav_merge_mesh
 nav_no_jump
 nav_obstacle_allow_delete
+nav_obstacle_genrt
 nav_obstacle_stats
 nav_obstacle_validate
 nav_obstruction_draw
 nav_path_debug_compute_with_open_goal
 nav_path_debug_jump_segments
 nav_path_draw_areas
+nav_path_draw_arrow
 nav_path_draw_climb_segments
 nav_path_draw_connected_areas
 nav_path_draw_ground_segments
@@ -26875,13 +27260,20 @@ nav_path_fixup_gap_segments
 nav_path_fixup_portal_violation_segments
 nav_path_jump_process_debug
 nav_path_optimize_enable
+nav_path_optimize_portal_positions
+nav_path_optimizer_debug
 nav_path_record_draw_last_fail
 nav_path_record_enable
 nav_path_segment_influence_radius
-nav_pathfind_debug
+nav_path_smooth_corner
+nav_path_smooth_corner_old
+nav_path_smooth_start
+nav_path_smooth_start_accel
+nav_pathfind_debug_draw
 nav_pathfind_debug_draw_costs
+nav_pathfind_debug_draw_errors
 nav_pathfind_debug_draw_total_costs
-nav_pathfind_debug_errors
+nav_pathfind_debug_log
 nav_pathfind_inadmissable_heuristic_factor
 nav_pathfind_use_area_center
 nav_potentially_visible_dot_tolerance
@@ -26938,17 +27330,26 @@ nav_test_find_nearest_clear
 nav_test_find_random_connected
 nav_test_find_random_connected_dist_max
 nav_test_find_random_connected_dist_min
+nav_test_genrt
+nav_test_genrt_place
+nav_test_loop
+nav_test_loop_radius
+nav_test_loop_string
+nav_test_loop_string_set
 nav_test_node
 nav_test_node_crouch
 nav_test_node_crouch_dir
 nav_test_path
+nav_test_path_lock_goal
+nav_test_path_lock_start
 nav_test_path_opt
-nav_test_polyclip
-nav_test_polyclip_obstacle
 nav_test_search_lattice
+nav_test_spline
+nav_test_spline_place
 nav_test_split_obstacle
+nav_test_split_obstacle_dirty
 nav_test_split_obstacle_leave
-nav_test_split_obstacle_update
+nav_test_split_obstacle_update_pos
 nav_test_test_ray_to_mesh
 nav_toggle_deselecting
 nav_toggle_in_selected_set
@@ -26968,7 +27369,6 @@ nav_world_center
 navlib
 navprop
 navproperties_t
-ndWaf
 nearz
 neck_trans
 needmore
@@ -26995,6 +27395,7 @@ net_showeventlisteners
 net_showevents
 net_table_name
 netmessages.proto
+netmsg
 netname
 network_connection.proto
 network_connection.proto"-
@@ -27047,6 +27448,7 @@ normal
 noscene
 nose_controller
 nose_snarl
+not started
 not visible to
 notarget OFF
 notarget ON
@@ -27089,6 +27491,7 @@ npc_maker %short has no specified NPC-to-spawn classname.
 npc_monk
 npc_nearest
 npc_pigeon
+npc_proxy
 npc_ragdoll
 npc_relationships
 npc_reset
@@ -27103,6 +27506,7 @@ npc_steering_all
 npc_task_text
 npc_tasks
 npc_teleport
+npc_teleport_phys_clear
 npc_template_maker
 npc_thinknow
 npc_viewcone
@@ -27112,15 +27516,16 @@ nqCBJ
 ntThink
 ntilDeadH
 ntitfD
+num_achievements
+num_achievements_completed
 num_attached_items
-num_backup_commands
 num_bits
 num_bots
 num_changed_entries
 num_clients
+num_commands
 num_elements
 num_entries
-num_new_commands
 num_server_players
 num_spectators
 num_tv_relays
@@ -27136,21 +27541,19 @@ numkeys
 numsettings
 o$ATI
 o0ATL
-o8ATI
 o8ATL
 o8D;oHD
 oB)?@
 oFQC%Fo~dF
 oG8-long long
-oHATL
 oHE;oXD
 oMateriaH
 oPATI
-oXE;ohD
 obj_pos
 object_ehandle
 obsolete1
 obsolete2
+ohATSH
 okifnomodel
 old_radiusdamage
 oldname
@@ -27182,6 +27585,8 @@ optional
 optionallycompressedtangentframe
 options
 opvarValue
+opvarValueString
+opvarValueType
 opvarname
 order_id
 orientationtype
@@ -27237,14 +27642,14 @@ p1A3333+
 p6@ffffff
 p;4,F
 p=lb@
+p?CWorldItem
 p?}WF
 p@33333
-pA9t$
-pA9t$$t3H
+p@A;void@~
+pA9~unsigned short,I
 pAffff
 pAttachmentName
 pAttachmentname
-pCViewSmoothingData_t
 pChainName
 pDefault
 pGears
@@ -27342,6 +27747,7 @@ particles/teleport/vr_teleport_destination.vpcf
 particles/tracer_fx/weapon_tracers.vpcf
 particles/ui_grab_item.vpcf
 particles/ui_laser_pointer.vpcf
+particles_list
 path_*
 path_corner
 path_corner_crash
@@ -27418,6 +27824,7 @@ physcannon_maxmass
 physdamagescale
 physgun_interactions
 physgun_notify_children
+physgun_pickup
 physib
 physics_cannister
 physics_debug_entity
@@ -27460,6 +27867,7 @@ playbackrate
 player
 player_
 player_activate
+player_changename
 player_chat
 player_connect
 player_connect_full
@@ -27474,7 +27882,6 @@ player_id
 player_incap_use_radius
 player_index
 player_info
-player_lagcompensation.cpp
 player_loadsaved
 player_manager
 player_name
@@ -27494,7 +27901,6 @@ playerhealthfrac
 playerindex
 playermodel
 playername
-playerperf
 players
 players_networkids
 playerslot
@@ -27513,6 +27919,7 @@ point_camera
 point_clientcommand
 point_clientui_dialog
 point_clientui_steamvr_world_panel
+point_clientui_world_panel
 point_clientui_world_text_panel
 point_commentary_node
 point_commentary_viewpoint
@@ -27538,6 +27945,7 @@ point_template
 point_value_remapper
 point_velocitysensor
 point_view*
+point_viewcontrol
 point_viewcontrol_multiplayer
 point_vr_anchor_override
 point_worldtext
@@ -27577,7 +27985,10 @@ preciseMovement
 precommands
 precomputedboundsmaxs
 precomputedboundsmins
+precomputedirection
 precomputedmaxrange
+precomputeposition
+precomputeup
 predelay
 preferredcarryangles
 prerequisite '%short'
@@ -27606,13 +28017,14 @@ prop_dart
 prop_data
 prop_debug
 prop_destinations_drawing
+prop_destinations_game_trophy
 prop_destinations_physics
 prop_destinations_quest_geocache
 prop_destinations_tool
 prop_disable_placement_origin_hack
+prop_door
 prop_door with no model at %.2f %.2f %.2f
 prop_door*
-prop_door.cpp
 prop_door_rotating
 prop_door_rotating_physics
 prop_dynamic
@@ -27622,9 +28034,11 @@ prop_dynamic_override
 prop_fuel_barrel
 prop_furniture
 prop_hlvr_weapon_energygun_clip
-prop_hlvr_weapon_pistol_clip
+prop_hlvr_weapon_rapidfire_clip
+prop_hlvr_weapon_shotgun_clip
 prop_hmd_avatar
 prop_physics
+prop_physics_clientside
 prop_physics_create
 prop_physics_multiplayer
 prop_physics_override
@@ -27638,6 +28052,7 @@ prop_vehicle_driveable
 prop_vehicle_jeep
 prop_vr_hand
 prop_vr_tracked_object
+prop_zipline
 propdata
 props
 props_break_max_pieces
@@ -27695,10 +28110,12 @@ pwrite64@@GLIBC_2.2.5
 pxADj
 py_generic_services
 q	@QN
+q,9p,
 q0@GP
 q0Mc}
 q;4,F
 q@P7P
+qAngles
 qB%A=
 qF8e<F
 qTargetRotation
@@ -27720,6 +28137,7 @@ r)H9]
 r.@@void
 r0@GP!
 r4GV~9
+r6LcA
 r6mFH
 r6mFt!H
 r6mFu
@@ -27742,7 +28160,6 @@ r_JeepViewZHeight
 r_VehicleViewDampen
 r_cacheSequenceData
 r_skymodel_moonboost
-r_skymodel_nightambient
 r_skymodel_wavelength_b
 r_skymodel_wavelength_g
 r_skymodel_wavelength_r
@@ -27782,10 +28199,10 @@ readdir64@@GLIBC_2.2.5
 reading weapons from %short
 readlink
 readlink@@GLIBC_2.2.5
-ready
 really freaking heavy
 reason
 receivingclients
+recenter_on_parent_bone
 recipientList
 reciprocal
 ref_aim_
@@ -27892,7 +28309,6 @@ right_puckerer
 right_upper_raiser
 rightedge
 rightedge %short %.3f 
-rigid_paH
 rigid_particle_trail
 rollLockData
 rollVel
@@ -27936,14 +28352,12 @@ rr_remarkable_world_entities_replay_limit
 rr_remarkables_enabled
 rr_thenany_score_slop
 rrieHc
-rticle_tH
 rulename
 rulename is %short
 rumble
 runleft
 runright
 s.daH
-s0tAL
 s1[A\A]A^]
 s1_mapname
 s4[A\A]A^]
@@ -27961,6 +28375,7 @@ sPhases
 sThif
 sUnlockedSentence
 sXHcGp;unsigned charimaginary |
+sX[A\A]A^]
 s_EntComponentInfo
 s_Ladders
 s_bAbsQueriesValid
@@ -27983,6 +28398,7 @@ save %short
 save autosave
 save file '%short' expected to have signed char single entry [%double]. Loading base level.
 save/%s.spe
+save_animgraph_recording
 save_async
 save_history_count
 save_id
@@ -28115,9 +28531,8 @@ sequenceOpCycleChanged
 sequenceOpSequenceChanged
 sequence[%double] 
 sequence_bytes
-sequence_in
+sequence_name
 sequence_number
-sequence_out_ack
 sequenceduration
 sequenceduration %float
 sequential
@@ -28197,6 +28612,7 @@ short off
 short void&E1
 short ~YH
 short!@8u
+short(D9r(
 short([A\]
 short(~YH
 short)~+@
@@ -28218,6 +28634,8 @@ showhitlocation
 showtriggers
 showtriggers_toggle
 signed char trigger_changelevel doesn'unsigned short have signed char map
+signed char unsigned short/L
+signed char world layer in signed char dota map
 signed char?CJ#
 signed char@ffff
 signedPayload
@@ -28282,7 +28700,10 @@ sky_urb01
 skyboxFogFactor
 skyboxFogFactorLerpTo
 skybox_reference
+skycolor
+skyintensity
 slavename
+sleep for time
 sleepstate
 slideaxis
 slidefriction
@@ -28354,7 +28775,6 @@ sounds
 soundscapeEntityListIndex
 soundscape_debug
 soundscape_flush
-soundscape_system.cpp
 soundsetlockedoverride
 soundsetunlockedoverride
 soundsystem
@@ -28363,6 +28783,7 @@ soundunlockedoverride
 sourceEntityName
 source_code_info
 source_entity_index
+source_filename
 space shuttle
 spark_shower
 spawnGroupType
@@ -28409,8 +28830,10 @@ spin_none
 spin_zaxis
 spindown
 spindownsav
+spineYaw
 spine_yaw
 spinupsav
+splitscreenplayer
 spotlight_end
 spotlight_radius
 spraycan
@@ -28428,7 +28851,6 @@ sprites/
 sprites/%short
 sprites/fire_floor.vmat
 sprites/lgtning.vmat
-sprites/plasma1.vmat
 sqrt@@GLIBC_2.2.5
 sqrtf
 sqrtf@@GLIBC_2.2.5
@@ -28476,6 +28898,9 @@ startspeed
 starttime
 startvalue
 state
+static const unsigned int IChoreoAnimNodeInstance::MyTypeID()
+static const unsigned int IDirectPlaybackAnimNodeInstance::MyTypeID()
+static const unsigned int IPostGraphIKTag::MyTypeID()
 static const unsigned int ISequenceFinishedAnimTag::MyTypeID()
 static const unsigned int ITaskStatusAnimTag::MyTypeID()
 staticsolid
@@ -28484,11 +28909,15 @@ status_code
 std::_Bind<std::_Mem_fn<bool (CCoverGoal::*)(Vector const&)> (CCoverGoal*, std::_Placeholder<1>)>
 std::_Bind<std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&)> (CCoverLowGoal*, std::_Placeholder<1>)>
 std::_Bind<std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&)> (CCoverWallGoal*, std::_Placeholder<1>)>
+std::_Bind<std::_Mem_fn<float (CNavLoopZonePointCost::*)(Vector2D const&, Vector2D const&)> (CNavLoopZonePointCost*, std::_Placeholder<1>, std::_Placeholder<2>)>
+std::_Bind<std::_Mem_fn<float (CNavLoopZoneTriangleCost::*)(Vector2D const&, Vector2D const&) const> (CNavLoopZoneTriangleCost*, std::_Placeholder<1>, std::_Placeholder<2>)>
 std::_Bind<std::_Mem_fn<void (CFuncNavBlocker::*)(CNavArea&)> (CFuncNavBlocker*, std::_Placeholder<1>)>
 std::_Function_base
 std::_Maybe_get_result_type<true, std::_Mem_fn<bool (CCoverGoal::*)(Vector const&)> >
 std::_Maybe_get_result_type<true, std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&)> >
 std::_Maybe_get_result_type<true, std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&)> >
+std::_Maybe_get_result_type<true, std::_Mem_fn<float (CNavLoopZonePointCost::*)(Vector2D const&, Vector2D const&)> >
+std::_Maybe_get_result_type<true, std::_Mem_fn<float (CNavLoopZoneTriangleCost::*)(Vector2D const&, Vector2D const&) const> >
 std::_Maybe_get_result_type<true, std::_Mem_fn<void (CFuncNavBlocker::*)(CNavArea&)> >
 std::_Maybe_unary_or_binary_function<NavSearchPosResult_t<Vector const&, CNavArea const&> >
 std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
@@ -28498,10 +28927,14 @@ std::_Vector_base<std::__detail::_State, std::allocator<std::__detail::_State> >
 std::_Weak_result_type<std::_Mem_fn<bool (CCoverGoal::*)(Vector const&)> >
 std::_Weak_result_type<std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&)> >
 std::_Weak_result_type<std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&)> >
+std::_Weak_result_type<std::_Mem_fn<float (CNavLoopZonePointCost::*)(Vector2D const&, Vector2D const&)> >
+std::_Weak_result_type<std::_Mem_fn<float (CNavLoopZoneTriangleCost::*)(Vector2D const&, Vector2D const&) const> >
 std::_Weak_result_type<std::_Mem_fn<void (CFuncNavBlocker::*)(CNavArea&)> >
 std::_Weak_result_type_impl<std::_Mem_fn<bool (CCoverGoal::*)(Vector const&)> >
 std::_Weak_result_type_impl<std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&)> >
 std::_Weak_result_type_impl<std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&)> >
+std::_Weak_result_type_impl<std::_Mem_fn<float (CNavLoopZonePointCost::*)(Vector2D const&, Vector2D const&)> >
+std::_Weak_result_type_impl<std::_Mem_fn<float (CNavLoopZoneTriangleCost::*)(Vector2D const&, Vector2D const&) const> >
 std::_Weak_result_type_impl<std::_Mem_fn<void (CFuncNavBlocker::*)(CNavArea&)> >
 std::__detail::_Automaton
 std::__detail::_CharMatcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::regex_traits<char> >
@@ -28525,7 +28958,6 @@ steamTours_item_tool
 steam_id
 steamid
 steamjet
-steamtours/steamtours_client.cpp
 steamtours_clientmessages.proto
 steamtours_gamerules
 steamtours_usermessages.proto
@@ -28533,6 +28965,7 @@ steamtours_usermessages.proto")
 steamvr_addon
 steamvr_background
 steamvr_home
+steamvr_panel_type
 steeringExponent
 steeringRestRateFast
 steeringRestRateSlow
@@ -28641,6 +29074,7 @@ sv_friendly_dmg_immune
 sv_gravity
 sv_hitbox_debug
 sv_infinite_ammo
+sv_infinite_clips
 sv_ladder_slack_z_mult
 sv_lagcompensationforcerestore
 sv_lagflushbonecache
@@ -28676,7 +29110,6 @@ sv_phys_sleep_enable
 sv_phys_stop_at_collision
 sv_phys_visualize_awake
 sv_player_stuck_tolerance
-sv_playerperfhistorycount
 sv_printdecalinfo
 sv_prop_door_max_close_attempts
 sv_pushaway_clientside
@@ -28719,6 +29152,7 @@ sv_soundscape_printdebuginfo
 sv_specaccelerate
 sv_specnoclip
 sv_specspeed
+sv_steamtours_spawned_panel_dist
 sv_stepsize
 sv_stopspeed
 sv_strict_notarget
@@ -28776,14 +29210,14 @@ szName
 szSchedule
 t$'H)
 t$(E;t$8D
+t$(M9
 t$0A\]
 t$0H)
 t$0Lc
-t$0Mk
+t$0t#H
 t$89C
 t$8H)
 t$<H)
-t$@A;wchar_t@~
 t$@A\]
 t$@H9p unsigned short
 t$@tsHc
@@ -28798,17 +29232,19 @@ t$Hc{0H
 t$Hc{<H
 t$Hc{@H
 t$HfA
+t$IcT$
 t$Icv
 t$Ic}
 t$Ic~8H
 t$LH)
 t$Lc;D;{
 t$PH)
+t$PfD
 t$XA\]
 t$`D+
+t$`H;
 t$`HcE
 t$`HcU
-t$xE;
 t.D9p
 t.H9w(t8H9w0tBH9w8tLH9w@unsigned short
 t.Lc#M
@@ -28828,7 +29264,6 @@ t5Mc>E;~
 t5[A\A]A^]
 t5[A\]
 t5~8H
-t6D;@
 t6D;gXI
 t6L9s
 t6Lc#H
@@ -28836,19 +29271,21 @@ t6Lc#I
 t6[A\]
 t7D;&~&L
 t7D;.~'L
-t7IcF
 t7Lc+M
 t7[A\]
 t8D;&~'L
 t8H;X
+t8Lc}
 t9[A\]
 tALcc
 tALc}
 tA[A\]
 tAffffhF
 tB<#unsigned short>
-tCHc]
-tCLc%unsigned short
+tBHc]
+tBIcV
+tCLc%
+tDD9I
 tEE;G
 tEMcY
 tEMci
@@ -28857,12 +29294,10 @@ tF[A\A]A^]
 tF\sQF^e7F0
 tFadeOutH
 tF~tf
-tG[A\]
+tHI9\$HtA
 tIH9V
 tJHcC
-tJI9\$HtCH
 tLHcE
-tM[A\]
 tNHcE
 tOvef
 tR="{
@@ -28873,6 +29308,7 @@ tT;G0tg
 tThiHc
 tThif
 tV;0~'L
+tVIcE
 tVLck
 tWA9]
 tWD9 u
@@ -28905,6 +29341,7 @@ target_attachment
 target_changegravity
 target_faction
 target_point
+target_scan_use_query_cache
 targetattachment
 targetclass
 targetclassname
@@ -28950,9 +29387,7 @@ test_effect
 test_entity_blocker
 test_occlusion
 test_restoreonnewmodel
-test_stressentities.cpp
 test_traceline
-testfunctions.cpp
 texcoord
 texcoordH
 texframeindex
@@ -29012,7 +29447,9 @@ timezone
 tint_color
 tk#C,
 tnr\@
+tnsTH
 toD;u
+toH;E
 toggles whether the server allows spectator mode or not
 tolerance ang (dot): %.2f (%float)
 tolower
@@ -29087,9 +29524,15 @@ trigger_traversal_modifier
 trigger_traversal_modifier_to_line
 trigger_traversal_no_teleport
 triggeronstarttouch
+trophy_bronze
+trophy_gold
+trophy_no_achievements
+trophy_platinum
+trophy_silver
 true 
-tsH;E
+ts[A\]
 ttIcG
+ttLcu
 turnThrottleReduceFast
 turnThrottleReduceSlow
 tv#CL
@@ -29097,14 +29540,15 @@ tv28&G@sK
 tv_allow_camera_man
 tv_allow_static_shots
 tv_delay
+tv_log_director_events
 tv_msg
 tv_show_allchat
 twHcu
-twHc}
 twL9+u
 txA;\$ I
 ty#CL
 tyHcO
+tyHcR
 type != DATA_UPDATE_CREATED
 type() == TYPE_FIXED32
 type() == TYPE_FIXED64
@@ -29119,9 +29563,8 @@ u	[A\]
 u A\A]A^]
 u D;&
 u [A\]
+u"[A\A]A^]
 u#H9w unsigned short#H9w(unsigned short
-u%A9]unsigned char
-u&[A\A]A^]
 u(0@F;
 u(ATD
 u([A\A]A^]
@@ -29136,9 +29579,8 @@ u8[A\]
 u9% &
 u:IcOTL
 u;HcC
-u<CNetworkedSequenceOperation
 u<Lc#D;char
-u<[A\A]A^]
+u<[A\]
 u<~%I
 u=Ic]
 u@[A\]
@@ -29149,16 +29591,18 @@ uG[A\A]A^]
 uMLc#D;char
 uPMc4$fA
 uRMcl$
+uSD;-
 uT1C@
+uTIcU
 uUHcC
 uUMc}
+uWD9s
 uYLl>
 uZJcT
 u[[A\]
-u]D;%
 u^[&`
 ubIcE
-uhL;-
+ub[A\A]A^]
 uint16
 uint32
 uint64
@@ -29170,6 +29614,7 @@ unable to load mesh "%short"
 uncompressed_sample_offset
 uncompressed_size
 undThinkH
+undefined
 unhandled input: (%short) -> (%short), from (%short,%short); %short
 unified
 unified 
@@ -29177,6 +29622,7 @@ uninterpreted_option
 unique_target
 unknown
 unknown activity %double on for activity model %short!
+unknown job
 unknown type %double in ProcessSceneEvent()
 unknown_variant_type
 unless the start entity is also the beam itself!
@@ -29192,11 +29638,9 @@ unsigned __int128 ATI
 unsigned __int128 ATL
 unsigned __int128 ATSH
 unsigned __int128(ATE1
-unsigned __int128(ATSH
 unsigned __int128*Ral
 unsigned __int128?ffff
-unsigned __int128@ATL
-unsigned __int128@u-J
+unsigned __int128@u-L
 unsigned __int128`ATI
 unsigned __int128}Xot#
 unsigned char volatile{O@__int128
@@ -29216,9 +29660,8 @@ unsigned long long("t_
 unsigned long long?ffff
 unsigned long long@long long^*6
 unsigned longcomplex <T*char?
-unsigned short	;P$
 unsigned short	;sP
-unsigned short	D;p
+unsigned short	L;0
 unsigned short	[A\A]A^]
 unsigned short	[A\]
 unsigned short HcS
@@ -29235,24 +29678,26 @@ unsigned short"HcM
 unsigned short"HcO
 unsigned short"[A\A]A^]
 unsigned short#D9"
-unsigned short#D;:toH
 unsigned short#Hcs
+unsigned short#HcsX
 unsigned short#Hc{
 unsigned short#Hc{ H
 unsigned short#Hc{$H
 unsigned short#Hc{(H
 unsigned short#Hc{,H
-unsigned short#Hc}
 unsigned short#Lck
-unsigned short#LckXD;khD
+unsigned short%D; tXH
 unsigned short%HcO
 unsigned short%Mc4$E;t$
 unsigned short%[A\A]A^]
-unsigned short&D;=long double
+unsigned short%[A\]
+unsigned short&;5'
+unsigned short&D;=
 unsigned short&HcC
 unsigned short&Hcq
+unsigned short&[A\]
 unsigned short'<"unsigned short
-unsigned short'D;5
+unsigned short'D;5^u
 unsigned short'HcC
 unsigned short'HcK
 unsigned short'HcM
@@ -29271,25 +29716,26 @@ unsigned short'Hc{TH
 unsigned short'IcD$
 unsigned short'Lcc
 unsigned short'[A\]
+unsigned short(H;p
 unsigned short(HcO
 unsigned short([A\A]A^]
 unsigned short([A\]
+unsigned short);=R
 unsigned short)Lc+D;k
 unsigned short)fD9
 unsigned short* Hc
 unsigned short*<*u
 unsigned short*<-H
-unsigned short*H9r
 unsigned short*HcE
 unsigned short*HcM
 unsigned short*HcO
-unsigned short*L;unsigned long
+unsigned short*I;q
 unsigned short*LcC
+unsigned short*Lcc
 unsigned short*fA9
-unsigned short*imaginary 	E
 unsigned short*xHc
 unsigned short+<\u
-unsigned short+H;p
+unsigned short+D9s
 unsigned short+Hc4
 unsigned short+HcsX
 unsigned short+Hc{lH
@@ -29297,35 +29743,40 @@ unsigned short+IcD$
 unsigned short+IcV
 unsigned short+Jc4
 unsigned short+Mc&E;float
+unsigned short+Mcl$pE;
 unsigned short+[A\]
 unsigned short+fA9
+unsigned short,H;p
 unsigned short,I9}
-unsigned short,I;q
-unsigned short,Lc%u
+unsigned short,L;long double
+unsigned short,Lc%U
 unsigned short,Mc}
-unsigned short-Mc,$E;l$
+unsigned short-Mc4$E;t$
 unsigned short-rex
 unsigned short/9w t29w0t=1
-unsigned short/H;p
+unsigned short/H9q
+unsigned short/Lc+
 unsigned short: Hc
 unsigned short:Lc+Ic
 unsigned short:[A\]
 unsigned short:[A^]
 unsigned short;[A\]
+unsigned short<HcM
 unsigned short<IcV
 unsigned short<[A\]
 unsigned short<fA9
 unsigned short=~K=
+unsigned short>IcM
 unsigned short>M.F9
 unsigned short>Mc.E9n
 unsigned short>[A\A]A^]
+unsigned short>fA9
 unsigned short?Hc4
-unsigned short?HcM
 unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@D;(};E
 unsigned short@Ic_
-unsigned short@Lc%
+unsigned short@Lc%	
 unsigned short@[A\A]A^]
 unsigned short@[A\]
 unsigned short@}?5^
@@ -29345,7 +29796,6 @@ unsigned short}#CL
 unsigned short}HcM
 unsigned short}HcO
 unsigned short~HcJ
-unsigned short~HcK
 unspecified
 unused
 unused (item_smg1_grenade) 13
@@ -29489,6 +29939,7 @@ vel: %.2f, time: %.2f, max: %.2f, animspeed: %.2f
 velocity
 velocity_relative
 velocitytype
+vemefD
 venice_courtyard
 version
 vertical spacing - from center to center
@@ -29543,11 +29994,10 @@ void %__float128 %__float128 %__float128%short
 void!<\unsigned short
 void"</u0
 void(H9P
-void*</uO
+void*</u8
 void/Icw
 void;<\t7I
 void>zlK9T
-void@CAI_Hint
 void@ffff
 void\C_0
 void{~@+
@@ -29556,6 +30006,7 @@ volrun
 volstart
 volume
 volume_atten
+volumefogenabled
 vote_create_failed_t
 vpcf1
 vpcf_c
@@ -29575,9 +30026,9 @@ vr_controller_held_left
 vr_controller_held_right
 vr_controller_hold
 vr_controller_root
+vr_controller_root_knuckles
 vr_controller_root_left
 vr_controller_root_right
-vr_core/hand_use_controller.cpp
 vr_debug_velocity
 vr_dev_palette_angles
 vr_dev_palette_dpi
@@ -29587,18 +30038,18 @@ vr_dev_palette_offset
 vr_dev_palette_width
 vr_gg_pickup_maxmass
 vr_gg_pickup_maxsize
-vr_grabittyglove_light_rotate_x
-vr_grabittyglove_light_rotate_y
-vr_grabittyglove_light_rotate_z
 vr_hand_debug
 vr_hand_disable_item_pickup_events
 vr_hand_drag_throw_max_vel
 vr_hand_drag_throw_max_vel_z
+vr_hand_knuckles_use_grip
+vr_hand_left_attachment_rotation
+vr_hand_model
 vr_hand_model_override
-vr_hand_palm_lighting
 vr_hand_pull_use_palm
 vr_hand_reduced_carry_mass
 vr_hand_release_impulse_scale
+vr_hand_right_attachment_offset
 vr_hand_skewer
 vr_hand_skewer_speed
 vr_hand_trackpad_ui_angles
@@ -29612,6 +30063,7 @@ vr_hand_use_distance
 vr_hand_use_distance_fast
 vr_hand_use_sweep_radius
 vr_hand_use_sweep_radius_large
+vr_handinfo_history_size
 vr_held_object_color_ghost
 vr_held_object_color_undroppable
 vr_held_object_max_radius
@@ -29631,10 +30083,12 @@ vr_hmd_helmet_yaw_roll_model
 vr_hmd_helmet_yaw_roll_pitch_model
 vr_hmd_positions_debug
 vr_hmd_tracking_passthrough
-vr_interact_advance
-vr_interact_center
+vr_hold_angular_stiffness_decay
+vr_hold_dynamic_joint
+vr_hold_dynamic_joint_max_separation
+vr_hold_linear_stiffness_decay
+vr_hold_max_stiffness_decay_delta
 vr_interact_clip
-vr_interact_retreat
 vr_interaction_anglediff
 vr_interaction_debug
 vr_interaction_deltaspeed
@@ -29650,6 +30104,7 @@ vr_item_browser_radius
 vr_item_browser_row_spacing
 vr_item_browser_scroll_value
 vr_item_browser_tilt
+vr_middle_finger_grip
 vr_multitool_activate_on_touch
 vr_multitool_hmd_look_angle_offset
 vr_multitool_hmd_look_start_offset
@@ -29664,20 +30119,32 @@ vr_multitool_tp_fadeout
 vr_multitool_trackpad_teleport
 vr_multitool_use_wall_avoidance
 vr_multitool_wormhole
+vr_panel_snap_angle_delta
 vr_panel_view_focus_max_distance
 vr_pickup_ignore_mass_and_size
 vr_pickup_maxmass
 vr_pickup_maxsize
 vr_proto_overlay
 vr_scriptsystem
+vr_stealth_decay
+vr_stealth_idle_decay
+vr_stealth_idle_spot_time_max
+vr_stealth_idle_spot_time_min
+vr_stealth_spot_dist_max
+vr_stealth_spot_dist_min
+vr_stealth_spot_time_max
+vr_stealth_spot_time_min
+vr_stealth_teleport_forcepeek_time
 vr_swap_logical_hands
 vr_teleport_area
 vr_teleport_marker
 vr_throw_ang_scale
+vr_throw_debug
 vr_throw_velocity_scale
 vr_track_lost_hand_bug_debug
 vr_tracked_object_client_can_be_authoritative_for_transform
 vr_tracked_object_positions_debug
+vr_tracked_object_post_projection
 vr_tracked_objects_solid
 vr_two_handed_throw_interval
 vr_use_absolute_tracking
@@ -29685,6 +30152,7 @@ vr_use_steamvr_controller_model
 vr_vrfly_does_noclip
 vr_vrfly_does_noclip: %double
 vr_world_scale
+vr_worldui_interact_controller_close_range
 vr_worldui_interact_controller_drawoffset
 vr_worldui_interact_controller_maxrange
 vr_worldui_interact_haptic_pulse
@@ -29698,31 +30166,30 @@ vsnprintf@@GLIBC_2.2.5
 vstdlib
 vsurf
 vtexATI
-vtexL
+vtexH
 w$AUL
 w-Fx
 w0AUL
 w4ATL
 w74@ffffb
-w8AUA
-w8AUI
 w?WA
 wE@)@
 wEDM@
 wHAUL
 wLATL
 wP9AR
-wPAUI
 wPAUL
 wXAUL
 w_desertH
 waFc^
+waiting for lock
+waiting line %double %short
 wakeradius
 wakesquad
 walkTolerance
 walkleft
 walkright
-watefA
+watefE
 water_lod_control
 water_wake
 waterbullet
@@ -29733,6 +30200,7 @@ wchar_t ATL
 wchar_t AUI
 wchar_t AUL
 wchar_t tgH
+wchar_t(AUATI
 wchar_t(AUI
 wchar_t(AUL
 wchar_t(E;w8D
@@ -29758,11 +30226,12 @@ weapon_crossbow
 weapon_crowbar
 weapon_cubemap
 weapon_fire
+weapon_fired
 weapon_frag
 weapon_mine
 weapon_physcannon
+weapon_pistol
 weapon_rpg
-weapon_shotgun
 weapon_showproficiency
 weapon_smg1
 weapon_stunstick
@@ -29773,6 +30242,7 @@ weaponname
 weapons/H
 weaponscripts
 wearableid
+webapi
 wheel
 wheel_fl
 wheel_fr
@@ -29786,6 +30256,8 @@ windradius
 wiring
 wnThink
 wn}!f9
+work item
+workitem
 world_interactions
 world_items
 world_offset_angle
@@ -29796,6 +30268,7 @@ worldent
 worldgroupid
 worldorigin
 worldrenderer
+worldspawn
 worldui_interact_controller
 wrinkler
 write
@@ -29803,51 +30276,53 @@ write@@GLIBC_2.2.5
 wrong submessage type
 wvq@q=
 wxLcE
-x$HcS ;S0
 x.Lcm
 x0;wX}+Hc
 x2Hcw
 x7Hcw
 x8Lcc D;c0
 x8Mcl$ E;l$0
+x8udL
 x8uwH
 xED;char }?E
-xG;wh|
 xGHcO
 xJA;E
 xL9-C
 xLMce
 xOHcO
+xPATL
 xRHcW
 xSHcO
 xSIcL$
+xWHcW
 x_HcO
+xb;wX}]Hc
 xbox_autothrottle
 xbox_steering_deadzone
 xbox_throttlebias
 xbox_throttlespoof
 xc_crouch_debounce
 xen_plant*
-xo;wX}jHc
-xsHcW
 xtw?__float128
+yE>CScriptNavBlocker
 yH"ts
 yaw "%int"
 yaw: %float
 yawVel
 yes - via input
+yield
+yielding
 you_hear_them
 z$?N(D
 z$?TR'
-z$u"A
 z$u"I
-z$u"f.
 z.u,H
 z.u,M
 z.u,fA
 z0u.H
 z1u/H
 z4u2A
+z5u3H
 z6$r@ffff.N
 z7u5H
 z8"t4f
@@ -29857,6 +30332,7 @@ z8u6A
 z9u7H
 zAu?H
 zD?fffff*
+zDuBD
 zDuBH
 zEuCH
 zF!8YFr
@@ -29870,13 +30346,16 @@ zHuFH
 zIuGH
 zKuIA
 zLuJH
+zMuKH
 zNear
 zNuLH
 zOuMD
 zOuMH
+zPuND
+zPuNE
 zPuNH
 zRuPI
-zSuQL
+zSuQE1
 zTuRA
 zVuTH
 zWuUM
@@ -29887,24 +30366,26 @@ z_door_reopen_interval
 z_door_retry_interval
 z_u]H
 zgueM
-ziugH
+zhufH
 ziugI
 zkuiD;unsigned long
 zkuiH
+zkuiIc
 zkuiL
 zm6Vb
-zmukIc
+zmukA
 znulA
-znulI
+zpunH
+zrup1
 zrupH
-zsuq1
-zt?Updating goal pos
+zturH
 zuusH
 zuusI
+zvutH
+zvutL
 zxuvH
 zxuvI
 zxuvM
-zzuxH
 zzuxI
 { uaH
 {(D9{8D
@@ -29915,35 +30396,40 @@ zzuxI
 {0@cz
 {8L;__float128
 {8L;unsigned __int128
+{@I9x@wchar_t
+{@[A\]
 {@ffff
 {PD;{`D
 {XH	E
+{YIN?
 {hD;{xD
 {o3@yCu
 {uyfn?...
+{xHcCpI
+{}()'
 {}()':
 {}[]()=&, 	
 {}[]=, 	
+|$ A\]
 |$ fA
 |$$E1
 |$'H)
 |$(L)
-|$0fA
+|$0A\]
+|$8A\]
 |$8E1
-|$@A\A]A^]
+|$<E1
 |$HfA
 |$Nt-I
-|$PA\A]A^]
 |$PVCCD
 |$PfA;
 |$XE1
 |$XfA
+|$`A\A]A^]
 |$`A\]
 |$`Hc
 |$`L9
-|$hE1
 |$pE1
-|$pE;
 |&D;short(u
 |)<hv
 |)<hv]
@@ -29951,9 +30437,11 @@ zzuxI
 |,D9c
 |.D;char(u
 |0D9c
+|2D9e
 |5E9}
 |7E;|$
 |9Ic>I
+|:$Hc
 |>t4E
 |?5&[@R
 |?5><
@@ -29966,9 +30454,10 @@ zzuxI
 |?5^double@
 |?5~M
 |?5~int
-|BmeshUtilsKeyValues
+|BAttribute counts between meshes is inconsistent
 |KtA9
 |a2U0
+|cE9'u
 |ktYL9
 |sA;t$0
 |yA;t$8
@@ -29978,8 +30467,6 @@ zzuxI
 } float;r
 }!float;r
 }$A)\
-}$IcM
-})float;__int128complex 
 }*;C<wchar_t%
 }*f9Cfr$H
 },fA9
@@ -29992,6 +30479,7 @@ zzuxI
 }3fA;\$~wchar_t+H
 }3fA;\wchar_t volatile+H
 }3fA;]fw,L
+}5D;-q
 }8f;rnw2f
 }:float;pnw4f
 }>;w$
@@ -30003,6 +30491,7 @@ zzuxI
 }?E:__int128
 }@33331
 }D;w$w?
+}DD;}
 }F;w$
 }FfA;\$fw>H
 }FfA;^fw?L
@@ -30011,10 +30500,11 @@ zzuxI
 }Hf;wchar_t
 }I;w$
 }J@:wchar_t
+}JD;-
 }KfD9
 }Lf;wchar_t
+}N;w$
 }Sf;HnwMf
-}TD;%
 }Tf;wchar_t
 }TfD9
 }UHc
@@ -30024,40 +30514,41 @@ zzuxI
 }Yf;JnwSf
 }Yf;wchar_t
 }aEzi!E@
+}dD9}
 }double)H"unsigned int
-}eD9}
 }efA;
 }float&;wchar_t
 }hf;wchar_t
 }l7f~
 }qfD;c6wjfA
-}unsigned int;w$
+}unsigned long long;w$
 }wchar_t+unsigned short const
 }xfE9ffrqL
-~	;longcomplex 
 ~	ATI
 ~%D9#t2
-~%L;float
+~%L;bool
 ~&D;char(u
-~&L;q
+~&L;float
+~'H;_
 ~'fE;__float128
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=S	S
-~)H;_
+~)H9=
+~)H;^
 ~*HcE
 ~*I;X
-~*L;signed char
+~*L;q
 ~+A9\$
-~,L;q
-~,Lc#M
-~-L;bool
-~-L;signed char
+~,L;unsigned long long
+~-L;q
 ~099t
 ~0AffffN
+~1Lc+L
 ~31]H
+~4Lc#M
 ~79ZP
+~9Lc+L
 ~:Lc+A
 ~<Lc{
 ~=FLD4F
@@ -30067,7 +30558,6 @@ zzuxI
 ~AVAUL
 ~CLoggingInternalMsg_ScopeVerification
 ~FNhvF
-~H;Y
 ~NA~6
 ~QLcm
 ~[F-"
@@ -30075,6 +30565,7 @@ zzuxI
 ~b8~q)=
 ~oHc6H
 ~p>u,
+~pLce
 ~short;C`}VH
 ~unsigned short!H
 ~|HcE

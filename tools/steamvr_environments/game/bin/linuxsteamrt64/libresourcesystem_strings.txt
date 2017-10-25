@@ -8,6 +8,7 @@
 	References grouped by matching call stack of at least 1 frame '%short'
 	References grouped by matching call stack of at least 10 frames '%short'
 	References grouped by matching call stack of at least 4 frames '%short'
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
  ( def. "%short" )
  [%.3f server clamped to %.3f]
  [A\A]A^]
@@ -81,6 +82,7 @@ $uFA
 -sse4
 -start_resource_profiling
 .../u-H
+../public/ordered_constructor.h
 ../public/resourcefile/resourcestream.h
 ../public/tier0/tslist.h
 ../public/tier1/utlblockmemory.h
@@ -119,7 +121,6 @@ $uFA
 3E8 u
 42HcU
 4fff>fff>fff>fff>
-6*?Allocate
 6H92t%H
 8[A\A]A^A_]
 8[A\A]]
@@ -135,6 +136,7 @@ $uFA
 =CSP1A
 =CSP1u
 ?Usage: resource_leaks <resource_name>
+@Allocate
 @[A\A]A^]
 @[A\]
 A+D$$H
@@ -184,11 +186,9 @@ AWAVAUATSH
 AWAVAUATUSH
 AWAVAUI
 AWAVAUL
-AWAVAULc
 AWAVD
 AWAVE
 AWAVE1
-AWAVH
 AWAVI
 AWAVL
 AWAVLc
@@ -197,6 +197,7 @@ A\A]A^A_]
 A\A]A^A_]A
 A\A]A^]
 A\A]]
+AddRef
 AllocInternal
 Allocate
 AllocateAndCopy
@@ -218,16 +219,19 @@ Blocking Manifest Load
 BlockingLoadResourceByNameIntoJustInTimeManifest
 C,[A\A]]
 C,[A\]
+C8[A\]
 C@Lc#
 CAsyncResourceDataRequest
 CAsyncTrackingConvar
 CAtomicManipulator<CResourceArray<CResourceString> >
 CAtomicManipulator<CResourceArray<CTransform> >
+CAtomicManipulator<CResourceArray<FeAnimStrayRadius_t> >
 CAtomicManipulator<CResourceArray<FeAxialEdgeBend_t> >
 CAtomicManipulator<CResourceArray<FeCollisionPlane_t> >
 CAtomicManipulator<CResourceArray<FeCollisionSphere_t> >
 CAtomicManipulator<CResourceArray<FeCtrlOffset_t> >
 CAtomicManipulator<CResourceArray<FeCtrlOsOffset_t> >
+CAtomicManipulator<CResourceArray<FeCtrlSoftOffset_t> >
 CAtomicManipulator<CResourceArray<FeFitMatrix_t> >
 CAtomicManipulator<CResourceArray<FeFitWeight_t> >
 CAtomicManipulator<CResourceArray<FeFollowNode_t> >
@@ -236,6 +240,7 @@ CAtomicManipulator<CResourceArray<FeNodeIntegrator_t> >
 CAtomicManipulator<CResourceArray<FeNodeReverseOffset_t> >
 CAtomicManipulator<CResourceArray<FeQuad_t> >
 CAtomicManipulator<CResourceArray<FeRodConstraint_t> >
+CAtomicManipulator<CResourceArray<FeSimdAnimStrayRadius_t> >
 CAtomicManipulator<CResourceArray<FeSimdFitMatrices_t> >
 CAtomicManipulator<CResourceArray<FeSimdNodeBase_t> >
 CAtomicManipulator<CResourceArray<FeSimdQuad_t> >
@@ -325,12 +330,14 @@ CSchemaClassBinding<CRMSG_Resource_ExtReference>
 CSchemaClassBinding<CRMSG_Resource_NewId>
 CSchemaClassBinding<CRMSG_System_Event>
 CSchemaClassBinding<CovMatrix3>
+CSchemaClassBinding<FeAnimStrayRadius_t>
 CSchemaClassBinding<FeAxialEdgeBend_t>
 CSchemaClassBinding<FeBandBendLimit_t>
 CSchemaClassBinding<FeCollisionPlane_t>
 CSchemaClassBinding<FeCollisionSphere_t>
 CSchemaClassBinding<FeCtrlOffset_t>
 CSchemaClassBinding<FeCtrlOsOffset_t>
+CSchemaClassBinding<FeCtrlSoftOffset_t>
 CSchemaClassBinding<FeEdgeDesc_t>
 CSchemaClassBinding<FeFitInfluence_t>
 CSchemaClassBinding<FeFitMatrix_t>
@@ -342,12 +349,14 @@ CSchemaClassBinding<FeNodeIntegrator_t>
 CSchemaClassBinding<FeNodeReverseOffset_t>
 CSchemaClassBinding<FeQuad_t>
 CSchemaClassBinding<FeRodConstraint_t>
+CSchemaClassBinding<FeSimdAnimStrayRadius_t>
 CSchemaClassBinding<FeSimdFitMatrices_t>
 CSchemaClassBinding<FeSimdNodeBase_t>
 CSchemaClassBinding<FeSimdQuad_t>
 CSchemaClassBinding<FeSimdRodConstraint_t>
 CSchemaClassBinding<FeSimdSpringIntegrator_t>
 CSchemaClassBinding<FeSimdTri_t>
+CSchemaClassBinding<FeSoftParent_t>
 CSchemaClassBinding<FeSphereRigid_t>
 CSchemaClassBinding<FeSpringIntegrator_t>
 CSchemaClassBinding<FeTaperedCapsuleRigid_t>
@@ -417,11 +426,13 @@ CSchemaEnumBindingBase
 CSchemaInstallCallback
 CSchemaManipulator<CResourceArray<CResourceString> >
 CSchemaManipulator<CResourceArray<CTransform> >
+CSchemaManipulator<CResourceArray<FeAnimStrayRadius_t> >
 CSchemaManipulator<CResourceArray<FeAxialEdgeBend_t> >
 CSchemaManipulator<CResourceArray<FeCollisionPlane_t> >
 CSchemaManipulator<CResourceArray<FeCollisionSphere_t> >
 CSchemaManipulator<CResourceArray<FeCtrlOffset_t> >
 CSchemaManipulator<CResourceArray<FeCtrlOsOffset_t> >
+CSchemaManipulator<CResourceArray<FeCtrlSoftOffset_t> >
 CSchemaManipulator<CResourceArray<FeFitMatrix_t> >
 CSchemaManipulator<CResourceArray<FeFitWeight_t> >
 CSchemaManipulator<CResourceArray<FeFollowNode_t> >
@@ -430,6 +441,7 @@ CSchemaManipulator<CResourceArray<FeNodeIntegrator_t> >
 CSchemaManipulator<CResourceArray<FeNodeReverseOffset_t> >
 CSchemaManipulator<CResourceArray<FeQuad_t> >
 CSchemaManipulator<CResourceArray<FeRodConstraint_t> >
+CSchemaManipulator<CResourceArray<FeSimdAnimStrayRadius_t> >
 CSchemaManipulator<CResourceArray<FeSimdFitMatrices_t> >
 CSchemaManipulator<CResourceArray<FeSimdNodeBase_t> >
 CSchemaManipulator<CResourceArray<FeSimdQuad_t> >
@@ -508,16 +520,20 @@ D$ B;
 D$ H9
 D$ H90
 D$ Hi
+D$ L9
 D$(E1
 D$0A\]
 D$0H9
+D$0L9
 D$8A\]
 D$8H9
 D$8I9
 D$8L9
+D$@H9
 D$@I9
 D$@L9
 D$HfA
+D;!unsigned short{Hc
 D;char D
 D;k(D
 DATAH
@@ -572,12 +588,14 @@ FPSRH
 Failed to load resource "%short" and -exit_on_resource_load_failure was set and it'short not in badresources_whitelist.txt
 Failed to map from %short to content-path
 Failed to map from %short to game-path
+FeAnimStrayRadius_t
 FeAxialEdgeBend_t
 FeBandBendLimit_t
 FeCollisionPlane_t
 FeCollisionSphere_t
 FeCtrlOffset_t
 FeCtrlOsOffset_t
+FeCtrlSoftOffset_t
 FeEdgeDesc_t
 FeFitInfluence_t
 FeFitMatrix_t
@@ -589,12 +607,14 @@ FeNodeIntegrator_t
 FeNodeReverseOffset_t
 FeQuad_t
 FeRodConstraint_t
+FeSimdAnimStrayRadius_t
 FeSimdFitMatrices_t
 FeSimdNodeBase_t
 FeSimdQuad_t
 FeSimdRodConstraint_t
 FeSimdSpringIntegrator_t
 FeSimdTri_t
+FeSoftParent_t
 FeSphereRigid_t
 FeSpringIntegrator_t
 FeTaperedCapsuleRigid_t
@@ -714,6 +734,7 @@ ISchemaManipulator
 ISchemaSearchTester<CSchemaClassInfo const*>
 ITSHashConstructor<ResourceBindingBase_t>
 IVConCommDataReceived
+Ic4$H)
 Ic\$(A;\$8
 Idle (ResourceSystemSleep)
 InfoForResourceTypeAnimationGroupResourceData_t
@@ -769,6 +790,7 @@ LOG_GENERAL
 Lc#D;char
 Lc+D;k
 Lc/E)
+Lc6E9
 Lc{pD;
 Leaked reference to ERROR resource for type %short!
 Leaked resource: Refcount %short for %short%short resource "%short" (%016llX).  This may result in signed char crash.
@@ -790,9 +812,9 @@ MATCHFRAMEWORK_001
 MATERIAL_LIGHT_DIRECTIONAL
 MATERIAL_LIGHT_DISABLE
 MATERIAL_LIGHT_ENVIRONMENT_PROBE
+MATERIAL_LIGHT_ORTHO
 MATERIAL_LIGHT_POINT
 MATERIAL_LIGHT_SPOT
-MATERIAL_LIGHT_UNUSED
 MDiskDataForResourceType
 MDiskDataForResourceType::CValueSearchTester_ClassIntrospectionHandle_t
 MDmElementType
@@ -821,7 +843,7 @@ Mc/E;unsigned __int128
 MeshSystem001
 MeshUtils001
 MetaTxtAM
-ModelDocCommandSystem001
+ModelDocUtils001
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -832,6 +854,7 @@ NetworkSystemVersion001
 NewNode
 NotifyManifestFinished
 OldFeEdge_t
+Ordered constructor wrapped type has no default constructor.
 P[A\A]A^]
 P[A\]
 PanoramaTextServices001
@@ -1061,7 +1084,6 @@ V_StrTrim
 V_StripTrailingSlash
 V_UTF32ToUTF8
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -1083,7 +1105,6 @@ V_strtod
 V_strtoi64
 V_strtoui64
 V_strupper_fast
-V_tan
 V_tanf
 V_vsnprintf
 V_vsnprintfRet
@@ -1253,6 +1274,7 @@ ffff.
 fffff.
 ffffff.
 filesystem_stdio
+flAlpha
 flAnimationForceAttraction
 flAnimationVertexAttraction
 flAxialModelDist
@@ -1287,6 +1309,7 @@ floor@@GLIBC_2.2.5
 floorf
 floorf@@GLIBC_2.2.5
 fltx4
+fogcontributionstrength
 free@@GLIBC_2.2.5
 g_VProfCurrentProfile
 g_pMemAlloc
@@ -1318,6 +1341,7 @@ long long HcW
 long long[A\A]A^A_]
 m_AdditionalInputDependencies
 m_AdditionalRelatedFiles
+m_AnimStrayRadii
 m_ArgumentDependencies
 m_Attenuation0
 m_Attenuation1
@@ -1335,6 +1359,7 @@ m_CtrlHash
 m_CtrlName
 m_CtrlOffsets
 m_CtrlOsOffsets
+m_CtrlSoftOffsets
 m_CustomDependencies
 m_ExtraFloatData
 m_ExtraIntData
@@ -1367,6 +1392,7 @@ m_Rods
 m_Ropes
 m_SearchPath
 m_Shape
+m_SimdAnimStrayRadii
 m_SimdFitMatrices
 m_SimdNodeBases
 m_SimdQuads
@@ -1402,9 +1428,12 @@ m_flDefaultVelQuadAirDrag
 m_flDefaultVelRodAirDrag
 m_flDefaultVolumetricSolveAmount
 m_flFloat
+m_flFogContributionStength
 m_flK
 m_flLightSourceDim0
 m_flLightSourceDim1
+m_flLightSourceSize0
+m_flLightSourceSize1
 m_flLocalForce
 m_flLocalRotation
 m_flPrecomputedMaxRange
@@ -1505,6 +1534,7 @@ nNodeX0
 nNodeX1
 nNodeY0
 nNodeY1
+nParent
 nParentNode
 nSide
 nTargetNode
@@ -1531,6 +1561,7 @@ pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
 qAdjust
+r6LcA
 renderdiffuse
 renderspecular
 replicated
@@ -1557,6 +1588,8 @@ shadowtexturewidth
 sincosf
 sincosf@@GLIBC_2.2.5
 singleplayer
+size0
+size1
 sqrtf
 sqrtf@@GLIBC_2.2.5
 src/public/tier0/platform.h
@@ -1586,7 +1619,6 @@ ttIcG
 uT9wt}O
 uint64
 unsigned __int128 ATL
-unsigned __int128(ATSH
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
 unsigned short!L;0u
@@ -1594,7 +1626,8 @@ unsigned short"HcK
 unsigned short"HcO
 unsigned short'H;0u
 unsigned short*L;unsigned long
-unsigned short/Lc%
+unsigned short+Hc4
+unsigned short/Lc%S
 unsigned short<IcV
 unsigned short@@:>u
 unsigned short^[A\]
@@ -1627,17 +1660,19 @@ vvvtx
 vwenvmapvwrlt
 vwnod
 vwrld
-w8AUI
-zD(knN
+wchar_t(AUATI
+xGHcO
+xUD0Q)1
 {error resource: %short}
 {}()':
 |JA;X
+}>;w$
 }Hf;wchar_t
 }Tf;wchar_t
 ~&H9wHt'H
 ~)A;]
 ~)H97tC
-~,H95W
+~,H95
 ~4Lc+I
 ~8H9wHts
 ~CH9wH

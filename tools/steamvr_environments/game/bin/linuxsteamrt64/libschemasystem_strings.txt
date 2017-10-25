@@ -2,6 +2,7 @@
 	Mismatch - %short
 	Module 1 - %short
 	Module 2 - %short
+	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	[A\]
 	wDUH
  ( def. "%short" )
@@ -126,6 +127,7 @@ $[A\]
 ...(skipping %u of %u elements)...
 .../u-H
 ...:KEZ
+../public/ordered_constructor.h
 ../public/resourcefile/resourcestream.h
 ../public/schemalib/schemaprimitives.h
 ../public/schemalib/schematype.h
@@ -184,7 +186,6 @@ $[A\]
 9G ti+G$H
 9S unsigned short{+S$H
 :[tLL
-;%d.0
 ;*3$"
 ;W }3
 ;mempool.cpp
@@ -202,10 +203,10 @@ $[A\]
 <}tI<{uO
 =CSP1A
 =CSP1u
+?%d.0
 @HA\A]A^]
 @[A\A]A^]
 @[A\]
-@xt>H
 A+D$$H
 A+E$H
 A+E$f
@@ -257,7 +258,6 @@ AVAUATA
 AVAUATI
 AVAUATS
 AVAUATSH
-AVAUATSL
 AVAUATUSH
 AVAUI
 AVAUL
@@ -275,7 +275,6 @@ AWAVAUATSH
 AWAVAUATSL
 AWAVAUATUSH
 AWAVAUI
-AWAVAUL
 AWAVAULc
 AWAVD
 AWAVE
@@ -291,6 +290,7 @@ A\A]A^]
 A\A]]
 AbstractImplicit
 AddDependentStructs
+AddRef
 Align
 Alignment: %double bytes%short
 Alignment?
@@ -320,7 +320,7 @@ C [A\]
 C(fA9D$(fA
 C,[A\A]]
 C,[A\]
-C8@unsigned short/I
+C8@unsigned short-I
 C@A9D$@unsigned short
 CAtomicManipulator<CResourceArray<CResourceDiskEnum> >
 CAtomicManipulator<CResourceArray<CResourceDiskEnumValue> >
@@ -372,7 +372,6 @@ CBitVec
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CConCommandMemberAccessor<CSchemaSystem>
-CCopyableUtlVector
 CCountedStringPool
 CDA2D$D
 CDefaultAccessor
@@ -605,14 +604,17 @@ ConnectInterfaces
 CopyDynMemoryDataShallow
 CreateInterface
 D$ H9
+D$ L9
 D$(;E
 D$(E1
 D$(H9
 D$0H9
 D$0I9
+D$0L9
 D$8I9
 D$8L9
 D$<tb
+D$@H9
 D$@I9
 D$@L9
 D$@[A\A]A^]
@@ -625,6 +627,7 @@ D+C$Mc
 D+c$Mc
 D+k$Mc
 D+s$Mc
+D;!unsigned short{Hc
 D;char D
 D;cx|
 D;k |
@@ -784,7 +787,7 @@ G0A9E0t
 G0UHc
 G4A9E4t
 G8 unsigned short:H
-G8@tXI
+G8@tVI
 G8t"H
 G8t+H
 G<@t$
@@ -801,6 +804,7 @@ G<@unsigned short:
 GAMECONSOLE
 GCC: (Ubuntu .8.1-2ubuntu1~12.04+steamrt2+srt1) .8.1
 GHIcGPH
+GLIBCXX_3.4
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.4
@@ -858,6 +862,7 @@ HcsxH
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
+Hxt\H
 I;V@wchar_t
 IAppSystem
 IAtomicManipulator
@@ -880,6 +885,7 @@ ISchemaSystem::FindSchemaTypeByOldEnum: Unimplemented type %double
 ISchemaSystemTypeScope
 ISchemaSystemUtils
 ITextLoadWriter
+Ic4$H)
 IcMxA;
 IcT$xA;
 IcWPI
@@ -931,6 +937,7 @@ Lc!D;signed char
 Lc#D;char
 Lc/E)
 Lc3D;short
+Lc6E9
 Lc7E)
 Lc?E)
 Lcc(D;c8D
@@ -993,7 +1000,7 @@ Meta Modify Remove Count
 Meta add name
 Meta remove name
 Meta tag name
-ModelDocCommandSystem001
+ModelDocUtils001
 Modified resource structure detected, attempting conversion:
 Multiple instances of schema system are initialized. %p != %p
 N0UHc
@@ -1020,6 +1027,7 @@ OTIcwPH
 Opaque Indirection
 OpaqueType
 OperateOnArray
+Ordered constructor wrapped type has no default constructor.
 Out of bounds for compound
 OuterOffset
 POSIX
@@ -1300,6 +1308,7 @@ VScriptManager010
 VStringTokenSystem001
 VTable?
 VUUUH
+V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
 V_RemoveDotSlashes
@@ -1311,7 +1320,6 @@ V_UTF32ToUTF8
 V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
-V_acos
 V_acosf
 V_asinf
 V_atan2f
@@ -1340,7 +1348,6 @@ V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
-V_tan
 V_tanf
 V_uuid_t
 V_vsnprintf
@@ -1458,6 +1465,8 @@ _ZN17CThreadSpinRWLock16SpinLockForWriteEy
 _ZN17CThreadSyncObject8WaitImplEj
 _ZN17CThreadSyncObjectD2Ev
 _ZNV16CThreadFastMutex4LockEyj
+_ZSt9terminatev
+_ZSt9terminatev@@GLIBCXX_3.4
 _ZTI17CThreadSyncObject
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
@@ -1675,7 +1684,7 @@ networksystem
 notconnected
 notify
 oldschemasynthesis.cpp
-p8tRL
+p8tPL
 p[A\]
 particles
 pthread_mutex_destroy
@@ -1696,6 +1705,7 @@ ptr( 0x%p )
 ptr: %short
 ptr: %short @ %p
 q={%__float128, %__float128, %__float128; wchar_t=%__float128} p={%__float128, %__float128, %__float128}
+r6LcA
 renderingpipelines
 replicated
 resourcecompileutils.cpp
@@ -1776,6 +1786,7 @@ tolower
 tolower@@GLIBC_2.2.5
 trHcO
 ttIcG
+tyHcO
 u(unsigned short-E9
 u64( %lld = 0x%llX )
 uint16
@@ -1784,7 +1795,6 @@ uint64
 uint8
 uint8[%double] %short =
 unknown
-unsigned __int128(ATSH
 unsigned char
 unsigned char[A\A]A^A_]
 unsigned char[A\A]]
@@ -1796,6 +1806,7 @@ unsigned short#;0u
 unsigned short(HcO
 unsigned short)[A\]
 unsigned short*HcM
+unsigned short+Hc4
 unsigned short,[A\A]A^]
 unsigned short;[A\]
 unsigned short<IcV
@@ -1811,11 +1822,12 @@ void!<\unsigned short
 vrgrp
 vrman
 vrnmd
-w8AUI
+wchar_t(AUATI
 wchar_t(AUI
 wcslen
 wcslen@@GLIBC_2.2.5
 worldrenderer
+xGHcO
 y0[A\A]]
 y8[A\A]A^]
 {0[A\A]A^]
@@ -1842,6 +1854,7 @@ y8[A\A]A^]
 {}[]()=&, 	
 |$ E1
 |$0A\]
+}>;w$
 }Hf;wchar_t
 ~	ATI
 ~)A;]
