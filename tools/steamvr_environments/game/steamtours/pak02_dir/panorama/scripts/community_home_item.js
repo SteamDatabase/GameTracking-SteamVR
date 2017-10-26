@@ -13,9 +13,10 @@ function RegisterCommunityItemPanel()
 			parentPanel.RemoveClass( "screenshots" );
 			parentPanel.RemoveClass( "artwork" );
 			parentPanel.RemoveClass( "environments" );
+			parentPanel.RemoveClass( "vive_promo_environment" );
 			parentPanel.AddClass( data.fromSection );
 			
-			var panelDetails = parentPanel.FindChildTraverse( data.fromSection == "environments" ? "EnvironmentDetail" : "CommunityItem" );			
+			var panelDetails = parentPanel.FindChildTraverse( data.fromSection == "environments" || data.fromSection == "vive_promo_environment" ? "EnvironmentDetail" : "CommunityItem" );			
 			panelDetails.SetDialogVariable( "creator_name", data.creatorName );
 			panelDetails.SetDialogVariable( "item_text", data.itemText );
 
@@ -38,7 +39,7 @@ function RegisterCommunityItemPanel()
 			parentPanel.SetAttributeInt( "image_height", data.imageHeight );
 			
 			// extra stuff for Environments
-			if ( data.fromSection == "environments" )
+			if ( data.fromSection == "environments" || data.fromSection == "vive_promo_environment" )
 			{
 				var queryHandle = SteamUGC.CreateQueryUGCDetailsRequest( [ data.publishedfileid] );
 				var params = {

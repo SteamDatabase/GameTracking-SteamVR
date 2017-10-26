@@ -276,11 +276,13 @@
 	visibility: collapse;
 }
 
-.environments .EnvironmentDetail
+.environments .EnvironmentDetail,
+.vive_promo_environment .EnvironmentDetail
 {
 	visibility: visible;
 }
-.environments .CommunityItem
+.environments .CommunityItem,
+.vive_promo_environment .CommunityItem
 {
 	visibility: collapse;
 }
@@ -582,6 +584,11 @@
 	flow-children: right;
 }
 
+.vive_promo_environment .EnvironmentControls
+{
+	width: 170px;
+}
+
 .EnvironmentControls Button
 {
 	margin: 0px;
@@ -602,6 +609,12 @@
 .EnvironmentControls .NextButton
 {
 	//margin-right: 70px;
+}
+
+.vive_promo_environment .PreviousButton,
+.vive_promo_environment .NextButton
+{
+	visibility: collapse;
 }
 
 /*------------------

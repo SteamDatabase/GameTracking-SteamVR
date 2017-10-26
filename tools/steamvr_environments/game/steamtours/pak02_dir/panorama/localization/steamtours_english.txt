@@ -197,6 +197,8 @@
 		"VR_PhysicsProp_RezHeroFigurine_Desc"		"The player avatar for the legendary action-shooter.\n\nUnlocked by playing Rez Infinite."
 		"VR_PhysicsProp_OverturnMagiFigurine"		"Magi Figure"
 		"VR_PhysicsProp_OverturnMagiFigurine_Desc"	"Full body figurine of the mysterious girl 'MAGI' from OVERTURN.\n\nUnlocked by playing OVERTURN."
+		"VR_PhysicsProp_TiltBrushTiltasaurus"		"Tiltasaurus"
+		"VR_PhysicsProp_TiltBrushTiltasaurus_Desc"	"Your friendly neighborhood 3D painting dinosaur.\n\nUnlocked by playing Tilt Brush."
 		
 		// furniture
 		"VR_Furniture_Book001"						"Book"
@@ -450,7 +452,7 @@
 		"VR_Avatar_RawDataSaijaHead"		"Saija Avatar Head"
 		"VR_Avatar_RawDataSaijaHead_Desc"	"As a master of telekinetic Ninjutsu, Saija can deflect bullets, catapult foes into the sky, and rip enemies to pieces with her lethal blades.\n\nUnlocked by playing Raw Data."
 		"VR_Avatar_DuckHuntDogHead"			"Dog Head"
-		"VR_Avatar_DuckHuntDogHead_Desc"	"Mascot head of the Duck Season Dog. Great for parties, masking your true face, or scaring your friends.\n\nUnlocked by playing Duck Hunt."
+		"VR_Avatar_DuckHuntDogHead_Desc"	"Mascot head of the Duck Season Dog. Great for parties, masking your true face, or scaring your friends.\n\nUnlocked by playing Duck Season."
 		"VR_Avatar_SmashboxArenaPoppyHead"	"Poppy The Pear"
 		"VR_Avatar_SmashboxArenaPoppyHead_Desc"	"Pear-fection.\n\nUnlocked by playing Smashbox Arena."
 		
@@ -1131,8 +1133,8 @@
 		"SinglePlayerLabel"	"SINGLE-PLAYER VR"
 		"MultiPlayerLabel"	"MULTIPLAYER VR"
 		"VRTitleLabel"		"{s:app_name}"
-		"HTCPromoTitle"		"VIVE ITEMS"
-		"HTCPromoDesc"		"Don't forget to check out Vive avatar and prop for Vive owners."
+		"HTCPromoTitle"		"VIVE ENVIRONMENT"
+		"HTCPromoDesc"		"Explore Driftwood, an environment created by Vive Creative Labs."
 		"ValvePromoTitle"	"VALVE ENVIRONMENTS"
 		"ValvePromoDesc"	"Click here for environments made by Valve artists for SteamVR."
 		"ValveEnvironmentsTitle"	"Environments by Valve Artists"

@@ -1303,6 +1303,12 @@ materials/models/third_party/props/toys/superhotvr_figurine.vmat_c CRC:00d30b54c
 materials/models/third_party/props/toys/superhotvr_figurine_ao_tga_bf6beee9.vtex_c CRC:0083a7e588 size:132948
 materials/models/third_party/props/toys/superhotvr_figurine_color_tga_fc27c0ca.vtex_c CRC:00738f3042 size:351796
 materials/models/third_party/props/toys/superhotvr_figurine_gloss_tga_cd0e23f7.vtex_c CRC:0056284266 size:351412
+materials/models/third_party/props/toys/tilt_brush_tiltasaurus.vmat_c CRC:007f8fff00 size:10152
+materials/models/third_party/props/toys/tilt_brush_tiltasaurus_ao_png_b1cedf82.vtex_c CRC:0094729bab size:526180
+materials/models/third_party/props/toys/tilt_brush_tiltasaurus_color_psd_9bd33af1.vtex_c CRC:00f33515cb size:700940
+materials/models/third_party/props/toys/tilt_brush_tiltasaurus_gloss_psd_d29fc7ae.vtex_c CRC:0051cd29a0 size:1400004
+materials/models/third_party/props/toys/tilt_brush_tiltasaurus_metal_psd_dcceec2.vtex_c CRC:0088143e73 size:177052
+materials/models/third_party/props/toys/tilt_brush_tiltasaurus_selfillum_psd_2e88d8bc.vtex_c CRC:0067d5112a size:176668
 materials/models/third_party/props/toys/vive_logo_statue.vmat_c CRC:00e6facb99 size:9712
 materials/models/third_party/props/toys/vive_logo_statue_ao_psd_6977e493.vtex_c CRC:0004a85abf size:526164
 materials/models/third_party/props/toys/vive_logo_statue_color_psd_8d2a774e.vtex_c CRC:00362f79df size:2798076
@@ -2398,6 +2404,9 @@ models/third_party/props/toys/serious_sam_kleer_head_trophy.vphys_c CRC:00182f25
 models/third_party/props/toys/superhotvr_figurine.vmdl_c CRC:00b65bf2f3 size:4076
 models/third_party/props/toys/superhotvr_figurine.vmesh_c CRC:007ee0f6e7 size:156869
 models/third_party/props/toys/superhotvr_figurine.vphys_c CRC:0023424eea size:37268
+models/third_party/props/toys/tilt_brush_tiltasaurus.vmdl_c CRC:00648454ef size:4028
+models/third_party/props/toys/tilt_brush_tiltasaurus.vmesh_c CRC:0081daa866 size:218509
+models/third_party/props/toys/tilt_brush_tiltasaurus.vphys_c CRC:004d32e874 size:35184
 models/third_party/props/toys/vive_logo_statue.vmdl_c CRC:007646209e size:4044
 models/third_party/props/toys/vive_logo_statue.vmesh_c CRC:0025f3031d size:217019
 models/third_party/props/toys/vive_logo_statue.vphys_c CRC:003982c8c9 size:23052
@@ -2414,7 +2423,7 @@ models/turret_models/turret.vphys_c CRC:0093f90d47 size:23048
 models/turret_models/turret_eaad7de7.vagrp_c CRC:0044f82020 size:7576
 models/turret_models/turretwife.vmdl_c CRC:00093ddda2 size:4360
 models/turret_models/turretwife.vmesh_c CRC:007c5223a8 size:230338
-panorama/dynamic_images.vpdi_c CRC:007ed1da37 size:144558
+panorama/dynamic_images.vpdi_c CRC:002d6fed10 size:145088
 panorama/dynamic_images_addon.vpdi_c CRC:0093ad896b size:1062
 panorama/dynamic_images_addon_sentinel.vtex_c CRC:000b6f1813 size:20948
 panorama/dynamic_images_sentinel.vtex_c CRC:000b6f1813 size:20948
@@ -2463,6 +2472,7 @@ panorama/images/content_browser/rating_onestar_png.vtex_c CRC:00ac92ebc5 size:24
 panorama/images/content_browser/rating_threestars_png.vtex_c CRC:006406c8a5 size:241908
 panorama/images/content_browser/rating_twostars_png.vtex_c CRC:0004e3a58e size:241892
 panorama/images/content_browser/valve_promo_small_png.vtex_c CRC:0075d0f014 size:133200
+panorama/images/content_browser/vive_promo_environment_png.vtex_c CRC:00055c8f99 size:133216
 panorama/images/contentdb/airmech_striker_toy_png.vtex_c CRC:00a2dacfab size:264036
 panorama/images/contentdb/anyland_ring_png.vtex_c CRC:00606f8a6a size:264004
 panorama/images/contentdb/as_ammobox_png.vtex_c CRC:00021be342 size:263988
@@ -2702,6 +2712,7 @@ panorama/images/contentdb/tf2_bot_sniper_png.vtex_c CRC:0094b5c354 size:264004
 panorama/images/contentdb/tf2_bot_soldier_png.vtex_c CRC:00322bbca7 size:264020
 panorama/images/contentdb/tf2_bot_spy_png.vtex_c CRC:00db98b575 size:264004
 panorama/images/contentdb/tidehunter_toy001_png.vtex_c CRC:005cb43ac2 size:264020
+panorama/images/contentdb/tilt_brush_tiltasaurus_png.vtex_c CRC:00d8aa9389 size:264036
 panorama/images/contentdb/to_the_top_kitsune_mask_png.vtex_c CRC:00642aedc2 size:264052
 panorama/images/contentdb/toilet001_png.vtex_c CRC:00e5f4927a size:263988
 panorama/images/contentdb/top_hat001_png.vtex_c CRC:007d7ddfab size:263988

@@ -2176,6 +2176,17 @@
 			default_color = [ 255,255,255 ]
 		},
 		{
+			id = "tilt_brush_tiltasaurus"
+			name = "#VR_PhysicsProp_TiltBrushTiltasaurus"
+			desc = "#VR_PhysicsProp_TiltBrushTiltasaurus_Desc"
+			content = "models/third_party/props/toys/tilt_brush_tiltasaurus.vmdl"
+			preview_image = "file://{images}/contentdb/tilt_brush_tiltasaurus.png"
+			inventory_service_promo_rules = "played:327140/120" // must have played for 2 hours - Tilt Brush
+			inventory_service_promo_appid = 327140
+			inventory_service_id = 1055
+			default_color = [ 255,255,255 ]
+		},
+		{
 			id = "test_complex_item"
 			name = "COMPLEX ITEM"
 			desc = "This item is complex!!"

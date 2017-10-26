@@ -159,8 +159,11 @@ var CUGCItem = (function()
 	{
 		this.m_item = item;
 		this.m_panel = panel;
-		this.m_panel.SetAttributeString( "publishedfileid", item.publishedfileid );
-		this.m_panelItemThumb = this.m_panel.FindChildInLayoutFile( "ItemThumbImage" );
+		if ( panel )
+		{
+			this.m_panel.SetAttributeString( "publishedfileid", item.publishedfileid );
+			this.m_panelItemThumb = this.m_panel.FindChildInLayoutFile( "ItemThumbImage" );
+		}
 	};
 
 	CUGCItem.prototype.ChangeToItem = function( item )
@@ -342,7 +345,7 @@ function AddEnvironmentItem( detail, parentPanel )
 	gUGCItemsContext.AddItem( new CUGCItem( item, panelItem ) );
 }
 
-function PopulateValveEnvironments( rgChildren )
+function PopulateEnvironments( rgChildren, onCompleteFunc )
 {
 	var queryHandle = SteamUGC.CreateQueryUGCDetailsRequest( rgChildren );
 	var params = {
@@ -363,6 +366,11 @@ function PopulateValveEnvironments( rgChildren )
 
 			var detail = data.details[i];
 			AddEnvironmentItem( detail, parentPanel );
+		}
+
+		if ( onCompleteFunc )
+		{
+			onCompleteFunc();
 		}
 	};
 	SteamUGC.SendUGCQuery( queryHandle, onQueryComplete );
@@ -415,7 +423,7 @@ function RequestValveEnvironments()
 				rgChildren.push( child.publishedfileid );
 			}
 
-			PopulateValveEnvironments( rgChildren );
+			PopulateEnvironments( rgChildren, null );
 		}
 	};
 	SteamUGC.SendUGCQuery( queryHandle, onQueryComplete );
@@ -442,6 +450,10 @@ function OnLoadCommunityHomeData()
 			{
 				gUGCItemsContext.UpdateAllSubscriptionInfo();
 			}
+			else if ( gSection == "vive_promo_environment" )
+			{
+				HideViveItems();
+			}
 		}
 	} ( panel );
 	GameEvents.Subscribe( "HideCommunityItemDetail", onHideUGCDetails );
@@ -453,6 +465,7 @@ function OnLoadCommunityHomeData()
 			panelHome.RemoveClass( "SelectedUGC_screenshots" );
 			panelHome.RemoveClass( "SelectedUGC_artwork" );
 			panelHome.RemoveClass( "SelectedUGC_environments" );
+			panelHome.RemoveClass( "SelectedUGC_vive_promo_environment" );
 			gSection = data.section;
 			panelHome.AddClass( "SelectedUGC_" + gSection );
 			
@@ -613,10 +626,20 @@ function HideValveItems()
 
 function ShowViveItems()
 {
-	$( "#EnvironmentsContainer" ).AddClass( "ViveDialogOn" );
+	gSection = "vive_promo_environment";
+	gUGCItemsContext.PushItemsContext();
+
+	PopulateEnvironments( [ "1157245485" ], function() {
+		var items = gUGCItemsContext.GetItems();
+		if ( items.length != 0 )
+		{
+			items[0].ShowItem();
+		}
+	} );
 }
 
 function HideViveItems()
 {
-	$( "#EnvironmentsContainer" ).RemoveClass( "ViveDialogOn" );
+	gSection = "environments";
+	gUGCItemsContext.PopItemsContext();
 }

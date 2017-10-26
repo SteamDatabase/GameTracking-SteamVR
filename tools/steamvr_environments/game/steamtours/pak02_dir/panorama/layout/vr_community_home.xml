@@ -138,7 +138,7 @@
 						<Label class="PromoDesc" text="#ValvePromoDesc"/>
 					</Panel>
 					<Panel class="HTC_Promotion" onactivate="ShowViveItems()">
-						<Image class="VivePromoImage" src="s2r://panorama/images/content_browser/vive_promo_png.vtex"/>	
+						<Image class="VivePromoImage" src="s2r://panorama/images/content_browser/vive_promo_environment_png.vtex"/>	
 						<Label class="PromoTitle" text="#HTCPromoTitle"/>
 						<Label class="PromoDesc" text="#HTCPromoDesc"/>
 					</Panel>
