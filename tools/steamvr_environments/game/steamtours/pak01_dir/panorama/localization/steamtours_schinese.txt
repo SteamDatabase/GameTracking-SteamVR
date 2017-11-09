@@ -2340,9 +2340,9 @@
 "VRTitleLabel"	"{s:app_name}"
 "[english]VRTitleLabel"	"{s:app_name}"
 "HTCPromoTitle"	"VIVE 物品"
-"[english]HTCPromoTitle"	"VIVE ITEMS"
+"[english]HTCPromoTitle"	"VIVE ENVIRONMENT"
 "HTCPromoDesc"	"HTC 为 Vive 使用者特制。"
-"[english]HTCPromoDesc"	"Don't forget to check out Vive avatar and prop for Vive owners."
+"[english]HTCPromoDesc"	"Explore Driftwood, an environment created by Vive Creative Labs."
 "ValvePromoTitle"	"VALVE 环境合集"
 "[english]ValvePromoTitle"	"VALVE ENVIRONMENTS"
 "ValvePromoDesc"	"点击此处查看 Valve 艺术家为 SteamVR 创作的环境。"
@@ -2964,7 +2964,7 @@
 "VR_Avatar_DuckHuntDogHead"	"狗头"
 "[english]VR_Avatar_DuckHuntDogHead"	"Dog Head"
 "VR_Avatar_DuckHuntDogHead_Desc"	"吉祥物 —《Duck Season》狗的头。非常适合派对，掩饰您的真面目吓唬好友。\n\n通过游玩《Duck Hunt》解锁。"
-"[english]VR_Avatar_DuckHuntDogHead_Desc"	"Mascot head of the Duck Season Dog. Great for parties, masking your true face, or scaring your friends.\n\nUnlocked by playing Duck Hunt."
+"[english]VR_Avatar_DuckHuntDogHead_Desc"	"Mascot head of the Duck Season Dog. Great for parties, masking your true face, or scaring your friends.\n\nUnlocked by playing Duck Season."
 "VR_PhysicsProp_RezHeroFigurine"	"《Rez Infinite》化身"
 "[english]VR_PhysicsProp_RezHeroFigurine"	"Rez Infinite Avatar"
 "VR_PhysicsProp_RezHeroFigurine_Desc"	"传奇动作射击游戏的玩家化身。\n\n通过游玩《Rez Infinite》解锁。"
@@ -2973,5 +2973,7 @@
 "[english]UGCHiddenLabel"	"User generated content is hidden. You can change this in Settings."
 "VR_Avatar_WindowsMR_Controllers"	"Windows MR 控制器"
 "[english]VR_Avatar_WindowsMR_Controllers"	"Windows MR Controllers"
+"TutorialWelcome_Tile1_WinMR_Desc"	"欢迎进入 SteamVR！"
+"[english]TutorialWelcome_Tile1_WinMR_Desc"	"Welcome to SteamVR!"
 }
 }

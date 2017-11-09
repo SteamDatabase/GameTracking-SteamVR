@@ -1632,7 +1632,7 @@
 "[english]AvatarRotateText"	"ROTATE AVATAR"
 "WelcomePanel_PressBButton"	"歡迎來到 SteamVR！\n\n按下控制器上的 B 或 Y 按鈕開始遊戲。"
 "[english]WelcomePanel_PressBButton"	"Welcome to SteamVR! \n\nPress the B or Y button on your controller to begin."
-"WelcomePanel_UpdateDescTouch"	"歡迎來到SteamVR！\n\n按下 B 或 Y 按鈕瀏覽環境或與好友碰頭。\n\n想訂閱更多的環境，請於環境面板中的選單，選取「獲取更多」按鈕前往工作坊。如需協助，請選取說明按鈕。"
+"WelcomePanel_UpdateDescTouch"	"歡迎來到SteamVR！\n\n按下 B 或 Y 按鈕瀏覽場景或與好友碰頭。\n\n想訂閱更多的場景，請於場景面板中的選單，選取「獲取更多」按鈕前往工作坊。如需協助，請選取說明按鈕。"
 "[english]WelcomePanel_UpdateDescTouch"	"Welcome to SteamVR! \n\nPress the B or Y button to browse environments and meet up with friends.\n\nTo subscribe to more environments, select the 'Get More' tab in the Environments panel. For more help, select the Help button."
 "Notification_LobbyInvite"	"{s:player_name} 已邀請您加入所選房間 \n請於社交面板中的選單回覆"
 "[english]Notification_LobbyInvite"	"{s:player_name} has invited you to their room \nOpen the Social panel in the Menu to respond"
@@ -2347,7 +2347,7 @@
 "VRTitleLabel"	"{s:app_name}"
 "[english]VRTitleLabel"	"{s:app_name}"
 "HTCPromoTitle"	"VIVE 物品"
-"[english]HTCPromoTitle"	"VIVE ITEMS"
+"[english]HTCPromoTitle"	"VIVE ENVIRONMENT"
 "ValvePromoTitle"	"VALVE 場景"
 "[english]ValvePromoTitle"	"VALVE ENVIRONMENTS"
 "ValvePromoDesc"	"點擊這裡觀看更多 Valve 藝術家所製作的 SteamVR 場景。"
@@ -2770,5 +2770,7 @@
 "[english]VR_Avatar_Wearable_HalloweenBagMask014_Desc"	"A simple cheap option for a Halloween costume."
 "VR_Avatar_DuckHuntDogHead"	"狗頭"
 "[english]VR_Avatar_DuckHuntDogHead"	"Dog Head"
+"TutorialWelcome_Tile1_WinMR_Desc"	"歡迎來到 SteamVR！"
+"[english]TutorialWelcome_Tile1_WinMR_Desc"	"Welcome to SteamVR!"
 }
 }

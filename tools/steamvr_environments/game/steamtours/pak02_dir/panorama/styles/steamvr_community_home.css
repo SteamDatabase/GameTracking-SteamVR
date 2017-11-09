@@ -513,9 +513,11 @@
 
 .ValveEnvironmentsDialog
 {
-	//width: 2020px;
-	width: 2340px;
-	height: 1030px;
+	//width: 2340px;
+	//height: 1030px;
+	width: 2020px;
+	height: 1300px;
+	margin-bottom: 100px;
 	vertical-align: center;
 	horizontal-align: center;
 	background-color: #111111ff;
@@ -553,8 +555,8 @@
 	height: 120px;
 	margin-top: 50px;
 	//horizontal-align: right;
-	//margin-left: 1850px;
-	margin-left: 2150px;
+	margin-left: 1850px;
+	//margin-left: 2150px;
 	border: 1px solid #ffffff00;
 	transition-property: background-color, border, pre-transform-scale2d;
 	transition-duration: 0.23s;

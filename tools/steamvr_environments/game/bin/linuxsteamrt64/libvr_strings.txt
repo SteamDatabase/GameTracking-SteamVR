@@ -1569,7 +1569,7 @@ H9GHt
 H9H unsigned short
 H9H unsigned short)H
 H9W8t	]
-H;=long long{>
+H;=hy>
 H;C r
 H;CHs
 H;S@wchar_t

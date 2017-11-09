@@ -586,7 +586,14 @@
 
 .vive_promo_environment .EnvironmentControls
 {
-	width: 170px;
+	//width: 170px;
+	width: 360px;
+}
+
+.vive_promo_environment .EnvironmentControls .CloseButton
+{
+	width: 240px;
+	margin-left: 60px;
 }
 
 .EnvironmentControls Button

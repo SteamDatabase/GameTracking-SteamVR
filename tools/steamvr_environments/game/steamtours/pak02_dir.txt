@@ -411,7 +411,7 @@ panorama/layout/vr_community_home.vxml_c CRC:004e9a459a size:17108
 panorama/layout/vr_community_item.vxml_c CRC:00534e65f8 size:12290
 panorama/layout/vr_content_browser.vxml_c CRC:00395e7967 size:756
 panorama/layout/vr_friends.vxml_c CRC:00fce56fe4 size:621
-panorama/localization/steamtours_english.txt CRC:0080a9f5a4 size:122505
+panorama/localization/steamtours_english.txt CRC:00f3fb4b12 size:123248
 panorama/panorama_config.txt CRC:00a597fc0e size:294
 panorama/scripts/community_home.vjs_c CRC:007347d3f1 size:18902
 panorama/scripts/community_home_item.vjs_c CRC:0031a852b3 size:11286
@@ -427,8 +427,8 @@ panorama/styles/notifications_panel.vcss_c CRC:007ceb86a8 size:1829
 panorama/styles/puppet.vcss_c CRC:0079f8c135 size:8163
 panorama/styles/recent_apps.vcss_c CRC:00d1706ec8 size:12873
 panorama/styles/settings.vcss_c CRC:005535d311 size:5859
-panorama/styles/steamvr_community_home.vcss_c CRC:002b708b0b size:20877
-panorama/styles/steamvr_community_item.vcss_c CRC:00577ef234 size:9848
+panorama/styles/steamvr_community_home.vcss_c CRC:0006b8aad1 size:20919
+panorama/styles/steamvr_community_item.vcss_c CRC:0092c45e20 size:9963
 panorama/styles/tutorial.vcss_c CRC:00a054aacd size:10926
 particles/tool_fx/brush_spray.vpcf_c CRC:0085104424 size:1760
 particles/tool_fx/brush_spray_cloud.vpcf_c CRC:002ce2c7d2 size:1740
@@ -440,7 +440,7 @@ particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
 resource/gameevents.res CRC:001284caec size:1002
 resource/modevents.res CRC:00a360fb36 size:903
 resource/serverevents.res CRC:000df59f67 size:3694
-scripts/contentdb.txt CRC:00c2e1601c size:121948
+scripts/contentdb.txt CRC:00dfe0cd3a size:123481
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70
@@ -459,6 +459,6 @@ sounds/props/cube_impact_01.vsnd_c CRC:00bca411f8 size:27074
 sounds/props/default_impact_02.vsnd_c CRC:00f8d61c09 size:23088
 sounds/props/toy_soldier_impact_01.vsnd_c CRC:0026699638 size:14392
 soundstacks/mixgraph.vmix_c CRC:0076679288 size:15099
-soundstacks/soundstacks_destinations.vsndstck_c CRC:00d3338a34 size:57799
+soundstacks/soundstacks_destinations.vsndstck_c CRC:00484564ea size:60386
 soundstacks/soundstacks_manifest.vrman_c CRC:00ae474b76 size:973
 surfaceproperties/surfaceproperties.vsurf_c CRC:00d35b8502 size:10947

@@ -2187,6 +2187,27 @@
 			default_color = [ 255,255,255 ]
 		},
 		{
+			id = "tf2_yeti"
+			name = "#VR_PhysicsProp_TF2Yeti"
+			desc = "#VR_PhysicsProp_TF2Yeti_Desc"
+			content = "models/props/toys/tf2_yeti.vmdl"
+			preview_image = "file://{images}/contentdb/tf2_yeti.png"
+			locked_by_quest = true
+			// inventory_service_id = 1056
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "deserving_life_pizza"
+			name = "#VR_PhysicsProp_DeservingLifePizza"
+			desc = "#VR_PhysicsProp_DeservingLifePizza_Desc"
+			content = "models/third_party/props/toys/deserving_life_pizza.vmdl"
+			preview_image = "file://{images}/contentdb/deserving_life_pizza.png"
+			inventory_service_promo_rules = "played:700170/120" // must have played for 2 hours - Deserving Life
+			inventory_service_promo_appid = 700170
+			inventory_service_id = 1057
+			default_color = [ 255,255,255 ]
+		},
+		{
 			id = "test_complex_item"
 			name = "COMPLEX ITEM"
 			desc = "This item is complex!!"
@@ -3073,6 +3094,16 @@
 			timestamp_updated = 1496340312
 			dev_only = true
 		},
+		{
+			id = "mount_rainier_camp"
+			name = "#VR_Map_MountRainierCamp"
+			desc = "#VR_Map_MountRainierCamp_Desc"
+			content = "mount_rainier_camp"
+			preview_image = "file://{images}/contentdb/mount_rainier_camp.png"
+			tags = "real"
+			timestamp_updated = 1496340312
+			dev_only = true
+		},
 
 	]
 
@@ -3301,6 +3332,15 @@
 			addon = "boxing_ring"
 			steamvr_addon = "1128953611" // id on public
 		},
+		{
+			id = "tf2_yeti"
+			name = "#Quest_TF2Yeti"
+			desc = "#Quest_TF2Yeti_Desc"
+			preview_image = "file://{images}/contentdb/tf2_yeti.png"
+			item_generator = "item_generator_tf2_yeti"
+			addon = "mount_rainier_camp"
+			steamvr_addon = "1180765965" // id on public
+		},
 	]
 
 	quests_detector =
@@ -3513,6 +3553,15 @@
 			items = [
 				{
 					id = "pin_hawaii_lab"
+				}
+			]
+		},
+		// mount rainier quest
+		{
+			id = "item_generator_tf2_yeti"
+			items = [
+				{
+					id = "tf2_yeti"
 				}
 			]
 		},

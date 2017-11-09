@@ -995,8 +995,8 @@
 "[english]ItemDetail_Size"	"Download Size: 355MB"
 "ItemDetail_HostNewRoom"	"Δημιουργία δωματίου"
 "[english]ItemDetail_HostNewRoom"	"Host a Room"
-"HTCPromoTitle"	"ΑΝΤΙΚΕΙΜΕΝΑ VIVE"
-"[english]HTCPromoTitle"	"VIVE ITEMS"
+"HTCPromoTitle"	"ΠΕΡΙΒΑΛΛΟΝ VIVE"
+"[english]HTCPromoTitle"	"VIVE ENVIRONMENT"
 "ItemDetail_Ratings"	"Αξιολογήσεις"
 "[english]ItemDetail_Ratings"	"Ratings"
 "ItemDetail_Rating"	"Αξιολόγηση"
@@ -1009,5 +1009,7 @@
 "[english]VR_PhysicsProp_JSCoffeeMug"	"I <3 Job Mug"
 "BoxingRing_ScorePlayerWins"	"ΚΕΡΔΙΣΑΤΕ!"
 "[english]BoxingRing_ScorePlayerWins"	"YOU WIN!"
+"VR_PhysicsProp_TF2Yeti"	"Γέτι"
+"[english]VR_PhysicsProp_TF2Yeti"	"Yeti"
 }
 }

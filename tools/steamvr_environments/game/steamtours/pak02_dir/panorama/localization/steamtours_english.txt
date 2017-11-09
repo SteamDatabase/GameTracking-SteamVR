@@ -44,6 +44,8 @@
 		"VR_Map_HawaiiBeach_Desc"		"A beach on the Island of Hawai'i."
 		"VR_Map_BoxingRing"				"Boxing Ring"
 		"VR_Map_BoxingRing_Desc"		"A boxing ring and gym with a training bot to compete against."
+		"VR_Map_MountRainierCamp"		"Mount Rainier"
+		"VR_Map_MountRainierCamp_Desc"	"The tallest mountain in Washington State, USA."
 
 		// trophies
 		"GameTrophy_AppName"			"{s:app_name}"
@@ -199,6 +201,11 @@
 		"VR_PhysicsProp_OverturnMagiFigurine_Desc"	"Full body figurine of the mysterious girl 'MAGI' from OVERTURN.\n\nUnlocked by playing OVERTURN."
 		"VR_PhysicsProp_TiltBrushTiltasaurus"		"Tiltasaurus"
 		"VR_PhysicsProp_TiltBrushTiltasaurus_Desc"	"Your friendly neighborhood 3D painting dinosaur.\n\nUnlocked by playing Tilt Brush."
+		"VR_PhysicsProp_TF2Yeti"					"Yeti"
+		"VR_PhysicsProp_TF2Yeti_Desc"				"According to sacred Tibetan folklore, the noble Yeti inhabits the Himalayan region of Nepal. According to Team Fortress 2, you'll find them in a Jungle Inferno. So what was its lumpen self doing up a mountain in Washington State?"
+		"VR_PhysicsProp_DeservingLifePizza"			"Pizza is Life!"
+		"VR_PhysicsProp_DeservingLifePizza_Desc"	"A delicious leftover from the kidnapper.\n\nUnlocked by playing Deserving Life."
+		
 		
 		// furniture
 		"VR_Furniture_Book001"						"Book"
@@ -725,6 +732,8 @@
 		"Quest_Kettle_Bell_Desc"				"Unlock the kettle bell by defeating the Boxing Ring Bot."
 		"Quest_Weight_Barbell"					"Barbell Quest"
 		"Quest_Weight_Barbell_Desc"				"Unlock the barbell by interacting with something in the Boxing Ring."
+		"Quest_TF2Yeti"							"Yeti Quest"
+		"Quest_TF2Yeti_Desc"					"Find this mythical beast lurking up Mount Rainier."
 		
 		"Quest_Detector"						"Weekly Geocaching Quest"
 		"QuestType_Detector"					"{d:quest_quantity} Caches Left"
