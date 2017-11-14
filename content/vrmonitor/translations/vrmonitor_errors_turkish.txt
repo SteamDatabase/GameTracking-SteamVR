@@ -867,5 +867,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Yeniden Başlat"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Geliştirici Modu Gerekli"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows MR köprüsü sürücüsünü kullanmak için Windows geliştirici modunda olması gerekiyor."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows needs to be in developer mode to use the Windows MR bridge driver."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Windows'u Geliştirici Moduna Ayarlayın"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
 }
 }

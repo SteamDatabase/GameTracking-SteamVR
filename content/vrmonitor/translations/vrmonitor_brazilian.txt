@@ -1039,7 +1039,7 @@
 "[english]DismissableWarning_BasestationsTooFarApart"	"Base Stations too far apart (0x0002)"
 "DismissableWarning_DismissButton"	"Descartar"
 "[english]DismissableWarning_DismissButton"	"Dismiss"
-"DismissableWarning_OpticalBasestationSyncWarning"	"Alerta de sincronização ótica de estações base (0x0004)"
+"DismissableWarning_OpticalBasestationSyncWarning"	"Alerta de sincronização óptica de estações base (0x0004)"
 "[english]DismissableWarning_OpticalBasestationSyncWarning"	"Optical Base Station Sync Warning (0x0004)"
 "DismissableWarning_BasestationSingleBaseModeHint"	"Aviso de modo de estação base única (0x0008)"
 "[english]DismissableWarning_BasestationSingleBaseModeHint"	"Base Station Single Base Mode Hint (0x0008)"

@@ -1839,6 +1839,8 @@
 "[english]ShutdownWhileAppRunning_Format"	"Shutting down SteamVR will also shut down '%1'. Do you wish to continue?"
 "RebootWhileAppRunning_Title"	"SteamVR 重新啟動"
 "[english]RebootWhileAppRunning_Title"	"SteamVR Reboot"
+"RebootWhileAppRunning_Format"	"重新啟動 SteamVR 將會關閉「%1」。您確定要重新啟動？"
+"[english]RebootWhileAppRunning_Format"	"Rebooting SteamVR will also shut down'%1'. Do you wish to reboot?"
 "TrackedDeviceClass_GenericTracker"	"追蹤器"
 "[english]TrackedDeviceClass_GenericTracker"	"Tracker"
 "MenuAction_PairTracker"	"配對追蹤器"
@@ -1953,5 +1955,7 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"夜間模式會讓頭戴顯示器的光線變暗至 5:00 AM（或直到重啟 SteamVR）。"
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_PauseOnStandby"	"當頭戴顯示器閒置時會暫停渲染"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

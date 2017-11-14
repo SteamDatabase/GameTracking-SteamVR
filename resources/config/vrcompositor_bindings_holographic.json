@@ -1,7 +1,6 @@
 {
 	"profiles" : [
-		[ "vive_controller", "vive_controller" ],
-		[ "vive_controller" ]
+		[ "holographic" ]
 	],
     "action_binds": [
         {

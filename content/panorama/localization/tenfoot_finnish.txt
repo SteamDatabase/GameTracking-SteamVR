@@ -384,7 +384,7 @@
 "[english]VR_Status"	"VR STATUS"
 "VR_Notification_Title_Dashboard"	"Näytä kojelauta"
 "[english]VR_Notification_Title_Dashboard"	"Access the Dashboard"
-"VR_Notification_Content_Dashboard"	"Aloita painamalla järjestelmäpainiketta"
+"VR_Notification_Content_Dashboard"	"Paina järjestelmäpainiketta aloittaaksesi"
 "[english]VR_Notification_Content_Dashboard"	"Press the System Button to begin"
 "VRSettings"	"SteamVR-asetukset"
 "[english]VRSettings"	"SteamVR Settings"

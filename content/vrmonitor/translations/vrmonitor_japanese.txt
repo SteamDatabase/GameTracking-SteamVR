@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"japanese"
 "Tokens"
@@ -1521,7 +1521,7 @@
 "[english]About_VersionPrefix"	"Version %1"
 "DismissableWarning_Windows8"	"Windows 8 (0x8000)"
 "[english]DismissableWarning_Windows8"	"Windows 8 (0x8000)"
-"Settings_EnableScreenshots_Info"	"有効時、システムボタンをを押しながらトリガーボタンを押すとスクリーンショットを撮影"
+"Settings_EnableScreenshots_Info"	"有効時、システムボタンを押しながらトリガーボタンを押すとスクリーンショットを撮影"
 "[english]Settings_EnableScreenshots_Info"	"When enabled holding the System button and activating the Trigger button will take a screenshot"
 "Settings_EnableScreenshots_Text"	"スクリーンショットを有効化 (ベータ)"
 "[english]Settings_EnableScreenshots_Text"	"Enable Screenshots (BETA)"
@@ -1901,6 +1901,8 @@
 "[english]MessageBox_Submit"	"Submit"
 "BugReporter_Title"	"バグを報告"
 "[english]BugReporter_Title"	"Report A Bug"
+"BugReporter_Explanation"	"SteamVR の改善にご協力いただきありがとうございます。\n\nこのバグ報告ツールは、Valve が診断用に使用する、システム情報、環境、SteamVR ログの収集と、それらを含む Steam VR システムレポートを作成します。"
+"[english]BugReporter_Explanation"	"Thank you for helping Valve improve SteamVR.\n\nThis bug reporter generates a SteamVR System Report which gathers system, environment, and SteamVR logging for use by Valve for diagnostics."
 "BugReporter_ForPersonalSupport"	"これはサポートチケットではないため、サポートからの返信はありません。 SteamVR サポートエージェントから個別に返信を受けるには、サポートサイトをご覧ください。"
 "[english]BugReporter_ForPersonalSupport"	"This is not a support ticket and you will not receive a direct response. To receive personalized SteamVR support from an agent, please visit the support site."
 "BugReporter_SteamVRSupport"	"SteamVR サポート"
@@ -1935,6 +1937,8 @@
 "[english]BugReporter_SteamLoginRequired"	"You need to be logged in to your Steam account to Report A Bug."
 "BugReporter_SubmissionSuccess"	"送信成功。\n\nありがとうございました。"
 "[english]BugReporter_SubmissionSuccess"	"Submission Successful.\n\nThank You."
+"BugReporter_SubmissionFailure"	"送信失敗。\n\nバグ収集システムが混雑している可能性があります。もう一度送信してください。\n\nエラー: %1\n"
+"[english]BugReporter_SubmissionFailure"	"Submission Failure.\n\nThe Bug Collector may be busy. Please try submitting again.\n\nError: %1\n"
 "BugReporter_PreviewReportTitle"	"バグを報告 - プレビュー"
 "[english]BugReporter_PreviewReportTitle"	"Report A Bug - Preview Report"
 "BugReporter_ProgressSubmitting"	"送信しています..."
@@ -1951,5 +1955,7 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"ナイトモードはヘッドセットを午前 5:00 まで (または SteamVR が再起動されるまで) 減光します。"
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_PauseOnStandby"	"ヘッドセットがアイドル状態の時にレンダリングを一時停止する"
+"[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 }
 }

@@ -661,7 +661,7 @@
 "[english]Settings_PowerOffControllers_Text"	"Turn off Controllers when SteamVR exits"
 "Settings_PowerOffBaseStations_Text"	"Przełącz stację bazową w tryb czuwania, gdy VR nie jest w użyciu"
 "[english]Settings_PowerOffBaseStations_Text"	"Put Base Station in Standby mode when VR is not in use"
-"WorkshopUpload_Error_SteamClientNotFound"	"Nie można włączyć Narzędzia przesyłania do Warsztatu SteamVR, ponieważ klient Steam jest wyłączony."
+"WorkshopUpload_Error_SteamClientNotFound"	"Nie można włączyć narzędzia przesyłania do Warsztatu SteamVR, ponieważ klient Steam jest wyłączony."
 "[english]WorkshopUpload_Error_SteamClientNotFound"	"Cannot start the SteamVR Workshop Upload Tool because the Steam Client is not running."
 "Popover_BaseStationNoPowerManagement_Header"	"Brak podłączenia Bluetooth"
 "[english]Popover_BaseStationNoPowerManagement_Header"	"No power management"
@@ -867,5 +867,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Zrestartuj"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Wymagany tryb dewelopera Windows"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"System Windows musi być w trybie dewelopera, by użyć sterownika mostka Windows MR."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows needs to be in developer mode to use the Windows MR bridge driver."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Przełącz system Windows na tryb dewelopera"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
 }
 }

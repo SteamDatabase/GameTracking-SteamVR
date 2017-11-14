@@ -1,7 +1,6 @@
 {
 	"profiles" : [
-		[ "vive_controller", "vive_controller" ],
-		[ "vive_controller" ]
+		[ "generic" ]
 	],
     "action_binds": [
         {

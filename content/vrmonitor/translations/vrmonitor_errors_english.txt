@@ -225,10 +225,10 @@
 "VRInitError_Driver_RuntimeOutOfDate_Action" "Visit developer.oculus.com"
 "VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://developer.oculus.com/downloads/"
 
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Windows Developer Mode Required"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "Windows needs to be in developer mode to use the Windows MR bridge driver."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Set Windows to Developer Mode"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Up to date Windows 10 install required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Click here for more information"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
 "VRInitError_Driver_HmdInUse_Header" "Headset in use"
 "VRInitError_Driver_HmdInUse_Description" "The headset is being used by another application. Please quit any other VR apps to continue."

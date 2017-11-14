@@ -693,7 +693,7 @@
 "[english]Popover_Standby_HMD_Description"	"This headset is in standby mode. Move it to wake it up."
 "Popover_Standby_Controller_Header"	"Контролер в очікуванні"
 "[english]Popover_Standby_Controller_Header"	"Controller is in standby"
-"Popover_Standby_Controller_Description"	"Цей контролер перебуває у режимі очікування. Порухайте його, щоб розбудити."
+"Popover_Standby_Controller_Description"	"Цей контролер перебуває у режимі очікування. Порухайте його, щоби розбудити."
 "[english]Popover_Standby_Controller_Description"	"This controller is in standby mode. Move it to wake it up."
 "Popover_Standby_Base_Header"	"Базова станція в очікуванні"
 "[english]Popover_Standby_Base_Header"	"Base station is in standby"
@@ -867,5 +867,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Перезапустити"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Потрібний режим розробника Windows"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows необхідно бути у режимі розробника, щоби використовувати драйвер шолома змішаної реальності «Bridge»."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows needs to be in developer mode to use the Windows MR bridge driver."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Встановити Windows у режим розробника"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
 }
 }

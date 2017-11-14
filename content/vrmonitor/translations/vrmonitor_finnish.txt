@@ -621,7 +621,7 @@
 "[english]PairingWizard_PairAnotherController"	"Pair Another Controller"
 "PairingWizard_LookingForControllers_Header"	"Etsitään Vive Controlleria..."
 "[english]PairingWizard_LookingForControllers_Header"	"Looking for Vive Controller..."
-"PairingWizard_LookingForControllers_Content"	"Paina ja pidä Sovellus- ja Järjestelmä-painikkeita pohjassa, kunnes kuulet äänimerkin.\n\nOhjaimen LED-valon pitäisi alkaa vilkkua sinisenä, kun ohjain on pariliitostilassa."
+"PairingWizard_LookingForControllers_Content"	"Paina ja pidä Sovellus- ja Järjestelmä-painikkeita pohjassa, kunnes kuulet äänimerkin. \n\nOhjaimen LED-valon pitäisi alkaa vilkkua sinisenä, kun ohjaimen voi pariliittää."
 "[english]PairingWizard_LookingForControllers_Content"	"Press and hold the App and System buttons until it chimes.\n\nThe controller LED should start blinking blue to indicate that it is in pairing mode."
 "PairingWizard_TimeoutHappened_Header"	"Ohjainta ei tunnistettu"
 "[english]PairingWizard_TimeoutHappened_Header"	"No Controller Detected"

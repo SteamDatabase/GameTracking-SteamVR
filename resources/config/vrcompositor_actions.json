@@ -68,6 +68,46 @@
         {
             "name" : "/actions/lasermouse/Enter",
             "type" : "boolean"
+        },
+        {
+            "name" : "/actions/dualanalog/LeftValue",
+            "type" : "vector2"
+        },
+        {
+            "name" : "/actions/dualanalog/RightValue",
+            "type" : "vector2"
+        },
+        {
+            "name" : "/actions/dualanalog/LeftTouch",
+            "type": "boolean",
+            "scope" :  "application"
+        },
+        {
+            "name" : "/actions/dualanalog/RightTouch",
+            "type" : "boolean",
+            "scope" :  "application"
+        },
+        {
+            "name" : "/actions/dualanalog/LeftClick",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/dualanalog/RightClick",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/dualanalog/ModeSwitch1",
+            "type" : "boolean",
+            "scope" : "application"
+        },
+        {
+            "name" : "/actions/dualanalog/ModeSwitch2",
+            "type" : "boolean",
+            "scope" : "application"
+        },
+        {
+            "name" : "/actions/dualanalog/Cancel",
+            "type" : "boolean"
         }
     ],
 

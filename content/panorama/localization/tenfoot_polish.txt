@@ -523,7 +523,7 @@
 "[english]VRSettingsCamera_CameraColor"	"Camera Chaperone Color"
 "VRSettingsCamera_CameraOpacity"	"Kamera - przezroczystość Chaperone"
 "[english]VRSettingsCamera_CameraOpacity"	"Camera Chaperone Opacity"
-"OpenBackgroundWorkshop"	"Przeglądaj Warsztat"
+"OpenBackgroundWorkshop"	"Przeglądaj warsztat"
 "[english]OpenBackgroundWorkshop"	"Browse Workshop"
 "VRSettingsCamera_EnableCamera"	"Aby uruchomić kamerę skierowaną w przód, przejdź do Ustawień na pulpicie."
 "[english]VRSettingsCamera_EnableCamera"	"To enable the front-facing camera go to Settings on the Desktop."

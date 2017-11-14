@@ -499,7 +499,7 @@
 "[english]BackgroundStyle"	"Background style"
 "ExitToViewChanges"	" "
 "[english]ExitToViewChanges"	" "
-"SelectBackgroundImage"	"Избрать фоновое изображение"
+"SelectBackgroundImage"	"Выбрать фоновое изображение"
 "[english]SelectBackgroundImage"	"Select a background image"
 "OpenImageFolderOnDesktop"	"Открыть папку на рабочем столе"
 "[english]OpenImageFolderOnDesktop"	"Open Folder on Desktop"

@@ -1521,6 +1521,8 @@
 "[english]About_VersionPrefix"	"Version %1"
 "DismissableWarning_Windows8"	"Windows 8 (0x8000)"
 "[english]DismissableWarning_Windows8"	"Windows 8 (0x8000)"
+"Settings_EnableScreenshots_Info"	"เมื่อเปิดการใช้งาน การกดปุ่มระบบค้างไว้และกดปุ่มทริกเกอร์จะเป็นการถ่ายภาพหน้าจอ"
+"[english]Settings_EnableScreenshots_Info"	"When enabled holding the System button and activating the Trigger button will take a screenshot"
 "Settings_EnableScreenshots_Text"	"เปิดการใช้งานภาพหน้าจอ (เบต้า)"
 "[english]Settings_EnableScreenshots_Text"	"Enable Screenshots (BETA)"
 "MessageBox_Next"	"ถัดไป"

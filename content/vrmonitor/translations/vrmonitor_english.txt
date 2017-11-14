@@ -165,6 +165,7 @@
 "MenuAction_ShowRuntimeDirectory" "Show Runtime Directory"
 "MenuAction_RunRoomSetup" "Run Room Setup"
 "MenuAction_RunTutorial" "Run Tutorial"
+"MenuAction_RunMediaPlayer" "Run Media Player"
 "MenuAction_RecentPlaylists" "Recent Playlists"
 "MenuAction_Diagnostics" "Advanced"
 "MenuAction_Directories" "Directories"

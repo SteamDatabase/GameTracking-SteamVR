@@ -865,5 +865,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Redémarrer"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Mode développeur Windows requis"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows doit être en mode développeur pour pouvoir utiliser le pilote du pont vers Windows MR."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows needs to be in developer mode to use the Windows MR bridge driver."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Activer le mode développeur de Windows"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
 }
 }

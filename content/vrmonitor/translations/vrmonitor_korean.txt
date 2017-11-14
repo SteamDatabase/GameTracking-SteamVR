@@ -1893,7 +1893,7 @@
 "[english]Settings_EnableLinuxGPUProfiling"	"Enable GPU profiling"
 "BugReporter_ReportType_FeatureRequest"	"기능 요청"
 "[english]BugReporter_ReportType_FeatureRequest"	"Feature Request"
-"Settings_HomeAppCheck"	"SteamVR 홈 베타"
+"Settings_HomeAppCheck"	"SteamVR Home 베타"
 "[english]Settings_HomeAppCheck"	"SteamVR Home Beta"
 "Settings_HomeAppDesc"	"새로 바뀐 SteamVR Home 경험은 더욱 알찬 홈 공간과 소셜 기능 등을 지원합니다. 해당 기능은 현재 베타에서 사용 가능합니다. 포럼에서 피드백을 제공해 주세요."
 "[english]Settings_HomeAppDesc"	"The new SteamVR Home experience supports richer home spaces, social features, and more. This feature is currently in Beta, please provide feedback on the forums."
