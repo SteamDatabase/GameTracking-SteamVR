@@ -946,9 +946,7 @@ $woL)
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (%u): %short
-(%|#int
 (*%short*), 
-(-~ int
 (8HXhx
 (9s ~@H
 (A9] 
@@ -1267,7 +1265,7 @@ $woL)
 -vulkan
 -warmtime
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%lDR
+.%|DR
 .../u-H
 ...>Unserialization Error: %short
 ../../../../..
@@ -4406,6 +4404,7 @@ CvarToggleCheckButton
 Cxt>H
 Cycle or diamond double-reference to '%short'
 D#2t(H)
+D#=LO
 D$ A+D$
 D$ E9l$
 D$ H)
@@ -4509,7 +4508,7 @@ D9(t1H
 D9+~F
 D9+~cE
 D99ts
-D9=9Yu
+D9=iYu
 D9F<~
 D9L$0A
 D9L$0~VM
@@ -4531,8 +4530,8 @@ D;+};H
 D;... void
 D;.~3L
 D;.~9H
-D;5D/
-D;5Ddh
+D;5t/
+D;5tdh
 D;9tGH9
 D;9tc
 D;X,}
@@ -5635,57 +5634,59 @@ H9E(short)H
 H9GHt
 H9W8t	]
 H9p0txH
-H;=	J
-H;= __int128
-H;=)unsigned int
+H;=	k
+H;= p
+H;="&
 H;=)~
-H;=*\
-H;=*void restrict
 H;=+__float128
-H;=,qv
 H;=-I
+H;=.&
 H;=...{
-H;=.?
-H;=.^
-H;=7l
+H;=.>
+H;=.E
 H;=99
+H;=9J
 H;=;__float128
 H;=;unsigned long
-H;=>&
-H;=>=
-H;=>\
+H;=>$
+H;=><
+H;=>C
+H;=>bool
 H;=@8
 H;=@:
-H;=ADv
+H;=@q
+H;=Brv
 H;=DQ
+H;=H&
 H;=IO
 H;=K~
-H;=N;
-H;=NZ
+H;=NA
+H;=N`
 H;=P'
 H;=V$
 H;=Y	
-H;=Y8
+H;=Yj
+H;=Z\
+H;=Zrv
 H;=\V
-H;=^9
-H;=^X
+H;=\qv
+H;=^?
+H;=^^
+H;=__int128&
+H;=__int128*
+H;=__int128=
+H;=__int128\
 H;=`S
-H;=`unsigned __int128
-H;=double&
+H;=gl
 H;=h5
-H;=n7
-H;=nV
+H;=qDv
 H;=u8
 H;=u]
-H;=unsigned long long	
-H;=unsigned long?
-H;=wm
 H;=y1
 H;={	
 H;={long double
-H;=|.
-H;=~5
-H;=~T
+H;=~;
+H;=~Z
 H;A(vBH
 H;B u
 H;C r
@@ -6607,7 +6608,8 @@ Lc+D;k
 Lc/E)
 Lc/E1
 Lc3D;short
-Lc5;dh
+Lc5	B
+Lc5kdh
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -9476,7 +9478,7 @@ X2:jH
 X360_DST16
 X360_DST24
 X360_DST24F
-X=lk#
+X=|k#
 XA+M4M
 XD$ A
 XETPH
@@ -9485,9 +9487,10 @@ X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 XboxSystemInterface001
-Y%F8#
-Y%F:#
-Y58s*
+Y%V8#
+Y%V:#
+Y5#r*
+Y5Hs*
 YD$$L
 YR ~UK
 Y[A\A]]
@@ -9564,7 +9567,7 @@ ZoomStayout
 \$HfA
 \$hIcEXI
 \%03o
-\-:"R
+\-J"R
 \HcP\
 \U%08x
 \long long%02x
@@ -13272,10 +13275,10 @@ unsigned short#Hc{,H
 unsigned short#Lcc
 unsigned short#Lcc0D;char@D
 unsigned short#Lck
-unsigned short&D;=
+unsigned short&D;=5
 unsigned short&Hcq
 unsigned short&L;unsigned long
-unsigned short'D;5
+unsigned short'D;5.Li
 unsigned short'Hc{
 unsigned short'Hc{ H
 unsigned short'Hc{$H
@@ -13293,14 +13296,15 @@ unsigned short'[A\]
 unsigned short(HcCH
 unsigned short(HcO
 unsigned short(Lc#D;char
-unsigned short)D;- M
-unsigned short)D;=pR
+unsigned short);="bi
+unsigned short)D;-PM
+unsigned short)D;=
 unsigned short)HcE
 unsigned short*:E1
 unsigned short*<*u
 unsigned short*<-H
-unsigned short*D;=I!
-unsigned short*D;=int
+unsigned short*D;=
+unsigned short*D;=unsigned long long!
 unsigned short*HcC
 unsigned short*HcC(
 unsigned short*HcC`;Cp
@@ -13341,6 +13345,7 @@ unsigned short@[A\A]A^]
 unsigned short\G9l
 unsigned short]D;long double
 unsigned short^[A\]
+unsigned short`95)
 unsigned short`[A\]
 unsigned short{</u
 unsigned short{HcO

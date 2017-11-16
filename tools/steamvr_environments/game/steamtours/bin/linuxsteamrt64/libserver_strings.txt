@@ -1387,6 +1387,7 @@ $woL)
 (%.f, %.f, %.f) -- Node ID: %double; WC id %double; type %double
 (%0.2f) %short
 (%0.2f): %short
+(%7]short
 (%__float128 %__float128 %__float128 %__float128)
 (%__float128 %__float128 %__float128)
 (%__float128 %__float128)
@@ -1725,11 +1726,12 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+.%+float[
 .%bool{6
 .%cfQ
-.-)q{
-.-8t{
+.-iq{
 .-k2Q
+.-xt{
 ...	?0e`9
 ..."u H
 ..."u I
@@ -1818,7 +1820,6 @@ $woL)
 ../public/tier2/fieldpath.h
 ..\content
 .0z&u$
-.5\xp
 .5\z6
 .>()09
 .@(."
@@ -10886,10 +10887,8 @@ D9't$H
 D9'unsigned short,H
 D9(t1H
 D9(unsigned short'I
-D9-G<
 D92tY1
-D955l	
-D9=unsigned long long=
+D9=9=
 D9W(~mL
 D9`0u
 D9c<unsigned short
@@ -12828,6 +12827,7 @@ H;3t*H
 H;5Qd)
 H;7t)H
 H;:unsigned short(float
+H;=	)
 H;=	3`
 H;=	CA
 H;=	|<
@@ -12836,52 +12836,53 @@ H;= gE
 H;= k;
 H;=&bH
 H;=(0C
-H;=)"
 H;=)unsigned long long
 H;=+CA
 H;=+|<
 H;=+~unsigned char
 H;=. 
-H;=.%
 H;=0(C
 H;=0|@
 H;=3!B
 H;=31A
+H;=3h
 H;=53J
+H;=9*
 H;=9ff
 H;=:QE
-H;=>#
 H;=>1'
+H;=>[
 H;=@-E
 H;=@YC
 H;=BaF
-H;=I)
+H;=I$
 H;=LbH
-H;=N!
 H;=N/'
 H;=N0C
+H;=NY
 H;=PDF
 H;=U9`
-H;=Y#
-H;=Y8
 H;=Y<B
 H;=Yz
 H;=[=J
 H;=]#]
-H;=ch
+H;=^W
+H;=^unsigned long
 H;=char+?
 H;=gw;
 H;=haF
 H;=iIA
+H;=int+
 H;=k|unsigned char
+H;=nU
 H;=pV;
 H;=rbH
 H;=szh
 H;=t0C
-H;=unsigned long long*
+H;=unsigned long long%
 H;={<B
 H;=~5
-H;=~[
+H;=~S
 H;>unsigned short[H
 H;B0u
 H;C r
@@ -18609,6 +18610,7 @@ VR_CONTROLLER_TYPE_TOUCH
 VR_CONTROLLER_TYPE_UNKNOWN
 VR_CONTROLLER_TYPE_VIVE
 VR_CONTROLLER_TYPE_WINDOWSMR
+VR_CONTROLLER_TYPE_WINDOWSMR_SAMSUNG
 VR_CONTROLLER_TYPE_X360
 VR_HAND_HAPTIC_PULSE_LIGHT
 VR_HAND_HAPTIC_PULSE_MEDIUM
@@ -18787,7 +18789,7 @@ VsInputSignature_t
 Vulkan
 W ;2t$H
 W H9r
-W%0%\
+W%@%\
 W(Aq=
 W(H92t'H
 W3|Uxa
@@ -18987,8 +18989,8 @@ X(9Y(
 X2:jH
 X9t6@
 X=2v?
-X=::[
-X=U:[
+X=J:[
+X=long double:[
 X@TA;U<
 X@ffff
 XAxis
@@ -19018,16 +19020,14 @@ XfA9D]
 Xg8Hc
 XxHc@unsigned short
 Y ANb
-Y%&q%
-Y%&unsigned __int128%
-Y%1""
-Y%8V$
-Y%|uc
+Y%"fv
+Y%Fo%
+Y%Fq%
+Y%Q""
+Y%XV$
 Y(;Y8
 Y(E9^(A
-Y-cgv
 Y/&4@4
-Y5kgv
 Y6	@W'__float128(
 Y=Ms8
 Y?3333E
@@ -21049,7 +21049,6 @@ fA;\$6
 fA;\__int128
 fA;__int128
 fA;__int128imaginary 
-fD9%4w
 fD9/t0H
 fD91u|
 fD9cV
@@ -22440,7 +22439,6 @@ long long*;XZ
 long long*@3333GJ
 long long*HcSx;
 long long:Hcw
-long long;;=\__int128
 long long[A\A]A^A_]
 long long[A\A]]
 long long[A\A^]
@@ -29770,7 +29768,7 @@ unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@D;(};E
 unsigned short@Ic_
-unsigned short@Lc%
+unsigned short@Lc%int
 unsigned short@[A\A]A^]
 unsigned short@[A\]
 unsigned short@}?5^
@@ -30473,7 +30471,7 @@ zzuxI
 }3fA;\$~wchar_t+H
 }3fA;\wchar_t volatile+H
 }3fA;]fw,L
-}5D;-q
+}5D;-A
 }8f;rnw2f
 }:float;pnw4f
 }>;w$
@@ -30528,7 +30526,7 @@ zzuxI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=signed charcomplex 
+~)H9=
 ~)H;^
 ~*HcE
 ~*I;X

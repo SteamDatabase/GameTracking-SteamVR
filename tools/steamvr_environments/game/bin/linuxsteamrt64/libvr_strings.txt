@@ -403,6 +403,7 @@ $fD	8
 ?Out of Memory
 ?u='@
 ?|7m=U
+@85/RD
 @8A]A^]
 @9[cU
 @A9^`
@@ -1490,6 +1491,7 @@ FmtStrVSNPrintf truncated to %double without QUIET_TRUNCATION specified! String:
 FontManager_001
 FormatV
 Found max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
+Found unknown controller product id: 0x%04x, using default WindowsMR controller.
 Foveated x.
 Fractional sampling not implemented yet
 FrameIndex,NumDroppedFrames,PreSubmitGpuMs,PostSubmitGpuMs,CompositorRenderGpuMs,ClientFrameIntervalMs,FidelityLevel
@@ -1569,7 +1571,7 @@ H9GHt
 H9H unsigned short
 H9H unsigned short)H
 H9W8t	]
-H;=hy>
+H;=%dC
 H;C r
 H;CHs
 H;S@wchar_t
@@ -2390,6 +2392,7 @@ SQRT(
 SSE and SSE2 are required.
 SX[A\A]A^]
 Sampling factors too large for interleaved scan
+Samsung Windows Mixed Reality 800ZAA
 ScaleformUI001
 Scan script does not transmit all data
 SceneObjectData_t
@@ -2520,9 +2523,12 @@ Unknown (%double)
 Unknown APP0 marker (not JFIF), length %u
 Unknown APP14 marker (not Adobe), length %u
 Unknown Adobe color transform code %double
+Unknown HMD manufacturer name '%short' - falling back to generic tracked controller.
 Unknown Path Class
 Unknown compression method in IHDR
 Unknown compression type in zTXt chunk
+Unknown controller manufacturer name '%short' - falling back to HMD manufacturer name.
+Unknown controller modelnumber '%short' - falling back to WindowsMR controller.
 Unknown filter method in IHDR
 Unknown freer parameter in png_data_freer
 Unknown interlace method in IHDR
@@ -2770,6 +2776,9 @@ Warning: unknown JFIF revision number %d.%02d
 Warp mesh covers 
 Width is too large for libpng to process pixels
 Window Rect:        
+WindowsMR
+WindowsMR: %long long/%long long/%int/%int
+WindowsMR: 0x045E
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
@@ -3121,7 +3130,6 @@ grip0
 gx=%double, gy=%double, bx=%double, by=%double
 hdLcH
 header crc mismatch
-holographic
 ignoring out of range rgb_to_gray coefficients
 impactHardThreshold
 impacthard

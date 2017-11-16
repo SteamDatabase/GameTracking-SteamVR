@@ -418,7 +418,14 @@
 			desc = "#VR_Avatar_WindowsMR_Controllers_Desc"
 			content = "models/controllers/windows_mr_controller_left.vmdl"
 			preview_image = "file://{images}/contentdb/winmr_controllers.png"
-		},		
+		},
+		{
+			id = "windowsmr_samsung_controllers"
+			name = "#VR_Avatar_WindowsMR_Controllers"
+			desc = "#VR_Avatar_WindowsMR_Controllers_Desc"
+			content = "models/controllers/windows_mr_controller_samsung_left.vmdl"
+			preview_image = "file://{images}/contentdb/winmr_controllers.png"
+		},
 		{
 			id = "generic_tracked_controllers"
 			name = "#VR_Avatar_Generic_Tracked"

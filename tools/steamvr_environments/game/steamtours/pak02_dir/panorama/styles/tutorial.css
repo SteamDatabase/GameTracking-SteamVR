@@ -308,7 +308,8 @@
 .KnucklesController .ViveHelp,
 .GamepadController .ControllerHelp,
 .TouchController .TouchHelp,
-.WinMRController .WinMRHelp
+.WinMRController .WinMRHelp,
+.WinMRControllerSamsung .WinMRHelp
 {
 	visibility: visible;
 }
@@ -333,7 +334,10 @@
 .TouchController .Page3 .DoneButton,
 .WinMRController .Page1 .NextButton,
 .WinMRController .Page2 .NextButton,
-.WinMRController .Page3 .DoneButton
+.WinMRController .Page3 .DoneButton,
+.WinMRControllerSamsung .Page1 .NextButton,
+.WinMRControllerSamsung .Page2 .NextButton,
+.WinMRControllerSamsung .Page3 .DoneButton
 {
 	visibility: visible;	
 }

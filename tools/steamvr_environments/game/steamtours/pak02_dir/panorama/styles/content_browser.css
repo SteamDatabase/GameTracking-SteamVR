@@ -5508,6 +5508,7 @@ AvatarCustomizationItem #SliderThumb
 .item_def_touch_controllers,
 .item_def_knuckles_controllers,
 .item_def_windowsmr_controllers,
+.item_def_windowsmr_samsung_controllers,
 .item_def_generic_tracked_controllers,
 .item_def_more_fingers_test
 {
@@ -5528,6 +5529,10 @@ AvatarCustomizationItem #SliderThumb
 	visibility: visible;
 }
 .WinMRController .item_def_windowsmr_controllers
+{
+	visibility: visible;
+}
+.WinMRControllerSamsung .item_def_windowsmr_samsung_controllers
 {
 	visibility: visible;
 }
