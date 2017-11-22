@@ -8,7 +8,18 @@
 }
 
 // when the panel is grabbed, we make it "glow"
-.Glowing {
+.Glowing
+{
 	//box-shadow: inset #a3cf06aa 12px 12px 2px 24px;
 	box-shadow: inset #ffffffaa 4px 4px 2px 8px;
+}
+
+.Visible 
+{
+	opacity: 1;
+}
+
+.Hidden
+{
+	opacity: 0;
 }

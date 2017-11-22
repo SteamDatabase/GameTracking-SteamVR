@@ -1387,7 +1387,6 @@ $woL)
 (%.f, %.f, %.f) -- Node ID: %double; WC id %double; type %double
 (%0.2f) %short
 (%0.2f): %short
-(%7]short
 (%__float128 %__float128 %__float128 %__float128)
 (%__float128 %__float128 %__float128)
 (%__float128 %__float128)
@@ -1398,6 +1397,7 @@ $woL)
 (%double)%short (%iH)
 (%double), (%double)
 (%float, %float, %float)
+(%sMQ
 (%short) Schedule (%short) Failed at %double!
 (*%short*), 
 (0x%08X)'??'
@@ -1726,12 +1726,9 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%+float[
-.%bool{6
-.%cfQ
-.-iq{
-.-k2Q
-.-xt{
+.%[__float128[
+.%r|6
+.-)}{
 ...	?0e`9
 ..."u H
 ..."u I
@@ -1820,7 +1817,9 @@ $woL)
 ../public/tier2/fieldpath.h
 ..\content
 .0z&u$
-.5\z6
+.5l{6
+.=4#unsigned int
+.=U>
 .>()09
 .@(."
 .@,wqH
@@ -1912,6 +1911,7 @@ $woL)
 .K,...[
 .K8zBf
 .KdzIuGH
+.M; F
 .M;UU
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
 .O<{4
@@ -2258,7 +2258,7 @@ $woL)
 600.0
 67&-@
 692t&H
-6;5z6V
+6;5zHV
 6<]q@
 6<u7@
 6=((E
@@ -2266,8 +2266,7 @@ $woL)
 6@3333
 6@ffff
 6@u!V
-6D#5+short
-6D#5[
+6D#5;
 6F+U F
 6H92t%H
 6H92u
@@ -2397,13 +2396,15 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
+;=++N
+;=0+N
 ;@*$pV
 ;A0}4H
 ;A;<$|
 ;Affff
 ;C0trH
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5i+unsigned short
+;Hc5$Qt
 ;K(}&H
 ;L9'u
 ;L9/u
@@ -5813,6 +5814,8 @@ CClientMsg_CustomGameEvent
 CClientMsg_CustomGameEventBounce
 CClientMsg_CustomGameEventBounce_t
 CClientMsg_CustomGameEvent_t
+CClientMsg_DeleteObject
+CClientMsg_DeleteObject_t
 CClientMsg_DetachObjectFromAvatar
 CClientMsg_DetachObjectFromAvatar_t
 CClientMsg_DetectorQuestUnlockedItems
@@ -5826,7 +5829,7 @@ CClientMsg_PickupObject_t
 CClientMsg_ReleaseObject
 CClientMsg_ReleaseObject_t
 CClientMsg_ResetAnchor
-CClientMsg_ResetAnchor*
+CClientMsg_ResetAnchor".
 CClientMsg_ResetAnchor_t
 CClientMsg_RotateAnchor
 CClientMsg_RotateAnchor_t
@@ -7019,6 +7022,7 @@ CM_ClientUIEvent
 CM_ContentBrowserToggled
 CM_CustomGameEvent
 CM_CustomGameEventBounce
+CM_DeleteObject
 CM_DetachObjectFromAvatar
 CM_DetectorQuestUnlockedItems
 CM_DevPaletteVisibilityChanged
@@ -10749,7 +10753,6 @@ D$(unsigned short>A
 D$,9E
 D$,[A\]
 D$,f9C4t
-D$,fD
 D$,unsigned short	H
 D$.8C6t
 D$/8C7t
@@ -10881,14 +10884,16 @@ D9 unsigned short)H
 D9 ~NH
 D9!u"
 D9!unsigned short"
-D9% ,V
-D9%*-V
+D9% >V
+D9%*?V
 D9't$H
 D9'unsigned short,H
 D9(t1H
 D9(unsigned short'I
+D9-WC
 D92tY1
-D9=9=
+D955s	
+D9=yC
 D9W(~mL
 D9`0u
 D9c<unsigned short
@@ -10909,20 +10914,21 @@ D:gTt
 D;!unsigned short{Hc
 D;#}|E
 D;$%H
-D;%]F)
-D;%ccG
-D;%r7K
+D;%$&?
+D;%]X)
+D;%cuG
+D;%rIK
 D;'unsigned short{
 D;'unsigned short{Hc
 D;(unsigned short)
 D;*unsigned short>H
 D;,%H
-D;-{lM
+D;-{~M
 D;.~3L
 D;.~9H
 D;:tPH
-D;=9,)
-D;=K4)
+D;=9>)
+D;=KF)
 D;G@t5H
 D;X,}
 D;__float128 D
@@ -12798,7 +12804,6 @@ H97tsH
 H9:tqHcR 
 H9:tx
 H9:tyHcR
-H9:tzLcb A
 H9C unsigned short
 H9C(unsigned short
 H9J u
@@ -12824,65 +12829,79 @@ H;0tTH
 H;0u%
 H;2t!H
 H;3t*H
-H;5Qd)
+H;5Qv)
 H;7t)H
 H;:unsigned short(float
-H;=	)
-H;=	3`
-H;=	CA
-H;=	|<
-H;= )J
-H;= gE
-H;= k;
-H;=&bH
-H;=(0C
-H;=)unsigned long long
-H;=+CA
-H;=+|<
-H;=+~unsigned char
-H;=. 
-H;=0(C
-H;=0|@
-H;=3!B
-H;=31A
-H;=3h
-H;=53J
-H;=9*
-H;=9ff
-H;=:QE
-H;=>1'
-H;=>[
-H;=@-E
-H;=@YC
-H;=BaF
-H;=I$
-H;=LbH
-H;=N/'
-H;=N0C
-H;=NY
-H;=PDF
-H;=U9`
-H;=Y<B
-H;=Yz
-H;=[=J
-H;=]#]
-H;=^W
-H;=^unsigned long
-H;=char+?
-H;=gw;
-H;=haF
-H;=iIA
-H;=int+
-H;=k|unsigned char
-H;=nU
-H;=pV;
-H;=rbH
-H;=szh
-H;=t0C
-H;=unsigned long long%
-H;={<B
-H;=~5
-H;=~S
+H;=	/
+H;= wchar_t<
+H;=%#>
+H;=)I]
+H;=.*
+H;=..
+H;=.A'
+H;=0)F
+H;=0+I
+H;=0<C
+H;=0RC
+H;=1}H
+H;=3*unsigned int
+H;=3KC
+H;=4BJ
+H;=5f`
+H;=90
+H;=90'
+H;=9>
+H;=9N`
+H;=9^A
+H;=:~H
+H;=;oF
+H;==@signed char
+H;=>(
+H;=>,
+H;=@)C
+H;=@wE
+H;=EI`
+H;=I*
+H;=LGJ
+H;=L|F
+H;=N&
+H;=N*
+H;=PDJ
+H;=V}H
+H;=X&J
+H;=XKC
+H;=[^A
+H;=]6`
+H;=^$
+H;=^(
+H;=^G
+H;=__int128"
+H;=__int128&
+H;=`CC
+H;=cLA
+H;=char<B
+H;=eNJ
+H;=i1
+H;=i1'
+H;=int"I
+H;=jlE
+H;=long double)J
+H;=m$\
+H;=nE
+H;=nb
+H;=pHE
+H;=pm;
+H;=ptC
+H;=r|F
+H;=so
+H;=u#`
+H;=unsigned long long+
+H;=z5J
+H;=|}H
+H;=~ 
+H;=~C
+H;=~KC
+H;=~`
 H;>unsigned short[H
 H;B0u
 H;C r
@@ -12964,7 +12983,6 @@ HasTag
 HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
-Hc5y5t
 Hc@ H
 Hc@$H
 Hc@0M
@@ -14423,14 +14441,14 @@ Lc!D;signed char
 Lc#D9b
 Lc#D;char
 Lc#E9
-Lc%ZcG
-Lc%i7K
+Lc%ZuG
+Lc%iIK
 Lc&D;float
 Lc'D;__float128
 Lc'E)
 Lc)D;int
 Lc+D;k
-Lc-rlM
+Lc-r~M
 Lc.D;__int128
 Lc/D;unsigned __int128
 Lc/E)
@@ -17544,6 +17562,7 @@ T$(H9
 T$(Hc
 T$(L!
 T$(L9t
+T$,E1
 T$0H9
 T$0Hc
 T$0L9
@@ -18789,7 +18808,7 @@ VsInputSignature_t
 Vulkan
 W ;2t$H
 W H9r
-W%@%\
+W%@&\
 W(Aq=
 W(H92t'H
 W3|Uxa
@@ -18983,14 +19002,14 @@ Wrong alignment %double
 Wzm6V"
 W{@3333
 X zR&="@r
-X%T?9
-X%e2@
+X%double@9
+X%u3@
 X(9Y(
 X2:jH
 X9t6@
 X=2v?
-X=J:[
-X=long double:[
+X=J;[
+X=long double;[
 X@TA;U<
 X@ffff
 XAxis
@@ -19020,16 +19039,14 @@ XfA9D]
 Xg8Hc
 XxHc@unsigned short
 Y ANb
-Y%"fv
-Y%Fo%
-Y%Fq%
-Y%Q""
-Y%XV$
 Y(;Y8
 Y(E9^(A
+Y-$3%
+Y-csv
 Y/&4@4
+Y5ksv
 Y6	@W'__float128(
-Y=Ms8
+Y=]t8
 Y?3333E
 Y?[A\]
 Y@CPropVRTrackedObject
@@ -19133,9 +19150,9 @@ Z}uU
 \$HfA
 \$hIcEXI
 \%03o
-\-9?9
-\-Jf9
-\5tnY
+\-I@9
+\-Zg9
+\5toY
 \U%08x
 \long long%02x
 \r@__int128|7'@^
@@ -21049,6 +21066,7 @@ fA;\$6
 fA;\__int128
 fA;__int128
 fA;__int128imaginary 
+fD9%D~
 fD9/t0H
 fD91u|
 fD9cV
@@ -22439,6 +22457,7 @@ long long*;XZ
 long long*@3333GJ
 long long*HcSx;
 long long:Hcw
+long long;;=\u
 long long[A\A]A^A_]
 long long[A\A]]
 long long[A\A^]
@@ -29562,6 +29581,7 @@ u(0@F;
 u(ATD
 u([A\A]A^]
 u(unsigned short-E9
+u)Mc.E;__int128
 u)Mc~ E;~0D
 u-[A\]
 u.HW?
@@ -29684,7 +29704,6 @@ unsigned short%HcO
 unsigned short%Mc4$E;t$
 unsigned short%[A\A]A^]
 unsigned short%[A\]
-unsigned short&;5'
 unsigned short&D;=
 unsigned short&HcC
 unsigned short&Hcq
@@ -29768,7 +29787,7 @@ unsigned short?[A\]
 unsigned short@@:>u
 unsigned short@D;(};E
 unsigned short@Ic_
-unsigned short@Lc%int
+unsigned short@Lc%	
 unsigned short@[A\A]A^]
 unsigned short@[A\]
 unsigned short@}?5^
@@ -30471,7 +30490,7 @@ zzuxI
 }3fA;\$~wchar_t+H
 }3fA;\wchar_t volatile+H
 }3fA;]fw,L
-}5D;-A
+}5D;-
 }8f;rnw2f
 }:float;pnw4f
 }>;w$
@@ -30526,7 +30545,7 @@ zzuxI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=
+~)H9=Sh
 ~)H;^
 ~*HcE
 ~*I;X

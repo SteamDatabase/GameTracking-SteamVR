@@ -20,10 +20,6 @@ SteamToursFriends {
 	height: 100%;
 }
 
-SteamToursFriends.Hidden {
-	visibility: collapse;
-}
-
 .GamepadController SteamToursFriends {
 	opacity: .3;	
 }
@@ -34,9 +30,6 @@ SteamToursFriends.Hidden {
 
 .InSteamVRTutorial SteamToursFriends,
 .Tutorial SteamToursFriends,
-.Hidden SteamToursFriends,
-.GamepadController .Hidden SteamToursFriends,
-.ViewFocus.GamepadController .Hidden SteamToursFriends,
 .Teleported SteamToursFriends {
 	opacity: 0;
 }

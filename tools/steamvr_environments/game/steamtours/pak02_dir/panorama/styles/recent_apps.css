@@ -18,17 +18,14 @@ SteamToursRecentApps
 	transition-timing-function: bigpicture-ease-in-out;
 }
 
-SteamToursRecentApps.Hidden 
-{
-	visibility: collapse;
-}
-
 // this still needs to work for gamepad users
-.GamepadController SteamToursRecentApps {
+.GamepadController SteamToursRecentApps
+{
 	opacity: .3;	
 }
 
-.ViewFocus.GamepadController SteamToursRecentApps {
+.ViewFocus.GamepadController SteamToursRecentApps
+{
 	opacity: 1;	
 }
 

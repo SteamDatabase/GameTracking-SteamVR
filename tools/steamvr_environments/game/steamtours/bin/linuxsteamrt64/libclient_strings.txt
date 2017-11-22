@@ -1375,12 +1375,11 @@ $~gHc
 (0x%08X)'??'
 (1 + __int128) * 3 <= vecsize
 (1@zD
-(54}&
+(5Q.Y
 (8HXhx
 (9s ~@H
-(=+}&
-(=6X&
-(=~M&
+(=&__float128&
+(=void\&
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1867,18 +1866,16 @@ $~gHc
 -walk
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%%}Z
 .%0*llu
-.%2]Z
-.%:>[
+.%44'
+.%:9[
+.%XZ
 .%mu6
 .(Optional) Set of tags for the published file.
-.-4Z`
-.-C4A
-.-K"unsigned long
-.-M@}
-.-\C}
-.-zW5
+.-	(\
+.-,X]
+.-A&A
+.-I3'
 ...	?0e`9
 ... axis
 ..."u A
@@ -1960,8 +1957,7 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.5 1'
-.5d3j
+.=)3'
 .>()09
 .>N^__int128~
 .@"origin"	"%.f, %.f, %.f"
@@ -2609,6 +2605,7 @@ $~gHc
 6@3333
 6@ffff
 6@u!V
+6D#5[P
 6D;U$
 6F+U F
 6H92t%H
@@ -2644,7 +2641,7 @@ $~gHc
 8IcU 
 8Ic|$8
 8If true, return tag information in the returned details.
-8L;'u"
+8L;'u
 8LcgPL
 8McD$ 
 8McD$(
@@ -2750,6 +2747,7 @@ $~gHc
 :>	As?K
 :@89u
 :@p%;6
+:AY[]
 :HcK 
 :T@dY0
 :Ug59
@@ -2784,8 +2782,6 @@ $~gHc
 ;C@tXH
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;H0}K
-;Hc5u
-;Hc5z
 ;K(}&H
 ;O<gK
 ;PX|'H
@@ -3108,7 +3104,6 @@ $~gHc
 ?F:"'FL
 ?J(}!
 ?LeftArrow
-?LightStateChanged
 ?LrA/<,M?+
 ?Mct$ 
 ?N%E\
@@ -3417,6 +3412,7 @@ $~gHc
 @a2U0*,~@
 @a2U0*Q?@
 @aTR'
+@animTimeSerializer
 @asiW|
 @byte
 @char volatile	kc
@@ -6231,6 +6227,7 @@ CClientMessagePB<518, CClientMsg_SetSteamVRController, (NetChannelBufType_t)1>
 CClientMessagePB<519, CClientMsg_ResetAnchor, (NetChannelBufType_t)1>
 CClientMessagePB<520, CClientMsg_SpawnGameTrophy, (NetChannelBufType_t)1>
 CClientMessagePB<521, CClientMsg_SpawnPanel, (NetChannelBufType_t)1>
+CClientMessagePB<522, CClientMsg_DeleteObject, (NetChannelBufType_t)1>
 CClientModeGameSystem
 CClientMsg_AttachObjectToAvatar
 CClientMsg_AttachObjectToAvatar_t
@@ -6242,6 +6239,8 @@ CClientMsg_CustomGameEvent
 CClientMsg_CustomGameEventBounce
 CClientMsg_CustomGameEventBounce_t
 CClientMsg_CustomGameEvent_t
+CClientMsg_DeleteObject
+CClientMsg_DeleteObject_t
 CClientMsg_DetachObjectFromAvatar
 CClientMsg_DetachObjectFromAvatar_t
 CClientMsg_DetectorQuestUnlockedItems
@@ -6255,7 +6254,7 @@ CClientMsg_PickupObject_t
 CClientMsg_ReleaseObject
 CClientMsg_ReleaseObject_t
 CClientMsg_ResetAnchor
-CClientMsg_ResetAnchor*
+CClientMsg_ResetAnchor".
 CClientMsg_ResetAnchor_t
 CClientMsg_RotateAnchor
 CClientMsg_RotateAnchor_t
@@ -6518,6 +6517,7 @@ CEntitySaveRestoreBlockHandler
 CEntityScriptFramework
 CEntitySpawner<CClient_Precipitation>
 CEntitySpawner<CViewAngleAnimation>
+CEntitySpawner<C_BaseAnimating>
 CEntitySpawner<C_BaseEntity>
 CEntitySpawner<C_Beam>
 CEntitySpawner<C_CombatWeaponClone>
@@ -6543,6 +6543,7 @@ CEntitySpawnerBase<CClient_Precipitation>
 CEntitySpawnerBase<CPointOffScreenIndicatorUi>
 CEntitySpawnerBase<CViewAngleAnimation>
 CEntitySpawnerBase<C_AvatarPuppetClientSide>
+CEntitySpawnerBase<C_BaseAnimating>
 CEntitySpawnerBase<C_BaseEntity>
 CEntitySpawnerBase<C_Beam>
 CEntitySpawnerBase<C_CombatWeaponClone>
@@ -7238,6 +7239,7 @@ CM_ClientUIEvent
 CM_ContentBrowserToggled
 CM_CustomGameEvent
 CM_CustomGameEventBounce
+CM_DeleteObject
 CM_DetachObjectFromAvatar
 CM_DetectorQuestUnlockedItems
 CM_DevPaletteVisibilityChanged
@@ -7553,6 +7555,7 @@ CNetMessagePB<518, CClientMsg_SetSteamVRController, (SignonGroup_t)14, (NetChann
 CNetMessagePB<519, CClientMsg_ResetAnchor, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetMessagePB<520, CClientMsg_SpawnGameTrophy, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetMessagePB<521, CClientMsg_SpawnPanel, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
+CNetMessagePB<522, CClientMsg_DeleteObject, (SignonGroup_t)14, (NetChannelBufType_t)1, true>
 CNetworkFieldScratchData
 CNetworkFieldScratchData.m_MemoryStacks[ %double ]
 CNetworkFieldScratchData.m_MemoryStacks[ 0 ]
@@ -10487,6 +10490,7 @@ D+s$Mc
 D+s0E
 D+short E
 D+{$Mc
+D-Cvx
 D0(A9
 D0gPad
 D15S1
@@ -10504,12 +10508,16 @@ D9 ~zH
 D9!u"
 D9!unsigned short"
 D9#~8H
+D9%	/
+D9%9.
+D9%CT#
 D9'unsigned short,H
 D9(t1H
 D9(unsigned short'I
 D9+~[L
 D90t[A
 D9;~dL
+D9=Y$
 D9D$4B
 D9D$4H
 D9F<~
@@ -10553,20 +10561,16 @@ D:...	unsigned short
 D:hLt
 D; unsigned short=H
 D;!unsigned short{Hc
-D;%O<
-D;%T1
-D;%unsigned short/
+D;%$S
+D;%*6
 D;'unsigned short{
 D;'unsigned short{Hc
 D;*unsigned short>H
 D;+};H
-D;-$U
-D;--}-
 D;.~3L
 D;.~9H
-D;5iK
+D;5e4
 D;:tPH
-D;=IP
 D;X,}
 D;__float128 D
 D;__float128(D
@@ -12623,6 +12627,7 @@ H97tsH
 H97txH
 H9:tx
 H9:tyHcR
+H9=,)
 H9C(H
 H9D$ t6H
 H9D$(
@@ -12650,105 +12655,137 @@ H;0u%
 H;8tU
 H;8t]
 H;:unsigned short(float
-H;=	#
-H;=	2
-H;=	@!
-H;=	PC
-H;= 2.
-H;= 3%
-H;= T.
-H;= char-
-H;= unsigned int%
-H;= }"
-H;=!H@
-H;=!unsigned int:
-H;=#T9
-H;=%KC
-H;=(P
-H;=)&
-H;=)*
-H;=)9
-H;=*"
-H;=+M9
-H;=. 
-H;=.M 
-H;=.W
-H;=.void
-H;=0]-
-H;=312
-H;=4[6
-H;=71 
-H;=8[(
-H;=8j
-H;=9 
-H;=9$
-H;=9$F
-H;=93
-H;=99
-H;=;58
-H;=>U
-H;=>unsigned short
-H;=?$
-H;=B"
-H;=E|D
-H;=GL 
-H;=HL
-H;=I%)
-H;=I-
-H;=I1
-H;=I;?
-H;=I<.
-H;=NS
-H;=Nr
-H;=P9"
-H;=PS-
-H;=QGF
-H;=QZ6
-H;=T*!
-H;=TM 
-H;=W$
-H;=W3
-H;=W4
-H;=WP)
-H;=X1 
-H;=Y'
-H;=Y+
-H;=Y:
-H;=Yz3
-H;=Z[(
-H;=Z[6
-H;=^Q
-H;=^p
-H;=`:2
-H;=`L
-H;=erC
-H;=i4
-H;=iY"
-H;=int!
-H;=int%
-H;=int:
-H;=iy-
-H;=k%)
-H;=k<.
-H;=l$8
-H;=nO
-H;=nn
-H;=p!8
-H;=p#&
-H;=p6)
-H;=p? 
-H;=pL 
-H;=qlF
-H;=unsigned __int128complex 
-H;=vZ6
-H;=xP)
-H;=y.
-H;=yh(
-H;=z1 
-H;=zM 
-H;=}_C
-H;=~M
-H;=~long
+H;=	/5
+H;=	4
+H;=	=
+H;=	G
+H;=	unsigned int?
+H;= 	
+H;= )%
+H;= 4&
+H;= >*
+H;= k
+H;= y.
+H;=%l1
+H;=(S 
+H;=)(
+H;=),
+H;=);
+H;=)D
+H;=)N
+H;=)qF
+H;=-0C
+H;=.C
+H;=.]8
+H;=.int
+H;=.r.
+H;=01
+H;=3)$
+H;=3^
+H;=5QG
+H;=5R 
+H;=5ZF
+H;=7>
+H;=9(
+H;=95
+H;=9>
+H;=9H
+H;=9S
+H;=9c3
+H;=9t8
+H;=:Q5
+H;=:R)
+H;=;MD
+H;==y8
+H;=>__float128
+H;=@E*
+H;=@O.
+H;=@\&
+H;=@t$
+H;=A&@
+H;=C3B
+H;=CqH
+H;=D,#
+H;=GL
+H;=I/
+H;=I3
+H;=I8
+H;=I=
+H;=IB
+H;=IK
+H;=IK*
+H;=IU
+H;=KpH
+H;=NS 
+H;=Ne
+H;=P1 
+H;=Pj7
+H;=QlF
+H;=Qv8
+H;=S 4
+H;=S*-
+H;=Tr.
+H;=UB8
+H;=Y)
+H;=Y-
+H;=Y6$
+H;=Y6*
+H;=Y<
+H;=YE
+H;=YO
+H;=[c3
+H;=[oH
+H;=]|F
+H;=^)
+H;=^R 
+H;=^char
+H;=__int128'
+H;=__int128-
+H;=`# 
+H;=`%7
+H;=`K
+H;=`T-
+H;=`W8
+H;=bl
+H;=cQ3
+H;=fT8
+H;=gb*
+H;=i6
+H;=i97
+H;=iI
+H;=iT
+H;=im8
+H;=int#
+H;=int)
+H;=int?
+H;=kJD
+H;=kK*
+H;=ku9
+H;=kwH
+H;=m$5
+H;=p.7
+H;=pM"
+H;=p{)
+H;=short	J
+H;=tS 
+H;=unsigned __int128*%
+H;=unsigned int,#
+H;=unsigned long long|*
+H;=we
+H;=xe8
+H;=y0
+H;=y4
+H;=y9
+H;=yC
+H;=zl
+H;=zr.
+H;={6$
+H;={6*
+H;={9B
+H;={?B
+H;=|k
+H;=~+
+H;=~~
 H;>unsigned short[H
 H;C I
 H;C r
@@ -14064,6 +14101,7 @@ L9cHv
 L9l$(u
 L9t$(u
 L9|$HJ
+L;-Lnx
 L;0t!A
 L;?u"
 L;d$@L
@@ -14151,18 +14189,21 @@ Lc!D;signed char
 Lc"D;bool
 Lc#D;char
 Lc#E9
-Lc%int<
+Lc%!6
+Lc%)^
+Lc%:T#
+Lc%gT#
 Lc&D;float
 Lc'D;__float128
 Lc'E)
 Lc+D)
 Lc+D;k
-Lc-$}-
 Lc/E)
 Lc/E1
 Lc1D;q
 Lc3D;short
 Lc3E9
+Lc5\4
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -14241,6 +14282,7 @@ Li@5*p
 Lid : velarized voiced alveolar lateral approximant
 Lid : voiced alveolar lateral approximant
 LightQueryGameSystem
+LightStateChanged
 LightingBasis
 LightingBuilderMgr001
 LightmapUV
@@ -15439,7 +15481,7 @@ PersonaName
 PersonaNameReplacementToken
 PersonalBubbleSlider
 PhA9]P~+L
-PhHc5i
+PhHc5)
 Phags_Pa
 Phoenician
 Phoneme delay to account for sound system latency.
@@ -17255,14 +17297,14 @@ T$hA)
 T$lHc
 T$pH9
 T$pL)
-T%>unsigned short/
-T%Qr/
-T%Ut/
-T%cp/
-T-Kp/
+T%>U/
+T%QS/
+T%UU/
+T%cQ/
+T-KQ/
 T.$Hc
 T0@GZ
-T5=r/
+T5=S/
 T5i@H
 T82fE
 T@MResourceBlockType
@@ -18259,14 +18301,16 @@ W H9r
 W HcE
 W HcG
 W%:O&unsigned short
-W%dq-
-W%ph-
+W%}__float128-
 W(Aq=
 W(H92t'H
 W,:V,u
 W0Hc_8A
 W0t	H
 W3|Uxa
+W5dV4
+W5u1Q
+W=og-
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -18460,9 +18504,11 @@ Wzm6V"
 W{@3333
 X zR&="@r
 X$HcH 
-X%__float128!void
+X%5{unsigned int
 X(9Y(
 X(Optional) If true, only return the published file ids of files that satisfy this query.
+X-(},
+X-kmf
 X0~tA
 X2:jH
 X360_DST16
@@ -18486,19 +18532,15 @@ X\V@%
 X^'@double
 XboxSystemInterface001
 Y ANb
-Y%8FM
-Y%9#8
-Y%X"7
-Y%]}$
-Y%~lZ
+Y%T*`
+Y%unsigned long long'8
 Y(;Y8
 Y(E9^(A
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-'*float
-Y-kFM
-Y-sic
 Y/&4@4
-Y58f=
+Y53i=
+Y5Xj=
+Y5\{`
 Y6	@W'__float128(
 Y?3333E
 YA3333
@@ -18626,8 +18668,9 @@ Z}uU
 \$HfA
 \$hIcEXI
 \$xA;
+\%0#signed char
 \%03o
-\%double;q
+\%2W`
 \C not allowed in lookbehind assertion
 \I8r!H
 \N is not supported in signed char class
@@ -18663,9 +18706,7 @@ Z}uU
 ]u9n5;> )"
 ^ HcF(L
 ^ unsigned short+H
-^%/"X
 ^)8~@
-^-@"X
 ^-wf"
 ^...%u#G
 ^?O<__float128
@@ -19475,7 +19516,6 @@ angular_fog_max_end
 angular_fog_max_start
 angular_fog_min_end
 angular_fog_min_start
-animTimeSerializer
 anim_disable
 anim_name
 anim_name_a
@@ -21949,6 +21989,7 @@ invalid time base %float
 invalid window size
 invalid_bone
 invalid_hitbox
+inventory_select
 inventory_service_id
 inventory_service_promo_appid
 inventory_service_promo_rules
@@ -27656,7 +27697,7 @@ t$lfA
 t$pH)
 t$xH)
 t.D9p
-t.D;%
+t.D;%}
 t.Lc#M
 t.fA9
 t0Mcv
@@ -27697,7 +27738,7 @@ tAffffhF
 tAw3A
 tBL;unsigned char L
 tBViewEffects
-tCLc%unsigned short
+tCLc%$
 tC[A\A]A^]
 tD@:5
 tDHcx D
@@ -27722,7 +27763,6 @@ tRNS chunk has out-of-range samples for bit_depth
 tRNS chunk not allowed with alpha channel
 tR[A\A]A^]
 tSHcO
-tS[A\]
 tT<%float
 tUE9e
 tV;0~'L
@@ -27732,6 +27772,7 @@ tVLck
 tWA9]
 tWD9 u
 tWIct$
+tW[A\]
 tYH;C(A
 tYLPG@
 tY[A\A]A^]
@@ -28039,6 +28080,7 @@ u(ATD
 u(IcF,
 u(Mcl$
 u(unsigned short-E9
+u)Mc.E;__int128
 u)Mc~ E;~0D
 u,[A\A]A^]
 u-[A\A^]
@@ -28198,21 +28240,21 @@ unsigned short#Lck
 unsigned short#[A\A]A^]
 unsigned short%;2t%H
 unsigned short%D; tXH
-unsigned short%D;%D
+unsigned short%D;%4
 unsigned short%D;-
 unsigned short%Mc4$E;t$
 unsigned short%[A\A]A^]
 unsigned short%[A\]
-unsigned short&;5?(
+unsigned short&;5/F
 unsigned short&@8>unsigned short+H
 unsigned short&D;%
-unsigned short&D;=
-unsigned short&D;=5`
+unsigned short&D;=%~
+unsigned short&D;=u
 unsigned short&Hc]
 unsigned short&Hcq
 unsigned short'<"unsigned short
 unsigned short'D;%
-unsigned short'D;5~p
+unsigned short'D;5
 unsigned short'Hc{
 unsigned short'Hc{ H
 unsigned short'Hc{$H
@@ -28238,7 +28280,6 @@ unsigned short(Ic},H
 unsigned short(Ic}@H
 unsigned short(Ic~0H
 unsigned short([A\A]A^]
-unsigned short);=r
 unsigned short)Lc+D;k
 unsigned short* Hc
 unsigned short*(Hc
@@ -28246,7 +28287,6 @@ unsigned short*:E1
 unsigned short*<*u
 unsigned short*<-H
 unsigned short*D;-
-unsigned short*D;-Y
 unsigned short*HcC
 unsigned short*HcE
 unsigned short*HcKH
@@ -28269,7 +28309,7 @@ unsigned short+IcD$
 unsigned short+Jc4
 unsigned short+Mcl$pE;
 unsigned short+fA9
-unsigned short,D;=+
+unsigned short,D;=
 unsigned short,Hcx
 unsigned short,L;long double
 unsigned short,Mc}
@@ -28665,6 +28705,16 @@ vr_interaction_deltaspeed
 vr_interaction_dist_break
 vr_interaction_dist_search
 vr_interaction_dist_start
+vr_inventory_debug
+vr_inventory_hand_halfwidth_x
+vr_inventory_hand_halfwidth_y
+vr_inventory_hand_halfwidth_z
+vr_inventory_item_halfwidth_x
+vr_inventory_item_halfwidth_y
+vr_inventory_item_halfwidth_z
+vr_inventory_max_items
+vr_inventory_radius
+vr_inventory_root
 vr_item_browser_column_spacing
 vr_item_browser_dist
 vr_item_browser_height
@@ -29224,7 +29274,7 @@ zyuwA
 ~1Hc<
 ~31]H
 ~79ZP
-~7Lc%X
+~7Lc%
 ~:Lc+A
 ~<Lc{
 ~=FLD4F

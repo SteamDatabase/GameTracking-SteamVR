@@ -15,11 +15,6 @@
 	transition-timing-function: bigpicture-ease-in-out;
 }
 
-#PuppetControls.Hidden
-{
-	opacity: 0;		
-}
-
 .GamepadController #PuppetControls {
 	opacity: .3;	
 }
@@ -30,10 +25,8 @@
 
 .InSteamVRTutorial #PuppetControls,
 .Tutorial #PuppetControls,
-.Teleported #PuppetControls,
-.Hidden #PuppetControls,
-.GamepadController .Hidden #PuppetControls,
-.ViewFocus.GamepadController .Hidden #PuppetControls {
+.Teleported #PuppetControls
+{
 	opacity: 0;
 }
 

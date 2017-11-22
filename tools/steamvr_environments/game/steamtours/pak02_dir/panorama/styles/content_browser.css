@@ -19,7 +19,6 @@ SteamToursContentBrowser.Visible
 	opacity: 1;
 }
 
-SteamToursContentBrowser.Hidden,
 .Tutorial SteamToursContentBrowser
 {
 	visibility: collapse;
@@ -36,13 +35,6 @@ SteamToursContentBrowser.Hidden,
 }
 
 .Teleported SteamToursContentBrowser
-{
-	opacity: 0;
-}
-
-.Hidden SteamToursContentBrowser,
-.GamepadController .Hidden SteamToursContentBrowser,
-.ViewFocus.GamepadController .Hidden SteamToursContentBrowser  
 {
 	opacity: 0;
 }
@@ -1198,11 +1190,6 @@ SteamToursContentBrowser.Hidden,
 .Teleported SteamToursAvatarCustomization
 {
 	opacity: 0;	
-}
-
-.Hidden SteamToursAvatarCustomization 
-{
-	opacity: 0;
 }
 
 SteamToursAvatarCustomization 

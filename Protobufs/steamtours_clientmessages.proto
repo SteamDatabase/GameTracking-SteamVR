@@ -25,6 +25,7 @@ enum ESteamToursClientMessages {
 	CM_ResetAnchor = 519;
 	CM_SpawnGameTrophy = 520;
 	CM_SpawnPanel = 521;
+	CM_DeleteObject = 522;
 }
 
 message CClientMsg_SpawnPhysicsProp {
@@ -167,5 +168,9 @@ message CClientMsg_SetSteamVRController {
 }
 
 message CClientMsg_ResetAnchor {
+}
+
+message CClientMsg_DeleteObject {
+	optional uint32 ent_ehandle = 1;
 }
 
