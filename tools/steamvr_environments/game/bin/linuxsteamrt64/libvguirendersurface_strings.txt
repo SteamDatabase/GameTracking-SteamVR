@@ -1,31 +1,31 @@
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
 	[A\]
       
-    Total committed memory: %double KB
-    Total used memory:      %double KB
-    long long signed char::* committed memory: %u KB out of %double KB
-  %short %short
+    Max committed memory: %u KB out of %d KB
+    Total committed memory: %d KB
+    Total used memory:      %d KB
+  %s %s
   Does nothing to multiple selections.
   Panel will be created where the menu was opened.
- ( def. "%short" )
+ ( def. "%s" )
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^]
  [A\]
  []A\
- max. %float
- min. %float
+ max. %f
+ min. %f
 !m_bNeedsSort
-"%short" "
-"%short" "%short" 
-"%short" = "%short"
+"%s" "
+"%s" "%s" 
+"%s" = "%s"
 "[A\]
 "alt"	"1"
 "ctrl"	"1"
 "id" "elementid" 
-"keycode"	"%short"
+"keycode"	"%s"
 "shift"	"1"
-"unsigned short&L;}
+"t&L;}
 #Frame_Untitled
 #MessageBox_Cancel
 #MessageBox_OK
@@ -49,7 +49,7 @@
 #include is NULL 
 #int#
 #var_
-#var_%short
+#var_%s
 #vgui_TimeLeftMinuteSecond
 #vgui_TimeLeftMinuteSeconds
 #vgui_TimeLeftMinutesSecond
@@ -58,54 +58,53 @@
 #vgui_TimeLeftSeconds
 $+s$Hc
 $A;D$
-$HcE
 $ORIGIN
 $[A\]
 $woL)
-%%%short%%
+%%%s%%
 %-120s
-%-120s - %short
+%-120s - %s
 %.04f
 %.10f
+%d %d %d %d
+%d total counted strings.
 %d_hidden
 %d_width
-%double %double %double %double
-%double total counted strings.
-%float %float %float %float
-%float %float %float %float %float %float %float %float %float %float %float %float %float %float %float %float
-%int %int %int %int
-%ls [wstring, len = %double]
-%short encoding %short %double format %short %double %short
-%short moved to front
-%short string image, int src_corner_height, int src_corner_width, int draw_corner_height, int draw_corner_width
-%short%02i:%02i:%02i:%.02f
-%short%02i:%02i:%02i:%02.0f
-%short%02i:%02i:%02i:%02i
-%short%02i:%02i:%02i:%05.02f
-%short%02i:%02i:%i.%03i
-%short(%double) : %short
-%short, bool showScrollBar, bool allowMouseWheel, bool overrideChildPanelWidth
-%short, bool textHidden, bool editable, bool unicode, bool NumericInputOnly, int maxchars
-%short, int SubTabPosition
-%short, string URLText
-%short, string command, int default
-%short, string image
-%short, string image, string border, string fillcolor, bool scaleImage
-%short, string image, string imagecolor, alignment imageAlignment, int preserveAspectRatio, int filtered
-%short, string labelText, string associate, alignment textAlignment, int wrap, int dulltext, int brighttext, string font
-%short, string progress, string variable
-%short, string text, bool scrollbar
-%short, string title
-%short: '%short'
-%short: string format requested %double chars
-%short:hscroll
-%short:vscroll
+%f %f %f %f
+%f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
+%i %i %i %i
+%ls [wstring, len = %d]
+%s encoding %s %d format %s %d %s
+%s moved to front
+%s string image, int src_corner_height, int src_corner_width, int draw_corner_height, int draw_corner_width
+%s%02i:%02i:%02i.%03i
+%s%02i:%02i:%02i:%.02f
+%s%02i:%02i:%02i:%02.0f
+%s%02i:%02i:%02i:%02i
+%s%02i:%02i:%02i:%05.02f
+%s(%d) : %s
+%s, bool showScrollBar, bool allowMouseWheel, bool overrideChildPanelWidth
+%s, bool textHidden, bool editable, bool unicode, bool NumericInputOnly, int maxchars
+%s, int SubTabPosition
+%s, string URLText
+%s, string command, int default
+%s, string image
+%s, string image, string border, string fillcolor, bool scaleImage
+%s, string image, string imagecolor, alignment imageAlignment, int preserveAspectRatio, int filtered
+%s, string labelText, string associate, alignment textAlignment, int wrap, int dulltext, int brighttext, string font
+%s, string progress, string variable
+%s, string text, bool scrollbar
+%s, string title
+%s: '%s'
+%s: string format requested %d chars
+%s:hscroll
+%s:vscroll
 &Apply
 &D;(tjD
 &Exit
 &Reload Localization
 &Save
-(*%short*), 
+(*%s*), 
 (StHH
 ([A\A]A^A_]
 ([A\A]A^]
@@ -113,9 +112,9 @@ $woL)
 ([]A\A]A^A_
 (no name)
 )D$PA
-*(anonymous namespace)::CaptionGripPanel
-*(anonymous namespace)::GripPanel
-*(anonymous namespace)::ScrollBarButton
+*N12_GLOBAL__N_115ScrollBarButtonE
+*N12_GLOBAL__N_116CaptionGripPanelE
+*N12_GLOBAL__N_19GripPanelE
 +C$9C
 +C$;C
 +K$Lc
@@ -131,14 +130,13 @@ $woL)
 -sse4
 -vguifocus
 -vguimessages
-.../u-H
 ../../public/tier1/utllinkedlist.h
 ../../public/tier1/utlrbtree.h
 ../../public/tier1/utlsortvector.h
 ../public/ordered_constructor.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlsortvector.h
-.L;w
+.L;1w
 .comment
 .data
 .data.rel.ro
@@ -176,9 +174,63 @@ $woL)
 0x%llx
 1 - resize right
 1 - top-right
+10CheckImage
+10ConCommand
+10IAppSystem
+12CEmptyConVar
+12CIntProperty
+12CSceneObject
+12CThreadEvent
+12ColumnButton
+13CBoolProperty
+14CBaseAppSystemI18IVGuiRenderSurfaceE
+14CColorProperty
+14CFloatProperty
+14CHFontProperty
+14ConCommandBase
+14ISchemeSurface
+15CSmallTextEntry
+15CStringProperty
+15CTier0AppSystemI18IVGuiRenderSurfaceE
+15CTier1AppSystemI18IVGuiRenderSurfaceLi0EE
+15CTier2AppSystemI18IVGuiRenderSurfaceLi0EE
+15CTier3AppSystemI18IVGuiRenderSurfaceLi0EE
+16CDefaultAccessor
+16CRSEmbeddedPanel
+16ISceneObjectDesc
+17IGenericInterface
+17IVGuiPaintSurface
+18CBuildModeNavCombo
+18CCountedStringPool
+18CTextureDictionary
+18CTextureIdProperty
+18CUtlCharConversion
+18CVGuiRenderSurface
+18ILocalizeTextQuery
+18ITextureDictionary
+18IVGuiRenderSurface
+18MenuItemCheckImage
+19IKeyValuesErrorSpew
 2 - bottom-left
 2 - resize down
+20CDragDropHelperPanel
+20CPostConnectCallback
+21CUtlCStringConversion
+21IKeyValuesDumpContext
+22CSchemaInstallCallback
+23CSplitScreenAddedConVar
+23IConCommandBaseAccessor
+24CProportionalIntProperty
+24IProceduralLayerRenderer
 255 255 255 255
+25CProportionalXPosProperty
+25CProportionalYPosProperty
+26CDefaultKeyValuesErrorSpew
+26CProportionalFloatProperty
+27CVGuiPaintSurfaceMainThread
+27IKeyValuesDumpContextAsText
+28CVguiProceduralLayerRenderer
+29CKeyValuesDumpContextAsDevMsg
 3 - bottom-right
 3 - down & right
 3+C$H
@@ -186,15 +238,21 @@ $woL)
 3E8 u
 3[A\A]A^]
 4 - no pin
+4$HcE
 42HcU
 4fff>fff>fff>fff>
 4vf;T
 692t&H
+6ConVar
 6H92t%H
+7Dragger
+7IConVar
 8!t5H
+8#t(H
 8#tEH
-8#unsigned short(H
 8A\A]A^]
+8CFmtStrNILi1024ELb0EE
+8CFmtStrNILi256ELb0EE
 8S)tK
 8VBKVt6HcF
 8[A\A]A^A_]
@@ -204,14 +262,14 @@ $woL)
 91t0H
 9CX~,H
 :[tLL
-;#unsigned short@I
+;#t@I
 ;%02x
 ;*3$"
 ;2|?H
 ;2~.H
 ;L9'u
 ;W0}D
-;short t_+s$Hc
+;s t_+s$Hc
 <	w.1
 <	woD
 <!-- DMXVersion
@@ -222,19 +280,19 @@ $woL)
 <@tYA
 <Cu;H
 <NULL>
+<Rt<<Pt`<S
 <RtV<C
-<\tD</float
-<\unsigned short~</tzH
+<\tD</f
+<\t~</tzH
+<a href=
 <no file>
 <null>
-<signed char href=
 <unknown>
-<unsigned short&<<unsigned short*`<S
 <}tI<{uO
 =CSP1A
 =CSP1u
+>#t'D
 >#tEL
->#unsigned short'D
 ?../public/tier1/utlrbtree.h
 ?A\A]A^]
 ?ButtonToggled
@@ -269,12 +327,12 @@ A+W$Hc
 A+W$f
 A+u$Hc
 A10BlankImage
-A9?unsigned short>H
+A9?t>H
 A9F@~cI
 A9G }
-A9\unsigned char
-A9\unsigned char~\Lc
-A9]unsigned char~5I
+A9\$h
+A9\$h~\Lc
+A9]h~5I
 A9_@~8L
 A;D$h|
 A;EXt
@@ -283,7 +341,7 @@ A;G A
 A;\$ A
 A;]@|
 A;]Xt
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %double!
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
 ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
 ATUSH
 AUATA
@@ -352,9 +410,9 @@ A]A^]
 Accel
 ActivateItem
 AddRef
-After selecting and moving signed char panel Ctrl-... will undo the move.
+After selecting and moving a panel Ctrl-z will undo the move.
 AllocInternal
-Already have converter for type %short, ignoring...
+Already have converter for type %s, ignoring...
 AnimatingImagePanel
 AnimationController
 AnimationSystemUtils_001
@@ -370,22 +428,22 @@ AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
-Attribute "%short" was defined more than once.
+Attribute "%s" was defined more than once.
 Auto Update - any changes apply instantly.
 AutoResize
 BContinuousProgressBar
 BP9FP|
 Backspace
-Bad expression operator: '%char%char', expected C style boolean expression operator.
-Bad expression syntax: '%short', expected signed char single matching pair of enclosing braces.
-Bad expression token: %char
+Bad expression operator: '%c%c', expected C style boolean expression operator.
+Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
+Bad expression token: %c
 BakedLODBuilderMgr001
 Baseclass unpack
 BenchmarkService001
 BinaryProperties_GetValue
-BindTextureToFile: Invalid texture id %double
-BindTextureToFile: Invalid texture id for file %short
-BindTextureToTextureHandle: Invalid texture id %double
+BindTextureToFile: Invalid texture id %d
+BindTextureToFile: Invalid texture id for file %s
+BindTextureToTextureHandle: Invalid texture id %d
 BorderDark
 Bounce
 Break
@@ -407,74 +465,41 @@ C*|EH
 C,[A\A]]
 C,[A\]
 C8tAH
-CBaseAppSystem<IVGuiRenderSurface>
 CBitmapImagePanel
-CBoolProperty
 CBuildFactoryHelper
-CBuildFactoryHelper:  Factory for '%short' already exists!!!!
+CBuildFactoryHelper:  Factory for '%s' already exists!!!!
 CBuildModeNavCombo
-CColorProperty
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
-CCountedStringPool
-CDefaultAccessor
-CDefaultKeyValuesErrorSpew
 CDmePanelDefinition
-CDmxElement::UnpackIntoStructure: Mismatched attribute type in attribute "%short"!
-CDmxSerializer::Unserialize: Unable to read file with signed char prefix element!
-CDmxSerializer::Unserialize: recoverable error reading file without signed char prefix element count. Continuing...
+CDmxElement::UnpackIntoStructure: Mismatched attribute type in attribute "%s"!
+CDmxSerializer::Unserialize: Unable to read file with a prefix element!
+CDmxSerializer::Unserialize: recoverable error reading file without a prefix element count. Continuing...
 CDragDropHelperPanel
-CEmptyConVar
-CFloatProperty
-CFmtStrN<1024, false>
-CFmtStrN<256, false>
 CHE9&~=L
 CHE9f
-CHFontProperty
-CIntProperty
-CKeyValuesDumpContextAsDevMsg
 CMatSystemTexture::SetMaterial
 CMemAllocSystemInitialize
-CMemoryStack %short
+CMemoryStack %s
 COLORCORRECTION_VERSION_1
-CPostConnectCallback
-CProportionalFloatProperty
-CProportionalIntProperty
-CProportionalXPosProperty
-CProportionalYPosProperty
 CPtRHcS$H
-CRSEmbeddedPanel
 CSP1H
-CSceneObject
-CSchemaInstallCallback
 CSmallTextEntry
-CSplitScreenAddedConVar
-CStringProperty
-CTextureDictionary
 CTextureDictionary::BindTextureToFile
 CTextureDictionary::GetTextureSize()
 CTextureDictionary::GetTextureSize() blocking load
-CTextureDictionary::GetTextureSize() texture "%short" has no handles to load. And therefore no size
+CTextureDictionary::GetTextureSize() texture "%s" has no handles to load. And therefore no size
 CTextureDictionary::LoadDeferredIdNOW()
-CTextureDictionary::LoadDeferredIdNOW() blocking load of "%short"
+CTextureDictionary::LoadDeferredIdNOW() blocking load of "%s"
 CTextureDictionary::ProcessDeferredResourceLoading()
-CTextureIdProperty
-CThreadEvent
-CTier0AppSystem<IVGuiRenderSurface>
-CTier1AppSystem<IVGuiRenderSurface, 0>
-CTier2AppSystem<IVGuiRenderSurface, 0>
-CTier3AppSystem<IVGuiRenderSurface, 0>
 CTreeViewListControl
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
-CUtlCStringConversion
-CUtlCharConversion
 CUtlLinkedList overflow! (exhausted index range)
 CUtlLinkedList overflow! (exhausted memory allocator)
 CUtlMemoryPoolBase
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
-CUtlStreamBuffer does not support TEXT_BUFFER'short use CUtlBuffer
-CVGuiPaintSurfaceMainThread
+CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer
 CVGuiPaintSurfaceQueued::DrawFilledRectArray
 CVGuiPaintSurfaceQueued::DrawFilledRectFade
 CVGuiPaintSurfaceQueued::DrawOutlinedCircle
@@ -484,13 +509,11 @@ CVGuiPaintSurfaceQueued::DrawTexturedLineInternal
 CVGuiPaintSurfaceQueued::DrawTexturedPolygon
 CVGuiPaintSurfaceQueued::DrawTexturedQuadArray
 CVGuiPaintSurfaceQueued::DrawTexturedRectEx
-CVGuiRenderSurface
 CVGuiRenderSurface::DrawGradientQuad
 CVGuiRenderSurface::Init
 CVGuiRenderSurface::StartDrawing
-CVguiProceduralLayerRenderer
 CXXABI_1.3
-Can'unsigned short add Keybindings Context for unnamed panels
+Can't add Keybindings Context for unnamed panels
 CanBeDefaultButton
 Candidate
 Cannot Apply
@@ -508,7 +531,6 @@ CheckButton.HighlightFgColor
 CheckButton.SelectedTextColor
 CheckButton.TextColor
 CheckButtonChecked
-CheckImage
 CircularProgressBar
 CircularProgressBar.BgColor
 CircularProgressBar.FgColor
@@ -516,7 +538,6 @@ ClickPanel
 ClientScheme
 CloseFrameButtonPressed
 CloseModal
-ColumnButton
 ColumnResized
 ComboBox
 ComboBoxBorder
@@ -525,12 +546,9 @@ ComboBoxButton.ArrowColor
 ComboBoxButton.BgColor
 ComboBoxButton.DisabledBgColor
 CommandLine
-ConCommand
-ConCommandBase
-ConVar
-ConVar(%short) defined with infinite float value (%short)
-ConVarRef %short doesn'unsigned short point to an existing ConVar
-Conditional Error: %short
+ConVar(%s) defined with infinite float value (%s)
+ConVarRef %s doesn't point to an existing ConVar
+Conditional Error: %s
 ConfigurationSystem_001
 ConnectInterfaces
 ControlFactory
@@ -538,16 +556,16 @@ ControlModified
 ControlName
 ControlText
 ConversionModeMenu
-Couldn'unsigned short find bitmap font file '%short'
-Couldn'unsigned short find script file %short
-Couldn'unsigned short parse script file: expected 'event', found '%short'
-Couldn'unsigned short parse script file: expected <event name>, found nothing
-Couldn'unsigned short parse script sequence '%short': expected '{', found '%short'
-Couldn'unsigned short parse script sequence '%short': expected <anim command>, found '%short'
+Couldn't find bitmap font file '%s'
+Couldn't find script file %s
+Couldn't parse script file: expected 'event', found '%s'
+Couldn't parse script file: expected <event name>, found nothing
+Couldn't parse script sequence '%s': expected '{', found '%s'
+Couldn't parse script sequence '%s': expected <anim command>, found '%s'
 CreateInterface
 CreateNewControl
-Ctrl-char copies the settings of the last selected panel.
-Ctrl-void creates signed char new panel with the copied settings at the location of the mouse pointer.
+Ctrl-c copies the settings of the last selected panel.
+Ctrl-v creates a new panel with the copied settings at the location of the mouse pointer.
 CurrentDefaultButtonSet
 CursorEntered
 CursorEnteredChild
@@ -572,7 +590,7 @@ D$@H9
 D$@Hc
 D$@I9
 D$@L9
-D$HD;unsigned char
+D$HD;h
 D)#[A\]
 D+C$Mc
 D+c$Mc
@@ -582,13 +600,13 @@ D+k$Mc
 D+s$Mc
 D48D9
 D9y@tO
-D;!unsigned short{Hc
-D;'unsigned short{Hc
-D;__float128(D
+D;!t{Hc
+D;'t{Hc
+D;a(D
+D;c D
 D;cPD
-D;char D
-D;char\|
-D;signed char(D
+D;c\|
+D;g(D
 Deaccel
 DebugTextureInfo001
 Default
@@ -621,7 +639,6 @@ DragDrop
 DragDrop.DragFrame
 DragDrop.DropFrame
 DragDropHelper
-Dragger
 DrawColoredText
 DrawColoredTextRect
 DrawFilledRect
@@ -653,7 +670,7 @@ DrawUnicodeChar
 DrawUnicodeString
 DrawWordBubble
 DropContext
-Duplicate attribute name %short encountered!
+Duplicate attribute name %s encountered!
 E#<$E
 E+D$$Mc
 E+E$Mc
@@ -680,13 +697,13 @@ EditMenu
 EditablePanel
 Empty
 EnableSaveButton
-Encountered duplicate attribute definition for attribute "%short"!
+Encountered duplicate attribute definition for attribute "%s"!
 Encountered invalid element ID data!
 Engine2
 EngineServiceMgr001
 EnvironmentMapBuilder_001
-Error reading attribute "%short"
-Error reading in array attribute "%short" element %double
+Error reading attribute "%s"
+Error reading in array attribute "%s" element %d
 Error: Could not save changes.  File is most likely read only.
 Escape
 EventSystem001
@@ -695,21 +712,21 @@ Expand
 ExpandButton
 ExpandButton.Color
 Expanded
-Expecting ',', didn'unsigned short find it!
-Expecting '[', didn'unsigned short find it!
-Expecting ']', didn'unsigned short find it!
-Expecting '{', didn'unsigned short find it!
-Expecting '}', didn'unsigned short find it!
-Expecting array attribute value, didn'unsigned short find it!
-Expecting attribute name, didn'unsigned short find it!
-Expecting attribute type for attribute %short, didn'unsigned short find it!
-Expecting element reference, didn'unsigned short find it!
-Expecting element type name, didn'unsigned short find it!
-Expecting element type, didn'unsigned short find it!
-Expecting quoted attribute value for attribute "%short", didn'unsigned short find one!
-Expecting quoted value for element ID, didn'unsigned short find one!
+Expecting ',', didn't find it!
+Expecting '[', didn't find it!
+Expecting ']', didn't find it!
+Expecting '{', didn't find it!
+Expecting '}', didn't find it!
+Expecting array attribute value, didn't find it!
+Expecting attribute name, didn't find it!
+Expecting attribute type for attribute %s, didn't find it!
+Expecting element reference, didn't find it!
+Expecting element type name, didn't find it!
+Expecting element type, didn't find it!
+Expecting quoted attribute value for attribute "%s", didn't find one!
+Expecting quoted value for element ID, didn't find one!
 FCVAR_NEVER_AS_STRING
-Fieldname is not unique: %short
+Fieldname is not unique: %s
 File has not been opened!
 FileSelectionCombo
 FindDefaultButton
@@ -718,7 +735,7 @@ FinishDrawing
 FlashWindow
 FlattenedSerializersVersion001
 Flicker
-FmtStrVSNPrintf truncated to %double without QUIET_TRUNCATION specified! String: "%short"
+FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 FormatV
 Frame.AutoSnapRange
@@ -752,20 +769,20 @@ G u)H
 G$HcW E
 G8t"H
 G8t+H
+G<@t	]
+G<@t L
+G<@t#f
 G<@t$
+G<@t+]H
 G<@t1H
+G<@t:
 G<@tLL
 G<@tUI
 G<@th
 G<@tp
-G<@unsigned short	]
-G<@unsigned short L
-G<@unsigned short#float
-G<@unsigned short+]H
-G<@unsigned short:
 G@Lc+L
 GAMECONSOLE
-GCC: (Ubuntu .8.1-2ubuntu1~12.04+steamrt2+srt1) .8.1
+GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
@@ -786,14 +803,14 @@ GraphPanel.BgColor
 GraphPanel.FgColor
 GxUHc
 H	p(]
-H	wchar_t(UH
-H!wchar_t(H
+H	w(UH
+H!w(H
 H+S H
 H9*tgH
 H92t#H
 H92t4H
 H9sht"I
-H;S@wchar_t
+H;S@w
 H=vmatH
 H=vmatt*H=vtexu
 HIGHDPI
@@ -815,34 +832,20 @@ HcWPH
 Hcs H
 HelpSystem_001
 HideNewControlMenu
-Holding right mouse button down opens signed char dropdown panel creation menu.
+Holding right mouse button down opens a dropdown panel creation menu.
 HookUpConfigValue
 HorizScrollBar
 HostStateMgr001
 Hotkey
-I9_ short
-I;V@wchar_t
-I;_ void
-IAppSystem
-IConCommandBaseAccessor
-IConVar
-IGenericInterface
-IKeyValuesDumpContext
-IKeyValuesDumpContextAsText
-IKeyValuesErrorSpew
-ILocalizeTextQuery
+I9_ s
+I;V@w
+I;_ v
 IMECandidatesMenu
-IProceduralLayerRenderer
 IQuickTime001
-ISceneObjectDesc
-ISchemeSurface
-ITextureDictionary
-IVGuiPaintSurface
-IVGuiRenderSurface
 Ic4$H)
 IcExA;
 Ic]PI
-Ic_XA;unsigned char
+Ic_XA;_h
 Ic_xA;
 Icu`H
 IgnoreScheme
@@ -856,8 +859,8 @@ InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 InstallSchemaBindings
 Intentionally vague touch behavior for %p
-Invalid format for element ID encountered for attribute "%short"
-Invalid parent region %short specified for region %short in panel %short
+Invalid format for element ID encountered for attribute "%s"
+Invalid parent region %s specified for region %s in panel %s
 Invalidate
 Jc<(H
 K(xVHc
@@ -987,7 +990,7 @@ Key Pad 7
 Key Pad 8
 Key Pad 9
 Key Pad Enter
-KeyBinding for panel '%short' contained unknown binding '%short'
+KeyBinding for panel '%s' contained unknown binding '%s'
 KeyCodePressed
 KeyCodeReleased
 KeyCodeTyped
@@ -995,16 +998,16 @@ KeyFocusTicked
 KeyModeSet
 KeyTyped
 KeyValueCache001
-KeyValues Error: %short in file %short
-KeyValues::ParseIncludedKeys: Couldn'unsigned short load included keyvalue file %short
+KeyValues Error: %s in file %s
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn'unsigned short open file "%short" in path "%short".
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 L$HD9y
-L$HD;int
+L$HD;i
 L+khI
 L9(t2L
-L9c`unsigned short}L
+L9c`t}L
 L; ta
 LINUX
 LOG_GENERAL
@@ -1020,11 +1023,11 @@ LabelChanged
 LanguageMenu
 LayoutFileChanged
 Lc D;`
-Lc#D;char
-Lc(D;unsigned char
+Lc#D;c
+Lc(D;h
 Lc+D;k
 Lc/E)
-Lc3D;short
+Lc3D;s
 Lc6E9
 Lc7E)
 Lcc@H
@@ -1047,14 +1050,14 @@ ListPanel.TextColor
 ListViewItem
 ListViewItemSelected
 ListViewPanel
-LoadFromBuffer: expected '{', found '%short'
+LoadFromBuffer: expected '{', found '%s'
 Localize_001
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
-M;long double void
-M;u void
+M;e v
+M;u v
 MATCHFRAMEWORK_001
 MATSURFACE
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
@@ -1068,6 +1071,7 @@ MbP?+
 Mc,$E;l$
 Mc,$I
 Mcl$pE;
+Mco@E;oP
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Menu.ArmedBgColor
@@ -1080,16 +1084,15 @@ MenuBar
 MenuBar.BgColor
 MenuBorder
 MenuClose
-MenuItemCheckImage
 MenuItemHighlight
 MenuItemSelected
 MenuScrollBar
 MenuSeparator
 MeshSystem001
 MeshUtils001
-Message '%short' not handled by panel '%short'
-Message '%short', sent to '%short', has an invalid parameter type
-Message '%short', sent to '%short', has invalid parameter types
+Message '%s' not handled by panel '%s'
+Message '%s', sent to '%s', has an invalid parameter type
+Message '%s', sent to '%s', has invalid parameter types
 MessageBox
 MessageBoxText
 MinimizeToSysTray
@@ -1102,6 +1105,67 @@ MouseTriplePressed
 MouseWheeled
 MoveScrollBar
 MoveScrollBarDirect
+N4vgui10BuildGroupE
+N4vgui10CSizerBaseE
+N4vgui10ClickPanelE
+N4vgui10GraphPanelE
+N4vgui10ImagePanelE
+N4vgui10MenuButtonE
+N4vgui10MessageBoxE
+N4vgui11BaseTooltipE
+N4vgui11CheckButtonE
+N4vgui11FrameButtonE
+N4vgui11ProgressBarE
+N4vgui11RadioButtonE
+N4vgui11TextTooltipE
+N4vgui12ExpandButtonE
+N4vgui12IClientPanelE
+N4vgui12ListViewItemE
+N4vgui12ToggleButtonE
+N4vgui12TreeNodeTextE
+N4vgui13EditablePanelE
+N4vgui13FocusNavGroupE
+N4vgui13ListViewPanelE
+N4vgui13MenuSeparatorE
+N4vgui13TreeNodeImageE
+N4vgui14ComboBoxButtonE
+N4vgui14PanelListPanelE
+N4vgui15BuildModeDialogE
+N4vgui15ScrollBarSliderE
+N4vgui16RichTextInteriorE
+N4vgui16TreeViewSubPanelE
+N4vgui17CBitmapImagePanelE
+N4vgui17FrameSystemButtonE
+N4vgui17TreeNodeDropPanelE
+N4vgui18ScalableImagePanelE
+N4vgui19AnimatingImagePanelE
+N4vgui19AnimationControllerE
+N4vgui19CircularProgressBarE
+N4vgui20CTreeViewListControlE
+N4vgui21ContinuousProgressBarE
+N4vgui21CvarToggleCheckButtonI9ConVarRefEE
+N4vgui32IPanelAnimationPropertyConverterE
+N4vgui4MenuE
+N4vgui5FrameE
+N4vgui5ImageE
+N4vgui5LabelE
+N4vgui5PanelE
+N4vgui6ButtonE
+N4vgui6IImageE
+N4vgui7DividerE
+N4vgui7MenuBarE
+N4vgui8ComboBoxE
+N4vgui8ISurfaceE
+N4vgui8MenuItemE
+N4vgui8RichTextE
+N4vgui8TreeNodeE
+N4vgui8TreeViewE
+N4vgui8URLLabelE
+N4vgui9CBoxSizerE
+N4vgui9ListPanelE
+N4vgui9ScrollBarE
+N4vgui9TextEntryE
+N4vgui9TextImageE
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -1109,12 +1173,12 @@ NetworkServerService_001
 NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
-New Control menu - creates signed char new panel in the upper left corner.
+New Control menu - creates a new panel in the upper left corner.
 NewControls
 NewNode
 NextChild
-No binding for '%short', defautl key already bound to '%short'
-No such Panel Animation class %short
+No binding for '%s', defautl key already bound to '%s'
+No such Panel Animation class %s
 Num Lock
 Num Lock Toggle
 NumericInputOnly
@@ -1138,8 +1202,8 @@ PX[A\A]A^]
 P[A\A]A^]
 P[A\]
 P`H9E
-Panel::ReloadKeyBindings:  Can'unsigned short find entry for panel '%short'
-Panel::SaveKeyBindings '%short' is read-only!!!
+Panel::ReloadKeyBindings:  Can't find entry for panel '%s'
+Panel::SaveKeyBindings '%s' is read-only!!!
 PanelListEmbedded
 PanelListPanel
 PanelListPanelVScroll
@@ -1188,8 +1252,8 @@ Pulse
 PushMakeCurrent
 QAUATSH
 QCallQueued
-Queued fxn call: %short
-Queued fxn call: %short '%short'
+Queued fxn call: %s
+Queued fxn call: %s '%s'
 QueuedLoaderVersion001
 R0[A\]
 R8Y[]
@@ -1204,7 +1268,7 @@ RecursiveLoadFromBuffer:  got conditional between key and value
 RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
-RegisterConfigValue: Unknown error constructing config value "%short"!
+RegisterConfigValue: Unknown error constructing config value "%s"!
 Release
 ReloadLocalization
 Remaining
@@ -1218,7 +1282,7 @@ RenderSystemTopPanel
 RenderUtils_001
 Repaint
 ResizeColumnToContents
-ResolveVagueResourceFileName:: changed %short to %short
+ResolveVagueResourceFileName:: changed %s to %s
 ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
@@ -1233,14 +1297,14 @@ RichText.InsetY
 RichText.SelectedBgColor
 RichText.SelectedTextColor
 RichText.TextColor
-RichText: textfile parameter '%short' not found.
+RichText: textfile parameter '%s' not found.
 RichTextInterior
 RoundedCorners
 RpA]A^]
 S,;S$~
 S0;S 
-SHD;unsigned int
-SHE;__int128
+SHD;j
+SHE;n
 SSE and SSE2 are required.
 Save button - saves all settings to file. 
 ScalableImagePanel
@@ -1286,7 +1350,7 @@ ScrollBar_Vertical
 ScrollButtonPressed
 SelectedImage
 SentenceModeMenu
-SerializeDMX: Unable to open file "%short"
+SerializeDMX: Unable to open file "%s"
 ServerUploadGameStats001
 SetActiveControl
 SetAsCurrentDefaultButton
@@ -1300,13 +1364,13 @@ SetSortColumn
 SetState
 SetStencilReference
 SetString
-SetSubTextureRGBA: Invalid texture id %int
+SetSubTextureRGBA: Invalid texture id %i
 SetText
-SetTextureRGBA: Invalid texture id %int
+SetTextureRGBA: Invalid texture id %i
 SetTitle
 SetZPos
 Shift
-Shift clicking panels allows multiple panels to be selected into signed char group.
+Shift clicking panels allows multiple panels to be selected into a group.
 ShowHelp
 ShowNewControlMenu
 Sht7Lc{pD;
@@ -1336,7 +1400,7 @@ StatusLabel
 SteamAudio001
 StopPanelAnimations
 StoreUndo
-String %double: ref:%double %short
+String %d: ref:%d %s
 Su	[A\]
 T$0H9
 T$8H)
@@ -1364,7 +1428,7 @@ TextKillFocus
 TextLayout_001
 TextMessageMgr_001
 TextNewLine
-Texture dictionary loading texture "%short" directly
+Texture dictionary loading texture "%s" directly
 Texture1
 Texture2
 Texture3
@@ -1401,17 +1465,17 @@ TreeViewItemDoublePressed
 TreeViewItemSelected
 TreeViewItemSelectionCleared
 TreeViewStartRangeSelection
-Tried to rename from "%short" to "%short", but "%short" already exists!
+Tried to rename from "%s" to "%s", but "%s" already exists!
 Typing Enter in any text field applies changes.
 URLLabel
 UUID_1.0
 U`L;4
-Unable to create panel %short!
-Unable to read panel %short! UtlBuffer is the wrong type!
+Unable to create panel %s!
+Unable to read panel %s! UtlBuffer is the wrong type!
 Unexpected EOF in quoted string
 UnpinnedCornerOffsetX
 UnpinnedCornerOffsetY
-UnserializeDMX: Unable to open file "%short"
+UnserializeDMX: Unable to open file "%s"
 UpArrow
 UpdateControlData
 UseL4D2VguiHack
@@ -1508,7 +1572,7 @@ V_wcsnicmp
 V_wcstod
 V_wcstoi64
 VaPrintf
-Value %short exeeds size of datatype. 
+Value %s exeeds size of datatype. 
 Valve Client
 VarsButton
 VarsMenu
@@ -1519,8 +1583,8 @@ VguiCallQueue
 VguiPaint3D
 VguiRenderSurfaceInit
 VisBuilder_001
-WARNING: Failed to create attribute '%short' - likely out of memory in s_DMXAllocator!
-WARNING: Trying to create signed char CRenderContextPtr without signed char valid context.
+WARNING: Failed to create attribute '%s' - likely out of memory in s_DMXAllocator!
+WARNING: Trying to create a CRenderContextPtr without a valid context.
 WIN32
 WIN32HIDEF
 WIN32LODEF
@@ -1528,7 +1592,7 @@ WIN32WIDE
 WINDOWS
 WINXP
 Warning
-Warning:  %short = '%short' is infinite, clamping value.
+Warning:  %s = '%s' is infinite, clamping value.
 WindowDisabledBgColor
 Windows
 WorkshopSetup001
@@ -1540,7 +1604,7 @@ X[A\A]]
 X[]A\A]A^A_
 YD$$L
 [ no resource file associated with dialog ]
-[%short] applying key '%short', has changed from '%short' to '%short'
+[%s] applying key '%s', has changed from '%s' to '%s'
 [A\A]A^A_]
 [A\A]A^A_]A
 [A\A]A^]
@@ -1550,13 +1614,13 @@ YD$$L
 []A\A]A^
 []A\A]A^A_
 [nothing currently selected]
+\t!Hc
 \u0000
 \ufE1
-\unsigned short!Hc
 ]H+G 
 ]Ht,A
-^ unsigned short+H
-^@Lcc0D;char@D
+^ t+H
+^@Lcc0D;c@D
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -1620,11 +1684,9 @@ __cxa_pure_virtual
 __cxa_pure_virtual@@CXXABI_1.3
 __dynamic_cast
 __dynamic_cast@@CXXABI_1.3
-__float128 E;g0D
 __gmon_start__
 __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
-__int128 D+__int128
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __snprintf_chk
@@ -1640,6 +1702,7 @@ _init
 _lodef
 `[A\A]A^]
 `[A\]
+a`t<L
 abort@@GLIBC_2.2.5
 allcaps
 allowMouseWheel
@@ -1726,12 +1789,18 @@ drawcolor_override
 drophoverdelay
 droppable
 dulltext
+e tKE
 editable
 element
 element_array
 elementid
-encoding %short %double format %short %double
+encoding %s %d format %s %d
 english
+f;0tr
+f;C.w
+f;r`u
+f@Mcl$0E;l$@D
+f@Mc|$
 fA;0M
 fA;0trA
 fB9T 
@@ -1747,12 +1816,7 @@ fillColor
 fillcolor
 fillcolor_override
 filtered
-float( %float )
-float;0tr
-float;C.w
-float;r`u
-float@Mcl$0E;l$@D
-float@Mc|$
+float( %f )
 float_array
 floor
 floor@@GLIBC_2.2.5
@@ -1777,16 +1841,20 @@ frame_trGrip
 frames
 free@@GLIBC_2.2.5
 ftp://
-g0D;__float128@D
+g E;g0D
+g0D;g@D
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_pMemAlloc
 generic
 gfffA
 group
+h@t)H
 hD9 ~dH
 hD9(~\L
 hE;&|
+h[A\A]A^A_]
+h[A\A]]
 handle
 hslider
 http://
@@ -1797,7 +1865,7 @@ imagecolor
 index
 infocus_bgcolor_override
 inputsystem
-int( %double = 0x%X )
+int( %d = 0x%X )
 int_array
 interfaces.cpp
 iswalnum
@@ -1840,9 +1908,6 @@ libvguirendersurface.so
 libvguirendersurface.so.dbg
 libvstdlib.so
 localize
-long double tKE
-long long HcW
-long long[A\A]A^A_]
 m_bAutoHideButtons
 m_flAlpha
 m_iTitleTextInsetXOverride
@@ -1878,6 +1943,7 @@ memset@@GLIBC_2.2.5
 minimum-height
 minimum-width
 mouseinputenabled
+n D+n
 navDown
 navLeft
 navRight
@@ -1905,8 +1971,8 @@ panelPtr
 panel_test_title_safe
 paramName
 pin corner
-pin delta long long
-pin delta unsigned long long
+pin delta x
+pin delta y
 pin_corner_to_sibling
 pin_to_sibling
 pin_to_sibling_corner
@@ -1942,12 +2008,12 @@ quaternion
 quaternion_array
 r6LcA
 r_screen_size_expansion
-reading file '%short' of legacy format '%short' - dmxconvert this file to signed char newer format!
+reading file '%s' of legacy format '%s' - dmxconvert this file to a newer format!
 replace
 replaceSelection
 replicated
-resize delta long long
-resize delta unsigned long long
+resize delta x
+resize delta y
 resource/layout/%s.layout
 resource/layout/%s_%s.layout
 resourcesystem
@@ -1969,7 +2035,6 @@ settitlebarvisible
 shift
 should PostActionSignals
 showScrollBar
-signed char`unsigned short<L
 sin@@GLIBC_2.2.5
 sincosf
 sincosf@@GLIBC_2.2.5
@@ -2019,9 +2084,21 @@ style
 subFocus
 subtabposition
 swscanf@@GLIBC_2.2.5
+t	[A\A]A^]
+t fD;(u
+t"HcK
+t"HcO
+t"Lc+D;k
 t$@A\]
 t$@Lc
 t$H9h
+t'Lc#D;c
+t(Lc#D;c
+t*HcO
+t+Hc4
+t+Jc4
+t,Lc+H
+t-Lck
 t.Hcu
 t3Lc+I
 t3[A\]
@@ -2029,10 +2106,15 @@ t4[A\]
 t5Lc+I
 t6HcO
 t9HcE
+t?D9u
+t@@:>u
 tR[A\A]A^]
 tSHcO
 tWA9]
 tYHcU
+t[HcU
+t]D;e
+t`[A\]
 tab position
 tabPosition
 tanf@@GLIBC_2.2.5
@@ -2070,47 +2152,26 @@ ttIcG
 tvMcgXE;ghD
 txA;\$ I
 tyHcO
+t}HcO
 u [A\]
 u64( %lld = 0x%llX )
-u7Lc#D;char
-u8Lc#D;char
+u7Lc#D;c
+u8Lc#D;c
 u:Lcc
-u<Lc#D;char
+u<Lc#D;c
 u@Lcc
-uLLc#D;char
-uMLc#D;char
+uLLc#D;c
+uMLc#D;c
 uW[A\A]A^]
 uint64
 uint64_array
 uint8
 uint8_array
-unable to find control '%short'
+unable to find control '%s'
 unichar
 unicode
 unknown
 unnamed
-unsigned __int128 char::*@E;oP
-unsigned char@unsigned short)H
-unsigned char[A\A]A^A_]
-unsigned char[A\A]]
-unsigned short	[A\A]A^]
-unsigned short fD;(u
-unsigned short"HcK
-unsigned short"HcO
-unsigned short"Lc+D;k
-unsigned short'Lc#D;char
-unsigned short(Lc#D;char
-unsigned short*HcO
-unsigned short+Hc4
-unsigned short+Jc4
-unsigned short,Lc+H
-unsigned short-Lck
-unsigned short?D9u
-unsigned short@@:>u
-unsigned short[HcU
-unsigned short]D;long double
-unsigned short`[A\]
-unsigned short}HcO
 unused
 update
 use scheme colors
@@ -2120,6 +2181,7 @@ utlbuffer.cpp
 utlstring.cpp
 uuid_generate
 uuid_generate@@UUID_1.0
+v!<\t
 variable
 vector2
 vector2_array
@@ -2130,80 +2192,19 @@ vector4_array
 vgui/
 vgui2
 vgui::
-vgui::AnimatingImagePanel
-vgui::AnimationController
-vgui::BaseTooltip
-vgui::BuildGroup
-vgui::BuildModeDialog
 vgui::Button
-vgui::CBitmapImagePanel
-vgui::CBoxSizer
-vgui::CSizerBase
-vgui::CTreeViewListControl
-vgui::CheckButton
-vgui::CircularProgressBar
-vgui::ClickPanel
-vgui::ComboBox
-vgui::ComboBoxButton
-vgui::ContinuousProgressBar
-vgui::CvarToggleCheckButton<ConVarRef>
-vgui::Divider
-vgui::EditablePanel
-vgui::ExpandButton
-vgui::FocusNavGroup
-vgui::Frame
-vgui::FrameButton
-vgui::FrameSystemButton
-vgui::GraphPanel
 vgui::HFont
-vgui::IClientPanel
-vgui::IImage
-vgui::IPanelAnimationPropertyConverter
-vgui::ISurface
-vgui::Image
-vgui::ImagePanel
-vgui::Label
-vgui::ListPanel
-vgui::ListViewItem
-vgui::ListViewPanel
-vgui::Menu
-vgui::MenuBar
-vgui::MenuButton
-vgui::MenuItem
-vgui::MenuSeparator
-vgui::MessageBox
-vgui::Panel
-vgui::PanelListPanel
-vgui::ProgressBar
-vgui::RadioButton
-vgui::RichText
-vgui::RichTextInterior
-vgui::ScalableImagePanel
-vgui::ScrollBar
-vgui::ScrollBarSlider
-vgui::TextEntry
-vgui::TextImage
-vgui::TextTooltip
-vgui::ToggleButton
-vgui::TreeNode
-vgui::TreeNodeDropPanel
-vgui::TreeNodeImage
-vgui::TreeNodeText
-vgui::TreeView
-vgui::TreeViewSubPanel
-vgui::URLLabel
 vguiRender
-vgui_controls is missing signed char required interface!
+vgui_controls is missing a required interface!
 vgui_draw_regions
 vguioffscreenrendertarget
 vguioffscreenrendertargetdepth
 vguirendersurface.cpp
 vmatL
-void!<\unsigned short
 vslider
 vtexH
+w(AUATI
 w0AUATSH
-wchar_t(AUATI
 wcschr
 wcschr@@GLIBC_2.2.5
 wcscmp
@@ -2216,26 +2217,29 @@ wcsncat
 wcsncat@@GLIBC_2.2.5
 wcsncpy
 wcsncpy@@GLIBC_2.2.5
+x HcW
 x6Hcw
 xGHcO
 xOHcO
 xRHcW
 xWHcW
-{ float;C(
-{HD;unsigned __int128
+x[A\A]A^A_]
+z/u-H
+{ f;C(
+{HD;o
 {}()'
 {}()':
 |$@Lc
 |+A;\$
-}-float;wchar_t"wchar_t'H
+}-f;w"w'H
 }>;w$
 }F;w$
-}Hf;wchar_t
+}Hf;w
 }I;w$
 }N;w$
 }[fA;
-}ef;wchar_t
-}unsigned long@:wchar_t
+}ef;w
+}m@:w
 ~	ATI
 ~ A\A]A^]
 ~ [A\A]A^]

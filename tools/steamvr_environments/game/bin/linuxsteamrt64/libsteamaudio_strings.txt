@@ -1,20 +1,20 @@
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
- ( def. "%short" )
+ ( def. "%s" )
  [%.3f server clamped to %.3f]
  [A\A]A^]
  [A\]
  []A\
- max. %float
- min. %float
-"%short" 
-"%short" = "%short"
-"unsigned short&L;}
+ max. %f
+ min. %f
+"%s" 
+"%s" = "%s"
+"t&L;}
 $+s$Hc
 $ORIGIN
 %-120s
-%-120s - %short
-%int %int %int %int
-%short: string format requested %double chars
+%-120s - %s
+%i %i %i %i
+%s: string format requested %d chars
 ([A\A]A^A_]
 ([A\A]]
 ([]A\A]A^A_
@@ -51,14 +51,35 @@ $ORIGIN
 .text
 0123456789ABCDEF
 0[]A\A]A^
+10ConCommand
+10IAppSystem
+11CSteamAudio
+11ISteamAudio
+12CEmptyConVar
+14CBaseAppSystemI11ISteamAudioE
+14ConCommandBase
+15CTier0AppSystemI11ISteamAudioE
+15CTier1AppSystemI11ISteamAudioLi0EE
+15CTier2AppSystemI11ISteamAudioLi0EE
+16CDefaultAccessor
+16ISourceProcessor
+18CSource3DProcessor
+18CUtlCharConversion
+20CPostConnectCallback
+21CUtlCStringConversion
+22CSchemaInstallCallback
+23CSplitScreenAddedConVar
+23IConCommandBaseAccessor
 3E8 u
+6ConVar
 6H92t%H
+7IConVar
 8[A\A]A^A_]
 8[]A\A]A^A_
 ;*3$"
 <19{ |.
+<Rt<<Pt`<S
 <null>
-<unsigned short&<<unsigned short*`<S
 @[A\]
 A+D$$H
 A+G$H
@@ -69,7 +90,7 @@ A9G }
 A9_@~8L
 A;G A
 A;\$ A
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %double!
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
 ATSuHH
 ATUSH
 AUATA
@@ -109,30 +130,14 @@ AssetSystemTest001
 BakedLODBuilderMgr001
 BenchmarkService001
 BinaryProperties_GetValue
-CBaseAppSystem<ISteamAudio>
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
-CDefaultAccessor
-CEmptyConVar
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
-CPostConnectCallback
-CSchemaInstallCallback
-CSource3DProcessor
-CSplitScreenAddedConVar
-CSteamAudio
-CTier0AppSystem<ISteamAudio>
-CTier1AppSystem<ISteamAudio, 0>
-CTier2AppSystem<ISteamAudio, 0>
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
-CUtlCStringConversion
-CUtlCharConversion
 CXXABI_1.3
-ConCommand
-ConCommandBase
-ConVar
-ConVar(%short) defined with infinite float value (%short)
-ConVarRef %short doesn'unsigned short point to an existing ConVar
+ConVar(%s) defined with infinite float value (%s)
+ConVarRef %s doesn't point to an existing ConVar
 ConfigurationSystem_001
 ConnectInterfaces
 CreateInterface
@@ -141,7 +146,7 @@ D$8I9
 D$8L9
 D$@I9
 D$@L9
-D;char D
+D;c D
 DebugTextureInfo001
 DotaCardGameClient_001
 E+D$$Mc
@@ -163,7 +168,7 @@ G A9G
 G u)H
 G8t"H
 G8t+H
-GCC: (Ubuntu .8.1-2ubuntu1~12.04+steamrt2+srt1) .8.1
+GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.4
@@ -173,8 +178,8 @@ GameUIService_001
 GetResourceManifestCount
 GetResourceManifests
 H	p(]
-H	wchar_t(UH
-H!wchar_t(H
+H	w(UH
+H!w(H
 H9*tgH
 H[A\A]A^A_]
 H[]A\A]A^A_
@@ -184,12 +189,7 @@ HcWPH
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-IAppSystem
-IConCommandBaseAccessor
-IConVar
 IQuickTime001
-ISourceProcessor
-ISteamAudio
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -235,7 +235,7 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 PostProcessingSystem_001
 PropertyEditorSystem_001
 QueuedLoaderVersion001
-RegisterConfigValue: Unknown error constructing config value "%short"!
+RegisterConfigValue: Unknown error constructing config value "%s"!
 Release
 RenderDevice003
 RenderDeviceMgr001
@@ -340,7 +340,7 @@ V_vsnprintfSize
 VaPrintf
 VisBuilder_001
 Warning
-Warning:  %short = '%short' is infinite, clamping value.
+Warning:  %s = '%s' is infinite, clamping value.
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
@@ -353,7 +353,7 @@ X[]A\A]A^A_
 []A\A]A^
 []A\A]A^A_
 \u0000
-^ unsigned short+H
+^ t+H
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -423,7 +423,6 @@ libstdc++.so.6
 libsteamaudio.so
 libsteamaudio.so.dbg
 libtier0.so
-long long[A\A]A^A_]
 malloc
 malloc@@GLIBC_2.2.5
 memcpy
@@ -454,12 +453,13 @@ strnlen@@GLIBC_2.2.5
 strstr
 strstr@@GLIBC_2.2.5
 t$H9h
+t@@:>u
 tWA9]
 tdA:]
 ttIcG
-unsigned short@@:>u
 utlbuffer.cpp
 utlstring.cpp
+x[A\A]A^A_]
 {}()':
 ~)A;]
 ~)H97tC
