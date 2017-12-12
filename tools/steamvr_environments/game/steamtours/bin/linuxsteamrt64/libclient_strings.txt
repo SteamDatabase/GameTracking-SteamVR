@@ -592,7 +592,10 @@
 "description_%s": 
 "display_type_%s": 
 "drop_interval": %u,
+"drop_limit": %u,
+"drop_max_per_window": "%u",
 "drop_start_time": "%s",
+"drop_window": "%u",
 "e" must be followed by exponent.
 "eQueryCvarValueStatus_CvarNotFound
 "granted_manually": true,
@@ -612,11 +615,15 @@
 "pA3Q
 "promo": "%s",
 "promo": "manual",
+"promo_for_app": %u,
 "t&L;}
 "t@D9
 "tradable": true,
 "type": "generator",
 "type": "item",
+"type": "playtime_generator",
+"use_drop_limit": true,
+"use_drop_window": true,
 "width: H
 ################################################################################
 ##GameUI_Disconnect_BadRelayPassword
@@ -1361,6 +1368,7 @@ $~gHc
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (%0.2f): %s
+(%9 &
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1372,14 +1380,18 @@ $~gHc
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
+(-0 &
+(-kY[
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (1@zD
-(5Q.Y
+(5'V&
+(5I-&
+(5Y:&
 (8HXhx
 (9s ~@H
-(=&g&
-(=v\&
+(=@-&
+(=P:&
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1867,15 +1879,14 @@ $~gHc
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 .%0*llu
+.%2-}
 .%2XZ
-.%44'
 .%:9[
 .%mu6
+.%v#X
 .(Optional) Set of tags for the published file.
-.-	(\
-.-,X]
-.-A&A
-.-I3'
+.-Z[5
+.-i,\
 ../../_generated_code/client_steamtours/release/linuxsteamrt64/../../../../game/shared/world.cpp
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1912,7 +1923,6 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.=)3'
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -2578,7 +2588,7 @@ $~gHc
 13CNetMessagePBILi519E22CClientMsg_ResetAnchorL13SignonGroup_t14EL19NetChannelBufType_t1ELb1EE
 13CNetMessagePBILi520E26CClientMsg_SpawnGameTrophyL13SignonGroup_t14EL19NetChannelBufType_t1ELb1EE
 13CNetMessagePBILi521E21CClientMsg_SpawnPanelL13SignonGroup_t14EL19NetChannelBufType_t1ELb1EE
-13CNetMessagePBILi522E23CClientMsg_DeleteObjectL13SignonGroup_t14EL19NetChannelBufType_t1ELb1EE
+13CNetMessagePBILi523E25CClientMsg_DropHeldObjectL13SignonGroup_t14EL19NetChannelBufType_t1ELb1EE
 13CNetMessagePBILin1E26SpawnEntityToolEventResultL13SignonGroup_t11EL19NetChannelBufType_t1ELb0EE
 13CNetMessagePBILin1E27DestroyAllEntitiesToolEventL13SignonGroup_t11EL19NetChannelBufType_t1ELb0EE
 13CNetMessagePBILin1E29ToolEvent_GetEntityInfoResultL13SignonGroup_t11EL19NetChannelBufType_t1ELb0EE
@@ -2859,7 +2869,7 @@ $~gHc
 16CClientMessagePBILi519E22CClientMsg_ResetAnchorL19NetChannelBufType_t1EE
 16CClientMessagePBILi520E26CClientMsg_SpawnGameTrophyL19NetChannelBufType_t1EE
 16CClientMessagePBILi521E21CClientMsg_SpawnPanelL19NetChannelBufType_t1EE
-16CClientMessagePBILi522E23CClientMsg_DeleteObjectL19NetChannelBufType_t1EE
+16CClientMessagePBILi523E25CClientMsg_DropHeldObjectL19NetChannelBufType_t1EE
 16CClientThinkList
 16CDecalGameSystem
 16CDefaultAccessor
@@ -4377,7 +4387,7 @@ $~gHc
 255 255 255 255
 25CAttributeDictSaveDataOps
 25CBroadcastRecipientFilter
-25CClientMsg_DeleteObject_t
+25CClientMsg_DropHeldObject
 25CClientMsg_PickupObject_t
 25CClientMsg_RotateAnchor_t
 25CClientMsg_SetEntityColor
@@ -4517,6 +4527,7 @@ $~gHc
 26TEBeamEntPoint_GameEvent_t
 26TEEnergySplash_GameEvent_t
 27CBidirMsg_RebroadcastSource
+27CClientMsg_DropHeldObject_t
 27CClientMsg_SetEntityColor_t
 27CClientMsg_SpawnPhysicsProp
 27CClientMsg_SpawnWearables_t
@@ -5622,7 +5633,7 @@ $~gHc
 6C_Guts
 6C_Team
 6ConVar
-6D#5[P
+6D#5k
 6D;U$
 6F+U F
 6H92t%H
@@ -5692,7 +5703,7 @@ $~gHc
 8IcU 
 8Ic|$8
 8If true, return tag information in the returned details.
-8L;'u
+8L;'u"
 8LcgPL
 8McD$ 
 8McD$(
@@ -5897,7 +5908,10 @@ $~gHc
 ;Ch|-
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;H0}K
+;Hc5%5S
+;Hc5*+S
 ;K(}&H
+;KP~F
 ;O<gK
 ;PX|'H
 ;PX~JE
@@ -6789,6 +6803,7 @@ A;D$ }
 A;D$$t
 A;D$(
 A;D$(|
+A;D$(}
 A;D$@t
 A;D$H|
 A;D$PtME
@@ -6813,7 +6828,6 @@ A;Gl|
 A;GpA
 A;L$ 
 A;L$8
-A;L$@~LA
 A;L$Pt
 A;T$0
 A;T$P
@@ -6828,6 +6842,7 @@ A;\$
 A;\$ A
 A;\$(
 A;\$0t
+A;\$@~LA
 A;\$`I
 A;\$h|
 A;\$|r
@@ -8821,6 +8836,7 @@ C!?tC
 C!?tTD
 C!?tif
 C!?tlL
+C!?tpL
 C"tJL
 C$ tOH
 C$[A\]
@@ -8992,6 +9008,8 @@ CClientMsg_DeleteObject_t
 CClientMsg_DetachObjectFromAvatar_t
 CClientMsg_DetectorQuestUnlockedItems_t
 CClientMsg_DevPaletteVisibilityChangedEvent_t
+CClientMsg_DropHeldObject
+CClientMsg_DropHeldObject_t
 CClientMsg_NotifyLoadingDestination_t
 CClientMsg_PickupObject
 CClientMsg_PickupObject_t
@@ -9583,6 +9601,7 @@ CM_DeleteObject
 CM_DetachObjectFromAvatar
 CM_DetectorQuestUnlockedItems
 CM_DevPaletteVisibilityChanged
+CM_DropHeldObject
 CM_MAX_BASE
 CM_NotifyLoadingDestination
 CM_PickupObject
@@ -11189,7 +11208,6 @@ D$68C6t
 D$78C7t
 D$89C8t
 D$8:C8t
-D$8A:E8upM
 D$8A;D$H
 D$8A\]
 D$8D+|$8+D$ 
@@ -11290,7 +11308,6 @@ D+s E
 D+s$Mc
 D+s0E
 D+{$Mc
-D-Cvx
 D0(A9
 D0gPad
 D15S1
@@ -11308,16 +11325,13 @@ D9 ~zH
 D9!t"
 D9!u"
 D9#~8H
-D9%	/
-D9%9.
-D9%CT#
 D9't,H
 D9(t'I
 D9(t1H
 D9+~[L
 D90t[A
 D9;~dL
-D9=Y$
+D9=9/
 D9D$4B
 D9D$4H
 D9F<~
@@ -11361,15 +11375,15 @@ D:z	t
 D:z	tUHc
 D; t=H
 D;!t{Hc
-D;%$S
-D;%*6
 D;'t{
 D;'t{Hc
 D;*t>H
 D;+};H
+D;-LG.
+D;-MF.
 D;.~3L
 D;.~9H
-D;5e4
+D;5E?
 D;:tPH
 D;X,}
 D;`L|
@@ -11934,6 +11948,7 @@ E0L;p
 E0tQA
 E3\$@x)D
 E3\$Px
+E8A:G8uiM
 E8umA
 E9&tJI
 E9't1A
@@ -12291,6 +12306,7 @@ Error code %d
 Error could not find '%s' quest section in contentdb.txt!
 Error could not find '%s' section in contentdb.txt!
 Error could not find 'item_generators' in contentdb.txt!
+Error could not find 'playtime_item_generators' in contentdb.txt!
 Error find %u in contentdb.txt!
 Error finding %u in contentdb.txt!
 Error finding QuestsContainer in content_browser.xml!
@@ -12327,6 +12343,12 @@ Error: item generator %s has an item %s with bad chance %d!
 Error: item generator %s has an item at index %u without an id!
 Error: item generator %s has duplicate inventory service id %llu in contentdb.txt!
 Error: item generator at index %u in contentdb.txt has no id!
+Error: playtime item generator %s already exists in contentdb.txt!
+Error: playtime item generator %s doesn't have an inventory service id!
+Error: playtime item generator %s doesn't specify a promo appid!
+Error: playtime item generator %s doesn't specify a promo interval!
+Error: playtime item generator %s doesn't unlock any items!
+Error: playtime item generator at index %u in contentdb.txt has no id!
 Error: quest %s already exists in contentdb.txt!
 Error: quest %s doesn't unlock any items!
 Error: quest %s has duplicate inventory service id %llu in contentdb.txt!
@@ -13396,7 +13418,6 @@ H93tUE
 H97txH
 H9:tx
 H9:tyHcR
-H9=,)
 H9C(H
 H9D$ t6H
 H9D$(
@@ -13423,139 +13444,130 @@ H;0tHH
 H;0u%
 H;1t!
 H;2u$
+H;53r
 H;8tU
 H;8t]
 H;:t(f
-H;=	/5
-H;=	4
-H;=	=
-H;=	G
-H;=	j?
-H;= 	
-H;= )%
-H;= 4&
-H;= >*
-H;= k
-H;= y.
-H;=%l1
-H;=(S 
-H;=)(
-H;=),
-H;=);
-H;=)D
-H;=)N
-H;=)qF
-H;=-0C
-H;=.C
-H;=.]8
-H;=.i
-H;=.r.
-H;=01
-H;=3)$
-H;=3^
-H;=5QG
-H;=5R 
-H;=5ZF
-H;=7>
-H;=9(
-H;=95
-H;=9>
-H;=9H
-H;=9S
-H;=9c3
-H;=9t8
-H;=:Q5
-H;=:R)
-H;=;MD
-H;==y8
-H;=>g
-H;=@E*
-H;=@O.
-H;=@\&
-H;=@t$
-H;=A&@
-H;=C3B
-H;=CqH
-H;=D,#
-H;=GL
-H;=I/
-H;=I3
-H;=I8
-H;=I=
-H;=IB
-H;=IK
-H;=IK*
-H;=IU
-H;=KpH
-H;=NS 
-H;=Ne
-H;=P1 
-H;=Pj7
-H;=Po%
-H;=QlF
-H;=Qv8
-H;=S 4
-H;=S*-
-H;=Tr.
-H;=UB8
-H;=Y)
-H;=Y-
-H;=Y6$
-H;=Y6*
-H;=Y<
-H;=YE
-H;=YO
-H;=[c3
-H;=[oH
-H;=]|F
-H;=^)
-H;=^R 
-H;=^c
-H;=`# 
-H;=`%7
-H;=`K
-H;=`T-
-H;=`W8
-H;=bl
-H;=cQ3
-H;=fT8
-H;=gb*
-H;=i#
-H;=i)
-H;=i6
-H;=i97
-H;=i?
-H;=iI
-H;=iT
-H;=im8
-H;=j,#
-H;=kJD
-H;=kK*
-H;=ku9
-H;=kwH
-H;=m$5
-H;=n'
-H;=n-
-H;=p.7
-H;=pM"
-H;=p{)
-H;=s	J
-H;=tS 
-H;=we
-H;=xe8
-H;=y0
-H;=y4
-H;=y9
-H;=yC
-H;=y|*
-H;=zl
-H;=zr.
-H;={6$
-H;={6*
-H;={9B
-H;={?B
-H;=|k
-H;=~+
+H;=	1
+H;=	C
+H;=	D
+H;=	V
+H;=	W
+H;=	\
+H;= ?
+H;="w
+H;=#("
+H;=#i"
+H;=#tB
+H;=).
+H;=)8
+H;=)J
+H;=)K
+H;=)^
+H;=)_
+H;=)c
+H;=)j5
+H;=*f)
+H;=.2
+H;=.77
+H;=.I
+H;=.|
+H;=.}
+H;=0!
+H;=0'
+H;=0+5
+H;=0J&
+H;=0T.
+H;=0Y)
+H;=0g
+H;=92
+H;=9D
+H;=9E
+H;=9H#
+H;=9X
+H;=9]
+H;=9f@
+H;=:w
+H;=<v
+H;=>G
+H;=>g#
+H;=>z
+H;=?" 
+H;=@B*
+H;=@C
+H;=@d%
+H;=@o&
+H;=@y*
+H;=A#8
+H;=BP 
+H;=I!*
+H;=I?
+H;=IJ.
+H;=IQ
+H;=IR
+H;=I[
+H;=MkC
+H;=N+ 
+H;=NE
+H;=Nx
+H;=QI
+H;=Sd$
+H;=T/"
+H;=T77
+H;=WX
+H;=WY
+H;=Y/
+H;=Y9
+H;=YK
+H;=YL
+H;=YW8
+H;=Y_
+H;=Y`
+H;=Yd
+H;=[H#
+H;=]?D
+H;=^%
+H;=^C
+H;=^v
+H;=`)#
+H;=`+7
+H;=`1#
+H;=`@4
+H;=a'D
+H;=a)!
+H;=aa@
+H;=cnB
+H;=dg#
+H;=hP 
+H;=i 
+H;=i3
+H;=iE
+H;=iF
+H;=iY
+H;=i^
+H;=k!*
+H;=kJ.
+H;=m"D
+H;=nt
+H;=p"
+H;=pB&
+H;=pl 
+H;=s[4
+H;=se-
+H;=u) 
+H;=u}8
+H;=w3
+H;=y?
+H;=y@
+H;=yR
+H;=yS
+H;=y\
+H;=yq$
+H;=yq*
+H;=z77
+H;={CJ
+H;=~^
+H;=~r
 H;=~~
 H;>t[H
 H;C I
@@ -13675,6 +13687,8 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
+Hc5Uh
+Hc5`,
 Hc8Hi
 Hc@ H
 Hc@$H
@@ -13825,10 +13839,12 @@ HcS,H
 HcS0H
 HcS4H
 HcS8H
+HcS8L
 HcS@H
 HcS@I
 HcSHH
 HcSPH
+HcSPL
 HcSXL
 HcS`H
 HcS`L
@@ -14698,7 +14714,6 @@ L9cHv
 L9l$(u
 L9t$(u
 L9|$HJ
-L;-Lnx
 L;0t!A
 L;?u"
 L;d$@L
@@ -14786,21 +14801,20 @@ Lc!D;a
 Lc"D;b
 Lc#D;c
 Lc#E9
-Lc%!6
-Lc%)^
-Lc%:T#
-Lc%gT#
+Lc%	i
 Lc&D;f
 Lc'D;g
 Lc'E)
 Lc+D)
 Lc+D;k
+Lc-CG.
+Lc-DF.
 Lc/E)
 Lc/E1
 Lc1D;q
 Lc3D;s
 Lc3E9
-Lc5\4
+Lc5<?
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -14853,6 +14867,8 @@ Lco@D;oPD
 LcoXE
 LcphE;wxD
 Lcs D;s0D
+Lcs(D;s8D
+Lcs@D;sPD
 Lcs@L
 Lct$@
 Lcw,H
@@ -16591,7 +16607,7 @@ PersonaName
 PersonaNameReplacementToken
 PersonalBubbleSlider
 PhA9]P~+L
-PhHc5)
+PhHc5	
 Ph[A\]
 Phags_Pa
 Phoenician
@@ -18411,14 +18427,11 @@ T$hA)
 T$lHc
 T$pH9
 T$pL)
-T%>U/
-T%QS/
-T%UU/
-T%cQ/
-T-KQ/
+T%6U/
+T%JQ/
+T-/S/
 T.$Hc
 T0@GZ
-T5=S/
 T5i@H
 T82fE
 T@MResourceBlockType
@@ -19414,16 +19427,14 @@ W H9r
 W HcE
 W HcG
 W%:O&t
-W%}g-
+W%Dr-
+W%Pi-
 W(Aq=
 W(H92t'H
 W,:V,u
 W0Hc_8A
 W0t	H
 W3|Uxa
-W5dV4
-W5u1Q
-W=og-
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -19617,11 +19628,11 @@ Wzm6V"
 W{@3333
 X zR&="@r
 X$HcH 
-X%5{j
+X%'$v
+X%cRa
 X(9Y(
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-(},
-X-kmf
+X-6.u
 X0~tA
 X2:jH
 X360_DST16
@@ -19645,15 +19656,14 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Y ANb
-Y%T*`
-Y%y'8
+Y%>pZ
+Y%VD8
+Y%VF8
+Y%XBM
 Y(;Y8
 Y(E9^(A
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
 Y/&4@4
-Y53i=
-Y5Xj=
-Y5\{`
 Y6	@W'g(
 Y?3333E
 YD$$L
@@ -19774,6 +19784,7 @@ Z}uU
 \$ E1
 \$ H9
 \$ I9
+\$(Hc
 \$0E1
 \$0[A\A]A^]
 \$2fE
@@ -19782,9 +19793,7 @@ Z}uU
 \$HfA
 \$hIcEXI
 \$xA;
-\%0#a
 \%03o
-\%2W`
 \C not allowed in lookbehind assertion
 \I8r!H
 \N is not supported in a class
@@ -22124,7 +22133,7 @@ fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB94`
 fD9 t
-fD9%D
+fD9%$
 fD9/t0H
 fD91u|
 fD9cV
@@ -23094,6 +23103,10 @@ invalid window size
 invalid_bone
 invalid_hitbox
 inventory_select
+inventory_service_drop_interval
+inventory_service_drop_limit
+inventory_service_drop_max_per_window
+inventory_service_drop_window
 inventory_service_id
 inventory_service_promo_appid
 inventory_service_promo_rules
@@ -23178,7 +23191,6 @@ item_detail_desc
 item_detail_name
 item_flags
 item_generator
-item_generators
 item_hlvr_grenade_
 item_hlvr_prop_battery
 item_id
@@ -27180,6 +27192,7 @@ playoverscript
 playrandom
 playsoundscape
 playtime
+playtime_item_generators
 png_do_quantize returned rowbytes=0
 png_do_rgb_to_gray found nongray pixel
 png_inflate logic error
@@ -28001,6 +28014,7 @@ short differs (net %i pred %i) diff(%i)
 short_description
 shortcutid
 shortcutname
+should_delete
 should_draw
 show_freezepanel
 show_subscribe_all
@@ -28551,6 +28565,7 @@ t$<H)
 t$@A\]
 t$@tsHc
 t$D9j
+t$D;-#U
 t$H9:H
 t$H9h
 t$HcK
@@ -28578,21 +28593,21 @@ t$pH)
 t$xH)
 t%;2t%H
 t%D; tXH
-t%D;%4
-t%D;-
+t%D;%tC
+t%D;-D
 t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
-t&;5/F
+t&;5ox
 t&@8>t+H
 t&D;%
-t&D;=%~
-t&D;=u
+t&D;=
+t&D;=e
 t&Hc]
 t&Hcq
 t'<"t
-t'D;%
-t'D;5
+t'D;%f
+t'D;5^
 t'Hc{
 t'Hc{ H
 t'Hc{$H
@@ -28618,12 +28633,14 @@ t(Ic},H
 t(Ic}@H
 t(Ic~0H
 t([A\A]A^]
+t);5"
+t);=R
 t)Lc+D;k
 t* Hc
 t*(Hc
 t*<*u
 t*<-H
-t*D;-
+t*D;-Y
 t*HcC
 t*HcE
 t*HcKH
@@ -28634,7 +28651,7 @@ t*LcC
 t*fA9
 t+<\u
 t+D9s
-t+D;-
+t+D;-*P
 t+Hc4
 t+HcO
 t+Hcsp
@@ -28653,7 +28670,7 @@ t-Mc4$E;t$
 t-Mcv
 t-rex
 t.D9p
-t.D;%}
+t.D;%
 t.Lc#M
 t.fA9
 t/9w t29w0t=1
@@ -28717,13 +28734,14 @@ tAffffhF
 tAw3A
 tBL;h L
 tBViewEffects
-tCLc%$
+tCLc%
 tC[A\A]A^]
 tD@:5
 tDHcx D
 tEMcY
 tEMci
 tFRA@F
+tF[A\A]A^]
 tF\sQF^e7F0
 tG[A\A]A^]
 tIW?Z

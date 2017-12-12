@@ -411,7 +411,7 @@ panorama/layout/vr_community_home.vxml_c CRC:004e9a459a size:17108
 panorama/layout/vr_community_item.vxml_c CRC:00534e65f8 size:12290
 panorama/layout/vr_content_browser.vxml_c CRC:00395e7967 size:756
 panorama/layout/vr_friends.vxml_c CRC:00fce56fe4 size:621
-panorama/localization/steamtours_english.txt CRC:00f3fb4b12 size:123248
+panorama/localization/steamtours_english.txt CRC:00c6a71074 size:123624
 panorama/panorama_config.txt CRC:00a597fc0e size:294
 panorama/scripts/community_home.vjs_c CRC:007347d3f1 size:18902
 panorama/scripts/community_home_item.vjs_c CRC:0031a852b3 size:11286
@@ -440,12 +440,12 @@ particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
 resource/gameevents.res CRC:001284caec size:1002
 resource/modevents.res CRC:00a360fb36 size:903
 resource/serverevents.res CRC:000df59f67 size:3694
-scripts/contentdb.txt CRC:009174d842 size:123781
+scripts/contentdb.txt CRC:0042d38380 size:134698
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70
 scripts/soundscapes_valve.txt CRC:009ab9b8d5 size:7415
-scripts/vscripts/tools/tagmarker.lua CRC:00e8390add size:14990
+scripts/vscripts/tools/tagmarker.lua CRC:00ea0346a3 size:14992
 scripts/vscripts/vr_scriptsystem.lua CRC:00a2716bab size:11746
 soundevents/destinations_core.vsndevts_c CRC:004867af76 size:20059
 soundevents/destinations_home.vsndevts_c CRC:00b2c5a6b0 size:10260

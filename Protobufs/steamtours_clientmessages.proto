@@ -26,6 +26,7 @@ enum ESteamToursClientMessages {
 	CM_SpawnGameTrophy = 520;
 	CM_SpawnPanel = 521;
 	CM_DeleteObject = 522;
+	CM_DropHeldObject = 523;
 }
 
 message CClientMsg_SpawnPhysicsProp {
@@ -172,5 +173,10 @@ message CClientMsg_ResetAnchor {
 
 message CClientMsg_DeleteObject {
 	optional uint32 ent_ehandle = 1;
+}
+
+message CClientMsg_DropHeldObject {
+	optional uint32 handid = 1;
+	optional bool should_delete = 2;
 }
 

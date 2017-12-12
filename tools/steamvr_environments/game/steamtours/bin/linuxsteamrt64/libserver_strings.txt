@@ -1387,6 +1387,7 @@ $woL)
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
+(%cNQ
 (%d %d %d %d)
 (%d) %s
 (%d) ------> %s ( HELD BY %s ) 
@@ -1398,11 +1399,11 @@ $woL)
 (%g %g %g)
 (%g %g)
 (%s) Schedule (%s) Failed at %d!
-(%sMQ
 (*%s*), 
 (0x%08X)'??'
 (1@zD
 (9s ~@H
+(=uVY
 (A9] 
 (A9^ 
 (A?)\
@@ -1726,9 +1727,8 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%[g[
-.%r|6
-.-)}{
+.%b}6
+.%kk[
 ...%s
 ...done building AI node graph, %f seconds
 ...done determining links. %f seconds
@@ -1764,9 +1764,7 @@ $woL)
 ../public/tier2/fieldpath.h
 ..\content
 .0z&u$
-.5l{6
-.=1U>
-.=4#j
+.5\|6
 .>()09
 .@(."
 .@,wqH
@@ -1859,7 +1857,6 @@ $woL)
 .K,z[
 .K8zBf
 .KdzIuGH
-.M; F
 .M;UU
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
 .O<{4
@@ -4474,6 +4471,7 @@ $woL)
 25CAI_ExpresserWithFollowup
 25CAttributeDictSaveDataOps
 25CBroadcastRecipientFilter
+25CClientMsg_DropHeldObject
 25CClientMsg_SetEntityColor
 25CClientMsg_SpawnWearables
 25CClientPrecacheGameSystem
@@ -6174,7 +6172,6 @@ $woL)
 66GameToolEventToolEvent_SFMToolActiveStateChanged_tHookupGameSystem
 67&-@
 692t&H
-6;5zHV
 6<]q@
 6<u7@
 6=((E
@@ -6190,7 +6187,6 @@ $woL)
 6CModel
 6CWorld
 6ConVar
-6D#5;
 6F+U F
 6H92t%H
 6H92u
@@ -6417,15 +6413,14 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;=++N
-;=0+N
+;= lN
 ;@*$pV
 ;A0}4H
 ;A;<$|
 ;Affff
 ;C0trH
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5$Qt
+;Hc5T
 ;K(}&H
 ;L9'u
 ;L9/u
@@ -9494,6 +9489,8 @@ CClientMsg_DeleteObject_t
 CClientMsg_DetachObjectFromAvatar_t
 CClientMsg_DetectorQuestUnlockedItems_t
 CClientMsg_DevPaletteVisibilityChangedEvent_t
+CClientMsg_DropHeldObject
+CClientMsg_DropHeldObject_t
 CClientMsg_NotifyLoadingDestination_t
 CClientMsg_PickupObject
 CClientMsg_PickupObject_t
@@ -10321,6 +10318,7 @@ CM_DeleteObject
 CM_DetachObjectFromAvatar
 CM_DetectorQuestUnlockedItems
 CM_DevPaletteVisibilityChanged
+CM_DropHeldObject
 CM_MAX_BASE
 CM_NotifyLoadingDestination
 CM_PickupObject
@@ -11891,16 +11889,13 @@ D9 t)H
 D9 ~NH
 D9!t"
 D9!u"
-D9% >V
-D9%*?V
 D9't$H
 D9't,H
 D9(t'I
 D9(t1H
-D9-WC
 D92tY1
-D955s	
-D9=yC
+D9=)]
+D9=y[
 D9W(~mL
 D9`0u
 D9c<t
@@ -11921,21 +11916,15 @@ D:gTt
 D;!t{Hc
 D;#}|E
 D;$%H
-D;%$&?
-D;%]X)
-D;%cuG
-D;%rIK
 D;'t{
 D;'t{Hc
 D;(t)
 D;*t>H
 D;,%H
-D;-{~M
+D;-?4
 D;.~3L
 D;.~9H
 D;:tPH
-D;=9>)
-D;=KF)
 D;G@t5H
 D;X,}
 D;`0|
@@ -12470,13 +12459,13 @@ E;n(D
 E;oL|
 E;t$ D
 E;t$ M
+E;t$(D
 E;t$Pt
 E;uH|
 E;wL|
 E;} D
 E;} ~EA
 E;}$},H
-E;}(D
 E;~`D
 E?sprites/plasma1.vmat
 E@7l[
@@ -12801,6 +12790,7 @@ Erases current game stats and writes out a blank stats file
 Error could not find '%s' quest section in contentdb.txt!
 Error could not find '%s' section in contentdb.txt!
 Error could not find 'item_generators' in contentdb.txt!
+Error could not find 'playtime_item_generators' in contentdb.txt!
 Error loading contentdb.txt: %s
 Error loading resource "%s" (Invalid resource version: %d != %d)
 Error parsing soundscape file %s after %s
@@ -12826,6 +12816,12 @@ Error: item generator %s has an item %s with bad chance %d!
 Error: item generator %s has an item at index %u without an id!
 Error: item generator %s has duplicate inventory service id %llu in contentdb.txt!
 Error: item generator at index %u in contentdb.txt has no id!
+Error: playtime item generator %s already exists in contentdb.txt!
+Error: playtime item generator %s doesn't have an inventory service id!
+Error: playtime item generator %s doesn't specify a promo appid!
+Error: playtime item generator %s doesn't specify a promo interval!
+Error: playtime item generator %s doesn't unlock any items!
+Error: playtime item generator at index %u in contentdb.txt has no id!
 Error: quest %s already exists in contentdb.txt!
 Error: quest %s doesn't unlock any items!
 Error: quest %s has duplicate inventory service id %llu in contentdb.txt!
@@ -13842,79 +13838,81 @@ H;1t!
 H;2t!H
 H;2u$
 H;3t*H
-H;5Qv)
 H;7t)H
 H;:t(f
-H;=	/
-H;= w<
-H;=%#>
-H;=)I]
-H;=.*
-H;=..
-H;=.A'
-H;=0)F
-H;=0+I
-H;=0<C
-H;=0RC
-H;=1}H
-H;=3*j
-H;=3KC
-H;=4BJ
-H;=5f`
-H;=90
-H;=90'
-H;=9>
-H;=9N`
-H;=9^A
-H;=:~H
-H;=;oF
-H;==@a
-H;=>(
-H;=>,
-H;=@)C
-H;=@wE
-H;=EI`
-H;=I*
-H;=LGJ
-H;=L|F
-H;=N&
-H;=N*
-H;=PDJ
-H;=V}H
-H;=X&J
-H;=XKC
-H;=[^A
-H;=]6`
-H;=^$
-H;=^(
-H;=^G
-H;=`CC
-H;=c<B
-H;=cLA
-H;=e)J
-H;=eNJ
-H;=i"I
-H;=i1
-H;=i1'
-H;=jlE
-H;=m$\
-H;=n"
-H;=n&
-H;=nE
-H;=nb
-H;=pHE
-H;=pm;
-H;=ptC
-H;=r|F
-H;=so
-H;=u#`
-H;=y+
-H;=z5J
-H;=|}H
-H;=~ 
-H;=~C
-H;=~KC
-H;=~`
+H;=	 >
+H;=	E
+H;=	q'
+H;= PI
+H;=!H`
+H;=%)c
+H;=%{`
+H;=)4=
+H;=)L
+H;=+ >
+H;=-h`
+H;=.6
+H;=.S=
+H;=.i
+H;=.v
+H;=06A
+H;=0KF
+H;=3$e
+H;=77;
+H;=91F
+H;=9F
+H;=9r'
+H;=9{c
+H;==5\
+H;==q\
+H;=>4
+H;=>g
+H;=>t
+H;=@KC
+H;=@SF
+H;=AUg
+H;=A_`
+H;=IQC
+H;=K4=
+H;=N2
+H;=NiJ
+H;=Nr
+H;=P*F
+H;=TS=
+H;=X7;
+H;=Y 
+H;=YM
+H;=Ysi
+H;=[!e
+H;=[1F
+H;=]Z`
+H;=^0
+H;=^p
+H;=`7F
+H;=`=;
+H;=`L>
+H;=c e
+H;=en>
+H;=iG
+H;=iHf
+H;=i`c
+H;=kQC
+H;=n.
+H;=n2>
+H;=nn
+H;=p"<
+H;=p>F
+H;=ptF
+H;=pvI
+H;=s4^
+H;=suj
+H;=uNJ
+H;=yA
+H;=z7;
+H;=zS=
+H;=~K
+H;=~l
+H;=~~
 H;>t[H
 H;B0u
 H;C r
@@ -14107,6 +14105,7 @@ HcS(L
 HcS,H
 HcS0H
 HcS8H
+HcS8L
 HcS@H
 HcS@I
 HcSPH
@@ -14349,6 +14348,7 @@ IcO`H9
 IcT$ H
 IcT$ I
 IcT$$
+IcT$(H
 IcT$(I
 IcT$,
 IcT$0I
@@ -14360,7 +14360,6 @@ IcT$hL
 IcT$pA;
 IcU E
 IcU L
-IcU(L
 IcU4H
 IcU8H
 IcU@A;UP
@@ -15299,14 +15298,11 @@ Lc!D;a
 Lc#D9b
 Lc#D;c
 Lc#E9
-Lc%ZuG
-Lc%iIK
 Lc&D;f
 Lc'D;g
 Lc'E)
 Lc)D;i
 Lc+D;k
-Lc-r~M
 Lc.D;n
 Lc/D;o
 Lc/E)
@@ -15354,6 +15350,8 @@ Lco D;o0D
 Lco(E
 LcoHH
 Lcs D;s0D
+Lcs(D;s8D
+Lcs@D;sPD
 LcsXD;shD
 Lcs`D;spD
 LcwxD;
@@ -15680,12 +15678,12 @@ Mcl$`H
 McoXE;ohD
 McoxE;
 Mct$ E;t$0D
+Mct$0E;t$@D
 Mct$81
 Mct$hE;t$xD
 Mc|$ E;|$0
 Mc|$8E;|$HD
 Mc|$XE;|$hD
-Mc}0E;}@D
 Mc}`E;}pD
 Mc~Pf
 MeasureTH
@@ -20245,7 +20243,7 @@ VsInputSignature_t
 Vulkan
 W ;2t$H
 W H9r
-W%@&\
+W%0'\
 W(Aq=
 W(H92t'H
 W3|Uxa
@@ -20439,14 +20437,14 @@ Wrong alignment %d
 Wzm6V"
 W{@3333
 X zR&="@r
-X%d@9
-X%u3@
+X%TA9
+X%e4@
 X(9Y(
 X2:jH
 X9t6@
 X=2v?
-X=J;[
-X=e;[
+X=:<[
+X=U<[
 X@TA;U<
 X@ffff
 XAxis
@@ -20476,14 +20474,13 @@ XfA9D]
 Xg8Hc
 XxHc@t
 Y ANb
+Y%|wc
 Y(;Y8
 Y(E9^(A
-Y-$3%
-Y-csv
+Y-47%
 Y/&4@4
-Y5ksv
 Y6	@W'g(
-Y=]t8
+Y=Mu8
 Y?3333E
 Y?[A\]
 Y@CPropVRTrackedObject
@@ -20583,15 +20580,16 @@ Z}uU
 \$ H;
 \$ I9
 \$ [A\]
+\$(Hc
 \$(Mc
 \$@u	A
 \$HfA
 \$hIcEXI
 \$h[A\]
 \%03o
-\-I@9
-\-Zg9
-\5toY
+\-9A9
+\-Jh9
+\5dpY
 \U%08x
 \r@n|7'@^
 \softlinks\
@@ -20604,6 +20602,7 @@ Z}uU
 ]"^AR
 ]%h@sh
 ](t[H
+]5Q!e
 ]7@Kvl
 ]8[A\A]A^]
 ]H+G 
@@ -22494,7 +22493,6 @@ fA;Gnv
 fA;\$6
 fA;\$n
 fA;_n
-fD9%D~
 fD9/t0H
 fD91u|
 fD9cV
@@ -23490,6 +23488,10 @@ interruptability
 introspectedtypemanager.cpp
 invalid_bone
 invalid_hitbox
+inventory_service_drop_interval
+inventory_service_drop_limit
+inventory_service_drop_max_per_window
+inventory_service_drop_window
 inventory_service_id
 inventory_service_promo_appid
 inventory_service_promo_rules
@@ -23563,7 +23565,6 @@ item_dynamic_resupply
 item_flags
 item_flare_round
 item_generator
-item_generators
 item_generic
 item_generic_trigger_helper
 item_health*
@@ -29341,6 +29342,7 @@ playerspeed
 playerweapon
 playing_commentary
 playoverscript
+playtime_item_generators
 point1
 point_A
 point_B
@@ -30054,6 +30056,7 @@ short
 shotloc:arm
 shotloc:gut
 shotloc:leg
+should_delete
 should_draw
 show_subtitle
 showhitlocation
@@ -30654,7 +30657,7 @@ t%HcO
 t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
-t&D;=
+t&D;=U0
 t&HcC
 t&Hcq
 t&[A\]
@@ -30768,7 +30771,7 @@ t?[A\]
 t@@:>u
 t@D;(};E
 t@Ic_
-t@Lc%	
+t@Lc%Y
 t@[A\A]A^]
 t@[A\]
 t@}?5^
@@ -31641,7 +31644,6 @@ x8Mcl$ E;l$0
 x8udL
 x8uwH
 x:Hcw
-x;;=\u
 xED;c }?E
 xGHcO
 xJA;E
@@ -31900,7 +31902,7 @@ z|uzI
 }3fA;\$Vw+H
 }3fA;\$~w+H
 }3fA;]fw,L
-}5D;-
+}5D;-1
 }8f;rnw2f
 }:f;pnw4f
 }>;w$
@@ -31954,7 +31956,7 @@ z|uzI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=Sh
+~)H9=
 ~)H;^
 ~*HcE
 ~*I;X

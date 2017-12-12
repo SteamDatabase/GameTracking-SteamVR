@@ -2215,6 +2215,209 @@
 			default_color = [ 255,255,255 ]
 		},
 		{
+			id = "wrath_of_loki_hammer"
+			name = "#VR_PhysicsProp_WrathOfLokiHammer"
+			desc = "#VR_PhysicsProp_WrathOfLokiHammer_Desc"
+			content = "models/third_party/props/toys/wrath_of_loki_hammer.vmdl"
+			preview_image = "file://{images}/contentdb/wrath_of_loki_hammer.png"
+			inventory_service_promo_rules = "played:650860/120" // must have played for 2 hours - Wrath of Loki VR Adventure
+			inventory_service_promo_appid = 650860
+			inventory_service_id = 1058
+			default_color = [ 255,255,255 ]
+			default_scale = 0.75
+		},
+		{
+			id = "doom_vfr_marine_figurine"
+			name = "#VR_PhysicsProp_DoomVfrMarineFigurine"
+			desc = "#VR_PhysicsProp_DoomVfrMarineFigurine_Desc"
+			content = "models/third_party/props/toys/doom_vfr_marine_figurine.vmdl"
+			preview_image = "file://{images}/contentdb/doom_vfr_marine_figurine.png"
+			inventory_service_promo_rules = "played:650000/120" // must have played for 2 hours - Doom VFR
+			inventory_service_promo_appid = 650000
+			inventory_service_id = 1059
+			default_color = [ 72,110,81 ]
+		},
+		{
+			id = "fallout_4_bobblehead_agility"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadAgility"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadAgility_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_agility.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_agility.png"
+			inventory_service_id = 1060
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_barter"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadBarter"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadBarter_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_barter.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_barter.png"
+			inventory_service_id = 1061
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_big_guns"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadBigGuns"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadBigGuns_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_big_guns.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_big_guns.png"
+			inventory_service_id = 1062
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_charisma"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadCharisma"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadCharisma_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_charisma.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_charisma.png"
+			inventory_service_id = 1063
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_endurance"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadEndurance"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadEndurance_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_endurance.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_endurance.png"
+			inventory_service_id = 1064
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_energy_weapons"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadEnergyWeapons"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadEnergyWeapons_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_energy_weapons.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_energy_weapons.png"
+			inventory_service_id = 1065
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_explosives"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadExplosives"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadExplosives_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_explosives.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_explosives.png"
+			inventory_service_id = 1066
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_intelligence"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadIntelligence"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadIntelligence_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_intelligence.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_intelligence.png"
+			inventory_service_id = 1067
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_lockpicking"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadLockpicking"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadLockpicking_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_lockpicking.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_lockpicking.png"
+			inventory_service_id = 1068
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_luck"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadLuck"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadLuck_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_luck.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_luck.png"
+			inventory_service_id = 1069
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_medicine"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadMedicine"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadMedicine_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_medicine.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_medicine.png"
+			inventory_service_id = 1070
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_melee"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadMelee"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadMelee_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_melee.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_melee.png"
+			inventory_service_id = 1071
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_perception"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadPerception"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadPerception_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_perception.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_perception.png"
+			inventory_service_id = 1072
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_repair"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadRepair"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadRepair_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_repair.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_repair.png"
+			inventory_service_id = 1073
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_science"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadScience"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadScience_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_science.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_science.png"
+			inventory_service_id = 1074
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_small_guns"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadSmallGuns"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadSmallGuns_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_small_guns.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_small_guns.png"
+			inventory_service_id = 1075
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_sneak"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadSneak"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadSneak_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_sneak.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_sneak.png"
+			inventory_service_id = 1076
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_speech"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadSpeech"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadSpeech_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_speech.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_speech.png"
+			inventory_service_id = 1077
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_strength"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadStrength"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadStrength_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_strength.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_strength.png"
+			inventory_service_id = 1078
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "fallout_4_bobblehead_unarmed"
+			name = "#VR_PhysicsProp_Fallout4BobbleHeadUnarmed"
+			desc = "#VR_PhysicsProp_Fallout4BobbleHeadUnarmed_Desc"
+			content = "models/third_party/props/toys/fallout_4/fallout_4_bobblehead_unarmed.vmdl"
+			preview_image = "file://{images}/contentdb/fallout_4_bobblehead_unarmed.png"
+			inventory_service_id = 1079
+			default_color = [ 255,255,255 ]
+		},
+		{
 			id = "test_complex_item"
 			name = "COMPLEX ITEM"
 			desc = "This item is complex!!"
@@ -3904,6 +4107,83 @@
 			]
 		}		
 		
+	]
+
+
+	playtime_item_generators =
+	[
+		// fallout 4 VR
+		{
+			id = "playtime_item_generator_fallout_4_vr"
+			inventory_service_id = 50000
+			inventory_service_promo_appid = 611660
+			inventory_service_drop_limit = 10 		  // at most 10 items			
+			inventory_service_drop_interval = 120	  // drop every 120 minutes (2 hours)
+			inventory_service_drop_max_per_window = 1 // at most one per window
+			inventory_service_drop_window = 1440      // drop window is one day
+			items = [
+				{
+					id = "fallout_4_bobblehead_agility"
+				},
+				{
+					id = "fallout_4_bobblehead_barter"
+				},
+				{
+					id = "fallout_4_bobblehead_big_guns"
+				},
+				{
+					id = "fallout_4_bobblehead_charisma"
+				},
+				{
+					id = "fallout_4_bobblehead_endurance"
+				},
+				{
+					id = "fallout_4_bobblehead_energy_weapons"
+				},
+				{
+					id = "fallout_4_bobblehead_explosives"
+				},
+				{
+					id = "fallout_4_bobblehead_intelligence"
+				},
+				{
+					id = "fallout_4_bobblehead_lockpicking"
+				},
+				{
+					id = "fallout_4_bobblehead_luck"
+				},
+				{
+					id = "fallout_4_bobblehead_medicine"
+				},
+				{
+					id = "fallout_4_bobblehead_melee"
+				},
+				{
+					id = "fallout_4_bobblehead_perception"
+				},
+				{
+					id = "fallout_4_bobblehead_repair"
+				},
+				{
+					id = "fallout_4_bobblehead_science"
+				},
+				{
+					id = "fallout_4_bobblehead_small_guns"
+				},
+				{
+					id = "fallout_4_bobblehead_sneak"
+				},
+				{
+					id = "fallout_4_bobblehead_speech"
+				},
+				{
+					id = "fallout_4_bobblehead_strength"
+				},
+				{
+					id = "fallout_4_bobblehead_unarmed"
+				}
+			]
+		}
 	]
 
 }

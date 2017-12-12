@@ -205,6 +205,10 @@
 		"VR_PhysicsProp_TF2Yeti_Desc"				"According to sacred Tibetan folklore, the noble Yeti inhabits the Himalayan region of Nepal. According to Team Fortress 2, you'll find them in a Jungle Inferno. So what was its lumpen self doing up a mountain in Washington State?"
 		"VR_PhysicsProp_DeservingLifePizza"			"Pizza is Life!"
 		"VR_PhysicsProp_DeservingLifePizza_Desc"	"A delicious leftover from the kidnapper.\n\nUnlocked by playing Deserving Life."
+		"VR_PhysicsProp_WrathOfLokiHammer"			"Thor's Hammer"
+		"VR_PhysicsProp_WrathOfLokiHammer_Desc"		"A hammer fit for a god.\n\nUnlocked by playing Wrath of Loki VR Adventure."
+		"VR_PhysicsProp_DoomVfrMarineFigurine"		"Doom Marine"
+		"VR_PhysicsProp_DoomVfrMarineFigurine_Desc"	"The Scourge of Hell himself, in fun-sized collectible form.\n\nUnlocked by playing DOOM VFR."
 		
 		
 		// furniture
