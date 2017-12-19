@@ -492,6 +492,7 @@
  A3333S
  A9^(
  ACTIVE GROUP
+ AUATSH
  B@ml
  B\9{
  BackUp() can only be called after Next().
@@ -1387,7 +1388,6 @@ $woL)
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
-(%cNQ
 (%d %d %d %d)
 (%d) %s
 (%d) ------> %s ( HELD BY %s ) 
@@ -1403,7 +1403,6 @@ $woL)
 (0x%08X)'??'
 (1@zD
 (9s ~@H
-(=uVY
 (A9] 
 (A9^ 
 (A?)\
@@ -1727,8 +1726,9 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%b}6
-.%kk[
+.%+q[
+.%<WZ
+.%YDO
 ...%s
 ...done building AI node graph, %f seconds
 ...done determining links. %f seconds
@@ -1764,7 +1764,8 @@ $woL)
 ../public/tier2/fieldpath.h
 ..\content
 .0z&u$
-.5\|6
+.5%!j
+.5L~p
 .>()09
 .@(."
 .@,wqH
@@ -1819,7 +1820,7 @@ $woL)
 .CSVCMsg_UserMessage"
 .CUserMessageShake
 .CUserMessageVGUIMenu.Keys
-.Cxz*u(H
+.Cxz2u0H
 .Cxzau_H
 .D$ z
 .D$$z
@@ -6187,6 +6188,8 @@ $woL)
 6CModel
 6CWorld
 6ConVar
+6D#5;
+6D#5k
 6F+U F
 6H92t%H
 6H92u
@@ -6413,14 +6416,14 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;= lN
+;=kgN
+;=pgN
 ;@*$pV
 ;A0}4H
 ;A;<$|
 ;Affff
 ;C0trH
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5T
 ;K(}&H
 ;L9'u
 ;L9/u
@@ -7192,6 +7195,7 @@ A9\$}ulH
 A9]PI
 A9_@~8L
 A9t$\
+A9u8}
 A;D$ 
 A;D$ |
 A;D$ }
@@ -7245,7 +7249,6 @@ A;t$@
 A;t$H
 A;t$P
 A;t$X
-A;u8~
 A;w$t
 A;wPA
 A=@9L
@@ -9117,10 +9120,9 @@ C$[A\]
 C'[A\]
 C([A\A]A^]
 C([A\]
-C(fA9
 C(t!L
 C(t9L
-C(tR1
+C(tTE1
 C,[A\A]]
 C,[A\]
 C-side of entity framework
@@ -11889,13 +11891,13 @@ D9 t)H
 D9 ~NH
 D9!t"
 D9!u"
+D9%t{V
 D9't$H
 D9't,H
 D9(t'I
 D9(t1H
 D92tY1
-D9=)]
-D9=y[
+D95Q)
 D9W(~mL
 D9`0u
 D9c<t
@@ -11906,7 +11908,6 @@ D9k ~QH
 D9k ~VH
 D9k8~NH
 D9k8~PH
-D9kP~@Lcu
 D9kp~4H
 D9ppH
 D9z }
@@ -11916,12 +11917,12 @@ D:gTt
 D;!t{Hc
 D;#}|E
 D;$%H
+D;%e|V
 D;'t{
 D;'t{Hc
 D;(t)
 D;*t>H
 D;,%H
-D;-?4
 D;.~3L
 D;.~9H
 D;:tPH
@@ -13811,6 +13812,7 @@ H92tyHcR
 H9:tqHcR 
 H9:tx
 H9:tyHcR
+H9="w
 H9C t
 H9C(t
 H9J u
@@ -13840,79 +13842,68 @@ H;2u$
 H;3t*H
 H;7t)H
 H;:t(f
-H;=	 >
-H;=	E
-H;=	q'
-H;= PI
-H;=!H`
-H;=%)c
-H;=%{`
-H;=)4=
-H;=)L
-H;=+ >
-H;=-h`
-H;=.6
-H;=.S=
-H;=.i
-H;=.v
-H;=06A
-H;=0KF
-H;=3$e
-H;=77;
-H;=91F
-H;=9F
-H;=9r'
-H;=9{c
-H;==5\
-H;==q\
-H;=>4
-H;=>g
-H;=>t
-H;=@KC
-H;=@SF
-H;=AUg
-H;=A_`
-H;=IQC
-H;=K4=
-H;=N2
-H;=NiJ
-H;=Nr
-H;=P*F
-H;=TS=
-H;=X7;
-H;=Y 
-H;=YM
-H;=Ysi
-H;=[!e
-H;=[1F
-H;=]Z`
-H;=^0
-H;=^p
-H;=`7F
-H;=`=;
-H;=`L>
-H;=c e
-H;=en>
-H;=iG
-H;=iHf
-H;=i`c
-H;=kQC
-H;=n.
-H;=n2>
-H;=nn
-H;=p"<
-H;=p>F
-H;=ptF
-H;=pvI
-H;=s4^
-H;=suj
-H;=uNJ
-H;=yA
-H;=z7;
-H;=zS=
-H;=~K
-H;=~l
-H;=~~
+H;=	#c
+H;=	7
+H;= ^>
+H;=!sf
+H;=#0;
+H;=%=`
+H;=)>
+H;=)eF
+H;=-d\
+H;=.=
+H;=.^
+H;=.q
+H;=13c
+H;=1_i
+H;=3vj
+H;=8S=
+H;=9	
+H;=9 >
+H;=98
+H;==*`
+H;=>;
+H;=>o
+H;=@KB
+H;=A$`
+H;=I.c
+H;=IVc
+H;=KeF
+H;=N9
+H;=Nm
+H;=N}'
+H;=PPI
+H;=QH`
+H;=U)c
+H;=U{`
+H;=Y4=
+H;=Y?
+H;=Yl'
+H;=[ >
+H;=]h`
+H;=^7
+H;=^S=
+H;=^k
+H;=`6A
+H;=`KF
+H;=c$e
+H;=g7;
+H;=i1F
+H;=i9
+H;=i{c
+H;=m5\
+H;=mq\
+H;=n5
+H;=ni
+H;=pKC
+H;=pSF
+H;=qUg
+H;=q_`
+H;=yQC
+H;={4=
+H;=~3
+H;=~g
+H;=~iJ
 H;>t[H
 H;B0u
 H;C r
@@ -14200,7 +14191,7 @@ HpF4jKFT
 Hull_t
 Hunter
 HurtThinH
-HurtToucH
+HurtTouch
 Hurts the player.
 I	D$ 
 I("hq
@@ -15298,6 +15289,7 @@ Lc!D;a
 Lc#D9b
 Lc#D;c
 Lc#E9
+Lc%\|V
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -17532,7 +17524,7 @@ Retrieve the private per-instance script-side data associated with an entity
 Retrieve the public script-side data associated with an entity
 Retrieve, creating if necessary, the private per-instance script-side data associated with an entity
 Retrieve, creating if necessary, the public script-side data associated with an entity
-ReturnMoH
+ReturnMoveDone
 Returned from OnEquipped
 Returns a sequence id given a name
 Returns a table containing the criteria that would be used for response queries on this entity. This is the same as the table that is passed to response rule script function callbacks.
@@ -17601,7 +17593,7 @@ RotDoorSound.DefaultLocked
 RotDoorSound.DefaultMove
 Rotate a QAngle by another QAngle.
 Rotate a Vector around a point.
-RotateMoH
+RotateMove
 RotateOrientation
 RotatePosition
 RotateQuaternionByAxisAngle
@@ -18778,7 +18770,7 @@ Spew warning if command queue has grown above this many backlogged commands.
 Spews the list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)
 SpinDownMove
 SpinThinH
-SpinUpMove
+SpinUpMoH
 Split created a polygon with more than %d verts
 SplitAreasUnderOverhangs()
 SplitContext:  warning, ignoring context '%s', missing colon separator!
@@ -19915,7 +19907,6 @@ UpdateParticleSetFrozen
 UpdateParticleShouldDraw
 UpdateQueryCache
 UpdateThH
-UpdateThink
 UpdateViH
 Updating HMD in the same frame as a teleport, ignored. %d, tick %d
 Updating goal pos
@@ -20243,10 +20234,13 @@ VsInputSignature_t
 Vulkan
 W ;2t$H
 W H9r
-W%0'\
+W%'B9
 W(Aq=
 W(H92t'H
 W3|Uxa
+W5  \
+W5| \
+W=d!\
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -20437,14 +20431,12 @@ Wrong alignment %d
 Wzm6V"
 W{@3333
 X zR&="@r
-X%TA9
-X%e4@
+X%u6@
 X(9Y(
 X2:jH
 X9t6@
 X=2v?
-X=:<[
-X=U<[
+X=SC[
 X@TA;U<
 X@ffff
 XAxis
@@ -20474,13 +20466,14 @@ XfA9D]
 Xg8Hc
 XxHc@t
 Y ANb
-Y%|wc
+Y%!&"
+Y%a|e
 Y(;Y8
 Y(E9^(A
-Y-47%
+Y-$5%
 Y/&4@4
 Y6	@W'g(
-Y=Mu8
+Y=}s8
 Y?3333E
 Y?[A\]
 Y@CPropVRTrackedObject
@@ -20587,9 +20580,8 @@ Z}uU
 \$hIcEXI
 \$h[A\]
 \%03o
-\-9A9
-\-Jh9
-\5dpY
+\-i?9
+\-zf9
 \U%08x
 \r@n|7'@^
 \softlinks\
@@ -20602,7 +20594,6 @@ Z}uU
 ]"^AR
 ]%h@sh
 ](t[H
-]5Q!e
 ]7@Kvl
 ]8[A\A]A^]
 ]H+G 
@@ -21042,6 +21033,7 @@ _nav.txtH
 _noachieH
 _noachievements
 _plasma
+_previewH
 _resetgamestats
 _rifle.vH
 _root_keyname
@@ -28413,7 +28405,8 @@ modeldoc6
 modeldoc7
 modeldoc8
 modeldoc9
-modeldoc_preview_ent
+modeldocH
+modeldocI
 modelgroup
 modelindex
 modellib
@@ -30657,12 +30650,12 @@ t%HcO
 t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
-t&D;=U0
+t&D;=
 t&HcC
 t&Hcq
 t&[A\]
 t'<"t
-t'D;5
+t'D;5.
 t'HcC
 t'HcK
 t'HcM
@@ -30685,6 +30678,7 @@ t(H;p
 t(HcO
 t([A\A]A^]
 t([A\]
+t);="
 t)Lc+D;k
 t)fD9
 t* Hc
@@ -30713,7 +30707,7 @@ t+fA9
 t,H;p
 t,I9}
 t,L;e
-t,Lc%
+t,Lc%%
 t-Mc4$E;t$
 t-rex
 t.D9p
@@ -31105,7 +31099,7 @@ uG[A\A]A^]
 uMLc#D;c
 uPMc4$fA
 uRMcl$
-uSD;-
+uSD;-,
 uT1C@
 uTIcU
 uUHcC
@@ -31245,7 +31239,6 @@ var_name_sym
 var_type_sym
 variant
 vcd error, gesture %s of model %s is marked as STUDIO_LOOPING!
-veDofD
 veIfUncaH
 vec3_invalid
 vec3_origin
@@ -31643,6 +31636,7 @@ x8Lcc D;c0
 x8Mcl$ E;l$0
 x8udL
 x8uwH
+x:;=\
 x:Hcw
 xED;c }?E
 xGHcO
@@ -31674,6 +31668,7 @@ xtw?g
 y("t_
 y?ffff
 y@x^*6
+yCNQP
 yE>CScriptNavBlocker
 yH"ts
 yaw "%i"
@@ -31758,14 +31753,13 @@ zH"tDf
 zH"tT
 zHuFH
 zIuGH
+zJuHH
 zKuIA
 zLuJH
-zMuKH
 zNear
 zNuLH
 zOuMD
 zOuMH
-zPuND
 zPuNE
 zPuNH
 zRuPI
@@ -31902,7 +31896,7 @@ z|uzI
 }3fA;\$Vw+H
 }3fA;\$~w+H
 }3fA;]fw,L
-}5D;-1
+}5D;-
 }8f;rnw2f
 }:f;pnw4f
 }>;w$
@@ -31923,7 +31917,7 @@ z|uzI
 }Hf;w
 }I;w$
 }J@:w
-}JD;-
+}JD;-7
 }KfD9
 }Lf;w
 }N;w$

@@ -306,6 +306,7 @@
 
 .ViveController .ViveHelp,
 .KnucklesController .ViveHelp,
+.GenericTrackedController .ViveHelp,
 .GamepadController .ControllerHelp,
 .TouchController .TouchHelp,
 .WinMRController .WinMRHelp,
@@ -326,6 +327,9 @@
 .KnucklesController .Page1 .NextButton,
 .KnucklesController .Page2 .NextButton,
 .KnucklesController .Page3 .DoneButton,
+.GenericTrackedController .Page1 .NextButton,
+.GenericTrackedController .Page2 .NextButton,
+.GenericTrackedController .Page3 .DoneButton,
 .GamepadController .Page1 .NextButton,
 .GamepadController .Page2 .NextButton,
 .GamepadController .Page3 .DoneButton,

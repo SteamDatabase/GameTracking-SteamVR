@@ -363,6 +363,10 @@
 							<Label text="#AvatarTutorialButton" />
 						</Button>
 
+						<Button class="DestinationButton ScreenshotTutorialButton" id="ScreenshotTutorialButton" onactivate="ShowScreenshotTutorial();">
+							<Label text="#ScreenshotTutorialButton" />
+						</Button>
+
 						<Button class="DestinationButton CustomizeButton" onactivate="EditWearables();">
 							<Label text="#CustomizeButtonLabel" />
 						</Button>
@@ -783,6 +787,20 @@
 		</Panel>
 
 
+		<Panel class="ScreenshotsFirstTime">
+			<Image class="FirstTimeImage" src="s2r://panorama/images/content_browser/panel_image_png.vtex" />
+			<Panel class="FirstTimeRight">
+				<Label class="FirstTimeText" text="#ScreenshotsFirstTimeText" />
+			</Panel>
+		</Panel>
+
+		<Panel class="ArtworkFirstTime">
+			<Image class="FirstTimeImage" src="s2r://panorama/images/content_browser/panel_image_png.vtex" />
+			<Panel class="FirstTimeRight">
+				<Label class="FirstTimeText" text="#ArtworkFirstTimeText" />
+			</Panel>
+		</Panel>
+
 		<Panel class="EnvironmentsFirstTime">
 			<Image class="FirstTimeImage" src="s2r://panorama/images/content_browser/environments_image_png.vtex" />
 			<Panel class="FirstTimeRight">
@@ -896,7 +914,7 @@
 
 		<Panel class="DialogPanelWrapper" onactivate="SetInputFocus(ConfirmationButtonOK)">
 			<Panel class="FadeOutPanel" />
-			<Panel class="DialogPanel">
+			<Panel class="DialogPanel" id="AvatarTutorialPanel">
 				<Panel class="DialogPanelTitle">
 					<Label class="DialogPanelTitleLabel" id="AvatarTutorial" text="#AvatarTutorialTitle" />		
 				</Panel>
@@ -913,9 +931,28 @@
 				<Button class="DestinationButton" id="DialogOK">
 					<Label text="#DialogOK" allowtextselection="false" onactivate="HideDialogPanel()"/>
 				</Button>
-
 			</Panel>
 
+			<Panel class="DialogPanel" id="ScreenshotTutorialPanel">
+				<Panel class="DialogPanelTitle">
+					<Label class="DialogPanelTitleLabel" id="AvatarTutorial" text="#ScreenshotTutorialTitle" />		
+				</Panel>
+				<Panel class="DialogPanelContent">
+					<Panel class="DialogImage" >
+						<Image class="ScreenshotViveImage" src="s2r://panorama/images/content_browser/screenshot_vive_png.vtex" />					
+						<Image class="ScreenshotWinMRImage" src="s2r://panorama/images/content_browser/screenshot_winmr_png.vtex" />		
+						<Image class="ScreenshotTouchImage" src="s2r://panorama/images/content_browser/screenshot_touch_png.vtex" />		
+					</Panel>
+					<Panel class="DialogText">
+						<Label class="DialogTextLabel ScreenshotViveLabel" text="#ScreenshotTutorialVive" />
+						<Label class="DialogTextLabel ScreenshotWinMRLabel" text="#ScreenshotTutorialWinMR" />
+						<Label class="DialogTextLabel ScreenshotTouchLabel" text="#ScreenshotTutorialTouch" />
+					</Panel>
+				</Panel>
+				<Button class="DestinationButton" id="DialogOK">
+					<Label text="#DialogOK" allowtextselection="false" onactivate="HideDialogPanel()"/>
+				</Button>
+			</Panel>
 		</Panel>
 		
 		<Panel class="ContainerBlackout" />

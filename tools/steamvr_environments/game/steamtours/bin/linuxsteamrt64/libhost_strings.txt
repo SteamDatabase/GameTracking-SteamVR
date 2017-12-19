@@ -501,8 +501,6 @@ $woL)
 -use_tier2_bundle
 -use_tier3_bundle
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%7=%
-.%]>%
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
 ../../public/ordered_constructor.h
@@ -1553,7 +1551,6 @@ Byte size calculation and serialization were inconsistent.  This may indicate a 
 C E9w 
 C HcU
 C([A\]
-C(fA9
 C(t!L
 C,[A\A]]
 C,[A\]

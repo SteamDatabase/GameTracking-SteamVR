@@ -1030,6 +1030,12 @@
 		"AvatarTutorialTitle"  "How to Customize Your Avatar"
 		"AvatarTutorialButton" "How To"
 
+		"ScreenshotTutorialButton" "Help"
+		"ScreenshotTutorialTitle" "How to Take Screenshots in SteamVR"
+		"ScreenshotTutorialVive" "To take a screenshot while in a game, press the System and Trigger buttons at the same time.\n\nOnce you've quit the game, you will be presented with the Steam Screenshot Manager interface, where you’ll be able to share the screenshots publicly."
+		"ScreenshotTutorialWinMR" "To take a screenshot while in a game, press the Left Thumbstick and Trigger buttons at the same time.\n\nOnce you've quit the game, you will be presented with the Steam Screenshot Manager interface, where you’ll be able to share the screenshots publicly."
+		"ScreenshotTutorialTouch" "To take a screenshot while in a game, press the Left Menu and Trigger buttons at the same time.\n\nOnce you've quit the game, you will be presented with the Steam Screenshot Manager interface, where you’ll be able to share the screenshots publicly."
+
 		"HostMessageTitle" "What kind of Room?"
 		"SavedEnvironmentCheck" "Use My Saved Environment"
 		"LaunchFriendsRoomText" "Host a Friends Only Room"
@@ -1310,6 +1316,12 @@
 
 		// Backgrounds Panel First Time panel
 		"BackgroundsFirstTimeText"	"Here in the Backgrounds section, you'll find different backgrounds to customize your environment. \n\nTo start exploring, select the 'Get More' tab above. There you'll be able to browse and download new backgrounds from the SteamVR Workshop.\n\nNote: Not every environment is compatible with customizable backgrounds."
+
+		// Screenshots Panel First Time panel
+		"ScreenshotsFirstTimeText"	"It looks like you haven't shared any public screenshots yet. \n\nTo share screenshots, take a screenshot in-game, then use the Screenshot Manager to share it on Steam publicly. Select 'Help' above to learn how to take screenshots in VR. \n\nYou can also select the 'From Community' tab above to view and use popular public screenshots from the community."
+
+		// Artwork Panel First Time panel
+		"ArtworkFirstTimeText"	"It looks like you haven't shared any public artwork yet. \n\nTo bring your artwork into SteamVR Home, you will need to upload your artwork to Steam from a game's Community Hub and make it publicly viewable.\n\nYou can also select the 'From Community' tab above to view and use popular public artwork from the community."
 
 		// Recent Apps Panel No Apps state
 		"NoAppsTitle" "WELCOME!"

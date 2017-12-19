@@ -168,9 +168,15 @@ function ShowAvatarTutorial()
 	$( "#SteamToursContentBrowser" ).AddClass( "AvatarTutorialOn" );				
 }
 
+function ShowScreenshotTutorial()
+{
+	$( "#SteamToursContentBrowser" ).AddClass( "ScreenshotTutorialOn" );				
+}
+
 function HideDialogPanel()
 {
 	$( "#SteamToursContentBrowser" ).RemoveClass( "AvatarTutorialOn" );	
+	$( "#SteamToursContentBrowser" ).RemoveClass( "ScreenshotTutorialOn" );		
 }
 
 function HostPublicRoom()

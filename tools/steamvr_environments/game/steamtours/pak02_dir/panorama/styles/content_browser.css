@@ -2396,6 +2396,33 @@ AvatarCustomizationItem #SliderThumb
 	visibility: visible;
 }
 
+
+/*---------------------------
+    SCREENSHOT TUTORIAL
+---------------------------*/
+
+.ScreenshotTutorialButton
+{
+	vertical-align: center;
+	horizontal-align: right;
+	margin-right: 35px;
+	width: 220px;	
+	visibility: collapse;
+}
+
+.ScreenshotsOn .ScreenshotTutorialButton
+{
+	visibility: visible;
+}
+
+.ScreenshotTutorialButton Label
+{
+	text-align: center;
+	vertical-align: center;
+	font-size: 35px;
+}
+
+
 /*---------------------------
     ARTWORK AND SCREENSHOTS
 ---------------------------*/
@@ -3468,11 +3495,6 @@ AvatarCustomizationItem #SliderThumb
 	visibility: collapse;
 }
 
-.AvatarTutorialOn .DialogPanelWrapper
-{
-	visibility: visible;	
-}
-
 .DialogPanel
 {
 	width: 800px;
@@ -3482,9 +3504,11 @@ AvatarCustomizationItem #SliderThumb
 	horizontal-align: center;
 	flow-children: down;
 	background-color: background_center_gradient_dark;
+	//background-color: black;
 	border-radius: 5px;
 	border: 2px solid #ffffff20;	
 	//box-shadow: #8C94A555 0px 0px 10px 0px;	
+	visibility: collapse;
 }
 
 .DialogPanelTitle
@@ -3503,6 +3527,26 @@ AvatarCustomizationItem #SliderThumb
 {
 	horizontal-align: center;
 	margin: 30px 0px 30px 0px;	
+	flow-children: right;
+}
+
+.DialogImage
+{
+	margin-top: 10px;
+}
+
+.DialogText
+{
+	width: 400px;
+	margin-top: 10px;
+	margin-left: 30px;
+	vertical-align: center;
+}
+
+.DialogTextLabel
+{
+	color: white;
+	font-size: 30px;	
 }
 
 #DialogOK
@@ -3521,6 +3565,49 @@ AvatarCustomizationItem #SliderThumb
 	height: 100%;
 
 	background-color: #000000dc;
+}
+
+//for specific dialogs
+
+#ScreenshotTutorialPanel
+{
+	width: 1000px;
+}
+
+.AvatarTutorialOn .DialogPanelWrapper,
+.AvatarTutorialOn #AvatarTutorialPanel,
+.ScreenshotTutorialOn .DialogPanelWrapper,
+.ScreenshotTutorialOn #ScreenshotTutorialPanel
+{
+	visibility: visible;	
+}
+
+.ScreenshotViveImage,
+.ScreenshotViveLabel,
+.ScreenshotWinMRImage,
+.ScreenshotWinMRLabel,
+.ScreenshotTouchImage,
+.ScreenshotTouchLabel
+{
+	visibility: collapse;
+}
+
+//lawrence to do - make knuckles controller images once closer to ev 2.0
+
+.ViveController .ScreenshotViveImage,
+.ViveController .ScreenshotViveLabel,
+.KnucklesController .ScreenshotViveImage,
+.KnucklesController .ScreenshotViveLabel,
+.GenericTrackedController .ScreenshotViveImage,
+.GenericTrackedController .ScreenshotViveLabel,
+.WinMRController .ScreenshotWinMRImage,
+.WinMRController .ScreenshotWinMRLabel,
+.WinMRControllerSamsung .ScreenshotWinMRImage,
+.WinMRControllerSamsung .ScreenshotWinMRLabel,
+.TouchController .ScreenshotTouchImage,
+.TouchController .ScreenshotTouchLabel
+{
+	visibility: visible;
 }
 
 /*----------------------
@@ -6402,11 +6489,13 @@ background-color: gradient(linear, 0% 0%, 100% 0%, from(#ff0000), color-stop(0.1
 
 
 /*---------------------------------
-   ENVIRONMENTS & BACKGROUNDS FIRST TIME DIALOG
+   ENVIRONMENTS, SCREENSHOTS, ARTWORK & BACKGROUNDS FIRST TIME DIALOG
 ---------------------------------*/
 
 .EnvironmentsFirstTime,
-.BackgroundsFirstTime
+.BackgroundsFirstTime,
+.ScreenshotsFirstTime,
+.ArtworkFirstTime
 {
 	width: 100%;
 	height: 925px;
@@ -6420,13 +6509,17 @@ background-color: gradient(linear, 0% 0%, 100% 0%, from(#ff0000), color-stop(0.1
 }
 
 .MapsTab.NoMapSubscriptions .EnvironmentsFirstTime,
-.BackgroundsTab.NoBackgroundSubscriptions .BackgroundsFirstTime
+.BackgroundsTab.NoBackgroundSubscriptions .BackgroundsFirstTime,
+.MyScreenshots.NoScreenshots .ScreenshotsFirstTime,
+.MyArtwork.NoArtwork .ArtworkFirstTime
 {
 	visibility: visible;
 }
 
 .DashboardOn.NoMapSubscriptions .EnvironmentsFirstTime,
-.DashboardOn.NoBackgroundSubscriptions .BackgroundsFirstTime
+.DashboardOn.NoBackgroundSubscriptions .BackgroundsFirstTime,
+.DashboardOn.NoScreenshots .ScreenshotsFirstTime,
+.DashboardOn.NoArtwork .ArtworkFirstTime
 {
 	visibility: collapse;
 }

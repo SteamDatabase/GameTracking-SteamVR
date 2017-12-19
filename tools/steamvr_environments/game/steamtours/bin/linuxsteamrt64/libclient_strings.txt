@@ -1368,7 +1368,6 @@ $~gHc
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (%0.2f): %s
-(%9 &
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1380,18 +1379,15 @@ $~gHc
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(-0 &
-(-kY[
+(-{P[
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (1@zD
-(5'V&
-(5I-&
-(5Y:&
+(5	/&
+(5Q*Y
 (8HXhx
 (9s ~@H
-(=@-&
-(=P:&
+(=Fm&
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1879,14 +1875,14 @@ $~gHc
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 .%0*llu
-.%2-}
-.%2XZ
-.%:9[
-.%mu6
-.%v#X
+.%2PZ
+.%:1[
 .(Optional) Set of tags for the published file.
-.-Z[5
-.-i,\
+.-*[5
+.-3>A
+.-Y#\
+.-]^}
+.-la}
 ../../_generated_code/client_steamtours/release/linuxsteamrt64/../../../../game/shared/world.cpp
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1923,6 +1919,8 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
+.5d6o
+.=\?g
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -5633,7 +5631,6 @@ $~gHc
 6C_Guts
 6C_Team
 6ConVar
-6D#5k
 6D;U$
 6F+U F
 6H92t%H
@@ -5703,7 +5700,7 @@ $~gHc
 8IcU 
 8Ic|$8
 8If true, return tag information in the returned details.
-8L;'u"
+8L;'u
 8LcgPL
 8McD$ 
 8McD$(
@@ -5872,7 +5869,7 @@ $~gHc
 :>	As?K
 :@89u
 :@p%;6
-:AY[]
+:AX[]
 :HcK 
 :T@dY0
 :Ug59
@@ -5908,8 +5905,6 @@ $~gHc
 ;Ch|-
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;H0}K
-;Hc5%5S
-;Hc5*+S
 ;K(}&H
 ;KP~F
 ;O<gK
@@ -8867,7 +8862,7 @@ C8}~1
 C9,h5
 C<D;e
 C<[A\A]A^]
-C@D;%
+C@D;%#z
 C@D;k8D
 C@H;CHs
 C@Ll>
@@ -11331,7 +11326,8 @@ D9(t1H
 D9+~[L
 D90t[A
 D9;~dL
-D9=9/
+D9=	3
+D9=Y1
 D9D$4B
 D9D$4H
 D9F<~
@@ -11375,15 +11371,17 @@ D:z	t
 D:z	tUHc
 D; t=H
 D;!t{Hc
+D;%B'.
+D;%RL
 D;'t{
 D;'t{Hc
 D;*t>H
 D;+};H
-D;-LG.
-D;-MF.
+D;-<T.
+D;-=S.
 D;.~3L
 D;.~9H
-D;5E?
+D;5UC
 D;:tPH
 D;X,}
 D;`L|
@@ -13444,131 +13442,127 @@ H;0tHH
 H;0u%
 H;1t!
 H;2u$
-H;53r
 H;8tU
 H;8t]
 H;:t(f
+H;=	&)
+H;=	'
+H;=	.
 H;=	1
-H;=	C
+H;=	@
 H;=	D
-H;=	V
 H;=	W
-H;=	\
-H;= ?
-H;="w
-H;=#("
-H;=#i"
-H;=#tB
-H;=).
+H;=	c
+H;=	tI
+H;= y5
+H;=%|1
+H;='R
+H;=(K&
+H;=)"
+H;=)6
 H;=)8
-H;=)J
+H;=)G
 H;=)K
-H;=)^
-H;=)_
-H;=)c
-H;=)j5
-H;=*f)
-H;=.2
-H;=.77
-H;=.I
-H;=.|
-H;=.}
-H;=0!
+H;=)W
+H;=)\
+H;=)m#
+H;=+&)
+H;=.W
+H;=.g
+H;=.w
+H;=.x
+H;=/M
+H;=0"
+H;=0&5
 H;=0'
-H;=0+5
-H;=0J&
-H;=0T.
-H;=0Y)
-H;=0g
+H;=0>*
+H;=0T
+H;=0i5
+H;=0z
+H;=2F7
+H;=2u)
+H;=9(
+H;=9/
 H;=92
-H;=9D
+H;=9?;
+H;=9A
 H;=9E
-H;=9H#
+H;=9QI
 H;=9X
-H;=9]
-H;=9f@
-H;=:w
-H;=<v
-H;=>G
-H;=>g#
+H;=>U
+H;=>u
+H;=>v
 H;=>z
-H;=?" 
-H;=@B*
-H;=@C
-H;=@d%
-H;=@o&
-H;=@y*
-H;=A#8
-H;=BP 
-H;=I!*
+H;=Bv#
+H;=C!7
+H;=GM
+H;=HE)
+H;=I)
+H;=I,
+H;=I;
 H;=I?
-H;=IJ.
-H;=IQ
+H;=IN
 H;=IR
-H;=I[
-H;=MkC
-H;=N+ 
-H;=NE
+H;=I^
+H;=If
+H;=I}
+H;=JK&
+H;=Km#
+H;=M&D
+H;=NS
+H;=Ns
+H;=Nt
 H;=Nx
-H;=QI
-H;=Sd$
-H;=T/"
-H;=T77
-H;=WX
-H;=WY
-H;=Y/
+H;=P 
+H;=P%
+H;=P45
+H;=P@5
+H;=SG 
+H;=SSJ
+H;=XF7
+H;=Xu)
+H;=Y#
 H;=Y9
-H;=YK
+H;=YH
 H;=YL
-H;=YW8
-H;=Y_
-H;=Y`
-H;=Yd
-H;=[H#
-H;=]?D
-H;=^%
-H;=^C
+H;=YX
+H;=Y]
+H;=^Q
+H;=^r
 H;=^v
-H;=`)#
-H;=`+7
-H;=`1#
-H;=`@4
-H;=a'D
-H;=a)!
-H;=aa@
-H;=cnB
-H;=dg#
-H;=hP 
-H;=i 
+H;=`:3
+H;=`R.
+H;=gU
+H;=hv#
+H;=i!#
+H;=i)
 H;=i3
-H;=iE
+H;=iB
 H;=iF
 H;=iY
-H;=i^
-H;=k!*
-H;=kJ.
-H;=m"D
-H;=nt
-H;=p"
-H;=pB&
-H;=pl 
-H;=s[4
-H;=se-
-H;=u) 
-H;=u}8
-H;=w3
-H;=y?
+H;=jE)
+H;=m_ 
+H;=nO
+H;=np
+H;=p#
+H;=pN
+H;=r{
+H;=s7"
+H;=sx"
+H;=y*
+H;=y-
+H;=y<
 H;=y@
-H;=yR
+H;=yO
 H;=yS
-H;=y\
-H;=yq$
-H;=yq*
-H;=z77
-H;={CJ
-H;=~^
-H;=~r
-H;=~~
+H;=y_
+H;=yg
+H;=yy5
+H;=zu)
+H;=~2
+H;=~F7
+H;=~M
+H;=~n
 H;>t[H
 H;C I
 H;C r
@@ -13687,8 +13681,8 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5Uh
-Hc5`,
+Hc5*!
+Hc5ZES
 Hc8Hi
 Hc@ H
 Hc@$H
@@ -14715,6 +14709,7 @@ L9l$(u
 L9t$(u
 L9|$HJ
 L;0t!A
+L;5^0 
 L;?u"
 L;d$@L
 L;{ t
@@ -14801,20 +14796,21 @@ Lc!D;a
 Lc"D;b
 Lc#D;c
 Lc#E9
-Lc%	i
+Lc%)z
+Lc%9'.
 Lc&D;f
 Lc'D;g
 Lc'E)
 Lc+D)
 Lc+D;k
-Lc-CG.
-Lc-DF.
+Lc-3T.
+Lc-4S.
 Lc/E)
 Lc/E1
 Lc1D;q
 Lc3D;s
 Lc3E9
-Lc5<?
+Lc5LC
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -16130,6 +16126,7 @@ No such response '%s' for rule '%s'
 No valid format conversion from '%s' to '%s'
 No view anim created
 No view anim created, use viewanim_create
+NoArtwork
 NoBackgroundSubscriptions
 NoCancel
 NoDefaultModPath
@@ -16137,6 +16134,7 @@ NoMapSubscriptions
 NoName
 NoReadingString
 NoRecentApps
+NoScreenshots
 NoSteam
 NoSuggestions
 Non-entity Aggregate: %s
@@ -16607,7 +16605,7 @@ PersonaName
 PersonaNameReplacementToken
 PersonalBubbleSlider
 PhA9]P~+L
-PhHc5	
+PhHc5
 Ph[A\]
 Phags_Pa
 Phoenician
@@ -18427,11 +18425,14 @@ T$hA)
 T$lHc
 T$pH9
 T$pL)
-T%6U/
-T%JQ/
-T-/S/
+T%.U/
+T%AS/
+T%EU/
+T%SQ/
+T-;Q/
 T.$Hc
 T0@GZ
+T5-S/
 T5i@H
 T82fE
 T@MResourceBlockType
@@ -19426,15 +19427,17 @@ Vulkan
 W H9r
 W HcE
 W HcG
+W%"T4
 W%:O&t
-W%Dr-
-W%Pi-
+W%Tq-
+W%`h-
 W(Aq=
 W(H92t'H
 W,:V,u
 W0Hc_8A
 W0t	H
 W3|Uxa
+W5tV4
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -19628,11 +19631,11 @@ Wzm6V"
 W{@3333
 X zR&="@r
 X$HcH 
-X%'$v
-X%cRa
+X%exj
+X%q9v
 X(9Y(
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-6.u
+X-&$u
 X0~tA
 X2:jH
 X360_DST16
@@ -19656,15 +19659,20 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Y ANb
-Y%>pZ
-Y%VD8
-Y%VF8
-Y%XBM
+Y%&E8
+Y%&G8
+Y%88M
+Y%hzP
+Y%~fZ
 Y(;Y8
 Y(E9^(A
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
+Y-k8M
 Y/&4@4
+Y5#n=
+Y5Ho=
 Y6	@W'g(
+Y=6{j
 Y?3333E
 YD$$L
 YGDUH
@@ -19794,6 +19802,7 @@ Z}uU
 \$hIcEXI
 \$xA;
 \%03o
+\%t3q
 \C not allowed in lookbehind assertion
 \I8r!H
 \N is not supported in a class
@@ -22133,7 +22142,6 @@ fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB94`
 fD9 t
-fD9%$
 fD9/t0H
 fD91u|
 fD9cV
@@ -26673,6 +26681,8 @@ nowrap
 npc_height_adjust
 nqCBJ
 nt;Hc
+nt_uf
+nt_ufD
 numEntities
 num_achievements
 num_achievements_completed
@@ -26719,6 +26729,7 @@ o$ATI
 o(ATI
 o*Ral
 o,ATI
+o-}	g
 o0ATI
 o8ATL
 o8ATM
@@ -27211,6 +27222,8 @@ point_clientui_world_panel
 point_clientui_world_text_panel
 point_enable_motion_fixup
 point_follow
+point_hiH
+point_hiI
 point_hint_ui
 point_hmd_anchor
 point_offscreen_indicator_ui
@@ -28565,7 +28578,7 @@ t$<H)
 t$@A\]
 t$@tsHc
 t$D9j
-t$D;-#U
+t$D;-
 t$H9:H
 t$H9h
 t$HcK
@@ -28593,21 +28606,19 @@ t$pH)
 t$xH)
 t%;2t%H
 t%D; tXH
-t%D;%tC
-t%D;-D
+t%D;%
+t%D;-
 t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
-t&;5ox
 t&@8>t+H
-t&D;%
+t&D;%5
 t&D;=
-t&D;=e
 t&Hc]
 t&Hcq
 t'<"t
-t'D;%f
-t'D;5^
+t'D;%
+t'D;5.
 t'Hc{
 t'Hc{ H
 t'Hc{$H
@@ -28633,14 +28644,14 @@ t(Ic},H
 t(Ic}@H
 t(Ic~0H
 t([A\A]A^]
-t);5"
-t);=R
+t);5R
+t);="
 t)Lc+D;k
 t* Hc
 t*(Hc
 t*<*u
 t*<-H
-t*D;-Y
+t*D;-
 t*HcC
 t*HcE
 t*HcKH
@@ -28651,7 +28662,7 @@ t*LcC
 t*fA9
 t+<\u
 t+D9s
-t+D;-*P
+t+D;-
 t+Hc4
 t+HcO
 t+Hcsp
@@ -28725,7 +28736,7 @@ t?Mcv
 t?[A\]
 t@@:>u
 t@Ic_
-t@Lc%
+t@Lc%IL
 t@[A\A]A^]
 t@}?5^
 tALcc
@@ -28734,7 +28745,7 @@ tAffffhF
 tAw3A
 tBL;h L
 tBViewEffects
-tCLc%
+tCLc%D
 tC[A\A]A^]
 tD@:5
 tDHcx D
@@ -29097,13 +29108,13 @@ u-[A\]
 u.HW?
 u2[A\]
 u64( %lld = 0x%llX )
-u8[A\A]A^]
 u9% &
 u:IcOTL
 u:[A\A]A^A_]
 u<~%I
 u=Ic]
 u?IcF
+u@[A\A]A^]
 u@[A\]
 uBMcl$ E;l$0D
 uE[A\]
@@ -29797,7 +29808,6 @@ wxLcE
 x ;s|~
 x = %i, y = %i, w = %i h = %i text %s
 x D;x$}
-x HcW
 x axis
 x$9~$
 x$HcH 
@@ -30064,6 +30074,7 @@ z~u|f
 |P>~k
 |]J@E
 |a2U0
+|cE9'u
 |sA;t$0
 |xA;t$P
 |yA;t$8
@@ -30191,7 +30202,7 @@ z~u|f
 ~XHcNHH
 ~YE9f,|S
 ~[F-"
-~aHcW
+~[HcW
 ~b8~q)=
 ~oHc6H
 ~p>u,
