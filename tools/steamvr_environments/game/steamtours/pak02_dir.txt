@@ -411,7 +411,7 @@ panorama/layout/vr_community_home.vxml_c CRC:004e9a459a size:17108
 panorama/layout/vr_community_item.vxml_c CRC:00534e65f8 size:12290
 panorama/layout/vr_content_browser.vxml_c CRC:00395e7967 size:756
 panorama/layout/vr_friends.vxml_c CRC:00fce56fe4 size:621
-panorama/localization/steamtours_english.txt CRC:005df0a2b4 size:129676
+panorama/localization/steamtours_english.txt CRC:0061ae8a6d size:132297
 panorama/panorama_config.txt CRC:00a597fc0e size:294
 panorama/scripts/community_home.vjs_c CRC:007347d3f1 size:18902
 panorama/scripts/community_home_item.vjs_c CRC:0031a852b3 size:11286
@@ -440,7 +440,7 @@ particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
 resource/gameevents.res CRC:001284caec size:1002
 resource/modevents.res CRC:00a360fb36 size:903
 resource/serverevents.res CRC:000df59f67 size:3694
-scripts/contentdb.txt CRC:00d0db2756 size:135558
+scripts/contentdb.txt CRC:007c4bd52b size:139917
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70

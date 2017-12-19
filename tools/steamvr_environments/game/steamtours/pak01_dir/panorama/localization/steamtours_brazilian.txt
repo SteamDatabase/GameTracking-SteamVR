@@ -3017,5 +3017,13 @@
 "[english]Quest_TF2Yeti"	"Yeti Quest"
 "Quest_TF2Yeti_Desc"	"Encontre esta fera mítica que espreita no Monte Rainier."
 "[english]Quest_TF2Yeti_Desc"	"Find this mythical beast lurking up Mount Rainier."
+"VR_PhysicsProp_DeservingLifePizza"	"Pizza é Vida!"
+"[english]VR_PhysicsProp_DeservingLifePizza"	"Pizza is Life!"
+"VR_PhysicsProp_DeservingLifePizza_Desc"	"Um pedaço delicioso que sobrou do sequestrador.\n\nDestravada ao jogar Deserving Life."
+"[english]VR_PhysicsProp_DeservingLifePizza_Desc"	"A delicious leftover from the kidnapper.\n\nUnlocked by playing Deserving Life."
+"VR_PhysicsProp_WrathOfLokiHammer"	"Martelo de Thor"
+"[english]VR_PhysicsProp_WrathOfLokiHammer"	"Thor's Hammer"
+"VR_PhysicsProp_WrathOfLokiHammer_Desc"	"O martelo perfeito para um deus.\n\\Destravado ao jogar Wrath of Loki VR Adventure."
+"[english]VR_PhysicsProp_WrathOfLokiHammer_Desc"	"A hammer fit for a god.\n\nUnlocked by playing Wrath of Loki VR Adventure."
 }
 }

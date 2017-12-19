@@ -2973,5 +2973,7 @@
 "[english]UGCHiddenLabel"	"User generated content is hidden. You can change this in Settings."
 "VR_Avatar_Wearable_GornWingedHelmet"	"Casco alado"
 "[english]VR_Avatar_Wearable_GornWingedHelmet"	"Winged Helmet"
+"ScreenshotTutorialButton"	"Ayuda"
+"[english]ScreenshotTutorialButton"	"Help"
 }
 }

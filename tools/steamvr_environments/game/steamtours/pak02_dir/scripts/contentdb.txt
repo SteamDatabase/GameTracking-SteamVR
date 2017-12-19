@@ -2438,6 +2438,109 @@
 			default_color = [ 255,255,255 ]
 		},
 		{
+			id = "htc_vive_holiday_snowman_ball_a"
+			name = "#VR_PhysicsProp_HTCSnowmanBallA"
+			desc = "#VR_PhysicsProp_HTCSnowmanBallA_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_ball_a.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_ball_a.png"
+			// inventory_service_id = 1080
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_ball_b"
+			name = "#VR_PhysicsProp_HTCSnowmanBallB"
+			desc = "#VR_PhysicsProp_HTCSnowmanBallB_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_ball_b.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_ball_b.png"
+			// inventory_service_id = 1081
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_ball_c"
+			name = "#VR_PhysicsProp_HTCSnowmanBallC"
+			desc = "#VR_PhysicsProp_HTCSnowmanBallC_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_ball_c.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_ball_c.png"
+			// inventory_service_id = 1082
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_base"
+			name = "#VR_PhysicsProp_HTCSnowmanBase"
+			desc = "#VR_PhysicsProp_HTCSnowmanBase_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_base.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_base.png"
+			// inventory_service_id = 1083
+			default_scale = 0.5
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_carrot"
+			name = "#VR_PhysicsProp_HTCSnowmanCarrot"
+			desc = "#VR_PhysicsProp_HTCSnowmanCarrot_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_carrot.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_carrot.png"
+			// inventory_service_id = 1084
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_lights"
+			name = "#VR_PhysicsProp_HTCSnowmanLights"
+			desc = "#VR_PhysicsProp_HTCSnowmanLights_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_lights.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_lights.png"
+			// inventory_service_id = 1085
+			default_scale = 1
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_pebble_a"
+			name = "#VR_PhysicsProp_HTCSnowmanPebbleA"
+			desc = "#VR_PhysicsProp_HTCSnowmanPebbleA_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_pebble_a.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_pebble_a.png"
+			// inventory_service_id = 1086
+			default_scale = 0.5
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_pebble_b"
+			name = "#VR_PhysicsProp_HTCSnowmanPebbleB"
+			desc = "#VR_PhysicsProp_HTCSnowmanPebbleB_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_pebble_b.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_pebble_b.png"
+			// inventory_service_id = 1087
+			default_scale = 0.5
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_twig_a"
+			name = "#VR_PhysicsProp_HTCSnowmanTwigA"
+			desc = "#VR_PhysicsProp_HTCSnowmanTwigA_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_twig_a.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_twig_a.png"
+			// inventory_service_id = 1088
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_twig_b"
+			name = "#VR_PhysicsProp_HTCSnowmanTwigB"
+			desc = "#VR_PhysicsProp_HTCSnowmanTwigB_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_twig_b.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_twig_b.png"
+			// inventory_service_id = 1089
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_vive_holiday_snowman_twig_c"
+			name = "#VR_PhysicsProp_HTCSnowmanTwigC"
+			desc = "#VR_PhysicsProp_HTCSnowmanTwigC_Desc"
+			content = "models/third_party/props/toys/htc_snowman/htc_vive_holiday_snowman_twig_c.vmdl"
+			preview_image = "file://{images}/contentdb/htc_vive_holiday_snowman_twig_c.png"
+			// inventory_service_id = 1090
+			default_color = [ 255,255,255 ]
+		},
+		{
 			id = "test_complex_item"
 			name = "COMPLEX ITEM"
 			desc = "This item is complex!!"
@@ -3802,10 +3905,7 @@
 			items = [
 				{
 					id = "item_generator_common_items"
-					//chance = 90
-					//for halloween
-					chance = 40
-
+					chance = 90
 				},
 				{
 					id = "item_generator_rare_tf2_heads"
@@ -3814,10 +3914,6 @@
 				{
 					id = "item_generator_rare_seadocks_heads"
 					chance = 5
-				},				{
-					id = "item_generator_halloween_hats"
-					//for halloween
-					chance = 50
 				}
 			]
 		},

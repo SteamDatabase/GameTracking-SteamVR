@@ -3024,5 +3024,9 @@
 "[english]VR_PhysicsProp_DeservingLifePizza"	"Pizza is Life!"
 "VR_PhysicsProp_DeservingLifePizza_Desc"	"Pyszna pozostałość po porywaczu.\n\nOdblokowane za zagranie w Deserving Life."
 "[english]VR_PhysicsProp_DeservingLifePizza_Desc"	"A delicious leftover from the kidnapper.\n\nUnlocked by playing Deserving Life."
+"VR_PhysicsProp_WrathOfLokiHammer"	"Młot Thora"
+"[english]VR_PhysicsProp_WrathOfLokiHammer"	"Thor's Hammer"
+"VR_PhysicsProp_WrathOfLokiHammer_Desc"	"Idealny młot dla boga.\n\nOdblokowane za zagranie w Wrath of Loki VR Adventure."
+"[english]VR_PhysicsProp_WrathOfLokiHammer_Desc"	"A hammer fit for a god.\n\nUnlocked by playing Wrath of Loki VR Adventure."
 }
 }

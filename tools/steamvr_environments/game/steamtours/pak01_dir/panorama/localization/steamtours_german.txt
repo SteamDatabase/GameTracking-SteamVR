@@ -2997,7 +2997,15 @@
 "[english]VR_PhysicsProp_TiltBrushTiltasaurus"	"Tiltasaurus"
 "VR_Map_MountRainierCamp"	"Mount Rainier"
 "[english]VR_Map_MountRainierCamp"	"Mount Rainier"
+"VR_Map_MountRainierCamp_Desc"	"Der höchste Berg im US-Bundesstaat Washington."
+"[english]VR_Map_MountRainierCamp_Desc"	"The tallest mountain in Washington State, USA."
 "VR_PhysicsProp_TF2Yeti"	"Yeti"
 "[english]VR_PhysicsProp_TF2Yeti"	"Yeti"
+"VR_PhysicsProp_DeservingLifePizza"	"Pizza is Life!"
+"[english]VR_PhysicsProp_DeservingLifePizza"	"Pizza is Life!"
+"VR_PhysicsProp_WrathOfLokiHammer"	"Thors Hammer"
+"[english]VR_PhysicsProp_WrathOfLokiHammer"	"Thor's Hammer"
+"VR_PhysicsProp_WrathOfLokiHammer_Desc"	"Ein Hammer für einen Gott.\n\nZum Freischalten spielen Sie bitte Wrath of Loki VR Adventure."
+"[english]VR_PhysicsProp_WrathOfLokiHammer_Desc"	"A hammer fit for a god.\n\nUnlocked by playing Wrath of Loki VR Adventure."
 }
 }
