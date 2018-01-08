@@ -867,11 +867,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Yeniden Başlat"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Geliştirici Modu Gerekli"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows MR köprüsü sürücüsünü kullanmak için Windows geliştirici modunda olması gerekiyor."
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows needs to be in developer mode to use the Windows MR bridge driver."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Windows'u Geliştirici Moduna Ayarlayın"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Güncel Windows 10 kurulumu gerekli"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"SteamVR'ı Windows Mixed Reality ile kullanmak için Windows'un son sürümünü yüklemeniz gerekmektedir."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Ayrıntılı bilgi için buraya tıklayın"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

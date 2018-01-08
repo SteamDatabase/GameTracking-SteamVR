@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"norwegian"
 "Tokens"
@@ -343,6 +343,8 @@
 "[english]VRInitError_VendorSpecific_HmdFound_UserDataError_Action"	"Troubleshooting"
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header"	"Noe er galt"
 "[english]VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header"	"Something is wrong"
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action"	"Besøk HTCs hjemmeside"
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action"	"Visits HTC Website"
 "VRInitError_Steam_SteamInstallationNotFound_Header"	"Steam ikke oppdaget"
 "[english]VRInitError_Steam_SteamInstallationNotFound_Header"	"Steam not detected"
 "VRInitError_Steam_SteamInstallationNotFound_Description"	"Steam må være installert for at SteamVR skal fungere ordentlig."

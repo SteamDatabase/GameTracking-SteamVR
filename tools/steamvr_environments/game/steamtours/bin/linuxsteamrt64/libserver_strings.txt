@@ -1455,6 +1455,7 @@ $woL)
 (inactive)
 (int iIndex, int iPoint, Vector vecForward ) - Set the forward direction for a control on a particle effect
 (int iIndex, int iPoint, Vector vecForward, Vector vecRight, Vector vecUp) - Set the orientation for a control on a particle effect
+(int iIndex, int iPoint, Vector vecOffset ) - Set the linear offset for a control on a particle effect
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (merge 
 (no attrib) 
@@ -1726,9 +1727,8 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%+q[
-.%<WZ
-.%YDO
+.%LWZ
+.%iDO
 ...%s
 ...done building AI node graph, %f seconds
 ...done determining links. %f seconds
@@ -1764,8 +1764,8 @@ $woL)
 ../public/tier2/fieldpath.h
 ..\content
 .0z&u$
-.5%!j
-.5L~p
+.55!j
+.5\~p
 .>()09
 .@(."
 .@,wqH
@@ -1859,6 +1859,7 @@ $woL)
 .K8zBf
 .KdzIuGH
 .M;UU
+.M;`B
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
 .O<{4
 .PARTICLE_MESSAGE
@@ -6189,7 +6190,6 @@ $woL)
 6CWorld
 6ConVar
 6D#5;
-6D#5k
 6F+U F
 6H92t%H
 6H92u
@@ -11897,7 +11897,7 @@ D9't,H
 D9(t'I
 D9(t1H
 D92tY1
-D95Q)
+D95!(
 D9W(~mL
 D9`0u
 D9c<t
@@ -11917,15 +11917,18 @@ D:gTt
 D;!t{Hc
 D;#}|E
 D;$%H
+D;%4b?
 D;%e|V
 D;'t{
 D;'t{Hc
 D;(t)
 D;*t>H
 D;,%H
+D;-O-
 D;.~3L
 D;.~9H
 D;:tPH
+D;=qs)
 D;G@t5H
 D;X,}
 D;`0|
@@ -13812,7 +13815,6 @@ H92tyHcR
 H9:tqHcR 
 H9:tx
 H9:tyHcR
-H9="w
 H9C t
 H9C(t
 H9J u
@@ -13851,9 +13853,8 @@ H;=%=`
 H;=)>
 H;=)eF
 H;=-d\
-H;=.=
-H;=.^
-H;=.q
+H;=.6
+H;=.j
 H;=13c
 H;=1_i
 H;=3vj
@@ -13862,15 +13863,15 @@ H;=9
 H;=9 >
 H;=98
 H;==*`
-H;=>;
-H;=>o
+H;=>4
+H;=>h
 H;=@KB
 H;=A$`
 H;=I.c
 H;=IVc
 H;=KeF
-H;=N9
-H;=Nm
+H;=N2
+H;=Nf
 H;=N}'
 H;=PPI
 H;=QH`
@@ -13881,9 +13882,10 @@ H;=Y?
 H;=Yl'
 H;=[ >
 H;=]h`
-H;=^7
+H;=^0
 H;=^S=
-H;=^k
+H;=^d
+H;=^p
 H;=`6A
 H;=`KF
 H;=c$e
@@ -13893,17 +13895,19 @@ H;=i9
 H;=i{c
 H;=m5\
 H;=mq\
-H;=n5
-H;=ni
+H;=n.
+H;=nb
+H;=nn
 H;=pKC
 H;=pSF
 H;=qUg
 H;=q_`
 H;=yQC
 H;={4=
-H;=~3
-H;=~g
+H;=~,
+H;=~`
 H;=~iJ
+H;=~l
 H;>t[H
 H;B0u
 H;C r
@@ -15645,6 +15649,7 @@ Maybe local angvel
 MbP?CAI_LookTarget
 Mc'E;g
 Mc,$D
+Mc,$E9l$
 Mc,$E;l$
 Mc,$H
 Mc,$L
@@ -18525,6 +18530,7 @@ SetParticleAlwaysSimulate
 SetParticleControl
 SetParticleControlEnt
 SetParticleControlForward
+SetParticleControlOffset
 SetParticleControlOrientation
 SetPickuH
 SetPlayersCanSpawnAnyItems
@@ -20234,13 +20240,13 @@ VsInputSignature_t
 Vulkan
 W ;2t$H
 W H9r
-W%'B9
+W%'Y8
+W%7B9
 W(Aq=
 W(H92t'H
 W3|Uxa
-W5  \
-W5| \
-W=d!\
+W50 \
+W=t!\
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -20431,12 +20437,12 @@ Wrong alignment %d
 Wzm6V"
 W{@3333
 X zR&="@r
-X%u6@
 X(9Y(
+X-V{D
 X2:jH
 X9t6@
 X=2v?
-X=SC[
+X=cC[
 X@TA;U<
 X@ffff
 XAxis
@@ -20466,14 +20472,11 @@ XfA9D]
 Xg8Hc
 XxHc@t
 Y ANb
-Y%!&"
-Y%a|e
+Y%q|e
 Y(;Y8
 Y(E9^(A
-Y-$5%
 Y/&4@4
 Y6	@W'g(
-Y=}s8
 Y?3333E
 Y?[A\]
 Y@CPropVRTrackedObject
@@ -20580,8 +20583,7 @@ Z}uU
 \$hIcEXI
 \$h[A\]
 \%03o
-\-i?9
-\-zf9
+\-y?9
 \U%08x
 \r@n|7'@^
 \softlinks\
@@ -20594,6 +20596,7 @@ Z}uU
 ]"^AR
 ]%h@sh
 ](t[H
+]5Q)e
 ]7@Kvl
 ]8[A\A]A^]
 ]H+G 
@@ -20606,6 +20609,7 @@ Z}uU
 ]hIcE`L
 ]u9n5;> )"
 ^ t+H
+^%TV\
 ^)8~@
 ^-wf"
 ^8D9+
@@ -22485,6 +22489,7 @@ fA;Gnv
 fA;\$6
 fA;\$n
 fA;_n
+fD9%T
 fD9/t0H
 fD91u|
 fD9cV
@@ -30655,7 +30660,7 @@ t&HcC
 t&Hcq
 t&[A\]
 t'<"t
-t'D;5.
+t'D;5
 t'HcC
 t'HcK
 t'HcM
@@ -30678,7 +30683,6 @@ t(H;p
 t(HcO
 t([A\A]A^]
 t([A\]
-t);="
 t)Lc+D;k
 t)fD9
 t* Hc
@@ -30707,7 +30711,7 @@ t+fA9
 t,H;p
 t,I9}
 t,L;e
-t,Lc%%
+t,Lc%
 t-Mc4$E;t$
 t-rex
 t.D9p
@@ -30765,7 +30769,7 @@ t?[A\]
 t@@:>u
 t@D;(};E
 t@Ic_
-t@Lc%Y
+t@Lc%)
 t@[A\A]A^]
 t@[A\]
 t@}?5^
@@ -31099,7 +31103,7 @@ uG[A\A]A^]
 uMLc#D;c
 uPMc4$fA
 uRMcl$
-uSD;-,
+uSD;-
 uT1C@
 uTIcU
 uUHcC
@@ -31636,8 +31640,9 @@ x8Lcc D;c0
 x8Mcl$ E;l$0
 x8udL
 x8uwH
-x:;=\
+x:;=,
 x:Hcw
+x;;=|
 xED;c }?E
 xGHcO
 xJA;E
@@ -31668,7 +31673,6 @@ xtw?g
 y("t_
 y?ffff
 y@x^*6
-yCNQP
 yE>CScriptNavBlocker
 yH"ts
 yaw "%i"
@@ -31917,7 +31921,7 @@ z|uzI
 }Hf;w
 }I;w$
 }J@:w
-}JD;-7
+}JD;-
 }KfD9
 }Lf;w
 }N;w$
@@ -31950,7 +31954,7 @@ z|uzI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=
+~)H9=cv
 ~)H;^
 ~*HcE
 ~*I;X

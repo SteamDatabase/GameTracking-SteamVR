@@ -1973,5 +1973,13 @@
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Settings_PauseOnStandby"	"Wstrzymaj renderowanie, gdy gogle są w stanie bezczynności"
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
+"MenuAction_RunMediaPlayer"	"Uruchom odtwarzacz multimedialny"
+"[english]MenuAction_RunMediaPlayer"	"Run Media Player"
+"Settings_LockedModeCheck"	"Tryb blokady"
+"[english]Settings_LockedModeCheck"	"Locked Mode"
+"Settings_LockedModeDesc"	"Pozwala na renderowanie do gogli podczas gdy stacja robocza jest zablokowana."
+"[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
+"Advanced_Bluetooth"	"Bluetooth"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

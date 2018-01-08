@@ -865,11 +865,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Käynnistä uudelleen"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows kehittäjätila vaaditaan"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows-kehittäjätila vaaditaan"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windowsin täytyy olla kehittäjätilassa, jotta Windows MR bridge -ajuria voidaan käyttää."
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows needs to be in developer mode to use the Windows MR bridge driver."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Aseta Windows kehittäjätilaan"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

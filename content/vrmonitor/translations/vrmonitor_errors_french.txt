@@ -865,11 +865,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Redémarrer"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Mode développeur Windows requis"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows doit être en mode développeur pour pouvoir utiliser le pilote du pont vers Windows MR."
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows needs to be in developer mode to use the Windows MR bridge driver."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Activer le mode développeur de Windows"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Une installation à jour de Windows 10 est requise"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Pour utiliser SteamVR avec Windows Mixed Reality, vous devez installer la dernière mise à jour de Windows."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Cliquez ici pour plus d'informations"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

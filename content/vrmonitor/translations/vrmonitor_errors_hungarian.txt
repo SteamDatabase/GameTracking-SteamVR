@@ -867,11 +867,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Újraindítás"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Fejlesztői mód szükséges"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"A Windowsnak Fejlesztői módban kell lennie a Windows MR hídillesztőjének használatához."
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows needs to be in developer mode to use the Windows MR bridge driver."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"A Windows Fejlesztői módba állítása"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Naprakész Windows 10 telepítés szükséges"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"A SteamVR Windows Mixed Realityvel való használatához telepítened kell a legújabb Windows frissítést."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Kattints ide további információkért"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

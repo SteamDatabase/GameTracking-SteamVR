@@ -853,9 +853,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Header"	"New Driver Installed"
 "Warning_DismissableWarning_NewDriverInstalled_Description"	"Чтобы использовать новый драйвер, вам потребуется перезапустить SteamVR."
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Необходим режим разработчика Windows"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Перейти в режим разработчика"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Необходима последняя версия Windows 10"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Для запуска SteamVR с Windows Mixed Reality необходимо установить последнюю версию Windows."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Получить подробную информацию"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

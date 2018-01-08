@@ -1891,6 +1891,8 @@
 "[english]MenuAction_Workshop_ViewWiki"	"SteamVR Environments Wiki"
 "Settings_EnableLinuxGPUProfiling"	"GPU 정보 수집 가능"
 "[english]Settings_EnableLinuxGPUProfiling"	"Enable GPU profiling"
+"BugReporter_ReportType"	"버그 유형:"
+"[english]BugReporter_ReportType"	"Report Type:"
 "BugReporter_ReportType_FeatureRequest"	"기능 요청"
 "[english]BugReporter_ReportType_FeatureRequest"	"Feature Request"
 "Settings_HomeAppCheck"	"SteamVR Home 베타"

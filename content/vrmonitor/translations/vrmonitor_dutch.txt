@@ -181,7 +181,7 @@
 "[english]MenuAction_About_vrmonitor"	"About SteamVR"
 "MenuAction_AboutQt"	"Over Qt"
 "[english]MenuAction_AboutQt"	"About Qt"
-"MenuAction_Help"	"Help"
+"MenuAction_Help"	"Hulp"
 "[english]MenuAction_Help"	"Help"
 "MenuAction_SteamVRWebsite"	"SteamVR-ondersteuning"
 "[english]MenuAction_SteamVRWebsite"	"SteamVR Support"

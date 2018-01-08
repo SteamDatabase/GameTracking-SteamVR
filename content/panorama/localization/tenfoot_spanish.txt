@@ -560,7 +560,7 @@
 "[english]MimeHandlersHeader"	"Default Programs"
 "VRSettingsMimeTypesTitle"	"Programas predeterminados"
 "[english]VRSettingsMimeTypesTitle"	"Default Programs"
-"VRSettingsMimeTypes_GameTheater"	"Iniciar juegos de escritorio en"
+"VRSettingsMimeTypes_GameTheater"	"Iniciar juegos de escritorio en:"
 "[english]VRSettingsMimeTypes_GameTheater"	"Launch Desktop Games in: "
 "VRSettingsPowerTitle"	"Administración de energía"
 "[english]VRSettingsPowerTitle"	"Power Management"

@@ -1,5 +1,5 @@
 {
-	"controller_type" : "generic",
+	"controller_type" : "knuckles",
     "action_binds": [
         {
             "action": "/actions/system/in/SystemButtonChord",
@@ -27,7 +27,7 @@
         },
         {
             "action": "/actions/lasermouse/in/LeftClick",
-            "source": "/user/hand/primary/input/trigger/click"
+            "source": "/filters/trigger_primary/click"
         },
         {
             "action": "/actions/lasermouse/in/Back",
@@ -39,7 +39,7 @@
         },
         {
             "action": "/actions/lasermouse/in/SwitchLaserHand",
-            "source": "/user/hand/secondary/input/trigger/click"
+            "source": "/filters/trigger_secondary/click"
         },
         {
             "action": "/actions/dualanalog/in/LeftValue",
@@ -75,45 +75,69 @@
         }
     ],
 
-	"filters" :[
-		{
-			"name" : "system_button",
-			"type" : "boolean_button_press_state",
-			"input" : "/devices/*/input/system/click",
-			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
-			"cancel_on_action_sets" : [ "/actions/chord" ],
-			"parameters" : 
-			{
-				"long_press_delay" : 1.5
-			},
-			"output" : 							 
-			{
-				"long" : "long",
-				"double" : "double",
-				"single" : "single",
-				"held" : "held"
-			}
-		},
-		{
-			"name" : "screenshot_chord",
-			"type" : "boolean_and",
-			"action_sets" : [ "/actions/chord" ],
-			"input" : 
-			{
-				"1":"/filters/system_button/held",
-				"2":"/user/hand/*/input/trigger/click"
-			},
-			"output" : "result"
-		},
-		{
-			"name" : "lasermouse_tip",
-			"type" : "pose_component",
-			"input" : "/user/hand/primary/pose",
-			"output" : "pose",
-			"parameters" : 
-			{
-				"component_name" : "tip"
-			}
-		}
-	]
+  "filters": [
+    {
+      "name": "trigger_primary",
+      "type": "boolean_threshold",
+      "input": "/user/hand/primary/input/trigger/value",
+      "parameters": {
+        "activate_threshold": 0.5
+      },
+      "output": "click"
+    },
+    {
+      "name": "trigger_secondary",
+      "type": "boolean_threshold",
+      "input": "/user/hand/secondary/input/trigger/value",
+      "parameters": {
+        "activate_threshold": 0.5
+      },
+      "output": "click"
+    },
+    {
+      "name": "system_button",
+      "type": "boolean_button_press_state",
+      "input": "/devices/*/input/system/click",
+      "action_sets": [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
+      "cancel_on_action_sets": [ "/actions/chord" ],
+      "parameters": {
+        "long_press_delay": 1.5
+      },
+      "output": {
+        "long": "long",
+        "double": "double",
+        "single": "single",
+        "held": "held"
+      }
+    },
+    {
+      "name": "screenshot_chord",
+      "type": "boolean_and",
+      "action_sets": [ "/actions/chord" ],
+      "input": {
+        "1": "/filters/system_button/held",
+        "2": "/filters/trigger_primary/click"
+      },
+      "output": "result"
+    },
+    {
+      "name": "screenshot_chord2",
+      "type": "boolean_and",
+      "action_sets": [ "/actions/chord" ],
+      "input": {
+        "1": "/filters/system_button/held",
+        "2": "/filters/trigger_secondary/click"
+      },
+      "output": "result"
+    },
+    {
+      "name": "lasermouse_tip",
+      "type": "pose_component",
+      "input": "/user/hand/primary/pose",
+      "output": "pose",
+      "parameters": {
+        "component_name": "tip"
+      }
+    }
+  ]
 }

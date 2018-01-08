@@ -632,6 +632,8 @@
 "[english]QuitApp"	"QUIT APP"
 "Customization_Disclaimer"	"如果启用了增强型 SteamVR 环境，使用应用内置菜单来自定义您的主控室空间。"
 "[english]Customization_Disclaimer"	"If Enhanced SteamVR Environments is enabled, use the in-app menu to customize your home space."
+"VRSettingsKnucklesTitle"	"Knuckles"
+"[english]VRSettingsKnucklesTitle"	"Knuckles"
 "VRSettingsKnuckles_CapsenseMode"	"电容式感应模式"
 "[english]VRSettingsKnuckles_CapsenseMode"	"Cap Sense Mode"
 "KnucklesCapsenseMode_0"	"手指跟踪（默认）"

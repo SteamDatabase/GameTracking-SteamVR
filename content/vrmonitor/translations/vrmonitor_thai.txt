@@ -1957,5 +1957,7 @@
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Settings_PauseOnStandby"	"หยุดการเรนเดอร์ชั่วคราวเมื่อเครื่องสวมศีรษะกำลังนิ่งเฉย"
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
+"MenuAction_RunMediaPlayer"	"เริ่มเปิดเครื่องเล่นมีเดีย"
+"[english]MenuAction_RunMediaPlayer"	"Run Media Player"
 }
 }

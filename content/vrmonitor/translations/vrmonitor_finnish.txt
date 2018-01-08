@@ -357,7 +357,7 @@
 "[english]SystemReport_EnvironmentVariables"	"Environment"
 "SystemReport_ConfigFiles"	"Asetustiedostot"
 "[english]SystemReport_ConfigFiles"	"Config Files"
-"SystemReport_Chaperone"	"Chaperone"
+"SystemReport_Chaperone"	"Chaperone-virtuaalieste"
 "[english]SystemReport_Chaperone"	"Chaperone"
 "SystemReport_LogFiles"	"Lokitiedostot"
 "[english]SystemReport_LogFiles"	"Log Files"
@@ -437,7 +437,7 @@
 "[english]Advanced_Title"	"Advanced"
 "Advanced_Devices"	"Laitteet"
 "[english]Advanced_Devices"	"Devices"
-"Advanced_RoomOverview"	"Chaperone"
+"Advanced_RoomOverview"	"Chaperone-virtuaalieste"
 "[english]Advanced_RoomOverview"	"Chaperone"
 "Advanced_Compositor"	"Visiirissä"
 "[english]Advanced_Compositor"	"In-Headset"
@@ -1957,5 +1957,7 @@
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Settings_PauseOnStandby"	"Keskeytä renderöinti, kun virtuaalitodellisuuslasit eivät ole käytössä."
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
+"MenuAction_RunMediaPlayer"	"Käynnistä Media Player"
+"[english]MenuAction_RunMediaPlayer"	"Run Media Player"
 }
 }

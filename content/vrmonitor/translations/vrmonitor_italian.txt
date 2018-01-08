@@ -1957,5 +1957,7 @@
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Settings_PauseOnStandby"	"Sospendi il rendering mentre il visore è inattivo"
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
+"Advanced_Bluetooth"	"Bluetooth"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

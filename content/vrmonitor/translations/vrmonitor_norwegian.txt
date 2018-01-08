@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"norwegian"
 "Tokens"
@@ -268,6 +268,8 @@
 "[english]FirmwareWizard_UpdateBasestation_Start_UpperText"	""
 "PerfTestResults_VRReady"	"VR anbefalt"
 "[english]PerfTestResults_VRReady"	"VR Recommended"
+"FirmwareWizard_Information_Title"	"Fastvare-oppdatering"
+"[english]FirmwareWizard_Information_Title"	"Firmware Update"
 "FirmwareWizard_UpdateHeadset_Start_UpperText"	"­"
 "[english]FirmwareWizard_UpdateHeadset_Start_UpperText"	""
 "FirmwareWizard_UpdateHeadset_Progress_UpperText"	"­"

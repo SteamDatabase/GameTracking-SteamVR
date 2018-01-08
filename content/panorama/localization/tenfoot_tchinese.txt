@@ -612,7 +612,7 @@
 "[english]BackgroundImageReload_CameraHeight"	"Camera Height"
 "NightModeCheck"	"夜間模式"
 "[english]NightModeCheck"	"Night Mode"
-"NightModeDesc"	"夜間模式會讓頭戴顯示器變暗至 5:00 AM（或直到重啟 SteamVR）。"
+"NightModeDesc"	"夜間模式會調低螢幕亮度到凌晨5:00止（或重啟 SteamVR）。"
 "[english]NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Transition_Progress_Description"	"等待中…"
 "[english]Transition_Progress_Description"	"WAITING FOR..."

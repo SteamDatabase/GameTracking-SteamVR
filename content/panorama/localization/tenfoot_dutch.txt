@@ -612,7 +612,7 @@
 "[english]BackgroundImageReload_CameraHeight"	"Camera Height"
 "NightModeCheck"	"Nachtmodus"
 "[english]NightModeCheck"	"Night Mode"
-"NightModeDesc"	"Nachtmodus dimt de headset tot 5:00 AM (of tot SteamVR herstart wordt)."
+"NightModeDesc"	"Nachtmodus dimt de headset tot 05:00 (of tot SteamVR wordt herstart)."
 "[english]NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Transition_Progress_Description"	"WACHTEN OP..."
 "[english]Transition_Progress_Description"	"WAITING FOR..."

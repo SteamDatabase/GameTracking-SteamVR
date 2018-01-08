@@ -1379,15 +1379,14 @@ $~gHc
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(-{P[
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (1@zD
-(5	/&
-(5Q*Y
+(5	;&
+(5A)Y
 (8HXhx
 (9s ~@H
-(=Fm&
+(=6l&
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1457,6 +1456,7 @@ $~gHc
 (d$0I
 (int iIndex, int iPoint, Vector vecForward ) - Set the forward direction for a control on a particle effect
 (int iIndex, int iPoint, Vector vecForward, Vector vecRight, Vector vecUp) - Set the orientation for a control on a particle effect
+(int iIndex, int iPoint, Vector vecOffset ) - Set the linear offset for a control on a particle effect
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (knNFound max edge length %g. Skipping SplitLongEdges, as that'll take too long to split.
 (memory)
@@ -1874,15 +1874,12 @@ $~gHc
 -walk
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+.%%wZ
 .%0*llu
-.%2PZ
-.%:1[
 .(Optional) Set of tags for the published file.
-.-*[5
-.-3>A
-.-Y#\
-.-]^}
-.-la}
+.-#=A
+.-0@g
+.-:[5
 ../../_generated_code/client_steamtours/release/linuxsteamrt64/../../../../game/shared/world.cpp
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1919,8 +1916,7 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.5d6o
-.=\?g
+.5t3o
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -8862,7 +8858,7 @@ C8}~1
 C9,h5
 C<D;e
 C<[A\A]A^]
-C@D;%#z
+C@D;%3~
 C@D;k8D
 C@H;CHs
 C@Ll>
@@ -11320,14 +11316,14 @@ D9 ~zH
 D9!t"
 D9!u"
 D9#~8H
+D9%I7
 D9't,H
 D9(t'I
 D9(t1H
 D9+~[L
 D90t[A
 D9;~dL
-D9=	3
-D9=Y1
+D9=i5
 D9D$4B
 D9D$4H
 D9F<~
@@ -11371,17 +11367,19 @@ D:z	t
 D:z	tUHc
 D; t=H
 D;!t{Hc
+D;%/g
 D;%B'.
-D;%RL
+D;%bP
 D;'t{
 D;'t{Hc
 D;*t>H
 D;+};H
 D;-<T.
 D;-=S.
+D;-\}
 D;.~3L
 D;.~9H
-D;5UC
+D;5eG
 D;:tPH
 D;X,}
 D;`L|
@@ -13442,127 +13440,123 @@ H;0tHH
 H;0u%
 H;1t!
 H;2u$
+H;5#p
 H;8tU
 H;8t]
 H;:t(f
 H;=	&)
-H;=	'
 H;=	.
-H;=	1
-H;=	@
-H;=	D
-H;=	W
-H;=	c
+H;=	0
+H;=	C
+H;=	J
+H;=	V
+H;=	_
 H;=	tI
+H;= (
 H;= y5
+H;="T
 H;=%|1
-H;='R
 H;=(K&
+H;=(~
 H;=)"
-H;=)6
-H;=)8
-H;=)G
-H;=)K
-H;=)W
-H;=)\
+H;=)7
+H;=)>
+H;=)J
+H;=)Q
+H;=)Y
 H;=)m#
 H;=+&)
 H;=.W
-H;=.g
-H;=.w
 H;=.x
-H;=/M
-H;=0"
+H;=.}
 H;=0&5
-H;=0'
 H;=0>*
 H;=0T
 H;=0i5
-H;=0z
 H;=2F7
 H;=2u)
-H;=9(
+H;=7V
 H;=9/
-H;=92
+H;=91
+H;=9:
 H;=9?;
-H;=9A
-H;=9E
+H;=9D
+H;=9K
 H;=9QI
-H;=9X
+H;=9W
+H;=9`
 H;=>U
-H;=>u
+H;=>k
 H;=>v
-H;=>z
+H;=>{
+H;=?Q
+H;=@&
+H;=@+
+H;=@~
 H;=Bv#
 H;=C!7
-H;=GM
 H;=HE)
 H;=I)
-H;=I,
-H;=I;
-H;=I?
-H;=IN
-H;=IR
-H;=I^
+H;=I+
+H;=I>
+H;=IE
+H;=IQ
+H;=I`
 H;=If
 H;=I}
 H;=JK&
 H;=Km#
 H;=M&D
 H;=NS
-H;=Ns
-H;=Nt
-H;=Nx
-H;=P 
-H;=P%
+H;=Ny
 H;=P45
 H;=P@5
 H;=SG 
 H;=SSJ
+H;=WQ
 H;=XF7
 H;=Xu)
 H;=Y#
-H;=Y9
-H;=YH
-H;=YL
-H;=YX
-H;=Y]
+H;=Y8
+H;=Y?
+H;=YK
+H;=YR
+H;=YZ
 H;=^Q
-H;=^r
-H;=^v
+H;=^w
+H;=`$
+H;=`)
 H;=`:3
 H;=`R.
-H;=gU
+H;=gV
+H;=gW
 H;=hv#
 H;=i!#
-H;=i)
-H;=i3
-H;=iB
-H;=iF
-H;=iY
+H;=i2
+H;=iE
+H;=iL
+H;=iX
+H;=ia
 H;=jE)
 H;=m_ 
+H;=n"
 H;=nO
-H;=np
-H;=p#
+H;=n}
 H;=pN
-H;=r{
 H;=s7"
 H;=sx"
 H;=y*
-H;=y-
-H;=y<
-H;=y@
-H;=yO
-H;=yS
-H;=y_
+H;=y,
+H;=y?
+H;=yF
+H;=yR
+H;=ya
 H;=yg
 H;=yy5
 H;=zu)
-H;=~2
 H;=~F7
 H;=~M
-H;=~n
+H;=~{
 H;>t[H
 H;C I
 H;C r
@@ -13681,8 +13675,8 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5*!
 Hc5ZES
+Hc5ea
 Hc8Hi
 Hc@ H
 Hc@$H
@@ -14796,8 +14790,9 @@ Lc!D;a
 Lc"D;b
 Lc#D;c
 Lc#E9
-Lc%)z
 Lc%9'.
+Lc%9~
+Lc%Ig
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -14810,7 +14805,7 @@ Lc/E1
 Lc1D;q
 Lc3D;s
 Lc3E9
-Lc5LC
+Lc5\G
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -16605,7 +16600,7 @@ PersonaName
 PersonaNameReplacementToken
 PersonalBubbleSlider
 PhA9]P~+L
-PhHc5
+PhHc5I
 Ph[A\]
 Phags_Pa
 Phoenician
@@ -17867,6 +17862,7 @@ SetParticleAlwaysSimulate
 SetParticleControl
 SetParticleControlEnt
 SetParticleControlForward
+SetParticleControlOffset
 SetParticleControlOrientation
 SetPlaybackVolume
 SetPlayerForBillboardUI
@@ -18425,14 +18421,14 @@ T$hA)
 T$lHc
 T$pH9
 T$pL)
-T%.U/
-T%AS/
-T%EU/
-T%SQ/
-T-;Q/
+T%>U/
+T%QS/
+T%UU/
+T%cQ/
+T-KQ/
 T.$Hc
 T0@GZ
-T5-S/
+T5=S/
 T5i@H
 T82fE
 T@MResourceBlockType
@@ -19427,17 +19423,16 @@ Vulkan
 W H9r
 W HcE
 W HcG
-W%"T4
+W%2T4
 W%:O&t
-W%Tq-
-W%`h-
+W%dq-
+W%ph-
 W(Aq=
 W(H92t'H
 W,:V,u
 W0Hc_8A
 W0t	H
 W3|Uxa
-W5tV4
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -19631,11 +19626,11 @@ Wzm6V"
 W{@3333
 X zR&="@r
 X$HcH 
-X%exj
-X%q9v
+X%#Ha
+X%Q5v
 X(9Y(
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-&$u
+X-;cf
 X0~tA
 X2:jH
 X360_DST16
@@ -19659,20 +19654,18 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Y ANb
-Y%&E8
-Y%&G8
-Y%88M
-Y%hzP
-Y%~fZ
+Y%H8M
+Y%T `
+Y%xzP
 Y(;Y8
 Y(E9^(A
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-k8M
+Y-3cc
+Y-{8M
 Y/&4@4
-Y5#n=
-Y5Ho=
+Y5<r`
 Y6	@W'g(
-Y=6{j
+Y=vxj
 Y?3333E
 YD$$L
 YGDUH
@@ -19802,7 +19795,8 @@ Z}uU
 \$hIcEXI
 \$xA;
 \%03o
-\%t3q
+\%2M`
+\%mHa
 \C not allowed in lookbehind assertion
 \I8r!H
 \N is not supported in a class
@@ -26729,7 +26723,6 @@ o$ATI
 o(ATI
 o*Ral
 o,ATI
-o-}	g
 o0ATI
 o8ATL
 o8ATM
@@ -28578,7 +28571,7 @@ t$<H)
 t$@A\]
 t$@tsHc
 t$D9j
-t$D;-
+t$D;-cO
 t$H9:H
 t$H9h
 t$HcK
@@ -28612,13 +28605,14 @@ t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
 t&@8>t+H
-t&D;%5
+t&D;%
 t&D;=
+t&D;=u
 t&Hc]
 t&Hcq
 t'<"t
-t'D;%
-t'D;5.
+t'D;%v
+t'D;5>
 t'Hc{
 t'Hc{ H
 t'Hc{$H
@@ -28644,14 +28638,14 @@ t(Ic},H
 t(Ic}@H
 t(Ic~0H
 t([A\A]A^]
-t);5R
-t);="
+t);52
+t);=2
 t)Lc+D;k
 t* Hc
 t*(Hc
 t*<*u
 t*<-H
-t*D;-
+t*D;-I
 t*HcC
 t*HcE
 t*HcKH
@@ -28662,7 +28656,7 @@ t*LcC
 t*fA9
 t+<\u
 t+D9s
-t+D;-
+t+D;-jJ
 t+Hc4
 t+HcO
 t+Hcsp
@@ -28736,7 +28730,7 @@ t?Mcv
 t?[A\]
 t@@:>u
 t@Ic_
-t@Lc%IL
+t@Lc%YP
 t@[A\A]A^]
 t@}?5^
 tALcc

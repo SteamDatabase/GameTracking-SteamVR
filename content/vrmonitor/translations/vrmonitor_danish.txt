@@ -1881,6 +1881,8 @@
 "[english]Explanation_Supersampling"	"Supersampling will cause all VR applications to render at higher or lower resolution than the native resolution of the attached headset (1.0 is the default). NOTE: Some applications may not correctly respond to a change while running and may need to be restarted."
 "MenuAction_Workshop_RunTools"	"Skab/rediger et miljø"
 "[english]MenuAction_Workshop_RunTools"	"Create/Modify an Environment"
+"MenuAction_Workshop_ViewWiki"	"SteamVR-mijøer - Wiki"
+"[english]MenuAction_Workshop_ViewWiki"	"SteamVR Environments Wiki"
 "Settings_EnableLinuxGPUProfiling"	"Slå GPU-profilering til"
 "[english]Settings_EnableLinuxGPUProfiling"	"Enable GPU profiling"
 "Settings_Advanced_AllowSupersampleFiltering"	"Slå avanceret supersamplingsfiltrering til"
@@ -1949,5 +1951,11 @@
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Settings_PauseOnStandby"	"Sæt rendering på pause mens headsettet er passivt"
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
+"Settings_LockedModeCheck"	"Låst tilstand"
+"[english]Settings_LockedModeCheck"	"Locked Mode"
+"Settings_LockedModeDesc"	"Tillad rendering til headset mens arbejdsstation er låst."
+"[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
+"Advanced_Bluetooth"	"Bluetooth"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

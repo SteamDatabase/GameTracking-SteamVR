@@ -868,10 +868,10 @@
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Перезапустити"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Потрібний режим розробника Windows"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows Developer Mode Required"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows необхідно бути у режимі розробника, щоби використовувати драйвер шолома змішаної реальності «Bridge»."
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows needs to be in developer mode to use the Windows MR bridge driver."
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Встановити Windows у режим розробника"
-"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Set Windows to Developer Mode"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

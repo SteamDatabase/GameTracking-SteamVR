@@ -1953,5 +1953,7 @@
 "[english]Settings_NightModeCheck"	"Night Mode"
 "Settings_NightModeDesc"	"Η λειτουργία νυκτός χαμηλώνει τη φωτεινότητα του headset μέχρι τις 5:00 π.μ. (ή μέχρι να γίνει επανεκκίνηση του SteamVR)."
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"MenuAction_RunMediaPlayer"	"Πρόγραμμα αναπαραγωγής πολυμέσων"
+"[english]MenuAction_RunMediaPlayer"	"Run Media Player"
 }
 }

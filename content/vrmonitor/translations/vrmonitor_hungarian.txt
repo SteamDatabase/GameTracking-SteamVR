@@ -1974,5 +1974,13 @@
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Settings_PauseOnStandby"	"Képalkotás felfüggesztése, amikor a fejszett tétlen"
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
+"MenuAction_RunMediaPlayer"	"Médialejátszó futtatása"
+"[english]MenuAction_RunMediaPlayer"	"Run Media Player"
+"Settings_LockedModeCheck"	"Zárolt mód"
+"[english]Settings_LockedModeCheck"	"Locked Mode"
+"Settings_LockedModeDesc"	"Engedélyezi a fejszettre renderelést, miközben a munkaállomás zárolva van."
+"[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
+"Advanced_Bluetooth"	"Bluetooth"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

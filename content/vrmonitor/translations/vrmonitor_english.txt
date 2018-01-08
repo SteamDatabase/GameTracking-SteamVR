@@ -291,6 +291,8 @@
 "Settings_HomeAppDesc" "The new SteamVR Home experience supports richer home spaces, social features, and more. This feature is currently in Beta, please provide feedback on the forums."
 "Settings_NightModeCheck" "Night Mode"
 "Settings_NightModeDesc" "Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
+"Settings_LockedModeCheck" "Locked Mode"
+"Settings_LockedModeDesc" "Allow rendering to headset while workstation is locked."
 "Settings_Dashboard_Explanation" "These applications will be accessible as overlays in the Dashboard."
 "Settings_PowerOffBaseStations_Text" "Put Base Station in Standby mode when VR is not in use"
 "Settings_PowerOffBaseStations_Info" "Bluetooth Link must be installed to enable this feature."
@@ -470,6 +472,7 @@
 "Advanced_Reset" "Reset"
 "Advanced_Performance" "Performance"
 "Advanced_Camera" "Camera"
+"Advanced_Bluetooth" "Bluetooth"
 "Advanced_USB" "USB"
 
 "Advanced_HMD" "Headset"

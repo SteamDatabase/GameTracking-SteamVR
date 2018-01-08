@@ -3253,7 +3253,7 @@ scripts/vscripts/tools/cache_crate.lua CRC:00fe5c83f8 size:27657
 scripts/vscripts/tools/cache_finder_tool.lua CRC:00731b6cfc size:32540
 scripts/vscripts/tools/drone.lua CRC:003d62e1a1 size:26341
 scripts/vscripts/tools/drone_prop.lua CRC:002e46e4a2 size:1032
-scripts/vscripts/tools/freeze_tool.lua CRC:00dd63fa80 size:25432
+scripts/vscripts/tools/freeze_tool.lua CRC:00e13f2c80 size:25693
 scripts/vscripts/tools/generic_tool_hold.lua CRC:002b398c6a size:1343
 soundevents/destinations_third_party.vsndevts_c CRC:0091fc61e5 size:4990
 soundevents/soundevents_core.vsndevts_c CRC:0070db5a56 size:584

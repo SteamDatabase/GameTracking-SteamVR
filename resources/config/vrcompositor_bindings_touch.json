@@ -1,5 +1,5 @@
 {
-	"controller_type" : "generic",
+	"controller_type" : "oculus_touch",
     "action_binds": [
         {
             "action": "/actions/system/in/SystemButtonChord",
@@ -27,7 +27,7 @@
         },
         {
             "action": "/actions/lasermouse/in/LeftClick",
-            "source": "/user/hand/primary/input/trigger/click"
+            "source": "/filters/primary_trigger_lasermouse/result"
         },
         {
             "action": "/actions/lasermouse/in/Back",
@@ -39,31 +39,31 @@
         },
         {
             "action": "/actions/lasermouse/in/SwitchLaserHand",
-            "source": "/user/hand/secondary/input/trigger/click"
+            "source": "/filters/secondary_trigger_lasermouse/result"
         },
         {
             "action": "/actions/dualanalog/in/LeftValue",
-            "source": [ "/user/hand/left/input/trackpad/x", "/user/hand/left/input/trackpad/y" ]
+            "source": [ "/user/hand/left/input/joystick/x", "/user/hand/left/input/joystick/y" ]
         },
         {
             "action": "/actions/dualanalog/in/RightValue",
-            "source": [ "/user/hand/right/input/trackpad/x", "/user/hand/right/input/trackpad/y" ]
+            "source": [ "/user/hand/right/input/joystick/x", "/user/hand/right/input/joystick/y" ]
         },
         {
             "action": "/actions/dualanalog/in/LeftTouch",
-            "source": "/user/hand/left/input/trackpad/touch"
+            "source": "/user/hand/left/input/joystick/touch"
         },
         {
             "action": "/actions/dualanalog/in/RightTouch",
-            "source": "/user/hand/right/input/trackpad/touch"
+            "source": "/user/hand/right/input/joystick/touch"
         },
         {
             "action": "/actions/dualanalog/in/LeftClick",
-            "source": "/user/hand/left/input/trackpad/click"
+            "source": "/user/hand/left/input/joystick/click"
         },
         {
             "action": "/actions/dualanalog/in/RightClick",
-            "source": "/user/hand/right/input/trackpad/click"
+            "source": "/user/hand/right/input/joystick/click"
         },
         {
             "action": "/actions/dualanalog/in/ModeSwitch1",
@@ -95,13 +95,34 @@
 			}
 		},
 		{
+			"name" : "any_trigger_chord",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/chord" ],
+			"input" : "/user/hand/*/input/trigger/value",
+			"output" : "result"
+		},
+		{
+			"name" : "primary_trigger_lasermouse",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse" ],
+			"input" : "/user/hand/primary/input/trigger/value",
+			"output" : "result"
+		},
+		{
+			"name" : "secondary_trigger_lasermouse",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse" ],
+			"input" : "/user/hand/secondary/input/trigger/value",
+			"output" : "result"
+		},
+		{
 			"name" : "screenshot_chord",
 			"type" : "boolean_and",
 			"action_sets" : [ "/actions/chord" ],
 			"input" : 
 			{
 				"1":"/filters/system_button/held",
-				"2":"/user/hand/*/input/trigger/click"
+				"2":"/filters/any_trigger_chord/result"
 			},
 			"output" : "result"
 		},

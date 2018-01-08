@@ -1,112 +1,120 @@
 {
     "actions" : [
         {
-            "name" : "/actions/system/ToggleDashboard",
+            "name" : "/actions/system/in/ToggleDashboard",
             "type" : "boolean",
 			"scope" : "global"
         },
         {
-            "name" : "/actions/system/TakeScreenshot",
+            "name" : "/actions/system/in/TakeScreenshot",
             "type" : "boolean",
 			"scope" : "global"
         },
         {
-            "name" : "/actions/system/ShowPowerMenu",
+            "name" : "/actions/system/in/ShowPowerMenu",
             "type" : "boolean",
 			"scope" : "global"
         },
         {
-            "name" : "/actions/system/SystemButtonChord",
+            "name" : "/actions/system/in/SystemButtonChord",
             "type" : "boolean",
 			"scope" : "global"
         },
         {
-            "name" : "/actions/system/ToggleRoomView",
+            "name" : "/actions/system/in/ToggleRoomView",
             "type" : "boolean",
 			"scope" : "global"
         },
         {
-            "name" : "/actions/lasermouse/SwitchLaserHand",
+            "name" : "/actions/lasermouse/in/SwitchLaserHand",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/lasermouse/Pointer",
+            "name" : "/actions/lasermouse/in/Pointer",
             "type" : "pose"
         },
         {
-            "name" : "/actions/lasermouse/LeftClick",
+            "name" : "/actions/lasermouse/in/LeftClick",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/lasermouse/RightClick",
+            "name" : "/actions/lasermouse/in/RightClick",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/lasermouse/Home",
+            "name" : "/actions/lasermouse/in/Home",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/lasermouse/Back",
+            "name" : "/actions/lasermouse/in/Back",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/lasermouse/MoveRight",
+            "name" : "/actions/lasermouse/in/MoveRight",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/lasermouse/MoveUp",
+            "name" : "/actions/lasermouse/in/MoveUp",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/lasermouse/MoveLeft",
+            "name" : "/actions/lasermouse/in/MoveLeft",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/lasermouse/MoveDown",
+            "name" : "/actions/lasermouse/in/MoveDown",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/lasermouse/Enter",
+            "name" : "/actions/lasermouse/in/TrackpadTouch",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/dualanalog/LeftValue",
+            "name" : "/actions/lasermouse/in/TrackpadValue",
             "type" : "vector2"
         },
         {
-            "name" : "/actions/dualanalog/RightValue",
+            "name" : "/actions/lasermouse/in/Enter",
+            "type" : "boolean"
+        },
+        {
+            "name" : "/actions/dualanalog/in/LeftValue",
             "type" : "vector2"
         },
         {
-            "name" : "/actions/dualanalog/LeftTouch",
+            "name" : "/actions/dualanalog/in/RightValue",
+            "type" : "vector2"
+        },
+        {
+            "name" : "/actions/dualanalog/in/LeftTouch",
             "type": "boolean",
             "scope" :  "application"
         },
         {
-            "name" : "/actions/dualanalog/RightTouch",
+            "name" : "/actions/dualanalog/in/RightTouch",
             "type" : "boolean",
             "scope" :  "application"
         },
         {
-            "name" : "/actions/dualanalog/LeftClick",
+            "name" : "/actions/dualanalog/in/LeftClick",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/dualanalog/RightClick",
+            "name" : "/actions/dualanalog/in/RightClick",
             "type" : "boolean"
         },
         {
-            "name" : "/actions/dualanalog/ModeSwitch1",
+            "name" : "/actions/dualanalog/in/ModeSwitch1",
             "type" : "boolean",
             "scope" : "application"
         },
         {
-            "name" : "/actions/dualanalog/ModeSwitch2",
+            "name" : "/actions/dualanalog/in/ModeSwitch2",
             "type" : "boolean",
             "scope" : "application"
         },
         {
-            "name" : "/actions/dualanalog/Cancel",
+            "name" : "/actions/dualanalog/in/Cancel",
             "type" : "boolean"
         }
     ],
@@ -115,20 +123,20 @@
         {
             "language_tag": "en",
 
-            "/actions/system/ToggleDashboard" : "Toggle Dashboard",
-            "/actions/system/TakeScreenshot" : "Take Screenshot",
-            "/actions/system/ToggleRoomView" : "Toggle Room View",
-            "/actions/system/SystemButtonChord" : "System Button",
-            "/actions/system/ShowPowerMenu" : "Show Power Menu",
+            "/actions/system/in/ToggleDashboard" : "Toggle Dashboard",
+            "/actions/system/in/TakeScreenshot" : "Take Screenshot",
+            "/actions/system/in/ToggleRoomView" : "Toggle Room View",
+            "/actions/system/in/SystemButtonChord" : "System Button",
+            "/actions/system/in/ShowPowerMenu" : "Show Power Menu",
 
-            "/actions/lasermouse/LeftClick" : "Left Click",
-            "/actions/lasermouse/RightClick" : "Right Click",
-            "/actions/lasermouse/Home" : "Home",
-            "/actions/lasermouse/Back" : "Back",
-            "/actions/lasermouse/MoveRight" : "Move Right",
-            "/actions/lasermouse/MoveUp" : "Move Up",
-            "/actions/lasermouse/MoveLeft" : "Move Left",
-            "/actions/lasermouse/MoveDown" : "Move Down",
+            "/actions/lasermouse/in/LeftClick" : "Left Click",
+            "/actions/lasermouse/in/RightClick" : "Right Click",
+            "/actions/lasermouse/in/Home" : "Home",
+            "/actions/lasermouse/in/Back" : "Back",
+            "/actions/lasermouse/in/MoveRight" : "Move Right",
+            "/actions/lasermouse/in/MoveUp" : "Move Up",
+            "/actions/lasermouse/in/MoveLeft" : "Move Left",
+            "/actions/lasermouse/in/MoveDown" : "Move Down",
 
 			"/actions/normal" : "Normal operation",
 			"/actions/chord" : "System Button Chords",
