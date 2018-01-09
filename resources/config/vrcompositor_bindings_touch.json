@@ -31,11 +31,11 @@
         },
         {
             "action": "/actions/lasermouse/in/Back",
-            "source": "/user/hand/primary/input/grip/click"
+            "source": "/filters/primary_grip_lasermouse/result"
         },
         {
             "action": "/actions/lasermouse/in/Home",
-            "source": "/user/hand/primary/input/application_menu/click"
+            "source": "/user/hand/primary/input/a/click"
         },
         {
             "action": "/actions/lasermouse/in/SwitchLaserHand",
@@ -113,6 +113,13 @@
 			"type" : "boolean_threshold",
 			"action_sets" : [ "/actions/lasermouse" ],
 			"input" : "/user/hand/secondary/input/trigger/value",
+			"output" : "result"
+		},
+		{
+			"name" : "primary_grip_lasermouse",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse" ],
+			"input" : "/user/hand/primary/input/grip/value",
 			"output" : "result"
 		},
 		{
