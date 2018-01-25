@@ -442,8 +442,7 @@ SteamToursContentBrowser.Visible
 	background-color: background_center_gradient;
 }
 
-.Dashboard .ContentBrowserButton, 
-#QuestsTabButton
+.Dashboard .ContentBrowserButton
 {
 	horizontal-align: left;
 	flow-children: down;
@@ -455,7 +454,7 @@ SteamToursContentBrowser.Visible
 	background-color: background_center_gradient;
 }
 
-.Dashboard .ContentBrowserButton:hover 
+.Dashboard .ContentBrowserButton:hover
 {
 	background-color: background_center_gradient_hover;
 	pre-transform-scale2d: 1;
@@ -771,6 +770,7 @@ SteamToursContentBrowser.Visible
 	width: 410px;
 	height: 100px;
 	border-radius: 5px;
+	border: 2px solid #ffffff20;
 	horizontal-align: left;
 	flow-children: right;
 }
@@ -785,6 +785,7 @@ SteamToursContentBrowser.Visible
 	width: 410px;
 	height: 100px;
 	border-radius: 5px;
+	border: 2px solid #ffffff20;
 	opacity: .5;
 	//border: 2px solid green;
 	flow-children: right;
@@ -799,7 +800,7 @@ SteamToursContentBrowser.Visible
 #IsHomeButton:hover
 {
 	background-color: button_gradient;
-	border: 2px solid #ffffff20;
+	//border: 2px solid #ffffff20;
 }
 
 .IsHome #IsHomeButton

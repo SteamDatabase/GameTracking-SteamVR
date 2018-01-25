@@ -2541,6 +2541,17 @@
 			default_color = [ 255,255,255 ]
 		},
 		{
+			id = "botu_alwyn_figurine"
+			name = "#VR_PhysicsProp_BOTUAlwynFigurine"
+			desc = "#VR_PhysicsProp_BOTUAlwynFigurine_Desc"
+			content = "models/third_party/props/toys/botu_alwyn_figurine.vmdl"
+			preview_image = "file://{images}/contentdb/botu_alwyn_figurine.png"
+			inventory_service_promo_rules = "played:490490/120" // must have played for 2 hours - Blasters of the Universe
+			inventory_service_promo_appid = 490490
+			inventory_service_id = 1091
+			default_color = [ 255,255,255 ]
+		},
+		{
 			id = "test_complex_item"
 			name = "COMPLEX ITEM"
 			desc = "This item is complex!!"

@@ -272,6 +272,9 @@
 		"VR_PhysicsProp_HTCSnowmanTwigB_Desc"		"Another twig, for making arms, legs and other snowman limbs.\n\nFrom the 'Driftwood' Environment by Vive Creative Labs."
 		"VR_PhysicsProp_HTCSnowmanTwigC"			"Driftwood: Twig C"
 		"VR_PhysicsProp_HTCSnowmanTwigC_Desc"		"Yet another twig, for making arms, legs and other snowman limbs.\n\nFrom the 'Driftwood' Environment by Vive Creative Labs."
+		
+		"VR_PhysicsProp_BOTUAlwynFigurine"			"Grand Master Alwyn"
+		"VR_PhysicsProp_BOTUAlwynFigurine_Desc"		"Once an under average teen arcade master, Alwyn Fitzpatrick transported himself into VR in the 80s only to become trapped. Having nothing but time and infinite possibilities at his fingertips he turned himself in to Grand Master Alwyn Virtual Space Lord, ruler of all VR worlds.\n\nUnlocked by playing Blasters of the Universe."
 
 	
 		// furniture

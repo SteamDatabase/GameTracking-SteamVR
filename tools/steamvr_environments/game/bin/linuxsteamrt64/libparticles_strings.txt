@@ -118,7 +118,7 @@ $woL)
 'Number of rows in grid
 (*%s*), 
 (4$t%
-(5sg1
+(5Sg1
 (9s ~@H
 (@ Mc
 (A9] 
@@ -221,7 +221,6 @@ $woL)
 .125 .125 .125
 .25 .25 .25
 .5 .5 .5
-.5"M-
 .D$DsjL
 .G0v:
 .G4v%
@@ -1813,6 +1812,7 @@ A+\$$Hc
 A+]$Hc
 A+t$$Hc
 A+u$Hc
+A-W#!n
 A0fD+ E
 A9?t>H
 A9D$X
@@ -2685,7 +2685,7 @@ D;!t{Hc
 D;'t{Hc
 D;-v9Z
 D;.~9H
-D;5TZE
+D;5dZE
 D;a(D
 D;c D
 D;ch}
@@ -3290,7 +3290,7 @@ Lc/E)
 Lc/E1
 Lc1D;q
 Lc3D;s
-Lc5KZE
+Lc5[ZE
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -4365,7 +4365,7 @@ T$XD)
 T$XD9
 T$`t,
 T$fD9
-T-|7.
+T-\7.
 TINT_RGB
 TRAIL_LENGTH
 TS Hc
@@ -4705,6 +4705,7 @@ Wrong alignment %d
 X axis scaling Scalar field
 X axis scaling scalar field
 X offset of center point
+X-{H.
 X2:jH
 XG8fH
 XGhfH
@@ -4719,6 +4720,7 @@ Xxt!H
 Y axis scaling Scalar field
 Y axis scaling scalar field
 Y offset of center point
+Y5e 0
 Y@dHc
 YD$$L
 YD$`D

@@ -94,7 +94,6 @@ $[A\]
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
-.M;0u
 .M;UU
 .W4{Jf.
 .comment
@@ -957,7 +956,7 @@ D24FS8
 D24X4S4
 D24X8
 D24X8_SHADOW
-D9=9"*
+D9=I"*
 D9{ u
 D;!t{Hc
 D;'t{Hc
@@ -1362,6 +1361,7 @@ Line %d: Invalid literal value "%s"
 Line %d: Invalid value "%s"
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
+LockDynamicConstantBuffer failed in SetupGradientFogForView!!!
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
@@ -1706,6 +1706,7 @@ ScreenSpaceReflectionsRenderer
 SequenceMarkup
 SequenceMarkupList
 ServerUploadGameStats001
+SetupGradientFogForView
 ShadowVisLayer
 Sht7Lc{pD;
 SkeletonBoneBbox_t

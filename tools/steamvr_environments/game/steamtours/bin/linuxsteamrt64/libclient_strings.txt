@@ -1382,11 +1382,14 @@ $~gHc
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (1@zD
-(5	;&
-(5A)Y
+(5)/&
+(59<&
+(5q*Y
 (8HXhx
 (9s ~@H
-(=6l&
+(= /&
+(=0<&
+(=fm&
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1874,12 +1877,12 @@ $~gHc
 -walk
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%%wZ
 .%0*llu
+.%Sfo
 .(Optional) Set of tags for the published file.
-.-#=A
-.-0@g
-.-:[5
+.--Z}
+.-<]}
+.-S>A
 ../../_generated_code/client_steamtours/release/linuxsteamrt64/../../../../game/shared/world.cpp
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1916,7 +1919,7 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.5t3o
+.5D0o
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -5627,6 +5630,7 @@ $~gHc
 6C_Guts
 6C_Team
 6ConVar
+6D#5+t
 6D;U$
 6F+U F
 6H92t%H
@@ -6471,6 +6475,8 @@ $~gHc
 @:#J{
 @:-OR&V
 @:2t'
+@:5M	
+@:5^	
 @:qPt
 @:w$UH
 @<8A<t
@@ -8858,7 +8864,7 @@ C8}~1
 C9,h5
 C<D;e
 C<[A\A]A^]
-C@D;%3~
+C@D;%cy
 C@D;k8D
 C@H;CHs
 C@Ll>
@@ -9570,6 +9576,7 @@ CLogicalEntity
 CLogicalEntity::CEntityInstanceEntityClass
 CLoopModeGame::InitAllSystems()
 CLoopModeGame::LoopInit
+CLoopModeGame::LoopInit: levelname='%s' savegame='%s'
 CLoopModeGame::OnClientPauseSimulate
 CLoopModeGame::OnClientPostOutput
 CLoopModeGame::OnClientPostSimulate
@@ -11316,14 +11323,15 @@ D9 ~zH
 D9!t"
 D9!u"
 D9#~8H
-D9%I7
+D9%Y2
+D9%c}#
 D9't,H
 D9(t'I
 D9(t1H
 D9+~[L
 D90t[A
 D9;~dL
-D9=i5
+D9=I2
 D9D$4B
 D9D$4H
 D9F<~
@@ -11367,19 +11375,18 @@ D:z	t
 D:z	tUHc
 D; t=H
 D;!t{Hc
-D;%/g
-D;%B'.
-D;%bP
+D;%oa
+D;%}P)
 D;'t{
 D;'t{Hc
 D;*t>H
 D;+};H
-D;-<T.
-D;-=S.
-D;-\}
+D;-\x
+D;-|S.
+D;-}R.
 D;.~3L
 D;.~9H
-D;5eG
+D;5EC
 D;:tPH
 D;X,}
 D;`L|
@@ -11987,7 +11994,6 @@ E9~L~
 E:l$Pu
 E;&}CI
 E;,$|
-E;<$sGI
 E;D$$
 E;E$t
 E;L0 H
@@ -12222,6 +12228,7 @@ Encountered enum type %s (field "%s") that is not stored in 1,2,4, or 8 bytes!
 Encountered malformed keys in call to CallScriptFunction : "%s"!
 Encountered message for job %s (message ID %d) sent by %s called within an invalid context of %d. Dropping the message.
 Encountered multiple different effects with the same name "%s"!
+Encountered point_prefab with 'error' targetMapName key! (parent: m_pWorldName='%s' m_pEntityLumpName='%s' m_pDescriptiveName='%s')
 Encountered point_prefab with no targetMapName key!
 Encountered unknown entity i/o target type!
 Encountered unknown enum value %s for field %s
@@ -13410,10 +13417,11 @@ H92tqHcR
 H92tyHcR
 H92tyHcR 
 H92tyHcR(
-H93tUE
+H93tSE
 H97txH
 H9:tx
 H9:tyHcR
+H9=\,
 H9C(H
 H9D$ t6H
 H9D$(
@@ -13440,123 +13448,148 @@ H;0tHH
 H;0u%
 H;1t!
 H;2u$
-H;5#p
+H;5cj
 H;8tU
 H;8t]
 H;:t(f
-H;=	&)
+H;=	'
 H;=	.
-H;=	0
-H;=	C
-H;=	J
-H;=	V
-H;=	_
-H;=	tI
-H;= (
-H;= y5
-H;="T
-H;=%|1
-H;=(K&
-H;=(~
+H;=	A
+H;=	D
+H;=	T
+H;=	Y
+H;=	g
+H;=	}
+H;= :3
+H;= R.
+H;= }
+H;='Q
+H;=(v#
+H;=)!#
 H;=)"
-H;=)7
-H;=)>
-H;=)J
-H;=)Q
-H;=)Y
-H;=)m#
-H;=+&)
-H;=.W
-H;=.x
-H;=.}
-H;=0&5
-H;=0>*
-H;=0T
-H;=0i5
-H;=2F7
-H;=2u)
-H;=7V
+H;=)5
+H;=)H
+H;=)K
+H;=)T
+H;=*E)
+H;=-_ 
+H;=.^
+H;=.s
+H;=0 
+H;=0%
+H;=0N
+H;=37"
+H;=3x"
+H;=8}
+H;=9(
 H;=9/
-H;=91
-H;=9:
-H;=9?;
-H;=9D
-H;=9K
-H;=9QI
-H;=9W
-H;=9`
-H;=>U
-H;=>k
-H;=>v
-H;=>{
-H;=?Q
-H;=@&
-H;=@+
-H;=@~
-H;=Bv#
-H;=C!7
-H;=HE)
+H;=9B
+H;=9E
+H;=9Z
+H;=9h
+H;=9y5
+H;=:O
+H;=:u)
+H;=>.
+H;=>F7
+H;=>\
+H;=>q
+H;=>}
+H;=@6
+H;=@:5
+H;=@G
+H;=@Y&
+H;=@c.
+H;=@h)
+H;=@v
+H;=I!
+H;=I"
 H;=I)
-H;=I+
-H;=I>
-H;=IE
-H;=IQ
-H;=I`
-H;=If
-H;=I}
-H;=JK&
-H;=Km#
-H;=M&D
-H;=NS
-H;=Ny
-H;=P45
-H;=P@5
-H;=SG 
-H;=SSJ
-H;=WQ
-H;=XF7
-H;=Xu)
+H;=I<
+H;=I?
+H;=IO
+H;=IW#
+H;=I[
+H;=Iu@
+H;=K!#
+H;=N,
+H;=NZ
+H;=Nv#
+H;=Nz
+H;=N{
+H;=O1 
+H;=OQ
+H;=P#
+H;=P)#
+H;=PQ*
+H;=Ps%
+H;=P~&
+H;=Q+D
+H;=Q28
+H;=RO
+H;=R_ 
+H;=Xy
 H;=Y#
-H;=Y8
-H;=Y?
-H;=YK
-H;=YR
-H;=YZ
-H;=^Q
-H;=^w
-H;=`$
-H;=`)
-H;=`:3
-H;=`R.
-H;=gV
-H;=gW
-H;=hv#
-H;=i!#
-H;=i2
-H;=iE
-H;=iL
-H;=iX
-H;=ia
-H;=jE)
-H;=m_ 
-H;=n"
-H;=nO
-H;=n}
-H;=pN
-H;=s7"
-H;=sx"
+H;=Y0*
+H;=Y6
+H;=Y9
+H;=YI
+H;=YL
+H;=YU
+H;=YY.
+H;=]zC
+H;=^: 
+H;=^X
+H;=^x
+H;=^y
+H;=`	.
+H;=cs$
+H;=d>"
+H;=dF7
+H;=gQ
+H;=i)
+H;=i-8
+H;=i0
+H;=i5
+H;=iC
+H;=iF
+H;=i[
+H;=if8
+H;=kW#
+H;=mND
+H;=nV
+H;=nf
+H;=nv
+H;=nw
+H;=oL
+H;=p!
+H;=p&
+H;=p8#
+H;=p:7
+H;=p@#
+H;=pO4
+H;=py
+H;=q6D
+H;=q8!
+H;=qp@
+H;=s}B
+H;=tv#
+H;=u(E
+H;=x_ 
+H;=y	
+H;=y"
+H;=y#
 H;=y*
-H;=y,
-H;=y?
-H;=yF
-H;=yR
-H;=ya
-H;=yg
-H;=yy5
-H;=zu)
-H;=~F7
-H;=~M
-H;=~{
+H;=y=
+H;=y@
+H;=yP
+H;=y\
+H;={0*
+H;={Y.
+H;=}1D
+H;=~T
+H;=~t
+H;=~u
 H;>t[H
 H;C I
 H;C r
@@ -13675,8 +13708,8 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5ZES
-Hc5ea
+Hc5@&
+Hc5e\
 Hc8Hi
 Hc@ H
 Hc@$H
@@ -13776,6 +13809,7 @@ HcJ|1
 HcK 1
 HcK$1
 HcK(1
+HcK(L
 HcK,1
 HcK01
 HcK41
@@ -14659,7 +14693,6 @@ Kochanek-Bartels Late
 KpHcCl
 KpHcU
 KqUq;@
-L$	E1
 L$ E1
 L$ HcU
 L$ Lc
@@ -14703,7 +14736,6 @@ L9l$(u
 L9t$(u
 L9|$HJ
 L;0t!A
-L;5^0 
 L;?u"
 L;d$@L
 L;{ t
@@ -14790,22 +14822,21 @@ Lc!D;a
 Lc"D;b
 Lc#D;c
 Lc#E9
-Lc%9'.
-Lc%9~
-Lc%Ig
+Lc%Z}#
+Lc%iy
 Lc&D;f
 Lc'D;g
 Lc'E)
 Lc+D)
 Lc+D;k
-Lc-3T.
-Lc-4S.
+Lc-sS.
+Lc-tR.
 Lc/E)
 Lc/E1
 Lc1D;q
 Lc3D;s
 Lc3E9
-Lc5\G
+Lc5<C
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -16600,7 +16631,7 @@ PersonaName
 PersonaNameReplacementToken
 PersonalBubbleSlider
 PhA9]P~+L
-PhHc5I
+PhHc5
 Ph[A\]
 Phags_Pa
 Phoenician
@@ -18421,14 +18452,14 @@ T$hA)
 T$lHc
 T$pH9
 T$pL)
-T%>U/
-T%QS/
-T%UU/
-T%cQ/
-T-KQ/
+T%!T/
+T%%V/
+T%3R/
+T%fU/
+T%zQ/
+T-_S/
 T.$Hc
 T0@GZ
-T5=S/
 T5i@H
 T82fE
 T@MResourceBlockType
@@ -19423,16 +19454,16 @@ Vulkan
 W H9r
 W HcE
 W HcG
-W%2T4
+W%4r-
 W%:O&t
-W%dq-
-W%ph-
+W%@i-
 W(Aq=
 W(H92t'H
 W,:V,u
 W0Hc_8A
 W0t	H
 W3|Uxa
+W5TW4
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -19626,11 +19657,11 @@ Wzm6V"
 W{@3333
 X zR&="@r
 X$HcH 
-X%#Ha
-X%Q5v
+X%evj
+X%jBq
 X(9Y(
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-;cf
+X-;bf
 X0~tA
 X2:jH
 X360_DST16
@@ -19654,18 +19685,18 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Y ANb
-Y%H8M
-Y%T `
-Y%xzP
+Y%88M
+Y%FE8
+Y%FG8
+Y%hzP
 Y(;Y8
 Y(E9^(A
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-3cc
-Y-{8M
+Y-cdc
+Y-k8M
 Y/&4@4
-Y5<r`
 Y6	@W'g(
-Y=vxj
+Y=6yj
 Y?3333E
 YD$$L
 YGDUH
@@ -19795,8 +19826,8 @@ Z}uU
 \$hIcEXI
 \$xA;
 \%03o
-\%2M`
-\%mHa
+\%2L`
+\%MHa
 \C not allowed in lookbehind assertion
 \I8r!H
 \N is not supported in a class
@@ -21381,6 +21412,7 @@ cl_vprof_scope_entity_gamephys
 cl_winddir
 cl_windspeed
 cl_yawspeed
+clamping dimensions of panorama world panel from %d x %d to %d x %d! (%.1f" x %.1f" @ %.1f dpi)
 class 
 class %s - %s instance%s (%.2f%%)
 class, eventToFire
@@ -25370,6 +25402,7 @@ m_mInteractionTransformInit
 m_mInteractionTransformTarget
 m_mNodeToWorld
 m_mapName
+m_matAnchorDelta
 m_matGlobalHandTransform0
 m_matHoldTransform
 m_matUseTransform
@@ -26084,7 +26117,6 @@ m_variantValue
 m_vecAbsOrigin
 m_vecAbsVelocity
 m_vecAggregationCenter
-m_vecAnchorDelta
 m_vecAngVelocity
 m_vecAngles
 m_vecBaseAngles
@@ -26676,7 +26708,6 @@ npc_height_adjust
 nqCBJ
 nt;Hc
 nt_uf
-nt_ufD
 numEntities
 num_achievements
 num_achievements_completed
@@ -28571,7 +28602,7 @@ t$<H)
 t$@A\]
 t$@tsHc
 t$D9j
-t$D;-cO
+t$D;-SG
 t$H9:H
 t$H9h
 t$HcK
@@ -28611,8 +28642,8 @@ t&D;=u
 t&Hc]
 t&Hcq
 t'<"t
-t'D;%v
-t'D;5>
+t'D;%
+t'D;5N
 t'Hc{
 t'Hc{ H
 t'Hc{$H
@@ -28627,7 +28658,6 @@ t'Hc{PH
 t'Hc{TH
 t'IcD$
 t'Lcc
-t'Lcs
 t'[A\]
 t(92t(H
 t(<)u
@@ -28639,13 +28669,13 @@ t(Ic}@H
 t(Ic~0H
 t([A\A]A^]
 t);52
-t);=2
+t);=B
 t)Lc+D;k
 t* Hc
 t*(Hc
 t*<*u
 t*<-H
-t*D;-I
+t*D;-
 t*HcC
 t*HcE
 t*HcKH
@@ -28656,7 +28686,7 @@ t*LcC
 t*fA9
 t+<\u
 t+D9s
-t+D;-jJ
+t+D;-ZB
 t+Hc4
 t+HcO
 t+Hcsp
@@ -28677,6 +28707,7 @@ t-rex
 t.D9p
 t.D;%
 t.Lc#M
+t.Lc{
 t.fA9
 t/9w t29w0t=1
 t/H;E
@@ -28730,7 +28761,7 @@ t?Mcv
 t?[A\]
 t@@:>u
 t@Ic_
-t@Lc%YP
+t@Lc%
 t@[A\A]A^]
 t@}?5^
 tALcc
@@ -28741,7 +28772,7 @@ tBL;h L
 tBViewEffects
 tCLc%D
 tC[A\A]A^]
-tD@:5
+tD@:5Y	
 tDHcx D
 tEMcY
 tEMci
@@ -28813,7 +28844,7 @@ taunt
 tax_usd
 tbHcO
 tb[A\]
-tc@:5
+tc@:5T	
 tcHcQ
 tcUE1
 tchinese

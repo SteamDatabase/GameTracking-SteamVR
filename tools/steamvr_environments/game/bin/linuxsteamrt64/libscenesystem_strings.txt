@@ -102,6 +102,7 @@
  CSVCMsg_GameSessionConfiguration
  Can't back up over more bytes than were returned by the last call to Next().
  Cast Shadows %4dx%4d.
+ ChangesH
  Color: %d %d %d.
  D;t$
  DbgDrawLvl:
@@ -147,8 +148,8 @@
  args were given.  Full format string was: "
  arguments. 
  auto alias
+ check: H
  contains invalid 
- culled H
  inflate 1.2.5 Copyright 1995-2010 Mark Adler 
  is not valid for field 
  libpng version 1.5.2 - March 31, 2011
@@ -533,8 +534,8 @@ $fD	8
 )NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
 )T$PfA
 *#GameUI_Disconnect_LocalProblem_ManyRelays
-*%:<k
-*-><k
+*%Z<k
+*-^<k
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN13CSOAContainer9FilterInXEi9IntAABB_tiPKfbEUliE_EEMS8_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 *:JZjz
 *NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
@@ -2327,7 +2328,7 @@ D;'t{Hc
 D;-@ik
 D;.~9H
 D;:tPH
-D;=6|g
+D;=V|g
 D;P0}B
 D;X,}
 D;a(D
@@ -2394,8 +2395,6 @@ Double-register of KV3 conversion (from '%s' to '%s')
 Double-save to Member '%s'
 Downsample2x
 Downsample4x
-Draw Cal
-Draw CalI
 Draw Calls: 
 Draw Proxy: qh:%p org:<%d,%d,%d> (frame:%d)
 Draw everything normal and ignore the source for rendering
@@ -2795,26 +2794,25 @@ H9W(t	]
 H9W8t	]
 H9q(u
 H;:t21
+H;=	UC
 H;=(Ol
 H;=,fm
 H;=-'m
 H;=8<m
 H;=>9m
-H;=BWC
 H;=Dkm
 H;=Hhm
-H;=Off
 H;=PJm
-H;=WYC
-H;=ZWC
 H;=]Mm
 H;=]rm
 H;=aFl
+H;=bWC
 H;=o'm
 H;=oCm
-H;=oYC
+H;=off
 H;=rYm
-H;=wTC
+H;=wYC
+H;=zWC
 H;C r
 H;CHs
 H;S@w
@@ -3215,7 +3213,7 @@ Lc/E)
 Lc/E1
 Lc6E9
 Lc7E)
-Lc=-|g
+Lc=M|g
 LcP t
 Lc[PD
 Lc[`E)
@@ -3304,6 +3302,7 @@ Malformed iTXt chunk
 MapListService_001
 Match ID
 Material Changes: 
+MaterialA
 MaterialDrawDescriptor_t
 MaterialGroupList
 MaterialGroup_t
@@ -3531,6 +3530,7 @@ Note that enum values use C++ scoping rules, meaning that enum values are siblin
 Num Tran
 Num Transform rows used: 
 Num Unique materials in the frame: 
+Num objeH
 Num objects passing cull check: 
 Num occluder tris being clipped: 
 Num occluder tris: 
@@ -4130,6 +4130,7 @@ ToolScriptManager001
 ToolService_001
 Total Lights: %d
 TranslucentScreenSpace
+Triangle
 Triangles Rendered: 
 Tried to calc delta to a src message of a different type.
 Tried to load a polymorphic pointer with no '%s' key
@@ -4166,7 +4167,6 @@ Unable to determine buffer encoding.
 Unable to read file %s
 Unable to read resource file %s!
 Unable to write file: %s
-Unbatcha
 Unbatchable material draws: 
 Unexpected end of file
 Unexpected end of string.
@@ -4396,7 +4396,7 @@ VpropBreakablePartData_t
 VrLightCookieSettings
 VsInputSignature_t
 W H9r
-W%rn6
+W%Rn6
 W0Hc_8A
 W5cF1
 WARNING
@@ -4876,7 +4876,6 @@ binary
 binary_bc
 binner_shadow_depthDS.vtex
 binner_shadow_depthRT.vtex
-ble mateH
 blendindices
 blendweight
 blendweights
@@ -4887,7 +4886,6 @@ buf error
 buffer error
 buffer. Use the 'bytes' type if you intend to send raw 
 bulletimpact
-by vis: H
 bytes
 bytes. 
 c [A\]
@@ -4949,6 +4947,7 @@ csm_res_override_3
 csm_slope_scale_db_override
 csm_split_log_scalar
 csm_viewdir_shadow_bias
+cts passH
 ctype
 cube.pfm
 curvature
@@ -4982,12 +4981,12 @@ drawmaterialquad2
 drawspotlights
 e$IcM
 e$~sH
+ed: H
 eikonal
 elements
 ema H
 empty_string_ != __null
 encoding
-endef
 entityfiltername
 entitylumpname
 error in transition graph: %s to %s
@@ -5006,9 +5005,8 @@ extendee
 extension_range
 f %d %d %d
 f == __null || dynamic_cast<To>(f) != __null
-f ObjectH
 f displaH
-f jobs uH
+f renderH
 f views H
 f world H
 f;C*w
@@ -5132,7 +5130,9 @@ incorrect data check
 incorrect gamma=(%d/100000)
 incorrect header check
 incorrect length check
+indsH
 infinity
+ing cullH
 input_type
 instanceidbuffer
 instanceidbuffer2
@@ -5229,7 +5229,6 @@ longjmp@@GLIBC_2.2.5
 looping
 lowprecisionuv
 lowprecisionuv1
-ls: A
 ls: H
 lseek
 lseek@@GLIBC_2.2.5
@@ -5914,7 +5913,6 @@ resource
 resourcestream.cpp
 rgb to gray green coefficient
 rgb to gray red coefficient
-rial draH
 rootNode
 rt_LPV.vtex
 rt_LPV_Blockers.vtex
@@ -5928,6 +5926,7 @@ rt_lpvPongG.vtex
 rt_lpvPongR.vtex
 runleft
 runright
+s RenderH
 s off
 s v&E1
 s ~YH
@@ -6036,7 +6035,6 @@ screenmessage_show
 scripts/activity_modifier_weights.txt
 sdktools/bin/vproj.exe
 sdktools/bin/vprojUI.exe
-sed to rH
 seq_trans
 sequence_name
 serialize
@@ -6234,6 +6232,7 @@ t^[A\]
 tanf@@GLIBC_2.2.5
 tangent
 tangentu_signv
+target bH
 tb[A\]
 tcHcQ
 tdA:]
@@ -6389,7 +6388,6 @@ write
 write@@GLIBC_2.2.5
 wrong submessage type
 ws used:H
-ws: H
 wx=%d, wy=%d, rx=%d, ry=%d
 wxLcE
 x	HcC

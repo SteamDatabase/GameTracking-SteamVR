@@ -794,7 +794,6 @@ $fD	8
 ?Out of Memory
 ?u='@
 ?|7m=U
-@85/RD
 @8A]A^]
 @9[cU
 @A9^`
@@ -1609,7 +1608,6 @@ H9GHt
 H9H t
 H9H t)H
 H9W8t	]
-H;=%dC
 H;C r
 H;CHs
 H;S@w
@@ -2840,6 +2838,7 @@ Zero length tRNS chunk
 \$ E1
 \$0[A\A]A^]
 \$HfA
+\-cn	
 \t!Hc
 \u0000
 ]Ht,A
@@ -3890,7 +3889,6 @@ vn %g %g %g
 vortex
 vphys
 vr.cpp
-vr.cpp(1089): 
 vr.cpp(4366): ERROR! Unknown controller axis type %d!
 vr.cpp(5485): VR - Destroying old VB for Stenciling!
 vr.cpp(5530): VR - Error! VB handle is invalid in CVrStencilRenderer!

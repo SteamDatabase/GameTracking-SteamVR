@@ -1388,6 +1388,8 @@ $woL)
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
+(%Gds
+(%`@]
 (%d %d %d %d)
 (%d) %s
 (%d) ------> %s ( HELD BY %s ) 
@@ -1399,6 +1401,8 @@ $woL)
 (%g %g %g)
 (%g %g)
 (%s) Schedule (%s) Failed at %d!
+(%sZQ
+(%{H]
 (*%s*), 
 (0x%08X)'??'
 (1@zD
@@ -1727,8 +1731,7 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%LWZ
-.%iDO
+.-|+\
 ...%s
 ...done building AI node graph, %f seconds
 ...done determining links. %f seconds
@@ -1764,8 +1767,8 @@ $woL)
 ../public/tier2/fieldpath.h
 ..\content
 .0z&u$
-.55!j
-.5\~p
+.=5(j
+.=>qY
 .>()09
 .@(."
 .@,wqH
@@ -1859,7 +1862,6 @@ $woL)
 .K8zBf
 .KdzIuGH
 .M;UU
-.M;`B
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
 .O<{4
 .PARTICLE_MESSAGE
@@ -6189,7 +6191,6 @@ $woL)
 6CModel
 6CWorld
 6ConVar
-6D#5;
 6F+U F
 6H92t%H
 6H92u
@@ -6416,8 +6417,8 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;=kgN
-;=pgN
+;=kwN
+;=pwN
 ;@*$pV
 ;A0}4H
 ;A;<$|
@@ -10305,6 +10306,7 @@ CLogicScript::CEntityInstanceEntityClass
 CLogicalEntity
 CLogicalEntity::CEntityInstanceEntityClass
 CLoopModeGame::InitAllSystems()
+CLoopModeGame::LoopInit: levelname='%s' savegame='%s'
 CLoopModeGame::OnFrameBoundary
 CLoopModeGame::OnServerPostSimulate
 CLoopModeGame::OnServerSimulate
@@ -10832,6 +10834,7 @@ CPropHMDAvatar::CEntityInstanceEntityClass
 CPropVRHand
 CPropVRHand::CEntityInstanceEntityClass
 CPropVRTrackedObject::CEntityInstanceEntityClass
+CPropVRTrackedObject::PostSetModel: AddWeldJoint failed! (desc %s)
 CPropVehicle
 CPropVehicle::CEntityInstanceEntityClass
 CPropVehicleDriveable
@@ -11891,13 +11894,12 @@ D9 t)H
 D9 ~NH
 D9!t"
 D9!u"
-D9%t{V
 D9't$H
 D9't,H
 D9(t'I
 D9(t1H
 D92tY1
-D95!(
+D9=9W
 D9W(~mL
 D9`0u
 D9c<t
@@ -11917,18 +11919,15 @@ D:gTt
 D;!t{Hc
 D;#}|E
 D;$%H
-D;%4b?
-D;%e|V
+D;%4r?
 D;'t{
 D;'t{Hc
 D;(t)
 D;*t>H
 D;,%H
-D;-O-
 D;.~3L
 D;.~9H
 D;:tPH
-D;=qs)
 D;G@t5H
 D;X,}
 D;`0|
@@ -12705,6 +12704,7 @@ Encountered a circular dependency with library %s!
 Encountered bad enum value "%s" for type %s, entity "%s" field "%s"!
 Encountered enum type %s (field "%s") that is not stored in 1,2,4, or 8 bytes!
 Encountered malformed keys in call to CallScriptFunction : "%s"!
+Encountered point_prefab with 'error' targetMapName key! (parent: m_pWorldName='%s' m_pEntityLumpName='%s' m_pDescriptiveName='%s')
 Encountered point_prefab with no targetMapName key!
 Encountered unknown entity i/o target type!
 Encountered unknown enum value %s for field %s
@@ -13815,6 +13815,7 @@ H92tyHcR
 H9:tqHcR 
 H9:tx
 H9:tyHcR
+H9=B}
 H9C t
 H9C(t
 H9J u
@@ -13844,70 +13845,78 @@ H;2u$
 H;3t*H
 H;7t)H
 H;:t(f
-H;=	#c
-H;=	7
-H;= ^>
-H;=!sf
-H;=#0;
-H;=%=`
-H;=)>
-H;=)eF
-H;=-d\
-H;=.6
-H;=.j
-H;=13c
-H;=1_i
-H;=3vj
-H;=8S=
-H;=9	
-H;=9 >
-H;=98
-H;==*`
-H;=>4
-H;=>h
-H;=@KB
-H;=A$`
-H;=I.c
-H;=IVc
-H;=KeF
-H;=N2
-H;=Nf
-H;=N}'
-H;=PPI
-H;=QH`
-H;=U)c
-H;=U{`
-H;=Y4=
-H;=Y?
-H;=Yl'
-H;=[ >
-H;=]h`
-H;=^0
-H;=^S=
-H;=^d
-H;=^p
-H;=`6A
-H;=`KF
-H;=c$e
-H;=g7;
-H;=i1F
-H;=i9
-H;=i{c
-H;=m5\
-H;=mq\
-H;=n.
-H;=nb
-H;=nn
-H;=pKC
-H;=pSF
-H;=qUg
-H;=q_`
-H;=yQC
-H;={4=
-H;=~,
-H;=~`
-H;=~iJ
-H;=~l
+H;=	"`
+H;=	&
+H;=	3c
+H;=	I
+H;= +F
+H;= n>
+H;=!.c
+H;=#@;
+H;=%M`
+H;=),<
+H;=)=
+H;=)uF
+H;=-t\
+H;=.G
+H;=.h
+H;=0%F
+H;=1Cc
+H;=1oi
+H;=8c=
+H;=9'
+H;=90>
+H;=9S
+H;=;.e
+H;==:`
+H;=>E
+H;=>f
+H;=@[B
+H;=A4`
+H;=C-e
+H;=E)`
+H;=I!
+H;=I)c
+H;=I>c
+H;=ID
+H;=Ifc
+H;=K,<
+H;=KuF
+H;=NC
+H;=Nd
+H;=P`I
+H;=QX`
+H;=S,e
+H;=U9c
+H;=Y%f
+H;=Y>
+H;=YD=
+H;=Y|'
+H;=Z%<
+H;=[0>
+H;=]/`
+H;=]x`
+H;=^A
+H;=^c=
+H;=`FA
+H;=`[F
+H;=c4e
+H;=gG;
+H;=i	
+H;=i(
+H;=iAF
+H;=mE\
+H;=n?
+H;=p[C
+H;=pcF
+H;=qeg
+H;=qo`
+H;=y"
+H;=yE
+H;=yaC
+H;={D=
+H;=~=
+H;=~yJ
 H;>t[H
 H;B0u
 H;C r
@@ -15293,7 +15302,6 @@ Lc!D;a
 Lc#D9b
 Lc#D;c
 Lc#E9
-Lc%\|V
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -20240,13 +20248,19 @@ VsInputSignature_t
 Vulkan
 W ;2t$H
 W H9r
-W%'Y8
-W%7B9
+W%'B9
+W%R$\
 W(Aq=
 W(H92t'H
+W-b$\
 W3|Uxa
-W50 \
-W=t!\
+W5F'\
+W5h&\
+W5j$\
+W=+'\
+W=b'\
+W=r$\
+W=w'\
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -20437,12 +20451,13 @@ Wrong alignment %d
 Wzm6V"
 W{@3333
 X zR&="@r
+X%u6@
 X(9Y(
-X-V{D
+X-&|D
 X2:jH
 X9t6@
 X=2v?
-X=cC[
+X=SI[
 X@TA;U<
 X@ffff
 XAxis
@@ -20472,11 +20487,17 @@ XfA9D]
 Xg8Hc
 XxHc@t
 Y ANb
-Y%q|e
+Y%Vt%
+Y%Vv%
+Y%h[$
 Y(;Y8
 Y(E9^(A
+Y-$7%
 Y/&4@4
 Y6	@W'g(
+Y=]So
+Y=x"$
+Y=}s8
 Y?3333E
 Y?[A\]
 Y@CPropVRTrackedObject
@@ -20583,7 +20604,9 @@ Z}uU
 \$hIcEXI
 \$h[A\]
 \%03o
-\-y?9
+\-i?9
+\-zf9
+\5d~Y
 \U%08x
 \r@n|7'@^
 \softlinks\
@@ -20596,7 +20619,7 @@ Z}uU
 ]"^AR
 ]%h@sh
 ](t[H
-]5Q)e
+]511e
 ]7@Kvl
 ]8[A\A]A^]
 ]H+G 
@@ -20609,7 +20632,7 @@ Z}uU
 ]hIcE`L
 ]u9n5;> )"
 ^ t+H
-^%TV\
+^%4^\
 ^)8~@
 ^-wf"
 ^8D9+
@@ -22489,7 +22512,6 @@ fA;Gnv
 fA;\$6
 fA;\$n
 fA;_n
-fD9%T
 fD9/t0H
 fD91u|
 fD9cV
@@ -30655,12 +30677,12 @@ t%HcO
 t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
-t&D;=
+t&D;=e6
 t&HcC
 t&Hcq
 t&[A\]
 t'<"t
-t'D;5
+t'D;5N
 t'HcC
 t'HcK
 t'HcM
@@ -30678,11 +30700,13 @@ t'Hc{PH
 t'Hc{TH
 t'IcD$
 t'Lcc
+t'Lck
 t'[A\]
 t(H;p
 t(HcO
 t([A\A]A^]
 t([A\]
+t);=B
 t)Lc+D;k
 t)fD9
 t* Hc
@@ -30711,7 +30735,7 @@ t+fA9
 t,H;p
 t,I9}
 t,L;e
-t,Lc%
+t,Lc%E
 t-Mc4$E;t$
 t-rex
 t.D9p
@@ -30769,7 +30793,7 @@ t?[A\]
 t@@:>u
 t@D;(};E
 t@Ic_
-t@Lc%)
+t@Lc%y
 t@[A\A]A^]
 t@[A\]
 t@}?5^
@@ -31640,9 +31664,8 @@ x8Lcc D;c0
 x8Mcl$ E;l$0
 x8udL
 x8uwH
-x:;=,
 x:Hcw
-x;;=|
+x;;=<
 xED;c }?E
 xGHcO
 xJA;E
@@ -31900,7 +31923,7 @@ z|uzI
 }3fA;\$Vw+H
 }3fA;\$~w+H
 }3fA;]fw,L
-}5D;-
+}5D;-a
 }8f;rnw2f
 }:f;pnw4f
 }>;w$
@@ -31954,7 +31977,7 @@ z|uzI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=cv
+~)H9=
 ~)H;^
 ~*HcE
 ~*I;X
