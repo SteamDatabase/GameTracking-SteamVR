@@ -1971,7 +1971,11 @@
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 "MenuAction_RunMediaPlayer"	"Запустити медіапрогравач"
 "[english]MenuAction_RunMediaPlayer"	"Run Media Player"
+"Settings_LockedModeCheck"	"Заблокований режим"
+"[english]Settings_LockedModeCheck"	"Locked Mode"
 "Settings_LockedModeDesc"	"Дозволити відтворення на шолом, поки робоча станція заблокована."
 "[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
+"Advanced_Bluetooth"	"Bluetooth"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

@@ -1959,5 +1959,11 @@
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 "MenuAction_RunMediaPlayer"	"Käynnistä Media Player"
 "[english]MenuAction_RunMediaPlayer"	"Run Media Player"
+"Settings_LockedModeCheck"	"Lukittu tila"
+"[english]Settings_LockedModeCheck"	"Locked Mode"
+"Settings_LockedModeDesc"	"Sallii virtuaalitodellisuuslaseihin renderöinnin työaseman ollessa lukittuna."
+"[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
+"Advanced_Bluetooth"	"Bluetooth"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

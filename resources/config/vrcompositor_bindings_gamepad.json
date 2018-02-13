@@ -1,0 +1,125 @@
+{
+    "controller_type" :	"gamepad",
+	"action_binds": [
+		{
+			"action": "/actions/system/in/SystemButtonChord",
+			"source": "/filters/1system_button/held"
+		},
+		{
+			"action": "/actions/system/in/ToggleDashboard",
+			"source": "/filters/1system_button/single"
+		},
+		{
+			"action": "/actions/system/in/TakeScreenshot",
+			"source": "/filters/1screenshot_chord/result"
+		},
+		{
+			"action": "/actions/system/in/ShowPowerMenu",
+			"source": "/filters/1system_button/long"
+		},
+		{
+			"action": "/actions/system/in/ToggleRoomView",
+			"source": "/filters/1system_button/double"
+		},
+		{
+			"action": "/actions/lasermouse/in/SwitchGamepadFocus",
+			"source": "/user/gamepad/input/start/click"
+		},
+		{
+			"action": "/actions/dualanalog/in/LeftValue",
+			"source": [ "/user/gamepad/input/joystick_left/x", "/user/gamepad/input/joystick_left/y" ]
+		},
+		{
+			"action": "/actions/dualanalog/in/RightValue",
+			"source": [ "/user/gamepad/input/joystick_right/x", "/user/gamepad/input/joystick_right/y" ]
+		},
+		{
+			"action": "/actions/dualanalog/in/LeftTouch",
+			"source": "/user/hand/left/input/trackpad/touch"
+		},
+		{
+			"action": "/actions/dualanalog/in/RightTouch",
+			"source": "/user/hand/right/input/trackpad/touch"
+		},
+		{
+			"action": "/actions/dualanalog/in/LeftClick",
+			"source": "/user/gamepad/input/joystick_left/click"
+		},
+		{
+			"action": "/actions/dualanalog/in/RightClick",
+			"source": "/user/gamepad/input/joystick_right/click"
+		},
+		{
+			"action": "/actions/dualanalog/in/ModeSwitch1",
+			"source": "/user/gamepad/input/shoulder_left/click"
+		},
+		{
+			"action": "/actions/dualanalog/in/ModeSwitch2",
+			"source": "/user/gamepad/input/shoulder_right/click"
+		}
+	],
+
+	"filters" :[
+		{
+			"name" : "1all_system_buttons",
+			"type" : "boolean_or",
+			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
+			"input" : {
+				"1":"/devices/*/input/system/click",
+				"2":"/user/gamepad/input/back/click"
+			},
+			"output" : "result"
+		},
+		{
+			"name" : "1system_button",
+			"type" : "boolean_button_press_state",
+			"input" : "/filters/1all_system_buttons/result",
+			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
+			"cancel_on_action_sets" : [ "/actions/chord" ],
+			"parameters" : 
+			{
+				"long_press_delay" : 1.5
+			},
+			"output" : 							 
+			{
+				"long" : "long",
+				"double" : "double",
+				"single" : "single",
+				"held" : "held"
+			}
+		},
+		{
+			"name" : "1any_trigger_chord",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/chord" ],
+			"input" : "/user/gamepad/input/trigger_right/value",
+			"output" : "result"
+		},
+		{
+			"name" : "primary_trigger_lasermouse",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse" ],
+			"input" : "/user/gamepad/input/trigger_right/value",
+			"output" : "result"
+		},
+		{
+			"name" : "1secondary_trigger_lasermouse",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse" ],
+			"input" : "/user/gamepad/input/trigger_left/value",
+			"output" : "result"
+		},
+		{
+			"name" : "1screenshot_chord",
+			"type" : "boolean_and",
+			"action_sets" : [ "/actions/chord" ],
+			"input" : 
+			{
+				"1":"/filters/1system_button/held",
+				"2":"/filters/1any_trigger_chord/result"
+			},
+			"output" : "result"
+		}
+	]
+}
+

@@ -478,6 +478,7 @@ $fD	8
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (%3.3f - %3.3f)
+(%RG'
 (*%s*), 
 (8HXhx
 (9s ~@H
@@ -534,8 +535,8 @@ $fD	8
 )NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
 )T$PfA
 *#GameUI_Disconnect_LocalProblem_ManyRelays
-*%Z<k
-*-^<k
+*%j;k
+*-n;k
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN13CSOAContainer9FilterInXEi9IntAABB_tiPKfbEUliE_EEMS8_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 *:JZjz
 *NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
@@ -1295,6 +1296,7 @@ $fD	8
 ;*3$"
 ;*t*1
 ;0t;H
+;5ybC
 ;H98u
 ;K(}&H
 ;S(}+H
@@ -2325,10 +2327,10 @@ D:z	t
 D:z	tUHc
 D;!t{Hc
 D;'t{Hc
-D;-@ik
+D;-Phk
 D;.~9H
 D;:tPH
-D;=V|g
+D;=f{g
 D;P0}B
 D;X,}
 D;a(D
@@ -2398,6 +2400,7 @@ Downsample4x
 Draw Calls: 
 Draw Proxy: qh:%p org:<%d,%d,%d> (frame:%d)
 Draw everything normal and ignore the source for rendering
+DrawArray
 DrawDepthSq
 DrawList : 
 DrawSpotLightShadow
@@ -2650,6 +2653,7 @@ Files with optimize_for = LITE_RUNTIME cannot define services unless you set bot
 FillAttr
 FillVBForAttribute
 FilterFrom
+FilterTexture
 FindClosestMatchingRegion
 FindOrCreateRenderTarget: Does not work to pass pOtherView == this!
 FindRefInfo
@@ -2794,25 +2798,22 @@ H9W(t	]
 H9W8t	]
 H9q(u
 H;:t21
-H;=	UC
-H;=(Ol
-H;=,fm
-H;=-'m
-H;=8<m
-H;=>9m
-H;=Dkm
-H;=Hhm
-H;=PJm
-H;=]Mm
-H;=]rm
-H;=aFl
-H;=bWC
-H;=o'm
-H;=oCm
-H;=off
-H;=rYm
-H;=wYC
-H;=zWC
+H;=#{m
+H;=%]m
+H;='SC
+H;=8Nl
+H;=<em
+H;==&m
+H;=?SC
+H;=H	l
+H;=H;m
+H;=N8m
+H;=Tjm
+H;=Xgm
+H;=`Im
+H;=mLm
+H;=mqm
+H;=qEl
 H;C r
 H;CHs
 H;S@w
@@ -3208,12 +3209,12 @@ Lc#E9
 Lc&D;f
 Lc'E)
 Lc+D;k
-Lc-:ik
+Lc-Jhk
 Lc/E)
 Lc/E1
 Lc6E9
 Lc7E)
-Lc=M|g
+Lc=]{g
 LcP t
 Lc[PD
 Lc[`E)
@@ -3244,6 +3245,8 @@ List the object class names known by scenesystem
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
 Location
+LockDynamicConstantBuffer failed in CSceneUtils::FilterTexture!!!
+LockDynamicConstantBuffer failed in CSkyBoxObjectDesc::DrawArray!!!
 Log out display list submits from scenesystem
 LogHandler
 LoggingSystem_IsChannelEnabled
@@ -4396,9 +4399,7 @@ VpropBreakablePartData_t
 VrLightCookieSettings
 VsInputSignature_t
 W H9r
-W%Rn6
 W0Hc_8A
-W5cF1
 WARNING
 WARNING: Could not find schema data for helper class for resource type %lld '%s'. (Missing MDiskDataForResourceType metadata or schema data isn't loaded?)
 WARNING: Directional lights not supported by the light binner!
@@ -4439,7 +4440,8 @@ X360_DST24F
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
-Y-y]*
+Y%M(3
+Y5?K0
 Y89Z8
 YD$$L
 YR ~UK
@@ -4470,15 +4472,16 @@ Zero length tRNS chunk
 \t!Hc
 \u0000
 \x%02x
-]%r!1
+]- 18
 ]0t@H
 ]Ht,A
 ^ H9_Hu
 ^ t+H
+^%W+*
+^%]#+
 ^(H9_Pt
-^-2@*
-^-L@*
-^-e@*
+^-J+*
+^-r@*
 ^8f9_X
 ^:f9_Z
 ^@H9_`t
@@ -5032,6 +5035,7 @@ fflush
 fflush@@GLIBC_2.2.5
 field
 file error
+filterfunctions.cpp
 filterinY
 filterinZ
 fixed poH
@@ -6162,12 +6166,13 @@ t$hE;t$xD
 t$lfA
 t%IcE
 t&Hcq
-t'D;5
+t'D;5^
 t'Hc{(H
 t'Hc{,H
 t'Hc{0H
 t'Hc{TH
 t'L;*H
+t);=R
 t)L;}
 t*<-H
 t*HcE
@@ -6208,7 +6213,7 @@ t?HcSpL
 t?Mcv
 t?[A\]
 t@@:>u
-t@Lc%
+t@Lc%y
 t@[A\A]A^]
 tEMcY
 tEMci

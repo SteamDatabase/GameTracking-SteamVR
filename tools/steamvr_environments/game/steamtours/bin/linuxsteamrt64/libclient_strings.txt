@@ -1367,6 +1367,7 @@ $~gHc
 ("%s")
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_Timeout
+(%)#&
 (%0.2f): %s
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
@@ -1379,17 +1380,17 @@ $~gHc
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
+(- #&
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (1@zD
-(5)/&
-(59<&
-(5q*Y
+(590&
+(5I=&
 (8HXhx
 (9s ~@H
-(= /&
-(=0<&
-(=fm&
+(=00&
+(=@=&
+(=vn&
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1878,11 +1879,15 @@ $~gHc
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 .%0*llu
-.%Sfo
+.%ezZ
 .(Optional) Set of tags for the published file.
-.--Z}
-.-<]}
-.-S>A
+.-!-A
+.--[}
+.-<^}
+.-c?A
+.-dJ`
+.-nK]
+.-|O]
 ../../_generated_code/client_steamtours/release/linuxsteamrt64/../../../../game/shared/world.cpp
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1919,7 +1924,6 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.5D0o
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -2276,6 +2280,7 @@ $~gHc
 0: custom accelaration disabled
 0<	v8H
 0<	w1
+0=close 1=default/nearby 2=far 3=world
 0@@:]
 0@Kcj
 0@ffffl
@@ -5630,7 +5635,7 @@ $~gHc
 6C_Guts
 6C_Team
 6ConVar
-6D#5+t
+6D#5;u
 6D;U$
 6F+U F
 6H92t%H
@@ -6475,8 +6480,6 @@ $~gHc
 @:#J{
 @:-OR&V
 @:2t'
-@:5M	
-@:5^	
 @:qPt
 @:w$UH
 @<8A<t
@@ -8864,7 +8867,7 @@ C8}~1
 C9,h5
 C<D;e
 C<[A\A]A^]
-C@D;%cy
+C@D;%S{
 C@D;k8D
 C@H;CHs
 C@Ll>
@@ -10982,6 +10985,10 @@ ConstraintType_t
 Container to hold context published to precache functions in script
 Container to hold keyvalues published to spawn functions in script
 Container to hold outputs published by script to game
+Content Browser: Found %d maps in addon '%s':
+Content Browser: Loading addon '%s'
+Content Browser: Loading map '%s'
+Content Browser: No map found for addon %s!
 Content Height
 Content Panel Scroll X
 Content Panel Scroll Y
@@ -11323,15 +11330,15 @@ D9 ~zH
 D9!t"
 D9!u"
 D9#~8H
-D9%Y2
-D9%c}#
+D9%	4
+D9%93
 D9't,H
 D9(t'I
 D9(t1H
 D9+~[L
 D90t[A
 D9;~dL
-D9=I2
+D9=94
 D9D$4B
 D9D$4H
 D9F<~
@@ -11375,18 +11382,17 @@ D:z	t
 D:z	tUHc
 D; t=H
 D;!t{Hc
-D;%oa
-D;%}P)
+D;%D~
+D;%MO)
+D;%_b
+D;%d|
 D;'t{
 D;'t{Hc
 D;*t>H
 D;+};H
-D;-\x
-D;-|S.
-D;-}R.
 D;.~3L
 D;.~9H
-D;5EC
+D;55E
 D;:tPH
 D;X,}
 D;`L|
@@ -13211,6 +13217,7 @@ GetAppID
 GetAttributeInt
 GetAttributeString
 GetAttributeUInt32
+GetAvailableAddonMaps failed to find any maps in the '%s' addon - trying fallback maps:
 GetBaseDamage
 GetBoneIndexForHitboxForMesh
 GetBool
@@ -13421,7 +13428,6 @@ H93tSE
 H97txH
 H9:tx
 H9:tyHcR
-H9=\,
 H9C(H
 H9D$ t6H
 H9D$(
@@ -13448,148 +13454,113 @@ H;0tHH
 H;0u%
 H;1t!
 H;2u$
-H;5cj
 H;8tU
 H;8t]
 H;:t(f
-H;=	'
-H;=	.
-H;=	A
-H;=	D
-H;=	T
-H;=	Y
-H;=	g
-H;=	}
-H;= :3
-H;= R.
-H;= }
-H;='Q
-H;=(v#
-H;=)!#
-H;=)"
-H;=)5
-H;=)H
-H;=)K
-H;=)T
-H;=*E)
-H;=-_ 
-H;=.^
-H;=.s
-H;=0 
-H;=0%
-H;=0N
-H;=37"
-H;=3x"
-H;=8}
-H;=9(
-H;=9/
-H;=9B
-H;=9E
-H;=9Z
-H;=9h
-H;=9y5
-H;=:O
-H;=:u)
-H;=>.
-H;=>F7
-H;=>\
-H;=>q
-H;=>}
-H;=@6
-H;=@:5
-H;=@G
-H;=@Y&
-H;=@c.
-H;=@h)
-H;=@v
-H;=I!
-H;=I"
-H;=I)
-H;=I<
-H;=I?
-H;=IO
-H;=IW#
-H;=I[
-H;=Iu@
-H;=K!#
-H;=N,
-H;=NZ
-H;=Nv#
-H;=Nz
-H;=N{
-H;=O1 
-H;=OQ
-H;=P#
-H;=P)#
-H;=PQ*
-H;=Ps%
-H;=P~&
-H;=Q+D
-H;=Q28
-H;=RO
-H;=R_ 
-H;=Xy
-H;=Y#
-H;=Y0*
-H;=Y6
-H;=Y9
-H;=YI
-H;=YL
-H;=YU
-H;=YY.
-H;=]zC
-H;=^: 
-H;=^X
-H;=^x
-H;=^y
-H;=`	.
-H;=cs$
-H;=d>"
-H;=dF7
-H;=gQ
-H;=i)
-H;=i-8
-H;=i0
-H;=i5
-H;=iC
-H;=iF
-H;=i[
-H;=if8
-H;=kW#
-H;=mND
-H;=nV
-H;=nf
-H;=nv
-H;=nw
-H;=oL
-H;=p!
-H;=p&
-H;=p8#
-H;=p:7
-H;=p@#
-H;=pO4
-H;=py
-H;=q6D
-H;=q8!
-H;=qp@
-H;=s}B
-H;=tv#
-H;=u(E
-H;=x_ 
-H;=y	
-H;=y"
-H;=y#
-H;=y*
-H;=y=
-H;=y@
-H;=yP
-H;=y\
-H;={0*
-H;={Y.
-H;=}1D
-H;=~T
-H;=~t
-H;=~u
+H;=	&)
+H;=	)
+H;=	<
+H;=	=
+H;=	O
+H;=	P
+H;=	^
+H;=	tI
+H;= "
+H;= '
+H;= y5
+H;=%|1
+H;=(K&
+H;=)&
+H;=)0
+H;=)C
+H;=)D
+H;=)R
+H;=)Y
+H;=)m#
+H;=+&)
+H;=.P
+H;=.w
+H;=0&5
+H;=0>*
+H;=0T
+H;=0i5
+H;=1N
+H;=2F7
+H;=2u)
+H;=7R
+H;=9 
+H;=9*
+H;=9=
+H;=9>
+H;=9?;
+H;=9P
+H;=9Q
+H;=9QI
+H;=9_
+H;=>N
+H;=>u
+H;=@%
+H;=Bv#
+H;=C!7
+H;=HE)
+H;=I#
+H;=I$
+H;=I7
+H;=IJ
+H;=IK
+H;=IY
+H;=Ig
+H;=I}
+H;=JK&
+H;=Km#
+H;=M&D
+H;=N/
+H;=NL
+H;=Ns
+H;=P45
+H;=P@5
+H;=SG 
+H;=SSJ
+H;=XF7
+H;=Xu)
+H;=Y'
+H;=Y1
+H;=YD
+H;=YE
+H;=YS
+H;=YZ
+H;=^-
+H;=^J
+H;=^q
+H;=`#
+H;=`:3
+H;=`R.
+H;=hv#
+H;=i!
+H;=i!#
+H;=i+
+H;=i>
+H;=i?
+H;=iQ
+H;=jE)
+H;=m_ 
+H;=no
+H;=pN
+H;=p~
+H;=s7"
+H;=sx"
+H;=y$
+H;=y%
+H;=y8
+H;=yK
+H;=yL
+H;=yZ
+H;=yh
+H;=yy5
+H;=zu)
+H;=~F7
+H;=~e
+H;=~m
 H;>t[H
 H;C I
 H;C r
@@ -13708,9 +13679,9 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5@&
-Hc5e\
+Hc50(
 Hc8Hi
+Hc=`/&
 Hc@ H
 Hc@$H
 Hc@(H
@@ -13809,7 +13780,6 @@ HcJ|1
 HcK 1
 HcK$1
 HcK(1
-HcK(L
 HcK,1
 HcK01
 HcK41
@@ -14735,7 +14705,9 @@ L9cHv
 L9l$(u
 L9t$(u
 L9|$HJ
+L;-\~x
 L;0t!A
+L;5^0 
 L;?u"
 L;d$@L
 L;{ t
@@ -14822,21 +14794,21 @@ Lc!D;a
 Lc"D;b
 Lc#D;c
 Lc#E9
-Lc%Z}#
-Lc%iy
+Lc%	'.
+Lc%Y{
+Lc%yb
 Lc&D;f
 Lc'D;g
 Lc'E)
 Lc+D)
 Lc+D;k
-Lc-sS.
-Lc-tR.
 Lc/E)
 Lc/E1
 Lc1D;q
 Lc3D;s
 Lc3E9
-Lc5<C
+Lc5,E
+Lc5|D
 Lc6E9
 Lc7E)
 Lc;D;{
@@ -16131,7 +16103,7 @@ No free server controlled control points.
 No image in file
 No key specified
 No know mod!
-No map found for addon!
+No map found for addon %s!
 No matches for '%s' found
 No memory for pCAL params
 No memory for pCAL purpose
@@ -16631,7 +16603,7 @@ PersonaName
 PersonaNameReplacementToken
 PersonalBubbleSlider
 PhA9]P~+L
-PhHc5
+PhHc59
 Ph[A\]
 Phags_Pa
 Phoenician
@@ -18452,12 +18424,9 @@ T$hA)
 T$lHc
 T$pH9
 T$pL)
-T%!T/
-T%%V/
-T%3R/
-T%fU/
-T%zQ/
-T-_S/
+T%6V/
+T%JR/
+T-/T/
 T.$Hc
 T0@GZ
 T5i@H
@@ -18981,7 +18950,7 @@ Unable to create default camera. Aborting...
 Unable to create non-precached breakmodel %s
 Unable to create object of type %d
 Unable to determine buffer encoding.
-Unable to find map for addon save game.
+Unable to find map for save game for addon %s!
 Unable to find mapping for flexcontroller %i, settings %p on %i/%s
 Unable to init game event %s
 Unable to invite we aren't the server or we don't have a lobby yet!
@@ -19454,16 +19423,16 @@ Vulkan
 W H9r
 W HcE
 W HcG
-W%4r-
 W%:O&t
-W%@i-
+W%Dr-
+W%Pi-
 W(Aq=
 W(H92t'H
 W,:V,u
 W0Hc_8A
 W0t	H
 W3|Uxa
-W5TW4
+W5dW4
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -19657,11 +19626,8 @@ Wzm6V"
 W{@3333
 X zR&="@r
 X$HcH 
-X%evj
-X%jBq
 X(9Y(
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-;bf
 X0~tA
 X2:jH
 X360_DST16
@@ -19685,18 +19651,21 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Y ANb
-Y%88M
-Y%FE8
-Y%FG8
-Y%hzP
+Y%H8M
+Y%NiZ
+Y%VF8
+Y%VH8
+Y%xzP
 Y(;Y8
 Y(E9^(A
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-cdc
-Y-k8M
+Y-3ec
+Y-{8M
 Y/&4@4
+Y53q=
+Y5Xr=
 Y6	@W'g(
-Y=6yj
+Y=~zf
 Y?3333E
 YD$$L
 YGDUH
@@ -19825,9 +19794,8 @@ Z}uU
 \$HfA
 \$hIcEXI
 \$xA;
+\%$1q
 \%03o
-\%2L`
-\%MHa
 \C not allowed in lookbehind assertion
 \I8r!H
 \N is not supported in a class
@@ -21793,8 +21761,10 @@ destinations_load_addon
 destinations_load_addon %s
 destinations_load_addon steamvr_home
 destinations_load_addon steamvr_tutorial
+destinations_load_addon: Found %d maps in addon '%s':
 destinations_load_savegame
 destinations_load_savegame "%s" "%s" "%s"
+destinations_load_savegame: Found %d maps in addon '%s':
 destinations_map_sort
 destinations_mute_others
 destinations_mute_self
@@ -28321,6 +28291,7 @@ steamtours_debug_notification
 steamtours_debug_panorama
 steamtours_gamerules
 steamtours_join_friend
+steamtours_multiplayer_distance_filter
 steamtours_multiplayer_max_players_for_matchmaking
 steamtours_multiplayer_open
 steamtours_multiplayer_public_lobby_refresh_time
@@ -28602,7 +28573,7 @@ t$<H)
 t$@A\]
 t$@tsHc
 t$D9j
-t$D;-SG
+t$D;-
 t$H9:H
 t$H9h
 t$HcK
@@ -28630,20 +28601,19 @@ t$pH)
 t$xH)
 t%;2t%H
 t%D; tXH
-t%D;%
-t%D;-
+t%D;%d;
+t%D;-4
 t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
 t&@8>t+H
 t&D;%
 t&D;=
-t&D;=u
 t&Hc]
 t&Hcq
 t'<"t
 t'D;%
-t'D;5N
+t'D;5
 t'Hc{
 t'Hc{ H
 t'Hc{$H
@@ -28668,8 +28638,6 @@ t(Ic},H
 t(Ic}@H
 t(Ic~0H
 t([A\A]A^]
-t);52
-t);=B
 t)Lc+D;k
 t* Hc
 t*(Hc
@@ -28686,7 +28654,7 @@ t*LcC
 t*fA9
 t+<\u
 t+D9s
-t+D;-ZB
+t+D;-
 t+Hc4
 t+HcO
 t+Hcsp
@@ -28705,7 +28673,7 @@ t-Mc4$E;t$
 t-Mcv
 t-rex
 t.D9p
-t.D;%
+t.D;%]
 t.Lc#M
 t.Lc{
 t.fA9
@@ -28717,6 +28685,7 @@ t1IcG
 t1IcV
 t1Mc}
 t1[A\]
+t2Lc+M
 t2[A\]
 t3D8J
 t3HcsPH
@@ -28734,7 +28703,6 @@ t5~8H
 t6 H)
 t6H;C t0H
 t6Lc#H
-t6Lc#I
 t7<.u&
 t7D;&~&L
 t7D;.~'L
@@ -28761,7 +28729,7 @@ t?Mcv
 t?[A\]
 t@@:>u
 t@Ic_
-t@Lc%
+t@Lc%yM
 t@[A\A]A^]
 t@}?5^
 tALcc
@@ -28770,9 +28738,9 @@ tAffffhF
 tAw3A
 tBL;h L
 tBViewEffects
-tCLc%D
+tCLc%
 tC[A\A]A^]
-tD@:5Y	
+tD@:5
 tDHcx D
 tEMcY
 tEMci
@@ -28844,7 +28812,7 @@ taunt
 tax_usd
 tbHcO
 tb[A\]
-tc@:5T	
+tc@:5
 tcHcQ
 tcUE1
 tchinese

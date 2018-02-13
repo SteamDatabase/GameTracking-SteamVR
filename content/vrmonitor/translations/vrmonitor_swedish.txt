@@ -1979,5 +1979,7 @@
 "[english]Settings_LockedModeCheck"	"Locked Mode"
 "Settings_LockedModeDesc"	"Tillåt rendering till headset medan arbetsstationen är låst."
 "[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
+"Advanced_Bluetooth"	"Bluetooth"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

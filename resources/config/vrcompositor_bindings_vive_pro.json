@@ -1,5 +1,5 @@
 {
-	  "controller_type" :	"vive",
+	  "controller_type" :	"vive_pro",
     "action_binds": [
         {
             "action": "/actions/system/in/ToggleDashboard",
@@ -12,6 +12,18 @@
         {
             "action": "/actions/system/in/ToggleRoomView",
             "source": "/filters/system_button/double"
+        },
+        {
+            "action": "/actions/system/in/VolumeUp",
+            "source": "/user/head/input/volume_up/click"
+        },
+        {
+            "action": "/actions/system/in/VolumeDown",
+            "source": "/user/head/input/volume_down/click"
+        },
+        {
+            "action": "/actions/system/in/MuteMicrophone",
+            "source": "/user/head/input/mute_mic/click"
         }
     ],
 

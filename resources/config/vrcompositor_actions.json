@@ -26,6 +26,21 @@
 			"scope" : "global"
         },
         {
+            "name" : "/actions/system/in/VolumeUp",
+            "type" : "boolean",
+            "scope" : "global"
+        },
+        {
+            "name" : "/actions/system/in/VolumeDown",
+            "type" : "boolean",
+            "scope" : "global"
+        },
+        {
+            "name" : "/actions/system/in/MuteMicrophone",
+            "type" : "boolean",
+            "scope" : "global"
+        },
+        {
             "name" : "/actions/lasermouse/in/SwitchLaserHand",
             "type" : "boolean"
         },
@@ -78,6 +93,14 @@
             "type" : "boolean"
         },
         {
+			"name": "/actions/lasermouse/in/SwitchGamepadFocus",
+			"type": "boolean"
+        },
+        {
+            "name" : "/actions/lasermouse/in/TrackpadScroll",
+            "type" : "vector3"
+        },
+		{
             "name" : "/actions/dualanalog/in/LeftValue",
             "type" : "vector2"
         },
@@ -129,18 +152,43 @@
             "/actions/system/in/SystemButtonChord" : "System Button",
             "/actions/system/in/ShowPowerMenu" : "Show Power Menu",
 
-            "/actions/lasermouse/in/LeftClick" : "Left Click",
-            "/actions/lasermouse/in/RightClick" : "Right Click",
-            "/actions/lasermouse/in/Home" : "Home",
-            "/actions/lasermouse/in/Back" : "Back",
-            "/actions/lasermouse/in/MoveRight" : "Move Right",
-            "/actions/lasermouse/in/MoveUp" : "Move Up",
-            "/actions/lasermouse/in/MoveLeft" : "Move Left",
-            "/actions/lasermouse/in/MoveDown" : "Move Down",
+            "/actions/lasermouse/in/leftclick" : "Left Click",
+            "/actions/lasermouse/in/rightclick" : "Right Click",
+            "/actions/lasermouse/in/home" : "Home",
+            "/actions/lasermouse/in/back" : "Back",
+            "/actions/lasermouse/in/moveright" : "Move Right",
+            "/actions/lasermouse/in/moveup" : "Move Up",
+            "/actions/lasermouse/in/moveleft" : "Move Left",
+            "/actions/lasermouse/in/movedown" : "Move Down",
+            "/actions/lasermouse/in/switchlaserhand" : "Switch Hand",
+            "/actions/lasermouse/in/trackpadtouch" : "Trackpad Touch",
+			"/actions/lasermouse/in/trackpadvalue": "Trackpad Move",
+			"/actions/lasermouse/in/SwitchGamepadFocus" :  "Switch Gamepad Focus",
+           "/actions/lasermouse/in/TrackpadScroll" :  "Scroll Overlay",
+            "/actions/dualanalog/in/rightclick" : "Right Click",
+            "/actions/dualanalog/in/leftclick" : "Left Click",
+            "/actions/dualanalog/in/righttouch" : "Right Touch",
+            "/actions/dualanalog/in/lefttouch" : "Left Touch",
+            "/actions/dualanalog/in/rightvalue" : "Right Move",
+            "/actions/dualanalog/in/leftvalue" : "Left Move",
+            "/actions/dualanalog/in/modeswitch1" : "Left Back",
+            "/actions/dualanalog/in/modeswitch2" : "Right Back",
+            "/actions/dualanalog/in/cancel" : "Cancel",
+            "/actions/system/in/systembuttonchord" : "System Chord",
+            "/actions/system/in/toggleroomview" : "Toggle Room View",
+            "/actions/system/in/volumeup" : "Volume Up", 
+            "/actions/system/in/volumedown" : "Volume Down", 
+            "/actions/system/in/toggledashboard" : "Toggle Dashboard", 
+            "/actions/system/in/showpowermenu" : "Show Power Menu",
+            "/actions/system/in/takescreenshot" : "Take Screenshot",
+            "/actions/system/in/mutemicrophone" : "Mute Microphone",
+            "/actions/lasermouse/in/enter" : "Mouse Enter",
 
-			"/actions/normal" : "Normal operation",
-			"/actions/chord" : "System Button Chords",
-			"/actions/lasermouse" : "Laser Mouse"
+            "/actions/normal" : "Normal operation",
+            "/actions/chord" : "System Button Chords",
+            "/actions/lasermouse" : "Laser Mouse",
+            "/actions/dualanalog" : "Keyboard Entry",
+            "/actions/system" : "System Buttons"
         }
     ]
 }

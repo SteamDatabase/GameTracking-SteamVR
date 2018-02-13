@@ -1963,5 +1963,7 @@
 "[english]Settings_LockedModeCheck"	"Locked Mode"
 "Settings_LockedModeDesc"	"工作站被锁定时允许渲染至头戴式显示器。"
 "[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
+"Advanced_Bluetooth"	"蓝牙"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

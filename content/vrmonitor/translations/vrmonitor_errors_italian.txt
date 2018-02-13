@@ -869,7 +869,7 @@
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows deve essere in modalità sviluppatore per utilizzare il driver bridge di Windows MR."
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Abilita la modalità sviluppatore di Windows"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Clicca qui per ulteriori informazioni"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

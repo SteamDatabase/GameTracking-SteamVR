@@ -867,9 +867,9 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"需要 Windows 开发者模式"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows 需要处于开发者模式才能使用 Windows MR 桥驱动。"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"要在 SteamVR 中使用 Windows 混合现实，您需要安装最新 Windows 更新。"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"将 Windows 设为开发者模式"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"点击此处了解更多信息"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

@@ -869,11 +869,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Neu starten"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows-Entwicklermodus erforderlich"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Aktuelle Windows-10-Installation erforderlich"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Um SteamVR mit Windows Mixed Reality zu verwenden, müssen Sie das aktuellste Windows-Update installieren."
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"In Windows-Entwicklermodus wechseln"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Klicken Sie hier für weitere Informationen."
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

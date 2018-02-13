@@ -501,6 +501,8 @@ $woL)
 -use_tier2_bundle
 -use_tier3_bundle
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+.%7?%
+.%]@%
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
 ../../public/ordered_constructor.h
@@ -2369,6 +2371,7 @@ Get the entity name
 Get the entity name w/help if not defined (i.e. classname/etc)
 GetAddonsContentDirectory: Failed to find CONTENTADDONS search path.
 GetAddonsDirectory: Failed to find ADDONS search path.
+GetAvailableAddonMaps failed to find any maps in the '%s' addon - trying fallback maps:
 GetBoneIndexForHitboxForMesh
 GetBool
 GetCPUInformation
@@ -4927,6 +4930,7 @@ t.D9p
 t.Lc#M
 t.fA9
 t/9w t29w0t=1
+t2Lc+M
 t2[A\]
 t3[A\]
 t4HcS
@@ -4934,7 +4938,6 @@ t4[A\A]A^]
 t4[A\]
 t5[A\]
 t6Lc#H
-t6Lc#I
 t7D;&~&L
 t7D;.~'L
 t8D;&~'L

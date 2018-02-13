@@ -1022,7 +1022,6 @@ You need to name the scheme (%s)!
 []A\A]
 []A\A]A^
 []A\A]A^A_
-[gb210
 [{KEY_LBRACKET
 \t!Hc
 \u0000

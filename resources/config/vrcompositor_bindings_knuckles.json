@@ -30,6 +30,10 @@
             "source": "/filters/trigger_primary/click"
         },
         {
+            "action": "/actions/lasermouse/in/RightClick",
+            "source": "/filters/lasermouse_dpad/east"
+        },
+        {
             "action": "/actions/lasermouse/in/Back",
             "source": "/user/hand/primary/input/grip/click"
         },
@@ -111,6 +115,22 @@
       }
     },
     {
+    	"name": "lasermouse_dpad",
+    	"type": "dpad",
+    	"action_sets": [ "/actions/lasermouse" ],
+    	"input": {
+    		"x" : "/user/hand/primary/input/trackpad/x",
+    		"y" : "/user/hand/primary/input/trackpad/y",
+    		"enable" : "/user/hand/primary/input/trackpad/click"
+    	},
+    	"output" : {
+    		"north" : "north",
+    		"south" : "south",
+    		"east" : "east",
+    		"west" : "west"
+    	}
+    },
+   {
       "name": "screenshot_chord",
       "type": "boolean_and",
       "action_sets": [ "/actions/chord" ],

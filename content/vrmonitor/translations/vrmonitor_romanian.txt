@@ -1392,5 +1392,9 @@
 "[english]BugReporter_ProgressSubmitting"	"Submitting..."
 "BugReporter_ProgressSubmittingPercent"	"Se trimite...%1%"
 "[english]BugReporter_ProgressSubmittingPercent"	"Submitting...%1%"
+"Settings_LockedModeCheck"	"Mod blocat"
+"[english]Settings_LockedModeCheck"	"Locked Mode"
+"Settings_LockedModeDesc"	"Permite randarea la headset când stația de lucru este blocată."
+"[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
 }
 }

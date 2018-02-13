@@ -734,30 +734,29 @@
 "Warning_DismissableWarning_MissedFrames_ActionURL" " "
 
 "Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Bluetooth Driver"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "A driver needs to be installed to complete Link Box installation. SteamVR needs to be restarted after successful installation."
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Install"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://vivelink/driverinstall"
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "A driver needs to be installed to complete Link Box installation."
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Bluetooth Settings"
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://open/settings/bluetooth"
 
-"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Header" "Bluetooth Driver installation failed"
-"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Description" "A driver needs to be installed to complete Link Box installation. Restart SteamVR and try again."
-"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Action" "Retry"
-"Warning_DismissableWarning_BluetoothDriverFailedInstallation_ActionURL" "vrmonitor://vivelink/driverinstall"
-
-"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Header" "Bluetooth Link"
-"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Description" "Bluetooth Link needs to be installed to enable Link Box communication."
-"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Action" "Install"
-"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_ActionURL" "vrmonitor://vivelink/install"
-
-"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Header" "Bluetooth Link installation failed"
-"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Description" "Bluetooth Link needs to be installed to enable Link Box communication. Restart SteamVR and try again."
-"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Action" "Retry"
-"Warning_DismissableWarning_BluetoothLinkFailedInstallation_ActionURL" "vrmonitor://vivelink/install"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Header" "Bluetooth Driver"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Description" "A driver needs to be updated to complete Link Box installation."
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Action" "Bluetooth Settings"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_ActionURL" "vrmonitor://open/settings/bluetooth"
 
 "Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Bluetooth Link communication failed"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Bluetooth Link might need to restart to enable Link Box communication. Restart SteamVR if this fails."
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Restart"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://vivelink/restart"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Check link box connections, then unplug and replug power to the link box to reset it, then restart SteamVR."
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Bluetooth Settings"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://open/settings/bluetooth"
 
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Bluetooth Link Serivce not found"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "A file we need for SteamVR is missing, please check your SteamVR installation."
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "Troubleshooting"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Bluetooth Link Serivce error"
+"Warning_DismissableWarning_BluetoothLinkServiceError_Description" "There was an unexpected problem within the Bluetooth system."
+"Warning_DismissableWarning_BluetoothLinkServiceError_Action" "Bluetooth Settings"
+"Warning_DismissableWarning_BluetoothLinkServiceError_ActionURL" "vrmonitor://open/settings/bluetooth"
 
 "Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Mirroring Displays"
 "Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "Some displays seemed to be set to mirror its content. This might impact your graphics performance, or renders the headset display unusable."
@@ -804,6 +803,11 @@
 "Warning_DismissableWarning_NewDriverInstalled_Description" "To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action" "Restart"
 "Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
+
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Headset Plugged Into Wrong Video Card"
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "This application requires the headset and the main monitor be plugged into the same graphics card."
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" " "
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" " "
 
 
 }

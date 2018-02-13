@@ -3570,6 +3570,7 @@ ThreadGetCurrentId
 ThreadInterlockedExchange64
 ThreadSleep
 ThreadYield
+TmTm 
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001

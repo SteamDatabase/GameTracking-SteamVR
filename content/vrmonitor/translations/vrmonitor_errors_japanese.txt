@@ -865,11 +865,11 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"To use your new driver you will need to restart SteamVR."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"再起動"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows 開発者モードが必須"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"最新版 Windows 10 のインストールが必須"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Up to date Windows 10 install required"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Windows MR ブリッジドライバを使用するには Windows を開発者モードにする必要があります。"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"SteamVR を Windows Mixed Reality で使用するには、最新の Windows アップデートをインストールする必要があります。"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Windows を開発者モードに設定する"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"詳細はこちらをクリック"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Click here for more information"
 }
 }

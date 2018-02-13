@@ -1963,5 +1963,7 @@
 "[english]Settings_LockedModeCheck"	"Locked Mode"
 "Settings_LockedModeDesc"	"Autoriser l’affichage dans le casque lorsque l’ordinateur est verrouillé."
 "[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
+"Advanced_Bluetooth"	"Bluetooth"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

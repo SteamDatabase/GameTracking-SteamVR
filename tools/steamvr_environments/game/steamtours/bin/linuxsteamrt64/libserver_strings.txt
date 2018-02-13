@@ -1385,11 +1385,12 @@ $woL)
 ("%s")
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_Timeout
+(% D]
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
-(%Gds
-(%`@]
+(%3^Q
+(%;L]
 (%d %d %d %d)
 (%d) %s
 (%d) ------> %s ( HELD BY %s ) 
@@ -1401,8 +1402,6 @@ $woL)
 (%g %g %g)
 (%g %g)
 (%s) Schedule (%s) Failed at %d!
-(%sZQ
-(%{H]
 (*%s*), 
 (0x%08X)'??'
 (1@zD
@@ -1731,7 +1730,8 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.-|+\
+.%laZ
+.-</\
 ...%s
 ...done building AI node graph, %f seconds
 ...done determining links. %f seconds
@@ -1767,8 +1767,7 @@ $woL)
 ../public/tier2/fieldpath.h
 ..\content
 .0z&u$
-.=5(j
-.=>qY
+.5U+j
 .>()09
 .@(."
 .@,wqH
@@ -1861,6 +1860,7 @@ $woL)
 .K,z[
 .K8zBf
 .KdzIuGH
+.M;@A
 .M;UU
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
 .O<{4
@@ -6191,6 +6191,7 @@ $woL)
 6CModel
 6CWorld
 6ConVar
+6D#5{
 6F+U F
 6H92t%H
 6H92u
@@ -6417,14 +6418,13 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;=kwN
-;=pwN
 ;@*$pV
 ;A0}4H
 ;A;<$|
 ;Affff
 ;C0trH
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
+;Hc5y
 ;K(}&H
 ;L9'u
 ;L9/u
@@ -10834,7 +10834,7 @@ CPropHMDAvatar::CEntityInstanceEntityClass
 CPropVRHand
 CPropVRHand::CEntityInstanceEntityClass
 CPropVRTrackedObject::CEntityInstanceEntityClass
-CPropVRTrackedObject::PostSetModel: AddWeldJoint failed! (desc %s)
+CPropVRTrackedObject::PostSetModel: AddWeldJoint failed: '%s' -> '%s' (desc %s) class %s model '%s' mass %f maxForce %f maxTorque %f origin %f %f %f angles %f %f %f
 CPropVehicle
 CPropVehicle::CEntityInstanceEntityClass
 CPropVehicleDriveable
@@ -11899,7 +11899,7 @@ D9't,H
 D9(t'I
 D9(t1H
 D92tY1
-D9=9W
+D95A6
 D9W(~mL
 D9`0u
 D9c<t
@@ -11919,12 +11919,13 @@ D:gTt
 D;!t{Hc
 D;#}|E
 D;$%H
-D;%4r?
+D;%4wV
 D;'t{
 D;'t{Hc
 D;(t)
 D;*t>H
 D;,%H
+D;-o;
 D;.~3L
 D;.~9H
 D;:tPH
@@ -12797,6 +12798,7 @@ Error could not find 'item_generators' in contentdb.txt!
 Error could not find 'playtime_item_generators' in contentdb.txt!
 Error loading contentdb.txt: %s
 Error loading resource "%s" (Invalid resource version: %d != %d)
+Error map!
 Error parsing soundscape file %s after %s
 Error parsing text-format 
 Error reading sub-version number.
@@ -13606,6 +13608,7 @@ GetAngle
 GetAnglesAsVector
 GetAngularVelocity
 GetAppID
+GetAvailableAddonMaps failed to find any maps in the '%s' addon - trying fallback maps:
 GetBadgeLevel
 GetBaseDamage
 GetBaseVelocity
@@ -13815,7 +13818,6 @@ H92tyHcR
 H9:tqHcR 
 H9:tx
 H9:tyHcR
-H9=B}
 H9C t
 H9C(t
 H9J u
@@ -13845,78 +13847,71 @@ H;2u$
 H;3t*H
 H;7t)H
 H;:t(f
-H;=	"`
-H;=	&
-H;=	3c
-H;=	I
-H;= +F
-H;= n>
-H;=!.c
-H;=#@;
-H;=%M`
-H;=),<
-H;=)=
-H;=)uF
-H;=-t\
-H;=.G
-H;=.h
-H;=0%F
-H;=1Cc
-H;=1oi
-H;=8c=
-H;=9'
-H;=90>
-H;=9S
-H;=;.e
-H;==:`
-H;=>E
-H;=>f
-H;=@[B
-H;=A4`
+H;=	+
+H;=	;
+H;=	}'
+H;= 2<
+H;= NF
+H;=#D^
+H;=%^J
+H;=)B
+H;=*G;
+H;=*c=
+H;=.:
+H;=.{
+H;=0AI
+H;=0sJ
+H;=6pJ
+H;=9,
+H;=9<
+H;=9UI
+H;=>8
+H;=>y
+H;=@	C
+H;=@)G
+H;=@1C
+H;=@JI
+H;=@tC
 H;=C-e
-H;=E)`
-H;=I!
-H;=I)c
-H;=I>c
-H;=ID
-H;=Ifc
-H;=K,<
-H;=KuF
-H;=NC
-H;=Nd
-H;=P`I
-H;=QX`
-H;=S,e
-H;=U9c
-H;=Y%f
-H;=Y>
-H;=YD=
-H;=Y|'
-H;=Z%<
-H;=[0>
-H;=]/`
-H;=]x`
-H;=^A
-H;=^c=
-H;=`FA
-H;=`[F
-H;=c4e
-H;=gG;
-H;=i	
-H;=i(
-H;=iAF
-H;=mE\
-H;=n?
-H;=p[C
-H;=pcF
-H;=qeg
-H;=qo`
-H;=y"
-H;=yE
-H;=yaC
-H;={D=
-H;=~=
-H;=~yJ
+H;=DB>
+H;=Ez\
+H;=I&
+H;=K,e
+H;=N6
+H;=Nw
+H;=Qkc
+H;=Y 
+H;=YC
+H;=YXc
+H;=Y}I
+H;=[UI
+H;=^4
+H;=^t
+H;=^u
+H;=`+I
+H;=`?C
+H;=`KC
+H;=e~`
+H;=g^J
+H;=gzJ
+H;=i=
+H;=jB>
+H;=m_`
+H;=mb=
+H;=n2
+H;=nr
+H;=ns
+H;=p/G
+H;=pmF
+H;=sMJ
+H;=y'
+H;=yY=
+H;={	a
+H;={}I
+H;=~(;
+H;=~0
+H;=~p
+H;=~q
 H;>t[H
 H;B0u
 H;C r
@@ -14444,6 +14439,7 @@ Importing a response system with %d Enumerations; not supported in new system.
 Importing a response system with no Criteria
 Importing a response system with no Responses.
 Importing a response system with no Rules
+In error map - disconnecting...
 In level transition: %s %s
 In multiplayer games, don't repeat captions more often than this many seconds.
 In-world UI panel
@@ -15302,6 +15298,7 @@ Lc!D;a
 Lc#D9b
 Lc#D;c
 Lc#E9
+Lc%FwV
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -20248,19 +20245,18 @@ VsInputSignature_t
 Vulkan
 W ;2t$H
 W H9r
-W%'B9
-W%R$\
+W%'Y8
+W%7B9
 W(Aq=
 W(H92t'H
-W-b$\
+W-"(\
 W3|Uxa
-W5F'\
-W5h&\
-W5j$\
-W=+'\
-W=b'\
-W=r$\
-W=w'\
+W5(*\
+W5*(\
+W5P*\
+W="+\
+W=2(\
+W=7+\
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -20451,13 +20447,11 @@ Wrong alignment %d
 Wzm6V"
 W{@3333
 X zR&="@r
-X%u6@
 X(9Y(
-X-&|D
+X-v|D
 X2:jH
 X9t6@
 X=2v?
-X=SI[
 X@TA;U<
 X@ffff
 XAxis
@@ -20487,17 +20481,10 @@ XfA9D]
 Xg8Hc
 XxHc@t
 Y ANb
-Y%Vt%
-Y%Vv%
-Y%h[$
 Y(;Y8
 Y(E9^(A
-Y-$7%
 Y/&4@4
 Y6	@W'g(
-Y=]So
-Y=x"$
-Y=}s8
 Y?3333E
 Y?[A\]
 Y@CPropVRTrackedObject
@@ -20604,9 +20591,7 @@ Z}uU
 \$hIcEXI
 \$h[A\]
 \%03o
-\-i?9
-\-zf9
-\5d~Y
+\-y?9
 \U%08x
 \r@n|7'@^
 \softlinks\
@@ -20619,7 +20604,7 @@ Z}uU
 ]"^AR
 ]%h@sh
 ](t[H
-]511e
+]5q4e
 ]7@Kvl
 ]8[A\A]A^]
 ]H+G 
@@ -20632,7 +20617,7 @@ Z}uU
 ]hIcE`L
 ]u9n5;> )"
 ^ t+H
-^%4^\
+^%ta\
 ^)8~@
 ^-wf"
 ^8D9+
@@ -22512,6 +22497,7 @@ fA;Gnv
 fA;\$6
 fA;\$n
 fA;_n
+fD9%T
 fD9/t0H
 fD91u|
 fD9cV
@@ -30677,12 +30663,13 @@ t%HcO
 t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
-t&D;=e6
+t&;57?
+t&D;=
 t&HcC
 t&Hcq
 t&[A\]
 t'<"t
-t'D;5N
+t'D;5
 t'HcC
 t'HcK
 t'HcM
@@ -30706,7 +30693,6 @@ t(H;p
 t(HcO
 t([A\A]A^]
 t([A\]
-t);=B
 t)Lc+D;k
 t)fD9
 t* Hc
@@ -30735,7 +30721,7 @@ t+fA9
 t,H;p
 t,I9}
 t,L;e
-t,Lc%E
+t,Lc%
 t-Mc4$E;t$
 t-rex
 t.D9p
@@ -30748,6 +30734,7 @@ t/Lc+
 t1IcV
 t1[A\]
 t2H9q
+t2Lc+M
 t2[A\]
 t3[A\]
 t4D;;
@@ -30763,7 +30750,6 @@ t5~8H
 t6D;gXI
 t6L9s
 t6Lc#H
-t6Lc#I
 t6[A\]
 t7D;&~&L
 t7D;.~'L
@@ -30793,7 +30779,7 @@ t?[A\]
 t@@:>u
 t@D;(};E
 t@Ic_
-t@Lc%y
+t@Lc%)
 t@[A\A]A^]
 t@[A\]
 t@}?5^
@@ -30804,7 +30790,7 @@ tAffffhF
 tB<#t>
 tBHc]
 tBIcV
-tCLc%
+tCLc%d
 tDD9I
 tEE;G
 tEMcY
@@ -31664,8 +31650,8 @@ x8Lcc D;c0
 x8Mcl$ E;l$0
 x8udL
 x8uwH
+x:;=L
 x:Hcw
-x;;=<
 xED;c }?E
 xGHcO
 xJA;E
@@ -31787,6 +31773,7 @@ zNear
 zNuLH
 zOuMD
 zOuMH
+zPuND
 zPuNE
 zPuNH
 zRuPI
@@ -31923,7 +31910,7 @@ z|uzI
 }3fA;\$Vw+H
 }3fA;\$~w+H
 }3fA;]fw,L
-}5D;-a
+}5D;-
 }8f;rnw2f
 }:f;pnw4f
 }>;w$
@@ -31944,7 +31931,7 @@ z|uzI
 }Hf;w
 }I;w$
 }J@:w
-}JD;-
+}JD;-'
 }KfD9
 }Lf;w
 }N;w$
@@ -31977,7 +31964,7 @@ z|uzI
 ~(A\A]A^A_]
 ~)A;]
 ~)H97tC
-~)H9=
+~)H9=cz
 ~)H;^
 ~*HcE
 ~*I;X
