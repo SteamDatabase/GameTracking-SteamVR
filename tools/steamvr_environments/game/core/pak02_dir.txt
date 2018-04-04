@@ -135,7 +135,7 @@ particles/entity/env_explosion/explosion_firecloud.vpcf_c CRC:005e10ca0a size:13
 particles/entity/env_explosion/explosion_smoke.vpcf_c CRC:00345e204e size:1490
 particles/error/error.vpcf_c CRC:0090fcbd65 size:860
 resource/keybindings_english.txt CRC:00e52d3f20 size:196
-resource/valve_english.txt CRC:0084667bf8 size:54744
+resource/valve_english.txt CRC:0082736571 size:56718
 resource/vgui_english.txt CRC:0075119d4d size:17758
 resourcemanifests/addon_resources.vrman_c CRC:006af7e63b size:475
 scripts/soundmixers.txt CRC:001f203e8f size:36664
@@ -157,11 +157,10 @@ scripts/vscripts/utils/vscriptinit.lua CRC:00e9fd6bfd size:20747
 soundevents/soundevents_addon.vsndevts_c CRC:0076f99deb size:568
 soundevents/soundevents_manifest.vrman_c CRC:009a3b72ff size:480
 soundstacks/mixgraph.vmix_c CRC:008c975486 size:14873
-soundstacks/sosgroups.txt CRC:00a5d17191 size:759
 soundstacks/sosstrings.txt CRC:00d4dc554f size:438
-soundstacks/soundstacks_core.vsndstck_c CRC:00f4798f2a size:17507
+soundstacks/soundstacks_core.vsndstck_c CRC:007a6b1625 size:18599
 soundstacks/soundstacks_manifest.vrman_c CRC:00ab29bae5 size:480
-surfaceproperties/surfaceproperties.vsurf_c CRC:003b767f63 size:11474
+surfaceproperties/surfaceproperties.vsurf_c CRC:007abe3ef2 size:11772
 textures/dev/blue_noise_256.vtex_c CRC:00eb315605 size:263908
 textures/dev/ggx_integrate_brdf_lut.vtex_c CRC:000c6ab814 size:263940
 textures/dev/ggx_integrate_brdf_lut_schlick.vtex_c CRC:004d63cbcf size:263988

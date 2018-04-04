@@ -17,6 +17,9 @@
 	ResumeCondition( boolean ) : "Resume Condition"
 
 	Tag( string ) : "Relative Tag Name/Sound"
+	
+	EventID( integer ) : "Event ID"
+	ConstrainedEventID( integer ) : "Constrained to"
 ]
 
 @BaseClass = ChoreoGlobalEvent

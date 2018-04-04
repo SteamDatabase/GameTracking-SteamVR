@@ -2971,5 +2971,7 @@
 "[english]VR_PhysicsProp_RezHeroFigurine_Desc"	"The player avatar for the legendary action-shooter.\n\nUnlocked by playing Rez Infinite."
 "UGCHiddenLabel"	"사용자 생성 콘텐츠는 표시되지 않습니다. 설정에서 변경할 수 있는 사항입니다."
 "[english]UGCHiddenLabel"	"User generated content is hidden. You can change this in Settings."
+"VR_Map_MountRainierCamp"	"레이니어 산"
+"[english]VR_Map_MountRainierCamp"	"Mount Rainier"
 }
 }

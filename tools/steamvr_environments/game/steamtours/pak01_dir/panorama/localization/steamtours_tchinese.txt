@@ -570,8 +570,7 @@
 "[english]MuteMyself"	"Mute Myself"
 "PersonalBubble"	"個人氣泡尺寸"
 "[english]PersonalBubble"	"Personal Bubble Size"
-"PersonalBubbleDesc"	"個人氣泡可使您附近的其他玩家及道具消失。
-
+"PersonalBubbleDesc"	"個人氣泡可使您的頭部附近的其他玩家及道具消失。
 "
 "[english]PersonalBubbleDesc"	"Your personal bubble makes players and props fade out when they are near your head."
 "SetStatus"	"設定狀態："
@@ -1798,7 +1797,7 @@
 "[english]VR_Furniture_Book001_Desc"	"A book from the Lazy Panda Publishing Company."
 "VR_Furniture_Bookshelf001"	"書架"
 "[english]VR_Furniture_Bookshelf001"	"Bookshelf"
-"VR_Furniture_Bookshelf001_Desc"	"供您擺放旅遊書的書架。"
+"VR_Furniture_Bookshelf001_Desc"	"一個木製書櫃。"
 "[english]VR_Furniture_Bookshelf001_Desc"	"A wooden bookshelf."
 "VR_Furniture_Chair001"	"椅子"
 "[english]VR_Furniture_Chair001"	"Chair"
@@ -2186,7 +2185,7 @@
 "[english]AvatarTutorialTitle"	"How to Customize Your Avatar"
 "AvatarTutorialButton"	"如何"
 "[english]AvatarTutorialButton"	"How To"
-"RecentApps_Title"	"最近啟動過"
+"RecentApps_Title"	"近期的應用程式"
 "[english]RecentApps_Title"	"RECENT APPS"
 "RecentApps_Footer"	"按下系統鍵可顯示所有應用程式。"
 "[english]RecentApps_Footer"	"For all applications, press the System button."
@@ -2532,7 +2531,7 @@
 "[english]EmptyBackgroundItem_Desc"	"Use the original skybox from the map."
 "ResetAnchorButtonText"	"重置位置"
 "[english]ResetAnchorButtonText"	"Reset Position"
-"ResetAnchorDesc"	"將場景與追蹤區域重新對齊。"
+"ResetAnchorDesc"	"將場景與追蹤區域重新對齊，可用來手動將您的家空間與真實世界中的空間對齊。"
 "[english]ResetAnchorDesc"	"This resets your environment to line up with your tracked area. Useful for customizing your Home to match your real world space."
 "VR_Avatar_Wearable_MopedHelmet001"	"輕型機踏車安全帽"
 "[english]VR_Avatar_Wearable_MopedHelmet001"	"Moped Helmet"
@@ -2834,5 +2833,9 @@
 "[english]TutorialTeleport_WinMR_Bottom_Desc"	"The teleport arc will turn red if you cannot teleport to that location."
 "VR_PhysicsProp_OverturnMagiFigurine_Desc"	"來自《OVERTURN》的神祕女孩「MAGI」的全身模型。\n\n遊玩《OVERTURN》而解鎖。"
 "[english]VR_PhysicsProp_OverturnMagiFigurine_Desc"	"Full body figurine of the mysterious girl 'MAGI' from OVERTURN.\n\nUnlocked by playing OVERTURN."
+"ScreenshotTutorialButton"	"說明"
+"[english]ScreenshotTutorialButton"	"Help"
+"ScreenshotsFirstTimeText"	"看到您還沒有分享過公開擷圖。\n\n您只需在遊戲中擷圖，再使用擷圖管理員，便能在Steam上公開分享您的擷圖。點擊上方的「說明」，可了解如何在 VR中擷圖。\n\n您也可以選擇上面的「來自於社群」選項，查看並使用社群中的熱門公開擷圖。"
+"[english]ScreenshotsFirstTimeText"	"It looks like you haven't shared any public screenshots yet. \n\nTo share screenshots, take a screenshot in-game, then use the Screenshot Manager to share it on Steam publicly. Select 'Help' above to learn how to take screenshots in VR. \n\nYou can also select the 'From Community' tab above to view and use popular public screenshots from the community."
 }
 }

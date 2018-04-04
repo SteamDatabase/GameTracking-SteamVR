@@ -8,7 +8,6 @@
 @include "lights.fgd"
 @include "ai_basenpc.fgd"
 
-@helpinfo( "Destinations", "tools/help/fgd/steamtours.txt" )
 
 //-------------------------------------------------------------------------
 //
@@ -86,20 +85,25 @@
 //
 //-------------------------------------------------------------------------
 
-@PointClass base( Targetname ) editormodel( "models/effects/teleport/teleport_marker.vmdl" ) = vr_teleport_marker
+@PointClass base( Targetname, EnableDisable ) editormodel( "models/effects/teleport/teleport_marker.vmdl" ) = vr_teleport_marker
 [
 	locked(boolean) : "Locked" : "No"
 	forwarding(boolean) : "Forwarding" : "No"
 	info(boolean) : "Info" : "No"
 	StartsAsCurrent(boolean) : "Starts As Current" : "No"
 
+	// Inputs
+	input Toggle(void) : "Toggles this teleport marker between enabled and disabled states."
+
 	// Outputs
 	output OnTeleportTo(void) : "Fired when a player teleports to this teleport marker."
 	output OnTeleportFrom(void) : "Fired when a player teleports away from this teleport marker."
 ]
 
-@SolidClass base( Targetname, PhysicsTypeOverride_Mesh ) = vr_teleport_area
+@SolidClass base( Targetname, EnableDisable, PhysicsTypeOverride_Mesh ) = vr_teleport_area
 [
+	// Inputs
+	input ToggleEnable(void) : "Toggles this teleport area between enabled and disabled states."
 ]
 
 //-------------------------------------------------------------------------
@@ -141,4 +145,47 @@
 	"A prop that when picked up, can attach to the player's hand and have additional functionality which is defined in the vscript."
 [
 	HasCollisionInHand(boolean) : "Has Collision When Held" : "No"
+]
+
+//-------------------------------------------------------------------------
+//
+// Light overrides
+//
+//-------------------------------------------------------------------------
+
+@OverrideClass = light_environment
+[
+	directlight(choices) : "Direct Lighting" : "2" : "How direct lighting should be represented" =
+	[
+		"0" : "None"
+		"1" : "Baked"
+		"2" : "Per-Pixel"
+	]
+]
+@OverrideClass = light_omni
+[
+	directlight(choices) : "Direct Lighting" : "2" : "How direct lighting should be represented" =
+	[
+		"0" : "None"
+		"1" : "Baked"
+		"2" : "Per-Pixel"
+	]
+]
+@OverrideClass = light_spot
+[
+	directlight(choices) : "Direct Lighting" : "2" : "How direct lighting should be represented" =
+	[
+		"0" : "None"
+		"1" : "Baked"
+		"2" : "Per-Pixel"
+	]
+]
+@OverrideClass = light_ortho
+[
+	directlight(choices) : "Direct Lighting" : "2" : "How direct lighting should be represented" =
+	[
+		"0" : "None"
+		"1" : "Baked"
+		"2" : "Per-Pixel"
+	]
 ]

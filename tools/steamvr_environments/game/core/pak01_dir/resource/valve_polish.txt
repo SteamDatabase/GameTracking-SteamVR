@@ -191,7 +191,24 @@ in first-person mode while playing.
 "[english]Spec_Duck"	"Press DUCK for Spectator Menu"
 "Spec_Help_Title"	"Tryb widza"
 "[english]Spec_Help_Title"	"Spectator Mode"
-"Spec_Help_Text"	"Użyj następujących przycisków do zmiany wyświetlanego widoku: STRZAŁ1 - podążaj za następnym graczem STRZAŁ2 - podążaj za poprzednim graczem SKOK - zmień sposób wyświetlania UŻYJ - zmień wybranego trybu KUCNIJ - otwórz menu widza W trybie poglądowym mapy do poruszania się używaj: W LEWO - przesuń w lewo W PRAWO - przesuń w prawo W PRZÓD - przybliż W TYŁ - oddal MYSZ- obróć dookoła mapy/celu"
+"Spec_Help_Text"	"
+Użyj następujących przycisków do zmiany wyświetlanego widoku:
+
+ STRZAŁ1 - podążaj za następnym graczem
+ STRZAŁ2 - podążaj za poprzednim graczem
+ SKOK - zmień sposób wyświetlania
+ UŻYJ - zmień tryb wyświetlania
+ 
+ KUCNIJ - otwórz menu widza
+
+W trybie poglądowym mapy do poruszania się używaj:
+
+ W LEWO - przesuń w lewo
+ W PRAWO - przesuń w prawo
+ W PRZÓD - przybliż
+ W TYŁ - oddal
+ MYSZ - obróć dookoła mapy/celu
+"
 "[english]Spec_Help_Text"	"
 Use the following keys to change view styles:
 
@@ -684,7 +701,7 @@ In Overview Map Mode move around with:
 "[english]NewItemMethod_FoundInCrate"	"You Unboxed:"
 "NewItemMethod_Gifted"	"Otrzymujesz w prezencie:"
 "[english]NewItemMethod_Gifted"	"You Received a Gift:"
-"NewItemMethod_Promotion"	"Otrzymujesz promocyjny przedmiot ze Sklepu:"
+"NewItemMethod_Promotion"	"Otrzymujesz promocyjny przedmiot ze sklepu:"
 "[english]NewItemMethod_Promotion"	"You Received a Store Promotion Item:"
 "NewItemMethod_Earned"	"Zdobywasz:"
 "[english]NewItemMethod_Earned"	"You Earned:"
@@ -768,7 +785,7 @@ In Overview Map Mode move around with:
 "[english]StoreUpdate_NewPriceSheetLoaded"	"The product list has been updated to the latest version."
 "StoreUpdate_ContactSupport"	"Skontaktuj się z Pomocą techniczną Steam, aby skonfigurować swój Portfel Steam."
 "[english]StoreUpdate_ContactSupport"	"Please contact customer support to have your Steam wallet configured."
-"StoreUpdate_OverlayRequired"	"Aby móc korzystać ze Sklepu, musisz aktywować dostęp do Społeczności Steam w grze i ponownie uruchomić grę."
+"StoreUpdate_OverlayRequired"	"Aby móc korzystać ze sklepu, musisz aktywować dostęp do Społeczności Steam w grze i ponownie uruchomić grę."
 "[english]StoreUpdate_OverlayRequired"	"You must enable the Steam Community in-game and restart the game to use the Store."
 "StoreUpdate_SteamRequired"	"Korzystanie ze sklepu wymaga połączenia z serwerem Steam."
 "[english]StoreUpdate_SteamRequired"	"A connection to Steam is required to use the Store."
@@ -784,7 +801,7 @@ In Overview Map Mode move around with:
 "[english]StoreCheckout_NotApproved"	"The game coordinator was unable to approve your transaction with Steam. Please try the purchase again later."
 "StoreCheckout_NotLoggedin"	"Aby sfinalizować zakup, musisz się zalogować w systemie Steam."
 "[english]StoreCheckout_NotLoggedin"	"You must be logged in to Steam in order to complete a purchase."
-"StoreCheckout_WrongCurrency"	"Waluta tej transakcji nie jest zgodna z walutą twojego Portfela."
+"StoreCheckout_WrongCurrency"	"Waluta tej transakcji nie jest zgodna z walutą twojego portfela."
 "[english]StoreCheckout_WrongCurrency"	"This transaction's currency doesn't match your wallet currency."
 "StoreCheckout_NoAccount"	"Twoje konto Steam jest aktualnie niedostępne. Spróbuj zakupić ponownie później."
 "[english]StoreCheckout_NoAccount"	"Your Steam account is currently unavailable. Please try this purchase again later."

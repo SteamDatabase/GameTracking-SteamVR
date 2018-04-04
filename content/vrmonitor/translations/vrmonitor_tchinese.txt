@@ -1961,5 +1961,7 @@
 "[english]MenuAction_RunMediaPlayer"	"Run Media Player"
 "Settings_LockedModeCheck"	"鎖定模式"
 "[english]Settings_LockedModeCheck"	"Locked Mode"
+"Advanced_Bluetooth"	"藍芽"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

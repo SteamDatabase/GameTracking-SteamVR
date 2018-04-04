@@ -1891,7 +1891,7 @@
 "[english]MenuAction_Workshop_ViewWiki"	"SteamVR Environments Wiki"
 "Settings_EnableLinuxGPUProfiling"	"启用 GPU 分析"
 "[english]Settings_EnableLinuxGPUProfiling"	"Enable GPU profiling"
-"Settings_Advanced_AllowSupersampleFiltering"	"启用进阶超级采样过滤"
+"Settings_Advanced_AllowSupersampleFiltering"	"启用高级超级采样过滤"
 "[english]Settings_Advanced_AllowSupersampleFiltering"	"Enable Advanced Supersample Filtering"
 "Explanation_SupersamplingFiltering"	"超级采样过滤选项："
 "[english]Explanation_SupersamplingFiltering"	"Supersampling Filtering Options:"

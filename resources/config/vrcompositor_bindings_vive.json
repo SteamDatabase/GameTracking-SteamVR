@@ -34,6 +34,33 @@
 				"held" : "held"
 			}
 		}
-	]
+	],
+	"binding_ui" :
+	{
+		"/actions/system" : { 
+			"sources" :
+			[
+				{
+					"path" : "/user/head/input/system",
+					"mode" : "complex_button",
+					"inputs" :
+					{
+						"long" :
+						{
+								"output" : "/actions/system/in/ShowPowerMenu"
+						},
+						"single" :
+						{
+								"output" : "/actions/system/in/ToggleDashboard"
+						},
+						"double" :
+						{
+								"output" : "/actions/system/in/ToggleRoomView"
+						}
+					}
+				}
+			]
+		}
+	}
 }
 

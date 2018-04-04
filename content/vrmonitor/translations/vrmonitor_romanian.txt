@@ -1059,9 +1059,9 @@
 "[english]Settings_NotificationKnockKnock_Text"	"Knock Knock"
 "KnockKnock_Button"	"Cioc cioc"
 "[english]KnockKnock_Button"	"Knock Knock"
-"MenuAction_Workshop_UploadItem"	"Încărcare nouă"
+"MenuAction_Workshop_UploadItem"	"Încarcă un fundal nou"
 "[english]MenuAction_Workshop_UploadItem"	"Upload New Background"
-"MenuAction_Workshop_EditItem"	"Modifică existent"
+"MenuAction_Workshop_EditItem"	"Modifică un fundal existent"
 "[english]MenuAction_Workshop_EditItem"	"Modify Existing Background"
 "WorkshopUpload_SelectContentType"	"Tip"
 "[english]WorkshopUpload_SelectContentType"	"Type"
@@ -1396,5 +1396,7 @@
 "[english]Settings_LockedModeCheck"	"Locked Mode"
 "Settings_LockedModeDesc"	"Permite randarea la headset când stația de lucru este blocată."
 "[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
+"Advanced_Bluetooth"	"Bluetooth"
+"[english]Advanced_Bluetooth"	"Bluetooth"
 }
 }

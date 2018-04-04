@@ -1,0 +1,39 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/UseLeft",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/default/in/GripLeft",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/default/in/UseRight",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/default/in/GripRight",
+      "type": "boolean",
+      "scope": "global"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "leftright"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/default/in/UseLeft": "Use (Left)",
+      "/actions/default/in/GripLeft": "Grip (Left)",
+      "/actions/default/in/UseRight": "Use (Right)",
+      "/actions/default/in/GripRight": "Grip (Right)"
+    }
+  ]
+}

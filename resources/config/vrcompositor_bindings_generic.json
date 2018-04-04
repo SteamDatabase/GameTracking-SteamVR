@@ -3,27 +3,28 @@
     "action_binds": [
         {
             "action": "/actions/system/in/SystemButtonChord",
-            "source": "/filters/system_button/held"
+            "source": "/filters/generic_system_button/held"
         },
         {
             "action": "/actions/system/in/ToggleDashboard",
-            "source": "/filters/system_button/single"
+            "source": "/filters/generic_system_button/single"
         },
         {
             "action": "/actions/system/in/TakeScreenshot",
-            "source": "/filters/screenshot_chord/result"
+            "source": "/filters/generic_screenshot_chord/result",
+	    "filters_to_cancel" : [ "generic_system_button" ]
         },
         {
             "action": "/actions/system/in/ShowPowerMenu",
-            "source": "/filters/system_button/long"
+            "source": "/filters/generic_system_button/long"
         },
         {
             "action": "/actions/system/in/ToggleRoomView",
-            "source": "/filters/system_button/double"
+            "source": "/filters/generic_system_button/double"
         },
         {
             "action": "/actions/lasermouse/in/Pointer",
-            "source": "/filters/lasermouse_tip/pose"
+            "source": "/filters/generic_lasermouse_tip/pose"
         },
         {
             "action": "/actions/lasermouse/in/LeftClick",
@@ -77,9 +78,20 @@
 
 	"filters" :[
 		{
-			"name" : "system_button",
+			"name" : "generic_system_buttons",
+			"type" : "boolean_or",
+			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
+			"input" : 
+			{
+				"1":"/user/hand/left/input/system/click",
+				"2":"/user/hand/right/input/system/click"
+			},
+			"output" : "result"
+		},
+		{
+			"name" : "generic_system_button",
 			"type" : "boolean_button_press_state",
-			"input" : "/devices/*/input/system/click",
+			"input" : "/filters/generic_system_buttons/result",
 			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
 			"cancel_on_action_sets" : [ "/actions/chord" ],
 			"parameters" : 
@@ -95,18 +107,18 @@
 			}
 		},
 		{
-			"name" : "screenshot_chord",
+			"name" : "generic_screenshot_chord",
 			"type" : "boolean_and",
 			"action_sets" : [ "/actions/chord" ],
 			"input" : 
 			{
-				"1":"/filters/system_button/held",
+				"1":"/filters/generic_system_button/held",
 				"2":"/user/hand/*/input/trigger/click"
 			},
 			"output" : "result"
 		},
 		{
-			"name" : "lasermouse_tip",
+			"name" : "generic_lasermouse_tip",
 			"type" : "pose_component",
 			"input" : "/user/hand/primary/pose",
 			"output" : "pose",

@@ -65,6 +65,12 @@
 		"DefaultShader" "vr_standard"
 	}
 
+	Panorama
+	{
+		"ExitIfAddonHasLayoutOutisdeAllowedPath" "0" // TODO: remove this once we update our workshop maps, since all external maps we could find put layouts in custom_destination
+		"AddonLayoutPath" "panorama/layout/custom_destination/"
+	}
+
 	Engine2
 	{
 		"HasModAppSystems" "1"
@@ -79,6 +85,8 @@
 		"UsesVGui" "0"
 		"UsesBink" "0"
 		"SaveClientStateInSaveGames" "0"
+		"AllocWarnMB" "2048"
+		"ReserveWarnMB" "2048"
 	}
 
 	SceneSystem

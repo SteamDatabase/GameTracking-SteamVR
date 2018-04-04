@@ -1,0 +1,37 @@
+{
+  "controller_type": "vive_controller",
+  "action_binds": [
+    {
+      "action": "/actions/default/in/UseLeft",
+      "source": "/filters/left_trigger_threshold/result"
+    },
+    {
+      "action": "/actions/default/in/GripLeft",
+      "source": "/user/hand/left/input/grip/click"
+    },
+    {
+      "action": "/actions/default/in/UseRight",
+      "source": "/filters/right_trigger_threshold/result"
+    },
+    {
+      "action": "/actions/default/in/GripRight",
+      "source": "/user/hand/right/input/grip/click"
+    }
+  ],
+  "filters": [
+    {
+      "name": "left_trigger_threshold",
+      "type": "boolean_threshold",
+      "action_sets": [ "/actions/default" ],
+      "input": "/user/hand/left/input/trigger/value",
+      "output": "result"
+    },
+    {
+      "name": "right_trigger_threshold",
+      "type": "boolean_threshold",
+      "action_sets": [ "/actions/default" ],
+      "input": "/user/hand/right/input/trigger/value",
+      "output": "result"
+    }
+  ]
+}

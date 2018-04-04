@@ -1,0 +1,7 @@
+[
+  {
+    "language_tag": "en_US",
+    "controller_name" : "Vive Controller",
+    "/input/trigger" : "Vive Trigger"
+  }
+]

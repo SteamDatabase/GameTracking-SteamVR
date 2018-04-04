@@ -6,15 +6,13 @@
 
 @include "lights_base.fgd"
 
-@helpinfo( "Lights", "tools/help/fgd/lights.txt" )
-
-
-@PointClass light() base(light_base, light_base_legacy_params, light_base_attenuation_params) editormodel("models/editor/spot") leansphere(lightsourceradius,255,255,255) sphere(range,255,255,0) = light_omni : "A point light source."
+@PointClass light() base(light_base, light_base_legacy_params, light_base_attenuation_params) editormodel( "models/editor/spot", lightModeTint, "0 255 192", "255 64 64" ) leansphere(lightsourceradius,255,255,255) sphere(range,255,255,0) = light_omni : "A point light source."
 [
+	castshadows(boolean) [ group = "Shadows" ] : "Cast Shadows" : "0" : "Whether this light casts shadow"
 ]
 
 
-@PointClass light() base(light_base, light_base_legacy_params, light_base_attenuation_params, CanBeClientOnly) editormodel("models/editor/spot") leansphere(lightsourceradius,255,255,255) lightcone() = light_spot : "A spot light source."
+@PointClass light() base(light_base, light_base_legacy_params, light_base_attenuation_params, CanBeClientOnly) editormodel( "models/editor/spot", lightModeTint, "0 255 192", "255 64 64" ) leansphere(lightsourceradius,255,255,255) lightcone() = light_spot : "A spot light source."
 [
 	lightcookie(string) : "Light Cookie" : "" : "light cookie name in effects/lightcookies.vtex"
 
@@ -24,11 +22,24 @@
 
 	shadowfademindist(float) : "Shadow Start Fade Dist" : -250 : "Distance at which the shadow starts to fade (<0 = use fademaxdist)."
 	shadowfademaxdist(float) : "Shadow End Fade Dist" : 1000 : "Maximum distance at which the shadow is visible (0 = don't fade out)."
+
+	shadowtexturewidth(integer) [ group = "Shadows" ] : "Shadow Texture Width" : 0 : "0 = use default texture resolution"
+	shadowtextureheight(integer) [ group = "Shadows" ] : "Shadow Texture Height" : 0 : "0 = use default texture resolution"
+]
+
+@PointClass light() base(light_base, light_base_legacy_params, CanBeClientOnly) editormodel( "models/editor/spot", lightModeTint, "0 255 192", "255 64 64" ) lightortho() = light_ortho : "An orthographic spot light source."
+[
+	lightcookie(string) : "Light Cookie" : "" : "light cookie name in effects/lightcookies.vtex"
+	ortholightwidth(float) : "Width" : "512.0" : "Ortho light rectangle width"
+	ortholightheight(float) : "Height" : "512.0" : "Ortho light rectangle height"
+	range(float) : "Range" : "2048.0" : "Distance range for light. 0=infinite"
+	angulardiameter(float) : "SunSpreadAngle" : "5.0" : "The angular extent of the sun for casting soft shadows. Higher numbers are more diffuse. 5 is a good starting value."
+	shadowtexturewidth(integer) [ group = "Shadows" ] : "Shadow Texture Width" : 0 : "0 = use default texture resolution"
 ]
 
 @PointClass
 	iconsprite( "materials/editor/light_importance_volume.vmat" )
-	orientedwirebox( box_mins, box_maxs )
+	box_oriented( box_mins, box_maxs )
 	bakelightimportancevolume()
 = light_importance_volume
 [
@@ -38,7 +49,7 @@
 
 @PointClass
 	iconsprite( "materials/editor/lightmap_resolution.vmat" )
-	orientedwirebox( box_mins, box_maxs )
+	box_oriented( box_mins, box_maxs )
 = lightmap_resolution_volume
 [
 	box_mins(vector) : "Box Mins" : "-512 -512 -512"
@@ -55,6 +66,12 @@
 		"1" : "Indoor Space"
 		"2" : "Indoor Space (Confined)"
 	]
+]
+
+@BaseClass = SetBrightnessColor
+[
+	input SetColor(vector) : "Set color"
+	input SetBrightness(float) : "Set brightness"
 ]
 
 @BaseClass = BaseLightProbeVolume
@@ -93,7 +110,7 @@
 @PointClass
 	base( Targetname, Parentname, EnableDisable, BaseLightProbeVolume, IndoorOutdoorLevel )
 	editormodel( "models/editor/iv_helper" )
-	orientedwirebox( box_mins, box_maxs )
+	box_oriented( box_mins, box_maxs )
 	bakeresource( lightprobetexture, vtex, env_light_probe_volume, "ToolObjects/LightProbeVolume" )
 = env_light_probe_volume : "A grid of precomputed light probes."
 [
@@ -112,7 +129,7 @@
 @PointClass
 	base( Targetname, Parentname, EnableDisable, BaseCubemap, IndoorOutdoorLevel )
 	editormodel( "models/editor/env_cubemap" )
-	orientedwirebox( box_mins, box_maxs )
+	box_oriented( box_mins, box_maxs )
 	bakeresource( cubemaptexture, vtex, env_cubemap, "ToolObjects/CubeMap" )
 = env_cubemap_box : "An env_cubemap with box projection."
 [
@@ -121,9 +138,9 @@
 ]
 
 @PointClass
-	base( Targetname, Parentname, EnableDisable, BaseCubemap, BaseLightProbeVolume, IndoorOutdoorLevel )
+	base( Targetname, Parentname, EnableDisable, BaseCubemap, BaseLightProbeVolume, SetBrightnessColor, IndoorOutdoorLevel )
 	editormodel( "models/editor/env_cubemap" )
-	orientedwirebox( box_mins, box_maxs )
+	box_oriented( box_mins, box_maxs )
 	bakeresource( lightprobetexture, vtex, env_light_probe_volume, "ToolObjects/LightProbeVolume" )
 	bakeresource( cubemaptexture, vtex, env_cubemap, "ToolObjects/CubeMap" )
 = env_combined_light_probe_volume : "Combination of an env_cubemap_box and an env_light_probe_volume"

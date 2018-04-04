@@ -1972,6 +1972,10 @@
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
 "MenuAction_RunMediaPlayer"	"Media Player ausführen"
 "[english]MenuAction_RunMediaPlayer"	"Run Media Player"
+"Settings_LockedModeCheck"	"Gesicherter Modus"
+"[english]Settings_LockedModeCheck"	"Locked Mode"
+"Settings_LockedModeDesc"	"Rendering zum Headset erlauben, während der Rechner gesperrt ist."
+"[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
 "Advanced_Bluetooth"	"Bluetooth"
 "[english]Advanced_Bluetooth"	"Bluetooth"
 }

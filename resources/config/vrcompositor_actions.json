@@ -3,27 +3,27 @@
         {
             "name" : "/actions/system/in/ToggleDashboard",
             "type" : "boolean",
-			"scope" : "global"
+            "scope" : "global"
         },
         {
             "name" : "/actions/system/in/TakeScreenshot",
             "type" : "boolean",
-			"scope" : "global"
+            "scope" : "global"
         },
         {
             "name" : "/actions/system/in/ShowPowerMenu",
             "type" : "boolean",
-			"scope" : "global"
+            "scope" : "global"
         },
         {
             "name" : "/actions/system/in/SystemButtonChord",
             "type" : "boolean",
-			"scope" : "global"
+            "scope" : "global"
         },
         {
             "name" : "/actions/system/in/ToggleRoomView",
             "type" : "boolean",
-			"scope" : "global"
+            "scope" : "global"
         },
         {
             "name" : "/actions/system/in/VolumeUp",
@@ -41,7 +41,7 @@
             "scope" : "global"
         },
         {
-            "name" : "/actions/lasermouse/in/SwitchLaserHand",
+            "name" : "/actions/lasermouse_secondary/in/SwitchLaserHand",
             "type" : "boolean"
         },
         {
@@ -142,9 +142,28 @@
         }
     ],
 
+	"action_sets": [
+		{
+			"name": "/actions/lasermouse",
+			"usage": "leftright"
+		},
+		{
+			"name": "/actions/lasermouse_secondary",
+			"usage": "leftright"
+		},
+		{
+			"name": "/actions/dualanalog",
+			"usage": "leftright"
+		},
+		{
+			"name": "/actions/system",
+			"usage": "leftright"
+		}
+	],
+
     "localization" : [
         {
-            "language_tag": "en",
+            "language_tag": "en_US",
 
             "/actions/system/in/ToggleDashboard" : "Toggle Dashboard",
             "/actions/system/in/TakeScreenshot" : "Take Screenshot",
@@ -160,11 +179,11 @@
             "/actions/lasermouse/in/moveup" : "Move Up",
             "/actions/lasermouse/in/moveleft" : "Move Left",
             "/actions/lasermouse/in/movedown" : "Move Down",
-            "/actions/lasermouse/in/switchlaserhand" : "Switch Hand",
+            "/actions/lasermouse_secondary/in/switchlaserhand" : "Switch Hand",
             "/actions/lasermouse/in/trackpadtouch" : "Trackpad Touch",
-			"/actions/lasermouse/in/trackpadvalue": "Trackpad Move",
-			"/actions/lasermouse/in/SwitchGamepadFocus" :  "Switch Gamepad Focus",
-           "/actions/lasermouse/in/TrackpadScroll" :  "Scroll Overlay",
+            "/actions/lasermouse/in/trackpadvalue": "Trackpad Move",
+            "/actions/lasermouse/in/switchgamepadfocus" :  "Switch Gamepad Focus",
+           "/actions/lasermouse/in/trackpadscroll" :  "Scroll Overlay",
             "/actions/dualanalog/in/rightclick" : "Right Click",
             "/actions/dualanalog/in/leftclick" : "Left Click",
             "/actions/dualanalog/in/righttouch" : "Right Touch",
@@ -183,6 +202,7 @@
             "/actions/system/in/takescreenshot" : "Take Screenshot",
             "/actions/system/in/mutemicrophone" : "Mute Microphone",
             "/actions/lasermouse/in/enter" : "Mouse Enter",
+            "/actions/lasermouse/in/pointer" : "Laser Mouse Pointer",
 
             "/actions/normal" : "Normal operation",
             "/actions/chord" : "System Button Chords",

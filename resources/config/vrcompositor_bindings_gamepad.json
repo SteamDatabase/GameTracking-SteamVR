@@ -11,7 +11,8 @@
 		},
 		{
 			"action": "/actions/system/in/TakeScreenshot",
-			"source": "/filters/1screenshot_chord/result"
+			"source": "/filters/1screenshot_chord/result",
+			"filters_to_cancel" : [ "1system_button" ]
 		},
 		{
 			"action": "/actions/system/in/ShowPowerMenu",
@@ -61,19 +62,9 @@
 
 	"filters" :[
 		{
-			"name" : "1all_system_buttons",
-			"type" : "boolean_or",
-			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
-			"input" : {
-				"1":"/devices/*/input/system/click",
-				"2":"/user/gamepad/input/back/click"
-			},
-			"output" : "result"
-		},
-		{
 			"name" : "1system_button",
 			"type" : "boolean_button_press_state",
-			"input" : "/filters/1all_system_buttons/result",
+			"input" : "/user/gamepads/input/back/click",
 			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
 			"cancel_on_action_sets" : [ "/actions/chord" ],
 			"parameters" : 

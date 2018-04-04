@@ -1951,6 +1951,8 @@
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Settings_PauseOnStandby"	"Sæt rendering på pause mens headsettet er passivt"
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
+"MenuAction_RunMediaPlayer"	"Start medieafspiller"
+"[english]MenuAction_RunMediaPlayer"	"Run Media Player"
 "Settings_LockedModeCheck"	"Låst tilstand"
 "[english]Settings_LockedModeCheck"	"Locked Mode"
 "Settings_LockedModeDesc"	"Tillad rendering til headset mens arbejdsstation er låst."

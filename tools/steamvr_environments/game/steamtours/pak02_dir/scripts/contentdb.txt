@@ -387,6 +387,17 @@
 			inventory_service_promo_rules = "played:530350/120" // must have played for 2 hours - Smashbox Arena
 			inventory_service_promo_appid = 530350
 		},	
+		{
+			id = "payday_2_dallas_mask"
+			name = "#VR_Avatar_Payday2DallasMask"
+			desc = "#VR_Avatar_Payday2DallasMask_Desc"
+			content = "models/third_party/characters/avatars/payday_2_dallas_mask.vmdl"
+			preview_image = "file://{images}/contentdb/payday_2_dallas_mask.png"
+			locked_by_quest = false
+			inventory_service_id = 121
+			inventory_service_promo_rules = "played:218620/120" // must have played for 2 hours - Payday 2
+			inventory_service_promo_appid = 218620
+		},	
 	]
 
 	avatar_hands =
@@ -1686,6 +1697,26 @@
 			default_color = [ 52,192,193 ]
 		},	
 		{
+			id = "balloonicorn_squishable"
+			name = "#VR_PhysicsProp_Balloonicorn_Squishable"
+			desc = "#VR_PhysicsProp_Balloonicorn_Squishable_Desc"
+			content = "models/props_gameplay/balloonicorn_squishable.vmdl"
+			preview_image = "file://{images}/contentdb/balloonicorn.png"
+			locked_by_quest = false
+			default_color = [ 52,192,193 ]
+			dev_only = true
+		},	
+		{
+			id = "egg_fracture"
+			name = "#VR_PhysicsProp_Egg_Fracture"
+			desc = "#VR_PhysicsProp_Egg_Fracture_Desc"
+			content = "models/props_gameplay/egg.vmdl"
+			preview_image = "file://{images}/contentdb/watermelon.png"
+			locked_by_quest = false
+			// default_color = [ 52,192,193 ]
+			dev_only = true
+		},	
+		{
 			id = "portal_cake"
 			name = "#VR_PhysicsProp_PortalCake"
 			desc = "#VR_PhysicsProp_PortalCake_Desc"
@@ -2549,6 +2580,47 @@
 			inventory_service_promo_rules = "played:490490/120" // must have played for 2 hours - Blasters of the Universe
 			inventory_service_promo_appid = 490490
 			inventory_service_id = 1091
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "hof_iss"
+			name = "#VR_PhysicsProp_HoFISS"
+			desc = "#VR_PhysicsProp_HoFISS_Desc"
+			content = "models/third_party/props/toys/hof_iss.vmdl"
+			preview_image = "file://{images}/contentdb/hof_iss.png"
+			script = "props/hof_iss"
+			inventory_service_promo_rules = "played:797200/30" // must have played for 30 minutes - HoF: ISS Tour
+			inventory_service_promo_appid = 797200
+			inventory_service_id = 1092
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_rpo_book"
+			name = "#VR_PhysicsProp_HTC_RPOBook"
+			desc = "#VR_PhysicsProp_HTC_RPOBook_Desc"
+			content = "models/third_party/props/toys/htc_rpo_book.vmdl"
+			preview_image = "file://{images}/contentdb/htc_rpo_book.png"
+			// inventory_service_id = 1093
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "htc_rpo_irongiant"
+			name = "#VR_PhysicsProp_HTC_RPOIrongiant"
+			desc = "#VR_PhysicsProp_HTC_RPOIrongiant_Desc"
+			content = "models/third_party/props/toys/htc_rpo_irongiant.vmdl"
+			preview_image = "file://{images}/contentdb/htc_rpo_irongiant.png"
+			// inventory_service_id = 1094
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "skyrim_iron_helmet"
+			name = "#VR_PhysicsProp_SkyrimIronHelmet"
+			desc = "#VR_PhysicsProp_SkyrimIronHelmet_Desc"
+			content = "models/third_party/props/toys/skyrim_iron_helmet.vmdl"
+			preview_image = "file://{images}/contentdb/skyrim_iron_helmet.png"
+			inventory_service_promo_rules = "played:611670/120" // must have played for 2 hours - Skyrim VR
+			inventory_service_promo_appid = 611670
+			inventory_service_id = 1095
 			default_color = [ 255,255,255 ]
 		},
 		{

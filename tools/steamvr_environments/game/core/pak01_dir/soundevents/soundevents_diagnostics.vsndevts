@@ -1,3 +1,19 @@
+"Diagnostic.timed_silence"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "diagnostic.timed_silence"
+		interval = 10.0
+	}}
+
+"Diagnostic.start_n_soundevents"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "diagnostic.start_n_soundevents"
+		soundevent_number = 100.0
+	}}
+
 "Diagnostic.simple_beep"
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
@@ -651,10 +667,10 @@
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
-		type = "hlvr_default_3d"
+		type = "src1_3d"
 		volume = 0.666
-		volume_falloff_min = 66.0
-		volume_falloff_max = 666.0
+		volume_rand_min = 66.0
+		volume_rand_max = 666.0
 	}}
 
 "Diagnostic.BaseTest2"
@@ -662,7 +678,43 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		base = "Diagnostic.BaseTest"
-		volume_falloff_max = 777.0
+		volume_rand_max = 777.0
+	}}
+
+"Diagnostic.BaseTestNest1"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		base = "Diagnostic.BaseTest"
+		volume = 111
+		volume_rand_min = 111
+		volume_rand_max = 111.0
+	}}
+
+"Diagnostic.BaseTestNest2"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		base = "Diagnostic.BaseTestNest1"
+		volume_rand_min = 222
+		volume_rand_max = 222.0
+	}}
+
+"Diagnostic.BaseTestNest3"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		base = "Diagnostic.BaseTestNest2"
+		volume_rand_max = 333.0
+	}}
+
+"Diagnostic.BaseTestNest4"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		base = "Diagnostic.BaseTestNest3"
+		volume_rand_min = 444
+		volume_rand_max = 444.0
 	}}
 
 "Diagnostic.InverseVec3Test"
@@ -670,6 +722,211 @@
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "test_inverse_vec3"
-		position = [ 0, 0, 0 ]
+		position = [ 0.0, 0.0, 0.0 ]
+	}}
+
+"Diagnostic.TestSoundEventGroups1"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_soundevent_groups"
+		event_type = 555.0
+		entity_index = 777.0
+	}}
+
+"Diagnostic.TestSoundEventGroups2"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_soundevent_groups"
+		event_type = 666.0
+		entity_index = 888.0
+	}}
+
+"Diagnostic.TestSoundEventGroups3"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_soundevent_groups"
+		event_type = 555.0
+		entity_index = 888.0
+	}}
+
+"Diagnostic.TestSoundEventGroups4"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_soundevent_groups"
+		event_type = 666.0
+		entity_index = 777.0
+	}}
+
+"Diagnostic.TestSoundEventGroupStop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_group_stop"
+	}}
+
+"Diagnostic.TestSoundEventGroupStatic1"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_soundevent_groups"
+		groups = 
+		[
+			"static_group1",
+		]
+	}}
+
+"Diagnostic.TestSoundEventGroupStatic2"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_soundevent_groups"
+		groups = 
+		[
+			"static_group2",
+		]
+	}}
+
+"Diagnostic.TestSoundEventGroupStaticBoth"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_soundevent_groups"
+		groups = 
+		[
+			"static_group1",
+			"static_group2",
+		]
+	}}
+
+"Diagnostic.TestSoundEventGroupStatic3"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_soundevent_groups"
+		groups = 
+		[
+			"static_group3",
+		]
+	}}
+
+"Diagnostic.TestSoundEventGroupStatic4"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_soundevent_groups"
+		groups = 
+		[
+			"static_group4",
+		]
+	}}
+
+"Diagnostic.TestSubName"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_subname_invert"
+	}}
+
+"Diagnostic.TestSubNameInvert"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_subname_invert"
+		invert = true
+	}}
+
+"Diagnostic.TestNoName"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_subname_invert"
+	}}
+
+"Diagnostic.TestNoNameInvert"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_subname_invert"
+		invert = true
+	}}
+
+"Diagnostic.TestEntityMatch"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_entindex_invert"
+		entity_index = 777
+	}}
+
+"Diagnostic.TestEntityMatchInvert"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_entindex_invert"
+		entity_index = 777
+		invert = true
+	}}
+
+"Diagnostic.TestEntityNoMatch"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_entindex_invert"
+		entity_index = 888
+	}}
+
+"Diagnostic.TestEntityNoMatchInvert"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_entindex_invert"
+		entity_index = 888
+		invert = true
+	}}
+
+"Diagnostic.TestOpvarMatch"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_opvar_invert"
+		opvar = 666
+	}}
+
+"Diagnostic.TestOpvarMatchInvert"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_opvar_invert"
+		opvar = 666
+		invert = true
+	}}
+
+"Diagnostic.TestOpvarNoMatch"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_opvar_invert"
+		opvar = 777
+	}}
+
+"Diagnostic.TestOpvarNoMatchInvert"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_groups_opvar_invert"
+		opvar = 888
+		invert = true
+	}}
+
+"Diagnostic.TestLFO"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "test_LFO"
+		frequency = 10
 	}}
 

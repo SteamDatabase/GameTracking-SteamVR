@@ -2975,5 +2975,13 @@
 "[english]VR_Avatar_Wearable_GornWingedHelmet"	"Winged Helmet"
 "ScreenshotTutorialButton"	"Ayuda"
 "[english]ScreenshotTutorialButton"	"Help"
+"ScreenshotTutorialTitle"	"Cómo tomar capturas de pantalla en SteamVR"
+"[english]ScreenshotTutorialTitle"	"How to Take Screenshots in SteamVR"
+"ScreenshotTutorialVive"	"Para hacer una captura de pantalla mientras juegas, pulsa el botón System y el gatillo al mismo tiempo.\n\nCuando salgas del juego, se te presentará la interfaz del administrador de capturas de Steam, donde podrás compartir las capturas públicamente."
+"[english]ScreenshotTutorialVive"	"To take a screenshot while in a game, press the System and Trigger buttons at the same time.\n\nOnce you've quit the game, you will be presented with the Steam Screenshot Manager interface, where you’ll be able to share the screenshots publicly."
+"ScreenshotTutorialWinMR"	"Para hacer una captura de pantalla mientras juegas, pulsa el botón del stick izquierdo y el gatillo al mismo tiempo.\n\nCuando salgas del juego, se te presentará la interfaz del administrador de capturas de Steam, donde podrás compartir las capturas públicamente."
+"[english]ScreenshotTutorialWinMR"	"To take a screenshot while in a game, press the Left Thumbstick and Trigger buttons at the same time.\n\nOnce you've quit the game, you will be presented with the Steam Screenshot Manager interface, where you’ll be able to share the screenshots publicly."
+"VR_PhysicsProp_Fallout4BobbleHeadAgility_Desc"	"Nunca tengas miedo de esquivar los problemas delicados.\n\nDesbloqueado por jugar a Fallout 4 VR."
+"[english]VR_PhysicsProp_Fallout4BobbleHeadAgility_Desc"	"Never be afraid to dodge the sensitive issues.\n\nUnlocked by playing Fallout 4 VR."
 }
 }

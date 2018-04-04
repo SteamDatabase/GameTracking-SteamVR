@@ -679,7 +679,7 @@
 						<Label class="DashboardButtonLine2" id="PlayButton" text="#Dashboard_Props_2" />			
 					</Button>
 
-					<Button class="ContentBrowserButton" id="QuestsTabButton" onactivate="ShowQuestDashboard();">
+					<Button class="ContentBrowserButton QuestsTab" id="QuestsTabButton" onactivate="ShowQuestDashboard();">
 						<!--<Label class="DashboardButtonLine1" text="Dashboard_Workshop_1" />-->
 						<Image class="DashboardButtonImage" src="s2r://panorama/images/content_browser/dashboard_quest_icon_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
 						<Label class="DashboardButtonLine2" id="QuestButton" text="#Dashboard_Quests" />

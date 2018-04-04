@@ -520,6 +520,11 @@
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Troubleshooting"
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
 
+"Lighthouse_RecommendControllerUpgradeOverUsb_Header" "Controller needs update"
+"Lighthouse_RecommendControllerUpgradeOverUsb_Description" "A controller is having trouble staying connected over wireless.  Please connect your controllers with a USB cable to perform a firmware update to fix this problem."
+"Lighthouse_RecommendControllerUpgradeOverUsb_Action" "Update Firmware"
+"Lighthouse_RecommendControllerUpgradeOverUsb_ActionURL" "vrmonitor://firmwareupdate/"
+
 "Popover_Off_Invalid_Header" "Invalid Device not connected"
 "Popover_Off_Invalid_Description" " "
 "Popover_Off_Invalid_Action" " "
@@ -722,6 +727,11 @@
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "If you are only using one base station, tracking quality will improve if you switch this basestation to mode A."
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" " "
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" " "
+
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Sync On Beam Channel Conflict"
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "Saw two bases on channel %1 at the same time.  For best results, use unique channels for all bases that can be seen at the same time."
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" " "
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" " "
 
 "Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Device info"
 "Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Hover over the icons below to see details and status about each device. If you need to take an action like updating firmware, you will see an ( i ) appear on the icon."

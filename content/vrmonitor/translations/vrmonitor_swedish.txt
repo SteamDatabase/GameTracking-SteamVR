@@ -1424,7 +1424,7 @@
 "[english]Settings_Camera_Compatibility_Slow"	"30Hz"
 "Settings_Camera_Compatibility_Fast"	"60Hz"
 "[english]Settings_Camera_Compatibility_Fast"	"60Hz"
-"Startup_DisplayLinkIsInstalled"	"DisplayLink är inkompatibelt med SteamVR. Avinstallera drivrutiner och mjukvara tillhörande DisplayLink från din dator och starta om den innan du använder SteamVR."
+"Startup_DisplayLinkIsInstalled"	"DisplayLink är inkompatibelt med SteamVR. Avinstallera drivrutiner och programvara tillhörande DisplayLink från din dator och starta om den innan du använder SteamVR."
 "[english]Startup_DisplayLinkIsInstalled"	"DisplayLink is incompatible with SteamVR. Please uninstall DisplayLink drivers and software from your machine and reboot before using SteamVR."
 "FrameTiming_Other"	"Annan"
 "[english]FrameTiming_Other"	"Other"

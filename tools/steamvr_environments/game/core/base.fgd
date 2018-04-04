@@ -4,8 +4,6 @@
 //
 //==================================================================================================
 
-@helpinfo( "Base", "tools/help/fgd/base.txt" )
-
 @mapsize(-16384, 16384)
 
 
@@ -557,7 +555,7 @@
 
 	NavRestrictionVolume(target_destination) [ group="NPC Properties" ] : "Nav Restriction Volume" : "" : "Markup volume entity to restrict unit navigation"
 
-	spawnasragdoll(boolean) [ group="NPC Properties" ] : "Spawn as ragdoll" : 0 : "This NPC will spawn as a ragdoll and will unragdoll when it settles."
+	spawnasragdoll(boolean) [ group="NPC Properties" ] : "Spawn as Temp Ragdoll" : 0 : "This NPC will spawn as a temporary ragdoll, and then unragdoll after it settles."
 
 	// Outputs
 	output OnDamaged(void) : "Fired when this NPC takes damage."
@@ -587,7 +585,7 @@
 	input SetRelationship(string) : "Changes this entity's relationship with another entity or class. Format: <entityname/classname> <D_HT/D_FR/D_LI/D_NU> <priority>"
 	input SetEnemyFilter(string) : "Changes this NPC's enemy filter to the named filter."
 	input SetHealth(integer) : "Set this NPC's health."
-	input SetBodyGroup(integer) : "HACK: Sets this NPC's body group (from 0 - n). You'd better know what you are doing!"
+	input SetBodyGroup(string) : "Sets NPC bodygroup. Format is <BodygroupName,index> "
 	input physdamagescale(float) : "Sets the value that scales damage energy when this character is hit by a physics object. NOTE: 0 means this feature is disabled for backwards compatibility."
 	input Ignite(void) : "Ignite, burst into flames"
 	input IgniteLifetime(float) : "Ignite, with a parameter lifetime."
@@ -611,6 +609,7 @@
 	input BecomeTemporaryRagdoll(float) : "Become a temporary ragdoll that then can be later unrgadolled."
 	input StopTemporaryRagdoll(void) : "Rise from your grave."
 	input WalkTowardsTarget(target_destination) : "Walks towards a target."
+	input SetAnimGraphParameter(string) : "Set an animation graph parameter Format: <name=value>"
 ]
 
 @PointClass base(Targetname, Parentname) iconsprite("editor/info_target.vmat") = info_npc_spawn_destination : 
@@ -901,7 +900,7 @@
 		1024: "Physics debris" : 0
 		2048: "Only NPCs in vehicles (respects player ally flag)" : 0
 		4096: "Correctly account for object mass (trigger_push used to assume 100Kg) and multiple component physobjs (car, blob...)" : 1
-		8192: "Ignore client's tracked limbs (hands, HMD...)" : 0
+		8192: "Ignore client's hands" : 0
 	]
 
 	filtername(filterclass) : "Filter Name" : : "Filter to use to see if activator triggers me. See filter_activator_name for more explanation."
@@ -1024,12 +1023,13 @@
 ]
 
 
-@PointClass base(Targetname, Parentname) iconsprite("editor/ambient_generic.vmat") = point_soundevent :
+@PointClass base(Targetname, Parentname) iconsprite("editor/snd_event.vmat") = point_soundevent :
 	"Plays a sound event from a point. The point can be this entity or a specified entity's position."
 [
 	soundName(sound) : "Sound Event Name" : "" : "Name of the sound event to play"
 	sourceEntityName(target_destination) : "Source Entity Name" : "" : "Name of the entity the sound should emit from."
 	startOnSpawn(boolean) : "Start On Spawn" : "" : "Play the sound immediately upon spawning"
+	toLocalPlayer(boolean) : "To Local Player" : "" : "Play the sound directly to the local player"
 	alwaysTransmitToClient(boolean) : "Always Transmit To Client" : "" : "Always transmit this entity to the client. Use when this entity moves around or is parented to an entity that will move."
 
 	// Inputs
@@ -1039,9 +1039,35 @@
 	input PauseSound(void) : "Pause the sound event."
 	input UnPauseSound(void) : "UnPause the sound event."
 	input StopSound(void) : "Stop the sound event"
+	
+	output SoundEventGuid(integer) : "Sound Event GUID"
 ]
 
-@PointClass base(Targetname) iconsprite("editor/ambient_generic.vmat") = sound_opvar_set :
+@PointClass base(point_soundevent) iconsprite("editor/snd_event.vmat") = snd_event_point :
+	"Plays a sound event from a point. The point can be this entity or a specified entity's position."
+[
+]
+
+@PointClass base(point_soundevent) iconsprite("editor/snd_event.vmat") box_oriented( box_mins, box_maxs ) = snd_event_alignedbox :
+	"Plays a sound event from a point, passes along the min and max positions of its AABB. The point can be this entity or a specified entity's position."
+[
+	box_mins(vector) : "Box Mins" : "-64 -64 -64"
+	box_maxs(vector) : "Box Maxs" : "64 64 64"
+]
+
+@PointClass base(Targetname, Parentname) iconsprite("editor/snd_event.vmat") = snd_event_param :
+	"Set a public parameter of a playing soundevent."
+[
+	parameterName(string) : "Parameter Name" : "" : "Name of the parameter to set"
+	floatValue(float) : "Float Value" : "" : "Single float value to set on parameter."
+
+	// Inputs
+	input SetParamName(string) : "Set the name of the parameter to set on the soundevent."
+	input SetFloatValue(float) : "Set the name of the sound event to play."
+	input SetSoundEventGUID(integer) : "Start the sound event using a snd_event_point and pass its guid output to this."
+]
+
+@PointClass base(Targetname) iconsprite("editor/snd_opvar_set.vmat") = snd_opvar_set :
 	"Sets an opvar value on a library stack"
 [
 	stackName(string) : "Stack Name" : "" : "The name of the stack the operator is in"
@@ -2297,6 +2323,11 @@
 	radius(integer) : "Radius" : 128					// NEEDHELP: The datadesc doesn't include this entry. Probably not used.
 ]
 
+@PointClass base(env_soundscape_proxy) sphere() iconsprite("editor/env_soundscape.vmat") = snd_soundscape_proxy : 
+	"An entity that acts like a soundscape but gets all of its sound parameters from another env_soundscape entity."
+[
+]
+
 @PointClass base(Targetname,Parentname,EnableDisable) sphere() iconsprite("editor/env_soundscape.vmat") line(255 255 255, targetname, position0) line(255 255 255, targetname, position1) line(255 255 255, targetname, position2) line(255 255 255, targetname, position3) line(255 255 255, targetname, position4) line(255 255 255, targetname, position5) line(255 255 255, targetname, position6) line(255 255 255, targetname, position7) = env_soundscape : 
 	"An entity to control sound in an area. The active soundscape at any time is the last one that had line-of-sight to the player, and was within the radius."
 [
@@ -2321,7 +2352,17 @@
 	output OnPlay(void) : "Fired when this soundscape becomes the active one."
 ]
 
+@PointClass base(env_soundscape) sphere() iconsprite("editor/env_soundscape.vmat") line(255 255 255, targetname, position0) line(255 255 255, targetname, position1) line(255 255 255, targetname, position2) line(255 255 255, targetname, position3) line(255 255 255, targetname, position4) line(255 255 255, targetname, position5) line(255 255 255, targetname, position6) line(255 255 255, targetname, position7) = snd_soundscape : 
+	"An entity to control sound in an area. The active soundscape at any time is the last one that had line-of-sight to the player, and was within the radius."
+[
+]
+
 @PointClass base(env_soundscape) sphere() iconsprite("editor/env_soundscape.vmat") = env_soundscape_triggerable : 
+	"An entity that works like env_soundscape except that it works in conjunction with trigger_soundscape to determine when a player hears it."
+[
+]
+
+@PointClass base(env_soundscape_triggerable) sphere() iconsprite("editor/env_soundscape.vmat") = snd_soundscape_triggerable : 
 	"An entity that works like env_soundscape except that it works in conjunction with trigger_soundscape to determine when a player hears it."
 [
 ]
@@ -3551,54 +3592,6 @@
 	lip(integer) : "Lip" : 0 : "The amount, in inches, of the button to leave sticking out of the wall it recedes into when pressed. Negative values make the button recede even further into the wall."
 	master(string) : "Master (Obsolete)" : : "Legacy support: The name of a master entity. If the master hasn't been activated, this button cannot be pressed."
 	glow(target_destination) : "Glow Entity" : : "The name of an entity that will get the +use glow for this button."
-	sounds(choices) : "Sounds" : 0 = 
-	[
-		0: "None (Silent)"
-		1: "Big zap & Warmup"
-		2: "Access Denied"
-		3: "Access Granted"
-		4: "Quick Combolock"
-		5: "Power Deadbolt 1"
-		6: "Power Deadbolt 2"
-		7: "Plunger"
-		8: "Small zap"
-		9: "Keycard Sound"
-		10: "Buzz"
-		11: "Buzz Off"
-		12: "latch locked"
-		13: "Latch Unlocked"
-		14: "Lightswitch"
-		15: "small bleek"
-		16: "small deny"
-		17: "small doop"
-		18: "small tech deny"
-		19: "click and combine screen fuzz"
-		20: "roomy beep"
-		21: "lever or wheel: turn + move sqeek"
-		22: "lever or wheel: latch + release gas"
-		23: "lever or wheel: ratchet + sqeek"
-		24: "lever or wheel: large ratchet"
-		25: "lever or wheel: clanky + gas release"
-		26: "lever or wheel: latch + large metal thud"
-		27: "lever or wheel: smaller ratchet"
-		28: "lever or wheel: smaller lever move"
-		31: "shock buzz"
-		32: "clickbeep"
-		33: "tech blip"
-		34: "clickbeepbeep open"
-		35: "small high blip"
-		36: "small tech fuzz blip"
-		37: "small click bleep (change to lightswitch)"
-		40: "combine door lock - locked"
-		41: "combine blip growl"
-		42: "combine squick growl"
-		43: "combine whine purr"
-		44: "combine click talk"
-		45: "combine click growl fizz"
-		46: "combine click fizz (deny)"
-		47: "combine click talker"
-		48: "medium pushbutton"
-	]	
 	wait(integer) : "Delay Before Reset (-1 stay)" : 3 : "Amount of time, in seconds, after the button has been pressed before it returns to the starting position. Once it has returned, it can be used again. If the value is set to -1, the button never returns."
 	spawnflags(flags) =
 	[
@@ -3611,55 +3604,9 @@
 		4096: "Sparks" : 0
 		16384: "Non-solid" : 0
 	]
-	locked_sound(choices) : "Locked Sound" : 0 : "Sound played when the player tries to use the button, and fails because it's locked." = 
-	[
-		0: "None"
-		2: "Access Denied"
-		8: "Small zap"
-		10: "Buzz"
-		11: "Buzz Off"
-		12: "Latch Locked"
-	]
-	unlocked_sound(choices) : "Unlocked Sound" : 0 : "Sound played when the button is unlocked." = 
-	[
-		0: "None"
-		1: "Big zap & Warmup"
-		3: "Access Granted"
-		4: "Quick Combolock"
-		5: "Power Deadbolt 1"
-		6: "Power Deadbolt 2"
-		7: "Plunger"
-		8: "Small zap"
-		9: "Keycard Sound"
-		10: "Buzz"
-		13: "Latch Unlocked"
-		14: "Lightswitch"
-	]
-	locked_sentence(choices) : "Locked Sentence" : 0 : "A sentence played when the player tries to use the button, and fails because it's locked." = 
-	[
-		0: "None"
-		1: "Gen. Access Denied"
-		2: "Security Lockout"
-		3: "Blast Door"
-		4: "Fire Door"
-		5: "Chemical Door"
-		6: "Radiation Door"
-		7: "Gen. Containment"
-		8: "Maintenance Door"
-		9: "Broken Shut Door"
-	]
-	unlocked_sentence(choices) : "Unlocked Sentence" : 0 : "A sentence played when the button is unlocked." = 
-	[
-		0: "None"
-		1: "Gen. Access Granted"
-		2: "Security Disengaged"
-		3: "Blast Door"
-		4: "Fire Door"
-		5: "Chemical Door"
-		6: "Radiation Door"
-		7: "Gen. Containment"
-		8: "Maintenance area"
-	]
+	use_sound(sound) : "Use sound" : ""  : "Sound event played when the button is successfully used."
+	locked_sound(sound) : "Locked Sound" : "" : "Sound played when the player tries to use the button, and fails because it's locked."
+	unlocked_sound(sound) : "Unlocked Sound" : "" : "Sound played when the button is unlocked."
 	_minlight(string) : "Minimum Light Level" : : "The minimum level of ambient light that hits this brush."
 ]
 
@@ -3780,8 +3727,8 @@
 	message(string) : "Message If Triggered"		// NEEDHELP: Looks like this was removed
 	health(integer) : "Health (shoot open)" : 0		// NEEDHELP: Looks like this was removed
 
-	locked_sound(sound) : "Locked Sound" : : "Sound played when the player tries to use the door, and fails because it's locked."
-	unlocked_sound(sound) : "Unlocked Sound" : : "Sound played when the button is door."
+	locked_sound(sound) : "Locked Sound" : "" : "Sound played when the player tries to use the door, and fails because it's locked."
+	unlocked_sound(sound) : "Unlocked Sound" : "" : "Sound played when the door is unlocked."
 
 	spawnpos(choices) : "Spawn Position" : 0 =
 	[
@@ -4358,7 +4305,7 @@
 [
 	TriggerOnce(boolean) : "Trigger Once" : 0 : "Deletes the logic relay after firing an OnTrigger() or a connected OnSpawn() output"
 	FastRetrigger(boolean) : "Fast Retrigger" : 0 : "Without this, the logic_relay will wait until all inputs connected to OnTrigger() have fired before retriggering"
-	PassthroughCaller(boolean) : "Pass through caller" : 0 : "When enabled, this logic_relay will be ignored by !caller in downstream IO connections. Instead, the previous caller in the IO chain will be found by !caller."
+	PassthroughCaller(boolean) : "Pass through caller" : 0 : "If set, this logic_relay will be ignored by !caller in downstream IO connections. Instead, the previous caller in the IO chain will be found by !caller.\n"
 	
 	// Inputs
 	input Trigger(void) : "Trigger the relay, causing its OnTrigger output to fire if it is enabled."
@@ -5397,7 +5344,7 @@
 @PointClass halfgridsnap editormodel("models/editor/axis_helper") base(TwoObjectPhysics) = phys_hinge : 
 	"A physically simulated hinge. Use the helper to define the axis of rotation."
 [
-	hingefriction(float) : "Friction" : "0" : "Resistance/friction in the hinge"
+	hingefriction(float) : "Friction" : "0" : "Resistance/friction in the hinge. A value of 1 will hold the child object still under gravity"
 	min_rotation(float) : "Min Rotation Limit" : "0" : "Minimum rotation limit around hinge axis"
 	max_rotation(float) : "Max Rotation Limit" : "0" : "Maximum rotation limit around hinge axis"
 	hingeaxis(vecline) : "Hinge Axis"
@@ -5522,10 +5469,11 @@
 		2: "Limit Endpoints" : 0
 	]
 	slideaxis(vecline) : "Sliding Axis"
-	slidefriction(float) : "Friction" : "0" : "Resistance/friction in the constraint"
+	slidefriction(float) : "Set motor friction, 0 = no friction, 1 = friction that is about enough to counter gravity"
 	SystemLoadScale(float) : "Load Scale" : "1" : "Scale of the mass load connected to this constraint (1=just the objects directly connected)"
 	
 	// Inputs
+	input SetSlideFriction(float) : "Set motor friction, 0 = no friction, 1 = friction that is about enough to counter gravity"
 	input SetVelocity(float) : "Set linear velocity along the constraint"
 	
 	
@@ -5963,6 +5911,8 @@
 		1 : "Per-Vertex"
 		//2 : "Light Map"
 	]
+
+	excludefromimpostors(boolean) [ group="Render Properties" ] : "Exclude from Impostors" : 0 : "Exclude this geometry from impostor LOD rendering"
 ]
 
 
@@ -5990,7 +5940,7 @@
 		2 : "Don't take physics damage" : 0
 		4 : "Debris - Don't collide with the player or other debris" : 0
 		8 : "Motion Disabled" : 0
-		64 : "Enable motion on Physcannon grab" : 0
+		64 : "Enable motion on Physcannon grab (This also applies to the HLVR hand interaction)" : 0
 		128 : "Not affected by rotor wash" : 0
 		256 : "Generate output on +USE " : 1
 		512 : "Prevent pickup" : 0
@@ -6125,6 +6075,7 @@
 		16384 : "Motion Disabled" : 0
 		32768 : "Allow stretch" : 0
 		65536 : "Start asleep" : 0
+		131072 : "Don't force sleep" : 0
 	]
 	angleOverride(string) : "Override Animation" : "" : "Filled in by the engine via wc_update_entity, do not edit by hand except to clear."
 
@@ -6960,6 +6911,12 @@
 	model(studio) : "Model"
 	input DisablePlayerCollision(void) : "Disable collisions against the player."
 	input EnablePlayerCollision(void) : "Enable collisions against the player."
+
+	has_animated_face(Choices) : "Has Animated Face" : 0 : "Does this entity have an animated face?" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
 ]
 
 
@@ -7036,6 +6993,15 @@
 	input SetLocatorTargetEntity(string) : "Set the entity that the HUD locator should track. (Usually a vehicle)"
 	
 ]
+
+@PointClass base(Targetname, DamageFilter)  iconsprite("editor/game_event_listener.vmat") = logic_gameevent_listener:
+	"An entity that listens to game events and fires off an output when the named event it fired"
+[
+	gameeventname(string) : "Game Event Name"
+	gameeventitem(string) :	"Item Name"
+	output OnEventFired(void) : "Fire an output when the named event fires"	
+]
+
 
 
 @PointClass base(Targetname, Parentname) editormodel("models/editor/spot.vmdl") frustum(lightfov, nearz, farz, lightcolor, -1) = env_projectedtexture :
@@ -7442,7 +7408,7 @@
 	ColorCorrectionName(target_destination) : "ColorCorrection Name" : : "The name of the color_correction entity associated with this volume."
 ]
 
-@SolidClass base( Targetname, Parentname, EnableDisable ) = func_occluder : "An entity that occludes objects behind it."
+@SolidClass base( Targetname, Parentname, EnableDisable ) = func_occluder : "A func_occluder occludes objects behind it. It is used for rendering performance optimization. One use case is to put it into a doorway and toggle it based on whether the door is open or not. Note that geometry surrounding the doorway should have occluders as well, otherwise the benefit of the func_occluder is limited.\nfunc_occluders should be as large as possible for best occlusion."
 [
 ]
 
@@ -7739,18 +7705,54 @@
 	input SilencePlayer(bool): "Silence the player"
 ]
 
-@PointClass base(Targetname, Parentname, EnableDisable) sphere() = env_volumetric_fog_controller : 
-	"Controller for volumetric fogging settings"
+
+@PointClass base(Targetname, Parentname, EnableDisable) sphere() 
+	box_world_aligned( box_mins, box_maxs )
+= env_volumetric_fog_controller : "Controller for volumetric fogging - bounds are extents of fog irradiance volume (for indirect)"
 [
+	box_mins(vector) : "Box Mins" : "-72 -72 -72"
+	box_maxs(vector) : "Box Maxs" : "72 72 72"
+	voxel_dim(choices) : "Max Voxel Dimension" : "256.0" : "" = 
+	[
+		"512.0" : "Very High Resolution"
+		"256.0" : "High Resolution"
+		"128.0" : "Medium Resolution"
+		"64.0" : "Low Resolution"
+	]
+
 	FogStrength( float ) : "Fog strength" : "1.0" : "Technically the scattering value. Higher values make denser fog."
 	Anisotropy( float ) : "Anisotropy" : "0.2" : "How much the fog should get brighter when you stare directly at the light." 
 	FadeSpeed( float ) : "Fade time" : "2.0" : "Sets fade in or out time (in seconds)."
 	DrawDistance( float ) : "Draw distance" : "600.0" : "Maximum distance to draw fog - WARNING! Changing from default will make fog blockier." 
+	BakedLightStrength( float ) : "Baked light strength" : "1.0" : "This is how strong the baked lighting in the fog is."
+	fogirradiancevolume(resource:texture) : "Fog Irradiance Texture" : "" : "Name of the fog irradiance texture"
 	input SetToDefaults(void) : "Resets scattering and anisotropy to default values"
-	input SetFogStrength(float) : "Set fog strength"
+	input SetFogStrength(float) : "Set overall fog strength"
 	input SetAnisotropy(float) : "Set anisotropy value"
 	input SetFadeSpeed(float) : "Set fade in/out speed"
 	input SetDrawDistance(float) : "Set draw distance"
 	input Enable(boolean) : "Enable"
 	input Disable(boolean) : "Disable"
 ]
+
+@PointClass iconsprite( "materials/editor/visibility_hint.vmat" ) box_world_aligned( box_mins, box_maxs) = visibility_hint
+[
+	box_mins(vector) : "Box Mins" : "-64 -64 -64"
+	box_maxs(vector) : "Box Maxs" : "64 64 64"
+	hintType(choices) : "Hint Type" : 0 =
+	[
+		0: "Use High Resolution"
+	]
+]
+
+@PointClass centered_box_world_aligned( box_size ) = test_centered_box_world_aligned : "A test for the 'centered_box_world_aligned' heleper"
+[
+	box_size(vector) : "Box Size" : "128 128 128"
+]
+
+
+@PointClass centered_box_oriented( box_size ) = test_centered_box_oriented : "A test for the 'centered_box_oriented'"
+[
+	box_size(vector) : "Box Size" : "128 128 128"
+]
+

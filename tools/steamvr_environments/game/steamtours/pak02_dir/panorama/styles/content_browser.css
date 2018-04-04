@@ -442,7 +442,8 @@ SteamToursContentBrowser.Visible
 	background-color: background_center_gradient;
 }
 
-.Dashboard .ContentBrowserButton
+.Dashboard .ContentBrowserButton,
+.QuestsTab.ContentBrowserButton
 {
 	horizontal-align: left;
 	flow-children: down;

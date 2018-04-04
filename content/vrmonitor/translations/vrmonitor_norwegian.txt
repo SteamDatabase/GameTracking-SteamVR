@@ -5,6 +5,10 @@
 {
 "VRController_NoDriver"	"Ingen driver"
 "[english]VRController_NoDriver"	"No Driver"
+"SteamUniverse_NoSteamAvailable"	"Steam ikke tilgjengelig"
+"[english]SteamUniverse_NoSteamAvailable"	"No Steam available"
+"SteamUniverse_InvalidSteamUniverse"	"Ugyldig Steam Universe"
+"[english]SteamUniverse_InvalidSteamUniverse"	"Invalid Steam Universe"
 "SteamUniverse_Public"	"Offentlig"
 "[english]SteamUniverse_Public"	"Public"
 "SteamUniverse_Beta"	"Beta"
@@ -247,6 +251,8 @@
 
 "
 "[english]PairingWizard_NoDonglesAvailable_Header"	""
+"PairingWizard_NoDonglesDetected_Title"	"Intet hodesett registrert"
+"[english]PairingWizard_NoDonglesDetected_Title"	"No headset detected"
 "PairingWizard_NoDonglesDetected_Header"	"
 
 
@@ -316,6 +322,12 @@
 "[english]DismissableWarning_DismissButton"	"Dismiss"
 "Settings_Advanced_Reset_Header"	"Tilbakestill"
 "[english]Settings_Advanced_Reset_Header"	"Reset"
+"MenuAction_DirectMode"	"Direct Mode"
+"[english]MenuAction_DirectMode"	"Direct Mode"
+"MenuAction_EnableDirectMode"	"Aktiver Direct Mode"
+"[english]MenuAction_EnableDirectMode"	"Enable Direct Mode"
+"MenuAction_DisableDirectMode"	"Deaktiver Direct Mode"
+"[english]MenuAction_DisableDirectMode"	"Disable Direct Mode"
 "FirmwareWizard_RadioUpdate"	"Radiooppdatering"
 "[english]FirmwareWizard_RadioUpdate"	"Radio Update"
 "Advanced_Audio"	"Lyd"

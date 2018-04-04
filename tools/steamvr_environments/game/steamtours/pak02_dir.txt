@@ -398,7 +398,7 @@ panorama/images/welcome_panel/destinations_welcome_black_touch_png.vtex_c CRC:00
 panorama/layout/avatar.vxml_c CRC:00896d8f51 size:6314
 panorama/layout/base_hud.vxml_c CRC:00d4b1fab1 size:584
 panorama/layout/base_world_panel.vxml_c CRC:0026d30938 size:548
-panorama/layout/content_browser.vxml_c CRC:00f4beeff5 size:78019
+panorama/layout/content_browser.vxml_c CRC:00798eebd9 size:78029
 panorama/layout/friends.vxml_c CRC:00627bf8eb size:20336
 panorama/layout/friends_item.vxml_c CRC:005e29ac7f size:2425
 panorama/layout/hud.vxml_c CRC:00e9832024 size:534
@@ -411,7 +411,7 @@ panorama/layout/vr_community_home.vxml_c CRC:004e9a459a size:17108
 panorama/layout/vr_community_item.vxml_c CRC:00534e65f8 size:12290
 panorama/layout/vr_content_browser.vxml_c CRC:00395e7967 size:756
 panorama/layout/vr_friends.vxml_c CRC:00fce56fe4 size:621
-panorama/localization/steamtours_english.txt CRC:007d7fc32e size:132736
+panorama/localization/steamtours_english.txt CRC:006c10e7d2 size:134008
 panorama/panorama_config.txt CRC:00a597fc0e size:294
 panorama/scripts/community_home.vjs_c CRC:007347d3f1 size:18902
 panorama/scripts/community_home_item.vjs_c CRC:0031a852b3 size:11286
@@ -419,7 +419,7 @@ panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
 panorama/styles/base_styles.vcss_c CRC:004f0d4a1e size:25224
 panorama/styles/base_world_panel.vcss_c CRC:0017b56cf5 size:774
-panorama/styles/content_browser.vcss_c CRC:00e88c6c3e size:115135
+panorama/styles/content_browser.vcss_c CRC:00f97f707f size:115168
 panorama/styles/friends.vcss_c CRC:0074516336 size:42797
 panorama/styles/hud.vcss_c CRC:00221b4d9e size:723
 panorama/styles/info_panels.vcss_c CRC:00e61c6748 size:6038
@@ -440,7 +440,7 @@ particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
 resource/gameevents.res CRC:001284caec size:1002
 resource/modevents.res CRC:00a360fb36 size:903
 resource/serverevents.res CRC:000df59f67 size:3694
-scripts/contentdb.txt CRC:000ce530a3 size:140427
+scripts/contentdb.txt CRC:000e993961 size:143239
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70
@@ -458,7 +458,7 @@ sounds/props/beachball_impact_03.vsnd_c CRC:004b011f58 size:25192
 sounds/props/cube_impact_01.vsnd_c CRC:00bca411f8 size:27074
 sounds/props/default_impact_02.vsnd_c CRC:00f8d61c09 size:23088
 sounds/props/toy_soldier_impact_01.vsnd_c CRC:0026699638 size:14392
-soundstacks/mixgraph.vmix_c CRC:0076679288 size:15099
-soundstacks/soundstacks_destinations.vsndstck_c CRC:00484564ea size:60386
+soundstacks/mixgraph.vmix_c CRC:00a9870393 size:15389
+soundstacks/soundstacks_destinations.vsndstck_c CRC:00817b9aaf size:60541
 soundstacks/soundstacks_manifest.vrman_c CRC:00ae474b76 size:973
 surfaceproperties/surfaceproperties.vsurf_c CRC:00d35b8502 size:10947
