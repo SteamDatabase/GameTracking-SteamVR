@@ -347,7 +347,7 @@
 	"VRSettingsCamera_RoomViewMode_Label" "Room View Camera Mode"
 	"VRSettingsCamera_RoomViewMode_EdgeA" "Colored Edges"
 	"VRSettingsCamera_RoomViewMode_EdgeB" "Colored Ghosts"
-	"VRSettingsCamera_RoomViewMode_VideoTransluscent" "Transluscent Pass-Through"
+	"VRSettingsCamera_RoomViewMode_VideoTransluscent" "Translucent Pass-Through"
 	"VRSettingsCamera_RoomViewMode_VideoOpaque" "Opaque Pass-Through"
 	"VRSettingsCamera_CameraColor" "Camera Chaperone Color"
 	"VRSettingsCamera_CameraOpacity" "Camera Chaperone Opacity"

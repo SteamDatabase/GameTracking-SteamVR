@@ -7,16 +7,12 @@
 		},
 		{
 			"action": "/actions/system/in/ToggleDashboard",
-			"source": "/filters/1system_button/single"
+			"source": "/filters/1system_button/long"
 		},
 		{
 			"action": "/actions/system/in/TakeScreenshot",
 			"source": "/filters/1screenshot_chord/result",
 			"filters_to_cancel" : [ "1system_button" ]
-		},
-		{
-			"action": "/actions/system/in/ShowPowerMenu",
-			"source": "/filters/1system_button/long"
 		},
 		{
 			"action": "/actions/system/in/ToggleRoomView",
@@ -64,7 +60,7 @@
 		{
 			"name" : "1system_button",
 			"type" : "boolean_button_press_state",
-			"input" : "/user/gamepads/input/back/click",
+			"input" : "/user/gamepad/input/back/click",
 			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
 			"cancel_on_action_sets" : [ "/actions/chord" ],
 			"parameters" : 
