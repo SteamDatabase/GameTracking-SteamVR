@@ -34,8 +34,6 @@ $[A\]
 ([A\A]A^A_]
 ([A\A]]
 ([]A\A]A^A_
-+C$9C
-+C$;C
 +K$Lc
 +S$Hc
 +s$Hc
@@ -75,7 +73,6 @@ $[A\]
 .symtab
 .text
 0123456789ABCDEF
-0[A\A]A^]
 0[A\]
 0[]A\A]A^
 0x%016llX
@@ -161,6 +158,7 @@ $[A\]
 =TNRP
 ?libvconcomm.so
 @[A\]
+A+D$$9
 A+D$$H
 A+E$H
 A+E$f
@@ -212,10 +210,12 @@ AWAVE1
 AWAVH
 AWAVI
 AWAVL
+AWAVM
 A\A]A^A_]
 A\A]A^]
 A\A]]
 AddRef
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 AssertMsg_ConditionFailed
@@ -260,8 +260,8 @@ D+c$Mc
 D+k$Mc
 D+s$Mc
 D;c D
-D;cHf
 D;s8|
+D;sHf
 DNMCH
 DebugTextureInfo001
 DevMsg
@@ -292,14 +292,13 @@ FCVAR_NEVER_AS_STRING
 FNIAI
 FONAH
 FeedData
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 FormatV
 G A9G
 G u)H
-G8t"H
-G8t+H
 G<@t	]
 G<@t L
 G<@t#f
@@ -334,6 +333,7 @@ H[]A\A]A^A_
 HammerMapLoader001
 HcC$H
 HcC4u
+HcKPHc
 HcSPH
 HcWPH
 HelpSystem_001
@@ -363,16 +363,16 @@ KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 LCPPA\A]A^]
 LCPPH
+LHcKHIc
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
 Lc#D;c
 Lc/E)
-Lcc8D;cHD
+Lcc8D;cH
 LccPD;c`D
 Lck D;k0
 Lc{pD;
-LightingBuilderMgr001
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
 LoggingSystem_FindChannel
@@ -401,8 +401,9 @@ Message Version Mismatch: '%s', Expected %d, Got %d
 Message received for VConsolePipe_t with no registered helper (%s)
 Message received on closed VConsole Pipe! (%s)
 ModelDocUtils001
+NAHCD
 NAHCH
-NAHCL
+NHcKHIc
 NODA1
 NetworkClientService_001
 NetworkMessagesVersion001
@@ -429,6 +430,7 @@ Plat_FloatTime
 Plat_GetModuleFilename
 Plat_GetOSType
 Plat_IsHighDPI
+Plat_IsInDebugSessionRaw
 Plat_IsRunningOnCustomerMachine
 Plat_MSTime
 Plat_ShouldCollectMiniDumpsForFatalErrors
@@ -491,12 +493,12 @@ SOCKET_ERR_READ_OPERATION_WOULD_BLOCK
 SOCKET_ERR_WRITE_OPERATION_FAILED
 SOCKET_ERR_WRITE_OPERATION_WOULD_BLOCK
 SP[A\]
-ScaleformUI001
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
+SerializedEntitiesVersion001
 ServerUploadGameStats001
 Sht7Lc{pD;
 SoundOpSystem001
@@ -874,7 +876,6 @@ strstr@@GLIBC_2.2.5
 t	[A\A]A^]
 t$H9h
 t*HcO
-t+Hc]
 t?[A\]
 t@@:>u
 tSHcO
@@ -904,3 +905,5 @@ x[A\A]A^A_]
 ~	ATI
 ~)A;]
 ~)H97tC
+~SHcC
+~vHcKPHc

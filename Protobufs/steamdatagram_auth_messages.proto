@@ -15,6 +15,8 @@ message CMsgSteamDatagramRelayAuthTicket {
 	optional fixed64 gameserver_net_id = 5;
 	optional bytes legacy_signature = 6;
 	optional uint32 app_id = 7;
+	optional fixed32 gameserver_pop_id = 9;
+	optional uint32 virtual_port = 10;
 	repeated .CMsgSteamDatagramRelayAuthTicket.ExtraField extra_fields = 8;
 }
 
@@ -34,7 +36,7 @@ message CMsgSteamDatagramCertificate {
 	optional .CMsgSteamDatagramCertificate.EKeyType key_type = 1 [default = INVALID];
 	optional bytes key_data = 2;
 	optional fixed64 steam_id = 4;
-	optional fixed32 gameserver_datacenter_id = 5;
+	repeated fixed32 gameserver_datacenter_ids = 5;
 	optional fixed32 time_created = 8;
 	optional fixed32 time_expiry = 9;
 	optional uint32 app_id = 10;
@@ -44,5 +46,11 @@ message CMsgSteamDatagramCertificateSigned {
 	optional bytes cert = 4;
 	optional fixed64 ca_key_id = 5;
 	optional bytes ca_signature = 6;
+}
+
+message CMsgSteamDatagramCachedCredentialsForApp {
+	optional bytes private_key = 1;
+	optional bytes cert = 2;
+	repeated bytes relay_tickets = 3;
 }
 

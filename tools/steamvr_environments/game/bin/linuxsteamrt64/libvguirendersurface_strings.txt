@@ -1,5 +1,4 @@
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
-	[A\]
       
     Max committed memory: %u KB out of %d KB
     Total committed memory: %d KB
@@ -8,6 +7,7 @@
   Does nothing to multiple selections.
   Panel will be created where the menu was opened.
  ( def. "%s" )
+ ;2tnD
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^]
@@ -57,7 +57,6 @@
 #vgui_TimeLeftSecond
 #vgui_TimeLeftSeconds
 $+s$Hc
-$A;D$
 $ORIGIN
 $[A\]
 $woL)
@@ -100,7 +99,6 @@ $woL)
 %s:hscroll
 %s:vscroll
 &Apply
-&D;(tjD
 &Exit
 &Reload Localization
 &Save
@@ -111,12 +109,10 @@ $woL)
 ([A\A]]
 ([]A\A]A^A_
 (no name)
-)D$PA
+*E@Hc
 *N12_GLOBAL__N_115ScrollBarButtonE
 *N12_GLOBAL__N_116CaptionGripPanelE
 *N12_GLOBAL__N_19GripPanelE
-+C$9C
-+C$;C
 +K$Lc
 +S$Hc
 +s$Hc
@@ -238,10 +234,10 @@ $woL)
 3E8 u
 3[A\A]A^]
 4 - no pin
-4$HcE
 42HcU
 4fff>fff>fff>fff>
 4vf;T
+5t~BC
 692t&H
 6ConVar
 6H92t%H
@@ -250,7 +246,6 @@ $woL)
 8!t5H
 8#t(H
 8#tEH
-8A\A]A^]
 8CFmtStrNILi1024ELb0EE
 8CFmtStrNILi256ELb0EE
 8S)tK
@@ -268,6 +263,8 @@ $woL)
 ;2|?H
 ;2~.H
 ;L9'u
+;L9/u
+;L9?u
 ;W0}D
 ;s t_+s$Hc
 <	w.1
@@ -297,8 +294,6 @@ $woL)
 ?A\A]A^]
 ?ButtonToggled
 ?ComboBoxButton
-?L97u
-?L;'u
 ?VGuiPaintSurfaceLayout
 ?north-west
 @ A\A]A^]
@@ -306,12 +301,15 @@ $woL)
 @ A]A^]
 @(A]A^]
 @8A\A]A^]
+@@D;@P
+@DrawFlushText
 @XA^]
 @[A\A]A^]
 @[A\]
 @mempool.cpp
 A)F A
 A)F$H
+A+D$$9
 A+D$$H
 A+E$H
 A+E$f
@@ -391,7 +389,6 @@ AWAVAUE
 AWAVAUE1
 AWAVAUI
 AWAVAUL
-AWAVAUM
 AWAVD
 AWAVE
 AWAVE1
@@ -413,6 +410,7 @@ AddRef
 After selecting and moving a panel Ctrl-z will undo the move.
 AllocInternal
 Already have converter for type %s, ignoring...
+AnimGraphEditorUtils001
 AnimatingImagePanel
 AnimationController
 AnimationSystemUtils_001
@@ -464,7 +462,6 @@ C([A\]
 C*|EH
 C,[A\A]]
 C,[A\]
-C8tAH
 CBitmapImagePanel
 CBuildFactoryHelper
 CBuildFactoryHelper:  Factory for '%s' already exists!!!!
@@ -513,6 +510,7 @@ CVGuiRenderSurface::DrawGradientQuad
 CVGuiRenderSurface::Init
 CVGuiRenderSurface::StartDrawing
 CXXABI_1.3
+CallQueued
 Can't add Keybindings Context for unnamed panels
 CanBeDefaultButton
 Candidate
@@ -580,12 +578,10 @@ D$ L9
 D$(A\]
 D$(E1
 D$(H9
-D$0E1
 D$0H9
 D$0L9
 D$8I9
 D$8L9
-D$:fA
 D$@H9
 D$@Hc
 D$@I9
@@ -602,11 +598,16 @@ D48D9
 D9y@tO
 D;!t{Hc
 D;'t{Hc
-D;a(D
+D;5gO=
+D;5rO=
+D;5}O=
+D;=I[1
 D;c D
+D;c tIH
 D;cPD
 D;c\|
 D;g(D
+D;y(t(I
 Deaccel
 DebugTextureInfo001
 Default
@@ -645,7 +646,6 @@ DrawFilledRect
 DrawFilledRectArray
 DrawFilledRectFade
 DrawFilledRectFastFade
-DrawFlushText
 DrawGradientFilledRect
 DrawLine
 DrawOutlinedCircle
@@ -733,6 +733,7 @@ FindDefaultButton
 FindLessOrEqual
 FinishDrawing
 FlashWindow
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 Flicker
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
@@ -767,8 +768,6 @@ FrameTitleButton.FgColor
 G A9G
 G u)H
 G$HcW E
-G8t"H
-G8t+H
 G<@t	]
 G<@t L
 G<@t#f
@@ -816,18 +815,17 @@ H=vmatt*H=vtexu
 HIGHDPI
 HKEY_CURRENT_USER\Software\Valve\Steam\Language
 H[A\A]A^A_]
-H[A\A]A^]
 H[A\A]]
 H[]A\A]A^A_
 HammerMapLoader001
 HcC$9
 HcC$H
-HcC@H
-HcJ@;JP
+HcHPH
 HcKH1
+HcKPHc
+HcKpIc
 HcS$H
 HcSPH
-HcV@;VP
 HcWPH
 Hcs H
 HelpSystem_001
@@ -843,9 +841,13 @@ I;_ v
 IMECandidatesMenu
 IQuickTime001
 Ic4$H)
-IcExA;
+IcG@H
+IcL$@1
+IcM(Ic
+IcOPH
+IcOhIc
 Ic]PI
-Ic_XA;_h
+Ic_XA;_htnI
 Ic_xA;
 Icu`H
 IgnoreScheme
@@ -863,7 +865,6 @@ Invalid format for element ID encountered for attribute "%s"
 Invalid parent region %s specified for region %s in panel %s
 Invalidate
 Jc<(H
-K(xVHc
 K,[A\]
 KEY_0
 KEY_1
@@ -1009,6 +1010,7 @@ L+khI
 L9(t2L
 L9c`t}L
 L; ta
+LHcK@Ic
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
@@ -1022,21 +1024,19 @@ Label.TextDullColor
 LabelChanged
 LanguageMenu
 LayoutFileChanged
-Lc D;`
 Lc#D;c
-Lc(D;h
 Lc+D;k
 Lc/E)
 Lc3D;s
 Lc6E9
 Lc7E)
+Lc=@[1
 Lcc@H
 LcchD;cxD
 LccpD;
 Lcg H
 LckpD;
 Lc{pD;
-LightingBuilderMgr001
 ListImage
 ListPanel.BgColor
 ListPanel.DisabledSelectedTextColor
@@ -1068,8 +1068,10 @@ MarlettSmall
 MaterialUtils_001
 MathLib_Init
 MbP?+
-Mc,$E;l$
 Mc,$I
+Mc7E;w
+McExE;
+Mcl$0E;l$@u
 Mcl$pE;
 Mco@E;oP
 MemAlloc_AllocFunc
@@ -1166,6 +1168,7 @@ N4vgui9ListPanelE
 N4vgui9ScrollBarE
 N4vgui9TextEntryE
 N4vgui9TextImageE
+NE fA
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -1182,7 +1185,6 @@ No such Panel Animation class %s
 Num Lock
 Num Lock Toggle
 NumericInputOnly
-O@HcU
 OnCancel
 OnChangeChild
 OnCursorMoved
@@ -1197,6 +1199,7 @@ OpenContextMenu
 Ordered constructor wrapped type has no default constructor.
 P HcE
 P8H=vtext?H
+P@D;PP
 POSIX
 PX[A\A]A^]
 P[A\A]A^]
@@ -1251,12 +1254,13 @@ PropertyEditorSystem_001
 Pulse
 PushMakeCurrent
 QAUATSH
-QCallQueued
+QHcKHIc
 Queued fxn call: %s
 Queued fxn call: %s '%s'
 QueuedLoaderVersion001
 R0[A\]
 R8Y[]
+RHcK Ic
 RadioButton
 RadioButtonChecked
 RandomFloat
@@ -1303,12 +1307,10 @@ RoundedCorners
 RpA]A^]
 S,;S$~
 S0;S 
-SHD;j
-SHE;n
+S@t|f
 SSE and SSE2 are required.
 Save button - saves all settings to file. 
 ScalableImagePanel
-ScaleformUI001
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
@@ -1351,6 +1353,7 @@ ScrollButtonPressed
 SelectedImage
 SentenceModeMenu
 SerializeDMX: Unable to open file "%s"
+SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetActiveControl
 SetAsCurrentDefaultButton
@@ -1405,6 +1408,7 @@ Su	[A\]
 T$0H9
 T$8H)
 T$HD;2tOH
+T$HD;r
 T$HHc
 Test vgui panel positioning with title safe indentation
 TestFormatA
@@ -1467,6 +1471,7 @@ TreeViewItemSelectionCleared
 TreeViewStartRangeSelection
 Tried to rename from "%s" to "%s", but "%s" already exists!
 Typing Enter in any text field applies changes.
+UIcOPIc
 URLLabel
 UUID_1.0
 U`L;4
@@ -1480,7 +1485,6 @@ UpArrow
 UpdateControlData
 UseL4D2VguiHack
 UserInfoChangeService_001
-UxHcE
 V0u@H
 VApplication001
 VAvi001
@@ -1585,6 +1589,7 @@ VguiRenderSurfaceInit
 VisBuilder_001
 WARNING: Failed to create attribute '%s' - likely out of memory in s_DMXAllocator!
 WARNING: Trying to create a CRenderContextPtr without a valid context.
+WHD;s
 WIN32
 WIN32HIDEF
 WIN32LODEF
@@ -1603,6 +1608,7 @@ X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 YD$$L
+ZIcL$
 [ no resource file associated with dialog ]
 [%s] applying key '%s', has changed from '%s' to '%s'
 [A\A]A^A_]
@@ -1614,15 +1620,19 @@ YD$$L
 []A\A]A^
 []A\A]A^A_
 [nothing currently selected]
+\$ I9
+\IcL$
 \t!Hc
 \u0000
 \ufE1
 ]H+G 
 ]Ht,A
+]IcD$
 ^ t+H
-^@Lcc0D;c@D
+^@Lcc0D;c@
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
+_IcD$
 _Jv_RegisterClasses
 _Tz6u4
 _V_ComposeFileName
@@ -1702,6 +1712,7 @@ _init
 _lodef
 `[A\A]A^]
 `[A\]
+aIcD$
 a`t<L
 abort@@GLIBC_2.2.5
 allcaps
@@ -1738,6 +1749,7 @@ build mode flags
 buildfactoryhelper.cpp
 button
 c.[A\]
+cIcD$
 ceil@@GLIBC_2.2.5
 ceilf
 ceilf@@GLIBC_2.2.5
@@ -1790,6 +1802,7 @@ drophoverdelay
 droppable
 dulltext
 e tKE
+eIcD$
 editable
 element
 element_array
@@ -1799,7 +1812,7 @@ english
 f;0tr
 f;C.w
 f;r`u
-f@Mcl$0E;l$@D
+f@Mcl$0E;l$@tXI
 f@Mc|$
 fA;0M
 fA;0trA
@@ -1878,8 +1891,7 @@ iswspace@@GLIBC_2.2.5
 itemID
 itemIndex
 jbtKK
-k8;C0t8
-k8D;kHD
+k8D;kHtMH
 k@[A\A]A^]
 kHt6L
 keybindings
@@ -2000,6 +2012,7 @@ pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
+qIcL$
 qangle
 qangle_array
 qsort
@@ -2084,23 +2097,24 @@ style
 subFocus
 subtabposition
 swscanf@@GLIBC_2.2.5
+t	;Ch
 t	[A\A]A^]
-t fD;(u
 t"HcK
 t"HcO
-t"Lc+D;k
+t#fD;0u
 t$@A\]
 t$@Lc
 t$H9h
 t'Lc#D;c
+t'Lc+
 t(Lc#D;c
+t(Lc+
 t*HcO
 t+Hc4
 t+Jc4
 t,Lc+H
 t-Lck
 t.Hcu
-t3Lc+I
 t3[A\]
 t4[A\]
 t5Lc+I
@@ -2149,9 +2163,11 @@ towlower@@GLIBC_2.2.5
 towupper
 towupper@@GLIBC_2.2.5
 ttIcG
-tvMcgXE;ghD
+tvMcgXE;gh
 txA;\$ I
+tyHcC
 tyHcO
+t|HcC
 t}HcO
 u [A\]
 u64( %lld = 0x%llX )
@@ -2219,6 +2235,7 @@ wcsncpy
 wcsncpy@@GLIBC_2.2.5
 x HcW
 x6Hcw
+x@D;xP
 xGHcO
 xOHcO
 xRHcW
@@ -2226,16 +2243,18 @@ xWHcW
 x[A\A]A^A_]
 z/u-H
 { f;C(
-{HD;o
+{8;C0t4
 {}()'
 {}()':
 |$@Lc
+|$HD;w
 |+A;\$
 }-f;w"w'H
 }>;w$
 }F;w$
 }Hf;w
 }I;w$
+}IcL$
 }N;w$
 }[fA;
 }ef;w
@@ -2248,4 +2267,6 @@ z/u-H
 ~1Lce
 ~8D9b@
 ~8HcE
+~SHcC
 ~aHcW
+~vHcKPHc

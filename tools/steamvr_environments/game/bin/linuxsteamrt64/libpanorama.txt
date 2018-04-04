@@ -19,6 +19,9 @@
  CThreadEvent::Reset()
  CThreadEvent::Set()
  CThreadFastMutex::Lock(unsigned long long, unsigned int) volatile
+ CThreadMultiWaitEvent::CThreadMultiWaitEvent(bool)
+ CThreadMultiWaitEvent::Set()
+ CThreadMultiWaitEvent::~CThreadMultiWaitEvent()
  CThreadMutex::TryLock()
  CThreadRWLock::LockForWrite()
  CThreadRWLock::UnlockWrite()
@@ -64,18 +67,21 @@
  Plat_FloatTime
  Plat_GetCPUFrequency
  Plat_GetExecutablePathUTF8
+ Plat_GetModuleInterfaceFactory
  Plat_GetOSType
  Plat_GetTime
  Plat_IsHighDPI
  Plat_IsInDebugSessionRaw
  Plat_IsInTestMode
  Plat_IsWindowFocused
+ Plat_LoadModule
  Plat_RelativeTicks
  Plat_ScreenToWindowCoords
  Plat_SetActiveWindow
  Plat_ShouldCollectMiniDumpsForFatalErrors
  Plat_TickDiffMicroSec
  Plat_TicksAfterMicroSecs
+ Plat_UnloadModule
  Plat_VirtualAlloc
  Plat_VirtualFree
  Plat_localtime
@@ -159,6 +165,7 @@
  ThreadInitOnceCall_Finish
  ThreadInitOnceCall_ShouldRun
  ThreadInterlockedExchange64
+ ThreadMultiWait
  ThreadSleep
  V typeinfo name for EVideoPlayerEvent
  V typeinfo name for panorama::EActiveControllerType
@@ -170,6 +177,7 @@
  V vtable for v8::platform::WorkerThread
  VTT for std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >@@GLIBCXX_3.4
  V_AddBackSlashesToSpecialChars
+ V_CopyMemory3D
  V_ExtractDomainFromURL
  V_FixDoubleSlashes
  V_FixSlashes
@@ -209,14 +217,20 @@
  V_fclose
  V_fmodf
  V_fopenUTF8
+ V_fprintf
+ V_fputc
+ V_fread
  V_fwrite
  V_isstrlower_fast
  V_localeconv
  V_logf
+ V_longjmp
+ V_pow
  V_powf
  V_pretifynum
  V_qsort
  V_qsort_s
+ V_setjmp
  V_sinf
  V_snprintf
  V_snwprintf
@@ -248,6 +262,7 @@
  _ITM_deregisterTMCloneTable
  _ITM_registerTMCloneTable
  _Jv_RegisterClasses
+ _V_AppendSlash
  _V_ComposeFileName
  _V_ExtractFileExtension
  _V_ExtractFilePath
@@ -263,8 +278,6 @@
  _V_strncpy
  _V_strnicmp_fast
  _V_strnistr_fast
- _V_wcsncat
- _V_wcsncpy_bytes
  __assert_fail@@GLIBC_2.2.5
  __ctype_b_loc@@GLIBC_2.3
  __ctype_tolower_loc@@GLIBC_2.3
@@ -300,12 +313,14 @@
  __sprintf_chk@@GLIBC_2.3.4
  __stack_chk_fail@@GLIBC_2.4
  __strcat_chk@@GLIBC_2.3.4
+ __strcpy_chk@@GLIBC_2.3.4
  __tls_get_addr@@GLIBC_2.3
  __vfprintf_chk@@GLIBC_2.3.4
  __xstat64@@GLIBC_2.2.5
  __xstat@@GLIBC_2.2.5
  _setjmp@@GLIBC_2.2.5
  abort@@GLIBC_2.2.5
+ access@@GLIBC_2.2.5
  alphasort64@@GLIBC_2.2.5
  ceil@@GLIBC_2.2.5
  ceilf@@GLIBC_2.2.5
@@ -316,6 +331,7 @@
  dup@@GLIBC_2.2.5
  exit@@GLIBC_2.2.5
  exp@@GLIBC_2.2.5
+ expf@@GLIBC_2.2.5
  fclose@@GLIBC_2.2.5
  fcntl@@GLIBC_2.2.5
  fdatasync@@GLIBC_2.2.5
@@ -339,6 +355,7 @@
  ftell@@GLIBC_2.2.5
  ftruncate64@@GLIBC_2.2.5
  fwrite@@GLIBC_2.2.5
+ g_Mathlib_GammaToLinearByteTable
  g_Tier1_BitWriteMasks
  g_Tier1_CRC32Table
  g_Tier1_CRC64Table
@@ -346,10 +363,12 @@
  g_VProfCurrentProfile
  g_pCurrentFiberTL
  g_pMemAlloc
+ g_pThreadPool
  getenv@@GLIBC_2.2.5
  getpid@@GLIBC_2.2.5
  gettimeofday@@GLIBC_2.2.5
  getuid@@GLIBC_2.2.5
+ gmtime@@GLIBC_2.2.5
  gmtime_r@@GLIBC_2.2.5
  localtime@@GLIBC_2.2.5
  longjmp@@GLIBC_2.2.5
@@ -361,6 +380,7 @@
  memcpy@@GLIBC_2.14
  memmove@@GLIBC_2.2.5
  memset@@GLIBC_2.2.5
+ mktime@@GLIBC_2.2.5
  modf@@GLIBC_2.2.5
  modff@@GLIBC_2.2.5
  open64@@GLIBC_2.2.5

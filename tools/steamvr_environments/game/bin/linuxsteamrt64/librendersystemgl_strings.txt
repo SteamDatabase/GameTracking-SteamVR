@@ -91,7 +91,6 @@
 #OpenGL_UnableToStartGame
 #Present
 #RenderSystem_CannotCreateDevice
-#RenderSystem_UnableToStartGame
 #[A\]
 #base
 #base is NULL 
@@ -100,19 +99,18 @@
 #extension GL_ARB_explicit_attrib_location : enable
 #extension GL_ARB_separate_shader_objects : enable
 #extension GL_ARB_shading_language_420pack : enable
-#extension\s+GL_ARB_shading_language_420pack\s*:\s*enable
 #include
 #include is NULL 
 #int#
 #line
 #undef
 #version 140
-#version 150
 $*L;c
 $+s$Hc
 $4DTdt
 $A+D$$H
 $A;D$
+$E;D$
 $ORIGIN
 $[A\]
 $fD	8
@@ -170,9 +168,9 @@ $woL)
 (*%s*), 
 (8HXhx
 (D>C9[
+(Lc'A
 (On the line reading %s):
 ([A\A]A^A_]
-([A\A]A^]
 ([A\A]]
 ([]A\A]A^A_
 ([]A\A]A^A_H
@@ -225,7 +223,9 @@ $woL)
 *** Error! Could not find feature or static combo with name "%s" in %s!
 *** Error! Could not find feature with name "%s" in %s!
 *** Error! Could not find static or dynamic combo with name "%s" in %s!
+*** Error! Multiple dynamic combos are putting the same constant (%s) in different descriptor sets. This won't work correctly.
 *** Error! Multiple dynamic combos are putting the same constant (%s) in different locations. This shouldn't happen.
+*** Error! Multiple dynamic combos are putting the same texure (%s) in different descriptor set slots. This won't work correctly.
 *** Error! Rule error string must be quoted in %s!
 *** Error! Too many args found in rule in %s!
 *** Error! Too many or too few arguments to a rule in %s!
@@ -249,33 +249,30 @@ $woL)
 *** Unknown text found in FEATURES section in %s: "%s"
 *** VB "%s": Tried to lock a GPU-only buffer!
 *** VB "%s": Tried to lock too much memory (%d>%d)!
-*** VB "%s": Tried to lock twice without an unlock!
-*** vfx_common.cpp(1147): Error opening file "%s"!
-*** vfx_common.cpp(1224): Error opening file "%s"!
-*** vfx_common.cpp(4882): Error opening file "%s"!
-*** vfx_common.cpp(5032): Error opening include file in features list"%s"!
-*** vfx_common.cpp(5071): Error opening file "%s"!
-*** vfx_common.cpp(5300): Error opening file "%s"!
-*** vfx_common.cpp(5334): Error opening file "%s"!
-*** vfx_common.cpp(5373): Error opening file "%s"!
-*** vfx_common.cpp(5477): Error opening file "%s"!
-*** vfx_common.cpp(5932): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
-*** vfx_common.cpp(7067): Programmer Error! NULL pointer passed into function!
-*** vfx_common.cpp(7093): Programmer Error! Non feature rule found in feature rule array!
-*** vfx_common.cpp(81): Don't call VfxInit() more than once!
-*** vfx_common.cpp(909): Error opening file "%s"!
-*** vfx_common.cpp(91): g_pFullFileSystem must be set up before calling VfxInit!
-*** vfx_common.cpp(919): Error masking unused parts for "%s"!
-*** vfx_common.cpp(988): Error opening file "%s"!
-*** vfx_common.cpp(998): Error masking unused parts for "%s"!
+*** vfx_common.cpp(1009): Error opening file "%s"!
+*** vfx_common.cpp(1019): Error masking unused parts for "%s"!
+*** vfx_common.cpp(1088): Error opening file "%s"!
+*** vfx_common.cpp(1098): Error masking unused parts for "%s"!
+*** vfx_common.cpp(1247): Error opening file "%s"!
+*** vfx_common.cpp(1324): Error opening file "%s"!
+*** vfx_common.cpp(181): Don't call VfxInit() more than once!
+*** vfx_common.cpp(191): g_pFullFileSystem must be set up before calling VfxInit!
+*** vfx_common.cpp(5029): Error opening file "%s"!
+*** vfx_common.cpp(5179): Error opening include file in features list"%s"!
+*** vfx_common.cpp(5218): Error opening file "%s"!
+*** vfx_common.cpp(5447): Error opening file "%s"!
+*** vfx_common.cpp(5481): Error opening file "%s"!
+*** vfx_common.cpp(5520): Error opening file "%s"!
+*** vfx_common.cpp(5624): Error opening file "%s"!
+*** vfx_common.cpp(6079): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
+*** vfx_common.cpp(7214): Programmer Error! NULL pointer passed into function!
+*** vfx_common.cpp(7240): Programmer Error! Non feature rule found in feature rule array!
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN13CSOAContainer9FilterInXEi9IntAABB_tiPKfbEUliE_EEMS8_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 *:JZjz
 *S?~uJ?x
 *Z31CompileAllShadersForStaticComboyR19CVfxStaticComboDataR4CVfx12VfxProgram_tP4IVfxEUlRiE_
 *t~E1
 +;K[k{
-+C$9C
-+C$;C
 +E;,$}
 +J A)
 +J`Hc
@@ -288,10 +285,10 @@ $woL)
 +s$Ic
 +u\?v
 +{$Hc
-, IcU
 , at <EOF>
 , at offset %d
 , near %s
+,0IcU
 ,<L\l|
 --  Increase the size of the resource stream   --
 --  Need %d bytes, but only have %d bytes
@@ -304,6 +301,7 @@ $woL)
 -Stop: 
 -VUUU
 -VUUUL
+-adapter
 -autoconfig
 -autoconfig_level
 -debugdxsupport
@@ -311,7 +309,10 @@ $woL)
 -disallowhwmorph
 -dontEvictTextures
 -dumpallshaders
+-dx11
+-empty
 -end of input-(
+-force_recommend_gl
 -forcenovsync
 -gl_amd_pinned_memory
 -gl_apitrace
@@ -346,6 +347,7 @@ $woL)
 -glrenderthreadstack
 -ignoredxsupportcfg
 -limitvsconst
+-mantle
 -maxdxlevel
 -maxtextureres
 -memory-
@@ -360,6 +362,7 @@ $woL)
 -sse4
 -unknown source-
 -unknown source-(
+-vulkan
 ../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
@@ -439,6 +442,7 @@ $woL)
 12CSwapChainGL
 12CTextureBase
 12CThreadEvent
+12CThreadedJob
 12GLMDisplayDB
 12IMatchFinder
 12IOpEvaluatorIiE
@@ -486,6 +490,7 @@ $woL)
 15CMemberFunctor8IP13CSOAContainerMS0_FviiiiPKS0_iiiEiiiiS3_iii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor9IP13CSOAContainerMS0_Fviiiiiii6VectorbEiiiiiiiS2_b12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CRenderDeviceGL
+15CRenderPassDesc
 15CRenderResource
 15CRenderThreadGL
 15CResourceStream
@@ -626,13 +631,11 @@ $woL)
 31CCompileTargetExprOpCodeHandler
 31CDefaultIntrospectedTypeManagerILy2019914870E15TextureHeader_tE
 32CResourceReferenceFixupTraversal
-3333333
-3333A
-3333H
 34CSchemaRegistration_rendersystemgl
 37CCompileTargetExprStackMachineBuilder
 3E8 u
 3[A\A]A^]
+3_0_gl
 4$A\A]A^]
 4$H;]
 4(D;c
@@ -641,15 +644,21 @@ $woL)
 43A84$
 48;p$
 49B848
-4CJob
+4_0_gl
+4_0_vulkan
+4_1_gl
+4_1_vulkan
 4fff>fff>fff>fff>
 4iA\J
 5UUUU
+5_0_gl
+5_0_vulkan
 692t&H
 6ConVar
 6H92t%H
 6H;2u
 7CGLMTex
+7CToGLDynamicFunction: Closing library '%s' (%p)
 7IConVar
 7L9FHtOL9FPtaH
 7[A\A]A^]
@@ -703,15 +712,19 @@ $woL)
 <Unknown
 <_t5f
 <error>
+<invalid %d>
 <invalid>
 <missing 
 <no text for the token>
+<none>
 <null>
 <qA]A^]
 <unknown multisample type
 <unknown>
+<x360>
 <}tI<{uO
 =	 ();,
+=*** VB "%s": Tried to lock twice without an unlock!
 =CSP1A
 =CSP1u
 =yvn?
@@ -731,6 +744,7 @@ $woL)
 >nkY?
 >r*#?
 >|Z2>'ez?
+?#RenderSystem_UnableToStartGame
 ?5?s!
 ?CRenderThreadGL::CreateQueryObject failed
 ?LZMA]
@@ -741,7 +755,6 @@ $woL)
 ?u='@
 ?|7m=U
 ?}t%L
-@0A\]
 @80uN
 @8w$t
 @@A9F@
@@ -751,12 +764,15 @@ $woL)
 @[A\A]A^A_]
 @[A\A]A^]
 @[A\]
+@teL9
+@tjI9
 A	D$HH
 A!;I2
 A#D$ 	
 A#D$$	
 A#D$(	
 A#D$0	
+A+D$$9
 A+D$$H
 A+D$,H
 A+E$H
@@ -780,9 +796,10 @@ A+W,Hc
 A+W,f
 A+_$Hc
 A+u$Hc
+A9<$~(L
 A9G }
 A9L$@
-A9M`~6I
+A9M`~.I
 A9W8L
 A9^\~*A
 A9_@~8L
@@ -825,7 +842,6 @@ ATIRagePro
 ATI_DST16
 ATI_DST24
 ATSHc
-ATSHcGp;
 ATStKL
 ATSttL
 ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
@@ -923,6 +939,7 @@ AddToTailGetPtr
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 Align
 AllocInternal
+AllocTextureSlot
 Allocate
 AllocateAndCopy
 AllocateAndUploadSequenceData
@@ -930,6 +947,7 @@ AllocateResource
 Allow
 Allow%d
 Allow%d( 
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 AppleSW
@@ -999,6 +1017,7 @@ Bound texture to unsupported shader.
 Buffer error in compressed datastream in %s chunk
 Buffer passed to JPEG library is too small
 C![A\]
+C"fE9
 C$9C u
 C$[A\]
 C(I9D$(
@@ -1026,6 +1045,7 @@ CCommandBufferChunk CUtlMemoryPoolMT
 CDynamicBufferMgrGL
 CDynamicBufferMgrGL::CDynamicBufferMgrGL: Failed creating shared dynamic buffer!
 CDynamicBufferMgrGL::InsertNewDynamicBuffer: Failed creating shared dynamic buffer!
+CGLMProgramSeparable::RemoveShadingLanguage420Pack is not supported on Linux
 CGLMQuery::GetData(): Occlusion query flush took %3.3fms!
 CGLMQuery::GetData: Failure retrieving occlusion query data! This scenario is not supported in GL.
 CHD)cP
@@ -1069,7 +1089,6 @@ CSwapChainBase::QueuePresentAndWait() looped for %d iterations without a present
 CTSQueue corruption
 CT[A\]
 CTextureManagerGL::ComputeTextureObject: Tried to create a depth-stencil texture which is *not* a render target!
-CToGLDynamicFunction: Closing library '%s' (%p)
 CToGLDynamicFunction: Loading library '%s' (%p)
 CToGLDynamicFunction: Lookup of '%s' in '%s': %p
 CUBEArray
@@ -1091,7 +1110,6 @@ CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer
 CUtlVector
 CXXABI_1.3
 CXt(H
-C`H+CXH
 C`v+H
 C`v8f.
 C`v9f.
@@ -1123,12 +1141,14 @@ Commit
 Compatibility
 Compilation failed; no code produced.  Log string from driver:
 Compile Target Expression
+Compile Targets
 Compile of "%s" Failed:
 CompileShadersForFeatureCombo
+CompileT
 CompileTargets
-CompileTf
 Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
 Compressed texture decoded in %.2f ms
+Compute Shader
 ConVar(%s) defined with infinite float value (%s)
 ConVarRef %s doesn't point to an existing ConVar
 ConcatentateInputLayouts
@@ -1158,11 +1178,12 @@ D$ A#
 D$ H9
 D$ H9D$
 D$ L9
+D$ Lc
 D$$-x
 D$(-Hq
 D$(E1
 D$(H9D$
-D$(HcC@
+D$(HcCH
 D$(I;
 D$(IcT$
 D$0A\A]A^]
@@ -1172,23 +1193,17 @@ D$8D+|$8+D$
 D$8E1
 D$8I9
 D$8L9
-D$@A9G@u
 D$@E1
 D$@H9
 D$@I9
 D$@L9
-D$DA9GDu
 D$D[A\]
-D$HH9
 D$HfA
 D$PM!
+D$XA9GXu
 D$\M9
-D$eA8
-D$fA8
-D$gA8
+D$`A9G`u
 D$l[A\]
-D$sA8
-D$vA8
 D$|Hi
 D)c L
 D+C$Mc
@@ -1210,6 +1225,7 @@ D84;t
 D8T;4
 D9+~/L
 D93~"Mc/E;o
+D9=I}:
 D9A$t
 D9F<~
 D9L$0A
@@ -1222,8 +1238,10 @@ D9|$
 D:z	t
 D:z	tUHc
 D;!t{Hc
+D;"tsHc
+D;)th
 D;c D
-D;k D
+D;k u
 D;k`v0L
 D;kdw
 D;l$(
@@ -1254,15 +1272,19 @@ Define Restart Interval %u
 Deleting texture with outstanding streaming request
 DescriptH
 Description
+Dev Shader
 DevMsg
-DevShadeA
+DevShadeH
 DevShader
 Device Caps :
 Didn't expect more than one scan
+Direct3D 11
+Direct3D 9
 Disabling GL_ARB_buffer_storage for RenderDoc.
 Discarding abandoned streaming texture load
 Display GPU memory usage.
 Display mode : %d x %d @%dHz (%s)
+Domain Shader
 DotaCardGameClient_001
 Driver : %s Version : %d.%d
 Driver Description :  %s
@@ -1328,6 +1350,7 @@ E;\$8
 E;f@}BI
 E;n\|
 E;t$ M
+E;t$ t!I
 E;}<L
 EDeviceCreated
 EMPTY - ok for slot zero only!
@@ -1381,9 +1404,9 @@ Extraneous token
 F	@t&
 F 9G tq
 F 9G u
+F A9G
 F Hcu
 F(9G(u
-F(D9e
 F,9G,t
 F0I9F(r=H
 F49C`
@@ -1413,8 +1436,8 @@ Failed to map from %s to game-path
 Failed to save video settings config to '%s'
 Failed trying to Commit %u bytes, used %u bytes, reserved %u bytes
 FailedLock
-FbRKNSt8__detail14_PatternCursorEE
 FeatureRule
+Features
 File has not been opened!
 FileKeys
 FillAttr
@@ -1429,6 +1452,7 @@ FindOrCreateTexture: Texture usage is unspecified!
 FindSamplerObject
 FixupResourceName: Illegal full path passed in ("%s")!
 FixupResourceName: Illegal path, missing extension passed in ("%s")!
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FloatBitMap::DownsampleNiceFiltered
 FloatBitMap::QuarterSize
@@ -1456,8 +1480,6 @@ G u)H
 G$+GX;G,@
 G8I;G@
 G8I;G@r
-G8t"H
-G8t+H
 G<@t	]
 G<@t L
 G<@t#f
@@ -1471,22 +1493,19 @@ G<@th
 G<@tp
 G<UHc
 G>0]H
+G@A;D$@u
 GAMECONSOLE
 GAMEROOT
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (crosstool-NG 1.17.0) 4.6.3
 GH;FHt
-GHA;D$Hu
 GL ERROR: %s
 GL shader binaries cache "%s" does not have enough data, resetting. 
 GL shader cache TOC file version is %d instead of %d for %s
 GL texture manager frame update
 GL: [%s][%s][%s][%d]: %s
 GLIBCXX_3.4
-GLIBCXX_3.4.11
 GLIBCXX_3.4.14
-GLIBCXX_3.4.15
-GLIBCXX_3.4.9
 GLIBC_2.11
 GLIBC_2.14
 GLIBC_2.2.5
@@ -3567,6 +3586,7 @@ GenerateDistanceField
 GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
 Generic
 GenericFloat
+Geometry Shader
 GetCPUInformation
 GetResourceManifestCount
 GetResourceManifests
@@ -3579,10 +3599,7 @@ H	p(]
 H	w(UH
 H!w(H
 H+C D
-H+CXH
-H+CXHcJ
 H+S H
-H+SXH
 H0~sUA
 H9*tgH
 H92t)H
@@ -3592,12 +3609,10 @@ H9GHt
 H9O0r
 H9W8t	]
 H;0tGH
-H;= E7
-H;=')?
-H;='*?
-H;=bF7
-H;=zF7
-H;=|E7
+H;=:S7
+H;=RS7
+H;=TR7
+H;=i%7
 H;B(uLL
 H;C r
 H;CHs
@@ -3633,9 +3648,13 @@ HcChI)
 HcE H
 HcE Hc
 HcE0H
-HcH@H
+HcHDH
 HcILH
 HcILH)
+HcK Ic
+HcKPHc
+HcKPIc
+HcKhIc
 HcL$pHcT$
 HcPDH
 HcPP9
@@ -3658,6 +3677,8 @@ HookUpTextureBits
 HostStateMgr001
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
+Hull Shader
+Hxt;H
 I could not work out what I was expecting, like so many of us these days!
 I9<$t3I
 I;<$u
@@ -3683,21 +3704,19 @@ IcD$PH)
 IcD$dE)
 IcD$hI)
 IcE$H
-IcF0D
 IcF0H
 IcG(H
 IcL$XH9
+IcM8Ic
 IcT$ 
 IcT$8
 IcT$8H
 IcV8A
 IcW(H
-IcWxA;
-Ic](A;]8
 Ic]PI
-Ic^xA;
 Icu`H
 Icv0H
+Ic|$pH
 Ignoring PLTE chunk in grayscale PNG
 Ignoring attempt to set cHRM RGB triangle with zero area
 Ignoring attempt to set negative chromaticity value
@@ -3842,7 +3861,6 @@ Jc48L
 Jc<(H
 K I9L$ t
 K$+KX;K,
-K(xVHc
 K,[A\]
 K@H9J
 KMeansQuantization
@@ -3853,13 +3871,12 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
+L	P0A
 L$ Lc
 L$(E1
 L$49L$ 
 L$HfA
-L$xHc
 L$|9N
-L+cXI
 L8.I;N
 L9,$Mc
 L9BHt`L;BPu
@@ -3886,28 +3903,32 @@ LZMAH
 Lc!D;a
 Lc#D;c
 Lc'E)
+Lc(D;h
 Lc+D;k
+Lc.D;n
 Lc/D)
-Lc/D;o
 Lc/E)
+Lc3D;s
 Lc6E9
 Lc7E)
 Lc7E1
+Lc7E9
+Lc?D)
 Lc[PD
 Lc[`E)
 Lc`4I
 Lcc D;c0t<D
 Lcc4J
 LccpD
-Lcg@D;gPD
-LcgXD;ghD
+Lcg@D;gPt/H
+LcgXD;ght/H
+LcgXD;ght8H
 LcgpD
 Lck(N
 Lck@A
 LckpD
 Lc{pD;
 Lexer encountered %i errors parsing compile targets expression "%s"
-LightingBuilderMgr001
 Line: 
 Linear
 Link failed; no code produced.  Log string from driver:
@@ -3922,7 +3943,7 @@ LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
-M(Icy
+M(IcQ
 M0;9~
 M;n0w7A
 MATCHFRAMEWORK_001
@@ -3941,9 +3962,14 @@ MNoScatter
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MODES
-MResourceBlockType
 MResourceTypeForInfoType
 MResourceVersion
+MainCs
+MainDs
+MainGs
+MainHs
+MainPs
+MainVs
 Malformed iCCP chunk
 Malformed iTXt chunk
 Mantle
@@ -3962,7 +3988,7 @@ Maximum device access threads: %u
 Maximum supported image dimension is %u pixels
 MbP?+
 Mc&E;f
-Mc'E;g
+Mc,$A
 Mc,$D
 Mc,$E;l$
 Mc.E;n
@@ -3971,6 +3997,7 @@ McD$<B
 McH<B
 McgXO
 McnPH
+Mct$(E;t$8
 Mc|$P
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -4018,6 +4045,7 @@ Missing PLTE before tRNS
 Missing basic OpenGL v1.0 -> v2.0 required OpenGL functionality.
 Missing token
 ModelDocUtils001
+Modes
 Multiply defined variable "%s"
 N [A\A]A^A_]
 N$]9G$
@@ -4026,7 +4054,6 @@ N11PerfMarkers27CKHRDebugPerfMarkerProviderE
 N11PerfMarkers31CGREMDYStringPerfMarkerProviderE
 N11PerfMarkers33CARBDebugOutputPerfMarkerProviderE
 N14MDmElementType45CValueSearchTester_ClassIntrospectionHandle_tE
-N18MResourceBlockType45CValueSearchTester_ClassIntrospectionHandle_tE
 N24MDiskDataForResourceType45CValueSearchTester_ClassIntrospectionHandle_tE
 N4NBT212CMatchFinderE
 N4NBT312CMatchFinderE
@@ -4042,14 +4069,6 @@ NATIVE_PARAMETERS
 NATIVE_TEMPORARIES
 NATIVE_TEX_INDIRECTIONS
 NATIVE_TEX_INSTRUCTIONS
-NSt8__detail10_AutomatonE
-NSt8__detail10_EndTaggerIPKcSt12regex_traitsIcEEE
-NSt8__detail12_CharMatcherIPKcSt12regex_traitsIcEEE
-NSt8__detail12_StartTaggerIPKcSt12regex_traitsIcEEE
-NSt8__detail13_RangeMatcherIPKcSt12regex_traitsIcEEE
-NSt8__detail13_Scanner_baseE
-NSt8__detail4_NfaE
-NSt8__detail8_ScannerIPKcEE
 NTROL
 NULL row buffer for row %ld, pass %d
 NVGeForce2MX
@@ -4103,6 +4122,7 @@ O0~_G
 O?_Y@?R
 OCTAL_ESC
 OD;NDu
+OHcKPIc
 ORENDER_MULTISAMPLE_INVALID
 OTHER
 O`D+w@D)
@@ -4116,6 +4136,7 @@ Only BC7 compression not supported on this target (windows only).
 Only DXT1/DXT5 online texture compression supported.
 OpenGL
 OpenGL %s (%08x)
+OpenGL ES v3.1 initialization failed.
 Opened temporary file %s
 OpenfD
 Ordered constructor wrapped type has no default constructor.
@@ -4165,8 +4186,7 @@ PC_SM_5_0_GL
 PC_SM_5_0_VULKAN
 PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.
 PERFORMANCE
-PFbRKNSt8__detail14_PatternCursorEE
-PLE9|$H
+PLE9}@
 PNG file corrupted by ASCII conversion
 PNG load error %s
 PNG unsigned integer out of range
@@ -4184,6 +4204,8 @@ ParticleSystemMgr002
 Path Overflow, must be less than 260 characters.
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
+Pixel Shader
+Pixel Shader Render State
 Plat_DebugPrint
 Plat_DebugString
 Plat_ExitProcess
@@ -4228,6 +4250,7 @@ Program MD5 is out of date with features! If you recompiled shaders in the backg
 Programmer Error! Static combo not loaded!
 PropertyEditorSystem_001
 Pt:E1
+QHcKHIc
 QkkXa
 Qu?GS
 Quantization table 0x%02x was not defined
@@ -4235,9 +4258,11 @@ Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
 QuarterSizeAttrWithBoxFilter
 QueuedLoaderVersion001
+QxHcU
 R channel not found
-R(92~OHcB
+R(92~YHcB
 R16F_EXPAND
+R32_UINT
 R8H=vtext
 R8Y[]
 RAUATL
@@ -4344,6 +4369,7 @@ RegisterStringToken
 Release
 ReleaseThreadHandle
 RemoveMipLevelsForTextures
+RemoveShadingLanguage420Pack
 RenderBufferFlags_t
 RenderDevice003
 RenderDeviceMgr001
@@ -4374,6 +4400,7 @@ Row has too many bytes to allocate in memory
 S +K$M
 S(+C8H)
 S(Lc~
+S*t.H
 S4E+e D9
 S8[A\A]A^]
 S@H;SHs
@@ -4407,12 +4434,12 @@ SHADER_SOURCE_ROOT
 SPB8t
 SPB8t)H
 SSE and SSE2 are required.
+S_MOLTEN_VK
 S_SHADER_QUALITY
 S_TOOLS_ENABLED
 Sampler object hash is full, increase cSamplerObjectHashSize
 Sampling factors too large for interleaved scan
 Saved video settings config to '%s'
-ScaleformUI001
 Scan script does not transmit all data
 SceneSystem_002
 SceneUtils_001
@@ -4426,6 +4453,7 @@ Selected %d colors for quantization
 SequenceFloatParam_t
 Serialize
 SerializeStaticComboWorker
+SerializedEntitiesVersion001
 SeriousWarning
 ServerUploadGameStats001
 SetAssociatedThreadIndex
@@ -4464,11 +4492,6 @@ Source2Server001
 Source2ServerSerializers002
 Spawning %d compile jobs
 Spt!1
-St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
-St12_Vector_baseINSt8__detail6_StateESaIS1_EE
-St15_Sp_counted_ptrIPNSt8__detail4_NfaELN9__gnu_cxx12_Lock_policyE2EE
-St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
-St6vectorINSt8__detail6_StateESaIS1_EE
 Start Of Frame 0x%02x: width=%u, height=%u, components=%d
 Start Of Scan: %d components
 Start of Image
@@ -4481,7 +4504,7 @@ String %d: ref:%d %s
 Suspension not allowed here
 SwapChainTexture
 T$ D)
-T$(92
+T$(9:
 T$(L9
 T$0D9
 T$0H9
@@ -4511,8 +4534,10 @@ TKHfD9
 TOTAL: %.2f MB
 TRPGH
 TS Hc
+TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
 TSPEC_CUBE_TEXTURE
 TSPEC_FLAGS
+TSPEC_INPUT_ATTACHMENT
 TSPEC_LINEAR_ADDRESSING_360
 TSPEC_LINE_TEXTURE_360
 TSPEC_NO_LOD
@@ -4572,6 +4597,7 @@ Trying to set dxlevel (%d) which is higher than the card can support (%d)!
 Trying to set dxlevel (%d) which is lower than the card can support (%d)!
 TypeManager
 U?y$L?
+UIcF@1
 UNAVAILABLE
 UNDEFINED_BEHAVIOR
 UNICODE_ESC
@@ -4623,7 +4649,6 @@ Upper limit on texture pool size.
 UserInfoChangeService_001
 V0u@H
 V89W8|
-V8t&H
 V@I;VHs
 VApplication001
 VAvi001
@@ -4733,6 +4758,7 @@ Vector2D
 Vector4D
 VectorText
 Version
+Vertex Shader
 Vfx Error: attribute type does not exist or does not support attribute literals.
 Vfx Error: attribute unsupported or requires a parameter binding.
 Vfx file "%s" has both compute shader and other shaders. Compute shaders must be the only shader type in a vfx file.
@@ -4780,12 +4806,15 @@ X0~tA
 X360_DST16
 X360_DST24
 X360_DST24F
+XIcL$ Ic
+XIcL$8Ic
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 Xbox 360
 YR ~UK
 YS H	
+ZIcL$
 Zero length tRNS chunk
 [%s %s %dx%dx%d mips=%d slices=%d flags=%02lX%s]
 [A\A]A^A_]
@@ -4793,6 +4822,7 @@ Zero length tRNS chunk
 [A\A]A^]
 [A\A]]
 [A\A^]
+[A\]A
 [Disk class %d/%d] Name = '%s'; Project = '%s'; Binary = '%s'
 [Index: 
 []A\A]
@@ -4882,22 +4912,8 @@ _ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
 _ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
 _ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
 _ZN22CThreadRWLock_FastReadC1Ev
-_ZNKSs4findEPKcmm
-_ZNKSs4findEPKcmm@@GLIBCXX_3.4
 _ZNKSs7compareEPKc
 _ZNKSs7compareEPKc@@GLIBCXX_3.4
-_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv
-_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4
-_ZNKSt5ctypeIcE13_M_widen_initEv
-_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
-_ZNKSt6locale2id5_M_idEv
-_ZNKSt6locale2id5_M_idEv@@GLIBCXX_3.4
-_ZNSirsERi
-_ZNSirsERi@@GLIBCXX_3.4
-_ZNSs12_M_leak_hardEv
-_ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
-_ZNSs14_M_replace_auxEmmmc
-_ZNSs14_M_replace_auxEmmmc@@GLIBCXX_3.4
 _ZNSs4_Rep10_M_destroyERKSaIcE
 _ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
 _ZNSs4_Rep10_M_disposeERKSaIcE
@@ -4908,107 +4924,28 @@ _ZNSs4_Rep9_S_createEmmRKSaIcE
 _ZNSs4_Rep9_S_createEmmRKSaIcE@@GLIBCXX_3.4
 _ZNSs4swapERSs
 _ZNSs4swapERSs@@GLIBCXX_3.4
-_ZNSs6assignEPKcm
-_ZNSs6assignEPKcm@@GLIBCXX_3.4
-_ZNSs6assignERKSs
-_ZNSs6assignERKSs@@GLIBCXX_3.4
-_ZNSs7reserveEm
-_ZNSs7reserveEm@@GLIBCXX_3.4
-_ZNSs9_M_mutateEmmm
-_ZNSs9_M_mutateEmmm@@GLIBCXX_3.4
-_ZNSs9push_backEc
-_ZNSs9push_backEc@@GLIBCXX_3.4
 _ZNSsC1EPKcRKSaIcE
 _ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
-_ZNSsC1EPKcmRKSaIcE
-_ZNSsC1EPKcmRKSaIcE@@GLIBCXX_3.4
 _ZNSsC1ERKSs
 _ZNSsC1ERKSs@@GLIBCXX_3.4
-_ZNSsC1EmcRKSaIcE
-_ZNSsC1EmcRKSaIcE@@GLIBCXX_3.4
-_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm
-_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm@@GLIBCXX_3.4
-_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEEC1ERKSsSt13_Ios_Openmode
-_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEEC1ERKSsSt13_Ios_Openmode@@GLIBCXX_3.4
-_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev
-_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
-_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode
-_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4
-_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
-_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
-_ZNSt5ctypeIcE2idE
-_ZNSt5ctypeIcE2idE@@GLIBCXX_3.4
-_ZNSt6localeC1ERKS_
-_ZNSt6localeC1ERKS_@@GLIBCXX_3.4
-_ZNSt6localeC1Ev
-_ZNSt6localeC1Ev@@GLIBCXX_3.4
-_ZNSt6localeD1Ev
-_ZNSt6localeD1Ev@@GLIBCXX_3.4
-_ZNSt6vectorINSt8__detail6_StateESaIS1_EE12emplace_backIJS1_EEEvDpOT_
-_ZNSt6vectorINSt8__detail6_StateESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_
-_ZNSt6vectorINSt8__detail9_StateSeqESaIS1_EE12emplace_backIJS1_EEEvDpOT_
-_ZNSt6vectorINSt8__detail9_StateSeqESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
-_ZNSt6vectorINSt8__detail9_StateSeqESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_
-_ZNSt8ios_baseC2Ev
-_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
-_ZNSt8ios_baseD2Ev
-_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
-_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
-_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
-_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
-_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@@GLIBCXX_3.4
 _ZNV16CThreadFastMutex4LockEyj
-_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
-_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@@GLIBCXX_3.4.9
-_ZSt16__throw_bad_castv
-_ZSt16__throw_bad_castv@@GLIBCXX_3.4
 _ZSt17__throw_bad_allocv
 _ZSt17__throw_bad_allocv@@GLIBCXX_3.4
-_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
-_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt19__throw_regex_errorNSt15regex_constants10error_typeE
-_ZSt19__throw_regex_errorNSt15regex_constants10error_typeE@@GLIBCXX_3.4.15
 _ZSt20__throw_length_errorPKc
 _ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
 _ZSt20__throw_out_of_rangePKc
 _ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
 _ZSt25__throw_bad_function_callv
 _ZSt25__throw_bad_function_callv@@GLIBCXX_3.4.14
-_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
-_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
-_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_ES4_
-_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_ES4_@@GLIBCXX_3.4
 _ZSt9terminatev
 _ZSt9terminatev@@GLIBCXX_3.4
 _ZTI17CThreadSyncObject
-_ZTINSt6locale5facetE
-_ZTINSt6locale5facetE@@GLIBCXX_3.4
-_ZTISt5ctypeIcE
-_ZTISt5ctypeIcE@@GLIBCXX_3.4
-_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
-_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
-_ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv119__pointer_type_infoE
-_ZTVN10__cxxabiv119__pointer_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__function_type_infoE
-_ZTVN10__cxxabiv120__function_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
-_ZTVSt15basic_streambufIcSt11char_traitsIcEE
-_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
-_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
-_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
-_ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt9basic_iosIcSt11char_traitsIcEE
-_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
 __Attribute__
 __Expression__
 __FROM_ATTRIBUTE_OR_FEATURE__
@@ -5028,8 +4965,6 @@ __ctype_toupper_loc
 __ctype_toupper_loc@@GLIBC_2.3
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
-__cxa_bad_cast
-__cxa_bad_cast@@CXXABI_1.3
 __cxa_begin_catch
 __cxa_begin_catch@@CXXABI_1.3
 __cxa_call_unexpected
@@ -5048,8 +4983,6 @@ __cxa_pure_virtual
 __cxa_pure_virtual@@CXXABI_1.3
 __cxa_rethrow
 __cxa_rethrow@@CXXABI_1.3
-__dynamic_cast
-__dynamic_cast@@CXXABI_1.3
 __fprintf_chk
 __fprintf_chk@@GLIBC_2.3.4
 __gmon_start__
@@ -5092,6 +5025,7 @@ appendstructuredbuffer
 apple
 archive
 argeH
+bIcL$
 before solve err=%f
 binormal
 blendindices
@@ -5104,7 +5038,6 @@ borrow
 box2i
 buf error
 buffer error
-c t0A
 c(IcF
 c([A\]
 c.[A\]
@@ -5138,7 +5071,6 @@ consumestructuredbuffer
 cpD)ctL
 cs_5_0
 c|[A\A]A^]
-d$ M9
 d$$LcR
 d$(E1
 d$@t$H
@@ -5162,15 +5094,17 @@ dlsym@@GLIBC_2.2.5
 ds_5_0
 dxsupport.cfg
 e$~sH
-e(E;e8D
+e(E;e8
 eikonal
 error in user chunk
 exit@@GLIBC_2.2.5
+externaldescriptorset
 f;C.w
 fA9\$
 fA;0M
 fA;0trA
 fB;D:
+fD	H(A9
 fD9 t
 fD;&tOH
 fG9\U
@@ -5199,13 +5133,13 @@ float4x3
 float4x4
 floatbitmap.cpp
 floatbitmap.cpp(124): Unknown gamma type "%s"!
-floatbitmap.cpp(2096): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2107): Error loading %s
-floatbitmap.cpp(2130): Error! Unknown file type for %s
-floatbitmap.cpp(2149): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
+floatbitmap.cpp(2113): Error calling TGALoader::GetInfo( %s )
+floatbitmap.cpp(2124): Error loading %s
+floatbitmap.cpp(2147): Error! Unknown file type for %s
+floatbitmap.cpp(2166): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
 floatbitmap.cpp(308): Conversion not supported yet!
 floatbitmap.cpp(408): Conversion not supported yet!
-floatbitmap.cpp(844): Unsupported color format "%s", skipping!
+floatbitmap.cpp(854): Unsupported color format "%s", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -5250,14 +5184,14 @@ gl/renderdevicegl.cpp(1471):
 gl/renderdevicegl.cpp(1516): 
 gl/renderdevicegl.cpp(1969): 
 gl/renderdevicegl.cpp(1976): 
-gl/renderdevicegl.cpp(2014): 
-gl/renderdevicegl.cpp(2224): 
+gl/renderdevicegl.cpp(2022): 
 gl/renderdevicegl.cpp(355): 
 gl/renderdevicegl.cpp(493): 
 gl/renderdevicegl.cpp(581): 
 gl/renderdevicegl.cpp(599): 
 gl/renderdevicegl.cpp(874): 
 gl/renderthreadgl.cpp(1689): 
+gl/togl/cglmshader.cpp
 gl/togl/glmdisplaydb.cpp
 gl/togl/glmgr_flush.inl
 glActiveShaderProgram
@@ -5340,6 +5274,7 @@ glDrawArrays
 glDrawArraysInstanced
 glDrawBuffer
 glDrawBuffers
+glDrawElementsInstanced
 glDrawElementsInstancedBaseVertex
 glDrawRangeElements
 glDrawRangeElementsBaseVertex
@@ -5592,7 +5527,7 @@ gs_4_0
 gs_4_1
 gs_5_0
 gx=%d, gy=%d, bx=%d, by=%d
-hE9/~\L
+hE9'~\L
 h[A\A]A^A_]
 h[A\A]]
 h[]A\A]A^A_
@@ -5600,6 +5535,7 @@ hdLcH
 header crc mismatch
 hs_5_0
 http://support.steampowered.com/cgi-bin/steampowered.cfg/php/enduser/std_adp.php?p_faqid=772
+iIcL$
 ignoring out of range rgb_to_gray coefficients
 incompatible version
 incorrect data check
@@ -5630,11 +5566,9 @@ invalid stored block lengths
 invalid window size
 is also the end of the line, so you must check your lexer rules
 k0u@I
-k8;C0t8
-k8D;kHD
+k8D;kHtMH
 k@[A\A]A^]
 l$ E9
-l$ Lc
 l$8fE
 l$PE1
 l$hA+^@
@@ -5645,8 +5579,6 @@ layout(location = 0) in vec4 inPos;
 layout(location = 0) out vec4 outColor;
 layout(location = 0) out vec4 texCoords;  
 layout(location = 1) in vec2 inTexCoords;  
-layout\s*\(.*\)\s+(uniform)\s+[A-Za-z0-9_]+
-layout\s*\(.*\)\s+uniform\s+sampler[A-za-z0-9]+\s+[A-Za-z0-9_]+
 ld-linux-x86-64.so.2
 lexer->mTokens(): Error: No lexer rules were added to the lexer yet!
 libSDL2-2.0.so.0
@@ -5785,7 +5717,6 @@ m_textureChannelProcessorArray
 m_value
 m_variableDescriptionArray
 m_vsInputSignatureArray
-main(
 makemelast
 malformed sPLT chunk
 malloc
@@ -5827,9 +5758,6 @@ nvidia
 o`-VUUUH
 offscreen plain surface
 or?wb
-out float gl_ClipDistance[1]
-out float4 gl_Position
-out gl_PerVertex { vec4 gl_Position; out float gl_ClipDistance[1]; }
 out of memory
 out vec4 gl_Position;
 outColor = texture( sampler15, texCoords );  
@@ -5924,6 +5852,7 @@ rwtexture2d
 rwtexture2darray
 rwtexture3d
 s v&E1
+s"fE9
 s=LcU
 sAmTb
 sMA;|$ 
@@ -6039,37 +5968,34 @@ t"HcK
 t"HcO
 t"[A\A]A^]
 t#H9q
+t$(HcV
 t$(uzI
 t$8E1
 t$@A\]
 t$H9h
 t$HcP
 t$HfA
-t$Lce
 t$lfA
 t%[A\]
 t+Hc4
 t+HcO
-t,Lce
 t-Mcv
-t-[A\]
-t/D;0u
+t/D; u
 t0Mcv
 t1Mc}
 t2[A\]
 t3D8J
 t4[A\]
 t6 H)
+t7[A\]
 t:[A\]
-t<IcV
 t?Mcv
 t@</u
 t@@:>u
-tBH)E
 tBHfE
 tEH;v0I
 tIW?Z
-tKLcc(D;c8D
+tJH)E
 tK~%E1
 tRH;v0I
 tRNS chunk has out-of-range samples for bit_depth
@@ -6078,6 +6004,7 @@ tSHcO
 tVHcC
 tWA9]
 t\G9l
+t\Ic\$(A;\$8
 t_HcG
 tangent
 tangents
@@ -6089,18 +6016,19 @@ tessfactor
 texCoords = vec4( inTexCoords, 0.0, 0.0 );  
 texcoord
 text compression mode is out of range
-texturebase.cpp(1299):Error loading texture: %s
-texturebase.cpp(2090):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2101):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2112):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2133):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2144):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2155):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2166):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2187):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2198):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2209):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2220):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp
+texturebase.cpp(1302):Error loading texture: %s
+texturebase.cpp(2095):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2106):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2117):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2138):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2149):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2160):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2171):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2192):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2203):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2214):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2225):ResourceHandleToData( %s ) failed! Falling back to error texture!
 tfUMc
 tgE+e D9
 tgHcS
@@ -6110,7 +6038,6 @@ tolower
 tolower@@GLIBC_2.2.5
 too many length or distance symbols
 tqH;v0t{L
-tqHcU
 transparency
 trunc
 trunc@@GLIBC_2.2.5
@@ -6124,7 +6051,10 @@ u LcU
 u [A\]
 u!L9]
 u"[A\A]A^]
+u$fE9
 u'[]A\A]A^
+u(HcV
+u(LcN
 u);w 
 u64( %lld = 0x%llX )
 u6[A\]
@@ -6132,10 +6062,14 @@ u7[A\A]A^]
 u:[A\A]A^A_]
 u?IcF
 uA[A\A]A^]
+uB[A\A]A^]
 uC[A\]
+uCfE9
+uFfD;M
 uHMc~
 uMHcN
 uRLcc
+uRfA9
 udev_device_get_property_value
 udev_device_new_from_syspath
 udev_device_unref
@@ -6172,13 +6106,13 @@ vector::_M_range_check
 vector::_M_range_insert
 vendor id: 0x%x
 vfx_common.cpp
-vfx_common.cpp(3362): Error! Ref count !=0 for static combo data cache entry!
-vfx_common.cpp(3449): Error! Ref count !=0 for static combo data cache entry!
-vfx_common.cpp(6603): Error opening file %s
-vfx_common.cpp(6677): VCS %s Unserialize failed
-vfx_common.cpp(6691): VCS %s Unserialize hit EOF
-vfx_common.cpp(6829): Error opening file %s
-vfx_common.cpp(6836): Error calling SkipAndValidateVCSHeader() for %s
+vfx_common.cpp(3506): Error! Ref count !=0 for static combo data cache entry!
+vfx_common.cpp(3593): Error! Ref count !=0 for static combo data cache entry!
+vfx_common.cpp(6750): Error opening file %s
+vfx_common.cpp(6824): VCS %s Unserialize failed
+vfx_common.cpp(6838): VCS %s Unserialize hit EOF
+vfx_common.cpp(6976): Error opening file %s
+vfx_common.cpp(6983): Error calling SkipAndValidateVCSHeader() for %s
 vfx_compile_target_expr.cpp(106): : Failed to create lexer from "%s"
 vfx_compile_target_expr.cpp(114): : Failed to create token stream from "%s"
 vfx_compile_target_expr.cpp(122): : Failed to create parser from "%s"
@@ -6203,12 +6137,11 @@ vtexE
 vtexE1
 vtexH
 vtexu
-w trH
-w t|H
+w tvH
 w(AUATI
-w9D;kPD
 w<)O )OH
 w=fD;m"
+wAD;kP
 wDA;X
 wPATSH
 wcslen
@@ -6216,14 +6149,14 @@ wcslen@@GLIBC_2.2.5
 wrinkle
 wx=%d, wy=%d, rx=%d, ry=%d
 x ;s|~
-x/fA)]
 x<IcH
+x=fA)]
 xGHcO
 xL;w\
 x[A\A]A^A_]
 x[]A\A]A^A_
 xcHcW
-xhE;u
+xxIcM
 z/u-H
 z5u3I
 zDTEX read request: %d KB; %s
@@ -6231,12 +6164,11 @@ zEuCH9
 zlib memory error
 zlib stream error
 zlib version error
+{8;C0t4
 {H+S$Hc
 {`xQuxH
 {hD9U
-{xt"H
 {}()':
-|$(HcW
 |$0A\]
 |$0E1
 |$@Mc
@@ -6249,13 +6181,12 @@ zlib version error
 |P>~k
 |]J@E
 |sHf9
-}!Lck
 }%;S,w 
-}(HcW
 }+f9_
 }>;w$
 }?fA9H
 }Hf;w
+}IcL$
 }MA;G,wG
 }T;w$wO
 }Tf;w
@@ -6265,10 +6196,11 @@ zlib version error
 ~(Hc{
 ~)A;]
 ~)H97tC
-~/Lc+I
 ~:Hct
 ~@ATM
 ~AVAUL
+~SHcC
 ~WHcE
 ~XHct
 ~uLcu
+~vHcKPHc

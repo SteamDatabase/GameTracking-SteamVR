@@ -10,6 +10,7 @@
 "%s" = "%s"
 "t&L;}
 $+s$Hc
+$E;D$
 $ORIGIN
 %-120s
 %-120s - %s
@@ -18,13 +19,13 @@ $ORIGIN
 ([A\A]A^A_]
 ([A\A]]
 ([]A\A]A^A_
-+C$9C
-+C$;C
 +K$Lc
 +S$Hc
 +s$Hc
 +s$Ic
+,$E;l$
 ../../public/ordered_constructor.h
+../../public/tier1/utllinkedlist.h
 .comment
 .data
 .data.rel.ro
@@ -50,6 +51,7 @@ $ORIGIN
 .symtab
 .text
 0123456789ABCDEF
+0[A\]
 0[]A\A]A^
 10ConCommand
 10IAppSystem
@@ -62,7 +64,11 @@ $ORIGIN
 15CTier1AppSystemI11ISteamAudioLi0EE
 15CTier2AppSystemI11ISteamAudioLi0EE
 16CDefaultAccessor
+16CReverbProcessor
+16CSteamAudioScene
+16IReverbProcessor
 16ISourceProcessor
+16ISteamAudioScene
 18CSource3DProcessor
 18CUtlCharConversion
 20CPostConnectCallback
@@ -71,16 +77,26 @@ $ORIGIN
 23CSplitScreenAddedConVar
 23IConCommandBaseAccessor
 3E8 u
+4 D;k
+4$A\A]A^]
+4$E;t$
+4fff>fff>fff>fff>
+5t~BC
 6ConVar
 6H92t%H
 7IConVar
 8[A\A]A^A_]
+8[A\A]]
 8[]A\A]A^A_
 ;*3$"
+<$E;|$
 <19{ |.
 <Rt<<Pt`<S
 <null>
+@A\A]A^A_]
+@VScript
 @[A\]
+A+D$$9
 A+D$$H
 A+G$H
 A+G$Lc
@@ -98,14 +114,18 @@ AUATD
 AUATI
 AUATL
 AUATLc
+AUATSD
 AUATSH
 AUATSL
 AUATUSH
 AVAUATA
+AVAUATE1
 AVAUATI
 AVAUATSH
+AVAUATSu'
 AVAUATUSH
 AVAUI
+AVAUL
 AWAVA
 AWAVAUATA
 AWAVAUATI
@@ -117,10 +137,14 @@ AWAVE
 AWAVE1
 AWAVI
 AWAVL
+AWAVM
 A\A]A^A_]
 A\A]A^]
 A\A]]
+A]A^]
 AddRef
+AllocInternal
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 AssetBrowserSystem_001
@@ -135,7 +159,10 @@ CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. S
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
+CUtlLinkedList overflow! (exhausted index range)
+CUtlLinkedList overflow! (exhausted memory allocator)
 CXXABI_1.3
+Clibsteamaudio.so
 ConVar(%s) defined with infinite float value (%s)
 ConVarRef %s doesn't point to an existing ConVar
 ConfigurationSystem_001
@@ -161,16 +188,16 @@ EngineServiceMgr001
 EnvironmentMapBuilder_001
 EventSystem001
 FCVAR_NEVER_AS_STRING
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FontManager_001
 FormatV
 G A9G
 G u)H
-G8t"H
-G8t+H
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GLIBC_2.14
 GLIBC_2.2.5
+GLIBC_2.3.4
 GLIBC_2.4
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -184,6 +211,7 @@ H9*tgH
 H[A\A]A^A_]
 H[]A\A]A^A_
 HammerMapLoader001
+HcKPHc
 HcSPH
 HcWPH
 HelpSystem_001
@@ -200,7 +228,6 @@ Intentionally vague touch behavior for %p
 KeyValueCache001
 LOG_GENERAL
 Lc{pD;
-LightingBuilderMgr001
 Localize_001
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
@@ -210,6 +237,7 @@ MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
+Mc,$E
 MeshSystem001
 MeshUtils001
 ModelDocUtils001
@@ -247,18 +275,19 @@ ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
-ScaleformUI001
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
+SerializedEntitiesVersion001
 ServerUploadGameStats001
 Sht7Lc{pD;
 SoundOpSystem001
 SoundOpSystemEdit001
 SoundService_001
 SoundSystem001
+SoundSystemLowLevel
 Source2Client002
 Source2ClientPrediction001
 Source2ClientUI001
@@ -275,6 +304,11 @@ StatsService_001
 SteamAudio
 SteamAudio001
 T$8H)
+TestFormatA
+TestFormatB
+TestFormatC
+TestFormatD
+TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
@@ -313,10 +347,10 @@ VProcessUtils002
 VProfService_001
 VR_001
 VRenderDeviceSetupV001
-VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
+VUUUH
 V_FixDoubleSlashes
 V_FixSlashes
 V_RemoveDotSlashes
@@ -344,6 +378,7 @@ Warning:  %s = '%s' is infinite, clamping value.
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
+X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 [A\A]A^A_]
@@ -352,8 +387,11 @@ X[]A\A]A^A_
 []A\A]
 []A\A]A^
 []A\A]A^A_
+\$(fA
+\$*fA
 \u0000
 ^ t+H
+^IcL$
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -392,14 +430,22 @@ __cxa_pure_virtual@@CXXABI_1.3
 __gmon_start__
 __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
+__memcpy_chk
+__memcpy_chk@@GLIBC_2.3.4
 __pthread_key_create
+__pthread_key_create@@GLIBC_2.2.5
+__reverbH
 __stack_chk_fail
 __stack_chk_fail@@GLIBC_2.4
 _edata
 _fini
 _init
+aIcL$
 abort@@GLIBC_2.2.5
 archive
+binary
+binary_bc
+c*t@H
 cheat
 client
 clientcmd_can_execute
@@ -410,15 +456,49 @@ dl_iterate_phdr@@GLIBC_2.2.5
 ffff.
 fffff.
 ffffff.
+floorf
+floorf@@GLIBC_2.2.5
 free@@GLIBC_2.2.5
 g_pMemAlloc
+generic
+iIcL$
 interfaces.cpp
-iplApplyBinauralEffect
+iplApplyAmbisonicsBinauralEffect
+iplApplyAmbisonicsPanningEffect
+iplApplyBinauralEffectWithParameters
+iplApplyDirectSoundEffect
+iplCreateAmbisonicsBinauralEffect
+iplCreateAmbisonicsPanningEffect
 iplCreateBinauralEffect
 iplCreateBinauralRenderer
+iplCreateConvolutionEffect
+iplCreateDirectSoundEffect
+iplCreateEnvironment
+iplCreateEnvironmentalRenderer
+iplCreateScene
+iplCreateStaticMesh
+iplDestroyAmbisonicsBinauralEffect
+iplDestroyAmbisonicsPanningEffect
+iplDestroyBinauralEffect
 iplDestroyBinauralRenderer
+iplDestroyConvolutionEffect
+iplDestroyDirectSoundEffect
+iplDestroyEnvironment
+iplDestroyEnvironmentalRenderer
+iplDestroyScene
+iplDestroyStaticMesh
+iplFinalizeScene
+iplGetDirectSoundPath
+iplGetWetAudioForConvolutionEffect
+iplSetDryAudioForConvolutionEffect
+iplSetSceneMaterial
+iplSetStaticMeshMaterials
+iplSetStaticMeshTriangles
+iplSetStaticMeshVertices
 libc.so.6
+libm.so.6
 libphonon.so
+libpthread.so.0
 libstdc++.so.6
 libsteamaudio.so
 libsteamaudio.so.dbg
@@ -433,14 +513,30 @@ memset
 memset@@GLIBC_2.2.5
 notconnected
 notify
+pthread_mutex_destroy
+pthread_mutex_destroy@@GLIBC_2.2.5
+pthread_mutex_init
+pthread_mutex_init@@GLIBC_2.2.5
 pthread_mutex_lock
 pthread_mutex_lock@@GLIBC_2.2.5
 pthread_mutex_unlock
 pthread_mutex_unlock@@GLIBC_2.2.5
+pthread_mutexattr_init
+pthread_mutexattr_init@@GLIBC_2.2.5
+pthread_mutexattr_settype
+pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
+pthread_once@@GLIBC_2.2.5
 replicated
+sIcL$
 server_can_execute
 singleplayer
+snd_steamaudio_ambisonics_order
+snd_steamaudio_ir_duration
+snd_steamaudio_max_convolution_sources
+snd_steamaudio_num_bounces
+snd_steamaudio_num_diffuse_samples
+snd_steamaudio_num_rays
 ss_added
 strchr
 strchr@@GLIBC_2.2.5
@@ -459,7 +555,14 @@ tdA:]
 ttIcG
 utlbuffer.cpp
 utlstring.cpp
+xIcL$
 x[A\A]A^A_]
+z/u-1
+z7u5H
+zgueA
 {}()':
+}IcL$
+}Tf;w
 ~)A;]
 ~)H97tC
+~vHcKPHc

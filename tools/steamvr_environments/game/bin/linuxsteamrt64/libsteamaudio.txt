@@ -63,23 +63,57 @@
  __cxa_pure_virtual@@CXXABI_1.3
  __gmon_start__
  __gxx_personality_v0@@CXXABI_1.3
- __pthread_key_create
+ __memcpy_chk@@GLIBC_2.3.4
+ __pthread_key_create@@GLIBC_2.2.5
  __stack_chk_fail@@GLIBC_2.4
  abort@@GLIBC_2.2.5
  dl_iterate_phdr@@GLIBC_2.2.5
+ floorf@@GLIBC_2.2.5
  free@@GLIBC_2.2.5
  g_pMemAlloc
- iplApplyBinauralEffect
+ iplApplyAmbisonicsBinauralEffect
+ iplApplyAmbisonicsPanningEffect
+ iplApplyBinauralEffectWithParameters
+ iplApplyDirectSoundEffect
+ iplCreateAmbisonicsBinauralEffect
+ iplCreateAmbisonicsPanningEffect
  iplCreateBinauralEffect
  iplCreateBinauralRenderer
+ iplCreateConvolutionEffect
+ iplCreateDirectSoundEffect
+ iplCreateEnvironment
+ iplCreateEnvironmentalRenderer
+ iplCreateScene
+ iplCreateStaticMesh
+ iplDestroyAmbisonicsBinauralEffect
+ iplDestroyAmbisonicsPanningEffect
+ iplDestroyBinauralEffect
  iplDestroyBinauralRenderer
+ iplDestroyConvolutionEffect
+ iplDestroyDirectSoundEffect
+ iplDestroyEnvironment
+ iplDestroyEnvironmentalRenderer
+ iplDestroyScene
+ iplDestroyStaticMesh
+ iplFinalizeScene
+ iplGetDirectSoundPath
+ iplGetWetAudioForConvolutionEffect
+ iplSetDryAudioForConvolutionEffect
+ iplSetSceneMaterial
+ iplSetStaticMeshMaterials
+ iplSetStaticMeshTriangles
+ iplSetStaticMeshVertices
  malloc@@GLIBC_2.2.5
  memcpy@@GLIBC_2.14
  memmove@@GLIBC_2.2.5
  memset@@GLIBC_2.2.5
+ pthread_mutex_destroy@@GLIBC_2.2.5
+ pthread_mutex_init@@GLIBC_2.2.5
  pthread_mutex_lock@@GLIBC_2.2.5
  pthread_mutex_unlock@@GLIBC_2.2.5
- pthread_once
+ pthread_mutexattr_init@@GLIBC_2.2.5
+ pthread_mutexattr_settype@@GLIBC_2.2.5
+ pthread_once@@GLIBC_2.2.5
  strchr@@GLIBC_2.2.5
  strcmp@@GLIBC_2.2.5
  strlen@@GLIBC_2.2.5

@@ -40,7 +40,6 @@
 "%s" = "%s"
 "%s","%s",%s,"%s"
 "t&L;}
-#[A\]
 #base
 #base is NULL 
 #empty#
@@ -48,8 +47,9 @@
 #include is NULL 
 #int#
 $+s$Hc
-$2L;c vzL
+$2L;c vr
 $2L;c w
+$E;L$
 $ORIGIN
 $[A\]
 $woL)
@@ -89,8 +89,6 @@ $woL)
 (none)
 *ZN11CThreadPool11GetDummyJobEvE9CDummyJob
 *[A\A]A^]
-+C$9C
-+C$;C
 +K$Lc
 +S$Hc
 +s$Hc
@@ -148,7 +146,6 @@ $woL)
 0123456789ABCDEF
 0123456789abcdef
 0HcBpH
-0[A\A]A^]
 0[A\]
 0[]A\A]A^
 0x%016llX
@@ -167,6 +164,7 @@ $woL)
 12CRefCounted1I11IRefCounted20CRefCountServiceBaseILb1E6CRefMTEE
 12CRefCounted1I11IThreadPool20CRefCountServiceBaseILb1E6CRefMTEE
 12CThreadEvent
+12CThreadedJob
 12IEventSystem
 13COneTimeEvent
 13CProcessUtils
@@ -233,7 +231,6 @@ $woL)
 40@84
 40A84
 42HcU
-4CJob
 4vf;T
 5CCvar
 5ICvar
@@ -250,11 +247,11 @@ $woL)
 8[]A\A]A^A_
 9Cp~/Mct$pH
 9IPipeRead
-:L97u
+9fE9b
+:L;7u
 :[tLL
 ;*3$"
 ;2tiH
-;C@}/Mct$@M
 ;L9'u
 ;[A\]
 ;mempool.cpp
@@ -279,6 +276,7 @@ $woL)
 ?L;'u
 @[A\]
 A channel specifier is either:
+A+D$$9
 A+D$$H
 A+E$H
 A+E$f
@@ -317,11 +315,9 @@ AUATUSH
 AVATSH
 AVAUA
 AVAUATA
-AVAUATD
 AVAUATI
 AVAUATS
 AVAUATSH
-AVAUATSfH
 AVAUATUSH
 AVAUD
 AVAUE1
@@ -330,6 +326,7 @@ AVAUL
 AWAVA
 AWAVAUA
 AWAVAUATA
+AWAVAUATD
 AWAVAUATE1
 AWAVAUATI
 AWAVAUATL
@@ -351,11 +348,11 @@ A\A]A^A_]
 A\A]A^]
 A\A]A^]A
 A\A]]
-A]A^]
 AddCompletionCallback
 AddRef
 All functions are case insensitive.
 AllocInternal
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 AssertMsg_ConditionFailed
@@ -425,7 +422,6 @@ CUtlStringTokenSystem could not update token database "%s" because the file is r
 CUtlStringTokenSystem: Encountered string token collision: "%s" and "%s" both hash to %X!
 CVAR_
 CXXABI_1.3
-CXtt~kI
 Can't open file (%s) passed to -testscript
 Cannot add a thread job already committed to another thread pool
 Cannot mix and match tag specifiers with channel name specifiers.
@@ -472,8 +468,6 @@ D$8L9
 D$@H9
 D$@I9
 D$@L9
-D$HE1
-D$PE1
 D$`H9
 D$pM!
 D$rfE
@@ -483,7 +477,7 @@ D+k$Mc
 D+s$Mc
 D;!t{Hc
 D;c D
-D;k D
+D;k tvH
 DEFAULT_WRITE_PATH
 DEVELOPMENTONLY
 Debug test scripts.
@@ -506,6 +500,7 @@ E9gPI
 E9l$(
 E9l$@
 E9t$ ~kI
+E;\$(
 E;t$ M
 EMPTY - ok for slot zero only!
 ENGLISH
@@ -537,6 +532,7 @@ FCVAR_DONTRECORD
 FCVAR_NEVER_AS_STRING
 FCVAR_REPLICATED
 FRENCH
+FhA;Fx
 Field %s has inverted min/max values![%f->%f]
 Field %s tried to quantize an out-of-range value (%f, range is %f->%f) clamping.
 Field %s tried to quantize an out-of-range value (%f, range is %f->%f), clamping.
@@ -551,6 +547,7 @@ FindOrCreateQuantizedFloatEncoder
 FindRegisteredGlobalObjectInternal
 First character of flag specifier must be + or -.
 Flags
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
@@ -559,8 +556,6 @@ FormatV
 G A9G
 G u)H
 G8+G(9
-G8t"H
-G8t+H
 G<@t	]
 G<@t L
 G<@t#f
@@ -586,9 +581,10 @@ GameResourceServiceServerV001
 GameUIService_001
 GetCPUInformation
 GetDmElementTypeSymbolMap
+GetQuantizedFloatEncoderByIndex
+GetQuantizedFloatEncodersSharingIndex
 GetSymbolForString
 GetSymbolForStringCaseSensitive
-GhA;Gx
 GlobPool
 H	p(]
 H	w(UH
@@ -605,11 +601,12 @@ H[A\A]A^A_]
 H[]A\A]A^A_
 HammerMapLoader001
 HangWatchdog_IndicateActivity
-Hc5Of4
-Hc5n+(
 Hc@pH
 HcC ;C
 HcC$H
+HcK Ic
+HcK0Ic
+HcKPHc
 HcSPH
 HcWPH
 Hcs H
@@ -629,6 +626,7 @@ IOJob
 IQuickTime001
 ITALIAN
 Ic4$H)
+IcL$(Ic
 IcWTI
 Ic\$(I
 Ic\$@I
@@ -645,7 +643,6 @@ InstallUniformRandomStream
 Intentionally vague touch behavior for %p
 JAPANESE
 Jc<(H
-K(xVHc
 K@H9J
 KOREAN
 KV Conditional Evaluation Error
@@ -657,25 +654,24 @@ KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 L$hfE
-L; t-H
+L9 t-H
 LINKED_CONCOMMAND
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
-Lc!D;a
+Lc D;`
 Lc#D;c
 Lc+D;k
 Lc/E)
-Lc2D;r
+Lc0D;p
 Lc3D;s
 Lc6E9
 LccpD;
-Lcg D;g0D
-LchpD;
-Lck(D;k8D
+Lcg D;g0t/H
+Lck(I
 Lck@D;kPD
+LcppI
 Lc{pD;
-LightingBuilderMgr001
 LoadConfigSchema
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
@@ -714,6 +710,7 @@ MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
 Mc>E;~
+Mcl$@M
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -738,10 +735,11 @@ NewNode
 Not continuing coroutine due to g_bPreventCoroutineContinue, %s
 O tiH
 O tlH
+OHcK8Ic
 OS error message:
 Ordered constructor wrapped type has no default constructor.
 Out of keyvalue string space
-P(Mc,$H
+P(Mc4$H
 POLISH
 PORTUGUESE
 POSIX
@@ -780,6 +778,7 @@ Plat_VirtualFree
 Plat_localtime
 PostProcessingSystem_001
 PropertyEditorSystem_001
+QHcKHIc
 QueuedLoaderVersion001
 R8Y[]
 RELEASE
@@ -828,12 +827,12 @@ SERVER_CAN_EXECUTE
 SPANISH
 SPONLY
 SS_ADDED
-ScaleformUI001
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
+SerializedEntitiesVersion001
 ServerUploadGameStats001
 Set the color of a logging channel.
 Set the flags on a logging channel.
@@ -944,6 +943,8 @@ ToolService_001
 TransferMemory
 Tried to install the same listener on the same event id + queue twice!
 U-VUUUH
+UIcL$ Ic
+UIcL$8Ic
 UNLOGGED
 UPDATE_STRING_TOKEN_DATABASE
 USERINFO
@@ -1064,7 +1065,6 @@ Warning:  %s = '%s' is infinite, clamping value.
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-WptvH
 X360GUEST
 X360HIDEF
 X360LODEF
@@ -1073,6 +1073,7 @@ X360WIDE
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
+ZIcL$
 [%f %f %f %f]
 [%f %f %f]
 [%f %f]
@@ -1085,6 +1086,7 @@ X[]A\A]A^A_
 [A\A^]
 [ConsoleOnly]
 [DoNotEcho]
+[IcL$
 []A\A]
 []A\A]A^
 []A\A]A^A_
@@ -1096,6 +1098,7 @@ X[]A\A]A^A_
 ^ t+H
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
+_IcL$P1
 _Jv_RegisterClasses
 _V_ComposeFileName
 _V_ExtractFileExtension
@@ -1266,6 +1269,7 @@ configurationsystem.cpp
 configvalue.cpp
 consoleonly
 corrupted entry
+cp~&f
 cvar list
 cvarlist
 cvarlist:  [log logfile] [ partial ]
@@ -1326,7 +1330,6 @@ g_VCoverage
 g_VProfCurrentProfile
 g_pFiberJobPool
 g_pMemAlloc
-g_pQuantizedFloatEncoders
 g_pScheduledFunctions
 g_pThreadPool
 getdtablesize
@@ -1339,8 +1342,7 @@ hex color: RRGGBBAA                         // A hexadecimal color value in the 
 int( %d = 0x%X )
 interfaces.cpp
 jobthread.cpp
-k8;C0t8
-k8D;kHD
+k8D;kHtMH
 k@[A\A]A^]
 kdt3H
 keyvaluessystem.cpp
@@ -1463,6 +1465,7 @@ strrchr
 strrchr@@GLIBC_2.2.5
 strstr
 strstr@@GLIBC_2.2.5
+sxtML
 t!HcO
 t";2u
 t";8u
@@ -1480,7 +1483,6 @@ t.E;.H
 t/D9#u
 t4[A\]
 t7</u
-t<IcV
 t@@:>u
 tGL9#u
 tSHcO
@@ -1522,7 +1524,7 @@ vector4
 verbosity: off, essential, default,         // Sets how verbose a channel is allowed to be.
 vstdlib
 w AUL
-w tgH
+w tmH
 w(AUATI
 w@AUM
 wHAUA
@@ -1541,7 +1543,8 @@ xsHcW
 zDCKeyValuesSystem::m_pMemPool
 {%d %d %d %d}
 {0 0 0 255}
-{HE;t$PD
+{8;C0t4
+{HE;l$Pu
 {}()':
 }+fA9
 }>;w$
@@ -1552,3 +1555,5 @@ zDCKeyValuesSystem::m_pMemPool
 ~	ATI
 ~)A;]
 ~)H97tC
+~SHcC
+~vHcKPHc

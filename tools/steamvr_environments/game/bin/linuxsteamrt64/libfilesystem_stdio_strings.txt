@@ -26,8 +26,8 @@
 #int#
 $+s$Hc
 $@CFioReadOnlyFile::FS_fread
-$A;D$
 $A;\$
+$E;D$
 $ORIGIN
 $[A\]
 %-120s
@@ -63,8 +63,6 @@ $[A\]
 ([A\A]]
 ([]A\A]A^A_
 (vpk) 
-+C$9C
-+C$;C
 +K$Lc
 +Q$Hc
 +S$Hc
@@ -138,6 +136,7 @@ $[A\]
 12CEmptyConVar
 12CRefCounted1I11IRefCounted20CRefCountServiceBaseILb1E6CRefMTEE
 12CThreadEvent
+12CThreadedJob
 12IWriteStream
 13CBufferStream
 13CFileAsyncJob
@@ -194,7 +193,6 @@ $[A\]
 3E8 u
 4$uXA
 42HcU
-4CJob
 4CZip
 4IZip
 6ConVar
@@ -207,7 +205,9 @@ $[A\]
 8VBKVt6HcF
 8[A\A]A^A_]
 8[]A\A]A^A_
+9:w7I
 9IFileList
+9{0Lc
 :[tLL
 :done
 :error
@@ -239,6 +239,7 @@ $[A\]
 @paHFCH
 @paHFCL
 @tyI9
+A+D$$9
 A+D$$H
 A+E$H
 A+E$f
@@ -246,6 +247,7 @@ A+F$H
 A+F|H
 A+G$H
 A+G$Lc
+A+N|Hc
 A+U$A
 A+U$Hc
 A+U$f
@@ -258,7 +260,6 @@ A+^|Hc
 A+u$Hc
 A9G }
 A9]PI
-A9^8}LA
 A9_@~8L
 A;G A
 A;\$ A
@@ -301,6 +302,7 @@ AWAVAUATSH
 AWAVAUATUSH
 AWAVAUE
 AWAVAUI
+AWAVAUL
 AWAVD
 AWAVE
 AWAVE1
@@ -313,6 +315,7 @@ A\A]A^]
 A\A]]
 AbortAfterServicing
 Aborting IO request for %s
+Add N ms of delay to every low-level read operation, to simulate a slow disk
 AddFile
 AddFileToDirectory
 AddRef
@@ -321,6 +324,7 @@ Addreffing existing VPK file: %s
 Alignment
 AllocInternal
 Allow AsyncBegin/EndRead()
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 AssertMsg_ConditionFailed
@@ -420,12 +424,10 @@ D+c$Mc
 D+k$Mc
 D+s$Mc
 D9 t5H
-D9%QZ(
+D9%bX(
 D;!t{Hc
 D;'t{Hc
-D;K0Mc
 D;c D
-D;c(D
 DEFAULT_WRITE_PATH
 DataOffset
 DebugTextureInfo001
@@ -437,14 +439,12 @@ E+E$Mc
 E+F$Mc
 E+G$Mc
 E+M$Mc
-E+N|Mc
 E+O$Mc
 E+e$Mc
 E+g$Mc
 E+o$Mc
 E+w$Mc
 E+}$Mc
-E+~|Mc
 E9gPI
 E9t$ ~kI
 EMPTY - ok for slot zero only!
@@ -511,6 +511,7 @@ File change watching failed for '%s', retraversing
 FileSystem
 Filename '%s' is invalid to be contained in a VPK
 Filesystem
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
@@ -520,8 +521,6 @@ Fread
 From Steam: [%s]\%s
 G A9G
 G u)H
-G8t"H
-G8t+H
 G<@t	]
 G<@t L
 G<@t#f
@@ -568,9 +567,12 @@ HangWatchdog_IndicateActivity
 Hc@XH
 Hc@pH
 HcC$H
+HcC(1
 HcF$U
 HcGt]
 HcJTH
+HcKPHc
+HcKXIc
 HcPTH
 HcS@I
 HcSPH
@@ -580,11 +582,13 @@ HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
 I;V@w
+IHcK0Ic
 IN_CALLBACK
 IOJob
 IQuickTime001
 IcD$$A
-IcN8H
+IcF81
+IcF89E
 IcWTI
 Ic]PI
 Icu`H
@@ -598,8 +602,7 @@ Intentionally vague touch behavior for %p
 Invalid Path
 Invalid async read of %s
 Jc<(H
-K tgH
-K(xVHc
+K tkH
 K@H9J
 KV Conditional Evaluation Error
 KeyValueCache001
@@ -613,15 +616,15 @@ LINUX
 LOG_GENERAL
 LOWVIOLENCE
 Lc#D;c
+Lc#E)
 Lc)D;i
 Lc+D;k
 Lc/E)
 Lc6E9
 Lc7E9
-LcgHD;gXD
+LcgHD;gXt/H
 Lc{pD;
 LengthOfMatchingPaths
-LightingBuilderMgr001
 Linux/platform issue - filename '%s' contains uppercase
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
@@ -636,10 +639,11 @@ MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
-Mc,$E;l$
 Mc.E;n
 Mc/E;o
 Mc4$E;t$
+Mc<$E;|$
+McN(E;N8
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -706,6 +710,7 @@ Preload size for '%s' is too big
 PreloadDirectoryEntries
 ProcessCallback
 PropertyEditorSystem_001
+QHcKHIc
 QueuedLoaderVersion001
 R8Y[]
 RandomInt
@@ -750,13 +755,13 @@ STEAMUGC_INTERFACE_VERSION010
 STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
 STEAMUSERSTATS_INTERFACE_VERSION011
 STEAMVIDEO_INTERFACE_V002
-ScaleformUI001
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
 Sending Steam API content notification
+SerializedEntitiesVersion001
 ServerUploadGameStats001
 Set fs_report_long_reads 1 before loading to use this. Prints a list of files that were opened more than once and ~how long was spent reading from them.
 Set the async filesystem mode (0 = async, 1 = synchronous)
@@ -837,7 +842,6 @@ UnzipFile
 UpdateAfterServicing
 Use native FS or STDIO
 UserInfoChangeService_001
-V(A;V8
 V0u@H
 VApplication001
 VAvi001
@@ -875,6 +879,7 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
+VUUUH
 V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
@@ -967,6 +972,7 @@ ZIP_FileHeader
 ZIP_LocalFileHeader
 ZIP_PreloadDirectoryEntry
 ZIP_PreloadHeader
+ZIcL$
 [A\A]A^A_]
 [A\A]A^]
 [A\A]]
@@ -1149,6 +1155,7 @@ fA;0trA
 fA;D$(
 fA;D$(u
 fD;/t1H
+fIcL$
 fcntl
 fcntl@@GLIBC_2.2.5
 fdatasync
@@ -1178,6 +1185,7 @@ fs_clear_open_duplicate_times
 fs_debug
 fs_debug: 
 fs_dump_open_duplicate_times
+fs_fake_read_delay_ms
 fs_monitor_read_from_pack
 fs_report_long_reads
 fs_report_sync_opens
@@ -1199,8 +1207,8 @@ if "%%fs_target%%" == "" goto error
 int( %d = 0x%X )
 interfaces.cpp
 internalFileAttribs
-k8;C0t8
-k8D;kHD
+jIcD$
+k8D;kHtMH
 k@[A\A]A^]
 lastModifiedDate
 lastModifiedTime
@@ -1275,6 +1283,7 @@ pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 pwrite64
 pwrite64@@GLIBC_2.2.5
+rIcL$
 read@@GLIBC_2.2.5
 readdir64
 readdir64@@GLIBC_2.2.5
@@ -1334,6 +1343,7 @@ t$HcK
 t$f91u
 t'HcC
 t-Lc#D;c
+t-Mc<$E;|$
 t3Hc4
 t4[A\]
 t@@:>u
@@ -1377,6 +1387,7 @@ xRHcW
 x[A\A]A^A_]
 x[A\]
 x_HcO
+{8;C0t4
 {`[A\]
 {}()':
 }>;w$
@@ -1391,3 +1402,5 @@ x_HcO
 ~	ATI
 ~)A;]
 ~)H97tC
+~SHcC
+~vHcKPHc

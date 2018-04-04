@@ -48,7 +48,6 @@
 "%s" = "%s"
 "%s":%d
 "t&L;}
-#[A\]
 #base
 #base is NULL 
 #empty#
@@ -58,7 +57,6 @@
 $ X w @"i"
 $+s$Hc
 $A+D$$H
-$A;\$
 $HcD$
 $ORIGIN
 $[A\]
@@ -130,8 +128,6 @@ $[]A\
 (tQE9
 (~'~'
 )wMIc
-+C$9C
-+C$;C
 +D$$H
 +K$Lc
 +S$Hc
@@ -292,7 +288,7 @@ $[]A\
 <#t%<(
 <$*tdE
 <%t.H
-<'tt<
+<'tu<
 <+tT<,t0
 <+ta<,t5
 <-u#D
@@ -343,6 +339,7 @@ A#<$
 A)A I
 A)P I
 A)T$ A
+A+D$$9
 A+D$$H
 A+E$H
 A+E$f
@@ -426,6 +423,7 @@ AWAVE1
 AWAVH
 AWAVI
 AWAVL
+AWAVM
 A\A]A^
 A\A]A^A_
 A\A]A^A_]
@@ -435,6 +433,7 @@ A\A]]
 A]A^A_
 AddRef
 AllocateNugget
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 AssetBrowserSystem_001
@@ -542,7 +541,6 @@ E+}$Mc
 E8AY[]
 E9gPI
 E9t$ ~kI
-E;g`~FA
 EDesc
 EMPTY - ok for slot zero only!
 EXA;]`
@@ -563,6 +561,7 @@ Failed to read %s
 Fassert
 FeedData
 Fipairs
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
@@ -574,8 +573,6 @@ G A9G
 G H+G
 G u)H
 G(;G,Sv'H
-G8t"H
-G8t+H
 G<@t	]
 G<@t L
 G<@t#f
@@ -624,6 +621,7 @@ H9Chuz
 H9D$(
 H9D$@I
 H9D$`
+H;=2_,
 H;S@w
 H;} H
 HE9w 
@@ -639,6 +637,7 @@ HcC$H
 HcC4u
 HcD$$H
 HcD$HH
+HcKPHc
 HcSPH
 HcWPH
 HcY,H
@@ -656,7 +655,8 @@ I;D$
 I;V@w
 INPUT
 IQuickTime001
-IcW`L
+IcO`A
+IcO`Ic
 Ic]PI
 Icu`H
 InputService_001
@@ -716,7 +716,6 @@ Lc/E)
 Lc{pD;
 Length
 Length2D
-LightingBuilderMgr001
 Linux
 LoadAndCompileScriptFile: Failed to compile script file "%s"
 LoadAndCompileScriptFile: No filesystem found
@@ -748,6 +747,8 @@ MapListService_001
 MaterialUtils_001
 MathLib_Init
 MbP?+
+Mc4$E;t$
+Mc4$H
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -758,6 +759,7 @@ Missing breakpoint with given ID %s.
 ModelDocUtils001
 MrkBJ
 Must use luaL_newstate() for 64 bit target
+NIcO8Ic
 NYI: cannot call this C function (yet)
 NYI: packed bit fields
 NetworkClientService_001
@@ -808,6 +810,7 @@ Print a message
 Print a warning
 PropertyEditorSystem_001
 QAngle
+QHcKHIc
 Quaternion
 QueuedLoaderVersion001
 R8Y[]
@@ -866,7 +869,6 @@ SOCKET_ERR_READ_OPERATION_WOULD_BLOCK
 SOCKET_ERR_WRITE_OPERATION_FAILED
 SOCKET_ERR_WRITE_OPERATION_WOULD_BLOCK
 SSE and SSE2 are required.
-ScaleformUI001
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
@@ -876,6 +878,7 @@ Script Runtime Error: %s
 Script load error for script
 Script_Msg
 Script_Warning
+SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetBit
 Sht7Lc{pD;
@@ -1089,6 +1092,7 @@ X[A\A]]
 X[]A\A]
 X[]A\A]A^A_
 Xbox VDP is not supported on this platform.
+ZIcL$
 [A\A]A^A_]
 [A\A]A^]
 [A\A]]
@@ -1561,12 +1565,12 @@ ioctl
 ioctl@@GLIBC_2.2.5
 istype
 isvararg
+jIcD$
 js_array
 js_object
 js_raw_args
 js_value
-k8;C0t8
-k8D;kHD
+k8D;kHtMH
 k@[A\A]A^]
 kpD;ktD
 l$$H9
@@ -2002,7 +2006,6 @@ t$H9h
 t$HfA
 t%I9X
 t'[]A\L
-t+IcV
 t/[]L
 t2f;0u
 t4[A\]
@@ -2050,10 +2053,12 @@ t}HcO
 u([]A\
 u64( %lld = 0x%llX )
 u6[]A\A]A^
+uint16
 uint16_t
 uint32_t
 uint64
 uint64_t
+uint8
 uint8_t
 uintptr_t
 unable to dump given function
@@ -2120,6 +2125,7 @@ z$u"1
 z*u(f
 z/u-H
 {$,u-
+{8;C0t4
 {8H;W
 {8tj1
 {X[A\A]]
@@ -2137,4 +2143,6 @@ z/u-H
 ~)H97tC
 ~@t3H
 ~@tNH
+~SHcC
 ~]A\A]A^A_
+~vHcKPHc

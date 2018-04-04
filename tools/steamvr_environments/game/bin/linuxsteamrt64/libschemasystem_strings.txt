@@ -3,7 +3,6 @@
 	Module 1 - %s
 	Module 2 - %s
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
-	[A\]
 	wDUH
  ( def. "%s" )
  (Abstract)
@@ -97,8 +96,6 @@ $[A\]
 ***! Disregarding mismatched schema bindings !***
 *************************************************
 *NoSchemaClass*
-+C$9C
-+C$;C
 +K$Lc
 +Q$Hc
 +S$Hc
@@ -211,20 +208,6 @@ $[A\]
 18CAtomicManipulatorI13SchemaArray_tIPK16CSchemaClassInfoEE
 18CAtomicManipulatorI13VectorAlignedE
 18CAtomicManipulatorI14CResourceArrayI16CResourcePointerI15CResourceStringEEE
-18CAtomicManipulatorI14CResourceArrayI17CResourceDiskEnumEE
-18CAtomicManipulatorI14CResourceArrayI19CResourceDiskStructEE
-18CAtomicManipulatorI14CResourceArrayI21ResourceEditIntData_tEE
-18CAtomicManipulatorI14CResourceArrayI22CResourceDiskEnumValueEE
-18CAtomicManipulatorI14CResourceArrayI23ResourceEditFloatData_tEE
-18CAtomicManipulatorI14CResourceArrayI23ResourceReferenceInfo_tEE
-18CAtomicManipulatorI14CResourceArrayI24CResourceDiskStructFieldEE
-18CAtomicManipulatorI14CResourceArrayI24ResourceEditStringData_tEE
-18CAtomicManipulatorI14CResourceArrayI25ResourceInputDependency_tEE
-18CAtomicManipulatorI14CResourceArrayI26ResourceCustomDependency_tEE
-18CAtomicManipulatorI14CResourceArrayI27ResourceSpecialDependency_tEE
-18CAtomicManipulatorI14CResourceArrayI28ResourceArgumentDependency_tEE
-18CAtomicManipulatorI14CResourceArrayI31ResourceAdditionalRelatedFile_tEE
-18CAtomicManipulatorI14CResourceArrayIhEE
 18CAtomicManipulatorI14SchemaString_tE
 18CAtomicManipulatorI15CResourceStringE
 18CAtomicManipulatorI15CUtlBinaryBlockE
@@ -242,8 +225,6 @@ $[A\]
 18CSchemaEnumBindingI17SchemaFieldType_tE
 18CSchemaEnumBindingI18SchemaClassFlags_tE
 18CSchemaEnumBindingI21ResourceStructFlags_tE
-18CSchemaEnumBindingI25ResourceDependencyFlags_tE
-18CSchemaEnumBindingI30ResourceIntrospectionVersion_tE
 18CSchemaManipulatorI10CTransformE
 18CSchemaManipulatorI10CUtlStringE
 18CSchemaManipulatorI10CUtlSymbolE
@@ -264,20 +245,6 @@ $[A\]
 18CSchemaManipulatorI13SchemaArray_tIPK16CSchemaClassInfoEE
 18CSchemaManipulatorI13VectorAlignedE
 18CSchemaManipulatorI14CResourceArrayI16CResourcePointerI15CResourceStringEEE
-18CSchemaManipulatorI14CResourceArrayI17CResourceDiskEnumEE
-18CSchemaManipulatorI14CResourceArrayI19CResourceDiskStructEE
-18CSchemaManipulatorI14CResourceArrayI21ResourceEditIntData_tEE
-18CSchemaManipulatorI14CResourceArrayI22CResourceDiskEnumValueEE
-18CSchemaManipulatorI14CResourceArrayI23ResourceEditFloatData_tEE
-18CSchemaManipulatorI14CResourceArrayI23ResourceReferenceInfo_tEE
-18CSchemaManipulatorI14CResourceArrayI24CResourceDiskStructFieldEE
-18CSchemaManipulatorI14CResourceArrayI24ResourceEditStringData_tEE
-18CSchemaManipulatorI14CResourceArrayI25ResourceInputDependency_tEE
-18CSchemaManipulatorI14CResourceArrayI26ResourceCustomDependency_tEE
-18CSchemaManipulatorI14CResourceArrayI27ResourceSpecialDependency_tEE
-18CSchemaManipulatorI14CResourceArrayI28ResourceArgumentDependency_tEE
-18CSchemaManipulatorI14CResourceArrayI31ResourceAdditionalRelatedFile_tEE
-18CSchemaManipulatorI14CResourceArrayIhEE
 18CSchemaManipulatorI14SchemaString_tE
 18CSchemaManipulatorI15CResourceStringE
 18CSchemaManipulatorI15CUtlBinaryBlockE
@@ -298,39 +265,23 @@ $[A\]
 18ISchemaSystemUtils
 19CSchemaClassBindingI15CSchemaEnumInfoE
 19CSchemaClassBindingI16CSchemaClassInfoE
-19CSchemaClassBindingI17CResourceDiskEnumE
 19CSchemaClassBindingI17CSchemaClassFieldE
 19CSchemaClassBindingI18CSchemaMetadataSetE
 19CSchemaClassBindingI18CSchemaStaticFieldE
-19CSchemaClassBindingI19CResourceDiskStructE
 19CSchemaClassBindingI20CSchemaBaseClassInfoE
 19CSchemaClassBindingI20CSchemaMetaModifyAddE
 19CSchemaClassBindingI20CSchemaMetadataEntryE
-19CSchemaClassBindingI20ResourceExtRefList_tE
 19CSchemaClassBindingI20SchemaEnumInfoData_tE
 19CSchemaClassBindingI21CSchemaEnumeratorInfoE
-19CSchemaClassBindingI21ResourceEditIntData_tE
 19CSchemaClassBindingI21SchemaClassInfoData_tE
 19CSchemaClassBindingI21SchemaMetaModifyAdd_tE
-19CSchemaClassBindingI22CResourceDiskEnumValueE
 19CSchemaClassBindingI22SchemaClassFieldData_tE
-19CSchemaClassBindingI23ResourceEditFloatData_tE
-19CSchemaClassBindingI23ResourceEditInfoBlock_tE
-19CSchemaClassBindingI23ResourceReferenceInfo_tE
 19CSchemaClassBindingI23SchemaMetadataSetData_tE
 19CSchemaClassBindingI23SchemaStaticFieldData_tE
-19CSchemaClassBindingI24CResourceDiskStructFieldE
-19CSchemaClassBindingI24ResourceEditStringData_tE
-19CSchemaClassBindingI25ResourceInputDependency_tE
 19CSchemaClassBindingI25SchemaBaseClassInfoData_tE
 19CSchemaClassBindingI25SchemaMetadataEntryData_tE
-19CSchemaClassBindingI26ResourceCustomDependency_tE
 19CSchemaClassBindingI26SchemaEnumeratorInfoData_tE
-19CSchemaClassBindingI27ResourceSpecialDependency_tE
 19CSchemaClassBindingI28CSchemaFieldMetadataOverrideE
-19CSchemaClassBindingI28ResourceArgumentDependency_tE
-19CSchemaClassBindingI30CResourceIntrospectionManifestE
-19CSchemaClassBindingI31ResourceAdditionalRelatedFile_tE
 19CSchemaClassBindingI33CSchemaSystemInternalRegistrationE
 19CSchemaClassBindingI33SchemaFieldMetadataOverrideData_tE
 19CSchemaClassBindingI44InfoForResourceTypeCResourceManifestInternalE
@@ -388,7 +339,6 @@ $[A\]
 32CSchemaRegistration_resourcefile
 32CSchemaRegistration_schemasystem
 3E8 u
-3[A\A]A^]
 42HcU
 4fff>fff>fff>fff>
 4vf;T
@@ -403,7 +353,7 @@ $[A\]
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
-9G ti+G$H
+9G ti+G$I
 9S t{+S$H
 :[tLL
 ;*3$"
@@ -427,12 +377,17 @@ $[A\]
 @HA\A]A^]
 @[A\A]A^]
 @[A\]
+@tBE+
+@tjI9
+@xt>H
+A+D$$9
 A+D$$H
 A+E$H
 A+E$f
 A+F$H
 A+G$H
 A+G$Lc
+A+N$A
 A+T$$Hc
 A+U$A
 A+U$Hc
@@ -478,6 +433,7 @@ AVAUATA
 AVAUATI
 AVAUATS
 AVAUATSH
+AVAUATSL
 AVAUATUSH
 AVAUI
 AVAUL
@@ -503,6 +459,7 @@ AWAVH
 AWAVI
 AWAVL
 AWAVLc
+AWAVM
 A\A9N
 A\A]A^A_]
 A\A]A^A_]A
@@ -518,6 +475,7 @@ All errors logged to console. First error (of %d):
 Allocate
 AllocateAndCopy
 AllocateUtlVector
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 AssetBrowserSystem_001
@@ -540,7 +498,7 @@ C [A\]
 C(fA9D$(fA
 C,[A\A]]
 C,[A\]
-C8@t-I
+C8@t/I
 C@A9D$@t
 CBitVec
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
@@ -554,12 +512,8 @@ CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 CPlayerSlot
 CResourceArray
-CResourceDiskEnum
-CResourceDiskEnumValue
-CResourceDiskStruct
 CResourceDiskStructField
 CResourceExtReference
-CResourceIntrospectionManifest
 CResourcePointer
 CResourceStreamFixed: trying to write past the end of allocated memory (new commit %u, allocated %u)
 CResourceString
@@ -637,9 +591,8 @@ D$@L9
 D$@[A\A]A^]
 D$HfA
 D$LA9
-D$PIc
 D$Pt?Hc
-D$xA9
+D$xE;
 D+C$Mc
 D+c$Mc
 D+k$Mc
@@ -650,7 +603,7 @@ D;cx|
 D;k |
 D;k(|
 D;k0|
-D;o D
+D;o tFH
 DISK: %s
 Deallocate
 DeallocateUtlVector
@@ -678,6 +631,7 @@ E9t$ ~kI
 E;f |
 E;l$ 
 E;t$ 
+E;t$ t!I
 E@A9D$@t
 EDA9D$Dt
 EHA9D$Ht
@@ -789,6 +743,7 @@ Flag: SCHEMA_CLASS_HAS_TRIVIAL_CONSTRUCTOR
 Flag: SCHEMA_CLASS_HAS_TRIVIAL_DESTRUCTOR
 Flag: SCHEMA_CLASS_HAS_VIRTUAL_MEMBERS
 Flag: SCHEMA_CLASS_IS_ABSTRACT
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
@@ -804,9 +759,7 @@ G0A9E0t
 G0UHc
 G4A9E4t
 G8 t:H
-G8@tVI
-G8t"H
-G8t+H
+G8@tXI
 G<@t	]
 G<@t L
 G<@t#f
@@ -858,18 +811,9 @@ HandleMemory
 Has Trivial Constructor: %s
 Has Trivial Destructor: %s
 HcC$H
-HcJ 1
-HcJ(1
-HcJ01
-HcJ81
-HcJ@1
-HcJH1
-HcK 1
-HcK(1
-HcK01
-HcK81
-HcK@1
-HcKH1
+HcCP1
+HcK@Ic
+HcKPHc
 HcQLE1
 HcSPH
 HcWHH
@@ -879,18 +823,15 @@ HcsxH
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-Hxt\H
 I;V@w
 ID: %016llX
 IQuickTime001
 ISchemaSystem::FindSchemaTypeByOldEnum: Unimplemented type %d
 Ic4$H)
-IcMxA;
-IcT$xA;
+IcL$@Ic
 IcWPI
-Ic\$ A;\$0
-Ic] A;]0
-Ic](A;]8
+Ic\$ A;\$0t
+Ic] A;]0t
 Ic]PI
 Icu`H
 Ignorable Indirection
@@ -917,6 +858,8 @@ Invalid header
 Invalid object reference to '%s': type '%s' not compatible with expected type '%s'
 Is Polymorphic: %s
 IsIdenticalToData
+JHcK8Ic
+JHcK@Ic
 Jc<(H
 K,[A\]
 KV Conditional Evaluation Error
@@ -928,7 +871,7 @@ KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 L$ E1
 L$@Ic
-L$xHcU
+L$pHc
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
@@ -939,14 +882,14 @@ Lc3D;s
 Lc6E9
 Lc7E)
 Lc?E)
-Lcc(D;c8D
-Lcc0D;c@D
+Lcc(D;c8t1H
+Lcc0D;c@
 Lcc`D;cpD
 LccxD;
-Lcg@D;gPD
-Lck0D;k@D
+Lcg0D;g@t4H
+Lcg@D;gPt9H
+Lck0D;k@
 Lc{pD;
-LightingBuilderMgr001
 Line %d at "%s": %s
 Line %d: %s
 Line %d: Invalid literal value "%s"
@@ -971,7 +914,6 @@ MModuleLocalTypeScope
 MNetworkSerializeAs
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
-MResourceBlockType
 MResourceTypeForInfoType
 MSerializationNameCallback
 MSerializeAs
@@ -984,7 +926,11 @@ MapListService_001
 MaterialUtils_001
 MathLib_Init
 MbP?+
-Mct$`E;t$pD
+Mc,$D
+McNxE;
+Mcl$hA
+Mct$(E;t$8
+Mc|$`E;|$ptlI
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Member Count
@@ -1001,8 +947,8 @@ Modified resource structure detected, attempting conversion:
 Multiple instances of schema system are initialized. %p != %p
 N0UHc
 N14MDmElementType45CValueSearchTester_ClassIntrospectionHandle_tE
-N18MResourceBlockType45CValueSearchTester_ClassIntrospectionHandle_tE
 N24MDiskDataForResourceType45CValueSearchTester_ClassIntrospectionHandle_tE
+NIcM0Ic
 NTRO1
 NULL CSchemaType
 NetworkClientService_001
@@ -1022,6 +968,7 @@ No disk struct in manifest for expected class %s
 No objects to save
 No schema matching on disk struct %s
 NoSchema?
+OHcK Ic
 OTIcwPH
 Opaque Indirection
 OpaqueType
@@ -1059,13 +1006,9 @@ PromoteUnresolvedAndGlobalTypes
 Promoting unresolved type '%s' to global scope.
 PropertyEditorSystem_001
 PutTypeName
+QHcKHIc
 QueuedLoaderVersion001
 R8Y[]
-RESOURCE_INPUT_DEPENDENCY_EXISTS
-RESOURCE_INPUT_DEPENDENCY_GAME_FILE
-RESOURCE_INPUT_DEPENDENCY_NOFLAG
-RESOURCE_INPUT_DEPENDENCY_OPTIONAL
-RESOURCE_INTROSPECTION_VERSION
 RandomFloat
 RandomSeed
 RecursiveLoadFromBuffer:  got EOF instead of keyname
@@ -1087,25 +1030,12 @@ RenderService_001
 RenderSystemSurface001
 RenderUtils_001
 ReserveVirtualMemory
-ResourceAdditionalRelatedFile_t
-ResourceArgumentDependency_t
 ResourceBinding_t
 ResourceCompilerSystem001
-ResourceCustomDependency_t
-ResourceDependencyFlags_t
-ResourceEditFloatData_t
-ResourceEditInfoBlock_t
-ResourceEditIntData_t
-ResourceEditStringData_t
-ResourceExtRefList_t
 ResourceFile: %d/%d @%p align %u
 ResourceHandleUtils001
 ResourceId_t
-ResourceInputDependency_t
-ResourceIntrospectionVersion_t
 ResourceManifestRegistry001
-ResourceReferenceInfo_t
-ResourceSpecialDependency_t
 ResourceStructFlags_t
 ResourceSystem013
 SCHEMA_CLASS_HAS_TRIVIAL_CONSTRUCTOR
@@ -1163,6 +1093,7 @@ SCHEMA_FIELD_TYPE_VECTOR4D
 SCHEMA_FIELD_TYPE_VMATRIX
 SCHEMA_FIELD_TYPE_VOID
 SDt5H
+SHcK Ic
 SHt]A
 SOURCE2_NO_BUNDLES
 SOURCE2_USE_BUNDLES
@@ -1174,7 +1105,6 @@ STRUCT_TREE_REQUIRES_DESTRUCTOR
 STRUCT_TREE_REQUIRES_EXT_REFERENCES
 STRUCT_TREE_REQUIRES_SCATTER
 STRUCT_TREE_REQUIRES_UNUSED
-ScaleformUI001
 Scatter %d: %s
 SceneSystem_002
 SceneUtils_001
@@ -1199,6 +1129,7 @@ SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
 SerializeIntrospectionEnum
 SerializeIntrospectionStruct
+SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetClass
 Sht7Lc{pD;
@@ -1226,11 +1157,13 @@ StatsService_001
 SteamAudio001
 StorageToDataPtr
 String %d: ref:%d %s
+Struct
 Structure name collision: '%s' and '%s' (%d)
 T$0H9
 T$0H;
 T$8H)
 T$HfA
+T$PIc
 T$pHc
 TRS_FALSE
 TRS_NONE
@@ -1271,6 +1204,8 @@ Unsupported type for string-to-builtin deserialization
 Unused
 Upconvert %d : %s
 UserInfoChangeService_001
+V(E;L$
+V0E;L$
 V0u@H
 VApplication001
 VAvi001
@@ -1288,6 +1223,8 @@ VGUI_Scheme010
 VGUI_Surface032
 VGUI_System010
 VGUI_ivgui008
+VIcL$
+VIcL$0Ic
 VMDLLIB001
 VMaterialSystem2_001
 VMatrix
@@ -1409,9 +1346,12 @@ Write
 WriteAtomic
 WritePointer
 Wrong alignment %d
+XIcL$ Ic
+XIcL$8Ic
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
+ZIcL$
 [%d] = 
 [A\A]A^A_]
 [A\A]A^A_]A
@@ -1423,11 +1363,14 @@ X[]A\A]A^A_
 []A\A]A^
 []A\A]A^A_
 \$HE1
-\$HfA
 \t!Hc
 \u0000
+]+l`J
 ]Ht,A
+]IcD$`1
 ^ t+H
+^IcL$(Ic
+_HcK@Ic
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -1501,6 +1444,7 @@ _fini
 _init
 `[A\A]A^]
 `[A\]
+aIcL$pIc
 abort@@GLIBC_2.2.5
 animationsystem
 archive
@@ -1544,7 +1488,6 @@ floorf@@GLIBC_2.2.5
 fltx4
 free@@GLIBC_2.2.5
 g E;g0D
-g0D;g@D
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_pMemAlloc
@@ -1557,13 +1500,13 @@ imemanager
 inputsystem
 int( %d = 0x%X )
 interfaces.cpp
-k8;C0t8
-k8D;kHD
+jIcD$
+k8D;kHtMH
 k@[A\A]A^]
+kIcD$
 kxt M
 l$ M9u
 l$HfA
-l$PE;l$`D
 libc.so.6
 libm.so.6
 libpthread.so.0
@@ -1573,99 +1516,50 @@ libstdc++.so.6
 libtier0.so
 libvstdlib.so
 localize
-m_AdditionalInputDependencies
-m_AdditionalRelatedFiles
-m_ArgumentDependencies
 m_BaseClasses
 m_CTransform
 m_CUtlBinaryBlock
 m_CUtlString
 m_CUtlSymbol
-m_ChildResourceList
 m_ClassIntrospectionHandle_t
 m_Color
-m_CompilerIdentifier
-m_ContentRelativeFilename
-m_ContentSearchPath
-m_CustomDependencies
 m_DegreeEuler
 m_EnumIntrospectionHandle_t
-m_EnumValueIntrospection
 m_Enumerators
-m_ExtraFloatData
-m_ExtraIntData
-m_ExtraStringData
-m_FieldIntrospection
 m_FieldMetadataOverrides
 m_FieldName
 m_Fields
-m_Indirection
-m_InputDependencies
 m_Metadata
 m_ModifyAdds
 m_ModifyRemoves
 m_Name
 m_NestedClasses
 m_NestedEnums
-m_ParameterName
-m_ParameterType
 m_QAngle
 m_Quaternion
 m_RadianEuler
-m_ReferencedEnums
-m_ReferencedStructs
-m_RelativeFilename
 m_ResourceTypes
-m_SearchPath
-m_SpecialDependencies
 m_StaticEntries
-m_String
 m_TagName
 m_Vector
 m_Vector2D
 m_Vector4D
 m_VectorAligned
 m_bRemoveAll
-m_flFloat
 m_matrix3x4_t
 m_matrix3x4a_t
 m_nAlignOf
-m_nAlignment
-m_nBaseStructId
-m_nCount
-m_nDiskCrc
-m_nDiskSize
-m_nEnumValue
-m_nFileCRC
-m_nFingerprint
-m_nFingerprintDefault
-m_nFlags
-m_nId
-m_nInt
-m_nIntrospectionVersion
 m_nOffset
-m_nOnDiskOffset
-m_nParentIndex
 m_nSingleInheritanceOffset
 m_nSizeOf
-m_nStructFlags
-m_nType
-m_nTypeData
-m_nUserData
-m_nUserVersion
 m_nValue
 m_pClass
 m_pDataType
-m_pEnumValueName
-m_pFieldName
 m_pInstance
 m_pKeyValues
-m_pName
-m_pResourceName
 m_pTagDataType
 m_pTagValue
 m_pType
-m_resourceRefInfoList
 m_stringToken
 malloc
 malloc@@GLIBC_2.2.5
@@ -1684,7 +1578,7 @@ networksystem
 notconnected
 notify
 oldschemasynthesis.cpp
-p8tPL
+p8tRL
 p[A\]
 particles
 pthread_mutex_destroy
@@ -1734,7 +1628,7 @@ schematextwriter.cpp
 schematraversal.cpp
 schematype.cpp
 server_can_execute
-shtBA
+sht:A
 sincosf
 sincosf@@GLIBC_2.2.5
 singleplayer
@@ -1761,7 +1655,6 @@ t	[A\]
 t"HcK
 t"HcO
 t#;0u
-t$ D;
 t$@A\]
 t$H9h
 t$HcK
@@ -1775,21 +1668,19 @@ t+Hc4
 t,[A\A]A^]
 t.D;(H
 t2L;8u
-t3D; H
 t3D;(H
 t3[A\]
+t4D;(H
 t4[A\]
-t6D; H
+t6D;(H
 t7[A\A]A^]
 t;[A\]
-t<IcV
 t@@:>u
 tMIcE
 tPIcE
 tR[A\A]A^]
 tSHcO
 tWA9]
-taE;D$
 tc;:t
 tdA:]
 td[A\]
@@ -1814,7 +1705,6 @@ update
 utils/schemasystemutils.cpp
 utlbuffer.cpp
 utlstring.cpp
-uxHcM
 v!<\t
 vrgrp
 vrman
@@ -1831,6 +1721,7 @@ y8[A\A]A^]
 z/u-H
 z:KEZ
 {0[A\A]A^]
+{8;C0t4
 {DegreeEuler Value}
 {Float64 Value}
 {Fltx4 Value}
@@ -1852,8 +1743,10 @@ z:KEZ
 {x: %g, y: %g, z: %g, w: %g}
 {}()':
 {}[]()=&, 	
+|$ D;
 |$ E1
 |$0A\]
+|$PE;|$`
 }>;w$
 }Hf;w
 ~	ATI
@@ -1861,4 +1754,6 @@ z:KEZ
 ~)H97tC
 ~AVAUL
 ~PA\A]A^]
+~SHcC
 ~[HcW
+~vHcKPHc

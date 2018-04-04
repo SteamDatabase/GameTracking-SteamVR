@@ -36,6 +36,7 @@
  CThreadRWLock_FastRead::CThreadRWLock_FastRead()
  CThreadRWLock_FastRead::HandleFirstWriteLockTransition()
  CThreadRWLock_FastRead::UnlockReadAccounting(unsigned int)
+ CThreadRWLock_FastRead::UnlockRead_LockForWrite()
  CThreadRWLock_FastRead::WaitForReadLockTransition(unsigned int)
  CThreadSemaphore::Release(int, int*)
  CThreadSemaphore::~CThreadSemaphore()
@@ -78,8 +79,13 @@
  FindOrCreateQuantizedFloatEncoder
  GetCPUFrequencyResults
  GetCPUInformation
+ GetDefaultMiniDumpTypeFlags
  GetHSteamPipe
+ GetQuantizedFloatEncoderByIndex
+ HangWatchdogInternal_BeginScope
+ HangWatchdogInternal_EndScope
  HangWatchdog_IndicateActivity
+ InvokeMiniDumpHandler
  KeyValuesSystem
  LOG_GENERAL
  LoggingSystem_AddTagToChannel
@@ -192,7 +198,9 @@
  T pcre_compile2
  T pcre_config
  T pcre_exec
+ T pcre_free_study
  T pcre_fullinfo
+ T pcre_study
  T pcrecpp::Arg::parse_char(char const*, int, void*)
  T pcrecpp::Arg::parse_double(char const*, int, void*)
  T pcrecpp::Arg::parse_float(char const*, int, void*)
@@ -267,7 +275,6 @@
  V typeinfo name for panorama::ELoadLayoutAsyncDetails
  V typeinfo name for panorama::ESoundType
  V typeinfo name for panorama::GamePadCode
- VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
  VTT for std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >@@GLIBCXX_3.4
  V_AddBackSlashesToSpecialChars
  V_AreFileNamesEqual
@@ -320,20 +327,30 @@
  V_atoui64
  V_cosf
  V_expf
+ V_fclose
  V_fmodf
+ V_fopenUTF8
+ V_fpclassify
+ V_fprintf
+ V_fputc
+ V_fread
  V_frexpf
+ V_fwrite
  V_isbreakablewspace32
+ V_isnan
  V_iswcntrl
  V_iswdigit
  V_iswspace
  V_localeconv
  V_logf
+ V_longjmp
  V_pow
  V_powf
  V_pretifymem
  V_pretifynum
  V_qsort
  V_qsort_s
+ V_setjmp
  V_sinf
  V_snprintf
  V_snwprintf
@@ -357,11 +374,6 @@
  V_wcstoi64
  W bool __gnu_cxx::__is_null_pointer<char>(char*)
  W void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int const&>(int const&)
- W void std::vector<std::__detail::_State, std::allocator<std::__detail::_State> >::_M_emplace_back_aux<std::__detail::_State>(std::__detail::_State&&)
- W void std::vector<std::__detail::_State, std::allocator<std::__detail::_State> >::emplace_back<std::__detail::_State>(std::__detail::_State&&)
- W void std::vector<std::__detail::_StateSeq, std::allocator<std::__detail::_StateSeq> >::_M_emplace_back_aux<std::__detail::_StateSeq const&>(std::__detail::_StateSeq const&)
- W void std::vector<std::__detail::_StateSeq, std::allocator<std::__detail::_StateSeq> >::_M_emplace_back_aux<std::__detail::_StateSeq>(std::__detail::_StateSeq&&)
- W void std::vector<std::__detail::_StateSeq, std::allocator<std::__detail::_StateSeq> >::emplace_back<std::__detail::_StateSeq>(std::__detail::_StateSeq&&)
  Warning
  _ITM_deregisterTMCloneTable
  _ITM_registerTMCloneTable
@@ -388,13 +400,10 @@
  _V_strncpy
  _V_strnicmp_fast
  _V_strnistr_fast
- _V_wcsncat
- _V_wcsncpy_bytes
  __assert_fail@@GLIBC_2.2.5
  __ctype_b_loc@@GLIBC_2.3
  __cxa_allocate_exception@@CXXABI_1.3
  __cxa_atexit@@GLIBC_2.2.5
- __cxa_bad_cast@@CXXABI_1.3
  __cxa_begin_catch@@CXXABI_1.3
  __cxa_call_unexpected@@CXXABI_1.3
  __cxa_end_catch@@CXXABI_1.3
@@ -426,11 +435,13 @@
  __strcpy_chk@@GLIBC_2.3.4
  __timezone@@GLIBC_2.2.5
  __tls_get_addr@@GLIBC_2.3
+ __vsprintf_chk@@GLIBC_2.3.4
  __wcscat_chk@@GLIBC_2.4
  __wcsncpy_chk@@GLIBC_2.4
  __xstat64@@GLIBC_2.2.5
  _setjmp@@GLIBC_2.2.5
  abort@@GLIBC_2.2.5
+ access@@GLIBC_2.2.5
  acosf@@GLIBC_2.2.5
  alphasort64@@GLIBC_2.2.5
  asinf@@GLIBC_2.2.5
@@ -462,6 +473,7 @@
  free@@GLIBC_2.2.5
  frexp@@GLIBC_2.2.5
  ftruncate64@@GLIBC_2.2.5
+ fwrite@@GLIBC_2.2.5
  g_Mathlib_GammaToLinearByteTable
  g_Tier1_BitWriteMasks
  g_Tier1_CRC32Table
@@ -470,11 +482,11 @@
  g_VProfCurrentProfile
  g_pCurrentFiberTL
  g_pMemAlloc
- g_pQuantizedFloatEncoders
  g_pThreadPool
  getenv@@GLIBC_2.2.5
  gethostbyname@@GLIBC_2.2.5
  getsockname@@GLIBC_2.2.5
+ gmtime@@GLIBC_2.2.5
  iswspace@@GLIBC_2.2.5
  localtime@@GLIBC_2.2.5
  longjmp@@GLIBC_2.2.5
@@ -528,21 +540,17 @@
  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
  std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
  std::__throw_bad_alloc()@@GLIBCXX_3.4
- std::__throw_bad_cast()@@GLIBCXX_3.4
  std::__throw_bad_function_call()@@GLIBCXX_3.4.14
  std::__throw_length_error(char const*)@@GLIBCXX_3.4
  std::__throw_logic_error(char const*)@@GLIBCXX_3.4
  std::__throw_out_of_range(char const*)@@GLIBCXX_3.4
- std::__throw_regex_error(std::regex_constants::error_type)@@GLIBCXX_3.4.15
  std::allocator<char>::allocator()@@GLIBCXX_3.4
  std::allocator<char>::~allocator()@@GLIBCXX_3.4
  std::basic_ios<char, std::char_traits<char> >::eof() const@@GLIBCXX_3.4
  std::basic_ios<char, std::char_traits<char> >::fail() const@@GLIBCXX_3.4
  std::basic_ios<char, std::char_traits<char> >::good() const@@GLIBCXX_3.4
- std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@@GLIBCXX_3.4
  std::basic_ios<wchar_t, std::char_traits<wchar_t> >::imbue(std::locale const&)@@GLIBCXX_3.4
  std::basic_ios<wchar_t, std::char_traits<wchar_t> >::init(std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >*)@@GLIBCXX_3.4
- std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()@@GLIBCXX_3.4
  std::basic_ostream<wchar_t, std::char_traits<wchar_t> >& std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::_M_insert<double>(double)@@GLIBCXX_3.4.9
  std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_ostringstream()@@GLIBCXX_3.4
  std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()@@GLIBCXX_3.4
@@ -558,28 +566,21 @@
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::assign(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)@@GLIBCXX_3.4
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::assign(wchar_t const*, unsigned long)@@GLIBCXX_3.4
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::swap(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&)@@GLIBCXX_3.4
- std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned long, unsigned long)@@GLIBCXX_3.4
- std::ctype<char>::_M_widen_init() const@@GLIBCXX_3.4.11
- std::ctype<char>::id@@GLIBCXX_3.4
  std::exception::~exception()@@GLIBCXX_3.4
  std::ios_base::Init::Init()@@GLIBCXX_3.4
  std::ios_base::Init::~Init()@@GLIBCXX_3.4
  std::ios_base::ios_base()@@GLIBCXX_3.4
  std::ios_base::~ios_base()@@GLIBCXX_3.4
  std::istream::gcount() const@@GLIBCXX_3.4
- std::istream::operator>>(int&)@@GLIBCXX_3.4
  std::istream::read(char*, long)@@GLIBCXX_3.4
- std::locale::id::_M_id() const@@GLIBCXX_3.4
  std::locale::locale()@@GLIBCXX_3.4
  std::locale::locale(char const*)@@GLIBCXX_3.4
- std::locale::locale(std::locale const&)@@GLIBCXX_3.4
  std::locale::~locale()@@GLIBCXX_3.4
  std::ostream::write(char const*, long)@@GLIBCXX_3.4
  std::string::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)@@GLIBCXX_3.4
  std::string::_M_iend() const@@GLIBCXX_3.4
  std::string::_M_leak_hard()@@GLIBCXX_3.4
  std::string::_M_mutate(unsigned long, unsigned long, unsigned long)@@GLIBCXX_3.4
- std::string::_M_replace_aux(unsigned long, unsigned long, unsigned long, char)@@GLIBCXX_3.4
  std::string::_Rep::_M_destroy(std::allocator<char> const&)@@GLIBCXX_3.4
  std::string::_Rep::_M_dispose(std::allocator<char> const&)@@GLIBCXX_3.4
  std::string::_Rep::_M_refdata()@@GLIBCXX_3.4
@@ -680,9 +681,7 @@
  typeinfo for float@@CXXABI_1.3
  typeinfo for int@@CXXABI_1.3
  typeinfo for long long@@CXXABI_1.3
- typeinfo for std::ctype<char>@@GLIBCXX_3.4
  typeinfo for std::exception@@GLIBCXX_3.4
- typeinfo for std::locale::facet@@GLIBCXX_3.4
  typeinfo for unsigned int@@CXXABI_1.3
  typeinfo for unsigned long long@@CXXABI_1.3
  typeinfo for void*@@CXXABI_1.3
@@ -749,13 +748,9 @@
  vtable for __cxxabiv1::__pointer_type_info@@CXXABI_1.3
  vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
  vtable for __cxxabiv1::__vmi_class_type_info@@CXXABI_1.3
- vtable for std::basic_ios<char, std::char_traits<char> >@@GLIBCXX_3.4
  vtable for std::basic_ios<wchar_t, std::char_traits<wchar_t> >@@GLIBCXX_3.4
- vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
  vtable for std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >@@GLIBCXX_3.4
- vtable for std::basic_streambuf<char, std::char_traits<char> >@@GLIBCXX_3.4
  vtable for std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >@@GLIBCXX_3.4
- vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
  vtable for std::basic_stringbuf<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >@@GLIBCXX_3.4
  vtable for std::exception@@GLIBCXX_3.4
  wcscat@@GLIBC_2.2.5

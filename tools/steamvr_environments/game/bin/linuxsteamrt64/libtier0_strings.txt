@@ -191,7 +191,6 @@ $[A\]
 -dedicated
 -emaildumps
 -etwprofile
--export:RunWithAlternateStack-export:JmpToAlternateStack
 -ignorecontentasserts
 -mpi_worker
 -noassert
@@ -203,7 +202,6 @@ $[A\]
 -profile
 -retail
 -testmode
--vulkan
 ../public/ordered_constructor.h
 ../public/tier0/tslist.h
 .comment
@@ -245,7 +243,6 @@ $[A\]
 /proc/self/cmdline
 /proc/self/exe
 /proc/self/statm
-/proc/self/status
 /proc/version
 /sys/devices/system/clocksource/clocksource0/current_clocksource
 /t'H9
@@ -290,8 +287,8 @@ $[A\]
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
-9=:^#
-9=Z^#
+956P#
+95mZ#
 9@tPA
 9CTestCase
 9IMemAlloc
@@ -301,7 +298,7 @@ $[A\]
 :>	Q>>
 :bD/b
 ;*3$"
-;=g[#
+;=SZ#
 <$.t"L
 <$.t`L
 <+u)H
@@ -322,9 +319,9 @@ $[A\]
 <img src="
 <pre>
 >::operator ()
+?/proc/self/status
 ?0,/1a,
 ?Y(<un
-?uname -m
 @Fv^k
 A>}?E>
 ATSA9
@@ -350,7 +347,6 @@ AVAUATS
 AVAUATSH
 AVAUATUSH
 AVAUD
-AVAUE
 AVAUE1
 AVAUH
 AVAUI
@@ -373,7 +369,6 @@ AWAVE1
 AWAVI
 AWAVL
 AWAVM
-A\A]A^A_[]
 A\A]A^A_]
 A\A]A^]
 A\A]]
@@ -524,6 +519,7 @@ GetUnitTest
 GetWin32ConsoleCursorColumnIndex
 H)C H)C(
 H9*tgH
+H9=!.&
 H9B r4
 H9H w
 H9J s
@@ -724,6 +720,7 @@ Plat_GetDocumentDirectory
 Plat_GetEnv
 Plat_GetExecutablePathUTF8
 Plat_GetGlobalListRegistry
+Plat_GetLastGameInstanceMutex
 Plat_GetLocalTime
 Plat_GetMemPageSize
 Plat_GetMiniDumpErrorString
@@ -797,6 +794,7 @@ Plat_RemoveDirectory
 Plat_RemoveFile
 Plat_RenameFile
 Plat_RequireSDL
+Plat_RestartCurrentProcess
 Plat_RunningWithDebugModules
 Plat_ScreenToWindowCoords
 Plat_SecTickDiff
@@ -1085,9 +1083,7 @@ Tier0GenericMiniDumpHandler_SetPreHandlerCallback
 Tools
 TracerPid:
 TranslateStackInfo
-UAUATH
 UCS-2
-USAWAVAUATH
 UTF-8
 Unable to create event, error %d
 Unable to create semaphore, error %d
@@ -1212,6 +1208,7 @@ V_fmod
 V_fmodf
 V_fopen
 V_fopenUTF8
+V_fpclassify
 V_fprintf
 V_fputc
 V_fputs
@@ -1230,6 +1227,7 @@ V_get_crt_setjmp_fn
 V_hypot
 V_isbreakablewspace
 V_isbreakablewspace32
+V_isnan
 V_isstrlower_fast
 V_iswalnum
 V_iswalpha
@@ -1666,11 +1664,11 @@ _ZN42CVirtualMachineCallStackTranslationEncoderC2EPKc
 _ZN42CVirtualMachineCallStackTranslationEncoderD1Ev
 _ZN42CVirtualMachineCallStackTranslationEncoderD2Ev
 _ZN6CFiber10FiberYieldEPFbPvES0_
-_ZN6CFiber11SetFiberJobEPFvPvES0_m
 _ZN6CFiber15IsReadyToResumeEv
 _ZN6CFiber16AllocPooledFiberENS_13SizeBuckets_tEm
 _ZN6CFiber16InitStackContextEPvmbm
 _ZN6CFiber17RunInThreadMemoryEPFxPvES0_
+_ZN6CFiber19InternalSetFiberJobEPFvPvES0_mb
 _ZN6CFiber20WaitForJobCompletionER14CEventListNode
 _ZN6CFiber21ReachedZeroReferencesEv
 _ZN6CFiber22DetachFromStackContextEv
@@ -1724,7 +1722,6 @@ _ZN9CVProfile19FindOrCreateCounterEPKc14CounterGroup_t
 _ZN9CVProfile19GetBudgetGroupColorEiRiS0_S0_S0_
 _ZN9CVProfile22RemoveDeferredFunctionEPFvPvES0_
 _ZN9CVProfile24ExecuteDeferredFunctionsEv
-_ZN9CVProfile28CalcBudgetGroupLHS_RecursiveEP10CVProfNodePjif
 _ZN9CVProfile30BudgetGroupNameToBudgetGroupIDEPKc
 _ZN9CVProfile30BudgetGroupNameToBudgetGroupIDEPKci
 _ZN9CVProfile30CalcBudgetGroupTimes_RecursiveEP10CVProfNodePjif
@@ -1850,11 +1847,15 @@ __cxa_throw
 __cxa_throw@@CXXABI_1.3
 __errno_location
 __errno_location@@GLIBC_2.2.5
+__fpclassify
+__fpclassify@@GLIBC_2.2.5
 __fprintf_chk
 __fprintf_chk@@GLIBC_2.3.4
 __gmon_start__
 __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
+__isnan
+__isnan@@GLIBC_2.2.5
 __longjmp_chk
 __longjmp_chk@@GLIBC_2.11
 __printf_chk
@@ -1993,8 +1994,6 @@ fseeko64@@GLIBC_2.2.5
 ftell@@GLIBC_2.2.5
 ftello64
 ftello64@@GLIBC_2.2.5
-ftime
-ftime@@GLIBC_2.2.5
 fwrite@@GLIBC_2.2.5
 g_Mathlib_GammaToLinearByteTable
 g_Mathlib_SinCosTable
@@ -2284,11 +2283,12 @@ sysconf
 sysconf@@GLIBC_2.2.5
 system
 system@@GLIBC_2.2.5
-t	HcCpD9
 t![A\]
+t$@f.
 t$H9h
 t-L)c f.
 t.[A\A]A^]
+t/H;= 
 t3L;e
 t7<.u
 t@L90
@@ -2298,12 +2298,12 @@ tan@@GLIBC_2.2.5
 tanf@@GLIBC_2.2.5
 tanh@@GLIBC_2.2.5
 tanhf@@GLIBC_2.2.5
-tgxMA
 threadtools.cpp
 tier0_strtools.cpp
 time@@GLIBC_2.2.5
 timegm@@GLIBC_2.2.5
 timestamped.log
+tixOA
 tkL;e
 tmpnam@@GLIBC_2.2.5
 tolower@@GLIBC_2.2.5
@@ -2349,7 +2349,6 @@ wcstoull@@GLIBC_2.2.5
 windows
 wn>Jj
 write@@GLIBC_2.2.5
-x86_64
 x[A\A]A^A_]
 z$u"f
 z`%1Is}

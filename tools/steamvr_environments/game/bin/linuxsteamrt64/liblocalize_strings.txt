@@ -21,7 +21,6 @@
 #int#
 $+s$Hc
 $ORIGIN
-$[A\]
 %-120s
 %-120s - %s
 %d total counted strings.
@@ -37,8 +36,6 @@ $[A\]
 ([A\A]A^A_]
 ([A\A]]
 ([]A\A]A^A_
-+C$9C
-+C$;C
 +K$Lc
 +S$Hc
 +s$Hc
@@ -74,7 +71,6 @@ $[A\]
 .symtab
 .text
 0123456789ABCDEF
-0[A\A]A^]
 0[A\]
 0[]A\A]A^
 0x%016llX
@@ -129,6 +125,8 @@ $[A\]
 =CSP1A
 =CSP1u
 @[A\]
+@tuL9
+A+D$$9
 A+D$$H
 A+E$H
 A+E$f
@@ -176,10 +174,12 @@ AWAVE
 AWAVE1
 AWAVI
 AWAVL
+AWAVM
 A\A]A^A_]
 A\A]A^]
 A\A]]
 AddRef
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 AssetBrowserSystem_001
@@ -247,6 +247,7 @@ EnvironmentMapBuilder_001
 EventSystem001
 FCVAR_NEVER_AS_STRING
 Failed to read localization file %s
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
@@ -254,8 +255,6 @@ FormatV
 Full paths not allowed in localization file specificaton %s
 G A9G
 G u)H
-G8t"H
-G8t+H
 G<@t	]
 G<@t L
 G<@t#f
@@ -288,6 +287,7 @@ H[A\A]A^A_]
 H[]A\A]A^A_
 HammerMapLoader001
 HcC$H
+HcKPHc
 HcSPH
 HcWPH
 Hcs H
@@ -323,7 +323,6 @@ Lc#D;c
 Lc/E)
 Lc6E9
 Lc{pD;
-LightingBuilderMgr001
 List all loaded localization files.
 LoadFromBuffer: expected '{', found '%s'
 Loaded localization files:
@@ -362,10 +361,12 @@ Plat_DebugPrint
 Plat_ExitProcess
 Plat_GetOSType
 Plat_IsHighDPI
+Plat_IsInDebugSessionRaw
 Plat_MessageBox
 Plat_ShouldCollectMiniDumpsForFatalErrors
 PostProcessingSystem_001
 PropertyEditorSystem_001
+QHcKHIc
 QueuedLoaderVersion001
 R8Y[]
 RecursiveLoadFromBuffer:  got EOF instead of keyname
@@ -400,12 +401,12 @@ STEAMUGC_INTERFACE_VERSION010
 STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
 STEAMUSERSTATS_INTERFACE_VERSION011
 STEAMVIDEO_INTERFACE_V002
-ScaleformUI001
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
+SerializedEntitiesVersion001
 ServerUploadGameStats001
 Sht7Lc{pD;
 SoundOpSystem001
@@ -534,6 +535,7 @@ WorldRendererMgr001
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
+ZIcL$
 [A\A]A^A_]
 [A\A]A^A_]A
 [A\A]A^]
@@ -645,8 +647,7 @@ g_Tier1_CRC64Table
 g_pMemAlloc
 int( %d = 0x%X )
 interfaces.cpp
-k8;C0t8
-k8D;kHD
+k8D;kHtMH
 k@[A\A]A^]
 korean
 libc.so.6
@@ -722,7 +723,7 @@ update
 utlbuffer.cpp
 utlstring.cpp
 v!<\t
-w tgH
+w tlH
 wcschr
 wcschr@@GLIBC_2.2.5
 wcscmp
@@ -734,9 +735,12 @@ wcslen@@GLIBC_2.2.5
 wcsncpy
 wcsncpy@@GLIBC_2.2.5
 x[A\A]A^A_]
+{8;C0t4
 {}()':
 }D;w$w?
 }Hf;w
 ~	ATI
 ~)A;]
 ~)H97tC
+~SHcC
+~vHcKPHc

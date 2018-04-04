@@ -409,6 +409,7 @@ message CMsgGCGetAppFriendsList_Response {
 	optional bool success = 1;
 	repeated fixed64 steamids = 2;
 	repeated fixed32 friendship_timestamps = 3;
+	repeated fixed32 last_playtimes = 4;
 }
 
 message CMsgGCMsgMasterSetDirectory {
@@ -611,5 +612,20 @@ message CMsgGCHVacVerificationChange {
 	optional fixed64 steamid = 1;
 	optional uint32 appid = 2;
 	optional bool is_verified = 3;
+}
+
+message CMsgGCHAccountTwoFactorChange {
+	optional fixed64 steamid = 1;
+	optional uint32 appid = 2;
+	optional bool twofactor_enabled = 3;
+}
+
+message CMsgGCCheckClanMembership {
+	optional fixed64 steamid = 1;
+	optional uint32 clanid = 2;
+}
+
+message CMsgGCCheckClanMembership_Response {
+	optional bool ismember = 1;
 }
 

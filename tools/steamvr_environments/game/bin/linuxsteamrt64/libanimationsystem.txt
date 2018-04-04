@@ -97,7 +97,9 @@
  V_cosf
  V_expf
  V_fmodf
+ V_fpclassify
  V_frexpf
+ V_isnan
  V_localeconv
  V_logf
  V_powf
@@ -158,10 +160,10 @@
  __pthread_key_create@@GLIBC_2.2.5
  __stack_chk_fail@@GLIBC_2.4
  abort@@GLIBC_2.2.5
+ acos@@GLIBC_2.2.5
  acosf@@GLIBC_2.2.5
  ceilf@@GLIBC_2.2.5
  dl_iterate_phdr@@GLIBC_2.2.5
- expf@@GLIBC_2.2.5
  floor@@GLIBC_2.2.5
  floorf@@GLIBC_2.2.5
  fmodf@@GLIBC_2.2.5

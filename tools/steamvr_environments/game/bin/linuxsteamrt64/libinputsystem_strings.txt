@@ -35,8 +35,6 @@ $tG[A\A]A^]
 ([A\A]A^A_]
 ([A\A]]
 ([]A\A]A^A_
-+C$9C
-+C$;C
 +K$Lc
 +S$Hc
 +s$Hc
@@ -44,13 +42,11 @@ $tG[A\A]A^]
 +{$Hc
 -cursor_scale_percent
 -disable_cursor_clip
--forcetouch
 -input_button_code_is_scan_code
 -input_message_spew
 -inputss_update_spew
 -noime
 -pass_vk_processkey
--steam
 ../public/ordered_constructor.h
 ../public/tier1/utlrbtree.h
 .comment
@@ -79,7 +75,6 @@ $tG[A\A]A^]
 .text
 /cursor.res
 0123456789ABCDEF
-0[A\A]A^]
 0[A\]
 0[]A\A]A^
 0t Hc
@@ -139,8 +134,10 @@ $tG[A\A]A^]
 =CSP1A
 =CSP1u
 @8wQUH
+@8wRtm
 @[A\]
 A	D2LI
+A+D$$9
 A+D$$H
 A+E$H
 A+E$f
@@ -210,6 +207,7 @@ AWAVE1
 AWAVH
 AWAVI
 AWAVL
+AWAVM
 A\A]A^A_]
 A\A]A^]
 A\A]]
@@ -222,6 +220,7 @@ A_WITH_RING_ABOVE
 A_WITH_TILDE
 AddRef
 Analog axis range before a button press is registered.
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 App activation changed: %s
@@ -340,14 +339,13 @@ FEMININE_ORDINAL_INDICATOR
 Failed to load cursor from '%s'
 Failed to load image for cursor from %s: %s
 Failed to scale image for cursor to %d,%d (hot %d,%d; scaling %g): %s
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 FormatV
 G A9G
 G u)H
-G8t"H
-G8t+H
 G<@t	]
 G<@t L
 G<@t#f
@@ -384,6 +382,7 @@ H[]A\A]A^A_
 HammerMapLoader001
 Hc@pH
 HcC$H
+HcKPHc
 HcSPH
 HcWPH
 Hcs H
@@ -489,6 +488,7 @@ KEY_CYRILLIC_HARD_SIGN
 KEY_CYRILLIC_IO
 KEY_CYRILLIC_YU
 KEY_CYRILLIC_ZHE
+KHcK@Ic
 KP_00
 KP_000
 KP_AMPERSAND
@@ -552,8 +552,8 @@ L_SHOULDER
 L_TRIGGER
 Lc#D;c
 Lc/E)
+Lck0D;k@t.H
 Lc{pD;
-LightingBuilderMgr001
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
 LoggingSystem_IsChannelEnabled
@@ -627,14 +627,13 @@ PanoramaUIEngine001
 ParticleSystemMgr002
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
-Plat_CheckSDL
 Plat_DebugPrint
 Plat_ExitProcess
 Plat_GetDefaultMonitorIndex
-Plat_GetDesktopBounds
 Plat_GetDesktopResolution
 Plat_GetEnv
 Plat_GetOSType
+Plat_GetWindowClientBounds
 Plat_GetWindowClientSize
 Plat_GetWindowMonitorIndex
 Plat_IsHighDPI
@@ -654,6 +653,7 @@ Plat_WindowToScreenCoords
 PostProcessingSystem_001
 PrimaryUserId is %d
 PropertyEditorSystem_001
+QHcKHIc
 QUESTION
 QUOTEDBL
 QueuedLoaderVersion001
@@ -719,6 +719,7 @@ SDL: Window %d resized to %dx%d
 SDL: Window %d restored
 SDL: Window %d shown
 SDL: Window %d size changed [%d,%d]
+SDL_ANDROID_SEPARATE_MOUSE_AND_TOUCH
 SDL_APP_DIDENTERBACKGROUND
 SDL_APP_DIDENTERFOREGROUND
 SDL_APP_LOWMEMORY
@@ -759,6 +760,7 @@ SDL_QUIT
 SDL_SYSWMEVENT
 SDL_TEXTEDITING
 SDL_TEXTINPUT
+SDL_TOUCH_MOUSE_EVENTS
 SDL_USEREVENT
 SDL_WINDOWEVENT
 SDL_WINDOWS_NO_CLOSE_ON_ALT_F4
@@ -773,12 +775,12 @@ SUPERSCRIPT_ONE
 SUPERSCRIPT_THREE
 SUPERSCRIPT_TWO
 SYSREQ
-ScaleformUI001
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
+SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetCursorClip:  %s SDL_SetWindowGrab on 0x%p (%s) %s
 SetCursorClip:  disabling SDL_SetWindowGrab on 0x%p (%s)
@@ -935,6 +937,7 @@ Y_AXIS_POS
 Y_BUTTON
 Y_WITH_ACUTE
 Y_WITH_DIAERESIS
+ZIcL$
 Z_AXIS
 Z_AXIS_NEG
 Z_AXIS_POS
@@ -1064,9 +1067,7 @@ joy_axisbutton_threshold
 joy_wingmanwarrior_centerhack
 joy_wingmanwarrior_turnhack
 joystick not found -- driver not present
-k0D;k@D
-k8;C0t8
-k8D;kHD
+k8D;kHtMH
 k@[A\A]A^]
 key_updatelayout
 libc.so.6
@@ -1151,8 +1152,11 @@ vstdlib
 wcslen
 wcslen@@GLIBC_2.2.5
 x[A\A]A^A_]
+{8;C0t4
 {}()':
 }Hf;w
 ~	ATI
 ~)A;]
 ~)H97tC
+~SHcC
+~vHcKPHc

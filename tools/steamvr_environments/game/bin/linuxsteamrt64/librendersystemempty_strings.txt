@@ -45,7 +45,6 @@
 "t&L;}
 #3CScs
 #RenderSystem_CannotCreateDevice
-#RenderSystem_UnableToStartGame
 #[A\]
 #base
 #base is NULL 
@@ -58,6 +57,7 @@ $+s$Hc
 $4DTdt
 $A+D$$H
 $A;D$
+$E;D$
 $ORIGIN
 $[A\]
 $fD	8
@@ -80,11 +80,11 @@ $woL)
 &6FVfv
 '	?@XC
 '7GWgw
+(%,2/
 (%s): ADD %s = %s
 (%s): Setting %s to %s
-(%|,/
 (*%s*), 
-(-~)/
+(-.//
 (8HXhx
 (D>C9[
 ([A\A]A^A_]
@@ -99,8 +99,6 @@ $woL)
 *:JZjz
 *S?~uJ?x
 +;K[k{
-+C$9C
-+C$;C
 +E;,$}
 +J A)
 +J`Hc
@@ -111,7 +109,7 @@ $woL)
 +s$Ic
 +u\?v
 +{$Hc
-, IcU
+,0IcU
 ,<L\l|
 --  Increase the size of the resource stream   --
 --  Need %d bytes, but only have %d bytes
@@ -119,12 +117,17 @@ $woL)
 -1.000000
 -=M]m}
 -VUUU
+-adapter
 -autoconfig
 -autoconfig_level
 -debugdxsupport
 -disallowhwmorph
 -dontEvictTextures
+-dx11
+-empty
+-force_recommend_gl
 -ignoredxsupportcfg
+-mantle
 -maxdxlevel
 -maxtextureres
 -preloadtextures
@@ -134,6 +137,7 @@ $woL)
 -sse2
 -sse3
 -sse4
+-vulkan
 ../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
@@ -143,8 +147,8 @@ $woL)
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 .>N^n~
+.M; y
 .M;UU
-.M;`~
 ._?hN
 .comment
 .data
@@ -195,6 +199,7 @@ $woL)
 12CRenderUtils
 12CTextureBase
 12CThreadEvent
+12CThreadedJob
 12IRenderUtils
 13CTextureEmpty
 13IRenderDevice
@@ -219,6 +224,7 @@ $woL)
 15CMemberFunctor7IP13CSOAContainerMS0_FviiiiiiiEiiiiiii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor8IP13CSOAContainerMS0_FviiiiPKS0_iiiEiiiiS3_iii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor9IP13CSOAContainerMS0_Fviiiiiii6VectorbEiiiiiiiS2_b12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CRenderPassDesc
 15CRenderResource
 15CResourceStream
 15CSwapChainEmpty
@@ -337,7 +343,6 @@ $woL)
 3E8 u
 3[A\A]A^]
 4+D+M
-4CJob
 4fff>fff>fff>fff>
 5UUUU
 692t&H
@@ -384,9 +389,12 @@ $woL)
 <Rt<<Pt`<S
 <Unknown
 <_t5f
+<invalid %d>
+<none>
 <null>
 <unknown multisample type
 <unknown>
+<x360>
 <}tI<{uO
 =yvn?
 ={=v?
@@ -402,6 +410,7 @@ $woL)
 >nkY?
 >r*#?
 >|Z2>'ez?
+?#RenderSystem_UnableToStartGame
 ?5?s!
 ?Out of Memory
 ?Too many bytes for PNG signature
@@ -412,6 +421,7 @@ $woL)
 @[A\A]A^]
 @[A\]
 A!;I2
+A+D$$9
 A+D$$H
 A+E$H
 A+E$f
@@ -533,10 +543,12 @@ AddRef
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 Align
 AllocInternal
+AllocTextureSlot
 Allocate
 AllocateAndCopy
 AllocateAndUploadSequenceData
 AllocateResource
+AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
 Application built with libpng-%.20s but running with %.20s
@@ -585,6 +597,7 @@ Bogus sampling factors
 Bogus virtual array access
 Buffer error in compressed datastream in %s chunk
 Buffer passed to JPEG library is too small
+C"fE9
 C$[A\]
 C([A\A]A^]
 C*w*<
@@ -747,6 +760,8 @@ Define Restart Interval %u
 Deleting texture with outstanding streaming request
 DevMsg
 Didn't expect more than one scan
+Direct3D 11
+Direct3D 9
 Discarding abandoned streaming texture load
 Display GPU memory usage.
 DotaCardGameClient_001
@@ -791,6 +806,7 @@ E;D$$
 E;\$8
 E;n\|
 E;t$ M
+E;t$ t!I
 E;}<L
 ERROR! LoadFromEXR( %s ) failed!
 ERROR! LoadFromEXR( %s ) failed! Error message: %s
@@ -825,7 +841,6 @@ Extra compression data
 F	@t&
 F 9G tq
 F Hcu
-F(D9e
 F49C`
 F@I;FHs
 F@[A\A]A^]
@@ -855,6 +870,7 @@ FindOrCreateTexture: Texture scope is unspecified!
 FindOrCreateTexture: Texture usage is unspecified!
 FixupResourceName: Illegal full path passed in ("%s")!
 FixupResourceName: Illegal path, missing extension passed in ("%s")!
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FloatBitMap::DownsampleNiceFiltered
 FloatBitMap::QuarterSize
@@ -879,8 +895,6 @@ G u)H
 G$+GX;G,@
 G8I;G@
 G8I;G@r
-G8t"H
-G8t+H
 G<@t	]
 G<@t L
 G<@t#f
@@ -925,10 +939,10 @@ H9*tgH
 H97trH
 H9GHt
 H9W8t	]
-H;=	`.
-H;=bb.
-H;=wd.
-H;=zb.
+H;=	v.
+H;=bx.
+H;=wz.
+H;=zx.
 H;B(uLL
 H;C r
 H;CHs
@@ -958,6 +972,9 @@ HcChI)
 HcE H
 HcE Hc
 HcE0H
+HcKPHc
+HcKPIc
+HcKhIc
 HcL$pHcT$
 HcR,H
 HcS$H
@@ -998,7 +1015,6 @@ IcT$8
 IcT$8H
 IcW(H
 Ic\$(A;\$8
-Ic](A;]8
 Ic]PI
 Icu`H
 Ignoring PLTE chunk in grayscale PNG
@@ -1165,6 +1181,7 @@ LOG_GENERAL
 LOWVIOLENCE
 Lc#D;c
 Lc+D;k
+Lc.D;n
 Lc/E)
 Lc6E9
 Lc7E)
@@ -1173,11 +1190,10 @@ Lc[`E)
 Lc`4I
 Lcc D;c0t<D
 Lcc4J
-Lcg@D;gPD
-LcgXD;ghD
+Lcg@D;gPt/H
+LcgXD;ght/H
 Lck(N
 Lc{pD;
-LightingBuilderMgr001
 Linear
 LoadFromBuffer: expected '{', found '%s'
 Loaded video settings config from '%s'
@@ -1200,7 +1216,6 @@ MN_OnResourceLoadFailed
 MNoScatter
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
-MResourceBlockType
 MResourceTypeForInfoType
 MResourceVersion
 Malformed iCCP chunk
@@ -1212,13 +1227,13 @@ MathLib_Init
 MaxDeviceID
 Maximum supported image dimension is %u pixels
 MbP?+
-Mc,$E;l$
 Mc.E;n
 Mc/E;o
 McD$<B
 McH<B
 McgXO
 McnPH
+Mct$(E;t$8
 Mc|$P
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -1254,7 +1269,6 @@ Missing PLTE before tRNS
 ModelDocUtils001
 N [A\A]A^A_]
 N14MDmElementType45CValueSearchTester_ClassIntrospectionHandle_tE
-N18MResourceBlockType45CValueSearchTester_ClassIntrospectionHandle_tE
 N24MDiskDataForResourceType45CValueSearchTester_ClassIntrospectionHandle_tE
 NTROL
 NULL row buffer for row %ld, pass %d
@@ -1383,6 +1397,7 @@ QuarterSizeAttrWithBoxFilter
 QueuedLoaderVersion001
 R channel not found
 R16F_EXPAND
+R32_UINT
 R8H=vtext
 R8Y[]
 RAUATL
@@ -1518,7 +1533,6 @@ SPB8t)H
 SSE and SSE2 are required.
 Sampling factors too large for interleaved scan
 Saved video settings config to '%s'
-ScaleformUI001
 Scan script does not transmit all data
 SceneSystem_002
 SceneUtils_001
@@ -1530,6 +1544,7 @@ Sd)C`H
 Seek failed on temporary file
 Selected %d colors for quantization
 SequenceFloatParam_t
+SerializedEntitiesVersion001
 SeriousWarning
 ServerUploadGameStats001
 SetAssociatedThreadIndex
@@ -1577,8 +1592,10 @@ TEXMAN: Outstanding stream count %d -> %d (%s)
 TOTAL: %.2f MB
 TRPGH
 TS Hc
+TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
 TSPEC_CUBE_TEXTURE
 TSPEC_FLAGS
+TSPEC_INPUT_ATTACHMENT
 TSPEC_LINEAR_ADDRESSING_360
 TSPEC_LINE_TEXTURE_360
 TSPEC_NO_LOD
@@ -1789,14 +1806,14 @@ X0~tA
 X360_DST16
 X360_DST24
 X360_DST24F
-X=\k	
+XIcL$ Ic
+XIcL$8Ic
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 Xbox 360
-Y%F8	
-Y%F:	
 YR ~UK
+ZIcL$
 Zero length tRNS chunk
 [A\A]A^A_]
 [A\A]A^A_]A
@@ -1815,6 +1832,7 @@ Zero length tRNS chunk
 \u0000
 ]H+G 
 ^ t+H
+^IcL$8Ic
 ^XM;S0
 ^[A\A]]
 _?</F
@@ -2017,13 +2035,13 @@ float
 float( %f )
 floatbitmap.cpp
 floatbitmap.cpp(124): Unknown gamma type "%s"!
-floatbitmap.cpp(2096): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2107): Error loading %s
-floatbitmap.cpp(2130): Error! Unknown file type for %s
-floatbitmap.cpp(2149): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
+floatbitmap.cpp(2113): Error calling TGALoader::GetInfo( %s )
+floatbitmap.cpp(2124): Error loading %s
+floatbitmap.cpp(2147): Error! Unknown file type for %s
+floatbitmap.cpp(2166): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
 floatbitmap.cpp(308): Conversion not supported yet!
 floatbitmap.cpp(408): Conversion not supported yet!
-floatbitmap.cpp(844): Unsupported color format "%s", skipping!
+floatbitmap.cpp(854): Unsupported color format "%s", skipping!
 floor
 floor@@GLIBC_2.2.5
 floorf
@@ -2232,6 +2250,7 @@ resourcesystem
 rgb to gray green coefficient
 rgb to gray red coefficient
 s v&E1
+s"fE9
 sAmTb
 sMA;|$ 
 sPLT chunk has bad length
@@ -2308,7 +2327,6 @@ szLce
 t	HcR
 t LcW
 t$(uzI
-t$0ta
 t$8E1
 t$@A\]
 t$H9h
@@ -2322,12 +2340,10 @@ t0Mcv
 t1Mc}
 t3D8J
 t6 H)
-t<IcV
 t?Mcv
 t@@:>u
 tEH;v0I
 tIW?Z
-tKLcc(D;c8D
 tK~%E1
 tRH;v0I
 tRNS chunk has out-of-range samples for bit_depth
@@ -2336,20 +2352,22 @@ tSHcO
 tVHcC
 tWA9]
 t\G9l
+t\Ic\$(A;\$8
 tdA:]
 text compression mode is out of range
-texturebase.cpp(1299):Error loading texture: %s
-texturebase.cpp(2090):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2101):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2112):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2133):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2144):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2155):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2166):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2187):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2198):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2209):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2220):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp
+texturebase.cpp(1302):Error loading texture: %s
+texturebase.cpp(2095):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2106):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2117):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2138):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2149):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2160):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2171):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2192):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2203):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2214):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2225):ResourceHandleToData( %s ) failed! Falling back to error texture!
 tfUMc
 tgE+e D9
 time@@GLIBC_2.2.5
@@ -2374,6 +2392,7 @@ u64( %lld = 0x%llX )
 u:[A\A]A^A_]
 u?IcF
 uA[A\A]A^]
+uB[A\A]A^]
 uC[A\]
 uHMc~
 uMHcN
@@ -2412,7 +2431,7 @@ x<IcH
 xGHcO
 x[A\A]A^A_]
 x[]A\A]A^A_
-xhE;u
+xxIcM
 z/u-H
 zD-dev
 zEuCH9
@@ -2422,6 +2441,7 @@ zlib version error
 {`xQuxH
 {}()':
 |$0E1
+|$0Hi
 |$@Mc
 |$HfA
 |$X@u
@@ -2435,5 +2455,7 @@ zlib version error
 ~)A;]
 ~)H97tC
 ~AVAUL
+~SHcC
 ~WHcE
 ~uLcu
+~vHcKPHc
