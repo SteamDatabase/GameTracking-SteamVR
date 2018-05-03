@@ -1,0 +1,45 @@
+{
+  "jsonid" : "input_profile",
+  "controller_type": "rift",
+  "legacy_binding" : "{oculus}/input/legacy_bindings_rift.json",
+  "input_bindingui_mode" : "hmd",
+  "input_bindingui_right" :
+  {
+    "image": "{htc}/icons/vive_hmd.png"
+  },
+  "input_source" :
+  {
+    "/proximity" : {
+        "type" : "button",
+        "binding_image_point" : [ 230, 300 ]
+    },
+    "/input/remote_dpad/down" : {
+        "type" : "button",
+        "binding_image_point" : [ 230, 300 ]
+    },
+    "/input/remote_dpad/up" : {
+        "type" : "button",
+        "binding_image_point" : [ 230, 300 ]
+    },
+    "/input/remote_dpad/left" : {
+        "type" : "button",
+        "binding_image_point" : [ 230, 300 ]
+    },
+    "/input/remote_dpad/right" : {
+        "type" : "button",
+        "binding_image_point" : [ 230, 300 ]
+    },
+    "/input/remote_dpad/click" : {
+        "type" : "button",
+        "binding_image_point" : [ 230, 300 ]
+    },
+    "/input/remote_back/click" : {
+        "type" : "button",
+        "binding_image_point" : [ 230, 300 ]
+    },
+    "/pose/raw" : {
+        "type" : "pose",
+        "binding_image_point" : [ 105, 200 ]
+    }
+  }
+ }

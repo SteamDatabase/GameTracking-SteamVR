@@ -177,7 +177,7 @@ $fD	8
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN13CSOAContainer9FilterInXEi9IntAABB_tiPKfbEUliE_EEMS8_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 *:JZjz
 *D$4A
-*G`A9
+*G`D9
 *S?~uJ?x
 *T$(E
 *xNIH
@@ -234,6 +234,7 @@ $fD	8
 -vrcompdebug
 -vrdebug
 -vrdev
+-vrinput
 -vrperftest
 -vrperftesthmd
 -width
@@ -692,6 +693,7 @@ $fD	8
 4$IcT$
 4+D+M
 40CSchemaStrongHandleInspectionManipulatorI29InfoForResourceTypeIMaterial2E
+416IDebugVisualizer
 42HcU
 4:A9L$
 4H;H 
@@ -733,7 +735,7 @@ $fD	8
 :[tLL
 ;*3$"
 ;*t*1
-;5Y{@
+;5y|@
 ;A0}4H
 ;wX|#
 ;wx|	]
@@ -1328,7 +1330,7 @@ D24X4S4
 D24X8
 D24X8_SHADOW
 D92tY1
-D9=9]-
+D9=Y^-
 D9F<~
 D9L$0A
 D9L$0~VM
@@ -1615,7 +1617,6 @@ GhUHc
 Ghost Correction Table:
 Ghost correction editor - %d -> %d = %d, %d, %d
 Ghost correction editor - Editing %d -> %d = %d, %d, %d
-Gl~V}
 GpUHc
 Green
 H	p(]
@@ -1627,11 +1628,13 @@ H9GHt
 H9H t
 H9H t)H
 H9W8t	]
-H;="z=
-H;=7|=
-H;=?w=
-H;=P$>
-H;=Ww=
+H;=*{=
+H;=?}=
+H;=B{=
+H;=W}=
+H;=_x=
+H;=p%>
+H;=wx=
 H;C r
 H;CHs
 H;S@w
@@ -2611,7 +2614,6 @@ Using 10-bit blend indices: are you sure they are supproted on the target hardwa
 Using 16-bit blend indices
 V%QdH
 V0u@H
-V16IDebugVisualizer
 V@I;VHs
 VApplication001
 VAvi001
@@ -2892,7 +2894,7 @@ Zero length tRNS chunk
 \$ E1
 \$0[A\A]A^]
 \$HfA
-\-3t	
+\-St	
 \t!Hc
 \u0000
 ]Ht,A
@@ -3987,19 +3989,19 @@ vpcf1
 vphys
 vr.cpp
 vr.cpp(1120): 
-vr.cpp(4479): ERROR! Unknown controller axis type %d!
-vr.cpp(5592): VR - Destroying old VB for Stenciling!
-vr.cpp(5637): VR - Error! VB handle is invalid in CVrStencilRenderer!
-vr.cpp(5781): VR - Destroying old VB for SubviewStenciling!
-vr.cpp(6123): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
-vr.cpp(6304): VR - Destroying old IB for warping!
-vr.cpp(6382): VR - Error! VB handle is invalid in CVrWarpRenderer!
-vr.cpp(6391): VR - Error! IB handle is invalid in CVrWarpRenderer!
-vr.cpp(6541): VR - Destroying old VB for reconstruction eye %d!
-vr.cpp(6548): VR - Destroying old IB for reconstruction eye %d!
-vr.cpp(6569): VR - Destroying old IB for reconstruction!
-vr.cpp(6709): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
-vr.cpp(6718): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(4482): ERROR! Unknown controller axis type %d!
+vr.cpp(5595): VR - Destroying old VB for Stenciling!
+vr.cpp(5640): VR - Error! VB handle is invalid in CVrStencilRenderer!
+vr.cpp(5784): VR - Destroying old VB for SubviewStenciling!
+vr.cpp(6126): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
+vr.cpp(6307): VR - Destroying old IB for warping!
+vr.cpp(6385): VR - Error! VB handle is invalid in CVrWarpRenderer!
+vr.cpp(6394): VR - Error! IB handle is invalid in CVrWarpRenderer!
+vr.cpp(6544): VR - Destroying old VB for reconstruction eye %d!
+vr.cpp(6551): VR - Destroying old IB for reconstruction eye %d!
+vr.cpp(6572): VR - Destroying old IB for reconstruction!
+vr.cpp(6712): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(6721): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
 vr_author_refpt vrfly_refpt_pos vrfly_refpt_ang anchor models/dev/gordon_at_desk.vmdl
 vr_black_level_clamp
 vr_chaperone_hardbounds_disabled
@@ -4123,6 +4125,7 @@ x[]A\A]A^A_
 x^HcS
 xb;wX}]Hc
 xxIcM
+yIcD$
 z/u-H
 zEuCH9
 zlib memory error

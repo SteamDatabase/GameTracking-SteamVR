@@ -126,8 +126,7 @@
             "source": "/user/hand/right/input/grip/click"
         }
     ],
-
-	"filters" :[
+	  "filters" :[
 		{
 			"name" : "all_system_buttons",
 			"type" : "boolean_or",
@@ -265,7 +264,293 @@
 			},
 			"output" : "result"
 		}
-	]
+	  ],
+	  "bindings" : 
+    {
+	  "/actions/dualanalog": {
+		  "sources": [
+			{
+				"mode": "trackpad",
+				"path": "/user/hand/left/input/trackpad",
+				"inputs": {
+					"click": {
+						"output": "/actions/dualanalog/in/LeftClick"
+					},
+					"position": {
+						"output": "/actions/dualanalog/in/LeftValue"
+					},
+					"touch": {
+						"output": "/actions/dualanalog/in/LeftTouch"
+					}
+				}
+			},
+			{
+				"mode": "trackpad",
+				"path": "/user/hand/right/input/trackpad",
+				"inputs": {
+					"click": {
+						"output": "/actions/dualanalog/in/RightClick"
+					},
+					"position": {
+						"output": "/actions/dualanalog/in/RightValue"
+					},
+					"touch": {
+						"output": "/actions/dualanalog/in/RightTouch"
+					}
+				}
+			},
+			{
+				"mode": "button",
+				"path": "/user/hand/left/input/grip",
+				"inputs": {
+					"click": {
+						"output": "/actions/dualanalog/in/ModeSwitch1"
+					}
+				}
+			},
+			{
+				"mode": "button",
+				"path": "/user/hand/right/input/grip",
+				"inputs": {
+					"click": {
+						"output": "/actions/dualanalog/in/ModeSwitch2"
+					}
+				}
+			}
+		]
+	  },
+	  "/actions/lasermouse": {
+		  "poses": [
+			{
+				"output": "/actions/lasermouse/in/Pointer",
+				"path": "/user/hand/left/pose/tip"
+			},
+			{
+				"output": "/actions/lasermouse/in/Pointer",
+				"path": "/user/hand/right/pose/tip"
+			}
+		],
+		"sources": [
+			{
+				"mode": "button",
+				"path": "/user/hand/right/input/trigger",
+				"inputs": {
+					"click": {
+						"output": "/actions/lasermouse/in/LeftClick"
+					}
+				}
+			},
+			{
+				"mode": "button",
+				"path": "/user/hand/right/input/a",
+				"inputs": {
+					"click": {
+						"output": "/actions/lasermouse/in/Back"
+					}
+				}
+			},
+			{
+				"mode": "button",
+				"path": "/user/hand/right/input/b",
+				"inputs": {
+					"click": {
+						"output": "/actions/lasermouse/in/Home"
+					}
+				}
+			},
+			{
+				"mode": "trackpad",
+				"path": "/user/hand/right/input/trackpad",
+				"inputs": {
+					"position": {
+						"output": "/actions/lasermouse/in/TrackpadValue"
+					},
+					"touch": {
+						"output": "/actions/lasermouse/in/TrackpadTouch"
+					}
+				}
+			},
+			{
+				"mode": "trackpad_scroll",
+				"path": "/user/hand/right/input/trackpad",
+				"inputs": {
+					"scroll": {
+						"output": "/actions/lasermouse/in/TrackpadScroll"
+					}
+				}
+			},
+			{
+				"mode": "dpad_click",
+				"path": "/user/hand/right/input/trackpad",
+				"inputs": {
+					"east": {
+						"output": "/actions/lasermouse/in/RightClick"
+					}
+				}
+			},
+			{
+				"mode": "button",
+				"path": "/user/hand/left/input/trigger",
+				"inputs": {
+					"click": {
+						"output": "/actions/lasermouse/in/LeftClick"
+					}
+				}
+			},
+			{
+				"mode": "button",
+				"path": "/user/hand/left/input/b",
+				"inputs": {
+					"click": {
+						"output": "/actions/lasermouse/in/Back"
+					}
+				}
+			},
+			{
+				"mode": "button",
+				"path": "/user/hand/left/input/a",
+				"inputs": {
+					"click": {
+						"output": "/actions/lasermouse/in/Home"
+					}
+				}
+			},
+			{
+				"mode": "trackpad",
+				"path": "/user/hand/left/input/trackpad",
+				"inputs": {
+					"position": {
+						"output": "/actions/lasermouse/in/TrackpadValue"
+					},
+					"touch": {
+						"output": "/actions/lasermouse/in/TrackpadTouch"
+					}
+				}
+			},
+			{
+				"mode": "trackpad_scroll",
+				"path": "/user/hand/left/input/trackpad",
+				"inputs": {
+					"scroll": {
+						"output": "/actions/lasermouse/in/TrackpadScroll"
+					}
+				}
+			},
+			{
+				"mode": "dpad_click",
+				"path": "/user/hand/left/input/trackpad",
+				"inputs": {
+					"east": {
+						"output": "/actions/lasermouse/in/RightClick"
+					}
+				}
+			}
+		]
+	},
+	"/actions/lasermouse_secondary": {
+		"poses": [],
+		"sources": [
+			{
+				"mode": "button",
+				"path": "/user/hand/left/input/trigger",
+				"inputs": {
+					"click": {
+						"output": "/actions/lasermouse_secondary/in/SwitchLaserHand"
+					}
+				}
+			},
+			{
+				"mode": "button",
+				"path": "/user/hand/right/input/trigger",
+				"inputs": {
+					"click": {
+						"output": "/actions/lasermouse_secondary/in/SwitchLaserHand"
+					}
+				}
+			}
+		]
+	},
+	"/actions/system": {
+		"chords": [
+			{
+				"inputs": [
+					[
+						"/user/hand/left/input/system",
+						"held"
+					],
+					[
+						"/user/hand/left/input/trigger",
+						"click"
+					]
+				],
+				"output": "/actions/system/in/TakeScreenshot"
+			},
+			{
+				"inputs": [
+					[
+						"/user/hand/right/input/system",
+						"held"
+					],
+					[
+						"/user/hand/right/input/trigger",
+						"click"
+					]
+				],
+				"output": "/actions/system/in/TakeScreenshot"
+			}
+		],
+		"sources": [
+			{
+				"mode": "button",
+				"path": "/user/hand/left/input/trigger",
+				"inputs": {}
+			},
+			{
+				"mode": "button",
+				"path": "/user/hand/right/input/trigger",
+				"inputs": {}
+			},
+			{
+				"mode": "complex_button",
+				"path": "/user/hand/left/input/system",
+				"inputs": {
+					"double": {
+						"output": "/actions/system/in/ToggleRoomView"
+					},
+					"held": {
+						"output": "/actions/system/in/SystemButtonChord"
+					},
+					"long": {
+						"long_press_delay": 1.5,
+						"output": "/actions/system/in/ShowPowerMenu"
+					},
+					"single": {
+						"output": "/actions/system/in/ToggleDashboard"
+					}
+				}
+			},
+			{
+				"mode": "complex_button",
+				"path": "/user/hand/right/input/system",
+				"inputs": {
+					"double": {
+						"output": "/actions/system/in/ToggleRoomView"
+					},
+					"held": {
+						"output": "/actions/system/in/SystemButtonChord"
+					},
+					"long": {
+						"long_press_delay": 1.5,
+						"output": "/actions/system/in/ShowPowerMenu"
+					},
+					"single": {
+						"output": "/actions/system/in/ToggleDashboard"
+					}
+				}
+			}
+		]
+	}
+}
 }
 
 

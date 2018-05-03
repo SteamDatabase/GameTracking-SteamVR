@@ -20,10 +20,10 @@
 					</Button>					
 					<Label class="ItemDetailTitle" text="#ItemDetail_Name" />	
 					<Button class="DestinationButton" id="RatingButtonUp">
-						<Image class="RatingImageUp"  src="s2r://panorama/images/content_browser/thumbs_up_png.vtex" />
+						<Image class="RatingImageUp" src="s2r://panorama/images/content_browser/thumbs_up_png.vtex" />
 					</Button>
 					<Button class="DestinationButton" id="RatingButtonDown">
-						<Image class="RatingImageDown"  src="s2r://panorama/images/content_browser/thumbs_down_png.vtex"/>
+						<Image class="RatingImageDown" src="s2r://panorama/images/content_browser/thumbs_down_png.vtex"/>
 					</Button>		
 				</Panel>
 									
@@ -32,7 +32,7 @@
 					<Panel class="ItemDetailMiddle">
 					
 						<Panel class="ItemDetailLeft">
-						  
+						
 							<Button id="LaunchPublicDestinationBtn" class="DestinationButton" onactivate="OnChooseContentItem()">
 								<Panel class="ItemDetailImageWrapper">
 									<Image id="ItemDetailImage" class="ItemDetailImage" scaling="stretch"/>
@@ -96,18 +96,18 @@
 								</Panel>
 								
 								<Panel class="CustomizeItemPanel" id="CustomizeItemPanel">						
-					                <Panel class="TempBrightness">
-					                	<Label text="COLOR" />
-					                	<Panel class="FakeSlider"  id="TempColor"/>
-					                </Panel>
-					                <Panel class="TempBrightness">
-					                	<Label text="SATURATION" />
-					                	<Panel class="FakeSlider"  id="TempSaturation" />
-					                </Panel>
-					                <Panel class="TempBrightness">
-					                	<Label text="BRIGHTNESS" />
-					                	<Panel class="FakeSlider" />
-					                </Panel>
+									<Panel class="TempBrightness">
+										<Label text="COLOR" />
+										<Panel class="FakeSlider" id="TempColor"/>
+									</Panel>
+									<Panel class="TempBrightness">
+										<Label text="SATURATION" />
+										<Panel class="FakeSlider" id="TempSaturation" />
+									</Panel>
+									<Panel class="TempBrightness">
+										<Label text="BRIGHTNESS" />
+										<Panel class="FakeSlider" />
+									</Panel>
 								</Panel>	
 								
 								<Panel class="ItemDetailsBottomInfo" id="ItemDetailDivider">																	
@@ -229,7 +229,7 @@
 							
 						</Panel>
 											
-					</Panel>				  
+					</Panel>
 
 					<Panel class="ContentContainerOptions" id="ContentContainerOptions">
 
@@ -378,23 +378,23 @@
 					</Panel>
 
 					<DropDown class="SortItemsDropDown DestinationButton" id="SortItemsDropDown">
-					  <Label text="#SortAlphabetical" id="SortAlphabetical" />
-					  <Label text="#SortPlayers" id="SortPlayers" />
-           			  <Label text="#SortRecent" id="SortRecent" />
-					  <Label text="#SortUpdated" id="SortUpdated"/>
-					  <Panel class="DropDownDivider" />		
-					  <Label text="#FilterFavorites" id="FilterFavorites"/>
-					  <Label text="#FilterUnplayed" id="FilterUnplayed" />					  					  
+						<Label text="#SortAlphabetical" id="SortAlphabetical" />
+						<Label text="#SortPlayers" id="SortPlayers" />
+					 	<Label text="#SortRecent" id="SortRecent" />
+						<Label text="#SortUpdated" id="SortUpdated"/>
+						<Panel class="DropDownDivider" />
+						<Label text="#FilterFavorites" id="FilterFavorites"/>
+						<Label text="#FilterUnplayed" id="FilterUnplayed" />
 					</DropDown>
-						
+					
 					<DropDown class="SortWorkshopItemsDropDown DestinationButton" id="SortWorkshopDropDown">
-					  <Label text="#SortPopular" id="SortWorkshopPopular" />
-					  <Label text="#SortPlaytime" id="SortWorkshopPlaytime"/>	
-           			  <Label text="#SortTopRated" id="SortWorkshopTopRated" />
-					  <Label text="#SortRecent" id="SortWorkshopRecent"/>				  					  
+						<Label text="#SortPopular" id="SortWorkshopPopular" />
+						<Label text="#SortPlaytime" id="SortWorkshopPlaytime"/>
+					 	<Label text="#SortTopRated" id="SortWorkshopTopRated" />
+						<Label text="#SortRecent" id="SortWorkshopRecent"/>
 					</DropDown>
 				
-					<Panel class="HorizontalDivider" />			
+					<Panel class="HorizontalDivider" />
 
 				</Panel>
 					
@@ -495,6 +495,21 @@
 					<Label class="QuestName" text="#Quest_Name" />
 				</Panel>
 				<Panel class="QuestItemDescription">				
+					<Panel class="QuestItemRight">
+						<Label class="QuestDesc" id="QuestDesc" />
+					</Panel>
+				</Panel>
+				<Panel class="QuestDestinations" id="QuestDestinations"></Panel>
+			</Panel>
+		</snippet>
+
+		<snippet name="QuestItemVisitMultipleMaps">
+			<Panel class="QuestItem QuestItemMapSpecific">
+				<Image id="QuestImage" class="ItemPreviewImage"/>
+				<Panel class="QuestTitle">
+					<Label class="QuestName" text="#Quest_Name" />
+				</Panel>
+				<Panel class="QuestItemDescription">
 					<Panel class="QuestItemRight">
 						<Label class="QuestDesc" id="QuestDesc" />
 					</Panel>
@@ -637,16 +652,16 @@
 																					
 							</Panel>	
 
-			                <Button class="DestinationButton" id="DashboardLeaveButton" onactivate="LoadDefaultHome()" mousecanactivate="unfocused" >
-			                    <Label class="LobbyButtonLabel" text="#Lobby_Leave" />
-			                </Button>
+							<Button class="DestinationButton" id="DashboardLeaveButton" onactivate="LoadDefaultHome()" mousecanactivate="unfocused" >
+								<Label class="LobbyButtonLabel" text="#Lobby_Leave" />
+							</Button>
 
-			                <Button class="DestinationButton" id="DashboardCloseButton" onactivate="AddStyle(SteamToursContentBrowser,ClosingLobby); SetInputFocus(ConfirmationButtonOK)" mousecanactivate="unfocused" >
-			                    <Label class="LobbyButtonLabel" text="#Lobby_Close" />
-			                </Button>
-			                <Button class="DestinationButton" id="DashboardQuickCloseButton" onactivate="LeaveLobby();">
-			                    <Label class="LobbyButtonLabel" text="#Lobby_Close" />
-			                </Button>
+							<Button class="DestinationButton" id="DashboardCloseButton" onactivate="AddStyle(SteamToursContentBrowser,ClosingLobby); SetInputFocus(ConfirmationButtonOK)" mousecanactivate="unfocused" >
+								<Label class="LobbyButtonLabel" text="#Lobby_Close" />
+							</Button>
+							<Button class="DestinationButton" id="DashboardQuickCloseButton" onactivate="LeaveLobby();">
+								<Label class="LobbyButtonLabel" text="#Lobby_Close" />
+							</Button>
 
 						</Panel>
 
@@ -690,7 +705,7 @@
 
 		</Panel>	
 
-   		<SteamToursAvatarCustomization  id="SteamToursAvatarCustomization" />
+ 		<SteamToursAvatarCustomization id="SteamToursAvatarCustomization" />
 
 		<Panel class="QuestDashboard CurrentQuestTab" id="QuestDashboard">
 			<Panel class="QuestDashboardTitle">
@@ -752,19 +767,19 @@
 				<Panel class="ThingsDashboardBody">
 					<Button class="ContentBrowserButton ThingsButton" onactivate="ShowThings('PropsOn');" >
 						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_props_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-						<Label class="ThingsButtonLabel"  text="#ContentBrowser_Things_Props" />			
+						<Label class="ThingsButtonLabel" text="#ContentBrowser_Things_Props" />			
 					</Button>
 					<Button class="ContentBrowserButton ThingsButton" onactivate="ShowThings('ToolsOn');" >
 						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_tools_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-						<Label class="ThingsButtonLabel"  text="#ContentBrowser_Things_Tools" />			
+						<Label class="ThingsButtonLabel" text="#ContentBrowser_Things_Tools" />			
 					</Button>
 					<Button class="ContentBrowserButton ThingsButton" onactivate="ShowThings('WearablesOn');" >
 						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_wearables_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-						<Label class="ThingsButtonLabel"  text="#ContentBrowser_Things_Wearables" />
+						<Label class="ThingsButtonLabel" text="#ContentBrowser_Things_Wearables" />
 					</Button>
 					<Button class="ContentBrowserButton ThingsButton" onactivate="ShowThings('FurnitureOn');" >
 						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_furniture_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-						<Label class="ThingsButtonLabel"  text="#ContentBrowser_Things_Furniture" />
+						<Label class="ThingsButtonLabel" text="#ContentBrowser_Things_Furniture" />
 					</Button>
 					<Button id="TrophiesButton" class="ContentBrowserButton ThingsButton" onactivate="ShowThings('TrophiesOn');" >
 						<Image class="ThingIcon" src="s2r://panorama/images/content_browser/icon_trophies_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
@@ -851,8 +866,8 @@
 		<Panel class="HostNewRoomWrapper">
 			<Panel class="HostNewRoomDialog">
 				<Label class="HostMessageTitle" text="#HostMessageTitle" />
-	          	<ToggleButton id="SavedEnvironmentCheck" class="CheckBox">
-					<Label text="#SavedEnvironmentCheck" class="SavedEnvironmentCheck" />       		
+				<ToggleButton id="SavedEnvironmentCheck" class="CheckBox">
+					<Label text="#SavedEnvironmentCheck" class="SavedEnvironmentCheck" />
 				</ToggleButton>
 
 				<Button id="LaunchPublicRoomBtn" class="DestinationButton" onactivate="HostPublicRoom()">
@@ -962,6 +977,13 @@
 				<Image class="SpinnerIcon" src="s2r://panorama/images/content_browser/icon_spinner_png.vtex" />
 			</Panel>
 			<Label class="LoadingBackgroundMessage" text="#LoadingBackgroundMessage" />
+		</Panel>
+
+		<Panel class="LoadingApps">
+			<Panel class="LoadingSpinner" id="LeftSpinner">
+				<Image class="SpinnerIcon" src="s2r://panorama/images/content_browser/icon_spinner_png.vtex" />
+			</Panel>
+			<Label class="LoadingAppsMessage" text="#LoadingAppsMessage" />
 		</Panel>
 
 		<Panel class="ContentDetail" onactivate="">

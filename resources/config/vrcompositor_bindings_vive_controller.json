@@ -267,7 +267,7 @@
 			"output" : "result"
 		}
 	],
-	"binding_ui" :
+	"bindings" :
 	{
 		"/actions/dualanalog" : { 
 		"sources" :

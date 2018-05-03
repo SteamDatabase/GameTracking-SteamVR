@@ -350,9 +350,8 @@
 			desc = "#VR_Avatar_MptamHmd_Desc"
 			content = "models/characters/avatars/mptam_hmd.vmdl"
 			preview_image = "file://{images}/contentdb/mptam_hmd.png"
-			locked_by_quest = false
+			locked_by_quest = true
 			inventory_service_id = 117
-			dev_only = true			
 		},
 		{
 			id = "raw_data_saija_head"
@@ -3528,11 +3527,10 @@
 			id = "jackolantern_01"
 			name = "#Quest_Jackolantern"
 			desc = "#Quest_Jackolantern_Desc"
-			content = "cannon_wars,jam_session,towerbridge"
+			addon = "cannon_wars,jam_session,towerbridge"
+			steamvr_addon = "928202705,928174467,928171131"
 			preview_image = "file://{images}/contentdb/jackolantern_01.png"
-			quest_type = "multiple_maps"
 			item_generator = "item_generator_jackolantern"
-			dev_only = true
 		},
 		{
 			id = "quest_toy_gun"
@@ -3548,7 +3546,6 @@
 			id = "pumpkin_01"
 			name = "#Quest_Pumpkin"
 			desc = "#Quest_Pumpkin_Desc"
-			content = "cannon_wars"
 			preview_image = "file://{images}/contentdb/pumpkin_01.png"
 			item_generator = "item_generator_pumpkin"
 		},
@@ -3624,7 +3621,6 @@
 			name = "#Quest_TechiesBarrel"
 			desc = "#Quest_TechiesBarrel_Desc"
 			preview_image = "file://{images}/contentdb/techies_barrel.png"
-			quest_type = "map"
 			item_generator = "item_generator_techies_barrel"
 			addon = "valvelobby"
 			steamvr_addon = "928179372"
@@ -3643,7 +3639,6 @@
 			name = "#Quest_FortificationBlock"
 			desc = "#Quest_FortificationBlock_Desc"
 			preview_image = "file://{images}/contentdb/fortification_block001.png"
-			quest_type = "map"
 			item_generator = "item_generator_fortification_block"
 			addon = "cannon_wars"
 			steamvr_addon = "928202705" // id on public

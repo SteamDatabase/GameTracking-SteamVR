@@ -475,13 +475,11 @@
   Removed Sound: %d (Time:%f)
   Schedule cleared: %s
   Two-pass.
-  angles: local = %f %f %f abs = %f %f %f track = %f %f %f constraint = %f %f %f
   criterion '%25s':'%15s' 
   input: %s
   o [%5d] '%s' (%s) [group entity]
   o [no group entity]
   offset %u
-  origin: local = %f %f %f abs = %f %f %f track = %f %f %f constraint = %f %f %f
   output: %s
   used during construction differ from defaults. Please re-export the map.
   x %6.6f  : no samples latched
@@ -1484,7 +1482,6 @@ $woL)
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
-(%GSV
 (%d %d %d %d)
 (%d) %s
 (%d) ------> %s ( HELD BY %s ) 
@@ -1498,6 +1495,7 @@ $woL)
 (%g,%g,%g) (%g,%g,%g)
 (%s) Schedule (%s) Failed at %d!
 (%s::)
+(%wMV
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
@@ -1838,12 +1836,10 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%# Y
-.%'C`
 .%NhF
+.%W=`
 .%|1@
 .-">=
-.-R\s
 ...%s
 ...done building AI node graph, %f seconds
 ...done determining links. %f seconds
@@ -1884,7 +1880,6 @@ $woL)
 ..\content
 .0z&u$
 .5-M=
-.5lE`
 .>()09
 .@(."
 .@,wqH
@@ -2078,7 +2073,6 @@ $woL)
 /home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/physics_shared.cpp
 /home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/physicsgamesystem.cpp
 /home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/precache_register.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/prop_vr_tracked_object.cpp
 /home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/skeletoninstance.cpp
 /home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/steamtours/vr_wormhole.cpp
 /home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_bubbles.cpp
@@ -6442,7 +6436,6 @@ $woL)
 66GameToolEventToolEvent_SFMToolActiveStateChanged_tHookupGameSystem
 67&-@
 692t&H
-6;5ZR]
 6<]q@
 6<u7@
 6=((E
@@ -6690,7 +6683,6 @@ $woL)
 ;39!@ffff
 ;3@F%u
 ;4,F]
-;5#zZ
 ;:~`H
 ;;D$H
 ;@*$pV
@@ -6700,7 +6692,7 @@ $woL)
 ;C0tyH
 ;Dff&?
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5<[|
+;Hc5qQ|
 ;L9'u
 ;L9/u
 ;L9?u
@@ -11246,8 +11238,6 @@ CPropVRHand
 CPropVRHand::CEntityInstanceEntityClass
 CPropVRTrackedObject
 CPropVRTrackedObject::CEntityInstanceEntityClass
-CPropVRTrackedObject::PostSetModel called with invalid transform
-CPropVRTrackedObject::PostSetModel: AddWeldJoint failed for %s '%s': (tracking=%s)
 CPropVehicle
 CPropVehicle::CEntityInstanceEntityClass
 CPropVehicleDriveable
@@ -12353,15 +12343,15 @@ D8kSt
 D9 ~NH
 D9!t"
 D9!u"
-D9%IZ
-D9%b^
+D9%i`
+D9%ruU
 D9't$H
 D9't,H
 D9(t'I
+D9-#z`
 D92tY1
-D95isT
-D95urT
-D9=IS
+D9=M!V
+D9=iY
 D9D$4B
 D9D$4H
 D9P8u
@@ -12388,13 +12378,15 @@ D; |YH
 D;!t{Hc
 D;#}|E
 D;$%H
-D;%1+
-D;%J8^
-D;%})1
+D;%59^
+D;%8}
+D;%[0Y
+D;%tVF
 D;'t{
 D;'t{Hc
 D;(t+
 D;,%H
+D;-=a
 D;.~3L
 D;0t-H
 D;0t]H
@@ -12402,6 +12394,7 @@ D;0|`
 D;7tnH
 D;7|-
 D;:tPH
+D;=z#V
 D;F`u
 D;G@t5H
 D;X,}
@@ -14367,7 +14360,7 @@ H9:tqHcR
 H9:tx
 H9:tyHcR
 H9:tzLcb A
-H9=2~
+H9=Qd
 H9C t
 H9C(t
 H9D$(
@@ -14400,66 +14393,68 @@ H;1t!
 H;2t!H
 H;2u$
 H;3t2H
-H;5Q41
 H;7t)H
 H;:t(f
-H;=	!
-H;=	/
-H;=	C
-H;= 7J
-H;=%}g
-H;=)'n
-H;=)(
-H;=);k
-H;=)=J
-H;=)J
-H;=)uH
-H;=.A
-H;=.cQ
-H;=/GQ
-H;=/PQ
-H;=7QQ
-H;=9"
-H;=90
-H;=9D
-H;=;Ye
-H;=;_M
-H;=>?
-H;=@JP
-H;=CzL
-H;=I*
-H;=I/
-H;=I>
-H;=K=J
-H;=Kql
-H;=KuH
-H;=PEM
-H;=PsJ
-H;=Q"n
-H;=S/p
-H;=ScH
-H;=Sxl
-H;=U8E
-H;=UWQ
-H;=Y)
-H;=Y+M
-H;=YK
-H;=[pl
-H;=`MM
-H;=`]Q
-H;=``J
-H;=fZQ
-H;=i#
-H;=i1
-H;=iE
-H;=np
-H;=n~
-H;=p$M
-H;=pPJ
-H;=xkQ
-H;=y+
-H;=y?
-H;={+M
+H;=	,
+H;=	.
+H;=	;
+H;=	N
+H;= 5P
+H;=!YQ
+H;=%Zg
+H;=) 
+H;=)5
+H;=)B
+H;=)aj
+H;=+jl
+H;=-`g
+H;=.K
+H;=0"J
+H;=3Ye
+H;=3bI
+H;=3hB
+H;=5Ak
+H;=9-
+H;=9/
+H;=9<
+H;=9hP
+H;=9vj
+H;=;4p
+H;=;@P
+H;=>I
+H;=@"I
+H;=C2p
+H;=Cql
+H;=EMg
+H;=I'
+H;=IGg
+H;=II
+H;=Kpl
+H;=M<g
+H;=NG
+H;=P(E
+H;=PXM
+H;=Q\j
+H;=Qqj
+H;=S8Q
+H;=UPm
+H;=Y!
+H;=Y6
+H;=YC
+H;=Ykg
+H;=[hP
+H;=]lj
+H;=^E
+H;=aJj
+H;=eBg
+H;=i.
+H;=i0
+H;=i=
+H;=piM
+H;=s6p
+H;=y(
+H;=yJ
+H;={ml
 H;>t[H
 H;B0u
 H;C r
@@ -14552,6 +14547,7 @@ HasTag
 HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
+Hc51\|
 Hc@ H
 Hc@$H
 Hc@0M
@@ -15946,8 +15942,11 @@ Lc!D;a
 Lc#D9b
 Lc#D;c
 Lc#E9
-Lc%,w
-Lc%V+
+Lc%,9^
+Lc%6(O
+Lc%L}
+Lc%R0Y
+Lc%c(O
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -17881,7 +17880,6 @@ PostFrameNavigationHook
 PostProcessName
 PostProcessSystem
 PostProcessingSystem_001
-PostSetModel
 PostSpawnDirectionVariance
 PostSpawnInheritAngles
 PostThinH
@@ -21277,6 +21275,7 @@ W{@3333
 X zR&="@r
 X(9Y(
 X(;X8
+X->$L
 X2:jH
 X5,M@
 X9t6@
@@ -21313,9 +21312,10 @@ XfA9D]
 Xg8Hc
 XxHc@t
 Y ANb
-Y%Fe'
-Y%Fg'
+Y%fc'
+Y%fe'
 Y(E9^(A
+Y-!c_
 Y/&4@4
 Y6	@W'g(
 Y?3333E
@@ -21441,8 +21441,8 @@ Z}uU
 \%03o
 \%LM@
 \-5aA
-\-<{g
 \-B<"
+\-lug
 \5?bA
 \;C@|
 \=zj!
@@ -21469,7 +21469,7 @@ Z}uU
 ]"^AR
 ]%h@sh
 ](tZH
-]5!,l
+]5Q&l
 ]7@Kvl
 ]8[A\A]A^]
 ]A\A]A^A_
@@ -21488,8 +21488,8 @@ Z}uU
 ^)8~@
 ^-wf"
 ^8D9+
-^=Cq_
 ^=[BE
+^=sk_
 ^?O<g
 ^Cp\&
 ^Fa.@
@@ -31855,7 +31855,7 @@ t$@A\]
 t$@H9p t
 t$@tsHc
 t$D9j
-t$D;-w
+t$D;-
 t$H9h
 t$HH9p 
 t$HcK
@@ -31890,10 +31890,9 @@ t&HcC
 t&Hcq
 t&IcD$
 t&[A\]
-t';=oY-
+t';=o
 t'D;-
-t'D;-n
-t'D;5
+t'D;5>
 t'HcC
 t'HcK
 t'Hc{
@@ -31913,12 +31912,13 @@ t'Lcc
 t'Lcs
 t'[A\]
 t(<)u
-t(D;-W
+t(D;-
 t(H9q
 t(H;p
 t(HcO
 t([A\A]A^]
 t([A\]
+t);=2
 t)D:u
 t)HcM
 t)Lc+D;k
@@ -31934,7 +31934,6 @@ t*LcC
 t*Mc,$H
 t*fA9
 t*xHc
-t+;5|_
 t+<\u
 t+D9s
 t+D;%
@@ -31953,8 +31952,8 @@ t-Hc9I
 t-Mc4$E;t$
 t-rex
 t.D9p
-t.D:%
-t.D;5
+t.D:%?
+t.D;5M
 t.H9w(t8H9w0tBH9w8tLH9w@t
 t.Lc#I
 t.fA9
@@ -32347,7 +32346,7 @@ uPMc4$fA
 uRMcl$
 uS[A\A]A^]
 uT1C@
-uUD;-n
+uUD;-
 uUHcC
 uYLl>
 uZJcT
@@ -32893,7 +32892,6 @@ x	D;
 x	D;(
 x	D;8
 x	D;?
-x";=o
 x$Mc}
 x(;wPI
 x(A\A]A^]
@@ -32908,6 +32906,7 @@ x7Hcw
 x8Lcc D;c0
 x8uwH
 x:Hcw
+x;;=L
 xED;c }?E
 xGHcO
 xH;w8I
@@ -33174,7 +33173,7 @@ z|uzI
 }3fA;\$Vw+H
 }3fA;\$~w+H
 }3fA;]nw,L
-}5D;-
+}5D;-a
 }8f9Cnr2H
 }8f;rnw2f
 }:f;pnw4f
@@ -33198,7 +33197,7 @@ z|uzI
 }J@:w
 }Kf;HnwEf
 }KfD9
-}LD;-y
+}LD;-
 }Lf;w
 }N;w$
 }Rf;w

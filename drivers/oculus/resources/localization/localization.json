@@ -1,0 +1,12 @@
+[
+  {
+    "language_tag": "en_US",
+    "oculus_touch" : "Oculus Touch",
+    "oculus_hmd" : "Oculus Rift",
+    "/input/a" : "A Button",
+    "/input/b" : "B Button",
+    "/input/x" : "X Button",
+    "/input/y" : "Y Button",
+    "/input/joystick" : "Joystick"
+  }
+]

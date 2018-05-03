@@ -1,5 +1,80 @@
 {
-	"jsonid" : "input_profile",
-  "controller_type": "gamepad",
-  "legacy_profile" :  "none"
+   "jsonid" : "input_profile",
+   "legacy_binding" : "config/legacy_bindings_generic.json",
+   "legacy_profile" : "none",
+   "controller_type" : "gamepad",
+   "input_bindingui_mode" : "single_device",
+   "input_bindingui_right" : {
+      "image" : "input/generic_controller.png"
+   },
+   "input_source" : {
+      "/input/a" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/b" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/back" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/dpad_down" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/dpad_left" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/dpad_right" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/dpad_up" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/guide" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/trigger_left" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "trigger"
+      },
+      "/input/trigger_right" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "trigger"
+      },
+      "/input/joystick_left" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "joystick"
+      },
+      "/input/joystick_right" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "joystick"
+      },
+      "/input/shoulder_left" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/shoulder_right" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/start" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/x" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      },
+      "/input/y" : {
+         "binding_image_point" : [ 50, 50 ],
+         "type" : "button"
+      }
+   }
 }

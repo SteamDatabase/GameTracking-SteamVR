@@ -644,4 +644,12 @@
 "[english]KnucklesCapsenseMode_2"	"Cap Sense controls Trigger"
 "KnucklesCapsenseMode_3"	"Kapacitiv sensor styrer greb"
 "[english]KnucklesCapsenseMode_3"	"Cap Sense controls Grip"
+"VRSettingsCamera_RoomViewMode_Label"	"Kameratilstand til rumvisning"
+"[english]VRSettingsCamera_RoomViewMode_Label"	"Room View Camera Mode"
+"VRSettingsCamera_RoomViewMode_EdgeA"	"Farvede kanter"
+"[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
+"VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Gennemsigtig overgang"
+"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Transluscent Pass-Through"
+"VRSettingsCamera_RoomViewMode_VideoOpaque"	"Uigennemsigtig overgang"
+"[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
 }

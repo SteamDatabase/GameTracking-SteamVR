@@ -3463,6 +3463,43 @@ AvatarCustomizationItem #SliderThumb
 	opacity: 0;
 }
 
+.LoadingApps
+{
+	width: 700px;
+	height: 200px;
+	margin-top: 500px;
+	horizontal-align: center;
+	flow-children: right;
+	background-color: #000000ff;
+	border-radius: 10px;
+	border: 2px solid #ffffff20;	
+	//box-shadow: button_glow 0px 0px 10px 0px;
+	opacity: 0;	
+
+	transition-property: opacity;
+	transition-duration: 0.23s;
+	transition-timing-function: bigpicture-ease-in-out;
+}
+
+.LoadingAppsMessage 
+{
+	margin-left: 30px;
+	margin-right: 40px;
+	vertical-align: center;
+	horizontal-align: center;
+	text-align: center;
+	font-size: 40px;
+	color: #ffffffff;
+}
+
+.MyScreenshots.LoadingAppsWithScreenshots .LoadingApps,
+.CommunityScreenshots.LoadingAppsWithScreenshots .LoadingApps,
+.MyArtwork.LoadingAppsWithArtwork .LoadingApps,
+.CommunityArtwork.LoadingAppsWithArtwork .LoadingApps
+{
+	opacity: 1;
+}
+
 .LoadingSpinner
 {
 	width: 100px;
@@ -3878,13 +3915,17 @@ AvatarCustomizationItem #SliderThumb
 .QuestItem.QuestDownloaded #QuestSubscribeBtn,
 .QuestItem.QuestDownloaded #QuestVisitBtn,
 .Completed.QuestItem.QuestNotSubscribed.QuestType_MapSpecific #QuestSubscribeBtn,
-.Completed.QuestItem.QuestDownloaded.QuestType_MapSpecific #QuestVisitBtn
+.Completed.QuestItem.QuestDownloaded.QuestType_MapSpecific #QuestVisitBtn,
+.Completed.QuestItem.QuestNotSubscribed.QuestType_VisitMultipleMaps #QuestSubscribeBtn,
+.Completed.QuestItem.QuestDownloaded.QuestType_VisitMultipleMaps #QuestVisitBtn
 {
 	visibility: collapse;	
 }
 
 .QuestItem.QuestNotSubscribed.QuestType_MapSpecific #QuestSubscribeBtn,
-.QuestItem.QuestDownloaded.QuestType_MapSpecific #QuestVisitBtn
+.QuestItem.QuestDownloaded.QuestType_MapSpecific #QuestVisitBtn,
+.QuestItem.QuestNotSubscribed.QuestType_VisitMultipleMaps #QuestSubscribeBtn,
+.QuestItem.QuestDownloaded.QuestType_VisitMultipleMaps #QuestVisitBtn
 {
 	visibility: visible;	
 }

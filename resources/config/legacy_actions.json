@@ -1,6 +1,10 @@
 {
 	"actions": [
 		{
+			"name": "/actions/legacy/in/Head_Proximity",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/legacy/in/Left_System_Press",
 			"type": "boolean"
 		},
@@ -22,38 +26,6 @@
 		},
 		{
 			"name": "/actions/legacy/in/Left_Grip_Touch",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Left_DpadLeft_Press",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Left_DpadLeft_Touch",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Left_DpadRight_Press",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Left_DpadRight_Touch",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Left_DpadUp_Press",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Left_DpadUp_Touch",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Left_DpadDown_Press",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Left_DpadDown_Touch",
 			"type": "boolean"
 		},
 		{
@@ -97,7 +69,11 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/legacy/in/Left_Axis2_Value",
+			"name": "/actions/legacy/in/Left_Axis2_Value1",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy/in/Left_Axis2_Value2",
 			"type": "vector2"
 		},
 		{
@@ -157,30 +133,6 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/legacy/in/Right_DpadLeft_Press",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Right_DpadLeft_Touch",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Right_DpadRight_Press",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Right_DpadRight_Touch",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Right_DpadUp_Press",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/legacy/in/Right_DpadUp_Touch",
-			"type": "boolean"
-		},
-		{
 			"name": "/actions/legacy/in/Right_A_Press",
 			"type": "boolean"
 		},
@@ -221,7 +173,11 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/legacy/in/Right_Axis2_Value",
+			"name": "/actions/legacy/in/Right_Axis2_Value1",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy/in/Right_Axis2_Value2",
 			"type": "vector2"
 		},
 		{
@@ -269,20 +225,16 @@
 					{
 						"language_tag": "en_US",
 
+						"/actions/legacy": "Legacy Bindings",
+
+						"/actions/legacy/in/Head_Proximity": "HMD Proximity Sensor",
+
 						"/actions/legacy/in/Left_System_Press": "Left System Button",
 						"/actions/legacy/in/Left_System_Touch": "Left System Button Touch",
 						"/actions/legacy/in/Left_ApplicationMenu_Press": "Left Application Menu Button",
 						"/actions/legacy/in/Left_ApplicationMenu_Touch": "Left Application Menu Button Touch",
 						"/actions/legacy/in/Left_Grip_Press": "Left Grip Button",
 						"/actions/legacy/in/Left_Grip_Touch": "Left Grip Button Touch",
-						"/actions/legacy/in/Left_DpadLeft_Press": "Left Dpad West Button",
-						"/actions/legacy/in/Left_DpadLeft_Touch": "Left Dpad West Touch",
-						"/actions/legacy/in/Left_DpadRight_Press": "Left Dpad East Button",
-						"/actions/legacy/in/Left_DpadRight_Touch": "Left Dpad East Touch",
-						"/actions/legacy/in/Left_DpadUp_Press": "Left Dpad North Button",
-						"/actions/legacy/in/Left_DpadUp_Touch": "Left Dpad North Touch",
-						"/actions/legacy/in/Left_DpadDown_Press": "Left Dpad South Button",
-						"/actions/legacy/in/Left_DpadDown_Touch": "Left Dpad South Touch",
 						"/actions/legacy/in/Left_A_Press": "Left A Button",
 						"/actions/legacy/in/Left_A_Touch": "Left A Press",
 						"/actions/legacy/in/Left_Axis0_Press": "Left Trackpad/Thumbstick Press",
@@ -293,7 +245,8 @@
 						"/actions/legacy/in/Left_Axis1_Value": "Left Trigger Value",
 						"/actions/legacy/in/Left_Axis2_Press": "Left Axis 2 Press",
 						"/actions/legacy/in/Left_Axis2_Touch": "Left Axis 2 Touch",
-						"/actions/legacy/in/Left_Axis2_Value": "Left Axis 2 Value",
+						"/actions/legacy/in/Left_Axis2_Value1": "Left Grip Value",
+						"/actions/legacy/in/Left_Axis2_Value2": "Left Trackpad/Thumbstick Value",
 						"/actions/legacy/in/Left_Axis3_Press": "Left Axis 3 Press",
 						"/actions/legacy/in/Left_Axis3_Touch": "Left Axis 3 Touch",
 						"/actions/legacy/in/Left_Axis3_Value": "Left Axis 3 Value",
@@ -307,14 +260,6 @@
 						"/actions/legacy/in/Right_ApplicationMenu_Touch": "Right Application Menu Button Touch",
 						"/actions/legacy/in/Right_Grip_Press": "Right Grip Button",
 						"/actions/legacy/in/Right_Grip_Touch": "Right Grip Button Touch",
-						"/actions/legacy/in/Right_DpadLeft_Press": "Right Dpad West Button",
-						"/actions/legacy/in/Right_DpadLeft_Touch": "Right Dpad West Touch",
-						"/actions/legacy/in/Right_DpadRight_Press": "Right Dpad East Button",
-						"/actions/legacy/in/Right_DpadRight_Touch": "Right Dpad East Touch",
-						"/actions/legacy/in/Right_DpadUp_Press": "Right Dpad North Button",
-						"/actions/legacy/in/Right_DpadUp_Touch": "Right Dpad North Touch",
-						"/actions/legacy/in/Right_DpadDown_Press": "Right Dpad South Button",
-						"/actions/legacy/in/Right_DpadDown_Touch": "Right Dpad South Touch",
 						"/actions/legacy/in/Right_A_Press": "Right A Button",
 						"/actions/legacy/in/Right_A_Touch": "Right A Press",
 						"/actions/legacy/in/Right_Axis0_Press": "Right Trackpad/Thumbstick Press",
@@ -325,7 +270,8 @@
 						"/actions/legacy/in/Right_Axis1_Value": "Right Trigger Value",
 						"/actions/legacy/in/Right_Axis2_Press": "Right Axis 2 Press",
 						"/actions/legacy/in/Right_Axis2_Touch": "Right Axis 2 Touch",
-						"/actions/legacy/in/Right_Axis2_Value": "Right Axis 2 Value",
+						"/actions/legacy/in/Right_Axis2_Value1": "Right Grip Value",
+						"/actions/legacy/in/Right_Axis2_Value2": "Right Trackpad/Thumbstick Value",
 						"/actions/legacy/in/Right_Axis3_Press": "Right Axis 3 Press",
 						"/actions/legacy/in/Right_Axis3_Touch": "Right Axis 3 Touch",
 						"/actions/legacy/in/Right_Axis3_Value": "Right Axis 3 Value",

@@ -1,0 +1,19 @@
+[
+  {
+    "language_tag": "en_US",
+    "gamepad" : "Gamepad",
+    "/input/trigger_left" : "Left Trigger",
+    "/input/trigger_right" : "Right Trigger",
+    "/input/joystick_left" : "Left Thumbstick",
+    "/input/joystick_right" : "Right Thumbstick",
+    "/input/back" : "Back Button",
+    "/input/start" : "Start Button",
+    "/input/guide" : "Guide Button",
+    "/input/dpad_down" : "Dpad Down",
+    "/input/dpad_up" : "Dpad Up",
+    "/input/dpad_left" : "Dpad Left",
+    "/input/dpad_right" : "Dpad Right",
+    "/input/shoulder_left" : "Left Shoulder",
+    "/input/shoulder_right" : "Right Shoulder"
+  }
+]

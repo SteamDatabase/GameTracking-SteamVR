@@ -1,0 +1,20 @@
+{
+   "bindings" : {
+      "/actions/legacy" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/head_proximity"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/head/proximity"
+            }
+         ]
+      }
+   },
+   "controller_type" : "rift",
+   "description" : "Default mapping for Oculus Rift headset into the legacy interface.",
+   "name" : "Oculus Rift Legacy Bindings"
+}

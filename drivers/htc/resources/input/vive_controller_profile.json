@@ -17,43 +17,48 @@
   {
     "/input/trackpad" : { 
         "type" : "trackpad",
-        "binding_image_point" : [ 105, 260 ]
+        "binding_image_point" : [ 10, 59 ],
+        "order" : 2
     },
     "/input/trigger" : {
         "type" : "trigger",
-        "binding_image_point" : [ 178, 285 ]
+        "binding_image_point" : [ 35, 64 ],
+        "order" : 1
     },
     "/input/grip" : {
         "type" : "button",
-        "binding_image_point" : [ 155, 340 ]
+        "binding_image_point" : [ 24, 87 ],
+        "order" : 3
     },
     "/input/application_menu" : {
         "type" : "button",
-        "binding_image_point" : [ 105, 210 ]
+        "binding_image_point" : [ 12, 35 ],
+        "order" : 4
     },
     "/input/system" : {
         "type" : "button",
-        "binding_image_point" : [ 105, 325 ]
+        "binding_image_point" : [ 9, 81 ],
+        "order" : 5
     },
     "/pose/raw" : {
         "type" : "pose",
-        "binding_image_point" : [ 105, 400 ]
+        "binding_image_point" : [ 14, 16 ]
     },
     "/pose/base" : {
         "type" : "pose",
-        "binding_image_point" : [ 105, 525 ]
+        "binding_image_point" : [ 11, 150 ]
     },
     "/pose/handgrip" : {
         "type" : "pose",
-        "binding_image_point" : [ 155, 355 ]
+        "binding_image_point" : [ 24, 86 ]
     },
     "/pose/tip" : {
         "type" : "pose",
-        "binding_image_point" : [ 105, 200 ]
+        "binding_image_point" : [ 14, 16 ]
     },
     "/pose/gdc2015" : {
         "type" : "pose",
-        "binding_image_point" : [ 105, 200 ]
+        "binding_image_point" : [ 14, 16 ]
     }
   }
 }

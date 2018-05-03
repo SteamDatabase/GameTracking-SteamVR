@@ -35,7 +35,7 @@
 			}
 		}
 	],
-	"binding_ui" :
+	"bindings" :
 	{
 		"/actions/system" : { 
 			"sources" :

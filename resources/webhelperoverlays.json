@@ -17,7 +17,14 @@
         "pixel_size": [800, 800],
         "overlay_flags" : 3,
         "input" : "mouse"
+    },
+    "input" : {
+        "url" : "/dashboard/controllerbinding.html",
+        "name" : "controllerbinding",
+        "type" : "dashboard",
+        "width_in_meters": 3.0,
+        "pixel_size": [1920, 1080 ],
+        "input" : "mouse",
+        "setting" : "debugInputBinding"
     }
 }
-
-

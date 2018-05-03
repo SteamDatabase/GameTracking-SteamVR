@@ -1,214 +1,269 @@
 {
-    "actions" : [
-        {
-            "name" : "/actions/system/in/ToggleDashboard",
-            "type" : "boolean",
-            "scope" : "global"
-        },
-        {
-            "name" : "/actions/system/in/TakeScreenshot",
-            "type" : "boolean",
-            "scope" : "global"
-        },
-        {
-            "name" : "/actions/system/in/ShowPowerMenu",
-            "type" : "boolean",
-            "scope" : "global"
-        },
-        {
-            "name" : "/actions/system/in/SystemButtonChord",
-            "type" : "boolean",
-            "scope" : "global"
-        },
-        {
-            "name" : "/actions/system/in/ToggleRoomView",
-            "type" : "boolean",
-            "scope" : "global"
-        },
-        {
-            "name" : "/actions/system/in/VolumeUp",
-            "type" : "boolean",
-            "scope" : "global"
-        },
-        {
-            "name" : "/actions/system/in/VolumeDown",
-            "type" : "boolean",
-            "scope" : "global"
-        },
-        {
-            "name" : "/actions/system/in/MuteMicrophone",
-            "type" : "boolean",
-            "scope" : "global"
-        },
-        {
-            "name" : "/actions/lasermouse_secondary/in/SwitchLaserHand",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/Pointer",
-            "type" : "pose"
-        },
-        {
-            "name" : "/actions/lasermouse/in/LeftClick",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/RightClick",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/Home",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/Back",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/MoveRight",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/MoveUp",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/MoveLeft",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/MoveDown",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/TrackpadTouch",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/TrackpadValue",
-            "type" : "vector2"
-        },
-        {
-            "name" : "/actions/lasermouse/in/Enter",
-            "type" : "boolean"
-        },
-        {
-			"name": "/actions/lasermouse/in/SwitchGamepadFocus",
-			"type": "boolean"
-        },
-        {
-            "name" : "/actions/lasermouse/in/TrackpadScroll",
-            "type" : "vector3"
-        },
-		{
-            "name" : "/actions/dualanalog/in/LeftValue",
-            "type" : "vector2"
-        },
-        {
-            "name" : "/actions/dualanalog/in/RightValue",
-            "type" : "vector2"
-        },
-        {
-            "name" : "/actions/dualanalog/in/LeftTouch",
-            "type": "boolean",
-            "scope" :  "application"
-        },
-        {
-            "name" : "/actions/dualanalog/in/RightTouch",
-            "type" : "boolean",
-            "scope" :  "application"
-        },
-        {
-            "name" : "/actions/dualanalog/in/LeftClick",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/dualanalog/in/RightClick",
-            "type" : "boolean"
-        },
-        {
-            "name" : "/actions/dualanalog/in/ModeSwitch1",
-            "type" : "boolean",
-            "scope" : "application"
-        },
-        {
-            "name" : "/actions/dualanalog/in/ModeSwitch2",
-            "type" : "boolean",
-            "scope" : "application"
-        },
-        {
-            "name" : "/actions/dualanalog/in/Cancel",
-            "type" : "boolean"
-        }
-    ],
+  "actions": [
+    {
+      "name": "/actions/system/in/ToggleDashboard",
+      "requirement" : "mandatory",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/system/in/TakeScreenshot",
+      "requirement" : "optional",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/system/in/ShowPowerMenu",
+      "requirement" : "optional",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/system/in/SystemButtonChord",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/system/in/ToggleRoomView",
+      "requirement" : "optional",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/system/in/VolumeUp",
+      "requirement" : "optional",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/system/in/VolumeDown",
+      "requirement" : "optional",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/system/in/MuteMicrophone",
+      "requirement" : "optional",
+      "type": "boolean",
+      "scope": "global"
+    },
+    {
+      "name": "/actions/lasermouse_secondary/in/SwitchLaserHand",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/Pointer",
+      "requirement" : "mandatory",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/lasermouse/in/LeftClick",
+      "requirement" : "mandatory",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/RightClick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/Home",
+      "requirement" : "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/Back",
+      "requirement" : "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/MoveRight",
+      "requirement" : "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/MoveUp",
+      "requirement" : "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/MoveLeft",
+      "requirement" : "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/MoveDown",
+      "requirement" : "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/TrackpadTouch",
+      "requirement" : "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/TrackpadValue",
+      "requirement" : "optional",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/lasermouse/in/Enter",
+      "requirement" : "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/SwitchGamepadFocus",
+      "requirement" : "optional",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/lasermouse/in/TrackpadScroll",
+      "requirement" : "optional",
+      "type": "vector3"
+    },
+    {
+      "name": "/actions/dualanalog/in/LeftValue",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/dualanalog/in/RightValue",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/dualanalog/in/LeftTouch",
+      "type": "boolean",
+      "scope": "application"
+    },
+    {
+      "name": "/actions/dualanalog/in/RightTouch",
+      "type": "boolean",
+      "scope": "application"
+    },
+    {
+      "name": "/actions/dualanalog/in/LeftClick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/dualanalog/in/RightClick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/dualanalog/in/ModeSwitch1",
+      "type": "boolean",
+      "scope": "application"
+    },
+    {
+      "name": "/actions/dualanalog/in/ModeSwitch2",
+      "type": "boolean",
+      "scope": "application"
+    },
+    {
+      "name": "/actions/dualanalog/in/Cancel",
+      "type": "boolean"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "vrcompositor_bindings_vive_controller.json"
+    },
+    {
+      "controller_type": "vive",
+      "binding_url": "vrcompositor_bindings_vive.json"
+    },
+    {
+      "controller_type": "vive_pro",
+      "binding_url": "vrcompositor_bindings_vive_pro.json"
+    },
+    {
+      "controller_type": "holographic_controller",
+      "binding_url": "vrcompositor_bindings_holographic.json"
+    },
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "vrcompositor_bindings_touch.json"
+    },
+    {
+      "controller_type": "generic",
+      "binding_url": "vrcompositor_bindings_generic.json"
+    },
+    {
+      "controller_type": "gamepad",
+      "binding_url": "vrcompositor_bindings_gamepad.json"
+    },
+    {
+      "controller_type": "knuckles",
+      "binding_url": "vrcompositor_bindings_knuckles.json"
+    }
+  ],
 
-	"action_sets": [
-		{
-			"name": "/actions/lasermouse",
-			"usage": "leftright"
-		},
-		{
-			"name": "/actions/lasermouse_secondary",
-			"usage": "leftright"
-		},
-		{
-			"name": "/actions/dualanalog",
-			"usage": "leftright"
-		},
-		{
-			"name": "/actions/system",
-			"usage": "leftright"
-		}
-	],
+  "action_sets": [
+    {
+      "name": "/actions/lasermouse",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/lasermouse_secondary",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/dualanalog",
+      "usage": "leftright"
+    },
+    {
+      "name": "/actions/system",
+      "usage": "single"
+    }
+  ],
 
-    "localization" : [
-        {
-            "language_tag": "en_US",
+  "localization": [
+    {
+      "language_tag": "en_US",
 
-            "/actions/system/in/ToggleDashboard" : "Toggle Dashboard",
-            "/actions/system/in/TakeScreenshot" : "Take Screenshot",
-            "/actions/system/in/ToggleRoomView" : "Toggle Room View",
-            "/actions/system/in/SystemButtonChord" : "System Button",
-            "/actions/system/in/ShowPowerMenu" : "Show Power Menu",
+      "/actions/system/in/ToggleDashboard": "Toggle Dashboard",
+      "/actions/system/in/TakeScreenshot": "Take Screenshot",
+      "/actions/system/in/ToggleRoomView": "Toggle Room View",
+      "/actions/system/in/SystemButtonChord": "System Button",
+      "/actions/system/in/ShowPowerMenu": "Show Power Menu",
 
-            "/actions/lasermouse/in/leftclick" : "Left Click",
-            "/actions/lasermouse/in/rightclick" : "Right Click",
-            "/actions/lasermouse/in/home" : "Home",
-            "/actions/lasermouse/in/back" : "Back",
-            "/actions/lasermouse/in/moveright" : "Move Right",
-            "/actions/lasermouse/in/moveup" : "Move Up",
-            "/actions/lasermouse/in/moveleft" : "Move Left",
-            "/actions/lasermouse/in/movedown" : "Move Down",
-            "/actions/lasermouse_secondary/in/switchlaserhand" : "Switch Hand",
-            "/actions/lasermouse/in/trackpadtouch" : "Trackpad Touch",
-            "/actions/lasermouse/in/trackpadvalue": "Trackpad Move",
-            "/actions/lasermouse/in/switchgamepadfocus" :  "Switch Gamepad Focus",
-           "/actions/lasermouse/in/trackpadscroll" :  "Scroll Overlay",
-            "/actions/dualanalog/in/rightclick" : "Right Click",
-            "/actions/dualanalog/in/leftclick" : "Left Click",
-            "/actions/dualanalog/in/righttouch" : "Right Touch",
-            "/actions/dualanalog/in/lefttouch" : "Left Touch",
-            "/actions/dualanalog/in/rightvalue" : "Right Move",
-            "/actions/dualanalog/in/leftvalue" : "Left Move",
-            "/actions/dualanalog/in/modeswitch1" : "Left Back",
-            "/actions/dualanalog/in/modeswitch2" : "Right Back",
-            "/actions/dualanalog/in/cancel" : "Cancel",
-            "/actions/system/in/systembuttonchord" : "System Chord",
-            "/actions/system/in/toggleroomview" : "Toggle Room View",
-            "/actions/system/in/volumeup" : "Volume Up", 
-            "/actions/system/in/volumedown" : "Volume Down", 
-            "/actions/system/in/toggledashboard" : "Toggle Dashboard", 
-            "/actions/system/in/showpowermenu" : "Show Power Menu",
-            "/actions/system/in/takescreenshot" : "Take Screenshot",
-            "/actions/system/in/mutemicrophone" : "Mute Microphone",
-            "/actions/lasermouse/in/enter" : "Mouse Enter",
-            "/actions/lasermouse/in/pointer" : "Laser Mouse Pointer",
+      "/actions/lasermouse/in/leftclick": "Left Click",
+      "/actions/lasermouse/in/rightclick": "Right Click",
+      "/actions/lasermouse/in/home": "Home",
+      "/actions/lasermouse/in/back": "Back",
+      "/actions/lasermouse/in/moveright": "Move Right",
+      "/actions/lasermouse/in/moveup": "Move Up",
+      "/actions/lasermouse/in/moveleft": "Move Left",
+      "/actions/lasermouse/in/movedown": "Move Down",
+      "/actions/lasermouse_secondary/in/switchlaserhand": "Switch Hand",
+      "/actions/lasermouse/in/trackpadtouch": "Trackpad Touch",
+      "/actions/lasermouse/in/trackpadvalue": "Trackpad Move",
+      "/actions/lasermouse/in/switchgamepadfocus": "Switch Gamepad Focus",
+      "/actions/lasermouse/in/trackpadscroll": "Scroll Overlay",
+      "/actions/dualanalog/in/rightclick": "Right Click",
+      "/actions/dualanalog/in/leftclick": "Left Click",
+      "/actions/dualanalog/in/righttouch": "Right Touch",
+      "/actions/dualanalog/in/lefttouch": "Left Touch",
+      "/actions/dualanalog/in/rightvalue": "Right Move",
+      "/actions/dualanalog/in/leftvalue": "Left Move",
+      "/actions/dualanalog/in/modeswitch1": "Left Back",
+      "/actions/dualanalog/in/modeswitch2": "Right Back",
+      "/actions/dualanalog/in/cancel": "Cancel",
+      "/actions/system/in/systembuttonchord": "System Chord",
+      "/actions/system/in/toggleroomview": "Toggle Room View",
+      "/actions/system/in/volumeup": "Volume Up",
+      "/actions/system/in/volumedown": "Volume Down",
+      "/actions/system/in/toggledashboard": "Toggle Dashboard",
+      "/actions/system/in/showpowermenu": "Show Power Menu",
+      "/actions/system/in/takescreenshot": "Take Screenshot",
+      "/actions/system/in/mutemicrophone": "Mute Microphone",
+      "/actions/lasermouse/in/enter": "Mouse Enter",
+      "/actions/lasermouse/in/pointer": "Laser Mouse Pointer",
 
-            "/actions/normal" : "Normal operation",
-            "/actions/chord" : "System Button Chords",
-            "/actions/lasermouse" : "Laser Mouse",
-            "/actions/dualanalog" : "Keyboard Entry",
-            "/actions/system" : "System Buttons"
-        }
-    ]
+      "/actions/normal": "Normal operation",
+      "/actions/chord": "System Button Chords",
+      "/actions/lasermouse": "Laser Mouse",
+      "/actions/lasermouse_secondary": "Offhand Laser Mouse",
+      "/actions/dualanalog": "Keyboard Entry",
+      "/actions/system": "System Buttons"
+    }
+  ]
 }

@@ -1054,6 +1054,7 @@
 		"IsFavoriteButtonHover"		"Unfavorite"
 		"DownloadMessage"		"Your content is downloading now."
 		"LoadingBackgroundMessage" "Loading Background"
+		"LoadingAppsMessage" "Loading Apps"
 		"ConfirmationTitle"	"Are you sure?"
 		"SaveTitle"	"Save Environment?"
 		"ConfirmationMessage"	"Closing this room will send all players in this room to their home environment."

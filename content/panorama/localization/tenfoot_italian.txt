@@ -450,7 +450,7 @@
 "[english]DashboardPower_Header"	"SYSTEM"
 "UI_Paste_UnknownSource"	"[Incolla]"
 "[english]UI_Paste_UnknownSource"	"[Paste]"
-"UI_Paste_CDKey"	"[Incolla CD Key]"
+"UI_Paste_CDKey"	"[Incolla codice prodotto]"
 "[english]UI_Paste_CDKey"	"[Paste CD Key]"
 "UI_Paste_URL"	"[Incolla URL]"
 "[english]UI_Paste_URL"	"[Paste URL]"
@@ -642,4 +642,6 @@
 "[english]KnucklesCapsenseMode_2"	"Cap Sense controls Trigger"
 "KnucklesCapsenseMode_3"	"Cap Sense controlla l'impugnatura"
 "[english]KnucklesCapsenseMode_3"	"Cap Sense controls Grip"
+"VRSettingsCamera_RoomViewMode_EdgeA"	"Bordi colorati"
+"[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
 }

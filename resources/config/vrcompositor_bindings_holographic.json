@@ -1,5 +1,5 @@
 {
-  "controller_type" :	"holographic_controller",
+	  "controller_type" :	"holographic_controller",
     "action_binds": [
         {
             "action": "/actions/system/in/SystemButtonChord",
@@ -267,7 +267,7 @@
 			"output" : "result"
 		}
 	],
-	"binding_ui" :
+	"bindings" :
 	{
 		"/actions/dualanalog" : { 
 		"sources" :
@@ -348,17 +348,6 @@
 			}
 		},
 		{
-			"path" : "/user/hand/right/input/trigger",
-			"mode" : "button",
-			"inputs" : 
-			{
-				"click" : 
-				{
-						"output" : "/actions/lasermouse/in/LeftClick"
-				}
-			}
-		},
-		{
 			"path" : "/user/hand/right/input/grip",
 			"mode" : "button",
 			"inputs" : 
@@ -396,13 +385,24 @@
 			}
 		},
 		{
-			"path" : "/user/hand/left/input/trigger",
-			"mode" : "button",
-			"inputs" : 
+			"path" : "/user/hand/right/input/trackpad",
+			"mode" : "trackpad_scroll",
+			"inputs" :
 			{
-				"click" : 
+				"scroll" :
 				{
-						"output" : "/actions/lasermouse/in/LeftClick"
+					"output" : "/actions/lasermouse/in/TrackpadScroll"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/right/input/trackpad",
+			"mode" : "dpad_click",
+			"inputs" :
+			{
+				"east" :
+				{
+					"output" : "/actions/lasermouse/in/RightClick"
 				}
 			}
 		},
@@ -413,7 +413,7 @@
 			{
 				"click" : 
 				{
-						"output" : "/actions/lasermouse/in/SwitchLaserHand"
+						"output" : "/actions/lasermouse/in/LeftClick"
 				}
 			}
 		},
@@ -451,6 +451,28 @@
 				"position" :
 				{
 					"output" : "/actions/lasermouse/in/TrackpadValue"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/left/input/trackpad",
+			"mode" : "trackpad_scroll",
+			"inputs" :
+			{
+				"scroll" :
+				{
+					"output" : "/actions/lasermouse/in/TrackpadScroll"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/left/input/trackpad",
+			"mode" : "dpad_click",
+			"inputs" :
+			{
+				"east" :
+				{
+					"output" : "/actions/lasermouse/in/RightClick"
 				}
 			}
 		}
@@ -568,5 +590,4 @@
 		] }
 	}
 }
-
 

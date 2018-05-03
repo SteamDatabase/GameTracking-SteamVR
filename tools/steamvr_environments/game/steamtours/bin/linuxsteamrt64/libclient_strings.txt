@@ -1495,30 +1495,32 @@ $~gHc
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (%0.2f): %s
-(%9^#
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
-(%de#
 (%g %g %g %g)
 (%g %g %g)
 (%g %g)
 (%g,%g,%g) (%g,%g,%g)
 (%s,%s)
 (%s::)
+(%u5#
+(%ur#
+(%v.#
 ((https?|ftp|file)://|www\.)([^<]*)
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(-0^#
-(-`4s
-(-yu#
+(-Ik#
+(-m.#
+(-vE#
+(-{9b
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (1@zD
-(5U#s
-(5pu#
-(5}8#
+(5@k#
+(5E[#
+(5mE#
 (8HXhx
 (9s ~@H
 (?R or (?[+-]digits must be followed by )
@@ -2008,11 +2010,7 @@ $~gHc
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 .%0*llu
 .(Optional) Set of tags for the published file.
-.-#iC
-.-*>6
-.-^[d
-.-n_d
-.-yDc
+.-QXC
 ../../_generated_code/client_steamtours/release/linuxsteamrt64/../../../../game/shared/world.cpp
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -2053,6 +2051,9 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
+.58<q
+.=#@4
+.=63V
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -5933,7 +5934,6 @@ $~gHc
 6C_Guts
 6C_Team
 6ConVar
-6D#5{6
 6D;U$
 6F+U F
 6H92t%H
@@ -6228,7 +6228,7 @@ $~gHc
 ;Ch|-
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;H0}K
-;Hc5m
+;Hc5"$g
 ;L9'u
 ;L9?u
 ;O<gK
@@ -6563,7 +6563,6 @@ $~gHc
 ?C_GameEntity::CEntityInstanceEntityClass
 ?C_RopeKeyframe
 ?C_World
-?D;% 
 ?D]`,
 ?DebugAutoComplete
 ?ERCP
@@ -6799,7 +6798,7 @@ $~gHc
 @8/N|
 @82t+1
 @87t<@
-@8=Ea
+@8=Ua
 @8A\A]A^]
 @8A\]
 @8A]A^]
@@ -8784,6 +8783,7 @@ AppSystemDict: Cannot replace interface name %s if it's not a singleton!
 AppSystemDict: Error in Connect() of interface '%s'!
 AppSystemDict: Error in Init() of interface '%s'!
 AppSystemDict: Interface '%s' (tier %d) depends on interface '%s' (tier %d) but is in a lower tier!
+AppWithImages_%s
 AppWithImages_%u
 AppWithSpawnableImage
 AppendChildrenFromLayoutFileAsync
@@ -9276,7 +9276,7 @@ C8}~1
 C9,h5
 C<D;e
 C<[A\A]A^]
-C@D;%
+C@D;%|
 C@D;k8D
 C@H;CHs
 C@LcE
@@ -10539,6 +10539,7 @@ CSteamTours_Content_Browser::LoadContent
 CSteamTours_Content_Browser::LoadLocalContent
 CSteamTours_Content_Browser::LoadQuests
 CSteamTours_Content_Browser::LoadTrophyApps
+CSteamTours_Content_Browser::LoadTrophyApps failed
 CSteamTours_Content_Browser::LoadWorkshopContent
 CSteamTours_Content_Browser_Item::CSteamTours_Content_Browser_Item
 CSteamTours_Friends::CSteamTours_Friends
@@ -11809,8 +11810,6 @@ D7	 H
 D9 ~zH
 D9!t"
 D9!u"
-D9#~8H
-D9%yJ
 D9't,H
 D9(t'I
 D9+~[L
@@ -11853,19 +11852,17 @@ D:z	t
 D:z	tUHc
 D; t=H
 D;!t{Hc
-D;%B/@
-D;%U%
-D;%]p
-D;%{J
+D;%4;
+D;%C(
+D;%XM
 D;'t{
 D;'t{Hc
 D;+};H
-D;-6~
-D;-m0@
+D;-=?@
 D;.~3L
 D;0t-H
 D;0t]H
-D;5^2;
+D;5y;;
 D;7tnH
 D;:tPH
 D;F`u
@@ -11876,7 +11873,6 @@ D;c D
 D;c H
 D;c t9H
 D;c tEH
-D;c t^H
 D;c |
 D;c }"H
 D;c }'H
@@ -12292,6 +12288,7 @@ DotaCardGameClient_001
 DotaMapUtils001
 Double-register of KV3 conversion (from '%s' to '%s')
 Double-save to Member '%s'
+DownloadItem: %llu
 DownloadingWorkshopItem
 Dq@_}<
 DragDrop
@@ -13778,6 +13775,9 @@ GetInt(name) : returns the convar as an int. May return null if no such convar.
 GetInt32
 GetInt64
 GetIntAttr
+GetItemDownloadFraction( %llu ) = %.3f
+GetItemDownloadFraction( %llu ) = 0 : still gathering dependencies
+GetItemState( %llu ): %s
 GetMapName
 GetMatchScore
 GetMaxCharCount
@@ -13936,10 +13936,8 @@ H97txH
 H9:tx
 H9:tyHcR
 H9:tyHcR@
-H9=y7
 H9C(H
 H9D$(
-H9D$8t6H
 H9GHt
 H9H u
 H9KhH
@@ -13965,82 +13963,88 @@ H;0u)
 H;1t!
 H;2u$
 H;2u)
-H;5Cv
+H;5SK
 H;8tU
 H;8t]
 H;:t(f
-H;:u%
-H;=	KD
-H;= *F
-H;= 8H
-H;= N;
-H;= _C
-H;= u3
-H;=!\I
-H;="F1
-H;="M?
-H;="i
-H;=%%}
-H;=+KD
-H;=..
-H;=00?
-H;=0V
-H;=0Z:
-H;=0u>
-H;=3?G
-H;=4";
-H;=6E1
-H;=8LF
-H;=9kH
-H;=;CH
-H;=@DF
-H;=@W6
-H;=CW9
-H;=E-5
-H;=E~D
-H;=HF1
-H;=HM?
-H;=I6W
-H;=I92
-H;=IG
-H;=IGE
-H;=MAH
-H;=N<
-H;=P13
-H;=P1:
-H;=PT
-H;=PY
-H;=P_E
-H;=PuF
-H;=S;I
-H;=YU;
-H;=Z";
-H;=[kH
-H;=^:
-H;=^E1
-H;=^LF
-H;=`F6
-H;=`T?
-H;=`o?
-H;=`}6
-H;=eYW
-H;=iAW
-H;=iQ3
-H;=i{S
-H;=kGE
-H;=m3X
-H;=nF1
-H;=nM?
-H;=pR
-H;=pW
-H;=snC
-H;=u<W
-H;=w*1
-H;=y&
-H;=y>D
-H;=yH
-H;=yd
-H;={U;
+H;:u&
+H;=	h
+H;= -5
+H;= A1
+H;= T
+H;= W:
+H;= Y
+H;= qI
+H;= t:
+H;=#7B
+H;=&V1
+H;=&nI
+H;=)M
+H;=)UD
+H;=)X;
+H;=--W
+H;=.<
+H;=0z?
+H;=4X2
+H;=8>;
+H;=9JN
+H;=9\H
+H;=9i
+H;=9q
+H;=;P?
+H;=@W
+H;=@X>
+H;=@Y3
+H;=@y/
+H;=I-S
+H;=I7
+H;=IJ;
+H;=I}3
+H;=KUD
+H;=KX;
+H;=LV1
+H;=L]?
+H;=P+6
+H;=Pc>
+H;=Pr6
+H;=Q4Z
+H;=S73
+H;=UAW
+H;=WkI
+H;=WxI
+H;=Y!Z
+H;=Y/1
+H;=YN
+H;=Y[D
+H;=Z>;
+H;=^2;
+H;=`?H
+H;=`MF
+H;=`U
+H;=`Z
+H;=`cF
+H;=c\F
+H;=cg/
+H;=e3W
+H;=iH
+H;=iSH
+H;=jM>
+H;=jU7
+H;=kJ;
+H;=k}3
+H;=m W
+H;=nI2
+H;=p)>
+H;=p:F
+H;=pHH
+H;=p^;
+H;=poC
+H;=qlI
+H;=rV1
+H;=r]?
+H;={/1
+H;={[D
+H;=~f*
 H;>t[H
 H;C I
 H;C r
@@ -14173,7 +14177,8 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5|1
+Hc50(
+Hc5B/g
 Hc8Hi
 Hc@ H
 Hc@$H
@@ -15269,7 +15274,6 @@ L9l$(u
 L9t$(u
 L9|$HJ
 L;0t!A
-L;5~~0
 L;:tL1
 L;:tT1
 L;:t_
@@ -15359,11 +15363,11 @@ Lc tu
 Lc!D;a
 Lc#D;c
 Lc#E9
-Lc%6N6
-Lc%9/@
-Lc%Tp
-Lc%cN6
-Lc%rJ
+Lc%	>@
+Lc%6T6
+Lc%^(
+Lc%cT6
+Lc%hM
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -15372,7 +15376,7 @@ Lc)D;i
 Lc+D)
 Lc+D;k
 Lc+Ic
-Lc-d0@
+Lc-4?@
 Lc.D;n
 Lc/E)
 Lc/E1
@@ -15535,6 +15539,8 @@ LoadLayoutFromXMLStringAsync
 LoadMapFromCurrentContentItem
 LoadSystemAndDependencies
 Loading and pickling daisy wheel dictionaries
+LoadingAppsWithArtwork
+LoadingAppsWithScreenshots
 LoadingDestination
 LoadingThrobber
 LobbiesContentContainer
@@ -16899,6 +16905,7 @@ OnEntText
 OnFavoritesListChanged
 OnFloatVariableChanged
 OnGameActivate
+OnGetAppDependenciesComplete: %llu (%d dependencies)
 OnGetUserItemVote
 OnGlowColorChanged
 OnGlowTypeChanged
@@ -17599,6 +17606,7 @@ QuestItem
 QuestItemDestination
 QuestItemDetector
 QuestItemMapSpecific
+QuestItemVisitMultipleMaps
 QuestItem_%s
 QuestItem_quest_toy_gun
 QuestManager: Eligible for %u quests from Inventory Service.
@@ -19565,6 +19573,7 @@ U?y$L?
 U@8wMH
 UFtg<F
 UG"@]
+UGCOperation
 UHcKxIc
 UIcGH1
 UIcG`1
@@ -20181,12 +20190,12 @@ W(Aq=
 W(H92t'H
 W(t4H
 W,:V,u
-W-&>9
+W-6?9
 W0;V0t
 W0Hc_8A
 W0t	H
 W3|Uxa
-W5T,5
+W5d-5
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -20342,6 +20351,7 @@ WorkshopImage
 WorkshopItem%llu
 WorkshopItemPaymentRule
 WorkshopItemsContainer
+WorkshopOperation
 WorkshopSetup001
 WorkshopSlideshowItem
 WorkshopStarsImage
@@ -20396,11 +20406,11 @@ Wzm6V"
 W{@3333
 X [A\]
 X zR&="@r
-X% 66
+X%076
 X(9Y(
 X(;X8
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-Tqf
+X-dqf
 X0~tA
 X2:jH
 X360_DST16
@@ -20408,7 +20418,6 @@ X360_DST24
 X360_DST24F
 X9t6@
 X=2v?
-X=dL,
 X@ffff
 XD$ H
 XFcH?F
@@ -20419,7 +20428,6 @@ XIcL$8Ic
 XIcL$hIc
 XInputPad
 XInputPad SteamPad SteamVRController
-XLc7D;w
 XLcgh
 XXf94
 X[A\A]A^A_]
@@ -20429,13 +20437,12 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Y ANb
-Y%6!6
+Y%{H 
 Y(E9^(A
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
 Y/&4@4
-Y50{g
 Y6	@W'g(
-Y=S{W
+Y=c|W
 Y?3333E
 YD$$L
 YEXfA
@@ -20576,7 +20583,8 @@ Z}uU
 \$hIcEX
 \$xA;
 \%03o
-\%TFf
+\%dFf
+\%i&h
 \;C@|
 \C not allowed in lookbehind assertion
 \HcK0Ic
@@ -21805,7 +21813,6 @@ can't use value tracking callbacks %s::%s on an embedded field that is being fla
 can_be_deleted
 can_subscribe
 cancelselect
-cannon_wars
 capslockwarn
 capturecubemap
 capturecubemap.exr
@@ -22949,6 +22956,7 @@ fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB94`
 fD9 t
+fD9%D
 fD9/t0H
 fD91u|
 fD9cV
@@ -22970,6 +22978,7 @@ fE;~n
 fE;~nw
 fEEl : high front unrounded vowel
 fG9\U
+fHcK Ic
 fIcL$
 fIll : high central unrounded vowel
 fIll : semi-high front unrounded vowel
@@ -24126,13 +24135,10 @@ j7t@3333
 j@[A\A]]
 j@ffff
 j@ffff>7
-jHcK Ic
 jIcD$
 jMVy@
 jMs|@h
 ja_JP
-jackolantern_01
-jam_session
 japanese
 java_generate_equals_and_hash
 java_generic_services
@@ -27713,7 +27719,6 @@ o$ATI
 o(ATI
 o*Ral
 o,ATI
-o-}.n
 o0ATI
 o8ATI
 o8ATL
@@ -29298,6 +29303,7 @@ stderr
 stderr@@GLIBC_2.2.5
 stdout
 stdout@@GLIBC_2.2.5
+steam.app.
 steam.app.%u
 steam.overlay
 steam://%s
@@ -29610,12 +29616,12 @@ t$<H)
 t$@A\]
 t$@tsHc
 t$D9j
-t$D;-'|
-t$D;-S
-t$D;-s1
-t$D;-w$"
+t$D;-
+t$D;-w*"
 t$D;5
 t$D;=
+t$D;=3
+t$D;=3C
 t$H9:H
 t$H9h
 t$HcK
@@ -29644,32 +29650,28 @@ t$pH)
 t$xH)
 t%;2t%H
 t%D;%
-t%D;-d
+t%D;-
 t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
 t&@8>t+H
 t&D:5
 t&D;%
-t&D;%E
-t&D;-
+t&D;-E
 t&D;5
-t&D;5ek
-t&D;5u
 t&D;=
 t&Hcq
 t&IcD$
-t';=?
-t';=_
-t';=_}
-t'D;%&
-t'D;%>\
-t'D;%nE
+t';=O
+t';=W
+t';=o
+t'D;%
 t'D;-
-t'D;->Z
+t'D;-^P
+t'D;-~`
 t'D;5
 t'D;=
-t'D;=F$
+t'D;=f*
 t'Hc{
 t'Hc{ H
 t'Hc{$H
@@ -29688,8 +29690,8 @@ t'[A\]
 t(92t(H
 t(<)u
 t(D;%
-t(D;%g
-t(D;-W+"
+t(D;%w
+t(D;-W1"
 t(E;u
 t(HcO
 t(Ic}(H
@@ -29697,20 +29699,21 @@ t(Ic},H
 t(Ic}@H
 t(Ic~0H
 t([A\A]A^]
-t)@:5!g
+t)@:5!m
 t)D:u
 t)D;%
-t)D;%x
 t)D;-
-t)D;-p
-t)D;=0O
-t)D;=p{
+t)D;- 
+t)D;-P@
+t)D;=
+t)D;=PU
 t)Lc+D;k
 t* Hc
 t*0Hc
 t*<*u
 t*@Hc
 t*D;%
+t*D;%Y
 t*D;5
 t*HcC
 t*HcE
@@ -29722,11 +29725,12 @@ t*L;m
 t*LcC
 t*Mc,$H
 t*fA9
+t+;5,
 t+<\u
 t+D9s
 t+D;%
-t+D;%Z
-t+D;%rI
+t+D;%*
+t+D;%j
 t+D;-
 t+D;=
 t+Hc4
@@ -29738,20 +29742,21 @@ t+IcD$
 t+Jc4
 t+Mcl$pE;
 t+fA9
-t,D;5k
+t,D;5
 t,D;=
 t,L;e
 t,UtZI
-t-D;%|%
-t-D;=
+t-D;%
+t-D;=Lm
 t-LcH
 t-Mc4$E;t$
 t-Mc<$E;|$
 t-Mcv
 t-rex
 t.D9p
-t.D:%oS
+t.D:%
 t.D;%
+t.D;%-
 t.D;5
 t.Lc#I
 t.Lc{
@@ -29760,7 +29765,7 @@ t/9w t29w0t=1
 t/@Hc
 t/H;E
 t/Lc%
-t/Lc%H
+t/Lc%8
 t/Lc+
 t0Mcv
 t1IcG
@@ -29822,7 +29827,7 @@ tAffffhF
 tAw3A
 tBViewEffects
 tCLc%
-tD@:5I
+tD@:5Y
 tDHcx D
 tEfD;R
 tFRA@F
@@ -29899,7 +29904,7 @@ tbD;&~3H
 tbHcO
 tbLcC8Ic
 tb[A\]
-tc@:5D
+tc@:5T
 tcHcQ
 tchinese
 td@Q4
@@ -30060,7 +30065,6 @@ touch_controllers
 touchlink_t CUtlMemoryPool
 toupper
 toupper@@GLIBC_2.2.5
-towerbridge
 tqLcu
 trHcO
 tr_TR
@@ -30945,6 +30949,7 @@ xRHcW
 xRIcL$
 xSIcL$
 xWHcW
+xX;7}TH
 x[A\A]A^A_]
 x[A\A]]
 x[HcO
@@ -31296,7 +31301,7 @@ z}u{I
 ~2Lc+A
 ~31]H
 ~79ZP
-~7Lc%
+~7Lc%8
 ~=FLD4F
 ~?HcH
 ~@AUI
