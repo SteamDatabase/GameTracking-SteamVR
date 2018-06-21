@@ -1,3 +1,28 @@
+"salien_pickup"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.3
+		vsnd_files = 
+		[
+			"sounds/props/salien/pickup_01.vsnd",
+			"sounds/props/salien/pickup_02.vsnd",
+			"sounds/props/salien/pickup_03.vsnd",
+		]
+	}}
+
+"salien_blink"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.1
+		volume_falloff_min = 10.0
+		volume_falloff_max = 100.0
+		vsnd_files = "sounds/props/salien/blink.vsnd"
+	}}
+
 "clock_tick"
 {
 	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->

@@ -35,6 +35,7 @@ message CClientMsg_SpawnPhysicsProp {
 	optional float scale = 3 [default = 1];
 	optional uint32 handid = 4;
 	optional fixed32 color = 5;
+	optional bool uses_client_side_animation = 6;
 }
 
 message CClientMsg_SpawnPropTool {

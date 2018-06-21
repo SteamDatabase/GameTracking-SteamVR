@@ -397,6 +397,15 @@
 			inventory_service_promo_rules = "played:218620/120" // must have played for 2 hours - Payday 2
 			inventory_service_promo_appid = 218620
 		},	
+		{
+			id = "vive_pro_headset"
+			name = "#VR_Avatar_ViveProHeadset"
+			desc = "#VR_Avatar_ViveProHeadset_Desc"
+			content = "models/third_party/characters/avatars/vive_pro_headset.vmdl"
+			preview_image = "file://{images}/contentdb/vive_pro_headset.png"
+			locked_by_quest = false
+			//inventory_service_id = 122
+		}
 	]
 
 	avatar_hands =
@@ -2621,6 +2630,63 @@
 			inventory_service_promo_appid = 611670
 			inventory_service_id = 1095
 			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "nevrosa_escape_cube"
+			name = "#VR_PhysicsProp_NevrosaEscapeCube"
+			desc = "#VR_PhysicsProp_NevrosaEscapeCube_Desc"
+			content = "models/third_party/props/toys/nevrosa_escape_cube.vmdl"
+			preview_image = "file://{images}/contentdb/nevrosa_escape_cube.png"
+			inventory_service_promo_rules = "played:563550/120" // must have played for 2 hours - Nevrosa: Escape
+			inventory_service_promo_appid = 563550
+			inventory_service_id = 1097
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "moss_quill_statue"
+			name = "#VR_PhysicsProp_MossQuillStatue"
+			desc = "#VR_PhysicsProp_MossQuillStatue_Desc"
+			content = "models/third_party/props/toys/moss_quill_statue.vmdl"
+			preview_image = "file://{images}/contentdb/moss_quill_statue.png"
+			inventory_service_promo_rules = "played:846470/120" // must have played for 2 hours - Moss
+			inventory_service_promo_appid = 846470
+			inventory_service_id = 1098
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "apex_construct_crab"
+			name = "#VR_PhysicsProp_ApexConstructCrab"
+			desc = "#VR_PhysicsProp_ApexConstructCrab_Desc"
+			content = "models/third_party/props/toys/apex_construct_crab.vmdl"
+			preview_image = "file://{images}/contentdb/apex_construct_crab.png"
+			inventory_service_promo_rules = "played:694090/120" // must have played for 2 hours - Apex Construct
+			inventory_service_promo_appid = 694090
+			inventory_service_id = 1099
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "trains_vr_locomotive"
+			name = "#VR_PhysicsProp_TrainsVRLocomotive"
+			desc = "#VR_PhysicsProp_TrainsVRLocomotive_Desc"
+			content = "models/third_party/props/toys/trains_vr_locomotive.vmdl"
+			preview_image = "file://{images}/contentdb/trains_vr_locomotive.png"
+			inventory_service_promo_rules = "played:519980/120" // must have played for 2 hours - Trains VR
+			inventory_service_promo_appid = 519980
+			inventory_service_id = 1100
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "salien"
+			name = "#VR_PhysicsProp_Salien"
+			desc = "#VR_PhysicsProp_Salien_Desc"
+			content = "models/props/toys/salien.vmdl"
+			preview_image = "file://{images}/contentdb/salien.png"
+			script = "props/salien"
+			usesClientSideAnimation = true
+			locked_by_quest = false
+			// inventory_service_id = 1101
+			default_color = [ 255,255,255 ]
+			default_scale = 0.5
 		},
 		{
 			id = "test_complex_item"

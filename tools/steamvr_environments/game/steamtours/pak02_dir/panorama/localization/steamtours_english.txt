@@ -287,6 +287,20 @@
 		"VR_PhysicsProp_SkyrimIronHelmet"			"Dragonborn Helmet"
 		"VR_PhysicsProp_SkyrimIronHelmet_Desc"		"Dragons, long lost to the passages of the Elder Scrolls, have returned to Tamriel and the future of the Empire hangs in the balance. As Dragonborn, the prophesied hero born with the power of The Voice, you are the only one who can stand amongst them.\n\nUnlocked by playing The Elder Scrolls V: Skyrim VR."
 		
+		"VR_PhysicsProp_NevrosaEscapeCube"			"Inferno Cube"
+		"VR_PhysicsProp_NevrosaEscapeCube_Desc"		"This ancient artifact found its way even into this reality. You can't get rid of the Cube.\n\nUnlocked by playing Nevrosa: Escape."
+		
+		"VR_PhysicsProp_MossQuillStatue"			"Quill"
+		"VR_PhysicsProp_MossQuillStatue_Desc"		"The unlikely hero of Moss.\n\nUnlocked by playing Moss."
+		
+		"VR_PhysicsProp_ApexConstructCrab"			"Spidercrab"
+		"VR_PhysicsProp_ApexConstructCrab_Desc"		"Found in an abandoned Cygnia facility, this scaled-down engineering sample's lights still glimmer with faint radiance energy.\n\nUnlocked by playing Apex Construct."
+		
+		"VR_PhysicsProp_TrainsVRLocomotive"			"Locomotive"
+		"VR_PhysicsProp_TrainsVRLocomotive_Desc"	"Welcome to the fantasy world of railroads, locomotives, and stations where you can become both a constructor and a conductor.\n\nUnlocked by playing Trains VR."
+		
+		"VR_PhysicsProp_Salien"						"A Steam Summer Salien"
+		"VR_PhysicsProp_Salien_Desc"				"As part of the Summer Sale, the Saliens have launched a daring campaign to liberate games captured by the evil Duldrumz."
 	
 		// furniture
 		"VR_Furniture_Book001"						"Book"
@@ -532,7 +546,10 @@
 		"VR_Avatar_SpacePirateHelmet"			"Space Pirate Helmet"
 		"VR_Avatar_SpacePirateHelmet_Desc"		"Filled with neuro-stimulators to enhance vision, sound and the ability to slow down time, this helmet is the perfect kit for any top Space Pirate, even those in training.\n\nUnlocked by playing Space Pirate Trainer."	
 		"VR_Avatar_ViveHeadset"				"HTC Vive Headset"
-		"VR_Avatar_ViveHeadset_Desc"		"The HTC Vive Headset with Deluxe Audio Strap.\n\nAvailable to Vive users."	
+		"VR_Avatar_ViveHeadset_Desc"		"The HTC Vive Headset with Deluxe Audio Strap.\n\nAvailable to Vive users."
+		"VR_Avatar_ViveProHeadset"			"HTC Vive Pro Headset"
+		"VR_Avatar_ViveProHeadset_Desc"		"VR. Elevated in every way. Stay immersed comfortably with higher display resolution, easy-to-use headset & cable design, and improved ergonomics. Unprecedented presence with Hi-Res and 3D spatial audio."
+
 		"VR_Avatar_OnwardHead"				"MARSOC Helmet"
 		"VR_Avatar_OnwardHead_Desc"			"A ballistic helmet from the tactical multiplayer shooter, Onward. \n\nSafety first!\n\nUnlocked by playing Onward."
 		"VR_Avatar_MptamHmd"				"Early Valve Prototype"

@@ -286,14 +286,13 @@
 	soundname
 	svc_Print
 	svc_dummy
-	tQUH
+	tSUH
 	tickcount
 	type_name
 	usermsg_t
 	val_float
 	val_short
 	w#Hc
-	wPUH
 	wearables
 	worldname
           
@@ -527,6 +526,9 @@
  A3333S
  A9^(
  ACTIVE GROUP
+ AUATSH
+ AVAUA
+ AVAUATSH
  A\H	
  B@ml
  B\9{
@@ -1495,7 +1497,6 @@ $woL)
 (%g,%g,%g) (%g,%g,%g)
 (%s) Schedule (%s) Failed at %d!
 (%s::)
-(%wMV
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
@@ -1518,6 +1519,7 @@ $woL)
 (E9G ~"M
 (E9e 
 (E9e ~bH
+(E9e ~zI
 (E9g 
 (E9g ~jH
 (E9l$ 
@@ -1636,6 +1638,7 @@ $woL)
 *E@*x
 *E]1D
 *GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD
+*Hc;H
 *IcWxA;
 *LANGUAGE*
 *N12_GLOBAL__N_122KeyValuesDump_ToStringE
@@ -1703,6 +1706,7 @@ $woL)
 +Q$Hc
 +S$Hc
 +SdHc
++[A\A]A^]
 +e_v@
 +egy@
 +p$Hc
@@ -1720,6 +1724,7 @@ $woL)
 ,$A\A]A^]
 ,$E;l$
 ,$H;]
+,$teI
 ,@042#
 ,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
 ,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
@@ -1836,10 +1841,8 @@ $woL)
 -use_tier3_bundle
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.%NhF
-.%W=`
-.%|1@
-.-">=
+.-Q's
+.-b-=
 ...%s
 ...done building AI node graph, %f seconds
 ...done determining links. %f seconds
@@ -1879,7 +1882,11 @@ $woL)
 ../public/tier2/fieldpath.h
 ..\content
 .0z&u$
-.5-M=
+.5m<=
+.5{u>
+.=,*7
+.=UPo
+.=ep!
 .>()09
 .@(."
 .@,wqH
@@ -1954,17 +1961,16 @@ $woL)
 .EDv$1
 .EHapticPulseType"I
 .ENetworkDisconnectionReason"
-.EP{VH
+.EP{SH
 .ESplitScreenMessageType
 .Ex{!H
-.F4UH
 .F<v'
 .G${VH
 .G({VH
 .G4zeuc
 .G8z)u'H
 .G8zXuV
-.G8zfud
+.G8zhuff
 .G<zKuI
 .GAME_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES
 .GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION
@@ -2038,52 +2044,52 @@ $woL)
 /cn?z
 /content/
 /game/
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/ai_baseactor.h
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/ai_networkmanager.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/basecombatweapon.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/client.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/entityflame.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/player.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/vguiscreen.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/gamecore/gameconfiguration.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/gamecore/igamesystem.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/baseentity.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/gameinterface.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/hltvdirector.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/info_spawngroupstream.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/nav_generate.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/player_lagcompensation.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/prop_door.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/soundscape_system.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/steamtours/steamtours_client.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/test_stressentities.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/testfunctions.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/server/vr_core/hand_use_controller.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/ai_responsesystem.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/baseentity_shared.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/baseflex_shared.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/decalgamesystem.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/entitydebuggamesystem.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/env_time_of_day2.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/gameentitysystem.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/gameevents.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/gamerules_register.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/loopmodegame.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/particle_parse.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/physics_shared.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/physicsgamesystem.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/precache_register.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/skeletoninstance.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/steamtours/vr_wormhole.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_bubbles.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_bubbletrail.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_energysplash.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_fizz.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_glowsprite.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_largefunnel.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/te/te_smoke.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/game/shared/weapon_parse_default.cpp
-/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/public/closedcaptions.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/ai_baseactor.h
+/home/pgriffais/src/valve/source2/staging/destinations/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/ai_networkmanager.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/basecombatweapon.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/client.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/entityflame.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/player.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/_generated_code/server_steamtours/release/linuxsteamrt64/../../../../game/server/vguiscreen.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/gamecore/gameconfiguration.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/gamecore/igamesystem.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/baseentity.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/gameinterface.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/hltvdirector.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/info_spawngroupstream.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/nav_generate.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/player_lagcompensation.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/prop_door.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/soundscape_system.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/steamtours/steamtours_client.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/test_stressentities.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/testfunctions.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/server/vr_core/hand_use_controller.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/ai_responsesystem.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/baseentity_shared.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/baseflex_shared.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/decalgamesystem.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/entitydebuggamesystem.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/env_time_of_day2.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/gameentitysystem.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/gameevents.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/gamerules_register.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/loopmodegame.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/particle_parse.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/physics_shared.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/physicsgamesystem.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/precache_register.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/skeletoninstance.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/steamtours/vr_wormhole.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/te/te_bubbles.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/te/te_bubbletrail.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/te/te_energysplash.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/te/te_fizz.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/te/te_glowsprite.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/te/te_largefunnel.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/te/te_smoke.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/game/shared/weapon_parse_default.cpp
+/home/pgriffais/src/valve/source2/staging/destinations/src/public/closedcaptions.cpp
 /softlinks/
 0 -90 45
 0 0 0
@@ -2122,7 +2128,6 @@ $woL)
 0CClientMsg_WorldUIControllerHasPanelChangedEvent
 0D9s(~
 0E;T$ 
-0H9:t
 0L;@ 
 0N2(	
 0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
@@ -2132,6 +2137,7 @@ $woL)
 0[A\]
 0[A^]
 0[]A\A]A^
+0f97u
 0fKVE8
 0x%016llX
 0x%llx
@@ -4177,6 +4183,7 @@ $woL)
 1GERA
 1H90u
 1O[y?
+1f92H
 1f92u
 1w-Fx
 1w?WA
@@ -6451,6 +6458,8 @@ $woL)
 6CModel
 6CWorld
 6ConVar
+6D#5;@
+6D#5[
 6D;U$
 6F+U F
 6H92t%H
@@ -6466,6 +6475,7 @@ $woL)
 768.0
 78:@O$
 7A+G$H
+7AUATSL
 7At!H
 7CBotCmd
 7CCoLock
@@ -6564,7 +6574,6 @@ $woL)
 8taHc
 8|@ffff
 9$@]m
-90t$H
 90t&H
 90t,H
 90t/H
@@ -6577,7 +6586,6 @@ $woL)
 98N*>
 999999
 999999.0
-9:t,H
 9:w7I
 9>J"@TJ
 9@(D@
@@ -6637,18 +6645,12 @@ $woL)
 9event %s "%s"
 9f4M38
 9fD99
+9fD9:u
 9gCN>
 9jsA{
 9n@3333
-9w UH
-9w(UH
-9w0UH
-9w4UH
-9w8UH
-9w<UH
 9xLt@H
 9z,/@
-9~0UH
 9~4t*9~8t-9~<
 : @\c
 : In stopped anim. 
@@ -6664,7 +6666,6 @@ $woL)
 :=]7e
 :@p%;6
 :A9L$
-:AX[]
 :CNavVolumeSphere
 :T@dY0
 :Ug59
@@ -6692,11 +6693,9 @@ $woL)
 ;C0tyH
 ;Dff&?
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc5qQ|
 ;L9'u
 ;L9/u
 ;L9?u
-;L;7u
 ;O<gK
 ;P$t%H
 ;PX~NE
@@ -6705,9 +6704,8 @@ $woL)
 ;[A\]
 ;\:Hu
 ;c?BU
-;p\t"H
+;p\t"
 ;s(tc
-;s(t{
 ;sv_pausable;sv_cheats
 ;w |	]
 ;w }FH
@@ -6730,7 +6728,7 @@ $woL)
 <$A\]
 <$D;w
 <$HcC0H
-<$I9?u]
+<$I9?uZ
 <$IcT$
 <%s%.3f
 <'t"<<t
@@ -6754,7 +6752,6 @@ $woL)
 <19{ |.
 <1tVH
 <5tPH
-<80tuH
 <9}@0>1
 << NULL >>
 <<Invalid>>
@@ -6831,6 +6828,7 @@ $woL)
 >@A~6r
 >@t<H
 >A9U$
+>L9'u
 >LZSS]
 >LZSSt
 >M.F9
@@ -6845,7 +6843,6 @@ $woL)
 >tA}K
 >wN394
 >zlK9
->~(E1
 ? !o^A?
 ? zR&5t
 ?! _B
@@ -7052,7 +7049,6 @@ $woL)
 ?rl=C8&
 ?t(CUL%
 ?t`9B
-?tpUH
 ?u0<]
 ?uP.2
 ?uYLl>
@@ -7096,6 +7092,7 @@ $woL)
 @%LbZ
 @&^TA
 @(9B(
+@(9G(
 @(A9@(
 @(A\]
 @(A]A^]
@@ -7182,8 +7179,6 @@ $woL)
 @8V{;6
 @8gDio
 @8rXtDD
-@8w8UH
-@8w9UH
 @8wUt
 @8wxt
 @9EGr
@@ -7200,7 +7195,6 @@ $woL)
 @@A^]
 @@H;E
 @@h=|
-@@tHA
 @@w8p
 @A9^`
 @CW"P
@@ -7386,6 +7380,7 @@ A!\$8[A\]
 A#D$,E
 A#F,E
 A&iG@p
+A(9B(
 A(Lcc D;c0
 A)_8I
 A+D$$9
@@ -7407,13 +7402,12 @@ A+T$@I
 A+U$A
 A+U$Hc
 A+U$f
-A+U@Hc
 A+V$A
 A+V$Hc
-A+V@Hc
 A+W$A
 A+W$Hc
 A+W$f
+A+W@Hc
 A+\$$Hc
 A+]$Hc
 A+^$Hc
@@ -7492,7 +7486,6 @@ A;FPs
 A;FpA
 A;G A
 A;GPA
-A;L$Dt
 A;M(}*H
 A;T$P
 A;U(}0H
@@ -8787,7 +8780,6 @@ APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
 APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!
 AR2AltFire
-ATSD9
 ATSD;r
 ATSE1
 ATSHc
@@ -8825,13 +8817,11 @@ AUATM
 AUATMc
 AUATS
 AUATS1
-AUATS@
 AUATSD
 AUATSH
 AUATSHc
 AUATSL
 AUATSf
-AUATSt	H
 AUATStII
 AUATStMI
 AUATSt\
@@ -8841,7 +8831,9 @@ AUATUSH
 AUATfA
 AVATI
 AVATS
+AVATS@
 AVATSH
+AVAU1
 AVAUA
 AVAUATA
 AVAUATD
@@ -8889,7 +8881,7 @@ AWAVAUATSH
 AWAVAUATSHc
 AWAVAUATSIc
 AWAVAUATSL
-AWAVAUATSSD
+AWAVAUATSPD
 AWAVAUATUSH
 AWAVAUATfA
 AWAVAUE
@@ -9228,13 +9220,13 @@ A}?5^z
 A}@3333
 B!@3333
 B#U@;x
-B(9A(
 B-Spline
 B09F0t H
 B0t}D
 B?ffff
 B@[A\]
 BADFUNCTIONPOINTER
+BCFlexExpresserShim
 BEAM_ENTPOINT
 BEAM_ENTS
 BEAM_HOSE
@@ -9397,7 +9389,6 @@ Bounce multiplier for when physically simulated objects collide with other objec
 BounceGiH
 BounceTouch
 BoxAngles
-Bprop_talker
 Brahmi
 Braille
 Branch (%s): %s
@@ -9450,17 +9441,17 @@ Byte size calculation and serialization were inconsistent.  This may indicate a 
 C	t>f
 C ;C0
 C A9D$ 
-C D;8
 C E9w 
 C I;F
 C [A\]
 C fD; tNH
-C!?t?
-C!?t`D
+C!?t7
+C!?tPD
 C"tJL
 C$ tOH
 C$A9D$$t"H
 C'[A\]
+C'tUL
 C(A;D$(u
 C(F8$(t H
 C(HcU
@@ -9472,7 +9463,7 @@ C(t9L
 C,[A\A]]
 C,[A\]
 C-side of entity framework
-C/ [A\]
+C.[A\]
 C09C,
 C0D9x
 C0f%?
@@ -9481,7 +9472,6 @@ C0tRB
 C0u?H
 C333333
 C4[A\]
-C4t%A
 C8D9p0
 C8[A\]
 C8t	L
@@ -10189,7 +10179,6 @@ CFlexCycler
 CFlexCycler::CEntityInstanceEntityClass
 CFlexExpresser
 CFlexExpresser::CEntityInstanceEntityClass
-CFlexExpresserShim
 CFlexExpresserShim::CEntityInstanceEntityClass
 CFlextalkActor
 CFlextalkActor::CEntityInstanceEntityClass
@@ -11614,7 +11603,6 @@ CTriggerToggleSave
 CTriggerToggleSave::CEntityInstanceEntityClass
 CTriggerVolume
 CTriggerVolume::CEntityInstanceEntityClass
-CTt<H
 CTwistConstraint
 CType
 CUSTOM1
@@ -11758,7 +11746,7 @@ CWorldUIInteractController
 CWorldUIInteractController::CEntityInstanceEntityClass
 CX;Ch
 CXA8D$X
-CXHcAL
+CXHcFLH
 CXXABI_1.3
 CXXABI_1.3.5
 CX[A\A]A^]
@@ -11995,7 +11983,7 @@ Commit
 Commit the result of QueryBestResponse back to the given entity to play. Call with params (entity, airesponse)
 Common
 CompiledCaptionHeader_t
-ComponenfD
+ComponenH
 Component %d for achievement %s found
 Component %d for achievement %s found, but already had that component
 Component %s illegally specified INT_MIN as its priority!
@@ -12084,6 +12072,7 @@ Couldn't walk to target
 CountdownTimer
 CpJcT0
 Cp[A\]
+Cpu!H
 Crashed!: speed %.2f, lastSpeed %.2f
 Crawl
 Crawl start
@@ -12166,7 +12155,6 @@ D#,Hc
 D$ 9C 
 D$ 9C t
 D$ 9C t H
-D$ A\A]A^]
 D$ E9l$
 D$ H%
 D$ H9
@@ -12201,15 +12189,17 @@ D$'8C't!H
 D$( u
 D$(9C0t
 D$(9H u
-D$(A\]
 D$(E1
 D$(H9
 D$(H9C(t#H
 D$(L;}
 D$(M9
+D$([A\]
+D$(fA
 D$(t	H
 D$(t>A
 D$,9E
+D$,E1
 D$,[A\]
 D$,f9C4t
 D$,fD
@@ -12220,6 +12210,7 @@ D$09C0t H
 D$09C0t"H
 D$0H9
 D$0Hc
+D$0I!
 D$0I9
 D$0Ic
 D$0L9
@@ -12239,6 +12230,7 @@ D$8H9
 D$8I9
 D$8L9
 D$8Mc
+D$8fA
 D$8fE
 D$<8C<t:H
 D$<9C<
@@ -12251,7 +12243,8 @@ D$@Ic
 D$@L9
 D$@M!
 D$@Mc
-D$DA\
+D$@fA
+D$@tKA
 D$D[A\A]A^]
 D$GE1
 D$H u8
@@ -12259,20 +12252,16 @@ D$H9C
 D$HE9
 D$HH9
 D$HL;}
-D$HfA
-D$H~EA
-D$PA\]
-D$PE1
 D$PH9CP
 D$PIc
 D$P[A\]
 D$Pt?Hc
 D$PtMD
 D$P~*H
+D$P~l
 D$P~qH
+D$P~s
 D$P~vH
-D$P~w
-D$P~{f
 D$P~~H
 D$R8CRt$H
 D$S8CSt$H
@@ -12285,11 +12274,11 @@ D$X8CXt!H
 D$X9CXt H
 D$X9D$H
 D$XA9
-D$XA\A]A^]
 D$XE1
 D$XE;D$h
 D$XH9
 D$XLc
+D$X[A\A]A^]
 D$Xf;
 D$XfB
 D$Xt	[A\A]A^]
@@ -12315,12 +12304,10 @@ D$m8Cmt!H
 D$n8Cnt!H
 D$p9Cpt H
 D$pH9
-D$p[A
 D$pt"H
 D$t9Ctt H
 D$ttGD
 D$x9Cxt H
-D$xA\A
 D$xH9
 D$xI9
 D$xIcT$pH
@@ -12339,19 +12326,21 @@ D+s$Mc
 D+s0E
 D+{$Mc
 D.$A94
+D2\Hc
 D8kSt
 D9 ~NH
 D9!t"
-D9!u"
-D9%i`
-D9%ruU
+D9!u$
+D9%b+U
+D9%ia
 D9't$H
 D9't,H
 D9(t'I
-D9-#z`
+D9-#,`
 D92tY1
-D9=M!V
-D9=iY
+D95i-T
+D95u,T
+D9=YX
 D9D$4B
 D9D$4H
 D9P8u
@@ -12378,23 +12367,29 @@ D; |YH
 D;!t{Hc
 D;#}|E
 D;$%H
-D;%59^
-D;%8}
-D;%[0Y
-D;%tVF
+D;%!	
+D;%((2
+D;%(f
+D;%.'2
+D;%JW^
+D;%^rR
 D;'t{
 D;'t{Hc
 D;(t+
 D;,%H
-D;-=a
+D;-'W
+D;-X1`
+D;-XW
+D;-eC
 D;.~3L
 D;0t-H
 D;0t]H
 D;0|`
+D;5H:T
 D;7tnH
 D;7|-
 D;:tPH
-D;=z#V
+D;BDu
 D;F`u
 D;G@t5H
 D;X,}
@@ -12403,8 +12398,8 @@ D;`L|
 D;c D
 D;c t0H
 D;c |
+D;c }"H
 D;c }'H
-D;c }*H
 D;c(D
 D;c(u
 D;c(}"H
@@ -12436,7 +12431,7 @@ D;k |
 D;k(D
 D;k(tSH
 D;k(|
-D;k,}^L
+D;k,}VL
 D;k0|
 D;k@|
 D;kH|
@@ -12878,7 +12873,8 @@ E D!`
 E I;D$ t
 E I;G t
 E#4$H
-E#t$<tJE#E<E
+E#t$<tLE#E<E
+E$IcM
 E(A9E
 E(t:A
 E+D$$Mc
@@ -12902,7 +12898,7 @@ E0tQA
 E0x	D;0
 E8umA
 E9&t<A
-E9&tKI
+E9&tJI
 E9&~SI
 E9't1A
 E9'tRI
@@ -12912,7 +12908,7 @@ E94$~AI
 E9D$8
 E9D$h
 E9e@~
-E9e@~bH
+E9e@~jH
 E9gPI
 E9g`~*I
 E9l$$
@@ -12931,6 +12927,7 @@ E;,$tRA
 E;0t=L
 E;B`D
 E;D$ 
+E;D$D
 E;D$p
 E;ExD
 E;L$Pt
@@ -12981,7 +12978,6 @@ EClientUIEvent_Invalid
 ED$HI
 ED$XI
 ED1yC
-EDA]A^]
 EDIT.ToggleAttribute
 EDIT_BEGIN_AREA.Creating
 EDIT_BEGIN_AREA.NotCreating
@@ -13006,6 +13002,7 @@ EDIT_SPLIT.MarkedArea
 EDIT_SPLIT.NoMarkedArea
 EDIT_TOGGLE_PLACE_MODE
 EDIT_WARP_TO_MARK
+ED[A\A]A^]
 EDemoCommands
 EG	cE
 EHANDLE2
@@ -13013,7 +13010,7 @@ EHL;}
 EHapticPulseType
 EH~/f.
 EIA8G
-EIA\A]A^]
+EI[A\A]A^]
 EMPTY - ok for slot zero only!
 EM_DoSpark
 EM_FixAngle
@@ -13163,7 +13160,7 @@ EXPLOSION_GRENADE
 EXPLOSION_MOLOTOV
 EXPORTSYSTEM_INTERFACE_VERSION_001
 E`:r?X
-E`A]A^]
+E`[A\A]A^]
 E`d!@
 EarlyInit_Tier0
 Ease In
@@ -13383,7 +13380,7 @@ EventSimpleLoopFrameUpdate_t
 EventSimulate_t
 EventSplitScreenStateChanged_t
 EventSystem001
-ExA]A^]
+Ex[A\A]A^]
 Exclusive: !?INVALID?!
 Exclusive: NO
 Exclusive: Not Evaluated
@@ -13453,11 +13450,12 @@ ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 ExtractClientServerSpecificEntities
-E|A\A]A^]
+E|[A\A]A^]
 F	$(f
 F	NvF
 F 9G tq
 F ^{I@
+F t+H
 F tXI
 F#5wF
 F$~bF
@@ -13474,7 +13472,7 @@ F0t$H
 F0x	D; 
 F6:AR
 F8$(t H
-F8A^A_]
+F8[A\A]A^A_]
 F;NCF
 F<I @
 F<Y	@
@@ -13584,7 +13582,6 @@ FLINCHED
 FMod values for pose controller %s
 FOV2D
 FP8GP
-FP@UH
 FPA;^h
 FPI;8
 FRE;C
@@ -13904,29 +13901,27 @@ G Lc+D
 G Lcg
 G u)H
 G!2F!
-G$ UH
-G$@UH
 G$@t&H
 G(90tU
 G(:Bx}tH
 G(A9G
 G(ATL
 G(D;k
-G(UHc
-G(]fD
 G(u%L
 G(}"Lc
 G/0L"
+G0;F0t
 G0A;WH
 G0L9(u
 G0UH9
+G0]H9
 G8:F8t
 G8HcD
 G<@t	]
 G<@t L
 G<@t#f
 G<@t$
-G<@t+]H
+G<@t+H
 G<@t1H
 G<@t:
 G<@tLL
@@ -13934,7 +13929,6 @@ G<@tUI
 G<@th
 G<@tp
 G@T	J33
-G@UHc
 G@]H9
 G@t=L
 GAMEBIN
@@ -13942,8 +13936,9 @@ GAMECONSOLE
 GAMEROOT
 GAME_HEADER
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+GCC: (Ubuntu 4.8.4-1ubuntu15~12.04+steamrt1+srt2) 4.8.4
 GCC: (crosstool-NG 1.17.0) 4.6.3
-GD9FDt|
+GD9FD
 GDHcFHH
 GENDER_BIKER
 GENDER_BRIDE
@@ -14013,9 +14008,7 @@ GRAB_LOCATION_WORLD_POSITION
 GT:FTt
 GT:FTu
 GW@t0H
-GXUHc
 GXfD;(tpH
-G`UHc
 Gambler
 Game Event Fired: %s
 Game System %s is defined twice!
@@ -14275,7 +14268,6 @@ Gets the item definition data for the specified item def ID.
 Gets the value of the given cvar, as a float.
 Gets this entity's owner
 GhA;Gx
-GhUHc
 GibShooter Body is <= 1!
 Give a supply of ammo for current weapon..
 Give item to player.
@@ -14297,7 +14289,6 @@ Got a NaN origin on %s
 Got a NaN velocity on %s
 Gothic
 GotoTeleH
-GpUHc
 GrabLocation_t
 Graph not ready for FindBackAwayNode!
 GraphicsAPI
@@ -14333,7 +14324,6 @@ GxIcWpD
 GxIcWpH
 Gz(<.
 H	p(]
-H	w(UH
 H!w(H
 H$9WH
 H+C(H
@@ -14348,7 +14338,7 @@ H.C_@
 H.O]@
 H0 [A\]
 H9*tgH
-H90t$H
+H90t$
 H90t%A
 H90t/H
 H92tiH
@@ -14357,10 +14347,8 @@ H92tqHcR
 H92tyHcR
 H92tyHcR 
 H9:tqHcR 
-H9:tx
 H9:tyHcR
-H9:tzLcb A
-H9=Qd
+H9=a9
 H9C t
 H9C(t
 H9D$(
@@ -14380,10 +14368,7 @@ H9r t#
 H9r t%
 H9r@t3H9
 H9r@tFH
-H9w UH
-H9w0UH
 H9w0t
-H9w@UH
 H9w@]
 H9w@u
 H:Ly?
@@ -14391,70 +14376,66 @@ H;0tgH
 H;0u)
 H;1t!
 H;2t!H
-H;2u$
+H;2u'
 H;3t2H
 H;7t)H
 H;:t(f
-H;=	,
-H;=	.
-H;=	;
-H;=	N
-H;= 5P
-H;=!YQ
-H;=%Zg
-H;=) 
-H;=)5
-H;=)B
-H;=)aj
-H;=+jl
-H;=-`g
-H;=.K
-H;=0"J
-H;=3Ye
-H;=3bI
-H;=3hB
-H;=5Ak
-H;=9-
-H;=9/
-H;=9<
-H;=9hP
-H;=9vj
-H;=;4p
-H;=;@P
-H;=>I
-H;=@"I
-H;=C2p
-H;=Cql
-H;=EMg
-H;=I'
-H;=IGg
-H;=II
-H;=Kpl
-H;=M<g
-H;=NG
-H;=P(E
-H;=PXM
-H;=Q\j
-H;=Qqj
-H;=S8Q
-H;=UPm
-H;=Y!
-H;=Y6
-H;=YC
-H;=Ykg
-H;=[hP
-H;=]lj
-H;=^E
-H;=aJj
-H;=eBg
-H;=i.
-H;=i0
-H;=i=
-H;=piM
-H;=s6p
-H;=y(
-H;=yJ
-H;={ml
+H;=	kd
+H;=	|C
+H;= 	M
+H;= VM
+H;=!um
+H;=#wq
+H;=$4J
+H;=%DQ
+H;=)	
+H;=)%
+H;=)'j
+H;=)-H
+H;=+|C
+H;=.<
+H;=1ng
+H;=3"l
+H;=5`h
+H;=8sM
+H;=9up
+H;=:+Q
+H;=;!l
+H;==ig
+H;=>:
+H;=>tO
+H;=@`G
+H;=A"j
+H;=AJj
+H;=J4J
+H;=K-H
+H;=KNQ
+H;=N8
+H;=P]B
+H;=PzM
+H;=Q	Q
+H;=U@c
+H;=UVg
+H;=Y&
+H;=Y3H
+H;=^6
+H;=^sM
+H;=`!P
+H;=`@C
+H;=`EB
+H;=aoj
+H;=dtO
+H;=i 
+H;=mCg
+H;=m`d
+H;=n4
+H;=pPM
+H;=qWn
+H;=u$g
+H;=y`C
+H;=z7Q
+H;={3H
+H;=}tg
 H;>t[H
 H;B0u
 H;C r
@@ -14547,7 +14528,6 @@ HasTag
 HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
-Hc51\|
 Hc@ H
 Hc@$H
 Hc@0M
@@ -14596,10 +14576,8 @@ HcCp;C
 HcF H
 HcG89
 HcG8H
-HcGHUH
 HcGX9
 HcGXH
-HcG`UH
 HcGdH
 HcGdL
 HcH Hc2
@@ -14672,10 +14650,10 @@ HcP 9
 HcP,1
 HcPPA
 HcPdH
+HcQ41
 HcQP1
 HcQX1
 HcQdH
-HcR41
 HcS ;S$u
 HcS H
 HcS I
@@ -14694,7 +14672,7 @@ HcSlH
 HcT$4Mc
 HcW A9
 HcW H
-HcW@U1
+HcW@H
 HcWPH
 HcWXA;_ 
 HcX`;Xp
@@ -14703,6 +14681,7 @@ Hcp4H
 HcpPH
 Hcs H
 Hcs(H
+Hcs@t	;sP
 HcsPI
 HcsXH
 Hcs`1
@@ -14790,6 +14769,7 @@ HurtTouch
 Hurts the player.
 I	D$ 
 I("hq
+I(9O(
 I(;A4
 I(}!$
 I90t I
@@ -15754,6 +15734,7 @@ ItemGeneH
 ItemSoda.Bounce
 ItemToucH
 Iwwg?
+J(9O(
 J7@eL
 J@ffff
 J@lxz
@@ -15818,6 +15799,7 @@ Kills a player applying force. Usage: killvector <player> <x value> <y value> <z
 Kills the given NPC(s)
 Kills the player with explosive damage
 Kills the player with generic damage
+Klt7Lc{pD;
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
@@ -15836,8 +15818,7 @@ L$4A
 L$4E1
 L$@D)
 L$@L9
-L$@fA
-L$HfA
+L$Nt-I
 L$PE1
 L$XA)
 L$XE1
@@ -15870,7 +15851,6 @@ L;0t!A
 L;:tL1
 L;:tT1
 L;:t_
-L;?u"
 L;@@u
 L;d$@L
 L;g t
@@ -15942,23 +15922,25 @@ Lc!D;a
 Lc#D9b
 Lc#D;c
 Lc#E9
-Lc%,9^
-Lc%6(O
-Lc%L}
-Lc%R0Y
-Lc%c(O
+Lc%<f
+Lc%F	
+Lc%UrR
 Lc&D;f
 Lc'D;g
 Lc'E)
 Lc(D;h
 Lc+D;k
 Lc+Ic
+Lc-(W
+Lc-O1`
+Lc-SW
 Lc.D;n
 Lc/D;o
 Lc/E)
 Lc/E1
 Lc0D;p
 Lc3D;s
+Lc5?:T
 Lc6E9
 Lc7E)
 Lc7E9
@@ -16352,6 +16334,7 @@ McVPE;V`
 Mce@E;ePD
 Mcg(L
 Mcg0I
+McgDE
 Mcl$ E;l$0t.I
 Mcl$XE;l$hD
 Mcl$`H
@@ -16402,7 +16385,7 @@ MessageOptions
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
-MetaTxtAA
+MetaTxtA
 Metal.Large
 Metal.Medium
 Metal.SawbladeStick
@@ -16523,10 +16506,8 @@ MutableRepeatedMessage
 Muzzle
 Myanmar
 N 9O u
-N A9L
 N"@q:
 N(9O(u
-N(A]H
 N(D;c
 N,9O,u
 N10CBreakable26CEntityInstanceEntityClassE
@@ -17192,7 +17173,6 @@ NPC_human_grunt
 NPCs over this distance from the player won't attempt to speak.
 NPCs will freeze after completing their current task.  To complete the next task, use 'ai_step' again.  To resume processing normally use 'ai_resume'
 NPCs will not react to danger sounds (eg. run away from grenades about to explode)
-NQ@UH
 NT9OT
 NTROL
 NULL Ent in GiveNamedItem!
@@ -17402,7 +17382,6 @@ O tmH
 O trH
 O(A9O
 O(H;1t;H
-O(UHc
 O.@Jt;
 O0I9M t
 O?0 ,	f
@@ -17533,7 +17512,6 @@ P16DrawSelectionSet
 P20CNavSearchHexLattice
 P29CNavBreadthFirstSearchLattice
 P33BreadthFirstSearchVolumeCollector
-P7t!H
 P7t#H
 P7t&H
 P8H=vmdlu
@@ -17612,11 +17590,9 @@ PSt8functionIF21NavSearchAreaResult_tR8CNavAreaP19NavSearchAreaInfo_tEE
 PT[A\A]A^A_]
 PVS is shared between teams
 PVSManagerGameSystem
-PX~*H
 P[A\A]A^]
 P[A\]
 P_d<)
-P`[fA
 PaintSplatBlue
 PaintSplatGreen
 PaintSplatPink
@@ -18038,10 +18014,10 @@ R A\]
 R t;f
 R#-@f
 R(A9]
-R(t.H9
+R(t,H9
 R8H=vmdlt
 R8H=vmdlt*H
-R8Y[]
+R8X[]
 R?o23@F
 R@A9]
 RADIATION
@@ -18360,6 +18336,7 @@ Runic
 R{A3333
 R~~C@
 S 9s$
+S D;:
 S HcU
 S%@ D2
 S*fA;
@@ -19403,7 +19380,6 @@ Shows client (red) and server (green) footsteps (1=client-only, 2=server-only, 3
 Shows memory of NPC.  Draws an X on top of each memory.
 Shows this layer
 Shows trigger brushes
-Sht7Lc{pD;
 Shut down wrote to '%s'
 Sidekick
 SignedDestinationAddress_t
@@ -19468,7 +19444,7 @@ SoundService_001
 SoundSystem001
 Soundlist: %d / %d  (%d)
 SoundscapeSystem
-SounfD
+Sounf
 Source1LegacyGameEventList_t
 Source1LegacyGameEvent_t
 Source1LegacyListenEvents_t
@@ -19773,18 +19749,18 @@ T$(L!
 T$(L9t
 T$0H9
 T$0Hc
-T$0L9
 T$0Lc
 T$8H)
 T$8Hc
 T$@E;T$P
 T$@Ic
 T$HHi
-T$HfA
-T$NA\A]A^]
+T$N[A\A]A^]
+T$PfA
 T$XHc
 T$XIc
 T$XfA
+T$X~+H
 T$`Hc
 T$hA)
 T$pH9
@@ -20473,7 +20449,7 @@ Total %d entities (%d empty)
 Total Size: %.2f Mb (%d bytes)
 Total job count: %d
 Total:TimeMS	%f
-ToucfD
+Toucf
 Touch_t
 Trace using: %s
 TraceRayServerToolEvent
@@ -20541,11 +20517,21 @@ Turns on turbo physics
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
 TypeManager
+U	wPH
 U+s0@
 U7r8Ne
+U9w H
 U9w(H
+U9~0H
+U@8w8H
+U@8w9H
 UFtg<F
 UG"@]
+UH	w(H
+UH9w H
+UH9w0H
+UH9w@H
+UHcG`H
 UHcKxIc
 UIcGH1
 UIcG`1
@@ -21070,9 +21056,7 @@ W ;2t%H
 W H9r
 W(Aq=
 W(H92t'H
-W0;V0t
 W3|Uxa
-W5$G"
 W8;2|
 W?,|C
 W@H9V@u
@@ -21273,11 +21257,11 @@ Wrong alignment %d
 Wzm6V"
 W{@3333
 X zR&="@r
-X(9Y(
+X%p=;
 X(;X8
-X->$L
 X2:jH
-X5,M@
+X5&9A
+X5AMA
 X9t6@
 X=2v?
 X@TA;U<
@@ -21289,7 +21273,6 @@ XD$(L
 XD$P1
 XD$T1
 XFcH?F
-XGDUH
 XIcD$
 XIcL$ Ic
 XIcL$8Ic
@@ -21312,10 +21295,10 @@ XfA9D]
 Xg8Hc
 XxHc@t
 Y ANb
-Y%fc'
-Y%fe'
+Y%%N#
+Y(9Z(
+Y(9_(@
 Y(E9^(A
-Y-!c_
 Y/&4@4
 Y6	@W'g(
 Y?3333E
@@ -21326,14 +21309,12 @@ YD$ H
 YD$ fA
 YD$$L
 YGDE1
-YGDUH
 YHcKPIc
 YIcL$
 YIcL$ 1
 YIcL$0Ic
 YK fA
 YPTfA
-Y[A\A]]
 Yaw speed:%3.1f,Health: %3d
 YawArrow
 YcuP.
@@ -21348,8 +21329,6 @@ You must now restart to use Grunt-o-matic.
 Y}@)\
 Z	M#@
 Z tolerance for adding new nav areas.
-Z(9X(
-Z(9Y(A
 Z16TestRayToNavMeshRK6VectorPK8CNavAreaS1_9NavHull_tP15CNavTraceResultP17CNavTestRayParamsPSt8functionIFbRS3_SB_EEEUlSB_SB_E_
 ZB8~@
 ZIcD$
@@ -21398,7 +21377,6 @@ Z}uU
 [A\A]]A
 [A\A^A_]
 [A\A^]
-[A\[A\]
 [A\]A
 [DIFFERS]
 [Disk class %d/%d] Name = '%s'; Project = '%s'; Binary = '%s'
@@ -21431,21 +21409,17 @@ Z}uU
 \$ H;
 \$ I9
 \$ [A\]
-\$(E1
 \$(Mc
 \$@u	A
-\$HfA
-\$Nt-I
 \$hIcEX
 \$h[A\]
 \%03o
-\%LM@
-\-5aA
-\-B<"
-\-lug
-\5?bA
+\%Vun
+\-.Mg
+\-24"
+\-R;j
+\5T3`
 \;C@|
-\=zj!
 \C not allowed in lookbehind assertion
 \IcF(1
 \N is not supported in a class
@@ -21468,8 +21442,7 @@ Z}uU
 ] ~.H
 ]"^AR
 ]%h@sh
-](tZH
-]5Q&l
+](tRH
 ]7@Kvl
 ]8[A\A]A^]
 ]A\A]A^A_
@@ -21484,22 +21457,19 @@ Z}uU
 ]hIcE`L
 ]u9n5;> )"
 ]xTfA
-^ t+H
 ^)8~@
 ^-wf"
 ^8D9+
-^=[BE
-^=sk_
+^=K+E
+^=sK_
 ^?O<g
 ^Cp\&
 ^Fa.@
 ^Sy^H
 ^Sy^t
 ^Sy^u
-^[A\A]A^A_]
-^_[A\]
 ^`V(R
-_ ~`I
+_ ~hI
 _"HcG
 _(D9X(
 _8t;A
@@ -21912,7 +21882,7 @@ _xIcGpL
 `pt L
 `u@'1
 a numbered reference must not be zero
-a t/L
+a t/H
 a trigger_changelevel doesn't have a map
 a world layer in a dota map
 a2U0*	
@@ -21947,7 +21917,6 @@ achievement_event
 achievement_level
 achievement_name
 achment_
-achment_H
 acos@@GLIBC_2.2.5
 acosf@@GLIBC_2.2.5
 active "0"
@@ -22185,7 +22154,7 @@ alphasort64@@GLIBC_2.2.5
 alternateModel
 alternateParent
 alternateticksfix
-aluefD
+aluef
 alwaysTransmitToClient
 ambient_generic
 ammo_id
@@ -22224,7 +22193,6 @@ angular_motion_y
 angular_motion_z
 angulardampingratio
 angularfrequency
-anim_att
 anim_attH
 anim_disable
 anim_name
@@ -22340,6 +22308,7 @@ avg_loss_out
 avg_packets_in
 avg_packets_out
 avginterval
+b@[A\A^]
 bA3333+
 bAllow
 bAllowUse
@@ -22372,7 +22341,6 @@ bTaskRanAutomovement
 bTaskUpdatedYaw
 bTeleportAllowed
 bTouf
-bToufD
 bTutorial
 bUnforgettable
 bUpdate
@@ -22526,7 +22494,6 @@ c D;c0D
 c [A\A]A^]
 c tul)
 c+@ffff6
-c.[A\]
 c0t+H
 c4[A\]
 c8D;cHD
@@ -22536,7 +22503,6 @@ c<[A\]
 c?Mg'
 c?kdWZF
 c@3333#)
-c@t@A
 cD@oG8-x
 cIcL$
 cIcN`Ic
@@ -22559,7 +22525,7 @@ can't use value tracking callbacks %s::%s on an embedded field that is being fla
 cancel scripted sequence
 cancelselect
 cantdie
-carbfD
+carbf
 carbon
 carry_distance_offset
 carry_type
@@ -22825,7 +22791,6 @@ cycler_actor
 cycler_flex
 cycler_flex used on model "%s" specified unknown sequence "%s"
 cycler_flex used on model %s without enough flexes.
-d!$Hc
 d$(D9
 d$XE1
 d$dE1
@@ -22890,6 +22855,7 @@ decalfrequency
 decalmaterialindex
 decalname
 dedicated
+defaf
 defafD
 default
 defaultSequenceName
@@ -23030,7 +22996,7 @@ dynamic_joint_debug
 dynamic_prop
 dynpitchvol_base_t
 dynpitchvol_t
-d~*[fA
+d~*fA
 e,}@n
 e,~ H
 e0F$J
@@ -23068,10 +23034,10 @@ effectdata
 effectindex
 effectname
 effects
-effects/H
+effects/f
 effects/flashlight001
 effects/fleck_wood2.vmat
-efrefD
+efref
 egg_fracture_sides_001
 ehandle
 elems
@@ -23399,6 +23365,7 @@ f?3333{
 f@ffff
 fA9D$
 fA9D$4t
+fA9D$n
 fA9F v
 fA9F4t
 fA9Gn
@@ -23413,6 +23380,7 @@ fA;Gnv
 fA;\$6
 fA;\$n
 fA;_n
+fD9%${
 fD9/t0H
 fD91u|
 fD9cV
@@ -23896,7 +23864,6 @@ g?g|_\
 g?~h0WPb
 g@3333s
 gF:}@F
-gHD;gX
 gIcD$
 gIcL$
 gS<1H
@@ -23985,7 +23952,7 @@ gamemode
 gameproperties
 gamerules_masks
 gamesessionid
-gamestatA
+gamestat
 gamestats.log
 gamestats_
 gamestats_file_output_directory
@@ -24087,7 +24054,7 @@ graball
 grabbable
 grabs the object in front of the player. Options: -loose -multiple -toggle
 grainstrength
-granfD
+granf
 granite
 graph
 graph_param
@@ -24276,6 +24243,7 @@ hourhandentity
 how many degrees to look down from the hmd eye angles
 how many inches to start the effect from the HMD
 hscript_lightbinding
+htVL9
 ht_bordeH
 https://beta.steamcommunity.com
 https://localhost
@@ -24564,7 +24532,6 @@ j$t;H
 j+dj@
 j,amL
 j7t@3333
-j@[A\A]]
 j@ffff
 j@ffff>7
 jIcD$
@@ -24681,9 +24648,7 @@ kv3format_manager.cpp
 l$ I	
 l$ M9u
 l$,A	
-l$0[M
 l$8Ic
-l$HfA
 l$PE;l$`D
 l$XD;kXt5H
 l$XfA
@@ -29979,7 +29944,6 @@ networkbasetypes.proto"%
 networkbasetypes.proto"3
 networkbasetypes.proto"G
 networkbasetypes.proto"I
-networkbasetypes.proto"z
 networkid
 networkintrospection_decode.cpp
 networkintrospection_encode.cpp
@@ -30135,18 +30099,20 @@ o$ATI
 o$ATL
 o(ATE1
 o*Ral
+o0ATI
 o0ATL
 o8ATI
 o8ATL
 o8D;oH
 o?ffff
-o@u-L
+o@u-H
 oB)?@
 oB@fA
 oBPfA
 oFQC%Fo~dF
 oG8-x
 oHATI
+oHD;oX
 oHE;oXD
 oPATI
 o`ATI
@@ -30160,7 +30126,6 @@ okifnomodel
 old_radiusdamage
 oldname
 oldteam
-olt-A
 onThink
 onbreak
 oneof_decl
@@ -30243,16 +30208,18 @@ p 41@u
 p H;w 
 p l6@
 p+Affff
-p0x/Hc
+p0x-Hc
 p1A3333+
 p6@ffffff
+p9K,|
 p;4,F
-p<trH
+p<ttH
 p=lb@
 p?save autosave
 p?}WF
 p@33333
-pA9~$t,I
+pA9N$t,I
+pA9O,
 pAffff
 pAttachmentName
 pAttachmentname
@@ -30677,6 +30644,7 @@ prop_physics_override
 prop_physics_respawnable
 prop_ragdoll_attached
 prop_static
+prop_talker
 prop_tools
 prop_vehicle
 prop_vehicle_driveable
@@ -31030,7 +30998,7 @@ sPA;qPu
 sPHcWh
 sPhases
 sT[A\A]]
-sThifD
+sThif
 sUnlockedSentence
 sXHcWp
 sX[A\A]A^]
@@ -31841,6 +31809,7 @@ t#Hc{
 t#Hc{$H
 t#Hc{(H
 t#Hc{,H
+t#I9}
 t#Lck
 t$	fA
 t$'H)
@@ -31855,7 +31824,7 @@ t$@A\]
 t$@H9p t
 t$@tsHc
 t$D9j
-t$D;-
+t$D;-C
 t$H9h
 t$HH9p 
 t$HcK
@@ -31881,18 +31850,18 @@ t$`D+
 t$`H;
 t$hHcE
 t$lHc
+t%HcM
 t%HcO
 t%Mc4$E;t$
 t%[A\A]A^]
 t%[A\]
-t&D:5
+t&D:5%
+t&D;5
 t&HcC
 t&Hcq
 t&IcD$
 t&[A\]
-t';=o
-t'D;-
-t'D;5>
+t'D;5N
 t'HcC
 t'HcK
 t'Hc{
@@ -31918,14 +31887,14 @@ t(H;p
 t(HcO
 t([A\A]A^]
 t([A\]
-t);=2
+t);=R
 t)D:u
-t)HcM
+t)D;-
+t)D;-0a
 t)Lc+D;k
-t)fD9
 t* Hc
 t*<*u
-t*D;%
+t*D;%Y$
 t*HcE
 t*HcM
 t*HcO
@@ -31946,14 +31915,12 @@ t+Mcl$pE;
 t+[A\]
 t+fA9
 t,H;p
-t,I9}
 t,L;e
 t-Hc9I
 t-Mc4$E;t$
 t-rex
 t.D9p
-t.D:%?
-t.D;5M
+t.D:%O
 t.H9w(t8H9w0tBH9w8tLH9w@t
 t.Lc#I
 t.fA9
@@ -31961,11 +31928,11 @@ t/9w t29w0t=1
 t/H9q
 t/Lc+
 t/Mc4$E;t$
+t/fD9
 t1[A\]
 t2D;gXI
 t2Lc+M
 t2[A\]
-t2\Hc
 t3[A\]
 t4D;;
 t4HcS
@@ -32013,15 +31980,14 @@ tALcc
 tALc}
 tA[A\]
 tAffffhF
-tB<#t>
 tBLc}
-tCLc%
+tCLc%$
 tC[A\]
+tD<#t@
 tDD9I
 tEE;G
 tEfD;R
 tFRA@F
-tF[A\A]A^]
 tF\sQF^e7F0
 tFadeOutH
 tF~tf
@@ -32039,14 +32005,15 @@ tR[A\A]A^]
 tSHcO
 tS[A\]
 tT;G0tg
+tThiHc
 tThif
 tUE9e
+tVHcS@A
 tVIcE
 tVLck
 tWA9]
 tWIct$
 tXH;E
-tXHcS@A
 tXxa1
 tYD9e
 tYLPG@
@@ -32054,7 +32021,6 @@ tZ<*u
 tZHcS
 t[IcE
 t[r9<
-t\;G0to
 t^;0~+L
 t^[A\]
 t`[A\]
@@ -32095,13 +32061,13 @@ taunt
 tauntfrequency
 tbD;&~3H
 tb[A\]
+tcA:]
 tcHcQ
+tcIcW8
 td@Q4
-tdA:]
 tdHcO
 tdownThiH
 te.proto
-teIcW8
 teLch
 te[A\]
 teamToBlock
@@ -32274,6 +32240,7 @@ trophy_platinum
 trophy_silver
 true 
 tsH;E
+tsHcu
 ts[A\]
 ttIcG
 tv28&G@sK
@@ -32283,7 +32250,7 @@ tv_delay
 tv_log_director_events
 tv_msg
 tv_show_allchat
-twHcu
+twHcM
 twL9+u
 two named subpatterns have the same name
 txA;\$ I
@@ -32304,13 +32271,11 @@ tz[A\A]A^]
 t{E;l$
 t{HcM
 t{HcO
-t{Icv
 t|#C,
-t|HcM
+t}HcJ
 t}HcM
-t}HcO
+t}Icv
 t~D9{4u
-t~HcJ
 u	[A\A]A^]
 u	[A\]
 u A\A]A^]
@@ -32319,18 +32284,18 @@ u"[A\A]A^]
 u#H9w t#H9w(t
 u(0@F;
 u(ATD
-u([A\A]A^]
 u(t-E9
 u)Mc.E;n
 u)Mc~ E;~0tiI
+u)[A\A]A^]
 u-[A\]
 u.HW?
 u0A\A]A^]
 u64( %lld = 0x%llX )
+u6[A\]
 u8[A\]
 u9% &
 u:IcOTL
-u:[A\]
 u;HcC
 u<Lc#D;c
 u<~%I
@@ -32343,6 +32308,7 @@ uIcL$
 uJ[A\]
 uMLc#D;c
 uPMc4$fA
+uQM;&
 uRMcl$
 uS[A\A]A^]
 uT1C@
@@ -32350,7 +32316,6 @@ uUD;-
 uUHcC
 uYLl>
 uZJcT
-u[M;&
 u[[A\]
 u^[&`
 ub[A\A]A^]
@@ -32447,6 +32412,8 @@ user_data_size_bits
 userid
 usermessages.proto
 usermsgs
+usesClientSideAnimation
+uses_client_side_animation
 utlbuffer.cpp
 utlstring.cpp
 utlstringtoken
@@ -32460,7 +32427,7 @@ v!<\t
 v"</u0
 v(H9P
 v*</u8
-v0x.Hc
+v0x,Hc
 v8array
 v8callback
 v8object
@@ -32549,7 +32516,7 @@ vel: %.2f, time: %.2f, max: %.2f, animspeed: %.2f
 velocity
 velocity_relative
 velocitytype
-vemefD
+vemef
 venice_courtyard
 version
 vertical spacing - from center to center
@@ -32857,6 +32824,7 @@ weaponname
 weaponscripts
 wearableid
 webapi
+wh9rX
 wheel_fl
 wheel_fr
 wheel_rl
@@ -32892,6 +32860,7 @@ x	D;
 x	D;(
 x	D;8
 x	D;?
+x";=?
 x$Mc}
 x(;wPI
 x(A\A]A^]
@@ -32905,8 +32874,8 @@ x2Hcw
 x7Hcw
 x8Lcc D;c0
 x8uwH
+x:;=|~
 x:Hcw
-x;;=L
 xED;c }?E
 xGHcO
 xH;w8I
@@ -32954,7 +32923,6 @@ you_hear_them
 z	?0e`9
 z"u H
 z#8@s
-z#u!A
 z#u!H
 z$?N(D
 z$?TR'
@@ -32973,11 +32941,11 @@ z("t`
 z("te
 z("tef
 z("tf
-z(u&H
 z(u&I
 z(u&f
 z)u'D
 z)u'H
+z*u(H
 z*u(f
 z+u)1
 z+u)A
@@ -32991,7 +32959,6 @@ z/u-H
 z0u.H
 z1u/H
 z4u2A
-z4u2H
 z5u3H
 z6$r@ffff.N
 z6u4H
@@ -33002,7 +32969,6 @@ z8"t|
 z8u6A
 z9u7H
 z:u8H
-z:u8I
 z;u9H
 z;u9I
 z<u:A
@@ -33010,9 +32976,9 @@ z<u:I
 z=u;E
 z><!--
 z>u<H
-z>u<[A\]
 z?u=E1
 z?u=H
+z@u>[A\]
 zAu?H
 zCuAH
 zD?fffff*
@@ -33021,9 +32987,9 @@ zF!8YFr
 zFGjIF}
 zFuDH
 zGuEH
-zH"UI
 zH"tDf
 zH"tT
+zHuFH
 zIuGH
 zJuHH
 zKuIA
@@ -33040,8 +33006,8 @@ zSuQH
 zTuRA
 zUuSH
 zVuTH
+zWuUH
 zWuUM
-zX"UI
 zXuVH
 zZuXH
 z]u[D:u
@@ -33057,10 +33023,8 @@ zkuiH
 zkuiIc
 zkuiL
 zm6Vb
-zmukA
 znulA
 zpunH
-zpunI
 zuusH
 zuusI
 zvutH
@@ -33073,7 +33037,7 @@ zzuxH
 zzuxI
 z{uy1
 z{uyA
-z|uzI
+z~u|I
 { uaH
 {(D;{8taH
 {([A\]
@@ -33086,6 +33050,7 @@ z|uzI
 {@I9x@w
 {@[A\]
 {@ffff
+{DHcs@
 {H+S$Hc
 {PD;{`
 {XH	E
@@ -33102,11 +33067,13 @@ z|uzI
 {}()':
 {}[]()=&, 	
 {}[]=, 	
+|!$Hc
 |$ A\]
 |$ fA
 |$$E1
 |$'H)
 |$0A\]
+|$0fA
 |$8A\]
 |$8E1
 |$<E1
@@ -33120,17 +33087,14 @@ z|uzI
 |$`Hc
 |$hL9
 |$pE1
-|$xfD
 |)<hv
 |)<hv]
 |*xHc
-|+ f.
 |,D9c
-|-E9}
 |0D9c
+|5E9}
 |9Ic>I
 |:$Hc
-|>t4E
 |?5&[@R
 |?5><
 |?5>{
@@ -33144,13 +33108,9 @@ z|uzI
 |?5~i
 |BAttribute counts between meshes is inconsistent
 |IIcO
-|KIcM
-|KtA9
 |RIcN
-|SIcM
 |a2U0
 |cE9'u
-|ktYL9
 |sA;t$0
 |yA;t$8
 |yyF@6R
@@ -33159,13 +33119,12 @@ z|uzI
 } f;r
 }!f;r
 }$A)\
-}$IcM
 }*;C<w%
 }*fA9Bnr#H
-},fA9
 },fA9\$
 },fA;\$nw$H
 },fA;]nw%H
+},fD9
 }-f;rnw'f
 }2'@+P
 }2UHc
@@ -33173,7 +33132,7 @@ z|uzI
 }3fA;\$Vw+H
 }3fA;\$~w+H
 }3fA;]nw,L
-}5D;-a
+}5D;-1
 }8f9Cnr2H
 }8f;rnw2f
 }:f;pnw4f
@@ -33211,7 +33170,7 @@ z|uzI
 }Yf;w
 }aEzi!E@
 }d)H"j
-}dD9}
+}eD9}
 }efA;
 }hf;w
 }j;w$
@@ -33222,6 +33181,7 @@ z|uzI
 ~	;Cl
 ~	ATI
 ~	ATL
+~ A9|
 ~%D9#t2
 ~%L;b
 ~&L;f
@@ -33252,8 +33212,9 @@ z|uzI
 ~FNhvF
 ~LAUATI
 ~NA~6
-~QLcm
+~RLcm
 ~SHcC
+~XA\A]A^]
 ~[F-"
 ~[HcW
 ~_t!H
@@ -33266,4 +33227,4 @@ z|uzI
 ~s;C`}VH
 ~uLce
 ~vHcKPHc
-~|HcE
+~{HcE

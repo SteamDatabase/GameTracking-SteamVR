@@ -5659,12 +5659,14 @@ AvatarCustomizationItem #SliderThumb
 }
 
 .item_def_vive_headset,
+.item_def_vive_pro_headset,
 .ItemPhysicsProp.item_def_vive_logo_statue
 {
 	visibility: collapse;
 }
 
 .HMD_Manufacturer_HTC .AvatarsTab .item_def_vive_headset,
+.HMD_Manufacturer_HTC .AvatarsTab .item_def_vive_pro_headset,
 .HMD_Manufacturer_HTC .PropsOn .item_def_vive_logo_statue
 {
 	visibility: visible;
