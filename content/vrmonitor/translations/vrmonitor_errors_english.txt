@@ -729,9 +729,9 @@
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" " "
 
 "Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Sync On Beam Channel Conflict"
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "Saw two bases on channel %1 at the same time.  For best results, use unique channels for all bases that can be seen at the same time."
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" " "
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" " "
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "Saw two bases on channel %1 at the same time. For best results, use unique channels for all bases that can be seen at the same time."
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Configure"
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/bluetooth/configurechannels"
 
 "Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Device info"
 "Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Hover over the icons below to see details and status about each device. If you need to take an action like updating firmware, you will see an ( i ) appear on the icon."

@@ -7,6 +7,7 @@
  ( def. "%s" )
  (Abstract)
  - %s: %s / %s
+ H9z(t
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^]
@@ -81,12 +82,12 @@ $[A\]
 (%f,%f,%f,%f)
 (%g,%g,%g,%g)
 (*%s*), 
-(H9z(t*H;y(t$H
 (Ic\$0A;\$@
 (None)
 ([A\A]A^A_]
 ([A\A]A^]
 ([A\A]]
+([A\A^]
 ([]A\A]A^A_
 (detailed layout)
 (dump)
@@ -153,7 +154,7 @@ $[A\]
 .symtab
 .text
 00000000-0000-0000-0000-000000000000
-0123456789ABCDEF
+0<	w5H
 0Ic\$
 0[A\A]A^A_]
 0[A\A]A^]
@@ -222,7 +223,6 @@ $[A\]
 18CCountedStringPool
 18CDynDataLoadWriter
 18CSchemaEnumBindingI12ThreeState_tE
-18CSchemaEnumBindingI17SchemaFieldType_tE
 18CSchemaEnumBindingI18SchemaClassFlags_tE
 18CSchemaEnumBindingI21ResourceStructFlags_tE
 18CSchemaManipulatorI10CTransformE
@@ -342,6 +342,7 @@ $[A\]
 42HcU
 4fff>fff>fff>fff>
 4vf;T
+5t~BC
 6ConVar
 6H92t%H
 7IConVar
@@ -355,7 +356,7 @@ $[A\]
 8[]A\A]A^A_
 9G ti+G$I
 9S t{+S$H
-:[tLL
+:[tlL
 ;*3$"
 ;W }3
 ;mempool.cpp
@@ -379,7 +380,7 @@ $[A\]
 @[A\]
 @tBE+
 @tjI9
-@xt>H
+@xt^H
 A+D$$9
 A+D$$H
 A+E$H
@@ -418,7 +419,6 @@ AUATE1
 AUATH
 AUATI
 AUATL
-AUATLc
 AUATM
 AUATS
 AUATSD
@@ -428,6 +428,7 @@ AUATSL
 AUATStMI
 AUATStmH
 AUATUSH
+AVATI
 AVAUA
 AVAUATA
 AVAUATI
@@ -435,6 +436,7 @@ AVAUATS
 AVAUATSH
 AVAUATSL
 AVAUATUSH
+AVAUE1
 AVAUI
 AVAUL
 AVAULc
@@ -450,6 +452,7 @@ AWAVAUATS
 AWAVAUATSH
 AWAVAUATSL
 AWAVAUATUSH
+AWAVAUE1
 AWAVAUI
 AWAVAULc
 AWAVD
@@ -465,6 +468,7 @@ A\A]A^A_]
 A\A]A^A_]A
 A\A]A^]
 A\A]]
+A]A^]
 AbstractImplicit
 AddDependentStructs
 AddRef
@@ -494,7 +498,6 @@ BakedLODBuilderMgr001
 BenchmarkService001
 Binary
 BinaryProperties_GetValue
-C [A\]
 C(fA9D$(fA
 C,[A\A]]
 C,[A\]
@@ -575,13 +578,11 @@ ConnectInterfaces
 CopyDynMemoryDataShallow
 CreateInterface
 D$ H9
-D$ L9
 D$(;E
 D$(E1
 D$(H9
 D$0H9
 D$0I9
-D$0L9
 D$8I9
 D$8L9
 D$<tb
@@ -627,7 +628,7 @@ E0A9D$0t
 E9e ~2I
 E9gPI
 E9t$ ~1I
-E9t$ ~kI
+E9|$ ~bI
 E;f |
 E;l$ 
 E;t$ 
@@ -769,6 +770,7 @@ G<@t1H
 G<@t:
 G<@tLL
 G<@tUI
+G<@ta
 G<@th
 G<@tp
 GAMECONSOLE
@@ -796,13 +798,14 @@ H9*tgH
 H90t'H
 H9w(UH
 H9w(t=H
-H9z(t"H
+H9z(t
 H;8t8H
 H;Cxt
 H;S@w
-H;x(t0H
+H;y(t
 HI9y(t
 HIGHDPI
+HSCRIPT
 H[A\A]A^A_]
 H[A\A]]
 H[]A\A]A^A_
@@ -810,6 +813,7 @@ HammerMapLoader001
 HandleMemory
 Has Trivial Constructor: %s
 Has Trivial Destructor: %s
+HcC H9
 HcC$H
 HcCP1
 HcK@Ic
@@ -827,7 +831,6 @@ I;V@w
 ID: %016llX
 IQuickTime001
 ISchemaSystem::FindSchemaTypeByOldEnum: Unimplemented type %d
-Ic4$H)
 IcL$@Ic
 IcWPI
 Ic\$ A;\$0t
@@ -871,6 +874,7 @@ KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 L$ E1
 L$@Ic
+L$HfA
 L$pHc
 LINUX
 LOG_GENERAL
@@ -928,8 +932,8 @@ MathLib_Init
 MbP?+
 Mc,$D
 McNxE;
-Mcl$hA
 Mct$(E;t$8
+Mct$hA
 Mc|$`E;|$ptlI
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -968,6 +972,8 @@ No disk struct in manifest for expected class %s
 No objects to save
 No schema matching on disk struct %s
 NoSchema?
+O8ATI
+OD$LA
 OHcK Ic
 OTIcwPH
 Opaque Indirection
@@ -1046,52 +1052,6 @@ SCHEMA_CLASS_IS_NOSCHEMA_CLASS
 SCHEMA_CLASS_TEMP_HACK_HAS_CONSTRUCTOR_LIKE_METHODS
 SCHEMA_CLASS_TEMP_HACK_HAS_DESTRUCTOR_LIKE_METHODS
 SCHEMA_CLASS_TEMP_HACK_HAS_NOSCHEMA_MEMBERS
-SCHEMA_FIELD_TYPE_BOOL
-SCHEMA_FIELD_TYPE_CHAR
-SCHEMA_FIELD_TYPE_COLOR
-SCHEMA_FIELD_TYPE_COUNT
-SCHEMA_FIELD_TYPE_DEGREEEULER
-SCHEMA_FIELD_TYPE_DOUBLE
-SCHEMA_FIELD_TYPE_ENUM
-SCHEMA_FIELD_TYPE_EXT_REFERENCE
-SCHEMA_FIELD_TYPE_FLOAT
-SCHEMA_FIELD_TYPE_FLOAT32
-SCHEMA_FIELD_TYPE_FLOAT64
-SCHEMA_FIELD_TYPE_FLTX4
-SCHEMA_FIELD_TYPE_FOURVECTORS
-SCHEMA_FIELD_TYPE_INT
-SCHEMA_FIELD_TYPE_INT16
-SCHEMA_FIELD_TYPE_INT32
-SCHEMA_FIELD_TYPE_INT64
-SCHEMA_FIELD_TYPE_INT8
-SCHEMA_FIELD_TYPE_MATRIX3X4
-SCHEMA_FIELD_TYPE_MATRIX3X4A
-SCHEMA_FIELD_TYPE_OPAQUE_TYPE
-SCHEMA_FIELD_TYPE_QANGLE
-SCHEMA_FIELD_TYPE_QUATERNION
-SCHEMA_FIELD_TYPE_RADIANEULER
-SCHEMA_FIELD_TYPE_RESOURCE_STRING
-SCHEMA_FIELD_TYPE_STRUCT
-SCHEMA_FIELD_TYPE_TIME
-SCHEMA_FIELD_TYPE_TRANSFORM
-SCHEMA_FIELD_TYPE_UCHAR
-SCHEMA_FIELD_TYPE_UINT
-SCHEMA_FIELD_TYPE_UINT16
-SCHEMA_FIELD_TYPE_UINT32
-SCHEMA_FIELD_TYPE_UINT64
-SCHEMA_FIELD_TYPE_UINT8
-SCHEMA_FIELD_TYPE_UNIQUEID
-SCHEMA_FIELD_TYPE_UNKNOWN
-SCHEMA_FIELD_TYPE_UNUSED
-SCHEMA_FIELD_TYPE_UTLBINARYBLOCK
-SCHEMA_FIELD_TYPE_UTLSTRING
-SCHEMA_FIELD_TYPE_UTLSYMBOL
-SCHEMA_FIELD_TYPE_UUID
-SCHEMA_FIELD_TYPE_VECTOR2D
-SCHEMA_FIELD_TYPE_VECTOR3D
-SCHEMA_FIELD_TYPE_VECTOR4D
-SCHEMA_FIELD_TYPE_VMATRIX
-SCHEMA_FIELD_TYPE_VOID
 SDt5H
 SHcK Ic
 SHt]A
@@ -1116,7 +1076,6 @@ SchemaClassInfoData_t
 SchemaEnumInfoData_t
 SchemaEnumeratorInfoData_t
 SchemaFieldMetadataOverrideData_t
-SchemaFieldType_t
 SchemaMetaModifyAdd_t
 SchemaMetadataEntryData_t
 SchemaMetadataSetData_t
@@ -1159,20 +1118,22 @@ StorageToDataPtr
 String %d: ref:%d %s
 Struct
 Structure name collision: '%s' and '%s' (%d)
-T$0H9
 T$0H;
 T$8H)
 T$HfA
 T$PIc
-T$pHc
 TRS_FALSE
 TRS_NONE
 TRS_TRUE
+TestFormatA
+TestFormatB
+TestFormatC
+TestFormatD
+TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
 ThreadGetCurrentId
-ThreadInterlockedExchange64
 ThreadSleep
 ThreeState_t
 ToolFramework2_002
@@ -1268,23 +1229,28 @@ V_atoui64
 V_cosf
 V_expf
 V_fmodf
+V_frexpf
 V_localeconv
 V_logf
 V_powf
 V_qsort
 V_qsort_s
+V_sincosf
 V_sinf
 V_snprintf
-V_snwprintf
+V_snwprintf_cch
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strtod
 V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
 V_tanf
+V_tier0_strstr
 V_uuid_t
 V_vsnprintf
 V_vsnprintfRet
@@ -1362,10 +1328,9 @@ ZIcL$
 []A\A]
 []A\A]A^
 []A\A]A^A_
-\$HE1
+\$HfA
 \t!Hc
 \u0000
-]+l`J
 ]Ht,A
 ]IcD$`1
 ^ t+H
@@ -1385,6 +1350,7 @@ _V_StringAfterPrefix
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnistr_fast
 _Z14V_stristr_fastPKcS0_
@@ -1397,6 +1363,7 @@ _Z6ConMsgPKcz
 _Z6DevMsgPKcz
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -1416,6 +1383,10 @@ _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __bss_start
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
@@ -1448,6 +1419,8 @@ aIcL$pIc
 abort@@GLIBC_2.2.5
 animationsystem
 archive
+binary
+binary_bc
 bitfield
 bitfield:%d
 borrow
@@ -1468,7 +1441,7 @@ double
 dynamic
 dynelement.cpp
 f;0tr
-f;C.w
+f;S.w
 fA9D$
 fA;0M
 fA;0trA
@@ -1493,7 +1466,7 @@ g_Tier1_CRC64Table
 g_pMemAlloc
 generic
 gfffA
-hI9y(t:H
+hI9y(L
 h[A\A]A^A_]
 h[A\A]]
 imemanager
@@ -1507,6 +1480,7 @@ kIcD$
 kxt M
 l$ M9u
 l$HfA
+l$PE;l$`
 libc.so.6
 libm.so.6
 libpthread.so.0
@@ -1564,7 +1538,7 @@ m_stringToken
 malloc
 malloc@@GLIBC_2.2.5
 materialsystem2
-mathlib_base.cpp
+mathlib.cpp
 memcmp
 memcmp@@GLIBC_2.2.5
 memcpy
@@ -1599,7 +1573,7 @@ ptr( 0x%p )
 ptr: %s
 ptr: %s @ %p
 q={%g, %g, %g; w=%g} p={%g, %g, %g}
-r6LcA
+r7LcQ
 renderingpipelines
 replicated
 resourcecompileutils.cpp
@@ -1629,8 +1603,6 @@ schematraversal.cpp
 schematype.cpp
 server_can_execute
 sht:A
-sincosf
-sincosf@@GLIBC_2.2.5
 singleplayer
 soundsystem
 sqrtf
@@ -1645,10 +1617,6 @@ strcpy@@GLIBC_2.2.5
 string
 strlen
 strlen@@GLIBC_2.2.5
-strncpy@@GLIBC_2.2.5
-strnlen
-strnlen@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
 symbol
 t	[A\]
@@ -1659,23 +1627,23 @@ t$@A\]
 t$H9h
 t$HcK
 t$HcM
-t$HcP
 t$HfA
 t(HcO
 t)[A\]
 t*HcM
 t+Hc4
 t,[A\A]A^]
-t.D;(H
+t.I;|$(t'H
+t0D;(H
+t1D;(H
 t2L;8u
-t3D;(H
 t3[A\]
 t4D;(H
 t4[A\]
-t6D;(H
 t7[A\A]A^]
-t;[A\]
+t?[A\]
 t@@:>u
+tL[A\A]A^]
 tMIcE
 tPIcE
 tR[A\A]A^]
@@ -1685,8 +1653,6 @@ tc;:t
 tdA:]
 td[A\]
 textsave_dyndata.cpp
-tolower
-tolower@@GLIBC_2.2.5
 trHcO
 ttIcG
 tyHcO
@@ -1709,8 +1675,8 @@ v!<\t
 vrgrp
 vrman
 vrnmd
-w(AUATI
-w(AUI
+wcscmp
+wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
 worldrenderer
@@ -1746,12 +1712,12 @@ z:KEZ
 |$ D;
 |$ E1
 |$0A\]
-|$PE;|$`
+|$@Hc
 }>;w$
 }Hf;w
 ~	ATI
+~&H97t@
 ~)A;]
-~)H97tC
 ~AVAUL
 ~PA\A]A^]
 ~SHcC

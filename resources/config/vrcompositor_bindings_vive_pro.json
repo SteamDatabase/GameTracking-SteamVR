@@ -11,11 +11,11 @@
                   "long" : {
                      "output" : "/actions/system/in/showpowermenu"
                   },
-                  "single" : {
+                  "click" : {
                      "output" : "/actions/system/in/toggledashboard"
                   }
                },
-               "mode" : "complex_button",
+               "mode" : "button",
                "path" : "/user/head/input/system"
             },
             {
@@ -82,11 +82,11 @@
 			"input" : "/user/head/input/system/click",
 			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
 			"cancel_on_action_sets" : [ "/actions/chord" ],
-			"parameters" : 
+			"parameters" :
 			{
 				"long_press_delay" : 1.5
 			},
-			"output" : 							 
+			"output" :
 			{
 				"long" : "long",
 				"double" : "double",

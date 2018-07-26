@@ -62,6 +62,7 @@
 		1 : "Test map (open space, no skybox)"
 		10 : "Full visibility solve"
 	]
+	steamaudio_export(boolean) : "Export Steam Audio Geometry" : "No"
 ]
 
 
@@ -145,47 +146,4 @@
 	"A prop that when picked up, can attach to the player's hand and have additional functionality which is defined in the vscript."
 [
 	HasCollisionInHand(boolean) : "Has Collision When Held" : "No"
-]
-
-//-------------------------------------------------------------------------
-//
-// Light overrides
-//
-//-------------------------------------------------------------------------
-
-@OverrideClass = light_environment
-[
-	directlight(choices) : "Direct Lighting" : "2" : "How direct lighting should be represented" =
-	[
-		"0" : "None"
-		"1" : "Baked"
-		"2" : "Per-Pixel"
-	]
-]
-@OverrideClass = light_omni
-[
-	directlight(choices) : "Direct Lighting" : "2" : "How direct lighting should be represented" =
-	[
-		"0" : "None"
-		"1" : "Baked"
-		"2" : "Per-Pixel"
-	]
-]
-@OverrideClass = light_spot
-[
-	directlight(choices) : "Direct Lighting" : "2" : "How direct lighting should be represented" =
-	[
-		"0" : "None"
-		"1" : "Baked"
-		"2" : "Per-Pixel"
-	]
-]
-@OverrideClass = light_ortho
-[
-	directlight(choices) : "Direct Lighting" : "2" : "How direct lighting should be represented" =
-	[
-		"0" : "None"
-		"1" : "Baked"
-		"2" : "Per-Pixel"
-	]
 ]

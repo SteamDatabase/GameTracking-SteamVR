@@ -7,59 +7,74 @@
   "input_bindingui_mode" : "controller_handed",
   "input_bindingui_left" :
   {
-    "transform" : "scale(-1,1)",
-    "image": "{htc}/icons/vive_wand.svg"
+    "image": "{oculus}/icons/oculus_touch_left.svg"
   },
   "input_bindingui_right" :
   {
-    "image": "{htc}/icons/vive_wand.svg"
+    "image": "{oculus}/icons/oculus_touch_right.svg"
   },
   "input_source" :
   {
     "/input/joystick" : { 
         "type" : "joystick",
-        "binding_image_point" : [ 10, 59 ],
+        "binding_image_point" : [ 54, 31 ],
         "order" : 2
     },
     "/input/trigger" : {
         "type" : "trigger",
-        "binding_image_point" : [ 35, 64 ],
+        "binding_image_point" : [ 22, 85 ],
         "order" : 1
     },
     "/input/grip" : {
         "type" : "trigger",
-        "binding_image_point" : [ 24, 87 ],
+        "binding_image_point" : [ 100, 86 ],
         "order" : 3
     },
     "/input/a" : {
         "type" : "button",
 	"side" : "right",
-        "binding_image_point" : [ 12, 35 ],
+        "binding_image_point" : [ 70, 49 ],
         "order" : 4
     },
     "/input/b" : {
         "type" : "button",
 	"side" : "right",
-        "binding_image_point" : [ 12, 35 ],
+        "binding_image_point" : [ 54, 55 ],
         "order" : 5
     },
     "/input/x" : {
         "type" : "button",
 	"side" : "left",
-        "binding_image_point" : [ 12, 35 ],
+        "binding_image_point" : [ 70, 49 ],
         "order" : 4
     },
     "/input/y" : {
         "type" : "button",
 	"side" : "left",
-        "binding_image_point" : [ 12, 35 ],
+        "binding_image_point" : [ 54, 55 ],
         "order" : 5
     },
     "/input/system" : {
         "type" : "button",
 	"side" : "left",
-        "binding_image_point" : [ 9, 81 ],
+        "binding_image_point" : [ 72, 39 ],
         "order" : 0
+    },
+    "/input/skeleton/right" : {
+        "type" : "skeleton",
+	"side" : "right",
+	"skeleton" : "/skeleton/hand/right",
+        "binding_image_point" : [ 11, 150 ]
+    },
+    "/input/skeleton/left" : {
+        "type" : "skeleton",
+	"side" : "left",
+	"skeleton" : "/skeleton/hand/left",
+        "binding_image_point" : [ 11, 150 ]
+    },
+    "/output/haptic" : {
+	"type" : "vibration",
+        "binding_image_point" : [ 72, 39 ]
     },
     "/pose/raw" : {
         "type" : "pose",
@@ -77,6 +92,13 @@
         "type" : "pose",
         "binding_image_point" : [ 14, 16 ]
     }
+  },
+  "default_bindings": [
+  {
+    "app_key": "openvr.component.vrcompositor",
+    "binding_url": "vrcompositor_bindings_touch.json"
   }
+]
+  
 
 }

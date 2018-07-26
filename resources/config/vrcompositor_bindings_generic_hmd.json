@@ -1,8 +1,7 @@
 {
-	"controller_type" : "generic_hmd",
-    "action_binds": [
-    ],
-
-	"filters" :[
-	]
+	  "controller_type" :	"generic_hmd",
+    "bindings" : {
+   }
 }
+
+

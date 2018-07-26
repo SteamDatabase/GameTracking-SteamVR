@@ -20,7 +20,6 @@
  HcClI)
  IcD$`L
  IcD$lI)
- IcT$
  Lc[PH)
  Lc[hH)
  Lc[lH
@@ -42,7 +41,16 @@
 "%s" = "%s"
 "2BRbr
 "=?`p
+"channels" attribute not found in the header.
+"compression" attribute not found in the header.
+"dataWindow" attribute not found in the header or invalid.
+"displayWindow" attribute not found in the header.
+"lineOrder" attribute not found in the header.
+"pixelAspectRatio" attribute not found in the header.
+"screenWindowCenter" attribute not found in the header.
+"screenWindowWidth" attribute not found in the header.
 "t&L;}
+# of channels is zero.
 #3CScs
 #RenderSystem_CannotCreateDevice
 #[A\]
@@ -74,22 +82,21 @@ $woL)
 %ls [wstring, len = %d]
 %s.360%s
 %s: string format requested %d chars
-%s\%s
 %s_%d_%d_%d_%d
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &6FVfv
 '	?@XC
 '7GWgw
-(%,2/
+(%,R/
 (%s): ADD %s = %s
 (%s): Setting %s to %s
 (*%s*), 
-(-.//
+(-.O/
 (8HXhx
 (D>C9[
 ([A\A]A^A_]
-([A\A]A^]
 ([A\A]]
+([A\A^]
 ([]A\A]A^A_
 ([]A\A]A^A_H
 (b f.
@@ -147,7 +154,6 @@ $woL)
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 .>N^n~
-.M; y
 .M;UU
 ._?hN
 .comment
@@ -215,13 +221,13 @@ $woL)
 15CMemberFunctor1IP26CParallelProcessorAbstractI18CParallelProcessorIi27CMemberFuncJobItemProcessorIi11CCallQueueTI8CTSQueueIP8CFunctorLb0EEES8_ELi1EEEMSB_FviEi12CRefCounted1IS5_20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor1IP26CParallelProcessorAbstractI22CParallelLoopProcessorI13FloatBitMap_t31CLoopMemberFuncJobItemProcessorIS2_S2_S2_EEEMS6_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor1IP26CParallelProcessorAbstractI22CParallelLoopProcessorI25FloatBitmapResampleInfo_t25CLoopFuncJobItemProcessorIS2_EEEMS6_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor4IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequest11CWeakHandleI31InfoForResourceTypeCTextureBaseE22TextureSpecification_tiES3_S6_S7_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CMemberFunctor4IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequestP12CTextureBase22TextureSpecification_tiES3_S5_S6_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor5IP13CSOAContainerMS0_Fvi9IntAABB_tiPKfbEiS2_iS4_b12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor6IP13CSOAContainerMS0_FviiiiiU8__vectorfEiiiiiS2_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor6IP19CTextureManagerBaseMS0_Fv11CWeakHandleI31InfoForResourceTypeCTextureBaseEPvi22TextureSpecification_ti30TextureOnDiskCompressionType_tES4_S5_iS6_iS7_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor7IP13CSOAContainerMS0_FvS1_iiiiiiES1_iiiiii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor7IP13CSOAContainerMS0_FviiiiPKS0_iiEiiiiS3_ii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor7IP13CSOAContainerMS0_FviiiiiiiEiiiiiii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CMemberFunctor7IP19CTextureManagerBaseMS0_Fv12ResourceId_tP12CTextureBasePvi22TextureSpecification_ti30TextureOnDiskCompressionType_tES2_S4_S5_iS6_iS7_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor8IP13CSOAContainerMS0_FviiiiPKS0_iiiEiiiiS3_iii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor9IP13CSOAContainerMS0_Fviiiiiii6VectorbEiiiiiiiS2_b12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CRenderPassDesc
@@ -339,6 +345,7 @@ $woL)
 3+C$H
 31CDefaultIntrospectedTypeManagerILy2019914870E15TextureHeader_tE
 32CResourceReferenceFixupTraversal
+333333
 37CSchemaRegistration_rendersystemempty
 3E8 u
 3[A\A]A^]
@@ -370,14 +377,16 @@ $woL)
 9T$0~	H
 9\?8c{
 :>	As?K
-:[tLL
+:[tlL
 ;*3$"
 ;*t*1
+;@:8t"
 ;mempool.cpp
 <	McO
 <	w.1
 <	woD
 < u0L
+<$/tyL
 </uLH
 <19{ |.
 <1tj<0
@@ -414,7 +423,9 @@ $woL)
 ?5?s!
 ?Out of Memory
 ?Too many bytes for PNG signature
+?VGUI
 ?VScript
+?u0E1
 ?u='@
 ?|7m=U
 @[A\A]A^A_]
@@ -468,7 +479,6 @@ AUATD
 AUATE1
 AUATI
 AUATL
-AUATLc
 AUATM
 AUATS
 AUATS1
@@ -483,6 +493,7 @@ AUATUS
 AUATUSD
 AUATUSH
 AUATUSv
+AVATI
 AVATSH
 AVAUA
 AVAUATA
@@ -493,6 +504,7 @@ AVAUATM
 AVAUATS
 AVAUATSD
 AVAUATSH
+AVAUATSL
 AVAUATUH
 AVAUATUSD
 AVAUATUSH
@@ -510,6 +522,7 @@ AWAVAUATA
 AWAVAUATE1
 AWAVAUATI
 AWAVAUATL
+AWAVAUATM
 AWAVAUATS
 AWAVAUATSD
 AWAVAUATSH
@@ -519,7 +532,6 @@ AWAVAUATSf
 AWAVAUATUH
 AWAVAUATUSH
 AWAVAUE
-AWAVAUE1
 AWAVAUI
 AWAVAUL
 AWAVAUM
@@ -538,7 +550,6 @@ A\A]A^A_]A
 A\A]A^]
 A\A]]
 A]A^]
-AbandonOutstandingStreamingRequest
 AddRef
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 Align
@@ -565,6 +576,7 @@ At marker 0x%02x, recovery action %d
 Attempt to set buffer size beyond max ignored
 B IcU0
 B channel not found
+B channel not found in %s
 BA?8gV?
 BGR565
 BGR888_BLUESCREEN
@@ -655,17 +667,19 @@ C`v+H
 C`v8f.
 C`v9f.
 Call to NULL read function
+Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request
 Can't detect memory size on this platform!
 Can't discard critical data on CRC error
 Can't set both read_data_fn and write_data_fn in the same structure
 Cannot allocate virtual address space in CResourceStreamVM::ReserveVirtualMemory, error %u
-Cannot find R, G, or B channels.
 Cannot quantize more than %d color components
 Cannot quantize to fewer than %d colors
 Cannot quantize to more than %d colors
+Cannot reconstruct lineOffset table.
 Cannot transcode due to multiple use of quantization table %d
 Caution: quantization tables are too coarse for baseline JPEG
 ChangeSize
+Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore
 Clibpng warning: %s
 Closed temporary file %s
 CommandLine
@@ -694,12 +708,10 @@ CreateInterface
 CubeMapFace_t
 D$ H9
 D$ H9D$
-D$ L9
 D$$-x
 D$(-Hq
 D$(H9D$
 D$0H9
-D$0L9
 D$8D+|$8+D$ 
 D$8E1
 D$8I9
@@ -708,6 +720,7 @@ D$@E1
 D$@H9
 D$@I9
 D$@L9
+D$@Lc
 D$D[A\]
 D$HfA
 D$\M9
@@ -741,7 +754,6 @@ D;l$(
 D;l$0
 D;{8D
 DATAH
-DATAL
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
 DXT1DXT3DXT5
@@ -762,7 +774,7 @@ DevMsg
 Didn't expect more than one scan
 Direct3D 11
 Direct3D 9
-Discarding abandoned streaming texture load
+Discarding abandoned streaming texture load for %s
 Display GPU memory usage.
 DotaCardGameClient_001
 Duplicate PLTE chunk
@@ -808,8 +820,7 @@ E;n\|
 E;t$ M
 E;t$ t!I
 E;}<L
-ERROR! LoadFromEXR( %s ) failed!
-ERROR! LoadFromEXR( %s ) failed! Error message: %s
+EPHcM0H
 ERROR: CAtomicManipulator::Allocate() Cannot allocate CResourceArray
 ERROR: CAtomicManipulator::AllocateAndCopy() Cannot allocate CResourceArray
 ERROR: CAtomicManipulator::Copy() Cannot copy CResourceArray(FIXME: maybe you can?)
@@ -821,6 +832,10 @@ ERROR: Specified path %s could not be made content-relative
 EXA;]`
 EXECUTABLE_PATH
 EXPORTSYSTEM_INTERFACE_VERSION_001
+EXRHeader is not initialized.
+EXRReadFile() - B channel not found!
+EXRReadFile() - G channel not found!
+EXRReadFile() - R channel not found!
 EarlyInit_Tier0
 EconItemToolModel_001
 EhHcS8H
@@ -855,9 +870,9 @@ Failed to create temporary file %s
 Failed to fix resource reference '%s' (%s)- ID = %016llX, Expected in extref block.'
 Failed to map from %s to content-path
 Failed to map from %s to game-path
+Failed to parse channel info.
 Failed to save video settings config to '%s'
 Failed trying to Commit %u bytes, used %u bytes, reserved %u bytes
-FailedLock
 File has not been opened!
 FileKeys
 FillAttr
@@ -884,13 +899,17 @@ FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), s
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 FormatV
+Found %d streaming textures in array, but in-flight count is %d
 Fractional sampling not implemented yet
 Freed EMS handle %u
 Freed XMS handle %u
 From Class Binding
 From Enum Binding
+G	tEH
 G A9G
+G I+G
 G channel not found
+G channel not found in %s
 G u)H
 G$+GX;G,@
 G8I;G@
@@ -904,6 +923,7 @@ G<@t1H
 G<@t:
 G<@tLL
 G<@tUI
+G<@ta
 G<@th
 G<@tp
 GAMECONSOLE
@@ -911,6 +931,8 @@ GAMEROOT
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (crosstool-NG 1.17.0) 4.6.3
 GLIBCXX_3.4
+GLIBCXX_3.4.11
+GLIBCXX_3.4.9
 GLIBC_2.11
 GLIBC_2.14
 GLIBC_2.2.5
@@ -937,12 +959,7 @@ H+S H
 H0~sUA
 H9*tgH
 H97trH
-H9GHt
 H9W8t	]
-H;=	v.
-H;=bx.
-H;=wz.
-H;=zx.
 H;B(uLL
 H;C r
 H;CHs
@@ -951,6 +968,7 @@ H;v0I
 H;v0t
 H;v0t!
 H;v8t
+H=vpcf
 HH97tbH
 HIGHDPI
 HRenderTexture
@@ -972,10 +990,13 @@ HcChI)
 HcE H
 HcE Hc
 HcE0H
+HcE8H
+HcE8Lc}
 HcKPHc
 HcKPIc
 HcKhIc
 HcL$pHcT$
+HcM Lc}
 HcR,H
 HcS$H
 HcSPH
@@ -983,15 +1004,17 @@ HcSxH
 HcSxL
 HcSxM
 HcT$x
+HcU E1
 HcWPH
 Hcs8I
-Header mismatch.
+Hc~@H
 HelpSystem_001
 HookUpConfigValue
 HookUpTextureBits
 HostStateMgr001
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
+I;G(t1H
 I;V@w
 IB: %d buffers, %.2f MB
 INPUT_LAYOUT_VARIATION_DEFAULT
@@ -1002,7 +1025,6 @@ INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
 INPUT_LAYOUT_VARIATION_STREAM1_MAT3X4
 INTZRAWZDF16DF24ATI2ATI1
 IQuickTime001
-Ic4$H)
 Ic7McO
 Ic@xE
 IcD$PH)
@@ -1091,12 +1113,13 @@ Invalid cHRM blue point
 Invalid cHRM green point
 Invalid cHRM red point
 Invalid cHRM white point
-Invalid channels format.
 Invalid color quantization mode change
 Invalid color type in IHDR
 Invalid color type/bit depth combination in IHDR
 Invalid component ID %d in SOS
 Invalid crop request
+Invalid data height value.
+Invalid data window value.
 Invalid filter method in IHDR
 Invalid format for pCAL parameter
 Invalid gAMA after IDAT
@@ -1106,6 +1129,8 @@ Invalid image height in IHDR
 Invalid image width in IHDR
 Invalid memory pool code %d
 Invalid oFFs after IDAT
+Invalid offset size.
+Invalid offset value.
 Invalid pCAL after IDAT
 Invalid pCAL data
 Invalid pCAL equation type
@@ -1159,7 +1184,8 @@ KeyValuesSystem
 L$ Lc
 L$49L$ 
 L$HfA
-L8.I;N
+L+g H
+L9(t$
 L9,$Mc
 L9BHt`L;BPu
 L9cHv
@@ -1185,6 +1211,7 @@ Lc.D;n
 Lc/E)
 Lc6E9
 Lc7E)
+LcV<Hc
 Lc[PD
 Lc[`E)
 Lc`4I
@@ -1193,8 +1220,12 @@ Lcc4J
 Lcg@D;gPt/H
 LcgXD;ght/H
 Lck(N
+Lcp4M
+Lcv4E
 Lc{pD;
 Linear
+LoadEXRImageFromMemory( %s ) failed! Error message: %s
+LoadEXRImageFromMemory() failed! Error message: %s
 LoadFromBuffer: expected '{', found '%s'
 Loaded video settings config from '%s'
 Localize_001
@@ -1203,7 +1234,6 @@ LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
 M0;9~
-M;n0w7A
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
 MDiskDataForResourceType
@@ -1227,6 +1257,7 @@ MathLib_Init
 MaxDeviceID
 Maximum supported image dimension is %u pixels
 MbP?+
+Mc'E;g
 Mc.E;n
 Mc/E;o
 McD$<B
@@ -1270,6 +1301,7 @@ ModelDocUtils001
 N [A\A]A^A_]
 N14MDmElementType45CValueSearchTester_ClassIntrospectionHandle_tE
 N24MDiskDataForResourceType45CValueSearchTester_ClassIntrospectionHandle_tE
+N9,8u
 NTROL
 NULL row buffer for row %ld, pass %d
 NV_DST16
@@ -1316,6 +1348,7 @@ O tlH
 O0~_G
 O?_Y@?R
 ORENDER_MULTISAMPLE_INVALID
+OUTSTANDING_HOOKUP_REQUEST 
 O`D+w@D)
 Obtained EMS handle %u
 Obtained XMS handle %u
@@ -1338,7 +1371,7 @@ Out of place tIME chunk
 Output file write error --- out of disk space?
 Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!
 Overflow of the sheet cache texture: Try increasing SHEETCACHE_TEXTURE_HEIGHT (current value %d)!
-PARALLEL_PROCESS utlsoacontainer.cpp:2532
+PARALLEL_PROCESS utlsoacontainer.cpp:2528
 PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.
 PNG file corrupted by ASCII conversion
 PNG load error %s
@@ -1346,10 +1379,11 @@ PNG unsigned integer out of range
 POSIX
 P[A\A]A^A_]
 P[A\A]A^]
-P[A\]
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
+ParseEXRHeaderFromMemory( %s ) failed! Error message: %s
+ParseEXRHeaderFromMemory() failed! Error message: %s
 ParticleSystemMgr002
 Path Overflow, must be less than 260 characters.
 Physics2 Interface Old v0.5
@@ -1380,7 +1414,6 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_VirtualAlloc
 Plat_VirtualFree
 Plat_WindowToOsSpecificHandle
-Plat_getwd
 PostProcessingSystem_001
 Potential overflow in png_zalloc()
 Premature end of JPEG file
@@ -1396,6 +1429,7 @@ Quantizing to %d colors
 QuarterSizeAttrWithBoxFilter
 QueuedLoaderVersion001
 R channel not found
+R channel not found in %s
 R16F_EXPAND
 R32_UINT
 R8H=vtext
@@ -1516,7 +1550,7 @@ RenderSystemSurface001
 RenderUtils_001
 Requested feature was omitted at compile time
 ReserveVirtualMemory
-Resource %s
+Resource 
 ResourceCompilerSystem001
 ResourceFile: %d/%d @%p align %u
 ResourceHandleUtils001
@@ -1527,7 +1561,6 @@ S +K$M
 S4E+e D9
 S8[A\A]A^]
 S@H;SHs
-S@M;SP
 SPB8t
 SPB8t)H
 SSE and SSE2 are required.
@@ -1575,13 +1608,13 @@ Start Of Scan: %d components
 Start of Image
 StatsService_001
 SteamAudio001
+Streaming Validation: %s 
 Suspension not allowed here
 T$ D)
 T$0H9
 T$0t}H
 T$4D;d$4
 T$8H)
-T$@I9
 T$GH)
 T$HfA
 T$`Hc
@@ -1617,12 +1650,12 @@ TextLayout_001
 TextMessageMgr_001
 Texture manager out of space! Can't allocate new texture!
 Texture memory discrepancy! %llu != %llu
+Texture streaming validation OK (%d texture loads in flight).
 TextureDesc_t
 TextureHeader_t
 TextureSpecificationFlags_t
 The filename may only contain lower case alphanumeric characters and underscores.
 ThreadGetCurrentId
-ThreadInterlockedExchange64
 ThreadMultiWait
 ThreadSleep
 ThreadYield
@@ -1659,6 +1692,7 @@ Unknown Adobe color transform code %d
 Unknown Path Class
 Unknown compression method in IHDR
 Unknown compression type in zTXt chunk
+Unknown compression type.
 Unknown filter method in IHDR
 Unknown freer parameter in png_data_freer
 Unknown interlace method in IHDR
@@ -1671,10 +1705,7 @@ Unsupported JPEG data precision %d
 Unsupported JPEG process: SOF type 0x%02x
 Unsupported PSD color mode!
 Unsupported color conversion request
-Unsupported compression type.
-Unsupported format.
 Unsupported marker type 0x%02x
-Unsupported version or scanline.
 Upper limit on texture pool size.
 UserInfoChangeService_001
 V@I;VHs
@@ -1713,7 +1744,6 @@ VScriptManager010
 VStringTokenSystem001
 VUUUA
 VUUUD
-VXM;b
 V_CopyMemory3D
 V_FixDoubleSlashes
 V_FixSlashes
@@ -1739,24 +1769,29 @@ V_atoi
 V_cosf
 V_expf
 V_fmodf
+V_frexpf
 V_localeconv
 V_logf
 V_pow
 V_powf
 V_qsort
 V_qsort_s
+V_sincosf
 V_sinf
 V_snprintf
-V_snwprintf
+V_snwprintf_cch
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strtod
 V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
 V_tanf
+V_tier0_strstr
 V_vsnprintf
 V_vsnprintfRet
 V_vsnprintfSize
@@ -1777,6 +1812,8 @@ VsInputSignatureElement_t
 VsInputSignature_t
 Vulkan
 W0Hc_8A
+WAITING_FOR_HOOKUP_JOB 
+WAITING_FOR_IO 
 WARNING: Could not find schema data for helper class for resource type %lld '%s'. (Missing MDiskDataForResourceType metadata or schema data isn't loaded?)
 WARNING: LoadAndValidateResourceHeader - FileSystem not initialized!
 WARNING: Missing data block for file: %s
@@ -1813,6 +1850,8 @@ X[A\A]]
 X[]A\A]A^A_
 Xbox 360
 YR ~UK
+ZFP compression is not supported in this build.
+ZFP compression is not supported.
 ZIcL$
 Zero length tRNS chunk
 [A\A]A^A_]
@@ -1828,12 +1867,12 @@ Zero length tRNS chunk
 \$ E1
 \$0[A\A]A^]
 \$HfA
+\$`E1
 \t!Hc
 \u0000
 ]H+G 
 ^ t+H
 ^IcL$8Ic
-^XM;S0
 ^[A\A]]
 _?</F
 _ITM_deregisterTMCloneTable
@@ -1841,17 +1880,14 @@ _ITM_registerTMCloneTable
 _Jv_RegisterClasses
 _V_ComposeFileName
 _V_ExtractFileExtension
-_V_ExtractFilePath
 _V_FileBase
-_V_FixupPathName
-_V_GetFirstDir
 _V_MakeAbsolutePath
-_V_MakeRelativePath
 _V_SetExtension
 _V_StringAfterPrefix
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
@@ -1868,6 +1904,27 @@ _ZN10CVProfNode10GetSubNodeEPKciS1_i
 _ZN10CVProfNode9ExitScopeEv
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
+_ZN13CBufferString10ExtendPathEPKcc
+_ZN13CBufferString10FixSlashesEc
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
+_ZN13CBufferString11ShortenPathEv
+_ZN13CBufferString11ToLowerFastEi
+_ZN13CBufferString12AppendConcatEiPKPKcPKib
+_ZN13CBufferString12SetExtensionEPKc
+_ZN13CBufferString13FixupPathNameEv
+_ZN13CBufferString14RemoveFirstDirEPS_
+_ZN13CBufferString15ComposeFileNameEPKcS1_c
+_ZN13CBufferString15ExtractFilePathEPKc
+_ZN13CBufferString16MakeAbsolutePathEPKcS1_
+_ZN13CBufferString16MakeRelativePathEPKcS1_
+_ZN13CBufferString16RemoveDotSlashesEc
+_ZN13CBufferString18StripTrailingSlashEv
+_ZN13CBufferString4SwapERS_
+_ZN13CBufferString5PurgeEi
+_ZN13CBufferString6ConcatEPKcS1_z
+_ZN13CBufferString6InsertEiPKcib
+_ZN13CBufferString6SetPtrEPciibb
+_ZN13CBufferString8RemoveAtEii
 _ZN16CThreadSemaphore7ReleaseEiPi
 _ZN16CThreadSemaphoreD1Ev
 _ZN17CThreadSpinRWLock10UnlockReadEv
@@ -1886,6 +1943,15 @@ _ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
 _ZN22CThreadRWLock_FastReadC1Ev
 _ZNKSs7compareEPKc
 _ZNKSs7compareEPKc@@GLIBCXX_3.4
+_ZNKSt5ctypeIcE13_M_widen_initEv
+_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
+_ZNSdD2Ev
+_ZNSdD2Ev@@GLIBCXX_3.4
+_ZNSo3putEc
+_ZNSo3putEc@@GLIBCXX_3.4
+_ZNSo5flushEv
+_ZNSo5flushEv@@GLIBCXX_3.4
+_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag
 _ZNSs4_Rep10_M_destroyERKSaIcE
 _ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
 _ZNSs4_Rep10_M_disposeERKSaIcE
@@ -1896,13 +1962,57 @@ _ZNSs4_Rep9_S_createEmmRKSaIcE
 _ZNSs4_Rep9_S_createEmmRKSaIcE@@GLIBCXX_3.4
 _ZNSs4swapERSs
 _ZNSs4swapERSs@@GLIBCXX_3.4
+_ZNSs6appendERKSs
+_ZNSs6appendERKSs@@GLIBCXX_3.4
+_ZNSs6assignEPKcm
+_ZNSs6assignEPKcm@@GLIBCXX_3.4
+_ZNSs6assignERKSs
+_ZNSs6assignERKSs@@GLIBCXX_3.4
 _ZNSsC1EPKcRKSaIcE
 _ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
+_ZNSsC1EPKcmRKSaIcE
+_ZNSsC1EPKcmRKSaIcE@@GLIBCXX_3.4
 _ZNSsC1ERKSs
 _ZNSsC1ERKSs@@GLIBCXX_3.4
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
+_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
+_ZNSt6localeC1Ev
+_ZNSt6localeC1Ev@@GLIBCXX_3.4
+_ZNSt6localeD1Ev
+_ZNSt6localeD1Ev@@GLIBCXX_3.4
+_ZNSt6vectorIS_IhSaIhEESaIS1_EED1Ev
+_ZNSt6vectorIS_IhSaIhEESaIS1_EED2Ev
+_ZNSt6vectorIS_ImSaImEESaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_
+_ZNSt6vectorIS_ImSaImEESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
+_ZNSt6vectorIhSaIhEE15_M_range_insertIN9__gnu_cxx17__normal_iteratorIPhS1_EEEEvS6_T_S7_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE15_M_range_insertIPKcEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S9_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE15_M_range_insertIPKhEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S9_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE15_M_range_insertIPcEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S8_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE15_M_range_insertIPhEEvN9__gnu_cxx17__normal_iteratorIS3_S1_EET_S7_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE6insertIN9__gnu_cxx17__normal_iteratorIPhS1_EEvEEvS6_T_S7_
+_ZNSt6vectorIhSaIhEEC1EmRKS0_
+_ZNSt6vectorIhSaIhEEC2EmRKS0_
+_ZNSt6vectorImSaImEE17_M_default_appendEm
+_ZNSt8ios_baseC2Ev
+_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseD2Ev
+_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@@GLIBCXX_3.4
 _ZNV16CThreadFastMutex4LockEyj
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@@GLIBCXX_3.4.9
+_ZSt16__throw_bad_castv
+_ZSt16__throw_bad_castv@@GLIBCXX_3.4
 _ZSt17__throw_bad_allocv
 _ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+_ZSt19__throw_logic_errorPKc
+_ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
 _ZSt20__throw_length_errorPKc
 _ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
 _ZSt20__throw_out_of_rangePKc
@@ -1910,12 +2020,26 @@ _ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
 _ZSt9terminatev
 _ZSt9terminatev@@GLIBCXX_3.4
 _ZTI17CThreadSyncObject
+_ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
+_ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
+_ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt9basic_iosIcSt11char_traitsIcEE
+_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __bss_start
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
@@ -1946,8 +2070,6 @@ __longjmp_chk
 __longjmp_chk@@GLIBC_2.11
 __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
-__memset_chk
-__memset_chk@@GLIBC_2.3.4
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __sprintf_chk
@@ -1967,10 +2089,12 @@ _tools.txt
 `H97tbH
 `[A\A]A^]
 `[A\]
+`chunkCount' attribute is not found in the header.
 abort@@GLIBC_2.2.5
 after solve err=%f
 alpha
 archive
+basic_string::_S_construct null not valid
 before solve err=%f
 blocking issue in occlusion queries!!
 borrow
@@ -1986,6 +2110,8 @@ cHRM Red X
 cHRM Red Y
 cHRM White X
 cHRM White Y
+calloc
+calloc@@GLIBC_2.2.5
 ceilf
 ceilf@@GLIBC_2.2.5
 cfg/moddefaults.txt
@@ -1995,10 +2121,12 @@ cfg/videodefaults.txt
 channels
 cheat
 chlist
+chunkCount
 client
 clientcmd_can_execute
 compression
 configvalue.cpp
+content
 cpD)ctL
 d$$LcR
 d$(E1
@@ -2014,7 +2142,6 @@ displayWindow
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 dxsupport.cfg
-e$~sH
 eikonal
 error in user chunk
 exit@@GLIBC_2.2.5
@@ -2035,10 +2162,10 @@ float
 float( %f )
 floatbitmap.cpp
 floatbitmap.cpp(124): Unknown gamma type "%s"!
-floatbitmap.cpp(2113): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2124): Error loading %s
-floatbitmap.cpp(2147): Error! Unknown file type for %s
-floatbitmap.cpp(2166): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
+floatbitmap.cpp(2140): Error calling TGALoader::GetInfo( %s )
+floatbitmap.cpp(2151): Error loading %s
+floatbitmap.cpp(2174): Error! Unknown file type for %s
+floatbitmap.cpp(2193): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
 floatbitmap.cpp(308): Conversion not supported yet!
 floatbitmap.cpp(408): Conversion not supported yet!
 floatbitmap.cpp(854): Unsupported color format "%s", skipping!
@@ -2073,7 +2200,6 @@ getenv@@GLIBC_2.2.5
 gfffC
 gfffD
 gfffG
-gffffD
 gx=%d, gy=%d, bx=%d, by=%d
 h[A\A]A^A_]
 h[A\A]]
@@ -2123,8 +2249,6 @@ libvstdlib.so
 lineOrder
 lineartogamma
 localize
-localtime
-localtime@@GLIBC_2.2.5
 longjmp
 longjmp@@GLIBC_2.2.5
 m_Format
@@ -2168,7 +2292,7 @@ makemelast
 malformed sPLT chunk
 malloc
 malloc@@GLIBC_2.2.5
-mathlib_base.cpp
+mathlib.cpp
 max megabytes
 max megahertz
 max megatexels
@@ -2185,8 +2309,6 @@ min megabytes
 min megahertz
 min megatexels
 min_processor_count
-mktime
-mktime@@GLIBC_2.2.5
 modf@@GLIBC_2.2.5
 nTries < 10000000
 need dictionary
@@ -2228,7 +2350,7 @@ pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 puwUH
 queued
-r6LcA
+r7LcQ
 r_fullscreen_gamma
 r_gpu_mem_stats
 r_max_texture_pool_size
@@ -2236,6 +2358,7 @@ r_texture_pool_size
 r_texture_stream_mip_bias
 r_texturefilteringquality
 r_textures_evict_all
+r_validate_texture_streaming
 r_wait_on_present
 rc?Quh
 realloc
@@ -2243,7 +2366,6 @@ realloc@@GLIBC_2.2.5
 rendercontextbase.cpp
 renderdevicemgrbase.cpp
 rendersystemempty
-rendersystemglobals.cpp
 replicated
 resourcestream.cpp
 resourcesystem
@@ -2290,8 +2412,6 @@ setting.resettodefaults
 setting.shaderquality
 sheetcache.cpp
 sheetcachetexture_.vtex
-sincosf
-sincosf@@GLIBC_2.2.5
 single
 singleplayer
 snprintf@@GLIBC_2.2.5
@@ -2316,21 +2436,19 @@ stream end
 strlen
 strlen@@GLIBC_2.2.5
 strncpy@@GLIBC_2.2.5
-strnlen
 strnlen@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
 strtod@@GLIBC_2.2.5
 sub%dx%d.tga
 submrg%dx%d.tga
 szLce
 t	HcR
+t	[A\]
 t LcW
 t$(uzI
 t$8E1
 t$@A\]
 t$H9h
-t$HcP
 t$HfA
 t$lfA
 t+Hc4
@@ -2345,6 +2463,7 @@ t@@:>u
 tEH;v0I
 tIW?Z
 tK~%E1
+tL[A\A]A^]
 tRH;v0I
 tRNS chunk has out-of-range samples for bit_depth
 tRNS chunk not allowed with alpha channel
@@ -2356,23 +2475,19 @@ t\Ic\$(A;\$8
 tdA:]
 text compression mode is out of range
 texturebase.cpp
-texturebase.cpp(1302):Error loading texture: %s
-texturebase.cpp(2095):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2106):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2117):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2138):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2149):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2160):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2171):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2192):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2203):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2214):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2225):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(1454):Error loading texture: %s
+texturebase.cpp(2357):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2378):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2389):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2400):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2411):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2432):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2443):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2454):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2465):ResourceHandleToData( %s ) failed! Falling back to error texture!
 tfUMc
 tgE+e D9
-time@@GLIBC_2.2.5
-tolower
-tolower@@GLIBC_2.2.5
+tiles
 too many length or distance symbols
 tqH;v0t{L
 transparency
@@ -2391,7 +2506,6 @@ u'[]A\A]A^
 u64( %lld = 0x%llX )
 u:[A\A]A^A_]
 u?IcF
-uA[A\A]A^]
 uB[A\A]A^]
 uC[A\]
 uHMc~
@@ -2419,10 +2533,10 @@ vtexE1
 vtexH
 vtexL
 vtexu
-w(AUATI
 w=fD;m"
 wDA;X
-wPATSH
+wcscmp
+wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
 wx=%d, wy=%d, rx=%d, ry=%d
@@ -2440,6 +2554,7 @@ zlib stream error
 zlib version error
 {`xQuxH
 {}()':
+|$ E1
 |$0E1
 |$0Hi
 |$@Mc
@@ -2452,8 +2567,8 @@ zlib version error
 |]J@E
 }>;w$
 ~	ATI
+~&H97t@
 ~)A;]
-~)H97tC
 ~AVAUL
 ~SHcC
 ~WHcE

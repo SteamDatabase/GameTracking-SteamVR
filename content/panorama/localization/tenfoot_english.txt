@@ -337,6 +337,7 @@
 	"KnucklesCapsenseMode_3" "Cap Sense controls Grip"
 	
 	"VRSettingsGeneral" "SteamVR Settings"
+	"VRSettingsBindingUITitle" "Controller Binding"
 	"VRSettingsChaperone" "Chaperone Settings"
 	"VRSettingsBackground" "Customize"
 	"VRSettingsCamera" "Camera Settings"

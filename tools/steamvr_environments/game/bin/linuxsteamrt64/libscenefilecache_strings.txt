@@ -22,6 +22,7 @@
 "%s" 
 "%s" = "%s"
 "t&L;}
+#[A\]
 #base
 #base is NULL 
 #empty#
@@ -84,8 +85,7 @@ $[A\]
 .strtab
 .symtab
 .text
-0123456789ABCDEF
-0<	v8H
+0<	v@H
 0[A\]
 0[]A\A]A^
 0tUHc
@@ -162,7 +162,7 @@ $[A\]
 8[A\A]A^A_]
 8[]A\A]A^A_
 :../public/tier1/utlrbtree.h
-:[tLL
+:[tlL
 ;*3$"
 <	w.1
 <	woD
@@ -208,7 +208,6 @@ AUATA
 AUATD
 AUATI
 AUATL
-AUATLc
 AUATM
 AUATS
 AUATS1
@@ -235,7 +234,6 @@ AWAVAUATS
 AWAVAUATSH
 AWAVAUATUSH
 AWAVAUI
-AWAVAUL
 AWAVD
 AWAVE
 AWAVE1
@@ -265,7 +263,6 @@ BenchmarkService001
 Bezier
 BinaryProperties_GetValue
 C	t>f
-C0tRB
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CMemAllocSystemInitialize
@@ -309,11 +306,9 @@ ConfigurationSystem_001
 ConnectInterfaces
 CreateInterface
 D$ H9
-D$ L9
 D$ fF
 D$(E1
 D$0H9
-D$0L9
 D$8I9
 D$8L9
 D$@H9
@@ -343,7 +338,7 @@ E+g$Mc
 E+o$Mc
 E+}$Mc
 E9gPI
-E9t$ ~kI
+E9|$ ~bI
 EIA\A]A^]
 EMPTY - ok for slot zero only!
 EXA;]`
@@ -383,6 +378,7 @@ G<@t1H
 G<@t:
 G<@tLL
 G<@tUI
+G<@ta
 G<@th
 G<@tp
 GAMECONSOLE
@@ -402,6 +398,7 @@ HIGHDPI
 H[A\A]A^A_]
 H[]A\A]A^A_
 HammerMapLoader001
+HcC H9
 HcC$H
 HcKPHc
 HcSPH
@@ -412,7 +409,6 @@ HookUpConfigValue
 HostStateMgr001
 I;V@w
 IQuickTime001
-Ic4$H)
 Ic]PI
 Icu`H
 InitSceneCache
@@ -447,6 +443,7 @@ LoadFromBuffer
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
 LoggingSystem_IsChannelEnabled
+LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
 MATCHFRAMEWORK_001
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
@@ -497,10 +494,12 @@ RESPONSE_ENTITYIO
 RESPONSE_NONE
 RESPONSE_PRINT
 RESPONSE_RESPONSE
+RESPONSE_RULES
 RESPONSE_SCENE
 RESPONSE_SCRIPT
 RESPONSE_SENTENCE
 RESPONSE_SPEAK
+RULE MATCHED!
 RandomFloat
 RandomInt
 Reading: %s
@@ -599,7 +598,6 @@ StatsService_001
 SteamAudio001
 String %d: ref:%d %s
 T$ L;}
-T$0H9
 T$8H)
 T$HfA
 T$NA\A]A^]
@@ -610,7 +608,6 @@ TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
 ThreadGetCurrentId
-ThreadInterlockedExchange64
 TokenWaiting
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
@@ -618,6 +615,7 @@ ToolGameSimulationSystem_001
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
+UNt&H
 Unable to load #included script %s
 UserInfoChangeService_001
 V0u@H
@@ -668,16 +666,19 @@ V_atoi
 V_localeconv
 V_qsort_s
 V_snprintf
-V_snwprintf
+V_snwprintf_cch
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strtod
 V_strtoi64
 V_strtok
 V_strtoui64
 V_strupper_fast
 V_swscanf
+V_tier0_strstr
 V_vsnprintf
 V_vsnprintfRet
 V_vsnprintfSize
@@ -706,7 +707,6 @@ ZIcL$
 []A\A]
 []A\A]A^
 []A\A]A^A_
-\$Nt-I
 \t!Hc
 \u0000
 ^ t+H
@@ -724,17 +724,20 @@ _V_StringAfterPrefix
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
 _Z14V_stristr_fastPKcS0_
 _Z15V_UnicodeLengthPKc
+_Z17LoggingSystem_Logi17LoggingSeverity_t5ColorPKcz
 _Z17LoggingSystem_Logi17LoggingSeverity_tRK14LeafCodeInfo_tPKcz
 _Z20V_UnicodeCaseConvertPKcPcii25EStringConvertErrorPolicy
 _Z6ConMsgPKcz
 _Z6DevMsgPKcz
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -753,6 +756,10 @@ _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __bss_start
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
@@ -812,7 +819,7 @@ easeout
 enumeration
 exponential_decay
 f;0tr
-f;C.w
+f;S.w
 fA;0M
 fA;0trA
 fE;|$
@@ -900,7 +907,7 @@ pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
-r6LcA
+r7LcQ
 replicated
 required
 respeakdelay
@@ -936,11 +943,8 @@ strcpy
 strcpy@@GLIBC_2.2.5
 strlen
 strlen@@GLIBC_2.2.5
-strncpy@@GLIBC_2.2.5
-strnlen
-strnlen@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
+t	[A\]
 t"HcK
 t"HcM
 t"HcO
@@ -952,25 +956,28 @@ t+Hc4
 t+Jc4
 t4[A\]
 t@@:>u
+tL[A\A]A^]
 tSHcO
 tWA9]
+tX</tL
 targetclassname
 tdA:]
-tolower
-tolower@@GLIBC_2.2.5
+tq</t]
 ttIcG
 tyHcO
 t{HcM
 t{HcO
 t}HcO
 u64( %lld = 0x%llX )
+u<[A\A]A^]
 unknown
 update
 utlbuffer.cpp
 utlstring.cpp
 v!<\t
 v*</u8
-w(AUATI
+wcscmp
+wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
 weapondelay
@@ -989,7 +996,7 @@ x[HcO
 }Hf;w
 }Rf;w
 ~	ATI
+~&H97t@
 ~)A;]
-~)H97tC
 ~SHcC
 ~vHcKPHc

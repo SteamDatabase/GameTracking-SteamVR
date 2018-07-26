@@ -9,6 +9,7 @@
 "%s" 
 "%s" = "%s"
 "t&L;}
+#[A\]
 $+s$Hc
 $E;D$
 $ORIGIN
@@ -50,7 +51,6 @@ $ORIGIN
 .strtab
 .symtab
 .text
-0123456789ABCDEF
 0[A\]
 0[]A\A]A^
 10ConCommand
@@ -93,7 +93,6 @@ $ORIGIN
 <19{ |.
 <Rt<<Pt`<S
 <null>
-@A\A]A^A_]
 @VScript
 @[A\]
 A+D$$9
@@ -113,7 +112,6 @@ AUATA
 AUATD
 AUATI
 AUATL
-AUATLc
 AUATSD
 AUATSH
 AUATSL
@@ -121,6 +119,7 @@ AUATUSH
 AVAUATA
 AVAUATE1
 AVAUATI
+AVAUATSD
 AVAUATSH
 AVAUATSu'
 AVAUATUSH
@@ -360,15 +359,22 @@ V_UTF32ToUTF8
 V_UnqualifiedFileName
 V_atof
 V_atoi
+V_expf
+V_log10f
+V_logf
+V_powf
 V_qsort_s
 V_snprintf
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strtod
 V_strtoi64
 V_strtoui64
 V_strupper_fast
+V_tier0_strstr
 V_vsnprintf
 V_vsnprintfSize
 VaPrintf
@@ -402,18 +408,24 @@ _V_MakeAbsolutePath
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnistr_fast
 _Z14V_stristr_fastPKcS0_
 _Z17LoggingSystem_Logi17LoggingSeverity_tRK14LeafCodeInfo_tPKcz
 _Z20V_UnicodeCaseConvertPKcPcii25EStringConvertErrorPolicy
 _Z6ConMsgPKcz
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __bss_start
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
@@ -537,6 +549,8 @@ snd_steamaudio_max_convolution_sources
 snd_steamaudio_num_bounces
 snd_steamaudio_num_diffuse_samples
 snd_steamaudio_num_rays
+sqrtf
+sqrtf@@GLIBC_2.2.5
 ss_added
 strchr
 strchr@@GLIBC_2.2.5
@@ -544,25 +558,23 @@ strcmp
 strcmp@@GLIBC_2.2.5
 strlen
 strlen@@GLIBC_2.2.5
-strnlen
-strnlen@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
 t$H9h
 t@@:>u
+tL[A\A]A^]
 tWA9]
 tdA:]
 ttIcG
+u	[A\A]A^]
 utlbuffer.cpp
 utlstring.cpp
 xIcL$
 x[A\A]A^A_]
 z/u-1
 z7u5H
-zgueA
 {}()':
 }IcL$
 }Tf;w
+~&H97t@
 ~)A;]
-~)H97tC
 ~vHcKPHc

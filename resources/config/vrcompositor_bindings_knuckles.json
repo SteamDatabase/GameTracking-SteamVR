@@ -511,7 +511,7 @@
 				"inputs": {}
 			},
 			{
-				"mode": "complex_button",
+				"mode": "button",
 				"path": "/user/hand/left/input/system",
 				"inputs": {
 					"double": {
@@ -524,13 +524,13 @@
 						"long_press_delay": 1.5,
 						"output": "/actions/system/in/ShowPowerMenu"
 					},
-					"single": {
+					"click": {
 						"output": "/actions/system/in/ToggleDashboard"
 					}
 				}
 			},
 			{
-				"mode": "complex_button",
+				"mode": "button",
 				"path": "/user/hand/right/input/system",
 				"inputs": {
 					"double": {
@@ -543,7 +543,7 @@
 						"long_press_delay": 1.5,
 						"output": "/actions/system/in/ShowPowerMenu"
 					},
-					"single": {
+					"click": {
 						"output": "/actions/system/in/ToggleDashboard"
 					}
 				}

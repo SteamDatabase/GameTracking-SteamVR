@@ -1,0 +1,38 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	SurfacePropertiesList = 
+	[
+		{
+			surfacePropertyName = "default"
+			lowFreqAbsorption = 0.3
+			midFreqAbsorption = 0.3
+			highFreqAbsorption = 0.5
+			scattering = 0.5
+			lowFreqTransmission = 0.0
+			midFreqTransmission = 0.0
+			highFreqTransmission = 0.0
+		},
+		{
+			surfacePropertyName = "base.metal"
+			lowFreqAbsorption = 0.3
+			midFreqAbsorption = 0.3
+			highFreqAbsorption = 0.5
+			scattering = 0.5
+			lowFreqTransmission = 0.2
+			midFreqTransmission = 0.2
+			highFreqTransmission = 0.2
+		},
+		{
+			surfacePropertyName = "base.wood"
+			lowFreqAbsorption = 0.5
+			midFreqAbsorption = 0.5
+			highFreqAbsorption = 0.7
+			scattering = 0.6
+		},
+		// in surfaceproperties.txt, "world.metal_vent" is derived from "base.metal" so it will inherit those values but replace the scattering value
+		{
+			surfacePropertyName = "world.metal_vent"
+			scattering = 0.9
+		},
+	]
+}

@@ -21,6 +21,18 @@
 				$.DispatchEvent( "ClientUI_FireOutput", '1' );
 			}	
 
+			function SelectSteamVRNow()
+			{
+				SelectUGCSection('currentlyplayed');
+				$("#CommunityHomeWrapper").AddClass( "SteamVRNowOn" );
+			}
+
+			function SelectUGCTab(blah)
+			{
+				$("#CommunityHomeWrapper").RemoveClass( "SteamVRNowOn" );
+				SelectUGCSection(blah);
+			}
+
 		</script>
 
 	<snippets>	
@@ -41,6 +53,7 @@
 		</snippet>
 		<snippet name="ItemWorkshopThumb">
 			<Panel class="EnvironmentItem">
+
 				<Image id="ItemThumbImage" class="EnvironmentImage" src="s2r://panorama/images/content_browser/workshop_button_image_png.vtex" scaling="stretch-to-cover-preserve-aspect"/>
 			  	<Panel class="SubscribedCheck">
 					<Image class="CheckImage" src="s2r://panorama/images/content_browser/icon_check_png.vtex" />						
@@ -55,7 +68,7 @@
 			<Image class="SteamVRLogo" src="s2r://panorama/images/content_browser/steamvr_home_logo_high_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
 		</Panel>
 
-		<Panel id="CommunityHomeWrapper" class="CommunityHomeWrapper" defaultfocus="ScreenshotsTab">
+		<Panel id="CommunityHomeWrapper" class="CommunityHomeWrapper" defaultfocus="EnvironmentsTab">
 
 			<Image class="SteamVRLogo" src="s2r://panorama/images/content_browser/steamvr_home_logo_high_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
 
@@ -75,11 +88,6 @@
 
 			<Panel class="LoadingSpinnerWrapper">
 
-				<Panel class="LoadingSpinner" id="LeftSpinner">
-					<Image class="SpinnerIcon" src="s2r://panorama/images/content_browser/icon_spinner_png.vtex" />
-				</Panel>
-				<Image class="SteamLogoLoader" id="LeftIcon" src="s2r://panorama/images/content_browser/steam_logo_high_png.vtex" />
-
 				<Panel class="LoadingSpinner" id="RightSpinner">
 					<Image class="SpinnerIcon" src="s2r://panorama/images/content_browser/icon_spinner_png.vtex" />
 				</Panel>
@@ -87,26 +95,36 @@
 			</Panel>
 
 
-			<Panel id="CommunityHomeContainer" class="SelectedUGC_environments" onload="OnLoadCommunityHomeData();" onmouseover="CancelChangeUGCThumbnails()" onmouseout="ScheduleChangeUGCThumbnails()">
+			<Panel id="CommunityHomeContainer" class="SelectedUGC_currentlyplayed" onload="OnLoadCommunityHomeData(); SelectSteamVRNow();" onmouseover="CancelChangeUGCThumbnails()" onmouseout="ScheduleChangeUGCThumbnails()">
+
+				<Panel class="SteamVRTitleLogo">
+					<Image class="SteamVRTitleLogoImage" src="s2r://panorama/images/content_browser/steamvr_logo_high_png.vtex" />
+				</Panel>
 
 				<Panel class="UGCTabs">
-					<Panel class="EnvironmentsTab" id="EnvironmentsTab" onactivate="SelectUGCSection('environments')">
+					<Panel class="CurrentlyPlayedTab" id="CurrentlyPlayedTab" onactivate="SelectSteamVRNow()">
+						<Panel class="TabLabel">
+							<Label class="TabText" text="#TopAppsTabText" />
+						</Panel>
+					</Panel>	
+					<Panel class="TabDivider" />
+					<Panel class="EnvironmentsTab" id="EnvironmentsTab" onactivate="SelectUGCTab('environments')">
 						<Panel class="TabLabel">
 							<Label class="TabText" text="#EnvironmentsTabText" />
 						</Panel>
 					</Panel>	
 					<Panel class="TabDivider" />
-					<Panel class="ScreenshotsTab" id="ScreenshotsTab" onactivate="SelectUGCSection('screenshots')">
+					<Panel class="ScreenshotsTab" id="ScreenshotsTab" onactivate="SelectUGCTab('screenshots')">
 						<Panel class="TabLabel">
 							<Label class="TabText" text="#ScreenshotTabText" />
 						</Panel>
 					</Panel>	
-					<Panel class="TabDivider" />
-					<Panel class="ArtworkTab" id="ArtworkTab" onactivate="SelectUGCSection('artwork')">
+<!-- 					<Panel class="TabDivider" />
+					<Panel class="ArtworkTab" id="ArtworkTab" onactivate="SelectUGCTab('artwork')">
 						<Panel class="TabLabel">
 							<Label class="TabText" text="#ArtworkTabText" />
 						</Panel>
-					</Panel>
+					</Panel> -->
 				</Panel>
 
 	
@@ -185,15 +203,54 @@
 			</Panel>
 
 			
-			<Panel id="SteamVRNow" class="SteamVRNow">			
+			<Panel id="SteamVRNow" class="SteamVRNow">
+				<Panel class="SteamVRNowBackground">
+					<Panel class="Column1">
+						<Panel class="Row1" />
+						<Panel class="Row2" />
+						<Panel class="Row3" />
+						<Panel class="Row4" />
+						<Panel class="Row5" />
+						<Panel class="Row6" />
+						<Panel class="Row7" />
+						<Panel class="Row8" />
+					</Panel>
+					<Panel class="Column2">
+						<Panel class="Row1" />
+						<Panel class="Row2" />
+						<Panel class="Row3" />
+						<Panel class="Row4" />
+						<Panel class="Row5" />
+						<Panel class="Row6" />
+						<Panel class="Row7" />
+						<Panel class="Row8" />
+					</Panel>
+					<Panel class="Column3">
+						<Panel class="Row1" />
+						<Panel class="Row2" />
+						<Panel class="Row3" />
+						<Panel class="Row4" />
+						<Panel class="Row5" />
+						<Panel class="Row6" />
+						<Panel class="Row7" />
+						<Panel class="Row8" />
+					</Panel>
+				</Panel>
+				<Panel class="SteamVRNowColumns">			
+					<Panel class="SinglePlayerAppPanel">
+						<Label class="SinglePlayerLabel" text="#SinglePlayerLabel" />
+						<Panel id="SinglePlayerApps" class="VRTitlesContainer" />
+					</Panel>
+					<Panel class="MultiPlayerAppPanel">
+						<Label class="MultiPlayerLabel" text="#MultiPlayerLabel" />
+						<Panel id="MultiPlayerApps" class="VRTitlesContainer" />				
+					</Panel>			
+					<Panel class="FreeAppPanel">
+						<Label class="FreeAppLabel" text="#FreeAppsLabel" />
+						<Panel id="FreeApps" class="VRTitlesContainer" />
+					</Panel>
+				</Panel>
 
-				<Label class="SinglePlayerLabel" text="#SinglePlayerLabel" />
-
-				<Panel id="SinglePlayerApps" class="VRTitlesContainer" />
-
-				<Label class="MultiPlayerLabel" text="#MultiPlayerLabel" />
-
-				<Panel id="MultiPlayerApps" class="VRTitlesContainer" />				
 			</Panel>
 
 			<Button class="PowerButton DestinationButton" id="PowerOff" onactivate="TurnWallOff();">
@@ -205,21 +262,29 @@
 				<Label class="PowerOnText" id="PowerOnText" text="#PowerOnText" />
 			</Button>
 
-			<Panel class="BlackOut" />
+			<Button class="BlackOut" onactivate="LaunchApplicationCancel()"/>
 
 			<Panel class="ConfirmationPanel" id="ConfirmationPanel">
 				<Image class="DefaultLaunchAppImage" src="s2r://panorama/images/content_browser/icon_recent_default_png.vtex" />
 				<Image class="LaunchAppImage" id="LaunchAppImage" />
 				<Label class="LaunchConfirmation" text="#LaunchConfirmationText" id="RecentAppName" />
-				<Button class="DestinationButton LaunchButton" id="LaunchAppButton" onactivate="LaunchSelectedApplication()">
-					<Label text="#LaunchButtonText" />
-				</Button>
-				<Button class="DestinationButton DetailsButton" id="DetailsButton" onactivate="ViewSelectedApplicationDetails()">
-					<Label text="#DetailsButtonText" />
-				</Button>
-				<Button class="DestinationButton CancelButton" id="CancelButton" onactivate="LaunchApplicationCancel()">
-					<Label text="#CancelButtonText" />
-				</Button>
+				<Panel class="ConfirmationButtons">
+					<Panel class="LaunchButtonDisabled" id="LaunchButtonDisabled">
+						<Label text="#LaunchButtonText" />
+					</Panel>
+					<Button class="DestinationButton LaunchButton" id="LaunchAppButton" onactivate="LaunchSelectedApplication()">
+						<Label text="#LaunchButtonText" />
+					</Button>
+					<Button class="DestinationButton DetailsButton" id="DetailsButton" onactivate="ViewSelectedApplicationDetails()">
+						<Label text="#DetailsButtonText" />
+					</Button>
+					<Button class="DestinationButton StoreButton" id="StoreButton" onactivate="ViewSelectedApplicationStorePage()">
+						<Label text="#StoreButtonText" />
+					</Button>					
+					<Button class="DestinationButton CancelButton" id="CancelButton" onactivate="LaunchApplicationCancel()">
+						<Label text="#CancelButtonText" />
+					</Button>
+				</Panel>
 			</Panel>
 
 

@@ -595,7 +595,7 @@
 "[english]Warning_DismissableWarning_WarningsForTheFirstTime_Header"	"Warnings for the first time"
 "Warning_DismissableWarning_MissedFrames_Header"	"L'application tourne trop lentement"
 "[english]Warning_DismissableWarning_MissedFrames_Header"	"Application running too slowly"
-"Explanation_RemoveAllSteamVRUSBDevices"	"Désinstalle tous les périphériques USB associés au SteamVR\nsur ce système pour permettre la réinstallation des pilotes."
+"Explanation_RemoveAllSteamVRUSBDevices"	"Désinstalle tous les périphériques USB associés à SteamVR sur ce système pour permettre la réinstallation des pilotes."
 "[english]Explanation_RemoveAllSteamVRUSBDevices"	"Remove all USB devices related to SteamVR from this system to reinstall their drivers."
 "Explanation_ResetDismissableWarnings"	"Réinitialise les alertes temporaires. Elles seront affichées à\nnouveau lorsque nécessaire."
 "[english]Explanation_ResetDismissableWarnings"	"Temporary warnings are reset and will show again as needed."

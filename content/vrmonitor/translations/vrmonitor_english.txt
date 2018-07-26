@@ -238,6 +238,8 @@
 "Settings_EnableDashboard" "Enable VR Dashboard"
 "Settings_ArcadeMode" "Enable Arcade Mode"
 "Settings_PauseOnStandby" "Pause rendering when headset is idle"
+"Settings_DebugInputBindings" "Enable debugging options in the input binding user interface"
+"Settings_DebugInputBindings_URL" "View bindings in your <a %1>desktop browser</a> (requires Chrome or Firefox)."
 
 "Settings_CheckForMissedFramesWarning" "Show missed frame warning"
 "Settings_ShowPlaylistMenu" "Show Playlist Menu"
@@ -312,10 +314,14 @@
 "Settings_Bluetooth_ServicesNotAvailable" "Bluetooth Services Not Available."
 "Settings_Bluetooth_ScanForBaseStations" "Scan For Base Stations"
 "Settings_Bluetooth_ScanForBaseStations_Explanation" "This scans for Base Stations broadcasting their Bluetooth presence that have been part of a previous tracking session."
+"Settings_Bluetooth_ConfigureBaseStations" "Configure Base Station Channels"
+"Settings_Bluetooth_ConfigureBaseStations_Explanation" "This scans for broadcasting Base Stations and allows manual or automatic configuration of their optical channels to avoid tracking conflicts."
 "Settings_Bluetooth_Driver_Install" "Install Bluetooth Driver"
 "Settings_Bluetooth_Driver_Install_Description"	"Install the Link Box Bluetooth driver to enable wireless Bluetooth communication features. This requires administrative credentials."
 "Settings_Bluetooth_Driver_Update" "Update Bluetooth Driver"
 "Settings_Bluetooth_Driver_Update_Description" "Update the Link Box Bluetooth driver to enable wireless Bluetooth communication features. This requires administrative credentials."
+"Settings_Bluetooth_BaseStation10" "Base Station 1.0"
+"Settings_Bluetooth_BaseStation20" "Base Station 2.0"
 
 "Settings_Camera_EnableCamera" "Enable Camera"
 "Settings_Camera_AllowCameraInDashboard" "Allow Camera In Dashboard"
@@ -374,6 +380,10 @@
 "Settings_Advanced_Reset_Header" "Reset"
 "Settings_Advanced_Paths_Header" "Paths"
 "Settings_Advanced_DirectMode_Header" "Direct Mode"
+"Settings_Advanced_MotionSmoothing_Header" "Motion Smoothing"
+"Settings_Advanced_MotionSmoothing_Description" "When this is enabled, SteamVR synthesizes new frames to maintain a good experience when the running application cannot make framerate."
+"Settings_Advanced_MotionSmoothing" "Enable Motion Smoothing"
+"Settings_Advanced_MotionSmoothing_Disabled" "Motion Smoothing requires asynchronous reprojection support."
 
 "Settings_Advanced_Supersampling_Header" "Application Resolution"
 "Settings_Advanced_AllowSupersampleFiltering" "Enable Advanced Supersample Filtering" 
@@ -391,6 +401,11 @@
 "Settings_PerApplication_OverlayVisibleCheckbox" "Start this overlay application when SteamVR launches."
 "Settings_PerApplication_DashboardSuffix" "(Overlay Application)"
 "Settings_PerApplication_CustomSuffix" "(Custom)"
+"Settings_PerApplication_MotionSmoothing_Header" "Motion Smoothing"
+"Settings_PerApplication_MotionSmoothing_Description" "Use the checkbox below to override the global setting for Motion Smoothing for this application. (Global setting for Motion Smoothing is <font color=#eeeeee>%1</font>)"
+"Settings_PerApplication_MotionSmoothing_On" "On"
+"Settings_PerApplication_MotionSmoothing_Off" "Off"
+"Settings_PerApplication_MotionSmoothing_Checkbox" "Enable Motion Smoothing for this application"
 
 "Settings_Audio_Header"  "Audio Settings"
 "Settings_Audio_On"  "When SteamVR is active"
@@ -404,6 +419,7 @@
 "Settings_Audio_NoMirror"  "Do not mirror"
 
 "BaseStation_Channel_Text" "Channel %1"
+"BaseStation_Mode_Text" "Mode %1"
 
 "SystemReport_Issues" "Issues"
 "SystemReport_Main" "Main"
@@ -523,6 +539,9 @@
 "Advanced_AsyncActive" "Async Reprojection On"
 "Advanced_AsyncNotActive" "Async Reprojection Off"
 
+"Advanced_MotionEstimationActive" "Motion Estimation On"
+"Advanced_MotionEstimationNotActive" "Motion Estimation Off"
+
 "Advanced_DashboardUp" "Dashboard On"
 "Advanced_DashboardDown" "Dashboard Off"
 
@@ -543,6 +562,7 @@
 "MessageBox_RestartLater" "Restart Later"
 "MessageBox_Next" "Next"
 "MessageBox_Submit" "Submit"
+"MessageBox_Stop" "Stop"
 
 "MonitorController_NotAbleToStartSteam" "Not able to start Steam."
 
@@ -1019,6 +1039,46 @@
 "ScanForBaseStation_NoKnownStations" "Scan Completed.\n\nThere are broadcasting Base Stations within your proximity, but none of them have been used for tracking yet."
 "ScanForBaseStation_NoStationsFound" "Scan Completed.\n\nThere are no broadcasting Base Stations within your proximity."
 "ScanForBaseStations_Refresh" "Scan Again"
+
+"BS20_ConfigureChannel_Title"								"Base Station 2.0 Channel Configuration"
+"BS20_ConfigureChannel_BluetoothRequired"					"Channel configuration requires Bluetooth communication to be enabled.\n\nPlease enable Bluetooth communication in Settings."
+"BS20_ConfigureChannel_BaseStationName"						"Configuring %1 on Channel %2"
+"BS20_ConfigureChannel_Description"							"Select an unused channel for this Base Station to avoid potential tracking conflicts."
+"BS20_ConfigureChannel_InUseByPrefix"						"Currently used by:"
+"BS20_ConfigureChannel_Legend"								"Denotes a channel used by other Base Stations in radio proximity.".
+"BS20_ConfigureChannel_AutomaticConfiguration"				"Automatic Configuration"
+"BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"There are no channel conflicts."
+"BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"There are no free channels to resolve %1 potential channel conflicts. You may need to manually configure channels."
+"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"There are only enough free channels to resolve %1 out of %2 potential channel conflicts. Continue and resolve conflicts?"
+"BS20_ConfigureChannel_AutoConfigContinue"					"There are %1 potential channel conflicts that can be automatically resolved by re-assigning their channels. Continue and resolve conflicts?"
+"BS20_ConfigureChannel_AutoConfig_SuccessfulCompletion"		"Automatic Configuration completed.\n\nThere are no channel conflicts."
+"BS20_ConfigureChannel_AutoConfig_Incomplete"				"Automatic Configuration completed.\n\nThere are %1 remaining potential channel conflicts. You may need to manually configure channels."
+"BS20_ConfigureChannel_AutoConfig_UnknownChannels"			"There are %1 Base Stations whose channels could not be determined that may result in potential channel conflicts.\n"
+"BS20_ConfigureChannel_ChannelConfigurationFailure"			"%1 failed to accept the requested channel configuration."
+"BS20_ConfigureChannel_ScanForMore"							"Scan For More"
+"BS20_ConfigureChannel_Apply"								"Apply"	
+"BS20_ConfigureChannel_Connecting"							"Connecting..."
+"BS20_ConfigureChannel_Channel"								"Channel: %1"
+"BS20_ConfigureChannel_ConnectionFailure"					"%1 failed to connect."
+"BS20_ConfigureChannel_FirmwareUpdateRequired"				"%1 requires a firmware update to allow channel configuration."
+"BS20_ConfigureChannel_ConflictWarning"						"%1 is using the same channel as another Base Station."
+"BS20_ConfigureChannel_FailedToConnectRetry"				"%1 failed to connect. Click 'Retry' to try again."
+"BS20_ConfigureChannel_ConflictOnChannel"					"Potential conflict on Channel %1"
+"BS20_ConfigureChannel_NoConflictOnChannel"					"No conflict on Channel %1"
+"BS20_ConfigureChannel_ProgressScanComplete"				"Scan Completed.\n\nClick on a channel link to change it."
+"BS20_ConfigureChannel_ProgressScanNoStationsFound"			"Scan Completed.\n\nThere are no broadcasting 2.0 Base Stations within your proximity."
+"BS20_ConfigureChannel_ProgressScanning"					"Scanning For Base Stations...\n\n%1 Seconds Remaining."
+"BS20_ConfigureChannel_ProgressConnecting"					"\nConnecting To Base Station...\n"
+"BS20_ConfigureChannel_ProgressDisconnecting"				"\nDisconnecting...\n"
+"BS20_ConfigureChannel_ProgressDiscoveringServices"			"\nDiscovering Services...\n"
+"BS20_ConfigureChannel_ProgressReadingFirmwareVerion"		"\nReading Firmware Version...\n"
+"BS20_ConfigureChannel_ProgressReadingManufacturer"			"\nReading Manufacturer Name...\n"
+"BS20_ConfigureChannel_ProgressReadingModelNumber"			"\nReading Model Number...\n"
+"BS20_ConfigureChannel_ProgressReadingSerialNumber"			"\nReading Serial Number...\n"
+"BS20_ConfigureChannel_ProgressReadingChannel"				"\nReading Channel...\n"
+"BS20_ConfigureChannel_ProgressWritingChannel"				"\nWriting Channel...\n"
+"BS20_ConfigureChannel_ObservedInTracking"					"Observed in a tracking session"
+"BS20_ConfigureChannel_RSSI"								"RSSI: %1"
 
 }
 }

@@ -259,7 +259,7 @@
 			"name" : "screenshot_chord",
 			"type" : "boolean_and",
 			"action_sets" : [ "/actions/system" ],
-			"input" : 
+			"input" :
 			{
 				"1":"/filters/system_button/held",
 				"2":"/filters/any_trigger_chord/result"
@@ -269,7 +269,7 @@
 	],
 	"bindings" :
 	{
-		"/actions/dualanalog" : { 
+		"/actions/dualanalog" : {
 		"sources" :
 		[
 		{
@@ -277,15 +277,15 @@
 			"mode" : "trackpad",
 			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 					"output" : "/actions/dualanalog/in/LeftClick"
 				},
-				"touch" : 
+				"touch" :
 				{
 					"output" : "/actions/dualanalog/in/LeftTouch"
 				},
-				"position" : 
+				"position" :
 				{
 					"output" : "/actions/dualanalog/in/LeftValue"
 				}
@@ -296,15 +296,15 @@
 			"mode" : "trackpad",
 			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 					"output" : "/actions/dualanalog/in/RightClick"
 				},
-				"touch" : 
+				"touch" :
 				{
 					"output" : "/actions/dualanalog/in/RightTouch"
 				},
-				"position" : 
+				"position" :
 				{
 					"output" : "/actions/dualanalog/in/RightValue"
 				}
@@ -315,7 +315,7 @@
 			"mode" : "button",
 			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 					"output" :	"/actions/dualanalog/in/ModeSwitch1"
 				}
@@ -326,22 +326,22 @@
 			"mode" : "button",
 			"inputs" :
 			{
-				"click" : 
-				{	
-					  "output" : "/actions/dualanalog/in/ModeSwitch2"	
+				"click" :
+				{
+					  "output" : "/actions/dualanalog/in/ModeSwitch2"
 				}
 			}
 		}
 		] },
 		"/actions/lasermouse" : {
-		"sources": 
+		"sources":
 		[
 		{
 			"path" : "/user/hand/right/input/trigger",
 			"mode" : "button",
-			"inputs" : 
+			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 						"output" : "/actions/lasermouse/in/LeftClick"
 				}
@@ -350,9 +350,9 @@
 		{
 			"path" : "/user/hand/right/input/grip",
 			"mode" : "button",
-			"inputs" : 
+			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 						"output" : "/actions/lasermouse/in/Back"
 				}
@@ -361,9 +361,9 @@
 		{
 			"path" : "/user/hand/right/input/application_menu",
 			"mode" : "button",
-			"inputs" : 
+			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 						"output" : "/actions/lasermouse/in/Home"
 				}
@@ -409,9 +409,9 @@
 		{
 			"path" : "/user/hand/left/input/trigger",
 			"mode" : "button",
-			"inputs" : 
+			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 						"output" : "/actions/lasermouse/in/LeftClick"
 				}
@@ -420,9 +420,9 @@
 		{
 			"path" : "/user/hand/left/input/grip",
 			"mode" : "button",
-			"inputs" : 
+			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 						"output" : "/actions/lasermouse/in/Back"
 				}
@@ -431,9 +431,9 @@
 		{
 			"path" : "/user/hand/left/input/application_menu",
 			"mode" : "button",
-			"inputs" : 
+			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 						"output" : "/actions/lasermouse/in/Home"
 				}
@@ -487,17 +487,17 @@
 				"output": "/actions/lasermouse/in/Pointer",
 				"path": "/user/hand/right/pose/tip"
 			}
-		
+
 		] },
 		"/actions/lasermouse_secondary" : {
-		"sources": 
+		"sources":
 		[
 		{
 			"path" : "/user/hand/left/input/trigger",
 			"mode" : "button",
-			"inputs" : 
+			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 						"output" : "/actions/lasermouse_secondary/in/SwitchLaserHand"
 				}
@@ -506,9 +506,9 @@
 		{
 			"path" : "/user/hand/right/input/trigger",
 			"mode" : "button",
-			"inputs" : 
+			"inputs" :
 			{
-				"click" : 
+				"click" :
 				{
 						"output" : "/actions/lasermouse_secondary/in/SwitchLaserHand"
 				}
@@ -527,7 +527,7 @@
 			{
 				"output": "/actions/system/in/TakeScreenshot",
 				"inputs": [ ["/user/hand/right/input/system", "held" ], ["/user/hand/right/input/trigger", "click"] ]
-			}	
+			}
 		],
 		"sources" :
 		[
@@ -541,7 +541,7 @@
 			},
 			{
 				"path" : "/user/hand/left/input/system",
-				"mode" : "complex_button",
+				"mode" : "button",
 				"inputs" :
 				{
 					"held" :
@@ -553,7 +553,7 @@
 							"long_press_delay" : 1.5,
 							"output" : "/actions/system/in/ShowPowerMenu"
 					},
-					"single" :
+					"click" :
 					{
 							"output" : "/actions/system/in/ToggleDashboard"
 					},
@@ -565,7 +565,7 @@
 			},
 			{
 				"path" : "/user/hand/right/input/system",
-				"mode" : "complex_button",
+				"mode" : "button",
 				"inputs" :
 				{
 					"held" :
@@ -577,7 +577,7 @@
 							"long_press_delay" : 1.5,
 							"output" : "/actions/system/in/ShowPowerMenu"
 					},
-					"single" :
+					"click" :
 					{
 							"output" : "/actions/system/in/ToggleDashboard"
 					},

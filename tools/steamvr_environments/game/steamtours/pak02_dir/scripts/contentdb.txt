@@ -405,7 +405,7 @@
 			preview_image = "file://{images}/contentdb/vive_pro_headset.png"
 			locked_by_quest = false
 			//inventory_service_id = 122
-		}
+		},	
 	]
 
 	avatar_hands =
@@ -425,11 +425,18 @@
 			preview_image = "file://{images}/contentdb/oculus_cv1_controller.png"
 		},
 		{
-			id = "knuckles_controllers"
+			id = "knuckles_ev1_3_controllers"
 			name = "#VR_Avatar_Knuckles"
 			desc = "#VR_Avatar_Knuckles_Desc"
 			content = "models/controller/knuckles_ev_1_3/knuckles_left_ev_1_3.vmdl"
-			preview_image = "file://{images}/contentdb/knuckles_dev_thumb.png"
+			preview_image = "file://{images}/contentdb/knuckles_ev13.png"
+		},
+		{
+			id = "knuckles_controllers"
+			name = "#VR_Avatar_Knuckles"
+			desc = "#VR_Avatar_Knuckles_Desc"
+			content = "models/controllers/valve_controller_knu_ev2_0_left.vmdl"
+			preview_image = "file://{images}/contentdb/knuckles_ev20.png"
 		},
 		{
 			id = "windowsmr_controllers"
@@ -1706,8 +1713,8 @@
 		},	
 		{
 			id = "balloonicorn_squishable"
-			name = "#VR_PhysicsProp_Balloonicorn_Squishable"
-			desc = "#VR_PhysicsProp_Balloonicorn_Squishable_Desc"
+			name = "(FSR) Squishable Ballonicorn"
+			desc = "(FSR) Squishable Ballonicorn"
 			content = "models/props_gameplay/balloonicorn_squishable.vmdl"
 			preview_image = "file://{images}/contentdb/balloonicorn.png"
 			locked_by_quest = false
@@ -1715,9 +1722,29 @@
 			dev_only = true
 		},	
 		{
+			id = "fsr_test_simple_morph"
+			name = "(FSR) Simple Morph"
+			desc = "(FSR) Simple Morph"
+			content = "models/props_gameplay/simplemorph_squash.vmdl"
+			preview_image = "file://{images}/contentdb/basic_sphere001.png"
+			locked_by_quest = false
+			default_color = [ 255,255,255 ]
+			dev_only = true
+		},	
+		{
+			id = "fsr_test_softbody_squash"
+			name = "(FSR) Softbody Squash"
+			desc = "(FSR) Softbody Squash"
+			content = "models/props_gameplay/softbody_squash.vmdl"
+			preview_image = "file://{images}/contentdb/head_e_thumb.png"
+			locked_by_quest = false
+			default_color = [ 52,192,193 ]
+			dev_only = true
+		},	
+		{
 			id = "egg_fracture"
-			name = "#VR_PhysicsProp_Egg_Fracture"
-			desc = "#VR_PhysicsProp_Egg_Fracture_Desc"
+			name = "(FSR) Egg Fracture"
+			desc = "(FSR) Egg Fracture"
 			content = "models/props_gameplay/egg.vmdl"
 			preview_image = "file://{images}/contentdb/watermelon.png"
 			locked_by_quest = false
@@ -2630,6 +2657,19 @@
 			inventory_service_promo_appid = 611670
 			inventory_service_id = 1095
 			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "tf2_sentry1_toolbox"
+			name = "#VR_PhysicsProp_TF2Sentry1Toolbox"
+			desc = "#VR_PhysicsProp_TF2Sentry1Toolbox_Desc"
+			content = "models/props/toys/tf2_sentry1/tf2_sentry1_toolbox.vmdl"
+			script = "props/tf2_sentry1_toolbox"
+			equip_sound = "freeze_tool_equip"
+			preview_image = "file://{images}/contentdb/tf2_sentry1_toolbox.png"
+			locked_by_quest = false
+			// inventory_service_id = 1096
+			default_color = [ 255,255,255 ]
+			dev_only = true
 		},
 		{
 			id = "nevrosa_escape_cube"
@@ -3818,6 +3858,15 @@
 			addon = "mount_rainier_camp"
 			steamvr_addon = "1180765965" // id on public
 		},
+		{
+			id = "quest_tf2_sentry1"
+			name = "#Quest_TF2Sentry1"
+			desc = "#Quest_TF2Sentry1_Desc"
+			preview_image = "file://{images}/contentdb/tf2_sentry1.png"
+			item_generator = "item_generator_tf2_sentry1"
+			addon = "asset_pack_tf2_spytech"
+			steamvr_addon = "1449138879"
+		},
 	]
 
 	quests_detector =
@@ -4039,6 +4088,15 @@
 			items = [
 				{
 					id = "tf2_yeti"
+				}
+			]
+		},
+		// supervillain lair quest
+		{
+			id = "item_generator_tf2_sentry1"
+			items = [
+				{
+					id = "tf2_sentry1_toolbox"
 				}
 			]
 		},

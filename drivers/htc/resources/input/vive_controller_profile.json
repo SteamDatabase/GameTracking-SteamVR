@@ -17,48 +17,64 @@
   {
     "/input/trackpad" : { 
         "type" : "trackpad",
-        "binding_image_point" : [ 10, 59 ],
+        "binding_image_point" : [ 66, 59 ],
         "order" : 2
     },
     "/input/trigger" : {
         "type" : "trigger",
-        "binding_image_point" : [ 35, 64 ],
+        "binding_image_point" : [ 41, 64 ],
         "order" : 1
     },
     "/input/grip" : {
         "type" : "button",
-        "binding_image_point" : [ 24, 87 ],
+        "binding_image_point" : [ 52, 87 ],
         "order" : 3
     },
     "/input/application_menu" : {
         "type" : "button",
-        "binding_image_point" : [ 12, 35 ],
+        "binding_image_point" : [ 64, 35 ],
         "order" : 4
     },
     "/input/system" : {
         "type" : "button",
-        "binding_image_point" : [ 9, 81 ],
+        "binding_image_point" : [ 67, 81 ],
         "order" : 5
+    },
+    "/input/skeleton/right" : {
+        "type" : "skeleton",
+	"side" : "right",
+	"skeleton" : "/skeleton/hand/right",
+        "binding_image_point" : [ 62, 16 ]
+    },
+    "/input/skeleton/left" : {
+        "type" : "skeleton",
+	"side" : "left",
+	"skeleton" : "/skeleton/hand/left",
+        "binding_image_point" : [ 62, 16 ]
     },
     "/pose/raw" : {
         "type" : "pose",
-        "binding_image_point" : [ 14, 16 ]
+        "binding_image_point" : [ 62, 16 ]
     },
     "/pose/base" : {
         "type" : "pose",
-        "binding_image_point" : [ 11, 150 ]
+        "binding_image_point" : [ 65, 150 ]
     },
     "/pose/handgrip" : {
         "type" : "pose",
-        "binding_image_point" : [ 24, 86 ]
+        "binding_image_point" : [ 52, 86 ]
     },
     "/pose/tip" : {
         "type" : "pose",
-        "binding_image_point" : [ 14, 16 ]
+        "binding_image_point" : [ 62, 16 ]
     },
     "/pose/gdc2015" : {
         "type" : "pose",
-        "binding_image_point" : [ 14, 16 ]
+        "binding_image_point" : [ 62, 16 ]
+    },
+    "/output/haptic" : {
+        "type" : "vibration",
+        "binding_image_point" : [ 66, 59 ]
     }
   }
 }

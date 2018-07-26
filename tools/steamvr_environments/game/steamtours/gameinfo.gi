@@ -20,10 +20,9 @@
 
 	FileSystem
 	{
-		SteamAppId				453170	// Steam[public] Destinations
-		SteamVRAppID			250820  // SteamVR
+		SteamAppId				250820	// SteamVR (default)
+		SteamVRAppID			250820  // SteamVR (explicit)
 		SteamVRAppIDMain	330050  // [Main] SteamVR
-		SteamAppIdPublic	453170	// Steam[public] Destinations
 		
 		//
 		// The code that loads this file automatically does a few things here:
@@ -44,6 +43,8 @@
 			Game				core
 			AddonRoot			steamtours_addons
 		}
+
+		"AllowAddonDependencies" "1"
 	}
 
 	MaterialSystem2
@@ -160,8 +161,6 @@
 		"EnvironmentMapColorSpace" "srgb"
 		"EnvironmentMapMipProcessor" "GGXCubeMapBlur_RGBM"
 		"EnvironmentMapEntities" "1"
-		"PerVertexLightingTexturePageSize" "512"
-		"PerVertexLightingTexturePageCountMax" "2048"
 	}
 	
 	Source1Import
@@ -174,5 +173,10 @@
 	SoundSystem
 	{
 		"DisableSteamAudio"			"0"
+	}
+
+	RenderSystem
+	{
+		"AllowSampleableDepthInVr" "1"
 	}
 }

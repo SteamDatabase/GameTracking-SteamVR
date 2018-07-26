@@ -7,6 +7,7 @@
 	 or unterminated input element such as: "STRING["]
 	%s at offset %d, 
 	>Nsj?
+	AUH)
 	Max size allowed : %d Requested : %d
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
         %3d %3d %3d %3d %3d %3d %3d %3d
@@ -56,7 +57,6 @@
  HcClI)
  IcD$`L
  IcD$lI)
- IcT$
  Lc[PH)
  Lc[hH)
  Lc[lH
@@ -83,7 +83,16 @@
 "2BRbr
 "=?`p
 "A\A]A^]
+"channels" attribute not found in the header.
+"compression" attribute not found in the header.
+"dataWindow" attribute not found in the header or invalid.
+"displayWindow" attribute not found in the header.
+"lineOrder" attribute not found in the header.
+"pixelAspectRatio" attribute not found in the header.
+"screenWindowCenter" attribute not found in the header.
+"screenWindowWidth" attribute not found in the header.
 "t&L;}
+# of channels is zero.
 ############# GDB Detected
 #3CScs
 #OpenGL_ContextCreationFailed
@@ -149,10 +158,10 @@ $woL)
 %s: Lock size is too large!
 %s: OpenGL renderer %s
 %s: OpenGL vendor %s
+%s: Unable to start game: %s
 %s: Using OpenGL context version %u.%u
 %s: Warning: No compile targets specified! Shader will not be compiled!
 %s: string format requested %d chars
-%s\%s
 %s_%d_%d_%d_%d
 %x:%x
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -168,10 +177,10 @@ $woL)
 (*%s*), 
 (8HXhx
 (D>C9[
-(Lc'A
 (On the line reading %s):
 ([A\A]A^A_]
 ([A\A]]
+([A\A^]
 ([]A\A]A^A_
 ([]A\A]A^A_H
 (b f.
@@ -249,24 +258,24 @@ $woL)
 *** Unknown text found in FEATURES section in %s: "%s"
 *** VB "%s": Tried to lock a GPU-only buffer!
 *** VB "%s": Tried to lock too much memory (%d>%d)!
-*** vfx_common.cpp(1009): Error opening file "%s"!
-*** vfx_common.cpp(1019): Error masking unused parts for "%s"!
-*** vfx_common.cpp(1088): Error opening file "%s"!
-*** vfx_common.cpp(1098): Error masking unused parts for "%s"!
-*** vfx_common.cpp(1247): Error opening file "%s"!
-*** vfx_common.cpp(1324): Error opening file "%s"!
-*** vfx_common.cpp(181): Don't call VfxInit() more than once!
-*** vfx_common.cpp(191): g_pFullFileSystem must be set up before calling VfxInit!
-*** vfx_common.cpp(5029): Error opening file "%s"!
-*** vfx_common.cpp(5179): Error opening include file in features list"%s"!
-*** vfx_common.cpp(5218): Error opening file "%s"!
-*** vfx_common.cpp(5447): Error opening file "%s"!
-*** vfx_common.cpp(5481): Error opening file "%s"!
-*** vfx_common.cpp(5520): Error opening file "%s"!
-*** vfx_common.cpp(5624): Error opening file "%s"!
-*** vfx_common.cpp(6079): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
-*** vfx_common.cpp(7214): Programmer Error! NULL pointer passed into function!
-*** vfx_common.cpp(7240): Programmer Error! Non feature rule found in feature rule array!
+*** vfx_common.cpp(1010): Error opening file "%s"!
+*** vfx_common.cpp(1020): Error masking unused parts for "%s"!
+*** vfx_common.cpp(1089): Error opening file "%s"!
+*** vfx_common.cpp(1099): Error masking unused parts for "%s"!
+*** vfx_common.cpp(1248): Error opening file "%s"!
+*** vfx_common.cpp(1325): Error opening file "%s"!
+*** vfx_common.cpp(182): Don't call VfxInit() more than once!
+*** vfx_common.cpp(192): g_pFullFileSystem must be set up before calling VfxInit!
+*** vfx_common.cpp(5043): Error opening file "%s"!
+*** vfx_common.cpp(5192): Error opening include file in features list"%s"!
+*** vfx_common.cpp(5231): Error opening file "%s"!
+*** vfx_common.cpp(5460): Error opening file "%s"!
+*** vfx_common.cpp(5494): Error opening file "%s"!
+*** vfx_common.cpp(5533): Error opening file "%s"!
+*** vfx_common.cpp(5637): Error opening file "%s"!
+*** vfx_common.cpp(6092): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
+*** vfx_common.cpp(7219): Programmer Error! NULL pointer passed into function!
+*** vfx_common.cpp(7245): Programmer Error! Non feature rule found in feature rule array!
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN13CSOAContainer9FilterInXEi9IntAABB_tiPKfbEUliE_EEMS8_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 *:JZjz
 *S?~uJ?x
@@ -480,13 +489,13 @@ $woL)
 15CMemberFunctor1IP26CParallelProcessorAbstractI18CParallelProcessorIi27CMemberFuncJobItemProcessorIi11CCallQueueTI8CTSQueueIP8CFunctorLb0EEES8_ELi1EEEMSB_FviEi12CRefCounted1IS5_20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor1IP26CParallelProcessorAbstractI22CParallelLoopProcessorI13FloatBitMap_t31CLoopMemberFuncJobItemProcessorIS2_S2_S2_EEEMS6_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor1IP26CParallelProcessorAbstractI22CParallelLoopProcessorI25FloatBitmapResampleInfo_t25CLoopFuncJobItemProcessorIS2_EEEMS6_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor4IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequest11CWeakHandleI31InfoForResourceTypeCTextureBaseE22TextureSpecification_tiES3_S6_S7_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CMemberFunctor4IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequestP12CTextureBase22TextureSpecification_tiES3_S5_S6_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor5IP13CSOAContainerMS0_Fvi9IntAABB_tiPKfbEiS2_iS4_b12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor6IP13CSOAContainerMS0_FviiiiiU8__vectorfEiiiiiS2_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor6IP19CTextureManagerBaseMS0_Fv11CWeakHandleI31InfoForResourceTypeCTextureBaseEPvi22TextureSpecification_ti30TextureOnDiskCompressionType_tES4_S5_iS6_iS7_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor7IP13CSOAContainerMS0_FvS1_iiiiiiES1_iiiiii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor7IP13CSOAContainerMS0_FviiiiPKS0_iiEiiiiS3_ii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor7IP13CSOAContainerMS0_FviiiiiiiEiiiiiii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CMemberFunctor7IP19CTextureManagerBaseMS0_Fv12ResourceId_tP12CTextureBasePvi22TextureSpecification_ti30TextureOnDiskCompressionType_tES2_S4_S5_iS6_iS7_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor8IP13CSOAContainerMS0_FviiiiPKS0_iiiEiiiiS3_iii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor9IP13CSOAContainerMS0_Fviiiiiii6VectorbEiiiiiiiS2_b12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CRenderDeviceGL
@@ -626,11 +635,13 @@ $woL)
 29CKeyValuesDumpContextAsDevMsg
 29ICompressWriteCoderProperties
 2DArray
+2f;7t
 2|&fB
 3+C$H
 31CCompileTargetExprOpCodeHandler
 31CDefaultIntrospectedTypeManagerILy2019914870E15TextureHeader_tE
 32CResourceReferenceFixupTraversal
+333333
 34CSchemaRegistration_rendersystemgl
 37CCompileTargetExprStackMachineBuilder
 3E8 u
@@ -684,16 +695,20 @@ $woL)
 9T$0~	H
 9W|t.L
 9\?8c{
+9]SkC/
 : lexer error %d :
 :>	As?K
-:[tLL
+:[tlL
 ;*3$"
 ;*t*1
+;5)';
+;@:8t"
 ;w`v.L
 <	McO
 <	w.1
 <	woD
 < u0L
+<$/tyL
 <$A\A]A^]
 </tF<*u
 </uLH
@@ -751,7 +766,9 @@ $woL)
 ?LZMAt
 ?Out of Memory
 ?UNKNOWNTYPE
+?VGUI
 ?_addons
+?u0E1
 ?u='@
 ?|7m=U
 ?}t%L
@@ -866,11 +883,13 @@ AUATSf
 AUATStII
 AUATStMI
 AUATStU
+AUATStUD
 AUATStmH
 AUATUS
 AUATUSD
 AUATUSH
 AUATUSv
+AVATI
 AVATSH
 AVAUA
 AVAUATA
@@ -882,6 +901,7 @@ AVAUATMc
 AVAUATS
 AVAUATSD
 AVAUATSH
+AVAUATSL
 AVAUATUH
 AVAUATUSD
 AVAUATUSH
@@ -902,6 +922,7 @@ AWAVAUATI
 AWAVAUATI9
 AWAVAUATL
 AWAVAUATLc
+AWAVAUATM
 AWAVAUATS
 AWAVAUATSD
 AWAVAUATSH
@@ -931,7 +952,6 @@ A\A]A^]
 A\A]]
 A\A]]A
 A]A^]
-AbandonOutstandingStreamingRequest
 Actually dude, we didn't seem to be expecting anything here, or at least
 AddMultipleToTail
 AddRef
@@ -966,6 +986,7 @@ Attempt to set buffer size beyond max ignored
 Attempting to create OpenGL context: v%d.%d (%s profile)...
 B IcU0
 B channel not found
+B channel not found in %s
 B(H9A(w$
 B,McO
 BA?8gV?
@@ -1066,7 +1087,7 @@ CPtRHcS$H
 CRC error
 CRenderContextGL:: Cannot resolve from a non-MSAA buffer to an MSAA buffer!
 CRenderContextGL:: Tried to resolve 2 textures of differing sizes!
-CRenderContextGL:: Tryign to resolve from a rect that is outside of the src rendertarget
+CRenderContextGL:: Trying to resolve from a rect that is outside of the src rendertarget
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s
 CRenderDeviceBase::InitPerFrameMemoryStack
 CRenderDeviceGL::CreateGeometryShader: Geometry shader bytecode is too small
@@ -1116,14 +1137,15 @@ C`v9f.
 CalcDynamicComboIdFromValues
 CalcStaticComboIdFromValues
 Call to NULL read function
+Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request
 Can't detect memory size on this platform!
 Can't discard critical data on CRC error
 Can't set both read_data_fn and write_data_fn in the same structure
 Cannot allocate virtual address space in CResourceStreamVM::ReserveVirtualMemory, error %u
-Cannot find R, G, or B channels.
 Cannot quantize more than %d color components
 Cannot quantize to fewer than %d colors
 Cannot quantize to more than %d colors
+Cannot reconstruct lineOffset table.
 Cannot transcode due to multiple use of quantization table %d
 Caution: quantization tables are too coarse for baseline JPEG
 Cc}L)
@@ -1133,6 +1155,7 @@ Checked pending presents %s times; waited %s times; abandoned %s times
 ChildOf
 ChildOf( 
 Chipset version %d %d 
+Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore
 Clibpng warning: %s
 Closed temporary file %s
 Command stream pools: %s bytes in base, %s bytes in medium, %s bytes in large (%s extra data fallbacks)
@@ -1172,12 +1195,12 @@ Could not find required OpenGL entry point '%s'!
 CpH9Cx
 CreateDevice: Requested DX level %d, clamped to DX level %d
 CreateInterface
+CreateRenderThread
 CreateSimpleThread
 CubeMapFace_t
 D$ A#
 D$ H9
 D$ H9D$
-D$ L9
 D$ Lc
 D$$-x
 D$(-Hq
@@ -1188,7 +1211,6 @@ D$(I;
 D$(IcT$
 D$0A\A]A^]
 D$0H9
-D$0L9
 D$8D+|$8+D$ 
 D$8E1
 D$8I9
@@ -1197,8 +1219,10 @@ D$@E1
 D$@H9
 D$@I9
 D$@L9
+D$@Lc
 D$D[A\]
 D$HfA
+D$PE1
 D$PM!
 D$XA9GXu
 D$\M9
@@ -1224,8 +1248,7 @@ D24X8_SHADOW
 D84;t
 D8T;4
 D9+~/L
-D93~"Mc/E;o
-D9=I}:
+D9-655
 D9A$t
 D9F<~
 D9L$0A
@@ -1239,7 +1262,6 @@ D:z	t
 D:z	tUHc
 D;!t{Hc
 D;"tsHc
-D;)th
 D;c D
 D;k u
 D;k`v0L
@@ -1250,7 +1272,6 @@ D;o ~&H
 D;sdt
 D;{8D
 DATAH
-DATAL
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
 DEPRECATION
@@ -1281,7 +1302,7 @@ Didn't expect more than one scan
 Direct3D 11
 Direct3D 9
 Disabling GL_ARB_buffer_storage for RenderDoc.
-Discarding abandoned streaming texture load
+Discarding abandoned streaming texture load for %s
 Display GPU memory usage.
 Display mode : %d x %d @%dHz (%s)
 Domain Shader
@@ -1337,14 +1358,13 @@ E09E(
 E0[A\A]A^]
 E9&~xMc/E;o
 E9'~?L
-E9/~}L
 E9C$t!H
 E9gPI
 E9l$8
 E9l$\
-E9t$ ~kI
 E9t$8H
 E9t$\
+E9|$ ~bI
 E;D$$
 E;\$8
 E;f@}BI
@@ -1354,10 +1374,9 @@ E;t$ t!I
 E;}<L
 EDeviceCreated
 EMPTY - ok for slot zero only!
+EPHcM0H
 ERROR
 ERROR!
-ERROR! LoadFromEXR( %s ) failed!
-ERROR! LoadFromEXR( %s ) failed! Error message: %s
 ERROR: CAtomicManipulator::Allocate() Cannot allocate CResourceArray
 ERROR: CAtomicManipulator::AllocateAndCopy() Cannot allocate CResourceArray
 ERROR: CAtomicManipulator::Copy() Cannot copy CResourceArray(FIXME: maybe you can?)
@@ -1370,6 +1389,10 @@ ESC_SEQ
 EXA;]`
 EXECUTABLE_PATH
 EXPORTSYSTEM_INTERFACE_VERSION_001
+EXRHeader is not initialized.
+EXRReadFile() - B channel not found!
+EXRReadFile() - G channel not found!
+EXRReadFile() - R channel not found!
 Early exit
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -1398,6 +1421,8 @@ Exceeded size limit while expanding chunk
 Execute
 ExitAndReportBadThirdPartyProcesses
 Expecting compressed combo data
+ExternalDescSet
+Externally allocated textures unsupported in GL
 Extra compressed data
 Extra compression data
 Extraneous token
@@ -1433,9 +1458,9 @@ Failed to fix resource reference '%s' (%s)- ID = %016llX, Expected in extref blo
 Failed to load shader using program binary.  Falling back to shader source.  Log string from driver:
 Failed to map from %s to content-path
 Failed to map from %s to game-path
+Failed to parse channel info.
 Failed to save video settings config to '%s'
 Failed trying to Commit %u bytes, used %u bytes, reserved %u bytes
-FailedLock
 FeatureRule
 Features
 File has not been opened!
@@ -1467,15 +1492,19 @@ FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 Forcing SM30 shaders to workaround mesa bug with sampler bindings > 16.
 FormatV
+Found %d streaming textures in array, but in-flight count is %d
 Fractional sampling not implemented yet
 Freed EMS handle %u
 Freed XMS handle %u
 From Class Binding
 From Enum Binding
+G	tEH
 G A9G
+G I+G
 G I;G(
 G I;G(r
 G channel not found
+G channel not found in %s
 G u)H
 G$+GX;G,@
 G8I;G@
@@ -1489,6 +1518,7 @@ G<@t1H
 G<@t:
 G<@tLL
 G<@tUI
+G<@ta
 G<@th
 G<@tp
 G<UHc
@@ -1505,7 +1535,9 @@ GL shader cache TOC file version is %d instead of %d for %s
 GL texture manager frame update
 GL: [%s][%s][%s][%d]: %s
 GLIBCXX_3.4
+GLIBCXX_3.4.11
 GLIBCXX_3.4.14
+GLIBCXX_3.4.9
 GLIBC_2.11
 GLIBC_2.14
 GLIBC_2.2.5
@@ -3605,14 +3637,9 @@ H9*tgH
 H92t)H
 H97trH
 H9C(rXL
-H9GHt
 H9O0r
 H9W8t	]
 H;0tGH
-H;=:S7
-H;=RS7
-H;=TR7
-H;=i%7
 H;B(uLL
 H;C r
 H;CHs
@@ -3623,6 +3650,7 @@ H;v0I
 H;v0t
 H;v0t!
 H;v8t
+H=vpcf
 HEADER
 HEX_DIGIT
 HH97tbH
@@ -3638,6 +3666,7 @@ HangWatchdogInternal_EndScope
 Hc8Hi
 Hc@(H
 Hc@pH
+HcC H9
 HcC$9
 HcC$H
 HcC8H
@@ -3648,6 +3677,8 @@ HcChI)
 HcE H
 HcE Hc
 HcE0H
+HcE8H
+HcE8Lc}
 HcHDH
 HcILH
 HcILH)
@@ -3656,6 +3687,7 @@ HcKPHc
 HcKPIc
 HcKhIc
 HcL$pHcT$
+HcM Lc}
 HcPDH
 HcPP9
 HcR,H
@@ -3666,10 +3698,11 @@ HcSxH
 HcSxL
 HcSxM
 HcT$x
+HcU E1
 HcWPH
 Hcs H
 Hcs8I
-Header mismatch.
+Hc~@H
 HelpSystem_001
 Hitch alert: Present was waiting for %d iterations and %.1f seconds.
 HookUpConfigValue
@@ -3682,6 +3715,7 @@ Hxt;H
 I could not work out what I was expecting, like so many of us these days!
 I9<$t3I
 I;<$u
+I;G(t1H
 I;V@w
 IB "%s" : Attempted to create too big of a dynamic index buffer!
 IB: %d buffers, %.2f MB
@@ -3694,7 +3728,6 @@ INPUT_LAYOUT_VARIATION_STREAM1_MAT3X4
 INTZRAWZDF16DF24ATI2ATI1
 IQuickTime001
 IS_SM_
-Ic4$H)
 Ic7McO
 Ic@xE
 IcD$,A
@@ -3704,7 +3737,7 @@ IcD$PH)
 IcD$dE)
 IcD$hI)
 IcE$H
-IcF0H
+IcE0H
 IcG(H
 IcL$XH9
 IcM8Ic
@@ -3714,8 +3747,8 @@ IcT$8H
 IcV8A
 IcW(H
 Ic]PI
+Icu0H
 Icu`H
-Icv0H
 Ic|$pH
 Ignoring PLTE chunk in grayscale PNG
 Ignoring attempt to set cHRM RGB triangle with zero area
@@ -3804,12 +3837,13 @@ Invalid cHRM blue point
 Invalid cHRM green point
 Invalid cHRM red point
 Invalid cHRM white point
-Invalid channels format.
 Invalid color quantization mode change
 Invalid color type in IHDR
 Invalid color type/bit depth combination in IHDR
 Invalid component ID %d in SOS
 Invalid crop request
+Invalid data height value.
+Invalid data window value.
 Invalid filter method in IHDR
 Invalid format for pCAL parameter
 Invalid gAMA after IDAT
@@ -3819,6 +3853,8 @@ Invalid image height in IHDR
 Invalid image width in IHDR
 Invalid memory pool code %d
 Invalid oFFs after IDAT
+Invalid offset size.
+Invalid offset value.
 Invalid pCAL after IDAT
 Invalid pCAL data
 Invalid pCAL equation type
@@ -3877,7 +3913,8 @@ L$(E1
 L$49L$ 
 L$HfA
 L$|9N
-L8.I;N
+L+g H
+L9(t$
 L9,$Mc
 L9BHt`L;BPu
 L9cHv
@@ -3903,7 +3940,6 @@ LZMAH
 Lc!D;a
 Lc#D;c
 Lc'E)
-Lc(D;h
 Lc+D;k
 Lc.D;n
 Lc/D)
@@ -3913,7 +3949,9 @@ Lc6E9
 Lc7E)
 Lc7E1
 Lc7E9
+Lc8D;x
 Lc?D)
+LcV<Hc
 Lc[PD
 Lc[`E)
 Lc`4I
@@ -3927,11 +3965,15 @@ LcgpD
 Lck(N
 Lck@A
 LckpD
+Lcp4M
+Lcv4E
 Lc{pD;
 Lexer encountered %i errors parsing compile targets expression "%s"
 Line: 
 Linear
 Link failed; no code produced.  Log string from driver:
+LoadEXRImageFromMemory( %s ) failed! Error message: %s
+LoadEXRImageFromMemory() failed! Error message: %s
 LoadExplicitlyRequestedTextures
 LoadFromBuffer: expected '{', found '%s'
 LoadStreamingData
@@ -3945,7 +3987,6 @@ LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
 M(IcQ
 M0;9~
-M;n0w7A
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
 MD5 match on %s, loading from vcs
@@ -3988,6 +4029,7 @@ Maximum device access threads: %u
 Maximum supported image dimension is %u pixels
 MbP?+
 Mc&E;f
+Mc'E;g
 Mc,$A
 Mc,$D
 Mc,$E;l$
@@ -4059,6 +4101,7 @@ N4NBT212CMatchFinderE
 N4NBT312CMatchFinderE
 N4NBT412CMatchFinderE
 N4NHC412CMatchFinderE
+N9,8u
 N9NCompress5NLZMA10CBaseStateE
 N9NCompress5NLZMA8CEncoderE
 NATIVE_ADDRESS_REGISTERS
@@ -4125,6 +4168,7 @@ OD;NDu
 OHcKPIc
 ORENDER_MULTISAMPLE_INVALID
 OTHER
+OUTSTANDING_HOOKUP_REQUEST 
 O`D+w@D)
 Obtained EMS handle %u
 Obtained XMS handle %u
@@ -4159,7 +4203,7 @@ P(A9U(
 P(A;U(t
 P,A;U,t
 P10GLMContext
-PARALLEL_PROCESS utlsoacontainer.cpp:2532
+PARALLEL_PROCESS utlsoacontainer.cpp:2528
 PC SM 3.0
 PC SM 3.0 (GLSL)
 PC SM 4.0 (D3D10)
@@ -4184,9 +4228,10 @@ PC_SM_4_1_VULKAN
 PC_SM_5_0
 PC_SM_5_0_GL
 PC_SM_5_0_VULKAN
+PE9l$@
+PE9u@
 PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.
 PERFORMANCE
-PLE9}@
 PNG file corrupted by ASCII conversion
 PNG load error %s
 PNG unsigned integer out of range
@@ -4195,10 +4240,11 @@ POSIX
 PS_RENDER_STATE
 P[A\A]A^A_]
 P[A\A]A^]
-P[A\]
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
+ParseEXRHeaderFromMemory( %s ) failed! Error message: %s
+ParseEXRHeaderFromMemory() failed! Error message: %s
 Parser encountered %i errors parsing compile targets expression "%s"
 ParticleSystemMgr002
 Path Overflow, must be less than 260 characters.
@@ -4225,6 +4271,7 @@ Plat_GetWindowMonitorIndex
 Plat_GlobalMemoryStatus
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
+Plat_IsInTestMode
 Plat_IsWindowMinimized
 Plat_LoadModuleRaw
 Plat_MessageBox
@@ -4238,7 +4285,6 @@ Plat_TicksAfterSecsF
 Plat_VirtualAlloc
 Plat_VirtualFree
 Plat_WindowToOsSpecificHandle
-Plat_getwd
 PostProcessingSystem_001
 Potential overflow in png_zalloc()
 Potentially fatal error: unsupported vertex format COLOR_FORMAT_xxxx (%d)
@@ -4260,7 +4306,7 @@ QuarterSizeAttrWithBoxFilter
 QueuedLoaderVersion001
 QxHcU
 R channel not found
-R(92~YHcB
+R channel not found in %s
 R16F_EXPAND
 R32_UINT
 R8H=vtext
@@ -4386,11 +4432,12 @@ RenderSystem/AlwaysPreloadTexturesInGame
 RenderSystemSurface001
 Requested feature was omitted at compile time
 Required OpenGL extension "%s" is not supported. Please update your OpenGL driver.
+Required OpenGL functionality not supported, the OpenGL renderer (-gl) cannot be used on this system.
 Requires
 Requires%d
 Requires%d( 
 ReserveVirtualMemory
-Resource %s
+Resource 
 ResourceCompilerSystem001
 ResourceFile: %d/%d @%p align %u
 ResourceHandleUtils001
@@ -4404,7 +4451,6 @@ S*t.H
 S4E+e D9
 S8[A\A]A^]
 S@H;SHs
-S@M;SP
 SDL failed to set window gamma ramp: %s
 SDL_CreateWindow
 SDL_CreateWindowFrom
@@ -4434,6 +4480,7 @@ SHADER_SOURCE_ROOT
 SPB8t
 SPB8t)H
 SSE and SSE2 are required.
+S_BINDLESS_RUNTIME
 S_MOLTEN_VK
 S_SHADER_QUALITY
 S_TOOLS_ENABLED
@@ -4464,6 +4511,7 @@ Shader API Driver Info:
 Shader Compile Time: %llu ms (Count: %d) 
 Shader attribute "%s" has inconsistent value or type across multiple shaders of a feature combo!
 Shader file version mismatch.  Expected (%d), Got (%d).
+ShaderIDColor
 ShadingComplexity
 SheetFrameImage_t
 SheetSequenceFrame_t
@@ -4500,6 +4548,7 @@ StaticCombo
 StaticComboRule
 StatsService_001
 SteamAudio001
+Streaming Validation: %s 
 String %d: ref:%d %s
 Suspension not allowed here
 SwapChainTexture
@@ -4509,6 +4558,7 @@ T$(L9
 T$0D9
 T$0H9
 T$0t}H
+T$2E1
 T$4D;d$4
 T$8H)
 T$@I9
@@ -4523,7 +4573,9 @@ TEX: %u textures, %.2f MB
 TEXMAN: %s MarkTextureBitsLoadRequired (%s)
 TEXMAN: %s MarkTextureBitsLoaded (%s)
 TEXMAN: Deleting %d textures
+TEXMAN: Keeping texture %s in cache request queue because of flags 
 TEXMAN: Outstanding stream count %d -> %d (%s)
+TEXMAN: Texture %s stuck in HOOKUP_REQUEST state. Forcing reload.
 TEXTURESTREAMING: Extremely low memory: Available mem: %.2f MB, Required: %.2f MB. Kicking out all non-pinned textures.
 TEXTURESTREAMING: Filled %d fallback textures in %.3f ms
 TEXTURESTREAMING: IN: %4d m %4d tex, %-4.2f MB;	 OUT %4d m %4d tex, %-4.2f MB, %d dealloced, %.2f ms
@@ -4560,6 +4612,7 @@ TextMessageMgr_001
 Texture manager out of space! Can't allocate new texture!
 Texture memory discrepancy! %llu != %llu
 Texture memory limit: %s; in use: %s in %s textures
+Texture streaming validation OK (%d texture loads in flight).
 TextureDesc_t
 TextureDimLog2
 TextureHeader_t
@@ -4569,7 +4622,6 @@ Textures created overall: %s; textures evicted: %s
 The filename may only contain lower case alphanumeric characters and underscores.
 The value of field.m_nSlot (%d) exceeds the value of MAX_D3DVERTEXELEMENTS (%d)!
 ThreadGetCurrentId
-ThreadInterlockedExchange64
 ThreadJoin
 ThreadMultiWait
 ThreadSleep
@@ -4627,6 +4679,7 @@ Unknown DX level
 Unknown Path Class
 Unknown compression method in IHDR
 Unknown compression type in zTXt chunk
+Unknown compression type.
 Unknown filter method in IHDR
 Unknown freer parameter in png_data_freer
 Unknown interlace method in IHDR
@@ -4641,10 +4694,7 @@ Unsupported JPEG data precision %d
 Unsupported JPEG process: SOF type 0x%02x
 Unsupported PSD color mode!
 Unsupported color conversion request
-Unsupported compression type.
-Unsupported format.
 Unsupported marker type 0x%02x
-Unsupported version or scanline.
 Upper limit on texture pool size.
 UserInfoChangeService_001
 V0u@H
@@ -4693,7 +4743,6 @@ VStringTokenSystem001
 VTBladeXP2
 VUUUA
 VUUUD
-VXM;b
 V_CopyMemory3D
 V_FixDoubleSlashes
 V_FixSlashes
@@ -4701,10 +4750,10 @@ V_GetErrno
 V_GetFileExtension
 V_IsAbsolutePath
 V_PathContainsPath
+V_PrettifyNum
 V_RemoveDotSlashes
 V_SetErrno
 V_StrTrim
-V_StripFilename
 V_StripTrailingSlash
 V_UTF16ToUTF8
 V_UTF32ToUTF8
@@ -4723,19 +4772,22 @@ V_fclose
 V_fmodf
 V_fopen
 V_fprintf
+V_frexpf
 V_localeconv
 V_logf
 V_pow
 V_powf
-V_pretifynum
 V_qsort
 V_qsort_s
+V_sincosf
 V_sinf
 V_snprintf
-V_snwprintf
+V_snwprintf_cch
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strspn
 V_strtod
 V_strtoi64
@@ -4743,7 +4795,7 @@ V_strtoui64
 V_strupper_fast
 V_swscanf
 V_tanf
-V_vscprintf
+V_tier0_strstr
 V_vsnprintf
 V_vsnprintfRet
 V_vsnprintfSize
@@ -4774,6 +4826,8 @@ VsInputSignature_t
 Vulkan
 W0Hc_8A
 W@ATL
+WAITING_FOR_HOOKUP_JOB 
+WAITING_FOR_IO 
 WARNING: Could not find schema data for helper class for resource type %lld '%s'. (Missing MDiskDataForResourceType metadata or schema data isn't loaded?)
 WARNING: LoadAndValidateResourceHeader - FileSystem not initialized!
 WARNING: Missing data block for file: %s
@@ -4814,6 +4868,8 @@ X[]A\A]A^A_
 Xbox 360
 YR ~UK
 YS H	
+ZFP compression is not supported in this build.
+ZFP compression is not supported.
 ZIcL$
 Zero length tRNS chunk
 [%s %s %dx%dx%d mips=%d slices=%d flags=%02lX%s]
@@ -4831,13 +4887,14 @@ Zero length tRNS chunk
 []A\A]A^A_H
 \$ E1
 \$0[A\A]A^]
+\$2fE
 \$HfA
+\$`E1
 \PHfE
 \t!Hc
 \u0000
 ]H+G 
 ^ t+H
-^XM;S0
 ^[A\A]]
 _-dev
 _?</F
@@ -4864,16 +4921,14 @@ _V_ComposeFileName
 _V_ExtractFileExtension
 _V_ExtractFilePath
 _V_FileBase
-_V_FixupPathName
-_V_GetFirstDir
 _V_MakeAbsolutePath
-_V_MakeRelativePath
 _V_SetExtension
 _V_StringAfterPrefix
 _V_StripExtension
 _V_StripLastDir
 _V_strcspn
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
@@ -4893,6 +4948,30 @@ _ZN10CVProfNode10GetSubNodeEPKciS1_i
 _ZN10CVProfNode9ExitScopeEv
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
+_ZN13CBufferString10ExtendPathEPKcc
+_ZN13CBufferString10FixSlashesEc
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
+_ZN13CBufferString11ShortenPathEv
+_ZN13CBufferString11ToLowerFastEi
+_ZN13CBufferString12AppendConcatEiPKPKcPKib
+_ZN13CBufferString12AppendFormatEPKcz
+_ZN13CBufferString12SetExtensionEPKc
+_ZN13CBufferString13FixupPathNameEv
+_ZN13CBufferString14RemoveFirstDirEPS_
+_ZN13CBufferString14StripExtensionEv
+_ZN13CBufferString15ComposeFileNameEPKcS1_c
+_ZN13CBufferString15ExtractFilePathEPKc
+_ZN13CBufferString15ExtractFirstDirEPKc
+_ZN13CBufferString16MakeAbsolutePathEPKcS1_
+_ZN13CBufferString16MakeRelativePathEPKcS1_
+_ZN13CBufferString16RemoveDotSlashesEc
+_ZN13CBufferString18StripTrailingSlashEv
+_ZN13CBufferString4SwapERS_
+_ZN13CBufferString5PurgeEi
+_ZN13CBufferString6ConcatEPKcS1_z
+_ZN13CBufferString6InsertEiPKcib
+_ZN13CBufferString6SetPtrEPciibb
+_ZN13CBufferString8RemoveAtEii
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -4914,6 +4993,15 @@ _ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
 _ZN22CThreadRWLock_FastReadC1Ev
 _ZNKSs7compareEPKc
 _ZNKSs7compareEPKc@@GLIBCXX_3.4
+_ZNKSt5ctypeIcE13_M_widen_initEv
+_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
+_ZNSdD2Ev
+_ZNSdD2Ev@@GLIBCXX_3.4
+_ZNSo3putEc
+_ZNSo3putEc@@GLIBCXX_3.4
+_ZNSo5flushEv
+_ZNSo5flushEv@@GLIBCXX_3.4
+_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag
 _ZNSs4_Rep10_M_destroyERKSaIcE
 _ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
 _ZNSs4_Rep10_M_disposeERKSaIcE
@@ -4924,13 +5012,58 @@ _ZNSs4_Rep9_S_createEmmRKSaIcE
 _ZNSs4_Rep9_S_createEmmRKSaIcE@@GLIBCXX_3.4
 _ZNSs4swapERSs
 _ZNSs4swapERSs@@GLIBCXX_3.4
+_ZNSs6appendERKSs
+_ZNSs6appendERKSs@@GLIBCXX_3.4
+_ZNSs6assignEPKcm
+_ZNSs6assignEPKcm@@GLIBCXX_3.4
+_ZNSs6assignERKSs
+_ZNSs6assignERKSs@@GLIBCXX_3.4
 _ZNSsC1EPKcRKSaIcE
 _ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
+_ZNSsC1EPKcmRKSaIcE
+_ZNSsC1EPKcmRKSaIcE@@GLIBCXX_3.4
 _ZNSsC1ERKSs
 _ZNSsC1ERKSs@@GLIBCXX_3.4
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
+_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
+_ZNSt6localeC1Ev
+_ZNSt6localeC1Ev@@GLIBCXX_3.4
+_ZNSt6localeD1Ev
+_ZNSt6localeD1Ev@@GLIBCXX_3.4
+_ZNSt6vectorIS_IhSaIhEESaIS1_EED1Ev
+_ZNSt6vectorIS_IhSaIhEESaIS1_EED2Ev
+_ZNSt6vectorIS_ImSaImEESaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_
+_ZNSt6vectorIS_ImSaImEESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
+_ZNSt6vectorIhSaIhEE15_M_range_insertIN9__gnu_cxx17__normal_iteratorIPhS1_EEEEvS6_T_S7_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE15_M_range_insertIPKcEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S9_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE15_M_range_insertIPKhEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S9_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE15_M_range_insertIPcEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S8_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE15_M_range_insertIPhEEvN9__gnu_cxx17__normal_iteratorIS3_S1_EET_S7_St20forward_iterator_tag
+_ZNSt6vectorIhSaIhEE6insertIN9__gnu_cxx17__normal_iteratorIPhS1_EEvEEvS6_T_S7_
+_ZNSt6vectorIhSaIhEEC1EmRKS0_
+_ZNSt6vectorIhSaIhEEC2EmRKS0_
+_ZNSt6vectorImSaImEE17_M_default_appendEm
+_ZNSt8functionIFvRiEEaSIRS2_EENSt9enable_ifIXsrNS2_12_CheckResultIDTclcl18__callable_functorcl7declvalIRT_EEEcl7declvalIS0_EEEEvEE5valueES4_E4typeEOS7_
+_ZNSt8ios_baseC2Ev
+_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseD2Ev
+_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@@GLIBCXX_3.4
 _ZNV16CThreadFastMutex4LockEyj
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@@GLIBCXX_3.4.9
+_ZSt16__throw_bad_castv
+_ZSt16__throw_bad_castv@@GLIBCXX_3.4
 _ZSt17__throw_bad_allocv
 _ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+_ZSt19__throw_logic_errorPKc
+_ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
 _ZSt20__throw_length_errorPKc
 _ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
 _ZSt20__throw_out_of_rangePKc
@@ -4940,12 +5073,26 @@ _ZSt25__throw_bad_function_callv@@GLIBCXX_3.4.14
 _ZSt9terminatev
 _ZSt9terminatev@@GLIBCXX_3.4
 _ZTI17CThreadSyncObject
+_ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
+_ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
+_ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt9basic_iosIcSt11char_traitsIcEE
+_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __Attribute__
 __Expression__
 __FROM_ATTRIBUTE_OR_FEATURE__
@@ -4992,8 +5139,6 @@ __longjmp_chk
 __longjmp_chk@@GLIBC_2.11
 __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
-__memset_chk
-__memset_chk@@GLIBC_2.3.4
 __printf_chk
 __printf_chk@@GLIBC_2.3.4
 __pthread_key_create
@@ -5018,6 +5163,7 @@ _tools.txt
 `H97tbH
 `[A\A]A^]
 `[A\]
+`chunkCount' attribute is not found in the header.
 abort@@GLIBC_2.2.5
 after solve err=%f
 alpha
@@ -5026,6 +5172,7 @@ apple
 archive
 argeH
 bIcL$
+basic_string::_S_construct null not valid
 before solve err=%f
 binormal
 blendindices
@@ -5062,12 +5209,14 @@ cfg/videodefaults.txt
 channels
 cheat
 chlist
+chunkCount
 client
 clientcmd_can_execute
 color
 compression
 configvalue.cpp
 consumestructuredbuffer
+content
 cpD)ctL
 cs_5_0
 c|[A\A]A^]
@@ -5093,13 +5242,12 @@ dlsym
 dlsym@@GLIBC_2.2.5
 ds_5_0
 dxsupport.cfg
-e$~sH
 e(E;e8
 eikonal
 error in user chunk
 exit@@GLIBC_2.2.5
 externaldescriptorset
-f;C.w
+f;S.w
 fA9\$
 fA;0M
 fA;0trA
@@ -5133,10 +5281,10 @@ float4x3
 float4x4
 floatbitmap.cpp
 floatbitmap.cpp(124): Unknown gamma type "%s"!
-floatbitmap.cpp(2113): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2124): Error loading %s
-floatbitmap.cpp(2147): Error! Unknown file type for %s
-floatbitmap.cpp(2166): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
+floatbitmap.cpp(2140): Error calling TGALoader::GetInfo( %s )
+floatbitmap.cpp(2151): Error loading %s
+floatbitmap.cpp(2174): Error! Unknown file type for %s
+floatbitmap.cpp(2193): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
 floatbitmap.cpp(308): Conversion not supported yet!
 floatbitmap.cpp(408): Conversion not supported yet!
 floatbitmap.cpp(854): Unsupported color format "%s", skipping!
@@ -5173,23 +5321,22 @@ getenv@@GLIBC_2.2.5
 gfffC
 gfffD
 gfffG
-gffffD
 gl/dynamicbuffermgrgl.cpp
 gl/rendercontextgl.cpp
-gl/renderdevicegl.cpp(1142): 
-gl/renderdevicegl.cpp(1366): 
-gl/renderdevicegl.cpp(1401): 
-gl/renderdevicegl.cpp(1436): 
-gl/renderdevicegl.cpp(1471): 
-gl/renderdevicegl.cpp(1516): 
-gl/renderdevicegl.cpp(1969): 
-gl/renderdevicegl.cpp(1976): 
-gl/renderdevicegl.cpp(2022): 
-gl/renderdevicegl.cpp(355): 
-gl/renderdevicegl.cpp(493): 
-gl/renderdevicegl.cpp(581): 
-gl/renderdevicegl.cpp(599): 
-gl/renderdevicegl.cpp(874): 
+gl/renderdevicegl.cpp(1153): 
+gl/renderdevicegl.cpp(1377): 
+gl/renderdevicegl.cpp(1412): 
+gl/renderdevicegl.cpp(1447): 
+gl/renderdevicegl.cpp(1482): 
+gl/renderdevicegl.cpp(1527): 
+gl/renderdevicegl.cpp(1980): 
+gl/renderdevicegl.cpp(1987): 
+gl/renderdevicegl.cpp(2033): 
+gl/renderdevicegl.cpp(366): 
+gl/renderdevicegl.cpp(504): 
+gl/renderdevicegl.cpp(592): 
+gl/renderdevicegl.cpp(610): 
+gl/renderdevicegl.cpp(885): 
 gl/renderthreadgl.cpp(1689): 
 gl/togl/cglmshader.cpp
 gl/togl/glmdisplaydb.cpp
@@ -5246,10 +5393,13 @@ glCreateShader
 glCreateShaderProgramv
 glDebugMessageCallback
 glDebugMessageCallbackARB
+glDebugMessageCallbackKHR
 glDebugMessageControl
 glDebugMessageControlARB
+glDebugMessageControlKHR
 glDebugMessageInsert
 glDebugMessageInsertARB
+glDebugMessageInsertKHR
 glDeleteBuffers
 glDeleteFramebuffers
 glDeleteProgram
@@ -5310,6 +5460,7 @@ glGetBooleanv
 glGetCompressedTexImage
 glGetDebugMessageLog
 glGetDebugMessageLogARB
+glGetDebugMessageLogKHR
 glGetDoublei_v
 glGetDoublev
 glGetError
@@ -5323,7 +5474,9 @@ glGetNamedBufferParameterivEXT
 glGetNamedBufferPointervEXT
 glGetNamedBufferSubDataEXT
 glGetObjectLabel
+glGetObjectLabelKHR
 glGetObjectPtrLabel
+glGetObjectPtrLabelKHR
 glGetPointerv
 glGetProgramBinary
 glGetProgramInfoLog
@@ -5373,13 +5526,16 @@ glNamedBufferDataEXT
 glNamedBufferSubDataEXT
 glNamedCopyBufferSubDataEXT
 glObjectLabel
+glObjectLabelKHR
 glObjectPtrLabel
+glObjectPtrLabelKHR
 glPatchParameterfv
 glPatchParameteri
 glPixelStorei
 glPolygonMode
 glPolygonOffset
 glPopDebugGroup
+glPopDebugGroupKHR
 glProgramBinary
 glProgramParameteri
 glProgramUniform1d
@@ -5435,6 +5591,7 @@ glProgramUniformMatrix4x2fv
 glProgramUniformMatrix4x3dv
 glProgramUniformMatrix4x3fv
 glPushDebugGroup
+glPushDebugGroupKHR
 glQueryCounter
 glReadBuffer
 glReadPixels
@@ -5570,7 +5727,6 @@ k8D;kHtMH
 k@[A\A]A^]
 l$ E9
 l$8fE
-l$PE1
 l$hA+^@
 lBHfE
 lPHfE
@@ -5597,8 +5753,6 @@ libvstdlib.so
 lineOrder
 lineartogamma
 localize
-localtime
-localtime@@GLIBC_2.2.5
 logf@@GLIBC_2.2.5
 longjmp
 longjmp@@GLIBC_2.2.5
@@ -5721,7 +5875,7 @@ makemelast
 malformed sPLT chunk
 malloc
 malloc@@GLIBC_2.2.5
-mathlib_base.cpp
+mathlib.cpp
 max megabytes
 max megahertz
 max megatexels
@@ -5741,8 +5895,6 @@ min megabytes
 min megahertz
 min megatexels
 min_processor_count
-mktime
-mktime@@GLIBC_2.2.5
 modes
 modf@@GLIBC_2.2.5
 nCombos
@@ -5755,6 +5907,7 @@ notconnected
 notify
 nullFragmentProgram
 nvidia
+oPATL
 o`-VUUUH
 offscreen plain surface
 or?wb
@@ -5763,7 +5916,6 @@ out vec4 gl_Position;
 outColor = texture( sampler15, texCoords );  
 outColor = texture( sampler15, texCoords.xy );  
 outColor = texture( sampler15, texCoords.xyz );  
-outColor = vec4( 0.0, 0.0, 0.0, 1.0 );
 p Icx`F
 pA*** VB "%s": Tried to lock too much memory for subregion (%d>%d)!
 pE9e\
@@ -5813,7 +5965,7 @@ puwUH
 q$D9w$u
 queued
 r0[A\]
-r6LcA
+r7LcQ
 r_frame_sync_enable
 r_fullscreen_gamma
 r_gpu_mem_stats
@@ -5826,6 +5978,7 @@ r_texture_stream_throttle_amount
 r_texture_stream_throttle_count
 r_texturefilteringquality
 r_textures_evict_all
+r_validate_texture_streaming
 r_wait_on_present
 rc?Quh
 realloc
@@ -5835,7 +5988,6 @@ renderdevicemgrbase.cpp
 renderdoc
 rendersystemgl
 rendersystemgl: FIXME: Can't set texture bits of a D3D surface
-rendersystemglobals.cpp
 replicated
 resolveTex
 resourcestream.cpp
@@ -5904,11 +6056,9 @@ shadercache/gl
 shaderdump.txt
 shaders.cache
 shaders.toc
-shaders\vfx\
+shaders/vfx
 sheetcache.cpp
 sheetcachetexture_.vtex
-sincosf
-sincosf@@GLIBC_2.2.5
 single
 singleplayer
 snprintf@@GLIBC_2.2.5
@@ -5937,11 +6087,9 @@ stream end
 strlen
 strlen@@GLIBC_2.2.5
 strncpy@@GLIBC_2.2.5
-strnlen
 strnlen@@GLIBC_2.2.5
 strpbrk
 strpbrk@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
 strtod@@GLIBC_2.2.5
 strtol
@@ -5961,6 +6109,7 @@ success.
 system.fxc
 szLce
 t	HcR
+t	[A\]
 t D;c|
 t LcW
 t!;VLu
@@ -5973,13 +6122,13 @@ t$(uzI
 t$8E1
 t$@A\]
 t$H9h
-t$HcP
 t$HfA
 t$lfA
 t%[A\]
 t+Hc4
 t+HcO
 t-Mcv
+t-[A\]
 t/D; u
 t0Mcv
 t1Mc}
@@ -5987,16 +6136,14 @@ t2[A\]
 t3D8J
 t4[A\]
 t6 H)
-t7[A\]
-t:[A\]
 t?Mcv
 t@</u
 t@@:>u
 tBHfE
 tEH;v0I
 tIW?Z
-tJH)E
 tK~%E1
+tL[A\A]A^]
 tRH;v0I
 tRNS chunk has out-of-range samples for bit_depth
 tRNS chunk not allowed with alpha channel
@@ -6017,25 +6164,21 @@ texCoords = vec4( inTexCoords, 0.0, 0.0 );
 texcoord
 text compression mode is out of range
 texturebase.cpp
-texturebase.cpp(1302):Error loading texture: %s
-texturebase.cpp(2095):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2106):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2117):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2138):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2149):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2160):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2171):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2192):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2203):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2214):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2225):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(1454):Error loading texture: %s
+texturebase.cpp(2357):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2378):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2389):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2400):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2411):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2432):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2443):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2454):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2465):ResourceHandleToData( %s ) failed! Falling back to error texture!
 tfUMc
 tgE+e D9
 tgHcS
-time@@GLIBC_2.2.5
+tiles
 tjHcO
-tolower
-tolower@@GLIBC_2.2.5
 too many length or distance symbols
 tqH;v0t{L
 transparency
@@ -6051,7 +6194,6 @@ u LcU
 u [A\]
 u!L9]
 u"[A\A]A^]
-u$fE9
 u'[]A\A]A^
 u(HcV
 u(LcN
@@ -6061,10 +6203,8 @@ u6[A\]
 u7[A\A]A^]
 u:[A\A]A^A_]
 u?IcF
-uA[A\A]A^]
 uB[A\A]A^]
 uC[A\]
-uCfE9
 uFfD;M
 uHMc~
 uMHcN
@@ -6091,9 +6231,9 @@ unknown
 unknown compression method
 unknown critical chunk
 unknown header flags set
-uq<"t
 utlbuffer.cpp
 utlstring.cpp
+uu<"t
 uvCropped
 uvUncropped
 v!<\t
@@ -6106,13 +6246,13 @@ vector::_M_range_check
 vector::_M_range_insert
 vendor id: 0x%x
 vfx_common.cpp
-vfx_common.cpp(3506): Error! Ref count !=0 for static combo data cache entry!
-vfx_common.cpp(3593): Error! Ref count !=0 for static combo data cache entry!
-vfx_common.cpp(6750): Error opening file %s
-vfx_common.cpp(6824): VCS %s Unserialize failed
-vfx_common.cpp(6838): VCS %s Unserialize hit EOF
-vfx_common.cpp(6976): Error opening file %s
-vfx_common.cpp(6983): Error calling SkipAndValidateVCSHeader() for %s
+vfx_common.cpp(3516): Error! Ref count !=0 for static combo data cache entry!
+vfx_common.cpp(3603): Error! Ref count !=0 for static combo data cache entry!
+vfx_common.cpp(6755): Error opening file %s
+vfx_common.cpp(6829): VCS %s Unserialize failed
+vfx_common.cpp(6843): VCS %s Unserialize hit EOF
+vfx_common.cpp(6981): Error opening file %s
+vfx_common.cpp(6988): Error calling SkipAndValidateVCSHeader() for %s
 vfx_compile_target_expr.cpp(106): : Failed to create lexer from "%s"
 vfx_compile_target_expr.cpp(114): : Failed to create token stream from "%s"
 vfx_compile_target_expr.cpp(122): : Failed to create parser from "%s"
@@ -6138,12 +6278,14 @@ vtexE1
 vtexH
 vtexu
 w tvH
-w(AUATI
+w#L;}
 w<)O )OH
 w=fD;m"
 wAD;kP
 wDA;X
-wPATSH
+wHAUL
+wcscmp
+wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
 wrinkle
@@ -6169,6 +6311,7 @@ zlib version error
 {`xQuxH
 {hD9U
 {}()':
+|$ E1
 |$0A\]
 |$0E1
 |$@Mc
@@ -6193,9 +6336,9 @@ zlib version error
 }Z;w$
 }yfD;`
 ~	ATI
+~&H97t@
 ~(Hc{
 ~)A;]
-~)H97tC
 ~:Hct
 ~@ATM
 ~AVAUL

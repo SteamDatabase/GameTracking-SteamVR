@@ -4,9 +4,27 @@
     "vive_controller" : "Vive Controller",
     "vive_pro" : "Vive Pro",
     "vive" : "Vive",
-    "/input/trigger" : "Vive Trigger",
+
+    "vive_tracker" : "Vive Tracker",
+    "vive_tracker_handed" : "Vive Tracker in Hand",
+    "vive_tracker_left_foot" : "Vive Tracker on Left Foot",
+    "vive_tracker_right_foot" : "Vive Tracker on Right Foot",
+    "vive_tracker_left_shoulder" : "Vive Tracker on Left Shoulder",
+    "vive_tracker_right_shoulder" : "Vive Tracker on Right Shoulder",
+    "vive_tracker_waist" : "Vive Tracker on Waist",
+    "vive_tracker_chest" : "Vive Tracker on Chest",
+    "vive_tracker_camera" : "Vive Tracker on Camera",
+    "vive_tracker_keyboard" : "Vive Tracker on Keyboard",
+
+    "/input/trigger" : "Trigger",
     "/input/volume_up" : "Volume Up",
     "/input/volume_down" : "Volume Down",
-    "/input/mute_mic" : "Mute Mic"
+    "/input/mute_mic" : "Mute Mic",
+    "/output/haptic" : "Haptic",
+    "/input/thumb" : "Thumb",
+    "/input/power" : "Power",
+
+    "/pose/front_rolled" : "Front and Rolled",
+    "/pose/front" : "Front"
   }
 ]

@@ -1,39 +1,180 @@
 {
-  "actions": [
+  "default_bindings":
+  [
     {
-      "name": "/actions/default/in/UseLeft",
-      "type": "boolean",
-      "scope": "global"
+      "controller_type": "oculus_touch",
+      "binding_url": "bindings_touch.json"
     },
     {
-      "name": "/actions/default/in/GripLeft",
-      "type": "boolean",
-      "scope": "global"
+      "controller_type": "vive_controller",
+      "binding_url": "bindings_vive_controller.json"
     },
     {
-      "name": "/actions/default/in/UseRight",
-      "type": "boolean",
-      "scope": "global"
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
     },
     {
-      "name": "/actions/default/in/GripRight",
-      "type": "boolean",
-      "scope": "global"
+      "controller_type": "knuckles_ev1",
+      "binding_url": "bindings_knuckles_ev1.json"
+    },
+    {
+      "controller_type": "holographic_controller",
+      "binding_url": "bindings_holographic.json"
+    },
+    {
+      "controller_type": "generic",
+      "binding_url": "bindings_generic.json"
+    },
+    {
+      "controller_type": "gamepad",
+      "binding_url": "bindings_gamepad.json"
+    }
+  ],
+  "actions":
+  [
+    {
+      "name": "/actions/default/in/ToggleMenu",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/lclick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/rclick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Use",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/ShowInventory",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/HandCurl",
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/default/in/Pad",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/PadTouch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Scroll",
+      "type": "vector3"
+    },
+    {
+      "name": "/actions/default/in/Trackpad",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/move/in/Teleport",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/move/in/TurnLeft",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/move/in/TurnRight",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/Menu",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/Use",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/Drop",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/Pad",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/PadTouch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/PadLeft",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/PadRight",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/PadUp",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/PadDown",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/prop_tool/in/Trigger",
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/prop_tool/in/Trackpad",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/prop_tool/in/Joystick",
+      "type": "vector2"
     }
   ],
   "action_sets": [
     {
       "name": "/actions/default",
       "usage": "leftright"
+    },
+    {
+      "name": "/actions/move",
+      "usage": "leftright"
+    },
+    {
+      "name": "/actions/prop_tool",
+      "usage": "leftright"
     }
   ],
-  "localization": [
+  "localization": 
+  [
     {
       "language_tag": "en_US",
-      "/actions/default/in/UseLeft": "Use (Left)",
-      "/actions/default/in/GripLeft": "Grip (Left)",
-      "/actions/default/in/UseRight": "Use (Right)",
-      "/actions/default/in/GripRight": "Grip (Right)"
+      "/actions/default/in/ToggleMenu": "Toggle Menu",
+      "/actions/default/in/lclick": "Left Click",
+      "/actions/default/in/rclick": "Right Click",
+      "/actions/default/in/Use": "Use",
+      "/actions/default/in/ShowInventory": "Show Inventory",
+      "/actions/default/in/HandCurl": "Hand Curl",
+      "/actions/default/in/Pad": "Pad",
+      "/actions/default/in/PadTouch": "Pad Touch",
+      "/actions/default/in/Trackpad": "Trackpad",
+      "/actions/move/in/Teleport": "Teleport",
+      "/actions/move/in/TurnLeft": "Turn Left",
+      "/actions/move/in/TurnRight": "Turn Right",
+      "/actions/prop_tool/in/Menu": "Tool Menu",
+      "/actions/prop_tool/in/Use": "Tool Use",
+      "/actions/prop_tool/in/Drop": "Tool Drop",
+      "/actions/prop_tool/in/Pad": "Tool Pad",
+      "/actions/prop_tool/in/PadTouch": "Tool Pad Touch",
+      "/actions/prop_tool/in/PadLeft": "Tool Pad Left",
+      "/actions/prop_tool/in/PadRight": "Tool Pad Right",
+      "/actions/prop_tool/in/PadUp": "Tool Pad Up",
+      "/actions/prop_tool/in/PadDown": "Tool Pad Down",
+      "/actions/prop_tool/in/Trigger": "Tool Trigger",
+      "/actions/prop_tool/in/Trackpad": "Tool Trackpad",
+      "/actions/prop_tool/in/Joystick": "Tool Joystick"
     }
   ]
 }

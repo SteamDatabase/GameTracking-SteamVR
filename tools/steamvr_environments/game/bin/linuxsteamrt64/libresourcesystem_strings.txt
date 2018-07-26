@@ -16,6 +16,7 @@
  []A\
  max. %f
  min. %f
+!m_bNeedsSort
 "%s" 
 "%s" = "%s"
 "t&L;}
@@ -39,9 +40,9 @@ $ORIGIN
 %s.%s
 %s.360%s
 %s: string format requested %d chars
-%s\%s
 ([A\A]A^A_]
 ([A\A]]
+([A\A^]
 ([]A\A]A^A_
 ** Forcing all resource loads to fail: "%s"
 *** Bad deletion request: Refcount for %s resource "%s" (%016llX) is greater than zero. (%d)!
@@ -73,7 +74,6 @@ $ORIGIN
 -force_all_resource_loads_to_fail
 -resource_exit_after_time
 -resource_system_verbose
--resourceleaks
 -sse2
 -sse3
 -sse4
@@ -84,6 +84,7 @@ $ORIGIN
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
+../public/tier1/utlsortvector.h
 .comment
 .data
 .data.rel.ro
@@ -108,7 +109,6 @@ $ORIGIN
 .strtab
 .symtab
 .text
-0123456789ABCDEF
 0[A\A]A^A_]
 0[A\A]A^]
 0[A\]
@@ -131,14 +131,17 @@ $ORIGIN
 15CTier2AppSystemI15IResourceSystemLi0EE
 15IResourceSystem
 16CDefaultAccessor
+16CLoadingResource
 16CNullTypeManager
 16ICommandCallback
 18CAtomicManipulatorI10CTransformE
 18CAtomicManipulatorI10CUtlStringE
 18CAtomicManipulatorI10QuaternionE
 18CAtomicManipulatorI11FourVectorsE
+18CAtomicManipulatorI12matrix3x4a_tE
 18CAtomicManipulatorI14CResourceArrayI10CTransformEE
 18CAtomicManipulatorI14CResourceArrayI11FeSimdTri_tEE
+18CAtomicManipulatorI14CResourceArrayI12FeBoxRigid_tEE
 18CAtomicManipulatorI14CResourceArrayI12FeNodeBase_tEE
 18CAtomicManipulatorI14CResourceArrayI12FeSimdQuad_tEE
 18CAtomicManipulatorI14CResourceArrayI13FeFitMatrix_tEE
@@ -148,6 +151,7 @@ $ORIGIN
 18CAtomicManipulatorI14CResourceArrayI15CResourceStringEE
 18CAtomicManipulatorI14CResourceArrayI15FeSphereRigid_tEE
 18CAtomicManipulatorI14CResourceArrayI16FeCtrlOsOffset_tEE
+18CAtomicManipulatorI14CResourceArrayI16FeKelagerBend2_tEE
 18CAtomicManipulatorI14CResourceArrayI16FeSimdNodeBase_tEE
 18CAtomicManipulatorI14CResourceArrayI16FeTreeChildren_tEE
 18CAtomicManipulatorI14CResourceArrayI17FeAxialEdgeBend_tEE
@@ -167,6 +171,7 @@ $ORIGIN
 18CAtomicManipulatorI14CResourceArrayI24FeSimdSpringIntegrator_tEE
 18CAtomicManipulatorI14CResourceArrayI24FeWorldCollisionParams_tEE
 18CAtomicManipulatorI14CResourceArrayI25FeTaperedCapsuleStretch_tEE
+18CAtomicManipulatorI14CResourceArrayI7FeTri_tEE
 18CAtomicManipulatorI14CResourceArrayI8FeQuad_tEE
 18CAtomicManipulatorI14CResourceArrayIfEE
 18CAtomicManipulatorI14CResourceArrayIjEE
@@ -186,8 +191,10 @@ $ORIGIN
 18CSchemaManipulatorI10CUtlStringE
 18CSchemaManipulatorI10QuaternionE
 18CSchemaManipulatorI11FourVectorsE
+18CSchemaManipulatorI12matrix3x4a_tE
 18CSchemaManipulatorI14CResourceArrayI10CTransformEE
 18CSchemaManipulatorI14CResourceArrayI11FeSimdTri_tEE
+18CSchemaManipulatorI14CResourceArrayI12FeBoxRigid_tEE
 18CSchemaManipulatorI14CResourceArrayI12FeNodeBase_tEE
 18CSchemaManipulatorI14CResourceArrayI12FeSimdQuad_tEE
 18CSchemaManipulatorI14CResourceArrayI13FeFitMatrix_tEE
@@ -197,6 +204,7 @@ $ORIGIN
 18CSchemaManipulatorI14CResourceArrayI15CResourceStringEE
 18CSchemaManipulatorI14CResourceArrayI15FeSphereRigid_tEE
 18CSchemaManipulatorI14CResourceArrayI16FeCtrlOsOffset_tEE
+18CSchemaManipulatorI14CResourceArrayI16FeKelagerBend2_tEE
 18CSchemaManipulatorI14CResourceArrayI16FeSimdNodeBase_tEE
 18CSchemaManipulatorI14CResourceArrayI16FeTreeChildren_tEE
 18CSchemaManipulatorI14CResourceArrayI17FeAxialEdgeBend_tEE
@@ -216,6 +224,7 @@ $ORIGIN
 18CSchemaManipulatorI14CResourceArrayI24FeSimdSpringIntegrator_tEE
 18CSchemaManipulatorI14CResourceArrayI24FeWorldCollisionParams_tEE
 18CSchemaManipulatorI14CResourceArrayI25FeTaperedCapsuleStretch_tEE
+18CSchemaManipulatorI14CResourceArrayI7FeTri_tEE
 18CSchemaManipulatorI14CResourceArrayI8FeQuad_tEE
 18CSchemaManipulatorI14CResourceArrayIfEE
 18CSchemaManipulatorI14CResourceArrayIjEE
@@ -234,6 +243,7 @@ $ORIGIN
 19CSchemaClassBindingI11FeSimdTri_tE
 19CSchemaClassBindingI11LightDesc_tE
 19CSchemaClassBindingI11OldFeEdge_tE
+19CSchemaClassBindingI12FeBoxRigid_tE
 19CSchemaClassBindingI12FeEdgeDesc_tE
 19CSchemaClassBindingI12FeNodeBase_tE
 19CSchemaClassBindingI12FeSimdQuad_tE
@@ -244,13 +254,14 @@ $ORIGIN
 19CSchemaClassBindingI14FeCtrlOffset_tE
 19CSchemaClassBindingI14FeFollowNode_tE
 19CSchemaClassBindingI14FeSoftParent_tE
-19CSchemaClassBindingI15FeKelagerBend_tE
 19CSchemaClassBindingI15FeSphereRigid_tE
 19CSchemaClassBindingI15FourQuaternionsE
 19CSchemaClassBindingI16FeCtrlOsOffset_tE
 19CSchemaClassBindingI16FeFitInfluence_tE
+19CSchemaClassBindingI16FeKelagerBend2_tE
 19CSchemaClassBindingI16FeSimdNodeBase_tE
 19CSchemaClassBindingI16FeTreeChildren_tE
+19CSchemaClassBindingI16FeWeightedNode_tE
 19CSchemaClassBindingI16FourCovMatrices3E
 19CSchemaClassBindingI17CRMSG_Entity_InfoE
 19CSchemaClassBindingI17FeAxialEdgeBend_tE
@@ -333,6 +344,7 @@ $ORIGIN
 21IVConCommDataReceived
 22CSchemaEnumBindingBase
 22CSchemaInstallCallback
+22CStreamingResourceData
 23CResourceSystemProfiler
 23CSchemaClassBindingBase
 23CSplitScreenAddedConVar
@@ -352,12 +364,12 @@ $ORIGIN
 28ICodeResourceManifestManager
 29CRD_RegisterResourceDataUtils
 29IRD_RegisterResourceDataUtils
+30IAsyncResourceDataRequestOwner
 32CSchemaRegistration_resourcefile
 34CSchemaRegistration_resourcesystem
 34CVConResourceProfileCommandHandler
 36CSchemaRegistration_mathlib_extended
 3E8 u
-4$uFA
 42HcU
 4fff>fff>fff>fff>
 5t~BC
@@ -370,8 +382,11 @@ $ORIGIN
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
+9wtUH
 ;*3$"
 ;*t*1
+<$/tyL
+<$A9t$
 </uLH
 <19{ |.
 <INVALID>
@@ -380,8 +395,9 @@ $ORIGIN
 <null>
 =CSP1A
 =CSP1u
+?-resourceleaks
 ?LightType_t
-?Usage: resource_leaks <resource_name>
+?u0E1
 @Allocate
 @[A\A]A^]
 @[A\]
@@ -394,6 +410,7 @@ A+W$f
 A+u$Hc
 A9G }
 A9_@~8L
+A;D$ ~uI
 A;G A
 A;\$ A
 A;]@|
@@ -402,10 +419,8 @@ APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
 ATUSH
 AUATA
 AUATD
-AUATE1
 AUATI
 AUATL
-AUATLc
 AUATM
 AUATS
 AUATSH
@@ -413,10 +428,10 @@ AUATSL
 AUATStII
 AUATStMI
 AUATUSH
+AVATI
 AVAUA
 AVAUATA
 AVAUATI
-AVAUATL
 AVAUATS
 AVAUATSH
 AVAUATUSH
@@ -523,26 +538,25 @@ ConfigurationSystem_001
 ConnectInterfaces
 CovMatrix3
 CreateInterface
+D$  u
 D$ B;
 D$ H9
-D$ H90
 D$ Hi
-D$ L9
 D$(E1
 D$0A\]
 D$0H9
-D$0L9
 D$8A\]
 D$8H9
 D$8I9
 D$8L9
+D$@A+T$
 D$@H9
 D$@I9
 D$@L9
 D$HfA
 D;!t{Hc
 D;c D
-D;k(t2H
+D;s(t=H
 DATAH
 DISABLED
 DMCRu
@@ -557,9 +571,9 @@ E+G$Mc
 E+O$Mc
 E+g$Mc
 E+o$Mc
-E8l$$u
 E9gPI
-E9t$ ~kI
+E9|$ ~bI
+E:t$$u
 E;t$(H
 EMPTY - ok for slot zero only!
 ENABLED
@@ -588,7 +602,6 @@ Error loading resource "%s" (Invalid header version: %d != %d)
 Error loading resource file "%s" (Error: %s)
 Error loading resource manifest "%s" (No DATA block)
 EventSystem001
-F@A+^
 FATAL ERROR: %s resource '%s' (%016llX) is the wrong resource type! (This is likely caused by a hash collision between the strings '%s' and '%s')
 FCVAR_NEVER_AS_STRING
 FPSRH
@@ -598,6 +611,7 @@ Failed to map from %s to game-path
 FeAnimStrayRadius_t
 FeAxialEdgeBend_t
 FeBandBendLimit_t
+FeBoxRigid_t
 FeCollisionPlane_t
 FeCollisionSphere_t
 FeCtrlOffset_t
@@ -608,7 +622,7 @@ FeFitInfluence_t
 FeFitMatrix_t
 FeFitWeight_t
 FeFollowNode_t
-FeKelagerBend_t
+FeKelagerBend2_t
 FeNodeBase_t
 FeNodeIntegrator_t
 FeNodeReverseOffset_t
@@ -628,9 +642,11 @@ FeTaperedCapsuleRigid_t
 FeTaperedCapsuleStretch_t
 FeTreeChildren_t
 FeTri_t
+FeWeightedNode_t
 FeWorldCollisionParams_t
 FileSystem
 Final operation count %llu
+FindLessOrEqual
 FindOrRegisterResourceByName
 FixupResourceName: Illegal full path passed in ("%s")!
 FixupResourceName: Illegal path, missing extension passed in ("%s")!
@@ -670,7 +686,7 @@ GetResourceStatus( pResourceName ) == RESOURCE_STATUS_RESIDENT
 H	p(]
 H	w(UH
 H!w(H
-H+S(H
+H+K(H
 H9*tgH
 H97trH
 H9WPu 
@@ -687,6 +703,7 @@ H[A\A]]
 H[]A\A]A^A_
 HammerMapLoader001
 Hc@pH
+HcC H9
 HcJ@1
 HcJH1
 HcJP1
@@ -713,9 +730,8 @@ HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
 I;<$u
+I;t$Hu
 IQuickTime001
-Ic4$H)
-Ic\$(A;\$8t`I
 Idle (ResourceSystemSleep)
 InfoForResourceTypeAnimationGroupResourceData_t
 InfoForResourceTypeAnimationResourceData_t
@@ -756,6 +772,7 @@ InfoForResourceTypeWorld_t
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
+InsertIfNotFound
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 InstallResourceTypeManager
@@ -766,7 +783,6 @@ Invalid Path
 IsResourceManifestGroupKnown: Manifest group name is empty or null
 K,[A\]
 KeyValueCache001
-L$HfA
 LIGHT_SOURCE_SHAPE_SPHERE
 LOG_GENERAL
 Lc#D;c
@@ -778,6 +794,9 @@ Leaked reference to ERROR resource for type %s!
 Leaked resource: Refcount %s for %s%s resource "%s" (%016llX).  This may result in a crash.
 LightDesc_t
 LightSourceShape_t
+Loading Resource %016llX (file "%s") is waiting for an external system to finish work.
+Loading Resource %016llX (file "%s") is waiting for its file to load.
+Loading Resource %016llX (file "%s") is waiting for streaming bits to load.
 Localize_001
 LoggingSystem_GetChannel
 LoggingSystem_GetChannelVerbosity
@@ -785,7 +804,6 @@ LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 LoggingSystem_SetChannelVerbosity
-M;D$Hu
 M;eHu
 M;|$Hu
 MATCHFRAMEWORK_001
@@ -797,9 +815,6 @@ MATERIAL_LIGHT_POINT
 MATERIAL_LIGHT_SPOT
 MDiskDataForResourceType
 MDmElementType
-MGenerateArrayKeynames
-MGenerateArrayKeynamesFirstIndex
-MKeyfieldname
 MNetworkSerializeAs
 MNoScatter
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
@@ -814,8 +829,10 @@ MaterialUtils_001
 MathLib_Init
 MaybeExitBecauseOfResourceLoadFailure
 MbP?+
+Mc'E;g
 Mc.E;n
 Mc/E;o
+Mct$(E;t$8
 MeshSystem001
 MeshUtils001
 MetaTxtAM
@@ -855,21 +872,14 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_TickDiffMicroSec
 Plat_TickDiffMicroSecF
 Plat_TickDiffMilliSecF
-Plat_getwd
 PostProcessingSystem_001
 PropertyEditorSystem_001
 QHcKHIc
 Quaternion
 QueuedLoaderVersion001
 RESOURCE_MANIFEST_HANDLE_INVALID
-RESOURCE_TYPE_ENTITY_LUMP
 RESOURCE_TYPE_NONE
 RESOURCE_TYPE_RESOURCE_MANIFEST
-RESOURCE_TYPE_WORLD
-RESOURCE_TYPE_WORLD_ENVIRONMENT_MAPS
-RESOURCE_TYPE_WORLD_LIGHTING
-RESOURCE_TYPE_WORLD_NODE
-RESOURCE_TYPE_WORLD_VIS
 RKS_DEFAULT
 RKS_DISABLE_GROUP_CLEARING
 RKS_KEEP_ALL_RECORDS
@@ -945,6 +955,8 @@ ResourceSystem
 ResourceSystem013
 ResourceSystemWaitingForFutureWork
 RnPlane_t
+S9w0}3A
+SIcL$8Ic
 SSE and SSE2 are required.
 SceneSystem_002
 SceneUtils_001
@@ -977,7 +989,6 @@ StatsService_001
 SteamAudio001
 String %d: ref:%d %s
 SubmitResourceFileRequests
-T$0H9
 T$8H)
 T$HfA
 TestFormatA
@@ -991,7 +1002,6 @@ TextMessageMgr_001
 The filename may only contain lower case alphanumeric characters and underscores.
 ThreadGetCurrentId
 ThreadGetCurrentProcessId
-ThreadInterlockedExchange64
 ThreadNanoSleep
 ThreadSleep
 ToolFramework2_002
@@ -1009,6 +1019,7 @@ Unknown Path Class
 Unrecognized resource leak tracking parameter: "%s", available configuration aliases:
 UnregisterNamedManifest called, but we are not shutting down!!!
 Update_Internal
+Usage: resource_leaks <resource_name>
 UserInfoChangeService_001
 V0u@H
 VApplication001
@@ -1063,19 +1074,24 @@ V_atoi
 V_cosf
 V_expf
 V_fmodf
+V_frexpf
 V_logf
 V_powf
 V_qsort_s
+V_sincosf
 V_sinf
 V_snprintf
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strtod
 V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_tanf
+V_tier0_strstr
 V_vsnprintf
 V_vsnprintfRet
 V_vsnprintfSize
@@ -1088,6 +1104,7 @@ Vector
 Vector2D
 Vector4D
 VisBuilder_001
+W H92
 WARNING: %s resource '%s' (%016llX) requested but is not in the system. (Missing from from a manifest?)
 WARNING: %s resource '%s' is the wrong resource type (expected %s)!
 WARNING: Could not find schema data for helper class for resource type %lld '%s'. (Missing MDiskDataForResourceType metadata or schema data isn't loaded?)
@@ -1114,7 +1131,6 @@ X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 ZIcL$
-ZIcL$8Ic
 [A\A]A^A_]
 [A\A]A^]
 [A\A]]
@@ -1133,14 +1149,12 @@ _V_ComposeFileName
 _V_ExtractFileExtension
 _V_ExtractFilePath
 _V_FileBase
-_V_FixupPathName
-_V_GetFirstDir
 _V_MakeAbsolutePath
-_V_MakeRelativePath
 _V_SetExtension
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
@@ -1156,6 +1170,29 @@ _ZN10CVProfNode10GetSubNodeEPKciS1_i
 _ZN10CVProfNode9ExitScopeEv
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
+_ZN13CBufferString10ExtendPathEPKcc
+_ZN13CBufferString10FixSlashesEc
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
+_ZN13CBufferString11ShortenPathEv
+_ZN13CBufferString11ToLowerFastEi
+_ZN13CBufferString12AppendConcatEiPKPKcPKib
+_ZN13CBufferString12SetExtensionEPKc
+_ZN13CBufferString13FixupPathNameEv
+_ZN13CBufferString14RemoveFirstDirEPS_
+_ZN13CBufferString14StripExtensionEv
+_ZN13CBufferString15ComposeFileNameEPKcS1_c
+_ZN13CBufferString15ExtractFileBaseEPKc
+_ZN13CBufferString15ExtractFilePathEPKc
+_ZN13CBufferString16MakeAbsolutePathEPKcS1_
+_ZN13CBufferString16MakeRelativePathEPKcS1_
+_ZN13CBufferString16RemoveDotSlashesEc
+_ZN13CBufferString18StripTrailingSlashEv
+_ZN13CBufferString4SwapERS_
+_ZN13CBufferString5PurgeEi
+_ZN13CBufferString6ConcatEPKcS1_z
+_ZN13CBufferString6InsertEiPKcib
+_ZN13CBufferString6SetPtrEPciibb
+_ZN13CBufferString8RemoveAtEii
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -1178,6 +1215,10 @@ _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __bss_start
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
@@ -1209,27 +1250,18 @@ _init
 abort@@GLIBC_2.2.5
 anonymous 
 archive
-attenuation0
-attenuation1
-attenuation2
 badresources_whitelist.txt
-baked_light_indexing
-bakelightindex
-bakelightindexscale
 binary
 binary_bc
-bouncecolor
 c.[A\]
-castshadows
 cheat
 client
 clientcmd_can_execute
 configvalue.cpp
+content
 dH34%(
 dH3<%(
 default
-dimension0
-dimension1
 disable_group_clearing
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
@@ -1240,10 +1272,9 @@ f4RelaxationFactor
 f4Slack
 f4Weight0
 f4Weights
-f;C.w
+f;S.w
 fA;0M
 fA;0trA
-falloff
 false
 ffff.
 fffff.
@@ -1266,6 +1297,7 @@ flNodeWeight0
 flPointDamping
 flRadius
 flRelaxationFactor
+flReserved
 flSlack
 flSpringConstant
 flSpringDamping
@@ -1283,8 +1315,6 @@ floor@@GLIBC_2.2.5
 floorf
 floorf@@GLIBC_2.2.5
 fltx4
-fog_lighting
-fogcontributionstrength
 free@@GLIBC_2.2.5
 g E;g0D
 g_VProfCurrentProfile
@@ -1294,7 +1324,6 @@ gameinfo.txt
 generic
 h[A\A]A^A_]
 h[A\A]]
-innerconeangle
 interfaces.cpp
 jIcL$(Ic
 k8D;kHtMH
@@ -1310,9 +1339,6 @@ libresourcesystem.so.dbg
 libstdc++.so.6
 libtier0.so
 libvstdlib.so
-lightcookie
-lightsourceshape
-lighttype
 loadingresource.cpp
 m_AnimStrayRadii
 m_Attenuation0
@@ -1320,6 +1346,7 @@ m_Attenuation1
 m_Attenuation2
 m_AxialEdges
 m_BounceColor
+m_BoxRigids
 m_CollisionPlanes
 m_CollisionSpheres
 m_Color
@@ -1333,8 +1360,10 @@ m_FitMatrices
 m_FitWeights
 m_FollowNodes
 m_FreeNodes
+m_GoalDampedSpringIntegrators
 m_InitPose
 m_JiggleBones
+m_KelagerBends
 m_LegacyStretchForce
 m_LocalForce
 m_LocalRotation
@@ -1367,6 +1396,7 @@ m_Theta
 m_TreeChildren
 m_TreeCollisionMasks
 m_TreeParents
+m_Tris
 m_Type
 m_WorldCollisionNodes
 m_WorldCollisionParams
@@ -1403,6 +1433,7 @@ m_flDefaultVelQuadAirDrag
 m_flDefaultVelRodAirDrag
 m_flDefaultVolumetricSolveAmount
 m_flFogContributionStength
+m_flInternalPressure
 m_flK
 m_flLength
 m_flLightSourceDim0
@@ -1437,6 +1468,7 @@ m_flYawDamping
 m_flYawFriction
 m_flYawStiffness
 m_hResource->m_nLoadingResource != LOADING_RESOURCE_INDEX_INVALID
+m_hResource->m_nStreamingResource != STREAMING_RESOURCE_DATA_INDEX_INVALID
 m_jiggleBone
 m_lightCookie
 m_nBakeLightIndex
@@ -1444,6 +1476,9 @@ m_nCollisionSphereInclusiveCount
 m_nDynamicNodeFlags
 m_nEHandle
 m_nEvent
+m_nExtraGoalIterations
+m_nExtraIterations
+m_nExtraPressureIterations
 m_nFitMatrixCount1
 m_nFitMatrixCount2
 m_nFlags
@@ -1454,12 +1489,14 @@ m_nManifestIndex
 m_nNode
 m_nNodeCount
 m_nObjectId
+m_nPriority
 m_nQuadCount1
 m_nQuadCount2
 m_nQuadVelocitySmoothIterations
 m_nReferencerResourceId
 m_nReferredToResourceId
 m_nReserved
+m_nReservedUint8
 m_nResourceId
 m_nRodVelocitySmoothIterations
 m_nRopeCount
@@ -1479,6 +1516,8 @@ m_nStaticNodes
 m_nSubEvent
 m_nTimeUS
 m_nTreeDepth
+m_nTriCount1
+m_nTriCount2
 m_pEntityClass
 m_pEntityName
 m_pManifestDebugName
@@ -1493,8 +1532,9 @@ m_vPoint1
 m_vecUp
 malloc
 malloc@@GLIBC_2.2.5
-mathlib_base.cpp
+mathlib.cpp
 mathlib_extended
+matrix3x4a_t
 memcmp
 memcmp@@GLIBC_2.2.5
 memcpy
@@ -1528,13 +1568,12 @@ nTargetNode
 nTries < 10000000
 nVertexNode
 nVirtElem
+nWeight
 nogroup
 notconnected
 notify
 o ATL
-outerconeangle
 p[A\]
-precomputedmaxrange
 pthread_mutex_destroy
 pthread_mutex_destroy@@GLIBC_2.2.5
 pthread_mutex_init
@@ -1550,9 +1589,7 @@ pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
 qAdjust
-r6LcA
-renderdiffuse
-renderspecular
+r7LcQ
 replicated
 require_exact_pairings
 resource_leaks
@@ -1568,16 +1605,7 @@ schemasystem
 sdktools/bin/vproj.exe
 sdktools/bin/vprojUI.exe
 server_can_execute
-shadowcascadecount
-shadowcascadedistance%d
-shadowcascaderesolution%d
-shadowtextureheight
-shadowtexturewidth
-sincosf
-sincosf@@GLIBC_2.2.5
 singleplayer
-size0
-size1
 sqrtf
 sqrtf@@GLIBC_2.2.5
 src/public/tier0/platform.h
@@ -1588,19 +1616,16 @@ strcmp
 strcmp@@GLIBC_2.2.5
 strcpy
 strcpy@@GLIBC_2.2.5
+streamingresourcedata.cpp
 strlen
 strlen@@GLIBC_2.2.5
-strnlen
-strnlen@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
-t L;*u
+t	[A\]
 t!L;0u
 t"HcK
 t"HcO
 t$@A\]
 t$H9h
-t$HcP
 t$HfA
 t'H;0u
 t*L;m
@@ -1608,13 +1633,17 @@ t+Hc4
 t4[A\]
 t@@:>u
 tFH;0u
+tL[A\A]A^]
 tR[A\A]A^]
 tWA9]
 t^[A\]
 tdA:]
+tgL;(u
+tkD9p
+tmFrame
 ttIcG
 t}HcO
-uT9wt}O
+uL9wd}G
 uint64
 utlbuffer.cpp
 utlstring.cpp
@@ -1622,6 +1651,7 @@ v;<\t7I
 vCenter
 vOffset
 vShape
+vSize
 vagrp
 vanim
 vents
@@ -1645,7 +1675,6 @@ vvvtx
 vwenvmapvwrlt
 vwnod
 vwrld
-w(AUATI
 x HcW
 xGHcO
 x[A\A]A^A_]
@@ -1658,13 +1687,14 @@ z/u-H
 }>;w$
 }Hf;w
 }Tf;w
+~&H97t@
 ~&H9wHt'H
 ~)A;]
-~)H97tC
-~,H95G
+~,H95
 ~4Lc+I
 ~8H9wHts
 ~CH9wH
 ~CLoadingResource
+~CStreamingResourceData
 ~aHcW
 ~vHcKPHc

@@ -26,6 +26,7 @@
 #int#
 $+s$Hc
 $@CFioReadOnlyFile::FS_fread
+$A;D$
 $A;\$
 $E;D$
 $ORIGIN
@@ -34,29 +35,22 @@ $[A\]
 %-120s - %s
 %-20s "%s" %s%s
 %-20s %s
-%A %b %d
 %d total counted strings.
 %d:  %s -> %s at parent %i
 %d:  %s -> subtree at parent %i
-%d:00
 %d_%d_%d_%d_%d.tmp
 %f %f %f %f
-%fs_targH
+%fs_targI
 %i %i %i %i
 %ls [wstring, len = %d]
 %s %20s %30s = %8.2fms (call count = %d)
 %s%s%s crc=0x%x metadatasz=%d
-%s%s:%s
 %s, %s, %s
 %s.360%s
-%s.vpk
 %s: file too large
 %s: request %llu has op %d
 %s: string format requested %d chars
-%s\%s
 %s_%03d.vpk
-%s_dir.vpk
-%s_flt.vpk
 (*%s*), 
 (Unique   ): [%s]\%s
 ([A\A]A^A_]
@@ -191,31 +185,31 @@ $[A\]
 29CKeyValuesDumpContextAsDevMsg
 3+C$H
 3E8 u
-4$uXA
 42HcU
 4CZip
 4IZip
+5t~BC
 6ConVar
 6H92t%H
 6H;2u
 7IConVar
-8/t	I
 8CFmtStrNILi256ELb0EE
 8HcC H
 8VBKVt6HcF
 8[A\A]A^A_]
 8[]A\A]A^A_
+8{t(H
 9:w7I
 9IFileList
 9{0Lc
-:[tLL
+:[tlL
 :done
 :error
 ;*3$"
+;*t>I
 ;[A\]
 <	w.1
 <	woD
-<*tr<?
 </uLH
 <19{ |.
 <2tE<3tI
@@ -229,7 +223,7 @@ $[A\]
 <}tI<{uO
 =CSP1A
 =CSP1u
->fD;(tB
+>fD;(tF
 @8w{UH
 @[A\A]A^]
 @[A\]
@@ -268,7 +262,6 @@ ATSuHH
 ATUSH
 AUATA
 AUATD
-AUATE1
 AUATI
 AUATL
 AUATLc
@@ -283,11 +276,9 @@ AUATUSH
 AVAUA
 AVAUATA
 AVAUATI
-AVAUATL
 AVAUATS
 AVAUATSH
 AVAUATUSH
-AVAUH
 AVAUI
 AVAUL
 AWATING_FINISH
@@ -296,7 +287,6 @@ AWAVAUA
 AWAVAUATA
 AWAVAUATE1
 AWAVAUATI
-AWAVAUATL
 AWAVAUATS
 AWAVAUATSH
 AWAVAUATUSH
@@ -350,7 +340,7 @@ BinaryProperties_GetValue
 Blocked change to read-only path %s!
 Buffer not big enough to hold requested File IO
 BuildHashTables
-C5t(H
+C?@u@
 CAsyncFileRequest::GetProfilingInfo called with bad buffer size (%d passed, expecting %llu)
 CAsyncRequestBase::ProcessCallback callback function:  %8.3f msec (>10): %s
 CBaseFileSystem::Close
@@ -424,7 +414,6 @@ D+c$Mc
 D+k$Mc
 D+s$Mc
 D9 t5H
-D9%bX(
 D;!t{Hc
 D;'t{Hc
 D;c D
@@ -445,8 +434,10 @@ E+g$Mc
 E+o$Mc
 E+w$Mc
 E+}$Mc
+E97ugD9
 E9gPI
-E9t$ ~kI
+E9|$ ~bI
+E;} D
 EMPTY - ok for slot zero only!
 ERROR_ALIGNMENT
 ERROR_ALREADYSERVICED
@@ -496,7 +487,6 @@ FS:  Tried to Size NULL filename!
 FS:  Tried to Tell NULL file handle!
 FS:  Tried to Write NULL file handle!
 FS:  Tried to Write NULL file pointer inside valid file handle!
-FS: Specified invalid embedded path ID (%s).
 FS: Specified two path IDs (%s, %s).
 Failed
 Failed to load module %s
@@ -530,6 +520,7 @@ G<@t1H
 G<@t:
 G<@tLL
 G<@tUI
+G<@ta
 G<@th
 G<@tp
 GAMECONSOLE
@@ -561,11 +552,13 @@ H90t%A
 H;S@w
 HIGHDPI
 H[A\A]A^A_]
+H[A\A]]
 H[]A\A]A^A_
 HammerMapLoader001
 HangWatchdog_IndicateActivity
 Hc@XH
 Hc@pH
+HcC H9
 HcC$H
 HcC(1
 HcF$U
@@ -589,7 +582,6 @@ IQuickTime001
 IcD$$A
 IcF81
 IcF89E
-IcWTI
 Ic]PI
 Icu`H
 InputService_001
@@ -612,6 +604,7 @@ KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 KickOffFileJobs
+L9c t
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
@@ -639,10 +632,9 @@ MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
+Mc'E;g
 Mc.E;n
 Mc/E;o
-Mc4$E;t$
-Mc<$E;|$
 McN(E;N8
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -659,7 +651,7 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
-O tqH
+O t{H
 Open( %llu microsecs, %s )
 Open( %s )
 Ordered constructor wrapped type has no default constructor.
@@ -683,10 +675,10 @@ Plat_DebugString
 Plat_ExitProcess
 Plat_FileSize
 Plat_FloatTime
+Plat_GetCurrentDirectory
 Plat_GetEnv
 Plat_GetModuleFilename
 Plat_GetOSType
-Plat_GetTime
 Plat_IsFile
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
@@ -703,8 +695,6 @@ Plat_TickDiffMilliSecF
 Plat_TranslateSymbolicLinks
 Plat_UnloadModule
 Plat_ctime
-Plat_getwd
-Plat_localtime
 PostProcessingSystem_001
 Preload size for '%s' is too big
 PreloadDirectoryEntries
@@ -805,6 +795,11 @@ SubmitSyncFileRequest
 SyncGetFileSize
 T$0Hc
 T$8H)
+TestFormatA
+TestFormatB
+TestFormatC
+TestFormatD
+TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
@@ -812,7 +807,6 @@ The filename may only contain lower case alphanumeric characters and underscores
 ThreadGetCurrentId
 ThreadGetPriority
 ThreadInMainThread
-ThreadInterlockedExchange64
 ThreadSetPriority
 ThreadSleep
 Times Opened: %3i		Accumulated Time: %10.5fms		Average Time per Open: %13.8fms		File: %s
@@ -860,6 +854,7 @@ VGUI_Scheme010
 VGUI_Surface032
 VGUI_System010
 VGUI_ivgui008
+VHIcvTA
 VKVFt
 VMDLLIB001
 VMaterialSystem2_001
@@ -886,7 +881,8 @@ V_GetErrno
 V_GetFileExtension
 V_IsAbsolutePath
 V_IsFakePath
-V_MakeAbsoluteVPKPathName
+V_MakeAbsolutePathBuffer
+V_MakeAbsoluteVPKPathNameBuffer
 V_PathContainsPath
 V_RemoveDotSlashes
 V_SetErrno
@@ -920,15 +916,19 @@ V_qsort
 V_qsort_s
 V_setvbuf
 V_snprintf
-V_snwprintf
+V_snwprintf_bytes
+V_snwprintf_cch
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strtod
 V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
+V_tier0_strstr
 V_vsnprintf
 V_vsnprintfRet
 V_vsnprintfSize
@@ -945,6 +945,7 @@ ValidateSubmittedRequest
 Version
 VisBuilder_001
 W0HcE
+W@tpH
 WARNING: CDirWatcher not implemented
 WARNING: File might be corrupt or missing - '%s'
 WARNING: Local content might be corrupt or missing files
@@ -973,6 +974,7 @@ ZIP_LocalFileHeader
 ZIP_PreloadDirectoryEntry
 ZIP_PreloadHeader
 ZIcL$
+[A9D$
 [A\A]A^A_]
 [A\A]A^]
 [A\A]]
@@ -981,25 +983,22 @@ ZIcL$
 []A\A]A^A_
 \t!Hc
 \u0000
-]+l`J
 ^ t+H
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
-_V_AppendSlash
 _V_ComposeFileName
 _V_ExtractFileExtension
 _V_ExtractFilePath
 _V_FileBase
 _V_FixupPathName
-_V_GetFirstDir
 _V_MakeAbsolutePath
-_V_MakeRelativePath
 _V_StrSubst
 _V_StringAfterPrefix
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
@@ -1014,6 +1013,33 @@ _ZN10CVProfNode10GetSubNodeEPKciS1_i
 _ZN10CVProfNode9ExitScopeEv
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
+_ZN13CBufferString10ExtendPathEPKcc
+_ZN13CBufferString10FixSlashesEc
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
+_ZN13CBufferString11ShortenPathEv
+_ZN13CBufferString11ToLowerFastEi
+_ZN13CBufferString12AppendConcatEiPKPKcPKib
+_ZN13CBufferString12AppendFormatEPKcz
+_ZN13CBufferString13FixupPathNameEv
+_ZN13CBufferString14RemoveFirstDirEPS_
+_ZN13CBufferString14StripExtensionEv
+_ZN13CBufferString15ComposeFileNameEPKcS1_c
+_ZN13CBufferString15ExtractFileBaseEPKc
+_ZN13CBufferString15ExtractFilePathEPKc
+_ZN13CBufferString15ExtractFirstDirEPKc
+_ZN13CBufferString16MakeAbsolutePathEPKcS1_
+_ZN13CBufferString16MakeRelativePathEPKcS1_
+_ZN13CBufferString16RemoveDotSlashesEc
+_ZN13CBufferString18StripTrailingSlashEv
+_ZN13CBufferString19EnsureTrailingSlashEc
+_ZN13CBufferString20ExtractFileExtensionEPKc
+_ZN13CBufferString4SwapERS_
+_ZN13CBufferString5PurgeEi
+_ZN13CBufferString6ConcatEPKcS1_z
+_ZN13CBufferString6FormatEPKcz
+_ZN13CBufferString6InsertEiPKcib
+_ZN13CBufferString6SetPtrEPciibb
+_ZN13CBufferString9SetLengthEibPi
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -1045,7 +1071,13 @@ _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __bss_start
+__ctype_toupper_loc
+__ctype_toupper_loc@@GLIBC_2.3
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
 __cxa_finalize
@@ -1080,6 +1112,7 @@ __xstat64@@GLIBC_2.2.5
 _addons
 _edata
 _fini
+_flt.vpk
 _fstXXXX
 _init
 `[A\]
@@ -1097,6 +1130,8 @@ asyncwrite
 bIsLive
 bIsLive && !pRequestBase->m_bUsedAsContext
 basefilesystem.cpp
+binary
+binary_bc
 borrow
 c [A\A]A^]
 c.[A\]
@@ -1113,6 +1148,7 @@ commentLength
 compressionMethod
 configvalue.cpp
 console.log
+content
 copy "%%binsrc%%\bin\*.asi" "%%fs_target%%\bin"
 copy "%%binsrc%%\bin\engine.dll" "%%fs_target%%\bin"
 copy "%%binsrc%%\bin\filesystem_stdio.dll" "%%fs_target%%\bin"
@@ -1147,9 +1183,10 @@ dl_iterate_phdr@@GLIBC_2.2.5
 dup@@GLIBC_2.2.5
 echo !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo ERROR: must set fs_target=targetpath (ie. "set fs_target=u:\destdir")!
+et%\I
 externalFileAttribs
 extraFieldLength
-f;C.w
+f;S.w
 fA;0M
 fA;0trA
 fA;D$(
@@ -1200,6 +1237,7 @@ g_pMemAlloc
 g_pThreadPool
 gameinfo.gi
 gameinfo.txt
+generic
 goto done
 h[A\A]A^A_]
 h[A\A]]
@@ -1221,6 +1259,7 @@ libstdc++.so.6
 libsteam_api.so
 libtier0.so
 libvstdlib.so
+localtime
 localtime@@GLIBC_2.2.5
 lseek64
 lseek64@@GLIBC_2.2.5
@@ -1323,21 +1362,14 @@ strcmp
 strcmp@@GLIBC_2.2.5
 strcpy
 strcpy@@GLIBC_2.2.5
-strftime
-strftime@@GLIBC_2.2.5
 strlen
 strlen@@GLIBC_2.2.5
-strncpy@@GLIBC_2.2.5
-strnlen
-strnlen@@GLIBC_2.2.5
 strrchr
 strrchr@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
 t"HcE
 t"HcK
 t"HcO
-t"[A\]
 t$H9h
 t$HcK
 t$f91u
@@ -1347,24 +1379,17 @@ t-Mc<$E;|$
 t3Hc4
 t4[A\]
 t@@:>u
-tO[A\]
-tRL9c
-tRL9c 
+tL[A\A]A^]
 tSHcO
 tWA9]
-tY[A\]
 t]fD;P
 tdA:]
 time@@GLIBC_2.2.5
-tolower
-tolower@@GLIBC_2.2.5
-toupper
-toupper@@GLIBC_2.2.5
 ttIcG
 tyHcO
 t}HcO
+u0IcvTH
 u64( %lld = 0x%llX )
-u:IcOTL
 uncompressedSize
 unknown
 unlink
@@ -1378,6 +1403,8 @@ v;<\t7I
 versionMadeBy
 versionNeededToExtract
 w`AUATI
+wcscmp
+wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
 write@@GLIBC_2.2.5
@@ -1395,12 +1422,12 @@ x_HcO
 }G;w$wBH
 }Hf;w
 }I;w$
-}IfD9
+}IfA9
 }KfD9
 }Tf;w
 }V;w$
 ~	ATI
+~&H97t@
 ~)A;]
-~)H97tC
 ~SHcC
 ~vHcKPHc

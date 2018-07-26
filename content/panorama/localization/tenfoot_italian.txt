@@ -644,4 +644,8 @@
 "[english]KnucklesCapsenseMode_3"	"Cap Sense controls Grip"
 "VRSettingsCamera_RoomViewMode_EdgeA"	"Bordi colorati"
 "[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
+"VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Visuale traslucida"
+"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Transluscent Pass-Through"
+"VRSettingsCamera_RoomViewMode_VideoOpaque"	"Visuale opaca"
+"[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
 }

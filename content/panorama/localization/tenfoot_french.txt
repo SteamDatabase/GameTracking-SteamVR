@@ -648,6 +648,8 @@
 "[english]VRSettingsCamera_RoomViewMode_Label"	"Room View Camera Mode"
 "VRSettingsCamera_RoomViewMode_EdgeA"	"Bords colorés"
 "[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
+"VRSettingsCamera_RoomViewMode_EdgeB"	"Silhouettes colorées"
+"[english]VRSettingsCamera_RoomViewMode_EdgeB"	"Colored Ghosts"
 "VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Vue translucide"
 "[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Transluscent Pass-Through"
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Vue opaque"

@@ -1,0 +1,42 @@
+{
+	"language":		"english",
+
+		"VRMonitor_Nav_Overview": "Overview",
+	"VRMonitor_Nav_Settings": "Settings",
+	"VRMonitor_Nav_Help": "Help",
+	"VRMonitor_Nav_Developer": "Developer",
+
+	"VRMonitor_Overview_SystemStatus_Title": "System Status",
+
+	"VRMonitor_Overview_DeviceStatus_Title": "Device Status",
+
+	"VRMonitor_Overview_Notifications_Title": "Notifications",
+
+	"VRMonitor_Overview_QuickLinks_Title": "Quick Links",
+	"VRMonitor_Overview_QuickLinks_Knock": "Knock Knock",
+	"VRMonitor_Overview_QuickLinks_Knock_Desc": "Get the headset user's attention",
+	"VRMonitor_Overview_QuickLinks_RoomSetup": "Room Setup",
+	"VRMonitor_Overview_QuickLinks_RoomSetup_Desc": "Configure Chaperone bounds",
+	"VRMonitor_Overview_QuickLinks_Tutorial": "SteamVR Tutorial",
+	"VRMonitor_Overview_QuickLinks_Tutorial_Desc": "Learn to use your VR Headset",
+
+	"SystemStatus_FrameRate_Good": "Framerate Good",
+	"SystemStatus_FrameRate_MissedFrames": "Missed Frames",
+
+	"SystemStatus_FrameRate_now": "now",
+	"SystemStatus_FrameRate_7sec": "7 sec",
+	"SystemStatus_FrameRate_15sec": "15 sec",
+
+	"VRDevFiles_PathHandles": "Path Handles",
+	"VRDevFiles_JSON": "JSON",
+	"VRDevFiles_Logging": "Logging",
+	"VRDevFiles_Configuration": "Configuration",
+	"VRDevFiles_USBDevices": "USB Devices",
+
+	"VRDevConsole_ShowLogName": "Show log name",
+	"VRDevConsole_Showtimestamp": "Show timestamp",
+
+	"VRMonitor_DevNav_Console": "Console",
+	"VRMonitor_DevNav_RoomOverview": "Room overview",
+	"VRMonitor_DevNav_Files": "Files"
+}

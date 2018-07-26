@@ -287,6 +287,9 @@
 		"VR_PhysicsProp_SkyrimIronHelmet"			"Dragonborn Helmet"
 		"VR_PhysicsProp_SkyrimIronHelmet_Desc"		"Dragons, long lost to the passages of the Elder Scrolls, have returned to Tamriel and the future of the Empire hangs in the balance. As Dragonborn, the prophesied hero born with the power of The Voice, you are the only one who can stand amongst them.\n\nUnlocked by playing The Elder Scrolls V: Skyrim VR."
 		
+		"VR_PhysicsProp_TF2Sentry1Toolbox"			"TF2 Combat Mini-Sentry"
+		"VR_PhysicsProp_TF2Sentry1Toolbox_Desc"		"This affordable, adorable miniature sentry gun allows you to enjoy the best of Mann Co's autonomous weaponry in the comfort of your own home.\n\nWarning: may attack things it considers 'uninteresting' according to this here source code."
+		
 		"VR_PhysicsProp_NevrosaEscapeCube"			"Inferno Cube"
 		"VR_PhysicsProp_NevrosaEscapeCube_Desc"		"This ancient artifact found its way even into this reality. You can't get rid of the Cube.\n\nUnlocked by playing Nevrosa: Escape."
 		
@@ -783,7 +786,16 @@
 		"SpawnablePanel_Friends_Desc"					"Panel that allows you to interact with your Steam friends."
 		"SpawnablePanel_PublicLobbies"					"Rooms "
 		"SpawnablePanel_PublicLobbies_Desc"				"A panel that shows you the public and friends-only rooms you can join."
-		
+
+		"VROverlay_Desktop"								"Your Desktop"
+		"VROverlay_Desktop_Desc"						"Panel showing your desktop."
+		"VROverlay_BigPicture"							"Steam Big Picture"
+		"VROverlay_BigPicture_Desc"						"Panel showing the Big Picture view of Steam."
+		"VROverlay_VrSettings"							"SteamVR Settings"
+		"VROverlay_VrSettings_Desc"						"Panel showing SteamVR settings."
+		"VROverlay_VrDashboard"							"SteamVR Dashboard"
+		"VROverlay_VrDashboard_Desc"					"Panel showing the SteamVR dashboard."
+
 		"Quest_Headcrab"						"Headcrab Head Quest"
 		"Quest_Headcrab_Desc"					"Unlock this avatar by interacting with something in the Valve Lobby."
 		"Quest_Jackolantern"					"Jack O'Lantern Head Quest"
@@ -834,6 +846,8 @@
 		"Quest_Weight_Barbell_Desc"				"Unlock the barbell by interacting with something in the Boxing Ring."
 		"Quest_TF2Yeti"							"Yeti Quest"
 		"Quest_TF2Yeti_Desc"					"Find this mythical beast lurking up Mount Rainier."
+		"Quest_TF2Sentry1"						"Mini-Sentry Quest"
+		"Quest_TF2Sentry1_Desc"					"Bring your friends to uncover this fiendishly hidden home-defense product of Mann Co."
 		
 		"Quest_Detector"						"Weekly Geocaching Quest"
 		"QuestType_Detector"					"{d:quest_quantity} Caches Left"
@@ -1232,9 +1246,10 @@
 
 		// Community World Panel
 		"SteamDisclaimer"	"Content from the Steam Community may not be appropriate for all ages."
-		"PowerOnText"		"POWER ON"
+		"PowerOnText"		"POWER"
 		"UGCTitle"			"STEAM COMMUNITY"
 		"UGCDesc"			"TOP CONTENT FROM THE STEAM COMMUNITY"
+		"TopAppsTabText"	"TOP STEAMVR APPS"
 		"EnvironmentsTabText"	"ENVIRONMENTS"
 		"ScreenshotTabText"	"SCREENSHOTS"
 		"ArtworkTabText"	"ARTWORK"
@@ -1246,8 +1261,9 @@
 		"SteamPlayerDesc2"	"{d:peak_player_count} - 48 HOUR PEAK"
 		"SteamVRNowTitle"	"STEAMVR NOW"
 		"SteamVRNowDesc"	"VR APPS BY CURRENT PLAYER COUNT"
-		"SinglePlayerLabel"	"SINGLE-PLAYER VR"
-		"MultiPlayerLabel"	"MULTIPLAYER VR"
+		"SinglePlayerLabel"	"SINGLE-PLAYER BY PLAYER COUNT"
+		"MultiPlayerLabel"	"MULTIPLAYER BY PLAYER COUNT"
+		"FreeAppsLabel"		"FREE APPS BY PLAYER COUNT"
 		"VRTitleLabel"		"{s:app_name}"
 		"HTCPromoTitle"		"VIVE ENVIRONMENT"
 		"HTCPromoDesc"		"Explore Driftwood, an environment created by Vive Creative Labs."
@@ -1272,7 +1288,9 @@
 		"RecentApps_Footer"	"For all applications, press the System button."
 		"LaunchConfirmationText"	"{s:launch_app_name}"
 		"LaunchButtonText"	"Launch"
-		"DetailsButtonText"	"Details"
+		"LaunchDisabledButtonText"	"Don't Own"
+		"DetailsButtonText"	"View Details"
+		"StoreButtonText"	"View on Steam"
 		"CancelButtonText"	"Cancel"
 		"ShowAllAppsText" 	"View All Applications"
 
@@ -1324,6 +1342,11 @@
 		"DOTA_Workshop_Publish_UGCError"						"An error occurred while attempting to download a file from the UGC server!"
 		"DOTA_Workshop_Publish_NoAddonsFolder"					"Unable to find addons folder!"
 		"DOTA_Workshop_Publish_VPKCreateFailure"				"Unable to create VPK file for custom game folder %1"
+		"DOTA_Workshop_Publish_AssetPackAddonFailure"			"An asset pack addon can only be published if it is the active addon"
+		"DOTA_Workshop_Publish_AddonNotFound"					"Unable to find asset pack addon %1"
+		"DOTA_Workshop_Publish_SaveReadOnlyAssetInfoFailure"	"Unable to save readonly_tools_asset_info.bin"
+		"DOTA_Workshop_Publish_AssetPackWithDependencyFailure"	"An asset pack addon may not have dependencies on other asset packs"
+		"DOTA_Workshop_Publish_LocalDependenciesFailure"		"Dependency found on local addon %1 - dependencies only allowed on workshop addons or application addons"
 		"DOTA_Workshop_Publish_SuccessTitle"					"Success"
 		"DOTA_Workshop_Publish_SuccessText"						"The item has been updated on the steam workshop!"
 		"DOTA_Workshop_Publish_PackagingSubmission"				"Packaging Submission Data"
@@ -1352,6 +1375,12 @@
 		"Workshop_UploadProgress_UploadingContent"					"Uploading files..."
 		"Workshop_UploadProgress_UploadingPreview"					"Uploading preview files..."
 		"Workshop_UploadProgress_CommittingChanges"					"Finishing up..."
+
+		"Workshop_Publish_Item_Type"							"Item Type"
+		"Workshop_Item_Type_Destination"						"Destination"
+		"Workshop_Item_Type_Destination_Asset_Pack"				"Destination And Asset Pack"
+		"Workshop_Item_Type_Asset_Pack"							"Asset Pack Only"
+		"Workshop_Cant_Change_Item_Type_In_Info_Only"			"The item type can only be changed during a full re-upload"
 
 		"Workshop_Theme_Tags"						"Theme"
 		"Workshop_Tag_Theme_Abstract"				"Abstract"

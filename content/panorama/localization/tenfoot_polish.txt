@@ -563,7 +563,7 @@
 "[english]VRSettingsMimeTypesTitle"	"Default Programs"
 "VRSettingsMimeTypes_GameTheater"	"Uruchamiaj gry pulpitowe w:"
 "[english]VRSettingsMimeTypes_GameTheater"	"Launch Desktop Games in: "
-"VRSettingsPowerTitle"	"Ustawienia zasilania"
+"VRSettingsPowerTitle"	"Zarządzanie energią"
 "[english]VRSettingsPowerTitle"	"Power Management"
 "VRSettingsPower_TurnOffScreens"	"Wyłącz wyświetlacze:"
 "[english]VRSettingsPower_TurnOffScreens"	"Turn off displays:"
@@ -645,4 +645,8 @@
 "[english]KnucklesCapsenseMode_2"	"Cap Sense controls Trigger"
 "KnucklesCapsenseMode_3"	"Cap Sense kontroluje uchwyt"
 "[english]KnucklesCapsenseMode_3"	"Cap Sense controls Grip"
+"VRSettingsCamera_RoomViewMode_Label"	"Tryb kamery - widok pokoju"
+"[english]VRSettingsCamera_RoomViewMode_Label"	"Room View Camera Mode"
+"VRSettingsCamera_RoomViewMode_EdgeA"	"Kolorowe krawędzie"
+"[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
 }

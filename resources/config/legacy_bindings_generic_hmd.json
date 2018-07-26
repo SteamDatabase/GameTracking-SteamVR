@@ -1,0 +1,24 @@
+{
+   "bindings" : {
+      "/actions/legacy" : {
+         "haptics" : [
+         ],
+         "poses" : [
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/head_proximity"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/head/proximity"
+            }
+         ]
+      }
+   },
+   "controller_type" : "generic",
+   "description" : "",
+   "name" : "Default legacy bindings for Generic Headsets"
+}

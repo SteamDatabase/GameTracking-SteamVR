@@ -42,6 +42,7 @@
 .UGCTabs,
 .ConfirmationPanel,
 .BlackOut,
+.SteamVRTitleLogo,
 .ScreenOn #PowerOn,
 .ScreenOn .SteamVRLogo,
 .ScreenOn .SteamDisclaimer,
@@ -50,11 +51,13 @@
 	visibility: collapse;
 }
 
+.ScreenOn .SteamVRTitleLogo,
 .ScreenOn .TitleBar,
 .ScreenOn .LoadingSpinnerWrapper,
-.ScreenOn #CommunityContentContainer,
+.ScreenOn .SelectedUGC_screenshots #CommunityContentContainer,
+.ScreenOn .SelectedUGC_artwork #CommunityContentContainer,
 .ScreenOn .SelectedUGC_environments #EnvironmentsContainer,
-.ScreenOn .SteamVRNow,
+.ScreenOn .SteamVRNowOn .SteamVRNow,
 .ScreenOn #PowerOff,
 .ScreenOn .UGCTabs,
 .ScreenOn .ConfirmationPanel,
@@ -123,6 +126,22 @@
 {
 	width: 100%;
 	height: 230px;
+	opacity: 0;
+}
+
+.SteamVRTitleLogo
+{
+	width: 750px;
+	height: 190px;
+	opacity: 0;
+}
+
+.SteamVRTitleLogoImage
+{
+	width: 65%;
+	height: 65%;
+	margin-top: 52px;
+	margin-left: 25px;
 }
 
 .SteamVRNowTitle
@@ -171,21 +190,21 @@
 
 .UGCTabs
 {
-	width: 1230px;
+	width: 2400px;
 	height: 130px;
 	margin-top: 50px;
-	margin-right: 200px;
+	//margin-right: 200px;
 	border: 5px solid #555555ff;
 	border-radius: 5px;
-	horizontal-align: right;
+	horizontal-align: center;
 	flow-children: right;
 }
 
 .EnvironmentsTab,
 .ScreenshotsTab,
-.ArtworkTab
+.CurrentlyPlayedTab
 {
-	width: 410px;
+	width: 800px;
 	height: 130px;
 	pre-transform-scale2d: 1;
 	transition-property: background-color;
@@ -194,18 +213,18 @@
 }
 
 .ScreenshotsTab:hover,
-.ArtworkTab:hover,
 .EnvironmentsTab:hover,
+.CurrentlyPlayedTab:hover,
 .GamepadController .ScreenshotsTab:focus,
-.GamepadController .ArtworkTab:focus,
-.GamepadController .EnvironmentsTab:focus
+.GamepadController .EnvironmentsTab:focus,
+.GamepadController .CurrentlyPlayedTab:focus
 {
 	background-color: #555555ff;
 }
 
 .SelectedUGC_screenshots .ScreenshotsTab,
-.SelectedUGC_artwork .ArtworkTab,
-.SelectedUGC_environments .EnvironmentsTab
+.SelectedUGC_environments .EnvironmentsTab,
+.SelectedUGC_currentlyplayed .CurrentlyPlayedTab
 {
 	background-color: #333333ff;
 }
@@ -220,7 +239,8 @@
 .TabText
 {
 	color: white;
-	font-size: 40px;
+	font-size: 55px;
+	font-weight: bold;
 	text-align: center;
 	vertical-align: center;
 	horizontal-align: center;
@@ -242,7 +262,7 @@
 	margin-right: 50px;
 	horizontal-align: right;
 	background-color: black;
-	border: 2px solid #555555ff;
+	//border: 2px solid #555555ff;
 	//border-radius: 50%;
 }
 
@@ -255,8 +275,9 @@
 	width: fit-children;
 	vertical-align: bottom;
 	horizontal-align: center;
-	//border: 2px solid white;
+	border: 2px solid #ffffff88;
 	background-color: #55555511;
+	//background-color: button_gradient;
 }
 
 #PowerOn .PowerIcon
@@ -277,6 +298,14 @@
 	font-size: 45px;
 }
 
+#PowerOn:hover,
+.GamepadController #PowerOn:focus
+{
+	background-color: #555555ff;
+	//background-color: blue;
+	//background-color: button_gradient_hover;
+}
+
 .PowerButton:hover,
 .GamepadController .PowerButton:focus
 {
@@ -293,12 +322,7 @@
 	//border-radius: 50%;
 }
 
-#PowerOn:hover,
-.GamepadController #PowerOn:focus
-{
-	background-color: #555555ff;
-	//background-color: blue;
-}
+
 
 //----------------
 //  Screenshots / Artwork
@@ -306,25 +330,32 @@
 
 #CommunityHomeContainer 
 {
-	width: 2550px;
+	width: 100%;
 	height: 100%;
-	horizontal-align: right;
+	horizontal-align: center;
 }
 
 #CommunityContentContainer
 {
-	width: 100%;
-	height: 100%;
+	//width: 100%;
+	//height: 100%;
 	margin-top: 230px;
 	flow-children: right-wrap;
+	horizontal-align: center;
+	//vertical-align: center;
+	margin-top: 250px;
+	background-color: red;
+
 }
 
 .ScreenshotThumbContainer 
 {
 	//width: 230px;
 	//height: 230px;
-	width: 250px;
-	height: 250px;
+	//width: 250px;
+	//height: 250px;
+	width: 290px;
+	height: 290px;
 
 	overflow: clip;
 	border: 10px solid #111111ff;
@@ -338,7 +369,7 @@
 	//height: 292px;
 	width: 100%; 
 	height: 100%;
-	margin: 2px;
+	//margin: 20px;
 	overflow: clip;
 	pre-transform-scale2d: 1;
 	transition-property: wash-color, opacity;
@@ -371,11 +402,13 @@
 
 #EnvironmentsContainer
 {
-	width: 2550px;
+	//width: 2550px;
+	width: 100%;
 	height: 100%;
-	margin-top: 230px;
+	margin-top: 250px;
 	padding-left: 7px;
-	horizontal-align: right;
+	margin-left: 50px;
+	horizontal-align: center;
 	background-color: #111111ff;
 	//flow-children: right-wrap;
 
@@ -384,28 +417,29 @@
 
 .Valve_Promotion
 {
-	height: 250px;
-	//width: 1235px;
-	width: 2480px;
+	height: 325px;
+	width: 2756px;
 	margin: 6px;
 	border-radius: 2px;
-	border: 3px solid #ffffff20;
+	border: 3px solid #ffffff08;
 	//background-color: button_gradient;
-	background-color: #222222ff;	
+	background-color: #222222aa;	
 	//background-color: #333333ff;	
 	transition-property: background-color, border;
 	transition-duration: 0.23s;
 
+	//horizontal-align: right;
 	vertical-align: bottom;
-	margin-bottom: 50px;
+	margin-bottom: 170px;
+	margin-left: 705px;
 
 }
 
 .PromoImage
 {
 	//width: 300px;
-	width: 606px;
-	height: 250px;
+	width: 788px;
+	height: 325px;
 	vertical-align: center;
 	//margin-left: 40px;
 }
@@ -413,20 +447,20 @@
 .PromoTitle
 {
 	color: white;
-	font-size: 60px;
+	font-size: 55px;
 	//margin-left: 350px;	
-	margin-left: 660px;
-	margin-top: 55px;
-	font-weight: bold;
+	margin-left: 860px;
+	margin-top: 80px;
+	//font-weight: bold;
 }
 
 .PromoDesc
 {
 	color: #ffffff99;
-	font-size: 45px;
+	font-size: 50px;
 	//margin-left: 350px;
-	margin-left: 660px;
-	margin-top: 130px;
+	margin-left: 860px;
+	margin-top: 160px;
 }
 
 .TopEnvironments
@@ -437,21 +471,21 @@
 
 .EnvironmentItem
 {
-	width: 300px;
-	height: 300px;
+	width: 325px;
+	height: 325px;
 	//border: 10px solid #111111ff;
 	//margin: 10px;
 	background-color: #222222ff;
-	border: 3px solid #ffffff00;
-	margin: 6px;
+	border: 3px solid #ffffff05;
+	margin: 11px;
 	transition-property: background-color, border, wash-color;
 	transition-duration: 0.23s;
 }
 
 .EnvironmentImage
 {
-	width: 300px;
-	height: 300px;
+	width: 325px;
+	height: 325px;
 	opacity: 1;
 	//transition-property: wash-color;
 	//transition-duration: 0.23s;
@@ -498,10 +532,10 @@
 
 .ValveEnvironmentsWrapper
 {
-	width: 2500px;
-	height: 1515px;
-	margin-right: 50px;
-	horizontal-align: right;
+	width: 100%;
+	height: 100%;
+	//margin-right: 50px;
+	horizontal-align: center;
 	background-color: #111111fa;
 	visibility: collapse;
 }
@@ -514,9 +548,9 @@
 .ValveEnvironmentsDialog
 {
 	//width: 2340px;
-	//height: 1030px;
-	width: 2020px;
-	height: 1300px;
+	//height: 1030px;`
+	width: 2600px;
+	height: 1450px;
 	margin-bottom: 100px;
 	vertical-align: center;
 	horizontal-align: center;
@@ -554,8 +588,9 @@
 	width: 120px;
 	height: 120px;
 	margin-top: 50px;
-	//horizontal-align: right;
-	margin-left: 1850px;
+	horizontal-align: right;
+	margin-right: 50px;
+	//margin-left: 1850px;
 	//margin-left: 2150px;
 	border: 1px solid #ffffff00;
 	transition-property: background-color, border, pre-transform-scale2d;
@@ -606,8 +641,8 @@
 
 .VivePromoImage
 {
-	width: 300px;
-	height: 250px;
+	width: 390px;
+	height: 325px;
 	vertical-align: center;
 	horizontal-align: left;
 }
@@ -615,58 +650,61 @@
 .HMD_Manufacturer_HTC .PromoTitle
 {
 	color: white;
-	font-size: 60px;
-	margin-left: 350px;	
+	font-size: 55px;
+	margin-left: 450px;	
 	//margin-left: 660px;
 	//margin-top: 55px;
-	margin-top: 30px;
-	font-weight: bold;
+	margin-top: 55px;
+	//font-weight: bold;
 }
 
 .HMD_Manufacturer_HTC .PromoDesc
 {
 	color: #ffffff99;
 	font-size: 45px;
-	margin-left: 350px;
+	margin-left: 450px;
 	//margin-left: 660px;
 	//margin-top: 130px;
-	margin-top: 110px;
+	margin-top: 140px;
 	width: 800px;
 }
 
 .HMD_Manufacturer_HTC .Valve_Promotion
 {
-	height: 250px;
-	width: 1235px;
+	height: 325px;
+	width: 1367px;
 	//width: 2480px;
 	margin: 6px;
 	border-radius: 2px;
-	border: 3px solid #ffffff20;
+	border: 3px solid #ffffff08;
 	//background-color: button_gradient;
-	background-color: #222222ff;	
+	background-color: #222222aa;	
 	//background-color: #333333ff;	
 	transition-property: background-color, border;
 	transition-duration: 0.23s;
 
 	vertical-align: bottom;
-	margin-bottom: 50px;
+	//margin-bottom: 50px;
+	margin-bottom: 170px;
+	margin-left: 705px;
 
 }
 
 .HTC_Promotion
 {
-	height: 250px;
-	width: 1235px;
+	height: 325px;
+	width: 1367px;
 	margin: 6px;
 	margin-left: 1253px;
 	border-radius: 2px;
-	border: 3px solid #ffffff20;
-	background-color: #222222ff;	
+	border: 3px solid #ffffff08;
+	background-color: #222222aa;	
 	transition-property: background-color, border;
 	transition-duration: 0.23s;
 
 	vertical-align: bottom;
-	margin-bottom: 50px;
+	margin-bottom: 170px;
+	margin-left: 2092px;
 
 	visibility: collapse;
 }
@@ -751,20 +789,26 @@
 
 .SteamVRNow
 {
-	width: 1050px;
+	width: 100%;
 	height: 100%;
 	margin-top: 210px;
 	horizontal-align: left;
 	background-color: #111111ff;
-	flow-children: down;
+	//flow-children: down;
 	opacity: 0;
 
 	//background-color: green;
 }
 
+.SteamVRNowColumns
+{
+	flow-children: right;
+}
+
 #CommunityHomeWrapper.HasData .SteamVRNow
 {
 	opacity: 1;
+	//opacity: .5;
 }
 
 
@@ -779,26 +823,50 @@
 	visibility: collapse;
 }
 
+.SinglePlayerAppPanel,
+.MultiPlayerAppPanel,
+.FreeAppPanel
+{
+	flow-children: down;
+	//background-color: green;
+}
 
+.MultiPlayerAppPanel
+{
+	//margin-left: 40px;
+}
 
 .SinglePlayerLabel,
-.MultiPlayerLabel
+.MultiPlayerLabel,
+.FreeAppLabel
 {
-	color: #ffffffaa;
-	font-size: 50px;
-	margin-top: 40px;
+	//color: #ffffff88;
+	font-size: 55px;
+	margin-top: 20px;
 	margin-left: 40px;
+	margin-bottom: 15px;
 	font-weight: bold;
+}
+
+.SinglePlayerLabel
+{
+	color: #e86260;
 }
 
 .MultiPlayerLabel
 {
-	margin-top: 70px;
+	color: green;
+}
+
+.FreeAppLabel
+{
+	color: #54b5e7;
 }
 
 .VRTitlesContainer
 {
-	height: 655px;
+	//height: 655px;
+	height: 1500px;
 	flow-children: down;
 }
 
@@ -806,7 +874,10 @@
 {
 	flow-children: right;	
 	margin-left: 40px;
-	margin-top: 11px;
+	margin-top: 14px;
+	background-color: #ffffff02;
+	//background-color: green;
+
 	transition-property: background-color;
 	transition-duration: shortduration;
 	transition-timing-function: bigpicture-ease-in-out;	
@@ -815,7 +886,8 @@
 .VRTitleItem:hover,
 .GamepadController .VRTitleItem:focus
 {
-	background-color: gradient( linear, 0% 0%, 100% 100%, from( #2f668255 ), to( #142d3a22 ) );
+	//background-color: gradient( linear, 0% 0%, 100% 100%, from( #2f668255 ), to( #142d3a22 ) );
+	background-color: #ffffff10;
 }
 
 .VRTitleItem:hover Label,
@@ -840,8 +912,9 @@
 
 .VRTitleImage
 {
-	width: 253px;
-	height: 119px; 
+	width: 361px;
+	height: 170px;
+
 	border: 2px solid #ffffff00;	
 	box-shadow: none;
 
@@ -853,19 +926,20 @@
 
 .VRTitleRight
 {
-	flow-children: down;
-	width: 700px;
+	vertical-align: center;
+	//flow-children: down;
+	width: 780px;
 	//background-color: red;
 }
 
 .VRTitleLabel
 {
-	color: #ffffff88;
-	font-size: 45px;
-	width: 750px;
-	height: 50px;
-	margin-left: 20px;
-	margin-top: 24px;
+	color: #ffffff;
+	font-size: 50px;
+	width: 550px;
+	height: fit-children;
+	margin-left: 30px;
+	vertical-align: center;
 
 	transition-property: color;
 	transition-duration: shortduration;
@@ -879,12 +953,179 @@
 	background-color: gradient( linear, 0% 0%, 100% 100%, from( blue ), to( #142d3a55 ) );
 	margin-top: 24px;
 	margin-left: 5px;
-
+	opacity: 0;
+	visibility: collapse;
 	transition-property: background-color;
 	transition-duration: shortduration;
 	transition-timing-function: bigpicture-ease-in-out;		
 }
 
+//BACKGROUND ROWS TO MAKE THIS PANEL PRETTY
+
+.SteamVRNowBackground
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 115px;
+	//background-color: red;
+	flow-children: right;
+}
+
+.Column1,
+.Column2,
+.Column3
+{
+	width: 1141px;
+	height: 100%;
+	margin-left: 40px;
+	flow-children: down;
+}
+
+.Row1,
+.Row2,
+.Row3,
+.Row4,
+.Row5,
+.Row6,
+.Row7,
+.Row8
+{
+	width: 100%;
+	height: 172px;
+	margin-bottom: 12px;
+}
+
+//-------------------
+// SINGLEPLAYER COLUMN
+//-------------------
+
+.Column1 .Row1
+{
+	background-color: #ad454330;
+}
+
+.Column1 .Row2
+{
+	background-color: #ad454325;
+}
+
+.Column1 .Row3
+{
+	background-color: #ad454320;
+}
+
+.Column1 .Row4
+{
+	background-color: #ad454315;
+}
+
+.Column1 .Row5
+{
+	background-color: #ad454310;
+}
+
+.Column1 .Row6
+{
+	background-color: #ad454307;
+}
+
+.Column1 .Row7
+{
+	background-color: #ad454304;
+}
+
+.Column1 .Row8
+{
+	background-color: #ad454302;
+}
+
+//-------------------
+//MULTIPLAYER COLUMN
+//-------------------
+
+.Column2 .Row1
+{
+	background-color: #96c62e30;
+}
+
+.Column2 .Row2
+{
+	background-color: #96c62e25;
+}
+
+.Column2 .Row3
+{
+	background-color: #96c62e20;
+}
+
+.Column2 .Row4
+{
+	background-color: #96c62e15;
+}
+
+.Column2 .Row5
+{
+	background-color: #96c62e10;
+}
+
+.Column2 .Row6
+{
+	background-color: #96c62e07;
+}
+
+.Column2 .Row7
+{
+	background-color: #96c62e04;
+}
+
+.Column2 .Row8
+{
+	background-color: #96c62e02;
+}
+
+//-------------------
+// FREE APPS COLUMN
+//-------------------
+
+.Column3 .Row1
+{
+	background-color: #318bb930;
+}
+
+.Column3 .Row2
+{
+	background-color: #318bb925;
+}
+
+.Column3 .Row3
+{
+	background-color: #318bb920;
+}
+
+.Column3 .Row4
+{
+	background-color: #318bb915;
+}
+
+.Column3 .Row5
+{
+	background-color: #318bb910;
+}
+
+.Column3 .Row6
+{
+	background-color: #318bb907;
+}
+
+.Column3 .Row7
+{
+	background-color: #318bb904;
+}
+
+.Column3 .Row8
+{
+	background-color: #318bb902;
+}
 
 
 //------------------------
@@ -908,13 +1149,12 @@
 
 .ConfirmationPanel
 {
-	width: 800px;
-	height: 900px;
+	width: 1700px;
+	height: 1100px;
 	background-color: #222222ff;
 	//box-shadow: #ffffff00 0px 0px 20px 0px;
 	border-radius: 10px;
-	horizontal-align: left;
-	margin-left: 100px;
+	horizontal-align: center;
 	vertical-align: center;
 	pre-transform-scale2d: .95;
 	opacity: 0;
@@ -926,7 +1166,8 @@
 
 .BlackOut
 {
-	width: 1000px;
+	//width: 1000px;
+	width: 100%;
 	height: 100%;
 	//height: 1540px;
 	border-radius: 10px;
@@ -939,6 +1180,12 @@
 	//transition-timing-function: bigpicture-ease-in-out;	
 }
 
+.ConfirmationButtons
+{
+	flow-children: right;
+	margin-top: 850px;
+	horizontal-align: center;
+}
 
 .GamepadController .ConfirmationPanel
 {
@@ -954,16 +1201,16 @@
 .LaunchAppImage
 {
 	horizontal-align: center;
-	width: 620px;
-	height: 290px;
-	margin-top: 80px;
+	width: 1500px;
+	height: 702px;
+	margin-top: 100px;
 	border: 2px solid #ffffff10;
 }
 
 .ConfirmationPanel Button
 {
 	horizontal-align: center;
-	width: 400px;
+	width: 490px;
 	height: 130px;
 	//background-color: button_gradient;
 	background-color: #333333ff;
@@ -983,51 +1230,93 @@
 
 .LaunchConfirmation
 {
-	horizontal-align: center;
-	margin-top: 400px;
+	horizontal-align: left;
+	//text-align: center;
+	margin-top: 60px;
+	margin-left: 80px;
 	color: white;
-	font-size: 55px;	
+	font-size: 65px;
+	font-weight: bold;	
+	height: 70px;
+	width: 85%;
+	visibility: collapse;
 }
 
-.LaunchButton
+.LaunchAppButton
 {
-	margin-top: 510px;	
+	//margin-top: 510px;	
 	border: 2px solid #ffffff77;
+	visibility: collapse;
+}
+
+#LaunchAppButton
+{
+	//background-color: #ffffff12;
+	background-color: button_gradient_hover;
+}
+
+#LaunchAppButton:hover
+{
+	background-color: button_gradient_bright;
+}
+
+#LaunchAppButton Label
+{
+	font-weight: bold;
+}
+
+.LaunchButtonDisabled
+{
+	width: 490px;
+	height: 130px;
+	//background-color: button_gradient;
+	background-color: #33333350;
+	border: 2px solid #ffffff08;
+	color: white;
+	opacity: 0;
+	visibility: collapse;
+}
+
+.LaunchButtonDisabled Label
+{
+	vertical-align: center;
+	horizontal-align: center;
+	font-size: 50px;
+	color: #ffffff20;
+	font-weight: bold;
+}
+
+.DetailsButton,
+.StoreButton
+{
+	//margin-top: 510px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.LaunchButton,
+.StoreButton
+{
 	visibility: collapse;
 }
 
 .DetailsButton
 {
-	margin-top: 510px;
+	visibility: visible;
 }
 
-.CancelButton
-{
-	margin-top: 670px;	
-}
-
-// some styles change if the app is launchable
+// If app is launchable
 
 .CanLaunchApp .LaunchButton
 {
 	visibility: visible;
 }
 
-.CanLaunchApp .DetailsButton
+.CanLaunchApp .LaunchButtonDisabled,
+.CanLaunchApp .StoreButton
 {
-	margin-top: 660px;
+	visibility: collapse;
 }
-
-.CanLaunchApp .CancelButton
-{
-	margin-top: 810px;	
-}
-
-.CanLaunchApp .ConfirmationPanel
-{
-	height: 1050px;
-}
-
 
 
 
@@ -1227,12 +1516,12 @@
 
 #RightIcon
 {
-	margin-left: 2220px;
+	margin-left: 1720px;
 }
 
 #RightSpinner
 {
-	margin-left: 2200px;
+	margin-left: 1700px;
 }
 
 /*------------------

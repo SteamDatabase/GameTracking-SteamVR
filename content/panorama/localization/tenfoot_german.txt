@@ -646,4 +646,6 @@
 "[english]KnucklesCapsenseMode_2"	"Cap Sense controls Trigger"
 "KnucklesCapsenseMode_3"	"Kapazitive Sensoren zum Greifen"
 "[english]KnucklesCapsenseMode_3"	"Cap Sense controls Grip"
+"VRSettingsCamera_RoomViewMode_EdgeB"	"Farbige Geister"
+"[english]VRSettingsCamera_RoomViewMode_EdgeB"	"Colored Ghosts"
 }

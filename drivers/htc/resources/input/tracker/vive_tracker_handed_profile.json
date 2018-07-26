@@ -1,0 +1,56 @@
+{
+  "jsonid" : "input_profile",
+  "controller_type": "vive_tracker_handed",
+  "legacy_binding" :  "{htc}/input/tracker/legacy_bindings_vive_tracker_handed.json",
+  "override_device_class" : "TrackedDeviceClass_Controller",
+  "input_bindingui_mode" : "controller_handed",
+  "input_bindingui_left" :
+  {
+    "transform" : "scale(-1,1)",
+    "image": "{htc}/icons/vive_tracker_with_handle.svg"
+  },
+  "input_bindingui_right" :
+  {
+    "image": "{htc}/icons/vive_tracker_with_handle.svg"
+  },
+ "input_source" :
+  {
+    "/input/power" : {
+        "type" : "button",
+				"order" :  1,
+        "binding_image_point" : [ 42, 37 ]
+    },
+    "/input/trigger" : {
+        "type" : "button",
+				"order" :  2,
+        "binding_image_point" : [ 80, 110 ]
+    },
+    "/input/grip" : {
+        "type" : "button",
+				"order" :  3,
+        "binding_image_point" : [ 110, 110 ]
+    },
+    "/input/application_menu" : {
+        "type" : "button",
+				"order" :  4,
+        "binding_image_point" : [ 75, 70 ]
+    },
+    "/input/thumb" : {
+        "type" : "button",
+				"order" :  5,
+        "binding_image_point" : [ 90, 80 ]
+    },
+    "/pose/raw" : {
+        "type" : "pose",
+        "binding_image_point" : [ 15, 25 ]
+    },
+    "/pose/front" : {
+        "type" : "pose",
+        "binding_image_point" : [ 15, 25 ]
+    },
+    "/pose/front_rolled" : {
+        "type" : "pose",
+        "binding_image_point" : [ 15, 25 ]
+    }
+  }
+}

@@ -1,37 +1,82 @@
 {
-  "controller_type": "gamepad",
-  "action_binds": [
-    {
-      "action": "/actions/default/in/UseLeft",
-      "source": "/filters/left_trigger_threshold/result"
-    },
-    {
-      "action": "/actions/default/in/GripLeft",
-      "source": "/user/hand/left/input/shoulder_left/click"
-    },
-    {
-      "action": "/actions/default/in/UseRight",
-      "source": "/filters/right_trigger_threshold/result"
-    },
-    {
-      "action": "/actions/default/in/GripRight",
-      "source": "/user/hand/right/input/shoulder_right/click"
-    }
-  ],
-  "filters": [
-    {
-      "name": "left_trigger_threshold",
-      "type": "boolean_threshold",
-      "action_sets": [ "/actions/default" ],
-      "input": "/user/hand/left/input/trigger/value",
-      "output": "result"
-    },
-    {
-      "name": "right_trigger_threshold",
-      "type": "boolean_threshold",
-      "action_sets": [ "/actions/default" ],
-      "input": "/user/hand/right/input/trigger/value",
-      "output": "result"
-    }
-  ]
+   "bindings" : {
+      "/actions/default" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "single" : {
+                     "output" : "/actions/default/in/togglemenu"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/y"
+            }
+         ]
+      },
+      "/actions/move" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/actions/move/in/turnright"
+                  },
+                  "west" : {
+                     "output" : "/actions/move/in/turnleft"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "deadzone_pct" : "90",
+                  "overlap_pct" : "0",
+                  "sub_mode" : "touch"
+               },
+               "path" : "/user/gamepad/input/joystick_right"
+            },
+            {
+               "inputs" : {
+                  "north" : {
+                     "output" : "/actions/move/in/teleport"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "deadzone_pct" : "90",
+                  "overlap_pct" : "0",
+                  "sub_mode" : "touch"
+               },
+               "path" : "/user/gamepad/input/joystick_left"
+            },
+            {
+               "inputs" : {
+                  "single" : {
+                     "output" : "/actions/move/in/teleport"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/trigger_right"
+            },
+            {
+               "inputs" : {
+                  "single" : {
+                     "output" : "/actions/move/in/turnleft"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/shoulder_left"
+            },
+            {
+               "inputs" : {
+                  "single" : {
+                     "output" : "/actions/move/in/turnright"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/shoulder_right"
+            }
+         ]
+      }
+   },
+   "controller_type" : "gamepad",
+   "description" : "Default binding for Gamepad",
+   "name" : "SteamVR Home bindings for Gamepad"
 }

@@ -2246,6 +2246,7 @@ AvatarCustomizationItem #SliderThumb
 .Environment,
 .ItemTrophy,
 .ItemSpawnablePanel,
+.ItemVROverlayPanel,
 .Background
 {
 	visibility: collapse;
@@ -2256,7 +2257,8 @@ AvatarCustomizationItem #SliderThumb
 .WearablesOn .ItemAvatarWearable,
 .FurnitureOn .ItemFurniture,
 .TrophiesOn .ItemTrophy,
-.SpawnablePanelsOn .ItemSpawnablePanel
+.SpawnablePanelsOn .ItemSpawnablePanel,
+.SpawnablePanelsOn .ItemVROverlayPanel
 {
 	visibility: visible;
 }
@@ -3500,6 +3502,12 @@ AvatarCustomizationItem #SliderThumb
 	opacity: 1;
 }
 
+.MyScreenshots.ScreenshotsByApp .LoadingApps,
+.MyArtwork.ArtworkByApp .LoadingApps
+{
+	opacity: 0;
+}
+
 .LoadingSpinner
 {
 	width: 100px;
@@ -3637,6 +3645,8 @@ AvatarCustomizationItem #SliderThumb
 .ViveController .ScreenshotViveLabel,
 .KnucklesController .ScreenshotViveImage,
 .KnucklesController .ScreenshotViveLabel,
+.KnucklesEV1_3Controller .ScreenshotViveImage,
+.KnucklesEV1_3Controller .ScreenshotViveLabel,
 .GenericTrackedController .ScreenshotViveImage,
 .GenericTrackedController .ScreenshotViveLabel,
 .WinMRController .ScreenshotWinMRImage,
@@ -5624,6 +5634,7 @@ AvatarCustomizationItem #SliderThumb
 .item_def_vive_controllers,
 .item_def_touch_controllers,
 .item_def_knuckles_controllers,
+.item_def_knuckles_ev1_3_controllers,
 .item_def_windowsmr_controllers,
 .item_def_windowsmr_samsung_controllers,
 .item_def_generic_tracked_controllers,
@@ -5640,8 +5651,11 @@ AvatarCustomizationItem #SliderThumb
 {
 	visibility: visible;
 }
-.KnucklesController .item_def_knuckles_controllers,
-.KnucklesController .item_def_more_fingers_test
+.KnucklesEV1_3Controller .item_def_knuckles_ev1_3_controllers
+{
+	visibility: visible;
+}
+.KnucklesController .item_def_knuckles_controllers
 {
 	visibility: visible;
 }

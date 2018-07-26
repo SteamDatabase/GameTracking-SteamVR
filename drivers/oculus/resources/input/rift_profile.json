@@ -5,37 +5,37 @@
   "input_bindingui_mode" : "hmd",
   "input_bindingui_right" :
   {
-    "image": "{htc}/icons/vive_hmd.png"
+    "image": "{oculus}/icons/oculus_rift_headset.svg"
   },
   "input_source" :
   {
     "/proximity" : {
         "type" : "button",
-        "binding_image_point" : [ 230, 300 ]
+        "binding_image_point" : [ 60, 60 ]
     },
     "/input/remote_dpad/down" : {
         "type" : "button",
-        "binding_image_point" : [ 230, 300 ]
+        "binding_image_point" : [ 142, 48 ]
     },
     "/input/remote_dpad/up" : {
         "type" : "button",
-        "binding_image_point" : [ 230, 300 ]
+        "binding_image_point" : [ 142, 6 ]
     },
     "/input/remote_dpad/left" : {
         "type" : "button",
-        "binding_image_point" : [ 230, 300 ]
+        "binding_image_point" : [ 122, 25 ]
     },
     "/input/remote_dpad/right" : {
         "type" : "button",
-        "binding_image_point" : [ 230, 300 ]
+        "binding_image_point" : [ 162, 25 ]
     },
     "/input/remote_dpad/click" : {
         "type" : "button",
-        "binding_image_point" : [ 230, 300 ]
+        "binding_image_point" : [ 142, 25 ]
     },
     "/input/remote_back/click" : {
         "type" : "button",
-        "binding_image_point" : [ 230, 300 ]
+        "binding_image_point" : [ 142, 64 ]
     },
     "/pose/raw" : {
         "type" : "pose",

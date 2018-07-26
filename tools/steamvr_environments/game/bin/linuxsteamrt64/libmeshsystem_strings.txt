@@ -8,6 +8,7 @@
  [%.3f server clamped to %.3f]
  [A\A]A^]
  [A\]
+ [A]A^A_]
  []A\
  bad line in triangle file %s :  %s
  max. %f
@@ -52,7 +53,6 @@ $[A\]
 %s.360%s
 %s: %s
 %s: string format requested %d chars
-%s\%s
 &YA1D
 &YA1H
 &YA1I
@@ -66,11 +66,10 @@ $[A\]
 (D9k8
 (E9G ~"M
 (E9e 
-(E9e ~bH
+(E9e ~iI
+(E9f 
 (E9g 
-(E9g ~jH
-(E9l$ 
-(E9} 
+(E9o 
 (None)
 (T$ A
 (T$0A
@@ -79,10 +78,12 @@ $[A\]
 (T$PD
 ([A\A]A^A_]
 ([A\A]]
+([A\A^]
 ([]A\A]A^A_
 (\$@A
 (\$@D
 (d$ A
+(knN33s?
 )D$@A
 )J fA
 )L$ u
@@ -147,7 +148,6 @@ $[A\]
 .symtab
 .text
 00000000-0000-0000-0000-000000000000
-0123456789ABCDEF
 0[A\A]A^A_]
 0[A\A]A^]
 0[A\]
@@ -212,14 +212,17 @@ $[A\]
 18CAtomicManipulatorI10CTransformE
 18CAtomicManipulatorI10CUtlStringE
 18CAtomicManipulatorI10CUtlVectorI10CHitBoxSet10CUtlMemoryIS1_iEEE
+18CAtomicManipulatorI10CUtlVectorI10CUtlString10CUtlMemoryIS1_iEEE
 18CAtomicManipulatorI10CUtlVectorI16CConstraintSlave10CUtlMemoryIS1_iEEE
 18CAtomicManipulatorI10CUtlVectorI17CConstraintTarget10CUtlMemoryIS1_iEEE
 18CAtomicManipulatorI10CUtlVectorI20RenderSkeletonBone_t10CUtlMemoryIS1_iEEE
 18CAtomicManipulatorI10CUtlVectorI23CMaterialDrawDescriptor10CUtlMemoryIS1_iEEE
 18CAtomicManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEEE
 18CAtomicManipulatorI10CUtlVectorI7CHitBox10CUtlMemoryIS1_iEEE
+18CAtomicManipulatorI10CUtlVectorIN29CBoneConstraintPoseSpaceMorph7Input_tE10CUtlMemoryIS2_iEEE
 18CAtomicManipulatorI10CUtlVectorIP15CBaseConstraint10CUtlMemoryIS2_iEEE
 18CAtomicManipulatorI10CUtlVectorIP22CPhysSurfaceProperties10CUtlMemoryIS2_iEEE
+18CAtomicManipulatorI10CUtlVectorIf10CUtlMemoryIfiEEE
 18CAtomicManipulatorI10CUtlVectorIi10CUtlMemoryIiiEEE
 18CAtomicManipulatorI10QuaternionE
 18CAtomicManipulatorI11CWeakHandleI25InfoForResourceTypeCModelEE
@@ -329,14 +332,17 @@ $[A\]
 18CSchemaManipulatorI10CTransformE
 18CSchemaManipulatorI10CUtlStringE
 18CSchemaManipulatorI10CUtlVectorI10CHitBoxSet10CUtlMemoryIS1_iEEE
+18CSchemaManipulatorI10CUtlVectorI10CUtlString10CUtlMemoryIS1_iEEE
 18CSchemaManipulatorI10CUtlVectorI16CConstraintSlave10CUtlMemoryIS1_iEEE
 18CSchemaManipulatorI10CUtlVectorI17CConstraintTarget10CUtlMemoryIS1_iEEE
 18CSchemaManipulatorI10CUtlVectorI20RenderSkeletonBone_t10CUtlMemoryIS1_iEEE
 18CSchemaManipulatorI10CUtlVectorI23CMaterialDrawDescriptor10CUtlMemoryIS1_iEEE
 18CSchemaManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEEE
 18CSchemaManipulatorI10CUtlVectorI7CHitBox10CUtlMemoryIS1_iEEE
+18CSchemaManipulatorI10CUtlVectorIN29CBoneConstraintPoseSpaceMorph7Input_tE10CUtlMemoryIS2_iEEE
 18CSchemaManipulatorI10CUtlVectorIP15CBaseConstraint10CUtlMemoryIS2_iEEE
 18CSchemaManipulatorI10CUtlVectorIP22CPhysSurfaceProperties10CUtlMemoryIS2_iEEE
+18CSchemaManipulatorI10CUtlVectorIf10CUtlMemoryIfiEEE
 18CSchemaManipulatorI10CUtlVectorIi10CUtlMemoryIiiEEE
 18CSchemaManipulatorI10QuaternionE
 18CSchemaManipulatorI11CWeakHandleI25InfoForResourceTypeCModelEE
@@ -423,6 +429,7 @@ $[A\]
 18CVertColorMaterial
 18IAtomicManipulator
 18ISchemaManipulator
+19CBoneConstraintBase
 19CSchemaClassBindingI10CHitBoxSetE
 19CSchemaClassBindingI10FlexDesc_tE
 19CSchemaClassBindingI10FlexRule_tE
@@ -482,17 +489,18 @@ $[A\]
 19CSchemaClassBindingI24RenderInputLayoutField_tE
 19CSchemaClassBindingI24VPhysXConstraintParams_tE
 19CSchemaClassBindingI25VsInputSignatureElement_tE
-19CSchemaClassBindingI26CPhysSurfacePropertiesGameE
 19CSchemaClassBindingI27CPhysSurfacePropertiesAudioE
 19CSchemaClassBindingI27VPhysXCollisionAttributes_tE
 19CSchemaClassBindingI28CVPhysXSurfacePropertiesListE
 19CSchemaClassBindingI28ModelBoneFlexDriverControl_tE
 19CSchemaClassBindingI28VPhysXShapeCompoundHeader2_tE
+19CSchemaClassBindingI29CBoneConstraintPoseSpaceMorphE
 19CSchemaClassBindingI29CPhysSurfacePropertiesPhysicsE
 19CSchemaClassBindingI32CPhysSurfacePropertiesSoundNamesE
 19CSchemaClassBindingI7CHitBoxE
 19CSchemaClassBindingI8FlexOp_tE
 19CSchemaClassBindingI8HitBox_tE
+19CSchemaClassBindingIN29CBoneConstraintPoseSpaceMorph7Input_tEE
 19CSchemaFieldVisitor
 19IKeyValuesErrorSpew
 19ISchemaSearchTesterIPK16CSchemaClassInfoE
@@ -525,21 +533,24 @@ $[A\]
 26CReferenceCleanupTraversal
 26CSchemaFieldVisitorInfoMapI16CExtrefTraversalE
 27CSchemaUtlVectorManipulatorI10CUtlVectorI10CHitBoxSet10CUtlMemoryIS1_iEES1_E
+27CSchemaUtlVectorManipulatorI10CUtlVectorI10CUtlString10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI16CConstraintSlave10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI17CConstraintTarget10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI20RenderSkeletonBone_t10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI23CMaterialDrawDescriptor10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI7CHitBox10CUtlMemoryIS1_iEES1_E
+27CSchemaUtlVectorManipulatorI10CUtlVectorIN29CBoneConstraintPoseSpaceMorph7Input_tE10CUtlMemoryIS2_iEES2_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorIP15CBaseConstraint10CUtlMemoryIS2_iEES2_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorIP22CPhysSurfaceProperties10CUtlMemoryIS2_iEES2_E
+27CSchemaUtlVectorManipulatorI10CUtlVectorIf10CUtlMemoryIfiEEfE
 27CSchemaUtlVectorManipulatorI10CUtlVectorIi10CUtlMemoryIiiEEiE
 27CSchemaUtlVectorManipulatorI23CUtlVectorFixedGrowableI16CSceneObjectDataLm1EES1_E
 27IKeyValuesDumpContextAsText
 28CBaseIntrospectedTypeManager
 28CSchemaRegistration_modellib
 28ISchemaCollectionManipulator
-28ISchemaInspectionManipulator
+29CBoneConstraintPoseSpaceMorph
 29CKeyValuesDumpContextAsDevMsg
 2WAY_0( 
 2WAY_1( 
@@ -550,32 +561,23 @@ $[A\]
 32CResourceReferenceFixupTraversal
 33333333H
 33333333H)
-33s?(knN
 34CKV3Transfer_ResourceLoadInterface
 34IKV3TransferInterface_ResourceLoad
 35CSchemaNonConstructibleClassBindingI15CBaseConstraintE
-38CSchemaWeakHandleInspectionManipulatorI25InfoForResourceTypeCModelE
-38CSchemaWeakHandleInspectionManipulatorI29InfoForResourceTypeIMaterial2E
-38CSchemaWeakHandleInspectionManipulatorI30InfoForResourceTypeCRenderMeshE
-38CSchemaWeakHandleInspectionManipulatorI31InfoForResourceTypeCTextureBaseE
-38CSchemaWeakHandleInspectionManipulatorI33InfoForResourceTypeMorphSetData_tE
-38CSchemaWeakHandleInspectionManipulatorI37InfoForResourceTypeCPhysAggregateDataE
-38CSchemaWeakHandleInspectionManipulatorI46InfoForResourceTypeSequenceGroupResourceData_tE
-38CSchemaWeakHandleInspectionManipulatorI47InfoForResourceTypeAnimationGroupResourceData_tE
+35CSchemaNonConstructibleClassBindingI19CBoneConstraintBaseE
 39CDefaultTypesafeIntrospectedTypeManagerILy448612625782E20PermRenderMeshData_tE
 39CSchemaNonConstructibleClassBindingBase
 3E8 u
 3[A\A]A^]
 4$IcT$
-40CSchemaStrongHandleInspectionManipulatorI29InfoForResourceTypeIMaterial2E
 42HcU
 46CInputLayoutRegistration_g_hSkeletonMeshLayout
 4:A9L$
 4H;H 
 4fff>fff>fff>fff>
 4vf;T
+5ACTIVITY WEIGHTS
 5t~BC
-5unknown activity %d on for activity model %s!
 6CModel
 6ConVar
 6H92t%H
@@ -597,25 +599,32 @@ $[A\]
 9~0UH
 9~4t*9~8t-9~<
 :A9L$
-:[tLL
+:[tlL
 ;*3$"
 ;*t*1
 ;A0}4H
 ;W }7H
 ;wX|#
 ;wx|	]
-<	u@UH
+<	tU<
+<	u 1
+<	u-1
+<	uHUH
 <	u[L
 <	w.1
+<	w:H
 <	woD
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->
 <!-- sch
+<$/tyL
 <$IcT$
+<+t^H
 </uLH
 <19{ |.
 << NULL >>
 <@tYA
 <INVALID EXPRESSION>
+<INVALID_RBF_TYPE>
 <NO EXPRESSION>
 <NULL>
 <Rt<<Pt`<S
@@ -629,8 +638,10 @@ $[A\]
 >@t<H
 >A9U$
 >[A\A]]
+?CBoneConstraintBase
 ?Mct$ 
 ?MeshUtils001
+?u0E1
 @8A]A^]
 @A9^`
 @E;f(},IcF$
@@ -679,11 +690,43 @@ A;\$\
 A;\$\|
 A;\$h|
 A;]@|
+A;]Pt[I
 A;]`|
 A;w$t
-ACTIVITY WEIGHTS
 ACT_IDLE
 ACT_NEUTRAL_REF_POSE
+AE_ACTION_SET_TURN_RATE_SCALE
+AE_BLIND_ZOMBIE_SNIFF
+AE_CL_ADD_PARTICLE_EFFECT_CP
+AE_CL_BODYGROUP_SET_VALUE
+AE_CL_CREATE_PARTICLE_BRASS
+AE_CL_CREATE_PARTICLE_EFFECT
+AE_CL_CREATE_PARTICLE_EFFECT_CFG
+AE_CL_PLAYSOUND_LOOPING
+AE_CL_STOP_PARTICLE_EFFECT
+AE_DOTA_SUPPRESS_CONSTANT_LAYER
+AE_HIDE_WEAPON
+AE_IK_ALLOW_PLANE_TILT_NORMAL_UPDATES
+AE_IK_SET_CHAIN_BLEND_AMOUNT
+AE_IK_SET_LOCK_ROTATION_ALPHA
+AE_IK_SET_MASTER_BLEND_AMOUNT
+AE_MELEE_DAMAGE
+AE_NPC_BECOME_TEMPORARY_RAGDOLL
+AE_NPC_HURT_INTERACTION_PARTNER
+AE_NPC_SET_INTERACTION_CANTDIE
+AE_NPC_WEAPON_FIRE
+AE_NPC_WEAPON_SET_SEQUENCE_NUMBER
+AE_PASSENGER_PHYSICS_PUSH
+AE_SCRIPT_EVENT_FIREEVENT
+AE_SV_DUSTTRAIL
+AE_VORTIGAUNT_START_HEAL_GLOW
+AE_VORTIGAUNT_START_HURT_GLOW
+AE_VORTIGAUNT_ZAP_POWERUP
+AE_VORTIGAUNT_ZAP_SHOOT
+AE_ZOMBIE_POPHEADCRAB
+AE_ZOMBIE_TOGGLE_HEAD
+AGRPtyH
+AIWalkable
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
 ATSHc
 ATStKL
@@ -704,6 +747,7 @@ AUATSH
 AUATSL
 AUATSf
 AUATSt	H
+AUATSt)H
 AUATStII
 AUATStMI
 AUATStmH
@@ -729,13 +773,11 @@ AWAVA
 AWAVAU
 AWAVAUA
 AWAVAUATA
-AWAVAUATE
 AWAVAUATI
 AWAVAUATL
 AWAVAUATLc
 AWAVAUATS
 AWAVAUATSH
-AWAVAUATSHc
 AWAVAUATUSH
 AWAVAUE1
 AWAVAUH
@@ -743,6 +785,7 @@ AWAVAUI
 AWAVAUL
 AWAVAULc
 AWAVAUM
+AWAVAUSH
 AWAVD
 AWAVE
 AWAVE1
@@ -768,7 +811,7 @@ AllocateAndCopy
 AllocateResource
 AllocateResource: Cannot find DATA block in resource %s!
 AllocateResource: Cannot find VBIB block in resource %s!
-AllocateResource: Cannot find VBIB data in resource %s!
+AllocateResource: Error creating data for %s!
 AnimAddLayer
 AnimAlign
 AnimAutoLayer
@@ -779,6 +822,7 @@ AnimBlendLayerPoseParam
 AnimCommonParams
 AnimCycleOverride
 AnimDelta
+AnimEvent
 AnimFile
 AnimGraphEditorUtils001
 AnimIkLockLocal
@@ -813,8 +857,16 @@ BUNDLE_TYPE_NONE
 BUNDLE_TYPE_NORMAL_WRINKLE
 BUNDLE_TYPE_POSITION_SPEED
 B[A\]
-Bad KV3 data for resource '%s': %s
-Bad KV3 data in extra block for '%s': %s
+Bad KV3 data in control block for '%s': %s
+Bad KV3 mesh data for mesh '%s': %s
+Bad VBIB block index for mesh (%s: %d)
+Bad VBIB block type for mesh (%s: %d)
+Bad block type for embedded animation data
+Bad block type for embedded physics data
+Bad data block index for embedded animation data (%d,%d,%d)
+Bad data block index for embedded physics data (%d)
+Bad data block index for mesh (%s: %d)
+Bad data block type for mesh (%s: %d)
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
@@ -835,6 +887,8 @@ Bad header: invalid binary marker
 Bad header: invalid compression header
 Bad header: unrecognized encoding id
 Bad keyname
+Bad morph block index for mesh (%s: %d)
+Bad morph block type for mesh (%s: %d)
 Bad sequence in GetSequenceActivityName() for model '%s'!
 Bad value
 BakedLODBuilderMgr001
@@ -845,14 +899,22 @@ BaseSceneObjectDesc
 BenchmarkService001
 BinaryProperties_GetValue
 BlendList
+BodyGroup
+BodyGroupChoice
 BoneChannel
+BoneConstraintList
+BreakCommand
+BreakPieceEmbedded
+BreakPieceExternal
 BundleData_t
 BundleType_t
 C E9w 
+C ~:A
+C([A\A]A^]
 C([A\]
 C,[A\A]]
 C,[A\]
-C/ [A\]
+C0;C@
 C8[A\A]A^]
 C8[A\]
 CAimConstraint
@@ -860,6 +922,8 @@ CAttachment
 CBaseConstraint
 CBaseIntrospectedTypeManager:  Bindings don't match.
 CBaseIntrospectedTypeManager:  Missing TYPEMETA MDiskDataForResourceType
+CBoneConstraintPoseSpaceMorph
+CBoneConstraintPoseSpaceMorph::Input_t
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CConstraintSlave
@@ -888,17 +952,18 @@ CONSTRAINT_TYPE_MORPH
 CONSTRAINT_TYPE_ORIENT
 CONSTRAINT_TYPE_PARENT
 CONSTRAINT_TYPE_POINT
+CONSTRAINT_TYPE_POSE_SPACE_MORPH
 CONSTRAINT_TYPE_ROTATION
 CONSTRAINT_TYPE_TILT_TWIST
 CONSTRAINT_TYPE_TWIST
 CONTENT
 COS( 
 COrientConstraint
+CP[A\A]A^]
 CParentConstraint
 CParticleSystemDefinition
 CPhysSurfaceProperties
 CPhysSurfacePropertiesAudio
-CPhysSurfacePropertiesGame
 CPhysSurfacePropertiesPhysics
 CPhysSurfacePropertiesSoundNames
 CPointConstraint
@@ -914,6 +979,7 @@ CSP1H
 CSceneObjectData
 CSisterResourceBlockLoader::BlockingLoadResourceFileData: Trying to load an illegal resource name %s!
 CStrongHandle
+CTRLL
 CTSQueue corruption
 CTiltTwistConstraint
 CTransform
@@ -931,10 +997,10 @@ CUtlVector
 CUtlVectorFixedGrowable
 CVPhysXSurfacePropertiesList
 CWeakHandle
-CXHcAL
 CXXABI_1.3
 CX[A\]
 CXt	I
+CX~<L
 C_OP_InitSetSnapshotOnCP
 C`[A\]
 Cables
@@ -967,6 +1033,7 @@ ConnectInterfaces
 ConstraintSlave_t
 ConstraintTarget_t
 ConstraintType_t
+Control block error for '%s': %s
 ConvertFloatToChannel: Trying to convert to a a float to a destation of byte size %d
 ConvertFloatToChannel: Trying to convert to a a normalized float to a destation of byte size %d
 CreateInterface
@@ -974,17 +1041,17 @@ CreatePackedInputLayout
 Cs[A\]
 Cst	I
 CttGE
+Cubic
 Currently allocated agg data: {
 Cycle or diamond double-reference to '%s'
 D$ E9l$
 D$ H9
 D$ IcD$`D
-D$ L9
 D$ L90t,w
+D$ dH
 D$$E1
 D$(E1
 D$0H9
-D$0L9
 D$4E1
 D$8H9
 D$8I9
@@ -1000,9 +1067,11 @@ D$HfA
 D$PA\]
 D$XA9
 D$XE1
-D$hD)m
+D$XHcCL
+D$`H9
 D$hE1
 D$pH9
+D$sE9o
 D$ttGD
 D+C$Mc
 D+`$Mc
@@ -1010,14 +1079,14 @@ D+c$Mc
 D+k$Mc
 D+s$Mc
 D+{$Mc
-D92tY1
-D9=9g)
 D9{ u
 D;!t{Hc
 D;'t{Hc
+D;5F92
 D;:tPH
 D;`0|
 D;c D
+D;cp|
 D;g D
 D;k`|
 D;kh}
@@ -1025,7 +1094,7 @@ D;o D
 D;s`|
 D;y(t(I
 D;{`|
-DATAL
+DATAH
 DOMINATE( %s
 Deallocate
 DebugTextureInfo001
@@ -1059,8 +1128,8 @@ E9'tRI
 E9gPI
 E9l$$
 E9l$$~}
-E9t$ ~kI
 E9|$ 
+E9|$ ~bI
 E;l$`|
 E;t$ t!I
 EDA]A^]
@@ -1106,6 +1175,8 @@ Expected value.
 Expected {
 Expected }
 F 9G tq
+F A;F0
+F Lc#D;c
 FCVAR_NEVER_AS_STRING
 FIELD_BOOLEAN
 FIELD_CHARACTER
@@ -1206,13 +1277,13 @@ From Class Binding
 From Enum Binding
 G A+G
 G A9G
-G A;G0
-G Lc#D;c
+G UHc
 G u)H
 G(90tU
 G(}"Lc
 G8I;G@
 G8I;G@r
+G8UHc
 G<@t	]
 G<@t L
 G<@t#f
@@ -1222,6 +1293,7 @@ G<@t1H
 G<@t:
 G<@tLL
 G<@tUI
+G<@ta
 G<@th
 G<@tp
 G@UHc
@@ -1231,17 +1303,21 @@ GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GDHcFHH
 GEOVH
 GG@t0H
+GLIBCXX_3.4
+GLIBCXX_3.4.14
 GLIBC_2.14
 GLIBC_2.2.5
-GLIBC_2.3.4
 GLIBC_2.4
 GW@t0H
+G`;Gp
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameStartup
 GameUIService_001
+Gaussian
 GenerateCodeBasedManifestName: Invalid CodeBasedManifestType_t %d
 GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
+GenericGameData
 GetBoneIndexForHitboxForMesh
 GetCPUInformation
 GetEyePosition() Can't get pstudiohdr ptr!
@@ -1249,6 +1325,7 @@ GetResourceManifestCount
 GetResourceManifests
 Gg_hSkeletonMeshLayout
 GhUHc
+GpHcGl
 GpUHc
 H	p(]
 H	w(UH
@@ -1258,8 +1335,8 @@ H;B(uIL
 H;B(uLL
 H;S@w
 H=vmdlu
+H=vpcf
 HB_modelbuilder_phys_%i.vphys
-HD;c0|
 HIGHDPI
 HLcgP
 HModel
@@ -1271,15 +1348,19 @@ H[]A\A]A^A_
 HammerMapLoader001
 Hc@$H
 HcB ;B$
+HcBpD9
+HcC H9
 HcC$H
 HcC(1
 HcC01
 HcCH1
+HcCPI
 HcCTL
 HcC`1
 HcChL
 HcClH
-HcCpA9
+HcCx;
+HcG0L
 HcG`UH
 HcGdH
 HcGdL
@@ -1331,10 +1412,11 @@ HcQX1
 HcR41
 HcS$I
 HcSPH
-HcW A9
+HcSXH
 HcW H
 HcW@U1
 HcWPH
+Hc_0D
 Hcp,H
 Hcp4H
 Hcs H
@@ -1344,7 +1426,6 @@ HitBox_t
 Hitbox indexing is incorrect for set %s, hitbox %s. Hitboxes will not be setup properly.
 HookUpConfigValue
 HostStateMgr001
-HxtrH
 I;V@w
 INPUT_LAYOUT_VARIATION_DEFAULT
 INPUT_LAYOUT_VARIATION_MAX
@@ -1353,21 +1434,23 @@ INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_LIGHTMAP_PARAMS
 INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
 INPUT_LAYOUT_VARIATION_STREAM1_MAT3X4
 IQuickTime001
-Ic4$H)
 Ic<$H
 IcD$$
+IcD$@1
 IcD$LH
 IcE(E1
+IcE0H
+IcEP1
 IcEPH
 IcEhH
-IcF(I
+IcF\1
 IcG I
-IcG\1
 IcL$(Ic
 IcM Ic
 IcM(Ic
 IcT$$
 IcT$X
+IcU 9
 IcU A9
 IcU E
 IcU@9U
@@ -1375,8 +1458,8 @@ IcUP9U
 IcU`9U
 IcW$L
 Ic]PI
-Ic_8A;_H
-Ic_PA;_`
+Ic^8A;^H
+Ic^PA;^`
 Icu`H
 Infinite Joint Weights encountered: Skinning will not work!
 InfoForResourceTypeAnimationGroupResourceData_t
@@ -1405,23 +1488,24 @@ Invalid member name '%s'
 Invalid request for mesh %d in model %s with %d entry remapping start table
 Invalid request for mesh %d in model %s with no remapping table
 Invalid request for mesh %d in model %s with no remapping table starts
+Inverse Multi Quadratic
 Jc<(H
 Jc<0I
 Joint Indices (%d) Out Of Range for SINT16: Skinning will not work ! 
 Joint Indices (%d) Out Of Range for UINT10: Skinning will not work ! 
 Joint Indices (%d) Out Of Range for UINT8: Skinning will not work ! 
 K tvH
+K ~?A
 K,[A\]
 KAimConstraint: %s - Cannot Find Aim Up Target Bone
 KV Conditional Evaluation Error
-KV3 load transfer failed for resource '%s': %s
+KV3 load transfer failed for mesh '%s': %s
 KeyValueCache001
 KeyValues Error: %s in file %s
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
-KpHcCl
 L$(D;u
 L$(H9
 L$@L9
@@ -1444,6 +1528,7 @@ Lc3D;s
 Lc6E9
 Lc7E)
 Lc9D;y
+Lc;D;{
 Lc?E)
 LcKxA
 Lcc`D;cpt>D
@@ -1452,10 +1537,8 @@ Lcg D;g0D
 Lcg D;g0taH
 Lcg8D;gHtiH
 LckpD;
-Lco`D;opD
-Lc{0D;{@D
+LcoxD;
 Lc{pD;
-Lc{xD;
 LightDesc_t
 LightSourceShape_t
 LightType_t
@@ -1467,6 +1550,7 @@ Line %d:
 Line %d: %s
 Line %d: Invalid literal value "%s"
 Line %d: Invalid value "%s"
+Linear
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
 LoggingSystem_IsChannelEnabled
@@ -1474,10 +1558,12 @@ LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
 LookAtList
-M	l$(H
+LrwcE
+M	a(I
 MATCHFRAMEWORK_001
 MAX( 
 MAlignment
+MBUFt
 MDefaultString
 MDiskDataForResourceType
 MDmElementType
@@ -1495,6 +1581,7 @@ MESH_TRANSLUCENCY_FULLY_ALPHA_BLENDED
 MESH_TRANSLUCENCY_FULLY_OPAQUE
 MESH_TRANSLUCENCY_PARTIALLY_ALPHA_BLENDED
 MIN( 
+MIcM(Ic
 MNoScatter
 MODEL_BONE_FLEX_INVALID
 MODEL_BONE_FLEX_TX
@@ -1502,28 +1589,27 @@ MODEL_BONE_FLEX_TY
 MODEL_BONE_FLEX_TZ
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
+MRPHt
 MResourceTypeForInfoType
 MResourceVersion
 MUnserializationCallback
-MXTRI
 MapListService_001
 MaterialDrawDescriptor_t
 MaterialGroup_t
 MaterialUtils_001
 MathLib_Init
 MbP?+
+Mc'E;g
 Mc,$E;l$
 Mc.E;n
 Mc/E;o
-Mc4$E;t$
-Mc@tJ
 McFPE;F`D
 McVPE;V`
 Mcg(L
 Mcl$pE;
 Mct$(E;t$8
-Mct$0E;t$@
 Mct$81
+Mct$8E;t$HtjI
 Mc|$8E;|$HD
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -1599,12 +1685,12 @@ NetworkSystemVersion001
 NewNode
 Newline in string literal
 No Buffer
+No VBIB data for mesh %s!
 No valid format conversion from '%s' to '%s'
 O 9N t
 OnDiskBufferData_t
 Only the last override will be set!
 Ordered constructor wrapped type has no default constructor.
-P0Mc>E;~
 PHcp,Hc@$H
 POSITION
 POSIX
@@ -1646,6 +1732,7 @@ PhysicsBuilderMgr001
 PhysicsFile
 PhysicsFileReference
 PhysicsHullFile
+PhysicsHullFromRender
 PhysicsMeshFile
 PhysicsShapeCapsule
 PhysicsShapeHull
@@ -1667,18 +1754,19 @@ Plat_UUIDFromString
 Plat_UUIDToString
 Plat_VirtualAlloc
 Plat_VirtualFree
-Plat_getwd
 Please add a MovementSettings node to the model in ModelDoc
 PosXYZ
 PostProcessingSystem_001
 Print model load-time conversion info
 ProjectedDecal
 ProjectedDecalSceneObjectDesc
+PropWorldOrigin
 PropertyEditorSystem_001
 Q.fD9
 QHcKHIc
 Quaternion
 QueuedLoaderVersion001
+Quintic
 R8H=vmdlt
 R8Y[]
 R@CONTENTROOT
@@ -1748,6 +1836,7 @@ RENDER_SLOT_INVALID
 RENDER_SLOT_PER_INSTANCE
 RENDER_SLOT_PER_VERTEX
 RESLH
+RESLL
 RESOURCE_TYPE_MODEL
 RESOURCE_TYPE_RENDERMESH_INTERNAL
 RESSH
@@ -1788,7 +1877,7 @@ RenderSystemSurface001
 RenderUtils_001
 ReportClassError
 ReserveVirtualMemory
-Resource %s
+Resource 
 ResourceCompilerSystem001
 ResourceFile: %d/%d @%p align %u
 ResourceHandleUtils001
@@ -1805,7 +1894,6 @@ RnSoftbodySpring_t
 RnSphereDesc_t
 SH[A\]
 SIN( 
-SIcG01
 SQRT( 
 SSE and SSE2 are required.
 SX[A\A]A^]
@@ -1840,20 +1928,19 @@ Source2Host001
 Source2Server001
 Source2ServerSerializers002
 Splitting huge triangles (%d verts,%d tris) -> (%d verts,%d tris), %d splits
-SsE9~
 StatsService_001
 SteamAudio001
 String %d: ref:%d %s
+SxHcE
 Syntax Error at offset: %d
 T$ Hc
 T$ Hc@
 T$(D;u
 T$(Hc
-T$0H9
 T$8H)
 T$HfA
-T$XH+D$PH
-T$xH+D$pH
+T$hH+D$`H
+T@formats.cpp
 TIcL$
 TestFormatA
 TestFormatB
@@ -1864,8 +1951,8 @@ TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
 The filename may only contain lower case alphanumeric characters and underscores.
+Thin Plate
 ThreadGetCurrentId
-ThreadInterlockedExchange64
 ThreadSleep
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
@@ -1880,11 +1967,13 @@ Trying to concatenate meshes with different numbers of attributes!
 Trying to concatenate meshes with incompatible attribute sets!
 Trying to find a flex controller (%s) that doesn't actually exist in the model.
 Trying to override the same draw call with two different materials!
+Two KV3 format GUIDs with the same human-friendly name ('%s')
 TypeManager
 UHcKxIc
-UIcGH1
-UIcG`1
-UIcL$@Ic
+UIcFH1
+UIcF`1
+UIcG(1
+UIcL$HIc
 UPDATE_STRING_TOKEN_DATABASE
 UPPER_EYELID( 
 UUUUUUUUH
@@ -1910,7 +1999,7 @@ V0u@H
 VApplication001
 VAvi001
 VBAllocTracker001
-VBIBL
+VBIBH
 VBaseFileSystem011
 VBik001
 VConComm001
@@ -1991,6 +2080,7 @@ V_GetErrno
 V_GetFileExtension
 V_IsAbsolutePath
 V_PathContainsPath
+V_PrettifyMem
 V_RemoveDotSlashes
 V_SetErrno
 V_StrTrim
@@ -2018,21 +2108,24 @@ V_isnan
 V_localeconv
 V_logf
 V_powf
-V_pretifymem
 V_qsort
 V_qsort_s
+V_sincosf
 V_sinf
 V_snprintf
-V_snwprintf
+V_snwprintf_cch
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strtod
 V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
 V_tanf
+V_tier0_strstr
 V_vsnprintf
 V_vsnprintfRet
 V_vsnprintfSize
@@ -2072,6 +2165,7 @@ WorldRendererMgr001
 Writing kdTree with %d triangles
 Wrong alignment %d
 X2:jH
+XD;c0|
 XIcD$
 XIcL$ Ic
 XIcL$8Ic
@@ -2079,6 +2173,7 @@ XLcgh
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
+XxHc@pL
 XxHc@t
 YD$$L
 ZIcL$
@@ -2097,6 +2192,7 @@ ZIeRH
 \t!Hc
 \u0000
 ]Ht,A
+]IcF01
 ^ t+H
 _ ~`I
 _ITM_deregisterTMCloneTable
@@ -2106,15 +2202,13 @@ _V_ComposeFileName
 _V_ExtractFileExtension
 _V_ExtractFilePath
 _V_FileBase
-_V_FixupPathName
-_V_GetFirstDir
 _V_MakeAbsolutePath
-_V_MakeRelativePath
 _V_SetExtension
 _V_StringAfterPrefix
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
@@ -2127,6 +2221,27 @@ _Z6ConMsgPKcz
 _Z6DevMsgPKcz
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
+_ZN13CBufferString10ExtendPathEPKcc
+_ZN13CBufferString10FixSlashesEc
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
+_ZN13CBufferString11ShortenPathEv
+_ZN13CBufferString11ToLowerFastEi
+_ZN13CBufferString12AppendConcatEiPKPKcPKib
+_ZN13CBufferString12SetExtensionEPKc
+_ZN13CBufferString13FixupPathNameEv
+_ZN13CBufferString14RemoveFirstDirEPS_
+_ZN13CBufferString15ComposeFileNameEPKcS1_c
+_ZN13CBufferString15ExtractFilePathEPKc
+_ZN13CBufferString16MakeAbsolutePathEPKcS1_
+_ZN13CBufferString16MakeRelativePathEPKcS1_
+_ZN13CBufferString16RemoveDotSlashesEc
+_ZN13CBufferString18StripTrailingSlashEv
+_ZN13CBufferString4SwapERS_
+_ZN13CBufferString5PurgeEi
+_ZN13CBufferString6ConcatEPKcS1_z
+_ZN13CBufferString6InsertEiPKcib
+_ZN13CBufferString6SetPtrEPciibb
+_ZN13CBufferString8RemoveAtEii
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -2140,7 +2255,22 @@ _ZN21CThreadMultiWaitEvent3SetEv
 _ZN21CThreadMultiWaitEvent5ResetEv
 _ZN21CThreadMultiWaitEventC1Eb
 _ZN21CThreadMultiWaitEventD1Ev
+_ZNKSt8functionIFvPKfEEclES1_
+_ZNSt8functionIFvPKfEEC1ERKS3_
+_ZNSt8functionIFvPKfEEC2ERKS3_
+_ZNSt8ios_base4InitC1Ev
+_ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
+_ZNSt8ios_base4InitD1Ev
+_ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
 _ZNV16CThreadFastMutex4LockEyj
+_ZSt13__adjust_heapIPflfEvT_T0_S2_T1_
+_ZSt13__adjust_heapIPiliEvT_T0_S2_T1_
+_ZSt16__insertion_sortIPfEvT_S1_
+_ZSt16__insertion_sortIPiEvT_S1_
+_ZSt16__introsort_loopIPflEvT_S1_T0_
+_ZSt16__introsort_loopIPilEvT_S1_T0_
+_ZSt25__throw_bad_function_callv
+_ZSt25__throw_bad_function_callv@@GLIBCXX_3.4.14
 _ZTI17CThreadSyncObject
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
@@ -2148,6 +2278,10 @@ _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __bss_start
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
@@ -2164,15 +2298,12 @@ __cxa_pure_virtual@@CXXABI_1.3
 __gmon_start__
 __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
-__memcpy_chk
-__memcpy_chk@@GLIBC_2.3.4
 __oldschema_object_name
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
 __stack_chk_fail@@GLIBC_2.4
 __temp_unserialization_member__
-_class
 _edata
 _fini
 _init
@@ -2183,12 +2314,17 @@ _test_conversion_counter
 `[A\]
 `hHc@d
 abort@@GLIBC_2.2.5
+allowstatic
+anchor_angles
+anchor_position
+anim_data_block
 anim_graph_name
 anim_name
 anim_name_a
 anim_name_b
 animationsystem
 archive
+attachment_offset
 attenuation0
 attenuation1
 attenuation2
@@ -2198,7 +2334,9 @@ audioparams
 audioreflectivity
 audioroughnessfactor
 audiosounds
+auto_unragdoll_duration
 bOwnVBAndIB == m_bOwnVBAndIB && m_pFixedMeshDataOverride
+bUpdate
 baked_light_indexing
 bakelightindex
 bakelightindexscale
@@ -2206,21 +2344,31 @@ baselayer
 bentnormal
 binary
 binary_bc
+blendamount
 blendindices
 blendweight
 blendweights
+blockLOS
 body_type
 borrow
 bouncecolor
+break_create_joint_revolute
 break_list
+break_uniform_burst
+breakable_count
 bulletimpact
-burst
 burstRandomize
+burst_randomize
+burst_scale
+c t6H
 c.[A\]
+c8tgH
 cIcN`Ic
 c`t!H
+cable
 cables_list
 can't solve quadratic for light %f %f
+cantdie
 castshadows
 ceilf
 ceilf@@GLIBC_2.2.5
@@ -2229,43 +2377,59 @@ cheat
 children
 client
 clientcmd_can_execute
-climbable
 cloth_collide
 cloth_collision_layer0
 cloth_collision_layer1
 cloth_collision_layer2
 cloth_collision_layer3
 cloth_enable
+collision_group
 collision_group_override
 collision_prop
 color
 composite
 configvalue.cpp
+content
+control_point
 control_points_list
+create_particle
 curvature
 dH34%(
 dH3<%(
-debris
 default
 delete
-delta
 developer
 dimension0
 dimension1
-dire_tree_stump002_tintable.vmesh
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 dme_position_map
+dmg.bullets
+dmg.club
+dmg.explosive
+dmg.fire
+dynamic_interaction
 ema H
+embedded_animation
+embedded_meshes
+embedded_physics
+emitFromWorld
+enable_limit
 encoding
 error in transition graph: %s to %s
 error opening required file %s
+event_class
+event_keys
+eventindex
+explosion_delay
+explosive_damage
+explosive_radius
 eye_data
 eye_data_list
 f	P(H
 f %d %d %d
 f;0tr
-f;C.w
+f;S.w
 fA9D$
 fA;0M
 fA;0trA
@@ -2286,8 +2450,8 @@ floorf
 floorf@@GLIBC_2.2.5
 fog_lighting
 fogcontributionstrength
+force
 format
-formats.cpp
 frame
 free@@GLIBC_2.2.5
 g E;g0D
@@ -2298,27 +2462,35 @@ g_Tier1_CRC64Table
 g_pMemAlloc
 g_pThreadPool
 g`D;gp
+game_class
+game_keys
 gameinfo.gi
 gameinfo.txt
-gamematerial
-gameproperties
 generic
 gfffD
 gfffH
+gravity
 h[A\A]A^A_]
 h[A\A]]
+handindex
+headtype
 health
+health_override
+hidden
+hurt_me
+hurt_them
 impactHardThreshold
 impacthard
 impactsoft
 innerconeangle
 int( %d = 0x%X )
+interactive
 interfaces.cpp
 introspectedtypemanager.cpp
-iptGH
+invert_orientation
+is_debris
 j E;j$}
 jIcD$
-jumpfactor
 k8D;kHtMH
 k8~XA
 k@[A\A]A^]
@@ -2333,6 +2505,8 @@ l$0[M
 l$8Ic
 l$HfA
 lIcL$
+last_sniff
+length
 libc.so.6
 libm.so.6
 libmeshsystem.so
@@ -2349,6 +2523,10 @@ lightmapuvw
 lightsourceshape
 lighttype
 localToGlobal
+lockRotationAlpha
+loop_break_on_damage
+loop_break_on_flashlight
+loop_in_action
 looping
 lowprecisionuv
 lowprecisionuv1
@@ -2408,7 +2586,6 @@ m_bCacheAttempted
 m_bCacheOk
 m_bCanBatchWithDynamicShaderConstants
 m_bCastShadows
-m_bClimbable
 m_bDoNotDrawInFastShadowPath
 m_bDrawLast
 m_bEnableAngularMotor
@@ -2421,12 +2598,14 @@ m_bHasBakedLightingBasisInVertex
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
 m_bHasPerInstanceBakedLightingData
+m_bHidden
 m_bInfluenceRootTransform
 m_bInverse
 m_bIsAttachment
 m_bIsNotMatchedToMaterial
 m_bIsOccluder
 m_bOnlyDrawInFastShadowPath
+m_bOverrideMassCenter
 m_bRenderDiffuse
 m_bRenderSpecular
 m_bSelected
@@ -2478,6 +2657,7 @@ m_driveSpringTwist
 m_driveSpringX
 m_driveSpringY
 m_driveSpringZ
+m_eRbfType
 m_elasticity
 m_elems
 m_embeddedKeyvalues
@@ -2485,9 +2665,9 @@ m_flAngularDamping
 m_flAngularDampingRatio
 m_flAngularFrequency
 m_flBakeLightIndexScale
+m_flFalloff
 m_flFogContributionStength
 m_flInertiaScale
-m_flJumpFactor
 m_flLightSourceDim0
 m_flLightSourceDim1
 m_flLightSourceSize0
@@ -2499,7 +2679,6 @@ m_flMass
 m_flMax
 m_flMaxEyeDeflection
 m_flMaxForce
-m_flMaxSpeedFactor
 m_flMaxTorque
 m_flMaxVelocity
 m_flMin
@@ -2517,7 +2696,6 @@ m_flWeight
 m_flexController
 m_flexControllerToken
 m_friction
-m_gameProperties
 m_goalAngularVelocity
 m_goalOrientation
 m_goalPosition
@@ -2540,6 +2718,8 @@ m_influenceFlags
 m_influenceNames
 m_influenceWeights
 m_inputLayoutFields
+m_inputList
+m_inputValue
 m_invBindPose
 m_joints
 m_keyValueText
@@ -2592,11 +2772,11 @@ m_nInfluences
 m_nInstanceCount
 m_nInstanceStepRate
 m_nLookupType
-m_nMaterial
 m_nNameHash
 m_nOffset
 m_nParent
 m_nPrimitiveType
+m_nPriority
 m_nRefCounter
 m_nReserved
 m_nReserved2
@@ -2624,6 +2804,8 @@ m_nXLeftDst
 m_nYTopDst
 m_nameHash
 m_offsets
+m_outputMorph
+m_outputWeightList
 m_pD3DSemanticName
 m_pData
 m_pFeModel
@@ -2666,8 +2848,7 @@ m_rnShape
 m_rolling
 m_roughThreshold
 m_roughnessFactor
-m_runStepLeft
-m_runStepRight
+m_sAttachmentName
 m_sBoneName
 m_sSurfaceProperty
 m_sTargetMorph
@@ -2715,6 +2896,7 @@ m_vHullMin
 m_vInfluenceOffsets
 m_vInfluenceRotations
 m_vLinearTargetVelocity
+m_vMassCenterOverride
 m_vMaxBounds
 m_vMinBounds
 m_vOffset
@@ -2725,8 +2907,6 @@ m_vViewMin
 m_vecCenter
 m_vecSize
 m_vertexBuffers
-m_walkStepLeft
-m_walkStepRight
 malloc
 malloc@@GLIBC_2.2.5
 mapbuilder.nodraw
@@ -2734,13 +2914,13 @@ mapbuilder.occluder
 materials/error.vmat
 materials/tools/show_skeleton.vmat
 materialsystem2
-mathlib_base.cpp
+mathlib.cpp
 matrix3x4_t
 matrix3x4a_t
 maxHullVertices
 maxSpringTension
 maxVerticesPerHull
-maxspeedfactor
+max_angle
 memcmp
 memcmp@@GLIBC_2.2.5
 memcpy
@@ -2755,11 +2935,13 @@ meshUtilsKeyValues
 mesh_calculate_curvature_smooth_invert
 mesh_calculate_curvature_smooth_pass_count
 mesh_calculate_curvature_smooth_weight
+mesh_index
 meshinstance_imp.cpp
 meshsystem
 meshsystem.cpp
-meshsystem.cpp(149): GetErrorModel() called before error model exists!
+meshsystem.cpp(153): GetErrorModel() called before error model exists!
 meshutils.cpp
+min_angle
 model
 model.cpp
 model_dump_convert_info
@@ -2769,6 +2951,10 @@ modeldoc10
 modeldoc11
 modeldoc12
 modeldoc13
+modeldoc14
+modeldoc15
+modeldoc16
+modeldoc17
 modeldoc2
 modeldoc3
 modeldoc4
@@ -2783,18 +2969,25 @@ models/%s
 models/dev/error.vmdl
 models/dev/error.vmesh
 models\
+morph_block
+morph_texture
 motiondisabled
 multiplayer_break
 nPATI
 nTries < 10000000
+nav_attribute_avoid
+nav_data
 normal
 notconnected
 notify
+numsegments
 o ATL
 o8ATI
-offset
 ohATSH
+optGH
 optionallycompressedtangentframe
+origin_max_delta
+origin_relative
 outerconeangle
 overlay
 p[A\A]A^]
@@ -2802,7 +2995,9 @@ p[A\]
 particles/
 particles_list
 pervertexlighting
+phys_data_block
 phys_res
+physgun_interactions
 physib
 placementattachment
 placementbone
@@ -2812,7 +3007,10 @@ position
 positionH
 posxyz
 precomputedmaxrange
+preferred_carryangles
+priority
 projectedDecal
+prop_data
 ptestbed
 pthread_mutex_destroy
 pthread_mutex_destroy@@GLIBC_2.2.5
@@ -2829,10 +3027,9 @@ pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
-r)H9]
-r6LcA
+r+H9]
+r7LcQ
 rA9D$
-radius
 radius0
 radius1
 ragdoll
@@ -2847,8 +3044,6 @@ resource
 resourcestream.cpp
 resourcesystem
 rootNode
-runleft
-runright
 runspeed
 s off
 s v&E1
@@ -2864,8 +3059,11 @@ scrapesmooth
 scripts/activity_modifier_weights.txt
 sdktools/bin/vproj.exe
 sdktools/bin/vprojUI.exe
+secondary
 seq_trans
+seqgroup_data_block
 sequence_name
+sequence_number
 server_can_execute
 shadowcascadecount
 shadowcascadedistance%d
@@ -2874,12 +3072,11 @@ shadowtextureheight
 shadowtexturewidth
 shapeType
 sharpStartAngle
-sincosf
-sincosf@@GLIBC_2.2.5
 singleplayer
 size0
 size1
 source_filename
+spawn_motion_disabled
 speeds
 springConstant
 sqrt@@GLIBC_2.2.5
@@ -2887,6 +3084,9 @@ sqrtf
 sqrtf@@GLIBC_2.2.5
 src/public/tier0/platform.h
 ss_added
+stop_immediately
+stop_instantly
+stop_on_seq_change
 strchr
 strchr@@GLIBC_2.2.5
 strcmp
@@ -2895,36 +3095,37 @@ strcpy
 strcpy@@GLIBC_2.2.5
 strlen
 strlen@@GLIBC_2.2.5
-strncpy@@GLIBC_2.2.5
-strnlen
-strnlen@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
+suppress
 surfacePropertyName
 surface_prop
 t	;sP
 t	[A\]
 t"HcK
 t"HcO
+t#IcF
 t$'H)
 t$4Lc
+t$8A\]
 t$@A\]
-t$@tsHc
+t$@tzHc
 t$D9j
 t$H9h
-t$HcP
 t$HfA
-t$XA\]
+t$Lc'H
 t&Hcq
-t*HcE
+t'IcF
+t([A\]
+t*D9p
 t*HcO
 t*fA9
 t+D9s
 t+Hc4
 t+fA9
-t.D9p
+t.HcH
 t.fA9
 t/9w t29w0t=1
+t1D9`
 t2[A\]
 t4HcS
 t4[A\A]A^]
@@ -2932,7 +3133,6 @@ t4[A\]
 t5[A\]
 t7D;.~'L
 t8D;&~'L
-t:Lc#H
 t:[A\]
 t;[A\]
 t<fA9
@@ -2940,7 +3140,7 @@ t>fA9
 t?[A\]
 t@@:>u
 t@[A\A]A^]
-tJ<-t~<+t*H
+tL[A\A]A^]
 tR[A\A]A^]
 tSHcO
 tWA9]
@@ -2951,22 +3151,23 @@ t`[A\]
 tangent
 tangentu_signv
 tbD;&~3H
-tb[A\]
 tcHcQ
 tdA:]
 tdHcO
 teLch
-te[A\]
+test_angles_relative
 texcoord
 texcoordH
-tf[A\]
-tgHcQ
+texturescale
+tg[A\]
 th_BEGINH
 th___ENDH
+tlLcp
 tolower
 tolower@@GLIBC_2.2.5
 trHcO
 ttIcG
+turn_rate
 tyHcO
 t{HcO
 t}HcO
@@ -2974,11 +3175,12 @@ u	[A\]
 u [A\]
 u&[A\]
 u64( %lld = 0x%llX )
-u=Ic]
+u8Ic]
 u@[A\]
 uGIc]
 unable to load mesh "%s"
 unknown
+unknown activity %d on for activity model %s!
 unspecified
 update
 useMotionDamping
@@ -2991,11 +3193,13 @@ v %g %g %g%s
 v!<\t
 v;<\t7I
 vb phys
+vbib_block
 version
 vmatAUATSL
 vmatH
 vmatL
 vmatu
+vmdlA
 vmdlH
 vmdlL
 vmesh
@@ -3008,29 +3212,35 @@ vrgrp
 vrnmd
 vsnap
 vsurf
-w(AUATI
 w(AUI
 wIcN`1
-walkleft
-walkright
 walkspeed
+wcscmp
+wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
+x!;1|
 x.Lcm
+x0;w0}+H
 x0;wX}+Hc
+x6;w0}1
 xGHcO
 xJA;E
 xOHcO
 xRIcL$
 x[A\A]A^A_]
 x^HcS
+x`A;F
 xb;wX}]Hc
 yE>19CSchemaRegistration
+yaw_end
+yaw_start
 z/u-H
 z0H9y0u
 z89y8
 z<9y<
 z><!--
+{ ~EIc
 {8;C0t4
 {XMcl$pE;
 {X[A\]
@@ -3055,18 +3265,19 @@ z><!--
 }F;w$
 }Hf;w
 }WUHc
+}ZIcF
 ~	ATI
+~&H97t@
 ~(A\A]A^A_]
 ~)A;]
-~)H97tC
 ~*HcE
 ~1Hc<
 ~2Lc+A
+~;HcE
 ~?HcH
 ~@XfI
 ~@`fI
 ~AVAUL
-~QLcm
 ~SHcC
 ~[HcW
 ~oHc6H

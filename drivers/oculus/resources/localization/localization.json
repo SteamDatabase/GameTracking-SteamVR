@@ -7,6 +7,12 @@
     "/input/b" : "B Button",
     "/input/x" : "X Button",
     "/input/y" : "Y Button",
-    "/input/joystick" : "Joystick"
+    "/input/joystick" : "Joystick",
+    "/input/remote_dpad/down" : "Dpad Down",
+    "/input/remote_dpad/up" : "Dpad Up",
+    "/input/remote_dpad/left" : "Dpad Left",
+    "/input/remote_dpad/right" : "Dpad Right",
+    "/input/remote_dpad/click" : "Dpad Click",
+    "/input/remote_back/click" : "Remote Back"
   }
 ]

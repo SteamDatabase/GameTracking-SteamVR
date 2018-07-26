@@ -1,16 +1,26 @@
 {
    "bindings" : {
       "/actions/legacy" : {
-	 "poses": [
-		{
-			"output": "/actions/legacy/in/Left_Pose",
-			"path": "/user/hand/left/pose/raw"
-		},
-		{
-			"output": "/actions/legacy/in/Right_Pose",
-			"path": "/user/hand/right/pose/raw"
-		}
-	],
+         "haptics" : [
+            {
+               "output" : "/actions/legacy/out/left_haptic",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/legacy/out/right_haptic",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
+         "poses" : [
+            {
+               "output" : "/actions/legacy/in/Left_Pose",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/legacy/in/Right_Pose",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
          "sources" : [
             {
                "inputs" : {
@@ -23,6 +33,9 @@
                   "touch" : {
                      "output" : "/actions/legacy/in/left_axis1_touch"
                   }
+               },
+               "parameters" : {
+                  "haptic_amplitude" : "0"
                },
                "mode" : "trigger",
                "path" : "/user/hand/left/input/trigger"
@@ -53,6 +66,9 @@
                   "touch" : {
                      "output" : "/actions/legacy/in/left_axis2_touch"
                   }
+               },
+               "parameters" : {
+                  "haptic_amplitude" : "0"
                },
                "mode" : "trigger",
                "path" : "/user/hand/left/input/grip"
@@ -93,6 +109,9 @@
                      "output" : "/actions/legacy/in/right_axis1_touch"
                   }
                },
+               "parameters" : {
+                  "haptic_amplitude" : "0"
+               },
                "mode" : "trigger",
                "path" : "/user/hand/right/input/trigger"
             },
@@ -105,7 +124,7 @@
                      "output" : "/actions/legacy/in/right_axis0_value"
                   },
                   "touch" : {
-                     "output" : "/actions/legacy/in/right_a_touch"
+                     "output" : "/actions/legacy/in/right_axis0_touch"
                   }
                },
                "mode" : "joystick",
@@ -123,6 +142,9 @@
                      "output" : "/actions/legacy/in/right_axis2_touch"
                   }
                },
+               "parameters" : {
+                  "haptic_amplitude" : "0"
+               },
                "mode" : "trigger",
                "path" : "/user/hand/right/input/grip"
             },
@@ -134,6 +156,9 @@
                   "touch" : {
                      "output" : "/actions/legacy/in/left_grip_touch"
                   }
+               },
+               "parameters" : {
+                  "haptic_amplitude" : "0"
                },
                "mode" : "button",
                "path" : "/user/hand/left/input/grip"
@@ -159,6 +184,9 @@
                      "output" : "/actions/legacy/in/right_grip_touch"
                   }
                },
+               "parameters" : {
+                  "haptic_amplitude" : "0"
+               },
                "mode" : "button",
                "path" : "/user/hand/right/input/grip"
             },
@@ -175,7 +203,7 @@
                "path" : "/user/hand/right/input/b"
             }
          ]
-     }
+      }
    },
    "controller_type" : "oculus_touch",
    "description" : "Default mapping for Oculus Touch controllers into the legacy interface.",

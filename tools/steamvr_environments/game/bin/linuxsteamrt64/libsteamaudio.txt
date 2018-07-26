@@ -1,6 +1,7 @@
  A __bss_start
  A _edata
  A _end
+ CBufferString::Relinquish(CBufferString::EAllocationOption_t)
  CMemAllocSystemInitialize
  ConMsg(char const*, ...)
  EarlyInit_Tier0
@@ -20,6 +21,10 @@
  T InstallSchemaBindings
  T _fini
  T _init
+ T operator delete(void*)
+ T operator delete[](void*)
+ T operator new(unsigned long)
+ T operator new[](unsigned long)
  V_FixDoubleSlashes
  V_FixSlashes
  V_RemoveDotSlashes
@@ -30,16 +35,23 @@
  V_UnqualifiedFileName
  V_atof
  V_atoi
+ V_expf
+ V_log10f
+ V_logf
+ V_powf
  V_qsort_s
  V_snprintf
  V_sscanf
  V_stricmp_fast
  V_stristr_fast(char const*, char const*)
  V_strlower_fast
+ V_strnchr
+ V_strnlen
  V_strtod
  V_strtoi64
  V_strtoui64
  V_strupper_fast
+ V_tier0_strstr
  V_vsnprintf
  V_vsnprintfSize
  Warning
@@ -53,6 +65,7 @@
  _V_StripExtension
  _V_StripLastDir
  _V_strncat
+ _V_strncmp
  _V_strncpy
  _V_strnistr_fast
  __cxa_atexit@@GLIBC_2.2.5
@@ -114,10 +127,10 @@
  pthread_mutexattr_init@@GLIBC_2.2.5
  pthread_mutexattr_settype@@GLIBC_2.2.5
  pthread_once@@GLIBC_2.2.5
+ sqrtf@@GLIBC_2.2.5
  strchr@@GLIBC_2.2.5
  strcmp@@GLIBC_2.2.5
  strlen@@GLIBC_2.2.5
- strnlen@@GLIBC_2.2.5
  strstr@@GLIBC_2.2.5
  vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
  vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3

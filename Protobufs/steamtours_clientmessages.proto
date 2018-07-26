@@ -27,6 +27,7 @@ enum ESteamToursClientMessages {
 	CM_SpawnPanel = 521;
 	CM_DeleteObject = 522;
 	CM_DropHeldObject = 523;
+	CM_SpawnVROverlay = 524;
 }
 
 message CClientMsg_SpawnPhysicsProp {
@@ -179,5 +180,14 @@ message CClientMsg_DeleteObject {
 message CClientMsg_DropHeldObject {
 	optional uint32 handid = 1;
 	optional bool should_delete = 2;
+}
+
+message CClientMsg_SpawnVROverlay {
+	optional uint32 owner_ehandle = 1;
+	optional uint32 panel_type = 2;
+	optional .CMsgVector position = 3;
+	optional .CMsgQAngle angles = 4;
+	optional float width = 5;
+	optional float height = 6;
 }
 

@@ -107,6 +107,100 @@
 			},
 			"output" : "result"
 		}
-	]
+	],
+	"bindings" :
+	{
+	"/actions/dualanalog": {
+		"sources": [
+			{
+				"path": "/user/gamepad/input/joystick_left",
+				"mode": "joystick",
+				"inputs": {
+					"click": {
+						"output": "/actions/dualanalog/in/leftclick"
+					}
+				}
+			},
+			{
+				"path": "/user/gamepad/input/joystick_right",
+				"mode": "joystick",
+				"inputs": {
+					"click": {
+						"output": "/actions/dualanalog/in/rightclick"
+					}
+				}
+			},
+			{
+				"path": "/user/gamepad/input/shoulder_left",
+				"mode": "button",
+				"inputs": {
+					"click": {
+						"output": "/actions/dualanalog/in/modeswitch1"
+					}
+				}
+			},
+			{
+				"path": "/user/gamepad/input/shoulder_right",
+				"mode": "button",
+				"inputs": {
+					"click": {
+						"output": "/actions/dualanalog/in/modeswitch2"
+					}
+				}
+			}
+		]
+	},
+	"/actions/lasermouse": {
+		"sources": [
+			{
+				"path": "/user/gamepad/input/start",
+				"mode": "button",
+				"inputs": {
+					"click": {
+						"output": "/actions/lasermouse/in/switchgamepadfocus"
+					}
+				}
+			}
+		]
+	},
+	"/actions/system": {
+		"chords": [
+			{
+				"output": "/actions/system/in/takescreenshot",
+				"inputs": [
+					[
+						"/user/gamepad/input/trigger_right",
+						"click"
+					],
+					[
+						"/user/gamepad/input/back",
+						"held"
+					]
+				]
+			}
+		],
+		"sources": [
+			{
+				"path": "/user/gamepad/input/trigger_right",
+				"mode": "button"
+			},
+			{
+				"path": "/user/gamepad/input/back",
+				"mode": "button",
+				"inputs": {
+					"long": {
+						"output": "/actions/system/in/ToggleDashboard"
+					},
+					"held": {
+						"output": "/actions/system/in/systembuttonchord"
+					},
+					"double": {
+						"output": "/actions/system/in/toggleroomview"
+					}
+				}
+			}
+		]
+	}
+}
 }
 

@@ -4,17 +4,17 @@
   "input_bindingui_mode" : "hmd",
   "input_bindingui_right" :
   {
-    "image": "{htc}/icons/vive_hmd.png"
+    "image": "{htc}/icons/vive_hmd.svg"
   },
   "input_source" :
   {
     "/input/system" : {
         "type" : "button",
-        "binding_image_point" : [ 230, 300 ]
+        "binding_image_point" : [ 180, 110 ]
     },
     "/pose/raw" : {
         "type" : "pose",
-        "binding_image_point" : [ 105, 200 ]
+        "binding_image_point" : [ 63, 148 ]
     }
   }
  }

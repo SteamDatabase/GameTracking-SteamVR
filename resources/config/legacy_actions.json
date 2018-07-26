@@ -2,14 +2,17 @@
 	"actions": [
 		{
 			"name": "/actions/legacy/in/Head_Proximity",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Left_System_Press",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Left_System_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
@@ -18,6 +21,7 @@
 		},
 		{
 			"name": "/actions/legacy/in/Left_ApplicationMenu_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
@@ -26,14 +30,17 @@
 		},
 		{
 			"name": "/actions/legacy/in/Left_Grip_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Left_A_Press",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Left_A_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
@@ -54,6 +61,7 @@
 		},
 		{
 			"name": "/actions/legacy/in/Left_Axis1_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
@@ -66,39 +74,58 @@
 		},
 		{
 			"name": "/actions/legacy/in/Left_Axis2_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Left_Axis2_Value1",
+			"requirement" : "optional",
 			"type": "vector1"
 		},
 		{
 			"name": "/actions/legacy/in/Left_Axis2_Value2",
+			"requirement" : "optional",
 			"type": "vector2"
 		},
 		{
 			"name": "/actions/legacy/in/Left_Axis3_Press",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Left_Axis3_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/legacy/in/Left_Axis3_Value",
-			"type": "vector2"
+			"name": "/actions/legacy/in/Left_Axis3_Value_e0",
+			"requirement" : "optional",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy/in/Left_Axis3_Value_e1",
+			"requirement" : "optional",
+			"type": "vector1"
 		},
 		{
 			"name": "/actions/legacy/in/Left_Axis4_Press",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Left_Axis4_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/legacy/in/Left_Axis4_Value",
-			"type": "vector2"
+			"name": "/actions/legacy/in/Left_Axis4_Value_e0",
+			"requirement" : "optional",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy/in/Left_Axis4_Value_e1",
+			"requirement" : "optional",
+			"type": "vector1"
 		},
 		{
 			"name": "/actions/legacy/in/Left_Pose",
@@ -110,10 +137,12 @@
 		},
 		{
 			"name": "/actions/legacy/in/Right_System_Press",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Right_System_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
@@ -122,6 +151,7 @@
 		},
 		{
 			"name": "/actions/legacy/in/Right_ApplicationMenu_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
@@ -130,14 +160,17 @@
 		},
 		{
 			"name": "/actions/legacy/in/Right_Grip_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Right_A_Press",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Right_A_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
@@ -158,6 +191,7 @@
 		},
 		{
 			"name": "/actions/legacy/in/Right_Axis1_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
@@ -166,43 +200,63 @@
 		},
 		{
 			"name": "/actions/legacy/in/Right_Axis2_Press",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Right_Axis2_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Right_Axis2_Value1",
+			"requirement" : "optional",
 			"type": "vector1"
 		},
 		{
 			"name": "/actions/legacy/in/Right_Axis2_Value2",
+			"requirement" : "optional",
 			"type": "vector2"
 		},
 		{
 			"name": "/actions/legacy/in/Right_Axis3_Press",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Right_Axis3_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/legacy/in/Right_Axis3_Value",
-			"type": "vector2"
+			"name": "/actions/legacy/in/Right_Axis3_Value_e0",
+			"requirement" : "optional",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy/in/Right_Axis3_Value_e1",
+			"requirement" : "optional",
+			"type": "vector1"
 		},
 		{
 			"name": "/actions/legacy/in/Right_Axis4_Press",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/legacy/in/Right_Axis4_Touch",
+			"requirement" : "optional",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/legacy/in/Right_Axis4_Value",
-			"type": "vector2"
+			"name": "/actions/legacy/in/Right_Axis4_Value_e0",
+			"requirement" : "optional",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy/in/Right_Axis4_Value_e1",
+			"requirement" : "optional",
+			"type": "vector1"
 		},
 		{
 			"name": "/actions/legacy/in/Right_Pose",
@@ -236,7 +290,7 @@
 						"/actions/legacy/in/Left_Grip_Press": "Left Grip Button",
 						"/actions/legacy/in/Left_Grip_Touch": "Left Grip Button Touch",
 						"/actions/legacy/in/Left_A_Press": "Left A Button",
-						"/actions/legacy/in/Left_A_Touch": "Left A Press",
+						"/actions/legacy/in/Left_A_Touch": "Left A Button Touch",
 						"/actions/legacy/in/Left_Axis0_Press": "Left Trackpad/Thumbstick Press",
 						"/actions/legacy/in/Left_Axis0_Touch": "Left Trackpad/Thumbstick Touch",
 						"/actions/legacy/in/Left_Axis0_Value": "Left Trackpad/Thumbstick Value",
@@ -246,13 +300,15 @@
 						"/actions/legacy/in/Left_Axis2_Press": "Left Axis 2 Press",
 						"/actions/legacy/in/Left_Axis2_Touch": "Left Axis 2 Touch",
 						"/actions/legacy/in/Left_Axis2_Value1": "Left Grip Value",
-						"/actions/legacy/in/Left_Axis2_Value2": "Left Trackpad/Thumbstick Value",
+						"/actions/legacy/in/Left_Axis2_Value2": "Left Second Trackpad/Thumbstick Value",
 						"/actions/legacy/in/Left_Axis3_Press": "Left Axis 3 Press",
 						"/actions/legacy/in/Left_Axis3_Touch": "Left Axis 3 Touch",
-						"/actions/legacy/in/Left_Axis3_Value": "Left Axis 3 Value",
+						"/actions/legacy/in/Left_Axis3_Value_e0": "Left Axis 3 X Value",
+						"/actions/legacy/in/Left_Axis3_Value_e1": "Left Axis 3 Y Value",
 						"/actions/legacy/in/Left_Axis4_Press": "Left Axis 4 Press",
 						"/actions/legacy/in/Left_Axis4_Touch": "Left Axis 4 Touch",
-						"/actions/legacy/in/Left_Axis4_Value": "Left Axis 4 Value",
+						"/actions/legacy/in/Left_Axis4_Value_e0": "Left Axis 4 X Value",
+						"/actions/legacy/in/Left_Axis4_Value_e1": "Left Axis 4 Y Value",
 
 						"/actions/legacy/in/Right_System_Press": "Right System Button",
 						"/actions/legacy/in/Right_System_Touch": "Right System Button Touch",
@@ -261,7 +317,7 @@
 						"/actions/legacy/in/Right_Grip_Press": "Right Grip Button",
 						"/actions/legacy/in/Right_Grip_Touch": "Right Grip Button Touch",
 						"/actions/legacy/in/Right_A_Press": "Right A Button",
-						"/actions/legacy/in/Right_A_Touch": "Right A Press",
+						"/actions/legacy/in/Right_A_Touch": "Right A Button Touch",
 						"/actions/legacy/in/Right_Axis0_Press": "Right Trackpad/Thumbstick Press",
 						"/actions/legacy/in/Right_Axis0_Touch": "Right Trackpad/Thumbstick Touch",
 						"/actions/legacy/in/Right_Axis0_Value": "Right Trackpad/Thumbstick Value",
@@ -271,13 +327,16 @@
 						"/actions/legacy/in/Right_Axis2_Press": "Right Axis 2 Press",
 						"/actions/legacy/in/Right_Axis2_Touch": "Right Axis 2 Touch",
 						"/actions/legacy/in/Right_Axis2_Value1": "Right Grip Value",
-						"/actions/legacy/in/Right_Axis2_Value2": "Right Trackpad/Thumbstick Value",
+						"/actions/legacy/in/Right_Axis2_Value2": "Right Second Trackpad/Thumbstick Value",
 						"/actions/legacy/in/Right_Axis3_Press": "Right Axis 3 Press",
 						"/actions/legacy/in/Right_Axis3_Touch": "Right Axis 3 Touch",
 						"/actions/legacy/in/Right_Axis3_Value": "Right Axis 3 Value",
+						"/actions/legacy/in/Right_Axis3_Value_e0": "Right Axis 3 X Value",
+						"/actions/legacy/in/Right_Axis3_Value_e1": "Right Axis 3 Y Value",
 						"/actions/legacy/in/Right_Axis4_Press": "Right Axis 4 Press",
 						"/actions/legacy/in/Right_Axis4_Touch": "Right Axis 4 Touch",
-						"/actions/legacy/in/Right_Axis4_Value": "Right Axis 4 Value"
+						"/actions/legacy/in/Right_Axis4_Value_e0": "Right Axis 4 X Value",
+						"/actions/legacy/in/Right_Axis4_Value_e1": "Right Axis 4 Y Value"
 					}
 	]
 }

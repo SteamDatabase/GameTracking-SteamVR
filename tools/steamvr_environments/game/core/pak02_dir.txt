@@ -66,7 +66,7 @@ materials/dev/primary_white_color_tga_8758ebc9.vtex_c CRC:00708725fb size:1756
 materials/dev/primary_white_color_tga_f7b257f6.vtex_c CRC:0098647981 size:1756
 materials/dev/primary_white_trans.vmat_c CRC:004e48c569 size:6016
 materials/dev/randomjitter_psd_a97d0bf2.vtex_c CRC:0032151792 size:1780
-materials/dev/reflectivity_30.vmat_c CRC:00e885a443 size:5696
+materials/dev/reflectivity_30.vmat_c CRC:00589390a3 size:5696
 materials/dev/reflectivity_30_color_tga_72d9c5c1.vtex_c CRC:005b4453c9 size:176524
 materials/dev/reflectivity_90.vmat_c CRC:00708c7f25 size:5768
 materials/dev/reflectivity_90_color_tga_3c1dc530.vtex_c CRC:006368ffdd size:176524
@@ -135,7 +135,7 @@ particles/entity/env_explosion/explosion_firecloud.vpcf_c CRC:005e10ca0a size:13
 particles/entity/env_explosion/explosion_smoke.vpcf_c CRC:00345e204e size:1490
 particles/error/error.vpcf_c CRC:0090fcbd65 size:860
 resource/keybindings_english.txt CRC:00e52d3f20 size:196
-resource/valve_english.txt CRC:0082736571 size:56718
+resource/valve_english.txt CRC:00ad1b90d3 size:55364
 resource/vgui_english.txt CRC:0075119d4d size:17758
 resourcemanifests/addon_resources.vrman_c CRC:006af7e63b size:475
 scripts/soundmixers.txt CRC:001f203e8f size:36664
@@ -158,9 +158,9 @@ soundevents/soundevents_addon.vsndevts_c CRC:0076f99deb size:568
 soundevents/soundevents_manifest.vrman_c CRC:009a3b72ff size:480
 soundstacks/mixgraph.vmix_c CRC:008c975486 size:14873
 soundstacks/sosstrings.txt CRC:00d4dc554f size:438
-soundstacks/soundstacks_core.vsndstck_c CRC:007a6b1625 size:18599
+soundstacks/soundstacks_core.vsndstck_c CRC:003ce41cda size:31286
 soundstacks/soundstacks_manifest.vrman_c CRC:00ab29bae5 size:480
-surfaceproperties/surfaceproperties.vsurf_c CRC:007abe3ef2 size:11772
+surfaceproperties/surfaceproperties.vsurf_c CRC:0019e606fb size:7436
 textures/dev/blue_noise_256.vtex_c CRC:00eb315605 size:263908
 textures/dev/ggx_integrate_brdf_lut.vtex_c CRC:000c6ab814 size:263940
 textures/dev/ggx_integrate_brdf_lut_schlick.vtex_c CRC:004d63cbcf size:263988

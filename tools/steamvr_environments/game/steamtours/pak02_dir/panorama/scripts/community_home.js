@@ -83,8 +83,9 @@ function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
 			var panelItem = $.CreatePanel( "Panel", parentPanel, "App" + item.appid );
 			var maxCountForBar = Math.max( item.current_player_count, maxPlayers );
 			panelItem.BLoadLayoutSnippet("App");
-			panelItem.SetDialogVariable( "app_name", item.name );
-			panelItem.SetAttributeString( "app_name", item.name );
+			var name = item.name.replace("&amp;", "&");
+			panelItem.SetDialogVariable( "app_name", name );
+			panelItem.SetAttributeString( "app_name", name);
 			panelItem.SetAttributeString( "image_path", item.logo );
 			panelItem.SetAttributeInt( "appid", parseInt( item.appid ) );
 
@@ -462,6 +463,7 @@ function OnLoadCommunityHomeData()
 	var panelHome = $( "#CommunityHomeContainer" );
 	var onSelectUGCSection = function( panelHome ) {
 		return function( data ) {
+			panelHome.RemoveClass( "SelectedUGC_currentlyplayed" );
 			panelHome.RemoveClass( "SelectedUGC_screenshots" );
 			panelHome.RemoveClass( "SelectedUGC_artwork" );
 			panelHome.RemoveClass( "SelectedUGC_environments" );
@@ -576,6 +578,7 @@ function RequestCommunityHomeData( bIncludeUGC, bIncludeApps )
 	var params = {
 		include_ugc : ( bIncludeUGC && gSection != "environments" ? 1 : 0 ),
 		include_apps : ( bIncludeApps ? 1 : 0 ),
+		include_free_apps : 1,
 		num_items : 60,
 		section : gSection
 	};
@@ -594,6 +597,7 @@ function RequestCommunityHomeData( bIncludeUGC, bIncludeApps )
 				AddUGC( "#CommunityContentContainer", data.items );
 				AddApps( "#SinglePlayerApps", data.apps_singleplayer, 200, data.apps_singleplayer_max_peak_players );
 				AddApps( "#MultiPlayerApps", data.apps_multiplayer, 200, data.apps_multiplayer_max_peak_players );
+				AddApps( "#FreeApps", data.apps_free, 200, data.apps_free_max_peak_players );
 				
 				// schedule a refresh every 10 minutes
 				$.Schedule( 600, function() { RequestCommunityHomeData( false, true ); } );

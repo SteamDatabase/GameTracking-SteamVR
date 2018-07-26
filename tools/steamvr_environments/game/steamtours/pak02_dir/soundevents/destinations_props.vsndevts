@@ -397,3 +397,142 @@
 		]
 	}}
 
+"prop_tf2_sentry1_damage"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.04
+		vsnd_files = 
+		[
+			"sounds/props/tf2_sentry1/sentry_damage1.vsnd",
+			"sounds/props/tf2_sentry1/sentry_damage2.vsnd",
+			"sounds/props/tf2_sentry1/sentry_damage3.vsnd",
+			"sounds/props/tf2_sentry1/sentry_damage4.vsnd",
+		]
+	}}
+
+"prop_tf2_sentry1_explode"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.075
+		vsnd_files = "sounds/props/tf2_sentry1/sentry_explode.vsnd"
+	}}
+
+"prop_tf2_sentry1_move_long"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.03
+		vsnd_files = 
+		[
+			"sounds/props/tf2_sentry1/sentry_move_long1.vsnd",
+			"sounds/props/tf2_sentry1/sentry_move_long2.vsnd",
+		]
+	}}
+
+"prop_tf2_sentry1_move_medium"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.03
+		vsnd_files = 
+		[
+			"sounds/props/tf2_sentry1/sentry_move_medium1.vsnd",
+			"sounds/props/tf2_sentry1/sentry_move_medium2.vsnd",
+			"sounds/props/tf2_sentry1/sentry_move_medium3.vsnd",
+		]
+	}}
+
+"prop_tf2_sentry1_move_short"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.03
+		vsnd_files = 
+		[
+			"sounds/props/tf2_sentry1/sentry_move_short1.vsnd",
+			"sounds/props/tf2_sentry1/sentry_move_short2.vsnd",
+		]
+	}}
+
+"prop_tf2_sentry1_scan"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.05
+		vsnd_files = 
+		[
+			"sounds/props/tf2_sentry1/sentry_scan.vsnd",
+			"sounds/props/tf2_sentry1/sentry_scan.vsnd",
+		]
+	}}
+
+"prop_tf2_sentry1_shoot_mini"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.075
+		vsnd_files = "sounds/props/tf2_sentry1/sentry_shoot_mini.vsnd"
+	}}
+
+"prop_tf2_sentry1_spot"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.05
+		vsnd_files = "sounds/props/tf2_sentry1/sentry_spot.vsnd"
+	}}
+
+"prop_tf2_sentry1_spot_client"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.05
+		vsnd_files = "sounds/props/tf2_sentry1/sentry_spot_client.vsnd"
+	}}
+
+"prop_tf2_sentry1_upgrading_steam"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.04
+		vsnd_files = 
+		[
+			"sounds/props/tf2_sentry1/sentry_upgrading_steam1.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading_steam2.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading_steam3.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading_steam4.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading_steam5.vsnd",
+		]
+	}}
+
+"prop_tf2_sentry1_upgrading"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "destinations.simple_vr"
+		volume = 0.04
+		vsnd_files = 
+		[
+			"sounds/props/tf2_sentry1/sentry_upgrading1.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading2.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading3.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading4.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading5.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading6.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading7.vsnd",
+			"sounds/props/tf2_sentry1/sentry_upgrading8.vsnd",
+		]
+	}}
+

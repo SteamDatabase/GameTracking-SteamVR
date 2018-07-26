@@ -1,8 +1,8 @@
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
   (%s, v. %3d) '%s'
  ( def. "%s" )
+ A9]8
  D;c8
- E9t$8~e
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^]
@@ -15,6 +15,7 @@
 "%s" 
 "%s" = "%s"
 "t&L;}
+#[A\]
 #base
 #base is NULL 
 #empty#
@@ -72,7 +73,6 @@ $[A\]
 .strtab
 .symtab
 .text
-0123456789ABCDEF
 0[A\]
 0[]A\A]A^
 0x%016llX
@@ -128,8 +128,7 @@ $[A\]
 8[]A\A]A^A_
 9CVConComm
 9IVConComm
-:[tLL
-;%02x
+:[tlL
 ;*3$"
 ;s | 1
 <	w.1
@@ -140,9 +139,9 @@ $[A\]
 <NULL>
 <Rt<<Pt`<S
 <Unknown Shutdown Context>
-<^vII
-<^vKI
-<^vOI
+<^vPI
+<^vSI
+<^vWI
 <^v[I
 <null>
 <}tI<{uO
@@ -153,9 +152,10 @@ $[A\]
 ==============================================================
 =AOPP
 =LCPP
-=NAHCtJA
+=NAHCtS
 =ROPP
 =TNRP
+?H;=B
 ?libvconcomm.so
 @[A\]
 A+D$$9
@@ -180,7 +180,6 @@ AUATA
 AUATD
 AUATI
 AUATL
-AUATLc
 AUATS
 AUATSH
 AUATSL
@@ -279,7 +278,6 @@ E+O$Mc
 E+e$Mc
 E+}$Mc
 E9gPI
-E9t$8
 EMVSATA
 EXA;]`
 EXPORTSYSTEM_INTERFACE_VERSION_001
@@ -308,12 +306,14 @@ G<@t1H
 G<@t:
 G<@tLL
 G<@tUI
+G<@ta
 G<@th
 G<@tp
 GAMECONSOLE
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GLIBC_2.14
 GLIBC_2.2.5
+GLIBC_2.3.4
 GLIBC_2.4
 GNIPH
 GNOPH
@@ -342,7 +342,9 @@ HostStateMgr001
 I;V@w
 IMVS1
 IQuickTime001
-IcT$(L
+IcT$(
+IcT$(A
+IcT$(I
 Ic]PI
 Icu`H
 InputService_001
@@ -353,6 +355,7 @@ InstallChangeCallback ignoring duplicate change callback!!!
 InstallSchemaBindings
 Intentionally vague touch behavior for %p
 Invalid connection type.
+JHcKHIc
 Jc<(H
 KV Conditional Evaluation Error
 KeyValueCache001
@@ -363,7 +366,6 @@ KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 LCPPA\A]A^]
 LCPPH
-LHcKHIc
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
@@ -501,6 +503,7 @@ SchemaTestExternal_Two_001
 SerializedEntitiesVersion001
 ServerUploadGameStats001
 Sht7Lc{pD;
+Socket error: %d
 SoundOpSystem001
 SoundOpSystemEdit001
 SoundService_001
@@ -531,7 +534,6 @@ TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
 ThreadGetCurrentId
-ThreadInterlockedExchange64
 ThreadSetDebugNameS2
 ThreadSleep
 ToolFramework2_002
@@ -608,15 +610,18 @@ V_atoi
 V_localeconv
 V_qsort_s
 V_snprintf
-V_snwprintf
+V_snwprintf_cch
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strtod
 V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
+V_tier0_strstr
 V_vsnprintf
 V_vsnprintfRet
 V_vsnprintfSize
@@ -689,7 +694,6 @@ Xbox VDP is not supported on this platform.
 []A\A]A^A_
 \t!Hc
 \u0000
-]+l`J
 ^ t+H
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
@@ -702,6 +706,7 @@ _V_StringAfterPrefix
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnistr_fast
 _Z14V_stristr_fastPKcS0_
@@ -716,6 +721,9 @@ _Z6DevMsgPKcz
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEvent5ResetEv
 _ZN12CThreadEventC1Eb
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
+_ZN13CBufferString16RemoveToFileBaseEv
+_ZN13CBufferString5PurgeEi
 _ZN17CThreadSyncObject4WaitEj
 _ZN17CThreadSyncObject8WaitImplEj
 _ZN17CThreadSyncObjectD2Ev
@@ -745,6 +753,10 @@ _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __bss_start
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
@@ -763,6 +775,8 @@ __errno_location@@GLIBC_2.2.5
 __gmon_start__
 __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
+__memcpy_chk
+__memcpy_chk@@GLIBC_2.3.4
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
@@ -837,7 +851,6 @@ memset@@GLIBC_2.2.5
 nTries < 10000000
 notconnected
 notify
-o@ATI
 poll@@GLIBC_2.2.5
 pthread_mutex_lock
 pthread_mutex_lock@@GLIBC_2.2.5
@@ -868,21 +881,18 @@ strcpy
 strcpy@@GLIBC_2.2.5
 strlen
 strlen@@GLIBC_2.2.5
-strncpy@@GLIBC_2.2.5
-strnlen
-strnlen@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
 t	[A\A]A^]
+t$ Hc
+t$(u%A
 t$H9h
 t*HcO
 t?[A\]
 t@@:>u
+tL[A\A]A^]
 tSHcO
 tWA9]
 tdA:]
-tolower
-tolower@@GLIBC_2.2.5
 ttIcG
 u([A\]
 u64( %lld = 0x%llX )
@@ -897,13 +907,15 @@ vconcomm.cpp
 vstdlib
 w,UHc
 w@H;V
+wcscmp
+wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
 x[A\A]A^A_]
 {}()':
-|$ Lc
+|$ Hc
 ~	ATI
+~&H97t@
 ~)A;]
-~)H97tC
 ~SHcC
 ~vHcKPHc

@@ -42,14 +42,14 @@
 			[
 				{
 					"path" : "/user/head/input/system",
-					"mode" : "complex_button",
+					"mode" : "button",
 					"inputs" :
 					{
 						"long" :
 						{
 								"output" : "/actions/system/in/ShowPowerMenu"
 						},
-						"single" :
+						"click" :
 						{
 								"output" : "/actions/system/in/ToggleDashboard"
 						},

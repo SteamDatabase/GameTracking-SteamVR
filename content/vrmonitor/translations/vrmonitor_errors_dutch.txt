@@ -877,6 +877,8 @@
 "[english]Lighthouse_RecommendControllerUpgradeOverUsb_Action"	"Update Firmware"
 "Lighthouse_RecommendControllerUpgradeOverUsb_ActionURL"	"vrmonitor://firmwareupdate/"
 "[english]Lighthouse_RecommendControllerUpgradeOverUsb_ActionURL"	"vrmonitor://firmwareupdate/"
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description"	"Er zijn twee basisstation gelijktijdig op kanaal %1 aangemeld. Voor de beste resultaten gebruik je unieke kanalen voor alle basisstations die zijn aangemeld."
+"[english]Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description"	"Saw two bases on channel %1 at the same time.  For best results, use unique channels for all bases that can be seen at the same time."
 "Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action"	" "
 "[english]Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action"	" "
 "Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL"	"

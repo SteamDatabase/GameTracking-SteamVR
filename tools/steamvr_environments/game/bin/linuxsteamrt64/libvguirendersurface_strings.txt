@@ -107,6 +107,7 @@ $woL)
 ([A\A]A^A_]
 ([A\A]A^]
 ([A\A]]
+([A\A^]
 ([]A\A]A^A_
 (no name)
 *E@Hc
@@ -160,7 +161,6 @@ $woL)
 /I9D$
 0 - no auto-resize
 0 - top-left
-0123456789ABCDEF
 0[A\A]A^A_]
 0[A\A]A^]
 0[A\]
@@ -245,7 +245,7 @@ $woL)
 7IConVar
 8!t5H
 8#t(H
-8#tEH
+8#tMH
 8CFmtStrNILi1024ELb0EE
 8CFmtStrNILi256ELb0EE
 8S)tK
@@ -256,16 +256,12 @@ $woL)
 90t/H
 91t0H
 9CX~,H
-:[tLL
-;#t@I
-;%02x
+:[tlL
+;#t?L
 ;*3$"
 ;2|?H
 ;2~.H
 ;L9'u
-;L9/u
-;L9?u
-;W0}D
 ;s t_+s$Hc
 <	w.1
 <	woD
@@ -289,11 +285,13 @@ $woL)
 =CSP1A
 =CSP1u
 >#t'D
->#tEL
+>#t=L
 ?../public/tier1/utlrbtree.h
 ?A\A]A^]
 ?ButtonToggled
 ?ComboBoxButton
+?L;'u
+?L;7u
 ?VGuiPaintSurfaceLayout
 ?north-west
 @ A\A]A^]
@@ -307,8 +305,6 @@ $woL)
 @[A\A]A^]
 @[A\]
 @mempool.cpp
-A)F A
-A)F$H
 A+D$$9
 A+D$$H
 A+E$H
@@ -326,7 +322,7 @@ A+W$f
 A+u$Hc
 A10BlankImage
 A9?t>H
-A9F@~cI
+A9F@~{I
 A9G }
 A9\$h
 A9\$h~\Lc
@@ -357,6 +353,7 @@ AUATSf
 AUATStMI
 AUATStmH
 AUATUSH
+AVATI
 AVATL
 AVAUA
 AVAUATA
@@ -376,6 +373,7 @@ AVAUL
 AVAULc
 AVAUM
 AWAVA
+AWAVAU
 AWAVAUA
 AWAVAUATA
 AWAVAUATE1
@@ -574,12 +572,10 @@ CursorExitedChild
 CursorExitedMenuItem
 CvarToggleCheckButton
 D$ H9
-D$ L9
 D$(A\]
 D$(E1
 D$(H9
 D$0H9
-D$0L9
 D$8I9
 D$8L9
 D$@H9
@@ -598,10 +594,6 @@ D48D9
 D9y@tO
 D;!t{Hc
 D;'t{Hc
-D;5gO=
-D;5rO=
-D;5}O=
-D;=I[1
 D;c D
 D;c tIH
 D;cPD
@@ -685,7 +677,7 @@ E+}$Mc
 E9't1A
 E9gPI
 E9nh~3I
-E9t$ ~kI
+E9|$ ~bI
 E;t$ M
 E;|$(D
 EMPTY - ok for slot zero only!
@@ -767,7 +759,6 @@ FrameTitleButton.DisabledFgColor
 FrameTitleButton.FgColor
 G A9G
 G u)H
-G$HcW E
 G<@t	]
 G<@t L
 G<@t#f
@@ -777,6 +768,7 @@ G<@t1H
 G<@t:
 G<@tLL
 G<@tUI
+G<@ta
 G<@th
 G<@tp
 G@Lc+L
@@ -785,7 +777,6 @@ GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
-GLIBC_2.3.4
 GLIBC_2.4
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -818,6 +809,7 @@ H[A\A]A^A_]
 H[A\A]]
 H[]A\A]A^A_
 HammerMapLoader001
+HcC H9
 HcC$9
 HcC$H
 HcHPH
@@ -840,7 +832,6 @@ I;V@w
 I;_ v
 IMECandidatesMenu
 IQuickTime001
-Ic4$H)
 IcG@H
 IcL$@1
 IcM(Ic
@@ -1006,6 +997,7 @@ KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 L$HD9y
 L$HD;i
+L+g H
 L+khI
 L9(t2L
 L9c`t}L
@@ -1028,9 +1020,9 @@ Lc#D;c
 Lc+D;k
 Lc/E)
 Lc3D;s
+Lc5xr1
 Lc6E9
 Lc7E)
-Lc=@[1
 Lcc@H
 LcchD;cxD
 LccpD;
@@ -1405,9 +1397,8 @@ StopPanelAnimations
 StoreUndo
 String %d: ref:%d %s
 Su	[A\]
-T$0H9
 T$8H)
-T$HD;2tOH
+T$HD;2twH
 T$HD;r
 T$HHc
 Test vgui panel positioning with title safe indentation
@@ -1439,7 +1430,6 @@ Texture3
 Texture4
 ThreadGetCurrentId
 ThreadInMainThread
-ThreadInterlockedExchange64
 ThreadSleep
 TitleButtonBorder
 TitleButtonDepressedBorder
@@ -1552,27 +1542,34 @@ V_atoi
 V_cosf
 V_expf
 V_fmodf
+V_frexpf
 V_iswspace
 V_localeconv
 V_logf
 V_powf
 V_qsort_s
+V_sincosf
 V_sinf
 V_snprintf
-V_snwprintf
+V_snwprintf_cch
 V_sscanf
 V_stricmp_fast
 V_strlower_fast
+V_strnchr
+V_strnlen
 V_strtod
 V_strtoi64
 V_strtoui64
 V_strupper_fast
 V_swscanf
 V_tanf
+V_tier0_strstr
 V_vsnprintf
 V_vsnprintfRet
 V_vsnprintfSize
-V_wcsnicmp
+V_vsnwprintf_cch
+V_wcsicmp
+V_wcsnicmp_cch
 V_wcstod
 V_wcstoi64
 VaPrintf
@@ -1620,7 +1617,6 @@ ZIcL$
 []A\A]A^
 []A\A]A^A_
 [nothing currently selected]
-\$ I9
 \IcL$
 \t!Hc
 \u0000
@@ -1645,9 +1641,11 @@ _V_StringAfterPrefix
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
+_V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
+_V_wcsncat_cch
 _V_wcsncpy_bytes
 _Z14V_stristr_fastPKcS0_
 _Z15V_UnicodeLengthPKc
@@ -1658,6 +1656,9 @@ _Z6ConMsgPKcz
 _Z6DevMsgPKcz
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
+_ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
+_ZN13CBufferString5PurgeEi
+_ZN13CBufferString6SetPtrEPciibb
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -1675,6 +1676,10 @@ _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZdaPv
+_ZdlPv
+_Znam
+_Znwm
 __bss_start
 __ctype_tolower_loc
 __ctype_tolower_loc@@GLIBC_2.3
@@ -1699,12 +1704,8 @@ __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
-__snprintf_chk
-__snprintf_chk@@GLIBC_2.3.4
 __stack_chk_fail
 __stack_chk_fail@@GLIBC_2.4
-__vsnprintf_chk
-__vsnprintf_chk@@GLIBC_2.3.4
 _edata
 _fini
 _hidef
@@ -1810,7 +1811,7 @@ elementid
 encoding %s %d format %s %d
 english
 f;0tr
-f;C.w
+f;S.w
 f;r`u
 f@Mcl$0E;l$@tXI
 f@Mc|$
@@ -1903,7 +1904,7 @@ keyvalues2_flat
 keyvalues2_flat_v1
 keyvalues2_v1
 kht:D
-ktD98u
+kt498u
 l$ L9
 l$ M9u
 labelText
@@ -1939,7 +1940,7 @@ materials/vgui/hud/800corner3.vmat
 materials/vgui/hud/800corner4.vmat
 materials/vgui/white.vmat
 materialsystem2
-mathlib_base.cpp
+mathlib.cpp
 matrix
 matrix_array
 matsystemtexture_%s_%lld.vtex
@@ -2019,7 +2020,7 @@ qsort
 qsort@@GLIBC_2.2.5
 quaternion
 quaternion_array
-r6LcA
+r7LcQ
 r_screen_size_expansion
 reading file '%s' of legacy format '%s' - dmxconvert this file to a newer format!
 replace
@@ -2049,7 +2050,6 @@ shift
 should PostActionSignals
 showScrollBar
 sin@@GLIBC_2.2.5
-sincosf
 sincosf@@GLIBC_2.2.5
 sinf@@GLIBC_2.2.5
 singleplayer
@@ -2086,9 +2086,6 @@ string_array
 strlen
 strlen@@GLIBC_2.2.5
 strncpy@@GLIBC_2.2.5
-strnlen
-strnlen@@GLIBC_2.2.5
-strstr
 strstr@@GLIBC_2.2.5
 strtod@@GLIBC_2.2.5
 strtol
@@ -2099,6 +2096,7 @@ subtabposition
 swscanf@@GLIBC_2.2.5
 t	;Ch
 t	[A\A]A^]
+t	[A\]
 t"HcK
 t"HcO
 t#fD;0u
@@ -2122,18 +2120,19 @@ t6HcO
 t9HcE
 t?D9u
 t@@:>u
+tL[A\A]A^]
 tR[A\A]A^]
 tSHcO
 tWA9]
 tYHcU
 t[HcU
+t]D9u
 t]D;e
 t`[A\]
 tab position
 tabPosition
 tanf@@GLIBC_2.2.5
 tdA:]
-teD9u
 texcoordH
 textAlignment
 textHidden
@@ -2154,8 +2153,6 @@ titlebarfgcolor_override
 titletextinsetX
 titletextinsetY
 tmLck
-tolower
-tolower@@GLIBC_2.2.5
 tooltip
 tooltiptext
 towlower
@@ -2219,7 +2216,6 @@ vguirendersurface.cpp
 vmatL
 vslider
 vtexH
-w(AUATI
 w0AUATSH
 wcschr
 wcschr@@GLIBC_2.2.5
@@ -2229,10 +2225,6 @@ wcscpy
 wcscpy@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
-wcsncat
-wcsncat@@GLIBC_2.2.5
-wcsncpy
-wcsncpy@@GLIBC_2.2.5
 x HcW
 x6Hcw
 x@D;xP
@@ -2260,10 +2252,9 @@ z/u-H
 }ef;w
 }m@:w
 ~	ATI
-~ A\A]A^]
 ~ [A\A]A^]
+~&H97t@
 ~)A;]
-~)H97tC
 ~1Lce
 ~8D9b@
 ~8HcE
