@@ -392,7 +392,8 @@
  GCConnectionStatus_GC_GOING_DOWN
  H97tbH
  H;0t
- H;5t<^
+ H;5t,^
+ H;=)
  HcC`L
  HcClI)
  HcSlD
@@ -1574,12 +1575,11 @@ $~gHc
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
+(%%B&
 (%0.2f): %s
-(%T6&
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
-(%ft&
 (%g %g %g %g)
 (%g %g %g)
 (%g %g)
@@ -1591,15 +1591,16 @@ $~gHc
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(-KEm
+(-;Em
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (1@zD
 (8HXhx
 (9s ~@H
-(=!#w
-(=U/&
-(=UF&
+(=#y&
+(=%;&
+(=3a&
+(=Cm&
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -2106,10 +2107,11 @@ $~gHc
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
 .%0*llu
-.%aO=
+.%4r6
+.%QO=
 .(Optional) Set of tags for the published file.
-.-jD;
-.-xNr
+.-ZD;
+.-hNr
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -2147,8 +2149,8 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.=),9
-.=[,9
+.5yu.
+.=K,9
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -6126,6 +6128,7 @@ $~gHc
 6C_Guts
 6C_Team
 6ConVar
+6D#5[
 6D;U$
 6F+U F
 6H92t%H
@@ -6238,8 +6241,7 @@ $~gHc
 98t.A
 99w(|&H
 9:w7I
-9=+iG
-9=khG
+9=kYG
 9>J"@TJ
 9@(D@
 9A3333#
@@ -6421,6 +6423,7 @@ $~gHc
 ;3@F%u
 ;3t^L
 ;4,F]
+;5?,#
 ;:HcR
 ;:~`H
 ;;D$H
@@ -6793,7 +6796,6 @@ $~gHc
 ?C_GameEntity::CEntityInstanceEntityClass
 ?C_InfoLadderDismount
 ?C_RopeKeyframe
-?D;%`
 ?D]`,
 ?DebugAutoComplete
 ?ERCP
@@ -7071,10 +7073,10 @@ $~gHc
 @GZ*oG 7@
 @Gr}H
 @H97tbH
-@H;5 =^
+@H;5 -^
 @H;50
 @H;51
-@H;542^
+@H;54"^
 @HA^]
 @HH;E
 @HcC(
@@ -7235,7 +7237,6 @@ $~gHc
 @tlH9
 @t{Ic
 @u'fA
-@uHIc
 @uWHc
 @v28J^
 @v7Ou
@@ -7379,7 +7380,6 @@ A9\$x
 A9\$xH
 A9] ~YL
 A9]PI
-A9^(w
 A9^X~V
 A9^\~*A
 A9_ I
@@ -9536,7 +9536,7 @@ C8tyH
 C9,h5
 C<D;e
 C<[A\A]A^]
-C@D;%
+C@D;%LW
 C@D;k8D
 C@H;CHs
 C@IcT$8H
@@ -11965,7 +11965,9 @@ Creates a new particle effect that only plays for the specified player
 Creates a table from the specified keyvalues string
 Creates a table from the specified keyvalues text file
 Creates an in-world image panel entity.
-Creating Lobby
+Creating Friend Lobby
+Creating Private Lobby
+Creating Public Lobby
 Criterion %s has subcriteria, no longer supported!
 Criterion functor %s expected param of type %s but got %s.
 CropFlagsToPlayerFlagBitsLength
@@ -12190,15 +12192,15 @@ D6	 H
 D7	 H
 D9!t"
 D9!u"
-D9%IS
-D9%yR
+D9%	V
+D9%yF
 D9't,H
 D9(t'I
 D9+~[L
 D90t[A
 D90~#H
 D93~5
-D95'P
+D95WC
 D9;~dL
 D9D$4B
 D9D$4H
@@ -12240,18 +12242,21 @@ D; t=H
 D;!t{Hc
 D;"t=H
 D;"t]H
-D;%%/T
-D;%49@
-D;%9gP
-D;%Js,
-D;%c.
+D;%!w
+D;%+^
+D;%;j,
+D;%Dd
+D;%T+@
+D;%mt
+D;%t)@
+D;%yWP
 D;'thH
 D;'t{
 D;'t{Hc
 D;+};H
-D;-&S
+D;-VF
 D;.~3L
-D;5-}
+D;5]p
 D;:tPH
 D;F`u
 D;c D
@@ -12888,6 +12893,7 @@ E;t$pI
 E;u(t?I
 E;w8u
 E;wL|
+E;wPD
 E;}8A
 E;}<L
 E@7l[
@@ -14309,6 +14315,7 @@ H90t%A
 H90t%H
 H90t'H
 H90t/H
+H91tIH
 H91tqHcI
 H92tPH
 H92tiHcR
@@ -14321,7 +14328,7 @@ H97txH
 H99ts
 H9:tx
 H9:tyHcR
-H9=9p
+H9=ic
 H9C(H
 H9ChH
 H9D$(
@@ -14345,188 +14352,172 @@ H;0u)
 H;1t!
 H;2u#
 H;2u)
-H;5 :P
-H;5!aP
-H;5"dC
-H;5#M^
-H;5#x
-H;5&[[
-H;5'AJ
-H;5(5F
-H;5(JY
-H;5/<P
-H;5/iC
-H;50#^
-H;501^
-H;53!P
-H;57CP
-H;58QP
-H;5<<^
-H;5F5J
-H;5H"E
-H;5HD^
-H;5H\P
-H;5HwT
-H;5I P
-H;5L7^
-H;5L:^
-H;5L;^
-H;5ORY
-H;5P+P
-H;5P[[
-H;5SA
-H;5SAJ
-H;5W L
-H;5XO[
-H;5[iC
-H;5\8J
-H;5`*P
-H;5`1^
-H;5`@Y
-H;5aBP
-H;5fJ^
-H;5h)L
-H;5hdP
-H;5iFP
-H;5r+F
-H;5x?P
-H;5|cT
+H;5 *P
+H;5!QP
+H;5"TC
+H;5#=^
+H;5&K[
+H;5'1J
+H;5(%F
+H;5(:Y
+H;5,{G
+H;5/,P
+H;5/YC
+H;50!^
+H;573P
+H;58AP
+H;5;tG
+H;5<,^
+H;5F%J
+H;5H4^
+H;5HLP
+H;5HgT
+H;5L'^
+H;5L*^
+H;5L+^
+H;5OBY
+H;5OuC
+H;5PK[
+H;5S1J
+H;5Sk
+H;5X?[
+H;5[YC
+H;5\(J
+H;5`!^
+H;5`0Y
+H;5a2P
+H;5f:^
+H;5hTP
+H;5huT
+H;5i6P
+H;5itN
+H;5x/P
+H;5|ST
+H;5|rK
+H;5}xT
 H;:t(f
-H;= KE
-H;= [
-H;= `
-H;= hU
-H;=$U\
-H;='0\
-H;=';E
-H;='YY
-H;='`Q
-H;=(V^
-H;=)*_
-H;=*YS
-H;=*b_
-H;=+"J
-H;=,$Y
-H;=,;?
-H;=-+J
-H;=-dU
-H;=.5E
-H;=/4
-H;=/^;
-H;=/k7
-H;=/nB
-H;=02J
-H;=077
-H;=0<7
-H;=0A7
-H;=0F7
-H;=0vS
-H;=1fF
-H;=2~
-H;=4yN
-H;=59G
-H;=6,_
-H;=6uS
-H;=7$\
-H;=7,E
-H;=7^Q
-H;=7aY
-H;=8XG
-H;=9C_
-H;=:yZ
-H;=<;O
-H;=<@G
-H;=?i7
-H;=?u
-H;=@a^
-H;=@{B
-H;=@|
-H;=A9F
-H;=AUQ
-H;=B6E
-H;=DJE
-H;=G<U
-H;=GIU
-H;=GJQ
-H;=Gm^
-H;=GyL
-H;=HO,
-H;=H\K
-H;=JN,
-H;=KhU
-H;=L%Y
-H;=LKE
-H;=M;E
-H;=O!_
-H;=OS
-H;=Og7
-H;=Ol_
-H;=PU\
-H;=Pj
-H;=T/_
-H;=TV^
-H;=VJ	
-H;=W"M
-H;=W"U
-H;=WWY
-H;=X|N
-H;=X}F
-H;=Z&J
-H;=ZM,
-H;=\2J
-H;=\5E
-H;=\G	
-H;=\cK
-H;=]^Q
-H;=_"
-H;=_"_
-H;=_e7
-H;=`\
-H;=byN
-H;=g!M
-H;=gOQ
-H;=gQ\
-H;=gW\
-H;=h(E
-H;=huS
-H;=hyZ
-H;=j	Y
-H;=j?_
-H;=ka^
-H;=l&Y
-H;=lUQ
-H;=lmF
-H;=mJQ
-H;=n@G
-H;=oc7
-H;=p6E
-H;=p87
-H;=p=7
-H;=pB7
-H;=pG7
-H;=pJE
-H;=vhU
-H;=w M
-H;=w,U
-H;=w6Q
-H;=w7U
-H;=w8\
-H;=w?\
-H;=wY_
-H;=w_Y
-H;=ws^
-H;=wwL
-H;=wzU
-H;=w{Y
-H;=x C
-H;=xU^
-H;={z_
-H;=|U\
-H;=|_G
-H;=|dK
-H;=}?E
-H;=~;?
-H;=~}F
+H;= ;E
+H;= J
+H;= M
+H;= O
+H;= XU
+H;=$E\
+H;=' \
+H;='+E
+H;='IY
+H;='PQ
+H;=(	O
+H;=(	Y
+H;=(F^
+H;=*IS
+H;=*R_
+H;=-TU
+H;=.%E
+H;=.rD
+H;=/^B
+H;=0"J
+H;=0&7
+H;=0+7
+H;=007
+H;=057
+H;=0fS
+H;=1VF
+H;=4iN
+H;=5)G
+H;=6eS
+H;=7NQ
+H;=7QY
+H;=7rE
+H;=8HG
+H;=93_
+H;=:iZ
+H;=<+O
+H;=<0G
+H;=>qD
+H;=@Q^
+H;=@\
+H;=@kB
+H;=A)F
+H;=AEQ
+H;=B&E
+H;=D:E
+H;=G,U
+H;=G9U
+H;=G:Q
+H;=G]^
+H;=GiL
+H;=GpD
+H;=GqE
+H;=GzL
+H;=HLK
+H;=KXU
+H;=L;E
+H;=M+E
+H;=N	O
+H;=O\_
+H;=PE\
+H;=R|S
+H;=TF^
+H;=TsS
+H;=WGY
+H;=WpE
+H;=WtU
+H;=WuY
+H;=XlN
+H;=XmF
+H;=\"J
+H;=\%E
+H;=\*?
+H;=\SK
+H;=]NQ
+H;=^rD
+H;=_'
+H;=`K
+H;=`P
+H;=biN
+H;=bq
+H;=g?Q
+H;=gA\
+H;=gG\
+H;=gtY
+H;=heS
+H;=hiZ
+H;=j/_
+H;=kQ^
+H;=lEQ
+H;=l]F
+H;=m:Q
+H;=n0G
+H;=nqD
+H;=oN;
+H;=o[7
+H;=oh
+H;=p&E
+H;=p'7
+H;=p,7
+H;=p17
+H;=p67
+H;=p:E
+H;=vXU
+H;=w&Q
+H;=w'U
+H;=w(\
+H;=w/\
+H;=wI_
+H;=wOY
+H;=wc^
+H;=wgL
+H;=wjU
+H;=wkY
+H;=wsY
+H;=w}C
+H;=xE^
+H;={j_
+H;=|E\
+H;=|OG
+H;=|TK
+H;=}/E
+H;=~mF
 H;>t[H
 H;C I
 H;C r
@@ -14657,10 +14648,10 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5T3
-Hc5r`	
+Hc58{
+Hc5K1
 Hc8Hi
-Hc=54L
+Hc=u$L
 Hc@ H
 Hc@$H
 Hc@(H
@@ -14675,7 +14666,6 @@ HcB ;B$
 HcB`H9
 HcBpD9
 HcC ;C0
-HcC A9
 HcC D9
 HcC H
 HcC H9
@@ -14956,7 +14946,6 @@ I9D$(u
 I9L$ t
 I9pPt
 I:2@1
-I;4$u
 I;EXH
 I;F8t-H
 I;G(t1H
@@ -15748,7 +15737,6 @@ Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
 Kp H;=
-Kp H;=Z}
 Kp Lc}
 KqUq;@
 L$ Lc
@@ -15797,10 +15785,10 @@ L9t$(u
 L9t$H
 L9|$HJ
 L: %.2f deg
-L;%%CM
-L;%5	V
-L;%5BM
-L;%EAM
+L;%%3M
+L;%52M
+L;%E1M
+L;-$c
 L;0t!A
 L;:tL1
 L;:tT1
@@ -15892,9 +15880,11 @@ Lc tu
 Lc!D;a
 Lc#D;c
 Lc#E9
-Lc%As,
-Lc%wEI
-Lc%~.
+Lc%"^
+Lc%2j,
+Lc%;d
+Lc%J6G
+Lc%KW
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -15908,14 +15898,14 @@ Lc/D;o
 Lc/E)
 Lc/E1
 Lc3D;s
-Lc5$}
-Lc5||
+Lc5Tp
 Lc6E9
 Lc7E)
 Lc7E9
 Lc;D;{
 Lc?E)
 Lc@`L9
+LcA E9
 LcB`L9
 LcC`D;Cp
 LcK@D;KP
@@ -15983,6 +15973,7 @@ Lco(E
 Lco@D;oPtnH
 LcoXE
 Lcp4M
+Lcr@I
 Lcs D;s0D
 Lcs0D;s@D
 Lcs@L
@@ -16081,6 +16072,7 @@ LobbiesContentContainer
 LobbiesTabSelected
 Lobby did not have WorkshopID
 Lobby has ServerID %llu, connecting
+Lobby has WorkshopID %llu, already downloaded
 Lobby has WorkshopID %llu, downloading
 LobbyDetailContentContainer
 LobbyHasVisitors
@@ -17733,7 +17725,7 @@ P[A\A]A^A_]
 P[A\A]A^]
 P[A\]
 P_d<)
-P`L9}
+P`L9u
 P`[fA
 Packed store %s with refcount > 0.
 PadBackButton
@@ -19743,7 +19735,7 @@ T$tE1
 T$xHc
 T&hL9
 T(*fD
-T-^9h
+T-N9h
 T0@GZ
 T5?Z@2
 T5i@H
@@ -20839,19 +20831,17 @@ VsInputSignature_t
 Vulkan
 W H9r
 W HcG
-W%&x&
+W%2-:
 W%:O&t
-W%B-:
 W(Aq=
 W(H92t'H
 W,:V,u
-W-&T>
 W0;V0t
 W0Hc_8A
 W0t	H
 W3|Uxa
-W5Ht&
-W=#'/
+W58t&
+W5|(/
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -21069,6 +21059,7 @@ X$HcH E
 X(9Y(
 X(;X8
 X(Optional) If true, only return the published file ids of files that satisfy this query.
+X-xBx
 X0~tA
 X2:jH
 X360_DST16
@@ -21097,16 +21088,10 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Y ANb
-Y%I';
-Y%X":
-Y%[/|
-Y%val
 Y(E9^(A
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-3+s
 Y/&4@4
 Y6	@W'g(
-Y=#y9
 Y?3333E
 YD$$L
 YEXfA
@@ -21300,7 +21285,7 @@ Z}uU
 ^)8~@
 ^-wf"
 ^0A;^@
-^57:x
+^5':x
 ^?O<g
 ^Cp\&
 ^Fa.@
@@ -21315,6 +21300,8 @@ _(D9X(
 _?</F
 _@')UG3;
 _FZZ#F
+_HHcC A9
+_HIcG@L
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _IcE 1
@@ -25531,8 +25518,8 @@ g0E;g@D
 g0HcG(M
 g0L;%
 g0L;%5
-g0L;%5iJ
-g0L;%EhJ
+g0L;%5YJ
+g0L;%EXJ
 g0L;%u
 g6F5`pF
 g?Rt+@R
@@ -29920,7 +29907,6 @@ o(ATL
 o(ATSH
 o*Ral
 o,ATL
-o-3hy
 o0ATL
 o4ATL
 o8ATI
@@ -31837,7 +31823,6 @@ t!<"t
 t!HcO
 t!Lc#D;c
 t!Lc+D;k
-t" Hc
 t"+wHx
 t"< @
 t"HcK
@@ -31878,14 +31863,13 @@ t$@L9
 t$@tzHc
 t$D9j
 t$D;%
+t$D;%#
 t$D;%3
 t$D;%C
-t$D;%c
-t$D;%s
+t$D;%s|&
 t$D;-
-t$D;-a
 t$D;=
-t$D;=4K
+t$D;=t;
 t$H9:H
 t$H9h
 t$HH9
@@ -31920,15 +31904,14 @@ t%[A\]
 t&@8>t+H
 t&D:=
 t&D;%
+t&D;%U
 t&Hcq
 t&IcD$
 t'D;%
-t'D;%V
-t'D;%vw
-t'D;-
-t'D;5
+t'D;%N
+t'D;-.
+t'D;5.
 t'D;=
-t'D;=NR
 t'H;=8
 t'H;=H
 t'H;=h
@@ -31938,34 +31921,33 @@ t'Lck
 t'[A\]
 t(92t(H
 t(;;tR
-t(;=Q
 t(<)u
 t(D;%
-t(D;%ox
+t(D;%'
+t(D;%7v
+t(D;%W
 t(D;-
 t(D;-'
-t(D;-W
+t(D;-7
+t(D;-g
 t(E;u
 t(HcO
 t([A\]
-t)@:51
+t);="
+t)@:5q
 t)D8u
 t)D;%
-t)D;%P
-t)D;%X
-t)D;%p
-t)D;-
-t)D;5
-t)D;=
+t)D;-@o
+t)D;5P
+t)D;= J#
 t)Lc+D;k
 t*<*u
 t*D9p
 t*D;-
-t*D;-Q
-t*D;5a
-t*D;=
+t*D;5
 t*D;=	
-t*D;=1
+t*D;=I
+t*D;=q
 t*HcC
 t*HcKH
 t*HcKh
@@ -31983,37 +31965,32 @@ t+Jc4
 t+Mcl$pE;
 t+fA9
 t,D;%
-t,D;%+
+t,D;%k
 t,D;-
 t,Hcx
 t,L;e
 t,UtZI
-t-D;%
+t-D;%,
 t-D;=
-t-D;=,w#
-t-D;=l
-t-D;=|d#
+t-D;=lg#
 t-LcP
 t-Mc4$E;t$
 t-Mc<$E;|$
 t-Mcv
 t-rex
-t.D:%&
+t.D:%V
 t.D;%
-t.D;%M
-t.D;%}
 t.D;-
-t.D;5]
-t.D;5}
+t.D;5
 t.HcH
 t.IcG
 t.Lc#I
 t.Lc{
 t.fA9
+t/ Ic
 t/9w t29w0t=1
 t/H;E
 t/Lc%
-t/Lc%h
 t/Lc+
 t/[A\A]A^]
 t/[A\]
@@ -32079,7 +32056,7 @@ tAffffhF
 tAw3A
 tBViewEffects
 tCLc%
-tD@:5	
+tD@:59
 tFRA@F
 tF[A\A]A^]
 tF\sQF^e7F0
@@ -32155,7 +32132,7 @@ tax_usd
 tbD;&~3H
 tbHcO
 tbLcC8Ic
-tc@:5
+tc@:54
 tcHcQ
 tcIcv 
 tchinese
@@ -33415,7 +33392,7 @@ z{uyA
 z{uyI
 z|uzL
 z}u{I
-{ H;=M
+{ H;=
 { H;}
 { Lcu
 { [A\A]A^]
@@ -33423,7 +33400,7 @@ z}u{I
 { t7I
 { ~EIc
 {$[A\]
-{(H;=
+{(H;=Z
 {(H;}
 {([A\]
 {)<8"@
@@ -33436,7 +33413,7 @@ z}u{I
 {@ffff
 {HH;=
 {PD;m
-{PH;=Q
+{PH;=
 {S6wD
 {XH	E
 {XMcl$pE;
@@ -33473,7 +33450,6 @@ z}u{I
 |$@	uY
 |$@Mc
 |$HfA
-|$PA9
 |$PVCCD
 |$X@u
 |$Xt>H
@@ -33519,7 +33495,7 @@ z}u{I
 |P>~k
 |RIcN
 |SIcO
-|TIcL$
+|XIcL$
 |Xg!'
 |]J@E
 |_&H~0
@@ -33622,7 +33598,7 @@ z}u{I
 ~2Lc+A
 ~31]H
 ~79ZP
-~7Lc%8
+~7Lc%ht
 ~;HcE
 ~=FLD4F
 ~?HcH
