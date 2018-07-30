@@ -351,6 +351,7 @@
 			content = "models/characters/avatars/mptam_hmd.vmdl"
 			preview_image = "file://{images}/contentdb/mptam_hmd.png"
 			locked_by_quest = true
+			dev_only = true
 			inventory_service_id = 117
 		},
 		{
@@ -2666,10 +2667,9 @@
 			script = "props/tf2_sentry1_toolbox"
 			equip_sound = "freeze_tool_equip"
 			preview_image = "file://{images}/contentdb/tf2_sentry1_toolbox.png"
-			locked_by_quest = false
+			locked_by_quest = true
 			// inventory_service_id = 1096
 			default_color = [ 255,255,255 ]
-			dev_only = true
 		},
 		{
 			id = "nevrosa_escape_cube"
@@ -2725,6 +2725,7 @@
 			usesClientSideAnimation = true
 			locked_by_quest = false
 			// inventory_service_id = 1101
+			dev_only = true
 			default_color = [ 255,255,255 ]
 			default_scale = 0.5
 		},
@@ -3862,7 +3863,7 @@
 			id = "quest_tf2_sentry1"
 			name = "#Quest_TF2Sentry1"
 			desc = "#Quest_TF2Sentry1_Desc"
-			preview_image = "file://{images}/contentdb/tf2_sentry1.png"
+			preview_image = "file://{images}/contentdb/tf2_sentry1_toolbox.png"
 			item_generator = "item_generator_tf2_sentry1"
 			addon = "asset_pack_tf2_spytech"
 			steamvr_addon = "1449138879"

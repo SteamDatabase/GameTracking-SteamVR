@@ -182,7 +182,6 @@ $fD	8
 )D$ ~SL
 *** Eye %d Pixel( %d, %d ) has the smallest uv area
 *** Eye %d: %dx%d area RenderTarget( %f, %f ) Scale( %f, %f )
-*-qoE
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN13CSOAContainer9FilterInXEi9IntAABB_tiPKfbEUliE_EEMS8_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 *:JZjz
 *D$4A
@@ -810,6 +809,7 @@ $fD	8
 ?u0E1
 ?u='@
 ?|7m=U
+@85{	F
 @8A]A^]
 @9[cU
 @A9^`
@@ -1410,7 +1410,6 @@ D:z	t
 D:z	tUHc
 D;!t{Hc
 D;'t{Hc
-D;5F/9
 D;`0|
 D;c D
 D;cp|
@@ -1717,8 +1716,7 @@ H9*tgH
 H9H t
 H9H t)H
 H9W8t	]
-H;=oy?
-H;=u;E
+H;=Oz?
 H;@ t3H
 H;C r
 H;CHs
@@ -4270,7 +4268,6 @@ vortex
 vpcf1
 vphys
 vr.cpp
-vr.cpp(1156): 
 vr.cpp(4548): ERROR! Unknown controller axis type %d!
 vr.cpp(5658): VR - Destroying old VB for Stenciling!
 vr.cpp(5703): VR - Error! VB handle is invalid in CVrStencilRenderer!
