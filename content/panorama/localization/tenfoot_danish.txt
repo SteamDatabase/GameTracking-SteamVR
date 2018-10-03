@@ -648,8 +648,12 @@
 "[english]VRSettingsCamera_RoomViewMode_Label"	"Room View Camera Mode"
 "VRSettingsCamera_RoomViewMode_EdgeA"	"Farvede kanter"
 "[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
+"VRSettingsCamera_RoomViewMode_EdgeB"	"Farvede skygger"
+"[english]VRSettingsCamera_RoomViewMode_EdgeB"	"Colored Ghosts"
 "VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Gennemsigtig overgang"
-"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Transluscent Pass-Through"
+"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Uigennemsigtig overgang"
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
+"VRSettingsBindingUITitle"	"Controllertilknytning"
+"[english]VRSettingsBindingUITitle"	"Controller Binding"
 }

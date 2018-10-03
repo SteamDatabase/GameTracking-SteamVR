@@ -1,0 +1,23 @@
+{
+	"language": "english",
+	"none": "None",
+	"MetersPerSecond_Abbreviation": "m/s",
+	"Button_OK": "OK",
+	"Button_Cancel": "Cancel",
+	"Button_Close": "Close",
+	"Button_Delete": "Delete",
+	"Button_Replace": "Replace",
+	"Button_Discard": "Discard",
+	"Button_Save": "Save",
+	"Button_Done": "Done",
+	"Button_Back": "Back",
+	"Settings": "Settings",
+	"PowerMenuResetSeatedPosition": "Reset Seated Position",
+	"PowerMenuTurnOffController": "Turn Off Controller",
+	"PowerMenuQuitSceneApp": "Exit %1$s",
+	"PowerMenuExitVR": "Exit VR",
+	"PowerMenuCancel": "Cancel",
+	"PowerMenuHeader": "Power Menu",
+	"IPD_Description": "Distance Between Lenses",
+	"NoSteamWarning": "Steam is not available. Some features may be disabled."
+}

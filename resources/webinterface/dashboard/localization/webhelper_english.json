@@ -24,5 +24,53 @@
 	"PowerMenuHeader": "Power Menu",
 
 	"IPD_Description" : "Distance Between Lenses",
-	"NoSteamWarning" : "Steam is not available. Some features may be disabled."
+	"NoSteamWarning" : "Steam is not available. Some features may be disabled.",
+
+	"/input/joystick" : "Joystick",
+	"/input/trackpad" : "Trackpad",
+	"/input/trigger" : "Trigger",
+	"/input/grip" : "Grip",
+	"/input/application_menu" : "Menu",
+	"/input/system" : "System",
+	"/proximity" : "Proximity Sensor",
+	"/input/a" : "A Button",
+	"/input/b" : "B Button",
+	"/input/x" : "X Button",
+	"/input/y" : "Y Button",
+
+	"/pose/raw" : "Raw",
+	"/pose/base" : "Base",
+	"/pose/tip" : "Tip",
+	"/pose/gdc2015" : "GDC",
+	"/pose/handgrip" : "Hand Grip",
+
+	"/input/skeleton/left" : "Left skeleton",
+	"/input/skeleton/right" : "Right skeleton",
+
+	"/output/haptic" : "Haptics",
+
+	"/user/hand/right" : "Right Hand",
+	"/user/hand/left" : "Left Hand",
+	"/user/hand/primary" : "Main Hand",
+	"/user/hand/secondary" : "Other Hand",
+	"/user/hand/any" : "Either Hand",
+	"/user/foot/left" : "Left Foot",
+	"/user/foot/right" : "Right Foot",
+	"/user/shoulder/left" : "Left Shoulder",
+	"/user/shoulder/right" : "Right Shoulder",
+	"/user/waist" : "Waist",
+	"/user/chest" : "Chest",
+	"/user/camera" : "Camera",
+	"/user/keyboard" : "Keyboard",
+
+	"InputSourceName" : "%1$s %2$s %3$s",
+
+	"OriginString_All": "%1$s %2$s %3$s",
+	"OriginString_HandController": "%1$s %2$s",
+	"OriginString_HandSource": "%1$s %3$s",
+	"OriginString_Hand": "%1$s",
+	"OriginString_ControllerSource": "%2$s %3$s",
+ 	"OriginString_Source": "%3$s",
+ 	"OriginString_Controller": "%2$s"
+
 }

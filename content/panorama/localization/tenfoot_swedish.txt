@@ -647,4 +647,8 @@
 "[english]KnucklesCapsenseMode_3"	"Cap Sense controls Grip"
 "VRSettingsCamera_RoomViewMode_EdgeA"	"Färgade kanter"
 "[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
+"VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Genomskinlig övergång"
+"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
+"VRSettingsBindingUITitle"	"Kontrollbindning"
+"[english]VRSettingsBindingUITitle"	"Controller Binding"
 }

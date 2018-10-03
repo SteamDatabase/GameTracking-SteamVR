@@ -1059,6 +1059,7 @@ $woL)
 -vulkanrenderthreadstack
 . Found 
 . This may be a bug in the validator.
+.-SE@
 ../public/ordered_constructor.h
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
@@ -1590,7 +1591,7 @@ $woL)
 ;*t*1
 ;0t9;p
 ;1|,;q
-;5ypw
+;5yow
 ;@:8t"
 ;A svH
 ;B0t!f
@@ -2114,6 +2115,7 @@ Attempt to set buffer size beyond max ignored
 Attempted to begin renderpass on invalid renderpass handle.
 Attempted to update an image layout for an image that was not transitioned in this command buffer.
 Attempted to update invalid descriptor set.
+Attempting fallback GPU allocation in system memory.
 Attempting to create a Vulkan pipeline without a vertex shader bound, aborting pipeline creation.
 Attempting to purge m_fencedResourceList.Count() = %d, m_pendingFencedResourceQueue.Count() = %d, nCurrentCmdBuffersAvailable = %d, nAllocatedCommandBuffers = %d
 Attempting to release an invalid semaphore handle.
@@ -3157,6 +3159,7 @@ D8O u
 D8T;4
 D8W8u
 D8_Pu
+D9-V~q
 D9;t&L
 D9@0t
 D9@0tyH
@@ -3902,6 +3905,7 @@ F`f9G`u
 F`v1I
 F`v5f
 FaceForward
+Failed fallback GPU allocation in system memory.
 Failed to allocate GPU memory for object.
 Failed to allocate buffer memory for query results to be written to.
 Failed to call CBaseIntrospectedTypeManager::Init
@@ -4486,47 +4490,49 @@ H;2tuH;r
 H;4$I
 H;4$t(H
 H;4$t1
-H;=!#>
-H;="Sl
-H;=$9G
-H;='`}
-H;=(yZ
-H;=,|g
-H;=/Rc
-H;=2Tg
-H;=2v[
-H;=6yg
-H;=<c[
-H;=A[[
-H;=Dnk
-H;=Fnc
-H;=HEG
-H;=I8G
-H;=IC<
-H;=K+G
-H;=KDG
-H;=Nmc
-H;=OMG
-H;=O|a
-H;=PBe
-H;=R-Q
-H;=TGG
-H;=U*G
-H;=XNg
-H;=_Ct
-H;=`:j
-H;=`Xd
-H;=d~a
-H;=f|H
-H;=j	>
-H;=lk]
-H;=pYd
-H;=r_e
-H;=uIG
-H;=wPe
-H;=x)V
-H;=yFG
-H;=}xg
+H;=!">
+H;="Rl
+H;=$8G
+H;='_}
+H;=(xZ
+H;=,{g
+H;=/Qc
+H;=2Sg
+H;=2u[
+H;=6xg
+H;=<	=
+H;=<b[
+H;=AZ[
+H;=Dmk
+H;=Fmc
+H;=HDG
+H;=I7G
+H;=IB<
+H;=J	>
+H;=K*G
+H;=KCG
+H;=Nlc
+H;=OLG
+H;=O{a
+H;=PAe
+H;=R,Q
+H;=TFG
+H;=U)G
+H;=XMg
+H;=_Bt
+H;=`9j
+H;=`Wd
+H;=b~a
+H;=d}a
+H;=f{H
+H;=lj]
+H;=pXd
+H;=r^e
+H;=uHG
+H;=wOe
+H;=x(V
+H;=yEG
+H;=}wg
 H;@Pt7H
 H;A v
 H;B v
@@ -5302,11 +5308,11 @@ L9|$@
 L9|$p
 L; wzH
 L;$$t.A
-L;%&7k
-L;%p7k
+L;%&6k
+L;%p6k
 L;(tYH
 L;4$u
-L;5bff
+L;5bef
 L;` v
 L;i v
 L;j v
@@ -7574,12 +7580,10 @@ VulkanKhrSwapchain()->vkGetSwapchainImagesKHR( m_pDeviceVulkan, m_pSwapChainKHR,
 W I9P
 W ~ E
 W ~ J
-W-&Z@
 W04v;
 W0Hc_8A
 W8I;W@L
 W8I;W@tXL
-W=Es=
 W@ATL
 WAITING_FOR_HOOKUP_JOB 
 WAITING_FOR_IO 
@@ -7831,7 +7835,6 @@ Zt4fA
 ]A\A]M
 ]H+G 
 ^ t+H
-^-v>=
 ^0ATUH
 ^[A\A]]
 ^`+g@
@@ -16785,7 +16788,7 @@ t?Mcv
 t@</u
 t@@:>u
 t@D;s
-tB;=D
+tB;=$
 tBHfE
 tBKcT
 tCA;E |=I
@@ -17004,7 +17007,7 @@ trunc@@GLIBC_2.2.5
 trying to bind a deleted shader
 tsHcS
 ttIcG
-tw;=\
+tw;=<
 twHcS
 txA;\$ I
 txH9q wrH

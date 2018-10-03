@@ -644,4 +644,10 @@
 "[english]KnucklesCapsenseMode_2"	"Cap Sense controls Trigger"
 "KnucklesCapsenseMode_3"	"以電容感應控制握持"
 "[english]KnucklesCapsenseMode_3"	"Cap Sense controls Grip"
+"VRSettingsCamera_RoomViewMode_Label"	"房間視角攝影機模式"
+"[english]VRSettingsCamera_RoomViewMode_Label"	"Room View Camera Mode"
+"VRSettingsCamera_RoomViewMode_VideoTransluscent"	"半透明透視"
+"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
+"VRSettingsBindingUITitle"	"控制器配置"
+"[english]VRSettingsBindingUITitle"	"Controller Binding"
 }

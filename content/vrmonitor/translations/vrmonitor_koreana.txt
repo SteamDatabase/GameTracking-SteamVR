@@ -1905,5 +1905,7 @@
 "[english]Settings_NightModeDesc"	"Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
 "Settings_PauseOnStandby"	"헤드셋이 유휴 상태일 때 렌더링 일시 정지"
 "[english]Settings_PauseOnStandby"	"Pause rendering when headset is idle"
+"Settings_Advanced_Paths_Header"	"경로"
+"[english]Settings_Advanced_Paths_Header"	"Paths"
 }
 }

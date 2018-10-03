@@ -236,60 +236,29 @@
     }
   ],
 
-  "localization": [
-    {
-      "language_tag": "en_US",
-
-      "/actions/system/in/OpenDashboard": "Open Dashboard",
-      "/actions/system/in/CloseDashboard": "Close Dashboard",
-      "/actions/system/in/ToggleDashboard": "Toggle Dashboard",
-      "/actions/system/in/TakeScreenshot": "Take Screenshot",
-      "/actions/system/in/ToggleRoomView": "Toggle Room View",
-      "/actions/system/in/SystemButtonChord": "System Action Mode",
-      "/actions/system/in/ShowPowerMenu": "Show Power Menu",
-
-      "/actions/lasermouse/in/leftclick": "Left Mouse Click",
-      "/actions/lasermouse/in/rightclick": "Right Mouse Click",
-      "/actions/lasermouse/in/home": "Go Home",
-      "/actions/lasermouse/in/back": "Go Back",
-      "/actions/lasermouse/in/moveright": "Move Right",
-      "/actions/lasermouse/in/moveup": "Move Up",
-      "/actions/lasermouse/in/moveleft": "Move Left",
-      "/actions/lasermouse/in/movedown": "Move Down",
-      "/actions/lasermouse/in/trackpadtouch": "Trackpad Touch",
-      "/actions/lasermouse/in/trackpadvalue": "Trackpad Move",
-      "/actions/lasermouse/in/switchgamepadfocus": "Switch Panel Focus (Gamepad)",
-      "/actions/lasermouse/in/trackpadscroll": "Scroll Panel",
-      "/actions/lasermouse/in/enter": "Enter",
-      "/actions/lasermouse/in/pointer": "Laser Mouse Pointer",
-
-      "/actions/lasermouse_secondary/in/switchlaserhand": "Become Active Hand",
-      
-      "/actions/dualanalog/in/rightclick": "Right Keyboard Click",
-      "/actions/dualanalog/in/leftclick": "Left Keyboard Click",
-      "/actions/dualanalog/in/righttouch": "Right Keyboard Touch",
-      "/actions/dualanalog/in/lefttouch": "Left Keyboard Touch",
-      "/actions/dualanalog/in/rightvalue": "Right Keyboard Move",
-      "/actions/dualanalog/in/leftvalue": "Left Keyboard Move",
-      "/actions/dualanalog/in/modeswitch1": "Show Uppercase",
-      "/actions/dualanalog/in/modeswitch2": "Show Symbols",
-      "/actions/dualanalog/in/cancel": "Close Keyboard",
-
-      "/actions/system/in/systembuttonchord": "System Action Mode",
-      "/actions/system/in/toggleroomview": "Toggle Room View",
-      "/actions/system/in/volumeup": "Volume Up",
-      "/actions/system/in/volumedown": "Volume Down",
-      "/actions/system/in/toggledashboard": "Toggle Dashboard",
-      "/actions/system/in/showpowermenu": "Show Power Menu",
-      "/actions/system/in/takescreenshot": "Take Screenshot",
-      "/actions/system/in/mutemicrophone": "Mute Microphone",
-
-      "/actions/normal": "Normal operation",
-      "/actions/chord": "System Button Chords",
-      "/actions/lasermouse": "Laser Mouse",
-      "/actions/lasermouse_secondary": "Offhand Laser Mouse",
-      "/actions/dualanalog": "Keyboard Entry",
-      "/actions/system": "System Actions"
-    }
-  ]
+  "localization_files": {
+    "en_US" : "vrcompositor_actions_en_us.json",
+    "bg_BG" : "vrcompositor_actions_bg_BG.json",
+    "cs_CZ" : "vrcompositor_actions_cs_CZ.json",
+    "da_DK" : "vrcompositor_actions_da_DK.json",
+    "de_DE" : "vrcompositor_actions_de_DE.json",
+    "el_GR" : "vrcompositor_actions_el_GR.json",
+    "es_ES" : "vrcompositor_actions_es_ES.json",
+    "fi_FI" : "vrcompositor_actions_fi_FI.json",
+    "fr_FR" : "vrcompositor_actions_fr_FR.json",
+    "hu_HU" : "vrcompositor_actions_hu_HU.json",
+    "it_IT" : "vrcompositor_actions_it_IT.json",
+    "ja_JP" : "vrcompositor_actions_ja_JP.json",
+    "ko_KR" : "vrcompositor_actions_ko_KR.json",
+    "nb_NO" : "vrcompositor_actions_nb_NO.json",
+    "nl_NL" : "vrcompositor_actions_nl_NL.json",
+    "pl_PL" : "vrcompositor_actions_pl_PL.json",
+    "sv_SE" : "vrcompositor_actions_sv_SE.json",
+    "th_TH" : "vrcompositor_actions_th_TH.json",
+    "tr_TR" : "vrcompositor_actions_tr_TR.json",
+    "uk_UA" : "vrcompositor_actions_uk_UA.json",
+    "vi_VN" : "vrcompositor_actions_vi_VN.json",
+    "zh_CN" : "vrcompositor_actions_zh_CN.json",
+    "zh_TW" : "vrcompositor_actions_zh_TW.json"
+  }
 }

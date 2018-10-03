@@ -330,7 +330,7 @@
 "[english]Debugger_Save"	"Save All Changes"
 "Debugger_Revert"	"Alle Änderungen rückgängig machen"
 "[english]Debugger_Revert"	"Revert All Changes"
-"Debugger_PanelStyleInvalid"	"Styles haben sich während der Bearbeitung geändert! Drücken Sie F5, um die angezeigten Styles neu zu laden"
+"Debugger_PanelStyleInvalid"	"Stile haben sich während der Bearbeitung geändert! Drücken Sie F5, um die angezeigten Stile neu zu laden"
 "[english]Debugger_PanelStyleInvalid"	"Styles changed while editing! Hit F5 to reload displayed styles"
 "Debugger_AnimationHeader"	"Animation Keyframes"
 "[english]Debugger_AnimationHeader"	"Animation Keyframes"

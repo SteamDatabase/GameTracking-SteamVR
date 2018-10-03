@@ -1408,5 +1408,9 @@
 "[english]Settings_LockedModeDesc"	"Allow rendering to headset while workstation is locked."
 "Advanced_Bluetooth"	"Bluetooth"
 "[english]Advanced_Bluetooth"	"Bluetooth"
+"BluetoothControllerStatus_Connecting"	"Se conectează..."
+"[english]BluetoothControllerStatus_Connecting"	"Connecting..."
+"BluetoothControllerStatus_Disconnecting"	"Se deconectează..."
+"[english]BluetoothControllerStatus_Disconnecting"	"Disconnecting..."
 }
 }

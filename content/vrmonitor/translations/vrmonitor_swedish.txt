@@ -2001,5 +2001,15 @@
 "[english]ScanForBaseStation_FoundStations"	"Scan Completed."
 "ScanForBaseStations_Refresh"	"Skanna igen"
 "[english]ScanForBaseStations_Refresh"	"Scan Again"
+"Settings_DebugInputBindings"	"Aktivera debugging-alternativ i användargränssnittet för input-bindning"
+"[english]Settings_DebugInputBindings"	"Enable debugging options in the input binding user interface"
+"Settings_Advanced_MotionSmoothing"	"Aktivera rörelseutjämning"
+"[english]Settings_Advanced_MotionSmoothing"	"Enable Motion Smoothing"
+"Settings_Advanced_MotionSmoothing_Disabled"	"Rörelseutjämning kräver stöd för asynkron omprojicering"
+"[english]Settings_Advanced_MotionSmoothing_Disabled"	"Motion Smoothing requires asynchronous reprojection support."
+"Advanced_MotionEstimationActive"	"Rörelseuppskattning - På"
+"[english]Advanced_MotionEstimationActive"	"Motion Estimation On"
+"Advanced_MotionEstimationNotActive"	"Rörelseuppskattning - Av"
+"[english]Advanced_MotionEstimationNotActive"	"Motion Estimation Off"
 }
 }

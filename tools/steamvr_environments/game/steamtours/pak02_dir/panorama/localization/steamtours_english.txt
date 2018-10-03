@@ -779,6 +779,8 @@
 		"VR_Avatar_Wearable_ToTheTopKitsuneMask_Desc"	"A Kitsune mask that fell off of a high flying Super Bot.\n\nUnlocked by playing TO THE TOP."
 		"VR_Avatar_Wearable_GornWingedHelmet"			"Winged Helmet"
 		"VR_Avatar_Wearable_GornWingedHelmet_Desc"		"The Winged Helmet, torn from the head of 'The General' himself. Judging by smell, never been washed. Proudly on loan from a victorious GORN gladiator.\n\nUnlocked by playing GORN."
+		"VR_Avatar_Wearable_ChickenHat"					"Chicken Hat"
+		"VR_Avatar_Wearable_ChickenHat_Desc"			"A chicken hat, lovingly knit by hand/gripper by a knitting bot"
 
 		"SpawnablePanel_RecentApps"						"Recent Apps"
 		"SpawnablePanel_RecentApps_Desc"				"Panel that contains the games and applications that you can launch, sorted by when you last used them."
@@ -848,6 +850,8 @@
 		"Quest_TF2Yeti_Desc"					"Find this mythical beast lurking up Mount Rainier."
 		"Quest_TF2Sentry1"						"Mini-Sentry Quest"
 		"Quest_TF2Sentry1_Desc"					"Bring your friends to uncover this fiendishly hidden home-defense product of Mann Co."
+		"Quest_ChickenHat"						"Chicken Hat Quest"
+		"Quest_ChickenHat_Desc"					"Unlock this hand-knit junglefowl-themed hat at the Space Farm"
 		
 		"Quest_Detector"						"Weekly Geocaching Quest"
 		"QuestType_Detector"					"{d:quest_quantity} Caches Left"

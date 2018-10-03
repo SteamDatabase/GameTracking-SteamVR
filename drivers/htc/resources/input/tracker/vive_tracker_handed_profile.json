@@ -1,7 +1,7 @@
 {
   "jsonid" : "input_profile",
   "controller_type": "vive_tracker_handed",
-  "legacy_binding" :  "{htc}/input/tracker/legacy_bindings_vive_tracker_handed.json",
+  "legacy_binding" :  "{htc}/input/tracker/legacy_bindings_vive_tracker_handed_rotated.json",
   "override_device_class" : "TrackedDeviceClass_Controller",
   "input_bindingui_mode" : "controller_handed",
   "input_bindingui_left" :
@@ -48,9 +48,40 @@
         "type" : "pose",
         "binding_image_point" : [ 15, 25 ]
     },
+    "/pose/back" : {
+        "type" : "pose",
+        "binding_image_point" : [ 15, 25 ]
+    },
+    "/pose/pistol" : {
+        "type" : "pose",
+        "binding_image_point" : [ 15, 25 ]
+    },
     "/pose/front_rolled" : {
         "type" : "pose",
         "binding_image_point" : [ 15, 25 ]
     }
-  }
+  },
+  "default_bindings" :
+  [
+    {
+      "app_key" : "steam.app.503580",
+      "binding_url" : "legacy_bindings_vive_tracker_handed.json"
+    },
+    {
+      "app_key" : "steam.app.456180",
+      "binding_url" : "legacy_bindings_vive_tracker_handed.json"
+    },
+    {
+      "app_key" : "steam.app.342180",
+      "binding_url" : "legacy_bindings_vive_tracker_handed_pistol.json"
+    },
+    {
+      "app_key" : "steam.app.611720",
+      "binding_url" : "legacy_bindings_vive_tracker_handed.json"
+    },
+    {
+      "app_key" : "steam.app.720510",
+      "binding_url" : "legacy_bindings_vive_tracker_handed.json"
+    }
+  ]
 }

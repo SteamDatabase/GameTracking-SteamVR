@@ -87,11 +87,11 @@ $woL)
 &6FVfv
 '	?@XC
 '7GWgw
-(%,R/
+(%\\/
 (%s): ADD %s = %s
 (%s): Setting %s to %s
 (*%s*), 
-(-.O/
+(-^Y/
 (8HXhx
 (D>C9[
 ([A\A]A^A_]
@@ -1812,6 +1812,7 @@ VsInputSignatureElement_t
 VsInputSignature_t
 Vulkan
 W0Hc_8A
+W=u0	
 WAITING_FOR_HOOKUP_JOB 
 WAITING_FOR_IO 
 WARNING: Could not find schema data for helper class for resource type %lld '%s'. (Missing MDiskDataForResourceType metadata or schema data isn't loaded?)

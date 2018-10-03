@@ -565,8 +565,9 @@
  D;t$
  E9l$\
  H97tbH
- H;5B
- H;=a
+ H;52
+ H;5y
+ H;=y2I
  HcC`L
  HcClI)
  HcJ(1
@@ -1589,11 +1590,12 @@ $woL)
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
-(%,km
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
-(%WAm
+(%EI 
+(%GAm
+(%[XV
 (%d %d %d %d)
 (%d) %s
 (%d) ------> %s ( HELD BY %s ) 
@@ -1605,6 +1607,7 @@ $woL)
 (%g %g %g)
 (%g %g)
 (%g,%g,%g) (%g,%g,%g)
+(%h2W
 (%s) Schedule (%s) Failed at %d!
 (%s->%s)
 (%s::)
@@ -1615,7 +1618,9 @@ $woL)
 (1@zD
 (8HXhx
 (9s ~@H
-(=#r 
+(=EB 
+(=Sh 
+(=ct 
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1992,11 +1997,10 @@ $woL)
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%*'R
-.%H7w
-.%[.W
-.-.'S
-.-i%R
+.%(7w
+.%1/W
+.%SZw
+.-M&R
 ...%s
 ...<truncated>...
 ...done building AI node graph, %f seconds
@@ -2037,11 +2041,9 @@ $woL)
 ../public/tier2/fileutils.h
 ..\content
 .0z&u$
-.5"/v
-.5$&R
-.5A5V
-.5g5T
-.=|5T
+.5=	R
+.=,5T
+.=9vX
 .>()09
 .>N^n~
 .@(."
@@ -2136,8 +2138,8 @@ $woL)
 .K${;
 .K,z[
 .K8zBf
+.M;0^
 .M;UU
-.M;p`
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
 .O<{4
 .PARTICLE_MESSAGE
@@ -4293,6 +4295,7 @@ $woL)
 19CSchemaClassBindingI22CNetworkVelocityVectorE
 19CSchemaClassBindingI22CPhysSurfacePropertiesE
 19CSchemaClassBindingI22CSequenceTransitioner2E
+19CSchemaClassBindingI22CVRHandAttachmentInputE
 19CSchemaClassBindingI22EventClientPollInput_tE
 19CSchemaClassBindingI22EventClientPreOutput_tE
 19CSchemaClassBindingI22EventClientSendInput_tE
@@ -4317,7 +4320,6 @@ $woL)
 19CSchemaClassBindingI24MaterialDrawDescriptor_tE
 19CSchemaClassBindingI24ScriptedNPCInteraction_tE
 19CSchemaClassBindingI24VPhysXConstraintParams_tE
-19CSchemaClassBindingI24attachment_input_state_tE
 19CSchemaClassBindingI24constraint_hingeparams_tE
 19CSchemaClassBindingI25EventClientPostSimulate_tE
 19CSchemaClassBindingI25EventClientProcessInput_tE
@@ -6706,7 +6708,7 @@ $woL)
 66GameToolEventToolEvent_SFMToolActiveStateChanged_tHookupGameSystem
 67&-@
 692t&H
-6;5Jb
+6;5:r
 6<]q@
 6<u7@
 6=((E
@@ -6722,7 +6724,6 @@ $woL)
 6CModel
 6CWorld
 6ConVar
-6D#5k
 6D;U$
 6F+U F
 6H92t%H
@@ -6860,8 +6861,8 @@ $woL)
 999999.0
 9:t,H
 9:w7I
-9=[$n
-9=z#n
+9=K4n
+9=j3n
 9>J"@TJ
 9@(D@
 9@ffffff
@@ -6982,6 +6983,7 @@ $woL)
 ;:HcR
 ;:~`H
 ;;D$H
+;=s7|
 ;@*$pV
 ;@:8t"
 ;A0}4H
@@ -6994,7 +6996,7 @@ $woL)
 ;F(}=H
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;H98u
-;Hc5Nx
+;Hc5N
 ;L9'u
 ;L9/u
 ;L9?u
@@ -7561,8 +7563,8 @@ $woL)
 @GZ*oG 7@
 @Gr}H
 @H97tbH
-@H;5PZs
-@H;5dOs
+@H;5@fs
+@H;5T[s
 @HH;E
 @HcC(
 @IcD$PH
@@ -12299,6 +12301,7 @@ CVGuiScreenTeam::CEntityInstanceEntityClass
 CVPhysXSurfacePropertiesList
 CVRApertureMultitool
 CVRApertureMultitool::CEntityInstanceEntityClass
+CVRHandAttachmentInput
 CVRHandModelOverride
 CVRHandModelOverride::CEntityInstanceEntityClass
 CVROverlayEntity
@@ -12766,7 +12769,7 @@ C|[A\A]A^]
 C|[A\]
 C}t*W
 D#,Hc
-D#-G8P
+D#-7DP
 D$ 9C 
 D$ 9C t
 D$ 9C t H
@@ -12970,13 +12973,12 @@ D8kSt
 D9 ~NH
 D9!t"
 D9!u"
-D9%",w
-D9%YL
+D9%yK
 D9't$H
 D9't,H
 D9(t'I
-D9-s{Z
 D90~#H
+D95'-
 D9D$4B
 D9D$4H
 D9F<~
@@ -12994,6 +12996,7 @@ D9k ~QH
 D9k ~VH
 D9k8~NH
 D9k8~PH
+D9kP~@Lcu
 D9kp~4H
 D9l$H
 D9t$4
@@ -13013,42 +13016,44 @@ D;"t=H
 D;"t]H
 D;#}|E
 D;$%H
-D;% %:
-D;%/O)
-D;%5,.
-D;%6Q:
-D;%6|0
-D;%8ZS
-D;%95U
-D;%>YS
-D;%B1!
-D;%F-
-D;%F{0
-D;%GH
-D;%R0!
-D;%TZD
-D;%V,
-D;%VM)
-D;%Y |
-D;%_X.
-D;%dzg
-D;%f+
-D;%k%{
-D;%m]R
-D;%r	|
-D;%tJ#
+D;%!<)
+D;%&JH
+D;%(	&
+D;%-*.
+D;%."2
+D;%.z0
+D;%4kD
+D;%6=
+D;%:>U
+D;%:z0
+D;%DJ)
+D;%EX2
+D;%F<
+D;%HjS
+D;%I0|
+D;%NiS
+D;%T~0
+D;%V;
+D;%VK)
+D;%[5{
+D;%b2!
+D;%h":
+D;%lw0
+D;%r1!
+D;%vB|
+D;%yEU
+D;%{#{
 D;'thH
 D;'t{
 D;'t{Hc
 D;(t)
 D;(|`
 D;,%H
-D;-O=(
+D;-/:(
 D;.~3L
 D;7|-
 D;:tPH
-D;=+KR
-D;=iDR
+D;=K[R
 D;F`u
 D;G@t5H
 D;`0|
@@ -14180,7 +14185,6 @@ F	@t&
 F	NvF
 F 9G tq
 F A;F0
-F A;O
 F Hcu
 F Lc#D;c
 F ^{I@
@@ -15178,97 +15182,106 @@ H;1t!
 H;2t!H
 H;2u#
 H;3t2H
-H;5(]s
-H;50Ns
-H;58Ek
-H;5<0p
-H;5<Ws
-H;5FFk
-H;5IGs
-H;5KCk
-H;5Nfp
-H;5Sjs
-H;5Xkp
-H;5`@s
-H;5`Ns
-H;5aBk
-H;5c?p
-H;5lYs
-H;5pFk
-H;5tBp
-H;5xas
-H;5zDp
-H;5|Ts
-H;5|Ws
-H;5|Xs
-H;5~ap
+H;5 Zs
+H;5(Qk
+H;5,<p
+H;5,cs
+H;56Rk
+H;59Ss
+H;5;Ok
+H;5>rp
+H;5Cvs
+H;5Hwp
+H;5PLs
+H;5PZs
+H;5QNk
+H;5SKp
+H;5\es
+H;5`Rk
+H;5dNp
+H;5hms
+H;5jPp
+H;5l`s
+H;5lcs
+H;5lds
+H;5nmp
+H;5xLp
+H;5x\p
+H;5xfp
 H;7t)H
 H;8tdH
 H;:t(f
-H;= !q
-H;= \s
-H;='qs
-H;=*Fo
-H;=+O 
-H;=/M
-H;=0~c
-H;=1Sf
-H;=6gs
-H;=8	l
-H;=9.k
-H;=9.t
-H;=9lt
-H;=?K
-H;=A,k
-H;=AQn
-H;=B_o
-H;=D[s
-H;=E0d
-H;=F'I
-H;=G`m
-H;=Gum
-H;=H1k
-H;=Jut
-H;=K!q
-H;=L\s
-H;=O d
-H;=O2#
-H;=OI
-H;=P!
-H;=Pl
-H;=Pq
-H;=Pv
-H;=V-o
-H;=W=q
-H;=Whm
-H;=\Fo
-H;=_G
-H;=ags
-H;=g.k
-H;=ght
-H;=jGj
-H;=n%k
-H;=n1k
-H;=o?
-H;=oE
-H;=oyc
-H;=p[s
-H;=pw
-H;=r=t
-H;=s,k
-H;=t_o
-H;=v!q
-H;=w-f
-H;=w3q
-H;=wbs
-H;=wom
-H;=x=d
-H;=xGE
-H;=zFE
-H;=|gj
-H;=}yA
-H;=}}A
-H;=~.t
+H;= h
+H;= m
+H;=!_f
+H;=&ss
+H;=):k
+H;=):t
+H;=)xt
+H;=-'k
+H;=/1
+H;=/8#
+H;=0 O
+H;=18k
+H;=1]n
+H;=2ko
+H;=4gs
+H;=5<d
+H;=63I
+H;=7lm
+H;=8=k
+H;=;-q
+H;=<hs
+H;=?'C
+H;=?,d
+H;=?/
+H;=F9o
+H;=G$k
+H;=GIq
+H;=Gtm
+H;=L l
+H;=LRo
+H;=O-
+H;=Qss
+H;=W:k
+H;=Wtt
+H;=ZSj
+H;=\&l
+H;=^1k
+H;=^=k
+H;=_J
+H;=_}
+H;=`d
+H;=`gs
+H;=`i
+H;=`n
+H;=bIt
+H;=c8k
+H;=dko
+H;=f #
+H;=f-q
+H;=g9f
+H;=g?q
+H;=gns
+H;=g{m
+H;=hId
+H;=hSE
+H;=jRE
+H;=l!l
+H;=lsj
+H;=m$k
+H;=n:t
+H;=oH
+H;=o{
+H;=p!O
+H;=q3g
+H;=w8f
+H;=wgm
+H;=wxs
+H;=zQE
+H;=zrs
+H;=|ss
+H;=~Ro
 H;>t[H
 H;B0u
 H;C r
@@ -15366,7 +15379,7 @@ HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
 Hc8Hi
-Hc=W@s
+Hc=GPs
 Hc@ H
 Hc@$H
 Hc@(H
@@ -15535,8 +15548,6 @@ HcS$H
 HcS$I
 HcS(A
 HcS(H
-HcS4L
-HcS8L
 HcS@I
 HcSPH
 HcSXH
@@ -15782,7 +15793,6 @@ IcF`A;Fp
 IcFhA;Fx
 IcG A;G0
 IcG I
-IcG(1
 IcG(H
 IcG0I
 IcG81
@@ -15851,6 +15861,8 @@ IcU 9
 IcU A9
 IcU E
 IcU(I
+IcU4L
+IcU8L
 IcU@9U
 IcUP9U
 IcUPH
@@ -15888,8 +15900,6 @@ Ic_XA;_htoI
 Ice_Explosion_Decal
 IcrPH
 Ict$(A
-Ict$4
-Ict$8
 Icu`H
 Icv`H9
 Icv`I
@@ -16916,12 +16926,14 @@ L9t$H
 L9|$HJ
 L: %.2f deg
 L; tQH
-L;%%Mg
-L;%5of
-L;%Enf
-L;%Umf
-L;%elf
-L;%ukf
+L;%%{f
+L;%5zf
+L;%Eyf
+L;%Uxf
+L;%e"e
+L;%ewf
+L;%u!e
+L;%uvf
 L;0t!A
 L;8tTH
 L;:tL1
@@ -17011,30 +17023,31 @@ Lc!D;a
 Lc#D9b
 Lc#D;c
 Lc#E9
-Lc%&O)
-Lc%&\p
-Lc%,,.
-Lc%-Q:
-Lc%-|0
-Lc%.5
-Lc%05U
-Lc%91!
-Lc%=-
-Lc%={0
-Lc%>H
-Lc%I&w
-Lc%I0!
-Lc%KZD
-Lc%M,
-Lc%MM)
-Lc%P |
-Lc%S\p
-Lc%VX.
-Lc%]+
-Lc%b%{
-Lc%i	|
-Lc%kJ#
-Lc%}2|
+Lc%$*.
+Lc%%"2
+Lc%%z0
+Lc%+kD
+Lc%-=
+Lc%1>U
+Lc%1z0
+Lc%96w
+Lc%;J)
+Lc%=<
+Lc%@0|
+Lc%Clp
+Lc%K~0
+Lc%M;
+Lc%MK)
+Lc%R5{
+Lc%Y2!
+Lc%_":
+Lc%cw0
+Lc%eX2
+Lc%i1!
+Lc%mB|
+Lc%pEU
+Lc%r#{
+Lc%y*&
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -22464,11 +22477,12 @@ W ;2t%H
 W H9r
 W(Aq=
 W(H92t'H
+W-?VQ
 W0;V0t
 W0Hc_8A
 W3|Uxa
+W5{(z
 W8;2|
-W=Kz[
 W=eg'
 W?,|C
 W@H9V@u
@@ -22678,8 +22692,6 @@ Wrong alignment %d
 Wzm6V"
 W{@3333
 X zR&="@r
-X%3$Q
-X%<	T
 X(9Y(
 X(;X8
 X0~tA
@@ -22687,11 +22699,9 @@ X2:jH
 X360_DST16
 X360_DST24
 X360_DST24F
-X5SwW
+X5^yW
 X9t6@
 X=2v?
-X=42y
-X=Q2y
 X@D;XP
 X@TA;U<
 X@ffff
@@ -22727,10 +22737,11 @@ XfA9D]
 Xg8Hc
 XxHc@t
 Y ANb
+Y%VT7
+Y%VV7
 Y(E9^(A
 Y-4(&
-Y-<':
-Y-U\R
+Y-|(:
 Y/&4@4
 Y5,}*
 Y6	@W'g(
@@ -22874,8 +22885,8 @@ Z}uU
 \$h[A\]
 \$ht#L
 \%03o
-\-j)U
-\5$ww
+\-C+T
+\-Z]T
 \C not allowed in lookbehind assertion
 \IcE(1
 \N is not supported in a class
@@ -22916,6 +22927,7 @@ Z}uU
 ]u9n5;> )"
 ]xTfA
 ^ t+H
+^%0.{
 ^)8~@
 ^-wf"
 ^0A;^@
@@ -25155,7 +25167,6 @@ attach_type
 attached_item_t
 attachment
 attachmentPoint
-attachment_input_state_t
 attachment_new
 attachment_offset
 attachment_old
@@ -26853,7 +26864,6 @@ g$E9w
 g)YNB
 g0E;g@D
 g0L;%
-g0L;%%
 g6F5`pF
 g:l4d2,
 g?Rt+@R
@@ -26861,7 +26871,7 @@ g?g|_\
 g?~h0WPb
 g@3333s
 gF:}@F
-gHL;%Uhf
+gHL;%Etf
 gIcD$
 gIcL$
 gPD;g`
@@ -29139,6 +29149,7 @@ m_bShowOnHUD
 m_bSimpleProjection
 m_bSimulatedEveryTick
 m_bSinglePlayerGameEnding
+m_bSkeletonActive
 m_bSkippedChooseEnemy
 m_bSlowMovement
 m_bSnapToGoal
@@ -31396,6 +31407,7 @@ m_nShuffleCases
 m_nSimulationTick
 m_nSimulationType
 m_nSize
+m_nSkeletonBoneCount
 m_nSkin
 m_nSlaveAxis
 m_nSlaveChannel
@@ -31562,6 +31574,7 @@ m_pFollowup
 m_pGameDirFilter
 m_pGameSceneNode
 m_pGameUI
+m_pHand
 m_pHintNode
 m_pId
 m_pInflictorClassNameFilter
@@ -31822,6 +31835,7 @@ m_shape
 m_shutdownTime
 m_skeleton
 m_skeletonInstance
+m_skeletonTransformCompressed
 m_skybox3d
 m_skyboxData
 m_skyboxData.bClip3DSkyBoxNearToWorldFar
@@ -32043,6 +32057,7 @@ m_unNumAttachedItems
 m_unOrientation
 m_unOwnerContext
 m_unPanelType
+m_unSkeletonTransformSize
 m_unVerticalAlign
 m_unpressedAttack
 m_unpressedAttack2
@@ -34882,6 +34897,7 @@ sv_phys_debug_callback_entities
 sv_phys_sleep_enable
 sv_phys_stop_at_collision
 sv_phys_visualize_awake
+sv_player_search_range
 sv_player_stuck_tolerance
 sv_printdecalinfo
 sv_prop_door_max_close_attempts
@@ -35007,7 +35023,7 @@ t!HcO
 t!IcE
 t!Lc+D;k
 t![A\]
-t";53
+t";5S
 t"HcK
 t"HcM
 t"HcO
@@ -35031,7 +35047,8 @@ t$8A\]
 t$8E1
 t$8H9
 t$8L9
-t$;=uHN
+t$;=e>
+t$;=eTN
 t$<	t 
 t$@A\]
 t$@E1
@@ -35063,13 +35080,13 @@ t$lHc
 t$lfA
 t%HcO
 t&D:=
-t&D;5
+t&D;5%
 t&HcC
 t&Hcq
 t&IcD$
-t'D;5^
+t'D;5
 t'D;=
-t'H;=h:d
+t'H;=XFd
 t'HcC
 t'HcK
 t'IcD$
@@ -35079,15 +35096,14 @@ t'[A\]
 t(;;tR
 t(<)u
 t(D;%
-t(D;-
+t(D;-7
 t(H9q
 t(H;p
 t(HcO
 t([A\A]A^]
 t([A\]
-t);=R
 t)D8u
-t)D;%@,N
+t)D;%08N
 t)HcM
 t)Lc+D;k
 t)Mc,$E;l$
@@ -35096,6 +35112,7 @@ t* Hc
 t*<*u
 t*D9p
 t*D;-
+t*D;-q
 t*HcO
 t*I;q
 t*LcC
@@ -35557,7 +35574,7 @@ uO[A\]
 uPMc4$fA
 uRMcl$
 uR[A\]
-uSD;-L5>
+uSD;-
 uS[A\A]A^]
 uS[A\]
 uT1C@
@@ -35578,9 +35595,10 @@ uf[A\]
 ui[A\]
 uint16
 uint32
+uint32_t
 uint64
 uint8
-ujL;-[
+ujL;-
 ujLcWhfE
 uk[A\]
 umM;}
@@ -36171,6 +36189,7 @@ x	D;?
 x ;s|~
 x!;1|
 x";7}
+x";=O
 x$McM E;M0tkI
 x$Mc}
 x(;wPI
@@ -36327,7 +36346,6 @@ zOuMD
 zOuMH
 zPuNE
 zPuNH
-zRuPH
 zRuPI
 zSuQ1
 zSuQH
@@ -36380,7 +36398,7 @@ z{uyA
 {([A\]
 {)<8"@
 {0@cz
-{0H;=T(I
+{0H;=D4I
 {8;C0t4
 {8L;g
 {8L;o
@@ -36388,7 +36406,7 @@ z{uyA
 {@I9x@w
 {@[A\]
 {@ffff
-{HH;=8&I
+{HH;=(2I
 {PD;{`
 {PH;=
 {S6wD
@@ -36413,9 +36431,10 @@ z{uyA
 |$09]
 |$0A\]
 |$0E1
-|$0H;=m
+|$0H;=
 |$8A\]
 |$8E1
+|$8Hc
 |$@	uY
 |$@Mc
 |$HfA
@@ -36513,7 +36532,7 @@ z{uyA
 }I;w$
 }IcL$
 }J@:w
-}JD;-W5>
+}JD;-
 }Kf;HnwEf
 }KfD9
 }Lf;w
@@ -36548,7 +36567,7 @@ z{uyA
 ~'fE;g
 ~(A\A]A^A_]
 ~)A;]
-~)H9=
+~)H9=S
 ~)H;^
 ~*HcE
 ~*I;X

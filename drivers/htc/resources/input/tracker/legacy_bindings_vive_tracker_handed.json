@@ -14,11 +14,11 @@
          "poses" : [
             {
                "output" : "/actions/legacy/in/Left_Pose",
-               "path" : "/user/hand/left/pose/front_rolled"
+               "path" : "/user/hand/left/pose/raw"
             },
             {
                "output" : "/actions/legacy/in/Right_Pose",
-               "path" : "/user/hand/right/pose/front_rolled"
+               "path" : "/user/hand/right/pose/raw"
             }
          ],
          "sources" : [
@@ -36,14 +36,11 @@
                   "click" : {
                      "output" : "/actions/legacy/in/left_axis1_press"
                   },
-                  "pull" : {
-                     "output" : "/actions/legacy/in/left_axis1_value"
-                  },
                   "touch" : {
                      "output" : "/actions/legacy/in/left_axis1_touch"
                   }
                },
-               "mode" : "trigger",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -137,21 +134,6 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/right_axis1_press"
-                  },
-                  "pull" : {
-                     "output" : "/actions/legacy/in/right_axis1_value"
-                  },
-                  "touch" : {
-                     "output" : "/actions/legacy/in/right_axis1_touch"
-                  }
-               },
-               "mode" : "trigger",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/legacy/in/right_axis1_press"
                   }
                },
                "mode" : "button",
@@ -177,6 +159,24 @@
                },
                "mode" : "button",
                "path" : "/user/hand/right/input/thumb"
+            },
+            {
+               "inputs" : {
+                  "value" : {
+                     "output" : "/actions/legacy/in/right_axis1_value"
+                  }
+               },
+               "mode" : "scalar_constant",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "value" : {
+                     "output" : "/actions/legacy/in/left_axis1_value"
+                  }
+               },
+               "mode" : "scalar_constant",
+               "path" : "/user/hand/left/input/trigger"
             }
          ]
       }
@@ -185,3 +185,4 @@
    "description" : "",
    "name" : "Default bindings for legacy applications for Vive Trackers in Hand"
 }
+

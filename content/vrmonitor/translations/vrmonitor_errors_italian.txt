@@ -579,7 +579,7 @@
 "[english]Warning_DismissableWarning_BasestationsTooFarApart_Description"	"For the best experience, your base stations should not be more than 5.5 meters apart."
 "Warning_DismissableWarning_OpticalBasestationSyncWarning_Header"	"Le stazioni di base hanno perso la sincronizzazione ottica"
 "[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Header"	"Base stations lost optical sync"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description"	"È possibile che qualcosa stia bloccando la linea visuale tra le due stazioni di base. Se questo avviso si ripete frequentemente, potresti prendere in considerazione di passare alla sincronizzazione cablata."
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description"	"È possibile che qualcosa stia bloccando il campo visivo delle due stazioni di base. Se questo avviso si ripete frequentemente, potresti prendere in considerazione di passare alla sincronizzazione cablata."
 "[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Description"	"There may be something blocking line of sight between the two base stations. If this warning persists between sessions you might consider switching to cabled sync."
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_Header"	"Rilevata una sola stazione di base"
 "[english]Warning_DismissableWarning_BasestationSingleBaseModeHint_Header"	"Only one base station detected"

@@ -178,5 +178,6 @@
 	RenderSystem
 	{
 		"AllowSampleableDepthInVr" "1"
+		"VulkanUseStreamingTextureManager" "1"
 	}
 }

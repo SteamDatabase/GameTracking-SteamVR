@@ -597,7 +597,7 @@
 "[english]Warning_DismissableWarning_MissedFrames_Header"	"Application running too slowly"
 "Explanation_RemoveAllSteamVRUSBDevices"	"Désinstalle tous les périphériques USB associés à SteamVR sur ce système pour permettre la réinstallation des pilotes."
 "[english]Explanation_RemoveAllSteamVRUSBDevices"	"Remove all USB devices related to SteamVR from this system to reinstall their drivers."
-"Explanation_ResetDismissableWarnings"	"Réinitialise les alertes temporaires. Elles seront affichées à\nnouveau lorsque nécessaire."
+"Explanation_ResetDismissableWarnings"	"Réinitialise les alertes temporaires. Elles seront affichées à nouveau lorsque nécessaire."
 "[english]Explanation_ResetDismissableWarnings"	"Temporary warnings are reset and will show again as needed."
 "Warning_DismissableWarning_OpticalBasestationSyncWarning_Action"	"Plus d'informations"
 "[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Action"	"More info"

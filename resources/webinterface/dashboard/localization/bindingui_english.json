@@ -1,30 +1,6 @@
 {
 	"language":		"english",
 
-
-	"/input/joystick" : "Joystick",
-	"/input/trackpad" : "Trackpad",
-	"/input/trigger" : "Trigger",
-	"/input/grip" : "Grip",
-	"/input/application_menu" : "Menu",
-	"/input/system" : "System",
-	"/proximity" : "Proximity Sensor",
-	"/input/a" : "A Button",
-	"/input/b" : "B Button",
-	"/input/x" : "X Button",
-	"/input/y" : "Y Button",
-
-	"/pose/raw" : "Raw",
-	"/pose/base" : "Base",
-	"/pose/tip" : "Tip",
-	"/pose/gdc2015" : "GDC",
-	"/pose/handgrip" : "Hand Grip",
-
-	"/input/skeleton/left" : "Left skeleton",
-	"/input/skeleton/right" : "Right skeleton",
-
-	"/output/haptic" : "Haptics",
-
 	"holographic_controller" : "Windows Mixed Reality Controller",
 	"holographic_hmd" : "Windows Mixed Reality Headset",
 
@@ -124,20 +100,6 @@
 	"BindingUI_EditSkeleton" : "Edit Skeleton",
 
 	"BindingSettingsModal_Title" : "Input Settings",
-
-	"/user/hand/right" : "Right Hand",
-	"/user/hand/left" : "Left Hand",
-	"/user/hand/primary" : "Main Hand",
-	"/user/hand/secondary" : "Other Hand",
-	"/user/hand/any" : "Either Hand",
-	"/user/foot/left" : "Left Foot",
-	"/user/foot/right" : "Right Foot",
-	"/user/shoulder/left" : "Left Shoulder",
-	"/user/shoulder/right" : "Right Shoulder",
-	"/user/waist" : "Waist",
-	"/user/chest" : "Chest",
-	"/user/camera" : "Camera",
-	"/user/keyboard" : "Keyboard",
 
 	"TrackerRole_None" : "Disabled",
 	"TrackerRole_Handed" : "Held in Hand",
@@ -267,8 +229,6 @@
 	"TrackerEditor_BuzzTracker" : "Identify Tracker",
 	"TrackerEditor_SelectRole" : "Select Role:",
 	"TrackerEditor_SelectControllerRole" : "Which hands:",
-
-	"InputSourceName" : "%1$s %2$s %3$s",
 
 	"SaveNotice_Saving" : "Saving...",
 	"SaveNotice_Uploading" : "Uploading..."

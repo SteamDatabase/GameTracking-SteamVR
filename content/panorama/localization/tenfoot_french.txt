@@ -651,7 +651,9 @@
 "VRSettingsCamera_RoomViewMode_EdgeB"	"Silhouettes colorées"
 "[english]VRSettingsCamera_RoomViewMode_EdgeB"	"Colored Ghosts"
 "VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Vue translucide"
-"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Transluscent Pass-Through"
+"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Vue opaque"
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
+"VRSettingsBindingUITitle"	"Configuration de la manette"
+"[english]VRSettingsBindingUITitle"	"Controller Binding"
 }

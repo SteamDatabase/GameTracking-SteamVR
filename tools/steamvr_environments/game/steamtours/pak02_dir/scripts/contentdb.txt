@@ -1529,6 +1529,16 @@
 			inventory_service_promo_appid = 578620
 			default_color = [ 255,255,255 ]
 		},
+		{
+			id = "chicken_hat"
+			name = "#VR_Avatar_Wearable_ChickenHat"
+			desc = "#VR_Avatar_Wearable_ChickenHat_Desc"
+			content = "models/props/hats/chicken_hat.vmdl"
+			preview_image = "file://{images}/contentdb/chicken_hat.png"
+			locked_by_quest = true
+			// inventory_service_id = 1056
+			default_color = [ 255,255,255 ]
+		},
 	]
 	
 	prop_tools =
@@ -3868,6 +3878,15 @@
 			addon = "asset_pack_tf2_spytech"
 			steamvr_addon = "1449138879"
 		},
+		{
+			id = "quest_chicken_hat"
+			name = "#Quest_ChickenHat"
+			desc = "#Quest_ChickenHat_Desc"
+			preview_image = "file://{images}/contentdb/chicken_hat.png"
+			item_generator = "item_generator_chicken_hat"
+			addon = "farm"
+			steamvr_addon = "1528909627" // id on public
+		},
 	]
 
 	quests_detector =
@@ -4098,6 +4117,15 @@
 			items = [
 				{
 					id = "tf2_sentry1_toolbox"
+				}
+			]
+		},
+		// space farm quest
+		{
+			id = "item_generator_chicken_hat"
+			items = [
+				{
+					id = "chicken_hat"
 				}
 			]
 		},

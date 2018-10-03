@@ -652,7 +652,9 @@
 "VRSettingsCamera_RoomViewMode_EdgeB"	"Színes sziluettek"
 "[english]VRSettingsCamera_RoomViewMode_EdgeB"	"Colored Ghosts"
 "VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Átlátszó áteresztés"
-"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Transluscent Pass-Through"
+"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Nem átlátszó áteresztés"
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
+"VRSettingsBindingUITitle"	"Játékvezérlő-kiosztás"
+"[english]VRSettingsBindingUITitle"	"Controller Binding"
 }

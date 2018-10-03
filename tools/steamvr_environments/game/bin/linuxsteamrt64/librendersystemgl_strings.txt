@@ -695,13 +695,11 @@ $woL)
 9T$0~	H
 9W|t.L
 9\?8c{
-9]SkC/
 : lexer error %d :
 :>	As?K
 :[tlL
 ;*3$"
 ;*t*1
-;5)';
 ;@:8t"
 ;w`v.L
 <	McO
@@ -1248,7 +1246,6 @@ D24X8_SHADOW
 D84;t
 D8T;4
 D9+~/L
-D9-655
 D9A$t
 D9F<~
 D9L$0A

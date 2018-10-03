@@ -1984,6 +1984,8 @@
 "[english]DismissableWarning_BluetoothLinkServiceError"	"Bluetooth service not found (0x0400)"
 "Settings_Bluetooth_ServicesNotAvailable"	"Bluetoothdienste nicht verfügbar."
 "[english]Settings_Bluetooth_ServicesNotAvailable"	"Bluetooth Services Not Available."
+"Settings_Bluetooth_ScanForBaseStations"	"Nach Basisstationen suchen"
+"[english]Settings_Bluetooth_ScanForBaseStations"	"Scan For Base Stations"
 "Settings_Bluetooth_Driver_Update"	"Bluetoothtreiber aktualisieren"
 "[english]Settings_Bluetooth_Driver_Update"	"Update Bluetooth Driver"
 "Settings_PerApplication_CustomSuffix"	"(Angepasst)"
@@ -1994,5 +1996,13 @@
 "[english]BluetoothControllerStatus_ServiceNotFound"	"Bluetooth Service not found. Please verify your SteamVR installation."
 "BluetoothControllerStatus_Connected"	"Bluetoothverbindung bereit."
 "[english]BluetoothControllerStatus_Connected"	"Bluetooth Connection Ready."
+"ScanForBaseStations_Scanning"	"Suche nach Basisstationen läuft...\n\n%1 Sekunden verbleibend."
+"[english]ScanForBaseStations_Scanning"	"Scanning For Base Stations...\n\n%1 Seconds Remaining."
+"ScanForBaseStation_FoundStations"	"Suche abgeschlossen."
+"[english]ScanForBaseStation_FoundStations"	"Scan Completed."
+"ScanForBaseStations_Refresh"	"Erneut suchen"
+"[english]ScanForBaseStations_Refresh"	"Scan Again"
+"Settings_Advanced_Paths_Header"	"Pfade"
+"[english]Settings_Advanced_Paths_Header"	"Paths"
 }
 }
