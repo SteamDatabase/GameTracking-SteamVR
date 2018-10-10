@@ -4,6 +4,7 @@
   "legacy_binding" :  "{htc}/input/tracker/legacy_bindings_vive_tracker_handed_rotated.json",
   "override_device_class" : "TrackedDeviceClass_Controller",
   "input_bindingui_mode" : "controller_handed",
+  "hand_priority" : -1,
   "input_bindingui_left" :
   {
     "transform" : "scale(-1,1)",
