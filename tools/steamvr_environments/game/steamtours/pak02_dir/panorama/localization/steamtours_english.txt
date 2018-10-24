@@ -565,6 +565,8 @@
 		"VR_Avatar_SmashboxArenaPoppyHead_Desc"	"Pear-fection.\n\nUnlocked by playing Smashbox Arena."
 		"VR_Avatar_Payday2DallasMask"		"Dallas"
 		"VR_Avatar_Payday2DallasMask_Desc"	"The face that everyone fears.\n\nUnlocked by playing Payday 2."
+		"VR_Avatar_HalloweenPumpkinhead"		"Pumpkin Head"
+		"VR_Avatar_HalloweenPumpkinhead_Desc"	"A prime example of a Cucurbita pepo var. pepo fruiting body, cunningly disguised as a human head for Hallowe'en. But where are its brains????"
 		
 		
 		// avatars hands
@@ -780,7 +782,9 @@
 		"VR_Avatar_Wearable_GornWingedHelmet"			"Winged Helmet"
 		"VR_Avatar_Wearable_GornWingedHelmet_Desc"		"The Winged Helmet, torn from the head of 'The General' himself. Judging by smell, never been washed. Proudly on loan from a victorious GORN gladiator.\n\nUnlocked by playing GORN."
 		"VR_Avatar_Wearable_ChickenHat"					"Chicken Hat"
-		"VR_Avatar_Wearable_ChickenHat_Desc"			"A chicken hat, lovingly knit by hand/gripper by a knitting bot"
+		"VR_Avatar_Wearable_ChickenHat_Desc"			"A chicken hat, lovingly knitted by hand/gripper by a knitting bot."
+		"VR_Avatar_Wearable_HalloweenWitchhat"			"Witch Hat"
+		"VR_Avatar_Wearable_HalloweenWitchhat_Desc"		"A witch hat, for Hallowe'en. Did witches ever wear these hats? Were witches themselves ever actually a thing? So many questions."
 
 		"SpawnablePanel_RecentApps"						"Recent Apps"
 		"SpawnablePanel_RecentApps_Desc"				"Panel that contains the games and applications that you can launch, sorted by when you last used them."
@@ -852,6 +856,10 @@
 		"Quest_TF2Sentry1_Desc"					"Bring your friends to uncover this fiendishly hidden home-defense product of Mann Co."
 		"Quest_ChickenHat"						"Chicken Hat Quest"
 		"Quest_ChickenHat_Desc"					"Unlock this hand-knit junglefowl-themed hat at the Space Farm"
+		"Quest_HalloweenPumpkinhead"			"Pumpkin Head Quest"
+		"Quest_HalloweenPumpkinhead_Desc"		"Unlock this Hallowe'en-themed avatar head at the mysterious Candy Store."
+		"Quest_HalloweenWitchhat"				"Witch Hat Quest"
+		"Quest_HalloweenWitchhat_Desc"			"Unlock this Hallowe'en-themed headwear at the mysterious Candy Store."
 		
 		"Quest_Detector"						"Weekly Geocaching Quest"
 		"QuestType_Detector"					"{d:quest_quantity} Caches Left"

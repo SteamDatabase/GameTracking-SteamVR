@@ -58,6 +58,12 @@ materials/models/characters/avatars/engineer_bot_head_selfillum_tga_1f79b934.vte
 materials/models/characters/avatars/engineer_bot_head_vmat_g_tnormal_b2defed1.vtex_c CRC:0089633483 size:1940
 materials/models/characters/avatars/generic_hmd.vmat_c CRC:00c2326ea1 size:6384
 materials/models/characters/avatars/generic_hmd_color_tga_d7a58aa0.vtex_c CRC:003ab27775 size:2798044
+materials/models/characters/avatars/halloween_pumpkinhead.vmat_c CRC:0035ecaf28 size:8992
+materials/models/characters/avatars/halloween_pumpkinhead_ao_tga_2a9a8185.vtex_c CRC:00e7bde46a size:526180
+materials/models/characters/avatars/halloween_pumpkinhead_color_tga_71a992e2.vtex_c CRC:00e77e222f size:700956
+materials/models/characters/avatars/halloween_pumpkinhead_gloss_tga_8050afaa.vtex_c CRC:00aa59d452 size:1400004
+materials/models/characters/avatars/halloween_pumpkinhead_selfillum_tga_880144e4.vtex_c CRC:00e7d7328c size:700972
+materials/models/characters/avatars/halloween_pumpkinhead_vmat_g_tmetalnessreflectance_9030e897.vtex_c CRC:00cc125ccd size:1612
 materials/models/characters/avatars/headcrabhead.vmat_c CRC:000a601a61 size:7296
 materials/models/characters/avatars/headcrabhead_ao_psd_dc8faee7.vtex_c CRC:00dd626a5e size:526132
 materials/models/characters/avatars/headcrabhead_psd_8c814301.vtex_c CRC:0009fbb5b5 size:1400260
@@ -442,6 +448,11 @@ materials/models/props/hats/gsg9_helmet001_vmat_g_tnormal_f34a54df.vtex_c CRC:00
 materials/models/props/hats/gyro_cap001.vmat_c CRC:002c54c28f size:6224
 materials/models/props/hats/gyro_cap001_color_tga_4dc92b92.vtex_c CRC:00463d929d size:1399988
 materials/models/props/hats/gyro_cap001_vmat_g_tnormal_2498b243.vtex_c CRC:0016d36627 size:1940
+materials/models/props/hats/halloween_witchhat.vmat_c CRC:0095d3c679 size:7792
+materials/models/props/hats/halloween_witchhat_ao_tga_e9b11b21.vtex_c CRC:009ff4d312 size:526148
+materials/models/props/hats/halloween_witchhat_color_tga_eba9cb26.vtex_c CRC:009adde84c size:700908
+materials/models/props/hats/halloween_witchhat_gloss_tga_b1d6e12a.vtex_c CRC:0002cf0ce2 size:1399972
+materials/models/props/hats/halloween_witchhat_vmat_g_tmetalnessreflectance_a3bed3fc.vtex_c CRC:00dd7b19f1 size:1612
 materials/models/props/hats/hardhat001.vmat_c CRC:0073b1c6b1 size:7488
 materials/models/props/hats/hardhat001_color_tga_b6f967bb.vtex_c CRC:0005688512 size:1399972
 materials/models/props/hats/hardhat001_mask_tga_c05d9931.vtex_c CRC:00400fc054 size:700844
@@ -1798,6 +1809,8 @@ models/characters/avatars/f1b1503e/idle_to_thumbsup.vanim_c CRC:00237878fb size:
 models/characters/avatars/f1b1503e/idle_to_wave.vanim_c CRC:00df9d1751 size:8410
 models/characters/avatars/generic_hmd.vmdl_c CRC:00858f12f6 size:3772
 models/characters/avatars/generic_hmd.vmesh_c CRC:0065786bf5 size:290817
+models/characters/avatars/halloween_pumpkinhead.vmdl_c CRC:006e20cdb9 size:3796
+models/characters/avatars/halloween_pumpkinhead.vmesh_c CRC:0061521c0d size:246892
 models/characters/avatars/hand_l_guitar.vmdl_c CRC:00df4ed459 size:4092
 models/characters/avatars/hand_l_guitar.vmesh_c CRC:00306ed074 size:32636
 models/characters/avatars/hand_l_guitar.vphys_c CRC:00437ec07b size:17524
@@ -2187,6 +2200,9 @@ models/props/hats/gsg9_helmet001_vmorf.vtex_c CRC:00f94f3c22 size:1656
 models/props/hats/gyro_cap001.vmdl_c CRC:0077243464 size:3900
 models/props/hats/gyro_cap001.vmesh_c CRC:00b7cf36b1 size:36606
 models/props/hats/gyro_cap001.vphys_c CRC:003c4d048e size:30624
+models/props/hats/halloween_witchhat.vmdl_c CRC:00bdb1e1ce size:4028
+models/props/hats/halloween_witchhat.vmesh_c CRC:00e860f374 size:50192
+models/props/hats/halloween_witchhat.vphys_c CRC:00f4c8c461 size:26660
 models/props/hats/hardhat001.vmdl_c CRC:0013824394 size:3964
 models/props/hats/hardhat001.vmesh_c CRC:0047517024 size:51058
 models/props/hats/hardhat001.vphys_c CRC:00124af346 size:62144
@@ -2891,7 +2907,7 @@ models/turret_models/turret.vphys_c CRC:00b8c6e2ab size:23720
 models/turret_models/turret_eaad7de7.vagrp_c CRC:0044f82020 size:7576
 models/turret_models/turretwife.vmdl_c CRC:0055a67f45 size:4248
 models/turret_models/turretwife.vmesh_c CRC:00b78073d2 size:458673
-panorama/dynamic_images.vpdi_c CRC:007f9292d8 size:175857
+panorama/dynamic_images.vpdi_c CRC:00577ce5b4 size:176912
 panorama/dynamic_images_addon.vpdi_c CRC:0093ad896b size:1062
 panorama/dynamic_images_addon_sentinel.vtex_c CRC:000b6f1813 size:20948
 panorama/dynamic_images_sentinel.vtex_c CRC:000b6f1813 size:20948
@@ -3084,6 +3100,8 @@ panorama/images/contentdb/halloween_bag_scout_png.vtex_c CRC:00b8c191a6 size:264
 panorama/images/contentdb/halloween_bag_sniper_png.vtex_c CRC:00c6dc5169 size:264036
 panorama/images/contentdb/halloween_bag_soldier_png.vtex_c CRC:00aa2097fb size:264036
 panorama/images/contentdb/halloween_bag_spy_png.vtex_c CRC:00c137129a size:264020
+panorama/images/contentdb/halloween_pumpkinhead_png.vtex_c CRC:0036ae4cd4 size:264068
+panorama/images/contentdb/halloween_witchhat_png.vtex_c CRC:0051a99ea2 size:264052
 panorama/images/contentdb/hands_fingers_png.vtex_c CRC:006f7870b1 size:264004
 panorama/images/contentdb/hands_mittens_png.vtex_c CRC:00838dfb0a size:264004
 panorama/images/contentdb/hardhat001_png.vtex_c CRC:00e212c2f3 size:263988

@@ -407,6 +407,15 @@
 			locked_by_quest = false
 			//inventory_service_id = 122
 		},	
+		{
+			id = "halloween_pumpkinhead"
+			name = "#VR_Avatar_HalloweenPumpkinhead"
+			desc = "#VR_Avatar_HalloweenPumpkinhead_Desc"
+			content = "models/characters/avatars/halloween_pumpkinhead.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_pumpkinhead.png"
+			locked_by_quest = true
+			//inventory_service_id = 123
+		},	
 	]
 
 	avatar_hands =
@@ -1537,6 +1546,16 @@
 			preview_image = "file://{images}/contentdb/chicken_hat.png"
 			locked_by_quest = true
 			// inventory_service_id = 1056
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "halloween_witchhat"
+			name = "#VR_Avatar_Wearable_HalloweenWitchhat"
+			desc = "#VR_Avatar_Wearable_HalloweenWitchhat_Desc"
+			content = "models/props/hats/halloween_witchhat.vmdl"
+			preview_image = "file://{images}/contentdb/halloween_witchhat.png"
+			locked_by_quest = true
+			// inventory_service_id = 1057
 			default_color = [ 255,255,255 ]
 		},
 	]
@@ -3887,6 +3906,24 @@
 			addon = "farm"
 			steamvr_addon = "1528909627" // id on public
 		},
+		{
+			id = "quest_halloween_pumpkinhead"
+			name = "#Quest_HalloweenPumpkinhead"
+			desc = "#Quest_HalloweenPumpkinhead_Desc"
+			preview_image = "file://{images}/contentdb/halloween_pumpkinhead.png"
+			item_generator = "item_generator_halloween_pumpkinhead"
+			addon = "candystore"
+			steamvr_addon = "1546540096" // id on public
+		},
+		{
+			id = "quest_halloween_witchhat"
+			name = "#Quest_HalloweenWitchhat"
+			desc = "#Quest_HalloweenWitchhat_Desc"
+			preview_image = "file://{images}/contentdb/halloween_witchhat.png"
+			item_generator = "item_generator_halloween_witchhat"
+			addon = "candystore"
+			steamvr_addon = "1546540096" // id on public
+		},
 	]
 
 	quests_detector =
@@ -4126,6 +4163,24 @@
 			items = [
 				{
 					id = "chicken_hat"
+				}
+			]
+		},
+		// candy store quest 1
+		{
+			id = "item_generator_halloween_pumpkinhead"
+			items = [
+				{
+					id = "halloween_pumpkinhead"
+				}
+			]
+		},
+		// candy store quest 2
+		{
+			id = "item_generator_halloween_witchhat"
+			items = [
+				{
+					id = "halloween_witchhat"
 				}
 			]
 		},
