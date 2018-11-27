@@ -59,9 +59,12 @@
 	"Advanced_Video": "Video",
 	"Advanced_Camera": "Camera",
 	"Advanced_Bluetooth": "Bluetooth",
+	"Advanced_Power": "Power",
 
 	"Advanced_AllowSavingOfTimingInfo": "Allow Saving of timing info",
 	"Advanced_AutoSaveTimingInfoOnExit": "Auto-Save timing info on exit",
+	"Settings_EnableWebHelperDebugger": "Enable Web Helper Debugger",
+	"Settings_EnableWebHelperDebuggerDesc": "Enables debugging server for attaching Chromium dev tools and debugger to embedded Chromium pages. SteamVR restart is required.",
 	"Advanced_PerfGraphInHMD": "Show GPU Performance Graph in Headset",
 	"Advanced_SaveFrameDataNow": "Save Frame Data Now",
 	"Explanation_DisableEnhancedPowerManagement": "Disable Windows Enhanced Power Management for SteamVR USB Devices if you experience mysterious loss of tracking or inability to pair wireless controllers. ",
@@ -105,5 +108,94 @@
 	"StatusCheckInterval_Never": "Never",
 	"StatusCheckInterval_Normal": "Normal (1 sec)",
 	"StatusCheckInterval_Often": "Often (100 msec)",
-	"StatusCheckInterval_Seldom": "Seldom (5 sec)"
+	"StatusCheckInterval_Seldom": "Seldom (5 sec)",
+
+	"Settings_Chaperone_Style": "Chaperone style",
+	"Settings_Chaperone_Style_0": "Beginner",
+	"Settings_Chaperone_Style_1": "Intermediate",
+	"Settings_Chaperone_Style_2": "Squares",
+	"Settings_Chaperone_Style_3": "Advanced",
+	"Settings_Chaperone_Style_4": "None",
+
+	"Settings_Video_AppResFooter": "The current setting renders each eye at",
+
+	"Settings_Advanced_MotionSmoothing_Header": "Motion Smoothing",
+	"Settings_Advanced_MotionSmoothing_Description": "When this is enabled, SteamVR synthesizes new frames to maintain a good experience when the running application cannot make framerate.",
+	"Settings_Advanced_MotionSmoothing": "Enable Motion Smoothing",
+	"Settings_Advanced_MotionSmoothing_Disabled": "Motion Smoothing requires asynchronous reprojection support.",
+	"Settings_Advanced_Supersampling_Header": "Application Resolution",
+	"Settings_Advanced_Supersampling_Warning": "WARNING: The manual override below will affect all applications. To change the resolution for a specific application, use the Applications tab on the left.",
+	"Settings_Advanced_SupersamplingManualOverride": "Manual Override",
+	"Explanation_Supersampling_Header": "SteamVR automatically sets your application resolution based on the performance of your GPU.",
+	"Explanation_Supersampling": "*Some applications may need to be restarted for settings to take effect.",
+	"Explanation_SupersamplingFiltering": "Supersampling Filtering Options:",
+	"Settings_PerApplication_Header": "Select a SteamVR Application for Per-Application Settings",
+	"Settings_PerApplication_ChooseApplication": "Select an application",
+	"Settings_PerApplication_AppResTitle": "Application Resolution Adjustment",
+	"Settings_PerApplication_AppResHeader": "This setting is a multiplier on top of the current global application resolution setting on the Video tab to the left. This application may need to be restarted for settings to take effect. (Default is 100%)",
+	"Settings_PerApplication_AppResFooter": "The current setting renders each eye at %1$s",
+	"Settings_PerApplication_OverlayVisibleHeader": "Overlay applications are available as tabs in the SteamVR Dashboard.",
+	"Settings_PerApplication_OverlayVisibleCheckbox": "Start this overlay application when SteamVR launches.",
+	"Settings_PerApplication_DashboardSuffix": "(Overlay Application)",
+	"Settings_PerApplication_CustomSuffix": "(Custom)",
+	"Settings_PerApplication_MotionSmoothing_Header": "Motion Smoothing",
+	"Settings_PerApplication_MotionSmoothing_Description": "Use the checkbox below to override the global setting for Motion Smoothing for this application. (Global setting for Motion Smoothing is <font color=#eeeeee>%1</font>)",
+	"Settings_PerApplication_MotionSmoothing_Global": "Use setting from Video settings",
+	"Settings_PerApplication_MotionSmoothing_On": "On",
+	"Settings_PerApplication_MotionSmoothing_Off": "Off",
+	"Settings_PerApplication_MotionSmoothing_Checkbox": "Enable Motion Smoothing for this application",
+
+	"Settings_MimeTypes_Pancake_Header": "Select an application to launch 2D applications in",
+
+	"Settings_Camera_EnableCamera": "Enable Camera",
+	"Settings_Camera_AllowCameraInDashboard": "Allow Camera In Dashboard",
+	"Settings_Camera_AllowCameraForChaperoneBounds": "Allow Camera For Chaperone Bounds",
+	"Settings_Camera_AllowCameraForRoomView": "Allow Camera For Room View (System Button Double Click)",
+	"Settings_Camera_Compatibility": "Camera Rate",
+	"Settings_Camera_CompatibilityExplanation": "If you experience a loss of tracking you may want to set a lower Camera Rate, disable the camera, or try a different USB port.",
+
+	"Advanced_Appearance": "Appearance",
+	"Settings_Appearance_Background": "Change the background of SteamVR",
+
+	"Settings_Appearance_UseDomeProjection": "Use Dome Projection",
+	"Settings_Appearance_UseDomeProjectionDesc": "Changes the projection style of the background image. Certain background use this feature to give a more immersive experience. If the background you selected looks distorted, try enabling this",
+	"Settings_Appearance_DomeCameraHeight": "Camera Height",
+	"Settings_Appearance_DomeCameraHeightDesc": "Adjusts the height of the camera relative to the background",
+	"Settings_Appearance_DomeCameraRadius": "Dome Radius",
+	"Settings_Appearance_DomeCameraRadiusDesc": "Changes the size of the dome.",
+	"Settings_Appearance_PlayAreaColor": "Play Area Color",
+	"Settings_Appearance_PlayAreaColorDesc": "This controls the color of the play area indicator below your feet.",
+
+	"Settings_Power_ReturnToWatchdogTimeout": "Exit SteamVR after:",
+	"Settings_Power_TurnOffScreensTimeout": "Turn off displays after:",
+	"Settings_Power_TurnOffControllersTimeout": "Turn off controllers after:",
+	"Settings_Power_ControllerOffOnExit": "Turn controllers off on exit",
+
+	"Settings_General_DoNotDisturb_Text": "Suppress notifications while in VR",
+
+	"Settings_Dashboard_ShowProgressIndicator" : "Show progress indicator for long press actions",
+
+	"SettingsTime_5s": "5 Seconds",
+	"SettingsTime_30s": "30 Seconds",
+	"SettingsTime_1m": "1 Minute",
+	"SettingsTime_5m": "5 Minutes",
+	"SettingsTime_10m": "10 Minutes",
+	"SettingsTime_20m": "20 Minutes",
+	"SettingsTime_30m": "30 Minutes",
+	"SettingsTime_1h": "1 Hour",
+	"SettingsTime_Never": "Never",
+
+	"Settings_Appearance_CycleBackgroundImageTimeSec": "Change backgound after:",
+	"Settings_Chaperone_BoundsColor": "Chaperone bounds color:",
+	
+	"Settings_Appearance_Controller": "Change your controller model",
+	"Settings_Appearance_Base": "Change your base station model",
+	"Settings_Appearance_Environment": "Change your compositor environment",
+
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Always show floor bounds",
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": "This will cause Chaperone to always show the floor boundary, even when you are a safe distance from it. Walls will continue to appear based on distance as usual.",
+
+	"Settings_Connecting": "Waiting for SteamVR to start...",
+
+	"foo": "Appearance"
 }

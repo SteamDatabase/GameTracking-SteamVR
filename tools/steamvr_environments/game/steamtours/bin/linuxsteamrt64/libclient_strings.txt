@@ -393,14 +393,15 @@
  GCConnectionStatus_GC_GOING_DOWN
  H97tbH
  H;0t
- H;5|U^
+ H;5J
+ H;5Q
+ H;5`J^
  HcC`L
  HcClI)
  HcSlD
  IcD$`L
  IcD$lI)
  Lc#D;c
- Lc%1
  Lc[PH)
  Lc[hH)
  Lc[lH
@@ -1567,6 +1568,7 @@ $~gHc
 'out_location' must not be NULL
 'steammessages_cloud.steamworkssdk.proto
 'steammessages_oauth.steamworkssdk.proto
+'}e<(
 (	AB`
 ( modelName, context ) - Manually precache a single model
 ( nOwner & 7 ) == 0 && ( nOwner & 0x8000000000000000ull ) != 0x8000000000000000ull
@@ -1576,11 +1578,15 @@ $~gHc
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
+(%!>F
 (%0.2f): %s
-(%ADF
+(%4:&
+(%Fx&
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
+(%e>F
+(%fl&
 (%g %g %g %g)
 (%g %g %g)
 (%g %g)
@@ -1592,15 +1598,13 @@ $~gHc
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(-)	&
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (1@zD
-(5 	&
 (8HXhx
 (9s ~@H
-(=#e&
-(=3q&
+(=53&
+(=5J&
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -2108,8 +2112,7 @@ $~gHc
 . This will make the proto fail to compile for some languages, such as C#.
 .%0*llu
 .(Optional) Set of tags for the published file.
-.-.^o
-.-gr,
+.-JA;
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -2147,7 +2150,9 @@ $~gHc
 ..\content
 ./c_baseentity.h
 .3333
-.5(y.
+.=I+9
+.=iHm
+.={+9
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -2361,6 +2366,7 @@ $~gHc
 .symtab
 .tdata
 .text
+.valvesig
 .valvesoH
 .vcfg
 .vmaf
@@ -6129,7 +6135,7 @@ $~gHc
 6C_Guts
 6C_Team
 6ConVar
-6D#5K
+6D#5+
 6D;U$
 6F+U F
 6H92t%H
@@ -6423,7 +6429,8 @@ $~gHc
 ;3@F%u
 ;3t^L
 ;4,F]
-;5os#
+;5/m#
+;5o^#
 ;:HcR
 ;:~`H
 ;;D$H
@@ -7032,7 +7039,7 @@ $~gHc
 @6@`YiR
 @8/N|
 @82t+1
-@8=e2
+@8=E,
 @8A\A]A^]
 @8A\]
 @8A]A^]
@@ -7073,10 +7080,6 @@ $~gHc
 @GZ*oG 7@
 @Gr}H
 @H97tbH
-@H;5(V^
-@H;58%E
-@H;59
-@H;5<K^
 @HA^]
 @HH;E
 @HcC(
@@ -9536,7 +9539,7 @@ C8tyH
 C9,h5
 C<D;e
 C<[A\A]A^]
-C@D;%
+C@D;%|g
 C@D;k8D
 C@H;CHs
 C@IcT$8H
@@ -12193,15 +12196,16 @@ D6	 H
 D7	 H
 D9!t"
 D9!u"
-D9%iV
-D9%yl
+D9%)P
+D9%9f
+D9%YO
 D9't,H
 D9(t'I
 D9+~[L
 D90t[A
 D90~#H
 D93~5
-D95g]
+D95GT
 D9;~dL
 D9D$4B
 D9D$4H
@@ -12243,12 +12247,13 @@ D; t=H
 D;!t{Hc
 D;"t=H
 D;"t]H
-D;%-ST
+D;%C+
+D;%b/T
 D;'thH
 D;'t{
 D;'t{Hc
 D;+};H
-D;-6X
+D;-rR
 D;.~3L
 D;:tPH
 D;F`u
@@ -14322,6 +14327,7 @@ H99ts
 H9:tx
 H9:tyHcR
 H9:t|Hc
+H9=ys
 H9C(H
 H9ChH
 H9D$(
@@ -14346,172 +14352,182 @@ H;0u)
 H;1t!
 H;2u#
 H;2u)
-H;5 mY
-H;5!C^
-H;5":E
-H;5'hY
-H;5(SP
-H;5)zP
-H;5*}C
-H;5+f^
-H;5.0E
-H;5.t[
-H;5/ZJ
-H;50NF
-H;50cY
-H;57UP
-H;58<^
-H;58J^
-H;5;:P
-H;5?\P
-H;5@jP
-H;5A$P
-H;5D/L
-H;5DU^
-H;5H$E
-H;5N*P
-H;5NNJ
-H;5P;E
-H;5P]^
-H;5PuP
-H;5Q9P
-H;5TP^
-H;5TS^
-H;5TT^
-H;5WkY
-H;5XDP
-H;5Xt[
-H;5[ZJ
-H;5_9L
-H;5`h[
-H;5a7E
-H;5dQJ
-H;5g$P
-H;5h#E
-H;5hCP
-H;5hJ^
-H;5hYY
-H;5i&E
-H;5i[P
-H;5nc^
-H;5p!L
-H;5pBL
-H;5p}P
-H;5q_P
-H;5sr
-H;5x$E
-H;5x*P
-H;5zDF
+H;5 DP
+H;5!YJ
+H;5$]Y
+H;5(#E
+H;5(J^
+H;5(c^
+H;5.VJ
+H;5/$P
+H;50kP
+H;51&E
+H;53l
+H;55%E
+H;57[^
+H;58}P
+H;5:G^
+H;5;KF
+H;5?JF
+H;5ArP
+H;5DR^
+H;5DxT
+H;5G9P
+H;5GC^
+H;5HvP
+H;5LMP
+H;5NQP
+H;5NwP
+H;5P7L
+H;5P:L
+H;5T	P
+H;5Z{C
+H;5^aY
+H;5_7E
+H;5`wY
+H;5h$E
+H;5hI^
+H;5n3E
+H;5po[
+H;5s?
+H;5w"E
+H;5xwP
+H;5~hP
+H;5~xP
 H;:t(f
-H;= Y
-H;=!&H
-H;=#"'
-H;=$SO
-H;=$dE
-H;='2M
-H;='8U
-H;='@Q
-H;='AF
-H;='V\
-H;=(n\
-H;=,o^
-H;=-/Y
-H;=/&<
-H;=0%O
-H;=02O
-H;=02Y
-H;=0<
-H;=0NE
-H;=0X
-H;=2rS
-H;=3;J
-H;=4=Y
-H;=4GE
-H;=4KJ
-H;=71M
-H;=7DJ
-H;=7FJ
-H;=7XJ
-H;=7vU
-H;=7}U
-H;=9'F
-H;==$Q
-H;==RG
-H;==kQ
-H;==yF
-H;=>QM
-H;=@m
-H;=@qG
-H;=A '
-H;=DOE
-H;=DTO
-H;=DYG
-H;=Dk?
-H;=Ez^
-H;=FO_
-H;=FnQ
-H;=G0M
-H;=GWJ
-H;=GWQ
-H;=G]\
-H;=GjY
-H;=HcE
-H;=I%
-H;=J|
-H;=M,C
-H;=M@Q
-H;=N[J
-H;=P^7
-H;=Pc7
-H;=PdE
-H;=Ph7
-H;=Pl
-H;=Pm7
-H;=PuK
-H;=R5U
-H;=T>Y
-H;=Tn\
-H;=V2O
-H;=W*Q
-H;=W0Q
-H;=WI\
-H;=WTE
-H;=WrY
-H;=WyQ
-H;=Xo^
-H;=YC_
-H;=Z{_
-H;=[+K
-H;=]DJ
-H;=]}U
-H;=^NE
-H;=`KJ
-H;=b?J
-H;=d|K
-H;=fE_
-H;=g=\
-H;=gEE
-H;=gwQ
-H;=gzY
-H;=i\_
-H;=k'F
-H;=o2
-H;=p.O
-H;=p3O
-H;=pz^
-H;=qRF
-H;=qnQ
-H;=r"Y
-H;=rOE
-H;=t?Y
-H;=tcE
-H;=vYG
-H;=wUU
-H;=wbU
-H;=wcQ
-H;=|dE
-H;=}TE
-H;=~ '
+H;=#:J
+H;=&":
+H;=&.O
+H;=&3O
+H;=&k?
+H;=')M
+H;=':M
+H;='hQ
+H;='j\
+H;='p\
+H;=(AE
+H;=)	O
+H;=)bG
+H;=*X_
+H;=+z^
+H;=,nQ
+H;=-cQ
+H;=/,
+H;=0OE
+H;=0cE
+H;=1jG
+H;=4KO
+H;=4yG
+H;=4~K
+H;=54C
+H;=7%:
+H;=7(M
+H;=7-U
+H;=79M
+H;=7EU
+H;=7OQ
+H;=7PU
+H;=7Q\
+H;=7X\
+H;=7r_
+H;=7xY
+H;=8YG
+H;=8n^
+H;=<n\
+H;==XE
+H;=?m
+H;=@/O
+H;=@4O
+H;=@Z7
+H;=@_7
+H;=@c
+H;=@d7
+H;=@h
+H;=@i7
+H;=@o^
+H;=@wK
+H;=A@J
+H;=AcJ
+H;=DDG
+H;=DzG
+H;=D{G
+H;=D|G
+H;=G8M
+H;=G=F
+H;=GAJ
+H;=GKU
+H;=G`U
+H;=GtQ
+H;=G~F
+H;=H:J
+H;=H{
+H;=JNE
+H;=PDO
+H;=Pg
+H;=PhK
+H;=QbE
+H;=TAE
+H;=TCC
+H;=TLO
+H;=TOO
+H;=Vz^
+H;=W+I
+H;=W+U
+H;=W4Q
+H;=W7M
+H;=W[U
+H;=WhU
+H;=Y-C
+H;=YA_
+H;=[	O
+H;=[4C
+H;=[bG
+H;=\cE
+H;=]OQ
+H;=]X\
+H;=]qQ
+H;=^OE
+H;=^uS
+H;=_Q
+H;=_jG
+H;=aqR
+H;=dn^
+H;=f/O
+H;=f4O
+H;=g!\
+H;=g*I
+H;=g2Q
+H;=g6M
+H;=gNU
+H;=gO\
+H;=gXE
+H;=gZE
+H;=gfQ
+H;=gh\
+H;=g{\
+H;=jYG
+H;=lJJ
+H;=lo^
+H;=m=F
+H;=mtQ
+H;=o@J
+H;=pSK
+H;=poG
+H;=pxK
+H;=q:J
+H;=rwZ
+H;=tDC
+H;=tPO
+H;=w5M
+H;=w6F
+H;=w7Q
+H;=wDQ
+H;=wRQ
+H;=w{Q
+H;=xNE
+H;=|/C
+H;=}#Q
+H;=~"V
 H;>t[H
 H;C I
 H;C r
@@ -14643,10 +14659,10 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5+E
-Hc5_7~
+Hc579
+Hc5t7
 Hc8Hi
-Hc=URL
+Hc=5LL
 Hc@ H
 Hc@$H
 Hc@(H
@@ -15730,8 +15746,8 @@ KnucklesEV1_3Controller
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-Kp H;=
-Kp H;=r{
+Kp H;=2u
+Kp H;=~u
 Kp Lc}
 KqUq;@
 L$ Lc
@@ -15780,18 +15796,23 @@ L9t$(u
 L9t$H
 L9|$HJ
 L: %.2f deg
-L;%-#V
-L;%-\M
-L;%="V
-L;%=[M
-L;%M!V
-L;%MZM
-L;%] V
-L;%m*H
-L;%}	R
-L;%})H
-L;%}-V
-L;-Ls
+L;%-'H
+L;%-+V
+L;%-dM
+L;%=&H
+L;%=*V
+L;%=cM
+L;%M%H
+L;%M)V
+L;%MbM
+L;%](V
+L;%]UI
+L;%]aM
+L;%m'V
+L;%mTI
+L;%m`M
+L;%}&V
+L;%}_M
 L;0t!A
 L;:tL1
 L;:tT1
@@ -15883,8 +15904,10 @@ Lc tu
 Lc!D;a
 Lc#D;c
 Lc#E9
-Lc%'ST
-Lc%*dG
+Lc%Y/T
+Lc%^+
+Lc%w]I
+Lc%{g
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -19026,6 +19049,7 @@ SendCustomGameEventToAllClients
 SendCustomGameEventToClient
 SendCustomGameEventToServer
 SendEventClientSide
+SendLobbyInviteToUser
 SendToConsole
 SendUGCQuery
 Sending ping request %d/4.
@@ -19735,12 +19759,9 @@ T$hA)
 T$pH9
 T$pL)
 T$xHc
-T%+z,
-T%Ez,
 T&hL9
 T(*fD
-T-&},
-T-n4h
+T-N4h
 T0@GZ
 T5?Z@2
 T5i@H
@@ -20839,19 +20860,18 @@ Vulkan
 W H9r
 W HcG
 W%:O&t
-W%?y&
-W%fu&
+W%B):
 W(Aq=
 W(H92t'H
 W,:V,u
-W-(! 
+W-&P>
 W0;V0t
 W0Hc_8A
 W0t	H
 W3|Uxa
-W5[  
-W5\$/
-W=c$/
+W5(q&
+W5l%/
+W=s%/
 W?,|C
 W@H9V@u
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
@@ -21097,11 +21117,17 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Y ANb
-Y%[-|
+Y%)+;
+Y%8&:
+Y%;-|
 Y(E9^(A
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
+Y-"y9
+Y-s)s
+Y-xB.
 Y/&4@4
 Y6	@W'g(
+Y=Cy9
 Y?3333E
 YD$$L
 YEXfA
@@ -21252,9 +21278,9 @@ Z}uU
 \$hIcEX
 \$ht#L
 \$xA;
+\%,Zq
 \%03o
-\%LZq
-\-VC>
+\56C>
 \C not allowed in lookbehind assertion
 \HcK0Ic
 \IcE(1
@@ -21295,10 +21321,8 @@ Z}uU
 ^ t+H
 ^$z%u#G
 ^)8~@
-^-N0/
 ^-wf"
 ^0A;^@
-^572x
 ^?O<g
 ^Cp\&
 ^Fa.@
@@ -25041,7 +25065,6 @@ fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB9<`
 fD9 t
-fD9%4n
 fD9/t0H
 fD91u|
 fD9cV
@@ -25530,9 +25553,11 @@ g*tbK
 g0E;g@D
 g0HcG(M
 g0L;%
+g0L;%-SM
 g0L;%=
+g0L;%=RM
 g0L;%M
-g0L;%}
+g0L;%m
 g6F5`pF
 g?Rt+@R
 g?g|_\
@@ -29924,7 +29949,7 @@ o(ATL
 o(ATSH
 o*Ral
 o,ATL
-o-cdy
+o-Cdy
 o0ATL
 o4ATL
 o8ATI
@@ -31872,13 +31897,13 @@ t$8A\]
 t$8E1
 t$8H9
 t$8L9
+t$;=%
+t$;=%46
 t$;=5
-t$;=5J
+t$;=5	(
 t$;=E
 t$;=U
-t$;=e
-t$;=e!
-t$;=e:6
+t$;=e#
 t$;=u
 t$<	t 
 t$@A\]
@@ -31888,10 +31913,13 @@ t$@tzHc
 t$D9j
 t$D;%
 t$D;%3
-t$D;%C!
+t$D;%C
+t$D;%c
 t$D;%s
 t$D;-
+t$D;-A
 t$D;=
+t$D;=dT
 t$H9:H
 t$H9h
 t$HH9
@@ -31924,18 +31952,18 @@ t%;2t%H
 t%HcM
 t%[A\]
 t&@8>t+H
-t&D:=
+t&D:=u
 t&D;%
+t&D;%E
 t&Hcq
 t&IcD$
 t'D;%
-t'D;%V
+t'D;%~K#
 t'D;-
 t'D;5
 t'D;=
-t'H;=@4J
-t'H;=P
-t'H;=p6C
+t'D;=~[
+t'H;=
 t'IcD$
 t'Lcc
 t'Lck
@@ -31944,29 +31972,33 @@ t(92t(H
 t(;;tR
 t(<)u
 t(D;%
-t(D;%7
-t(D;%g
+t(D;%'
+t(D;%W
+t(D;%_
+t(D;%od
 t(D;-
+t(D;-'
+t(D;-7
 t(D;-g
-t(D;-w
 t(E;u
 t(HcO
 t([A\]
-t)@:5A
+t)@:5!
 t)D8u
 t)D;%
 t)D;%0
-t)D;%p 6
-t)D;-`
-t)D;50
-t)D;=
+t)D;- 
+t)D;5
+t)D;=P|#
 t)Lc+D;k
 t*<*u
 t*D9p
-t*D;-
-t*D;-q
-t*D;5
+t*D;-1
+t*D;-I
+t*D;5a
 t*D;=
+t*D;=9
+t*D;=Q
 t*D;=y
 t*HcC
 t*HcKH
@@ -31985,26 +32017,24 @@ t+Jc4
 t+Mcl$pE;
 t+fA9
 t,D;%
-t,D;%;
-t,D;-
+t,D;-k
 t,Hcx
 t,L;e
 t,UtZI
-t-D;%L
+t-D;%
 t-D;=
-t-D;=,
-t-D;=<
 t-LcP
 t-Mc4$E;t$
 t-Mc<$E;|$
 t-Mcv
 t-rex
-t.D:%f
+t.D:%
 t.D;%
 t.D;%-
-t.D;%m
-t.D;-
+t.D;%M
+t.D;-]Z
 t.D;5
+t.D;5]!A
 t.HcH
 t.IcG
 t.Lc#I
@@ -32014,7 +32044,7 @@ t/ Ic
 t/9w t29w0t=1
 t/H;E
 t/Lc%
-t/Lc%8
+t/Lc%x
 t/Lc+
 t/[A\A]A^]
 t/[A\]
@@ -32080,7 +32110,7 @@ tAffffhF
 tAw3A
 tBViewEffects
 tCLc%
-tD@:59
+tD@:5
 tFRA@F
 tF[A\A]A^]
 tF\sQF^e7F0
@@ -32156,7 +32186,7 @@ tax_usd
 tbD;&~3H
 tbHcO
 tbLcC8Ic
-tc@:54
+tc@:5
 tcHcQ
 tcIcv 
 tchinese
@@ -33417,7 +33447,7 @@ z{uyA
 z{uyI
 z|uzL
 z}u{I
-{ H;=e
+{ H;=%
 { H;}
 { Lcu
 { [A\A]A^]
@@ -33425,21 +33455,21 @@ z}u{I
 { t7I
 { ~EIc
 {$[A\]
-{(H;=2
+{(H;=
 {(H;}
 {([A\]
 {)<8"@
 {0@cz
 {0H;=
-{0H;=#X
+{0H;=J[
 {8;C0t4
 {8t;[A\]
 {@HcE
 {@I9x@w
 {@ffff
-{HH;=
+{HH;=p
 {PD;m
-{PH;=i
+{PH;=)
 {S6wD
 {XH	E
 {XMcl$pE;
@@ -33624,7 +33654,7 @@ z}u{I
 ~2Lc+A
 ~31]H
 ~79ZP
-~7Lc%
+~7Lc%X
 ~;HcE
 ~=FLD4F
 ~?HcH

@@ -220,6 +220,9 @@
 	"InputDebugger_Unbound" : "Unbound",
 	"BindingUI_InputDebugger" : "Input Debugger",
 
+	"BindingUI_WindowTitle_ControllerBinding": "Controller Binding",
+	"BindingUI_WindowTitle_ManageTrackers": "Manage Vive Trackers",
+
 	"ActionManifestError_ManifestParseError" : "The action manifest for %1$s has an issue: \"%2$s\".",
 	"ActionManifestError_FileNotFound" : "The action manifest for %1$s was not found.",
 	"ActionManifestError_JSONParseError" : "The action manifest for %1$s did not contain valid JSON.",
@@ -231,6 +234,24 @@
 	"TrackerEditor_SelectControllerRole" : "Which hands:",
 
 	"SaveNotice_Saving" : "Saving...",
-	"SaveNotice_Uploading" : "Uploading..."
+	"SaveNotice_Uploading" : "Uploading...",
+
+	"LegacySetupTab" : "Set Up Legacy Actions",
+	"ShowAllAliases" : "Show Hidden Actions",
+	"DeleteSimulatedAction" : "Delete",
+	"AddSimulatedAction" : "Add Action",
+	"UnnamedSimAction" : "Unnamed Action ",
+	"ShowActionButton" : "Show",
+	"HideActionButton" : "Hide",
+
+	"LegacySetup_SimulatedActionHeader" : "Simulated Actions",
+	"LegacySetup_ActionAliasesHeader" : "Action Aliases",
+
+	"SimulatedAction_FakeTrigger" : "Simulated Trigger Pull",
+
+	"SimulatedAction_FakeTrackpadClick" : "Simulated Trackpad Click",
+	"TrackpadClickLeft" : "Left Trackpad",
+	"TrackpadClickRight" : "Right Trackpad",
+	"TrackpadClickNone" : "Select Trackpad"
 
 }

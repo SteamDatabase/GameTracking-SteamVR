@@ -212,6 +212,12 @@
 	box-shadow: none;
 }
 
+.DestinationButton:disabled
+{
+	background-color: button_gradient;
+	border: 2px solid #ffffff20;
+}
+
 
 ClientUIDialogPanel {
 	width: 100%;

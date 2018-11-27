@@ -265,13 +265,158 @@
 		{
 			"name": "/actions/legacy/out/Right_Haptic",
 			"type": "vibration"
+		},
+
+		{
+			"name": "/actions/legacy_mirrored/in/System_Press",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/System_Touch",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/ApplicationMenu_Press",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/ApplicationMenu_Touch",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Grip_Press",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Grip_Touch",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/A_Press",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/A_Touch",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis0_Press",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis0_Touch",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis0_Value",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis1_Press",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis1_Touch",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis1_Value",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis2_Press",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis2_Touch",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis2_Value1",
+			"requirement" : "optional",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis2_Value2",
+			"requirement" : "optional",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis3_Press",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis3_Touch",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis3_Value_e0",
+			"requirement" : "optional",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis3_Value_e1",
+			"requirement" : "optional",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis4_Press",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis4_Touch",
+			"requirement" : "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis4_Value_e0",
+			"requirement" : "optional",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Axis4_Value_e1",
+			"requirement" : "optional",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Pose",
+			"type": "pose"
+		},
+		{
+			"name": "/actions/legacy_mirrored/in/Haptic",
+			"type": "vibration"
 		}
 	],
 
 	"action_sets": [
 		{
 			"name": "/actions/legacy",
-			"usage": "leftright"
+			"usage": "leftright",
+			"forbidden_options" : [ "mirror_actions" ]
+		},
+		{
+			"name": "/actions/legacy_mirrored",
+			"usage": "single",
+			"required_options" : [ "mirror_actions" ]
+		}
+	],
+
+	"options" : [
+		{
+			"name" : "mirror_actions",
+			"type" : "bool",
+			"default" : false
 		}
 	],
 
@@ -279,7 +424,10 @@
 					{
 						"language_tag": "en_US",
 
-						"/actions/legacy": "Legacy Bindings",
+						"/actions/legacy": "Legacy Bindings (Handed)",
+						"/actions/legacy_mirrored": "Legacy Bindings (Mirrored)",
+
+						"mirror_actions" : "This game expects the left and right hands to use the same actions",
 
 						"/actions/legacy/in/Head_Proximity": "HMD Proximity Sensor",
 
@@ -336,7 +484,35 @@
 						"/actions/legacy/in/Right_Axis4_Press": "Right Axis 4 Press",
 						"/actions/legacy/in/Right_Axis4_Touch": "Right Axis 4 Touch",
 						"/actions/legacy/in/Right_Axis4_Value_e0": "Right Axis 4 X Value",
-						"/actions/legacy/in/Right_Axis4_Value_e1": "Right Axis 4 Y Value"
+						"/actions/legacy/in/Right_Axis4_Value_e1": "Right Axis 4 Y Value",
+
+						"/actions/legacy_mirrored/in/System_Press": "System Button",
+						"/actions/legacy_mirrored/in/System_Touch": "System Button Touch",
+						"/actions/legacy_mirrored/in/ApplicationMenu_Press": "Application Menu Button",
+						"/actions/legacy_mirrored/in/ApplicationMenu_Touch": "Application Menu Button Touch",
+						"/actions/legacy_mirrored/in/Grip_Press": "Grip Button",
+						"/actions/legacy_mirrored/in/Grip_Touch": "Grip Button Touch",
+						"/actions/legacy_mirrored/in/A_Press": "A Button",
+						"/actions/legacy_mirrored/in/A_Touch": "A Button Touch",
+						"/actions/legacy_mirrored/in/Axis0_Press": "Trackpad/Thumbstick Press",
+						"/actions/legacy_mirrored/in/Axis0_Touch": "Trackpad/Thumbstick Touch",
+						"/actions/legacy_mirrored/in/Axis0_Value": "Trackpad/Thumbstick Value",
+						"/actions/legacy_mirrored/in/Axis1_Press": "Trigger Press",
+						"/actions/legacy_mirrored/in/Axis1_Touch": "Trigger Touch",
+						"/actions/legacy_mirrored/in/Axis1_Value": "Trigger Value",
+						"/actions/legacy_mirrored/in/Axis2_Press": "Axis 2 Press",
+						"/actions/legacy_mirrored/in/Axis2_Touch": "Axis 2 Touch",
+						"/actions/legacy_mirrored/in/Axis2_Value1": "Grip Value",
+						"/actions/legacy_mirrored/in/Axis2_Value2": "Second Trackpad/Thumbstick Value",
+						"/actions/legacy_mirrored/in/Axis3_Press": "Axis 3 Press",
+						"/actions/legacy_mirrored/in/Axis3_Touch": "Axis 3 Touch",
+						"/actions/legacy_mirrored/in/Axis3_Value_e0": "Axis 3 X Value",
+						"/actions/legacy_mirrored/in/Axis3_Value_e1": "Axis 3 Y Value",
+						"/actions/legacy_mirrored/in/Axis4_Press": "Axis 4 Press",
+						"/actions/legacy_mirrored/in/Axis4_Touch": "Axis 4 Touch",
+						"/actions/legacy_mirrored/in/Axis4_Value_e0": "Axis 4 X Value",
+						"/actions/legacy_mirrored/in/Axis4_Value_e1": "Axis 4 Y Value"
+
 					}
 	]
 }

@@ -2344,7 +2344,9 @@ SteamToursFriends {
 }
 
 .WorldPanelFriends #FriendInviteButton,
-.WorldPanelFriends #FriendJoinButton
+.WorldPanelFriends #FriendJoinButton,
+.WorldPanelFriends #FriendInviteButton.DestinationButton:hover:disabled,
+.WorldPanelFriends #FriendJoinButton.DestinationButton:hover:disabled
 {
 	height: 130px;	
 	margin-top: 20px;

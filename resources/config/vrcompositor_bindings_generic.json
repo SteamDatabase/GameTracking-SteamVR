@@ -1,131 +1,263 @@
 {
-	"controller_type" : "generic",
-    "action_binds": [
-        {
-            "action": "/actions/system/in/SystemButtonChord",
-            "source": "/filters/generic_system_button/held"
-        },
-        {
-            "action": "/actions/system/in/ToggleDashboard",
-            "source": "/filters/generic_system_button/single"
-        },
-        {
-            "action": "/actions/system/in/TakeScreenshot",
-            "source": "/filters/generic_screenshot_chord/result",
-	    "filters_to_cancel" : [ "generic_system_button" ]
-        },
-        {
-            "action": "/actions/system/in/ShowPowerMenu",
-            "source": "/filters/generic_system_button/long"
-        },
-        {
-            "action": "/actions/system/in/ToggleRoomView",
-            "source": "/filters/generic_system_button/double"
-        },
-        {
-            "action": "/actions/lasermouse/in/Pointer",
-            "source": "/filters/generic_lasermouse_tip/pose"
-        },
-        {
-            "action": "/actions/lasermouse/in/LeftClick",
-            "source": "/user/hand/primary/input/trigger/click"
-        },
-        {
-            "action": "/actions/lasermouse/in/Back",
-            "source": "/user/hand/primary/input/grip/click"
-        },
-        {
-            "action": "/actions/lasermouse/in/Home",
-            "source": "/user/hand/primary/input/application_menu/click"
-        },
-        {
-            "action": "/actions/lasermouse/in/SwitchLaserHand",
-            "source": "/user/hand/secondary/input/trigger/click"
-        },
-        {
-            "action": "/actions/dualanalog/in/LeftValue",
-            "source": [ "/user/hand/left/input/trackpad/x", "/user/hand/left/input/trackpad/y" ]
-        },
-        {
-            "action": "/actions/dualanalog/in/RightValue",
-            "source": [ "/user/hand/right/input/trackpad/x", "/user/hand/right/input/trackpad/y" ]
-        },
-        {
-            "action": "/actions/dualanalog/in/LeftTouch",
-            "source": "/user/hand/left/input/trackpad/touch"
-        },
-        {
-            "action": "/actions/dualanalog/in/RightTouch",
-            "source": "/user/hand/right/input/trackpad/touch"
-        },
-        {
-            "action": "/actions/dualanalog/in/LeftClick",
-            "source": "/user/hand/left/input/trackpad/click"
-        },
-        {
-            "action": "/actions/dualanalog/in/RightClick",
-            "source": "/user/hand/right/input/trackpad/click"
-        },
-        {
-            "action": "/actions/dualanalog/in/ModeSwitch1",
-            "source": "/user/hand/left/input/grip/click"
-        },
-        {
-            "action": "/actions/dualanalog/in/ModeSwitch2",
-            "source": "/user/hand/right/input/grip/click"
-        }
-    ],
-
-	"filters" :[
+	  "controller_type" :	"generic",
+	"bindings" :
+	{
+		"/actions/lasermouse" : {
+		"sources":
+		[
 		{
-			"name" : "generic_system_buttons",
-			"type" : "boolean_or",
-			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
-			"input" : 
+			"path" : "/user/hand/right/input/trigger",
+			"mode" : "button",
+			"inputs" :
 			{
-				"1":"/user/hand/left/input/system/click",
-				"2":"/user/hand/right/input/system/click"
-			},
-			"output" : "result"
-		},
-		{
-			"name" : "generic_system_button",
-			"type" : "boolean_button_press_state",
-			"input" : "/filters/generic_system_buttons/result",
-			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
-			"cancel_on_action_sets" : [ "/actions/chord" ],
-			"parameters" : 
-			{
-				"long_press_delay" : 1.5
-			},
-			"output" : 							 
-			{
-				"long" : "long",
-				"double" : "double",
-				"single" : "single",
-				"held" : "held"
+				"click" :
+				{
+						"output" : "/actions/lasermouse/in/LeftClick"
+				}
 			}
 		},
 		{
-			"name" : "generic_screenshot_chord",
-			"type" : "boolean_and",
-			"action_sets" : [ "/actions/chord" ],
-			"input" : 
+			"path" : "/user/hand/right/input/grip",
+			"mode" : "button",
+			"inputs" :
 			{
-				"1":"/filters/generic_system_button/held",
-				"2":"/user/hand/*/input/trigger/click"
-			},
-			"output" : "result"
+				"click" :
+				{
+						"output" : "/actions/lasermouse/in/Back"
+				}
+			}
 		},
 		{
-			"name" : "generic_lasermouse_tip",
-			"type" : "pose_component",
-			"input" : "/user/hand/primary/pose",
-			"output" : "pose",
-			"parameters" : 
+			"path" : "/user/hand/right/input/application_menu",
+			"mode" : "button",
+			"inputs" :
 			{
-				"component_name" : "tip"
+				"click" :
+				{
+						"output" : "/actions/lasermouse/in/Home"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/right/input/trackpad",
+			"mode" : "trackpad",
+			"inputs" :
+			{
+				"touch" :
+				{
+					"output" : "/actions/lasermouse/in/TrackpadTouch"
+				},
+				"position" :
+				{
+					"output" : "/actions/lasermouse/in/TrackpadValue"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/right/input/trackpad",
+			"mode" : "trackpad_scroll",
+			"inputs" :
+			{
+				"scroll" :
+				{
+					"output" : "/actions/lasermouse/in/TrackpadScroll"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/right/input/trackpad",
+			"mode" : "dpad_click",
+			"inputs" :
+			{
+				"east" :
+				{
+					"output" : "/actions/lasermouse/in/RightClick"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/left/input/trigger",
+			"mode" : "button",
+			"inputs" :
+			{
+				"click" :
+				{
+						"output" : "/actions/lasermouse/in/LeftClick"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/left/input/grip",
+			"mode" : "button",
+			"inputs" :
+			{
+				"click" :
+				{
+						"output" : "/actions/lasermouse/in/Back"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/left/input/application_menu",
+			"mode" : "button",
+			"inputs" :
+			{
+				"click" :
+				{
+						"output" : "/actions/lasermouse/in/Home"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/left/input/trackpad",
+			"mode" : "trackpad",
+			"inputs" :
+			{
+				"touch" :
+				{
+					"output" : "/actions/lasermouse/in/TrackpadTouch"
+				},
+				"position" :
+				{
+					"output" : "/actions/lasermouse/in/TrackpadValue"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/left/input/trackpad",
+			"mode" : "trackpad_scroll",
+			"inputs" :
+			{
+				"scroll" :
+				{
+					"output" : "/actions/lasermouse/in/TrackpadScroll"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/left/input/trackpad",
+			"mode" : "dpad_click",
+			"inputs" :
+			{
+				"east" :
+				{
+					"output" : "/actions/lasermouse/in/RightClick"
+				}
 			}
 		}
-	]
+		],
+		"poses":
+		[
+			{
+				"output": "/actions/lasermouse/in/Pointer",
+				"path": "/user/hand/left/pose/tip"
+			},
+			{
+				"output": "/actions/lasermouse/in/Pointer",
+				"path": "/user/hand/right/pose/tip"
+			}
+
+		] },
+		"/actions/lasermouse_secondary" : {
+		"sources":
+		[
+		{
+			"path" : "/user/hand/left/input/trigger",
+			"mode" : "button",
+			"inputs" :
+			{
+				"click" :
+				{
+						"output" : "/actions/lasermouse_secondary/in/SwitchLaserHand"
+				}
+			}
+		},
+		{
+			"path" : "/user/hand/right/input/trigger",
+			"mode" : "button",
+			"inputs" :
+			{
+				"click" :
+				{
+						"output" : "/actions/lasermouse_secondary/in/SwitchLaserHand"
+				}
+			}
+		}
+		],
+		"poses":
+		[]},
+		"/actions/system" : {
+		"chords" :
+		[
+			{
+				"output": "/actions/system/in/TakeScreenshot",
+				"inputs": [ ["/user/hand/left/input/system", "held" ], ["/user/hand/left/input/trigger", "click"] ]
+			},
+			{
+				"output": "/actions/system/in/TakeScreenshot",
+				"inputs": [ ["/user/hand/right/input/system", "held" ], ["/user/hand/right/input/trigger", "click"] ]
+			}
+		],
+		"sources" :
+		[
+			{
+			  "path" : "/user/hand/left/input/trigger",
+			  "mode" : "button"
+			},
+			{
+			  "path" : "/user/hand/right/input/trigger",
+			  "mode" : "button"
+			},
+			{
+				"path" : "/user/hand/left/input/system",
+				"mode" : "button",
+				"inputs" :
+				{
+					"held" :
+					{
+							"output" : "/actions/system/in/SystemButtonChord"
+					},
+					"long" :
+					{
+							"long_press_delay" : 1.5,
+							"output" : "/actions/system/in/ShowPowerMenu"
+					},
+					"click" :
+					{
+							"output" : "/actions/system/in/ToggleDashboard"
+					},
+					"double" :
+					{
+							"output" : "/actions/system/in/ToggleRoomView"
+					}
+				}
+			},
+			{
+				"path" : "/user/hand/right/input/system",
+				"mode" : "button",
+				"inputs" :
+				{
+					"held" :
+					{
+							"output" : "/actions/system/in/SystemButtonChord"
+					},
+					"long" :
+					{
+							"long_press_delay" : 1.5,
+							"output" : "/actions/system/in/ShowPowerMenu"
+					},
+					"click" :
+					{
+							"output" : "/actions/system/in/ToggleDashboard"
+					},
+					"double" :
+					{
+							"output" : "/actions/system/in/ToggleRoomView"
+					}
+				}
+			}
+		] }
+	}
 }
+
+

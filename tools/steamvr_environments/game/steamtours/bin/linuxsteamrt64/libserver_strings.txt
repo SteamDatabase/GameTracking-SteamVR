@@ -565,9 +565,10 @@
  D;t$
  E9l$\
  H97tbH
- H;52
- H;5y
- H;=y2I
+ H;5I
+ H;5dfs
+ H;=A
+ H;=I3I
  HcC`L
  HcClI)
  HcJ(1
@@ -1593,8 +1594,7 @@ $woL)
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
-(%EI 
-(%GAm
+(%6o 
 (%[XV
 (%d %d %d %d)
 (%d) %s
@@ -1618,9 +1618,6 @@ $woL)
 (1@zD
 (8HXhx
 (9s ~@H
-(=EB 
-(=Sh 
-(=ct 
 (?R or (?[+-]digits must be followed by )
 (A9] 
 (A9^ 
@@ -1997,9 +1994,7 @@ $woL)
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%(7w
 .%1/W
-.%SZw
 .-M&R
 ...%s
 ...<truncated>...
@@ -2042,6 +2037,7 @@ $woL)
 ..\content
 .0z&u$
 .5=	R
+.5b.v
 .=,5T
 .=9vX
 .>()09
@@ -2138,7 +2134,6 @@ $woL)
 .K${;
 .K,z[
 .K8zBf
-.M;0^
 .M;UU
 .NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
 .O<{4
@@ -2195,6 +2190,7 @@ $woL)
 .tdata
 .text
 .v4s@M
+.valvesig
 .vmaf
 .vrman
 /(6;<
@@ -6708,7 +6704,6 @@ $woL)
 66GameToolEventToolEvent_SFMToolActiveStateChanged_tHookupGameSystem
 67&-@
 692t&H
-6;5:r
 6<]q@
 6<u7@
 6=((E
@@ -6724,6 +6719,7 @@ $woL)
 6CModel
 6CWorld
 6ConVar
+6D#5K
 6D;U$
 6F+U F
 6H92t%H
@@ -6861,8 +6857,8 @@ $woL)
 999999.0
 9:t,H
 9:w7I
-9=K4n
-9=j3n
+9=:4n
+9=z%\
 9>J"@TJ
 9@(D@
 9@ffffff
@@ -6983,7 +6979,7 @@ $woL)
 ;:HcR
 ;:~`H
 ;;D$H
-;=s7|
+;=C8|
 ;@*$pV
 ;@:8t"
 ;A0}4H
@@ -7563,8 +7559,7 @@ $woL)
 @GZ*oG 7@
 @Gr}H
 @H97tbH
-@H;5@fs
-@H;5T[s
+@H;5$\s
 @HH;E
 @HcC(
 @IcD$PH
@@ -12339,6 +12334,7 @@ CXu(H
 CX~<L
 CYA8D$Y
 CZA8D$Zun1
+C[A\]
 C\[A\]
 C\fA+G
 C_OP_InitSetSnapshotOnCP
@@ -12769,7 +12765,6 @@ C|[A\A]A^]
 C|[A\]
 C}t*W
 D#,Hc
-D#-7DP
 D$ 9C 
 D$ 9C t
 D$ 9C t H
@@ -12973,12 +12968,12 @@ D8kSt
 D9 ~NH
 D9!t"
 D9!u"
-D9%yK
+D9%YM
 D9't$H
 D9't,H
 D9(t'I
+D9-WDA
 D90~#H
-D95'-
 D9D$4B
 D9D$4H
 D9F<~
@@ -13016,44 +13011,42 @@ D;"t=H
 D;"t]H
 D;#}|E
 D;$%H
-D;%!<)
-D;%&JH
-D;%(	&
-D;%-*.
-D;%."2
-D;%.z0
-D;%4kD
-D;%6=
-D;%:>U
-D;%:z0
-D;%DJ)
-D;%EX2
-D;%F<
-D;%HjS
-D;%I0|
-D;%NiS
-D;%T~0
-D;%V;
-D;%VK)
-D;%[5{
-D;%b2!
-D;%h":
-D;%lw0
-D;%r1!
-D;%vB|
-D;%yEU
-D;%{#{
+D;%%,.
+D;%&<
+D;%&P)
+D;%&|0
+D;%)DU
+D;%+6{
+D;%6{0
+D;%=lR
+D;%B4!
+D;%FC|
+D;%K${
+D;%OP)
+D;%OX.
+D;%PK:
+D;%R3!
+D;%Z(
+D;%^n7
+D;%`$:
+D;%f&n
+D;%tM#
+D;%vP:
+D;%|v0
 D;'thH
 D;'t{
 D;'t{Hc
 D;(t)
 D;(|`
 D;,%H
-D;-/:(
+D;-&3>
+D;-/<(
 D;.~3L
+D;5YNR
 D;7|-
 D;:tPH
-D;=K[R
+D;=9SR
+D;=s$n
 D;F`u
 D;G@t5H
 D;`0|
@@ -15182,106 +15175,107 @@ H;1t!
 H;2t!H
 H;2u#
 H;3t2H
-H;5 Zs
-H;5(Qk
-H;5,<p
-H;5,cs
-H;56Rk
-H;59Ss
-H;5;Ok
-H;5>rp
-H;5Cvs
-H;5Hwp
-H;5PLs
-H;5PZs
-H;5QNk
-H;5SKp
-H;5\es
-H;5`Rk
-H;5dNp
-H;5hms
-H;5jPp
-H;5l`s
-H;5lcs
-H;5lds
-H;5nmp
-H;5xLp
-H;5x\p
-H;5xfp
+H;5	Ts
+H;5 Ms
+H;5 [s
+H;5!Ok
+H;5#Lp
+H;5,fs
+H;50Sk
+H;54Op
+H;58ns
+H;5:Qp
+H;5<as
+H;5<ds
+H;5<es
+H;5>np
+H;5HMp
+H;5H]p
+H;5Hgp
+H;5P[s
+H;5Sqp
+H;5Vts
+H;5ozp
+H;5x	f
+H;5x|p
+H;5|Qk
 H;7t)H
 H;8tdH
 H;:t(f
-H;= h
-H;= m
-H;=!_f
-H;=&ss
-H;=):k
-H;=):t
-H;=)xt
-H;=-'k
-H;=/1
-H;=/8#
-H;=0 O
-H;=18k
-H;=1]n
-H;=2ko
-H;=4gs
-H;=5<d
-H;=63I
-H;=7lm
-H;=8=k
-H;=;-q
-H;=<hs
-H;=?'C
-H;=?,d
-H;=?/
-H;=F9o
-H;=G$k
-H;=GIq
-H;=Gtm
-H;=L l
-H;=LRo
-H;=O-
-H;=Qss
-H;=W:k
-H;=Wtt
-H;=ZSj
-H;=\&l
-H;=^1k
-H;=^=k
-H;=_J
-H;=_}
-H;=`d
-H;=`gs
-H;=`i
-H;=`n
-H;=bIt
-H;=c8k
-H;=dko
-H;=f #
-H;=f-q
-H;=g9f
-H;=g?q
-H;=gns
-H;=g{m
-H;=hId
-H;=hSE
-H;=jRE
-H;=l!l
-H;=lsj
-H;=m$k
-H;=n:t
-H;=oH
-H;=o{
-H;=p!O
-H;=q3g
-H;=w8f
-H;=wgm
-H;=wxs
-H;=zQE
-H;=zrs
-H;=|ss
-H;=~Ro
+H;=!ts
+H;=$"*
+H;=';k
+H;='ut
+H;=*Tj
+H;=,'l
+H;=.2k
+H;=.>k
+H;=//
+H;=/?#
+H;=0hs
+H;=2Jt
+H;=39k
+H;=4lo
+H;=6.q
+H;=7:f
+H;=7@q
+H;=7os
+H;=7|m
+H;=8Jd
+H;=8TE
+H;=:SE
+H;=<"l
+H;=<tj
+H;==%k
+H;=>;t
+H;=?#%
+H;=?L
+H;=@ 
+H;=@"O
+H;=@f
+H;=@k
+H;=@p
+H;=A4g
+H;=G9f
+H;=Ghm
+H;=Gys
+H;=JRE
+H;=Jss
+H;=Lts
+H;=NSo
+H;=O!
+H;=O!%
+H;=OJ
+H;=Odt
+H;=O}
+H;=Ugj
+H;=W"k
+H;=W/m
+H;=W3f
+H;=W8f
+H;=WHq
+H;=W\m
+H;=Xjj
+H;=Xxt
+H;=\hs
+H;=\uj
+H;=]@q
+H;=]Ed
+H;=_9#
+H;=_H
+H;=a.q
+H;=g7f
+H;=l#C
+H;=nAf
+H;=oF
+H;=uss
+H;=vHt
+H;=w6f
+H;=w=q
+H;=z6o
+H;=|Td
+H;=|vj
+H;=}"k
 H;>t[H
 H;B0u
 H;C r
@@ -15379,7 +15373,7 @@ HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
 Hc8Hi
-Hc=GPs
+Hc=hHs
 Hc@ H
 Hc@$H
 Hc@(H
@@ -16926,14 +16920,13 @@ L9t$H
 L9|$HJ
 L: %.2f deg
 L; tQH
-L;%%{f
-L;%5zf
-L;%Eyf
-L;%Uxf
-L;%e"e
-L;%ewf
-L;%u!e
-L;%uvf
+L;%%yf
+L;%5#e
+L;%5xf
+L;%E"e
+L;%Ewf
+L;%U!e
+L;%e e
 L;0t!A
 L;8tTH
 L;:tL1
@@ -17023,31 +17016,23 @@ Lc!D;a
 Lc#D9b
 Lc#D;c
 Lc#E9
-Lc%$*.
-Lc%%"2
-Lc%%z0
-Lc%+kD
-Lc%-=
-Lc%1>U
-Lc%1z0
-Lc%96w
-Lc%;J)
-Lc%=<
-Lc%@0|
-Lc%Clp
-Lc%K~0
-Lc%M;
-Lc%MK)
-Lc%R5{
-Lc%Y2!
-Lc%_":
-Lc%cw0
-Lc%eX2
-Lc%i1!
-Lc%mB|
-Lc%pEU
-Lc%r#{
-Lc%y*&
+Lc%	7w
+Lc% DU
+Lc%"6{
+Lc%-{0
+Lc%94!
+Lc%=C|
+Lc%B${
+Lc%FP)
+Lc%FX.
+Lc%GK:
+Lc%I3!
+Lc%Un7
+Lc%W$:
+Lc%kM#
+Lc%mP:
+Lc%sv0
+Lc%~I
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -17065,6 +17050,7 @@ Lc7E)
 Lc7E9
 Lc8D;x
 Lc;D;{
+Lc=j$n
 Lc?E)
 Lc@`L9
 LcA E9
@@ -22481,7 +22467,6 @@ W-?VQ
 W0;V0t
 W0Hc_8A
 W3|Uxa
-W5{(z
 W8;2|
 W=eg'
 W?,|C
@@ -22701,7 +22686,10 @@ X360_DST24
 X360_DST24F
 X5^yW
 X9t6@
+X="2y
 X=2v?
+X==2y
+X=t1y
 X@D;XP
 X@TA;U<
 X@ffff
@@ -22737,11 +22725,10 @@ XfA9D]
 Xg8Hc
 XxHc@t
 Y ANb
-Y%VT7
-Y%VV7
+Y%H66
+Y%] 4
 Y(E9^(A
 Y-4(&
-Y-|(:
 Y/&4@4
 Y5,}*
 Y6	@W'g(
@@ -22927,7 +22914,6 @@ Z}uU
 ]u9n5;> )"
 ]xTfA
 ^ t+H
-^%0.{
 ^)8~@
 ^-wf"
 ^0A;^@
@@ -25865,10 +25851,6 @@ destinations_load_steamvr_background
 destinations_load_steamvr_controller
 destinations_player_radius
 destinations_quest_ray_cast_max_count
-destinations_steamvr_world_panel_dpi
-destinations_steamvr_world_panel_height
-destinations_steamvr_world_panel_interact_distance
-destinations_steamvr_world_panel_width
 destroy_immediately
 destroy_particle
 destroy_particle_involving
@@ -26864,6 +26846,7 @@ g$E9w
 g)YNB
 g0E;g@D
 g0L;%
+g0L;%e
 g6F5`pF
 g:l4d2,
 g?Rt+@R
@@ -26871,7 +26854,7 @@ g?g|_\
 g?~h0WPb
 g@3333s
 gF:}@F
-gHL;%Etf
+gHL;%
 gIcD$
 gIcL$
 gPD;g`
@@ -35023,7 +35006,6 @@ t!HcO
 t!IcE
 t!Lc+D;k
 t![A\]
-t";5S
 t"HcK
 t"HcM
 t"HcO
@@ -35047,8 +35029,8 @@ t$8A\]
 t$8E1
 t$8H9
 t$8L9
-t$;=e>
-t$;=eTN
+t$;=5UN
+t$;=E@
 t$<	t 
 t$@A\]
 t$@E1
@@ -35057,8 +35039,8 @@ t$@L9
 t$@fA
 t$@tzHc
 t$D9j
-t$D;-
-t$D;=
+t$D;-Q
+t$D;=t
 t$H9h
 t$HH9
 t$HH9p 
@@ -35080,13 +35062,13 @@ t$lHc
 t$lfA
 t%HcO
 t&D:=
-t&D;5%
+t&D;5
 t&HcC
 t&Hcq
 t&IcD$
 t'D;5
 t'D;=
-t'H;=XFd
+t'H;=(Gd
 t'HcC
 t'HcK
 t'IcD$
@@ -35095,15 +35077,15 @@ t'Lcs
 t'[A\]
 t(;;tR
 t(<)u
-t(D;%
-t(D;-7
+t(D;%_
+t(D;-
 t(H9q
 t(H;p
 t(HcO
 t([A\A]A^]
 t([A\]
 t)D8u
-t)D;%08N
+t)D;%
 t)HcM
 t)Lc+D;k
 t)Mc,$E;l$
@@ -35111,8 +35093,8 @@ t)fD9
 t* Hc
 t*<*u
 t*D9p
-t*D;-
-t*D;-q
+t*D;-A
+t*D;-i
 t*HcO
 t*I;q
 t*LcC
@@ -35136,7 +35118,7 @@ t-Hc9I
 t-Mc4$E;t$
 t-Mcv
 t-rex
-t.D:%
+t.D:%f
 t.H9w(t8H9w0tBH9w8tLH9w@t
 t.HcH
 t.Lc#I
@@ -35206,7 +35188,7 @@ tAffffhF
 tB<#t>
 tBHc]
 tBLc}
-tCLc%
+tCLc%d&n
 tDD9I
 tE[A\]
 tFRA@F
@@ -35598,7 +35580,7 @@ uint32
 uint32_t
 uint64
 uint8
-ujL;-
+ujL;-K
 ujLcWhfE
 uk[A\]
 umM;}
@@ -36189,7 +36171,6 @@ x	D;?
 x ;s|~
 x!;1|
 x";7}
-x";=O
 x$McM E;M0tkI
 x$Mc}
 x(;wPI
@@ -36211,6 +36192,7 @@ x8mUM
 x8udL
 x8uwH
 x:Hcw
+x;;=\
 x<IcH
 x@D;yPD
 xED;c }?E
@@ -36393,12 +36375,12 @@ z{uyA
 { H;}
 { Lcu
 { ~EIc
-{(H;=
+{(H;=z5I
 {(H;}
 {([A\]
 {)<8"@
 {0@cz
-{0H;=D4I
+{0H;=
 {8;C0t4
 {8L;g
 {8L;o
@@ -36406,7 +36388,7 @@ z{uyA
 {@I9x@w
 {@[A\]
 {@ffff
-{HH;=(2I
+{HH;=
 {PD;{`
 {PH;=
 {S6wD
@@ -36508,7 +36490,7 @@ z{uyA
 }3fA;\$~w+H
 }3fA;]vw,L
 }4f;C
-}5D;-
+}5D;-13>
 }8f9Cvr2H
 }8f;rnw2f
 }:Mc,$L
@@ -36567,7 +36549,7 @@ z{uyA
 ~'fE;g
 ~(A\A]A^A_]
 ~)A;]
-~)H9=S
+~)H9=3
 ~)H;^
 ~*HcE
 ~*I;X

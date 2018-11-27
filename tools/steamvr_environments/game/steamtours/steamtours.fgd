@@ -113,9 +113,14 @@
 //
 //-------------------------------------------------------------------------
 
-@PointClass base( Targetname ) orientedwidthheightfixed( 45, 70 ) = point_clientui_steamvr_world_panel :
+@PointClass base( Targetname ) orientedwidthheight( width, height ) = point_clientui_steamvr_world_panel :
 	"An entity used to place one of the SteamVR breakout panels in the world"
 [
+	width(float) : "Width" : "45"
+	height(float) : "Height" : "70"
+	panel_dpi(float) : "DPI" : "24"
+	interact_distance(float) : "Interact Distance" : "150"
+
 	panel_type(Choices) =
 	[
 		0: "Recent Apps"

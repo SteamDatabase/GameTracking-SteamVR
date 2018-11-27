@@ -646,6 +646,8 @@
 "[english]KnucklesCapsenseMode_3"	"Cap Sense controls Grip"
 "VRSettingsCamera_RoomViewMode_Label"	"房間視角攝影機模式"
 "[english]VRSettingsCamera_RoomViewMode_Label"	"Room View Camera Mode"
+"VRSettingsCamera_RoomViewMode_EdgeA"	"顏色邊界"
+"[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
 "VRSettingsCamera_RoomViewMode_VideoTransluscent"	"半透明透視"
 "[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsBindingUITitle"	"控制器配置"
