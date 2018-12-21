@@ -1558,6 +1558,36 @@
 			// inventory_service_id = 1057
 			default_color = [ 255,255,255 ]
 		},
+		{
+			id = "holiday_antler_hat"
+			name = "#VR_Avatar_Wearable_HolidayAntlerHat"
+			desc = "#VR_Avatar_Wearable_HolidayAntlerHat_Desc"
+			content = "models/props/hats/holiday_antler_hat.vmdl"
+			preview_image = "file://{images}/contentdb/holiday_antler_hat.png"
+			locked_by_quest = true
+			// inventory_service_id = 1058
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "holiday_elf_hat"
+			name = "#VR_Avatar_Wearable_HolidayElfHat"
+			desc = "#VR_Avatar_Wearable_HolidayElfHat_Desc"
+			content = "models/props/hats/holiday_elf_hat.vmdl"
+			preview_image = "file://{images}/contentdb/holiday_elf_hat.png"
+			locked_by_quest = true
+			// inventory_service_id = 1059
+			default_color = [ 255,255,255 ]
+		},
+		{
+			id = "holiday_yeti_hat"
+			name = "#VR_Avatar_Wearable_HolidayYetiHat"
+			desc = "#VR_Avatar_Wearable_HolidayYetiHat_Desc"
+			content = "models/props/hats/holiday_yeti_hat.vmdl"
+			preview_image = "file://{images}/contentdb/holiday_yeti_hat.png"
+			locked_by_quest = true
+			// inventory_service_id = 1060
+			default_color = [ 255,255,255 ]
+		},
 	]
 	
 	prop_tools =
@@ -3924,6 +3954,33 @@
 			addon = "candystore"
 			steamvr_addon = "1546540096" // id on public
 		},
+		{
+			id = "quest_holiday_antler_hat"
+			name = "#Quest_HolidayAntlerHat"
+			desc = "#Quest_HolidayAntlerHat_Desc"
+			preview_image = "file://{images}/contentdb/holiday_antler_hat.png"
+			item_generator = "item_generator_holiday_antler_hat"
+			addon = "winter_peak"
+			steamvr_addon = "1594890070" // id on public
+		},
+		{
+			id = "quest_holiday_elf_hat"
+			name = "#Quest_HolidayElfHat"
+			desc = "#Quest_HolidayElfHat_Desc"
+			preview_image = "file://{images}/contentdb/holiday_elf_hat.png"
+			item_generator = "item_generator_holiday_elf_hat"
+			addon = "winter_peak"
+			steamvr_addon = "1594890070" // id on public
+		},
+		{
+			id = "quest_holiday_yeti_hat"
+			name = "#Quest_HolidayYetiHat"
+			desc = "#Quest_HolidayYetiHat_Desc"
+			preview_image = "file://{images}/contentdb/holiday_yeti_hat.png"
+			item_generator = "item_generator_holiday_yeti_hat"
+			addon = "winter_peak"
+			steamvr_addon = "1594890070" // id on public
+		},
 	]
 
 	quests_detector =
@@ -4181,6 +4238,33 @@
 			items = [
 				{
 					id = "halloween_witchhat"
+				}
+			]
+		},
+		// holiday map quest 1
+		{
+			id = "item_generator_holiday_antler_hat"
+			items = [
+				{
+					id = "holiday_antler_hat"
+				}
+			]
+		},
+		// holiday map quest 2
+		{
+			id = "item_generator_holiday_elf_hat"
+			items = [
+				{
+					id = "holiday_elf_hat"
+				}
+			]
+		},
+		// holiday map quest 3
+		{
+			id = "item_generator_holiday_yeti_hat"
+			items = [
+				{
+					id = "holiday_yeti_hat"
 				}
 			]
 		},

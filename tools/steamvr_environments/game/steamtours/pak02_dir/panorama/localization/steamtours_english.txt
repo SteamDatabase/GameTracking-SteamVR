@@ -785,6 +785,12 @@
 		"VR_Avatar_Wearable_ChickenHat_Desc"			"A chicken hat, lovingly knitted by hand/gripper by a knitting bot."
 		"VR_Avatar_Wearable_HalloweenWitchhat"			"Witch Hat"
 		"VR_Avatar_Wearable_HalloweenWitchhat_Desc"		"A witch hat, for Hallowe'en. Did witches ever wear these hats? Were witches themselves ever actually a thing? So many questions."
+		"VR_Avatar_Wearable_HolidayAntlerHat"			"Holiday Antler Hat"
+		"VR_Avatar_Wearable_HolidayAntlerHat_Desc"		"The reindeer is a species of deer found northern regions of the world. They grow new antlers every year, which could be where the ones on this holiday-themed hat came from.\n\nWe're not sure about the ears, however."
+		"VR_Avatar_Wearable_HolidayElfHat"				"Holiday Elf Hat"
+		"VR_Avatar_Wearable_HolidayElfHat_Desc"			"It is speculated that the holiday elf is an archaic human species found in polar regions of the world - a crafty, frosty Homo floresiensis, if you will."
+		"VR_Avatar_Wearable_HolidayYetiHat"				"Holiday Yeti Hat"
+		"VR_Avatar_Wearable_HolidayYetiHat_Desc"		"Judging by the exquisite tool use evident here, the mysterious yeti could well be another archaic human species."
 
 		"SpawnablePanel_RecentApps"						"Recent Apps"
 		"SpawnablePanel_RecentApps_Desc"				"Panel that contains the games and applications that you can launch, sorted by when you last used them."
@@ -860,6 +866,13 @@
 		"Quest_HalloweenPumpkinhead_Desc"		"Unlock this Hallowe'en-themed avatar head at the mysterious Candy Store."
 		"Quest_HalloweenWitchhat"				"Witch Hat Quest"
 		"Quest_HalloweenWitchhat_Desc"			"Unlock this Hallowe'en-themed headwear at the mysterious Candy Store."
+		"Quest_HolidayAntlerHat"				"Holiday Antler Hat Quest"
+		"Quest_HolidayAntlerHat_Desc"			"Unlock this polar-themed headwear at the icy Winter Peak."
+		"Quest_HolidayElfHat"					"Holiday Elf Hat Quest"
+		"Quest_HolidayElfHat_Desc"				"Unlock this polar-themed headwear at the icy Winter Peak."
+		"Quest_HolidayYetiHat"					"Holiday Yeti Hat Quest"
+		"Quest_HolidayYetiHat_Desc"				"Unlock this polar-themed headwear at the icy Winter Peak."
+		
 		
 		"Quest_Detector"						"Weekly Geocaching Quest"
 		"QuestType_Detector"					"{d:quest_quantity} Caches Left"
