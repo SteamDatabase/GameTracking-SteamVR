@@ -50,7 +50,7 @@
 "Error_VRServerNotRunning_Description"	"SteamVR이 제대로 작동하기 위해 이것이 필요합니다."
 "[english]Error_VRServerNotRunning_Description"	"You'll need this for SteamVR to work correctly."
 "Error_VRServerNotRunning_Action"	"VR 서버 실행"
-"[english]Error_VRServerNotRunning_Action"	"Launch VR Server"
+"[english]Error_VRServerNotRunning_Action"	"Restart SteamVR"
 "Error_TrackingDevice_NotValid_Header"	"장치가 연결되어있지 않습니다."
 "[english]Error_TrackingDevice_NotValid_Header"	"Device is not connected"
 "Error_TrackingDevice_NotValid_Description"	"이 장치를 찾을 수 없습니다. 제대로 연결되어있는지 확인한 후 다시 시도해주세요."

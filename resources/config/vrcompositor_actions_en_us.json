@@ -24,6 +24,9 @@
 	"/actions/lasermouse/in/enter": "Enter",
 	"/actions/lasermouse/in/pointer": "Laser Mouse Pointer",
 
+	"/actions/scroll_discrete/in/scroll": "Scroll Panel",
+	"/actions/scroll_smooth/in/scroll": "Scroll Panel",
+
 	"/actions/lasermouse_secondary/in/switchlaserhand": "Become Active Hand",
 
 	"/actions/dualanalog/in/rightclick": "Right Keyboard Click",
@@ -50,5 +53,8 @@
 	"/actions/lasermouse": "Laser Mouse",
 	"/actions/lasermouse_secondary": "Offhand Laser Mouse",
 	"/actions/dualanalog": "Keyboard Entry",
-	"/actions/system": "System Actions"
+	"/actions/system": "System Actions",
+	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
+	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+
 }

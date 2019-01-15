@@ -29,7 +29,10 @@
 		"pixel_size": [ 1920, 1080 ]
 	},
 	"input_desktop": {
-		"url": "/dashboard/controllerbinding.html?desktop=true",
+		"url": "/dashboard/controllerbinding.html",
+		"parameters": {
+			"desktop": true
+		},
 		"name": "controllerbinding_desktop",
 		"type": "window",
 		"resizable": true,
@@ -38,7 +41,11 @@
 		"pixel_size": [ 1920, 1080 ]
 	},
 	"manage_trackers": {
-		"url": "/dashboard/controllerbinding.html?desktop=true&tracker_edit=true",
+		"url": "/dashboard/controllerbinding.html",
+		"parameters": {
+			"desktop": true,
+			"tracker_edit": true
+		},
 		"name": "manage_trackers",
 		"type": "window",
 		"resizable": true,
@@ -62,10 +69,16 @@
 	},
 	"systemui": {
 		"url": "/dashboard/systemui.html",
-		"name": "System UI",
+		"name": "systemui",
 		"type": "overlay",
 		"pixel_size": [ 2048, 2048 ],
 		"setting": [ "dashboard", "systemUI" ]
+	},
+	"bindingcallouts": {
+		"url": "/dashboard/bindingcallouts.html",
+		"name": "bindingcallouts",
+		"type": "overlay",
+		"pixel_size": [ 2048, 2048 ]
 	},
 	"scenegraphtest": {
 		"url": "/dashboard/scenegraphtest.html",

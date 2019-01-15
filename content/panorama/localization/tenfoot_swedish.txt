@@ -290,8 +290,8 @@
 "[english]Panorama_Selection_Norwegian"	"Norsk (Norwegian)"
 "Panorama_Selection_Swedish"	"Svenska"
 "[english]Panorama_Selection_Swedish"	"Svenska (Swedish)"
-"Panorama_Selection_Czech"	"čeština (tjeckiska)"
-"[english]Panorama_Selection_Czech"	"čeština (Czech)"
+"Panorama_Selection_Czech"	"Čeština (tjeckiska)"
+"[english]Panorama_Selection_Czech"	"Čeština (Czech)"
 "Panorama_Selection_Hungarian"	"Magyar (ungerska)"
 "[english]Panorama_Selection_Hungarian"	"Magyar (Hungarian)"
 "Panorama_Selection_Romanian"	"Română (Rumänska)"
@@ -651,4 +651,6 @@
 "[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsBindingUITitle"	"Kontrollbindning"
 "[english]VRSettingsBindingUITitle"	"Controller Binding"
+"VRSettingsTrackerUITitle"	"Hantera Vive Trackers"
+"[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 }

@@ -50,7 +50,7 @@
 "Error_VRServerNotRunning_Description"	"Necesitarás esto para que SteamVR funcione correctamente."
 "[english]Error_VRServerNotRunning_Description"	"You'll need this for SteamVR to work correctly."
 "Error_VRServerNotRunning_Action"	"Iniciar servidor de RV"
-"[english]Error_VRServerNotRunning_Action"	"Launch VR Server"
+"[english]Error_VRServerNotRunning_Action"	"Restart SteamVR"
 "Error_TrackingDevice_NotValid_Header"	"El dispositivo no está conectado"
 "[english]Error_TrackingDevice_NotValid_Header"	"Device is not connected"
 "Error_TrackingDevice_NotValid_Description"	"No podemos encontrar este dispositivo. Asegúrate de que está conectado correctamente e inténtalo de nuevo."

@@ -727,6 +727,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Disable Safe Mode"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
+"Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR Update"
+"Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR has been updated to version %2."
+"Warning_DismissableWarning_SteamVRUpdated_Action" "See what changed"
+"Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
+
 "Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Device info"
 "Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Hover over the icons below to see details and status about each device. If you need to take an action like updating firmware, you will see an ( i ) appear on the icon."
 "Warning_DismissableWarning_WarningsForTheFirstTime_Action" " "

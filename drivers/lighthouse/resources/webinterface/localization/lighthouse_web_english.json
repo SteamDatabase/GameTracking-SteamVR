@@ -1,0 +1,47 @@
+{
+	"language":		"english",
+
+	"pairing_initializing_title": "Initializing",
+	"pairing_initializing_desc": "Loading information about your VR hardware. If this takes more than a moment, please make sure your VR headset and/or wireless adapters are plugged in and turned on, and that SteamVR is running.",
+
+	"pairing_nofreedongles_title": "No available slots for pairing",
+	"pairing_nofreedongles_desc": "This system cannot support more controllers than it currently has connected. Please turn off a controller, or insert an additional wireless adapter and restart SteamVR.",
+
+	"pairing_nodongles_title": "No pairable devices detected",
+	"pairing_nodongles_desc": "SteamVR is unable to find any hardware to pair controllers to. Please make sure your headset is connected.",
+
+
+
+	"pairing_selectdevice_title" : "Pair a controller",
+
+	"pairing_button_choosedifferent" : "Pair a different controller",
+
+	"pairingdevice_knuckles_shortname" : "Knuckles",
+	"pairingdevice_knuckles_controllername" : "Knuckles Controller",
+
+	"pairingdevice_vivewand_shortname" : "Vive Controller",
+	"pairingdevice_vivewand_controllername" : "Vive Controller",
+
+
+	"pairingdevice_vivetracker_shortname" : "Vive Tracker",
+	"pairingdevice_vivetracker_controllername" : "Vive Tracker Tracker",
+
+	"bind_title": "Bind a controller",
+
+	"pairinginstructions_generic_desc": "Place your controller into pairing mode, then click Next to continue.",
+
+	"searching_title": "Looking for controller",
+	"searching_desc": "Waiting for your controller to connect. This may take a moment.",
+
+	"pairfailed_title": "Unable to find controller",
+	"pairfailed_desc_notdetected": "A controller was not detected",
+	"pairfailed_desc_tryagain": "Please ensure your controller is in pairing mode, and try again",
+
+	"pairsuccess_title": "Pairing successful",
+	"pairsuccess_desc": "Successfully paired with your controller.",
+	"pairsuccess_desc_again": "If you would like to pair another controller, please click 'Next'",
+	"pairsuccess_desc_nomoredongles": "All controllers have been paired.",
+
+
+	"DummyEntryToConsumeComma" : "DummyEntryToConsumeComma"
+}

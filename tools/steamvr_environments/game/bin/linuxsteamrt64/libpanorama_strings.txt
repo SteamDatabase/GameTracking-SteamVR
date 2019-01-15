@@ -563,6 +563,7 @@ $woL)
 %s allocation count overflow
 %s allocation count overflow( %llu >= %llu )
 %s called on fill brush type %d
+%s clamping dimensions of panorama composition layer from %f x %f to %f x %f!
 %s is trying to import %s, but that file has already been included either from the layout file directly, or from a different @import.
 %s property listed in a keyframe but marked as cannot transition
 %s shaders not ready. Can't Render
@@ -629,13 +630,13 @@ $woL)
 's~h9g
 (	]zV
 (!(1(=(?(I(Q([(](a(g(u(
-(%|eD
+(%|qD
 (((((ss23_srvr.c
 ((LPBUFFEREDISTREAM)parser->reader)->pos<((LPBUFFEREDISTREAM)parser->reader)->bytesavail
 ((long)msg_hdr->msg_len) > 0
 ()*+,-./*(((
 (*%s*), 
-(-~bD
+(-~nD
 (0'yX
 (1O\,n
 (1ec_key.c
@@ -867,7 +868,8 @@ $woL)
 .%.-.3.7.9.?.W.[.o.y.
 .%X&1
 .&ruA
-.-k|@
+.-r$=
+.-yL>
 ....................
 ...<truncated>...
 ../common/crypto.cpp
@@ -886,11 +888,11 @@ $woL)
 ./hR%
 ./}7^Y
 .5P<e
-.5pVQ
+.5pfQ
 .6<A>Y
 .97yY
 .<P]A
-.=s?>
+.=SL>
 .>N^n~
 .AV8 WorkerThread
 .B4zWuU
@@ -951,6 +953,7 @@ $woL)
 .s|zVf
 .tdata
 .text
+.valvesig
 .valvesoH
 .yAu[7
 .|=tz
@@ -1366,7 +1369,6 @@ $woL)
 8~2Mc
 9#9%9)9/9=9A9M9[9k9y9}9
 9*tfH
-9-grb
 9.1.15
 90t4H
 92}s[
@@ -2923,6 +2925,7 @@ CMS_uncompress
 CMS_verify
 CMemAllocSystemInitialize
 CMemoryStack %s
+COHhc
 COLLECT_DATA
 COLORCORRECTION_VERSION_1
 COMPLEMENTOFALL
@@ -4479,6 +4482,7 @@ GetEnumValue
 GetFillColor
 GetFloat
 GetHeight
+GetInsetShadowLayer
 GetInt32
 GetInt64
 GetLocalHostname
@@ -4608,8 +4612,13 @@ H9wpH
 H;,$H
 H;0t%H
 H;2t-H
-H;=B=
-H;=gG
+H;="%D
+H;=.!
+H;=BM
+H;=Q.
+H;=gW
+H;=j%D
+H;=j&D
 H;C r
 H;CHs
 H;D$ 
@@ -5173,6 +5182,7 @@ Ksg4X
 KuBEN
 K{"Kb,p
 L	t$0H
+L#5($T
 L#8I	
 L#H M	
 L#P(M	
@@ -7884,18 +7894,13 @@ W%0Qv4AV
 W'6S`
 W(L+N0L
 W,:V,u
-W-st	
 W0A;_H
 W0H92t'H
 W0Hc_8A
 W0uMH
 W3i+,
-W5<w	
-W5lt	
 W8L+N@L
 W;()f
-W=Cw	
-W=et	
 W>peSp>9
 WARNING
 WARNING: CDirWatcher not implemented
@@ -8147,7 +8152,7 @@ XqgA+
 Xw:vP
 X~ '.
 Y, ]&]
-Y-7=E
+Y-7ME
 Y93a=7c@
 Y;C;8V
 YMI( 
@@ -8268,8 +8273,6 @@ Z}	8%]
 \$xdH3
 \%02X
 \%03o
-\-4:=
-\-w]?
 \1kYL
 \43n7
 \B0__
@@ -8313,7 +8316,6 @@ Z}	8%]
 ]xIcEpL
 ^ t+H
 ^$z%u#G
-^%pv=
 ^+l}l
 ^.om5r
 ^/w g
@@ -13191,19 +13193,21 @@ o tUH
 o!>d]
 o$$fA
 o$g31
+o%%&Y
 o&1m&
 o(ATSH
 o*:TJ&
-o-pQX
+o-paX
 o0;W,t
 o1+v3
 o2i_ECPublicKey
-o5$QX
+o5$aX
 o8ATL
 o<$fA
 o<$fD
 o<$fE
 o=*oh
+o=l'Y
 o@ fA
 o@0fE
 o@@fA
@@ -15343,6 +15347,7 @@ v<d2}
 vGH;X t:
 vHD:F
 vHH;X
+vQ>d 
 vQH9s(u\H
 vW3N&
 value

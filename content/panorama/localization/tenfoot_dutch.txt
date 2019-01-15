@@ -290,8 +290,8 @@
 "[english]Panorama_Selection_Norwegian"	"Norsk (Norwegian)"
 "Panorama_Selection_Swedish"	"Svenska (Zweeds)"
 "[english]Panorama_Selection_Swedish"	"Svenska (Swedish)"
-"Panorama_Selection_Czech"	"čeština (Tsjechisch)"
-"[english]Panorama_Selection_Czech"	"čeština (Czech)"
+"Panorama_Selection_Czech"	"Čeština (Tsjechisch)"
+"[english]Panorama_Selection_Czech"	"Čeština (Czech)"
 "Panorama_Selection_Hungarian"	"Magyar (Hongaars)"
 "[english]Panorama_Selection_Hungarian"	"Magyar (Hungarian)"
 "Panorama_Selection_Romanian"	"Română (Roemeens)"
@@ -634,4 +634,6 @@
 "[english]VRSettingsKnucklesTitle"	"Knuckles"
 "VRSettingsCamera_RoomViewMode_EdgeA"	"Gekleurde randen"
 "[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
+"VRSettingsTrackerUITitle"	"Vive Trackers beheren"
+"[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 }

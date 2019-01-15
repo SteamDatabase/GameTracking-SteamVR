@@ -189,7 +189,7 @@
 "MenuAction_DisplayMirror" "Display Mirror"
 "MenuAction_ShowControllerBinding" "Controller Input Binding"
 "MenuAction_ShowManageTrackers" "Manage Vive Trackers"
-"MenuAction_ShowQuickStart" "Quick Start"
+"MenuAction_ShowQuickStart" "Guided Setup"
 "MenuAction_UpdateFirmware" "Update Firmware"
 "MenuAction_ForceFirmware" "Force Firmware"
 "MenuAction_DirectMode" "Direct Mode"
@@ -570,6 +570,7 @@
 
 "Advanced_AsyncActive" "Async Reprojection On"
 "Advanced_AsyncNotActive" "Async Reprojection Off"
+"Advanced_DirectModeDisabled" "Direct Mode Off"
 
 "Advanced_MotionEstimationActive" "Motion Smoothing On"
 "Advanced_MotionEstimationNotActive" "Motion Smoothing Off"
@@ -835,8 +836,9 @@
 
 "BluetoothControllerStatus_Unknown"							"Unknown"
 "BluetoothControllerStatus_ServiceNotFound"					"Bluetooth Service not found. Please verify your SteamVR installation."
-"BluetoothControllerStatus_ServiceError"					"Bluetooth Service Error. Link Status: %1"
-"BluetoothControllerStatus_NoBluetoothDevice"				"Link Box with Bluetooth capability not detected. Check link box connections, then unplug and replug power to the link box to reset it, then restart SteamVR."
+"BluetoothControllerStatus_ServiceError"					"Bluetooth Service Error: BT-%1"
+"BluetoothControllerStatus_LinkBoxNotDetected"				"Link Box with Bluetooth capability not detected. Check link box connections, then unplug and replug power to the link box to reset it, then restart SteamVR."
+"BluetoothControllerStatus_NoBluetoothDevice"				"Bluetooth capability not detected."
 "BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Link Box Bluetooth driver not installed."
 "BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"Link Box Bluetooth driver needs to be updated."
 "BluetoothControllerStatus_BluetoothDriverInstalling"		"Installing Bluetooth driver..."
@@ -1113,6 +1115,11 @@
 "BS_PowerManagement_RefreshLink"		"Refresh"
 "BS_PowerManagement_ForgetBase"			"Forget Base"
 "BS_PowerManagement_BaseStations"		"Managed Base Stations"
+
+"Monitor_SpontaneousQuitDialog_Title" "Unexpected SteamVR Error"
+"Monitor_SpontaneousQuitDialog_Message" "SteamVR has encountered a critical error."
+"Monitor_SpontaneousQuitDialog_Restart" "Restart SteamVR"
+"Monitor_SpontaneousQuitDialog_Quit" "Quit SteamVR"
 
 }
 }

@@ -290,8 +290,8 @@
 "[english]Panorama_Selection_Norwegian"	"Norsk (Norwegian)"
 "Panorama_Selection_Swedish"	"Svenska (Suédois)"
 "[english]Panorama_Selection_Swedish"	"Svenska (Swedish)"
-"Panorama_Selection_Czech"	"čeština (Tchèque)"
-"[english]Panorama_Selection_Czech"	"čeština (Czech)"
+"Panorama_Selection_Czech"	"Čeština (Tchèque)"
+"[english]Panorama_Selection_Czech"	"Čeština (Czech)"
 "Panorama_Selection_Hungarian"	"Magyar (Hongrois)"
 "[english]Panorama_Selection_Hungarian"	"Magyar (Hungarian)"
 "Panorama_Selection_Romanian"	"Română (Roumain)"
@@ -656,4 +656,6 @@
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
 "VRSettingsBindingUITitle"	"Configuration de la manette"
 "[english]VRSettingsBindingUITitle"	"Controller Binding"
+"VRSettingsTrackerUITitle"	"Gérer les Vive Trackers"
+"[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 }

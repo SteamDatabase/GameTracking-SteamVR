@@ -21,6 +21,7 @@
     {
       "name": "/actions/system/in/SystemButtonChord",
       "type": "boolean",
+      "hide_callout" : true,
       "scope": "global"
     },
    
@@ -91,9 +92,15 @@
       "type": "boolean"
     },
     {
-      "name": "/actions/lasermouse/in/TrackpadScroll",
+      "name": "/actions/scroll_discrete/in/Scroll",
       "requirement" : "optional",
-      "type": "vector3"
+      "hide_callout" : true,
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/scroll_smooth/in/Scroll",
+      "requirement" : "optional",
+      "type": "vector2"
     },
     {
       "name": "/actions/lasermouse/in/TrackpadTouch",
@@ -221,6 +228,16 @@
     {
       "name": "/actions/lasermouse",
       "usage": "single"
+    },
+    {
+      "name": "/actions/scroll_discrete",
+      "display_with" : "/actions/lasermouse",
+      "usage" : "single"
+    },
+    {
+      "name": "/actions/scroll_smooth",
+      "display_with" : "/actions/lasermouse",
+      "usage" : "single"
     },
     {
       "name": "/actions/lasermouse_secondary",
