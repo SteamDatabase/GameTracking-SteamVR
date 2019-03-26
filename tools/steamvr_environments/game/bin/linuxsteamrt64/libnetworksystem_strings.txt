@@ -7,6 +7,7 @@
 	Group                    = '%s'
 	Group ID                 = %u
 	ID                       = %u
+	Io%w
 	JS_NORMAL
 	JS_NUMBER
 	JS_STRING
@@ -812,6 +813,7 @@ $woL)
 .symtab
 .tdata
 .text
+.valvesig
 /I9D$
 /proc/net/route
 /seq[%d]_size[%d]_tm[%.3f].txt

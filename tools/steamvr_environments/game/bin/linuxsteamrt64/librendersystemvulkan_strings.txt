@@ -1099,6 +1099,7 @@ $woL)
 .strtab
 .symtab
 .text
+.valvesig
 .vpk:
 /-S}|{
 // OpModuleProcessed 

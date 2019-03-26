@@ -2935,7 +2935,6 @@ panorama/dynamic_images.vpdi_c CRC:00e3348a09 size:178405
 panorama/dynamic_images_addon.vpdi_c CRC:0093ad896b size:1062
 panorama/dynamic_images_addon_sentinel.vtex_c CRC:000b6f1813 size:20948
 panorama/dynamic_images_sentinel.vtex_c CRC:000b6f1813 size:20948
-panorama/fonts/tenfoot.uifont CRC:00b30eb213 size:1267938
 panorama/images/cache_finder/captured_cache_1_png.vtex_c CRC:0043ad4979 size:411492
 panorama/images/cache_finder/captured_cache_2_png.vtex_c CRC:007f7915d7 size:411492
 panorama/images/cache_finder/locate_cache_1_png.vtex_c CRC:006325d2a0 size:411476
@@ -3567,7 +3566,7 @@ scripts/vscripts/tools/cache_crate.lua CRC:00fe5c83f8 size:27657
 scripts/vscripts/tools/cache_finder_tool.lua CRC:00731b6cfc size:32540
 scripts/vscripts/tools/drone.lua CRC:00ec347de5 size:26456
 scripts/vscripts/tools/drone_prop.lua CRC:002e46e4a2 size:1032
-scripts/vscripts/tools/freeze_tool.lua CRC:00bda23f96 size:27587
+scripts/vscripts/tools/freeze_tool.lua CRC:003c5008b8 size:27711
 scripts/vscripts/tools/generic_tool_hold.lua CRC:002b398c6a size:1343
 soundevents/destinations_third_party.vsndevts_c CRC:0091fc61e5 size:4990
 soundevents/soundevents_core.vsndevts_c CRC:0070db5a56 size:584

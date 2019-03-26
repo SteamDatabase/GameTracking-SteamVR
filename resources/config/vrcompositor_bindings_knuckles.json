@@ -107,15 +107,6 @@
             },
             {
                "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/lasermouse/in/TrackpadScroll"
-                  }
-               },
-               "mode" : "trackpad_scroll",
-               "path" : "/user/hand/right/input/trackpad"
-            },
-            {
-               "inputs" : {
                   "east" : {
                      "output" : "/actions/lasermouse/in/RightClick"
                   }
@@ -164,15 +155,6 @@
             },
             {
                "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/lasermouse/in/TrackpadScroll"
-                  }
-               },
-               "mode" : "trackpad_scroll",
-               "path" : "/user/hand/left/input/trackpad"
-            },
-            {
-               "inputs" : {
                   "east" : {
                      "output" : "/actions/lasermouse/in/RightClick"
                   }
@@ -214,6 +196,41 @@
                   }
                },
                "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "discrete"
+               },
+               "path" : "/user/hand/left/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_discrete/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "discrete"
+               },
+               "path" : "/user/hand/right/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_discrete/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "discrete",
+                  "discrete_scroll_trackpad_noisethreshold_ontouch" : "0.15",
+                  "discrete_scroll_trackpad_noisethreshold_onmove" : "0.01",
+                  "discrete_scroll_trackpad_noisethreshold_onreversal" : "0.045",
+                  "discrete_scroll_trackpad_accumthreshold_ontouch" : "0.78",
+                  "discrete_scroll_trackpad_accumthreshold_onmove" : "0.28",
+                  "discrete_scroll_trackpad_accumthreshold_onreversal" : "0.84",
+                  "discrete_scroll_trackpad_slideandhold_bordertop" : "0.55",
+                  "discrete_scroll_trackpad_slideandhold_borderbottom" : "-0.65"
+               },
                "path" : "/user/hand/left/input/trackpad"
             },
             {
@@ -223,6 +240,17 @@
                   }
                },
                "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "discrete",
+                  "discrete_scroll_trackpad_noisethreshold_ontouch" : "0.15",
+                  "discrete_scroll_trackpad_noisethreshold_onmove" : "0.01",
+                  "discrete_scroll_trackpad_noisethreshold_onreversal" : "0.045",
+                  "discrete_scroll_trackpad_accumthreshold_ontouch" : "0.78",
+                  "discrete_scroll_trackpad_accumthreshold_onmove" : "0.28",
+                  "discrete_scroll_trackpad_accumthreshold_onreversal" : "0.84",
+                  "discrete_scroll_trackpad_slideandhold_bordertop" : "0.55",
+                  "discrete_scroll_trackpad_slideandhold_borderbottom" : "-0.65"
+               },
                "path" : "/user/hand/right/input/trackpad"
             }
          ]
@@ -237,7 +265,11 @@
                },
                "mode" : "scroll",
                "parameters" : {
-                  "smooth_mode" : "true"
+                  "scroll_mode" : "smooth",
+                  "smooth_scroll_edge_min_swipe" : "0.75",
+                  "smooth_scroll_edge_scroll_threshold" : "0.55",
+                  "smooth_scroll_edge_scroll_threshold_vertical_bias" : "0.1",
+                  "smooth_scroll_trackpad_aspect_ratio" : "0.5"
                },
                "path" : "/user/hand/left/input/trackpad"
             },
@@ -249,9 +281,37 @@
                },
                "mode" : "scroll",
                "parameters" : {
-                  "smooth_mode" : "true"
+                  "scroll_mode" : "smooth",
+                  "smooth_scroll_edge_min_swipe" : "0.75",
+                  "smooth_scroll_edge_scroll_threshold" : "0.55",
+                  "smooth_scroll_edge_scroll_threshold_vertical_bias" : "0.1",
+                  "smooth_scroll_trackpad_aspect_ratio" : "0.5"
                },
                "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_smooth/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "smooth"
+               },
+               "path" : "/user/hand/left/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_smooth/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "smooth"
+               },
+               "path" : "/user/hand/right/input/thumbstick"
             }
          ]
       },

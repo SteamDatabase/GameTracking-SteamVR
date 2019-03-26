@@ -330,6 +330,7 @@ $woL)
 .strtab
 .symtab
 .text
+.valvesig
 .vwnod
 /(6;<
 /><B&?

@@ -2100,7 +2100,7 @@
 "DismissableWarning_SteamVRInSafeMode"	"SteamVR i felsäkert läge (0x1000000)"
 "[english]DismissableWarning_SteamVRInSafeMode"	"SteamVR In Safe Mode (0x1000000)"
 "MenuAction_ShowQuickStart"	"Snabbstart"
-"[english]MenuAction_ShowQuickStart"	"Quick Start"
+"[english]MenuAction_ShowQuickStart"	"Guided Setup"
 "MonitorController_SwitchSafeMode_Header"	"Felsäkert läge"
 "[english]MonitorController_SwitchSafeMode_Header"	"Safe Mode"
 "MonitorController_DisableSafeMode_Text"	"SteamVR körs för närvarande i felsäkert läge. I detta läge kommer endast betrodda drivrutiner att läsas in för att undvika kompatibilitetsproblem.\n\nÄr du säker på att du vill inaktivera felsäkert läge och läsa in alla installerade drivrutiner? SteamVR kommer att startas om när denna ändring görs."

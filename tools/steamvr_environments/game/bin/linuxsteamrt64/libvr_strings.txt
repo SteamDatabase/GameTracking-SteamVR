@@ -182,7 +182,7 @@ $fD	8
 )D$ ~SL
 *** Eye %d Pixel( %d, %d ) has the smallest uv area
 *** Eye %d: %dx%d area RenderTarget( %f, %f ) Scale( %f, %f )
-*-aoE
+*-!pE
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN13CSOAContainer9FilterInXEi9IntAABB_tiPKfbEUliE_EEMS8_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 *:JZjz
 *D$4A
@@ -285,6 +285,7 @@ $fD	8
 .strtab
 .symtab
 .text
+.valvesig
 //-----------------------------------------------------------------------------------------
 /><B&?
 /?O_o
@@ -1410,7 +1411,6 @@ D:z	t
 D:z	tUHc
 D;!t{Hc
 D;'t{Hc
-D;56/9
 D;`0|
 D;c D
 D;cp|
@@ -1717,7 +1717,7 @@ H9*tgH
 H9H t
 H9H t)H
 H9W8t	]
-H;=_y?
+H;=m;E
 H;@ t3H
 H;C r
 H;CHs
@@ -2072,6 +2072,7 @@ L$HfA
 L*0L9
 L9,$Mc
 L9cHv
+L;%fY?
 L;F0tAH
 LE_BGRA8888
 LE_BGRX8888
@@ -2132,6 +2133,7 @@ Linear
 LoadEXRImageFromMemory( %s ) failed! Error message: %s
 LoadEXRImageFromMemory() failed! Error message: %s
 LoadFromBuffer: expected '{', found '%s'
+Loading action manifest from depot.
 Localize_001
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
@@ -2200,7 +2202,6 @@ Mct$(E;t$8
 Mct$81
 Mc|$8E;|$HD
 Mc|$P
-MdpP>A
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Memory allocation failed while processing sCAL
@@ -2335,7 +2336,6 @@ Not enough memory to process iTXt chunk
 Not enough memory to process text chunk
 Not enough memory to process zTXt chunk
 Not implemented yet
-Not running on customer machine. Manually providing action manifest.
 O 9N t
 O tmH
 O0~_G
@@ -2431,7 +2431,6 @@ Plat_GetThreadIndex
 Plat_GlobalMemoryStatus
 Plat_IsHighDPI
 Plat_IsInDebugSessionRaw
-Plat_IsRunningOnCustomerMachine
 Plat_MessageBox
 Plat_RelativeTicks
 Plat_ShouldCollectMiniDumpsForFatalErrors
@@ -2550,7 +2549,6 @@ RnSoftbodyParticle_t
 RnSoftbodySpring_t
 RnSphereDesc_t
 Row has too many bytes to allocate in memory
-Running on customer machine. Relying on SteamVR to provide action manifest.
 S +K$M
 S2_CVR_LoadingBackground
 S2_CVR_LoadingForeground
@@ -4272,19 +4270,19 @@ vortex
 vpcf1
 vphys
 vr.cpp
-vr.cpp(4548): ERROR! Unknown controller axis type %d!
-vr.cpp(5658): VR - Destroying old VB for Stenciling!
-vr.cpp(5703): VR - Error! VB handle is invalid in CVrStencilRenderer!
-vr.cpp(5847): VR - Destroying old VB for SubviewStenciling!
-vr.cpp(6189): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
-vr.cpp(6370): VR - Destroying old IB for warping!
-vr.cpp(6448): VR - Error! VB handle is invalid in CVrWarpRenderer!
-vr.cpp(6457): VR - Error! IB handle is invalid in CVrWarpRenderer!
-vr.cpp(6607): VR - Destroying old VB for reconstruction eye %d!
-vr.cpp(6614): VR - Destroying old IB for reconstruction eye %d!
-vr.cpp(6635): VR - Destroying old IB for reconstruction!
-vr.cpp(6775): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
-vr.cpp(6784): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(4549): ERROR! Unknown controller axis type %d!
+vr.cpp(5659): VR - Destroying old VB for Stenciling!
+vr.cpp(5704): VR - Error! VB handle is invalid in CVrStencilRenderer!
+vr.cpp(5848): VR - Destroying old VB for SubviewStenciling!
+vr.cpp(6190): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
+vr.cpp(6371): VR - Destroying old IB for warping!
+vr.cpp(6449): VR - Error! VB handle is invalid in CVrWarpRenderer!
+vr.cpp(6458): VR - Error! IB handle is invalid in CVrWarpRenderer!
+vr.cpp(6608): VR - Destroying old VB for reconstruction eye %d!
+vr.cpp(6615): VR - Destroying old IB for reconstruction eye %d!
+vr.cpp(6636): VR - Destroying old IB for reconstruction!
+vr.cpp(6776): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(6785): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
 vr_author_refpt vrfly_refpt_pos vrfly_refpt_ang anchor models/dev/gordon_at_desk.vmdl
 vr_black_level_clamp
 vr_chaperone_hardbounds_disabled

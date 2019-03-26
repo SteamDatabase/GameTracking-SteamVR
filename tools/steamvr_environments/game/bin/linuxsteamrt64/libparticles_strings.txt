@@ -258,6 +258,7 @@ $tr[A\A]A^]
 .strtab
 .symtab
 .text
+.valvesig
 /><B&?
 0 -128 0
 0 0 -800

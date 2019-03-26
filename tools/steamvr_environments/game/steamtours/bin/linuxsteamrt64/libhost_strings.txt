@@ -664,6 +664,7 @@ $woL)
 .symtab
 .tdata
 .text
+.valvesig
 /(6;<
 /I9D$
 /content/

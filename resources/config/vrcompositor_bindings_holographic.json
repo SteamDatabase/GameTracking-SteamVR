@@ -79,14 +79,6 @@
             "source": [ "/user/hand/right/input/trackpad/x", "/user/hand/right/input/trackpad/y" ]
         },
         {
-            "action": "/actions/lasermouse/in/TrackpadScroll",
-            "source": [ "/filters/laser_scroll_l/x", "/filters/laser_scroll_l/y", "/filters/laser_scroll_l/repeat_count" ]
-        },
-        {
-            "action": "/actions/lasermouse/in/TrackpadScroll",
-            "source": [ "/filters/laser_scroll_r/x", "/filters/laser_scroll_r/y", "/filters/laser_scroll_r/repeat_count" ]
-        },
-        {
             "action": "/actions/lasermouse_secondary/in/SwitchLaserHand",
             "source": "/filters/secondary_trigger_lasermouse_l/result"
         },
@@ -144,11 +136,11 @@
 			"type" : "boolean_button_press_state",
 			"input" : "/filters/all_system_buttons/result",
 			"action_sets" : [ "/actions/system", "/actions/lasermouse", "/actions/dualanalog" ],
-			"parameters" : 
+			"parameters" :
 			{
 				"long_press_delay" : 1.5
 			},
-			"output" : 							 
+			"output" :
 			{
 				"long" : "long",
 				"double" : "double",
@@ -192,22 +184,6 @@
 			"output" : "result"
 		},
 		{
-			"name" : "laser_scroll_l",
-			"type" : "trackpad_scroll",
-			"input" :
-			{
-				"x" : "/user/hand/left/input/trackpad/x",
-				"y" : "/user/hand/left/input/trackpad/y",
-				"touch" : "/user/hand/left/input/trackpad/touch"
-			},
-			"output" :
-			{
-				"x" : "x",
-				"y" : "y",
-				"repeat_count" : "repeat_count"
-			}
-		},
-		{
 			"name": "lasermouse_dpad_l",
 			"type": "dpad",
 			"action_sets": [ "/actions/lasermouse" ],
@@ -221,22 +197,6 @@
 				"south" : "south",
 				"east" : "east",
 				"west" : "west"
-			}
-		},
-		{
-			"name" : "laser_scroll_r",
-			"type" : "trackpad_scroll",
-			"input" :
-			{
-				"x" : "/user/hand/right/input/trackpad/x",
-				"y" : "/user/hand/right/input/trackpad/y",
-				"touch" : "/user/hand/right/input/trackpad/touch"
-			},
-			"output" :
-			{
-				"x" : "x",
-				"y" : "y",
-				"repeat_count" : "repeat_count"
 			}
 		},
 		{
@@ -386,17 +346,6 @@
 		},
 		{
 			"path" : "/user/hand/right/input/trackpad",
-			"mode" : "trackpad_scroll",
-			"inputs" :
-			{
-				"scroll" :
-				{
-					"output" : "/actions/lasermouse/in/TrackpadScroll"
-				}
-			}
-		},
-		{
-			"path" : "/user/hand/right/input/trackpad",
 			"mode" : "dpad_click",
 			"inputs" :
 			{
@@ -456,17 +405,6 @@
 		},
 		{
 			"path" : "/user/hand/left/input/trackpad",
-			"mode" : "trackpad_scroll",
-			"inputs" :
-			{
-				"scroll" :
-				{
-					"output" : "/actions/lasermouse/in/TrackpadScroll"
-				}
-			}
-		},
-		{
-			"path" : "/user/hand/left/input/trackpad",
 			"mode" : "dpad_click",
 			"inputs" :
 			{
@@ -517,6 +455,108 @@
 		],
 		"poses":
 		[]},
+	      "/actions/scroll_discrete" : {
+	         "sources" : [
+	            {
+	               "inputs" : {
+	                  "scroll" : {
+	                     "output" : "/actions/scroll_discrete/in/scroll"
+	                  }
+	               },
+	               "mode" : "scroll",
+	               "path" : "/user/hand/left/input/trackpad"
+	            },
+	            {
+	               "inputs" : {
+	                  "scroll" : {
+	                     "output" : "/actions/scroll_discrete/in/scroll"
+	                  }
+	               },
+	               "mode" : "scroll",
+	               "path" : "/user/hand/right/input/trackpad"
+	            },
+	            {
+	               "inputs" : {
+	                  "scroll" : {
+	                     "output" : "/actions/scroll_discrete/in/scroll"
+	                  }
+	               },
+	               "mode" : "scroll",
+	               "parameters" : {
+	                  "scroll_mode" : "discrete"
+	               },
+	               "path" : "/user/hand/left/input/joystick"
+	            },
+	            {
+	               "inputs" : {
+	                  "scroll" : {
+	                     "output" : "/actions/scroll_discrete/in/scroll"
+	                  }
+	               },
+	               "mode" : "scroll",
+	               "parameters" : {
+	                  "scroll_mode" : "discrete"
+	               },
+	               "path" : "/user/hand/right/input/joystick"
+	            }
+	         ]
+	      },
+		"/actions/scroll_smooth": {
+			"sources": [
+				{
+					"path": "/user/hand/left/input/trackpad",
+					"mode": "scroll",
+					"parameters": {
+						"scroll_mode": "smooth",
+						"smooth_scroll_multiplier": "11.8"
+					},
+					"inputs": {
+						"scroll": {
+							"output": "/actions/scroll_smooth/in/scroll"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/right/input/trackpad",
+					"mode": "scroll",
+					"parameters": {
+						"scroll_mode": "smooth",
+						"smooth_scroll_multiplier": "11.8"
+					},
+					"inputs": {
+						"scroll": {
+							"output": "/actions/scroll_smooth/in/scroll"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/left/input/joystick",
+					"mode": "scroll",
+					"parameters": {
+						"scroll_mode": "smooth",
+						"smooth_scroll_joystick_min_input_magnitude": "0.3"
+					},
+					"inputs": {
+						"scroll": {
+							"output": "/actions/scroll_smooth/in/scroll"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/right/input/joystick",
+					"mode": "scroll",
+					"parameters": {
+						"scroll_mode": "smooth",
+						"smooth_scroll_joystick_min_input_magnitude": "0.3"
+					},
+					"inputs": {
+						"scroll": {
+							"output": "/actions/scroll_smooth/in/scroll"
+						}
+					}
+				}
+			]
+		},
 		"/actions/system" : {
 		"chords" :
 		[

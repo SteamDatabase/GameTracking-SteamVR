@@ -95,6 +95,7 @@ $[A\]
 .strtab
 .symtab
 .text
+.valvesig
 //KEY_PAD_DIVIDE
 /?KEY_SLASH
 /content/
@@ -516,6 +517,7 @@ HostStateMgr001
 I;V@w
 IQuickTime001
 IVGui unable to connect to required interfaces!
+IaG\gyc6
 IcE 1
 Ic]PI
 Icu`H

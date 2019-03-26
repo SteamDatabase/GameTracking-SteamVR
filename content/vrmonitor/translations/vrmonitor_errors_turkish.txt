@@ -963,5 +963,13 @@
 "[english]Warning_DismissableWarning_SteamVRInSafeMode_ActionURL"	"vrmonitor://safemode/disable"
 "Error_VRServerNotRunning_ActionURL"	"vrmonitor://restartsystem"
 "[english]Error_VRServerNotRunning_ActionURL"	"vrmonitor://restartsystem"
+"Warning_DismissableWarning_SteamVRUpdated_Header"	"SteamVR Güncellemesi"
+"[english]Warning_DismissableWarning_SteamVRUpdated_Header"	"SteamVR Update"
+"Warning_DismissableWarning_SteamVRUpdated_Description"	"SteamVR %2 sürümüne güncellendi."
+"[english]Warning_DismissableWarning_SteamVRUpdated_Description"	"SteamVR has been updated to version %2."
+"Warning_DismissableWarning_SteamVRUpdated_Action"	"Değişikliklere göz atın"
+"[english]Warning_DismissableWarning_SteamVRUpdated_Action"	"See what changed"
+"Warning_DismissableWarning_SteamVRUpdated_ActionURL"	"%1"
+"[english]Warning_DismissableWarning_SteamVRUpdated_ActionURL"	"%1"
 }
 }

@@ -308,6 +308,7 @@ $[A\]
 .strtab
 .symtab
 .text
+.valvesig
 /home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/_generated_code/animationsystem/release/linuxsteamrt64/../../../../public/animationsystem/compression.h
 00000000-0000-0000-0000-000000000000
 0[A\A]A^A_]
@@ -2389,7 +2390,7 @@ D9{ u
 D;!t{Hc
 D;"t$H
 D;%ElU
-D;%keB
+D;%KeB
 D;'t{Hc
 D;:tPH
 D;`@|
@@ -2798,7 +2799,6 @@ H	p(]
 H	w(UH
 H!w(H
 H9*tgH
-H9:tqHcR
 H;B(uIL
 H;B(uLL
 H;S@w
@@ -3112,7 +3112,7 @@ Lc D;`
 Lc!D;a
 Lc#D;c
 Lc#E9
-Lc%beB
+Lc%BeB
 Lc&D;f
 Lc'E)
 Lc(D;h

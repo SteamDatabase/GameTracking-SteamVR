@@ -158,6 +158,7 @@ $[A\]
 .strtab
 .symtab
 .text
+.valvesig
 /content/
 /game/
 0[A\]
@@ -992,6 +993,7 @@ write@@GLIBC_2.2.5
 x[A\A]A^A_]
 zh_CN
 zh_TW
+zz\}j
 {0[A\]
 {8;C0t4
 {}()':

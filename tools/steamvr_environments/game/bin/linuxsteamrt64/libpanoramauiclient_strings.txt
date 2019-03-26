@@ -376,6 +376,7 @@ $woL)
 .symtab
 .tdata
 .text
+.valvesig
 .valvesoH
 // 2 px horizontal radii 4px vertical elliptical corners on all sides
 // All corners fully specified 
@@ -496,6 +497,7 @@ $woL)
 8[A^A_]
 8[]A\A]A^A_
 8webm
+95VpA
 9C t=H
 9C tOH
 9C t^I
@@ -662,7 +664,6 @@ $woL)
 @82t+1
 @8wtt
 @:2t'
-@:9tx
 @@H;E
 @A;t$
 @HH;E
@@ -1548,6 +1549,7 @@ E;t$ M
 E;t$0
 E;t$d
 E;t$h
+E=z?T1"
 ED$HI
 ED$XI
 EIA8G
@@ -1868,7 +1870,7 @@ H9X u
 H9\$P
 H9w UH
 H9w(UH
-H;=wx\
+H;=gx\
 H;C I
 H;C t%H
 H;C(H
@@ -2131,7 +2133,6 @@ L+g H
 L9l$(u
 L9t$(u
 L9|$HJ
-L;-$#3
 L;d$@L
 LABEL_OPTIONAL
 LABEL_REPEATED
@@ -6487,7 +6488,7 @@ zzYQ,
 ~&H97t@
 ~)A;]
 ~0;x0
-~7Lc%
+~7Lc%8
 ~CMoviePlayer
 ~CPanel2D - destroy members
 ~SHcC

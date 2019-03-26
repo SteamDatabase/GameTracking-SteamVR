@@ -1108,7 +1108,7 @@
 		"SetFavoriteButtonTitle" "Favorite"
 		"IsFavoriteButtonTitle"		"Favorited"
 		"IsFavoriteButtonHover"		"Unfavorite"
-		"DownloadMessage"		"Your content is downloading now."
+		"DownloadMessage"		"Downloading..."
 		"LoadingBackgroundMessage" "Loading Background"
 		"LoadingAppsMessage" "Loading Apps"
 		"ConfirmationTitle"	"Are you sure?"

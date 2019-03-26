@@ -73,6 +73,8 @@ $[A\]
 .strtab
 .symtab
 .text
+.valvesig
+0(p{f
 0[A\]
 0[]A\A]A^
 0x%016llX

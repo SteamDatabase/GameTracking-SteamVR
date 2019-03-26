@@ -408,6 +408,7 @@ $woL)
 .strtab
 .symtab
 .text
+.valvesig
 .vpk:
 //ATTRIBMAP-
 /><B&?
@@ -1390,6 +1391,7 @@ EXRHeader is not initialized.
 EXRReadFile() - B channel not found!
 EXRReadFile() - G channel not found!
 EXRReadFile() - R channel not found!
+EaG\=
 Early exit
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -3716,6 +3718,7 @@ I;G(t1H
 I;V@w
 IB "%s" : Attempted to create too big of a dynamic index buffer!
 IB: %d buffers, %.2f MB
+IE]T}
 INPUT_LAYOUT_VARIATION_DEFAULT
 INPUT_LAYOUT_VARIATION_MAX
 INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID

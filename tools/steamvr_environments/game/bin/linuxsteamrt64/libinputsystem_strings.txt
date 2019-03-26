@@ -73,6 +73,7 @@ $tG[A\A]A^]
 .strtab
 .symtab
 .text
+.valvesig
 /cursor.res
 0[A\]
 0[]A\A]A^
@@ -957,6 +958,7 @@ Z_AXIS_POS
 \t!Hc
 \u0000
 ^ t+H
+_:er/
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses

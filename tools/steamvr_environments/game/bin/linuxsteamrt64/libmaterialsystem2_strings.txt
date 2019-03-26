@@ -320,6 +320,7 @@ $t_Mc
 .strtab
 .symtab
 .text
+.valvesig
 .vfont
 .vpk:
 .vpost
@@ -651,6 +652,7 @@ $t_Mc
 @XA^]
 @[A\A]A^]
 @[A\]
+@aG\G
 @tBE+
 @tjI9
 A#D$ 	

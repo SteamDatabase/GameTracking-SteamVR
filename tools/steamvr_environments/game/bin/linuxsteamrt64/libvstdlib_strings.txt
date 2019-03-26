@@ -88,6 +88,7 @@ $woL)
 (none)
 *ZN11CThreadPool11GetDummyJobEvE9CDummyJob
 *[A\A]A^]
+*cY1'
 +K$Lc
 +S$Hc
 +s$Hc
@@ -139,6 +140,7 @@ $woL)
 .symtab
 .tbss
 .text
+.valvesig
 /I9D$
 /content/
 /game/
@@ -645,6 +647,7 @@ K@H9J
 KOREAN
 KV Conditional Evaluation Error
 KV Conditional: Unknown symbol %s
+KaG\}_
 KeyValueCache001
 KeyValues Error: %s in file %s
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
@@ -1304,6 +1307,7 @@ dup@@GLIBC_2.2.5
 english
 environ@@GLIBC_2.2.5
 error
+es1T:
 essential
 execute_per_tick
 execvpe

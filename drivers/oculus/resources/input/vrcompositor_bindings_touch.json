@@ -154,7 +154,7 @@
 			"output": "/actions/lasermouse/in/Pointer",
 			"path": "/user/hand/right/pose/tip"
 		}
-	
+
 	]
       },
       "/actions/lasermouse_secondary" : {
@@ -181,6 +181,56 @@
                "inputs" : {},
                "mode" : "none",
                "path" : "/user/hand/right/input/joystick"
+            }
+         ]
+      },
+      "/actions/scroll_discrete": {
+         "sources": [
+            {
+               "path": "/user/hand/left/input/joystick",
+               "mode": "scroll",
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_discrete/in/scroll"
+                  }
+               }
+            },
+            {
+               "path": "/user/hand/right/input/joystick",
+               "mode": "scroll",
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_discrete/in/scroll"
+                  }
+               }
+            }
+         ]
+      },
+      "/actions/scroll_smooth": {
+         "sources": [
+            {
+               "path": "/user/hand/left/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
+            },
+            {
+               "path": "/user/hand/right/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
             }
          ]
       },
@@ -367,11 +417,11 @@
 			"type" : "boolean_button_press_state",
 			"input" : "/filters/all_system_buttons/result",
 			"action_sets" : [ "/actions/system", "/actions/lasermouse", "/actions/dualanalog" ],
-			"parameters" : 
+			"parameters" :
 			{
 				"long_press_delay" : 1.5
 			},
-			"output" : 							 
+			"output" :
 			{
 				"long" : "long",
 				"double" : "double",
@@ -464,7 +514,7 @@
 			"name" : "screenshot_chord",
 			"type" : "boolean_and",
 			"action_sets" : [ "/actions/system" ],
-			"input" : 
+			"input" :
 			{
 				"1":"/filters/system_button/held",
 				"2":"/filters/any_trigger_chord/result"

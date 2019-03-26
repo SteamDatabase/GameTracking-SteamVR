@@ -51,6 +51,7 @@ $ORIGIN
 .strtab
 .symtab
 .text
+.valvesig
 0[A\]
 0[]A\A]A^
 10ConCommand

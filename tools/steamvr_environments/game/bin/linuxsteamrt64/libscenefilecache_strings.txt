@@ -85,6 +85,7 @@ $[A\]
 .strtab
 .symtab
 .text
+.valvesig
 0<	v@H
 0[A\]
 0[]A\A]A^
@@ -343,6 +344,7 @@ EIA\A]A^]
 EMPTY - ok for slot zero only!
 EXA;]`
 EXPORTSYSTEM_INTERFACE_VERSION_001
+EaG\g
 EarlyInit_Tier0
 Ease In
 Ease In/Out

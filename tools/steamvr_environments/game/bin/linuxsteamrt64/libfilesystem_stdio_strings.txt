@@ -108,6 +108,7 @@ $[A\]
 .symtab
 .tbss
 .text
+.valvesig
 /content/
 /game/
 0123456789ABCDEF

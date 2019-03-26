@@ -153,6 +153,7 @@ $[A\]
 .strtab
 .symtab
 .text
+.valvesig
 00000000-0000-0000-0000-000000000000
 0<	w5H
 0Ic\$
@@ -781,6 +782,7 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.4
 GLOBAL: %s
+GaG\bQ
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -1319,6 +1321,7 @@ X[A\A]]
 X[]A\A]A^A_
 ZIcL$
 [%d] = 
+[.2zw
 [A\A]A^A_]
 [A\A]A^A_]A
 [A\A]A^]

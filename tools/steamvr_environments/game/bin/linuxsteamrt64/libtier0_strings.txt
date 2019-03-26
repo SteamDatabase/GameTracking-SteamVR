@@ -243,6 +243,7 @@ $[A\]
 .symtab
 .tbss
 .text
+.valvesig
 /e%s%s
 /etc/SUSE-release
 /etc/debian_release
@@ -561,6 +562,7 @@ HEAP WARNING: memory pointer %p is invalid
 H[A\A]A^A_]
 H[A\A]]
 H[]A\A]A^A_
+HaG\N
 HangWatchdog
 HangWatchdogInternal_BeginScope
 HangWatchdogInternal_EndScope

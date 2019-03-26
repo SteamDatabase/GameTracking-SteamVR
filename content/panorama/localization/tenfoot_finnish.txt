@@ -650,6 +650,10 @@
 "[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
 "VRSettingsCamera_RoomViewMode_EdgeB"	"Värilliset haamut"
 "[english]VRSettingsCamera_RoomViewMode_EdgeB"	"Colored Ghosts"
+"VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Läpikuultava tila"
+"[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsBindingUITitle"	"Painikemääritys"
 "[english]VRSettingsBindingUITitle"	"Controller Binding"
+"VRSettingsTrackerUITitle"	"Hallitse Vive Trackereita"
+"[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 }

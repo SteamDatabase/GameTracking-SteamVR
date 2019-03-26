@@ -656,4 +656,6 @@
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
 "VRSettingsBindingUITitle"	"コントローラ割り当て"
 "[english]VRSettingsBindingUITitle"	"Controller Binding"
+"VRSettingsTrackerUITitle"	"Vive トラッカーの管理"
+"[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 }

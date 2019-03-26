@@ -723,6 +723,7 @@ $fD	8
 .tbss
 .tdata
 .text
+.valvesig
 .}CSunLightManager
 /><B&?
 /?O_o

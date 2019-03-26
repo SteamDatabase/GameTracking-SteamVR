@@ -109,6 +109,7 @@ $ORIGIN
 .strtab
 .symtab
 .text
+.valvesig
 0[A\A]A^A_]
 0[A\A]A^]
 0[A\]
@@ -592,6 +593,7 @@ ERROR: Resource name "%s" has the incorrect extension "%s" for the specified res
 ERROR: Specified full path %s does not lie under the mod search path!)
 ERROR: Specified path %s could not be made content-relative
 EXPORTSYSTEM_INTERFACE_VERSION_001
+EaG\_
 EarlyInit_Tier0
 EconItemToolModel_001
 Encountered nonexistent %s: %016llX (file "%s")

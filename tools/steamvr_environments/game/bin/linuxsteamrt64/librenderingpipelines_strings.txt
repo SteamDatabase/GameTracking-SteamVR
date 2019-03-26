@@ -14,6 +14,7 @@
  max. %f
  min. %f
  performH
+!L/Bu
 "%s" 
 "%s" = "%s"
 "pA3Q
@@ -120,6 +121,7 @@ $[A\]
 .strtab
 .symtab
 .text
+.valvesig
 00000000-0000-0000-0000-000000000000
 0=Off, 1=DebugWireframe, 2=DebugSolidBlink
 0[A\A]A^A_]

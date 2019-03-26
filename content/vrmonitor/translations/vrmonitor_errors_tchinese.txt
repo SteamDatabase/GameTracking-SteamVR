@@ -949,7 +949,7 @@
 "[english]VRInitError_IPC_ServerInitFailed_FirstActionURL"	"vrmonitor://reboothmd"
 "Warning_DismissableWarning_SteamVRInSafeMode_Header"	"安全模式的 SteamVR"
 "[english]Warning_DismissableWarning_SteamVRInSafeMode_Header"	"SteamVR in Safe Mode"
-"Warning_DismissableWarning_SteamVRInSafeMode_Description"	"鑑如最近出現崩潰，SteamVR 目前是在安全模式運行。在此模式下只會讀取信任的驅動程式以避免相容性問題。"
+"Warning_DismissableWarning_SteamVRInSafeMode_Description"	"由於最近發生當機，SteamVR 目前是以安全模式執行。在此模式下只會載入信任的驅動程式以避免相容性問題。"
 "[english]Warning_DismissableWarning_SteamVRInSafeMode_Description"	"Due to a recent crash, SteamVR is currently operating in safe mode. In this mode it will only load trusted drivers to avoid compatibility issues."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action"	"關閉安全模式"
 "[english]Warning_DismissableWarning_SteamVRInSafeMode_Action"	"Disable Safe Mode"
@@ -957,5 +957,13 @@
 "[english]Warning_DismissableWarning_SteamVRInSafeMode_ActionURL"	"vrmonitor://safemode/disable"
 "Error_VRServerNotRunning_ActionURL"	"vrmonitor://restartsystem"
 "[english]Error_VRServerNotRunning_ActionURL"	"vrmonitor://restartsystem"
+"Warning_DismissableWarning_SteamVRUpdated_Header"	"SteamVR 更新"
+"[english]Warning_DismissableWarning_SteamVRUpdated_Header"	"SteamVR Update"
+"Warning_DismissableWarning_SteamVRUpdated_Description"	"SteamVR 已更新至第 %2 版。"
+"[english]Warning_DismissableWarning_SteamVRUpdated_Description"	"SteamVR has been updated to version %2."
+"Warning_DismissableWarning_SteamVRUpdated_Action"	"檢視已變更項目"
+"[english]Warning_DismissableWarning_SteamVRUpdated_Action"	"See what changed"
+"Warning_DismissableWarning_SteamVRUpdated_ActionURL"	"%1"
+"[english]Warning_DismissableWarning_SteamVRUpdated_ActionURL"	"%1"
 }
 }

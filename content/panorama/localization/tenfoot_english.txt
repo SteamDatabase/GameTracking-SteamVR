@@ -217,6 +217,7 @@
 	"Notifications_Header" 	"NEW"
 	"VRHome_Header" 	"RETURN TO HOME"
 	"Camera_Header" 	"ROOM VIEW"
+	"BindingCallout_Header" 	"SHOW CONTROLS"
 	"Settings_Header"	"SETTINGS"
 	"Quit_Header"	"QUIT"
 	"DashboardClose_Header" "CLOSE"

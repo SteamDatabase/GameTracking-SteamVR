@@ -658,4 +658,12 @@
 "[english]VRSettingsBindingUITitle"	"Controller Binding"
 "VRSettingsTrackerUITitle"	"Administrer Vive-trackere"
 "[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
+"Panorama_Lang_Latam_Spanish"	"Latam"
+"[english]Panorama_Lang_Latam_Spanish"	"Latam"
+"Panorama_Lang_Latam_Vietnamese"	"Vietnamesisk"
+"[english]Panorama_Lang_Latam_Vietnamese"	"Vietnamese"
+"Panorama_Selection_Latam_Spanish"	"Español-Latinoamérica (spansk-latinamerikansk)"
+"[english]Panorama_Selection_Latam_Spanish"	"Español-Latinoamérica (Spanish-Latin America)"
+"Panorama_Selection_Vietnamese"	"Tiếng Việt (vietnamesisk)"
+"[english]Panorama_Selection_Vietnamese"	"Tiếng Việt (Vietnamese)"
 }

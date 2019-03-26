@@ -180,6 +180,7 @@ $woL)
 .strtab
 .symtab
 .text
+.valvesig
 /><B&?
 /?O_o
 /I9D$
@@ -371,6 +372,7 @@ $woL)
 8|)fC
 8~2Mc
 9.1.15
+9.tKm:
 9C(s&A
 9C0~!E1
 9G ~%
@@ -760,6 +762,7 @@ DXT1DXT3DXT5
 DXT1_ONEBITALPHA
 DXT5"
 DXT5_NM
+DaG\y]
 Data error in compressed datastream in %s chunk
 Deallocate
 DebugTextureInfo001

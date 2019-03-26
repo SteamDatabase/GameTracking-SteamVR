@@ -158,6 +158,7 @@ $woL)
 .strtab
 .symtab
 .text
+.valvesig
 /I9D$
 0 - no auto-resize
 0 - top-left

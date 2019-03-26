@@ -154,6 +154,7 @@ $[]A\
 .symtab
 .tbss
 .text
+.valvesig
 /* GNU ld script
 /var/srcH
 0123456789abcdef

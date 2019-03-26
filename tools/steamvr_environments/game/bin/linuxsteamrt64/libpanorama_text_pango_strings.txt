@@ -671,6 +671,7 @@ $tjHcF
 .tdata
 .text
 .uifont
+.valvesig
 .vfont
 .yAu[7
 /":lnv 
@@ -7177,6 +7178,7 @@ associatedDomain
 associatedName
 attempt to reuse session in different context
 attrib
+au[)L7I
 audio
 authority and issuer serial number mismatch
 authority and subject key identifier mismatch
@@ -9068,6 +9070,7 @@ missing tmp rsa pkey
 missing value
 missing verify message
 mllt!
+mo1zn
 mobileTelephoneNumber
 module initialization error
 module=
@@ -10770,7 +10773,6 @@ token present
 too many iterations
 too many temporary variables
 tp~V=
-tqHcQ
 tq~oE
 trailerField
 trailing_comments

@@ -346,6 +346,7 @@ $[A\]
 .strtab
 .symtab
 .text
+.valvesig
 .vmdl
 /%u.rnsave
 // %d. possible regions:
@@ -4214,6 +4215,7 @@ Z@H+r0L
 ZHcK(1
 ZHcK@1
 ZIcL$
+ZL^'!
 [ %d ]
 [ %u ] 
 [%d] %d convex, %d mesh
