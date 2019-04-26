@@ -245,12 +245,19 @@
 "VRInitError_Driver_CalibrationInvalid_Action" "More info"
 "VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
-"VRInitError_Driver_HmdDisplayNotFound_Header" "Headset Disconnected"
-"VRInitError_Driver_HmdDisplayNotFound_Description" "Please make sure your headset is connected properly, then reset it below."
+"VRInitError_Driver_HmdDisplayNotFound_Header" "Headset Display Disconnected"
+"VRInitError_Driver_HmdDisplayNotFound_Description" "Please make sure your video cables are securely connected. The headset's display was not found."
 "VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Reset Headset"
 "VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
 "VRInitError_Driver_HmdDisplayNotFound_Action" "More info"
 "VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Laptop: Headset Display Disconnected"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Please make sure your video cables are securely connected to your laptop. Laptops may require special setup to work with VR."
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Reset Headset"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "More info"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
 "VRInitError_Driver_HmdDisplayMirrored_Header" "Headset display mirrored"
 "VRInitError_Driver_HmdDisplayMirrored_Description" "The headset's display was not found, but a mirrored display was detected.  Please set the headset to extended mode rather than mirrored."
@@ -429,7 +436,7 @@
 "ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
 "ChaperoneCalibrationState_Error_Header" "Room Setup"
-"ChaperoneCalibrationState_Error_Description" "Please perform Room Setup to redefine your play area and chaperone bounds."
+"ChaperoneCalibrationState_Error_Description" "Please perform Room Setup to define your play area and chaperone bounds."
 "ChaperoneCalibrationState_Error_Action" "Perform Room Setup"
 "ChaperoneCalibrationState_Error_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
@@ -438,17 +445,17 @@
 "ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Perform Room Setup"
 "ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
-"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Room Setup Error"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Room Setup"
 "ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Please perform Room Setup to redefine your play area and chaperone bounds."
 "ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Perform Room Setup"
 "ChaperoneCalibrationState_Error_BaseStationConflict_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Room Setup Error"
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Room Setup"
 "ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Please perform Room Setup to redefine your play area and chaperone bounds."
 "ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Perform Room Setup"
 "ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Room Setup Error"
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Room Setup"
 "ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "Please perform Room Setup to redefine your play area and chaperone bounds."
 "ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Perform Room Setup"
 "ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
@@ -687,8 +694,8 @@
 "Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
 "Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
 
-"Popover_BaseStationsTooFarApart_Header" "A note about your VR setup"
-"Popover_BaseStationsTooFarApart_Description" "Your base stations are %1 meters apart. For the best experience, consider repositioning them so they're no more that 5.5 meters (18 feet) apart."
+"Popover_BaseStationsTooFarApart_Header" "VR setup notice"
+"Popover_BaseStationsTooFarApart_Description" "Your base stations are %1 meters apart. For the best experience, consider repositioning them so they're no more than 5.5 meters (18 feet) apart."
 "Popover_BaseStationsTooFarApart_Action" "More info"
 "Popover_BaseStationsTooFarApart_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
@@ -702,8 +709,8 @@
 "Warning_DismissableWarning_RunTutorialAgain_Action" "More info"
 "Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
-"Warning_DismissableWarning_BasestationsTooFarApart_Header" "A note about your VR setup"
-"Warning_DismissableWarning_BasestationsTooFarApart_Description" "Your base stations are farther apart than recommended. For the best experience, consider repositioning them so they're no more that 5.5 meters (18 feet) apart. "
+"Warning_DismissableWarning_BasestationsTooFarApart_Header" "VR setup notice"
+"Warning_DismissableWarning_BasestationsTooFarApart_Description" "Your base stations are farther apart than recommended. For the best experience, consider repositioning them so they're no more than 5.5 meters (18 feet) apart. "
 "Warning_DismissableWarning_BasestationsTooFarApart_Action" "More info"
 "Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
@@ -827,10 +834,20 @@
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "More info"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "Tether Disconnected at Headset"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Your headset's cable has become disconnected at the headset. Please ensure the connection behind the face gasket is firmly seated."
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "More info"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR Error"
-"Warning_DismissableWarning_HDCPError_Description" "SteamVR has encountered an HDMI error. Please create a SteamVR System Report for further info."
+"Warning_DismissableWarning_HDCPError_Description" "SteamVR has encountered an HDCP error. Please create a SteamVR System Report for further info."
 "Warning_DismissableWarning_HDCPError_Action" "More info"
 "Warning_DismissableWarning_HDCPError_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_OutOfVideoMemory_Header" "Out Of Video Memory"
+"Warning_DismissableWarning_OutOfVideoMemory_Description" "Your system is running low on video memory which will cause poor performance. Try exiting the current application, or restarting SteamVR."
+"Warning_DismissableWarning_OutOfVideoMemory_Action" "More info"
+"Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
 }
 }

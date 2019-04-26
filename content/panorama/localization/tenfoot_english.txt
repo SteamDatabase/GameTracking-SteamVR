@@ -231,6 +231,7 @@
 	"VR_Status"	"VR STATUS"
 	"VR_Notification_Title_Dashboard"	"Access the Dashboard"
 	"VR_Notification_Content_Dashboard"	"Press the System Button to begin"	
+	"App_Not_Responding" "Application not responding..."
 	
 	"VRSettings" "SteamVR Settings"
 	"NotificationsHeader" "Notifications"

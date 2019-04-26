@@ -230,7 +230,7 @@
 "[english]Panorama_Lang_Footer_Polish"	"POLISH"
 "Panorama_Lang_Footer_Danish"	"Danca"
 "[english]Panorama_Lang_Footer_Danish"	"DANISH"
-"Panorama_Lang_Footer_Dutch"	"Felemenkçe"
+"Panorama_Lang_Footer_Dutch"	"FELEMENKÇE"
 "[english]Panorama_Lang_Footer_Dutch"	"DUTCH"
 "Panorama_Lang_Footer_Finnish"	"Fince"
 "[english]Panorama_Lang_Footer_Finnish"	"FINNISH"

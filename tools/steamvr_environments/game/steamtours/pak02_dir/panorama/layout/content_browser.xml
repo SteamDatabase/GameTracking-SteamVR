@@ -922,7 +922,29 @@
 			</Panel>
 		</Panel>
 
-		<Panel class="DownloadingMessage" id="DownloadingMessage">
+    <Panel class="WaitForSharedDownloadWrapper">
+      <Panel class="WaitForSharedDownloadDialog">
+        <Label class="WaitForSharedDownloadMessageTitle" text="#WaitForSharedDownloadMessageTitle" />
+
+        <Panel class="SharedDownloadProgressContainer">
+          <Panel id="SharedDownloadProgressBar" class="SharedDownloadProgressBar" />
+        </Panel>
+
+        <Label id="SharedDownloadClientsRemainingLabel" class="SharedDownloadClientsRemainingLabel" text="#SharedDownloadClientsRemaining" />
+        <Label id="SharedDownloadClientsFinishedLabel" class="SharedDownloadClientsFinishedLabel" text="#SharedDownloadClientsFinished" />
+
+        <Panel class="WaitForSharedDownloadButtons">
+          <Button id="ForceMoveToWorkshopDestinationButton" class="DestinationButton" onactivate="ForceMoveToDestination()">
+            <Label class="ForceMoveToWorkshopDestinationLabel" text="#ForceMoveToWorkshopDestinationText" />
+          </Button>
+          <Button id="CancelMoveToWorkshopDestinationButton" class="DestinationButton" onactivate="CancelMoveToDestination()">
+            <Label class="CancelMoveToWorkshopDestinationLabel" text="#CancelMoveToWorkshopDestinationText" />
+          </Button>
+        </Panel>
+      </Panel>
+    </Panel>
+
+    <Panel class="DownloadingMessage" id="DownloadingMessage">
 			<Image class="DownloadIcon" src="s2r://panorama/images/content_browser/download_icon_png.vtex" />
 			<Label class="DownloadMessage" text="#DownloadMessage" />
 		</Panel>

@@ -256,6 +256,7 @@
 "Settings_ArcadeMode" "Enable arcade mode"
 "Settings_PauseOnStandby" "Pause rendering when headset is idle"
 "Settings_DebugInputBindings" "Enable debugging options in the input binding user interface"
+"Settings_DoNotFadeToGrid" "Do not fade to grid when app hangs"
 
 "Settings_ShowPlaylistMenu" "Show playlist menu"
 "Settings_StartSteamVROnAppLaunch" "Start SteamVR when a VR application starts"
@@ -404,8 +405,12 @@
 "Settings_Advanced_MotionSmoothing_Header" "Motion Smoothing"
 "Settings_Advanced_MotionSmoothing_Description" "Synthesizes new frames to maintain a good experience when the running application cannot keep up."
 "Settings_Advanced_MotionSmoothing" "Enable motion smoothing"
-"Settings_Advanced_MotionSmoothing_Disabled" "Motion Smoothing is unavailable. It requires Windows 10 and an %1 GPU with drivers %2 or newer."
-"Settings_Advanced_MotionSmoothing_Disabled_AMD" "Motion Smoothing is currently unavailable on AMD hardware."
+"Settings_Advanced_MotionSmoothing_Disabled" "Motion Smoothing is not supported on this gpu or drivers are out of date."
+"Settings_Advanced_MotionSmoothing_Disabled_Win7" "Motion Smoothing is not supported on older versions of Windows."
+
+"Settings_Advanced_RefreshRate_Header" "Refresh Rate"
+"Settings_Advanced_RefreshRate_HzSuffix" "hz"
+"Settings_Advanced_Restart" "<i>This pending change will take effect once you <a href='vrmonitor://restartsystem'><span style='color:white;'>Restart SteamVR</span></a></i>"
 
 "Settings_Advanced_Supersampling_Header" "Application Resolution"
 "Settings_Advanced_AllowSupersampleFiltering" "Enable advanced supersample filtering" 
@@ -798,6 +803,7 @@
 "FirmwareWizard_ProgressTextLeft" "("
 "FirmwareWizard_ProgressTextRight" ")"
 "FirmwareWizard_ProgressTextMiddle" "of"
+"FirmwareWizard_ProgressPercent" "[ %1% ]"
 
 "FirmwareWizard_WatchmanUpdate" "Tracking Device Update"		
 "FirmwareWizard_WatchmanFPGAUpdate" "Tracking Device Update"
@@ -853,6 +859,7 @@
 "BluetoothControllerStatus_ServiceError"					"Bluetooth Error: BT-%1"
 "BluetoothControllerStatus_LinkBoxNotDetected"				"Link Box with Bluetooth capability not detected. Check link box connections, then unplug and replug power to the link box to reset it, then restart SteamVR."
 "BluetoothControllerStatus_NoBluetoothDevice"				"Bluetooth capability not detected."
+"BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded"	"Bluetooth capability not detected. A device update is needed to enable this feature. Hover over the headset icon and select Update Device."
 "BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Link Box Bluetooth driver not installed."
 "BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"Link Box Bluetooth driver needs to be updated."
 "BluetoothControllerStatus_BluetoothDriverInstalling"		"Installing Bluetooth driver..."
@@ -1126,13 +1133,16 @@
 "BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"		"%1 requires a device update to enable device identification."
 "BS20_ConfigureChannel_RSSI"								"RSSI: %1"
 
-"BS_PowerManagement_Title"				"Base Station Power Management"
-"BS_PowerManagement_Enable"				"Enable Power Management *"
-"BS_PowerManagement_Enable_Explanation"	"Power managed Base Stations go into standby mode when SteamVR is not in use, and wake up again when SteamVR starts.\n\n* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users."
-"BS_PowerManagement_RefreshLink"		"Refresh"
-"BS_PowerManagement_ForgetBase"			"Forget this device"
-"BS_PowerManagement_BaseStations"		"Managed base stations"
-"BS_PowerManagement_VisibleNowInTracking"	"Visible now"
+"BS_PowerManagement_Title"									"Base Station Power Management"
+"BS_PowerManagement_Enable"									"Enable Power Management *"
+"BS_PowerManagement_Enable_Explanation"						"Power managed Base Stations go into standby mode when SteamVR is not in use, and wake up again when SteamVR starts.\n"
+"BS_PowerManagement_Enable_Warning"							"<font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
+"BS_PowerManagement_RefreshLink"							"Refresh"
+"BS_PowerManagement_ForgetBase"								"Forget this device"
+"BS_PowerManagement_BaseStations"							"Managed Base Stations"
+"BS_PowerManagement_VisibleNowInTracking"					"Visible now in this tracking session"
+"BS_PowerManagement_ObservedInTracking"						"Observed in a prior tracking session"
+"BS_PowerManagement_FailedToConnectRefresh"					"%1 failed to connect. Click 'Refresh' to try again."
 
 "Monitor_SpontaneousQuitDialog_Title" "Unexpected SteamVR Error"
 "Monitor_SpontaneousQuitDialog_Message" "SteamVR has encountered a critical error."
@@ -1144,6 +1154,9 @@
 "Monitor_RestartRequestedDialog_Message" "Driver %1 needs to restart SteamVR.\n%2"
 "Monitor_RestartRequestedDialog_Restart" "Restart SteamVR"
 "Monitor_RestartRequestedDialog_Quit" "Quit SteamVR"
+
+"Monitor_WakingBaseStations" "Waking up Base Stations..."
+"Monitor_PuttingBaseStationsInStandby" "Bases going into standby..."
 
 }
 }

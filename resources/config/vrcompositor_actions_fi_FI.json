@@ -22,7 +22,7 @@
 	"/actions/lasermouse/in/enter": "Anna",
 	"/actions/lasermouse/in/pointer": "Laserhiiren osoitin",
 	"/actions/scroll_discrete/in/scroll": "Vierityspaneeli",
-	"/actions/scroll_smooth/in/scroll": "Vieritysruutu",
+	"/actions/scroll_smooth/in/scroll": "Vierityspaneeli",
 	"/actions/lasermouse_secondary/in/switchlaserhand": "Aktiivinen käsi (muutos)",
 	"/actions/dualanalog/in/rightclick": "Näppäimistön oikea klikkaus",
 	"/actions/dualanalog/in/leftclick": "Näppäimistön vasen klikkaus",
@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "Erikoislaserhiiri",
 	"/actions/dualanalog": "Näppäimistösyöte",
 	"/actions/system": "Järjestelmätoiminnot",
-	"/actions/scroll_discrete": "Hiiren rullan tapainen vieritys",
+	"/actions/scroll_discrete": "Hiirirullan kaltainen vieritys",
 	"/actions/scroll_smooth": "Kosketuslevyn kaltainen vieritys"
 }

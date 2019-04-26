@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "Sekundær håndholdt lasermus",
 	"/actions/dualanalog": "Tastaturindtasning",
 	"/actions/system": "Systemhandlinger",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "Rulning som musehjul",
+	"/actions/scroll_smooth": "Rulning som trackpad"
 }

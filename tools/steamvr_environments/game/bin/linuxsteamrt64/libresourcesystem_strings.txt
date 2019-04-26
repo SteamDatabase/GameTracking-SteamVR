@@ -10,39 +10,48 @@
 	References grouped by matching call stack of at least 4 frames '%s'
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
  ( def. "%s" )
+ - %d / %d allocated
+ - Cluster[%d]@%8p = '%s' (type %d)
+ D:s$u
  [%.3f server clamped to %.3f]
  [A\A]A^]
  [A\]
- []A\
  max. %f
  min. %f
+ tMv+@
+ thUH
 !m_bNeedsSort
 "%s" 
 "%s" = "%s"
-"t&L;}
+"pA3Q
 #[A\]
-$+s$Hc
+$A+D$
 $A;\$
 $E;D$
 $ORIGIN
+$[A\]
 %-120s
 %-120s - %s
+%.15lf
 %d General references (More ResourceAddRef() calls than ResourceRelease())
 %d Manifest references (Still holding onto a HResourceManifest somewhere)
 %d Schema references (Most likely a resource referring to another resource)
 %d Strong handle references (Still holding onto a CStrongHandle somewhere)
-%d total counted strings.
 %i %i %i %i
 %lld, 
 %s$Fence%d
-%s%-20s%-30s = Total: % 8.2fms, Avg: % 8.2fus, Count: % 7d
 %s%s%s%s
 %s.%s
-%s.360%s
 %s: string format requested %d chars
+%sResource System profile stats unavailable. Compile with RESOURCE_SYSTEM_GATHER_STATS as 1 to gather stats.
+&YA1D
+&YA1H
+&YA1L
+'":|;
+(HcWP
+(None)
 ([A\A]A^A_]
 ([A\A]]
-([A\A^]
 ([]A\A]A^A_
 ** Forcing all resource loads to fail: "%s"
 *** Bad deletion request: Refcount for %s resource "%s" (%016llX) is greater than zero. (%d)!
@@ -54,10 +63,9 @@ $ORIGIN
 + ResourceAddRef(), ResourceReferencePairingId_t: %d, operation: %lld
 + Schematized reference, %d operations: %s
 + Schematized reference, Pairing ID: %d, operation: %lld
-+K$Lc
 +S$Hc
++X$Hc
 +s$Hc
-+s$Ic
 - CStrongHandle, %d operations: %s
 - CStrongHandle, operation: %lld)
 - Manifest, %d operations: %s
@@ -66,20 +74,16 @@ $ORIGIN
 - ResourceRelease(), ResourceReferencePairingId_t: %d, operation: %lld
 - Schematized reference, %d operations: %s
 - Schematized reference, Pairing ID: %d, operation: %lld
--VUUU
--VUUUH
--VUUUI
--VUUUL
 -exit_on_resource_load_failure
 -force_all_resource_loads_to_fail
 -resource_exit_after_time
 -resource_system_verbose
+-resourceleaks
 -sse2
 -sse3
 -sse4
 -start_resource_profiling
 ../public/ordered_constructor.h
-../public/resourcefile/resourcestream.h
 ../public/tier0/tslist.h
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utllinkedlist.h
@@ -109,12 +113,19 @@ $ORIGIN
 .strtab
 .symtab
 .text
-.valvesig
-0[A\A]A^A_]
+00000000-0000-0000-0000-000000000000
+0A81@
+0A91u
+0D91u
+0E81A
+0H32t
 0[A\A]A^]
 0[A\]
-0[A^]
 0[]A\A]A^
+0f91u
+0fA91u
+0fD91u
+0t3Lc
 10ConCommand
 10IAppSystem
 11IRefCounted
@@ -123,7 +134,6 @@ $ORIGIN
 12CThreadEvent
 14CBaseAppSystemI15IResourceSystemE
 14ConCommandBase
-14ISchemaBinding
 15CMemberFunctor0IP25CAsyncResourceDataRequestMS0_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor1IP16CLoadingResourceMS0_FvP25CAsyncResourceDataRequestES3_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CResourceSystem
@@ -137,204 +147,58 @@ $ORIGIN
 16ICommandCallback
 18CAtomicManipulatorI10CTransformE
 18CAtomicManipulatorI10CUtlStringE
+18CAtomicManipulatorI10CUtlSymbolE
 18CAtomicManipulatorI10QuaternionE
-18CAtomicManipulatorI11FourVectorsE
+18CAtomicManipulatorI11DegreeEulerE
+18CAtomicManipulatorI11RadianEulerE
+18CAtomicManipulatorI11matrix3x4_tE
+18CAtomicManipulatorI12CEntityIndexE
 18CAtomicManipulatorI12matrix3x4a_tE
-18CAtomicManipulatorI14CResourceArrayI10CTransformEE
-18CAtomicManipulatorI14CResourceArrayI11FeSimdTri_tEE
-18CAtomicManipulatorI14CResourceArrayI12FeBoxRigid_tEE
-18CAtomicManipulatorI14CResourceArrayI12FeNodeBase_tEE
-18CAtomicManipulatorI14CResourceArrayI12FeSimdQuad_tEE
-18CAtomicManipulatorI14CResourceArrayI13FeFitMatrix_tEE
-18CAtomicManipulatorI14CResourceArrayI13FeFitWeight_tEE
-18CAtomicManipulatorI14CResourceArrayI14FeCtrlOffset_tEE
-18CAtomicManipulatorI14CResourceArrayI14FeFollowNode_tEE
-18CAtomicManipulatorI14CResourceArrayI15CResourceStringEE
-18CAtomicManipulatorI14CResourceArrayI15FeSphereRigid_tEE
-18CAtomicManipulatorI14CResourceArrayI16FeCtrlOsOffset_tEE
-18CAtomicManipulatorI14CResourceArrayI16FeKelagerBend2_tEE
-18CAtomicManipulatorI14CResourceArrayI16FeSimdNodeBase_tEE
-18CAtomicManipulatorI14CResourceArrayI16FeTreeChildren_tEE
-18CAtomicManipulatorI14CResourceArrayI17FeAxialEdgeBend_tEE
-18CAtomicManipulatorI14CResourceArrayI17FeRodConstraint_tEE
-18CAtomicManipulatorI14CResourceArrayI18FeCollisionPlane_tEE
-18CAtomicManipulatorI14CResourceArrayI18FeCtrlSoftOffset_tEE
-18CAtomicManipulatorI14CResourceArrayI18FeNodeIntegrator_tEE
-18CAtomicManipulatorI14CResourceArrayI19FeAnimStrayRadius_tEE
-18CAtomicManipulatorI14CResourceArrayI19FeCollisionSphere_tEE
-18CAtomicManipulatorI14CResourceArrayI19FeSimdFitMatrices_tEE
-18CAtomicManipulatorI14CResourceArrayI20CFeIndexedJiggleBoneEE
-18CAtomicManipulatorI14CResourceArrayI20FeSpringIntegrator_tEE
-18CAtomicManipulatorI14CResourceArrayI21FeNodeReverseOffset_tEE
-18CAtomicManipulatorI14CResourceArrayI21FeSimdRodConstraint_tEE
-18CAtomicManipulatorI14CResourceArrayI23FeSimdAnimStrayRadius_tEE
-18CAtomicManipulatorI14CResourceArrayI23FeTaperedCapsuleRigid_tEE
-18CAtomicManipulatorI14CResourceArrayI24FeSimdSpringIntegrator_tEE
-18CAtomicManipulatorI14CResourceArrayI24FeWorldCollisionParams_tEE
-18CAtomicManipulatorI14CResourceArrayI25FeTaperedCapsuleStretch_tEE
-18CAtomicManipulatorI14CResourceArrayI7FeTri_tEE
-18CAtomicManipulatorI14CResourceArrayI8FeQuad_tEE
-18CAtomicManipulatorI14CResourceArrayIfEE
-18CAtomicManipulatorI14CResourceArrayIjEE
-18CAtomicManipulatorI14CResourceArrayItEE
-18CAtomicManipulatorI15CResourceStringE
+18CAtomicManipulatorI13VectorAlignedE
 18CAtomicManipulatorI15CUtlStringTokenE
+18CAtomicManipulatorI15CUtlSymbolLargeE
+18CAtomicManipulatorI5ColorE
+18CAtomicManipulatorI6QAngleE
 18CAtomicManipulatorI6VectorE
+18CAtomicManipulatorI7VMatrixE
 18CAtomicManipulatorI8Vector2DE
 18CAtomicManipulatorI8Vector4DE
-18CAtomicManipulatorIU8__vectorfE
-18CCountedStringPool
-18CSchemaEnumBindingI11LightType_tE
-18CSchemaEnumBindingI16RMSG_EventType_tE
-18CSchemaEnumBindingI18LightSourceShape_tE
-18CSchemaEnumBindingI19RMSG_SubEventType_tE
+18CAtomicManipulatorIDv4_fE
 18CSchemaManipulatorI10CTransformE
 18CSchemaManipulatorI10CUtlStringE
+18CSchemaManipulatorI10CUtlSymbolE
 18CSchemaManipulatorI10QuaternionE
-18CSchemaManipulatorI11FourVectorsE
+18CSchemaManipulatorI11DegreeEulerE
+18CSchemaManipulatorI11RadianEulerE
+18CSchemaManipulatorI11matrix3x4_tE
+18CSchemaManipulatorI12CEntityIndexE
 18CSchemaManipulatorI12matrix3x4a_tE
-18CSchemaManipulatorI14CResourceArrayI10CTransformEE
-18CSchemaManipulatorI14CResourceArrayI11FeSimdTri_tEE
-18CSchemaManipulatorI14CResourceArrayI12FeBoxRigid_tEE
-18CSchemaManipulatorI14CResourceArrayI12FeNodeBase_tEE
-18CSchemaManipulatorI14CResourceArrayI12FeSimdQuad_tEE
-18CSchemaManipulatorI14CResourceArrayI13FeFitMatrix_tEE
-18CSchemaManipulatorI14CResourceArrayI13FeFitWeight_tEE
-18CSchemaManipulatorI14CResourceArrayI14FeCtrlOffset_tEE
-18CSchemaManipulatorI14CResourceArrayI14FeFollowNode_tEE
-18CSchemaManipulatorI14CResourceArrayI15CResourceStringEE
-18CSchemaManipulatorI14CResourceArrayI15FeSphereRigid_tEE
-18CSchemaManipulatorI14CResourceArrayI16FeCtrlOsOffset_tEE
-18CSchemaManipulatorI14CResourceArrayI16FeKelagerBend2_tEE
-18CSchemaManipulatorI14CResourceArrayI16FeSimdNodeBase_tEE
-18CSchemaManipulatorI14CResourceArrayI16FeTreeChildren_tEE
-18CSchemaManipulatorI14CResourceArrayI17FeAxialEdgeBend_tEE
-18CSchemaManipulatorI14CResourceArrayI17FeRodConstraint_tEE
-18CSchemaManipulatorI14CResourceArrayI18FeCollisionPlane_tEE
-18CSchemaManipulatorI14CResourceArrayI18FeCtrlSoftOffset_tEE
-18CSchemaManipulatorI14CResourceArrayI18FeNodeIntegrator_tEE
-18CSchemaManipulatorI14CResourceArrayI19FeAnimStrayRadius_tEE
-18CSchemaManipulatorI14CResourceArrayI19FeCollisionSphere_tEE
-18CSchemaManipulatorI14CResourceArrayI19FeSimdFitMatrices_tEE
-18CSchemaManipulatorI14CResourceArrayI20CFeIndexedJiggleBoneEE
-18CSchemaManipulatorI14CResourceArrayI20FeSpringIntegrator_tEE
-18CSchemaManipulatorI14CResourceArrayI21FeNodeReverseOffset_tEE
-18CSchemaManipulatorI14CResourceArrayI21FeSimdRodConstraint_tEE
-18CSchemaManipulatorI14CResourceArrayI23FeSimdAnimStrayRadius_tEE
-18CSchemaManipulatorI14CResourceArrayI23FeTaperedCapsuleRigid_tEE
-18CSchemaManipulatorI14CResourceArrayI24FeSimdSpringIntegrator_tEE
-18CSchemaManipulatorI14CResourceArrayI24FeWorldCollisionParams_tEE
-18CSchemaManipulatorI14CResourceArrayI25FeTaperedCapsuleStretch_tEE
-18CSchemaManipulatorI14CResourceArrayI7FeTri_tEE
-18CSchemaManipulatorI14CResourceArrayI8FeQuad_tEE
-18CSchemaManipulatorI14CResourceArrayIfEE
-18CSchemaManipulatorI14CResourceArrayIjEE
-18CSchemaManipulatorI14CResourceArrayItEE
-18CSchemaManipulatorI15CResourceStringE
+18CSchemaManipulatorI13VectorAlignedE
 18CSchemaManipulatorI15CUtlStringTokenE
+18CSchemaManipulatorI15CUtlSymbolLargeE
+18CSchemaManipulatorI5ColorE
+18CSchemaManipulatorI6QAngleE
 18CSchemaManipulatorI6VectorE
+18CSchemaManipulatorI7VMatrixE
 18CSchemaManipulatorI8Vector2DE
 18CSchemaManipulatorI8Vector4DE
-18CSchemaManipulatorIU8__vectorfE
+18CSchemaManipulatorIDv4_fE
 18CUtlCharConversion
 18IAtomicManipulator
 18ISchemaManipulator
 18ITSHashConstructorI21ResourceBindingBase_tE
-19CSchemaClassBindingI10CovMatrix3E
-19CSchemaClassBindingI11FeSimdTri_tE
-19CSchemaClassBindingI11LightDesc_tE
-19CSchemaClassBindingI11OldFeEdge_tE
-19CSchemaClassBindingI12FeBoxRigid_tE
-19CSchemaClassBindingI12FeEdgeDesc_tE
-19CSchemaClassBindingI12FeNodeBase_tE
-19CSchemaClassBindingI12FeSimdQuad_tE
-19CSchemaClassBindingI13CFeJiggleBoneE
-19CSchemaClassBindingI13FeFitMatrix_tE
-19CSchemaClassBindingI13FeFitWeight_tE
-19CSchemaClassBindingI13FourVectors2DE
-19CSchemaClassBindingI14FeCtrlOffset_tE
-19CSchemaClassBindingI14FeFollowNode_tE
-19CSchemaClassBindingI14FeSoftParent_tE
-19CSchemaClassBindingI15FeSphereRigid_tE
-19CSchemaClassBindingI15FourQuaternionsE
-19CSchemaClassBindingI16FeCtrlOsOffset_tE
-19CSchemaClassBindingI16FeFitInfluence_tE
-19CSchemaClassBindingI16FeKelagerBend2_tE
-19CSchemaClassBindingI16FeSimdNodeBase_tE
-19CSchemaClassBindingI16FeTreeChildren_tE
-19CSchemaClassBindingI16FeWeightedNode_tE
-19CSchemaClassBindingI16FourCovMatrices3E
-19CSchemaClassBindingI17CRMSG_Entity_InfoE
-19CSchemaClassBindingI17FeAxialEdgeBend_tE
-19CSchemaClassBindingI17FeBandBendLimit_tE
-19CSchemaClassBindingI17FeRodConstraint_tE
-19CSchemaClassBindingI17PhysFeModelDesc_tE
-19CSchemaClassBindingI18CFeNamedJiggleBoneE
-19CSchemaClassBindingI18CRMSG_Entity_EventE
-19CSchemaClassBindingI18CRMSG_Manifest_NewE
-19CSchemaClassBindingI18CRMSG_System_EventE
-19CSchemaClassBindingI18FeCollisionPlane_tE
-19CSchemaClassBindingI18FeCtrlSoftOffset_tE
-19CSchemaClassBindingI18FeNodeIntegrator_tE
-19CSchemaClassBindingI19FeAnimStrayRadius_tE
-19CSchemaClassBindingI19FeCollisionSphere_tE
-19CSchemaClassBindingI19FeSimdFitMatrices_tE
-19CSchemaClassBindingI20CFeIndexedJiggleBoneE
-19CSchemaClassBindingI20CRCMD_SetProfileModeE
-19CSchemaClassBindingI20CRMSG_Manifest_EventE
-19CSchemaClassBindingI20CRMSG_Resource_EventE
-19CSchemaClassBindingI20CRMSG_Resource_NewIdE
-19CSchemaClassBindingI20FeSpringIntegrator_tE
-19CSchemaClassBindingI21FeNodeReverseOffset_tE
-19CSchemaClassBindingI21FeSimdRodConstraint_tE
-19CSchemaClassBindingI23FeSimdAnimStrayRadius_tE
-19CSchemaClassBindingI23FeTaperedCapsuleRigid_tE
-19CSchemaClassBindingI24FeSimdSpringIntegrator_tE
-19CSchemaClassBindingI24FeWorldCollisionParams_tE
-19CSchemaClassBindingI25FeTaperedCapsuleStretch_tE
-19CSchemaClassBindingI25InfoForResourceTypeCModelE
-19CSchemaClassBindingI26InfoForResourceTypeWorld_tE
-19CSchemaClassBindingI27CRMSG_Resource_ExtReferenceE
-19CSchemaClassBindingI27InfoForResourceTypeVSound_tE
-19CSchemaClassBindingI29InfoForResourceTypeCLightTreeE
-19CSchemaClassBindingI29InfoForResourceTypeCWorldNodeE
-19CSchemaClassBindingI29InfoForResourceTypeIMaterial2E
-19CSchemaClassBindingI30InfoForResourceTypeCEntityLumpE
-19CSchemaClassBindingI30InfoForResourceTypeCRenderMeshE
-19CSchemaClassBindingI31InfoForResourceTypeCTextureBaseE
-19CSchemaClassBindingI33InfoForResourceTypeCPanoramaStyleE
-19CSchemaClassBindingI33InfoForResourceTypeMorphSetData_tE
-19CSchemaClassBindingI34InfoForResourceTypeCNameListEventsE
-19CSchemaClassBindingI34InfoForResourceTypeCNameListStacksE
-19CSchemaClassBindingI34InfoForResourceTypeCPanoramaLayoutE
-19CSchemaClassBindingI34InfoForResourceTypeCPanoramaScriptE
-19CSchemaClassBindingI34InfoForResourceTypePRTMatrixData_tE
-19CSchemaClassBindingI34InfoForResourceTypeWorldLighting_tE
-19CSchemaClassBindingI35InfoForResourceTypeCVoxelVisibilityE
-19CSchemaClassBindingI36InfoForResourceTypeCVMixListResourceE
-19CSchemaClassBindingI36InfoForResourceTypeIParticleSnapshotE
-19CSchemaClassBindingI36InfoForResourceTypeProcessingGraph_tE
-19CSchemaClassBindingI37InfoForResourceTypeCPhysAggregateDataE
-19CSchemaClassBindingI38InfoForResourceTypeCDOTAPatchNotesListE
-19CSchemaClassBindingI40InfoForResourceTypeCVirtualVolumeTextureE
-19CSchemaClassBindingI41InfoForResourceTypeCPanoramaDynamicImagesE
-19CSchemaClassBindingI41InfoForResourceTypeWorldEnvironmentMaps_tE
-19CSchemaClassBindingI42InfoForResourceTypeAnimationResourceData_tE
-19CSchemaClassBindingI42InfoForResourceTypeCPostProcessingResourceE
-19CSchemaClassBindingI43InfoForResourceTypeVBitmapFontRuntimeData_tE
-19CSchemaClassBindingI44InfoForResourceTypeCResourceManifestInternalE
-19CSchemaClassBindingI44InfoForResourceTypeIParticleSystemDefinitionE
-19CSchemaClassBindingI44InfoForResourceTypeProcessingGraphInstance_tE
-19CSchemaClassBindingI46InfoForResourceTypeCDotaItemDefinitionResourceE
-19CSchemaClassBindingI46InfoForResourceTypeSequenceGroupResourceData_tE
-19CSchemaClassBindingI47InfoForResourceTypeAnimationGroupResourceData_tE
-19CSchemaClassBindingI47InfoForResourceTypeCVPhysXSurfacePropertiesListE
-19CSchemaClassBindingI6AABB_tE
-19CSchemaClassBindingI7FeTri_tE
-19CSchemaClassBindingI8FeQuad_tE
 19CSchemaRegistration
-19ISchemaSearchTesterIPK16CSchemaClassInfoE
-20CAsyncTrackingConvar
+1@87@
+1D90u
+1D;G 
+1DBlend
+1E80A
+1E90u
+1H30t
+1H37t
+1f90u
+1fD90u
+1fE90u
 20CPostConnectCallback
 20CRefCountServiceBaseILb1E6CRefMTE
 20CResourceConstructor
@@ -343,12 +207,9 @@ $ORIGIN
 20IResourceTypeManager
 21CUtlCStringConversion
 21IVConCommDataReceived
-22CSchemaEnumBindingBase
 22CSchemaInstallCallback
 22CStreamingResourceData
 23CResourceSystemProfiler
-23CSchemaClassBindingBase
-23CSplitScreenAddedConVar
 23IConCommandBaseAccessor
 23IResourceSystemProfiler
 25CAsyncResourceDataRequest
@@ -365,109 +226,204 @@ $ORIGIN
 28ICodeResourceManifestManager
 29CRD_RegisterResourceDataUtils
 29IRD_RegisterResourceDataUtils
+2@87@
+2A80@
+2f97u
+2fA90u
 30IAsyncResourceDataRequestOwner
 32CSchemaRegistration_resourcefile
+33333333H
 34CSchemaRegistration_resourcesystem
 34CVConResourceProfileCommandHandler
 36CSchemaRegistration_mathlib_extended
-3E8 u
-42HcU
-4fff>fff>fff>fff>
+41f9t
 5t~BC
 6ConVar
-6H92t%H
-6H97tsH
+6I90I
+7H32t
+7I32t
 7IConVar
+7f90u
+899t+H
+8A89@
+8A8:@
 8CFmtStrNILi256ELb0EE
 8CFunctor
+8D;:u
+8I39t
+8I3:t
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
+9f98u
+9w0UH
+9wd}	]
 9wtUH
+:@8>@
+:f98u
+:f99u
+:f9>u
 ;*3$"
-;*t*1
-<$/tyL
-<$A9t$
-</uLH
-<19{ |.
+;0tWD
+;BX|'1
+;G tu+G$L
+<	t6U1
+<	tT<Gt
+<	ucUH
+<!-- schH
+<&t'H
+<&t?]H
+<+tRH
+<9f9|
+<Gt#1
 <INVALID>
-<Rt<<Pt`<S
-<_t5f
+<Rt&<Pu
+<no failure reason set>
 <null>
-=CSP1A
-=CSP1u
-?-resourceleaks
-?LightType_t
-?u0E1
-@Allocate
-@[A\A]A^]
+<unknown>
+>;9t2H
+>A8:@
+>I3:t
+>mempool.cpp
+?CONTENTROOT
+?vmdlkeys0
 @[A\]
-A+D$$9
+@tBE+
+@tB[A\]
+@uWIc
+A#|$TH
 A+D$$H
+A+E$A
+A+E$H
+A+E$I
 A+G$H
-A+G$Lc
-A+W$Hc
-A+W$f
-A+u$Hc
-A9G }
-A9_@~8L
-A;D$ ~uI
-A;G A
-A;\$ A
-A;]@|
+A+M$L
+A+T$$
+A+U$Hc
+A+]$Hc
+A9E t
+A;D$X}
+A;G`}
+A;L$H|WH
+A;\$ 
+A;_@|
+A;_@}4L
+A;_p|
 AABB_t
+AE_ACTION_SET_TURN_RATE_SCALE
+AE_BLIND_ZOMBIE_SNIFF
+AE_CL_ADD_PARTICLE_EFFECT_CP
+AE_CL_BODYGROUP_SET_VALUE
+AE_CL_CREATE_PARTICLE_BRASS
+AE_CL_CREATE_PARTICLE_EFFECT
+AE_CL_CREATE_PARTICLE_EFFECT_CFG
+AE_CL_PLAYSOUND_LOOPING
+AE_CL_STOP_PARTICLE_EFFECT
+AE_DOTA_SUPPRESS_CONSTANT_LAYER
+AE_HIDE_WEAPON
+AE_IK_ALLOW_PLANE_TILT_NORMAL_UPDATES
+AE_IK_SET_CHAIN_BLEND_AMOUNT
+AE_IK_SET_LOCK_ROTATION_ALPHA
+AE_IK_SET_MASTER_BLEND_AMOUNT
+AE_MELEE_DAMAGE
+AE_NPC_BECOME_TEMPORARY_RAGDOLL
+AE_NPC_HURT_INTERACTION_PARTNER
+AE_NPC_SET_INTERACTION_CANTDIE
+AE_NPC_WEAPON_FIRE
+AE_NPC_WEAPON_SET_SEQUENCE_NUMBER
+AE_PASSENGER_PHYSICS_PUSH
+AE_SCRIPT_EVENT_FIREEVENT
+AE_SV_DUSTTRAIL
+AE_VORTIGAUNT_START_HEAL_GLOW
+AE_VORTIGAUNT_START_HURT_GLOW
+AE_VORTIGAUNT_ZAP_POWERUP
+AE_VORTIGAUNT_ZAP_SHOOT
+AE_ZOMBIE_POPHEADCRAB
+AE_ZOMBIE_TOGGLE_HEAD
+AIWalkable
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-ATUSH
+ATSHc
+ATSt$@
+ATSxGHc
+AUAT1
 AUATA
-AUATD
+AUATE
+AUATH
 AUATI
 AUATL
+AUATLc
 AUATM
 AUATS
+AUATSD
 AUATSH
 AUATSL
-AUATStII
-AUATStMI
-AUATUSH
-AVATI
+AUATSLc/E)
 AVAUA
-AVAUATA
+AVAUATE1
 AVAUATI
+AVAUATL
 AVAUATS
 AVAUATSH
-AVAUATUSH
+AVAUATSL
+AVAUATS~
 AVAUI
 AVAUL
-AVAULc
 AWAVA
 AWAVAUA
 AWAVAUATA
+AWAVAUATE1
+AWAVAUATH
 AWAVAUATI
 AWAVAUATL
-AWAVAUATM
+AWAVAUATLc
+AWAVAUATS
 AWAVAUATSH
+AWAVAUATSRH
 AWAVAUATUSH
 AWAVAUI
 AWAVAUL
-AWAVD
-AWAVE
+AWAVAULc
 AWAVE1
+AWAVH
 AWAVI
 AWAVL
+AWAVLc
 AWAVM
+A\A]A
 A\A]A^A_]
-A\A]A^A_]A
 A\A]A^]
 A\A]]
+A]A^A_]
+A]A^]
+A^A_]
 AddRef
 AllocInternal
-Allocate
-AllocateAndCopy
 An attempt was made to create a resource manifest with debug name "%s" while the resource system was shutting down.
+AnimAddLayer
+AnimAlign
+AnimAutoLayer
+AnimBaseParams
+AnimBlendLayer
+AnimBlendLayerBase
+AnimBlendLayerPoseParam
+AnimCommonParams
+AnimCycleOverride
+AnimDelta
+AnimEvent
+AnimFile
 AnimGraphEditorUtils001
+AnimIkLockLocal
+AnimLayer
+AnimLayerBase
+AnimLinearDelta
+AnimOffset
+AnimProxy
+AnimSmoothLoop
+AnimStartLoop
+AnimSubtract
+AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
-AqqInv
 AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetPreviewSystem_001
@@ -475,34 +431,50 @@ AssetSystem001
 AssetSystemTest001
 Attempted to register duplicate manifest name %s!
 Available resource leak tracking configuration aliases:
+B1.8.3
+Bad header (unrecognized encoding specifier)
+Bad header format (expected ':'
+Bad header format (expected '<!--'
+Bad header format (expected 'encoding'
+Bad header format (expected 'format'
+Bad header format (expected 'kv3'
+Bad header format (expected 'version'
+Bad header format (expected encoding name)
+Bad header format (expected encoding uuid)
+Bad header format (expected format name)
+Bad header format (expected format uuid)
+Bad header format (malformed UUID)
+Bad header format (no closing marker)
+Bad header: invalid binary marker
+Bad header: invalid compression header
+Bad header: unrecognized encoding id
 BakedLODBuilderMgr001
+BaseIKRig
+BasePhysicsShape
 BenchmarkService001
+BentNormalData
 BinaryProperties_GetValue
+BlendList
 Blocking Manifest Load
 BlockingLoadResourceByNameIntoJustInTimeManifest
-C,[A\A]]
-C,[A\]
+BodyGroup
+BodyGroupChoice
+BreakCommand
+BreakPieceEmbedded
+BreakPieceExternal
+C0[A\]
 C8[A\]
-C@Lc#
 CAsyncResourceDataRequest
+CAuthPhysBody
+CAuthPhysJoint
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
-CFeIndexedJiggleBone
-CFeJiggleBone
-CFeNamedJiggleBone
+CEntityIndex
+CL$(9
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 CONTENT
-CONTENTROOT
-CRCMD_SetProfileMode
-CRMSG_Entity_Event
-CRMSG_Entity_Info
-CRMSG_Manifest_Event
-CRMSG_Manifest_New
-CRMSG_Resource_Event
-CRMSG_Resource_ExtReference
-CRMSG_Resource_NewId
-CRMSG_System_Event
+CParticleSystemDefinition
 CResourceArray
 CResourceExtReference
 CResourcePointer
@@ -510,8 +482,7 @@ CResourceString
 CResourceSystem Init
 CResourceSystem PreShutdown()
 CResourceSystem Shutdown
-CResourceSystem::FindOrCreateProceduralResource: Passed in a NULL debug name for an anonymous resource!
-CSP1H
+CResourceSystem::FindOrCreateProceduralResource: Passed in an empty name for a procedural resource!
 CStrongHandle
 CStrongHandleCopyable
 CStrongHandleVoid
@@ -528,64 +499,156 @@ CUtlRBTree overflow with %u elements!
 CUtlReferenceTracker::Release() release counts for group outnumber addref counts for the same group
 CUtlString
 CUtlStringToken
+CUtlSymbol
+CUtlSymbolLarge
 CWeakHandle
 CWeakHandleVoid
 CXXABI_1.3
+C_INIT_AddVectorToVector
+C_INIT_AgeNoise
+C_INIT_CreateFromCPs
+C_INIT_CreateInEpitrochoid
+C_INIT_CreateOnModelAtHeight
+C_INIT_CreateSequentialPath
+C_INIT_CreateWithinSphere
+C_INIT_DistanceToCPInit
+C_INIT_GlobalScale
+C_INIT_InheritFromParentParticles
+C_INIT_InheritVelocity
+C_INIT_InitFromCPSnapshot
+C_INIT_InitFromParentKilled
+C_INIT_InitialRepulsionVelocity
+C_INIT_InitialVelocityFromHitbox
+C_INIT_InitialVelocityNoise
+C_INIT_LifespanFromVelocity
+C_INIT_MakeShapes
+C_INIT_ModelCull
+C_INIT_MoveBetweenPoints
+C_INIT_NormalOffset
+C_INIT_OffsetVectorToVector
+C_INIT_PositionOffset
+C_INIT_PositionOffsetToCP
+C_INIT_PositionPlaceOnGround
+C_INIT_PositionWarp
+C_INIT_RandomVectorComponent
+C_INIT_RandomYawFlip
+C_INIT_RemapCPtoScalar
+C_INIT_RemapCPtoVector
+C_INIT_RemapInitialCPDirectionToRotation
+C_INIT_RemapInitialVisibilityScalar
+C_INIT_RemapNamedModelElementToScalar
+C_INIT_RemapParticleCountToScalar
+C_INIT_RemapScalar
+C_INIT_RemapScalarToVector
+C_INIT_RemapSpeedToScalar
+C_INIT_RtEnvCull
+C_INIT_SequenceFromCP
+C_INIT_SequenceLifeTime
+C_INIT_SetHitboxToClosest
+C_INIT_SetRigidAttachment
+C_INIT_VelocityFromCP
+C_INIT_VelocityFromNormal
+C_INIT_VelocityRadialRandom
+C_INIT_VelocityRandom
+C_OP_AttractToControlPoint
+C_OP_ContinuousEmitter
+C_OP_DistanceBetweenCPsToCP
+C_OP_DriveCPFromGlobalSoundFloat
+C_OP_EnableChildrenFromParentParticleCount
+C_OP_HSVShiftToCP
+C_OP_InheritFromParentParticles
+C_OP_InitSetSnapshotOnCP
+C_OP_InstantaneousEmitter
+C_OP_LockToSavedSequentialPath
+C_OP_NoiseEmitter
+C_OP_RampCPLinearRandom
+C_OP_RemapAverageScalarValuetoCP
+C_OP_RemapBoundingVolumetoCP
+C_OP_RemapCPtoCP
+C_OP_RemapModelVolumetoCP
+C_OP_RemapSpeedtoCP
+C_OP_RenderModels
+C_OP_RepeatedTriggerChildGroup
+C_OP_SetCPOrientationToPointAtCP
+C_OP_SetControlPointFieldToWater
+C_OP_SetControlPointFromObjectScale
+C_OP_SetControlPointOrientation
+C_OP_SetControlPointPositionToTimeOfDayValue
+C_OP_SetControlPointPositions
+C_OP_SetControlPointRotation
+C_OP_SetControlPointToCenter
+C_OP_SetControlPointToHMD
+C_OP_SetControlPointToHand
+C_OP_SetControlPointToImpactPoint
+C_OP_SetControlPointToPlayer
+C_OP_SetParentControlPointsToChildCP
+C_OP_SetRandomControlPointPosition
+C_OP_SetSingleControlPointPosition
+C_OP_StopAfterCPDuration
+C_OP_TwistAroundAxis
+Cannot register same format from/to a KV3 conversion (from '%s' to '%s')
+ChangeCallbackOnChange
 ChangeSize
+Cht7Lc{pD;
+ClothShapeCapsule
+ClothShapeList
+ClothShapeSphere
 CommandLine
+CommandProcedure
+CommandProcedureList
 ConVar(%s) defined with infinite float value (%s)
 ConVarRef %s doesn't point to an existing ConVar
 ConfigurationSystem_001
 ConnectInterfaces
-CovMatrix3
 CreateInterface
-D$  u
+Cycle or diamond double-reference to '%s'
+D#b\H
+D#j\H
 D$ B;
-D$ H9
-D$ Hi
-D$(E1
-D$0A\]
+D$ E1
+D$ H9E
+D$ Hc
 D$0H9
-D$8A\]
 D$8H9
 D$8I9
-D$8L9
-D$@A+T$
+D$@E1
 D$@H9
 D$@I9
-D$@L9
-D$HfA
-D;!t{Hc
+D$`H9
+D+c$Mc
+D+k$Mc
+D;0uOE
+D;C }JMc
 D;c D
-D;s(t=H
+D;s(H
+D;s(tKH
 DATAH
 DISABLED
+DMCRH
 DMCRu
-Deallocate
 DebugTextureInfo001
+Decompression failure
+DegreeEuler
 DeleteResource
 Deleting empty loading resource
 DotaCardGameClient_001
-E+D$$Mc
-E+F$Mc
-E+G$Mc
+Double-register of KV3 conversion (from '%s' to '%s')
+E A+E
 E+O$Mc
-E+g$Mc
-E+o$Mc
+E+u$Mc
+E+}$Mc
+E9 ~?I
+E90teI
 E9gPI
-E9|$ ~bI
-E:t$$u
-E;t$(H
-EMPTY - ok for slot zero only!
+E9t$(D
+E;&}SI
+E;l$ 
+E@ATI
 ENABLED
 ERROR: %s resource %016llX is the wrong resource type!
 ERROR: %s resource %016llX requested but not resident. (Missing from from a manifest?)
 ERROR: %s resource '%s' (%016llX) requested is not loaded and may have been deleted.
 ERROR: %s resource '%s' (%016llX) requested is still pending and is not loaded.
-ERROR: CAtomicManipulator::Allocate() Cannot allocate CResourceArray
-ERROR: CAtomicManipulator::AllocateAndCopy() Cannot allocate CResourceArray
-ERROR: CAtomicManipulator::Copy() Cannot copy CResourceArray(FIXME: maybe you can?)
-ERROR: CAtomicManipulator::Deallocate() Cannot deallocate CResourceArray
 ERROR: No type manager for resource "%s"!
 ERROR: Reentrant call to CResourceSystem::BlockUntilManifestLoaded() while already in a frame update!
 ERROR: Reentrant call to CResourceSystem::FrameUpdate()!
@@ -593,9 +656,9 @@ ERROR: Resource name "%s" has the incorrect extension "%s" for the specified res
 ERROR: Specified full path %s does not lie under the mod search path!)
 ERROR: Specified path %s could not be made content-relative
 EXPORTSYSTEM_INTERFACE_VERSION_001
-EaG\_
 EarlyInit_Tier0
 EconItemToolModel_001
+EmptyAnim
 Encountered nonexistent %s: %016llX (file "%s")
 EngineServiceMgr001
 EnvironmentMapBuilder_001
@@ -604,71 +667,52 @@ Error loading resource "%s" (Invalid header version: %d != %d)
 Error loading resource file "%s" (Error: %s)
 Error loading resource manifest "%s" (No DATA block)
 EventSystem001
+Expected "="after member '%s'
+Expected '#'
+Expected '&' and instance name or 'NULL'
+Expected ',' or '%s'
+Expected '=' after member name '%s'
+Expected '['
+Expected '[' or '('
+Expected '{'
+Expected ( <count> )
+Expected <member name> after type
+Expected CUtlBuffer::TEXT_BUFFER for LoadKV3Text
+Expected []
+Expected hex byte (eg. 00-FF)
+Expected member name or '}'
+Expected token
+Expected type of next member
+Expected value or ']'
+F t2SH
+F t5SH
 FATAL ERROR: %s resource '%s' (%016llX) is the wrong resource type! (This is likely caused by a hash collision between the strings '%s' and '%s')
+FATAL ERROR: unable to register all schema data: %s
 FCVAR_NEVER_AS_STRING
-FPSRH
+FPSRI
+Failed to assign bool literal value
 Failed to load resource "%s" and -exit_on_resource_load_failure was set and it's not in badresources_whitelist.txt
-Failed to map from %s to content-path
-Failed to map from %s to game-path
-FeAnimStrayRadius_t
-FeAxialEdgeBend_t
-FeBandBendLimit_t
-FeBoxRigid_t
-FeCollisionPlane_t
-FeCollisionSphere_t
-FeCtrlOffset_t
-FeCtrlOsOffset_t
-FeCtrlSoftOffset_t
-FeEdgeDesc_t
-FeFitInfluence_t
-FeFitMatrix_t
-FeFitWeight_t
-FeFollowNode_t
-FeKelagerBend2_t
-FeNodeBase_t
-FeNodeIntegrator_t
-FeNodeReverseOffset_t
-FeQuad_t
-FeRodConstraint_t
-FeSimdAnimStrayRadius_t
-FeSimdFitMatrices_t
-FeSimdNodeBase_t
-FeSimdQuad_t
-FeSimdRodConstraint_t
-FeSimdSpringIntegrator_t
-FeSimdTri_t
-FeSoftParent_t
-FeSphereRigid_t
-FeSpringIntegrator_t
-FeTaperedCapsuleRigid_t
-FeTaperedCapsuleStretch_t
-FeTreeChildren_t
-FeTri_t
-FeWeightedNode_t
-FeWorldCollisionParams_t
+FdU9GdH
 FileSystem
 Final operation count %llu
 FindLessOrEqual
 FindOrRegisterResourceByName
 FixupResourceName: Illegal full path passed in ("%s")!
 FixupResourceName: Illegal path, missing extension passed in ("%s")!
-FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 ForceSynchronizationAndBlockUntilManifestLoaded
 Forgot to remove resource type manager for type %s!
 FormatV
-FourCovMatrices3
 FourQuaternions
 FourVectors
-FourVectors2D
-From Class Binding
-From Enum Binding
-G A9G
-G u)H
-GAMEROOT
-GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+G A+G
+G H90
+G U9G
+G8t"H
+G8t+H
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3.4
@@ -676,74 +720,52 @@ GLIBC_2.4
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
-GenerateCodeBasedManifestName: Invalid CodeBasedManifestType_t %d
 GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
+GenericGameData
 GetCPUInformation
 GetNamedManifestResources: Manifest group name is empty or null.
 GetNamedManifestResources: Manifest name not registered: "%s"
 GetRegistrationForType(pResourceData->m_nResourceType)->m_pTypeManager == NULL
 GetResourceManifestCount
 GetResourceManifests
-GetResourceStatus( pResourceName ) == RESOURCE_STATUS_RESIDENT
+GetResourceStatus( resourceName ) == RESOURCE_STATUS_RESIDENT
 H	p(]
 H	w(UH
 H!w(H
-H+K(H
-H9*tgH
-H97trH
-H9WPu 
-H;0t#H
-H;0t$
-H;0tTH
-H;0u	
-H;:tOH
+H;*twH
+H;2t,H
+H;PHu
+H;WPu"
+H;pPu
 H;wHu
-H=vpcf
-HResourceManifestInternal
 H[A\A]A^A_]
-H[A\A]]
-H[]A\A]A^A_
+H[A\A]L)
+H[A\L)
 HammerMapLoader001
 Hc@pH
-HcC H9
-HcJ@1
-HcJH1
-HcJP1
-HcJX1
-HcJ`1
-HcJh1
-HcJp1
-HcJx1
+HcC(M
+HcC8D
 HcK(Ic
-HcK@1
-HcKH1
-HcKP1
-HcKPHc
-HcKX1
-HcK`1
-HcKh1
-HcKp1
-HcKx1
-HcS(L
+HcS$D
 HcSPH
-HcWPH
-Hcs H
+HcW$H
+Hcs@H
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-I;<$u
+I;D$Hu
+I;\$Hu
 I;t$Hu
 IQuickTime001
 Idle (ResourceSystemSleep)
 InfoForResourceTypeAnimationGroupResourceData_t
 InfoForResourceTypeAnimationResourceData_t
+InfoForResourceTypeCChoreoSceneFileData
 InfoForResourceTypeCDOTAPatchNotesList
 InfoForResourceTypeCDotaItemDefinitionResource
 InfoForResourceTypeCEntityLump
 InfoForResourceTypeCLightTree
 InfoForResourceTypeCModel
-InfoForResourceTypeCNameListEvents
-InfoForResourceTypeCNameListStacks
 InfoForResourceTypeCPanoramaDynamicImages
 InfoForResourceTypeCPanoramaLayout
 InfoForResourceTypeCPanoramaScript
@@ -755,9 +777,11 @@ InfoForResourceTypeCResourceManifestInternal
 InfoForResourceTypeCTextureBase
 InfoForResourceTypeCVMixListResource
 InfoForResourceTypeCVPhysXSurfacePropertiesList
-InfoForResourceTypeCVirtualVolumeTexture
+InfoForResourceTypeCVSoundEventScriptList
+InfoForResourceTypeCVSoundStackScriptList
 InfoForResourceTypeCVoxelVisibility
 InfoForResourceTypeCWorldNode
+InfoForResourceTypeIAnimationGraph
 InfoForResourceTypeIMaterial2
 InfoForResourceTypeIParticleSnapshot
 InfoForResourceTypeIParticleSystemDefinition
@@ -766,7 +790,6 @@ InfoForResourceTypePRTMatrixData_t
 InfoForResourceTypeProcessingGraphInstance_t
 InfoForResourceTypeProcessingGraph_t
 InfoForResourceTypeSequenceGroupResourceData_t
-InfoForResourceTypeVBitmapFontRuntimeData_t
 InfoForResourceTypeVSound_t
 InfoForResourceTypeWorldEnvironmentMaps_t
 InfoForResourceTypeWorldLighting_t
@@ -774,28 +797,104 @@ InfoForResourceTypeWorld_t
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
-InsertIfNotFound
+Insert
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 InstallResourceTypeManager
 InstallSchemaBindings
 InstallTypeManager
 Intentionally vague touch behavior for %p
-Invalid Path
+Invalid compressed buffer size
+Invalid data for member '%s'
+Invalid data.
+Invalid header
+Invalid member name '%s'
 IsResourceManifestGroupKnown: Manifest group name is empty or null
-K,[A\]
+Jh#B\H
+KTu6L
 KeyValueCache001
+L$ H9
+L$PA#D$DH
 LIGHT_SOURCE_SHAPE_SPHERE
 LOG_GENERAL
-Lc#D;c
-Lc+D;k
-Lc/E)
-Lc6E9
-Lc{pD;
+LZ4_compress
+LZ4_compressBound
+LZ4_compressHC
+LZ4_compressHC2
+LZ4_compressHC2_continue
+LZ4_compressHC2_limitedOutput
+LZ4_compressHC2_limitedOutput_continue
+LZ4_compressHC2_limitedOutput_withStateHC
+LZ4_compressHC2_withStateHC
+LZ4_compressHC_continue
+LZ4_compressHC_limitedOutput
+LZ4_compressHC_limitedOutput_continue
+LZ4_compressHC_limitedOutput_withStateHC
+LZ4_compressHC_withStateHC
+LZ4_compress_HC
+LZ4_compress_HC_continue
+LZ4_compress_HC_extStateHC
+LZ4_compress_continue
+LZ4_compress_default
+LZ4_compress_destSize
+LZ4_compress_fast
+LZ4_compress_fast_continue
+LZ4_compress_fast_extState
+LZ4_compress_limitedOutput
+LZ4_compress_limitedOutput_continue
+LZ4_compress_limitedOutput_withState
+LZ4_compress_withState
+LZ4_create
+LZ4_createHC
+LZ4_createStream
+LZ4_createStreamDecode
+LZ4_createStreamHC
+LZ4_decoderRingBufferSize
+LZ4_decompress_fast
+LZ4_decompress_fast_continue
+LZ4_decompress_fast_usingDict
+LZ4_decompress_fast_withPrefix64k
+LZ4_decompress_safe
+LZ4_decompress_safe_continue
+LZ4_decompress_safe_partial
+LZ4_decompress_safe_usingDict
+LZ4_decompress_safe_withPrefix64k
+LZ4_freeHC
+LZ4_freeStream
+LZ4_freeStreamDecode
+LZ4_freeStreamHC
+LZ4_loadDict
+LZ4_loadDictHC
+LZ4_resetStream
+LZ4_resetStreamHC
+LZ4_resetStreamState
+LZ4_resetStreamStateHC
+LZ4_saveDict
+LZ4_saveDictHC
+LZ4_setStreamDecode
+LZ4_sizeofState
+LZ4_sizeofStateHC
+LZ4_sizeofStreamState
+LZ4_sizeofStreamStateHC
+LZ4_slideInputBuffer
+LZ4_slideInputBufferHC
+LZ4_uncompress
+LZ4_uncompress_unknownOutputSize
+LZ4_versionNumber
+LZ4_versionString
+Lc'E)
+Lc)D;i
+Lc3D;s
+Lcs8D;sHD
 Leaked reference to ERROR resource for type %s!
 Leaked resource: Refcount %s for %s%s resource "%s" (%016llX).  This may result in a crash.
 LightDesc_t
 LightSourceShape_t
+LightType_t
+Line %d at "%s": %s
+Line %d: %s
+Line %d: Invalid literal value "%s"
+Line %d: Invalid value "%s"
 Loading Resource %016llX (file "%s") is waiting for an external system to finish work.
 Loading Resource %016llX (file "%s") is waiting for its file to load.
 Loading Resource %016llX (file "%s") is waiting for streaming bits to load.
@@ -806,8 +905,7 @@ LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 LoggingSystem_SetChannelVerbosity
-M;eHu
-M;|$Hu
+LrwcE
 MATCHFRAMEWORK_001
 MATERIAL_LIGHT_DIRECTIONAL
 MATERIAL_LIGHT_DISABLE
@@ -815,32 +913,33 @@ MATERIAL_LIGHT_ENVIRONMENT_PROBE
 MATERIAL_LIGHT_ORTHO
 MATERIAL_LIGHT_POINT
 MATERIAL_LIGHT_SPOT
-MDiskDataForResourceType
-MDmElementType
+MNetworkBitCount
+MNetworkChangeCallback
+MNetworkEncoder
+MNetworkOverride_Invalid
+MNetworkPriority
+MNetworkRemoveAll
 MNetworkSerializeAs
+MNetworkSerializer
+MNetworkUserGroup
 MNoScatter
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
-MPropertySuppressField
 MResourceTypeForInfoType
-MSerializeAs
-MUnserializationCallback
-ManifestCompletion
 MapListService_001
 MaterialUtils_001
 MathLib_Init
 MaybeExitBecauseOfResourceLoadFailure
-MbP?+
-Mc'E;g
-Mc.E;n
-Mc/E;o
-Mct$(E;t$8
+Mcl$(E;l$8
 MeshSystem001
 MeshUtils001
-MetaTxtAM
+MetaTxtAH
+Missing file '%s'
 ModelDocUtils001
-N14MDmElementType45CValueSearchTester_ClassIntrospectionHandle_tE
-N24MDiskDataForResourceType45CValueSearchTester_ClassIntrospectionHandle_tE
+N24CFieldPathHuffmanEncoder12InternalNodeE
+N24CFieldPathHuffmanEncoder5INodeE
+N24CFieldPathHuffmanEncoder8LeafNodeE
+NETWORK_FIELD_LOWEST_PRIORITY
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -849,19 +948,43 @@ NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
-NotifyManifestFinished
-OldFeEdge_t
+Newline in string literal
+No Buffer
+No valid format conversion from '%s' to '%s'
 Ordered constructor wrapped type has no default constructor.
+PARTICLE_DEPTH_FEATHERING_OFF
+PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
+PD9s@
+PE9e@~
+PE9e@~JH
+PF_BIAS_TYPE_EXPONENTIAL
+PF_MAP_TYPE_MULT
+PF_MAP_TYPE_REMAP
+PF_MAP_TYPE_REMAP_BIASED
+PF_RANDOM_MODE_VARYING
+PF_TYPE_CONTROL_POINT_COMPONENT
+PF_TYPE_LITERAL
+PF_TYPE_PARTICLE_AGE_NORMALIZED
+PF_TYPE_RANDOM_UNIFORM
+PIcL$
 P[A\A]A^]
-P[A\]
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-ParticleSystemMgr002
-Path Overflow, must be less than 260 characters.
-PhysFeModelDesc_t
+ParticleSystemMgr003
 Physics2 Interface Old v0.5
+PhysicsBodyMarkup
+PhysicsBoneMarkup
 PhysicsBuilderMgr001
+PhysicsFile
+PhysicsFileReference
+PhysicsHullFile
+PhysicsHullFromRender
+PhysicsMeshFile
+PhysicsShapeCapsule
+PhysicsShapeHull
+PhysicsShapeMesh
+PhysicsShapeSphere
 Plat_DebugPrint
 Plat_ExitProcess
 Plat_FloatTime
@@ -871,12 +994,13 @@ Plat_IsInDebugSessionRaw
 Plat_MicroSecTickDiff
 Plat_RelativeTicks
 Plat_ShouldCollectMiniDumpsForFatalErrors
-Plat_TickDiffMicroSec
-Plat_TickDiffMicroSecF
 Plat_TickDiffMilliSecF
+Plat_USTime
+Plat_UUIDFromString
+Plat_UUIDToString
 PostProcessingSystem_001
 PropertyEditorSystem_001
-QHcKHIc
+QAngle
 Quaternion
 QueuedLoaderVersion001
 RESOURCE_MANIFEST_HANDLE_INVALID
@@ -886,53 +1010,15 @@ RKS_DEFAULT
 RKS_DISABLE_GROUP_CLEARING
 RKS_KEEP_ALL_RECORDS
 RKS_REQUIRE_EXACT_PAIRINGS
-RMSG_CLEANUP_REFERENCES
-RMSG_ENTITY_ACTIVATE
-RMSG_ENTITY_COMPONENTS_ACTIVATE
-RMSG_ENTITY_DELETE
-RMSG_ENTITY_SPAWN
-RMSG_EVENT_COUNT
-RMSG_EVENT_INVALID
-RMSG_EventType_t
-RMSG_MANIFEST_BLOCKING_LOAD
-RMSG_MANIFEST_DATA_LOADED
-RMSG_MANIFEST_LOAD_COMPLETED
-RMSG_POST_SPAWN_GROUP_LOAD
-RMSG_PRE_SPAWN_GROUP_LOAD
-RMSG_RESOURCE_ALLOCATE
-RMSG_RESOURCE_AUTOCONVERT
-RMSG_RESOURCE_DATA_IO
-RMSG_RESOURCE_DATA_LOADED
-RMSG_RESOURCE_DEALLOCATE
-RMSG_RESOURCE_EXTREF_FIXUP
-RMSG_RESOURCE_LOAD_COMPLETED
-RMSG_RESOURCE_LOAD_FAILED
-RMSG_RESOURCE_LOAD_NAMEONLY_COMPLETED
-RMSG_RESOURCE_LOAD_REQUEST_QUEUED
-RMSG_RESOURCE_OBSOLETE_1
-RMSG_RESOURCE_OBSOLETE_2
-RMSG_SUB_EVENT_BEGIN_SPAN
-RMSG_SUB_EVENT_COUNT
-RMSG_SUB_EVENT_END_SPAN
-RMSG_SUB_EVENT_INSTANT
-RMSG_SUB_EVENT_INVALID
-RMSG_SYSTEM_BLOCKING_LOAD
-RMSG_SYSTEM_FRAME_BOUNDARY
-RMSG_SYSTEM_TYPE_MANAGER_UPDATE
-RMSG_SubEventType_t
-RMSG_UNUSED_1
-RMSG_UNUSED_2
-RMSG_UNUSED_3
-RMSG_UNUSED_4
-RMSG_UNUSED_5
-RMSG_UNUSED_6
-RMSG_UNUSED_7
-RMSG_UNUSED_8
 RSProfilerTool
+RadianEuler
 RandomFloat
 RandomSeed
 Re-entrant calls to CResourceSystem::PreShutdown()
+RegisterAllModuleData
 RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterFormatConversion
+RegisterStringToken
 Release
 RenderDevice003
 RenderDeviceMgr001
@@ -945,7 +1031,6 @@ Reporting references for resource "%s":
 Resource "%s" was not precached and could not be loaded by a just in time blocking load.
 Resource "%s" was not precached but was loaded by a just in time blocking load.
 Resource Leak Breakdown
-Resource System
 Resource leak tracking is disabled, run with "-resourceleaks" to track references
 Resource system profile mode %s
 ResourceBinding_t
@@ -956,19 +1041,18 @@ ResourceManifestRegistry001
 ResourceSystem
 ResourceSystem013
 ResourceSystemWaitingForFutureWork
-RnPlane_t
-S9w0}3A
-SIcL$8Ic
+S HcS
 SSE and SSE2 are required.
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
+SequenceMarkup
+SequenceMarkupList
 SerializedEntitiesVersion001
 SeriousWarning
 ServerUploadGameStats001
-Sht7Lc{pD;
 Sleeping
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -989,10 +1073,7 @@ Source2ServerSerializers002
 StakRaw8H
 StatsService_001
 SteamAudio001
-String %d: ref:%d %s
-SubmitResourceFileRequests
-T$8H)
-T$HfA
+T$ A;T$0
 TestFormatA
 TestFormatB
 TestFormatC
@@ -1001,11 +1082,11 @@ TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
-The filename may only contain lower case alphanumeric characters and underscores.
 ThreadGetCurrentId
 ThreadGetCurrentProcessId
 ThreadNanoSleep
 ThreadSleep
+TimestampedEvent_RegisterListenerAndFlushBuffer
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -1016,14 +1097,25 @@ Tried to double-register resource manager for two resource types! ( "%lld" and "
 Tried to install a NULL resource manager for resource type "%lld"!
 Tried to install a placeholder resource manager for an existing resource type "%lld"!
 Tried to install two resource managers for the same resource type "%lld"!
-U-VUUU
-Unknown Path Class
+Tried to release UGC that hasn't been referenced: %lld
+Two KV3 format GUIDs with the same human-friendly name ('%s')
+UIcL$8Ic
+UIcL$@Ic
+UPDATE_STRING_TOKEN_DATABASE
+UUUUUUUUH
+Unable to determine buffer encoding.
+Unable to write file '%s'
+Unexpected end of file
+Unrecognized flag name '%s'
 Unrecognized resource leak tracking parameter: "%s", available configuration aliases:
+Unrecognized type '%d'
 UnregisterNamedManifest called, but we are not shutting down!!!
+Unresolved object reference '%s'
+Unsupported text encoding id.
 Update_Internal
 Usage: resource_leaks <resource_name>
+Usage: resource_repeated_reload <count> <resource_name>
 UserInfoChangeService_001
-V0u@H
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -1031,10 +1123,8 @@ VBaseFileSystem011
 VBik001
 VConComm001
 VDebugService_001
-VDmeMakeFileUtils001
 VEngineCvar007
 VFileSystem017
-VGAME
 VGUI_Input005
 VGUI_Panel010
 VGUI_Scheme010
@@ -1043,6 +1133,7 @@ VGUI_System010
 VGUI_ivgui008
 VMDLLIB001
 VMaterialSystem2_001
+VMatrix
 VMediaFoundation001
 VNewAsyncFileSystem001
 VP4003
@@ -1065,6 +1156,7 @@ V_PathContainsPath
 V_RemoveDotSlashes
 V_StrTrim
 V_StripTrailingSlash
+V_UTF16ToUTF8
 V_UTF32ToUTF8
 V_UnqualifiedFileName
 V_acosf
@@ -1072,11 +1164,17 @@ V_asinf
 V_atan2f
 V_atanf
 V_atof
+V_atofloat32
+V_atofloat64
 V_atoi
+V_atoi64
+V_atoui64
 V_cosf
 V_expf
 V_fmodf
+V_fpclassify
 V_frexpf
+V_isnan
 V_logf
 V_powf
 V_qsort_s
@@ -1090,6 +1188,7 @@ V_strnchr
 V_strnlen
 V_strtod
 V_strtoi64
+V_strtok
 V_strtoui64
 V_strupper_fast
 V_tanf
@@ -1098,51 +1197,40 @@ V_vsnprintf
 V_vsnprintfRet
 V_vsnprintfSize
 VaPrintf
-Valid Content Absolute Path
-Valid External Path
-Valid Game Absolute Path
-Valid Relative Path
-Vector
 Vector2D
 Vector4D
+VectorAligned
 VisBuilder_001
-W H92
+W u)H
 WARNING: %s resource '%s' (%016llX) requested but is not in the system. (Missing from from a manifest?)
-WARNING: %s resource '%s' is the wrong resource type (expected %s)!
-WARNING: Could not find schema data for helper class for resource type %lld '%s'. (Missing MDiskDataForResourceType metadata or schema data isn't loaded?)
-WARNING: FindResourceByName called with invalid resource name "%s"
-WARNING: LoadAndValidateResourceHeader - FileSystem not initialized!
 WARNING: Long frame update (%.2fms) for resource type manager '%s' in frame %d (%d long updates total for this manager)
 WARNING: Long resource system update - should have taken no more than %dns, but took %.4fs! (Frame #%d)
-WARNING: Multiple classes registered as disk data for resource type %lld '%s'. (Should only have one class MDiskDataForResourceType - %d listed above.)
 WARNING: Resource "%s" references itself!
 WARNING: Resource system exiting at %.2f seconds due to '-resource_exit_after_time' command line flag
 WARNING: Trying to deallocate a resource after the type manager was uninstalled! ("%s")
 WARNING: Trying to deallocate a resource with no associated resource type! ("%s")
-WARNING: resource '%s' is an unknown resource type!
+WARNING: resource '%s' is an unrecognized resource type!
 Warning
 Warning:  %s = '%s' is infinite, clamping value.
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-XA\A]A^A_]
-XD9s@
-XE9e@~JH
-XE9g@
 X[A\A]A^A_]
+X[A\A]L)
 X[A\A]]
 X[]A\A]A^A_
-ZIcL$
+[A\A]
 [A\A]A^A_]
 [A\A]A^]
+[A\A]A^]H
+[A\A]M)
 [A\A]]
-[Disk class %d/%d] Name = '%s'; Project = '%s'; Binary = '%s'
+[A\]H
 []A\A]
 []A\A]A^
 []A\A]A^A_
-\u0000
-]Ht,A
-^ t+H
+\8r)3
+^IcL$ Ic
 _GetCallStack
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
@@ -1153,6 +1241,7 @@ _V_ExtractFilePath
 _V_FileBase
 _V_MakeAbsolutePath
 _V_SetExtension
+_V_StringAfterPrefix
 _V_StripExtension
 _V_StripLastDir
 _V_strncat
@@ -1179,6 +1268,7 @@ _ZN13CBufferString11ShortenPathEv
 _ZN13CBufferString11ToLowerFastEi
 _ZN13CBufferString12AppendConcatEiPKPKcPKib
 _ZN13CBufferString12SetExtensionEPKc
+_ZN13CBufferString13AppendFormatVEPKcP13__va_list_tag
 _ZN13CBufferString13FixupPathNameEv
 _ZN13CBufferString14RemoveFirstDirEPS_
 _ZN13CBufferString14StripExtensionEv
@@ -1192,6 +1282,7 @@ _ZN13CBufferString18StripTrailingSlashEv
 _ZN13CBufferString4SwapERS_
 _ZN13CBufferString5PurgeEi
 _ZN13CBufferString6ConcatEPKcS1_z
+_ZN13CBufferString6FormatEPKcz
 _ZN13CBufferString6InsertEiPKcib
 _ZN13CBufferString6SetPtrEPciibb
 _ZN13CBufferString8RemoveAtEii
@@ -1221,6 +1312,7 @@ _ZdaPv
 _ZdlPv
 _Znam
 _Znwm
+___error_resource__
 __bss_start
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
@@ -1239,100 +1331,180 @@ __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
 __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
+__oldschema_object_name
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
 __stack_chk_fail@@GLIBC_2.4
-_addons
+__temp_unserialization_member__
 _edata
 _fini
 _init
-`[A\A]A^]
+_test_conversion_counter
 `[A\]
+aabb_h_schema.gen_cpp
 abort@@GLIBC_2.2.5
+ai_model_info
+all_projects_common_code.cpp
+allowstatic
+anchor_angles
+anchor_position
+anim_name
+anim_name_a
+anim_name_b
 anonymous 
 archive
+asyncresourcedatarequest.cpp
+attachment
+attachment_offset
+attenuation0
+attenuation1
+attenuation2
+auto_unragdoll_duration
+bUpdate
 badresources_whitelist.txt
+baked_light_indexing
+bakelightindex
+bakelightindexscale
 binary
+binary_auto
 binary_bc
-c.[A\]
+binary_lz4
+bitbuf.cpp
+bitstring.cpp
+blendamount
+blockLOS
+blockcompress.cpp
+body_type
+bouncecolor
+break_create_joint_revolute
+break_uniform_burst
+breakable_count
+breakable_model
+breakable_skin
+burst_randomize
+burst_scale
+c0t#Lcc
+cable
+calloc
+calloc@@GLIBC_2.2.5
+camera.cpp
+cantdie
+castshadows
+center
+characterset.cpp
 cheat
+checksum_crc.cpp
+children
 client
 clientcmd_can_execute
+cloth_collide
+cloth_collision_layer0
+cloth_collision_layer1
+cloth_collision_layer2
+cloth_collision_layer3
+codemanifestmanager.cpp
+collision_group
+collision_prop
+command
+composite
 configvalue.cpp
-content
+control_point
+convar.cpp
+create_particle
+crtstuff.c
 dH34%(
 dH3<%(
+dIcL$
 default
+dimension0
+dimension1
 disable_group_clearing
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
+dmg.bullets
+dmg.club
+dmg.explosive
+dmg.fire
+dynamic_interaction
+eIcL$
+eez79
+ema H
+emitFromWorld
+enable_limit
+enable_profiling
+encoding
+event_class
+event_keys
+eventindex
 exact
-f4MaxDist
-f4MinDist
-f4RelaxationFactor
-f4Slack
-f4Weight0
-f4Weights
-f;S.w
-fA;0M
-fA;0trA
+explosion_behavior
+explosion_buildup
+explosion_delay
+explosion_type
+explosive_damage
+explosive_radius
+faceMergeAngle
+falloff
 false
 ffff.
 fffff.
 ffffff.
+fieldpath.cpp
 filesystem_stdio
-flAlpha
-flAnimationForceAttraction
-flAnimationVertexAttraction
-flAxialModelDist
-flAxialModelWeights
-flDist
-flDistMax
-flDistMin
-flGravity
-flGroundFriction
-flHeight0
-flMaxDist
-flMinDist
-flNodeWeight0
-flPointDamping
-flRadius
-flRelaxationFactor
-flReserved
-flSlack
-flSpringConstant
-flSpringDamping
-flSpringRestLength
-flStickiness
-flStretchMax
-flStretchMin
-flThetaFactor
-flThetaRelaxed
-flWeight
-flWeight0
-flWorldFriction
+fileutils.cpp
 floor
 floor@@GLIBC_2.2.5
 floorf
 floorf@@GLIBC_2.2.5
 fltx4
+fog_lighting
+fogcontributionstrength
+force
+format
+frame
 free@@GLIBC_2.2.5
-g E;g0D
+friction
+g_Tier1_BitWriteMasks
+g_Tier1_CRC32Table
+g_Tier1_CRC64Table
+g_Tier1_ExtraMasks
 g_VProfCurrentProfile
 g_pMemAlloc
-gameinfo.gi
-gameinfo.txt
+game_class
+game_keys
 generic
+generichash.cpp
+gravity
 h[A\A]A^A_]
-h[A\A]]
+handindex
+headtype
+health
+health_override
+hurt_me
+hurt_them
+innerconeangle
+interface.cpp
 interfaces.cpp
-jIcL$(Ic
-k8D;kHtMH
+invert_orientation
+is_debris
+k@_aH
 keep_all_records
 keepall
-l$ M9u
-l$HfA
+keyvalues3.cpp
+keyvalues3_binaryreader.cpp
+keyvalues3_binarywriter.cpp
+keyvalues3_oldschematext.cpp
+keyvalues3_textreader.cpp
+keyvalues3_textwriter.cpp
+kv3format_manager.cpp
+kv3formats.cpp
+kv3formats_compiledmodel.cpp
+kv3formats_modeldoc.cpp
+kv3formats_vpcf.cpp
+last_sniff
+ld-linux-x86-64.so.2
+length
 libc.so.6
 libm.so.6
 libpthread.so.0
@@ -1341,241 +1513,211 @@ libresourcesystem.so.dbg
 libstdc++.so.6
 libtier0.so
 libvstdlib.so
+lightcookie
+lightdesc.cpp
+lightdesc_h_schema.gen_cpp
+lightsourceshape
+lighttype
 loadingresource.cpp
-m_AnimStrayRadii
+lockRotationAlpha
+loop_break_on_damage
+loop_break_on_flashlight
+loop_in_action
+looping
+lz4.c
+lz4hc.c
 m_Attenuation0
 m_Attenuation1
 m_Attenuation2
-m_AxialEdges
 m_BounceColor
-m_BoxRigids
-m_CollisionPlanes
-m_CollisionSpheres
+m_Children
 m_Color
-m_CtrlHash
-m_CtrlName
-m_CtrlOffsets
-m_CtrlOsOffsets
-m_CtrlSoftOffsets
+m_Emitters
 m_Falloff
-m_FitMatrices
-m_FitWeights
-m_FollowNodes
-m_FreeNodes
-m_GoalDampedSpringIntegrators
-m_InitPose
-m_JiggleBones
-m_KelagerBends
-m_LegacyStretchForce
-m_LocalForce
-m_LocalRotation
-m_NodeBases
-m_NodeCollisionRadii
-m_NodeIntegrator
-m_NodeInvMasses
+m_ForceGenerators
+m_Initializers
+m_Operators
 m_Phi
-m_Plane
-m_Quads
+m_PreEmissionOperators
 m_Range
-m_ResourceName
-m_ReverseOffsets
-m_Rods
-m_Ropes
+m_Renderers
 m_Shape
-m_SimdAnimStrayRadii
-m_SimdFitMatrices
-m_SimdNodeBases
-m_SimdQuads
-m_SimdRods
-m_SimdSpringIntegrator
-m_SimdTris
-m_SourceElems
-m_SphereRigids
-m_SpringIntegrator
-m_TaperedCapsuleRigids
-m_TaperedCapsuleStretches
 m_Theta
-m_TreeChildren
-m_TreeCollisionMasks
-m_TreeParents
-m_Tris
 m_Type
-m_WorldCollisionNodes
-m_WorldCollisionParams
+m_bApplyMinForce
 m_bCastShadows
-m_bEnableProfiling
+m_bDisableChild
+m_bDisableOperator
+m_bForceLoopingAnimation
+m_bInitFromKilledParentParticles
+m_bLocalSpace
+m_bOffsetExistingPos
+m_bParticleFeathering
+m_bRemapPullForceToLife
 m_bRenderDiffuse
 m_bRenderSpecular
+m_bRunForParentApplyKillList
+m_bScalePerParticle
+m_bTrailBias
+m_bUseHighestEndCP
 m_bUsesIndexedBakedLighting
-m_flAddWorldCollisionRadius
-m_flAlongDamping
-m_flAlongStiffness
-m_flAngleLimit
+m_fForceAmount
+m_fForceAmountMin
+m_fLifespanScaleExp
 m_flBakeLightIndexScale
-m_flBaseDamping
-m_flBaseForwardFriction
-m_flBaseLeftFriction
-m_flBaseMass
-m_flBaseMaxForward
-m_flBaseMaxLeft
-m_flBaseMaxUp
-m_flBaseMinForward
-m_flBaseMinLeft
-m_flBaseMinUp
-m_flBaseStiffness
-m_flBaseUpFriction
-m_flDefaultExpAirDrag
-m_flDefaultExpQuadAirDrag
-m_flDefaultExpRodAirDrag
-m_flDefaultGravityScale
-m_flDefaultSurfaceStretch
-m_flDefaultThreadStretch
-m_flDefaultVelAirDrag
-m_flDefaultVelQuadAirDrag
-m_flDefaultVelRodAirDrag
-m_flDefaultVolumetricSolveAmount
+m_flBiasParameter
+m_flClusterCooldown
+m_flClusterCooldownMax
+m_flClusterCooldownMin
+m_flClusterRefireTime
+m_flClusterRefireTimeMax
+m_flClusterRefireTimeMin
+m_flClusterSize
+m_flEmissionDuration
+m_flEmissionScale
+m_flEmitRate
 m_flFogContributionStength
-m_flInternalPressure
-m_flK
-m_flLength
+m_flInitFromKilledParentParticles
+m_flInput0
+m_flInput1
 m_flLightSourceDim0
 m_flLightSourceDim1
 m_flLightSourceSize0
 m_flLightSourceSize1
-m_flLocalForce
-m_flLocalRotation
-m_flMaxPitch
-m_flMaxYaw
-m_flMinPitch
-m_flMinYaw
-m_flPitchBounce
-m_flPitchDamping
-m_flPitchFriction
-m_flPitchStiffness
+m_flLiteralValue
+m_flMultFactor
+m_flNearClipPlane
+m_flOpStrength
+m_flOpStrengthMaxScale
+m_flOpStrengthMinScale
+m_flOutput0
+m_flOutput1
 m_flPrecomputedMaxRange
-m_flQuadVelocitySmoothRate
-m_flRFactor
-m_flRadius0
-m_flRadius1
-m_flRodVelocitySmoothRate
+m_flRandomMax
+m_flRandomMin
+m_flScalePerParentParticle
 m_flShadowCascadeDistance
-m_flTipMass
-m_flWindDrag
-m_flWindage
-m_flXY
-m_flXZ
-m_flYZ
-m_flYawBounce
-m_flYawDamping
-m_flYawFriction
-m_flYawStiffness
+m_flStartTime
+m_flStartTimeMax
 m_hResource->m_nLoadingResource != LOADING_RESOURCE_INDEX_INVALID
 m_hResource->m_nStreamingResource != STREAMING_RESOURCE_DATA_INDEX_INVALID
-m_jiggleBone
+m_hSnapshot
 m_lightCookie
+m_nAttributeToWrite
 m_nBakeLightIndex
-m_nCollisionSphereInclusiveCount
-m_nDynamicNodeFlags
-m_nEHandle
-m_nEvent
-m_nExtraGoalIterations
-m_nExtraIterations
-m_nExtraPressureIterations
-m_nFitMatrixCount1
-m_nFitMatrixCount2
-m_nFlags
+m_nBehaviorVersion
+m_nBiasType
+m_nClusterSizeMax
+m_nClusterSizeMin
+m_nControlPoint
+m_nControlPointNumber
+m_nFeatheringMode
+m_nFirstMultipleOverride_BackwardCompat
 m_nFogLightingMode
-m_nFrameNumber
-m_nJiggleParent
-m_nManifestIndex
-m_nNode
-m_nNodeCount
-m_nObjectId
+m_nIncrement
+m_nMapType
+m_nMinParticlesToEmit
+m_nOpScaleCP
+m_nOpStrengthScaleSeed
+m_nParticlesToEmit
 m_nPriority
-m_nQuadCount1
-m_nQuadCount2
-m_nQuadVelocitySmoothIterations
-m_nReferencerResourceId
-m_nReferredToResourceId
-m_nReserved
-m_nReservedUint8
-m_nResourceId
-m_nRodVelocitySmoothIterations
-m_nRopeCount
-m_nRotLockStaticNodes
+m_nRandomMode
+m_nScaleCP
+m_nScaleCPComponent
+m_nScaleCPField
+m_nScaleControlPoint
+m_nScaleControlPointField
 m_nShadowCascadeCount
 m_nShadowCascadeResolution
 m_nShadowHeight
 m_nShadowWidth
-m_nSimdFitMatrixCount1
-m_nSimdFitMatrixCount2
-m_nSimdQuadCount1
-m_nSimdQuadCount2
-m_nSimdTriCount1
-m_nSimdTriCount2
-m_nStaticNodeFlags
-m_nStaticNodes
-m_nSubEvent
-m_nTimeUS
-m_nTreeDepth
-m_nTriCount1
-m_nTriCount2
-m_pEntityClass
-m_pEntityName
-m_pManifestDebugName
-m_strParentBone
-m_transform
-m_vDiag
+m_nType
+m_nVectorComponent
+m_pBody
+m_pParent
+m_pszSnapshotName
+m_snapshotName
 m_vMaxBounds
 m_vMinBounds
-m_vOrigin
-m_vPoint0
-m_vPoint1
 m_vecUp
 malloc
 malloc@@GLIBC_2.2.5
+manifestregistrar.cpp
+material
 mathlib.cpp
 mathlib_extended
+mathlib_extended_schema_anchor.gen_cpp
+matrix3x4_t
 matrix3x4a_t
+maxHullVertices
+maxVerticesPerHull
+max_angle
 memcmp
 memcmp@@GLIBC_2.2.5
 memcpy
 memcpy@@GLIBC_2.14
 memmove
 memmove@@GLIBC_2.2.5
+memoverride.cpp
 mempool.cpp
 memset
 memset@@GLIBC_2.2.5
-nBeginDynamic
-nBoneCtrl
-nChild
-nChildNode
-nCollisionMask
-nCtrl
-nCtrlChild
-nCtrlParent
-nDummy
-nEdge
-nListBegin
-nListEnd
-nMatrixNode
-nNodeX0
-nNodeX1
-nNodeY0
-nNodeY1
-nParent
-nParentNode
-nSide
-nTargetNode
+meshes
+min_angle
+modeldoc0
+modeldoc1
+modeldoc10
+modeldoc11
+modeldoc12
+modeldoc13
+modeldoc14
+modeldoc15
+modeldoc16
+modeldoc17
+modeldoc18
+modeldoc19
+modeldoc2
+modeldoc20
+modeldoc21
+modeldoc3
+modeldoc4
+modeldoc5
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
+multiplayer_break
 nTries < 10000000
-nVertexNode
-nVirtElem
-nWeight
+nav_attribute_avoid
+nav_data
 nogroup
 notconnected
 notify
-o ATL
+numsegments
+o ATI
+o ATSH
+oHATSH
+origin_max_delta
+origin_relative
+outerconeangle
+p ;s0
+p[A\A]A^]
 p[A\]
+particles/
+physgun_interactions
+physicsmode
+placement_attach
+placement_bone
+placement_mode
+play_endcap
+point0
+point1
+powsse.cpp
+precomputedmaxrange
+preferred_carryangles
+priority
+profilehelpers.cpp
+prop_data
 pthread_mutex_destroy
 pthread_mutex_destroy@@GLIBC_2.2.5
 pthread_mutex_init
@@ -1590,28 +1732,77 @@ pthread_mutexattr_settype
 pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
-qAdjust
-r7LcQ
+quaternionaligned.cpp
+radius0
+radius1
+randsse.cpp
+recenter_on_parent_bone
+renderdiffuse
+renderspecular
 replicated
 require_exact_pairings
+resource
 resource_leaks
 resource_leaks <resource_name>: Show resource leaks for the named resource
 resource_leaks: Invalid resource name '%s'
 resource_leaks: No resource named '%s'
+resource_repeated_reload
+resource_repeated_reload <count> <resource_name> (<resource name> ...): Load and unload the specified resource(s)
+resource_repeated_reload(%d)
+resource_repeated_reload: Invalid resource name '%s'
+resourcedictionary.cpp
 resourcefile
+resourcefile.cpp
+resourcefile_schema_anchor.gen_cpp
+resourcehandletypes_h_schema.gen_cpp
+resourcemanifest.cpp
+resourcemanifestfiledata_h_schema.gen_cpp
+resourcestream_h_schema.gen_cpp
 resourcesystem
 resourcesystem.cpp
+resourcesystem_leaktracker.cpp
+resourcesystem_schema_anchor.gen_cpp
+resourcesystemprofileinfo_h_schema.gen_cpp
+resourcetype_h_schema.gen_cpp
+rnd_down
+rnd_up
+rootNode
 rs_dump_stats
 rs_dump_stats - Dump resourcesystem stats.
+schema
+schemabindings.cpp
+schemaclassinfo.cpp
+schemaiterator.cpp
+schemametadata.cpp
 schemasystem
-sdktools/bin/vproj.exe
-sdktools/bin/vprojUI.exe
+secondary
+sequence_name
+sequence_number
 server_can_execute
+set_profile_mode
+shadowcascadecount
+shadowcascadedistance%d
+shadowcascaderesolution%d
+shadowtextureheight
+shadowtexturewidth
+shapeType
 singleplayer
+size0
+size1
+source_filename
+spawn_motion_disabled
+speed
+splitstring.cpp
 sqrtf
 sqrtf@@GLIBC_2.2.5
-src/public/tier0/platform.h
 ss_added
+sseconst.cpp
+ssemath_h_schema.gen_cpp
+ssequaternion_h_schema.gen_cpp
+stacktools_tier1.cpp
+stop_immediately
+stop_instantly
+stop_on_seq_change
 strchr
 strchr@@GLIBC_2.2.5
 strcmp
@@ -1619,84 +1810,124 @@ strcmp@@GLIBC_2.2.5
 strcpy
 strcpy@@GLIBC_2.2.5
 streamingresourcedata.cpp
+stringpool.cpp
 strlen
 strlen@@GLIBC_2.2.5
+stronghandle_h_schema.gen_cpp
 strstr@@GLIBC_2.2.5
+suppress
+surface_prop
 t	[A\]
-t!L;0u
-t"HcK
-t"HcO
-t$@A\]
-t$H9h
-t$HfA
-t'H;0u
-t*L;m
-t+Hc4
-t4[A\]
-t@@:>u
-tFH;0u
-tL[A\A]A^]
-tR[A\A]A^]
-tWA9]
-t^[A\]
-tdA:]
-tgL;(u
+t$ Hi
+t$H;h
+t%L;}
+t)HcE
+t6[A\A]]
+t7L;8u
+t<Lcs8D;sHD
+t=[A\]
+t>[A\A]A^]
+tJHcC
+tY)g~z
+test_angles_relative
+texturescale
+thIcG
+tier1.cpp
+tier2.cpp
 tkD9p
-tmFrame
-ttIcG
-t}HcO
-uL9wd}G
+tlH;1u
+toL;8u
+transform.cpp
+trw8<
+turn_rate
+u1Lc#D;c
+u`H9u
+ugH9}
 uint64
 utlbuffer.cpp
+utlmemory.cpp
+utlstablesymboltable.cpp
 utlstring.cpp
-v;<\t7I
-vCenter
-vOffset
-vShape
-vSize
+utlstringtoken.cpp
+utlsymbol.cpp
+utltokenizer.cpp
+v:L;u
+v?L;e
+vAL;M
+vAL;m
 vagrp
+value
 vanim
+vanmgrph
+vcdlist
+vector.cpp
 vents
-vfont
+version
 vgraf
 vltre
+vmatrix.cpp
 vmesh
 vmorf
+vpcf1
+vpcf10
+vpcf11
+vpcf12
+vpcf13
+vpcf14
+vpcf15
+vpcf16
+vpcf17
+vpcf18
+vpcf19
+vpcf2
+vpcf3
+vpcf4
+vpcf5
+vpcf6
+vpcf7
+vpcf8
+vpcf9
 vphys
 vpost
 vpram
 vprtm
+vr_carry_type
 vrgrp
 vrman
 vrnmd
 vsnap
-vsndstckvsndevtsvtex
+vsndevts
+vsndstck
 vstdlib
 vsurf
-vvvtx
-vwenvmapvwrlt
+vwenvmap
 vwnod
 vwrld
-x HcW
-xGHcO
+vwrlt
+w AUI
+weakhandle_h_schema.gen_cpp
+wnL9u
+x	;F`
+x@HcO
 x[A\A]A^A_]
-z/u-H
-{8;C0t4
-{error resource: %s}
+x|LcG
+yaw_end
+yaw_start
+z:KEZ
+{YIN?
 {}()':
+{}[]()=&, 	
+{}[]=, 	
 |$ Hi
-|JA;X
-}>;w$
-}Hf;w
-}Tf;w
-~&H97t@
-~&H9wHt'H
-~)A;]
-~,H95
-~4Lc+I
-~8H9wHts
-~CH9wH
+|$0E;|$@
+|NA;]
+~)H;7I
+~7;w$
+~:fA9
+~;H;wHtv
+~CHcW
 ~CLoadingResource
 ~CStreamingResourceData
-~aHcW
-~vHcKPHc
+~EH9wH
+~IHcK
+~Tf;w

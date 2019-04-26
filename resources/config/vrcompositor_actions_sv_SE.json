@@ -21,8 +21,8 @@
 	"/actions/lasermouse/in/trackpadscroll": "Skrolla panel",
 	"/actions/lasermouse/in/enter": "Ange",
 	"/actions/lasermouse/in/pointer": "Lasermuspekare",
-	"/actions/scroll_discrete/in/scroll": "Scroll Panel",
-	"/actions/scroll_smooth/in/scroll": "Scroll Panel",
+	"/actions/scroll_discrete/in/scroll": "Skrolla panel",
+	"/actions/scroll_smooth/in/scroll": "Skrolla panel",
 	"/actions/lasermouse_secondary/in/switchlaserhand": "Gör till aktiv hand",
 	"/actions/dualanalog/in/rightclick": "Höger tangentbordsklick",
 	"/actions/dualanalog/in/leftclick": "Vänster tangentbordsklick",
@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "Sekundär handhållen lasermus",
 	"/actions/dualanalog": "Tangentbordsinmatning",
 	"/actions/system": "Systemåtgärder",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "Skrolla med mushjul",
+	"/actions/scroll_smooth": "Skrolla med styrplatta"
 }

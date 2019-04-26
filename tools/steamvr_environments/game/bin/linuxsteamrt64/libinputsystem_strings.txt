@@ -4,12 +4,11 @@
  [%.3f server clamped to %.3f]
  [A\A]A^]
  [A\]
- []A\
  max. %f
  min. %f
+ tMv+@
 "%s" 
 "%s" = "%s"
-"t&L;}
 #[A\]
 #base
 #base is NULL 
@@ -17,29 +16,26 @@
 #include
 #include is NULL 
 #int#
-$+s$Hc
 $ORIGIN
+$[A\H
 $[A\]
-$tG[A\A]A^]
+$te[A\A]A^]
 %-120s
 %-120s - %s
-%d total counted strings.
 %f %f %f %f
 %i %i %i %i
 %ls [wstring, len = %d]
 %s: string format requested %d chars
 &YA1H
+&YA1L
 'is NOT active'
 'is active'
 (*%s*), 
+(HcWP
 ([A\A]A^A_]
-([A\A]]
 ([]A\A]A^A_
-+K$Lc
 +S$Hc
 +s$Hc
-+s$Ic
-+{$Hc
 -cursor_scale_percent
 -disable_cursor_clip
 -input_button_code_is_scan_code
@@ -73,11 +69,10 @@ $tG[A\A]A^]
 .strtab
 .symtab
 .text
-.valvesig
 /cursor.res
+0<	wD
 0[A\]
 0[]A\A]A^
-0t Hc
 0x%016llX
 10ConCommand
 10IAppSystem
@@ -97,65 +92,47 @@ $tG[A\A]A^]
 16CDefaultAccessor
 17CInputStackSystem
 17IInputStackSystem
-18CCountedStringPool
 18CUtlCharConversion
 19IKeyValuesErrorSpew
+1D;G 
 20CPostConnectCallback
 21CUtlCStringConversion
-21IKeyValuesDumpContext
 22CSchemaInstallCallback
-23CSplitScreenAddedConVar
 23IConCommandBaseAccessor
 26CDefaultKeyValuesErrorSpew
-27IKeyValuesDumpContextAsText
-29CKeyValuesDumpContextAsDevMsg
-3+C$H
-3E8 u
-42HcU
 5t~BC
 6ConVar
 6H92t%H
 7IConVar
+8A^]H
 8CFmtStrNILi256ELb0EE
-8VBKVt6HcF
 8[A\A]A^A_]
 8[]A\A]A^A_
 :[tlL
 ;*3$"
-<	w.1
-<	woD
-<19{ |.
+;BX|'1
+<	wlLcG
 << NULL >>
-<@tYA
 <NULL>
-<Rt<<Pt`<S
+<Rt&<Pu
+<no failure reason set>
 <null>
-<}tI<{uO
-=CSP1A
-=CSP1u
-@8wQUH
-@8wRtm
+<}tQ<{uW
+@8wQt*UH
+@8wRt~UH
 @[A\]
-A	D2LI
-A+D$$9
+A#|$TH
 A+D$$H
+A+E$A
 A+E$H
-A+E$f
-A+G$H
-A+G$Lc
-A+U$A
-A+U$Hc
-A+U$f
-A+W$Hc
-A+W$f
-A+u$Hc
-A9F(A
-A9F(~6
-A9G }
-A9_@~8L
-A;G A
-A;\$ A
-A;](|
+A+T$$
+A+t$$H
+A+t$$Hc
+A;D$X}
+A;\$ 
+A;_@|
+A;_@}4L
+A;_p|
 ACUTE_ACCENT
 AC_BACK
 AC_BOOKMARKS
@@ -167,49 +144,46 @@ AC_STOP
 ALTERASE
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
 ASTERISK
-ATUSH
+ATSt$@
+ATStK
+AUAT1
 AUATA
-AUATD
+AUATE
 AUATI
 AUATL
-AUATS
 AUATSH
 AUATSL
-AUATStMI
-AUATStmH
-AUATUSH
 AUDIOMUTE
 AUDIONEXT
 AUDIOPLAY
 AUDIOPREV
 AUDIOSTOP
+AVATSH
 AVAUA
-AVAUATA
 AVAUATI
-AVAUATL
-AVAUATS
+AVAUATLc
 AVAUATSH
-AVAUATUSH
+AVAUATS~
+AVAUE1
 AVAUI
-AVAUL
 AWAVA
 AWAVAUA
 AWAVAUATA
+AWAVAUATH
 AWAVAUATI
-AWAVAUATS
+AWAVAUATL
 AWAVAUATSH
+AWAVAUATSRH
 AWAVAUATUSH
 AWAVAUI
-AWAVD
-AWAVE
-AWAVE1
-AWAVH
+AWAVAUL
 AWAVI
 AWAVL
 AWAVM
+AYAZH
 A\A]A^A_]
 A\A]A^]
-A\A]]
+A]A^A_]
 A_BUTTON
 A_WITH_ACUTE
 A_WITH_CIRCUMFLEX
@@ -257,20 +231,23 @@ CInputStackSystem:  empty
 CInputStackSystem:  nothing enabled
 CInputSystem::AttachToWindow: Tried to attach to the same window twice!
 CInputSystem::SleepUntilInput
+CL$(9
 CLEARAGAIN
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 COMPUTER
 COPYRIGHT_SIGN
 CRSEL
-CSP1H
 CURRENCYSUBUNIT
 CURRENCYUNIT
 CURRENCY_SIGN
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
+CUtlMemoryPoolBase
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
 CXXABI_1.3
+CXXABI_1.3.8
 C_WITH_CEDILLA
+Cht7Lc{pD;
 CommandLine
 ConVar(%s) defined with infinite float value (%s)
 ConVarRef %s doesn't point to an existing ConVar
@@ -280,16 +257,13 @@ ConnectInterfaces
 CreateInterface
 Current coordinate bias %s: %g,%g scale %g,%g
 Cursor size scaling factor.
-D$ H9
-D$(E1
+D$ E1
+D$ H9E
+D$0H9
 D$8I9
-D$8L9
+D$@E1
+D$@H9
 D$@I9
-D$@L9
-D+C$Mc
-D+c$Mc
-D+k$Mc
-D+s$Mc
 D;c D
 DECIMALSEPARATOR
 DEGREE_SIGN
@@ -301,25 +275,11 @@ DOWNARROW
 DebugTextureInfo001
 DevMsg
 DotaCardGameClient_001
-E+D$$Mc
-E+E$Mc
-E+F$Mc
-E+G$Mc
-E+M$Mc
-E+O$Mc
-E+e$Mc
-E+g$Mc
-E+o$Mc
-E+}$Mc
-E3f<tvA
-E3|$Dt:
 E9gPI
-E9|$ ~bI
+E9t$(D
 EJECT
-EMPTY - ok for slot zero only!
 ESCAPE
 EURO_SIGN
-EXA;]`
 EXCLAIM
 EXECUTE
 EXPORTSYSTEM_INTERFACE_VERSION_001
@@ -333,32 +293,24 @@ EconItemToolModel_001
 EngineServiceMgr001
 EnvironmentMapBuilder_001
 EventSystem001
+F t2SH
+F t5SH
+FATAL ERROR: unable to register all schema data: %s
 FCVAR_NEVER_AS_STRING
 FEMININE_ORDINAL_INDICATOR
 Failed to load cursor from '%s'
 Failed to load image for cursor from %s: %s
 Failed to scale image for cursor to %d,%d (hot %d,%d; scaling %g): %s
-FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 FormatV
-G A9G
-G u)H
-G<@t	]
-G<@t L
-G<@t#f
-G<@t$
-G<@t+]H
-G<@t1H
-G<@t:
-G<@tLL
-G<@tUI
-G<@ta
-G<@th
-G<@tp
+G0H;0
+G8t"H
+G<@teI
+G<@t~
 GAMECONSOLE
-GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GLIBCXX_3.4
 GLIBC_2.14
 GLIBC_2.2.5
@@ -371,26 +323,19 @@ GetResourceManifests
 H	p(]
 H	w(UH
 H!w(H
-H9*tgH
-H9J t
-H;GhtMA
+H;*twH
+H;J t
 H;Oht
-H;S@w
 HIGHDPI
 H[A\A]A^A_]
-H[]A\A]A^A_
 HammerMapLoader001
 Hc@pH
-HcC H9
-HcC$H
-HcKPHc
 HcSPH
-HcWPH
-Hcs H
+HcW(UH
+Hcs@H
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-I;V@w
 I;\$ht=
 IE_ActivateApp
 IE_ActivateWindow
@@ -442,9 +387,7 @@ I_WITH_ACUTE
 I_WITH_CIRCUMFLEX
 I_WITH_DIAERESIS
 I_WITH_GRAVE
-Ic]PI
 Ic^(A;^8
-Icu`H
 InputService_001
 InputStackSystemVersion001
 InputSystem
@@ -453,6 +396,7 @@ InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 InstallSchemaBindings
 Intentionally vague touch behavior for %p
+JHcK@Ic
 JOY10
 JOY11
 JOY12
@@ -476,7 +420,7 @@ JOY29
 JOY30
 JOY31
 JOY32
-Jc<(H
+JSON error, unterminated element: 
 KBDILLUMDOWN
 KBDILLUMTOGGLE
 KBDILLUMUP
@@ -489,7 +433,6 @@ KEY_CYRILLIC_HARD_SIGN
 KEY_CYRILLIC_IO
 KEY_CYRILLIC_YU
 KEY_CYRILLIC_ZHE
-KHcK@Ic
 KP_00
 KP_000
 KP_AMPERSAND
@@ -535,6 +478,7 @@ KP_SPACE
 KP_TAB
 KP_VERTICALBAR
 KP_XOR
+KTu6L
 KV Conditional Evaluation Error
 KeyValueCache001
 KeyValues Error: %s in file %s
@@ -542,7 +486,9 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
-L;"t-
+L$ H9
+L$0Hc
+L;Wht=A
 LEFTARROW
 LEFT_CURLY_BRACKET
 LEFT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK
@@ -551,10 +497,6 @@ LOG_GENERAL
 LOWVIOLENCE
 L_SHOULDER
 L_TRIGGER
-Lc#D;c
-Lc/E)
-Lck0D;k@t.H
-Lc{pD;
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
 LoggingSystem_IsChannelEnabled
@@ -625,7 +567,7 @@ P[A\]
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-ParticleSystemMgr002
+ParticleSystemMgr003
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
 Plat_DebugPrint
@@ -654,11 +596,10 @@ Plat_WindowToScreenCoords
 PostProcessingSystem_001
 PrimaryUserId is %d
 PropertyEditorSystem_001
-QHcKHIc
 QUESTION
 QUOTEDBL
 QueuedLoaderVersion001
-R8Y[]
+R@X[]
 RCTRL
 REGISTERED_SIGN
 RETURN2
@@ -677,6 +618,7 @@ RecursiveLoadFromBuffer:  got conditional between key and value
 RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
+RegisterAllModuleData
 RegisterConfigValue: Unknown error constructing config value "%s"!
 RegisterStringToken
 Release
@@ -768,6 +710,7 @@ SDL_WINDOWS_NO_CLOSE_ON_ALT_F4
 SECTION_SIGN
 SEMICOLON
 SHARP_S
+SHcG(L
 SLEEP
 START
 STICK1
@@ -785,7 +728,6 @@ SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetCursorClip:  %s SDL_SetWindowGrab on 0x%p (%s) %s
 SetCursorClip:  disabling SDL_SetWindowGrab on 0x%p (%s)
-Sht7Lc{pD;
 SoundOpSystem001
 SoundOpSystemEdit001
 SoundService_001
@@ -805,8 +747,7 @@ Source2ServerSerializers002
 Stall
 StatsService_001
 SteamAudio001
-String %d: ref:%d %s
-T$8H)
+T$8H;
 TEXTINPUT '%s'
 THORN
 THOUSANDSSEPARATOR
@@ -825,6 +766,7 @@ ToolGameSimulationSystem_001
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
+UIcL$@Ic
 UNDERSCORE
 UPARROW
 UPDATE_STRING_TOKEN_DATABASE
@@ -838,7 +780,6 @@ U_WITH_GRAVE
 UpdateCursorClipOnFocusChange:  %s SDL_SetWindowGrab on 0x%p (%s) %s
 Updates game keyboard layout to current windows keyboard setting.
 UserInfoChangeService_001
-V0u@H
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -846,7 +787,6 @@ VBaseFileSystem011
 VBik001
 VConComm001
 VDebugService_001
-VDmeMakeFileUtils001
 VERTICAL_BAR
 VEngineCvar007
 VFileSystem017
@@ -894,6 +834,7 @@ V_UTF8CharsToUTF16
 V_UTF8ToUTF32
 V_UnqualifiedFileName
 V_atof
+V_atofloat64
 V_atoi
 V_localeconv
 V_powf
@@ -918,8 +859,9 @@ V_vsnprintfRet
 V_vsnprintfSize
 V_wcstod
 V_wcstoi64
-VaPrintf
 VisBuilder_001
+W u)H
+W8H;2t'H
 WIN32
 WINDOWS
 WINXP
@@ -931,7 +873,6 @@ Wingman warrior hack related to turn axes.
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
-X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 X_AXIS
@@ -945,20 +886,19 @@ Y_AXIS_POS
 Y_BUTTON
 Y_WITH_ACUTE
 Y_WITH_DIAERESIS
-ZIcL$
 Z_AXIS
 Z_AXIS_NEG
 Z_AXIS_POS
 [A\A]A^A_]
 [A\A]A^]
+[A\A]H
 [A\A]]
+[A\A^]
+[A\]H
 []A\A]
 []A\A]A^
 []A\A]A^A_
-\t!Hc
-\u0000
-^ t+H
-_:er/
+^IcL$ Ic
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -988,6 +928,8 @@ _ZN10CVProfNode9ExitScopeEv
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
+_ZN13CBufferString5PurgeEi
+_ZN13CBufferString6InsertEiPKcib
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -1025,6 +967,8 @@ __cxa_guard_release
 __cxa_guard_release@@CXXABI_1.3
 __cxa_pure_virtual
 __cxa_pure_virtual@@CXXABI_1.3
+__cxa_throw_bad_array_new_length
+__cxa_throw_bad_array_new_length@@CXXABI_1.3.8
 __gmon_start__
 __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
@@ -1032,24 +976,29 @@ __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
 __stack_chk_fail@@GLIBC_2.4
-_`z<u:
 _edata
 _fini
 _init
+_ptO	
 _vsz%u.bmp
 abort@@GLIBC_2.2.5
+all_projects_common_code.cpp
 archive
 binary
+binary_auto
 binary_bc
+binary_lz4
 borrow
-c.[A\]
+characterset.cpp
 cheat
+checksum_crc.cpp
 cl_auto_cursor_scale
 cl_cursor_scale
 client
 clientcmd_can_execute
 configvalue.cpp
-dH34%(
+convar.cpp
+crtstuff.c
 dH3<%(
 delete
 developer
@@ -1060,33 +1009,39 @@ dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 enabled
 enabling
-f;S.w
-fA;0M
-fA;0trA
+exprevaluator.cpp
+f;0tZfD
+fD;!t
+fD;D1
 ffff.
 fffff.
 ffffff.
 float( %f )
 free@@GLIBC_2.2.5
-g E;g0D
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_VProfCurrentProfile
 g_pMemAlloc
 generic
-gpt.D	
+generichash.cpp
+h[A\A]A^A_]
 hidden
 initializing SDL joystick %d %s
+inputstacksystem.cpp
 inputsystem
+inputsystem.cpp
 int( %d = 0x%X )
+interface.cpp
 interfaces.cpp
 joy_axisbutton_threshold
 joy_wingmanwarrior_centerhack
 joy_wingmanwarrior_turnhack
 joystick not found -- driver not present
-k8D;kHtMH
-k@[A\A]A^]
+joystick.cpp
+json_parser.c
+key_translation.cpp
 key_updatelayout
+keyvalues.cpp
 libc.so.6
 libinputsystem.so
 libinputsystem.so.dbg
@@ -1096,10 +1051,13 @@ libtier0.so
 libvstdlib.so
 malloc
 malloc@@GLIBC_2.2.5
+manifestregistrar.cpp
 memcpy
 memcpy@@GLIBC_2.14
 memmove
 memmove@@GLIBC_2.2.5
+memoverride.cpp
+mempool.cpp
 memset@@GLIBC_2.2.5
 mouse %d %s (%d) at %d %d on window %d
 mouse motion %d %d at %d %d with buttons "%s" on window %d
@@ -1107,6 +1065,7 @@ not using
 notconnected
 notify
 o(ATI
+oxATL
 pthread_mutex_destroy
 pthread_mutex_destroy@@GLIBC_2.2.5
 pthread_mutex_init
@@ -1123,6 +1082,8 @@ pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 replicated
+sR[A\H
+schemabindings.cpp
 server_can_execute
 shown
 singleplayer
@@ -1133,44 +1094,37 @@ strcmp
 strcmp@@GLIBC_2.2.5
 strcpy
 strcpy@@GLIBC_2.2.5
+stringpool.cpp
 strlen
 strlen@@GLIBC_2.2.5
 strstr@@GLIBC_2.2.5
-t"HcK
-t"HcO
-t$H9h
-t$HcK
+t	[A\]
+t$	H9
+t$0Hc
+t$H;h
 t2[A\]
-t4[A\]
-t@@:>u
-tL[A\A]A^]
-tSHcO
-tWA9]
-tdA:]
-ttIcG
-tyHcO
-t}HcO
-u	[A\]
+tC[A\A]A^]
+thIcG
+tier1.cpp
+tier2.cpp
 u64( %lld = 0x%llX )
-unknown
 unknown event
 unset
 update
 utlbuffer.cpp
+utlmemory.cpp
 utlstring.cpp
-v!<\t
+utlstringtoken.cpp
+utlsymbol.cpp
 visible
 vstdlib
 wcscmp
 wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
-x[A\A]A^A_]
-{8;C0t4
+x@HcO
+y8Lcg0D;g@tNH
 {}()':
-}Hf;w
-~	ATI
-~&H97t@
-~)A;]
-~SHcC
-~vHcKPHc
+|$0E;|$@
+~)H;7I
+~7;w$

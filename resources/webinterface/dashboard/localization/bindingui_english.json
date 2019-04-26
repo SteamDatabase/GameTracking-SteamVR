@@ -53,6 +53,7 @@
   "SourceInputMode_StickyDpad" : "Persist Dpad action once activated",
   "SourceInputMode_LongPressDelay": "Long press delay:",
   "SourceInputMode_DoublePressDelay": "Double press delay:",
+  "SourceInputMode_DeadZone" : "DeadZone",
 
   "SourceInputMode_ScrollMode": "Scroll mode:",
   "SourceInputMode_ScrollMode_Smooth": "Smooth (Like a trackpad)",
@@ -208,7 +209,7 @@
   "BindingUI_List_View": "View",
   "BindingUI_List_LastUpdated": "Last Updated: ",
   "BindingUI_List_NoBindingsFound": "No Bindings Found",
-  "BindingUI_List_CreateBinding": "Create Binding",
+  "BindingUI_List_CreateBinding": "Create New Binding",
   "BindingUI_Mode_Delete_Confirm": "Delete %1$s mode from %2$s?",
   "BindingUI_SavePersonal": "Save Personal Binding",
   "BindingUI_PublishToWorkshop": "Publish to Workshop",
@@ -257,7 +258,7 @@
   "BindingUI_ErrorLoadingBindingTitle": "Binding file failed to load",
 
   "input_binding_load_failed": "Failed to load input bindings for %1$s. Please select another binding option.",
-  "input_binding_load_failed_no_url": "Binding for %1$s was not set. Please select a binding option.",
+  "input_binding_load_failed_no_url": "%2$s binding for %1$s was not set. Please select a binding option from the list or create a new one.",
 
   "unknown_application": "Unknown Application",
 

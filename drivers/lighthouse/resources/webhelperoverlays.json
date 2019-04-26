@@ -4,6 +4,7 @@
 		"name": "pairing",
 		"type": "window",
 		"setting": [ "computed", "EnableWebPairingUI" ],
+		"preload" :  true,
 		"pixel_size": [ 800, 600 ]
 	}
 }

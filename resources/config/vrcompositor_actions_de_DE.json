@@ -6,7 +6,7 @@
 	"/actions/system/in/TakeScreenshot": "Screenshot aufnehmen",
 	"/actions/system/in/ToggleRoomView": "Raumansicht umschalten",
 	"/actions/system/in/SystemButtonChord": "Systembetriebsmodus",
-	"/actions/system/in/ShowPowerMenu": "Ein/Aus anzeigen",
+	"/actions/system/in/ShowPowerMenu": "Energiemenü anzeigen",
 	"/actions/lasermouse/in/leftclick": "Linker Mausklick",
 	"/actions/lasermouse/in/rightclick": "Rechter Mausklick",
 	"/actions/lasermouse/in/home": "Zur Startseite",

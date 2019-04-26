@@ -22,7 +22,7 @@
 	"PowerMenuHeader": "Menu de inicialização",
 	"IPD_Description": "Distância entre as lentes",
 	"NoSteamWarning": "O Steam não está disponível no momento. Alguns recursos podem estar desativados.",
-	"WakingUpBaseStations": "Waking up base stations...",
+	"WakingUpBaseStations": "Despertando estações base...",
 	"/input/joystick": "Controle",
 	"/input/trackpad": "Trackpad",
 	"/input/trigger": "Gatilho",

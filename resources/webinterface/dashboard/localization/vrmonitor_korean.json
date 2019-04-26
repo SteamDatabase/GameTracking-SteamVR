@@ -77,6 +77,7 @@
 	"Settings_ArcadeMode": "아케이드 모드 활성화",
 	"Settings_CheckForSteam": "Steam 확인",
 	"Settings_DebugInputBindings": "입력 바인딩 사용자 인터페이스 디버깅 옵션 활성화",
+	"Settings_DoNotFadeToGrid": "Do not fade to grid when app hangs",
 	"Settings_EnableDashboard": "VR 대시보드 활성화",
 	"Settings_HomeAppCheck": "Use SteamVR Home",
 	"Settings_HomeAppDesc": "Enjoy virtual environments, social features, and more.",

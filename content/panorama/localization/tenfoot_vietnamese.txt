@@ -102,7 +102,7 @@
 "[english]UI_Label_CopySelected"	"Copy selected text"
 "UI_Label_OpenLinkInBrowser"	"Mở URL với trình duyệt"
 "[english]UI_Label_OpenLinkInBrowser"	"Open URL in browser"
-"UI_Label_CopyURLToClipboard"	"Chép URL vào clipboard"
+"UI_Label_CopyURLToClipboard"	"Chép URL vào khay nhớ tạm"
 "[english]UI_Label_CopyURLToClipboard"	"Copy URL to clipboard"
 "UI_TextEntry_CutToClipboard"	"Cắt"
 "[english]UI_TextEntry_CutToClipboard"	"Cut"

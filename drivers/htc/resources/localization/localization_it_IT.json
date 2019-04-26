@@ -1,6 +1,6 @@
 {
 	"language_tag": "it_IT",
-	"vive_controller": "Controller di Vive",
+	"vive_controller": "Controller Vive",
 	"vive_pro": "Vive Pro",
 	"vive": "Vive",
 	"vive_tracker": "Vive Tracker",
@@ -10,7 +10,7 @@
 	"vive_tracker_left_shoulder": "Vive Tracker sulla spalla sinistra",
 	"vive_tracker_right_shoulder": "Vive Tracker sulla spalla destra",
 	"vive_tracker_waist": "Vive Tracker sulla vita",
-	"vive_tracker_chest": "Vive Tracker sul petto",
+	"vive_tracker_chest": "Vive Tracker sul torace",
 	"vive_tracker_camera": "Vive Tracker sulla telecamera",
 	"vive_tracker_keyboard": "Vive Tracker sulla tastiera",
 	"/input/trigger": "Grilletto",
@@ -20,7 +20,7 @@
 	"/output/haptic": "Tecnologia aptica",
 	"/input/thumb": "Pollice",
 	"/input/power": "Accensione",
-	"/pose/front_rolled": "Davanti e in rotazione",
+	"/pose/front_rolled": "Di fronte e sottosopra",
 	"/pose/front": "Davanti",
 	"/pose/pistol": "Impugnatura della pistola",
 	"/pose/back": "Dietro"

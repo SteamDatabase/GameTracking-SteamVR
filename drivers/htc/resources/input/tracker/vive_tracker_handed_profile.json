@@ -5,6 +5,7 @@
   "override_device_class" : "TrackedDeviceClass_Controller",
   "input_bindingui_mode" : "controller_handed",
   "hand_priority" : -1,
+  "should_show_binding_errors":  true,
   "input_bindingui_left" :
   {
     "transform" : "scale(-1,1)",

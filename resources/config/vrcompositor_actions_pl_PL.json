@@ -21,8 +21,8 @@
 	"/actions/lasermouse/in/trackpadscroll": "Przewijanie panelem",
 	"/actions/lasermouse/in/enter": "Wprowadzanie",
 	"/actions/lasermouse/in/pointer": "Wskaźnik myszy laserowej",
-	"/actions/scroll_discrete/in/scroll": "Scroll Panel",
-	"/actions/scroll_smooth/in/scroll": "Scroll Panel",
+	"/actions/scroll_discrete/in/scroll": "Przewiń panel",
+	"/actions/scroll_smooth/in/scroll": "Przewiń panel",
 	"/actions/lasermouse_secondary/in/switchlaserhand": "Uczyń aktywną ręką",
 	"/actions/dualanalog/in/rightclick": "Kliknięcie prawej klawiatury",
 	"/actions/dualanalog/in/leftclick": "Klinkięcie lewej klawiatury",
@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "Pomocnicza mysz laserowa",
 	"/actions/dualanalog": "Wprowadzanie klawiaturowe",
 	"/actions/system": "Działania systemowe",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "Przewijanie w stylu kółka myszy",
+	"/actions/scroll_smooth": "Przewijanie w stylu panelu dotykowego"
 }

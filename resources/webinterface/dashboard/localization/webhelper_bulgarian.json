@@ -22,7 +22,7 @@
 	"PowerMenuHeader": "Меню за захранване",
 	"IPD_Description": "Разстояние между лещите",
 	"NoSteamWarning": "Steam не е достъпен. Възможно е някои характеристики да са изключени.",
-	"WakingUpBaseStations": "Waking up base stations...",
+	"WakingUpBaseStations": "Събуждане на базовите станции…",
 	"/input/joystick": "Джойстик",
 	"/input/trackpad": "Тракпад",
 	"/input/trigger": "Спусък",

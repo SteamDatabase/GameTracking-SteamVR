@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "Mouse laser secondario",
 	"/actions/dualanalog": "Immissione da tastiera",
 	"/actions/system": "Azioni del sistema",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "Scorrimento rotellina del mouse",
+	"/actions/scroll_smooth": "Scorrimento trackpad"
 }

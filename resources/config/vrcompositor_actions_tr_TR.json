@@ -21,8 +21,8 @@
 	"/actions/lasermouse/in/trackpadscroll": "Panel Değiştir",
 	"/actions/lasermouse/in/enter": "Gir",
 	"/actions/lasermouse/in/pointer": "Lazer Fare İşaretçisi",
-	"/actions/scroll_discrete/in/scroll": "Scroll Panel",
-	"/actions/scroll_smooth/in/scroll": "Scroll Panel",
+	"/actions/scroll_discrete/in/scroll": "Kaydırma Paneli",
+	"/actions/scroll_smooth/in/scroll": "Kaydırma Paneli",
 	"/actions/lasermouse_secondary/in/switchlaserhand": "Aktif El Olsun",
 	"/actions/dualanalog/in/rightclick": "Sağ Klavye Tıklaması",
 	"/actions/dualanalog/in/leftclick": "Sol Klavye Tıklaması",
@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "İkincil Eldeki Lazer Fare",
 	"/actions/dualanalog": "Klavye Girdisi",
 	"/actions/system": "Sistem Eylemleri",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "Fare tekerleği gibi kaydırma",
+	"/actions/scroll_smooth": "Yön kumandası gibi kaydırma"
 }

@@ -21,8 +21,8 @@
 	"/actions/lasermouse/in/trackpadscroll": "捲動面版",
 	"/actions/lasermouse/in/enter": "輸入",
 	"/actions/lasermouse/in/pointer": "滑鼠雷射指示器",
-	"/actions/scroll_discrete/in/scroll": "Scroll Panel",
-	"/actions/scroll_smooth/in/scroll": "Scroll Panel",
+	"/actions/scroll_discrete/in/scroll": "捲動面版",
+	"/actions/scroll_smooth/in/scroll": "捲動面版",
 	"/actions/lasermouse_secondary/in/switchlaserhand": "使其成為主用手",
 	"/actions/dualanalog/in/rightclick": "右鍵盤點擊",
 	"/actions/dualanalog/in/leftclick": "左鍵盤點擊",
@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "副手雷射滑鼠",
 	"/actions/dualanalog": "鍵盤輸入",
 	"/actions/system": "系統動作",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "滑鼠滾輪式捲動",
+	"/actions/scroll_smooth": "觸控板式捲動"
 }

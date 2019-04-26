@@ -67,7 +67,7 @@
 	"fallback": {
 		"url": "/dashboard/fallback.html",
 		"name": "fallback",
-		"type": "fallback",
+		"type": "overlay",
 		"pixel_size": [ 1024, 2048 ],
 		"setting": [ "driver_lighthouse", "enableImuFallback" ]
 	},

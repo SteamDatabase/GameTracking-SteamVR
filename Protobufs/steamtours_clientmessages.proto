@@ -28,6 +28,8 @@ enum ESteamToursClientMessages {
 	CM_DeleteObject = 522;
 	CM_DropHeldObject = 523;
 	CM_SpawnVROverlay = 524;
+	CM_SetControllerVRInfo = 525;
+	CM_NotifyWorkshopItemState = 526;
 }
 
 message CClientMsg_SpawnPhysicsProp {
@@ -37,6 +39,7 @@ message CClientMsg_SpawnPhysicsProp {
 	optional uint32 handid = 4;
 	optional fixed32 color = 5;
 	optional bool uses_client_side_animation = 6;
+	optional string content = 7;
 }
 
 message CClientMsg_SpawnPropTool {
@@ -57,6 +60,7 @@ message CClientMsg_SpawnWearables {
 		optional .CMsgVector position = 5;
 		optional .CMsgQAngle angles = 6;
 		optional fixed32 color = 7;
+		optional string content = 8;
 	}
 
 	repeated .CClientMsg_SpawnWearables.WearableConfig wearables = 1;
@@ -189,5 +193,17 @@ message CClientMsg_SpawnVROverlay {
 	optional .CMsgQAngle angles = 4;
 	optional float width = 5;
 	optional float height = 6;
+}
+
+message CClientMsg_SetControllerVRInfo {
+	optional int32 handid = 1;
+	optional int32 tracked_device_index = 2;
+	optional string controller_type_name = 3;
+}
+
+message CClientMsg_NotifyWorkshopItemState {
+	optional uint64 fileid = 1;
+	optional bool force_fileid = 2;
+	optional float download_amount = 3;
 }
 

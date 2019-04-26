@@ -21,8 +21,8 @@
 	"/actions/lasermouse/in/trackpadscroll": "Panneau du défilement",
 	"/actions/lasermouse/in/enter": "Entrée",
 	"/actions/lasermouse/in/pointer": "Pointeur de la souris laser",
-	"/actions/scroll_discrete/in/scroll": "Scroll Panel",
-	"/actions/scroll_smooth/in/scroll": "Scroll Panel",
+	"/actions/scroll_discrete/in/scroll": "Panneau du défilement",
+	"/actions/scroll_smooth/in/scroll": "Panneau du défilement",
 	"/actions/lasermouse_secondary/in/switchlaserhand": "Définir comme main active",
 	"/actions/dualanalog/in/rightclick": "Clic droit (clavier)",
 	"/actions/dualanalog/in/leftclick": "Clic gauche (clavier)",
@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "Souris laser secondaire",
 	"/actions/dualanalog": "Entrée au clavier",
 	"/actions/system": "Actions du système",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "Défilement de type molette de souris",
+	"/actions/scroll_smooth": "Défilement de type trackpad"
 }

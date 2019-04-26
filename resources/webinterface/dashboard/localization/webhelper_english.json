@@ -28,6 +28,8 @@
 	"IPD_Description" : "Distance Between Lenses",
 	"NoSteamWarning" : "Steam is not available. Some features may be disabled.",
 
+	"WakingUpBaseStations" : "Waking up base stations...",
+
 	"/input/joystick" : "Joystick",
 	"/input/trackpad" : "Trackpad",
 	"/input/trigger" : "Trigger",
@@ -73,6 +75,7 @@
 	"OriginString_Hand": "%1$s",
 	"OriginString_ControllerSource": "%2$s %3$s",
  	"OriginString_Source": "%3$s",
- 	"OriginString_Controller": "%2$s"
+ 	"OriginString_Controller": "%2$s",
 
+	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

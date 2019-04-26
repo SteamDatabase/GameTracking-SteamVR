@@ -511,7 +511,7 @@
 "[english]VRSettingsBackground"	"Customize"
 "VRSettingsCamera"	"Ustawienia kamery"
 "[english]VRSettingsCamera"	"Camera Settings"
-"VRSettings_CameraInDashboard"	"Uruchom kamerę w Panelu głównym"
+"VRSettings_CameraInDashboard"	"Uruchom kamerę w panelu głównym"
 "[english]VRSettings_CameraInDashboard"	"Enable Camera in Dashboard"
 "VRSettings_CameraInChaperone"	"Użyj kamery jako granic Chaperone"
 "[english]VRSettings_CameraInChaperone"	"Use Camera for Chaperone Bounds"
