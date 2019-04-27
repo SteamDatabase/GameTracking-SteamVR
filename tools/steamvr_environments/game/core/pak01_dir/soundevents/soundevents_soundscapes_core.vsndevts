@@ -1,1111 +1,328 @@
-"Soundscapes.test_loop"
 {
-	"operator_stacks"
+	Soundscapes.test_loop = 
 	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_looping_sound_2D"
-				"operator_variables"
-				{
-					"vsnd_files"
-					{
-						"value"
-						{
-							"value0"		"sounds/diagnostics/singing_bowl_lp_01.vsnd"
-						}
-					}
-				}
-			}
-		}
+		type = "soundscape_looping_sound_2D"
+		vsnd_files = "sounds/diagnostics/singing_bowl_lp_01.vsnd"
+	}
+	Soundscapes.loop_rain_light = 
+	{
+		type = "soundscape_looping_sound_2D"
+		vsnd_files = "sounds/diagnostics/rain_light_lp_01.vsnd"
+	}
+	Soundscapes.loop_rain_heavy = 
+	{
+		type = "soundscape_looping_sound_2D"
+		vsnd_files = "sounds/diagnostics/rain_heavy_lp_01.vsnd"
+	}
+	Soundscapes.loop_wind_light = 
+	{
+		type = "soundscape_looping_sound_2D"
+		vsnd_files = "sounds/diagnostics/wind_light_foliage_lp_01.vsnd"
+	}
+	Soundscapes.loop_wind_medium = 
+	{
+		type = "soundscape_looping_sound_2D"
+		vsnd_files = "sounds/diagnostics/wind_med_foliage_lp_01.vsnd"
+	}
+	Soundscapes.thunder_near = 
+	{
+		type = "soundscape_random_sound"
+		vsnd_files = 
+		[
+			"sounds/diagnostics/ambient/thunder/thunder_close_01.vsnd",
+			"sounds/diagnostics/ambient/thunder/thunder_close_02.vsnd",
+			"sounds/diagnostics/ambient/thunder/thunder_close_03.vsnd",
+			"sounds/diagnostics/ambient/thunder/thunder_close_04.vsnd",
+		]
+	}
+	Soundscapes.thunder_far = 
+	{
+		type = "soundscape_random_sound"
+		vsnd_files = 
+		[
+			"sounds/diagnostics/ambient/thunder/thunder_distant_01.vsnd",
+			"sounds/diagnostics/ambient/thunder/thunder_distant_02.vsnd",
+			"sounds/diagnostics/ambient/thunder/thunder_distant_03.vsnd",
+			"sounds/diagnostics/ambient/thunder/thunder_distant_04.vsnd",
+		]
+	}
+	Soundscapes.test_weather = 
+	{
+		type = "soundscape_test_weather"
+	}
+	Soundscapes.test_soundscape = 
+	{
+		type = "soundscape_test_play_soundscape"
+		soundscape_name = "Soundscapes.test_weather"
+		soundscape_volume = 0.970000
+	}
+	Soundscapes.test_random_01 = 
+	{
+		type = "soundscape_random_sound"
+		vsnd_files = 
+		[
+			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd",
+			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd",
+			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd",
+			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd",
+		]
+	}
+	Soundscapes.test_random_02 = 
+	{
+		type = "soundscape_random_sound"
+		vsnd_files = 
+		[
+			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd",
+			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd",
+			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd",
+			"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd",
+		]
+	}
+	Soundscapes.test_ramp_1 = 
+	{
+		type = "dave_timer_test"
+	}
+	Soundscapes.test_gui = 
+	{
+		type = "soundscape_2rand_1loop"
+		soundscape_scalar = 0.980000
+		loop_01_pitch_max = 1.000000
+		loop_01_pitch_min = 0.900000
+		loop_01_position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		loop_01_soundevent_name = "foo.bar"
+		loop_01_soundlevel = 75.000000
+		loop_01_volume_max = 1.000000
+		loop_01_volume_min = 1.000000
+		loop_01_use_vol_opvar = false
+		loop_01_remap_vol_opvar_ymin = 0.000000
+		loop_01_remap_vol_opvar_ymax = 1.000000
+		loop_01_remap_vol_opvar_xmin = 0.000000
+		loop_01_remap_vol_opvar_xmax = 1.000000
+		loop_01_vol_opvar = "foo"
+		loop_01_remap_vol_opvar_x1 = 1.000000
+		loop_01_remap_vol_opvar_y1 = 1.000000
+		loop_01_remap_vol_opvar_x2 = 1.000000
+		loop_01_remap_vol_opvar_y2 = 1.000000
+		loop_01_remap_vol_opvar_x3 = 1.000000
+		loop_01_remap_vol_opvar_y3 = 1.000000
+		loop_01_remap_vol_opvar_x4 = 1.000000
+		loop_01_remap_vol_opvar_y4 = 1.000000
+		random_01_delay_max = 60.000000
+		random_01_delay_min = 0.010000
+		random_01_pitch_max = 1.000000
+		random_01_pitch_min = 0.900000
+		random_01_position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		random_01_position_random = false
+		random_01_position_random_max_radius = 1000.000000
+		random_01_position_random_min_radius = 100.000000
+		random_01_soundevent_name = "foo.bar"
+		random_01_volume_max = 1.000000
+		random_01_volume_min = 1.000000
+		random_02_delay_max = 60.000000
+		random_02_delay_min = 0.010000
+		random_02_pitch_max = 1.000000
+		random_02_pitch_min = 0.900000
+		random_02_position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		random_02_position_random = false
+		random_02_position_random_max_radius = 1000.000000
+		random_02_position_random_min_radius = 100.000000
+		random_02_soundevent_name = "foo.bar"
+		random_02_volume_max = 1.000000
+		random_02_volume_min = 1.000000
+		random_01_use_pct_opvar = false
+		random_01_pct_opvar = "foo"
+		random_01_remap_pct_opvar_ymin = 0.000000
+		random_01_remap_pct_opvar_ymax = 1.000000
+		random_01_remap_pct_opvar_xmin = 0.000000
+		random_01_remap_pct_opvar_xmax = 1.000000
+		random_01_remap_pct_opvar_x1 = 1.000000
+		random_01_remap_pct_opvar_y1 = 1.000000
+		random_01_remap_pct_opvar_x2 = 1.000000
+		random_01_remap_pct_opvar_y2 = 1.000000
+		random_01_remap_pct_opvar_x3 = 1.000000
+		random_01_remap_pct_opvar_y3 = 1.000000
+		random_01_remap_pct_opvar_x4 = 1.000000
+		random_01_remap_pct_opvar_y4 = 1.000000
+		random_01_remap_vol_opvar_ymin = 0.000000
+		random_01_remap_vol_opvar_ymax = 1.000000
+		random_01_remap_vol_opvar_xmin = 0.000000
+		random_01_remap_vol_opvar_xmax = 1.000000
+		random_01_use_vol_opvar = false
+		random_01_vol_opvar = "foo"
+		random_01_remap_vol_opvar_x1 = 1.000000
+		random_01_remap_vol_opvar_y1 = 1.000000
+		random_01_remap_vol_opvar_x2 = 1.000000
+		random_01_remap_vol_opvar_y2 = 1.000000
+		random_01_remap_vol_opvar_x3 = 1.000000
+		random_01_remap_vol_opvar_y3 = 1.000000
+		random_01_remap_vol_opvar_x4 = 1.000000
+		random_01_remap_vol_opvar_y4 = 1.000000
+		random_02_use_pct_opvar = false
+		random_02_pct_opvar = "foo"
+		random_02_remap_pct_opvar_ymin = 0.000000
+		random_02_remap_pct_opvar_ymax = 1.000000
+		random_02_remap_pct_opvar_xmin = 0.000000
+		random_02_remap_pct_opvar_xmax = 1.000000
+		random_02_remap_pct_opvar_x1 = 1.000000
+		random_02_remap_pct_opvar_y1 = 1.000000
+		random_02_remap_pct_opvar_x2 = 1.000000
+		random_02_remap_pct_opvar_y2 = 1.000000
+		random_02_remap_pct_opvar_x3 = 1.000000
+		random_02_remap_pct_opvar_y3 = 1.000000
+		random_02_remap_pct_opvar_x4 = 1.000000
+		random_02_remap_pct_opvar_y4 = 1.000000
+		random_02_remap_vol_opvar_ymin = 0.000000
+		random_02_remap_vol_opvar_ymax = 1.000000
+		random_02_remap_vol_opvar_xmin = 0.000000
+		random_02_remap_vol_opvar_xmax = 1.000000
+		random_02_use_vol_opvar = false
+		random_02_vol_opvar = "foo"
+		random_02_remap_vol_opvar_x1 = 1.000000
+		random_02_remap_vol_opvar_y1 = 1.000000
+		random_02_remap_vol_opvar_x2 = 1.000000
+		random_02_remap_vol_opvar_y2 = 1.000000
+		random_02_remap_vol_opvar_x3 = 1.000000
+		random_02_remap_vol_opvar_y3 = 1.000000
+		random_02_remap_vol_opvar_x4 = 1.000000
+		random_02_remap_vol_opvar_y4 = 1.000000
+	}
+	Soundscapes.test_ramp_stop = 
+	{
+		type = "dave_timer_test_stop"
+	}
+	Soundscapes.test_ramp_start = 
+	{
+		type = "dave_timer_test_run"
+	}
+	Soundscapes.test_ramp_reset = 
+	{
+		type = "dave_timer_test_reset"
+	}
+	Soundscapes.test_ramp_stop_reset = 
+	{
+		type = "dave_timer_test_stop_reset"
+	}
+	Soundscapes.test_sb = 
+	{
+		type = "dave_test_sb"
+	}
+	Soundscapes.test_sb_bang = 
+	{
+		type = "dave_sb_bang"
+	}
+	Soundscapes.test_play_looping = 
+	{
+		type = "soundscape_play_looping"
+		volume_max = 1.000000
+		volume_min = 0.750000
+		pitch_max = 1.250000
+		pitch_min = 0.750000
+		position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		soundevent_name = "Diagnostic.update_test_start_vsnd_lfo"
+		soundscape_scalar = 1.000000
+	}
+	Soundscapes.test_burst = 
+	{
+		type = "soundscape_play_burst"
+		burst_length = 5.600000
+		delay_time_low = 0.050000
+		delay_time_high = 0.200000
+		soundevent_name = "Diagnostic.update_test_start_vsnd_lfo"
+		position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+	}
+	Soundscapes.test_play_random = 
+	{
+		type = "soundscape_play_random"
+		volume_max = 1.000000
+		volume_min = 0.500000
+		pitch_max = 1.100000
+		pitch_min = 0.900000
+		delay_max = 10.000000
+		delay_min = 2.500000
+	}
+	Soundscapes.test_random_pos = 
+	{
+		type = "dave_test_random_pos"
+	}
+	Soundscapes.test_multiple = 
+	{
+		type = "dave_test_soundscapes"
+		soundscape_scalar = 1.000000
+		rand01_delay_min = 5.000000
+		rand01_delay_max = 10.000000
+		rand01_position_random = true
+		rand01_position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		rand01_position_random_min_radius = 100.000000
+		rand01_position_random_max_radius = 1000.000000
+		rand01_entry_name = "Soundscapes.test_random_01"
+		rand02_delay_min = 7.000000
+		rand02_delay_max = 15.000000
+		rand02_position_random = true
+		rand02_position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		rand02_position_random_min_radius = 200.000000
+		rand02_position_random_max_radius = 400.000000
+		rand02_entry_name = "Dave.Thing2"
+		lp_position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		lp_soundevent_name = "Dave.ThingLP"
+		lp_distance_max = -1.000000
+	}
+	Soundscapes.test_floats = 
+	{
+		type = "dave_test_floatness"
+	}
+	Soundscapes.test_lerp_pos = 
+	{
+		type = "util_float3_lerp"
+		percentage = 0.750000
+	}
+	Soundscapes.test_max_mult = 
+	{
+		type = "core_max_multiple"
+		input1 = 5.000000
+		input2 = 10.000000
+		input3 = 15.000000
+		input4 = 20.000000
+		input5 = 25.000000
+		input6 = 30.000000
 	}
 }
-
-"Soundscapes.loop_rain_light"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_looping_sound_2D"
-				"operator_variables"
-				{
-					"vsnd_files"
-					{
-						"value"
-						{
-							"value0"		"sounds/diagnostics/rain_light_lp_01.vsnd"
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.loop_rain_heavy"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_looping_sound_2D"
-				"operator_variables"
-				{
-					"vsnd_files"
-					{
-						"value"
-						{
-							"value0"		"sounds/diagnostics/rain_heavy_lp_01.vsnd"
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.loop_wind_light"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_looping_sound_2D"
-				"operator_variables"
-				{
-					"vsnd_files"
-					{
-						"value"
-						{
-							"value0"		"sounds/diagnostics/wind_light_foliage_lp_01.vsnd"
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.loop_wind_medium"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_looping_sound_2D"
-				"operator_variables"
-				{
-					"vsnd_files"
-					{
-						"value"
-						{
-							"value0"		"sounds/diagnostics/wind_med_foliage_lp_01.vsnd"
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.thunder_near"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_random_sound"
-				"operator_variables"
-				{
-					"vsnd_files"
-					{
-						"value"
-						{
-							"value"		"sounds/diagnostics/ambient/thunder/thunder_close_01.vsnd"
-							"value"		"sounds/diagnostics/ambient/thunder/thunder_close_02.vsnd"
-							"value"		"sounds/diagnostics/ambient/thunder/thunder_close_03.vsnd"
-							"value"		"sounds/diagnostics/ambient/thunder/thunder_close_04.vsnd"
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.thunder_far"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_random_sound"
-				"operator_variables"
-				{
-					"vsnd_files"
-					{
-						"value"
-						{
-							"value"		"sounds/diagnostics/ambient/thunder/thunder_distant_01.vsnd"
-							"value"		"sounds/diagnostics/ambient/thunder/thunder_distant_02.vsnd"
-							"value"		"sounds/diagnostics/ambient/thunder/thunder_distant_03.vsnd"
-							"value"		"sounds/diagnostics/ambient/thunder/thunder_distant_04.vsnd"
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_weather"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_test_weather"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_soundscape"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_test_play_soundscape"
-				"operator_variables"
-				{
-					"soundscape_name"
-					{
-						"value"		"Soundscapes.test_weather"
-					}
-					"soundscape_volume"
-					{
-						"value"		"0.970000"
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_random_01"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_random_sound"
-				"operator_variables"
-				{
-					"vsnd_files"
-					{
-						"value"
-						{
-							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01.vsnd"
-							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd"
-							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd"
-							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd"
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_random_02"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_random_sound"
-				"operator_variables"
-				{
-					"vsnd_files"
-					{
-						"value"
-						{
-							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird03.vsnd"
-							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird01b.vsnd"
-							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02.vsnd"
-							"value"		"sounds/diagnostics/ambient/random_amb_sfx/forest_bird02b.vsnd"
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_ramp_1"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_timer_test"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_gui"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_2rand_1loop"
-				"operator_variables"
-				{
-					"soundscape_scalar"
-					{
-						"value"		"0.980000"
-					}
-					"loop_01_pitch_max"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_pitch_min"
-					{
-						"value"		"0.900000"
-					}
-					"loop_01_position"
-					{
-						"value"		"[0.0, 0.0, 0.0]"
-					}
-					"loop_01_soundevent_name"
-					{
-						"value"		"foo.bar"
-					}
-					"loop_01_soundlevel"
-					{
-						"value"		"75.000000"
-					}
-					"loop_01_volume_max"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_volume_min"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_use_vol_opvar"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_remap_vol_opvar_ymin"
-					{
-						"value"		"0.000000"
-					}
-					"loop_01_remap_vol_opvar_ymax"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_remap_vol_opvar_xmin"
-					{
-						"value"		"0.000000"
-					}
-					"loop_01_remap_vol_opvar_xmax"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_vol_opvar"
-					{
-						"value"		"foo"
-					}
-					"loop_01_remap_vol_opvar_x1"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_remap_vol_opvar_y1"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_remap_vol_opvar_x2"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_remap_vol_opvar_y2"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_remap_vol_opvar_x3"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_remap_vol_opvar_y3"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_remap_vol_opvar_x4"
-					{
-						"value"		"1.000000"
-					}
-					"loop_01_remap_vol_opvar_y4"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_delay_max"
-					{
-						"value"		"60.000000"
-					}
-					"random_01_delay_min"
-					{
-						"value"		"0.010000"
-					}
-					"random_01_pitch_max"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_pitch_min"
-					{
-						"value"		"0.900000"
-					}
-					"random_01_position"
-					{
-						"value"		"[0.0, 0.0, 0.0]"
-					}
-					"random_01_position_random"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_position_random_max_radius"
-					{
-						"value"		"1000.000000"
-					}
-					"random_01_position_random_min_radius"
-					{
-						"value"		"100.000000"
-					}
-					"random_01_soundevent_name"
-					{
-						"value"		"foo.bar"
-					}
-					"random_01_volume_max"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_volume_min"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_delay_max"
-					{
-						"value"		"60.000000"
-					}
-					"random_02_delay_min"
-					{
-						"value"		"0.010000"
-					}
-					"random_02_pitch_max"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_pitch_min"
-					{
-						"value"		"0.900000"
-					}
-					"random_02_position"
-					{
-						"value"		"[0.0, 0.0, 0.0]"
-					}
-					"random_02_position_random"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_position_random_max_radius"
-					{
-						"value"		"1000.000000"
-					}
-					"random_02_position_random_min_radius"
-					{
-						"value"		"100.000000"
-					}
-					"random_02_soundevent_name"
-					{
-						"value"		"foo.bar"
-					}
-					"random_02_volume_max"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_volume_min"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_use_pct_opvar"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_pct_opvar"
-					{
-						"value"		"foo"
-					}
-					"random_01_remap_pct_opvar_ymin"
-					{
-						"value"		"0.000000"
-					}
-					"random_01_remap_pct_opvar_ymax"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_pct_opvar_xmin"
-					{
-						"value"		"0.000000"
-					}
-					"random_01_remap_pct_opvar_xmax"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_pct_opvar_x1"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_pct_opvar_y1"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_pct_opvar_x2"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_pct_opvar_y2"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_pct_opvar_x3"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_pct_opvar_y3"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_pct_opvar_x4"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_pct_opvar_y4"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_vol_opvar_ymin"
-					{
-						"value"		"0.000000"
-					}
-					"random_01_remap_vol_opvar_ymax"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_vol_opvar_xmin"
-					{
-						"value"		"0.000000"
-					}
-					"random_01_remap_vol_opvar_xmax"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_use_vol_opvar"
-					{
-						"value"		"0.000000"
-					}
-					"random_01_vol_opvar"
-					{
-						"value"		"foo"
-					}
-					"random_01_remap_vol_opvar_x1"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_vol_opvar_y1"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_vol_opvar_x2"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_vol_opvar_y2"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_vol_opvar_x3"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_vol_opvar_y3"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_vol_opvar_x4"
-					{
-						"value"		"1.000000"
-					}
-					"random_01_remap_vol_opvar_y4"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_use_pct_opvar"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_pct_opvar"
-					{
-						"value"		"foo"
-					}
-					"random_02_remap_pct_opvar_ymin"
-					{
-						"value"		"0.000000"
-					}
-					"random_02_remap_pct_opvar_ymax"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_pct_opvar_xmin"
-					{
-						"value"		"0.000000"
-					}
-					"random_02_remap_pct_opvar_xmax"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_pct_opvar_x1"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_pct_opvar_y1"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_pct_opvar_x2"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_pct_opvar_y2"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_pct_opvar_x3"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_pct_opvar_y3"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_pct_opvar_x4"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_pct_opvar_y4"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_vol_opvar_ymin"
-					{
-						"value"		"0.000000"
-					}
-					"random_02_remap_vol_opvar_ymax"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_vol_opvar_xmin"
-					{
-						"value"		"0.000000"
-					}
-					"random_02_remap_vol_opvar_xmax"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_use_vol_opvar"
-					{
-						"value"		"0.000000"
-					}
-					"random_02_vol_opvar"
-					{
-						"value"		"foo"
-					}
-					"random_02_remap_vol_opvar_x1"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_vol_opvar_y1"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_vol_opvar_x2"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_vol_opvar_y2"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_vol_opvar_x3"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_vol_opvar_y3"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_vol_opvar_x4"
-					{
-						"value"		"1.000000"
-					}
-					"random_02_remap_vol_opvar_y4"
-					{
-						"value"		"1.000000"
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_ramp_stop"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_timer_test_stop"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_ramp_start"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_timer_test_run"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_ramp_reset"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_timer_test_reset"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_ramp_stop_reset"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_timer_test_stop_reset"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_sb"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_test_sb"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_sb_bang"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_sb_bang"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_play_looping"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_play_looping"
-				"operator_variables"
-				{
-					"volume_max"
-					{
-						"value"		"1.000000"
-					}
-					"volume_min"
-					{
-						"value"		"0.750000"
-					}
-					"pitch_max"
-					{
-						"value"		"1.250000"
-					}
-					"pitch_min"
-					{
-						"value"		"0.750000"
-					}
-					"position"
-					{
-						"value"		"[0.0, 0.0, 0.0]"
-					}
-					"soundevent_name"
-					{
-						"value"		"Diagnostic.update_test_start_vsnd_lfo"
-					}
-					"soundscape_scalar"
-					{
-						"value"		"1.000000"
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_burst"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_play_burst"
-				"operator_variables"
-				{
-					"burst_length"
-					{
-						"value"		"5.600000"
-					}
-					"delay_time_low"
-					{
-						"value"		"0.050000"
-					}
-					"delay_time_high"
-					{
-						"value"		"0.200000"
-					}
-					"soundevent_name"
-					{
-						"value"		"Diagnostic.update_test_start_vsnd_lfo"
-					}
-					"position"
-					{
-						"value"		"[0.0, 0.0, 0.0]"
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_play_random"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"soundscape_play_random"
-				"operator_variables"
-				{
-					"volume_max"
-					{
-						"value"		"1.000000"
-					}
-					"volume_min"
-					{
-						"value"		"0.500000"
-					}
-					"pitch_max"
-					{
-						"value"		"1.100000"
-					}
-					"pitch_min"
-					{
-						"value"		"0.900000"
-					}
-					"delay_max"
-					{
-						"value"		"10.000000"
-					}
-					"delay_min"
-					{
-						"value"		"2.500000"
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_random_pos"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_test_random_pos"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_multiple"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_test_soundscapes"
-				"operator_variables"
-				{
-					"soundscape_scalar"
-					{
-						"value"		"1.000000"
-					}
-					"rand01_delay_min"
-					{
-						"value"		"5.000000"
-					}
-					"rand01_delay_max"
-					{
-						"value"		"10.000000"
-					}
-					"rand01_position_random"
-					{
-						"value"		"1"
-					}
-					"rand01_position"
-					{
-						"value"		"[0.0, 0.0, 0.0]"
-					}
-					"rand01_position_random_min_radius"
-					{
-						"value"		"100.000000"
-					}
-					"rand01_position_random_max_radius"
-					{
-						"value"		"1000.000000"
-					}
-					"rand01_entry_name"
-					{
-						"value"		"Soundscapes.test_random_01"
-					}
-					"rand02_delay_min"
-					{
-						"value"		"7.000000"
-					}
-					"rand02_delay_max"
-					{
-						"value"		"15.000000"
-					}
-					"rand02_position_random"
-					{
-						"value"		"1"
-					}
-					"rand02_position"
-					{
-						"value"		"[0.0, 0.0, 0.0]"
-					}
-					"rand02_position_random_min_radius"
-					{
-						"value"		"200.000000"
-					}
-					"rand02_position_random_max_radius"
-					{
-						"value"		"400.000000"
-					}
-					"rand02_entry_name"
-					{
-						"value"		"Dave.Thing2"
-					}
-					"lp_position"
-					{
-						"value"		"[0.0, 0.0, 0.0]"
-					}
-					"lp_soundevent_name"
-					{
-						"value"		"Dave.ThingLP"
-					}
-					"lp_distance_max"
-					{
-						"value"		"-1.000000"
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_floats"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"dave_test_floatness"
-			}
-		}
-	}
-}
-
-"Soundscapes.test_lerp_pos"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"util_float3_lerp"
-				"operator_variables"
-				{
-					"percentage"
-					{
-						"value"		"0.750000"
-					}
-				}
-			}
-		}
-	}
-}
-
-"Soundscapes.test_max_mult"
-{
-	"operator_stacks"
-	{
-		"update_stack"
-		{
-			"reference_operator"
-			{
-				"operator"		"sos_reference_stack"
-				"reference_stack"		"core_max_multiple"
-				"operator_variables"
-				{
-					"input1"
-					{
-						"value"		"5.000000"
-					}
-					"input2"
-					{
-						"value"		"10.000000"
-					}
-					"input3"
-					{
-						"value"		"15.000000"
-					}
-					"input4"
-					{
-						"value"		"20.000000"
-					}
-					"input5"
-					{
-						"value"		"25.000000"
-					}
-					"input6"
-					{
-						"value"		"30.000000"
-					}
-				}
-			}
-		}
-	}
-}
-

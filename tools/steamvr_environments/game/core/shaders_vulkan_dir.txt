@@ -22,6 +22,9 @@ shaders/vfx/cables.ini CRC:0000000000 size:0
 shaders/vfx/cables_vulkan_41_features.vcs CRC:00c967975e size:17118
 shaders/vfx/cables_vulkan_41_ps.vcs CRC:00633a78bf size:65700
 shaders/vfx/cables_vulkan_41_vs.vcs CRC:0055b816f7 size:19825
+shaders/vfx/combine_colorcorrection_lut_cs.ini CRC:0000000000 size:0
+shaders/vfx/combine_colorcorrection_lut_cs_vulkan_50_cs.vcs CRC:00137be68d size:6615
+shaders/vfx/combine_colorcorrection_lut_cs_vulkan_50_features.vcs CRC:005bea003a size:5735
 shaders/vfx/convolve_environment_map.ini CRC:0000000000 size:0
 shaders/vfx/convolve_environment_map_vulkan_41_features.vcs CRC:00707f95ba size:3830
 shaders/vfx/convolve_environment_map_vulkan_41_ps.vcs CRC:00e90e1d5c size:3119

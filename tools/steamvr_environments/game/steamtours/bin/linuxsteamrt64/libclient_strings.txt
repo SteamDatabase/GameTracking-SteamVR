@@ -1439,6 +1439,7 @@ $z1u/A
 (*VERB) not recognized or malformed
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
+(58Xi
 (8HXhx
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
@@ -1888,10 +1889,11 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%a7Q
+.%ohk
 .(Optional) Set of tags for the published file.
 .(zkuiH
-.->h#
+.-.h#
+.-b7Q
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1924,12 +1926,11 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.5LiN
-.5fh#
-.5u!m
-.=6iN
-.=DgQ
-.=Th#
+.5ShM
+.5Vh#
+.=Dh#
+.=t~D
+.={vM
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -10036,7 +10037,7 @@ D$\A9
 D$`9D$X
 D$`A9E`A
 D$`H9
-D$`H;=}G
+D$`H;=
 D$`L;
 D$`t	
 D$hH9
@@ -10081,9 +10082,9 @@ D24X8_SHADOW
 D70A9
 D8cUt
 D9#~wJ
-D9-T_
+D9-$^
 D9;t3I
-D9=5~
+D9=e|
 D9D$4B
 D9D$4H
 D9G8u
@@ -10112,9 +10113,10 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
-D;%?H
-D;%Qx
-D;%sG
+D;%!w
+D;%3G
+D;%UG
+D;%iX
 D;'tXH
 D;)ts
 D;+}(L
@@ -10122,10 +10124,9 @@ D;.tLH
 D;0uOE
 D;3t 
 D;3}5
-D;5QM
+D;5!L
 D;8tQH
 D;9tlA
-D;=CT
 D;C }JMc
 D;F`u
 D;G I
@@ -12144,62 +12145,63 @@ H;9u#
 H;:t(f
 H;:u'
 H;=	(
-H;=	B
 H;=	Z
-H;=	i
-H;= $
+H;=	l
+H;= "
+H;= ,
 H;= 7
-H;= 9
-H;= A
-H;= E
+H;= @
+H;=!m
 H;="#
-H;="[
-H;="~
+H;=".
+H;=#%
 H;=$0
 H;=&"
+H;=&.
 H;=&X
+H;=&x
 H;=(/
 H;=(<
 H;=(>
 H;=(w
-H;=)F
-H;=*(
+H;=)A
+H;=)d
 H;=*S
-H;=*x
 H;=+(
 H;=,Z
-H;=.'
-H;=/2
+H;=/(
+H;=/:
 H;=/E
-H;=/O
-H;=0-
+H;=0#
+H;=05
+H;=08
 H;=0@
-H;=0G
-H;=0J
+H;=0B
 H;=1L
 H;=21
-H;=2l
+H;=2Z
 H;=2z
+H;=2}
 H;=3&
 H;=3?
-H;=3uk
 H;=8.
-H;=8.|
 H;=8;
 H;=8=
 H;=8v
-H;=9-
-H;==j
-H;=?&
+H;=9C
+H;=:'
+H;=:w
+H;=>&
 H;=?1
-H;=?;
+H;=?C
+H;=?N
 H;=@,
-H;=@6
+H;=@>
+H;=@D
+H;=@I
 H;=@x
 H;=B'
-H;=Bh
-H;=Bv
-H;=Evk
+H;=Bk
 H;=F\
 H;=Gv
 H;=H-
@@ -12208,27 +12210,24 @@ H;=H<
 H;=H>
 H;=HY
 H;=Hu
-H;=I?
-H;=IU
-H;=In
-H;=J9
-H;=JV
-H;=Jy
+H;=I,
+H;=IE
+H;=J7
 H;=K_
 H;=L5
-H;=O'
+H;=Mi
+H;=O%
+H;=O/
 H;=O:
-H;=OD
-H;=O|
-H;=P"
 H;=P5
-H;=P?
-H;=P@
-H;=PA
+H;=PF
+H;=PG
 H;=QX
 H;=Qy
-H;=S&
-H;=T5|
+H;=Qz
+H;=Rg
+H;=Ru
+H;=R~
 H;=V(
 H;=VZ
 H;=W$
@@ -12237,22 +12236,23 @@ H;=X9
 H;=X;
 H;=XX
 H;=Xt
-H;=YA
-H;=Yj
+H;=Ym
 H;=Z%
-H;=Zc
+H;=Z8
+H;=ZU
+H;=Zx
 H;=\S
 H;=\Z
-H;=_0
+H;=_&
+H;=_8
 H;=_C
-H;=_M
 H;=_^
-H;=`+
+H;=_{
+H;=`!
+H;=`3
 H;=`>
-H;=`B
-H;=`H
+H;=`@
 H;=al
-H;=bw
 H;=d(
 H;=fy
 H;=g 
@@ -12264,20 +12264,20 @@ H;=h8
 H;=h:
 H;=hs
 H;=hx
-H;=iC
-H;=if
-H;=jW
-H;=jz
+H;=i>
+H;=ii
+H;=jb
 H;=m\
-H;=o$
 H;=o/
-H;=o9
+H;=oA
+H;=oL
 H;=oz
-H;=p4
-H;=pD
+H;=p*
+H;=p<
+H;=p?
 H;=pG
+H;=rv
 H;=s8
-H;=s]
 H;=wM
 H;=x*
 H;=x0
@@ -12288,11 +12288,14 @@ H;=xk
 H;=xp
 H;=xr
 H;=xs
-H;=yE
+H;=y@
+H;=ye
 H;=yo
-H;=zd
+H;=zV
+H;=zy
 H;={Z
 H;=|X
+H;=~a
 H;B@t
 H;C(t
 H;CPw<I
@@ -13352,6 +13355,7 @@ L9t$(u
 L9|$HJ
 L: %.2f deg
 L;!t!f.
+L;-4f
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13514,9 +13518,8 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
-Lc%6H
-Lc%jG
-Lc%|H
+Lc%*G
+Lc%LG
 Lc'D)
 Lc'E)
 Lc(D;h
@@ -13531,7 +13534,6 @@ Lc7D)
 Lc7D;w
 Lc7E)
 Lc;E9
-Lc=:T
 LcB@E
 LcKlH
 LcSlH
@@ -16977,7 +16979,6 @@ Syriac
 System %s failed to init
 SystemInputLanguageChanged
 T$ D)
-T$ H9
 T$ H9S t
 T$ H;C
 T$ Hc
@@ -18245,14 +18246,15 @@ Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
 X LcU
 X [A\]
+X%'>d
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-|?d
+X-)@R
+X-D>d
 X0~wA
 X2?-,}J
 X360_DST16
 X360_DST24
 X360_DST24F
-X5,?d
 X8HcF
 X=2v?
 XD$ A
@@ -18282,11 +18284,10 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
-Y%G 	
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-_#)
-Y5FEV
-Y5^#)
+Y-/#)
+Y-P!	
+Y5.#)
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18431,8 +18432,8 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\-}\Q
-\=3GR
+\%ALR
+\5^GR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -24746,7 +24747,6 @@ m_bEntitiesSpawned
 m_bExcludeFromSaveGames
 m_bExclusive
 m_bExitAnimOn
-m_bExpectToBeHoldingObj
 m_bExposureControl
 m_bFadeCorpse
 m_bFadeFromAbove
@@ -29530,12 +29530,13 @@ t$lfA
 t$pH;5
 t$pvufA
 t$xH;5eS
-t%95.
+t%95>
 t%;2t%H
 t%D:%
 t%HcC0A
 t%HcSx
 t%L;}
+t&;5o
 t&A;\$
 t&D;%
 t&L;%
@@ -29550,7 +29551,7 @@ t(HcM
 t(Lc#D;c
 t(Mce
 t([A\A]A^]
-t)@:51G
+t)@:5
 t)D:%
 t)HcE
 t)Mc<$E;|$
@@ -30930,7 +30931,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=6=
+x8H;=
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31093,8 +31094,8 @@ z|uzf
 z~u|A
 { H;=
 { H;=!
-{ H;=3
-{ H;=A
+{ H;=#y
+{ H;=Q~
 { H;=f
 { H;}
 { [A\A]A^H
@@ -31113,12 +31114,11 @@ z~u|A
 {([A\]H
 {(fD9't)H
 {0H;=
-{0H;=zz
+{0H;=H=
 {8[A\H
 {8t;[A\]
 {@H;=
-{@H;=py
-{HH;=Hx
+{HH;=Xw
 {HH;{`I
 {PH;=
 {S6wD

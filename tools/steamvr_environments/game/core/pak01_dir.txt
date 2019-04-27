@@ -59,6 +59,7 @@ materials/dev/black_grid_8.vmat_c CRC:00758e33d5 size:5544
 materials/dev/black_grid_8_color_tga_dd8b6813.vtex_c CRC:000837736b size:176508
 materials/dev/color_purple.vmat_c CRC:00d4133733 size:5608
 materials/dev/color_test_image.vtex_c CRC:00b6e825c8 size:1050356
+materials/dev/combine_colorcorrection_lut_cs.vmat_c CRC:001ad784ef size:1984
 materials/dev/convolve_environment_map.vmat_c CRC:008b82c362 size:2504
 materials/dev/cs_mipgen.vmat_c CRC:00f931601d size:1896
 materials/dev/cs_volumetric_fog.vmat_c CRC:00b07b937f size:2856
