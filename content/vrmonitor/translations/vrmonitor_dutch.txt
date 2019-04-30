@@ -1953,7 +1953,7 @@
 "BS_PowerManagement_ForgetBase"	"Basis vergeten"
 "[english]BS_PowerManagement_ForgetBase"	"Forget this device"
 "BS_PowerManagement_BaseStations"	"Beheerde basisstations"
-"[english]BS_PowerManagement_BaseStations"	"Managed base stations"
+"[english]BS_PowerManagement_BaseStations"	"Managed Base Stations"
 "MenuAction_ShowQuickStart"	"Begeleide installatie"
 "[english]MenuAction_ShowQuickStart"	"Guided Setup"
 "SteamVRSystemState_Paused_FirmwareUpdate"	"Apparaten bijwerken..."

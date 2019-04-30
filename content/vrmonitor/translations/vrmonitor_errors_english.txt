@@ -809,11 +809,6 @@
 "Warning_DismissableWarning_IssuesWithTwoDongles_Action" "More info"
 "Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
 
-"Warning_DismissableWarning_NeedKnucklesDriver_Header" "New Controller Detected"
-"Warning_DismissableWarning_NeedKnucklesDriver_Description" "Please install the driver you'll need to use this type of controller."
-"Warning_DismissableWarning_NeedKnucklesDriver_Action" "Install Driver"
-"Warning_DismissableWarning_NeedKnucklesDriver_ActionURL" "vrmonitor://installdriver/knuckles"
-
 "Warning_DismissableWarning_NewDriverInstalled_Header" "Device Update Pending"
 "Warning_DismissableWarning_NewDriverInstalled_Description" "Please Restart SteamVR to use your updated device."
 "Warning_DismissableWarning_NewDriverInstalled_Action" "Restart SteamVR"

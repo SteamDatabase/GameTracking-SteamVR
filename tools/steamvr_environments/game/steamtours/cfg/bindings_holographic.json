@@ -474,6 +474,6 @@
       }
    },
    "controller_type" : "holographic_controller",
-   "description" : "",
-   "name" : "Default SteamVR bindings for Windows Mixed Reality controllers"
+   "description" : "Default WMR controller bindings for SteamVR Home.",
+   "name" : "Default WMR Controller Bindings"
 }

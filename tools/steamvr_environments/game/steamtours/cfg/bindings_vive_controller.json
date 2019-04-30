@@ -454,6 +454,6 @@
       }
    },
    "controller_type" : "vive_controller",
-   "description" : "Default Vive Controller bindings for SteamVR Home",
-   "name" : "Vive Controller Bindings"
+   "description" : "Default Vive controller bindings for SteamVR Home.",
+   "name" : "Default Vive Controller Bindings"
 }

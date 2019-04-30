@@ -661,4 +661,8 @@
 "[english]Panorama_Selection_Latam_Spanish"	"Español-Latinoamérica (Spanish-Latin America)"
 "Panorama_Selection_Vietnamese"	"Tiếng Việt (Vietnamesiska)"
 "[english]Panorama_Selection_Vietnamese"	"Tiếng Việt (Vietnamese)"
+"BindingCallout_Header"	"VISA KONTROLLER"
+"[english]BindingCallout_Header"	"SHOW CONTROLS"
+"App_Not_Responding"	"Applikation svarar ej..."
+"[english]App_Not_Responding"	"Application not responding..."
 }

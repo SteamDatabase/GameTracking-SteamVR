@@ -1,6 +1,4 @@
 {
-   "alias_info" : {},
-   "app_key" : "system.generated.steamtours.exe",
    "bindings" : {
       "/actions/global" :  {
          "poses" : [
@@ -572,8 +570,6 @@
       }
    },
    "controller_type" : "knuckles",
-   "description" : "Default SteamVR bindings for Knuckles controllers",
-   "name" : "Default SteamVR bindings for Knuckles controllers",
-   "options" : {},
-   "simulated_actions" : []
+   "description" : "Default Knuckles bindings for SteamVR Home.",
+   "name" : "Default Knuckles Bindings"
 }

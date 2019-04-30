@@ -666,4 +666,8 @@
 "[english]Panorama_Selection_Latam_Spanish"	"Español-Latinoamérica (Spanish-Latin America)"
 "Panorama_Selection_Vietnamese"	"Tiếng Việt (виетнамски)"
 "[english]Panorama_Selection_Vietnamese"	"Tiếng Việt (Vietnamese)"
+"BindingCallout_Header"	"ПОКАЗВАНЕ НА КОНТРОЛИТЕ"
+"[english]BindingCallout_Header"	"SHOW CONTROLS"
+"App_Not_Responding"	"Приложението не откликва…"
+"[english]App_Not_Responding"	"Application not responding..."
 }

@@ -2056,7 +2056,7 @@
 "Settings_Advanced_MotionSmoothing"	"モーションスムージングを有効化"
 "[english]Settings_Advanced_MotionSmoothing"	"Enable motion smoothing"
 "Settings_Advanced_MotionSmoothing_Disabled"	"モーションスムージングは利用できません。Windows 10 とドライバ %2 以降の %1 GPU が必須です。"
-"[english]Settings_Advanced_MotionSmoothing_Disabled"	"Motion Smoothing is unavailable. It requires Windows 10 and an %1 GPU with drivers %2 or newer."
+"[english]Settings_Advanced_MotionSmoothing_Disabled"	"Motion Smoothing is not supported on this gpu or drivers are out of date."
 "Advanced_MotionEstimationActive"	"モーションスムージング オン"
 "[english]Advanced_MotionEstimationActive"	"Motion Smoothing On"
 "Advanced_MotionEstimationNotActive"	"モーションスムージング オフ"

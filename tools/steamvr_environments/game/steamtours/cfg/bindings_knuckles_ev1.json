@@ -408,6 +408,6 @@
       }
    },
    "controller_type" : "knuckles_ev1",
-   "description" : "",
-   "name" : "Default SteamVR Home Bindings for Knuckles (EV1)"
+   "description" : "Default Knuckles EV1 bindings for SteamVR Home.",
+   "name" : "Default Knuckles EV1 Bindings"
 }

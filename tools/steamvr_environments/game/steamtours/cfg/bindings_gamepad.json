@@ -77,6 +77,6 @@
       }
    },
    "controller_type" : "gamepad",
-   "description" : "Default binding for Gamepad",
-   "name" : "SteamVR Home bindings for Gamepad"
+   "description" : "Default Gamepad bindings for SteamVR Home.",
+   "name" : "Default Gamepad Bindings"
 }

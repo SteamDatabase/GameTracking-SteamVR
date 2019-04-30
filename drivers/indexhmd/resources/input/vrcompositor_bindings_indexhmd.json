@@ -1,0 +1,26 @@
+{
+	"controller_type" :	"indexhmd",
+	"bindings": {
+		"/actions/system": {
+			"sources": [
+				{
+					"inputs": {
+						"double": {
+							"output": "/actions/system/in/toggleroomview"
+						},
+						"long": {
+							"output": "/actions/system/in/showpowermenu"
+						},
+						"single": {
+							"output": "/actions/system/in/toggledashboard"
+						}
+					},
+					"mode": "complex_button",
+					"path": "/user/head/input/system"
+				}
+			]
+		}
+	}
+}
+
+

@@ -452,6 +452,6 @@
       }
    },
    "controller_type": "oculus_touch",
-   "description": "",
-   "name": "SteamVR Home bindings for Oculus Touch"
+   "description": "Default Oculus Touch bindings for SteamVR Home.",
+   "name": "Default Oculus Touch Bindings"
 }
