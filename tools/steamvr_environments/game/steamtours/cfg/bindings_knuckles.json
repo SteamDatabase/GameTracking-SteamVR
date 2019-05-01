@@ -570,6 +570,6 @@
       }
    },
    "controller_type" : "knuckles",
-   "description" : "Default Knuckles bindings for SteamVR Home.",
-   "name" : "Default Knuckles Bindings"
+   "description" : "Default Index Controller bindings for SteamVR Home.",
+   "name" : "Default Index Controller Bindings"
 }

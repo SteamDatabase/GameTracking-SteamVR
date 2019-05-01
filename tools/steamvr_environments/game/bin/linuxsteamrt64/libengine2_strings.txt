@@ -237,6 +237,7 @@
  Driver %s (vendorid %x, deviceid %x DXSupport Level %d)
  E9l$\
  E;g`
+ H;=W
  H;D$PH
  H;D$`H
  NETWORK_DISCONNECT_CLIENT_NO_MAP
@@ -936,6 +937,7 @@ $woL)
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P. 
+(%#y	
 (%u): %s
 (*%s*), 
 (*MARK) must have an argument
@@ -2452,7 +2454,6 @@ $woL)
 9.1.15
 90t(H
 92tHA
-95OBY
 9A\~;H
 9CBlackBox
 9CCallbackI13CSteam3Client17LowBatteryPower_tLb0EE
@@ -2503,7 +2504,7 @@ $woL)
 ;1|"H
 ;2t)H
 ;2|EH
-;59n^
+;5Jn^
 ;:~`H
 ;;D$H
 ;BX|'1
@@ -4470,6 +4471,7 @@ D%s*.%s
 D)d$DL
 D)l$HL
 D+#Mc
+D+%+A
 D+C$H
 D+K@D
 D+c$E
@@ -4477,7 +4479,6 @@ D+c$Mc
 D+g$E
 D+k$H
 D+s$H
-D-#R\
 D15S1
 D16_SHADOW
 D24FS8
@@ -4502,7 +4503,6 @@ D;!ttHc
 D;(tPH
 D;+}N
 D;+}fE
-D;-Tc
 D;0uOE
 D;c D
 D;c toH
@@ -5591,81 +5591,101 @@ H;0t.H
 H;0t7H
 H;2t=H
 H;3t?H
-H;5H0s
-H;5P$s
-H;5\v
-H;5`2s
-H;5mt
-H;=	 
-H;=	#
-H;=	,
-H;= .
-H;= 6
-H;= ;
-H;=!xs
-H;="`
-H;="ly
-H;=%)z
-H;=(Ns
-H;=)!
-H;=)%
-H;=)f
-H;=+D
-H;=/`
-H;=07
-H;=0x
-H;=4>v
-H;=52
-H;=7&
-H;=9'
-H;=9b
-H;=<*v
-H;=?"
-H;=@/
-H;=@9
-H;=@Qs
-H;=As
-H;=Cqv
-H;=G(
-H;=I!{
-H;=I"
-H;=I)
-H;=KOs
-H;=L;
-H;=LG
-H;=OW
-H;=P4
-H;=PNs
-H;=QQ
-H;=RD
-H;=Ri
-H;=W*
-H;=Wu~
-H;=Y+
-H;=_8
-H;=`0
-H;=`3
-H;=`7
-H;=`<
-H;=`Lx
-H;=be
-H;=g,
-H;=i 
-H;=ik
-H;=kcr
-H;=ld
-H;=o 
-H;=oN
-H;=oy}
-H;=pYw
-H;=r	|
-H;=ra
-H;=vxs
-H;=xj
-H;=y$
-H;=yg
-H;=|2
-H;=|or
+H;5$!s
+H;5')s
+H;5,v
+H;5=t
+H;5Y%s
+H;5Y&s
+H;5ar
+H;5i*s
+H;5iy
+H;5q"s
+H;5xp
+H;=	$
+H;=	g
+H;= -
+H;= A
+H;="D
+H;=&gw
+H;=''
+H;='as
+H;=)(
+H;=)_
+H;=-V
+H;=.=
+H;=/Fx
+H;=0.v
+H;=03
+H;=08
+H;=0g
+H;=0|
+H;=2\r
+H;=2j
+H;=5<
+H;=5dw
+H;=7)
+H;=9"
+H;=9*
+H;=<d
+H;=@.
+H;=@g
+H;=@p
+H;=A?}
+H;=B7
+H;=Bf
+H;=G+
+H;=G]s
+H;=G`r
+H;=Hj
+H;=NW
+H;=O1
+H;=P3
+H;=P6
+H;=P;
+H;=P^
+H;=Py
+H;=Rb
+H;=Ru~
+H;=R|
+H;=VX
+H;=W^s
+H;=Wiw
+H;=Xi
+H;=Xqv
+H;=Y 
+H;=Yh
+H;=Z<
+H;=[\r
+H;=`/
+H;=`Ss
+H;=`^
+H;=a8
+H;=fs
+H;=g$
+H;=g5x
+H;=g=
+H;=g_s
+H;=hh
+H;=i%
+H;=i>}
+H;=id
+H;=kKu
+H;=l(v
+H;=m%v
+H;=m?
+H;=oR
+H;=oaw
+H;=p 
+H;=p4
+H;=p9
+H;=q%v
+H;=w&
+H;=xg
+H;=y!
+H;=y'
+H;=y`
+H;=yqw
 H;C(H
 H;T$(
 H;X@tuH
@@ -6186,7 +6206,6 @@ L9(t2L
 L90t*H
 L9|$HJ
 L; tY
-L;-,J\
 L;8t(H
 L;d$@L
 L;kPr
@@ -6306,7 +6325,6 @@ Lc#D;c
 Lc'E)
 Lc)D;i
 Lc+D;k
-Lc-Vc
 Lc.D;n
 Lc/E)
 Lc0E;t$
@@ -9281,7 +9299,6 @@ Z~A+E
 \x%02x
 \z6vC
 ] is an invalid data character in JavaScript compatibility mode
-]%GWE
 ]+P680l
 ]0t@L
 ]A\A]
@@ -9289,7 +9306,6 @@ Z~A+E
 ]IcL$
 ]IcM Ic
 ^ [A\A]A^]
-^%zj6
 ^IcL$ Ic
 ^T$(f
 ^q\(h
@@ -14270,26 +14286,24 @@ runningstat.cpp
 runspeed
 s E9u
 s H;5
-s H;5 
-s H;5D
-s H;5I!s
-s H;5`
-s H;5i
-s H;5p
-s H;5yxr
+s H;5	xr
+s H;5 0s
+s H;50
+s H;59
+s H;5@
+s H;5P2s
 s off
 s(H;5
+s(H;5`
 s(HcE
 s0H;5
-s0H;5 3s
-s0H;5t
+s0H;5D
 s0[A\H
 s0[A\]
 s1_mapname
 s8H;5
-s8H;5P3s
-s@H;5 
-s@H;5$4s
+s8H;5l
+s@H;5
 s@[A\]H
 sAmTb
 sHH;5
@@ -14835,41 +14849,39 @@ t!IcT$
 t"HcK 
 t"HcM
 t"L;%
-t"L;% ls
-t"L;%0ms
+t"L;%pms
 t"Mc7E;w
 t"[A\]
 t#IcD$
 t#Lcc
 t$	H9
 t$ H;5
-t$ H;5M}r
+t$ H;5U
 t$ L9
 t$(H;5
-t$(H;5}}r
 t$(t-H
 t$0H;5
-t$0H;5E
-t$0H;5a
+t$0H;51
+t$0H;5mi
 t$0L9
 t$8H;5
-t$8H;5:
+t$8H;5%
 t$8L9
 t$<	t 
 t$@H;5
+t$@H;5]
+t$@H;5~
 t$@L9
 t$D9k
 t$D9m
 t$H9]
 t$H;h
 t$HH;5
-t$HH;55
-t$HH;5\
 t$HcS
 t$HcS 
 t$HcW
 t$Hf.
-t$PH;5i
+t$PH;5
 t$`E;t$pD
 t$pvufA
 t%IcE
@@ -14882,14 +14894,15 @@ t'IcA
 t'Ic\$0A;\$@
 t(<)u
 t(D;%
-t(D;%'5z
+t(D;%O
 t(D;=
 t(HcK8
-t)D;= 
+t)D;=
 t)HcE
 t*D;=
+t*D;=9:}
 t*Ic\$
-t+D;5R
+t+D;5
 t+Mc,$E;l$
 t+Mce
 t,H;;u'
@@ -14989,7 +15002,6 @@ t;~OU
 t<Lcs8D;sHD
 t=[A\]
 t>Mcv
-t@;55n^
 tAHcC
 tALcc
 tB[A\A]A^]
@@ -15003,7 +15015,6 @@ tJHcShH
 tLD;e
 tL[A\A]A^]
 tQI;<$uKI
-tR;5un^
 tS[A\A]A^]
 tTHcu
 tUE9e
@@ -15093,6 +15104,7 @@ titlebardisabledfgcolor_override
 titlebarfgcolor_override
 titletextinsetX
 titletextinsetY
+tm;5Fn^
 tmessage.cpp
 toggle: Cannot toggle value "%s"!
 toggle: Toggled "%s" to %d
@@ -15195,8 +15207,10 @@ type() == TYPE_LENGTH_DELIMITED
 type() == TYPE_VARINT
 type.googleapis.com/
 type.googleprod.com/
+tz;5>n^
 tzset
 tzset@@GLIBC_2.2.5
+t{95Bn^
 t{</u
 t|UHc
 u	[A\A]A^]
@@ -15687,14 +15701,15 @@ zutil.c
 zzYQ,
 z~u|f
 { H;=
+{ H;=*{y
 { |<H
 {%%%d.%ds} %%%d.%ds: %%-%d.%ds %%-%d.%ds: %%%d.%ds %%%d.%ds %%%d.%ds %%%d.%ds [%%-%d.%ds bits]
 {%s}cfg/%s
 {([A\]
 {. y.
-{0H;=
+{0H;=@ {
 {8H;=
-{8H;=1 {
+{8H;=Z
 {8[A\H
 {8t2I
 {<u+LcK
@@ -15712,8 +15727,8 @@ z~u|f
 {}[]=, 	
 |$ H9
 |$ H;=
-|$ H;=.'v
-|$ H;=g
+|$ H;=Oww
+|$ H;=p)v
 |$ H;}
 |$(Hc
 |$0E;|$@
@@ -15728,10 +15743,11 @@ z~u|f
 |_&'o
 |iIcE
 } H;=
-} H;=%dw
+} H;=-=v
+} H;=>
 } fD9{"r
 }!A;GTw
-}#f;=-
+}#f;=
 }$A;]
 });C<w$
 }*9C<r%
@@ -15755,7 +15771,6 @@ z~u|f
 }cHcU
 }};C\
 ~ H;=
-~ H;=Aiw
 ~ t1A
 ~'D9{Hu
 ~)H;7I

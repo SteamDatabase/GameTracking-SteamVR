@@ -1170,8 +1170,8 @@
 "Monitor_RestartRequestedDialog_Restart" "Restart SteamVR"
 "Monitor_RestartRequestedDialog_Quit" "Quit SteamVR"
 
-"Monitor_WakingBaseStations" "Waking up Base Stations..."
-"Monitor_PuttingBaseStationsInStandby" "Bases going into standby..."
+"Monitor_WakingBaseStations" "Bases Powering Up..."
+"Monitor_PuttingBaseStationsInStandby" "Bases Powering Down..."
 
 "VRApplicationError_None" "No Error"
 
