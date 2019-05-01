@@ -177,13 +177,13 @@ $t)E1
 -width
 . Pixels per eye after stencil mask: 
 . Renderer now requires 
+.-A",
 ../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utlfixedmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
-.5RV,
 .M;UU
 .comment
 .data
@@ -324,7 +324,6 @@ $t)E1
 8[A\A]]
 8[]A\A]A^A_
 9.1.15
-95_l(
 9ISequence
 9f98u
 :@8>@
@@ -976,7 +975,6 @@ H9H t
 H9H t)A
 H9l$(u
 H;*twH
-H;= 	+
 H;I u
 H;J0H
 H;q0H
@@ -993,7 +991,6 @@ H[A\L)
 H[]A\A]A^A_
 HammerMapLoader001
 Has Collision; 
-Hc57\,
 HcCh;Cx
 HcD$pH
 HcGpUH
@@ -1143,7 +1140,8 @@ Launching %s
 Lc)D;i
 Lc/E)
 Lc3D;s
-Lc=*X,
+Lc5I[,
+Lc=qY,
 LcghD;gx
 Lcs8D;sHD
 Length; 
@@ -1495,8 +1493,8 @@ Unknown (%d)
 Unknown EVRCompositorError
 Unknown HMD manufacturer name '%s' - falling back to %s.
 Unknown compression type.
-Unknown controller manufacturer name '%s' - falling back to HMD manufacturer name.
 Unknown controller modelnumber '%s' - falling back to WindowsMR controller.
+Unknown controller type name '%s' - falling back to HMD manufacturer name.
 Unnormalized joint weights encountered (%f): Skinning may not work!
 Unrecognized flag name '%s'
 Unrecognized type '%d'
@@ -1698,7 +1696,6 @@ Warp mesh covers
 Window Rect:        
 WindowsMR
 WindowsMR: %x/%x/%i/%i
-WindowsMR: 0x045E
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
@@ -2643,6 +2640,7 @@ handindex
 headtype
 health
 health_override
+holographic_controller
 hurt_me
 hurt_them
 iBlue >= 0 && iBlue <= 15
@@ -2733,6 +2731,8 @@ keyvalues3_kv1textreader.cpp
 keyvalues3_oldschematext.cpp
 keyvalues3_textreader.cpp
 keyvalues3_textwriter.cpp
+knuckles
+knuckles_ev1
 kv3format_manager.cpp
 kv3formats.cpp
 kv3formats_compiledmodel.cpp
@@ -3078,6 +3078,7 @@ nvidia_multigpu
 o ATSH
 oIcD$
 oculus
+oculus_touch
 optionallycompressedtangentframe
 origin_max_delta
 origin_relative
@@ -3282,7 +3283,7 @@ trunc@@GLIBC_2.2.5
 trw8<
 turn_rate
 u<Ic\$
-uAL;%z
+uAL;%R
 uKH9G8L
 uN[A\]
 u`H9u
@@ -3341,6 +3342,7 @@ virtual void Etc::Block4x4Encoding_RGB8A1_Transparent::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8_Opaque::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8_Transparent::PerformIteration(float)
+vive_controller
 vmatrix.cpp
 vmdlkeys0
 vn %.6g, %.6g, %.6g
@@ -3519,8 +3521,6 @@ z%u#D
 zutil.c
 {8D;{HD
 {YIN?
-{knuckles}valve_controller_knu
-{knuckles}valve_controller_knu_ev1
 {}()':
 {}[]()=&, 	
 {}[]=, 	
