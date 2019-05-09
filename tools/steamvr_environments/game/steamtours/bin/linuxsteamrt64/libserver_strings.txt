@@ -1426,13 +1426,13 @@ $zBu@
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
+(%TwC
 (%d %d %d %d)
 (%d) %s
 (%d) ------> %s ( HELD BY %s ) 
 (%d) Name: %s (%s)
 (%d)%s (%iH)
 (%d), (%d)
-(%dwC
 (%f, %f, %f)
 (%g %g %g %g)
 (%g %g %g)
@@ -1441,9 +1441,10 @@ $zBu@
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(-tGU
+(-DGU
 (0x%08X)'??'
-(5[D/
+(5KD/
+(5xXi
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (D$ A
@@ -1645,6 +1646,7 @@ $zBu@
 ,$Y^M
 ,$[A\A]A^]
 ,2ATSH
+,7z.|
 ,>mathlib.cpp
 ,@ATH
 ,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
@@ -1751,11 +1753,13 @@ $zBu@
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%0),
-.%XcX
-.%mk2
-.-K5u
-.-fy,
+.% ),
+.%]k2
+.%f}d
+.%ol2
+.-Vy,
+.-iaX
+.-r|d
 ...%s
 ...<truncated>...
 ...done building AI node graph, %f seconds
@@ -1788,10 +1792,10 @@ $zBu@
 ../public/tier1/utlrbtree.h
 ../public/tier2/fieldpath.h
 ..\content
-.5m^X
-.5nz,
+.5^z,
+.5w_/
 .8z%u#
-.=;x,
+.=+x,
 .>()09
 .@(vi
 .@,wwH
@@ -4638,7 +4642,7 @@ $zBu@
 8IRagdoll
 8IRestore
 8IVehicle
-8L9=OA
+8L9=/%
 8Lc'A
 8LcGhH
 8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
@@ -4674,7 +4678,6 @@ $zBu@
 9CDemoStop
 9CEnvClock
 9CEnvLaser
-9CEnvNearZ
 9CEnvShake
 9CEnvSpark
 9CFishPool
@@ -4770,7 +4773,8 @@ $zBu@
 ;BX|'1
 ;G tu+G$L
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-;Hc56
+;Hc5+
+;Hc5f
 ;I9<$uY
 ;Q t[
 ;WD|2H
@@ -6878,6 +6882,7 @@ Already saw decimal point or exponent; can't have another one.
 AmbientCubes
 Ambiguous
 AmmoDefInitializer
+Amove_x
 An AI behavior is in control but has no recommended schedule
 An RR_Concept couldn't find its string in the symbol table!
 An environment light entity
@@ -7191,7 +7196,6 @@ Block Headers |
 Block loading of the navmesh. Unplayable, only used for memory sampling.
 BlockSpeechUntil(%f) %f
 Blocking load of scene from '%s'
-Bmove_x
 Bodies: %d (%d)
 Body Component Scriptdesc
 BodyGameSystem
@@ -7787,7 +7791,6 @@ CEnvLaser
 CEnvLightProbeVolume
 CEnvMicrophone
 CEnvMuzzleFlash
-CEnvNearZ
 CEnvPlayerSurfaceTrigger
 CEnvProjectedTexture
 CEnvScreenEffect
@@ -8730,7 +8733,6 @@ CPushable
 CP~P[A\]
 CP~]H
 CP~hI
-CP~nH
 CP~~H
 CREATE_FOR_CLIENTS_WHO_CONNECT_LATER
 CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY
@@ -9637,7 +9639,6 @@ D$(Jc
 D$(L9}
 D$(M9
 D$([A\]
-D$(f=
 D$(fA
 D$*fA
 D$09C0t`H
@@ -9744,11 +9745,12 @@ D8 vzM
 D8sUt
 D9"t=Lc
 D9#~wJ
-D9%;B
-D9%qm
+D9%#v
+D9%Nm
+D9%Zl
 D9*~{I
 D9;t3I
-D9=uc
+D9=5V
 D9D$4B
 D9D$4H
 D9HxtmI
@@ -9769,17 +9771,17 @@ D; t)I
 D; tMH
 D; }VH
 D;!ttHc
-D;%;2
-D;%kq
-D;%np
-D;%~u
+D;%	z
+D;%.h
+D;%Rc
+D;%kV
+D;%{%
 D;'tXH
 D;)ts
 D;.tLH
 D;0uOE
 D;3t 
-D;5'f
-D;5`A
+D;5'A
 D;8tQH
 D;8}?I
 D;C }JMc
@@ -11624,7 +11626,6 @@ H+S0A
 H90t%A
 H90t-H
 H92tSA
-H95a$
 H9B@A
 H9C t
 H9C(t
@@ -11650,163 +11651,145 @@ H;0tCH
 H;0teH
 H;1t5A
 H;2t_A
-H;5!0
-H;5)P
-H;54U
-H;54~
-H;5AQ
-H;5I%
-H;5P<
-H;5TB
-H;5TY
-H;5`8
-H;5aL
-H;5af
-H;5dV
-H;5qc
+H;5	(
+H;5)#
+H;5)=
+H;5,-
+H;59:
+H;5I4
+H;5X/
+H;5Y+
+H;5\q
+H;5a_
+H;5ac
+H;5am
 H;7t-1
 H;8tmH
 H;9u#
-H;=! 
-H;=!5
-H;=!J
-H;="9
-H;='#
+H;= 0
+H;= 5
+H;= 7
+H;= o
+H;="&
+H;="O
+H;="X
+H;="a
+H;="j
+H;=#$
+H;=&.
+H;=&/
 H;='%
-H;='-
-H;='=
-H;='s
-H;='v
-H;='y
-H;=(8
-H;=(@
-H;=(L
-H;=(m
-H;=(s
-H;=)!
-H;=)e
-H;=){
-H;=*@
-H;=*G
-H;=*U
-H;=*c
-H;=*l
-H;=*u
-H;=*~
-H;=+q
-H;=/W
-H;=/z
-H;=0$
-H;=0Z
-H;=11
-H;=1F
-H;=1|
-H;=2?
-H;=2A
-H;=2N
-H;=2f
-H;=2o
-H;=2x
-H;=7.
-H;=71
-H;=75
-H;=7F
-H;=7I
-H;=7|
-H;=7~
-H;=8(
-H;=8A
-H;=8v
-H;=9x
-H;=:7
-H;=:<
-H;=:Q
-H;=>W
-H;=>X
-H;=?O
-H;=?T
-H;=?W
-H;=?Y
-H;=@S
-H;=A=
-H;=A?
-H;=AB
-H;=AW
-H;=B:
-H;=G2
-H;=G:
-H;=Ge
-H;=H5
-H;=HC
-H;=HJ
-H;=H_
-H;=J8
-H;=J?
-H;=JH
-H;=JM
-H;=Jm
-H;=Jv
-H;=Q;
-H;=Q>
-H;=QS
-H;=RB
-H;=Rg
-H;=Rp
-H;=Ry
-H;=T{
-H;=W;
-H;=W@
-H;=W[
-H;=X6
-H;=X>
-H;=Yl
-H;=Z4
-H;=Z8
-H;=ZI
-H;=[M
-H;=_N
-H;=_x
-H;=`R
-H;=a:
-H;=aO
-H;=a^
-H;=b;
-H;=cQ
-H;=cU
-H;=eW
-H;=g.
-H;=gD
-H;=h?
-H;=hC
-H;=h^
-H;=hy
-H;=j0
-H;=j@
-H;=jE
-H;=jI
-H;=jn
-H;=jw
-H;=kF
-H;=q6
-H;=q<
-H;=qK
-H;=rC
-H;=rh
-H;=rq
-H;=rx
-H;=rz
-H;=w8
-H;=wM
-H;=wR
-H;=x1
-H;=x3
-H;=xH
+H;='+
+H;='0
+H;='O
+H;=()
+H;=(g
+H;=(h
+H;=* 
+H;=*R
+H;=*[
+H;=*d
+H;=*h
+H;=+(
+H;=+,
+H;=.W
+H;=/#
+H;=/&
+H;=/)
+H;=/=
+H;=/>
+H;=/F
+H;=/k
+H;=/}
+H;=0 
+H;=0#
+H;=09
+H;=0@
+H;=0e
+H;=0x
+H;=7Z
+H;=8f
+H;=8g
+H;=:V
+H;=<R
+H;=?*
+H;=?+
+H;=?2
+H;=@,
+H;=@-
+H;=@B
+H;=AC
+H;=B'
+H;=B-
+H;=BP
+H;=BY
+H;=Bb
+H;=Bk
+H;=CF
+H;=Fp
+H;=HS
+H;=He
+H;=Hf
+H;=I5
+H;=J!
+H;=JS
+H;=J\
+H;=Je
+H;=LR
+H;=M.
+H;=O3
+H;=O]
+H;=Or
+H;=P.
+H;=P6
+H;=PW
+H;=Pm
+H;=QO
+H;=Sh
+H;=Xd
+H;=Xe
+H;=Xi
+H;=Yr
+H;=ZD
+H;=_	
+H;=_'
+H;=_<
+H;=_n
+H;=_{
+H;=`7
+H;=`v
+H;=bQ
+H;=bZ
+H;=bc
+H;=e!
+H;=eO
+H;=g-
+H;=hP
+H;=hc
+H;=hd
+H;=iu
+H;=j"
+H;=jT
+H;=j]
+H;=jf
+H;=o(
+H;=o/
+H;=o0
+H;=oO
+H;=o[
+H;=ot
+H;=ow
+H;=p)
+H;=p+
+H;=p@
+H;=pI
+H;=pU
+H;=rR
+H;=sT
+H;=w/
 H;=xL
-H;=z	
-H;=z9
-H;=zA
-H;=zV
-H;={o
+H;=xc
+H;=}n
 H;B@t
 H;CHt
 H;G t
@@ -11926,6 +11909,7 @@ HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
 Hc	t,
+Hc5G<
 Hc@$H
 Hc@0A
 Hc@0M
@@ -11938,7 +11922,6 @@ HcB A9
 HcB D9
 HcB H
 HcBxA9
-HcBxD9
 HcC H
 HcC I
 HcC$H
@@ -12198,6 +12181,7 @@ IcEhA;Extl
 IcF I
 IcF M
 IcF(H9
+IcFX1
 IcFX9
 IcG$A
 IcG(1
@@ -12713,7 +12697,6 @@ InputSetNavIgnore
 InputSetNearBlurDepth
 InputSetNearBlurRadius
 InputSetNearFocusDepth
-InputSetNearZ
 InputSetNextPathCorner
 InputSetNonsolid
 InputSetOff
@@ -13141,6 +13124,7 @@ L; t-L
 L; t9H
 L; tv
 L;!t!f.
+L;-NL
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13148,7 +13132,7 @@ L;8t]H
 L;?u"
 L;d$@L
 L;p@u
-L? D9
+L? A9
 L?333?
 LA9L$$
 LA;]P
@@ -13280,18 +13264,16 @@ Lc!D;a
 Lc#D;c
 Lc#E9
 Lc#fA
-Lc%bq
-Lc%ep
-Lc%oF
-Lc%uu
+Lc%%h
+Lc%Ic
+Lc%Z0
+Lc%bV
 Lc&D;f
 Lc'D;g
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-9c
-Lc-Cy
 Lc.D;n
 Lc/D;o
 Lc/E)
@@ -13828,7 +13810,6 @@ NAV_MESH_TRANSIENT
 NAV_MESH_WALK
 NCHEM
 ND$(1
-ND$(E1
 ND$(f9
 ND$(fD9
 NDebugOverlay::Box
@@ -13838,7 +13819,6 @@ NDebugOverlay::ScreenTextPretty
 NDebugOverlay::Text
 NE(f9
 NE(fA9
-NEARZ: Setting near z to %f.
 NERVEGAS
 NETWORK_DISCONNECT_BADDELTATICK
 NETWORK_DISCONNECT_BANADDED
@@ -14161,7 +14141,6 @@ O?0 ,	f
 OBSTRUCTED 
 OFFGROUND!
 OH~2fA
-OIcFX1
 OPA'F4
 OPHcE
 ORIENT
@@ -15288,7 +15267,6 @@ SHATTERSURFACE_TILE
 SHI9T$Ht
 SHLcc D;c0
 SHLcc D;c0D
-SHLck L
 SH[A\A]A^]
 SIM: (%s) Total Files Packed: %d [Size: %.02f KB]
 SIM: ------------------------------------------------------------
@@ -15301,6 +15279,7 @@ SIM: Packed: %s [Size: %.02f KB]
 SIM: SaveDir: (%s) Compressed %d bytes to %d bytes. (%.0f%%)
 SIM: SaveDir: (%s) Uncompressed %d bytes to %d bytes.
 SIM: Total files: %d [c: %.02f KB / c: %.02f KB] : Total Size: %.02f KB
+SIcN0Ic
 SLOWBURN
 SMALL_CENTERED_HULL
 SNDLVL_100dB
@@ -15783,6 +15762,7 @@ Script_SetAttacker
 Script_SetContextThink
 Script_SetInSteamVRTutorialMode
 Script_SetModelScale
+Script_SetNearZ
 Script_SetOpvarFloatAll
 Script_SetOpvarFloatPlayer
 Script_SetPhysAngularVelocity
@@ -16108,6 +16088,7 @@ Sets a script debug ConVar. 'sc' for a list of ConVars declared in currently act
 Sets a variable on the animgraph of the given entity(s)
 Sets an opvar value for a single player
 Sets an opvar value for all players
+Sets near z value for the given player.
 Sets the (player) creator of this entity.
 Sets the active sequence by name, keeping the current cycle.
 Sets the active sequence by name, resetting the current cycle.
@@ -17848,6 +17829,7 @@ W u)H
 W(8QpH
 W(A\]H
 W(H;2t'H
+W-~=2
 W0A;_H
 W3|Uxa
 W8;2|
@@ -18009,9 +17991,8 @@ WriteToBuffer Message %s is not initialized! Probably missing required fields!
 Writes the selected set to disk for merging into another mesh via nav_merge_mesh.
 Wrong alignment %d
 WxH;2t*H
-X-<S/
+X-,S/
 X4[A\]
-X5$W/
 X=2v?
 XA;^@|
 XAxis
@@ -18056,9 +18037,9 @@ XboxSystemInterface001
 Xh#x\
 X|~YA
 X|~lA
-Y%??1
-Y%MHV
-Y%z4d
+Y%/?1
+Y%o?1
+Y-}>1
 Y?[A\]
 Y@phonemes
 YAxis
@@ -18175,9 +18156,9 @@ Z}uU
 \$@fA
 \$h[A\]
 \%03o
-\%tK;
-\5\S/
+\5LS/
 \8r|Xg!'
+\=}X/
 \C not allowed in lookbehind assertion
 \CXfA
 \D$$H
@@ -20579,7 +20560,6 @@ bvcdu
 bytes
 bytes. 
 c D; ~
-c D;k0D
 c [A\A]A^]
 c tul)
 c(A9D$
@@ -21337,7 +21317,6 @@ env_lightglow outermaxdist too large (%d should be %d).
 env_message
 env_microphone
 env_muzzleflash
-env_nearz
 env_particle_performance_monitor
 env_particlelight
 env_physexplosion
@@ -21496,6 +21475,7 @@ fD9#t7
 fD9cV
 fD;!t
 fD;"t
+fD;%vj
 fD;+|
 fD;cnw
 fD;d0
@@ -28105,6 +28085,7 @@ navnetsolve_draw_tri
 navprop
 navtypes.cpp
 nearclipplane
+nearz
 neck_trans
 needmore
 needs_decoder
@@ -29217,20 +29198,18 @@ rumble
 runspeed
 rxD;wx
 s H;5
-s H;5):
-s H;50
-s H;50	
-s H;50)
-s H;5I
-s H;5P
-s H;5i
-s H;5y_
+s H;51
+s H;5A6
+s H;5H
+s H;5a
+s H;5xX
 s [A\A]A^]
 s off
 s$[A\]
 s(H;5
-s(H;5@
-s(H;5d
+s(H;5,y
+s(H;5p
+s(H;5x
 s([A\A]A^]
 s(t.H
 s)~+@
@@ -29240,14 +29219,16 @@ s/glow.vH
 s/spriteH
 s0D;s@A
 s0H;5
-s0H;5p
+s0H;58
+s0H;5\
+s0H;5\y
 s1_mapname
 s69F~
 s7>Ip
 s8H;5
-s8H;5)
-s@H;5@=
-s@H;5t
+s8H;5h
+s@H;5
+s@H;5<
 sHH;5
 sLockedSentence
 sLuQH
@@ -30108,24 +30089,24 @@ t"D9p
 t"HcS
 t"HcW
 t"L;%
-t"L;%0
-t"L;%@
-t"L;%P,
-t"L;%`+
-t"L;%a
-t"L;%pR
+t"L;%(
+t"L;%)
+t"L;%8)
+t"L;%Xc
+t"L;%h
+t"L;%he
+t"L;%x
+t"L;%y
 t#IcD$
 t$	H9
 t$ E1
 t$ H9
 t$ H;5
-t$ H;5=
-t$ H;5E-
 t$ L9
 t$(H9
 t$(H;5
-t$(H;5m
-t$(H;5z-
+t$(H;55
+t$(H;5B
 t$(Ic
 t$(L9
 t$(t-H
@@ -30133,21 +30114,23 @@ t$*D9
 t$0A\A]A^]
 t$0H9
 t$0H;5
-t$0H;5%G
-t$0H;5]
+t$0H;5%
+t$0H;5I
 t$6IcT$(H
 t$8H;5
 t$8L9
 t$8fA
 t$<	t 
 t$<E1
-t$@H;55H
-t$@H;5n.
+t$@H;5
+t$@H;56
 t$@|)
 t$@|+
 t$H;h
 t$HE;
 t$HH;5
+t$HH;5M
+t$HH;5t
 t$HcS
 t$HcS(
 t$HcSH
@@ -30161,13 +30144,13 @@ t$Lc+I
 t$PH;5
 t$[A\]
 t$`[A\A]A^]
-t%95^
 t%D:%
 t%HcC0A
+t&;5?	
 t&A;\$
-t&D;%U
+t&D;%
 t&L;%
-t&L;%@
+t&L;%X
 t&[A\]
 t'H9P
 t'H;=
@@ -31280,8 +31263,7 @@ write@@GLIBC_2.2.5
 wrong submessage type
 wx;rxu
 x	;F`
-x	D;%
-x";=?
+x	D;%<
 x#Mcn
 x$HcSh;Sx
 x&IcT$ A;T$0
@@ -31296,8 +31278,8 @@ x7Hcw
 x8"tq
 x8Mcl$ E;l$0
 x8mUM
-x:;=l
 x:Hcw
+x;;=l
 x@HcO
 xBHcO
 xED;c }?E
@@ -31480,10 +31462,9 @@ z|uzH
 z}u{L
 z}u{fA
 { H;=
-{ H;=9
-{ H;=I
-{ H;={#
-{ H;=~
+{ H;=C
+{ H;=F
+{ H;=V
 { H;}
 { fA9
 { t2H
@@ -31493,7 +31474,7 @@ z}u{fA
 {%s}SAVE/autosavedangerous%s.sav
 {%s}SAVE/autosavedangerous%s.tga
 {(9x(
-{(H;=j$
+{(H;=2
 {(H;}
 {(fD9't)H
 {0H;=
@@ -31502,9 +31483,9 @@ z}u{fA
 {8L;g
 {@H;=
 {@[A\]
-{HH;=
+{HH;=x
 {PD;{`
-{PH;=i!
+{PH;=1
 {S6wD
 {XtJH
 {YIN?
@@ -31541,7 +31522,6 @@ z}u{fA
 |=H;IH
 |=H;IX
 |?5^:+
-|VIcN0Ic
 |_&H~0
 } == %s
 } f;r
@@ -31552,7 +31532,7 @@ z}u{fA
 },fA9\$nr$H
 },fA;]nw%H
 }/fA9L$nr'O
-}0H;=ZE
+}0H;="#
 }2'@+P
 }2IcT$(1
 }2UHc
@@ -31587,7 +31567,7 @@ z}u{fA
 ~(IcD$
 ~(};Hc
 ~)H;7I
-~)H;=,`
+~)H;=
 ~)Hcu
 ~*fE;g
 ~+Lc}

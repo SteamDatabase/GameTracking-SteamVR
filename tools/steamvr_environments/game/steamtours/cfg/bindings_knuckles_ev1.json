@@ -1,4 +1,5 @@
 {
+   "action_manifest_version": 1,
    "bindings" : {
       "/actions/default" : {
          "sources" : [

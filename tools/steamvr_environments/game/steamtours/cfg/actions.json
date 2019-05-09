@@ -1,4 +1,6 @@
 {
+  "version": 1,
+  "minimum_required_version": 1,
   "default_bindings":
   [
     {
@@ -158,32 +160,33 @@
       "type": "vector2"
     }
   ],
-  "action_sets": [
+  "action_sets":
+  [
     {
       "name": "/actions/global",
-      "usage": "hidden"
+      "usage": "leftright"
     },
     {
       "name": "/actions/default",
-      "usage": "leftright"
+      "usage": "single"
     },
     {
       "name": "/actions/move",
-      "usage": "leftright"
+      "usage": "single"
     },
     {
       "name": "/actions/prop_tool",
-      "usage": "leftright"
+      "usage": "single"
     },
     {
       "name": "/actions/scroll_discrete",
       "display_with": "/actions/default",
-      "usage": "leftright"
+      "usage": "single"
     },
     {
       "name": "/actions/scroll_smooth",
       "display_with": "/actions/default",
-      "usage": "leftright"
+      "usage": "single"
     }
   ],
   "localization": 
@@ -198,8 +201,8 @@
       "/actions/scroll_smooth": "Trackpad-style Scrolling",
       "/actions/global/in/HandPoseLeft": "Hand Pose Left",
       "/actions/global/in/HandPoseRight": "Hand Pose Right",
-      "/actions/global/in/HandSkeletonLeft":  "Hand Skeleton Left",
-      "/actions/global/in/HandSkeletonRight":  "Hand Skeleton Right",
+      "/actions/global/in/HandSkeletonLeft": "Hand Skeleton Left",
+      "/actions/global/in/HandSkeletonRight": "Hand Skeleton Right",
       "/actions/default/in/ToggleMenu": "Toggle Menu",
       "/actions/default/in/lclick": "Left Click",
       "/actions/default/in/rclick": "Right Click",

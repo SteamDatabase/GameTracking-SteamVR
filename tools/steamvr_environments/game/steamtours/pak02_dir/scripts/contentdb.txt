@@ -453,7 +453,7 @@
 			id = "knuckles_controllers"
 			name = "#VR_Avatar_Knuckles"
 			desc = "#VR_Avatar_Knuckles_Desc"
-			content = "models/controllers/valve_controller_knu_ev2_0_left.vmdl"
+			content = "models/controllers/valve_controller_knu_1_0_left.vmdl"
 			preview_image = "file://{images}/contentdb/knuckles_ev20.png"
 		},
 		{

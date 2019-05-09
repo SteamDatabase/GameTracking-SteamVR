@@ -156,9 +156,3 @@
 	HasCollisionInHand(boolean) : "Has Collision When Held" : "No"
 ]
 
-
-@PointClass base(Targetname) = env_nearz : 
-	"An entity that can set near z on players. Near z will return to default between level loads."
-[
-	input SetNearZ(float) : "Sets near z."
-]

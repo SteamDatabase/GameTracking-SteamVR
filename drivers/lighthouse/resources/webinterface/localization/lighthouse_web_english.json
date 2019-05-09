@@ -18,11 +18,11 @@
 
 	"pairing_selectdevice_title" : "Select your controller type",
 
-	"pairingdevice_knuckles_controllername" : "Knuckles Controller",
+	"pairingdevice_knuckles_controllername" : "Index Controller",
 	"pairingdevice_vivewand_shortname" : "HTC Vive Controller",
 	"pairingdevice_vivetracker_shortname" : "HTC Vive Tracker",
 
-	"pairingdevice_a_knuckles_controllername" : "a Knuckles Controller",
+	"pairingdevice_a_knuckles_controllername" : "an Index Controller",
 	"pairingdevice_a_vivewand_shortname" : "an HTC Vive Controller",
 	"pairingdevice_a_vivetracker_shortname" : "an HTC Vive Tracker",
 

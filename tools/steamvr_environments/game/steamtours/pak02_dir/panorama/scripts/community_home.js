@@ -139,7 +139,10 @@ function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
 					var onDetailsButtonActivate = function( localAppid ) {
 							return function() {
 //								$.Msg( "Local APP ID: " + localAppid );
-								$.DispatchEvent( 'ShowAppInSteamVR', localAppid );
+								if ( vrAppData.data_valid == 0 )
+									$.DispatchEvent( 'OpenSteamURL', 'open/bigpicture/store/' + localAppid );
+								else
+									$.DispatchEvent( 'OpenSteamURL', 'open/bigpicture/librarydetails/' + localAppid );
 							}
 					}( appid );
 					detailsButton.SetPanelEvent( "onactivate", onDetailsButtonActivate );
