@@ -1164,11 +1164,13 @@
 "Monitor_SpontaneousQuitDialog_Restart" "Restart SteamVR"
 "Monitor_SpontaneousQuitDialog_Quit" "Quit SteamVR"
 
-"Monitor_RestartRequestedDialog_Title" "Restart Required"
+"Monitor_RestartRequestedDialog_Title" "Restart for %1 driver"
 "Monitor_RestartRequestedDialog_MessageNoReason" "Driver %1 needs to restart SteamVR."
-"Monitor_RestartRequestedDialog_Message" "Driver %1 needs to restart SteamVR.\n%2"
+"Monitor_RestartRequestedDialog_Message" "%1"
 "Monitor_RestartRequestedDialog_Restart" "Restart SteamVR"
 "Monitor_RestartRequestedDialog_Quit" "Quit SteamVR"
+
+"oculus_display_lost" "The Oculus system has lost its connection to the display. Please check your headset's connection and then restart."
 
 "Monitor_WakingBaseStations" "Bases Powering Up..."
 "Monitor_PuttingBaseStationsInStandby" "Bases Powering Down..."
