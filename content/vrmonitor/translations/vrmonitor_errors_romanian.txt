@@ -833,6 +833,8 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Header"	"Device Update Pending"
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"Repornește"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart SteamVR"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Află mai multe"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Learn more"
 "Lighthouse_RecommendControllerUpgradeOverUsb_Header"	"Controlerul necesită o actualizare"
 "[english]Lighthouse_RecommendControllerUpgradeOverUsb_Header"	"Controller Update Required"
 "Lighthouse_RecommendControllerUpgradeOverUsb_Action"	"Actualizează firmware-ul"

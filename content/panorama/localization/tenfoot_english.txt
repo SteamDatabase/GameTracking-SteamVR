@@ -238,8 +238,8 @@
 	"NotificationsDesc"	"Suppresses incoming notifications."
 	"NotificationsCheck" "Do Not Disturb"
 
-	"HomeAppCheck" "SteamVR Home Beta"
-	"HomeAppDesc" "The new SteamVR Home experience supports richer home spaces, social features, and more. This feature is currently in Beta, please provide feedback on the forums."
+	"HomeAppCheck" "SteamVR Home"
+	"HomeAppDesc" "SteamVR Home experience supports richer home spaces, social features, and more."
 
 	"NightModeCheck" "Night Mode"
 	"NightModeDesc" "Night Mode dims the headset until 5:00 AM (or until SteamVR is restarted)."
@@ -337,13 +337,6 @@
 	"SettingsTime_1h" "after 1 hour of idle time"
 	"SettingsTime_Never" "Never"
 
-	"VRSettingsKnucklesTitle" "Knuckles"
-	"VRSettingsKnuckles_CapsenseMode" "Cap Sense Mode"
-	"KnucklesCapsenseMode_0" "Finger Tracking (Default)"
-	"KnucklesCapsenseMode_1" "Finger Tracking Disabled"
-	"KnucklesCapsenseMode_2" "Cap Sense controls Trigger"
-	"KnucklesCapsenseMode_3" "Cap Sense controls Grip"
-	
 	"VRSettingsGeneral" "SteamVR Settings"
 	"VRSettingsBindingUITitle" "Controller Binding"
 	"VRSettingsTrackerUITitle" "Manage Vive Trackers"

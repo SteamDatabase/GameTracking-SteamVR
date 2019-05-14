@@ -289,6 +289,10 @@
   Comment started here.
   Expected : 
   Field       : 
+  Lobby Data: addon: %s
+  Lobby Data: lobby type: %s
+  Lobby Data: lobby: %llu
+  Lobby Data: map: %s
   Message type: 
   Modified
   PoolName                                   Allocated        Free   Est. Size    Hit Rate
@@ -296,6 +300,10 @@
   Problem     : Enum value did not match field type:
   Problem     : Field is not the right type for this message:
   Removed
+  Rich Presence: addon: %s
+  Rich Presence: lobby type: %s
+  Rich Presence: lobby: %llu
+  Rich Presence: map: %s
   Ss=%d, Se=%d, Ah=%d, Al=%d
   Total: %s
   collapsed %s 0x%p back into 0x%p
@@ -1278,10 +1286,13 @@ $z1u/A
 %s:  skip %d %s [%s] FCAP_DONT_SAVE
 %s:  transition game save to %s...
 %s:  transitioning '%s' entities from previous map '%s' (landmark='%s')
+%s: %d -> %d
+%s: %llu -> %llu
 %s: %s
 %s: %s( %s %d %d )
 %s: %s(%s) '%s' [%d] thinking for %.02f ms!!!
 %s: %s;
+%s: '%s' -> '%s'
 %s: (%d Chars)
 %s: FSR: %.3f (%.3f) cycle: %.3f -> %.3f
 %s: FSR: %.3f squeeze: %.3f haptic input: %.3f value: %.3f duration: %.1f
@@ -1425,6 +1436,7 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
 (%0.2f): %s
+(%5UZ
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1440,7 +1452,7 @@ $z1u/A
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (8HXhx
-(=kjN
+(=+oN
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (AVAUH
@@ -1583,7 +1595,6 @@ $z1u/A
 *ZN18CNewParticleEffect10SetDormantEbEUlvE_
 *ZN18CNewParticleEffect12StopEmissionEbbbbEUlvE_
 *ZN21C_EnvLightProbeVolume9PreRenderE16CSplitScreenSlotEUlvE_
-*ZN24CSteamTours_Friends_ItemC4EPN8panorama8CPanel2DEPKcEUlPNS0_15CDelayLoadPanelEE_
 *ZN27CSteamTours_Content_Browser10LoadQuestsEvEUlPN8panorama14IUIPanelClientES2_E_
 *ZN29C_EnvCombinedLightProbeVolume9PreRenderE16CSplitScreenSlotEUlvE_
 *ZN32CSteamTours_Content_Browser_ItemC4EPN8panorama8CPanel2DEPKcEUlPNS0_15CDelayLoadPanelEE_
@@ -1889,14 +1900,9 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%Nkh
-.%X_Y
 .(Optional) Set of tags for the published file.
 .(zkuiH
-.->h#
-.-VjN
-.-Zjh
-.-b7Q
+.-/2[
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1929,11 +1935,14 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.5fh#
-.5l!h
-.=Th#
-.=t~D
-.={vM
+.5 `l
+.5&i#
+.5'0H
+.5-kh
+.5Lmh
+.5Qbl
+.=(sT
+.=tmQ
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -2410,7 +2419,6 @@ $z1u/A
 10CStopwatch
 10CTEBubbles
 10CUtlString
-10CUtlVectorI8CSteamID10CUtlMemoryIS0_iEE
 10C_BaseDoor
 10C_BaseFire
 10C_BaseFlex
@@ -4713,6 +4721,7 @@ $z1u/A
 6H92t)H
 6I;0I
 6I;1I
+6I;1t)
 6QZ^&D
 6Returns the URL of the proper cloud server for a user.
 72CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock
@@ -4815,9 +4824,6 @@ $z1u/A
 9CCallbackI19CClientSteamContext23SteamServersConnected_tLb0EE
 9CCallbackI19CClientSteamContext26SteamServersDisconnected_tLb0EE
 9CCallbackI19CClientSteamContext27SteamServerConnectFailure_tLb0EE
-9CCallbackI19CSteamTours_Friends19AvatarImageLoaded_tLb0EE
-9CCallbackI19CSteamTours_Friends20PersonaStateChange_tLb0EE
-9CCallbackI19CSteamTours_Friends26FriendRichPresenceUpdate_tLb0EE
 9CCallbackI24CPanoramaScript_SteamUGC20DownloadItemResult_tLb0EE
 9CCallbackI28CPanoramaScript_SteamFriends19AvatarImageLoaded_tLb0EE
 9CCallbackI28CPanoramaScript_SteamFriends20PersonaStateChange_tLb0EE
@@ -4992,6 +4998,7 @@ $z1u/A
 <$=w"A
 <$A\H
 <$A\]
+<$H9y
 <$Hcs`H
 <$LcP
 <$[A\A]A^]
@@ -7601,6 +7608,7 @@ C A;D$
 C ASH
 C HcE
 C HcS
+C I9D$ u
 C I;D$ t
 C IcT$
 C [A\A]A^]
@@ -7615,6 +7623,7 @@ C$+CX;C,
 C$A;D$$t
 C(9B(
 C(A+E
+C(A8D$(
 C(D9@(A
 C(D9B(
 C([A\A]A^]
@@ -8910,6 +8919,13 @@ CSteamToursGameRules
 CSteamToursGameRules *
 CSteamToursGameRulesProxy
 CSteamToursHandUseController
+CSteamToursMultiplayerSystem::OnFriendRichPresenceUpdate: %llu '%s'
+CSteamToursMultiplayerSystem::OnLobbyChatUpdate: %llu
+CSteamToursMultiplayerSystem::OnLobbyDataUpdate: %llu
+CSteamToursMultiplayerSystem::OnPersonaStateChanged: %llu '%s'
+CSteamToursMultiplayerSystem::RefreshMultiplayerData
+CSteamToursMultiplayerSystem::UpdateFriends
+CSteamToursMultiplayerSystem::UpdateLobbyMembers
 CSteamToursQueryUserAppImagesCallbackObject::QueryNextPageImages
 CSteamToursSystem
 CSteamToursSystem::OnAddonListChanged
@@ -8931,12 +8947,18 @@ CSteamTours_Content_Browser::LoadTrophyApps failed
 CSteamTours_Content_Browser::LoadWorkshopContent
 CSteamTours_Content_Browser_Item::CSteamTours_Content_Browser_Item
 CSteamTours_Friends::CSteamTours_Friends
+CSteamTours_Friends::OnAvatarImageLoaded: %llu
+CSteamTours_Friends::SortFriends
+CSteamTours_Friends::UpdateDetailPanel
 CSteamTours_Friends::UpdateFriends
-CSteamTours_Friends_Item::CSteamTours_Friends_Item
-CSteamTours_Friends_Item::UpdateContent
+CSteamTours_Friends::UpdateLobbyDetail
+CSteamTours_Friends::UpdateLobbyMembers
+CSteamTours_Friends::UpdatePanelSelection
+CSteamTours_Friends_Item::SetData
 CSteamTours_Hud_Main::CSteamTours_Hud_Main
 CSteamTours_ItemTool_Base
 CSteamTours_Lobby_Item::CSteamTours_Lobby_Item
+CSteamTours_Lobby_Item::SetLobbyData
 CSteamTours_Notifications::CSteamTours_Notifications
 CSteamTours_Player
 CSteamTours_RecentApps::CSteamTours_RecentApps
@@ -9456,6 +9478,7 @@ C`HcM
 C`[A\A]A^]
 C`[A\]
 C`f;E
+C`t	H
 C`v5f.
 Cache
 Cache-Control
@@ -9918,7 +9941,6 @@ C}t*W
 D	@p9Hx
 D#O\H
 D#j\H
-D#z\H
 D$  t
 D$  tAI
 D$ @H
@@ -9951,6 +9973,7 @@ D$(-Hq
 D$(A\A]A^]
 D$(E1
 D$(H9
+D$(H9C(u
 D$(H9D$
 D$(Hc
 D$(I9
@@ -10080,6 +10103,7 @@ D70A9
 D8cUt
 D9#~wJ
 D9;t3I
+D9=y=
 D9D$4B
 D9D$4H
 D9G8u
@@ -10108,14 +10132,13 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
-D;%	J
-D;%4Y
-D;%:>
-D;%Mu
+D;%)`
+D;%?@
+D;%To
+D;%s?
 D;'tXH
 D;)ts
 D;+}(L
-D;-`5
 D;.tLH
 D;0uOE
 D;3t 
@@ -11608,6 +11631,7 @@ FriendStatus
 FriendsAvatar
 FriendsContentContainer
 FriendsItem
+FriendsListUpdated
 FriendsMaximized
 FriendsMinimized
 FriendsOnly
@@ -12075,15 +12099,12 @@ H0~rU
 H88J8t
 H90t!A
 H90t%A
-H92t#HcR
 H92tSA
 H92taA
 H98tpI9
 H98tsL9
-H9>t<
 H9C t%H
 H9C(H
-H9C`tyI9D$`t
 H9D$(
 H9G tJH
 H9M(txI
@@ -12104,230 +12125,218 @@ H;0t*A
 H;0t+A
 H;0t0H
 H;0t\H
-H;5!E
-H;5"I
-H;5&D
-H;5(1
-H;5)\	
-H;5,6
-H;5,b
-H;5,f	
-H;51 
-H;588
-H;58X
-H;58[
-H;595
-H;5<*
-H;5?H
-H;5@+
-H;5A3
+H;5"M
+H;5,V
+H;513
+H;55Y	
+H;58*
+H;586
+H;5<U
+H;5<Y
+H;5AM
 H;5AV
-H;5H$
-H;5H5
-H;5Q6
-H;5QH
-H;5XF
-H;5Xh	
-H;5bI
-H;5lR
-H;5q/
-H;5uU	
-H;5x&
-H;5x2
-H;5|Q
-H;5|U
+H;5X*
+H;5X1
+H;5\[
+H;5`W	
+H;5`^
+H;5a\
+H;5bM
+H;5ha	
+H;5i3
+H;5lK
+H;5q<
+H;5qS
+H;5xR
+H;5yX
+H;5|S
+H;5~E
 H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;=	o
-H;=	p
+H;=	S
+H;=	t
 H;= &
+H;= ,
 H;= 3
 H;= 5
-H;= a
 H;= n
-H;= o
-H;=!;
-H;=!E
-H;=!Z
-H;=!^
-H;="J
-H;=$Q
-H;=&`k
+H;=!I
+H;=# 
+H;=%W
+H;=%z
+H;=&X
 H;='(
-H;='5
-H;='9
-H;=':
-H;='d
-H;=(#
-H;=(0
-H;=(5
-H;=(C
-H;=)C
-H;=*'
-H;=*(
-H;=*0
-H;=*N
-H;=*P
-H;=+V
-H;=-,
+H;='=
+H;='?
+H;='N
+H;='_
+H;='y
+H;=("
+H;=(8
+H;=(:
+H;=(J
+H;=(X
+H;=(s
+H;=*c
+H;=*w
+H;=+xk
+H;=,h
+H;=/H
 H;=0%
+H;=0+
+H;=01|
 H;=02
 H;=04
+H;=0k
 H;=0m
-H;=1A
-H;=1V
-H;=1Z
-H;=1z
-H;=2!
-H;=2*
-H;=2\
-H;=3{
-H;=6D
-H;=7!
-H;=7&
-H;=71
-H;=77
-H;=8,
-H;=83
-H;=8>
-H;=8I
-H;=9jk
-H;=:#
-H;=:L
-H;=:a
-H;=>S
-H;=>v
-H;=?m
-H;=@$
+H;=0n
+H;=0~
+H;=1B
+H;=1j
+H;=2v
+H;=2z
+H;=32
+H;=4S
+H;=7 
+H;=7F
+H;=7H
+H;=7O
+H;=7h
+H;=8A
+H;=8C
+H;=8a
+H;=8c
+H;=8|
+H;=9#
+H;=9U
+H;=9\
+H;=:8
+H;==yk
+H;=>0
+H;=>G
+H;=>Y
 H;=@1
 H;=@3
-H;=@C
-H;=@P
+H;=@j
 H;=@l
-H;=A4
-H;=AR
-H;=Cz
-H;=D,
-H;=G/
-H;=G:
-H;=G|
-H;=H*
+H;=@w
+H;=AB
+H;=AX
+H;=D9
+H;=G2
+H;=G4
+H;=GO
+H;=Gm
+H;=Gp
+H;=Gq
+H;=G~
+H;=H$
 H;=H-
-H;=H5
-H;=H:
-H;=HU
-H;=Ho
-H;=IO
-H;=Ip
-H;=J(
-H;=JH
-H;=JO
-H;=J]
-H;=Ja
-H;=NQ
-H;=Nm
-H;=Oq
-H;=P#
+H;=H/
+H;=HB
+H;=HC
+H;=HJ
+H;=HO
+H;=Hg
+H;=Hj
+H;=Hl
+H;=Hy
+H;=IT
+H;=J-
+H;=Jd
+H;=Jx
+H;=L8|
+H;=M&
+H;=O-
+H;=OY
 H;=P0
 H;=P2
-H;=PO
-H;=Pk
-H;=Q6
-H;=QN
-H;=R"
-H;=R+
-H;=R]
-H;=S/
-H;=TJ
-H;=TQ
-H;=W	
-H;=W&
-H;=W.
-H;=W3
-H;=W8
-H;=WU
-H;=X	
-H;=X!
-H;=X(
-H;=X3
-H;=X7
-H;=X^
-H;=Xb
-H;=Yc
-H;=ZD
-H;=ZY
-H;=Z]
-H;=[Q
-H;=\z
-H;=^p
-H;=^{
-H;=_)
-H;=_E
-H;=`"
-H;=`(
+H;=Pi
+H;=QD
+H;=R{
+H;=Tt
+H;=Tu
+H;=W;
+H;=W=
+H;=WB
+H;=WC
+H;=W]
+H;=Wt
+H;=Wv
+H;=X"
+H;=X6
+H;=X8
+H;=XE
+H;=XX
+H;=Xq
+H;=YD
+H;=YS
+H;=^O
+H;=^t
+H;=_.
+H;=_Q
+H;=_n
 H;=`/
 H;=`1
-H;=`j
-H;=`}
-H;=a!
-H;=a8
-H;=aJ
-H;=a_
-H;=an
-H;=by
-H;=cB
-H;=eS
-H;=ev
-H;=fT
-H;=g$
-H;=g/
-H;=gM
-H;=h*
-H;=h9
-H;=h<
-H;=j 
-H;=j)
-H;=jU
-H;=jY
-H;=oD
-H;=p!
-H;=p'
-H;=p.
+H;=`h
+H;=a6
+H;=aF
+H;=aZ
+H;=c%
+H;=c*
+H;=c4
+H;=cG
+H;=d#
+H;=dU
+H;=eY
+H;=g1
+H;=gD
+H;=gF
+H;=gd
+H;=gf
+H;=h+
+H;=h3
+H;=h?
+H;=hA
+H;=hF
+H;=hG
+H;=ha
+H;=hw
+H;=i@
+H;=jy
+H;=k\
+H;=o 
+H;=p*
 H;=p0
+H;=pZ
 H;=pg
-H;=pi
-H;=pj
-H;=pz
-H;=q:
-H;=q>
-H;=qF
-H;=q[
-H;=q_
-H;=qf
-H;=r#
-H;=r,
-H;=r-
-H;=rJ
-H;=r^
-H;=s.
-H;=tO
-H;=w-
-H;=w8
-H;=wK
-H;=wp
-H;=wq
-H;=x(
-H;=x3
-H;=x;
-H;=yQ
-H;=yX
-H;=yo
-H;=zQ
-H;=|	
-H;=~C
-H;=~U
+H;=qH
+H;=q^
+H;=qq
+H;=rB
+H;=r_
+H;=r|
+H;=r~
+H;=w0
+H;=w2
+H;=wM
+H;=wi
+H;=wo
+H;=w|
+H;=x"
+H;=x+
+H;=x-
+H;=x4
+H;=xH
+H;=xI
+H;=xj
+H;=xw
+H;=y~
+H;=zY
+H;=}K
+H;=~u
 H;B@t
 H;C(t
 H;CPw<I
@@ -12440,6 +12449,7 @@ HandHistoryInfo_t
 HandInteractionFailed
 HandInteractionStarted
 HandInteractionSucceeded
+HandleOnQueryDetailsComplete
 Handler_Flags
 HangWatchdogInternal_BeginScope
 HangWatchdogInternal_EndScope
@@ -12479,6 +12489,7 @@ Hc@pH
 HcA 9
 HcA(9
 HcA89
+HcA@9
 HcC A9
 HcC D9
 HcC H
@@ -12769,7 +12780,6 @@ IcG A;G0
 IcG$A
 IcG01
 IcG81
-IcG@E
 IcGPA;G`
 IcGPE
 IcGh1
@@ -12798,7 +12808,6 @@ IcN4H
 IcO(Ic
 IcO01
 IcO0I
-IcO8Hc
 IcOpI
 IcP<M
 IcT$ A
@@ -12818,7 +12827,6 @@ IcVDA
 IcW(H
 IcW8H
 IcW@A;WP
-IcWDA
 Ic\$ A;\$0
 Ic\$0A;\$@
 Ic\$4H
@@ -13291,7 +13299,7 @@ JoinLobby
 JoinLobby failed: %s
 JoinLobby failed: I/O failure.
 JoinLobby joining lobby %llu
-JoinLobby succeeded: joined lobby %llu.
+JoinLobby succeeded: joined lobby %llu. (leaving lobby %llu)
 Joining Destination server %s
 Joining this chat is not allowed because you are a limited user (no value on account).
 Joints: %d (%d)
@@ -13385,7 +13393,7 @@ L9t$(u
 L9|$HJ
 L: %.2f deg
 L;!t!f.
-L;-D[
+L;-dk
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13548,16 +13556,15 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
-Lc%1>
-Lc%2Y
-Lc%v<
+Lc%6@
+Lc%Ro
+Lc%j?
 Lc'D)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-	N
-Lc-W5
+Lc-wK
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -13693,9 +13700,7 @@ Lobby has WorkshopID %llu, downloading
 LobbyDetailContentContainer
 LobbyHasVisitors
 LobbyInviteFromUser
-LobbyListRefesh
-LobbyListStart
-LobbyListStop
+LobbyListUpdated
 LobbyMemberAdd
 LobbyMemberDetailBack
 LobbyMemberKick
@@ -13703,12 +13708,12 @@ LobbyMemberMute
 LobbyMemberUnmute
 LobbyOpened
 LobbyThumb
-LobbyUpdated
 LobbyVoice
 Local Player
 Local player changed team (or disconnected)...
 Local player died...
 Local player disconnected...
+LocalLobbyUpdated
 LocalPlayerExclusive
 LocalTime
 LocalWeaponExclusive
@@ -13764,6 +13769,7 @@ M(AQL
 M,@C),
 M9|$x
 M;<$u
+M;l$Pu
 M<~,I
 MATCHFRAMEWORK_001
 MATERIAL_MODIFY_MODE_ANIM_SEQUENCE
@@ -14176,6 +14182,7 @@ N18CCollisionProperty31NetworkVar_m_collisionAttributeE
 N18CPhysicsGameSystem14PhysicsWorld_tE
 N19CBodyComponentPoint22NetworkVar_m_sceneNodeE
 N19CSpeechScriptBridge17CSpeechResponse_tE
+N19CSteamTours_Friends37CCallbackInternal_OnAvatarImageLoadedE
 N19C_EnvWindClientside26NetworkVar_m_EnvWindSharedE
 N23CWorkshopContentManager32CCallbackInternal_OnDlcInstalledE
 N23CWorkshopContentManager34CCallbackInternal_OnItemSubscribedE
@@ -14191,6 +14198,8 @@ N27CSteamTours_Content_Browser36CCallbackInternal_OnItemUnsubscribedE
 N28CSteamToursMultiplayerSystem31CCallbackInternal_OnLobbyInviteE
 N28CSteamToursMultiplayerSystem35CCallbackInternal_OnLobbyChatUpdateE
 N28CSteamToursMultiplayerSystem35CCallbackInternal_OnLobbyDataUpdateE
+N28CSteamToursMultiplayerSystem39CCallbackInternal_OnPersonaStateChangedE
+N28CSteamToursMultiplayerSystem44CCallbackInternal_OnFriendRichPresenceUpdateE
 N28C_BodyComponentBaseAnimating32NetworkVar_m_animationControllerE
 N30CBodyComponentSkeletonInstance29NetworkVar_m_skeletonInstanceE
 N33CSource1LegacyGameEventGameSystem38CServerSideClient_GameEventLegacyProxyE
@@ -14437,7 +14446,6 @@ N8panorama9CPanelPtrINS_8CPanel2DEEE
 N8panorama9CPanelPtrINS_8IUIPanelEEE
 N8panorama9CUIEvent0E
 N8panorama9CUIEvent1I10CUtlStringEE
-N8panorama9CUIEvent1I10CUtlVectorI8CSteamID10CUtlMemoryIS2_iEEEE
 N8panorama9CUIEvent1INS_13GamePadData_tEEE
 N8panorama9CUIEvent1INS_9CPanelPtrINS_8CPanel2DEEEEE
 N8panorama9CUIEvent1IP12IVideoPlayerEE
@@ -14591,6 +14599,7 @@ NamedPaths
 NativeFunctions
 NavBackward
 Nc$ A
+Nc|98A
 Need space between identifier and decimal point.
 Need space between number and identifier.
 Need to increase size of static g_StylePropertyRegistrations (MAX_PANORAMA_STYLE_SYMBOLS) before registering more styles, failed on %s
@@ -14764,7 +14773,6 @@ O,t	[A\]
 O. e.
 O0;1t5H
 O0A;WH
-O0E;wH
 O0H;1t4A
 O:Ml}
 O?0 ,	f
@@ -15301,7 +15309,6 @@ PlayerAvatarImage
 PlayerChoosingTeleportLocation
 PlayerFogController
 PlayerInstanceFromIndex
-PlayersPresent
 Playsoundscape %s:Unknown command %s
 Please add a MovementSettings node to the model in ModelDoc
 Please add a Skeletal Input Settings node to the model in ModelDoc
@@ -15434,7 +15441,7 @@ PtKfD9
 Public
 PublicLobbiesPanel
 PublicRoom
-PublicRoom FriendsRoom HasFriendCount HasLobbyData
+PublicRoom FriendsRoom HasFriendCount
 Publish
 PublishedFile
 PublishedFileDetails
@@ -16405,7 +16412,6 @@ SetFloat
 SetFloat(name, val) : sets the value of the convar to the float.
 SetFocus
 SetFogStrength
-SetFriendPanelData
 SetFriendPanelData: GetImageRGBA/SetImage
 SetFriendPanelData: SetImage
 SetHandSequence(
@@ -16690,7 +16696,6 @@ SolidType_t
 Sora_Sompeng
 SortAlphabetical
 SortItemsDropDown
-SortPlayers
 SortRecent
 SortUpdated
 SortWorkshopDropDown
@@ -17629,6 +17634,7 @@ Unable to determine compressed message length, likely malformed message
 Unable to find footstep entry %s
 Unable to find map for save game for addon %s!
 Unable to find mapping for flexcontroller %i, settings %p on %i/%s
+Unable to get name of user %s
 Unable to init game event %s
 Unable to invite we aren't the server or we don't have a lobby yet!
 Unable to load '%s'
@@ -18139,6 +18145,7 @@ WHt,H
 WIN32
 WINDOWS
 WINXP
+WIcO8Hc
 WM$^SO
 WOL: 0x%p (%s)
 WORLDTEXT_HORIZONTAL_ALIGN_CENTER
@@ -18279,14 +18286,15 @@ Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
 X LcU
 X [A\]
-X%VMR
+X%gUd
 X(Optional) If true, only return the published file ids of files that satisfy this query.
+X-LWd
+X-UER
 X0~wA
 X2?-,}J
 X360_DST16
 X360_DST24
 X360_DST24F
-X8HcF
 X=2v?
 XD$ A
 XD$ H
@@ -18315,10 +18323,10 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
+Y%t&)
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-?#)
-Y-`!	
-Y5>#)
+Y- $	
+Y5vKV
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18463,6 +18471,7 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
+\%mQR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -22249,7 +22258,6 @@ desired
 desired_queue_size
 desiredlayoutheight
 desiredlayoutwidth
-destination_description
 destination_name
 destination_title
 destinations_base_game_mode
@@ -22655,6 +22663,7 @@ eyes_rightleft
 eyes_updown
 f %d %d %d
 f == __null || dynamic_cast<To>(f) != __null
+f0j7$
 f98t<
 f98tM
 f9C(~
@@ -22677,7 +22686,6 @@ fA;]>w
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB9< 
-fD9%p
 fD9K(L
 fD9cV
 fD9s(D
@@ -27418,7 +27426,6 @@ num_comments_public
 num_elements
 num_entries
 num_finished_download
-num_players
 num_reports
 num_results
 num_server_players
@@ -27448,7 +27455,7 @@ o ATL
 o ATSH
 o$ATL
 o$D9e
-o(ATI
+o%EjV
 o(ATL
 o(ATSH
 o*Ral
@@ -28590,28 +28597,29 @@ russian
 s A9L$$t
 s A9O
 s H;5
-s H;5!
-s H;5!P
-s H;5!R
 s H;5(
-s H;51U
-s H;5A	
-s H;5AC
-s H;5H
-s H;5HL	
-s H;5LV
+s H;5(<
+s H;5,>
+s H;5@
+s H;5Au
+s H;5Q
+s H;5QZ
 s H;5X
-s H;5h
-s H;5h8
-s H;5l:
+s H;5X(
+s H;5q
+s H;5x5
 s [A\A]A^]
 s off
 s(AUL
 s(E9&t-A
 s(H;5
-s(H;5P
-s(H;5xL	
-s(H;5|V
+s(H;58P	
+s(H;5<Z
+s(H;5@
+s(H;5Q
+s(H;5\<
+s(H;5\>
+s(H;5xT
 s(t.H
 s(~?A
 s)~+@
@@ -28620,28 +28628,29 @@ s/Hc]
 s/glow.vH
 s/spriteH
 s0H;5
-s0H;5+%
-s0H;5X
-s0H;5\I	
+s0H;5h
+s0H;5hP	
+s0H;5l
 s0t;H
 s1_mapname
 s2r://
 s69F~
 s7>Ip
 s8H;5
-s8H;5(
-s8H;5a7
+s8H;5!;
+s8H;5DM	
+s8H;5H
 s@9C@
 s@H9sHv
 s@H;5
 s@HcR
 sAmTb
 sHH;5
-sHH;58
-sHH;5L
+sHH;5mQ	
 sIf true, then files must have all the tags specified.  If false, then must have at least one of the tags specified.
 sMA9|$ 
 sPH;5
+sPH;5X
 sPLT chunk has bad length
 sPLT chunk requires too much memory
 sXH;5
@@ -28846,7 +28855,7 @@ setup_length
 severity
 sfixed32
 sfixed64
-shH;5e
+shH;5%
 shMc4$E;t$
 shMcuX
 shadowcascadecount
@@ -29471,19 +29480,18 @@ t";2}
 t"D9p
 t"HcS
 t"L;%
-t"L;%	
-t"L;%( 
-t"L;%(P
-t"L;%8"
-t"L;%8Q
+t"L;%(
+t"L;%(R
+t"L;%8S
 t"L;%H
-t"L;%XM
-t"L;%Xj
-t"L;%Xm
-t"L;%Y
+t"L;%H%
+t"L;%X'
+t"L;%X+
 t"L;%h
-t"L;%hN
-t"L;%xO
+t"L;%hm
+t"L;%hp
+t"L;%i
+t"L;%x
 t#;:u
 t#IcD$
 t#[A\]
@@ -29493,7 +29501,10 @@ t$ 9K$t
 t$ E1
 t$ H9
 t$ H;5
-t$ H;5u
+t$ H;55
+t$ H;5I
+t$ H;5U
+t$ H;5eY	
 t$ L)
 t$ L9
 t$ fA
@@ -29503,34 +29514,28 @@ t$$fH
 t$(A9
 t$(H9
 t$(H;5
-t$(H;5EH
-t$(H;5RM
 t$(L)
 t$(L9
 t$(t-H
 t$0H9
 t$0H;5
-t$0H;5)
-t$0H;55
-t$0H;5E
-t$0H;5IA	
+t$0H;5	E	
+t$0H;5Ey
+t$0H;5RQ
+t$0H;5]
+t$0H;5ym
 t$0f.
 t$0u\H
 t$0~4L
 t$8E1
 t$8H;5
-t$8H;5-}
-t$8H;59v
 t$8L9
 t$<	t 
 t$<E1
 t$@H;5
-t$@H;5FN
 t$@fA
 t$H;h
 t$HH;5
-t$HH;54
-t$HH;5]o
 t$HcS
 t$HcS(
 t$HcS8
@@ -29546,29 +29551,29 @@ t$Lc+I
 t$PA;pP
 t$PA;uPu
 t$PH;5
-t$PH;5A
 t$TLc
-t$XH;5Eq
+t$XH;5
 t$`H;5
-t$`H;5E
-t$hH;5u
+t$`H;5qu
+t$hH;55
 t$lfA
-t$pH;5
+t$pH;5Y
 t$pvufA
-t$xH;5EJ
+t$xH;5
+t%95.
 t%;2t%H
-t%D:%$
+t%D:%d=
 t%HcC0A
 t%HcSx
 t%L;}
 t&A;\$
 t&D;%u
 t&L;%
-t&L;%8
+t&L;%H
 t&Lcc
 t&[A\]
 t'H;=
-t'H;=0
+t'H;=P0
 t'Ic]
 t(<)u
 t(HcM
@@ -29576,7 +29581,7 @@ t(Lc#D;c
 t(Mce
 t([A\A]A^]
 t)@:5
-t)D:%
+t)D:%X<
 t)HcE
 t)Mc<$E;|$
 t)[A\]
@@ -30128,6 +30133,7 @@ u8[A\]
 u9% &
 u9HcX
 u9[A\]
+u9f9E
 u;[A\]
 u<[A\]
 u=[A\]
@@ -31118,10 +31124,8 @@ zzYQ,
 z|uzf
 z~u|A
 { H;=
-{ H;=C
-{ H;=F
-{ H;=Vp
-{ H;=sl
+{ H;=1
+{ H;=v
 { H;}
 { [A\A]A^H
 { [A\A]]H
@@ -31131,7 +31135,7 @@ z~u|A
 {$[A\A]A^H
 {$t%:
 {(9x(
-{(H;=bm
+{(H;=
 {(H;}
 {([A\A]H
 {([A\A]]
@@ -31139,14 +31143,15 @@ z~u|A
 {([A\]H
 {(fD9't)H
 {0H;=
-{0H;=X2
+{0H;=j
 {0t!H
 {8[A\H
 {8t;[A\]
 {@H;=
-{HH;=
+{@H;=`
+{HH;=8
 {HH;{`I
-{PH;=aj
+{PH;=
 {S6wD
 {XtJH
 {YIN?
@@ -31255,7 +31260,6 @@ z~u|A
 }rf;C6I
 }w+Kt
 ~(IcD$
-~(t\H
 ~(};Hc
 ~)H;7I
 ~*HcR

@@ -47,10 +47,6 @@
 									<Label class="LaunchDestinationLabel" id="SelectPropLabel" text="#ItemDetail_Select" />
 									<Label class="LaunchDestinationLabel" id="SetBackground" text="#ItemDetail_SetBackground" />
 									<Label class="LaunchDestinationLabel" id="EquipTool" text="#ItemDetail_EquipTool" />
-									<Panel class="PublicIcon">
-										<Label class="NumberOfPlayers" id="NumberOfPlayers" text="#Player_Number" />
-										<Image class="LaunchPublicIcon" src="s2r://panorama/images/content_browser/friends_toggle_button_png.vtex" />
-									</Panel>	
 								</Panel>
 							</Button>
 
@@ -379,7 +375,6 @@
 
 					<DropDown class="SortItemsDropDown DestinationButton" id="SortItemsDropDown">
 						<Label text="#SortAlphabetical" id="SortAlphabetical" />
-						<Label text="#SortPlayers" id="SortPlayers" />
 					 	<Label text="#SortRecent" id="SortRecent" />
 						<Label text="#SortUpdated" id="SortUpdated"/>
 						<Panel class="DropDownDivider" />

@@ -395,7 +395,7 @@ panorama/images/welcome_panel/destinations_welcome_black_touch_png.vtex_c CRC:00
 panorama/layout/avatar.vxml_c CRC:00896d8f51 size:6314
 panorama/layout/base_hud.vxml_c CRC:00d4b1fab1 size:584
 panorama/layout/base_world_panel.vxml_c CRC:0026d30938 size:548
-panorama/layout/content_browser.vxml_c CRC:00b41c66cd size:79709
+panorama/layout/content_browser.vxml_c CRC:00ff3b87e0 size:79442
 panorama/layout/friends.vxml_c CRC:00627bf8eb size:20336
 panorama/layout/friends_item.vxml_c CRC:005e29ac7f size:2425
 panorama/layout/hud.vxml_c CRC:00e9832024 size:534
@@ -414,9 +414,9 @@ panorama/scripts/community_home.vjs_c CRC:00f7203b0a size:19274
 panorama/scripts/community_home_item.vjs_c CRC:0031a852b3 size:11286
 panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
-panorama/styles/base_styles.vcss_c CRC:0095a751e0 size:25339
+panorama/styles/base_styles.vcss_c CRC:0025ad4b33 size:25387
 panorama/styles/base_world_panel.vcss_c CRC:0017b56cf5 size:774
-panorama/styles/content_browser.vcss_c CRC:008a047f57 size:118279
+panorama/styles/content_browser.vcss_c CRC:0084697907 size:117072
 panorama/styles/friends.vcss_c CRC:002b2cc8af size:42941
 panorama/styles/hud.vcss_c CRC:00221b4d9e size:723
 panorama/styles/info_panels.vcss_c CRC:00e61c6748 size:6038

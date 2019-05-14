@@ -242,7 +242,7 @@
 "MonitorController_ApplicationsInterfaceNotAvailable"	"Nu s-a putut porni %1. Interfața aplicației nu este disponibilă."
 "[english]MonitorController_ApplicationsInterfaceNotAvailable"	"Could not start %1. This application's interface is not available."
 "MonitorController_ApplicationCouldNotStart"	"Nu s-a putut porni %1. Eroarea a fost %2."
-"[english]MonitorController_ApplicationCouldNotStart"	"Could not start %1. Error was %2."
+"[english]MonitorController_ApplicationCouldNotStart"	"Could not start %1: %2."
 "MonitorController_Version"	"Versiune %1"
 "[english]MonitorController_Version"	"Version %1"
 "MonitorController_ResetCompleteSetup_Text"	"Acțiunea aceasta îți va reseta complet sistemul, dar toate fișierele înlăturate vor avea o copie de rezervă.\n\n- Toate setările SteamVR vor fi înlăturate\n- Setările pentru rulare vor fi înlăturate\n- Informațiile pentru configurarea încăperii vor fi înlăturate\n\nAplicația va porni din nou după resetare!\n"

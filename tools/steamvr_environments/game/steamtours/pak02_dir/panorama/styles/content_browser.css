@@ -4566,12 +4566,6 @@ AvatarCustomizationItem #SliderThumb
 	//background-color: red;
 }
 
-.Scrolling.MapsTab .PlayersPresent .ItemTitle 
-{
-	//margin-bottom: 50px;
-	//taking this functionality out of the content browser
-}
-
 .Scrolling.MapsTab .PlayerNumber
 {
 	background-color: none;
@@ -4787,12 +4781,6 @@ AvatarCustomizationItem #SliderThumb
 	//background-color: red;
 }
 
-.Scrolling.MapsTab .PlayersPresent .ItemTitle 
-{
-	//margin-bottom: 50px;
-	//taking this functionality out of the content browser
-}
-
 .Scrolling.MapsTab .PlayerNumber
 {
 	background-color: none;
@@ -4898,12 +4886,6 @@ AvatarCustomizationItem #SliderThumb
 	//box-shadow: #00000090 0px 0px 10px 0px;
 	flow-children: right;
 	visibility: collapse;
-}
-
-.PlayersPresent .PlayerNumber
-{
-	//visibility: visible;
-	//taking this functionality out of the content browser
 }
 
 .PlayerNumberIcon
@@ -5510,15 +5492,6 @@ AvatarCustomizationItem #SliderThumb
 	pre-transform-scale2d: .99;
 }
 
-.PublicIcon 
-{
-	width: 120px;
-	flow-children: left;
-	horizontal-align: right;	
-	vertical-align: center;
-	margin-right: 15px;
-}
-
 
 .LaunchPublicIcon 
 {
@@ -5529,28 +5502,6 @@ AvatarCustomizationItem #SliderThumb
 	vertical-align: center;
 }
 
-.PlayersPresent .LaunchPublicIcon 
-{
-	//width: 65px;
-	//height: 65px;
-	//margin-right: 0px;
-	//vertical-align: center;
-	//taking this functionality out of the content browser
-}
-
-.PublicIcon Label 
-{
-	width: fit-children;
-	min-width: 30px;
-	font-size: 35px;
-	color: white;
-	margin-left: 8px;
-	text-align: center;
-	vertical-align: center;
-	horizontal-align: center;
-	visibility: collapse;
-}
-
 
 .LaunchPrivateIcon 
 {
@@ -5559,19 +5510,6 @@ AvatarCustomizationItem #SliderThumb
 	horizontal-align: right;
 	vertical-align: center;
 	margin-right: 30px;
-}
-
-.PlayersPresent .NumberOfPlayers,
-.PlayersPresent #JoinPublicLobby 
-{
-	//visibility: visible;
-	//taking this functionality out of the content browser
-}
-
-.PlayersPresent #LaunchPublicLobby 
-{
-	//visibility: collapse;	
-	//taking this functionality out of the content browser
 }
 
 .PropsTab .LaunchPublicIcon,
@@ -6074,7 +6012,6 @@ AvatarCustomizationItem #SliderThumb
 
 .MapsTab .Background #SetHomeButtonWrapper,
 .MapsTab .Background #HostNewRoom,
-.MapsTab .Background .PublicIcon,
 .PropsTab .ItemTool #SelectPropLabel
 {
 	visibility: collapse;
