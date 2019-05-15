@@ -298,14 +298,15 @@
 .ViveHelp, 
 .ControllerHelp,
 .TouchHelp,
-.WinMRHelp
+.WinMRHelp,
+.KnucklesHelp
 {
 	visibility: collapse;
 }
 
 
 .ViveController .ViveHelp,
-.KnucklesController .ViveHelp,
+.KnucklesController .KnucklesHelp,
 .GenericTrackedController .ViveHelp,
 .GamepadController .ControllerHelp,
 .TouchController .TouchHelp,

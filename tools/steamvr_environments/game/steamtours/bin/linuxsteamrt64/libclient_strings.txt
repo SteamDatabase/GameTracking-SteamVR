@@ -1435,8 +1435,9 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
+(%!	V
 (%0.2f): %s
-(%5UZ
+(%G9j
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1452,7 +1453,6 @@ $z1u/A
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (8HXhx
-(=+oN
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (AVAUH
@@ -1900,9 +1900,9 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
+.%!>Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
-.-/2[
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1935,14 +1935,10 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.5 `l
-.5&i#
-.5'0H
-.5-kh
-.5Lmh
-.5Qbl
-.=(sT
-.=tmQ
+.5Etm
+.5p`l
+.5}kh
+.=voN
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -4957,6 +4953,7 @@ $z1u/A
 ;G tu+G$L
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;GPttK
+;Hc5	
 ;I9<$uY
 ;L$D|*
 ;P0}K
@@ -10057,7 +10054,7 @@ D$\A9
 D$`9D$X
 D$`A9E`A
 D$`H9
-D$`H;=
+D$`H;=}O
 D$`L;
 D$`t	
 D$hH9
@@ -10103,7 +10100,8 @@ D70A9
 D8cUt
 D9#~wJ
 D9;t3I
-D9=y=
+D9=%~
+D9=I<
 D9D$4B
 D9D$4H
 D9G8u
@@ -10132,13 +10130,12 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
-D;%)`
-D;%?@
-D;%To
-D;%s?
+D;%C?
 D;'tXH
 D;)ts
 D;+}(L
+D;-PJ
+D;-~.
 D;.tLH
 D;0uOE
 D;3t 
@@ -12125,218 +12122,223 @@ H;0t*A
 H;0t+A
 H;0t0H
 H;0t\H
-H;5"M
-H;5,V
-H;513
-H;55Y	
-H;58*
-H;586
-H;5<U
-H;5<Y
-H;5AM
-H;5AV
-H;5X*
-H;5X1
-H;5\[
-H;5`W	
-H;5`^
-H;5a\
-H;5bM
-H;5ha	
-H;5i3
-H;5lK
-H;5q<
-H;5qS
-H;5xR
-H;5yX
-H;5|S
-H;5~E
+H;5!<
+H;5!S
+H;5(R
+H;5)X
+H;5,S
+H;5.E
+H;5/"
+H;54h
+H;58(
+H;58c
+H;5<2
+H;5<4
+H;5<=
+H;5<u
+H;5?J
+H;5A 
+H;5A"
+H;5A&
+H;5A0
+H;5HG
+H;5HL
+H;5I7
+H;5LY
+H;5LZ
+H;5RL
+H;5UP
+H;5X+
+H;5aY
+H;5ac	
+H;5av
+H;5gK
+H;5nD
+H;5q@
+H;5q[
+H;5x.
+H;5|4
+H;5|J
 H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;=	S
-H;=	t
-H;= &
-H;= ,
-H;= 3
-H;= 5
-H;= n
-H;=!I
-H;=# 
-H;=%W
-H;=%z
-H;=&X
-H;='(
-H;='=
-H;='?
-H;='N
-H;='_
-H;='y
-H;=("
-H;=(8
-H;=(:
-H;=(J
-H;=(X
-H;=(s
-H;=*c
-H;=*w
-H;=+xk
-H;=,h
-H;=/H
-H;=0%
-H;=0+
-H;=01|
-H;=02
-H;=04
-H;=0k
-H;=0m
-H;=0n
-H;=0~
+H;=	D
+H;= *
+H;= 0
+H;= Z
+H;= g
+H;=!H
+H;=!^
+H;=!q
+H;=":
+H;="a
+H;="~
+H;='+
+H;='0
+H;='2
+H;='H
+H;='i
+H;='n
+H;='r
+H;='{
+H;='~
+H;=(*
+H;=(-
+H;=(C
+H;=(E
+H;=(I
+H;=(i
+H;=(m
+H;=(v
+H;=)O
+H;=)}
+H;=)~
+H;=*7
+H;=*Y
+H;=*y
+H;=-K
+H;=./
+H;=.u
+H;=.|
+H;=/&
+H;=/)
+H;=/*
+H;=/G
+H;=/J
+H;=0/
+H;=0<
+H;=0f
+H;=0o
+H;=0w
 H;=1B
-H;=1j
-H;=2v
-H;=2z
-H;=32
-H;=4S
-H;=7 
-H;=7F
-H;=7H
-H;=7O
-H;=7h
+H;=1Z
+H;=2s
+H;=2|
+H;=3;
+H;=5O
+H;=74
+H;=79
+H;=7;
+H;=8#
+H;=8/
+H;=83
+H;=86
 H;=8A
-H;=8C
-H;=8a
-H;=8c
-H;=8|
-H;=9#
-H;=9U
-H;=9\
-H;=:8
-H;==yk
-H;=>0
-H;=>G
-H;=>Y
-H;=@1
-H;=@3
-H;=@j
-H;=@l
-H;=@w
-H;=AB
-H;=AX
-H;=D9
-H;=G2
-H;=G4
-H;=GO
-H;=Gm
-H;=Gp
-H;=Gq
-H;=G~
-H;=H$
-H;=H-
-H;=H/
+H;=8L
+H;=8N
+H;=8i
+H;=8r
+H;=:Q
+H;=:_
+H;=>d
+H;=?+
+H;=@.
+H;=@;
+H;=@e
+H;=@v
+H;=AA
+H;=Bb
+H;=Bu
+H;=G#
+H;=G=
+H;=GD
+H;=G]
+H;=Gc
+H;=H*
+H;=H8
+H;=H<
+H;=H?
 H;=HB
-H;=HC
-H;=HJ
-H;=HO
-H;=Hg
-H;=Hj
-H;=Hl
-H;=Hy
-H;=IT
-H;=J-
-H;=Jd
-H;=Jx
-H;=L8|
-H;=M&
-H;=O-
-H;=OY
-H;=P0
-H;=P2
-H;=Pi
-H;=QD
-H;=R{
+H;=HW
+H;=H^
+H;=J 
+H;=Jz
+H;=K@
+H;=LE
+H;=M~
+H;=NT
+H;=Ni
+H;=O,
+H;=P-
+H;=P:
+H;=Pd
+H;=Pu
+H;=Q5
+H;=QC
+H;=Rt
+H;=R}
 H;=Tt
-H;=Tu
-H;=W;
-H;=W=
-H;=WB
-H;=WC
-H;=W]
-H;=Wt
-H;=Wv
-H;=X"
-H;=X6
-H;=X8
-H;=XE
-H;=XX
-H;=Xq
-H;=YD
-H;=YS
-H;=^O
-H;=^t
-H;=_.
-H;=_Q
-H;=_n
-H;=`/
-H;=`1
-H;=`h
-H;=a6
-H;=aF
-H;=aZ
-H;=c%
-H;=c*
-H;=c4
-H;=cG
-H;=d#
-H;=dU
-H;=eY
-H;=g1
-H;=gD
-H;=gF
-H;=gd
-H;=gf
-H;=h+
-H;=h3
-H;=h?
-H;=hA
+H;=W0
+H;=WF
+H;=Wh
+H;=Wl
+H;=Wp
+H;=Wy
+H;=X+
+H;=XA
+H;=XD
+H;=X`
+H;=Xg
+H;=Xk
+H;=X{
+H;=Yu
+H;=Z)
+H;=Z`
+H;=\j
+H;=^D
+H;=^|
+H;=_o
+H;=`,
+H;=`9
+H;=`c
+H;=`t
+H;=a/
+H;=aE
+H;=bA
+H;=dR
+H;=dZ
+H;=g2
+H;=g9
+H;=gM
+H;=h!
+H;=h-
+H;=h4
 H;=hF
-H;=hG
-H;=ha
-H;=hw
-H;=i@
-H;=jy
-H;=k\
-H;=o 
-H;=p*
-H;=p0
-H;=pZ
-H;=pg
-H;=qH
-H;=q^
-H;=qq
-H;=rB
-H;=r_
-H;=r|
+H;=hJ
+H;=hp
+H;=i"
+H;=iY
+H;=jr
+H;=j{
+H;=o+
+H;=p+
+H;=p8
+H;=ps
+H;=q"
+H;=qG
+H;=qT
+H;=ru
 H;=r~
-H;=w0
-H;=w2
-H;=wM
-H;=wi
-H;=wo
-H;=w|
-H;=x"
-H;=x+
-H;=x-
-H;=x4
+H;=t*
+H;=t}
+H;=ui
+H;=w"
+H;=w;
+H;=wB
+H;=wa
+H;=ws
+H;=x6
+H;=x=
 H;=xH
-H;=xI
-H;=xj
-H;=xw
-H;=y~
-H;=zY
-H;=}K
-H;=~u
+H;=x\
+H;=x~
+H;=yr
+H;=ys
+H;=za
+H;={%
+H;={vk
+H;=|^
 H;B@t
 H;C(t
 H;CPw<I
@@ -13393,7 +13395,7 @@ L9t$(u
 L9|$HJ
 L: %.2f deg
 L;!t!f.
-L;-dk
+L;%7.
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13556,15 +13558,14 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
-Lc%6@
-Lc%Ro
-Lc%j?
+Lc%:?
 Lc'D)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-wK
+Lc-GJ
+Lc-u.
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -15794,6 +15795,7 @@ Reserved range end number must be greater than start number.
 ReservedRange
 Reset all lesson display and success counts.
 Reset information from cl_showfps.
+Reset the hand override.
 Reset unlocked items
 ResetCarouselMouseWheelCounts
 ResetSequence : %s: %s -> %s
@@ -18286,15 +18288,13 @@ Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
 X LcU
 X [A\]
-X%gUd
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-LWd
-X-UER
 X0~wA
 X2?-,}J
 X360_DST16
 X360_DST24
 X360_DST24F
+X5LWd
 X=2v?
 XD$ A
 XD$ H
@@ -18323,10 +18323,7 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
-Y%t&)
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y- $	
-Y5vKV
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18427,6 +18424,10 @@ Z}uU
 [I:%u:%u]
 [L:%u:%u]
 [M:%u:%u:%u]
+[OVERRIDE] Applied controller override to at least one outfit.
+[OVERRIDE] Applied hand override, disabling for future runs.
+[OVERRIDE] Applying current controller model %s to outfit %d.
+[OVERRIDE] Applying hand override %s to all outfits.
 [P:%u:%u]
 [PR#]
 [RESPONSELIB] %s
@@ -18471,7 +18472,8 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\%mQR
+\-=cQ
+\=?MR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -18505,6 +18507,7 @@ Z}uU
 ]pt4H
 ]u9n5;> )"
 ]z6v<
+^%2&K
 ^-wf"
 ^?O<g
 ^Cp\&
@@ -22291,6 +22294,7 @@ destinations_recent_apps_debug
 destinations_recent_apps_include_tools
 destinations_recent_apps_show_all
 destinations_reload_contentdb
+destinations_reset_hand_override
 destinations_reset_quests
 destinations_reset_unlocked_items
 destinations_shown_tutorial
@@ -22663,7 +22667,6 @@ eyes_rightleft
 eyes_updown
 f %d %d %d
 f == __null || dynamic_cast<To>(f) != __null
-f0j7$
 f98t<
 f98tM
 f9C(~
@@ -22686,6 +22689,7 @@ fA;]>w
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB9< 
+fD9%`
 fD9K(L
 fD9cV
 fD9s(D
@@ -23144,6 +23148,7 @@ frozen
 ftruncate64
 ftruncate64@@GLIBC_2.2.5
 fuchsia
+full_hands
 full_image_url
 full_reset
 full_round
@@ -24837,6 +24842,7 @@ m_bHMDActive
 m_bHadOverrideEnabledBeforeShadowFade
 m_bHasActivePanel
 m_bHasAddedVarsToInterpolation
+m_bHasAppliedHandsOverride
 m_bHasArrived
 m_bHasBakedLightingBasisInVertex
 m_bHasBakedLightingFromLightMap
@@ -27455,7 +27461,6 @@ o ATL
 o ATSH
 o$ATL
 o$D9e
-o%EjV
 o(ATL
 o(ATSH
 o*Ral
@@ -28597,29 +28602,31 @@ russian
 s A9L$$t
 s A9O
 s H;5
-s H;5(
-s H;5(<
-s H;5,>
-s H;5@
-s H;5Au
-s H;5Q
-s H;5QZ
-s H;5X
-s H;5X(
-s H;5q
-s H;5x5
+s H;5!
+s H;5(5
+s H;51
+s H;514
+s H;51J
+s H;5AW
+s H;5L\
+s H;5Qi	
+s H;5a
+s H;5a-
+s H;5q]
+s H;5x,
+s H;5xL
+s H;5x^
+s H;5|9
 s [A\A]A^]
 s off
 s(AUL
 s(E9&t-A
 s(H;5
-s(H;58P	
-s(H;5<Z
-s(H;5@
-s(H;5Q
-s(H;5\<
-s(H;5\>
-s(H;5xT
+s(H;5(T
+s(H;51
+s(H;58
+s(H;5U$
+s(H;5|
 s(t.H
 s(~?A
 s)~+@
@@ -28628,32 +28635,33 @@ s/Hc]
 s/glow.vH
 s/spriteH
 s0H;5
+s0H;5<<
+s0H;5a
 s0H;5h
-s0H;5hP	
-s0H;5l
 s0t;H
 s1_mapname
 s2r://
 s69F~
 s7>Ip
 s8H;5
-s8H;5!;
-s8H;5DM	
 s8H;5H
+s8H;5HP	
 s@9C@
 s@H9sHv
 s@H;5
+s@H;5l
+s@H;5x
+s@H;5xP	
 s@HcR
 sAmTb
 sHH;5
-sHH;5mQ	
 sIf true, then files must have all the tags specified.  If false, then must have at least one of the tags specified.
 sMA9|$ 
 sPH;5
-sPH;5X
+sPH;5VQ	
 sPLT chunk has bad length
 sPLT chunk requires too much memory
-sXH;5
+sXH;58
 sZtTH
 s_EntComponentInfo
 s_Ladders
@@ -28670,7 +28678,7 @@ s_kDynamicValuesArraySize
 s_nLatchPermissions
 s_nWatchTransmitEntity
 s`A]A^xq
-s`H;5
+s`H;5p
 saddlebrown
 sample_rate
 samples
@@ -28855,7 +28863,7 @@ setup_length
 severity
 sfixed32
 sfixed64
-shH;5%
+shH;5
 shMc4$E;t$
 shMcuX
 shadowcascadecount
@@ -29045,7 +29053,7 @@ source_entity_index
 source_file
 source_filename
 source_folder
-spH;5
+spH;5=
 space
 space shuttle
 spaceagnosticboneaccessor.cpp
@@ -29443,7 +29451,7 @@ svc_VoiceData
 svc_VoiceInit
 swedish
 swift_prefix
-sxH;5
+sxH;5u
 sxt!H
 sxtoH
 symbol
@@ -29481,17 +29489,15 @@ t"D9p
 t"HcS
 t"L;%
 t"L;%(
-t"L;%(R
-t"L;%8S
-t"L;%H
-t"L;%H%
-t"L;%X'
-t"L;%X+
+t"L;%H$
+t"L;%X!
+t"L;%X&
 t"L;%h
-t"L;%hm
-t"L;%hp
-t"L;%i
-t"L;%x
+t"L;%hA
+t"L;%ho
+t"L;%x@
+t"L;%xn
+t"L;%y
 t#;:u
 t#IcD$
 t#[A\]
@@ -29501,10 +29507,6 @@ t$ 9K$t
 t$ E1
 t$ H9
 t$ H;5
-t$ H;55
-t$ H;5I
-t$ H;5U
-t$ H;5eY	
 t$ L)
 t$ L9
 t$ fA
@@ -29514,28 +29516,34 @@ t$$fH
 t$(A9
 t$(H9
 t$(H;5
+t$(H;5E
+t$(H;5MY	
 t$(L)
 t$(L9
 t$(t-H
 t$0H9
 t$0H;5
-t$0H;5	E	
-t$0H;5Ey
-t$0H;5RQ
-t$0H;5]
-t$0H;5ym
+t$0H;5)m
+t$0H;5]Z	
+t$0H;5e
+t$0H;5m
 t$0f.
 t$0u\H
 t$0~4L
 t$8E1
 t$8H;5
+t$8H;55[	
+t$8H;5BQ
 t$8L9
 t$<	t 
 t$<E1
 t$@H;5
+t$@H;5m[	
 t$@fA
 t$H;h
 t$HH;5
+t$HH;5B\	
+t$HH;5}
 t$HcS
 t$HcS(
 t$HcS8
@@ -29551,29 +29559,28 @@ t$Lc+I
 t$PA;pP
 t$PA;uPu
 t$PH;5
+t$PH;5}t
 t$TLc
 t$XH;5
 t$`H;5
-t$`H;5qu
-t$hH;55
+t$`H;5!u
+t$hH;5
 t$lfA
-t$pH;5Y
+t$pH;5	
 t$pvufA
 t$xH;5
-t%95.
 t%;2t%H
-t%D:%d=
+t%D:%4<
 t%HcC0A
 t%HcSx
 t%L;}
 t&A;\$
-t&D;%u
+t&D;%e
 t&L;%
 t&L;%H
 t&Lcc
 t&[A\]
 t'H;=
-t'H;=P0
 t'Ic]
 t(<)u
 t(HcM
@@ -29581,7 +29588,7 @@ t(Lc#D;c
 t(Mce
 t([A\A]A^]
 t)@:5
-t)D:%X<
+t)D:%(;
 t)HcE
 t)Mc<$E;|$
 t)[A\]
@@ -30961,7 +30968,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=
+x8H;=f>
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31124,8 +31131,9 @@ zzYQ,
 z|uzf
 z~u|A
 { H;=
-{ H;=1
-{ H;=v
+{ H;=3
+{ H;=A
+{ H;=q
 { H;}
 { [A\A]A^H
 { [A\A]]H
@@ -31143,13 +31151,13 @@ z~u|A
 {([A\]H
 {(fD9't)H
 {0H;=
-{0H;=j
+{0H;=z
 {0t!H
 {8[A\H
 {8t;[A\]
 {@H;=
-{@H;=`
-{HH;=8
+{@H;=p
+{HH;=H
 {HH;{`I
 {PH;=
 {S6wD

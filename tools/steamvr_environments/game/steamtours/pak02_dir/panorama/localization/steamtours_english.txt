@@ -1240,17 +1240,20 @@
 		// welcome panel
 		"Destinations_WelcomeText"			"Welcome!"
 		"FirstTimePanel_PressMenuButton"	"Press the Menu button on your controller to begin."
-		"FirstTimePanel_PressBButton"		"Press the B or Y button on your controller to begin."
+		"FirstTimePanel_PressBOrYButton"	"Press the B or Y button on your controller to begin."
+		"FirstTimePanel_PressBButton"		"Press the B button on your controller to begin."
 		"FirstTimePanel_PressYButton"		"Press the Y button on your controller to begin."
 		"WelcomePanel_Title"				"Welcome!"
 		"WelcomePanel_PressMenuButton"		"Welcome! \n\nPress the Menu button on your controller to begin."
 		"WelcomePanel_PressYButton"			"Welcome! \n\nMake sure the SteamVR game window is active on your computer, and press the Y button on your controller to begin."
-		"WelcomePanel_PressBButton"			"Welcome to SteamVR! \n\nPress the B or Y button on your controller to begin."
+		"WelcomePanel_PressBButton"			"Welcome to SteamVR! \n\nPress the B button on your controller to begin."
+		"WelcomePanel_PressBOrYButton"		"Welcome to SteamVR! \n\nPress the B or Y button on your controller to begin."
 		//"WelcomePanel_UpdateText"			"Don't forget to download and check out the {s:workshop_title} environment. \n\nYou can find it by pressing the Menu button and selecting Workshop."
 		"WelcomePanel_UpdateText"			"{s:workshop_title}"
 		"WelcomePanel_UpdateDesc"			"Welcome to SteamVR! \n\nPress the Menu button to browse environments and meet up with friends.\n\nTo subscribe to more environments, select the 'Get More' tab in the Environments panel. For more help, select the Help button."
 		"WelcomePanel_UpdateDescController"	"Welcome to SteamVR! \n\nPress the Y button to browse environments and meet up with friends.\n\nTo subscribe to more environments, select the 'Get More' tab in the Environments panel. For more help, select the Help button."
 		"WelcomePanel_UpdateDescTouch"		"Welcome to SteamVR! \n\nPress the B or Y button to browse environments and meet up with friends.\n\nTo subscribe to more environments, select the 'Get More' tab in the Environments panel. For more help, select the Help button."
+		"WelcomePanel_UpdateDescKnuckles"	"Welcome to SteamVR! \n\nPress the B button to browse environments and meet up with friends.\n\nTo subscribe to more environments, select the 'Get More' tab in the Environments panel. For more help, select the Help button."
 
 		// notifications
 		"Notification_Info"			"{s:info}"
@@ -1591,6 +1594,13 @@
 		"TutorialTeleport_Tile2_Controller_Desc" "You will see a green circle appear in the direction you are looking."
 		"TutorialTeleport_Tile3_Controller_Desc" "Release the trigger to teleport to the green circle."
 		"TutorialTeleport_Controller_Bottom_Desc" "The teleport circle will turn red if you cannot teleport there."
+
+		// Knuckles Controller Tutorial
+		"TutorialWelcome_Tile3_Knuckles_Desc" "To open and close the main menu, use the B button on your controller."
+
+		"TutorialTeleport_Tile1_Knuckles_Desc" "To teleport, push forward on the joystick."
+		"TutorialTeleport_Tile2_Knuckles_Desc" "You will see an arc that ends with a green circle on the ground."
+		"TutorialTeleport_Tile3_Knuckles_Desc" "Release the joystick to teleport to the green circle."
 
 		"TutorialWizard_Bottom_Desc" "Select Next with the Trigger button to continue."
 		

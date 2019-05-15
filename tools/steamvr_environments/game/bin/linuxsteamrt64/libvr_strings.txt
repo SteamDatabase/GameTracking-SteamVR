@@ -177,13 +177,14 @@ $t)E1
 -width
 . Pixels per eye after stencil mask: 
 . Renderer now requires 
-.-A",
+.-Q",
 ../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utlfixedmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
+.5"W,
 .M;UU
 .comment
 .data
@@ -324,6 +325,7 @@ $t)E1
 8[A\A]]
 8[]A\A]A^A_
 9.1.15
+95/m(
 9ISequence
 9f98u
 :@8>@
@@ -1140,8 +1142,7 @@ Launching %s
 Lc)D;i
 Lc/E)
 Lc3D;s
-Lc5I[,
-Lc=qY,
+Lc5Y[,
 LcghD;gx
 Lcs8D;sHD
 Length; 
@@ -3283,7 +3284,7 @@ trunc@@GLIBC_2.2.5
 trw8<
 turn_rate
 u<Ic\$
-uAL;%R
+uAL;%b
 uKH9G8L
 uN[A\]
 u`H9u

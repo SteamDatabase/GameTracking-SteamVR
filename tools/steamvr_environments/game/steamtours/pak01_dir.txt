@@ -3418,10 +3418,14 @@ panorama/images/gestures/gesture_fist_png.vtex_c CRC:007efacd25 size:1001860
 panorama/images/gestures/gesture_peace_sign_png.vtex_c CRC:0042fa2ffa size:1001876
 panorama/images/gestures/gesture_point_png.vtex_c CRC:00485374f5 size:1001860
 panorama/images/gestures/gesture_thumb_png.vtex_c CRC:006876d063 size:1001860
+panorama/images/tutorial/tutorialteleport_knuckles_1_png.vtex_c CRC:00ce35be65 size:526496
+panorama/images/tutorial/tutorialteleport_knuckles_2_png.vtex_c CRC:006894c831 size:526496
 panorama/images/tutorial/tutorialteleport_winmr_1_png.vtex_c CRC:005d74ec4a size:526416
 panorama/images/tutorial/tutorialteleport_winmr_2_png.vtex_c CRC:009113960d size:526416
+panorama/images/tutorial/tutorialwelcome_knuckles_3_png.vtex_c CRC:009ec54d5a size:526496
 panorama/images/tutorial/tutorialwelcome_winmr_3_png.vtex_c CRC:00667478ed size:526400
 panorama/images/welcome_panel/destinations_title_large_png.vtex_c CRC:001699e19f size:558852
+panorama/images/welcome_panel/destinations_welcome_black_knuckles_png.vtex_c CRC:00bf8cecb5 size:264400
 panorama/images/welcome_panel/destinations_welcome_black_winmr_png.vtex_c CRC:00dee8663a size:264320
 panorama/layout/avatar_item.vxml_c CRC:005763d4f7 size:810
 panorama/layout/box_bot/bot_health_meter.vxml_c CRC:00b5946712 size:759
@@ -3439,7 +3443,7 @@ panorama/layout/player_billboard.vxml_c CRC:00df995224 size:5051
 panorama/layout/tool_hint_drop.vxml_c CRC:005e4fe83e size:726
 panorama/layout/ugc_image.vxml_c CRC:00da4b9c60 size:2492
 panorama/layout/vimeo_player.vxml_c CRC:008abefeb6 size:2929
-panorama/layout/welcome_panel.vxml_c CRC:00cf97d2e0 size:6064
+panorama/layout/welcome_panel.vxml_c CRC:000689564b size:7156
 panorama/layout/youtube_player.vxml_c CRC:005e0f93e7 size:2949
 panorama/localization/steamtours_brazilian.txt CRC:002463f635 size:280581
 panorama/localization/steamtours_bulgarian.txt CRC:00a1f9575e size:349878
@@ -3494,7 +3498,7 @@ panorama/styles/tool_hint_drop.vcss_c CRC:00514b0d90 size:958
 panorama/styles/trackpad_ui.vcss_c CRC:0056b8845f size:2013
 panorama/styles/ugc_image.vcss_c CRC:00101a40bd size:1191
 panorama/styles/vimeo_player.vcss_c CRC:0001790b7d size:1716
-panorama/styles/welcome_panel.vcss_c CRC:00889555bf size:4851
+panorama/styles/welcome_panel.vcss_c CRC:009fb8418e size:4935
 panorama/styles/youtube_player.vcss_c CRC:00f8a8315c size:1687
 particles/boxing_fx/boxing_team_glow.vpcf_c CRC:003b18ab58 size:1617
 particles/boxing_fx/kapow.vpcf_c CRC:00914ba4fb size:1206

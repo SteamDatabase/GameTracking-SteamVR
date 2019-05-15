@@ -417,6 +417,11 @@
 			"name" : "mirror_actions",
 			"type" : "bool",
 			"default" : false
+		},
+		{
+			"name" : "simulated_controller_type",
+			"type" : "string",
+			"default" : "none"
 		}
 	],
 
@@ -427,7 +432,8 @@
 						"/actions/legacy": "Legacy Bindings (Handed)",
 						"/actions/legacy_mirrored": "Legacy Bindings (Mirrored)",
 
-						"mirror_actions" : "This game expects the left and right hands to use the same actions",
+						"mirror_actions": "This game expects the left and right hands to use the same actions",
+						"simulated_controller_type": "Pretend to be this type of controller",
 
 						"/actions/legacy/in/Head_Proximity": "HMD Proximity Sensor",
 

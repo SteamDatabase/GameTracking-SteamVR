@@ -34,14 +34,16 @@
 			<Label class="WelcomeTitle" text="#Destinations_WelcomeText" />
 			<Panel class="TextArea">
 				<Label class="PressMenuButton" text="#FirstTimePanel_PressMenuButton" />
-				<Label class="PressBButton" text="#FirstTimePanel_PressBButton" />
+        <Label class="PressBOrYButton" text="#FirstTimePanel_PressBOrYButton" />
+        <Label class="PressBButton" text="#FirstTimePanel_PressBButton" />
 				<Label class="PressYButton" text="#FirstTimePanel_PressYButton" />
 			</Panel>
 			<Panel class="ImageRight">
 				<Image class="MotionController" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_png.vtex" />	
 				<Image class="TouchImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_touch_png.vtex" scaling="stretch-to-fit-preserve-aspect" />	
-				<Image class="WinMRImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_winmr_png.vtex" scaling="stretch-to-fit-preserve-aspect" />	
-				<Image class="Controller" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_controller_png.vtex" />	
+				<Image class="WinMRImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_winmr_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
+        <Image class="KnucklesImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_knuckles_png.vtex" />
+        <Image class="Controller" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_controller_png.vtex" />	
 				<Panel class="GlowAnim" />
 			</Panel>	
 		</Panel>
