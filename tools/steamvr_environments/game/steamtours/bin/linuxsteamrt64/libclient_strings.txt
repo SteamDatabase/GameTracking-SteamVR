@@ -1435,8 +1435,8 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
-(%!	V
 (%0.2f): %s
+(%1	V
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1899,7 +1899,7 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%!>Q
+.%1>Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
 ...<truncated>...
@@ -1934,7 +1934,7 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.=voN
+.5&i#
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -10050,7 +10050,7 @@ D$\A9
 D$`9D$X
 D$`A9E`A
 D$`H9
-D$`H;==O
+D$`H;=-O
 D$`L;
 D$`t	
 D$hH9
@@ -10126,7 +10126,8 @@ D; t)I
 D; tMH
 D;!ttHc
 D;%C?
-D;%q}
+D;%a}
+D;%tn
 D;'tXH
 D;)ts
 D;+}(L
@@ -10135,7 +10136,7 @@ D;.tLH
 D;0uOE
 D;3t 
 D;3}5
-D;5qR
+D;5aR
 D;8tQH
 D;9tlA
 D;C }JMc
@@ -12164,27 +12165,31 @@ H;= *
 H;= 0
 H;= Z
 H;= g
-H;=!E
+H;=!G
 H;=!^
 H;=!q
-H;="A
+H;="u
 H;="~
+H;='"
 H;='2
+H;=';
+H;='a
 H;='i
 H;='n
+H;='s
 H;='{
 H;='~
-H;=(!
 H;=(-
-H;=(F
-H;=(J
+H;=(6
+H;=(H
+H;=(\
 H;=(i
-H;=(p
 H;=(v
 H;=)~
 H;=*Y
-H;=*r
-H;=*{
+H;=*a
+H;=+%
+H;=+vk
 H;=-K
 H;=.u
 H;=.|
@@ -12194,51 +12199,60 @@ H;=/*
 H;=/G
 H;=/J
 H;=0/
+H;=0/|
 H;=0<
 H;=0f
 H;=0o
 H;=0w
 H;=1B
-H;=1G
 H;=1Z
-H;=2u
-H;=2~
+H;=2.
 H;=3;
 H;=5O
-H;=7"
+H;=7+
 H;=7;
-H;=7a
-H;=7s
+H;=7D
+H;=7F
+H;=7j
+H;=7n
 H;=86
-H;=8H
-H;=8\
+H;=8?
+H;=8e
+H;=8i
 H;=:Q
-H;=:a
-H;=;%
-H;=;vk
+H;=:s
+H;=:|
+H;==wk
 H;=?+
 H;=@.
-H;=@/|
 H;=@;
 H;=@e
 H;=@v
-H;=B.
+H;=A@
+H;=AV
 H;=Bu
-H;=G+
+H;=Bv
+H;=G$
+H;=G0
+H;=G4
+H;=GB
 H;=GD
-H;=GF
+H;=GM
+H;=GO
 H;=Gj
-H;=Gn
+H;=Gs
 H;=H*
+H;=H+
 H;=H?
-H;=He
-H;=Hi
+H;=HA
+H;=HH
+H;=HI
+H;=Hn
 H;=J 
-H;=Js
-H;=J|
+H;=Jb
 H;=K@
+H;=L6|
 H;=LE
-H;=Mwk
 H;=M~
 H;=NT
 H;=Ni
@@ -12247,30 +12261,26 @@ H;=P-
 H;=P:
 H;=Pd
 H;=Pu
-H;=Q@
-H;=QV
-H;=Rv
+H;=Q6
+H;=QB
 H;=Tt
-H;=W$
 H;=W0
-H;=W4
-H;=WB
-H;=WM
-H;=WO
+H;=W9
+H;=W=
+H;=WX
+H;=W_
 H;=Wh
-H;=Wj
 H;=Wl
-H;=Ws
 H;=Wy
 H;=X+
-H;=XA
-H;=XH
-H;=XI
-H;=Xn
+H;=X4
+H;=XC
+H;=XZ
+H;=YJ
 H;=Yu
 H;=Z)
-H;=Zb
-H;=\6|
+H;=Zt
+H;=Z}
 H;=\j
 H;=^D
 H;=_o
@@ -12279,53 +12289,59 @@ H;=`9
 H;=`c
 H;=`t
 H;=a/
-H;=a6
-H;=aB
+H;=aD
+H;=bw
+H;=d%
 H;=dR
 H;=dZ
 H;=g9
-H;=g=
+H;=gB
 H;=gM
-H;=gX
-H;=g_
+H;=ga
+H;=gb
+H;=gh
+H;=gl
+H;=g|
 H;=h!
 H;=h4
-H;=hC
-H;=hZ
+H;=h=
+H;=h@
+H;=hE
+H;=hK
+H;=hc
+H;=hg
+H;=hv
 H;=i"
-H;=iJ
 H;=iY
-H;=jt
-H;=j}
+H;=jA
 H;=o+
 H;=p+
 H;=p8
 H;=ps
 H;=q"
-H;=qD
+H;=qF
 H;=qT
-H;=rw
-H;=t%
+H;=r]
 H;=t*
 H;=t}
 H;=ui
+H;=w"
+H;=w.
 H;=wB
-H;=wa
-H;=wb
-H;=wh
-H;=wl
-H;=w|
+H;=wK
+H;=wq
+H;=x)
+H;=x.
 H;=x=
-H;=x@
-H;=xE
-H;=xK
-H;=xc
-H;=xg
-H;=xv
+H;=xF
+H;=xG
+H;=xl
+H;=xp
 H;=x~
 H;=yr
 H;=ys
-H;=zA
+H;=zu
+H;=z~
 H;=|^
 H;B@t
 H;C(t
@@ -12468,7 +12484,7 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5@!
+Hc50!
 Hc7;w
 Hc@$H
 Hc@(E1
@@ -13385,7 +13401,7 @@ L9|$HJ
 L: %.2f deg
 L;!t!f.
 L;%7.
-L;-ti
+L;-di
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13549,6 +13565,7 @@ Lc#E9
 Lc#E;e
 Lc#fA
 Lc%:?
+Lc%rn
 Lc'D)
 Lc'E)
 Lc(D;h
@@ -18277,14 +18294,14 @@ Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
 X LcU
 X [A\]
-X%/0l
+X%O0l
 X(Optional) If true, only return the published file ids of files that satisfy this query.
 X0~wA
 X2?-,}J
 X360_DST16
 X360_DST24
 X360_DST24F
-X5LWd
+X5\Wd
 X=2v?
 XD$ A
 XD$ H
@@ -18462,8 +18479,9 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\-=cQ
-\=?MR
+\-McQ
+\5*MR
+\=OMR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -18497,7 +18515,7 @@ Z}uU
 ]pt4H
 ]u9n5;> )"
 ]z6v<
-^%2&K
+^%B&K
 ^-wf"
 ^?O<g
 ^Cp\&
@@ -22679,7 +22697,6 @@ fA;]>w
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB9< 
-fD9% 
 fD9K(L
 fD9cV
 fD9s(D
@@ -29564,9 +29581,9 @@ t%D:%4<
 t%HcC0A
 t%HcSx
 t%L;}
-t&;5?
+t&;5/
 t&A;\$
-t&D;%%
+t&D;%
 t&L;%
 t&L;%H
 t&Lcc
@@ -30959,7 +30976,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=&>
+x8H;=
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31124,7 +31141,7 @@ z~u|A
 { H;=
 { H;=3
 { H;=A
-{ H;=V
+{ H;=F
 { H;=q
 { H;}
 { [A\A]A^H
