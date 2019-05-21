@@ -403,11 +403,11 @@
       "/actions/legacy_mirrored" : {
          "haptics" : [
             {
-               "output" : "/actions/legacy_mirrored/in/haptic",
+               "output" : "/actions/legacy_mirrored/out/haptic",
                "path" : "/user/hand/left/output/haptic"
             },
             {
-               "output" : "/actions/legacy_mirrored/in/haptic",
+               "output" : "/actions/legacy_mirrored/out/haptic",
                "path" : "/user/hand/right/output/haptic"
             }
          ],

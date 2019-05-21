@@ -394,7 +394,7 @@
 			"type": "pose"
 		},
 		{
-			"name": "/actions/legacy_mirrored/in/Haptic",
+			"name": "/actions/legacy_mirrored/out/Haptic",
 			"type": "vibration"
 		}
 	],
