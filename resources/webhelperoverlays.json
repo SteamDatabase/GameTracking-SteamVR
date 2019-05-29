@@ -90,5 +90,14 @@
 		"pixel_size": [ 1920, 1080 ],
 		"input": "mouse",
 		"setting": [ "dashboard", "sceneGraphTest" ]
+	},
+	"debugcommands_desktop": {
+		"url": "/dashboard/debugcommands.html",
+		"name": "debugcommands_desktop",
+		"type": "window",
+		"resizable": true,
+		"persist_layout": true,
+		"persist_visibility": true,
+		"pixel_size": [ 600, 800 ]
 	}
 }
