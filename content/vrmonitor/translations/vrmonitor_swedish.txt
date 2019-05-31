@@ -2173,7 +2173,7 @@
 "BS_PowerManagement_VisibleNowInTracking"	"Synlig nu i denna spårningssession"
 "[english]BS_PowerManagement_VisibleNowInTracking"	"Visible now in this tracking session"
 "Monitor_RestartRequestedDialog_Title"	"Omstart krävs"
-"[english]Monitor_RestartRequestedDialog_Title"	"Restart for %1 driver"
+"[english]Monitor_RestartRequestedDialog_Title"	"Restart Required"
 "Monitor_RestartRequestedDialog_Restart"	"Starta om SteamVR"
 "[english]Monitor_RestartRequestedDialog_Restart"	"Restart SteamVR"
 "Monitor_RestartRequestedDialog_Quit"	"Avsluta SteamVR"

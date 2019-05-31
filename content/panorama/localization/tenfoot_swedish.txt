@@ -620,9 +620,9 @@
 "Now_Waiting"	"VÄNTAR..."
 "[english]Now_Waiting"	"WAITING..."
 "HomeAppCheck"	"Förbättrade SteamVR-miljöer"
-"[english]HomeAppCheck"	"SteamVR Home"
+"[english]HomeAppCheck"	"Enhanced SteamVR Environments"
 "HomeAppDesc"	"De nya SteamVR-miljöerna har stöd för detaljrikare hemutrymmen, sociala funktioner, med mera. Gå med i testet och ge feedback på SteamVR-forumen."
-"[english]HomeAppDesc"	"SteamVR Home experience supports richer home spaces, social features, and more."
+"[english]HomeAppDesc"	"The new SteamVR Environments supports richer home spaces, social features, and more. Opt in to test and provide feedback on the SteamVR forums."
 "MutedLabel"	"Tystad"
 "[english]MutedLabel"	"Muted"
 "BackToApp"	"TILLBAKA TILL APP"
@@ -664,5 +664,5 @@
 "BindingCallout_Header"	"VISA KONTROLLER"
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"Applikation svarar ej..."
-"[english]App_Not_Responding"	"Waiting for application to respond"
+"[english]App_Not_Responding"	"Application not responding..."
 }

@@ -225,8 +225,6 @@
   "BindingUI_SaveTitle": "Save your binding",
   "BindingUI_SaveBinding": "Save",
   "BindingUI_SaveDefaultName": "My %1$s configuration for %2$s",
-  "BindingUI_SaveDefaultName_Personal": "Saved %1$s configuration for %2$s",
-  "BindingUI_SaveDefaultName_Public": "Shared binding from %1$s",
   "BindingUI_SaveDescriptionPlaceholder": "(Optional)",
   "BindingUI_SelectThisBinding": "Select this Binding",
   "BindingUI_EditThisBinding": "Edit this Binding",

@@ -621,9 +621,9 @@
 "Now_Waiting"	"WARTEN..."
 "[english]Now_Waiting"	"WAITING..."
 "HomeAppCheck"	"Erweiterte SteamVR-Umgebungen"
-"[english]HomeAppCheck"	"SteamVR Home"
+"[english]HomeAppCheck"	"Enhanced SteamVR Environments"
 "HomeAppDesc"	"Die neuen SteamVR-Umgebungen unterstützen reichhaltigere Startorte, soziale Funktionen und mehr. Melden Sie sich an, um sie zu testen und geben Sie uns in den SteamVR-Foren Feedback."
-"[english]HomeAppDesc"	"SteamVR Home experience supports richer home spaces, social features, and more."
+"[english]HomeAppDesc"	"The new SteamVR Environments supports richer home spaces, social features, and more. Opt in to test and provide feedback on the SteamVR forums."
 "MutedLabel"	"Stumm"
 "[english]MutedLabel"	"Muted"
 "BackToApp"	"ZURÜCK ZUR ANWENDUNG"
@@ -660,6 +660,4 @@
 "[english]VRSettingsBindingUITitle"	"Controller Binding"
 "VRSettingsTrackerUITitle"	"Vive-Tracker verwalten"
 "[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
-"BindingCallout_Header"	"STEUERUNG ANZEIGEN"
-"[english]BindingCallout_Header"	"SHOW CONTROLS"
 }

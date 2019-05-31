@@ -619,9 +619,9 @@
 "Now_Waiting"	"ĐANG ĐỢI..."
 "[english]Now_Waiting"	"WAITING..."
 "HomeAppCheck"	"Môi trường SteamVr nâng cấp"
-"[english]HomeAppCheck"	"SteamVR Home"
+"[english]HomeAppCheck"	"Enhanced SteamVR Environments"
 "HomeAppDesc"	"Môi trường SteamVR mới hỗ trợ không gian nhà trang chủ phong phú hơn, các tính năng mạng xã hội, và nhiều tính năng khác. Tham gia để trải nghiệm và đưa phản hồi lên diễn đàn SteamVR."
-"[english]HomeAppDesc"	"SteamVR Home experience supports richer home spaces, social features, and more."
+"[english]HomeAppDesc"	"The new SteamVR Environments supports richer home spaces, social features, and more. Opt in to test and provide feedback on the SteamVR forums."
 "MutedLabel"	"Bị tắt tiếng"
 "[english]MutedLabel"	"Muted"
 "BackToApp"	"QUAY LẠI ỨNG DỤNG"
@@ -669,5 +669,5 @@
 "BindingCallout_Header"	"HIỆN ĐIỀU KHIỂN"
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"Ứng dụng không phản hồi..."
-"[english]App_Not_Responding"	"Waiting for application to respond"
+"[english]App_Not_Responding"	"Application not responding..."
 }

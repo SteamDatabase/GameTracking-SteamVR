@@ -2172,7 +2172,7 @@
 "FirmwareWizard_ProgressPercent"	"[ %1% ]"
 "[english]FirmwareWizard_ProgressPercent"	"[ %1% ]"
 "Monitor_RestartRequestedDialog_Title"	"再起動が必要"
-"[english]Monitor_RestartRequestedDialog_Title"	"Restart for %1 driver"
+"[english]Monitor_RestartRequestedDialog_Title"	"Restart Required"
 "Monitor_RestartRequestedDialog_MessageNoReason"	"ドライバ %1 は SteamVR の再起動が必要です。"
 "[english]Monitor_RestartRequestedDialog_MessageNoReason"	"Driver %1 needs to restart SteamVR."
 "Monitor_RestartRequestedDialog_Restart"	"SteamVR を再起動"
