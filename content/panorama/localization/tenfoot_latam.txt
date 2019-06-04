@@ -619,9 +619,9 @@
 "Now_Waiting"	"ESPERANDO..."
 "[english]Now_Waiting"	"WAITING..."
 "HomeAppCheck"	"Entornos de SteamVR mejorados"
-"[english]HomeAppCheck"	"Enhanced SteamVR Environments"
+"[english]HomeAppCheck"	"SteamVR Home"
 "HomeAppDesc"	"Los nuevos entornos de SteamVR te traen espacios iniciales más ricos, características sociales y mucho más. Pruébalos y danos tu opinión en los foros de SteamVR."
-"[english]HomeAppDesc"	"The new SteamVR Environments supports richer home spaces, social features, and more. Opt in to test and provide feedback on the SteamVR forums."
+"[english]HomeAppDesc"	"SteamVR Home experience supports richer home spaces, social features, and more."
 "MutedLabel"	"Silenciado"
 "[english]MutedLabel"	"Muted"
 "BackToApp"	"VOLVER A LA APLICACIÓN"
@@ -669,5 +669,5 @@
 "BindingCallout_Header"	"MOSTRAR CONTROLES"
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"La aplicación no responde..."
-"[english]App_Not_Responding"	"Application not responding..."
+"[english]App_Not_Responding"	"Waiting for application to respond"
 }

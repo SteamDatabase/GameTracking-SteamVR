@@ -619,9 +619,9 @@
 "Now_Waiting"	"ODOTTAA..."
 "[english]Now_Waiting"	"WAITING..."
 "HomeAppCheck"	"Parannellut SteamVR-ympäristöt"
-"[english]HomeAppCheck"	"Enhanced SteamVR Environments"
+"[english]HomeAppCheck"	"SteamVR Home"
 "HomeAppDesc"	"Uudet SteamVR-ympäristöt tukevat muokautettuvia kotiympäristöjä, yhteisöominaisuuksia ja paljon muuta. Osallistu testaukseen ja anna palautetta SteamVR-foorumeilla."
-"[english]HomeAppDesc"	"The new SteamVR Environments supports richer home spaces, social features, and more. Opt in to test and provide feedback on the SteamVR forums."
+"[english]HomeAppDesc"	"SteamVR Home experience supports richer home spaces, social features, and more."
 "MutedLabel"	"Mykistetty"
 "[english]MutedLabel"	"Muted"
 "BackToApp"	"TAKAISIN SOVELLUKSEEN"
@@ -667,5 +667,5 @@
 "BindingCallout_Header"	"NÄYTÄ TOIMINNOT"
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"Sovellus ei vastaa..."
-"[english]App_Not_Responding"	"Application not responding..."
+"[english]App_Not_Responding"	"Waiting for application to respond"
 }
