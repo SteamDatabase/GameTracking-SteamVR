@@ -237,8 +237,6 @@
  Driver %s (vendorid %x, deviceid %x DXSupport Level %d)
  E9l$\
  E;g`
- H;=G
- H;=}
  H;D$PH
  H;D$`H
  NETWORK_DISCONNECT_CLIENT_NO_MAP
@@ -605,7 +603,7 @@ $0message $1
 $0oneof $1 {
 $0option $1;
 $0rpc $1($4.$2) returns ($5.$3)
-$@Can't %s, slot %d not active
+$@%s_vr.vcfg
 $A;T$
 $A;\$
 $A\A]A^]
@@ -799,6 +797,7 @@ $woL)
 %s.360%s
 %s.bz2
 %s.dem
+%s.vcfg
 %s.vstackstats
 %s/%s
 %s/%s%4.4d
@@ -889,6 +888,10 @@ $woL)
 %s_%s
 %s_%u_slot%d
 %s_saves
+%s_vr_360.vcfg
+%s_vr_knuckles.vcfg
+%s_vr_vive.vcfg
+%s_vr_windowsmr.vcfg
 %u:%u:%u
 %u[%d]
 &#%d;
@@ -938,6 +941,7 @@ $woL)
 (#GameUI_Disconnect_RemoteProblem_BadCert
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P. 
+(%Sy	
 (%u): %s
 (*%s*), 
 (*MARK) must have an argument
@@ -1238,10 +1242,8 @@ $woL)
 -tvmasteronly
 -uidev
 -unbufferedio
--use_rift360config
 -use_tier2_bundle
 -use_tier3_bundle
--use_viveconfig
 -useappid
 -uselogdir
 -usercon
@@ -1256,6 +1258,7 @@ $woL)
 -warmtime
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
+.%\,:
 ................................................................................
 ...<truncated>...
 ../../../../..
@@ -2504,7 +2507,7 @@ $woL)
 ;1|"H
 ;2t)H
 ;2|EH
-;5:n^
+;5zk^
 ;:~`H
 ;;D$H
 ;BX|'1
@@ -4092,6 +4095,7 @@ Can't
 Can't %s, no game running
 Can't %s, no more split screen player slots!
 Can't %s, no splitscreen users
+Can't %s, slot %d not active
 Can't 'users', not running a server
 Can't BackUp() after failed Next().
 Can't CEngineServiceMgr::UpdateAddons restricting to to only %s due to tools mode
@@ -4338,6 +4342,7 @@ CopyNewEntity: GetClassBaseline(%s) failed.
 CopyNewEntity: invalid class index (%d), classname '%s'
 CopyNewEntity: invalid class index (%d), out of range %d
 CopyNewEntity: m_nNewEntity >= MAX_NETWORKABLE_ENTITY_COUNT
+Copying %s to %s.
 Copyright (C) 2010, Thomas G. Lane, Guido Vollbeding
 Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
 Corrupt JPEG data: bad Huffman code
@@ -4471,6 +4476,7 @@ D%s*.%s
 D)d$DL
 D)l$HL
 D+#Mc
+D+%+>
 D+C$H
 D+K@D
 D+c$E
@@ -5590,98 +5596,91 @@ H;0t.H
 H;0t7H
 H;2t=H
 H;3t?H
+H;5 /s
 H;5,v
 H;5=t
-H;5I%s
-H;5I&s
-H;5Y*s
-H;5a"s
+H;5W&s
 H;5ar
 H;5iy
 H;5xp
 H;=	!
-H;=	&
-H;=	c
-H;= .v
-H;= 8
-H;= g
-H;= |
+H;=	d
+H;= *
+H;= Ix
 H;="D
-H;="\r
-H;="j
-H;=%<
-H;=%dw
-H;=')
-H;=)"
-H;=)*
-H;=0.
+H;="k
+H;='$
+H;=)%
+H;=+`r
+H;=-S
+H;=.:
+H;=/l
+H;=/u
+H;=0"
 H;=03
-H;=0g
-H;=0p
-H;=1?}
-H;=27
-H;=2f
-H;=7+
-H;=7]s
-H;=7`r
+H;=05
+H;=0P
+H;=0Vw
+H;=2g
+H;=59
+H;=6us
+H;=7&
+H;=9'
+H;=9m
 H;=<d
-H;=>W
-H;=?1
-H;=@3
-H;=@6
-H;=@;
-H;=@^
-H;=@y
-H;=Bb
-H;=Bu~
-H;=B|
-H;=FX
-H;=G^s
-H;=Giw
+H;=<lr
+H;=?c
+H;=?~
+H;=@+
+H;=A<}
+H;=B4
+H;=Bc
+H;=C$v
+H;=E]r
+H;=F1v
+H;=G(
+H;=G]s
 H;=Hj
-H;=Hqv
-H;=I 
-H;=Ih
-H;=J<
-H;=K\r
-H;=P/
-H;=PSs
-H;=P^
+H;=Ii
+H;=NT
+H;=O.
+H;=Oc
+H;=P0
+H;=P3
+H;=P8
+H;=P{
 H;=Q8
-H;=W$
-H;=W5x
-H;=W_s
+H;=Rr~
+H;=VU
+H;=Vdw
+H;=W^s
 H;=Xi
-H;=Y%
-H;=Y>}
-H;=Yd
-H;=[Ku
-H;=\(v
-H;=]%v
-H;=]?
-H;=_R
-H;=_aw
+H;=Ye
+H;=Z9
+H;=_%
+H;=_Cx
 H;=` 
-H;=`4
-H;=`9
-H;=a%v
+H;=`+v
+H;=`,
+H;=bYr
+H;=eaw
 H;=fs
-H;=g&
+H;=g!
 H;=g=
 H;=hh
-H;=i!
-H;=i'
-H;=i`
-H;=iqw
-H;=oB
-H;=p0
-H;=pU
-H;=rk
-H;=w(
+H;=i"
+H;=i;}
+H;=m<
+H;=oO
+H;=oZ
+H;=p1
+H;=p6
+H;=rl
+H;=w#
+H;=wZs
+H;=w]r
 H;=xg
-H;=y)
-H;=|5x
-H;=}&
+H;=y$
 H;C(H
 H;T$(
 H;X@tuH
@@ -6625,6 +6624,7 @@ Messages can't have default values.
 MetaTxtA
 MethodDescriptorProto
 MethodOptions
+Migrating HW specific configuration files.
 Migrating old convar '%s' (value='%s') in file '%s' to new configuration system
 Min bandwidth rate allowed on server, 0 == unlimited
 Min bytes/sec the host can receive data
@@ -9295,6 +9295,7 @@ Z~A+E
 \x%02x
 \z6vC
 ] is an invalid data character in JavaScript compatibility mode
+]%GZE
 ]+P680l
 ]0t@L
 ]A\A]
@@ -9302,7 +9303,7 @@ Z~A+E
 ]IcL$
 ]IcM Ic
 ^ [A\A]A^]
-^%zj6
+^%Jj6
 ^IcL$ Ic
 ^T$(f
 ^q\(h
@@ -11507,10 +11508,6 @@ _setjmp@@GLIBC_2.2.5
 _temp_mapcycle.txt
 _tempcontent
 _test_conversion_counter
-_vr_360
-_vr_knuckles
-_vr_vive
-_vr_windowsmr
 _widescreen
 `-dKJ
 `@  ( @
@@ -11813,6 +11810,10 @@ cfg/banned_ip.cfg
 cfg/banned_user.cfg
 cfg/boot.vcfg
 cfg/launch.vcfg
+cfg/machine
+cfg/machine_convar
+cfg/user_%u_slot0
+cfg/user_keys_%u_slot0
 cfg/user_keys_dev_default.vcfg
 challenge_context
 challenge_number
@@ -13439,7 +13440,6 @@ m_vecSize
 m_vertexBuffers
 m_worldGroupId
 m_wristBones
-machine
 machine_convars
 machine_convars_default
 mailto:
@@ -14283,13 +14283,16 @@ runningstat.cpp
 runspeed
 s E9u
 s H;5
+s H;5	
 s H;50
 s H;59
+s H;59ur
 s H;5@
-s H;5@2s
+s H;5@!s
+s H;5P-s
 s off
+s(H;5
 s(H;5`
-s(H;5p2s
 s(HcE
 s0H;5
 s0H;5D
@@ -14844,8 +14847,6 @@ t!IcT$
 t"HcK 
 t"HcM
 t"L;%
-t"L;%`ms
-t"L;%pns
 t"Mc7E;w
 t"[A\]
 t#IcD$
@@ -14855,16 +14856,17 @@ t$ H;5
 t$ H;5U
 t$ L9
 t$(H;5
+t$(H;5=zr
 t$(t-H
 t$0H;5
 t$0H;51
 t$0H;5mi
 t$0L9
 t$8H;5
+t$8H;5U
 t$8L9
 t$<	t 
 t$@H;5
-t$@H;5M
 t$@H;5~
 t$@L9
 t$D9k
@@ -14876,7 +14878,7 @@ t$HcS
 t$HcS 
 t$HcW
 t$Hf.
-t$PH;5
+t$PH;5)
 t$`E;t$pD
 t$pvufA
 t%IcE
@@ -14889,13 +14891,12 @@ t'IcA
 t'Ic\$0A;\$@
 t(<)u
 t(D;%
-t(D;%?
 t(D;=
 t(HcK8
 t)D;=
 t)HcE
 t*D;=
-t*D;=):}
+t*D;=97}
 t*Ic\$
 t+D;5
 t+Mc,$E;l$
@@ -15010,6 +15011,7 @@ tJHcShH
 tLD;e
 tL[A\A]A^]
 tQI;<$uKI
+tR;55k^
 tS[A\A]A^]
 tTHcu
 tUE9e
@@ -15099,7 +15101,7 @@ titlebardisabledfgcolor_override
 titlebarfgcolor_override
 titletextinsetX
 titletextinsetY
-tm;56n^
+tm;5vk^
 tmessage.cpp
 toggle: Cannot toggle value "%s"!
 toggle: Toggled "%s" to %d
@@ -15202,10 +15204,10 @@ type() == TYPE_LENGTH_DELIMITED
 type() == TYPE_VARINT
 type.googleapis.com/
 type.googleprod.com/
-tz;5.n^
+tz;5nk^
 tzset
 tzset@@GLIBC_2.2.5
-t{952n^
+t{95rk^
 t{</u
 t|UHc
 u	[A\A]A^]
@@ -15696,16 +15698,15 @@ zutil.c
 zzYQ,
 z~u|f
 { H;=
-{ H;=q=v
-{ H;=y {
+{ H;=Zxy
 { |<H
 {%%%d.%ds} %%%d.%ds: %%-%d.%ds %%-%d.%ds: %%%d.%ds %%%d.%ds %%%d.%ds %%%d.%ds [%%-%d.%ds bits]
 {%s}cfg/%s
 {([A\]
 {. y.
-{0H;=0 {
+{0H;=p
 {8H;=
-{8H;=J
+{8H;=Z
 {8[A\H
 {8t2I
 {<u+LcK
@@ -15723,13 +15724,14 @@ z~u|f
 {}[]=, 	
 |$ H9
 |$ H;=
-|$ H;=?ww
-|$ H;=`)v
+|$ H;='
+|$ H;=G%v
+|$ H;=H"v
 |$ H;}
 |$(Hc
 |$0E;|$@
 |$@H)
-|$HH;=y
+|$HH;=
 |$PtaD
 |5H;I
 |QIcM@Ic
@@ -15739,7 +15741,9 @@ z~u|f
 |_&'o
 |iIcE
 } H;=
-} H;=.
+} H;=>
+} H;=Jnw
+} H;=]:v
 } fD9{"r
 }!A;GTw
 }#f;=
@@ -15766,7 +15770,6 @@ z~u|f
 }cHcU
 }};C\
 ~ H;=
-~ H;={
 ~ t1A
 ~'D9{Hu
 ~)H;7I
