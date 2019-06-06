@@ -347,6 +347,7 @@
  0@P`p
  ;{}:layout/panel2dfactory.cpp
  = { <proto text format> }". To set fields within it, use syntax like "
+ A;^H|
  A@JZ
  ACTIVE GROUP
  ATSH
@@ -686,6 +687,7 @@
 "use_drop_window": true,
 "vmdlkeys0
 "width: H
+"workshopid": %llu,
 # of channels is zero.
 #":z&
 ################################################################################
@@ -1335,6 +1337,7 @@ $z1u/A
 %s_%03d.vpk
 %s_%d
 %s_%i_%i_%i_%i
+%s_%s
 %s_%u
 %s_BG
 %s_COMP
@@ -1436,7 +1439,7 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
 (%0.2f): %s
-(%1	V
+(%7Kj
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1452,6 +1455,7 @@ $z1u/A
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (8HXhx
+(={qN
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (AVAUH
@@ -1899,7 +1903,7 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%1>Q
+.%!>Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
 ...<truncated>...
@@ -1934,12 +1938,15 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.5&i#
+.5LqN
+.5ooM
+.=6qN
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
 .@,wwH
 .@TvjH
+.@Tw	H
 .@Tz*u(H
 .A(zeuc
 .A(zmuk
@@ -4469,7 +4476,6 @@ $z1u/A
 33333333H
 333?)\
 333?333?
-333?A
 33CClientMsg_AttachObjectToAvatar_t
 33CClientMsg_DetachObjectFromAvatar
 33CClientMsg_SetPlayerPersonalSpace
@@ -4949,7 +4955,6 @@ $z1u/A
 ;G tu+G$L
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;GPttK
-;Hc5	
 ;I9<$uY
 ;L$D|*
 ;P0}K
@@ -7230,7 +7235,7 @@ AppWithImages_%u
 AppWithSpawnableImage
 AppendChildrenFromLayoutFileAsync
 AppendToLogFile
-Appends a string to a log file on the server
+AppendToLogFile is deprecated. Print to the console for logging instead.
 Application "
 Application .exe "%s"
 Application built with libpng-%.20s but running with %.20s
@@ -9843,7 +9848,6 @@ Could not find screen space effect %s
 Could not find type "
 Could not finish async caption work after %f seconds of processing before caption dictionary init!
 Could not replace defines
-Couldn't create %s!
 Couldn't find surface in GetColorForSurface()
 Couldn't parse default value "
 CountdownActive
@@ -10050,7 +10054,7 @@ D$\A9
 D$`9D$X
 D$`A9E`A
 D$`H9
-D$`H;=-O
+D$`H;=
 D$`L;
 D$`t	
 D$hH9
@@ -10096,7 +10100,6 @@ D70A9
 D8cUt
 D9#~wJ
 D9;t3I
-D9=I<
 D9D$4B
 D9D$4H
 D9G8u
@@ -10125,18 +10128,17 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
-D;%C?
-D;%a}
-D;%tn
+D;%?`
+D;%ds
+D;%s_
 D;'tXH
 D;)ts
 D;+}(L
-D;-~.
 D;.tLH
 D;0uOE
 D;3t 
 D;3}5
-D;5aR
+D;5QW
 D;8tQH
 D;9tlA
 D;C }JMc
@@ -10700,6 +10702,7 @@ E;l$ D
 E;l$ |
 E;l$ }
 E;l$ }II
+E;l$(
 E;l$0|
 E;l$8}QI
 E;l$L|#I
@@ -10707,7 +10710,6 @@ E;l$X|
 E;l$X}AI
 E;nPE
 E;o |
-E;|$(
 E;|$x
 E;~(t?I
 E@ATI
@@ -11093,6 +11095,7 @@ Expected hex digits for escape sequence.
 Expected identifier, got: 
 Expected integer or identifier, got: 
 Expected integer, got: 
+Expected inventory item %d to have a workshop id
 Expected member name or '}'
 Expected string, got: 
 Expected token
@@ -11368,9 +11371,12 @@ Failed to find attachment point specified for particle effect in model '%s' keyv
 Failed to find function %s
 Failed to find input handle for action %s
 Failed to find itemdef for wearable %s, skipping...
+Failed to find localization for description of collectible %llu '%s'
+Failed to find localization for name of collectible %llu '%s'
 Failed to find specified particle effect. Trying to add CP to '%s' on attachment named '%s'
 Failed to get HTTP response data.
 Failed to get HTTP response size.
+Failed to get localized '%s' from inventory item %d - falling back to default
 Failed to get lock %s at %s(%d) after waiting in %s
 Failed to include script "%s"
 Failed to init camera of type '%u'
@@ -11384,6 +11390,7 @@ Failed to open file
 Failed to parse and set new panel event for %s="%s"
 Failed to parse channel info.
 Failed to precache script entity %s of type %s: script entity instance is null
+Failed to query workshop id of inventory item %d
 Failed to read %d bytes
 Failed to read %s
 Failed to reload contentdb.txt!
@@ -12108,6 +12115,7 @@ H9W8t
 H9X u
 H9\$P
 H9l$(u
+H9p t
 H9sHv
 H9w UH
 H9w(UH
@@ -12119,230 +12127,208 @@ H;0t*A
 H;0t+A
 H;0t0H
 H;0t\H
-H;5!<
-H;5!S
-H;5(R
-H;5)X
-H;5,S
-H;5.E
-H;5/"
-H;54h
-H;58(
-H;58c
-H;5<2
-H;5<4
-H;5<=
-H;5<u
-H;5?J
-H;5A 
-H;5A"
-H;5A&
-H;5A0
-H;5HG
-H;5HL
-H;5I7
-H;5LY
-H;5LZ
-H;5RL
-H;5UP
-H;5X+
-H;5aY
-H;5ac	
-H;5av
-H;5gK
-H;5nD
-H;5q@
-H;5q[
-H;5x.
-H;5|4
-H;5|J
+H;5	Y
+H;5	k
+H;5 9
+H;5 :
+H;5$&
+H;5$7
+H;5$u
+H;5'.
+H;5)%
+H;5)R
+H;5-x	
+H;50I
+H;50U
+H;54 
+H;54t
+H;54x
+H;59l
+H;59u
+H;5D,
+H;5L7
+H;5PI
+H;5PP
+H;5Tz
+H;5Xv	
+H;5X}
+H;5Y*
+H;5Y+
+H;5Y{
+H;5Zl
+H;5aR
+H;5dj
+H;5i/
+H;5i[
+H;5ir
+H;5pq
+H;5q'
+H;5q8
+H;5qw
+H;5tr
+H;5vd
+H;5wA
 H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;=	D
-H;= *
-H;= 0
-H;= Z
-H;= g
-H;=!G
-H;=!^
-H;=!q
-H;="u
-H;="~
-H;='"
-H;='2
-H;=';
-H;='a
-H;='i
+H;= D
+H;= J
+H;= Q
+H;= S
+H;="c
+H;=$r
+H;='E
+H;='d
 H;='n
-H;='s
-H;='{
-H;='~
-H;=(-
-H;=(6
-H;=(H
-H;=(\
-H;=(i
-H;=(v
-H;=)~
-H;=*Y
-H;=*a
-H;=+%
-H;=+vk
-H;=-K
-H;=.u
-H;=.|
-H;=/&
-H;=/)
-H;=/*
-H;=/G
-H;=/J
-H;=0/
-H;=0/|
-H;=0<
-H;=0f
-H;=0o
-H;=0w
-H;=1B
-H;=1Z
-H;=2.
-H;=3;
-H;=5O
-H;=7+
-H;=7;
-H;=7D
-H;=7F
-H;=7j
-H;=7n
-H;=86
-H;=8?
-H;=8e
-H;=8i
-H;=:Q
-H;=:s
-H;=:|
-H;==wk
-H;=?+
-H;=@.
-H;=@;
-H;=@e
-H;=@v
-H;=A@
-H;=AV
-H;=Bu
-H;=Bv
+H;='p
+H;=(&
+H;=(@
+H;=(E
+H;=([
+H;=(_
+H;=(`
+H;=)B
+H;=)a
+H;=)t
+H;=)|k
+H;=*>
+H;=+Q
+H;=.f
+H;=.x
+H;=0P
+H;=0R
+H;=1F
+H;=1{
+H;=4,
+H;=7%
+H;=7)
+H;=71
+H;=7N
+H;=7O
+H;=7P
+H;=7m
+H;=7y
+H;=8'
+H;=8G
+H;=8I
+H;=8K
+H;=8R
+H;=8t
+H;=9s
+H;=:L
+H;=;-
+H;=<X
+H;=?;
+H;=?L
+H;=?x
+H;=@O
+H;=@Q
+H;=AH
+H;=Bd
+H;=C 
+H;=EE
 H;=G$
-H;=G0
-H;=G4
-H;=GB
-H;=GD
-H;=GM
-H;=GO
-H;=Gj
-H;=Gs
-H;=H*
-H;=H+
-H;=H?
-H;=HA
-H;=HH
+H;=G:
+H;=GY
+H;=Gv
+H;=H5
 H;=HI
-H;=Hn
-H;=J 
-H;=Jb
-H;=K@
-H;=L6|
-H;=LE
-H;=M~
-H;=NT
-H;=Ni
-H;=O,
-H;=P-
-H;=P:
-H;=Pd
-H;=Pu
-H;=Q6
-H;=QB
+H;=HT
+H;=Hq
+H;=H}
+H;=Ic
+H;=N'
+H;=Nn
+H;=OM
+H;=Oa
+H;=Op
+H;=PN
+H;=PP
+H;=PU
+H;=Pw
+H;=QJ
+H;=QS
+H;=Qy
+H;=TB
 H;=Tt
-H;=W0
-H;=W9
-H;=W=
-H;=WX
-H;=W_
-H;=Wh
-H;=Wl
-H;=Wy
-H;=X+
-H;=X4
-H;=XC
-H;=XZ
-H;=YJ
-H;=Yu
-H;=Z)
-H;=Zt
-H;=Z}
-H;=\j
-H;=^D
-H;=_o
-H;=`,
-H;=`9
-H;=`c
-H;=`t
-H;=a/
-H;=aD
-H;=bw
-H;=d%
-H;=dR
-H;=dZ
-H;=g9
-H;=gB
-H;=gM
-H;=ga
-H;=gb
-H;=gh
-H;=gl
-H;=g|
-H;=h!
-H;=h4
-H;=h=
-H;=h@
-H;=hE
-H;=hK
-H;=hc
-H;=hg
-H;=hv
-H;=i"
-H;=iY
-H;=jA
-H;=o+
-H;=p+
-H;=p8
-H;=ps
-H;=q"
-H;=qF
-H;=qT
-H;=r]
-H;=t*
-H;=t}
-H;=ui
-H;=w"
-H;=w.
-H;=wB
-H;=wK
-H;=wq
-H;=x)
-H;=x.
-H;=x=
-H;=xF
-H;=xG
-H;=xl
-H;=xp
-H;=x~
-H;=yr
-H;=ys
-H;=zu
-H;=z~
-H;=|^
+H;=Ux
+H;=WC
+H;=WF
+H;=WQ
+H;=Wb
+H;=W|
+H;=X%
+H;=X>
+H;=XK
+H;=X]
+H;=Xv
+H;=Zb
+H;=[&
+H;=[5
+H;=[D
+H;=[I
+H;=[S
+H;=[f
+H;=_?
+H;=`O
+H;=`R
+H;=`y
+H;=aL
+H;=a_
+H;=a}
+H;=b>
+H;=be
+H;=c{
+H;=g#
+H;=g*
+H;=g/
+H;=g4
+H;=gL
+H;=gN
+H;=gw
+H;=h.
+H;=h6
+H;=hG
+H;=hI
+H;=hM
+H;=hf
+H;=hr
+H;=j 
+H;=j;
+H;=jx
+H;=k>
+H;=mj
+H;=n2
+H;=oH
+H;=oI
+H;=of
+H;=oi
+H;=pN
+H;=p[
+H;=qy
+H;=un
+H;=v3
+H;=w8
+H;=w=
+H;=wE
+H;=wW
+H;=wt
+H;=x'
+H;=x1
+H;=x3
+H;=x7
+H;=xE
+H;=xP
+H;=xR
+H;=xm
+H;=xo
+H;=x{
+H;=y;
+H;=ya
+H;=zc
+H;=zp
+H;={Z
 H;B@t
 H;C(t
 H;CPw<I
@@ -12484,7 +12470,8 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc50!
+Hc5 &
+Hc521
 Hc7;w
 Hc@$H
 Hc@(E1
@@ -12865,7 +12852,6 @@ If set, don't show sound effect captions, just voice overs (i.e., won't help hea
 If set, rr_debugclassname will print only response tests where 'classname' corresponds to this variable. Use to filter for a specific character.
 If set, rr_debugresponseconcept will print only responses testing for the specified concept
 If set, server only simulates entities on even numbered ticks.
-If the given file doesn't exist, creates it with the given contents; does nothing if it exists
 If you have special characters in your install path this may be confusing the game.
 IfHasClassEvent
 IfHoverOtherEvent
@@ -12957,6 +12943,7 @@ InitGameSystems - End
 InitGameSystems - Start
 InitGlobalSoundscapes
 InitLogFile
+InitLogFile is deprecated. Print to the console for logging instead.
 InitPredictable
 InitViewport-finish
 InitViewport-start
@@ -13400,8 +13387,7 @@ L9t$(u
 L9|$HJ
 L: %.2f deg
 L;!t!f.
-L;%7.
-L;-di
+L;"tJA
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13564,14 +13550,16 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
-Lc%:?
-Lc%rn
+Lc%6`
+Lc%\U
+Lc%bs
+Lc%j_
+Lc%|R
 Lc'D)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-u.
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -17887,6 +17875,8 @@ VRStartup
 VRTouchApproach
 VRVScriptGameSystem
 VR_001
+VR_Collectible_%llu
+VR_Collectible_%llu_Desc
 VR_HAND_HAPTIC_PULSE_LIGHT
 VR_HAND_HAPTIC_PULSE_MEDIUM
 VR_HAND_HAPTIC_PULSE_STRONG
@@ -18123,6 +18113,7 @@ W(H;2t'H
 W,:V,u
 W0;V0H
 W0A;_H
+W0Jc\*
 W3|Uxa
 W49V4u
 W?,|C
@@ -18241,6 +18232,8 @@ Wingman warrior hack related to turn axes.
 With : voiced labial-velar approximant
 WizardSubPanel.BgColor
 Work Item for Work Pool %s completed but job no longer existed to notify
+Workshop item %llu '%s' has invalid default color %d %d %d
+Workshop item %llu '%s' has invalid default scale %f
 WorkshopImage
 WorkshopItem%llu
 WorkshopItemPaymentRule
@@ -18294,14 +18287,15 @@ Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
 X LcU
 X [A\]
-X%O0l
+X%7dd
 X(Optional) If true, only return the published file ids of files that satisfy this query.
+X-EGR
+X-Tdd
 X0~wA
 X2?-,}J
 X360_DST16
 X360_DST24
 X360_DST24F
-X5\Wd
 X=2v?
 XD$ A
 XD$ H
@@ -18479,9 +18473,9 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\-McQ
-\5*MR
-\=OMR
+\%]SR
+\-=cQ
+\5zNR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -18515,7 +18509,7 @@ Z}uU
 ]pt4H
 ]u9n5;> )"
 ]z6v<
-^%B&K
+^%2&K
 ^-wf"
 ^?O<g
 ^Cp\&
@@ -22798,6 +22792,7 @@ fields_index
 fieldtype_t
 file error
 file://
+file://{images}/
 file://{images}/browser/browser_mousepan.png
 file://{images}/content_browser/avatar_default_image.png
 file://{images}/content_browser/rating_fivestars.png
@@ -23754,6 +23749,7 @@ invalid error action to rgb_to_gray
 invalid escape sequence in character class
 invalid literal/length code
 invalid literal/lengths set
+invalid preview image path: %s
 invalid range in character class
 invalid stored block lengths
 invalid time base %f
@@ -28609,31 +28605,35 @@ russian
 s A9L$$t
 s A9O
 s H;5
-s H;5!
-s H;5(5
-s H;51
-s H;514
-s H;51J
-s H;5AW
-s H;5L\
-s H;5Qi	
-s H;5a
-s H;5a-
-s H;5q]
-s H;5x,
-s H;5xL
-s H;5x^
-s H;5|9
+s H;5 5
+s H;5 7
+s H;5 [
+s H;5$]
+s H;58*
+s H;59
+s H;5I
+s H;5Iy
+s H;5P7
+s H;5P:
+s H;5PG
+s H;5i
+s H;5pT
+s H;5y
+s H;5yS
+s H;5yi
 s [A\A]A^]
 s off
 s(AUL
 s(E9&t-A
 s(H;5
-s(H;5(T
-s(H;51
+s(H;50o	
+s(H;54y
 s(H;58
-s(H;5U$
-s(H;5|
+s(H;5I
+s(H;5T[
+s(H;5T]
+s(H;5ps
+s(H;5y%
 s(t.H
 s(~?A
 s)~+@
@@ -28642,33 +28642,31 @@ s/Hc]
 s/glow.vH
 s/spriteH
 s0H;5
-s0H;5<<
-s0H;5a
-s0H;5h
+s0H;5`7
+s0H;5`o	
+s0H;5d
 s0t;H
 s1_mapname
 s2r://
 s69F~
 s7>Ip
 s8H;5
-s8H;5H
-s8H;5HP	
+s8H;5<l	
+s8H;5@2
 s@9C@
 s@H9sHv
 s@H;5
-s@H;5l
-s@H;5x
-s@H;5xP	
 s@HcR
 sAmTb
 sHH;5
+sHH;5ep	
 sIf true, then files must have all the tags specified.  If false, then must have at least one of the tags specified.
 sMA9|$ 
 sPH;5
-sPH;5VQ	
+sPH;5P8
 sPLT chunk has bad length
 sPLT chunk requires too much memory
-sXH;58
+sXH;5
 sZtTH
 s_EntComponentInfo
 s_Ladders
@@ -28685,7 +28683,7 @@ s_kDynamicValuesArraySize
 s_nLatchPermissions
 s_nWatchTransmitEntity
 s`A]A^xq
-s`H;5p
+s`H;5
 saddlebrown
 sample_rate
 samples
@@ -29060,7 +29058,7 @@ source_entity_index
 source_file
 source_filename
 source_folder
-spH;5=
+spH;5
 space
 space shuttle
 spaceagnosticboneaccessor.cpp
@@ -29458,7 +29456,7 @@ svc_VoiceData
 svc_VoiceInit
 swedish
 swift_prefix
-sxH;5u
+sxH;5
 sxt!H
 sxtoH
 symbol
@@ -29495,16 +29493,16 @@ t";2}
 t"D9p
 t"HcS
 t"L;%
-t"L;%(
-t"L;%H$
-t"L;%X!
-t"L;%X&
-t"L;%h
-t"L;%hA
-t"L;%ho
-t"L;%x@
-t"L;%xn
-t"L;%y
+t"L;% 1
+t"L;% q
+t"L;%0r
+t"L;%@
+t"L;%@D
+t"L;%PF
+t"L;%PJ
+t"L;%`
+t"L;%a
+t"L;%p<
 t#;:u
 t#IcD$
 t#[A\]
@@ -29514,6 +29512,10 @@ t$ 9K$t
 t$ E1
 t$ H9
 t$ H;5
+t$ H;5-
+t$ H;5A5
+t$ H;5M
+t$ H;5]x	
 t$ L)
 t$ L9
 t$ fA
@@ -29523,34 +29525,28 @@ t$$fH
 t$(A9
 t$(H9
 t$(H;5
-t$(H;5E
-t$(H;5MY	
 t$(L)
 t$(L9
 t$(t-H
 t$0H9
 t$0H;5
-t$0H;5)m
-t$0H;5]Z	
-t$0H;5e
-t$0H;5m
+t$0H;5=
+t$0H;5Jp
+t$0H;5U
+t$0H;5q
 t$0f.
 t$0u\H
 t$0~4L
 t$8E1
 t$8H;5
-t$8H;55[	
-t$8H;5BQ
+t$8H;5}z	
 t$8L9
 t$<	t 
 t$<E1
 t$@H;5
-t$@H;5m[	
 t$@fA
 t$H;h
 t$HH;5
-t$HH;5B\	
-t$HH;5}
 t$HcS
 t$HcS(
 t$HcS8
@@ -29566,37 +29562,37 @@ t$Lc+I
 t$PA;pP
 t$PA;uPu
 t$PH;5
-t$PH;5}t
 t$TLc
 t$XH;5
 t$`H;5
-t$`H;5!u
-t$hH;5
+t$`H;5i
+t$hH;5-
 t$lfA
-t$pH;5	
+t$pH;5Q
 t$pvufA
 t$xH;5
+t%95N
 t%;2t%H
-t%D:%4<
+t%D:%
 t%HcC0A
 t%HcSx
 t%L;}
-t&;5/
 t&A;\$
 t&D;%
 t&L;%
-t&L;%H
+t&L;%@
 t&Lcc
 t&[A\]
 t'H;=
+t'H;=HO
 t'Ic]
 t(<)u
 t(HcM
 t(Lc#D;c
 t(Mce
 t([A\A]A^]
-t)@:5
-t)D:%(;
+t)@:5A
+t)D:%
 t)HcE
 t)Mc<$E;|$
 t)[A\]
@@ -30926,6 +30922,7 @@ workshop_accepted
 workshop_file
 workshop_file_id
 workshop_title
+workshopid
 workthreadpool.cpp
 world geometry
 worldAxisDirection
@@ -31139,10 +31136,8 @@ zzYQ,
 z|uzf
 z~u|A
 { H;=
-{ H;=3
-{ H;=A
-{ H;=F
-{ H;=q
+{ H;=I
+{ H;=[
 { H;}
 { [A\A]A^H
 { [A\A]]H
@@ -31152,7 +31147,7 @@ z~u|A
 {$[A\A]A^H
 {$t%:
 {(9x(
-{(H;=
+{(H;=J
 {(H;}
 {([A\A]H
 {([A\A]]
@@ -31160,15 +31155,14 @@ z~u|A
 {([A\]H
 {(fD9't)H
 {0H;=
-{0H;=z
+{0H;=PD
 {0t!H
 {8[A\H
 {8t;[A\]
 {@H;=
-{@H;=p
-{HH;=H
+{HH;=
 {HH;{`I
-{PH;=
+{PH;=I
 {S6wD
 {XtJH
 {YIN?
@@ -31232,6 +31226,7 @@ z~u|A
 |PIcL$
 |Xg!'
 |_&'o
+|_Lc}
 |fE;e
 |nE;e
 } A\A]A^A_]

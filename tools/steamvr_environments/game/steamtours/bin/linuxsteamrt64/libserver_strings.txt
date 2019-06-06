@@ -1443,7 +1443,6 @@ $zBu@
 (*VERB) not recognized or malformed
 (-TGU
 (0x%08X)'??'
-(5HYi
 (5[D/
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
@@ -4639,6 +4638,7 @@ $zBu@
 8IRagdoll
 8IRestore
 8IVehicle
+8L9=O(
 8Lc'A
 8LcGhH
 8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
@@ -6944,8 +6944,8 @@ Antlion
 Antlion: Burrow Point
 Antlion: Thumper Flee Point
 AppendToLogFile
+AppendToLogFile is deprecated. Print to the console for logging instead.
 AppendTransitionResources:  create manifest from save/restore keyvalues
-Appends a string to a log file on the server
 Application "
 Application .exe "%s"
 Application unable to load gameinfo.gi file from directory "%s"!
@@ -9741,12 +9741,13 @@ D8 vzM
 D8sUt
 D9"t=Lc
 D9#~wJ
-D9%Nm
-D9%Zl
-D9%w~
+D9%-x
+D9%9y
+D9%hq
+D9%tp
 D9*~{I
+D9-~y
 D9;t3I
-D9=%U
 D9D$4B
 D9D$4H
 D9HxtmI
@@ -9767,15 +9768,13 @@ D; t)I
 D; tMH
 D; }VH
 D;!ttHc
-D;%Bb
-D;%k$
+D;%5~
 D;%kV
 D;'tXH
 D;)ts
 D;.tLH
 D;0uOE
 D;3t 
-D;5'A
 D;8tQH
 D;8}?I
 D;C }JMc
@@ -11650,6 +11649,7 @@ H;5)#
 H;5)=
 H;5,-
 H;59:
+H;5?	
 H;5I4
 H;5X/
 H;5Y+
@@ -11660,126 +11660,125 @@ H;5am
 H;7t-1
 H;8tmH
 H;9u#
-H;= "
+H;=	n
+H;= !
 H;= 8
-H;= o
-H;="&
-H;="S
-H;="\
-H;="e
-H;=#$
+H;="$
+H;="Z
+H;="c
+H;="l
+H;="|
+H;=%S
 H;=&.
 H;=&/
-H;='%
 H;='+
 H;='0
 H;='O
-H;=()
 H;=(g
 H;=(h
-H;=* 
-H;=*V
-H;=*_
+H;=*'
+H;=*T
+H;=*]
+H;=*f
 H;=*h
-H;=+(
-H;=+,
-H;=/)
-H;=/*
+H;=/0
 H;=/1
-H;=/X
+H;=/F
+H;=/W
 H;=/}
-H;=0+
 H;=0,
+H;=01
 H;=0A
-H;=0R
+H;=0Q
+H;=0t
 H;=0x
 H;=7Z
 H;=8f
 H;=8g
-H;=:V
 H;=<R
 H;=?2
+H;=?:
+H;=?@
 H;=@-
+H;=@3
 H;=@5
-H;=@;
+H;=@:
 H;=AC
-H;=B'
-H;=B-
-H;=BT
-H;=B]
-H;=Bf
+H;=B%
+H;=BG
+H;=BR
+H;=B[
+H;=Bd
+H;=Bm
 H;=CF
 H;=Fp
 H;=HS
 H;=He
 H;=Hf
 H;=I5
-H;=Iq
-H;=J!
-H;=JC
-H;=JN
-H;=JW
-H;=J`
-H;=Ji
-H;=LR
+H;=J(
+H;=JU
+H;=J^
+H;=Jg
 H;=M.
-H;=O	
-H;=O&
-H;=O*
+H;=N(
+H;=NZ
+H;=O)
 H;=O;
-H;=OJ
-H;=Om
+H;=OI
+H;=On
 H;=Or
-H;=P$
+H;=P#
 H;=P6
-H;=PD
-H;=Pi
-H;=Pm
+H;=PC
+H;=Pb
+H;=Ph
 H;=QO
+H;=RB
 H;=Sh
+H;=U)
+H;=V-
+H;=W%
 H;=Xd
 H;=Xe
 H;=Xi
-H;=Yt
-H;=^t
-H;=_'
 H;=_/
-H;=_3
-H;=_s
-H;=_v
+H;=_D
 H;=_{
 H;=`*
+H;=`>
 H;=`?
 H;=`v
-H;=bQ
-H;=bU
+H;=b&
+H;=bS
 H;=bZ
-H;=b^
-H;=bg
-H;=e!
-H;=eO
+H;=b\
+H;=be
 H;=g-
 H;=hP
 H;=hc
 H;=hd
-H;=ij
-H;=j"
-H;=jO
-H;=jX
-H;=ja
+H;=j 
+H;=j)
+H;=jV
+H;=j_
+H;=jh
+H;=n1
 H;=o0
-H;=o5
-H;=o[
-H;=oa
+H;=o8
+H;=oZ
+H;=o`
+H;=o~
 H;=p+
 H;=p3
-H;=pU
-H;=p[
-H;=py
+H;=pZ
 H;=sT
+H;=v%
+H;=w$
 H;=w/
 H;=xL
 H;=xc
+H;=|(
 H;=}n
 H;B@t
 H;CHt
@@ -12250,7 +12249,6 @@ If set, only allows this ent index to network (other than players and things tha
 If set, rr_debugclassname will print only response tests where 'classname' corresponds to this variable. Use to filter for a specific character.
 If set, rr_debugresponseconcept will print only responses testing for the specified concept
 If set, server only simulates entities on even numbered ticks.
-If the given file doesn't exist, creates it with the given contents; does nothing if it exists
 If this scene is currently paused.
 If this scene is currently playing.
 If true, compute lighting for this area.  Otherwise, just set to 1/2.
@@ -12318,6 +12316,7 @@ InitLinks:LinksComputed	%d
 InitLinks:LinksConsidered	%d
 InitLinks:TimeMS	%f
 InitLogFile
+InitLogFile is deprecated. Print to the console for logging instead.
 InitNodePosition:TimeMS	%f
 InitZone:TimeMS	%f
 InitialOwner
@@ -13115,7 +13114,6 @@ L; t-L
 L; t9H
 L; tv
 L;!t!f.
-L;-NL
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13255,10 +13253,8 @@ Lc!D;a
 Lc#D;c
 Lc#E9
 Lc#fA
-Lc%9b
 Lc%Z0
 Lc%bV
-Lc%x~
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -18147,6 +18143,7 @@ Z}uU
 \$@fA
 \$h[A\]
 \%03o
+\%TK;
 \5\S/
 \8r|Xg!'
 \C not allowed in lookbehind assertion
@@ -21462,10 +21459,10 @@ fA;0tiA
 fA;G6
 fA;L$R
 fD9#t7
+fD9%@F
 fD9cV
 fD;!t
 fD;"t
-fD;%fi
 fD;+|
 fD;cnw
 fD;d0
@@ -30134,11 +30131,10 @@ t$Lc+I
 t$PH;5
 t$[A\]
 t$`[A\A]A^]
-t%D:%
+t%D:%t\
 t%HcC0A
-t&;5/
 t&A;\$
-t&D;%
+t&D;%5
 t&L;%
 t&L;%X
 t&[A\]
@@ -30152,7 +30148,7 @@ t(<)u
 t(Lc#D;c
 t([A\A]A^]
 t([A\]
-t)D:%
+t)D:%h[
 t)D;e
 t)HcC
 t)HcE
@@ -30165,7 +30161,7 @@ t,~R=
 t-L9p
 t-[A\A]]
 t-rex
-t.D:-
+t.D:-6#
 t.H9P
 t.H;w(t8H;w0tBH;w8tLH;w@t
 t.HcC H
@@ -31269,7 +31265,6 @@ x8"tq
 x8Mcl$ E;l$0
 x8mUM
 x:Hcw
-x;;=\
 x@HcO
 xBHcO
 xED;c }?E
@@ -31452,9 +31447,8 @@ z|uzH
 z}u{L
 z}u{fA
 { H;=
+{ H;=A
 { H;=C
-{ H;=F
-{ H;=V
 { H;}
 { fA9
 { t2H
@@ -31522,7 +31516,7 @@ z}u{fA
 },fA9\$nr$H
 },fA;]nw%H
 }/fA9L$nr'O
-}0H;="#
+}0H;=
 }2'@+P
 }2IcT$(1
 }2UHc
@@ -31557,7 +31551,7 @@ z}u{fA
 ~(IcD$
 ~(};Hc
 ~)H;7I
-~)H;=
+~)H;=lU
 ~)Hcu
 ~*fE;g
 ~+Lc}

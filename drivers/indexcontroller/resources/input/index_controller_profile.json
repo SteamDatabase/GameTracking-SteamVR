@@ -142,40 +142,5 @@
       "type" : "vibration",
       "binding_image_point" : [ 5, 35 ]
     } 
-  },
-"default_bindings" :
-  [
-    {
-      "app_key" : "steam.app.611160",
-      "binding_url" : "bindings/Karnage_Chronicles_Knuckles_611160.json"
-    },
-    {
-      "app_key" : "steam.app.496240",
-      "binding_url" : "bindings/Onward_Knuckles_496240.json"
-    },    {
-      "app_key" : "steam.app.555160",
-      "binding_url" : "bindings/Pavlov_Knuckles_555160.json"
-    },    {
-      "app_key" : "steam.app.886250",
-      "binding_url" : "bindings/Pokerstars_Knuckles_886250.json"
-    },    {
-      "app_key" : "steam.app.71710",
-      "binding_url" : "bindings/Rec_Room_Knuckles_471710.json"
-    },    {
-      "app_key" : "steam.app.555880",
-      "binding_url" : "bindings/Sairento_VR_Knuckles_555880.json"
-    },    {
-      "app_key" : "steam.app.418650",
-      "binding_url" : "bindings/Space_Pirate_Trainer_418650.json"
-    },    {
-      "app_key" : "steam.app.327140",
-      "binding_url" : "bindings/Tilt_Brush_Knuckles_327140.json"
-    },    {
-      "app_key" : "steam.app.438100",
-      "binding_url" : "bindings/VRChat_Knuckles_438100.json"
-    },    {
-      "app_key" : "steam.app.877200",
-      "binding_url" : "bindings/Zero_Caliber_Knuckles_877200.json"
-    }
-  ]
+  }
  }
