@@ -1439,7 +1439,7 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
 (%0.2f): %s
-(%7Kj
+(%GMj
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1455,7 +1455,6 @@ $z1u/A
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (8HXhx
-(={qN
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (AVAUH
@@ -1906,6 +1905,7 @@ $z1u/A
 .%!>Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
+.-O8s
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1938,9 +1938,9 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.5LqN
-.5ooM
-.=6qN
+.5lrN
+.5pe}
+.=VrN
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -4955,6 +4955,7 @@ $z1u/A
 ;G tu+G$L
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;GPttK
+;Hc5)
 ;I9<$uY
 ;L$D|*
 ;P0}K
@@ -4962,6 +4963,7 @@ $z1u/A
 ;RGB565
 ;Sp~'
 ;T$X|I
+;W(}/
 ;WD|2H
 ;[A\]
 ;[A\]H
@@ -5305,7 +5307,6 @@ $z1u/A
 @  tJH
 @ <b>@import</b> 
 @ A;D$ w-A;D$
-@ H9E
 @ H;B@t$H
 @ [A\]
 @ tVH
@@ -5543,8 +5544,8 @@ A;L$
 A;N<u
 A;T$(|
 A;T$(}5H
-A;U(}3Hc
 A;U(}6
+A;V(}0H
 A;W(}0H
 A;Z D
 A;\$ 
@@ -5571,6 +5572,7 @@ A;_@}4L
 A;_L|
 A;_p|
 A;t$ 
+A;v(}0H
 A;vX~
 A;w(}0H
 A<9w+
@@ -7017,7 +7019,6 @@ A]A^]
 A]A^]A
 A]A^]H
 A^A_]
-A_t^H
 A_txt
 AbsTagType(unknown)
 Ac&Q/
@@ -10100,6 +10101,8 @@ D70A9
 D8cUt
 D9#~wJ
 D9;t3I
+D9=BU
+D9=IR
 D9D$4B
 D9D$4H
 D9G8u
@@ -10128,19 +10131,20 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
-D;%?`
-D;%ds
-D;%s_
+D;%%T
+D;%9e
+D;%O|
 D;'tXH
 D;)ts
 D;+}(L
+D;-~D
 D;.tLH
 D;0uOE
 D;3t 
 D;3}5
-D;5QW
 D;8tQH
 D;9tlA
+D;=OW
 D;C }JMc
 D;F`u
 D;G I
@@ -12127,208 +12131,188 @@ H;0t*A
 H;0t+A
 H;0t0H
 H;0t\H
-H;5	Y
-H;5	k
-H;5 9
-H;5 :
-H;5$&
-H;5$7
-H;5$u
-H;5'.
-H;5)%
-H;5)R
-H;5-x	
-H;50I
-H;50U
-H;54 
-H;54t
-H;54x
-H;59l
-H;59u
-H;5D,
-H;5L7
-H;5PI
-H;5PP
-H;5Tz
-H;5Xv	
-H;5X}
-H;5Y*
-H;5Y+
-H;5Y{
-H;5Zl
-H;5aR
-H;5dj
-H;5i/
-H;5i[
-H;5ir
-H;5pq
-H;5q'
+H;5 f
+H;5 m
+H;5!8
+H;5)G
+H;5)H
+H;50/
+H;519
+H;51o
+H;59L
+H;59x
+H;5A/
+H;5AD
+H;5AU
+H;5D6
+H;5G^
+H;5Pd
+H;5Q&
+H;5Tn
+H;5Tp
+H;5Ty
+H;5YV
+H;5Y\
+H;5Y^
+H;5Yb
+H;5Yl
+H;5as
+H;5pg
 H;5q8
-H;5qw
-H;5tr
-H;5vd
-H;5wA
+H;5|K
 H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;= D
-H;= J
-H;= Q
-H;= S
-H;="c
-H;=$r
-H;='E
-H;='d
+H;= k
+H;= m
+H;= r
+H;=!K
+H;="=
+H;="d
+H;=#2
+H;=$_
+H;='"
+H;=')
+H;='-
+H;='.
+H;='3
+H;='K
+H;='M
 H;='n
-H;='p
-H;=(&
-H;=(@
-H;=(E
-H;=([
-H;=(_
-H;=(`
-H;=)B
-H;=)a
-H;=)t
-H;=)|k
-H;=*>
-H;=+Q
-H;=.f
-H;=.x
-H;=0P
-H;=0R
-H;=1F
-H;=1{
-H;=4,
-H;=7%
-H;=7)
-H;=71
-H;=7N
-H;=7O
-H;=7P
-H;=7m
-H;=7y
-H;=8'
-H;=8G
-H;=8I
-H;=8K
-H;=8R
-H;=8t
-H;=9s
-H;=:L
-H;=;-
-H;=<X
-H;=?;
-H;=?L
-H;=?x
-H;=@O
-H;=@Q
-H;=AH
-H;=Bd
-H;=C 
-H;=EE
-H;=G$
-H;=G:
-H;=GY
-H;=Gv
-H;=H5
-H;=HI
-H;=HT
-H;=Hq
-H;=H}
-H;=Ic
-H;=N'
-H;=Nn
-H;=OM
-H;=Oa
-H;=Op
-H;=PN
-H;=PP
-H;=PU
+H;='v
+H;=((
+H;=(-
+H;=(B
+H;=(F
+H;=(H
+H;=(L
+H;=(i
+H;=(q
+H;=*1
+H;=*:
+H;=+C
+H;=+R
+H;=+a
+H;=+f
+H;=+p
+H;=/4
+H;=/\
+H;=0K
+H;=0l
+H;=0o
+H;=1|
+H;=37
+H;=4p
+H;=62
+H;=77
+H;=7<
+H;=7s
+H;=7w
+H;=8&
+H;=82
+H;=86
+H;=8=
+H;=8D
+H;=8O
+H;=8Q
+H;=8f
+H;=8l
+H;=8n
+H;=8r
+H;=8z
+H;=:6
+H;=:=
+H;=:X
+H;=:b
+H;=;[
+H;=>O
+H;=?e
+H;=?f
+H;=@k
+H;=@x
+H;=AD
+H;=B!
+H;=B"
+H;=Be
+H;=Fg
+H;=G&
+H;=G@
+H;=G`
+H;=Gb
+H;=H 
+H;=H;
+H;=H?
+H;=HE
+H;=HZ
+H;=H{
+H;=IX
+H;=I~
+H;=J2
+H;=Kw
+H;=O'
+H;=Og
+H;=Pj
 H;=Pw
-H;=QJ
-H;=QS
-H;=Qy
-H;=TB
-H;=Tt
-H;=Ux
-H;=WC
-H;=WF
-H;=WQ
-H;=Wb
-H;=W|
-H;=X%
-H;=X>
-H;=XK
-H;=X]
-H;=Xv
-H;=Zb
-H;=[&
-H;=[5
-H;=[D
-H;=[I
-H;=[S
-H;=[f
-H;=_?
-H;=`O
-H;=`R
-H;=`y
-H;=aL
-H;=a_
-H;=a}
-H;=b>
-H;=be
-H;=c{
-H;=g#
-H;=g*
-H;=g/
-H;=g4
-H;=gL
-H;=gN
-H;=gw
-H;=h.
-H;=h6
-H;=hG
+H;=Q8
+H;=QF
+H;=S8
+H;=W'
+H;=W+
+H;=WH
+H;=WI
+H;=Wl
+H;=Wt
+H;=XD
+H;=XG
+H;=Xc
+H;=Xg
+H;=Xo
+H;=X~
+H;=Z7
+H;=Z\
+H;=Zc
+H;=_h
+H;=`f
+H;=`i
+H;=`v
+H;=aH
+H;=b1
+H;=bD
+H;=c|
+H;=g5
+H;=gq
+H;=gu
+H;=g}
+H;=h$
+H;=h0
 H;=hI
 H;=hM
-H;=hf
-H;=hr
-H;=j 
-H;=j;
-H;=jx
-H;=k>
-H;=mj
-H;=n2
-H;=oH
-H;=oI
-H;=of
-H;=oi
-H;=pN
-H;=p[
-H;=qy
-H;=un
-H;=v3
-H;=w8
-H;=w=
-H;=wE
-H;=wW
-H;=wt
-H;=x'
-H;=x1
-H;=x3
-H;=x7
-H;=xE
-H;=xP
-H;=xR
-H;=xm
-H;=xo
-H;=x{
-H;=y;
-H;=ya
-H;=zc
-H;=zp
-H;={Z
+H;=hl
+H;=hp
+H;=hx
+H;=jJ
+H;=je
+H;=o:
+H;=oY
+H;=ph
+H;=pu
+H;=qJ
+H;=qk
+H;=s9
+H;=w%
+H;=w>
+H;=wv
+H;=w~
+H;=x9
+H;=xK
+H;=xy
+H;=y^
+H;=z8
+H;=zd
+H;={A
+H;={yk
+H;=|#
 H;B@t
 H;C(t
 H;CPw<I
@@ -12470,8 +12454,7 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5 &
-Hc521
+Hc5' 
 Hc7;w
 Hc@$H
 Hc@(E1
@@ -13388,6 +13371,7 @@ L9|$HJ
 L: %.2f deg
 L;!t!f.
 L;"tJA
+L;%Oj
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13550,16 +13534,14 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
-Lc%6`
-Lc%\U
-Lc%bs
-Lc%j_
-Lc%|R
+Lc%F|
+Lc%z{
 Lc'D)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
+Lc-uD
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -18289,8 +18271,8 @@ X LcU
 X [A\]
 X%7dd
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-EGR
 X-Tdd
+X-eHR
 X0~wA
 X2?-,}J
 X360_DST16
@@ -18324,7 +18306,11 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
+Y%7Rm
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
+Y-O+)
+Y-P(	
+Y5N+)
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18473,9 +18459,8 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\%]SR
+\%}TR
 \-=cQ
-\5zNR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -28605,35 +28590,30 @@ russian
 s A9L$$t
 s A9O
 s H;5
-s H;5 5
-s H;5 7
-s H;5 [
-s H;5$]
-s H;58*
-s H;59
+s H;5	
+s H;5 T
+s H;5 W
+s H;5 d
+s H;595
+s H;5@q
 s H;5I
-s H;5Iy
-s H;5P7
-s H;5P:
-s H;5PG
+s H;5Ip
+s H;5Y
+s H;5d
 s H;5i
-s H;5pT
-s H;5y
-s H;5yS
+s H;5yU
 s H;5yi
 s [A\A]A^]
 s off
 s(AUL
 s(E9&t-A
 s(H;5
-s(H;50o	
-s(H;54y
-s(H;58
-s(H;5I
-s(H;5T[
-s(H;5T]
-s(H;5ps
-s(H;5y%
+s(H;5$x
+s(H;5$z
+s(H;5@
+s(H;5IB
+s(H;5PT
+s(H;5m`
 s(t.H
 s(~?A
 s)~+@
@@ -28642,31 +28622,33 @@ s/Hc]
 s/glow.vH
 s/spriteH
 s0H;5
-s0H;5`7
-s0H;5`o	
-s0H;5d
+s0H;50
+s0H;50T
+s0H;54*
+s0H;5Tx
+s0H;5yV
 s0t;H
 s1_mapname
 s2r://
 s69F~
 s7>Ip
 s8H;5
-s8H;5<l	
-s8H;5@2
+s8H;5`
+s8H;5`T
 s@9C@
 s@H9sHv
 s@H;5
 s@HcR
 sAmTb
 sHH;5
-sHH;5ep	
+sHH;55
 sIf true, then files must have all the tags specified.  If false, then must have at least one of the tags specified.
 sMA9|$ 
-sPH;5
-sPH;5P8
+sPH;5 U
+sPH;5n
 sPLT chunk has bad length
 sPLT chunk requires too much memory
-sXH;5
+sXH;5PU
 sZtTH
 s_EntComponentInfo
 s_Ladders
@@ -29058,7 +29040,7 @@ source_entity_index
 source_file
 source_filename
 source_folder
-spH;5
+spH;5UV
 space
 space shuttle
 spaceagnosticboneaccessor.cpp
@@ -29493,16 +29475,15 @@ t";2}
 t"D9p
 t"HcS
 t"L;%
-t"L;% 1
-t"L;% q
-t"L;%0r
-t"L;%@
-t"L;%@D
-t"L;%PF
-t"L;%PJ
-t"L;%`
-t"L;%a
-t"L;%p<
+t"L;% c
+t"L;% g
+t"L;%0
+t"L;%0(
+t"L;%1
+t"L;%@Y
+t"L;%``
+t"L;%p]
+t"L;%pb
 t#;:u
 t#IcD$
 t#[A\]
@@ -29513,9 +29494,6 @@ t$ E1
 t$ H9
 t$ H;5
 t$ H;5-
-t$ H;5A5
-t$ H;5M
-t$ H;5]x	
 t$ L)
 t$ L9
 t$ fA
@@ -29525,21 +29503,24 @@ t$$fH
 t$(A9
 t$(H9
 t$(H;5
+t$(H;5].
+t$(H;5e
 t$(L)
 t$(L9
 t$(t-H
 t$0H9
 t$0H;5
-t$0H;5=
-t$0H;5Jp
-t$0H;5U
-t$0H;5q
+t$0H;5%;
+t$0H;5A
+t$0H;5u
+t$0H;5}
 t$0f.
 t$0u\H
 t$0~4L
 t$8E1
 t$8H;5
-t$8H;5}z	
+t$8H;5M
+t$8H;5Z
 t$8L9
 t$<	t 
 t$<E1
@@ -29547,6 +29528,7 @@ t$@H;5
 t$@fA
 t$H;h
 t$HH;5
+t$HH;5Z
 t$HcS
 t$HcS(
 t$HcS8
@@ -29565,33 +29547,31 @@ t$PH;5
 t$TLc
 t$XH;5
 t$`H;5
-t$`H;5i
-t$hH;5-
+t$`H;59
+t$hH;5
 t$lfA
-t$pH;5Q
+t$pH;5!,
 t$pvufA
 t$xH;5
-t%95N
 t%;2t%H
 t%D:%
 t%HcC0A
 t%HcSx
 t%L;}
 t&A;\$
-t&D;%
+t&D;%e
 t&L;%
-t&L;%@
+t&L;%`
 t&Lcc
 t&[A\]
 t'H;=
-t'H;=HO
 t'Ic]
 t(<)u
 t(HcM
 t(Lc#D;c
 t(Mce
 t([A\A]A^]
-t)@:5A
+t)@:5
 t)D:%
 t)HcE
 t)Mc<$E;|$
@@ -29610,6 +29590,7 @@ t.HcC H
 t.HcC(H
 t.HcK8H
 t.HcO
+t.IcA
 t.McG
 t/<.u
 t/H9B
@@ -29627,12 +29608,12 @@ t0HcG H
 t0HcG(H
 t0HcK@H
 t0HcKXH
-t0IcG
 t0[A\A]]
 t1HcG
 t1HcKlH
 t1HcO8H
 t1HcOPH
+t1IcB
 t1Mc,$E;l$
 t1[A\]
 t2HcC$H
@@ -29772,10 +29753,11 @@ tJHcC
 tJHcShH
 tJLc;D;{
 tK~%E1
+tLIcA
 tL[A\A]A^]
 tNA;P |
 tNMc/E;o
-tOIcG
+tOIcB
 tOO : high back rounded vowel
 tPA9Q ~JM
 tRIcE
@@ -29944,12 +29926,13 @@ tipPos NaN
 tipVel
 tipVel NaN
 title
+tjIcA
 tkHcS8
 tm#C,
 tmE;>thH
 tmHcO
+tmIcB
 tnD9k
-tnIcG
 toIcD$
 today
 toggleconsole
@@ -30586,6 +30569,9 @@ vr_chaperone_min_x
 vr_chaperone_min_y
 vr_chaperone_min_z
 vr_client_fsr_test
+vr_color_picker_mode_left
+vr_color_picker_mode_right
+vr_color_picker_toggleable
 vr_controller_forward_point
 vr_controller_gg_hold
 vr_controller_grabbity_gun_forward_pull
@@ -30597,6 +30583,7 @@ vr_controller_root_left
 vr_controller_root_right
 vr_controller_trackpad_corner
 vr_controller_trackpad_pos
+vr_controller_use
 vr_controller_vive
 vr_createhmdavatar
 vr_crush_value
@@ -30973,7 +30960,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=
+x8H;=nA
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31136,7 +31123,8 @@ zzYQ,
 z|uzf
 z~u|A
 { H;=
-{ H;=I
+{ H;=	
+{ H;=N
 { H;=[
 { H;}
 { [A\A]A^H
@@ -31147,7 +31135,7 @@ z~u|A
 {$[A\A]A^H
 {$t%:
 {(9x(
-{(H;=J
+{(H;=
 {(H;}
 {([A\A]H
 {([A\A]]
@@ -31155,14 +31143,14 @@ z~u|A
 {([A\]H
 {(fD9't)H
 {0H;=
-{0H;=PD
 {0t!H
 {8[A\H
 {8t;[A\]
 {@H;=
+{@H;=1
 {HH;=
 {HH;{`I
-{PH;=I
+{PH;=
 {S6wD
 {XtJH
 {YIN?

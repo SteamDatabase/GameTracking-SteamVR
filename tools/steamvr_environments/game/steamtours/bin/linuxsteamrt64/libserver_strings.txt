@@ -1426,13 +1426,13 @@ $zBu@
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
+(%TwC
 (%d %d %d %d)
 (%d) %s
 (%d) ------> %s ( HELD BY %s ) 
 (%d) Name: %s (%s)
 (%d)%s (%iH)
 (%d), (%d)
-(%dwC
 (%f, %f, %f)
 (%g %g %g %g)
 (%g %g %g)
@@ -1441,9 +1441,10 @@ $zBu@
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(-TGU
+(-DGU
 (0x%08X)'??'
-(5[D/
+(5KD/
+(5hZi
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (D$ A
@@ -1751,12 +1752,11 @@ $zBu@
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%0),
-.%6~d
-.%mk2
-.-B}d
-.-fy,
-.-yaX
+.% ),
+.%]k2
+.%ol2
+.-Vy,
+.-iaX
 ...%s
 ...<truncated>...
 ...done building AI node graph, %f seconds
@@ -1789,9 +1789,12 @@ $zBu@
 ../public/tier1/utlrbtree.h
 ../public/tier2/fieldpath.h
 ..\content
-.5nz,
+.5%so
+.5^z,
+.5e)f
+.5w_/
 .8z%u#
-.=;x,
+.=+x,
 .>()09
 .@(vi
 .@,wwH
@@ -4638,7 +4641,6 @@ $zBu@
 8IRagdoll
 8IRestore
 8IVehicle
-8L9=O(
 8Lc'A
 8LcGhH
 8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
@@ -9741,13 +9743,15 @@ D8 vzM
 D8sUt
 D9"t=Lc
 D9#~wJ
-D9%-x
-D9%9y
-D9%hq
-D9%tp
+D9%AA
+D9%Np
+D9%Zo
+D9%cy
 D9*~{I
-D9-~y
+D9-.z
+D95%e
 D9;t3I
+D9=uY
 D9D$4B
 D9D$4H
 D9HxtmI
@@ -9768,13 +9772,20 @@ D; t)I
 D; tMH
 D; }VH
 D;!ttHc
-D;%5~
-D;%kV
+D;%;(
+D;%;g
+D;%>D
+D;%I}
+D;%[0
+D;%nk
 D;'tXH
 D;)ts
+D;-!e
 D;.tLH
 D;0uOE
 D;3t 
+D;5'D
+D;5Og
 D;8tQH
 D;8}?I
 D;C }JMc
@@ -11644,142 +11655,133 @@ H;0tCH
 H;0teH
 H;1t5A
 H;2t_A
-H;5	(
-H;5)#
-H;5)=
-H;5,-
-H;59:
-H;5?	
-H;5I4
-H;5X/
-H;5Y+
-H;5\q
-H;5a_
-H;5ac
-H;5am
+H;5(x
+H;5,X
+H;5,j
+H;51s
+H;58d
+H;598
+H;5Q&
+H;5\+
+H;5\T
+H;5aY
+H;5hf
+H;5i'
+H;5|/
 H;7t-1
 H;8tmH
 H;9u#
-H;=	n
-H;= !
-H;= 8
-H;="$
-H;="Z
-H;="c
-H;="l
-H;="|
-H;=%S
-H;=&.
-H;=&/
-H;='+
-H;='0
-H;='O
-H;=(g
-H;=(h
-H;=*'
-H;=*T
-H;=*]
-H;=*f
-H;=*h
-H;=/0
-H;=/1
-H;=/F
-H;=/W
-H;=/}
-H;=0,
-H;=01
-H;=0A
-H;=0Q
-H;=0t
-H;=0x
-H;=7Z
-H;=8f
-H;=8g
-H;=<R
-H;=?2
-H;=?:
-H;=?@
-H;=@-
-H;=@3
-H;=@5
-H;=@:
-H;=AC
-H;=B%
-H;=BG
-H;=BR
-H;=B[
-H;=Bd
-H;=Bm
-H;=CF
-H;=Fp
-H;=HS
-H;=He
-H;=Hf
-H;=I5
-H;=J(
-H;=JU
-H;=J^
-H;=Jg
-H;=M.
-H;=N(
-H;=NZ
-H;=O)
-H;=O;
-H;=OI
-H;=On
-H;=Or
-H;=P#
-H;=P6
-H;=PC
-H;=Pb
-H;=Ph
-H;=QO
-H;=RB
-H;=Sh
-H;=U)
-H;=V-
-H;=W%
-H;=Xd
-H;=Xe
-H;=Xi
-H;=_/
-H;=_D
-H;=_{
-H;=`*
-H;=`>
-H;=`?
-H;=`v
-H;=b&
-H;=bS
-H;=bZ
-H;=b\
-H;=be
-H;=g-
-H;=hP
-H;=hc
-H;=hd
-H;=j 
-H;=j)
-H;=jV
-H;=j_
-H;=jh
-H;=n1
-H;=o0
+H;= %
+H;= 5
+H;= r
+H;=" 
+H;=")
+H;="V
+H;="[
+H;="_
+H;="h
+H;=#'
+H;='(
+H;='.
+H;=(,
+H;=([
+H;=(^
+H;=*#
+H;=*Y
+H;=*b
+H;=*k
+H;=++
+H;=+/
+H;=,M
+H;=/.
+H;=/C
+H;=/[
+H;=0)
+H;=0.
+H;=0=
+H;=0>
+H;=0U
+H;=0{
+H;=1.
+H;=3N
+H;=70
+H;=8]
+H;=:Y
+H;=?/
+H;=?7
+H;=@*
+H;=@2
+H;=@>
+H;=B!
+H;=B*
+H;=B0
+H;=BW
+H;=B`
+H;=Bi
+H;=FQ
+H;=J$
+H;=JQ
+H;=JZ
+H;=Jc
+H;=Jl
+H;=O-
+H;=O8
+H;=OM
+H;=Ou
+H;=P'
+H;=P3
+H;=PG
+H;=Pl
+H;=Pp
+H;=Qo
+H;=SG
+H;=W&
+H;=W:
+H;=Xj
+H;=^w
+H;=_,
+H;=_-
+H;=_6
+H;=_A
+H;=_t
+H;=_~
+H;=`'
+H;=`<
+H;=`n
+H;=`y
+H;=aN
+H;=b"
+H;=bX
+H;=ba
+H;=bj
+H;=e$
+H;=fP
+H;=hi
+H;=im
+H;=j%
+H;=jR
+H;=j[
+H;=jd
+H;=l?
+H;=lU
+H;=o-
+H;=o5
 H;=o8
-H;=oZ
-H;=o`
-H;=o~
-H;=p+
-H;=p3
-H;=pZ
-H;=sT
-H;=v%
-H;=w$
-H;=w/
-H;=xL
-H;=xc
-H;=|(
-H;=}n
+H;=o^
+H;=od
+H;=p(
+H;=p0
+H;=pX
+H;=p^
+H;=pt
+H;=pw
+H;=q;
+H;=qQ
+H;=s 
+H;=w-
+H;=x0
+H;=xh
+H;=|`
 H;B@t
 H;CHt
 H;G t
@@ -11899,7 +11901,6 @@ HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
 Hc	t,
-Hc5G<
 Hc@$H
 Hc@0A
 Hc@0M
@@ -13114,6 +13115,7 @@ L; t-L
 L; t9H
 L; tv
 L;!t!f.
+L;-NO
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13253,14 +13255,18 @@ Lc!D;a
 Lc#D;c
 Lc#E9
 Lc#fA
-Lc%Z0
-Lc%bV
+Lc%2g
+Lc%5D
+Lc%R0
+Lc%ek
 Lc&D;f
 Lc'D;g
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
+Lc-	7
+Lc-3o
 Lc.D;n
 Lc/D;o
 Lc/E)
@@ -17816,6 +17822,7 @@ W u)H
 W(8QpH
 W(A\]H
 W(H;2t'H
+W-~=2
 W0A;_H
 W3|Uxa
 W8;2|
@@ -17977,9 +17984,8 @@ WriteToBuffer Message %s is not initialized! Probably missing required fields!
 Writes the selected set to disk for merging into another mesh via nav_merge_mesh.
 Wrong alignment %d
 WxH;2t*H
-X-<S/
+X-,S/
 X4[A\]
-X5$W/
 X=2v?
 XA;^@|
 XAxis
@@ -18024,9 +18030,9 @@ XboxSystemInterface001
 Xh#x\
 X|~YA
 X|~lA
-Y%-HV
-Y%??1
-Y%Z!d
+Y%/?1
+Y%o?1
+Y-}>1
 Y?[A\]
 Y@phonemes
 YAxis
@@ -18143,9 +18149,9 @@ Z}uU
 \$@fA
 \$h[A\]
 \%03o
-\%TK;
-\5\S/
+\5LS/
 \8r|Xg!'
+\=}X/
 \C not allowed in lookbehind assertion
 \CXfA
 \D$$H
@@ -21459,7 +21465,6 @@ fA;0tiA
 fA;G6
 fA;L$R
 fD9#t7
-fD9%@F
 fD9cV
 fD;!t
 fD;"t
@@ -29185,18 +29190,19 @@ rumble
 runspeed
 rxD;wx
 s H;5
-s H;51
-s H;5A6
-s H;5H
-s H;5a
-s H;5xX
+s H;5,
+s H;58
+s H;5A,
+s H;5Q
+s H;5X
+s H;5Xx
+s H;5q
+s H;5x
 s [A\A]A^]
 s off
 s$[A\]
 s(H;5
-s(H;5,y
-s(H;5p
-s(H;5x
+s(H;5h
 s([A\A]A^]
 s(t.H
 s)~+@
@@ -29206,21 +29212,20 @@ s/glow.vH
 s/spriteH
 s0D;s@A
 s0H;5
-s0H;58
-s0H;5\
-s0H;5\y
+s0H;5,
 s1_mapname
 s69F~
 s7>Ip
 s8H;5
-s8H;5h
+s8H;58
+s8H;5Qw
 s@H;5
-s@H;5<
+s@H;5h
 sHH;5
 sLockedSentence
 sLuQH
 sMA9|$ 
-sPH;5
+sPH;5F
 sPhases
 sUnlockedSentence
 sXD;shI
@@ -30077,23 +30082,22 @@ t"HcS
 t"HcW
 t"L;%
 t"L;%(
-t"L;%)
-t"L;%8)
-t"L;%Xc
-t"L;%h
-t"L;%he
+t"L;%9
+t"L;%Xa
+t"L;%hc
 t"L;%x
-t"L;%y
 t#IcD$
 t$	H9
 t$ E1
 t$ H9
 t$ H;5
+t$ H;5	
+t$ H;5e
+t$ H;5m
 t$ L9
 t$(H9
 t$(H;5
-t$(H;55
-t$(H;5B
+t$(H;5=
 t$(Ic
 t$(L9
 t$(t-H
@@ -30101,23 +30105,23 @@ t$*D9
 t$0A\A]A^]
 t$0H9
 t$0H;5
-t$0H;5%
-t$0H;5I
+t$0H;5	#
+t$0H;5M
 t$6IcT$(H
-t$8H;5
+t$8H;5"
+t$8H;5%
 t$8L9
 t$8fA
 t$<	t 
 t$<E1
 t$@H;5
-t$@H;56
+t$@H;5]
 t$@|)
 t$@|+
 t$H;h
 t$HE;
 t$HH;5
-t$HH;5M
-t$HH;5t
+t$HH;52
 t$HcS
 t$HcS(
 t$HcSH
@@ -30131,12 +30135,12 @@ t$Lc+I
 t$PH;5
 t$[A\]
 t$`[A\A]A^]
-t%D:%t\
+t%D:%
 t%HcC0A
 t&A;\$
-t&D;%5
+t&D;%
 t&L;%
-t&L;%X
+t&L;%h
 t&[A\]
 t'H9P
 t'H;=
@@ -30148,7 +30152,7 @@ t(<)u
 t(Lc#D;c
 t([A\A]A^]
 t([A\]
-t)D:%h[
+t)D:%
 t)D;e
 t)HcC
 t)HcE
@@ -30161,7 +30165,7 @@ t,~R=
 t-L9p
 t-[A\A]]
 t-rex
-t.D:-6#
+t.D:-
 t.H9P
 t.H;w(t8H;w0tBH;w8tLH;w@t
 t.HcC H
@@ -30965,6 +30969,9 @@ vr_aperture_multitool
 vr_author_refpt
 vr_carry_type
 vr_client_fsr_test
+vr_color_picker_mode_left
+vr_color_picker_mode_right
+vr_color_picker_toggleable
 vr_controller_forward_point
 vr_controller_gg_hold
 vr_controller_grabbity_gun_forward_pull
@@ -31249,7 +31256,8 @@ write@@GLIBC_2.2.5
 wrong submessage type
 wx;rxu
 x	;F`
-x	D;%<
+x	D;%
+x";=/
 x#Mcn
 x$HcSh;Sx
 x&IcT$ A;T$0
@@ -31264,6 +31272,7 @@ x7Hcw
 x8"tq
 x8Mcl$ E;l$0
 x8mUM
+x:;=\
 x:Hcw
 x@HcO
 xBHcO
@@ -31447,8 +31456,10 @@ z|uzH
 z}u{L
 z}u{fA
 { H;=
-{ H;=A
-{ H;=C
+{ H;=!
+{ H;=1
+{ H;=f
+{ H;=v
 { H;}
 { fA9
 { t2H
@@ -31458,7 +31469,7 @@ z}u{fA
 {%s}SAVE/autosavedangerous%s.sav
 {%s}SAVE/autosavedangerous%s.tga
 {(9x(
-{(H;=2
+{(H;=
 {(H;}
 {(fD9't)H
 {0H;=
@@ -31466,10 +31477,11 @@ z}u{fA
 {8L9o
 {8L;g
 {@H;=
+{@H;=)
 {@[A\]
-{HH;=x
+{HH;=
 {PD;{`
-{PH;=1
+{PH;=
 {S6wD
 {XtJH
 {YIN?
@@ -31516,7 +31528,7 @@ z}u{fA
 },fA9\$nr$H
 },fA;]nw%H
 }/fA9L$nr'O
-}0H;=
+}0H;="&
 }2'@+P
 }2IcT$(1
 }2UHc
@@ -31551,7 +31563,7 @@ z}u{fA
 ~(IcD$
 ~(};Hc
 ~)H;7I
-~)H;=lU
+~)H;=
 ~)Hcu
 ~*fE;g
 ~+Lc}

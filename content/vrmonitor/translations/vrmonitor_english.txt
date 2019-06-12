@@ -435,7 +435,7 @@
 
 "Settings_Advanced_RefreshRate_Header" "Refresh Rate"
 "Settings_Advanced_RefreshRate_HzSuffix" "hz"
-"Settings_Advanced_RefreshRate_NotFound" "<b>NOTE:</b> Additional refresh rates are supported by your HMD, but they were not detected by the graphics driver."
+"Settings_Advanced_RefreshRate_NotFound" "<b>NOTE:</b> Additional refresh rates are supported by your HMD, but were not detected by the graphics driver. Please verify your headset firmware and graphics drivers are up to date."
 "Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>NOTE:</b> Additional refresh rates are supported by your HMD, but SteamVR cannot manage refresh rates when the HMD is in extended mode. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Enable direct mode.</span></a>"
 "Settings_Advanced_Restart" "<i>This pending change will take effect once you <a href='vrmonitor://restartsystem'><span style='color:white;'>Restart SteamVR</span></a></i>"
 
