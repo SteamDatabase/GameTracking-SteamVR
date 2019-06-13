@@ -177,14 +177,13 @@ $t)E1
 -width
 . Pixels per eye after stencil mask: 
 . Renderer now requires 
-.-Q",
 ../public/ordered_constructor.h
 ../public/tier0/tslist.h
 ../public/tier1/utlblockmemory.h
 ../public/tier1/utlfixedmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
-.5"W,
+.5rV,
 .M;UU
 .comment
 .data
@@ -325,7 +324,6 @@ $t)E1
 8[A\A]]
 8[]A\A]A^A_
 9.1.15
-95/m(
 9ISequence
 9f98u
 :@8>@
@@ -977,6 +975,7 @@ H9H t
 H9H t)A
 H9l$(u
 H;*twH
+H;=@	+
 H;I u
 H;J0H
 H;q0H
@@ -993,6 +992,7 @@ H[A\L)
 H[]A\A]A^A_
 HammerMapLoader001
 Has Collision; 
+Hc5W\,
 HcCh;Cx
 HcD$pH
 HcGpUH
@@ -1140,9 +1140,10 @@ LZ4_versionNumber
 LZ4_versionString
 Launching %s
 Lc)D;i
+Lc-+\,
 Lc/E)
 Lc3D;s
-Lc5Y[,
+Lc=JX,
 LcghD;gx
 Lcs8D;sHD
 Length; 
@@ -1244,6 +1245,7 @@ Normalize3ComponentVectorInAttributes
 Normalized3x3SobelEdgeFilterFrom
 NpC9D
 ORIENT
+Oculus Rift S
 Only DXT1/DXT5 online texture compression supported.
 OpenVR event vr::VREvent_InputFocusCaptured
 OpenVR event vr::VREvent_InputFocusReleased
@@ -3079,6 +3081,7 @@ nvidia_multigpu
 o ATSH
 oIcD$
 oculus
+oculus_rifts_controller_
 oculus_touch
 optionallycompressedtangentframe
 origin_max_delta
@@ -3284,7 +3287,7 @@ trunc@@GLIBC_2.2.5
 trw8<
 turn_rate
 u<Ic\$
-uAL;%b
+uAL;%
 uKH9G8L
 uN[A\]
 u`H9u

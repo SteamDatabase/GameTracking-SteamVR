@@ -3710,8 +3710,6 @@ AvatarCustomizationItem #SliderThumb
 	visibility: collapse;
 }
 
-//lawrence to do - make knuckles controller images once closer to ev 2.0
-
 .ViveController .ScreenshotViveImage,
 .ViveController .ScreenshotViveLabel,
 .KnucklesController .ScreenshotViveImage,
@@ -3725,7 +3723,9 @@ AvatarCustomizationItem #SliderThumb
 .WinMRControllerSamsung .ScreenshotWinMRImage,
 .WinMRControllerSamsung .ScreenshotWinMRLabel,
 .TouchController .ScreenshotTouchImage,
-.TouchController .ScreenshotTouchLabel
+.TouchController .ScreenshotTouchLabel,
+.RiftSController .ScreenshotTouchImage,
+.RiftSController .ScreenshotTouchLabel
 {
 	visibility: visible;
 }
@@ -5659,6 +5659,11 @@ AvatarCustomizationItem #SliderThumb
 }
 .TouchController .item_def_touch_controllers,
 .TouchController .item_def_full_hands
+{
+	visibility: visible;
+}
+.RiftSController .item_def_rift_s_controllers,
+.RiftSController .item_def_full_hands
 {
 	visibility: visible;
 }

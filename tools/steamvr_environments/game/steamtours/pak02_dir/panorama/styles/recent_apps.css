@@ -349,6 +349,7 @@ SteamToursRecentApps
 .MotionController,
 .Controller,
 .TouchImage,
+.RiftSImage,
 .WinMRImage,
 .KnucklesImage
 {
@@ -370,6 +371,8 @@ SteamToursRecentApps
 .GamepadController .PressYButton,
 .TouchController .TouchImage,
 .TouchController .PressBOrYButton,
+.RiftSController .RiftSImage,
+.RiftSController .PressBOrYButton,
 .WinMRController .WinMRImage,
 .WinMRControllerSamsung .WinMRImage,
 .KnucklesController .KnucklesImage,
@@ -383,6 +386,8 @@ SteamToursRecentApps
 .GamepadController .PressMenuButton,
 .TouchController .MotionController,
 .TouchController .PressMenuButton,
+.RiftSController .MotionController,
+.RiftSController .PressMenuButton,
 .KnucklesController .MotionController,
 .KnucklesController .PressMenuButton
 {
@@ -408,6 +413,12 @@ SteamToursRecentApps
 }
 
 .TouchController .GlowAnim
+{
+	margin-bottom: 270px;
+	margin-right: 310px;
+}
+
+.RiftSController .GlowAnim
 {
 	margin-bottom: 270px;
 	margin-right: 310px;

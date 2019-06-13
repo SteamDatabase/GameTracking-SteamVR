@@ -71,6 +71,7 @@ DestinationsWelcomePanel {
 .MotionController,
 .Controller,
 .TouchImage,
+.RiftSImage,
 .KnucklesImage
 {
 	visibility: collapse;
@@ -87,6 +88,8 @@ DestinationsWelcomePanel {
 .GamepadController .PressYButton,
 .TouchController .TouchImage,
 .TouchController .PressBOrYButton,
+.RiftSController .RiftSImage,
+.RiftSController .PressBOrYButton,
 .KnucklesController .KnucklesImage,
 .KnucklesController .PressBButton
 {
@@ -98,6 +101,8 @@ DestinationsWelcomePanel {
 .GamepadController .PressMenuButton,
 .TouchController .MotionController,
 .TouchController .PressMenuButton,
+.RiftSController .MotionController,
+.RiftSController .PressMenuButton,
 .KnucklesController .MotionController,
 .KnucklesController .PressMenuButton
 {
@@ -172,6 +177,7 @@ DestinationsWelcomePanel {
 // if it's a gamepad or a touch, show the relevant bits
 .GamepadController .UpdateDescController,
 .TouchController .UpdateDescTouch,
+.RiftSController .UpdateDescTouch,
 .KnucklesController .UpdateDescKnuckles
 {
 	visibility: visible;	
@@ -180,6 +186,7 @@ DestinationsWelcomePanel {
 // if it's a gamepad or a touch, hide the irrelevant bits
 .GamepadController .UpdateDesc,
 .TouchController .UpdateDesc,
+.RiftSController .UpdateDesc,
 .KnucklesController .UpdateDesc
 {
 	visibility: collapse;	

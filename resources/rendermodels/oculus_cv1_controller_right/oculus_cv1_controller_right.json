@@ -22,7 +22,7 @@
             "motion":{
                 "type":"joystick",
                 "controller_axis": 0,
-		"joystick_path" : "/input/joystick",
+                "component_path" : "/input/joystick",
                 "center": [0.00149, -0.01393, 0.05283],
                 "rotate_xyz": [0.0,0.0,0.0],
                 "joystick_rotation_x": [18,-18],

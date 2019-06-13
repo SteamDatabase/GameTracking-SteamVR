@@ -443,6 +443,13 @@
 			preview_image = "file://{images}/contentdb/oculus_cv1_controller.png"
 		},
 		{
+			id = "rift_s_controllers"
+			name = "#VR_Avatar_Rift_S"
+			desc = "#VR_Avatar_Rift_S_Desc"
+			content = "models/controllers/oculus_rifts_controller_left.vmdl"
+			preview_image = "file://{images}/contentdb/oculus_rifts_controller.png"
+		},
+		{
 			id = "knuckles_ev1_3_controllers"
 			name = "#VR_Avatar_Knuckles"
 			desc = "#VR_Avatar_Knuckles_Desc"

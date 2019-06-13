@@ -1426,13 +1426,13 @@ $zBu@
 (%.1f, %.1f, %.1f) -- Node ID: %d; WC id %d; type %d
 (%0.2f) %s
 (%0.2f): %s
-(%TwC
 (%d %d %d %d)
 (%d) %s
 (%d) ------> %s ( HELD BY %s ) 
 (%d) Name: %s (%s)
 (%d)%s (%iH)
 (%d), (%d)
+(%dwC
 (%f, %f, %f)
 (%g %g %g %g)
 (%g %g %g)
@@ -1441,10 +1441,9 @@ $zBu@
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(-DGU
+(-TGU
 (0x%08X)'??'
-(5KD/
-(5hZi
+(5[D/
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (D$ A
@@ -1752,11 +1751,11 @@ $zBu@
 -vscriptdebug
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.% ),
-.%]k2
-.%ol2
-.-Vy,
-.-iaX
+.%0),
+.%mk2
+.-"~d
+.-fy,
+.-yaX
 ...%s
 ...<truncated>...
 ...done building AI node graph, %f seconds
@@ -1789,12 +1788,9 @@ $zBu@
 ../public/tier1/utlrbtree.h
 ../public/tier2/fieldpath.h
 ..\content
-.5%so
-.5^z,
-.5e)f
-.5w_/
+.5nz,
 .8z%u#
-.=+x,
+.=;x,
 .>()09
 .@(vi
 .@,wwH
@@ -9746,12 +9742,10 @@ D9#~wJ
 D9%AA
 D9%Np
 D9%Zo
-D9%cy
 D9*~{I
-D9-.z
 D95%e
 D9;t3I
-D9=uY
+D9=%Y
 D9D$4B
 D9D$4H
 D9HxtmI
@@ -9772,12 +9766,10 @@ D; t)I
 D; tMH
 D; }VH
 D;!ttHc
-D;%;(
-D;%;g
 D;%>D
-D;%I}
+D;%Bf
 D;%[0
-D;%nk
+D;%k(
 D;'tXH
 D;)ts
 D;-!e
@@ -11671,9 +11663,11 @@ H;5|/
 H;7t-1
 H;8tmH
 H;9u#
-H;= %
-H;= 5
+H;= (
+H;= 0
 H;= r
+H;= t
+H;= w
 H;=" 
 H;=")
 H;="V
@@ -11693,13 +11687,10 @@ H;=*k
 H;=++
 H;=+/
 H;=,M
-H;=/.
-H;=/C
+H;=/6
 H;=/[
-H;=0)
-H;=0.
-H;=0=
-H;=0>
+H;=01
+H;=06
 H;=0U
 H;=0{
 H;=1.
@@ -11707,10 +11698,12 @@ H;=3N
 H;=70
 H;=8]
 H;=:Y
-H;=?/
-H;=?7
-H;=@*
-H;=@2
+H;=?$
+H;=?*
+H;=?>
+H;=??
+H;=@$
+H;=@:
 H;=@>
 H;=B!
 H;=B*
@@ -11724,12 +11717,16 @@ H;=JQ
 H;=JZ
 H;=Jc
 H;=Jl
+H;=O+
+H;=O,
 H;=O-
-H;=O8
+H;=O3
 H;=OM
 H;=Ou
 H;=P'
-H;=P3
+H;=P-
+H;=P.
+H;=PC
 H;=PG
 H;=Pl
 H;=Pp
@@ -11739,18 +11736,16 @@ H;=W&
 H;=W:
 H;=Xj
 H;=^w
-H;=_,
 H;=_-
+H;=_4
 H;=_6
-H;=_A
-H;=_t
 H;=_~
-H;=`'
-H;=`<
-H;=`n
+H;=`/
+H;=`7
 H;=`y
 H;=aN
 H;=b"
+H;=bU
 H;=bX
 H;=ba
 H;=bj
@@ -11758,29 +11753,29 @@ H;=e$
 H;=fP
 H;=hi
 H;=im
+H;=is
 H;=j%
+H;=jE
 H;=jR
 H;=j[
 H;=jd
-H;=l?
 H;=lU
-H;=o-
-H;=o5
-H;=o8
+H;=o(
+H;=o=
 H;=o^
 H;=od
-H;=p(
-H;=p0
+H;=oo
+H;=p8
 H;=pX
 H;=p^
-H;=pt
-H;=pw
 H;=q;
 H;=qQ
 H;=s 
 H;=w-
+H;=x	
 H;=x0
 H;=xh
+H;=yv
 H;=|`
 H;B@t
 H;CHt
@@ -13255,10 +13250,9 @@ Lc!D;a
 Lc#D;c
 Lc#E9
 Lc#fA
-Lc%2g
 Lc%5D
+Lc%9f
 Lc%R0
-Lc%ek
 Lc&D;f
 Lc'D;g
 Lc'E)
@@ -13266,7 +13260,6 @@ Lc(D;h
 Lc)D;i
 Lc+D;k
 Lc-	7
-Lc-3o
 Lc.D;n
 Lc/D;o
 Lc/E)
@@ -17615,6 +17608,8 @@ VRStartup
 VRVScriptGameSystem
 VR_001
 VR_CONTROLLER_TYPE_GENERIC_TRACKED
+VR_CONTROLLER_TYPE_KNUCKLES
+VR_CONTROLLER_TYPE_RIFT_S
 VR_CONTROLLER_TYPE_TOUCH
 VR_CONTROLLER_TYPE_UNKNOWN
 VR_CONTROLLER_TYPE_VIVE
@@ -17822,7 +17817,6 @@ W u)H
 W(8QpH
 W(A\]H
 W(H;2t'H
-W-~=2
 W0A;_H
 W3|Uxa
 W8;2|
@@ -17984,8 +17978,9 @@ WriteToBuffer Message %s is not initialized! Probably missing required fields!
 Writes the selected set to disk for merging into another mesh via nav_merge_mesh.
 Wrong alignment %d
 WxH;2t*H
-X-,S/
+X-<S/
 X4[A\]
+X5$W/
 X=2v?
 XA;^@|
 XAxis
@@ -18030,9 +18025,9 @@ XboxSystemInterface001
 Xh#x\
 X|~YA
 X|~lA
-Y%/?1
-Y%o?1
-Y-}>1
+Y%-HV
+Y%:"d
+Y%??1
 Y?[A\]
 Y@phonemes
 YAxis
@@ -18149,9 +18144,8 @@ Z}uU
 \$@fA
 \$h[A\]
 \%03o
-\5LS/
+\5\S/
 \8r|Xg!'
-\=}X/
 \C not allowed in lookbehind assertion
 \CXfA
 \D$$H
@@ -21468,6 +21462,7 @@ fD9#t7
 fD9cV
 fD;!t
 fD;"t
+fD;%fm
 fD;+|
 fD;cnw
 fD;d0
@@ -30137,6 +30132,7 @@ t$[A\]
 t$`[A\A]A^]
 t%D:%
 t%HcC0A
+t&;5O
 t&A;\$
 t&D;%
 t&L;%
@@ -31257,7 +31253,6 @@ wrong submessage type
 wx;rxu
 x	;F`
 x	D;%
-x";=/
 x#Mcn
 x$HcSh;Sx
 x&IcT$ A;T$0
@@ -31272,8 +31267,8 @@ x7Hcw
 x8"tq
 x8Mcl$ E;l$0
 x8mUM
-x:;=\
 x:Hcw
+x;;=\
 x@HcO
 xBHcO
 xED;c }?E

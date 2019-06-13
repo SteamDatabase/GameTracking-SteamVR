@@ -808,7 +808,8 @@
 
 "FirmwareWizard_UpdateBasestationWireless_Fail_Title" " Base Station Update Failed"
 "FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "This device update failed."
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "If this device update continues to fail, quit SteamVR, then unplug an then replug any link box and base station power cables. Then launch SteamVR, and try again."
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "If this device update continues to fail, quit SteamVR, then unplug and replug the link box and base station power cables. Then launch SteamVR, and try again."
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "If this device update continues to fail, quit SteamVR, then unplug and replug the base station power cable. Then launch SteamVR, and try again."
 "FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "This Base Station needs to be rediscovered optically by a restart of SteamVR before the update can proceed."
 "FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "This Base Station needs to be power cycled and rediscovered optically by a restart of SteamVR before the update can proceed. Please unplug and then replug the Base Station's power cable."
 "FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "This Base Station has a newer version of the update and has rejected it."
@@ -822,7 +823,8 @@
 
 "FirmwareWizard_UpdateBasestationWireless_Success_Title" "Update Base Station"
 "FirmwareWizard_UpdateBasestationWireless_Success_UpperText" "Success!"
-"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText" "Base Station successfully updated. You may need to unplug and then replug your base station's power cable for it to register as updated."
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS10" "Base Station successfully updated. You may need to unplug and then replug your base station's power cable for it to register as updated."
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS20" "Base Station successfully updated."
 "FirmwareWizard_UpdateBasestationWireless_Success_LowerText" ""
 
 "FirmwareWizard_Information_Title" "Device Update"
@@ -1160,11 +1162,14 @@
 "BS20_ConfigureChannel_ProgressConnecting"					"\nConnecting To Base Stations...\n"
 "BS20_ConfigureChannel_ProgressWritingChannel"				"\nWriting Channel...\n"
 "BS20_ConfigureChannel_ProgressCancelling"					"\nCancelling...\n"
-"BS20_ConfigureChannel_VisibleNowInTracking"				"Visible now in this tracking session"
-"BS20_ConfigureChannel_ObservedInTracking"					"Observed in a prior tracking session"
-"BS20_ConfigureChannel_Identify"							"Click to identify Base Station"
+"BS20_ConfigureChannel_VisibleNowInTracking"				"Visible now in this tracking session."
+"BS20_ConfigureChannel_ObservedInTracking"					"Observed in a prior tracking session."
+"BS20_ConfigureChannel_Identify"							"Click to identify Base Station."
 "BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"		"%1 requires a device update to enable device identification."
 "BS20_ConfigureChannel_RSSI"								"RSSI: %1"
+"BS20_ConfigureChannel_ConflictLegend"						"Channel conflict with another Base Station."
+"BS20_ConfigureChannel_ErrorLegend"							"Click on channel link for more information."
+"BS20_ConfigureChannel_CancelledConnection"					"%1 connection cancelled. Click channel link to try again."
 
 "BS_PowerManagement_Title"									"Base Station Power Management"
 "BS_PowerManagement_Enable"									"Enable Power Management *"

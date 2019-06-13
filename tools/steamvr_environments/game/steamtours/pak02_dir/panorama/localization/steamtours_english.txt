@@ -570,10 +570,12 @@
 		
 		
 		// avatars hands
-		"VR_Avatar_Hand_Default"		"Vive controllers"
+		"VR_Avatar_Hand_Default"		"Vive Controllers"
 		"VR_Avatar_Hand_Default_Desc"	"The standard controllers included with the Vive."
-		"VR_Avatar_Touch"				"Touch controllers"
+		"VR_Avatar_Touch"				"Touch Controllers"
 		"VR_Avatar_Touch_Desc"			"Touch controllers for the Oculus Rift."
+		"VR_Avatar_Rift_S"				"Rift S Controllers"
+		"VR_Avatar_Rift_S_Desc"			"Touch controllers for the Oculus Rift S."
 		"VR_Avatar_Hands_Mittens"		"Mittens"
 		"VR_Avatar_Hands_Mittens_Desc"	"Hands in mittens. Super cozy."
 		"VR_Avatar_Hands_Fingers"		"Hands"
@@ -581,11 +583,11 @@
 		"VR_Avatar_Hands_Full"			"Five Fingered Hands"
 		"VR_Avatar_Hands_Full_Desc"		"Fully animated five fingered hand."
 		"VR_Avatar_Knuckles"			"Valve Index Controllers"
-		"VR_Avatar_Knuckles_Desc"		"Valve Index Controllers."
+		"VR_Avatar_Knuckles_Desc"		"Valve Index controllers."
 		"VR_Avatar_WindowsMR_Controllers"			"Windows MR Controllers"
 		"VR_Avatar_WindowsMR_Controllers_Desc"		"Windows MR controllers"
 		"VR_Avatar_Generic_Tracked"			"Generic Tracked Controllers"
-		"VR_Avatar_Generic_Tracked_Desc"		"Generic tracked controllers"
+		"VR_Avatar_Generic_Tracked_Desc"	"Generic tracked controllers"
 
 		// avatar wearables
 		"VR_Avatar_Wearable_BasicSphere001"		"Simple Sphere"

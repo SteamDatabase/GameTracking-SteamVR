@@ -1439,7 +1439,6 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
 (%0.2f): %s
-(%GMj
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1455,6 +1454,7 @@ $z1u/A
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (8HXhx
+(=[sN
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (AVAUH
@@ -1902,10 +1902,11 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%!>Q
+.%A>Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
-.-O8s
+.-fsN
+.-o8s
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1938,9 +1939,10 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.5lrN
-.5pe}
-.=VrN
+.5&i#
+.5,sN
+.5OqM
+.=$nQ
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -10101,8 +10103,6 @@ D70A9
 D8cUt
 D9#~wJ
 D9;t3I
-D9=BU
-D9=IR
 D9D$4B
 D9D$4H
 D9G8u
@@ -10131,20 +10131,17 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
-D;%%T
-D;%9e
-D;%O|
+D;%S{
 D;'tXH
 D;)ts
 D;+}(L
-D;-~D
 D;.tLH
 D;0uOE
 D;3t 
 D;3}5
+D;5aX
 D;8tQH
 D;9tlA
-D;=OW
 D;C }JMc
 D;F`u
 D;G I
@@ -12167,30 +12164,25 @@ H;:u'
 H;= k
 H;= m
 H;= r
-H;=!K
-H;="=
-H;="d
+H;=!9
+H;=!G
+H;="3
 H;=#2
 H;=$_
-H;='"
-H;=')
+H;='!
 H;='-
-H;='.
-H;='3
-H;='K
-H;='M
-H;='n
-H;='v
+H;='@
+H;='E
+H;='[
+H;='~
 H;=((
-H;=(-
-H;=(B
-H;=(F
+H;=(@
 H;=(H
-H;=(L
-H;=(i
-H;=(q
+H;=(s
+H;=(y
+H;=)M
 H;=*1
-H;=*:
+H;=++
 H;=+C
 H;=+R
 H;=+a
@@ -12198,120 +12190,125 @@ H;=+f
 H;=+p
 H;=/4
 H;=/\
-H;=0K
+H;=/e
 H;=0l
 H;=0o
+H;=1I
 H;=1|
+H;=2`
 H;=37
-H;=4p
-H;=62
-H;=77
-H;=7<
-H;=7s
-H;=7w
-H;=8&
-H;=82
-H;=86
-H;=8=
-H;=8D
-H;=8O
-H;=8Q
+H;=71
+H;=7N
+H;=7d
+H;=7j
+H;=7p
+H;=8,
+H;=8C
+H;=8I
+H;=8J
+H;=8N
+H;=8P
+H;=8e
 H;=8f
-H;=8l
-H;=8n
-H;=8r
-H;=8z
-H;=:6
+H;=8y
+H;=:1
 H;=:=
+H;=:D
 H;=:X
-H;=:b
 H;=;[
 H;=>O
 H;=?e
 H;=?f
 H;=@k
 H;=@x
-H;=AD
-H;=B!
-H;=B"
-H;=Be
-H;=Fg
-H;=G&
-H;=G@
-H;=G`
+H;=AK
+H;=B4
+H;=Fpk
+H;=G%
+H;=G:
 H;=Gb
+H;=Gm
+H;=Gs
+H;=Gy
 H;=H 
-H;=H;
-H;=H?
-H;=HE
-H;=HZ
-H;=H{
+H;=H'
+H;=H1
+H;=H5
+H;=HK
+H;=Hn
+H;=Ht
 H;=IX
 H;=I~
 H;=J2
 H;=Kw
+H;=M<
+H;=NA
 H;=O'
 H;=Og
 H;=Pj
 H;=Pw
-H;=Q8
-H;=QF
+H;=QK
+H;=Ra
 H;=S8
-H;=W'
+H;=W 
 H;=W+
-H;=WH
-H;=WI
-H;=Wl
-H;=Wt
-H;=XD
-H;=XG
-H;=Xc
-H;=Xg
-H;=Xo
-H;=X~
+H;=WC
+H;=W|
+H;=X$
+H;=X:
+H;=X>
+H;=XC
+H;=XY
+H;=Xq
+H;=Xw
+H;=X}
+H;=Yzk
+H;=Z2
 H;=Z7
+H;=Z8
 H;=Z\
-H;=Zc
 H;=_h
 H;=`f
 H;=`i
 H;=`v
-H;=aH
-H;=b1
-H;=bD
+H;=aD
+H;=b5
 H;=c|
-H;=g5
-H;=gq
-H;=gu
-H;=g}
-H;=h$
-H;=h0
-H;=hI
-H;=hM
-H;=hl
-H;=hp
-H;=hx
+H;=g	
+H;=g/
+H;=gL
+H;=gh
+H;=gn
+H;=hE
+H;=hG
+H;=h^
 H;=jJ
 H;=je
+H;=n}
 H;=o:
 H;=oY
 H;=ph
 H;=pu
-H;=qJ
+H;=qF
 H;=qk
+H;=rb
 H;=s9
-H;=w%
-H;=w>
-H;=wv
-H;=w~
-H;=x9
-H;=xK
-H;=xy
+H;=w#
+H;=w8
+H;=wM
+H;=wk
+H;=wq
+H;=ww
+H;=x%
+H;=x3
+H;=xF
+H;=xG
+H;=xl
+H;=xr
 H;=y^
+H;=z3
 H;=z8
-H;=zd
 H;={A
-H;={yk
 H;=|#
 H;B@t
 H;C(t
@@ -12454,7 +12451,7 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5' 
+Hc50'
 Hc7;w
 Hc@$H
 Hc@(E1
@@ -13355,6 +13352,7 @@ L$hD)
 L$hHc
 L$p H
 L$xE1
+L9%IM
 L9(A	
 L9,$Mc
 L90t'D
@@ -13372,6 +13370,7 @@ L: %.2f deg
 L;!t!f.
 L;"tJA
 L;%Oj
+L;-,l
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13534,14 +13533,14 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
-Lc%F|
-Lc%z{
+Lc%J{
+Lc%|V
 Lc'D)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-uD
+Lc-I%
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -15832,6 +15831,7 @@ RichText.SelectedTextColor
 RichText.TextColor
 RifleShellEject
 RifleShellEject_global_client
+RiftSController
 RightArrow
 RightArrowVisible
 RightFoot
@@ -18269,10 +18269,11 @@ Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
 X LcU
 X [A\]
-X%7dd
+X%Wdd
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-Tdd
-X-eHR
+X-%IR
+X-<fd
+X-tdd
 X0~wA
 X2?-,}J
 X360_DST16
@@ -18306,11 +18307,9 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
-Y%7Rm
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-O+)
-Y-P(	
-Y5N+)
+Y- )	
+Y5&LV
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18459,8 +18458,9 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\%}TR
-\-=cQ
+\%=UR
+\-]cQ
+\5ZPR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -18494,7 +18494,7 @@ Z}uU
 ]pt4H
 ]u9n5;> )"
 ]z6v<
-^%2&K
+^%R&K
 ^-wf"
 ^?O<g
 ^Cp\&
@@ -27205,6 +27205,8 @@ models/controller/knuckles_ev_1_3/knuckles_left_ev_1_3.vmdl
 models/controller/knuckles_ev_1_3/knuckles_right_ev_1_3.vmdl
 models/controllers/oculus_cv1_controller_left.vmdl
 models/controllers/oculus_cv1_controller_right.vmdl
+models/controllers/oculus_rifts_controller_left.vmdl
+models/controllers/oculus_rifts_controller_right.vmdl
 models/controllers/valve_controller_knu_1_0_left.vmdl
 models/controllers/valve_controller_knu_1_0_right.vmdl
 models/controllers/valve_controller_knu_ev2_0_left.vmdl
@@ -28499,6 +28501,8 @@ reversed
 rfoot
 rgb to gray green coefficient
 rgb to gray red coefficient
+rift_s
+rift_s_controllers
 right
 right hand
 right-wrap
@@ -29554,12 +29558,12 @@ t$pH;5!,
 t$pvufA
 t$xH;5
 t%;2t%H
-t%D:%
+t%D:%tw
 t%HcC0A
 t%HcSx
 t%L;}
 t&A;\$
-t&D;%e
+t&D;%
 t&L;%
 t&L;%`
 t&Lcc
@@ -29572,7 +29576,7 @@ t(Lc#D;c
 t(Mce
 t([A\A]A^]
 t)@:5
-t)D:%
+t)D:%hv
 t)HcE
 t)Mc<$E;|$
 t)[A\]
@@ -30960,7 +30964,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=nA
+x8H;=
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31123,9 +31127,8 @@ zzYQ,
 z|uzf
 z~u|A
 { H;=
-{ H;=	
-{ H;=N
-{ H;=[
+{ H;=+
+{ H;=^
 { H;}
 { [A\A]A^H
 { [A\A]]H
@@ -31147,8 +31150,7 @@ z~u|A
 {8[A\H
 {8t;[A\]
 {@H;=
-{@H;=1
-{HH;=
+{HH;=`
 {HH;{`I
 {PH;=
 {S6wD

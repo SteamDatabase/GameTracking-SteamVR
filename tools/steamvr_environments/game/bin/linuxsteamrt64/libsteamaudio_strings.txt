@@ -999,7 +999,6 @@ attachment
 attachment_offset
 auto_unragdoll_duration
 bUpdate
-bh 5sd
 binary
 binary_auto
 binary_bc
