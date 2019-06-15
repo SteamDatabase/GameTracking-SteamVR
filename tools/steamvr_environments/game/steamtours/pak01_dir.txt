@@ -2052,12 +2052,12 @@ models/controllers/oculus_cv1_controller_left.vphys_c CRC:00ac773c45 size:21200
 models/controllers/oculus_cv1_controller_right.vmdl_c CRC:00cf3fd5c1 size:4044
 models/controllers/oculus_cv1_controller_right.vmesh_c CRC:0079693c63 size:530993
 models/controllers/oculus_cv1_controller_right.vphys_c CRC:001ce31a28 size:21200
-models/controllers/oculus_rifts_controller_left.vmdl_c CRC:00e00db0c2 size:4188
+models/controllers/oculus_rifts_controller_left.vmdl_c CRC:0035aeb234 size:4188
 models/controllers/oculus_rifts_controller_left.vphys_c CRC:003eacd9a6 size:23496
-models/controllers/oculus_rifts_controller_left_6719ba95.vmesh_c CRC:0006519e16 size:210760
-models/controllers/oculus_rifts_controller_right.vmdl_c CRC:00ebf6d5a1 size:4188
+models/controllers/oculus_rifts_controller_left_6719ba95.vmesh_c CRC:007ee7be6c size:210776
+models/controllers/oculus_rifts_controller_right.vmdl_c CRC:0066cec3a9 size:4188
 models/controllers/oculus_rifts_controller_right.vphys_c CRC:00168be163 size:23600
-models/controllers/oculus_rifts_controller_right_33f2469f.vmesh_c CRC:00b75c331d size:217864
+models/controllers/oculus_rifts_controller_right_33f2469f.vmesh_c CRC:008d73bfb0 size:217880
 models/controllers/valve_controller_knu_1_0_left.vmdl_c CRC:00db07066a size:4140
 models/controllers/valve_controller_knu_1_0_left.vphys_c CRC:00a1002ef9 size:24360
 models/controllers/valve_controller_knu_1_0_left_9d51e85c.vmesh_c CRC:00566dbbee size:403492

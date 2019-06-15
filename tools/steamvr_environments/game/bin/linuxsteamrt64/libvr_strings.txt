@@ -183,7 +183,6 @@ $t)E1
 ../public/tier1/utlfixedmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
-.5rV,
 .M;UU
 .comment
 .data
@@ -324,6 +323,7 @@ $t)E1
 8[A\A]]
 8[]A\A]A^A_
 9.1.15
+9=X%*
 9ISequence
 9f98u
 :@8>@
@@ -345,6 +345,7 @@ $t)E1
 </data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding.cpp
 </t3<_t/
 <9f9|
+<ERROR>
 <INVALID EXPRESSION>
 <INVALID_RBF_TYPE>
 <NO EXPRESSION>
@@ -975,7 +976,6 @@ H9H t
 H9H t)A
 H9l$(u
 H;*twH
-H;=@	+
 H;I u
 H;J0H
 H;q0H
@@ -992,7 +992,7 @@ H[A\L)
 H[]A\A]A^A_
 HammerMapLoader001
 Has Collision; 
-Hc5W\,
+Hc57Y,
 HcCh;Cx
 HcD$pH
 HcGpUH
@@ -1140,10 +1140,9 @@ LZ4_versionNumber
 LZ4_versionString
 Launching %s
 Lc)D;i
-Lc-+\,
 Lc/E)
 Lc3D;s
-Lc=JX,
+Lc=1W,
 LcghD;gx
 Lcs8D;sHD
 Length; 
@@ -2627,6 +2626,7 @@ game_keys
 gamepad
 generic
 generic tracked controller
+generic_tracked
 generichash.cpp
 getenv
 getenv@@GLIBC_2.2.5
@@ -3294,6 +3294,7 @@ u`H9u
 ugH9}
 uiTransparentPixels < PIXELS
 unable to load mesh "%s"
+unknown
 unsigned int Etc::Image::IterateThroughWorstBlocks(unsigned int, unsigned int, unsigned int)
 unspecified
 useMotionDamping
@@ -3531,6 +3532,7 @@ zutil.c
 |$(Hc
 |$0E;|$@
 |$0fE
+|4caJ
 |=H;I 
 }b16IDebugVisualizer
 }cHcU

@@ -1454,7 +1454,6 @@ $z1u/A
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (8HXhx
-(=[sN
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (AVAUH
@@ -1902,11 +1901,9 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%A>Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
-.-fsN
-.-o8s
+.-&vN
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1940,9 +1937,7 @@ $z1u/A
 ./zvutH
 .3333
 .5&i#
-.5,sN
-.5OqM
-.=$nQ
+.=doQ
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -4957,7 +4952,7 @@ $z1u/A
 ;G tu+G$L
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;GPttK
-;Hc5)
+;Hc59
 ;I9<$uY
 ;L$D|*
 ;P0}K
@@ -10131,7 +10126,9 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
-D;%S{
+D;%UU
+D;%dw
+D;%if
 D;'tXH
 D;)ts
 D;+}(L
@@ -10139,7 +10136,7 @@ D;.tLH
 D;0uOE
 D;3t 
 D;3}5
-D;5aX
+D;5!Z
 D;8tQH
 D;9tlA
 D;C }JMc
@@ -10437,6 +10434,7 @@ DisconnectRedirectedOutput
 DisconnectTime
 Disconnecting for the purpose of editing %s
 DismissAllContextMenus
+DismissHandLabCallout
 DispatchActivate
 DispatchEffect: effect "%s" not found on client
 DispatchInput
@@ -12128,188 +12126,160 @@ H;0t*A
 H;0t+A
 H;0t0H
 H;0t\H
-H;5 f
-H;5 m
-H;5!8
-H;5)G
-H;5)H
-H;50/
-H;519
-H;51o
-H;59L
-H;59x
-H;5A/
-H;5AD
-H;5AU
-H;5D6
-H;5G^
-H;5Pd
-H;5Q&
-H;5Tn
-H;5Tp
-H;5Ty
-H;5YV
-H;5Y\
-H;5Y^
-H;5Yb
-H;5Yl
-H;5as
-H;5pg
-H;5q8
-H;5|K
+H;5	R
+H;5$;
+H;5$Y
+H;5,d
+H;50v
+H;50}
+H;51H
+H;59W
+H;59X
+H;5@?
+H;5AI
+H;5I\
+H;5Q?
+H;5QT
+H;5Qe
+H;5TF
+H;5Wn
+H;5`t
+H;5a6
+H;5d~
+H;5if
+H;5il
+H;5in
+H;5ir
+H;5i|
 H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;= k
-H;= m
-H;= r
-H;=!9
-H;=!G
-H;="3
-H;=#2
-H;=$_
-H;='!
-H;='-
-H;='@
-H;='E
-H;='[
-H;='~
-H;=((
-H;=(@
-H;=(H
-H;=(s
-H;=(y
-H;=)M
-H;=*1
-H;=++
-H;=+C
-H;=+R
-H;=+a
-H;=+f
-H;=+p
-H;=/4
-H;=/\
-H;=/e
-H;=0l
-H;=0o
-H;=1I
-H;=1|
-H;=2`
-H;=37
-H;=71
-H;=7N
-H;=7d
-H;=7j
-H;=7p
-H;=8,
-H;=8C
-H;=8I
-H;=8J
-H;=8N
-H;=8P
-H;=8e
-H;=8f
-H;=8y
-H;=:1
-H;=:=
-H;=:D
-H;=:X
-H;=;[
-H;=>O
-H;=?e
-H;=?f
-H;=@k
-H;=@x
-H;=AK
-H;=B4
-H;=Fpk
-H;=G%
-H;=G:
-H;=Gb
-H;=Gm
-H;=Gs
-H;=Gy
-H;=H 
-H;=H'
-H;=H1
-H;=H5
-H;=HK
-H;=Hn
-H;=Ht
-H;=IX
-H;=I~
-H;=J2
-H;=Kw
-H;=M<
-H;=NA
-H;=O'
-H;=Og
-H;=Pj
-H;=Pw
-H;=QK
-H;=Ra
-H;=S8
-H;=W 
-H;=W+
-H;=WC
-H;=W|
-H;=X$
-H;=X:
-H;=X>
-H;=XC
-H;=XY
-H;=Xq
-H;=Xw
-H;=X}
-H;=Yzk
-H;=Z2
-H;=Z7
-H;=Z8
-H;=Z\
-H;=_h
-H;=`f
-H;=`i
-H;=`v
-H;=aD
-H;=b5
-H;=c|
-H;=g	
-H;=g/
-H;=gL
-H;=gh
-H;=gn
+H;=	P
+H;=	o
+H;= |
+H;= ~
+H;=!J
+H;="7
+H;=#M
+H;=%r
+H;='(
+H;='C
+H;='p
+H;='|
+H;=(#
+H;=(*
+H;=(4
+H;=(>
+H;=(K
+H;=(N
+H;=(k
+H;=(w
+H;=*L
+H;=*b
+H;=/K
+H;=/z
+H;=0M
+H;=0{
+H;=0}
+H;=1	
+H;=1!
+H;=1L
+H;=1N
+H;=2>
+H;=2e
+H;=3B
+H;=4o
+H;=7#
+H;=7/
+H;=7L
+H;=7y
+H;=8=
+H;=8G
+H;=8M
+H;=8t
+H;=:5
+H;=:;
+H;=:A
+H;=;S
+H;=;b
+H;=;q
+H;=;v
+H;=?D
+H;=?l
+H;=@|
+H;=B$
+H;=B8
+H;=CG
+H;=G8
+H;=Gq
+H;=H3
+H;=HP
+H;=Ha
+H;=Hv
+H;=H}
+H;=JM
+H;=Jc
+H;=Jh
+H;=Kk
+H;=N_
+H;=Ou
+H;=Ov
+H;=P{
+H;=QE
+H;=Rf
+H;=Vh
+H;=W&
+H;=W'
+H;=WA
+H;=WP
+H;=Wn
+H;=Wr
+H;=Wz
+H;=X(
+H;=X;
+H;=X<
+H;=XF
+H;=XI
+H;=Xi
+H;=Xu
+H;=Yh
+H;=Z6
+H;=ZB
+H;=_7
+H;=_w
+H;=`z
+H;=aG
+H;=cH
+H;=gJ
+H;=gw
 H;=hE
-H;=hG
-H;=h^
-H;=jJ
-H;=je
-H;=n}
-H;=o:
-H;=oY
-H;=ph
-H;=pu
-H;=qF
-H;=qk
-H;=rb
-H;=s9
-H;=w#
-H;=w8
-H;=wM
-H;=wk
-H;=wq
-H;=ww
-H;=x%
-H;=x3
-H;=xF
-H;=xG
-H;=xl
-H;=xr
-H;=y^
-H;=z3
-H;=z8
-H;={A
-H;=|#
+H;=hH
+H;=hr
+H;=h~
+H;=j"
+H;=jG
+H;=jd
+H;=jl
+H;=ox
+H;=pv
+H;=py
+H;=qI
+H;=qT
+H;=w6
+H;=wG
+H;=wR
+H;=wT
+H;=w}
+H;=x&
+H;=x1
+H;=xJ
+H;=xN
+H;=xw
+H;=x{
+H;=z7
+H;=zZ
+H;=zu
 H;B@t
 H;C(t
 H;CPw<I
@@ -12451,7 +12421,6 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc50'
 Hc7;w
 Hc@$H
 Hc@(E1
@@ -13352,7 +13321,6 @@ L$hD)
 L$hHc
 L$p H
 L$xE1
-L9%IM
 L9(A	
 L9,$Mc
 L90t'D
@@ -13369,8 +13337,7 @@ L9|$HJ
 L: %.2f deg
 L;!t!f.
 L;"tJA
-L;%Oj
-L;-,l
+L;%_z
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13533,14 +13500,15 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
-Lc%J{
-Lc%|V
+Lc%LU
+Lc%\Y
+Lc%bw
 Lc'D)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-I%
+Lc-)(
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -15645,6 +15613,7 @@ RecentAppsItemImage
 RecentAppsPanel
 RecomputeSprings
 ReconnectGameInterface
+Record that the user has dismissed the hand lab modal.
 Recording duration: %f seconds
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
@@ -16552,6 +16521,8 @@ ShotgunShellEject
 ShotgunShellEject_global_client
 Should not reach here.
 Should the mover proxy be a capsule shape?
+Should we highlight Aperture Hand Lab?
+ShouldShowHandLabCallout
 Show IK trace related details
 Show activities in the (client) animation state display.
 Show all EmitSound calls including their symbolic name and the actual wave file they resolved to. (-1 = for nobody, 0 = for everybody, n = for one entity)
@@ -18269,16 +18240,15 @@ Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
 X LcU
 X [A\]
-X%Wdd
+X%/_l
 X(Optional) If true, only return the published file ids of files that satisfy this query.
-X-%IR
-X-<fd
-X-tdd
+X-|gd
 X0~wA
 X2?-,}J
 X360_DST16
 X360_DST24
 X360_DST24F
+X5,gd
 X=2v?
 XD$ A
 XD$ H
@@ -18307,9 +18277,11 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
+Y%G)	
+Y%l!o
+Y%t-)
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y- )	
-Y5&LV
+Y5fMV
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18458,9 +18430,8 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\%=UR
-\-]cQ
-\5ZPR
+\%L!o
+\=?SR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -18494,7 +18465,6 @@ Z}uU
 ]pt4H
 ]u9n5;> )"
 ]z6v<
-^%R&K
 ^-wf"
 ^?O<g
 ^Cp\&
@@ -22253,6 +22223,7 @@ destination_title
 destinations_base_game_mode
 destinations_debug_drawings
 destinations_disable_avatar_grab_at_speed
+destinations_dismissed_hand_lab
 destinations_generate_itemdefs
 destinations_hide_player_billboard
 destinations_hide_ugc_images
@@ -28594,30 +28565,27 @@ russian
 s A9L$$t
 s A9O
 s H;5
-s H;5	
-s H;5 T
-s H;5 W
-s H;5 d
-s H;595
-s H;5@q
-s H;5I
-s H;5Ip
+s H;5)
+s H;50d
+s H;50g
+s H;50t
+s H;5IE
+s H;5P
 s H;5Y
-s H;5d
 s H;5i
-s H;5yU
-s H;5yi
+s H;5t
+s H;5y
 s [A\A]A^]
 s off
 s(AUL
 s(E9&t-A
 s(H;5
-s(H;5$x
-s(H;5$z
-s(H;5@
-s(H;5IB
-s(H;5PT
-s(H;5m`
+s(H;5)
+s(H;54
+s(H;5P
+s(H;5YR
+s(H;5`d
+s(H;5}p
 s(t.H
 s(~?A
 s)~+@
@@ -28626,33 +28594,33 @@ s/Hc]
 s/glow.vH
 s/spriteH
 s0H;5
-s0H;50
-s0H;50T
-s0H;54*
-s0H;5Tx
-s0H;5yV
+s0H;5@
+s0H;5@d
+s0H;5D:
+s0H;5d
 s0t;H
 s1_mapname
 s2r://
 s69F~
 s7>Ip
 s8H;5
-s8H;5`
-s8H;5`T
+s8H;5 _
+s8H;5p
+s8H;5pd
 s@9C@
 s@H9sHv
 s@H;5
 s@HcR
 sAmTb
 sHH;5
-sHH;55
+sHH;5E
 sIf true, then files must have all the tags specified.  If false, then must have at least one of the tags specified.
 sMA9|$ 
-sPH;5 U
-sPH;5n
+sPH;50e
+sPH;5~
 sPLT chunk has bad length
 sPLT chunk requires too much memory
-sXH;5PU
+sXH;5`e
 sZtTH
 s_EntComponentInfo
 s_Ladders
@@ -29044,7 +29012,7 @@ source_entity_index
 source_file
 source_filename
 source_folder
-spH;5UV
+spH;5ef
 space
 space shuttle
 spaceagnosticboneaccessor.cpp
@@ -29479,15 +29447,15 @@ t";2}
 t"D9p
 t"HcS
 t"L;%
-t"L;% c
-t"L;% g
-t"L;%0
-t"L;%0(
-t"L;%1
-t"L;%@Y
-t"L;%``
-t"L;%p]
-t"L;%pb
+t"L;% 
+t"L;% q
+t"L;%0s
+t"L;%0w
+t"L;%@
+t"L;%@8
+t"L;%A
+t"L;%Pi
+t"L;%pp
 t#;:u
 t#IcD$
 t#[A\]
@@ -29497,7 +29465,9 @@ t$ 9K$t
 t$ E1
 t$ H9
 t$ H;5
-t$ H;5-
+t$ H;5!b
+t$ H;5->
+t$ H;5=
 t$ L)
 t$ L9
 t$ fA
@@ -29507,24 +29477,23 @@ t$$fH
 t$(A9
 t$(H9
 t$(H;5
-t$(H;5].
-t$(H;5e
+t$(H;5m>
+t$(H;5u
 t$(L)
 t$(L9
 t$(t-H
 t$0H9
 t$0H;5
-t$0H;5%;
-t$0H;5A
-t$0H;5u
-t$0H;5}
+t$0H;5*
+t$0H;55K
+t$0H;5Q
 t$0f.
 t$0u\H
 t$0~4L
 t$8E1
 t$8H;5
-t$8H;5M
-t$8H;5Z
+t$8H;5]
+t$8H;5j
 t$8L9
 t$<	t 
 t$<E1
@@ -29532,7 +29501,7 @@ t$@H;5
 t$@fA
 t$H;h
 t$HH;5
-t$HH;5Z
+t$HH;5j
 t$HcS
 t$HcS(
 t$HcS8
@@ -29551,24 +29520,26 @@ t$PH;5
 t$TLc
 t$XH;5
 t$`H;5
-t$`H;59
+t$`H;5I
 t$hH;5
 t$lfA
-t$pH;5!,
+t$pH;51<
 t$pvufA
 t$xH;5
 t%;2t%H
-t%D:%tw
+t%D:%Tz
 t%HcC0A
 t%HcSx
 t%L;}
 t&A;\$
 t&D;%
 t&L;%
-t&L;%`
+t&L;% 
+t&L;%p
 t&Lcc
 t&[A\]
 t'H;=
+t'H;=(|
 t'Ic]
 t(<)u
 t(HcM
@@ -29576,7 +29547,7 @@ t(Lc#D;c
 t(Mce
 t([A\A]A^]
 t)@:5
-t)D:%hv
+t)D:%Hy
 t)HcE
 t)Mc<$E;|$
 t)[A\]
@@ -30589,6 +30560,7 @@ vr_controller_trackpad_corner
 vr_controller_trackpad_pos
 vr_controller_use
 vr_controller_vive
+vr_controllers_connected
 vr_createhmdavatar
 vr_crush_value
 vr_debug_actions
@@ -30964,7 +30936,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=
+x8H;=~B
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31127,8 +31099,10 @@ zzYQ,
 z|uzf
 z~u|A
 { H;=
-{ H;=+
-{ H;=^
+{ H;=>
+{ H;=I
+{ H;=[
+{ H;=i
 { H;}
 { [A\A]A^H
 { [A\A]]H
@@ -31145,12 +31119,14 @@ z~u|A
 {([A\]
 {([A\]H
 {(fD9't)H
-{0H;=
+{0H;= D
+{0H;=r
 {0t!H
 {8[A\H
 {8t;[A\]
 {@H;=
-{HH;=`
+{@H;=h
+{HH;=@
 {HH;{`I
 {PH;=
 {S6wD
