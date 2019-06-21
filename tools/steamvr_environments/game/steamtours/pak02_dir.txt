@@ -442,7 +442,7 @@ scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70
 scripts/soundscapes_valve.txt CRC:009ab9b8d5 size:7415
-scripts/vscripts/tools/tagmarker.lua CRC:00261dfa11 size:13782
+scripts/vscripts/tools/tagmarker.lua CRC:00d6c2005f size:14008
 scripts/vscripts/vr_scriptsystem.lua CRC:00a2716bab size:11746
 soundevents/destinations_core.vsndevts_c CRC:00ba6de81c size:2806
 soundevents/destinations_home.vsndevts_c CRC:00ce0bf98a size:2041

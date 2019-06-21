@@ -345,6 +345,11 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Visit oculus.com"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
 
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR Error"
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "There is a problem with the Oculus runtime installation. Please reboot and verify the Oculus software is installed and updated."
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "Visit oculus.com"
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
+
 "VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB Error"
 "VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Please check your headset's USB connection and try again."
 "VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "More info"

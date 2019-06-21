@@ -3685,14 +3685,14 @@ scripts/vscripts/props/salien.lua CRC:009e4badb7 size:947
 scripts/vscripts/props/tf2_sentry1.lua CRC:007eb43b8b size:36673
 scripts/vscripts/props/tf2_sentry1_toolbox.lua CRC:00d7872696 size:6104
 scripts/vscripts/tools/balloon.lua CRC:008f855bab size:3998
-scripts/vscripts/tools/ballooninator.lua CRC:000c6883a1 size:12295
+scripts/vscripts/tools/ballooninator.lua CRC:00d206900f size:12580
 scripts/vscripts/tools/blaster.lua CRC:00fb6ece3d size:6535
 scripts/vscripts/tools/box_bot.lua CRC:002f2d8d6f size:111790
 scripts/vscripts/tools/box_bot_tool.lua CRC:00d7ffab1a size:37957
 scripts/vscripts/tools/boxer_ball_remove.lua CRC:00ce204c0b size:144
 scripts/vscripts/tools/cache_crate.lua CRC:00fe5c83f8 size:27657
 scripts/vscripts/tools/cache_finder_tool.lua CRC:009d129fc0 size:32542
-scripts/vscripts/tools/drone.lua CRC:003774e82e size:26506
+scripts/vscripts/tools/drone.lua CRC:0025ddf3c9 size:26554
 scripts/vscripts/tools/drone_prop.lua CRC:002e46e4a2 size:1032
 scripts/vscripts/tools/freeze_tool.lua CRC:008bc6551a size:27725
 scripts/vscripts/tools/generic_tool_hold.lua CRC:002b398c6a size:1343
