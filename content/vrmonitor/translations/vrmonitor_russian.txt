@@ -445,7 +445,7 @@
 "[english]Advanced_Paths"	"Paths"
 "Advanced_Reset"	"Сбросить"
 "[english]Advanced_Reset"	"Reset"
-"Advanced_Performance"	"Изображение"
+"Advanced_Performance"	"Графика"
 "[english]Advanced_Performance"	"Video"
 "Advanced_HMD"	"Шлем"
 "[english]Advanced_HMD"	"Headset"

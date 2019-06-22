@@ -205,7 +205,8 @@
                "mode" : "dpad_click",
                "parameters" : {
                   "deadzone_pct" : "50",
-                  "overlap_pct" : "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path" : "/user/hand/right/input/trackpad"
             },
@@ -227,7 +228,8 @@
                "mode" : "dpad_click",
                "parameters" : {
                   "deadzone_pct" : "50",
-                  "overlap_pct" : "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path" : "/user/hand/left/input/trackpad"
             }

@@ -849,5 +849,12 @@
 "Warning_DismissableWarning_OutOfVideoMemory_Action" "More info"
 "Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Switch to a higher framerate?"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "Your headset supports multiple refresh rates!<br>It’s currently set to <b>%1 frames per second</b>. Would you like to switch to <b>%2</b>?<br><br><i>To maintain the same gpu load, %5 application resolution will be adjusted from %3% to %4%. You can always control this and more in Settings > Video.</i>"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Switch and restart"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "automatic"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "your custom"
+
 }
 }
