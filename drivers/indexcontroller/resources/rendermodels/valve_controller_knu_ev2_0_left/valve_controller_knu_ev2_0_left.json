@@ -27,6 +27,7 @@
         },
          "trackpad": {
             "filename": "trackpad.obj",
+            "match_priority": 1,
             "component_local" : {
                 "origin": [0.004083, 0.004572, 0.049851],
                 "rotate_xyz" : [68.0, 0.0, 0.0]

@@ -636,6 +636,7 @@
 "MessageBox_Forget" "Forget"
 "MessageBox_RefreshAll" "Refresh All"
 "MessageBox_OpenWirelessSettings" "Bluetooth Settings"
+"MessageBox_RemindMeLater" "Remind Me Later"
 
 "MonitorController_NotAbleToStartSteam" "Not able to start Steam."
 
@@ -702,13 +703,17 @@
 
 "FirmwareWizard_UpdateMoreFirmware" "Update More Devices"
 
+"FirmwareWizard_Nag_Title" "Recommended Device Update"
+
 "FirmwareWizard_Shutdown_Title" "Update Device"
 "FirmwareWizard_Shutdown_TextContent" "To update your device, SteamVR will need to quit any currently running VR applications.\n\nWould you like to continue?"
 "FirmwareWizard_WaitingForShutdown_TextContent" "Preparing system for device update..."
 "FirmwareWizard_ShutdownForRecovery_TextContent" "A component of your hardware requires a device update to restore it to an operational state.\n\nWould you like to continue?"
 "FirmwareWizard_ShutdownForMandatoryUpdate_TextContent" "Your headset requires a device update to continue using SteamVR.\n\nWould you like to continue?"
 "FirmwareWizard_DeviceOverview_Title" "Update Device"
+"FirmwareWizard_DeviceOverview_Nagging_Title" "Device Updates Required"
 "FirmwareWizard_DeviceOverview_TextContent" "Which device would you like to update?"
+"FirmwareWizard_DeviceOverview_TextContent_Nag" "Required device updates are available. Select a device to update."
 "FirmwareWizard_DeviceOverview_UpdateAvailable" "Update available"
 "FirmwareWizard_DeviceOverview_UpToDate" "Up to date"
 "FirmwareWizard_DeviceOverview_NoUpdateDataAvailable" "No update data available"

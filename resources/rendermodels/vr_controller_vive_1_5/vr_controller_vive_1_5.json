@@ -19,6 +19,7 @@
         },
         "trackpad": {
             "filename": "trackpad.obj",
+            "match_priority":  1,
             "motion":{
                 "type":"trackpad",
                 "controller_axis": 0,

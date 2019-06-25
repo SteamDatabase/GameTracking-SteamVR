@@ -27,6 +27,12 @@
         },
          "trackpad": {
             "filename": "trackpad.obj",
+            "motion": {
+                "type":"trackpad",
+                "controller_axis": 0,
+                "component_path" : "/input/trackpad"
+            },
+            "match_priority":  1,
             "component_local" : {
                 "origin": [0.004178, 0.004572, 0.05009],
                 "rotate_xyz" : [70.817, 0.0, 2.888]
