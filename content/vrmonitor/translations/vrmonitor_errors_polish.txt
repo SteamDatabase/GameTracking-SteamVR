@@ -256,7 +256,7 @@
 "[english]VRInitError_Driver_CalibrationInvalid_Description"	"SteamVR is having trouble installing drivers for your headset."
 "VRInitError_Driver_CalibrationInvalid_Action"	"Więcej informacji"
 "[english]VRInitError_Driver_CalibrationInvalid_Action"	"More info"
-"VRInitError_Driver_HmdDisplayNotFound_Header"	"Wyświetlacz gogli rozłączony"
+"VRInitError_Driver_HmdDisplayNotFound_Header"	"Wyświetlacz gogli odłączony"
 "[english]VRInitError_Driver_HmdDisplayNotFound_Header"	"Headset Display Disconnected"
 "VRInitError_Driver_HmdDisplayNotFound_Description"	"Upewnij się, że twoje kable wideo są dobrze podłączone. Wyświetlacz gogli nie został wykryty."
 "[english]VRInitError_Driver_HmdDisplayNotFound_Description"	"Please make sure your video cables are securely connected. The headset's display was not found."

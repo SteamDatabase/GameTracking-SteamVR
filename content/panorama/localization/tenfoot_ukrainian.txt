@@ -114,7 +114,7 @@
 "[english]UI_Agreements"	"Agreements"
 "UI_ViewAgreements"	"ЧИТАТИ УГОДУ ПІДПИСНИКА І ПОЛІТИКУ КОНФІДЕНЦІЙНОСТІ"
 "[english]UI_ViewAgreements"	"VIEW SSA & PRIVACY POLICY"
-"UI_I_Agree"	"Я ПОГОДЖУЮСЬ"
+"UI_I_Agree"	"Погоджуюся"
 "[english]UI_I_Agree"	"I agree"
 "Month_January"	"січня"
 "[english]Month_January"	"January"

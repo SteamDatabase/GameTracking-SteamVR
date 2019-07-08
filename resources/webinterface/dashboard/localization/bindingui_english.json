@@ -109,6 +109,9 @@
 
   "SourceInputMode_InvertYAxis": "Invert Y axis:",
   "SourceInputMode_InvertXAxis": "Invert X axis:",
+  "SourceInputMode_StickyClick": "Keep thumbstick clicked while stick is deflected",
+  "SourceInputMode_StickyClick_Activate": "Deflection activation threshold",
+  "SourceInputMode_StickyClick_Deactivate": "Deflection deactivation threshold",
   "SourceInputMode_ButtonModeInputForce_Click": "Generate click from:",
   "SourceInputMode_Grab": "Grab",
   "SourceInputMode_CapsenseEnableThreshold": "Capsense Enable Threshold:",
@@ -248,12 +251,16 @@
   "SaveError_BindingWriteFailed": "Failed to write binding file. Is it write-protected?",
   "SaveError_ActionManifestWriteFailed": "Failed to write action manifest file. Is it write-protected?",
 
-  "AppSelect_Title": "Choose an application to edit",
+  "AppSelect_Title": "Controller Settings",
   "AppSelect_CurrentApp": "Current Application",
   "AppSelect_LastRunApp": "Last Run Application",
   "AppSelect_RecentApp": "Recent Applications",
   "AppSelect_CompositorName": "SteamVR Dashboard",
   "AppSelect_CoreSteamVRApps": "SteamVR Core Applications",
+  "AppSelect_ControllerTester": "Test Controller",
+  "AppSelect_LegacyDebug": "Debug Legacy Input",
+  "AppSelect_ShowMoreApps": "Show More Applications",
+  "AppSelect_EditBindings": "Edit Controller Bindings",
 
   "BindingList_PageTitle": "Change bindings for %1$s",
   "BindingList_ControllerOption": "Current Controller",
@@ -281,6 +288,8 @@
 
   "unknown_application": "Unknown Application",
 
+  "TestController_Title": "Test Controllers",
+
   "InputDebugger_Title": "Input Debugger",
   "InputDebugger_Actions": "Actions",
   "InputDebugger_Filters": "Filters",
@@ -289,6 +298,7 @@
   "InputDebugger_Unbound": "Unbound",
   "BindingUI_InputDebugger": "Input Debugger",
 
+  "BindingUI_WindowTitle_ControllerSettings": "Controller Settings",
   "BindingUI_WindowTitle_ControllerBinding": "Controller Binding",
   "BindingUI_WindowTitle_ManageTrackers": "Manage Vive Trackers",
 
@@ -321,6 +331,21 @@
   "SimulatedAction_FakeTrackpadClick": "Simulated Trackpad Click",
   "TrackpadClickLeft": "Left Trackpad",
   "TrackpadClickRight": "Right Trackpad",
-  "TrackpadClickNone": "Select Trackpad"
+  "TrackpadClickNone": "Select Trackpad",
+
+  "Settings_ThumbstickDeadzone_Text": "Thumbstick Deadzone:",
+
+  "Settings_ControllerSettings_Title" : "Thumbstick Settings",
+  "Settings_ControllerSettings_Utilities": "Controller Utilities",
+  "Settings_General_Cancel": "Cancel",
+  "Settings_General_Confirm": "Confirm",
+  "Settings_General_CalibrateThumbstick": "Calibrate",
+  "Settings_General_NotEnoughSamples" : "Please press up on the thumbstick at least %1$s more times to complete calibration.",
+  "Settings_General_InviteMoreSamples" : "Calculated angle of %1$s degrees. Keep pressing up to refine that value or press Confirm to accept this calibration.",
+  "Settings_General_LeftThumbstickAngle": "Left Thumbstick Angle: %1$s°",
+  "Settings_General_RightThumbstickAngle": "Right Thumbstick Angle: %1$s°",
+  "Settings_General_Reset": "Reset",
+
+  "LegacyDebugger_NoApp": "Run any legacy input application to see its input data here."
 
 }

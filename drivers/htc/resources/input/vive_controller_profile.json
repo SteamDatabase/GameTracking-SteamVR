@@ -28,6 +28,7 @@
     "/input/trigger" : {
         "type" : "trigger",
 	"click" : true,
+	"value" : true,
         "binding_image_point" : [ 41, 64 ],
         "order" : 1
     },

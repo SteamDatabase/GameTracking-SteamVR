@@ -325,6 +325,11 @@
 "VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "More info"
 "VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "SteamVR Fail"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "A key component of SteamVR isn't working properly. Please restart SteamVR."
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "More info"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+
 "VRInitError_Compositor_D3D11HardwareRequired_Header" "Time to Upgrade"
 "VRInitError_Compositor_D3D11HardwareRequired_Description" "SteamVR was unable to locate DirectX 11 compatible hardware or drivers.  You may need to upgrade your system."
 "VRInitError_Compositor_D3D11HardwareRequired_Action" "More info"
@@ -855,6 +860,13 @@
 "Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "automatic"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "your custom"
+
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header" "Incomplete Device Update"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description" "A Base Station update was interrupted or failed to complete. Please click 'Recovery' to begin the procedure."
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Recovery"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
+
+
 
 }
 }

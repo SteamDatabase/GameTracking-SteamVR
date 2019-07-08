@@ -618,7 +618,7 @@
 "[english]Transition_Progress_Description"	"WAITING FOR..."
 "Now_Waiting"	"処理中..."
 "[english]Now_Waiting"	"WAITING..."
-"HomeAppCheck"	"拡張版 SteamVR 環境"
+"HomeAppCheck"	"SteamVRホーム"
 "[english]HomeAppCheck"	"SteamVR Home"
 "HomeAppDesc"	"新しい SteamVR 環境は、より豊かなホームスペース、ソーシャル機能などをサポートします。テストに参加して SteamVR 掲示板へフィードバックをご提供ください。"
 "[english]HomeAppDesc"	"SteamVR Home experience supports richer home spaces, social features, and more."
@@ -668,6 +668,6 @@
 "[english]Panorama_Selection_Vietnamese"	"Tiếng Việt (Vietnamese)"
 "BindingCallout_Header"	"コントロールを表示"
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
-"App_Not_Responding"	"アプリケーションから応答がありません..."
+"App_Not_Responding"	"アプリケーションからの応答を待っています"
 "[english]App_Not_Responding"	"Waiting for application to respond"
 }

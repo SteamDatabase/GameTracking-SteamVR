@@ -114,6 +114,7 @@
 	"StatusCheckInterval_Normal": "Normal (1 sec)",
 	"StatusCheckInterval_Often": "Often (100 msec)",
 	"StatusCheckInterval_Seldom": "Seldom (5 sec)",
+	"Settings_ThumbstickDeadzone_Text": "Thumbstick Deadzone",
 
 	"Settings_KnockKnock_Button": "Knock Knock",
 	"Settings_KnockKnock_Desc": "This allows people outside of VR to get the headset user's attention",
@@ -191,6 +192,14 @@
 	"Settings_General_DoNotDisturb_Text": "Suppress notifications while in VR",
 	"Settings_General_ShowBindingUI": "Edit Controller Bindings",
 	"Settings_General_ShowTrackerUI": "Manage Vive Trackers",
+
+	"Settings_General_Cancel": "Cancel",
+	"Settings_General_Confirm": "Confirm",
+	"Settings_General_CalibrateThumbstick": "Calibrate",
+	"Settings_General_NotEnoughSamples" : "Please press up on the thumbstick at least %1$s more times to complete calibration.",
+	"Settings_General_InviteMoreSamples" : "Calculated angle of %1$s degrees. Keep pressing up to refine that value or press Confirm to accept this calibration.",
+	"Settings_General_LeftThumbstickAngle": "Left Thumbstick Angle: %1$s degrees",
+	"Settings_General_RightThumbstickAngle": "Right Thumbstick Angle: %1$s degrees",
 
 	"Settings_Dashboard_ShowProgressIndicator" : "Show progress indicator for long press actions",
 

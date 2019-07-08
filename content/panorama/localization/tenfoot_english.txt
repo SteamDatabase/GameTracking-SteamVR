@@ -338,7 +338,7 @@
 	"SettingsTime_Never" "Never"
 
 	"VRSettingsGeneral" "SteamVR Settings"
-	"VRSettingsBindingUITitle" "Controller Binding"
+	"VRSettingsBindingUITitle" "Controller Settings"
 	"VRSettingsTrackerUITitle" "Manage Vive Trackers"
 	"VRSettingsChaperone" "Chaperone Settings"
 	"VRSettingsBackground" "Customize"

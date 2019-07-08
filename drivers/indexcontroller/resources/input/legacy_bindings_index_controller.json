@@ -369,6 +369,40 @@
             {
                "inputs" : {
                   "click" : {
+                     "output" : "/actions/legacy/in/left_axis0_press"
+                  }
+               },
+               "mode" : "button",
+               "type" : "boolean_threshold",
+               "parameters" : 
+               {
+	          "force_input" : "position",
+                  "click_activate_threshold" : 0.8,
+                  "click_deactivate_threshold" : 0.7,
+		  "haptic_amplitude" : 0
+               },
+               "path" : "/user/hand/left/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/legacy/in/right_axis0_press"
+                  }
+               },
+               "mode" : "button",
+               "type" : "boolean_threshold",
+               "parameters" : 
+               {
+	          "force_input" : "position",
+                  "click_activate_threshold" : 0.8,
+                  "click_deactivate_threshold" : 0.7,
+		  "haptic_amplitude" : 0
+               },
+               "path" : "/user/hand/right/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
                      "output" : "/actions/legacy/in/left_grip_press"
                   },
                   "touch" : {
