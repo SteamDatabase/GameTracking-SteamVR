@@ -1,0 +1,5 @@
+"settings"
+{
+                "picmip0res"                      "4"
+                "maxres"                          "4"
+}
