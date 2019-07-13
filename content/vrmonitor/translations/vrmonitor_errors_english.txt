@@ -278,10 +278,8 @@
 "VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "More info"
 "VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
 
-"VRInitError_IPC_ServerInitFailed_Header" "SteamVR Fail"
-"VRInitError_IPC_ServerInitFailed_Description" "A key component of SteamVR isn't working properly. Please verify the app is properly installed, then reset your headset below."
-"VRInitError_IPC_ServerInitFailed_FirstAction" "Reset Headset"
-"VRInitError_IPC_ServerInitFailed_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_IPC_ServerInitFailed_Header" "SteamVR Installation Issue"
+"VRInitError_IPC_ServerInitFailed_Description" "A key component of SteamVR isn't working properly. Please verify that SteamVR is properly installed."
 "VRInitError_IPC_ServerInitFailed_Action" "More info"
 "VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
@@ -329,6 +327,11 @@
 "VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "A key component of SteamVR isn't working properly. Please restart SteamVR."
 "VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "More info"
 "VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+
+"VRInitError_IPC_NamespaceUnavailable_Header" "SteamVR Fail"
+"VRInitError_IPC_NamespaceUnavailable_Description" "A key component of SteamVR isn't working properly. Please restart SteamVR."
+"VRInitError_IPC_NamespaceUnavailable_Action" "More info"
+"VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 
 "VRInitError_Compositor_D3D11HardwareRequired_Header" "Time to Upgrade"
 "VRInitError_Compositor_D3D11HardwareRequired_Description" "SteamVR was unable to locate DirectX 11 compatible hardware or drivers.  You may need to upgrade your system."

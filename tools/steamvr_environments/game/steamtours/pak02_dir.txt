@@ -416,7 +416,7 @@ panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
 panorama/styles/base_styles.vcss_c CRC:0025ad4b33 size:25387
 panorama/styles/base_world_panel.vcss_c CRC:0017b56cf5 size:774
-panorama/styles/content_browser.vcss_c CRC:0011244499 size:117189
+panorama/styles/content_browser.vcss_c CRC:0017b5ae0f size:117219
 panorama/styles/friends.vcss_c CRC:002b2cc8af size:42941
 panorama/styles/hud.vcss_c CRC:003b124f74 size:723
 panorama/styles/info_panels.vcss_c CRC:00e61c6748 size:6038
