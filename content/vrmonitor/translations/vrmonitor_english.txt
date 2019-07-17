@@ -815,8 +815,8 @@
 
 "FirmwareWizard_UpdateBasestationWireless_Fail_Title" " Base Station Update Failed"
 "FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "This device update failed."
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "If this device update continues to fail without making progress, quit SteamVR, then unplug and replug the link box and base station power cables. Then launch SteamVR, and try again."
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "If this device update continues to fail without making progress, quit SteamVR, then unplug and replug the base station power cable. Then launch SteamVR, and try again."
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug and replug the Link Box power cable.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR, and try again.</ul>"
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR, and try again.</ul>"
 "FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "This Base Station needs to be rediscovered optically by a restart of SteamVR before the update can proceed."
 "FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "This Base Station needs to be power cycled and rediscovered optically by a restart of SteamVR before the update can proceed. Please unplug and then replug the Base Station's power cable."
 "FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "This Base Station has a newer version of the update and has rejected it."
@@ -1190,9 +1190,10 @@
 "BS_PowerManagement_RefreshLink"							"Refresh"
 "BS_PowerManagement_ForgetBase"								"Forget this device"
 "BS_PowerManagement_BaseStations"							"Managed Base Stations"
-"BS_PowerManagement_VisibleNowInTracking"					"Visible now in this tracking session"
-"BS_PowerManagement_ObservedInTracking"						"Observed in a prior tracking session"
+"BS_PowerManagement_VisibleNowInTracking"					"Visible now in this tracking session."
+"BS_PowerManagement_ObservedInTracking"						"Observed in a prior tracking session."
 "BS_PowerManagement_FailedToConnectRefresh"					"%1 failed to connect. Click 'Refresh' to try again."
+"BS_PowerManagement_ConnectionFailureLegend"				"Connection failure. Click 'Refresh' to try again."
 
 "BS20_UpdateRecovery_Title"									"Base Station 2.0 Update Recovery"
 "BS20_UpdateRecovery_BluetoothRequired"						"Update recovery requires Bluetooth communication to be enabled.\n\nPlease enable Bluetooth communication in Settings."
