@@ -9240,6 +9240,8 @@
  T zlibVersion
  V VTT for tensorflow::internal::LogMessage
  V VTT for tensorflow::internal::LogMessageFatal
+ V absl::base_internal::CallOnceImpl<void (&)()>(std::atomic<unsigned int>*, absl::base_internal::SchedulingMode, void (&)())::trans
+ V absl::base_internal::CallOnceImpl<void (&)(void (*)(void*)), void (*&)(void*)>(std::atomic<unsigned int>*, absl::base_internal::SchedulingMode, void (&)(void (*)(void*)), void (*&)(void*))::trans
  V je_malloc_conf
  V typeinfo for Eigen::NonBlockingThreadPoolTempl<tensorflow::thread::EigenEnvironment>
  V typeinfo for Eigen::NonBlockingThreadPoolTempl<tensorflow::thread::EigenEnvironment>::NonBlockingThreadPoolTempl(int, bool, tensorflow::thread::EigenEnvironment)::{lambda()#1}
@@ -10065,8 +10067,6 @@
  V typeinfo name for tensorflow::variant_op_registry_fn_registration::UnaryVariantUnaryOpRegistration<double>::UnaryVariantUnaryOpRegistration(tensorflow::VariantUnaryOp, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<tensorflow::Status (tensorflow::OpKernelContext*, double const&, double*)> const&)::{lambda(tensorflow::OpKernelContext*, tensorflow::Variant const&, tensorflow::Variant*)#1}
  V typeinfo name for tensorflow::variant_op_registry_fn_registration::UnaryVariantUnaryOpRegistration<float>::UnaryVariantUnaryOpRegistration(tensorflow::VariantUnaryOp, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<tensorflow::Status (tensorflow::OpKernelContext*, float const&, float*)> const&)::{lambda(tensorflow::OpKernelContext*, tensorflow::Variant const&, tensorflow::Variant*)#1}
  V typeinfo name for tensorflow::variant_op_registry_fn_registration::UnaryVariantUnaryOpRegistration<int>::UnaryVariantUnaryOpRegistration(tensorflow::VariantUnaryOp, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<tensorflow::Status (tensorflow::OpKernelContext*, int const&, int*)> const&)::{lambda(tensorflow::OpKernelContext*, tensorflow::Variant const&, tensorflow::Variant*)#1}
- V void absl::base_internal::CallOnceImpl<void (&)()>(std::atomic<unsigned int>*, absl::base_internal::SchedulingMode, void (&)())::trans
- V void absl::base_internal::CallOnceImpl<void (&)(void (*)(void*)), void (*&)(void*)>(std::atomic<unsigned int>*, absl::base_internal::SchedulingMode, void (&)(void (*)(void*)), void (*&)(void*))::trans
  V vtable for Eigen::NonBlockingThreadPoolTempl<tensorflow::thread::EigenEnvironment>
  V vtable for perftools::gputools::CudaCubinInMemory
  V vtable for perftools::gputools::CudaCubinOnDisk
@@ -13053,13 +13053,9 @@
  b ctl_mtx
  b ctl_stats
  b decay_time_default
- b double tensorflow::(anonymous namespace)::locale_independent_strtonum<double>(char const*, char const**)::special_nums
  b dss_base
  b dss_exhausted
  b dss_max
- b float tensorflow::(anonymous namespace)::locale_independent_strtonum<float>(char const*, char const**)::special_nums
- b guard variable for double tensorflow::(anonymous namespace)::locale_independent_strtonum<double>(char const*, char const**)::special_nums
- b guard variable for float tensorflow::(anonymous namespace)::locale_independent_strtonum<float>(char const*, char const**)::special_nums
  b guard variable for perftools::gputools::GetPluginRegistryMutex()::mu
  b guard variable for perftools::gputools::internal::CachedDsoLoader::GetCublasDsoHandle()::result
  b guard variable for perftools::gputools::internal::CachedDsoLoader::GetCudnnDsoHandle()::result
@@ -13078,6 +13074,8 @@
  b guard variable for tensorflow::(anonymous namespace)::device_factories()::factories
  b guard variable for tensorflow::(anonymous namespace)::get_device_factory_lock()::device_factory_lock
  b guard variable for tensorflow::(anonymous namespace)::get_session_factory_lock()::session_factory_lock
+ b guard variable for tensorflow::(anonymous namespace)::locale_independent_strtonum<double>(char const*, char const**)::special_nums
+ b guard variable for tensorflow::(anonymous namespace)::locale_independent_strtonum<float>(char const*, char const**)::special_nums
  b guard variable for tensorflow::(anonymous namespace)::session_factories()::factories
  b guard variable for tensorflow::AllocatorRegistry::Global()::global_allocator_registry
  b guard variable for tensorflow::AttrSlice::AttrSlice()::kEmptyAttrValueMap
@@ -13176,6 +13174,8 @@
  b tensorflow::(anonymous namespace)::kCostModelLogTag
  b tensorflow::(anonymous namespace)::kEmptyTensor
  b tensorflow::(anonymous namespace)::kKernelAttr
+ b tensorflow::(anonymous namespace)::locale_independent_strtonum<double>(char const*, char const**)::special_nums
+ b tensorflow::(anonymous namespace)::locale_independent_strtonum<float>(char const*, char const**)::special_nums
  b tensorflow::(anonymous namespace)::nodes_to_rewrite
  b tensorflow::(anonymous namespace)::session_factories()::factories
  b tensorflow::AllocatorRegistry::Global()::global_allocator_registry
@@ -13955,9 +13955,6 @@
  r onebppswaptable
  r order.4150
  r order.4190
- r perftools::gputools::Stream& perftools::gputools::Stream::ThenConvolveBackwardBiasImpl<Eigen::half>(perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half> const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half>*)::__func__
- r perftools::gputools::Stream& perftools::gputools::Stream::ThenConvolveBackwardBiasImpl<double>(perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<double> const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<double>*)::__func__
- r perftools::gputools::Stream& perftools::gputools::Stream::ThenConvolveBackwardBiasImpl<float>(perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<float> const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<float>*)::__func__
  r perftools::gputools::Stream::BlockHostUntilDone()::__func__
  r perftools::gputools::Stream::Init()::__func__
  r perftools::gputools::Stream::InitTimer(perftools::gputools::Timer*)::__func__
@@ -14138,6 +14135,9 @@
  r perftools::gputools::Stream::ThenBlasTrsv(perftools::gputools::blas::UpperLower, perftools::gputools::blas::Transpose, perftools::gputools::blas::Diagonal, unsigned long long, perftools::gputools::DeviceMemory<float> const&, int, perftools::gputools::DeviceMemory<float>*, int)::__func__
  r perftools::gputools::Stream::ThenBlasTrsv(perftools::gputools::blas::UpperLower, perftools::gputools::blas::Transpose, perftools::gputools::blas::Diagonal, unsigned long long, perftools::gputools::DeviceMemory<std::complex<double> > const&, int, perftools::gputools::DeviceMemory<std::complex<double> >*, int)::__func__
  r perftools::gputools::Stream::ThenBlasTrsv(perftools::gputools::blas::UpperLower, perftools::gputools::blas::Transpose, perftools::gputools::blas::Diagonal, unsigned long long, perftools::gputools::DeviceMemory<std::complex<float> > const&, int, perftools::gputools::DeviceMemory<std::complex<float> >*, int)::__func__
+ r perftools::gputools::Stream::ThenConvolveBackwardBiasImpl<Eigen::half>(perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half> const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half>*)::__func__
+ r perftools::gputools::Stream::ThenConvolveBackwardBiasImpl<double>(perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<double> const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<double>*)::__func__
+ r perftools::gputools::Stream::ThenConvolveBackwardBiasImpl<float>(perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<float> const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<float>*)::__func__
  r perftools::gputools::Stream::ThenConvolveBackwardDataWithAlgorithm(perftools::gputools::dnn::FilterDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half> const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half>, perftools::gputools::dnn::ConvolutionDescriptor const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half>*, perftools::gputools::ScratchAllocator*, perftools::gputools::dnn::AlgorithmConfig const&, perftools::gputools::dnn::ProfileResult*)::__func__
  r perftools::gputools::Stream::ThenConvolveBackwardDataWithAlgorithm(perftools::gputools::dnn::FilterDescriptor const&, perftools::gputools::DeviceMemory<float> const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<float>, perftools::gputools::dnn::ConvolutionDescriptor const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<float>*, perftools::gputools::ScratchAllocator*, perftools::gputools::dnn::AlgorithmConfig const&, perftools::gputools::dnn::ProfileResult*)::__func__
  r perftools::gputools::Stream::ThenConvolveBackwardDataWithScratch(perftools::gputools::dnn::FilterDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half> const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half>, perftools::gputools::dnn::ConvolutionDescriptor const&, perftools::gputools::dnn::BatchDescriptor const&, perftools::gputools::DeviceMemory<Eigen::half>*, perftools::gputools::ScratchAllocator*)::__func__
@@ -17317,10 +17317,10 @@
  t void std::__unguarded_linear_insert<std::pair<tensorflow::Node*, int>*, __gnu_cxx::__ops::_Val_less_iter>(std::pair<tensorflow::Node*, int>*, __gnu_cxx::__ops::_Val_less_iter) [clone .isra.77]
  t void std::vector<std::pair<tensorflow::Node const*, tensorflow::(anonymous namespace)::ExecutorState::Entry>, std::allocator<std::pair<tensorflow::Node const*, tensorflow::(anonymous namespace)::ExecutorState::Entry> > >::emplace_back<std::pair<tensorflow::Node const*, tensorflow::(anonymous namespace)::ExecutorState::Entry> >(std::pair<tensorflow::Node const*, tensorflow::(anonymous namespace)::ExecutorState::Entry>&&)
  t void std::vector<tensorflow::(anonymous namespace)::PriorityTopoSortNode, std::allocator<tensorflow::(anonymous namespace)::PriorityTopoSortNode> >::_M_emplace_back_aux<tensorflow::NodeDef const*&, long long const&>(tensorflow::NodeDef const*&, long long const&)
+ t void std::vector<tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node const*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node const*>, std::function<void (tensorflow::Node const*)> const&, std::function<void (tensorflow::Node const*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work, std::allocator<tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node const*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node const*>, std::function<void (tensorflow::Node const*)> const&, std::function<void (tensorflow::Node const*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work> >::emplace_back<tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node const*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node const*>, std::function<void (tensorflow::Node const*)> const&, std::function<void (tensorflow::Node const*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work>(tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node const*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node const*>, std::function<void (tensorflow::Node const*)> const&, std::function<void (tensorflow::Node const*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work&&)
+ t void std::vector<tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node*>, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work, std::allocator<tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node*>, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work> >::emplace_back<tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node*>, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work>(tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node*>, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work&&)
  t void std::vector<tensorflow::DFS(tensorflow::Graph const&, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work, std::allocator<tensorflow::DFS(tensorflow::Graph const&, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work> >::emplace_back<tensorflow::DFS(tensorflow::Graph const&, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work>(tensorflow::DFS(tensorflow::Graph const&, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work&&)
  t void std::vector<tensorflow::shape_inference::DimensionOrConstant, std::allocator<tensorflow::shape_inference::DimensionOrConstant> >::_M_range_initialize<tensorflow::shape_inference::DimensionOrConstant const*>(tensorflow::shape_inference::DimensionOrConstant const*, tensorflow::shape_inference::DimensionOrConstant const*, std::forward_iterator_tag) [clone .isra.143] [clone .constprop.192]
- t void std::vector<void tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node const*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node const*>, std::function<void (tensorflow::Node const*)> const&, std::function<void (tensorflow::Node const*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work, std::allocator<void tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node const*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node const*>, std::function<void (tensorflow::Node const*)> const&, std::function<void (tensorflow::Node const*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work> >::emplace_back<void tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node const*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node const*>, std::function<void (tensorflow::Node const*)> const&, std::function<void (tensorflow::Node const*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work>(void tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node const*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node const*>, std::function<void (tensorflow::Node const*)> const&, std::function<void (tensorflow::Node const*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work&&)
- t void std::vector<void tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node*>, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work, std::allocator<void tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node*>, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work> >::emplace_back<void tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node*>, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work>(void tensorflow::(anonymous namespace)::ReverseDFSFromHelper<tensorflow::Node*>(tensorflow::Graph const&, tensorflow::gtl::ArraySlice<tensorflow::Node*>, std::function<void (tensorflow::Node*)> const&, std::function<void (tensorflow::Node*)> const&, std::function<bool (tensorflow::Node const*, tensorflow::Node const*)> const&)::Work&&)
  t void tensorflow::(anonymous namespace)::AddAttr<int>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int const&, tensorflow::NodeDef*) [clone .constprop.620]
  t void tensorflow::(anonymous namespace)::AddAttr<tensorflow::DataType>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, tensorflow::DataType const&, tensorflow::NodeDef*) [clone .constprop.619]
  t void tensorflow::(anonymous namespace)::Helper<Eigen::half>::Encode<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(tensorflow::TensorBuffer*, long long, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [clone .isra.130] [clone .constprop.417]
@@ -17371,6 +17371,8 @@
  typeinfo for unsigned char
  typeinfo for void
  u Eigen::NonBlockingThreadPoolTempl<tensorflow::thread::EigenEnvironment>::GetPerThread()::per_thread_
+ u absl::base_internal::CallOnceImpl<void (&)()>(std::atomic<unsigned int>*, absl::base_internal::SchedulingMode, void (&)())::trans
+ u absl::base_internal::CallOnceImpl<void (&)(void (*)(void*)), void (*&)(void*)>(std::atomic<unsigned int>*, absl::base_internal::SchedulingMode, void (&)(void (*)(void*)), void (*&)(void*))::trans
  u guard variable for perftools::gputools::MultiPlatformManager::GetPlatformByIdMap()::instance
  u guard variable for perftools::gputools::MultiPlatformManager::GetPlatformMap()::instance
  u guard variable for perftools::gputools::MultiPlatformManager::GetPlatformsMutex()::platforms_mutex
@@ -17378,8 +17380,6 @@
  u perftools::gputools::MultiPlatformManager::GetPlatformMap[abi:cxx11]()::instance
  u perftools::gputools::MultiPlatformManager::GetPlatformsMutex()::platforms_mutex
  u perftools::gputools::port::HumanReadableNumBytes::ToString[abi:cxx11](long long)::units
- u void absl::base_internal::CallOnceImpl<void (&)()>(std::atomic<unsigned int>*, absl::base_internal::SchedulingMode, void (&)())::trans
- u void absl::base_internal::CallOnceImpl<void (&)(void (*)(void*)), void (*&)(void*)>(std::atomic<unsigned int>*, absl::base_internal::SchedulingMode, void (&)(void (*)(void*)), void (*&)(void*))::trans
  unlink
  vsnprintf
  vtable for __cxxabiv1::__class_type_info
