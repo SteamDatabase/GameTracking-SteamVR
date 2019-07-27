@@ -869,7 +869,12 @@
 "Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Recovery"
 "Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
 
-
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Display Connection Trouble"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Your graphics card cannot successfully connect to your HMD display. Try removing any cable adapters or extenders you are using. Try another port on your GPU if one is available. <b>Use the reset link below to reset the HMD so the GPU will try again.</b>"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Reset Headset"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "More info"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
 
 }
 }
