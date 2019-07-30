@@ -819,7 +819,7 @@
 "FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR, and try again.</ul>"
 "FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "This Base Station needs to be rediscovered optically by a restart of SteamVR before the update can proceed."
 "FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "This Base Station needs to be power cycled and rediscovered optically by a restart of SteamVR before the update can proceed. Please unplug and then replug the Base Station's power cable."
-"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "This Base Station has a newer version of the update and has rejected it."
+"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "This Base Station has a newer version of the update and has rejected it. Please unplug and then replug the Base Station's power cable."
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Click 'Retry' below to try again."
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Click 'Cancel' below to restart SteamVR."
 
