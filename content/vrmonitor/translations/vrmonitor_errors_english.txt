@@ -869,6 +869,11 @@
 "Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Recovery"
 "Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
 
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Device No Longer Supported"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "Your %1 (%2) is a pre-production development tool and is no longer supported.<br><br><font color=#ff0000>Functionality is not expected. Please replace immediately.</font>"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Action" " "
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_ActionURL" " "
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Display Connection Trouble"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Your graphics card cannot successfully connect to your HMD display. Try removing any cable adapters or extenders you are using. Try another port on your GPU if one is available. <b>Use the reset link below to reset the HMD so the GPU will try again.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Reset Headset"

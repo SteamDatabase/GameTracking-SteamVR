@@ -42,7 +42,7 @@
 "[english]UI_Done"	"DONE"
 "UI_Back"	"TRỞ LẠI"
 "[english]UI_Back"	"BACK"
-"UI_Yes"	"ĐÚNG"
+"UI_Yes"	"OK"
 "[english]UI_Yes"	"YES"
 "UI_No"	"KHÔNG"
 "[english]UI_No"	"NO"

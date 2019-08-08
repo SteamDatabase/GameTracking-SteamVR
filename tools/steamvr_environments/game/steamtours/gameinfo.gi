@@ -89,6 +89,7 @@
 		"AllowSaveGamesInMultiplayer" "1"
 		"AllocWarnMB" "2048"
 		"ReserveWarnMB" "2048"
+		"PerformsShutdown"	"1"
 	}
 
 	SceneSystem

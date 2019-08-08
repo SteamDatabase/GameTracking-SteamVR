@@ -1370,7 +1370,7 @@
 "FirmwareWizard_UpdateBasestationWireless_Fail_UpperText"	"펌웨어 업데이트 실패."
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_UpperText"	"This device update failed."
 "FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText"	"만일 업데이트가 계속 실패하는 경우, SteamVR을 종료하고 베이스 스테이션을 껐다가 다시 켜세요. 그리고 나서 SteamVR을 시작하고 다시 시도해 보세요."
-"[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText"	"If this device update continues to fail, quit SteamVR, then unplug and replug the base station power cable. Then launch SteamVR, and try again."
+"[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR, and try again.</ul>"
 "FirmwareWizard_UpdateBasestationWireless_Fail_LowerText"	"다시 해보려면 '다시 시도'를 클릭하세요."
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_LowerText"	"Click 'Retry' below to try again."
 "FirmwareWizard_UpdateBasestationWireless_Success_Title"	"베이스 스테이션 펌웨어 업데이트"
@@ -1910,6 +1910,6 @@
 "Settings_GpuInfo_Header"	"하드웨어"
 "[english]Settings_GpuInfo_Header"	"Hardware"
 "MenuAction_ShowControllerBinding"	"컨트롤러 설정"
-"[english]MenuAction_ShowControllerBinding"	"Configure Controller"
+"[english]MenuAction_ShowControllerBinding"	"Controller Settings"
 }
 }

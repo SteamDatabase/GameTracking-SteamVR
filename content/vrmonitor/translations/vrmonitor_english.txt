@@ -130,11 +130,11 @@
 "SteamVRSystemState_NotReady" " "
 "SteamVRSystemState_Connecting" "Searching..."
 "SteamVRSystemState_Standby" "Standing by"
-"SteamVRSystemState_Shutdown" "Exiting SteamVR..."
+"SteamVRSystemState_Shutdown" "Exiting VR..."
 "SteamVRSystemState_Installing" "Hardware setup in progress..."
 "SteamVRSystemState_Restart" "Restarting SteamVR..."
 "SteamVRSystemState_Startup" "Starting VR..."
-"SteamVRSystemState_ShutdownRequested" "Exiting SteamVR..."
+"SteamVRSystemState_ShutdownRequested" "Exiting VR..."
 "SteamVRSystemState_PauseRequested" "Pausing..."
 "SteamVRSystemState_Paused" "Paused"
 "SteamVRSystemState_UnpauseRequested" "Starting..."
@@ -146,7 +146,6 @@
 "SteamVRSystemState_Off_Application" ""
 "SteamVRSystemState_Ready_Application" "%1"
 "SteamVRSystemState_NotReady_Application" " "
-"SteamVRSystemState_Connecting_Application_Unknown" "Move headset to the play area"
 "SteamVRSystemState_Connecting_Application_Lighthouse" "Make sure headset can see bases"
 "SteamVRSystemState_Connecting_Application_InsideOutCamera" "Make sure headset can see the play area"
 "SteamVRSystemState_Connecting_Application_OutsideInCamera" "Make sure tracking cameras can see the headset"
@@ -1143,7 +1142,7 @@
 "BS20_ConfigureChannel_BaseStationName"						"Configuring %1 on Channel %2"
 "BS20_ConfigureChannel_Description"							"Select an unused channel for this Base Station to avoid potential tracking conflicts."
 "BS20_ConfigureChannel_InUseByPrefix"						"Currently used by:"
-"BS20_ConfigureChannel_Legend"								"Denotes a channel used by other Base Stations in radio proximity.".
+"BS20_ConfigureChannel_Legend"								"Denotes a channel used by other Base Stations in radio proximity."
 "BS20_ConfigureChannel_AutomaticConfiguration"				"Automatic Configuration"
 "BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"There are no channel conflicts."
 "BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"There are no free channels to resolve %1 potential channel conflicts. You may need to manually configure channels."
@@ -1217,8 +1216,8 @@
 
 "oculus_display_lost" "The Oculus system has lost its connection to the display. Please check your headset's connection and then restart."
 
-"Monitor_WakingBaseStations" "Bases Powering Up..."
-"Monitor_PuttingBaseStationsInStandby" "Bases Powering Down..."
+"Monitor_WakingBaseStations" "Base stations waking up..."
+"Monitor_PuttingBaseStationsInStandby" "Base stations standing by..."
 
 "VRApplicationError_None" "No Error"
 
@@ -1244,5 +1243,21 @@
 "VRApplicationError_UnknownProperty" "Unknown property"
 "VRApplicationError_InvalidParameter" "Invalid parameter"
 
+"Key_Escape_Abbreviation" "ESC"
+
+"HeadsetView_Title" "VR View"
+"HeadsetView_MenuLabel" "Menu"
+"HeadsetView_PressKeyToExit" "Press %1 to exit Full Screen"
+"HeadsetView_FullscreenButtonLabel" "Full Screen"
+"HeadsetView_DockButtonLabel" "Dock View"
+"HeadsetView_UndockButtonLabel" "Undock View"
+"HeadsetView_CloseButtonLabel" "Close"
+"HeadsetView_EyeMode_Both" "Both Eyes"
+"HeadsetView_EyeMode_Left" "Left Eye"
+"HeadsetView_EyeMode_Right" "Right Eye"
+"HeadsetView_EyeMode_BothLeftDominant" "Both Eyes - Left Dominant"
+"HeadsetView_EyeMode_BothRightDominant" "Both Eyes - Right Dominant"
+"HeadsetView_ViewMode_Center" "Center View"
+"HeadsetView_ViewMode_Full" "Full View"
 }
 }

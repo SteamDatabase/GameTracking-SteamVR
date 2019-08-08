@@ -3455,7 +3455,7 @@ panorama/layout/fingers_hand_poses.vxml_c CRC:00d2221810 size:3899
 panorama/layout/freeze_tool.vxml_c CRC:00e08ba666 size:919
 panorama/layout/game_trophy.vxml_c CRC:00e240c566 size:1916
 panorama/layout/game_trophy_details.vxml_c CRC:003ce3c55d size:4811
-panorama/layout/lobby_item.vxml_c CRC:00271135ee size:2234
+panorama/layout/lobby_item.vxml_c CRC:0007885e02 size:2257
 panorama/layout/mittens_hand_poses.vxml_c CRC:00587418bd size:3176
 panorama/layout/player_billboard.vxml_c CRC:00caecc700 size:5131
 panorama/layout/tool_hint_drop.vxml_c CRC:0092774758 size:726
@@ -3498,7 +3498,7 @@ panorama/scripts/box_bot/boxing_tool.vjs_c CRC:007164b445 size:1356
 panorama/scripts/cache_finder.vjs_c CRC:00692e9826 size:2276
 panorama/scripts/content_browser.vjs_c CRC:00f700f17b size:8264
 panorama/scripts/freeze_tool.vjs_c CRC:0043da3694 size:1361
-panorama/scripts/game_trophy.vjs_c CRC:006d601c67 size:5343
+panorama/scripts/game_trophy.vjs_c CRC:00307c3811 size:5353
 panorama/scripts/ugc_image.vjs_c CRC:00c2a94784 size:684
 panorama/scripts/vimeo_player.vjs_c CRC:000eb4ec9e size:5404
 panorama/scripts/youtube_player.vjs_c CRC:00af8077ff size:5407

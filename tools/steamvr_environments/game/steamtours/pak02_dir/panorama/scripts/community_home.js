@@ -107,7 +107,7 @@ function OnShowHandLabCallout( handLabData )
 	var onLaunchButtonActivate = function( localAppid ) {
 		return function() {
 			SteamVRHome.DismissHandLabCallout();
-			VRUtils.LaunchSteamApp( localAppid );
+			VRUtils.LaunchSteamApp( localAppid, "community_wall" );
 		}
 	}( handLabData.app_id );
 	launchButton.SetPanelEvent( "onactivate", onLaunchButtonActivate );
@@ -231,7 +231,7 @@ function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
 					var onLaunchButtonActivate = function( localAppid ) {
 							return function() {
 //								$.Msg( "Local APP ID: " + localAppid );
-								VRUtils.LaunchSteamApp( localAppid );
+								VRUtils.LaunchSteamApp( localAppid, "community_wall" );
 							}
 					}( appid );
 					launchButton.SetPanelEvent( "onactivate", onLaunchButtonActivate );

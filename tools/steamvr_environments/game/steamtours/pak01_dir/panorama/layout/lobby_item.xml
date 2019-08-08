@@ -15,7 +15,7 @@
 					<Label class="LobbyMemberLabel" id="InFriendsRoom" text="#Lobby_FriendsRoom" />
 					<Label class="LobbyMemberLabel" id="LobbyOwnerName" text="#Lobby_OwnerName" />
                     <Label class="LobbyMemberLabel" id="InLobbyDestination" text="#InLobby_Destination" />
-                    <Panel class="LobbyMembers">
+                    <Panel class="LobbyMembers" id="LobbyMemberCounts">
                         <Label class="LobbyMemberLabel" id="MemberCount" text="#Lobby_MemberCount" />
                         <Label class="LobbyMemberLabel" id="FriendCount" text="#Lobby_FriendCount" />
 <!--					<Label class="OwnerLocation" text="#Lobby_OwnerLocation" /> -->

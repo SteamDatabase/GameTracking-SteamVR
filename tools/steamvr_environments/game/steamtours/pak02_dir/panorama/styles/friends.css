@@ -2104,16 +2104,25 @@ SteamToursFriends {
 }
 
 .WorldPanelPublicLobbies #InLobbyDestination,
-.WorldPanelPublicLobbies #MemberCount,
-.WorldPanelPublicLobbies #FriendCount,
 .WorldPanelPublicLobbies #InPublicRoom,
 .WorldPanelPublicLobbies #InFriendsRoom,
-.WorldPanelPublicLobbies #LobbyOwnerName
+.WorldPanelPublicLobbies #LobbyOwnerName,
+.WorldPanelPublicLobbies #LobbyMemberCounts
 {
 	font-size: 45px;
 	height: 55px;
 	width: 600px;
 	margin-top: 0px;
+}
+
+.WorldPanelPublicLobbies #MemberCount,
+.WorldPanelPublicLobbies #FriendCount
+{
+	font-size: 45px;
+	height: 55px;
+//	width: 250px;
+	margin-top: 0px;
+	margin-right: 20px;	
 }
 
 .WorldPanelPublicLobbies .AlertPanel

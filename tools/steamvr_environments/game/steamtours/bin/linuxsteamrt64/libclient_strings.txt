@@ -291,7 +291,7 @@
   Field       : 
   Lobby Data: addon: %s
   Lobby Data: lobby type: %s
-  Lobby Data: lobby: %llu
+  Lobby Data: lobby: %llu %s
   Lobby Data: map: %s
   Message type: 
   Modified
@@ -302,7 +302,7 @@
   Removed
   Rich Presence: addon: %s
   Rich Presence: lobby type: %s
-  Rich Presence: lobby: %llu
+  Rich Presence: lobby: %llu %s
   Rich Presence: map: %s
   Ss=%d, Se=%d, Ah=%d, Al=%d
   Total: %s
@@ -1289,7 +1289,7 @@ $z1u/A
 %s:  transition game save to %s...
 %s:  transitioning '%s' entities from previous map '%s' (landmark='%s')
 %s: %d -> %d
-%s: %llu -> %llu
+%s: %llu %s -> %llu %s
 %s: %s
 %s: %s( %s %d %d )
 %s: %s(%s) '%s' [%d] thinking for %.02f ms!!!
@@ -1937,7 +1937,6 @@ $z1u/A
 ./zvutH
 .3333
 .5&i#
-.5=~h
 .=doQ
 .>()09
 .>N^n~
@@ -2358,7 +2357,6 @@ $z1u/A
 0A81@
 0A91u
 0A9^(
-0ATSH
 0AUATI
 0AUATSH
 0AVAUL
@@ -2779,6 +2777,8 @@ $z1u/A
 15CBaseTempEntity
 15CBaseWorldPanel
 15CBodyGameSystem
+15CCallbackManualI20CSteamToursGameStats24GameStatsSessionClosed_tLb0EE
+15CCallbackManualI20CSteamToursGameStats24GameStatsSessionIssued_tLb0EE
 15CCallbackManualI24CPanoramaScript_SteamUGC20DownloadItemResult_tLb0EE
 15CCallbackManualI28CPanoramaScript_SteamFriends19AvatarImageLoaded_tLb0EE
 15CCallbackManualI28CPanoramaScript_SteamFriends20PersonaStateChange_tLb0EE
@@ -3571,6 +3571,7 @@ $z1u/A
 20CSaveRestoreBlockSet
 20CScenePrecacheSystem
 20CSource2EntitySystem
+20CSteamToursGameStats
 20CSteamTours_Hud_Main
 20CTeleportTraceFilter
 20CTextInputDaisyGroup
@@ -3911,6 +3912,7 @@ $z1u/A
 24CGameSystemStaticFactoryI19CWeaponScriptParserS0_E
 24CGameSystemStaticFactoryI20CEnvCubemapFogSystemS0_E
 24CGameSystemStaticFactoryI20CPerfVisualBenchmarkS0_E
+24CGameSystemStaticFactoryI20CSteamToursGameStatsS0_E
 24CGameSystemStaticFactoryI21CBaseGameStats_DriverS0_E
 24CGameSystemStaticFactoryI21CCharacterDecalSystemS0_E
 24CGameSystemStaticFactoryI21CFlexSceneFileManagerS0_E
@@ -4799,6 +4801,7 @@ $z1u/A
 8fA;1
 8t9E1
 8webm
+9.%\u
 9.1.15
 95*P>
 98N*>
@@ -4820,6 +4823,8 @@ $z1u/A
 9CCallbackI19CClientSteamContext23SteamServersConnected_tLb0EE
 9CCallbackI19CClientSteamContext26SteamServersDisconnected_tLb0EE
 9CCallbackI19CClientSteamContext27SteamServerConnectFailure_tLb0EE
+9CCallbackI20CSteamToursGameStats24GameStatsSessionClosed_tLb0EE
+9CCallbackI20CSteamToursGameStats24GameStatsSessionIssued_tLb0EE
 9CCallbackI24CPanoramaScript_SteamUGC20DownloadItemResult_tLb0EE
 9CCallbackI28CPanoramaScript_SteamFriends19AvatarImageLoaded_tLb0EE
 9CCallbackI28CPanoramaScript_SteamFriends20PersonaStateChange_tLb0EE
@@ -4953,7 +4958,7 @@ $z1u/A
 ;G tu+G$L
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;GPttK
-;Hc59
+;Hc5Y
 ;I9<$uY
 ;L$D|*
 ;P0}K
@@ -4996,7 +5001,6 @@ $z1u/A
 <$=w"A
 <$A\H
 <$A\]
-<$H9y
 <$Hcs`H
 <$LcP
 <$[A\A]A^]
@@ -7228,6 +7232,7 @@ App ID the file belongs to."
 AppConfirm
 AppImage_%llu
 AppImagesContainer
+AppLaunchSource
 AppLogo
 AppWithImages_%s
 AppWithImages_%u
@@ -7472,6 +7477,7 @@ BeginScriptDebug
 BenchmarkService001
 Bengali
 BentNormalData
+BetaBranchName
 Bezier
 BhIcT$8H
 Bidirectional_Messages
@@ -7625,7 +7631,6 @@ C(D9@(A
 C(D9B(
 C([A\A]A^]
 C([A\]
-C(t	H
 C*w*<
 C,+C(
 C,;C0
@@ -7639,6 +7644,7 @@ C0HcC(M
 C0HcS(H
 C0IcT$(H
 C0[A\A]A^]
+C0t	H
 C333333
 C33s?
 C4tuH
@@ -8916,10 +8922,11 @@ CSteamToursGameRules
 CSteamToursGameRules *
 CSteamToursGameRulesProxy
 CSteamToursHandUseController
-CSteamToursMultiplayerSystem::OnFriendRichPresenceUpdate: %llu '%s'
-CSteamToursMultiplayerSystem::OnLobbyChatUpdate: %llu
-CSteamToursMultiplayerSystem::OnLobbyDataUpdate: %llu
-CSteamToursMultiplayerSystem::OnPersonaStateChanged: %llu '%s'
+CSteamToursMultiplayerSystem::OnFriendRichPresenceUpdate: %llu %s '%s'
+CSteamToursMultiplayerSystem::OnLobbyChatUpdate: %llu %s
+CSteamToursMultiplayerSystem::OnLobbyDataUpdate: %llu %s
+CSteamToursMultiplayerSystem::OnLobbyDataUpdate: lobby %llu %s may not exist?
+CSteamToursMultiplayerSystem::OnPersonaStateChanged: %llu %s '%s'
 CSteamToursMultiplayerSystem::RefreshMultiplayerData
 CSteamToursMultiplayerSystem::UpdateFriends
 CSteamToursMultiplayerSystem::UpdateLobbyMembers
@@ -9547,7 +9554,7 @@ Cannot get here
 Cannot join friend %s lobby; lobbyid set to invalid value '%s'
 Cannot join friend %s lobby; no lobbyid set in rich presence
 Cannot open %s for writing
-Cannot open friend lobby, lobby %llu owned by %s, not us
+Cannot open friend lobby, lobby %llu %s owned by %llu %s, not us
 Cannot quantize more than %d color components
 Cannot quantize to fewer than %d colors
 Cannot quantize to more than %d colors
@@ -9875,7 +9882,7 @@ CreateEvent: event '%s' not registered.
 CreateGameRulesObject
 CreateInterface
 CreateLobby failed, reason %d
-CreateLobby succeeded %llu
+CreateLobby succeeded %llu %s
 CreatePanelWithCurrentContext
 CreateParticle
 CreateParticleForPlayer
@@ -9985,6 +9992,7 @@ D$(t7H
 D$(t;A
 D$(t;D
 D$,9D$
+D$09C0u
 D$0;D$(
 D$0E1
 D$0H9
@@ -10099,7 +10107,6 @@ D70A9
 D8cUt
 D9#~wJ
 D9;t3I
-D9=BW
 D9D$4B
 D9D$4H
 D9G8u
@@ -10128,18 +10135,16 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
-D;%	f
 D;'tXH
 D;)ts
 D;+}(L
-D;-`Q
+D;-@o
 D;.tLH
 D;0uOE
 D;3t 
 D;3}5
 D;8tQH
 D;9tlA
-D;=OY
 D;C }JMc
 D;F`u
 D;G I
@@ -11619,7 +11624,7 @@ Freed XMS handle %u
 Frees the specified particle index
 FreezeCam_Only
 Friction during noclip move.
-Friend lobby %llu already set to friends only
+Friend lobby %llu %s already set to friends only
 FriendCall
 FriendChat
 FriendDestination
@@ -12127,173 +12132,139 @@ H;0t*A
 H;0t+A
 H;0t0H
 H;0t\H
-H;5	R
-H;5$;
-H;5$Y
-H;5,d
-H;50v
-H;50}
-H;51H
-H;59W
-H;59X
-H;5@?
-H;5AI
-H;5I\
-H;5Q?
-H;5QT
-H;5Qe
-H;5TF
-H;5Wn
-H;5`t
-H;5a6
-H;5d~
-H;5if
-H;5il
-H;5in
-H;5ir
-H;5i|
+H;5	w
+H;51J
+H;5I=
+H;5L}
+H;5YH
+H;5al
+H;5ht
+H;5q~
+H;5u?
 H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;=	o
-H;= |
-H;= ~
-H;=!K
-H;="$
-H;="8
-H;=#M
-H;=%r
-H;='$
-H;='5
-H;='?
-H;=(/
-H;=(:
-H;=(J
-H;=(L
-H;=(}
-H;=*<
-H;=*L
-H;=*e
-H;=+zk
-H;=/K
-H;=/z
-H;=03|
-H;=0{
-H;=0}
-H;=1	
+H;= 	
+H;= ;
+H;=!h
+H;="&
+H;="/
+H;="Z
+H;="n
+H;=#=
+H;=#?
+H;='A
+H;='Z
+H;='\
+H;='r
+H;='u
+H;=($
+H;=(4
+H;=(<
+H;=(T
+H;=(W
+H;=(i
+H;=)>
+H;=*"
+H;=*Y
+H;=/	
+H;=0+
+H;=0/
+H;=0P|
 H;=1!
-H;=3B
-H;=4o
-H;=64
-H;=7>
-H;=7H
-H;=7n
-H;=7s
-H;=7u
-H;=8(
-H;=88
-H;=8C
-H;=8F
-H;=8I
-H;=8S
-H;=8i
-H;=8n
-H;=8p
-H;=:6
-H;=:A
-H;=;S
-H;=;b
-H;=;q
-H;=;v
-H;=={k
-H;=?D
-H;=?l
-H;=@|
-H;=AD
-H;=AZ
-H;=CG
-H;=G4
+H;=1?
+H;=1d
+H;=3(
+H;=4X
+H;=7e
+H;=8=
+H;=8E
+H;=8^
+H;=8`
+H;=8c
+H;=8x
+H;=:$
+H;=:-
+H;=:N
+H;=:l
+H;=>,
+H;=>-
+H;=>Q
+H;=A'
+H;=Aa
+H;=Aw
+H;=B'
+H;=B0
+H;=BZ
+H;=D+
+H;=D6
+H;=Dk
+H;=G,
+H;=GL
 H;=GQ
-H;=Gb
-H;=Gw
-H;=G|
-H;=H"
-H;=H/
-H;=HA
-H;=HE
+H;=GR
+H;=Gn
+H;=H!
+H;=H?
+H;=HF
 H;=HL
-H;=H\
-H;=Hr
-H;=Hv
-H;=Hw
-H;=JM
-H;=Jf
-H;=Jh
-H;=Kk
-H;=L:|
-H;=N_
-H;=Ou
-H;=Ov
-H;=P{
-H;=Q:
-H;=QF
-H;=W=
-H;=WT
-H;=Wr
-H;=X8
-H;=X;
-H;=XG
-H;=Xe
-H;=X{
-H;=Yh
-H;=Z7
-H;=ZB
-H;=_7
-H;=_w
-H;=`z
-H;=aH
-H;=bF
-H;=cH
-H;=g+
-H;=gF
-H;=gO
-H;=gl
-H;=gq
-H;=gs
-H;=h&
-H;=hA
-H;=hD
-H;=hI
-H;=hg
-H;=hn
-H;=j"
-H;=jG
-H;=jl
-H;=of
-H;=ox
-H;=pv
-H;=py
-H;=qJ
-H;=ra
-H;=tr
-H;=w'
-H;=w2
+H;=Hb
+H;=Hf
+H;=Hi
+H;=LW|
+H;=OI
+H;=PS
+H;=Q 
+H;=QW
+H;=Qc
+H;=R'
+H;=T/
+H;=W?
+H;=WZ
+H;=Wp
+H;=XU
+H;=Xd
+H;=Xo
+H;=Z%
+H;=Z.
+H;=Zm
+H;=_z
+H;=`5
+H;=`K
+H;=a3
+H;=ae
+H;=b(
+H;=b1
+H;=bc
+H;=e,
+H;=g#
+H;=ga
+H;=gc
+H;=hC
+H;=h]
+H;=h^
+H;=hf
+H;=hz
+H;=i"
+H;=kJ
+H;=mQ
+H;=p4
+H;=pT
+H;=qg
+H;=r~
 H;=wO
-H;=wu
-H;=wx
-H;=wz
-H;=x!
-H;=x-
-H;=x?
+H;=wl
 H;=xJ
-H;=xK
-H;=xp
+H;=xg
+H;=xh
 H;=xu
-H;=z8
-H;=zZ
-H;=zu
-H;=~C
+H;=y>
+H;=z#
+H;=z&
+H;=z/
+H;=zn
+H;=~>
 H;B@t
 H;C(t
 H;CPw<I
@@ -12435,7 +12406,8 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5g"
+Hc5gX
+Hc5pF
 Hc7;w
 Hc@$H
 Hc@(E1
@@ -13157,7 +13129,7 @@ Inverse Multi Quadratic
 Invert Axes; 
 Invisible
 Invited
-Inviting %llu to lobby %llu
+Inviting %llu %s to lobby %llu %s
 IqvUm
 Is attached to parent
 IsAttachedToParent
@@ -13252,12 +13224,20 @@ Jobs/Coroutines
 Join failed - some member in the chat has blocked you from joining.
 Join failed - too many join attempts in a very short period of time.
 Join failed - you have blocked some member already in the chat.
-JoinFriend joining friend %s lobby %llu
+JoinFriend joining friend %llu %s '%s' lobby %llu %s
+JoinFriendAttemptCount
 JoinLobby
 JoinLobby failed: %s
 JoinLobby failed: I/O failure.
-JoinLobby joining lobby %llu
-JoinLobby succeeded: joined lobby %llu. (leaving lobby %llu)
+JoinLobby joining lobby %llu %s
+JoinLobby succeeded: joined lobby %llu %s. (leaving lobby %llu %s)
+JoinLobbyChatRoomFailureCount
+JoinLobbyIOFailureCount
+JoinLobbyServerIDFailureCount
+JoinLobbySuccessCount
+JoinLobbyWorkshopIDFailureCount
+JoinPublicAttemptCount
+JoinServerSuccessCount
 Joining Destination server %s
 Joining this chat is not allowed because you are a limited user (no value on account).
 Joints: %d (%d)
@@ -13336,7 +13316,7 @@ L$hD)
 L$hHc
 L$p H
 L$xE1
-L9%yO
+L9%YT
 L9(A	
 L9,$Mc
 L90t'D
@@ -13353,8 +13333,6 @@ L9|$HJ
 L: %.2f deg
 L;!t!f.
 L;"tJA
-L;%_z
-L;-lm
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13522,8 +13500,8 @@ Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-	(
-Lc-WQ
+Lc-	^
+Lc-7o
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -13566,7 +13544,7 @@ Lcx,E
 Lcx4H
 LeaveDestinationOnExpire
 LeaveLobby
-LeaveLobby leaving lobby %llu
+LeaveLobby leaving lobby %llu %s
 LeaveWearableEditMode
 LeftArrowVisible
 LeftFoot
@@ -13649,7 +13627,7 @@ LoadingDestination
 LoadingThrobber
 LobbiesContentContainer
 LobbiesTabSelected
-Lobby %llu does not have a valid serverid, not connecting
+Lobby %llu %s does not have a valid serverid, not connecting
 Lobby did not have WorkshopID
 Lobby did not have WorkshopID.
 Lobby did not have valid server Steam ID.
@@ -15740,6 +15718,9 @@ Reports all extant entities. Optional 2nd arg is a substring of a classname that
 Reports: %d
 RequestDownloadDestination
 RequestHeader
+RequestLobbyData for friend lobby %llu %s
+RequestLobbyData for local lobby %llu %s
+RequestLobbyData for public lobby %llu %s
 RequestPause_t
 RequestPersonaName
 Requested feature was omitted at compile time
@@ -16299,6 +16280,7 @@ ServerUploadGameStats001
 ServerVoice
 ServiceDescriptorProto
 ServiceOptions
+SessionTime
 Set Angular Velocity for VPHYS or normal object, from a vector of the axis of rotation, multiplied by the degrees of rotation per second.
 Set Integer Attribute
 Set a think function on this entity.
@@ -16445,7 +16427,7 @@ SetRepeatedUInt32
 SetRepeatedUInt64
 SetReportedPosition
 SetRequiresSelection
-SetRichPresence: lobbyid = %llu
+SetRichPresence: lobbyid = %llu %s
 SetRichPresence: lobbyid = <NULL>
 SetScale
 SetScaling
@@ -16499,7 +16481,7 @@ Sets the width for this panel. Possible values:<br>"fit-children" - Panel size i
 Sets the x, y, z position for a panel. Must not be in a flowing layout.<br><br><b>Example:</b><pre>position: 3% 20px 0px;</pre>
 Sets the z-index for a panel, panels will be sorted and painted in order within a parent panel.  The sorting first sorts by the z-pos computed from position and transforms, then if panels have matching zpos zindex is used. z-index is different than z-pos in that it doesn't affect rendering perspective, just paint/hit-test ordering. The default z-index value is 0, and any floating point value is accepted.<br><br><b>Example:</b><pre>z-index: 1;</pre>
 Sets whether the given panel is enabled
-Setting Lobby %llu to friends only
+Setting Lobby %llu %s to friends only
 SettingSteamVRBackground
 SettingsPage1
 SettingsPanelShown
@@ -16871,10 +16853,21 @@ SteamMatchMaking009
 SteamMatchMakingServers002
 SteamNetworking005
 SteamPad
+SteamTours Game Stats: ConnectToSteam.
+SteamTours Game Stats: DisconnectFromSteam.
+SteamTours Game Stats: EndStatsSession.
+SteamTours Game Stats: Failed to add new row.
+SteamTours Game Stats: Failed to commit row.
+SteamTours Game Stats: OnSteamSessionInfoClosed.
+SteamTours Game Stats: OnSteamSessionInfoIssued.
+SteamTours Game Stats: SerializeStatsSession SUCCESS.
+SteamTours Game Stats: SerializeStatsSession.
+SteamTours Game Stats: StartStatsSession.
 SteamTours Lobby
 SteamToursAvatarCustomization
 SteamToursContentBrowser
 SteamToursFriends
+SteamToursGameStats
 SteamToursHost001
 SteamToursHud
 SteamToursMultiplayerSystem
@@ -16904,6 +16897,7 @@ SteamUser020
 SteamUtils009
 SteamVR Apps: %d (UNSORTED)...
 SteamVRController
+SteamVRHomeSessionDetails
 SteampadGuideButton
 SteampadGuideButtonUp
 Steamworks Stats: %s Ending %s session id: %llu
@@ -16952,6 +16946,7 @@ Subscribe to a piece of UGC
 SubscribeNetTableListener
 SubscribeWorkshopItem
 SubscribedType
+Success.
 SuggestionPanel
 Summarizes (by class) all extant entities. Optional 2nd arg is a substring of a classname that the list will be filtered by.
 Sundanese
@@ -17720,7 +17715,7 @@ UpdatePlayerName with bogus slot %d
 UpdateProgressBar
 UpdateQueryCache
 UpdateStyleInMemory
-Updated lobby %llu.  serverid=%s
+Updated lobby %llu %s serverid %s
 Updated looping radius sound %d to vol=%f
 Updates visibility bits.
 UpperEyelid( 
@@ -18084,6 +18079,7 @@ W0A;_H
 W0Jc\*
 W3|Uxa
 W49V4u
+W=Z.f
 W?,|C
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
 WARNING
@@ -18255,14 +18251,14 @@ Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
 X LcU
 X [A\]
-X%o_l
+X%oxl
+X%w~d
 X(Optional) If true, only return the published file ids of files that satisfy this query.
 X0~wA
 X2?-,}J
 X360_DST16
 X360_DST24
 X360_DST24F
-X5Lgd
 X=2v?
 XD$ A
 XD$ H
@@ -18291,9 +18287,10 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
-Y%G)	
-Y%t-)
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
+Y- 1	
+Y-?4)
+Y5>4)
 Y5fMV
 Y?C_RopeKeyframe
 YB@fE
@@ -21948,6 +21945,7 @@ command_prefix
 commands
 common.cc
 community
+community_wall
 compiles daisy wheel input dictionaries to more performant form
 composite
 compressed_msg
@@ -22659,7 +22657,7 @@ fA;]>w
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB9< 
-fD9%p
+fD9%P
 fD9K(L
 fD9cV
 fD9s(D
@@ -27406,6 +27404,7 @@ num_comments_public
 num_elements
 num_entries
 num_finished_download
+num_lobby_members
 num_reports
 num_results
 num_server_players
@@ -27435,6 +27434,7 @@ o ATL
 o ATSH
 o$ATL
 o$D9e
+o%|!)
 o(ATL
 o(ATSH
 o*Ral
@@ -28106,6 +28106,7 @@ protocol
 proxies
 psd.cpp
 pszContextName
+pszLaunchSource
 pt_BR
 pt_PT
 ptestbed
@@ -28578,27 +28579,24 @@ russian
 s A9L$$t
 s A9O
 s H;5
-s H;5)
-s H;50d
-s H;50g
-s H;50t
-s H;5IE
-s H;5P
-s H;5Y
-s H;5i
-s H;5t
-s H;5y
+s H;5!
+s H;5,
+s H;51
+s H;5A
+s H;5Q
+s H;5X
+s H;5\
+s H;5`
+s H;5q
+s H;5qr
+s H;5x
 s [A\A]A^]
 s off
 s(AUL
 s(E9&t-A
 s(H;5
-s(H;5)
-s(H;54
-s(H;5P
-s(H;5YR
-s(H;5`d
-s(H;5}p
+s(H;55
+s(H;5\
 s(t.H
 s(~?A
 s)~+@
@@ -28607,33 +28605,32 @@ s/Hc]
 s/glow.vH
 s/spriteH
 s0H;5
-s0H;5@
-s0H;5@d
-s0H;5D:
-s0H;5d
+s0H;5A
+s0H;5H
+s0H;5{
 s0t;H
 s1_mapname
 s2r://
 s69F~
 s7>Ip
 s8H;5
-s8H;5 _
-s8H;5p
-s8H;5pd
+s8H;5(
+s8H;5x
 s@9C@
 s@H9sHv
-s@H;5
+s@H;5L
+s@H;5X
+s@H;5l
 s@HcR
 sAmTb
 sHH;5
-sHH;5E
 sIf true, then files must have all the tags specified.  If false, then must have at least one of the tags specified.
 sMA9|$ 
-sPH;50e
-sPH;5~
+sPH;5
+sPH;56
 sPLT chunk has bad length
 sPLT chunk requires too much memory
-sXH;5`e
+sXH;5
 sZtTH
 s_EntComponentInfo
 s_Ladders
@@ -28650,7 +28647,7 @@ s_kDynamicValuesArraySize
 s_nLatchPermissions
 s_nWatchTransmitEntity
 s`A]A^xq
-s`H;5
+s`H;5P
 saddlebrown
 sample_rate
 samples
@@ -29025,7 +29022,7 @@ source_entity_index
 source_file
 source_filename
 source_folder
-spH;5ef
+spH;5
 space
 space shuttle
 spaceagnosticboneaccessor.cpp
@@ -29423,7 +29420,7 @@ svc_VoiceData
 svc_VoiceInit
 swedish
 swift_prefix
-sxH;5
+sxH;5U
 sxt!H
 sxtoH
 symbol
@@ -29460,15 +29457,12 @@ t";2}
 t"D9p
 t"HcS
 t"L;%
-t"L;% 
-t"L;% q
-t"L;%0s
-t"L;%0w
-t"L;%@
-t"L;%@8
-t"L;%A
-t"L;%Pi
-t"L;%pp
+t"L;%(
+t"L;%8
+t"L;%H
+t"L;%X
+t"L;%Y
+t"L;%x
 t#;:u
 t#IcD$
 t#[A\]
@@ -29478,9 +29472,8 @@ t$ 9K$t
 t$ E1
 t$ H9
 t$ H;5
-t$ H;5!b
-t$ H;5->
-t$ H;5=
+t$ H;5e
+t$ H;5m
 t$ L)
 t$ L9
 t$ fA
@@ -29490,31 +29483,36 @@ t$$fH
 t$(A9
 t$(H9
 t$(H;5
-t$(H;5m>
-t$(H;5u
+t$(H;5%v
+t$(H;5-
 t$(L)
 t$(L9
 t$(t-H
 t$0H9
 t$0H;5
-t$0H;5*
-t$0H;55K
-t$0H;5Q
+t$0H;5	
+t$0H;5=
+t$0H;5E
+t$0H;5Mj
+t$0H;5if
+t$0H;5yi
 t$0f.
 t$0u\H
 t$0~4L
 t$8E1
 t$8H;5
-t$8H;5]
-t$8H;5j
+t$8H;5"
+t$8H;5}
 t$8L9
 t$<	t 
 t$<E1
 t$@H;5
+t$@H;5M
 t$@fA
 t$H;h
 t$HH;5
-t$HH;5j
+t$HH;5"
+t$HH;5]
 t$HcS
 t$HcS(
 t$HcS8
@@ -29530,30 +29528,28 @@ t$Lc+I
 t$PA;pP
 t$PA;uPu
 t$PH;5
+t$PH;5]
 t$TLc
 t$XH;5
 t$`H;5
-t$`H;5I
 t$hH;5
 t$lfA
-t$pH;51<
+t$pH;5
 t$pvufA
 t$xH;5
 t%;2t%H
-t%D:%4z
+t%D:%4
 t%HcC0A
 t%HcSx
 t%L;}
 t&;5/
 t&A;\$
-t&D;%e
+t&D;%
 t&L;%
-t&L;% 
-t&L;%p
+t&L;%(
 t&Lcc
 t&[A\]
 t'H;=
-t'H;=(|
 t'Ic]
 t(<)u
 t(HcM
@@ -29561,7 +29557,7 @@ t(Lc#D;c
 t(Mce
 t([A\A]A^]
 t)@:5
-t)D:%(y
+t)D:%(
 t)HcE
 t)Mc<$E;|$
 t)[A\]
@@ -30950,7 +30946,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=
+x8H;=&_
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31113,8 +31109,11 @@ zzYQ,
 z|uzf
 z~u|A
 { H;=
-{ H;=;
-{ H;=I
+{ H;=!)
+{ H;=&4
+{ H;=Q2
+{ H;=c>
+{ H;=f)
 { H;}
 { [A\A]A^H
 { [A\A]]H
@@ -31132,13 +31131,14 @@ z~u|A
 {([A\]H
 {(fD9't)H
 {0H;=
-{0H;=R
+{0H;=Z+
 {0t!H
 {8[A\H
 {8t;[A\]
-{@H;=H
-{@H;=q
-{HH;= 
+{@H;=P*
+{@H;=y)
+{@[A\]
+{HH;=()
 {HH;{`I
 {PH;=
 {S6wD

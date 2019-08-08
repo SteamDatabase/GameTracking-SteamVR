@@ -410,14 +410,14 @@ panorama/layout/vr_content_browser.vxml_c CRC:0082692c07 size:756
 panorama/layout/vr_friends.vxml_c CRC:009a30628f size:621
 panorama/localization/steamtours_english.txt CRC:003ab28ba3 size:149078
 panorama/panorama_config.txt CRC:00a597fc0e size:294
-panorama/scripts/community_home.vjs_c CRC:001f398852 size:22238
+panorama/scripts/community_home.vjs_c CRC:006518a870 size:22274
 panorama/scripts/community_home_item.vjs_c CRC:0031a852b3 size:11286
 panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
 panorama/styles/base_styles.vcss_c CRC:0025ad4b33 size:25387
 panorama/styles/base_world_panel.vcss_c CRC:0017b56cf5 size:774
 panorama/styles/content_browser.vcss_c CRC:0017b5ae0f size:117219
-panorama/styles/friends.vcss_c CRC:002b2cc8af size:42941
+panorama/styles/friends.vcss_c CRC:00402d14ca size:43080
 panorama/styles/hud.vcss_c CRC:003b124f74 size:723
 panorama/styles/info_panels.vcss_c CRC:00e61c6748 size:6038
 panorama/styles/notifications_panel.vcss_c CRC:00eaac2ce3 size:3282

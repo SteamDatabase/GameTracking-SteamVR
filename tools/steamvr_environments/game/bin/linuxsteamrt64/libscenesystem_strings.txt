@@ -1548,7 +1548,7 @@ BreakPieceExternal
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
 C ~2H
 C,[A\]
-C0[A\A]A^]
+C0[A\]
 C4X[]
 C6FaceSkyboxObjectDesc
 CANCELLED
@@ -3731,10 +3731,16 @@ Volume Cull
 VolumetricFogManifest
 VrLightCookieSettings
 W u)H
-W5,5-
-W5Dy-
-W5\u,
+W%#--
+W%)q-
+W%jm,
+W-%9-
+W-E}-
+W-by,
+W5.}-
+W5Ky,
 W8H;Q
+W=Vm,
 WARNING
 WARNING: Directional lights not supported by the light binner!
 WARNING: Trying to create a CRenderContextPtr without a valid context.
@@ -3764,10 +3770,6 @@ X[A\A]L)
 X[A\A]]
 X[]A\A]A^A_
 Xh#x\
-Y-E|'
-Y-o4%
-Y-oK'
-Y=iw#
 Yaw; 
 YuxfA
 Z/NV6
@@ -3814,6 +3816,7 @@ Z\9Y\
 ^(H9_Pt
 ^8f9_Xu
 ^:f9_Zu
+^= }#
 ^@H9_`u
 ^IcL$
 ^IcL$ Ic
