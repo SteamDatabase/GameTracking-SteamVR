@@ -21,8 +21,8 @@
 	"/actions/lasermouse/in/trackpadscroll": "パネルをスクロール",
 	"/actions/lasermouse/in/enter": "入力",
 	"/actions/lasermouse/in/pointer": "レーザーマウスポインター",
-	"/actions/scroll_discrete/in/scroll": "Scroll Panel",
-	"/actions/scroll_smooth/in/scroll": "Scroll Panel",
+	"/actions/scroll_discrete/in/scroll": "パネルをスクロール",
+	"/actions/scroll_smooth/in/scroll": "パネルをスクロール",
 	"/actions/lasermouse_secondary/in/switchlaserhand": "利き手に設定",
 	"/actions/dualanalog/in/rightclick": "右キーボードのクリック",
 	"/actions/dualanalog/in/leftclick": "左キーボードのクリック",
@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "他方の手のレーザーマウス",
 	"/actions/dualanalog": "キーボード入力",
 	"/actions/system": "システム操作",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "マウスホイール式スクロール",
+	"/actions/scroll_smooth": "トラックパッド式スクロール"
 }

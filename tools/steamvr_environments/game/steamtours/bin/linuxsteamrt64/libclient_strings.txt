@@ -1439,6 +1439,7 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
 (%0.2f): %s
+(%5dZ
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1901,9 +1902,10 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
+.%q?Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
-.-&vN
+.-oYs
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1936,8 +1938,8 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.5&i#
-.=doQ
+.5D"e
+.=ToQ
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -4801,7 +4803,6 @@ $z1u/A
 8fA;1
 8t9E1
 8webm
-9.%\u
 9.1.15
 95*P>
 98N*>
@@ -10135,10 +10136,11 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
+D;%El
+D;%Y}
 D;'tXH
 D;)ts
 D;+}(L
-D;-@o
 D;.tLH
 D;0uOE
 D;3t 
@@ -12147,123 +12149,119 @@ H;:t(f
 H;:u'
 H;= 	
 H;= ;
-H;=!h
+H;=!^
 H;="&
 H;="/
 H;="Z
 H;="n
+H;="z
 H;=#=
 H;=#?
-H;='A
-H;='Z
-H;='\
+H;='*
+H;='P
 H;='r
-H;='u
 H;=($
 H;=(4
-H;=(<
-H;=(T
-H;=(W
-H;=(i
+H;=(K
+H;=(_
+H;=(d
+H;=(g
 H;=)>
 H;=*"
-H;=*Y
+H;=*]
 H;=/	
 H;=0+
 H;=0/
-H;=0P|
 H;=1!
 H;=1?
+H;=1`
 H;=1d
 H;=3(
-H;=4X
-H;=7e
-H;=8=
-H;=8E
+H;=73
+H;=7>
+H;=7S
+H;=7Y
+H;=8-
+H;=89
+H;=8M
+H;=8T
 H;=8^
-H;=8`
-H;=8c
-H;=8x
+H;=8a
+H;=:!
 H;=:$
 H;=:-
 H;=:N
 H;=:l
+H;=:x
 H;=>,
 H;=>-
-H;=>Q
-H;=A'
-H;=Aa
-H;=Aw
+H;=Ab
+H;=Ad
 H;=B'
 H;=B0
+H;=BT
 H;=BZ
+H;=B{
 H;=D+
-H;=D6
 H;=Dk
-H;=G,
-H;=GL
-H;=GQ
+H;=G<
+H;=GE
 H;=GR
-H;=Gn
+H;=G\
+H;=Gb
 H;=H!
-H;=H?
-H;=HF
-H;=HL
-H;=Hb
-H;=Hf
-H;=Hi
-H;=LW|
+H;=H]
+H;=Hc
+H;=JQ
 H;=OI
 H;=PS
 H;=Q 
-H;=QW
-H;=Qc
 H;=R'
 H;=T/
 H;=W?
-H;=WZ
+H;=WN
 H;=Wp
-H;=XU
-H;=Xd
-H;=Xo
+H;=X	
+H;=XI
+H;=Xf
 H;=Z%
 H;=Z.
 H;=Zm
+H;=Zy
 H;=_z
 H;=`5
 H;=`K
 H;=a3
-H;=ae
+H;=a[
 H;=b(
 H;=b1
-H;=bc
+H;=b|
 H;=e,
-H;=g#
+H;=g<
+H;=g=
+H;=gW
 H;=ga
-H;=gc
-H;=hC
-H;=h]
-H;=h^
-H;=hf
+H;=gn
+H;=hR
+H;=h\
 H;=hz
 H;=i"
-H;=kJ
 H;=mQ
+H;=n~
 H;=p4
 H;=pT
-H;=qg
-H;=r~
-H;=wO
-H;=wl
-H;=xJ
-H;=xg
-H;=xh
+H;=q]
+H;=w`
+H;=ww
+H;=x[
+H;=x^
 H;=xu
 H;=y>
 H;=z#
 H;=z&
 H;=z/
 H;=zn
+H;=zz
 H;=~>
 H;B@t
 H;C(t
@@ -12407,7 +12405,6 @@ HasSaveGame
 HaticsType_Default
 HaticsType_None
 Hc5gX
-Hc5pF
 Hc7;w
 Hc@$H
 Hc@(E1
@@ -13495,13 +13492,13 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
+Lc%<l
 Lc'D)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
 Lc-	^
-Lc-7o
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -16863,6 +16860,7 @@ SteamTours Game Stats: OnSteamSessionInfoIssued.
 SteamTours Game Stats: SerializeStatsSession SUCCESS.
 SteamTours Game Stats: SerializeStatsSession.
 SteamTours Game Stats: StartStatsSession.
+SteamTours Game Stats: Steam APIs not found. Not connecting to Steam
 SteamTours Lobby
 SteamToursAvatarCustomization
 SteamToursContentBrowser
@@ -18079,7 +18077,6 @@ W0A;_H
 W0Jc\*
 W3|Uxa
 W49V4u
-W=Z.f
 W?,|C
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.
 WARNING
@@ -18251,8 +18248,6 @@ Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
 X LcU
 X [A\]
-X%oxl
-X%w~d
 X(Optional) If true, only return the published file ids of files that satisfy this query.
 X0~wA
 X2?-,}J
@@ -18287,11 +18282,14 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
+Y%$4)
+Y%,Ao
+Y%wum
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y- 1	
-Y-?4)
-Y5>4)
-Y5fMV
+Y-P1	
+Y-o4)
+Y5VMV
+Y5n4)
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18440,7 +18438,7 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\=?SR
+\=/SR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -22657,7 +22655,6 @@ fA;]>w
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB9< 
-fD9%P
 fD9K(L
 fD9cV
 fD9s(D
@@ -27434,7 +27431,7 @@ o ATL
 o ATSH
 o$ATL
 o$D9e
-o%|!)
+o%EyV
 o(ATL
 o(ATSH
 o*Ral
@@ -29542,9 +29539,8 @@ t%D:%4
 t%HcC0A
 t%HcSx
 t%L;}
-t&;5/
 t&A;\$
-t&D;%
+t&D;%5
 t&L;%
 t&L;%(
 t&Lcc
@@ -30946,7 +30942,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=&_
+x8H;=
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31130,7 +31126,7 @@ z~u|A
 {([A\]
 {([A\]H
 {(fD9't)H
-{0H;=
+{0H;=8Z
 {0H;=Z+
 {0t!H
 {8[A\H

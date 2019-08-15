@@ -15,14 +15,14 @@
 	"/actions/lasermouse/in/moveup": "위로 이동",
 	"/actions/lasermouse/in/moveleft": "왼쪽으로 이동",
 	"/actions/lasermouse/in/movedown": "아래로 이동",
-	"/actions/lasermouse/in/trackpadtouch": "트랙 패드 터치",
-	"/actions/lasermouse/in/trackpadvalue": "트랙 패드 이동",
+	"/actions/lasermouse/in/trackpadtouch": "트랙패드 터치",
+	"/actions/lasermouse/in/trackpadvalue": "트랙패드 이동",
 	"/actions/lasermouse/in/switchgamepadfocus": "패널 포커스 전환(게임패드)",
 	"/actions/lasermouse/in/trackpadscroll": "패널 스크롤",
 	"/actions/lasermouse/in/enter": "확인",
 	"/actions/lasermouse/in/pointer": "레이저 마우스 포인터",
-	"/actions/scroll_discrete/in/scroll": "Scroll Panel",
-	"/actions/scroll_smooth/in/scroll": "Scroll Panel",
+	"/actions/scroll_discrete/in/scroll": "패널 스크롤",
+	"/actions/scroll_smooth/in/scroll": "패널 스크롤",
 	"/actions/lasermouse_secondary/in/switchlaserhand": "주로 사용할 손으로 지정",
 	"/actions/dualanalog/in/rightclick": "오른쪽 키보드 클릭",
 	"/actions/dualanalog/in/leftclick": "왼쪽 키보드 클릭",
@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "보조 레이저 마우스",
 	"/actions/dualanalog": "키보드 입력",
 	"/actions/system": "시스템 액션",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "마우스휠 방식 스크롤",
+	"/actions/scroll_smooth": "트랙패드 방식 스크롤"
 }

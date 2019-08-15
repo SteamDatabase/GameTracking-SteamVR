@@ -9,7 +9,7 @@
 	"pairing_nofreedongles_desc": "Wygląda na to,  że twoje kontrolery już są połączone!",
 	"pairing_nofreedongles_instr": "Aby sparować nowy kontroler, <span class=\"Highlight\">wyłącz jeden z twoich obecnych kontrolerów</span>.",
 	"pairing_nodongles_title": "Nie wykryto urządzeń do sparowania",
-	"pairing_nodongles_desc": "SteamVR jest w stanie znaleźć żadnego sprzętu, z którym można sparować kontrolery.",
+	"pairing_nodongles_desc": "SteamVR nie jest w stanie znaleźć żadnego sprzętu, z którym można sparować kontrolery.",
 	"pairing_nodongles_instr": "Upewnij się, że twoje gogle są podłączone.",
 	"pairing_selectdevice_title": "Wybierz rodzaj kontrolera",
 	"pairingdevice_knuckles_controllername": "Kontroler Knuckles",

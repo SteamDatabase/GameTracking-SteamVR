@@ -90,6 +90,7 @@
 		"AllocWarnMB" "2048"
 		"ReserveWarnMB" "2048"
 		"PerformsShutdown"	"1"
+		"PreloadIcuucDll" "1"
 	}
 
 	SceneSystem

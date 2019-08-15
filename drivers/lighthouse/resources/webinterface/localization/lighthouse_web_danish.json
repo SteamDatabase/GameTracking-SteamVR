@@ -9,7 +9,7 @@
 	"pairing_nofreedongles_desc": "Det ser ud som om, at dine controllere allerede er tilsluttet!",
 	"pairing_nofreedongles_instr": "For at tilknytte en ny controller, <span class=\"Highlight\">skal du slukke dine eksisterende controllere</span>.",
 	"pairing_nodongles_title": "Der blev ikke fundet nogen enheder, som kan tilknyttes",
-	"pairing_nodongles_desc": "SteamVR kunne ikke finde noget hardware til at tilknytte controllere til.",
+	"pairing_nodongles_desc": "SteamVR kunne ikke finde nogen hardware at tilknytte controllere til.",
 	"pairing_nodongles_instr": "Sørg for, at dit headset er tilsluttet.",
 	"pairing_selectdevice_title": "Vælg din controllertype",
 	"pairingdevice_knuckles_controllername": "Knuckles-controller",

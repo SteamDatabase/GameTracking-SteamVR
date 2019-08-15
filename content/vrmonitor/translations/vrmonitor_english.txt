@@ -1257,7 +1257,6 @@
 "HeadsetView_EyeMode_Right" "Right Eye"
 "HeadsetView_EyeMode_BothLeftDominant" "Both Eyes - Left Dominant"
 "HeadsetView_EyeMode_BothRightDominant" "Both Eyes - Right Dominant"
-"HeadsetView_ViewMode_Center" "Center View"
-"HeadsetView_ViewMode_Full" "Full View"
+"HeadsetView_DebugCommands" "Open Debug Commands"
 }
 }

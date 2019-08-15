@@ -3036,8 +3036,9 @@ models/third_party/props/toys/trains_vr_locomotive.vphys_c CRC:00a5ce9e95 size:2
 models/third_party/props/toys/vive_logo_statue.vmdl_c CRC:007646209e size:4044
 models/third_party/props/toys/vive_logo_statue.vmesh_c CRC:0025f3031d size:217019
 models/third_party/props/toys/vive_logo_statue.vphys_c CRC:003982c8c9 size:23052
-models/third_party/props/toys/wrath_of_loki_hammer.vmdl_c CRC:0003d5119a size:3676
-models/third_party/props/toys/wrath_of_loki_hammer.vmesh_c CRC:00555e6bb9 size:94941
+models/third_party/props/toys/wrath_of_loki_hammer.vmdl_c CRC:00f86ea9fc size:4220
+models/third_party/props/toys/wrath_of_loki_hammer.vmesh_c CRC:005d15cea3 size:95004
+models/third_party/props/toys/wrath_of_loki_hammer.vphys_c CRC:0086e67eaf size:26064
 models/turret_models/balcony.vmdl_c CRC:0040b41176 size:3740
 models/turret_models/balcony.vmesh_c CRC:002484f2f9 size:85609
 models/turret_models/eaad7de7/3penny_hi.vanim_c CRC:00fb14d928 size:144846

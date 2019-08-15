@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "เมาส์เลเซอร์แบบฉับพลัน",
 	"/actions/dualanalog": "การป้อนผ่านคีย์บอร์ด",
 	"/actions/system": "คำสั่งระบบ",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "การเลื่อนสไตล์ล้อเมาส์",
+	"/actions/scroll_smooth": "การเลื่อนสไตล์แทร็คแพด"
 }
