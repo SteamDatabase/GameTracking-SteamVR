@@ -870,7 +870,7 @@
 "Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
 
 "Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Device No Longer Supported"
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "Your %1 (%2) is a pre-production development tool and is no longer supported.<br><br><font color=#ff0000>Functionality is not expected. Please replace immediately.</font>"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "<font color=#aaaa00>Your pre-production %1 is no longer supported.</font> <br><br> This device will no longer receive firmware updates, and diminished functionality is expected. Please replace at your earliest convenience. <br><br>(hwid: %2)"
 "Warning_DismissableWarning_DevelopmentHardwareNotSupported_Action" " "
 "Warning_DismissableWarning_DevelopmentHardwareNotSupported_ActionURL" " "
 

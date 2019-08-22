@@ -1439,7 +1439,6 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
 (%0.2f): %s
-(%5dZ
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1905,7 +1904,6 @@ $z1u/A
 .%q?Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
-.-oYs
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1938,7 +1936,6 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.5D"e
 .=ToQ
 .>()09
 .>N^n~
@@ -4959,7 +4956,7 @@ $z1u/A
 ;G tu+G$L
 ;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
 ;GPttK
-;Hc5Y
+;Hc59
 ;I9<$uY
 ;L$D|*
 ;P0}K
@@ -7478,7 +7475,7 @@ BeginScriptDebug
 BenchmarkService001
 Bengali
 BentNormalData
-BetaBranchName
+BetaBranchID
 Bezier
 BhIcT$8H
 Bidirectional_Messages
@@ -10062,7 +10059,7 @@ D$\A9
 D$`9D$X
 D$`A9E`A
 D$`H9
-D$`H;==j
+D$`H;=
 D$`L;
 D$`t	
 D$hH9
@@ -10139,13 +10136,12 @@ D;!ttHc
 D;'tXH
 D;)ts
 D;+}(L
-D;->4
-D;-]3
+D;-Nz
+D;-Pk
 D;.tLH
 D;0uOE
 D;3t 
 D;3}5
-D;5Qp
 D;8tQH
 D;9tlA
 D;C }JMc
@@ -10354,6 +10350,9 @@ DecrementButton
 Default class when joining a game
 Default team when joining a game
 Default value for an enum field must be an identifier.
+DefaultHomeAddon
+DefaultHomeMap
+DefaultHomeType
 DefaultLarge
 DefaultResponseSystem
 DefaultTouch
@@ -10954,6 +10953,7 @@ EnvironmentMapBuilder_001
 EnvironmentMaps
 EpV8B
 EpfD9 t]H
+EquipToolQuickInventoryCount
 Error (%d:%d)
 Error code %d
 Error could not find '%s' quest section in contentdb.txt!
@@ -12135,146 +12135,125 @@ H;0t*A
 H;0t+A
 H;0t0H
 H;0t\H
-H;5	w
-H;51J
-H;5I=
-H;5L}
-H;5YH
-H;5al
-H;5ht
-H;5q~
-H;5u?
+H;51=
+H;54}
+H;5AH
+H;5Il
+H;5Pt
+H;5Y~
+H;5]?
 H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;= 	
-H;= ;
-H;=!`
-H;="Z
-H;="k
-H;="w
-H;=#?
-H;='@
-H;='H
-H;='`
-H;='e
-H;='r
-H;='|
-H;=($
-H;=(4
-H;=(:
-H;=(C
-H;=(Z
-H;=(`
-H;=(a
-H;=)>
-H;=* 
-H;=*)
-H;=/	
-H;=0+
-H;=0/
-H;=1!
-H;=1"
-H;=1?
-H;=1b
-H;=1d
-H;=2#
-H;=2,
-H;=27
-H;=3(
-H;=76
+H;=	b
+H;= 8
+H;= S
+H;= e
+H;="N
+H;="U
+H;="~
+H;=&,
+H;=&-
+H;=(L|
+H;=+>
+H;=,+
+H;=,k
+H;=/R
+H;=/]
+H;=/a
+H;=/z
+H;=/~
+H;=0!
+H;=0A
+H;=0\
+H;=0_
+H;=1>
+H;=2%
+H;=2.
+H;=49
+H;=6M
 H;=7I
-H;=7Q
-H;=8L
-H;=8~
-H;=:N
-H;=:i
-H;==S
-H;=>,
-H;=>-
-H;=A!
-H;=BI
-H;=BZ
-H;=Bl
-H;=Bx
-H;=D+
-H;=Dk
-H;=G?
-H;=GR
-H;=GZ
-H;=G]
-H;=Gr
-H;=H!
-H;=H:
-H;=H;
-H;=HU
-H;=HZ
-H;=H_
-H;=Hl
-H;=Hp
-H;=J!
-H;=J*
-H;=OI
-H;=PS
-H;=QQ
-H;=Q[
-H;=R$
-H;=R'
-H;=R-
-H;=T/
-H;=W 
-H;=W9
-H;=W?
-H;=WF
-H;=Wc
-H;=Wp
-H;=X\
-H;=X^
-H;=Xu
-H;=Ye
-H;=Zj
-H;=_z
-H;=`5
-H;=`K
-H;=a3
-H;=a]
-H;=bm
-H;=by
-H;=c<
-H;=e,
-H;=g)
-H;=gO
-H;=hJ
-H;=h^
-H;=hc
-H;=hf
-H;=j!
-H;=j"
-H;=j+
-H;=j\
-H;=mQ
-H;=p4
-H;=pT
-H;=q_
-H;=r%
-H;=r.
-H;=w2
-H;=w=
-H;=wR
-H;=wX
-H;=x,
-H;=x8
-H;=xL
-H;=xS
-H;=x]
-H;=x`
-H;=x~
-H;=y>
-H;=z 
-H;=zk
-H;=zw
-H;=~>
+H;=8S
+H;=9#
+H;=9]
+H;=9s
+H;=:'
+H;=:(
+H;=:g
+H;=</
+H;=<2
+H;=??
+H;=?M
+H;=?h
+H;=?j
+H;=?p
+H;=@'
+H;=@;
+H;=@G
+H;=@H
+H;=@^
+H;=@e
+H;=DS|
+H;=Gz
+H;=H5
+H;=HK
+H;=I3
+H;=IS
+H;=I_
+H;=M,
+H;=O6
+H;=OV
+H;=Oq
+H;=P0
+H;=PQ
+H;=P`
+H;=R&
+H;=R/
+H;=Rf
+H;=X4
+H;=XT
+H;=Ya
+H;=Z 
+H;=Z)
+H;=Z_
+H;=Zh
+H;=_?
+H;=__
+H;=_y
+H;=`?
+H;=`Z
+H;=`b
+H;=f>
+H;=h$
+H;=h3
+H;=i?
+H;=ic
+H;=jz
+H;=k=
+H;=ll
+H;=oK
+H;=oh
+H;=ot
+H;=pF
+H;=pc
+H;=pd
+H;=q&
+H;=r!
+H;=r'
+H;=td
+H;=w~
+H;=x#
+H;=x2
+H;=xU
+H;=y4
+H;=ye
+H;=z!
+H;=z*
+H;=zQ
+H;=zi
+H;={F
+H;={}
 H;B@t
 H;C(t
 H;CPw<I
@@ -12416,7 +12395,6 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
-Hc5 ?
 Hc7;w
 Hc@$H
 Hc@(E1
@@ -13340,7 +13318,7 @@ L9|$HJ
 L: %.2f deg
 L;!t!f.
 L;"tJA
-L;-.D
+L;-~B
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13503,15 +13481,14 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
-Lc%|k
+Lc%JT
 Lc'D)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-54
-Lc-I]
-Lc-T3
+Lc-Ez
+Lc-Gk
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -17347,6 +17324,7 @@ ToggleButton
 ToggleButton.SelectedTextColor
 ToggleClass
 ToggleConsole
+ToggleContentBrowserCount
 ToggleDebugger
 ToggleFullscreen
 TogglePanelSelected
@@ -18295,14 +18273,10 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
-Y%$4)
-Y%,Ao
-Y%wum
+Y%<<o
+Y%W0	
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-P1	
-Y-o4)
 Y5VMV
-Y5n4)
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -22669,6 +22643,7 @@ fA;]>w
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB9< 
+fD9%`
 fD9K(L
 fD9cV
 fD9s(D
@@ -27445,7 +27420,7 @@ o ATL
 o ATSH
 o$ATL
 o$D9e
-o%EyV
+o%?%)
 o(ATL
 o(ATSH
 o*Ral
@@ -28590,24 +28565,23 @@ russian
 s A9L$$t
 s A9O
 s H;5
-s H;5!
-s H;5,
-s H;51
-s H;5A
-s H;5Q
-s H;5X
-s H;5\
+s H;5	
+s H;5)
+s H;59
+s H;5@
+s H;5D
+s H;5H
+s H;5Y
+s H;5Yr
 s H;5`
-s H;5q
-s H;5qr
-s H;5x
+s H;5i
+s H;5y
 s [A\A]A^]
 s off
 s(AUL
 s(E9&t-A
 s(H;5
-s(H;55
-s(H;5\
+s(H;5D
 s(t.H
 s(~?A
 s)~+@
@@ -28616,29 +28590,28 @@ s/Hc]
 s/glow.vH
 s/spriteH
 s0H;5
-s0H;5A
-s0H;5H
-s0H;5{
+s0H;5)
+s0H;50
+s0H;5c
 s0t;H
 s1_mapname
 s2r://
 s69F~
 s7>Ip
 s8H;5
-s8H;5(
-s8H;5x
+s8H;5`
 s@9C@
 s@H9sHv
-s@H;5L
-s@H;5X
-s@H;5l
+s@H;54
+s@H;5@
+s@H;5T
 s@HcR
 sAmTb
 sHH;5
+sHH;5p
 sIf true, then files must have all the tags specified.  If false, then must have at least one of the tags specified.
 sMA9|$ 
 sPH;5
-sPH;56
 sPLT chunk has bad length
 sPLT chunk requires too much memory
 sXH;5
@@ -28658,7 +28631,7 @@ s_kDynamicValuesArraySize
 s_nLatchPermissions
 s_nWatchTransmitEntity
 s`A]A^xq
-s`H;5P
+s`H;58
 saddlebrown
 sample_rate
 samples
@@ -29431,7 +29404,7 @@ svc_VoiceData
 svc_VoiceInit
 swedish
 swift_prefix
-sxH;5U
+sxH;5=
 sxt!H
 sxtoH
 symbol
@@ -29469,12 +29442,12 @@ t";2}
 t"D9p
 t"HcS
 t"L;%
-t"L;%(
-t"L;%8
-t"L;%H
-t"L;%X
-t"L;%Y
-t"L;%x
+t"L;% 
+t"L;%0
+t"L;%@
+t"L;%A
+t"L;%`
+t"L;%p
 t#;:u
 t#IcD$
 t#[A\]
@@ -29484,8 +29457,8 @@ t$ 9K$t
 t$ E1
 t$ H9
 t$ H;5
-t$ H;5e
-t$ H;5m
+t$ H;5M
+t$ H;5U
 t$ L)
 t$ L9
 t$ fA
@@ -29495,36 +29468,37 @@ t$$fH
 t$(A9
 t$(H9
 t$(H;5
-t$(H;5%v
-t$(H;5-
+t$(H;5}
 t$(L)
 t$(L9
 t$(t-H
 t$0H9
 t$0H;5
-t$0H;5	
-t$0H;5=
-t$0H;5E
-t$0H;5Mj
-t$0H;5if
-t$0H;5yi
+t$0H;5%
+t$0H;5-
+t$0H;55j
+t$0H;5Qf
+t$0H;5ai
+t$0H;5m
+t$0H;5mn
+t$0H;5}N
 t$0f.
 t$0u\H
 t$0~4L
 t$8E1
 t$8H;5
-t$8H;5"
-t$8H;5}
+t$8H;5e
+t$8H;5q
 t$8L9
 t$<	t 
 t$<E1
-t$@H;5
-t$@H;5M
+t$@H;55
+t$@H;5~
 t$@fA
 t$H;h
 t$HH;5
-t$HH;5"
-t$HH;5]
+t$HH;5E
+t$HH;5ly
 t$HcS
 t$HcS(
 t$HcS8
@@ -29539,36 +29513,39 @@ t$Htl
 t$Lc+I
 t$PA;pP
 t$PA;uPu
-t$PH;5
-t$PH;5]
+t$PH;5E
+t$PH;5y
 t$TLc
-t$XH;5
+t$XH;5}
 t$`H;5
+t$`H;5}q
 t$hH;5
 t$lfA
 t$pH;5
 t$pvufA
-t$xH;5
+t$xH;5}
+t%95nX
 t%;2t%H
-t%D:%t
+t%D:%
 t%HcC0A
 t%HcSx
 t%L;}
 t&A;\$
-t&D;%u
+t&D;%
 t&L;%
-t&L;%(
+t&L;%p
 t&Lcc
 t&[A\]
 t'H;=
+t'H;=h
 t'Ic]
 t(<)u
 t(HcM
 t(Lc#D;c
 t(Mce
 t([A\A]A^]
-t)@:5
-t)D:%h
+t)@:5a
+t)D:%
 t)HcE
 t)Mc<$E;|$
 t)[A\]
@@ -31120,13 +31097,10 @@ zzYQ,
 z|uzf
 z~u|A
 { H;=
-{ H;=!)
-{ H;=!3
-{ H;=3*
-{ H;=V
-{ H;=c>
-{ H;=f)
-{ H;=f3
+{ H;=	)
+{ H;=.0
+{ H;=N)
+{ H;=y1
 { H;}
 { [A\A]A^H
 { [A\A]]H
@@ -31136,7 +31110,7 @@ z~u|A
 {$[A\A]A^H
 {$t%:
 {(9x(
-{(H;="+
+{(H;=z)
 {(H;}
 {([A\A]H
 {([A\A]]
@@ -31144,15 +31118,14 @@ z~u|A
 {([A\]H
 {(fD9't)H
 {0H;=
-{0H;=xY
 {0t!H
 {8[A\H
 {8t;[A\]
 {@H;=
 {@[A\]
-{HH;=h(
+{HH;=
 {HH;{`I
-{PH;=!(
+{PH;=y&
 {S6wD
 {XtJH
 {YIN?

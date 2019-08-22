@@ -1430,6 +1430,7 @@ Failed to call CBaseIntrospectedToKV3TypeManager::Init
 Failed to call CBaseIntrospectedTypeManager::Init
 Failed to call CBaseIntrospectedTypeManager::SetDiskDataBinding
 Failed to fix resource reference '%s' (%s)- ID = %016llX, Expected in extref block.'
+Failed to get material pointer for world node draw call. (material name: %s)
 Failed to include script "%s"
 Failed to load geometry for level %s
 Failed to mount world vpk file %s, file could not be found.
@@ -4308,7 +4309,7 @@ tyHcS
 tyHcW
 u0[A\A]A^]
 u64( %lld = 0x%llX )
-uAL;%
+uAL;%J
 u`H9u
 ugH9}
 uiTransparentPixels < PIXELS
