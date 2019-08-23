@@ -1,4 +1,5 @@
 {
+   "action_manifest_version" : 0,
    "alias_info" : {},
    "app_key" : "openvr.component.vrcompositor",
    "bindings" : {
@@ -7,50 +8,68 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/dualanalog/in/LeftClick"
-                  },
-                  "position" : {
-                     "output" : "/actions/dualanalog/in/LeftValue"
-                  },
-                  "touch" : {
-                     "output" : "/actions/dualanalog/in/LeftTouch"
-                  }
-               },
-               "mode" : "trackpad",
-               "path" : "/user/hand/left/input/trackpad"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/dualanalog/in/RightClick"
-                  },
-                  "position" : {
-                     "output" : "/actions/dualanalog/in/RightValue"
-                  },
-                  "touch" : {
-                     "output" : "/actions/dualanalog/in/RightTouch"
-                  }
-               },
-               "mode" : "trackpad",
-               "path" : "/user/hand/right/input/trackpad"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/dualanalog/in/ModeSwitch1"
+                     "output" : "/actions/dualanalog/in/modeswitch1"
                   }
                },
                "mode" : "button",
-               "path" : "/user/hand/left/input/grip"
+               "path" : "/user/hand/left/input/a"
             },
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/dualanalog/in/ModeSwitch2"
+                     "output" : "/actions/dualanalog/in/modeswitch2"
                   }
                },
                "mode" : "button",
-               "path" : "/user/hand/right/input/grip"
+               "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/leftclick"
+                  },
+                  "position" : {
+                     "output" : "/actions/dualanalog/in/leftvalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/dualanalog/in/lefttouch"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/left/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/rightclick"
+                  },
+                  "position" : {
+                     "output" : "/actions/dualanalog/in/rightvalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/dualanalog/in/righttouch"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/rightclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/leftclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
             }
          ]
       },
@@ -221,15 +240,15 @@
                },
                "mode" : "scroll",
                "parameters" : {
-                  "scroll_mode" : "discrete",
-                  "discrete_scroll_trackpad_noisethreshold_ontouch" : "0.15",
-                  "discrete_scroll_trackpad_noisethreshold_onmove" : "0.01",
-                  "discrete_scroll_trackpad_noisethreshold_onreversal" : "0.045",
-                  "discrete_scroll_trackpad_accumthreshold_ontouch" : "0.78",
                   "discrete_scroll_trackpad_accumthreshold_onmove" : "0.28",
                   "discrete_scroll_trackpad_accumthreshold_onreversal" : "0.84",
+                  "discrete_scroll_trackpad_accumthreshold_ontouch" : "0.78",
+                  "discrete_scroll_trackpad_noisethreshold_onmove" : "0.01",
+                  "discrete_scroll_trackpad_noisethreshold_onreversal" : "0.045",
+                  "discrete_scroll_trackpad_noisethreshold_ontouch" : "0.15",
+                  "discrete_scroll_trackpad_slideandhold_borderbottom" : "-0.65",
                   "discrete_scroll_trackpad_slideandhold_bordertop" : "0.55",
-                  "discrete_scroll_trackpad_slideandhold_borderbottom" : "-0.65"
+                  "scroll_mode" : "discrete"
                },
                "path" : "/user/hand/left/input/trackpad"
             },
@@ -241,15 +260,15 @@
                },
                "mode" : "scroll",
                "parameters" : {
-                  "scroll_mode" : "discrete",
-                  "discrete_scroll_trackpad_noisethreshold_ontouch" : "0.15",
-                  "discrete_scroll_trackpad_noisethreshold_onmove" : "0.01",
-                  "discrete_scroll_trackpad_noisethreshold_onreversal" : "0.045",
-                  "discrete_scroll_trackpad_accumthreshold_ontouch" : "0.78",
                   "discrete_scroll_trackpad_accumthreshold_onmove" : "0.28",
                   "discrete_scroll_trackpad_accumthreshold_onreversal" : "0.84",
+                  "discrete_scroll_trackpad_accumthreshold_ontouch" : "0.78",
+                  "discrete_scroll_trackpad_noisethreshold_onmove" : "0.01",
+                  "discrete_scroll_trackpad_noisethreshold_onreversal" : "0.045",
+                  "discrete_scroll_trackpad_noisethreshold_ontouch" : "0.15",
+                  "discrete_scroll_trackpad_slideandhold_borderbottom" : "-0.65",
                   "discrete_scroll_trackpad_slideandhold_bordertop" : "0.55",
-                  "discrete_scroll_trackpad_slideandhold_borderbottom" : "-0.65"
+                  "scroll_mode" : "discrete"
                },
                "path" : "/user/hand/right/input/trackpad"
             }
@@ -384,9 +403,10 @@
          ]
       }
    },
+   "category" : "steamvr_input",
    "controller_type" : "knuckles",
    "description" : "",
-   "name" : "vrcompositor_bindings_knuckles",
+   "name" : "Default VR Dashboard bindings for Index Controllers",
    "options" : {},
    "simulated_actions" : []
 }

@@ -992,7 +992,6 @@ H[A\L)
 H[]A\A]A^A_
 HammerMapLoader001
 Has Collision; 
-Hc57i,
 HcCh;Cx
 HcD$pH
 HcGpUH
@@ -1142,7 +1141,7 @@ Launching %s
 Lc)D;i
 Lc/E)
 Lc3D;s
-Lc=1g,
+Lc5ig,
 LcghD;gx
 Lcs8D;sHD
 Length; 
@@ -3397,19 +3396,19 @@ vpcf7
 vpcf8
 vpcf9
 vr.cpp
-vr.cpp(4711): ERROR! Unknown controller axis type %d!
-vr.cpp(5822): VR - Destroying old VB for Stenciling!
-vr.cpp(5867): VR - Error! VB handle is invalid in CVrStencilRenderer!
-vr.cpp(6011): VR - Destroying old VB for SubviewStenciling!
-vr.cpp(6353): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
-vr.cpp(6534): VR - Destroying old IB for warping!
-vr.cpp(6612): VR - Error! VB handle is invalid in CVrWarpRenderer!
-vr.cpp(6621): VR - Error! IB handle is invalid in CVrWarpRenderer!
-vr.cpp(6771): VR - Destroying old VB for reconstruction eye %d!
-vr.cpp(6778): VR - Destroying old IB for reconstruction eye %d!
-vr.cpp(6799): VR - Destroying old IB for reconstruction!
-vr.cpp(6939): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
-vr.cpp(6948): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(4716): ERROR! Unknown controller axis type %d!
+vr.cpp(5827): VR - Destroying old VB for Stenciling!
+vr.cpp(5872): VR - Error! VB handle is invalid in CVrStencilRenderer!
+vr.cpp(6016): VR - Destroying old VB for SubviewStenciling!
+vr.cpp(6358): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
+vr.cpp(6539): VR - Destroying old IB for warping!
+vr.cpp(6617): VR - Error! VB handle is invalid in CVrWarpRenderer!
+vr.cpp(6626): VR - Error! IB handle is invalid in CVrWarpRenderer!
+vr.cpp(6776): VR - Destroying old VB for reconstruction eye %d!
+vr.cpp(6783): VR - Destroying old IB for reconstruction eye %d!
+vr.cpp(6804): VR - Destroying old IB for reconstruction!
+vr.cpp(6944): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(6953): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
 vr_assert.cpp
 vr_author_refpt vrfly_refpt_pos vrfly_refpt_ang anchor models/dev/gordon_at_desk.vmdl
 vr_black_level_clamp
