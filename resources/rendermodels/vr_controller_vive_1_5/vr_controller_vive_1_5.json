@@ -164,6 +164,12 @@
                 "rotate_xyz" : [1.282,0.0,0.0]
             }
         },
+        "front": {
+            "component_local" : {
+                "origin": [0.0, -0.01, -0.007],
+                "rotate_xyz" : [-55,0.0,0.0]
+            }
+        },
         "handgrip": {
             "component_local" : {
                 "origin": [0.0, 0.003, 0.097],

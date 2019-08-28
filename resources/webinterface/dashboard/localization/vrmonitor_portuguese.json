@@ -77,7 +77,7 @@
 	"Settings_ArcadeMode": "Ativar modo Arcade",
 	"Settings_CheckForSteam": "Procurar Steam",
 	"Settings_DebugInputBindings": "Ativar opções de debugging na interface de configuração de controlos",
-	"Settings_DoNotFadeToGrid": "Não mostrar a grelha se aplicação encravar",
+	"Settings_DoNotFadeToGrid": "Não mostrar grelha se aplicação encravar",
 	"Settings_EnableDashboard": "Ativar Painel de R.V.",
 	"Settings_HomeAppCheck": "Usar SteamVR Home",
 	"Settings_HomeAppDesc": "Desfruta de ambientes virtuais, funcionalidades sociais e muito mais.",

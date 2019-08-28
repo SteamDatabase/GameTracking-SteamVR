@@ -78,6 +78,10 @@
         "type" : "pose",
         "binding_image_point" : [ 62, 16 ]
     },
+    "/pose/front" : {
+        "type" : "pose",
+        "binding_image_point" : [ 62, 16 ]
+    },
     "/pose/gdc2015" : {
         "type" : "pose",
         "binding_image_point" : [ 62, 16 ]

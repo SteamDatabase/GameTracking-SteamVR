@@ -303,6 +303,7 @@
   "BindingUI_WindowTitle_ControllerSettings": "Controller Settings",
   "BindingUI_WindowTitle_ControllerBinding": "Controller Binding",
   "BindingUI_WindowTitle_ManageTrackers": "Manage Vive Trackers",
+  "BindingUI_WindowTitle_DisplaySettings": "Display Settings",
 
   "ActionManifestError_ManifestParseError": "The action manifest for %1$s has an issue: \"%2$s\".",
   "ActionManifestError_FileNotFound": "The action manifest for %1$s was not found.",
@@ -313,6 +314,20 @@
   "TrackerEditor_BuzzTracker": "Identify Tracker",
   "TrackerEditor_SelectRole": "Select Role:",
   "TrackerEditor_SelectControllerRole": "Which hands:",
+
+  "DisplaySettings_Title": "Display Settings",
+  "DisplaySettings_DisplayBrightness": "Display Brightness",
+  "DisplaySettings_ColumnCorrection": "Column Correction",
+  "DisplaySettings_ColumnCorrectionDesc": "Column Correction mitigates vertical \"screendoor\" during head motion. Most users should leave it enabled, with fine adjustment of 0.",
+  "DisplaySettings_Error_FirmwareUpdateNeeded": "A firmware update is required to enable Display Settings customizations.",
+  "DisplaySettings_EnableColumnCorrection": "Column Correction",
+  "DisplaySettings_AdvancedSettings": "Advanced Settings",
+  "DisplaySettings_ShowAdvancedSettings": "Show Advanced Settings",
+  "DisplaySettings_HideAdvancedSettings": "Hide Advanced Settings",
+  "DisplaySettings_ResetAdvancedSettings": "Use Recommended Advanced Settings",
+  "DisplaySettings_ColumnCorrectionBiasLeft": "Fine Adjustment (Left)",
+  "DisplaySettings_ColumnCorrectionBiasRight": "Fine Adjustment (Right)",
+  "DisplaySettings_ColumnCorrectionBiasLinked": "Linked",
 
   "SaveNotice_Saving": "Saving...",
   "SaveNotice_Uploading": "Uploading...",

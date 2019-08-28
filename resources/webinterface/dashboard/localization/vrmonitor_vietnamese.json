@@ -1,7 +1,7 @@
 {
 	"language": "vietnamese",
 	"VRMonitor_Nav_Overview": "Tổng quan",
-	"VRMonitor_Nav_Settings": "Thiết lập",
+	"VRMonitor_Nav_Settings": "Cài đặt",
 	"VRMonitor_Nav_Help": "Trợ giúp",
 	"VRMonitor_Nav_Developer": "Nhà phát triển",
 	"VRMonitor_Overview_SystemStatus_Title": "Trạng thái hệ thống",
@@ -125,7 +125,7 @@
 	"Settings_PerApplication_Header": "Tạo một thiết lập kết xuất độc riêng cho ứng dụng cụ thể",
 	"Settings_PerApplication_ChooseApplication": "Chọn một ứng dụng",
 	"Settings_PerApplication_AppResTitle": " ",
-	"Settings_PerApplication_AppResHeader": "This setting is a multiplier on top of the current global application resolution setting on the Video tab to the left. This application may need to be restarted for settings to take effect. (Default is 100%)",
+	"Settings_PerApplication_AppResHeader": "Cài đặt này là một hệ số áp dụng lên các cài đặt độ phân giải ứng dụng Video của bạn. Có thể cần khởi động lại ứng dụng để cài đặt này có hiệu lực. (Giá trị mặc định là 100%)",
 	"Settings_PerApplication_AppResFooter": "Thiết lập hiện tại dựng khung hình cho mỗi mắt ở mức %1$s",
 	"Settings_PerApplication_OverlayVisibleHeader": "Các ứng dụng lớp phủ hiện tại các thẻ trong bảng điều khiển SteamVR.",
 	"Settings_PerApplication_OverlayVisibleCheckbox": "Chạy ứng dụng lớp phủ này khi SteamVR khởi chạy.",

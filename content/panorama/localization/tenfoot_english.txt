@@ -340,6 +340,7 @@
 	"VRSettingsGeneral" "SteamVR Settings"
 	"VRSettingsBindingUITitle" "Controller Settings"
 	"VRSettingsTrackerUITitle" "Manage Vive Trackers"
+	"VRSettingsDisplaySettingsTitle" "Display Settings"
 	"VRSettingsChaperone" "Chaperone Settings"
 	"VRSettingsBackground" "Customize"
 	"VRSettingsCamera" "Camera Settings"

@@ -228,7 +228,7 @@
   "BindingUI_SteamVRUnavailable": "Voer SteamVR uit om de configuratie-interface te blijven gebruiken",
   "BindingUI_ErrorLoadingBindingTitle": "Configuratiebestand laden mislukt",
   "input_binding_load_failed": "Invoerconfiguraties voor %1$s laden mislukt. Selecteer een andere configuratieoptie.",
-  "input_binding_load_failed_no_url": "%2$s binding for %1$s was not set. Please select a binding option from the list or create a new one.",
+  "input_binding_load_failed_no_url": "Configuratie %2$s voor %1$s is niet ingesteld. Selecteer een configuratieoptie uit de lijst of maak er zelf een.",
   "unknown_application": "Onbekende toepassing",
   "InputDebugger_Title": "Invoerdebugger",
   "InputDebugger_Actions": "Acties",
