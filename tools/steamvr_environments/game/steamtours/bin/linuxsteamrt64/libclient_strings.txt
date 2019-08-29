@@ -1439,6 +1439,7 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
 (%0.2f): %s
+(%Wnj
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1901,9 +1902,10 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%q?Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
+.-&vN
+.-?Ws
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1936,7 +1938,8 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.=ToQ
+.5&i#
+.=doQ
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -10133,11 +10136,12 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
+D;%5l
+D;%I}
 D;'tXH
 D;)ts
 D;+}(L
 D;-Nz
-D;-Pk
 D;.tLH
 D;0uOE
 D;3t 
@@ -10351,7 +10355,6 @@ Default class when joining a game
 Default team when joining a game
 Default value for an enum field must be an identifier.
 DefaultHomeAddon
-DefaultHomeMap
 DefaultHomeType
 DefaultLarge
 DefaultResponseSystem
@@ -12146,113 +12149,110 @@ H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;=	b
-H;= 8
-H;= S
-H;= e
+H;=	`
+H;= [
+H;= ]
+H;= c
 H;="N
-H;="U
-H;="~
+H;="Q
 H;=&,
 H;=&-
-H;=(L|
 H;=+>
 H;=,+
 H;=,k
+H;=/N
 H;=/R
 H;=/]
-H;=/a
-H;=/z
 H;=/~
 H;=0!
-H;=0A
-H;=0\
-H;=0_
+H;=0I
+H;=0d
+H;=0f
 H;=1>
 H;=2%
 H;=2.
+H;=2y
 H;=49
-H;=6M
 H;=7I
 H;=8S
-H;=9#
-H;=9]
-H;=9s
+H;=9[
 H;=:'
 H;=:(
 H;=:g
+H;=:|
 H;=</
-H;=<2
+H;=?<
+H;=?=
 H;=??
-H;=?M
-H;=?h
-H;=?j
+H;=?W
 H;=?p
-H;=@'
-H;=@;
-H;=@G
-H;=@H
-H;=@^
-H;=@e
-H;=DS|
+H;=@R
+H;=@\
+H;=A~
+H;=F~
 H;=Gz
 H;=H5
 H;=HK
 H;=I3
-H;=IS
-H;=I_
+H;=I]
 H;=M,
-H;=O6
-H;=OV
-H;=Oq
-H;=P0
-H;=PQ
-H;=P`
+H;=OA
+H;=O`
+H;=Ow
+H;=P;
+H;=P[
+H;=P^
 H;=R&
 H;=R/
 H;=Rf
+H;=Rz
 H;=X4
 H;=XT
-H;=Ya
+H;=Y_
 H;=Z 
 H;=Z)
-H;=Z_
 H;=Zh
-H;=_?
-H;=__
+H;=_*
+H;=_L
+H;=_h
 H;=_y
-H;=`?
-H;=`Z
-H;=`b
+H;=`	
+H;=`$
+H;=`G
+H;=``
+H;=`d
+H;=`z
+H;=b"
 H;=f>
 H;=h$
 H;=h3
 H;=i?
-H;=ic
-H;=jz
+H;=ia
 H;=k=
 H;=ll
-H;=oK
-H;=oh
+H;=o:
+H;=oU
+H;=on
 H;=ot
-H;=pF
-H;=pc
-H;=pd
+H;=p5
+H;=pP
+H;=pb
 H;=q&
 H;=r!
 H;=r'
+H;=rR
+H;=r{
 H;=td
 H;=w~
 H;=x#
 H;=x2
+H;=xI|
 H;=xU
 H;=y4
-H;=ye
 H;=z!
 H;=z*
 H;=zQ
 H;=zi
-H;={F
 H;={}
 H;B@t
 H;C(t
@@ -13481,6 +13481,7 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
+Lc%,l
 Lc%JT
 Lc'D)
 Lc'E)
@@ -13488,7 +13489,6 @@ Lc(D;h
 Lc)D;i
 Lc+D;k
 Lc-Ez
-Lc-Gk
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -18273,10 +18273,10 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
-Y%<<o
-Y%W0	
+Y%Gsm
+Y%g0	
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y5VMV
+Y5fMV
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18426,7 +18426,7 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\=/SR
+\=?SR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -22643,7 +22643,6 @@ fA;]>w
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB9< 
-fD9%`
 fD9K(L
 fD9cV
 fD9s(D
@@ -27420,7 +27419,7 @@ o ATL
 o ATSH
 o$ATL
 o$D9e
-o%?%)
+o%O%)
 o(ATL
 o(ATSH
 o*Ral
@@ -29530,6 +29529,7 @@ t%D:%
 t%HcC0A
 t%HcSx
 t%L;}
+t&;5o
 t&A;\$
 t&D;%
 t&L;%
@@ -30934,7 +30934,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=
+x8H;=nX
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
