@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "SteamVR не успя да намери никакъв хардуер, към който да сдвои контролерите.",
 	"pairing_nodongles_instr": "Уверете се, че ВР шлемът Ви е свързан.",
 	"pairing_selectdevice_title": "Изберете типа на своя контролер",
-	"pairingdevice_knuckles_controllername": "Knuckles контролер",
+	"pairingdevice_knuckles_controllername": "Index контролер",
 	"pairingdevice_vivewand_shortname": "HTC Vive контролер",
 	"pairingdevice_vivetracker_shortname": "Проследяващо HTC Vive у-во",
-	"pairingdevice_a_knuckles_controllername": "Knuckles контролер",
+	"pairingdevice_a_knuckles_controllername": "Index контролер",
 	"pairingdevice_a_vivewand_shortname": "HTC Vive контролер",
 	"pairingdevice_a_vivetracker_shortname": "проследяващо HTC Vive у-во",
 	"pair_controller_title": "Сдвояване на %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "Готово",
 	"pairing_button_cancel": "Отказ",
 	"pairing_success_again": "Сдвояване на друг контролер...",
+	"pairing_try_again": "Опитайте отново…",
+	"pairing_error_title": "Нещо се обърка",
+	"pairing_timed_out_desc": "Контролерът просрочи времето за връзка.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

@@ -1283,5 +1283,9 @@
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action"	"More info"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=hungarian"
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Az eszköz már nem támogatott"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Device No Longer Supported"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Gyártás-előkészítő %1 eszközöd már nem támogatott.</font> <br><br> Ez az eszköz többet nem fog firmware-frissítéseket kapni, és csökkent működőképesség várható. Kérjük, cseréld ki, amint tudod. <br><br>(Hardverazonosító: %2)"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Your pre-production %1 is no longer supported.</font> <br><br> This device will no longer receive firmware updates, and diminished functionality is expected. Please replace at your earliest convenience. <br><br>(hwid: %2)"
 }
 }

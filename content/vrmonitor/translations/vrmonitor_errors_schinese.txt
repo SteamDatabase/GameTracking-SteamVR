@@ -989,5 +989,17 @@
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended"	"automatic"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden"	"自定义"
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden"	"your custom"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header"	"显示屏连接故障"
+"[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header"	"Display Connection Trouble"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description"	"您的显卡无法成功连接至您的头戴式显示器显示屏。尝试移除您正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<b>请使用下方的重置链接重置头戴式显示器，以便 GPU 可以重试。</b>"
+"[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description"	"Your graphics card cannot successfully connect to your HMD display. Try removing any cable adapters or extenders you are using. Try another port on your GPU if one is available. <b>Use the reset link below to reset the HMD so the GPU will try again.</b>"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction"	"重置头戴式显示器"
+"[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction"	"Reset Headset"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL"	"vrmonitor://reboothmd"
+"[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL"	"vrmonitor://reboothmd"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action"	"更多信息"
+"[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action"	"More info"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
+"[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
 }
 }

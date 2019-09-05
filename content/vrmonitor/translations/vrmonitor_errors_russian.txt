@@ -1191,7 +1191,7 @@
 "[english]Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL"	"https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 "Warning_DismissableWarning_OutOfVideoMemory_Header"	"Недостаточно видеопамяти"
 "[english]Warning_DismissableWarning_OutOfVideoMemory_Header"	"Out Of Video Memory"
-"Warning_DismissableWarning_OutOfVideoMemory_Description"	"У системы недостаточно видеопамяти, что вызовет низкую производительность. Попробуйте выйти из текущего приложения или перезапустите SteamVR."
+"Warning_DismissableWarning_OutOfVideoMemory_Description"	"У системы недостаточно видеопамяти, поэтому производительность будет низкой. Попробуйте выйти из текущего приложения или перезапустите SteamVR."
 "[english]Warning_DismissableWarning_OutOfVideoMemory_Description"	"Your system is running low on video memory which will cause poor performance. Try exiting the current application, or restarting SteamVR."
 "Warning_DismissableWarning_OutOfVideoMemory_Action"	"Подробнее"
 "[english]Warning_DismissableWarning_OutOfVideoMemory_Action"	"More info"
@@ -1265,5 +1265,9 @@
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action"	"More info"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=russian"
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Устройство больше не поддерживается"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Device No Longer Supported"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Ваше устройство предварительной разработки %1 больше не поддерживается.</font> <br><br> Функциональность устройства уменьшится, и прошивка не будет обновляться. Пожалуйста, замените его как можно скорее. <br><br>(ID устройства: %2)"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Your pre-production %1 is no longer supported.</font> <br><br> This device will no longer receive firmware updates, and diminished functionality is expected. Please replace at your earliest convenience. <br><br>(hwid: %2)"
 }
 }

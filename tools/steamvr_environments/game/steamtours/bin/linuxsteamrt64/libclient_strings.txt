@@ -1439,7 +1439,7 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
 (%0.2f): %s
-(%Wnj
+(%7nj
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1902,10 +1902,9 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
+.%q?Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
-.-&vN
-.-?Ws
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1938,8 +1937,7 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.5&i#
-.=doQ
+.=ToQ
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -10136,12 +10134,10 @@ D9|$
 D; t)I
 D; tMH
 D;!ttHc
-D;%5l
-D;%I}
 D;'tXH
 D;)ts
 D;+}(L
-D;-Nz
+D;-ph
 D;.tLH
 D;0uOE
 D;3t 
@@ -12149,110 +12145,117 @@ H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;=	`
+H;=	[
+H;= ;
 H;= [
-H;= ]
-H;= c
+H;= ^
 H;="N
-H;="Q
+H;="z
 H;=&,
 H;=&-
-H;=+>
+H;=)_
 H;=,+
 H;=,k
-H;=/N
+H;=/*
+H;=/L
 H;=/R
-H;=/]
-H;=/~
+H;=/h
+H;=/t
+H;=0	
 H;=0!
-H;=0I
+H;=0$
+H;=0G
+H;=0`
 H;=0d
-H;=0f
+H;=0z
 H;=1>
-H;=2%
-H;=2.
-H;=2y
-H;=49
+H;=2"
+H;=2(
 H;=7I
 H;=8S
-H;=9[
+H;=9a
+H;=:"
 H;=:'
-H;=:(
-H;=:g
-H;=:|
+H;=:+
+H;=:i
 H;=</
-H;=?<
-H;=?=
+H;=?:
 H;=??
-H;=?W
+H;=?U
+H;=?n
 H;=?p
-H;=@R
-H;=@\
-H;=A~
-H;=F~
+H;=@5
+H;=@P
+H;=@b
+H;=BR
+H;=B{
 H;=Gz
 H;=H5
+H;=HI|
 H;=HK
+H;=I 
 H;=I3
-H;=I]
+H;=J5
 H;=M,
-H;=OA
-H;=O`
-H;=Ow
-H;=P;
-H;=P[
-H;=P^
-H;=R&
-H;=R/
+H;=O\
+H;=O^
+H;=P>
+H;=PY
+H;=P\
+H;=R 
+H;=R)
 H;=Rf
-H;=Rz
+H;=Rg
+H;=VJ
 H;=X4
 H;=XT
-H;=Y_
-H;=Z 
-H;=Z)
-H;=Zh
-H;=_*
-H;=_L
-H;=_h
-H;=_y
-H;=`	
-H;=`$
-H;=`G
-H;=``
-H;=`d
-H;=`z
-H;=b"
+H;=Y 
+H;=YZ
+H;=Yp
+H;=Z#
+H;=Z,
+H;=Zj
+H;=\/
+H;=_J
+H;=_e
+H;=_g
+H;=`8
+H;=`D
+H;=`E
+H;=`[
+H;=`]
+H;=`b
+H;=b|
+H;=dP|
 H;=f>
 H;=h$
 H;=h3
 H;=i?
-H;=ia
-H;=k=
+H;=iP
+H;=i\
 H;=ll
-H;=o:
-H;=oU
-H;=on
-H;=ot
-H;=p5
-H;=pP
-H;=pb
+H;=oS
+H;=p-
+H;=pM
+H;=pN
+H;=p]
 H;=q&
 H;=r!
-H;=r'
-H;=rR
-H;=r{
+H;=r*
+H;=rh
 H;=td
 H;=w~
 H;=x#
 H;=x2
-H;=xI|
 H;=xU
 H;=y4
-H;=z!
-H;=z*
+H;=y^
+H;=z$
+H;=z-
 H;=zQ
-H;=zi
+H;=z\
+H;=zk
+H;={:
 H;={}
 H;B@t
 H;C(t
@@ -13318,7 +13321,7 @@ L9|$HJ
 L: %.2f deg
 L;!t!f.
 L;"tJA
-L;-~B
+L;->B
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13481,14 +13484,13 @@ Lc#D;c
 Lc#E9
 Lc#E;e
 Lc#fA
-Lc%,l
-Lc%JT
 Lc'D)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-Ez
+Lc-Y[
+Lc-gh
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -18036,6 +18038,7 @@ ViewportClientSystem
 Virtual array controller messed up
 VisBuilder_001
 Visible ShowHub
+VisitOnMyOwnCount
 Visualizes +use logic for the given range. Green cross=trace success, Red cross=trace too far, Green box=radius success
 Visualizes +use logic. Green cross=trace success, Red cross=trace too far, Green box=radius success
 Visualizes all entity input/output activity.
@@ -18273,10 +18276,10 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
-Y%Gsm
-Y%g0	
+Y%'sm
+Y%W0	
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y5fMV
+Y5VMV
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18426,7 +18429,7 @@ Z}uU
 \$8[A\A]A^]
 \$hA+\$l
 \%03o
-\=?SR
+\=/SR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -27419,7 +27422,7 @@ o ATL
 o ATSH
 o$ATL
 o$D9e
-o%O%)
+o%?%)
 o(ATL
 o(ATSH
 o*Ral
@@ -29523,13 +29526,13 @@ t$lfA
 t$pH;5
 t$pvufA
 t$xH;5}
-t%95nX
+t%95.X
 t%;2t%H
 t%D:%
 t%HcC0A
 t%HcSx
 t%L;}
-t&;5o
+t&;5?
 t&A;\$
 t&D;%
 t&L;%
@@ -29544,8 +29547,8 @@ t(HcM
 t(Lc#D;c
 t(Mce
 t([A\A]A^]
-t)@:5a
-t)D:%
+t)@:5!
+t)D:%x
 t)HcE
 t)Mc<$E;|$
 t)[A\]
@@ -30934,7 +30937,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=nX
+x8H;=>X
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31098,9 +31101,11 @@ z|uzf
 z~u|A
 { H;=
 { H;=	)
-{ H;=.0
+{ H;=91
+{ H;=K(
+{ H;=K<
 { H;=N)
-{ H;=y1
+{ H;=~1
 { H;}
 { [A\A]A^H
 { [A\A]]H
@@ -31110,7 +31115,7 @@ z~u|A
 {$[A\A]A^H
 {$t%:
 {(9x(
-{(H;=z)
+{(H;=:)
 {(H;}
 {([A\A]H
 {([A\A]]
@@ -31125,7 +31130,7 @@ z~u|A
 {@[A\]
 {HH;=
 {HH;{`I
-{PH;=y&
+{PH;=9&
 {S6wD
 {XtJH
 {YIN?

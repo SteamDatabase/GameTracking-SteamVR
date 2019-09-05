@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "SteamVR ไม่สามารถตรวจพบฮาร์ดแวร์ใด ๆ สำหรับการเชื่อมโยงกับคอนโทรลเลอร์",
 	"pairing_nodongles_instr": "ตรวจสอบให้แน่ใจว่าเครื่องสวมศีรษะของคุณเชื่อมต่อแล้ว",
 	"pairing_selectdevice_title": "เลือกประเภทคอนโทรลเลอร์ของคุณ",
-	"pairingdevice_knuckles_controllername": "คอนโทรลเลอร์ Knuckles",
+	"pairingdevice_knuckles_controllername": "คอนโทรลเลอร์ Index",
 	"pairingdevice_vivewand_shortname": "คอนโทรลเลอร์ HTC Vive",
 	"pairingdevice_vivetracker_shortname": "เครื่องติดตาม HTC Vive",
-	"pairingdevice_a_knuckles_controllername": "คอนโทรลเลอร์ Knuckles",
+	"pairingdevice_a_knuckles_controllername": "คอนโทรลเลอร์ Index",
 	"pairingdevice_a_vivewand_shortname": "คอนโทรลเลอร์ HTC Vive",
 	"pairingdevice_a_vivetracker_shortname": "เครื่องติดตาม HTC Vive",
 	"pair_controller_title": "เชื่อมโยง %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "เสร็จสมบูรณ์",
 	"pairing_button_cancel": "ยกเลิก",
 	"pairing_success_again": "เชื่อมโยงคอนโทรลเลอร์อื่น...",
+	"pairing_try_again": "ลองใหม่อีกครั้ง...",
+	"pairing_error_title": "มีบางอย่างผิดปกติ",
+	"pairing_timed_out_desc": "คอนโทรลเลอร์หมดเวลาเชื่อมโยงแล้ว",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

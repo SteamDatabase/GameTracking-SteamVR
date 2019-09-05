@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "SteamVR kunne ikke finde nogen hardware at tilknytte controllere til.",
 	"pairing_nodongles_instr": "Sørg for, at dit headset er tilsluttet.",
 	"pairing_selectdevice_title": "Vælg din controllertype",
-	"pairingdevice_knuckles_controllername": "Knuckles-controller",
+	"pairingdevice_knuckles_controllername": "Index-controller",
 	"pairingdevice_vivewand_shortname": "HTC Vive-controller",
 	"pairingdevice_vivetracker_shortname": "HTC Vive-tracker",
-	"pairingdevice_a_knuckles_controllername": "en Knuckles-controller",
+	"pairingdevice_a_knuckles_controllername": "en Index-controller",
 	"pairingdevice_a_vivewand_shortname": "en HTC Vive-controller",
 	"pairingdevice_a_vivetracker_shortname": "en HTC Vive-tracker",
 	"pair_controller_title": "Tilknyt %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "Færdig",
 	"pairing_button_cancel": "Annuller",
 	"pairing_success_again": "Tilknyt en anden controller...",
+	"pairing_try_again": "Prøv igen...",
+	"pairing_error_title": "Der opstod en fejl",
+	"pairing_timed_out_desc": "Controlleren fik timeout.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

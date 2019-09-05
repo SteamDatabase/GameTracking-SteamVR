@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "SteamVR no encuentra ningún hardware con el que emparejar los mandos.",
 	"pairing_nodongles_instr": "Asegúrate de que el visor esté conectado.",
 	"pairing_selectdevice_title": "Selecciona el tipo de mando",
-	"pairingdevice_knuckles_controllername": "Mando Knuckles",
+	"pairingdevice_knuckles_controllername": "Mando de Index",
 	"pairingdevice_vivewand_shortname": "Mando HTC Vive",
 	"pairingdevice_vivetracker_shortname": "Tracker HTC Vive",
-	"pairingdevice_a_knuckles_controllername": "un mando Knuckles",
+	"pairingdevice_a_knuckles_controllername": "un mando de Index",
 	"pairingdevice_a_vivewand_shortname": "un mando HTC Vive",
 	"pairingdevice_a_vivetracker_shortname": "un tracker HTC Vive",
 	"pair_controller_title": "Emparejar %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "Hecho",
 	"pairing_button_cancel": "Cancelar",
 	"pairing_success_again": "Emparejar otro mando...",
+	"pairing_try_again": "Inténtalo de nuevo...",
+	"pairing_error_title": "Algo salió mal",
+	"pairing_timed_out_desc": "El mando ha agotado el tiempo de espera.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

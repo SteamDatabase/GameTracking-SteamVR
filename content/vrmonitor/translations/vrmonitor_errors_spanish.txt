@@ -1263,5 +1263,9 @@
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action"	"More info"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"El dispositivo ya no es compatible"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Device No Longer Supported"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Tu %1 de preproducción ya no es compatible.</font> <br><br> Este dispositivo ya no recibirá actualizaciones de firmware, y se prevé una disminución de su funcionalidad. Por favor, sustitúyelo tan pronto como te sea posible.<br><br>(Id. de hardware: %2)"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Your pre-production %1 is no longer supported.</font> <br><br> This device will no longer receive firmware updates, and diminished functionality is expected. Please replace at your earliest convenience. <br><br>(hwid: %2)"
 }
 }

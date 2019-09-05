@@ -618,7 +618,7 @@
 "[english]Transition_Progress_Description"	"WAITING FOR..."
 "Now_Waiting"	"WACHTEN..."
 "[english]Now_Waiting"	"WAITING..."
-"HomeAppCheck"	"Verbeterde SteamVR-omgevingen"
+"HomeAppCheck"	"SteamVR Home"
 "[english]HomeAppCheck"	"SteamVR Home"
 "HomeAppDesc"	"De SteamVR Home-ervaring ondersteunt rijkere startomgevingen, sociale functies en meer."
 "[english]HomeAppDesc"	"SteamVR Home experience supports richer home spaces, social features, and more."

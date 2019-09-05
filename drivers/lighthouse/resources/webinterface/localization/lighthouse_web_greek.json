@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "Το SteamVR αδυνατεί να βρει υλισμικό για να συζεύξει τα χειριστήρια.",
 	"pairing_nodongles_instr": "Σιγουρευτείτε ότι το headset σας είναι συνδεδεμένο.",
 	"pairing_selectdevice_title": "Ελέγξτε τον τύπο χειριστηρίου σας",
-	"pairingdevice_knuckles_controllername": "Χειριστήριο Knuckles",
+	"pairingdevice_knuckles_controllername": "Χειριστήριο Index",
 	"pairingdevice_vivewand_shortname": "Χειριστήριο HTC Vive",
 	"pairingdevice_vivetracker_shortname": "Ανιχνευτής HTC Vive",
-	"pairingdevice_a_knuckles_controllername": "ένα χειριστήριο Knuckles",
+	"pairingdevice_a_knuckles_controllername": "ένα χειριστήριο Index",
 	"pairingdevice_a_vivewand_shortname": "ένα χειριστήριο HTC Vive",
 	"pairingdevice_a_vivetracker_shortname": "ένας ανιχνευτής HTC Vive",
 	"pair_controller_title": "Σύζευξη %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "OK",
 	"pairing_button_cancel": "Άκυρο",
 	"pairing_success_again": "Σύζευξη άλλου χειριστηρίου...",
+	"pairing_try_again": "Δοκιμάστε ξανά...",
+	"pairing_error_title": "Κάτι πήγε στραβά",
+	"pairing_timed_out_desc": "Το χειριστήριο έληξε χρονικά.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "SteamVR ne trouve aucun matériel avec lequel associer des contrôleurs.",
 	"pairing_nodongles_instr": "Assurez-vous que votre casque est connecté.",
 	"pairing_selectdevice_title": "Sélectionnez le type de contrôleur",
-	"pairingdevice_knuckles_controllername": "Contrôleur Knuckles",
+	"pairingdevice_knuckles_controllername": "Contrôleur Index",
 	"pairingdevice_vivewand_shortname": "Contrôleur HTC Vive",
 	"pairingdevice_vivetracker_shortname": "Tracker HTC Vive",
-	"pairingdevice_a_knuckles_controllername": "un contrôleur Knuckles",
+	"pairingdevice_a_knuckles_controllername": "un contrôleur Index",
 	"pairingdevice_a_vivewand_shortname": "un contrôleur HTC Vive",
 	"pairingdevice_a_vivetracker_shortname": "un tracker HTC Vive",
 	"pair_controller_title": "Associer %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "OK",
 	"pairing_button_cancel": "Annuler",
 	"pairing_success_again": "Associer un autre contrôleur...",
+	"pairing_try_again": "Réessayer...",
+	"pairing_error_title": "Une erreur est survenue",
+	"pairing_timed_out_desc": "Délai épuisé.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

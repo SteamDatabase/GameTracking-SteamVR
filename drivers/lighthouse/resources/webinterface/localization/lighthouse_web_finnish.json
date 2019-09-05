@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "SteamVR ei löydä yhtään laitetta, johon ohjaimet voisi yhdistää.",
 	"pairing_nodongles_instr": "Varmista, että VR-lasisi on yhdistetty.",
 	"pairing_selectdevice_title": "Valitse ohjaintyyppi",
-	"pairingdevice_knuckles_controllername": "Knuckles Controller",
+	"pairingdevice_knuckles_controllername": "Index-ohjain",
 	"pairingdevice_vivewand_shortname": "HTC Vive Controller",
 	"pairingdevice_vivetracker_shortname": "HTC Vive Tracker",
-	"pairingdevice_a_knuckles_controllername": "Knuckles-ohjain",
+	"pairingdevice_a_knuckles_controllername": "Index-ohjain",
 	"pairingdevice_a_vivewand_shortname": "HTC Vive -ohjain",
 	"pairingdevice_a_vivetracker_shortname": "HTC Vive Tracker",
 	"pair_controller_title": "Yhdistä %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "Valmis",
 	"pairing_button_cancel": "Peruuta",
 	"pairing_success_again": "Yhdistä toinen ohjain.",
+	"pairing_try_again": "Yritä uudelleen...",
+	"pairing_error_title": "Jokin meni vikaan",
+	"pairing_timed_out_desc": "Ohjain aikakatkaistiin.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

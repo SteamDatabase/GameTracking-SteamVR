@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "SteamVR không thể tìm thấy bất kỳ phần cứng nào để bắt cặp cùng với tay cầm.",
 	"pairing_nodongles_instr": "Hãy đảm bảo rằng mũ chụp của bạn đã được kết nối.",
 	"pairing_selectdevice_title": "Chọn loại tay cầm",
-	"pairingdevice_knuckles_controllername": "Tay cầm Knuckles",
+	"pairingdevice_knuckles_controllername": "Tay cầm Index",
 	"pairingdevice_vivewand_shortname": "Bộ tay cầm HTC Vive",
 	"pairingdevice_vivetracker_shortname": "Máy theo dõi HTC Vive",
-	"pairingdevice_a_knuckles_controllername": "một tay cầm Knuckles",
+	"pairingdevice_a_knuckles_controllername": "một tay cầm Index",
 	"pairingdevice_a_vivewand_shortname": "một tay cầm HTC Vive",
 	"pairingdevice_a_vivetracker_shortname": "một máy theo dõi HTC Vive",
 	"pair_controller_title": "Bắt cặp với %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "Xong",
 	"pairing_button_cancel": "Hủy",
 	"pairing_success_again": "Bắt cặp một tay cầm khác...",
+	"pairing_try_again": "Thử lại...",
+	"pairing_error_title": "Đã xảy ra bất thường gì đó",
+	"pairing_timed_out_desc": "Tín hiệu tay cầm hết hạn.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

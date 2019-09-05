@@ -1245,9 +1245,9 @@
 "[english]VRInitError_IPC_NamespaceUnavailable_ActionURL"	"https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 "Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header"	"Ufuldstændig enhedsopdatering"
 "[english]Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header"	"Incomplete Device Update"
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description"	"En opdatering af en basisstation blev afbrudt eller kunne ikke fuldføres. Klik på \"Gendannelse\" for at starte processen."
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description"	"En opdatering af en basisstation blev afbrudt eller kunne ikke fuldføres. Klik på \"Gendan\" for at starte processen."
 "[english]Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description"	"A Base Station update was interrupted or failed to complete. Please click 'Recovery' to begin the procedure."
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action"	"Gendannelse"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action"	"Gendan"
 "[english]Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action"	"Recovery"
 "Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL"	"vrmonitor://open/settings/basestation/recovery"
 "[english]Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL"	"vrmonitor://open/settings/basestation/recovery"
@@ -1263,5 +1263,9 @@
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action"	"More info"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Enhed ikke længere understøttet"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Device No Longer Supported"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>%1 er til forproduktion og understøttes ikke længere.</font> <br><br> Denne enhed vil ikke længere modtage firmwareopdateringer, og nedsat funktionalitet må forventes. Udskift med det samme. <br><br>(hwid: %2)"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Your pre-production %1 is no longer supported.</font> <br><br> This device will no longer receive firmware updates, and diminished functionality is expected. Please replace at your earliest convenience. <br><br>(hwid: %2)"
 }
 }

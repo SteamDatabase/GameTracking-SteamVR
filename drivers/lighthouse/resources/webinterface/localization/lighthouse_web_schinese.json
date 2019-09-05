@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "SteamVR 无法找到任何能与控制器配对的硬件。",
 	"pairing_nodongles_instr": "请确保您的头戴式显示器已连接。",
 	"pairing_selectdevice_title": "选择您的控制器类型",
-	"pairingdevice_knuckles_controllername": "Knuckles 控制器",
+	"pairingdevice_knuckles_controllername": "Index Controller",
 	"pairingdevice_vivewand_shortname": "HTC Vive 控制器",
 	"pairingdevice_vivetracker_shortname": "HTC Vive 追踪器",
-	"pairingdevice_a_knuckles_controllername": "一个 Knuckles 控制器",
+	"pairingdevice_a_knuckles_controllername": "an Index Controller",
 	"pairingdevice_a_vivewand_shortname": "一个 HTC Vive 控制器",
 	"pairingdevice_a_vivetracker_shortname": "一个 HTC Vive 追踪器",
 	"pair_controller_title": "配对%1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "完成",
 	"pairing_button_cancel": "取消",
 	"pairing_success_again": "配对另一个控制器...",
+	"pairing_try_again": "Try again...",
+	"pairing_error_title": "Something went wrong",
+	"pairing_timed_out_desc": "The controller timed out.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

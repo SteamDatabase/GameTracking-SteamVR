@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "O SteamVR não consegue encontrar hardware com o qual emparelhar comandos.",
 	"pairing_nodongles_instr": "Assegura-te de que o teu headset está conectado.",
 	"pairing_selectdevice_title": "Seleciona o teu tipo de comando",
-	"pairingdevice_knuckles_controllername": "Comando Knuckles",
+	"pairingdevice_knuckles_controllername": "Comando do Valve Index",
 	"pairingdevice_vivewand_shortname": "Comando HTC Vive",
 	"pairingdevice_vivetracker_shortname": "Detetor HTC Vive",
-	"pairingdevice_a_knuckles_controllername": "um comando Knuckles",
+	"pairingdevice_a_knuckles_controllername": "um comando do Valve Index",
 	"pairingdevice_a_vivewand_shortname": "um comando HTC Vive",
 	"pairingdevice_a_vivetracker_shortname": "um detetor HTC Vive",
 	"pair_controller_title": "Emparelhar %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "OK",
 	"pairing_button_cancel": "Cancelar",
 	"pairing_success_again": "Emparelhar outro comando...",
+	"pairing_try_again": "Tenta de novo...",
+	"pairing_error_title": "Aconteceu algo de errado",
+	"pairing_timed_out_desc": "A ligação ao comando expirou.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

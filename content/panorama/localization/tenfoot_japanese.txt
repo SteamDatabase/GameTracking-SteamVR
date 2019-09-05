@@ -620,7 +620,7 @@
 "[english]Now_Waiting"	"WAITING..."
 "HomeAppCheck"	"SteamVRホーム"
 "[english]HomeAppCheck"	"SteamVR Home"
-"HomeAppDesc"	"新しい SteamVR 環境は、より豊かなホームスペース、ソーシャル機能などをサポートします。テストに参加して SteamVR 掲示板へフィードバックをご提供ください。"
+"HomeAppDesc"	"SteamVRホーム環境は、さらに豊かなホーム空間やソーシャル機能などをサポートします。"
 "[english]HomeAppDesc"	"SteamVR Home experience supports richer home spaces, social features, and more."
 "MutedLabel"	"ミュート状態"
 "[english]MutedLabel"	"Muted"

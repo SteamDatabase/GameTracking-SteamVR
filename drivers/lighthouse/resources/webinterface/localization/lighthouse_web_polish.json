@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "SteamVR nie jest w stanie znaleźć żadnego sprzętu, z którym można sparować kontrolery.",
 	"pairing_nodongles_instr": "Upewnij się, że twoje gogle są podłączone.",
 	"pairing_selectdevice_title": "Wybierz rodzaj kontrolera",
-	"pairingdevice_knuckles_controllername": "Kontroler Knuckles",
+	"pairingdevice_knuckles_controllername": "Kontroler Index",
 	"pairingdevice_vivewand_shortname": "Kontroler HTC Vive",
 	"pairingdevice_vivetracker_shortname": "HTC Vive Tracker",
-	"pairingdevice_a_knuckles_controllername": "kontroler Knuckles",
+	"pairingdevice_a_knuckles_controllername": "kontroler Index",
 	"pairingdevice_a_vivewand_shortname": "kontroler HTC Vive",
 	"pairingdevice_a_vivetracker_shortname": " Tracker HTC Vive",
 	"pair_controller_title": "Sparuj %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "Gotowe",
 	"pairing_button_cancel": "Anuluj",
 	"pairing_success_again": "Sparuj inny kontroler...",
+	"pairing_try_again": "Spróbuj ponownie...",
+	"pairing_error_title": "Coś poszło nie tak",
+	"pairing_timed_out_desc": "Przekroczono limit czasu kontrolera.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

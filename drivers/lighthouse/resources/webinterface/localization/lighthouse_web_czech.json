@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "Režimu SteamVR se nepodařilo nalézt žádný hardware, se kterým by šlo spárovat ovladače.",
 	"pairing_nodongles_instr": "Ujistěte se, že je Váš headset připojen.",
 	"pairing_selectdevice_title": "Vyberte typ ovladače",
-	"pairingdevice_knuckles_controllername": "Ovladač Knuckles",
+	"pairingdevice_knuckles_controllername": "Ovladač Valve Index",
 	"pairingdevice_vivewand_shortname": "Ovladač HTC Vive",
 	"pairingdevice_vivetracker_shortname": "Sledovací zařízení HTC Vive",
-	"pairingdevice_a_knuckles_controllername": "ovladač Knuckles",
+	"pairingdevice_a_knuckles_controllername": "ovladač Valve Index",
 	"pairingdevice_a_vivewand_shortname": "ovladač HTC Vive",
 	"pairingdevice_a_vivetracker_shortname": "sledovací zařízení HTC Vive",
 	"pair_controller_title": "Spárovat %1$s",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "OK",
 	"pairing_button_cancel": "Zrušit",
 	"pairing_success_again": "Spárovat další ovladač...",
+	"pairing_try_again": "Zkusit znovu...",
+	"pairing_error_title": "Něco se pokazilo",
+	"pairing_timed_out_desc": "Vypršelo spojení s ovladačem.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

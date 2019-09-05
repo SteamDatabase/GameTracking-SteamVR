@@ -12,10 +12,10 @@
 	"pairing_nodongles_desc": "A SteamVR nem talál olyan hardvert, amihez játékvezérlőt lehetne párosítani.",
 	"pairing_nodongles_instr": "Győződj meg róla, hogy fejszetted csatlakoztatva van.",
 	"pairing_selectdevice_title": "Válassz játékvezérlő-típust",
-	"pairingdevice_knuckles_controllername": "Knuckles játékvezérlő",
+	"pairingdevice_knuckles_controllername": "Index Játékvezérlő",
 	"pairingdevice_vivewand_shortname": "HTC Vive játékvezérlő",
 	"pairingdevice_vivetracker_shortname": "HTC Vive követő",
-	"pairingdevice_a_knuckles_controllername": "Knuckles játékvezérlő",
+	"pairingdevice_a_knuckles_controllername": "és Index Játékvezérlő",
 	"pairingdevice_a_vivewand_shortname": "HTC Vive játékvezérlő",
 	"pairingdevice_a_vivetracker_shortname": "HTC Vive követő",
 	"pair_controller_title": "%1$s párosítása",
@@ -31,5 +31,8 @@
 	"pairing_button_done": "Kész",
 	"pairing_button_cancel": "Mégse",
 	"pairing_success_again": "Másik játékvezérlő párosítása...",
+	"pairing_try_again": "Újrapróbálás...",
+	"pairing_error_title": "Valami nem sikerült",
+	"pairing_timed_out_desc": "A játékvezérlő nem válaszolt időben.",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

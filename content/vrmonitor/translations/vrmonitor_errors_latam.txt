@@ -979,7 +979,7 @@
 "[english]Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL"	"https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 "Warning_DismissableWarning_HDCPError_Header"	"Error de SteamVR"
 "[english]Warning_DismissableWarning_HDCPError_Header"	"SteamVR Error"
-"Warning_DismissableWarning_HDCPError_Description"	"SteamVR ha encontrado un error de HDMI. Por favor, crea un informe de sistema de SteamVR para más información."
+"Warning_DismissableWarning_HDCPError_Description"	"SteamVR ha encontrado un error de HDCP. Por favor, crea un informe de sistema de SteamVR para más información."
 "[english]Warning_DismissableWarning_HDCPError_Description"	"SteamVR has encountered an HDCP error. Please create a SteamVR System Report for further info."
 "Warning_DismissableWarning_HDCPError_Action"	"Más información"
 "[english]Warning_DismissableWarning_HDCPError_Action"	"More info"
@@ -1233,5 +1233,9 @@
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL"	"vrmonitor://reboothmd"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action"	"Más información"
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action"	"More info"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"El dispositivo ya no es compatible"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Device No Longer Supported"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"Tu %1 (%2) es una herramienta de desarrollo en preproducción y ya no es compatible.<br><br><font color=#ff0000>Su funcionamiento puede ser inesperado. Reemplázala inmediatamente.</font>"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Your pre-production %1 is no longer supported.</font> <br><br> This device will no longer receive firmware updates, and diminished functionality is expected. Please replace at your earliest convenience. <br><br>(hwid: %2)"
 }
 }
