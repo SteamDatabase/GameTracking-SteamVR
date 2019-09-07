@@ -666,7 +666,7 @@
 "[english]Panorama_Selection_Latam_Spanish"	"Español-Latinoamérica (Spanish-Latin America)"
 "Panorama_Selection_Vietnamese"	"Tiếng Việt (Vietnamien)"
 "[english]Panorama_Selection_Vietnamese"	"Tiếng Việt (Vietnamese)"
-"BindingCallout_Header"	"VOIR LES CONTRÔLES"
+"BindingCallout_Header"	"VOIR LES COMMANDES"
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"En attente de la réponse de l’application"
 "[english]App_Not_Responding"	"Waiting for application to respond"

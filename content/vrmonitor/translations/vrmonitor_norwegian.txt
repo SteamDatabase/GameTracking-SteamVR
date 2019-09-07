@@ -2540,10 +2540,10 @@
 "[english]HeadsetView_PressKeyToExit"	"Press %1 to exit Full Screen"
 "HeadsetView_FullscreenButtonLabel"	"Fullskjerm"
 "[english]HeadsetView_FullscreenButtonLabel"	"Full Screen"
-"HeadsetView_DockButtonLabel"	"Fest visning"
-"[english]HeadsetView_DockButtonLabel"	"Dock View"
-"HeadsetView_UndockButtonLabel"	"Løsne visning"
-"[english]HeadsetView_UndockButtonLabel"	"Undock View"
+"HeadsetView_DockButtonLabel"	"Fest VR-visning"
+"[english]HeadsetView_DockButtonLabel"	"Dock VR View"
+"HeadsetView_UndockButtonLabel"	"Løsne VR-visning"
+"[english]HeadsetView_UndockButtonLabel"	"Undock VR View"
 "HeadsetView_CloseButtonLabel"	"Lukk"
 "[english]HeadsetView_CloseButtonLabel"	"Close"
 "HeadsetView_EyeMode_Both"	"Begge øyne"
@@ -2560,5 +2560,7 @@
 "[english]HeadsetView_ViewMode_Center"	"Center View"
 "HeadsetView_DebugCommands"	"Åpne feilsøkingskommandoer"
 "[english]HeadsetView_DebugCommands"	"Open Debug Commands"
+"HeadsetView_HideButtonLabel"	"Skjul VR-visning"
+"[english]HeadsetView_HideButtonLabel"	"Hide VR View"
 }
 }

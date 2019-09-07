@@ -2394,9 +2394,9 @@
 "HeadsetView_FullscreenButtonLabel"	"Pantalla completa"
 "[english]HeadsetView_FullscreenButtonLabel"	"Full Screen"
 "HeadsetView_DockButtonLabel"	"Fijar vista"
-"[english]HeadsetView_DockButtonLabel"	"Dock View"
+"[english]HeadsetView_DockButtonLabel"	"Dock VR View"
 "HeadsetView_UndockButtonLabel"	"Desbloquear vista"
-"[english]HeadsetView_UndockButtonLabel"	"Undock View"
+"[english]HeadsetView_UndockButtonLabel"	"Undock VR View"
 "HeadsetView_CloseButtonLabel"	"Cerrar"
 "[english]HeadsetView_CloseButtonLabel"	"Close"
 "HeadsetView_EyeMode_Both"	"Ambos ojos"
@@ -2411,5 +2411,7 @@
 "[english]HeadsetView_EyeMode_BothRightDominant"	"Both Eyes - Right Dominant"
 "HeadsetView_ViewMode_Center"	"Centrar vista"
 "[english]HeadsetView_ViewMode_Center"	"Center View"
+"HeadsetView_HideButtonLabel"	"Ocultar vista de RV"
+"[english]HeadsetView_HideButtonLabel"	"Hide VR View"
 }
 }
