@@ -819,6 +819,8 @@
 "FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "This Base Station needs to be rediscovered optically by a restart of SteamVR before the update can proceed."
 "FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "This Base Station needs to be power cycled and rediscovered optically by a restart of SteamVR before the update can proceed. Please unplug and then replug the Base Station's power cable."
 "FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "This Base Station has a newer version of the update and has rejected it. Please unplug and then replug the Base Station's power cable."
+"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "An unexpected USB connection to the Base Station is preventing the wireless update.<br><br><font color=#aaaa00>Please unplug the USB cable that is plugged into the Base Station.</font>"
+"FirmwareWizard_Failure_WirelessUpdateBaseStuckInDFU" "An unexpected USB connection to the Base Station is preventing the wireless update from finishing.<ul><li><font color=#aaaa00>Unplug the Base Station's power cable.<li>Unplug the USB cable that is plugged into the Base Station.<li>Replug only the Base Station's power cable.<li>Wait 30 seconds for the Base Station to finish its internal update.</font></ul><br>The Base Station LED may be off during its internal update.<br>Do not unplug or make any other connections to the Base Station during its update."
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Click 'Retry' below to try again."
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Click 'Cancel' below to restart SteamVR."
 
