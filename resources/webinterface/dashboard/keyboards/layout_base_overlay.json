@@ -1,0 +1,89 @@
+{
+	"keyScale":	{ "x": 0.18, "y": 0.2 },
+	"translation": { "x": 0, "y": 1, "z": -2.5 },
+	"rotation": { "x": 0, "y": 0, "z": 0 },
+
+	"previewTranslation": { "x": 1, "y": 0.6, "z": 0 },
+	"previewRotation": { "x": 0, "y": 0, "z": 0 },
+	"previewHeight": 1.0,
+	"previewSuggestionCount": 4,
+
+    "geometry": [
+        {
+            "height": "20%",
+            "keys": [
+                { "type": "key", "value": "1" },
+                { "type": "key", "value": "2" },
+                { "type": "key", "value": "3" },
+                { "type": "key", "value": "4" },
+                { "type": "key", "value": "5" },
+                { "type": "key", "value": "6", "flexGrow": 1.4 },
+                { "type": "key", "value": "7", "flexGrow": 1.4 },
+                { "type": "key", "value": "8" },
+                { "type": "key", "value": "9" },
+                { "type": "key", "value": "0" },
+                { "type": "key", "value": "-" },
+                { "type": "del", "img": "del", "flexGrow": 1.8 }
+            ]
+        },
+
+        {
+            "height": "20%",
+            "keys": [
+                { "type": "key", "value": "q", "flexGrow": 1.4 },
+                { "type": "key", "value": "w" },
+                { "type": "key", "value": "e" },
+                { "type": "key", "value": "r" },
+                { "type": "key", "value": "t", "flexGrow": 1.4 },
+                { "type": "key", "value": "y", "flexGrow": 1.4 },
+                { "type": "key", "value": "u" },
+                { "type": "key", "value": "i", "flexGrow": 0.8 },
+                { "type": "key", "value": "o", "flexGrow": 0.8 },
+                { "type": "key", "value": "p" }
+            ]
+        },
+
+        {
+			"height": "20%",
+			"keys": [
+                { "type": "symbols", "img": "symbols", "flexGrow": 1 },
+                { "type": "key", "value": "a" },
+                { "type": "key", "value": "s" },
+                { "type": "key", "value": "d" },
+                { "type": "key", "value": "f" },
+                { "type": "key", "value": "g", "flexGrow": 1.2 },
+                { "type": "key", "value": "h", "flexGrow": 1.2 },
+                { "type": "key", "value": "j" },
+                { "type": "key", "value": "k" },
+                { "type": "key", "value": "l" },
+                { "type": "return", "value": "\n", "img": "return", "flexGrow": 1.2 }
+            ]
+        },
+
+        {
+			"height": "20%",
+			"keys": [
+                { "type": "shift", "img": "shift", "flexShrink": 1.2 },
+                { "type": "key", "value": "?" },
+                { "type": "key", "value": "z" },
+                { "type": "key", "value": "x" },
+                { "type": "key", "value": "c" },
+                { "type": "key", "value": "v", "flexGrow": 1.3 },
+                { "type": "key", "value": "b", "flexGrow": 1.3 },
+                { "type": "key", "value": "n" },
+                { "type": "key", "value": "m" },
+                { "type": "key", "value": ",", "flexGrow": 0.8 },
+                { "type": "key", "value": ".", "flexGrow": 0.8 },
+                { "type": "shift", "img": "shift", "flexShrink": 1.5 }
+            ]
+        },
+
+        {
+			"height": "15%",
+            "keys": [
+                { "type": "key", "flexGrow": 3, "text": "\u00a0", "value": " " },
+                { "type": "done", "flexGrow": 1, "text": "Done" }
+            ]
+        }
+    ]
+}

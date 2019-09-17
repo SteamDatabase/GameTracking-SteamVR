@@ -2549,9 +2549,9 @@
 "[english]HeadsetView_PressKeyToExit"	"Press %1 to exit Full Screen"
 "HeadsetView_FullscreenButtonLabel"	"Pełny ekran"
 "[english]HeadsetView_FullscreenButtonLabel"	"Full Screen"
-"HeadsetView_DockButtonLabel"	"Zadokuj widok"
+"HeadsetView_DockButtonLabel"	"Zadokuj widok VR"
 "[english]HeadsetView_DockButtonLabel"	"Dock VR View"
-"HeadsetView_UndockButtonLabel"	"Usuń dokowanie widoku"
+"HeadsetView_UndockButtonLabel"	"Usuń dokowanie widoku VR"
 "[english]HeadsetView_UndockButtonLabel"	"Undock VR View"
 "HeadsetView_CloseButtonLabel"	"Zamknij"
 "[english]HeadsetView_CloseButtonLabel"	"Close"
@@ -2569,5 +2569,7 @@
 "[english]HeadsetView_ViewMode_Center"	"Center View"
 "HeadsetView_DebugCommands"	"Otwórz komendy debugowania"
 "[english]HeadsetView_DebugCommands"	"Open Debug Commands"
+"HeadsetView_HideButtonLabel"	"Ukryj widok VR"
+"[english]HeadsetView_HideButtonLabel"	"Hide VR View"
 }
 }

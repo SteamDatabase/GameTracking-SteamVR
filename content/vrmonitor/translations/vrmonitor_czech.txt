@@ -2568,5 +2568,7 @@
 "[english]HeadsetView_ViewMode_Center"	"Center View"
 "HeadsetView_DebugCommands"	"Otevřít příkazy pro debuggování"
 "[english]HeadsetView_DebugCommands"	"Open Debug Commands"
+"HeadsetView_HideButtonLabel"	"Skrýt VR pohled"
+"[english]HeadsetView_HideButtonLabel"	"Hide VR View"
 }
 }

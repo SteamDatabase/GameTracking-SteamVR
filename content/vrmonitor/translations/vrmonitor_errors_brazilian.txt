@@ -1058,5 +1058,7 @@
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended"	"automatic"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden"	"personalizada"
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden"	"your custom"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Dispositivo incompatível"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Device No Longer Supported"
 }
 }

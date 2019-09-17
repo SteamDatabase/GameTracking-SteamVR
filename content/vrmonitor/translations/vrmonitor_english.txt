@@ -474,6 +474,10 @@
 "Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "Always disable"
 "Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Force always-on (WARNING: Application will run at half framerate)"
 
+"Settings_PerApplication_Reprojection_Header" "Reprojection"
+"Settings_PerApplication_Reprojection_Checkbox" "Use legacy reprojection mode"
+"Settings_PerApplication_Reprojection_Description" "Checking this option will disable asynchronous reprojection for this title."
+
 "Settings_Audio_Header"  "Audio Settings"
 "Settings_Audio_On"  "When using SteamVR..."
 "Settings_Audio_AudioPlay"  "Set Playback device to"
