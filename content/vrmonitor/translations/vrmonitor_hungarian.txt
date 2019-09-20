@@ -2550,9 +2550,9 @@
 "[english]HeadsetView_PressKeyToExit"	"Press %1 to exit Full Screen"
 "HeadsetView_FullscreenButtonLabel"	"Teljes képernyő"
 "[english]HeadsetView_FullscreenButtonLabel"	"Full Screen"
-"HeadsetView_DockButtonLabel"	"Nézet dokkolása"
+"HeadsetView_DockButtonLabel"	"VR nézet dokkolása"
 "[english]HeadsetView_DockButtonLabel"	"Dock VR View"
-"HeadsetView_UndockButtonLabel"	"Nézet leválasztása"
+"HeadsetView_UndockButtonLabel"	"VR nézet leválasztása"
 "[english]HeadsetView_UndockButtonLabel"	"Undock VR View"
 "HeadsetView_CloseButtonLabel"	"Bezár"
 "[english]HeadsetView_CloseButtonLabel"	"Close"
@@ -2570,5 +2570,7 @@
 "[english]HeadsetView_ViewMode_Center"	"Center View"
 "HeadsetView_DebugCommands"	"Hibakeresési parancsok megnyitása"
 "[english]HeadsetView_DebugCommands"	"Open Debug Commands"
+"HeadsetView_HideButtonLabel"	"VR nézet elrejtése"
+"[english]HeadsetView_HideButtonLabel"	"Hide VR View"
 }
 }

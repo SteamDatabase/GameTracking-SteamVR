@@ -2544,9 +2544,9 @@
 "[english]HeadsetView_PressKeyToExit"	"Press %1 to exit Full Screen"
 "HeadsetView_FullscreenButtonLabel"	"Полноэкранный режим"
 "[english]HeadsetView_FullscreenButtonLabel"	"Full Screen"
-"HeadsetView_DockButtonLabel"	"Закрепить вид"
+"HeadsetView_DockButtonLabel"	"Закрепить отображение VR"
 "[english]HeadsetView_DockButtonLabel"	"Dock VR View"
-"HeadsetView_UndockButtonLabel"	"Открепить вид"
+"HeadsetView_UndockButtonLabel"	"Открепить отображение VR"
 "[english]HeadsetView_UndockButtonLabel"	"Undock VR View"
 "HeadsetView_CloseButtonLabel"	"Закрыть"
 "[english]HeadsetView_CloseButtonLabel"	"Close"
@@ -2564,5 +2564,7 @@
 "[english]HeadsetView_ViewMode_Center"	"Center View"
 "HeadsetView_DebugCommands"	"Открыть команды отладки"
 "[english]HeadsetView_DebugCommands"	"Open Debug Commands"
+"HeadsetView_HideButtonLabel"	"Выключить отображение VR"
+"[english]HeadsetView_HideButtonLabel"	"Hide VR View"
 }
 }

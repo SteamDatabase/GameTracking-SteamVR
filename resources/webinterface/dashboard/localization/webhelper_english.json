@@ -77,5 +77,7 @@
  	"OriginString_Source": "%3$s",
  	"OriginString_Controller": "%2$s",
 
+	"KeyboardDone" : "Done",
+
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }
