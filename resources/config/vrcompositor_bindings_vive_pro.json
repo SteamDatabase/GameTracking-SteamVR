@@ -1,39 +1,18 @@
 {
-   "action_manifest_version" : 0,
-   "alias_info" : {},
-   "app_key" : "openvr.component.vrcompositor",
-   "bindings" : {
-      "/actions/lasermouse" : {
-         "poses" : [
-            {
-               "output" : "/actions/lasermouse/in/pointer",
-               "path" : "/user/head/pose/raw"
-            }
-         ],
-         "sources" : [
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/lasermouse/in/leftclick"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/head/input/system"
-            }
-         ]
-      },
+	  "controller_type" :	"vive_pro",
+    "bindings" : {
       "/actions/system" : {
          "sources" : [
             {
                "inputs" : {
-                  "click" : {
-                     "output" : "/actions/system/in/opendashboard"
-                  },
                   "double" : {
                      "output" : "/actions/system/in/toggleroomview"
                   },
                   "long" : {
                      "output" : "/actions/system/in/showpowermenu"
+                  },
+                  "click" : {
+                     "output" : "/actions/system/in/toggledashboard"
                   }
                },
                "mode" : "button",
@@ -69,10 +48,52 @@
          ]
       }
    },
-   "category" : "steamvr_input",
-   "controller_type" : "vive_pro",
-   "description" : "",
-   "name" : "Default SteamVR Dashboard bindings for Vive Pro",
-   "options" : {},
-   "simulated_actions" : []
+   "action_binds": [
+        {
+            "action": "/actions/system/in/ToggleDashboard",
+            "source": "/filters/system_button/single"
+        },
+        {
+            "action": "/actions/system/in/ShowPowerMenu",
+            "source": "/filters/system_button/long"
+        },
+        {
+            "action": "/actions/system/in/ToggleRoomView",
+            "source": "/filters/system_button/double"
+        },
+        {
+            "action": "/actions/system/in/VolumeUp",
+            "source": "/user/head/input/volume_up/click"
+        },
+        {
+            "action": "/actions/system/in/VolumeDown",
+            "source": "/user/head/input/volume_down/click"
+        },
+        {
+            "action": "/actions/system/in/MuteMicrophone",
+            "source": "/user/head/input/mute_mic/click"
+        }
+    ],
+
+	"filters" :[
+		{
+			"name" : "system_button",
+			"type" : "boolean_button_press_state",
+			"input" : "/user/head/input/system/click",
+			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
+			"cancel_on_action_sets" : [ "/actions/chord" ],
+			"parameters" :
+			{
+				"long_press_delay" : 1.5
+			},
+			"output" :
+			{
+				"long" : "long",
+				"double" : "double",
+				"single" : "single",
+				"held" : "held"
+			}
+		}
+	]
 }
+

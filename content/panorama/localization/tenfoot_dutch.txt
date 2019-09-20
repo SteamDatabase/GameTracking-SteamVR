@@ -632,8 +632,6 @@
 "[english]QuitApp"	"QUIT APP"
 "VRSettingsKnucklesTitle"	"Knuckles"
 "[english]VRSettingsKnucklesTitle"	"Knuckles"
-"VRSettingsCamera_RoomViewMode_Label"	"Cameramodus voor kamerweergave"
-"[english]VRSettingsCamera_RoomViewMode_Label"	"Room View Camera Mode"
 "VRSettingsCamera_RoomViewMode_EdgeA"	"Gekleurde randen"
 "[english]VRSettingsCamera_RoomViewMode_EdgeA"	"Colored Edges"
 "VRSettingsTrackerUITitle"	"Vive Trackers beheren"

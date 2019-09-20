@@ -2568,9 +2568,5 @@
 "[english]HeadsetView_EyeMode_BothRightDominant"	"Both Eyes - Right Dominant"
 "HeadsetView_ViewMode_Center"	"Vista central"
 "[english]HeadsetView_ViewMode_Center"	"Center View"
-"HeadsetView_DebugCommands"	"Abrir comandos de debug"
-"[english]HeadsetView_DebugCommands"	"Open Debug Commands"
-"HeadsetView_HideButtonLabel"	"Ocultar vista de R.V."
-"[english]HeadsetView_HideButtonLabel"	"Hide VR View"
 }
 }

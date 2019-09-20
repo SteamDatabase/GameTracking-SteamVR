@@ -474,10 +474,6 @@
 "Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "Always disable"
 "Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Force always-on (WARNING: Application will run at half framerate)"
 
-"Settings_PerApplication_Reprojection_Header" "Reprojection"
-"Settings_PerApplication_Reprojection_Checkbox" "Use legacy reprojection mode"
-"Settings_PerApplication_Reprojection_Description" "Checking this option will disable asynchronous reprojection for this title."
-
 "Settings_Audio_Header"  "Audio Settings"
 "Settings_Audio_On"  "When using SteamVR..."
 "Settings_Audio_AudioPlay"  "Set Playback device to"
@@ -823,8 +819,6 @@
 "FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "This Base Station needs to be rediscovered optically by a restart of SteamVR before the update can proceed."
 "FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "This Base Station needs to be power cycled and rediscovered optically by a restart of SteamVR before the update can proceed. Please unplug and then replug the Base Station's power cable."
 "FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "This Base Station has a newer version of the update and has rejected it. Please unplug and then replug the Base Station's power cable."
-"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "An unexpected USB connection to the Base Station is preventing the wireless update.<br><br><font color=#aaaa00>Please unplug the USB cable that is plugged into the Base Station.</font>"
-"FirmwareWizard_Failure_WirelessUpdateBaseStuckInDFU" "An unexpected USB connection to the Base Station is preventing the wireless update from finishing.<ul><li><font color=#aaaa00>Unplug the Base Station's power cable.<li>Unplug the USB cable that is plugged into the Base Station.<li>Replug only the Base Station's power cable.<li>Wait 30 seconds for the Base Station to finish its internal update.</font></ul><br>The Base Station LED may be off during its internal update.<br>Do not unplug or make any other connections to the Base Station during its update."
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Click 'Retry' below to try again."
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Click 'Cancel' below to restart SteamVR."
 

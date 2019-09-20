@@ -128,14 +128,6 @@
 	"Settings_Chaperone_Style_3": "Advanced",
 	"Settings_Chaperone_Style_4": "Floor only",
 
-	"Settings_Video_RefreshRate_Header": "Refresh Rate",
-	"Settings_Video_RefreshRate_HzSuffix": " hz",
-	"Settings_Video_RefreshRate_NotFound": "Additional refresh rates are supported by your HMD, but were not detected by the graphics driver. Please verify your headset firmware and graphics drivers are up to date.",
-	"Settings_Video_RefreshRate_NotAvailableExtended": "Additional refresh rates are supported by your HMD, but SteamVR cannot manage refresh rates when the HMD is in extended mode.",
-	"Settings_Video_RefreshRate_EnableDirectModeAction": "Enable Direct Mode",
-	"Settings_Video_RestartNotice": "This pending change will take effect once you restart SteamVR.",
-	"Settings_Video_RestartAction": "Restart SteamVR",
-
 	"Settings_Video_AppResFooter": "The current setting renders each eye at %1$s",
 
 	"Settings_Advanced_MotionSmoothing_Header": "Motion Smoothing",

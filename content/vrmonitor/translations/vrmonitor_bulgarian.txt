@@ -2538,9 +2538,9 @@
 "[english]HeadsetView_PressKeyToExit"	"Press %1 to exit Full Screen"
 "HeadsetView_FullscreenButtonLabel"	"Цял екран"
 "[english]HeadsetView_FullscreenButtonLabel"	"Full Screen"
-"HeadsetView_DockButtonLabel"	"Закрепостяване на ВР изгледа"
+"HeadsetView_DockButtonLabel"	"Закрепостяване на изгледа"
 "[english]HeadsetView_DockButtonLabel"	"Dock VR View"
-"HeadsetView_UndockButtonLabel"	"Разкрепостяване на ВР изгледа"
+"HeadsetView_UndockButtonLabel"	"Разкрепостяване на изгледа"
 "[english]HeadsetView_UndockButtonLabel"	"Undock VR View"
 "HeadsetView_CloseButtonLabel"	"Затваряне"
 "[english]HeadsetView_CloseButtonLabel"	"Close"
@@ -2558,7 +2558,5 @@
 "[english]HeadsetView_ViewMode_Center"	"Center View"
 "HeadsetView_DebugCommands"	"Отваряне на командите за отстраняване на грешки"
 "[english]HeadsetView_DebugCommands"	"Open Debug Commands"
-"HeadsetView_HideButtonLabel"	"Скриване на ВР изгледа"
-"[english]HeadsetView_HideButtonLabel"	"Hide VR View"
 }
 }

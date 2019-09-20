@@ -2533,9 +2533,9 @@
 "[english]HeadsetView_PressKeyToExit"	"Press %1 to exit Full Screen"
 "HeadsetView_FullscreenButtonLabel"	"Πλήρης οθόνη"
 "[english]HeadsetView_FullscreenButtonLabel"	"Full Screen"
-"HeadsetView_DockButtonLabel"	"Μενού προβολής VR"
+"HeadsetView_DockButtonLabel"	"Μενού προβολής"
 "[english]HeadsetView_DockButtonLabel"	"Dock VR View"
-"HeadsetView_UndockButtonLabel"	"Απόκρυψη μενού VR"
+"HeadsetView_UndockButtonLabel"	"Απόκρυψη μενού"
 "[english]HeadsetView_UndockButtonLabel"	"Undock VR View"
 "HeadsetView_CloseButtonLabel"	"Κλείσιμο"
 "[english]HeadsetView_CloseButtonLabel"	"Close"
@@ -2553,7 +2553,5 @@
 "[english]HeadsetView_ViewMode_Center"	"Center View"
 "HeadsetView_DebugCommands"	"Άνοιγμα εντολών αποσφαλμάτωσης"
 "[english]HeadsetView_DebugCommands"	"Open Debug Commands"
-"HeadsetView_HideButtonLabel"	"Απόκρυψη προβολής VR"
-"[english]HeadsetView_HideButtonLabel"	"Hide VR View"
 }
 }

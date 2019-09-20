@@ -1,27 +1,11 @@
 {
-	"notificationtoast": {
-		"url": "/dashboard/notificationtoast.html",
-		"name": "notificationtoast",
-		"overlay_key": "system.toast",
-		"type": "overlay",
-		"pixel_size": [ 524, 156 ],
-		"setting": [ "dashboard", "useWebNotifications" ]
-	},
 	"powermenu": {
 		"url": "/dashboard/powermenu.html",
 		"name": "powermenu",
 		"overlay_key": "system.powermenu",
 		"type": "dashboard",
 		"pixel_size": [ 800, 800 ],
-		"setting": [ "computed", "EnableWebPowerMenu" ]
-	},
-	"messageoverlay": {
-		"url": "/dashboard/messageoverlay.html",
-		"name": "messageoverlay",
-		"overlay_key": "system.messageoverlay",
-		"type": "dashboard",
-		"pixel_size": [ 800, 600 ],
-		"setting": [ "computed", "EnableWebMessageOverlay" ]
+		"setting": [ "dashboard", "useWebPowerMenu" ]
 	},
 	"progressindicator": {
 		"url": "/dashboard/progressindicator.html",
@@ -69,17 +53,17 @@
 		"setting": [ "computed", "EnableWebSettingsInDashboard" ],
 		"pixel_size": [ 1920, 1080 ]
 	},
-	"settings_desktop": {
-		"url": "/dashboard/settings.html",
-		"name": "settings_desktop",
-		"persist_layout": true,
+    "settings_desktop": {
+        "url": "/dashboard/settings.html",
+        "name": "settings_desktop",
+        "persist_layout": true,
 		"persist_visibility": true,
-		"preload": true,
-		"resizable": false,
-		"type": "window",
+		"preload" :  true,
+        "resizable": false,
+        "type": "window",
 		"setting": [ "computed", "EnableWebSettingsOnDesktop" ],
-		"pixel_size": [ 800, 600 ]
-	},
+        "pixel_size": [ 800, 600 ]
+    },
 	"fallback": {
 		"url": "/dashboard/fallback.html",
 		"name": "fallback",
@@ -104,15 +88,8 @@
 		"name": "scenegraphtest",
 		"type": "overlay",
 		"pixel_size": [ 1920, 1080 ],
+		"input": "mouse",
 		"setting": [ "dashboard", "sceneGraphTest" ]
-	},
-	"keyboard": {
-		"url": "/dashboard/keyboard.html",
-		"name": "keyboard",
-		"overlay_key": "system.keyboard",
-		"type": "overlay",
-		"pixel_size": [ 1920, 1080 ],
-		"setting": [ "dashboard", "useWebKeyboard" ]
 	},
 	"debugcommands_desktop": {
 		"url": "/dashboard/debugcommands.html",

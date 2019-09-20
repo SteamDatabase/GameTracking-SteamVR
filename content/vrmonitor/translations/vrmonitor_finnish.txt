@@ -2300,7 +2300,7 @@
 "[english]Monitor_PuttingBaseStationsInStandby"	"Base stations standing by..."
 "Settings_BaseStation_ContinueBaseStationUpdate"	"Palautus keskeytyneen päivityksen vuoksi"
 "[english]Settings_BaseStation_ContinueBaseStationUpdate"	"Recover From Incomplete Update"
-"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected"	"Päivitys keskeytetty. Tässä tukiasemassa on jo asennettuna uudempi päivitys. Irrota ja kytke tukiaseman virtajohto uudelleen."
+"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected"	"Päivitys keskeytetty. Tukiasemaan on jo asennettu uudempi päivitys."
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected"	"This Base Station has a newer version of the update and has rejected it. Please unplug and then replug the Base Station's power cable."
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry"	"Jatka klikkaamalla alta \"Yritä uudelleen\""
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry"	"Click 'Retry' below to try again."
@@ -2400,7 +2400,5 @@
 "[english]HeadsetView_EyeMode_BothRightDominant"	"Both Eyes - Right Dominant"
 "HeadsetView_ViewMode_Center"	"Keskinäkymä"
 "[english]HeadsetView_ViewMode_Center"	"Center View"
-"HeadsetView_DebugCommands"	"Avaa virheenkorjauskomennot"
-"[english]HeadsetView_DebugCommands"	"Open Debug Commands"
 }
 }
