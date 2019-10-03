@@ -1282,5 +1282,7 @@
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action"	"More info"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=thai"
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"อุปกรณ์ไม่รองรับอีกต่อไป"
+"[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Device No Longer Supported"
 }
 }

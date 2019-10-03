@@ -478,16 +478,15 @@
 "Settings_PerApplication_Reprojection_Checkbox" "Use legacy reprojection mode"
 "Settings_PerApplication_Reprojection_Description" "Checking this option will disable asynchronous reprojection for this title."
 
-"Settings_Audio_Header"  "Audio Settings"
-"Settings_Audio_On"  "When using SteamVR..."
-"Settings_Audio_AudioPlay"  "Set Playback device to"
-"Settings_Audio_AudioRecord"  "Set Record device to"
-"Settings_Audio_Off"  "When not use SteamVR..."
+"Settings_Audio_Device_HMD"  "VR Headset"
+"Settings_Audio_Device_Other"  "Other"
+"Settings_Audio_AudioPlay"  "Audio output device"
+"Settings_Audio_AudioRecord"  "Audio input device"
 "Settings_Audio_HDMIGain"  "Enable Gain reduction on VIVE HDMI Audio"
-"Settings_Audio_LeaveAlone"  "(Do not change device)"
+"Settings_Audio_Default"  "Default"
 "Settings_Audio_AudioMirrorPlay"  "Mirror audio to device"
 "Settings_Audio_AudioMirrorUnsupported"  "Audio mirroring is not supported on this computer"
-"Settings_Audio_NoMirror"  "(Do not mirror)"
+"Settings_Audio_AudioMirrorEnable"  "Enable audio mirror"
 
 "BaseStation_Channel_Text" "Channel %1"
 "BaseStation_Mode_Text" "Mode %1"
@@ -824,9 +823,13 @@
 "FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "This Base Station needs to be power cycled and rediscovered optically by a restart of SteamVR before the update can proceed. Please unplug and then replug the Base Station's power cable."
 "FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "This Base Station has a newer version of the update and has rejected it. Please unplug and then replug the Base Station's power cable."
 "FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "An unexpected USB connection to the Base Station is preventing the wireless update.<br><br><font color=#aaaa00>Please unplug the USB cable that is plugged into the Base Station.</font>"
-"FirmwareWizard_Failure_WirelessUpdateBaseStuckInDFU" "An unexpected USB connection to the Base Station is preventing the wireless update from finishing.<ul><li><font color=#aaaa00>Unplug the Base Station's power cable.<li>Unplug the USB cable that is plugged into the Base Station.<li>Replug only the Base Station's power cable.<li>Wait 30 seconds for the Base Station to finish its internal update.</font></ul><br>The Base Station LED may be off during its internal update.<br>Do not unplug or make any other connections to the Base Station during its update."
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "An unexpected USB connection to the Base Station is preventing the wireless update from finishing.<ul><li><font color=#aaaa00>Unplug the Base Station's power cable.<li>Unplug the USB cable that is plugged into the Base Station.<li>Replug only the Base Station's power cable.<li>Wait 30 seconds for the Base Station to finish its internal update.</font></ul><br>The Base Station LED may be off during its internal update.<br>Do not unplug or make any other connections to the Base Station during its update."
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "This Base Station needs to be power cycled to continue the update.<br><br><font color=#aaaa00>Please unplug and then replug the Base Station's power cable before continuing.</font>"
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Click 'Retry' below to try again."
 "FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Click 'Cancel' below to restart SteamVR."
+
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug any USB cable connected to the Base Station.<li>Do NOT connect USB to the Base Station.<li>Unplug and replug the Link Box power cable.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR and try again.</ul>"
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20" "If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug any USB cable connected to the Base Station.<li>Do NOT connect USB to the Base Station.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR and try again.</ul>"
 
 "FirmwareWizard_UpdateBasestation_Success_Title" "Update Base Station"
 "FirmwareWizard_UpdateBasestation_Success_UpperText" "Success!"
@@ -914,10 +917,6 @@
 "BluetoothControllerStatus_Disconnecting"					"Disconnecting..."
 "BluetoothControllerStatus_FailedConnection"				"Bluetooth connection failed. Check link box connections, then unplug and replug power to the link box to reset it, then restart SteamVR."
 "BluetoothControllerStatus_Connected"						"Bluetooth connected"
-
-"Audio_HDMI_Playback_Device_Name" "HTC VIVE HDMI Audio"
-"Audio_USB_Playback_Device_Name" "HTC VIVE USB Audio"
-"Audio_USB_Record_Device_Name" "HTC VIVE Microphone"
 
 "NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "This application cannot run until you've performed Room Setup. Would you like to perform Room Setup now?"

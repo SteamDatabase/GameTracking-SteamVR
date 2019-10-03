@@ -47,7 +47,7 @@
   "SourceInputMode_TouchInitialState": "초기 수행 터치 동작:",
   "SourceInputMode_OverlapPercent": "중복 비율:",
   "SourceInputMode_DeadzonePercent": "데드존 비율",
-  "SourceInputMode_StickyDpad": "Persist Dpad action once activated",
+  "SourceInputMode_StickyDpad": "활성화 시 방향패드 동작 지속",
   "SourceInputMode_LongPressDelay": "길게 누르기 지연:",
   "SourceInputMode_DoublePressDelay": "두 번 누르기 지연:",
   "SourceInputMode_DeadZone": "DeadZone",

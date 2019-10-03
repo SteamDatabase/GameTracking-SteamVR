@@ -2555,5 +2555,15 @@
 "[english]HeadsetView_DebugCommands"	"Open Debug Commands"
 "HeadsetView_HideButtonLabel"	"Masquer l'affichage VR"
 "[english]HeadsetView_HideButtonLabel"	"Hide VR View"
+"Settings_PerApplication_Reprojection_Header"	"Reprojection"
+"[english]Settings_PerApplication_Reprojection_Header"	"Reprojection"
+"Settings_PerApplication_Reprojection_Checkbox"	"Utiliser l'ancien mode de reprojection"
+"[english]Settings_PerApplication_Reprojection_Checkbox"	"Use legacy reprojection mode"
+"Settings_PerApplication_Reprojection_Description"	"Si vous cochez cette option, la reprojection asynchrone sera désactivée pour ce titre."
+"[english]Settings_PerApplication_Reprojection_Description"	"Checking this option will disable asynchronous reprojection for this title."
+"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected"	"Une connexion USB inattendue à la station de base empêche la mise à jour sans fil.<br><br><font color=#aaaa00>Veuillez débrancher le câble USB branché à la station de base.</font>"
+"[english]FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected"	"An unexpected USB connection to the Base Station is preventing the wireless update.<br><br><font color=#aaaa00>Please unplug the USB cable that is plugged into the Base Station.</font>"
+"FirmwareWizard_Failure_WirelessUpdateBaseStuckInDFU"	"Une connexion USB inattendue à la station de base empêche la mise à jour sans fil de s'achever.<ul><li><font color=#aaaa00>Débranchez le câble d'alimentation de la station de base.<li>Débranchez le câble USB branché à la station de base.<li>Rebranchez seulement le câble d'alimentation de la station de base.<li>Attendez 30 secondes que la station de base ait terminé sa mise à jour interne.</font></ul><br>Le voyant de la station de base peut être éteint pendant sa mise à jour interne.<br>Pendant la mise à jour, ne branchez aucun câble à la station de base, et n'en débranchez aucun."
+"[english]FirmwareWizard_Failure_WirelessUpdateBaseStuckInDFU"	"An unexpected USB connection to the Base Station is preventing the wireless update from finishing.<ul><li><font color=#aaaa00>Unplug the Base Station's power cable.<li>Unplug the USB cable that is plugged into the Base Station.<li>Replug only the Base Station's power cable.<li>Wait 30 seconds for the Base Station to finish its internal update.</font></ul><br>The Base Station LED may be off during its internal update.<br>Do not unplug or make any other connections to the Base Station during its update."
 }
 }

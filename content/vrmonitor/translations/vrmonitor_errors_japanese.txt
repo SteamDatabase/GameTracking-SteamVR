@@ -715,7 +715,7 @@
 "[english]Warning_DismissableWarning_Windows8_Description"	"SteamVR is not supported on Windows 8. Please upgrade to Windows 8.1 or Windows 10 for the best results."
 "Warning_DismissableWarning_DisplayInExtendedMode_Header"	"ヘッドセット通知"
 "[english]Warning_DismissableWarning_DisplayInExtendedMode_Header"	"Headset Notice"
-"Warning_DismissableWarning_DisplayInExtendedMode_Description"	"拡張モードは推奨されません。最適に使用するにはダイレクトモードに切り替えてください。"
+"Warning_DismissableWarning_DisplayInExtendedMode_Description"	"ヘッドセットがモニターとして実行されていることをSteamVRが検出しました。最適に使用するにはダイレクトディスプレイモードに切り替えてください。"
 "[english]Warning_DismissableWarning_DisplayInExtendedMode_Description"	"SteamVR has detected your headset running as a monitor. For best results, please switch to Direct Display Mode."
 "Warning_DismissableWarning_DisplayInExtendedMode_Action"	"ダイレクトディスプレイモードを有効化"
 "[english]Warning_DismissableWarning_DisplayInExtendedMode_Action"	"Enable Direct Display Mode"

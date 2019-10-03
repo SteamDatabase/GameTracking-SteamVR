@@ -129,7 +129,7 @@
   "SourceInputSubHeader_Vector2Actions": "Actions de vecteur 2",
   "SourceInputSubHeader_Vector3Actions": "Actions de vecteur 3",
   "SourceInputSubHeader_SkeletonActions": "Actions squelettes",
-  "SourceInputSubHeader_PoseActions": "Actions de pose (liberté de six degrés)",
+  "SourceInputSubHeader_PoseActions": "Actions de pose (6 degrés de liberté)",
   "SourceInputSubHeader_HapticsActions": "Actions haptiques",
   "BindingUI_PoseTitle": "Configuration des poses",
   "BindingUI_HapticsTitle": "Configuration du retour haptique",

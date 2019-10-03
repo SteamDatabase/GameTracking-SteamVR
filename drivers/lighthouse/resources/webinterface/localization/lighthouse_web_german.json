@@ -15,7 +15,7 @@
 	"pairingdevice_knuckles_controllername": "Valve Index Controller",
 	"pairingdevice_vivewand_shortname": "HTC Vive Controller",
 	"pairingdevice_vivetracker_shortname": "HTC Vive Tracker",
-	"pairingdevice_a_knuckles_controllername": "1 Valve Index Controller",
+	"pairingdevice_a_knuckles_controllername": "ein Valve Index Controller",
 	"pairingdevice_a_vivewand_shortname": "HTC Vive Controller",
 	"pairingdevice_a_vivetracker_shortname": "HTC Vive Tracker",
 	"pair_controller_title": "%1$s koppeln",
@@ -33,6 +33,6 @@
 	"pairing_success_again": "Weiteren Controller koppeln...",
 	"pairing_try_again": "Bitte erneut versuchen…",
 	"pairing_error_title": "Es ist ein Fehler aufgetreten",
-	"pairing_timed_out_desc": "Es war einmal nach langer Zeit ... eine Zeitüberschreitung bei einem Controller.",
+	"pairing_timed_out_desc": "Zeitüberschreitung bei Controller",
 	"DummyEntryToConsumeComma": "DummyEntryToConsumeComma"
 }

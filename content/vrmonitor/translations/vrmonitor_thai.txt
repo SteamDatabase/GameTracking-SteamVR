@@ -2451,6 +2451,8 @@
 "[english]Settings_Bluetooth_RetryConnection"	"Retry Connection"
 "BS_PowerManagement_PartialStandby"	"รอใช้งาน"
 "[english]BS_PowerManagement_PartialStandby"	"Standby"
+"BS_PowerManagement_PartialStandby_Explanation"	"สถานีฐานจะปิดเฉพาะเลเซอร์ของเครื่องเพื่อให้ปลุกได้เร็วขึ้น เมื่อ SteamVR เริ่ม"
+"[english]BS_PowerManagement_PartialStandby_Explanation"	"Base Stations will power off only their lasers for a faster wake up when SteamVR starts."
 "BS_PowerManagement_PartialStandby_HybridExplanation"	"สถานีฐาน 2.0 จะปิดเฉพาะเลเซอร์ของเครื่องเพื่อให้ปลุกได้เร็วขึ้น เมื่อ SteamVR เริ่ม"
 "[english]BS_PowerManagement_PartialStandby_HybridExplanation"	"Base Station 2.0 will power off only their lasers for a faster wake up when SteamVR starts."
 "BS_PowerManagement_FullStandby"	"หลับ"
@@ -2517,5 +2519,7 @@
 "[english]HeadsetView_EyeMode_BothRightDominant"	"Both Eyes - Right Dominant"
 "HeadsetView_ViewMode_Center"	"มุมมองตรงกลาง"
 "[english]HeadsetView_ViewMode_Center"	"Center View"
+"HeadsetView_DebugCommands"	"เปิดคำสั่งดีบัก"
+"[english]HeadsetView_DebugCommands"	"Open Debug Commands"
 }
 }

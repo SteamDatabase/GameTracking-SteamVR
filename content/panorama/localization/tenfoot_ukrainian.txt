@@ -554,7 +554,7 @@
 "[english]PlayAreaButton"	"Play Area"
 "ModelSkinName_Stage"	"Середовище"
 "[english]ModelSkinName_Stage"	"Environment"
-"Screenshot_Progress_Description"	"Прогрес скріншотів"
+"Screenshot_Progress_Description"	"Прогрес знімків екрана"
 "[english]Screenshot_Progress_Description"	"Screenshot Progress"
 "MimeHandlersHeader"	"Стандартні програми"
 "[english]MimeHandlersHeader"	"Default Programs"

@@ -4,24 +4,21 @@
 		"name": "notificationtoast",
 		"overlay_key": "system.toast",
 		"type": "overlay",
-		"pixel_size": [ 524, 156 ],
-		"setting": [ "dashboard", "useWebNotifications" ]
+		"pixel_size": [ 524, 156 ]
 	},
 	"powermenu": {
 		"url": "/dashboard/powermenu.html",
 		"name": "powermenu",
 		"overlay_key": "system.powermenu",
 		"type": "dashboard",
-		"pixel_size": [ 800, 800 ],
-		"setting": [ "computed", "EnableWebPowerMenu" ]
+		"pixel_size": [ 800, 800 ]
 	},
 	"messageoverlay": {
 		"url": "/dashboard/messageoverlay.html",
 		"name": "messageoverlay",
 		"overlay_key": "system.messageoverlay",
 		"type": "dashboard",
-		"pixel_size": [ 800, 600 ],
-		"setting": [ "computed", "EnableWebMessageOverlay" ]
+		"pixel_size": [ 800, 600 ]
 	},
 	"progressindicator": {
 		"url": "/dashboard/progressindicator.html",

@@ -309,8 +309,8 @@
   "TrackpadClickRight": "Trackpad derecho",
   "TrackpadClickNone": "Seleccionar trackpad",
   "SecondaryControllerTab": "Preferencias adicionales",
-  "SecondaryController_ReturnWithLeftHand": "Reiniciar las asignaciones con la mano izquierda",
-  "SecondaryController_ReturnWithRightHand": "Reiniciar las asignaciones con la mano derecha",
+  "SecondaryController_ReturnWithLeftHand": "Devolver las asignaciones con las de la mano izquierda",
+  "SecondaryController_ReturnWithRightHand": "Devolver las asignaciones con las de la mano derecha",
   "Settings_ThumbstickDeadzone_Text": "Zona muerta del stick analógico:",
   "Settings_ControllerSettings_Title": "Preferencias del stick analógico",
   "Settings_ControllerSettings_Utilities": "Utilidades del mando",
@@ -322,5 +322,5 @@
   "Settings_General_LeftThumbstickAngle": "Ángulo izquierdo del stick analógico: %1$s°",
   "Settings_General_RightThumbstickAngle": "Ángulo derecho del stick analógico: %1$s°",
   "Settings_General_Reset": "Reiniciar",
-  "LegacyDebugger_NoApp": "Ejecuta cualquier aplicación de entrada heredada para ver tus datos de entrada aquí."
+  "LegacyDebugger_NoApp": "Ejecuta cualquier aplicación de entrada heredada para ver sus datos de entrada aquí."
 }
