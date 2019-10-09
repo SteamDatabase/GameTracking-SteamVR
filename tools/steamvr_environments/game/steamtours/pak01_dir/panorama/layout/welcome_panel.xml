@@ -12,6 +12,7 @@
 					<Label class="UpdateDescController" text="#WelcomePanel_UpdateDescController" />
 					<Label class="UpdateDescTouch" text="#WelcomePanel_UpdateDescTouch" />
           <Label class="UpdateDescKnuckles" text="#WelcomePanel_UpdateDescKnuckles" />
+          <Label class="UpdateDescCosmos" text="#WelcomePanel_UpdateDescCosmos" />
         </Panel>
 				<Panel class="Slideshow_Wrapper">
 					<Panel class="Slideshow">
@@ -44,6 +45,7 @@
           <Image class="RiftSImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_rift_s_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
           <Image class="WinMRImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_winmr_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
           <Image class="KnucklesImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_knuckles_png.vtex" />
+          <Image class="CosmosImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_cosmos_png.vtex" />
           <Image class="Controller" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_controller_png.vtex" />	
 				</Panel>	
 			</Panel>

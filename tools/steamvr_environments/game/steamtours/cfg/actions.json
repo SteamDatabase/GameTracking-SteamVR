@@ -24,6 +24,10 @@
       "binding_url": "bindings_holographic.json"
     },
     {
+      "controller_type": "vive_cosmos_controller",
+      "binding_url": "bindings_cosmos.json"
+    },
+    {
       "controller_type": "generic",
       "binding_url": "bindings_generic.json"
     },

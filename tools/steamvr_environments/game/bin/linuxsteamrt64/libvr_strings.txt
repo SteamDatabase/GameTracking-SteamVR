@@ -183,6 +183,7 @@ $t)E1
 ../public/tier1/utlfixedmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
+.5rd,
 .M;UU
 .comment
 .data
@@ -323,6 +324,7 @@ $t)E1
 8[A\A]]
 8[]A\A]A^A_
 9.1.15
+9=x3*
 9ISequence
 9f98u
 :@8>@
@@ -985,6 +987,7 @@ HMD Manufacturer:
 HMD Model: 
 HMD Position: %.2f, %.2f, %.2f
 HMD Serial Number: 
+HTC VIVE
 H[A\A]A^A_]
 H[A\A]L)
 H[A\A]]
@@ -1141,7 +1144,8 @@ Launching %s
 Lc)D;i
 Lc/E)
 Lc3D;s
-Lc5ig,
+Lc5)g,
+Lc=Jf,
 LcghD;gx
 Lcs8D;sHD
 Length; 
@@ -3348,6 +3352,7 @@ virtual void Etc::Block4x4Encoding_RGBA8::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8_Opaque::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8_Transparent::PerformIteration(float)
 vive_controller
+vive_cosmos_controller
 vmatrix.cpp
 vmdlkeys0
 vn %.6g, %.6g, %.6g

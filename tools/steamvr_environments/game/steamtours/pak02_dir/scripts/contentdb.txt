@@ -478,6 +478,13 @@
 			preview_image = "file://{images}/contentdb/winmr_samsung_controllers.png"
 		},
 		{
+			id = "cosmos_controllers"
+			name = "#VR_Avatar_Cosmos_Controllers"
+			desc = "#VR_Avatar_Cosmos_Controllers_Desc"
+			content = "models/controllers/vive_cosmos_controller_v1_left.vmdl"
+			preview_image = "file://{images}/contentdb/cosmos_controller.png"
+		},
+		{
 			id = "generic_tracked_controllers"
 			name = "#VR_Avatar_Generic_Tracked"
 			desc = "#VR_Avatar_Generic_Tracked_Desc"

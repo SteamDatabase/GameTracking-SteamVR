@@ -1439,7 +1439,6 @@ $z1u/A
 (#GameUI_Disconnect_RemoteProblem_Timeout
 (#P.hy+
 (%0.2f): %s
-(%7nj
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s 
 (%d) Name: %s (%s)
 (%d/%d)%s %s
@@ -1455,6 +1454,7 @@ $z1u/A
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (8HXhx
+(=KvN
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (AVAUH
@@ -1902,9 +1902,11 @@ $z1u/A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%q?Q
 .(Optional) Set of tags for the published file.
 .(zkuiH
+.-/4[
+.-VvN
+.-_Ws
 ...<truncated>...
 ../../public/appframework/tier1app.h
 ../../public/appframework/tier2app.h
@@ -1937,7 +1939,11 @@ $z1u/A
 ..\content
 ./zvutH
 .3333
-.=ToQ
+.5&i#
+.54 e
+.5?tM
+.=(uT
+.=toQ
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -9844,6 +9850,7 @@ Corrupt JPEG data: bad arithmetic code
 Corrupt JPEG data: found marker 0x%02x instead of RST%d
 Corrupt JPEG data: premature end of data segment
 Cos( %s )
+CosmosController
 Could not create an instance of 
 Could not deduce full path for map name %s
 Could not find a .vmap_c file while unzipping map VPK!
@@ -10060,7 +10067,7 @@ D$\A9
 D$`9D$X
 D$`A9E`A
 D$`H9
-D$`H;=
+D$`H;=Ej
 D$`L;
 D$`t	
 D$hH9
@@ -10137,11 +10144,13 @@ D;!ttHc
 D;'tXH
 D;)ts
 D;+}(L
-D;-ph
+D;-N4
+D;-m3
 D;.tLH
 D;0uOE
 D;3t 
 D;3}5
+D;5ap
 D;8tQH
 D;9tlA
 D;C }JMc
@@ -12145,117 +12154,118 @@ H;7t-1
 H;9u#
 H;:t(f
 H;:u'
-H;=	[
-H;= ;
-H;= [
-H;= ^
+H;=	 
+H;=	P
+H;=	^
+H;= 6
+H;= <
+H;= C
+H;= ]
+H;= `
+H;= a
 H;="N
-H;="z
 H;=&,
 H;=&-
-H;=)_
+H;=)b
+H;=+C
 H;=,+
+H;=,T
 H;=,k
-H;=/*
-H;=/L
+H;=/%
+H;=/Q
 H;=/R
-H;=/h
-H;=/t
-H;=0	
+H;=/{
 H;=0!
-H;=0$
-H;=0G
-H;=0`
-H;=0d
-H;=0z
-H;=1>
-H;=2"
-H;=2(
+H;=0L
+H;=0_
+H;=2!
+H;=2*
+H;=2h
+H;=5S
 H;=7I
 H;=8S
-H;=9a
-H;=:"
+H;=:$
 H;=:'
-H;=:+
-H;=:i
+H;=:-
+H;=:k
+H;=:x
+H;=;:
 H;=</
-H;=?:
+H;=?6
 H;=??
-H;=?U
-H;=?n
+H;=?Z
 H;=?p
-H;=@5
-H;=@P
-H;=@b
-H;=BR
-H;=B{
+H;=@;
+H;=@U
+H;=@Z
+H;=@p
 H;=Gz
 H;=H5
-H;=HI|
 H;=HK
-H;=I 
+H;=I!
 H;=I3
-H;=J5
+H;=I[
+H;=JI
+H;=JX
 H;=M,
-H;=O\
-H;=O^
-H;=P>
-H;=PY
+H;=O?
+H;=OF
+H;=O]
+H;=Oc
+H;=P:
+H;=P[
 H;=P\
-H;=R 
-H;=R)
-H;=Rf
-H;=Rg
-H;=VJ
+H;=P^
+H;=P|
+H;=R"
+H;=R+
+H;=Ri
 H;=X4
 H;=XT
-H;=Y 
-H;=YZ
-H;=Yp
-H;=Z#
-H;=Z,
-H;=Zj
-H;=\/
-H;=_J
-H;=_e
-H;=_g
-H;=`8
-H;=`D
-H;=`E
-H;=`[
-H;=`]
-H;=`b
-H;=b|
-H;=dP|
+H;=YQ
+H;=Y]
+H;=Z%
+H;=Z.
+H;=Zy
+H;=_9
+H;=_E
+H;=_O
+H;=`?
+H;=`J
+H;=`^
+H;=`u
+H;=ae
 H;=f>
 H;=h$
 H;=h3
 H;=i?
-H;=iP
-H;=i\
+H;=i_
 H;=ll
-H;=oS
-H;=p-
-H;=pM
-H;=pN
-H;=p]
+H;=o.
+H;=oN
+H;=oX
+H;=p(
+H;=pS
+H;=p`
+H;=pf
 H;=q&
-H;=r!
-H;=r*
-H;=rh
+H;=r#
+H;=r,
+H;=r\
+H;=rj
+H;=rw
 H;=td
+H;=uO
 H;=w~
 H;=x#
 H;=x2
 H;=xU
 H;=y4
-H;=y^
-H;=z$
-H;=z-
+H;=ya
+H;=z&
 H;=zQ
-H;=z\
-H;=zk
-H;={:
+H;=zS
+H;=zz
 H;={}
 H;B@t
 H;C(t
@@ -12398,6 +12408,8 @@ HasPendingInvites
 HasSaveGame
 HaticsType_Default
 HaticsType_None
+Hc50?
+Hc5wU
 Hc7;w
 Hc@$H
 Hc@(E1
@@ -13321,7 +13333,6 @@ L9|$HJ
 L: %.2f deg
 L;!t!f.
 L;"tJA
-L;->B
 L;0t!A
 L;0t?H9
 L;0t[A
@@ -13489,8 +13500,8 @@ Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-Y[
-Lc-gh
+Lc-E4
+Lc-d3
 Lc/D)
 Lc/D;o
 Lc/E)
@@ -18276,10 +18287,11 @@ X\V@%
 X^'@d
 XboxSystemInterface001
 Xh#x\
-Y%'sm
-Y%W0	
+Y%<?o
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y5VMV
+Y-?5)
+Y5>5)
+Y5vMV
 Y?C_RopeKeyframe
 YB@fE
 YD$(A
@@ -18428,8 +18440,10 @@ Z}uU
 \$8Mc
 \$8[A\A]A^]
 \$hA+\$l
+\%-XR
 \%03o
-\=/SR
+\5JSR
+\=oSR
 \C not allowed in lookbehind assertion
 \C8E1
 \IcD$
@@ -22002,6 +22016,8 @@ cornflowerblue
 cornsilk
 cos@@GLIBC_2.2.5
 cosf@@GLIBC_2.2.5
+cosmos
+cosmos_controllers
 couldn't load scene file %s
 count
 countdown.cpp
@@ -27422,7 +27438,8 @@ o ATL
 o ATSH
 o$ATL
 o$D9e
-o%?%)
+o%j )
+o%|")
 o(ATL
 o(ATSH
 o*Ral
@@ -29526,15 +29543,13 @@ t$lfA
 t$pH;5
 t$pvufA
 t$xH;5}
-t%95.X
 t%;2t%H
-t%D:%
+t%D:%D
 t%HcC0A
 t%HcSx
 t%L;}
-t&;5?
 t&A;\$
-t&D;%
+t&D;%u
 t&L;%
 t&L;%p
 t&Lcc
@@ -29547,8 +29562,8 @@ t(HcM
 t(Lc#D;c
 t(Mce
 t([A\A]A^]
-t)@:5!
-t)D:%x
+t)@:5
+t)D:%8
 t)HcE
 t)Mc<$E;|$
 t)[A\]
@@ -30937,7 +30952,7 @@ x0[A\]
 x0tNH
 x7Hcw
 x8"tq
-x8H;=>X
+x8H;=
 x8Mcl$ E;l$0
 x8mUM
 x@HcO
@@ -31101,11 +31116,10 @@ z|uzf
 z~u|A
 { H;=
 { H;=	)
-{ H;=91
-{ H;=K(
-{ H;=K<
+{ H;=>1
 { H;=N)
-{ H;=~1
+{ H;=^
+{ H;=i/
 { H;}
 { [A\A]A^H
 { [A\A]]H
@@ -31115,22 +31129,24 @@ z~u|A
 {$[A\A]A^H
 {$t%:
 {(9x(
-{(H;=:)
+{(H;=
 {(H;}
 {([A\A]H
 {([A\A]]
 {([A\]
 {([A\]H
 {(fD9't)H
-{0H;=
+{0H;=pY
+{0H;=r(
 {0t!H
 {8[A\H
 {8t;[A\]
 {@H;=
+{@H;=h'
 {@[A\]
-{HH;=
+{HH;=@&
 {HH;{`I
-{PH;=9&
+{PH;=
 {S6wD
 {XtJH
 {YIN?

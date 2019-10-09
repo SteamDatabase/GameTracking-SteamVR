@@ -584,8 +584,10 @@
 		"VR_Avatar_Hands_Full_Desc"		"Fully animated five fingered hand."
 		"VR_Avatar_Knuckles"			"Valve Index Controllers"
 		"VR_Avatar_Knuckles_Desc"		"Valve Index controllers."
-		"VR_Avatar_WindowsMR_Controllers"			"Windows MR Controllers"
-		"VR_Avatar_WindowsMR_Controllers_Desc"		"Windows MR controllers"
+		"VR_Avatar_WindowsMR_Controllers"		"Windows MR Controllers"
+		"VR_Avatar_WindowsMR_Controllers_Desc"	"Windows MR controllers"
+		"VR_Avatar_Cosmos_Controllers"		"Cosmos Controllers"
+		"VR_Avatar_Cosmos_Controllers_Desc"	"Cosmos controllers"
 		"VR_Avatar_Generic_Tracked"			"Generic Tracked Controllers"
 		"VR_Avatar_Generic_Tracked_Desc"	"Generic tracked controllers"
 
@@ -1256,6 +1258,7 @@
 		"WelcomePanel_UpdateDescController"	"Welcome to SteamVR! \n\nPress the Y button to browse environments and meet up with friends.\n\nTo subscribe to more environments, select the 'Get More' tab in the Environments panel. For more help, select the Help button."
 		"WelcomePanel_UpdateDescTouch"		"Welcome to SteamVR! \n\nPress the B or Y button to browse environments and meet up with friends.\n\nTo subscribe to more environments, select the 'Get More' tab in the Environments panel. For more help, select the Help button."
 		"WelcomePanel_UpdateDescKnuckles"	"Welcome to SteamVR! \n\nPress the B button to browse environments and meet up with friends.\n\nTo subscribe to more environments, select the 'Get More' tab in the Environments panel. For more help, select the Help button."
+		"WelcomePanel_UpdateDescCosmos"		"Welcome to SteamVR! \n\nPress the B or Y button to browse environments and meet up with friends.\n\nTo subscribe to more environments, select the 'Get More' tab in the Environments panel. For more help, select the Help button."
 
 		// notifications
 		"Notification_Info"			"{s:info}"
@@ -1484,7 +1487,7 @@
 		"TutorialWelcome_Tile3_Desc" "To open and close the main menu, use the Menu button on your controller."
 		"TutorialWelcome_Bottom_Desc" "Don't forget to visit the Workshop to download more environments from the community."		
 		
-		"TutorialTeleport_Title" "Moving around in SteamVR"
+		"TutorialTeleport_Title" "Moving around in SteamVR Home"
 		"TutorialTeleport_Tile1_Desc" "To teleport, press down and hold the trackpad button."
 		"TutorialTeleport_Tile2_Desc" "You will see an arc that ends with a green circle on the ground."
 		"TutorialTeleport_Tile3_Desc" "Release the trackpad button to teleport to the green circle."
@@ -1562,7 +1565,6 @@
 		"TutorialWelcome_Tile3_Touch_Desc" "To open and close this menu, use the B (or Y) button on your controller."
 		"TutorialWelcome_Touch_Bottom_Desc" "Don't forget to visit the Workshop to download more environments from the community."
 
-		"TutorialTeleport_Title" "Moving around"
 		"TutorialTeleport_Tile1_Touch_Desc" "To teleport, push forward on the joystick."
 		"TutorialTeleport_Tile2_Touch_Desc" "You will see an arc that ends with a green circle on the ground."
 		"TutorialTeleport_Tile3_Touch_Desc" "Release the joystick to teleport to the green circle."
@@ -1603,6 +1605,14 @@
 		"TutorialTeleport_Tile1_Knuckles_Desc" "To teleport, push forward on the joystick."
 		"TutorialTeleport_Tile2_Knuckles_Desc" "You will see an arc that ends with a green circle on the ground."
 		"TutorialTeleport_Tile3_Knuckles_Desc" "Release the joystick to teleport to the green circle."
+
+		// Cosmos Controller Tutorial
+		"TutorialWelcome_Tile3_Cosmos_Desc" "To open and close the main menu, use the B (or Y) button on your controller."
+
+		"TutorialTeleport_Tile1_Cosmos_Desc" "To teleport, push forward on the joystick."
+		"TutorialTeleport_Tile2_Cosmos_Desc" "You will see an arc that ends with a green circle on the ground."
+		"TutorialTeleport_Tile3_Cosmos_Desc" "Release the joystick to teleport to the green circle."
+
 
 		"TutorialWizard_Bottom_Desc" "Select Next with the Trigger button to continue."
 		

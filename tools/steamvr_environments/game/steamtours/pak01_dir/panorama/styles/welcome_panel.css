@@ -91,7 +91,9 @@ DestinationsWelcomePanel {
 .RiftSController .RiftSImage,
 .RiftSController .PressBOrYButton,
 .KnucklesController .KnucklesImage,
-.KnucklesController .PressBButton
+.KnucklesController .PressBButton,
+.CosmosController .CosmosImage,
+.CosmosController .PressBOrYButton
 {
 	visibility: visible;	
 }
@@ -104,7 +106,9 @@ DestinationsWelcomePanel {
 .RiftSController .MotionController,
 .RiftSController .PressMenuButton,
 .KnucklesController .MotionController,
-.KnucklesController .PressMenuButton
+.KnucklesController .PressMenuButton,
+.CosmosController .MotionController,
+.CosmosController .PressMenuButton
 {
 	visibility: collapse;	
 }
@@ -157,7 +161,8 @@ DestinationsWelcomePanel {
 .UpdateDesc,
 .UpdateDescController,
 .UpdateDescTouch,
-.UpdateDescKnuckles {
+.UpdateDescKnuckles,
+.UpdateDescCosmos {
 	text-align: left;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -178,7 +183,8 @@ DestinationsWelcomePanel {
 .GamepadController .UpdateDescController,
 .TouchController .UpdateDescTouch,
 .RiftSController .UpdateDescTouch,
-.KnucklesController .UpdateDescKnuckles
+.KnucklesController .UpdateDescKnuckles,
+.CosmosController .UpdateDescCosmos
 {
 	visibility: visible;	
 }
@@ -187,7 +193,8 @@ DestinationsWelcomePanel {
 .GamepadController .UpdateDesc,
 .TouchController .UpdateDesc,
 .RiftSController .UpdateDesc,
-.KnucklesController .UpdateDesc
+.KnucklesController .UpdateDesc,
+.CosmosController .UpdateDesc
 {
 	visibility: collapse;	
 }
