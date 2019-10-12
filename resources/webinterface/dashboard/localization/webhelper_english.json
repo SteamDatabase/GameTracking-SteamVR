@@ -21,6 +21,7 @@
 	"PowerMenuResetSeatedPosition": "Reset Seated Position",
 	"PowerMenuTurnOffController": "Turn Off Controller",
 	"PowerMenuQuitSceneApp": "Exit %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Exit App",
 	"PowerMenuExitVR": "Exit VR",
 	"PowerMenuCancel": "Cancel",
 	"PowerMenuHeader": "Power Menu",
