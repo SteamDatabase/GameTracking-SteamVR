@@ -29,13 +29,20 @@
         "type" : "button",
         "binding_image_point" : [ 162, 25 ]
     },
-    "/input/remote_dpad/click" : {
+    "/input/remote_dpad/enter" : {
         "type" : "button",
+	"click" : true,
         "binding_image_point" : [ 142, 25 ]
     },
-    "/input/remote_back/click" : {
+    "/input/remote_back" : {
         "type" : "button",
+	"click" : true,
         "binding_image_point" : [ 142, 64 ]
+    },
+    "/input/tap" : {
+        "type" : "button",
+	"click" : true,
+        "binding_image_point" : [ 60, 60 ]
     },
     "/pose/raw" : {
         "type" : "pose",

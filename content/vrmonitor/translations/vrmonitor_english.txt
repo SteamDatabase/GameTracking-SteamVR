@@ -1208,6 +1208,12 @@
 "BS20_UpdateRecovery_Refresh"								"Scan Again"
 "BS20_UpdateRecovery_UpdateDevice"							"Recover Device"
 
+"BS_PromotePowerManagement_Title"							"SteamVR"
+"BS_PromotePowerManagement_Explanation"						"SteamVR can power manage your Base Stations.<br><br>Power managed Base Stations go into standby mode when SteamVR is not in use and wake up again when SteamVR starts.<br>"
+"BS_PromotePowerManagement_Enable"							"Enable Base Station Power Management *"
+"BS_PromotePowerManagement_Explanation2"					"<br><font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
+"BS_PromotePowerManagement_ExitNow"							"Exit Now (%1)"
+
 "Monitor_SpontaneousQuitDialog_Title" "Unexpected SteamVR Error"
 "Monitor_SpontaneousQuitDialog_Message" "SteamVR has encountered a critical error."
 "Monitor_SpontaneousQuitDialog_Restart" "Restart SteamVR"

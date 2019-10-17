@@ -12,7 +12,8 @@
     "/input/remote_dpad/up" : "Dpad Up",
     "/input/remote_dpad/left" : "Dpad Left",
     "/input/remote_dpad/right" : "Dpad Right",
-    "/input/remote_dpad/click" : "Dpad Click",
-    "/input/remote_back/click" : "Remote Back"
+    "/input/remote_dpad/enter" : "Dpad Click",
+    "/input/remote_back" : "Remote Back",
+    "/input/tap" : "Headset Tap"
   }
 ]
