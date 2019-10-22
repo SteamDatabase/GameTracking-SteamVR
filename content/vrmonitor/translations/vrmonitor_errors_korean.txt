@@ -851,6 +851,8 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Description"	"Please Restart SteamVR to use your updated device."
 "Warning_DismissableWarning_NewDriverInstalled_Action"	"재시작"
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart SteamVR"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows 10 업데이트"
+"[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows 10 Update"
 "Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action"	"설정"
 "[english]Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action"	"Configure"
 "Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL"	"vrmonitor://open/settings/bluetooth"

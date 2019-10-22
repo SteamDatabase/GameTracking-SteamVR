@@ -1273,7 +1273,7 @@
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
 "Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Gerät nicht mehr unterstützt"
 "[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Device No Longer Supported"
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"Ihr %1 (%2) ist ein Vorserien-Entwicklungswerkzeug und wird nicht länger unterstützt.<br><br><font color=#ff0000>Funktionsfähigkeit wird nicht erwartet. Bitte umgehend ersetzen.</font>"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Ihre Vorserie \"%1\" wird nicht mehr unterstützt.</font> <br><br> Dieses Gerät wird keine Firmware-Updates erhalten und eine reduzierte Funktionalität ist zu erwarten. Bitte ersetzen Sie es so schnell wie möglich. <br><br>(hwid: %2)"
 "[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Your pre-production %1 is no longer supported.</font> <br><br> This device will no longer receive firmware updates, and diminished functionality is expected. Please replace at your earliest convenience. <br><br>(hwid: %2)"
 }
 }

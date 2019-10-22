@@ -581,7 +581,7 @@
 "[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Header"	"Base Station Error"
 "Warning_DismissableWarning_OpticalBasestationSyncWarning_Description"	"Puede que haya algo bloqueando la línea de visión entre las estaciones base. Si esta advertencia se repite a través de las sesiones, deberías considerar la posibilidad de cambiar a sincronización por cable."
 "[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Description"	"There may be something blocking line of sight between your base stations. If this warning persists between sessions you might consider switching to cabled sync."
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header"	"Sólo se detecta una estación base"
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header"	"Solo se detecta una estación base"
 "[english]Warning_DismissableWarning_BasestationSingleBaseModeHint_Header"	"Only one base station detected"
 "Warning_DismissableWarning_BasestationSingleBaseModeHint_Description"	"Si utilizas una sola estación base, la calidad del seguimiento mejorará si la cambias al modo A."
 "[english]Warning_DismissableWarning_BasestationSingleBaseModeHint_Description"	"If you are only using one base station, tracking quality will improve if you switch this base station to mode A."

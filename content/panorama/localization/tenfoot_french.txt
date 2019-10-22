@@ -628,7 +628,7 @@
 "[english]BackToApp"	"BACK TO APP"
 "GoHome"	"REVENIR À L'ACCUEIL"
 "[english]GoHome"	"GO HOME"
-"QuitApp"	"QUITTER L'APPLICATION"
+"QuitApp"	"QUITTER L'APPLI"
 "[english]QuitApp"	"QUIT APP"
 "Customization_Disclaimer"	"Si les environnements SteamVR améliorés sont activés, utilisez le menu dans l'application afin de personnaliser votre espace VR."
 "[english]Customization_Disclaimer"	"If Enhanced SteamVR Environments is enabled, use the in-app menu to customize your home space."

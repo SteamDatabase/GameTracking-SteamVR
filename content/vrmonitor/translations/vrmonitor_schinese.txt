@@ -1112,9 +1112,9 @@
 "Settings_Audio_On"	"当 SteamVR 启用时"
 "[english]Settings_Audio_On"	"When using SteamVR..."
 "Settings_Audio_AudioPlay"	"设置播放设备到"
-"[english]Settings_Audio_AudioPlay"	"Set Playback device to"
+"[english]Settings_Audio_AudioPlay"	"Audio output device"
 "Settings_Audio_AudioRecord"	"设置录制设备到"
-"[english]Settings_Audio_AudioRecord"	"Set Record device to"
+"[english]Settings_Audio_AudioRecord"	"Audio input device"
 "Settings_Audio_Off"	"当 SteamVR 退出时"
 "[english]Settings_Audio_Off"	"When not use SteamVR..."
 "Settings_Audio_HDMIGain"	"在 VIVE HDMI 音频上启用增益衰减"
@@ -2233,5 +2233,7 @@
 "[english]Monitor_RestartRequestedDialog_Title"	"Restart for %1 driver"
 "Monitor_RestartRequestedDialog_MessageNoReason"	"驱动程序 %1 需要重新启动 SteamVR。"
 "[english]Monitor_RestartRequestedDialog_MessageNoReason"	"Driver %1 needs to restart SteamVR."
+"BS_PowerManagement_ObservedInTracking"	"在之前的定位会话中找到。"
+"[english]BS_PowerManagement_ObservedInTracking"	"Observed in a prior tracking session."
 }
 }
