@@ -2512,5 +2512,15 @@
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug any USB cable connected to the Base Station.<li>Do NOT connect USB to the Base Station.<li>Unplug and replug the Link Box power cable.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR and try again.</ul>"
 "FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20"	"Nếu quá trình cập nhật thiết bị tiếp tục thất bại... <ul><li>Thoát SteamVR.<li>Tháo bất kỳ dây USB nào đang kết nối với trạm theo dõi.<li>KHÔNG kết nối USB với trạm theo dõi.<li>Tháo dây và cắm lại dây nguồn trạm theo dõi.<li>Khởi chạy SteamVR và thử lại.</ul>"
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug any USB cable connected to the Base Station.<li>Do NOT connect USB to the Base Station.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR and try again.</ul>"
+"BS_PromotePowerManagement_Title"	"SteamVR"
+"[english]BS_PromotePowerManagement_Title"	"SteamVR"
+"BS_PromotePowerManagement_Explanation"	"SteamVR có thể quản lý điện năng trạm theo dõi của bạn.<br><br>Các trạm được quản lý điện năng sẽ vào chế độ chờ (standby) khi không sử dụng SteamVR và thức dậy khi khởi động SteamVR.<br>"
+"[english]BS_PromotePowerManagement_Explanation"	"SteamVR can power manage your Base Stations.<br><br>Power managed Base Stations go into standby mode when SteamVR is not in use and wake up again when SteamVR starts.<br>"
+"BS_PromotePowerManagement_Enable"	"Bật quản lý điện năng cho bộ theo dõi *"
+"[english]BS_PromotePowerManagement_Enable"	"Enable Base Station Power Management *"
+"BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* KHÔNG KHUYẾN NGHỊ trong không gian chia sẻ có nhiều người cùng dùng SteamVR.</font>"
+"[english]BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
+"BS_PromotePowerManagement_ExitNow"	"Thoát ngay (%1)"
+"[english]BS_PromotePowerManagement_ExitNow"	"Exit Now (%1)"
 }
 }

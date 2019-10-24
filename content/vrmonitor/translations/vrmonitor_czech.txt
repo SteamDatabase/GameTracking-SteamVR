@@ -1131,7 +1131,7 @@
 "[english]Settings_Audio_AudioRecord"	"Audio input device"
 "Settings_Audio_Off"	"Po ukončení režimu SteamVR..."
 "[english]Settings_Audio_Off"	"When not use SteamVR..."
-"Settings_Audio_HDMIGain"	"Povolit redukci signálu na HTC VIVE – HDMI audio"
+"Settings_Audio_HDMIGain"	"Povolit zmenšení dynamického rozsahu signálu HTC VIVE – HDMI audio"
 "[english]Settings_Audio_HDMIGain"	"Enable Gain reduction on VIVE HDMI Audio"
 "Settings_Audio_LeaveAlone"	"(Neměnit zařízení)"
 "[english]Settings_Audio_LeaveAlone"	"(Do not change device)"

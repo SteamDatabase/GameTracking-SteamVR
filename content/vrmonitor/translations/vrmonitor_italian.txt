@@ -1107,7 +1107,7 @@
 "[english]FirmwareWizard_RadioUpdate"	"Radio Update"
 "FirmwareWizard_DisplayUpdate"	"Aggiornamento schermo"
 "[english]FirmwareWizard_DisplayUpdate"	"Display Update"
-"FirmwareWizard_EnterBootloaderMode"	"Preparazione aggiornamento..."
+"FirmwareWizard_EnterBootloaderMode"	"Preparazione all'aggiornamento..."
 "[english]FirmwareWizard_EnterBootloaderMode"	"Preparing to update..."
 "FirmwareWizard_WatchmanDiskUpdate"	"Aggiornamento del dispositivo"
 "[english]FirmwareWizard_WatchmanDiskUpdate"	"Device Update"

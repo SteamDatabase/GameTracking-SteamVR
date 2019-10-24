@@ -41,6 +41,7 @@
 		"name": "controllerbinding_desktop",
 		"type": "window",
 		"resizable": true,
+		"preload_setting":  [ "steamvr", "debugInputBinding" ],
 		"persist_layout": true,
 		"persist_visibility": true,
 		"pixel_size": [ 1920, 1080 ]

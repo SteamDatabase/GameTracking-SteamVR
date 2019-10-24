@@ -2588,5 +2588,15 @@
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug any USB cable connected to the Base Station.<li>Do NOT connect USB to the Base Station.<li>Unplug and replug the Link Box power cable.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR and try again.</ul>"
 "FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20"	"Якщо оновлення цього пристрою все ще не вдалося виконати… <ul><li>Вийдіть зі SteamVR.<li>Від’єднайте кожен підключений до базової станції USB-кабель.<li>НЕ ПІДКЛЮЧАЙТЕ до базової станції жодного USB-кабелю.<li>Від’єднайте і повторно під’єднайте кабель живлення базової станції.<li>Запустіть SteamVR і спробуйте знову.</ul>"
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug any USB cable connected to the Base Station.<li>Do NOT connect USB to the Base Station.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR and try again.</ul>"
+"BS_PromotePowerManagement_Title"	"SteamVR"
+"[english]BS_PromotePowerManagement_Title"	"SteamVR"
+"BS_PromotePowerManagement_Explanation"	"SteamVR може управляти живленням базових станцій.<br><br>Завдяки режиму керування живленням базові станції переходять у режим очікування, якщо SteamVR не використовується, та прокидаються після його запуску.<br>"
+"[english]BS_PromotePowerManagement_Explanation"	"SteamVR can power manage your Base Stations.<br><br>Power managed Base Stations go into standby mode when SteamVR is not in use and wake up again when SteamVR starts.<br>"
+"BS_PromotePowerManagement_Enable"	"Увімкнути управління живленням базових станцій *"
+"[english]BS_PromotePowerManagement_Enable"	"Enable Base Station Power Management *"
+"BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* НЕ РЕКОМЕНДУЄТЬСЯ для спільних місць відстеження з кількома користувачами SteamVR.</font>"
+"[english]BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
+"BS_PromotePowerManagement_ExitNow"	"Вийти негайно (%1)"
+"[english]BS_PromotePowerManagement_ExitNow"	"Exit Now (%1)"
 }
 }
