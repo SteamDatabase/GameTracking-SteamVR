@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<!-- ================================================================================================== -->
+<!-- (c) Valve Corporation. Use is governed by the terms of the Steam Subscriber Agreement http://store.steampowered.com/subscriber_agreement/. -->
+<!-- ================================================================================================== -->
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="/dashboard/css/fonts/motiva_sans.css">
+	<link rel="stylesheet" type="text/css" href="/shared/css/steamvr.css">
+	<link rel="stylesheet" type="text/css" href="console.css">
+
+	<script type="text/javascript" src="/shared/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="console.js"></script>
+	<script type="text/javascript" src="console_colors.js"></script>
+
+	<title>SteamVR - Console</title>
+</head>
+
+<body>
+	<div id="page_top_panel" class="console_page_top">
+		<div class="console_top_row console_flex_row">
+			<button class="core_button" type="button" id="console_selector_button">&nbsp;</button>
+			<button class="core_button" type="button" id="console_clear_log">Clear</button>
+			<button class="core_button" type="button" id="console_clear_all_logs">Clear All</button>
+
+			<input id="filter_text" type="text" placeholder="Filter" />
+
+			<input id="console_show_logname" class="core_checkbox" type="checkbox">
+			<label for="console_show_logname" class="core_checkbox_label">Show Log Name</label>
+
+			<input id="console_show_date" class="core_checkbox" type="checkbox">
+			<label for="console_show_date" class="core_checkbox_label">Show Date</label>
+		</div>
+	</div>
+
+	<div id="console_parent"></div>
+
+	<div id="page_bottom_panel" class="console_page_bottom">
+		<div class="console_command_row">
+			<input id="console_command" type="text" placeholder="Type a command" />
+		</div>
+	</div>
+
+	<div id="console_selector" class="drop_down hidden"></div>
+</body>
+
+</html>

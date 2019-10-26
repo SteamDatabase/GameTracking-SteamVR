@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Progress Indicator</title>
+		<link href="css/styles.css?t=1572045575063" rel="stylesheet">
+		<style>
+
+			body
+			{
+				background: #00000000;
+				padding: 0px;
+				width: 512px;
+				height: 512px;
+				user-select: none;
+			}
+
+			.Label
+			{
+				font-size: 20px;
+
+				text-overflow: ellipsis;
+				text-align: left;
+				color: #14c6fcff;
+			}
+
+			.ProgressContainer
+			{
+				height: 508px;
+				width: 508px;
+				color: "white";
+				opacity: 0.8;
+				display: flex;
+				position: relative;
+			}
+
+			.ProgressContainer .CircularProgressbar
+			{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+
+			.ProgressContainer .ProgressIcon
+			{
+				width: 255px;
+				height: 255px;
+				margin: auto;
+				z-index: 10;
+			}
+		</style>
+	</head>
+	<body>
+		<div id='root'></div>
+	<script type="text/javascript" src="libraries.js?v=b3bf34a380c0a491b669"></script><script type="text/javascript" src="vrwebui_shared.js?v=363cdf5923fccd978805"></script><script type="text/javascript" src="progressindicator.js?v=bd2971307d0f2e5340a3"></script></body>
+</html>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Fallback</title>
+		<link href="css/styles.css?t=1572045575063" rel="stylesheet">
+		<style>
+			body
+			{
+				background: #ffffff00;
+				padding: 0;
+				user-select: none;
+				color: black;
+			}
+
+			.TrackingLostPanel {
+				padding: var(--panelpadding);
+				width: 800px;
+				height: 30px;
+				border-radius: 25px;
+				font-size: 34px;
+				text-align: center;
+				background: var(--panelbackground);
+				color: var(--panelforeground);
+			}
+
+			.TrackingLostPanel h1 {
+				font-weight: 600;
+				text-align: center;
+				margin: 0;
+				height: 24px;
+				line-height: 24px;
+			}
+
+			.panel h1:first-child {
+				margin-top: 0;
+			}
+
+			.DeviceStatusLabel {
+				--height: 27px;
+				height: var(--height);
+				line-height: var(--height);
+				font-size: var(--height);
+				font-weight: 600;
+				--shadow-margin: 15px;
+				padding: 0 calc(var(--shadow-margin) / 3);
+				margin: calc(var(--shadow-margin) * 2);
+				box-shadow: 0px 0px calc(var(--shadow-margin) * 2) var(--shadow-margin) var(--shadow-color);
+				background: var(--shadow-color);
+				text-shadow: 0px 0px var(--shadow-margin) var(--shadow-color);
+				border-radius: 9001px;
+			}
+
+			.DeviceStatus.Connected {
+				--shadow-color: #00ff0055;
+				color: #7dff7d;
+			}
+
+			.DeviceStatus.Disconnected {
+				--shadow-color: #ff000055;
+				color: #ff6262;
+			}
+
+			.DeviceStatusIcon {
+				height: 50px;
+			}
+
+			.LoadingPanel {
+				--height: 27px;
+				height: var(--height);
+				line-height: var(--height);
+				font-size: var(--height);
+				background: var(--panelbackground);
+				color: var(--panelforeground);
+				border-radius: 5px;
+				padding: 16px;
+			}
+
+			.MonitorPanel {
+				padding: var(--panelpadding);
+				width: 800px;
+				height: 30px;
+				border-radius: 25px;
+				font-size: 24px;
+				background: var(--panelbackground);
+				color: var(--panelforeground);
+				display: flex;
+				position: relative;
+			}
+
+			.SteamStatusLabel {
+				text-align: center;
+				position: absolute;
+				left: 0;
+				right: 0;
+			}
+
+			.SteamStatusLabel.Ready {
+				color: green;
+			}
+
+			.SteamStatusLabel.NotReady {
+				color: red;
+			}
+
+			.SteamStatusRight {
+				text-align: right;
+				position: absolute;
+				left: 0;
+				right: 0;
+				font-size: 16px;
+				padding-right: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id='root'></div>
+	<script type="text/javascript" src="libraries.js?v=b3bf34a380c0a491b669"></script><script type="text/javascript" src="vrwebui_shared.js?v=363cdf5923fccd978805"></script><script type="text/javascript" src="fallback.js?v=cd46227a7320d32587a9"></script></body>
+</html>
