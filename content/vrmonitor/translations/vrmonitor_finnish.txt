@@ -2539,5 +2539,7 @@
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug any USB cable connected to the Base Station.<li>Do NOT connect USB to the Base Station.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR and try again.</ul>"
 "BS_PromotePowerManagement_Title"	"SteamVR"
 "[english]BS_PromotePowerManagement_Title"	"SteamVR"
+"BS_PromotePowerManagement_Enable"	"Ota tukiaseman virranhallinta käyttöön *"
+"[english]BS_PromotePowerManagement_Enable"	"Enable Base Station Power Management *"
 }
 }

@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Нулиране на седналото положение",
 	"PowerMenuTurnOffController": "Изключване на контролер",
 	"PowerMenuQuitSceneApp": "Изход от %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Изход от приложението",
 	"PowerMenuExitVR": "Изход от ВР",
 	"PowerMenuCancel": "Отказ",
 	"PowerMenuHeader": "Меню за захранване",

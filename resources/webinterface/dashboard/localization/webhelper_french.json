@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Réinitialiser la position assise",
 	"PowerMenuTurnOffController": "Éteindre le contrôleur",
 	"PowerMenuQuitSceneApp": "Quitter %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Quitter l'application",
 	"PowerMenuExitVR": "Quitter la VR",
 	"PowerMenuCancel": "Annuler",
 	"PowerMenuHeader": "Menu d'allumage",

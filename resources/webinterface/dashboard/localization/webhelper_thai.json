@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "รีเซ็ตตำแหน่งการนั่ง",
 	"PowerMenuTurnOffController": "ปิดคอนโทรลเลอร์",
 	"PowerMenuQuitSceneApp": "ออกจาก %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "ออกจากแอป",
 	"PowerMenuExitVR": "ออกจาก VR",
 	"PowerMenuCancel": "ยกเลิก",
 	"PowerMenuHeader": "เมนูการเปิดทำงาน",

@@ -311,6 +311,7 @@
   "SecondaryControllerTab": "追加設定",
   "SecondaryController_ReturnWithLeftHand": "左手でバインドを返す",
   "SecondaryController_ReturnWithRightHand": "右手でバインドを返す",
+  "SecondaryController_ReturnWithHead": "HMDでバインドを返す",
   "Settings_ThumbstickDeadzone_Text": "サムスティックのデッドゾーン：",
   "Settings_ControllerSettings_Title": "サムスティック設定",
   "Settings_ControllerSettings_Utilities": "コントローラツール",

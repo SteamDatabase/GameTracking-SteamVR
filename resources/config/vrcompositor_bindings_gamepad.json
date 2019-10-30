@@ -1,206 +1,198 @@
 {
-    "controller_type" :	"gamepad",
-	"action_binds": [
-		{
-			"action": "/actions/system/in/SystemButtonChord",
-			"source": "/filters/1system_button/held"
-		},
-		{
-			"action": "/actions/system/in/ToggleDashboard",
-			"source": "/filters/1system_button/long"
-		},
-		{
-			"action": "/actions/system/in/TakeScreenshot",
-			"source": "/filters/1screenshot_chord/result",
-			"filters_to_cancel" : [ "1system_button" ]
-		},
-		{
-			"action": "/actions/system/in/ToggleRoomView",
-			"source": "/filters/1system_button/double"
-		},
-		{
-			"action": "/actions/lasermouse/in/SwitchGamepadFocus",
-			"source": "/user/gamepad/input/start/click"
-		},
-		{
-			"action": "/actions/dualanalog/in/LeftValue",
-			"source": [ "/user/gamepad/input/joystick_left/x", "/user/gamepad/input/joystick_left/y" ]
-		},
-		{
-			"action": "/actions/dualanalog/in/RightValue",
-			"source": [ "/user/gamepad/input/joystick_right/x", "/user/gamepad/input/joystick_right/y" ]
-		},
-		{
-			"action": "/actions/dualanalog/in/LeftTouch",
-			"source": "/user/hand/left/input/trackpad/touch"
-		},
-		{
-			"action": "/actions/dualanalog/in/RightTouch",
-			"source": "/user/hand/right/input/trackpad/touch"
-		},
-		{
-			"action": "/actions/dualanalog/in/LeftClick",
-			"source": "/user/gamepad/input/joystick_left/click"
-		},
-		{
-			"action": "/actions/dualanalog/in/RightClick",
-			"source": "/user/gamepad/input/joystick_right/click"
-		},
-		{
-			"action": "/actions/dualanalog/in/ModeSwitch1",
-			"source": "/user/gamepad/input/shoulder_left/click"
-		},
-		{
-			"action": "/actions/dualanalog/in/ModeSwitch2",
-			"source": "/user/gamepad/input/shoulder_right/click"
-		}
-	],
-
-	"filters" :[
-		{
-			"name" : "1system_button",
-			"type" : "boolean_button_press_state",
-			"input" : "/user/gamepad/input/back/click",
-			"action_sets" : [ "/actions/normal", "/actions/chord", "/actions/lasermouse", "/actions/dualanalog" ],
-			"cancel_on_action_sets" : [ "/actions/chord" ],
-			"parameters" : 
-			{
-				"long_press_delay" : 1.5
-			},
-			"output" : 							 
-			{
-				"long" : "long",
-				"double" : "double",
-				"single" : "single",
-				"held" : "held"
-			}
-		},
-		{
-			"name" : "1any_trigger_chord",
-			"type" : "boolean_threshold",
-			"action_sets" : [ "/actions/chord" ],
-			"input" : "/user/gamepad/input/trigger_right/value",
-			"output" : "result"
-		},
-		{
-			"name" : "primary_trigger_lasermouse",
-			"type" : "boolean_threshold",
-			"action_sets" : [ "/actions/lasermouse" ],
-			"input" : "/user/gamepad/input/trigger_right/value",
-			"output" : "result"
-		},
-		{
-			"name" : "1secondary_trigger_lasermouse",
-			"type" : "boolean_threshold",
-			"action_sets" : [ "/actions/lasermouse" ],
-			"input" : "/user/gamepad/input/trigger_left/value",
-			"output" : "result"
-		},
-		{
-			"name" : "1screenshot_chord",
-			"type" : "boolean_and",
-			"action_sets" : [ "/actions/chord" ],
-			"input" : 
-			{
-				"1":"/filters/1system_button/held",
-				"2":"/filters/1any_trigger_chord/result"
-			},
-			"output" : "result"
-		}
-	],
-	"bindings" :
-	{
-	"/actions/dualanalog": {
-		"sources": [
-			{
-				"path": "/user/gamepad/input/joystick_left",
-				"mode": "joystick",
-				"inputs": {
-					"click": {
-						"output": "/actions/dualanalog/in/leftclick"
-					}
-				}
-			},
-			{
-				"path": "/user/gamepad/input/joystick_right",
-				"mode": "joystick",
-				"inputs": {
-					"click": {
-						"output": "/actions/dualanalog/in/rightclick"
-					}
-				}
-			},
-			{
-				"path": "/user/gamepad/input/shoulder_left",
-				"mode": "button",
-				"inputs": {
-					"click": {
-						"output": "/actions/dualanalog/in/modeswitch1"
-					}
-				}
-			},
-			{
-				"path": "/user/gamepad/input/shoulder_right",
-				"mode": "button",
-				"inputs": {
-					"click": {
-						"output": "/actions/dualanalog/in/modeswitch2"
-					}
-				}
-			}
-		]
-	},
-	"/actions/lasermouse": {
-		"sources": [
-			{
-				"path": "/user/gamepad/input/start",
-				"mode": "button",
-				"inputs": {
-					"click": {
-						"output": "/actions/lasermouse/in/switchgamepadfocus"
-					}
-				}
-			}
-		]
-	},
-	"/actions/system": {
-		"chords": [
-			{
-				"output": "/actions/system/in/takescreenshot",
-				"inputs": [
-					[
-						"/user/gamepad/input/trigger_right",
-						"click"
-					],
-					[
-						"/user/gamepad/input/back",
-						"held"
-					]
-				]
-			}
-		],
-		"sources": [
-			{
-				"path": "/user/gamepad/input/trigger_right",
-				"mode": "button"
-			},
-			{
-				"path": "/user/gamepad/input/back",
-				"mode": "button",
-				"inputs": {
-					"long": {
-						"output": "/actions/system/in/ToggleDashboard"
-					},
-					"held": {
-						"output": "/actions/system/in/systembuttonchord"
-					},
-					"double": {
-						"output": "/actions/system/in/toggleroomview"
-					}
-				}
-			}
-		]
-	}
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "openvr.component.vrcompositor",
+   "bindings" : {
+      "/actions/dualanalog" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/leftclick"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/gamepad/input/joystick_left"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/rightclick"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/gamepad/input/joystick_right"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/modeswitch1"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/shoulder_left"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/modeswitch2"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/shoulder_right"
+            }
+         ]
+      },
+      "/actions/lasermouse" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/leftclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/trigger_right"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/back"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/b"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/moveup"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/dpad_up"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/moveleft"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/dpad_left"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/moveright"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/dpad_right"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/movedown"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/dpad_down"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/rightclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/trigger_left"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/home"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/x"
+            }
+         ]
+      },
+      "/actions/lasermouse_secondary" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse_secondary/in/switchlaserhand"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/trigger_right"
+            }
+         ]
+      },
+      "/actions/scroll_discrete" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_discrete/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "path" : "/user/gamepad/input/joystick_right"
+            }
+         ]
+      },
+      "/actions/scroll_smooth" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_smooth/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "path" : "/user/gamepad/input/joystick_right"
+            }
+         ]
+      },
+      "/actions/system" : {
+         "chords" : [
+            {
+               "inputs" : [
+                  [ "/user/gamepad/input/trigger_right", "click" ],
+                  [ "/user/gamepad/input/back", "held" ]
+               ],
+               "output" : "/actions/system/in/takescreenshot"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "double" : {
+                     "output" : "/actions/system/in/toggleroomview"
+                  },
+                  "held" : {
+                     "output" : "/actions/system/in/systembuttonchord"
+                  },
+                  "long" : {
+                     "output" : "/actions/system/in/opendashboard"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/back"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "gamepad",
+   "description" : "",
+   "name" : "Default VR Dashboard bindings for Gamepads",
+   "options" : {
+      "returnBindingsWithHead" : true
+   },
+   "simulated_actions" : []
 }
-}
-

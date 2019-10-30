@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Скинути місце сидіння",
 	"PowerMenuTurnOffController": "Вимкнути контролер",
 	"PowerMenuQuitSceneApp": "Закрити %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Вийти із застосунку",
 	"PowerMenuExitVR": "Вийти з ВР",
 	"PowerMenuCancel": "Скасувати",
 	"PowerMenuHeader": "Меню живлення",

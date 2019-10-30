@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Đặt lại tư thế ngồi",
 	"PowerMenuTurnOffController": "Tắt bộ điều khiển",
 	"PowerMenuQuitSceneApp": "Thoát %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Thoát ứng dụng",
 	"PowerMenuExitVR": "Thoát VR",
 	"PowerMenuCancel": "Hủy",
 	"PowerMenuHeader": "Trình đơn điện năng",

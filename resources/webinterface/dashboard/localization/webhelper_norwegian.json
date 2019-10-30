@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Tilbakestill sittende posisjon",
 	"PowerMenuTurnOffController": "Slå av kontroller",
 	"PowerMenuQuitSceneApp": "Avslutt %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Avslutt app",
 	"PowerMenuExitVR": "Avslutt VR",
 	"PowerMenuCancel": "Avbryt",
 	"PowerMenuHeader": "Strømmeny",

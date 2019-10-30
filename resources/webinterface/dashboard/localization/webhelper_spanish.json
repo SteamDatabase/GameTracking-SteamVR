@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Restablecer posición sentado",
 	"PowerMenuTurnOffController": "Apagar el mando",
 	"PowerMenuQuitSceneApp": "Salir de %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Salir de la aplicación",
 	"PowerMenuExitVR": "Salir de RV",
 	"PowerMenuCancel": "Cancelar",
 	"PowerMenuHeader": "Menú de encendido",

@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Resetovat pozici vsedě",
 	"PowerMenuTurnOffController": "Vypnout ovladač",
 	"PowerMenuQuitSceneApp": "Ukončit %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Ukončit aplikaci",
 	"PowerMenuExitVR": "Ukončit VR",
 	"PowerMenuCancel": "Zrušit",
 	"PowerMenuHeader": "Nabídka napájení",

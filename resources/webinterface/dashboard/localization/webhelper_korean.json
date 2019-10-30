@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "앉은 자세 설정 초기화",
 	"PowerMenuTurnOffController": "컨트롤러 끄기",
 	"PowerMenuQuitSceneApp": "%1$s 끝내기",
+	"PowerMenuQuitSceneApp_NoApp": "앱 종료하기",
 	"PowerMenuExitVR": "VR 끝내기",
 	"PowerMenuCancel": "취소",
 	"PowerMenuHeader": "전원 메뉴",
@@ -63,6 +64,6 @@
 	"OriginString_ControllerSource": "%2$s%3$s",
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
-	"KeyboardDone": "Done",
+	"KeyboardDone": "완료",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

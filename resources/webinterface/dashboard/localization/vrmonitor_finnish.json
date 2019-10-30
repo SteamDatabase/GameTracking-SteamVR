@@ -176,7 +176,7 @@
 	"Settings_General_DoNotDisturb_Text": "Älä näytä ilmoituksia VR-tilassa",
 	"Settings_General_ShowBindingUI": "Muokkaa ohjaimen määrityksiä",
 	"Settings_General_ShowTrackerUI": "Hallitse Vive Trackereita",
-	"Settings_General_Cancel": "Palauta",
+	"Settings_General_Cancel": "Peruuta",
 	"Settings_General_Confirm": "Vahvista",
 	"Settings_General_CalibrateThumbstick": "Kalibroi",
 	"Settings_General_NotEnoughSamples": "Please press up on the thumbstick at least %1$s more times to complete calibration.",

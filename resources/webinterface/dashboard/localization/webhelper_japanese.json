@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "着席位置のリセット",
 	"PowerMenuTurnOffController": "コントローラの電源を切る",
 	"PowerMenuQuitSceneApp": "%1$sを終了",
+	"PowerMenuQuitSceneApp_NoApp": "アプリを終了",
 	"PowerMenuExitVR": "VR を終了",
 	"PowerMenuCancel": "取り消し",
 	"PowerMenuHeader": "電源メニュー",

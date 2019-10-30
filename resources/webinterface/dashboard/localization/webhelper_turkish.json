@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Oturma Pozisyonunu Sıfırla",
 	"PowerMenuTurnOffController": "Kontrolcüyü Kapat",
 	"PowerMenuQuitSceneApp": "Çıkış: %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Uygulamadan Çık",
 	"PowerMenuExitVR": "VR'dan Çık",
 	"PowerMenuCancel": "İptal",
 	"PowerMenuHeader": "Güç Menüsü",

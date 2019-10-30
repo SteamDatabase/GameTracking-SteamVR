@@ -17,6 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Ülő pozíció visszaállítása",
 	"PowerMenuTurnOffController": "Játékvezérlő kikapcsolása",
 	"PowerMenuQuitSceneApp": "%1$s bezárása",
+	"PowerMenuQuitSceneApp_NoApp": "Kilépés az alkalmazásból",
 	"PowerMenuExitVR": "Kilépés a VR-ből",
 	"PowerMenuCancel": "Mégse",
 	"PowerMenuHeader": "Energia menü",

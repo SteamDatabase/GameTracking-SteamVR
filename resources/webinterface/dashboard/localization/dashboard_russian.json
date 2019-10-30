@@ -1,16 +1,16 @@
 {
   "UI_Unknown": "НЕИЗВЕСТНО",
-  "Now_Starting": "ПОДГОТОВКА",
-  "Now_Starting_HomeApp": "ВОЗВРАЩЕНИЕ НА",
+  "Now_Starting": "ПОДГОТОВКА:",
+  "Now_Starting_HomeApp": "ВОЗВРАЩЕНИЕ:",
   "Now_Playing": "СЕЙЧАС ИГРАЕТ",
-  "Now_Playing_HomeApp": "В ГЛАВНОМ МЕНЮ",
+  "Now_Playing_HomeApp": "ДОМАШНИЙ МИР",
   "Now_Quitting": "ВЫХОД...",
   "Now_Waiting": "ОЖИДАНИЕ...",
   "BackToApp": "В ПРИЛОЖЕНИЕ",
   "Camera_Header": "ОБЗОР КОМНАТЫ",
-  "GoHome": "НА ГЛАВНУЮ",
+  "GoHome": "ДОМОЙ",
   "QuitApp": "ВЫЙТИ",
   "DashboardPower_Header": "СИСТЕМА",
-  "BindingCallout_Header": "ПОКАЗАТЬ УПРАВЛЕНИЕ",
+  "BindingCallout_Header": "УПРАВЛЕНИЕ",
   "MutedLabel": "Звук отключён"
 }
