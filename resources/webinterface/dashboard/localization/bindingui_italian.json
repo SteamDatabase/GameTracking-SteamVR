@@ -311,6 +311,7 @@
   "SecondaryControllerTab": "Impostazioni aggiuntive",
   "SecondaryController_ReturnWithLeftHand": "Restituisci le configurazioni con la mano sinistra",
   "SecondaryController_ReturnWithRightHand": "Restituisci le configurazioni con la mano destra",
+  "SecondaryController_ReturnWithHead": "Restituisci le configurazioni con il visore",
   "Settings_ThumbstickDeadzone_Text": "Zona morta levette:",
   "Settings_ControllerSettings_Title": "Impostazioni levette",
   "Settings_ControllerSettings_Utilities": "Utility del controller",

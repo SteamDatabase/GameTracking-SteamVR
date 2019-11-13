@@ -311,6 +311,7 @@
   "SecondaryControllerTab": "További beállítások",
   "SecondaryController_ReturnWithLeftHand": "Kiosztás továbbítása bal kézhez valóként",
   "SecondaryController_ReturnWithRightHand": "Kiosztás továbbítása jobb kézhez valóként",
+  "SecondaryController_ReturnWithHead": "Kiosztás továbbítása HMD-hez valóként",
   "Settings_ThumbstickDeadzone_Text": "Botkormány-holtsáv:",
   "Settings_ControllerSettings_Title": "Botkormány-beállítások:",
   "Settings_ControllerSettings_Utilities": "Játékvezérlő-kellékek",

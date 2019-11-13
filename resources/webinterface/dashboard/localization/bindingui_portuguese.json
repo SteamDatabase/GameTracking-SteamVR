@@ -311,6 +311,7 @@
   "SecondaryControllerTab": "Definições adicionais",
   "SecondaryController_ReturnWithLeftHand": "Usar configs com os da mão esquerda",
   "SecondaryController_ReturnWithRightHand": "Usar configs com os da mão direita",
+  "SecondaryController_ReturnWithHead": "Usar configs com o headset",
   "Settings_ThumbstickDeadzone_Text": "Zona morta do manípulo:",
   "Settings_ControllerSettings_Title": "Definições de manípulos",
   "Settings_ControllerSettings_Utilities": "Utilitários do comando",

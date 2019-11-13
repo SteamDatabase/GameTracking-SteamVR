@@ -1923,6 +1923,8 @@
 "[english]Settings_Audio_Default"	"Default"
 "Settings_Audio_AudioMirrorEnable"	"오디오 미러 사용"
 "[english]Settings_Audio_AudioMirrorEnable"	"Enable audio mirror"
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle"	"업데이트를 진행하려면 이 베이스 스테이션을 껐다가 켜야 합니다.<br><br><font color=#aaaa00>진행하기 전에, 베이스 스테이션의 전원 케이블을 분리했다가 다시 연결하세요.</font>"
+"[english]FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle"	"This Base Station needs to be power cycled to continue the update.<br><br><font color=#aaaa00>Please unplug and then replug the Base Station's power cable before continuing.</font>"
 "FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20"	"이 장치 업데이트가 진행되지 못하고 계속 실패하는 경우... <ul><li>SteamVR을 종료하세요.<li>베이스 스테이션에 연결된 모든 USB 케이블을 분리하세요.<li>베이스 스테이션에 USB를 연결하지 마세요.<li>링크 박스의 전원 케이블을 분리했다가 다시 연결하세요.<li>베이스 스테이션의 전원 케이블을 분리했다가 다시 연결하세요.<li>SteamVR을 실행하고 다시 시도해 보세요.</ul>"
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug any USB cable connected to the Base Station.<li>Do NOT connect USB to the Base Station.<li>Unplug and replug the Link Box power cable.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR and try again.</ul>"
 }

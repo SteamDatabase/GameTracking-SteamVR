@@ -965,6 +965,8 @@
 "[english]Warning_DismissableWarning_SteamVRUpdated_Action"	"See what changed"
 "Warning_DismissableWarning_SteamVRUpdated_ActionURL"	"%1"
 "[english]Warning_DismissableWarning_SteamVRUpdated_ActionURL"	"%1"
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Header"	"頭戴顯示器已斷線"
+"[english]Warning_DismissableWarning_HeadsetDisplayDisconnected_Header"	"Headset Disconnected"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header"	"SteamVR 錯誤"
 "[english]VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header"	"SteamVR Error"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description"	"安裝 Oculus 執行階段時發生問題。請重新啟動並驗證 Oculus 軟體是否已安裝且已更新。"

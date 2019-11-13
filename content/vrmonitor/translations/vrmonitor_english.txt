@@ -866,6 +866,7 @@
 "FirmwareWizard_DisplayUpdate" "Display Update"
 "FirmwareWizard_DisplayFPGAUpdate" "Display Update"
 "FirmwareWizard_AudioUpdate" "Audio Update"
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate" "Peripheral Device Update"
 
 "FirmwareWizard_EnterBootloaderMode" "Preparing to update..."
 "FirmwareWizard_ExitBootloaderMode" "Finishing update..."
@@ -1196,6 +1197,8 @@
 "BS_PowerManagement_BaseStations"							"Managed Base Stations"
 "BS_PowerManagement_VisibleNowInTracking"					"Visible now in this tracking session."
 "BS_PowerManagement_ObservedInTracking"						"Observed in a prior tracking session."
+"BS_PowerManagement_Identify"								"Click to identify Base Station."
+"BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"%1 requires a device update to enable device identification."
 "BS_PowerManagement_FailedToConnectRefresh"					"%1 failed to connect. Click 'Refresh' to try again."
 "BS_PowerManagement_ConnectionFailureLegend"				"Connection failure. Click 'Refresh' to try again."
 

@@ -40,15 +40,17 @@
 	"VRMonitor_DevNav_RoomOverview": "Room overview",
 	"VRMonitor_DevNav_Files": "Files",
 
-	"Settings_Audio_On": "When using SteamVR...",
-	"Settings_Audio_AudioPlay": "Set playback device to",
-	"Settings_Audio_AudioRecord": "Set record device to",
-	"Settings_Audio_Off": "When SteamVR is exited...",
-	"Settings_Audio_HDMIGain": "Enable Gain reduction on Vive HDMI Audio",
-	"Settings_Audio_LeaveAlone": "(Do not change device)",
-	"Settings_Audio_AudioMirrorPlay": "Mirror audio to device",
-	"Settings_Audio_AudioMirrorUnsupported": "Audio mirroring is not supported on this platform",
-	"Settings_Audio_NoMirror": "(Do not mirror)",
+	"Settings_SelectAnOption": "Select an option...",
+
+	"Settings_Audio_Playback_Automatic_Label": "Audio output device",
+	"Settings_Audio_Recording_Automatic_Label": "Audio input device",
+	"Settings_Audio_Automatic_Off": "HMD",
+	"Settings_Audio_Automatic_On": "Manual",
+	"Settings_Audio_Mirroring_Label": "Audio mirroring",
+	"Settings_Audio_Default": "Default",
+	"Settings_Audio_Current_Setting_Unknown": "(Currently selected device is not present)",
+
+	"Settings_Audio_HDMIGain": "Gain reduction on VIVE HDMI Audio",
 
 	"Settings_SectionTitle_Advanced": "Advanced",
 	"Settings_SectionTitle_Developer": "Developer",
@@ -59,15 +61,14 @@
 	"Settings_SectionTitle_Camera": "Camera",
 	"Settings_SectionTitle_Bluetooth": "Bluetooth",
 	"Settings_SectionTitle_Power": "Power",
-	"Settings_SectionTitle_Internal": "Internal",
 	"Settings_SectionTitle_Home": "Home",
-	"Settings_SectionTitle_Chaperone": "Chaperone",
+	"Settings_SectionTitle_PlayArea": "Play Area",
 	"Settings_SectionTitle_BaseStation": "Base Stations",
 
 	"Advanced_AllowSavingOfTimingInfo": "Allow saving of timing info",
 	"Advanced_AutoSaveTimingInfoOnExit": "Auto-save timing info on exit",
 	"Settings_EnableWebHelperDebugger": "Enable web helper debugger",
-	"Settings_EnableWebHelperDebuggerDesc": "Enables debugging server for attaching Chromium dev tools and debugger to embedded Chromium pages. SteamVR restart is required.",
+	"Settings_EnableWebHelperDebuggerDesc": "Enables debugging server for attaching Chromium dev tools and debugger to embedded Chromium pages. It's always enabled on Perforce builds.",
 	"Advanced_PerfGraphInHMD": "Show GPU Performance Graph in Headset",
 	"Advanced_SaveFrameDataNow": "Save Frame Data",
 	"Explanation_DisableEnhancedPowerManagement": "Disable Windows Enhanced Power Management for SteamVR USB Devices if you experience a mysterious loss of tracking or an inability to pair wireless controllers. ",
@@ -92,7 +93,7 @@
 	"Settings_DebugInputBindings": "Enable debugging options in the input binding user interface",
 	"Settings_DoNotFadeToGrid": "Do not fade to grid when app hangs",
 	"Settings_EnableDashboard": "Enable VR Dashboard",
-	"Settings_HomeAppCheck": "Use SteamVR Home",
+	"Settings_HomeAppCheck": "Enable SteamVR Home",
 	"Settings_HomeAppDesc": "Enjoy virtual environments, social features, and more.",
 	"Settings_LargeSpace": "Large Space",
 	"Settings_LockedModeCheck": "Locked Mode",
@@ -100,8 +101,6 @@
 	"Settings_MediumSpace": "Medium Space",
 	"Settings_NightModeCheck": "Night Mode",
 	"Settings_NightModeDesc": "Dim the headset until 5:00 AM (or until SteamVR is restarted).",
-	"Settings_NotificationDoNotDisturb_Info": "When Do Not Disturb is enabled, incoming notifications will be suppressed.",
-	"Settings_NotificationDoNotDisturb_Text": "Do Not Disturb",
 	"Settings_PauseOnStandby": "Pause rendering when headset is idle",
 	"Settings_ShowPlaylistMenu": "Show Playlist Menu",
 	"Settings_SmallSpace": "Small Space",
@@ -130,29 +129,33 @@
 
 	"Settings_Video_RefreshRate_Header": "Refresh Rate",
 	"Settings_Video_RefreshRate_HzSuffix": " hz",
+	"Settings_Video_RefreshRate_Label_Hz": "Refresh Rate (hz)",
 	"Settings_Video_RefreshRate_NotFound": "Additional refresh rates are supported by your HMD, but were not detected by the graphics driver. Please verify your headset firmware and graphics drivers are up to date.",
 	"Settings_Video_RefreshRate_NotAvailableExtended": "Additional refresh rates are supported by your HMD, but SteamVR cannot manage refresh rates when the HMD is in extended mode.",
 	"Settings_Video_RefreshRate_EnableDirectModeAction": "Enable Direct Mode",
-	"Settings_Video_RestartNotice": "This pending change will take effect once you restart SteamVR.",
-	"Settings_Video_RestartAction": "Restart SteamVR",
+	"Settings_Video_RefreshRate_OneSupported": "Only one refresh rate is supported for your system.",
 
 	"Settings_Video_AppResFooter": "The current setting renders each eye at %1$s",
 
 	"Settings_Advanced_MotionSmoothing_Header": "Motion Smoothing",
 	"Settings_Advanced_MotionSmoothing_Description": "Synthesizes new frames to maintain a good experience when the running application cannot keep up.",
-	"Settings_Advanced_MotionSmoothing": "Enable motion smoothing",
 	"Settings_Advanced_MotionSmoothing_Disabled": "Motion Smoothing requires asynchronous reprojection support.",
+	"Settings_Advanced_Supersampling_Auto": "Auto",
+	"Settings_Advanced_Supersampling_Custom": "Custom",
 	"Settings_Advanced_Supersampling_Header": "Application Resolution",
 	"Settings_Advanced_Supersampling_Warning": "The setting below overrides the automated setting and affects all applications. To change the resolution for a specific application, visit Applications Settings.",
+	"Settings_Advanced_Supersampling_WidthByHeight": "%1$s × %2$s",
 	"Settings_Advanced_SupersamplingManualOverride": "Enable resolution adjustments",
+	"Settings_Advanced_Supersampline_ResolutionPerEye": "Resolution Per Eye",
+	"Settings_Advanced_Supersampline_ResetResolution": "Reset Resolution To Default",
 	"Explanation_Supersampling_Header": "SteamVR automatically sets your application resolution based on the performance of your GPU.",
 	"Explanation_Supersampling": "*Some applications may need to be restarted for settings to take effect.",
 	"Explanation_SupersamplingFiltering": "Supersampling Filtering Options:",
+	"Explanation_Supersampling_ResolutionPerEye": "Resolution Per Eye",
 	"Settings_PerApplication_Header": "Create unique rendering settings for specific applications",
 	"Settings_PerApplication_ChooseApplication": "Select an application",
-	"Settings_PerApplication_AppResTitle": " ",
-	"Settings_PerApplication_AppResHeader": "This setting is a multiplier on top of the current global application resolution setting on the Video tab to the left. This application may need to be restarted for settings to take effect. (Default is 100%)",
-	"Settings_PerApplication_AppResFooter": "The current setting renders each eye at %1$s",
+	"Settings_PerApplication_AppResTitle": "Custom Resolution Multiplier",
+	"Settings_PerApplication_AppResHeader": "This setting is a multiplier on top of the current global application resolution setting on the %1$s tab to the left. This application may need to be restarted for settings to take effect. (Default is 100%)",
 	"Settings_PerApplication_OverlayVisibleHeader": "Overlay applications are available as tabs in the SteamVR Dashboard.",
 	"Settings_PerApplication_OverlayVisibleCheckbox": "Start this overlay application when SteamVR launches.",
 	"Settings_PerApplication_DashboardSuffix": "(Overlay Application)",
@@ -165,17 +168,21 @@
 	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "Force Always-On",
 	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "Warning: Application will run at half framerate",
 	"Settings_PerApplication_MotionSmoothing_Checkbox": "Enable motion smoothing for this application",
+	"Settings_PerApplication_Reprojection_Header": "Reprojection",
+	"Settings_PerApplication_Reprojection_Checkbox": "Use Legacy Reprojection Mode",
+	"Settings_PerApplication_Reprojection_Description": "Checking this option will disable asynchronous reprojection for this title.",
 
 	"Settings_MimeTypes_Pancake_Header": "Select an application to launch 2D applications in",
 
 	"Settings_Camera_EnableCamera": "Enable Camera",
 	"Settings_Camera_AllowCameraInDashboard": "Show Camera in Dashboard",
 	"Settings_Camera_AllowCameraInDashboard_Desc": "Turns on a camera window attached to your controller when the Dashboard is up.",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Use camera to enhance chaperone bounds",
+	"Settings_Camera_AllowCameraForChaperoneBounds": "Show Camera at Chaperone Edge",
 	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
-	"Settings_Camera_AllowCameraForRoomView": "Enable Room View (System button double-click)",
+	"Settings_Camera_AllowCameraForRoomView": "Enable Room View",
 	"Settings_Camera_AllowCameraForRoomView_Desc": "Access Room View at any time by double clicking the System button",
 	"Settings_Camera_Compatibility": "Camera rate",
+	"Settings_Camera_Rate_Hz": "Camera Rate (hz)",
 	"Settings_Camera_CompatibilityExplanation": "If you experience a loss of tracking you may want to set a lower Camera Rate, disable the camera, or try a different USB port.",
 
 	"Advanced_Appearance": "Appearance",
@@ -197,7 +204,8 @@
 	"Settings_Power_TurnOffControllersTimeout": "Turn off controllers after",
 	"Settings_Power_ControllerOffOnExit": "Turn off controllers when exiting SteamVR",
 
-	"Settings_General_DoNotDisturb_Text": "Suppress notifications while in VR",
+	"Settings_General_Notifications_Label": "Notifications",
+	"Settings_General_Notifications_Text": "Allow notifications while in VR",
 	"Settings_General_ShowBindingUI": "Edit Controller Bindings",
 	"Settings_General_ShowTrackerUI": "Manage Vive Trackers",
 
@@ -223,7 +231,7 @@
 
 	"Settings_Appearance_CycleBackgroundImageTimeSec": "Change backgound after:",
 	"Settings_Chaperone_BoundsColor": "Color",
-	"Settings_Chaperone_BoundsAlpha": "Alpha",
+	"Settings_Chaperone_BoundsTransparency": "Transparency",
 
 	"Settings_Appearance_Controller": "Change your controller model",
 	"Settings_Appearance_Base": "Change your base station model",
@@ -233,5 +241,37 @@
 	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
 
 	"Settings_Connecting": "Waiting for SteamVR to start...",
-	"Settings_ResetToDefault": "Reset To Default"
+	"Settings_ResetToDefault": "Reset To Default",
+
+	"Settings_ToggleButton_On": "On",
+	"Settings_ToggleButton_Off": "Off",
+	"Settings_ToggleButton_Disable": "Disable",
+	"Settings_ToggleButton_Enable": "Enable",
+
+	"Settings_Header_SteamVR": "SteamVR Settings",
+
+	"Settings_CameraTest": "Test camera and performance",
+	"Settings_StartCameraTest": "Start Test",
+	"Settings_StopCameraTest": "Stop Test",
+
+	"CameraTest_CheckingCamera": "Checking camera...",
+	"CameraTest_CheckingTracking": "Checking tracking with camera...",
+	"CameraTest_CameraFailed": "Camera communication failed",
+	"CameraTest_TrackingFailed": "Tracking failed with camera enabled",
+	"CameraTest_Success": "Camera Test Passed",
+
+	"CameraTestStatus_Evaluating": "Checking",
+	"CameraTestStatus_Success": "Success",
+	"CameraTestStatus_Failure": "Failed",
+
+	"Settings_CameraChaperone_RoomViewMode": "Room View Camera Mode",
+
+	"CameraRoomViewMode_EdgeA": "Colored Edges",
+	"CameraRoomViewMode_EdgeB": "Colored Ghosts",
+	"CameraRoomViewMode_VideoTranslucent": "Translucent Pass-Through",
+	"CameraRoomViewMode_VideoOpaque": "Opaque Pass-Through",
+
+	"Settings_MustRestart_Description": "SteamVR must be restarted for some changes to take effect.",
+	"Settings_MustRestart_RestartSteamVR_Button": "Restart SteamVR"
+
 }

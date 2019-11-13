@@ -2579,7 +2579,7 @@
 "[english]BS_PromotePowerManagement_Title"	"SteamVR"
 "BS_PromotePowerManagement_Explanation"	"SteamVR kan håndtere strømstyring af dine basisstationer.<br><br>Strømstyrede basisstationer går i standbytilstand, når SteamVR ikke er i brug, og vågner op igen, når SteamVR starter.<br>"
 "[english]BS_PromotePowerManagement_Explanation"	"SteamVR can power manage your Base Stations.<br><br>Power managed Base Stations go into standby mode when SteamVR is not in use and wake up again when SteamVR starts.<br>"
-"BS_PromotePowerManagement_Enable"	"Slå strømstyring af basisstationer til *"
+"BS_PromotePowerManagement_Enable"	"Aktiver strømstyring for basisstationer *"
 "[english]BS_PromotePowerManagement_Enable"	"Enable Base Station Power Management *"
 "BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* ANBEFALES IKKE til sporingsområder, som deles mellem flere SteamVR-brugere.</font>"
 "[english]BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
