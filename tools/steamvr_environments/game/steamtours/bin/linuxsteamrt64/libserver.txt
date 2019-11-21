@@ -6,14 +6,12 @@
  B pcre_stack_guard
  CBufferString::AppendConcat(int, char const* const*, int const*, bool)
  CBufferString::AppendFormat(char const*, ...)
- CBufferString::AppendFormatV(char const*, __va_list_tag*)
  CBufferString::ComposeFileName(char const*, char const*, char)
  CBufferString::Concat(char const*, char const*, ...)
  CBufferString::ExtendPath(char const*, char)
  CBufferString::ExtractFilePath(char const*)
  CBufferString::FixSlashes(char)
  CBufferString::FixupPathName()
- CBufferString::Format(char const*, ...)
  CBufferString::Insert(int, char const*, int, bool)
  CBufferString::MakeAbsolutePath(char const*, char const*)
  CBufferString::MakeRelativePath(char const*, char const*)
@@ -25,7 +23,6 @@
  CBufferString::SetExtension(char const*)
  CBufferString::SetPtr(char*, int, int, bool, bool)
  CBufferString::ShortenPath()
- CBufferString::StrFormat(char const*, ...)
  CBufferString::StripExtension()
  CBufferString::StripTrailingSlash()
  CBufferString::Swap(CBufferString&)
@@ -36,6 +33,7 @@
  CThreadEvent::Set()
  CThreadFastMutex::Lock(unsigned long long, unsigned int) volatile
  CThreadMultiWaitEvent::CThreadMultiWaitEvent(bool)
+ CThreadMultiWaitEvent::Reset()
  CThreadMultiWaitEvent::Set()
  CThreadMultiWaitEvent::~CThreadMultiWaitEvent()
  CThreadMutex::TryLock()
@@ -86,10 +84,12 @@
  EarlyInit_Tier0
  FindOrCreateQuantizedFloatEncoder
  GetCPUInformation
+ GetDefaultMiniDumpTypeFlags
  GetQuantizedFloatEncoderByIndex
  HangWatchdogInternal_BeginScope
  HangWatchdogInternal_EndScope
  HangWatchdog_IndicateActivity
+ InvokeMiniDumpHandler
  KeyValuesSystem
  LOG_GENERAL
  LoggingSystem_AddTagToChannel
@@ -155,7 +155,6 @@
  Plat_ShouldCollectMiniDumpsForFatalErrors
  Plat_ShutdownCOM
  Plat_TickDiffMilliSecF
- Plat_TickDiffSecF
  Plat_TicksAfterMicroSecs
  Plat_TranslateSymbolicLinks
  Plat_UUIDFromString
@@ -172,89 +171,23 @@
  RegisterStringToken
  ReleaseThreadHandle
  RequireKeyValuesSystem
- ReturnJobManualEventToPool
  SetAssertionPrompt
+ SteamAPI_GetHSteamPipe
  SteamAPI_GetHSteamUser
  SteamAPI_Init
  SteamAPI_RegisterCallResult
  SteamAPI_RegisterCallback
  SteamAPI_UnregisterCallResult
  SteamAPI_UnregisterCallback
+ SteamGameServer_GetHSteamPipe
  SteamGameServer_GetHSteamUser
  SteamInternal_ContextInit
  SteamInternal_CreateInterface
- SteamInternal_FindOrCreateGameServerInterface
- SteamInternal_FindOrCreateUserInterface
  T BinaryProperties_GetValue
  T CreateInterface
  T GetResourceManifestCount
  T GetResourceManifests
  T InstallSchemaBindings
- T LZ4_compress
- T LZ4_compressBound
- T LZ4_compressHC
- T LZ4_compressHC2
- T LZ4_compressHC2_continue
- T LZ4_compressHC2_limitedOutput
- T LZ4_compressHC2_limitedOutput_continue
- T LZ4_compressHC2_limitedOutput_withStateHC
- T LZ4_compressHC2_withStateHC
- T LZ4_compressHC_continue
- T LZ4_compressHC_limitedOutput
- T LZ4_compressHC_limitedOutput_continue
- T LZ4_compressHC_limitedOutput_withStateHC
- T LZ4_compressHC_withStateHC
- T LZ4_compress_HC
- T LZ4_compress_HC_continue
- T LZ4_compress_HC_extStateHC
- T LZ4_compress_continue
- T LZ4_compress_default
- T LZ4_compress_destSize
- T LZ4_compress_fast
- T LZ4_compress_fast_continue
- T LZ4_compress_fast_extState
- T LZ4_compress_limitedOutput
- T LZ4_compress_limitedOutput_continue
- T LZ4_compress_limitedOutput_withState
- T LZ4_compress_withState
- T LZ4_create
- T LZ4_createHC
- T LZ4_createStream
- T LZ4_createStreamDecode
- T LZ4_createStreamHC
- T LZ4_decoderRingBufferSize
- T LZ4_decompress_fast
- T LZ4_decompress_fast_continue
- T LZ4_decompress_fast_usingDict
- T LZ4_decompress_fast_withPrefix64k
- T LZ4_decompress_safe
- T LZ4_decompress_safe_continue
- T LZ4_decompress_safe_partial
- T LZ4_decompress_safe_usingDict
- T LZ4_decompress_safe_withPrefix64k
- T LZ4_freeHC
- T LZ4_freeStream
- T LZ4_freeStreamDecode
- T LZ4_freeStreamHC
- T LZ4_loadDict
- T LZ4_loadDictHC
- T LZ4_resetStream
- T LZ4_resetStreamHC
- T LZ4_resetStreamState
- T LZ4_resetStreamStateHC
- T LZ4_saveDict
- T LZ4_saveDictHC
- T LZ4_setStreamDecode
- T LZ4_sizeofState
- T LZ4_sizeofStateHC
- T LZ4_sizeofStreamState
- T LZ4_sizeofStreamStateHC
- T LZ4_slideInputBuffer
- T LZ4_slideInputBufferHC
- T LZ4_uncompress
- T LZ4_uncompress_unknownOutputSize
- T LZ4_versionNumber
- T LZ4_versionString
  T _fini
  T _init
  T operator delete(void*)
@@ -269,15 +202,16 @@
  T pcre_study
  ThreadGetCurrentId
  ThreadInMainThread
+ ThreadMultiWait
  ThreadSleep
- TimestampedEvent
- TimestampedEventMsgV
  V typeinfo for std::_Function_base
  V typeinfo for std::string
  V typeinfo name for std::_Function_base
  V typeinfo name for std::string
+ VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
+ V_AddBackSlashesToSpecialChars
  V_AreFileNamesEqual
- V_CompareNameWithWildcards
+ V_CopyMemory3D
  V_FixDoubleSlashes
  V_FixSlashes
  V_GetErrno
@@ -312,9 +246,8 @@
  V_atan2
  V_atan2f
  V_atanf
+ V_atod
  V_atof
- V_atofloat32
- V_atofloat64
  V_atoi
  V_atoi64
  V_atoui64
@@ -327,6 +260,7 @@
  V_localeconv
  V_log10f
  V_logf
+ V_pow
  V_powf
  V_qsort
  V_qsort_s
@@ -575,21 +509,16 @@
  W long const& std::min<long>(long const&, long const&)
  W operator delete(void*, void*)
  W operator new(unsigned long, void*)
- W std::_Function_base::_Base_manager<CAI_LocalNavIsland::CAI_LocalNavIsland(CAI_BaseNPC&, float, CUtlVectorFixedGrowable<NpcAvoid::NpcAvoidObstacle_t, 4ul> const&)::{lambda(CAI_LocalNavIsland::CIslandEntity const&, CAI_LocalNavIsland::CIslandEntity const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CAI_LocalNavIsland::CAI_LocalNavIsland(CAI_BaseNPC&, float, CUtlVectorFixedGrowable<NpcAvoid::NpcAvoidObstacle_t, 4ul> const&)::{lambda(CAI_LocalNavIsland::CIslandEntity const&, CAI_LocalNavIsland::CIslandEntity const&)#1}> const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<CMarkupSearchHelper::AddNavAreasForRefVolume(CMarkupVolumeWithRef*)::{lambda(CNavArea&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CMarkupSearchHelper::AddNavAreasForRefVolume(CMarkupVolumeWithRef*)::{lambda(CNavArea&)#1}> const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<CMarkupSearchHelper::AddNavAreasForTaggedVolume(CMarkupVolumeTagged*)::{lambda(CNavArea&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CMarkupSearchHelper::AddNavAreasForTaggedVolume(CMarkupVolumeTagged*)::{lambda(CNavArea&)#1}> const&, std::_Manager_operation)
+ W std::_Function_base::_Base_manager<CMarkupSearchHelper::AddNavAreasForVolume(CMarkupVolumeTagged*)::{lambda(CNavArea&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CMarkupSearchHelper::AddNavAreasForVolume(CMarkupVolumeTagged*)::{lambda(CNavArea&)#1}> const&, std::_Manager_operation)
  W std::_Function_base::_Base_manager<CNavSearchHexLatticeCollector::CNavSearchHexLatticeCollector(NavHull_t, Vector const&, std::function<NavSearchPosResult_t (Vector const&)>&, float, float)::{lambda(Vector const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CNavSearchHexLatticeCollector::CNavSearchHexLatticeCollector(NavHull_t, Vector const&, std::function<NavSearchPosResult_t (Vector const&)>&, float, float)::{lambda(Vector const&)#1}> const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<TestRayToNavMesh(Vector const&, CNavArea const*, Vector const&, NavHull_t, CNavTraceResult*, CNavTestRayParams*, std::function<bool (CNavArea const&, NavAdj_t const&, Vector const&, Vector const*)>*, bool)::{lambda(CNavArea const&, NavAdj_t const&, Vector const&, Vector const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<TestRayToNavMesh(Vector const&, CNavArea const*, Vector const&, NavHull_t, CNavTraceResult*, CNavTestRayParams*, std::function<bool (CNavArea const&, NavAdj_t const&, Vector const&, Vector const*)>*, bool)::{lambda(CNavArea const&, NavAdj_t const&, Vector const&, Vector const*)#1}> const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<CUtlVectorFixed<Vector, 14ul>* (CVecPool<CUtlVectorFixed<Vector, 14ul>, 32>::*)()> (CVecPool<CUtlVectorFixed<Vector, 14ul>, 32>*)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<CUtlVectorFixed<int, 14ul>* (CVecPool<CUtlVectorFixed<int, 14ul>, 32>::*)()> (CVecPool<CUtlVectorFixed<int, 14ul>, 32>*)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<NavSearchAreaResult_t (CNavBfsLatticeMarkup::*)(CNavArea const&, bool*)> (CNavBfsLatticeMarkup*, std::_Placeholder<1>, std::_Placeholder<2>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<NavSearchPosResult_t (CNavBfsLatticeMarkup::*)(Vector const&, CNavArea const&)> (CNavBfsLatticeMarkup*, std::_Placeholder<1>, std::_Placeholder<2>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<bool (CCoverGoal::*)(Vector const&, float) const> (CCoverGoal*, std::_Placeholder<1>, std::_Placeholder<2>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&, float) const> (CCoverLowGoal*, std::_Placeholder<1>, std::_Placeholder<2>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&, float) const> (CCoverWallGoal*, std::_Placeholder<1>, std::_Placeholder<2>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<bool (CLosGoal::*)(Vector const&, bool, bool, float) const> (CLosGoal*, std::_Placeholder<1>, bool, bool, std::_Placeholder<2>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ W std::_Function_base::_Base_manager<TestRayToNavMesh(Vector const&, CNavArea const*, Vector const&, NavHull_t, CNavTraceResult*, CNavTestRayParams*, std::function<bool (CNavArea const&, CNavArea const&)>*)::{lambda(CNavArea const&, CNavArea const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<TestRayToNavMesh(Vector const&, CNavArea const*, Vector const&, NavHull_t, CNavTraceResult*, CNavTestRayParams*, std::function<bool (CNavArea const&, CNavArea const&)>*)::{lambda(CNavArea const&, CNavArea const&)#1}> const&, std::_Manager_operation)
+ W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<bool (CCoverGoal::*)(Vector const&)> (CCoverGoal*, std::_Placeholder<1>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<bool (CCoverLowGoal::*)(Vector const&)> (CCoverLowGoal*, std::_Placeholder<1>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<bool (CCoverWallGoal::*)(Vector const&)> (CCoverWallGoal*, std::_Placeholder<1>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<float (CNavLoopZonePointPriority::*)(Vector2D const&, Vector2D const&)> (CNavLoopZonePointPriority*, std::_Placeholder<1>, std::_Placeholder<2>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<float (CNavLoopZoneTrianglePriority::*)(Vector2D const&, Vector2D const&) const> (CNavLoopZoneTrianglePriority*, std::_Placeholder<1>, std::_Placeholder<2>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<void (CFuncNavBlocker::*)(CNavArea&)> (CFuncNavBlocker*, std::_Placeholder<1>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<void (CMarkupSearchHelper::*)(CMarkupVolumeTagged*)> (CMarkupSearchHelper*, std::_Placeholder<1>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
- W std::_Function_base::_Base_manager<std::_Bind<std::_Mem_fn<void (CMarkupSearchHelper::*)(CMarkupVolumeWithRef*)> (CMarkupSearchHelper*, std::_Placeholder<1>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  W std::_Function_base::_Ref_manager<BreadthFirstSearchVolumeCollector>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  W std::_Function_base::_Ref_manager<CNavBreadthFirstSearchLattice>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  W std::_Function_base::_Ref_manager<CNavSearchHexLattice>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -983,12 +912,17 @@
  W std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
  W std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
  W std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*>(char*, char*, std::allocator<char> const&)
+ W std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
  W std::char_traits<char>::compare(char const*, char const*, unsigned long)
  W std::char_traits<char>::length(char const*)
  W std::equal_to<std::string>::operator()(std::string const&, std::string const&) const
  W std::exception::exception()
  W std::function<bool (unsigned short, unsigned short)>::function(std::function<bool (unsigned short, unsigned short)> const&)
+ W std::function<bool (unsigned short, unsigned short)>::operator()(unsigned short, unsigned short) const
+ W std::function<float ()>::operator()() const
  W std::function<void (float const*)>::function(std::function<void (float const*)> const&)
+ W std::function<void (float const*)>::operator()(float const*) const
+ W std::function<void (unsigned long long const&)>::operator()(unsigned long long const&) const
  W std::insert_iterator<std::set<int, std::less<int>, std::allocator<int> > > std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m<int*, std::insert_iterator<std::set<int, std::less<int>, std::allocator<int> > > >(int*, int*, std::insert_iterator<std::set<int, std::less<int>, std::allocator<int> > >)
  W std::insert_iterator<std::set<int, std::less<int>, std::allocator<int> > > std::__copy_move_a2<false, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, std::insert_iterator<std::set<int, std::less<int>, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, std::insert_iterator<std::set<int, std::less<int>, std::allocator<int> > >)
  W std::insert_iterator<std::set<int, std::less<int>, std::allocator<int> > > std::__copy_move_a<false, int*, std::insert_iterator<std::set<int, std::less<int>, std::allocator<int> > > >(int*, int*, std::insert_iterator<std::set<int, std::less<int>, std::allocator<int> > >)
@@ -1226,6 +1160,7 @@
  W std::vector<int, std::allocator<int> >::max_size() const
  W std::vector<int, std::allocator<int> >::operator[](unsigned long)
  W std::vector<int, std::allocator<int> >::push_back(int const&)
+ W std::vector<int, std::allocator<int> >::reserve(unsigned long)
  W std::vector<int, std::allocator<int> >::size() const
  W std::vector<int, std::allocator<int> >::vector()
  W std::vector<int, std::allocator<int> >::~vector()
@@ -1271,6 +1206,9 @@
  W std::vector<std::string, std::allocator<std::string> >::size() const
  W std::vector<std::string, std::allocator<std::string> >::vector()
  W std::vector<std::string, std::allocator<std::string> >::~vector()
+ W std::vector<std::vector<unsigned char, std::allocator<unsigned char> >, std::allocator<std::vector<unsigned char, std::allocator<unsigned char> > > >::~vector()
+ W std::vector<unsigned char, std::allocator<unsigned char> >::vector(unsigned long, std::allocator<unsigned char> const&)
+ W std::vector<unsigned long, std::allocator<unsigned long> >::_M_default_append(unsigned long)
  W std::vector<void (*)(), std::allocator<void (*)()> >::_M_check_len(unsigned long, char const*) const
  W std::vector<void (*)(), std::allocator<void (*)()> >::_M_insert_aux(__gnu_cxx::__normal_iterator<void (**)(), std::vector<void (*)(), std::allocator<void (*)()> > >, void (* const&)())
  W std::vector<void (*)(), std::allocator<void (*)()> >::begin()
@@ -1335,8 +1273,24 @@
  W void std::_Destroy_aux<true>::__destroy<void (**)()>(void (**)(), void (**)())
  W void std::_Destroy_aux<true>::__destroy<void**>(void**, void**)
  W void std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique<int*>(int*, int*)
+ W void std::__adjust_heap<float*, long, float>(float*, long, long, float)
+ W void std::__adjust_heap<int*, long, int>(int*, long, long, int)
+ W void std::__adjust_heap<unsigned long long*, long, unsigned long long>(unsigned long long*, long, long, unsigned long long)
+ W void std::__adjust_heap<unsigned short*, long, unsigned short, std::function<bool (unsigned short, unsigned short)> >(unsigned short*, long, long, unsigned short, std::function<bool (unsigned short, unsigned short)>)
  W void std::__advance<char const*, long>(char const*&, long, std::random_access_iterator_tag)
  W void std::__advance<unsigned long const*, long>(unsigned long const*&, long, std::random_access_iterator_tag)
+ W void std::__final_insertion_sort<unsigned short*, std::function<bool (unsigned short, unsigned short)> >(unsigned short*, unsigned short*, std::function<bool (unsigned short, unsigned short)>)
+ W void std::__heap_select<unsigned short*, std::function<bool (unsigned short, unsigned short)> >(unsigned short*, unsigned short*, unsigned short*, std::function<bool (unsigned short, unsigned short)>)
+ W void std::__insertion_sort<float*>(float*, float*)
+ W void std::__insertion_sort<int*>(int*, int*)
+ W void std::__insertion_sort<unsigned long long*>(unsigned long long*, unsigned long long*)
+ W void std::__insertion_sort<unsigned short*, std::function<bool (unsigned short, unsigned short)> >(unsigned short*, unsigned short*, std::function<bool (unsigned short, unsigned short)>)
+ W void std::__introsort_loop<float*, long>(float*, float*, long)
+ W void std::__introsort_loop<int*, long>(int*, int*, long)
+ W void std::__introsort_loop<unsigned long long*, long>(unsigned long long*, unsigned long long*, long)
+ W void std::__introsort_loop<unsigned short*, long, std::function<bool (unsigned short, unsigned short)> >(unsigned short*, unsigned short*, long, std::function<bool (unsigned short, unsigned short)>)
+ W void std::__push_heap<int*, long, int>(int*, long, long, int)
+ W void std::__unguarded_linear_insert<unsigned short*, std::function<bool (unsigned short, unsigned short)> >(unsigned short*, std::function<bool (unsigned short, unsigned short)>)
  W void std::__uninitialized_fill_n<true>::__uninit_fill_n<char const**, unsigned long, char const*>(char const**, unsigned long, char const* const&)
  W void std::__uninitialized_fill_n<true>::__uninit_fill_n<std::string**, unsigned long, std::string*>(std::string**, unsigned long, std::string* const&)
  W void std::__uninitialized_fill_n<true>::__uninit_fill_n<void**, unsigned long, void*>(void**, unsigned long, void* const&)
@@ -1350,7 +1304,9 @@
  W void std::fill<std::tr1::__detail::_Hash_node<std::pair<char const* const, void (*)(std::string const&)>, false>**, std::tr1::__detail::_Hash_node<std::pair<char const* const, void (*)(std::string const&)>, false>*>(std::tr1::__detail::_Hash_node<std::pair<char const* const, void (*)(std::string const&)>, false>**, std::tr1::__detail::_Hash_node<std::pair<char const* const, void (*)(std::string const&)>, false>**, std::tr1::__detail::_Hash_node<std::pair<char const* const, void (*)(std::string const&)>, false>* const&)
  W void std::fill<std::tr1::__detail::_Hash_node<std::string, false>**, std::tr1::__detail::_Hash_node<std::string, false>*>(std::tr1::__detail::_Hash_node<std::string, false>**, std::tr1::__detail::_Hash_node<std::string, false>**, std::tr1::__detail::_Hash_node<std::string, false>* const&)
  W void std::fill<void**, void*>(void**, void**, void* const&)
+ W void std::make_heap<unsigned short*, std::function<bool (unsigned short, unsigned short)> >(unsigned short*, unsigned short*, std::function<bool (unsigned short, unsigned short)>)
  W void std::set<int, std::less<int>, std::allocator<int> >::insert<int*>(int*, int*)
+ W void std::sort_heap<unsigned short*, std::function<bool (unsigned short, unsigned short)> >(unsigned short*, unsigned short*, std::function<bool (unsigned short, unsigned short)>)
  W void std::swap<bool>(bool&, bool&)
  W void std::swap<double>(double&, double&)
  W void std::swap<float>(float&, float&)
@@ -1366,6 +1322,13 @@
  W void std::uninitialized_fill_n<std::string**, unsigned long, std::string*>(std::string**, unsigned long, std::string* const&)
  W void std::uninitialized_fill_n<void**, unsigned long, void*>(void**, unsigned long, void* const&)
  W void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int const&>(int const&)
+ W void std::vector<std::vector<unsigned long, std::allocator<unsigned long> >, std::allocator<std::vector<unsigned long, std::allocator<unsigned long> > > >::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long> > const&>(std::vector<unsigned long, std::allocator<unsigned long> > const&)
+ W void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > >(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, std::forward_iterator_tag)
+ W void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, char const*, char const*, std::forward_iterator_tag)
+ W void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, char*, char*, std::forward_iterator_tag)
+ W void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
+ W void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<unsigned char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char*, unsigned char*, std::forward_iterator_tag)
+ W void std::vector<unsigned char, std::allocator<unsigned char> >::insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, void>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >)
  W void** std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<void*>(void* const*, void* const*, void**)
  W void** std::__copy_move_a2<false, void**, void**>(void**, void**, void**)
  W void** std::__copy_move_a<false, void**, void**>(void**, void**, void**)
@@ -1417,31 +1380,34 @@
  __cxa_pure_virtual@@CXXABI_1.3
  __cxa_rethrow@@CXXABI_1.3
  __cxa_throw@@CXXABI_1.3
- __cxa_throw_bad_array_new_length@@CXXABI_1.3.8
  __dynamic_cast@@CXXABI_1.3
  __errno_location@@GLIBC_2.2.5
+ __fprintf_chk@@GLIBC_2.3.4
  __fxstat64@@GLIBC_2.2.5
  __gmon_start__
  __gxx_personality_v0@@CXXABI_1.3
+ __longjmp_chk@@GLIBC_2.11
  __lxstat64@@GLIBC_2.2.5
  __memcpy_chk@@GLIBC_2.3.4
  __printf_chk@@GLIBC_2.3.4
  __pthread_key_create@@GLIBC_2.2.5
  __snprintf_chk@@GLIBC_2.3.4
+ __sprintf_chk@@GLIBC_2.3.4
  __stack_chk_fail@@GLIBC_2.4
  __strcpy_chk@@GLIBC_2.3.4
  __tls_get_addr@@GLIBC_2.3
  __vsprintf_chk@@GLIBC_2.3.4
  __xstat64@@GLIBC_2.2.5
+ _setjmp@@GLIBC_2.2.5
  abort@@GLIBC_2.2.5
  acos@@GLIBC_2.2.5
  acosf@@GLIBC_2.2.5
  alphasort64@@GLIBC_2.2.5
- asin@@GLIBC_2.2.5
  asinf@@GLIBC_2.2.5
  atan2@@GLIBC_2.2.5
  atan2f@@GLIBC_2.2.5
  atan@@GLIBC_2.2.5
+ atanf@@GLIBC_2.2.5
  calloc@@GLIBC_2.2.5
  ceil@@GLIBC_2.2.5
  ceilf@@GLIBC_2.2.5
@@ -1451,6 +1417,7 @@
  cosf@@GLIBC_2.2.5
  dl_iterate_phdr@@GLIBC_2.2.5
  dup@@GLIBC_2.2.5
+ exit@@GLIBC_2.2.5
  exp@@GLIBC_2.2.5
  expf@@GLIBC_2.2.5
  fcntl@@GLIBC_2.2.5
@@ -1461,8 +1428,12 @@
  fmod@@GLIBC_2.2.5
  fmodf@@GLIBC_2.2.5
  fprintf@@GLIBC_2.2.5
+ fputc@@GLIBC_2.2.5
+ fread@@GLIBC_2.2.5
  free@@GLIBC_2.2.5
+ frexp@@GLIBC_2.2.5
  ftruncate64@@GLIBC_2.2.5
+ g_Mathlib_GammaToLinearByteTable
  g_Tier1_BitWriteMasks
  g_Tier1_CRC32Table
  g_Tier1_CRC64Table
@@ -1471,9 +1442,11 @@
  g_VProfSignalSpike
  g_pMemAlloc
  g_pThreadPool
+ getenv@@GLIBC_2.2.5
  gethostbyname@@GLIBC_2.2.5
  getsockname@@GLIBC_2.2.5
  log10@@GLIBC_2.2.5
+ longjmp@@GLIBC_2.2.5
  lseek64@@GLIBC_2.2.5
  lseek@@GLIBC_2.2.5
  malloc@@GLIBC_2.2.5
@@ -1482,6 +1455,7 @@
  memcpy@@GLIBC_2.14
  memmove@@GLIBC_2.2.5
  memset@@GLIBC_2.2.5
+ modf@@GLIBC_2.2.5
  nexttoken
  open64@@GLIBC_2.2.5
  opendir@@GLIBC_2.2.5
@@ -1505,6 +1479,7 @@
  read@@GLIBC_2.2.5
  readdir64@@GLIBC_2.2.5
  readlink@@GLIBC_2.2.5
+ realloc@@GLIBC_2.2.5
  roundf@@GLIBC_2.2.5
  scandir64@@GLIBC_2.2.5
  sched_yield@@GLIBC_2.2.5
@@ -1525,15 +1500,21 @@
  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
  std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
  std::__throw_bad_alloc()@@GLIBCXX_3.4
+ std::__throw_bad_cast()@@GLIBCXX_3.4
  std::__throw_bad_function_call()@@GLIBCXX_3.4.14
  std::__throw_length_error(char const*)@@GLIBCXX_3.4
  std::__throw_logic_error(char const*)@@GLIBCXX_3.4
+ std::__throw_out_of_range(char const*)@@GLIBCXX_3.4
  std::allocator<char>::allocator()@@GLIBCXX_3.4
  std::allocator<char>::~allocator()@@GLIBCXX_3.4
+ std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)@@GLIBCXX_3.4
  std::basic_ios<char, std::char_traits<char> >::eof() const@@GLIBCXX_3.4
  std::basic_ios<char, std::char_traits<char> >::fail() const@@GLIBCXX_3.4
  std::basic_ios<char, std::char_traits<char> >::fill() const@@GLIBCXX_3.4
  std::basic_ios<char, std::char_traits<char> >::good() const@@GLIBCXX_3.4
+ std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@@GLIBCXX_3.4
+ std::basic_iostream<char, std::char_traits<char> >::~basic_iostream()@@GLIBCXX_3.4
+ std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@@GLIBCXX_3.4.9
  std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::_Setfill<char>)@@GLIBCXX_3.4
  std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::_Setw)@@GLIBCXX_3.4
  std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4
@@ -1546,20 +1527,29 @@
  std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)@@GLIBCXX_3.4
  std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)@@GLIBCXX_3.4
  std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@@GLIBCXX_3.4
+ std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()@@GLIBCXX_3.4
+ std::ctype<char>::_M_widen_init() const@@GLIBCXX_3.4.11
  std::exception::~exception()@@GLIBCXX_3.4
  std::ios_base::Init::Init()@@GLIBCXX_3.4
  std::ios_base::Init::~Init()@@GLIBCXX_3.4
+ std::ios_base::ios_base()@@GLIBCXX_3.4
+ std::ios_base::~ios_base()@@GLIBCXX_3.4
  std::istream::gcount() const@@GLIBCXX_3.4
  std::istream::read(char*, long)@@GLIBCXX_3.4
+ std::locale::locale()@@GLIBCXX_3.4
+ std::locale::~locale()@@GLIBCXX_3.4
  std::nothrow@@GLIBCXX_3.4
+ std::ostream::flush()@@GLIBCXX_3.4
  std::ostream::operator<<(std::ios_base& (*)(std::ios_base&))@@GLIBCXX_3.4
  std::ostream::operator<<(unsigned long)@@GLIBCXX_3.4
+ std::ostream::put(char)@@GLIBCXX_3.4
  std::ostream::write(char const*, long)@@GLIBCXX_3.4
  std::string::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)@@GLIBCXX_3.4
  std::string::_M_iend() const@@GLIBCXX_3.4
  std::string::_M_leak_hard()@@GLIBCXX_3.4
  std::string::_M_mutate(unsigned long, unsigned long, unsigned long)@@GLIBCXX_3.4
  std::string::_Rep::_M_destroy(std::allocator<char> const&)@@GLIBCXX_3.4
+ std::string::_Rep::_M_dispose(std::allocator<char> const&)@@GLIBCXX_3.4
  std::string::_Rep::_M_refdata()@@GLIBCXX_3.4
  std::string::_Rep::_M_set_length_and_sharable(unsigned long)@@GLIBCXX_3.4.5
  std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)@@GLIBCXX_3.4
@@ -1630,6 +1620,8 @@
  strerror@@GLIBC_2.2.5
  strlen@@GLIBC_2.2.5
  strncmp@@GLIBC_2.2.5
+ strncpy@@GLIBC_2.2.5
+ strnlen@@GLIBC_2.2.5
  strpbrk@@GLIBC_2.2.5
  strrchr@@GLIBC_2.2.5
  strstr@@GLIBC_2.2.5
@@ -1643,16 +1635,28 @@
  strtoull@@GLIBC_2.2.5
  tan@@GLIBC_2.2.5
  tolower@@GLIBC_2.2.5
+ trunc@@GLIBC_2.2.5
  typeinfo for CThreadSyncObject
+ typeinfo for bool@@CXXABI_1.3
  typeinfo for char@@CXXABI_1.3
+ typeinfo for double@@CXXABI_1.3
+ typeinfo for float@@CXXABI_1.3
+ typeinfo for int@@CXXABI_1.3
+ typeinfo for long long@@CXXABI_1.3
  typeinfo for std::exception@@GLIBCXX_3.4
  typeinfo for unsigned char@@CXXABI_1.3
+ typeinfo for unsigned int@@CXXABI_1.3
+ typeinfo for unsigned long long@@CXXABI_1.3
  unlink@@GLIBC_2.2.5
  vsnprintf@@GLIBC_2.2.5
  vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
  vtable for __cxxabiv1::__pointer_type_info@@CXXABI_1.3
  vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
  vtable for __cxxabiv1::__vmi_class_type_info@@CXXABI_1.3
+ vtable for std::basic_ios<char, std::char_traits<char> >@@GLIBCXX_3.4
+ vtable for std::basic_streambuf<char, std::char_traits<char> >@@GLIBCXX_3.4
+ vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
+ vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
  vtable for std::exception@@GLIBCXX_3.4
  wcscmp@@GLIBC_2.2.5
  wcslen@@GLIBC_2.2.5

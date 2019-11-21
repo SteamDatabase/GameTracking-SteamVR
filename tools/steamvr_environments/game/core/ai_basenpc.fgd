@@ -1116,7 +1116,6 @@
 		4 : "Walk Goal Path"
 		5 : "Run Goal Path"
 		6 : "Set enemy to Goal Entity AND Run to Goal Entity"
-		7 : "Set enemy to Goal Entity AND Walk to Goal Entity"
 	]
 	
 	interruptability(choices) : "Interruptability" : 0 =
@@ -1124,16 +1123,13 @@
 		0 : "General"
 		1 : "Damage or Death"
 		2 : "Death"
-		3 : "Combat"
 	]
-
-	resilient(boolean) : "Reacquire after break" : 0 : "If set on a walk/run schedule, once the NPC returns to idling, it'll resume the walk/run until reaching the target, even if it previously broke out of the schedule due to the Interruptability choices."
 
 	goalent(target_destination) : "Goal entity" : : "Provides the name of a schedule-specific goal entity (see 'Schedule to run')"
 
 	// Inputs
-	input StartSchedule(void) : "Starts the scripted schedule. This will first locate an NPC that matches the given target, then tell the NPC to run the specified schedule."
-	input StopSchedule(void) : "Stops the scripted schedule. Will attempt to stop any NPC that appears to be running this scripted schedule."
+	input StartSchedule(void) : "Starts the scripted schedule. This will first locate an NPC that " +
+		"matches the given target, then tell the NPC to run the specified schedule."
 ]
 
 
@@ -1179,9 +1175,6 @@
 
 	input StopWaitingForActor(void) : "Stop waiting on an actor to stop talking."
  	input PauseAtNextInterrupt(void) : "Pause playback of the scene at the next interrupt event in the scene."
-	input SetTarget1(target_destination) : "Change the entity Target1 references."
-	input SetTarget2(target_destination) : "Change the entity Target2 references."
-
 
 	// Outputs
 	output OnStart(void) : "The scene has started"
@@ -1289,11 +1282,7 @@
 ]
 
 
-@PointClass base(Targetname) 
-	selected_line( 255 255 255, targetname, target )
-	iconsprite("editor/ai_attached_item_manager.vmat") 
-	sphere() = ai_attached_item_manager	: 
-	"AI Attached Item Manager - manages the items attached to one or more NPCs / ragdolls."
+@PointClass base(Targetname) iconsprite("editor/info_target.vmat") sphere() = ai_attached_item_manager : "AI Attached Item Manager - manages the items attached to one or more NPCs."
 [
 	target(target_name_or_class) : "Target(s)" : "" : "This is the NPC(s) who's items this manager should be managing. May be a targetname or a classname."
 	num_attached_items(integer) : "Number of Attached Items" : 0 : "The number of items attached to our target NPC(s). The NPC(s) will also need a matching number of attachment points on their model."
@@ -1301,12 +1290,6 @@
 	item_2(string) : "Item 2" : "" : "Classname of item to attach in slot 2. If left empty, the NPC's default item code will decide what it should be, if anything."
 	item_3(string) : "Item 3" : "" : "Classname of item to attach in slot 3. If left empty, the NPC's default item code will decide what it should be, if anything."
 	item_4(string) : "Item 4" : "" : "Classname of item to attach in slot 4. If left empty, the NPC's default item code will decide what it should be, if anything."
-	listen_entityspawns(boolean) : "Listen to Entity Spawns" : 0 : "If you want this manager to affect valid targets that are spawned after the manager, you need to set this. Most likely only needed if you want to target NPCs via a classname to catch all future spawns on that NPC type. It has a perf cost, so don't turn it on if you don't need it."
-	mark_as_removable(choices) : "Item Removal Allowed for Ammo Balancing" : "0" =
-	[
-		"0" : "No"
-		"1" : "Yes"
-	]
 ]
 
 //-------------------------------------------------------------------------

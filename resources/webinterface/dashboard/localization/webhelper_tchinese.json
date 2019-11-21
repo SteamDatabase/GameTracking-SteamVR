@@ -17,7 +17,6 @@
 	"PowerMenuResetSeatedPosition": "重設就座狀態",
 	"PowerMenuTurnOffController": "關閉控制器",
 	"PowerMenuQuitSceneApp": "離開 %1$s",
-	"PowerMenuQuitSceneApp_NoApp": "Exit App",
 	"PowerMenuExitVR": "離開 VR",
 	"PowerMenuCancel": "取消",
 	"PowerMenuHeader": "電源選單",

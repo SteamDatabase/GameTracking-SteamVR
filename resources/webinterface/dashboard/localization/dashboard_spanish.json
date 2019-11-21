@@ -1,8 +1,8 @@
 {
   "UI_Unknown": "DESCONOCIDO",
   "Now_Starting": "A CONTINUACIÓN",
-  "Now_Starting_HomeApp": "DE CAMINO A",
-  "Now_Playing": "REPRODUCIENDO",
+  "Now_Starting_HomeApp": "DE CAMINO A INICIO:",
+  "Now_Playing": "Reproduciendo ahora",
   "Now_Playing_HomeApp": "INICIO",
   "Now_Quitting": "SALIENDO",
   "Now_Waiting": "ESPERANDO...",

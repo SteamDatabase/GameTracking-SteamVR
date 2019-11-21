@@ -5,16 +5,15 @@
  B pcre_callout
  B pcre_stack_guard
  B pcrecpp::RE::no_arg
- CBufferString::Insert(int, char const*, int, bool)
- CBufferString::Purge(int)
  CBufferString::Relinquish(CBufferString::EAllocationOption_t)
+ CFiber::AllocPooledFiber(CFiber::SizeBuckets_t, unsigned long)
  CFiber::ReachedZeroReferences()
+ CFiber::SetThreadFiberMemoryRange(unsigned long)
  CMemAllocSystemInitialize
  CThreadEvent::CThreadEvent(bool)
  CThreadEvent::Reset()
  CThreadEvent::Set()
  CThreadFastMutex::Lock(unsigned long long, unsigned int) volatile
- CThreadFiber::CThreadFiber(unsigned long)
  CThreadRWLock::LockForWrite()
  CThreadRWLock::UnlockWrite()
  CThreadRWLock::WaitForRead()
@@ -71,13 +70,14 @@
  RandomFloat
  RandomSeed
  RequireKeyValuesSystem
+ SteamAPI_GetHSteamPipe
  SteamAPI_GetHSteamUser
  SteamAPI_RegisterCallResult
  SteamAPI_RegisterCallback
  SteamAPI_UnregisterCallResult
  SteamAPI_UnregisterCallback
  SteamInternal_ContextInit
- SteamInternal_FindOrCreateUserInterface
+ SteamInternal_CreateInterface
  T BinaryProperties_GetValue
  T CreateInterface
  T GetResourceManifestCount
@@ -172,6 +172,7 @@
  V typeinfo name for panorama::GamePadCode
  V typeinfo name for std::_Function_base
  V typeinfo name for std::string
+ V_AddBackSlashesToSpecialChars
  V_BasicHtmlEntityEncode
  V_ExtractDomainFromURL
  V_FixDoubleSlashes
@@ -206,7 +207,6 @@
  V_atan2f
  V_atanf
  V_atof
- V_atofloat64
  V_atoi
  V_atoi64
  V_atoui64
@@ -1093,6 +1093,7 @@
  W std::vector<int, std::allocator<int> >::max_size() const
  W std::vector<int, std::allocator<int> >::operator[](unsigned long)
  W std::vector<int, std::allocator<int> >::push_back(int const&)
+ W std::vector<int, std::allocator<int> >::reserve(unsigned long)
  W std::vector<int, std::allocator<int> >::size() const
  W std::vector<int, std::allocator<int> >::vector()
  W std::vector<int, std::allocator<int> >::~vector()
@@ -1283,7 +1284,6 @@
  __cxa_pure_virtual@@CXXABI_1.3
  __cxa_rethrow@@CXXABI_1.3
  __cxa_throw@@CXXABI_1.3
- __cxa_throw_bad_array_new_length@@CXXABI_1.3.8
  __dynamic_cast@@CXXABI_1.3
  __errno_location@@GLIBC_2.2.5
  __fxstat64@@GLIBC_2.2.5
@@ -1299,7 +1299,7 @@
  __xstat64@@GLIBC_2.2.5
  abort@@GLIBC_2.2.5
  alphasort64@@GLIBC_2.2.5
- atan@@GLIBC_2.2.5
+ atanf@@GLIBC_2.2.5
  ceil@@GLIBC_2.2.5
  ceilf@@GLIBC_2.2.5
  close@@GLIBC_2.2.5
@@ -1312,13 +1312,13 @@
  floor@@GLIBC_2.2.5
  floorf@@GLIBC_2.2.5
  fmod@@GLIBC_2.2.5
- fmodf@@GLIBC_2.2.5
  fprintf@@GLIBC_2.2.5
  free@@GLIBC_2.2.5
  ftruncate64@@GLIBC_2.2.5
  g_Tier1_CRC32Table
  g_Tier1_CRC64Table
  g_VProfCurrentProfile
+ g_pCurrentFiberTL
  g_pMemAlloc
  getenv@@GLIBC_2.2.5
  lseek64@@GLIBC_2.2.5
@@ -1398,6 +1398,7 @@
  std::string::_M_leak_hard()@@GLIBCXX_3.4
  std::string::_M_mutate(unsigned long, unsigned long, unsigned long)@@GLIBCXX_3.4
  std::string::_Rep::_M_destroy(std::allocator<char> const&)@@GLIBCXX_3.4
+ std::string::_Rep::_M_dispose(std::allocator<char> const&)@@GLIBCXX_3.4
  std::string::_Rep::_M_refdata()@@GLIBCXX_3.4
  std::string::_Rep::_M_set_length_and_sharable(unsigned long)@@GLIBCXX_3.4.5
  std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)@@GLIBCXX_3.4

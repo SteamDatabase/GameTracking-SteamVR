@@ -1,12 +1,16 @@
+"neko_purr"
 {
-	neko_purr = 
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
 		volume = "1.0"
 		pitch = "1.0"
 		vsnd_files = "sounds/third_party/neko_purr_lp.vsnd"
-	}
-	neko_fart = 
+	}}
+
+"neko_fart"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
 		volume = "1.0"
@@ -18,83 +22,122 @@
 			"sounds/third_party/neko_fart_03.vsnd",
 			"sounds/third_party/neko_fart_04.vsnd",
 		]
-	}
-	meeseeks_can_do = 
+	}}
+
+"meeseeks_can_do"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_can_do.vsnd"
-	}
-	meeseeks_yes_sirree = 
+	}}
+
+"meeseeks_yes_sirree"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_yes_sirree.vsnd"
-	}
-	meeseeks_existence_is_pain = 
+	}}
+
+"meeseeks_existence_is_pain"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_existence_is_pain.vsnd"
-	}
-	meeseeks_golf = 
+	}}
+
+"meeseeks_golf"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_golf.vsnd"
-	}
-	meeseeks_all_done = 
+	}}
+
+"meeseeks_all_done"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_all_done.vsnd"
-	}
-	meeseeks_cant_take_it = 
+	}}
+
+"meeseeks_cant_take_it"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_cant_take_it.vsnd"
-	}
-	meeseeks_fumbling = 
+	}}
+
+"meeseeks_fumbling"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_fumbling.vsnd"
-	}
-	meeseeks_getting_weird = 
+	}}
+
+"meeseeks_getting_weird"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_getting_weird.vsnd"
-	}
-	meeseeks_yes_mam = 
+	}}
+
+"meeseeks_yes_mam"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_yes_mam.vsnd"
-	}
-	meeseeks_look_at_me = 
+	}}
+
+"meeseeks_look_at_me"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_look_at_me.vsnd"
-	}
-	meeseeks_spawn = 
+	}}
+
+"meeseeks_spawn"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_spawn.vsnd"
-	}
-	meeseeks_delete = 
+	}}
+
+"meeseeks_delete"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_delete.vsnd"
-	}
-	meeseeks_box_button = 
+	}}
+
+"meeseeks_box_button"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/third_party/mrmeeseeks/meeseeks_box_button.vsnd"
-	}
-}
+	}}
+

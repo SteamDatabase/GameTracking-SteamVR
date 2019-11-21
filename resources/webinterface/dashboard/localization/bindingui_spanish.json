@@ -311,7 +311,6 @@
   "SecondaryControllerTab": "Preferencias adicionales",
   "SecondaryController_ReturnWithLeftHand": "Devolver las asignaciones con las de la mano izquierda",
   "SecondaryController_ReturnWithRightHand": "Devolver las asignaciones con las de la mano derecha",
-  "SecondaryController_ReturnWithHead": "Devolver las asignaciones con el visor",
   "Settings_ThumbstickDeadzone_Text": "Zona muerta del stick analógico:",
   "Settings_ControllerSettings_Title": "Preferencias del stick analógico",
   "Settings_ControllerSettings_Utilities": "Utilidades del mando",

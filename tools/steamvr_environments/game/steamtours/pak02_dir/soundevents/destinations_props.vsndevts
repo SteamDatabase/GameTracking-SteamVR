@@ -1,51 +1,64 @@
+"salien_pickup"
 {
-	salien_pickup = 
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/props/salien/pickup_01.vsnd",
 			"sounds/props/salien/pickup_02.vsnd",
 			"sounds/props/salien/pickup_03.vsnd",
 		]
-	}
-	salien_blink = 
+	}}
+
+"salien_blink"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.100000
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 100.000000
+		volume = 0.1
+		volume_falloff_min = 10.0
+		volume_falloff_max = 100.0
 		vsnd_files = "sounds/props/salien/blink.vsnd"
-	}
-	clock_tick = 
+	}}
+
+"clock_tick"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.100000
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 100.000000
+		volume = 0.1
+		volume_falloff_min = 10.0
+		volume_falloff_max = 100.0
 		vsnd_files = 
 		[
 			"sounds/props/clock_tick_01.vsnd",
 			"sounds/props/clock_tick_02.vsnd",
 			"sounds/props/clock_tick_03.vsnd",
 		]
-	}
-	prop_ball_impact_hard = 
+	}}
+
+"prop_ball_impact_hard"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/props/ball_impact_01.vsnd",
 			"sounds/props/ball_impact_02.vsnd",
 			"sounds/props/ball_impact_03.vsnd",
 		]
-	}
-	prop_beachball_impact_hard = 
+	}}
+
+"prop_beachball_impact_hard"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/props/beachball_impact_01.vsnd",
@@ -53,11 +66,14 @@
 			"sounds/props/beachball_impact_03.vsnd",
 			"sounds/props/beachball_impact_04.vsnd",
 		]
-	}
-	prop_barrel_impact_hard = 
+	}}
+
+"prop_barrel_impact_hard"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/props/barrel_impact_01.vsnd",
@@ -66,11 +82,14 @@
 			"sounds/props/barrel_impact_04.vsnd",
 			"sounds/props/barrel_impact_05.vsnd",
 		]
-	}
-	prop_dice_impact_hard = 
+	}}
+
+"prop_dice_impact_hard"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/props/dice_impact_01.vsnd",
@@ -78,11 +97,14 @@
 			"sounds/props/dice_impact_03.vsnd",
 			"sounds/props/dice_impact_04.vsnd",
 		]
-	}
-	prop_watermelon_impact_hard = 
+	}}
+
+"prop_watermelon_impact_hard"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/props/watermelon_impact_01.vsnd",
@@ -90,11 +112,14 @@
 			"sounds/props/watermelon_impact_03.vsnd",
 			"sounds/props/watermelon_impact_04.vsnd",
 		]
-	}
-	prop_cube_impact_hard = 
+	}}
+
+"prop_cube_impact_hard"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.900000
+		volume = 0.9
 		vsnd_files = 
 		[
 			"sounds/props/cube_impact_01.vsnd",
@@ -102,11 +127,14 @@
 			"sounds/props/cube_impact_03.vsnd",
 			"sounds/props/cube_impact_04.vsnd",
 		]
-	}
-	prop_rockblock_impact_hard = 
+	}}
+
+"prop_rockblock_impact_hard"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = 
 		[
 			"sounds/props/rock_impact_01.vsnd",
@@ -114,11 +142,14 @@
 			"sounds/props/rock_impact_03.vsnd",
 			"sounds/props/rock_impact_04.vsnd",
 		]
-	}
-	prop_beer_bottle_impact = 
+	}}
+
+"prop_beer_bottle_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/props/beer_bottle_impact_01.vsnd",
@@ -128,14 +159,17 @@
 			"sounds/props/beer_bottle_impact_05.vsnd",
 			"sounds/props/beer_bottle_impact_06.vsnd",
 		]
-	}
-	prop_splash = 
+	}}
+
+"prop_splash"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.100000
-		block_stop = 1.000000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 1000.000000
+		volume = 0.1
+		block_stop = 1.0
+		volume_falloff_min = 100.0
+		volume_falloff_max = 1000.0
 		vsnd_files = 
 		[
 			"sounds/props/splash_01.vsnd",
@@ -143,11 +177,14 @@
 			"sounds/props/splash_03.vsnd",
 			"sounds/props/splash_04.vsnd",
 		]
-	}
-	prop_baseball_bat_impact = 
+	}}
+
+"prop_baseball_bat_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/baseball_bat_impact_01.vsnd",
@@ -155,11 +192,14 @@
 			"sounds/props/baseball_bat_impact_03.vsnd",
 			"sounds/props/baseball_bat_impact_04.vsnd",
 		]
-	}
-	prop_cachebox_impact = 
+	}}
+
+"prop_cachebox_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/cachebox_impact_01.vsnd",
@@ -167,22 +207,28 @@
 			"sounds/props/cachebox_impact_03.vsnd",
 			"sounds/props/cachebox_impact_04.vsnd",
 		]
-	}
-	prop_clockwerk_mask_impact = 
+	}}
+
+"prop_clockwerk_mask_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/clockwerk_mask_impact_01.vsnd",
 			"sounds/props/clockwerk_mask_impact_02.vsnd",
 			"sounds/props/clockwerk_mask_impact_03.vsnd",
 		]
-	}
-	prop_cloth_impact = 
+	}}
+
+"prop_cloth_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/cloth_impact_01.vsnd",
@@ -190,22 +236,28 @@
 			"sounds/props/cloth_impact_03.vsnd",
 			"sounds/props/cloth_impact_04.vsnd",
 		]
-	}
-	prop_default_impact = 
+	}}
+
+"prop_default_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/default_impact_01.vsnd",
 			"sounds/props/default_impact_02.vsnd",
 			"sounds/props/default_impact_03.vsnd",
 		]
-	}
-	prop_plastic_helmet_impact = 
+	}}
+
+"prop_plastic_helmet_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/plastic_helmet_impact_01.vsnd",
@@ -213,33 +265,42 @@
 			"sounds/props/plastic_helmet_impact_03.vsnd",
 			"sounds/props/plastic_helmet_impact_04.vsnd",
 		]
-	}
-	prop_drone_impact = 
+	}}
+
+"prop_drone_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/drone_impact_01.vsnd",
 			"sounds/props/drone_impact_02.vsnd",
 			"sounds/props/drone_impact_03.vsnd",
 		]
-	}
-	prop_boxing_robot_impact = 
+	}}
+
+"prop_boxing_robot_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/clockwerk_mask_impact_01.vsnd",
 			"sounds/props/clockwerk_mask_impact_02.vsnd",
 			"sounds/props/clockwerk_mask_impact_03.vsnd",
 		]
-	}
-	prop_boxing_glove_impact = 
+	}}
+
+"prop_boxing_glove_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/props/boxing_glove_impact_01.vsnd",
@@ -247,11 +308,14 @@
 			"sounds/props/boxing_glove_impact_03.vsnd",
 			"sounds/props/boxing_glove_impact_04.vsnd",
 		]
-	}
-	prop_gym_weights_impact = 
+	}}
+
+"prop_gym_weights_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/props/gym_weights_impact_01.vsnd",
@@ -259,44 +323,56 @@
 			"sounds/props/gym_weights_impact_03.vsnd",
 			"sounds/props/gym_weights_impact_04.vsnd",
 		]
-	}
-	prop_drumstick_impact = 
+	}}
+
+"prop_drumstick_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/props/drumstick_impact_01.vsnd",
 			"sounds/props/drumstick_impact_02.vsnd",
 			"sounds/props/drumstick_impact_03.vsnd",
 		]
-	}
-	prop_military_helmet_impact = 
+	}}
+
+"prop_military_helmet_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/helmets_impact_01.vsnd",
 			"sounds/props/helmets_impact_02.vsnd",
 			"sounds/props/helmets_impact_03.vsnd",
 		]
-	}
-	prop_misc_gear_impact = 
+	}}
+
+"prop_misc_gear_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/props/misc_gear_impact_01.vsnd",
 			"sounds/props/misc_gear_impact_02.vsnd",
 			"sounds/props/misc_gear_impact_03.vsnd",
 		]
-	}
-	prop_tool_impact = 
+	}}
+
+"prop_tool_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = 
 		[
 			"sounds/props/tool_impact_01.vsnd",
@@ -304,11 +380,14 @@
 			"sounds/props/tool_impact_03.vsnd",
 			"sounds/props/tool_impact_04.vsnd",
 		]
-	}
-	prop_toy_soldier_impact = 
+	}}
+
+"prop_toy_soldier_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_scalable"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = 
 		[
 			"sounds/props/toy_soldier_impact_01.vsnd",
@@ -316,11 +395,14 @@
 			"sounds/props/toy_soldier_impact_03.vsnd",
 			"sounds/props/toy_soldier_impact_04.vsnd",
 		]
-	}
-	prop_tf2_sentry1_damage = 
+	}}
+
+"prop_tf2_sentry1_damage"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.040000
+		volume = 0.04
 		vsnd_files = 
 		[
 			"sounds/props/tf2_sentry1/sentry_damage1.vsnd",
@@ -328,76 +410,103 @@
 			"sounds/props/tf2_sentry1/sentry_damage3.vsnd",
 			"sounds/props/tf2_sentry1/sentry_damage4.vsnd",
 		]
-	}
-	prop_tf2_sentry1_explode = 
+	}}
+
+"prop_tf2_sentry1_explode"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.075000
+		volume = 0.075
 		vsnd_files = "sounds/props/tf2_sentry1/sentry_explode.vsnd"
-	}
-	prop_tf2_sentry1_move_long = 
+	}}
+
+"prop_tf2_sentry1_move_long"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.030000
+		volume = 0.03
 		vsnd_files = 
 		[
 			"sounds/props/tf2_sentry1/sentry_move_long1.vsnd",
 			"sounds/props/tf2_sentry1/sentry_move_long2.vsnd",
 		]
-	}
-	prop_tf2_sentry1_move_medium = 
+	}}
+
+"prop_tf2_sentry1_move_medium"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.030000
+		volume = 0.03
 		vsnd_files = 
 		[
 			"sounds/props/tf2_sentry1/sentry_move_medium1.vsnd",
 			"sounds/props/tf2_sentry1/sentry_move_medium2.vsnd",
 			"sounds/props/tf2_sentry1/sentry_move_medium3.vsnd",
 		]
-	}
-	prop_tf2_sentry1_move_short = 
+	}}
+
+"prop_tf2_sentry1_move_short"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.030000
+		volume = 0.03
 		vsnd_files = 
 		[
 			"sounds/props/tf2_sentry1/sentry_move_short1.vsnd",
 			"sounds/props/tf2_sentry1/sentry_move_short2.vsnd",
 		]
-	}
-	prop_tf2_sentry1_scan = 
+	}}
+
+"prop_tf2_sentry1_scan"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.050000
+		volume = 0.05
 		vsnd_files = 
 		[
 			"sounds/props/tf2_sentry1/sentry_scan.vsnd",
 			"sounds/props/tf2_sentry1/sentry_scan.vsnd",
 		]
-	}
-	prop_tf2_sentry1_shoot_mini = 
+	}}
+
+"prop_tf2_sentry1_shoot_mini"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.075000
+		volume = 0.075
 		vsnd_files = "sounds/props/tf2_sentry1/sentry_shoot_mini.vsnd"
-	}
-	prop_tf2_sentry1_spot = 
+	}}
+
+"prop_tf2_sentry1_spot"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.050000
+		volume = 0.05
 		vsnd_files = "sounds/props/tf2_sentry1/sentry_spot.vsnd"
-	}
-	prop_tf2_sentry1_spot_client = 
+	}}
+
+"prop_tf2_sentry1_spot_client"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.050000
+		volume = 0.05
 		vsnd_files = "sounds/props/tf2_sentry1/sentry_spot_client.vsnd"
-	}
-	prop_tf2_sentry1_upgrading_steam = 
+	}}
+
+"prop_tf2_sentry1_upgrading_steam"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.040000
+		volume = 0.04
 		vsnd_files = 
 		[
 			"sounds/props/tf2_sentry1/sentry_upgrading_steam1.vsnd",
@@ -406,11 +515,14 @@
 			"sounds/props/tf2_sentry1/sentry_upgrading_steam4.vsnd",
 			"sounds/props/tf2_sentry1/sentry_upgrading_steam5.vsnd",
 		]
-	}
-	prop_tf2_sentry1_upgrading = 
+	}}
+
+"prop_tf2_sentry1_upgrading"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.040000
+		volume = 0.04
 		vsnd_files = 
 		[
 			"sounds/props/tf2_sentry1/sentry_upgrading1.vsnd",
@@ -422,5 +534,5 @@
 			"sounds/props/tf2_sentry1/sentry_upgrading7.vsnd",
 			"sounds/props/tf2_sentry1/sentry_upgrading8.vsnd",
 		]
-	}
-}
+	}}
+

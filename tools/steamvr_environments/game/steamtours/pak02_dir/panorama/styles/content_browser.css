@@ -3280,12 +3280,11 @@ AvatarCustomizationItem #SliderThumb
 }
 
 /*---------------------------
-    VISIT / MOVE / WAIT FOR DOWNLOAD ENVIRONMENT DIALOG
+    VISIT / MOVE ENVIRONMENT DIALOG
 ---------------------------*/
 
 .VisitWrapper,
-.MoveWrapper,
-.WaitForSharedDownloadWrapper
+.MoveWrapper
 {
 	width: 100%;
 	height: 100%;
@@ -3294,8 +3293,7 @@ AvatarCustomizationItem #SliderThumb
 }
 
 .VisitDialogOn .VisitWrapper,
-.MoveDialogOn .MoveWrapper,
-.WaitForSharedDownloadDialogOn .WaitForSharedDownloadWrapper
+.MoveDialogOn .MoveWrapper
 {
 	visibility: visible;
 }
@@ -3315,35 +3313,9 @@ AvatarCustomizationItem #SliderThumb
 	//box-shadow: #8C94A555 0px 0px 10px 0px;
 }
 
-.WaitForSharedDownloadDialog
-{
-	width: 600px;
-	height: 550px;
-	padding: 50px 0px 50px 0px;
-	vertical-align: center;
-	horizontal-align: center;
-	flow-children: down;
-	background-color: background_center_gradient_dark;
-	border-radius: 5px;
-	border: 2px solid #ffffff20;	
-	//box-shadow: #8C94A555 0px 0px 10px 0px;
-}
-
-.WaitForSharedDownloadButtons 
-{
-	flow-children: down;
-    horizontal-align: center;
-}
-
-.WaitForSharedDownloadButtons .DestinationButton
-{
-    width: 450px;
-    margin-top: 10px;
-}
 
 .VisitMessageTitle,
-.MoveMessageTitle,
-.WaitForSharedDownloadMessageTitle
+.MoveMessageTitle
 {
 	//margin-left: 48px;
 	text-align: center;
@@ -3351,7 +3323,7 @@ AvatarCustomizationItem #SliderThumb
 	width: 100%;
 	//vertical-align: center;
 	//width: 600px;
-	font-size: 45px;
+	font-size: 55px;
 	color: #ffffffff;
 }
 
@@ -3387,49 +3359,6 @@ AvatarCustomizationItem #SliderThumb
 	text-align: center;
 	vertical-align: center;
 	margin-left: 30px;
-}
-
-.SharedDownloadProgressContainer 
-{
-	vertical-align: center;
-	horizontal-align: center;
-	width: 450px;
-	height: 30px;
-	border-radius: 5px;
-	border: 2px solid #000000ff;
-	background-color: #444444aa;
-	visibility: visible;
-	margin: 0px 0px 5px 0px;
-}
-
-.SharedDownloadProgressBar 
-{
-	width: 50%;
-	height: 30px;
-	vertical-align: center;
-	background-color: button_gradient_bright;
-}
-
-.SharedDownloadClientsRemainingLabel
-{
-	font-size: 25px;
-	text-align: center;
-	vertical-align: center;
-	horizontal-align: center;
-//	margin-left: 30px;
-	color: #ffffffff;
-   	margin-bottom: 5px;
-}
-
-.SharedDownloadClientsFinishedLabel
-{
-	font-size: 25px;
-	text-align: center;
-	vertical-align: center;
-	horizontal-align: center;
-//	margin-left: 30px;
-	color: #aaaaaaff;
-   	margin-bottom: 20px;
 }
 
 /*---------------------------
@@ -3710,6 +3639,8 @@ AvatarCustomizationItem #SliderThumb
 	visibility: collapse;
 }
 
+//lawrence to do - make knuckles controller images once closer to ev 2.0
+
 .ViveController .ScreenshotViveImage,
 .ViveController .ScreenshotViveLabel,
 .KnucklesController .ScreenshotViveImage,
@@ -3723,11 +3654,7 @@ AvatarCustomizationItem #SliderThumb
 .WinMRControllerSamsung .ScreenshotWinMRImage,
 .WinMRControllerSamsung .ScreenshotWinMRLabel,
 .TouchController .ScreenshotTouchImage,
-.TouchController .ScreenshotTouchLabel,
-.RiftSController .ScreenshotTouchImage,
-.RiftSController .ScreenshotTouchLabel,
-.CosmosController .ScreenshotTouchImage,
-.CosmosController .ScreenshotTouchLabel
+.TouchController .ScreenshotTouchLabel
 {
 	visibility: visible;
 }
@@ -4568,6 +4495,12 @@ AvatarCustomizationItem #SliderThumb
 	//background-color: red;
 }
 
+.Scrolling.MapsTab .PlayersPresent .ItemTitle 
+{
+	//margin-bottom: 50px;
+	//taking this functionality out of the content browser
+}
+
 .Scrolling.MapsTab .PlayerNumber
 {
 	background-color: none;
@@ -4783,6 +4716,12 @@ AvatarCustomizationItem #SliderThumb
 	//background-color: red;
 }
 
+.Scrolling.MapsTab .PlayersPresent .ItemTitle 
+{
+	//margin-bottom: 50px;
+	//taking this functionality out of the content browser
+}
+
 .Scrolling.MapsTab .PlayerNumber
 {
 	background-color: none;
@@ -4888,6 +4827,12 @@ AvatarCustomizationItem #SliderThumb
 	//box-shadow: #00000090 0px 0px 10px 0px;
 	flow-children: right;
 	visibility: collapse;
+}
+
+.PlayersPresent .PlayerNumber
+{
+	//visibility: visible;
+	//taking this functionality out of the content browser
 }
 
 .PlayerNumberIcon
@@ -5494,6 +5439,15 @@ AvatarCustomizationItem #SliderThumb
 	pre-transform-scale2d: .99;
 }
 
+.PublicIcon 
+{
+	width: 120px;
+	flow-children: left;
+	horizontal-align: right;	
+	vertical-align: center;
+	margin-right: 15px;
+}
+
 
 .LaunchPublicIcon 
 {
@@ -5504,6 +5458,28 @@ AvatarCustomizationItem #SliderThumb
 	vertical-align: center;
 }
 
+.PlayersPresent .LaunchPublicIcon 
+{
+	//width: 65px;
+	//height: 65px;
+	//margin-right: 0px;
+	//vertical-align: center;
+	//taking this functionality out of the content browser
+}
+
+.PublicIcon Label 
+{
+	width: fit-children;
+	min-width: 30px;
+	font-size: 35px;
+	color: white;
+	margin-left: 8px;
+	text-align: center;
+	vertical-align: center;
+	horizontal-align: center;
+	visibility: collapse;
+}
+
 
 .LaunchPrivateIcon 
 {
@@ -5512,6 +5488,19 @@ AvatarCustomizationItem #SliderThumb
 	horizontal-align: right;
 	vertical-align: center;
 	margin-right: 30px;
+}
+
+.PlayersPresent .NumberOfPlayers,
+.PlayersPresent #JoinPublicLobby 
+{
+	//visibility: visible;
+	//taking this functionality out of the content browser
+}
+
+.PlayersPresent #LaunchPublicLobby 
+{
+	//visibility: collapse;	
+	//taking this functionality out of the content browser
 }
 
 .PropsTab .LaunchPublicIcon,
@@ -5644,45 +5633,29 @@ AvatarCustomizationItem #SliderThumb
 // special overrides
 .item_def_vive_controllers,
 .item_def_touch_controllers,
-.item_def_rift_s_controllers,
 .item_def_knuckles_controllers,
 .item_def_knuckles_ev1_3_controllers,
 .item_def_windowsmr_controllers,
 .item_def_windowsmr_samsung_controllers,
-.item_def_cosmos_controllers,
 .item_def_generic_tracked_controllers,
-.item_def_full_hands
+.item_def_more_fingers_test
 {
 	visibility: collapse;
 }
 
-.ViveController .item_def_vive_controllers,
-.ViveController .item_def_full_hands
+.ViveController .item_def_vive_controllers
 {
 	visibility: visible;
 }
-.TouchController .item_def_touch_controllers,
-.TouchController .item_def_full_hands
+.TouchController .item_def_touch_controllers
 {
 	visibility: visible;
 }
-.RiftSController .item_def_rift_s_controllers,
-.RiftSController .item_def_full_hands
+.KnucklesEV1_3Controller .item_def_knuckles_ev1_3_controllers
 {
 	visibility: visible;
 }
-.KnucklesEV1_3Controller .item_def_knuckles_ev1_3_controllers,
-.KnucklesEV1_3Controller .item_def_full_hands
-{
-	visibility: visible;
-}
-.KnucklesController .item_def_knuckles_controllers,
-.KnucklesController .item_def_full_hands
-{
-	visibility: visible;
-}
-.CosmosController .item_def_cosmos_controllers,
-.CosmosController .item_def_full_hands
+.KnucklesController .item_def_knuckles_controllers
 {
 	visibility: visible;
 }
@@ -6026,6 +5999,7 @@ AvatarCustomizationItem #SliderThumb
 
 .MapsTab .Background #SetHomeButtonWrapper,
 .MapsTab .Background #HostNewRoom,
+.MapsTab .Background .PublicIcon,
 .PropsTab .ItemTool #SelectPropLabel
 {
 	visibility: collapse;

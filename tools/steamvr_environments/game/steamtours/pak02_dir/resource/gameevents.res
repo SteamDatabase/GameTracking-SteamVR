@@ -28,8 +28,4 @@
 	{
 		"userid"	"short"		// user ID on server
 	}
-
-	"vr_controllers_connected"
-	{
-	}
 }

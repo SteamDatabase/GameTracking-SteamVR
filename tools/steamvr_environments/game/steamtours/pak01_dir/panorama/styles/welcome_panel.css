@@ -21,6 +21,22 @@ DestinationsWelcomePanel {
 	margin-left: 50px;
 }
 
+.Destinations_Logo
+{
+	width: 80px;
+	height: 80px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.Destinations_WelcomeText
+{
+	font-size: 40px;
+	color: white;
+	margin-top: 70px;
+	margin-left: 30px;
+}
+
 //
 // WELCOME STATE
 // First time players get the Welcome message asking them to open the menu
@@ -56,9 +72,7 @@ DestinationsWelcomePanel {
 
 .PressMenuButton,
 .PressYButton,
-.PressBButton,
-.PressBOrYButton
-{
+.PressBButton {
 	color: #ccccccff;
 	font-size: 30px;
 	font-weight: light;
@@ -70,9 +84,7 @@ DestinationsWelcomePanel {
 
 .MotionController,
 .Controller,
-.TouchImage,
-.RiftSImage,
-.KnucklesImage
+.TouchImage 
 {
 	visibility: collapse;
 }
@@ -87,13 +99,7 @@ DestinationsWelcomePanel {
 .GamepadController .Controller,
 .GamepadController .PressYButton,
 .TouchController .TouchImage,
-.TouchController .PressBOrYButton,
-.RiftSController .RiftSImage,
-.RiftSController .PressBOrYButton,
-.KnucklesController .KnucklesImage,
-.KnucklesController .PressBButton,
-.CosmosController .CosmosImage,
-.CosmosController .PressBOrYButton
+.TouchController .PressBButton
 {
 	visibility: visible;	
 }
@@ -102,13 +108,7 @@ DestinationsWelcomePanel {
 .GamepadController .MotionController,
 .GamepadController .PressMenuButton,
 .TouchController .MotionController,
-.TouchController .PressMenuButton,
-.RiftSController .MotionController,
-.RiftSController .PressMenuButton,
-.KnucklesController .MotionController,
-.KnucklesController .PressMenuButton,
-.CosmosController .MotionController,
-.CosmosController .PressMenuButton
+.TouchController .PressMenuButton
 {
 	visibility: collapse;	
 }
@@ -160,9 +160,7 @@ DestinationsWelcomePanel {
 
 .UpdateDesc,
 .UpdateDescController,
-.UpdateDescTouch,
-.UpdateDescKnuckles,
-.UpdateDescCosmos {
+.UpdateDescTouch {
 	text-align: left;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -181,20 +179,14 @@ DestinationsWelcomePanel {
 
 // if it's a gamepad or a touch, show the relevant bits
 .GamepadController .UpdateDescController,
-.TouchController .UpdateDescTouch,
-.RiftSController .UpdateDescTouch,
-.KnucklesController .UpdateDescKnuckles,
-.CosmosController .UpdateDescCosmos
+.TouchController .UpdateDescTouch
 {
 	visibility: visible;	
 }
 
 // if it's a gamepad or a touch, hide the irrelevant bits
 .GamepadController .UpdateDesc,
-.TouchController .UpdateDesc,
-.RiftSController .UpdateDesc,
-.KnucklesController .UpdateDesc,
-.CosmosController .UpdateDesc
+.TouchController .UpdateDesc
 {
 	visibility: collapse;	
 }

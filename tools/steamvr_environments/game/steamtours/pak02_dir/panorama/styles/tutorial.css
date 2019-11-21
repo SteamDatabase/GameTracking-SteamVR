@@ -298,22 +298,19 @@
 .ViveHelp, 
 .ControllerHelp,
 .TouchHelp,
-.WinMRHelp,
-.KnucklesHelp,
-.CosmosHelp
+.WinMRHelp
 {
 	visibility: collapse;
 }
 
+
 .ViveController .ViveHelp,
-.KnucklesController .KnucklesHelp,
+.KnucklesController .ViveHelp,
 .GenericTrackedController .ViveHelp,
 .GamepadController .ControllerHelp,
 .TouchController .TouchHelp,
-.RiftSController .TouchHelp,
 .WinMRController .WinMRHelp,
-.WinMRControllerSamsung .WinMRHelp,
-.CosmosController .CosmosHelp
+.WinMRControllerSamsung .WinMRHelp
 {
 	visibility: visible;
 }
@@ -339,18 +336,12 @@
 .TouchController .Page1 .NextButton,
 .TouchController .Page2 .NextButton,
 .TouchController .Page3 .DoneButton,
-.RiftSController .Page1 .NextButton,
-.RiftSController .Page2 .NextButton,
-.RiftSController .Page3 .DoneButton,
 .WinMRController .Page1 .NextButton,
 .WinMRController .Page2 .NextButton,
 .WinMRController .Page3 .DoneButton,
 .WinMRControllerSamsung .Page1 .NextButton,
 .WinMRControllerSamsung .Page2 .NextButton,
-.WinMRControllerSamsung .Page3 .DoneButton,
-.CosmosController .Page1 .NextButton,
-.CosmosController .Page2 .NextButton,
-.CosmosController .Page3 .DoneButton
+.WinMRControllerSamsung .Page3 .DoneButton
 {
 	visibility: visible;	
 }
@@ -497,10 +488,8 @@
 #ControllerBottomText,
 .GamepadController #ViveBottomText,
 .TouchController #ViveBottomText,
-.RiftSController #ViveBottomText,
 .ViveController #TouchBottomText,
 .KnucklesController #TouchBottomText,
-.CosmosController #TouchBottomText,
 .GamepadController #TouchBottomText
 {
 	visibility: collapse;
@@ -511,8 +500,7 @@
 	visibility: visible;
 }
 
-.TouchController #TouchBottomText,
-.RiftSController #TouchBottomText
+.TouchController #TouchBottomText
 {
 	visibility: visible;	
 }

@@ -1147,7 +1147,7 @@
 "[english]Settings_Bluetooth_Driver_Install"	"Install Bluetooth Driver"
 "Settings_PowerOffControllers_Info"	" "
 "[english]Settings_PowerOffControllers_Info"	" "
-"Settings_PowerOffBaseStations_Text"	"Ota tukiaseman virranhallinta käyttöön"
+"Settings_PowerOffBaseStations_Text"	"Ota käyttöön tukiasemien virranhallinta"
 "[english]Settings_PowerOffBaseStations_Text"	"Enable Base Station Power Management"
 "Settings_PowerOffBaseStations_Info"	"Bluetooth-linkin täytyy olla asennettuna tätä toimintoa varten."
 "[english]Settings_PowerOffBaseStations_Info"	"Bluetooth Link must be installed to enable this feature."
@@ -2539,11 +2539,7 @@
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug any USB cable connected to the Base Station.<li>Do NOT connect USB to the Base Station.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR and try again.</ul>"
 "BS_PromotePowerManagement_Title"	"SteamVR"
 "[english]BS_PromotePowerManagement_Title"	"SteamVR"
-"BS_PromotePowerManagement_Explanation"	"SteamVR voi hallita tukiasemiesi virtaa.<br><br>Virranhallinnan avulla tukiasema menee lepotilaan, kun SteamVR ei ole käytössä, ja herää uudelleen, kun SteamVR kännistyy.<br>"
-"[english]BS_PromotePowerManagement_Explanation"	"SteamVR can power manage your Base Stations.<br><br>Power managed Base Stations go into standby mode when SteamVR is not in use and wake up again when SteamVR starts.<br>"
 "BS_PromotePowerManagement_Enable"	"Ota tukiaseman virranhallinta käyttöön *"
 "[english]BS_PromotePowerManagement_Enable"	"Enable Base Station Power Management *"
-"BS_PromotePowerManagement_ExitNow"	"Poistu nyt (%1)"
-"[english]BS_PromotePowerManagement_ExitNow"	"Exit Now (%1)"
 }
 }

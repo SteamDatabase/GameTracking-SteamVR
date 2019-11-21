@@ -841,10 +841,4 @@
 		"src" "IMPORT_GAME"
 		"dest" "EXPORT_GAME"
 	}
-	
-	// panorama *.vfont
-	"\panorama\fonts\*.vfont"
-	{
-		"importfunc" "ImportPanoramaVFont"
-	}
 }

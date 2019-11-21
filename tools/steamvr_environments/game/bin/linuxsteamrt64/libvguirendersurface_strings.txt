@@ -1,25 +1,31 @@
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
       
+    Max committed memory: %u KB out of %d KB
+    Total committed memory: %d KB
+    Total used memory:      %d KB
   %s %s
   Does nothing to multiple selections.
   Panel will be created where the menu was opened.
  ( def. "%s" )
+ ;2tnD
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^]
  [A\]
+ []A\
  max. %f
  min. %f
- tMv+@
 !m_bNeedsSort
 "%s" "
 "%s" "%s" 
 "%s" = "%s"
+"[A\]
 "alt"	"1"
 "ctrl"	"1"
 "id" "elementid" 
 "keycode"	"%s"
 "shift"	"1"
+"t&L;}
 #Frame_Untitled
 #MessageBox_Cancel
 #MessageBox_OK
@@ -50,22 +56,31 @@
 #vgui_TimeLeftMinutesSeconds
 #vgui_TimeLeftSecond
 #vgui_TimeLeftSeconds
-$A;T$
-$A;\$
+$+s$Hc
 $ORIGIN
-$[A\A]H
 $[A\]
+$woL)
 %%%s%%
 %-120s
 %-120s - %s
+%.04f
+%.10f
 %d %d %d %d
+%d total counted strings.
 %d_hidden
 %d_width
 %f %f %f %f
+%f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
 %i %i %i %i
 %ls [wstring, len = %d]
+%s encoding %s %d format %s %d %s
 %s moved to front
 %s string image, int src_corner_height, int src_corner_width, int draw_corner_height, int draw_corner_width
+%s%02i:%02i:%02i.%03i
+%s%02i:%02i:%02i:%.02f
+%s%02i:%02i:%02i:%02.0f
+%s%02i:%02i:%02i:%02i
+%s%02i:%02i:%02i:%05.02f
 %s(%d) : %s
 %s, bool showScrollBar, bool allowMouseWheel, bool overrideChildPanelWidth
 %s, bool textHidden, bool editable, bool unicode, bool NumericInputOnly, int maxchars
@@ -87,19 +102,23 @@ $[A\]
 &Exit
 &Reload Localization
 &Save
-&YA1H
-&YA1L
 (*%s*), 
-(HcWP
+(StHH
 ([A\A]A^A_]
+([A\A]A^]
 ([A\A]]
+([A\A^]
 ([]A\A]A^A_
 (no name)
+*E@Hc
 *N12_GLOBAL__N_115ScrollBarButtonE
 *N12_GLOBAL__N_116CaptionGripPanelE
 *N12_GLOBAL__N_19GripPanelE
++K$Lc
 +S$Hc
 +s$Hc
++s$Ic
++{$Hc
 -language
 -pixel_offset_x
 -pixel_offset_y
@@ -113,6 +132,8 @@ $[A\]
 ../../public/tier1/utlsortvector.h
 ../public/ordered_constructor.h
 ../public/tier1/utllinkedlist.h
+../public/tier1/utlsortvector.h
+.L;1w
 .comment
 .data
 .data.rel.ro
@@ -137,19 +158,24 @@ $[A\]
 .strtab
 .symtab
 .text
+/I9D$
 0 - no auto-resize
 0 - top-left
-0<	wD
+0[A\A]A^A_]
 0[A\A]A^]
 0[A\]
+0[A^]
 0[]A\A]A^
 0x%016llX
+0x%llx
 1 - resize right
 1 - top-right
 10CheckImage
+10ConCommand
 10IAppSystem
 12CEmptyConVar
 12CIntProperty
+12CSceneObject
 12CThreadEvent
 12ColumnButton
 13CBoolProperty
@@ -167,8 +193,11 @@ $[A\]
 15CTier3AppSystemI18IVGuiRenderSurfaceLi0EE
 16CDefaultAccessor
 16CRSEmbeddedPanel
+16ISceneObjectDesc
+17IGenericInterface
 17IVGuiPaintSurface
 18CBuildModeNavCombo
+18CCountedStringPool
 18CTextureDictionary
 18CTextureIdProperty
 18CUtlCharConversion
@@ -178,13 +207,14 @@ $[A\]
 18IVGuiRenderSurface
 18MenuItemCheckImage
 19IKeyValuesErrorSpew
-1D;G 
 2 - bottom-left
 2 - resize down
 20CDragDropHelperPanel
 20CPostConnectCallback
 21CUtlCStringConversion
+21IKeyValuesDumpContext
 22CSchemaInstallCallback
+23CSplitScreenAddedConVar
 23IConCommandBaseAccessor
 24CProportionalIntProperty
 24IProceduralLayerRenderer
@@ -194,111 +224,148 @@ $[A\]
 26CDefaultKeyValuesErrorSpew
 26CProportionalFloatProperty
 27CVGuiPaintSurfaceMainThread
+27IKeyValuesDumpContextAsText
 28CVguiProceduralLayerRenderer
+29CKeyValuesDumpContextAsDevMsg
 3 - bottom-right
 3 - down & right
+3+C$H
 333333
+3E8 u
+3[A\A]A^]
 4 - no pin
+42HcU
+4fff>fff>fff>fff>
 4vf;T
 5t~BC
 692t&H
-692t+H
 6ConVar
 6H92t%H
-6I90I
 7Dragger
 7IConVar
+8!t5H
 8#t(H
-8#t9H
-8A^]H
+8#tMH
 8CFmtStrNILi1024ELb0EE
 8CFmtStrNILi256ELb0EE
-8P(s!H
+8S)tK
+8VBKVt6HcF
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
-90t(H
-:S)tN
+90t/H
+91t0H
+9CX~,H
 :[tlL
 ;#t?L
 ;*3$"
-;0tSD
-;0tTD
-;0tWD
-;2t)H
-;2|EH
-;BX|'1
-;C@tPH
-;CX}4H
-<	wlLcG
-</t"<\t
-</tD<\t@H
-</t~<\tzH
+;2|?H
+;2~.H
+;L9'u
+;s t_+s$Hc
+<	w.1
+<	woD
+<!-- DMXVersion
+<!-- dmx
+<19{ |.
+<80tuH
 << NULL >>
+<@tYA
+<Cu;H
 <NULL>
-<Rt&<Pu
-<Rt=<CuyH
+<Rt<<Pt`<S
+<RtV<C
+<\tD</f
+<\t~</tzH
 <a href=
-<no failure reason set>
+<no file>
 <null>
 <unknown>
-<}tQ<{uW
+<}tI<{uO
+=CSP1A
+=CSP1u
+>#t'D
 >#t=L
 ?../public/tier1/utlrbtree.h
-?A]A^]
+?A\A]A^]
 ?ButtonToggled
 ?ComboBoxButton
+?L;'u
+?L;7u
 ?VGuiPaintSurfaceLayout
-?VScript
-@ A^]
-@8A]A^]
-@DrawPrintText
+?north-west
+@ A\A]A^]
+@ A\]
+@ A]A^]
+@(A]A^]
+@8A\A]A^]
+@@D;@P
+@DrawFlushText
 @XA^]
 @[A\A]A^]
 @[A\]
 @mempool.cpp
-A#|$TH
+A+D$$9
 A+D$$H
-A+E$A
 A+E$H
-A+T$$
-A+t$$H
-A+t$$Hc
-A9EXt
-A9]Xt
-A;D$(
-A;D$X}
-A;Ex}
-A;\$ 
-A;^h|
-A;_p|
+A+E$f
+A+F$H
+A+G$H
+A+G$Lc
+A+O$Hc
+A+U$A
+A+U$Hc
+A+U$f
+A+V$Hc
+A+W$Hc
+A+W$f
+A+u$Hc
+A10BlankImage
+A9?t>H
+A9F@~{I
+A9G }
+A9\$h
+A9\$h~\Lc
+A9]h~5I
+A9_@~8L
+A;D$h|
+A;EXt
+A;Ex|
+A;G A
+A;\$ A
+A;]@|
+A;]Xt
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-APanelListPanel
-ATSt$@
-AUAT1
+ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
+ATUSH
 AUATA
-AUATE
+AUATD
+AUATE1
 AUATH
 AUATI
 AUATL
 AUATLc
 AUATM
 AUATS
-AUATSD
 AUATSH
-AUATSHc
 AUATSL
+AUATSf
+AUATStMI
+AUATStmH
+AUATUSH
+AVATI
+AVATL
 AVAUA
 AVAUATA
 AVAUATI
 AVAUATL
-AVAUATM
+AVAUATLc
 AVAUATS
-AVAUATSD
+AVAUATS1
 AVAUATSH
 AVAUATSHc
-AVAUATStsHc
-AVAUATS~
+AVAUATSL
+AVAUATUSH
 AVAUE1
 AVAUH
 AVAUI
@@ -306,16 +373,16 @@ AVAUL
 AVAULc
 AVAUM
 AWAVA
+AWAVAU
 AWAVAUA
 AWAVAUATA
 AWAVAUATE1
-AWAVAUATH
 AWAVAUATI
 AWAVAUATL
 AWAVAUATS
 AWAVAUATSH
-AWAVAUATSRH
 AWAVAUATUSH
+AWAVAUD
 AWAVAUE
 AWAVAUE1
 AWAVAUI
@@ -326,18 +393,15 @@ AWAVE1
 AWAVH
 AWAVI
 AWAVL
+AWAVLc
 AWAVM
-AYAZH
+AWAVMc
 A\A]A^A_]
 A\A]A^A_]A
-A\A]A^H
 A\A]A^]
-A\A]H
 A\A]]
 A]A^A_]
-A]A^A_]A
 A]A^]
-A^A_]
 Accel
 ActivateItem
 AddRef
@@ -360,9 +424,11 @@ AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
+Attribute "%s" was defined more than once.
 Auto Update - any changes apply instantly.
 AutoResize
 BContinuousProgressBar
+BP9FP|
 Backspace
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
@@ -391,8 +457,9 @@ ButtonClicked
 ButtonKeyFocusBorder
 C&opy
 C([A\]
+C*|EH
+C,[A\A]]
 C,[A\]
-C4X[]
 CBitmapImagePanel
 CBuildFactoryHelper
 CBuildFactoryHelper:  Factory for '%s' already exists!!!!
@@ -400,16 +467,18 @@ CBuildModeNavCombo
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CDmePanelDefinition
+CDmxElement::UnpackIntoStructure: Mismatched attribute type in attribute "%s"!
+CDmxSerializer::Unserialize: Unable to read file with a prefix element!
+CDmxSerializer::Unserialize: recoverable error reading file without a prefix element count. Continuing...
 CDragDropHelperPanel
+CHE9&~=L
 CHE9f
-CHE;&}=L
-CL$(9
 CMatSystemTexture::SetMaterial
 CMemAllocSystemInitialize
 CMemoryStack %s
 COLORCORRECTION_VERSION_1
-CONTENT
-CONTENTROOT
+CPtRHcS$H
+CSP1H
 CSmallTextEntry
 CTextureDictionary::BindTextureToFile
 CTextureDictionary::GetTextureSize()
@@ -419,11 +488,13 @@ CTextureDictionary::LoadDeferredIdNOW()
 CTextureDictionary::LoadDeferredIdNOW() blocking load of "%s"
 CTextureDictionary::ProcessDeferredResourceLoading()
 CTreeViewListControl
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
 CUtlLinkedList overflow! (exhausted index range)
 CUtlLinkedList overflow! (exhausted memory allocator)
 CUtlMemoryPoolBase
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
+CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer
 CVGuiPaintSurfaceQueued::DrawFilledRectArray
 CVGuiPaintSurfaceQueued::DrawFilledRectFade
 CVGuiPaintSurfaceQueued::DrawOutlinedCircle
@@ -437,7 +508,6 @@ CVGuiRenderSurface::DrawGradientQuad
 CVGuiRenderSurface::Init
 CVGuiRenderSurface::StartDrawing
 CXXABI_1.3
-CXXABI_1.3.8
 CallQueued
 Can't add Keybindings Context for unnamed panels
 CanBeDefaultButton
@@ -457,7 +527,6 @@ CheckButton.HighlightFgColor
 CheckButton.SelectedTextColor
 CheckButton.TextColor
 CheckButtonChecked
-Cht7Lc{pD;
 CircularProgressBar
 CircularProgressBar.BgColor
 CircularProgressBar.FgColor
@@ -483,6 +552,7 @@ ControlModified
 ControlName
 ControlText
 ConversionModeMenu
+Couldn't find bitmap font file '%s'
 Couldn't find script file %s
 Couldn't parse script file: expected 'event', found '%s'
 Couldn't parse script file: expected <event name>, found nothing
@@ -501,32 +571,35 @@ CursorExited
 CursorExitedChild
 CursorExitedMenuItem
 CvarToggleCheckButton
-D$ E1
-D$ H9E
+D$ H9
 D$(A\]
+D$(E1
+D$(H9
 D$0H9
 D$8I9
-D$@E1
+D$8L9
 D$@H9
+D$@Hc
 D$@I9
-D$HD9x
-D$HD;p
-D$HHc
-D$Ht Hc\
-D$XH9
-D$ht~H
-D40D;
-D90txH
-D9}8D
-D9}8~gH
-D;!ttHc
-D;!tx
-D;(tPH
+D$@L9
+D$HD;h
+D)#[A\]
+D+C$Mc
+D+c$Mc
+D+g$E
+D+k$E
+D+k$Mc
+D+s$Mc
+D48D9
+D9y@tO
+D;!t{Hc
+D;'t{Hc
 D;c D
-D;c@|
+D;c tIH
 D;cPD
-D;u0D
-D;u0f
+D;c\|
+D;g(D
+D;y(t(I
 Deaccel
 DebugTextureInfo001
 Default
@@ -565,12 +638,12 @@ DrawFilledRect
 DrawFilledRectArray
 DrawFilledRectFade
 DrawFilledRectFastFade
-DrawFlushText
 DrawGradientFilledRect
 DrawLine
 DrawOutlinedCircle
 DrawOutlinedRect
 DrawPolyLine
+DrawPrintText
 DrawSetAlphaMultiplier
 DrawSetColor
 DrawSetTextColor
@@ -589,15 +662,26 @@ DrawUnicodeChar
 DrawUnicodeString
 DrawWordBubble
 DropContext
+Duplicate attribute name %s encountered!
+E#<$E
+E+D$$Mc
+E+E$Mc
+E+F$Mc
+E+G$Mc
+E+M$Mc
+E+O$Mc
+E+e$Mc
+E+g$Mc
+E+o$Mc
+E+}$Mc
+E9't1A
 E9gPI
-E9t$(D
-E9}@~zI
-E;.tyA
-E;>tyA
-E;nh|
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
-ERROR: Specified full path %s does not lie under the mod search path!)
-ERROR: Specified path %s could not be made content-relative
+E9nh~3I
+E9|$ ~bI
+E;t$ M
+E;|$(D
+EMPTY - ok for slot zero only!
+EXA;]`
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -605,10 +689,13 @@ EditMenu
 EditablePanel
 Empty
 EnableSaveButton
+Encountered duplicate attribute definition for attribute "%s"!
+Encountered invalid element ID data!
 Engine2
 EngineServiceMgr001
 EnvironmentMapBuilder_001
 Error reading attribute "%s"
+Error reading in array attribute "%s" element %d
 Error: Could not save changes.  File is most likely read only.
 Escape
 EventSystem001
@@ -617,18 +704,28 @@ Expand
 ExpandButton
 ExpandButton.Color
 Expanded
-F t2SH
-F t5SH
-FATAL ERROR: unable to register all schema data: %s
+Expecting ',', didn't find it!
+Expecting '[', didn't find it!
+Expecting ']', didn't find it!
+Expecting '{', didn't find it!
+Expecting '}', didn't find it!
+Expecting array attribute value, didn't find it!
+Expecting attribute name, didn't find it!
+Expecting attribute type for attribute %s, didn't find it!
+Expecting element reference, didn't find it!
+Expecting element type name, didn't find it!
+Expecting element type, didn't find it!
+Expecting quoted attribute value for attribute "%s", didn't find one!
+Expecting quoted value for element ID, didn't find one!
 FCVAR_NEVER_AS_STRING
 Fieldname is not unique: %s
+File has not been opened!
 FileSelectionCombo
 FindDefaultButton
 FindLessOrEqual
 FinishDrawing
-FixupResourceName: Illegal full path passed in ("%s")!
-FixupResourceName: Illegal path, missing extension passed in ("%s")!
 FlashWindow
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 Flicker
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
@@ -660,14 +757,23 @@ FrameTitleButton.BgColor
 FrameTitleButton.DisabledBgColor
 FrameTitleButton.DisabledFgColor
 FrameTitleButton.FgColor
-G<@t6
-G<@teA
-G<@teI
-G<@t~
-G<@uCD
+G A9G
+G u)H
+G<@t	]
+G<@t L
+G<@t#f
+G<@t$
+G<@t+]H
+G<@t1H
+G<@t:
+G<@tLL
+G<@tUI
+G<@ta
+G<@th
+G<@tp
+G@Lc+L
 GAMECONSOLE
-GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
-GHE;\$
+GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
@@ -676,7 +782,6 @@ GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUI
 GameUIService_001
-GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
 GetCPUInformation
 GetCommand
 GetResourceManifestCount
@@ -688,28 +793,33 @@ GraphPanel.BgColor
 GraphPanel.FgColor
 GxUHc
 H	p(]
+H	w(UH
 H!w(H
 H+S H
-H9sht*I
-H;*twH
-H;0t7H
-H;2t/H
-H;2t=H
-H=vmat
-H=vtex
-H=vtext*H
+H9*tgH
+H92t#H
+H92t4H
+H9sht"I
+H;S@w
+H=vmatH
+H=vmatt*H=vtexu
 HIGHDPI
 HKEY_CURRENT_USER\Software\Valve\Steam\Language
 H[A\A]A^A_]
 H[A\A]]
+H[]A\A]A^A_
 HammerMapLoader001
-HcC@H
-HcK$D
-HcO$H
-HcS$D
+HcC H9
+HcC$9
+HcC$H
+HcHPH
+HcKH1
+HcKPHc
+HcKpIc
+HcS$H
 HcSPH
-HcW$H
-Hcs@H
+HcWPH
+Hcs H
 HelpSystem_001
 HideNewControlMenu
 Holding right mouse button down opens a dropdown panel creation menu.
@@ -717,21 +827,20 @@ HookUpConfigValue
 HorizScrollBar
 HostStateMgr001
 Hotkey
+I9_ s
+I;V@w
 I;_ v
-IHcKPIc
 IMECandidatesMenu
 IQuickTime001
-IcD$@H
 IcG@H
-IcG@M
-IcL$$E
-IcO@H
-IcOpIc
-Ic\$@H
-Ic\$@I
-Ic\$hA;\$x
-Ic_XA;_h
+IcL$@1
+IcM(Ic
+IcOPH
+IcOhIc
+Ic]PI
+Ic_XA;_htnI
 Ic_xA;
+Icu`H
 IgnoreScheme
 In the Build Mode Dialog Window:
 In the Context Panel:
@@ -743,10 +852,11 @@ InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 InstallSchemaBindings
 Intentionally vague touch behavior for %p
+Invalid format for element ID encountered for attribute "%s"
 Invalid parent region %s specified for region %s in panel %s
 Invalidate
-JSON error, unterminated element: 
-Jc<2D
+Jc<(H
+K,[A\]
 KEY_0
 KEY_1
 KEY_2
@@ -854,7 +964,6 @@ KEY_W
 KEY_X
 KEY_Y
 KEY_Z
-KTu6L
 KV Conditional Evaluation Error
 K`H94
 Key Pad *
@@ -886,11 +995,14 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
-L$ H9
-L+chI
+L$HD9y
+L$HD;i
+L+g H
+L+khI
 L9(t2L
-L; tY
-L;8t(H
+L9c`t}L
+L; ta
+LHcK@Ic
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
@@ -904,16 +1016,19 @@ Label.TextDullColor
 LabelChanged
 LanguageMenu
 LayoutFileChanged
-Lc E;e
 Lc#D;c
-Lc0E;t$
-Lc0E;u
+Lc+D;k
+Lc/E)
+Lc3D;s
+Lc5xr1
+Lc6E9
 Lc7E)
-Lc8E;|$
-Lc8E;~
 Lcc@H
+LcchD;cxD
+LccpD;
 Lcg H
-Lcs@D;sP
+LckpD;
+Lc{pD;
 ListImage
 ListPanel.BgColor
 ListPanel.DisabledSelectedTextColor
@@ -933,27 +1048,24 @@ LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
-M9l$ s
 M;e v
-M;l$ 
-M;} v
+M;u v
 MATCHFRAMEWORK_001
 MATSURFACE
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
-M`L;<
 MapListService_001
 Marlett
 MarlettSmall
 MaterialUtils_001
 MathLib_Init
 MbP?+
-Mc/E;o
-McG`A)
-Mcg@D
-McgXE;ghD
-McgxE;
+Mc,$I
+Mc7E;w
+McExE;
+Mcl$0E;l$@u
 Mcl$pE;
+Mco@E;oP
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Menu.ArmedBgColor
@@ -988,6 +1100,7 @@ MouseWheeled
 MoveScrollBar
 MoveScrollBarDirect
 N4vgui10BuildGroupE
+N4vgui10CSizerBaseE
 N4vgui10ClickPanelE
 N4vgui10GraphPanelE
 N4vgui10ImagePanelE
@@ -1042,10 +1155,12 @@ N4vgui8RichTextE
 N4vgui8TreeNodeE
 N4vgui8TreeViewE
 N4vgui8URLLabelE
+N4vgui9CBoxSizerE
 N4vgui9ListPanelE
 N4vgui9ScrollBarE
 N4vgui9TextEntryE
 N4vgui9TextImageE
+NE fA
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -1062,7 +1177,6 @@ No such Panel Animation class %s
 Num Lock
 Num Lock Toggle
 NumericInputOnly
-OXA+OP
 OnCancel
 OnChangeChild
 OnCursorMoved
@@ -1076,15 +1190,17 @@ OpenColumnChoiceMenu
 OpenContextMenu
 Ordered constructor wrapped type has no default constructor.
 P HcE
-P(IcD$
-PE;&|
+P8H=vtext?H
+P@D;PP
 POSIX
 PX[A\A]A^]
 P[A\A]A^]
 P[A\]
+P`H9E
 Panel::ReloadKeyBindings:  Can't find entry for panel '%s'
 Panel::SaveKeyBindings '%s' is read-only!!!
 PanelListEmbedded
+PanelListPanel
 PanelListPanelVScroll
 PanelMoved
 PanelPtr
@@ -1092,7 +1208,7 @@ PanelSelected
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-ParticleSystemMgr003
+ParticleSystemMgr002
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
 PinCorner
@@ -1104,8 +1220,6 @@ Plat_DestroyWindow
 Plat_ExitProcess
 Plat_FlashWindow
 Plat_FloatTime
-Plat_GetEnv
-Plat_GetModuleFilename
 Plat_GetOSType
 Plat_GetThreadIndex
 Plat_GetWindowBounds
@@ -1131,22 +1245,25 @@ PrevChild
 PropertyEditorSystem_001
 Pulse
 PushMakeCurrent
+QAUATSH
+QHcKHIc
 Queued fxn call: %s
 Queued fxn call: %s '%s'
 QueuedLoaderVersion001
 R0[A\]
-R@X[]
+R8Y[]
+RHcK Ic
 RadioButton
 RadioButtonChecked
 RandomFloat
 RandomSeed
+Reading externally referenced elements is not supported!
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
 RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
-RegisterAllModuleData
 RegisterConfigValue: Unknown error constructing config value "%s"!
 Release
 ReloadLocalization
@@ -1179,11 +1296,10 @@ RichText.TextColor
 RichText: textfile parameter '%s' not found.
 RichTextInterior
 RoundedCorners
-S HcS
-S,9S$}
-S,;S$
+RpA]A^]
+S,;S$~
 S0;S 
-SHA_D
+S@t|f
 SSE and SSE2 are required.
 Save button - saves all settings to file. 
 ScalableImagePanel
@@ -1228,6 +1344,7 @@ ScrollBar_Vertical
 ScrollButtonPressed
 SelectedImage
 SentenceModeMenu
+SerializeDMX: Unable to open file "%s"
 SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetActiveControl
@@ -1251,6 +1368,7 @@ Shift
 Shift clicking panels allows multiple panels to be selected into a group.
 ShowHelp
 ShowNewControlMenu
+Sht7Lc{pD;
 ShutdownRequest
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -1270,14 +1388,19 @@ Source2Server001
 Source2ServerSerializers002
 Space
 Spline
+StVHc
 StartDrawing
 StatsService_001
 StatusLabel
 SteamAudio001
 StopPanelAnimations
 StoreUndo
-T$HD92twH
+String %d: ref:%d %s
+Su	[A\]
+T$8H)
+T$HD;2twH
 T$HD;r
+T$HHc
 Test vgui panel positioning with title safe indentation
 TestFormatA
 TestFormatB
@@ -1336,18 +1459,23 @@ TreeViewItemDoublePressed
 TreeViewItemSelected
 TreeViewItemSelectionCleared
 TreeViewStartRangeSelection
+Tried to rename from "%s" to "%s", but "%s" already exists!
 Typing Enter in any text field applies changes.
-UIcL$@Ic
+UIcOPIc
 URLLabel
 UUID_1.0
+U`L;4
 Unable to create panel %s!
 Unable to read panel %s! UtlBuffer is the wrong type!
+Unexpected EOF in quoted string
 UnpinnedCornerOffsetX
 UnpinnedCornerOffsetY
+UnserializeDMX: Unable to open file "%s"
 UpArrow
 UpdateControlData
 UseL4D2VguiHack
 UserInfoChangeService_001
+V0u@H
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -1355,6 +1483,7 @@ VBaseFileSystem011
 VBik001
 VConComm001
 VDebugService_001
+VDmeMakeFileUtils001
 VEngineCvar007
 VFileSystem017
 VGUI Build Mode Editor
@@ -1385,15 +1514,14 @@ VProcessUtils002
 VProfService_001
 VR_001
 VRenderDeviceSetupV001
+VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
 V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
-V_GetFileExtension
 V_IsAbsolutePath
-V_PathContainsPath
 V_RemoveDotSlashes
 V_SetErrno
 V_StrTrim
@@ -1410,7 +1538,6 @@ V_asinf
 V_atan2f
 V_atanf
 V_atof
-V_atofloat64
 V_atoi
 V_cosf
 V_expf
@@ -1445,6 +1572,8 @@ V_wcsicmp
 V_wcsnicmp_cch
 V_wcstod
 V_wcstoi64
+VaPrintf
+Value %s exeeds size of datatype. 
 Valve Client
 VarsButton
 VarsMenu
@@ -1455,15 +1584,15 @@ VguiCallQueue
 VguiPaint3D
 VguiRenderSurfaceInit
 VisBuilder_001
-W u)H
+WARNING: Failed to create attribute '%s' - likely out of memory in s_DMXAllocator!
 WARNING: Trying to create a CRenderContextPtr without a valid context.
+WHD;s
 WIN32
 WIN32HIDEF
 WIN32LODEF
 WIN32WIDE
 WINDOWS
 WINXP
-W\A+WT
 Warning
 Warning:  %s = '%s' is infinite, clamping value.
 WindowDisabledBgColor
@@ -1471,32 +1600,37 @@ Windows
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
+XD$ A
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
+YD$$L
+ZIcL$
 [ no resource file associated with dialog ]
 [%s] applying key '%s', has changed from '%s' to '%s'
-[A\A]
-[A\A]A
 [A\A]A^A_]
 [A\A]A^A_]A
-[A\A]A^H
 [A\A]A^]
-[A\A]A^]H
-[A\A]H
 [A\A]]
-[A\]H
+[A\A^]
 []A\A]
 []A\A]A^
 []A\A]A^A_
 [nothing currently selected]
+\IcL$
+\t!Hc
+\u0000
 \ufE1
-] tEE
-^IcL$ Ic
-_HATSH
+]H+G 
+]Ht,A
+]IcD$
+^ t+H
+^@Lcc0D;c@
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
+_IcD$
 _Jv_RegisterClasses
+_Tz6u4
 _V_ComposeFileName
 _V_ExtractFileExtension
 _V_ExtractFilePath
@@ -1522,28 +1656,9 @@ _Z6ConMsgPKcz
 _Z6DevMsgPKcz
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
-_ZN13CBufferString10ExtendPathEPKcc
-_ZN13CBufferString10FixSlashesEc
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
-_ZN13CBufferString11ShortenPathEv
-_ZN13CBufferString11ToLowerFastEi
-_ZN13CBufferString12AppendConcatEiPKPKcPKib
-_ZN13CBufferString12SetExtensionEPKc
-_ZN13CBufferString13AppendFormatVEPKcP13__va_list_tag
-_ZN13CBufferString13FixupPathNameEv
-_ZN13CBufferString14RemoveFirstDirEPS_
-_ZN13CBufferString15ComposeFileNameEPKcS1_c
-_ZN13CBufferString15ExtractFilePathEPKc
-_ZN13CBufferString16MakeAbsolutePathEPKcS1_
-_ZN13CBufferString16MakeRelativePathEPKcS1_
-_ZN13CBufferString16RemoveDotSlashesEc
-_ZN13CBufferString18StripTrailingSlashEv
-_ZN13CBufferString4SwapERS_
 _ZN13CBufferString5PurgeEi
-_ZN13CBufferString6ConcatEPKcS1_z
-_ZN13CBufferString6InsertEiPKcib
 _ZN13CBufferString6SetPtrEPciibb
-_ZN13CBufferString8RemoveAtEii
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -1582,8 +1697,6 @@ __cxa_guard_release
 __cxa_guard_release@@CXXABI_1.3
 __cxa_pure_virtual
 __cxa_pure_virtual@@CXXABI_1.3
-__cxa_throw_bad_array_new_length
-__cxa_throw_bad_array_new_length@@CXXABI_1.3.8
 __dynamic_cast
 __dynamic_cast@@CXXABI_1.3
 __gmon_start__
@@ -1599,16 +1712,15 @@ _hidef
 _init
 _lodef
 `[A\A]A^]
+`[A\]
 aIcD$
+a`t<L
 abort@@GLIBC_2.2.5
-all_projects_common_code.cpp
 allcaps
 allowMouseWheel
 alpha
 anim_framerate
 animate
-animatingimagepanel.cpp
-animationcontroller.cpp
 append
 archive
 armedBgColor_override
@@ -1626,10 +1738,9 @@ bg_image
 bgcolor
 binary
 binary_array
-binary_auto
 binary_bc
-binary_lz4
-bitmapimagepanel.cpp
+binary_v1
+binary_v2
 blinkFgColor_override
 bool_array
 borrow
@@ -1637,11 +1748,9 @@ bottom
 brighttext
 build mode flags
 buildfactoryhelper.cpp
-buildgroup.cpp
-buildmodedialog.cpp
 button
-button.cpp
-camera.cpp
+c.[A\]
+cIcD$
 ceil@@GLIBC_2.2.5
 ceilf
 ceilf@@GLIBC_2.2.5
@@ -1649,35 +1758,23 @@ cellcolor
 center
 centerwrap
 changed
-characterset.cpp
 cheat
-checkbutton.cpp
-checksum_crc.cpp
 children
-circularprogressbar.cpp
 cl_hud_minmode
 client
 clientcmd_can_execute
 clientinsetx_override
-clip2d.cpp
 color
 color_array
 column
-combobox.cpp
 command
 configvalue.cpp
 controls
-controls.cpp
-convar.cpp
 cos@@GLIBC_2.2.5
-crtstuff.c
-cursor.cpp
 cvar_name
 cvar_value
-cvartogglecheckbutton.cpp
 dH34%(
 dH3<%(
-dIcD$
 debugbreak
 default
 default foreground color
@@ -1695,14 +1792,8 @@ developer
 disabled
 disabledBgColor_override
 disabledFgColor_override
-divider.cpp
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
-dmxattribute.cpp
-dmxelement.cpp
-dmxloader.cpp
-dmxloadertext.cpp
-dmxserializationdictionary.cpp
 drawColor
 draw_corner_height
 draw_corner_width
@@ -1711,28 +1802,30 @@ drawcolor_override
 drophoverdelay
 droppable
 dulltext
-e@Ic\$0A;\$@
+e tKE
+eIcD$
 editable
-editablepanel.cpp
 element
 element_array
 elementid
+encoding %s %d format %s %d
 english
-expandbutton.cpp
-exprevaluator.cpp
-f;0tZfD
-f;0t_fD
-f;7tt
+f;0tr
+f;S.w
 f;r`u
-fD;!t
+f@Mcl$0E;l$@tXI
+f@Mc|$
+fA;0M
+fA;0trA
+fB9T 
+fD;!tKH
+fE#<$fE
 ffff.
 fffff.
 ffffff.
 fg_image
 fgcolor
 fieldName
-filesystem_helpers.cpp
-fileutils.cpp
 fillColor
 fillcolor
 fillcolor_override
@@ -1744,9 +1837,7 @@ floor@@GLIBC_2.2.5
 floorf
 floorf@@GLIBC_2.2.5
 fmod@@GLIBC_2.2.5
-focusnavgroup.cpp
 frame
-frame.cpp
 frame_blGrip
 frame_bottomGrip
 frame_brGrip
@@ -1764,36 +1855,32 @@ frame_trGrip
 frames
 free@@GLIBC_2.2.5
 ftp://
+g E;g0D
+g0D;g@D
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_pMemAlloc
 generic
-generichash.cpp
-graphpanel.cpp
+gfffA
 group
 h@t)H
-hD; }dH
-hD;(}\L
+hD9 ~dH
+hD9(~\L
+hE;&|
 h[A\A]A^A_]
 h[A\A]]
 handle
 hslider
 http://
-i`t<H
 iconImage
-image.cpp
 imageAlignment
 imageSelected
 imagecolor
-imagelist.cpp
-imagepanel.cpp
 index
 infocus_bgcolor_override
-input.cpp
 inputsystem
 int( %d = 0x%X )
 int_array
-interface.cpp
 interfaces.cpp
 iswalnum
 iswalnum@@GLIBC_2.2.5
@@ -1804,14 +1891,22 @@ iswdigit@@GLIBC_2.2.5
 iswspace@@GLIBC_2.2.5
 itemID
 itemIndex
-json_parser.c
+jbtKK
+k8D;kHtMH
+k@[A\A]A^]
+kHt6L
 keybindings
 keyboardFocusColor_override
 keyboardinputenabled
 keycode
-keyvalues.cpp
+keyvalues2
 keyvalues2_flat
-label.cpp
+keyvalues2_flat_v1
+keyvalues2_v1
+kht:D
+kt498u
+l$ L9
+l$ M9u
 labelText
 labeltext
 lastBarWidth
@@ -1825,8 +1920,6 @@ libuuid.so.1
 libvguirendersurface.so
 libvguirendersurface.so.dbg
 libvstdlib.so
-listpanel.cpp
-listviewpanel.cpp
 localize
 m_bAutoHideButtons
 m_flAlpha
@@ -1840,7 +1933,6 @@ m_nPaintBackgroundType
 mailto:
 malloc
 malloc@@GLIBC_2.2.5
-manifestregistrar.cpp
 materials
 materials/vgui/hud/800corner1.vmat
 materials/vgui/hud/800corner2.vmat
@@ -1859,19 +1951,12 @@ memcpy
 memcpy@@GLIBC_2.14
 memmove
 memmove@@GLIBC_2.2.5
-memoverride.cpp
-mempool.cpp
 memset
 memset@@GLIBC_2.2.5
-memstack.cpp
-menu.cpp
-menubar.cpp
-menubutton.cpp
-menuitem.cpp
-messagebox.cpp
 minimum-height
 minimum-width
 mouseinputenabled
+n D+n
 navDown
 navLeft
 navRight
@@ -1879,27 +1964,24 @@ navUp
 newPanel
 north
 north-east
-north-west
 northeast
 northwest
 notconnected
 notify
 oldtall
 oldwide
-opATSH
 original
 outoffocus_bgcolor_override
 overrideChildPanelWidth
+p[A\]
 paintbackground
 paintborder
 panel
 panel name
-panel.cpp
 panelClassType
 panelName
 panelPtr
 panel_test_title_safe
-panellistpanel.cpp
 paramName
 pin corner
 pin delta x
@@ -1911,7 +1993,6 @@ position
 prepend
 preserveAspectRatio
 progress
-progressbar.cpp
 proportionalToParent
 proportional_float
 proportional_int
@@ -1932,16 +2013,16 @@ pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
+qIcL$
 qangle
 qangle_array
 qsort
 qsort@@GLIBC_2.2.5
 quaternion
 quaternion_array
-quaternionaligned.cpp
+r7LcQ
 r_screen_size_expansion
-radiobutton.cpp
-randsse.cpp
+reading file '%s' of legacy format '%s' - dmxconvert this file to a newer format!
 replace
 replaceSelection
 replicated
@@ -1949,21 +2030,16 @@ resize delta x
 resize delta y
 resource/layout/%s.layout
 resource/layout/%s_%s.layout
-resourcedictionary.cpp
 resourcesystem
 result
-richtext.cpp
 runevent
-s0[A\H
-scalableimagepanel.cpp
+sMA;|$ 
+s_DMXAllocator
 scaleAmount
 scaleImage
-schemabindings.cpp
 screenx
 screeny
 scrollbar
-scrollbar.cpp
-scrollbarslider.cpp
 selectionColor_override
 selectionTextColor_override
 selfDroppable
@@ -1974,8 +2050,7 @@ shift
 should PostActionSignals
 showScrollBar
 sin@@GLIBC_2.2.5
-sincos
-sincos@@GLIBC_2.2.5
+sincosf@@GLIBC_2.2.5
 sinf@@GLIBC_2.2.5
 singleplayer
 sound_armed
@@ -1994,7 +2069,6 @@ src_corner_height
 src_corner_width
 ss_added
 sscanf@@GLIBC_2.2.5
-sseconst.cpp
 state
 steam://
 steambeta://
@@ -2009,7 +2083,6 @@ strcpy@@GLIBC_2.2.5
 string
 string fieldName, int xpos, int ypos, int wide, int tall, bool visible, bool enabled, int tabPosition, corner pinCorner, autoresize autoResize, string tooltiptext, string appearance
 string_array
-stringpool.cpp
 strlen
 strlen@@GLIBC_2.2.5
 strncpy@@GLIBC_2.2.5
@@ -2021,45 +2094,57 @@ style
 subFocus
 subtabposition
 swscanf@@GLIBC_2.2.5
+t	;Ch
+t	[A\A]A^]
 t	[A\]
-t$	H9
-t$H9]
-t$H;h
-t$HcW
-t%~W=
-t/HcU
-t2[A\A]A^]
-tC[A\A]A^]
-tD<.u
-tLD;e
-tTHcu
-tYHcE
+t"HcK
+t"HcO
+t#fD;0u
+t$@A\]
+t$@Lc
+t$H9h
+t'Lc#D;c
+t'Lc+
+t(Lc#D;c
+t(Lc+
+t*HcO
+t+Hc4
+t+Jc4
+t,Lc+H
+t-Lck
+t.Hcu
+t3[A\]
+t4[A\]
+t5Lc+I
+t6HcO
+t9HcE
+t?D9u
+t@@:>u
+tL[A\A]A^]
+tR[A\A]A^]
+tSHcO
+tWA9]
 tYHcU
-t^Ic\$
-t_[A\]
-t`Ic\$X
+t[HcU
+t]D9u
+t]D;e
+t`[A\]
 tab position
 tabPosition
-tan@@GLIBC_2.2.5
+tanf@@GLIBC_2.2.5
+tdA:]
 texcoordH
 textAlignment
 textHidden
 textalignment
-textentry.cpp
 textfile
-textimage.cpp
 textinsetx
 textinsety
-texturedictionary.cpp
 textureid
-thIcG
-tier1.cpp
-tier2.cpp
 tileHorizontally
 tileImage
 tileVertically
 time_array
-timeutils.cpp
 title_font
 titlebarbgcolor_override
 titlebardisabledbgcolor_override
@@ -2067,23 +2152,30 @@ titlebardisabledfgcolor_override
 titlebarfgcolor_override
 titletextinsetX
 titletextinsetY
-togglebutton.cpp
+tmLck
 tooltip
-tooltip.cpp
 tooltiptext
 towlower
 towlower@@GLIBC_2.2.5
 towupper
 towupper@@GLIBC_2.2.5
-tqLch
-treeview.cpp
-treeviewlistcontrol.cpp
-tyHcW
-t|UHc
-u	[A\]
-u+[A\]
+ttIcG
+tvMcgXE;gh
+txA;\$ I
+tyHcC
+tyHcO
+t|HcC
+t}HcO
+u [A\]
 u64( %lld = 0x%llX )
-uA[A\]
+u7Lc#D;c
+u8Lc#D;c
+u:Lcc
+u<Lc#D;c
+u@Lcc
+uLLc#D;c
+uMLc#D;c
+uW[A\A]A^]
 uint64
 uint64_array
 uint8
@@ -2091,26 +2183,19 @@ uint8_array
 unable to find control '%s'
 unichar
 unicode
-uniqueid.cpp
 unknown
 unnamed
 unused
 update
-urllabel.cpp
 use scheme colors
 use_proportional_insets
 usetitlesafe
-utlbinaryblock.cpp
 utlbuffer.cpp
-utlbufferutil.cpp
-utlmemory.cpp
-utlstreambuffer.cpp
 utlstring.cpp
-utlsymbol.cpp
 uuid_generate
 uuid_generate@@UUID_1.0
+v!<\t
 variable
-vector.cpp
 vector2
 vector2_array
 vector3
@@ -2124,20 +2209,14 @@ vgui::Button
 vgui::HFont
 vguiRender
 vgui_controls is missing a required interface!
-vgui_controls.cpp
 vgui_draw_regions
-vgui_key_translation.cpp
 vguioffscreenrendertarget
 vguioffscreenrendertargetdepth
-vguipaintsurfacemainthread.cpp
-vguipaintsurfacequeued.cpp
-vguirendersurface
 vguirendersurface.cpp
 vmatL
-vmatrix.cpp
 vslider
-vtexL
-wHA+WTB
+vtexH
+w0AUATSH
 wcschr
 wcschr@@GLIBC_2.2.5
 wcscmp
@@ -2146,32 +2225,39 @@ wcscpy
 wcscpy@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
+x HcW
 x6Hcw
-x@HcO
-xBHcO
+x@D;xP
+xGHcO
+xOHcO
 xRHcW
 xWHcW
 x[A\A]A^A_]
-x|LcG
-zP9~P|
-zbtOA
-z~u|f
-{ |<H
+z/u-H
+{ f;C(
+{8;C0t4
+{}()'
 {}()':
-|$0E;|$@
-|$0L9
-|$@E1
-|[IcE
-|]IcE
-|iIcE
-}(f;w"w"H
-}YfA;
-~)H;7I
-~/D;s@t_H
-~7;w$
-~9;w$
-~Ef;w
-~I;w$
-~N;w$
-~ef;w
-~m@:w
+|$@Lc
+|$HD;w
+|+A;\$
+}-f;w"w'H
+}>;w$
+}F;w$
+}Hf;w
+}I;w$
+}IcL$
+}N;w$
+}[fA;
+}ef;w
+}m@:w
+~	ATI
+~ [A\A]A^]
+~&H97t@
+~)A;]
+~1Lce
+~8D9b@
+~8HcE
+~SHcC
+~aHcW
+~vHcKPHc

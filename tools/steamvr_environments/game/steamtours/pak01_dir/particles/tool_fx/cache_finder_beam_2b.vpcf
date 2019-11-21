@@ -40,9 +40,15 @@
 		},
 		{
 			_class = "C_OP_DistanceToCP"
-			m_nFieldOutput = "26"
+			m_nFieldOutput = 26
 			m_flInputMax = 190.000000
 			m_flOutputMax = 20.000000
+			m_bDisableOperator = true
+		},
+		{
+			_class = "C_OP_RemapSpeedtoCP"
+			m_nOutControlPointNumber = 1
+			m_flInputMax = 255.000000
 			m_bDisableOperator = true
 		},
 		{
@@ -54,9 +60,15 @@
 			m_bDisableOperator = true
 		},
 		{
+			_class = "C_OP_SetCPOrientationToPointAtCP"
+			m_nInputCP = 0
+			m_nOutputCP = 1
+			m_bDisableOperator = true
+		},
+		{
 			_class = "C_OP_RemapCPtoVector"
 			m_nCPInput = 2
-			m_nFieldOutput = "6"
+			m_nFieldOutput = 6
 			m_vInputMax = 
 			[
 				255.000000,
@@ -215,8 +227,8 @@
 			m_fForceAmount = 50.000000
 			m_TwistAxis = 
 			[
-				1.000000,
 				0.000000,
+				1.000000,
 				0.000000,
 			]
 			m_bLocalSpace = true
@@ -227,21 +239,6 @@
 			m_fForceAmount = 300.000000
 			m_fFalloffPower = 0.000000
 			m_nControlPointNumber = 1
-			m_bDisableOperator = true
-		},
-	]
-	m_PreEmissionOperators = 
-	[
-		{
-			_class = "C_OP_RemapSpeedtoCP"
-			m_nOutControlPointNumber = 1
-			m_flInputMax = 255.000000
-			m_bDisableOperator = true
-		},
-		{
-			_class = "C_OP_SetCPOrientationToPointAtCP"
-			m_nInputCP = 0
-			m_nOutputCP = 1
 			m_bDisableOperator = true
 		},
 	]

@@ -191,7 +191,7 @@
 "[english]MenuAction_SteamVRHardwareDiscussions"	"SteamVR Hardware Discussions"
 "MenuAction_SteamVRDeveloperSupport"	"Soporte para desarrolladores de SteamVR"
 "[english]MenuAction_SteamVRDeveloperSupport"	"SteamVR Developer Support"
-"MenuAction_SteamWorksDeveloperSupport"	"Soporte para desarrolladores de Steamworks"
+"MenuAction_SteamWorksDeveloperSupport"	"Soporte para desarrolladores Steamworks"
 "[english]MenuAction_SteamWorksDeveloperSupport"	"SteamWorks Developer Support"
 "MenuAction_CreateSystemReport"	"Crear informe del sistema"
 "[english]MenuAction_CreateSystemReport"	"Create System Report"

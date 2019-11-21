@@ -1147,7 +1147,7 @@
 "[english]Settings_Bluetooth_Driver_Install"	"Install Bluetooth Driver"
 "Settings_PowerOffControllers_Info"	"     "
 "[english]Settings_PowerOffControllers_Info"	" "
-"Settings_PowerOffBaseStations_Text"	"Ativar gerenciamento de energia de estações base"
+"Settings_PowerOffBaseStations_Text"	"Ativar gerenciamento de energia da estação base"
 "[english]Settings_PowerOffBaseStations_Text"	"Enable Base Station Power Management"
 "Settings_PowerOffBaseStations_Info"	"O Link Bluetooth deve estar instalado para ativar este recurso."
 "[english]Settings_PowerOffBaseStations_Info"	"Bluetooth Link must be installed to enable this feature."

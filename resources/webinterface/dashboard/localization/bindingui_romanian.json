@@ -311,7 +311,6 @@
   "SecondaryControllerTab": "Extra Settings",
   "SecondaryController_ReturnWithLeftHand": "Return bindings with left hand",
   "SecondaryController_ReturnWithRightHand": "Return bindings with right hand",
-  "SecondaryController_ReturnWithHead": "Return bindings with HMD",
   "Settings_ThumbstickDeadzone_Text": "Thumbstick Deadzone:",
   "Settings_ControllerSettings_Title": "Thumbstick Settings",
   "Settings_ControllerSettings_Utilities": "Controller Utilities",

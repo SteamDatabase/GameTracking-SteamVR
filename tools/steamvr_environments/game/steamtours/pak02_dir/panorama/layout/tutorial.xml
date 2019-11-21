@@ -145,33 +145,7 @@
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_winmr_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
 						<Label class="TutorialDesc" text="#TutorialWelcome_Tile3_Desc" />
 					</Panel>
-
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile1_Desc" />
-          </Panel>
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile2_Desc" />
-          </Panel>
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_knuckles_3_png.vtex" />
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile3_Knuckles_Desc" />
-          </Panel>
-
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile1_Desc" />
-          </Panel>
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile2_Desc" />
-          </Panel>
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_cosmos_3_png.vtex" />
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile3_Cosmos_Desc" />
-          </Panel>
-        </DestinationsScrollPanel>
+				</DestinationsScrollPanel>
 				
 				<Panel class="TutorialBottom">
 						<Label class="TutorialDescBottom" id="ViveBottomText" text="#TutorialWelcome_Bottom_Desc" />
@@ -256,33 +230,7 @@
 						<Label class="TutorialDesc" text="#TutorialTeleport_Tile3_Touch_Desc" />
 					</Panel>
 
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_knuckles_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile1_Knuckles_Desc" />
-          </Panel>
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_knuckles_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile2_Knuckles_Desc" />
-          </Panel>
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_3_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile3_Knuckles_Desc" />
-          </Panel>
-
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_cosmos_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile1_Cosmos_Desc" />
-          </Panel>
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_cosmos_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile2_Cosmos_Desc" />
-          </Panel>
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_3_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile3_Cosmos_Desc" />
-          </Panel>
-
-        </DestinationsScrollPanel>
+				</DestinationsScrollPanel>
 				
 				<Panel class="TutorialBottom">
 						<Label class="TutorialDescBottom" id="ViveBottomText" text="#TutorialTeleport_Bottom_Desc" />
@@ -315,15 +263,16 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage3Scroll" overscroll-y="100" target="TutorialPage3">
 					
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialquest_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialQuest_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialquest_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialQuest_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialquest_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialQuest_Tile3_Desc" />
 					</Panel>
@@ -361,15 +310,16 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
 			
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialavatar_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialAvatar_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialavatar_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialAvatar_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialavatar_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialAvatar_Tile3_Desc" />
 					</Panel>
@@ -407,19 +357,20 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
 					
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialprops_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialProps_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialprops_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialProps_Tile2_Desc" />
+
 					</Panel>
 					<Panel class="TutorialTile ViveHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialprops_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialProps_Tile3_Desc" />
 					</Panel>
-					<Panel class="TutorialTile TouchHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile TouchHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialprops_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialProps_Tile3_Touch_Desc" />
 					</Panel>
@@ -457,15 +408,16 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
 			
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialtools_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialTools_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialtools_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialTools_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialtools_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialTools_Tile3_Desc" />
 					</Panel>
@@ -503,15 +455,16 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
 			
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialpublic_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialPublic_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp ">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelpControllerHelp ">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialpublic_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialPublic_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialpublic_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialPublic_Tile3_Desc" />
 					</Panel>
@@ -549,15 +502,16 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
 			
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialprivate_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialPrivate_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialprivate_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialPrivate_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialprivate_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialPrivate_Tile3_Desc" />
 					</Panel>
@@ -595,15 +549,16 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
 			
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialsocial_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialSocial_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialsocial_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialSocial_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialsocial_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialSocial_Tile3_Desc" />
 					</Panel>
@@ -641,15 +596,16 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
 			
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialmulti_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialMultiTool_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialmulti_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialMultiTool_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialmulti_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialMultiTool_Tile3_Desc" />
 					</Panel>
@@ -687,15 +643,16 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
 			
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialsaved_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialSaved_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialsaved_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialSaved_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialsaved_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialSaved_Tile3_Desc" />
 					</Panel>
@@ -733,15 +690,16 @@
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
 			
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialhome_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialHome_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialhome_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialHome_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialhome_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialHome_Tile3_Desc" />
 					</Panel>
@@ -779,7 +737,6 @@
 			<Panel class="TutorialArea">
 								
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage1Scroll" overscroll-y="100" target="TutorialPage1">
-          
 					<Panel class="TutorialTile ViveHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialWelcome_Tile1_Desc" />
@@ -792,6 +749,7 @@
 					<Panel class="TutorialTile ViveHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialWelcome_Tile3_Desc" />
+
 					</Panel>
 
 					<Panel class="TutorialTile TouchHelp">
@@ -807,6 +765,7 @@
 					<Panel class="TutorialTile TouchHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_touch_3_png.vtex" />		
 						<Label class="TutorialDesc" text="#TutorialWelcome_Tile3_Touch_Desc" />
+
 					</Panel>
 	
 					<Panel class="TutorialTile WinMRHelp">
@@ -822,38 +781,10 @@
 					<Panel class="TutorialTile WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_winmr_3_png.vtex" />		
 						<Label class="TutorialDesc" text="#TutorialWelcome_Tile3_WinMR_Desc" />
+
 					</Panel>
-
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile1_Touch_Desc" />
-
-          </Panel>
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile2_Touch_Desc" />
-
-          </Panel>
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_knuckles_3_png.vtex" />
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile3_Knuckles_Desc" />
-          </Panel>
-
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile1_Touch_Desc" />
-          </Panel>
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile2_Touch_Desc" />
-
-          </Panel>
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_cosmos_3_png.vtex" />
-            <Label class="TutorialDesc" text="#TutorialWelcome_Tile3_Cosmos_Desc" />
-          </Panel>
-
-          <Panel class="TutorialTile ControllerHelp">
+					
+					<Panel class="TutorialTile ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialWelcome_Tile1_Controller_Desc" />
 
@@ -866,9 +797,9 @@
 					<Panel class="TutorialTile ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialwelcome_controller_3_png.vtex" />		
 						<Label class="TutorialDesc" text="#TutorialWelcome_Tile3_Controller_Desc" />
-					</Panel>
 
-        </DestinationsScrollPanel>
+					</Panel>
+				</DestinationsScrollPanel>
 				
 				<Panel class="TutorialBottom">
 						<Label class="TutorialDescBottom" id="ViveBottomText" text="#TutorialWizard_Bottom_Desc" />
@@ -911,6 +842,7 @@
 					<Panel class="TutorialTile ViveHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialTeleport_Tile2_Desc" />
+
 					</Panel>
 					<Panel class="TutorialTile ViveHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_3_png.vtex" scaling="stretch-to-fit-preserve-aspect" />		
@@ -924,6 +856,7 @@
 					<Panel class="TutorialTile TouchHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_touch_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialTeleport_Tile2_Touch_Desc" />
+
 					</Panel>
 					<Panel class="TutorialTile TouchHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_3_png.vtex" scaling="stretch-to-fit-preserve-aspect" />		
@@ -937,45 +870,22 @@
 					<Panel class="TutorialTile WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_winmr_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialTeleport_Tile2_Touch_Desc" />
+
 					</Panel>
 					<Panel class="TutorialTile WinMRHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_3_png.vtex" scaling="stretch-to-fit-preserve-aspect" />		
 						<Label class="TutorialDesc" text="#TutorialTeleport_Tile3_Touch_Desc" />
 					</Panel>
-
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_knuckles_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile1_Knuckles_Desc" />
-          </Panel>
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_knuckles_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile2_Knuckles_Desc" />
-          </Panel>
-          <Panel class="TutorialTile KnucklesHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_3_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile3_Knuckles_Desc" />
-          </Panel>
-
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_cosmos_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile1_Cosmos_Desc" />
-          </Panel>
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_cosmos_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile2_Cosmos_Desc" />
-          </Panel>
-          <Panel class="TutorialTile CosmosHelp">
-            <Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_3_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
-            <Label class="TutorialDesc" text="#TutorialTeleport_Tile3_Cosmos_Desc" />
-          </Panel>
-
-          <Panel class="TutorialTile ControllerHelp">
+					
+					<Panel class="TutorialTile ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_controller_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialTeleport_Tile1_Controller_Desc" />
+
 					</Panel>
 					<Panel class="TutorialTile ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_controller_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>								
 						<Label class="TutorialDesc" text="#TutorialTeleport_Tile2_Controller_Desc" />
+
 					</Panel>
 					<Panel class="TutorialTile ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialteleport_controller_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>	
@@ -1019,15 +929,17 @@
 
 				<DestinationsScrollPanel class="TutorialTiles" id="TutorialPage3Scroll" overscroll-y="100" target="TutorialPage3">
 
-          <Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+		
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialend_1_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>												
 						<Label class="TutorialDesc" text="#TutorialEnd_Tile1_Desc" />
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialend_2_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialEnd_Tile2_Desc" />
+
 					</Panel>
-					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp KnucklesHelp CosmosHelp ControllerHelp">
+					<Panel class="TutorialTile ViveHelp TouchHelp WinMRHelp ControllerHelp">
 						<Image class="TutorialImage" src="s2r://panorama/images/tutorial/tutorialend_3_png.vtex" scaling="stretch-to-fit-preserve-aspect"/>		
 						<Label class="TutorialDesc" text="#TutorialEnd_Tile3_Desc" />
 					</Panel>

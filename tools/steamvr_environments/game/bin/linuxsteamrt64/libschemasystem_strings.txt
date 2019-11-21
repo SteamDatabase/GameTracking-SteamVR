@@ -3,23 +3,22 @@
 	Module 1 - %s
 	Module 2 - %s
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
+	wDUH
  ( def. "%s" )
  (Abstract)
- - %d / %d allocated
  - %s: %s / %s
- H9z t
+ H9z(t
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^]
  [A\]
+ []A\
  max. %f
  min. %f
- tMv+@
 !GlobalTypes
 "%s" 
 "%s" = "%s"
-"pA3Q
-"vmdlkeys0
+"t&L;}
 #[A\]
 #base
 #base is NULL 
@@ -27,6 +26,10 @@
 #include
 #include is NULL 
 #int#
+$(~[1
+$+s$Hc
+$A9D$ t
+$A;\$
 $ORIGIN
 $[A\]
 %-10s%-10s %-8s %-8s %-40s %-40s %-40s
@@ -35,16 +38,14 @@ $[A\]
 %-120s
 %-120s - %s
 %-40s = 0x%016llX (%lld)
-%-60s 
 %-60s %-25s %-25s 
 %-60s %-25s %-25s %s
 %.10f
-%.15lf
-%5s: %s (%.3f%% of all %s bindings)
 %7.4f %7.4f %7.4f %10g
 %d %d %d %d
 %d base classe%s:
 %d enumerators:
+%d total counted strings.
 %f %f %f %f
 %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f
 %i %i %i %i
@@ -52,49 +53,41 @@ $[A\]
 %s #%d: '%s'/'%s': %d != %d
 %s #%d: '%s'/'%s': '%s' != '%s'
 %s %s
-%s %s bindings with metadata (out of %s); %s total metadata items; %s unique metadata names
-%s bytes in static binding info
-%s registrations; %s were redundant; %s were ignored (%s bytes of ignored data)
-%s schema bindings in %u modules (%s classes, %s enums)
 %s%s%s
 %s+--
 %s+-- Schema Class: %s
 %s+-- Schema Type: %s
 %s: %d != %d
-%s: %s
 %s: '%s' != '%s'
 %s: string format requested %d chars
 %s:%s
-%s:%s needs base %s:%s to be registered
 %s< %d >
 %s< %s >
 %s< %s, %s >
 %s[%d]
+%s_%d
 %s|  % 2d: %s [Offset: %d]
 %s|  % 2d: [% 3d - % 3d] %-12s %s
+%s| (No Binding) - "%s"
 %s| AlignOf: %d
 %s| Base Class%s: %d
 %s| Fields:
-%s| Project: '%s' Binary: '%s'
+%s| Project: '%s' Binary: '%s' - "%s"
 %s| SizeOf: %d
 %s| Virtual: %s; Abstract: %s; TrivialConstr: %s; TrivialDestr: %s
-&YA1D
 &YA1H
-&YA1L
-'":|;
 (%d,%d,%d,%d)
 (%f,%f)
 (%f,%f,%f)
 (%f,%f,%f,%f)
 (%g,%g,%g,%g)
 (*%s*), 
-(9w rh;w
-(E;t$
-(Hc>H
-(HcWP
+(Ic\$0A;\$@
 (None)
 ([A\A]A^A_]
+([A\A]A^]
 ([A\A]]
+([A\A^]
 ([]A\A]A^A_
 (detailed layout)
 (dump)
@@ -104,8 +97,12 @@ $[A\]
 ***! Disregarding mismatched schema bindings !***
 *************************************************
 *NoSchemaClass*
++K$Lc
++Q$Hc
 +S$Hc
 +s$Hc
++s$Ic
++{$Hc
 --  Increase the size of the resource stream   --
 --  Need %d bytes, but only have %d bytes
 --- (No Disk Introspection for struct %s)
@@ -113,7 +110,8 @@ $[A\]
 --------------------WARNING----------------------
 -DANGER_MODE_ignore_schema_mismatches
 -VUUU
--VUUUH
+-VUUUAUAT
+-VUUUL
 -maxelements
 -no_bundle_module
 -no_tier2_bundle
@@ -127,6 +125,7 @@ $[A\]
 ...(skipping %u of %u elements)...
 ../public/ordered_constructor.h
 ../public/resourcefile/resourcestream.h
+../public/schemalib/schemaprimitives.h
 ../public/schemalib/schematype.h
 ../public/schemasystem/schema.h
 ../public/tier1/utlrbtree.h
@@ -154,18 +153,14 @@ $[A\]
 .strtab
 .symtab
 .text
-0A81@
-0A91u
-0D91u
-0E81A
-0H32t
+00000000-0000-0000-0000-000000000000
+0<	w5H
+0Ic\$
+0[A\A]A^A_]
 0[A\A]A^]
 0[A\]
+0[A^]
 0[]A\A]A^
-0f91u
-0fA91u
-0fD91u
-0t3Lc
 0x%016llX
 0x%02X
 0x%04X
@@ -173,69 +168,94 @@ $[A\]
 0x%llx
 10ConCommand
 10IAppSystem
+11CDynElement
 11CSchemaType
 12CEmptyConVar
 12CThreadEvent
 13CSchemaSystem
 13ISchemaSystem
 14CBaseAppSystemI13ISchemaSystemE
+14CNewLoadWriter
 14ConCommandBase
+14ISchemaBinding
+15CDynContextBase
 15CResourceStream
 15CSchemaType_Ptr
 15CTier0AppSystemI13ISchemaSystemE
 15CTier1AppSystemI13ISchemaSystemLi0EE
 15CTier2AppSystemI13ISchemaSystemLi0EE
+15ITextLoadWriter
 16CDefaultAccessor
 16ICommandCallback
 17CResourceStreamVM
+17CSchemaTextTarget
 18CAtomicManipulatorI10CTransformE
 18CAtomicManipulatorI10CUtlStringE
 18CAtomicManipulatorI10CUtlSymbolE
 18CAtomicManipulatorI10QuaternionE
+18CAtomicManipulatorI11CSchemaTypeE
 18CAtomicManipulatorI11DegreeEulerE
 18CAtomicManipulatorI11RadianEulerE
 18CAtomicManipulatorI11matrix3x4_tE
-18CAtomicManipulatorI12CEntityIndexE
 18CAtomicManipulatorI12matrix3x4a_tE
+18CAtomicManipulatorI13SchemaArray_tI14SchemaString_tEE
+18CAtomicManipulatorI13SchemaArray_tI21SchemaMetaModifyAdd_tEE
+18CAtomicManipulatorI13SchemaArray_tI22SchemaClassFieldData_tEE
+18CAtomicManipulatorI13SchemaArray_tI25SchemaBaseClassInfoData_tEE
+18CAtomicManipulatorI13SchemaArray_tI25SchemaMetadataEntryData_tEE
+18CAtomicManipulatorI13SchemaArray_tI26SchemaEnumeratorInfoData_tEE
+18CAtomicManipulatorI13SchemaArray_tI33SchemaFieldMetadataOverrideData_tEE
+18CAtomicManipulatorI13SchemaArray_tIPK15CSchemaEnumInfoEE
+18CAtomicManipulatorI13SchemaArray_tIPK16CSchemaClassInfoEE
 18CAtomicManipulatorI13VectorAlignedE
 18CAtomicManipulatorI14CResourceArrayI16CResourcePointerI15CResourceStringEEE
+18CAtomicManipulatorI14SchemaString_tE
 18CAtomicManipulatorI15CResourceStringE
 18CAtomicManipulatorI15CUtlBinaryBlockE
 18CAtomicManipulatorI15CUtlStringTokenE
-18CAtomicManipulatorI15CUtlSymbolLargeE
 18CAtomicManipulatorI16CResourcePointerI15CResourceStringEE
 18CAtomicManipulatorI5ColorE
 18CAtomicManipulatorI6QAngleE
 18CAtomicManipulatorI6VectorE
-18CAtomicManipulatorI7VMatrixE
 18CAtomicManipulatorI8Vector2DE
 18CAtomicManipulatorI8Vector4DE
 18CAtomicManipulatorI9KeyValuesE
-18CAtomicManipulatorIDv4_fE
+18CCountedStringPool
+18CDynDataLoadWriter
+18CSchemaEnumBindingI12ThreeState_tE
+18CSchemaEnumBindingI18SchemaClassFlags_tE
+18CSchemaEnumBindingI21ResourceStructFlags_tE
 18CSchemaManipulatorI10CTransformE
 18CSchemaManipulatorI10CUtlStringE
 18CSchemaManipulatorI10CUtlSymbolE
 18CSchemaManipulatorI10QuaternionE
+18CSchemaManipulatorI11CSchemaTypeE
 18CSchemaManipulatorI11DegreeEulerE
 18CSchemaManipulatorI11RadianEulerE
 18CSchemaManipulatorI11matrix3x4_tE
-18CSchemaManipulatorI12CEntityIndexE
 18CSchemaManipulatorI12matrix3x4a_tE
+18CSchemaManipulatorI13SchemaArray_tI14SchemaString_tEE
+18CSchemaManipulatorI13SchemaArray_tI21SchemaMetaModifyAdd_tEE
+18CSchemaManipulatorI13SchemaArray_tI22SchemaClassFieldData_tEE
+18CSchemaManipulatorI13SchemaArray_tI25SchemaBaseClassInfoData_tEE
+18CSchemaManipulatorI13SchemaArray_tI25SchemaMetadataEntryData_tEE
+18CSchemaManipulatorI13SchemaArray_tI26SchemaEnumeratorInfoData_tEE
+18CSchemaManipulatorI13SchemaArray_tI33SchemaFieldMetadataOverrideData_tEE
+18CSchemaManipulatorI13SchemaArray_tIPK15CSchemaEnumInfoEE
+18CSchemaManipulatorI13SchemaArray_tIPK16CSchemaClassInfoEE
 18CSchemaManipulatorI13VectorAlignedE
 18CSchemaManipulatorI14CResourceArrayI16CResourcePointerI15CResourceStringEEE
+18CSchemaManipulatorI14SchemaString_tE
 18CSchemaManipulatorI15CResourceStringE
 18CSchemaManipulatorI15CUtlBinaryBlockE
 18CSchemaManipulatorI15CUtlStringTokenE
-18CSchemaManipulatorI15CUtlSymbolLargeE
 18CSchemaManipulatorI16CResourcePointerI15CResourceStringEE
 18CSchemaManipulatorI5ColorE
 18CSchemaManipulatorI6QAngleE
 18CSchemaManipulatorI6VectorE
-18CSchemaManipulatorI7VMatrixE
 18CSchemaManipulatorI8Vector2DE
 18CSchemaManipulatorI8Vector4DE
 18CSchemaManipulatorI9KeyValuesE
-18CSchemaManipulatorIDv4_fE
 18CSchemaSystemUtils
 18CSchemaType_Atomic
 18CSchemaVisitorBase
@@ -243,213 +263,212 @@ $[A\]
 18IAtomicManipulator
 18ISchemaManipulator
 18ISchemaSystemUtils
+19CSchemaClassBindingI15CSchemaEnumInfoE
+19CSchemaClassBindingI16CSchemaClassInfoE
+19CSchemaClassBindingI17CSchemaClassFieldE
+19CSchemaClassBindingI18CSchemaMetadataSetE
+19CSchemaClassBindingI18CSchemaStaticFieldE
+19CSchemaClassBindingI20CSchemaBaseClassInfoE
+19CSchemaClassBindingI20CSchemaMetaModifyAddE
+19CSchemaClassBindingI20CSchemaMetadataEntryE
+19CSchemaClassBindingI20SchemaEnumInfoData_tE
+19CSchemaClassBindingI21CSchemaEnumeratorInfoE
+19CSchemaClassBindingI21SchemaClassInfoData_tE
+19CSchemaClassBindingI21SchemaMetaModifyAdd_tE
+19CSchemaClassBindingI22SchemaClassFieldData_tE
+19CSchemaClassBindingI23SchemaMetadataSetData_tE
+19CSchemaClassBindingI23SchemaStaticFieldData_tE
+19CSchemaClassBindingI25SchemaBaseClassInfoData_tE
+19CSchemaClassBindingI25SchemaMetadataEntryData_tE
+19CSchemaClassBindingI26SchemaEnumeratorInfoData_tE
+19CSchemaClassBindingI28CSchemaFieldMetadataOverrideE
+19CSchemaClassBindingI33CSchemaSystemInternalRegistrationE
+19CSchemaClassBindingI33SchemaFieldMetadataOverrideData_tE
+19CSchemaClassBindingI44InfoForResourceTypeCResourceManifestInternalE
 19CSchemaClassVisitor
 19CSchemaRegistration
 19CSchemaType_Builtin
-1@87@
-1D90u
-1D;G 
-1DBlend
-1E80A
-1E90u
-1H30t
-1H37t
-1f90u
-1fD90u
-1fE90u
+19IKeyValuesErrorSpew
+19ISchemaSearchTesterIPK16CSchemaClassInfoE
 20CDestructorTraversal
 20CPostConnectCallback
+20CResourceStreamFixed
+20CSchemaSaveTraversal
 20CSchemaType_Atomic_I
 20CSchemaType_Atomic_T
 20CSchemaType_Bitfield
 21CIntrospectionPrinter
 21CSchemaType_Atomic_TT
 21CUtlCStringConversion
+21IKeyValuesDumpContext
 22CResourceDiskTraversal
+22CSchemaEnumBindingBase
 22CSchemaInstallCallback
+22CSchemaKeyValuesTarget
+22CSchemaObjectTraversal
 22CSchemaSystemTypeScope
 22CSchemaType_FixedArray
 22ISchemaSystemTypeScope
+23CResourceStreamGrowable
+23CSchemaArrayManipulatorI14SchemaString_tE
+23CSchemaArrayManipulatorI21SchemaMetaModifyAdd_tE
+23CSchemaArrayManipulatorI22SchemaClassFieldData_tE
+23CSchemaArrayManipulatorI25SchemaBaseClassInfoData_tE
+23CSchemaArrayManipulatorI25SchemaMetadataEntryData_tE
+23CSchemaArrayManipulatorI26SchemaEnumeratorInfoData_tE
+23CSchemaArrayManipulatorI33SchemaFieldMetadataOverrideData_tE
+23CSchemaArrayManipulatorIPK15CSchemaEnumInfoE
+23CSchemaArrayManipulatorIPK16CSchemaClassInfoE
+23CSchemaClassBindingBase
+23CSplitScreenAddedConVar
 23IConCommandBaseAccessor
 24CSchemaType_DeclaredEnum
 24CSchemaType_NoschemaType
 25CConCommandMemberAccessorI13CSchemaSystemE
 25CSchemaType_DeclaredClass
 25CSchemaVisitorInfoMapBase
+26CDefaultKeyValuesErrorSpew
 26CSchemaClassVisitorInfoMapI20CDestructorTraversalE
 26ICommandCompletionCallback
+26ISchemaSerializationTarget
+27IKeyValuesDumpContextAsText
+28ISchemaCollectionManipulator
+29CKeyValuesDumpContextAsDevMsg
 29CSchemaRegistration_schemalib
-2@87@
-2A80@
-2f97u
-2fA90u
+3+C$H
 32CSchemaRegistration_resourcefile
 32CSchemaRegistration_schemasystem
-33333333H
-41f9t
+3E8 u
+42HcU
+4fff>fff>fff>fff>
 4vf;T
 5t~BC
-6ATSPH
 6ConVar
-7H32t
-7I32t
+6H92t%H
 7IConVar
-7f90u
-899t+H
-8A89@
-8A8:@
-8AVAUH
-8A^]H
+89w rf;w
 8CFmtStrNILi256ELb0EE
-8D;:u
-8I39t
-8I3:t
+8CFmtStrNILi32768ELb0EE
+8HcCHH
+8VBKVt6HcF
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
-8fA;1
-9AUATSH
-9O ~1
-9f98u
-:@8>@
-:f98u
-:f99u
-:f9>u
+9G ti+G$I
+9S t{+S$H
+:[tlL
 ;*3$"
-;0tWD
-;0t\D
-;BX|'1
-<	t6U1
-<	tT<Gt
-<	ucUH
-<&t'H
-<&t?]H
-<+tRH
-<9f9|
+;W }3
+;mempool.cpp
+;t!E9
+<	w.1
+<	woD
+<!-- schema text {%s} generic {%s} -->
+<19{ |.
+<80tuH
 << NULL >>
-<Gt#1
+<@tYA
 <NULL>
-<No schema binary for binding>
-<No schemasystem>
-<Rt&<Pu
-<no failure reason set>
+<Rt<<Pt`<S
 <null>
-<unknown>
->;9t2H
->A8:@
->I3:t
-@$t9L
+<}tI<{uO
+=CSP1A
+=CSP1u
+?%d.0
+@HA\A]A^]
+@[A\A]A^]
 @[A\]
-A#|$TH
-A+D$$I
-A+E$A
+@tBE+
+@tjI9
+@xt^H
+A+D$$9
+A+D$$H
 A+E$H
-A+F$I
+A+E$f
+A+F$H
 A+G$H
-A+G$I
+A+G$Lc
+A+N$A
+A+T$$Hc
+A+U$A
+A+U$Hc
+A+U$f
 A+W$Hc
-A9D$TA
-A9WLA
-A;D$X}
-A;\$ 
+A+W$f
+A+t$$Hc
+A+u$Hc
+A9D$ ~*I
+A9D$Pt
+A9G }
+A9^0~3I
+A9_@~8L
+A;D$(}SI
+A;G A
+A;\$ A
+A;\$ |
+A;\$(
 A;] |
-A;](|
-A;_@|
-A;_@}4L
-A;_p|
-AE_ACTION_SET_TURN_RATE_SCALE
-AE_BLIND_ZOMBIE_SNIFF
-AE_CL_ADD_PARTICLE_EFFECT_CP
-AE_CL_BODYGROUP_SET_VALUE
-AE_CL_CREATE_PARTICLE_BRASS
-AE_CL_CREATE_PARTICLE_EFFECT
-AE_CL_CREATE_PARTICLE_EFFECT_CFG
-AE_CL_PLAYSOUND_LOOPING
-AE_CL_STOP_PARTICLE_EFFECT
-AE_DOTA_SUPPRESS_CONSTANT_LAYER
-AE_HIDE_WEAPON
-AE_IK_ALLOW_PLANE_TILT_NORMAL_UPDATES
-AE_IK_SET_CHAIN_BLEND_AMOUNT
-AE_IK_SET_LOCK_ROTATION_ALPHA
-AE_IK_SET_MASTER_BLEND_AMOUNT
-AE_MELEE_DAMAGE
-AE_NPC_BECOME_TEMPORARY_RAGDOLL
-AE_NPC_HURT_INTERACTION_PARTNER
-AE_NPC_SET_INTERACTION_CANTDIE
-AE_NPC_WEAPON_FIRE
-AE_NPC_WEAPON_SET_SEQUENCE_NUMBER
-AE_PASSENGER_PHYSICS_PUSH
-AE_SCRIPT_EVENT_FIREEVENT
-AE_SV_DUSTTRAIL
-AE_VORTIGAUNT_START_HEAL_GLOW
-AE_VORTIGAUNT_START_HURT_GLOW
-AE_VORTIGAUNT_ZAP_POWERUP
-AE_VORTIGAUNT_ZAP_SHOOT
-AE_ZOMBIE_POPHEADCRAB
-AE_ZOMBIE_TOGGLE_HEAD
-AIWalkable
+A;]@|
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-ATAVL
-ATSHc
-ATSt$@
-AUAT1
+ATStzH
+ATSuHH
+ATUSH
 AUATA
-AUATE
+AUATD
+AUATE1
+AUATH
 AUATI
 AUATL
-AUATLc
+AUATM
 AUATS
 AUATSD
 AUATSH
-AUATSHcB
+AUATSHcJ
 AUATSL
-AUATSLc/E)
+AUATStMI
+AUATStmH
+AUATUSH
+AVATI
 AVAUA
 AVAUATA
 AVAUATI
-AVAUATL
 AVAUATS
 AVAUATSH
 AVAUATSL
-AVAUATS~
+AVAUATUSH
 AVAUE1
 AVAUI
 AVAUL
-AWAUA
+AVAULc
+AVAUM
+AW-VUUUAV
 AWAVA
 AWAVAUA
 AWAVAUATA
-AWAVAUATH
 AWAVAUATI
 AWAVAUATL
-AWAVAUATLc
 AWAVAUATM
+AWAVAUATS
 AWAVAUATSH
-AWAVAUATSRH
+AWAVAUATSL
 AWAVAUATUSH
+AWAVAUE1
 AWAVAUI
-AWAVAUL
 AWAVAULc
-AWAVAUM
-AWAVAUPA
+AWAVD
 AWAVE
+AWAVE1
 AWAVH
 AWAVI
 AWAVL
 AWAVLc
 AWAVM
-AXAYA
-AXtLH
-AYAZ9
-AZtTI
-A\A]A
+A\A9N
 A\A]A^A_]
-A\A]A^A_]H
+A\A]A^A_]A
 A\A]A^]
 A\A]]
-A]A^A_]
 A]A^]
-A^A_]
 AbstractImplicit
 AddDependentStructs
 AddRef
@@ -459,66 +478,41 @@ Alignment?
 All errors logged to console. First error (of %d):
 Allocate
 AllocateAndCopy
-AnimAddLayer
-AnimAlign
-AnimAutoLayer
-AnimBaseParams
-AnimBlendLayer
-AnimBlendLayerBase
-AnimBlendLayerPoseParam
-AnimCommonParams
-AnimCycleOverride
-AnimDelta
-AnimEvent
-AnimFile
+AllocateUtlVector
 AnimGraphEditorUtils001
-AnimIkLockLocal
-AnimLayer
-AnimLayerBase
-AnimLinearDelta
-AnimOffset
-AnimProxy
-AnimSmoothLoop
-AnimStartLoop
-AnimSubtract
-AnimationList
 AnimationSystemUtils_001
 AnimationSystem_001
-AssertMsg_ConditionFailed
 AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
-B1.8.3
+AssignValue_Float expecting a float type but got '%s'!
+AssignValue_Int expecting an integer type but got '%s'!
+AttributeTypeFromSchemaType
 BAD BINDING
+Bad expression operator: '%c%c', expected C style boolean expression operator.
+Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
+Bad expression token: %c
+Bad object
 BakedLODBuilderMgr001
-BaseIKRig
-BasePhysicsShape
 BenchmarkService001
-BentNormalData
 Binary
 BinaryProperties_GetValue
-Binding for '%s' is not a class
-BlendList
-BodyGroup
-BodyGroupChoice
-BreakCommand
-BreakPieceEmbedded
-BreakPieceExternal
-C89KHH
-CAuthPhysBody
-CAuthPhysJoint
+C(fA9D$(fA
+C,[A\A]]
+C,[A\]
+C8@t/I
+C@A9D$@t
 CBitVec
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CDA2D$D
 CEntityHandle
 CEntityIndex
 CHandle
-CL$(9
 CLASSINFO
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
-CParticleSystemDefinition
 CPlayerSlot
 CResourceArray
 CResourceDiskStructField
@@ -526,9 +520,24 @@ CResourceExtReference
 CResourcePointer
 CResourceStreamFixed: trying to write past the end of allocated memory (new commit %u, allocated %u)
 CResourceString
-CResourceToKV3 encountered a non-array char... (%s)
+CSP1H
+CSchemaArrayManipulator::AllocateUtlVector unimplemented!
+CSchemaArrayManipulator::DeallocateUtlVector unimplemented!
+CSchemaArrayManipulator::InsertMultipleBefore unimplemented!
+CSchemaArrayManipulator::RemoveMultiple unimplemented!
+CSchemaBaseClassInfo
+CSchemaClassField
+CSchemaClassInfo
+CSchemaEnumInfo
+CSchemaEnumeratorInfo
+CSchemaFieldMetadataOverride
+CSchemaLoadContext: Trying to take control of objects
+CSchemaLoadContext: Trying to take control of objects inside of a block allocation.
+CSchemaMetaModifyAdd
+CSchemaMetadataEntry
+CSchemaMetadataSet
+CSchemaStaticField
 CSchemaSystemInternalRegistration
-CSchemaType
 CSchemaType_Builtin: Unable to copy construct type %s
 CSchemaType_Builtin: Unable to copy type %s
 CSchemaType_Builtin: Unable to deallocate type %s
@@ -540,181 +549,115 @@ CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
 CUtlReference
 CUtlStringToken
-CUtlSymbolLarge
 CUtlVector
 CUtlVectorFixedGrowable
 CXXABI_1.3
-CXXABI_1.3.8
-C_INIT_AddVectorToVector
-C_INIT_AgeNoise
-C_INIT_CreateFromCPs
-C_INIT_CreateInEpitrochoid
-C_INIT_CreateOnModelAtHeight
-C_INIT_CreateSequentialPath
-C_INIT_CreateWithinSphere
-C_INIT_DistanceToCPInit
-C_INIT_GlobalScale
-C_INIT_InheritFromParentParticles
-C_INIT_InheritVelocity
-C_INIT_InitFromCPSnapshot
-C_INIT_InitFromParentKilled
-C_INIT_InitialRepulsionVelocity
-C_INIT_InitialVelocityFromHitbox
-C_INIT_InitialVelocityNoise
-C_INIT_LifespanFromVelocity
-C_INIT_MakeShapes
-C_INIT_ModelCull
-C_INIT_MoveBetweenPoints
-C_INIT_NormalOffset
-C_INIT_OffsetVectorToVector
-C_INIT_PositionOffset
-C_INIT_PositionOffsetToCP
-C_INIT_PositionPlaceOnGround
-C_INIT_PositionWarp
-C_INIT_RandomVectorComponent
-C_INIT_RandomYawFlip
-C_INIT_RemapCPtoScalar
-C_INIT_RemapCPtoVector
-C_INIT_RemapInitialCPDirectionToRotation
-C_INIT_RemapInitialVisibilityScalar
-C_INIT_RemapNamedModelElementToScalar
-C_INIT_RemapParticleCountToScalar
-C_INIT_RemapScalar
-C_INIT_RemapScalarToVector
-C_INIT_RemapSpeedToScalar
-C_INIT_RtEnvCull
-C_INIT_SequenceFromCP
-C_INIT_SequenceLifeTime
-C_INIT_SetHitboxToClosest
-C_INIT_SetRigidAttachment
-C_INIT_VelocityFromCP
-C_INIT_VelocityFromNormal
-C_INIT_VelocityRadialRandom
-C_INIT_VelocityRandom
-C_OP_AttractToControlPoint
-C_OP_ContinuousEmitter
-C_OP_DistanceBetweenCPsToCP
-C_OP_DriveCPFromGlobalSoundFloat
-C_OP_EnableChildrenFromParentParticleCount
-C_OP_HSVShiftToCP
-C_OP_InheritFromParentParticles
-C_OP_InitSetSnapshotOnCP
-C_OP_InstantaneousEmitter
-C_OP_LockToSavedSequentialPath
-C_OP_NoiseEmitter
-C_OP_RampCPLinearRandom
-C_OP_RemapAverageScalarValuetoCP
-C_OP_RemapBoundingVolumetoCP
-C_OP_RemapCPtoCP
-C_OP_RemapModelVolumetoCP
-C_OP_RemapSpeedtoCP
-C_OP_RenderModels
-C_OP_RepeatedTriggerChildGroup
-C_OP_SetCPOrientationToPointAtCP
-C_OP_SetControlPointFieldToWater
-C_OP_SetControlPointFromObjectScale
-C_OP_SetControlPointOrientation
-C_OP_SetControlPointPositionToTimeOfDayValue
-C_OP_SetControlPointPositions
-C_OP_SetControlPointRotation
-C_OP_SetControlPointToCenter
-C_OP_SetControlPointToHMD
-C_OP_SetControlPointToHand
-C_OP_SetControlPointToImpactPoint
-C_OP_SetControlPointToPlayer
-C_OP_SetParentControlPointsToChildCP
-C_OP_SetRandomControlPointPosition
-C_OP_SetSingleControlPointPosition
-C_OP_StopAfterCPDuration
-C_OP_TwistAroundAxis
-CalculateCompatibilityForClass_R
-CalculateCompatibilityForEnum
-Cannot allocate abstract class
+Can only serialize pointers to classes
 Cannot allocate virtual address space in CResourceStreamVM::ReserveVirtualMemory, error %u
 Cannot call Allocate() for a Noschema type!
 Cannot call AllocateAndCopy() for a Noschema type!
 Cannot call Copy() for a Noschema type!
 Cannot call Deallocate() for a Noschema type!
-Cannot construct abstract class
-Cannot copy abstract class
-Cannot deallocate abstract class
-Cannot deduce for class
-Cannot destruct abstract class
 Cannot find class binding for a field %s, %s, %s
 Cannot serialize default non-simple field %s, currently only resource arrays can be serialized as default value, and even then only empty one.
+Cannot serialize text data into a non-text buffer
 Cannot specify string for default value of a struct (%s)
-ChangeCallbackOnChange
-ChangeCallbackOnChangeOrCreate
-Cht7Lc{pD;
-Class
+Ch[Hc
 Class '%s
 Class Name
 Class Size
 Class: %7d bytes, %7d unaccounted bytes, %4d fields, %4d nonderived fields 
-ClothShapeCapsule
-ClothShapeList
-ClothShapeSphere
 CmdLinkAH
 CommandLine
-CommandProcedure
-CommandProcedureList
 Commit
 ConVar(%s) defined with infinite float value (%s)
 ConVarRef %s doesn't point to an existing ConVar
+Conditional Error: %s
 ConfigurationSystem_001
 ConnectInterfaces
-ConvertOldIntrospectedResourceDataToKV3 - Bad arguments!
+CopyDynMemoryDataShallow
 CreateInterface
-D#j\H
-D$ E1
-D$ H9E
+D$ H9
+D$(;E
+D$(E1
+D$(H9
 D$0H9
+D$0I9
 D$8I9
-D$@E1
+D$8L9
+D$<tb
 D$@H9
-D$@HcU
 D$@I9
-D$`H9
+D$@L9
+D$@[A\A]A^]
+D$HfA
+D$LA9
+D$Pt?Hc
+D$xE;
+D+C$Mc
+D+c$Mc
 D+k$Mc
-D9CTD
-D;)ts
-D;0uOE
+D+s$Mc
+D;!t{Hc
 D;c D
+D;cx|
+D;k |
+D;k(|
+D;k0|
+D;o tFH
+DISK: %s
 Deallocate
+DeallocateUtlVector
 DebugTextureInfo001
-Decompression failure
 DevMsg
 DeveloperVerbose
-Disallowed upconversion detected due to mismatch (details above) in struct '%s'
-Disallowed upconversion detected: Mismatched enum '%s'
-Disallowed upconversion detected: Missing runtime class '%s'
-Disallowed upconversion detected: Missing runtime enum '%s'
+DoMismatchDialog
 DotaCardGameClient_001
-E+G$H
+E(I9D$(t
+E+D$$Mc
+E+E$Mc
+E+F$Mc
 E+G$Mc
-E+O$H
+E+M$Mc
 E+O$Mc
-E90teI
-E9D$TE
+E+e$Mc
+E+g$Mc
+E+o$Mc
+E+}$Mc
+E0A9D$0t
+E9e ~2I
 E9gPI
-E9l$ 
-E9l$TE
-E9t$(D
-E9|$TE
-E;o |
-E;w |
-E@ATI
+E9t$ ~1I
+E9|$ ~bI
+E;f |
+E;l$ 
+E;t$ 
+E;t$ t!I
+E@A9D$@t
+EDA9D$Dt
+EHA9D$Ht
+ELA9D$Lt
+EMPTY - ok for slot zero only!
 ENUMINFO
 ERROR: CAtomicManipulator::Allocate() Cannot allocate CResourceArray
+ERROR: CAtomicManipulator::Allocate() Cannot allocate CSchemaType
 ERROR: CAtomicManipulator::Allocate() Cannot allocate KeyValues
 ERROR: CAtomicManipulator::AllocateAndCopy() Cannot allocate CResourceArray
+ERROR: CAtomicManipulator::AllocateAndCopy() Cannot allocate CSchemaType
 ERROR: CAtomicManipulator::AllocateAndCopy() Cannot allocate KeyValues
 ERROR: CAtomicManipulator::Copy() Cannot copy CResourceArray(FIXME: maybe you can?)
+ERROR: CAtomicManipulator::Copy() Cannot copy CSchemaType(FIXME: maybe you can?)
 ERROR: CAtomicManipulator::Copy() Cannot copy KeyValues(FIXME: maybe you can?)
 ERROR: CAtomicManipulator::Deallocate() Cannot deallocate CResourceArray
+ERROR: CAtomicManipulator::Deallocate() Cannot deallocate CSchemaType
 ERROR: CAtomicManipulator::Deallocate() Cannot deallocate KeyValues
-ERROR: CResourceToKV3 failed to DeduceDerivedTypeFromDisk
-ERROR: CResourceToKV3 failed to resolve extref  %016llX
+ERROR: CDynData::AllocateData() - Unsupported array-of type
+ERROR: CDynData::AllocateData() - Unsupported tuple-of type
+ERROR: CDynData::AllocateData() - Unsupported type
+ERROR: CDynData::GetAsString() - Unimplemented type
+ERROR: CDynData::IsIdenticalToDat() - Unsupported category
+ERROR: CSchemaSystemUtils::Allocate() was called before g_pAsyncFileSystem arrived, and is now being called again with g_pAsyncFileSystem. Leaks/corruption will ensue.
+ERROR: CSchemaSystemUtils::Allocate() was called before g_pAsyncFileSystem arrived, and is now trying to free with g_pAsyncFileSystem. Leaks/corruption will ensue.
 ERROR: Cannot call CSchemaType_Bitfield::Allocate()
 ERROR: Cannot call CSchemaType_Bitfield::AllocateAndCopy()
 ERROR: Cannot call CSchemaType_Bitfield::Copy()
@@ -722,26 +665,38 @@ ERROR: Cannot call CSchemaType_Bitfield::Deallocate()
 ERROR: Cannot call CSchemaType_FixedArray::Allocate()
 ERROR: Cannot call CSchemaType_FixedArray::AllocateAndCopy()
 ERROR: Cannot call CSchemaType_FixedArray::Deallocate()
+ERROR: DynData GetTupleElement() - Unsupported array-of type
+ERROR: DynData OperateOnArray() - Unsupported array-of type
 ERROR: Failed to register '%s' (id=%d); inconsistent with '%s' (id=%d)
 ERROR: Inconsistent atomic type ID '%d': shared by '%s' and '%s' (check schema_atomic_types.cfg)
 ERROR: Inconsistent class ID '%d': shared by '%s' and '%s' (hash collision?)
 ERROR: Inconsistent class handle for CSchemaType '%s' vs. '%s' ('%s:%s' vs. '%s:%s')
 ERROR: Inconsistent enum ID '%d': shared by '%s' and '%s' (hash collision?)
+ERROR: Invalid SCHEMA_TYPE_BUILTIN category (%d) in CSchemaTextWriter::Write
+ERROR: Invalid SCHEMA_TYPE_BUILTIN category (%d) in MakeTextType
 ERROR: Invalid destination binding.
+ERROR: Invalid type category in CDynDataTextWriter::Write
+ERROR: Invalid type category in CSchemaTextWriter::Write
+ERROR: Invalid type category in CTextParseType::PutTypeName() [%d]
 ERROR: Out-of-date source introspection dictionary
 ERROR: Schema binding mismatch detected!
 ERROR: Schema mismatches reported! Aborting to prevent data corruption.
-ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but contains member '%s' with locally-scoped type '%s'
+ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but contains locally-scoped member '%s'
 ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but derives from locally-scoped class '%s'
 ERROR: Schema registration error - subclass '%s' registered before base class '%s'
+ERROR: StorageToDataPtr() - Unsupported array-of type
 ERROR: TODO - implement CSchemaType_FixedArray::Copy()
+ERROR: Unknown type category in CSchemaObjectTraversal::Traverse()
+ERROR: Unrecognized resource handle type for %s::%s: %s (%s)
+ERROR: Unsupported atomic type in CSchemaTextWriter::WriteAtomic: '%s' (id:%d)
+EXA;]`
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
-EmptyAnim
 Encountered a non-array char while serializing defaults... (%s)
+Encountered an element from the wrong context
+Encountered an unexpected invalid element
 EngineServiceMgr001
-EntityKeyValueData_t
 Enum '%s' (binary '%s' project '%s')
 Enum Name
 Enum name collision: '%s' and '%s' (%d)
@@ -749,255 +704,257 @@ Enum: %3d enumerators
 Enumerator Name
 Enumerator Value
 EnvironmentMapBuilder_001
+Error during custom string deserialization
 EventSystem001
 Expected "="after member '%s'
-Expected '#'
+Expected '&' and instance name or 'NULL'
 Expected ',' or '%s'
-Expected '['
 Expected '[' or '('
 Expected '{'
 Expected ( <count> )
+Expected <member name> after type
 Expected []
-Expected hex byte (eg. 00-FF)
-Expected member name or '}'
+Expected pointer for reference to object '%s'
+Expected pointer to class for reference to object '%s'
 Expected token
 Expected type of next member
 Expected value or ']'
 ExternalReference
-F t2SH
-F t5SH
+F 9G tq
+F Hcu
 FATAL ERROR: Failed to find enum introspection for ID 0x%08X, member of struct '%s' (Schema data was probably not registered. Add $SchemaFile to your project)
 FATAL ERROR: Failed to find struct introspection for ID 0x%08X struct '%s' (Schema data was probably not registered. Add $SchemaFile to your project)
-FATAL ERROR: unable to register all schema data: %s
 FCVAR_NEVER_AS_STRING
+Failed to assign bool literal value
+Failed to assign float literal value
+Failed to assign int literal value
+Failed to assign string literal value
+Failed to assign symbol literal value
 Failed trying to Commit %u bytes, used %u bytes, reserved %u bytes
+Fatal error: class '%s' has the wrong name '%s' in its registration macro (check for whitespace)
 Fatal error: class '%s' has whitespace in its registration macro.
+Fatal error: enum '%s' has the wrong name '%s' in its registration macro (check for whitespace)
 Fatal resource compiler error serializing class %s
 Fatal resource compiler error serializing enum %s
 FeSimdQuad_t
 Field '%s' of type '%s' - Cannot use opaque data in old-style schema formats.
-Field Name
 Field Offset
 FindSchemaTypeByOldEnum
-Flag: SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
-Flag: SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
-Flag: SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
-Flag: SCHEMA_CF1_IS_ABSTRACT
+Flag: SCHEMA_CLASS_HAS_TRIVIAL_CONSTRUCTOR
+Flag: SCHEMA_CLASS_HAS_TRIVIAL_DESTRUCTOR
+Flag: SCHEMA_CLASS_HAS_VIRTUAL_MEMBERS
+Flag: SCHEMA_CLASS_IS_ABSTRACT
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 FormatV
 FourVectors
+FreeAllocation
+From Class Binding
+From Enum Binding
 G A9G
-G U9G
-G8t+H
-G<@t~
-GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
+G t!IcPLE1
+G u)H
+G0A9E0t
+G0UHc
+G4A9E4t
+G8 t:H
+G8@tXI
+G<@t	]
+G<@t L
+G<@t#f
+G<@t$
+G<@t+]H
+G<@t1H
+G<@t:
+G<@tLL
+G<@tUI
+G<@ta
+G<@th
+G<@tp
+GAMECONSOLE
+GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+GHIcGPH
 GLIBCXX_3.4
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.4
+GLOBAL: %s
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
-GenericGameData
+GenerateCodeBasedManifestName: Invalid CodeBasedManifestType_t %d
+GetAsString
 GetCPUInformation
 GetResourceManifestCount
 GetResourceManifests
+GetTupleElement
+GxHcE
 H	p(]
 H	w(UH
 H!w(H
-H9w UH
-H9w tJUH
-H9z t
-H;*twH
-H;y t
-HI9y L
+H9*tgH
+H90t'H
+H9w(UH
+H9w(t=H
+H9z(t
+H;8t8H
+H;Cxt
+H;S@w
+H;y(t
+HI9y(t
+HIGHDPI
 HSCRIPT
 H[A\A]A^A_]
-H[A\A]L)
-H[A\L)
+H[A\A]]
+H[]A\A]A^A_
 HammerMapLoader001
+HandleMemory
 Has Trivial Constructor: %s
 Has Trivial Destructor: %s
-HcS$D
+HcC H9
+HcC$H
+HcCP1
+HcK@Ic
+HcKPHc
+HcQLE1
 HcSPH
-HcW$H
-Hc_0;_@t1I
-Hcs@H
+HcWHH
+HcWPH
+Hcs H
+HcsxH
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-I9D$ 
-I;L$ t
-I;N t
-I;T$ t
-I;t$ t
+I;V@w
 ID: %016llX
 IQuickTime001
 ISchemaSystem::FindSchemaTypeByOldEnum: Unimplemented type %d
-IcFTH
-IcGTH
-IcOpIc
+IcL$@Ic
+IcWPI
+Ic\$ A;\$0t
+Ic] A;]0t
+Ic]PI
+Icu`H
 Ignorable Indirection
 InfoForResourceTypeCResourceManifestInternal
 InitializeFieldInfo
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
+InsertMultipleBefore
 InsertNewClassBinding
 InsertNewEnumBinding
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 InstallSchemaBindings
 InstallSchemaClassBinding
+InstallSchemaEnumBinding
 Intentionally vague touch behavior for %p
+Internal_TakeControlOfLoadContextObjects
+Invalid
 Invalid data for member '%s'
-Invalid data.
+Invalid element handle in root list
+Invalid element handle in traversed element list
 Invalid header
-Invalid member name '%s'
+Invalid object reference to '%s': type '%s' not compatible with expected type '%s'
 Is Polymorphic: %s
-Jh#B\H
-KTu6L
-KX9ChH
+IsIdenticalToData
+JHcK8Ic
+JHcK@Ic
+Jc<(H
+K,[A\]
+KV Conditional Evaluation Error
 KeyValueCache001
+KeyValues Error: %s in file %s
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
-L$ H9
-L;0tAH
+L$ E1
+L$@Ic
+L$HfA
+L$pHc
+LINUX
 LOG_GENERAL
-LZ4_compress
-LZ4_compressBound
-LZ4_compressHC
-LZ4_compressHC2
-LZ4_compressHC2_continue
-LZ4_compressHC2_limitedOutput
-LZ4_compressHC2_limitedOutput_continue
-LZ4_compressHC2_limitedOutput_withStateHC
-LZ4_compressHC2_withStateHC
-LZ4_compressHC_continue
-LZ4_compressHC_limitedOutput
-LZ4_compressHC_limitedOutput_continue
-LZ4_compressHC_limitedOutput_withStateHC
-LZ4_compressHC_withStateHC
-LZ4_compress_HC
-LZ4_compress_HC_continue
-LZ4_compress_HC_extStateHC
-LZ4_compress_continue
-LZ4_compress_default
-LZ4_compress_destSize
-LZ4_compress_fast
-LZ4_compress_fast_continue
-LZ4_compress_fast_extState
-LZ4_compress_limitedOutput
-LZ4_compress_limitedOutput_continue
-LZ4_compress_limitedOutput_withState
-LZ4_compress_withState
-LZ4_create
-LZ4_createHC
-LZ4_createStream
-LZ4_createStreamDecode
-LZ4_createStreamHC
-LZ4_decoderRingBufferSize
-LZ4_decompress_fast
-LZ4_decompress_fast_continue
-LZ4_decompress_fast_usingDict
-LZ4_decompress_fast_withPrefix64k
-LZ4_decompress_safe
-LZ4_decompress_safe_continue
-LZ4_decompress_safe_partial
-LZ4_decompress_safe_usingDict
-LZ4_decompress_safe_withPrefix64k
-LZ4_freeHC
-LZ4_freeStream
-LZ4_freeStreamDecode
-LZ4_freeStreamHC
-LZ4_loadDict
-LZ4_loadDictHC
-LZ4_resetStream
-LZ4_resetStreamHC
-LZ4_resetStreamState
-LZ4_resetStreamStateHC
-LZ4_saveDict
-LZ4_saveDictHC
-LZ4_setStreamDecode
-LZ4_sizeofState
-LZ4_sizeofStateHC
-LZ4_sizeofStreamState
-LZ4_sizeofStreamStateHC
-LZ4_slideInputBuffer
-LZ4_slideInputBufferHC
-LZ4_uncompress
-LZ4_uncompress_unknownOutputSize
-LZ4_versionNumber
-LZ4_versionString
-Lc'E)
-Lc)D;i
+LOWVIOLENCE
+Lc!D;a
+Lc#D;c
+Lc/E)
 Lc3D;s
-Lcs8D;sHD
+Lc6E9
+Lc7E)
+Lc?E)
+Lcc(D;c8t1H
+Lcc0D;c@
+Lcc`D;cpD
+LccxD;
+Lcg0D;g@t4H
+Lcg@D;gPt9H
+Lck0D;k@
+Lc{pD;
 Line %d at "%s": %s
 Line %d: %s
-Line %d: Invalid value "%s"
-Listing %d %s schema bindings (%d classes and %d enums)
+Line %d: Invalid literal value "%s"
+Listing %d schema bindings (%d classes and %d enums)
+LoadFromBuffer: expected '{', found '%s'
 Localize_001
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
-LrwcE
+Logic Error in CExpressionEvaluator
 MATCHFRAMEWORK_001
 MAlignment
-MClassHasCustomAlignedNewDelete
-MD$TA
-MD$TE
 MDefaultString
+MDiskDataForResourceType
+MDmElementType
 MFieldVerificationName
 MHACKBitfieldBackingFieldType
 MHACKDisallowSynthVerification
 MHACKFieldIsSizeT
 MHACKSuppressSynthVerification
-MNetworkBitCount
-MNetworkChangeCallback
-MNetworkEncoder
-MNetworkOverride_Invalid
-MNetworkPriority
-MNetworkRemoveAll
+MModuleLocalTypeScope
 MNetworkSerializeAs
-MNetworkSerializer
-MNetworkUserGroup
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MResourceTypeForInfoType
+MSerializationNameCallback
+MSerializeAs
+MSerializeAsDynamic
+MSerializeAsMultiLineString
 MSuppressInvalidFieldTypeWarning
+MUnserializeFromStringCallback
+MakeTextType
 MapListService_001
 MaterialUtils_001
 MathLib_Init
+MbP?+
+Mc,$D
+McNxE;
+Mct$(E;t$8
+Mct$hA
+Mc|$`E;|$ptlI
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Member Count
 MeshSystem001
 MeshUtils001
+Meta Modify Add Count
+Meta Modify Field Name
+Meta Modify Remove Count
+Meta add name
+Meta remove name
 Meta tag name
-Mismatched CODE struct:
-Mismatched DISK struct:
-Missing file '%s'
-Ml$TA
 ModelDocUtils001
+Modified resource structure detected, attempting conversion:
 Multiple instances of schema system are initialized. %p != %p
-M|$TE
-N24CFieldPathHuffmanEncoder12InternalNodeE
-N24CFieldPathHuffmanEncoder5INodeE
-N24CFieldPathHuffmanEncoder8LeafNodeE
-NETWORK_FIELD_CHANGED_ARRAY_WITH_VALUE
-NETWORK_FIELD_CHANGED_NO_VALUE
-NETWORK_FIELD_CHANGED_NO_VALUE_NO_CONTEXT
-NETWORK_FIELD_CHANGED_TYPE_NONE
-NETWORK_FIELD_CHANGED_WITH_VALUE
-NETWORK_FIELD_CHANGES_OFTEN_PRIORITY
-NETWORK_FIELD_CHANGES_OFTEN_PRIORITY_TOPOOGICAL
-NETWORK_FIELD_CHANGES_OFTEN_PRIORITY_TOPOOGICAL_SORTLOWER
-NETWORK_FIELD_DEFAULT_PRIORITY
-NETWORK_FIELD_HIGHEST_PRIORITY
-NETWORK_FIELD_LOWEST_PRIORITY
-NTROH
+N0UHc
+N14MDmElementType45CValueSearchTester_ClassIntrospectionHandle_tE
+N24MDiskDataForResourceType45CValueSearchTester_ClassIntrospectionHandle_tE
+NIcM0Ic
+NTRO1
+NULL CSchemaType
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -1007,53 +964,32 @@ NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
 Newline in string literal
-No Buffer
 No base classes.
-No binding found named '%s'
+No buffer provided
+No class found named '%s'
 No class or enum found named '%s'
 No disk struct in manifest for expected class %s
+No objects to save
 No schema matching on disk struct %s
 NoSchema?
-Not safe to 'new' this class due to alignment requirements
-O thH
-O$HcO
-O@AUATI
-O@v9I
+O8ATI
 OD$LA
+OHcK Ic
+OTIcwPH
 Opaque Indirection
 OpaqueType
+OperateOnArray
 Ordered constructor wrapped type has no default constructor.
+Out of bounds for compound
 OuterOffset
-PARTICLE_DEPTH_FEATHERING_OFF
-PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
-PF_BIAS_TYPE_EXPONENTIAL
-PF_MAP_TYPE_MULT
-PF_MAP_TYPE_REMAP
-PF_MAP_TYPE_REMAP_BIASED
-PF_RANDOM_MODE_VARYING
-PF_TYPE_CONTROL_POINT_COMPONENT
-PF_TYPE_LITERAL
-PF_TYPE_PARTICLE_AGE_NORMALIZED
-PF_TYPE_RANDOM_UNIFORM
-PHZYH
+POSIX
 P[A\A]A^]
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-ParticleSystemMgr003
+ParticleSystemMgr002
 Physics2 Interface Old v0.5
-PhysicsBodyMarkup
-PhysicsBoneMarkup
 PhysicsBuilderMgr001
-PhysicsFile
-PhysicsFileReference
-PhysicsHullFile
-PhysicsHullFromRender
-PhysicsMeshFile
-PhysicsShapeCapsule
-PhysicsShapeHull
-PhysicsShapeMesh
-PhysicsShapeSphere
 Plat_DebugPrint
 Plat_ExitProcess
 Plat_GetEnv
@@ -1075,22 +1011,30 @@ Project
 PromoteUnresolvedAndGlobalTypes
 Promoting unresolved type '%s' to global scope.
 PropertyEditorSystem_001
+PutTypeName
+QHcKHIc
 QueuedLoaderVersion001
+R8Y[]
 RandomFloat
 RandomSeed
-RegisterAllModuleData
+RecursiveLoadFromBuffer:  got EOF instead of keyname
+RecursiveLoadFromBuffer:  got NULL key
+RecursiveLoadFromBuffer:  got conditional between key and value
+RecursiveLoadFromBuffer:  got empty keyname
+RecursiveLoadFromBuffer:  got } in key
+RecursiveLoadFromBuffer:  recursion overflow
 RegisterAtomicType
 RegisterConfigValue: Unknown error constructing config value "%s"!
 RegisterStringToken
 Registered binary: %s (project '%s')
 Release
+RemoveMultiple
 RenderDevice003
 RenderDeviceMgr001
 RenderHardwareConfig002
 RenderService_001
 RenderSystemSurface001
 RenderUtils_001
-ReportClassError
 ReserveVirtualMemory
 ResourceBinding_t
 ResourceCompilerSystem001
@@ -1100,6 +1044,17 @@ ResourceId_t
 ResourceManifestRegistry001
 ResourceStructFlags_t
 ResourceSystem013
+SCHEMA_CLASS_HAS_TRIVIAL_CONSTRUCTOR
+SCHEMA_CLASS_HAS_TRIVIAL_DESTRUCTOR
+SCHEMA_CLASS_HAS_VIRTUAL_MEMBERS
+SCHEMA_CLASS_IS_ABSTRACT
+SCHEMA_CLASS_IS_NOSCHEMA_CLASS
+SCHEMA_CLASS_TEMP_HACK_HAS_CONSTRUCTOR_LIKE_METHODS
+SCHEMA_CLASS_TEMP_HACK_HAS_DESTRUCTOR_LIKE_METHODS
+SCHEMA_CLASS_TEMP_HACK_HAS_NOSCHEMA_MEMBERS
+SDt5H
+SHcK Ic
+SHt]A
 SOURCE2_NO_BUNDLES
 SOURCE2_USE_BUNDLES
 SSE and SSE2 are required.
@@ -1113,18 +1068,30 @@ STRUCT_TREE_REQUIRES_UNUSED
 Scatter %d: %s
 SceneSystem_002
 SceneUtils_001
+SchemaArray_t
+SchemaBaseClassInfoData_t
+SchemaClassFieldData_t
+SchemaClassFlags_t
+SchemaClassInfoData_t
+SchemaEnumInfoData_t
+SchemaEnumeratorInfoData_t
+SchemaFieldMetadataOverrideData_t
+SchemaMetaModifyAdd_t
+SchemaMetadataEntryData_t
+SchemaMetadataSetData_t
+SchemaStaticFieldData_t
+SchemaString_t
 SchemaSystem
 SchemaSystemUtils
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
-SequenceMarkup
-SequenceMarkupList
 SerializeIntrospectionEnum
 SerializeIntrospectionStruct
 SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetClass
+Sht7Lc{pD;
 Size(b)
 Size: %d bytes (%d unaccounted, of which %d is likely alignment)
 SoundGuid_t
@@ -1147,10 +1114,14 @@ Source2ServerSerializers002
 Static Metadata Count
 StatsService_001
 SteamAudio001
+StorageToDataPtr
+String %d: ref:%d %s
 Struct
 Structure name collision: '%s' and '%s' (%d)
-T$HH!
-T$HIc
+T$0H;
+T$8H)
+T$HfA
+T$PIc
 TRS_FALSE
 TRS_NONE
 TRS_TRUE
@@ -1171,29 +1142,32 @@ ToolGameSimulationSystem_001
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
-Top %u metadata item counts:
+Traverse
 Type '%s' was unresolved at local scope, but already exists at global scope!
 Type_DeclaredClass
 Type_DeclaredEnum
-U-VUUUH
-UH9w H
-UIcL$@Ic
+UH9w(H
+UNSUPPORTED TYPE: %s
 UPDATE_STRING_TOKEN_DATABASE
-UUUUUUUUH
-Unable to write file '%s'
 Unaccounted
-Unexpected end of file
 UniqueId_t
 Unknown disk indirection type %d for field %s
 UnknownSchemaIndirection
 UnknownSchemaType
-Unrecognized flag name '%s'
-Unrecognized type '%d'
+Unrecognized serialization format
 Unrecognized type ('%d') for default value of '%s': %s
-Unsupported text encoding id.
+Unresolvable object reference to '%s' of type '%s'
+Unserialization Error: %s
+Unsupported atomic type for string-to-atomic deserialization: '%s' (string was '%s')
+Unsupported string for string-to-bool deserialization: '%s'
+Unsupported type for string deserialization: '%s' (string was '%s')
+Unsupported type for string-to-builtin deserialization
 Unused
 Upconvert %d : %s
 UserInfoChangeService_001
+V(E;L$
+V0E;L$
+V0u@H
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -1201,6 +1175,7 @@ VBaseFileSystem011
 VBik001
 VConComm001
 VDebugService_001
+VDmeMakeFileUtils001
 VEngineCvar007
 VFileSystem017
 VGUI_Input005
@@ -1209,6 +1184,8 @@ VGUI_Scheme010
 VGUI_Surface032
 VGUI_System010
 VGUI_ivgui008
+VIcL$
+VIcL$0Ic
 VMDLLIB001
 VMaterialSystem2_001
 VMatrix
@@ -1231,7 +1208,6 @@ VUUUH
 V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
-V_PrettifyNum
 V_RemoveDotSlashes
 V_SetErrno
 V_StrTrim
@@ -1245,18 +1221,15 @@ V_acosf
 V_asinf
 V_atan2f
 V_atanf
+V_atod
 V_atof
-V_atofloat32
-V_atofloat64
 V_atoi
 V_atoi64
 V_atoui64
 V_cosf
 V_expf
 V_fmodf
-V_fpclassify
 V_frexpf
-V_isnan
 V_localeconv
 V_logf
 V_powf
@@ -1273,7 +1246,6 @@ V_strnchr
 V_strnlen
 V_strtod
 V_strtoi64
-V_strtok
 V_strtoui64
 V_strupper_fast
 V_swscanf
@@ -1287,17 +1259,22 @@ V_wcstod
 V_wcstoi64
 VaPrintf
 ValidateAtomicType
-ValidateModuleLocalTypeScope
 VerifySchemaBindingConsistency
 VisBuilder_001
-W u)H
-W@HcX
+W H9r
+W(;V(t
 WARNING: Addition/Removal of vtable not supported '%s'
+WARNING: CDynData::GetAsString - Cannot an array directly
+WARNING: CDynData::SetFromString - Cannot assign directly to an array
+WARNING: CDynData::SetFromString - Cannot assign mismatched tuple length
 WARNING: Cannot find expected type in manifest '%s'
 WARNING: Cannot upconvert void field '%s'
 WARNING: Concrete type on disk has no registered schema '%s'
+WARNING: Could not find schema data for helper class for resource type %lld '%s'. (Missing MDiskDataForResourceType metadata or schema data isn't loaded?)
 WARNING: Data lost due to change in indirection level for variable %s
 WARNING: Data lost due to change in indirection type for variable %s
+WARNING: Duplicate field '%s'.
+WARNING: Failed dynamic serialization for type '%s' at field '%s'.
 WARNING: Incompatable types, cannot upconvert field to string '%s'.
 WARNING: Incompatable types, cannot upconvert field to struct '%s'
 WARNING: Incompatable types, cannot upconvert from non reference type (%d) to resource referenc (field '%s')
@@ -1306,6 +1283,9 @@ WARNING: Incompatable types, cannot upconvert to atomic value '%s'.
 WARNING: Incompatable types, cannot upconvert to enum value '%s'.
 WARNING: Invalid composite type for %s::%s: %s (%s) [should be MNoSchema?]
 WARNING: Invalid member type for %s::%s: %s (While registering binary '%s' project '%s'). Make sure the type is declared in a $SchemaFile that has been loaded.
+WARNING: Invalid type category in CSchemaTextWriter::Write: %s
+WARNING: LoadAndValidateResourceHeader - FileSystem not initialized!
+WARNING: Multiple classes registered as disk data for resource type %lld '%s'. (Should only have one class MDiskDataForResourceType - %d listed above.)
 WARNING: Parent schema id is not registered in schema system: '%s'
 WARNING: Resource manifest has interface class schema but is missing schema for subclass: %d (0x%08X)
 WARNING: Resource pointer references unregistered type %s
@@ -1316,39 +1296,50 @@ WARNING: SchemaSystem tried to load schema data for module '%s' but InstallSchem
 WARNING: SchemaSystem tried to load schema data for module '%s' but failed to load the module.
 WARNING: SchemaSystem tried to load schema data for module '%s' but failed to locate InstallSchemaBindings.
 WARNING: Truncating string variable %s (value '%s') to %d characters on load.
+WARNING: UGContext sanity check found identically-named nodes! ('%s' at %d, %d)
+WARNING: Unknown type '%s' declared '%s' for field '%s'.
+WARNING: Unrecognized object '%s' while loading into dynamic data.
+WARNING: Unrecognized type '%s' while unserializing schema text [Missing schema data?]
+WIN32
+WINDOWS
+WINXP
 Warning
 Warning:  %s = '%s' is infinite, clamping value.
 WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
+Write
+WriteAtomic
+WritePointer
 Wrong alignment %d
-X(E;op
-XIcL$
+XIcL$ Ic
+XIcL$8Ic
 X[A\A]A^A_]
-X[A\A]L)
 X[A\A]]
 X[]A\A]A^A_
-Y@ERROR: Unrecognized resource handle type for %s::%s: %s (%s)
+ZIcL$
 [%d] = 
-[A\A]
 [A\A]A^A_]
 [A\A]A^A_]A
 [A\A]A^]
-[A\A]H
-[A\A]I
-[A\A]M)
 [A\A]]
-[A\]H
+[Disk class %d/%d] Name = '%s'; Project = '%s'; Binary = '%s'
 [No string specified]
 []A\A]
 []A\A]A^
 []A\A]A^A_
-\8r)3
-\IcL$@Ic
-^IcL$ Ic
+\$HfA
+\t!Hc
+\u0000
+]Ht,A
+]IcD$`1
+^ t+H
+^IcL$(Ic
+_HcK@Ic
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
+_S2KV_Format_Hint
 _V_ComposeFileName
 _V_ExtractFileExtension
 _V_ExtractFilePath
@@ -1361,7 +1352,6 @@ _V_StripLastDir
 _V_strncat
 _V_strncmp
 _V_strncpy
-_V_strnicmp_fast
 _V_strnistr_fast
 _Z14V_stristr_fastPKcS0_
 _Z15V_UnicodeLengthPKc
@@ -1374,9 +1364,6 @@ _Z6DevMsgPKcz
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
-_ZN13CBufferString5PurgeEi
-_ZN13CBufferString6FormatEPKcz
-_ZN13CBufferString6InsertEiPKcib
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -1413,124 +1400,55 @@ __cxa_guard_release
 __cxa_guard_release@@CXXABI_1.3
 __cxa_pure_virtual
 __cxa_pure_virtual@@CXXABI_1.3
-__cxa_throw_bad_array_new_length
-__cxa_throw_bad_array_new_length@@CXXABI_1.3.8
+__empty__
+__error__
 __gmon_start__
 __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
-__oldschema_object_name
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
 __stack_chk_fail@@GLIBC_2.4
+_anonymous_object_%d
 _edata
 _fini
 _init
-_test_conversion_counter
+`[A\A]A^]
 `[A\]
+aIcL$pIc
 abort@@GLIBC_2.2.5
-ai_model_info
-all-scopes
-all_projects_common_code.cpp
-allowstatic
-anchor_angles
-anchor_position
-anim_name
-anim_name_a
-anim_name_b
 animationsystem
 archive
-attachment
-attachment_offset
-auto_unragdoll_duration
-bUpdate
-basehandle2_h_schema.gen_cpp
-basetypes_schema_h_schema.gen_cpp
 binary
-binary_auto
 binary_bc
-binary_lz4
-bitbuf.cpp
+bitfield
 bitfield:%d
-bitvec_h_schema.gen_cpp
-blendamount
-blockLOS
-blockcompress.cpp
-body_type
 borrow
-break_create_joint_revolute
-break_uniform_burst
-breakable_count
-breakable_model
-breakable_skin
-bundled_module_info.cpp
-burst_randomize
-burst_scale
-cable
-calloc
-calloc@@GLIBC_2.2.5
-cantdie
-center
+c.[A\]
 char[%d] %s = "%s"
-characterset.cpp
 cheat
-checksum_crc.cpp
-children
 client
 clientcmd_can_execute
-cloth_collide
-cloth_collision_layer0
-cloth_collision_layer1
-cloth_collision_layer2
-cloth_collision_layer3
-collision_group
-collision_prop
-composite
 configvalue.cpp
 const
-control_point
-convar.cpp
-create_particle
-crtstuff.c
 dH34%(
 dH3<%(
-dIcD$
-default
 delete
 developer
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
-dmg.bullets
-dmg.club
-dmg.explosive
-dmg.fire
 double
-dynamic_interaction
-eez79
-emitFromWorld
-enable_limit
-encoding
-event_class
-event_keys
-eventindex
-explosion_behavior
-explosion_buildup
-explosion_delay
-explosion_type
-explosive_damage
-explosive_radius
-exprevaluator.cpp
-f;0tZfD
-f;0t_fD
-f;7tt
-fA;0tiA
-fD;!t
-faceMergeAngle
+dynamic
+dynelement.cpp
+f;0tr
+f;S.w
+fA9D$
+fA;0M
+fA;0trA
 false
 ffff.
 fffff.
 ffffff.
-fieldpath.cpp
 filesystem_stdio
 float
 float( %f )
@@ -1541,56 +1459,28 @@ floor@@GLIBC_2.2.5
 floorf
 floorf@@GLIBC_2.2.5
 fltx4
-force
-format
-frame
 free@@GLIBC_2.2.5
-friction
-g_Tier1_BitWriteMasks
+g E;g0D
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
-g_Tier1_ExtraMasks
 g_pMemAlloc
-game_class
-game_keys
 generic
-generichash.cpp
-global scope
-gravity
+gfffA
+hI9y(L
 h[A\A]A^A_]
-handindex
-headtype
-health
-health_override
-hurt_me
-hurt_them
+h[A\A]]
 imemanager
 inputsystem
 int( %d = 0x%X )
-interface.cpp
 interfaces.cpp
-internalregistration_h_schema.gen_cpp
-introspectedresourcetokv3.cpp
-invert_orientation
-is_debris
-json_parser.c
-k@_aH
-keyvalues.cpp
-keyvalues3.cpp
-keyvalues3_binaryreader.cpp
-keyvalues3_binarywriter.cpp
-keyvalues3_oldschematext.cpp
-keyvalues3_textreader.cpp
-keyvalues3_textwriter.cpp
-kv3format_manager.cpp
-kv3formats.cpp
-kv3formats_compiledmodel.cpp
-kv3formats_modeldoc.cpp
-kv3formats_vpcf.cpp
-l$TE1
-last_sniff
-ld-linux-x86-64.so.2
-length
+jIcD$
+k8D;kHtMH
+k@[A\A]A^]
+kIcD$
+kxt M
+l$ M9u
+l$HfA
+l$PE;l$`
 libc.so.6
 libm.so.6
 libpthread.so.0
@@ -1600,179 +1490,71 @@ libstdc++.so.6
 libtier0.so
 libvstdlib.so
 localize
-lockRotationAlpha
-loop_break_on_damage
-loop_break_on_flashlight
-loop_in_action
-looping
-lz4.c
-lz4hc.c
+m_BaseClasses
 m_CTransform
 m_CUtlBinaryBlock
 m_CUtlString
 m_CUtlSymbol
-m_Children
+m_ClassIntrospectionHandle_t
 m_Color
 m_DegreeEuler
-m_Emitters
-m_ForceGenerators
-m_Initializers
-m_Operators
-m_PreEmissionOperators
+m_EnumIntrospectionHandle_t
+m_Enumerators
+m_FieldMetadataOverrides
+m_FieldName
+m_Fields
+m_Metadata
+m_ModifyAdds
+m_ModifyRemoves
+m_Name
+m_NestedClasses
+m_NestedEnums
 m_QAngle
 m_Quaternion
 m_RadianEuler
-m_Renderers
 m_ResourceTypes
+m_StaticEntries
+m_TagName
 m_Vector
 m_Vector2D
 m_Vector4D
 m_VectorAligned
-m_bApplyMinForce
-m_bDisableChild
-m_bDisableOperator
-m_bForceLoopingAnimation
-m_bInitFromKilledParentParticles
-m_bLocalSpace
-m_bOffsetExistingPos
-m_bParticleFeathering
-m_bRemapPullForceToLife
-m_bRunForParentApplyKillList
-m_bScalePerParticle
-m_bTrailBias
-m_bUseHighestEndCP
-m_fForceAmount
-m_fForceAmountMin
-m_fLifespanScaleExp
-m_flBiasParameter
-m_flClusterCooldown
-m_flClusterCooldownMax
-m_flClusterCooldownMin
-m_flClusterRefireTime
-m_flClusterRefireTimeMax
-m_flClusterRefireTimeMin
-m_flClusterSize
-m_flEmissionDuration
-m_flEmissionScale
-m_flEmitRate
-m_flInitFromKilledParentParticles
-m_flInput0
-m_flInput1
-m_flLiteralValue
-m_flMultFactor
-m_flOpStrength
-m_flOpStrengthMaxScale
-m_flOpStrengthMinScale
-m_flOutput0
-m_flOutput1
-m_flRandomMax
-m_flRandomMin
-m_flScalePerParentParticle
-m_flStartTime
-m_flStartTimeMax
-m_hSnapshot
-m_keyValuesData
+m_bRemoveAll
 m_matrix3x4_t
 m_matrix3x4a_t
-m_nAttributeToWrite
-m_nBehaviorVersion
-m_nBiasType
-m_nClusterSizeMax
-m_nClusterSizeMin
-m_nControlPoint
-m_nControlPointNumber
-m_nFeatheringMode
-m_nFirstMultipleOverride_BackwardCompat
-m_nIncrement
-m_nMapType
-m_nMinParticlesToEmit
-m_nOpScaleCP
-m_nOpStrengthScaleSeed
-m_nParticlesToEmit
-m_nRandomMode
-m_nScaleCP
-m_nScaleCPComponent
-m_nScaleCPField
-m_nScaleControlPoint
-m_nScaleControlPointField
-m_nType
-m_nVectorComponent
-m_pBody
+m_nAlignOf
+m_nOffset
+m_nSingleInheritanceOffset
+m_nSizeOf
+m_nValue
+m_pClass
+m_pDataType
+m_pInstance
 m_pKeyValues
-m_pParent
-m_pszSnapshotName
-m_snapshotName
+m_pTagDataType
+m_pTagValue
+m_pType
 m_stringToken
 malloc
 malloc@@GLIBC_2.2.5
-manifestregistrar.cpp
-material
 materialsystem2
 mathlib.cpp
-maxHullVertices
-maxVerticesPerHull
-max_angle
 memcmp
 memcmp@@GLIBC_2.2.5
 memcpy
 memcpy@@GLIBC_2.14
 memmove
 memmove@@GLIBC_2.2.5
-memoverride.cpp
-mempool.cpp
 memset
 memset@@GLIBC_2.2.5
-meshes
 meshsystem
-min_angle
-modeldoc0
-modeldoc1
-modeldoc10
-modeldoc11
-modeldoc12
-modeldoc13
-modeldoc14
-modeldoc15
-modeldoc16
-modeldoc17
-modeldoc18
-modeldoc19
-modeldoc2
-modeldoc20
-modeldoc21
-modeldoc3
-modeldoc4
-modeldoc5
-modeldoc6
-modeldoc7
-modeldoc8
-modeldoc9
-multiplayer_break
-nav_attribute_avoid
-nav_data
 networksystem
 notconnected
 notify
-numsegments
-o ATSH
-o(ATSH
 oldschemasynthesis.cpp
-origin_max_delta
-origin_relative
-p[A\A]A^]
+p8tRL
 p[A\]
 particles
-particles/
-physgun_interactions
-physicsmode
-placement_attach
-placement_bone
-placement_mode
-play_endcap
-point0
-point1
-preferred_carryangles
-prop_data
 pthread_mutex_destroy
 pthread_mutex_destroy@@GLIBC_2.2.5
 pthread_mutex_init
@@ -1788,214 +1570,124 @@ pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
+ptr: %s
+ptr: %s @ %p
 q={%g, %g, %g; w=%g} p={%g, %g, %g}
-quaternionaligned.cpp
-r?HcU
-rKHcU
-radius0
-radius1
-randsse.cpp
-reHcU
-recenter_on_parent_bone
+r7LcQ
 renderingpipelines
 replicated
-resource
 resourcecompileutils.cpp
 resourcefile
-resourcefile.cpp
-resourcefile_schema_anchor.gen_cpp
-resourceintrospection.cpp
-resourceintrospection_h_schema.gen_cpp
-resourceintrospectiondictionary.cpp
-resourceloader.cpp
-resourcemanifestfiledata_h_schema.gen_cpp
-resourceprinter.cpp
 resourcestream.cpp
-resourcestream_h_schema.gen_cpp
 resourcesystem
-resourcetype_h_schema.gen_cpp
-rnd_down
-rnd_up
-rootNode
 s v&E1
-s$[A\H
-s([A\H
+sXMc>E;~
+sXt>A
 scenesystem
 schema
-schema_all_list_bindings
-schema_all_list_bindings <substring> - List all scopes registered schema bindings (classes & enums). If no substring, list them all.
 schema_detailed_class_layout
-schema_detailed_class_layout "%s"
+schema_detailed_class_layout %s
 schema_detailed_class_layout <class_name> - Print a detailed memory layout of the class (including inline structs).
 schema_dump_binding
-schema_dump_binding "%s"
-schema_dump_binding <class_or_enum_name> - Print information about the named class or enum.
-schema_h_schema.gen_cpp
+schema_dump_binding %s
+schema_dump_class <class_or_enum_name> - Print information about the named class or enum.
 schema_list_bindings
-schema_list_bindings <substring> - List registered global-scope schema bindings (classes & enums). If no substring, list them all.
-schema_meta_stats
-schema_meta_stats [<options>]- Print a summary of schemasystem metadata statistics.
-schema_stats
-schema_stats - Print a summary of various schemasystem statistics.
-schemabinding.cpp
-schemabindings.cpp
-schemaclassinfo.cpp
-schemaconcommands.cpp
-schemadatatraversal.cpp
-schemadiskmapping.cpp
-schemaenuminfo.cpp
-schemaiterator.cpp
+schema_list_bindings <substring> - List registered schema bindings (classes & enums). If no substring, list them all.
 schemalib
-schemalib_schema_anchor.gen_cpp
-schemametadata.cpp
 schemamismatchreport.cpp
 schemasystem
 schemasystem.cpp
-schemasystem_schema_anchor.gen_cpp
-schemasystemutils.cpp
+schematexttype.cpp
+schematextwriter.cpp
+schematraversal.cpp
 schematype.cpp
-schematype_h_schema.gen_cpp
-schematypes.cpp
-schematypes_h_schema.gen_cpp
-secondary
-sequence_name
-sequence_number
 server_can_execute
-shapeType
+sht:A
 singleplayer
 soundsystem
-source_filename
-spawn_motion_disabled
-speed
-splitstring.cpp
 sqrtf
 sqrtf@@GLIBC_2.2.5
 ss_added
-sseconst.cpp
-stop_immediately
-stop_instantly
-stop_on_seq_change
 strchr
 strchr@@GLIBC_2.2.5
 strcmp
 strcmp@@GLIBC_2.2.5
 strcpy
 strcpy@@GLIBC_2.2.5
-stringpool.cpp
+string
 strlen
 strlen@@GLIBC_2.2.5
 strstr@@GLIBC_2.2.5
-suppress
-surface_prop
+symbol
 t	[A\]
-t D;(u
-t#D9#u
-t$H;h
-t$HcS
-t$HcS0
-t$HcSX
-t$HcU
-t$HcW
-t)HcE
-t.I;|$ t'H
-t1L;(u
-t6[A\A]]
-t;fE9
-t<Ic_(A;_8
-t<Lcs8D;sHD
-t=[A\]
-tC[A\A]A^]
-tEfE9
-tGD;(u
-tGMcE
-tJHcC
+t"HcK
+t"HcO
+t#;0u
+t$@A\]
+t$H9h
+t$HcK
+t$HcM
+t$HfA
+t(HcO
+t)[A\]
+t*HcM
+t+Hc4
+t,[A\A]A^]
+t.I;|$(t'H
+t0D;(H
+t1D;(H
+t2L;8u
+t3[A\]
+t4D;(H
+t4[A\]
+t7[A\A]A^]
+t?[A\]
+t@@:>u
+tL[A\A]A^]
 tMIcE
 tPIcE
-tY)g~z
-t_D;"u
-teE9E
-test_angles_relative
-texturescale
-thIcG
-tier1.cpp
-tier2.cpp
-tjHcO
-transform.cpp
-trw8<
-turn_rate
-tvHcS0
-txHcW
-tyHcW
-tzHcU
-u&I;t$ t7I
-u*IcF
+tR[A\A]A^]
+tSHcO
+tWA9]
+tc;:t
+tdA:]
+td[A\]
+textsave_dyndata.cpp
+trHcO
+ttIcG
+tyHcO
+t{HcO
+t}HcO
+u(t-E9
 u64( %lld = 0x%llX )
-u`H9u
-ugH9}
 uint16
 uint32
 uint64
 uint8
 uint8[%d] %s =
-uniqueid_h_schema.gen_cpp
+unknown
 unsigned char
 update
-utlbinaryblock.cpp
+utils/schemasystemutils.cpp
 utlbuffer.cpp
-utlbufferutil.cpp
-utlincrementalvector_h_schema.gen_cpp
-utlmemory.cpp
 utlstring.cpp
-utlstringtoken.cpp
-utlstringtoken_h_schema.gen_cpp
-utlsymbol.cpp
-utltokenizer.cpp
-utlvector_h_schema.gen_cpp
-v:L;u
-v?L;e
-vAL;M
-vAL;m
-value
-vector.cpp
-version
-vmatrix.cpp
-vpcf1
-vpcf10
-vpcf11
-vpcf12
-vpcf13
-vpcf14
-vpcf15
-vpcf16
-vpcf17
-vpcf18
-vpcf19
-vpcf2
-vpcf3
-vpcf4
-vpcf5
-vpcf6
-vpcf7
-vpcf8
-vpcf9
-vr_carry_type
+v!<\t
+vrgrp
 vrman
-vsnap
-w AUI
-w tbI
-w(AUI
+vrnmd
 wcscmp
 wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
-width
-wnL9u
 worldrenderer
-x@HcO
+xGHcO
 x[A\A]A^A_]
-x|LcG
-yaw_end
-yaw_start
+y0[A\A]]
+y8[A\A]A^]
+z/u-H
+z:KEZ
+{0[A\A]A^]
+{8;C0t4
 {DegreeEuler Value}
 {Float64 Value}
 {Fltx4 Value}
@@ -2013,18 +1705,21 @@ yaw_start
 {Unrecognized introspection type: %d (%s)}
 {Unrecognized introspection type: %d}
 {Void Value}
-{YIN?
+{`[A\A]]
 {x: %g, y: %g, z: %g, w: %g}
 {}()':
 {}[]()=&, 	
-{}[]=, 	
-|$([A\]
-|$0E;|$@
+|$ D;
+|$ E1
+|$0A\]
 |$@Hc
-|$TE1
-~)H;7I
-~7;w$
-~Ef;w
-~IHcK
-~WIcF
-~eHcW
+}>;w$
+}Hf;w
+~	ATI
+~&H97t@
+~)A;]
+~AVAUL
+~PA\A]A^]
+~SHcC
+~[HcW
+~vHcKPHc

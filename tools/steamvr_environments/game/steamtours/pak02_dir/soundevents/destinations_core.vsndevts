@@ -1,180 +1,262 @@
+"core.voip"
 {
-	core.voip = 
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.voip"
 		vsnd_files = "sounds/diagnostics/bell.vsnd"
-	}
-	core.soundscape_3d = 
+	}}
+
+"core.soundscape_3d"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr_soundscapes"
-		volume_input_01 = 0.700000
+		volume_input_01 = 0.7
 		vsnd_files = "sounds/common/null.vsnd"
-	}
-	core.soundscape_2d = 
+	}}
+
+"core.soundscape_2d"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.src1_2d"
 		vsnd_files = "sounds/common/null.vsnd"
-	}
-	default.null = 
+	}}
+
+"default.null"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
 		vsnd_files = "sounds/common/null.vsnd"
-	}
-	teleport_ray_start = 
+	}}
+
+"teleport_ray_start"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.150000
+		volume = 0.15
 		vsnd_files = "sounds/common/teleport_ray_start.vsnd"
-	}
-	teleport_ray_loop = 
+	}}
+
+"teleport_ray_loop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		start = 0.100000
+		start = 0.1
 		vsnd_files = "sounds/common/teleport_ray_loop.vsnd"
-	}
-	teleport_reject = 
+	}}
+
+"teleport_reject"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/common/teleport_reject.vsnd"
-	}
-	teleport_latch = 
+	}}
+
+"teleport_latch"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/common/teleport_latch.vsnd"
-	}
-	teleport_go = 
+	}}
+
+"teleport_go"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/common/teleport_go.vsnd"
-	}
-	ui_menu_open = 
+	}}
+
+"ui_menu_open"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.150000
+		volume = 0.15
 		vsnd_files = "sounds/common/ui_menu_open.vsnd"
-	}
-	ui_menu_close = 
+	}}
+
+"ui_menu_close"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.150000
+		volume = 0.15
 		vsnd_files = "sounds/common/ui_menu_close.vsnd"
-	}
-	ui_select = 
+	}}
+
+"ui_select"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = "sounds/common/ui_select.vsnd"
-	}
-	ui_bad_selection = 
+	}}
+
+"ui_bad_selection"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = "sounds/common/ui_bad_selection.vsnd"
-	}
-	focus_change = 
+	}}
+
+"focus_change"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.focuschange_2d"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/common/focus_change.vsnd"
-	}
-	activation = 
+	}}
+
+"activation"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = "sounds/common/ui_select.vsnd"
-	}
-	teleport_ray_reject = 
+	}}
+
+"teleport_ray_reject"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/common/teleport_reject.vsnd"
-	}
-	win_prop = 
+	}}
+
+"win_prop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = "sounds/common/win_prop.vsnd"
-	}
-	win_prop_fade = 
+	}}
+
+"win_prop_fade"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = "sounds/common/win_prop_fade.vsnd"
-	}
-	Inventory.GrabItem = 
+	}}
+
+"Inventory.GrabItem"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/common/grab.vsnd"
-	}
-	Inventory.SpawnItemFromMenu = 
+	}}
+
+"Inventory.SpawnItemFromMenu"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 0.150000
-		pitch = 0.900000
+		volume = 0.15
+		pitch = 0.9
 		vsnd_files = "sounds/common/ui_select.vsnd"
-	}
-	default_equip = 
+	}}
+
+"default_equip"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = "sounds/tools/default_equip.vsnd"
-	}
-	default_unequip = 
+	}}
+
+"default_unequip"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = "sounds/tools/default_unequip.vsnd"
-	}
-	fire_toy_gun = 
+	}}
+
+"fire_toy_gun"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.450000
+		volume = 0.45
 		vsnd_files = "sounds/tools/zapper.vsnd"
-	}
-	toy_gun_equip = 
+	}}
+
+"toy_gun_equip"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = "sounds/tools/zapper_equip.vsnd"
-	}
-	toy_gun_impact = 
+	}}
+
+"toy_gun_impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.250000
+		volume = 0.25
 		vsnd_files = 
 		[
 			"sounds/tools/zapper_impact_01.vsnd",
 			"sounds/tools/zapper_impact_02.vsnd",
 			"sounds/tools/zapper_impact_03.vsnd",
 		]
-	}
-	ballooninator_equip = 
+	}}
+
+"ballooninator_equip"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = "sounds/tools/balloonator_equip.vsnd"
-	}
-	balloon_pop = 
+	}}
+
+"balloon_pop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.200000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 900.000000
+		volume = 0.2
+		volume_falloff_min = 100.0
+		volume_falloff_max = 900.0
 		vsnd_files = 
 		[
 			"sounds/tools/balloon_pop_01.vsnd",
 			"sounds/tools/balloon_pop_02.vsnd",
 			"sounds/tools/balloon_pop_03.vsnd",
 		]
-	}
-	balloon_hit = 
+	}}
+
+"balloon_hit"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = 
 		[
 			"sounds/tools/balloon_hit_01.vsnd",
@@ -182,288 +264,414 @@
 			"sounds/tools/balloon_hit_03.vsnd",
 			"sounds/tools/balloon_hit_04.vsnd",
 		]
-	}
-	balloon_inflate = 
+	}}
+
+"balloon_inflate"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = 
 		[
 			"sounds/tools/balloon_inflate_01.vsnd",
 			"sounds/tools/balloon_inflate_02.vsnd",
 			"sounds/tools/balloon_inflate_03.vsnd",
 		]
-	}
-	balloon_inflate_end = 
+	}}
+
+"balloon_inflate_end"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/tools/balloon_inflate_end.vsnd"
-	}
-	locate_ping = 
+	}}
+
+"locate_ping"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.cache_finder_ping"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/tools/cachefinder_ping.vsnd"
-	}
-	cache_finder_equip = 
+	}}
+
+"cache_finder_equip"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.150000
+		volume = 0.15
 		vsnd_files = "sounds/tools/cachefinder_equip.vsnd"
-	}
-	cache_finder_target = 
+	}}
+
+"cache_finder_target"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = "sounds/tools/cachefinder_target_start.vsnd"
-	}
-	cache_finder_target_loop = 
+	}}
+
+"cache_finder_target_loop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.300000
-		fade_out = 0.100000
+		volume = 0.3
+		fade_out = 0.1
 		vsnd_files = "sounds/tools/cachefinder_target_loop.vsnd"
-	}
-	cache_finder_no_target = 
+	}}
+
+"cache_finder_no_target"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.400000
+		volume = 0.4
 		vsnd_files = "sounds/tools/cachefinder_trigger_fail.vsnd"
-	}
-	cache_finder_trigger_nocache = 
+	}}
+
+"cache_finder_trigger_nocache"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.400000
+		volume = 0.4
 		vsnd_files = "sounds/tools/cachefinder_trigger_nocache.vsnd"
-	}
-	cache_loop_rate = 
+	}}
+
+"cache_loop_rate"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.cache_finder_rate"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = "sounds/tools/cache_loop_rate.vsnd"
-	}
-	cache_loop_progress = 
+	}}
+
+"cache_loop_progress"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.cache_finder_progress"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/tools/cache_loop_progress.vsnd"
-	}
-	cache_released = 
+	}}
+
+"cache_released"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = "sounds/tools/cache_released.vsnd"
-	}
-	cache_open = 
+	}}
+
+"cache_open"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = "sounds/tools/cache_open.vsnd"
-	}
-	cache_break = 
+	}}
+
+"cache_break"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.400000
+		volume = 0.4
 		vsnd_files = "sounds/tools/cache_open.vsnd"
-	}
-	tagmarker_equip = 
+	}}
+
+"tagmarker_equip"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = "sounds/tools/tagmarker_equip.vsnd"
-	}
-	tagmarker_start = 
+	}}
+
+"tagmarker_start"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.150000
+		volume = 0.15
 		vsnd_files = "sounds/tools/tagmarker_start.vsnd"
-	}
-	tagmarker_loop = 
+	}}
+
+"tagmarker_loop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/tools/tagmarker_loop.vsnd"
-	}
-	tagmarker_stop = 
+	}}
+
+"tagmarker_stop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = "sounds/tools/tagmarker_stop.vsnd"
-	}
-	drone_equip = 
+	}}
+
+"drone_equip"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = "sounds/tools/drone_equip.vsnd"
-	}
-	drone_explode = 
+	}}
+
+"drone_explode"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.800000
+		volume = 0.8
 		vsnd_files = "sounds/tools/drone_explode.vsnd"
-	}
-	drone_damage = 
+	}}
+
+"drone_damage"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = 
 		[
 			"sounds/tools/drone_damage_01.vsnd",
 			"sounds/tools/drone_damage_02.vsnd",
 			"sounds/tools/drone_damage_03.vsnd",
 		]
-	}
-	drone_shoot = 
+	}}
+
+"drone_shoot"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.350000
+		volume = 0.35
 		vsnd_files = "sounds/tools/drone_shoot.vsnd"
-	}
-	drone_spawn = 
+	}}
+
+"drone_spawn"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = "sounds/tools/drone_spawn.vsnd"
-	}
-	drone_recall = 
+	}}
+
+"drone_recall"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = "sounds/tools/drone_recall.vsnd"
-	}
-	drone_speed_acc = 
+	}}
+
+"drone_speed_acc"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.350000
-		fade_out = 0.100000
+		volume = 0.35
+		fade_out = 0.1
 		vsnd_files = 
 		[
 			"sounds/tools/drone_speed_acc_01.vsnd",
 			"sounds/tools/drone_speed_acc_02.vsnd",
 			"sounds/tools/drone_speed_acc_03.vsnd",
 		]
-	}
-	drone_speed_dec = 
+	}}
+
+"drone_speed_dec"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.100000
+		volume = 0.1
 		vsnd_files = 
 		[
 			"sounds/tools/drone_speed_dec_01.vsnd",
 			"sounds/tools/drone_speed_dec_02.vsnd",
 			"sounds/tools/drone_speed_dec_03.vsnd",
 		]
-	}
-	drone_loop_close = 
+	}}
+
+"drone_loop_close"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.200000
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 300.000000
+		volume = 0.2
+		volume_falloff_min = 10.0
+		volume_falloff_max = 300.0
 		vsnd_files = "sounds/tools/drone_loop_close.vsnd"
-	}
-	drone_loop_data = 
+	}}
+
+"drone_loop_data"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.100000
-		volume_falloff_min = 10.000000
-		volume_falloff_max = 300.000000
+		volume = 0.1
+		volume_falloff_min = 10.0
+		volume_falloff_max = 300.0
 		vsnd_files = "sounds/tools/drone_loop_data.vsnd"
-	}
-	drone_loop_speed = 
+	}}
+
+"drone_loop_speed"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.200000
-		volume_falloff_min = 100.000000
-		volume_falloff_max = 800.000000
+		volume = 0.2
+		volume_falloff_min = 100.0
+		volume_falloff_max = 800.0
 		vsnd_files = "sounds/tools/drone_loop_speed.vsnd"
-	}
-	drone_loop_wide = 
+	}}
+
+"drone_loop_wide"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = "sounds/tools/drone_loop_wide.vsnd"
-	}
-	multitool_equip = 
+	}}
+
+"multitool_equip"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.650000
+		volume = 0.65
 		vsnd_files = "sounds/tools/multitool_equip.vsnd"
-	}
-	multitool_switch = 
+	}}
+
+"multitool_switch"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.600000
+		volume = 0.6
 		vsnd_files = "sounds/tools/multitool_switch.vsnd"
-	}
-	multitool_click = 
+	}}
+
+"multitool_click"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.200000
+		volume = 0.2
 		vsnd_files = "sounds/tools/multitool_click.vsnd"
-	}
-	multitool_clone_start = 
+	}}
+
+"multitool_clone_start"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = "sounds/tools/multitool_clone_start.vsnd"
-	}
-	multitool_clone_complete = 
+	}}
+
+"multitool_clone_complete"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
+		volume = 0.5
 		vsnd_files = "sounds/tools/multitool_clone_complete.vsnd"
-	}
-	multitool_clone_loop = 
+	}}
+
+"multitool_clone_loop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.800000
-		fade_in = 0.100000
+		volume = 0.8
+		fade_in = 0.1
 		vsnd_files = "sounds/tools/multitool_clone_loop.vsnd"
-	}
-	multitool_delete_complete = 
+	}}
+
+"multitool_delete_complete"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.300000
+		volume = 0.3
 		vsnd_files = "sounds/tools/multitool_delete_complete.vsnd"
-	}
-	multitool_delete_loop = 
+	}}
+
+"multitool_delete_loop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
-		fade_in = 0.100000
+		volume = 0.5
+		fade_in = 0.1
 		vsnd_files = "sounds/tools/multitool_delete_loop.vsnd"
-	}
-	multitool_freeze_complete = 
+	}}
+
+"multitool_freeze_complete"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = "sounds/tools/multitool_freeze_complete.vsnd"
-	}
-	multitool_freeze_loop = 
+	}}
+
+"multitool_freeze_loop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
-		fade_in = 0.100000
+		volume = 0.5
+		fade_in = 0.1
 		vsnd_files = "sounds/tools/multitool_freeze_loop.vsnd"
-	}
-	multitool_thaw_complete = 
+	}}
+
+"multitool_thaw_complete"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.700000
+		volume = 0.7
 		vsnd_files = "sounds/tools/multitool_thaw_complete.vsnd"
-	}
-	multitool_thaw_loop = 
+	}}
+
+"multitool_thaw_loop"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 0.500000
-		fade_in = 0.100000
+		volume = 0.5
+		fade_in = 0.1
 		vsnd_files = "sounds/tools/multitool_thaw_loop.vsnd"
-	}
-	inventory_select = 
+	}}
+
+"inventory_select"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
 		vsnd_files = "sounds/common/ui_select.vsnd"
-	}
-}
+	}}
+

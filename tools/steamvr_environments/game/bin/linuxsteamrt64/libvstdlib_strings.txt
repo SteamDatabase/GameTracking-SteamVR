@@ -28,17 +28,18 @@
    - %s
  ( def. "%s" )
  (once).
- A]H1
+ A\H1
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^]
  [A\]
+ []A\
  max. %f
  min. %f
- tMv+@
 "%s" 
 "%s" = "%s"
 "%s","%s",%s,"%s"
+"t&L;}
 #[A\]
 #base
 #base is NULL 
@@ -46,9 +47,10 @@
 #include
 #include is NULL 
 #int#
-$2L;c v[
+$+s$Hc
+$2L;c vb
 $2L;c w
-$A;\$
+$E;L$
 $ORIGIN
 $[A\]
 $woL)
@@ -63,6 +65,7 @@ $woL)
 %-80s : %-16s : %-32s : %s
 %3i convars/concommands for [%s]
 %3i total convars/concommands
+%d total counted strings.
 %f %f %f %f
 %i %i %i %i
 %ls [wstring, len = %d]
@@ -71,15 +74,12 @@ $woL)
 %s %s
 %s %s %s %s
 %s %s -nominidumps
-%s: Unable to progress to finished state
 %s: string format requested %d chars
 &YA1D
 &YA1H
 &YA1L
-&fE9i
 (*%s*), 
-(HcBpL
-(HcWP
+(H97tbH
 ([A\A]A^A_]
 ([A\A]]
 ([]A\A]A^A_
@@ -88,17 +88,17 @@ $woL)
 (none)
 *ZN11CThreadPool11GetDummyJobEvE9CDummyJob
 *[A\A]A^]
++K$Lc
 +S$Hc
 +s$Hc
++s$Ic
 +s<Hc
-,>L;k v`
-,>L;k w
-,vATI
++u=[A\A]A^]
++{$Hc
 --------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 -VUUU
 -VUUUA
--VUUUL
 -attachtodebugger
 -breakimmediately
 -dedicated
@@ -140,9 +140,11 @@ $woL)
 .tbss
 .text
 /I9D$
-/dev/urandom
+/content/
+/game/
+0123456789ABCDEF
 0123456789abcdef
-0<	wD
+0HcBpH
 0[A\]
 0[]A\A]A^
 0x%016llX
@@ -194,137 +196,157 @@ $woL)
 17CDefaultCvarQuery
 17CGlobalThreadPool
 17CPooledFunctorJob
+18CCountedStringPool
 18CUtlCharConversion
+18ITSHashConstructorI8CEventIdE
+18ITSHashConstructorIN21CUtlStringTokenSystem21CTokenStringAndSourceEE
 19CDmSymbolTableLarge
 19CUtlNoEscConversion
 19IKeyValuesErrorSpew
-1D;G 
 2) channel names: name1 name2 ...           // Lists channels by name.
 20CConfigurationSystem
+20CPostConnectCallback
 20CRefCountServiceBaseILb1E6CRefMTE
 20CUniformRandomStream
 20IConfigurationSystem
 20IUniformRandomStream
 21CUtlCStringConversion
 21CUtlStringTokenSystem
+21IKeyValuesDumpContext
 21IUtlStringTokenSystem
 22IFiberThreadWorkerPool
 23CSplitScreenAddedConVar
 23IConCommandBaseAccessor
 24IAsyncScheduledFunctions
 25CConCommandMemberAccessorI5CCvarE
+25CDefaultTSHashConstructorI8CEventIdE
 26CDefaultKeyValuesErrorSpew
 26ICommandCompletionCallback
+27IKeyValuesDumpContextAsText
+29CKeyValuesDumpContextAsDevMsg
+3+C$H
 30CAsyncScheduledFunctionManager
-4$t$A
-4(@84
+3E8 u
+42HcU
+48@84
 4vf;T
 5CCvar
 5ICvar
 6ConVar
 6H92t%H
 7IConVar
-8A^]H
 8CFmtStrNILi1024ELb0EE
 8CFmtStrNILi256ELb0EE
 8CProcess
 8IProcess
+8VBKVt6HcF
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
-8fA;1
+9Cp~/Mct$pH
 9IPipeRead
-::&hM!
+9fE9b
+:L;7u
 :[tlL
 ;*3$"
-;0tSD
-;0tWD
-;BX|'1
-;Cp},McepL
+;2tiH
+;Hc5Xc4
+;L9'u
 ;[A\]
-<	wlLcG
-<*tY8
+;mempool.cpp
+<	w.1
+<	woD
+<+t%<-t!
+<+u%H
 </script>
+<19{ |.
 << NULL >>
-<D9(t:
+<@tYA
 <NULL>
-<Rt&<Pu
-<frame_end
+<Rt<<Pt`<S
 <invalid handle>
 <null>
 <unknown>
 <unspecified>
-<}tQ<{uW
-?true
-@8;Pp|
+<}tI<{uO
+=CSP1A
+=CSP1u
+?L;'u
+@Xt?H
 @[A\]
-@t)Hc]
-@tB[A\]
 A channel specifier is either:
-A#|$TH
+A+D$$9
 A+D$$H
-A+E$A
 A+E$H
-A+T$$
-A+t$$H
-A+t$$Hc
+A+E$f
+A+G$H
+A+G$Lc
+A+U$A
+A+U$Hc
+A+U$f
+A+W$Hc
+A+W$f
 A+t$<)
-A8D$	u
-A;D$X}
+A+u$Hc
+A9G }
+A9]PI
+A9_@~8L
+A;G A
 A;\$ 
-A;](I
-A;_@|
-A;_@}4L
-A;_p|
+A;\$ A
+A;\$8
+A;\$P
 ACCESSIBLE_FROM_THREADS
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-ATSt$@
-ATSw8D
 ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
-AUAT1
+ATUSH
 AUATA
-AUATE
+AUATD
 AUATI
 AUATL
 AUATLc
-AUATS1
-AUATSD
+AUATS
 AUATSH
 AUATSL
+AUATStMI
+AUATStmH
+AUATUSH
+AVATSH
 AVAUA
 AVAUATA
-AVAUATD
 AVAUATI
 AVAUATS
 AVAUATSH
-AVAUATSL
-AVAUATSfH
-AVAUATS~
+AVAUATUSH
 AVAUD
 AVAUE1
 AVAUI
 AVAUL
+AVAUM
 AWAVA
 AWAVAUA
 AWAVAUATA
-AWAVAUATH
+AWAVAUATD
 AWAVAUATI
 AWAVAUATL
+AWAVAUATS
 AWAVAUATSH
-AWAVAUATSRH
 AWAVAUATUSH
 AWAVAUATUSRAPH
+AWAVAUE1
 AWAVAUI
 AWAVAUL
+AWAVD
+AWAVE
+AWAVE1
 AWAVH
 AWAVI
 AWAVL
 AWAVM
 A\A]A^A_]
 A\A]A^]
+A\A]A^]A
 A\A]]
-A\A^A_]
-A\A^L
 AddCompletionCallback
 AddRef
 All functions are case insensitive.
@@ -349,34 +371,32 @@ Attempted to set read-only configuration value "%s"!
 Attempted to set unknown configuration value %s!
 Attempted to set unknown configuration value!
 Available flags to search for: 
-BCFunctorCallback0
 Bad expression operator: '%c%c', expected C style boolean expression operator.
 Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
 Bad expression token: %c
 BakedLODBuilderMgr001
 BenchmarkService001
 BinaryProperties_GetValue
+C(9C8t-Ic
 C,D)c(A9
-C0H9C
 C8+C(H
-C8;CH
-C8t,H
 C8t<H
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CConfigurationSystem::ReadConfiguration: Error parsing configuration file!
 CCvar::FindCommandBase
+CD$0H
+CD$0M
 CJobH
 CKeyValuesSystem::hash_item_t CUtlMemoryPool
 CKeyValuesSystem::m_Strings
-CKeyValuesSystem::m_pMemPool
-CL$(9
 CLIENTCMD_CAN_EXECUTE
 CLIENTDLL
 CMemAllocSystemInitialize
 CMemoryStack %s
 COLORCORRECTION_VERSION_1
 CPooledFunctorJob CUtlMemoryPool
+CSP1H
 CTSQueue corruption
 CTestScriptMgr: not initialized.
 CTestScriptMgr::InsertCommandsBeforeCheckpoint()
@@ -388,7 +408,8 @@ CTestScriptMgr::LoopForNumSeconds( %s ): no loop with this name exists.
 CTestScriptMgr::StartLoop( %s ): loop already exists.
 CThreadPool::RemoveJob not implemented right now
 CThreadPool::Start called and it was already initialized.
-CUniformRandomStream had an array overrun: tried to write to element %d of 0..31. 
+CUniformRandomStream had an array overrun: tried to write to element %d of 0..31. Contact Tom or Elan.
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
 CUtlFixedMemory overflow!
 CUtlLinkedList overflow! (exhausted index range)
 CUtlLinkedList overflow! (exhausted memory allocator)
@@ -400,12 +421,10 @@ CUtlStringTokenSystem could not update token database "%s" because the file is r
 CUtlStringTokenSystem: Encountered string token collision: "%s" and "%s" both hash to %X!
 CVAR_
 CXXABI_1.3
-CXXABI_1.3.8
 Can't open file (%s) passed to -testscript
 Cannot add a thread job already committed to another thread pool
 Cannot mix and match tag specifiers with channel name specifiers.
 Channel Name
-Cht7Lc{pD;
 CmpJob
 Color
 CommandLine
@@ -437,23 +456,25 @@ Couldn't open '%s' for writing!
 CreateInterface
 CreateNewThreadPool
 CreateSimpleThread
-D$ E1
-D$ H9E
+D$ H9
 D$(A9D$8t"H
-D$(E;A
+D$(E1
 D$0H9
-D$0I9D$
-D$8A9D$(u5A
 D$8I9
-D$@E1
+D$8L9
 D$@H9
 D$@I9
-D$PH9
+D$@L9
 D$`H9
-D)c8A
-D;!ttHc
+D$pM!
+D$rfE
+D+C$Mc
+D+c$Mc
+D+k$Mc
+D+s$Mc
+D;!t{Hc
 D;c D
-D;k D
+D;k tvH
 DEFAULT_WRITE_PATH
 DEVELOPMENTONLY
 Debug test scripts.
@@ -462,14 +483,25 @@ DestroyThreadPool
 DevMsg
 DotaCardGameClient_001
 Dumps information about all logging channels.
+E+D$$Mc
+E+E$Mc
+E+F$Mc
+E+G$Mc
+E+M$Mc
+E+O$Mc
+E+e$Mc
+E+g$Mc
+E+o$Mc
+E+}$Mc
 E9gPI
-E9t$ M
-E9t$(D
-E;.tyA
-E;e(|
-E;e@|
-E;l$p|
+E9l$(
+E9l$@
+E9|$ ~bI
+E;\$(
+E;t$ M
+EMPTY - ok for slot zero only!
 ENGLISH
+EXA;]`
 EXECUTE_PER_TICK
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
@@ -489,9 +521,7 @@ EventSystem001
 Event_CreateHandle
 Event_DestroyHandle
 Event_HandleToData
-F Ic]
-F t2SH
-F t5SH
+F HcU
 FCVAR_ARCHIVE
 FCVAR_ARCHIVE_XBOX
 FCVAR_CHEAT
@@ -499,12 +529,14 @@ FCVAR_DONTRECORD
 FCVAR_NEVER_AS_STRING
 FCVAR_REPLICATED
 FRENCH
+FhA;Fx
 Field %s has inverted min/max values![%f->%f]
 Field %s tried to quantize an out-of-range value (%f, range is %f->%f) clamping.
 Field %s tried to quantize an out-of-range value (%f, range is %f->%f), clamping.
 Field %s was flagged QFE_ENCODE_INTEGERS_EXACTLY, but didn't specify enough bits, upping bitcount from %d to %d for range [%f->%f]
 Field %s was flagged to both round up and down, these flags are mutually exclusive [%f->%f]
 Field %s was flagged to encode zero exactly, but min/max range doesn't span zero [%f->%f]
+File change watching failed for '%s', retraversing
 Find concommands by flags.
 Find concommands with the specified string in their name/help text.
 Find help about a convar/concommand.
@@ -512,20 +544,30 @@ FindOrCreateQuantizedFloatEncoder
 FindRegisteredGlobalObjectInternal
 First character of flag specifier must be + or -.
 Flags
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 Forced execute test failed!
 FormatV
-G U9G
-G8t"H
-G8t+H
-G<@teI
-G<@t~
-G@twH
+G A9G
+G u)H
+G8+G(9
+G<@t	]
+G<@t L
+G<@t#f
+G<@t$
+G<@t+]H
+G<@t1H
+G<@t:
+G<@tLL
+G<@tUI
+G<@ta
+G<@th
+G<@tp
 GAMECONSOLE
 GAMEDLL
-GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
+GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GERMAN
 GLIBC_2.11
 GLIBC_2.14
@@ -537,7 +579,6 @@ GameResourceServiceServerV001
 GameUIService_001
 GetCPUInformation
 GetDmElementTypeSymbolMap
-GetJobManualEventFromPool
 GetQuantizedFloatEncoderByIndex
 GetQuantizedFloatEncodersSharingIndex
 GetSymbolForString
@@ -547,35 +588,48 @@ H	p(]
 H	w(UH
 H!w(H
 H+S H
-H;*twH
+H9*tgH
+H97tbH
+H97trH
+H9C0H
 H;0t5L
+H;S@w
 HIGHDPI
 H[A\A]A^A_]
+H[]A\A]A^A_
 HammerMapLoader001
 HangWatchdog_IndicateActivity
 Hc@pH
 HcC ;C
-HcG U
-HcK$D
-HcO$H
-HcS$D
-HcSHL
+HcC H9
+HcC$H
+HcK Ic
+HcK0Ic
+HcKPHc
 HcSPH
-HcW$H
-Hc_ ;_0t0I
-Hcs@H
+HcWPH
+Hcs H
+Hc{`A
 Help Text
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-I+T$ H
+I	D$(
+I+T$8D
+I9D$0I
+I;V@w
+I;\$ 
+I;\$ A
+I;\$ vd
 IOJob
 IQuickTime001
 ITALIAN
-IcL$0Ic
-IcM(Ic
-Ic](I
-Ic]@I
+IcL$(Ic
+IcNx1
+Ic\$(I
+Ic\$@I
+Ic]PI
+Ict$`H
 Icu`H
 InitFromCommandLine
 InputService_001
@@ -586,10 +640,9 @@ InstallChangeCallback ignoring duplicate change callback!!!
 InstallUniformRandomStream
 Intentionally vague touch behavior for %p
 JAPANESE
-JSON error, unterminated element: 
+Jc<(H
 K@H9J
 KOREAN
-KTu6L
 KV Conditional Evaluation Error
 KV Conditional: Unknown symbol %s
 KeyValueCache001
@@ -598,23 +651,26 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
-L$ H9
-L$pE1
-L+s8H
-L+{8D
-L;s vV
+L$hfE
+L+g H
+L9 t-H
 LINKED_CONCOMMAND
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
-Lc"D;b
-Lc'E)
-Lc)D;i
-Lc>D;~
-Lc`pD;
-Lcc@D;cPD
+Lc D;`
+Lc#D;c
+Lc+D;k
+Lc/E)
+Lc0D;p
+Lc3D;s
+Lc6E9
 LccpD;
-Lck(D;k8D
+Lcg D;g0t/H
+Lck(I
+Lck@D;kPD
+LcppI
+Lc{pD;
 LoadConfigSchema
 LoadFromBuffer: expected '{', found '%s'
 Localize_001
@@ -639,20 +695,22 @@ Logic Error in CExpressionEvaluator
 LoopCount
 LoopForNumSeconds
 M+|$8D
-M;t$ 
-M;t$ A
-M;t$ wDA
+M+|$8H
+M;l$ 
+M;l$ A
+M;l$ w_A
+M;|$ 
+M;|$ A
+M;|$ va
 MATCHFRAMEWORK_001
 MATERIAL_SYSTEM_THREAD
-MHcKHIc
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
-Mc/E;o
-Mc4$E;t$
-Mce@L
-Mcl$pE;
+Mc>E;~
+McfhH
+Mcl$@M
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -661,6 +719,7 @@ ModelDocUtils001
 N14ThreadPoolTest15CExecuteTestJobE
 N14ThreadPoolTest22CExecuteTestExecuteJobE
 N14ThreadPoolTest9CCountJobE
+N21CUtlStringTokenSystem18CStringConstructorE
 N5CCvar21CCVarIteratorInternalE
 N5ICvar21ICVarIteratorInternalE
 NOTIFY
@@ -674,12 +733,13 @@ NetworkSystemUtilsVersion001
 NetworkSystemVersion001
 NewNode
 Not continuing coroutine due to g_bPreventCoroutineContinue, %s
-O,t	[A\]
+O tiH
+O tlH
+OHcK8Ic
 OS error message:
 Ordered constructor wrapped type has no default constructor.
 Out of keyvalue string space
-Out of memory allocation hash_item_t
-P(HcA
+P(Mc4$H
 POLISH
 PORTUGUESE
 POSIX
@@ -690,7 +750,7 @@ PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
 Parent and child ConVars with different default values! %s child: %s parent: %s (parent wins)
-ParticleSystemMgr003
+ParticleSystemMgr002
 Perf warning: Forgot to unregister listeners on event queue %p
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
@@ -717,9 +777,9 @@ Plat_VirtualAlloc
 Plat_VirtualFree
 PostProcessingSystem_001
 PropertyEditorSystem_001
-QIcMP1
+QHcKHIc
 QueuedLoaderVersion001
-R@X[]
+R8Y[]
 RELEASE
 RELOAD_MATERIALS
 RELOAD_TEXTURES
@@ -757,11 +817,9 @@ ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
-ReturnJobManualEventToPool
 RunTSListTests
 RunTSQueueTests
 RunThreadPoolTests
-S HcS
 SCHINESE
 SERVER_CANNOT_QUERY
 SERVER_CAN_EXECUTE
@@ -773,9 +831,6 @@ SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
-SecureRandomBytes
-SecureRandomDouble
-SecureRandomInt
 SerializedEntitiesVersion001
 ServerUploadGameStats001
 Set the color of a logging channel.
@@ -787,6 +842,7 @@ Setting channel '%s' verbosity to '%s'.
 Severity
 Show all convars which are not at their default values (optional restricted to specific flags).
 Show the list of convars/concommands.
+Sht7Lc{pD;
 SoundOpSystem001
 SoundOpSystemEdit001
 SoundService_001
@@ -812,6 +868,9 @@ Start a test script running..
 StartLoop
 StatsService_001
 SteamAudio001
+String %d: ref:%d %s
+T$8H)
+T$jfE
 TCHINESE
 TESTSCRIPT: CheckPoint -> '%s'.
 TESTSCRIPT: waiting for checkpoint '%s'%s
@@ -853,7 +912,7 @@ ThreadIsProcessActive
 ThreadJoin
 ThreadMultiWait
 ThreadPoolTest:         %d threads -- %d (%d) jobs processed in %fms, %fms to suspend (%f/%f) [ (main) %d, %d, %d, %d, %d, %d, %d, %d, %d]
-ThreadPoolTest:         Testing with %d jobs! Sleep %d, interleave %d, prioritized %d 
+ThreadPoolTest:         Testing! Sleep %d, interleave %d, prioritized %d 
 ThreadPoolTest:     Distribute
 ThreadPoolTest:     Distribute NO Sleep
 ThreadPoolTest:     NO Sleep
@@ -879,22 +938,26 @@ ToolScriptManager001
 ToolService_001
 TransferMemory
 Tried to install the same listener on the same event id + queue twice!
-UIcL$@Ic
+U-VUUUH
+UIcL$ Ic
+UIcL$8Ic
 UNLOGGED
 UPDATE_STRING_TOKEN_DATABASE
 USERINFO
 UnRegisterGlobalObject
 Unable to create thread in %s
 Unable to exec '%s'
+Unable to watch '%s'
 Unknown
 UnlockGlobalObjectRegistry
 Unrecognized flag: %s.
 Unrecognized severity: %s.
 Unrecognized verbosity: %s.
-Usage:  find <string> [<string>...]
+Usage:  find <string>
 Usage:  findflags <string>
 Usage:  help <cvarname>
 UserInfoChangeService_001
+V0u@H
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -905,6 +968,7 @@ VCONSOLE_SET_FOCUS
 VConComm001
 VCvarQuery001
 VDebugService_001
+VDmeMakeFileUtils001
 VEngineCvar007
 VFileSystem017
 VGAME
@@ -914,6 +978,7 @@ VGUI_Scheme010
 VGUI_Surface032
 VGUI_System010
 VGUI_ivgui008
+VHIcvTA
 VMDLLIB001
 VMaterialSystem2_001
 VMediaFoundation001
@@ -929,7 +994,6 @@ VRenderDeviceSetupV001
 VScriptManager010
 VStdLib_GetICVarFactory
 VStringTokenSystem001
-V_CompareNameWithWildcards
 V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
@@ -953,8 +1017,6 @@ V_UTF8CharsToUTF32
 V_UTF8ToUTF32
 V_UnqualifiedFileName
 V_atof
-V_atofloat32
-V_atofloat64
 V_atoi
 V_fclose
 V_fflush
@@ -990,8 +1052,9 @@ V_vsnprintfRet
 V_vsnprintfSize
 V_wcstod
 V_wcstoi64
+VaPrintf
 VisBuilder_001
-W u)H
+WARNING: CDirWatcher not implemented
 WARNING: unable to link %s and %s because both ConCommands are not marked FCVAR_LINKED_CONCOMMAND
 WIN32
 WINDOWS
@@ -1009,30 +1072,33 @@ X360WIDE
 X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
-YieldWait
+ZIcL$
 [%f %f %f %f]
 [%f %f %f]
 [%f %f]
 [0 0 0 0]
 [0 0 0]
 [0 0]
-[A\A]
 [A\A]A^A_]
 [A\A]A^]
-[A\A]A^]H
-[A\A]H
 [A\A]]
-[A\A]]H
-[A\]H
+[A\A^]
 [ConsoleOnly]
 [DoNotEcho]
+[IcL$
+[IcNx1
 []A\A]
 []A\A]A^
 []A\A]A^A_
-^IcL$ Ic
-_8+_(L
+\$lfA
+\$nfE
+\t!Hc
+\u0000
+]H+G 
+^ t+H
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
+_IcL$P1
 _Jv_RegisterClasses
 _V_ComposeFileName
 _V_ExtractFileExtension
@@ -1106,9 +1172,7 @@ _ZN21CGaussianRandomStreamC2EP20IUniformRandomStream
 _ZN21CThreadMultiWaitEvent3SetEv
 _ZN21CThreadMultiWaitEvent5ResetEv
 _ZN21CThreadMultiWaitEventC1Eb
-_ZN21CThreadMultiWaitEventC2Eb
 _ZN21CThreadMultiWaitEventD1Ev
-_ZN21CThreadMultiWaitEventD2Ev
 _ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
 _ZN22CThreadRWLock_FastRead23UnlockRead_LockForWriteEv
 _ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
@@ -1165,8 +1229,6 @@ __cxa_guard_release
 __cxa_guard_release@@CXXABI_1.3
 __cxa_pure_virtual
 __cxa_pure_virtual@@CXXABI_1.3
-__cxa_throw_bad_array_new_length
-__cxa_throw_bad_array_new_length@@CXXABI_1.3.8
 __environ
 __environ@@GLIBC_2.2.5
 __errno_location
@@ -1193,9 +1255,7 @@ _fini
 _init
 _setjmp
 _setjmp@@GLIBC_2.2.5
-`8[A\]
 abort@@GLIBC_2.2.5
-all_projects_common_code.cpp
 alphasort64
 alphasort64@@GLIBC_2.2.5
 appears in lower database
@@ -1204,11 +1264,10 @@ bin\stringtokendatabase.txt
 borrow
 bounds
 c D;c
-characterset.cpp
+c.[A\]
 chdir
 chdir@@GLIBC_2.2.5
 cheat
-checksum_crc.cpp
 cl_language
 client
 clientcmd_can_execute
@@ -1221,18 +1280,12 @@ configschema.vcfg
 configurationsystem.cpp
 configvalue.cpp
 consoleonly
-convar.cpp
-coroutine.cpp
 corrupted entry
-cp~$H
-crtstuff.c
 cvar list
-cvar.cpp
 cvarlist
 cvarlist:  [log logfile] [ partial ]
 dH34%(
 dH3<%(
-datamodelsymboltable.cpp
 default
 defaultValue
 defaults
@@ -1252,20 +1305,15 @@ english
 environ@@GLIBC_2.2.5
 error
 essential
-eventdispatcherutils.cpp
-eventsystem.cpp
-eventutils.cpp
 execute_per_tick
 execvpe
 execvpe@@GLIBC_2.11
-exprevaluator.cpp
-f;0tZfD
-f;0t_fD
-f;7tt
-fD9#tML
-fD;!t
-fD;#tZL
-fD;t2
+f;0tr
+f;Crw
+f;S.w
+fA;0M
+fA;0trA
+fD9"taH
 false
 fcntl
 fcntl@@GLIBC_2.2.5
@@ -1275,16 +1323,18 @@ fff?H
 ffff.
 fffff.
 ffffff.
-fileio.cpp
 findflags
 findflags 
 flag: <+/->DoNotEcho                        // Enable/disable a flag to turn off echoing to the console.
 float( %f )
 float32
 fork@@GLIBC_2.2.5
+frame_end
 free@@GLIBC_2.2.5
 ftruncate64
 ftruncate64@@GLIBC_2.2.5
+g E;g0D
+g8D+g(L
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_VCoverage
@@ -1293,7 +1343,6 @@ g_pFiberJobPool
 g_pMemAlloc
 g_pScheduledFunctions
 g_pThreadPool
-generichash.cpp
 getdtablesize
 getdtablesize@@GLIBC_2.2.5
 h[A\A]A^A_]
@@ -1301,14 +1350,12 @@ help
 help text
 help:  no cvar or command named %s
 hex color: RRGGBBAA                         // A hexadecimal color value in the order RGBA.
-htmltools.cpp
 int( %d = 0x%X )
-interface.cpp
 interfaces.cpp
 jobthread.cpp
-json_parser.c
-kdt=H
-keyvalues.cpp
+k8D;kHtMH
+k@[A\A]A^]
+kdt3H
 keyvaluessystem.cpp
 launch
 ld-linux-x86-64.so.2
@@ -1338,15 +1385,10 @@ memcmp
 memcmp@@GLIBC_2.2.5
 memcpy
 memcpy@@GLIBC_2.14
-memfunctions.cpp
 memmove
 memmove@@GLIBC_2.2.5
-memoverride.cpp
-mempool.cpp
 memset
 memset@@GLIBC_2.2.5
-memstack.cpp
-n0ATI
 nTries < 10000000
 no results
 nolog
@@ -1354,9 +1396,7 @@ norecord
 notconnected
 notify
 numeric
-oPATA
 oPATI
-oPATSH
 open64
 open64@@GLIBC_2.2.5
 opendir
@@ -1374,7 +1414,6 @@ prctl@@GLIBC_2.2.5
 pread64
 pread64@@GLIBC_2.2.5
 print
-processutils.cpp
 pthread_mutex_destroy
 pthread_mutex_destroy@@GLIBC_2.2.5
 pthread_mutex_init
@@ -1393,8 +1432,7 @@ ptr( 0x%p )
 pwrite64
 pwrite64@@GLIBC_2.2.5
 qangle
-quantizedfloatencoderregistry.cpp
-random.cpp
+r7LcQ
 read@@GLIBC_2.2.5
 readdir64
 readdir64@@GLIBC_2.2.5
@@ -1405,9 +1443,9 @@ reload_materials
 reload_textures
 render_thread
 replicated
-sHt	H
-sMA9|$ 
-s_dev_urandom_fd >= 0
+rnd_down
+rnd_up
+sMA;|$ 
 scandir64
 scandir64@@GLIBC_2.2.5
 schema
@@ -1429,55 +1467,49 @@ strcpy
 strcpy@@GLIBC_2.2.5
 strerror
 strerror@@GLIBC_2.2.5
-stringpool.cpp
 strlen
 strlen@@GLIBC_2.2.5
 strrchr
 strrchr@@GLIBC_2.2.5
 strstr@@GLIBC_2.2.5
-strtools.cpp
+sxtHL
 t	[A\]
-t#HcE
-t$	H9
-t$H;h
-t$HcU
-t$HcW
-t$HcW 
-t$PE1
-t$PHc
-t%HcE
-t&IcW
-t'H9P
+t ;0u
+t!HcO
+t";2u
+t"HcK
+t"HcM
+t"HcO
+t$H9h
+t(HcO
 t)[A\]
-t.H9P
-t/D;#u
-t2</u
-t4[A\A]]
-t6[A\]
-t7D;8u
-t:[A\]
-t><*u
-tC[A\A]A^]
-tIMc4$E;t$
-tKA;]
-tbHcE
-te[A\A]A^]
+t+Hc4
+t+Mc}
+t,IcG
+t/D9#u
+t1E;.H
+t4E;.H
+t4[A\]
+t7</u
+t@@:>u
+tGL9#u
+tL[A\A]A^]
+tSHcO
+tWA9]
+tdA:]
 test string
 testscript_debug
 testscriptmgr.cpp
-thIcG
 threadsafe
-tier1.cpp
-toHcU
-txA9\$ I
-txHcW
-txHcW 
-tzHcW
-t|HcU
-u$HcE
+ttIcG
+tvHcM
+txA;\$ I
+tyHcO
+t{HcO
+t}HcM
+t}HcO
+u0IcvTH
 u64( %lld = 0x%llX )
-u?H9G8L
-uLH9G8L
 uint32
 uint64
 unit test
@@ -1485,26 +1517,23 @@ unknown
 unlink
 unlink@@GLIBC_2.2.5
 update
-urandom_result > 0 || ( urandom_result < 0 && errno == EINTR )
 utlbuffer.cpp
-utlmemory.cpp
-utlobjectregistry.cpp
 utlstring.cpp
-utlstringtoken.cpp
-utlstringtokensystem.cpp
-utlsymbol.cpp
+v!<\t
 value
 vconsole_fuzzy
 vconsole_set_focus
-vcover.cpp
 vector2
 vector3
 vector4
 verbosity: off, essential, default,         // Sets how verbose a channel is allowed to be.
 vstdlib
-vstdlib_strtools.cpp
+w AUL
+w tmH
+w@AUM
 wHAUA
 wPAUI
+wXAUE1
 warning
 wcscmp
 wcscmp@@GLIBC_2.2.5
@@ -1512,29 +1541,25 @@ wcslen
 wcslen@@GLIBC_2.2.5
 without
 write@@GLIBC_2.2.5
-x@HcO
-xBHcO
+xGHcO
 xRHcW
-xVHcE
 x[A\A]A^A_]
 xbox_archive
 xsHcW
-x|LcG
-z)u'A
+zDCKeyValuesSystem::m_pMemPool
 {%d %d %d %d}
-{(t5H
 {0 0 0 255}
-{HE;ePu
+{8;C0t4
+{HE;l$Pu
 {}()':
-|$0E;|$@
-|5H;I
-}%fD;
-}MD9m
-}lfD9
-~)H;7I
-~7;w$
-~9;w$
-~Ef;w
-~I;w$
-~IHcK
-~j;w$
+}+fA9
+}>;w$
+}G;w$wBH
+}Hf;w
+}I;w$
+}j;w$
+~	ATI
+~&H97t@
+~)A;]
+~SHcC
+~vHcKPHc

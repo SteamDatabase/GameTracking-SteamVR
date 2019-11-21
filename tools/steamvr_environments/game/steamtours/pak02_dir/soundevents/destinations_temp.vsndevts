@@ -1,18 +1,22 @@
+"temp_soundevent_example_3d"
 {
-	temp_soundevent_example_3d = 
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 1.000000
-		pitch = 1.000000
+		volume = 1.0
+		pitch = 1.0
 		volume_falloff_min = 200
 		volume_falloff_max = 2000
 		vsnd_files = "sounds/test/null.vsnd"
-	}
-	temp_soundevent_example_3d_multiple = 
+	}}
+
+"temp_soundevent_example_3d_multiple"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_vr"
-		volume = 1.000000
-		pitch = 1.000000
+		volume = 1.0
+		pitch = 1.0
 		volume_falloff_min = 200
 		volume_falloff_max = 2000
 		vsnd_files = 
@@ -21,11 +25,14 @@
 			"sounds/test/null.vsnd",
 			"sounds/test/null.vsnd",
 		]
-	}
-	temp_soundevent_example_2d = 
+	}}
+
+"temp_soundevent_example_2d"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 	{
 		type = "destinations.simple_2d"
-		volume = 1.000000
+		volume = 1.0
 		vsnd_files = "sounds/npc/scanner/combat_scan2.vsnd"
-	}
-}
+	}}
+

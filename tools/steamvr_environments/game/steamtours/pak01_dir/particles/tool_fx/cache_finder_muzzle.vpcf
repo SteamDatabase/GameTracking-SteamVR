@@ -41,7 +41,7 @@
 		{
 			_class = "C_OP_RemapCPtoVector"
 			m_nCPInput = 2
-			m_nFieldOutput = "6"
+			m_nFieldOutput = 6
 			m_vOutputMax = 
 			[
 				1.000000,
@@ -164,8 +164,8 @@
 			m_fForceAmount = 500.000000
 			m_TwistAxis = 
 			[
+				1.000000,
 				0.000000,
-				-1.000000,
 				0.000000,
 			]
 			m_bLocalSpace = true

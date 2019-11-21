@@ -407,27 +407,10 @@
 			locked_by_quest = false
 			//inventory_service_id = 122
 		},	
-		{
-			id = "halloween_pumpkinhead"
-			name = "#VR_Avatar_HalloweenPumpkinhead"
-			desc = "#VR_Avatar_HalloweenPumpkinhead_Desc"
-			content = "models/characters/avatars/halloween_pumpkinhead.vmdl"
-			preview_image = "file://{images}/contentdb/halloween_pumpkinhead.png"
-			locked_by_quest = true
-			//inventory_service_id = 123
-		},	
 	]
 
 	avatar_hands =
 	[
-		{
-			id = "vive_wand_import"
-			name = "#Imported_Vive_RenderModel"
-			desc = "#Imported_Vive_RenderModel_Desc"
-			content = "models/steamvr_rendermodels/vr_controller_vive_1_5/vr_controller_vive_1_5.vmdl"
-			preview_image = "file://{images}/contentdb/default_controllers.png"
-			dev_only = true
-		},
 		{
 			id = "vive_controllers"
 			name = "#VR_Avatar_Hand_Default"
@@ -443,13 +426,6 @@
 			preview_image = "file://{images}/contentdb/oculus_cv1_controller.png"
 		},
 		{
-			id = "rift_s_controllers"
-			name = "#VR_Avatar_Rift_S"
-			desc = "#VR_Avatar_Rift_S_Desc"
-			content = "models/controllers/oculus_rifts_controller_left.vmdl"
-			preview_image = "file://{images}/contentdb/oculus_rifts_controller.png"
-		},
-		{
 			id = "knuckles_ev1_3_controllers"
 			name = "#VR_Avatar_Knuckles"
 			desc = "#VR_Avatar_Knuckles_Desc"
@@ -460,7 +436,7 @@
 			id = "knuckles_controllers"
 			name = "#VR_Avatar_Knuckles"
 			desc = "#VR_Avatar_Knuckles_Desc"
-			content = "models/controllers/valve_controller_knu_1_0_left.vmdl"
+			content = "models/controllers/valve_controller_knu_ev2_0_left.vmdl"
 			preview_image = "file://{images}/contentdb/knuckles_ev20.png"
 		},
 		{
@@ -476,13 +452,6 @@
 			desc = "#VR_Avatar_WindowsMR_Controllers_Desc"
 			content = "models/controllers/windows_mr_controller_samsung_left.vmdl"
 			preview_image = "file://{images}/contentdb/winmr_samsung_controllers.png"
-		},
-		{
-			id = "cosmos_controllers"
-			name = "#VR_Avatar_Cosmos_Controllers"
-			desc = "#VR_Avatar_Cosmos_Controllers_Desc"
-			content = "models/controllers/vive_cosmos_controller_v1_left.vmdl"
-			preview_image = "file://{images}/contentdb/cosmos_controller.png"
 		},
 		{
 			id = "generic_tracked_controllers"
@@ -507,11 +476,11 @@
 			preview_image = "file://{images}/contentdb/hands_fingers.png"
 		},
 		{
-			id = "full_hands"
-			name = "#VR_Avatar_Hands_Full"
-			desc = "#VR_Avatar_Hands_Full_Desc"
-			content = "models/hands/steamvr_hand_left.vmdl"
-			preview_image = "file://{images}/contentdb/hands_full.png"
+			id = "more_fingers_test"
+			name = "#VR_Avatar_Hands_More_Fingers"
+			desc = "#VR_Avatar_Hands_More_Fingers_Desc"
+			content = "models/hands/vr_hand_scaffold_left.vmdl"
+			preview_image = "file://{images}/contentdb/dev_hands_thumb.png"
 		},
 		{
 			id = "814739886"
@@ -1568,46 +1537,6 @@
 			preview_image = "file://{images}/contentdb/chicken_hat.png"
 			locked_by_quest = true
 			// inventory_service_id = 1056
-			default_color = [ 255,255,255 ]
-		},
-		{
-			id = "halloween_witchhat"
-			name = "#VR_Avatar_Wearable_HalloweenWitchhat"
-			desc = "#VR_Avatar_Wearable_HalloweenWitchhat_Desc"
-			content = "models/props/hats/halloween_witchhat.vmdl"
-			preview_image = "file://{images}/contentdb/halloween_witchhat.png"
-			locked_by_quest = true
-			// inventory_service_id = 1057
-			default_color = [ 255,255,255 ]
-		},
-		{
-			id = "holiday_antler_hat"
-			name = "#VR_Avatar_Wearable_HolidayAntlerHat"
-			desc = "#VR_Avatar_Wearable_HolidayAntlerHat_Desc"
-			content = "models/props/hats/holiday_antler_hat.vmdl"
-			preview_image = "file://{images}/contentdb/holiday_antler_hat.png"
-			locked_by_quest = true
-			// inventory_service_id = 1058
-			default_color = [ 255,255,255 ]
-		},
-		{
-			id = "holiday_elf_hat"
-			name = "#VR_Avatar_Wearable_HolidayElfHat"
-			desc = "#VR_Avatar_Wearable_HolidayElfHat_Desc"
-			content = "models/props/hats/holiday_elf_hat.vmdl"
-			preview_image = "file://{images}/contentdb/holiday_elf_hat.png"
-			locked_by_quest = true
-			// inventory_service_id = 1059
-			default_color = [ 255,255,255 ]
-		},
-		{
-			id = "holiday_yeti_hat"
-			name = "#VR_Avatar_Wearable_HolidayYetiHat"
-			desc = "#VR_Avatar_Wearable_HolidayYetiHat_Desc"
-			content = "models/props/hats/holiday_yeti_hat.vmdl"
-			preview_image = "file://{images}/contentdb/holiday_yeti_hat.png"
-			locked_by_quest = true
-			// inventory_service_id = 1060
 			default_color = [ 255,255,255 ]
 		},
 	]
@@ -3958,51 +3887,6 @@
 			addon = "farm"
 			steamvr_addon = "1528909627" // id on public
 		},
-		{
-			id = "quest_halloween_pumpkinhead"
-			name = "#Quest_HalloweenPumpkinhead"
-			desc = "#Quest_HalloweenPumpkinhead_Desc"
-			preview_image = "file://{images}/contentdb/halloween_pumpkinhead.png"
-			item_generator = "item_generator_halloween_pumpkinhead"
-			addon = "candystore"
-			steamvr_addon = "1546540096" // id on public
-		},
-		{
-			id = "quest_halloween_witchhat"
-			name = "#Quest_HalloweenWitchhat"
-			desc = "#Quest_HalloweenWitchhat_Desc"
-			preview_image = "file://{images}/contentdb/halloween_witchhat.png"
-			item_generator = "item_generator_halloween_witchhat"
-			addon = "candystore"
-			steamvr_addon = "1546540096" // id on public
-		},
-		{
-			id = "quest_holiday_antler_hat"
-			name = "#Quest_HolidayAntlerHat"
-			desc = "#Quest_HolidayAntlerHat_Desc"
-			preview_image = "file://{images}/contentdb/holiday_antler_hat.png"
-			item_generator = "item_generator_holiday_antler_hat"
-			addon = "winter_peak"
-			steamvr_addon = "1594890070" // id on public
-		},
-		{
-			id = "quest_holiday_elf_hat"
-			name = "#Quest_HolidayElfHat"
-			desc = "#Quest_HolidayElfHat_Desc"
-			preview_image = "file://{images}/contentdb/holiday_elf_hat.png"
-			item_generator = "item_generator_holiday_elf_hat"
-			addon = "winter_peak"
-			steamvr_addon = "1594890070" // id on public
-		},
-		{
-			id = "quest_holiday_yeti_hat"
-			name = "#Quest_HolidayYetiHat"
-			desc = "#Quest_HolidayYetiHat_Desc"
-			preview_image = "file://{images}/contentdb/holiday_yeti_hat.png"
-			item_generator = "item_generator_holiday_yeti_hat"
-			addon = "winter_peak"
-			steamvr_addon = "1594890070" // id on public
-		},
 	]
 
 	quests_detector =
@@ -4242,51 +4126,6 @@
 			items = [
 				{
 					id = "chicken_hat"
-				}
-			]
-		},
-		// candy store quest 1
-		{
-			id = "item_generator_halloween_pumpkinhead"
-			items = [
-				{
-					id = "halloween_pumpkinhead"
-				}
-			]
-		},
-		// candy store quest 2
-		{
-			id = "item_generator_halloween_witchhat"
-			items = [
-				{
-					id = "halloween_witchhat"
-				}
-			]
-		},
-		// holiday map quest 1
-		{
-			id = "item_generator_holiday_antler_hat"
-			items = [
-				{
-					id = "holiday_antler_hat"
-				}
-			]
-		},
-		// holiday map quest 2
-		{
-			id = "item_generator_holiday_elf_hat"
-			items = [
-				{
-					id = "holiday_elf_hat"
-				}
-			]
-		},
-		// holiday map quest 3
-		{
-			id = "item_generator_holiday_yeti_hat"
-			items = [
-				{
-					id = "holiday_yeti_hat"
 				}
 			]
 		},

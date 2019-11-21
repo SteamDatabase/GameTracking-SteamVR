@@ -23,11 +23,12 @@
  in main chunk
  max. %f
  min. %f
- tMv+@
 !	@iW
 "%s" 
 "%s" = "%s"
 "%s":%d
+"t&L;}
+#[A\]
 #base
 #base is NULL 
 #empty#
@@ -35,9 +36,11 @@
 #include is NULL 
 #int#
 $ X w @"i"
-$A;\$
+$+s$Hc
+$A+D$$H
 $HcD$
 $ORIGIN
+$[A\]
 $[]A\
 %-120s
 %-120s - %s
@@ -45,6 +48,7 @@ $[]A\
 %016llx
 %12.6f
 %d %d %d %d
+%d total counted strings.
 %f %f %f %f
 %g %g %g %g
 %i %i %i %i
@@ -65,7 +69,6 @@ $[]A\
 %s:%d: %s
 %s|%d
 &2&Q&p&
-&YA1H
 &YA1L
 '%s' cannot be indexed
 '%s' cannot be indexed with '%s'
@@ -90,9 +93,9 @@ $[]A\
 (*temporary)
 (*vararg)
 (A^A_[]
-(HcWP
 ([A\A]A^A_]
 ([A\A]]
+([A\A^]
 ([]A\A]
 ([]A\A]A^A_
 (for control)
@@ -106,6 +109,11 @@ $[]A\
 (~'~'
 )wMIc
 +D$$H
++K$Lc
++S$Hc
++s$Hc
++s$Ic
++{$Hc
 ,$[]A\A]A^
 ,0[]A\
 ,I9F 
@@ -150,7 +158,10 @@ $[]A\
 /var/srcH
 0123456789abcdef
 0@volatile
+0[A\A]A^A_]
+0[A\A]A^]
 0[A\]
+0[A^]
 0[]A\A]A^
 0x%016llX
 10ConCommand
@@ -168,35 +179,49 @@ $[]A\
 15CTier2AppSystemI14IScriptManagerLi0EE
 15IScriptDebugger
 16CDefaultAccessor
+18CCountedStringPool
 18CUtlCharConversion
+19IKeyValuesErrorSpew
 20CPostConnectCallback
 21CUtlCStringConversion
+21IKeyValuesDumpContext
 22CSchemaInstallCallback
+23CSplitScreenAddedConVar
 23IConCommandBaseAccessor
+24IStack_VM_Segment_Marker
+26CDefaultKeyValuesErrorSpew
+27IKeyValuesDumpContextAsText
+28CStack_Lua_VM_Segment_Marker
+29CKeyValuesDumpContextAsDevMsg
 2TIJAUL
 2TIJAULHc
 2TIJAULL1
-3tz~P
-4$E;t$
+3+C$H
+3E8 u
+42HcU
+4fff>fff>fff>fff>
 6CLuaVM
 6CNopVM
 6ConVar
+6H92t%H
 7CLuaDbg
 7IConVar
 8@t>H
-8A^]H
 8CFmtStrNILi256ELb0EE
+8VBKVt6HcF
 8[A\A]A^A_]
+8[A\A]]
 8[]A\
 8[]A\A]A^A_
 8[]A\A]H
 8sF	S
+9@toH
 9D$8I
-9E s[H
+9E sbH
 9IScriptVM
 9p$w[
+:[tlL
 ;*3$"
-;BX|'1
 ;D$(~1H
 ;E w;
 ;E w[
@@ -206,15 +231,22 @@ $[]A\
 ;l$<sz
 ;w UH
 ;w$tN9OX
+<	w.1
+<	woD
+<!u~I
 <#t%<(
 <$*tdE
+<'tt<
 <+tT<,t0
 <+ta<,t5
+<-u#D
 <.t9<[t%<%t
 </%s>
+<19{ |.
 << NULL >>
 <>;{D
 <?xml version="1.0" encoding="UTF-8"?>
+<@tYA
 <Ctq<(tMD
 <DtgE1
 <FupA
@@ -222,101 +254,115 @@ $[]A\
 <Ntm<Ot]D
 <Ow=f
 <Pt	H
-<Rt&<Pu
+<Rt<<Pt`<S
 <eof>
 <goto %s> jumps into the scope of local '%s'
 <identifier>
 <integer>
 <name>
 <name> or '...' expected
-<no failure reason set>
 <number>
 <string>
 <unknown>
 <utC<vt)<nt
+<|u I
+<}tI<{uO
 =(debug command)
 =(load)
+=CSP1A
+=CSP1u
 =stdin
 ><![CDATA[%s]]>
->A]A^]
+>A\A]A^]
 ?456789:;<=
 ?VScript
 ?[]A\A]
 @0123456789ABCDEF
+@[A\A]A^]
 @[A\]
 @libvscript.so
 A"<$	
 A#<$	
-A#|$TH
 A)A I
 A)P I
 A)T$ A
-A+D$$I
-A+E$A
-A+E$I
-A+G$I
+A+D$$9
+A+D$$H
+A+E$H
+A+E$f
+A+G$H
+A+G$Lc
+A+T$$Hc
+A+U$A
+A+U$Hc
+A+U$f
+A+W$Hc
+A+W$f
+A+u$Hc
 A9.v?y
-A;D$X}
+A9G }
+A9_@~8L
 A;FxA
-A;\$ 
-A;_@|
-A;_@}4L
-A;_p|
+A;G A
+A;\$ A
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-ATSt$@
 ATUHc
 ATUSD
 ATUSH
 ATUSL
 ATfE1
-AUAT1
 AUATA
 AUATASARAQAPWVUH
 AUATD
-AUATE
 AUATE1
 AUATH
 AUATI
 AUATL
 AUATM
+AUATS
 AUATSH
 AUATSL
+AUATStMI
+AUATStmH
 AUATU
 AUATU1
 AUATUH
 AUATUS
 AUATUSH
+AVATI
 AVAUA
 AVAUATA
 AVAUATI
 AVAUATL
-AVAUATSD
+AVAUATLc
+AVAUATS
 AVAUATSH
+AVAUATSL
 AVAUATU
 AVAUATUH
 AVAUATUS
 AVAUATUSH
-AVAUD
 AVAUE
 AVAUI
 AVAUL
+AVAULc
 AWAVA
 AWAVAUA
 AWAVAUATA
 AWAVAUATE1
-AWAVAUATH
 AWAVAUATI
-AWAVAUATL
+AWAVAUATS
 AWAVAUATSH
-AWAVAUATSRH
 AWAVAUATU
 AWAVAUATUH
 AWAVAUATUS
 AWAVAUATUSH
+AWAVAUE
 AWAVAUE1
 AWAVAUI
 AWAVAUL
+AWAVD
 AWAVE
 AWAVE1
 AWAVH
@@ -326,10 +372,10 @@ AWAVM
 A\A]A^
 A\A]A^A_
 A\A]A^A_]
+A\A]A^A_]A
 A\A]A^]
 A\A]]
 A]A^A_
-A]A^]
 AddRef
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
@@ -341,6 +387,9 @@ AssetSystemTest001
 Attempted to ConvertToCopiedData for unsupported type (%d)
 B$9B 
 B$9B s
+Bad expression operator: '%c%c', expected C style boolean expression operator.
+Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
+Bad expression token: %c
 BakedLODBuilderMgr001
 BenchmarkService001
 BinaryProperties_GetValue
@@ -353,49 +402,44 @@ C +D$
 C t#A
 C(H9C
 C++ exception
+C,[A\A]]
+C,[A\]
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CDesc
-CL$(9
 CMemAllocSystemInitialize
 COLORCORRECTION_VERSION_1
 CPf9CR
+CSP1H
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
-CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
 CXXABI_1.3
-CXXABI_1.3.8
 Cannot recover from failed socket shutdown.
-Cht7Lc{pD;
 ClearBit
 ClenDbyteDcharCsubCrepGreverse
 CloseSocket
 CommandLine
 ConVar(%s) defined with infinite float value (%s)
 ConVarRef %s doesn't point to an existing ConVar
+Conditional Error: %s
 ConfigurationSystem_001
 ConnectInterfaces
 Constructor called without a class constructor - internal error?
 CreateInterface
 CreateNonBlockingSocket
 Cross
-D$ E1
-D$ H9E
-D$ M9
-D$ Mc
+D$ H9
 D$$L)
+D$(E1
 D$(H+D$0H
 D$(fD
-D$0H9
 D$0H9D$(s
 D$0H9D$(v!
 D$0tE
 D$8I9
+D$8L9
 D$@9D$<
 D$@;h
-D$@E1
-D$@H9
 D$@I9
 D$@L9
 D$H9D$
@@ -403,6 +447,10 @@ D$HL9
 D$`%I
 D$`<.t
 D$pE1
+D+C$Mc
+D+c$Mc
+D+k$Mc
+D+s$Mc
 D+uDD
 D9D$TwN
 D9l$ 
@@ -416,10 +464,22 @@ Debugger
 DevMsg
 DotaCardGameClient_001
 DynASM 1.3.0
+E+D$$Mc
+E+E$Mc
+E+F$Mc
+E+G$Mc
+E+M$Mc
+E+O$Mc
+E+e$Mc
+E+g$Mc
+E+o$Mc
+E+}$Mc
 E8AY[]
 E9gPI
-E9t$(D
+E9|$ ~bI
 EDesc
+EMPTY - ok for slot zero only!
+EXA;]`
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -429,30 +489,38 @@ Epairs@
 Error: Duplicate command handler registered (%s)!
 Etobit
 EventSystem001
-F t2SH
-F t5SH
-FATAL ERROR: unable to register all schema data: %s
 FCVAR_NEVER_AS_STRING
 FDesc
 FILE*
 Failed to find %s
 Failed to read %s
 Fassert
+FeedData
 Fipairs
+FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 FormatV
 Forward
+G A9G
 G H+G
-G U9G
+G u)H
 G(;G,Sv'H
-G8t"H
-G<@tB
-G<@t~
-GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
+G<@t	]
+G<@t L
+G<@t#f
+G<@t$
+G<@t+]H
+G<@t1H
+G<@t:
+G<@tLL
+G<@tUI
+G<@ta
+G<@th
+G<@tp
+GAMECONSOLE
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
-GIcN`Hc
 GLIBCXX_3.4
 GLIBC_2.14
 GLIBC_2.2.5
@@ -483,24 +551,32 @@ H$9H sBH
 H$9H saH
 H$9H sh1
 H$9H snH
+H9*tgH
 H9Chuz
 H9D$(
 H9D$@I
 H9D$`
-H;*twH
+H;S@w
 H;} H
-HE9o 
-HE;w 
-HHcY,H
+HE9w 
+HIGHDPI
 H[A\A]A^A_]
+H[A\A]]
 H[]A\A]
 H[]A\A]A^A_
 H[]A\A]A^H
 HammerMapLoader001
+Hc9A9
+HcC H9
+HcC$H
+HcC4u
 HcD$$H
 HcD$HH
+HcKPHc
 HcSPH
-Hcs@H
+HcWPH
+HcY,H
+Hcs H
 Hct$8H
 Hct$<H
 Hct$@H
@@ -511,9 +587,12 @@ HookUpConfigValue
 HostStateMgr001
 I+E I
 I;D$ 
+I;V@w
 INPUT
 IQuickTime001
-IcF`9
+IcN`Hc
+Ic]PI
+Icu`H
 InputService_001
 InputStackSystemVersion001
 InputSystemVersion001
@@ -528,12 +607,17 @@ IsBitSet
 IsNull
 IsNull called without an object - did you call obj.IsNull() instead of obj:IsNull()?
 JIT compiler disabled, CPU does not support SSE2
+Jc<(H
+K,[A\]
 K,t[H
 K2K2K2
-KTu6L
+KV Conditional Evaluation Error
 KeyValueCache001
+KeyValues Error: %s in file %s
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
-L$ H9
 L$(E1
 L$(uF
 L$,E1
@@ -551,24 +635,31 @@ L;d$HsaO
 L;l$0tzH
 L;t$8I
 L<)w!
+LINUX
 LOADLIB: %s
 LOG_GENERAL
+LOWVIOLENCE
 LUA Memory usage warning: The VM has hit a new high usage of %s bytes.
 LUA Memory usage: The VM has a usage of %s bytes.
 LUA_CPATH
 LUA_NOENV
 LUA_PATH
+Lc#D;c
+Lc/E)
+Lc{pD;
 Length
 Length2D
 Linux
 LoadAndCompileScriptFile: Failed to compile script file "%s"
 LoadAndCompileScriptFile: No filesystem found
 LoadAndCompileScriptFile: Script file "%s" type does not match VM type
+LoadFromBuffer: expected '{', found '%s'
 Local
 Localize_001
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
+Logic Error in CExpressionEvaluator
 Lua 5.1
 Lua DBGp
 Lua function expected
@@ -583,13 +674,12 @@ LuaDbg - Debugging started
 LuaDbg - Debugging stopped
 M+M(H
 MATCHFRAMEWORK_001
-MIcN8Ic
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
 MathLib_Init
-Mcd$(A
+MbP?+
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -600,6 +690,7 @@ Missing breakpoint with given ID %s.
 ModelDocUtils001
 MrkBJ
 Must use luaL_newstate() for 64 bit target
+NIcN8Ic
 NYI: cannot call this C function (yet)
 NYI: packed bit fields
 NetworkClientService_001
@@ -609,6 +700,7 @@ NetworkServerService_001
 NetworkService_001
 NetworkSystemUtilsVersion001
 NetworkSystemVersion001
+NewNode
 No conversion from %s to int now
 No conversion from %s to string at the moment!
 No conversion from %s to uint now
@@ -620,14 +712,15 @@ Ordered constructor wrapped type has no default constructor.
 P'A;U
 P?fmod
 PANIC: unprotected error in call to Lua API (
-PAWAV
+POSIX
 P[A\A]A^]
+P[A\]
 P[]A\
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
 Parameter type mismatch
-ParticleSystemMgr003
+ParticleSystemMgr002
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
 Plat_DebugPrint
@@ -645,12 +738,19 @@ Print a message
 Print a warning
 PropertyEditorSystem_001
 QAngle
+QHcKHIc
 Quaternion
 QueuedLoaderVersion001
+R8Y[]
 RandomFloat
 RandomInt
 RandomSeed
-RegisterAllModuleData
+RecursiveLoadFromBuffer:  got EOF instead of keyname
+RecursiveLoadFromBuffer:  got NULL key
+RecursiveLoadFromBuffer:  got conditional between key and value
+RecursiveLoadFromBuffer:  got empty keyname
+RecursiveLoadFromBuffer:  got } in key
+RecursiveLoadFromBuffer:  recursion overflow
 RegisterConfigValue: Unknown error constructing config value "%s"!
 RegisterStringToken
 Release
@@ -709,6 +809,7 @@ Script_Warning
 SerializedEntitiesVersion001
 ServerUploadGameStats001
 SetBit
+Sht7Lc{pD;
 Socket error: %d
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -728,13 +829,15 @@ Source2Server001
 Source2ServerSerializers002
 StatsService_001
 SteamAudio001
+String %d: ref:%d %s
 Success
 T$ L9
 T$(E1
+T$8H)
 T$HfA
 T$XH9
 T$XMc
-T((t	H
+T0(t	H
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
@@ -751,7 +854,6 @@ ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
 Trying to set a breakpoint with missing file/line. Ensure the file is part of the Eclipse project (refresh project is necessary) and reopen the file in Eclipse.
-UIcL$@Ic
 UInt64
 UPDATE_STRING_TOKEN_DATABASE
 USAWAVH
@@ -762,6 +864,7 @@ Unknown protocol.
 Unrecognized error.
 Upvalue
 UserInfoChangeService_001
+V0u@H
 VApplication001
 VAvi001
 VBAllocTracker001
@@ -769,6 +872,7 @@ VBaseFileSystem011
 VBik001
 VConComm001
 VDebugService_001
+VDmeMakeFileUtils001
 VEngineCvar007
 VFileSystem017
 VGUI_Input005
@@ -814,7 +918,6 @@ V_asinf
 V_atan2f
 V_atanf
 V_atof
-V_atofloat64
 V_atoi
 V_cosf
 V_expf
@@ -850,12 +953,14 @@ Vector
 Vector2D
 Vector4D
 VisBuilder_001
-W u)H
 W,t_H
 WARNING: Lua allocation of %llu failed
 WARNING: Lua unable to create VM
 WARNING: Lua unmap unable to decommit all pages
 WARNING: Lua unmap unable to find %llu pages
+WIN32
+WINDOWS
+WINXP
 WSAEACCES
 WSAEADDRINUSE
 WSAEADDRNOTAVAIL
@@ -911,11 +1016,10 @@ X[A\A]]
 X[]A\A]
 X[]A\A]A^A_
 Xbox VDP is not supported on this platform.
+ZIcL$
 [A\A]A^A_]
 [A\A]A^]
-[A\A]H
 [A\A]]
-[A\]H
 []A\1
 []A\@
 []A\A
@@ -938,14 +1042,14 @@ Xbox VDP is not supported on this platform.
 [string 
 [string H
 \$(fA
-\IcL$
-]. d.
+\t!Hc
+\u0000
 ]4[]A\
 ]A\A]
 ]A\A]A^
 ]A\A]A^A_
+^ t+H
 ^$*+?.([%-
-^IcL$ Ic
 _%x%llx_%s
 _Bool
 _Complex
@@ -974,7 +1078,6 @@ _V_StripLastDir
 _V_strncat
 _V_strncmp
 _V_strncpy
-_V_strnicmp_fast
 _V_strnistr_fast
 _Z14V_stristr_fastPKcS0_
 _Z15V_UnicodeLengthPKc
@@ -986,8 +1089,6 @@ _Z6DevMsgPKcz
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEventC1Eb
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
-_ZN13CBufferString5PurgeEi
-_ZN13CBufferString6InsertEiPKcib
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -1002,6 +1103,8 @@ _ZN42CVirtualMachineCallStackTranslationEncoderC2EPKc
 _ZN42CVirtualMachineCallStackTranslationEncoderD2Ev
 _ZNSs4_Rep10_M_destroyERKSaIcE
 _ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
+_ZNSs4_Rep10_M_disposeERKSaIcE
+_ZNSs4_Rep10_M_disposeERKSaIcE@@GLIBCXX_3.4
 _ZNSs4_Rep20_S_empty_rep_storageE
 _ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
 _ZNSs6appendEPKcm
@@ -1049,8 +1152,6 @@ __cxa_guard_release
 __cxa_guard_release@@CXXABI_1.3
 __cxa_pure_virtual
 __cxa_pure_virtual@@CXXABI_1.3
-__cxa_throw_bad_array_new_length
-__cxa_throw_bad_array_new_length@@CXXABI_1.3.8
 __declspec
 __div
 __errno_location
@@ -1108,13 +1209,14 @@ _edata
 _fini
 _init
 `AVAUE1
+`[A\A]A^]
+`[A\]
 abort
 abort@@GLIBC_2.2.5
 accept
 accept@@GLIBC_2.2.5
 activelines
 alignof
-all_projects_common_code.cpp
 ambiguous syntax (function call x new statement)
 appid
 archive
@@ -1140,9 +1242,7 @@ bad callback
 bad light userdata pointer
 bad storage class
 base out of range
-base64.cpp
 bind@@GLIBC_2.2.5
-bitstring.cpp
 boolean
 boolean or proxy expected
 borrow
@@ -1153,8 +1253,8 @@ breakpoint_remove
 breakpoint_set
 breakpoint_update
 bswapFlshift
-buildvm_x86.dasc
 bytecode instructions
+c.[A\]
 calling '%s' on bad self (%s)
 cannot change a protected metatable
 cannot close standard file
@@ -1174,9 +1274,7 @@ cdata<%s>: %p
 ceilDsqrt
 char(%d)
 character
-characterset.cpp
 cheat
-checksum_crc.cpp
 chunk has more than %d local variables
 chunk has too many lines
 chunk has too many syntax levels
@@ -1204,7 +1302,6 @@ context
 context_get
 context_names
 control structure too long
-convar.cpp
 coroutine
 coroutine expected
 coroutine_list
@@ -1212,7 +1309,6 @@ cosh@@GLIBC_2.2.5
 count
 cpath
 createEyieldFresume
-crtstuff.c
 cstring
 ctype
 ctype<%s>
@@ -1253,10 +1349,12 @@ error in error handling
 error loading module '%s' from file '%s':
 errorEpcall
 exit@@GLIBC_2.2.5
-exprevaluator.cpp
 extern
 external hook
+f;S.w
 fA#<$	
+fA;0M
+fA;0trA
 f[]A\A]A^
 false
 fclose
@@ -1323,11 +1421,11 @@ function too long for return fixup
 function: builtin#%d
 fwrite
 fwrite@@GLIBC_2.2.5
+g E;g0D
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_pMemAlloc
 gcinfo
-generichash.cpp
 get length of
 getenv
 getenv@@GLIBC_2.2.5
@@ -1346,6 +1444,7 @@ global
 gmatch
 hC type
 h[A\A]A^A_]
+h[A\A]]
 h[]A\A]A^A_
 handle_lightbinding
 hit_condition
@@ -1367,7 +1466,6 @@ int32_t
 int64_t
 int8_t
 integer
-interface.cpp
 interfaces.cpp
 intptr_t
 invalid C type
@@ -1391,12 +1489,14 @@ ioctl
 ioctl@@GLIBC_2.2.5
 istype
 isvararg
+jIcD$
 js_array
 js_object
 js_raw_args
 js_value
-json_parser.c
-keyvalues.cpp
+k8D;kHtMH
+k@[A\A]A^]
+kpD;ktD
 l$$H9
 l$0E1
 l$XUSRQP
@@ -1409,16 +1509,6 @@ level
 level out of range
 lexical element too long
 lib%s
-lib_aux.c
-lib_base.c
-lib_bit.c
-lib_debug.c
-lib_ffi.c
-lib_io.c
-lib_math.c
-lib_package.c
-lib_string.c
-lib_table.c
 libc.so.6
 libdl.so.2
 libm.so.6
@@ -1432,52 +1522,7 @@ lineno
 lines
 listen
 listen@@GLIBC_2.2.5
-lj_alloc.c
 lj_alloc_f_VALVE_OVERRIDEN
-lj_api.c
-lj_asm.c
-lj_bc.c
-lj_bcwrite.c
-lj_carith.c
-lj_ccall.c
-lj_ccallback.c
-lj_cconv.c
-lj_cdata.c
-lj_char.c
-lj_clib.c
-lj_cparse.c
-lj_crecord.c
-lj_ctype.c
-lj_debug.c
-lj_dispatch.c
-lj_err.c
-lj_ffrecord.c
-lj_func.c
-lj_gc.c
-lj_ir.c
-lj_lex.c
-lj_lib.c
-lj_load.c
-lj_mcode.c
-lj_meta.c
-lj_obj.c
-lj_opt_dce.c
-lj_opt_fold.c
-lj_opt_loop.c
-lj_opt_mem.c
-lj_opt_narrow.c
-lj_opt_sink.c
-lj_parse.c
-lj_record.c
-lj_snap.c
-lj_state.c
-lj_str.c
-lj_strscan.c
-lj_tab.c
-lj_trace.c
-lj_udata.c
-lj_vmevent.c
-lj_vmmath.c
 loaded
 loaders
 loadfile
@@ -1637,7 +1682,6 @@ malformed pattern (ends with '%')
 malformed pattern (missing ']')
 malloc
 malloc@@GLIBC_2.2.5
-manifestregistrar.cpp
 match
 mathlib.cpp
 max_children
@@ -1651,8 +1695,6 @@ memcpy
 memcpy@@GLIBC_2.14
 memmove
 memmove@@GLIBC_2.2.5
-memoverride.cpp
-mempool.cpp
 memset
 memset@@GLIBC_2.2.5
 metamethod
@@ -1693,6 +1735,7 @@ p$9p s8H
 p$9p sAH
 p$9p sLD
 p[A\A]A^]
+p[A\]
 p[]A\
 package
 pagesize
@@ -1731,11 +1774,9 @@ ptr( 0x%p )
 ptrdiff_t
 qangle
 quaternion
-quaternionaligned.cpp
 radClogEatan2
 random
 randomseed
-randsse.cpp
 rawequal
 rawset
 reader function must return a string
@@ -1760,9 +1801,8 @@ s#HcP
 s%[]A\A]H
 s/workshH
 sX)S H
-schemabindings.cpp
 schemasystem
-scripts/
+scripts/H
 scripts/vscripts/%s
 searchpath
 seeall
@@ -1802,7 +1842,6 @@ sprintf@@GLIBC_2.2.5
 sqrtf
 sqrtf@@GLIBC_2.2.5
 ss_added
-sseconst.cpp
 stU='
 stack overflow
 stack overflow (%s)
@@ -1841,7 +1880,6 @@ string
 string length overflow
 string slice too long
 string/function/table expected
-stringpool.cpp
 strlen
 strlen@@GLIBC_2.2.5
 strncpy@@GLIBC_2.2.5
@@ -1860,27 +1898,33 @@ supported
 suspended
 syntax error
 t	[A\]
+t"HcK
+t"HcO
 t#L) H
 t$ L9
 t$(E;n
-t$H;h
+t$@A\]
+t$H9h
 t%I9X
 t'[]A\L
 t/[]L
 t2f;0u
+t4[A\]
 t<A;n
 t<[A\A]A^]
+t@@:>u
+tL[A\A]A^]
+tSHcO
 tV<Su
+tWA9]
 table
 table index is NaN
 table index is nil
 table overflow
 tail return
 tanh@@GLIBC_2.2.5
-thIcG
+tdA:]
 thread
-tier1.cpp
-tier2.cpp
 tmpfile
 tmpfile64
 tmpfile64@@GLIBC_2.2.5
@@ -1897,11 +1941,13 @@ trace
 traceback
 transaction_id
 trueHtostring
+ttIcG
 tyLc	I
 type parameter
 typeDnext
 typedef
 typeof
+t}HcO
 u([]A\
 u64( %lld = 0x%llX )
 u6[]A\A]A^
@@ -1942,33 +1988,21 @@ urn:debugger_protocol_v1
 userdata
 userdata length overflow
 utlbuffer.cpp
-utlmemory.cpp
 utlstring.cpp
 utlstringtoken
-utlstringtoken.cpp
-utlsymbol.cpp
 u|%d|%s
+v!<\t
 v59D$8v/
 va_list
 value expected
 variable names
 variant
-vec3.cpp
 vector
-vector.cpp
 vector2d
 vector4d
-vlua.cpp
-vlua_function_description.cpp
-vluadbg.cpp
-vluadbgp.cpp
-vmatrix.cpp
 volatile
-vscript
-vscript.cpp
 vscriptsH
 w$AUA
-w(AUI
 w=HcD
 wchar_t
 wcscmp
@@ -1982,28 +2016,30 @@ wrong number of arguments to 'insert'
 wrong number of type parameters
 x$9x 
 x$9x r
-x@HcO
 x[A\A]A^A_]
 x[A\A]]
 xmlns
 xpcall
 z$u"1
 z*u(f
+z/u-H
 {$,u-
+{8;C0t4
 {8H;W
 {8tf1
-{X[A\]H
 {}()':
 |$(M+<$
-|$0E;|$@
 |$0H9|$(
 |$8A9>
 |$HL9
-|=IcT$
 }$)tXH
 }$D+}
-~)H;7I
-~7;w$
+}Hf;w
+~	ATI
+~&H97t@
+~)A;]
 ~@t3H
 ~@tNH
+~SHcC
 ~]A\A]A^A_
+~vHcKPHc

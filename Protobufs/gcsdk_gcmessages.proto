@@ -11,6 +11,7 @@ enum ESourceEngine {
 enum PartnerAccountType {
 	PARTNER_NONE = 0;
 	PARTNER_PERFECT_WORLD = 1;
+	PARTNER_NEXON = 2;
 	PARTNER_INVALID = 3;
 }
 
@@ -107,10 +108,6 @@ message CMsgGCMultiplexMessage {
 	repeated fixed64 steamids = 3;
 }
 
-message CMsgGCToGCSubGCStarting {
-	optional uint32 dir_index = 1;
-}
-
 message CGCToGCMsgMasterAck {
 	message Process {
 		optional uint32 dir_index = 1;
@@ -191,7 +188,6 @@ message CMsgClientHello {
 	optional string secret_key = 5;
 	optional uint32 client_language = 6;
 	optional .ESourceEngine engine = 7 [default = k_ESE_Source1];
-	optional bytes steamdatagram_login = 8;
 }
 
 message CMsgClientWelcome {
@@ -210,7 +206,6 @@ message CMsgClientWelcome {
 	optional fixed32 item_schema_crc = 7;
 	optional string items_game_url = 8;
 	optional uint32 gc_socache_file_version = 9;
-	optional string txn_country_code = 10;
 }
 
 message CMsgConnectionStatus {

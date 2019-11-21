@@ -13,11 +13,13 @@
  B g_nMiniProfilerFrame
  B g_nMiniProfilerGenericCounters
  B g_pAssertMiniProfilers
+ B g_pCurrentFiberTL
  B g_pFiberJobPool
  B g_pGlobalMiniProfilers
  B g_pLastMiniProfiler
  B g_pMemAlloc
  B g_pRootMiniProfiler
+ B g_pThreadLocalScope
  D g_Tier1_FullHTMLEntities
  D g_VProfNodeSpikeMinimumMs
  D g_VProfNodeSpikeMultiplier
@@ -87,7 +89,6 @@
  T CBufferString::StripTrailingSlash()
  T CBufferString::Swap(CBufferString&)
  T CBufferString::ToLowerFast(int)
- T CBufferString::ToUpperFast(int)
  T CCallStackCapture::CCallStackCapture(int (*)(void**, int, int), unsigned int, unsigned int)
  T CCallStackCapture::Capture(int (*)(void**, int, int), unsigned int, unsigned int)
  T CCallStackMarker::CCallStackMarker(bool)
@@ -120,11 +121,9 @@
  T CFiber::AllocPooledFiber(CFiber::SizeBuckets_t, unsigned long)
  T CFiber::CFiber()
  T CFiber::ClearUnusedSpaceToFFEEFFEE(void*)
- T CFiber::ConstructThreadFiber(unsigned long)
  T CFiber::DetachFromStackContext()
  T CFiber::EstimateBytesUsed(unsigned long) const
  T CFiber::FiberYield(bool (*)(void*), void*)
- T CFiber::GetCurrentFiber()
  T CFiber::InitStackContext(void*, unsigned long, bool, unsigned long)
  T CFiber::InternalSetFiberJob(void (*)(void*), void*, unsigned long, bool)
  T CFiber::IsReadyToResume()
@@ -132,7 +131,6 @@
  T CFiber::ReachedZeroReferences()
  T CFiber::ResumeJob(void*)
  T CFiber::RunInThreadMemory(long long (*)(void*), void*)
- T CFiber::SetCurrentFiber(CFiber*)
  T CFiber::SetThreadFiberMemoryRange(unsigned long)
  T CFiber::WaitForJobCompletion(CEventListNode&)
  T CFiber::~CFiber()
@@ -190,7 +188,6 @@
  T CThreadEvent::WaitForMultiple(int, CThreadEvent**, bool, unsigned int)
  T CThreadEvent::WaitForMultiple(int, CThreadEvent*, bool, unsigned int)
  T CThreadFastMutex::Lock(unsigned long long, unsigned int) volatile
- T CThreadFiber::CThreadFiber(unsigned long)
  T CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
  T CThreadFullMutex::IsCreator() const
  T CThreadFullMutex::Release()
@@ -318,15 +315,6 @@
  T CVirtualMachineCallStackTranslationEncoder::GetName()
  T CVirtualMachineCallStackTranslationEncoder::GetVMID()
  T CVirtualMachineCallStackTranslationEncoder::~CVirtualMachineCallStackTranslationEncoder()
- T CVirtualMemorySnapshot::CVirtualMemorySnapshot()
- T CVirtualMemorySnapshot::Capture()
- T CVirtualMemorySnapshot::Diff(CVirtualMemorySnapshot const*, CVirtualMemorySnapshot const*)
- T CVirtualMemorySnapshot::GetAddressAfterLastRegion(unsigned long long) const
- T CVirtualMemorySnapshot::GetLargestUnmappedRegion(unsigned long long*, unsigned long long*, unsigned long long) const
- T CVirtualMemorySnapshot::IsEqualRegion(CVirtualMemorySnapshot const*, CVirtualMemorySnapshot::Region_t const*, CVirtualMemorySnapshot const*, CVirtualMemorySnapshot::Region_t const*)
- T CVirtualMemorySnapshot::Purge()
- T CVirtualMemorySnapshot::Report(int) const
- T CVirtualMemorySnapshot::~CVirtualMemorySnapshot()
  T CWorkerThread::BoostPriority()
  T CWorkerThread::CWorkerThread()
  T CWorkerThread::Call(unsigned int, unsigned int, bool, unsigned int (*)(unsigned int, CThreadEvent**, int, unsigned int))
@@ -467,7 +455,6 @@
  T Plat_BeginWatchdogTimer
  T Plat_ChangeCurrentFrame
  T Plat_CheckSDL
- T Plat_ClearClipboardText
  T Plat_ClearMiniDumpErrorString
  T Plat_CollectMiniDumpsForFatalErrors
  T Plat_ConvertToLocalTime
@@ -476,7 +463,6 @@
  T Plat_CreateUUIDImpl
  T Plat_CreateWindow
  T Plat_DebugPrint
- T Plat_DebugPrintV
  T Plat_DebugString
  T Plat_DesktopNotify
  T Plat_DestroyGameInstanceMutex
@@ -485,8 +471,6 @@
  T Plat_EnableCustomerMachineMode
  T Plat_EnableHeadlessMode
  T Plat_EndWatchdogTimer
- T Plat_EnterHibernation
- T Plat_ExitHibernation
  T Plat_ExitProcess
  T Plat_FastVerifyHardwareKey
  T Plat_FileExists
@@ -497,13 +481,11 @@
  T Plat_FloatTime
  T Plat_GetCPUFrequency
  T Plat_GetCPUUsage
- T Plat_GetClipboardText
  T Plat_GetClockStart
  T Plat_GetComputerName
  T Plat_GetCurrentDate
  T Plat_GetCurrentDirectory
  T Plat_GetCurrentFrame
- T Plat_GetCurrentHibernationState
  T Plat_GetCurrentRSS
  T Plat_GetDPI
  T Plat_GetDefaultMonitorIndex
@@ -512,7 +494,6 @@
  T Plat_GetDocumentDirectory
  T Plat_GetEnv
  T Plat_GetExecutablePathUTF8
- T Plat_GetFileType
  T Plat_GetGlobalListRegistry
  T Plat_GetLastGameInstanceMutex
  T Plat_GetLocalTime
@@ -522,7 +503,6 @@
  T Plat_GetModuleInterfaceFactory
  T Plat_GetModuleProcAddress
  T Plat_GetMonitorBounds
- T Plat_GetMonitorContentsScale
  T Plat_GetMonitorIndexFromName
  T Plat_GetMonitorName
  T Plat_GetMonitorResolution
@@ -542,10 +522,8 @@
  T Plat_GetWindowBounds
  T Plat_GetWindowClientBounds
  T Plat_GetWindowClientSize
- T Plat_GetWindowContentsScale
  T Plat_GetWindowMonitorIndex
  T Plat_GlobalMemoryStatus
- T Plat_HasClipboardText
  T Plat_HasDefaultMonitorIndexChanged
  T Plat_IgnoreContentAsserts
  T Plat_InitializeCOM
@@ -585,7 +563,6 @@
  T Plat_PutEnv
  T Plat_ReconfigureWindow
  T Plat_RefreshDPI
- T Plat_RegisterSignalHandler
  T Plat_RelativeTickFrequency
  T Plat_RelativeTicks
  T Plat_ReleaseMouseCapture
@@ -595,7 +572,6 @@
  T Plat_RequireSDL
  T Plat_RestartCurrentProcess
  T Plat_RunningWithDebugModules
- T Plat_SafeRemoveFile
  T Plat_ScreenToWindowCoords
  T Plat_SecTickDiff
  T Plat_SecTickDiffF
@@ -662,7 +638,6 @@
  T PushMiniProfilerTS
  T Qt_GetCustomAllocators
  T RegisterAssertionFailureListener
- T RegisterHibernationListener
  T RegisterKeyValuesSystem
  T ReleaseThreadHandle
  T RemoveAssertionCallback
@@ -736,15 +711,10 @@
  T Tier0GenericMiniDumpHandler_SetGetAdditionalFileAttachmentCallback
  T Tier0GenericMiniDumpHandler_SetOptions
  T Tier0GenericMiniDumpHandler_SetPreHandlerCallback
- T TimestampedEvent
- T TimestampedEventMsg
- T TimestampedEventMsgV
- T TimestampedEvent_RegisterListenerAndFlushBuffer
  T TranslateStackInfo
  T UnitTestCount
  T UnitTestInstallTestCase
  T UnregisterAssertionFailureListener
- T UnregisterHibernationListener
  T VCRT_isalnum
  T VCRT_isalpha
  T VCRT_isdigit
@@ -791,7 +761,6 @@
  T V_PathContainsPath
  T V_PathNamesAreEquivalent
  T V_PathsMatch
- T V_PrettifyFloat
  T V_PrettifyMem
  T V_PrettifyNum
  T V_RemoveDotSlashes
@@ -866,9 +835,8 @@
  T V_atan2
  T V_atan2f
  T V_atanf
+ T V_atod
  T V_atof
- T V_atofloat32
- T V_atofloat64
  T V_atoi
  T V_atoi64
  T V_atoui64
@@ -933,8 +901,6 @@
  T V_longjmp
  T V_mkostemps
  T V_mkstemps
- T V_modf
- T V_modff
  T V_normalizeFloatString
  T V_normalizeFloatWString
  T V_pow
@@ -1098,6 +1064,7 @@
  V vtable for CThreadSyncObject
  V vtable for CVProfReporter
  V vtable for CWorkerThread
+ W CWorkerThread::~CWorkerThread()
  W std::_Rb_tree<char const*, std::pair<char const* const, unsigned long long>, std::_Select1st<std::pair<char const* const, unsigned long long> >, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char const* const, unsigned long long> >*)
  W std::pair<std::_Rb_tree_iterator<std::pair<char const* const, unsigned long long> >, bool> std::_Rb_tree<char const*, std::pair<char const* const, unsigned long long>, std::_Select1st<std::pair<char const* const, unsigned long long> >, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long long> > >::_M_insert_unique<std::pair<char const*, unsigned long> >(std::pair<char const*, unsigned long>&&)
  _ITM_deregisterTMCloneTable
@@ -1114,7 +1081,6 @@
  __cxa_pure_virtual@@CXXABI_1.3
  __cxa_rethrow@@CXXABI_1.3
  __cxa_throw@@CXXABI_1.3
- __cxa_throw_bad_array_new_length@@CXXABI_1.3.8
  __errno_location@@GLIBC_2.2.5
  __fpclassify@@GLIBC_2.2.5
  __fprintf_chk@@GLIBC_2.3.4
@@ -1123,14 +1089,11 @@
  __isnan@@GLIBC_2.2.5
  __longjmp_chk@@GLIBC_2.11
  __lxstat64@@GLIBC_2.2.5
- __memcpy_chk@@GLIBC_2.3.4
- __memset_chk@@GLIBC_2.3.4
  __printf_chk@@GLIBC_2.3.4
  __pthread_key_create@@GLIBC_2.2.5
  __snprintf_chk@@GLIBC_2.3.4
  __sprintf_chk@@GLIBC_2.3.4
  __stack_chk_fail@@GLIBC_2.4
- __strcpy_chk@@GLIBC_2.3.4
  __tls_get_addr@@GLIBC_2.3
  __vfprintf_chk@@GLIBC_2.3.4
  __vsnprintf_chk@@GLIBC_2.3.4
@@ -1225,7 +1188,6 @@
  iswalnum@@GLIBC_2.2.5
  iswalpha@@GLIBC_2.2.5
  iswcntrl@@GLIBC_2.2.5
- iswdigit@@GLIBC_2.2.5
  iswlower@@GLIBC_2.2.5
  iswspace@@GLIBC_2.2.5
  iswupper@@GLIBC_2.2.5
@@ -1250,8 +1212,6 @@
  mkdir@@GLIBC_2.2.5
  mkostemps64@@GLIBC_2.11
  mmap64@@GLIBC_2.2.5
- modf@@GLIBC_2.2.5
- modff@@GLIBC_2.2.5
  mprotect@@GLIBC_2.2.5
  munmap@@GLIBC_2.2.5
  nanosleep@@GLIBC_2.2.5
@@ -1297,7 +1257,6 @@
  puts@@GLIBC_2.2.5
  qsort@@GLIBC_2.2.5
  qsort_r@@GLIBC_2.8
- raise@@GLIBC_2.2.5
  rand@@GLIBC_2.2.5
  read@@GLIBC_2.2.5
  readlink@@GLIBC_2.2.5
@@ -1315,6 +1274,7 @@
  sigaction@@GLIBC_2.2.5
  sigaddset@@GLIBC_2.2.5
  sigemptyset@@GLIBC_2.2.5
+ signal@@GLIBC_2.2.5
  sigprocmask@@GLIBC_2.2.5
  sin@@GLIBC_2.2.5
  sincos@@GLIBC_2.2.5

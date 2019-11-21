@@ -311,7 +311,6 @@
   "SecondaryControllerTab": "Paramètres supplémentaires",
   "SecondaryController_ReturnWithLeftHand": "Renvoyer les configurations avec la main gauche",
   "SecondaryController_ReturnWithRightHand": "Renvoyer les configurations avec la main droite",
-  "SecondaryController_ReturnWithHead": "Renvoyer les configurations avec le casque",
   "Settings_ThumbstickDeadzone_Text": "Zone morte du stick analogique :",
   "Settings_ControllerSettings_Title": "Paramètres du stick analogique",
   "Settings_ControllerSettings_Utilities": "Utilitaires du contrôleur",

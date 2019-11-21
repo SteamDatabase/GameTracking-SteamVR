@@ -11,9 +11,7 @@
 					<Label class="UpdateDesc" text="#WelcomePanel_UpdateDesc" />
 					<Label class="UpdateDescController" text="#WelcomePanel_UpdateDescController" />
 					<Label class="UpdateDescTouch" text="#WelcomePanel_UpdateDescTouch" />
-          <Label class="UpdateDescKnuckles" text="#WelcomePanel_UpdateDescKnuckles" />
-          <Label class="UpdateDescCosmos" text="#WelcomePanel_UpdateDescCosmos" />
-        </Panel>
+				</Panel>
 				<Panel class="Slideshow_Wrapper">
 					<Panel class="Slideshow">
 						<Image id="WorkshopImage" class="SlideshowImage"/>	
@@ -30,23 +28,20 @@
 		<DestinationsWelcomePanel>
 			<Panel class="WelcomeTop">
 				<Image class="Destinations_Title" src="s2r://panorama/images/welcome_panel/destinations_title_large_png.vtex" />	
+<!--				<Image class="Destinations_Logo" src="s2r://panorama/images/content_browser/icon_default_item_png.vtex" />
+				<Label class="Destinations_WelcomeText" text="#Destinations_WelcomeText" />-->
 			</Panel>
 			
 			<Panel class="WelcomeBottom">
 				<Panel class="TextArea">
 					<Label class="PressMenuButton" text="#WelcomePanel_PressMenuButton" />
-          <Label class="PressBOrYButton" text="#WelcomePanel_PressBOrYButton" />
-          <Label class="PressBButton" text="#WelcomePanel_PressBButton" />
+					<Label class="PressBButton" text="#WelcomePanel_PressBButton" />
 					<Label class="PressYButton" text="#WelcomePanel_PressYButton" />
 				</Panel>
 				<Panel class="ImageRight">
 					<Image class="MotionController" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_png.vtex" />	
-					<Image class="TouchImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_touch_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
-          <Image class="RiftSImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_rift_s_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
-          <Image class="WinMRImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_winmr_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
-          <Image class="KnucklesImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_knuckles_png.vtex" />
-          <Image class="CosmosImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_cosmos_png.vtex" />
-          <Image class="Controller" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_controller_png.vtex" />	
+					<Image class="TouchImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_touch_png.vtex" scaling="stretch-to-fit-preserve-aspect" />	
+					<Image class="Controller" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_controller_png.vtex" />	
 				</Panel>	
 			</Panel>
 			

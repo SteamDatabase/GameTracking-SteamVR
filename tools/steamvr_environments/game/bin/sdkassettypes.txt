@@ -11,6 +11,10 @@
 			m_IconSm = "toolimages:assettypes/animation_sm.png"
 			m_ResourceModule = "animationsystem"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 			m_CompilerIdentifier = "CompileAnimation"
 			m_bCanBeAChildCompile = true
 		},
@@ -23,6 +27,10 @@
 			m_IconSm = "toolimages:assettypes/animation_group_sm.png"
 			m_ResourceModule = "animationsystem"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 			m_CompilerIdentifier = "CompileAnimGroup"
 			m_bCanBeAChildCompile = true
 		},
@@ -35,6 +43,10 @@
 			m_IconSm = "toolimages:assettypes/animation_sm.png"
 			m_ResourceModule = "animationsystem"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 			m_CompilerIdentifier = "CompileSequence"
 			m_bCanBeAChildCompile = true
 		},
@@ -46,6 +58,10 @@
 			m_IconLg = "toolimages:assettypes/particles_lg.png"
 			m_IconSm = "toolimages:assettypes/particles_sm.png"
 			m_ResourceModule = "particles"
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 			m_CompilerIdentifier = "CompileParticle"
 			m_bPrefersLivePreview = true
 			m_Blocks =
@@ -64,11 +80,14 @@
 			m_IconLg = "toolimages:assettypes/material_lg.png"
 			m_IconSm = "toolimages:assettypes/material_sm.png"
 			m_ResourceModule = "materialsystem2"
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 			m_CompilerIdentifier = "CompileMaterial"
-			m_AutoTags = 
+			m_AssetBadges = 
 			[
 				{
-					m_ID = "@vmat_decal"
 					m_Filter = 
 					{
 						m_Name = "decal"
@@ -80,7 +99,6 @@
 					m_Description = "This material is a decal."
 				},
 				{
-					m_ID = "@vmat_blend"
 					m_Filter = 
 					{
 						m_Name = "VertexPaintStreamCount"
@@ -92,7 +110,6 @@
 					m_Description = "This material uses multi-layer blending."
 				},
 				{
-					m_ID = "@vmat_translucent"
 					m_Filter = 
 					{
 						m_Name = "translucent"
@@ -104,7 +121,6 @@
 					m_Description = "This material is translucent (alpha-blended)."
 				},
 				{
-					m_ID = "@vmat_alphatest"
 					m_Filter = 
 					{
 						m_Name = "alphatest"
@@ -116,7 +132,6 @@
 					m_Description = "This material is partially transparent (alpha-tested)."
 				},
 				{
-					m_ID = "@vmat_tools_nodraw"
 					m_Filter = 
 					{
 						m_Name = "mapbuilder.nodraw"
@@ -131,6 +146,18 @@
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
+			m_Name = "sheet_asset"
+			m_FriendlyName = "Sheet"
+			m_Ext = "vmks"
+			m_ResourceModule = "rendersystemdx9"
+			m_bContentFileIsText = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
+		},
+		{
+			_class = "CResourceAssetTypeInfo"
 			m_Name = "mesh_asset"
 			m_FriendlyName = "Mesh"
 			m_Ext = "vmesh"
@@ -139,6 +166,10 @@
 			m_ResourceModule = "meshsystem"
 			m_bHideTypeByDefault = true
 			m_bAutoRecompile = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 			m_CompilerIdentifier = "CompileRenderMesh"
 			m_Blocks =
 			[
@@ -156,6 +187,11 @@
 			m_IconLg = "toolimages:assettypes/texture_lg.png"
 			m_IconSm = "toolimages:assettypes/texture_sm.png"
 			m_ResourceModule = "rendersystemdx9"
+			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 			m_CompilerIdentifier = "CompileTexture"
 			m_bCanBeAChildCompile = true
 			m_Blocks =
@@ -174,45 +210,9 @@
 			m_IconSm = "toolimages:assettypes/model_sm.png"
 			m_Ext = "vmdl"
 			m_ResourceModule = "worldrenderer"
-			m_Blocks =
+			m_AssetTypeGroups = 
 			[
-				{
-					m_BlockID = "CTRL" // control block
-					m_Encoding = "RESOURCE_ENCODING_KV3"
-				},
-				{
-					m_BlockID = "MDAT" // mesh data
-					m_Encoding = "RESOURCE_ENCODING_KV3"
-				},
-				{
-					m_BlockID = "MBUF" // mesh vbib
-					m_Encoding = "RESOURCE_ENCODING_RAW_BYTES"
-				},
-				{
-					m_BlockID = "MRPH" // morph
-					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
-					m_IntrospectedRootStruct = "MorphSetData_t"
-				},
-				{
-					m_BlockID = "ASEQ" // anim seq
-					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
-					m_IntrospectedRootStruct = "SequenceGroupResourceData_t"
-				},
-				{
-					m_BlockID = "AGRP" // anim group
-					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
-					m_IntrospectedRootStruct = "AnimationGroupResourceData_t"
-				},
-				{
-					m_BlockID = "ANIM" // anim data
-					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
-					m_IntrospectedRootStruct = "AnimationResourceData_t"
-				},
-				{
-					m_BlockID = "PHYS" // physics data
-					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
-					m_IntrospectedRootStruct = "VPhysXAggregateData_t"
-				},
+				"Visual",
 			]
 			m_CompilerIdentifier = "CompileModel"
 		},
@@ -226,6 +226,10 @@
 			m_ResourceModule = "vphysics2"
 			m_bHideTypeByDefault = true
 			m_bIgnoreCompiledState = true
+			m_AssetTypeGroups = 
+			[
+				"Physics",
+			]
 			m_CompilerIdentifier = "CompileVPhysXData"
 			m_bCanBeAChildCompile = true
 		},
@@ -235,6 +239,10 @@
 			m_FriendlyName = "Sound"
 			m_Ext = "vsnd"
 			m_ResourceModule = "soundsystem"
+			m_AssetTypeGroups = 
+			[
+				"Audio",
+			]
 			m_AdditionalExtensions = 
 			[
 				"mp3",
@@ -255,6 +263,10 @@
 			m_Ext = "vmorf"
 			m_ResourceModule = "meshsystem"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 			m_CompilerIdentifier = "CompileMorph"
 			m_bCanBeAChildCompile = true
 		},
@@ -266,6 +278,10 @@
 			m_ResourceModule = "resourcesystem"
 			m_bHideTypeByDefault = true
 			m_bContentFileIsText = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 			m_CompilerIdentifier = "CompileResourceManifest"
 		},
 		{
@@ -275,6 +291,10 @@
 			m_Ext = "vwrld"
 			m_ResourceModule = "worldrenderer"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Map",
+			]
 			m_CompilerIdentifier = "CompileWorld"
 			m_bPreventDirectCompile = true
 		},
@@ -285,6 +305,10 @@
 			m_Ext = "vwnod"
 			m_ResourceModule = "worldrenderer"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Map",
+			]
 			m_CompilerIdentifier = "CompileWorldNode"
 			m_bPreventDirectCompile = true
 		},
@@ -295,6 +319,10 @@
 			m_Ext = "vvis"
 			m_ResourceModule = "worldrenderer"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Map",
+			]
 			m_CompilerIdentifier = "CompileMapVisibility"
 		},
 		{
@@ -304,6 +332,10 @@
 			m_Ext = "vents"
 			m_ResourceModule = "worldrenderer"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Map",
+			]
 			m_CompilerIdentifier = "CompileEntityLump"
 			m_bPreventDirectCompile = true
 		},
@@ -315,6 +347,12 @@
 			m_IconLg = "toolimages:assettypes/surface_lg.png"
 			m_IconSm = "toolimages:assettypes/surface_sm.png"
 			m_ResourceModule = "vphysics2"
+			m_AssetTypeGroups = 
+			[
+				"Physics",
+				"Visual",
+				"Audio",
+			]
 			m_CompilerIdentifier = "CompileSurfaceProperties"
 			m_Blocks =
 			[
@@ -330,20 +368,11 @@
 			m_FriendlyName = "Sound Event Script"
 			m_Ext = "vsndevts"
 			m_ResourceModule = "soundsystem"
-			m_CompilerIdentifier = "CompileSoundEventScript"
-			m_Blocks =
+			m_AssetTypeGroups = 
 			[
-				{
-					m_ResourceVersion = 0
-					m_BlockID = "DATA"
-					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
-				},
-				{
-					m_ResourceVersion = 1
-					m_BlockID = "DATA"
-					m_Encoding = "RESOURCE_ENCODING_KV3"
-				},
+				"Audio",
 			]
+			m_CompilerIdentifier = "CompileSoundEventScript"
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
@@ -351,6 +380,10 @@
 			m_FriendlyName = "Sound Stack Script"
 			m_Ext = "vsndstck"
 			m_ResourceModule = "soundsystem"
+			m_AssetTypeGroups = 
+			[
+				"Audio",
+			]
 			m_CompilerIdentifier = "CompileSoundStackScript"
 		},
 		{
@@ -359,6 +392,10 @@
 			m_FriendlyName = "Bitmap Font"
 			m_Ext = "vfont"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 			m_CompilerIdentifier = "CompileFont"
 		},
 		{
@@ -426,7 +463,6 @@
 			m_Ext = "vsnap"
 			m_CompilerIdentifier = "CompileSnap"
 			m_bCanBeAChildCompile = true
-			m_bCannotBeAMultiParentChildCompile = true
 			m_bIsNontrivialChildAssetType = true
 			m_Blocks =
 			[
@@ -436,7 +472,7 @@
 				},
 				{
 					m_BlockID = "SNAP"
-					m_Encoding = "RESOURCE_ENCODING_VSNAP"
+					m_Encoding = "RESOURCE_ENCODING_COMPRESSED_BYTES"
 				},
 			]
 		},
@@ -448,6 +484,10 @@
 			m_IconLg = "toolimages:assettypes/text_lg.png"
 			m_IconSm = "toolimages:assettypes/text_sm.png"
 			m_bContentFileIsText = true
+			m_AssetTypeGroups = 
+			[
+				"Game",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -455,6 +495,10 @@
 			m_FriendlyName = "Sheetfile"
 			m_Ext = "mks"
 			m_bContentFileIsText = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -464,6 +508,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -473,6 +521,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -482,6 +534,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -491,6 +547,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -500,6 +560,10 @@
 			m_IconLg = "toolimages:assettypes/fbx_lg.png"
 			m_IconSm = "toolimages:assettypes/fbx_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -509,6 +573,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -518,6 +586,10 @@
 			m_IconLg = "toolimages:assettypes/text_lg.png"
 			m_IconSm = "toolimages:assettypes/text_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -527,6 +599,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -536,6 +612,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -545,6 +625,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -554,6 +638,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -563,6 +651,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -573,6 +665,10 @@
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
 			m_bContentFileIsText = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -584,6 +680,10 @@
 			m_bHideTypeByDefault = true
 			m_bContentFileIsText = true
 			m_bPresentInGameTree = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 			m_AdditionalExtensions = 
 			[
 				"vdf",
@@ -596,6 +696,10 @@
 			m_Ext = "hitboxes"
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -605,6 +709,10 @@
 			m_IconLg = "toolimages:assettypes/physics_lg.png"
 			m_IconSm = "toolimages:assettypes/physics_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -614,6 +722,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -623,6 +735,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -632,6 +748,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -641,6 +761,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -650,6 +774,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -659,6 +787,10 @@
 			m_IconSm = "toolimages:assettypes/physics_sm.png"
 			m_Ext = "cloth"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Physics",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -668,6 +800,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -677,6 +813,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -686,6 +826,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CSimpleAssetTypeInfo"
@@ -695,6 +839,10 @@
 			m_IconLg = "toolimages:assettypes/generic_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"Physics",
+			]
 		},
 		{
 			_class = "CBitmapAssetTypeInfo"
@@ -703,6 +851,10 @@
 			m_Ext = "psd"
 			m_IconLg = "toolimages:assettypes/image_psd_lg.png"
 			m_IconSm = "toolimages:assettypes/image_psd_sm.png"
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CBitmapAssetTypeInfo"
@@ -711,6 +863,10 @@
 			m_Ext = "tga"
 			m_IconLg = "toolimages:assettypes/generic_image_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_image_sm.png"
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CBitmapAssetTypeInfo"
@@ -719,6 +875,10 @@
 			m_Ext = "tif"
 			m_IconLg = "toolimages:assettypes/generic_image_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_image_sm.png"
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CBitmapAssetTypeInfo"
@@ -727,6 +887,10 @@
 			m_Ext = "tiff"
 			m_IconLg = "toolimages:assettypes/generic_image_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_image_sm.png"
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CBitmapAssetTypeInfo"
@@ -735,14 +899,10 @@
 			m_Ext = "pfm"
 			m_IconLg = "toolimages:assettypes/generic_image_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_image_sm.png"
-		},
-		{
-			_class = "CBitmapAssetTypeInfo"
-			m_Name = "exr_asset"
-			m_FriendlyName = "EXR File"
-			m_Ext = "exr"
-			m_IconLg = "toolimages:assettypes/generic_image_lg.png"
-			m_IconSm = "toolimages:assettypes/generic_image_sm.png"
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CBitmapAssetTypeInfo"
@@ -751,6 +911,10 @@
 			m_Ext = "png"
 			m_IconLg = "toolimages:assettypes/generic_image_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_image_sm.png"
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CBitmapAssetTypeInfo"
@@ -759,6 +923,10 @@
 			m_Ext = "jpg"
 			m_IconLg = "toolimages:assettypes/generic_image_lg.png"
 			m_IconSm = "toolimages:assettypes/generic_image_sm.png"
+			m_AssetTypeGroups = 
+			[
+				"Visual",
+			]
 		},
 		{
 			_class = "CDatamodelAssetTypeInfo"
@@ -768,6 +936,10 @@
 			m_IconLg = "toolimages:assettypes/dmx_lg.png"
 			m_IconSm = "toolimages:assettypes/dmx_sm.png"
 			m_bHideTypeByDefault = true
+			m_AssetTypeGroups = 
+			[
+				"System",
+			]
 		},
 		{
 			_class = "CMapAssetTypeInfo"
@@ -778,6 +950,10 @@
 			m_IconLg = "toolimages:assettypes/map_lg.png"
 			m_IconSm = "toolimages:assettypes/map_sm.png"
 			m_bSuppressFullFingerprintCalculation = true
+			m_AssetTypeGroups = 
+			[
+				"Map",
+			]
 			m_SuppressSubstrings = 
 			[
 				"pak01_",
@@ -794,6 +970,11 @@
 	{
 		m_Filters = 
 		[
+			{
+				m_Name = "PieceOfModel"
+				m_Value = "0"
+				m_FilterFunc = "ASSET_FILTER_EQUAL_OR_MISSING"
+			},
 		]
 	}
 }

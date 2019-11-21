@@ -41,7 +41,7 @@
 		{
 			_class = "C_OP_RemapCPtoVector"
 			m_nCPInput = 2
-			m_nFieldOutput = "6"
+			m_nFieldOutput = 6
 			m_vOutputMax = 
 			[
 				1.000000,
@@ -60,7 +60,7 @@
 			m_flRotOffset = 180.000000
 			m_flSpinStrength = 10.000000
 			m_nCP = 1
-			m_nFieldOutput = "12"
+			m_nFieldOutput = 12
 			m_bDisableOperator = true
 		},
 		{
@@ -69,11 +69,11 @@
 			m_RateMax = -255.000000
 			m_FrequencyMin = 3.000000
 			m_FrequencyMax = 5.000000
-			m_nField = "16"
+			m_nField = 16
 		},
 		{
 			_class = "C_OP_Noise"
-			m_nFieldOutput = "4"
+			m_nFieldOutput = 4
 			m_flOutputMin = -360.000000
 			m_flOutputMax = 360.000000
 			m_fl4NoiseScale = 36.000000
@@ -197,8 +197,8 @@
 			m_fForceAmount = 500.000000
 			m_TwistAxis = 
 			[
+				1.000000,
 				0.000000,
-				-1.000000,
 				0.000000,
 			]
 			m_bLocalSpace = true

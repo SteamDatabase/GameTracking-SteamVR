@@ -311,7 +311,6 @@
   "SecondaryControllerTab": "การตั้งค่าพิเศษ",
   "SecondaryController_ReturnWithLeftHand": "คืนค่าการกำหนดปุ่มด้วยมือซ้าย",
   "SecondaryController_ReturnWithRightHand": "คืนค่าการกำหนดปุ่มด้วยมือขวา",
-  "SecondaryController_ReturnWithHead": "คืนค่าการกำหนดปุ่มด้วยหน้าจอสวมศีรษะ",
   "Settings_ThumbstickDeadzone_Text": "Deadzone ของทัมสติก:",
   "Settings_ControllerSettings_Title": "การตั้งค่าทัมสติก",
   "Settings_ControllerSettings_Utilities": "ยูทิลิตี้ของคอนโทรลเลอร์",

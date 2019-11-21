@@ -1,5 +1,4 @@
 {
-   "action_manifest_version": 1,
    "bindings" : {
       "/actions/default" : {
          "sources" : [
@@ -78,6 +77,6 @@
       }
    },
    "controller_type" : "gamepad",
-   "description" : "Default Gamepad bindings for SteamVR Home.",
-   "name" : "Default Gamepad Bindings"
+   "description" : "Default binding for Gamepad",
+   "name" : "SteamVR Home bindings for Gamepad"
 }

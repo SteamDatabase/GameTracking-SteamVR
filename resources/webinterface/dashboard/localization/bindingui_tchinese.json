@@ -311,7 +311,6 @@
   "SecondaryControllerTab": "額外設定",
   "SecondaryController_ReturnWithLeftHand": "以左手回傳按鍵綁定",
   "SecondaryController_ReturnWithRightHand": "以右手回傳按鍵綁定",
-  "SecondaryController_ReturnWithHead": "Return bindings with HMD",
   "Settings_ThumbstickDeadzone_Text": "搖桿死區：",
   "Settings_ControllerSettings_Title": "搖桿設定",
   "Settings_ControllerSettings_Utilities": "控制器工具",

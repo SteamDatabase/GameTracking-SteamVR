@@ -1,8 +1,6 @@
  A __bss_start
  A _edata
  A _end
- CBufferString::Insert(int, char const*, int, bool)
- CBufferString::Purge(int)
  CBufferString::Relinquish(CBufferString::EAllocationOption_t)
  CMemAllocSystemInitialize
  COM_TimestampedLog
@@ -74,7 +72,6 @@
  V_UnicodeLength(char const*)
  V_UnqualifiedFileName
  V_atof
- V_atofloat64
  V_atoi
  V_iswspace
  V_localeconv
@@ -115,7 +112,6 @@
  _V_strncat
  _V_strncmp
  _V_strncpy
- _V_strnicmp_fast
  _V_strnistr_fast
  __ctype_toupper_loc@@GLIBC_2.3
  __cxa_atexit@@GLIBC_2.2.5
@@ -124,7 +120,6 @@
  __cxa_guard_acquire@@CXXABI_1.3
  __cxa_guard_release@@CXXABI_1.3
  __cxa_pure_virtual@@CXXABI_1.3
- __cxa_throw_bad_array_new_length@@CXXABI_1.3.8
  __errno_location@@GLIBC_2.2.5
  __fxstat64@@GLIBC_2.2.5
  __gmon_start__

@@ -4,13 +4,7 @@
 		<include src="s2r://panorama/styles/notifications_panel.vcss_c" />
 	</styles>
 
-  <snippets>
-		<snippet name="NotificationInfo">
-			<Panel class="Notification">
-				<Image class="NotificationImageClear"  src="s2r://panorama/images/content_browser/icon_info_png.vtex"/>
-				<Label id="NotificationText" class="NotificationText" text="#Notification_Info" />
-			</Panel>
-		</snippet>
+	<snippets>
 		<snippet name="NotificationPlayerCreated">
 			<Panel class="Notification">
 				<Image class="NotificationImageClear"  src="s2r://panorama/images/content_browser/player_joined_icon_png.vtex"/>
@@ -59,37 +53,7 @@
 				<Label id="NotificationText" class="NotificationText" text="#Notification_LoadingDestination" />
 			</Panel>
 		</snippet>
-    <snippet name="NotificationLoadingUnsubscribedDestination">
-      <Panel class="Notification NotificationWithExtraRow">
-        <Panel class="NotificationRow">
-          <Image id="NotificationImage" class="NotificationImageSquare"/>
-          <Label id="NotificationText" class="NotificationText" text="#Notification_LoadingUnsubscribedDestination" />
-        </Panel>
-
-        <Panel id="DownloadDestinationButtonParent" class="DownloadButtonRow">
-          <Button id="DownloadDestinationButton" class="DestinationButton" onactivate="$.DispatchEvent( 'DownloadDestination', $( '#DownloadDestinationButtonParent' ).GetParent() )">
-            <Label class="DownloadDestinationLabel" id="DownloadDestinationLabel" text="#Notification_DownloadDestination" />
-          </Button>
-          <Button id="DismissDownloadNotificationButton" class="DestinationButton" onactivate="$.DispatchEvent( 'NotificationExpired', $( '#DownloadDestinationButtonParent' ).GetParent() )">
-            <Label class="DismissDownloadNotificationLabel" id="DismissDownloadNotificationLabel" text="#Notification_DismissNotificationDestination" />
-          </Button>
-        </Panel>
-
-        <Panel class="NotificationRow DownloadingRow">
-          <Label id="DownloadingLabel" class="DownloadingLabel" text="#Notification_DownloadingWorkshopItem" />
-        </Panel>
-
-        <Panel class="NotificationRow DownloadingRow">
-          <Panel id="DestinationDownloadProgressBar" class="DestinationDownloadProgressBar" />
-        </Panel>
-
-        <Panel class="NotificationRow DownloadedRow">
-          <Label id="DownloadedLabel" class="DownloadedLabel" text="#Notification_FinishedDownloadingWorkshopItem" />
-        </Panel>
-
-      </Panel>
-    </snippet>
-    <snippet name="NotificationNoDestinationForcedHome">
+		<snippet name="NotificationNoDestinationForcedHome">
 			<Panel class="Notification">
 				<Image id="NotificationImage" class="NotificationImageSquare"/>
 				<Label id="NotificationText" class="NotificationText" text="#Notification_NoDestinationForcedHome" />

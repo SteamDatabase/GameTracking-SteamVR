@@ -311,7 +311,6 @@
   "SecondaryControllerTab": "Zusätzliche Einstellungen",
   "SecondaryController_ReturnWithLeftHand": "Zuordnungen mit der linken Hand zurückgeben",
   "SecondaryController_ReturnWithRightHand": "Zuordnungen mit der rechten Hand zurückgeben",
-  "SecondaryController_ReturnWithHead": "Zuordnungen mit dem VR-Headset zurückgeben",
   "Settings_ThumbstickDeadzone_Text": "Totzone für Analogstick:",
   "Settings_ControllerSettings_Title": "Analogstickeinstellungen",
   "Settings_ControllerSettings_Utilities": "Controllerwerkzeuge",

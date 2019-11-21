@@ -68,108 +68,6 @@ var CItemsContext = (function()
 var gChangeUGCThumbnailsEventID = null;
 var gSection = "environments";
 var gUGCItemsContext = new CItemsContext();
-var gIsShowingHandLabCallout = false;
-
-function OnShowHandLabCallout( handLabData )
-{
-	var wrapperPanel = $( "#CommunityHomeWrapper" );
-
-	if ( !SteamVRHome.ShouldShowHandLabCallout() )
-	{
-		if ( gIsShowingHandLabCallout )
-		{
-			wrapperPanel.RemoveClass( "AppConfirm" );
-			gIsShowingHandLabCallout = false;
-		}
-
-		return;
-	}
-
-	gIsShowingHandLabCallout = true;
-
-	wrapperPanel.AddClass( "AppConfirm" );
-	wrapperPanel.SetHasClass( "IsSteamApp", true );
-	
-	var confirmationPanel = wrapperPanel.FindChildInLayoutFile( "ConfirmationPanel" );
-	confirmationPanel.SetDialogVariable( "launch_app_name", handLabData.app_name );
-
-	var launchImagePanel = confirmationPanel.FindChildInLayoutFile( "LaunchAppImage" );
-	launchImagePanel.SetImage( handLabData.app_logo_url );
-
-	var vrAppData = VRUtils.GetVRAppPropertyData( handLabData.app_id );
-	if ( vrAppData.data_valid == 0 )
-		wrapperPanel.RemoveClass( "CanLaunchApp" );
-	else
-		wrapperPanel.AddClass( "CanLaunchApp" );
-
-	// Launch button
-	var launchButton = confirmationPanel.FindChildInLayoutFile( "LaunchAppButton" );
-	var onLaunchButtonActivate = function( localAppid ) {
-		return function() {
-			SteamVRHome.DismissHandLabCallout();
-			VRUtils.LaunchSteamApp( localAppid, "community_wall" );
-		}
-	}( handLabData.app_id );
-	launchButton.SetPanelEvent( "onactivate", onLaunchButtonActivate );
-
-	// Details button
-	var detailsButton = confirmationPanel.FindChildInLayoutFile( "DetailsButton" );
-	var onDetailsButtonActivate = function( localAppid ) {
-		return function() {
-			SteamVRHome.DismissHandLabCallout();
-			if ( vrAppData.data_valid == 0 )
-				$.DispatchEvent( 'OpenSteamURL', 'open/bigpicture/store/' + localAppid );
-			else
-				$.DispatchEvent( 'OpenSteamURL', 'open/bigpicture/librarydetails/' + localAppid );
-		}
-	}( handLabData.app_id );
-	detailsButton.SetPanelEvent( "onactivate", onDetailsButtonActivate );
-
-	// Cancel button
-	var cancelButton = confirmationPanel.FindChildInLayoutFile( "CancelButton" );
-	cancelButton.SetPanelEvent( "onactivate", function() {
-		SteamVRHome.DismissHandLabCallout();
-		wrapperPanel.RemoveClass( "AppConfirm" ); 
-	} );
-}
-
-
-function OnLoadMainPanel()
-{
-	var launchDate = new Date( 2019, 5, 24 );
-	if ( Date.now() < launchDate )
-		return;
-
-	$.AsyncWebRequest(
-		"http://steamcommunity.com/steamvr/ajaxgetgfxurl/",
-		{
-			type: "GET",
-			data: {},
-			success: function( data )
-			{
-				var handLabData = {
-					app_id: 868020,
-					app_name: "Aperture Hand Lab",
-					app_logo_url: data.url + "apps/868020/header.jpg"
-				};
-	
-				// If we already have Index controllers connected...
-				OnShowHandLabCallout( handLabData );
-
-				// If we don't have Index controllers right now, but connect them later in the session...
-				GameEvents.Subscribe( "vr_controllers_connected", function ( localHandLabData ) {
-					return function() {
-						OnShowHandLabCallout( localHandLabData );
-					}
-				}( handLabData ) );
-			},
-			error: function()
-			{
-				$.Msg( "Failed to get GFX url." );
-			}
-		}
-	);
-}
 
 
 function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
@@ -231,7 +129,7 @@ function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
 					var onLaunchButtonActivate = function( localAppid ) {
 							return function() {
 //								$.Msg( "Local APP ID: " + localAppid );
-								VRUtils.LaunchSteamApp( localAppid, "community_wall" );
+								VRUtils.LaunchSteamApp( localAppid );
 							}
 					}( appid );
 					launchButton.SetPanelEvent( "onactivate", onLaunchButtonActivate );
@@ -241,10 +139,7 @@ function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
 					var onDetailsButtonActivate = function( localAppid ) {
 							return function() {
 //								$.Msg( "Local APP ID: " + localAppid );
-								if ( vrAppData.data_valid == 0 )
-									$.DispatchEvent( 'OpenSteamURL', 'open/bigpicture/store/' + localAppid );
-								else
-									$.DispatchEvent( 'OpenSteamURL', 'open/bigpicture/librarydetails/' + localAppid );
+								$.DispatchEvent( 'ShowAppInSteamVR', localAppid );
 							}
 					}( appid );
 					detailsButton.SetPanelEvent( "onactivate", onDetailsButtonActivate );

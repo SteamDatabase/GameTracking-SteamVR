@@ -24,9 +24,8 @@
 		},
 		{
 			_class = "C_OP_FadeAndKill"
-			m_flEndFadeInTime = 0.100000
+			m_flEndFadeInTime = 0.000000
 			m_flStartFadeOutTime = 0.250000
-			m_flStartAlpha = 0.000000
 		},
 		{
 			_class = "C_OP_Spin"
@@ -37,8 +36,8 @@
 	[
 		{
 			_class = "C_OP_RenderSprites"
-			m_hTexture = resource:"particles/props/mrmeeseeks_fx/cloud/clouds.vtex"
-			m_bParticleFeathering = true
+			m_hTexture = resource:"materials/particle/smoke1/smoke1.vtex"
+			m_bAdditive = true
 		},
 	]
 	m_Initializers = 
@@ -89,8 +88,6 @@
 		},
 		{
 			_class = "C_INIT_RandomAlpha"
-			m_nAlphaMin = 100
-			m_nAlphaMax = 100
 		},
 		{
 			_class = "C_INIT_PositionOffset"
@@ -114,7 +111,8 @@
 		},
 		{
 			_class = "C_INIT_RandomSequence"
-			m_nSequenceMax = 2
+			m_nSequenceMax = 4
+			m_nSequenceMin = 1
 		},
 	]
 	m_Emitters = 
@@ -126,38 +124,14 @@
 		},
 		{
 			_class = "C_OP_ContinuousEmitter"
-			m_flEmissionDuration = 1.500000
+			m_flEmitRate = 200.000000
+			m_flEmissionDuration = 2.000000
 		},
 	]
 	m_Children = 
 	[
 		{
 			m_ChildRef = resource:"particles/tool_fx/cache_captured_confetti.vpcf"
-		},
-	]
-	m_controlPointConfigurations = 
-	[
-		{
-			m_name = "preview"
-			m_drivers = 
-			[
-				{
-					m_iAttachType = "PATTACH_WORLDORIGIN"
-					m_vecOffset = 
-					[
-						0.000000,
-						0.000000,
-						0.000000,
-					]
-					m_angOffset = 
-					[
-						null,
-						null,
-						null,
-					]
-					m_entityName = "self"
-				},
-			]
 		},
 	]
 }

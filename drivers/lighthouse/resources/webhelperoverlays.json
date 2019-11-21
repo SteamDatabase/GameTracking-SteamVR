@@ -1,6 +1,7 @@
 {
-	"pairing": {
+	"quickstart": {
 		"url": "/lighthouse/webinterface/pairing.html",
+		"name": "pairing",
 		"type": "window",
 		"preload" :  true,
 		"pixel_size": [ 800, 600 ]

@@ -2104,25 +2104,16 @@ SteamToursFriends {
 }
 
 .WorldPanelPublicLobbies #InLobbyDestination,
+.WorldPanelPublicLobbies #MemberCount,
+.WorldPanelPublicLobbies #FriendCount,
 .WorldPanelPublicLobbies #InPublicRoom,
 .WorldPanelPublicLobbies #InFriendsRoom,
-.WorldPanelPublicLobbies #LobbyOwnerName,
-.WorldPanelPublicLobbies #LobbyMemberCounts
+.WorldPanelPublicLobbies #LobbyOwnerName
 {
 	font-size: 45px;
 	height: 55px;
 	width: 600px;
 	margin-top: 0px;
-}
-
-.WorldPanelPublicLobbies #MemberCount,
-.WorldPanelPublicLobbies #FriendCount
-{
-	font-size: 45px;
-	height: 55px;
-//	width: 250px;
-	margin-top: 0px;
-	margin-right: 20px;	
 }
 
 .WorldPanelPublicLobbies .AlertPanel
@@ -2353,9 +2344,7 @@ SteamToursFriends {
 }
 
 .WorldPanelFriends #FriendInviteButton,
-.WorldPanelFriends #FriendJoinButton,
-.WorldPanelFriends #FriendInviteButton.DestinationButton:hover:disabled,
-.WorldPanelFriends #FriendJoinButton.DestinationButton:hover:disabled
+.WorldPanelFriends #FriendJoinButton
 {
 	height: 130px;	
 	margin-top: 20px;

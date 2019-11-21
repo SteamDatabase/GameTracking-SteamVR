@@ -310,7 +310,6 @@
 "StoreCheckout_OldPriceSheet"			"Your local product list is out of date. Requesting a new one."
 "StoreCheckout_TransactionNotFound"		"This transaction's id wasn't found by the game coordinator. Please try the purchase again."
 "StoreCheckout_TransactionCanceled"		"Transaction canceled. You have not been charged."
-"StoreCheckout_TransactionCancelled"	"Transaction cancelled. You have not been charged."
 "StoreCheckout_TransactionCompleted"	"Transaction completed! Enjoy your loot!"
 "StoreCheckout_CompleteButUnfinalized"	"Unable to confirm success. If successful, your items will be delivered at a later date."
 "StoreCheckout_NotEnoughRoom"			"You don't have enough room in your backpack to buy that many items."
@@ -433,8 +432,7 @@
 "Vulkan_UnableToStartGame"			"Unable To Start Game"
 "Vulkan_NoVulkanDLC"				"Vulkan Support DLC required for Vulkan (-vulkan) mode.\nPlease download the Vulkan DLC and restart.\n"
 "Vulkan_MacOSVersionFailure"		"Vulkan on macOS requires macOS v%s1 or greater.\n"
-"Vulkan_InitializationFailure"		"Failed to initialize Vulkan.\nPlease make sure your driver and GPU support Vulkan.\n"
-"Vulkan_DisableInstructions"		"\nTo disable Vulkan, remove -vulkan from your launch options.\nIf you chose Vulkan in the video settings, please add -safe_mode to your launch options to allow the game to start with the default rendersystem."
+"Vulkan_InitializationFailure"		"Failed to initialize Vulkan.\nPlease make sure your driver and GPU support Vulkan.\n\nTo disable Vulkan, remove -vulkan from your launch options.\nIf you chose Vulkan in the video settings, please add -safe_mode to your launch options to allow the game to start with the default rendersystem."
 "Vulkan_RequiredExtensionMissing"	"Required Vulkan extension \"%s1\" is not supported.  Please update your Vulkan driver.\n"
 
 "LOC_Date_Month0"					"January"
@@ -550,34 +548,10 @@
 "LOC_Number_InfinityShort"												"Inf"
 // Ordinals can have a prefix or suffix. For either one the number modulo 100
 // is first checked for a specific prefix/suffix, otherwise the default is used.
-// Values can be "<none>" for no prefix/suffix and "<space>" for a space.
+// Values can be "<empty>" for no prefix/suffix and "<space>" for a space.
 "LOC_Ordinal_Suffix_Default"											"th"
 "LOC_Ordinal_Suffix_1"													"st"
 "LOC_Ordinal_Suffix_2"													"nd"
 "LOC_Ordinal_Suffix_3"													"rd"
-"LOC_Ordinal_Suffix_21"													"st"
-"LOC_Ordinal_Suffix_22"													"nd"
-"LOC_Ordinal_Suffix_23"													"rd"
-"LOC_Ordinal_Suffix_31"													"st"
-"LOC_Ordinal_Suffix_32"													"nd"
-"LOC_Ordinal_Suffix_33"													"rd"
-"LOC_Ordinal_Suffix_41"													"st"
-"LOC_Ordinal_Suffix_42"													"nd"
-"LOC_Ordinal_Suffix_43"													"rd"
-"LOC_Ordinal_Suffix_51"													"st"
-"LOC_Ordinal_Suffix_52"													"nd"
-"LOC_Ordinal_Suffix_53"													"rd"
-"LOC_Ordinal_Suffix_61"													"st"
-"LOC_Ordinal_Suffix_62"													"nd"
-"LOC_Ordinal_Suffix_63"													"rd"
-"LOC_Ordinal_Suffix_71"													"st"
-"LOC_Ordinal_Suffix_72"													"nd"
-"LOC_Ordinal_Suffix_73"													"rd"
-"LOC_Ordinal_Suffix_81"													"st"
-"LOC_Ordinal_Suffix_82"													"nd"
-"LOC_Ordinal_Suffix_83"													"rd"
-"LOC_Ordinal_Suffix_91"													"st"
-"LOC_Ordinal_Suffix_92"													"nd"
-"LOC_Ordinal_Suffix_93"													"rd"
 } 
 }

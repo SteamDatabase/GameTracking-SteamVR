@@ -47,6 +47,10 @@
 									<Label class="LaunchDestinationLabel" id="SelectPropLabel" text="#ItemDetail_Select" />
 									<Label class="LaunchDestinationLabel" id="SetBackground" text="#ItemDetail_SetBackground" />
 									<Label class="LaunchDestinationLabel" id="EquipTool" text="#ItemDetail_EquipTool" />
+									<Panel class="PublicIcon">
+										<Label class="NumberOfPlayers" id="NumberOfPlayers" text="#Player_Number" />
+										<Image class="LaunchPublicIcon" src="s2r://panorama/images/content_browser/friends_toggle_button_png.vtex" />
+									</Panel>	
 								</Panel>
 							</Button>
 
@@ -375,6 +379,7 @@
 
 					<DropDown class="SortItemsDropDown DestinationButton" id="SortItemsDropDown">
 						<Label text="#SortAlphabetical" id="SortAlphabetical" />
+						<Label text="#SortPlayers" id="SortPlayers" />
 					 	<Label text="#SortRecent" id="SortRecent" />
 						<Label text="#SortUpdated" id="SortUpdated"/>
 						<Panel class="DropDownDivider" />
@@ -917,29 +922,7 @@
 			</Panel>
 		</Panel>
 
-    <Panel class="WaitForSharedDownloadWrapper">
-      <Panel class="WaitForSharedDownloadDialog">
-        <Label class="WaitForSharedDownloadMessageTitle" text="#WaitForSharedDownloadMessageTitle" />
-
-        <Panel class="SharedDownloadProgressContainer">
-          <Panel id="SharedDownloadProgressBar" class="SharedDownloadProgressBar" />
-        </Panel>
-
-        <Label id="SharedDownloadClientsRemainingLabel" class="SharedDownloadClientsRemainingLabel" text="#SharedDownloadClientsRemaining" />
-        <Label id="SharedDownloadClientsFinishedLabel" class="SharedDownloadClientsFinishedLabel" text="#SharedDownloadClientsFinished" />
-
-        <Panel class="WaitForSharedDownloadButtons">
-          <Button id="ForceMoveToWorkshopDestinationButton" class="DestinationButton" onactivate="ForceMoveToDestination()">
-            <Label class="ForceMoveToWorkshopDestinationLabel" text="#ForceMoveToWorkshopDestinationText" />
-          </Button>
-          <Button id="CancelMoveToWorkshopDestinationButton" class="DestinationButton" onactivate="CancelMoveToDestination()">
-            <Label class="CancelMoveToWorkshopDestinationLabel" text="#CancelMoveToWorkshopDestinationText" />
-          </Button>
-        </Panel>
-      </Panel>
-    </Panel>
-
-    <Panel class="DownloadingMessage" id="DownloadingMessage">
+		<Panel class="DownloadingMessage" id="DownloadingMessage">
 			<Image class="DownloadIcon" src="s2r://panorama/images/content_browser/download_icon_png.vtex" />
 			<Label class="DownloadMessage" text="#DownloadMessage" />
 		</Panel>
