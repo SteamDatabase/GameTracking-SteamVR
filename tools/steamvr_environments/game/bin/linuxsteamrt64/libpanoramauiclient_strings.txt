@@ -1,5 +1,6 @@
 	?rfL
 	CODE_SIZE
+	HcR0
 	JS_NORMAL
 	JS_NUMBER
 	JS_STRING
@@ -31,18 +32,15 @@
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %s %s
- &lt;H
  '%s'
  ( def. "%s" )
  ,)(;
  ... }
  /&gt;
- 9O I
  ;{}:
  = { <proto text format> }". To set fields within it, use syntax like "
  AVAUI
- A\A]A^A_]
- A\A]]
+ AWAVAUI
  BackUp() can only be called after Next().
  Can't back up over more bytes than were returned by the last call to Next().
  D;x0
@@ -56,7 +54,6 @@
  [A\A]A^]
  [A\A^A_]
  [A\]
- []A\
  [default = $0
  a protocol 
  args were given.  Full format string was: "
@@ -77,6 +74,7 @@
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
  parent-relative
+ tMv+@
  type does not match
  unexpected for field 
  was modified concurrently during serialization.
@@ -86,8 +84,7 @@
 !8:$+
 !;6t;m
 !Pz[0
-!immediaL
-!immediate
+!immedia
 !m_bNeedsSort
 " because it is missing required fields: 
 " conflicts with field "
@@ -134,7 +131,6 @@
 "%s" 
 "%s" = "%s"
 "%s":
-"%s":"%s"
 "%s":%.3f
 "%s":%d
 "%s":%f
@@ -169,7 +165,6 @@
 "MapSize"
 "MutableRawRepeatedField"
 "e" must be followed by exponent.
-"t&L;}
 #%02X%02X%02X%02X
 #Debugger_AnimationHeader
 #Debugger_LayoutFileLink
@@ -207,8 +202,6 @@
 #include is NULL 
 #int#
 $(PD"
-$)L;c
-$+s$Hc
 $0  extend .$1 {
 $0  extensions $1 to $2;
 $0  reserved 
@@ -223,10 +216,8 @@ $0message $1
 $0oneof $1 {
 $0option $1;
 $0rpc $1($4.$2) returns ($5.$3)
-$A+D$$H
 $A;\$
 $E;D$
-$E;L$
 $ORIGIN
 $TXzh
 $[A\]
@@ -237,7 +228,6 @@ $woL)
 %.18g
 %<8yX
 %`chEP
-%d total counted strings.
 %d.%d.%d
 %dx%d
 %f %f %f %f
@@ -267,23 +257,28 @@ $woL)
 %sAutocomplete
 %sDropDownMenu
 %sIMEControls
+%s_BG
+%s_FG
 %s_Left
 %s_Middle
 %s_Right
-&HcS D
+&YA1H
+&YA1L
 &lt;Needs a description&gt;
 'out_location' must not be NULL
 (%s,%s)
+(&lt;H
 ((https?|ftp|file)://|www\.)([^<]*)
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
 (1 + n) * 3 <= vecsize
 (?R or (?[+-]digits must be followed by )
-(A]A^]
+(HcWP
+([A\A]
 ([A\A]A^A_]
+([A\A]A^]
 ([A\A]]
-([A\A^]
 ([]A\A]A^A_
 (cannot determine missing fields for lite message)
 (memory)
@@ -294,23 +289,22 @@ $woL)
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )DJ>9
 )HcClH
-*D$dfA
-*ZN8panorama15CDelayLoadPanelC1EPNS_8CPanel2DEPKcEUlPS0_E_
+*>mathlib.cpp
+*ZN8panorama15CDelayLoadPanelC4EPNS_8CPanel2DEPKcEUlPS0_E_
 +++ %s: 
 +++ %s[%d]: 
-+C49E
-+K$Lc
 +S$Hc
 +]mkn
 +s$Hc
-+s$Ic
-+{$Hc
 , %s )
 , %sdeg
 , %sdeg )
 , from: 
 , lo=
 , not just within "
+,$Mcl$
+,0L;k
+,4L;k
 -($E'
 --- %s: 
 --- %s[%d]: 
@@ -327,26 +321,38 @@ $woL)
 . This will make the proto fail to compile for some languages, such as C#.
 ...<truncated>...
 ../public/ordered_constructor.h
-../public/panorama/layout/fillbrush.h
+../public/panorama/controls/../layout/fillbrush.h
 ../public/tier1/utlleanvector.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier1/utlsortvector.h
 ./hR%
-.B4zWuU
-.B@z?u=H9
-.CHzxuv
-.C\zFf
-.F z4u2
-.F0z'u%
+.CDz u
+.CDz[uYH
+.CDzoumH
+.CHzVuT
+.CTwBA
+.C\z.u,
+.D$0z
+.D$4z
+.D$8z
+.F z1u/
+.G UH
+.G$UH
+.G(UH
 .G0UH
-.KPzff
-.KTvW
-.KTzXuV
-.K`z8u6
-.Khz&f
-.O<{vH
+.K8zvut
+.K<znul
+.K@zfud
+.KDz^u\
+.KLzNuL
+.KPzFuD
+.KTz>u<
+.KXz6u4
+.K`z&u$
+.M;UU
 .PLACEHOLDER_VALUE
+.VHz3u1
 .comment
 .data
 .data.rel.ro
@@ -356,6 +362,7 @@ $woL)
 .dynsym
 .eh_frame
 .eh_frame_hdr
+.fD;8ty
 .fini
 .fini_array
 .foo = value".
@@ -365,18 +372,18 @@ $woL)
 .gnu_debuglink
 .init
 .init_array
+.nDz%u#A
 .note.gnu.build-id
 .placeholder.proto
 .rela.dyn
 .rela.plt
 .rodata
 .shstrtab
-.steampof
 .strtab
 .symtab
 .tdata
 .text
-.valvesoH
+.w,z	
 // 2 px horizontal radii 4px vertical elliptical corners on all sides
 // All corners fully specified 
 // Perfect circular or elliptical panel (circular if box was square)
@@ -384,16 +391,12 @@ $woL)
 // centers the image within the background (same as "center center")
 // the top left corner of the image is placed 10px to the right of, 40px below the top left corner of the panel
 /I9D$
-/content/
-/game/
 /usr/bin/xdg-open
 0 <= i
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-0123456789ABCDEF
 0123456789abcdef
-0<	w1
-0Lc`0
-0[A\A]A^A_]
+0<	wD
+0AUATI
 0[A\A]A^]
 0[A\]
 0[A^]
@@ -436,22 +439,21 @@ $woL)
 17CPickledRadixTrie
 17EVideoPlayerEvent
 17IPanoramaUIClient
-18CCountedStringPool
 18CUtlCharConversion
 19CPanoramaUISettings
 19CTextInputPickPanel
 19IKeyValuesErrorSpew
+1D;G 
 1Lc+D;k
 1OeJO9$
 2!JfT7|
+20971520
 20CPostConnectCallback
 20CRefCountServiceBaseILb1E6CRefMTE
 20CTextInputDaisyGroup
 21CUtlCStringConversion
-21IKeyValuesDumpContext
 22CSchemaInstallCallback
 23CPanoramaClientDebugger
-23CSplitScreenAddedConVar
 23DS9z
 23IConCommandBaseAccessor
 23IPanoramaClientDebugger
@@ -460,61 +462,40 @@ $woL)
 25IVideoPlayerEventCallback
 25IVideoPlayerVideoCallback
 26CDefaultKeyValuesErrorSpew
-27IKeyValuesDumpContextAsText
-29CKeyValuesDumpContextAsDevMsg
-2A84$u
 2d#yB
-3+C$H
-3E8 u
-4 L;s
-4$A\H
-42HcU
 456789:;<=
-4A9]x
-4E9ex
-4E9ux
-4fff>fff>fff>fff>
-4vf;T
+4A;]x|
+4A;]x}`
+4A;^x
+4E;t$x
 5t~BC
 6ConVar
 6D;U$
-6H92t%H
-6H97tsH
+6H92t)H
 7IConVar
-7[A\A]A^]
 7e9^v]cS3
 7xgfQKm-
-8.t#H
+8A^]H
 8CFmtStrNILi1024ELb0EE
 8CFmtStrNILi256ELb0EE
 8CFmtStrNILi32ELb0EE
 8CFmtStrNILi64ELb0EE
 8CFmtStrNILi8192ELb0EE
-8VBKVt6HcF
 8[A\A]A^A_]
 8[A\A]]
 8[A^A_]
 8[]A\A]A^A_
 8webm
+9@8:u
 9C t=H
-9C tOH
-9C t^I
-9C tjH
-9C tjI
+9C tJH
+9C tMH
+9C tZH
+9C tmH
+9C trH
 9C tvI
-9C t~I
-9C(sAI
-9C(sDI
-9C(sHI
-9C(sL
-9C(sN
-9C(sP
-9C(sPL
-9C(sUf.
-9C(sc
 9C(txH
 9C(t~I
-9C0tiI
 9CCallbackIN8panorama5CHTMLE14HTML_JSAlert_tLb0EE
 9CCallbackIN8panorama5CHTMLE16HTML_JSConfirm_tLb0EE
 9CCallbackIN8panorama5CHTMLE16HTML_NewWindow_tLb0EE
@@ -538,71 +519,52 @@ $woL)
 9CCallbackIN8panorama5CHTMLE26HTML_CanGoBackAndForward_tLb0EE
 9CDt8H
 9ELanguage
-9G t@H
-9G tHH
-9G tIH
-9G tQH
-9G tXH
-9G t[H
-9G tqH
-9G trH
+9G tPH
 9G twH
-9G$t)H
+9G$t:H
 9G(t=H
-9G(tHH
 9G(tOH
-9G(tQH
-9G(tSH
-9G(tWH
-9G(thH
 9G(tiH
 9G0t(H
-9G@tQH
-9G@t[H
-9G@t_H
-9O4t&
+9G8tFH
+9O t9H
+9O(t9H
+9O@t9H
+9O@taH
 9dPipvj
+9f9:u
 9w`UH
+9wtt8f
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
 : failed to parse contents
 :+Q9`
+:,t~I
 :-bm~
-:@89u
 :[tlL
 :context->%p->%s:
 :context->null->UIEngine Global:
-:f99u
-;#tKH
-;'t&L
 ;*3$"
-;,ttI
+;0tSD
+;0tWD
+;0tXD
 ;:~`H
 ;;D$H
-;C@tXH
-;[A\]
+;BX|'1
+;CPt+H
 ;wDUH
-;{};{}
+;{};{}DebugPanelParents
 <	w)A
-<	w.1
-<	woD
+<	wlLcG
 < L;{
 < uEH
-<!L;{
-<$/t	I
+<$LcP
+<$tRE
 <$u,H
 <'t"<<t
-<'t{H
-<(L;{
-<)t,E
-<*tj<?tF
-<,L;{
-<,t3I
-<,u8H
-<,uaH
-<,uqH
-<-tMH
+<'uy;]
+<*td<?t@
 <-urH
 <.t	H
 </%s>
@@ -612,7 +574,6 @@ $woL)
 <0u3H
 <0u7H
 <0uKH
-<19{ |.
 <1tMH
 <5tGH
 <:u=H
@@ -622,16 +583,17 @@ $woL)
 <:uOH
 <:usH
 << NULL >>
-<@tYA
 <Eu.H
 <NULL>
 <Pu;H
-<Rt<<Pt`<S
+<Rt&<Pu
 <Uu`H
 <X^/N
 <Xu;H
 <\t(<'t<
+<\t?E
 <a href="\1\3">\1\3</a>
+<no failure reason set>
 <null>
 <span class="%s"> %s="</span>
 <span class="%s"> address="</span>
@@ -640,29 +602,25 @@ $woL)
 <span class="%s">%p</span>
 <span class="%s">%s</span>
 <span class="%s">0x%x</span>
-<}tI<{uO
+<}tQ<{uW
 <}u2<}
-=CSP1A
-=CSP1u
->Filename Cell Directory
->SteamClient017
+>initialselection
+>u4Hc
 ?333333
 ?456789:;<=
-?AnimatedImageStrip
 ?DebugAutoComplete
 ?LeftArrow
+?SteamController007
 ?TooltipVisible
-?onvaluechanged
+?file://{resources}/layout/number_entry.xml
 ?tabid
 ?target
 @ <b>@import</b> 
 @(!!!P
 @0!!!P
 @0H;E
-@82t+1
-@8wtt
-@:2t'
-@:9tx
+@8wtt8UH
+@:0t/H
 @@H;E
 @A;t$
 @HH;E
@@ -673,6 +631,7 @@ $woL)
 @P</t
 @[A\A]A^]
 @[A\]
+@fD9|
 @keyframes 
 @keyframes '%s'
 @m?X[j
@@ -682,58 +641,45 @@ $woL)
 @panorama_dragscroll_maxflickvelocity_vr
 @panorama_dragscroll_minflickvelocity
 @panorama_dragscroll_minflickvelocity_vr
-@t	[A\]
+@panorama_movie_async_load_size_bytes
+@tB[A\]
 @textinputid
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
-A+D$$9
+A#|$TH
 A+D$$H
+A+E$A
 A+E$H
-A+E$f
-A+G$H
-A+G$Lc
-A+T$$Hc
-A+U$A
-A+U$Hc
-A+U$f
-A+W$Hc
-A+W$f
-A+t$pH
-A+u$Hc
-A97tFI
+A+T$$
+A+t$$H
+A+t$$Hc
 A9D$ 
-A9D$ tSH
+A9D$ t\I
 A9D$$
 A9D$$u
 A9D$(
-A9D$(sDL
+A9D$(tPI
 A9D$,
+A9D$,u
 A9D$0
 A9D$0u
 A9D$4
-A9D$8
+A9D$4u
 A9D$@
 A9D$D
-A9E0tbH
-A9E4u
-A9F(sFH
-A9G }
-A9L$$
-A9L$,
-A9L$4
-A9L$4t
+A9E$u
 A9U8I
-A9\$(
-A9]PI
-A9_@~8L
-A;D$ 
-A;D$d
-A;D$h
-A;G A
+A;D$X}
+A;F8}}
+A;FPA
 A;GPA
-A;\$ A
-A;\$htOI
+A;\$ 
+A;\$ H
+A;\$$
 A;^(|
+A;_@|
+A;_@}4L
+A;_p|
 A=dtg
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
@@ -742,60 +688,65 @@ ACCEPT
 ALREADY_EXISTS
 APIN_txt
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-ATStuH
+ATS9G H
+ATS9G tvH
+ATS9G(H
+ATS9O tsH
+ATS9O(tKH
+ATSHcGDH
+ATSt$@
 ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
 ATUSH
+AUAT1
 AUATA
-AUATD
 AUATE
 AUATE1
+AUATH
 AUATI
 AUATL
 AUATLc
-AUATM
 AUATS
-AUATS1
-AUATSD
 AUATSH
 AUATSL
-AUATSf
-AUATStMI
-AUATStmH
-AUATUSH
-AVATI
+AUATSLc'E)
+AUATSLc/E)
+AUATSt=H
 AVATSH
 AVAUA
 AVAUATA
+AVAUATE
 AVAUATI
 AVAUATL
 AVAUATM
 AVAUATS
-AVAUATS1
+AVAUATS9G(H
+AVAUATS9G0H
 AVAUATSH
+AVAUATSL
+AVAUATS~
 AVAUATUH
-AVAUATUSH
+AVAUD
 AVAUE
+AVAUE1
 AVAUH
 AVAUI
 AVAUL
-AVAULc
 AVAUM
 AWAVA
 AWAVAUA
 AWAVAUATA
+AWAVAUATE1
+AWAVAUATH
 AWAVAUATI
 AWAVAUATL
-AWAVAUATM
-AWAVAUATS
 AWAVAUATS1
-AWAVAUATSD
 AWAVAUATSH
+AWAVAUATSRH
 AWAVAUATUSH
-AWAVAUE
+AWAVAUATfA
 AWAVAUE1
 AWAVAUI
 AWAVAUL
-AWAVAULc
 AWAVAUfA
 AWAVD
 AWAVE
@@ -806,14 +757,20 @@ AWAVL
 AWAVM
 AWAVSH
 AWAVfA
+AXAYE
+AYAZE
+AYAZt
 A\A]A^A_]
-A\A]A^A_]A
+A\A]A^H
 A\A]A^]
 A\A]A^]A
+A\A]A^]H
+A\A]H
 A\A]]
 A\A^A_]
 A]A^]
 A]A^]A
+A^A_]
 A_txt
 AccessDropDownMenu
 AccessStopColors
@@ -854,6 +811,7 @@ AllocInternal
 AllowOversized
 Already saw decimal point or exponent; can't have another one.
 AnimGraphEditorUtils001
+AnimatedImageStrip
 AnimationEnd
 AnimationName
 AnimationStart
@@ -884,7 +842,6 @@ AuthenticAMD
 Autosuggest_Prefix_txt
 Autosuggest_Suffix_txt
 Avestan
-B D9@ uD
 B*g"J@M
 BAcceptsFocus
 BAcceptsInput
@@ -909,6 +866,7 @@ BReadyForDisplay
 BSR_ANYCRLF)
 BSR_UNICODE)
 BScrollParentToFitWhenFocused
+BUnknown
 B_txt
 BackUp() can only be called after a successful Next().
 Bad expression operator: '%c%c', expected C style boolean expression operator.
@@ -935,13 +893,10 @@ BrowserGoToURL( %s )
 Buginese
 Buhid
 Button%d
-BxA9Ax
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
-B|A9A|
-C [A\]
-C,[A\A]]
+C(A+E
 C,[A\]
-C8HcC`
+C89CDH
 C8[A\]
 C<D;e
 C@[A\A]A^]
@@ -1195,10 +1150,10 @@ CHECK failed: uninterpreted_options_field != NULL:
 CHECK failed: value != NULL: 
 CHECK failed: z.first != NULL: 
 CHTML::Paint
-CHuhH
+CHuUH
 CImagePanel::SetImage
+CL$(9
 CMemAllocSystemInitialize
-CMemoryStack %s
 CMoviePanel::Clear
 CMoviePanel::Paint
 CMoviePlayer::UpdateTimeline: percent=%f, remaining=%f
@@ -1234,19 +1189,21 @@ CRadixTrieBase::FindCandidates
 CRadixTrieBase::FindCandidates (wrapper)
 CRadixTrieBase::FindCandidates(leaf)
 CRadixTrieBase::FindCandidates(recursion)
-CSP1H
 CStylePropertyFactory
 CStylePropertyFactory:  Factory for '%s' already exists!!!!
 CStyleSymbol
 CStyleSymbol must become larger, cannot fit all style properties in uint8 anymore
 CType
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
 CUtlLinkedList overflow! (exhausted index range)
 CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlMemoryPoolBase
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
 CXXABI_1.3
+CXXABI_1.3.8
 CX[A\]
-CXt?L
+CXt_L
+C`[A\A]A^]
 Call set methods to initialize MapKey.
 Caller should provide us with *buffer_ when buffer is non-empty
 Can't 
@@ -1269,15 +1226,21 @@ CarouselAutoScroll
 CarouselChildrenChanged
 CarouselNav
 CarouselNavButton
+CarouselNavControlsUpdated
 CarouselNavIncrementSelectedIndex
 CarouselNavSetSelectedIndex
 CarouselTitle
+Ccountdown_time
 CenterColumn
 Chakma
 ChangeUser
 CheckChildrenScrolledIntoView
 Cherokee
 ChildIndexSelected
+Cht7Lc{pD;
+CircularProgressBar
+CircularProgressBarBG
+CircularProgressBarFG
 Clabel::OnMouseMove
 Clayout/panel2dfactory.cpp
 ClearField
@@ -1312,6 +1275,7 @@ ContextMenuBody
 ContextMenuEvent
 ContextMenuEventDirect
 ContextMenuFadoutTime
+ContextMenuSeparator
 ControlBarRow
 Controls blending mode for the panel.  See CSS mix-blend-mode docs on web, except normal for us is with alpha blending.<br><br><b>Examples:</b><pre>-s2-mix-blend-mode: normal;
 Controls if the background should be repeated in the horizontal and vertical directions.<br><br>Possible values per direction:<br>"repeat" - (default) Repeated in the specified direction until it fills the panel<br>"space" - Repeated as many times as required to fill the panel w/o being clipped. Space is added between images to to align first and last image with panel edges.<br>"round" - Repeated as many times as required to fill the panel w/o being clipped. The image is resized to align first and last image with panel edges.<br>"no-repeat" - Not repeated<br><br>Possible single values:<br>"repeat-x" - equals "repeat no-repeat"<br>"repeat-y" - equals "no-repeat repeat"<br><br><b>Examples:</b><pre>background-repeat: repeat; // equals "repeat repeat" (default)
@@ -1335,67 +1299,54 @@ Countdown
 CountdownActive
 CountdownAfterEnd
 CountdownBeforeStart
-Cp[A\]
 CreateDebuggerWindow
 CreateInterface
 CreatePanelWithCurrentContext
-CreatePanoramaUIEngineInternal
 CreateVideoPlayer
 Cuneiform
 CursorVisible
 Cypriot
 Cyrillic
 C}t*W
-D$ A;E
+D$ A;
+D$ E1
 D$ H9
-D$(E1
-D$(H9
+D$ H9E
+D$([A\A]A^]
 D$0H9
-D$49C4
-D$8H9
+D$8Hc
 D$8I9
-D$8L9
 D$8Mc
-D$8[A\A]A^]
-D$@A\]
+D$@E1
+D$@H9
 D$@I9
-D$@L9
 D$@f9
 D$HE9
-D$HH9
-D$PE1
+D$PE;
 D$X9D$H
-D)#[A\]
-D+C$Mc
-D+c$Mc
-D+k$Mc
-D+s$Mc
+D)k`D
 D0gPad
-D6	 H
-D7	 H
-D9't,H
-D9+~[L
-D93~5
-D9;~dL
+D70A9
 D9D$4B
 D9D$4H
 D9G8u
-D9c`~FH
-D9cpD
-D9k u
-D9kpt9L
+D9c(A
+D9kpD
 D9l$H
+D9stu
 D9t$4
 D9t$@
 D9t$H
-D9{ D
-D9{ L
-D;!t{Hc
+D;!ttHc
+D;+}(L
+D;3}5
+D;K D
+D;K H
 D;c D
-D;c H
-D;c tEH
-D;c(|
+D;c`}FH
+D;cpD
 D;k D
+D;k||
 D;l$H
 D;s D
 D;t$@
@@ -1403,7 +1354,6 @@ D;t$H
 D;{ D
 D;|$X
 D;|$Xt$D
-D?	 H
 DATA_LOSS
 DEADLINE_EXCEEDED
 DEFINE
@@ -1439,7 +1389,6 @@ DebugLayoutPanelStylesPerfBar
 DebugPanel
 DebugPanelComputed
 DebugPanelPages
-DebugPanelParents
 DebugPanelStyle
 DebugPanelStyleInvalid
 DebugPropRowButton
@@ -1519,45 +1468,30 @@ DropInputFocus
 DropdownMenuFocusChanged
 DummyWizardOpen
 DumpMemory
-E+D$$Mc
-E+E$Mc
-E+F$Mc
-E+G$Mc
-E+M$Mc
-E+O$Mc
-E+e$Mc
-E+g$Mc
-E+o$Mc
-E+t$d
-E+t$h
-E+}$Mc
 E0tQA
 E26XsCm
-E94$E
-E9<$H
-E9<$~
-E9<$~3
-E9<$~7
+E49C4
+E9&~2M
+E9Q A
 E9gPI
-E9l$(A
-E9l$,
-E9|$ ~bI
-E;l$ D
-E;l$0
-E;t$ M
-E;t$0
-E;t$d
-E;t$h
+E9l$ u
+E9t$ M
+E9t$(D
+E;&t)A
+E;4$H
+E;4$}4
+E;4$}8
+E;<$}
+E;gL|
+E;l$ A
 ED$HI
 ED$XI
 EIA8G
-EMPTY - ok for slot zero only!
 ERCPD
 ERCPt%
 ERCPtt
 ERCPu
 ERROR
-EXA;]`
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -1627,26 +1561,28 @@ ExtensionRangeOptions
 Extensions in proto3 are only allowed for defining options.
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
+F 9G ]
+F 9G t	1
 F 9G u
-F 9G u!
 F A9D$ 
-F ]9G 
+F t2SH
+F t5SH
 F$9G$u
-F$9G$u*
+F$9G$u'
 F$A8D$$
+F(9G(]
 F(9G(u
-F(]9G(
+F,9G,]
 F,9G,u
 F,A9D$,
-F,]9G,
-F0UHc
-F0]9G0
+F09G0]
 F4A9D$4
 F8A8D$8
 F9A8D$9
 F<9G<t
 FAILED_PRECONDITION
 FATAL
+FATAL ERROR: unable to register all schema data: %s
 FCVAR_NEVER_AS_STRING
 FH]+GH
 Failed to load
@@ -1683,7 +1619,6 @@ Fields in the same oneof must be defined consecutively. "$0" cannot be defined b
 Fields of oneofs must themselves have label LABEL_OPTIONAL.
 File already exists in database: 
 File appears to be in generated pool but wasn't registered: 
-File change watching failed for '%s', retraversing
 File is already registered: 
 File recursively imports itself: 
 FileDescriptorProto
@@ -1727,7 +1662,6 @@ Fire another event if this panel does not have a given class.
 Fire another event if this panel has a given class.
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
-FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
 Flick
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
@@ -1738,31 +1672,22 @@ FormatV
 Found invalid proto option data for: 
 FrameSection
 FrameStyleBlock
-FtP~6
-G A9D$ 
-G A9G
-G u)H
-G$A8D$$
-G,A9D$,
-G4A9D$4
-G8A8D$8
-G9A8D$9
-G<@t	]
-G<@t L
-G<@t#f
-G<@t$
-G<@t+]H
-G<@t1H
-G<@t:
-G<@tLL
-G<@tUI
-G<@ta
-G<@th
-G<@tp
+Ft@~F
+G A9E 
+G U9G
+G$A8E$
+G,A9E,
+G0A;_H
+G0t	H
+G4A9E4
+G8A8E8
+G8t"H
+G9A8E9
+G<@teI
+G<@t~
 GAMECONSOLE
-GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GCC: (crosstool-NG 1.17.0) 4.6.3
-GDu#]
 GH]+FH
 GLIBCXX_3.4
 GLIBCXX_3.4.10
@@ -1773,7 +1698,7 @@ GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
-Ga>IsPlaying
+Ga>playback_volume
 GameControllerMappingChanged
 GameResourceServiceClientV001
 GameResourceServiceServerV001
@@ -1857,28 +1782,26 @@ H+C0L
 H+S H
 H+S(H
 H+S0A
-H9*tgH
+H+X@H
+H88J8t
 H90t%A
+H9C t%H
 H9C(H
 H9D$(
 H9M(txI
 H9M(u
-H9X t
 H9X u
 H9\$P
 H9w UH
 H9w(UH
-H;=wx\
-H;C I
-H;C t%H
-H;C(H
+H;*twH
 H;C(t
-H;S@w
 H;\$(u
 H;w t
 H;|$ t	H
 H<~]{wr
-HE;D$
+HA;|$
+HBFilename Cell Directory
 HIGHDPI
 HMTLLinkAtPosition
 HMTLThumbNailImage
@@ -1925,36 +1848,37 @@ HasCachedCommandList
 HasField
 HasInput
 HasOption
+Hc@(E1
 Hc@pH
-HcA ;A0
+HcC A9
 HcC D9
-HcC H9
-HcC$H
-HcC81
-HcC`A
 HcCdA
 HcCh1
 HcChA9
 HcClH
-HcG`H
-HcK Ic
-HcKHIc
-HcKPHc
-HcKhIc
-HcKpIc
+HcCpA
+HcF D9
+HcG89
+HcG8A9
+HcG8UH
+HcK$D
+HcK81
 HcKxH
-HcO09
-HcO0A9
+HcO$H
+HcQ09
+HcQ0A9
+HcQ0D9
 HcR(I
-HcS D
+HcRXH9
+HcS A
 HcSPH
 HcS`H
 HcSlH
 HcSxH
 HcT$4Mc
-HcWPH
-HcXX;Xh
-Hcs H
+HcW$H
+Hc_8;_Ht-I
+Hcs@H
 HeaderDate
 HeaderName
 HeaderSize
@@ -1974,10 +1898,11 @@ HookUpConfigValue
 HorizontalScrollThumb
 HorizontalSplitter
 HostStateMgr001
-I;F8t-H
-I;V@w
+I+T$ H
+I;U8t+H
 IDEMPOTENCY_UNKNOWN
 IDEMPOTENT
+IImageSource
 IME_AddToList
 IME_ClearCompositionString
 IME_ClearList
@@ -2008,12 +1933,18 @@ INVALID_ARGUMENT
 INVALID_CPPTYPE
 IQuickTime001
 IcD$p
-IcG81
-IcOhI
-Ic\$HA;\$X
-Ic\$XI
-Ic]PI
-Icu`H
+IcL$ Ic
+IcL$$E
+IcL$HIc
+IcL$h1
+IcM0I
+IcMhI
+IcO0I
+IcT$$A
+IcVDA
+Ic\$XA;\$h
+Ic\$xA;
+Ic^8M
 IdempotencyLevel
 IfHasClassEvent
 IfHoverOtherEvent
@@ -2078,6 +2009,7 @@ Invalid wire type for CPPTYPE_UINT32:
 Invalid wire type for CPPTYPE_UINT64: 
 IqvUm
 IsDraggable
+IsPlaying
 IsSelected
 IsValid
 ItemPips
@@ -2090,14 +2022,14 @@ JSConsoleText
 JSCreatePanelWithCurrentContext first param must be a panel to parent to
 JSCreatePanelWithCurrentContext takes 1 optional argument: panel to parent created panel to
 JSCreatePanelWithCurrentContext was not called within a context
+JSON error, unterminated element: 
 JSONWebAPIResponse
 JSType
 Javanese
-Jc<(H
-K,[A\]
 KEY_BACKSPACE: Accepted.
 KEY_BACKSPACE: Clearing state due to %d
 KEY_BACKSPACE: Rejected.
+KTu6L
 KV Conditional Evaluation Error
 Kaithi
 Kannada
@@ -2113,7 +2045,7 @@ KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 Kharoshthi
 Khmer
-L$,I+D$ 
+L$ H9
 L$4A	
 L$4E1
 L$@D)
@@ -2127,11 +2059,13 @@ L$`LcKlH
 L$hD)
 L$hHc
 L$xE1
-L+g H
+L9cxtiL9
+L9cxu
 L9l$(u
+L9sPM
 L9t$(u
 L9|$HJ
-L;-$#3
+L;c(H
 L;d$@L
 LABEL_OPTIONAL
 LABEL_REPEATED
@@ -2151,26 +2085,18 @@ Lang_txt
 Latin
 Layout File
 LayoutDirtied
-Lc D;`
+Lc"D;b
 Lc#D;c
 Lc+D;k
-Lc/E)
 Lc3D;s
-Lc6E9
-Lc7E)
-Lc;D;{
 LcKlH
 LcSlH
 Lc[dA
-LccXD;ch
-Lcc`D9cpD
-Lcc`D;cp
+LccXL
 Lcc`D;cpD
-LccxD;
-Lcg(D;g8t_H
-Lcg8D;gHt,H
+Lcc`H
+Lcg8dH
 Lct$@
-Lc{pD;
 LeftArrowVisible
 LeftLegend
 LeftMouseScrollRegion
@@ -2201,7 +2127,6 @@ Lycian
 Lydian
 M,@C),
 MATCHFRAMEWORK_001
-MHcK@Ic
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MPaginationButton
@@ -2233,15 +2158,11 @@ Maximum velocity for a drag scroll flick
 Maximum velocity for a drag scroll flick in VR
 MbP?+
 Mc,$E;l$
-Mc4$E;t$
-Mc>E;~
-Mce H
-Mcf H
-Mcg H
-Mcl$ H
-Mcm D;h0
-Mcn H
-Mct$ H
+Mc.E;n
+Mcg E;g0H
+Mcl$HE
+Mct$ E;t$0H
+Mct$XE;t$hI
 MediaNextTrack
 MediaPlayPause
 MediaPrevTrack
@@ -2317,7 +2238,6 @@ MutableMessage
 MutableRawRepeatedField
 MutableRepeatedMessage
 Myanmar
-N,I+F 
 N8panorama10CCountdownE
 N8panorama10CScrollBarE
 N8panorama10CTabButtonE
@@ -2408,6 +2328,7 @@ N8panorama19CStylePropertyAlignE
 N8panorama19CStylePropertySoundE
 N8panorama19CStylePropertyWidthE
 N8panorama19CVerticalScrollListE
+N8panorama20CCircularProgressBarE
 N8panorama20CDebugStyleAnimationE
 N8panorama20CDebugStyleSeparatorE
 N8panorama20CDefaultInputCaptureE
@@ -2437,7 +2358,6 @@ N8panorama22CStylePropertyMaxWidthE
 N8panorama22CStylePropertyMinWidthE
 N8panorama22CStylePropertyOverflowE
 N8panorama22CStylePropertyPositionE
-N8panorama22CTextEntryAutocompleteE
 N8panorama23CMovieVideoQualityPopupE
 N8panorama23CStylePropertyBoxShadowE
 N8panorama23CStylePropertyExitSoundE
@@ -2453,6 +2373,7 @@ N8panorama24CStylePropertySaturationE
 N8panorama24CStylePropertyTextShadowE
 N8panorama24CStylePropertyWhiteSpaceE
 N8panorama25CPanel2DAppendChildHelperE
+N8panorama25CStylePropertyImageShadowE
 N8panorama25CStylePropertyOpacityMaskE
 N8panorama25CStylePropertyPerspectiveE
 N8panorama25CStylePropertyTransform3DE
@@ -2462,9 +2383,7 @@ N8panorama26CStylePropertyBorderRadiusE
 N8panorama26CStylePropertyFlowChildrenE
 N8panorama26CStylePropertyMixBlendModeE
 N8panorama26CStylePropertyTextOverflowE
-N8panorama26CTextInputSuggestRadixTreeI13CUtlRadixTrieEE
 N8panorama26CTextInputSuggestRadixTreeI17CPickledRadixTrieEE
-N8panorama26CTextInputSuggestRadixTrieE
 N8panorama27CDebugInheritedStylesHeaderE
 N8panorama27CStylePropertyEntranceSoundE
 N8panorama27CStylePropertyTextTransformE
@@ -2481,7 +2400,6 @@ N8panorama29CStylePropertyScale2DCenteredE
 N8panorama29CStylePropertyTooltipPositionE
 N8panorama29CStylePropertyTransformOriginE
 N8panorama30CStylePropertyRotate2DCenteredE
-N8panorama30CTextInputSuggestDumbRadixTrieE
 N8panorama30CVerticalScrollForwardingPanelE
 N8panorama31CStylePropertyContextUIPositionE
 N8panorama31CStylePropertyPerspectiveOriginE
@@ -2490,6 +2408,7 @@ N8panorama31CStylePropertyTextureSampleModeE
 N8panorama31ILocalizationStringSizeResolverE
 N8panorama33CStylePropertyAnimationPropertiesE
 N8panorama33CStylePropertyContextMenuPositionE
+N8panorama33CStylePropertyTextDecorationStyleE
 N8panorama33CStylePropertyTooltipBodyPositionE
 N8panorama34CStylePropertyTooltipArrowPositionE
 N8panorama34CStylePropertyTransitionPropertiesE
@@ -2572,7 +2491,7 @@ NumberEntryDecrementValue
 NumberEntryIncrementValue
 Numbers starting with leading zero must be in octal.
 O#b"D
-O0A;GH
+OIcG81
 OPA'F4
 OUT_OF_RANGE
 Offscreen
@@ -2601,11 +2520,13 @@ Osmanya
 OverMaxPips
 OverlayGamepadInputMsg
 P HcM
-P Lck
+P Lcc
 P$@Jb
+P(D;c
 P10CUtlBuffer
 P12IVideoPlayer
 P9KeyValues
+P@Lcc`D;cpD
 PCRE does not support \L, \l, \N{name}, \U, or \u
 PERMISSION_DENIED
 PFiPKN8panorama14IUIPanelClientES2_E
@@ -2622,7 +2543,6 @@ POSIX
 POSIX collating elements are not supported
 POSIX named classes are supported only within a class
 PRUNE
-PXA9]
 PY +1
 P[A\A]A^]
 P[A\]
@@ -2657,7 +2577,7 @@ PanoramaUIEngine setup failed
 PanoramaUIEngine001
 ParentWithProperties
 ParseFromString failed
-ParticleSystemMgr002
+ParticleSystemMgr003
 Ph[A\]
 Phags_Pa
 Phoenician
@@ -2684,6 +2604,7 @@ Plat_VirtualAlloc
 Plat_VirtualFree
 PlayIndicator
 PlaySoundEffect
+PlaySoundEffectIfPanelEnabled
 PlaybackControls
 PlaybackProgress
 PlaybackSpeed
@@ -2698,7 +2619,6 @@ PreviouslyRight
 ProbablyUnlocalizedText
 ProfileOff
 ProfileOn
-ProgressBar
 ProgressBarLeft
 ProgressBarMiddle
 ProgressBarRight
@@ -2716,15 +2636,15 @@ Protocol Buffer reflection usage error:
 Protocol message could not be serialized.
 Protocol message serialized itself in invalid fashion.
 Purge
-QHcKHIc
+QHcK@Ic
 QhsO;
 QueuedLoaderVersion001
 QuitApp
 Qvcg?
-R8Y[]
-R@I9D$(t
-R@I9D$@t
-R@I9F0
+R@H9C@tDH
+R@Hc]
+R@Lcm
+R@X[]
 RBLegend
 RESOURCE_EXHAUSTED
 RT_txt
@@ -2745,6 +2665,7 @@ RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
 Refresh
+RegisterAllModuleData
 RegisterConfigValue: Unknown error constructing config value "%s"!
 RegisterForReadyEvents
 Rejang
@@ -2796,24 +2717,11 @@ RightMouseScrollRegion
 RightOfFocus%d
 RunJavascript
 Runic
-S9G(tCH
-S9G8tHH
+S9G H
+S9G(H
+S9G@H
 SPEED
 SSE and SSE2 are required.
-STEAMAPPLIST_INTERFACE_VERSION001
-STEAMAPPS_INTERFACE_VERSION008
-STEAMHTMLSURFACE_INTERFACE_VERSION_004
-STEAMHTTP_INTERFACE_VERSION002
-STEAMINVENTORY_INTERFACE_V002
-STEAMMUSICREMOTE_INTERFACE_VERSION001
-STEAMMUSIC_INTERFACE_VERSION001
-STEAMPARENTALSETTINGS_INTERFACE_VERSION001
-STEAMREMOTESTORAGE_INTERFACE_VERSION014
-STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMUGC_INTERFACE_VERSION010
-STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
-STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMVIDEO_INTERFACE_V002
 STRING
 STRING_PIECE
 S`D;cx
@@ -2856,6 +2764,7 @@ SelectedPanelName
 Selection Pos
 SelectionGroup
 Selector
+Separator%d
 SerializedEntitiesVersion001
 ServerUploadGameStats001
 ServiceDescriptorProto
@@ -2970,7 +2879,6 @@ ShowQuitDialog
 ShowTitle
 ShowTooltip
 ShowingLanguage
-Sht7Lc{pD;
 ShutdownMachine
 SimpleContextMenu
 Sinhala
@@ -3029,9 +2937,11 @@ Specifies border-radius for bottom-left corner which rounds off border and clips
 Specifies border-radius for bottom-right corner which rounds off border and clips background/foreground content to rounded edge.  Takes 1 or 2 values in px or %, first value is horizontal radii for elliptical corner, second is vertical radii, if only one is specified then horizontal/vertical will both be set and corner will be circular.<br><br><b>Examples:</b><pre>border-bottom-right-radius: 2px 2px;
 Specifies border-radius for top-left corner which rounds off border and clips background/foreground content to rounded edge.  Takes 1 or 2 values in px or %, first value is horizontal radii for elliptical corner, second is vertical radii, if only one is specified then horizontal/vertical will both be set and corner will be circular.<br><br><b>Examples:</b><pre>border-top-left-radius: 2px 2px;
 Specifies border-radius for top-right corner which rounds off border and clips background/foreground content to rounded edge.  Takes 1 or 2 values in px or %, first value is horizontal radii for elliptical corner, second is vertical radii, if only one is specified then horizontal/vertical will both be set and corner will be circular.<br><br><b>Examples:</b><pre>border-top-right-radius: 2px 2px;
+Specifies image shadows.  The shadow shape will match the image the panel can generate,and this is only meaningful for images.  Syntax takes horizontal offset pixels, vertical offset pixels, blur radius pixels, strength, and then shadow color.<br><br><b>Example:</b><pre>img-shadow: 2px 2px 8px 3.0 #333333b0;</pre>
 Specifies outer shadows for boxes, or inset shadows/glows.  The shadow shape will match the border box for the panel,so use border-radius to affect rounding.  Syntax takes optional 'inset', optional 'fill' then color, and then horizontal offset pixels, vertical offset pixels, blur radius pixels, and spread distance in pixels. Inset means the shadow is an inner shadow/glow, fill is validonly on outer shadows and means draw the shadow behind the entire box, not clipping it to outside the border area only.<br><br><b>Examples:</b><pre>box-shadow: #ffffff80 4px 4px 8px 0px; // outer
 Specifies text shadows.  The shadow shape will match the text the panel can generate,and this is only meaningful for labels.  Syntax takes horizontal offset pixels, vertical offset pixels, blur radius pixels, strength, and then shadow color.<br><br><b>Example:</b><pre>text-shadow: 2px 2px 8px 3.0 #333333b0;</pre>
 Specifies the decoration for text within this panel, defaults to none. Possible values: none, underline, line-through.<br><br><b>Example:</b><pre>text-decoration: underline;</pre>
+Specifies the decoration style for text within this panel, defaults to none. Possible values: none, dashed, dotted, wavy.<br><br><b>Example:</b><pre>text-decoration-style: dotted;</pre>
 Specifies the delay in seconds to use for transition properties on this panel, if more than one comma delimited value is specified then the values are applied to each property specified in 'transition-property' in order.  If only one value is specified then it applies to all the properties specified in transition-property.<br><br><b>Examples:</b><pre>transition-delay: 0.0s;
 Specifies the durating in seconds to use for transition properties on this panel, if more than one comma delimited value is specified then the values are applied to each property specified in 'transition-property' in order.  If only one value is specified then it applies to all the properties specified in transition-property.<br><br><b>Examples:</b><pre>transition-duration: 2.0s;
 Specifies the font face to use.<br><br><b>Examples:</b><pre>font-family: Arial;
@@ -3054,29 +2964,21 @@ Specifies which properties should transition smoothly to new values if a class/p
 Specifies which properties should transition smoothly to new values if a class/pseudo class changes the styles.<br><br><b>Examples:</b><pre>transition: position, transform, background-color;</pre>
 St14_Function_base
 St15binary_functionIPKN8panorama14IUIPanelClientES3_iE
-St31_Maybe_unary_or_binary_functionIiIPKN8panorama14IUIPanelClientES3_EE
+St31_Maybe_unary_or_binary_functionIiJPKN8panorama14IUIPanelClientES3_EE
 St8functionIFiPKN8panorama14IUIPanelClientES3_EE
 StartButton
 StartButtonUp
 Start_txt
 StatsService_001
-SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
 SteamAPI_RegisterCallResult
 SteamAPI_RegisterCallback
 SteamAPI_UnregisterCallResult
 SteamAPI_UnregisterCallback
 SteamAudio001
-SteamController005
-SteamFriends015
 SteamInternal_ContextInit
-SteamInternal_CreateInterface
-SteamMatchMaking009
-SteamMatchMakingServers002
-SteamNetworking005
+SteamInternal_FindOrCreateUserInterface
 SteamPad
-SteamUser019
-SteamUtils009
 SteamVRController
 SteampadGuideButton
 SteampadGuideButtonUp
@@ -3084,7 +2986,6 @@ Stick_Pri
 Stick_Snd
 StopStreaming
 StopStreamingAndSuspendClient
-String %d: ref:%d %s
 String field
 String literals cannot cross line boundaries.
 StringOutputStream.
@@ -3104,12 +3005,14 @@ Symbol name "
 Syriac
 SystemInputLanguageChanged
 T$"<iA
-T$$A;U
+T$$A;V
 T$(E1
 T$(H9
-T$8H)
-T$8H9
+T$0H9
 T$@H9
+T$PH9
+T$PL9
+T$XD9
 T$XfA
 T$hA)
 T$pL)
@@ -3227,16 +3130,18 @@ TopMouseScrollRegion
 Tried to calc delta to a src message of a different type.
 Tried to merge messages of different types 
 Tried to register a non-generated type with the generated type registry.
+TriggerClass
 TriggerStyle
 TurnOffActiveController
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
-U8t^L
 U9w,H
 U9w<H
-U@8wMH
 UE !&
-UIcL$hIc
+UIcL$0Ic
+UIcL$@Ic
+UIcL$XIc
+UIcL$hHc
 UL9bBL
 UNAUTHENTICATED
 UNAVAILABLE
@@ -3246,15 +3151,15 @@ UNKNOWN_ENUM_VALUE_%s_%d
 UTF-8 data when 
 UTF8)
 UUUUUUU
+Uf9G H
+Uf9G"H
 Ugaritic
-Unable to watch '%s'
 Underlying object is deleted!
 Unexpected end of string.
 Unexpected failure while serializing option submessage 
 Unimplemented Map Reflection API.
 Unimplemented type: 
 UninterpretedOption
-Unknown
 Unknown enumeration value of "
 UnreadyForDisplay
 Unrecognized syntax: 
@@ -3274,10 +3179,7 @@ UserInfoChangeService_001
 UserInputActive
 UsingCompositionLayer
 V(8W(u
-V(9W(t
 V-O	u{^
-V0u@H
-V49W4u
 V8ParamToPanoramaType expected Function type to convert, but got something else (%s)
 V8ParamToPanoramaType expected IUIPanel object to convert, but got some other invalid object
 V8ParamToPanoramaType expected IUIPanelStyle object to convert, but got some other invalid object
@@ -3294,7 +3196,6 @@ VBaseFileSystem011
 VBik001
 VConComm001
 VDebugService_001
-VDmeMakeFileUtils001
 VEngineCvar007
 VFileSystem017
 VGUI_Input005
@@ -3303,7 +3204,6 @@ VGUI_Scheme010
 VGUI_Surface032
 VGUI_System010
 VGUI_ivgui008
-VHIcvTA
 VMDLLIB001
 VMaterialSystem2_001
 VMediaFoundation001
@@ -3321,7 +3221,6 @@ VScriptDbg
 VScriptManager010
 VStringTokenSystem001
 VUUUD
-V_AddBackSlashesToSpecialChars
 V_BasicHtmlEntityEncode
 V_ExtractDomainFromURL
 V_FixDoubleSlashes
@@ -3349,6 +3248,7 @@ V_asinf
 V_atan2f
 V_atanf
 V_atof
+V_atofloat64
 V_atoi
 V_atoi64
 V_atoui64
@@ -3388,7 +3288,6 @@ V_vsnprintfRet
 V_vsnprintfSize
 V_wcstod
 V_wcstoi64
-VaPrintf
 Value must be "true" or "false" for boolean option "
 Value must be identifier for boolean option "
 Value must be identifier for enum-valued option "
@@ -3422,14 +3321,13 @@ VideoSegment
 VisBuilder_001
 VolumeSliderPopup
 VolumeSliderValueChanged
+W u)H
 W,:V,u
-W0t	H
+W49V4u
 WARNING
-WARNING: CDirWatcher not implemented
 WIN32
 WINDOWS
 WINXP
-WIcL$
 WM$^SO
 W]~L1
 Warning
@@ -3457,21 +3355,25 @@ X[A\A]A^A_]
 X[A\A]]
 X[]A\A]A^A_
 Y, ]&]
-YEXfA
+YGXfA
 Y_txt
+ZD$0A\]H
 ZIcL$
+ZT$,H
 [:<:]]
 [:>:]]
 [A\A]A^A_]
+[A\A]A^H
 [A\A]A^]
 [A\A]A^]A
+[A\A]H
 [A\A]]
 [A\A^A_]
 [A\A^]
 [A\]A
+[A\]H
 [A^A_]
 [Sqt6
-[[A\A]]
 [].%G.
 []A\A]
 []A\A]A^
@@ -3481,8 +3383,10 @@ ZIcL$
 [packed = true] can only be specified for repeated primitive fields.
 [prefix]: matches a string prefix
 \ at end of pattern
+\$ E1
 \%03o
 \C not allowed in lookbehind assertion
+\C8E1
 \N is not supported in a class
 \U%08x
 \b(?<=\w)
@@ -3491,17 +3395,12 @@ ZIcL$
 \c must be followed by an ASCII character
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \k is not followed by a braced, angle-bracketed, or quoted name
-\t!Hc
-\u0000
 \x%02x
 \zkG}*
 ] is an invalid data character in JavaScript compatibility mode
 ]+P680l
 ]A\A]A^A_
-]H+G 
-^ t+H
-^$z%u#G
-^IcL$XIc
+^IcL$ Ic
 ^q\(h
 ^{tS$
 _ITM_deregisterTMCloneTable
@@ -3542,7 +3441,10 @@ _ZN10CVProfNode9ExitScopeEv
 _ZN12CThreadEvent3SetEv
 _ZN12CThreadEvent5ResetEv
 _ZN12CThreadEventC1Eb
+_ZN12CThreadFiberC1Em
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
+_ZN13CBufferString5PurgeEi
+_ZN13CBufferString6InsertEiPKcib
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
@@ -3585,9 +3487,7 @@ _ZN2v88Function4CallENS_6HandleINS_5ValueEEEiPS3_
 _ZN2v88Template3SetENS_6HandleINS_4NameEEENS1_INS_4DataEEENS_17PropertyAttributeE
 _ZN2v88TryCatchC1Ev
 _ZN2v88TryCatchD1Ev
-_ZN6CFiber16AllocPooledFiberENS_13SizeBuckets_tEm
 _ZN6CFiber21ReachedZeroReferencesEv
-_ZN6CFiber25SetThreadFiberMemoryRangeEm
 _ZN7pcrecpp2RE4InitERKSsPKNS_10RE_OptionsE
 _ZN7pcrecpp2RE6no_argE
 _ZN7pcrecpp2RE7CleanupEv
@@ -4180,8 +4080,6 @@ _ZNSs3endEv
 _ZNSs3endEv@@GLIBCXX_3.4
 _ZNSs4_Rep10_M_destroyERKSaIcE
 _ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
-_ZNSs4_Rep10_M_disposeERKSaIcE
-_ZNSs4_Rep10_M_disposeERKSaIcE@@GLIBCXX_3.4
 _ZNSs4_Rep10_M_refdataEv
 _ZNSs4_Rep10_M_refdataEv@@GLIBCXX_3.4
 _ZNSs4_Rep20_S_empty_rep_storageE
@@ -4676,7 +4574,6 @@ _ZNSt6vectorIiSaIiEE3endEv
 _ZNSt6vectorIiSaIiEE5beginEv
 _ZNSt6vectorIiSaIiEE5clearEv
 _ZNSt6vectorIiSaIiEE6insertEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi
-_ZNSt6vectorIiSaIiEE7reserveEm
 _ZNSt6vectorIiSaIiEE9push_backERKi
 _ZNSt6vectorIiSaIiEEC1Ev
 _ZNSt6vectorIiSaIiEEC2Ev
@@ -5184,6 +5081,8 @@ __cxa_rethrow
 __cxa_rethrow@@CXXABI_1.3
 __cxa_throw
 __cxa_throw@@CXXABI_1.3
+__cxa_throw_bad_array_new_length
+__cxa_throw_bad_array_new_length@@CXXABI_1.3.8
 __dynamic_cast
 __dynamic_cast@@CXXABI_1.3
 __errno_location
@@ -5236,6 +5135,7 @@ actualyoffset
 advct
 aggregate_value
 aliceblue
+all_projects_common_code.cpp
 allow_alias
 allowed in proto3.
 allowtextselection
@@ -5248,6 +5148,7 @@ alternate
 alternate-reverse
 an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)
 animate
+animatedimagestrip.cpp
 animating
 animation
 animation-delay
@@ -5258,19 +5159,23 @@ animation-name
 animation-timing-function
 annotation
 antiquewhite
+any.cc
 archive
+arena.cc
 array_ != __null
 arroworigin
 ascii
 assertion expected after (?(
-atanf@@GLIBC_2.2.5
-autoH
+atan@@GLIBC_2.2.5
+atomicops_internals_x86_gcc.cc
+autoE1
 autocompletetext
 autoplay
 autoscroll-delay
 awu@>vn;l
 azure
 b((7	""
+bIcL$
 b`tc3
 background-blur
 background-blur: gaussian( 6, 6, 1 );</pre>
@@ -5292,14 +5197,18 @@ background-size
 background-size: 100% 100%; // image fills the panel
 background-size: 300px 200px; // image is drawn 300px wide, 200px tall</pre>
 background-size: 50% 75%; // image fills 50% of the panel's width, and 75% of the panel's height
+backgroundimage.cpp
 base-position
 base-position-variance
 basic_string::_S_construct null not valid
 begin
 beige
 binary
+binary_auto
 binary_bc
+binary_lz4
 bisque
+bitstring.cpp
 blK|weQ
 black
 blanchedalmond
@@ -5351,38 +5260,43 @@ box-shadow
 box-shadow: fill #ffffff80 4px 4px 8px 0px; // outer, filled
 box-shadow: inset #333333b0 0px 0px 8px 12px; // inner</pre>
 brightness
+buffer-async
+buffer-sync
 buffer. Use the 'bytes' type if you intend to send raw 
 burlywood
+button.cpp
 bytes
 bytes. 
-c Mct$
-c(tIH
-c.[A\]
-c0[A\]
-cLLcsP
+c,x-H
 cOf#s
 cadetblue
 can't reach here.
 capslockwarn
+carousel.cpp
 carousel_nav_enabled
 carouselid
+carouselnav.cpp
+carouselnavbutton.cpp
 cc_enable_arenas
 cc_generic_services
 ceil@@GLIBC_2.2.5
 ceilf
 ceilf@@GLIBC_2.2.5
 center
+center_nopixelsnap
 character value in \u.... sequence is too large
 character value in \x{} or \o{} is too large
+characterset.cpp
 chartreuse
 cheat
 checked
+checksum_crc.cpp
 child
 childselectionposstart
 childtabindexstart
 chocolate
+circularprogressbar.cpp
 class, eventToFire
-client
 client_streaming
 clientcmd_can_execute
 close
@@ -5392,10 +5306,13 @@ closedir
 closedir@@GLIBC_2.2.5
 closing ) for (?C expected
 cntrl
+coded_stream.cc
 collapse
 color-stop
 color-stop( %s, 
 color: gradient( linear, 0% 0%, 0% 100%, from( #cbcbcbff ), to( #a0a0a0a0 ) );</pre>
+color_conversion.cpp
+common.cc
 compiles daisy wheel input dictionaries to more performant form
 condensed
 conditional group contains more than two branches
@@ -5407,18 +5324,22 @@ context-menu-arrow-position
 context-menu-body-position
 context-menu-position
 context-menu-position: left bottom;</pre>
+contextmenu.cpp
+contextui.cpp
 contrast
 controls
 controlsnotfullscreen
+convar.cpp
 cornflowerblue
 cornsilk
+countdown.cpp
 countdown_state
-countdown_time
 countevent
-covefD
+covef
 crimson
+crtstuff.c
 csharp_namespace
-ct[A\]
+csshelpers.cpp
 ctype
 cubic-bezier
 current_item
@@ -5445,6 +5366,14 @@ darkslategray
 darkslategrey
 darkturquoise
 darkviolet
+dashed
+dashed-light
+debugautocomplete.cpp
+debugger.cpp
+debuglayout.cpp
+debugpanel.cpp
+debugpanelparents.cpp
+debugpanelstyle.cpp
 deeppink
 deepskyblue
 default
@@ -5453,10 +5382,15 @@ defaultfocus
 defaultframe
 defaultsrc
 delay, eventToFire
+delayloadlist.cpp
+delayloadpanel.cpp
 delete
 dependency
 deprecated
 descendantfocus
+descriptor.cc
+descriptor.pb.cc
+descriptor_database.cc
 desiredlayoutheight
 desiredlayoutwidth
 developer
@@ -5472,17 +5406,22 @@ disallowed Unicode code point (>= 0xd800 && <= 0xdfff)
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 dodgerblue
+dotted
 double
 double_value
 down-wrap
 dpiaware
+dragzoom.cpp
+dropdown.cpp
 dropdownbodyposition
 dualtouch
 dup@@GLIBC_2.2.5
+dynamic_message.cc
 eY]b!
 ease-in
 ease-in-out
 ease-out
+edgescroller.cpp
 ellipsis
 email
 embedded
@@ -5492,25 +5431,16 @@ endTime
 erroffset passed as NULL
 event:
 expanded
+exprevaluator.cpp
 extend .$0 {
 extendee
 extension_range
+extension_set.cc
+extension_set_heavy.cc
 extrazoomout
 f == __null || dynamic_cast<To>(f) != __null
-f9G t
-f9G"t
-f;0tr
-f;S.w
-fA91u)
 fA9F v
-fA;0M
-fA;0trA
-fA;_n
-fB9<`
-fD; tBL
-fD;/t1H
-fD;0tPL
-fD;an
+fB9< 
 fE9|$
 factoryevent
 failed to get memory
@@ -5542,13 +5472,15 @@ file://{resources}/layout/debugstyleblock.xml
 file://{resources}/layout/fileopendialog.xml
 file://{resources}/layout/movie.xml
 file://{resources}/layout/moviedebug.xml
-file://{resources}/layout/number_entry.xml
 file://{resources}/layout/textinput/text_input_daisy.xml
 file://{resources}/layout/textinput/text_input_daisy_group.xml
 file://{resources}/layout/tooltip.xml
+fileio.cpp
+fileopendialog.cpp
 fill 
 fill-parent-flow
 fill-parent-flow( %s )
+fillbrush.cpp
 filter
 filterinfo
 find text autosuggest hot spots
@@ -5565,6 +5497,7 @@ floorf@@GLIBC_2.2.5
 floralwhite
 flow-children
 fmod@@GLIBC_2.2.5
+fmodf@@GLIBC_2.2.5
 focus-offset
 focus-x-offset
 focus-y-offset
@@ -5591,28 +5524,25 @@ free@@GLIBC_2.2.5
 freeevent
 ftruncate64
 ftruncate64@@GLIBC_2.2.5
-ftware.cH
 fuchsia
 fwzSk
 f{(*%
-g A9D$(
-g E;g0D
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
 g_VProfCurrentProfile
 g_iStylePropertyIndexNextFree < 255
-g_pCurrentFiberTL
 g_pMemAlloc
 gainsboro
 gamepad
 gaussian
 gaussian( 
-gdD+gl
+generated_message_reflection.cc
+generated_message_util.cc
 generic
+generichash.cpp
 getenv
 getenv@@GLIBC_2.2.5
 gfffffffH
-ghD+gl
 ghostwhite
 global
 go_package
@@ -5623,6 +5553,7 @@ graph
 gravity-acceleration
 gravity-acceleration-particle-variance
 greenyellow
+grid.cpp
 group
 group name must start with a non-digit
 gwr,/s
@@ -5643,6 +5574,9 @@ horizontalcount
 hotpink
 hover
 href="
+hscroll
+hsv-transform
+html.cpp
 http://
 http://%s%s
 https://
@@ -5650,10 +5584,11 @@ hue-rotation
 i < length_
 i >= 0
 iH:_aq7
-iIcD$
 idempotency_level
 identifier_value
 ignoredisabledchildren
+image.cpp
+img-shadow
 imgscaling
 import "$0";
 import public "$0";
@@ -5666,8 +5601,8 @@ indianred
 indigo
 infinite
 infinity
-initialselection
 input_type
+inputforwarding.cpp
 inputnamespace
 inset
 inset 
@@ -5676,8 +5611,10 @@ int pcrecpp::NewlineMode(int)
 int pcrecpp::RE::GlobalReplace(const pcrecpp::StringPiece&, std::string*) const
 int pcrecpp::RE::NumberOfCapturingGroups() const
 int( %d = 0x%X )
+int128.cc
 int32
 int64
+interface.cpp
 interfaces.cpp
 internal error in map key sorting
 internal error: code overflow
@@ -5699,7 +5636,6 @@ itemheight
 itemwidth
 ivory
 jEuL4
-jIcD$
 java_generate_equals_and_hash
 java_generic_services
 java_multiple_files
@@ -5708,19 +5644,20 @@ java_package
 java_string_check_utf8
 javascript:
 json_name = "
+json_parser.c
 jstype
 jstype is only allowed on int64, uint64, sint64, fixed64 or sfixed64 fields.
-k([A\A]A^]
-k8D;kHtMH
+k0t+L
 k9N<<
 k>Z%j9
-k@9C0
-k@[A\A]A^]
 keyboard
-l$,x-L
+keyvalues.cpp
+l$ D;h 
+l$0D;h0
 l$4D9
-l$@A9D$D
+l$HH9
 label
+label.cpp
 lastactivate
 lavender
 lavenderblush
@@ -5770,6 +5707,7 @@ line-height
 line-through
 linear
 linen
+loadbehavior
 location
 lookbehind assertion is not fixed length
 lower
@@ -5779,14 +5717,15 @@ lseek
 lseek64
 lseek64@@GLIBC_2.2.5
 lseek@@GLIBC_2.2.5
-mIcO8Hc
 malformed \P or \p sequence
 malformed number or name after (?(
 malloc@@GLIBC_2.2.5
+manifestregistrar.cpp
 manualscroll
 map keys are not unique
 map<$0, $1>
 map_entry should not be set explicitly. Use map<KeyType, ValueType> instead.
+map_field.cc
 margin-bottom
 margin-left
 margin-right
@@ -5818,10 +5757,15 @@ memcpy
 memcpy@@GLIBC_2.14
 memmove
 memmove@@GLIBC_2.2.5
+memoverride.cpp
+mempool.cpp
 memset
 memset@@GLIBC_2.2.5
+memstack.cpp
 menuclass
 message
+message.cc
+message_lite.cc
 message_set_wire_format
 message_type
 method
@@ -5841,11 +5785,14 @@ moccasin
 mouse
 mousedown
 mousepanningcursorsize
+mousescroll.cpp
 mousewheeltickcount
 movementwrap
+movieplayer.cpp
 multiline
 multiply
 muted
+n	ATSH
 n >= 0
 name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)
 navajowhite
@@ -5870,11 +5817,11 @@ number
 number after (?C is > 255
 number is too big
 number too big in {} quantifier
+numberentry.cpp
 numbers out of order in {} quantifier
 numbersonly
 numeric
 numericpassword
-o ATI
 o(ATSH
 oB@fA
 oBPfA
@@ -5886,6 +5833,7 @@ olive
 olivedrab
 onactivate
 oncancel
+once.cc
 oncontextmenu
 oncontextmenu="
 ondblclick
@@ -5909,6 +5857,7 @@ ontabbackward
 ontabforward
 ontextentrychange
 ontextentrysubmit
+onvaluechanged
 opacity
 opacity-mask
 opacity-mask-scroll-down
@@ -5933,6 +5882,7 @@ output specified is NULL
 output_type
 overflow: squish scroll; // scrolls contents in the Y direction</pre>
 p5S~I
+pIcD$
 pNJ!T
 p[A\A]A^]
 p[A\]
@@ -5949,11 +5899,19 @@ palegoldenrod
 palegreen
 paleturquoise
 palevioletred
+panel-background://
+panel2d.cpp
+panel2dfactory.cpp
+panel://
 paneleventsource
 panels-visible
 panorama
 panorama/fonts/
 panorama/panorama_config.txt
+panoramasymbol.cpp
+panoramauiclient
+panoramauiclient.cpp
+panoramavideoplayer.cpp
 papayawhip
 parentdisabled
 parentheses are too deeply nested
@@ -5982,17 +5940,28 @@ particle-velocity-min
 particles-per-second
 particles-per-second-variance
 pcre_callout
+pcre_chartables.c
 pcre_compile
+pcre_compile.c
 pcre_compile2
 pcre_config
+pcre_config.c
 pcre_exec
+pcre_exec.c
 pcre_free
 pcre_fullinfo
+pcre_fullinfo.c
+pcre_globals.c
 pcre_malloc
+pcre_newline.c
+pcre_ord2utf8.c
 pcre_retval == 0
 pcre_stack_free
 pcre_stack_guard
 pcre_stack_malloc
+pcre_tables.c
+pcre_valid_utf8.c
+pcre_xclass.c
 pcrecpp.cc
 peachpuff
 perspective
@@ -6019,6 +5988,8 @@ pread64@@GLIBC_2.2.5
 print
 printf@@GLIBC_2.2.5
 program
+progressbar.cpp
+progressbarwithmiddle.cpp
 proto
 proto2
 proto3
@@ -6047,10 +6018,13 @@ punct
 pwrite64
 pwrite64@@GLIBC_2.2.5
 py_generic_services
+p|E9t$|
 q>NRG
-r8@8q8uK
+qIcD$
+quaternionaligned.cpp
 radial
 radial( 
+randsse.cpp
 range out of order in character class
 raw://
 read@@GLIBC_2.2.5
@@ -6062,13 +6036,15 @@ rebeccapurple
 rect( 
 recursive call could loop indefinitely
 reference to non-existent subpattern
+reflection_ops.cc
 registered: 
 regular expression is too large
-repeat-xATSL
+repeat-xL
 repeat-yH
 repeatCount
 repeated
 repeated subpattern is too long
+repeated_field.cc
 repeating a DEFINE group is not allowed
 replicated
 required
@@ -6085,10 +6061,11 @@ rotateZ(
 roundf
 roundf@@GLIBC_2.2.5
 royalblue
+s0t;H
 s2r://
-s@9C0
 s@9C@
-sMA;|$ 
+s@HcR
+sMA9|$ 
 saddlebrown
 sandybrown
 saturation
@@ -6102,8 +6079,11 @@ scandir64
 scandir64@@GLIBC_2.2.5
 sched_yield
 sched_yield@@GLIBC_2.2.5
+schemabindings.cpp
+scrollbar.cpp
 scrollbehavior
 scrolldirection
+scrollforwarding.cpp
 scrolloffset_x
 scrolloffset_y
 scrollprogress
@@ -6131,6 +6111,7 @@ sint32
 sint64
 size too big: 
 size_t to int conversion
+slider.cpp
 slot, class
 smb://
 snprintf@@GLIBC_2.2.5
@@ -6153,11 +6134,14 @@ sqrtf@@GLIBC_2.2.5
 squish
 srcset
 srcset_current
+ssHcv
 ss_added
+sseconst.cpp
 start
 start-time
 startTime
 startzoomed
+status.cc
 stderr
 stderr@@GLIBC_2.2.5
 steamcode
@@ -6183,6 +6167,7 @@ strcmp
 strcmp@@GLIBC_2.2.5
 strcpy
 strcpy@@GLIBC_2.2.5
+stream
 stream 
 strerror
 strerror@@GLIBC_2.2.5
@@ -6194,6 +6179,9 @@ stretchx
 stretchy
 string
 string_value
+stringpiece.cc
+stringpool.cpp
+stringprintf.cc
 strings::Substitute format string invalid: asked for "$
 strlen
 strlen@@GLIBC_2.2.5
@@ -6204,6 +6192,7 @@ strpbrk@@GLIBC_2.2.5
 strrchr
 strrchr@@GLIBC_2.2.5
 strstr@@GLIBC_2.2.5
+strtod.cc
 strtod@@GLIBC_2.2.5
 strtof
 strtof@@GLIBC_2.2.5
@@ -6211,6 +6200,7 @@ strtol
 strtol@@GLIBC_2.2.5
 strtoll
 strtoll@@GLIBC_2.2.5
+strtools.cpp
 strtoq
 strtoq@@GLIBC_2.2.5
 strtoul
@@ -6219,46 +6209,47 @@ strtoull
 strtoull@@GLIBC_2.2.5
 strtouq
 strtouq@@GLIBC_2.2.5
+structurally_valid.cc
+strutil.cc
 stylefile
+styleproperties.cpp
+stylepropertyfactory.cpp
 subpattern name expected
 subpattern name is too long (maximum 32 characters)
+substitute.cc
 subtype mismatch
 support for \P, \p, and \X has not been compiled
 swift_prefix
 syntax
 syntax = "$0";
 syntax error in subpattern name (missing terminator)
-t	[A\A]A^]
 t	[A\]
-t"HcK
-t"HcO
-t"[A\]
+t#;:u
+t#IcD$
+t$	H9
+t$ L)
+t$(L)
 t$<	t 
-t$@A\]
-t$H9h
+t$H;h
 t$Hf.
-t&@8>t+H
 t(<)u
-t*HcC
-t+Jc4
-t/H;E
+t-[A\A]A^]
+t/<.u
 t1[A\]
-t20Hc
-t4[A\]
-t7<.u&
-t90Hc
+t5[A\]
 t>[A\A]A^]
-t@@:>u
-tAw3A
-tGLc;D;{
+tCHcM
+tC[A\A]A^]
+tEHcW8
+tEv3<
 tJHcShH
-tL[A\A]A^]
-tSHcO
+tJLc;D;{
 tUE9e
-tWA9]
+t`[A\]
+taHcE
+tab.cpp
 tabindex
 targetid
-tdA:]
 tenfoot_match
 tenfoot_pickle_dictionaries
 tenfoot_pickle_single_dictionary
@@ -6268,11 +6259,18 @@ text-align
 text-align: center;</pre>
 text-align: right;
 text-decoration
+text-decoration-style
 text-overflow
 text-overflow: clip;
 text-overflow: shrink;
 text-shadow
 text-transform
+text_format.cc
+textentry.cpp
+textinput.cpp
+textinput_daisywheel.cpp
+textinput_settings.cpp
+textinput_suggest.cpp
 textinputautocaps
 textinputcancellable
 textinputclass
@@ -6283,15 +6281,19 @@ textinputmode
 textmode
 texture-sampling
 texture-sampling: alpha-only;</pre>
+thIcG
 the actual field type (for enums T should be the generated enum 
 the global scope
 this version of PCRE is compiled without UTF support
 this version of PCRE is not compiled with Unicode property support
 thistle
-ti;w(}A
+tier1.cpp
+tier2.cpp
 time-dialog-variable
 timeDialogVariable
 title
+tnD9k
+tokenizer.cc
 tolower
 tolower@@GLIBC_2.2.5
 tomato
@@ -6305,14 +6307,15 @@ tooltip-target-height
 tooltip-target-width
 tooltip-target-x
 tooltip-target-y
+tooltip.cpp
 topleft
 total_items
 toupper
 toupper@@GLIBC_2.2.5
-tqLcu
 trailing_comments
 transform-origin
 transform: rotateZ( -32deg ) rotateX( 30deg ) translate3d( 125px, 520px, 230px );</pre>
+transformations.cpp
 transition
 transition-delay
 transition-delay: 0.0s, 1.2s;</pre>
@@ -6328,10 +6331,10 @@ translateX(
 translateY(
 translateZ(
 transparent
-ttIcG
-tuLcc
+tuH;U
+twMc.L
 two named subpatterns have the same name
-txA;\$ I
+txA9\$ I
 txting_cursor_end
 txting_cursor_home
 txting_cursor_left
@@ -6356,18 +6359,25 @@ type() == TYPE_LENGTH_DELIMITED
 type() == TYPE_VARINT
 type.googleapis.com/
 type.googleprod.com/
-t}HcO
-u0IcvTH
+t}Ic\$
+u+[A\A]A^]
 u64( %lld = 0x%llX )
+uBE;4
 uYLrK?
 ui-scale
 ui-scale-x
 ui-scale-y
 ui-scale-z
 ui-scale: 50% 100% 150%; // 50% scaling for X, 100% for Y. 150% for Z.</pre>
+uiengineclient.cpp
+uievent.cpp
+uievents.cpp
+uifileresource.cpp
+uilength.cpp
 uint32
 uint64
 uint8
+uischeduleddel.cpp
 underline
 undohistory
 uninterpreted_option
@@ -6375,6 +6385,7 @@ unknown
 unknown POSIX class name
 unknown option bit(s) set
 unknown property name after \P or \p
+unknown_field_set.cc
 unlink
 unlink@@GLIBC_2.2.5
 unmatched parentheses
@@ -6391,13 +6402,16 @@ uppercase
 uppervalue
 url( %s )
 utlbuffer.cpp
+utlmemory.cpp
 utlstring.cpp
-v!<\t
+utlsymbol.cpp
+v D;p0
 v><vt:
 value
 value 
 vec[0] >= 0
 vec[1] >= 0
+vector.cpp
 vector::_M_fill_insert
 vector::_M_insert_aux
 vector::reserve
@@ -6405,19 +6419,19 @@ vertical
 vertical-align
 verticalalign
 verticalcount
+verticalscrolllist.cpp
 visibility
+vmatrix.cpp
 vmax > 0
 vmax >= base
 vmin < 0
 vmin <= 0 - base
+vscroll
 vsnprintf@@GLIBC_2.2.5
-w ATSH
-w tfH
-w tmH
-w tvH
-w t}H
+w AUATSH
+w#[A\A^A_]
 w<"WR9
-w@9G@
+w<9G0
 wash-color
 wb<~s-<
 wcscmp
@@ -6425,70 +6439,79 @@ wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
 weak_dependency
-wered.coH
 wheat
 white-space
 white-space: nowrap;</pre>
 whitesmoke
 width-percentage
 width-percentage( %s )
+wire_format.cc
+wire_format_lite.cc
 with a type that does not implement MergeFrom. This is unsafe; 
 wraparound
 wrappedhtmlid
 write
 write@@GLIBC_2.2.5
 wrong submessage type
-x$9~$
-x,9~,
+x$E9|$$
+x,E9|$,
 x.?b(F'
 x0[A\]
-x7Hcw
 x8mUM
-xGHcO
+x@HcO
+xDIcE
 xRHcW
+xXD;xh
 x[A\A]A^A_]
 x[A\A]]
 xdigit
-xzUHc
+xxE9|$x
+x|LcO
 ya$d\
 yellowgreen
-z(u&A
+z"u H
 z-index
-z/u-H
 z9GVAW
-zPuND
-zZuXH
-ziugA
-zuusH
+z=u;A
+zGuEI
+zYuWA
+z^u\A
+zero_copy_stream.cc
+zero_copy_stream_impl.cc
+zero_copy_stream_impl_lite.cc
+zrupI
 zzYQ,
-{8;C0t4
+{ [A\A]A^H
+{ [A\A]]H
+{ [A\]H
+{$[A\A]A^H
+{$t%:
+{([A\A]H
+{8[A\H
 {NuW~I
 {S6wD
 {d[A9
+{h[A9
 {}()':
-|!pH)
-|$$t$:
-|$09]
-|LIcO
-|OIcO
+|$ A\A]H
+|$ A\]
+|$$A\A]]H
+|$0E;|$@
+|$HA\A]H
+|FIcM
+|IIcO
+|MtcH
 |Xg!'
 |_&H~0
-};fA;\$n
+} Ic_
+}5Lc`
+};E;e$
 }=n0/
-}>;w$
-}G;w$wBH
-}Hf;w
-}I;w$
-}PfA9
-}XA9]$|RM
-}pfE9wn|ifA
-~	ATI
-~ ;x 
-~&H97t@
-~)A;]
-~0;x0
-~7Lc%
+}XfD9
+~)H;7I
+~*HcR
+~7;w$
 ~CMoviePlayer
 ~CPanel2D - destroy members
-~SHcC
-~vHcKPHc
+~I;w$
+~]A;]$

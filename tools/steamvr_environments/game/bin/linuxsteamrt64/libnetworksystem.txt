@@ -2,19 +2,11 @@
  A _edata
  A _end
  AssertMsg_ConditionFailed
+ CBufferString::Format(char const*, ...)
+ CBufferString::Insert(int, char const*, int, bool)
+ CBufferString::Purge(int)
  CBufferString::Relinquish(CBufferString::EAllocationOption_t)
  CMemAllocSystemInitialize
- CThread::CThread()
- CThread::GetThreadHandle()
- CThread::Init()
- CThread::IsAlive()
- CThread::IsThreadRunning()
- CThread::Join(unsigned int)
- CThread::OnExit()
- CThread::SetPriority(int)
- CThread::Start(unsigned int, ThreadPriorityEnum_t)
- CThread::WaitForCreateComplete(CThreadEvent*)
- CThread::~CThread()
  CThreadEvent::CThreadEvent(bool)
  CThreadEvent::Set()
  CThreadFastMutex::Lock(unsigned long long, unsigned int) volatile
@@ -23,7 +15,6 @@
  CThreadRWLock::UnlockWrite()
  CThreadRWLock::WaitForRead()
  CThreadRWLock_FastRead::CThreadRWLock_FastRead()
- CThreadRWLock_FastRead::HandleFirstWriteLockTransition()
  CThreadRWLock_FastRead::UnlockReadAccounting(unsigned int)
  CThreadRWLock_FastRead::UnlockRead_LockForWrite()
  CThreadRWLock_FastRead::WaitForReadLockTransition(unsigned int)
@@ -33,7 +24,6 @@
  CThreadSpinRWLock::SpinLockForWrite(unsigned long long)
  CThreadSpinRWLock::UnlockRead()
  CThreadSpinRWLock::UnlockWrite()
- CThreadSyncObject::Wait(unsigned int)
  CThreadSyncObject::WaitImpl(unsigned int)
  CThreadSyncObject::~CThreadSyncObject()
  CommandLine
@@ -41,10 +31,8 @@
  DevMsg
  DevMsg(char const*, ...)
  EarlyInit_Tier0
- FindOrCreateQuantizedFloatEncoder
  GetCPUInformation
  GetDefaultMiniDumpTypeFlags
- GetQuantizedFloatEncoderByIndex
  InvokeMiniDumpHandler
  KeyValuesSystem
  LOG_GENERAL
@@ -70,8 +58,6 @@
  Plat_RelativeTicks
  Plat_ShouldCollectMiniDumpsForFatalErrors
  Plat_TickDiffMilliSecF
- Plat_VirtualAlloc
- Plat_VirtualFree
  RandomFloat
  RandomInt
  RandomSeed
@@ -82,21 +68,22 @@
  SteamAPI_RegisterCallback
  SteamAPI_UnregisterCallResult
  SteamAPI_UnregisterCallback
- SteamDatagramClient_Init_InternalV6
+ SteamDatagramClient_Init_InternalV9
  SteamDatagramClient_Internal_SteamAPIKludge
  SteamDatagramClient_Kill
- SteamDatagramClient_SetPartner
- SteamDatagramServer_Init_Internal
+ SteamDatagramClient_SetLauncher
+ SteamDatagramServer_Init_InternalV2
  SteamDatagramServer_Kill
+ SteamGameServerNetworkingSockets_Lib
  SteamGameServer_GetHSteamPipe
  SteamGameServer_GetHSteamUser
+ SteamInternal_ContextInit
  SteamInternal_CreateInterface
- SteamNetworkingP2P
- SteamNetworkingP2PGameServer
- SteamNetworkingSockets
- SteamNetworkingSocketsGameServer
- SteamNetworkingSockets_SetDebugOutputFunction
- SteamNetworkingUtils
+ SteamInternal_FindOrCreateGameServerInterface
+ SteamInternal_FindOrCreateUserInterface
+ SteamNetworkingMessages_Lib
+ SteamNetworkingSockets_Lib
+ SteamNetworkingUtils_Lib
  T BinaryProperties_GetValue
  T CreateInterface
  T GetResourceManifestCount
@@ -109,19 +96,15 @@
  T operator new(unsigned long)
  T operator new[](unsigned long)
  ThreadGetCurrentId
- ThreadSetDebugNameS2
  ThreadSleep
  V typeinfo for std::string
  V typeinfo name for std::string
- V_AddBackSlashesToSpecialChars
  V_FixDoubleSlashes
  V_FixSlashes
  V_GetErrno
- V_PrettifyMem
  V_RemoveDotSlashes
  V_SetErrno
  V_SplitString(char const*, char const*, CUtlVector<char*, CUtlMemory<char*, int> >&)
- V_SplitString2(char const*, char const**, int, CUtlVector<char*, CUtlMemory<char*, int> >&)
  V_StrTrim
  V_StripTrailingSlash
  V_UTF16ToUTF8
@@ -136,6 +119,7 @@
  V_atan2f
  V_atanf
  V_atof
+ V_atofloat64
  V_atoi
  V_atoui64
  V_cosf
@@ -145,7 +129,6 @@
  V_localeconv
  V_logf
  V_powf
- V_qsort
  V_qsort_s
  V_sincosf
  V_sinf
@@ -1014,7 +997,6 @@
  W std::vector<int, std::allocator<int> >::max_size() const
  W std::vector<int, std::allocator<int> >::operator[](unsigned long)
  W std::vector<int, std::allocator<int> >::push_back(int const&)
- W std::vector<int, std::allocator<int> >::reserve(unsigned long)
  W std::vector<int, std::allocator<int> >::size() const
  W std::vector<int, std::allocator<int> >::vector()
  W std::vector<int, std::allocator<int> >::~vector()
@@ -1199,9 +1181,9 @@
  __cxa_pure_virtual@@CXXABI_1.3
  __cxa_rethrow@@CXXABI_1.3
  __cxa_throw@@CXXABI_1.3
+ __cxa_throw_bad_array_new_length@@CXXABI_1.3.8
  __dynamic_cast@@CXXABI_1.3
  __errno_location@@GLIBC_2.2.5
- __fdelt_chk@@GLIBC_2.15
  __gmon_start__
  __gxx_personality_v0@@CXXABI_1.3
  __memcpy_chk@@GLIBC_2.3.4
@@ -1209,22 +1191,14 @@
  __stack_chk_fail@@GLIBC_2.4
  __tls_get_addr@@GLIBC_2.3
  abort@@GLIBC_2.2.5
- accept@@GLIBC_2.2.5
- bind@@GLIBC_2.2.5
- calloc@@GLIBC_2.2.5
  ceil@@GLIBC_2.2.5
  close@@GLIBC_2.2.5
- connect@@GLIBC_2.2.5
  dl_iterate_phdr@@GLIBC_2.2.5
- fclose@@GLIBC_2.2.5
  fflush@@GLIBC_2.2.5
- fgets@@GLIBC_2.2.5
  floor@@GLIBC_2.2.5
  floorf@@GLIBC_2.2.5
- fopen64@@GLIBC_2.2.5
  fprintf@@GLIBC_2.2.5
  free@@GLIBC_2.2.5
- freeifaddrs@@GLIBC_2.3
  g_Tier1_BitWriteMasks
  g_Tier1_CRC32Table
  g_Tier1_CRC64Table
@@ -1233,11 +1207,8 @@
  g_pThreadPool
  gethostbyname@@GLIBC_2.2.5
  gethostname@@GLIBC_2.2.5
- getifaddrs@@GLIBC_2.3
  getsockname@@GLIBC_2.2.5
  inet_addr@@GLIBC_2.2.5
- ioctl@@GLIBC_2.2.5
- listen@@GLIBC_2.2.5
  lseek@@GLIBC_2.2.5
  malloc@@GLIBC_2.2.5
  memchr@@GLIBC_2.2.5
@@ -1258,10 +1229,7 @@
  pthread_once@@GLIBC_2.2.5
  read@@GLIBC_2.2.5
  sched_yield@@GLIBC_2.2.5
- select@@GLIBC_2.2.5
- setsockopt@@GLIBC_2.2.5
  snprintf@@GLIBC_2.2.5
- socket@@GLIBC_2.2.5
  sprintf@@GLIBC_2.2.5
  sqrt@@GLIBC_2.2.5
  sqrtf@@GLIBC_2.2.5
@@ -1307,7 +1275,6 @@
  std::string::_M_leak_hard()@@GLIBCXX_3.4
  std::string::_M_mutate(unsigned long, unsigned long, unsigned long)@@GLIBCXX_3.4
  std::string::_Rep::_M_destroy(std::allocator<char> const&)@@GLIBCXX_3.4
- std::string::_Rep::_M_dispose(std::allocator<char> const&)@@GLIBCXX_3.4
  std::string::_Rep::_M_refdata()@@GLIBCXX_3.4
  std::string::_Rep::_M_set_length_and_sharable(unsigned long)@@GLIBCXX_3.4.5
  std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)@@GLIBCXX_3.4
@@ -1382,7 +1349,6 @@
  strtoll@@GLIBC_2.2.5
  strtoul@@GLIBC_2.2.5
  strtoull@@GLIBC_2.2.5
- typeinfo for CThread
  typeinfo for CThreadSyncObject
  typeinfo for char@@CXXABI_1.3
  typeinfo for std::exception@@GLIBCXX_3.4

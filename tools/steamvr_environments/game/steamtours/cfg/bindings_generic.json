@@ -1,5 +1,6 @@
 {
-  "controller_type": "generic",
-  "action_binds": [],
-  "filters": []
+   "action_manifest_version": 1,
+   "controller_type" : "generic",
+   "bindings" : {
+   }
 }

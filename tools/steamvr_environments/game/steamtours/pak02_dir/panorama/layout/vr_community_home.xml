@@ -62,7 +62,7 @@
 		</snippet>
 	</snippets>
 	
-	<ClientUIDialogPanel>
+	<ClientUIDialogPanel class="ScreenOn" onload="OnLoadMainPanel(); TurnWallOn();">
 
 		<Panel class="TutorialState">
 			<Image class="SteamVRLogo" src="s2r://panorama/images/content_browser/steamvr_home_logo_high_png.vtex" scaling="stretch-to-fit-preserve-aspect" />

@@ -88,7 +88,9 @@ function RemoveTabClasses()
 	$( "#SteamToursContentBrowser" ).RemoveClass( "HandsSelected" );
 	$( "#SteamToursContentBrowser" ).RemoveClass( "WearablesSelected" );			
 	$( "#SteamToursContentBrowser" ).RemoveClass( "Scrolling" );
-}	
+	$( "#SteamToursContentBrowser" ).RemoveClass( "CurrentItemIsMap" );
+	$( "#SteamToursContentBrowser" ).RemoveClass( "SavedEnvironmentPresent" );
+}
 
 function RemoveTagClasses()
 {
@@ -205,11 +207,10 @@ function MoveLobby( bLoadSaveGame )
 
 function OnChooseContentItem()
 {
-	var bIsMap = $( "#ItemDetail" ).BHasClass( "IsMap" );
+	var bIsMap = $( "#SteamToursContentBrowser" ).BHasClass( "CurrentItemIsMap" );
 	if ( bIsMap )
 	{
 		var bIsHosting = $( "#SteamToursContentBrowser" ).BHasClass( "IsHostingPublicLobby" ) || $( "#SteamToursContentBrowser" ).BHasClass( "IsHostingFriendsOnlyLobby" ) || $( "#SteamToursContentBrowser" ).BHasClass( "LobbyHasVisitors" )
-		$.Msg( "Is Hosting? " + bIsHosting );
 		if ( bIsHosting )
 		{
 			PromptMoveLobby();

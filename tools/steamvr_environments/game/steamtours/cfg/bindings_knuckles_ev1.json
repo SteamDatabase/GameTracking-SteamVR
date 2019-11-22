@@ -1,4 +1,5 @@
 {
+   "action_manifest_version": 1,
    "bindings" : {
       "/actions/default" : {
          "sources" : [
@@ -207,7 +208,8 @@
                "mode" : "dpad_click",
                "parameters" : {
                   "deadzone_pct" : "50",
-                  "overlap_pct" : "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path" : "/user/hand/left/input/trackpad"
             },
@@ -226,7 +228,8 @@
                "mode" : "dpad_click",
                "parameters" : {
                   "deadzone_pct" : "50",
-                  "overlap_pct" : "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path" : "/user/hand/right/input/trackpad"
             }
@@ -408,6 +411,6 @@
       }
    },
    "controller_type" : "knuckles_ev1",
-   "description" : "",
-   "name" : "Default SteamVR Home Bindings for Knuckles (EV1)"
+   "description" : "Default Knuckles EV1 bindings for SteamVR Home.",
+   "name" : "Default Knuckles EV1 Bindings"
 }

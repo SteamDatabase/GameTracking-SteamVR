@@ -86,8 +86,11 @@
 		"UsesVGui" "0"
 		"UsesBink" "0"
 		"SaveClientStateInSaveGames" "0"
+		"AllowSaveGamesInMultiplayer" "1"
 		"AllocWarnMB" "2048"
 		"ReserveWarnMB" "2048"
+		"PerformsShutdown"	"1"
+		"PreloadIcuucDll" "1"
 	}
 
 	SceneSystem

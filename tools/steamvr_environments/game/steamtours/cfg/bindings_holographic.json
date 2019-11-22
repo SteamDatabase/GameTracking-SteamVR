@@ -1,5 +1,20 @@
 {
+   "action_manifest_version": 1,
    "bindings" : {
+      "/actions/global" :  {
+         "poses" : [
+            {
+               "output" : "/actions/global/in/HandPoseLeft",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/global/in/HandPoseRight",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
+         "skeleton" : [],
+         "sources" : []
+       },
       "/actions/default" : {
          "sources" : [
             {
@@ -136,24 +151,6 @@
             },
             {
                "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/default/in/scroll"
-                  }
-               },
-               "mode" : "trackpad_scroll",
-               "path" : "/user/hand/left/input/trackpad"
-            },
-            {
-               "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/default/in/scroll"
-                  }
-               },
-               "mode" : "trackpad_scroll",
-               "path" : "/user/hand/right/input/trackpad"
-            },
-            {
-               "inputs" : {
                   "south" : {
                      "output" : "/actions/default/in/rclick"
                   }
@@ -197,7 +194,8 @@
                "mode" : "dpad_touch",
                "parameters" : {
                   "deadzone_pct" : "85",
-                  "overlap_pct" : "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path" : "/user/hand/left/input/joystick"
             },
@@ -216,7 +214,8 @@
                "mode" : "dpad_touch",
                "parameters" : {
                   "deadzone_pct" : "85",
-                  "overlap_pct" : "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path" : "/user/hand/right/input/joystick"
             }
@@ -373,9 +372,111 @@
                "path" : "/user/hand/right/input/trackpad"
             }
          ]
+      },
+      "/actions/scroll_discrete" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_discrete/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_discrete/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_discrete/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "discrete"
+               },
+               "path" : "/user/hand/left/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_discrete/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "discrete"
+               },
+               "path" : "/user/hand/right/input/joystick"
+            }
+         ]
+      },
+      "/actions/scroll_smooth": {
+         "sources": [
+            {
+               "path": "/user/hand/left/input/trackpad",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth",
+                  "smooth_scroll_multiplier": "11.8"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
+            },
+            {
+               "path": "/user/hand/right/input/trackpad",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth",
+                  "smooth_scroll_multiplier": "11.8"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
+            },
+            {
+               "path": "/user/hand/left/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth",
+                  "smooth_scroll_joystick_min_input_magnitude": "0.3"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
+            },
+            {
+               "path": "/user/hand/right/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth",
+                  "smooth_scroll_joystick_min_input_magnitude": "0.3"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
+            }
+         ]
       }
    },
    "controller_type" : "holographic_controller",
-   "description" : "",
-   "name" : "Default SteamVR bindings for Windows Mixed Reality controllers"
+   "description" : "Default Windows Mixed Reality Controller bindings for SteamVR Home.",
+   "name" : "Default WMR Controller Bindings"
 }

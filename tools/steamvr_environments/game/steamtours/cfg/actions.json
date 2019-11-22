@@ -1,4 +1,6 @@
 {
+  "version": 1,
+  "minimum_required_version": 1,
   "default_bindings":
   [
     {
@@ -10,16 +12,20 @@
       "binding_url": "bindings_vive_controller.json"
     },
     {
-      "controller_type": "knuckles",
-      "binding_url": "bindings_knuckles.json"
-    },
-    {
       "controller_type": "knuckles_ev1",
       "binding_url": "bindings_knuckles_ev1.json"
     },
     {
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
+    },
+    {
       "controller_type": "holographic_controller",
       "binding_url": "bindings_holographic.json"
+    },
+    {
+      "controller_type": "vive_cosmos_controller",
+      "binding_url": "bindings_cosmos.json"
     },
     {
       "controller_type": "generic",
@@ -32,6 +38,24 @@
   ],
   "actions":
   [
+    {
+      "name": "/actions/global/in/HandPoseLeft",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/global/in/HandPoseRight",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/global/in/HandSkeletonLeft",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/global/in/HandSkeletonRight",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
     {
       "name": "/actions/default/in/ToggleMenu",
       "type": "boolean"
@@ -63,10 +87,6 @@
     {
       "name": "/actions/default/in/PadTouch",
       "type": "boolean"
-    },
-    {
-      "name": "/actions/default/in/Scroll",
-      "type": "vector3"
     },
     {
       "name": "/actions/default/in/Trackpad",
@@ -131,26 +151,62 @@
     {
       "name": "/actions/prop_tool/in/Joystick",
       "type": "vector2"
+    },
+    {
+      "name": "/actions/scroll_discrete/in/Scroll",
+      "requirement" : "optional",
+      "hide_callout" : true,
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/scroll_smooth/in/Scroll",
+      "requirement" : "optional",
+      "type": "vector2"
     }
   ],
-  "action_sets": [
+  "action_sets":
+  [
+    {
+      "name": "/actions/global",
+      "usage": "leftright"
+    },
     {
       "name": "/actions/default",
-      "usage": "leftright"
+      "usage": "single"
     },
     {
       "name": "/actions/move",
-      "usage": "leftright"
+      "usage": "single"
     },
     {
       "name": "/actions/prop_tool",
-      "usage": "leftright"
+      "usage": "single"
+    },
+    {
+      "name": "/actions/scroll_discrete",
+      "display_with": "/actions/default",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/scroll_smooth",
+      "display_with": "/actions/default",
+      "usage": "single"
     }
   ],
   "localization": 
   [
     {
       "language_tag": "en_US",
+      "/actions/global": "Global",
+      "/actions/default": "Default",
+      "/actions/move": "Move",
+      "/actions/prop_tool": "Tool",
+      "/actions/scroll_discrete": "Mousewheel-style Scrolling",
+      "/actions/scroll_smooth": "Trackpad-style Scrolling",
+      "/actions/global/in/HandPoseLeft": "Hand Pose Left",
+      "/actions/global/in/HandPoseRight": "Hand Pose Right",
+      "/actions/global/in/HandSkeletonLeft": "Hand Skeleton Left",
+      "/actions/global/in/HandSkeletonRight": "Hand Skeleton Right",
       "/actions/default/in/ToggleMenu": "Toggle Menu",
       "/actions/default/in/lclick": "Left Click",
       "/actions/default/in/rclick": "Right Click",
@@ -159,6 +215,8 @@
       "/actions/default/in/HandCurl": "Hand Curl",
       "/actions/default/in/Pad": "Pad",
       "/actions/default/in/PadTouch": "Pad Touch",
+      "/actions/default/in/ScrollDiscrete": "Discrete Scroll",
+      "/actions/default/in/ScrollSmooth": "Smooth Scroll",
       "/actions/default/in/Trackpad": "Trackpad",
       "/actions/move/in/Teleport": "Teleport",
       "/actions/move/in/TurnLeft": "Turn Left",
@@ -174,7 +232,9 @@
       "/actions/prop_tool/in/PadDown": "Tool Pad Down",
       "/actions/prop_tool/in/Trigger": "Tool Trigger",
       "/actions/prop_tool/in/Trackpad": "Tool Trackpad",
-      "/actions/prop_tool/in/Joystick": "Tool Joystick"
+      "/actions/prop_tool/in/Joystick": "Tool Joystick",
+      "/actions/scroll_discrete/in/scroll": "Scroll Panel",
+      "/actions/scroll_smooth/in/scroll": "Scroll Panel"
     }
   ]
 }

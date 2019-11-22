@@ -149,6 +149,7 @@
  T FindOrCreateQuantizedFloatEncoder
  T FindRegisteredGlobalObjectInternal
  T GetDmElementTypeSymbolMap
+ T GetJobManualEventFromPool
  T GetQuantizedFloatEncoderByIndex
  T GetQuantizedFloatEncodersSharingIndex
  T InstallUniformRandomStream
@@ -161,11 +162,16 @@
  T RegisterGlobalObject
  T RegisterStringToken
  T RequireKeyValuesSystem
+ T ReturnJobManualEventToPool
  T RunThreadPoolTests
+ T SecureRandomBytes
+ T SecureRandomDouble
+ T SecureRandomInt
  T TransferMemory
  T UnRegisterGlobalObject
  T UnlockGlobalObjectRegistry
  T VStdLib_GetICVarFactory
+ T V_CompareNameWithWildcards
  T V_LogMultiline
  T V_LogMultilineToArray
  T V_ParseToken
@@ -221,6 +227,8 @@
  V_UnicodeLength(char const*)
  V_UnqualifiedFileName
  V_atof
+ V_atofloat32
+ V_atofloat64
  V_atoi
  V_fclose
  V_fflush
@@ -285,6 +293,7 @@
  __cxa_guard_acquire@@CXXABI_1.3
  __cxa_guard_release@@CXXABI_1.3
  __cxa_pure_virtual@@CXXABI_1.3
+ __cxa_throw_bad_array_new_length@@CXXABI_1.3.8
  __environ@@GLIBC_2.2.5
  __errno_location@@GLIBC_2.2.5
  __fxstat64@@GLIBC_2.2.5

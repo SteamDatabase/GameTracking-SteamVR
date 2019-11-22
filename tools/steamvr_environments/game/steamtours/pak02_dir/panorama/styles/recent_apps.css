@@ -332,7 +332,9 @@ SteamToursRecentApps
 
 .PressMenuButton,
 .PressYButton,
-.PressBButton {
+.PressBButton,
+.PressBOrYButton
+{
 	color: #ccccccff;
 	font-size: 70px;
 	width: 900px;
@@ -347,7 +349,10 @@ SteamToursRecentApps
 .MotionController,
 .Controller,
 .TouchImage,
-.WinMRImage 
+.RiftSImage,
+.WinMRImage,
+.KnucklesImage,
+.CosmosImage
 {
 	width: 900px;
 	height: 900px;
@@ -366,9 +371,15 @@ SteamToursRecentApps
 .GamepadController .Controller,
 .GamepadController .PressYButton,
 .TouchController .TouchImage,
-.TouchController .PressBButton,
+.TouchController .PressBOrYButton,
+.RiftSController .RiftSImage,
+.RiftSController .PressBOrYButton,
 .WinMRController .WinMRImage,
-.WinMRControllerSamsung .WinMRImage
+.WinMRControllerSamsung .WinMRImage,
+.KnucklesController .KnucklesImage,
+.KnucklesController .PressBButton,
+.CosmosController .CosmosImage,
+.CosmosController .PressBOrYButton
 {
 	visibility: visible;	
 }
@@ -377,7 +388,13 @@ SteamToursRecentApps
 .GamepadController .MotionController,
 .GamepadController .PressMenuButton,
 .TouchController .MotionController,
-.TouchController .PressMenuButton
+.TouchController .PressMenuButton,
+.RiftSController .MotionController,
+.RiftSController .PressMenuButton,
+.KnucklesController .MotionController,
+.KnucklesController .PressMenuButton,
+.CosmosController .MotionController,
+.CosmosController .PressMenuButton
 {
 	visibility: collapse;	
 }
@@ -406,6 +423,12 @@ SteamToursRecentApps
 	margin-right: 310px;
 }
 
+.RiftSController .GlowAnim
+{
+	margin-bottom: 270px;
+	margin-right: 310px;
+}
+
 .GamepadController .GlowAnim
 {
 	margin-bottom: 240px;
@@ -419,6 +442,21 @@ SteamToursRecentApps
 	height: 50px;
 	margin-top: 200px;
 	margin-right: 30px;
+}
+
+.KnucklesController .GlowAnim
+{
+	margin-bottom: 374px;
+	margin-right: 596px;
+}
+
+.CosmosController .GlowAnim
+{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 269px;
+	margin-right: -40px;
+	margin-left: 50px;
 }
 
 /*---------------------

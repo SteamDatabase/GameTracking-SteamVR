@@ -84,7 +84,7 @@
 @define backgroundgray : #383635ff;
 @define foregroundgray : #A6A4A1ff;
 @define transparent: #00000000;
-@define platformfont: "Motiva Sans";
+@define platformfont: "Motiva Sans,Noto Sans JP Regular,Noto Sans KR Regular,Noto Sans SC Regular,Noto Sans TC Regular";
 @define deffontsize: 22px;
 @define medfontsize: 28px;
 @define largefontsize: 32px;
@@ -210,6 +210,12 @@
 {
 	color: white;
 	box-shadow: none;
+}
+
+.DestinationButton:disabled
+{
+	background-color: button_gradient;
+	border: 2px solid #ffffff20;
 }
 
 

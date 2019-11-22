@@ -1,46 +1,40 @@
-								
-	>Nsj?
 	You must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.
         %3d %3d %3d %3d %3d %3d %3d %3d
         %4u %4u %4u %4u %4u %4u %4u %4u
+    %u iterated blocks
+    %u unfinished blocks
     Component %d: %dhx%dv q=%d
     Component %d: dc=%d ac=%d
-    Max committed memory: %u KB out of %d KB
-    Total committed memory: %d KB
-    Total used memory:      %d KB
     with %d x %d thumbnail image
   Ss=%d, Se=%d, Ah=%d, Al=%d
  ( def. "%s" )
+ -shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld
  0@P`p
  Can't specify initial state of dynamic constant buffers at creation time!
  D;t$
- E9l$\
- H92t
- HcC`L
- HcClI)
- IcD$`L
- IcD$lI)
- Lc[PH)
- Lc[hH)
- Lc[lH
+ H;D$PH
+ H;D$`H
  ReadToken overflow
  [%.3f server clamped to %.3f]
  [A\A]A^A_]
  [A\A]A^]
- [A\A^]
  [A\]
- []A\
  []A\A]A^
- inflate 1.2.5 Copyright 1995-2010 Mark Adler 
  libpng version 1.5.2 - March 31, 2011
  max. %f
  min. %f
- t[Hc
+ tMv+@
+ {{-&
 !1AQaq
+!Rf [8-
+![A\A]]
+!m_boolDone
+!m_boolOpaque
+!m_boolPunchThroughPixels
+!m_boolTransparent
 "%s" 
 "%s" = "%s"
 "2BRbr
-"=?`p
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
@@ -49,10 +43,11 @@
 "pixelAspectRatio" attribute not found in the header.
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
-"t&L;}
 # of channels is zero.
 #3CScs
+#</data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4.cpp
 #RenderSystem_CannotCreateDevice
+#RenderSystem_UnableToStartGame
 #[A\]
 #base
 #base is NULL 
@@ -60,19 +55,13 @@
 #include
 #include is NULL 
 #int#
-$*L;c
-$+s$Hc
 $4DTdt
-$A+D$$H
-$A;D$
-$E;D$
 $ORIGIN
 $[A\]
-$fD	8
-$woL)
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+$fD	0
 %-120s
 %-120s - %s
+%3d: e=%.3f rms=%.6f %u
 %5EUeu
 %d %d
 %d %s %d %02d:%02d:%02d +0000
@@ -80,43 +69,44 @@ $woL)
 %i %i %i %i
 %ld%c
 %ls [wstring, len = %d]
-%s.360%s
+%s+--
+%s+-- Schema Class: %s
+%s: %s
 %s: string format requested %d chars
-%s_%d_%d_%d_%d
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%s|  % 2d: %s [Offset: %d]
+%s| AlignOf: %d
+%s| Base Class%s: %d
+%s| Fields:
+%s| SizeOf: %d
+&#-n(#P.
 &6FVfv
-'	?@XC
+'1x;L
 '7GWgw
-(%\\/
 (%s): ADD %s = %s
 (%s): Setting %s to %s
 (*%s*), 
-(-^Y/
 (8HXhx
-(D>C9[
+(HcWP
 ([A\A]A^A_]
-([A\A]]
-([A\A^]
+([A\A]A^H
+([A\A]J
+([]A\A]
 ([]A\A]A^A_
 ([]A\A]A^A_H
-(b f.
+(fWeightSumLeft + fWeightSumRight) > 0.0f
+(fWeightSumTop + fWeightSumBottom) > 0.0f
 )9IYiy
-)D$ ~SL
-*15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN13CSOAContainer9FilterInXEi9IntAABB_tiPKfbEUliE_EEMS8_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+)D$pD
+)D$pH
+)L$0H
 *:JZjz
-*S?~uJ?x
+*D$Xf
+*D$|f
+*St19_Sp_counted_deleterIPhZN3Etc13EncodeMipmapsEPfjjNS1_5Image6FormatENS1_11ErrorMetricEfjjjjPNS1_8RawImageEPibEUlS0_E_SaIiELN9__gnu_cxx12_Lock_policyE2EE
+*ZN3Etc13EncodeMipmapsEPfjjNS_5Image6FormatENS_11ErrorMetricEfjjjjPNS_8RawImageEPibEUlPhE_
 +;K[k{
-+E;,$}
-+J A)
-+J`Hc
-+K$Lc
-+N`M)
 +S$Hc
 +s$Hc
-+s$Ic
-+u\?v
-+{$Hc
-,0IcU
 ,<L\l|
 --  Increase the size of the resource stream   --
 --  Need %d bytes, but only have %d bytes
@@ -128,6 +118,7 @@ $woL)
 -autoconfig
 -autoconfig_level
 -debugdxsupport
+-deferTextureLoads
 -disallowhwmorph
 -dontEvictTextures
 -dx11
@@ -141,6 +132,7 @@ $woL)
 -r_max_device_threads
 -rendersystem_thread_mode
 -shaderstats
+-shadowTargetSize
 -sse2
 -sse3
 -sse4
@@ -149,13 +141,10 @@ $woL)
 ../public/resourcefile/introspectedtypemanager.h
 ../public/resourcefile/resourcestream.h
 ../public/tier0/tslist.h
-../public/tier1/utlblockmemory.h
 ../public/tier1/utlfixedmemory.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 .>N^n~
-.M;UU
-._?hN
 .comment
 .data
 .data.rel.ro
@@ -180,20 +169,35 @@ $woL)
 .strtab
 .symtab
 .text
-/><B&?
+.xL?'o
 /?O_o
-/I9D$
+/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/./EtcCodec/EtcBlock4x4Encoding.h
+/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding.h
+/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_ETC1.cpp
+/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_R11.cpp
+/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_RGB8.cpp
+/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_RGBA8.cpp
+/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcDifferentialTrys.cpp
+/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcIndividualTrys.cpp
+/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcSortedBlockList.cpp
 0123456789ABCDEF
 0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
+0<	wD
+0A81@
+0A91u
+0A9\$
+0D91u
+0E81A
 0[A\A]A^A_]
-0[A\A]A^]
 0[A\]
-0[A^]
 0[]A\A]A^
+0fA91u
+0fD91u
+0t3Lc
 0x%016llX
 1.2.5
 1.5.2
-10CFunctor13IPFvPiPK30WeightedComparisonDescriptor_tiiP11IntVector3DPfiiiiiiiES0_S3_iiS5_S6_iiiiiii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
+1.8.3
 10ConCommand
 10IAppSystem
 11CFunctorJob
@@ -203,35 +207,18 @@ $woL)
 12CRefCounted1I11IRefCounted20CRefCountServiceBaseILb1E6CRefMTEE
 12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
 12CRenderUtils
-12CTextureBase
 12CThreadEvent
 12CThreadedJob
 12IRenderUtils
-13CTextureEmpty
 13IRenderDevice
 14CBaseAppSystemI12IRenderUtilsE
 14CBaseAppSystemI16IRenderDeviceMgrE
 14CSwapChainBase
 14ConCommandBase
 14IRenderContext
-14ISchemaBinding
-15CMemberFunctor0IP31FastSweepThreadedExecutionStateI15JoinedClasses_tI23CValveThreadingControls23CEikonalExecuteControlsEEMS5_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor0IP31FastSweepThreadedExecutionStateI15JoinedClasses_tI23CValveThreadingControls29CHeatTransferEquationControlsEEMS5_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor1IP26CParallelProcessorAbstractI18CParallelProcessorI26KMeansQuantizationWorkUnit21CFuncJobItemProcessorIS2_ELi1EEEMS6_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor1IP26CParallelProcessorAbstractI18CParallelProcessorIi27CMemberFuncJobItemProcessorIi11CCallQueueTI8CTSQueueIP8CFunctorLb0EEES8_ELi1EEEMSB_FviEi12CRefCounted1IS5_20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor1IP26CParallelProcessorAbstractI22CParallelLoopProcessorI13FloatBitMap_t31CLoopMemberFuncJobItemProcessorIS2_S2_S2_EEEMS6_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor1IP26CParallelProcessorAbstractI22CParallelLoopProcessorI25FloatBitmapResampleInfo_t25CLoopFuncJobItemProcessorIS2_EEEMS6_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CMemberFunctor4IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequestP12CTextureBase22TextureSpecification_tiES3_S5_S6_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor5IP13CSOAContainerMS0_Fvi9IntAABB_tiPKfbEiS2_iS4_b12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor6IP13CSOAContainerMS0_FviiiiiU8__vectorfEiiiiiS2_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor7IP13CSOAContainerMS0_FvS1_iiiiiiES1_iiiiii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor7IP13CSOAContainerMS0_FviiiiPKS0_iiEiiiiS3_ii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor7IP13CSOAContainerMS0_FviiiiiiiEiiiiiii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor7IP19CTextureManagerBaseMS0_Fv12ResourceId_tP12CTextureBasePvi22TextureSpecification_ti30TextureOnDiskCompressionType_tES2_S4_S5_iS6_iS7_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor8IP13CSOAContainerMS0_FviiiiPKS0_iiiEiiiiS3_iii12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor9IP13CSOAContainerMS0_Fviiiiiii6VectorbEiiiiiiiS2_b12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CMemberFunctor6IP19CTextureManagerBaseMS0_FvP12CTextureBasePvi22TextureSpecification_ti23TextureBitsMemoryType_tES3_S4_iS5_iS6_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 15CRenderPassDesc
-15CRenderResource
 15CResourceStream
 15CSwapChainEmpty
 15CTier0AppSystemI12IRenderUtilsE
@@ -240,70 +227,85 @@ $woL)
 15CTier1AppSystemI16IRenderDeviceMgrLi0EE
 15CTier2AppSystemI12IRenderUtilsLi0EE
 15CTier2AppSystemI16IRenderDeviceMgrLi0EE
-16CColorFormatBase
 16CDefaultAccessor
 16CDeviceFenceBase
 16CExtrefTraversal
-16CIndexBufferBase
-16CMemberFunctor11IP13CSOAContainerMS0_FviiiiPKS0_iiiiiPKfEiiiiS3_iiiiiS5_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-16CRenderQueryBase
 16ICommandCallback
 16IRenderDeviceMgr
 17CRenderDeviceBase
-17CResourceStreamVM
-17CVertexBufferBase
+18CAtomicManipulatorI10CTransformE
+18CAtomicManipulatorI10CUtlStringE
+18CAtomicManipulatorI10CUtlSymbolE
 18CAtomicManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEEE
+18CAtomicManipulatorI10QuaternionE
+18CAtomicManipulatorI11DegreeEulerE
+18CAtomicManipulatorI11RadianEulerE
+18CAtomicManipulatorI11matrix3x4_tE
+18CAtomicManipulatorI12CEntityIndexE
+18CAtomicManipulatorI12matrix3x4a_tE
+18CAtomicManipulatorI13VectorAlignedE
 18CAtomicManipulatorI14CResourceArrayI15SheetSequence_tEE
 18CAtomicManipulatorI14CResourceArrayI17SheetFrameImage_tEE
 18CAtomicManipulatorI14CResourceArrayI20SequenceFloatParam_tEE
 18CAtomicManipulatorI14CResourceArrayI20SheetSequenceFrame_tEE
 18CAtomicManipulatorI15CResourceStringE
+18CAtomicManipulatorI15CUtlStringTokenE
+18CAtomicManipulatorI15CUtlSymbolLargeE
 18CAtomicManipulatorI16CResourcePointerI7Sheet_tEE
+18CAtomicManipulatorI5ColorE
+18CAtomicManipulatorI6QAngleE
+18CAtomicManipulatorI6VectorE
+18CAtomicManipulatorI7VMatrixE
 18CAtomicManipulatorI8Vector2DE
 18CAtomicManipulatorI8Vector4DE
-18CBlendStateCreator
+18CAtomicManipulatorIDv4_fE
 18CEmptyShaderBuffer
-18CRenderContextBase
 18CRenderDeviceEmpty
-18CSchemaEnumBindingI13CubeMapFace_tE
-18CSchemaEnumBindingI16RenderSlotType_tE
-18CSchemaEnumBindingI19RenderBufferFlags_tE
-18CSchemaEnumBindingI21RenderPrimitiveType_tE
-18CSchemaEnumBindingI22InputLayoutVariation_tE
-18CSchemaEnumBindingI23RenderMultisampleType_tE
-18CSchemaEnumBindingI27TextureSpecificationFlags_tE
+18CSchemaManipulatorI10CTransformE
+18CSchemaManipulatorI10CUtlStringE
+18CSchemaManipulatorI10CUtlSymbolE
 18CSchemaManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEEE
+18CSchemaManipulatorI10QuaternionE
+18CSchemaManipulatorI11DegreeEulerE
+18CSchemaManipulatorI11RadianEulerE
+18CSchemaManipulatorI11matrix3x4_tE
+18CSchemaManipulatorI12CEntityIndexE
+18CSchemaManipulatorI12matrix3x4a_tE
+18CSchemaManipulatorI13VectorAlignedE
 18CSchemaManipulatorI14CResourceArrayI15SheetSequence_tEE
 18CSchemaManipulatorI14CResourceArrayI17SheetFrameImage_tEE
 18CSchemaManipulatorI14CResourceArrayI20SequenceFloatParam_tEE
 18CSchemaManipulatorI14CResourceArrayI20SheetSequenceFrame_tEE
 18CSchemaManipulatorI15CResourceStringE
+18CSchemaManipulatorI15CUtlStringTokenE
+18CSchemaManipulatorI15CUtlSymbolLargeE
 18CSchemaManipulatorI16CResourcePointerI7Sheet_tEE
+18CSchemaManipulatorI5ColorE
+18CSchemaManipulatorI6QAngleE
+18CSchemaManipulatorI6VectorE
+18CSchemaManipulatorI7VMatrixE
 18CSchemaManipulatorI8Vector2DE
 18CSchemaManipulatorI8Vector4DE
+18CSchemaManipulatorIDv4_fE
 18CSchemaVisitorBase
 18CUtlCharConversion
 18IAtomicManipulator
 18ISchemaManipulator
-18ITSHashConstructorI24CTextureSequenceRecord_tE
-18ITSHashConstructorIPvE
 19CRenderContextEmpty
-19CSchemaClassBindingI13TextureDesc_tE
-19CSchemaClassBindingI15SheetSequence_tE
-19CSchemaClassBindingI15TextureHeader_tE
-19CSchemaClassBindingI17SheetFrameImage_tE
-19CSchemaClassBindingI18VsInputSignature_tE
-19CSchemaClassBindingI20SequenceFloatParam_tE
-19CSchemaClassBindingI20SheetSequenceFrame_tE
-19CSchemaClassBindingI24RenderInputLayoutField_tE
-19CSchemaClassBindingI25VsInputSignatureElement_tE
-19CSchemaClassBindingI7Sheet_tE
 19CSchemaFieldVisitor
 19CSchemaRegistration
 19CTextureManagerBase
 19IKeyValuesErrorSpew
 19IRenderShaderBuffer
 19ISchemaSearchTesterIPK16CSchemaClassInfoE
+1A\A]]
+1D90u
+1D;G 
+1E80A
+1E90u
+1H30t
+1fD90u
+1fE90u
 20CPostConnectCallback
 20CRefCountServiceBaseILb1E6CRefMTE
 20CRenderDeviceMgrBase
@@ -312,200 +314,169 @@ $woL)
 20IResourceTypeManager
 21CRenderDeviceMgrEmpty
 21CRenderHardwareConfig
-21CSheetHashConstructor
 21CTextureInfoChunkBase
 21CUtlCStringConversion
-21IKeyValuesDumpContext
 21IRenderHardwareConfig
-22CSchemaEnumBindingBase
 22CSchemaInstallCallback
-22IStreamBuilderCallbackI14CCommandStreamE
 22IToolsResourceListener
-23CRasterizerStateCreator
 23CResourceAllocatorUtils
-23CResourceStreamGrowable
-23CSchemaClassBindingBase
-23CSplitScreenAddedConVar
 23IConCommandBaseAccessor
 23IResourceAllocatorUtils
 25CConCommandMemberAccessorI17CRenderDeviceBaseE
 25CConCommandMemberAccessorI19CTextureManagerBaseE
-25CDepthStencilStateCreator
 25CSchemaVisitorInfoMapBase
 26CDefaultKeyValuesErrorSpew
 26CReferenceCleanupTraversal
 26CSchemaFieldVisitorInfoMapI16CExtrefTraversalE
 26ICommandCompletionCallback
 27CSchemaUtlVectorManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEES1_E
-27IKeyValuesDumpContextAsText
 28CBaseIntrospectedTypeManager
 28ISchemaCollectionManipulator
-29CKeyValuesDumpContextAsDevMsg
-2|&fB
-3+C$H
 31CDefaultIntrospectedTypeManagerILy2019914870E15TextureHeader_tE
 32CResourceReferenceFixupTraversal
-333333
 37CSchemaRegistration_rendersystemempty
-3E8 u
-3[A\A]A^]
-4+D+M
-4fff>fff>fff>fff>
+3[A\]
 5UUUU
-692t&H
+5t~BC
+6A;1t"
 6ConVar
 6H92t%H
-6H;2u
+6H;2t%H
 7IConVar
-7L9FHtOL9FPtaH
-89w rf;w
+7f90u
+899t+H
+8A89@
+8A8:@
+8A]A^]H
+8A^]H
+8BPSt
+8BPSt&H
 8CFmtStrNILi256ELb0EE
 8CFunctor
-8VBKVt6HcF
+8I39t
+8I3:t
+8VGUI
 8[A\A]A^A_]
 8[A\A]]
 8[]A\A]A^A_
 8b  16-May-2010
-8b?fE
-8t0f.
-8|)fC
-8~2Mc
 9.1.15
-9C(s&A
-9C0~!E1
-9G ~%
+9CdAXAYr
+9CdZY
 9T$0~	H
-9\?8c{
-:>	As?K
+9f98u
 :[tlL
+:f98u
 ;*3$"
-;*t*1
-;@:8t"
-;mempool.cpp
-<	McO
-<	w.1
-<	woD
-< u0L
-<$/tyL
-</uLH
-<19{ |.
+;0tWD
+;L$D|*
+;T$X|I
+;|$H|h
+;|$\|I
+<	wlLcG
+</data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding.cpp
 <1tj<0
-<7;x?5
 << NULL >>
-<@tYA
-<Iwi>y
 <NULL>
-<Rt<<Pt`<S
-<Unknown
-<_t5f
+<No schemasystem>
+<Rt&<Pu
 <invalid %d>
+<no failure reason set>
 <none>
 <null>
 <unknown multisample type
 <unknown>
 <x360>
-<}tI<{uO
-=yvn?
-={=v?
->!RB??
->!fZ?
->#g	>
+<}tQ<{uW
 >#tEH
->$jh?ckm
->-ub?
->5UP?X
->AYK?
->At,H
->nkY?
->r*#?
->|Z2>'ez?
-?#RenderSystem_UnableToStartGame
-?5?s!
+>At&H
+>H9WHt7H9WPtQH
+>Too many bytes for PNG signature
+?N24CFieldPathHuffmanEncoder5INodeE
 ?Out of Memory
-?Too many bytes for PNG signature
-?VGUI
-?VScript
-?u0E1
+?e(W\
 ?u='@
-?|7m=U
+@-dev
+@@/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/Etc/EtcImage.cpp
+@@/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_RGB8A1.cpp
+@A/data/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_RG11.cpp
 @[A\A]A^A_]
-@[A\A]A^]
 @[A\]
+@[]A\
+@tB[A\]
 A!;I2
-A+D$$9
+A+D$$
 A+D$$H
+A+D$$f
+A+E$A
 A+E$H
-A+E$f
-A+F$H
+A+G$D
 A+G$H
-A+G$Lc
-A+H A+
-A+L$$Hc
-A+N$Hc
-A+T$$Hc
-A+U$A
-A+U$Hc
-A+U$f
-A+V$Hc
-A+W$Hc
-A+W$f
+A+G$I
+A+L$$H
+A+T$$
+A+T$$)
+A+\$$H
+A+^$H
+A+_$H
 A+_$Hc
-A+u$Hc
-A9G }
-A9W8L
-A9^\~*A
-A9_@~8L
-A;G A
-A;GL}G
-A;L$ 
-A;L$8
-A;\$ A
+A+t$$H
+A+t$$Hc
+A94	H
+A9GL~O
+A9|$8
+A;N<u
 A;\$0t
+A;](|
+A;_@|
+A;_@}4L
+A;_p|
 A<9w+
 A<9w>
 ALIGN_TYPE is wrong, please fix
+APAUPARPD
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+ASARAQWV
 ASCII conversion buffer too small
 ATI1N
 ATI2N
 ATI_DST16
 ATI_DST24
-ATSHc
-ATStKL
-ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
+ATSt$@
 ATUSH
+AUAT1
 AUATA
-AUATD
+AUATE
 AUATE1
 AUATI
 AUATL
+AUATLc
 AUATM
 AUATS
-AUATS1
-AUATSD
 AUATSH
-AUATSI
 AUATSL
-AUATSf
-AUATStII
-AUATStmH
+AUATSLc'E)
+AUATSLc/E)
+AUATU
+AUATU1
+AUATUH
 AUATUS
 AUATUSD
 AUATUSH
 AUATUSv
-AVATI
-AVATSH
 AVAUA
 AVAUATA
-AVAUATE1
+AVAUATE
 AVAUATI
 AVAUATL
-AVAUATM
 AVAUATS
-AVAUATSD
 AVAUATSH
+AVAUATSHc
 AVAUATSL
+AVAUATStSH;v0tZLcv(J
+AVAUATS~
 AVAUATUH
+AVAUATUS
 AVAUATUSD
 AVAUATUSH
 AVAUATUSL
@@ -519,46 +490,49 @@ AVAUM
 AWAVA
 AWAVAUA
 AWAVAUATA
-AWAVAUATE1
+AWAVAUATH
 AWAVAUATI
 AWAVAUATL
-AWAVAUATM
+AWAVAUATLc
 AWAVAUATS
+AWAVAUATS1
 AWAVAUATSD
 AWAVAUATSH
 AWAVAUATSL
-AWAVAUATSLc
-AWAVAUATSf
+AWAVAUATSRH
+AWAVAUATU
 AWAVAUATUH
 AWAVAUATUSH
-AWAVAUE
+AWAVAUE1
 AWAVAUI
 AWAVAUL
+AWAVAULc
 AWAVAUM
-AWAVD
-AWAVE
-AWAVE1
 AWAVH
 AWAVI
-AWAVIc
 AWAVL
 AWAVLc
 AWAVM
+A\A]A
+A\A]A^
 A\A]A^A_
 A\A]A^A_]
-A\A]A^A_]A
+A\A]A^D
+A\A]A^I
 A\A]A^]
 A\A]]
-A]A^]
+A]A^A_]
+A]A^A_]H
+A^A_]
 AddRef
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 Align
 AllocInternal
-AllocTextureSlot
 Allocate
 AllocateAndCopy
 AllocateAndUploadSequenceData
 AllocateResource
+Allow immediately loading mips of textures (when possible) when their headers are loaded, saving IO & reducing latency.
 AnimGraphEditorUtils001
 AnimationSystemUtils_001
 AnimationSystem_001
@@ -572,12 +546,11 @@ AssetBrowserSystem_001
 AssetPreviewSystem_001
 AssetSystem001
 AssetSystemTest001
+AsyncHookUpTextureBits
 At marker 0x%02x, recovery action %d
 Attempt to set buffer size beyond max ignored
-B IcU0
 B channel not found
-B channel not found in %s
-BA?8gV?
+B channel not found!
 BGR565
 BGR888_BLUESCREEN
 BGRA1010102
@@ -593,6 +566,7 @@ Bad expression syntax: '%s', expected a single matching pair of enclosing braces
 Bad expression token: %c
 BakedLODBuilderMgr001
 BenchmarkService001
+BhIcT$8H
 Biases the mip level the texture streaming system choses to stream for each texture.
 BinaryProperties_GetValue
 Bogus DAC index %d
@@ -609,16 +583,12 @@ Bogus sampling factors
 Bogus virtual array access
 Buffer error in compressed datastream in %s chunk
 Buffer passed to JPEG library is too small
-C"fE9
-C$[A\]
-C([A\A]A^]
+C ASH
+C w,9E
 C*w*<
 C,;C0
-C,[A\A]]
-C,[A\]
-C89C\
 C@;CP
-C@H;CHs
+C@HcE
 CB: %u buffers, %.2f MB
 CBaseIntrospectedTypeManager:  Bindings don't match.
 CBaseIntrospectedTypeManager:  Missing TYPEMETA MDiskDataForResourceType
@@ -626,16 +596,16 @@ CCIR601 sampling not implemented yet
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommandBufferChunk CUtlMemoryPoolMT
+CEntityIndex
 CHD)cP
 CJobH
 CLargeCommandBufferChunk CUtlMemoryPoolMT
+CLx8H
 CMediumCommandBufferChunk CUtlMemoryPoolMT
 CMemAllocSystemInitialize
-CMemoryStack %s
 COLORCORRECTION_VERSION_1
 CONTENT
 CONTENTROOT
-CPtRHcS$H
 CRC error
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s
 CRenderDeviceBase::InitPerFrameMemoryStack
@@ -643,9 +613,10 @@ CResourceArray
 CResourcePointer
 CResourceStreamFixed: trying to write past the end of allocated memory (new commit %u, allocated %u)
 CResourceString
-CSOAContainer::SetAttributeType - ERROR, trying to change type of previously-defined attribute %d!
 CTSQueue corruption
-CT[A\]
+CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.
+CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.
+CTransform
 CUBEMAP_FACE_NEGATIVE_X
 CUBEMAP_FACE_NEGATIVE_Y
 CUBEMAP_FACE_NEGATIVE_Z
@@ -660,38 +631,43 @@ CUtlLinkedList overflow! (exhausted memory allocator)
 CUtlMemoryPoolBase
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
-CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer
+CUtlString
+CUtlStringToken
+CUtlSymbol
+CUtlSymbolLarge
 CUtlVector
 CXXABI_1.3
-C`v+H
-C`v8f.
-C`v9f.
+CXXABI_1.3.3
+CXXABI_1.3.8
 Call to NULL read function
 Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request
 Can't detect memory size on this platform!
 Can't discard critical data on CRC error
 Can't set both read_data_fn and write_data_fn in the same structure
 Cannot allocate virtual address space in CResourceStreamVM::ReserveVirtualMemory, error %u
+Cannot copy abstract class
+Cannot deduce for class
 Cannot quantize more than %d color components
 Cannot quantize to fewer than %d colors
 Cannot quantize to more than %d colors
 Cannot reconstruct lineOffset table.
 Cannot transcode due to multiple use of quantization table %d
 Caution: quantization tables are too coarse for baseline JPEG
-ChangeSize
+ChangeCallbackOnChange
+ChangeCallbackOnChangeOrCreate
+Cht7Lc{pD;
 Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore
-Clibpng warning: %s
 Closed temporary file %s
 CommandLine
 Commit
 Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
+Compressed texture bits for %s (mip %i) are corrupt, decompression error!
 Compressed texture decoded in %.2f ms
 ConVar(%s) defined with infinite float value (%s)
 ConVarRef %s doesn't point to an existing ConVar
 Conditional Error: %s
 ConfigurationSystem_001
 ConnectInterfaces
-ConvertGammaToLinear
 ConvertJpegToRGB
 ConvertRGBToRGBAImage
 CopyAttrFrom
@@ -704,72 +680,77 @@ Corrupt JPEG data: bad Huffman code
 Corrupt JPEG data: bad arithmetic code
 Corrupt JPEG data: found marker 0x%02x instead of RST%d
 Corrupt JPEG data: premature end of data segment
+CqtFD
 CreateInterface
 CubeMapFace_t
-D$ H9
+D$ E1
 D$ H9D$
+D$ H9E
 D$$-x
 D$(-Hq
 D$(H9D$
+D$(fH
+D$(t7H
+D$,9D$
+D$0;D$(
 D$0H9
+D$0I9
+D$89D$D
+D$89D$H
+D$8;D$,
 D$8D+|$8+D$ 
-D$8E1
 D$8I9
-D$8L9
 D$@E1
 D$@H9
 D$@I9
-D$@L9
-D$@Lc
+D$@f.
 D$D[A\]
-D$HfA
-D$\M9
-D$l[A\]
-D$|Hi
-D)c L
-D+C$Mc
-D+F L
-D+^@+
-D+c$Mc
-D+g$E
-D+k$E
-D+k$Mc
-D+s$Mc
+D$P;D$H
+D$PH9
+D$X;D$L
+D$\A9
+D$`9D$X
+D)c H
+D)d$DL
+D)k L
+D)l$HL
 D15S1
 D16_SHADOW
 D24FS8
 D24X4S4
 D24X8
 D24X8_SHADOW
-D9F<~
 D9L$0A
 D9L$0~VM
+D9W<~
+D9l$(
+D9o8~
+D9t$HfE
+D9{8D
 D9|$ 
-D:z	t
-D:z	tUHc
-D;!t{Hc
 D;c D
-D;kdw
+D;kdXZw
 D;l$(
 D;l$0
-D;{8D
-DATAH
+D;t$0
+D;x<s
+DATAI
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
-DXT1DXT3DXT5
 DXT1_ONEBITALPHA
-DXT5"
 DXT5_NM
 Data error in compressed datastream in %s chunk
 Deallocate
 DebugTextureInfo001
+Decompressed %i texture mips in %.2f ms (%.1fmb/s)
 Decompression Error
 Decompression error
 Define Arithmetic Table 0x%02x: 0x%02x
 Define Huffman Table 0x%02x
 Define Quantization Table %d  precision %d
 Define Restart Interval %u
-Deleting texture with outstanding streaming request
+DegreeEuler
+Deleting texture with outstanding streaming request (%s)
 DevMsg
 Didn't expect more than one scan
 Direct3D 11
@@ -791,36 +772,16 @@ Duplicate sCAL chunk
 Duplicate sRGB chunk
 Duplicate tIME chunk
 Duplicate tRNS chunk
-E(9E 
-E)O(A
 E)rTA
-E)t$ M
-E+D$$Mc
-E+E$Mc
-E+F$Mc
-E+G$Mc
-E+L$$Mc
-E+M$Mc
-E+O$Mc
-E+e$Mc
-E+f$Mc
-E+g$Mc
-E+l$@t
-E+}$Mc
-E,?l|
-E09E(
+E+E$H
+E+l$$H
+E90teI
+E9\$8
 E9gPI
 E9l$8
-E9l$\
-E9t$8H
-E9t$\
-E;D$$
-E;\$8
-E;n\|
-E;t$ M
-E;t$ t!I
-E;}<L
-EPHcM0H
+E9o8H
+E9|$8
+E@[A\A]A^]
 ERROR: CAtomicManipulator::Allocate() Cannot allocate CResourceArray
 ERROR: CAtomicManipulator::AllocateAndCopy() Cannot allocate CResourceArray
 ERROR: CAtomicManipulator::Copy() Cannot copy CResourceArray(FIXME: maybe you can?)
@@ -829,16 +790,15 @@ ERROR: Problem allocating permanent data for resource in file '%s'. See above fo
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
 ERROR: Specified full path %s does not lie under the mod search path!)
 ERROR: Specified path %s could not be made content-relative
-EXA;]`
 EXECUTABLE_PATH
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EXRHeader is not initialized.
 EXRReadFile() - B channel not found!
 EXRReadFile() - G channel not found!
 EXRReadFile() - R channel not found!
+E`9C$u
 EarlyInit_Tier0
 EconItemToolModel_001
-EhHcS8H
 Empty
 Empty Driver
 Empty JPEG image (DNL not supported)
@@ -847,33 +807,44 @@ End Of Image
 EngineServiceMgr001
 EnvironmentMapBuilder_001
 Error loading resource "%s" (Invalid resource version: %d != %d)
+Etc.cpp
+Etc::DifferentialTrys::DifferentialTrys(Etc::ColorFloatRGBA, Etc::ColorFloatRGBA, const unsigned int*, const unsigned int*, unsigned int, int, int)
+Etc::Image::EncodingStatus Etc::Image::Encode(Etc::Image::Format, Etc::ErrorMetric, float, unsigned int, unsigned int)
+Etc::Image::Image(Etc::Image::Format, unsigned int, unsigned int, unsigned char*, unsigned int, Etc::Image*, Etc::ErrorMetric)
+Etc::Image::Image(float*, unsigned int, unsigned int, Etc::ErrorMetric)
+Etc::IndividualTrys::IndividualTrys(Etc::ColorFloatRGBA, Etc::ColorFloatRGBA, const unsigned int*, const unsigned int*, unsigned int)
+EtcBlock4x4.cpp
+EtcBlock4x4Encoding.cpp
+EtcBlock4x4Encoding_ETC1.cpp
+EtcBlock4x4Encoding_R11.cpp
+EtcBlock4x4Encoding_RG11.cpp
+EtcBlock4x4Encoding_RGB8.cpp
+EtcBlock4x4Encoding_RGB8A1.cpp
+EtcBlock4x4Encoding_RGBA8.cpp
+EtcDifferentialTrys.cpp
+EtcFilter.cpp
+EtcImage.cpp
+EtcIndividualTrys.cpp
+EtcMath.cpp
+EtcSortedBlockList.cpp
 EventSystem001
 Evict all resident texture.
 Exceeded size limit while expanding chunk
-ExitAndReportBadThirdPartyProcesses
 Extra compressed data
 Extra compression data
 F	@t&
-F 9G tq
-F Hcu
-F49C`
-F@I;FHs
-F@[A\A]A^]
+F t2SH
+F t5SH
+FATAL ERROR: unable to register all schema data: %s
 FCVAR_NEVER_AS_STRING
-FW,H;E
-F`v1I
-F`v5f
 Failed to call CBaseIntrospectedTypeManager::Init
 Failed to call CBaseIntrospectedTypeManager::SetDiskDataBinding
 Failed to create device. Modules loaded: %s
 Failed to create temporary file %s
 Failed to fix resource reference '%s' (%s)- ID = %016llX, Expected in extref block.'
-Failed to map from %s to content-path
-Failed to map from %s to game-path
 Failed to parse channel info.
 Failed to save video settings config to '%s'
 Failed trying to Commit %u bytes, used %u bytes, reserved %u bytes
-File has not been opened!
 FileKeys
 FillAttr
 FilterFrom
@@ -883,19 +854,11 @@ FindOrCreateTexture: Cannot load multiple mipmaps into cubemap texture: %s
 FindOrCreateTexture: Only dynamic textures can have non-global scope!
 FindOrCreateTexture: Texture scope is unspecified!
 FindOrCreateTexture: Texture usage is unspecified!
+Finished %d Blocks out of %d
 FixupResourceName: Illegal full path passed in ("%s")!
 FixupResourceName: Illegal path, missing extension passed in ("%s")!
-FlattenedSerializersControlVersion001
 FlattenedSerializersVersion001
-FloatBitMap::DownsampleNiceFiltered
 FloatBitMap::QuarterSize
-FloatBitMap::QuarterSizeBlocky
-FloatBitMap_t: Error loading %s
-FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!
-FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!
-FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!
-FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!
-FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 FormatV
@@ -903,44 +866,33 @@ Found %d streaming textures in array, but in-flight count is %d
 Fractional sampling not implemented yet
 Freed EMS handle %u
 Freed XMS handle %u
-From Class Binding
-From Enum Binding
-G	tEH
-G A9G
+G A9E
 G I+G
+G U9G
 G channel not found
-G channel not found in %s
-G u)H
-G$+GX;G,@
-G8I;G@
-G8I;G@r
-G<@t	]
-G<@t L
-G<@t#f
-G<@t$
-G<@t+]H
-G<@t1H
-G<@t:
-G<@tLL
-G<@tUI
-G<@ta
-G<@th
-G<@tp
+G channel not found!
+G8t+H
+G<@teI
+G<@t~
+G@twH
 GAMECONSOLE
-GAMEROOT
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (crosstool-NG 1.17.0) 4.6.3
 GLIBCXX_3.4
 GLIBCXX_3.4.11
+GLIBCXX_3.4.14
+GLIBCXX_3.4.15
+GLIBCXX_3.4.19
+GLIBCXX_3.4.20
 GLIBCXX_3.4.9
 GLIBC_2.11
 GLIBC_2.14
 GLIBC_2.2.5
+GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.4
 GPU reports %dMB available memory which is too low, using %d MB
-GT[A\]
-G`9C$u
 GameResourceServiceClientV001
 GameResourceServiceServerV001
 GameUIService_001
@@ -950,63 +902,48 @@ GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
 GetCPUInformation
 GetResourceManifestCount
 GetResourceManifests
+Gn,lw
 Graphics Device changed, resetting video config
 H	p(]
 H	w(UH
 H!w(H
-H+C D
+H+L$HH
 H+S H
-H0~sUA
-H9*tgH
-H97trH
-H9W8t	]
-H;B(uLL
-H;C r
-H;CHs
-H;S@w
-H;v0I
+H0~rU
+H9W8t
+H9l$(u
+H;*twH
+H;I0u
+H;QHtHH9QPu
 H;v0t
 H;v0t!
 H;v8t
-H=vpcf
-HH97tbH
+H;v8u
+H=vtexu
 HIGHDPI
-HRenderTexture
 H[A\A]A^A_]
+H[A\A]L)
 H[A\A]]
+H[A\L)
 H[]A\A]A^A_
-H`+r@E)
 HammerMapLoader001
-Hc8Hi
-Hc@(H
 Hc@pH
-HcC$9
-HcC$H
-HcC8H
-HcC@H
-HcCdD
-HcCdE)
-HcChI)
+HcCxH
+HcD$pH
 HcE H
-HcE Hc
 HcE0H
 HcE8H
-HcE8Lc}
-HcKPHc
-HcKPIc
-HcKhIc
+HcE8L
 HcL$pHcT$
-HcM Lc}
-HcR,H
-HcS$H
+HcM L
+HcM0H
+HcN<Hc
+HcS$D
 HcSPH
-HcSxH
-HcSxL
-HcSxM
 HcT$x
-HcU E1
-HcWPH
-Hcs8I
+HcW$H
+Hc_@;_Pt0I
+Hc_X;_ht0I
 Hc~@H
 HelpSystem_001
 HookUpConfigValue
@@ -1014,8 +951,6 @@ HookUpTextureBits
 HostStateMgr001
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
-I;G(t1H
-I;V@w
 IB: %d buffers, %.2f MB
 INPUT_LAYOUT_VARIATION_DEFAULT
 INPUT_LAYOUT_VARIATION_MAX
@@ -1023,22 +958,19 @@ INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
 INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_LIGHTMAP_PARAMS
 INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
 INPUT_LAYOUT_VARIATION_STREAM1_MAT3X4
-INTZRAWZDF16DF24ATI2ATI1
 IQuickTime001
-Ic7McO
-Ic@xE
-IcD$PH)
-IcD$dE)
-IcD$hI)
-IcE$H
-IcG(H
+Ic4$McL$
+IcAxI
+IcD$4HcJ
+IcL$ L
+IcL$PIc
+IcL$hIc
 IcT$ 
-IcT$8
-IcT$8H
+IcT$ 1
 IcW(H
+IcW8H
 Ic\$(A;\$8
-Ic]PI
-Icu`H
+Ic\$4H
 Ignoring PLTE chunk in grayscale PNG
 Ignoring attempt to set cHRM RGB triangle with zero area
 Ignoring attempt to set negative chromaticity value
@@ -1102,7 +1034,6 @@ Invalid JPEG file structure: missing SOS marker
 Invalid JPEG file structure: two SOF markers
 Invalid JPEG file structure: two SOI markers
 Invalid PLTE after IDAT
-Invalid Path
 Invalid SOS parameters for sequential JPEG
 Invalid argument.
 Invalid attempt to read row data
@@ -1166,14 +1097,11 @@ JFIF extension marker: type 0x%02x, length %u
 JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
-JP[A\A]A^A_]
-JT;H0s
-JT;H@s
-Jc<(H
-K$+KX;K,
-K,[A\]
+JSON error, unterminated element: 
+K(XZD9
 K@H9J
 KMeansQuantization
+KTu6L
 KV Conditional Evaluation Error
 KeyValueCache001
 KeyValues Error: %s in file %s
@@ -1181,14 +1109,15 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
-L$ Lc
+L$ H9
 L$49L$ 
-L$HfA
-L+g H
-L9(t$
+L$\Hc
 L9,$Mc
-L9BHt`L;BPu
-L9cHv
+L9UHu
+L9x`ti
+L;0t%
+L;k(H
+L;l$ 
 LE_BGRA8888
 LE_BGRX8888
 LINEAR_ABGR8888
@@ -1205,26 +1134,50 @@ LINEAR_RGBA8888
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
+LZ4_compress
+LZ4_compressBound
+LZ4_compress_continue
+LZ4_compress_default
+LZ4_compress_destSize
+LZ4_compress_fast
+LZ4_compress_fast_continue
+LZ4_compress_fast_extState
+LZ4_compress_limitedOutput
+LZ4_compress_limitedOutput_continue
+LZ4_compress_limitedOutput_withState
+LZ4_compress_withState
+LZ4_create
+LZ4_createStream
+LZ4_createStreamDecode
+LZ4_decoderRingBufferSize
+LZ4_decompress_fast
+LZ4_decompress_fast_continue
+LZ4_decompress_fast_usingDict
+LZ4_decompress_fast_withPrefix64k
+LZ4_decompress_safe
+LZ4_decompress_safe_continue
+LZ4_decompress_safe_partial
+LZ4_decompress_safe_usingDict
+LZ4_decompress_safe_withPrefix64k
+LZ4_freeStream
+LZ4_freeStreamDecode
+LZ4_loadDict
+LZ4_resetStream
+LZ4_resetStreamState
+LZ4_saveDict
+LZ4_setStreamDecode
+LZ4_sizeofState
+LZ4_sizeofStreamState
+LZ4_slideInputBuffer
+LZ4_uncompress
+LZ4_uncompress_unknownOutputSize
+LZ4_versionNumber
+LZ4_versionString
 Lc#D;c
-Lc+D;k
-Lc.D;n
-Lc/E)
-Lc6E9
-Lc7E)
-LcV<Hc
-Lc[PD
-Lc[`E)
-Lc`4I
-Lcc D;c0t<D
-Lcc4J
-Lcg@D;gPt/H
-LcgXD;ght/H
-Lck(N
-Lcp4M
-Lcv4E
-Lc{pD;
+Lc&D;f
+Lc'E)
+Lc~(N
 Linear
-LoadEXRImageFromMemory( %s ) failed! Error message: %s
 LoadEXRImageFromMemory() failed! Error message: %s
 LoadFromBuffer: expected '{', found '%s'
 Loaded video settings config from '%s'
@@ -1233,19 +1186,27 @@ LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
-M0;9~
+M<~,I
 MATCHFRAMEWORK_001
 MAX_ALLOC_CHUNK is wrong, please fix
 MDiskDataForResourceType
-MDmElementType
-MIB8t
 MNG features are not allowed in a PNG datastream
 MN_BuildRequestedResourcesList
+MN_OnResourceFileLoaded
 MN_OnResourceLoadCompleted
 MN_OnResourceLoadFailed
+MNetworkBitCount
+MNetworkChangeCallback
+MNetworkEncoder
+MNetworkOverride_Invalid
+MNetworkPriority
+MNetworkRemoveAll
+MNetworkSerializer
+MNetworkUserGroup
 MNoScatter
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
+MP[A\A]A^A_]
 MResourceTypeForInfoType
 MResourceVersion
 Malformed iCCP chunk
@@ -1256,16 +1217,6 @@ MaterialUtils_001
 MathLib_Init
 MaxDeviceID
 Maximum supported image dimension is %u pixels
-MbP?+
-Mc'E;g
-Mc.E;n
-Mc/E;o
-McD$<B
-McH<B
-McgXO
-McnPH
-Mct$(E;t$8
-Mc|$P
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 Memory allocation failed while processing sCAL
@@ -1298,18 +1249,50 @@ Missing PLTE before cHRM
 Missing PLTE before hIST
 Missing PLTE before tRNS
 ModelDocUtils001
-N [A\A]A^A_]
-N14MDmElementType45CValueSearchTester_ClassIntrospectionHandle_tE
+N24CFieldPathHuffmanEncoder12InternalNodeE
+N24CFieldPathHuffmanEncoder8LeafNodeE
 N24MDiskDataForResourceType45CValueSearchTester_ClassIntrospectionHandle_tE
-N9,8u
-NTROL
+N3Etc16Block4x4EncodingE
+N3Etc20Block4x4Encoding_R11E
+N3Etc21Block4x4Encoding_ETC1E
+N3Etc21Block4x4Encoding_RG11E
+N3Etc21Block4x4Encoding_RGB8E
+N3Etc22Block4x4Encoding_RGBA8E
+N3Etc23Block4x4Encoding_RGB8A1E
+N3Etc29Block4x4Encoding_RGBA8_OpaqueE
+N3Etc30Block4x4Encoding_RGB8A1_OpaqueE
+N3Etc34Block4x4Encoding_RGBA8_TransparentE
+N3Etc35Block4x4Encoding_RGB8A1_TransparentE
+NETWORK_FIELD_CHANGED_ARRAY_WITH_VALUE
+NETWORK_FIELD_CHANGED_NO_VALUE
+NETWORK_FIELD_CHANGED_NO_VALUE_NO_CONTEXT
+NETWORK_FIELD_CHANGED_TYPE_NONE
+NETWORK_FIELD_CHANGED_WITH_VALUE
+NETWORK_FIELD_CHANGES_OFTEN_PRIORITY
+NETWORK_FIELD_CHANGES_OFTEN_PRIORITY_TOPOOGICAL
+NETWORK_FIELD_CHANGES_OFTEN_PRIORITY_TOPOOGICAL_SORTLOWER
+NETWORK_FIELD_DEFAULT_PRIORITY
+NETWORK_FIELD_HIGHEST_PRIORITY
+NETWORK_FIELD_LOWEST_PRIORITY
+NSt13__future_base12_Task_setterISt10unique_ptrINS_7_ResultIjEENS_12_Result_base8_DeleterEEjEE
+NSt13__future_base12_Task_setterISt10unique_ptrINS_7_ResultIvEENS_12_Result_base8_DeleterEEvEE
+NSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjEE
+NSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvEE
+NSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjEE
+NSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvEE
+NSt13__future_base19_Async_state_commonE
+NSt13__future_base7_ResultIjEE
+NSt13__future_base7_ResultIvEE
+NSt6thread10_Impl_baseE
+NSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS6_jijEEjEC1EOSC_EUlvE_vEEEE
+NSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS6_ijEEvEC1EOSC_EUlvE_vEEEE
+NT$x9l$d
 NULL row buffer for row %ld, pass %d
 NV_DST16
 NV_DST24
 NV_INTZ
 NV_NULL
 NV_RAWZ
-N\v/I
 Negative or zero gamma ignored
 NetworkClientService_001
 NetworkMessagesVersion001
@@ -1330,11 +1313,6 @@ No space in chunk cache for sPLT
 No space in chunk cache for tEXt
 No space in chunk cache for unknown chunk
 No space in chunk cache for zTXt
-Non-windows platforms don't support loading of JPG images
-Non-windows platforms don't support loading of PNG images
-Non-windows platforms don't support loading of TIFF images
-Normalize3ComponentVectorInAttributes
-Normalized3x3SobelEdgeFilterFrom
 Not a JPEG file: starts with 0x%02x 0x%02x
 Not a PNG file
 Not enough image data
@@ -1343,18 +1321,10 @@ Not enough memory to process iTXt chunk
 Not enough memory to process text chunk
 Not enough memory to process zTXt chunk
 Not implemented yet
-O tiH
-O tlH
-O0~_G
-O?_Y@?R
-ORENDER_MULTISAMPLE_INVALID
 OUTSTANDING_HOOKUP_REQUEST 
-O`D+w@D)
 Obtained EMS handle %u
 Obtained XMS handle %u
-Only BC6H compression not supported on this target (windows only).
-Only BC7 compression not supported on this target (windows only).
-Only DXT1/DXT5 online texture compression supported.
+Only immediately load textures which have a fullmipchain.
 OpenGL
 Opened temporary file %s
 Ordered constructor wrapped type has no default constructor.
@@ -1370,22 +1340,22 @@ Out of place sRGB chunk
 Out of place tIME chunk
 Output file write error --- out of disk space?
 Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!
-Overflow of the sheet cache texture: Try increasing SHEETCACHE_TEXTURE_HEIGHT (current value %d)!
-PARALLEL_PROCESS utlsoacontainer.cpp:2528
+Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!
+P8H=vtex
+P8H=vtext
 PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.
 PNG file corrupted by ASCII conversion
 PNG load error %s
 PNG unsigned integer out of range
 POSIX
-P[A\A]A^A_]
+PSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS2_jijEE
+PSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS2_ijEE
 P[A\A]A^]
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
-ParseEXRHeaderFromMemory( %s ) failed! Error message: %s
 ParseEXRHeaderFromMemory() failed! Error message: %s
-ParticleSystemMgr002
-Path Overflow, must be less than 260 characters.
+ParticleSystemMgr003
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
 Plat_DebugPrint
@@ -1409,32 +1379,32 @@ Plat_MessageBox
 Plat_NeedsLowFragmentation
 Plat_OsSpecificHandleToPlatWindow
 Plat_ReconfigureWindow
-Plat_RelativeTicks
 Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_VirtualAlloc
 Plat_VirtualFree
 Plat_WindowToOsSpecificHandle
 PostProcessingSystem_001
 Potential overflow in png_zalloc()
+PreloadTextureBits
 Premature end of JPEG file
 Premature end of input file
 Profile size field missing from iCCP chunk
 PropertyEditorSystem_001
-Pt:E1
-QkkXa
-Qu?GS
+QAngle
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
 QuarterSizeAttrWithBoxFilter
+Quaternion
 QueuedLoaderVersion001
 R channel not found
-R channel not found in %s
+R channel not found!
+R11_EAC
 R16F_EXPAND
 R32_UINT
-R8H=vtext
-R8Y[]
-RAUATL
+R8G8B8A8_ETC2_EAC
+R8G8B8_ETC2
+R@X[]
 RENDER_BUFFER_APPEND_CONSUME_BUFFER
 RENDER_BUFFER_BYTEADDRESS_BUFFER
 RENDER_BUFFER_STRUCTURED_BUFFER
@@ -1448,6 +1418,7 @@ RENDER_MULTISAMPLE_2X
 RENDER_MULTISAMPLE_4X
 RENDER_MULTISAMPLE_6X
 RENDER_MULTISAMPLE_8X
+RENDER_MULTISAMPLE_INVALID
 RENDER_MULTISAMPLE_NONE
 RENDER_MULTISAMPLE_TYPE_COUNT
 RENDER_PRIM_10_CONTROL_POINT_PATCHLIST
@@ -1498,7 +1469,9 @@ RENDER_PRIM_TYPE_COUNT
 RENDER_SLOT_INVALID
 RENDER_SLOT_PER_INSTANCE
 RENDER_SLOT_PER_VERTEX
+RERLH
 RESOURCE_TYPE_TEXTURE
+RG11_EAC
 RG1616
 RG1616F
 RG1616F_EXPAND
@@ -1519,6 +1492,9 @@ RGBA8888_LINEAR
 RGBX555
 RGBX8888
 RST%d
+RT;P0s
+RT;P@s
+RadianEuler
 RandomFloat
 RandomSeed
 Read Error
@@ -1531,8 +1507,11 @@ RecursiveLoadFromBuffer:  got conditional between key and value
 RecursiveLoadFromBuffer:  got empty keyname
 RecursiveLoadFromBuffer:  got } in key
 RecursiveLoadFromBuffer:  recursion overflow
+RegisterAllModuleData
 RegisterConfigValue: Unknown error constructing config value "%s"!
 Release
+RemoveTextureFromAnyQueues
+Removed texture chunk %i, chunk count => %i
 Render Device Empty
 RenderBufferFlags_t
 RenderDevice003
@@ -1548,21 +1527,22 @@ RenderSystem/AllowSampleableDepthInVr
 RenderSystem/AlwaysPreloadTexturesInGame
 RenderSystemSurface001
 RenderUtils_001
+Rendersystem/SheetCacheTextureRows
+ReportClassError
 Requested feature was omitted at compile time
-ReserveVirtualMemory
 Resource 
 ResourceCompilerSystem001
 ResourceFile: %d/%d @%p align %u
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
+ReturnJobManualEventToPool
 Row has too many bytes to allocate in memory
-S +K$M
-S4E+e D9
-S8[A\A]A^]
-S@H;SHs
-SPB8t
-SPB8t)H
+SIGNED_R11
+SIGNED_RG11
+SRGB8
+SRGB8A1
+SRGBA8
 SSE and SSE2 are required.
 Sampling factors too large for interleaved scan
 Saved video settings config to '%s'
@@ -1573,19 +1553,16 @@ SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
 Screen Gamma (only in fullscreen modes)
-Sd)C`H
 Seek failed on temporary file
 Selected %d colors for quantization
 SequenceFloatParam_t
 SerializedEntitiesVersion001
 SeriousWarning
 ServerUploadGameStats001
-SetAssociatedThreadIndex
 SheetFrameImage_t
 SheetSequenceFrame_t
 SheetSequence_t
 Sheet_t
-Sht7Lc{pD;
 Smoothing not supported with nonstandard sampling ratios
 SoundOpSystem001
 SoundOpSystemEdit001
@@ -1603,6 +1580,17 @@ Source2GameEntities001
 Source2Host001
 Source2Server001
 Source2ServerSerializers002
+St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+St12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS2_jijEE
+St12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS2_ijEE
+St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+St19_Sp_make_shared_tag
+St23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE
 Start Of Frame 0x%02x: width=%u, height=%u, components=%d
 Start Of Scan: %d components
 Start of Image
@@ -1614,22 +1602,27 @@ T$ D)
 T$0H9
 T$0t}H
 T$4D;d$4
-T$8H)
-T$GH)
-T$HfA
-T$`Hc
+T$4E+n A9
 TEX: %u textures, %.2f MB
+TEXMAN: %s %s
 TEXMAN: %s MarkTextureBitsLoaded (%s)
+TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)
+TEXMAN: Abandoning job in %s
+TEXMAN: Abandoning streaming request in %s
+TEXMAN: Added hookup job for %s
+TEXMAN: Adding %s, %llx to abandoned hookup jobs
+TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)
 TEXMAN: Deleting %d textures
 TEXMAN: Outstanding stream count %d -> %d (%s)
+TEXMAN: Posting resource load complete msg.
 TOTAL: %.2f MB
-TRPGH
-TS Hc
+TRPGI
 TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
 TSPEC_CUBE_TEXTURE
 TSPEC_FLAGS
 TSPEC_INPUT_ATTACHMENT
 TSPEC_LINEAR_ADDRESSING_360
+TSPEC_LINEAR_COLOR_SPACE
 TSPEC_LINE_TEXTURE_360
 TSPEC_NO_LOD
 TSPEC_RENDER_TARGET
@@ -1645,6 +1638,11 @@ TSPEC_UNFILTERABLE_OK
 TSPEC_USE_TYPED_IMAGEFORMAT
 TSPEC_VERTEX_TEXTURE
 TSPEC_VOLUME_TEXTURE
+TestFormatA
+TestFormatB
+TestFormatC
+TestFormatD
+TestFormatE
 TestScriptMgr001
 TextLayout_001
 TextMessageMgr_001
@@ -1654,7 +1652,6 @@ Texture streaming validation OK (%d texture loads in flight).
 TextureDesc_t
 TextureHeader_t
 TextureSpecificationFlags_t
-The filename may only contain lower case alphanumeric characters and underscores.
 ThreadGetCurrentId
 ThreadMultiWait
 ThreadSleep
@@ -1676,20 +1673,18 @@ Truncating incorrect tRNS chunk length
 Trying to set dxlevel (%d) which is higher than the card can support (%d)!
 Trying to set dxlevel (%d) which is lower than the card can support (%d)!
 TypeManager
-U?y$L?
 UNKNOWN
 UStAH
 UVLX8888
 UVWQ8888
-UhLcE
 Unable to read file %s
 Unable to stream in resource file "%s" (Error: %s)
 Unexpected marker 0x%02x
 Unexpected resource version '%d' for '%s'
+Unknown
 Unknown APP0 marker (not JFIF), length %u
 Unknown APP14 marker (not Adobe), length %u
 Unknown Adobe color transform code %d
-Unknown Path Class
 Unknown compression method in IHDR
 Unknown compression type in zTXt chunk
 Unknown compression type.
@@ -1708,7 +1703,6 @@ Unsupported color conversion request
 Unsupported marker type 0x%02x
 Upper limit on texture pool size.
 UserInfoChangeService_001
-V@I;VHs
 VApplication001
 VAvi001
 VB: %d buffers, %.2f MB
@@ -1717,10 +1711,8 @@ VBaseFileSystem011
 VBik001
 VConComm001
 VDebugService_001
-VDmeMakeFileUtils001
 VEngineCvar007
 VFileSystem017
-VGAME
 VGUI_Input005
 VGUI_Panel010
 VGUI_Scheme010
@@ -1729,6 +1721,7 @@ VGUI_System010
 VGUI_ivgui008
 VMDLLIB001
 VMaterialSystem2_001
+VMatrix
 VMediaFoundation001
 VNewAsyncFileSystem001
 VP4003
@@ -1739,11 +1732,13 @@ VProcessUtils002
 VProfService_001
 VR_001
 VRenderDeviceSetupV001
+VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
-VUUUA
+VUUUAVI
 VUUUD
+VUUUH
 V_CopyMemory3D
 V_FixDoubleSlashes
 V_FixSlashes
@@ -1765,6 +1760,7 @@ V_asinf
 V_atan2f
 V_atanf
 V_atof
+V_atofloat64
 V_atoi
 V_cosf
 V_expf
@@ -1787,6 +1783,7 @@ V_strnchr
 V_strnlen
 V_strtod
 V_strtoi64
+V_strtok
 V_strtoui64
 V_strupper_fast
 V_swscanf
@@ -1798,12 +1795,9 @@ V_vsnprintfSize
 V_wcstod
 V_wcstoi64
 VaPrintf
-Valid Content Absolute Path
-Valid External Path
-Valid Game Absolute Path
-Valid Relative Path
 Vector2D
 Vector4D
+VectorAligned
 VendorID
 Video Card %s (%04x : %04x)
 Virtual array controller messed up
@@ -1811,8 +1805,8 @@ VisBuilder_001
 VsInputSignatureElement_t
 VsInputSignature_t
 Vulkan
-W0Hc_8A
-W=u0	
+W [A\A]A^A_]
+W u)H
 WAITING_FOR_HOOKUP_JOB 
 WAITING_FOR_IO 
 WARNING: Could not find schema data for helper class for resource type %lld '%s'. (Missing MDiskDataForResourceType metadata or schema data isn't loaded?)
@@ -1831,6 +1825,7 @@ Warning: have %d in use and %d free per-frame memory stacks outstanding. The old
 Warning: have oustanding per-frame memory stack with %d allocations
 Warning: thumbnail image size does not match data length %u
 Warning: unknown JFIF revision number %d.%02d
+WdHcW
 Width is too large for libpng to process pixels
 WorkshopSetup001
 WorldRendererBuilderMgr001
@@ -1840,44 +1835,49 @@ Write to EMS failed
 Write to XMS failed
 Wrong JPEG library version: library is %d, caller expects %d
 Wrong alignment %d
-X0~tA
+X0~wA
 X360_DST16
 X360_DST24
 X360_DST24F
-XIcL$ Ic
-XIcL$8Ic
+XD$<I
 X[A\A]A^A_]
+X[A\A]L)
 X[A\A]]
 X[]A\A]A^A_
 Xbox 360
-YR ~UK
+YB@fE
+Y^t,L
 ZFP compression is not supported in this build.
 ZFP compression is not supported.
-ZIcL$
+ZYubI
 Zero length tRNS chunk
+[A\A]
 [A\A]A^A_]
-[A\A]A^A_]A
+[A\A]A^H
 [A\A]A^]
+[A\A]H
+[A\A]M)
 [A\A]]
-[A\A^]
+[A\]H
 [Disk class %d/%d] Name = '%s'; Project = '%s'; Binary = '%s'
 []A\A]
 []A\A]A^
 []A\A]A^A_
 []A\A]A^A_H
-\$ E1
+\$ E;~8r
 \$0[A\A]A^]
-\$HfA
-\$`E1
-\t!Hc
-\u0000
-]H+G 
-^ t+H
-^IcL$8Ic
-^[A\A]]
-_?</F
+\$8Ic
+\$8Mc
+\$8[A\A]A^]
+\BJ@2
+\L$0A
+\d$ f
+]A\A]
+]z6vT7s
+^T$(f
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
+_IcL$
 _Jv_RegisterClasses
 _V_ComposeFileName
 _V_ExtractFileExtension
@@ -1912,6 +1912,7 @@ _ZN13CBufferString11ShortenPathEv
 _ZN13CBufferString11ToLowerFastEi
 _ZN13CBufferString12AppendConcatEiPKPKcPKib
 _ZN13CBufferString12SetExtensionEPKc
+_ZN13CBufferString13AppendFormatVEPKcP13__va_list_tag
 _ZN13CBufferString13FixupPathNameEv
 _ZN13CBufferString14RemoveFirstDirEPS_
 _ZN13CBufferString15ComposeFileNameEPKcS1_c
@@ -1923,6 +1924,7 @@ _ZN13CBufferString18StripTrailingSlashEv
 _ZN13CBufferString4SwapERS_
 _ZN13CBufferString5PurgeEi
 _ZN13CBufferString6ConcatEPKcS1_z
+_ZN13CBufferString6FormatEPKcz
 _ZN13CBufferString6InsertEiPKcib
 _ZN13CBufferString6SetPtrEPciibb
 _ZN13CBufferString8RemoveAtEii
@@ -1942,12 +1944,221 @@ _ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
 _ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
 _ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
 _ZN22CThreadRWLock_FastReadC1Ev
+_ZN3Etc10RegressionEPfS0_jS0_S0_
+_ZN3Etc12FilterLinearEd
+_ZN3Etc13EncodeMipmapsEPfjjNS_5Image6FormatENS_11ErrorMetricEfjjjjPNS_8RawImageEPib
+_ZN3Etc13FilterTwoPassEPNS_11tagRGBCOLOREiiS1_iijPFddE
+_ZN3Etc13FilterTwoPassIfEEiPT_iiS2_iijPFddE
+_ZN3Etc14FilterLanczos3Ed
+_ZN3Etc14FilterResampleEPNS_11tagRGBCOLOREiiS1_ii
+_ZN3Etc14IndividualTrys4Half4InitEiiiPKjj
+_ZN3Etc14IndividualTrysC1ENS_14ColorFloatRGBAES1_PKjS3_j
+_ZN3Etc14IndividualTrysC2ENS_14ColorFloatRGBAES1_PKjS3_j
+_ZN3Etc15SortedBlockList11InitBucketsEv
+_ZN3Etc15SortedBlockList4SortEv
+_ZN3Etc15SortedBlockList5PrintEv
+_ZN3Etc15SortedBlockList8AddBlockEPNS_8Block4x4E
+_ZN3Etc15SortedBlockListC1Ejj
+_ZN3Etc15SortedBlockListC2Ejj
+_ZN3Etc15SortedBlockListD1Ev
+_ZN3Etc15SortedBlockListD2Ev
+_ZN3Etc16Block4x4Encoding11LUMA_WEIGHTE
+_ZN3Etc16Block4x4Encoding14CalcBlockErrorEv
+_ZN3Etc16Block4x4Encoding14CalcPixelErrorENS_14ColorFloatRGBAEfS1_
+_ZN3Etc16Block4x4Encoding18CHROMA_BLUE_WEIGHTE
+_ZN3Etc16Block4x4Encoding4InitEPNS_8Block4x4EPNS_14ColorFloatRGBAENS_11ErrorMetricE
+_ZN3Etc16Block4x4EncodingC1Ev
+_ZN3Etc16Block4x4EncodingC2Ev
+_ZN3Etc16Block4x4EncodingD0Ev
+_ZN3Etc16Block4x4EncodingD1Ev
+_ZN3Etc16Block4x4EncodingD2Ev
+_ZN3Etc16DifferentialTrys4Half4InitEiiiPKjj
+_ZN3Etc16DifferentialTrysC1ENS_14ColorFloatRGBAES1_PKjS3_jii
+_ZN3Etc16DifferentialTrysC2ENS_14ColorFloatRGBAES1_PKjS3_jii
+_ZN3Etc17CalcContributionsEiidbPFddEPNS_16tagFilterWeightsE
+_ZN3Etc20Block4x4Encoding_R1112CalculateR11Ejff
+_ZN3Etc20Block4x4Encoding_R1114InitFromSourceEPNS_8Block4x4EPNS_14ColorFloatRGBAEPhNS_11ErrorMetricE
+_ZN3Etc20Block4x4Encoding_R1115SetEncodingBitsEv
+_ZN3Etc20Block4x4Encoding_R1116PerformIterationEf
+_ZN3Etc20Block4x4Encoding_R1118s_aafModifierTableE
+_ZN3Etc20Block4x4Encoding_R1120InitFromEncodingBitsEPNS_8Block4x4EPhPNS_14ColorFloatRGBAENS_11ErrorMetricE
+_ZN3Etc20Block4x4Encoding_R11C1Ev
+_ZN3Etc20Block4x4Encoding_R11C2Ev
+_ZN3Etc20Block4x4Encoding_R11D0Ev
+_ZN3Etc20Block4x4Encoding_R11D1Ev
+_ZN3Etc20Block4x4Encoding_R11D2Ev
+_ZN3Etc21Block4x4Encoding_ETC112s_aafCwTableE
+_ZN3Etc21Block4x4Encoding_ETC113TryIndividualEbj
+_ZN3Etc21Block4x4Encoding_ETC114InitFromSourceEPNS_8Block4x4EPNS_14ColorFloatRGBAEPhNS_11ErrorMetricE
+_ZN3Etc21Block4x4Encoding_ETC114IsDifferentialEv
+_ZN3Etc21Block4x4Encoding_ETC115SetEncodingBitsEv
+_ZN3Etc21Block4x4Encoding_ETC115TryDegenerates1Ev
+_ZN3Etc21Block4x4Encoding_ETC115TryDegenerates2Ev
+_ZN3Etc21Block4x4Encoding_ETC115TryDegenerates3Ev
+_ZN3Etc21Block4x4Encoding_ETC115TryDegenerates4Ev
+_ZN3Etc21Block4x4Encoding_ETC115TryDifferentialEbjii
+_ZN3Etc21Block4x4Encoding_ETC116PerformIterationEf
+_ZN3Etc21Block4x4Encoding_ETC117TryIndividualHalfEPNS_14IndividualTrys4HalfE
+_ZN3Etc21Block4x4Encoding_ETC118CalculateSelectorsEv
+_ZN3Etc21Block4x4Encoding_ETC119TryDifferentialHalfEPNS_16DifferentialTrys4HalfE
+_ZN3Etc21Block4x4Encoding_ETC120InitFromEncodingBitsEPNS_8Block4x4EPhPNS_14ColorFloatRGBAENS_11ErrorMetricE
+_ZN3Etc21Block4x4Encoding_ETC120s_auiPixelOrderFlip0E
+_ZN3Etc21Block4x4Encoding_ETC120s_auiPixelOrderFlip1E
+_ZN3Etc21Block4x4Encoding_ETC120s_auiPixelOrderHScanE
+_ZN3Etc21Block4x4Encoding_ETC120s_auiTopPixelMappingE
+_ZN3Etc21Block4x4Encoding_ETC121PerformFirstIterationEv
+_ZN3Etc21Block4x4Encoding_ETC121s_auiLeftPixelMappingE
+_ZN3Etc21Block4x4Encoding_ETC122s_auiRightPixelMappingE
+_ZN3Etc21Block4x4Encoding_ETC123CalculateMostLikelyFlipEv
+_ZN3Etc21Block4x4Encoding_ETC123CalculateSourceAveragesEv
+_ZN3Etc21Block4x4Encoding_ETC123s_auiBottomPixelMappingE
+_ZN3Etc21Block4x4Encoding_ETC125SetEncodingBits_SelectorsEv
+_ZN3Etc21Block4x4Encoding_ETC127CalculateHalfOfTheSelectorsEjPKj
+_ZN3Etc21Block4x4Encoding_ETC130InitFromEncodingBits_SelectorsEv
+_ZN3Etc21Block4x4Encoding_ETC16DecodeEv
+_ZN3Etc21Block4x4Encoding_ETC17GetFlipEv
+_ZN3Etc21Block4x4Encoding_ETC1C1Ev
+_ZN3Etc21Block4x4Encoding_ETC1C2Ev
+_ZN3Etc21Block4x4Encoding_ETC1D0Ev
+_ZN3Etc21Block4x4Encoding_ETC1D1Ev
+_ZN3Etc21Block4x4Encoding_ETC1D2Ev
+_ZN3Etc21Block4x4Encoding_RG1112CalculateG11Ejff
+_ZN3Etc21Block4x4Encoding_RG1114InitFromSourceEPNS_8Block4x4EPNS_14ColorFloatRGBAEPhNS_11ErrorMetricE
+_ZN3Etc21Block4x4Encoding_RG1115SetEncodingBitsEv
+_ZN3Etc21Block4x4Encoding_RG1116PerformIterationEf
+_ZN3Etc21Block4x4Encoding_RG1120InitFromEncodingBitsEPNS_8Block4x4EPhPNS_14ColorFloatRGBAENS_11ErrorMetricE
+_ZN3Etc21Block4x4Encoding_RG11C1Ev
+_ZN3Etc21Block4x4Encoding_RG11C2Ev
+_ZN3Etc21Block4x4Encoding_RG11D0Ev
+_ZN3Etc21Block4x4Encoding_RG11D1Ev
+_ZN3Etc21Block4x4Encoding_RG11D2Ev
+_ZN3Etc21Block4x4Encoding_RGB813TwiddlePlanarEv
+_ZN3Etc21Block4x4Encoding_RGB814DecodePixels_HEv
+_ZN3Etc21Block4x4Encoding_RGB814DecodePixels_TEv
+_ZN3Etc21Block4x4Encoding_RGB814TwiddlePlanarBEv
+_ZN3Etc21Block4x4Encoding_RGB814TwiddlePlanarGEv
+_ZN3Etc21Block4x4Encoding_RGB814TwiddlePlanarREv
+_ZN3Etc21Block4x4Encoding_RGB815ColorRegressionEPNS_14ColorFloatRGBAEjS2_S2_
+_ZN3Etc21Block4x4Encoding_RGB815SetEncodingBitsEv
+_ZN3Etc21Block4x4Encoding_RGB816PerformIterationEf
+_ZN3Etc21Block4x4Encoding_RGB817SetEncodingBits_HEv
+_ZN3Etc21Block4x4Encoding_RGB817SetEncodingBits_TEv
+_ZN3Etc21Block4x4Encoding_RGB819DecodePixels_PlanarEv
+_ZN3Etc21Block4x4Encoding_RGB819s_afTHDistanceTableE
+_ZN3Etc21Block4x4Encoding_RGB820InitFromEncodingBitsEPNS_8Block4x4EPhPNS_14ColorFloatRGBAENS_11ErrorMetricE
+_ZN3Etc21Block4x4Encoding_RGB822InitFromEncodingBits_HEv
+_ZN3Etc21Block4x4Encoding_RGB822InitFromEncodingBits_TEv
+_ZN3Etc21Block4x4Encoding_RGB822SetEncodingBits_PlanarEv
+_ZN3Etc21Block4x4Encoding_RGB827CalculateBaseColorsForTAndHEv
+_ZN3Etc21Block4x4Encoding_RGB827CalculatePlanarCornerColorsEv
+_ZN3Etc21Block4x4Encoding_RGB827InitFromEncodingBits_PlanarEv
+_ZN3Etc21Block4x4Encoding_RGB828TryH_BestSelectorCombinationEv
+_ZN3Etc21Block4x4Encoding_RGB828TryT_BestSelectorCombinationEv
+_ZN3Etc21Block4x4Encoding_RGB84TryHEj
+_ZN3Etc21Block4x4Encoding_RGB84TryTEj
+_ZN3Etc21Block4x4Encoding_RGB88TryTAndHEj
+_ZN3Etc21Block4x4Encoding_RGB89TryPlanarEj
+_ZN3Etc21Block4x4Encoding_RGB8C1Ev
+_ZN3Etc21Block4x4Encoding_RGB8C2Ev
+_ZN3Etc21Block4x4Encoding_RGB8D0Ev
+_ZN3Etc21Block4x4Encoding_RGB8D1Ev
+_ZN3Etc21Block4x4Encoding_RGB8D2Ev
+_ZN3Etc22Block4x4Encoding_RGBA811CalculateA8Ef
+_ZN3Etc22Block4x4Encoding_RGBA814InitFromSourceEPNS_8Block4x4EPNS_14ColorFloatRGBAEPhNS_11ErrorMetricE
+_ZN3Etc22Block4x4Encoding_RGBA815SetEncodingBitsEv
+_ZN3Etc22Block4x4Encoding_RGBA816PerformIterationEf
+_ZN3Etc22Block4x4Encoding_RGBA818s_aafModifierTableE
+_ZN3Etc22Block4x4Encoding_RGBA820InitFromEncodingBitsEPNS_8Block4x4EPhPNS_14ColorFloatRGBAENS_11ErrorMetricE
+_ZN3Etc22Block4x4Encoding_RGBA8C1Ev
+_ZN3Etc22Block4x4Encoding_RGBA8C2Ev
+_ZN3Etc22Block4x4Encoding_RGBA8D0Ev
+_ZN3Etc22Block4x4Encoding_RGBA8D1Ev
+_ZN3Etc22Block4x4Encoding_RGBA8D2Ev
+_ZN3Etc23Block4x4Encoding_RGB8A111Decode_ETC1Ev
+_ZN3Etc23Block4x4Encoding_RGB8A114DecodePixels_HEv
+_ZN3Etc23Block4x4Encoding_RGB8A114DecodePixels_TEv
+_ZN3Etc23Block4x4Encoding_RGB8A114InitFromSourceEPNS_8Block4x4EPNS_14ColorFloatRGBAEPhNS_11ErrorMetricE
+_ZN3Etc23Block4x4Encoding_RGB8A115SetEncodingBitsEv
+_ZN3Etc23Block4x4Encoding_RGB8A115TryDegenerates1Ev
+_ZN3Etc23Block4x4Encoding_RGB8A115TryDegenerates2Ev
+_ZN3Etc23Block4x4Encoding_RGB8A115TryDegenerates3Ev
+_ZN3Etc23Block4x4Encoding_RGB8A115TryDegenerates4Ev
+_ZN3Etc23Block4x4Encoding_RGB8A115TryDifferentialEbjii
+_ZN3Etc23Block4x4Encoding_RGB8A116PerformIterationEf
+_ZN3Etc23Block4x4Encoding_RGB8A117SetEncodingBits_HEv
+_ZN3Etc23Block4x4Encoding_RGB8A117SetEncodingBits_TEv
+_ZN3Etc23Block4x4Encoding_RGB8A119TryDifferentialHalfEPNS_16DifferentialTrys4HalfE
+_ZN3Etc23Block4x4Encoding_RGB8A120InitFromEncodingBitsEPNS_8Block4x4EPhPNS_14ColorFloatRGBAENS_11ErrorMetricE
+_ZN3Etc23Block4x4Encoding_RGB8A120SetEncodingBits_ETC1Ev
+_ZN3Etc23Block4x4Encoding_RGB8A121PerformFirstIterationEv
+_ZN3Etc23Block4x4Encoding_RGB8A122InitFromEncodingBits_HEv
+_ZN3Etc23Block4x4Encoding_RGB8A122InitFromEncodingBits_TEv
+_ZN3Etc23Block4x4Encoding_RGB8A123s_aafCwOpaqueUnsetTableE
+_ZN3Etc23Block4x4Encoding_RGB8A125InitFromEncodingBits_ETC1EPNS_8Block4x4EPhPNS_14ColorFloatRGBAENS_11ErrorMetricE
+_ZN3Etc23Block4x4Encoding_RGB8A128TryH_BestSelectorCombinationEv
+_ZN3Etc23Block4x4Encoding_RGB8A128TryT_BestSelectorCombinationEv
+_ZN3Etc23Block4x4Encoding_RGB8A14TryHEj
+_ZN3Etc23Block4x4Encoding_RGB8A14TryTEj
+_ZN3Etc23Block4x4Encoding_RGB8A1C1Ev
+_ZN3Etc23Block4x4Encoding_RGB8A1C2Ev
+_ZN3Etc23Block4x4Encoding_RGB8A1D0Ev
+_ZN3Etc23Block4x4Encoding_RGB8A1D1Ev
+_ZN3Etc23Block4x4Encoding_RGB8A1D2Ev
+_ZN3Etc29Block4x4Encoding_RGBA8_Opaque15SetEncodingBitsEv
+_ZN3Etc29Block4x4Encoding_RGBA8_Opaque16PerformIterationEf
+_ZN3Etc29Block4x4Encoding_RGBA8_OpaqueD0Ev
+_ZN3Etc29Block4x4Encoding_RGBA8_OpaqueD1Ev
+_ZN3Etc29Block4x4Encoding_RGBA8_OpaqueD2Ev
+_ZN3Etc30Block4x4Encoding_RGB8A1_Opaque16PerformIterationEf
+_ZN3Etc30Block4x4Encoding_RGB8A1_Opaque21PerformFirstIterationEv
+_ZN3Etc30Block4x4Encoding_RGB8A1_OpaqueD0Ev
+_ZN3Etc30Block4x4Encoding_RGB8A1_OpaqueD1Ev
+_ZN3Etc30Block4x4Encoding_RGB8A1_OpaqueD2Ev
+_ZN3Etc34Block4x4Encoding_RGBA8_Transparent15SetEncodingBitsEv
+_ZN3Etc34Block4x4Encoding_RGBA8_Transparent16PerformIterationEf
+_ZN3Etc34Block4x4Encoding_RGBA8_TransparentD0Ev
+_ZN3Etc34Block4x4Encoding_RGBA8_TransparentD1Ev
+_ZN3Etc34Block4x4Encoding_RGBA8_TransparentD2Ev
+_ZN3Etc35Block4x4Encoding_RGB8A1_Transparent16PerformIterationEf
+_ZN3Etc35Block4x4Encoding_RGB8A1_TransparentD0Ev
+_ZN3Etc35Block4x4Encoding_RGB8A1_TransparentD1Ev
+_ZN3Etc35Block4x4Encoding_RGB8A1_TransparentD2Ev
+_ZN3Etc5Image12RunFirstPassEjj
+_ZN3Etc5Image15SetEncodingBitsEjj
+_ZN3Etc5Image22EncodingFormatToStringENS0_6FormatE
+_ZN3Etc5Image22EncodingFormatToStringEv
+_ZN3Etc5Image24InitBlocksAndBlockSorterEv
+_ZN3Etc5Image25IterateThroughWorstBlocksEjjj
+_ZN3Etc5Image26FindAndSetEncodingWarningsEv
+_ZN3Etc5Image27DetermineEncodingBitsFormatENS0_6FormatE
+_ZN3Etc5Image36FindEncodingWarningTypesForCurFormatEv
+_ZN3Etc5Image6EncodeENS0_6FormatENS_11ErrorMetricEfjj
+_ZN3Etc5Image8GetErrorEv
+_ZN3Etc5ImageC1ENS0_6FormatEjjPhjPS0_NS_11ErrorMetricE
+_ZN3Etc5ImageC1EPfjjNS_11ErrorMetricE
+_ZN3Etc5ImageC1Ev
+_ZN3Etc5ImageC2ENS0_6FormatEjjPhjPS0_NS_11ErrorMetricE
+_ZN3Etc5ImageC2EPfjjNS_11ErrorMetricE
+_ZN3Etc5ImageC2Ev
+_ZN3Etc5ImageD1Ev
+_ZN3Etc5ImageD2Ev
+_ZN3Etc6EncodeEPfjjNS_5Image6FormatENS_11ErrorMetricEfjjPPhPjS6_S6_Pib
+_ZN3Etc8Block4x414InitFromSourceEPNS_5ImageEjjPhNS_11ErrorMetricE
+_ZN3Etc8Block4x415SetSourcePixelsEv
+_ZN3Etc8Block4x419GetEncodingModeNameEv
+_ZN3Etc8Block4x420s_auiPixelOrderHScanE
+_ZN3Etc8Block4x423InitFromEtcEncodingBitsENS_5Image6FormatEjjPhPS1_NS_11ErrorMetricE
+_ZN3Etc8Block4x4C1Ev
+_ZN3Etc8Block4x4C2Ev
+_ZN3Etc8Block4x4D1Ev
+_ZN3Etc8Block4x4D2Ev
+_ZN3Etc9FilterBoxEd
+_ZNK3Etc21Block4x4Encoding_ETC133HasSeverelyBentDifferentialColorsEv
 _ZNKSs7compareEPKc
 _ZNKSs7compareEPKc@@GLIBCXX_3.4
 _ZNKSt5ctypeIcE13_M_widen_initEv
 _ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
-_ZNSdD2Ev
-_ZNSdD2Ev@@GLIBCXX_3.4
+_ZNKSt5ctypeIcE8do_widenEc
 _ZNSo3putEc
 _ZNSo3putEc@@GLIBCXX_3.4
 _ZNSo5flushEv
@@ -1955,8 +2166,6 @@ _ZNSo5flushEv@@GLIBCXX_3.4
 _ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag
 _ZNSs4_Rep10_M_destroyERKSaIcE
 _ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
-_ZNSs4_Rep10_M_disposeERKSaIcE
-_ZNSs4_Rep10_M_disposeERKSaIcE@@GLIBCXX_3.4
 _ZNSs4_Rep20_S_empty_rep_storageE
 _ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
 _ZNSs4_Rep9_S_createEmmRKSaIcE
@@ -1975,72 +2184,311 @@ _ZNSsC1EPKcmRKSaIcE
 _ZNSsC1EPKcmRKSaIcE@@GLIBCXX_3.4
 _ZNSsC1ERKSs
 _ZNSsC1ERKSs@@GLIBCXX_3.4
-_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
-_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
-_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
+_ZNSt11unique_lockISt5mutexE6unlockEv
+_ZNSt13__future_base11_State_base9_M_do_setERSt8functionIFSt10unique_ptrINS_12_Result_baseENS3_8_DeleterEEvEERb
+_ZNSt13__future_base11_State_baseD2Ev
+_ZNSt13__future_base11_State_baseD2Ev@@GLIBCXX_3.4.15
+_ZNSt13__future_base12_Result_baseC2Ev
+_ZNSt13__future_base12_Result_baseC2Ev@@GLIBCXX_3.4.15
+_ZNSt13__future_base12_Result_baseD2Ev
+_ZNSt13__future_base12_Result_baseD2Ev@@GLIBCXX_3.4.15
+_ZNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjE15_M_run_deferredEv
+_ZNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjED0Ev
+_ZNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjED1Ev
+_ZNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjED2Ev
+_ZNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvE15_M_run_deferredEv
+_ZNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvED0Ev
+_ZNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvED1Ev
+_ZNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvED2Ev
+_ZNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjED0Ev
+_ZNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjED1Ev
+_ZNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjED2Ev
+_ZNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvED0Ev
+_ZNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvED1Ev
+_ZNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvED2Ev
+_ZNSt13__future_base19_Async_state_common15_M_run_deferredEv
+_ZNSt13__future_base19_Async_state_commonD0Ev
+_ZNSt13__future_base19_Async_state_commonD1Ev
+_ZNSt13__future_base19_Async_state_commonD2Ev
+_ZNSt13__future_base7_ResultIjE10_M_destroyEv
+_ZNSt13__future_base7_ResultIjED0Ev
+_ZNSt13__future_base7_ResultIjED1Ev
+_ZNSt13__future_base7_ResultIjED2Ev
+_ZNSt13__future_base7_ResultIvE10_M_destroyEv
+_ZNSt13__future_base7_ResultIvED0Ev
+_ZNSt13__future_base7_ResultIvED1Ev
+_ZNSt13__future_base7_ResultIvED2Ev
+_ZNSt14_Function_base12_Ref_managerISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEE10_M_managerERSt9_Any_dataRKSC_St18_Manager_operation
+_ZNSt14_Function_base12_Ref_managerISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEE10_M_managerERSt9_Any_dataRKSC_St18_Manager_operation
+_ZNSt14_Function_base13_Base_managerINSt13__future_base12_Task_setterISt10unique_ptrINS1_7_ResultIjEENS1_12_Result_base8_DeleterEEjEEE10_M_managerERSt9_Any_dataRKSB_St18_Manager_operation
+_ZNSt14_Function_base13_Base_managerINSt13__future_base12_Task_setterISt10unique_ptrINS1_7_ResultIvEENS1_12_Result_base8_DeleterEEvEEE10_M_managerERSt9_Any_dataRKSB_St18_Manager_operation
+_ZNSt14__basic_futureIjE6_ResetD1Ev
+_ZNSt14__basic_futureIjE6_ResetD2Ev
+_ZNSt14__basic_futureIvE6_ResetD1Ev
+_ZNSt14__basic_futureIvE6_ResetD2Ev
+_ZNSt15__exception_ptr13exception_ptr4swapERS0_
+_ZNSt15__exception_ptr13exception_ptr4swapERS0_@@CXXABI_1.3.3
+_ZNSt15__exception_ptr13exception_ptrC1ERKS0_
+_ZNSt15__exception_ptr13exception_ptrC1ERKS0_@@CXXABI_1.3.3
+_ZNSt15__exception_ptr13exception_ptrD1Ev
+_ZNSt15__exception_ptr13exception_ptrD1Ev@@CXXABI_1.3.3
+_ZNSt15__exception_ptreqERKNS_13exception_ptrES2_
+_ZNSt15__exception_ptreqERKNS_13exception_ptrES2_@@CXXABI_1.3.3
+_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
+_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED0Ev
+_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED1Ev
+_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED2Ev
+_ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_12_Task_setterIS0_INS1_7_ResultIjEES3_EjEEE9_M_invokeERKSt9_Any_data
+_ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_12_Task_setterIS0_INS1_7_ResultIvEES3_EvEEE9_M_invokeERKSt9_Any_data
+_ZNSt17_Function_handlerIFjvESt17reference_wrapperISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEEE9_M_invokeERKSt9_Any_data
+_ZNSt17_Function_handlerIFvvESt17reference_wrapperISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEEE9_M_invokeERKSt9_Any_data
 _ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
 _ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
+_ZNSt18condition_variable10notify_allEv
+_ZNSt18condition_variable10notify_allEv@@GLIBCXX_3.4.11
+_ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE
+_ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE@@GLIBCXX_3.4.11
+_ZNSt18condition_variableC1Ev
+_ZNSt18condition_variableC1Ev@@GLIBCXX_3.4.11
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED2Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED2Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED2Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EED2Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EED2Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EED2Ev
+_ZNSt6chrono3_V212steady_clock3nowEv
+_ZNSt6chrono3_V212steady_clock3nowEv@@GLIBCXX_3.4.19
 _ZNSt6localeC1Ev
 _ZNSt6localeC1Ev@@GLIBCXX_3.4
 _ZNSt6localeD1Ev
 _ZNSt6localeD1Ev@@GLIBCXX_3.4
+_ZNSt6thread10_Impl_baseD0Ev
+_ZNSt6thread10_Impl_baseD1Ev
+_ZNSt6thread10_Impl_baseD2Ev
+_ZNSt6thread15_M_start_threadESt10shared_ptrINS_10_Impl_baseEE
+_ZNSt6thread15_M_start_threadESt10shared_ptrINS_10_Impl_baseEE@@GLIBCXX_3.4.11
+_ZNSt6thread4joinEv
+_ZNSt6thread4joinEv@@GLIBCXX_3.4.11
+_ZNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS6_jijEEjEC1EOSC_EUlvE_vEEE6_M_runEv
+_ZNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS6_jijEEjEC1EOSC_EUlvE_vEEED0Ev
+_ZNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS6_jijEEjEC1EOSC_EUlvE_vEEED1Ev
+_ZNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS6_jijEEjEC1EOSC_EUlvE_vEEED2Ev
+_ZNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS6_ijEEvEC1EOSC_EUlvE_vEEE6_M_runEv
+_ZNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS6_ijEEvEC1EOSC_EUlvE_vEEED0Ev
+_ZNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS6_ijEEvEC1EOSC_EUlvE_vEEED1Ev
+_ZNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS6_ijEEvEC1EOSC_EUlvE_vEEED2Ev
 _ZNSt6vectorIS_IhSaIhEESaIS1_EED1Ev
 _ZNSt6vectorIS_IhSaIhEESaIS1_EED2Ev
 _ZNSt6vectorIS_ImSaImEESaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_
 _ZNSt6vectorIS_ImSaImEESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_
 _ZNSt6vectorIhSaIhEE15_M_range_insertIN9__gnu_cxx17__normal_iteratorIPhS1_EEEEvS6_T_S7_St20forward_iterator_tag
-_ZNSt6vectorIhSaIhEE15_M_range_insertIPKcEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S9_St20forward_iterator_tag
 _ZNSt6vectorIhSaIhEE15_M_range_insertIPKhEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S9_St20forward_iterator_tag
 _ZNSt6vectorIhSaIhEE15_M_range_insertIPcEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S8_St20forward_iterator_tag
-_ZNSt6vectorIhSaIhEE15_M_range_insertIPhEEvN9__gnu_cxx17__normal_iteratorIS3_S1_EET_S7_St20forward_iterator_tag
-_ZNSt6vectorIhSaIhEE6insertIN9__gnu_cxx17__normal_iteratorIPhS1_EEvEEvS6_T_S7_
+_ZNSt6vectorIhSaIhEE17_M_default_appendEm
+_ZNSt6vectorIhSaIhEE6insertIN9__gnu_cxx17__normal_iteratorIPhS1_EEvEES6_NS4_IPKhS1_EET_SA_
 _ZNSt6vectorIhSaIhEEC1EmRKS0_
 _ZNSt6vectorIhSaIhEEC2EmRKS0_
-_ZNSt6vectorImSaImEE17_M_default_appendEm
 _ZNSt8ios_baseC2Ev
 _ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
 _ZNSt8ios_baseD2Ev
 _ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
 _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
 _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
-_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
-_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@@GLIBCXX_3.4
 _ZNV16CThreadFastMutex4LockEyj
+_ZSt11__once_call
+_ZSt11__once_call@@GLIBCXX_3.4.11
+_ZSt15__once_callable
+_ZSt15__once_callable@@GLIBCXX_3.4.11
+_ZSt16__once_call_implISt12_Bind_simpleIFSt7_Mem_fnIMNSt13__future_base11_State_baseEFvRSt8functionIFSt10unique_ptrINS2_12_Result_baseENS6_8_DeleterEEvEERbEEPS3_St17reference_wrapperISA_ESH_IbEEEEvv
+_ZSt16__once_call_implISt12_Bind_simpleIFSt7_Mem_fnIMSt6threadFvvEESt17reference_wrapperIS2_EEEEvv
 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@@GLIBCXX_3.4.9
 _ZSt16__throw_bad_castv
 _ZSt16__throw_bad_castv@@GLIBCXX_3.4
 _ZSt17__throw_bad_allocv
 _ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+_ZSt17current_exceptionv
+_ZSt17current_exceptionv@@CXXABI_1.3.3
+_ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE
+_ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE@@CXXABI_1.3.3
 _ZSt19__throw_logic_errorPKc
 _ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
+_ZSt20__throw_future_errori
+_ZSt20__throw_future_errori@@GLIBCXX_3.4.14
 _ZSt20__throw_length_errorPKc
 _ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_out_of_rangePKc
-_ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
+_ZSt20__throw_system_errori
+_ZSt20__throw_system_errori@@GLIBCXX_3.4.11
+_ZSt24__throw_out_of_range_fmtPKcz
+_ZSt24__throw_out_of_range_fmtPKcz@@GLIBCXX_3.4.20
+_ZSt25__throw_bad_function_callv
+_ZSt25__throw_bad_function_callv@@GLIBCXX_3.4.14
+_ZSt5asyncIMN3Etc5ImageEFvjjEIKPS1_RiRjEESt6futureINSt9result_ofIFT_DpT0_EE4typeEESt6launchOSA_DpOSB_
+_ZSt5asyncIMN3Etc5ImageEFvjjEJKPS1_RiRjEESt6futureINSt9result_ofIFT_DpT0_EE4typeEESt6launchOSA_DpOSB_
 _ZSt9terminatev
 _ZSt9terminatev@@GLIBCXX_3.4
 _ZTI17CThreadSyncObject
+_ZTIN3Etc16Block4x4EncodingE
+_ZTIN3Etc20Block4x4Encoding_R11E
+_ZTIN3Etc21Block4x4Encoding_ETC1E
+_ZTIN3Etc21Block4x4Encoding_RG11E
+_ZTIN3Etc21Block4x4Encoding_RGB8E
+_ZTIN3Etc22Block4x4Encoding_RGBA8E
+_ZTIN3Etc23Block4x4Encoding_RGB8A1E
+_ZTIN3Etc29Block4x4Encoding_RGBA8_OpaqueE
+_ZTIN3Etc30Block4x4Encoding_RGB8A1_OpaqueE
+_ZTIN3Etc34Block4x4Encoding_RGBA8_TransparentE
+_ZTIN3Etc35Block4x4Encoding_RGB8A1_TransparentE
+_ZTINSt13__future_base11_State_baseE
+_ZTINSt13__future_base11_State_baseE@@GLIBCXX_3.4.15
+_ZTINSt13__future_base12_Result_baseE
+_ZTINSt13__future_base12_Result_baseE@@GLIBCXX_3.4.15
+_ZTINSt13__future_base12_Task_setterISt10unique_ptrINS_7_ResultIjEENS_12_Result_base8_DeleterEEjEE
+_ZTINSt13__future_base12_Task_setterISt10unique_ptrINS_7_ResultIvEENS_12_Result_base8_DeleterEEvEE
+_ZTINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjEE
+_ZTINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvEE
+_ZTINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjEE
+_ZTINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvEE
+_ZTINSt13__future_base19_Async_state_commonE
+_ZTINSt13__future_base7_ResultIjEE
+_ZTINSt13__future_base7_ResultIvEE
+_ZTINSt6thread10_Impl_baseE
+_ZTINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS6_jijEEjEC1EOSC_EUlvE_vEEEE
+_ZTINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS6_ijEEvEC1EOSC_EUlvE_vEEEE
+_ZTIPSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS2_jijEE
+_ZTIPSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS2_ijEE
+_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+_ZTISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS2_jijEE
+_ZTISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS2_ijEE
+_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+_ZTISt19_Sp_make_shared_tag
+_ZTISt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTISt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTISt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTISt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTSN3Etc16Block4x4EncodingE
+_ZTSN3Etc20Block4x4Encoding_R11E
+_ZTSN3Etc21Block4x4Encoding_ETC1E
+_ZTSN3Etc21Block4x4Encoding_RG11E
+_ZTSN3Etc21Block4x4Encoding_RGB8E
+_ZTSN3Etc22Block4x4Encoding_RGBA8E
+_ZTSN3Etc23Block4x4Encoding_RGB8A1E
+_ZTSN3Etc29Block4x4Encoding_RGBA8_OpaqueE
+_ZTSN3Etc30Block4x4Encoding_RGB8A1_OpaqueE
+_ZTSN3Etc34Block4x4Encoding_RGBA8_TransparentE
+_ZTSN3Etc35Block4x4Encoding_RGB8A1_TransparentE
+_ZTSNSt13__future_base12_Task_setterISt10unique_ptrINS_7_ResultIjEENS_12_Result_base8_DeleterEEjEE
+_ZTSNSt13__future_base12_Task_setterISt10unique_ptrINS_7_ResultIvEENS_12_Result_base8_DeleterEEvEE
+_ZTSNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjEE
+_ZTSNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvEE
+_ZTSNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjEE
+_ZTSNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvEE
+_ZTSNSt13__future_base19_Async_state_commonE
+_ZTSNSt13__future_base7_ResultIjEE
+_ZTSNSt13__future_base7_ResultIvEE
+_ZTSNSt6thread10_Impl_baseE
+_ZTSNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS6_jijEEjEC1EOSC_EUlvE_vEEEE
+_ZTSNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS6_ijEEvEC1EOSC_EUlvE_vEEEE
+_ZTSPSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS2_jijEE
+_ZTSPSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS2_ijEE
+_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+_ZTSSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS2_jijEE
+_ZTSSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS2_ijEE
+_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+_ZTSSt19_Sp_make_shared_tag
+_ZTSSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTSSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTSSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTSSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE
 _ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
 _ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
+_ZTVN10__cxxabiv119__pointer_type_infoE
+_ZTVN10__cxxabiv119__pointer_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZTVN3Etc16Block4x4EncodingE
+_ZTVN3Etc20Block4x4Encoding_R11E
+_ZTVN3Etc21Block4x4Encoding_ETC1E
+_ZTVN3Etc21Block4x4Encoding_RG11E
+_ZTVN3Etc21Block4x4Encoding_RGB8E
+_ZTVN3Etc22Block4x4Encoding_RGBA8E
+_ZTVN3Etc23Block4x4Encoding_RGB8A1E
+_ZTVN3Etc29Block4x4Encoding_RGBA8_OpaqueE
+_ZTVN3Etc30Block4x4Encoding_RGB8A1_OpaqueE
+_ZTVN3Etc34Block4x4Encoding_RGBA8_TransparentE
+_ZTVN3Etc35Block4x4Encoding_RGB8A1_TransparentE
+_ZTVNSt13__future_base11_State_baseE
+_ZTVNSt13__future_base11_State_baseE@@GLIBCXX_3.4.15
+_ZTVNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjEE
+_ZTVNSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvEE
+_ZTVNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS4_jijEEjEE
+_ZTVNSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS4_ijEEvEE
+_ZTVNSt13__future_base19_Async_state_commonE
+_ZTVNSt13__future_base7_ResultIjEE
+_ZTVNSt13__future_base7_ResultIvEE
+_ZTVNSt6thread10_Impl_baseE
+_ZTVNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS6_jijEEjEC1EOSC_EUlvE_vEEEE
+_ZTVNSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS6_ijEEvEC1EOSC_EUlvE_vEEEE
 _ZTVSt15basic_streambufIcSt11char_traitsIcEE
 _ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
 _ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
 _ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
 _ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE
 _ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTVSt23_Sp_counted_ptr_inplaceINSt13__future_base15_Deferred_stateISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTVSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS5_jijEEjEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTVSt23_Sp_counted_ptr_inplaceINSt13__future_base17_Async_state_implISt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS5_ijEEvEESaISC_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS7_jijEEjEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS2_IFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS7_ijEEvEC1EOSD_EUlvE_vEEEESaISJ_ELN9__gnu_cxx12_Lock_policyE2EE
 _ZTVSt9basic_iosIcSt11char_traitsIcEE
 _ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
 _ZdaPv
 _ZdlPv
 _Znam
 _Znwm
+__assert_fail
+__assert_fail@@GLIBC_2.2.5
 __bss_start
 __cxa_atexit
 __cxa_atexit@@GLIBC_2.2.5
@@ -2062,47 +2510,69 @@ __cxa_pure_virtual
 __cxa_pure_virtual@@CXXABI_1.3
 __cxa_rethrow
 __cxa_rethrow@@CXXABI_1.3
+__cxa_throw_bad_array_new_length
+__cxa_throw_bad_array_new_length@@CXXABI_1.3.8
 __fprintf_chk
 __fprintf_chk@@GLIBC_2.3.4
 __gmon_start__
 __gxx_personality_v0
 __gxx_personality_v0@@CXXABI_1.3
+__isnanf
+__isnanf@@GLIBC_2.2.5
 __longjmp_chk
 __longjmp_chk@@GLIBC_2.11
 __memcpy_chk
 __memcpy_chk@@GLIBC_2.3.4
+__once_proxy
+__once_proxy@@GLIBCXX_3.4.11
+__printf_chk
+__printf_chk@@GLIBC_2.3.4
 __pthread_key_create
 __pthread_key_create@@GLIBC_2.2.5
 __sprintf_chk
 __sprintf_chk@@GLIBC_2.3.4
 __stack_chk_fail
 __stack_chk_fail@@GLIBC_2.4
-_addons
+__tls_get_addr
+__tls_get_addr@@GLIBC_2.3
+_bake
 _edata
 _fini
 _init
+_pv"A
 _setjmp
 _setjmp@@GLIBC_2.2.5
 _tools.txt
-`D;S8}DI
+`A9V8
+`D9S8~DI
+`D9{8
 `D;l$(L
-`D;{8
-`H97tbH
-`[A\A]A^]
-`[A\]
+`[A\A]A^A_]
 `chunkCount' attribute is not found in the header.
+a_fDecodedAlpha >= 0.0f
+a_uiMultithreadingStride > 0
+a_uiRadius <= MAX_RADIUS
 abort@@GLIBC_2.2.5
+adler32.c
 after solve err=%f
+all_projects_common_code.cpp
 alpha
 archive
+b.z79
 basic_string::_S_construct null not valid
 before solve err=%f
+binary
+binary_auto
+binary_bc
+binary_lz4
+bitbuf.cpp
+bitmap.cpp
 blocking issue in occlusion queries!!
 borrow
 box2i
 buf error
-buffer error
-c@L9cHv
+c AZH
+c([A\A]A^]
 cHRM Blue X
 cHRM Blue Y
 cHRM Green X
@@ -2113,6 +2583,7 @@ cHRM White X
 cHRM White Y
 calloc
 calloc@@GLIBC_2.2.5
+ceil@@GLIBC_2.2.5
 ceilf
 ceilf@@GLIBC_2.2.5
 cfg/moddefaults.txt
@@ -2120,20 +2591,28 @@ cfg/video.txt
 cfg/video_%02d.txt
 cfg/videodefaults.txt
 channels
+characterset.cpp
 cheat
+checksum_crc.cpp
 chlist
 chunkCount
 client
 clientcmd_can_execute
+color_conversion.cpp
+colorconversion.cpp
+colorformatbase.cpp
 compression
 configvalue.cpp
-content
-cpD)ctL
-d$$LcR
+convar.cpp
+crc32.c
+crtstuff.c
+d$ A9
+d$ L9
+d$$A9
+d$(;l$@
 d$(E1
 dH34%(
 dH3<%(
-d[A\A]A^A_]
 data error
 dataWindow
 delete
@@ -2143,38 +2622,47 @@ displayWindow
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 dxsupport.cfg
+effortblocks = %d
 eikonal
+encodingTry.m_fError < 3.40282346638528859812e+38F
 error in user chunk
 exit@@GLIBC_2.2.5
+exprevaluator.cpp
+externalreferences.cpp
 fG9\U
-f`v5D
+fIcL$8Ic
+fMinAlpha <= fMaxAlpha
+fMinGrn <= fMaxGrn
+fMinRed <= fMaxRed
+fWeightSumBottom > 0.0f
+fWeightSumLeft > 0.0f
+fWeightSumRight > 0.0f
+fWeightSumTop > 0.0f
 false
 fff?fff?fff?fff?
 ffff.
 fffff.
 ffffff.
+fieldpath.cpp
 file error
 filesystem_stdio
+fileutils.cpp
 filterinY
 filterinZ
 fixed poH
 fixed point overflow ignored
 float
+float Etc::Block4x4Encoding::CalcPixelError(Etc::ColorFloatRGBA, float, Etc::ColorFloatRGBA)
+float Etc::Block4x4Encoding::GetError()
 float( %f )
 floatbitmap.cpp
-floatbitmap.cpp(124): Unknown gamma type "%s"!
-floatbitmap.cpp(2140): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2151): Error loading %s
-floatbitmap.cpp(2174): Error! Unknown file type for %s
-floatbitmap.cpp(2193): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
-floatbitmap.cpp(308): Conversion not supported yet!
-floatbitmap.cpp(408): Conversion not supported yet!
-floatbitmap.cpp(854): Unsupported color format "%s", skipping!
+floatbitmap2.cpp
 floor
 floor@@GLIBC_2.2.5
 floorf
 floorf@@GLIBC_2.2.5
 flow in H
+fltx4
 fprintf
 fprintf@@GLIBC_2.2.5
 fputc
@@ -2184,38 +2672,65 @@ fread@@GLIBC_2.2.5
 free@@GLIBC_2.2.5
 frexp
 frexp@@GLIBC_2.2.5
-ftTH9
-g$D;m
 g$E9w
 g_Mathlib_GammaToLinearByteTable
+g_Tier1_BitWriteMasks
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
+g_Tier1_ExtraMasks
 g_VProfCurrentProfile
 g_pMemAlloc
 g_pThreadPool
-gameinfo.gi
-gameinfo.txt
 gamma = (%d/100000)
+generic
+generichash.cpp
 getenv
 getenv@@GLIBC_2.2.5
-gfffC
-gfffD
-gfffG
 gx=%d, gy=%d, bx=%d, by=%d
+hPVs-
 h[A\A]A^A_]
 h[A\A]]
 h[]A\A]A^A_
-hdLcH
+halton.cpp
 header crc mismatch
+iBlue >= 0 && iBlue <= 15
+iBlue >= 0 && iBlue <= 31
+iBlue1 >= (signed)(0+a_uiRadius) && iBlue1 <= (signed)(31 - a_uiRadius)
+iBlue2 < 0 || iBlue2 > 31
+iBlue2 >= (signed)(0 + a_uiRadius) && iBlue2 <= (signed)(31 - a_uiRadius)
+iDBlue >= -4 && iDBlue < 4
+iDBlue2 >= -4 && iDBlue2 < 4
+iDGreen >= -4 && iDGreen < 4
+iDGreen2 >= -4 && iDGreen2 < 4
+iDRed >= -4 && iDRed < 4
+iDRed2 >= -4 && iDRed2 < 4
+iGreen >= 0 && iGreen <= 15
+iGreen >= 0 && iGreen <= 31
+iGreen1 >= (signed)(0 + a_uiRadius) && iGreen1 <= (signed)(31 - a_uiRadius)
+iGreen2 < 0 || iGreen2 > 31
+iGreen2 >= (signed)(0 + a_uiRadius) && iGreen2 <= (signed)(31 - a_uiRadius)
+iGreen2 >= 0 && iGreen2 <= 31
+iRed >= 0 && iRed <= 15
+iRed >= 0 && iRed <= 31
+iRed1 >= (signed)(0 + a_uiRadius) && iRed1 <= (signed)(31 - a_uiRadius)
+iRed2 < 0 || iRed2 > 31
+iRed2 >= (signed)(0 + a_uiRadius) && iRed2 <= (signed)(31 - a_uiRadius)
+iRed2 >= 0 && iRed2 <= 31
 ignoring out of range rgb_to_gray coefficients
-incompatible version
+imageformat.cpp
+immediate
 incorrect data check
 incorrect gamma=(%d/100000)
 incorrect header check
 incorrect length check
-insufficient memory
+indexbufferbase.cpp
+inffast.c
+inflate.c
+inftrees.c
+inputlayoutbase.cpp
 int overH
 int( %d = 0x%X )
+interface.cpp
 interfaces.cpp
 introspectedtypemanager.cpp
 invalid background gamma type
@@ -2233,14 +2748,62 @@ invalid literal/length code
 invalid literal/lengths set
 invalid stored block lengths
 invalid window size
-k@[A\A]A^]
+jaricom.c
+jcapimin.c
+jcapistd.c
+jcarith.c
+jccoefct.c
+jccolor.c
+jcdctmgr.c
+jchuff.c
+jcinit.c
+jcmainct.c
+jcmarker.c
+jcmaster.c
+jcomapi.c
+jcparam.c
+jcprepct.c
+jcsample.c
+jdapimin.c
+jdapistd.c
+jdarith.c
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+jdmerge.c
+jdpostct.c
+jdsample.c
+jerror.c
+jfdctflt.c
+jfdctfst.c
+jfdctint.c
+jidctflt.c
+jidctfst.c
+jidctint.c
+jmemmgr.c
+jmemnobs.c
+jpegloader.cpp
+jquant1.c
+jquant2.c
+json_parser.c
+jutils.c
+keyvalues.cpp
 l$ E9
-l$hA+^@
+l$ u0H
+l$ v=
+l$0D9
+l$4D9
 ld-linux-x86-64.so.2
 libc.so.6
 libm.so.6
 libpng error: %s
 libpng version 1.5.2 - March 31, 2011
+libpng warning: %s
 libpthread.so.0
 librendersystemempty.so
 librendersystemempty.so.dbg
@@ -2252,6 +2815,7 @@ lineartogamma
 localize
 longjmp
 longjmp@@GLIBC_2.2.5
+lz4.c
 m_Format
 m_Frames
 m_Images
@@ -2261,11 +2825,18 @@ m_bAlphaCrop
 m_bClamp
 m_bNoAlpha
 m_bNoColor
+m_boolDiff
+m_boolDiff == true
 m_elems
+m_fError >= 0.0f
 m_fallbackTextureBits
 m_flDisplayTime
 m_flTotalTime
 m_floatParams
+m_mode == MODE_ETC1
+m_mode == MODE_H
+m_mode == MODE_PLANAR
+m_mode == MODE_T
 m_nD3DSemanticIndex
 m_nDepth
 m_nFlags
@@ -2288,12 +2859,20 @@ m_pName
 m_pSemantic
 m_pSemanticName
 m_pSheet
+m_pablock
+m_paucEncodingBits == nullptr
+m_uiAddedBlocks < m_uiImageBlocks
+m_uiAddedBlocks == m_uiImageBlocks
+m_uiEncodingIterations == 0
 m_value
 makemelast
 malformed sPLT chunk
 malloc
 malloc@@GLIBC_2.2.5
+manifestregistrar.cpp
 mathlib.cpp
+matrix3x4_t
+matrix3x4a_t
 max megabytes
 max megahertz
 max megatexels
@@ -2304,8 +2883,11 @@ memcpy
 memcpy@@GLIBC_2.14
 memmove
 memmove@@GLIBC_2.2.5
+memoverride.cpp
+mempool.cpp
 memset
 memset@@GLIBC_2.2.5
+memstack.cpp
 min megabytes
 min megahertz
 min megatexels
@@ -2313,19 +2895,19 @@ min_processor_count
 modf@@GLIBC_2.2.5
 nTries < 10000000
 need dictionary
-noIvp
 notconnected
 notify
-or?wb
+o$D9e
+o0ATS
+occlusionquerymgr.cpp
 out of memory
-p Icx`F
-pE9e\
-pXA]A^]
-p[A\A]A^A_]
 p[A\A]A^]
-p[A\]
 parameter error
+pass %u
+pbucket->plinkLast->GetNext() == nullptr
 pixelAspectRatio
+png.c
+png/jpg
 png_do_quantize returned rowbytes=0
 png_do_rgb_to_gray found nongray pixel
 png_inflate logic error
@@ -2333,7 +2915,20 @@ png_set_background
 png_set_gAMA
 png_set_gamma file gamma
 png_set_gamma screen gamma
+pngerror.c
+pngget.c
+pngloader.cpp
+pngmem.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
 pow@@GLIBC_2.2.5
+powsse.cpp
+psd.cpp
+psheet.cpp
 pthread_mutex_destroy
 pthread_mutex_destroy@@GLIBC_2.2.5
 pthread_mutex_init
@@ -2349,39 +2944,65 @@ pthread_mutexattr_settype@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
-puwUH
+ptry < &a_phalf->m_atry[DifferentialTrys::Half::MAX_TRYS]
+ptry < &a_phalf->m_atry[IndividualTrys::Half::MAX_TRYS]
+ptry->m_fError < 3.40282346638528859812e+38F
+ptryBest1 != nullptr
+ptryBest2 != nullptr
+quaternionaligned.cpp
 queued
-r7LcQ
 r_fullscreen_gamma
 r_gpu_mem_stats
 r_max_texture_pool_size
+r_texture_nonstreaming_load
+r_texture_nonstreaming_only_fullmipchain
 r_texture_pool_size
 r_texture_stream_mip_bias
 r_texturefilteringquality
 r_textures_evict_all
 r_validate_texture_streaming
 r_wait_on_present
-rc?Quh
+randsse.cpp
 realloc
 realloc@@GLIBC_2.2.5
 rendercontextbase.cpp
+rendercontextempty.cpp
+renderdevicebase.cpp
+renderdeviceempty.cpp
 renderdevicemgrbase.cpp
+renderdevicemgrempty.cpp
+renderhardwareconfig.cpp
+renderquerybase.cpp
 rendersystemempty
+rendersystemempty_schema_anchor.gen_cpp
+rendersystemglobals.cpp
+rendersystemtypes_h_schema.gen_cpp
+renderutils.cpp
 replicated
+resample.cpp
+resourcedictionary.cpp
+resourcefile.cpp
 resourcestream.cpp
 resourcesystem
 rgb to gray green coefficient
 rgb to gray red coefficient
-s v&E1
-s"fE9
+rnd_down
+rnd_up
+roundf
+roundf@@GLIBC_2.2.5
+s0[A\]H
+sAG\6fE
 sAmTb
-sMA;|$ 
 sPLT chunk has bad length
 sPLT chunk requires too much memory
+s`A]A^xq
+schemabindings.cpp
+schemaclassinfo.cpp
+schemadatatraversal.cpp
+schemaiterator.cpp
+schemametadata.cpp
 screenWindowCenter
 screenWindowWidth
-sdktools/bin/vproj.exe
-sdktools/bin/vprojUI.exe
 sequence number %d too low in sheet file!!!
 server_can_execute
 setting.
@@ -2401,6 +3022,7 @@ setting.defaultres
 setting.defaultresheight
 setting.fullscreen
 setting.fullscreen_min_on_focus_loss
+setting.high_dpi
 setting.knowndevice
 setting.mat_vsync
 setting.maxdxlevel
@@ -2411,18 +3033,23 @@ setting.refreshrate_denominator
 setting.refreshrate_numerator
 setting.resettodefaults
 setting.shaderquality
+sheet_h_schema.gen_cpp
 sheetcache.cpp
 sheetcachetexture_.vtex
+sin@@GLIBC_2.2.5
 single
 singleplayer
 snprintf@@GLIBC_2.2.5
+sparsematrix.cpp
+spherical.cpp
 sqrt@@GLIBC_2.2.5
 sqrtf
 sqrtf@@GLIBC_2.2.5
-src/public/tier0/platform.h
 srgbgammatolinear
 ss_added
 sscanf@@GLIBC_2.2.5
+sseconst.cpp
+stb_dxt_impl.cpp
 stderr
 stderr@@GLIBC_2.2.5
 strchr
@@ -2442,136 +3069,172 @@ strstr@@GLIBC_2.2.5
 strtod@@GLIBC_2.2.5
 sub%dx%d.tga
 submrg%dx%d.tga
-szLce
-t	HcR
 t	[A\]
-t LcW
-t$(uzI
+t$	H9
 t$8E1
-t$@A\]
-t$H9h
-t$HfA
+t$H;h
 t$lfA
-t+Hc4
-t+HcO
-t-Mcv
-t0Mcv
-t1Mc}
+t$pvufA
+t'H9P
+t-HcV
+t.H9P
 t3D8J
-t6 H)
-t?Mcv
-t@@:>u
-tEH;v0I
-tIW?Z
+t5Mcb
+t<Ic_(A;_8
+t=[A\]
+t?UE1
+tC[A\A]A^]
+tJHcC
 tK~%E1
-tL[A\A]A^]
-tRH;v0I
 tRNS chunk has out-of-range samples for bit_depth
 tRNS chunk not allowed with alpha channel
-tSHcO
-tVHcC
-tWA9]
-t\G9l
-t\Ic\$(A;\$8
-tdA:]
+tUH;v0
 text compression mode is out of range
 texturebase.cpp
-texturebase.cpp(1454):Error loading texture: %s
-texturebase.cpp(2357):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2378):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2389):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2400):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2411):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2432):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2443):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2454):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2465):ResourceHandleToData( %s ) failed! Falling back to error texture!
-tfUMc
-tgE+e D9
+texturebase.cpp(1781):Error loading texture: %s
+texturebase.cpp(2690):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2711):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2722):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2733):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2744):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2765):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2776):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2787):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2798):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebits_h_schema.gen_cpp
+textureempty.cpp
+tgaloader.cpp
+thIcG
+tier1.cpp
+tier2.cpp
 tiles
+tinyexr_impl.cpp
+tmE;>thH
 too many length or distance symbols
-tqH;v0t{L
 transparency
 trunc
 trunc@@GLIBC_2.2.5
-ttIcG
-txA;\$ I
-t~[A\]
-u	[A\]
-u Ic}`F
-u LcU
-u [A\]
-u!L9]
-u"[A\A]A^]
+ttE+n A9
+twD;e
 u'[]A\A]A^
 u64( %lld = 0x%llX )
-u:[A\A]A^A_]
-u?IcF
-uB[A\A]A^]
-uC[A\]
-uHMc~
-uMHcN
-unknown
+u?H9G8L
+uAL;%
+uLH9G8L
+uRIcI
+uiTransparentPixels < PIXELS
 unknown compression method
 unknown critical chunk
 unknown header flags set
+unsigned int Etc::Image::IterateThroughWorstBlocks(unsigned int, unsigned int, unsigned int)
 update
 utlbuffer.cpp
+utlmemory.cpp
+utlsoacontainer.cpp
+utlstreambuffer.cpp
 utlstring.cpp
 uvCropped
 uvUncropped
-v!<\t
-v;<\t7I
+v6v<V
+v:L;u
+v?L;e
+vAL;M
+vAL;m
+v`m`J
+vb_created_input_layout
+vector.cpp
 vector::_M_default_append
 vector::_M_emplace_back_aux
-vector::_M_range_check
+vector::_M_range_check: __n (which is %zu) >= this->size() (which is %zu)
 vector::_M_range_insert
+vertexbufferbase.cpp
+vf7Sd
 video.cfg
+virtual void Etc::Block4x4Encoding_ETC1::PerformIteration(float)
+virtual void Etc::Block4x4Encoding_ETC1::SetEncodingBits()
+virtual void Etc::Block4x4Encoding_R11::InitFromEncodingBits(Etc::Block4x4*, unsigned char*, Etc::ColorFloatRGBA*, Etc::ErrorMetric)
+virtual void Etc::Block4x4Encoding_R11::PerformIteration(float)
+virtual void Etc::Block4x4Encoding_R11::SetEncodingBits()
+virtual void Etc::Block4x4Encoding_RG11::InitFromEncodingBits(Etc::Block4x4*, unsigned char*, Etc::ColorFloatRGBA*, Etc::ErrorMetric)
+virtual void Etc::Block4x4Encoding_RG11::PerformIteration(float)
+virtual void Etc::Block4x4Encoding_RG11::SetEncodingBits()
+virtual void Etc::Block4x4Encoding_RGB8::PerformIteration(float)
+virtual void Etc::Block4x4Encoding_RGB8::SetEncodingBits()
+virtual void Etc::Block4x4Encoding_RGB8A1::PerformIteration(float)
+virtual void Etc::Block4x4Encoding_RGB8A1::SetEncodingBits()
+virtual void Etc::Block4x4Encoding_RGB8A1_Opaque::PerformIteration(float)
+virtual void Etc::Block4x4Encoding_RGB8A1_Transparent::PerformIteration(float)
+virtual void Etc::Block4x4Encoding_RGBA8::PerformIteration(float)
+virtual void Etc::Block4x4Encoding_RGBA8_Opaque::PerformIteration(float)
+virtual void Etc::Block4x4Encoding_RGBA8_Transparent::PerformIteration(float)
+vmatrix.cpp
+void Etc::Block4x4::InitFromEtcEncodingBits(Etc::Image::Format, unsigned int, unsigned int, unsigned char*, Etc::Image*, Etc::ErrorMetric)
+void Etc::Block4x4::InitFromSource(Etc::Image*, unsigned int, unsigned int, unsigned char*, Etc::ErrorMetric)
+void Etc::Block4x4Encoding_ETC1::CalculateSourceAverages()
+void Etc::Block4x4Encoding_ETC1::TryDifferential(bool, unsigned int, int, int)
+void Etc::Block4x4Encoding_ETC1::TryDifferentialHalf(Etc::DifferentialTrys::Half*)
+void Etc::Block4x4Encoding_ETC1::TryIndividualHalf(Etc::IndividualTrys::Half*)
+void Etc::Block4x4Encoding_R11::CalculateR11(unsigned int, float, float)
+void Etc::Block4x4Encoding_RG11::CalculateG11(unsigned int, float, float)
+void Etc::Block4x4Encoding_RGB8::CalculateBaseColorsForTAndH()
+void Etc::Block4x4Encoding_RGB8::SetEncodingBits_H()
+void Etc::Block4x4Encoding_RGB8::SetEncodingBits_Planar()
+void Etc::Block4x4Encoding_RGB8::SetEncodingBits_T()
+void Etc::Block4x4Encoding_RGB8A1::SetEncodingBits_ETC1()
+void Etc::Block4x4Encoding_RGB8A1::SetEncodingBits_H()
+void Etc::Block4x4Encoding_RGB8A1::SetEncodingBits_T()
+void Etc::Block4x4Encoding_RGB8A1::TryDifferential(bool, unsigned int, int, int)
+void Etc::Block4x4Encoding_RGB8A1::TryDifferentialHalf(Etc::DifferentialTrys::Half*)
+void Etc::Block4x4Encoding_RGBA8::CalculateA8(float)
+void Etc::Image::FindEncodingWarningTypesForCurFormat()
+void Etc::Image::RunFirstPass(unsigned int, unsigned int)
+void Etc::Image::SetEncodingBits(unsigned int, unsigned int)
+void Etc::SortedBlockList::AddBlock(Etc::Block4x4*)
+void Etc::SortedBlockList::Sort()
 vrgrp
 vrnmd
 vstdlib
 vtexE1
 vtexH
 vtexL
+vtex]H
+vtex_file_format_h_schema.gen_cpp
 vtexu
 w=fD;m"
-wDA;X
+w?A;]
 wcscmp
 wcscmp@@GLIBC_2.2.5
 wcslen
 wcslen@@GLIBC_2.2.5
+wnL9u
 wx=%d, wy=%d, rx=%d, ry=%d
 x ;s|~
-x<IcH
-xGHcO
+x@HcO
 x[A\A]A^A_]
 x[]A\A]A^A_
-xxIcM
-z/u-H
-zD-dev
-zEuCH9
+x|LcG
+z%u#D
 zlib memory error
 zlib stream error
 zlib version error
-{`xQuxH
+zutil.c
+{0AWD
 {}()':
-|$ E1
+|$(Hc
 |$0E1
 |$0Hi
-|$@Mc
-|$HfA
+|$@H)
 |$X@u
+|$\Hi
 |$hu%H
-|3t)H
-|At7D9
-|P>~k
-|]J@E
-}>;w$
-~	ATI
-~&H97t@
-~)A;]
-~AVAUL
-~SHcC
-~WHcE
-~uLcu
-~vHcKPHc
+|$|Hc
+|*A9^
+|5H;I
+|5H;I0
+|B Hc
+~)H;7I
+~7;w$
+~CHcG
+~CHcW
+~IHcK
+~gLc]

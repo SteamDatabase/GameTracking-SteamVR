@@ -1,6 +1,31 @@
 {
+   "action_manifest_version": 1,
    "bindings" : {
+      "/actions/global" :  {
+         "poses" : [
+            {
+               "output" : "/actions/global/in/HandPoseLeft",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/global/in/HandPoseRight",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
+         "skeleton" : [
+            {
+               "output" : "/actions/global/in/handskeletonleft",
+               "path" : "/user/hand/left/input/skeleton/left"
+            },
+            {
+               "output" : "/actions/global/in/handskeletonright",
+               "path" : "/user/hand/right/input/skeleton/right"
+            }
+         ],
+         "sources" : []
+       },
       "/actions/default" : {
+         "skeleton" : [],
          "sources" : [
             {
                "inputs" : {
@@ -136,24 +161,6 @@
             },
             {
                "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/default/in/scroll"
-                  }
-               },
-               "mode" : "trackpad_scroll",
-               "path" : "/user/hand/left/input/trackpad"
-            },
-            {
-               "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/default/in/scroll"
-                  }
-               },
-               "mode" : "trackpad_scroll",
-               "path" : "/user/hand/right/input/trackpad"
-            },
-            {
-               "inputs" : {
                   "click" : {
                      "output" : "/actions/default/in/use"
                   }
@@ -198,7 +205,8 @@
                "mode" : "dpad_click",
                "parameters" : {
                   "deadzone_pct" : "50",
-                  "overlap_pct" : "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path" : "/user/hand/right/input/trackpad"
             },
@@ -220,7 +228,8 @@
                "mode" : "dpad_click",
                "parameters" : {
                   "deadzone_pct" : "50",
-                  "overlap_pct" : "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path" : "/user/hand/left/input/trackpad"
             }
@@ -373,9 +382,81 @@
                "path" : "/user/hand/left/input/grip"
             }
          ]
+      },
+      "/actions/scroll_discrete" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_discrete/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "discrete",
+                  "discrete_scroll_trackpad_noisethreshold_ontouch" : "0.16",
+                  "discrete_scroll_trackpad_noisethreshold_onmove" : "0.008",
+                  "discrete_scroll_trackpad_noisethreshold_onreversal" : "0.036",
+                  "discrete_scroll_trackpad_accumthreshold_ontouch" : "0.624",
+                  "discrete_scroll_trackpad_accumthreshold_onmove" : "0.224",
+                  "discrete_scroll_trackpad_accumthreshold_onreversal" : "0.672",
+                  "discrete_scroll_trackpad_slideandhold_bordertop" : "0.65",
+                  "discrete_scroll_trackpad_slideandhold_borderbottom" : "-0.60"
+               },
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_discrete/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "discrete",
+                  "discrete_scroll_trackpad_noisethreshold_ontouch" : "0.16",
+                  "discrete_scroll_trackpad_noisethreshold_onmove" : "0.008",
+                  "discrete_scroll_trackpad_noisethreshold_onreversal" : "0.036",
+                  "discrete_scroll_trackpad_accumthreshold_ontouch" : "0.624",
+                  "discrete_scroll_trackpad_accumthreshold_onmove" : "0.224",
+                  "discrete_scroll_trackpad_accumthreshold_onreversal" : "0.672",
+                  "discrete_scroll_trackpad_slideandhold_bordertop" : "0.65",
+                  "discrete_scroll_trackpad_slideandhold_borderbottom" : "-0.60"
+               },
+               "path" : "/user/hand/right/input/trackpad"
+            }
+         ]
+      },
+      "/actions/scroll_smooth" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_smooth/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "smooth"
+               },
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "scroll" : {
+                     "output" : "/actions/scroll_smooth/in/scroll"
+                  }
+               },
+               "mode" : "scroll",
+               "parameters" : {
+                  "scroll_mode" : "smooth"
+               },
+               "path" : "/user/hand/right/input/trackpad"
+            }
+         ]
       }
    },
    "controller_type" : "vive_controller",
-   "description" : "Default Vive Controller bindings for SteamVR Home",
-   "name" : "Vive Controller Bindings"
+   "description" : "Default Vive Controller bindings for SteamVR Home.",
+   "name" : "Default Vive Controller Bindings"
 }

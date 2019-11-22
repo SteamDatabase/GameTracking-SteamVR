@@ -154,5 +154,5 @@ function LoadDetails()
 function LaunchApp()
 {
 	var parentPanel = $( "#GameTrophyDetailsPanel" );
-	VRUtils.LaunchSteamApp( parentPanel.GetAttributeInt( "appid", 0 ) );
+	VRUtils.LaunchSteamApp( parentPanel.GetAttributeInt( "appid", 0 ), "trophy" );
 }

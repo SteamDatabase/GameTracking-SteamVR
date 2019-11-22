@@ -22,18 +22,57 @@ SteamToursNotifications.Visible
 {
 	width: 100%;
 	//height: 250px;
-	height: 300px;
+	//height: 300px;
 	margin-top: 40px;
 	padding-right: 20px;
 	border-radius: 5px;
 	border: 4px solid #ffffff00;
-	//background-color: #000000;
 	background-color: background_center_gradient;
 	flow-children: right;
 	opacity: 0;
 	transition-property: opacity;
 	transition-duration: shortduration;
 	transition-timing-function: bigpicture-ease-in-out;
+}
+
+.NotificationRow
+{
+	width: 100%;
+	//height: 300px;
+	flow-children: right;
+}
+
+.NotificationRow.DownloadingRow,
+.NotificationRow.DownloadedRow
+{
+	opacity: 0;
+	//visibility: collapse;
+}
+
+.Downloading .NotificationRow.DownloadingRow,
+.Downloaded .NotificationRow.DownloadedRow
+{
+	opacity: 1;
+}
+
+.Downloading .DownloadButtonRow,
+.Downloaded .DownloadButtonRow
+{
+	//opacity: 0;
+	visibility: collapse;
+}
+
+.DownloadingRow
+{
+	//border-top: 1px solid white;
+}
+
+.Notification.NotificationWithExtraRow
+{
+	padding-top: 30px;
+	//height: 400px;
+	height: 400px;
+	flow-children: down;
 }
 
 .NotificationImage
@@ -71,8 +110,11 @@ SteamToursNotifications.Visible
 	opacity: 1;
 }
 
+.DownloadingLabel,
+.DownloadedLabel,
 .NotificationText
 {
+	opacity: 1;
 	color: white;
 	//max-width: 80%;
 	width: 70%;
@@ -82,4 +124,65 @@ SteamToursNotifications.Visible
 	line-height: 70px;
 	text-align: left;
 	margin-bottom: 10px;
+}
+
+.DownloadingLabel,
+.DownloadedLabel
+{
+	font-size: 35px;
+	color: #ffffffaa;
+	margin-left: 40px;
+}
+
+.DownloadButtonRow
+{
+	horizontal-align: right;
+	flow-children: right;
+}
+
+#DownloadDestinationButton
+{
+	margin-left: 200px;
+}
+
+#DownloadDestinationButton
+{
+	margin-right: 30px;
+}
+
+#DismissDownloadNotificationButton
+{
+	horizontal-align: right;
+	margin-right: 40px;
+}
+
+
+#DownloadDestinationLabel
+{
+	//text-align: center;
+	text-align: center;
+	//margin-left: 35px;
+	font-size: 40px;
+	vertical-align: center;
+	//width: 80%;
+}
+
+#DismissDownloadNotificationLabel
+{
+	//text-align: center;
+	text-align: center;
+	//margin-left: 35px;
+	font-size: 40px;
+	vertical-align: center;
+	//width: 80%;
+}
+
+.DestinationDownloadProgressBar 
+{
+	margin-left: 40px;
+	margin-bottom: 40px;
+	width: 50%;
+	height: 30px;
+	vertical-align: center;
+	background-color: button_gradient_bright;
 }

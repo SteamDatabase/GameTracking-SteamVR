@@ -1,6 +1,31 @@
 {
+   "action_manifest_version": 1,
    "bindings": {
+      "/actions/global" :  {
+         "poses" : [
+            {
+               "output" : "/actions/global/in/HandPoseLeft",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/global/in/HandPoseRight",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
+         "skeleton" : [
+            {
+               "output" : "/actions/global/in/handskeletonleft",
+               "path" : "/user/hand/left/input/skeleton/left"
+            },
+            {
+               "output" : "/actions/global/in/handskeletonright",
+               "path" : "/user/hand/right/input/skeleton/right"
+            }
+         ],
+         "sources" : []
+       },
       "/actions/default": {
+         "skeleton" : [],
          "sources": [
             {
                "inputs": {
@@ -82,15 +107,6 @@
             },
             {
                "inputs": {
-                  "scroll": {
-                     "output": "/actions/default/in/scroll"
-                  }
-               },
-               "mode": "trackpad_scroll",
-               "path": "/user/hand/left/input/joystick"
-            },
-            {
-               "inputs": {
                   "pull": {
                      "output": "/actions/default/in/handcurl"
                   }
@@ -166,15 +182,6 @@
                   "haptic_amplitude" : "0"
                },
                "path": "/user/hand/right/input/grip"
-            },
-            {
-               "inputs": {
-                  "scroll": {
-                     "output": "/actions/default/in/scroll"
-                  }
-               },
-               "mode": "trackpad_scroll",
-               "path": "/user/hand/right/input/joystick"
             }
          ]
       },
@@ -195,7 +202,8 @@
                "mode": "dpad_touch",
                "parameters": {
                   "deadzone_pct": "90",
-                  "overlap_pct": "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path": "/user/hand/left/input/joystick"
             },
@@ -214,7 +222,8 @@
                "mode": "dpad_touch",
                "parameters": {
                   "deadzone_pct": "90",
-                  "overlap_pct": "0"
+                  "overlap_pct" : "0",
+                  "sticky" : "true"
                },
                "path": "/user/hand/right/input/joystick"
             }
@@ -393,9 +402,59 @@
                "path": "/user/hand/right/input/grip"
             }
          ]
+      },
+      "/actions/scroll_discrete": {
+         "sources": [
+            {
+               "path": "/user/hand/left/input/joystick",
+               "mode": "scroll",
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_discrete/in/scroll"
+                  }
+               }
+            },
+            {
+               "path": "/user/hand/right/input/joystick",
+               "mode": "scroll",
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_discrete/in/scroll"
+                  }
+               }
+            }
+         ]
+      },
+      "/actions/scroll_smooth": {
+         "sources": [
+            {
+               "path": "/user/hand/left/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
+            },
+            {
+               "path": "/user/hand/right/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
+            }
+         ]
       }
    },
    "controller_type": "oculus_touch",
-   "description": "",
-   "name": "SteamVR Home bindings for Oculus Touch"
+   "description": "Default Oculus Touch bindings for SteamVR Home.",
+   "name": "Default Oculus Touch Bindings"
 }
