@@ -32,12 +32,6 @@
       "scope": "global"
     },
     {
-      "name": "/actions/system/in/ShowPowerMenu",
-      "requirement" : "optional",
-      "type": "boolean",
-      "scope": "global"
-    },
-    {
       "name": "/actions/system/in/ToggleRoomView",
       "requirement" : "optional",
       "type": "boolean",

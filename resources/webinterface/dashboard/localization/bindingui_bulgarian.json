@@ -311,6 +311,7 @@
   "SecondaryControllerTab": "Допълнителни настройки",
   "SecondaryController_ReturnWithLeftHand": "Връщане на комбинациите с лявата ръка",
   "SecondaryController_ReturnWithRightHand": "Връщане на комбинациите с дясната ръка",
+  "SecondaryController_ReturnWithHead": "Връщане на комбинациите с ВР шлема",
   "Settings_ThumbstickDeadzone_Text": "Мъртва зона на аналоговия стик:",
   "Settings_ControllerSettings_Title": "Настройки на аналоговия стик",
   "Settings_ControllerSettings_Utilities": "Инструменти за контролер",

@@ -311,6 +311,7 @@
   "SecondaryControllerTab": "Tilleggsinnstillinger",
   "SecondaryController_ReturnWithLeftHand": "Returner bindinger med venstre hånd",
   "SecondaryController_ReturnWithRightHand": "Returner bindinger med høyre hånd",
+  "SecondaryController_ReturnWithHead": "Returner bindinger med hodesett",
   "Settings_ThumbstickDeadzone_Text": "Styrespakens dødsone:",
   "Settings_ControllerSettings_Title": "Styrespakeinnstillinger",
   "Settings_ControllerSettings_Utilities": "Kontrollerverktøy",

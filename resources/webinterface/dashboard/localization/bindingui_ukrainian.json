@@ -311,6 +311,7 @@
   "SecondaryControllerTab": "Додаткові налаштування",
   "SecondaryController_ReturnWithLeftHand": "Повернути розкладку для лівої руки",
   "SecondaryController_ReturnWithRightHand": "Повернути розкладку для правої руки",
+  "SecondaryController_ReturnWithHead": "Повернути розкладку для шолома",
   "Settings_ThumbstickDeadzone_Text": "Мертва зона стіка:",
   "Settings_ControllerSettings_Title": "Налаштування стіка",
   "Settings_ControllerSettings_Utilities": "Утиліти контролера",
