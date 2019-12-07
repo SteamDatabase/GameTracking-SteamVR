@@ -1371,7 +1371,7 @@
 "[english]FirmwareWizard_ShutdownForRecovery_TextContent"	"A component of your hardware requires a device update to restore it to an operational state.\n\nWould you like to continue?"
 "FirmwareWizard_UpdateBasestationWireless_Fail_Title"	"Aggiornamento della stazione di base non riuscito"
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_Title"	" Base Station Update Failed"
-"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText"	"L'aggiornamento di questo dispositivo non è riuscito."
+"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText"	"Aggiornamento del dispositivo non riuscito."
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_UpperText"	"This device update failed."
 "FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText"	"Se l'aggiornamento del dispositivo continua a fallire...<ul><li>Esci da SteamVR.<li>Scollega e ricollega il cavo di alimentazione della stazione di base.<li>Avvia SteamVR e riprova.</ul>"
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR, and try again.</ul>"
@@ -2591,5 +2591,11 @@
 "[english]BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
 "BS_PromotePowerManagement_ExitNow"	"Abbandona (%1)"
 "[english]BS_PromotePowerManagement_ExitNow"	"Exit Now (%1)"
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Aggiornamento della periferica"
+"[english]FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Peripheral Device Update"
+"BS_PowerManagement_Identify"	"Clicca per identificare la stazione di base."
+"[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
+"BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 richiede un aggiornamento del dispositivo per poter essere identificato."
+"[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
 }
 }

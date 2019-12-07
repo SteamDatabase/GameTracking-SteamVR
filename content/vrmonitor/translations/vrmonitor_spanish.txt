@@ -2586,5 +2586,11 @@
 "[english]BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
 "BS_PromotePowerManagement_ExitNow"	"Salir ahora (%1)"
 "[english]BS_PromotePowerManagement_ExitNow"	"Exit Now (%1)"
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Actualización de dispositivo periférico"
+"[english]FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Peripheral Device Update"
+"BS_PowerManagement_Identify"	"Haz clic para identificar la estación base."
+"[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
+"BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requiere una actualización del dispositivo para activar la identificación."
+"[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
 }
 }

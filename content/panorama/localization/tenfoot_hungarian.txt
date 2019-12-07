@@ -655,8 +655,8 @@
 "[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Nem átlátszó áteresztés"
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
-"VRSettingsBindingUITitle"	"Játékvezérlő-kiosztás"
-"[english]VRSettingsBindingUITitle"	"Controller Binding"
+"VRSettingsBindingUITitle"	"Játékvezérlő-beállítások"
+"[english]VRSettingsBindingUITitle"	"Controller Settings"
 "VRSettingsTrackerUITitle"	"Vive követők kezelése"
 "[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 "Panorama_Lang_Latam_Spanish"	"Latin-amerikai spanyol"
@@ -671,4 +671,6 @@
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"Várakozás az alkalmazás válaszára"
 "[english]App_Not_Responding"	"Waiting for application to respond"
+"VRSettingsDisplaySettingsTitle"	"Megjelenítési beállítások"
+"[english]VRSettingsDisplaySettingsTitle"	"Display Settings"
 }

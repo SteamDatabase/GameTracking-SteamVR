@@ -74,6 +74,16 @@
          ]
       },
       "/actions/lasermouse" : {
+         "haptics" : [
+            {
+               "output" : "/actions/lasermouse/out/haptic",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/lasermouse/out/haptic",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
          "poses" : [
             {
                "output" : "/actions/lasermouse/in/Pointer",
@@ -406,7 +416,7 @@
    "category" : "steamvr_input",
    "controller_type" : "knuckles",
    "description" : "",
-   "name" : "Default VR Dashboard bindings for Index Controllers",
+   "name" : "Default SteamVR Dashboard bindings for Index Controllers",
    "options" : {},
    "simulated_actions" : []
 }

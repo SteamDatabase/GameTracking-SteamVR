@@ -2610,5 +2610,11 @@ Güncelleme esnasında ana istasyondan herhangi bir şeyi çıkarmayın ya da an
 "[english]BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
 "BS_PromotePowerManagement_ExitNow"	"Şimdi Çık (%1)"
 "[english]BS_PromotePowerManagement_ExitNow"	"Exit Now (%1)"
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Çevre Aygıtı Güncellemesi"
+"[english]FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Peripheral Device Update"
+"BS_PowerManagement_Identify"	"Ana istasyonu tanımlamak için tıklayın."
+"[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
+"BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"Aygıt tanımlamasının etkinleştirilebilmesi için %1, aygıt güncellemesine gereksinim duyuyor."
+"[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
 }
 }

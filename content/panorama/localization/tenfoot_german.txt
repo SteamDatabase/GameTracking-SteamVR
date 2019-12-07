@@ -656,8 +656,8 @@
 "[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Undurchsichtiger Passthrough"
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
-"VRSettingsBindingUITitle"	"Controllerbelegung"
-"[english]VRSettingsBindingUITitle"	"Controller Binding"
+"VRSettingsBindingUITitle"	"Controllereinstellungen"
+"[english]VRSettingsBindingUITitle"	"Controller Settings"
 "VRSettingsTrackerUITitle"	"Vive-Tracker verwalten"
 "[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 "Panorama_Lang_Latam_Spanish"	"Spanisch (Lateinamerika)"
@@ -672,4 +672,6 @@
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"Warten auf Antwort der Anwendung"
 "[english]App_Not_Responding"	"Waiting for application to respond"
+"VRSettingsDisplaySettingsTitle"	"Anzeigeeinstellungen"
+"[english]VRSettingsDisplaySettingsTitle"	"Display Settings"
 }

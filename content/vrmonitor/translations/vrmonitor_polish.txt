@@ -2291,7 +2291,7 @@
 "[english]BS20_ConfigureChannel_ObservedInTracking"	"Observed in a prior tracking session."
 "BS20_ConfigureChannel_Identify"	"Kliknij, by zidentyfikować stację bazową."
 "[english]BS20_ConfigureChannel_Identify"	"Click to identify Base Station."
-"BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"	"%1 wymaga aktualizacji urządzenia w celu umożliwienia identyfikacji urządzenia."
+"BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"	"%1 wymaga aktualizacji urządzenia w celu włączenia funkcji identyfikacji urządzeń."
 "[english]BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
 "BS_PowerManagement_VisibleNowInTracking"	"Widoczne teraz w tej sesji śledzenia."
 "[english]BS_PowerManagement_VisibleNowInTracking"	"Visible now in this tracking session."
@@ -2607,5 +2607,11 @@
 "[english]BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
 "BS_PromotePowerManagement_ExitNow"	"Wyjdź teraz (%1)"
 "[english]BS_PromotePowerManagement_ExitNow"	"Exit Now (%1)"
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Aktualizacja urządzenia peryferyjnego"
+"[english]FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Peripheral Device Update"
+"BS_PowerManagement_Identify"	"Kliknij, by zidentyfikować stację bazową."
+"[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
+"BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 wymaga aktualizacji urządzenia w celu włączenia funkcji identyfikacji urządzeń."
+"[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
 }
 }

@@ -656,7 +656,7 @@
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Neprůhledné objekty"
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
 "VRSettingsBindingUITitle"	"Nastavení ovladače"
-"[english]VRSettingsBindingUITitle"	"Controller Binding"
+"[english]VRSettingsBindingUITitle"	"Controller Settings"
 "VRSettingsTrackerUITitle"	"Spravovat sledovací zařízení"
 "[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 "Panorama_Lang_Latam_Spanish"	"Latinskoamerická španělština"
@@ -671,4 +671,6 @@
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"Čeká se na odpověď aplikace"
 "[english]App_Not_Responding"	"Waiting for application to respond"
+"VRSettingsDisplaySettingsTitle"	"Nastavení displejů"
+"[english]VRSettingsDisplaySettingsTitle"	"Display Settings"
 }

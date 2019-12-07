@@ -636,4 +636,8 @@
 "[english]KnucklesCapsenseMode_0"	"Finger Tracking (Default)"
 "KnucklesCapsenseMode_1"	"손가락 트래킹 사용안함"
 "[english]KnucklesCapsenseMode_1"	"Finger Tracking Disabled"
+"VRSettingsBindingUITitle"	"컨트롤러 설정"
+"[english]VRSettingsBindingUITitle"	"Controller Settings"
+"VRSettingsDisplaySettingsTitle"	"디스플레이 설정"
+"[english]VRSettingsDisplaySettingsTitle"	"Display Settings"
 }

@@ -1117,7 +1117,7 @@
 "[english]Settings_Audio_AudioRecord"	"Audio input device"
 "Settings_Audio_Off"	"Когато не се използва SteamVR…"
 "[english]Settings_Audio_Off"	"When not use SteamVR..."
-"Settings_Audio_HDMIGain"	"Включване на намаляването за подсилвания звук от VIVE HDMI"
+"Settings_Audio_HDMIGain"	"Включване на намаляването за подсилвания звук от VIVE HDMI аудио"
 "[english]Settings_Audio_HDMIGain"	"Enable Gain reduction on VIVE HDMI Audio"
 "Settings_Audio_LeaveAlone"	"(Не сменяйте устройството)"
 "[english]Settings_Audio_LeaveAlone"	"(Do not change device)"
@@ -2596,5 +2596,11 @@
 "[english]BS_PromotePowerManagement_Explanation2"	"<br><font color=#ffffff>* NOT RECOMMENDED for shared tracking spaces with multiple SteamVR users.</font>"
 "BS_PromotePowerManagement_ExitNow"	"Излизане сега (%1)"
 "[english]BS_PromotePowerManagement_ExitNow"	"Exit Now (%1)"
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Обновление на периферно устройство"
+"[english]FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate"	"Peripheral Device Update"
+"BS_PowerManagement_Identify"	"Кликване за идентифициране на базова станция."
+"[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
+"BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 изисква обновление на устройство, за да се позволи идентифицирането."
+"[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
 }
 }

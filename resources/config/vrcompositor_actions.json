@@ -86,6 +86,10 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/lasermouse/out/Haptic",
+      "type": "vibration"
+    },
+    {
       "name": "/actions/scroll_discrete/in/Scroll",
       "requirement" : "optional",
       "hide_callout" : true,

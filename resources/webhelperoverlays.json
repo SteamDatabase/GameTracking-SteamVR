@@ -9,7 +9,7 @@
 		"url": "/dashboard/messageoverlay.html",
 		"overlay_key": "system.messageoverlay",
 		"type": "dashboard",
-		"pixel_size": [ 800, 600 ]
+		"pixel_size": [ 1024, 600 ]
 	},
 	"progressindicator": {
 		"url": "/dashboard/progressindicator.html",

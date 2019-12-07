@@ -655,7 +655,7 @@
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaco"
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
 "VRSettingsBindingUITitle"	"Configuração do controle"
-"[english]VRSettingsBindingUITitle"	"Controller Binding"
+"[english]VRSettingsBindingUITitle"	"Controller Settings"
 "VRSettingsTrackerUITitle"	"Gerenciar rastreadores do Vive"
 "[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 "Panorama_Lang_Latam_Spanish"	"Espanhol (América Latina)"
@@ -670,4 +670,6 @@
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"Esperando resposta do aplicativo"
 "[english]App_Not_Responding"	"Waiting for application to respond"
+"VRSettingsDisplaySettingsTitle"	"Exibir configurações"
+"[english]VRSettingsDisplaySettingsTitle"	"Display Settings"
 }
