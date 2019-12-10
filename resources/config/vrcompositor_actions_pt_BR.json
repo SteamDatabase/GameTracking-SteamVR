@@ -21,8 +21,8 @@
 	"/actions/lasermouse/in/trackpadscroll": "Deslizar painel",
 	"/actions/lasermouse/in/enter": "Confirmar",
 	"/actions/lasermouse/in/pointer": "Apontador laser do mouse",
-	"/actions/scroll_discrete/in/scroll": "Scroll Panel",
-	"/actions/scroll_smooth/in/scroll": "Scroll Panel",
+	"/actions/scroll_discrete/in/scroll": "Deslizar painel",
+	"/actions/scroll_smooth/in/scroll": "Deslizar painel",
 	"/actions/lasermouse_secondary/in/switchlaserhand": "Tornar mão ativa",
 	"/actions/dualanalog/in/rightclick": "Clique de teclado direito",
 	"/actions/dualanalog/in/leftclick": "Clique de teclado esquerdo",
@@ -47,6 +47,6 @@
 	"/actions/lasermouse_secondary": "Mouse a laser secundário",
 	"/actions/dualanalog": "Entrada de teclado",
 	"/actions/system": "Ações do sistema",
-	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
-	"/actions/scroll_smooth": "Trackpad-style Scrolling"
+	"/actions/scroll_discrete": "Rolagem com a roda do mouse",
+	"/actions/scroll_smooth": "Rolagem com o trackpad"
 }

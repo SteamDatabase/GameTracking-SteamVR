@@ -17,7 +17,7 @@
 	"PowerMenuResetSeatedPosition": "重置就座状态",
 	"PowerMenuTurnOffController": "关闭控制器",
 	"PowerMenuQuitSceneApp": "退出 %1$s",
-	"PowerMenuQuitSceneApp_NoApp": "Exit App",
+	"PowerMenuQuitSceneApp_NoApp": "退出应用",
 	"PowerMenuExitVR": "退出 VR",
 	"PowerMenuCancel": "取消",
 	"PowerMenuHeader": "电源菜单",
@@ -64,6 +64,6 @@
 	"OriginString_ControllerSource": "%2$s %3$s",
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
-	"KeyboardDone": "Done",
+	"KeyboardDone": "确定",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

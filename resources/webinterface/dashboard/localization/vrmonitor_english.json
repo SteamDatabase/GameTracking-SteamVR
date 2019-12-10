@@ -78,6 +78,7 @@
 	"Settings_SectionTitle_Camera": "Camera",
 	"Settings_SectionTitle_Bluetooth": "Bluetooth",
 	"Settings_SectionTitle_Power": "Power",
+	"Settings_SectionTitle_StartupShutdown": "Startup / Shutdown",
 	"Settings_SectionTitle_Home": "Home",
 	"Settings_SectionTitle_PlayArea": "Play Area",
 	"Settings_SectionTitle_BaseStation": "Base Stations",
@@ -232,12 +233,19 @@
 	"Settings_General_Confirm": "Confirm",
 	"Settings_General_Close": "Close",
 	"Settings_General_CalibrateThumbstick": "Calibrate",
+	"Settings_General_CalibrateThumbstick_ConnectAController": "Connect a controller with a thumbstick.",
 	"Settings_General_NotEnoughSamples" : "Please press up on the thumbstick at least %1$s more times to complete calibration.",
 	"Settings_General_InviteMoreSamples" : "Calculated angle of %1$s°. Keep pressing up to refine that value or press Confirm to accept this calibration.",
 	"Settings_General_LeftThumbstickAngle": "Left Thumbstick Angle: %1$s°",
 	"Settings_General_RightThumbstickAngle": "Right Thumbstick Angle: %1$s°",
+	"Settings_General_LeftThumbstickAngle_NoValue": "Left Thumbstick Angle",
+	"Settings_General_RightThumbstickAngle_NoValue": "Right Thumbstick Angle",
 
 	"Settings_Dashboard_ShowProgressIndicator" : "Long-press progress indicator",
+	"Settings_Dashboard_Position" : "Dashboard Position",
+	"Settings_Classic" : "Classic",
+	"Settings_Near" : "Near (beta)",
+	"Settings_DesktopScale" : "Desktop Scale",
 
 	"SettingsTime_5s": "5 Seconds",
 	"SettingsTime_30s": "30 Seconds",
@@ -313,6 +321,9 @@
 
 	"Settings_PerApplication_VideoSettings": "Per-Application Video Settings",
 
+	"Settings_ChooseStartupOverlayApps": "Choose Startup Overlay Apps",
+	"Settings_StartTheseOverlayAppsOnLaunch": "Start These Overlay Apps On Launch:",
+
 	"Settings_ActiveController": "Active Controller",
 	"Settings_EditBinding": "Edit This Binding",
 	"Settings_EditBinding_ChooseAnother": "Choose Another",
@@ -322,5 +333,7 @@
 	"Settings_ActiveControllerBinding": "Active Controller Binding",
 	"Settings_ActiveBinding": "Active Binding",
 	"Settings_ShowThumbstickSettings": "Edit Thumbstick Settings",
-	"Settings_ThumbstickSettings": "Thumbstick Settings"
+	"Settings_ThumbstickSettings": "Thumbstick Settings",
+	"Settings_Number_Selected": "%1$s Selected"
+
 }

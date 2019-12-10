@@ -17,7 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Palauta istuma-asento",
 	"PowerMenuTurnOffController": "Sammuta controlleri",
 	"PowerMenuQuitSceneApp": "Sulje %1$s",
-	"PowerMenuQuitSceneApp_NoApp": "Poistu ohjelmasta",
+	"PowerMenuQuitSceneApp_NoApp": "Sulje ohjelma",
 	"PowerMenuExitVR": "Sulje VR",
 	"PowerMenuCancel": "Peruuta",
 	"PowerMenuHeader": "Virranhallintavalikko",
