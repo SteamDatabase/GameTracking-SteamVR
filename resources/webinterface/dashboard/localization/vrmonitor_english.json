@@ -158,7 +158,9 @@
 
 	"Settings_Advanced_MotionSmoothing_Header": "Motion Smoothing",
 	"Settings_Advanced_MotionSmoothing_Description": "Synthesizes new frames to maintain a good experience when the running application cannot keep up.",
-	"Settings_Advanced_MotionSmoothing_Disabled": "Motion Smoothing requires asynchronous reprojection support.",
+	"Settings_Advanced_MotionSmoothing_Disabled": "Motion smoothing not supported on this GPU / driver version (requires asynchronous reprojection support).",
+	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "Motion Smoothing is not supported on older versions of Windows.",
+
 	"Settings_Advanced_Supersampling_Auto": "Auto",
 	"Settings_Advanced_Supersampling_Custom": "Custom",
 	"Settings_Advanced_Supersampling_Header": "Render Resolution",
