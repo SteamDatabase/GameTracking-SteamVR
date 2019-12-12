@@ -18,13 +18,15 @@
 
 	"pairing_selectdevice_title" : "Select your controller type",
 
-	"pairingdevice_knuckles_controllername" : "Index Controller",
+	"pairingdevice_knuckles_controllername" : "Valve Index Controller",
 	"pairingdevice_vivewand_shortname" : "HTC Vive Controller",
 	"pairingdevice_vivetracker_shortname" : "HTC Vive Tracker",
+	"pairingdevice_logitechvrinkpilotedition_shortname" : "Logitech VR Ink Pilot Edition",
 
-	"pairingdevice_a_knuckles_controllername" : "an Index Controller",
+	"pairingdevice_a_knuckles_controllername" : "a Valve Index Controller",
 	"pairingdevice_a_vivewand_shortname" : "an HTC Vive Controller",
 	"pairingdevice_a_vivetracker_shortname" : "an HTC Vive Tracker",
+	"pairingdevice_a_logitechvrinkpilotedition_shortname" : "a Logitech VR Ink Pilot Edition",
 
 	"pair_controller_title": "Pair %1$s",
 
@@ -38,6 +40,7 @@
 	"pairing_button_b": "B button",
 
 	"pairing_knuckles_instructions_press": "Press and hold both the %1$s and %2$s until the light on the controller begins blinking blue...",
+	"pairing_pen_instructions_press": "Press and hold both the %1$s and %2$s until the light on the pen begins blinking blue...",
 	"pairing_tracker_instructions_press": "Press and hold the %1$s until the light on the tracker begins blinking blue...",
 
 	"pairing_button_differentcontroller": "I want to pair a different type of controller...",
