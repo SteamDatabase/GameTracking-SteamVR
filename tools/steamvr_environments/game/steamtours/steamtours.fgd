@@ -67,7 +67,7 @@
 
 
 @PointClass
-	iconsprite( "materials/editor/env_fog_controller.vmat" )
+	iconsprite( "materials/editor/env_fog_controller.vmat" ) tags( Lighting )
 	base( Targetname )
 	gradientfog { textureRequired = true }
 	global( gradient_fog )

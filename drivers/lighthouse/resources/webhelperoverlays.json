@@ -3,6 +3,7 @@
 		"url": "/lighthouse/webinterface/pairing.html",
 		"type": "window",
 		"preload" :  true,
+		"valid_without_hmd": true,
 		"pixel_size": [ 800, 600 ]
 	}
 }

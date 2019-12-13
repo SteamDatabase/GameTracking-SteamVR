@@ -36,8 +36,7 @@
       "binding_url": "bindings_gamepad.json"
     }
   ],
-  "actions":
-  [
+  "actions": [
     {
       "name": "/actions/global/in/HandPoseLeft",
       "type": "pose"
@@ -70,6 +69,10 @@
     },
     {
       "name": "/actions/default/in/Use",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/UseGrip",
       "type": "boolean"
     },
     {
@@ -154,14 +157,18 @@
     },
     {
       "name": "/actions/scroll_discrete/in/Scroll",
-      "requirement" : "optional",
-      "hide_callout" : true,
+      "requirement": "optional",
+      "hide_callout": true,
       "type": "vector2"
     },
     {
       "name": "/actions/scroll_smooth/in/Scroll",
-      "requirement" : "optional",
+      "requirement": "optional",
       "type": "vector2"
+    },
+    {
+      "name": "/actions/global/in/HapticVibration",
+      "type": "vibration"
     }
   ],
   "action_sets":
@@ -207,10 +214,12 @@
       "/actions/global/in/HandPoseRight": "Hand Pose Right",
       "/actions/global/in/HandSkeletonLeft": "Hand Skeleton Left",
       "/actions/global/in/HandSkeletonRight": "Hand Skeleton Right",
+      "/actions/global/in/HapticVibration": "Haptic Vibration",
       "/actions/default/in/ToggleMenu": "Toggle Menu",
       "/actions/default/in/lclick": "Left Click",
       "/actions/default/in/rclick": "Right Click",
       "/actions/default/in/Use": "Use",
+      "/actions/default/in/UseGrip": "Use Grip",
       "/actions/default/in/ShowInventory": "Show Inventory",
       "/actions/default/in/HandCurl": "Hand Curl",
       "/actions/default/in/Pad": "Pad",

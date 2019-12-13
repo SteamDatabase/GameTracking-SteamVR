@@ -12,8 +12,8 @@ dev/point_worldtext_fullbright_vmat_g_tselfillummask_b4ea187a.vtex_c CRC:00d3f00
 dev/vgui/materials/renderui.vmat_c CRC:003fd9dc84 size:3568
 materials/default/default_color_tga_47b1af3d.vtex_c CRC:0049c6617a size:1756
 materials/default/default_metal_tga_8fbc2820.vtex_c CRC:0082835d8d size:1980
-materials/default/default_normal_tga_7652cb.vtex_c CRC:0017377db3 size:1972
-materials/default/default_normal_tga_b3f4ec4c.vtex_c CRC:006d196127 size:2148
+materials/default/default_normal_tga_7652cb.vtex_c CRC:00ab883e44 size:1988
+materials/default/default_normal_tga_b3f4ec4c.vtex_c CRC:0078b1d716 size:2164
 materials/deferred_fog/fog_apply.vmat_c CRC:009dc27a93 size:2496
 materials/deferred_fog/ground_fog_accumulate.vmat_c CRC:00513755b6 size:2528
 materials/deferred_lights/irradiancevolume.vmat_c CRC:00ef7170d0 size:2496
@@ -45,8 +45,7 @@ materials/dev/gaussian_bloom_blur.vmat_c CRC:00098f9ecb size:2296
 materials/dev/generalfilter.vmat_c CRC:001e896489 size:2464
 materials/dev/generalfilter_additive.vmat_c CRC:00f4d52c39 size:2520
 materials/dev/glowproperty.vmat_c CRC:00aa50bb1d size:3464
-materials/dev/gray_50.vmat_c CRC:003f36d311 size:5608
-materials/dev/gray_50_color_tga_4b0d64ba.vtex_c CRC:001dcef55f size:176492
+materials/dev/gray_50.vmat_c CRC:0099f5a6e4 size:4574
 materials/dev/hdrpostprocessing.vmat_c CRC:0038e21bb9 size:2488
 materials/dev/morphcomposite.vmat_c CRC:005b2976ae size:3200
 materials/dev/occluder_visualization.vmat_c CRC:00c58cf6b8 size:2624
@@ -85,7 +84,7 @@ materials/dev/volumetric_fog_create_density.vmat_c CRC:00afe10c3f size:2872
 materials/dev/volumetric_fog_integrate.vmat_c CRC:0058f0236d size:2864
 materials/dev/whitepanel_color_tga_a7576cc4.vtex_c CRC:0083cdedf0 size:176492
 materials/effects/lightcookies.vtex_c CRC:00f5be0000 size:67876
-materials/error.vmat_c CRC:001401469b size:2864
+materials/error.vmat_c CRC:00cb19e34d size:1408
 materials/grass/grasstile.vmat_c CRC:00eabc5ac6 size:2872
 materials/loading_background.vmat_c CRC:00fb12a6c1 size:3360
 materials/loading_background_color_tga_9403ef97.vtex_c CRC:0084d75c72 size:1399844
@@ -124,7 +123,7 @@ models/dev/materialforerrormodel_vmat_g_tcolor_a00ef19e.vtex_c CRC:0006da843c si
 models/dev/sphere.vmdl_c CRC:00955d3198 size:3580
 panorama/default_keybinds.cfg CRC:00dc580f80 size:1112
 panorama/layout/base_world_panel.vxml_c CRC:0092df86dd size:548
-panorama/localization/panorama_english.txt CRC:00c538dedb size:5122
+panorama/localization/panorama_english.txt CRC:00696f4f99 size:5242
 panorama/panorama_config.txt CRC:00ea9e70d4 size:222
 panorama/styles/base_world_panel.vcss_c CRC:00bbb1f2d7 size:436
 panorama/window_keybinds.cfg CRC:0000000000 size:0
@@ -135,8 +134,8 @@ particles/entity/env_explosion/explosion_firecloud.vpcf_c CRC:005e10ca0a size:13
 particles/entity/env_explosion/explosion_smoke.vpcf_c CRC:00345e204e size:1490
 particles/error/error.vpcf_c CRC:0090fcbd65 size:860
 resource/keybindings_english.txt CRC:00e52d3f20 size:196
-resource/valve_english.txt CRC:003f04a057 size:57626
-resource/vgui_english.txt CRC:0075119d4d size:17758
+resource/valve_english.txt CRC:003f04ece9 size:67180
+resource/vgui_english.txt CRC:007dc3dd1d size:17678
 resourcemanifests/addon_resources.vrman_c CRC:006af7e63b size:475
 scripts/soundmixers.txt CRC:001f203e8f size:36664
 scripts/soundscapes_manifest.txt CRC:0093c17218 size:61
@@ -156,9 +155,9 @@ scripts/vscripts/utils/utilsinit.lua CRC:00d3282585 size:2302
 scripts/vscripts/utils/vscriptinit.lua CRC:00e9fd6bfd size:20747
 soundevents/soundevents_addon.vsndevts_c CRC:00e20d89de size:325
 soundevents/soundevents_manifest.vrman_c CRC:009a3b72ff size:480
-soundstacks/mixgraph.vmix_c CRC:008c975486 size:14873
+soundstacks/mixgraph.vmix_c CRC:0071ead02d size:6383
 soundstacks/sosstrings.txt CRC:00c6684f39 size:168
-soundstacks/soundstacks_core.vsndstck_c CRC:004b60b801 size:32718
+soundstacks/soundstacks_core.vsndstck_c CRC:00f56fb0a0 size:37258
 soundstacks/soundstacks_manifest.vrman_c CRC:00ab29bae5 size:480
 surfaceproperties/surfaceproperties.vsurf_c CRC:0019e606fb size:7436
 textures/dev/blue_noise_256.vtex_c CRC:00eb315605 size:263908

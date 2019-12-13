@@ -44,8 +44,9 @@
 
 @PointClass
 	iconsprite( "materials/editor/light_importance_volume.vmat" )
-	box_oriented( box_mins, box_maxs )
+	box_oriented( box_mins, box_maxs, autoCenter )
 	bakelightimportancevolume()
+	tags( Lighting )
 = light_importance_volume
 [
 	box_mins(vector) : "Box Mins" : "-512 -512 -512"
@@ -54,13 +55,13 @@
 
 @BaseClass = IndoorOutdoorLevel
 [
-	indoor_outdoor_level(choices) : "Indoor-Outdoor" : "0" : "" = 
+	indoor_outdoor_level(choices) : "Priority" : "0" : "If multiple volumes contain an object, the highest priority volume takes precedence." = 
 	[
-		"-2" : "Outdoor Space"
-		"-1" : "Outdoor Space (Confined)"
-		"0" : "Default"
-		"1" : "Indoor Space"
-		"2" : "Indoor Space (Confined)"
+		"-2" : "Lowest"
+		"-1" : "Low"
+		"0" : "Normal"
+		"1" : "High"
+		"2" : "Highest"
 	]
 ]
 
@@ -70,7 +71,7 @@
 	input SetBrightness(float) : "Set brightness"
 ]
 
-@BaseClass = BaseLightProbeVolume
+@BaseClass tags( Lighting ) = BaseLightProbeVolume
 [
 	lightprobetexture(resource:texture) : "Light Probe Texture" : "" : "Name of the light probe texture"
 	box_mins(vector) : "Box Mins" : "-72 -72 -72"
@@ -82,10 +83,10 @@
 		"48.0" : "Medium Resolution"
 		"108.0" : "Low Resolution"
 	]
-	flood_fill(boolean) : "Capture Interior Lighting" : 1
+	flood_fill(boolean) : "Ignore Unreachable Space" : 1
 	light_probe_volume_from_cubemap(boolean) : "Calculate Diffuse Lighting Using Cubemap" : 0
 	lightgroup(string) : "Light Group" : "" : "Semicolon-delimited list of light groups to affect"
-	static(boolean) : "Is Static" : "1" : "Cannot be enabled, disabled or moved at runtime"
+	moveable(boolean) : "Moveable" : "0" : "Can be moved, parented, enabled, or disabled at runtime."
 	storage(choices) : "Storage" : "-1" : "" =
 	[
 		"-1" : "Default"
@@ -94,13 +95,13 @@
 	]
 ]
 
-@BaseClass = BaseCubemap
+@BaseClass tags( Lighting ) = BaseCubemap 
 [
 	cubemaptexture(resource:texture) : "Cubemap Texture" : "" : "Name of the cubemap texture"
 	bakenearz(float) : "Bake Near Z" : "2.0" : "Near clip plane used for the camera when baking the cube map"
 	bakefarz(float) : "Bake Far Z" : "4096.0" : "Far clip plane used for the camera when baking the cube map"
 	lightgroup(string) : "Light Group" : "" : "Semicolon-delimited list of light groups to affect"
-	static(boolean) : "Is Static" : "1" : "Cannot be enabled, disabled or moved at runtime"
+	moveable(boolean) : "Moveable" : "0" : "Can be moved, parented, enabled, or disabled at runtime."
 ]
 
 @PointClass

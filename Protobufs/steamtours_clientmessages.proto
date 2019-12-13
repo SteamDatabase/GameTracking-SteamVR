@@ -30,6 +30,7 @@ enum ESteamToursClientMessages {
 	CM_SpawnVROverlay = 524;
 	CM_SetControllerVRInfo = 525;
 	CM_NotifyWorkshopItemState = 526;
+	CM_SetSkin = 527;
 }
 
 message CClientMsg_SpawnPhysicsProp {
@@ -205,5 +206,10 @@ message CClientMsg_NotifyWorkshopItemState {
 	optional uint64 fileid = 1;
 	optional bool force_fileid = 2;
 	optional float download_amount = 3;
+}
+
+message CClientMsg_SetSkin {
+	optional uint32 ent_ehandle = 1;
+	optional uint32 skin_token = 2;
 }
 

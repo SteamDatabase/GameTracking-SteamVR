@@ -9,10 +9,23 @@
 			m_Ext = "vanim"
 			m_IconLg = "toolimages:assettypes/animation_lg.png"
 			m_IconSm = "toolimages:assettypes/animation_sm.png"
-			m_ResourceModule = "animationsystem"
 			m_bHideTypeByDefault = true
 			m_CompilerIdentifier = "CompileAnimation"
 			m_bCanBeAChildCompile = true
+
+			m_Blocks =
+			[
+				{
+					m_ResourceVersion = 0
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
+				},
+				{
+					m_ResourceVersion = 1
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+			]
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
@@ -21,10 +34,23 @@
 			m_Ext = "vagrp"
 			m_IconLg = "toolimages:assettypes/animation_group_lg.png"
 			m_IconSm = "toolimages:assettypes/animation_group_sm.png"
-			m_ResourceModule = "animationsystem"
 			m_bHideTypeByDefault = true
 			m_CompilerIdentifier = "CompileAnimGroup"
 			m_bCanBeAChildCompile = true
+
+			m_Blocks =
+			[
+				{
+					m_ResourceVersion = 0
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
+				},
+				{
+					m_ResourceVersion = 1
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+			]
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
@@ -33,10 +59,23 @@
 			m_Ext = "vseq"
 			m_IconLg = "toolimages:assettypes/animation_lg.png"
 			m_IconSm = "toolimages:assettypes/animation_sm.png"
-			m_ResourceModule = "animationsystem"
 			m_bHideTypeByDefault = true
 			m_CompilerIdentifier = "CompileSequence"
 			m_bCanBeAChildCompile = true
+
+			m_Blocks =
+			[
+				{
+					m_ResourceVersion = 0
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
+				},
+				{
+					m_ResourceVersion = 1
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+			]
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
@@ -45,7 +84,6 @@
 			m_Ext = "vpcf"
 			m_IconLg = "toolimages:assettypes/particles_lg.png"
 			m_IconSm = "toolimages:assettypes/particles_sm.png"
-			m_ResourceModule = "particles"
 			m_CompilerIdentifier = "CompileParticle"
 			m_bPrefersLivePreview = true
 			m_Blocks =
@@ -63,7 +101,6 @@
 			m_Ext = "vmat"
 			m_IconLg = "toolimages:assettypes/material_lg.png"
 			m_IconSm = "toolimages:assettypes/material_sm.png"
-			m_ResourceModule = "materialsystem2"
 			m_CompilerIdentifier = "CompileMaterial"
 			m_AutoTags = 
 			[
@@ -136,7 +173,6 @@
 			m_Ext = "vmesh"
 			m_IconLg = "toolimages:assettypes/mesh_lg.png"
 			m_IconSm = "toolimages:assettypes/mesh_sm.png"
-			m_ResourceModule = "meshsystem"
 			m_bHideTypeByDefault = true
 			m_bAutoRecompile = true
 			m_CompilerIdentifier = "CompileRenderMesh"
@@ -155,7 +191,6 @@
 			m_Ext = "vtex"
 			m_IconLg = "toolimages:assettypes/texture_lg.png"
 			m_IconSm = "toolimages:assettypes/texture_sm.png"
-			m_ResourceModule = "rendersystemdx9"
 			m_CompilerIdentifier = "CompileTexture"
 			m_bCanBeAChildCompile = true
 			m_Blocks =
@@ -173,9 +208,18 @@
 			m_IconLg = "toolimages:assettypes/model_lg.png"
 			m_IconSm = "toolimages:assettypes/model_sm.png"
 			m_Ext = "vmdl"
-			m_ResourceModule = "worldrenderer"
 			m_Blocks =
 			[
+				{
+					m_ResourceVersion = 0
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
+				},
+				{
+					m_ResourceVersion = 1
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
 				{
 					m_BlockID = "CTRL" // control block
 					m_Encoding = "RESOURCE_ENCODING_KV3"
@@ -190,28 +234,58 @@
 				},
 				{
 					m_BlockID = "MRPH" // morph
+					m_ResourceVersion = 0
 					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
 					m_IntrospectedRootStruct = "MorphSetData_t"
 				},
 				{
 					m_BlockID = "ASEQ" // anim seq
+					m_ResourceVersion = 0
 					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
 					m_IntrospectedRootStruct = "SequenceGroupResourceData_t"
 				},
 				{
 					m_BlockID = "AGRP" // anim group
+					m_ResourceVersion = 0
 					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
 					m_IntrospectedRootStruct = "AnimationGroupResourceData_t"
 				},
 				{
 					m_BlockID = "ANIM" // anim data
+					m_ResourceVersion = 0
 					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
 					m_IntrospectedRootStruct = "AnimationResourceData_t"
 				},
 				{
 					m_BlockID = "PHYS" // physics data
+					m_ResourceVersion = 0
 					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
 					m_IntrospectedRootStruct = "VPhysXAggregateData_t"
+				},
+				{
+					m_BlockID = "MRPH" // morph
+					m_ResourceVersion = 1
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+				{
+					m_BlockID = "ASEQ" // anim seq
+					m_ResourceVersion = 1
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+				{
+					m_BlockID = "AGRP" // anim group
+					m_ResourceVersion = 1
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+				{
+					m_BlockID = "ANIM" // anim data
+					m_ResourceVersion = 1
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+				{
+					m_BlockID = "PHYS" // physics data
+					m_ResourceVersion = 1
+					m_Encoding = "RESOURCE_ENCODING_KV3"
 				},
 			]
 			m_CompilerIdentifier = "CompileModel"
@@ -223,18 +297,30 @@
 			m_IconLg = "toolimages:assettypes/physics_lg.png"
 			m_IconSm = "toolimages:assettypes/physics_sm.png"
 			m_Ext = "vphys"
-			m_ResourceModule = "vphysics2"
 			m_bHideTypeByDefault = true
 			m_bIgnoreCompiledState = true
 			m_CompilerIdentifier = "CompileVPhysXData"
 			m_bCanBeAChildCompile = true
+
+			m_Blocks =
+			[
+				{
+					m_ResourceVersion = 0
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
+				},
+				{
+					m_ResourceVersion = 1
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+			]
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
 			m_Name = "sound_asset"
 			m_FriendlyName = "Sound"
 			m_Ext = "vsnd"
-			m_ResourceModule = "soundsystem"
 			m_AdditionalExtensions = 
 			[
 				"mp3",
@@ -253,17 +339,29 @@
 			m_IconLg = "toolimages:assettypes/morph_lg.png"
 			m_IconSm = "toolimages:assettypes/morph_sm.png"
 			m_Ext = "vmorf"
-			m_ResourceModule = "meshsystem"
 			m_bHideTypeByDefault = true
 			m_CompilerIdentifier = "CompileMorph"
 			m_bCanBeAChildCompile = true
+
+			m_Blocks =
+			[
+				{
+					m_ResourceVersion = 0
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
+				},
+				{
+					m_ResourceVersion = 1
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+			]
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
 			m_Name = "resourcemanifest_asset"
 			m_FriendlyName = "ResourceManifest"
 			m_Ext = "vrman"
-			m_ResourceModule = "resourcesystem"
 			m_bHideTypeByDefault = true
 			m_bContentFileIsText = true
 			m_CompilerIdentifier = "CompileResourceManifest"
@@ -273,27 +371,52 @@
 			m_Name = "world_asset"
 			m_FriendlyName = "World"
 			m_Ext = "vwrld"
-			m_ResourceModule = "worldrenderer"
 			m_bHideTypeByDefault = true
 			m_CompilerIdentifier = "CompileWorld"
 			m_bPreventDirectCompile = true
+
+			m_Blocks =
+			[
+				{
+					m_ResourceVersion = 0
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
+				},
+				{
+					m_ResourceVersion = 1
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+			]
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
 			m_Name = "worldnode_asset"
 			m_FriendlyName = "WorldNode"
 			m_Ext = "vwnod"
-			m_ResourceModule = "worldrenderer"
 			m_bHideTypeByDefault = true
 			m_CompilerIdentifier = "CompileWorldNode"
 			m_bPreventDirectCompile = true
+
+			m_Blocks =
+			[
+				{
+					m_ResourceVersion = 0
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_INTROSPECTED"
+				},
+				{
+					m_ResourceVersion = 1
+					m_BlockID = "DATA"
+					m_Encoding = "RESOURCE_ENCODING_KV3"
+				},
+			]
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
 			m_Name = "worldvis_asset"
 			m_FriendlyName = "WorldVisibility"
 			m_Ext = "vvis"
-			m_ResourceModule = "worldrenderer"
 			m_bHideTypeByDefault = true
 			m_CompilerIdentifier = "CompileMapVisibility"
 		},
@@ -302,7 +425,6 @@
 			m_Name = "entitylump_asset"
 			m_FriendlyName = "EntityLump"
 			m_Ext = "vents"
-			m_ResourceModule = "worldrenderer"
 			m_bHideTypeByDefault = true
 			m_CompilerIdentifier = "CompileEntityLump"
 			m_bPreventDirectCompile = true
@@ -314,7 +436,6 @@
 			m_Ext = "vsurf"
 			m_IconLg = "toolimages:assettypes/surface_lg.png"
 			m_IconSm = "toolimages:assettypes/surface_sm.png"
-			m_ResourceModule = "vphysics2"
 			m_CompilerIdentifier = "CompileSurfaceProperties"
 			m_Blocks =
 			[
@@ -329,7 +450,6 @@
 			m_Name = "sound_event_script"
 			m_FriendlyName = "Sound Event Script"
 			m_Ext = "vsndevts"
-			m_ResourceModule = "soundsystem"
 			m_CompilerIdentifier = "CompileSoundEventScript"
 			m_Blocks =
 			[
@@ -350,23 +470,14 @@
 			m_Name = "sound_stack_script"
 			m_FriendlyName = "Sound Stack Script"
 			m_Ext = "vsndstck"
-			m_ResourceModule = "soundsystem"
 			m_CompilerIdentifier = "CompileSoundStackScript"
 		},
-		{
-			_class = "CResourceAssetTypeInfo"
-			m_Name = "bitmap_font"
-			m_FriendlyName = "Bitmap Font"
-			m_Ext = "vfont"
-			m_bHideTypeByDefault = true
-			m_CompilerIdentifier = "CompileFont"
-		},
+
 		{
 			_class = "CResourceAssetTypeInfo"
 			m_Name = "resource_remap_table"
 			m_FriendlyName = "Resource Remap Table"
 			m_Ext = "vrmap"
-			m_ResourceModule = "worldrenderer"
 			m_bHideTypeByDefault = true
 			m_CompilerIdentifier = "CompileResourceRemapTable"
 		},
@@ -418,6 +529,19 @@
 				"js",
 			]
 			m_CompilerIdentifier = "CompilePanorama"
+		},
+		{
+			_class = "CResourceAssetTypeInfo"
+			m_Name = "vector_graphic"
+			m_FriendlyName = "Vector Graphic"
+			m_Ext = "vsvg"
+			m_IconLg = "toolimages:assettypes/generic_lg.png"
+			m_IconSm = "toolimages:assettypes/generic_sm.png"
+			m_AdditionalExtensions = 
+			[
+				"svg",
+			]
+			m_CompilerIdentifier = "CompileVectorGraphic"
 		},
 		{
 			_class = "CResourceAssetTypeInfo"
@@ -774,7 +898,6 @@
 			m_Name = "map_asset"
 			m_FriendlyName = "Map"
 			m_Ext = "vmap"
-			m_ResourceModule = "worldrenderer"
 			m_IconLg = "toolimages:assettypes/map_lg.png"
 			m_IconSm = "toolimages:assettypes/map_sm.png"
 			m_bSuppressFullFingerprintCalculation = true

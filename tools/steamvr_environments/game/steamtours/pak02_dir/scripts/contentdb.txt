@@ -352,7 +352,7 @@
 			preview_image = "file://{images}/contentdb/mptam_hmd.png"
 			locked_by_quest = true
 			dev_only = true
-			inventory_service_id = 117
+			//inventory_service_id = 117
 		},
 		{
 			id = "raw_data_saija_head"
@@ -513,62 +513,62 @@
 			content = "models/hands/steamvr_hand_left.vmdl"
 			preview_image = "file://{images}/contentdb/hands_full.png"
 		},
-		{
-			id = "814739886"
-			name = "Tron"
-			desc = "Tron"
-			content = "models/steamvr_controllers/814739886/814739886.vmdl"
-			preview_image = ""
-			dev_only = true
-		},
-		{
-			id = "688739751"
-			name = "Asiimov"
-			desc = "Asiimov"
-			content = "models/steamvr_controllers/688739751/688739751.vmdl"
-			preview_image = ""
-			dev_only = true
-		},
-		{
-			id = "683303810"
-			name = "Banana"
-			desc = "Banana"
-			content = "models/steamvr_controllers/683303810/683303810.vmdl"
-			preview_image = ""
-			dev_only = true
-		},
-		{
-			id = "931015598"
-			name = "Translucent Rainbow"
-			desc = "Translucent Rainbow"
-			content = "models/steamvr_controllers/931015598/931015598.vmdl"
-			preview_image = ""
-			dev_only = true
-		},
-		{
-			id = "683679721"
-			name = "blue laser"
-			desc = "blue laser"
-			content = "models/steamvr_controllers/683679721/683679721.vmdl"
-			preview_image = ""
-			dev_only = true
-		},
-		{
-			id = "683676651"
-			name = "green laser"
-			desc = "green laser"
-			content = "models/steamvr_controllers/683676651/683676651.vmdl"
-			preview_image = ""
-			dev_only = true
-		},
-		{
-			id = "683566279"
-			name = "red laser"
-			desc = "red laser"
-			content = "models/steamvr_controllers/683566279/683566279.vmdl"
-			preview_image = ""
-			dev_only = true
-		},
+//		{
+//			id = "814739886"
+//			name = "Tron"
+//			desc = "Tron"
+//			content = "models/steamvr_controllers/814739886/814739886.vmdl"
+//			preview_image = ""
+//			dev_only = true
+//		},
+//		{
+//			id = "688739751"
+//			name = "Asiimov"
+//			desc = "Asiimov"
+//			content = "models/steamvr_controllers/688739751/688739751.vmdl"
+//			preview_image = ""
+//			dev_only = true
+//		},
+//		{
+//			id = "683303810"
+//			name = "Banana"
+//			desc = "Banana"
+//			content = "models/steamvr_controllers/683303810/683303810.vmdl"
+//			preview_image = ""
+//			dev_only = true
+//		},
+//		{
+//			id = "931015598"
+//			name = "Translucent Rainbow"
+//			desc = "Translucent Rainbow"
+//			content = "models/steamvr_controllers/931015598/931015598.vmdl"
+//			preview_image = ""
+//			dev_only = true
+//		},
+//		{
+//			id = "683679721"
+//			name = "blue laser"
+//			desc = "blue laser"
+//			content = "models/steamvr_controllers/683679721/683679721.vmdl"
+//			preview_image = ""
+//			dev_only = true
+//		},
+//		{
+//			id = "683676651"
+//			name = "green laser"
+//			desc = "green laser"
+//			content = "models/steamvr_controllers/683676651/683676651.vmdl"
+//			preview_image = ""
+//			dev_only = true
+//		},
+//		{
+//			id = "683566279"
+//			name = "red laser"
+//			desc = "red laser"
+//			content = "models/steamvr_controllers/683566279/683566279.vmdl"
+//			preview_image = ""
+//			dev_only = true
+//		},
 	]
 
 	avatar_wearables =
@@ -1239,7 +1239,7 @@
 			content = "models/props/hats/rasta_hat.vmdl"
 			preview_image = "file://{images}/contentdb/rasta_hat001.png"
 			locked_by_quest = true
-			inventory_service_id = 266
+			//inventory_service_id = 266
 			dev_only = true
 			default_color = [ 224,169,19 ]
 		},
@@ -1690,7 +1690,17 @@
 			preview_image = "file://{images}/contentdb/box_bot001.png"
 			locked_by_quest = true
 			dev_only = true
-			inventory_service_id = 506
+			//inventory_service_id = 506
+		},
+		{
+			id = "color_tool"
+			name = "Colorizer"
+			desc = "Colorizer"
+			content = "models/props_gameplay/colour_picker_tool.vmdl"
+			script = "tools/color_tool"
+			equip_sound = "tagmarker_equip"
+			preview_image = "file://{images}/contentdb/freeze_tool001.png"
+			locked_by_quest = false
 		},
 		//{
 		//	id = "wand_fireball"
@@ -1730,7 +1740,7 @@
 			preview_image = "file://{images}/contentdb/watermelon.png"
 			locked_by_quest = true
 			dev_only = true
-			inventory_service_id = 1002
+			//inventory_service_id = 1002
 			default_color = [ 255,255,255 ]
 		},
 		{
@@ -1757,7 +1767,7 @@
 			desc = "#VR_PhysicsProp_OilDrum_Desc"
 			content = "models/props/toys/oil_drum001.vmdl"
 			preview_image = "file://{images}/contentdb/oil_drum_thumb.png"
-			inventory_service_id = 1005
+			//inventory_service_id = 1005
 			default_color = [ 255,255,255 ]
 			default_scale = 0.25
 			locked_by_quest = true
@@ -2348,7 +2358,7 @@
 			content = "models/props/toys/tf2_yeti.vmdl"
 			preview_image = "file://{images}/contentdb/tf2_yeti.png"
 			locked_by_quest = true
-			// inventory_service_id = 1056
+			inventory_service_id = 1056
 			default_color = [ 255,255,255 ]
 		},
 		{
@@ -2749,7 +2759,7 @@
 			equip_sound = "freeze_tool_equip"
 			preview_image = "file://{images}/contentdb/tf2_sentry1_toolbox.png"
 			locked_by_quest = true
-			// inventory_service_id = 1096
+			inventory_service_id = 1096
 			default_color = [ 255,255,255 ]
 		},
 		{

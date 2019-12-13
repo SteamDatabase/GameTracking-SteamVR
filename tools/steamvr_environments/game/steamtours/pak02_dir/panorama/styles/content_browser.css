@@ -4563,9 +4563,9 @@ AvatarCustomizationItem #SliderThumb
 	margin: 0px;
 	padding: 0px;
 	margin-left: 175px;
-	max-height: 70px;
+	max-height: 140px;
 	width: 335px;
-	//background-color: red;
+//	background-color: red;
 }
 
 .Scrolling.MapsTab .PlayerNumber
@@ -4767,44 +4767,6 @@ AvatarCustomizationItem #SliderThumb
 {
 	margin-bottom: 50px;
 	pre-transform-scale2d: .9;
-}
-
-
-.Scrolling.MapsTab .ItemTitle 
-{
-	vertical-align: center;
-	horizontal-align: left;
-	font-size: 30px;
-	margin: 0px;
-	padding: 0px;
-	margin-left: 175px;
-	max-height: 70px;
-	width: 335px;
-	//background-color: red;
-}
-
-.Scrolling.MapsTab .PlayerNumber
-{
-	background-color: none;
-	box-shadow: none;
-	margin: 0px;
-	padding: 0px;
-	margin-top: 50px;
-	horizontal-align: left;
-	vertical-align: center;
-	margin-left: 175px;	
-}
-
-.Scrolling.MapsTab .PlayerNumberIcon
-{
-	margin-right: 10px;
-}
-
-.Scrolling.MapsTab .DestinationGradient,
-.Scrolling.MapsTab .TopRightGradient,
-.Scrolling.MapsTab .LocalItem
-{
-	visibility: collapse;
 }
 
 /*-------------------------

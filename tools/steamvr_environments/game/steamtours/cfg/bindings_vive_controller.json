@@ -2,6 +2,16 @@
    "action_manifest_version": 1,
    "bindings" : {
       "/actions/global" :  {
+         "haptics" : [
+            {
+               "output" : "/actions/global/in/hapticvibration",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/global/in/hapticvibration",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
          "poses" : [
             {
                "output" : "/actions/global/in/HandPoseLeft",

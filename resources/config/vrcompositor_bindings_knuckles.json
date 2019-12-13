@@ -136,15 +136,6 @@
             },
             {
                "inputs" : {
-                  "east" : {
-                     "output" : "/actions/lasermouse/in/RightClick"
-                  }
-               },
-               "mode" : "dpad_click",
-               "path" : "/user/hand/right/input/trackpad"
-            },
-            {
-               "inputs" : {
                   "click" : {
                      "output" : "/actions/lasermouse/in/LeftClick"
                   }
@@ -184,12 +175,21 @@
             },
             {
                "inputs" : {
-                  "east" : {
-                     "output" : "/actions/lasermouse/in/RightClick"
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/rightclick"
                   }
                },
-               "mode" : "dpad_click",
+               "mode" : "button",
                "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/rightclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trackpad"
             }
          ]
       },

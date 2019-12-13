@@ -12,7 +12,6 @@
  max. %f
  min. %f
  need to hook up zip for linux
- tMv+@
 !pRequest->m_bUsedAsContext
 !pRequestBase->m_bUsedAsContext
 "%s" 
@@ -41,6 +40,7 @@ $[A\]
 %s%s%s crc=0x%x metadatasz=%d
 %s, %s, %s
 %s.360%s
+%s/%llu
 %s/%llu.vpk
 %s: file too large
 %s: request %llu has op %d
@@ -53,7 +53,6 @@ $[A\]
 (Unique   ): [%s]\%s
 ([A\A]A^A_]
 ([A\A]]
-([]A\A]A^A_
 (vpk) 
 +S$Hc
 +s$Hc
@@ -63,6 +62,7 @@ $[A\]
 ---FS%s:  read %s %i %p (%.3f)
 ---FS%s:  write %s %i %p
 -disable_auto_vpk_loading
+-fake_workshop_dir
 -log_opened_files
 -noasync
 -onethreadpool
@@ -95,8 +95,6 @@ $[A\]
 .rela.plt
 .rodata
 .shstrtab
-.strtab
-.symtab
 .tbss
 .text
 /content/
@@ -104,9 +102,8 @@ $[A\]
 0:Off, 1:Always, 2:Not during load
 0:Off, 1:Any, 2:Sync only
 0:Off, 1:Warn main thread, 2:Warn other threads
-0<	wD
+0<	wXI
 0[A\]
-0[]A\A]A^
 0x%016llX
 10CStdioFile
 10ConCommand
@@ -144,7 +141,6 @@ $[A\]
 18CCountedStringPool
 18CFileAsyncWriteJob
 18CStdFilesystemFile
-18CUtlCharConversion
 18FileAsyncRequest_t
 19CAsyncSearchRequest
 19CIODelayAlarmThread
@@ -155,7 +151,6 @@ $[A\]
 20CRefCountServiceBaseILb0E6CRefMTE
 20CRefCountServiceBaseILb1E6CRefMTE
 21CFileAsyncFileSizeJob
-21CUtlCStringConversion
 22CFileAsyncWriteFileJob
 22CSchemaInstallCallback
 23CFileAsyncAppendFileJob
@@ -165,14 +160,14 @@ $[A\]
 26CFileAsyncDirectoryScanJob
 5t~BC
 6ConVar
+6f92t%H
 7IConVar
 8A\]H
 8A^]H
 8CFmtStrNILi256ELb0EE
 8[A\A]A^A_]
-8[]A\A]A^A_
+8[A\A]]
 9IFileList
-:[tlL
 ;*3$"
 ;0tSD
 ;BX|'1
@@ -181,13 +176,12 @@ $[A\]
 << NULL >>
 <Invalid file time %lld>
 <NULL>
-<Rt&<Pu
 <no failure reason set>
 <null>
-<}tQ<{uW
 >/game/
 @8w{UH
 @[A\]
+@paHFC
 @paHFCH
 @tB[A\]
 @tnH9
@@ -207,16 +201,14 @@ A;_@}4L
 A;_p|
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
 ATSt$@
-AUAT1
 AUATA
-AUATE
 AUATH
 AUATI
 AUATL
-AUATS
-AUATSD
+AUATS1
 AUATSH
 AUATSL
+AUATSLc/E)
 AVAUA
 AVAUATA
 AVAUATI
@@ -229,20 +221,19 @@ AVAUI
 AVAUL
 AWATING_FINISH
 AWAVA
+AWAVAUA
 AWAVAUATA
-AWAVAUATH
 AWAVAUATI
 AWAVAUATL
 AWAVAUATSH
-AWAVAUATSRH
-AWAVAUATUSH
+AWAVAUE
 AWAVAUI
 AWAVAUL
 AWAVE
+AWAVE1
 AWAVI
 AWAVL
 AWAVM
-A[A]HcE
 A\A]A^A_]
 A\A]A^]
 A\A]]
@@ -287,6 +278,7 @@ Blocked change to read-only path %s!
 Buffer not big enough to hold requested File IO
 BuildHashTables
 C ;C0f
+C t&f
 C,@t2H
 CAsyncFileRequest::GetProfilingInfo called with bad buffer size (%d passed, expecting %llu)
 CAsyncRequestBase::ProcessCallback callback function:  %8.3f msec (>10): %s
@@ -320,6 +312,8 @@ COMPOSING
 COM_TimestampedLog
 CONTENTROOT
 CPackedStore
+CPuJH
+CPunH
 CTSQueue corruption
 CUtlBlockMemory overflow!
 CUtlFixedMemory overflow!
@@ -329,11 +323,11 @@ CUtlMemoryPoolBase
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlRBTree overflow with %u elements!
 CXXABI_1.3
-CXXABI_1.3.8
 Callback called at wrong time (%d)
 Can't find completed Async IO request, request description %s
 Cannot open %s for writing
 Cannot rename file "%s" that exists in a VPK or UGC file!
+Cannot rename file "%s" that exists in a read only search path!
 ChangeSize
 Cht7Lc{pD;
 Clear the list of files that have been opened.
@@ -346,22 +340,15 @@ ConnectInterfaces
 CopyAFile: Cannot copy into a VPK or UGC file '%s'
 CopyAFile: Failed to copy file %s.
 CopyAFile: dest '%s' must be absolute path.
-CpaHFC
 CreateFile
 CreateInterface
 CreateNewThreadPool
-D$ E1
-D$ H9E
-D$0H9
-D$0Hc
-D$8I9
-D$@E1
-D$@H9
-D$@I9
+D$(H9
 D$paHFCI
-D9k H
+D9s H
+D9xXu
 D;!ttHc
-D;%2f%
+D;%2=$
 D;c D
 D;g0H
 D;k |
@@ -373,7 +360,8 @@ DevMsg
 DotaCardGameClient_001
 E9gPI
 E9t$(D
-E;g D
+E9~Xu
+E;u D
 ERROR_ALIGNMENT
 ERROR_ALREADYSERVICED
 ERROR_ALREADYSUBMITTED
@@ -403,13 +391,10 @@ EconItemToolModel_001
 EnableWhitelistFileTracking
 EngineServiceMgr001
 EnvironmentMapBuilder_001
-EpaHFCA
 EventSystem001
 Exceeded limit of number of vpk files supported (%d)!
-F t2SH
-F t5SH
-FAJb1
 FAJbH
+FAJbf
 FATAL ERROR: unable to register all schema data: %s
 FCVAR_NEVER_AS_STRING
 FS:  Tried to Close NULL file handle!
@@ -438,18 +423,16 @@ FileSystem
 Filename '%s' is invalid to be contained in a VPK
 Filesystem
 FlattenedSerializersVersion001
-FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
 FontManager_001
 Fopen
 FormatV
 Fread
 From Steam: [%s]\%s
-G8t"H
+G8t%H
 G<@teI
 GAMECONSOLE
 GAMEROOT
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
-GLIBCXX_3.4
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
@@ -468,17 +451,15 @@ H	p(]
 H	w(UH
 H!w(H
 H90t%A
+H90t%H
 H9X8H
-H;*twH
-HE;&|
 HIGHDPI
-H[A\A]A^A_]
-H[A\A]]
 HammerMapLoader001
 HangWatchdog_IndicateActivity
 Hc@XH
 Hc@pH
 HcC$H
+HcHpH
 HcJTH
 HcK$D
 HcO$H
@@ -496,7 +477,6 @@ IOJob
 IQuickTime001
 IcD$$A
 IcL$XIc
-Ic\$@M
 Ict$TH
 InputService_001
 InputStackSystemVersion001
@@ -518,13 +498,14 @@ KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
 KickOffFileJobs
-L$ H9
+L$0Hc
+L$0Ic
 LINUX
 LOG_GENERAL
 LOWVIOLENCE
 Lc#D;c
 Lc/E)
-Lc3D;s
+Lc1D;q
 Lcg E
 LengthOfMatchingPaths
 Linux/platform issue - filename '%s' contains uppercase
@@ -533,6 +514,7 @@ Localize_001
 LogBadInnerOp
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
+LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 Logic Error in CExpressionEvaluator
 Loose
@@ -541,7 +523,7 @@ MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
-Mc,$E;l$
+Mc/E;o
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -549,7 +531,6 @@ MeshUtils001
 ModelDocUtils001
 Modifying Async Filesystem Request after it has been submitted
 MustRead
-N-F7#
 NetworkClientService_001
 NetworkMessagesVersion001
 NetworkP2PService_001
@@ -562,8 +543,6 @@ O,t	[A\]
 Open( %llu microsecs, %s )
 Open( %s )
 Ordered constructor wrapped type has no default constructor.
-P0HcE
-PAVAUL
 PHHcU
 POSIX
 P[A\A]A^]
@@ -588,7 +567,7 @@ Plat_GetModuleFilename
 Plat_GetOSType
 Plat_IsFile
 Plat_IsHighDPI
-Plat_IsInDebugSessionRaw
+Plat_IsInDebugSession
 Plat_LoadModule
 Plat_RelativeTicks
 Plat_RemoveDirectory
@@ -640,11 +619,11 @@ ResourceSystem013
 ResubmitRequest
 ReturnJobManualEventToPool
 S HcS
-S@tqH
+S@teH
 SERVICING_IO
 STATUS_UNDEFINED
 STEAMAPPS_INTERFACE_VERSION008
-STEAMUGC_INTERFACE_VERSION012
+STEAMUGC_INTERFACE_VERSION013
 SceneSystem_002
 SceneUtils_001
 SchemaSystem_001
@@ -684,6 +663,7 @@ SubmitAsyncFileRequest
 SubmitSyncFileRequest
 SyncGetFileSize
 T$HIct$TA
+TIcL$
 TestFormatA
 TestFormatB
 TestFormatC
@@ -759,7 +739,7 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
-VUUUH
+VUUUL
 V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
@@ -814,8 +794,8 @@ V_strupper_fast
 V_swscanf
 V_tier0_strstr
 V_vsnprintf
-V_vsnprintfRet
 V_vsnprintfSize
+V_vsnprintfWarnTrunc
 V_wcstod
 V_wcstoi64
 Valid Content Absolute Path
@@ -845,21 +825,17 @@ WorldRendererMgr001
 XZP%c %d
 X[A\A]A^A_]
 X[A\A]]
-X[]A\A]A^A_
 ZIP_EndOfCentralDirRecord
 ZIP_FileHeader
 ZIP_LocalFileHeader
 ZIP_PreloadDirectoryEntry
 ZIP_PreloadHeader
+ZYtzH
 [A\A]A^A_]
 [A\A]A^]
 [A\A]H
 [A\A]]
 [A\]H
-[]A\A]
-[]A\A]A^
-[]A\A]A^A_
-\$0H;
 ^IcL$ Ic
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
@@ -920,6 +896,8 @@ _ZN13CBufferString9SetLengthEibPi
 _ZN13CThreadRWLock11UnlockWriteEv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CThreadRWLock12LockForWriteEv
+_ZN16CThreadSemaphore7ReleaseEiPi
+_ZN16CThreadSemaphoreD1Ev
 _ZN17CThreadSpinRWLock10UnlockReadEv
 _ZN17CThreadSpinRWLock11LockForReadEv
 _ZN17CThreadSpinRWLock11UnlockWriteEv
@@ -928,6 +906,10 @@ _ZN17CThreadSyncObject4WaitEj
 _ZN17CThreadSyncObject8WaitImplEj
 _ZN17CThreadSyncObjectD2Ev
 _ZN21CThreadMultiWaitEvent3SetEv
+_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
+_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
+_ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
+_ZN22CThreadRWLock_FastReadC1Ev
 _ZN7CThread15IsThreadRunningEv
 _ZN7CThread21WaitForCreateCompleteEP12CThreadEvent
 _ZN7CThread4InitEv
@@ -937,68 +919,39 @@ _ZN7CThread6OnExitEv
 _ZN7CThreadC2Ev
 _ZN7CThreadD2Ev
 _ZNV16CThreadFastMutex4LockEyj
-_ZSt9terminatev
-_ZSt9terminatev@@GLIBCXX_3.4
 _ZTI17CThreadSyncObject
 _ZTI7CThread
 _ZTVN10__cxxabiv117__class_type_infoE
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
-_ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
 _ZdaPv
 _ZdlPv
 _Znam
+_ZnamRKSt9nothrow_t
 _Znwm
+_ZnwmRKSt9nothrow_t
 __bss_start
 __ctype_toupper_loc
-__ctype_toupper_loc@@GLIBC_2.3
 __cxa_atexit
-__cxa_atexit@@GLIBC_2.2.5
 __cxa_finalize
-__cxa_finalize@@GLIBC_2.2.5
-__cxa_guard_abort
-__cxa_guard_abort@@CXXABI_1.3
 __cxa_guard_acquire
-__cxa_guard_acquire@@CXXABI_1.3
 __cxa_guard_release
-__cxa_guard_release@@CXXABI_1.3
 __cxa_pure_virtual
-__cxa_pure_virtual@@CXXABI_1.3
-__cxa_throw_bad_array_new_length
-__cxa_throw_bad_array_new_length@@CXXABI_1.3.8
 __errno_location
-__errno_location@@GLIBC_2.2.5
 __fxstat64
-__fxstat64@@GLIBC_2.2.5
 __gmon_start__
-__gxx_personality_v0
-__gxx_personality_v0@@CXXABI_1.3
 __lxstat64
-__lxstat64@@GLIBC_2.2.5
-__pthread_key_create
-__pthread_key_create@@GLIBC_2.2.5
 __stack_chk_fail
-__stack_chk_fail@@GLIBC_2.4
 __strcpy_chk
-__strcpy_chk@@GLIBC_2.3.4
 __tls_get_addr
-__tls_get_addr@@GLIBC_2.3
 __xstat64
-__xstat64@@GLIBC_2.2.5
 _addons
 _edata
 _fini
 _flt.vpk
-_init
-`AVAUL
-`AWAVAUATSH
+`AWAVAUATI
 `AWAVI
-abort@@GLIBC_2.2.5
-all_projects_common_code.cpp
 alphasort64
-alphasort64@@GLIBC_2.2.5
 archive
 async_allow_held_files
 async_mode
@@ -1010,77 +963,53 @@ asyncwrite
 bIsLive
 bIsLive && !pRequestBase->m_bUsedAsContext
 basefilesystem.cpp
-basefilesystemasync.cpp
 binary
 binary_auto
 binary_bc
 binary_lz4
 borrow
-byteswap.cpp
+c@fD9
 centralDirectorySize
-characterset.cpp
 cheat
-checksum_crc.cpp
-checksum_md5.cpp
 chmod
 client
 clientcmd_can_execute
-close@@GLIBC_2.2.5
 closedir
-closedir@@GLIBC_2.2.5
 commentLength
 compressionMethod
 configvalue.cpp
 console.log
 content
-convar.cpp
 crc32
-crtstuff.c
 dH34%(
 dH3<%(
 delete
 developer
 diskNumberStart
-dl_iterate_phdr
-dl_iterate_phdr@@GLIBC_2.2.5
-dup@@GLIBC_2.2.5
-exprevaluator.cpp
 externalFileAttribs
 extraFieldLength
 f;0tZfD
 f;0t_fD
-fA;D$(tXA
-fA;D$(u
-fD;0t
+f;C@tYA
+f;C@u
+fD;b@u
 fcntl
-fcntl@@GLIBC_2.2.5
 fdatasync
-fdatasync@@GLIBC_2.2.5
-ffff.
 fffff.
-ffffff.
-fflush@@GLIBC_2.2.5
 fileCommentLength
 fileNameLength
-fileio.cpp
 fileno_unlocked
-fileno_unlocked@@GLIBC_2.2.5
 filesystem_buffer_size
 filesystem_max_stdio_read
 filesystem_native
 filesystem_report_buffered_io
 filesystem_stdio
-filesystem_stdio.cpp
 filesystem_unbuffered_io
 filesystemasync.cpp
 filetime
-filetracker.cpp
-fileutils.cpp
 flags
 float( %f )
 flock
-flock@@GLIBC_2.2.5
-free@@GLIBC_2.2.5
 fs_clear_open_duplicate_times
 fs_debug
 fs_debug: 
@@ -1091,7 +1020,6 @@ fs_report_long_reads
 fs_report_sync_opens
 fs_warning_mode
 ftruncate64
-ftruncate64@@GLIBC_2.2.5
 g E;g0D
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -1101,17 +1029,13 @@ g_pThreadPool
 gameinfo.gi
 gameinfo.txt
 generic
-generichash.cpp
+hA\A]A^A_]
+hE;,$|
 h[A\A]A^A_]
 int( %d = 0x%X )
-interface.cpp
 interfaces.cpp
 internalFileAttribs
-json_parser.c
-k<[A\A]A^]
 kX[A\A]A^]
-kevvaluescompiler.cpp
-keyvalues.cpp
 lastModifiedDate
 lastModifiedTime
 ld-linux-x86-64.so.2
@@ -1124,24 +1048,14 @@ libsteam_api.so
 libtier0.so
 libvstdlib.so
 localtime
-localtime@@GLIBC_2.2.5
 lseek64
-lseek64@@GLIBC_2.2.5
-malloc
-malloc@@GLIBC_2.2.5
-manifestregistrar.cpp
 materials/overviews/
 materials/vgui/hud/
 memcmp
-memcmp@@GLIBC_2.2.5
 memcpy
-memcpy@@GLIBC_2.14
 memmove
-memmove@@GLIBC_2.2.5
-memoverride.cpp
 mempool.cpp
 memset
-memset@@GLIBC_2.2.5
 nCentralDirectoryEntries_ThisDisk
 nCentralDirectoryEntries_Total
 nTries < 10000000
@@ -1149,53 +1063,33 @@ notconnected
 notify
 numberOfTheDiskWithStartOfCentralDirectory
 numberOfThisDisk
-o8ATI
-o`ATI
 open64
-open64@@GLIBC_2.2.5
 opendir
-opendir@@GLIBC_2.2.5
 opened_files.txt
+p@fD9
 paHFCu
 packedstore.cpp
 pak%s%02d.vpk
 pak%s%02d_dir.vpk
-pipe@@GLIBC_2.2.5
 posix_fadvise64
-posix_fadvise64@@GLIBC_2.2.5
 pread64
-pread64@@GLIBC_2.2.5
 pthread_mutex_destroy
-pthread_mutex_destroy@@GLIBC_2.2.5
 pthread_mutex_init
-pthread_mutex_init@@GLIBC_2.2.5
 pthread_mutex_lock
-pthread_mutex_lock@@GLIBC_2.2.5
 pthread_mutex_unlock
-pthread_mutex_unlock@@GLIBC_2.2.5
 pthread_mutexattr_init
-pthread_mutexattr_init@@GLIBC_2.2.5
 pthread_mutexattr_settype
-pthread_mutexattr_settype@@GLIBC_2.2.5
-pthread_once
-pthread_once@@GLIBC_2.2.5
 ptr( 0x%p )
 pwrite64
-pwrite64@@GLIBC_2.2.5
-read@@GLIBC_2.2.5
 readdir64
-readdir64@@GLIBC_2.2.5
 readlink
-readlink@@GLIBC_2.2.5
 relativeOffsetOfLocalHeader
 replicated
 resource/cursor/
 resource/flash3/images/
 resource/flash3/videos/
 rewind
-rewind@@GLIBC_2.2.5
 scandir64
-scandir64@@GLIBC_2.2.5
 schemabindings.cpp
 scripts/game_sounds_heroes/
 scripts/music/
@@ -1211,73 +1105,54 @@ src/public/tier0/platform.h
 ss_added
 startOfCentralDirOffset
 strcasecmp
-strcasecmp@@GLIBC_2.2.5
 strchr
-strchr@@GLIBC_2.2.5
 strcmp
-strcmp@@GLIBC_2.2.5
 strcpy
-strcpy@@GLIBC_2.2.5
-stringpool.cpp
 strlen
-strlen@@GLIBC_2.2.5
 strrchr
-strrchr@@GLIBC_2.2.5
-strstr@@GLIBC_2.2.5
-strtools.cpp
 t	[A\]
 t Hc\
-t!f;J u
-t"HcE
+t!f;B8u
+t"HcU
 t$	H9
-t$H;h
 t$HcW
 t$HcW 
 t)Mc<$E;|$
 t/</t
 t4[A\]
 tC[A\A]A^]
-tIHcM
 tNfA;x
-tZHcI 1
-tcHc]
+t_HcN 1
 tdHc_ 
-thIcG
-tier1.cpp
-tier2.cpp
-time@@GLIBC_2.2.5
+tkHcU
 txHcW
 txHcW 
 u%D;}
 u64( %lld = 0x%llX )
 uncompressedSize
 unlink
-unlink@@GLIBC_2.2.5
 update
-utlbuffer.cpp
-utlmemory.cpp
 utlstring.cpp
-utlsymbol.cpp
 u{IcD$
 versionMadeBy
 versionNeededToExtract
-w`AUATI
+w8AUI
+w`AUATSH
 wcscmp
-wcscmp@@GLIBC_2.2.5
 wcslen
-wcslen@@GLIBC_2.2.5
-write@@GLIBC_2.2.5
 x@HcO
 xBHcO
 x[A\A]A^A_]
-zip_utils.cpp
+x}tkH
 { [A\]
 {`[A\]
+{h[A\A]]
 {}()':
 |$0E;|$@
 }IcL$
 }IfD9
 ~)H;7I
+~3fD;2
 ~7;w$
 ~9;w$
 ~Tf;w

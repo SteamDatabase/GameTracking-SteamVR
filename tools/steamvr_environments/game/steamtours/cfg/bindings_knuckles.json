@@ -96,7 +96,7 @@
             {
                "inputs" : {
                   "grab" : {
-                     "output" : "/actions/default/in/use"
+                     "output" : "/actions/default/in/usegrip"
                   }
                },
                "mode" : "grab",
@@ -105,7 +105,7 @@
             {
                "inputs" : {
                   "grab" : {
-                     "output" : "/actions/default/in/use"
+                     "output" : "/actions/default/in/usegrip"
                   }
                },
                "mode" : "grab",
@@ -183,6 +183,16 @@
          ]
       },
       "/actions/global" : {
+         "haptics" : [
+            {
+               "output" : "/actions/global/in/hapticvibration",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/global/in/hapticvibration",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
          "poses" : [
             {
                "output" : "/actions/global/in/HandPoseLeft",

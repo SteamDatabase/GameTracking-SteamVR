@@ -248,6 +248,7 @@
 	"Settings_Classic" : "Classic",
 	"Settings_Near" : "Near (beta)",
 	"Settings_DesktopScale" : "Desktop Scale",
+	"Settings_DashboardScale" : "Dashboard Scale",
 
 	"SettingsTime_5s": "5 Seconds",
 	"SettingsTime_30s": "30 Seconds",
@@ -271,6 +272,7 @@
 	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Always show floor bounds",
 	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
 
+	"Settings_ConnectAnHMD": "Please connect a headset.",
 	"Settings_Loading": "Loading...",
 	"Settings_ResetToDefault": "Reset To Default",
 	"Settings_ResetPageToDefault": "Reset Page To Default",

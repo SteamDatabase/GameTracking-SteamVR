@@ -57,6 +57,7 @@
 		"url": "/dashboard/settings.html",
 		"persist_layout": true,
 		"persist_visibility": true,
+		"valid_without_hmd": true,
 		"preload": true,
 		"resizable": false,
 		"type": "window",

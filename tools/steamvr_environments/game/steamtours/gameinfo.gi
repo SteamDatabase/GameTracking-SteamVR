@@ -163,7 +163,10 @@
 		"EnvironmentMapFormat" "DXT5"
 		"EnvironmentMapColorSpace" "srgb"
 		"EnvironmentMapMipProcessor" "GGXCubeMapBlur_RGBM"
-		"EnvironmentMapEntities" "1"
+		"LightProbeVolumeAlgorithm" "EncodeRGBM"
+		"LightProbeVolumeColorSpace" "srgb"
+		"LightProbeVolumeCompressedFormat" "DXT5"
+		"LightProbeVolumeUncompressedFormat" "RGBA8888"
 	}
 	
 	Source1Import
@@ -175,7 +178,7 @@
 
 	SoundSystem
 	{
-		"DisableSteamAudio"			"0"
+		"SteamAudioEnabled"			"1"
 	}
 
 	RenderSystem
