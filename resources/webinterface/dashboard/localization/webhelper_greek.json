@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Κύριο χέρι",
 	"/user/hand/secondary": "Άλλο χέρι",
 	"/user/hand/any": "Οποιοδήποτε χέρι",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Αριστερό πόδι",
 	"/user/foot/right": "Δεξί πόδι",
 	"/user/shoulder/left": "Αριστερός ώμος",

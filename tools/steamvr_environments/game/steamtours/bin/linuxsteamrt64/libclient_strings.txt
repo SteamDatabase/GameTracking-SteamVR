@@ -427,8 +427,6 @@
  Failed to pack %s
  Failed to unpack %s - Code %d
  GCConnectionStatus_GC_GOING_DOWN
- H;=F
- H;=t
  H;D$PH
  H;D$`H
  M9l$
@@ -1599,8 +1597,7 @@ $z0u.A
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
 (,$fE
-(-&S'
-(-fSM
+(-VSM
 (.CPlayer_GetCommunityPreferences_Request
 (.CPlayer_GetFriendsGameplayInfo_Response"K
 (.CPlayer_GetPerFriendPreferences_Request
@@ -1609,6 +1606,7 @@ $z0u.A
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (8HXhx
+(={aP
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (AVAUH
@@ -1630,6 +1628,7 @@ $z0u.A
 (D;#|
 (E9g 
 (Fade Removed: [%d,%d,%d,%d])
+(H;=w
 (HcWP
 (I9\$
 (ID of the Cloud file to get details for.
@@ -2063,10 +2062,12 @@ $z0u.A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%asR
+.%QsR
+.%{Ft
 .(Optional) Set of tags for the published file.
-.-2 S
-.-;ph
+.-" S
+.-+ph
+.-vqP
 ...<truncated>...
 ../../public/entity2/entitycomponent.h
 ../../public/networksystem/networkquantizedtypes.h
@@ -2097,8 +2098,9 @@ $z0u.A
 ../public/tier2/fileutils.h
 ..CPlayer_GetNewSteamAnnouncementState_Response"_
 .3333
-.5ywY
-.=8ML
+.5iwY
+.=(ML
+.=}2S
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -2426,7 +2428,6 @@ $z0u.A
 0D;8t+
 0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
 0H31t
-0H;=]
 0IcD$
 0Marks latest announcement timestamp read by user
 0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
@@ -4817,7 +4818,6 @@ $z0u.A
 98t.A
 99w(|&H
 9<t	]
-9=&lU
 9@8:u
 9A88@
 9A89@
@@ -5396,7 +5396,6 @@ $z0u.A
 @C_BaseFire
 @DP5z5@
 @Gr}H
-@H;=p
 @HH;E
 @HI;D$H
 @Lcg(I
@@ -9689,7 +9688,7 @@ C_WaterBullet
 C_World
 C_WorldUIInteractController
 C_fogplayerparams_t
-C`H;=&
+C`H;=
 C`[A\A]A^]
 C`_AXH
 C`f;E
@@ -10362,13 +10361,14 @@ D; t)I
 D; tMH
 D;!ttHc
 D;%"m
+D;%5=
 D;%?7
-D;%k 
-D;%tN
+D;%[ 
 D;%{z
 D;)ts
 D;-O-
 D;-b"
+D;-~ga
 D;.tLH
 D;0}zH
 D;1Lc
@@ -12380,39 +12380,40 @@ H;5hu
 H;5l5
 H;5x)
 H;9u#
-H;=	U
 H;= O
 H;=!G
 H;=!W
-H;=" 
 H;="F
+H;="i
 H;=#S
+H;=#g
 H;=$4
 H;=&B
+H;=&T
 H;='g
 H;=( 
 H;=()
 H;=(9
 H;=(W
+H;=(W^
 H;=(i
-H;=-d
+H;=.L
 H;=/F
-H;=2R
+H;=1ck
 H;=2^
 H;=2c
 H;=2}
 H;=3F
 H;=3J
-H;=3L
 H;=3N
 H;=64
-H;=6W
-H;=6e
 H;=7,
 H;=88
 H;=8Q
 H;=8V
 H;=8h
+H;=9;k
+H;=9U
 H;=;b
 H;=<'
 H;=<*
@@ -12424,6 +12425,7 @@ H;=?D
 H;=B$
 H;=BJ
 H;=Bi
+H;=Bq
 H;=C0
 H;=CT
 H;=D	
@@ -12439,18 +12441,14 @@ H;=HP
 H;=HU
 H;=Hg
 H;=Hh
-H;=J6k
-H;=Jd
 H;=LG
 H;=Lj
 H;=NO
 H;=O4
 H;=P!
+H;=Qb
 H;=R4
-H;=Rf
 H;=Rg
-H;=Rs
-H;=S%
 H;=SC
 H;=SG
 H;=SO
@@ -12468,6 +12466,7 @@ H;=X~
 H;=Y*
 H;=Y|
 H;=Z*
+H;=\t
 H;=]4
 H;=]}
 H;=_'
@@ -12485,28 +12484,29 @@ H;=hS
 H;=hb
 H;=he
 H;=h}
-H;=k.
-H;=kc
 H;=l3
 H;=lp
 H;=o$
 H;=o;
 H;=oC
+H;=q J
 H;=qD
 H;=qW
 H;=r`
 H;=rk
-H;=rn
 H;=rr
+H;=rw
 H;=s1
 H;=sE
 H;=sP
 H;=v	
 H;=v[
+H;=wd
 H;=x!
 H;=x/
 H;=xC
 H;=xR
+H;=xX^
 H;=xa
 H;=xd
 H;=x|
@@ -13609,7 +13609,7 @@ KnucklesEV1_3Controller
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-Kp H;=2
+Kp H;=
 L$ E;L$0ttI
 L$ H9
 L$ ^_H
@@ -13742,9 +13742,8 @@ Lc"D;b
 Lc#D;c
 Lc#Mc
 Lc#fA
+Lc%,=
 Lc%67
-Lc%jt
-Lc%rN
 Lc%z6
 Lc&E)
 Lc'D)
@@ -13752,9 +13751,9 @@ Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
-Lc-	{
 Lc-F-
 Lc-Y"
+Lc-uga
 Lc/E)
 Lc3D;s
 Lc7D)
@@ -15268,6 +15267,7 @@ PF_TYPE_PARTICLE_AGE_NORMALIZED
 PF_TYPE_RANDOM_UNIFORM
 PFiPKN8panorama14IUIPanelClientES2_E
 PFiPN8panorama14IUIPanelClientES1_E
+PH;=e
 PHD9e
 PHE9e
 PHHcC
@@ -18430,7 +18430,7 @@ W HcE
 W [A\A]A^A_]
 W u)H
 W%:O&t
-W%r< 
+W%b< 
 W(H92tOA
 W(H;2t'H
 W,:V,u
@@ -18640,12 +18640,11 @@ X^'@d
 XboxSystemInterface001
 Xr0t/H
 Y%#*R
-Y%3*R
-Y%O+T
+Y%?+T
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-?)R
-Y58\X
-Y=?eH
+Y-/)R
+Y5(\X
+Y=/eH
 YB@fE
 YD$(A
 YD$DH
@@ -18794,6 +18793,7 @@ Z}uU
 \$@Mc
 \$`Ic
 \%03o
+\=	 n
 \C not allowed in lookbehind assertion
 \C8E1
 \IcL$HIc
@@ -21134,7 +21134,6 @@ fA;]>w
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fB94(
-fD9%v
 fD9K(L
 fD9cV
 fD9qf
@@ -28074,31 +28073,31 @@ t'Lcc
 t(<)u
 t(D9h u
 t(D9m
-t(D;%
+t(D;%wq
 t(D;h u
 t(Lc#D;c
 t(Mce
 t([A\A]A^]
-t)@:5
-t)D;-
+t)@:5Q
+t)D;-Pr
 t)HcE
 t)Icv
 t)Mc<$E;|$
 t)[A\]
-t*D:=Q-
+t*D:=
 t*HcHPH
 t*HcJPH
 t*Lc}
 t+Ic\$
 t+Mc7E;w
 t,D9m
-t,D:%
+t,D:%{sl
 t-D; 
 t-[A\A]A^]
 t-rex
-t.D:%
+t.D:%-el
 t.D;%
-t.D;=
+t.D;=m@
 t.H9P
 t.HcC H
 t.HcC(H
@@ -29462,7 +29461,7 @@ x$HcSh;Sx
 x("tU
 x(Mcl$ E;l$0
 x*;XZ
-x*D;%
+x*D;%H
 x,E9|$,
 x0;wH}+Hc
 x0tNH
@@ -29619,8 +29618,9 @@ z|uzf
 z}u{L
 z~u|I
 { H;=
+{ H;=	
 { H;=ca
-{ H;=y
+{ H;=i
 { [A\A]A^H
 { [A\A]]H
 { [A\]H
@@ -29636,7 +29636,7 @@ z~u|I
 {([A\]H
 {(fD9't)H
 {(~*H
-{0H;=m
+{0H;=
 {0[A\A]]
 {8[A\H
 {8[A^]

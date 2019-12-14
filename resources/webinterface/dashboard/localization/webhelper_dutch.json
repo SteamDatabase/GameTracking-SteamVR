@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Voorkeurshand",
 	"/user/hand/secondary": "Andere hand",
 	"/user/hand/any": "Een hand",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Linkervoet",
 	"/user/foot/right": "Rechtervoet",
 	"/user/shoulder/left": "Linkerschouder",

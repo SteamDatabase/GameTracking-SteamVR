@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Mano principale",
 	"/user/hand/secondary": "Altra mano",
 	"/user/hand/any": "Qualsiasi mano",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Piede sinistro",
 	"/user/foot/right": "Piede destro",
 	"/user/shoulder/left": "Spalla sinistra",

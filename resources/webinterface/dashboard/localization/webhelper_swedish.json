@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Primär hand",
 	"/user/hand/secondary": "Andra hand",
 	"/user/hand/any": "Någon hand",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Vänster fot",
 	"/user/foot/right": "Höger fot",
 	"/user/shoulder/left": "Vänster axel",

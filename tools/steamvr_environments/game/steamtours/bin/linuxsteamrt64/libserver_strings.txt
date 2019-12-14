@@ -541,7 +541,8 @@
  CSVCMsg_GameSessionConfiguration
  CUserMessageHapticsManagerEffect
  Can't back up over more bytes than were returned by the last call to Next().
- L9%'
+ H;=.
+ H;=~
  M9l$
  M9l$hu
  Moving 
@@ -1431,7 +1432,6 @@ $zjuh
 &A9D$
 &GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT
 &GE_ClearDecalsForSkeletonInstanceEvent
-&L9%7
 &NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
 &NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
 &NETWORK_DISCONNECT_PURESERVER_MISMATCH
@@ -1830,7 +1830,6 @@ $zjuh
 .2zZuXA
 .55"C
 .5Au&
-.5yF\
 .8z%u#
 .=`.>
 .>()09
@@ -9564,19 +9563,16 @@ D/xA9
 D8 vzM
 D8sUt
 D9"t=Lc
-D9%	bt
 D9% -
+D9%#at
 D9%4f
+D9%7B
 D9%@e
 D9%Ns
 D9%Zr
-D9%hN
-D9%tM
-D9-Nbt
-D9-aG
 D99~OH
 D9;t3I
-D9=9\
+D9=iJ
 D9C ~JMc
 D9HxtmI
 D9SLIc
@@ -9595,15 +9591,18 @@ D; t)I
 D; tMH
 D; }VH
 D;!ttHc
+D;%	et
 D;%%g
-D;%iet
-D;%~y
+D;%^_
+D;%hB
 D;)ts
 D;+}E
 D;.tLH
 D;1Lc
 D;3t 
 D;3}*H
+D;5af
+D;5cr
 D;8tQH
 D;8}?I
 D;C(I
@@ -11478,76 +11477,76 @@ H;5I.
 H;5Xi
 H;5`6
 H;5d9
-H;5o]
 H;5yR
 H;5yq
 H;8tmH
 H;9u#
-H;=	C
 H;= f
 H;="d
 H;=#m
 H;=$e
 H;=%+
-H;=&B~
 H;='@
 H;=)A
-H;=*H
-H;=*U
+H;=*,
+H;=*0
+H;=*=
+H;=*G
+H;=*S
+H;=*X
 H;=*[
-H;=*v
+H;=*o
+H;=*s
 H;=+|
-H;=/Y
+H;=.T
 H;=0e
 H;=2(
-H;=3[
-H;=6\
 H;=7w
-H;=81
-H;=:b
-H;==vu
+H;=:[
+H;=>i
 H;=@=
 H;=@d
 H;=DD
 H;=H_
-H;=J3
-H;=J7
-H;=JD
-H;=JJ
-H;=JP
-H;=J]
-H;=J_
-H;=Jz
+H;=I?
+H;=J;
+H;=JN
+H;=J[
 H;=LJ
 H;=Md
-H;=N9
 H;=Nm
+H;=P`
 H;=Pc
-H;=Pu
 H;=R@
-H;=Swu
-H;=TN
-H;=U'
-H;=VX
+H;=S8
 H;=W1
+H;=Z|
 H;=[6
-H;=]K
-H;=^`
+H;=]\
 H;=_\
 H;=`b
-H;=cW
-H;=f8
-H;=jK
-H;=jX
+H;=fN
+H;=j)
+H;=j6
+H;=j@
+H;=jD
+H;=jI
+H;=jQ
+H;=jV
+H;=jl
 H;=nX
 H;=p_
 H;=pa
-H;=u4r
+H;=s^
+H;=w?~
+H;=w_
 H;=xd
 H;=ym
+H;=zT
 H;={;
 H;={N
 H;=}@
+H;=}X
 H;B@t
 H;CHt
 H;G t
@@ -11577,6 +11576,7 @@ HAS FL_FLY
 HB@T	J
 HDR Color Scale: %0.3f
 HELPER_BONE
+HH;=U
 HIERARCHY_ABSORIGIN
 HIERARCHY_ATTACHMENT
 HIERARCHY_BONE
@@ -11652,7 +11652,6 @@ HaticsType_Default
 HaticsType_None
 Have Entity say string, and teamOnly or not
 Hc	t,
-Hc=R,
 Hc@0A
 Hc@HH
 Hc@HI
@@ -12935,14 +12934,16 @@ LayoutPositionType_e
 Lc"D;b
 Lc#D;c
 Lc#fA
-Lc%uy
-Lc%zt
+Lc%8B
+Lc%U_
+Lc%cB
 Lc&D;f
 Lc&E)
 Lc'E)
 Lc(D;h
 Lc)D;i
 Lc+D;k
+Lc-<q|
 Lc.D;n
 Lc/D;o
 Lc/E)
@@ -13977,7 +13978,6 @@ PF_TYPE_CONTROL_POINT_COMPONENT
 PF_TYPE_LITERAL
 PF_TYPE_PARTICLE_AGE_NORMALIZED
 PF_TYPE_RANDOM_UNIFORM
-PH;=m
 PHA9]H
 PHD9m
 PHE9e
@@ -14615,7 +14615,8 @@ ResponseRulesCache001
 RestartMapToolEvent"D
 Restore underflow!
 RestoreFlashlightThink
-Restoring CEnvCombinedLightProbeVolume with 0 brightness and color, presumably from an old save. Setting them to full brightness and color.
+Restoring CEnvCombinedLightProbeVolume with 0 brightness, presumably from an old save. Setting it to full brightness.
+Restoring CEnvCombinedLightProbeVolume with 0 color, presumably from an old save. Setting it to full color.
 Restoring NPC
 Restoring entity with a 0 shadow strength, presumably from an old save. Setting to default.
 Restrict area selection to areas that can support a hull of the given category
@@ -17634,6 +17635,7 @@ WriteToBuffer Message %s is not initialized! Probably missing required fields!
 Writes the selected set to disk for merging into another mesh via nav_merge_mesh.
 WxH;2t*H
 X%-.B
+X-QK:
 X-dOC
 X4[A\]
 X=2v?
@@ -17675,7 +17677,6 @@ Y%JMe
 Y%}3W
 Y-)X2
 Y--g0
-Y-]TR
 Y-hg0
 Y5<X2
 Y?[A\]
@@ -19702,6 +19703,7 @@ fA;0tiA
 fA;D]0t
 fA;G6
 fA;L$R
+fD9%V
 fD9Q(D
 fD9cV
 fD9cnr
@@ -28477,7 +28479,6 @@ t%HcC0A
 t%HcE
 t%HcU
 t%IcE
-t&;5G
 t&L;%
 t&L;%@
 t&L;%P
@@ -28496,11 +28497,11 @@ t([A\A]A^]
 t([A\]
 t)HcC
 t)HcE
-t*D:=
+t*D:=a]
 t*D;%
 t+Ic\$
 t,D9m
-t,D:%
+t,D:%k[a
 t,Hc6H
 t,Hcp
 t,Ic:H
@@ -28508,8 +28509,8 @@ t,[A\A]A^]
 t,~R=
 t-L9p
 t-rex
-t.D:%}Ma
-t.D:-v
+t.D:%
+t.D:-
 t.D;=
 t.H9P
 t.H;w(t8H;w0tBH;w8tLH;w@t
@@ -29769,8 +29770,8 @@ z|uzH
 z|uzI
 z}u{fA
 { H;=
-{ H;=!
 { H;=A
+{ H;=`
 { fA9
 { t6H
 {%d,%d,%d}
@@ -29806,7 +29807,7 @@ z}u{fA
 |$(E1
 |$(fA
 |$0E;|$@
-|$0H;=R
+|$0H;=
 |$8Hi
 |$@E;|$Pu
 |$@Hc
@@ -29869,7 +29870,7 @@ z}u{fA
 ~(AUL
 ~(};Hc
 ~)H;7I
-~)H;=
+~)H;=L
 ~*fE;g
 ~+Lc}
 ~-L;p

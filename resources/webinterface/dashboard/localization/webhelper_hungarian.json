@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Fő kéz",
 	"/user/hand/secondary": "Másik kéz",
 	"/user/hand/any": "Bármelyik kéz",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Bal láb",
 	"/user/foot/right": "Jobb láb",
 	"/user/shoulder/left": "Bal váll",

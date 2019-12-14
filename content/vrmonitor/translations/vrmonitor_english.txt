@@ -216,6 +216,7 @@
 "MenuAction_ShowDisplayMirror" "Show VR View"
 "MenuAction_HideDisplayMirror" "Hide VR View"
 "MenuAction_DisplayMirror" "Display VR View"
+"MenuAction_PerformanceGraph" "Display Performance Graph"
 "MenuAction_ShowControllerBinding" "Controller Settings"
 "MenuAction_ShowManageTrackers" "Manage Vive Trackers"
 "MenuAction_UpdateFirmware" "Update Device"

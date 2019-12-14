@@ -3084,7 +3084,7 @@ models/turret_models/turret.vphys_c CRC:00b8c6e2ab size:23720
 models/turret_models/turret_eaad7de7.vagrp_c CRC:0044f82020 size:7576
 models/turret_models/turretwife.vmdl_c CRC:0055a67f45 size:4248
 models/turret_models/turretwife.vmesh_c CRC:00b78073d2 size:458673
-panorama/dynamic_images.vpdi_c CRC:00159c2004 size:179456
+panorama/dynamic_images.vpdi_c CRC:006a671e76 size:180022
 panorama/dynamic_images_addon.vpdi_c CRC:0093ad896b size:1062
 panorama/dynamic_images_addon_sentinel.vtex_c CRC:000b6f1813 size:20948
 panorama/dynamic_images_sentinel.vtex_c CRC:0028e28046 size:21028
@@ -3178,6 +3178,7 @@ panorama/images/contentdb/classical_statue001_png.vtex_c CRC:0055cbff27 size:264
 panorama/images/contentdb/clockwerk_mask001_png.vtex_c CRC:0048d215f3 size:264100
 panorama/images/contentdb/coffee_mug001_png.vtex_c CRC:00e391e188 size:264084
 panorama/images/contentdb/coffee_table001_png.vtex_c CRC:00db29612f size:264084
+panorama/images/contentdb/color_tool_png.vtex_c CRC:00b2de8156 size:264068
 panorama/images/contentdb/companion_bot001_png.vtex_c CRC:00d11b4b5f size:264084
 panorama/images/contentdb/computer_desk001_png.vtex_c CRC:00dafe60c1 size:264084
 panorama/images/contentdb/corner_table001_png.vtex_c CRC:00715c5a11 size:264084

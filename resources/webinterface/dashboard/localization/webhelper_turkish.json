@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Ana El",
 	"/user/hand/secondary": "Diğer El",
 	"/user/hand/any": "Her İki El",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Sol Ayak",
 	"/user/foot/right": "Sağ Ayak",
 	"/user/shoulder/left": "Sol Omuz",

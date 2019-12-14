@@ -48,6 +48,8 @@
 	"/user/hand/primary": "利き手",
 	"/user/hand/secondary": "他方の手",
 	"/user/hand/any": "どちらかの手",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "左足",
 	"/user/foot/right": "右足",
 	"/user/shoulder/left": "左肩",

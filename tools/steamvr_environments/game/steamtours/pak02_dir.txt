@@ -434,7 +434,7 @@ particles/tool_fx/controller_trackpad_position.vpcf_c CRC:00a0f0a084 size:1727
 particles/tool_fx/controller_trackpad_position_b.vpcf_c CRC:0091af6771 size:1593
 particles/ui_grab_item.vpcf_c CRC:00f45627da size:2142
 particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
-scripts/contentdb.txt CRC:001d491fa1 size:153808
+scripts/contentdb.txt CRC:00f94f228a size:153804
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70

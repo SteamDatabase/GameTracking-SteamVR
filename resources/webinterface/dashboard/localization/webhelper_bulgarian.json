@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Основна ръка",
 	"/user/hand/secondary": "Друга ръка",
 	"/user/hand/any": "Някоя ръка",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Ляв крак",
 	"/user/foot/right": "Десен крак",
 	"/user/shoulder/left": "Ляво рамо",

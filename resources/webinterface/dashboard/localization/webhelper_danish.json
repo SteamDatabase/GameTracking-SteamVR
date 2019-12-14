@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Primær hånd",
 	"/user/hand/secondary": "Den anden hånd",
 	"/user/hand/any": "Vilkårlig hånd",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Venstre fod",
 	"/user/foot/right": "Højre fod",
 	"/user/shoulder/left": "Venstre skulder",

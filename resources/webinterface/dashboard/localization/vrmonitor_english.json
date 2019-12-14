@@ -194,9 +194,9 @@
 	"Settings_MimeTypes_Pancake_Header": "Select an application to launch 2D applications in",
 
 	"Settings_Camera_EnableCamera": "Enable Camera",
-	"Settings_Camera_AllowCameraInDashboard": "Show Camera in Dashboard",
+	"Settings_Camera_AllowCameraInDashboard": "Show Camera on Controller",
 	"Settings_Camera_AllowCameraInDashboard_Desc": "Turns on a camera window attached to your controller when the Dashboard is up.",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Show Camera at Chaperone Edge",
+	"Settings_Camera_AllowCameraForChaperoneBounds": "Show Camera at Room Edge",
 	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
 	"Settings_Camera_AllowCameraForRoomView": "Enable Room View",
 	"Settings_Camera_AllowCameraForRoomView_Desc": "Access Room View at any time by double clicking the System button",
@@ -327,6 +327,7 @@
 
 	"Settings_ChooseStartupOverlayApps": "Choose Startup Overlay Apps",
 	"Settings_StartTheseOverlayAppsOnLaunch": "Start These Overlay Apps On Launch:",
+	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "No Overlay Apps were found",
 
 	"Settings_ActiveController": "Active Controller",
 	"Settings_EditBinding": "Edit This Binding",
@@ -338,6 +339,8 @@
 	"Settings_ActiveBinding": "Active Binding",
 	"Settings_ShowThumbstickSettings": "Edit Thumbstick Settings",
 	"Settings_ThumbstickSettings": "Thumbstick Settings",
-	"Settings_Number_Selected": "%1$s Selected"
+	"Settings_Number_Selected": "%1$s Selected",
 
+	"TestControllerTitle": "Testing Controller %1$s",
+	"TestController_NoController": "Turn on a controller to test it."
 }

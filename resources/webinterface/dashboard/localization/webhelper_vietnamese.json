@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Tay thuận",
 	"/user/hand/secondary": "Tay nghịch",
 	"/user/hand/any": "Tay bất kỳ",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Chân trái",
 	"/user/foot/right": "Chân phải",
 	"/user/shoulder/left": "Vai trái",

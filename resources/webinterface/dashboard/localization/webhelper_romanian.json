@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Mâna principală",
 	"/user/hand/secondary": "Cealaltă mână",
 	"/user/hand/any": "Oricare mână",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Piciorul stâng",
 	"/user/foot/right": "Piciorul drept",
 	"/user/shoulder/left": "Umărul stâng",

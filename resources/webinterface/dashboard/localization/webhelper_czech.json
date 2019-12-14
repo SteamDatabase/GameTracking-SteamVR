@@ -48,6 +48,8 @@
 	"/user/hand/primary": "Primární ruka",
 	"/user/hand/secondary": "Sekundární ruka",
 	"/user/hand/any": "Libovolná ruka",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Levé chodidlo",
 	"/user/foot/right": "Pravé chodidlo",
 	"/user/shoulder/left": "Levé rameno",

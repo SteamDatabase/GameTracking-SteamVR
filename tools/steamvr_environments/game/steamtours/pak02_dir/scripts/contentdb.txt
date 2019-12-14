@@ -1699,7 +1699,7 @@
 			content = "models/props_gameplay/colour_picker_tool.vmdl"
 			script = "tools/color_tool"
 			equip_sound = "tagmarker_equip"
-			preview_image = "file://{images}/contentdb/freeze_tool001.png"
+			preview_image = "file://{images}/contentdb/color_tool.png"
 			locked_by_quest = false
 		},
 		//{

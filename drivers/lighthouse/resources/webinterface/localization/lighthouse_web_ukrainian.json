@@ -12,7 +12,7 @@
 	"pairing_nodongles_desc": "SteamVR не вдалося знайти обладнання для поєднання контролерів.",
 	"pairing_nodongles_instr": "Переконайтеся, що ваш шолом увімкнено та під’єднано.",
 	"pairing_selectdevice_title": "Виберіть тип контролера",
-	"pairingdevice_knuckles_controllername": "Valve Index Controller",
+	"pairingdevice_knuckles_controllername": "Контролер Valve Index",
 	"pairingdevice_vivewand_shortname": "Контролер HTC Vive",
 	"pairingdevice_vivetracker_shortname": "Відстежувач HTC Vive",
 	"pairingdevice_logitechvrinkpilotedition_shortname": "Logitech VR Ink Pilot Edition",

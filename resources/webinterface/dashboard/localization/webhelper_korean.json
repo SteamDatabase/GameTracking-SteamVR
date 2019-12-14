@@ -48,6 +48,8 @@
 	"/user/hand/primary": "주로 사용하는 손",
 	"/user/hand/secondary": "다른 손",
 	"/user/hand/any": "오른손 또는 왼손",
+	"/user/stylus": "Stylus",
+	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "왼발",
 	"/user/foot/right": "오른발",
 	"/user/shoulder/left": "왼쪽 어깨",
