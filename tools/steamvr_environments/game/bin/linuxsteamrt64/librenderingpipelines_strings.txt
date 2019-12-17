@@ -264,7 +264,6 @@ AWAVI
 AWAVL
 AWAVM
 AZA[L
-A[A]H
 A\A]A^A_]
 A\A]A^A_]L
 A\A]A^]
@@ -742,6 +741,7 @@ Linear
 LoadKV3ObjectInPlace error: %s
 Localize_001
 LockDynamicConstantBuffer failed in CreatePerViewConstantBuffer!!!
+LockDynamicConstantBuffer failed in SetupConstantBufferForCoreGradientFog!!!
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_LogDirect
@@ -999,6 +999,7 @@ SequenceMarkup
 SequenceMarkupList
 SerializedEntitiesVersion001
 ServerUploadGameStats001
+SetupConstantBufferForCoreGradientFog
 ShadowVisLayer
 Simulated
 SkeletonBoneBounds_t

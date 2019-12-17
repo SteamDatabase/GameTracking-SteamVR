@@ -168,9 +168,9 @@
 	"Settings_Perapplication_RefreshRateOverride_Description": "Marcar esta opción permitirá especificar una frecuencia de actualización diferente de la preferencia global para esta aplicación.",
 	"Settings_MimeTypes_Pancake_Header": "Selecciona una aplicación para lanzar aplicaciones de 2D en",
 	"Settings_Camera_EnableCamera": "Activar cámara",
-	"Settings_Camera_AllowCameraInDashboard": "Show Camera on Controller",
+	"Settings_Camera_AllowCameraInDashboard": "Mostrar cámara en el control",
 	"Settings_Camera_AllowCameraInDashboard_Desc": "Activa una ventana de cámara conectada a tu control cuando el menú principal está arriba.",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Show Camera at Room Edge",
+	"Settings_Camera_AllowCameraForChaperoneBounds": "Mostrar cámara en los límites de la habitación",
 	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
 	"Settings_Camera_AllowCameraForRoomView": "Activar vista de habitación",
 	"Settings_Camera_AllowCameraForRoomView_Desc": "Accede a la vista de la habitación en cualquier momento haciendo doble clic en el botón Sistema",
@@ -216,7 +216,7 @@
 	"Settings_Classic": "Clásica",
 	"Settings_Near": "Cercana (beta)",
 	"Settings_DesktopScale": "Escala del Escritorio",
-	"Settings_DashboardScale": "Dashboard Scale",
+	"Settings_DashboardScale": "Escala de menú principal",
 	"SettingsTime_5s": "5 segundos",
 	"SettingsTime_30s": "30 segundos",
 	"SettingsTime_1m": "1 minuto",
@@ -277,7 +277,7 @@
 	"Settings_PerApplication_VideoSettings": "Preferencias de video por aplicación",
 	"Settings_ChooseStartupOverlayApps": "Elegir aplicaciones de interfaz al iniciar",
 	"Settings_StartTheseOverlayAppsOnLaunch": "Abrir estas aplicaciones de superposición al inicio:",
-	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "No Overlay Apps were found",
+	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "No se han encontrado aplicaciones de superposición",
 	"Settings_ActiveController": "Activar control",
 	"Settings_EditBinding": "Editar esta asignación",
 	"Settings_EditBinding_ChooseAnother": "Elegir otra",
@@ -289,6 +289,6 @@
 	"Settings_ShowThumbstickSettings": "Editar ajustes del stick analógico",
 	"Settings_ThumbstickSettings": "Ajustes del stick analógico",
 	"Settings_Number_Selected": "%1$s seleccionado",
-	"TestControllerTitle": "Testing Controller %1$s",
-	"TestController_NoController": "Turn on a controller to test it."
+	"TestControllerTitle": "Probando controles %1$s",
+	"TestController_NoController": "Encender control para probarlo."
 }

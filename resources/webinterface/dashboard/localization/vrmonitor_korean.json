@@ -168,9 +168,9 @@
 	"Settings_Perapplication_RefreshRateOverride_Description": "Checking this option will allow specifying a different refresh rate from the global setting for this application.",
 	"Settings_MimeTypes_Pancake_Header": "2D 애플리케이션을 실행하는 데 사용할 애플리케이션 선택",
 	"Settings_Camera_EnableCamera": "카메라 활성화",
-	"Settings_Camera_AllowCameraInDashboard": "Show Camera on Controller",
+	"Settings_Camera_AllowCameraInDashboard": "컨트롤러에 카메라 표시",
 	"Settings_Camera_AllowCameraInDashboard_Desc": "대시보드가 표시되면 컨트롤러에 연결된 카메라 윈도우를 켭니다.",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Show Camera at Room Edge",
+	"Settings_Camera_AllowCameraForChaperoneBounds": "방 가장자리에 카메라 표시",
 	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
 	"Settings_Camera_AllowCameraForRoomView": "Enable Room View",
 	"Settings_Camera_AllowCameraForRoomView_Desc": "언제든지 시스템 버튼을 두 번 누르면 '방 보기'를 이용할 수 있습니다",
@@ -216,7 +216,7 @@
 	"Settings_Classic": "Classic",
 	"Settings_Near": "Near (beta)",
 	"Settings_DesktopScale": "Desktop Scale",
-	"Settings_DashboardScale": "Dashboard Scale",
+	"Settings_DashboardScale": "대시보드 스케일",
 	"SettingsTime_5s": "5초",
 	"SettingsTime_30s": "30초",
 	"SettingsTime_1m": "1분",
@@ -277,7 +277,7 @@
 	"Settings_PerApplication_VideoSettings": "Per-Application Video Settings",
 	"Settings_ChooseStartupOverlayApps": "Choose Startup Overlay Apps",
 	"Settings_StartTheseOverlayAppsOnLaunch": "Start These Overlay Apps On Launch:",
-	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "No Overlay Apps were found",
+	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "발견된 오버레이 앱이 없습니다",
 	"Settings_ActiveController": "Active Controller",
 	"Settings_EditBinding": "Edit This Binding",
 	"Settings_EditBinding_ChooseAnother": "Choose Another",
@@ -289,6 +289,6 @@
 	"Settings_ShowThumbstickSettings": "Edit Thumbstick Settings",
 	"Settings_ThumbstickSettings": "Thumbstick Settings",
 	"Settings_Number_Selected": "%1$s Selected",
-	"TestControllerTitle": "Testing Controller %1$s",
-	"TestController_NoController": "Turn on a controller to test it."
+	"TestControllerTitle": "컨트롤러 테스트 %1$s",
+	"TestController_NoController": "컨트롤러 켜서 테스트하기"
 }

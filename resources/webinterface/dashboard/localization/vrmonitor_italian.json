@@ -168,9 +168,9 @@
 	"Settings_Perapplication_RefreshRateOverride_Description": "Attivare questa opzione consentirà di specificare una frequenza di aggiornamento diversa da quella predefinita per questa applicazione.",
 	"Settings_MimeTypes_Pancake_Header": "Seleziona un'applicazione per avviare le applicazioni 2D",
 	"Settings_Camera_EnableCamera": "Attiva la telecamera",
-	"Settings_Camera_AllowCameraInDashboard": "Show Camera on Controller",
+	"Settings_Camera_AllowCameraInDashboard": "Mostra telecamera sul controller",
 	"Settings_Camera_AllowCameraInDashboard_Desc": "Attiva una finestra della telecamera associata al tuo controller quando la Dashboard è attiva.",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Show Camera at Room Edge",
+	"Settings_Camera_AllowCameraForChaperoneBounds": "Mostra telecamera al bordo della stanza",
 	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
 	"Settings_Camera_AllowCameraForRoomView": "Abilita Vista stanza",
 	"Settings_Camera_AllowCameraForRoomView_Desc": "Accedi a Vista stanza in qualunque momento premendo due volte il pulsante Sistema",
@@ -216,7 +216,7 @@
 	"Settings_Classic": "Classica",
 	"Settings_Near": "Vicina (beta)",
 	"Settings_DesktopScale": "Scala del desktop",
-	"Settings_DashboardScale": "Dashboard Scale",
+	"Settings_DashboardScale": "Scala dashboard",
 	"SettingsTime_5s": "5 secondi",
 	"SettingsTime_30s": "30 secondi",
 	"SettingsTime_1m": "1 minuto",
@@ -277,7 +277,7 @@
 	"Settings_PerApplication_VideoSettings": "Impostazioni video per applicazione",
 	"Settings_ChooseStartupOverlayApps": "Scegli le app in overlay all'avvio",
 	"Settings_StartTheseOverlayAppsOnLaunch": "Avvia queste app in overlay all'avvio:",
-	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "No Overlay Apps were found",
+	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "Nessuna app in overlay trovata",
 	"Settings_ActiveController": "Controller attivo",
 	"Settings_EditBinding": "Modifica questa associazione",
 	"Settings_EditBinding_ChooseAnother": "Scegline un'altra",
@@ -289,6 +289,6 @@
 	"Settings_ShowThumbstickSettings": "Modifica impostazioni della levetta",
 	"Settings_ThumbstickSettings": "Impostazioni della levetta",
 	"Settings_Number_Selected": "%1$s selezionato",
-	"TestControllerTitle": "Testing Controller %1$s",
-	"TestController_NoController": "Turn on a controller to test it."
+	"TestControllerTitle": "Test del controller %1$s in corso",
+	"TestController_NoController": "Accendi un controller per testarlo."
 }
