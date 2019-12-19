@@ -2062,11 +2062,11 @@ $z0u.A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
+.%Cph
 .%QsR
-.%{Ft
 .(Optional) Set of tags for the published file.
 .-" S
-.-+ph
+.-gph
 .-vqP
 ...<truncated>...
 ../../public/entity2/entitycomponent.h
@@ -4818,6 +4818,7 @@ $z0u.A
 98t.A
 99w(|&H
 9<t	]
+9=VkU
 9@8:u
 9A88@
 9A89@
@@ -9688,7 +9689,7 @@ C_WaterBullet
 C_World
 C_WorldUIInteractController
 C_fogplayerparams_t
-C`H;=
+C`H;=V
 C`[A\A]A^]
 C`_AXH
 C`f;E
@@ -10363,12 +10364,10 @@ D;!ttHc
 D;%"m
 D;%5=
 D;%?7
-D;%[ 
 D;%{z
 D;)ts
 D;-O-
 D;-b"
-D;-~ga
 D;.tLH
 D;0}zH
 D;1Lc
@@ -12389,17 +12388,18 @@ H;=#S
 H;=#g
 H;=$4
 H;=&B
-H;=&T
 H;='g
 H;=( 
 H;=()
 H;=(9
 H;=(W
-H;=(W^
 H;=(i
+H;=,ck
 H;=.L
 H;=/F
-H;=1ck
+H;=00^
+H;=00_
+H;=1._
 H;=2^
 H;=2c
 H;=2}
@@ -12412,12 +12412,14 @@ H;=88
 H;=8Q
 H;=8V
 H;=8h
-H;=9;k
+H;=9T
 H;=9U
 H;=;b
 H;=<'
 H;=<*
 H;=<g
+H;==/
+H;==0
 H;=>3
 H;=?7
 H;=?;
@@ -12425,7 +12427,7 @@ H;=?D
 H;=B$
 H;=BJ
 H;=Bi
-H;=Bq
+H;=Bo
 H;=C0
 H;=CT
 H;=D	
@@ -12443,6 +12445,7 @@ H;=Hg
 H;=Hh
 H;=LG
 H;=Lj
+H;=Mo
 H;=NO
 H;=O4
 H;=P!
@@ -12466,11 +12469,12 @@ H;=X~
 H;=Y*
 H;=Y|
 H;=Z*
-H;=\t
 H;=]4
+H;=]c
 H;=]}
 H;=_'
 H;=`A
+H;=bQ
 H;=cU
 H;=e)
 H;=f'
@@ -12489,7 +12493,6 @@ H;=lp
 H;=o$
 H;=o;
 H;=oC
-H;=q J
 H;=qD
 H;=qW
 H;=r`
@@ -12506,11 +12509,11 @@ H;=x!
 H;=x/
 H;=xC
 H;=xR
-H;=xX^
 H;=xa
 H;=xd
 H;=x|
 H;=y$
+H;=z5k
 H;=}F
 H;B@t
 H;C(t
@@ -12649,6 +12652,7 @@ HasSaveGame
 HaticsType_Default
 HaticsType_None
 Have closed caption Panorama panel perform depth testing against the scene
+Hc5 7
 Hc5)W
 Hc5>>
 Hc5qR
@@ -13609,7 +13613,7 @@ KnucklesEV1_3Controller
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-Kp H;=
+Kp H;=b
 L$ E;L$0ttI
 L$ H9
 L$ ^_H
@@ -13753,7 +13757,6 @@ Lc)D;i
 Lc+D;k
 Lc-F-
 Lc-Y"
-Lc-uga
 Lc/E)
 Lc3D;s
 Lc7D)
@@ -18793,7 +18796,7 @@ Z}uU
 \$@Mc
 \$`Ic
 \%03o
-\=	 n
+\=i n
 \C not allowed in lookbehind assertion
 \C8E1
 \IcL$HIc
@@ -28091,13 +28094,13 @@ t*Lc}
 t+Ic\$
 t+Mc7E;w
 t,D9m
-t,D:%{sl
+t,D:%
 t-D; 
 t-[A\A]A^]
 t-rex
-t.D:%-el
+t.D:%
 t.D;%
-t.D;=m@
+t.D;=
 t.H9P
 t.HcC H
 t.HcC(H
@@ -29461,7 +29464,7 @@ x$HcSh;Sx
 x("tU
 x(Mcl$ E;l$0
 x*;XZ
-x*D;%H
+x*D;%
 x,E9|$,
 x0;wH}+Hc
 x0tNH
