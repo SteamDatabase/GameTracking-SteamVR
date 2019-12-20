@@ -291,7 +291,7 @@
 #ep~(
 #k+ka\T
 #k_ESteamDatagramMsg_RouterPingReply
-#l$ ;-
+#l$ ;-/
 #oy=i~
 #t9;@Z
 #y"jl
@@ -425,6 +425,7 @@ $tjHcF
 %^#9#
 %aIwV
 %bw+s
+%d byte buffer not big enough; %d bytes required
 %d byte packet is too small
 %d consecutive session request timeouts at %s; marking address as failed.
 %d%+d/%d%+d
@@ -540,6 +541,7 @@ $tjHcF
 'Z9t%
 'bQvE
 'g0dW
+'gM|[
 'k_ESteamDatagramMsg_GameserverPingReply
 'k_ESteamNetworkingSocketsCipher_INVALID
 'k_ESteamNetworkingUDPMsg_ChallengeReply
@@ -562,7 +564,6 @@ $tjHcF
 (H9,$
 (H9\$
 (H;7t
-(L9t$
 (L;t$h
 (M@<&
 (ZdOt
@@ -647,6 +648,8 @@ $tjHcF
 *p[[[[[[[[[[[[[[[[
 *};8.
 +'+1+3+=+?+K+O+U+i+m+o+{+
++5RQK
++5hMK
 +A*Z<Z
 +C-.c
 +CMsgSteamDatagramGameCoordinatorServerLogin
@@ -796,7 +799,6 @@ $tjHcF
 .init_array
 .note.gnu.build-id
 .placeholder.proto
-.qg)N
 .r&I|C
 .rela.dyn
 .rela.plt
@@ -972,7 +974,6 @@ $tjHcF
 2D$LH
 2D$MH
 2I y)
-2N%_ 
 2Tm=#
 2Uiwp"9
 2\fWQx
@@ -1181,7 +1182,6 @@ $tjHcF
 9#9%9)9/9=9A9M9[9k9y9}9
 9(r*f.
 9(rswafD;h
-9-M9K
 90t4H
 98t#H
 9:dzGN
@@ -1223,7 +1223,6 @@ $tjHcF
 :<ntM
 :=2"p
 :BAD OBJECT
-:B^l"
 :EXTERNAL TYPE %s
 :O "#-
 :Pt>H9
@@ -1237,8 +1236,7 @@ $tjHcF
 ;%|>0
 ;(u&H
 ;*3$"
-;-7`K
-;-wDK
+;-GUK
 ;0|	;p
 ;0}VH
 ;2(-/
@@ -1266,6 +1264,7 @@ $tjHcF
 ;d22Vd22Vt::Nt::N
 ;dy>p
 ;h)j 
+;jpuuA
 ;k,}%
 ;k0| E1
 ;k8}$H
@@ -1291,6 +1290,7 @@ $tjHcF
 <)<5<C<O<S<[<e<k<q<
 <-tJI
 <-tPI
+<.M9't
 <0tT<@f
 <0t\H
 <0tvH
@@ -1401,8 +1401,11 @@ $tjHcF
 @h!Aq8
 @t?E1
 @taL9
+@xH9E
 A connection with that ID already exists.
 A file with this name is already in the pool.
+A listen socket handle was used where a poll group handle was expected
+A poll group handle was used where a listen socket handle was expected
 A protocol message was rejected because it was too big (more than 
 A }%H
 A!A3A5A;A?AYAeAkAwA{A
@@ -1698,6 +1701,7 @@ Assertion Failed: !data.m_bLast
 Assertion Failed: !g_mapConnections.IsValidIndex( idx )
 Assertion Failed: !g_mapListenSockets.IsValidIndex( idx )
 Assertion Failed: !g_mapP2PConnections.HasElement( key )
+Assertion Failed: !g_mapPollGroups.IsValidIndex( idx )
 Assertion Failed: !g_mapSharedClusterData[ hCluster ]->m_pConfig
 Assertion Failed: !g_sLauncherPartner.empty()
 Assertion Failed: !identityRemote.IsInvalid()
@@ -1713,6 +1717,8 @@ Assertion Failed: !m_pInt
 Assertion Failed: !m_pLast
 Assertion Failed: !m_pParentListenSocket
 Assertion Failed: !m_pPartner
+Assertion Failed: !m_pPollGroup
+Assertion Failed: !m_pPollGroup->m_vecConnections.HasElement( this )
 Assertion Failed: !m_pSocket
 Assertion Failed: !m_pTransport
 Assertion Failed: !m_senderState.m_mapInFlightPacketsByPktNum.empty()
@@ -1755,6 +1761,9 @@ Assertion Failed: (int)cbEncrypted <= k_cbSteamNetworkingSocketsMaxEncryptedPayl
 Assertion Failed: (int)cbEncrypted >= cbPlainText
 Assertion Failed: (links.m_pNext->*pMbrLinks).m_pPrev == this
 Assertion Failed: (links.m_pPrev->*pMbrLinks).m_pNext == this
+Assertion Failed: (pPrev->*pMbrLinks).m_pNext == pSuccessor
+Assertion Failed: (pPrev->*pMbrLinks).m_pQueue == pQueue
+Assertion Failed: (pSuccessor->*pMbrLinks).m_pQueue == pQueue
 Assertion Failed: *ita > va
 Assertion Failed: *itb > vb
 Assertion Failed: *pcubDecodedData
@@ -1934,6 +1943,7 @@ Assertion Failed: m_eTrust <= k_ETrust_NotTrusted
 Assertion Failed: m_fnCallback
 Assertion Failed: m_hConnectionSelf == k_HSteamNetConnection_Invalid
 Assertion Failed: m_hListenSocketSelf == k_HSteamListenSocket_Invalid
+Assertion Failed: m_hPollGroupSelf == k_HSteamNetPollGroup_Invalid
 Assertion Failed: m_heap.IsValidIndex(index)
 Assertion Failed: m_identityRemote.IsInvalid()
 Assertion Failed: m_idxServerMigrationTarget != m_vecActiveSessions[0]->m_pServer->m_idx
@@ -1982,6 +1992,7 @@ Assertion Failed: m_pParentListenSocket == nullptr
 Assertion Failed: m_pParentListenSocket == nullptr || m_pSteamNetworkingSocketsInterface == m_pParentListenSocket->m_pSteamNetworkingSocketsInterface
 Assertion Failed: m_pPartner
 Assertion Failed: m_pPartner->m_pPartner == nullptr
+Assertion Failed: m_pPollGroup && pMsg->m_linksSecondaryQueue.m_pQueue == &m_pPollGroup->m_queueRecvMessages
 Assertion Failed: m_pRawSock == nullptr
 Assertion Failed: m_pSock == nullptr
 Assertion Failed: m_pSock->GetRemoteHostAddr() == m_adr
@@ -2033,6 +2044,7 @@ Assertion Failed: m_vecAllRelaySessions.Count() == 0
 Assertion Failed: m_vecAllRelaySessions.Count() == i
 Assertion Failed: m_vecAllRelaySessions.Count() > 0
 Assertion Failed: m_vecAllRelaySessions.IsEmpty()
+Assertion Failed: m_vecConnections.Count() == i
 Assertion Failed: m_vecRoutes.empty()
 Assertion Failed: marker.m_nIndirectPing >= 0 && marker.m_nIndirectPing <= SteamNetworkPingLocationInternal_t::k_nMaxReasonablePing
 Assertion Failed: maxLen == 0 || pDest != NULL
@@ -2134,6 +2146,7 @@ Assertion Failed: pConn->m_identityRemote == identityRemote
 Assertion Failed: pConn->m_pMessagesSession == this
 Assertion Failed: pConn->m_pParentListenSocket == nullptr
 Assertion Failed: pConn->m_pParentListenSocket == this
+Assertion Failed: pConn->m_pPollGroup == this
 Assertion Failed: pConn->m_unConnectionIDRemote == msg.from_connection_id()
 Assertion Failed: pConv && pConv->GetDelimiterLength() > 0
 Assertion Failed: pData
@@ -2146,12 +2159,18 @@ Assertion Failed: pFormat != NULL
 Assertion Failed: pGlobal->m_bValueSet
 Assertion Failed: pGlobal->m_pInherit == nullptr
 Assertion Failed: pHdr
+Assertion Failed: pInsertBefore->m_linksSecondaryQueue.m_pQueue == &pPollGroup->m_queueRecvMessages
 Assertion Failed: pKey->m_eTrust != k_ETrust_UnknownWorking
 Assertion Failed: pKey->m_eTrust != k_ETrust_UnknownWorking && pKey->m_eTrust != k_ETrust_Unknown
 Assertion Failed: pKey->m_eTrust == k_ETrust_Revoked
+Assertion Failed: pMsg != m_queueRecvMessages.m_pFirst
 Assertion Failed: pMsg->SNPSend_IsReliable()
 Assertion Failed: pMsg->SNPSend_ReliableStreamPos() > 0
 Assertion Failed: pMsg->m_identityPeer == identityRemote
+Assertion Failed: pMsg->m_links.m_pQueue != nullptr
+Assertion Failed: pMsg->m_links.m_pQueue == &m_queueRecvMessages
+Assertion Failed: pMsg->m_linksSecondaryQueue.m_pQueue == &m_pPollGroup->m_queueRecvMessages
+Assertion Failed: pMsg->m_linksSecondaryQueue.m_pQueue == &m_queueRecvMessages
 Assertion Failed: pMsg->m_linksSecondaryQueue.m_pQueue == nullptr
 Assertion Failed: pMsg->m_nChannel >= 0
 Assertion Failed: pMsg->m_nMessageNumber > m_pLast->m_nMessageNumber
@@ -2171,8 +2190,10 @@ Assertion Failed: pPrimarySession->m_pServer->m_stats.m_usecTimeLastRecv > 0
 Assertion Failed: pPublicKey->GetKeyType() == k_ECryptoKeyTypeKeyExchangePublic
 Assertion Failed: pPublicKey->GetKeyType() == k_ECryptoKeyTypeSigningPublic
 Assertion Failed: pQueue->m_pFirst
+Assertion Failed: pQueue->m_pFirst != pSuccessor
+Assertion Failed: pQueue->m_pFirst == pSuccessor
+Assertion Failed: pQueue->m_pLast
 Assertion Failed: pRelay->m_stats.m_nMaxRecvPktNum > 0
-Assertion Failed: pResult && pResult->m_hListenSocketSelf == sock
 Assertion Failed: pResult->m_identityRemote == identityRemote
 Assertion Failed: pResult->m_links.m_pPrev == nullptr
 Assertion Failed: pResult->m_links.m_pQueue == this
@@ -2608,7 +2629,7 @@ CHECK failed: uninterpreted_options_field != NULL:
 CHECK failed: value.size() <= kint32max: 
 CHHcKPH
 CHHcUX
-CHL98
+CHL9 
 CHTTPRequest to %s being destructed, but we never executed the callback or canceled it
 CHX[]
 CHZ[]
@@ -2740,7 +2761,7 @@ C\lVQ
 C`D;mp}0Ik
 C`H9B
 C`I9D$
-C`IcG
+C`IcD$
 Cache-Control
 Callback doesn't fit!
 Callbacks backing up and not being checked.  Need to check them more frequently!
@@ -2778,18 +2799,23 @@ Cannot find session to mark as MRU!
 Cannot locate connection by handle to process connect request?
 Cannot post failure callback for non-SteamID-based P2P
 Cannot request a cert; we don't know our SteamID (yet?).
+Cannot set cert.  No private key?
 Cannot talk to any relays. Check Internet connection
 Cannot use specific IP address.
 Cert allows POPID %s, but CA trust chain does not
 Cert allows appid %u, but CA trust chain does not
+Cert does not authorize us for App %u
 Cert expired %d seconds ago.  Discarding and requesting another
 Cert expired %lld seconds ago
 Cert expires in %d seconds.  Not requesting another
 Cert expires in %d seconds.  Requesting another, but keeping current cert in case request fails
 Cert failure %d: %s
 Cert failure: %s
+Cert has invalid identity.  %s
+Cert has invalid public key
 Cert has no expiry
 Cert is bound to particular identity; doesn't go in the cert store
+Cert is for identity '%s'.  We are '%s'
 Cert is not authorized for POPID %s, only %s
 Cert is not authorized for POPID %s, only %s (and %d more)
 Cert is not authorized for appid %u, only %u
@@ -2798,6 +2824,7 @@ Cert is not restricted by POPID, by CA trust chain is, and does not authorize %s
 Cert is not restricted by appid, by CA trust chain is, and does not authorize %u
 Cert isn't a valid PEM-like text block
 Cert must be bound to an AppID.
+Cert public key does not match our private key
 Cert request for %s failed with reason code %d.  %s
 Cert request returned invalid cert
 Cert request returned invalid key type %d
@@ -2881,6 +2908,7 @@ CpJcT
 CreateHostedDedicatedServerListenSocket should be called through a gameserver's ISteamSocketNetworking
 CreateListenSocketIP
 CreateListenSocketP2P
+CreatePollGroup
 CreateSocketPair
 Created 
 CrlID
@@ -3004,7 +3032,7 @@ D$0t{L
 D$0u(I
 D$0uBH
 D$0~Q1
-D$4A9F4
+D$0~^
 D$4D)|$
 D$8!\$8
 D$89C,
@@ -3063,7 +3091,6 @@ D$HIc
 D$HL)
 D$HL)T$HL
 D$HM1
-D$HM9
 D$HdH
 D$HdH3
 D$Ht8
@@ -3072,8 +3099,8 @@ D$PA)
 D$PD9cH
 D$PH)
 D$PH9D$0H
-D$PH;
 D$PI9
+D$PL; 
 D$PMc
 D$PfE
 D$Pw=Hc
@@ -3089,6 +3116,7 @@ D$XH9D$Pr"H
 D$XL9
 D$XMc
 D$XdH3
+D$\[]A\A]A^
 D$`A"
 D$`E1
 D$`H!
@@ -3114,9 +3142,8 @@ D$hM!
 D$hdH
 D$hdH3
 D$lE!
-D$luMHc
+D$luGHc
 D$pE1
-D$pH9
 D$ptEI
 D$xH	
 D$xH	D$@H	l$8H
@@ -3172,9 +3199,10 @@ D514p
 D7q/;M
 D9 r9f
 D9 r]wKf;x
+D9 t)E1
 D9#~@H
 D9$$~x
-D98t)E1
+D9%[RK
 D9@(H
 D9D$0
 D9` H
@@ -3198,15 +3226,13 @@ D9ex~#L
 D9h,~%Ii
 D9h8~
 D9l$LA
-D9u ~~
 D9},H
 D:c	rKA
-D;%rAK
-D;%y~K
+D;%BRK
 D;,$t
-D;-iKK
+D;-9\K
+D;-z=P
 D;4$~VH
-D;5>GK
 D;G }
 D;L$0t
 D;\$@
@@ -3214,6 +3240,7 @@ D;\$p
 D;` H
 D;` v
 D;b v
+D;bpus
 D;c sp
 D;c }
 D;c }!D
@@ -3237,6 +3264,8 @@ D;cp} D
 D;cp}!D
 D;cp}IH
 D;d$$
+D;e |
+D;e | E1
 D;e }
 D;e }0D
 D;e }IH
@@ -3276,6 +3305,8 @@ D;l$t
 D;m,H
 D;m@}<Ii
 D;p |$E1
+D;rpu+
+D;rpus
 D;s8|
 D;t$`
 D;u\}
@@ -3329,11 +3360,13 @@ DataRouterToClient
 Dc&6\<H:
 Dd g4X3
 Decipher Only
+Deduced universe %d from certificate
 Default value for an enum field must be an identifier.
 Dependency unavailable
 DescriptorProto
 DescriptorProtosH
 Destroy() not used properly
+DestroyPollGroup
 Didn't find quality metrics for old primary?
 Didn't send valid connection ID
 Diffie-Hellman based MAC
@@ -3434,8 +3467,10 @@ E;t$8
 E;t$h
 E;u }}HcC 
 E;u(|
+E;u\}
 E;up}}HcCp
 E;|$l
+E;} |
 E@;ULu
 E@@t.H
 E@@t;L
@@ -3703,6 +3738,7 @@ G0HcW@H
 G0Tv~:
 G2xVo\?
 G3oML
+G4A9F4
 G8u+H
 G:   
 G<AVAUL
@@ -3762,6 +3798,7 @@ Generator (compressed):
 Generator (hybrid):
 Generator (uncompressed):
 GetBool
+GetCertificateRequest
 GetConfigValue
 GetConnectionInfo
 GetConnectionName
@@ -3968,47 +4005,50 @@ H;8tH
 H;8tX
 H;8t`
 H;8th
-H;=	&S
-H;=  W
-H;= HP
-H;=!DV
-H;=!MV
-H;=#lI
-H;=')S
-H;=+)W
-H;=+*W
-H;=+hV
-H;=,!W
-H;=."P
-H;=3,P
-H;=8&S
-H;=9"S
-H;=;uS
-H;=<"W
-H;=AGV
-H;=ANV
-H;=H+P
-H;=I S
-H;=K W
-H;=MdS
-H;=P>P
-H;=Y-P
-H;=[ P
-H;=[!W
-H;=\\I
-H;=a2W
-H;=aEV
-H;=aOV
-H;=g&S
-H;=h"S
-H;=k"W
-H;=khV
-H;=l/I
-H;=v!P
-H;=x S
-H;={'P
-H;={XV
-H;={pV
+H;=	bS
+H;=	iP
+H;= \W
+H;=!1W
+H;=&]P
+H;='eS
+H;=*QW
+H;=+cP
+H;=+eW
+H;=+fW
+H;=,@I
+H;=,]W
+H;=4+G
+H;=4vP
+H;=8bS
+H;=9^S
+H;=;AV
+H;=;BV
+H;=<^W
+H;=?aM
+H;=A7V
+H;=G!V
+H;=ISW
+H;=I\S
+H;=K\W
+H;=M?S
+H;=YQW
+H;=[DS
+H;=[]W
+H;=\.V
+H;=]uP
+H;=a6V
+H;=anW
+H;=bZP
+H;=f0W
+H;=gbS
+H;=h^S
+H;=k/T
+H;=k^W
+H;=thP
+H;=x!O
+H;=xSW
+H;=x\S
+H;=|WW
 H;C@|aH
 H;D$ 
 H;D$ H
@@ -4069,6 +4109,7 @@ Hc@$H
 Hc@$L
 Hc@,H
 HcA$H
+HcB 9
 HcB$H
 HcB,H
 HcC H
@@ -4104,7 +4145,6 @@ HcEH9
 HcEXA
 HcEpH
 HcF 9
-HcF A9
 HcF H
 HcG,H
 HcG0H
@@ -4115,6 +4155,7 @@ HcK,H
 HcL$(
 HcL$0H
 HcM H
+HcN 9
 HcP(H
 HcP,H
 HcP,I
@@ -4395,6 +4436,8 @@ JSON file is empty
 JS_!0
 JT[]A\A]A^A_
 J_R=I)
+JcD" 
+JcD: 
 JpL9=
 Jy).A
 Jy;B`]A
@@ -4484,7 +4527,6 @@ L$@A;D$X
 L$@E1
 L$@H;J
 L$@Hc
-L$@Hc@
 L$@fD
 L$DL;|$
 L$H I
@@ -4542,6 +4584,7 @@ L4Eud
 L4HA;L$ 
 L4uGv~;6
 L5^x|S
+L9"tc
 L90t+Hc@
 L94$s%E1
 L94$s'E1
@@ -4574,6 +4617,7 @@ L9|$X
 L9|$Xr
 L9|$Xr"
 L9|$XrUH
+L;$)H
 L;0u(
 L;D$p
 L;P |GH
@@ -4636,6 +4680,7 @@ Listening for SDR relayed traffic on UDP port %d (virtual port %d).
 Loaded network config revision %d OK
 Loaded network config revision %d from '%s' as per SDR_NETWORK_CONFIG
 Loaded revision %d OK
+Local identity established from certificate.  We are '%s'
 LocalKeySet
 Location
 Lock not held.  %s
@@ -4652,9 +4697,12 @@ Lost connectivity to ALL %d Steam Datagram routing clusters.  Possible problem w
 Lost primary session %s for connection %u.  %s
 LqH!)8
 M'Ezb
+M(L;!
+M(L;1
 M*jg7
 M8H+M0I
 M8t$`
+M94$t
 M9|$(
 M@ H)
 MASK:
@@ -4918,11 +4966,12 @@ O!YNO
 O#wjk
 O%.U/
 O(AVAUATL
+O-bXK
+O-krK
 O0AVAUATL
 O1NzNfj'fGv
 O8AVAUL
 O=4_}gL:
-O=FPK
 O?#7n
 O?'~^
 O@;J@
@@ -5142,6 +5191,7 @@ Pm8A?
 PmR"H?
 Policy Qualifier CPS
 Policy Qualifier User Notice
+Poll group handle bookkeeping bug!
 Polynomial:
 Pop ID '%s' appears more than once in the config.  (Possibly as an alias.)
 Port failure on %s was %.1fs ago.  Discarding record of failure on that port, might try again.
@@ -5154,6 +5204,7 @@ Prime:
 Private
 Private Key
 Private key doesn't match public key from cert
+Private key mismatch
 Private-Key: (%d bit)
 Privilege Withdrawn
 Probe
@@ -5244,7 +5295,7 @@ Reached an unintended state: CPPTYPE_MESSAGE
 Reading dangerously large protocol message.  If the message turns out to be larger than 
 ReceiveMessagesOnChannel
 ReceiveMessagesOnConnection
-ReceiveMessagesOnListenSocket
+ReceiveMessagesOnPollGroup
 Received %s from %s using active connection ID %u, but we didn't know about a session on that relay for this connection.  Dropped without reply.
 Received %s from %s using incorrect/stale connection ID %u.  Dropped without reply due to global spam reply rate limit.
 Received %s from %s using incorrect/stale connection ID %u.  Rejecting wth NoConnection reply.
@@ -5487,8 +5538,11 @@ Session Idle Timeout
 SessionRequestCheck
 SetAllocatedMessage
 SetBool
+SetCertificate
+SetCertificate: We are not currently able to verify our own cert!  %s.  Continuing anyway!
 SetConfigValue
 SetConnectionName
+SetConnectionPollGroup
 SetConnectionUserData
 SetDouble
 SetEnum
@@ -5510,6 +5564,7 @@ SetUInt64
 Should be called through a gameserver's ISteamSocketNetworking
 Should not be called before calling SteamDatagramServer_Init.
 Shouldn't be receiving this unless on accepted connections, only connections initiated locally.
+Shouldn't be sending end-to-end connect request!  Connection was initiated remotely!
 Shouldn't need to ask this question
 Shutting down low level socket/threading support.
 Signature has invalid length
@@ -5556,7 +5611,6 @@ SteamAPI_ISteamNetworkingSockets_GetListenSocketAddress
 SteamAPI_ISteamNetworkingSockets_GetQuickConnectionStatus
 SteamAPI_ISteamNetworkingSockets_InitAuthentication
 SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection
-SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnListenSocket
 SteamAPI_ISteamNetworkingSockets_ReceivedRelayAuthTicket
 SteamAPI_ISteamNetworkingSockets_RunConnectionStatusChangedCallbacks
 SteamAPI_ISteamNetworkingSockets_SendMessageToConnection
@@ -5615,7 +5669,9 @@ SteamDatagramServer_Init
 SteamDatagramServer_Init called more than once.
 SteamDatagramServer_Init_InternalV2
 SteamDatagramServer_Kill
+SteamDatagram_GetNetworkConfigURL
 SteamDatagram_InitClient called more than once.
+SteamDatagram_SetNetworkConfig
 SteamGameServer012
 SteamGameServerNetworkingMessages_Lib
 SteamGameServerNetworkingSockets_Lib
@@ -5632,6 +5688,8 @@ SteamNetworkingSocketsRecvP2PFailure_t with unknown failure code
 SteamNetworkingSocketsSerialized003
 SteamNetworkingSockets_Lib
 SteamNetworkingSockets_Poll
+SteamNetworkingSockets_SetLockAcquiredCallback
+SteamNetworkingSockets_SetLockWaitWarningThreshold
 SteamNetworkingSockets_SetManualPollMode
 SteamNetworkingSockets_SteamNetworkingIPAddr_ParseString
 SteamNetworkingSockets_SteamNetworkingIPAddr_ToString
@@ -5714,6 +5772,7 @@ T$<fD
 T$@H)
 T$@H1
 T$@Hc
+T$@Hc@
 T$@I!
 T$@L)
 T$@M!
@@ -6009,6 +6068,7 @@ Weird RouterPingReply timestamps from %s.  Reply contained %u, current is %u (el
 WfMD{
 WhL+NpL
 Why are making API calls on this connection?
+Why are we asking this?
 Wmn|CH
 WrgoI
 W}9D*
@@ -7082,6 +7142,7 @@ ctx->digest->md_size <= EVP_MAX_MD_SIZE
 ctx->length <= (int)sizeof(ctx->enc_data)
 ctx->tmp_len <= 3
 ctype
+cwJHcs,H
 cz>Sp
 d$ A)
 d$ A1
@@ -8164,6 +8225,7 @@ md5WithRSAEncryption
 md_algs
 md_gost94
 mdc2WithRSA
+meLsXU
 mem_dbg.c
 member
 member-body
@@ -8888,6 +8950,7 @@ s@'0q
 sD9>&
 sJfw>7G9@>
 sKu{~X
+sO%_ 
 sOARecord
 sT5w!
 sV u	
@@ -9330,7 +9393,7 @@ t$@L!
 t$@L)D$
 t$@Lc
 t$@ueH
-t$H9-
+t$H9-(
 t$H9h
 t$HD!l$H	D$HD
 t$HHc
@@ -9384,10 +9447,10 @@ t2<\th
 t3Hc|$h
 t4H;]
 t4[]A\
-t5M;n ~/H
 t6<]t2<	tA
-t6H9-
+t6H9-2
 t6Lcu,L
+t6M;n ~0H
 t8H;h8
 t8Hc@
 t:Hcs
@@ -9403,7 +9466,7 @@ tC<-t
 tCATI
 tDHcZ 1
 tE~+=
-tHH9-
+tHH9-<
 tIH+C
 tIL;+
 tJD9A
@@ -9505,6 +9568,7 @@ txspeed_ntile_5th
 txspeed_ntile_75th
 txspeed_ntile_95th
 txspeed_ntile_98th
+txx1H
 type() == TYPE_FIXED32
 type() == TYPE_FIXED64
 type() == TYPE_GROUP
@@ -9513,26 +9577,24 @@ type() == TYPE_VARINT
 type_id
 type_name
 tzH;l$
+tzx1H
 t{ATUH
 t|;r 
 t|Hc@
 u	[]A\
 u 9r |
 u%AUATUSH
+u%HcE
 u%Hc\$
 u&HcI,H
 u'L;m
 u*[E1
 u+,@	M
-u+HcE
 u-AWAVAUATUH
 u.;\$T
-u.HcS
 u0HcU8D
 u0tsH
-u2HcC
-u2IcD$
-u4HcC
+u3HcS
 u5IcU0I
 u79P 
 u8AVAUATUSH
@@ -9540,6 +9602,7 @@ u9D9@
 u9D9@ |
 u;{Gk
 u<HcC
+u@;EX
 u@USH
 u@u+L
 uB!!cB!!c 
@@ -9553,6 +9616,7 @@ uQ'ZH
 uQ9wh
 uQbK!
 uWH;Y
+ueHcS
 uespemosH1
 uhD;t$ A
 uh[]H
@@ -9560,6 +9624,8 @@ ui_lib.c
 ui_openssl.c
 uint32
 uint64
+umHcE
+umIcD$
 unauthAttrs
 unauth_attr
 undefined
@@ -9586,6 +9652,7 @@ userPassword
 utf8only
 uuH;]
 uu[]A\A]
+uwHcU
 v < t
 v'A>M6
 v0o/5
@@ -9710,8 +9777,7 @@ wtfD;h
 x	D9-
 x	D;-
 x	D;=
-x	D;=P
-x A#0A9
+x A#09
 x A9~ |'
 x121Address
 x500UniqueIdentifier
@@ -9741,6 +9807,7 @@ xV;kH}QA
 xY9S }6
 x[]A\A]
 x[]A\A]A^A_
+x\;-9
 x_crl.c
 x_long.c
 x_name.c

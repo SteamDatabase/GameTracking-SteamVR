@@ -540,7 +540,7 @@
 "[english]SelectModelSkin"	"Select a replacement model"
 "ModelSkinName_Controller"	"Kontrolcü"
 "[english]ModelSkinName_Controller"	"Controller"
-"ModelSKinName_BaseStation"	"Ana İstasyon"
+"ModelSKinName_BaseStation"	"Takip İstasyonu"
 "[english]ModelSKinName_BaseStation"	"Base Station"
 "ModelSkinName_Camera"	"Kamera"
 "[english]ModelSkinName_Camera"	"Camera"

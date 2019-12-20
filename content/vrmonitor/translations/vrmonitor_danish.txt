@@ -2591,5 +2591,17 @@
 "[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
 "BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 kræver en enhedsopdatering for at slå enhedsidentifikation til."
 "[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
+"MenuAction_BluetoothSettings"	"Bluetooth-indstillinger"
+"[english]MenuAction_BluetoothSettings"	"Bluetooth Settings"
+"MenuAction_BaseStationSettings"	"Indstillinger for basisstationer"
+"[english]MenuAction_BaseStationSettings"	"Base Station Settings"
+"Settings_Bluetooth_Title"	"Bluetooth-indstillinger"
+"[english]Settings_Bluetooth_Title"	"Bluetooth Settings"
+"Settings_BaseStations_Title"	"Indstillinger for basisstationer"
+"[english]Settings_BaseStations_Title"	"Base Station Settings"
+"Settings_Developer_Title"	"Udviklerindstillinger"
+"[english]Settings_Developer_Title"	"Developer Settings"
+"MenuAction_PerformanceGraph"	"Vis ydeevnegraf"
+"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }

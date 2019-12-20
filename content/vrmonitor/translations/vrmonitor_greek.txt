@@ -2597,5 +2597,15 @@
 "[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
 "BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"Το %1 απαιτεί μια ενημέρωση συσκευής για να επιτρέψει αναγνώριση συσκευής."
 "[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
+"MenuAction_BluetoothSettings"	"Ρυθμίσεις Bluetooth"
+"[english]MenuAction_BluetoothSettings"	"Bluetooth Settings"
+"MenuAction_BaseStationSettings"	"Ρυθμίσεις σταθμού βάσης"
+"[english]MenuAction_BaseStationSettings"	"Base Station Settings"
+"Settings_Bluetooth_Title"	"Ρυθμίσεις Bluetooth"
+"[english]Settings_Bluetooth_Title"	"Bluetooth Settings"
+"Settings_BaseStations_Title"	"Ρυθμίσεις σταθμού βάσης"
+"[english]Settings_BaseStations_Title"	"Base Station Settings"
+"Settings_Developer_Title"	"Ρυθμίσεις δημιουργού"
+"[english]Settings_Developer_Title"	"Developer Settings"
 }
 }

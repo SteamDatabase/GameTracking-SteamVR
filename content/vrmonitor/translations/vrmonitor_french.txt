@@ -2597,5 +2597,17 @@
 "[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
 "BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 nécessite une mise à jour du périphérique pour permettre l'identification."
 "[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
+"MenuAction_BluetoothSettings"	"Paramètres Bluetooth"
+"[english]MenuAction_BluetoothSettings"	"Bluetooth Settings"
+"MenuAction_BaseStationSettings"	"Paramètres des stations de base"
+"[english]MenuAction_BaseStationSettings"	"Base Station Settings"
+"Settings_Bluetooth_Title"	"Paramètres Bluetooth"
+"[english]Settings_Bluetooth_Title"	"Bluetooth Settings"
+"Settings_BaseStations_Title"	"Paramètres des stations de base"
+"[english]Settings_BaseStations_Title"	"Base Station Settings"
+"Settings_Developer_Title"	"Paramètres des développeurs"
+"[english]Settings_Developer_Title"	"Developer Settings"
+"MenuAction_PerformanceGraph"	"Afficher le graphique des performances"
+"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }

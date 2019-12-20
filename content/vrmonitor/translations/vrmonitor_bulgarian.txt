@@ -2602,5 +2602,17 @@
 "[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
 "BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 изисква обновление на устройство, за да се позволи идентифицирането."
 "[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
+"MenuAction_BluetoothSettings"	"Bluetooth настройки"
+"[english]MenuAction_BluetoothSettings"	"Bluetooth Settings"
+"MenuAction_BaseStationSettings"	"Настройки на базовите станции"
+"[english]MenuAction_BaseStationSettings"	"Base Station Settings"
+"Settings_Bluetooth_Title"	"Bluetooth настройки"
+"[english]Settings_Bluetooth_Title"	"Bluetooth Settings"
+"Settings_BaseStations_Title"	"Настройки на базовите станции"
+"[english]Settings_BaseStations_Title"	"Base Station Settings"
+"Settings_Developer_Title"	"Настройки за разработчици"
+"[english]Settings_Developer_Title"	"Developer Settings"
+"MenuAction_PerformanceGraph"	"Изобразяване на графика за производителността"
+"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }

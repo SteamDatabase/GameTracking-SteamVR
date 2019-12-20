@@ -572,12 +572,18 @@
 		"sources" :
 		[
 			{
-			  "path" : "/user/hand/left/input/trigger",
-			  "mode" : "button"
+				"path" : "/user/hand/left/input/trigger",
+				"parameters" : {
+					"haptic_amplitude" : "0"
+				},
+				"mode" : "button"
 			},
 			{
-			  "path" : "/user/hand/right/input/trigger",
-			  "mode" : "button"
+				"path" : "/user/hand/right/input/trigger",
+				"parameters" : {
+					"haptic_amplitude" : "0"
+				},
+				"mode" : "button"
 			},
 			{
 				"path" : "/user/hand/left/input/system",

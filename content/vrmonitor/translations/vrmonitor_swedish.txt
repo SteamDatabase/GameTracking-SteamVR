@@ -1384,7 +1384,7 @@
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_Title"	" Base Station Update Failed"
 "FirmwareWizard_UpdateBasestationWireless_Fail_UpperText"	"Programvaruuppdatering misslyckades."
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_UpperText"	"This device update failed."
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText"	"Om detta fortsätter att misslyckas, avsluta SteamVR och starta om din link box och basstation. Starta sedan SteamVR och försök igen."
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText"	"Om uppdateringen av denna enhet fortsätter att misslyckas utan att framsteg görs ... <ul><li>Avsluta SteamVR.<li>Koppla ur och koppla sedan in strömkabeln för basstationen igen.<li>Starta SteamVR, och försök igen.</ul>"
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText"	"If this device update continues to fail without making progress... <ul><li>Quit SteamVR.<li>Unplug and replug the Base Station power cable.<li>Launch SteamVR, and try again.</ul>"
 "FirmwareWizard_UpdateBasestationWireless_Fail_LowerText"	"Klicka på \"Försök igen\" nedan för att försöka igen."
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_LowerText"	"Click 'Retry' below to try again."
