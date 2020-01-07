@@ -291,7 +291,7 @@
 #ep~(
 #k+ka\T
 #k_ESteamDatagramMsg_RouterPingReply
-#l$ ;-/
+#l$ ;-
 #oy=i~
 #t9;@Z
 #y"jl
@@ -648,8 +648,6 @@ $tjHcF
 *p[[[[[[[[[[[[[[[[
 *};8.
 +'+1+3+=+?+K+O+U+i+m+o+{+
-+5RQK
-+5hMK
 +A*Z<Z
 +C-.c
 +CMsgSteamDatagramGameCoordinatorServerLogin
@@ -1182,6 +1180,7 @@ $tjHcF
 9#9%9)9/9=9A9M9[9k9y9}9
 9(r*f.
 9(rswafD;h
+9-}IK
 90t4H
 98t#H
 9:dzGN
@@ -1236,7 +1235,7 @@ $tjHcF
 ;%|>0
 ;(u&H
 ;*3$"
-;-GUK
+;-#nK
 ;0|	;p
 ;0}VH
 ;2(-/
@@ -1452,6 +1451,7 @@ A;F |
 A;G(|
 A;G,I
 A;GhA
+A;T$0
 A;T$<A
 A;\$,
 A;\$0|
@@ -2992,6 +2992,7 @@ D$(t-
 D$(t9I
 D$(tDH
 D$(t_H
+D$(u 
 D$(uBH
 D$)vmA
 D$*vVA
@@ -3032,7 +3033,6 @@ D$0t{L
 D$0u(I
 D$0uBH
 D$0~Q1
-D$0~^
 D$4D)|$
 D$8!\$8
 D$89C,
@@ -3116,7 +3116,6 @@ D$XH9D$Pr"H
 D$XL9
 D$XMc
 D$XdH3
-D$\[]A\A]A^
 D$`A"
 D$`E1
 D$`H!
@@ -3202,7 +3201,6 @@ D9 r]wKf;x
 D9 t)E1
 D9#~@H
 D9$$~x
-D9%[RK
 D9@(H
 D9D$0
 D9` H
@@ -3228,11 +3226,12 @@ D9h8~
 D9l$LA
 D9},H
 D:c	rKA
-D;%BRK
 D;,$t
-D;-9\K
-D;-z=P
+D;-4HK
 D;4$~VH
+D;5"`K
+D;5|WK
+D;=1OK
 D;G }
 D;L$0t
 D;\$@
@@ -3413,7 +3412,6 @@ E(H9C(t9L
 E(]A\A]A^
 E)2G\
 E+E1EAEIESEUEaEwE}E
-E,A9E
 E-mail Protection
 E0;D$4u
 E0H;E8t
@@ -4005,50 +4003,43 @@ H;8tH
 H;8tX
 H;8t`
 H;8th
-H;=	bS
-H;=	iP
-H;= \W
-H;=!1W
-H;=&]P
-H;='eS
-H;=*QW
-H;=+cP
-H;=+eW
-H;=+fW
-H;=,@I
-H;=,]W
-H;=4+G
-H;=4vP
-H;=8bS
-H;=9^S
-H;=;AV
-H;=;BV
-H;=<^W
-H;=?aM
-H;=A7V
-H;=G!V
-H;=ISW
-H;=I\S
-H;=K\W
-H;=M?S
-H;=YQW
-H;=[DS
-H;=[]W
-H;=\.V
-H;=]uP
-H;=a6V
-H;=anW
-H;=bZP
-H;=f0W
-H;=gbS
-H;=h^S
-H;=k/T
-H;=k^W
-H;=thP
-H;=x!O
-H;=xSW
-H;=x\S
-H;=|WW
+H;=!#V
+H;=!4V
+H;=%XN
+H;='SW
+H;='WW
+H;='\S
+H;=00V
+H;=2KN
+H;=5QN
+H;=7"V
+H;=7/V
+H;=7QW
+H;=7cS
+H;=8`S
+H;=;/T
+H;=>MI
+H;=A3V
+H;=C0W
+H;=GkP
+H;=H$V
+H;=MdS
+H;=P1V
+H;=QmW
+H;=[0V
+H;=[VS
+H;=^]P
+H;=_`M
+H;=a%V
+H;=a2V
+H;=cgP
+H;=g`S
+H;=i V
+H;=r0W
+H;=w$V
+H;=xdS
+H;=xfP
+H;={1V
 H;C@|aH
 H;D$ 
 H;D$ H
@@ -4327,6 +4318,7 @@ Identity is blank
 Ignored bad %s from %s.  %s
 Ignoring P2P CMsgSteamDatagramConnectRequest from %s; can't get NetworkingMessages interface!
 Ignoring P2P CMsgSteamDatagramConnectRequest from %s; missing required fields
+Ignoring P2P CMsgSteamDatagramConnectRequest from %s; we're not listening on virtual port %d
 Ignoring P2P connect request through Steam backend from %s; no virual_port!
 Ignoring P2P connect_ok from %s, since they initiated the connection
 Ignoring P2P connection request from %s.  We cannot accept it since we don't have a cert from Steam yet!
@@ -4373,6 +4365,7 @@ Integer out of range.
 Internal P2P message from %s is %d bytes; that's not big enough for the header!
 Internal callback failure
 Internal error accepting connection.  %s
+Internal error accepting connection.  Can't get NetworkingMessages interface
 Internal order of operations bug.  Can't create socket, because low level systems not initialized
 International Organizations
 Interpreting non ascii codepoint %d.
@@ -4436,8 +4429,6 @@ JSON file is empty
 JS_!0
 JT[]A\A]A^A_
 J_R=I)
-JcD" 
-JcD: 
 JpL9=
 Jy).A
 Jy;B`]A
@@ -4956,7 +4947,6 @@ Not from trusted address; dropped
 Not in manual poll mode!
 Not initialized
 Not initialized!
-Not listening for P2P on that virtual port
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Numbers starting with leading zero must be in octal.
 Nw!qB
@@ -4966,8 +4956,6 @@ O!YNO
 O#wjk
 O%.U/
 O(AVAUATL
-O-bXK
-O-krK
 O0AVAUATL
 O1NzNfj'fGv
 O8AVAUL
@@ -8225,7 +8213,6 @@ md5WithRSAEncryption
 md_algs
 md_gost94
 mdc2WithRSA
-meLsXU
 mem_dbg.c
 member
 member-body
@@ -9393,7 +9380,7 @@ t$@L!
 t$@L)D$
 t$@Lc
 t$@ueH
-t$H9-(
+t$H9-8
 t$H9h
 t$HD!l$H	D$HD
 t$HHc
@@ -9448,7 +9435,7 @@ t3Hc|$h
 t4H;]
 t4[]A\
 t6<]t2<	tA
-t6H9-2
+t6H9-B
 t6Lcu,L
 t6M;n ~0H
 t8H;h8
@@ -9466,7 +9453,7 @@ tC<-t
 tCATI
 tDHcZ 1
 tE~+=
-tHH9-<
+tHH9-L
 tIH+C
 tIL;+
 tJD9A
@@ -9776,7 +9763,10 @@ wtAUL
 wtfD;h
 x	D9-
 x	D;-
+x	D;-[[K
 x	D;=
+x	D;=_QK
+x	D;=o
 x A#09
 x A9~ |'
 x121Address
@@ -9807,7 +9797,6 @@ xV;kH}QA
 xY9S }6
 x[]A\A]
 x[]A\A]A^A_
-x\;-9
 x_crl.c
 x_long.c
 x_name.c
