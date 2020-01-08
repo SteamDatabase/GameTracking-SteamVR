@@ -1113,7 +1113,7 @@
 "[english]Popover_Pose_Invalid_Action"	"More info"
 "Popover_Pose_Invalid_ActionURL"	"https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
 "[english]Popover_Pose_Invalid_ActionURL"	"https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
-"Popover_NoPose_Invalid_Description"	"Laitetta ei tunnistettu ja se se ei tällä hetkellä jäljitä."
+"Popover_NoPose_Invalid_Description"	"Laitetta ei tunnistettu ja se ei tällä hetkellä jäljitä."
 "[english]Popover_NoPose_Invalid_Description"	"This device is unrecognized and not currently tracking."
 "Popover_NoPose_Invalid_Action"	"Lisätietoja"
 "[english]Popover_NoPose_Invalid_Action"	"More info"

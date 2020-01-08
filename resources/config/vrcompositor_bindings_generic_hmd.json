@@ -1,7 +1,25 @@
 {
-	  "controller_type" :	"generic_hmd",
-    "bindings" : {
-   }
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "openvr.component.vrcompositor",
+   "bindings" : {
+      "/actions/lasermouse" : {
+         "poses" : [
+            {
+               "output" : "/actions/lasermouse/in/pointer",
+               "path" : "/user/head/pose/raw"
+            }
+         ],
+         "sources" : [
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "generic_hmd",
+   "description" : "",
+   "name" : "Default SteamVR Dashboard bindings for Generic HMDs",
+   "options" : {},
+   "simulated_actions" : []
 }
 
 

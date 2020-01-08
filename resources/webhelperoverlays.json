@@ -14,8 +14,7 @@
 	"progressindicator": {
 		"url": "/dashboard/progressindicator.html",
 		"type": "overlay",
-		"pixel_size": [ 512, 512 ],
-		"setting": [ "dashboard", "progressIndicator" ]
+		"pixel_size": [ 512, 512 ]
 	},
 	"controllerbinding": {
 		"url": "/dashboard/controllerbinding.html",
