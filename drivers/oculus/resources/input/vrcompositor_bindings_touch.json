@@ -1,7 +1,4 @@
 {
-   "action_manifest_version" : 0,
-   "alias_info" : {},
-   "app_key" : "openvr.component.vrcompositor",
    "bindings" : {
       "/actions/dualanalog" : {
          "sources" : [
@@ -74,16 +71,6 @@
          ]
       },
       "/actions/lasermouse" : {
-         "poses" : [
-            {
-               "output" : "/actions/lasermouse/in/Pointer",
-               "path" : "/user/hand/left/pose/tip"
-            },
-            {
-               "output" : "/actions/lasermouse/in/Pointer",
-               "path" : "/user/hand/right/pose/tip"
-            }
-         ],
          "sources" : [
             {
                "inputs" : {
@@ -92,10 +79,6 @@
                   }
                },
                "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.65",
-                  "click_deactivate_threshold" : "0.6"
-               },
                "path" : "/user/hand/left/input/trigger"
             },
             {
@@ -105,10 +88,6 @@
                   }
                },
                "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.65",
-                  "click_deactivate_threshold" : "0.6"
-               },
                "path" : "/user/hand/right/input/trigger"
             },
             {
@@ -164,7 +143,19 @@
                "mode" : "joystick",
                "path" : "/user/hand/left/input/joystick"
             }
-         ]
+         ],
+	"poses":
+	[
+		{
+			"output": "/actions/lasermouse/in/Pointer",
+			"path": "/user/hand/left/pose/tip"
+		},
+		{
+			"output": "/actions/lasermouse/in/Pointer",
+			"path": "/user/hand/right/pose/tip"
+		}
+
+	]
       },
       "/actions/lasermouse_secondary" : {
          "sources" : [
@@ -193,53 +184,53 @@
             }
          ]
       },
-      "/actions/scroll_discrete" : {
-         "sources" : [
+      "/actions/scroll_discrete": {
+         "sources": [
             {
-               "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/scroll_discrete/in/scroll"
+               "path": "/user/hand/left/input/joystick",
+               "mode": "scroll",
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_discrete/in/scroll"
                   }
-               },
-               "mode" : "scroll",
-               "path" : "/user/hand/left/input/joystick"
+               }
             },
             {
-               "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/scroll_discrete/in/scroll"
+               "path": "/user/hand/right/input/joystick",
+               "mode": "scroll",
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_discrete/in/scroll"
                   }
-               },
-               "mode" : "scroll",
-               "path" : "/user/hand/right/input/joystick"
+               }
             }
          ]
       },
-      "/actions/scroll_smooth" : {
-         "sources" : [
+      "/actions/scroll_smooth": {
+         "sources": [
             {
-               "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/scroll_smooth/in/scroll"
+               "path": "/user/hand/left/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
                   }
-               },
-               "mode" : "scroll",
-               "parameters" : {
-                  "scroll_mode" : "smooth"
-               },
-               "path" : "/user/hand/left/input/joystick"
+               }
             },
             {
-               "inputs" : {
-                  "scroll" : {
-                     "output" : "/actions/scroll_smooth/in/scroll"
+               "path": "/user/hand/right/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
                   }
-               },
-               "mode" : "scroll",
-               "parameters" : {
-                  "scroll_mode" : "smooth"
-               },
-               "path" : "/user/hand/right/input/joystick"
+               }
             }
          ]
       },
@@ -282,11 +273,256 @@
          ]
       }
    },
-   "category" : "steamvr_input",
    "controller_type" : "oculus_touch",
    "description" : "",
-   "name" : "Default VR Dashboard bindings for Oculus Touch",
-   "options" : {},
-   "simulated_actions" : []
-}
+   "name" : "Oculus Touch system bindings",
+    "action_binds": [
+        {
+            "action": "/actions/system/in/SystemButtonChord",
+            "source": "/filters/system_button/held"
+        },
+        {
+            "action": "/actions/system/in/ToggleDashboard",
+            "source": "/filters/system_button/single"
+        },
+        {
+            "action": "/actions/system/in/TakeScreenshot",
+            "source": "/filters/screenshot_chord/result",
+	    "filters_to_cancel" : [ "system_button" ]
+        },
+        {
+            "action": "/actions/system/in/ShowPowerMenu",
+            "source": "/filters/system_button/long"
+        },
+        {
+            "action": "/actions/system/in/ToggleRoomView",
+            "source": "/filters/system_button/double"
+        },
+        {
+            "action": "/actions/lasermouse/in/Pointer",
+            "source": "/user/hand/left/pose/tip"
+        },
+        {
+            "action": "/actions/lasermouse/in/Pointer",
+            "source": "/user/hand/right/pose/tip"
+        },
+        {
+            "action": "/actions/lasermouse/in/LeftClick",
+            "source": "/filters/primary_trigger_lasermouse_l/result"
+        },
+        {
+            "action": "/actions/lasermouse/in/LeftClick",
+            "source": "/filters/primary_trigger_lasermouse_r/result"
+        },
+        {
+            "action": "/actions/lasermouse/in/RightClick",
+            "source": "/user/hand/left/input/x/click"
+        },
+        {
+            "action": "/actions/lasermouse/in/RightClick",
+            "source": "/user/hand/right/input/a/click"
+        },
+        {
+            "action": "/actions/lasermouse/in/Back",
+            "source": "/filters/primary_grip_lasermouse_l/result"
+        },
+        {
+            "action": "/actions/lasermouse/in/Back",
+            "source": "/filters/primary_grip_lasermouse_r/result"
+        },
+        {
+            "action": "/actions/lasermouse/in/Home",
+            "source": "/user/hand/left/input/y/click"
+        },
+        {
+            "action": "/actions/lasermouse/in/Home",
+            "source": "/user/hand/right/input/b/click"
+        },
+        {
+            "action": "/actions/lasermouse/in/TrackpadTouch",
+            "source": "/user/hand/left/input/trackpad/touch"
+        },
+        {
+            "action": "/actions/lasermouse/in/TrackpadValue",
+            "source": [ "/user/hand/left/input/trackpad/x", "/user/hand/left/input/trackpad/y" ]
+        },
+        {
+            "action": "/actions/lasermouse/in/TrackpadTouch",
+            "source": "/user/hand/right/input/trackpad/touch"
+        },
+        {
+            "action": "/actions/lasermouse/in/TrackpadValue",
+            "source": [ "/user/hand/right/input/trackpad/x", "/user/hand/right/input/trackpad/y" ]
+        },
+        {
+            "action": "/actions/lasermouse/in/TrackpadScroll",
+            "source": [ "/filters/laser_scroll_l/x", "/filters/laser_scroll_l/y", "/filters/laser_scroll_l/repeat_count" ]
+        },
+        {
+            "action": "/actions/lasermouse/in/TrackpadScroll",
+            "source": [ "/filters/laser_scroll_r/x", "/filters/laser_scroll_r/y", "/filters/laser_scroll_r/repeat_count" ]
+        },
+        {
+            "action": "/actions/lasermouse_secondary/in/SwitchLaserHand",
+            "source": "/filters/secondary_trigger_lasermouse_l/result"
+        },
+        {
+            "action": "/actions/lasermouse_secondary/in/SwitchLaserHand",
+            "source": "/filters/secondary_trigger_lasermouse_r/result"
+        },
+        {
+            "action": "/actions/dualanalog/in/LeftValue",
+            "source": [ "/user/hand/left/input/trackpad/x", "/user/hand/left/input/trackpad/y" ]
+        },
+        {
+            "action": "/actions/dualanalog/in/RightValue",
+            "source": [ "/user/hand/right/input/trackpad/x", "/user/hand/right/input/trackpad/y" ]
+        },
+        {
+            "action": "/actions/dualanalog/in/LeftTouch",
+            "source": "/user/hand/left/input/trackpad/touch"
+        },
+        {
+            "action": "/actions/dualanalog/in/RightTouch",
+            "source": "/user/hand/right/input/trackpad/touch"
+        },
+        {
+            "action": "/actions/dualanalog/in/LeftClick",
+            "source": "/user/hand/left/input/trackpad/click"
+        },
+        {
+            "action": "/actions/dualanalog/in/RightClick",
+            "source": "/user/hand/right/input/trackpad/click"
+        },
+        {
+            "action": "/actions/dualanalog/in/ModeSwitch1",
+            "source": "/user/hand/left/input/grip/click"
+        },
+        {
+            "action": "/actions/dualanalog/in/ModeSwitch2",
+            "source": "/user/hand/right/input/grip/click"
+        }
+    ],
 
+	"filters" :[
+		{
+			"name" : "all_system_buttons",
+			"type" : "boolean_or",
+			"action_sets" : [ "/actions/system", "/actions/lasermouse", "/actions/dualanalog" ],
+			"input" : {
+				"1":"/user/hand/left/input/system/click",
+				"2":"/user/hand/right/input/system/click"
+			},
+			"output" : "result"
+		},
+		{
+			"name" : "system_button",
+			"type" : "boolean_button_press_state",
+			"input" : "/filters/all_system_buttons/result",
+			"action_sets" : [ "/actions/system", "/actions/lasermouse", "/actions/dualanalog" ],
+			"parameters" :
+			{
+				"long_press_delay" : 1.5
+			},
+			"output" :
+			{
+				"long" : "long",
+				"double" : "double",
+				"single" : "single",
+				"held" : "held"
+			}
+		},
+		{
+			"name" : "any_trigger_chord",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/system" ],
+			"input" : "/user/hand/*/input/trigger/value",
+			"output" : "result"
+		},
+		{
+			"name" : "primary_trigger_lasermouse_l",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse" ],
+			"input" : "/user/hand/left/input/trigger/value",
+			"output" : "result"
+		},
+		{
+			"name" : "primary_trigger_lasermouse_r",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse" ],
+			"input" : "/user/hand/right/input/trigger/value",
+			"output" : "result"
+		},
+		{
+			"name" : "primary_grip_lasermouse_l",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse" ],
+			"input" : "/user/hand/left/input/grip/value",
+			"output" : "result"
+		},
+		{
+			"name" : "primary_grip_lasermouse_r",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse" ],
+			"input" : "/user/hand/right/input/grip/value",
+			"output" : "result"
+		},
+		{
+			"name" : "secondary_trigger_lasermouse_r",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse_secondary" ],
+			"input" : "/user/hand/right/input/trigger/value",
+			"output" : "result"
+		},
+		{
+			"name" : "secondary_trigger_lasermouse_l",
+			"type" : "boolean_threshold",
+			"action_sets" : [ "/actions/lasermouse_secondary" ],
+			"input" : "/user/hand/left/input/trigger/value",
+			"output" : "result"
+		},
+		{
+			"name" : "laser_scroll_l",
+			"type" : "trackpad_scroll",
+			"input" :
+			{
+				"x" : "/user/hand/left/input/trackpad/x",
+				"y" : "/user/hand/left/input/trackpad/y",
+				"touch" : "/user/hand/left/input/trackpad/touch"
+			},
+			"output" :
+			{
+				"x" : "x",
+				"y" : "y",
+				"repeat_count" : "repeat_count"
+			}
+		},
+		{
+			"name" : "laser_scroll_r",
+			"type" : "trackpad_scroll",
+			"input" :
+			{
+				"x" : "/user/hand/right/input/trackpad/x",
+				"y" : "/user/hand/right/input/trackpad/y",
+				"touch" : "/user/hand/right/input/trackpad/touch"
+			},
+			"output" :
+			{
+				"x" : "x",
+				"y" : "y",
+				"repeat_count" : "repeat_count"
+			}
+		},
+		{
+			"name" : "screenshot_chord",
+			"type" : "boolean_and",
+			"action_sets" : [ "/actions/system" ],
+			"input" :
+			{
+				"1":"/filters/system_button/held",
+				"2":"/filters/any_trigger_chord/result"
+			},
+			"output" : "result"
+		}
+	]
+}

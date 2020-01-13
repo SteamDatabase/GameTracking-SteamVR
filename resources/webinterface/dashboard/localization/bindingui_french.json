@@ -282,7 +282,7 @@
   "TrackerEditor_SelectControllerRole": "Main :",
   "DisplaySettings_Title": "Paramètres d'affichage",
   "DisplaySettings_DisplayBrightness": "Luminosité de l'affichage",
-  "DisplaySettings_IndexColumnCorrection": "Correction de l'affichage des colonnes du Valve Index",
+  "DisplaySettings_IndexColumnCorrection": "Index Display Column Correction",
   "DisplaySettings_ColumnCorrection": "Correction des colonnes",
   "DisplaySettings_ColumnCorrectionDesc": "La correction des colonnes réduit l'effet de grille lors des mouvements de tête. Nous vous recommandons de laisser cette option activée avec un ajustement de 0.",
   "DisplaySettings_ColumnCorrectionEdit": "Modifier",

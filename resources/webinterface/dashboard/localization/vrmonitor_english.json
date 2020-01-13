@@ -64,14 +64,13 @@
 	"Settings_Audio_Headset": "Headset",
 	"Settings_Audio_Manual": "Manual",
 	"Settings_Audio_Mirroring_Label": "Audio mirroring",
-	"Settings_Audio_Default": "System Default",
+	"Settings_Audio_Default": "Default",
 	"Settings_Audio_Current_Setting_Unknown": "(Currently selected device is not present)",
 
 	"Settings_Audio_HDMIGain": "Gain reduction on VIVE HDMI Audio",
 
 	"Settings_SectionTitle_Advanced": "Advanced",
 	"Settings_SectionTitle_Developer": "Developer",
-	"Settings_SectionTitle_Dashboard": "Dashboard",
 	"Settings_SectionTitle_General": "General",
 	"Settings_SectionTitle_Applications": "Applications",
 	"Settings_SectionTitle_Audio": "Audio",
@@ -108,13 +107,9 @@
 	"Settings_Advanced_Paths_Header": "Paths",
 	"Settings_Advanced_Reset_Header": "Reset",
 	"Settings_Advanced_Status_Header": "Status Check",
-	"Settings_ShowSettingsInDashboard": "Show Settings Tab",
-	"Settings_ShowPowerMenu": "Show Power Options",
-	"Settings_AllowAppQuitting": "Allow App Quitting From Dashboard",
-	"Settings_ShowDesktopViews": "Show Desktop Tabs",
+	"Settings_ShowSettingsInDashboard": "Access Settings In-Headset",
 	"Settings_CheckForSteam": "Check for Steam",
 	"Settings_DebugInputBindings": "Enable debugging options in the input binding user interface",
-	"Advanced_GlobalActionSetPriority": "Enable global input from overlays (Experimental)",
 	"Settings_FadeToGrid": "Fade To Grid on app hang",
 	"Settings_EnableDashboard": "VR Dashboard on System Button",
 	"Settings_EnableDashboardDesc": "Allow the VR Dashboard to be summoned in response to a system button press.",
@@ -196,8 +191,6 @@
 	"Settings_PerApplication_Reprojection_Header": "Reprojection",
 	"Settings_PerApplication_Reprojection_Checkbox": "Use Legacy Reprojection Mode",
 	"Settings_PerApplication_Reprojection_Description": "Checking this option will disable asynchronous reprojection for this title.",
-	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Refresh Rate Override",
-	"Settings_Perapplication_RefreshRateOverride_Description": "Checking this option will allow specifying a different refresh rate from the global setting for this application.",
 
 	"Settings_MimeTypes_Pancake_Header": "Select an application to launch 2D applications in",
 
@@ -242,7 +235,7 @@
 	"Settings_General_Cancel": "Cancel",
 	"Settings_General_Confirm": "Confirm",
 	"Settings_General_Close": "Close",
-	"Settings_General_CalibrateThumbstick": "Calibrate Thumbstick",
+	"Settings_General_CalibrateThumbstick": "Calibrate",
 	"Settings_General_CalibrateThumbstick_ConnectAController": "Connect a controller with a thumbstick.",
 	"Settings_General_NotEnoughSamples" : "Please press up on the thumbstick at least %1$s more times to complete calibration.",
 	"Settings_General_InviteMoreSamples" : "Calculated angle of %1$s°. Keep pressing up to refine that value or press Confirm to accept this calibration.",
@@ -294,13 +287,13 @@
 
 	"Settings_CameraTest": "Test camera and performance",
 	"Settings_StartCameraTest": "Start Test",
+	"Settings_StopCameraTest": "Stop Test",
 
 	"CameraTest_CheckingCamera": "Checking camera...",
 	"CameraTest_CheckingTracking": "Checking tracking with camera...",
 	"CameraTest_CameraFailed": "Camera communication failed",
 	"CameraTest_TrackingFailed": "Tracking failed with camera enabled",
 	"CameraTest_Success": "Camera Test Passed",
-	"CameraTest": "Camera Test",
 
 	"CameraTestStatus_Evaluating": "Checking",
 	"CameraTestStatus_Success": "Success",

@@ -2435,7 +2435,5 @@
 "[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
 "BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requer uma atualização para ativar a identificação de dispositivos."
 "[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
-"MenuAction_PerformanceGraph"	"Exibir gráfico de desempenho"
-"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }
