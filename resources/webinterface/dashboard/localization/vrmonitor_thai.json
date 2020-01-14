@@ -168,9 +168,9 @@
 	"Settings_Perapplication_RefreshRateOverride_Description": "การทำเครื่องหมายที่ตัวเลือกนี้จะอนุญาตให้กำหนดอัตรารีเฟรชแตกต่างจากการตั้งค่าโกลบอลสำหรับแอปพลิเคชันนี้ได้",
 	"Settings_MimeTypes_Pancake_Header": "เลือกแอปพลิเคชันเพื่อเปิดแอปพลิเคชันแบบ 2D ใน",
 	"Settings_Camera_EnableCamera": "เปิดการใช้งานกล้อง",
-	"Settings_Camera_AllowCameraInDashboard": "Show Camera on Controller",
+	"Settings_Camera_AllowCameraInDashboard": "แสดงกล้องบนคอนโทรลเลอร์",
 	"Settings_Camera_AllowCameraInDashboard_Desc": "เปิดหน้าต่างกล้องที่แนบกับคอนโทรลเลอร์ของคุณ เมื่อกระดานรวมเปิดขึ้นมา",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Show Camera at Room Edge",
+	"Settings_Camera_AllowCameraForChaperoneBounds": "แสดงกล้องที่ Room Edge",
 	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
 	"Settings_Camera_AllowCameraForRoomView": "เปิดการใช้งานมุมมองห้อง",
 	"Settings_Camera_AllowCameraForRoomView_Desc": "เข้าถึงมุมมองห้องเมื่อไหร่ก็ได้ โดยการคลิกปุ่มระบบสองครั้ง",
@@ -216,7 +216,7 @@
 	"Settings_Classic": "คลาสสิก",
 	"Settings_Near": "ใกล้เข้าสู่สถานะ (เบต้า)",
 	"Settings_DesktopScale": "ปรับขนาดเดสก์ทอป",
-	"Settings_DashboardScale": "Dashboard Scale",
+	"Settings_DashboardScale": "ขนาดกระดานรวม",
 	"SettingsTime_5s": "5 วินาที",
 	"SettingsTime_30s": "30 วินาที",
 	"SettingsTime_1m": "1 นาที",
@@ -277,7 +277,7 @@
 	"Settings_PerApplication_VideoSettings": "การตั้งค่าวีดิโอต่อแอปพลิเคชัน",
 	"Settings_ChooseStartupOverlayApps": "เลือกแอปโอเวอร์เลย์หน้าหลัก",
 	"Settings_StartTheseOverlayAppsOnLaunch": "เปิดแอปพลิเคชันโอเวอร์เลย์เหล่านี้บนการเริ่ม:",
-	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "No Overlay Apps were found",
+	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "ไม่พบแอปโอเวอร์เลย์",
 	"Settings_ActiveController": "คอนโทรลเลอร์ที่ใช้งานอยู่",
 	"Settings_EditBinding": "แก้ไขการกำหนดปุ่มนี้",
 	"Settings_EditBinding_ChooseAnother": "เลือกอีกอัน",
@@ -289,6 +289,6 @@
 	"Settings_ShowThumbstickSettings": "แก้ไขการตั้งค่าทัมสติก",
 	"Settings_ThumbstickSettings": "การตั้งค่าทัมสติก",
 	"Settings_Number_Selected": "%1$s ได้ถูกเลือก",
-	"TestControllerTitle": "Testing Controller %1$s",
-	"TestController_NoController": "Turn on a controller to test it."
+	"TestControllerTitle": "ทดสอบคอนโทรลเลอร์ %1$s",
+	"TestController_NoController": "เปิดคอนโทรลเลอร์เพื่อทดสอบ"
 }

@@ -2592,7 +2592,7 @@
 "[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
 "MenuAction_BluetoothSettings"	"Bluetooth-instellingen"
 "[english]MenuAction_BluetoothSettings"	"Bluetooth Settings"
-"MenuAction_BaseStationSettings"	"Basisstation-instellingen"
+"MenuAction_BaseStationSettings"	"Basisstationinstellingen"
 "[english]MenuAction_BaseStationSettings"	"Base Station Settings"
 "Settings_Bluetooth_Title"	"Bluetooth-instellingen"
 "[english]Settings_Bluetooth_Title"	"Bluetooth Settings"
@@ -2600,5 +2600,7 @@
 "[english]Settings_BaseStations_Title"	"Base Station Settings"
 "Settings_Developer_Title"	"Ontwikkelaarsinstellingen"
 "[english]Settings_Developer_Title"	"Developer Settings"
+"MenuAction_PerformanceGraph"	"Prestatiegrafiek weergeven"
+"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }

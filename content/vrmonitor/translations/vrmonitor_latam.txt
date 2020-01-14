@@ -2093,7 +2093,7 @@
 "[english]Settings_GpuInfo_NoHeadset"	"No Headset Detected"
 "QuickCalibrate_GiganticSpace"	"Espacio gigantesco"
 "[english]QuickCalibrate_GiganticSpace"	"Gigantic Space"
-"Advanced_PerfGraphInHMD"	"Mostrar gráfico de rendimiento de la GPU en el visor"
+"Advanced_PerfGraphInHMD"	"Mostrar gráfica de rendimiento de la GPU en el visor"
 "[english]Advanced_PerfGraphInHMD"	"Display GPU performance graph in headset"
 "Advanced_ReprojectionOn"	"Reproyección activada"
 "[english]Advanced_ReprojectionOn"	"Reprojection On"
@@ -2601,5 +2601,7 @@
 "[english]Settings_BaseStations_Title"	"Base Station Settings"
 "Settings_Developer_Title"	"Ajustes de desarrollador"
 "[english]Settings_Developer_Title"	"Developer Settings"
+"MenuAction_PerformanceGraph"	"Mostrar gráfica de rendimiento"
+"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }

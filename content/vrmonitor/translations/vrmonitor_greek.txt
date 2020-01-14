@@ -2607,5 +2607,7 @@
 "[english]Settings_BaseStations_Title"	"Base Station Settings"
 "Settings_Developer_Title"	"Ρυθμίσεις δημιουργού"
 "[english]Settings_Developer_Title"	"Developer Settings"
+"MenuAction_PerformanceGraph"	"Εμφάνιση γραφήματος επιδόσεων"
+"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }
