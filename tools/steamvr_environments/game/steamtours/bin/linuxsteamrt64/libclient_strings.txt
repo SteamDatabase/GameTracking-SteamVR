@@ -1597,7 +1597,8 @@ $z0u.A
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
 (,$fE
-(-VSM
+(-&S'
+(-fSM
 (.CPlayer_GetCommunityPreferences_Request
 (.CPlayer_GetFriendsGameplayInfo_Response"K
 (.CPlayer_GetPerFriendPreferences_Request
@@ -1606,7 +1607,6 @@ $z0u.A
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
 (8HXhx
-(={aP
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
 (AVAUH
@@ -2062,12 +2062,10 @@ $z0u.A
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.%Cph
-.%QsR
+.%asR
+.%cph
 .(Optional) Set of tags for the published file.
-.-" S
-.-gph
-.-vqP
+.-2 S
 ...<truncated>...
 ../../public/entity2/entitycomponent.h
 ../../public/networksystem/networkquantizedtypes.h
@@ -2098,9 +2096,8 @@ $z0u.A
 ../public/tier2/fileutils.h
 ..CPlayer_GetNewSteamAnnouncementState_Response"_
 .3333
-.5iwY
-.=(ML
-.=}2S
+.5ywY
+.=8ML
 .>()09
 .>N^n~
 .@"origin"	"%.1f, %.1f, %.1f"
@@ -4818,7 +4815,7 @@ $z0u.A
 98t.A
 99w(|&H
 9<t	]
-9=VkU
+9=FkU
 9@8:u
 9A88@
 9A89@
@@ -9689,7 +9686,7 @@ C_WaterBullet
 C_World
 C_WorldUIInteractController
 C_fogplayerparams_t
-C`H;=V
+C`H;=F
 C`[A\A]A^]
 C`_AXH
 C`f;E
@@ -12379,7 +12376,10 @@ H;5hu
 H;5l5
 H;5x)
 H;9u#
+H;= 0^
+H;= 0_
 H;= O
+H;=!._
 H;=!G
 H;=!W
 H;="F
@@ -12394,14 +12394,14 @@ H;=()
 H;=(9
 H;=(W
 H;=(i
-H;=,ck
+H;=)T
+H;=-/
+H;=-0
 H;=.L
 H;=/F
-H;=00^
-H;=00_
-H;=1._
 H;=2^
 H;=2c
+H;=2o
 H;=2}
 H;=3F
 H;=3J
@@ -12412,14 +12412,12 @@ H;=88
 H;=8Q
 H;=8V
 H;=8h
-H;=9T
 H;=9U
 H;=;b
 H;=<'
 H;=<*
 H;=<g
-H;==/
-H;==0
+H;==o
 H;=>3
 H;=?7
 H;=?;
@@ -12427,7 +12425,6 @@ H;=?D
 H;=B$
 H;=BJ
 H;=Bi
-H;=Bo
 H;=C0
 H;=CT
 H;=D	
@@ -12445,12 +12442,13 @@ H;=Hg
 H;=Hh
 H;=LG
 H;=Lj
-H;=Mo
+H;=Mc
 H;=NO
 H;=O4
 H;=P!
 H;=Qb
 H;=R4
+H;=RQ
 H;=Rg
 H;=SC
 H;=SG
@@ -12470,11 +12468,9 @@ H;=Y*
 H;=Y|
 H;=Z*
 H;=]4
-H;=]c
 H;=]}
 H;=_'
 H;=`A
-H;=bQ
 H;=cU
 H;=e)
 H;=f'
@@ -12488,6 +12484,7 @@ H;=hS
 H;=hb
 H;=he
 H;=h}
+H;=j5k
 H;=l3
 H;=lp
 H;=o$
@@ -12513,7 +12510,6 @@ H;=xa
 H;=xd
 H;=x|
 H;=y$
-H;=z5k
 H;=}F
 H;B@t
 H;C(t
@@ -12652,7 +12648,6 @@ HasSaveGame
 HaticsType_Default
 HaticsType_None
 Have closed caption Panorama panel perform depth testing against the scene
-Hc5 7
 Hc5)W
 Hc5>>
 Hc5qR
@@ -13613,7 +13608,7 @@ KnucklesEV1_3Controller
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-Kp H;=b
+Kp H;=R
 L$ E;L$0ttI
 L$ H9
 L$ ^_H
@@ -18433,7 +18428,7 @@ W HcE
 W [A\A]A^A_]
 W u)H
 W%:O&t
-W%b< 
+W%r< 
 W(H92tOA
 W(H;2t'H
 W,:V,u
@@ -18643,11 +18638,12 @@ X^'@d
 XboxSystemInterface001
 Xr0t/H
 Y%#*R
-Y%?+T
+Y%3*R
+Y%O+T
 Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z
-Y-/)R
-Y5(\X
-Y=/eH
+Y-?)R
+Y58\X
+Y=?eH
 YB@fE
 YD$(A
 YD$DH
@@ -18796,7 +18792,6 @@ Z}uU
 \$@Mc
 \$`Ic
 \%03o
-\=i n
 \C not allowed in lookbehind assertion
 \C8E1
 \IcL$HIc

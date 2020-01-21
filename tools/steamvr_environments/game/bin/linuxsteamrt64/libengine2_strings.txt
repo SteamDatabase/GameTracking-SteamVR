@@ -943,7 +943,6 @@ $woL)
 (*%s*), 
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(4oP*
 (8HXhx
 (9q tp
 (?R or (?[+-]digits must be followed by )
