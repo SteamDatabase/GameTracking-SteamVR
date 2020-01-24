@@ -15,6 +15,9 @@
 	"Settings_Controller_CustomBinding": "Custom",
 	"Settings_ThumbstickDeadzone_Text": "Thumbstick Deadzone",
 	"Settings_ThumbstickDeadzone_Desc": "Adjust the deadzone on all thumbsticks.",
+	"Settings_DominantHand": "Dominant Hand",
+	"Settings_DominantHand_Left": "Left",
+	"Settings_DominantHand_Right": "Right",
 
 	"Settings_Loading_CurrentBinding": "Loading current binding...",
 
