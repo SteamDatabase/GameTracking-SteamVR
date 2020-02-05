@@ -164,7 +164,6 @@ $ORIGIN
 4
 4 - no pin
 4C
-4Ã
 6ConVar
 7Dragger
 7IConVar
@@ -180,15 +179,12 @@ $ORIGIN
 <null>
 <unconnected>
 <unknown>
-<ûöÿ(ûöÿØûöÿøûöÿ@ûöÿxûöÿ˜ûöÿ¸ûöÿWIN32
 >
 ?../public/tier1/utlrbtree.h
 ???
 @
 @@
 @A
-@@mempool.cpp
-@À
 A
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
 APanelListPanel
@@ -1390,7 +1386,6 @@ elementid
 english
 f
 f%d
-ffæ?
 fg_image
 fgcolor
 fieldName
@@ -1708,36 +1703,3 @@ www.
 zpos
 {
 {}()':
-€
-€:
-€>
-€?
-€?VScript
-€?¬Å'7_p‰0
-€b
-€¾
-€¿
-€¿ÿÿÿÿ
-†B
-‡C
-A
-œE÷ÿÌE÷ÿ¬E÷ÿLE÷ÿLE÷ÿìE÷ÿüE÷ÿÜE÷ÿ¼E÷ÿ%s, string image, string imagecolor, alignment imageAlignment, int preserveAspectRatio, int filtered
- @«ª*>
- A
- À
-ªw8#
-´;
-´Â
-¿
-À@«ª*?
-À†ÉÌ?
-ÀÀ
-ÈBContinuousProgressBar
-ÍÌL=
-Ôžøÿt øÿÄ øÿä øÿÔ øÿ„ øÿ” øÿ¤ øÿ´ øÿ%s, string labelText, string associate, alignment textAlignment, int wrap, int dulltext, int brighttext, string font
-àÿÿïGíµ ÷Æ°>}
-è?
-ÿÿ
-ÿÿÿ
-ÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ×#<

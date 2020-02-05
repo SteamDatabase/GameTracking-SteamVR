@@ -28,7 +28,6 @@
 #include is NULL
 #int#
 $ORIGIN
-$ôI
 %
 %%%s
 %-120s
@@ -115,7 +114,6 @@ $ôI
 *St19_Sp_counted_deleterIPhZN3Etc13EncodeMipmapsEPfjjNS1_5Image6FormatENS1_11ErrorMetricEfjjjjPNS1_8RawImageEPibEUlS0_E_SaIiELN9__gnu_cxx12_Lock_policyE2EE
 *ZN3Etc13EncodeMipmapsEPfjjNS_5Image6FormatENS_11ErrorMetricEfjjjjPNS_8RawImageEPibEUlPhE_
 +inf
-+÷ÿÀ+÷ÿp,÷ÿ€,÷ÿà*÷ÿğ*÷ÿÌ-÷ÿt-÷ÿ”-÷ÿ¤-÷ÿz-÷ÿ„-÷ÿ¼-÷ÿm_nSizeBytesPerVoxel
 ,
 , %s
 , channels =
@@ -286,7 +284,6 @@ $ôI
 32CEntityComponentHelperReferencedI16CScriptComponentE
 33CBaseIntrospectedToKV3TypeManager
 33CSchemaRegistration_worldrenderer
-33ÇAš™GB
 34CKV3Transfer_ResourceLoadInterface
 34IKV3TransferInterface_ResourceLoad
 35CEventQueue_SaveRestoreBlockHandler
@@ -297,7 +294,6 @@ $ôI
 37CTypesafeIntrospectedToKV3TypeManagerILy495874631030E20PermEntityLumpData_tE
 3C
 40.0
-4ú~ª>%lg
 6CWorld
 6ConVar
 6IWorld
@@ -307,7 +303,6 @@ $ôI
 8CFunctor
 9.1.15
 9ISequence
-;ÁÀ@?
 <
 <!--
 << NULL >>
@@ -343,17 +338,12 @@ $ôI
 ?
 ???
 ?a`
-?a`€?wÄ½@­¬,>«ª*>
-?€
 @
 @@
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4.cpp
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcDifferentialTrys.cpp
 @A
 @spawn
-@€
-@@<<NULL ENTITY LUMP>>
-@À
 A->B
 A=g?33s?
 AABB_t
@@ -516,7 +506,6 @@ BreakCommand
 BreakPieceEmbedded
 BreakPieceExternal
 Breaks in the debugger
-B€
 C
 C->D
 C->E
@@ -941,7 +930,6 @@ Expected value.
 Expected {
 Expected }
 ExtraVertexStreamOverride_t
-Eşÿ EşÿXEşÿ EşÿàEşÿpFşÿ°CşÿxDşÿ
 FATAL ERROR: unable to register all schema data: %s
 FB
 FCVAR_NEVER_AS_STRING
@@ -1163,7 +1151,6 @@ Hitbox indexing is incorrect for set %s, hitbox %s. Hitboxes will not be setup p
 HookUpConfigValue
 Hooking up env map in slot %d
 HostStateMgr001
-Hèùÿèùÿ(èùÿÈçùÿhèùÿ
 IA88
 IHandleEntity
 IKChain
@@ -1534,7 +1521,6 @@ PropWorldOrigin
 PropertyEditorSystem_001
 Push
 PushCurrentSkewBrightnessValuesToSceneObject
-PÃÇÍÌÌ=
 QAngle
 QAngle-world
 QuarterSizeAttrWithBoxFilter
@@ -1922,9 +1908,6 @@ ZN37CTypesafeIntrospectedToKV3TypeManagerILy495874631030E20PermEntityLumpData_tE
 \'
 \n
 \t
-\öÿ`\öÿ¨\öÿH[öÿm_outputName
-]öÿX[öÿ¸[öÿ
-]ıÿè[ıÿH\ıÿ
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -1979,7 +1962,6 @@ _root_keyname
 _setjmp
 _test_conversion_counter
 _z0
-`Hıÿ¸HıÿàHıÿ IıÿhIıÿ
 `chunkCount' attribute is not found in the header.
 `fread' error. file may be corrupted.
 a_fDecodedAlpha >= 0.0f
@@ -2925,8 +2907,6 @@ out of memory
 outerconeangle
 outputid
 overlay
-pAx€€;
-pBš™™=
 parameter error
 parent of jiggle bone %u: %s
 particles/
@@ -2972,7 +2952,6 @@ ptry < &a_phalf->m_atry[IndividualTrys::Half::MAX_TRYS]
 ptry->m_fError < 3.40282346638528859812e+38F
 ptryBest1 != nullptr
 ptryBest2 != nullptr
-píıÿíıÿÀíıÿèíıÿ
 qangle
 quaternion
 r_drawworld
@@ -3145,9 +3124,6 @@ turn_rate
 typeinfo for CThreadSyncObject
 typeinfo for std::__future_base::_Result_base
 typeinfo for std::__future_base::_State_base
-tşÿ
-tşÿPvşÿPvşÿ
-tşÿPvşÿPvşÿPvşÿPvşÿPvşÿ
 u64( %lld = 0x%llX )
 uiTransparentPixels < PIXELS
 uint16
@@ -3280,7 +3256,6 @@ vtable for std::basic_ios<char, std::char_traits<char> >
 vtable for std::basic_streambuf<char, std::char_traits<char> >
 vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
 vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
-vşÿ
 walkspeed
 wb
 wcscmp
@@ -3304,81 +3279,3 @@ yes
 } %llu aggs, %s total data
 C
 D
-€
-€7
-€8
-€9
-€:5ú<
-€<
-€=
-€>
-€>«ªª>«ªª>«ªª>«ªª>
-€?
-€?_p‰0
-€@
-€@«ªª>
-€B
-€C
-€D
-€E
-€F
-€b
-€¾
-€¿
-€¿q¢?õõ‰?/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_ETC1.cpp
-€¿ÿÿÿÿ
-€Æ
-†BÂsúÿ¸vúÿ8wúÿ¨oúÿĞsúÿ¸vúÿm_Type
-‡C
-‹B
-ùÿ8ùÿ`ùÿ°ùÿˆùÿèùÿÈ‹ùÿ
-’üÿ
-˜A
-˜‘ùÿ
-ŸB/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcSortedBlockList.cpp
- @
- A
- À
- ò×z>ÿÿÿÿÿÿÿ
-³B
-´;
-´C
-´Â
-»ºº>
-¿
-À
-À@mathlib.cpp
-ÀD
-ÀÀ«ª*?
-ÄA
-ÇB
-ÈA
-ÈB¬Å'7
-Ì¼Œ+m_nValue
-Ü¦øÿ<¦øÿ\¦øÿŒ¦øÿ¬¦øÿ$¦øÿ,¦øÿCNetworkVarChainer
-İüÿ
-İüÿ İüÿ İüÿ@İüÿ@İüÿ€Üüÿ€Üüÿvoid Etc::Block4x4::InitFromEtcEncodingBits(Etc::Image::Format, unsigned int, unsigned int, unsigned char*, Etc::Image*, Etc::ErrorMetric)
-àC
-ào@
-àG
-àÇ
-à¿
-àÿD
-àÿÿïGíµ ÷Æ°>%hu
-è?
-ğ?Trailing Data
-ğ@
-ğDşÿ
-ğ
-ğ¦øÿ¨¦øÿ¸¦øÿÈ¦øÿ¨¦øÿ°¦øÿà¦øÿentityIdentityNameChanged
-ğÿLine %d at "%s":
-øA
-ø
-ÿBÍÌŒ?
-ÿC
-ÿD
-ÿæÛ.
-ÿÿN24CFieldPathHuffmanEncoder5INodeE
-ÿÿÿÿÿÿÿÿ
-ÿÿÿ
-ÿÿÿÿ

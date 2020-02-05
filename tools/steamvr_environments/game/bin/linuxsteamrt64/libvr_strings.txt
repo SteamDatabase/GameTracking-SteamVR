@@ -34,7 +34,6 @@
 #[
 #f %d %d %d, original mesh: %d %d %d
 $ORIGIN
-$tIÂ1Aš™Y?ÍÌl?
 %%%s
 %-120s
 %-120s - %s
@@ -259,7 +258,6 @@ $tIÂ1Aš™Y?ÍÌl?
 3.0
 30CPresentRenderTrackingCallback
 32CDisableNonBlockingInputCallback
-33ÇAš™GB
 3C
 3CVr
 3IVr
@@ -267,7 +265,6 @@ $tIÂ1Aš™Y?ÍÌl?
 4.0
 48
 4C
-4Ã
 5.0
 6ConVar
 7IConVar
@@ -292,20 +289,12 @@ $tIÂ1Aš™Y?ÍÌl?
 ?
 ???
 ?a`
-?a`€?wÄ½@­¬,>«ª*>
-?€
 @
-@33³>)\>
 @@
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4.cpp
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcDifferentialTrys.cpp
-@@ÿÿÿ
 @A
 @spawn
-@€
-@@
-@À
-@ÍÌL?fff?
 A
 A->B
 ACT_IDLE
@@ -1667,7 +1656,6 @@ _test_conversion_counter
 _z0
 `chunkCount' attribute is not found in the header.
 `fread' error. file may be corrupted.
-`wó„?
 a/x
 a_fDecodedAlpha >= 0.0f
 a_uiMultithreadingStride > 0
@@ -2808,7 +2796,6 @@ wcscmp
 wcslen
 wt
 x360
-x€€;
 yaw
 yaw_end
 yaw_start
@@ -2817,85 +2804,6 @@ zD
 {}()':
 {}[]:,
 |B
-|şÿ |şÿX|şÿ |şÿà|şÿp}şÿ°zşÿx{şÿ
 } %llu aggs, %s total data
 C
 D
-€
-€7
-€8
-€9
-€:
-€</data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_R11.cpp
-€>
-€>€
-€>«ªª>«ªª>«ªª>«ªª>UPDATE_STRING_TOKEN_DATABASE
-€?
-€?false
-€@
-€B
-€C
-€D
-€E
-€b
-€ıÿØıÿ
-€»D
-€¾
-€¿
-€ÕC
-‡C
-‹B
-—
-˜Aformats.cpp
-œZöÿ<Zöÿ\Zöÿ|ZöÿÜZöÿ<Zöÿ\Zöÿ¼ZöÿAddRef
-ŸB/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcSortedBlockList.cpp
- @
- À
- Äüÿ`Äüÿ`Äüÿ`ÄüÿpÄüÿpÄüÿ€Äüÿ€ÄüÿÄüÿÄüÿPÄüÿPÄüÿàÆüÿĞÆüÿ0Æüÿ@ÆüÿPÆüÿ`ÆüÿpÆüÿ€ÆüÿÆüÿ Æüÿ°ÆüÿÀÆüÿÇüÿ€ÇüÿàÆüÿğÆüÿ
- ò×z>
-ªw8#
-³B
-´;
-´BIgnore All
-´Â
-»ºº>
-¿
-À?
-À@mathlib.cpp
-ÀD
-À«ª*?
-ÀÀ
-ÁÀ@?
-ÄA
-ÇB
-ÈAš™)A
-ÈB
-Ë
-ÍÌL>
-à?
-àC
-ào@
-àG
-àÇ
-à¿
-àÿD
-àÿÿïGíµ ÷Æ°>€ùÿ°ùÿ€ùÿÀùÿ€ùÿùÿ€ùÿˆùÿutlbuffer.cpp
-è?
-ğ?
-ğ{şÿ
-ğ
-ğ¡ıÿ0¢ıÿ€¢ıÿĞ¢ıÿh¡ıÿÀ¡ıÿ
-ğ¿
-ğÿ
-øA
-ø
-úDš™©A
-şBÂu?×£<
-ÿ
-ÿC
-ÿD
-ÿÿ
-ÿÿÿÿÿÿÿÿ
-ÿÿÿ
-ÿÿÿÿ
-ÿÿÿÿÿÿÿ

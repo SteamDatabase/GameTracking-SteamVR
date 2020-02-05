@@ -87,7 +87,6 @@ $ORIGIN
 7IConVar
 8
 8CFmtStrNILi256ELb0EE
-8`ÿÿh`ÿÿ8`ÿÿx`ÿÿ8`ÿÿH`ÿÿ8`ÿÿ@`ÿÿ%
 9
 :
 ;
@@ -296,7 +295,6 @@ GameUIService_001
 GetResourceManifestCount
 GetResourceManifests
 H
-HDff¦?
 HELP
 HIGHDPI
 HammerMapLoader001
@@ -1058,11 +1056,3 @@ wcslen
 z
 {
 {}()':
-€
-–C
-¦þÿ ¥þÿÀ¥þÿà¥þÿ@¦þÿ ¥þÿÀ¥þÿ ¦þÿAddRef
-ÀZF
-ÈB-nojoy
-Ü>á–äèûeÐµ4ïŒ8`¹‡]R–
-àÿÿïGíµ ÷Æ°>}
-ÿÿÿ

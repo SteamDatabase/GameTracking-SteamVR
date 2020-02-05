@@ -146,7 +146,6 @@ $ORIGIN
 <unconnected>
 =+KEY_EQUAL, L
 >@danish
-@@
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
 Access of unconnected ConVarRef
 Access of unconnected SplitScreenConVarRef
@@ -1116,9 +1115,3 @@ zpos
 {
 {}()'
 {}()':
-€?offset
-Ž@
-š™™™™™Ù?*.*
-×#>
-àÿÿïGíµ ÷Æ°>}
-ð?

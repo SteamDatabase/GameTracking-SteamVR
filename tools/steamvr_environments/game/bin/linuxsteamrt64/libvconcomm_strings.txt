@@ -77,7 +77,6 @@ $ORIGIN
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE
-8±ÿÿ8°ÿÿ˜²ÿÿx±ÿÿ¸®ÿÿà®ÿÿ ®ÿÿx­ÿÿ%
 9CVConComm
 9IVConComm
 << NULL >>
@@ -633,5 +632,3 @@ wcscmp
 wcslen
 {
 {}()':
-àÿÿïGíµ ÷Æ°>}
-ð?libvconcomm.so

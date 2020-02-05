@@ -33,7 +33,6 @@ $ORIGIN
 ../public/ordered_constructor.h
 ../public/tier1/utlsymbol.h
 .vcd
-0ÿıÿHşıÿˆşıÿĞşıÿèşıÿ(şıÿ8şıÿ¬ÿıÿ,
 10IAppSystem
 11CRefCountedI20CRefCountServiceBaseILb1E6CRefMTEE
 12CThreadEvent
@@ -84,7 +83,6 @@ $ORIGIN
 =
 >%s%.3f
 ???CRR_Response bogus index
-@@An RR_Concept couldn't find its string in the symbol table!
 AGCriteria_%s
 AGFollowup_%d
 AGResp_%s_%d
@@ -709,18 +707,3 @@ zero
 {
 {}()':
 }
-€
-€8
-€:
-€?
-€¿
-¬ıÿ0¬ıÿP¬ıÿp¬ıÿĞ¬ıÿ0¬ıÿP¬ıÿ°¬ıÿAddRef
- A
-àG
-àÇ
-àÿÿïGíµ ÷Æ°>utlbuffer.cpp
-üï@SNDLVL_
-üïÀ
-şÿL
-şÿt
-şÿ¤

@@ -78,7 +78,6 @@ $ORIGIN
 3C
 4
 4C
-4Ã
 64
 65536
 6ConVar
@@ -92,9 +91,6 @@ $ORIGIN
 =
 >
 ?
-@@ÿÿÿ
-@¼þÿˆ¼þÿ ¼þÿÀ»þÿ`¼þÿ
-@À
 A->B
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
@@ -391,7 +387,6 @@ Failed to open file
 FlattenedSerializersVersion001
 FontManager_001
 FormatV
-Fþÿ8?þÿ
 G->B
 GAME
 GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
@@ -413,7 +408,6 @@ HammerMapLoader001
 HelpSystem_001
 HookUpConfigValue
 HostStateMgr001
-H¿ýÿp¿ýÿPÀýÿ`¿ýÿ`¿ýÿ€¿ýÿhÀýÿ
 IKChain
 IKChainOld
 IKData
@@ -1359,34 +1353,3 @@ zero
 |
 }
 C
-€
-€>
-€?
-€?true
-€?Åßb@Åßâ?
-€?ÿÿÿ
-€@eª¸¿
-€b
-€¾
-€¿
-‡C
-˜A
- @«ª*>
- À
- ò×z>ÿÿÿÿÿÿÿ
-´;
-´B
-´C
-¿
-À@
-À«ª*?
-ÀÀ
-ÈB×#<
-àC
-àÿÿïGíµ ÷Æ°>Ðcýÿ
-è?
-ð?
-ð
-ðÿ
-ø
-ÿÿ

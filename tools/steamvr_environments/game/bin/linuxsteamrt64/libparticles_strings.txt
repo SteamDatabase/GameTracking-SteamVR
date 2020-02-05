@@ -19,7 +19,6 @@
 #[
 #f %d %d %d, original mesh: %d %d %d
 $
-$@5úŽ<5úŽ<5úŽ<5úŽ<
 $AMBIENTSCALE
 $COLORWARPINTENSITY
 $DETAIL2BLENDFACTOR
@@ -38,7 +37,6 @@ $SPECULARCOLOR
 $SPECULAREXPONENT
 $SPECULAREXPONENTBLENDTOFULL
 $SPECULARSCALE
-$ôI
 %
 %%%s
 %-120s
@@ -950,7 +948,6 @@ $ôI
 51C_INIT_RemapParticleCountToNamedModelBodyPartScalar
 51C_INIT_RemapParticleCountToNamedModelSequenceScalar
 52C_INIT_RemapParticleCountToNamedModelMeshGroupScalar
-5öÿX/öÿ81öÿh3öÿ¸1öÿ82öÿ8/öÿ
 6
 60.0
 61
@@ -971,7 +968,6 @@ $ôI
 9ISequence
 :
 ;
-;ÁÀ@?
 <
 <!--
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->
@@ -986,22 +982,13 @@ $ôI
 <null>
 <unconnected>
 =
-=ÊÜ\>½ÄD?Ÿªª>ÝÒÒ>ËØØ>ññq?¿¸8?õ  =ÍÊJ?ùôt?”ˆˆ>„‚‚>ðÀ@=¢––>±¨(?s€€>
 >
 ?
 ?a`
-?a`€?wÄ½@­¬,>«ª*>
-?€
-?¬Å'7¬Å'7¬Å'7¬Å'7ÿÿ
 @
 @?s_hRenderInputLayout
 @@
-@@ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
 @spawn
-@€
-@@
-@À
-@üÿ
 A
 A minimum on particle simulation time, particle simulation happening more frequently than this will lerp.
 A->B
@@ -1141,7 +1128,6 @@ Avg Actual Traces
 Avg Intersection Tests
 Avg. Render (us)
 Avg. Sim (us)
-A—m½A—m½A—m½A—m½62Î­62Î­62Î­62Î­Function is disabled
 B
 B->C
 BLURFILTER_BOX
@@ -2336,7 +2322,6 @@ Output vector
 Overlay
 P
 P@
-P@üÿ
 PARALLEL_PROCESS utlsoacontainer.cpp:2533
 PARENT
 PARENT_PARTICLE_INDEX
@@ -5639,7 +5624,6 @@ override CP field
 override max velocity from this CP
 override translucent materials
 p
-pBš™™=
 parent of jiggle bone %u: %s
 particle density
 particle feathering closest distance to surface
@@ -6096,7 +6080,6 @@ true
 turn_rate
 twist axis
 typeinfo for CThreadSyncObject
-táÿðsáÿàsáÿØsáÿxsáÿ táÿ
 u
 uniform speed
 unspecified
@@ -6224,7 +6207,6 @@ write stencil on z-buffer test success
 written field
 wt
 x
-x÷ÿÀy÷ÿ(˜÷ÿX÷ÿðš÷ÿ@÷ÿˆy÷ÿ
 y
 yaw initial
 yaw offset max
@@ -6244,233 +6226,3 @@ zero
 
 A
 C
-Á
-€
-€7
-€:
-€;m_nInControlPointNumber
-€>
-€>«ªª>«ªª>«ªª>«ªª>%lg
-€?
-€?  (data type of container field %d does not match particle attribute %s)
-€?ÿÿ
-€@
-€A
-€BÍÌL?
-€C
-€CCParticleObjectDesc
-€F
-€G
-€O
-€b
-€m_Gravity
-€v@Particlelight
-€„.A
-€¾
-€¿
-€¿m_nParticlesToEmit
-€À¬Å'7
-€Æ
-€îÿ
-€úÿh€úÿ
-€úÿ úÿ@€úÿ
-€ÿÿÿÿÿÿÿÿÿÿÿÿ
-
-€€;
-‚
-ƒ
-„
-…
-†
-†Bm_flPosition
-†ë¾Æ0c¿C
-‡
-‡Ceª¸¿
-ˆ
-‰
-Š
-‹
-Œ
-
-íµ ÷Æ°>
-Ž
-
-
-BÍÌÌ=
-‘
-’
-“
-”
-•
-–
-—
-˜
-˜A
-˜Á
-™
-š
-š™™™™™¹?mesh group
-›
-œ
-
-ž
-žôöÿ„çöÿ¤çöÿÔçöÿ´ìöÿÜìöÿTçöÿ
-Ÿ
- 
- @
- A
- À
- ò×z>
-¡
-¢
-£
-¤
-¤p}?’†@
-¥
-¦
-§
-¨
-©
-ª
-ªw8#
-«
-«àÿ©àÿ©àÿH«àÿ`«àÿ«àÿð«àÿ0¬àÿX¬àÿx­àÿà­àÿð­àÿP®àÿ
-¬
-­
-®
-¯
-°
-±
-²
-³
-´
-´;
-´C
-´Â
-µ
-¶
-·
-¸
-¹
-º
-»
-¼
-½
-¾
-¿
-À
-À?
-À@mathlib.cpp
-ÀÀ
-Á
-Â
-Ã
-Ä
-Å
-Æ
-Ç
-È
-ÈB
-ÈC
-É
-Ê
-Ë
-Ì
-Ì¼Œ+m_flValue
-Í
-ÍÌL=
-ÍÌÌ=ÍÌÌ=ÍÌÌ=ÍÌÌ=
-Î
-Ï
-Ð
-Ñ
-Ò
-Ó
-Ô
-Õ
-Ö
-×
-×#<×#¼Particle/Effect_Rendering
-Ø
-Ø·üÿ©üÿ€µüÿÀ¶üÿ¨µüÿÀµüÿp©üÿ¼Éüÿt»üÿdÇüÿ¤ÈüÿŒÇüÿ¤ÇüÿT»üÿ ÛüÿXÍüÿHÙüÿˆÚüÿpÙüÿˆÙüÿ8Íüÿ
-Ù
-Ú
-Û
-Ü
-Ü.öÿ„+öÿ”,öÿô-öÿì,öÿL-öÿd+öÿ
-Ý
-Þ
-ß
-à
-àC
-àMbP?m_MinForce
-ào@ÿÿÿ
-àÿÿïGPOãÿˆOãÿðOãÿHPãÿPãÿðPãÿÀMãÿhNãÿhNãÿhNãÿ8Rãÿ%RãÿhRãÿ8Rãÿ8Rãÿ8Rãÿ¸Rãÿ0Qãÿ0Qãÿ0Qãÿ€€;€€;€€;€€;cable_tesselation_ib
-á
-â
-ã
-ä
-å
-æ
-ç
-è
-è?
-é
-ê
-ë
-ì
-ìx­`
-í
-î
-ï
-ïÿ@
-ïÿPÿîÿàÿîÿ(
-ïÿ€
-ð
-ð?
-ðA
-ðC
-ð
-ðÿ
-ñ
-ñÿ`
-ñÿ€
-ñÿ¨
-ñÿèÿðÿ0
-ò
-ó
-ô
-õ
-ö
-÷
-ø
-ø?
-ø
-ù
-ú
-û
-ü
-ü©ñÒMbP?spritecardparticles
-üéÿ0üéÿPüéÿpüéÿPûéÿŒþéÿôüéÿôýéÿ$þéÿDþéÿdþéÿÄüéÿ0
-ý
-þ
-þByv±>xî­>xšT@
-þÿ?
-ÿ
-ÿC
-ÿD
-ÿG
-ÿÿ
-ÿÿCBufferString
-ÿÿÿ<unimplemented>
-ÿÿÿÿ
-ÿÿÿÿÿ
-ÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþÿÿÿþÿÿÿþÿÿÿþÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ

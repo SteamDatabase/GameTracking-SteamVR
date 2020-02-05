@@ -131,7 +131,6 @@ $tI
 -sse3
 -sse4
 -tools
--ûÿ .ûÿ@-ûÿ
 .
 ...
 ../public/ordered_constructor.h
@@ -423,15 +422,12 @@ $tI
 34CSosOperatorMixGraphInputDSPPreset
 35CSosOperatorIterateAndMergeSpeakers
 36
-3C«ªª>š™™=
 4
 4000
 40CSchemaRegistration_soundsystem_lowlevel
 4@
 4B
 4C
-4Â
-4Ã
 5
 6
 6ConVar
@@ -443,7 +439,6 @@ $tI
 8CFmtStrNILi256ELb0EE
 8CFunctor
 8CSosEdit
-8Éùÿ°ÆùÿXÇùÿ`ÈùÿÇùÿÈÇùÿÆùÿ
 9
 9CAudioSDL
 9CFunctor1IPFvPK11CAudioStateEP19CAudioStateInternal12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
@@ -468,27 +463,20 @@ $tI
 <null>
 <unconnected>
 <unknown>
-<ƒ††>s€
 =
-=ÊÜ\>½ÄD?Ÿªª>İÒÒ>ËØØ>ññq?¿¸8?õ  =ÍÊJ?ùôt?”ˆˆ>„‚‚>ğÀ@=¢––>±¨(?s€€>
 >
 ?
-?5?soundevent_limiter
 @
 @%s.output
 @?
 @@
 @A
-@BÍÌÌ>ÍÌL?
 @distance_to_source.output
 @get_event_info.output_elapsed_time
 @mixer.output_dsp
 @mixer.output_level
 @mixer.output_volume
 @public.%s
-@@snd_sos_show_track_list
-@À
-@áz„?vmix_vsnd_start
 A
 A->B
 AE_ACTION_SET_TURN_RATE_SCALE
@@ -635,7 +623,6 @@ Branch Rules
 BreakCommand
 BreakPieceEmbedded
 BreakPieceExternal
-BÿÿAudio Capture Device
 C
 C->D
 C->E
@@ -914,7 +901,6 @@ Cutoff Frequency
 Cycle or diamond double-reference to '%s'
 D
 D,F
-D,GÍÌL>
 DEFAULT_WRITE_PATH
 DEMO
 DSP NODE
@@ -974,8 +960,6 @@ Duration: %f
 Dynamic
 DynamicConfigList
 Dynamics
-D¬B
-D¬F¸Åí½
 E
 EMPHASIS
 ERROR: Invalid Group Branch Index
@@ -1199,7 +1183,6 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 KeyValuesSystem
-KxšT@
 L
 LFO Type
 LINUX
@@ -1381,7 +1364,6 @@ PF_TYPE_RANDOM_UNIFORM
 PHRASE
 PLAINTEXT
 POSIX
-PP÷ÿ(P÷ÿpL÷ÿ¸K÷ÿ˜K÷ÿ8K÷ÿpF÷ÿpM÷ÿ0M÷ÿğL÷ÿ°L÷ÿ
 PS3
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
@@ -1951,7 +1933,6 @@ X
 X360
 X@
 XC
-X|ûÿ¸tûÿğtûÿ8zûÿXyûÿ¸yûÿXvûÿ¨vûÿ8wûÿØwûÿ(uûÿ
 Y
 Y@sos_import_stack
 Yes
@@ -1967,7 +1948,6 @@ Z
 \"
 \"""
 \'
-\C´8Ù?
 \n
 \t
 ]
@@ -3168,12 +3148,10 @@ public.sync_bpm
 public.sync_bpm_beats
 public.volume
 public_field_name
-pÂ
 q
 quantize_multiplier
 r
 r+b
-r5êÿÄ6êÿ¬6êÿ”6êÿ„6êÿü5êÿÜ6êÿFREEING MATCH ENTRY:
 r@
 radius0
 radius1
@@ -3618,232 +3596,8 @@ zero
 {}()':
 |
 }
-}Ãôÿ„Ãôÿ¬ÃôÿÔÃôÿüÃôÿ\Ãôÿ%s: %s
 ~
 ~@
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown
 
 C
-€
-€3
-€5}
-€9w¾?
-€>
-€?
-€?%g
-€?Sound Disabled.
-€?math_delta
-€?ÿ
-€@
-€D
-€E
-€F
-€I
-€K
-€b
-€ˆå@
-€¾
-€¾Ÿæ?Unknown graph input %s
-€¿
-€¿FCVAR_NEVER_AS_STRING
-€Àcalc_occlusion_src1
-€ÜCìQ8>
-
-‚
-‚@
-ƒ
-„
-…
-†
-‡
-‡C
-ˆ
-‰
-Š
-‹
-Œ
-
-
-
-
-BÍÌÌ=
-‘
-’
-’@
-“
-”
-•
-–
-–B
-–C
-–Dš™Ù¿
-–E
-–Â
-—
-˜
-˜A
-˜åíÿ@åíÿPåíÿ`åíÿpåíÿ€åíÿøäíÿ0åíÿ
-™
-š
-šC—v?
-›
-œ
-
-
-Ÿ
- 
- @soundevent_pause
- AÍÌŒ?
- B
- ™™¹?
- À«ª*>
-¡
-¢
-£
-¤
-¥
-¦
-¦›Ä;×£<
-§
-¨
-©
-ª
-«
-¬
-­
-­À@>ú€
-®
-¯
-°
-°@
-±
-²
-³
-´
-´;
-´B
-µ
-¶
-·
-¸
-¸Q)½¾0Í¿¾0Í?¸Q)=N24CFieldPathHuffmanEncoder5INodeE
-¹
-º
-»
-¼
-½
-¾
-¿
-¿obj
-À
-À?
-À@
-ÀA
-ÀR@
-À’@
-ÀøÆ‡?NEW DSP NODE: size:(%.0f,%.0f) height:(%.0f) dif %.4f : refl %.4f : cobj: %.0f : sky %.0f
-ÀÿÿÿßA
-Á
-Â
-Ã
-Ä
-Å
-Æ
-Æñÿ@Æñÿ¨Æñÿ(Çñÿ°ÈñÿĞÇñÿxÈñÿConnect
-Ç
-Ç%s set to %x (%s)
-È
-ÈA
-É
-Ê
-Ë
-Ì
-Ì¼Œ+
-Í
-Î
-Ï
-Ğ
-Ğ?ÿÿÿÿÿÿÿ
-Ğ‰E×£;
-Ñ
-Ò
-Ó
-Óğÿ
-Ô
-Õ
-Ö
-×
-×#<Æ7><
-Ø
-Ù
-Ú
-Û
-Ü
-İ
-Ş
-ß
-à
-à?
-à@w¾EäË–@
-àC
-à}ùÿX}ùÿ€}ùÿ¨}ùÿ¸}ùÿ8}ùÿH}ùÿm_bMatchEventName
-àÿÿïGíµ ÷Æ°>|
-á
-áCSoundOperatorSystem
-áœùÿĞ˜ùÿPšùÿˆšùÿ›ùÿÈ›ùÿ°˜ùÿ
-â
-ã
-ä
-å
-æ
-ç
-è
-è?
-é
-ê
-ë
-ëúÿ˜êúÿhéúÿxêúÿè,ûÿè,ûÿX.ûÿ-ûÿà-ûÿ ,ûÿ .ûÿ
-ì
-í
-î
-ï
-ğ
-ğ?calc_falloff
-ğB
-ğC
-ğmûÿPjûÿ8mûÿĞmûÿjûÿpmûÿ°jûÿˆkûÿ lûÿPiûÿ00000000-0000-0000-0000-000000000000
-ğ
-ğE
-ğ¿SndOperators
-ğÂÍÌL=
-ğÿ
-ñ
-ò
-ó
-ô
-õ
-ö
-÷
-ø
-ø
-øÿÿÿùÿÿÿúÿÿÿûÿÿÿüÿÿÿıÿÿÿşÿÿÿÿÿÿÿmpg123_new() failed: %s
-ù
-ú
-úB
-úC
-úDm_effectName
-û
-ü
-üF
-üÿF
-ı
-ş
-şByv±>xî­>
-şÂvmidiManifest
-şÿF
-ÿ
-ÿÿ
-ÿÿÿ
-ÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ

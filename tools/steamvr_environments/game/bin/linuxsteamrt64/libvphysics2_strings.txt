@@ -19,15 +19,12 @@
 #f %d %d %d, original mesh: %d %d %d
 #ifdef DBGFLAG_ASSERT
 $ORIGIN
-$άρÿτΨρÿDΩρÿ΄Ϊρÿ|Ωρÿ¬ΩρÿάΨρÿXαρÿ
 %%%s
 %+.2f*%.1f in
 %-120s
 %-120s - %s
 %-30s%14s%14s
 %.15lf
-%.1f ticks ± %.1f ticks
-%.1fKiT±%.1fKiT
 %.2f -> %.2f @ %.2f
 %02X
 %14s %-30s[%u]%s
@@ -314,14 +311,9 @@ $άρÿτΨρÿDΩρÿ΄Ϊρÿ|Ωρÿ¬ΩρÿάΨρÿXαρÿ
 34CModelConfigElement_SetRenderColor
 36CModelConfigElement_SetMaterialGroup
 3C
-3Δ|•¦­M
 4
-4CeªΈΏ
-4Γ
 6ConVar
 7IConVar
-8OΦÿ8OΦÿhOΦÿOΦÿΈOΦÿHOΦÿΨOΦÿ8OΦÿ8OΦÿ8OΦÿFailed to convert KV3 to string; error: %s
-8Χÿ88Χÿ`8Χÿ°8Χÿ8Χÿθ8ΧÿΘ6Χÿ
 99ccff;"><b>No</b> Collision
 99ccff;">Should <b>Not</b> Collide:
 9ISequence
@@ -329,7 +321,6 @@ $άρÿτΨρÿDΩρÿ΄Ϊρÿ|Ωρÿ¬ΩρÿάΨρÿXαρÿ
 ;
 ; tris:
 ;"><b>Trigger</b> Touch
-;Αΐ@?
 <
 < FLT_EPSILON
 <!--
@@ -409,27 +400,15 @@ $άρÿτΨρÿDΩρÿ΄Ϊρÿ|Ωρÿ¬ΩρÿάΨρÿXαρÿ
 <unconnected>
 <unknown>
 =
-=ώÿÿA
 > -FLT_EPSILON
->ÿÿ
 ?
 ?a`
-?a`€?wΔ½@­¬,>«ª*>
 ?c%d m%d pt%d
 ?unsupported?
-?€
 @
 @ %.2f, %.2f, %.2f
 @?
 @@
-@@¬Ε'7Failed to load body %p
-@A’†@«ªª½
-@€
-@@:0βy%>
-@―
-@½333?SoftbodyProcessor
-@ΐ
-@ÿÿÿÿÿÿο
 A
 A->B
 AABB_t
@@ -1492,7 +1471,6 @@ GetResourceManifestCount
 GetResourceManifests
 GetStackTraceSymbolReflDesc
 GroupIndex
-H75ϊΌ
 HELPER_BONE
 HMDAvatar
 HammerMapLoader001
@@ -2538,7 +2516,6 @@ Slider: %.1f
 SlopeTrace
 Snoop
 Softbodies
-Softbody #%d %s.%d %s (%.4g,%.4g)±(%.4g,%.4g)
 SoftbodyGroundTraceRaise
 SoftbodyIterations
 SoftbodySerial
@@ -3023,7 +3000,6 @@ _edata
 _end
 _fini
 _test_conversion_counter
-`wσ„?
 abap
 abbp
 abc
@@ -3279,7 +3255,6 @@ ff9966;">Can <b>Not</b> Collide: same body</div><span>Both shapes belong to the 
 ff9966;">Can <b>Not</b> Collide: same shape</div><span>Hm, it's the same shape, it cannot collide with itself</span>
 fff?v%d:%d
 ffffcc
-fffΏrω?
 flAlpha
 flAnimationForceAttraction
 flAnimationVertexAttraction
@@ -4617,7 +4592,6 @@ origin_relative
 other
 overlay
 pA
-pB«ªª>™™=
 pab
 parent of jiggle bone %u: %s
 particles/
@@ -5047,7 +5021,6 @@ vsnap
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-vΜ+2ά$4(ΒΈ²=meshUtilsKeyValues
 w0=%.2f w1=%0.2f
 w1
 w2
@@ -5067,13 +5040,11 @@ with collision disabled. Do Not Collide.
 with collision enabled
 worldGeometry
 wt
-x•Χÿΐ•ΧÿX•Χÿψ”Χÿ•Χÿ
 yaw
 yaw_end
 yaw_start
 zD
 zero
-zΔ
 {
 {%.3f,%.3f,%.3f}
 {%.3f,%.3f,%.3f}, {%.3f,%.3f,%.3f}
@@ -5087,94 +5058,3 @@ zΔ
 ~Hull id %llx local %p
 CJob
 D
-€
-€(δΛ–A
-€0
-€0phys_build_mass
-€0ά$4(ά$4(ά$4(ά$4(«ªª>«ªª>«ªª>«ªª>
-€<
-€=
-€>
-€>RjyA
-€?
-€?ΝΜΜ>
-€@
-€Aprofileconcomm.cpp
-€B
-€C
-€D
-€b
-€„.AUndefined
-€Ύ
-€Ώ
-€Ώ0.95
-€ΏΝΜL=33σ>
-€Ώÿÿÿÿ
-†Bm_flPosition
-‡C
-Γ@ /*%u:0x%08X*/ "%s",
-B
-βΣÿ¤δΣÿTζΣÿ$θΣÿβΣÿβΣÿτιΣÿ¤λΣÿβΣÿβΣÿ΄ΰΣÿβΣÿβΣÿ¬βΣÿΠοΣÿ\νΣÿΤςΣÿLυΣÿΠοΣÿΠοΣÿχΣÿ¬ωΣÿΠοΣÿΠοΣÿ΄ϋΣÿΠοΣÿΠοΣÿόοΣÿ
-•ΏΦ3phys_sphere_cast_version
-–B
-<Χÿ
-A
- >world.cpp
- @
- A
- A‰<
- ΐ
- ςΧz>ÿÿÿÿÿÿÿ
-ΆB
-¥ΤhSblendindices
-®G?Primal
-΄;
-΄B
-΄C
-΄Γ
-ΌΎL
-½‰2
-Ώ
-ΐ?
-ΐ@mathlib.cpp
-ΐ½cl_jiggle_bone_debug
-ΐΐ
-Αphys_fast_report_contacts
-Β
-Γυ¨>
-Θ+
-ΘB
-ΘE
-ΘΒ
-Μ&Φÿ¬&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿ,&Φÿ2&Φÿ&Φÿ2&Φÿ2&Φÿ2&Φÿ2&Φÿl&Φÿ
-ΤρψÿόπψÿLρψÿ„ρψÿρψÿάπψÿμπψÿΐςψÿ
-Χ#<
-Χ£;
-Χ³έ?
-ΰC
-ΰÿÿοGνµ χΖ°>mempool.cpp
-α.eB5ϊ<Trace Result
-θ?
-θβρÿπαρÿ0βρÿhβρÿβρÿΐβρÿΰαρÿμιρÿ”ηρÿ”θρÿόθρÿDιρÿ΄ιρÿ„ηρÿm_materials
-π7<
-π?Trailing Data
-πBphys_implicit_integarator
-πUσÿ Sσÿ8TσÿΠTσÿ Uσÿ°UσÿSσÿm_nBoneHash
-π
-πÿVApplication001
-τÿ΄
-υΉλÿυΉλÿpΊλÿ ΊλÿυΉλÿυΉλÿΨΊλÿ€»λÿυΉλÿυΉλÿΘ»λÿυΉλÿυΉλÿψΈλÿ
-ψ
-ϊ8
-όF
-όΖ8ÿ?
-ώBHαz?
-ώÿ?%d:
-ÿC
-ÿD
-ÿGΝΜΜ>™™>ΝΜL?33s?ff†?
-ÿÿVScript
-ÿÿÿ
-ÿÿÿ
-ÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ

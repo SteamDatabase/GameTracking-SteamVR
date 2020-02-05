@@ -6,11 +6,6 @@
 !@
 !P
 !`
-!bÏ|
-!¤
-!´ôµ
-!»ôL
-!Ì§3
 "
 "  mapped to "
 " - GFX file format expected
@@ -19,13 +14,6 @@
 "%s" = "%s"
 "@
 "P
-"eóM
-"˜©
-"˜Ğ°
-"™æ
-" '{
-"Öùa
-"ñ¤W
 #
 #;
 #@
@@ -603,25 +591,13 @@
 #version 150uniform vec4 vfuniforms[96];in vec4 acolor;in vec4 pos;in float vbatch;out vec4 color;out vec4 fucxadd;out vec4 fucxmul;void main() {gl_Position = vec4(0.0,0,0.0,1);gl_Position.x = dot(pos, vfuniforms[int(vbatch * 4.0 + 2.0+ 0.1 + 0.0)]);gl_Position.y = dot(pos, vfuniforms[int(vbatch * 4.0 + 2.0+ 0.1 + 1.0)]);color = acolor;fucxadd = vfuniforms[int(vbatch * 4.0 + 0.0+ 0.1)];fucxmul = vfuniforms[int(vbatch * 4.0 + 1.0+ 0.1)];}
 #version 150uniform vec4 vfuniforms[96];in vec4 afactor;in vec4 pos;out vec4 factor;out vec2 tc;void main() {gl_Position = vec4(0.0,0,0.0,1);gl_Position.x = dot(pos, vfuniforms[int(afactor.b*255.01 * 4.0 + 0.0+ 0.1 + 0.0)]);gl_Position.y = dot(pos, vfuniforms[int(afactor.b*255.01 * 4.0 + 0.0+ 0.1 + 1.0)]);tc.x = dot(pos, vfuniforms[int(afactor.b*255.01 * 4.0 + 2.0+ 0.1 + 0.0)]);tc.y = dot(pos, vfuniforms[int(afactor.b*255.01 * 4.0 + 2.0+ 0.1 + 1.0)]);factor = afactor;}
 #version 150uniform vec4 vfuniforms[96];in vec4 pos;in float vbatch;out vec2 tc;void main() {gl_Position = vec4(0.0,0,0.0,1);gl_Position.x = dot(pos, vfuniforms[int(vbatch * 4.0 + 0.0+ 0.1 + 0.0)]);gl_Position.y = dot(pos, vfuniforms[int(vbatch * 4.0 + 0.0+ 0.1 + 1.0)]);tc.x = dot(pos, vfuniforms[int(vbatch * 4.0 + 2.0+ 0.1 + 0.0)]);tc.y = dot(pos, vfuniforms[int(vbatch * 4.0 + 2.0+ 0.1 + 1.0)]);}
-#v¥€
-#¨?X
-#Ä³V
-#Ùg¿
-#ïæÙ
 $
-$8pÚ
 $@
-$@š™™™™™¹?An image in TextLayout is NULL
 $IMECandidateListFont
 $ORIGIN
 $P
-$kå
-$oµ˜
 $tI
 $version
-$ƒŞÃ
-$´£¦
-$Â
 %
 %-120s
 %-120s - %s
@@ -662,14 +638,12 @@ $Â
 %hu
 %i %i %i %i
 %i Element handles (Count: %i):
-%k_Ü
 %ld
 %ld%c
 %lg
 %lld
 %llu
 %ls [wstring, len = %d]
-%oÒ 
 %p Depth = %d
 %s
 %s ...<truncated>
@@ -704,17 +678,10 @@ $Â
 %s::CreateNewObject returned NULL during creation of %s class instance.
 %s=
 %sGFxShaders-%08x.cache
-%˜èö
-%©§
-%©Şy
-%µhW
-%Æ­¬
 &
 &#x9;
 &#xA;
 &#xD;
-&-[É
-&=„ğ
 &ACC=f
 &AE=f
 &AR=1.0
@@ -738,7 +705,6 @@ $Â
 &SB=f
 &SP=f
 &SV=f
-&T¹™
 &V=
 &VE=f
 &WD=f
@@ -747,19 +713,8 @@ $Â
 &gt;
 &lt;
 &nbsp;
-&oÎÍ
 &quot;
-&Šƒ?
-& Ÿ)
-&Ù0¬
-&ãÿ€%ãÿ€%ãÿ€%ãÿ¨%ãÿ²%ãÿ²%ãÿ€%ãÿÈ%ãÿÈ%ãÿ
-&òcì
 '
-'* 
-'*Š½
-'”œÄ
-'®
-'ï1ş
 (
 ( def. "%s" )
 ()
@@ -777,21 +732,10 @@ $Â
 (scolor * color.a + scolor2 * color.r)
 (scolor * color.a)
 (truncated)
-(˜Ûÿ
-(´x*
-(Â
-(Ìko
-(íÔ
 )
 )!@#$%^&*(
 )@
-)F~û
 )P
-)WŞT
-)“Xí
-)Ÿ &
-)ÙÉ˜
-)ü`F
 *
 *         +| {0:4.4} {1:4.4}|| {2:4.4} {3:4.4}|| {4:4.4} {5:4.4}|| {6:4.4} {7:4.4}|
 * (move)
@@ -825,22 +769,11 @@ $Â
 *ZN9Scaleform3GFx6Stream20ReadStringWithLengthEPNS_6StringEE12StringReader
 *ZNK9Scaleform3GFx23AS2ValueObjectInterface12VisitMembersEPvPNS0_5Value15ObjectInterface10ObjVisitorEbE12VisitorProxy
 *ZNK9Scaleform3GFx3AS29AvmSprite12VisitMembersEPNS1_15ASStringContextEPNS1_15ObjectInterface13MemberVisitorEjPKS5_E7Visitor
-*Zï
-*o+”
-*x´(
-*¬¾¨
-*¼ı`
-*æIB
-*ï*…
 +
-+-SÃ
 +@
 +Infinity
 +OQv
 +P
-+´Z’
-+·#
-+Òx‘
 ,
 , '
 , alphaMultiplier=
@@ -860,13 +793,7 @@ $Â
 , y=
 , z=
 ,@
-,BÚÿl>Úÿ¬BÚÿ<CÚÿ¼CÚÿ´DÚÿœEÚÿŒFÚÿœ@ÚÿŒAÚÿ
 ,P
-,oŞ,
-,³vÃ
-,Â
-,Ù‹
-,Şo,
 -
 -- sprite END, char id = %d --
 -------------- %s = %s
@@ -881,7 +808,6 @@ $Â
 -@
 -Infinity
 -P
--Ynû
 -as2
 -forcepack
 -gl_disable_binary_shaders
@@ -894,18 +820,13 @@ $Â
 -sse2
 -sse3
 -sse4
--
 .
-.*Fá
 ...
 ../public/ordered_constructor.h
 ../public/tier1/utlleanvector.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier2/fieldpath.h
-..şP
-.@o+¤T™?
-.B+’
 .Ee
 .forcepack
 .prototype
@@ -914,21 +835,11 @@ $Â
 .tga
 .vtex_c
 .vtf
-.zf³
-.®HÀ
-.®×U
-.´
-.õÈš
 /
-/7¢­
 />
-/?yö
 /P8i
 /content/
 /game/
-/o|‡
-/ Su
-/ë3¦
 0
 0 = off, 1 = on
 01234567
@@ -936,28 +847,15 @@ $Â
 0123456789*+
 0123456789ABCDEF
 0123456789abcdef
-05‰
 0@
 0A
 0P
 0X
-0cV
-0ekô
-0v¾ÿ8v¾ÿ@v¾ÿ v¾ÿ(v¾ÿ
 0x%016llX
 0x%p
 0x%p, "%s" %s
 0x{0:x}
 0x{0:x}-0x{1:x}
-0€ùÛ
-0„‘g
-0‹
-0“³S
-0•Õ³
-0µÿé
-0Á
-0Â
-0ÃÉÿØÂÉÿğÂÉÿ
 1
 1.2.7
 1.5.13
@@ -996,14 +894,7 @@ $Â
 19TextBoxArrayVisitor
 1@
 1P
-1W¿„
-1nï
-1‹
-1œ‘¹
-1ÏĞµ
-1ï~`
 2
-2"vó
 20CPostConnectCallback
 20CScaleformFileOpener
 20CScaleformMemoryFile
@@ -1024,7 +915,6 @@ $Â
 256 levels of recursion is reached
 26CDefaultKeyValuesErrorSpew
 26IRenderDeviceEventListener
-26b‚
 27CScaleformTranslatorAdapter
 27CThreadCommandQueueCallback
 27IKeyValuesDumpContextAsText
@@ -1032,10 +922,6 @@ $Â
 29Scaleform_GlueFunctionHandler
 2@
 2P
-2g¸å
-2Ókê
-2Ølã
-2ğŞ7
 3
 31IForceVirtualInheritanceHandler
 32CScaleformFunctionHandlerAdapter
@@ -1043,100 +929,46 @@ $Â
 3@
 3C
 3P
-3\°Ê
 3rdParty/expat-2.1.0/lib/xmlparse.c
-3wßà
-3§Ì!
-3Ì?Š
-3Î Ñ
-3Ô¸è
 4
 4.2.23
 4@
 4C
 4P
-4fff>fff>fff>fff>«ª*?«ª*?«ª*?«ª*?«ªª>«ªª>«ªª>«ªª>
-4nÙü
-4‘ë]
-4–»R
-4Â
-4Ã
-4ù
 5
-58ói
 5@
 5P
-5™’–
-5ŸĞN
-5¥cé
-5µ¨ú
-5ÚÃ6
 6
-6$H·
 6ConVar
-6n´­
-6ƒFz
-6ÃÚ5
-6âhR
 7
 7IConVar
-7œ}o
-7Ø;ğ
-7Şğ2
-7éµz
 8
 8@
-8AÖ
 8C%0.f
 8CFmtStrNILi256ELb0EE
-8J&ï
-8MFà
 8P
 8b  16-May-2010
-8 Å
-8Â
-8ØÂÄ
-8ï²<
 9
-91k®
 9@
 9CBaseSlot
 9CCallbackI22CScaleformImageCreator19AvatarImageLoaded_tLb0EE
 9CCallbackI22CScaleformImageCreator20PersonaStateChange_tLb0EE
-9GÕê
 9P
-9e§¨
-9g×
-9,×
-9ã>Û
 :
 : {0}.
 :+<_>?~
 :./
 :/
 :1X:
-:=ö
 :@
 :P
 :X1:
-:µQÎ
-:ÌóÖ
 ;
 ;=,-./`
-;>Ë
 ;@
-;FæB
 ;P
-;\½·
-;gµ
-;n È
-;ƒ˜K
-;¶Yí
-;É’
 <
-< Š
 <!--
-<*ŞX
 </
 </A>
 </B>
@@ -1164,90 +996,42 @@ $Â
 <null>
 <undefined>
 <unknown>
-<›Q¾
-<²ï8
-<À:R
-<Â
-<îD?
 =
-= 
-=#A›
-=-f¶
 ==
 ========== MOVIE VIEW FUNCTIONS FOR %s ======
 ========== RENDERER FUNCTIONS ===============
-=?«
-=?ÿ
 =@
 =P
-= ËÌ
-=Ø•×
-=å—‡
 >
 >!h
->!Â
 ><
 ></TEXTFORMAT>
 >=
 >jm
->nwÛ
->”—
->¯2 
->µì
->¼uW
->À
->ÚqÂ
 ?
 ?"N
 ?(3w
-?:ô
 ?>
 ???
-?Dî<
 ?N9Scaleform6Render14MatrixPoolImpl16HMatrixConstantsE
 ?Vs
-?sƒ
-?ƒŠ&
-?“
-?‘²~
-?¤·û
-?­£
-?É³
-?á2
-?æÃ
-?şB
 @
 @&LH
 @(
 @0
 @33*@
 @@
-@@ÿÿÿ
 @A
 @C-- action record:
 @L
 @P
-@TµŞ
 @initialize@
 @keyPress@
 @wKA
-@@The method instance::BitmapFilter::clone() is not implemented
-@–¯‘
-@¤
-@¦âÿ²¢âÿá¢âÿ£âÿ`¤âÿ:¥âÿ
-@À
-@À333333ã?
-@Á
-@Â
-@ÅXŸSBK
-@íØ
-@ù¼¬
-@ÿTN
 A
 A stream must start with a complete key frame
 A':
 A8
-A?·¥
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABI version mismatch
 ACCEPT
@@ -1354,10 +1138,6 @@ Avatar not present, requesting from Steam
 Avestan
 AvmSprite::SpriteGotoAndPlay needs one arg
 AvmSprite::SpriteGotoAndStop needs one arg
-AxU™
-A¤
-A¥ßJ
-AÍ2D
 B
 B(
 B0
@@ -1378,7 +1158,6 @@ BGRA8888_LINEAR
 BGRX8888_LINEAR
 BIG_ENDIAN
 BINARY
-BIæ*
 BL
 BLOCKINDENT
 BLOCKINDENT="{0}"
@@ -1442,16 +1221,7 @@ Buffer passed to JPEG library is too small
 Buginese
 Buhid
 ButtonDef::Read - Audio library is not set. Skipping sound definitions.
-Bs¢
-B˜Og
-B¬øq
-B²˜l
-BÄù
-BâÔñ
-BæF;
-Bÿÿÿÿÿÿÿÿ
 C
-C(ñ.
 CAMERA
 CANCEL
 CAPSLOCK
@@ -1567,14 +1337,12 @@ CharId = %d, Depth = %d
 Cherokee
 Child Footprint
 Child Heaps
-Ciéj
 Class: %s, Script %s
 ClassTraits
 ClipDepth = %d
 Closed temporary file %s
 ClrDsp
 ClrLn
-Cm†Í
 Cn
 Co
 CodePage = %s, Italic = %d, Bold = %d
@@ -1621,10 +1389,8 @@ Creating new ImageDelegate entry for %u size %d
 Cs
 Cuneiform
 CurrentState
-Cwè˜
 Cypriot
 Cyrillic
-CÒ>H
 D
 D(
 D0
@@ -1635,7 +1401,6 @@ D24FS8
 D24X4S4
 D24X8
 D24X8_SHADOW
-D2ÍA
 D32
 DAPI AttachMovie() depth requested (%d) for symbol "%s" is too large. Using next highest index (%d) instead.
 DARKEN
@@ -1649,7 +1414,6 @@ DELETEKEY
 DEMO
 DESCENDING
 DEVICE
-DFŸë
 DIFFERENCE
 DISPLAYING
 DISPLAY_STATUS_WINDOW
@@ -1663,7 +1427,6 @@ DXT5
 DXT5"
 DXT5_NM
 DYNAMIC
-Da>Ô
 Data error in compressed datastream in %s chunk
 DataEvent
 Debug HUD
@@ -1707,7 +1470,6 @@ DoAbcLoader: flags = 0x%X, name = '%s', dataSize = %d
 Don't know how to export Resource '%s'
 DotaCardGameClient_001
 Down
-Do˜õ
 DrawProcessedComplexMeshes
 DrawProcessedPrimitive
 DrawText Manager
@@ -1735,11 +1497,7 @@ Duplicate sRGB chunk
 Duplicate tIME chunk
 Duplicate tRNS chunk
 Dynamic Granularity
-D~bé
-D‚$Á
-DÂ
 E
-E@Nö
 EDGEAA_DISABLE
 EDGEAA_INHERIT
 EDGEAA_OFF
@@ -1813,12 +1571,7 @@ ExternalInterface::marshallExceptions is not supported.
 ExternalInterface::objectID is not supported.
 Extra compressed data
 Extra compression data
-E›Õu
-E×1H
-Eß\u
-Eôw}
 F
-F.¸‰
 FACE
 FACE="{0}"
 FAIL
@@ -1843,7 +1596,6 @@ FSCommand:
 FULLSCREEN
 FULL_SCREEN
 FULL_SCREEN_INTERACTIVE
-F`ü)
 Failed loading SWF "%s": ActionScript version mismatch
 Failed loading SWF file "
 Failed loading URL "%s"
@@ -1887,7 +1639,6 @@ FileReference
 FileReferenceList
 FillStyle read type = 0x%X
 Find
-Fi¾y
 FlagType = %s, GridFit = %s
 FlattenedSerializersVersion001
 FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified! String: "%s"
@@ -1918,10 +1669,6 @@ Fri
 FullScreenEvent
 Function
 Function is not an object for static method '%s'.
-Fˆg­
-F²§
-FÄš˜
-FÙ
 G
 GAME
 GAMECONSOLE
@@ -1980,7 +1727,6 @@ GMT
 GMT+
 GMT-
 GNU
-GP~°
 GREEN
 GameInterface
 GamePad
@@ -2005,7 +1751,6 @@ GetVariable
 GetVariable failed: can't resolve the path "%s"
 GetVariableRaw("%s") failed, returning UNDEFINED.
 Getter method is null.
-GeÂ­
 Glagolitic
 GlyphCache
 GlyphRecords: count = %d
@@ -2018,13 +1763,9 @@ Greek
 GridFitType
 Gujarati
 Gurmukhi
-G²Ï
-G×6—
 H
 H(
 H0
-H1×E
-H>ÒC
 HAL::drawMaskClearRectangles
 HAND
 HARDLIGHT
@@ -2074,17 +1815,8 @@ HitTest
 Home
 HookUpConfigValue
 HostStateMgr001
-Hpá´
-Hq¹ó
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
-H—ŸÄ
-H¤
-H²6K
-HÂ
-HÃ
-H×Ë
-Hé
 I
 IA88
 IBEAM
@@ -2331,10 +2063,6 @@ IsCursorVisible
 IsLangBar
 IsStatusWindow
 Italic
-I¤
-I¹Ó”
-I»ÂÑ
-IéYı
 J
 J(
 J0
@@ -2346,7 +2074,6 @@ JFIF extension marker: JPEG-compressed thumbnail image, length %u
 JFIF extension marker: RGB thumbnail image, length %u
 JFIF extension marker: palette thumbnail image, length %u
 JFIF extension marker: type 0x%02x, length %u
-JNõ¯
 JP
 JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
@@ -2354,17 +2081,11 @@ JPEGMEM
 JUSTIFY
 Jan
 Javanese
-JjÑ®
 JointStyle
 Jpeg System is not installed - can't load jpeg image data
 Jul
 Jun
-J‘uy
-J»1›
-JÖ¿¸
-Jß¥A
 K
-K6²H
 KERNING
 KERNING="{0:sw:1:0}"
 KEYNAME_BEGIN
@@ -2444,7 +2165,6 @@ KEY_FOCUS_CHANGE
 KEY_UP
 KNQ
 KOREAN
-KS¼ò
 KV Conditional Evaluation Error
 Kaithi
 Kannada
@@ -2463,11 +2183,6 @@ KeyValuesSystem
 Keyboard
 Kharoshthi
 Khmer
-K˜ƒ;
-Kÿ
-KÿàJÿNewNode
-K¨y
-KÉôx
 L
 L&
 L(
@@ -2523,12 +2238,10 @@ LOG_GENERAL
 LOW
 LOWVIOLENCE
 LP
-LZ·’
 Label[%d] = { %d, "%s" }
 LangCode = %d
 Lao
 Latin
-LbË
 Leaked string content: %s
 Lepcha
 LightingBuilderMgr001
@@ -2568,10 +2281,6 @@ Lt
 Lu
 Lycian
 Lydian
-L ¸Ù
-LÂ
-Lí@
-Lô»!
 M
 M0@
 MARK
@@ -2680,10 +2389,6 @@ Msg
 Multitouch
 MultitouchInputMode
 Myanmar
-M~®µ
-M˜İ¥
-M²aX
-Móe"
 N
 N14MDmElementType45CValueSearchTester_ClassIntrospectionHandle_tE
 N18MResourceBlockType45CValueSearchTester_ClassIntrospectionHandle_tE
@@ -4490,7 +4195,6 @@ NOTATION(
 NO_BORDER
 NO_SCALE
 NO_START_OPT)
-NTÿ@
 NULL pathToVar passed to SetVariable/SetDouble()
 NULL row buffer for row %ld, pass %d
 NUMBER_0
@@ -4591,12 +4295,8 @@ Nov
 Null pRoot in %p - %p node
 Null pRoot in %p - %p node - at chain loop %d
 NumFonts = %d
-NĞ8d
-NĞŸ5
-N×úË
 O
 O*9y
-OA–Ç
 ONPAUSE
 ONRESUME
 OPEN
@@ -4606,8 +4306,6 @@ ORIENTATION_CHANGING
 OSX
 OUTER
 OVERLAY
-OWâ
-O]ï_
 ObjectsReportRequest
 Obtained EMS handle %u
 Obtained XMS handle %u
@@ -4639,9 +4337,6 @@ Out of place sRGB chunk
 Out of place tIME chunk
 Output file write error --- out of disk space?
 Over
-O¶K
-OŞcü
-OßòR
 P
 P0
 P8
@@ -4681,7 +4376,6 @@ PCDATA
 PCRE does not support \L, \l, \N{name}, \U, or \u
 PENDING
 PERIOD
-PFÿPFÿ€FÿPFÿPFÿ FÿĞFÿPFÿ
 PGDN
 PGUP
 PM
@@ -4725,7 +4419,6 @@ Phags_Pa
 Phoenician
 Physics2 Interface Old v0.5
 PhysicsBuilderMgr001
-PhñT
 Pi
 PixelSnapping
 PlaceObject
@@ -4812,35 +4505,20 @@ PushTwoLeftDeltaZero
 PushTwoPack5LeftDeltaN
 PushTwoPack5LeftDeltaOne
 PushTwoPack5LeftDeltaZero
-P˜×Ş
-PÂ
-PÃG
-Pú~V
-Pş..
 Q
 QC,A
 QName
-Qg‘¦
-QkĞõ
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
 QueuedLoaderVersion001
-Qy/ù
-QµÔô
-Q¾~Õ
-QÁé`
-QŞ
 R
 R0
 R16
 R16F
 R16F_EXPAND
 R32F
-R:ª»
-R:À<
 RADIAL
-RDØ7
 RED
 REFLECT
 REGULAR
@@ -4876,7 +4554,6 @@ RGBA8888_LINEAR
 RGBA: {0} {1} {2} {3}
 RGBX555
 RGBX8888
-RH³
 RIGHTBRACKET
 RIGHTMARGIN
 RIGHTMARGIN="{0}"
@@ -4889,7 +4566,6 @@ ROTATED_RIGHT
 ROUND
 RP
 RST%d
-RXwã
 RandomFloat
 RandomSeed
 RangeError
@@ -4939,14 +4615,9 @@ ResourceManifestRegistry001
 ResourceSystem013
 Responder
 Retrieval of the TextField.filters property is not implemented.
-Rhâ6
 Row has too many bytes to allocate in memory
 Runic
-R»–4
-RòßO
 S
-S&±Ú
-S1ƒ 
 SBR
 SCROLL
 SECURITY_ERROR
@@ -4958,7 +4629,6 @@ SET_CURRENT_LANGUAGE
 SET_IMENAME
 SET_SUPPORTED_IMENAMES
 SET_SUPPORTED_LANGUAGES
-SEè/
 SF (Action):
 SF (Debug):
 SF (Parse):
@@ -5257,9 +4927,6 @@ Sys
 Sys Direct Space
 SysReq
 SystemEx
-S®¼©
-S³“0
-SøÀŒ
 T
 T0
 T@
@@ -5294,10 +4961,7 @@ TOUCH_ROLL_OVER
 TOUCH_TAP
 TP
 TR
-TTTUUUVVVWWWVVVWWWXXXYYYZZZ[[[ZZZ[[[\\\\\\]]]]]]]]]]]]^^^^^^____________```aaabbbcccbbbcccdddeeefffgggfffggghhhhhhiiiiiiiiiiiijjjjjjkkkkkkkkkkkklllmmmnnnooonnnooopppqqqrrrsssrrrsssttttttuuuuuuuuuuuuvvvvvvwwwwwwwwwwwwxxxyyyzzz{{{zzz{{{|||}}}~~~~~~€€€€€€‚‚‚‚‚‚ƒƒƒƒƒƒƒƒƒƒƒƒ
 TU
-T]»º
-T`D´
 Tag 'DefineBinaryData' (87) is not supported, potentially 'TLF text' fields are used. Switch to 'Classic Text'.
 Tagalog
 Tagbanwa
@@ -5554,13 +5218,6 @@ Truncating incorrect tRNS chunk length
 Truncating profile to actual length in iCCP chunk
 Tue
 TypeError
-TŸÿ
-TÂ
-TÌ“„
-TŞW)
-Tå
-TèTc
-TñhP
 U
 UC
 UCP)
@@ -5590,7 +5247,6 @@ UTF-8
 UV88
 UVLX8888
 UVWQ8888
-Ue‹°
 Ugaritic
 Unable to watch '%s'
 UnbindRenderTargets
@@ -5634,12 +5290,6 @@ Usage: sf_print_objects_report <slot>
 Used
 User
 UserInfoChangeService_001
-UyúÀ
-UÀ?
-U×®.
-Ußg¨
-UåÑ^
-UçEc
 V
 VALIGN_BOTTOM
 VALIGN_CENTER
@@ -5686,7 +5336,6 @@ VStringTokenSystem001
 VTable
 VTable ind:
 VTableIndClosure
-VZ§†
 V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
@@ -5754,11 +5403,7 @@ Vector.<uint>
 VerifyError
 Virtual array controller messed up
 VisBuilder_001
-V~úP
-V¢ì
-V³Ä#
 W
-W7ºØ
 WARNING: CDirWatcher not implemented
 WARNING: Could not find schema data for helper class for resource type %lld '%s'. (Missing MDiskDataForResourceType metadata or schema data isn't loaded?)
 WARNING: LoadAndValidateResourceHeader - FileSystem not initialized!
@@ -5782,7 +5427,6 @@ Warning: thumbnail image size does not match data length %u
 Warning: unknown JFIF revision number %d.%02d
 WebM Project VP8 Decoder v1.1.0
 Wed
-Whµ%
 Width is too large for libpng to process pixels
 WordWrap = %d, Multiline = %d, Password = %d, ReadOnly = %d
 WorkshopSetup001
@@ -5794,17 +5438,12 @@ Write to EMS failed
 Write to XMS failed
 Writing zero-length unknown chunk
 Wrong JPEG library version: library is %d, caller expects %d
-Wu¼>
-W—b
-W¤ñ"
-WôïÄ
 X
 X0
 X360
 X360_DST16
 X360_DST24
 X360_DST24F
-X?¨#
 XB
 XML declaration not well-formed
 XML or text declaration not at start of entity
@@ -5835,47 +5474,31 @@ XOffset = %g
 XP
 X_AXIS
 Xan
-Xa²M
 Xiph.Org libVorbis 1.3.2
 Xps
 Xsp
 Xwd
-X¤‡±
-XÂ
-XŞ*<
 Y
-Y=Ñ«
 Y@
 YOffset = %g
-YO„Ÿ
-YSC
 Y_AXIS
-Yfí†
 Yi
-Y¸©ô
 Z
 Z"0*
 Z0
-Z1Oü
 ZEo^
-ZOÏ
 ZP
-ZTİ;
 Z_AXIS
 Zero length keyword
 Zero length tRNS chunk
 Zl
 ZlibState is not set - can't load zipped image data
-ZlÙÙ
 Zp
 Zs
-Zâ9è
 [
-[ Sß
 [%.3f server clamped to %.3f]
 [%d]
 [%s
-[&¹ö
 [Bold,Device]
 [Bold,Italic,Device]
 [Bold,Italic]
@@ -5884,7 +5507,6 @@ Zâ9è
 [Disk class %d/%d] Name = '%s'; Project = '%s'; Binary = '%s'
 [Italic,Device]
 [Italic]
-[Uî4
 [\]'
 [class
 [object
@@ -5894,9 +5516,6 @@ Zâ9è
 [resolveHandler]
 [type Function]
 [type Object]
-[»Zh
-[ìwj
-[ıwz
 \
 \ at end of pattern
 \0
@@ -5904,39 +5523,18 @@ Zâ9è
 \C not allowed in lookbehind assertion
 \N is not supported in a class
 \P
-\V®.
 \c at end of pattern
 \c must be followed by an ASCII character
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \k is not followed by a braced, angle-bracketed, or quoted name
-\¡Â¹
-\³<æ
-\Â
-\Ì
-\×br
-\áP®
 ]
 ] is an invalid data character in JavaScript compatibility mode
-]&Ãn
-]Wb÷
-]Wš)
-]]wæ
-]]®ª
-]Ÿ–—
-]ë‘4
 ^
 ^oEZ
-^~óì
-^ƒì?u='@Ô‹Š?
-^ pÒ
-^ÑåU
-^á
-^ô#˜
 _
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
-_Lª
 _ResourceLib_Images
 _V_ComposeFileName
 _V_ExtractFileExtension
@@ -5953,13 +5551,11 @@ _V_strncpy
 _V_strnistr_fast
 _V_wcsncpy_bytes
 _Video_Heap
-_Vä‚
 _ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
 _ZSt9terminatev@@GLIBCXX_3.4
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
 _ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
-_Z©L
 __AS3__.vec
 __UNKNOWN__
 __acosf_finite
@@ -6117,27 +5713,12 @@ _yrotation
 _yscale
 _z
 _zscale
-_­/m
-_Ş¶ë
-_ï]O
 `
 `A
 `P
-`[ÙD
-`]xÙ
-`~×õ
-`~ï1
-`ƒ¾ÿpƒ¾ÿ
-`°Õ
-`Â
-`Ôÿ
-`éÁQ
-`ı¼*
 a
 a numbered reference must not be zero
-a&g§
 a+b
-a+«f
 a:active
 a:hover
 a:link
@@ -6178,7 +5759,6 @@ addedToStage
 advanced
 afactor
 afterOrientation
-akÿÓ
 album
 allowDomain
 allowInsecureDomain
@@ -6259,10 +5839,6 @@ autoSize
 avHardwareDisable
 available
 avmplus
-aw©¾
-aïA’
-aô`í
-aùÖ"
 b
 b;!l
 bP
@@ -6330,10 +5906,7 @@ bytesAvailable
 bytesLoaded
 bytesPending
 bytesTotal
-bŞıÀ
-bò
 c
-cEçU
 cHRM Blue X
 cHRM Green X
 cHRM Green Y
@@ -6341,11 +5914,8 @@ cHRM Red X
 cHRM Red Y
 cHRM White X
 cHRM White Y
-cTèT
 c]$8
 c]^7
-c]²w
-c^´2
 cacheAsBitmap
 cacheResponse
 call
@@ -6499,11 +6069,7 @@ cxadd
 cxform:
 cxmul
 cxmul1
-c‰ñÎ
-c¦Q…
-cÚÿ cÚÿ8cÚÿØbÚÿğbÚÿ
 d
-d8ĞN
 dP
 dark
 darken
@@ -6512,7 +6078,6 @@ dataFormat
 dateUTC
 day
 dayUTC
-dd½ã
 deactivate
 deblocking
 declaredBy
@@ -6563,7 +6128,6 @@ distance
 ditheredSingle
 ditheredThick
 divisor
-dk¨À
 dl_iterate_phdr
 dl_iterate_phdr@@GLIBC_2.2.5
 doConversion
@@ -6595,14 +6159,9 @@ duplicateMovieClip
 duration
 dynamic
 dynamicPropertyWriter
-dÂ
-dà½o
-døAè
 e
-eLÔû
 eaFO
 edgeaaMode
-eg¼¸
 element
 elements
 embedFonts
@@ -6649,20 +6208,12 @@ extended
 extendsClass
 extension
 extra interior spaces removed from keyword
-e†‡Ñ
-e¦×Ô
-e°ÙÆ
-e²ÅÚ
-eÍ½AN9Scaleform3GFx5Video7VideoPCE
-eÍÍA
-eık§
 f
 factory
 failed to get memory
 false
 fauxBold
 fauxItalic
-fbåG
 fclose
 fclose@@GLIBC_2.2.5
 fcntl
@@ -6840,13 +6391,7 @@ fullYearUTC
 function Function() {}
 fwrite
 fwrite@@GLIBC_2.2.5
-fšƒ
-f«+a
-f¹a”
-fŞ6á
 g
-gO˜B
-gW¼¦
 g_Tier1_BitWriteMasks
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -6859,7 +6404,6 @@ gamePadAnalogChange
 gamma = (%d/100000)
 gc
 gc^A
-gcÏA
 generateFilterRect
 generic
 genre
@@ -7308,14 +6852,8 @@ greenMultiplier
 greenOffset
 gridFitType
 gx=%d, gy=%d, bx=%d, by=%d
-g‘„0
-gÇ§­
-gİJÌ
-gài
 h
-h"×»
 hP
-hZ»[
 hand
 hardlight
 hasAccessibility
@@ -7369,10 +6907,6 @@ http://www.w3.org/2000/xmlns/
 http://www.w3.org/XML/1998/namespace
 httpResponseStatus
 httpStatus
-hweâ
-h¿Qø
-hÂ
-hİ³ø
 i
 i < 4
 i8P/
@@ -7503,27 +7037,13 @@ iswspace@@GLIBC_2.2.5
 isxdigit
 isxdigit@@GLIBC_2.2.5
 italicbold
-i~€à
-i‹Ï
-i®bø
-ió85
-iıpv
 j
-jAf¥
 jP
 japanese
 join
-jpæÓ
 junk after document element
 justify
-jwì[
-j° ò
-jèH¾
-jéiC
-jø@
 k
-k? œ
-kHwÃ
 kerning
 key
 keyCode
@@ -7534,16 +7054,10 @@ keyLocation
 keyUp
 keyword length must be 1 - 79 characters
 kh9F
-kkQô
 knockout
 koreana
-kµ†l
-kµ¥
-kÙşç
-kŞ1œ
 l
 l!;b
-lH‘n
 lP
 labels
 language
@@ -7586,7 +7100,6 @@ linkMouseOut
 linkMouseOver
 littleEndian
 liveDelay
-lkçP
 loadBitmap
 loadBytes
 loadPolicyFile
@@ -7622,12 +7135,7 @@ lowConfSegment
 lower
 lseek64
 lseek64@@GLIBC_2.2.5
-l†µk
-l˜²B
-l¼.°
-lÂ
 m
-m/­_
 macType
 malformed \P or \p sequence
 malformed number or name after (?(
@@ -7686,7 +7194,6 @@ merge
 message
 metadata
 metadata: %s
-mg…K
 microphone
 middleClick
 middleMouseDown
@@ -7741,11 +7248,6 @@ multiply
 must not undeclare prefix
 muted
 mvp
-m~D‡
-m¦:µ
-mÄÑ¤
-mÙ?Í
-mİäë
 n
 n@The method NetStream::bufferLengthGet() is not implemented
 name = %s
@@ -7769,7 +7271,6 @@ nextNameIndex
 nextScene
 nextSibling
 nextValue
-nm—U
 no
 no element found
 no error
@@ -7804,13 +7305,7 @@ number is too big
 number too big in {} quantifier
 numberOfFramePools
 numbers out of order in {} quantifier
-n‘Hl
-n«ÿ@n«ÿxm«ÿ
-nÃ&]
-núb‹
-núé
 o
-o8úŞ
 objectEncoding
 objectID
 octal value is greater than \377 (not in UTF-8 mode)
@@ -7857,7 +7352,6 @@ oggpack_writecopy
 oggpack_writeinit
 oggpack_writetrunc
 okOP
-okÌ(
 onChanged
 onConstruct
 onCuePoint
@@ -7933,13 +7427,7 @@ outline
 outsideCutoff
 overState
 overlay
-o}œ7
-o…³
-o°wá
-o½àd
-oß¹ù
 p
-p-óÿ8,óÿ8-óÿĞ-óÿ0.óÿx.óÿÀ.óÿ(/óÿÀ/óÿø/óÿ`0óÿÀ+óÿğ+óÿ
 p@
 pA
 pD
@@ -7982,11 +7470,9 @@ pixelAspectRatio
 pixelBounds
 pixelDissolve
 pixelSnapping
-pjô
 playerType
 pm
 pm"U
-pm«ÿØm«ÿ
 png_do_quantize returned rowbytes=0
 png_do_rgb_to_gray found nongray pixel
 png_inflate logic error
@@ -8088,25 +7574,11 @@ puts
 puts@@GLIBC_2.2.5
 pwrite64
 pwrite64@@GLIBC_2.2.5
-p­•
-p‚
-p™”A
-pšÀ
-p¡ãÿ@§ãÿ §ãÿp¡ãÿ¨¨ãÿp¡ãÿp¡ãÿp¡ãÿX¨ãÿp¡ãÿp¡ãÿp¡ãÿp¡ãÿp¡ãÿp¡ãÿp¡ãÿH©ãÿ
-pÁ
-pÂ
-pĞ$¹
-pŞey
 q
 q>(
-qTpí
-qXç÷
 qsort
 qsort@@GLIBC_2.2.5
 quaternion
-q±…‰
-qğH»
-qø¬B
 r
 r+b
 rP
@@ -8118,7 +7590,6 @@ ratio: %f
 ratios
 rawData
 rb
-rb×\
 read
 read font "%s"
 read@@GLIBC_2.2.5
@@ -8260,12 +7731,7 @@ rotatedRight
 rotationX
 rotationY
 rotationZ
-rqg¢
 running
-rÏ®ş
-rÕ†
-rÜ3™
-rı$“
 s
 sPLT chunk has bad length
 sPLT chunk requires too much memory
@@ -8603,9 +8069,6 @@ syntax error
 syntax error in subpattern name (missing terminator)
 sysconf
 sysconf@@GLIBC_2.2.5
-sˆ‹®
-s±hÇ
-sóyÿ
 t
 t@
 tP
@@ -8717,17 +8180,11 @@ trunc@@GLIBC_2.2.5
 two named subpatterns have the same name
 typeinfo for CThreadSyncObject
 typeof unknown - %02X
-t±Òš
-tÂ
 u
 u64( %lld = 0x%llX )
-uS /
-u\ßE
-ufÆØ
 ui.click_forward
 ui.click_toptab
 ui.highlight_misc
-uj£œ
 unbound prefix
 unclosed CDATA section
 unclosed token
@@ -8997,14 +8454,9 @@ utf-16
 utlbuffer.cpp
 utlstring.cpp
 uvOrigin.x = %f, uvOrigin.y = %f
-u®\ø
-uÕ›E
-uå
 v
 v1.1.0
-v8H÷
 vQO+
-vUu¤
 validityStatus
 valueOf
 variable
@@ -9233,15 +8685,12 @@ vp8_unpack_block1d16_h6_sse2
 vp8_variance_and_sad_16x16_sse2
 vp8dx_receive_compressed_data
 vpx_reset_mmx_state
-vpıi
 vrgrp
 vrnmd
 vsnprintf@@GLIBC_2.2.5
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
-v‘àã
-vÜA
 w
 w+b
 w3(?
@@ -9285,15 +8734,11 @@ writeUTFBytes
 writeUnsignedInt
 writeonly
 wx=%d, wy=%d, rx=%d, ry=%d
-w²]c
-wáSÊ
-wüm
 x
 x-unicode-2-0-utf-8
 xMax
 xMin
 xP
-xT¼±
 xdigit
 xmin = %g, ymin = %g, xmax = %g, ymax = %g
 xml version="
@@ -9301,12 +8746,6 @@ xml=http://www.w3.org/XML/1998/namespace
 xmlDecl
 xmlns
 xvalue
-x¾+˜
-xÂ
-xÜ‰~
-xâ 
-xôpÓ
-xôÉK
 y
 y9*O
 y@
@@ -9314,20 +8753,11 @@ yMax
 yMin
 year
 yes
-yeŞp
-yu‘J
 yvalue
-y€t¤
-y¾iF
-yÜ¸¤
-yŞ©%
 z
-zCî|?î|¿
 zDThe method instance::NetConnection::clientGet() is not implemented
-zFƒ6
 zP
 zero length keyword
-zjZ¨
 zlib failed to initialize compressor
 zlib failed to initialize compressor -- mem error
 zlib failed to initialize compressor -- stream error
@@ -9336,11 +8766,7 @@ zlib memory error
 zlib stream error
 zlib version error
 zoom
-zwı[
-zµé7
-zùbı
 {
-{' "
 {0:02}:{1:02}:{2:02}
 {0:02}:{1:02}:{2:02} {3}{4:04}
 {0:sep:,}
@@ -9354,1373 +8780,12 @@ zùbı
 {0}</MemItem>
 {0}<MemItem Name="{1}" Value={2}>
 {0}<MemItem Name="{1}">
-{I£
 {|}"
 {}()':
-{±+®
-{ÆÊı
-{×-•
-{ıèÏ
 |
 | {0:4.4} {1:4.4} {2:4.4} || {3:4.4} {4:4.4} {5:4.4} |
 |P
-|v‰³
-|xë®
-|ˆ¹ü
-|‘ĞÕ
-|Â
-|Ïb!
-|Üï·
-|æZæ
 }
-}wôE
-}§@Õ
-}Ñóš
 ~
-~*ÚÆ
-~7©Ï
-~Pfî
-~‰Üx
-~“Ñ¡
-~±|½
-~²‘?
 
-8„«
-?–0?NY?Í{?¶˜?§°?5Ä?ïÓ?[à?õé?3ñ?ö?;ú?¾ü?Tş?@ÿ?ºÿ?îÿ?şÿ?
 C
-Ioö
-K¶O
-j»
-ƒÂò
-Ï²G
-×g9
-ÿÿ
-€
-€0
-€0@
-€7
-€:
-€;
-€<
-€=
-€>
-€?
-€?MDmElementType
-€?RemoveElement
-€@
-€@eª¸¿
-€A
-€AwØ
-€B
-€C
-€D
-€F@The method instance::ByteArray::deflate() is not implemented
-€J
-€K
-€OÃG€OÃÇÁ¨@5p'?Dp'?Ä
-€P
-€Q×È
-€V@
-€VÀ·)
-€b
-€egË
-€f@N9Scaleform15NewOverrideBaseILi327EEE
-€flash.events.IOErrorEvent
-€fÀ
-€v@
-€
-€ÿÿ
-€€€€
-€„.A
-€†@
-€†Àattribute
-€¤
-€¥v#
-€©k¼
-€¾
-€¿
-€Á
-€Áš™‰Á
-€Â
-€à7yÃACImageCreator is null in BeginBitmapFill
-€ş©œ
-€ÿ
-€ÿÿÿÿÿÿÿÿÿÿÿÿ
-€ÿÿÿÿÿÿï
-
-@
-P
-y¨K
-€€;mempool.cpp
-€€;€€;€€;€€;
-ƒ»
-¤
-²-Õ
-´.
-ËbL
-ÜÚÑ
-‚
-‚@
-‚J¿•
-‚P
-‚b62
-‚p
-‚Â
-‚äV_
-ƒ
-ƒ@
-ƒP
-ƒŠ6ú
-ƒšdˆ
-ƒšf
-ƒ _
-ƒ¸í
-ƒÓ…Ç
-ƒè#¦
-„
-„'6Û
-„;d”
-„@
-„P
-„„„………†††‡‡‡ˆˆˆ‰‰‰ŠŠŠ‹‹‹ŒŒŒ‘‘‘’’’“““””••––——––——”””•••–––———–––———˜˜™™šš››šš››˜˜˜™™™ššš›››ššš›››œœŸŸŸŸœœœŸŸŸŸŸŸ  ¡¡¢¢££¢¢££   ¡¡¡¢¢¢£££¢¢¢£££TTUU¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¥¥¥¦¦¦¥¥T
-„“ÌT
-„»A‰
-„¾AŞ
-„¾ÿ
-„¾ÿ@ƒ¾ÿPƒ¾ÿ
-„¾ÿ€ƒ¾ÿ
-„¾ÿƒ¾ÿ
-„¾ÿ ƒ¾ÿ°ƒ¾ÿÀƒ¾ÿĞƒ¾ÿàƒ¾ÿğƒ¾ÿ ƒ¾ÿ0ƒ¾ÿ
-„¿W1
-„Â
-…
-…*ï*
-…@
-…P
-…Q¦c
-…Yğâ
-…e0Ø
-…çÂÑ
-†
-†§ZV
-†Â
-†ÓÒÔ
-†Õr
-†ífY
-‡
-‡-OÂ
-‡C
-‡D~m
-‡|o/
-‡
-‡—å=
-‡²
-ˆ
-ˆ?/‘
-ˆ@
-ˆA
-ˆP
-ˆdšƒ
-ˆ?Ö
-ˆ
-ˆ¤
-ˆÁ
-ˆÂ
-ˆÆ#µ
-ˆÙÒ—
-ˆß1ê
-‰
-‰@
-‰A»„
-‰P
-‰…±q
-‰¡÷Ó
-‰¤
-‰®ÿøˆ®ÿ€ˆ®ÿ0‰®ÿ
-‰¸.F
-‰Í‚·
-‰Ó+à
-Š
-Š6«ë
-Š?Ì3
-Š@
-ŠP
-ŠeÉì
-Š€ì
-ŠÂ
-ŠÂºÊ
-Šèïú
-‹
-‹@
-‹B÷Û
-‹P
-‹bún
-‹Ù,
-‹Ÿ³ß
-‹®b
-‹¾¸ê
-‹à×¯
-Œ
-Œ@
-ŒB
-ŒP
-Œ³aË
-ŒÀøS
-ŒÂ
-ŒÓ|ó
-
-#·+
-&DÜ
-@
-P
-iàg
-„×à
-‰50
-
--ƒ
-@
-’É;
-¾ïù
-Â
-Ñbç
-á^
-
-Vc0
-b—W
-eÿ
-§–
-¼H¥
-Ï‹i
-ôjp
-
-: ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿX> ÿ0= ÿ ; ÿ€= ÿ ; ÿ ; ÿ0= ÿ ; ÿ ; ÿĞ= ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ ; ÿ
-@
-A
-AÜv
-Qù±
-b®‹
-müw
-œÿ°›ÿhœÿè›ÿœÿ0œÿœÿp›ÿIntroMovieUpdate
-Â
-åk$
-ÿÓü
-‘
-‘/?ˆ
-‘dl—
-‘xÒ+
-‘¯–@
-’
-’+B.
-’Aïa
-’Z´+
-’t½ÿÆs½ÿôr½ÿ7q½ÿào½ÿ9p½ÿzp½ÿào½ÿ ‚½ÿÀ½ÿà€½ÿ°½ÿ }½ÿÀ}½ÿè}½ÿ }½ÿ
-’µSÑ
-’·ZL
-’Â
-’Ò›
-“
-“$ır
-“Ëúõ
-”
-”+o*
-”a¹f
-”d;„
-”§Âï
-”Â
-”Ó¹I
-”à€Å
-•
-•"êò
-•-×{
-•„$¢
-•­p
-•¿J‚
-•æ¸±
-–
-–D
-–’™5
-–¦>œ
-–§yä
-–§
-–Â
-–şàÿbşàÿşşàÿÊşàÿfÿàÿ2ÿàÿU
-—
-—6×G
-—dT«
-—ld‘
-—…Ö
-—–Ÿ]
-—º ¨
-—ÒÙˆ
-˜
-˜#ô^
-˜+¾x
-˜>Uñ
-˜@.dds
-˜F«ÿ8F«ÿ(F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿÈE«ÿPE«ÿèA«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ¸F«ÿ[B«ÿPE«ÿ¨F«ÿ
-˜šÄF
-˜µo$
-˜¹
-˜Á
-˜Â
-˜ÉÙ)
-˜Ò ¼
-˜èwC
-™
-™3Ür
-™UxA
-™bb×
-™•ºÏ
-™ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿø˜ÿè˜ÿ°™ÿ ™ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿğ˜ÿè˜ÿ ™ÿ°™ÿø˜ÿ™ÿ€™ÿ
-™²Zı
-™¹T&
-š
-š™Y?¤p}?
-š™™™™™É?
-š¿³¶
-šÂ
-šÈõ.
-šË6©
-šÒ±t
-šóÑ}
-›
-›1»J
-›A#=
-›dÂ°
-›Ò’
-›ÉsÊ
-œ
-œ1Şk
-œ>¦–
-œ ?k
-œ£ju
-œ©ş€
-œÂ
-
-'>¼
-—¾¢
- pÈ
-Òw¯
-×8¹
-úy¡
-
--
-d•£
-l—ş
-~­Ï
-ƒ-
-Â
-èŞü
-Ÿ
-Ÿ„OY
-Ÿ¼Çø
-Ÿ¿ä¥
-ŸÅÊ
-ŸäaÎ
- 
- 2¯>
- ?
- ?ÍÌÌ=
- @
- @«ª*>
- AÍÌLELoader failed to open '%s'
- B
- B.æ?
- P
- *'
- ƒ1S
- ¿
- À
- Á
- Â
- Ğâ©
- Òo%
- Ø…W4vC
- âx
- ø)Ä
-¡
-¡:Có
-¡@
-¡P
-¡yú
-¡Ğë
-¡Ñ“~
-¡ø+ğ
-¡ÿ
-¡ÿ`
-¡ÿ 
-¢
-¢$„•
-¢1Â¶
-¢@
-¢P
-¢gqr
-¢sB
-¢€á’¬“Ö'œ€„K‘²Îïşş¤€ÌªwëŒæä€‚‚J”´Ëìşş
-¢‚ÓÁ
-¢¾—
-¢Â
-£
-£+Ëõ
-£@
-£I{
-£P
-£|ıª
-£•d
-£¼
-¤
-¤@
-¤P
-¤t€y
-¤uUv
-¤°ïÆ
-¤¸Üy
-¤Â
-¤ÑÄm
-¤á@½
-¥
-¥%áZ
-¥@
-¥H¼
-¥P
-¥fAj
-¥µk
-¥·?A
-¥Î)ÿ
-¥İ˜M
-¥ä¿Ÿ
-¦
-¦#èƒ
-¦3ë/
-¦‘gQ
-¦£´$
-¦¼Wg
-¦Â
-¦áèñ
-¦ñÏº
-§
-§g&a
-§kıe
-§©%
-§²F
-§Ğü
-§ÿ×Â
-¨
-¨ º—
-¨@
-¨Hè÷
-¨P
-¨Zjz
-¨gßU
-¨§e9
-¨ª
-¨¯MË
-¨¾¬*
-¨Á
-¨Â
-©
-©6.Î
-©6Ëš
-©9­ı
-©@
-©P
-©Z
-©˜"
-©¼®S
-©âĞ 
-ª
-ª@
-ªL_
-ªP
-ªw8#
-ªªªªªªªªªªªªªªªªªª*
-ª®]]
-ªÂ
-ªÎ‹Æ
-ªı|£
-«
-«$HÉ
-«@
-«P
-«Td—
-«„8
-« ÿ
-«¤nù
-«Ñ=Y
-¬
-¬ Æ°
-¬0Ù&
-¬@
-¬HpÓ
-¬P
-¬£×
-¬­Æ%
-¬¼ù@
-¬Â
-¬Å'7¬Å'7¬Å'7¬Å'7
-­
-­$á¯
-­@
-­P
-­gˆF
-­lºÀ
-­¢7/
-­§Çg
-­´n6
-­ÂeG
-®
-®'
-®+±{
-®Pá\
-®k19
-®‹ˆs
-®Â
-®ÑjJ
-®ëx|
-¯
-¯wÒ
-¯×à‹
-¯á$­
-¯õNJ
-°
-°&åÿ˜&åÿ@&åÿ@&åÿĞ%åÿĞ%åÿ
-°-úÛ
-°.¼l
-°~PG
-°‹eU
-°›Œ‡
-°®®ÿ°®®ÿĞ®®ÿĞ®®ÿĞ®®ÿÀ®®ÿÀ®®ÿÀ®®ÿ°®®ÿ°®®ÿ°®®ÿÈ®®ÿ°®®ÿ°®®ÿ
-°Á
-°Â
-°Âd›
-°Æ ¬
-°Ğ˜"
-±
-±‡¤X
-±¡á
-±¸æ•
-±¼Tx
-±ùQ
-²
-²‡
-²Â
-³
-³fz.
-³…o
-³‰v|
-³HR
-³Õ•0
-³ùÆé
-´
-´;
-´?Ğî
-´B
-´C
-´D`T
-´ŠŞ¼
-´@
-´†‚
-´£ÄÿÜ Äÿ´£Äÿ,¡ÄÿÌ¡Äÿ,¢ÄÿŒ¢Äÿì¢Äÿl£Äÿ| ÄÿCan't execute ABC from %s
-´¨×Ç
-´Â
-´à:İ
-´ápH
-µ
-µ#Æˆ
-µ:¦m
-µg;
-µkeÜ
-µ‚
-µ®~M
-µÄsĞ
-µÅ
-µĞÏ1
-µô´!
-¶
-¶@§¾
-¶f-=
-¶³¿š
-¶Â
-¶Â1¢
-¶ØïÔ
-·
-·H$6
-·q÷à
-·‚Í‰
-·½\;
-·ïÜ|
-¸
-¸JaÄ
-¸„ÙÿÈ„ÙÿØ„Ùÿè„Ùÿ˜„Ùÿ¨„Ùÿ
-¸®Åä
-¸¼ge
-¸¿ÖJ
-¸Á
-¸Â
-¹
-¹$Ğp
-¹8×
-¹‘œ1
-¹˜
-¹Â¡\
-º
-º:Àÿ¬:ÀÿŒ:Àÿ|:Àÿœ:Àÿ
-º»]T
-ºÂ
-ºÏñ¦
-»
-»*ó÷
-»Hğq
-»j
-»ƒ
-»ª:R
-»Öÿ ¼Öÿˆ¼ÖÿX¼Öÿ@¼ÖÿX¼Öÿ$ìÖÿTëÖÿ$ìÖÿ$ìÖÿ$ìÖÿ4ìÖÿÄìÖÿ$ìÖÿ$ìÖÿTëÖÿ$ìÖÿ$ìÖÿ$ìÖÿ4ìÖÿÄìÖÿ$ìÖÿœìÖÿÈñÖÿğñÖÿ òÖÿ˜òÖÿ
-»×"h
-¼
-¼ Ò˜
-¼!¼Ğ
-¼>'
-¼k©€
-¼£
-¼Â
-¼ŞŠ´
-¼õqŞ
-½
-½@á¤
-½\iê
-½|±~
-½Š*'
-¾
-¾;ºÅ
-¾Hèj
-¾Q›<
-¾˜4í
-¾§@¶
-¾©wa
-¾Â
-¾Õå
-¿
-¿8ÙÂ
-¿Z^Ú
-¿gÙ#
-¿Âış
-¿Öšë
-À
-À?
-À?®G?ìQ8>Há@
-À@
-ÀD
-ÀH®.
-ÀP
-ÀyD
-ÀyÄ
-ÀDÍÌL?
-Àšp
-À¨kd
-À«ª*?
-Àºl­
-À¿
-ÀÀ
-ÀÁ
-ÀÂ
-Ààğ
-ÀúyU
-ÀıŞb
-Àÿ
-Àÿÿÿ
-ÀÿÿÿßA
-ÀÿÿÿßA(x=
-Á
-Á$‚D
-ÁlpÁ
-ÁplÁ
-ÁÓ‚¢
-Áÿ
-Â
-ÂO-‡
-ÂP
-ÂWVÌ
-ÂqÚ>
-ÂÂ
-Â×ÿ§
-ÂÙ8¿
-Ã
-ÃS-+
-Ãv³,
-ÃwHk
-Ã•<û
-ÃŞƒ$
-Ãï`ß
-ÃöÛé
-Ãÿ
-Ä
-Ä)ø 
-ÄP
-ÄaJ¸
-Äœ”'
-Ä@
-ÄŸ—H
-ÄÂ
-ÄÂØ8
-ÄÊîÖ
-ÄïôW
-Å
-ÅT
-Å~Zô
-Å€à”
-Å»Ş
-Å 8
-Å´(ï
-Åµ
-Åº;¾
-Æ
-Æ{ÉÈ
-Æ‹Îª
-ÆÂ
-ÆÙ°e
-ÆÚ*~
-Æï°¤
-Ç
-Çh±s
-Ç…Óƒ
-Ç–AO
-ÇÒÑü
-Ç×¨´
-È
-È n;
-È2éç
-ÈB×£;
-ÈNgmÁ«C
-ÈP
-Èp 
-È@
-ÈÀ{ß
-ÈÁ
-ÈÂ
-ÈÂH´ÁÿH´ÁÿØ³Áÿx´Áÿx´Áÿx´Áÿ@»Áÿ@»ÁÿĞºÁÿ€»Áÿ€»Áÿ€»Áÿ`ÅÁÿ`ÅÁÿPÁÁÿˆÅÁÿˆÅÁÿˆÅÁÿ@ÂÁÿ@ÂÁÿàÁÁÿpÂÁÿpÂÁÿpÂÁÿThe method class_::Capabilities::avHardwareDisableGet() is not implemented
-ÈÉ{Æ
-È×Q€
-É
-ÉH$«
-ÉL/Ş
-É[-&
-É|İ
-Ê
-ÊP
-ÊSáw
-Êkyí
-ÊsÉ›
-ÊÅŸ
-Ê°\3
-ÊºÂŠ
-ÊÂ
-Ë
-Ë7]ä
-ËM¯¨
-Ëa³Œ
-Ëge€
-Ë×H
-ËÙôã
-Ëú×N
-Ì
-ÌJİg
-ÌP
-ÌVWÂ
-Ì\
-ÌµÌù
-ÌÂ
-ÌË =
-Í
-Í?Ùm
-Í†mC
-Í¼y
-ÍÌL=
-ÍÎo&
-ÍÿOö
-Î
-Î.6©
-ÎQµ:
-ÎaäŸ
-ÎySØ
-ÎÂ
-Îñ‰c
-Ï
-ÏOZ
-Ï©7~
-Ï­~
-Ïº•™
-ÏÖÜ
-Ïèı{
-Ğ
-Ğ?
-ĞQ2X
-ĞsÄµ
-Ğv@
-Ğ¸`Ú
-Ğ¼!¼
-ĞÁ
-ĞÂ
-Ñ
-Ñ>µÿÑ>BÿÒ>øşÓ>ÕşÔ>ØşÕ>ÿşÖ>Kÿ×>¸ÿØ>G
-ÑSµ’
-Ñ‡†e
-Ñ Î3
-Ñ­
-Ñ»gñ
-ÑÂ»I
-ÑÂç…
-ÑÚÜ
-Ò
-Ò!õİ
-Òp ^
-Ò…ı
-ÒÂ
-Òúáì
-Ó
-ÓpH¬
-Ópôx
-ÓƒÇù
-Óˆíé
-ÓÖôû
-Óæpj
-Ó÷¡‰
-Óÿka
-Ô
-Ô>aD
-ÔA?ß
-Ôí(
-Ô»0â
-ÔÂ
-ÔÒÓ†
-Ô×¦e
-ÔïØ¶
-Ôôãÿ\õãÿœõãÿäôãÿ$ôãÿcHRM Blue Y
-Õ
-Õ-²
-Õ@§}
-Õ`Aä
-Õ~¾Q
-Õ°`
-Õ–Ùö
-ÕĞ‘|
-Ö
-Ö?ˆ
-ÖA8
-Ö…—
-Ö©fï
-ÖÂ
-ÖÉ»Û
-ÖÖ£è
-ÖîÊÄ
-ÖóÌ:
-×
-×#<
-×,9
-×bb™
-×•Ø=
-×¨Œ
-×Òî
-Ø
-Ø%ãÿ€%ãÿØ%ãÿ€%ãÿ
-Ø+Ú
-Ø0e…
-ØRŸÿ
-ØSyÎ
-ØYpU
-ØwA€
-Ø~«ÿÈ~«ÿø~«ÿ¨~«ÿx~«ÿè~«ÿP«ÿ@«ÿ0«ÿ «ÿğ~«ÿ`«ÿ  Frame label: "%s"
-Øº7W
-ØÁ
-ØÂ
-ØÆfu
-Øí@
-Ù
-ÙF
-Ùx]`
-Ù
-Ù¥sã
-Ù¸ L
-ÙÖZÜ
-Ù×ÿ
-Ù×ÿ†â×ÿWâ×ÿ´á×ÿ
-Ù×ÿ†é×ÿyé×ÿ
-Ù×ÿØ×ÿ
-Ù×ÿØ×ÿØ×ÿ@İ×ÿ&İ×ÿ
-Ù×ÿØ×ÿØ×ÿØ×ÿØ×ÿØ×ÿØ×ÿØ×ÿ
-ÙÙlZ
-Ùæï#
-Ú
-Ú+Ø
-Ú>õ
-Ú^Z¿
-Ú`¸Ğ
-Úp8$
-Ú±&S
-ÚÂ
-ÚÅ²e
-Û
-Û6'„
-Û>ã9
-Ûwn>
-Û»ÉÖ
-Û÷B‹
-Ûù€0
-Ûú-°
-Ü
-Ü7Kå
-ÜD&
-ÜZÖÙ
-Ü_k%
-Üekµ
-ÜÂ
-ÜÖÏ
-İ
-İ:à´
-İ|É
-İØjò
-İõ!Ò
-Ş
-Ş/LÉ
-ŞA¾„
-ŞQ
-Şqõ¼
-ŞµT@
-Ş»Å
-ŞÂ
-Ş×˜P
-Şú8o
-ß
-ß?AÔ
-ßF6ó
-ßS [
-ß`¨V
-ß`ïÃ
-ß{ÀÈ
-ß³Ÿ‹
-à
-à+Ó‰
-à?
-à@
-àA
-àCThe method instance::ContextMenu::builtInItemsSet() is not implemented
-àFM8
-àP
-àD
-à€~i
-àŸùÿÿıÍ#
-à¯ûÿÿıí#
-à¼Ëò
-àÁ
-àÂ
-à×„
-àßw3
-à÷q·
-àÿ3ÿßÿa
-àÿD1.2.5
-àÿZ
-àÿa
-àÿ«
-àÿÂ
-àÿï@
-àÿÿïGíµ ÷Æ°>
-àÿÿÿïA
-àÿÿÿÿÿÿ#
-á
-á6Şf
-áF*.
-áM
-áw°o
-á¡±
-áÿ%
-áÿU
-â
-â0»Ô
-âP
-âewh
-âWO
-â±Ïî
-âÂ
-âğY…
-ã
-ãlØ2
-ãs¥Ù
-ãwXR
-ã½dd
-ãà‘v
-ãôÙË
-ä
-äA`Õ
-äP
-ä]7Ë
-äy§–
-ä‡ùÿÿımÓ‡9
-äÂ
-äÅ®¸
-äâ/è
-äÿ
-å
-å#ñò
-åK7Ü
-åT
-å¸g2
-åÊÿ
-åÊÿ`äÊÿ@äÊÿ
-åÊÿ€äÊÿ
-åÊÿ äÊÿ
-åÕ¾
-æ
-æ<³\
-æZæ|
-æw]]
-æ™"
-æÂ
-ç
-çbÑ
-çĞóè
-çæóş
-çé2È
-çşÙk
-è
-è/âä
-è9âZ
-è?
-èAød
-èP
-è£ÖÖ
-è¥0ú
-è¸Ô3
-èÁ
-èÂ
-èóĞç
-èÿ
-é
-éH
-éb~D
-éc¥5
-éj'V
-éún
-éÆù³
-éÛöÃ
-éíˆÓ
-éÿ[
-éÿµ0
-ê
-ê1ßˆ
-êP
-êi\½
-êkÓ2
-ê¸¾‹
-êÂ
-êÕG9
-ê×ÿ%ê×ÿØ×ÿZç×ÿ
-ë
-ëšÖ¿
-ëŸFD
-ë«6Š
-ë¶Ş_
-ëĞ¡
-ëäİm
-ëÿõÿ
-ì
-ìP
-ìcò&
-ì€Š
-ì¢V
-ìÂ
-ìÉeŠ
-ìß’ş
-ìßıÿÿıïÃß=`@Ãÿ
-ìßıÿÿıÿÃÏ=€
-ìáúÒ
-ìó~^
-ìÿüÿÿû/€_ÿ
-ìÿöÿêÿ
-í
-í4˜¾
-íX“)
-íY¶;
-í`ôa
-ípTq
-íykÊ
-í¸ƒ
-íöıışşşşşşşşşşúúüşşçóõışşşşşşşşşşûûşşş
-íÿ
-î
-îfP~
-îŸùÿÿıÍó9À°Ãÿ
-î¯ûÿÿıíó¿;
-îÏ±â
-îĞ?´
-îÒ×
-îßıÿÿıïÃß=`
-ï
-ï&J8
-ï(´Å
-ïZ*
-ïf©Ö
-ïn1
-ïœ€
-ïœ
-ïœ‚
-ïœƒ
-ïœ„
-ïœ…
-ïœ†
-ïœ‡
-ïœˆ
-ïœ‰
-ïœŠ
-ïœ‹
-ïœŒ
-ïœ
-ïœ
-ïœ
-ïœ
-ïœ‘
-ïœ’
-ïœ“
-ïœ”
-ïœ•
-ïœ–
-ïœ—
-ïœ˜
-ïœ™
-ïœš
-ïœ›
-ïœœ
-ïœ
-ïœ
-ïœŸ
-ïœ 
-ïœ¡
-ïœ¢
-ïœ£
-ïœ¤
-ïœ¥
-ïœ¦
-ïœ§
-ïœ¨
-ïœ©
-ïœª
-ïœ«
-ïœ¬
-ïœ­
-ïœ®
-ïœ¯
-ïœ°
-ïœ±
-ïœ²
-ïœ³
-ïœ´
-ïœµ
-ïœ¶
-ïœ·
-ïœ¸
-ïœ¹
-ïœº
-ïœ»
-ïœ¼
-ïœ½
-ïœ¾
-ïœ¿
-ï€
-ï
-ï‚
-ïƒ
-ï„
-ï…
-ï†
-ï‡
-ïÂ§”
-ğ
-ğ+ø¡
-ğ;Ø7
-ğ?
-ğ?;¿§Ài$é?» Ç{zQá?]«rŞU¨Ñ?
-ğA
-ğB
-ğCá­İÿÂ¯İÿ¶¯İÿ¥¯İÿ¯İÿs¯İÿQ¯İÿŞ¬İÿÉ¯İÿ
-ğoëY
-ğ
-ğ„=&
-ğ¿
-ğÁ
-ğÂ
-ğşÿÿ
-ğÿ
-ğÿğÿğÿğÿğÿğÿğÿğÿM
-ñ
-ñU>˜
-ñg»Ñ
-ñhãˆµøä>
-ño
-ñÔâB
-ñèá¦
-ñÿæÿïÿøÿ
-ò
-ò °j
-òb
-òjØİ
-ò¼SK
-òÂƒ
-òË¼à
-òê"•
-òñ#å
-ó
-ó6Fß
-óC:¡
-óv"2
-ó|ÓŒ
-ó¹qH
-ô
-ôQkk
-ôZ~Å
-ôke0
-ô©¸Y
-ôÔµQ
-ôÿ
-õ
-õ˜oD
-õË+£
-õĞkQ
-õ×~`
-õúË“
-õÿõÿõÿõÿõÿõÿõÿõÿl
-ö
-öN@E
-öOÿÍ
-öoI
-öy?/
-ö¹&[
-öÙ–Õ
-öè˜%
-÷
-÷H8v
-÷bW]
-÷•ú
-÷çXq
-÷èH¨
-÷ó*»
-÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ
-÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ]
-ø
-ø?
-øQ¿h
-ø\®u
-øb®i
-ø³İh
-øÁ
-øÇ¼Ÿ
-øÿ
-øÿF
-øÿÆ®G¡?
-øÿøÿøÿøÿøÿøÿøÿøÿ$
-øÿÿÿÿÿÿÿÿÿÿÿÿ?
-ù
-ù/yQ
-ù4
-ùn¤«
-ùÄB
-ùŸŞı
-ù¹ßo
-ùÇƒÓ
-ùÌµÌ
-ùï¾
-ùÿúbÿÜÿ
-ú
-ú0¥è
-ú6Šƒ
-ú•÷
-ú¨µ5
-úïèŠ
-úÿúÿúÿúÿúÿúÿúÿúÿ
-úÿúÿúÿúÿúÿúÿúÿúÿ2
-úÿúÿúÿúÿúÿúÿúÿúÿ{
-û
-û<•Ã
-ûnY-
-û~F)
-û·¤?
-ûÔLe
-ûôÖÓ
-ûÿ
-ü
-üO1Z
-ücŞO
-ü¹ˆ|
-üĞ§
-üÑÒÇ
-üÓÿ
-üÙn4
-üŞè
-üÿÿŸA
-ı
-ıYéI
-ıZ²™
-ıbùz
-ı…Ò
-ı¨
-ı­9©
-ıÊÆ{
-ıŞŸù
-ıÿ
-ş
-ş1ï'
-ş’ßì
-ş—l
-ş®Ïr
-şßÿÿÿÿÿÿÿÿşßÿÿÿÿ{
-şóæç
-şıÂ¿
-şşóæÄ±™Œ…‚
-şÿ
-şÿ>
-şÿF INDENT="{0}"
-şÿîÿ
-şÿÿÿ
-şÿÿÿ€
-şÿÿÿşÿÿÿşÿÿÿşÿÿÿ
-şÿÿÿÿ
-şÿÿÿÿÿÿÿÿ|ÿ/
-şÿÿÿÿÿÿÿÿÿÿ
-şÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿŸ
-ÿ
-ÿ)Î¥
-ÿ?
-ÿyós
-ÿ
-ÿG  TextRect = { l: %f, t: %f, r: %f, b: %f }
-ÿ€
-ÿe
-ÿæÛ.
-ÿşı
-ÿÿ
-ÿÿ?
-ÿÿ
-ÿÿ
-ÿÿÿÿÿÿÿÿÿ
-ÿÿüÿòÿúÿçÿ
-ÿÿşÿTruncated packet
-ÿÿÿ
-ÿÿÿ?
-ÿÿÿ
-ÿÿÿÿ
-ÿÿÿÿ?
-ÿÿÿÿ
-ÿÿÿÿ
-ÿÿÿÿ÷ÿÿÿÿÿÿ
-ÿÿÿÿÿ?
-ÿÿÿÿÿÿ
-ÿÿÿÿÿÿï
-ÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿ?
-ÿÿÿÿÿÿÿÿüÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ

@@ -235,14 +235,12 @@ $ORIGIN
 4
 46CInputLayoutRegistration_g_hSkeletonMeshLayout
 4C
-4Ã
 6CModel
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE
 8CFunctor
 9ISequence
-;ÁÀ@?
 <
 <!--
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->
@@ -258,15 +256,8 @@ $ORIGIN
 >
 ?
 ?a`
-?a`€?wÄ½@­¬,>«ª*>
-?€
 @@
-@@eª¸¿
 @Aphysaggregatedata.cpp
-@€
-@@<NO EXPRESSION>
-@À
-@ÛüÿğØüÿˆÙüÿ ÚüÿpÚüÿ
 A->B
 ACTIVITY WEIGHTS
 ACT_IDLE
@@ -1663,7 +1654,6 @@ control_points_list
 cos( %s )
 create_particle
 curvature
-d2üÿ¼1üÿü1üÿ,2üÿ<2üÿœ1üÿ¬1üÿ 3üÿ°2üÿÈ2üÿè2üÿ
 default
 dimension0
 dimension1
@@ -2717,7 +2707,6 @@ origin_max_delta
 origin_relative
 outerconeangle
 overlay
-pB«ªª>š™™=
 parent of jiggle bone %u: %s
 particles/
 particles_list
@@ -2905,59 +2894,3 @@ zero
 } %llu aggs, %s total data
 C
 D
-€
-€8
-€:
-€=
-€?
-€?CMorphSetData
-€?ÿÿÿÿÿ
-€@
-€B
-€C
-€D
-€b
-€¾
-€¿
-€¿ÿÿÿÿ
-‡C
-˜A
- @
- A
- À
- ò×z>ÿÿÿÿÿÿÿ
-¢B
-¢öÿPŸöÿ(¦öÿ¥öÿø¥öÿĞ¤öÿ
-¥öÿ@¥öÿp¥öÿ¨öÿ
-ªw8#
-´
-´;
-´B
-´C
-¾úÿ ½úÿ°½úÿm_spheres
-¾úÿÀ½úÿĞ½úÿğ½úÿ
-¿
-À@mathlib.cpp
-ÀR@<No schemasystem>
-À«ª*?
-ÀÀ
-È+
-ÈB
-Ø¾ıÿĞ¼ıÿ€½ıÿà½ıÿ0¾ıÿ¾ıÿÀ¼ıÿm_ankleBoneName
-ÛüÿàØüÿm_nBoneHash
-àC
-àd@
-àG
-àÇ
-àÿÿïGíµ ÷Æ°>mempool.cpp
-è?
-ğ?Trailing Data
-ğ
-ğÿLine %d at "%s":
-ø
-üÿ(úûÿ1
-ÿC
-ÿD
-ÿG
-ÿÿformats.cpp
-ÿÿÿÿ

@@ -351,7 +351,6 @@ DevMsg(char const*, ...)
 DevWarning(char const*, ...)
 DotaCardGameClient_001
 Dumps information about all logging channels.
-D·ýÿd·ýÿt·ýÿ„·ýÿT·ýÿCould not read from pipe associated with command %sOS error message:   "%s"
 ENGLISH
 EXECUTE_PER_TICK
 EXPORTSYSTEM_INTERFACE_VERSION_001
@@ -1141,17 +1140,3 @@ zD
 {%d %d %d %d}
 {0 0 0 255}
 {}()':
-€
-€?
-€CxêÄ
-€Orù?utlobjectregistry.cpp
- <frame_end
-À
-ÈBCFunctorCallback0
-Ï.üÿ}-üÿ·.üÿ«.üÿÃ.üÿŸ.üÿ
-àÿÿïGíµ ÷Æ°>}
-ð?
-ð¿CKeyValuesSystem::m_pMemPool
-þÿ?
-ÿÿ
-ÿÿÿ
