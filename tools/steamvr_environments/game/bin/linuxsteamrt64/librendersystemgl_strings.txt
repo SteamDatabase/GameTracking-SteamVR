@@ -32,8 +32,8 @@ _ZdaPv
 _V_strnicmp_fast
 _Z10DevWarningPKcz
 Plat_IsInDebugSession
-_ZNV16CThreadFastMutex4LockEyj
-_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
+_ZNV16CThreadFastMutex4LockEPKciyj
+_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEPKcij
 _Znwm
 Plat_GetThreadIndex
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
@@ -47,16 +47,16 @@ ThreadYield
 _ZN13CBufferString12AppendFormatEPKcz
 V_PrettifyNum
 _ZN13CBufferString5PurgeEi
-LoggingSystem_Log
 Plat_ReconfigureWindow
 _ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
 _ZN12CThreadEvent3SetEv
 _ZN16CThreadSemaphore7ReleaseEiPi
+LoggingSystem_Log
 memcmp
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 Plat_OsSpecificHandleToPlatWindow
 Plat_WindowToOsSpecificHandle
 _ZN12CThreadEventC1Eb
@@ -64,7 +64,7 @@ _ZN22CThreadRWLock_FastReadC1Ev
 Plat_GetClockStart
 g_pThreadPool
 V_stricmp_fast
-_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
+_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEjPKci
 Plat_GetWindowMonitorIndex
 Plat_GetDesktopResolution
 Plat_GetDefaultMonitorIndex
@@ -86,6 +86,7 @@ V_vsnprintf
 ThreadJoin
 V_logf
 floorf
+CreateNewThreadPool
 ReturnJobManualEventToPool
 _ZN13CBufferString6InsertEiPKcib
 Plat_NeedsLowFragmentation
@@ -609,8 +610,8 @@ _ZN21CThreadMultiWaitEventC1Eb
 _ZN21CThreadMultiWaitEventD1Ev
 _ZN13CThreadRWLock11WaitForReadEv
 _V_ExtractFilePath
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 trunc
 frexp
 abort
@@ -704,7 +705,7 @@ Lc~(N
 [A\A]A^A_]
 [A\A]A^A_]
 H;v8u
-E`9C$u
+Eh9C$u
 AVAUATStSH;v0tZLcv(J
 c([A\A]A^]
 H;v8u
@@ -736,10 +737,7 @@ AVAUI
 AUATI
 [A\A]]
 [A\A]]
-AVAUATI
-T$0H9
-[A\A]A^]
-[A\A]A^]
+)D$ H
 CLx8H
 AWAVAUATI
 [A\A]A^A_]
@@ -754,9 +752,9 @@ AWAVAUATI
 [A\A]A^A_]
 [A\A]]
 AWAVAUI
+tPLcc(D;c8D
 [A\A]A^A_]
 AWAVAUI
-tPLcc(D;c8D
 [A\A]A^A_]
 AUATSH
 ([A\A]A^A_]
@@ -764,33 +762,32 @@ AUATSH
 AUATS
 A\A]A^]
 A\A]A^]
-AVAUATS
-A]A^]
+AWAVAUATI
+A]A^A_]H
 vtexH
 AVAUA
 [A\A]A^]
 vtexH
-[A\A]]
-[A\A]
 AWAVAUATSH
-vtexL
+vtexH
 [A\A]A^A_]
-AVAUATSH
-[A\A]A^]
 H;QHtHH9QPu
 >H9WHt7H9WPtQH
 [A\A]A^]
 [A\A]A^]
 [A\A]A^]
+AWAVAUI
+([A\A]A^A_]
+([A\A]A^A_]
 AUATSH
 [A\A]]
 [A\A]]
-AVAUATI
-[A\A]A^]
-[A\A]A^]
 AWAVI
 AUATA
 ([A\A]A^A_]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
 8A]A^]H
 AVAUI
 [A\A]A^A_]
@@ -854,6 +851,8 @@ A\A]A^A_]
 AVAUATSH
 zhufA
 X[A\A]A^A_]
+[A\A]A^]
+AVAUA
 [A\A]A^]
 6H92t%H
 AWAVAUATL
@@ -926,12 +925,12 @@ AVAUATSH
 ([A\A]A^A_]
 ([A\A]A^A_]
 [A\A]]
-AVAUATLc
+AVAUA
 [A\A]A^A_]
 AUATL
 h[A\A]]
 AWAVAUATA
-[A\A]A^A_]
+H[A\A]A^A_]
 D;c(}
 [A\A]]
 [A\A]]
@@ -984,6 +983,7 @@ AVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+t"L;:u
 X[A\A]A^A_]
 AWAVI
 AUATSH
@@ -996,7 +996,6 @@ AVAUATSH
 CJobH
 vtexE1
 [A\]H
-p[A\]
 vtexu
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1015,7 +1014,7 @@ AUATSH
 [A\A]]
 AUATSH
 [A\A]]
-t0[A\]
+t-[A\]
 t-[A\]
 AVAUATSH
 [A\A]A^A_]
@@ -1033,6 +1032,11 @@ H[A\A]]
 AVAUI
 [A\A]
 pXA^]
+[A\A]]
+[A\A]]
+AVAUI
+A\A]A^]
+[A\A]A^]
 ([A\A]A^A_]
 AWAVAUI
 ([A\A]A^A_]
@@ -1047,12 +1051,6 @@ AWAVAUATSH
 AWAVAUATSH
 TRPGI
 [A\A]A^A_]
-AUATSH
-[A\A]]
-AUATSH
-[A\A]]
-AUATSH
-[A\A]]
 AWAVAUI
 [A\A]A^A_]
  [A\]
@@ -1143,35 +1141,44 @@ AUATLc
 x[A\A]A^A_]
 8[A\A]A^A_]
 AVAUATE1
-Wqt:D
+Wyt:D
 [A\A]A^A_]
 AWAVA
 AUATL
 [A\A]A^A_]
 AWAVAUATSH
-h[A\A]A^A_]
-h[A\A]A^A_]
-AWAVAUATSH
-s8AUAVH
+x[A\A]A^A_]
+x[A\A]A^A_]
+AWAVI
+AUATSH
+~0AWE
+FPATI
 [A\A]A^A_]
 [A\A]A^A_]
 D$0H9
 [A\A]A^A_]
+AUATSH
+CThreadeI
+dJobA
 [A\A]A^A_]
-AWAVL
-AUATE
 [A\A]A^A_]
 [A\A]A^A_]
-AVAUATI
+[A\A]A^A_]
+AWAVAUATSH
 ARAQWV1
 [A\A]A^A_]
-AVAUATI
+AWAVI
+AUATM
 [A\A]A^A_]
-DATAI
+DATAE1
 P8H=vtex
+AWAUH
 t3[A\]
 AWAVAUATSH
 h[A\A]A^A_]
+h[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
 AVAUI
 A]A^]
 AWAVI
@@ -1188,7 +1195,7 @@ AWAVAUATSH
 [A\A]A^A_]
 [A\A]]
 AVAUATSH
-I+W0I
+I+W0A
 [A\A]A^A_]
 Lc'D;g
 [A\A]A^A_]
@@ -1202,11 +1209,9 @@ AWAVAUI
 H[A\A]A^A_]
 AWAVAUATSH
 H[A\A]A^A_]
-AWAVI
-AUATSH
+AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-@Xu8H
 [A\A]A^A_]
 AUATD
 [A\A]A^A_]
@@ -1311,7 +1316,6 @@ D9#~/L
 [A\A]]
 AWAVAUATI
 [A\A]A^A_]
-D$lE1
 AWAVAUI
 ([A\A]A^A_]
 AVAUATSH
@@ -1322,7 +1326,8 @@ A;D$4
 IcD$0
 [A\A]A^A_]
 [A\A]A^A_]
-t7L;8u
+t'L;;u
+t'L;8u
 [A\A]]
 AUATA
 A\A]A^]
@@ -1469,10 +1474,9 @@ AWAVAUL
 C I9D$ 
 C(I9D$(
  [A\]
-AWAVAUATI
-[A\A]A^A_]
-|$pE1
-[A\A]A^A_]
+AVAUI
+[A\A]A^]
+A\A]A^]
 AUATSH
 [A\A]]
 [A\A]]
@@ -1545,7 +1549,7 @@ tyHcW
 t$HcS
 AUATI
 [A\A]]
-AWAVAUATSH
+AVAUATSH
 [A\A]A^A_]
 AVAUATI
 P[A\A]A^]
@@ -1599,8 +1603,9 @@ AWAVAUA
 [A\A]A^A_]
 -VUUUD
 tWD;8u
+t!D;8u
 E A9G u
-D;8tfH
+D;8tnH
 f;0t_fD
 AWAVAUATA
 [A\A]A^A_]
@@ -1824,7 +1829,6 @@ AUATSH
 [A\A]A^A_]
 G`u	E
 [A\A]A^A_]
-AVAUM
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1844,11 +1848,11 @@ AVAUATI
 dH34%(
 [A\A]A^A_]
 vtexL
+AWAVAUI
+[A\A]A^A_]
 x[A\A]A^A_]
 x[A\A]A^A_]
 AVAUATA
-[A\A]A^A_]
-AWAVAUATSH
 [A\A]A^A_]
 x[A\A]]
 x[A\A]]
@@ -2054,7 +2058,7 @@ X[A\A]]
 AUATSH
 X[A\A]]
 AVAUH
-H;=@L/
+H;=XW/
 [A\A]A^A_]
 AVAUI
 [A\A]A^A_]
@@ -2098,7 +2102,6 @@ CPH;CXt&H
 AWAVAUATI
 [A\A]A^A_]
 AUATSH
-H;=r./
 8[A\A]A^A_]
 AWAVI
 [A\A]A^A_]
@@ -2232,13 +2235,6 @@ A	GHH
 ([A\A]A^A_]
 ([A\A]A^A_]
 AWAVH
-H;=B~.
-H;=n}.
-H;=V}.
-H;=jw.
-H;=Rw.
-H;=:w.
-H;=Fv.
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -2323,7 +2319,7 @@ AWAVAUATA
 [A\A]A^A_]
 AVAUI
 [A\A]A^A_]
-AWAVAUI
+AWAVAUATI
 dH34%(
 [A\A]A^A_]
 AWAVAUATSH
@@ -2573,9 +2569,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 AUATSH
@@ -2587,13 +2580,15 @@ G8t.H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 G0AQE1
 [A\A]]
@@ -3063,6 +3058,8 @@ AUATI
 AVAUATSH
 [A\A]A^A_]
 AUATSL
+H;=d'*
+H;=	'*
 H[A\A]A^A_]
 AUATSH
 8[A\A]A^A_]
@@ -3085,7 +3082,7 @@ AVAUI
 AUATI
 ([A\A]A^A_]
 [A\A]A^A_]
-uAL;%
+uAL;%b
 [A\A]]
 AWAVAUATSH
 [A\A]A^A_]
@@ -3186,6 +3183,7 @@ AWAVAULc
 [A\A]A^A_]
 AWAVAUATSH
 G8I;G@r
+[A\A]A^A_]
 [A\A]A^A_]
 AWAVAUI
 h[A\A]A^A_]
@@ -4082,6 +4080,7 @@ blocking issue in occlusion queries!!
 ../public/tier1/utllinkedlist.h
 CUtlLinkedList overflow! (exhausted memory allocator)
 CUtlLinkedList overflow! (exhausted index range)
+occlusionquerymgr.cpp
 CUtlFixedMemory overflow!
 AllocInternal
 rendercontextbase.cpp
@@ -4097,17 +4096,23 @@ SetAssociatedThreadIndex
 ORENDER_MULTISAMPLE_INVALID
 <unknown multisample type
 -shaderstats
-VB: %d buffers, %.2f MB
-IB: %d buffers, %.2f MB
-CB: %u buffers, %.2f MB
-TEX: %u textures, %.2f MB
-TOTAL: %.2f MB
+renderstatehelper.h
+  VB: %d buffers, %.2f MB
+  IB: %d buffers, %.2f MB
+  CB: %u buffers, %.2f MB
+  TEX: %u textures, %.2f MB
+  TOTAL: %.2f MB
+Texture Streaming:
+  %s / %s MB
+../public/tier1/utltshash.h
 Display GPU memory usage.
 r_gpu_mem_stats
 -r_max_device_threads
 -rendersystem_thread_mode
 single
 queued
+renderdevicebase.cpp
+../public/tier1/memstack.h
 r_texturefilteringquality
 r_fullscreen_gamma
 r_wait_on_present
@@ -4119,7 +4124,7 @@ RENDER_MULTISAMPLE_8X
 RENDER_MULTISAMPLE_16X
 Maximum device access threads: %u
 Checked pending presents %s times; waited %s times; abandoned %s times
-Texture memory limit: %s; in use: %s in %s textures
+Texture memory: %s / %s MB; in %s textures (%s MB non-evictable)
 Textures created overall: %s; textures evicted: %s
 Command stream pools: %s bytes in base, %s bytes in medium, %s bytes in large (%s extra data fallbacks)
 FindOrCreateTexture: Texture usage is unspecified!
@@ -4129,6 +4134,9 @@ FindOrCreateTexture: Cannot create static textures with no data!
 WARNING: Trying to create a CRenderContextPtr without a valid context.
 FindOrCreateTexture: Cannot load multiple mipmaps into cubemap texture: %s
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s
+rendersystem (%s) tracked resources:
+  %s / %s MB (non-evictable: %s MB)
+Overall System GPU memory use:
 Warning: have oustanding per-frame memory stack with %d allocations
 Warning: have %d in use and %d free per-frame memory stacks outstanding. The oldest stack was created at present %d, and we're now on present %d
 Hitch alert: Present was waiting for %d iterations and %.1f seconds.
@@ -4148,7 +4156,7 @@ AllocInternal
 25CConCommandMemberAccessorI17CRenderDeviceBaseE
 17CRenderDeviceBase
 15CRenderPassDesc
-?cfg/moddefaults.txt
+5cfg/moddefaults.txt
 video.cfg
 min megahertz
 max megahertz
@@ -4188,6 +4196,7 @@ min_processor_count
 max_processor_count
 setting.maxdxlevel
 FileKeys
+Version
 setting.knowndevice
 setting.recommendedwidth
 setting.recommendedheight
@@ -4196,6 +4205,8 @@ setting.resettodefaults
 cfg/video.txt
 cfg/video_%02d.txt
 _tools.txt
+video_version
+cfg/video_version.txt
 -autoconfig
 -autoconfig_level
 RenderDevice003
@@ -4226,6 +4237,7 @@ Saved video settings config to '%s'
 Failed to save video settings config to '%s'
 Loaded video settings config from '%s'
 Graphics Device changed, resetting video config
+Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.
 10IAppSystem
 16IRenderDeviceMgr
 14CBaseAppSystemI16IRenderDeviceMgrE
@@ -4272,33 +4284,32 @@ nTries < 10000000
 15CTier1AppSystemI12IRenderUtilsLi0EE
 15CTier2AppSystemI12IRenderUtilsLi0EE
 12CRenderUtils
+sheetcache.cpp
+sheetcachetexture_.vtex
 Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!
 Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!
 Rendersystem/SheetCacheTextureRows
 Rendersystem/SheetCacheTextureCols
-sheetcache.cpp
-sheetcachetexture_.vtex
 AllocateAndUploadSequenceData
 RESOURCE_TYPE_TEXTURE
 -dontEvictTextures
 -maxtextureres
 -deferTextureLoads
 -preloadtextures
+AsyncTextureHookup
 Evict all resident texture.
 r_textures_evict_all
 -shadowTargetSize
+texturebase.cpp
 Streaming Validation: %s 
 WAITING_FOR_IO 
 WAITING_FOR_HOOKUP_JOB 
 OUTSTANDING_HOOKUP_REQUEST 
-texturebase.cpp
 TEXMAN: Deleting %d textures
-HookUpTextureBits
-_bake
+AsyncHookUpTextureBits
 png/jpg
 immediate
 TEXMAN: Abandoning job in %s
-TEXMAN: %s %s
 Bad VTEX data for '%s'
 r_texture_pool_size
 r_texture_stream_mip_bias
@@ -4314,33 +4325,33 @@ GPU reports %dMB available memory which is too low, using %d MB
 Texture memory discrepancy! %llu != %llu
 Texture streaming validation OK (%d texture loads in flight).
 Found %d streaming textures in array, but in-flight count is %d
-texturebase.cpp(2642):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2663):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2674):ResourceHandleToData( %s ) failed! Falling back to error texture!
 CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.
 CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.
 Texture manager out of space! Can't allocate new texture!
-texturebase.cpp(2685):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2696):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2717):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2728):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2739):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2750):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2740):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2761):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2772):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2783):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2794):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2815):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2826):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2837):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2848):ResourceHandleToData( %s ) failed! Falling back to error texture!
 TEXMAN: Adding %s, %llx to abandoned hookup jobs
 TEXMAN: %s MarkTextureBitsLoaded (%s)
 TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)
 Discarding abandoned streaming texture load for %s
-texturebase.cpp(1726):Error loading texture: %s
+texturebase.cpp(1803):Error loading texture: %s
 Deleting texture with outstanding streaming request (%s)
-TEXMAN: Added hookup job for %s
+TEXMAN: Abandoning streaming request early in %s
 Unable to stream in resource file "%s" (Error: %s)
 Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request
 Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore
+Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL
 TEXMAN: Abandoning streaming request in %s
 TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)
 Compressed texture decoded in %.2f ms
 Decompressed %i texture mips in %.2f ms (%.1fmb/s)
-TEXMAN: Posting resource load complete msg.
 Unexpected resource version '%d' for '%s'
 Failed AllocateTexture for '%s'
 Total size of the texture pool in MB
@@ -4349,6 +4360,8 @@ Upper limit on texture pool size.
 Allow immediately loading mips of textures (when possible) when their headers are loaded, saving IO & reducing latency.
 Only immediately load textures which have a fullmipchain.
 r_texture_nonstreaming_only_fullmipchain
+Async Texture hookup uses its own threadpool instead of the global pool.
+r_texture_hookup_uses_threadpool
 AllocTextureSlot
 MN_BuildRequestedResourcesList
 MN_OnResourceLoadCompleted
@@ -4370,18 +4383,31 @@ RemoveTextureFromAnyQueues
 12CThreadedJob
 11CFunctorJob
 12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
-15CMemberFunctor4IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequestP12CTextureBase22TextureSpecification_tiES3_S5_S6_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor7IP19CTextureManagerBaseMS0_FvP12CTextureBase12ResourceId_tPvi22TextureSpecification_ti23TextureBitsMemoryType_tES3_S4_S5_iS6_iS7_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-@TEXTURESTREAMING: Extremely low memory: Available mem: %.2f MB, Required: %.2f MB. Kicking out all non-pinned textures.
+15CMemberFunctor5IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequest11CWeakHandleI31InfoForResourceTypeCTextureBaseEP12CTextureBase22TextureSpecification_tiES3_S6_S8_S9_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CMemberFunctor9IP19CTextureManagerBaseMS0_FvP12CTextureBase11CWeakHandleI31InfoForResourceTypeCTextureBaseE12ResourceId_tPvj22TextureSpecification_tS9_i23TextureBitsMemoryType_tES3_S6_S7_S8_iS9_S9_iSA_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+@TEXTURESTREAMING: Extremely low memory: Available mem: %.2f MB, Required: %.2f MB.
+GPU memory available (%d MB of %d MB used). Reducing texture pool size %d MB -> %d MB
+GPU memory available (%d MB of %d MB used). Increasing texture pool size %d MB -> %d MB.
 r_texture_stream_throttle_amount
 r_texture_stream_throttle_count
+After hitting throttling limits for streamout, allow it to continue up to this number of milliseconds.
+r_texture_streamout_unthrottle_ms
 r_texture_streaming_timesliced
+Dynamically adjust texture streaming budget based on GPU memory usage.
+Time (in seconds) between updating texture memory budget.
+r_texture_budget_update_period
+Reduce texture memory pool size when this percentage of the budget is full.
+Reduce texture memory pool size by this many MB / s when over budget.
+Increase texture memory pool size by this many MB / s when under budget.
 TEX read request: %d KB; %s
 r_texture_eager_eviction
-r_texture_stream_debug_spew
+r_texture_budget_dynamic
+r_texture_budget_threshold
+256.0
+r_texture_pool_reduce_rate
+r_texture_pool_increase_rate
 LoadExplicitlyRequestedTextures
 23CTextureStreamingHelper
-?-dev
 vb_created_input_layout
 17CVertexBufferBase
 9XYZ[UV
@@ -4447,6 +4473,7 @@ LockDynamicVertexBuffer
 SetAssociatedThreadIndex
 16CRenderContextGL
 CMemberFunctorCallback1
+gl/renderdevicegl.cpp
 Driver Description :  %s
 Chipset version %d %d 
 Device Caps :
@@ -4469,6 +4496,7 @@ m_bUnsupported: %s
 SetHardwareGammaRamp( %f )
 -nogammaramp
 invalid handle
+./renderresource.h
 -oldtexturestreaming
 -forcenovsync
 -glrenderthreadstack
@@ -4479,6 +4507,7 @@ gl/renderdevicegl.cpp(657):
 gl/renderdevicegl.cpp(675): 
 -gl_force_es30
 ../public/tier1/utlrbtree.h
+./inputlayoutbase.h
 concatenated_input_layout
 EngineInitialization
 EDeviceCreated
@@ -4766,6 +4795,7 @@ CGLMQuery::GetData(): Occlusion query flush took %3.3fms!
  == MSAA Tex %p %s : MSAA RBO is intformat %s (%x)
  minimizing storage for tex '%s' [%s] 
 [%s %s %dx%dx%d mips=%d slices=%d flags=%02lX%s]
+gl/togl/cglmtex.cpp
 CUBEArray
 2DArray
  SRGB
@@ -7582,6 +7612,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -7596,10 +7629,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -7607,7 +7643,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -7629,6 +7665,7 @@ u64( %lld = 0x%llX )
 update
 delete
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 
@@ -7824,8 +7861,8 @@ submrg%dx%d.tga
 after solve err=%f
 before solve err=%f
 floatbitmap.cpp(141): Unknown gamma type "%s"!
-floatbitmap.cpp(325): Conversion not supported yet!
-floatbitmap.cpp(425): Conversion not supported yet!
+floatbitmap.cpp(338): Conversion not supported yet!
+floatbitmap.cpp(438): Conversion not supported yet!
 FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!
 FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!
 BC6h compression not supported on this target (windows only).
@@ -7841,11 +7878,11 @@ Only DXT1/DXT5 online texture compression supported.
 FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!
 FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!
 FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!
-floatbitmap.cpp(888): Unsupported color format "%s", skipping!
-floatbitmap.cpp(2473): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2484): Error loading %s
-floatbitmap.cpp(2507): Error! Unknown file type for %s
-floatbitmap.cpp(2526): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
+floatbitmap.cpp(901): Unsupported color format "%s", skipping!
+floatbitmap.cpp(2486): Error calling TGALoader::GetInfo( %s )
+floatbitmap.cpp(2497): Error loading %s
+floatbitmap.cpp(2520): Error! Unknown file type for %s
+floatbitmap.cpp(2539): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
 FloatBitMap_t: Error loading %s
 FloatBitMap::QuarterSizeBlocky
 FloatBitMap::DownsampleNiceFiltered
@@ -8220,7 +8257,6 @@ Dev Shader
 Compile Targets
 Description
 modes
-Version
 DevShader
 CompileTargets
 _feature

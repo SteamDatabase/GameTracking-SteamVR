@@ -107,6 +107,7 @@ g_Tier1_CRC64Table
 V_snprintf
 strchr
 V_atofloat64
+Plat_IsInDebugSession
 _Z6ConMsgPKcz
 V_atof
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
@@ -164,8 +165,7 @@ V_GetErrno
 _V_StringAfterPrefix
 _Z14V_stristr_fastPKcS0_
 CMemAllocSystemInitialize
-_ZNV16CThreadFastMutex4LockEyj
-Plat_IsInDebugSession
+_ZNV16CThreadFastMutex4LockEPKciyj
 _V_strnistr_fast
 V_strnchr
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
@@ -390,8 +390,8 @@ AWAVAUATSH
 AUATI
 [A\A]]
 [A\A]]
-t&L;%H
-t"L;%
+t&L;%8
+t"L;%	
 [A\A]]
 uO[A\]
 w AUL
@@ -407,8 +407,7 @@ HcC H
 [A\A]]
 [A\A]]
 AUATI
-H;=Hq@
-H;= q@
+H;=8q@
 [A\A]]
 [A\A]]
 [A\A]]
@@ -528,16 +527,13 @@ t:Hc3
 AWAVAUATI
 [A\A]A^A_]
 AUATSH
-P8[A]
 [A\A]A^A_]
-AZA[|
 Hc@pH
 Hc@pH
 AVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
 AUATI
-*L$(L
 8[A\A]A^A_]
 8[A\A]A^A_]
 Hc@pH
@@ -596,20 +592,19 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 AWAVM
 AUATL
@@ -2253,6 +2248,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -2267,17 +2265,20 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
 14ConCommandBase
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 >/game/
 /content/
 Unable to watch '%s'

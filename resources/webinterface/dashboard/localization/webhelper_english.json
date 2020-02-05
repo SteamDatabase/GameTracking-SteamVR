@@ -24,6 +24,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Exit App",
 	"PowerMenuExitVR": "Exit VR",
 	"PowerMenuCancel": "Cancel",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Power Menu",
 
 	"IPD_Description" : "Distance Between Lenses",

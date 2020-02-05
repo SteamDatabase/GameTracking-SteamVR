@@ -775,7 +775,7 @@
 "[english]FirmwareWizard_UpdateBasestation_Start_Title"	"Update Base Station"
 "FirmwareWizard_UpdateBasestation_Start_UpperText"	""
 "[english]FirmwareWizard_UpdateBasestation_Start_UpperText"	""
-"FirmwareWizard_UpdateBasestation_Start_MiddleText"	"1. ベースステーションをアンマウントして電源からはずしてください。 - ベースステーションを外す時、誤ってモードボタンを押さないように気を付けてください。\n\n2. micro-USB ケーブルを使用して、ベースステーションをコンピュータの USB ポートに差し込んでください。コントローラの充電ケーブルを使用できます。\n\n3. ベースステーション後ろにあるチャンネルボタンを押しながら、電源コードを差し込んでください。"
+"FirmwareWizard_UpdateBasestation_Start_MiddleText"	"1. ベースステーションをマウントから取り外し、電源を抜いてください。\n\n2. micro-USBケーブルを使用して、ベースステーションをコンピュータのUSBポートに差し込んでください。コントローラの充電ケーブルを使用できます。\n\n3. ベースステーション裏面のチャンネルボタンを押しながら、電源コードを差し込んでください。"
 "[english]FirmwareWizard_UpdateBasestation_Start_MiddleText"	"1. Unmount and unplug your base station.\n\n2. Use a micro-USB cable to plug the base station into a USB port on your computer. You can use the same cable that is used to charge your controllers.\n\n3. While holding down the channel button on the back of the base station, plug in your base station's power cord."
 "FirmwareWizard_UpdateBasestation_Start_LowerText"	"4. ベースステーションが検出されると自動的に更新を開始します。チャンネルボタンは放して構いません。"
 "[english]FirmwareWizard_UpdateBasestation_Start_LowerText"	"4. The update will start automatically once your base station is detected and you may release the channel button."
@@ -2217,6 +2217,8 @@
 "[english]BugReporter_Priority"	"Priority:"
 "BugReporter_NotAvailable"	"このバージョンのSteamVRでは、バグ報告はできません。"
 "[english]BugReporter_NotAvailable"	"Report a Bug is not available on this version of SteamVR."
+"BugReporter_InitializationFailure"	"初期化失敗のバグを報告。\n\nエラー: BR-%1"
+"[english]BugReporter_InitializationFailure"	"Report a Bug failed to initialize.\n\nError: BR-%1"
 "Advanced_DirectModeDisabled"	"ダイレクトモードOFF"
 "[english]Advanced_DirectModeDisabled"	"Direct Mode Off"
 "BluetoothControllerStatus_LinkBoxNotDetected"	"ブルートゥースで接続可能なリンクボックスが検出されませんでした。リンクボックスが正しく接続されていることを確認してから、電源プラグを入れ直してリンクボックスをリセットし、SteamVRを再起動してください。"
@@ -2599,5 +2601,7 @@
 "[english]Settings_BaseStations_Title"	"Base Station Settings"
 "Settings_Developer_Title"	"開発者設定"
 "[english]Settings_Developer_Title"	"Developer Settings"
+"MenuAction_PerformanceGraph"	"パフォーマンスグラフを表示"
+"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }

@@ -1,4 +1,3 @@
-^/fn,
 __gmon_start__
 _fini
 _ITM_deregisterTMCloneTable
@@ -20,17 +19,11 @@ iplDestroyEnvironment
 iplDestroyBinauralRenderer
 iplDestroyContext
 iplCleanup
-iplDestroyBinauralEffect
 _ZdlPv
+iplDestroyBinauralEffect
 iplDestroyPathEffect
-pthread_mutex_lock
-ThreadGetCurrentId
-iplDestroyAmbisonicsBinauralEffect
-iplDestroyAmbisonicsPanningEffect
-iplDestroyConvolutionEffect
-pthread_mutex_unlock
-pthread_mutex_destroy
 memset
+iplSetValue
 iplSimulatePaths
 memcpy
 iplGetDirectSoundPath
@@ -40,7 +33,13 @@ CommandLine
 LoggingSystem_Log
 __cxa_guard_acquire
 __cxa_guard_release
-iplSetValue
+pthread_mutex_lock
+ThreadGetCurrentId
+iplDestroyAmbisonicsBinauralEffect
+iplDestroyAmbisonicsPanningEffect
+iplDestroyConvolutionEffect
+pthread_mutex_unlock
+pthread_mutex_destroy
 pthread_mutexattr_init
 pthread_mutexattr_settype
 pthread_mutex_init
@@ -51,15 +50,20 @@ iplApplyPathEffect
 iplApplyBinauralEffectWithParameters
 floorf
 ceilf
-_ZN12CThreadMutex7TryLockEv
+_ZN12CThreadMutex7TryLockEPKci
 iplSetReverbTimeOverridesForConvolutionEffect
 iplSetDryAudioForConvolutionEffect
 iplGetWetAudioForConvolutionEffect
 iplApplyAmbisonicsBinauralEffect
 iplApplyAmbisonicsPanningEffect
+V_sincosf
+sqrtf
 iplCreateConvolutionEffect
 iplCreateAmbisonicsPanningEffect
 iplCreateAmbisonicsBinauralEffect
+_ZNSt6vectorItSaItEE17_M_default_appendEm
+memmove
+_ZSt20__throw_length_errorPKc
 iplCreateContext
 iplCreateBinauralRenderer
 iplCreateEnvironment
@@ -68,6 +72,7 @@ LoggingSystem_RegisterLoggingChannel
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE
 __cxa_pure_virtual
+V_vsnprintf
 _ZN17CThreadSyncObjectD2Ev
 iplSaveScene
 iplSaveSceneAsObj
@@ -102,7 +107,6 @@ iplDestroyStaticMesh
 _ZN12CThreadEventC1EPKcbb
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
-memmove
 _Znam
 EarlyInit_Tier0
 _ZnamRKSt9nothrow_t
@@ -110,7 +114,6 @@ _ZnwmRKSt9nothrow_t
 _ZdaPv
 V_snprintf
 strlen
-V_vsnprintf
 _V_strncat
 Warning
 _V_strncpy
@@ -150,7 +153,7 @@ _Z6DevMsgPKcz
 _V_StringAfterPrefix
 _Z14V_stristr_fastPKcS0_
 CMemAllocSystemInitialize
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 _V_strncmp
 _V_strnistr_fast
 V_strnchr
@@ -180,9 +183,7 @@ g_Tier1_CRC64Table
 Plat_GetOSType
 Plat_IsHighDPI
 V_qsort_s
-sqrtf
 V_acosf
-V_sincosf
 V_expf
 RandomFloat
 V_atan2f
@@ -225,13 +226,13 @@ Plat_GetEnv
 _ZN12CThreadEventC1Eb
 _ZN13CThreadRWLock11WaitForReadEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 libm.so.6
 libstdc++.so.6
 libpthread.so.0
@@ -246,6 +247,7 @@ libsteamaudio.so
 $ORIGIN
 GLIBC_2.2.5
 CXXABI_1.3
+GLIBCXX_3.4
 GLIBC_2.4
 GLIBC_2.14
 fffff.
@@ -290,16 +292,26 @@ AUATSH
 AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
-AWAVAUATI
+AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUI
 ND$xL
 [A\A]A^A_]
 [A\A]A^A_]
+UF2KA)
+$;/A)
+%3333
+AWAVAUI
+h[A\A]A^A_]
+h[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 P[A\]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
 AUATL
 [A\A]]
 AUATA
@@ -313,12 +325,18 @@ A;D$@|
 AVAUATSH
 x[A\A]A^A_]
 t=[A\]
-AWAVAUI
-A\A]A^A_]
-[A\A]A^A_]
-AVAUATSH
-[A\A]A^]
-[A\A]A^]
+AUATSH
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]]
+{X[A\A]]
+AUATSH
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]]
+{X[A\A]]
 AVAUATSH
 [A\A]A^]
 [A\A]A^]
@@ -337,10 +355,14 @@ AVAUATS
 jIcD$
 AWAVAUATSH
 [A\A]A^A_]
-PD9%i`#
 [A\A]A^A_]
 [A\A]]
+[A\A]]
 [A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+Mc,$E;l$
+Mc.E;n
 [A\A]]
 AWAVAUATSH
 [A\A]A^A_]
@@ -359,8 +381,11 @@ AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 H[A\A]A^A_]
+AVAUATL
+[A\A]A^]
+[A\A]A^]
 AWAVL
-8[A\A]A^A_]
+X[A\A]A^A_]
 t9[A\]
 |$HHc
 [A\A]]
@@ -404,9 +429,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
@@ -414,13 +436,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -794,11 +818,18 @@ D+c$Mc
 D+c$Mc
 +S$Hc
 AVAUATSH
+F A+F
 [A\A]A^A_]
-D+s$Mc
-A+P$Hc
-A+p$Hc
-D+s$Mc
+E+n$Mc
+A+F$H
+A+V$I
+A+Q$Hc
+A+F$H
+F A+F
+A+q$Hc
+A+F$I
+A+F$H
+A+F$H
 AWAVAUATSH
 8[A\A]A^A_]
 8[A\A]A^A_]
@@ -1017,6 +1048,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
 AUATL
 [A\A]]
 &YA1H
@@ -1190,22 +1223,26 @@ Ordered constructor wrapped type has no default constructor.
 Release
 steamaudio
 AddRef
+gPathingEnableFullValidation
 -buildmachine
+gReconstructionMethod
+gHRTFMixPhaseMethod
 gPathingFindAlternatePaths
 gPathingSimplifyPaths
-gPathingEnableFullValidation
 gHybridReverbTransitionTime
 gUseHybridReverb
 maps/
-.sareverb
 .sapaths
+.sareverb
 CONTENT
 /game/
 /content/
 \game\
 \content\
 .vmap
+steamaudio.cpp
 gHybridReverbEnableOverrides
+vector::_M_default_append
 binary
 binary_bc
 binary_lz4
@@ -1230,13 +1267,15 @@ Reverb time scale factor.
 SteamAudio001
 SteamAudio
 Enable hybrid reverb.
+gPathingEnableProbeValidationFromSource
+gPathingEnableProbeValidationFromListener
+Usage: snd_steamaudio_reconstruction_method <0|1|2>.
+Usage: snd_steamaudio_hrtf_mixphasetype <0|1|2>.
 Usage: snd_steamaudio_pathing_findalternate <0|1>.
 Usage: snd_steamaudio_pathing_simplifypaths <0|1>.
 Usage: snd_steamaudio_pathing_fullprobevalidation <0|1>.
 Usage: snd_steamaudio_pathing_probevalidationfromsource <0|1>.
-gPathingEnableProbeValidationFromSource
 Usage: snd_steamaudio_pathing_probevalidationfromlistener <0|1>.
-gPathingEnableProbeValidationFromListener
 Usage: snd_steamaudio_hybrid_reverb_transition_time <time in seconds>.
 Usage: snd_steamaudio_use_hybrid_reverb <0|1>.
 ResourceCompiler/SteamAudio/Pathing/NumVisSamples
@@ -1251,11 +1290,12 @@ ResourceCompiler/SteamAudio/ProbeGeneration/GridSpacing
 ResourceCompiler/SteamAudio/ProbeGeneration/HeightAboveFloor
 gHybridReverbOverrideIsPureParametric
 gHybridReverbOverrideAffectsConvolution
-Create reverb processor using baked simulation.
-Create reverb processor using realtime simulation.
+Reverb: Create reverb processor using baked simulation.
+Reverb: Create reverb processor using realtime simulation.
+Reverb: Unavailable, reverb is not baked for this map.
 Sets the ray tracer used by Steam Audio. 0: Phonon, 1: Embree, 2: Radeon Rays, 3: Custom.
-The number of rays to trace for volumetric occlusion by Steam Audio.
-snd_steamaudio_num_occlusion_samples
+The maximum number of rays that can be traced for volumetric occlusion by Steam Audio.
+snd_steamaudio_max_occlusion_samples
 The number of rays to trace for reflection modeling by Steam Audio.
 The number of directions considered for ray bounce by Steam Audio.
 snd_steamaudio_num_diffuse_samples
@@ -1294,6 +1334,10 @@ If set, paths computed at real-time are simplified in a post-process.
 snd_steamaudio_pathing_simplifypaths
 If set, real-time pathfinding is used to find alternate paths if baked paths are blocked by dynamic geometry.
 snd_steamaudio_pathing_findalternate
+Controls what phase is used when mix = 0. 0 = no phase, 1 = sphere ITD, 2 = full HRTF phase.
+snd_steamaudio_hrtf_mixphasetype
+Controls what IR reconstruction method is used. 0 = Gaussian, 1 = Gaussian with constant params, 2 = Linear.
+snd_steamaudio_reconstruction_method
 10IAppSystem
 11ISteamAudio
 16ISourceProcessor
@@ -1308,7 +1352,15 @@ snd_steamaudio_pathing_findalternate
 17CPathingProcessor
 16CReverbProcessor
 5t~BC
-;lowFreqAbsorption
+60-G/0
+i2t<f2R
+qa1-x]1
+W1rGP1
+21*}.1
+u0+!n0
+D40]T30L
+&0V[$0
+@lowFreqAbsorption
 midFreqAbsorption
 highFreqAbsorption
 scattering
@@ -1344,7 +1396,6 @@ NETWORK_FIELD_LOWEST_PRIORITY
 Exported scene as PHONONSCENE to %s.
 Unable to create environment: %d.
 Unable to create custom environment: %d.
-Steam Audio simulation settings = (%d %d %d %d %f).
 Unable to create environmental renderer: %d.
 Unable to create custom environmental renderer: %d.
 Pathing: Filesystem not initialized.
@@ -1356,15 +1407,18 @@ Reverb: Filesystem not initialized.
 Reverb: Unable to load baked data file (%s).
 Reverb: Loaded baked data file (%s).
 Generated %d probes with %.2f spacing and %.2f height.
+Probes: Filesystem not initialized.
+Probes: Reverb needs to be baked before Path baking.
+Probes: Mising baked reverb data - %s.
 Unable to create static mesh: %d.
 Unable to create custom scene: %d.
-If set, realtime simulation is turned ON when baked data is not available.
-snd_steamaudio_realtime_fallback
 This variable is checked by soundstack to globally enabling pathing for audio processing.
 If set, baked pathing data is loaded. Steam Audio Hammer entities can successfully use pathing in this case.
 snd_steamaudio_load_pathing_data
 If set, baked reverb data is loaded. Reset it to zero during an format changes of baked data until all data is updated.
 snd_steamaudio_load_reverb_data
+IR duration (in seconds) to use for simulation and RT60 estimation.
+snd_steamaudio_ir_duration_for_sim
 FRAME_NET_PRE_PROCESS_NETWORKING
 FRAME_NET_POST_PROCESS_NETWORKING
 FRAME_NET_UPDATE_FULL_UPDATE_RECEIVED
@@ -1401,6 +1455,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -1415,10 +1472,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -1426,7 +1486,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 8CFmtStrNILi256ELb0EE
 utlstring.cpp
 %s: string format requested %d chars
@@ -1988,6 +2048,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -2104,6 +2167,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -2157,6 +2221,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat

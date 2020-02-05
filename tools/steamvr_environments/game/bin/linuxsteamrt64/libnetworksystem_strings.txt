@@ -72,9 +72,9 @@ ThreadGetCurrentId
 pthread_mutex_unlock
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
-_ZNV16CThreadFastMutex4LockEyj
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
+_ZNV16CThreadFastMutex4LockEPKciyj
 strrchr
 _V_strncpy
 _Z14V_stristr_fastPKcS0_
@@ -85,6 +85,7 @@ Plat_IsInDebugSession
 AssertMsg_ConditionFailed
 strcpy
 _V_strncmp
+V_qsort
 pthread_mutexattr_init
 pthread_mutexattr_settype
 pthread_mutex_init
@@ -102,8 +103,8 @@ sqrtf
 Plat_MSTime
 RandomSeed
 RandomInt
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 V_snprintf
 _ZNSs4swapERSs
 _ZNSs6insertEmPKcm
@@ -111,8 +112,8 @@ Plat_USTime
 Plat_FloatTime
 strtol
 _Z17LoggingSystem_Logi17LoggingSeverity_tPK17LoggingMetaData_tPKcz
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
 strchr
 _V_strnicmp_fast
 SteamAPI_UnregisterCallback
@@ -352,8 +353,8 @@ V_atanf
 V_strtok
 _ZN22CThreadRWLock_FastReadC1Ev
 _ZN16CThreadSemaphoreD1Ev
-_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
-_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
+_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEjPKci
+_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEPKcij
 _ZN22CThreadRWLock_FastRead23UnlockRead_LockForWriteEv
 _ZN16CThreadSemaphore7ReleaseEiPi
 InstallSchemaBindings
@@ -509,14 +510,12 @@ AUATI
 [A\A]]
 [A\A]]
 AUATSH
-H;=JtO
 [A\A]]
 [A\A]]
 AUATI
 [A\A]]
 [A\A]]
 AWAVAUATI
-H;={qO
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]]
@@ -524,13 +523,16 @@ AUATI
 [A\A]]
 [A\A]]
 AUATSH
-H;=tWO
-H;=IWO
-H;=rVO
+H;=vtO
+H;=KtO
+H;= tO
 [A\A]]
 AUATSH
-H;=sNO
-H;=HNO
+H;=LlO
+H;=!lO
+H;=ukO
+H;=JkO
+H;= kO
 [A\A]]
  [A\A]A^]
  [A\A]A^]
@@ -539,14 +541,13 @@ H;=HNO
 [A\A]]
 AWAVL
 [A\A]A^A_]
-H;5(=O
 [A\A]A^A_]
 [A\A]]
 [A\A]]
 w AUL
 [A\A]A^A_]
 [A\A]A^A_]
-s H;5Q9O
+s H;5
 [A\A]]
 [A\A]]
 [A\A]]
@@ -562,13 +563,13 @@ AWAVAUI
 [A\A]A^A_]
 AWAVL
 ([A\A]A^A_]
-H;5(-O
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^]
 [A\A]A^]
+H;51FO
 AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
@@ -576,12 +577,13 @@ AWAVL
 [A\A]A^A_]
 sHH;5
 s@H;5
-s8H;5X#O
-s0H;5H"O
-s(H;5
-s H;5
+s8H;5
+s0H;5
+s(H;5p>O
+s H;5@>O
 [A\A]A^A_]
 [A\A]A^]
+H;5@;O
 [A\A]A^]
 [A\A]]
 [A\A]]
@@ -592,15 +594,15 @@ s H;5
 AWAVL
 [A\A]A^A_]
 sPH;5
-sHH;5M
+sHH;5
 s@H;5
-s8H;5H
-s0H;5
-s(H;5
+s8H;5
+s0H;5x2O
+s(H;5H2O
 s H;5
 [A\A]A^A_]
 AWAVL
-s8H;5
+s8H;54.O
 s0H;5
 [A\A]A^A_]
 [A\A]A^A_]
@@ -931,6 +933,7 @@ AWAVAUATSH
 {@u	H
 [A\A]A^A_]
 [A\A]A^A_]
+H;=h5N
 t	X[]
 t	X[]
 t	X[]
@@ -987,26 +990,23 @@ AUATI
 [A\A]]
 AUATSH
 [A\A]]
-H;=Z{M
 AUATI
 [A\A]]
 [A\A]]
 AUATSH
 [A\A]A^]
 AVAUI
-H;=jdM
-H;=8dM
-H;=pcM
 u7A	\$
 [A\A]A^]
 AWAVL
-H;5d`M
 [A\A]A^A_]
 [A\A]A^A_]
+H;5|zM
 [A\A]A^]
 [A\A]A^]
 [A\A]A^A_]
 [A\A]A^A_]
+H;5XwM
 AWAVI
 o ATL
 [A\A]A^A_]
@@ -1017,15 +1017,16 @@ S I;F
 w AUL
 [A\A]A^A_]
 [A\A]A^A_]
-H;5xSM
-s H;5
+s H;51pM
 AWAVL
 [A\A]A^A_]
-s H;5\QM
+s H;5
 [A\A]A^A_]
+H;50nM
 [A\A]]
 [A\A]]
 [A\A]A^]
+H;5AkM
 [A\A]A^]
 [A\A]A^]
 [A\A]A^]
@@ -1037,23 +1038,24 @@ s H;5\QM
 [A\A]]
 [A\A]]
 [A\A]A^]
+H;5AdM
 [A\A]A^]
 AVAUL
 ([A\A]A^A_]
-s@H;5qEM
-s8H;5
-s0H;5
+s@H;5
+s8H;5]bM
+s0H;5%bM
 s(H;5
-s H;5`DM
-H;50DM
+s H;5
 [A\A]A^A_]
 w AUL
 [A\A]A^A_]
-s H;5
+s H;5@\M
 [A\A]A^A_]
 [A\A]]
 [A\A]]
 [A\A]A^]
+H;58YM
 [A\A]A^]
 [A\A]A^]
 [A\A]A^]
@@ -1076,12 +1078,13 @@ AWAVAUI
 [A\A]]
 [A\A]A^]
 [A\A]A^]
-H;5Q$M
 [A\A]A^]
 [A\A]A^]
+H;5A@M
 AWAVL
 ([A\A]A^A_]
 s H;5
+H;58=M
 [A\A]A^A_]
 [A\A]A^]
 [A\A]A^]
@@ -1091,7 +1094,7 @@ s H;5
 [A\A]A^]
 AWAVL
 [A\A]A^A_]
-s H;5
+s H;5P2M
 [A\A]A^A_]
 [A\A]A^]
 [A\A]A^]
@@ -1101,7 +1104,6 @@ s H;5
 [A\A]]
 [A\A]A^]
 [A\A]A^]
-H;5!	M
 [A\A]A^]
 [A\A]A^]
 [A\A]]
@@ -1148,12 +1150,12 @@ HcC H
 w0AUL
 [A\A]A^A_]
 [A\A]A^A_]
-s0H;5(
+s0H;5
 HcC H
 w0AUL
 [A\A]A^A_]
 HcC H
-s0H;5
+s0H;5`
 [A\A]A^A_]
 AWAVI
 [A\A]A^A_]
@@ -1294,7 +1296,6 @@ AWAVAUA
 ([A\A]A^A_]
 AWAVAUATI
 t$0H9
-H;=bGL
 [A\A]A^A_]
 k D;(
 AWAVAUA
@@ -1402,7 +1403,6 @@ AUATA
 [A\A]]
 [A\A]]
 [A\A]]
-[A\A]]
 [A\A]A^]
 AVAUI
 [A\A]A^]
@@ -1482,8 +1482,14 @@ AWAVAULc
 [A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AUAWAVD
+[A\A]A^A_]
+[A\A]A^A_]
+PAVQH
+AWAPRH
 AUATI
-t';58
 [A\A]A^A_]
 AWAVAUATSH
 ;Cp|pH
@@ -1491,7 +1497,7 @@ AWAVAUATSH
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATI
-t*D;=z}K
+t*D;=
 [A\A]A^A_]
 AVAUI
 [A\A]A^A_]
@@ -1580,7 +1586,7 @@ AWAVL
 AUATSH
 [A\A]A^]
 AVAUI
-G<tFH
+G8tFH
 [A\A]A^A_]
 AUATSH
 fD9#t
@@ -1601,8 +1607,7 @@ XATPH
 IcL$(Hc
 [A\A]A^A_]
 [A\A]A^A_]
-uPL;>
-uhL;>
+AWAVI
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]]
@@ -1621,13 +1626,6 @@ fE9T$
 AWAVAUATSH
 Mc&E;f
 X[A\A]A^A_]
-AWAVAUATSH
-H[A\A]A^A_]
-AVAUATSH
-[A\A]A^A_]
-[A\A]A^A_]
-[A\A]A^A_]
-L$ IcG
 xBHcO
 ~9;w$
 xBHcO
@@ -1695,10 +1693,9 @@ u PAPM
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-[A\A]A^A_]
+AUATE1
 [A\A]A^A_]
 AWAVAUATSH
-#5"@ 
 dH3<%(
 [A\A]A^A_]
 AWAVAUATI
@@ -1718,7 +1715,7 @@ PT~LH
 GX~7H
 AVAUM
 |$@H9}(A
-D$<tHH
+D$8tHH
 [A\A]A^A_]
 AWAVAUATSH
 HcE(E1
@@ -1741,19 +1738,19 @@ AVAUATSH
 [A\A]A^A_]
 dH34%(
 [A\A]A^A_]
-AUATA
 [A\A]A^A_]
-G(A;F(
+B(;A(
 AXAYI
 GP~8H
 EP~8H
-G<t_H
+G8t_H
 GP~@H
+[A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
 AVPAU
 <Cf9<F|
-AWAVAUATSL
+AWAVAUI
 dH3<%(
 [A\A]A^A_]
 AWAVAUATSH
@@ -1832,11 +1829,8 @@ AVAUATI
 [A\A]A^]
 AVAUATSH
 [A\A]A^A_]
- [A\]
-$AfE9$B|$
-`[A\]
-JP~8H
-Bh~<L
+rP~8H
+Bh~<H
 x[A\A]A^A_]
 CP~6H
 G(~5I
@@ -1849,13 +1843,13 @@ t$HcU
 x[A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-AVAUATS
-dH3<%(
+AVAUATSH
+dH34%(
 [A\A]A^A_]
 fD9tB
 @RPARM
 AVAQM
-B4~IH
+P4~LH
 B4~MH
 @<APD
 AVAUATI
@@ -1966,8 +1960,9 @@ AWAVAUATI
 8[A\A]A^A_]
 8[A\A]A^A_]
 [A\A]A^]
-AWAVAUATI
-F8})L
+AWAVAUI
+D$0L;
+F8}/L
 [A\A]A^A_]
 AWAVAUATSH
 D$0I9
@@ -1993,17 +1988,19 @@ fA9	t"
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-AWAVAUATSL
-F<tbH
+AWAVI
+AUATSL
+F8tbH
 FP~CH
-Lce 1
+HcE 1
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-Lce 1
-ASAQD
-AVATH
+D$8tMA
+HcE H
+ASAQPD
 AVAUI
+dH34%(
 [A\A]A^A_]
 AWAVAUATSH
 X(~>H
@@ -2028,18 +2025,20 @@ AWAVAUATSH
 AWAVM
 AZtlH
 [A\A]A^A_]
-AWAVAUATSH
-G8I;G@r
-[A\A]A^A_]
-AWAVAUATSH
-G8I;G@r
-[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
 AUATSH
 HcCPH
 HcC8H
 t%Hcs8
+[A\A]A^A_]
+AWAVAUATSH
+G8I;G@r
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+G8I;G@r
+[A\A]A^A_]
 [A\A]A^A_]
 AUATSH
 [A\A]]
@@ -2107,6 +2106,7 @@ t!IcU
 AVAUATI
  [A\A]A^]
  [A\A]A^]
+{ [A\]
 xBHcO
 ~9;w$
 AWAVAUATSH
@@ -2150,11 +2150,12 @@ AVAUATSH
 AWAVI
 [A\A]A^A_]
 &YA1D
-EHA;EX
-EHHcE
+EPA;E`
+EPHcE
 &YA1L
 AWAVAUI
 [A\A]A^A_]
+AVAUL
 [A\A]A^A_]
 [A\A]A^]
 [A\A]A^]
@@ -2240,13 +2241,6 @@ AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-H;=JMG
-[A\A]A^A_]
-AWAVAUI
-[A\A]A^A_]
-[A\A]A^A_]
-[A\A]A^A_]
-H;=zKG
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
@@ -2257,6 +2251,13 @@ AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
+H;="^G
+[A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+H;=R\G
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
@@ -2267,7 +2268,6 @@ AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-H;=:DG
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -2279,9 +2279,9 @@ AWAVAUA
 AWAVAUATA
 [A\A]A^A_]
 AWAVAUATI
-t%D;-
+t%D;-TLG
 [A\A]A^A_]
-t(D9-o6G
+t(D9-
 AUATI
 [A\A]]
 [A\A]]
@@ -2316,19 +2316,19 @@ AWAVAUI
 AWAVAUATSH
 [A\A]A^A_]
 AWAVL
-wxAUI
-D$xH9
-T$pD9
-|$hIc_
+T$xD9
 ([A\A]A^A_]
-]IcL$pIc
+]IcL$xIc
 AWAVAUATI
 [A\A]A^A_]
 ~Ef;w
 fA;0tiA
+AWAVAUATI
+[A\A]A^A_]
 [A\A]]
 AWAVL
 8[A\A]A^A_]
+AUATA
 ([A\A]A^A_]
 Ic^(A;]
 AWAVAUATSH
@@ -2353,18 +2353,19 @@ AUATL
 AWAVAUI
 ]XtHI9
 [A\A]A^A_]
-~ t1A
+D$`H9
 AVAUATI
-GhL; 
+GpL; 
 H[A\A]A^A_]
-}+A9GTr%
-@$t@<
+}+A9G\r%
+@$tC<
 T$ H9
 [A\A]A^A_]
 AWAVAUATI
 8[A\A]A^A_]
-}AA;ETw;
-}+A;ETw%
+8H9>u
+}4A;G\w.
+}+A;G\w%
 [A\A]]
 0[A\]
 f;0tZfD
@@ -2428,8 +2429,8 @@ AWAVAUATI
 AWAVAUI
 dH34%(
 [A\A]A^A_]
-IcL$@
-}#A;D$Tw
+IcL$H
+}#A;D$\w
 AUATSH
 [A\A]]
 AWAVAUATI
@@ -2476,22 +2477,22 @@ AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-[A\A]]
 AVAUI
 [A\A]H
 A\A]A^]
 A\A]A^]
-([A\A]A^A_]
 [A\A]]
 AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
+[A\A]]
+AWAVL
+h[A\A]A^A_]
+h[A\A]A^A_]
+([A\A]A^A_]
 AWAVL
 H[A\A]A^A_]
-AWAVL
-h[A\A]A^A_]
-h[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 A\A]A^A_]
@@ -2519,11 +2520,10 @@ $[A\]
 A\A]A^]
 AUATL
 [A\A]]
-AWAVL
 &YA1L
 h[A\A]A^A_]
-A;E`}
-A#}\H
+A;D$`}
+A#|$\H
 ~Ef;w
 f;7tt
 4vf;T
@@ -2563,8 +2563,8 @@ AWAVAUATSH
 AVAUI
 [A\A]A^A_]
 AWAVAUI
-H[A\A]A^A_]
-H[A\A]A^A_]
+8[A\A]A^A_]
+8[A\A]A^A_]
 [A\A]]
 AVAUI
 [A\A]A^]
@@ -2607,10 +2607,11 @@ AUATSH
 AWAVAUI
 &YA1L
 [A\A]A^A_]
-A;B`}
-A#z\H
+A;D$`}
+A#|$\H
 x	;B`
 &YA1H
+@8HcF
 f;0t_fD
 AWAVAUATA
 [A\A]A^A_]
@@ -2621,7 +2622,8 @@ AWAVAUATA
 fD;!t
 AVAUA
 [A\A]A^A_]
-AUATSH
+AWAVI
+AUATI
 8[A\A]A^A_]
 AVAUI
 [A\A]A^A_]
@@ -2676,16 +2678,16 @@ AWAVAUATS
 A\A]A^A_]
 AWAVAUATSH
 x[A\A]A^A_]
-AWAVAUI
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+AUATSH
+A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
 [A\A]A^A_]
 AWAVL
-[A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
-[A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
-AWAVAUATSH
 [A\A]A^A_]
 H9Q(H
 [A\A]A^A_]
@@ -2705,7 +2707,12 @@ AWAVL
 AVAUATL
 0[A\A]A^]
 AWAVI
+t?L; u
 ([A\A]A^A_]
+t$L9 u
+twL; u
+t!L; u
+L; tFH
 AWAVI
 IcV(J
 [A\A]A^A_]
@@ -2872,7 +2879,9 @@ $Mco$f
 $Mco(f
 $Mco,f
 [A\A]A^A_]
-D9%#`D
+D9%MoD
+D;%XoD
+D9%coD
 DB(ZH
 DB(ZH
 DB(ZH
@@ -2965,7 +2974,6 @@ AVAUA
 P[A\A]A^]
 AUATSH
 h[A\A]]
-D;%]jG
 AVAUATA
  [A\A]A^]
  [A\A]A^]
@@ -2979,6 +2987,8 @@ AWAVAUATA
 8[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
+Lc%_jG
+D;%hjG
 AVAUATI
 [A\A]A^]
 t	[A\]
@@ -3121,6 +3131,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
 \$(A9X(
 D$(9F(
 E;<$H
@@ -3144,6 +3156,15 @@ AWAVAUATA
 [A\A]A^A_]
 AUATLc
 [A\A]A^]
+AVAUATI
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATSH
+h[A\A]A^A_]
+h[A\A]A^A_]
+AWAVH
+h[A\A]A^A_]
+h[A\A]A^A_]
 f;0tZfD
 AWAVAUATA
 [A\A]A^A_]
@@ -3155,14 +3176,14 @@ AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 }%fD9
-}%fD9
-xEHcE
-}<D;m
-D;+t*
 }%fD;
-xEHcE
-}<D9m
-D9+t*
+xMHcE
+}DD;m
+D;+t2
+}%fD9
+xMHcE
+}DD;m
+D;+t2
 t	X[]
 t	X[]
 t	X[]
@@ -3238,9 +3259,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 AUATSH
@@ -3254,13 +3272,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 G0AQE1
 AWAVAUATS1
@@ -3299,8 +3319,6 @@ AVAUA
 A\A]A^]
 x@HcO
 ~7;w$
-AWAVAUATSH
-[A\A]A^A_]
 AVAUATS
 [A\A]A^]
 AUATI
@@ -3308,9 +3326,6 @@ AUATI
 t	[A\]
 D$(H9
 D$(H9
-AVAUATI
-[A\A]A^A_]
-[A\A]A^A_]
 AWAVAUATI
 h[A\A]A^A_]
 T$(H9
@@ -4720,6 +4735,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
 AUATL
 [A\A]]
 &YA1H
@@ -4902,6 +4919,7 @@ AUATSH
 0[A\]
 AUATI
 ([A\A]]
+t);=b$,
 AVAUI
  [A\A]A^]
 AWAVAUATSH
@@ -4926,14 +4944,18 @@ AUATSH
 ~IHcK
 AWAVAUI
 [A\A]A^A_]
-C8HcC@H9
-CH~X1
+C8HcCHH9
+CP~X1
 [A\A]]
+AVAUI
+A\A]A^]
 AUATSHc
 F8ttMc
 A\A]A^]
+AUATI
+[A\A]]
 [A\A]A^A_]
-L$PfA
+L$XfA
 [A\A]]
 [A\A]]
 [A\A]]
@@ -4954,7 +4976,7 @@ AVAUATI
 AVAUATSH
 [A\A]A^A_]
 AWAVAUATI
-FA+<@H
+GA+4@H
 A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -6034,6 +6056,7 @@ NewNode
 @@min
 default
 Procedural
+../public/tier1/utlsymbol.h
 (root)
 sentinel
 unknown
@@ -6049,6 +6072,7 @@ exclude
 (NULL)
 invalid
 org(%g,%g,%g) ang(%g,%g,%g)
+BuildDelta
 [context entity 0x%p]
 (%s)%s
 %%%d.%ds 
@@ -6063,7 +6087,6 @@ Removed fake field %s at %d
 nullptr
 pointer
 (stream: %s local: %s) %s
-BuildDelta
 utlvector count
 %20.20s 
 (no node).%s
@@ -6079,7 +6102,6 @@ pri(%u)
 [+%d]
  (procedural)
 ReadFields
-WriteFields
 both states
 next state only
 Merge
@@ -6102,6 +6124,7 @@ CalcDelta
 deleted
 %s != %s
  [+add recip %d]
+WriteFields
 Validate
 no fastpath
 Remove
@@ -6160,6 +6183,10 @@ Couldn't resolve offset %u in %s at path %s
 %s%s::%s marked %s by group %s at %s
 %sincluding %s::%s to ensure entire chain to field
 ProcessOverride encountered unknown directive NetworkOverrideType_t(%d)
+%-10s % 5d no fastpath because field %s not resolvable
+%-10s % 5d no fastpath because field %s base depth is too large (pointer metadata change?)
+%-10s % 5d no fastpath because field %s %s changed the array size from %d to %d
+%-10s % 5d % 5d % 5d: %-20s: 0x%p encoding field %s %s%s: %s
 %s %s:  [%d] %s queue %s [type %s] %son 0x%p [alloc %u] [order %d] %s
 BuildOutputString:  change %s to %d
 Couldn't resolve offset %u in %s at path (%d = '%s')
@@ -6176,10 +6203,6 @@ Couldn't resolve offset %u in %s at path (%d = '%s')
 Specified different usergroup proxies for %s
 Exceeded max number proxies in CFlattenedSerializer::BuildHierarchy()
 m_nSharedChangeCallbackCount must be <= 32
-%-10s % 5d no fastpath because field %s not resolvable
-%-10s % 5d no fastpath because field %s base depth is too large (pointer metadata change?)
-%-10s % 5d no fastpath because field %s %s changed the array size from %d to %d
-%-10s % 5d % 5d % 5d: %-20s: 0x%p encoding field %s %s%s: %s
 %s:  couldn't find serializer %s
 %s:  in serializer '%s' couldn't find field %s::%s, possibly already marked MNetworkExclude
 %s0x%p %s Ignoring %s offset %u, storing in 0x%p
@@ -6192,14 +6215,11 @@ Fatal error, demo file includes a field in array that is not parseable %s = (%s:
 %50.50s %50.50s offset %5u %s
 g_pFlattenedSerialized->GetFieldShortNameProcedural() called for entity with procedural fields, but no INetworkProceduralDataHelper *pDataHelper passed into to API!!!
 g_pFlattenedSerialized->GetFieldNameProcedural() called for entity with procedural fields, but no INetworkProceduralDataHelper *pDataHelper passed into to API!!!
-CFlattenedSerializer::WriteFieldList fieldDataBuf
-CFlattenedSerializer::WriteFieldList
-GetBitRange( %u -> %u ) end is before or same as start
-Writing %d bits for path %s of serializer %s entity %d, this will fail to parse
 CFlattenedSerializer::MergeDeltas: invalid parameters passed.
 CFlattenedSerializer::MergeDeltas: oldBits
 CFlattenedSerializer::MergeDeltas: newBits
 CFlattenedSerializer::MergeDeltas fieldDataBuf
+GetBitRange( %u -> %u ) end is before or same as start
 %s/%d:  AddFieldPathAndOffset (%s) added unexpected offset (%u : prev=%u) at element %d
 %s/%d:  AddFieldPathAndOffset (%s) added too large of a bit offset (%u : prev=%u) at element %d
 CFlattenedSerializer::MergeDeltas: overflowed on flattened serializer '%s'.
@@ -6208,6 +6228,9 @@ CFlattenedSerializer::DumpSerializedEntityToConsole
 %s:  %d : %s bits %d to %d [%d bits] : %s
 ../public/networksystem/inetworkmessages.h
 CNetworkFieldChangedEventQueue::QueueChange:  ran out of scratch data space!!!
+CFlattenedSerializer::WriteFieldList fieldDataBuf
+CFlattenedSerializer::WriteFieldList
+Writing %d bits for path %s of serializer %s entity %d, this will fail to parse
 ValidateSerializedEntity:  missing metadata entry for %s
 ValidateSerializedEntity:  metadata incorrect entry for %s [%d expected %d]
 ValidateSerializedEntity:  %s [ent %d] invalid change '%s' for field %s (value '%s') on array that has metadata with only %d array elements!
@@ -6250,7 +6273,6 @@ NewNode
 NewNode
 MergeDeltas
 WriteFieldList
-EnsureCapacity
 AddToTailGetPtr
 EnsureCapacity
 AddToTailGetPtr
@@ -6306,6 +6328,7 @@ CFieldPath tracing started
 0 bit issue, spot 2
 0 bit issue, spot 3
 0 bit issue, spot 4
+flattenedserializers.cpp
 non-parallel
 -net_no_parallel_build
 ComputeDepth
@@ -6315,7 +6338,6 @@ Spew serializer counts
 net_spewcounts
 Spew serializer info
 fp_trace
-flattenedserializers.cpp
 delta >= 1u
 culling for client %d of %d rules
 MakeSerializersMatchByMeta failed for %s
@@ -6427,6 +6449,9 @@ CNetChan %p "%s" is naively talking to self
 %s:  resending reliable seq %d
 UDP <- %s: sz=%5i seq=%5i ack=%5i rel=%1i tm=%8.3f
 UDP -> %s: sz=%5i seq=%5i ack=%5i rel=%1i tm=%8.3f
+../public/tier1/utlsignalslot.h
+CNetChan::UpdateMessageStats, bit counter about to roll over with addition of %d bits, resetting to zero
+../public/tier1/eventdispatcher.h
 RegisterNetMessageHandlerAbstract: Must call StartRegisteringMessageHandlers before, and FinishRegisteringMessageHandlers after [message %s]!
 RegisterNetMessageHandlerAbstract: Attempted to register a message handler for a message which is not valid for this category of channel [message %s]!
 Spew QoS interval data as we gather it
@@ -6494,6 +6519,7 @@ MbP?networkmessages.cpp
 net_validatemessages
 net_listallmessages
 net_messageinfo
+networkmessages.h
 net_validatemessages = %d
 Proto 
 Schema
@@ -6520,9 +6546,9 @@ CNetworkMessages::AllocateUnserializedMessage unable to allocate unknown message
 CNetworkMessages::DeallocateUnserializedMessage unable to deallocate unknown message type!
 CNetworkMessages::Serialize attempted to serialize a non-serializeable message [%s]!
 Failed to unserialize message %s: expected message ID %u, encountered %u!
-Error: Duplicate network array field serializer registered (%s)!
 Error: Duplicate network field serializer registered (%s)!
 Error: Components count + networkable data type must be the same for all instances of network field serializer (%s)!
+Error: Duplicate network array field serializer registered (%s)!
 AssociateNetMessageWithAllChannelCategories: Passed in an invalid net message handle!
 CNetworkMessages::FindOrCreateGroupId: Too many network groups!
 Activates/deactivates net message validation
@@ -6585,8 +6611,9 @@ qangle_pitch_yaw
 coord
 coord_integral
 (%u %u %u %u)
-MResourceTypeForInfoType
+../public/tier1/utltshash.h
 networkserializer.cpp
+MResourceTypeForInfoType
 MNetworkVarsDisable
  builtin()
  count(%d)
@@ -6673,6 +6700,7 @@ SteamGameServer012
 deactivated
 Net graph %s
 SerializedEntitiesVersion001
+networksystem.cpp
 Peer To Peer
 Double-save to Member '%s'
 client_interpolation_amount
@@ -6698,7 +6726,6 @@ groupindex
 Stack depth limit hit (%d)
 cmd_info
 render_interpolation_fraction
-networksystem.cpp
 inpacket.message
 TCP/UDP Disabled.
 pending data
@@ -6907,7 +6934,7 @@ N14CNetworkSystem57CCallbackInternal_OnSteamNetConnectionStatusChangedServerE
 14CNetworkSystem
 32ISteamNetworkingSocketsCallbacks
 38Source2SteamNetworkingSocketsCallbacks
-D%x (int:%d, float:%f)
+?%x (int:%d, float:%f)
 [opaque]
 fc=%d, m=%d, sum=%d, bits=%u
 nothing
@@ -6921,9 +6948,13 @@ from array size %d != to size %d
 AddToTailGetPtr
 EnsureCapacity
 AddMultipleToTail
+no metadata!
+%d of %d empty (%.3f %%)
+  % 3d % 8d [%8.3f %%]
 databytes
 %s:  value %u: count %d
 backing paths
+Spew CSerializedEntity memory
 net_serializedentitymemory
 CreateSerializedEntityBlob:  removing %s from field path list, culled by another change.
 CSerializedEntities::CompareSerializedEntities:  to pointer is %s and from pointer is %s
@@ -6932,6 +6963,7 @@ CSerializedEntities::CompareSerializedEntities to field %s not present in from
 CSerializedEntities::CompareSerializedEntities field %d path's differ from '%s' to '%s'
 %s:  encoding mismatched %d vs. %d bits
 %s:  encodeded data mismatched %d bits
+average metadata list is %f entries
 no CSerializedEntity memory being used
 Number of CSerializedEntities     :  %d
 Number of CFieldPaths(Reconstruct):  %d
@@ -6940,7 +6972,8 @@ Average Memory Usage Per Entity   :  %8.3f bytes
 Average Data Bytes                :  %8.3f bytes
 Average Number of Field Paths     :  %8.3f
 Average Backing Raw Paths         :  %8.3f
-Spew CSerializedEntity memory
+Spew CSerializedEntity metadata information
+net_serializedentitymetadatainfo
 AddToTailGetPtr
 EnsureCapacity
 NewNode
@@ -7009,6 +7042,9 @@ HookUpConfigValue
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 archive
 notify
@@ -7022,10 +7058,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -7033,7 +7072,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 mempool.cpp
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlMemoryPoolBase
@@ -7054,6 +7093,7 @@ utlstring.cpp
 %s: string format requested %d chars
 FormatV
 UPDATE_STRING_TOKEN_DATABASE
+utlsymbol.cpp
 VApplication001
 interfaces.cpp
 VEngineCvar007
@@ -8710,6 +8750,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -8826,6 +8869,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -8879,6 +8923,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat
@@ -8988,6 +9036,7 @@ N24CFieldPathHuffmanEncoder8LeafNodeE
 %d == %u: %s
 CFieldMetadataPacker:  list not sorted
 CFieldMetadataPacker::AddOrUpdateFieldMetadata:  adding/updating %s with invalid array count %d!
+fieldpathpacker.cpp
 Path_SetCount
 AllocInternal
 VScript

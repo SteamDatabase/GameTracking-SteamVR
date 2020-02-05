@@ -36,10 +36,10 @@ _ZTVN10__cxxabiv120__function_type_infoE
 _ZTVN10__cxxabiv119__pointer_type_infoE
 V_vsnprintf
 pthread_mutex_destroy
+Plat_GetThreadIndex
 pthread_mutex_lock
 ThreadGetCurrentId
 pthread_mutex_unlock
-Plat_GetThreadIndex
 V_log2f
 AssertMsg_ConditionFailed
 V_sin
@@ -48,7 +48,7 @@ V_powf
 pthread_mutexattr_init
 pthread_mutexattr_settype
 pthread_mutex_init
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 _Znam
 EarlyInit_Tier0
 _ZnamRKSt9nothrow_t
@@ -63,6 +63,7 @@ strchr
 V_atoi
 V_sscanf
 V_atofloat64
+Plat_IsInDebugSession
 _Z6ConMsgPKcz
 memmove
 V_atof
@@ -97,7 +98,6 @@ CMemAllocSystemInitialize
 _V_strncmp
 _V_strnistr_fast
 V_strnchr
-Plat_IsInDebugSession
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
 V_strlower_fast
 V_strupper_fast
@@ -175,13 +175,13 @@ _ZN12CThreadEventC1Eb
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN17CThreadSyncObjectD2Ev
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
 _ZSt25__throw_bad_function_callv
@@ -266,21 +266,15 @@ AWAVAUATSH
 Lc`(D;`8
 [A\A]A^A_]
 IcN8I
-AWAVAUATI
-[A\A]A^A_]
 AVAUATL
 [A\A]A^A_]
 [A\A]A^A_]
-[A\A]]
-[A\A]]
-AWAVM
-AUATSH
+AVAUM
+AXAYH
 [A\A]A^A_]
 8AQE1
-H	p0H
-H	p0H
-H	p0H
-[A\A]A^A_]
+L	p0H
+L	p0H
 AVAUATSH
 ([A\A]A^A_]
 AWAVAUATSH
@@ -294,10 +288,11 @@ AUATSH
 [A\A]A^A_]
 AWAVAUATSH
 8[A\A]A^A_]
-8[A\A]A^A_]
 AUATSD
 [A\A]A^]
 ~(A\A]A^]
+[A\A]]
+[A\A]]
 [A\A]]
 [A\A]]
 AUATSL
@@ -311,7 +306,21 @@ AWAVL
 AVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
+$A]A^L
+$AZA[L
 AWAVAUI
+[A\A]A^A_]
+[A\A]]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
 [A\A]A^A_]
 AWAVI
 D$TPA
@@ -321,14 +330,8 @@ AVAUI
  [A\A]A^]
 AWAVAUATI
 [A\A]A^A_]
-AWAVAUATI
-[A\A]A^A_]
-AWAVAUATI
-T$PH9
-[A\A]A^A_]
-AWAVAUATI
-[A\A]A^A_]
-[A\A]A^A_]
+p[A\A]A^]
+p[A\A]A^]
 AUATI
 [A\A]]
 &YA1H
@@ -336,34 +339,35 @@ AUATI
 [A\A]]
 VUUUA
 H[A\A]A^A_]
-AUATL
+AWAVL
 [A\A]A^A_]
-AUATL
+AWAVL
 [A\A]A^A_]
 8[A\A]A^A_]
 AWAVAUATSH
 ([A\A]A^A_]
 ([A\A]A^A_]
-([A\A]A^A_]
+AWAVAUM
+x[A\A]A^A_]
+8[A\A]A^A_]
 AUATSH
 X[A\A]]
-AVAUATSH
-[A\A]A^A_]
-AWAVAUATI
+AVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
+AVAUATI
 [A\A]A^A_]
-t] fA
+[A\A]A^A_]
 [A\A]A^A_]
 AWAVI
 AUATI
 wn+:H
 [A\A]A^A_]
 t K5H
-AWAVAUATSH
+AVAUATSH
 [A\A]A^A_]
 AZA[L
-AVAUATI
+AWAVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
 AUATSH
@@ -371,17 +375,20 @@ AUATSH
 AVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-AWAVAUATSH
-8[A\A]A^A_]
-[A\A]A^A_]
-8[A\A]A^A_]
 AWAVI
+8[A\A]A^A_]
+I	E0A
+8[A\A]A^A_]
+AWAVAUATSH
+([A\A]A^A_]
 [A\A]A^A_]
-I	W0A
+)D$0I
+)D$@I
+([A\A]A^A_]
+AWAVM
 [A\A]A^A_]
 <}\vH
-AWAVI
-AUATSH
+AVAUATSH
 LightmapH
 s are ouH
 t of datH
@@ -391,6 +398,7 @@ e-bake. H
 RenderinH
 g as FULH
 LBRIGHT
+A[A\H
 Preview L
 aps.H
 LightingH
@@ -403,6 +411,9 @@ ality orH
 ance. PlH
 ease bakH
 e lightmH
+z?u=I
+H	C0H
+AYAZH
 [A\A]A^A_]
 D$0H9
 AWAVAUM
@@ -429,9 +440,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 AUATSH
@@ -439,13 +447,15 @@ AUATSH
 [A\A]]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -481,7 +491,6 @@ h[A\A]A^A_]
 8[A\A]]
 8[A\A]]
 h[A\A]]
- [A\]
 AVAUL
 [A\A]A^]
 AUATL
@@ -887,6 +896,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
 AUATL
 [A\A]]
 &YA1H
@@ -984,7 +995,7 @@ Use compute shaders for bloom on Vulkan
 24IProceduralLayerRenderer
 26CGaussianBloomBlurRenderer
 5t~BC
-?postprocess
+ postprocess
 r_post_fxaa
 r_post_colorcorrection
 r_post_bloom
@@ -1017,6 +1028,11 @@ PostProcessingSystem_001
 19CRenderingPipelines
 r_render_to_cubemap_debug
 r_draw_overlays
+r_ssao
+r_ssao_radius
+r_ssao_bias
+r_ssao_strength
+r_ssao_blur
 sc_ground_fog_top
 sc_ground_fog_depth
 ReflectionTemplate
@@ -1027,14 +1043,6 @@ DepthPrePass
 DepthPrePassDecals
 PostDecalPrepassDynamic
 PostDecalPrepassNoDecals
-FreezeFrameDraw
-r_ssao
-r_ssao_radius
-r_ssao_bias
-r_ssao_strength
-r_ssao_blur
-GBufferSSAO
-GBufferSSAOTemp
 PostDecalForwardDynamic
 Dynamic Decals
 PostDecalForwardNoDecals
@@ -1052,10 +1060,10 @@ ViewModelForward
 ViewModelTranslucent
 ToolsUtil Translucent
 Tools_Translucent
+GBufferSSAO
+GBufferSSAOTemp
 Tools_PreTranslucent
-FreezeFrameCapture
 ApplyFog
-GameStartup
 renderingpipelineforward.cpp
 materials/deferred_fog/ground_fog_accumulate.vmat
 materials/deferred_fog/fog_apply.vmat
@@ -1071,18 +1079,19 @@ RenderingPipelineForwardManifest
 ForwardLightSetup
 28CRenderingPipelineLightSetup
 25CRenderingPipelineFactoryI28CRenderingPipelineLightSetupE
-BloomManifest
-TonemapManifest
-VolumetricFogManifest
-materials/dev/bloom.vmat
 NoOpPostprocess
 Tonemap
 PostProcessing
 BloomBuffer
 Gaussian Bloom
+BloomManifest
+TonemapManifest
+VolumetricFogManifest
+materials/dev/bloom.vmat
 PostProcessPipeline
 r_post_bloom_kawase_steps
 r_post_bloom_strength
+GameStartup
 Engine2/RenderingPipeline/PostProcessingInMainPipeline
 CRenderingPipelinePostProcess::AddLayersToView expects 'tonemapRenderer' attribute! (Explicitly set to NULL to disable tonemapping.)
 renderingpipelinepostprocess.cpp
@@ -1146,12 +1155,12 @@ HDRBloom
 PaintTemp0
 PaintTemp1
 PaintTemp2
+HDRPostProcess
 PaintPost0
 PaintPost1
 PaintPost2
 PaintPost3
 ClearOutputDepth
-HDRPostProcess
 materials/dev/deferredshading.vmat
 materials/dev/hdrpostprocessing.vmat
 materials/dev/paintpostprocessing.vmat
@@ -1165,7 +1174,6 @@ FvP12CSceneObjectE
 25CRenderingPipelineFactoryI30CRenderingPipelineSlimDeferredE
 21CMyClearLayerRenderer
 PFvP12CSceneObjectE
-QZw..
 TMonitor
 OvertopMenuRendererTemplate
 VR3DSkyboxRendererTemplate
@@ -1174,17 +1182,21 @@ VrQuadLayout
 RenderingPipelineVrManifest
 rtOutputColor
 rtOutputDepth
+VrWriteStencilMaskLeftEye
+VrWriteStencilMaskRightEye
 Hologram Depth
 Hologram Wireframe
 outputColor
 outputDepth
 overrideIntermediateColor
+%s allocation count overflow
 OvertopMenuRender
 VR3DSkyboxView
 quad_coverage.vtex
 quad_coverage_lock.vtex
 r_cubemap_debug_colors
 3DSkyboxLightBinnerVr
+3DSkybox Depth Prepass
 3DSkyboxForward
 3DSkybox Translucent Forward
 r_showsceneobjectbounds
@@ -1197,9 +1209,9 @@ Wireframe Decal
 OvertopMenuLightBinnerVr
 OvertopMenuForward
 RenderingPipelineVrStartup
-Overtop Menu Procedural
  Fade
  Not Depth Pre-passed
+Overtop Menu Procedural
 3D Skybox Procedural
 ToolsVisMode: UNKNOWN
 retina_burn_rt_0.vtex
@@ -1217,12 +1229,11 @@ Clear Depth Stencil
 vr_warp
 vr_warp_debug
 vr_stencil_hidden_pixels
-VrWriteStencilMaskLeftEye
-VrWriteStencilMaskRightEye
 ClearQuadCoverage
 DynamicAmbientOcclusion
 AmbientOcclusionDepth
 Ambient Occlusion Proxies
+Ambient Occlusion Proxy Blit
 Static Opaque Forward
 Dynamic Opaque Forward
 Decals (Static and Dynamic)
@@ -1235,6 +1246,7 @@ QuarterResEffectsColor
 DownsampleDepth
 EffectsOpaque
 EffectsTranslucent
+ScreenSpaceTranslucent
 RetinaBurnSplat
 AlbedoOrReflectivity
 BackgroundForShaderIDs
@@ -1251,6 +1263,8 @@ AoProxyDebug
 VolumetricFog
 InvalidBubble
 MSAA Resolve
+post_process_depth_stencil
+VrPerfHUD
 DebugVrStencilLeftEye
 Depth Pre-Pass
 Depth Pre-Pass Ancillary
@@ -1262,6 +1276,8 @@ vr_enable_gradient_fog
 vr_shadows_debug
 vr_aoproxy_debug
 vr_aoproxy_enable
+vr_aoproxy_cones
+vr_aoproxy_cull_threshold
 vr_decal_debug
 vr_stencil_debug
 vr_depth_prepass
@@ -1275,23 +1291,31 @@ vr_expand_cull_frustum
 vr_enable_glows
 vr_render_dynamic_objects
 vr_use_invalid_bubble
-r_hlvr_old_tonemapping_curve
 vr_custom_msaa_resolve
 r_effects_bloom
 vr_cubemap_normalization
 vr_postprocess_enable
+vr_stencil_postprocessing
+Allow bloom on scene monitors
+vr_monitor_bloom
+r_post_bloom_debug
+r_vr_3d_skybox
+r_vr_3d_skybox_depth_prepass
 VR3DSkybox
 OvertopMenu
-r_vr_3d_skybox
 r_vr_overtop_menu
 vr_use_fullsort_for_opaque
-vr_fullsort_depth_prepass
 renderingpipeline_vr.cpp
 false
 RenderingPipelineVrGroup
 ToolsVisMode: SHOW_UVS							
 ToolsVisMode: ALBEDO								
 ToolsVisMode: WRINKLE							
+baselayer
+overlay
+seq_trans
+unspecified
+WARNING: Trying to create a CRenderContextPtr without a valid context.
 RenderingPipelineVrManifestDeveloperModeOnly
 materials/dev/visualize_depth.vmat
 textures/dev/blue_noise_256.vtex
@@ -1301,8 +1325,12 @@ materials/dev/retina_burn_capture.vmat
 materials/dev/visualize_quad_overdraw.vmat
 textures/dev/albedo_chart.vtex
 textures/dev/reflectivity_scale.vtex
-WARNING: Trying to create a CRenderContextPtr without a valid context.
+VrWriteSubviewStencilMaskLeftEye
+VrWriteSubviewStencilMaskRightEye
 LockDynamicConstantBuffer failed in SetupConstantBufferForCoreGradientFog!!!
+D_ENABLE_VOLUMETRIC_FOG is set, but cannot find CVolumetricFog via "VolumetricFog"
+%s allocation count overflow( %llu >= %llu )
+../public/tier1/utlleanvector.h
 LockDynamicConstantBuffer failed in CreatePerViewConstantBuffer!!!
 Engine2/RenderingPipeline/ToolsVisModes
 OvertopMenu Translucent Forward
@@ -1311,16 +1339,15 @@ ERROR! Cannot load RenderingPipelineVrStartup resource manifest for the vr rende
 RenderingPipelineVrComputeShaderManifest
 Engine2/RenderingPipeline/RetinaBurnFx
 RenderingPipelineVrRetinaBurnManifest
-Engine2/RenderingPipeline/OpaqueFade
-Engine2/RenderingPipeline/AmbientOcclusionProxies
 SceneSystem/EnvironmentalInteraction
-VrWriteSubviewStencilMaskLeftEye
-VrWriteSubviewStencilMaskRightEye
-Ambient Occlusion Proxies Downsample Depth
-Ambient Occlusion Proxies: Texture Barrier
-SceneSystem/VrTeleportPathRendering
-MaterialSystem2/ShaderIDColors
+Engine2/RenderingPipeline/OpaqueFade
 Engine2/RenderingPipeline/SkipPostProcessing
+SceneSystem/VrTeleportPathRendering
+Engine2/RenderingPipeline/AmbientOcclusionProxies
+Ambient Occlusion Proxies Downsample Depth
+CAmbientOcclusionProxySceneObjectDesc
+Ambient Occlusion Proxies: Texture Barrier
+MaterialSystem2/ShaderIDColors
 SceneSystem/VrDefaultShadowTextureWidth
 SceneSystem/VrDefaultShadowTextureHeight
 IntermediateOutputColorResolved
@@ -1330,6 +1357,10 @@ vr_render_opaque_notzprepassed
 vr_readonly_depth_stencil_enable
 degrees to add to fov to compensate for just-in-time HMD
 vr_enable_translucent_screen_space
+vr_translucent_screen_space_downres
+1 = bloom output, 2 = quarter res downsample
+r_vr_3d_skybox_depth_prepass_cull_threshold
+fullsort the opaque pass when there wasn't a depth prepass
 RenderingPipelineVrDeveloperModeGroup
 ToolsVisMode: FULLBRIGHT							
 ToolsVisMode: DIFFUSE_LIGHTING					
@@ -1364,6 +1395,8 @@ ToolsVisMode: BAKED_LIGHT_LIGHT_DIRECTION
 ToolsVisMode: BAKED_LIGHT_LIGHT_COLOR			
 ToolsVisMode: BAKED_LIGHT_LIGHT_CHART			
 ToolsVisMode: BAKED_LIGHT_COUNT					
+ToolsVisMode: TOOLS_VIS_MODE_TEXTURE_MIP_USAGE	
+AddToTailGetPtr
 SetupConstantBufferForCoreGradientFog
 CreatePerViewConstantBuffer
 20CPostConnectCallback
@@ -1379,11 +1412,13 @@ CreatePerViewConstantBuffer
 20CRenderingPipelineVr
 25CRenderingPipelineFactoryI20CRenderingPipelineVrE
 42CTemplateSceneViewFactory_RenderVRMonitors
+*ZL27CreatePerViewConstantBufferP10ISceneViewR17CRenderAttributesPKS_RK7VMatrixbbEUlS4_fiE_
 VertexPostProcess_t
 screenspace_reflections.cpp
 materials/dev/screenspacereflections.vmat
 materials/dev/screenspacereflectionblur.vmat
 ScreenSpaceReflectionsRenderer
+../public/scenesystem/vertexformat.h
 ScreenSpaceReflectionsManifest
 31CScreenSpaceReflectionsRenderer
 librenderingpipelines.so
@@ -1400,6 +1435,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -1413,17 +1451,20 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
 14ConCommandBase
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -1445,6 +1486,7 @@ u64( %lld = 0x%llX )
 update
 delete
 borrow
+keyvalues.cpp
 utlstring.cpp
 %s: string format requested %d chars
 FormatV
@@ -1645,7 +1687,6 @@ m_bHasBakedLightingFromVertexStream
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingBasisInVertex
 m_bCanBatchWithDynamicShaderConstants
-m_bHasPerInstanceBakedLightingData
 speeds
 runspeed
 walkspeed
@@ -1960,6 +2001,7 @@ physib
 ptestbed
 VertexColorPos_t
 phys_res
+physaggregatedata.cpp
   0x%08X %s,
  %llu aggs, %s total data
 Animated
@@ -2040,7 +2082,6 @@ POSITION
 F_ALPHA_TEST
 F_TRANSLUCENT
 F_MORPH_SUPPORTED
-Attribute counts between meshes is inconsistent
 Need valid position and texcoord when creating world space tangent lengths!
 Need valid position to calculate face centers!
 remapping vertex %d[w%d] invalid: %d->? >= %d
@@ -2467,6 +2508,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -2582,6 +2626,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -2635,6 +2680,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat
@@ -2663,10 +2712,6 @@ C_OP_SetControlPointFieldToWater
 ' D]7
 Am_flPosition
 m_Stops
-baselayer
-overlay
-seq_trans
-unspecified
 CBufferString
 m_parent
 m_pos

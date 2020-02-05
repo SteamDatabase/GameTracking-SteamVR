@@ -72,7 +72,7 @@ RandomSeed
 RandomFloat
 V_sincosf
 V_log2f
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 V_atoi64
 V_atofloat64
 EarlyInit_Tier0
@@ -142,14 +142,14 @@ _ZN12CThreadEventC1Eb
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
 _ZN17CThreadSyncObjectD2Ev
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
 V_localeconv
@@ -376,8 +376,8 @@ AWAVAUA
 AWAVAUI
 NE fA
 [A\A]A^A_]
-D;q(t%I
-jIcE(1
+D;q tII
+wIcE 1
 AVAUI
 [A\A]A^A_]
 GHUHc
@@ -508,13 +508,13 @@ AWAVAUATA
 [A\A]A^A_]
 AVAUA
 [A\A]A^A_]
-AWAVAUI
+AVAUATSH
 H[A\A]A^A_]
 AUATSH
 [A\A]]
 8fA;1
 [A\A]]
-}Cf;C
+}>f;C
 [A\A]]
 AUATI
 [A\A]]
@@ -548,13 +548,13 @@ D9`Tu
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUATSH
+D$TD9
 [A\A]A^A_]
 D$T;E
 [A\A]A^A_]
 |$0	E
 |$0	E
 AWAVAUATSH
-D$TD9
 [A\A]A^A_]
 H[A\A]A^A_]
 AWAVI
@@ -713,8 +713,7 @@ u0[A\A]A^]
 [A\A]A^]
 AVAUI
 [A\A]A^A_]
-AWAVI
-AUATSH
+AWAVAUI
 ([A\A]A^A_]
 ([A\A]A^A_]
 AVAUI
@@ -840,17 +839,14 @@ M9wPt
 AWAVI
 [A\A]A^A_]
 AWAVAUATSH
-[A\A]A^A_]
-WLLcM
-AWAVAUATSH
 h[A\A]A^A_]
 h[A\A]A^A_]
-CX@u0E
+CX@u1H
 AWAVAUATSH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-AVAUI
+AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 &YA1L
@@ -901,17 +897,19 @@ PLLcM
 AWAVAUATSH
 [A\A]A^A_]
 AVAUATSH
-[A\A]A^A_]
+A\A]I
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-pPHc4
-!>uKD
-AWAVAUATSH
- M9n8u
+rhHc4
+$A;\$
+E;/}9A
+AWAVAUI
+ M9u8u
 [A\A]A^A_]
+$A;\$
 [A\A]A^A_]
- M9f8u
+ M9e8u
 AWAVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
@@ -941,7 +939,6 @@ AWAVI
 [A\A]A^A_]
 AWAVI
 [A\A]A^A_]
-AWAVI
 [A\A]A^A_]
  [A\]
 AWAVL
@@ -951,7 +948,7 @@ X[A\A]A^A_]
 X[A\A]A^A_]
 AUATL
 [A\A]]
-AWAVI
+AUATI
 [A\A]A^A_]
 [A\A]A^A_]
 8[A\A]]
@@ -960,17 +957,18 @@ H;0t:H
 8[A\A]]
 AWAVAUI
 [A\A]A^A_]
-AVAUATSH
-[A\A]A^]
+AVAUATSL
 [A\A]A^]
 fffff.
 AWAVAUATI
+CThreade
 ([A\A]A^A_]
 AWAVAUATL
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]]
+CThreade
 [A\A]A^A_]
 8[A\A]A^A_]
 AUATL
@@ -984,7 +982,7 @@ AUATSH
 [A\A]]
 AWAVAUATSH
 [A\A]A^A_]
-HcC`;Cp
+HcCh;Cx
 AVAUATSH
 [A\A]A^A_]
 [A\A]]
@@ -993,16 +991,15 @@ ATSHc
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUATSH
-Mc~HE;y
-p 9pH|
+Mc~PE;y
+p(9pP|
 [A\A]A^A_]
 AVAUI
 [A\A]A^]
 [A\A]A^]
-AWAVA
 [A\A]A^A_]
 YIcL$
-AWAVAUI
+AVAUI
 [A\A]A^A_]
 AWAVAUATI
 8[A\A]A^A_]
@@ -1016,16 +1013,14 @@ H[A\A]]
 ([A\]
 4$A\]
 4$A\]
-4$A\]
 3[A\]
+4$A\]
 4$A\]
 4$A\]
 4$A\]
 AWAVA
 [A\A]A^A_]
 t=[A\]
-[A\A]A^]
-AVAUATH
 [A\A]A^]
 AWAVL
 AUATSH
@@ -1121,11 +1116,6 @@ Lc&E)
 AVAUA
 [A\A]A^A_]
 [A\A]]
-AVAUA
-ATSLc&E)
-[A\A]A^]
-[A\A]A^]
-[A\A]]
 AWAVA
 Lc&E)
 [A\A]A^A_]
@@ -1142,6 +1132,12 @@ Lc&E)
 [A\A]A^A_]
 AVAUA
 [A\A]A^A_]
+[A\A]]
+AUATSD
+[A\A]A^]
+[A\A]A^]
+AUATA
+[A\A]A^]
 [A\A]]
 AUATSD
 [A\A]A^]
@@ -1180,7 +1176,7 @@ AUATA
 AWAVA
 Lc'E)
 [A\A]A^A_]
-AWAVAUATSH
+AVAUATSH
 [A\A]A^A_]
 AVAUA
 [A\A]A^A_]
@@ -1237,17 +1233,16 @@ AWAVAUATI
 F(L;}
 0[A\]
 0[A\]
+AWAVI
 RESLH
 vmatH
-@[A\A]A^]
+H[A\A]A^A_]
 vmatH
 AWAVI
 RESLH
 vmatH
 X[A\A]A^A_]
 vmatH
-AWAVI
-H[A\A]A^A_]
 AUATI
 [A\A]]
 D$ H9
@@ -1265,6 +1260,8 @@ D$ H9
 [A\A]A^A_]
 AUATA
 [A\A]]
+AUATA
+[A\A]]
 AUATSH
 Lc'E)
 [A\A]A^A_]
@@ -1273,9 +1270,6 @@ AWAVAUA
 TIcL$
 AWAVA
 Lc'E)
-[A\A]A^A_]
-AWAVAUA
-Lc7E)
 [A\A]A^A_]
 AUATSH
 Lc'E)
@@ -1291,10 +1285,6 @@ AVAUI
 A\A]A^]
 AWAVL
 X[A\A]A^A_]
-AVAUI
-A\A]A^]
-AWAVAUL
-[A\A]A^A_]
 AWAVA
 [A\A]A^A_]
 TIcL$
@@ -1317,10 +1307,10 @@ RESLL
 vtexA
 FY@u'H
 [A\A]A^A_]
+vmdlH
 RESLL
 vtexA
 vmesh
-vmdlH
 AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1336,16 +1326,22 @@ AUATI
 dIcD$
 AWAVAUATI
 VXL;}
+D$PH9
 [A\A]A^A_]
-AWAVL
-4xtuI
-'iw7H
-48t}I
-x[A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
+[A\A]A^A_]
+AVAUI
+A\A]A^]
+AWAVAUL
+[A\A]A^A_]
+AWAVAUL
+4qt5I
+'iw7H
+41t5I
+41t5I
 [A\A]A^A_]
 AWAVI
 RB dH
@@ -1367,10 +1363,14 @@ AVAUI
 A\A]A^]
 AWAVL
 x[A\A]A^A_]
-HcK@Ic
-HcKXIc
-HcK@Ic
-^HcKXIc
+|$@D9
+IcL$@Ic
+|$XD9
+IcL$XIc
+|$XD9
+|$@D9
+IcL$@Ic
+|dIcL$XIc
 AWAVL
 7\[OH
 RESLH
@@ -1406,9 +1406,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 AUATSH
@@ -1422,13 +1419,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -1524,6 +1523,7 @@ AWAVAULc
 [A\A]A^A_]
 AWAVAUATSH
 G8I;G@r
+[A\A]A^A_]
 [A\A]A^A_]
 AWAVAUI
 h[A\A]A^A_]
@@ -1773,7 +1773,7 @@ t$(t-H
 AVAUI
 E I;G t
 [A\A]A^A_]
-AVAUA
+AVAUI
 ([A\A]A^A_]
 [A\A]A^A_]
 AVAUA
@@ -2112,11 +2112,18 @@ D+c$Mc
 D+c$Mc
 +S$Hc
 AVAUATSH
+F A+F
 [A\A]A^A_]
-D+s$Mc
-A+P$Hc
-A+p$Hc
-D+s$Mc
+E+n$Mc
+A+F$H
+A+V$I
+A+Q$Hc
+A+F$H
+F A+F
+A+q$Hc
+A+F$I
+A+F$H
+A+F$H
 AWAVAUATSH
 8[A\A]A^A_]
 8[A\A]A^A_]
@@ -2341,6 +2348,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
 AUATL
 [A\A]]
 &YA1H
@@ -2405,7 +2414,6 @@ AWAVAUATI
 AWAVAULc
 H[A\A]A^A_]
 [A\A]A^A_]
- [A\]
 0[A^]
 0[A^]
 AUATL
@@ -2519,8 +2527,6 @@ AVAUI
 dH3<%(
 [A\A]A^A_]
 ~;HcE
-AUATL
-[A\A]]
 AWAVAUATS
 [A\A]A^A_]
 [A\A]A^A_]
@@ -2642,7 +2648,7 @@ AVAUI
 AUATI
 ([A\A]A^A_]
 [A\A]A^A_]
-uAL;%r
+uAL;%R
 [A\A]]
 ;wp|	]
 [A\A]]
@@ -3158,7 +3164,6 @@ ZN37CTypesafeIntrospectedToKV3TypeManagerILy495874631030E20PermEntityLumpData_tE
 16ISceneObjectDesc
 36CKV3Transfer_UtlSymbolLargeInterfaceI24CUtlSymbolTableLargeBaseILb0ELm2048E16CThreadNullMutexEE
 5t~BC
-?DXT5
 postprocess
 envMapArray.vtex
 ../public/tier1/utlrbtree.h
@@ -3190,7 +3195,7 @@ NewNode
 27CStreamingEnvironmentMapMgr
 12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
 15CMemberFunctor2IP33CEnvironmentMapTextureCoordinatorMS0_FvP17IAsyncFileRequest11CWeakHandleI31InfoForResourceTypeCTextureBaseEES3_S6_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-++%s is at refcount %d
+:++%s is at refcount %d
 FCVAR_NEVER_AS_STRING
 RESOURCE_TYPE_WORLD
 RESOURCE_TYPE_WORLD_VIS
@@ -3311,6 +3316,7 @@ Lightmap version number is out of date! Reverting to dynamic lighting
 ../public/tier1/utlleanvector.h
 Attempted to set attribute %s as if it was a non-attribute key!
 ResourceCompiler/DefaultMapBuilders/bakedlighting
+ResourceCompiler/DefaultMapBuilders/dontrequirebakedlighting
 NewNode
 AddToTailGetPtr
 AddToTailGetPtr
@@ -3327,7 +3333,7 @@ WorldNodeProceduralModel
 r_world_allow_bindless_desc
 sc_allow_dynamic_constant_batching
 Failed to get material pointer for world node draw call. (material name: %s)
-Missing cubemap precomputed handshake for world geometry.
+bindlessfastpath: Missing cubemap precomputed handshake for world geometry (%s)
 Unsupported Grass File Version. Expected %d. Found %d
 CWorldNode::GrassFileCreateManifest
 Creating %i scene objects for node %i
@@ -3340,9 +3346,9 @@ N37CTypesafeIntrospectedToKV3TypeManagerILy431366240118E11WorldNode_tE28IKV3Reso
 ZN37CTypesafeIntrospectedToKV3TypeManagerILy431366240118E11WorldNode_tE24DeallocateDestroyCleanupEPvP25IResourceDeallocatorUtilsE17CDeallocatorUtils
 37CTypesafeIntrospectedToKV3TypeManagerILy431366240118E11WorldNode_tE
 17CWorldNodeManager
-!>uK!>uK!>uK!>uK
 Y>t$7?*
-PGrassObject
+!>uK!>uK!>uK!>uK
+GrassObject
 GrassRenderTexture.vtex
 GrassCopyTexture.vtex
 GenerateGrassTexture
@@ -3396,6 +3402,7 @@ texcoord
 g?33s?
 cubeblur
 VertexUVPosNormalAndTangent_t
+../public/scenesystem/vertexformat.h
 WorldRenderer/EnvironmentMapBlurType
 VectorAligned
 Vector2D
@@ -3429,6 +3436,7 @@ InfoForResourceTypeIMaterial2
 RenderInputLayoutField_t
 SceneObject_t
 InfoOverlayData_t
+AABB_t
 BoneOverride_t
 ExtraVertexStreamOverride_t
 MaterialOverride_t
@@ -3453,7 +3461,6 @@ NETWORK_FIELD_LOWEST_PRIORITY
 InfoForResourceTypeCEntityLump
 InfoForResourceTypeCRenderMesh
 InfoForResourceTypeCTextureBase
-PerInstanceBakedLightingParamsOverride_t
 NETWORK_FIELD_CHANGED_NO_VALUE
 NETWORK_FIELD_CHANGED_WITH_VALUE
 NETWORK_FIELD_CHANGED_ARRAY_WITH_VALUE
@@ -3480,10 +3487,10 @@ NETWORK_FIELD_DEFAULT_PRIORITY
 27CSchemaUtlVectorManipulatorI10CUtlVectorI13SceneObject_t10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI17InfoOverlayData_t10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorIt10CUtlMemoryItiEEtE
+27CSchemaUtlVectorManipulatorI10CUtlVectorI6AABB_t10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI14BoneOverride_t10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI27ExtraVertexStreamOverride_t10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI18MaterialOverride_t10CUtlMemoryIS1_iEES1_E
-27CSchemaUtlVectorManipulatorI10CUtlVectorI40PerInstanceBakedLightingParamsOverride_t10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI27WorldNodeOnDiskBufferData_t10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorI10CUtlString10CUtlMemoryIS1_iEES1_E
 27CSchemaUtlVectorManipulatorI10CUtlVectorIi10CUtlMemoryIiiEEiE
@@ -3515,6 +3522,7 @@ m_vLightingOrigin
 m_nLightGroup
 m_nOverlayRenderOrder
 m_nLODOverride
+m_nBoundsGroupIndex
 m_renderableModel
 m_renderable
 m_externalTextures
@@ -3552,10 +3560,13 @@ RenderSlotType_t
 m_nInstanceStepRate
 m_pData
 m_sceneObjects
+m_vMinBounds
+m_vMaxBounds
 m_layerNames
 m_nodeLightingInfo
 m_infoOverlays
 m_visClusterMembership
+m_boundsGroups
 m_boneOverrides
 m_extraVertexStreamOverrides
 m_materialOverrides
@@ -3574,19 +3585,13 @@ OBJECT_TYPE_NO_SUN_SHADOWS
 m_nCubeMapPrecomputedHandshake
 m_nLightProbeVolumePrecomputedHandshake
 m_nAdditionalMeshDrawPrimitiveFlags
-m_bHasBakedLightingFromVertexStream
-m_bHasBakedLightingFromLightmap
-m_bHasBakedLightingBasisInVertex
-m_bHasPerInstanceBakedLightingData
-m_nPerVertexLightingOffsetInVertices
 m_PerVertexLightingDataPlainRGBM
 m_nPerVertexLightingDataPlainRGBMWidth
 m_nPerVertexLightingDataPlainRGBMHeight
 m_nPerVertexLightingDataPlainRGBMDepth
-m_lightmapInstanceDataOverrides
 OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND
 OBJECT_TYPE_DISABLED_IN_LOW_QUALITY
-OBJECT_TYPE_EXCLUDE_FROM_IMPOSTORS
+OBJECT_TYPE_RENDER_WITH_DYNAMIC
 OBJECT_TYPE_RENDER_TO_CUBEMAPS
 OBJECT_TYPE_PRECOMPUTED_VISMEMBERS
 m_nSizeBytesPerVoxel
@@ -3610,8 +3615,6 @@ m_bBuildBakedLighting
 m_Flags
 m_nParent
 m_vOrigin
-m_vMinBounds
-m_vMaxBounds
 m_flMinimumDistance
 m_ChildNodeIndices
 m_worldNodePrefix
@@ -3626,6 +3629,7 @@ m_clusters
 m_flGridSize
 m_nNodeCount
 m_nRegionCount
+m_skyVisibilityCluster
 m_nPVSCompression
 m_nTreeSize
 m_nPVSSizeCompressed
@@ -3648,6 +3652,9 @@ HookUpConfigValue
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -3661,10 +3668,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -3672,7 +3682,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -3887,8 +3897,6 @@ ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeS
 ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but contains member '%s' with locally-scoped type '%s'
 %s:%s needs base %s:%s to be registered
 ReportClassError
-entitykeyvalues.cpp
-(null)
 cstring
 vector2d
 vector
@@ -3909,7 +3917,10 @@ js_value
 js_object
 js_array
 js_raw_args
+string_t
 unknown_variant_type
+entitykeyvalues.cpp
+(null)
 <none>
 %g %g %g %g
 %d %d %d %d
@@ -3950,7 +3961,6 @@ FTYPEDESC_REMOVED_KEYFIELD
 FTYPEDESC_WAS_INPUT
 FTYPEDESC_WAS_OUTPUT
 float32
-string_t
 <embedded>
 <custom>
 <classptr>
@@ -4085,6 +4095,7 @@ entitysystem.cpp
 PEvent
 activator
 caller
+../public/tier1/memstack.h
 GetNativeClassForScriptClass
 GetScriptClassForDesignerName
 -entkv_use_schema
@@ -4195,7 +4206,6 @@ CScriptComponentReferencedPtr
 C-side of entity framework
 CEntityScriptFramework
 InstallClasses
-GetClassNameOverride
 IsKeyValueUsed
 DispatchActivate
 DispatchUpdateOnRemove
@@ -4206,6 +4216,7 @@ scripts/vscripts/
 scripts/vscripts/%s
 Script not found (%s) 
 IncludeScript stack overflow
+GetClassNameOverride
 CScriptKeyValues
 Reads a spawn key
 GetValue
@@ -4287,6 +4298,7 @@ CEntityHandle
  [procedural] 
 	Read %s	%s%s%s,	Offs 0x%04x
 entityclass.cpp
+../public/tier1/utltshash.h
 Entity Load Unserialize
 entity_log_load_unserialize
 Bad key for entity "%s": Invalid parsed value for field "%s" of type '%s' ('%s')!
@@ -4566,7 +4578,6 @@ spawn_motion_disabled
 nav_data
 nav_attribute_avoid
 cable
-width
 numsegments
 gravity
 length
@@ -4786,6 +4797,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -4902,6 +4916,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -4955,6 +4970,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat
@@ -4981,6 +5000,67 @@ C_OP_EnableChildrenFromParentParticleCount
 C_OP_DriveCPFromGlobalSoundFloat
 C_OP_SetControlPointFieldToWater
 ' D]7
+m_Type
+lighttype
+LightType_t
+m_BounceColor
+bouncecolor
+m_Range
+m_Falloff
+falloff
+m_Attenuation0
+attenuation0
+m_Attenuation1
+attenuation1
+m_Attenuation2
+attenuation2
+m_Theta
+innerconeangle
+m_Phi
+outerconeangle
+m_lightCookie
+lightcookie
+m_bCastShadows
+castshadows
+m_nShadowWidth
+shadowtexturewidth
+m_nShadowHeight
+shadowtextureheight
+m_nShadowCascadeCount
+shadowcascadecount
+m_flShadowCascadeDistance
+shadowcascadedistance%d
+m_nShadowCascadeResolution
+shadowcascaderesolution%d
+m_nBakeLightIndex
+bakelightindex
+m_flBakeLightIndexScale
+bakelightindexscale
+m_bRenderDiffuse
+renderdiffuse
+m_bRenderSpecular
+renderspecular
+priority
+m_Shape
+lightsourceshape
+LightSourceShape_t
+m_flLightSourceDim0
+dimension0
+m_flLightSourceDim1
+dimension1
+m_flLightSourceSize0
+size0
+m_flLightSourceSize1
+size1
+m_flPrecomputedMaxRange
+precomputedmaxrange
+m_flFogContributionStength
+fogcontributionstrength
+m_nFogLightingMode
+fog_lighting
+m_bUsesIndexedBakedLighting
+baked_light_indexing
+LightDesc_t
 .M;UU
 @mathlib.cpp
 SSE and SSE2 are required.
@@ -5016,8 +5096,8 @@ submrg%dx%d.tga
 after solve err=%f
 before solve err=%f
 floatbitmap.cpp(141): Unknown gamma type "%s"!
-floatbitmap.cpp(325): Conversion not supported yet!
-floatbitmap.cpp(425): Conversion not supported yet!
+floatbitmap.cpp(338): Conversion not supported yet!
+floatbitmap.cpp(438): Conversion not supported yet!
 FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!
 FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!
 BC6h compression not supported on this target (windows only).
@@ -5033,11 +5113,11 @@ Only DXT1/DXT5 online texture compression supported.
 FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!
 FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!
 FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!
-floatbitmap.cpp(888): Unsupported color format "%s", skipping!
-floatbitmap.cpp(2473): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2484): Error loading %s
-floatbitmap.cpp(2507): Error! Unknown file type for %s
-floatbitmap.cpp(2526): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
+floatbitmap.cpp(901): Unsupported color format "%s", skipping!
+floatbitmap.cpp(2486): Error calling TGALoader::GetInfo( %s )
+floatbitmap.cpp(2497): Error loading %s
+floatbitmap.cpp(2520): Error! Unknown file type for %s
+floatbitmap.cpp(2539): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
 FloatBitMap_t: Error loading %s
 FloatBitMap::QuarterSizeBlocky
 FloatBitMap::DownsampleNiceFiltered
@@ -5260,7 +5340,9 @@ m_bDoNotDrawInFastShadowPath
 m_bOnlyDrawInFastShadowPath
 m_bHasCullingData
 ATTACHMENT_INFLUENCE_FLAGS_NONE
+m_bHasBakedLightingFromVertexStream
 m_bHasBakedLightingFromLightMap
+m_bHasBakedLightingBasisInVertex
 m_bCanBatchWithDynamicShaderConstants
 speeds
 runspeed
@@ -5282,6 +5364,7 @@ Particles.ControlPoints
 control_points_list
 Cables
 cables_list
+model_old_disk.cpp
 model_dump_convert_info
 <NO EXPRESSION>
 %s + %s
@@ -5511,6 +5594,7 @@ physib
 ptestbed
 VertexColorPos_t
 phys_res
+physaggregatedata.cpp
   0x%08X %s,
  %llu aggs, %s total data
 Animated
@@ -5581,7 +5665,6 @@ POSITION
 F_ALPHA_TEST
 F_TRANSLUCENT
 F_MORPH_SUPPORTED
-Attribute counts between meshes is inconsistent
 Need valid position and texcoord when creating world space tangent lengths!
 Need valid position to calculate face centers!
 remapping vertex %d[w%d] invalid: %d->? >= %d
@@ -5805,7 +5888,7 @@ Etc::DifferentialTrys::DifferentialTrys(Etc::ColorFloatRGBA, Etc::ColorFloatRGBA
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding.cpp
 a_fDecodedAlpha >= 0.0f
 float Etc::Block4x4Encoding::CalcPixelError(Etc::ColorFloatRGBA, float, Etc::ColorFloatRGBA)
-/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_ETC1.cpp
+?/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_ETC1.cpp
 (fWeightSumLeft + fWeightSumRight) > 0.0f
 (fWeightSumTop + fWeightSumBottom) > 0.0f
 ptry < &a_phalf->m_atry[IndividualTrys::Half::MAX_TRYS]

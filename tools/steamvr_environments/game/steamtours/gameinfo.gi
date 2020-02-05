@@ -123,7 +123,11 @@
 		"AddonMapCommand"		"destinations_load_addon"
 		"UseUncompressedVertices"	"1"
 		"UsesBakedLighting"		"1"
-		"BakedLightingVRAD2WorkerCount"	"0"
+	}
+
+	ModelDoc
+	{
+		"features"					"animgraph;modelconfig"
 	}
 
 	RenderPipelineAliases
@@ -139,8 +143,21 @@
 		// steps. Additionally this controls which builders are displayed in the hammer build dialog.
 		DefaultMapBuilders
 		{			
-			"light"		"0"	// Using per-vertex indirect lighting baked from within hammer
+			"bakedlighting"	"1"	// Enable lightmapping during compile time
+			"dontrequirebakedlighting"	"1"	// Don't warn about old maps using per-vertex indirect lighting baked from within hammer
 			"envmap"	"0"	// Using env_cubemap entities
+		}
+
+		BakedLighting
+		{
+			Version 1
+			LightmapChannels
+			{
+				irradiance 1
+				directional_irradiance 1
+				// data is in directional_irradiance.a
+				//ao 1
+			}
 		}
 	}
 

@@ -2597,5 +2597,17 @@
 "[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
 "BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 จำเป็นต้องอัปเดตอุปกรณ์เพื่อเปิดการใช้งานการระบุตัวตนอุปกรณ์"
 "[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
+"MenuAction_BluetoothSettings"	"การตั้งค่าบลูทูธ"
+"[english]MenuAction_BluetoothSettings"	"Bluetooth Settings"
+"MenuAction_BaseStationSettings"	"การตั้งค่าสถานีฐาน"
+"[english]MenuAction_BaseStationSettings"	"Base Station Settings"
+"Settings_Bluetooth_Title"	"การตั้งค่าบลูทูธ"
+"[english]Settings_Bluetooth_Title"	"Bluetooth Settings"
+"Settings_BaseStations_Title"	"การตั้งค่าสถานีฐาน"
+"[english]Settings_BaseStations_Title"	"Base Station Settings"
+"Settings_Developer_Title"	"การตั้งค่าผู้พัฒนา"
+"[english]Settings_Developer_Title"	"Developer Settings"
+"MenuAction_PerformanceGraph"	"แสดงกราฟประสิทธิภาพ"
+"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }

@@ -90,11 +90,11 @@ _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 Event_CreateHandle
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 Event_HandleToData
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
 Event_DestroyHandle
 _ZN17CThreadSyncObjectD2Ev
 _ZN12CThreadEventC1Eb
@@ -129,7 +129,7 @@ _ZN7CThread7SuspendEv
 _ZN6CFiber15IsReadyToResumeEv
 _ZN6CFiber9ResumeJobEPv
 _ZN6CFiber21ReachedZeroReferencesEv
-_ZN12CThreadMutex7TryLockEv
+_ZN12CThreadMutex7TryLockEPKci
 _ZN21CThreadMultiWaitEvent5ResetEv
 ThreadMultiWaitObjectSetDestroy
 Plat_RelativeTicks
@@ -167,10 +167,10 @@ g_pThreadPool
 wcslen
 GetCStringCharConversion
 _ZN16CThreadSemaphoreD1Ev
-_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
-_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
+_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEPKcij
+_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEjPKci
 V_stricmp_fast_NegativeForUnequal
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 _ZN22CThreadRWLock_FastRead23UnlockRead_LockForWriteEv
 strcmp
 _ZN16CThreadSemaphore7ReleaseEiPi
@@ -349,8 +349,8 @@ V_StrTrim
 V_tier0_strstr
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN13CBufferString6ConcatEPKcS1_z
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 V_localeconv
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -374,7 +374,7 @@ CXXABI_1.3
 GLIBC_2.14
 GLIBC_2.4
 GLIBC_2.11
-;Hc5L
+Hc5"4/
 fffff.
 fffff.
 fffff.
@@ -466,9 +466,9 @@ $A;\$
 $A;\$
 AWAVAUATSH
 [A\A]A^A_]
-t$PHc
-[A\A]A^A_]
 AWAVAUATSH
+[A\A]A^A_]
+t$PHc
 [A\A]A^A_]
 AWAVL
 [A\A]A^A_]
@@ -500,6 +500,12 @@ uLH9G8L
 |5H;I
 [A\A]]
 [A\A]]
+[A\A]]
+AVAUATSH
+([A\A]A^A_]
+t_H9[
+t$PIc
+([A\A]A^A_]
 [A\A]]
 [A\A]]H
 [A\A]]
@@ -536,16 +542,16 @@ K@H9J
 0[A\]
 AWAVL
 [A\A]A^A_]
-AWAVL
-wHAUA
-[A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
-D9sp~CMczpI
+D;sp}CMczpI
 Mcr@L
 KHE;rPu
-mIcJPIc
+nIcJPIc
+AWAVL
+wHAUA
+[A\A]A^A_]
 [A\A]]
 0[A\]
 0[A\]
@@ -623,17 +629,19 @@ D;kH|
 [A\A]A^A_]
 AWAVI
 AUATI
-[A\A]A^A_]
-[A\A]A^A_]
+CThreadeA
+dJobA
+([A\A]A^A_]
+([A\A]A^A_]
 [A\A]A^A_]
 AVAUATSH
 A;_H|
 [A\A]A^A_]
 AWAVAUATI
 x[A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
 AWAVAUATS
+[A\A]A^A_]
+AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
 h[A\A]A^A_]
@@ -661,14 +669,19 @@ AUATSH
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
+CThreadeH
 AUATSH
 [A\A]]
 AWAVAUATI
 [A\A]A^A_]
+@D9=3".
 A9D$(
 AWAVAUATSH
 dH3<%(
 [A\A]A^A_]
+ffffff.
+ffffff.
+ffffff.
 AUATSH
 [A\A]]
 AUATSH
@@ -684,9 +697,14 @@ AWAVAUATSH
 AVAUATSH
 ([A\A]A^A_]
 AWAVAUATSH
+CThreadeA
+dJobA
 [A\A]A^A_]
 AWAVAUATSH
+CThreadeH
+dJobA
 [A\A]A^A_]
+CThreade
 AVAUATA
 [A\A]A^]
 AWAVAUATSH
@@ -706,7 +724,6 @@ AVAUATSH
 @t=Hc]
 [A\A]A^A_]
 AVAUATSH
-@9=IQ-
 [A\A]A^A_]
 [A\]H
 t)[A\]
@@ -716,30 +733,31 @@ t4[A\A]]
 AUATSD
 t4[A\A]]
 AVAUATI
-L$pE1
-E;l$p|
+L$xE1
+E;l$x|
 A\A]A^]
 [A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
 AWAVAUATS
-M;w vc
-M;w w
-G0I9G
+M;u vp
+M;u w
+E0I9E
 [A\A]A^A_]
-M;w v]
-G0I9G
-M+G8D
-M;w A
-M;w A
+<0M;} vp
+<0M;} w
+E0I9E
+M+E8H
+M;} A
+M;u A
 AWAVAUATS
 E0I9E
 [A\A]A^A_]
 M;u w:A
 M;u A
 AWAVAUL
-$2L;c v[
+$2L;c vh
 $2L;c w
 C0H9C
 [A\A]A^A_]
@@ -766,14 +784,14 @@ AVAUATSH
 AVAUI
 [A\A]A^]
 A\A]A^]
-A\A]A^]
+A\A]A^]H
 A\A]A^]
 AVAUL
 4$t$A
 [A\A]A^]
 AVAUATSH
 8[A\A]A^A_]
-[A\A]A^A_]
+A\A]A^A_]
 8[A\A]A^A_]
 A\A]A^A_]
 AUATSL
@@ -798,7 +816,7 @@ AVAUA
 [A\A]A^A_]
 AWAVAUATA
 8[A\A]A^A_]
-D$(E;A
+C(E;A
 ([A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -808,14 +826,16 @@ AUATE1
 AUATSH
 -VUUU
 [A\A]A^A_]
+t'D;3u
+t'D;3u
 ([A\A]A^A_]
 [A\A]]
 AUATI
 -VUUU
 [A\A]]
 [A\A]]
-AWAVAUI
-[A\A]A^A_]
+AVAUI
+[A\A]A^]
 AWAVAUI
 [A\A]A^A_]
 4(@84
@@ -963,9 +983,10 @@ t$HcW
 O,t	[A\]
 [A\A]]
 AWAVAUATI
--VUUUL
+-VUUUD
 [A\A]A^A_]
-t7D;8u
+t'D;;u
+t?D;8u
 AUATSH
 [A\A]]
 [A\A]]
@@ -983,12 +1004,12 @@ t$PE1
 AVAUATSH
 [A\A]A^A_]
 oPATI
-[A\A]A^A_]
+A\A]A^A_]
 AWAVI
-([A\A]A^A_]
+A\A]A^A_]
 D$PH9
 oPATSH
-[A\A]A^A_]
+A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
  [A\]
@@ -996,7 +1017,7 @@ K@H9J
 0[A\]
 0[A\]
 wPAUI
-[A\A]A^A_]
+A\A]A^A_]
 D$PH9
 t.H9P
 uLH9G8L
@@ -1259,9 +1280,6 @@ AWAVAUI
 h[A\A]A^A_]
 [A\A]A^A_]
 h[A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 AUATSH
@@ -1283,13 +1301,15 @@ Mcl$pE;
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 ;[A\]
 [A\A]A^A_]
@@ -1577,7 +1597,6 @@ Color
 %-32s
 Usage:  help <cvarname>
 FCVAR_NEVER_AS_STRING
-CCvar::FindCommandBase
  min. %f
  max. %f
 value
@@ -1690,6 +1709,7 @@ flag: <+/->DoNotEcho                        // Enable/disable a flag to turn off
     log_flags +developer +donotecho         // Turns on the LCF_DO_NOT_ECHO flag for all channels with the 'developer' tag.
 Too many channel specifiers (max: %d).
 Cannot mix and match tag specifiers with channel name specifiers.
+Convars/CCvar::FindCommandBase
  [%.3f server clamped to %.3f]
 CUtlRBTree overflow with %u elements!
 ../public/tier1/utlfixedmemory.h
@@ -1739,6 +1759,7 @@ N5CCvar21CCVarIteratorInternalE
 5CCvar
 8CFmtStrNILi256ELb0EE
 8CFmtStrNILi1024ELb0EE
+8eventdispatcherutils.cpp
 12CThreadEvent
 11IRefCounted
 13COneTimeEvent
@@ -1801,6 +1822,8 @@ N14ThreadPoolTest22CExecuteTestExecuteJobE
 CKeyValuesSystem::m_pMemPool
 keyvaluessystem.cpp
 Out of keyvalue string space
+../public/tier0/threadtools.h
+../public/tier1/memstack.h
 CKeyValuesSystem::m_Strings
 english
 X360HIDEF
@@ -1837,6 +1860,8 @@ DEFAULT_WRITE_PATH
 VGAME
 bin\stringtokendatabase.txt
 -teststringtokencollision
+../public/tier1/utltshash.h
+utlstringtokensystem.cpp
 <null>
 -load_string_token_database
 appears in lower database
@@ -1852,7 +1877,7 @@ CUtlStringTokenSystem could not open database file "%s" for writing. Aborting up
 21IUtlStringTokenSystem
 14CBaseAppSystemI21IUtlStringTokenSystemE
 21CUtlStringTokenSystem
-$@open
+$@processutils.cpp
 -breakimmediately
 -attachtodebugger
 %s %s -nominidumps
@@ -1874,11 +1899,11 @@ AllocInternal
 15CTier0AppSystemI13IProcessUtilsE
 15CTier1AppSystemI13IProcessUtilsLi0EE
 13CProcessUtils
+random.cpp
+/dev/urandom
+s_dev_urandom_fd >= 0
 CUniformRandomStream had an array overrun: tried to write to element %d of 0..31. 
 urandom_result > 0 || ( urandom_result < 0 && errno == EINTR )
-/dev/urandom
-random.cpp
-s_dev_urandom_fd >= 0
 SecureRandomBytes
 20IUniformRandomStream
 20CUniformRandomStream
@@ -1954,6 +1979,7 @@ Test_StartLoop
 15CTier1AppSystemI14ITestScriptMgrLi0EE
 14CTestScriptMgr
 BCFunctorCallback0
+eventsystem.cpp
 EventSystem001
 Perf warning: Forgot to unregister listeners on event queue %p
 Tried to install the same listener on the same event id + queue twice!
@@ -1972,7 +1998,7 @@ Field %s was flagged to both round up and down, these flags are mutually exclusi
 Field %s was flagged QFE_ENCODE_INTEGERS_EXACTLY, but didn't specify enough bits, upping bitcount from %d to %d for range [%f->%f]
 Field %s tried to quantize an out-of-range value (%f, range is %f->%f), clamping.
 Field %s tried to quantize an out-of-range value (%f, range is %f->%f) clamping.
-?true
+?utlobjectregistry.cpp
 false
 {%d %d %d %d}
 [%f %f]
@@ -2066,6 +2092,9 @@ HookUpConfigValue
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 client
 notify
 singleplayer
@@ -2074,9 +2103,12 @@ replicated
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -2084,7 +2116,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -2106,6 +2138,7 @@ u64( %lld = 0x%llX )
 update
 delete
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 

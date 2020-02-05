@@ -71,8 +71,9 @@
 	},
 	"systemui": {
 		"url": "/dashboard/systemui.html",
+		"overlay_key": "system.systemui",
 		"type": "overlay",
-		"pixel_size": [ 2048, 2048 ]
+		"pixel_size": [ 2048, 4096 ]
 	},
 	"bindingcallouts": {
 		"url": "/dashboard/bindingcallouts.html",

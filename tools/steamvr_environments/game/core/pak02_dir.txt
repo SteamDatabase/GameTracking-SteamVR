@@ -128,13 +128,12 @@ panorama/panorama_config.txt CRC:00ea9e70d4 size:222
 panorama/styles/base_world_panel.vcss_c CRC:00bbb1f2d7 size:436
 panorama/window_keybinds.cfg CRC:0000000000 size:0
 particles/beams/default_beam.vpcf_c CRC:006c9a7664 size:1239
-particles/code_driven/func_precipitation_with_trail.vpcf_c CRC:0022339b28 size:1020
 particles/entity/env_explosion/explosion_core.vpcf_c CRC:0086811083 size:1307
 particles/entity/env_explosion/explosion_firecloud.vpcf_c CRC:005e10ca0a size:1366
 particles/entity/env_explosion/explosion_smoke.vpcf_c CRC:00345e204e size:1490
 particles/error/error.vpcf_c CRC:0090fcbd65 size:860
 resource/keybindings_english.txt CRC:00e52d3f20 size:196
-resource/valve_english.txt CRC:003f04ece9 size:67180
+resource/valve_english.txt CRC:0076ecc6b7 size:67536
 resource/vgui_english.txt CRC:007dc3dd1d size:17678
 resourcemanifests/addon_resources.vrman_c CRC:006af7e63b size:475
 scripts/soundmixers.txt CRC:001f203e8f size:36664
@@ -157,7 +156,7 @@ soundevents/soundevents_addon.vsndevts_c CRC:00e20d89de size:325
 soundevents/soundevents_manifest.vrman_c CRC:009a3b72ff size:480
 soundstacks/mixgraph.vmix_c CRC:0071ead02d size:6383
 soundstacks/sosstrings.txt CRC:00c6684f39 size:168
-soundstacks/soundstacks_core.vsndstck_c CRC:00f56fb0a0 size:37258
+soundstacks/soundstacks_core.vsndstck_c CRC:0039c14c96 size:38672
 soundstacks/soundstacks_manifest.vrman_c CRC:00ab29bae5 size:480
 surfaceproperties/surfaceproperties.vsurf_c CRC:0019e606fb size:7436
 textures/dev/blue_noise_256.vtex_c CRC:00eb315605 size:263908

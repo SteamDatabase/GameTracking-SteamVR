@@ -1,4 +1,3 @@
-gDGP/
 __gmon_start__
 _fini
 _ITM_deregisterTMCloneTable
@@ -111,7 +110,7 @@ V_UTF16ToUTF8
 _Z6DevMsgPKcz
 _V_StringAfterPrefix
 _Z14V_stristr_fastPKcS0_
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 _V_strncmp
 _V_strnistr_fast
 V_strnchr
@@ -140,15 +139,15 @@ pthread_mutex_unlock
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
 _ZN17CThreadSyncObjectD2Ev
 pthread_mutex_destroy
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
 V_localeconv
@@ -361,9 +360,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
@@ -371,13 +367,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -1036,6 +1034,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -1050,10 +1051,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -1061,7 +1065,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -1083,6 +1087,7 @@ u64( %lld = 0x%llX )
 update
 delete
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 

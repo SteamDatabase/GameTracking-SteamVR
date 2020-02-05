@@ -23,6 +23,7 @@ Warning
 __cxa_guard_acquire
 __cxa_guard_release
 V_snprintf
+_V_strncpy
 g_pMemAlloc
 _Znwm
 RandomFloat
@@ -31,7 +32,6 @@ V_vsnprintfWarnTrunc
 strrchr
 strcmp
 V_FixSlashes
-_V_strncpy
 LoggingSystem_Log
 __stack_chk_fail
 strlen
@@ -40,7 +40,7 @@ _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE
 __cxa_pure_virtual
 ThreadGetCurrentId
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 Plat_VirtualFree
 memset
 lua_gettop
@@ -75,7 +75,6 @@ lua_getinfo
 _ZN42CVirtualMachineCallStackTranslationEncoderD2Ev
 V_PrettifyNum
 lua_pushlightuserdata
-__cxa_guard_abort
 lua_VALVE_OVERRIDE_MMAP
 luaL_newstate
 lua_atpanic
@@ -126,6 +125,7 @@ lua_getmetatable
 lua_setupvalue
 lua_insert
 luaL_loadstring
+__cxa_guard_abort
 ThreadSleep
 memmove
 CMemAllocSystemInitialize
@@ -158,6 +158,7 @@ strchr
 V_atoi
 V_sscanf
 V_atofloat64
+Plat_IsInDebugSession
 _Z6ConMsgPKcz
 V_atof
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
@@ -187,7 +188,6 @@ _V_StringAfterPrefix
 _V_strncmp
 _V_strnistr_fast
 V_strnchr
-Plat_IsInDebugSession
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
 V_strlower_fast
 V_strupper_fast
@@ -217,15 +217,15 @@ pthread_mutex_unlock
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
 _ZN17CThreadSyncObjectD2Ev
 pthread_mutex_destroy
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
 V_localeconv
@@ -429,9 +429,10 @@ AUATSH
 AWAVAUA
 [A\A]A^A_]
 AWAVAUATI
-8@t>H
+8@t:H
 [A\A]A^A_]
 AWAVH
+[A\A]A^A_]
 [A\A]A^A_]
 AVAUATSH
 t<[A\A]A^]
@@ -463,7 +464,7 @@ AWAVH
 AUATSH
 8[A\A]A^A_]
 AVAUATSH
-PE;w 
+PE;o 
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -472,8 +473,8 @@ AVAUATSH
 PE9o 
 [A\A]A^A_]
 AVAUATSH
-PE9o 
 [A\A]A^A_]
+PE9o 
 AVAUATSH
 [A\A]A^]
 [A\A]A^]
@@ -524,7 +525,8 @@ AVAUI
 ([A\A]A^A_]
 AWAVAUA
 [A\A]A^A_]
-AWAVAUI
+AWAVI
+AUATI
 8[A\A]A^A_]
 AUATSH
 [A\A]A^]
@@ -767,26 +769,22 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
-AUATSH
-[A\A]]
-[A\A]]
 [A\A]]
 G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -2080,8 +2078,9 @@ AddRef
 schemasystem
 SchemaSystem_001
 false
+(null)
 float
-unknown_variant_type
+cstring
 vector2d
 vector
 vector4d
@@ -2103,6 +2102,7 @@ js_value
 js_object
 js_array
 js_raw_args
+unknown_variant_type
 %g %g %g %g
 %d %d %d %d
 RandomFloat
@@ -2129,12 +2129,12 @@ Attempted to ConvertToCopiedData for unsupported type (%d)
 15CTier2AppSystemI14IScriptManagerLi0EE
 14CScriptManager
 8CFmtStrNILi256ELb0EE
+languages/lua/vlua/vlua.cpp
 _%x%llx_%s
 debug
 traceback
 unknown
 __self
-developer
 FDesc
 -luajit
 package
@@ -2146,7 +2146,7 @@ dofile
 loadlib
 CDesc
 EDesc
-cstring
+string_t
 __index
 IsNull
 __call
@@ -2156,7 +2156,6 @@ __userdata_metatable
 Failed to find %s
 Failed to read %s
 scripts/vscripts/%s
-(null)
 <unknown>
 (%s) %s:%d
 __sourceid
@@ -2343,6 +2342,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 client
 archive
 notify
@@ -2356,10 +2358,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -2367,8 +2372,9 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
+developer
 0x%016llX
 %f %f %f %f
 (*%s*), 
@@ -2387,6 +2393,7 @@ u64( %lld = 0x%llX )
 #empty#
 delete
 borrow
+keyvalues.cpp
 utlbuffer.cpp
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
 VaPrintf

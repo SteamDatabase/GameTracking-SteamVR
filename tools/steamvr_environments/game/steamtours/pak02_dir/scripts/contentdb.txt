@@ -1804,46 +1804,6 @@
 			default_color = [ 52,192,193 ]
 		},	
 		{
-			id = "balloonicorn_squishable"
-			name = "(FSR) Squishable Ballonicorn"
-			desc = "(FSR) Squishable Ballonicorn"
-			content = "models/props_gameplay/balloonicorn_squishable.vmdl"
-			preview_image = "file://{images}/contentdb/balloonicorn.png"
-			locked_by_quest = false
-			default_color = [ 52,192,193 ]
-			dev_only = true
-		},	
-		{
-			id = "fsr_test_simple_morph"
-			name = "(FSR) Simple Morph"
-			desc = "(FSR) Simple Morph"
-			content = "models/props_gameplay/simplemorph_squash.vmdl"
-			preview_image = "file://{images}/contentdb/basic_sphere001.png"
-			locked_by_quest = false
-			default_color = [ 255,255,255 ]
-			dev_only = true
-		},	
-		{
-			id = "fsr_test_softbody_squash"
-			name = "(FSR) Softbody Squash"
-			desc = "(FSR) Softbody Squash"
-			content = "models/props_gameplay/softbody_squash.vmdl"
-			preview_image = "file://{images}/contentdb/head_e_thumb.png"
-			locked_by_quest = false
-			default_color = [ 52,192,193 ]
-			dev_only = true
-		},	
-		{
-			id = "egg_fracture"
-			name = "(FSR) Egg Fracture"
-			desc = "(FSR) Egg Fracture"
-			content = "models/props_gameplay/egg.vmdl"
-			preview_image = "file://{images}/contentdb/watermelon.png"
-			locked_by_quest = false
-			// default_color = [ 52,192,193 ]
-			dev_only = true
-		},	
-		{
 			id = "portal_cake"
 			name = "#VR_PhysicsProp_PortalCake"
 			desc = "#VR_PhysicsProp_PortalCake_Desc"

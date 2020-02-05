@@ -3,6 +3,7 @@ F*?mmps
 G/	Ft
 *%8'v
 DkEF]
+1iA*G
 LS6 	
 eV5( 
 K:SF2
@@ -118,7 +119,7 @@ Plat_IgnoreContentAsserts
 Plat_IsInTestMode
 GetDefaultMiniDumpTypeFlags
 _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 AssertMsg_ConditionFailed_ContextFunc
 _ZTS12CThreadEvent
 _ZTI12CThreadEvent
@@ -199,7 +200,9 @@ Plat_VirtualAlloc
 V_atoi
 V_atofloat32
 FreeCommandLine
+Plat_GetGameDirectory
 Plat_GetCurrentDirectory
+__memcpy_chk
 __printf_chk
 Plat_GetExecutablePathUTF8
 Plat_GetEnv
@@ -253,8 +256,8 @@ _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _ZNK22MiniDumpStandardData_t21HandlerQueueHeartBeatEv
 RegisterAssertionFailureListener
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 UnregisterAssertionFailureListener
 LoggingSystem_RegisterLoggingChannel
 Tier0DebugDraw3DLine
@@ -395,12 +398,13 @@ MemFreeScratch
 MemZeroMemory
 Qt_GetCustomAllocators
 Plat_VirtualFree
+malloc_usable_size
 Plat_GetCurrentRSS
 V_PrettifyNum
 Plat_GetPeakRSS
-malloc_usable_size
-CMemAllocSystemInitialize
 calloc
+CMemAllocSystemInitialize
+posix_memalign
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
 Plat_GetMiniDumpErrorString
 MinidumpUserStreamInfoSetHeader
@@ -466,7 +470,6 @@ g_pPerfTraceDepot
 clock_gettime
 _V_SetExtension
 _ZN16CThreadSemaphoreD1Ev
-_ZN16CThreadSemaphore7ReleaseEiPi
 Plat_GetPlatformError
 __errno_location
 Plat_GetCurrentFrame
@@ -582,7 +585,6 @@ getcwd
 Plat_SetFileReadOnly
 Plat_FileSize
 Plat_IsDirectory
-Plat_GetGameDirectory
 V_StripFilename
 _V_StripLastDir
 V_StripTrailingSlash
@@ -629,8 +631,9 @@ Plat_IAPUpdatePurchaseStatus
 Plat_IAPUpdateConsumedStatus
 pthread_setspecific
 Plat_GetGlobalListRegistry
-_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
-_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
+_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEjPKci
+_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEPKcij
+_ZN16CThreadSemaphore7ReleaseEiPi
 _ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
 _ZN22CThreadRWLock_FastReadC1Ev
 raise
@@ -710,7 +713,6 @@ Plat_VerifyHardwareKeyDriver
 Plat_VerifyHardwareKeyPrompt
 Plat_FastVerifyHardwareKey
 __memset_chk
-__memcpy_chk
 V_qsort
 StackTools_EnumerateVirtualMachineEncoders
 _ZN42CVirtualMachineCallStackTranslationEncoderC2EPKc
@@ -946,23 +948,23 @@ _ZN21CThreadMultiWaitEvent3SetEv
 _ZN22CThreadMultiWaitObject6SignalEv
 _ZN21CThreadMultiWaitEvent5ResetEv
 _ZN15CThreadSpinLock11SetMaxSpinsEi
-_ZN15CThreadSpinLockC2Ei
-_ZN15CThreadSpinLockC1Ei
-_ZN12CThreadMutex7TryLockEv
+_ZN15CThreadSpinLockC2EPKci
+_ZN15CThreadSpinLockC1EPKci
+_ZN12CThreadMutex7TryLockEPKci
 pthread_mutex_trylock
 ThreadSetAffinityPreference
-_ZN13CThreadRWLock15TryLockForWriteEv
-_ZN13CThreadRWLock23UnlockRead_LockForWriteEv
-_ZN13CThreadRWLock23UnlockWrite_LockForReadEv
+_ZN13CThreadRWLock15TryLockForWriteEPKci
+_ZN13CThreadRWLock23UnlockRead_LockForWriteEPKci
+_ZN13CThreadRWLock23UnlockWrite_LockForReadEPKci
 _ZN22CThreadRWLock_FastReadC2Ev
 _ZN22CThreadRWLock_FastRead23UnlockRead_LockForWriteEv
 _ZN22CThreadRWLock_FastRead23UnlockWrite_LockForReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock11UnlockWriteEv
-_ZN17CThreadSpinRWLock23UnlockRead_LockForWriteEv
-_ZN17CThreadSpinRWLock23UnlockWrite_LockForReadEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
+_ZN17CThreadSpinRWLock23UnlockRead_LockForWriteEPKci
+_ZN17CThreadSpinRWLock23UnlockWrite_LockForReadEPKci
 _ZN13CWorkerThread13GetCallHandleEv
 _ZNK13CWorkerThread12GetCallParamEv
 _ZN13CWorkerThread12WaitForReplyEjPFjjPP12CThreadEventijE
@@ -1087,11 +1089,12 @@ _ZN9CVProfile13ResetCountersE14CounterGroup_t
 _ZNK9CVProfile14GetNumCountersEv
 _ZNK9CVProfile14GetCounterNameEi
 _ZNK9CVProfile15GetCounterValueEi
-_ZNK9CVProfile22GetCounterNameAndValueEiRi
+_ZNK9CVProfile22GetCounterNameAndValueEiRm
 _ZNK9CVProfile15GetCounterGroupEi
 _ZN9CVProfile24ExecuteDeferredFunctionsEv
 _ZN9CVProfile19AddDeferredFunctionEPFvPvES0_
 _ZN9CVProfile22RemoveDeferredFunctionEPFvPvES0_
+_ZN9CVProfile20AssignNextTimespanIdEv
 _ZNSt8_Rb_treeIPKcSt4pairIKS1_yESt10_Select1stIS4_ESt4lessIS1_ESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E
 _ZNSt8_Rb_treeIPKcSt4pairIKS1_yESt10_Select1stIS4_ESt4lessIS1_ESaIS4_EE16_M_insert_uniqueIS2_IS1_mEEES2_ISt17_Rb_tree_iteratorIS4_EbEOT_
 _ZN9CVProfile8SumTimesEPK10CVProfNodeiR20CVProfSummingContext
@@ -1423,6 +1426,7 @@ GLIBC_2.7
 GLIBC_2.4
 GLIBC_2.3.4
 GLIBC_2.11
+ [A\]
 fffff.
 fffff.
 fffff.
@@ -1579,6 +1583,7 @@ AVAUATSH
 [A\A]A^]
 AUATSH
 [A\A]]
+AWAVAUI
 [A\A]A^A_]
 AUATL
 [A\A]]
@@ -1769,13 +1774,13 @@ AWAVAUATSH
 8[A\A]A^A_]
 AWAVI
 H[A\A]A^A_]
-I)E(L
+I)F0H
 AWAVAUL
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-H9w8v
-H;w0s
+H9w@v
+H;w8s
 AVAUL
 [A\A]A^]
 AUATSH
@@ -1783,34 +1788,46 @@ AUATSH
 AUATI
 [A\A]]
 [A\A]]
- [A\A]A^]
+AUATI
+([A\A]]
 AUATI
 ([A\A]]
 [A\A]]
-AWAVAUATI
-[A\A]A^A_]
-[A\A]A^A_]
-[A\A]]
-AWAVAUATI
-[A\A]A^A_]
-[A\A]A^A_]
+AVAUI
 [A\A]A^]
-AWAVAUATI
-[A\A]A^A_]
-[A\A]A^A_]
-[A\A]]
+[A\A]A^]
 [A\A]]
 AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
+[A\A]A^]
+AVAUI
+[A\A]A^]
+[A\A]A^]
+[A\A]]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]A^A_]
+[A\A]A^]
 [A\A]]
 AVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^]
-AWAVAUI
+[A\A]]
+AWAVI
+AUATSH
 [A\A]A^A_]
 [A\A]A^A_]
+[A\A]A^A_]
+A\A]A^]
+AWAVI
+AUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^]
 [A\A]]
 AUATI
 A\A]]
@@ -1828,6 +1845,8 @@ AUATSH
 A\A]]
 AUATSH
 [A\A]]
+[A\A]]
+AUATSH
 [A\A]]
 AUATSH
 [A\A]]
@@ -1837,9 +1856,11 @@ A\]Hi
 [A\A]]
 H[A\A]]
 AUATS
+AUATSH
+A\A]]H
 AVAUATI
 [A\A]A^]
-t/H;=xe%
+t/H;=
 AVAUATSH
 [A\A]A^]
 <3te<4
@@ -1884,7 +1905,7 @@ AUATI
 AUATSH
 [A\A]]
 AUATI
-tYsHH
+tisXH
 [A\A]]
 AVAUATSH
 [A\A]A^]
@@ -2062,7 +2083,7 @@ AWAVAUATA
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-t	[A\]
+t![A\]
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
@@ -2070,6 +2091,7 @@ AWAVAUATSH
 AWAVAUATSH
 [A\A]A^A_]
 AUATI
+[A\A]A^A_]
 [A\A]]
 AWAVL
 ([A\A]A^A_]
@@ -2120,6 +2142,8 @@ AWAVAUATSH
 AVAUATI
 X[A\A]A^A_]
 uG[A\]
+9=R`"
+95%`"
 [A\A]A^]
 [A\A]A^]
 AWAVA
@@ -2181,7 +2205,6 @@ H[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-L;%1H$
 AWAVA
 LccpE9
 8[A\A]A^A_]
@@ -2190,6 +2213,8 @@ IcL$pA9
 [A\A]]
 [A\A]]
 A\A]]
+AUATI
+[A\A]]
 [A\A]A^]
 A\A]A^]
 A\A]A^]
@@ -2198,7 +2223,7 @@ A\A]A^]
 AWAVAUATSH
 t H;0u
 [A\A]A^A_]
-[A\A]A^A_]
+AUATSH
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]]
@@ -2348,7 +2373,7 @@ AWAVAUATSH
 AVAUATA
 p[A\A]A^]
 AUATS
-hLc%v
+hLc%f
 h[A\A]]
 AWAVAUI
 [A\A]A^A_]
@@ -2604,6 +2629,7 @@ Fatal Error
 %s (%d) : %s
 %s (%d) : %s
 -noassert
+assert_dialog.cpp
 ::<lambda_
 >::operator ()
 DoAssertDialog: invalid Assert response returned from dialog/vxconsole - breaking to debugger
@@ -2687,9 +2713,11 @@ IAssertionFailureListener::AssertionFailure()
 FlushBuffer
 SetListener
 AllocateEvent
-@CDynamicFunction: Closing library '%s' (%p)
+@debugdraw.cpp
+CDynamicFunction: Closing library '%s' (%p)
 CDynamicFunction: Lookup of '%s' in '%s': %p
 CDynamicFunction: Loading library '%s' (%p)
+fibertools.cpp
 18CThreadManualEvent
 13IFiberJobPool
 13CFiberJobPool
@@ -2702,8 +2730,10 @@ ERROR: HangWatchdogInternal_EndScope() - Hang watchdog not implemented for this 
 ERROR: HangWatchdog_IndicateActivity() - Hang watchdog not implemented for this platform!
 HangWatchdog
 -nohibernate
+hibernate.cpp
 Plat_EnterHibernation()
 Plat_ExitHibernation()
+logging.cpp
 forced dump
 detailed
 message
@@ -2711,7 +2741,6 @@ warning
 error
 %s():
 AbortMessage({
-logging.cpp
 Out of logging channels.
 DeveloperVerbose
 Developer
@@ -2863,6 +2892,7 @@ HEAP WARNING: memory pointer %p is invalid
 HEAP WARNING: memory block at %p is unexpectedly allocated
 HEAP WARNING: memory block at %p is unexpectedly free
 HEAP WARNING: memory block at %p is unexpectedly unrecognized
+mem_helpers.cpp
 Heap: standard allocator
 memstats_%d.txt
 OS memory stats:
@@ -2881,13 +2911,14 @@ Warning: Fell out of small block heap!
 NoteAlloc
 NoteAlloc
 22CStdMemAlloc_Data_Base
-28CStdMemAlloc_Data_StackStatsI24MemoryAllocationHeader_tI9MemConfigILb0ELb0E27DefaultAdditionalPropertiesEELb0EE
-28CStdMemAlloc_Data_StackStatsI24MemoryAllocationHeader_tI9MemConfigILb0ELb0E27RuntimeAdditionalPropertiesEELb0EE
-17CStdMemAlloc_DataI24MemoryAllocationHeader_tI9MemConfigILb0ELb0E27DefaultAdditionalPropertiesEEE
-17CStdMemAlloc_DataI24MemoryAllocationHeader_tI9MemConfigILb0ELb0E27RuntimeAdditionalPropertiesEEE
+28CStdMemAlloc_Data_StackStatsI9MemConfigILb0ELb0E27RuntimeAdditionalPropertiesELb0EE
+28CStdMemAlloc_Data_StackStatsI9MemConfigILb0ELb0E27DefaultAdditionalPropertiesELb0EE
+17CStdMemAlloc_DataI9MemConfigILb0ELb0E27RuntimeAdditionalPropertiesEE
+17CStdMemAlloc_DataI9MemConfigILb0ELb0E27DefaultAdditionalPropertiesEE
 9IMemAlloc
-12CStdMemAllocI24MemoryAllocationHeader_tI9MemConfigILb0ELb0E27DefaultAdditionalPropertiesEEE
-12CStdMemAllocI24MemoryAllocationHeader_tI9MemConfigILb0ELb0E27RuntimeAdditionalPropertiesEEE
+18IMemAlloc_Internal
+12CStdMemAllocI9MemConfigILb0ELb0E27DefaultAdditionalPropertiesEE
+12CStdMemAllocI9MemConfigILb0ELb0E27RuntimeAdditionalPropertiesEE
 @MiniDumpExceptionHandler() is undefined for this platform
 UnknownOS
 (Missing)
@@ -2898,6 +2929,7 @@ CMiniDumpComment encountered an error while generating the comment
 27CMiniDumpCommentBuilderBase
 15IPerfTraceDepot
 22CPerfTraceDepotDefault
+platform.cpp
 -force_battery_level
 -force_battery_level_battery
 DEBUG_EXITPROCESS
@@ -2988,7 +3020,6 @@ VALVE_TESTMODE
 %s: %s
 -nocustomermachine
 -retail
-platform.cpp
 %s: invalid flag byte count
 -ignorecontentasserts
 game/bin/linuxsteamrt64
@@ -3000,6 +3031,7 @@ linux
 /proc/self/statm
 %zu %zu %zu %zu %zu %zu %zu
 %*s%ld
+../public/tier0/globallist.h
 /sys/devices/system/clocksource/clocksource0/current_clocksource
 MacOS 10.6.4 with Apple's Snow Leopard Graphics Update
  failed to dlopen %s error=%s
@@ -3248,6 +3280,7 @@ STUB_GetStatStructName
 DWARF_LOCAL_TRANSLATE
 28CallStackStatStructDescFuncs
 24BasicStatStructFieldDesc
+stacktools.cpp
     %s %d: proc %d (group %u:%u)
   %s slot %d combined mask %u:0x%llx
 Affinity preferences: disabled (%u physical procs, %u logical)
@@ -3397,6 +3430,7 @@ Jobs/Coroutines
 Client VScript
 Server VScript
 Other VScript
+vprof.cpp
 -- Summary --
 Peak %.2f ms frame
 No samples

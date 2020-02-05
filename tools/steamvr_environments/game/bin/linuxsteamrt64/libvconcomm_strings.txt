@@ -60,7 +60,7 @@ Plat_MSTime
 V_vsnprintfWarnTrunc
 V_stricmp_fast
 memset
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 _ZN17CThreadSyncObject4WaitEj
 LoggingSystem_RegisterLoggingChannel
 _ZTI17CThreadSyncObject
@@ -102,6 +102,7 @@ strchr
 V_atoi
 V_sscanf
 V_atofloat64
+Plat_IsInDebugSession
 _Z6ConMsgPKcz
 V_atof
 strcmp
@@ -135,7 +136,6 @@ CMemAllocSystemInitialize
 _V_strncmp
 _V_strnistr_fast
 V_strnchr
-Plat_IsInDebugSession
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
 V_strlower_fast
 V_strupper_fast
@@ -400,9 +400,6 @@ AWAVAUI
 h[A\A]A^A_]
 [A\A]A^A_]
 h[A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
@@ -411,13 +408,15 @@ G8t.H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -615,6 +614,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -629,10 +631,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -640,7 +645,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -662,6 +667,7 @@ u64( %lld = 0x%llX )
 update
 delete
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 

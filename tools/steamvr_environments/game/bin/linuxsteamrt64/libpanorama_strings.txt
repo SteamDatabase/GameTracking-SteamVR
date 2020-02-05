@@ -127,6 +127,7 @@ _ZN2v86Object3GetEj
 _ZN2v88Function4CallENS_5LocalINS_5ValueEEEiPS3_
 _ZNK2v88TryCatch9HasCaughtEv
 _ZNK2v85Value12BooleanValueEv
+_Z14V_stristr_fastPKcS0_
 _ZN2v816FunctionTemplate11GetFunctionEv
 _ZN2v86Object3SetENS_5LocalINS_5ValueEEES3_
 V_vscprintf
@@ -184,7 +185,6 @@ _ZN2v814ObjectTemplate11NewInstanceEv
 _ZNK2v85Value8ToUint32ENS_5LocalINS_7ContextEEE
 _ZNK2v85Value11Uint32ValueEv
 _ZN2v88TryCatch5ResetEv
-_Z14V_stristr_fastPKcS0_
 _ZN2v84JSON5ParseENS_5LocalINS_6StringEEE
 _ZN2v86Script7CompileENS_5LocalINS_6StringEEEPNS_12ScriptOriginE
 _ZN2v86Script16GetUnboundScriptEv
@@ -336,9 +336,9 @@ _ZN13CBufferString6SetPtrEPciibb
 Plat_GetTime
 _Z16V_UnicodeAdvancePci
 _ZN13CBufferString12AppendFormatEPKcz
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 ThreadSleep
-_ZN12CThreadMutex7TryLockEv
+_ZN12CThreadMutex7TryLockEPKci
 roundf
 RandomFloat
 RandomInt
@@ -433,13 +433,13 @@ _V_ExtractFileExtension
 V_strnlen
 V_tier0_strstr
 _ZN13CThreadRWLock11WaitForReadEv
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 V_localeconv
 Plat_GetOSType
 Plat_IsHighDPI
@@ -830,8 +830,6 @@ $IcD$
 H[A\A]A^A_]
 AWAVAUL
 [A\A]A^A_]
-AWAVAUATI
-[A\A]A^A_]
 AUATSH
 [A\A]]
 [A\A]]
@@ -886,6 +884,8 @@ AUATI
 Hc@pH
 AWAVAUATSH
 [A\A]A^A_]
+AVAUATI
+8[A\A]A^A_]
 AWAVAUATI
 h[A\A]A^A_]
 AVAUATSH
@@ -1531,9 +1531,9 @@ AVAUA
 AVAUATSH
 tpHcU
 [A\A]A^A_]
+tGLcm
 H90t%A
 Hc@pH
-tGLcm
 AWAVAUATI
 ([A\A]A^A_]
 ([A\A]A^A_]
@@ -2424,6 +2424,7 @@ t8HcO
 t8HcO
 t4HcB
 [A\A]]
+^%l(D
 AWAVL
 [A\A]A^A_]
 HcC 1
@@ -2815,7 +2816,7 @@ H90t-A
 Hc@pH
 AWAVI
 fA9].|
-fD9=T
+fD9=4
 [A\A]A^A_]
 H90t%A
 Hc@pH
@@ -2942,12 +2943,12 @@ Hc@pH
 Hc@pH
 Hc@pH
 AVAUATS
-.5WYB
-.--YB
 [A\A]A^A_]
 A9G(L
+T%VQB
 Hc@pH
 AVAUATSH
+.%-LB
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVI
@@ -2965,7 +2966,6 @@ H90t%A
 Hc@pH
 AVAUI
 [A\A]A^]
-^-A!B
 AWAVAUE1
 [A\A]A^A_]
 AVAUI
@@ -3105,6 +3105,7 @@ AWAVAUI
 H[A\A]A^A_]
 H[A\A]A^A_]
 [A\A]]
+^%g/A
 [A\A]]
 AUATI
 [A\A]]
@@ -3863,7 +3864,7 @@ AUATSH
 @tuE1
 [A\A]]
 AWAVAUATSH
-D9%	3u
+D9%y-u
 [A\A]A^A_]
 AWAVAUATSH
 ([A\A]A^A_]
@@ -3940,6 +3941,7 @@ AUATL
 [A\A]]
 [A\A]]
 AWAVI
+AUATLc
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUATSH
@@ -4088,6 +4090,8 @@ h[A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
 E;.}3I
+AWAVM
+[A\A]A^A_]
 AUATSH
 u?Hc]
 h[A\A]A^A_]
@@ -4095,8 +4099,6 @@ h[A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
 E;.}3I
-AWAVM
-[A\A]A^A_]
 AUATSH
 u?Hc]
 h[A\A]A^A_]
@@ -4113,7 +4115,7 @@ AYAZH
 AWAVAUATI
 AYAZH
 [A\A]A^A_]
-AWAVAUATSH
+AWAVAUATLc
 [A\A]A^A_]
 [A\A]]
 AUATI
@@ -4430,9 +4432,9 @@ HcO$H
 HcK$D
 #IcT$
 [A\A]]
-AWAVAUATSH
+AWAVAUATI
 [A\A]A^A_]
-H90t&A
+H90t%A
 Hc@pH
 AWAVL
 AUATSH
@@ -4696,7 +4698,6 @@ AWAVA
 [A\A]]
 AWAVAUATSH
 [A\A]A^A_]
-.-S":
 AUATI
 [A\A]A^A_]
 [A\A]A^A_]
@@ -5051,17 +5052,17 @@ A9F(r
 8[A\A]A^A_]
 8[A\A]A^A_]
 IcM0Hc
-H90t%H
+H90t%1
 Hc@pH
 AWAVAUATSH
-c D;c0I
-c D;c0I
+Lcc D;c0I
+Lcc D;c0I
 f E;f0I
 H[A\A]A^A_]
 H[A\A]A^A_]
 IcN0I
 IcN0I
-H90t%H
+H90t%A
 Hc@pH
 IcN0Hc
 [A\A]]
@@ -5076,8 +5077,8 @@ AUATL
 AWAVAUATSH
 Mcn E;n0H
 H+C D
-< L;{
-< L;{
+<!L;{
+<!L;{
 [A\A]A^A_]
 MIcN0Ic
 AWAVAUATSH
@@ -5114,7 +5115,7 @@ A9G(r
 X[A\A]A^A_]
 MIcM0Hc
 AWAVAUATSH
-.5|88
+.5A28
 x[A\A]A^A_]
 Mce E;e0I
 MIcM0Hc
@@ -5129,8 +5130,8 @@ AWAVAUATSAQL
 [A\A]A^A_]
 AWAVAUATSH
 Mce E;e0H
-< L;{
-< L;{
+<!L;{
+<!L;{
 [A\A]A^A_]
 H+C D
 UIcM0Ic
@@ -5167,8 +5168,8 @@ UIcM0Ic
 E(LcE
 AVAUI
 H+C D
-4 L;s
-4 L;s
+4!L;s
+4!L;s
 ([A\A]A^A_]
 McE E;E0H
 UIcM0Ic
@@ -5237,8 +5238,10 @@ AUATSH
 [A\A]]
 AVAUI
 8[A\A]A^A_]
-AVAUI
-8[A\A]A^A_]
+AVAUATI
+[A\A]A^]
+fE9l$
+fA9\$
 Hcs@H
 @:0t(H
 [A\A]A^]
@@ -5249,6 +5252,8 @@ AWAVI
 AUATI
 [A\A]A^A_]
 AWAVAUATI
+.=uD8
+.54D8
 zeucD
 zVuTD
 zNuLD
@@ -5356,14 +5361,14 @@ $A;\$
 tHMcu
 D;;}WA
 X[A\A]A^A_]
-ZL$Hf
-[A\A]A^A_]
-[A\A]]
-AUATSH
-[A\A]A^A_]
 Hc[ ;X0
 [A\A]A^A_]
 IcO0I
+[A\A]]
+AUATSH
+[A\A]A^A_]
+ZL$Hf
+[A\A]A^A_]
 AWAVAUATI
 X[A\A]A^A_]
 ZL$Hf
@@ -5381,8 +5386,9 @@ ZL$Hf
 [A\A]A^A_]
 ZL$Hf
 [A\A]A^A_]
-ZL$Hf
+Hc[ ;X0
 [A\A]A^A_]
+IcO0I
 ZL$Hf
 [A\A]A^A_]
 ZL$Hf
@@ -5391,9 +5397,8 @@ AUATSH
 [A\A]A^A_]
 ZL$Hf
 [A\A]A^A_]
-Hc[ ;X0
+ZL$Hf
 [A\A]A^A_]
-IcO0I
 ZL$Hf
 [A\A]A^A_]
 AWAVAUATSH
@@ -5521,9 +5526,10 @@ G	A8F
 ([A\A]A^A_]
 @8>tN
 [A\A]]
-AWAVI
-X[A\A]A^A_]
-X[A\A]A^A_]
+AWAVL
+AUATI
+([A\A]A^A_]
+([A\A]A^A_]
 AWAVI
 X[A\A]A^A_]
 X[A\A]A^A_]
@@ -5621,8 +5627,6 @@ AUATI
 t	[A\]
  [A\]
 {D[A^]
-{8[A^]
-t	[A^]
 AUATI
 [A\A]]
 [A\A]]
@@ -5666,6 +5670,24 @@ F 9G ]
 .D$0z
 .D$4z
 .D$8z
+AWAVI
+H[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+P(D;c
+[A\A]A^]
+.K8zvut
+.K<znul
+.K@zfud
+.KDz^u\
+.CHzVuT
+.KLzNuL
+.KPzFuD
+.KTz>u<
+.KXz6u4
+.C\z.u,
+.K`z&u$
+[A\A]A^]
 V(8W(u
 9f9:u
 H88J8t
@@ -5682,26 +5704,8 @@ AWAVE1
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^]
-AWAVI
-H[A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^]
-[A\A]A^]
-AVAUATSH
-[A\A]A^]
-P(D;c
-[A\A]A^]
-.K8zvut
-.K<znul
-.K@zfud
-.KDz^u\
-.CHzVuT
-.KLzNuL
-.KPzFuD
-.KTz>u<
-.KXz6u4
-.C\z.u,
-.K`z&u$
 [A\A]A^]
 F 9G t	1
 F(9G(]
@@ -5756,11 +5760,11 @@ AWAVI
 AUATSH
 ([A\A]A^A_]
 AVAUI
+8[A\A]A^A_]
+AVAUI
 [A\A]A^A_]
 AVAUATSH
 @[A\A]A^]
-AVAUL
-[A\A]A^]
 AVAUATSH
 [A\A]A^]
 A\A]A^]
@@ -5852,12 +5856,6 @@ AWAVAUATSH
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
-[A\A]A^A_]
-AWAVAUATSH
-fA;T$
-H[A\A]A^A_]
-fE;|$
-AWAVAUATSH
 X[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -5907,13 +5905,10 @@ D;g D
 AVAUATI
 IcD$ A9
 [A\A]A^]
-AWAVI
-x[A\A]A^A_]
-x[A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
 HcC A9
-fB94(
+fB94 
 [A\A]]
 AWAVAUI
 IcD$ 9
@@ -5975,8 +5970,8 @@ AUATI
 [A\A]]
 AWAVI
 [AZA\A]A^A_]I
-.%DI4
-.%LH4
+.%tK4
+.%|J4
 AUATSH
 8[A\A]]
 AWAVAUATSH
@@ -6017,8 +6012,8 @@ AWAVI
 AUATI
 Mco E;o0H
 H+C D
-< L;{
-< L;{
+<!L;{
+<!L;{
 [A\A]A^A_]
 IcO0I
 AVAUATI
@@ -6027,15 +6022,9 @@ phMc.E;n
 AVAUATI
 phMc.E;n
 [A\A]A^]
-AWAVI
-H+C D
-<!L;{
-<!L;{
-hhMce
-8[A\A]A^A_]
-McE E;E0H
-UIcM0Ic
-E(LcE
+AWAVAUATI
+xhMc/E;o
+[A\A]A^A_]
 AWAVI
 AUATI
 @hLc8D;x
@@ -6180,14 +6169,14 @@ IcN0I
 IcL$0I
 AWAVI
 H+C D
-< L;{
-< L;{
+<!L;{
+<!L;{
 ([A\A]A^A_]
 McE E;E0H
 UIcM0Ic
 E(LcE
 AWAVAUI
-phMc&E;f
+phMc.E;n
 8[A\A]A^A_]
 AWAVAUL
 ([A\A]A^A_]
@@ -6239,7 +6228,7 @@ AUATLc
 AWAVAUL
 Lcc D;c0I
 x[A\A]A^A_]
-H90t%H
+H90t%A
 Hc@pH
 IcO0I
 AUATSH
@@ -6285,7 +6274,7 @@ B0 u#
 [A\A]A^A_]
 AWAVAUATSH
 Lcc D;c0I
-Lcc D;c0I
+c D;c0I
 8[A\A]A^A_]
 IcN0I
 IcN0I
@@ -6294,10 +6283,9 @@ AWAVAUATA
 D;!ttHc
 AVAUA
 A\A]A^]
-AWAVI
-AUATI
+AWAVAUI
 [A\A]A^A_]
-v|Hc@
+vnHc@
 s Hc@
 AVAUATI
 dH34%(
@@ -6506,19 +6494,15 @@ AVAUATI
 [A\A]A^]
 t=[A\]
 AUATSH
-8[A\A]]
-8[A\A]]
-AUATSH
 [A\A]]
 [A\A]]
-AVAUATSH
+ [A\]
+ [A\]
+AVAUL
  [A\A]A^]
- [A\A]A^]
-AWAVAUfA
-8[A\A]A^A_]
 AWAVAUATSH
 zFuDfA
-.%ta1
+z~u|H
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]]
@@ -6541,9 +6525,9 @@ AUATSH
 [A\A]]
 [A\A]]
 [A\A]]
-sLA9u
+sTA9u
 [A\A]]
-shA9u
+spA9u
 [A\A]]
 [A\A]]
 [A\A]]
@@ -6560,14 +6544,14 @@ AWAVAUATI
 C ZYH
 [A\A]A^A_]
 AWAVAUI
-;CLt>HcSPH
-CLD;sht5HcSpH
+;CTt>HcSXH
+CTD;spt=HcSxH
 [A\A]A^A_]
 AUATI
-HcGPL
-IcD$pI
+HcGXL
+IcD$xI
 [A\A]]
-E9n(H
+E9n0H
 [A\A]A^A_]
 ziugH
 zSuQH
@@ -6582,8 +6566,6 @@ AWAVAUATI
 AWAVAUATI
 [A\A]A^A_]
 AWAVAUATA
-[A\A]A^A_]
-AWAVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUI
@@ -6657,6 +6639,7 @@ AWAVAUATSH
 AUATA
 [A\A]A^A_]
 [A\A]A^A_]
+.-tn0
 AWAVI
 [A\A]A^A_]
 AVAUATSH
@@ -6735,7 +6718,7 @@ AWAVAUATSH
 AWAVI
 AUATE
 [A\A]A^A_]
-X-nD0
+X-^M0
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUATI
@@ -6775,6 +6758,7 @@ AUATLc
 [A\A]A^]
 AWAVAUATSH
 [A\A]A^A_]
+.5;|/
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
@@ -6894,9 +6878,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 AUATSH
@@ -6907,13 +6888,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 ;[A\]
 [A\A]A^]
@@ -8315,9 +8298,9 @@ ffff.
 AWAVAUI
 ATUSH
 []A\A]A^A_
-;=d5P
-;=`5P
-;=Z5P
+;=T3P
+;=P3P
+;=J3P
 fffff.
 AVAUATUSH
 []A\A]A^
@@ -14457,6 +14440,7 @@ raw://
 \game\
 .vjs_c
 PanoramaUI
+FCVAR_NEVER_AS_STRING
 <string conversion failed>
 Continue
 Switching Protocols
@@ -14532,8 +14516,8 @@ function %s()
 stringify
 => %s
 Linux;tenfoot
-19:26:55
-Dec 12 2019
+23:39:40
+Jan 31 2020
 panorama %s %s
 X-ValveUserAgent
 IsValid
@@ -14606,6 +14590,7 @@ CUIEngine::UnregisterEventFilter
 Each requires 2 parameters, an object or array and a function to call on each element
 Invalid type for second param to Each() must be a function
 Invalid type for first param to Each() must be an array or object
+Queue async event '%s' (delay %.2f to deliver at %.2f) for '%s' ( 0x%p )
 Requested range not satisfiable
 Dispatch an event to occur later
 Register a handler for an event that is not otherwise handled
@@ -14689,6 +14674,7 @@ CUIEngine::UnregisterJSForUnhandledEvent
 CUIEngine::DispatchEvent - Find Unhandled
 CUIEngine::DispatchQueuedEvent
 DispatchQueuedEvent: %d events queued for %d distinct events
+Deliver async event '%s' (at %.2f, scheduled for %.2f) for '%s' ( 0x%p )
 DispatchAsyncEvent backlog, failed to dispatch all this frame. Remaining queue depth: %d (was %d)
 CUIEngine::RunFrame subframe loop
 AsyncWebRequest requires 2 params, url and settings key->value object
@@ -14705,6 +14691,8 @@ data value for AsyncWebRequest settings must be an object with named key->value 
 AsyncWebRequest attempted across domain (layout:%s url:%s) blocked.
 !! Warning: Invalid 'timeout' param (not a number) to AsyncWebRequest, using default timeout
 %s=0;expires=Thu, 01-Jan-1970 00:00:01 GMT;
+If non-empty, print debug info about async event queue and dispatch behavior for events containing the substring.
+panorama_spew_async_event_substring
 @panorama_max_oof_overlay_up_fps
 @panorama_large_dispatch_event_queue
 @panorama_frame_limit_microseconds
@@ -15937,6 +15925,8 @@ ValidateMaxSize
 N8panorama12IImageSourceE
 N8panorama15IUIImageManagerE
 N8panorama14CUIPanelEvent1IPNS_12IImageSourceEEE
+14IVectorGraphic
+14CVectorGraphic
 N8panorama20IImageDecodeWorkItemE
 N8panorama20CImageDecodeWorkItemE
 N8panorama18CSvgDecodeWorkItemE
@@ -16406,6 +16396,7 @@ N8panorama25CLocalizationStringSimpleE
 N8panorama34CLocalizationStringDialogVariablesE
 N8panorama41CLocalizationStringDialogVariablesDerivedE
 N8panorama13CLocalizationE
+../public/tier1/memstack.h
 CUIRenderEngine::BeginFrame
 CUIRenderEngine::EndFrame
     %4u: %s
@@ -16413,6 +16404,7 @@ Render Command Stats
 Paint
 Render
 Render cmd %u unhandled!
+renderer/uirenderengine.cpp
  Average %s commands per frame: %u, %u bytes
 You must turn on @panorama_track_render_commands to track command usage.
 -----------------------------------------------------------------------
@@ -16505,6 +16497,7 @@ solid
 none 
 %s %s %s 
 background-image
+background-color-opacity
 border
 wash-color
 box-shadow
@@ -16678,6 +16671,8 @@ background-color: gradient( linear, 0% 0%, 0% 100%, from( #fbfbfbff ), to( #c0c0
 background-color: gradient( linear, 0% 0%, 0% 100%, from( #fbfbfbff ), color-stop( 0.3, #ebebebff ), to( #c0c0c0c0 ) );
 background-color: gradient( radial, 50% 50%, 0% 0%, 80% 80%, from( #00ff00ff ), to( #0000ffff ) );
 background-color: #0d1c22ff, gradient( radial, 100% -0%, 100px -40px, 320% 270%, from( #3a464bff ), color-stop( 0.23, #0d1c22ff ), to( #0d1c22ff ) );</pre>
+Sets the background color opacity for a panel (does nothing on its own, but when merged with a full background-color it overrides the opacity).<br><br><b>Examples:</b><pre>background-color-opacity: 0.5;
+</pre>
 Shorthand for setting panel border. Specify width, style, and color.  Supported styles are: solid, none.<br><br><b>Examples:</b><pre>border: 2px solid #111111FF;</pre>
 Shorthand for setting the top panel border. Specify width, style, and color.  Supported styles are: solid, none.<br><br><b>Examples:</b><pre>border-top: 2px solid #111111FF;</pre>
 Shorthand for setting the right panel border. Specify width, style, and color.  Supported styles are: solid, none.<br><br><b>Examples:</b><pre>border-right: 2px solid #111111FF;</pre>
@@ -16958,6 +16953,7 @@ MNetworkRemoveAll
 ChangeCallbackOnChange
 NETWORK_FIELD_LOWEST_PRIORITY
 N8panorama21CUISoundSystemSource2E
+source2/uirenderdevicesource2.cpp
 Panorama texture %s not already loaded/invalid.  Resource should have already loaded before this call.
 panorama_texture.vtex
 panorama_texture_y.vtex
@@ -17169,7 +17165,6 @@ configvalue.cpp
 RegisterConfigValue: Unknown error constructing config value "%s"!
 HookUpConfigValue
 %i %i %i %i
-FCVAR_NEVER_AS_STRING
 "%s" = "%s"
  ( def. "%s" )
  min. %f
@@ -17177,6 +17172,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 archive
 singleplayer
@@ -17189,10 +17187,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -17200,7 +17201,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 /game/
 /content/
 Unable to watch '%s'
@@ -17224,6 +17225,7 @@ u64( %lld = 0x%llX )
 #int#
 #empty#
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 
@@ -17249,6 +17251,8 @@ ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
 utlstring.cpp
 %s: string format requested %d chars
 FormatV
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 VApplication001
 interfaces.cpp
 VEngineCvar007

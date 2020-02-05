@@ -31,8 +31,8 @@ _ZdaPv
 memcpy
 _Z14V_stristr_fastPKcS0_
 V_atofloat32
-V_atoui64
 V_atoi
+V_atoui64
 RegisterStringToken
 _Znam
 __cxa_pure_virtual
@@ -63,12 +63,14 @@ V_atan2f
 _ZN20CUniformRandomStream11RandomFloatEff
 _ZN20CUniformRandomStream9RandomIntEii
 ThreadGetCurrentId
-_ZNV16CThreadFastMutex4LockEyj
-V_qsort
+_ZNV16CThreadFastMutex4LockEPKciyj
 memmove
+V_qsort
 CMemAllocSystemInitialize
 Warning
 V_atofloat64
+_ZN13CBufferString6FormatEPKcz
+_ZN13CBufferString5PurgeEi
 KeyValuesSystem
 V_strtoui64
 __cxa_guard_acquire
@@ -77,7 +79,6 @@ RandomFloat
 RandomInt
 V_strtok
 V_atoi64
-_ZN13CBufferString5PurgeEi
 memset
 _ZN20CUniformRandomStreamC1Ev
 Plat_IsInDebugSession
@@ -105,7 +106,7 @@ g_VProfCurrentProfile
 _ZN10CVProfNode9ExitScopeEv
 _ZN10CVProfNode10GetSubNodeEPKciS1_i
 _ZN10CVProfNode10EnterScopeEv
-_ZN12CThreadMutex7TryLockEv
+_ZN12CThreadMutex7TryLockEPKci
 ThreadSleep
 GetCPUInformation
 CreateSimpleThread
@@ -130,9 +131,11 @@ _exit
 execlp
 strchr
 memcmp
+ReturnJobManualEventToPool
 wcscmp
 Plat_WindowToOsSpecificHandle
 _V_wcsncpy_bytes
+g_pThreadPool
 V_sscanf
 HangWatchdog_IndicateActivity
 V_fopen
@@ -195,20 +198,19 @@ Plat_GetEnv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 V_localeconv
 Plat_GetOSType
 Plat_IsHighDPI
 V_qsort_s
 V_frexpf
 RandomSeed
-_ZN13CBufferString6FormatEPKcz
 V_fpclassify
 V_isnan
 Plat_UUIDFromString
@@ -273,6 +275,9 @@ AVAUATSH
 E;.tyA
 [A\A]A^A_]
 [A\A]]
+[A\A]]
+Mc<$E;|$
+[A\A]A^A_]
 AVAUATI
 [A\A]A^]
 AVAUATSH
@@ -305,9 +310,9 @@ AWAVAUATA
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUI
-xHHc@@M
+pHHc@@M
 HcC(H
-}TfA9
+}TfD9
 [A\A]A^A_]
 AUATI
 A\A]A^A_]
@@ -648,6 +653,8 @@ AWAVAUATL
 X[A\A]A^A_]
 AWAVAUI
 H[A\A]A^A_]
+AWAVAUI
+H[A\A]A^A_]
 AWAVAUATL
 X[A\A]A^A_]
 AVAUATSH
@@ -766,13 +773,15 @@ D;sHD
 D;{HD
 X[A\A]A^A_]
 AWAVAUATL
+D;sHD
+D;{HD
 X[A\A]A^A_]
 AWAVAUI
 X[A\A]A^A_]
 AWAVAUI
 X[A\A]A^A_]
-AWAVAUI
-H[A\A]A^A_]
+AWAVAUATI
+X[A\A]A^A_]
 AWAVAUI
 X[A\A]A^A_]
 AWAVAUI
@@ -787,28 +796,34 @@ AWAVAUI
 X[A\A]A^A_]
 AWAVAUL
 [A\A]A^A_]
-AVAUATSH
-,GXE1
-[A\A]A^A_]
-AWAVAUI
-[A\A]A^A_]
-AVAUA
-[A\A]A^]
-[A\A]A^]
-[A\A]A^]
-AUATSH
-[A\A]A^A_]
-AWAVAUI
-[A\A]A^A_]
-AVAUATSH
-[A\A]A^A_]
-AWAVAUI
-[A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
-AWAVAUI
-[A\A]A^A_]
 AVAUI
+[A\A]A^A_]
+8[A\A]A^A_]
+8[A\A]A^A_]
+AWAVI
+8[A\A]A^A_]
+ [A\A]A^]
+ [A\A]A^]
+ [A\]
+0[A\A]A^]
+AVAUM
+A]A^]
+@$[A\A
+A\A]A^]
+AVAUATSH
+8[A\A]A^A_]
+AWAVAUATI
+,C`E1
+X[A\A]A^A_]
+X[A\A]A^A_]
+AUATSH
+8[A\A]]
+8[A\A]]
+AVAUI
+[A\A]A^]
+[A\A]A^]
+AVAUI
+?[A\A]A^]
 [A\A]A^]
 AWAVAUATSH
 8z/u-
@@ -839,8 +854,6 @@ D;sHH
 H[A\A]A^A_]
 AVAUATL
 @[A\A]A^]
-p[A\]
-p[A\]
 [A\A]A^]
 AVAUI
 [A\A]A^A_]
@@ -852,6 +865,9 @@ X[A\A]A^A_]
 X[A\A]A^A_]
 AVAUATI
  [A\A]A^]
+AUATSH
+&YA1H
+([A\A]]
 AVAUATI
 &YA1H
  [A\A]A^]
@@ -870,10 +886,10 @@ AWAVAUI
 ([A\A]A^A_]
 AVAUATI
 ([A\A]A^A_]
-.L$<H
+.L$@H
 &YA1L
 AVAUATI
-z_u]A
+zbu`A
 X[A\A]A^A_]
 &YA1D
 &YA1L
@@ -893,6 +909,7 @@ AWAVI
 8[A\A]A^A_]
 &YA1L
 AWAVAUATL
+D;CHH
 D;CHD
 X[A\A]A^A_]
 AWAVAUATL
@@ -901,7 +918,11 @@ D;{HH
 H[A\A]A^A_]
 AWAVAUATL
 D;{HD
+D;CHH
 X[A\A]A^A_]
+AVAUATL
+D;sHD
+@[A\A]A^]
 AVAUATL
 D;sHD
 @[A\A]A^]
@@ -920,6 +941,7 @@ E;wHD
 H[A\A]A^A_]
 AVAUATL
 @[A\A]A^]
+,D$$<
 [A\A]]
 AVAUI
  [A\A]A^]
@@ -928,6 +950,7 @@ AVAUATL
 D;sHD
 @[A\A]A^]
 AWAVAUATL
+D;sHH
 X[A\A]A^A_]
 AWAVAUATL
 X[A\A]A^A_]
@@ -955,8 +978,8 @@ AVAUATL
 @[A\A]A^]
 AVAUATL
 @[A\A]A^]
-AVAUATL
-@[A\A]A^]
+AWAVAUATL
+H[A\A]A^A_]
 AWAVL
 AUATSH
 game_getH
@@ -976,34 +999,43 @@ AWAVAUI
 [A\A]A^]
 [A\A]]
 AWAVAUATI
+8[A\A]A^A_]
+AWAVI
+IcVXH
+.FDz)u'A
 [A\A]A^A_]
-AVAUL
-IcWTE1
-.G<zXuV
-[A\A]A^A_]
-IcOTA
+IcNXA
+IcVXE1
+?IcVXA
 AVAUATSH
 A\A]A^]
 [A\A]A^]
 AVAUATSH
-t$`A\A]A^]
+t$hA\A]A^]
 [A\A]A^]
 AUATH
 [A\A]]
 [A\A]]
 AWAVAUATL
-D;sHD
+D;{HD
+D;CHD
 D;CHD
 D;CHD
 D;CHH
 X[A\A]A^A_]
 AVAUATL
 @[A\A]A^]
-A\A]A^A_]
+AVAUATSH
+<(~#H
+7;0t=H
+8[A\A]A^A_]
+8[A\A]A^A_]
 AVAUI
-?[A\A]A^]
+[A\A]A^]
+[A\A]A^]
 AWAVAUI
 [A\A]A^A_]
+A\A]A^A_]
 AWAVAUATL
 D;sHH
 D;{HD
@@ -1014,7 +1046,7 @@ D;CHD
 D;CHD
 X[A\A]A^A_]
 AWAVAUATL
-D;{HH
+D;CHH
 X[A\A]A^A_]
 AWAVAUATL
 H[A\A]A^A_]
@@ -1025,6 +1057,7 @@ X[A\A]A^A_]
 AVAUATI
 ([A\A]A^A_]
 A^A_]
+AVAUI
 [A\A]A^A_]
 AWAVAUATL
 D;sHD
@@ -1068,8 +1101,15 @@ T$@Hc
 [A\A]A^A_]
 ZIcL$PIc
 AWAVAUATSH
+$A;\$
+tIcL$
+([A\A]A^A_]
+AWAVAUATSH
 D;p@|
 [A\A]A^A_]
+AWAVL
+([A\A]A^A_]
+([A\A]A^A_]
 A;^@}>A
 A;^@|
 [A\A]A^]
@@ -1131,8 +1171,13 @@ X[A\A]A^A_]
 AWAVAUL
 &YA1H
 [A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
+[A\A]A^]
 AWAVAUATSH
 fF9T:
 HcS\Hc
@@ -1155,6 +1200,12 @@ AUATI
 8[A\A]A^A_]
 8[A\A]A^A_]
 8[A\A]A^A_]
+AWAVAUATI
+8[A\A]A^A_]
+8[A\A]A^A_]
+AVAUATSH
+H[A\A]A^A_]
+H[A\A]A^A_]
 AVAUI
 [A\A]A^A_]
 A\A]A^A_]
@@ -1194,9 +1245,18 @@ AUATSH
 D9kLw
 [A\A]]
 [A\A]]
+AWAVAUATI
+&YA1L
+([A\A]A^A_]
+AWAVH
+AUATI
+&YA1L
+H[A\A]A^A_]
 ~(f9W&r"
 9C v$H
 x8;7H
+AUATSH
+[A\A]A^A_]
 9C@v$H
 AWAVL
 AUATL
@@ -1252,7 +1312,7 @@ AWAVAUI
 [A\A]A^A_]
 AUATI
 [A\A]A^]
-;7t01
+;7t11
 [A\A]]
 A\A]A^A_]
 AUATI
@@ -1265,7 +1325,7 @@ HGRPSD
 HFPOL
 [A\A]A^A_]
 [A\A]A^A_]A
-AWAVA
+AVAUI
 [A\A]A^A_]
 A\A]A^A_]
 AVAUATSH
@@ -1286,13 +1346,10 @@ A\A]]
 [A\A]]
 A\A]A^A_]
 [A\A]A^A_]
-AVAUATSH
-0[A\A]A^]
-0[A\A]A^]
-0[A\A]A^]
-AUATL
-[A\A]]
-[A\A]]
+AUATSH
+([A\A]]
+([A\A]]
+([A\A]]
 :@u;UH
 AUATI
 [A\A]]
@@ -1423,10 +1480,8 @@ AWAVAUI
 AWAVAUATSH
 ([A\A]A^A_]
 [A\A]]
-AWAVAUATSH
-[A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
+AWAVI
+([A\A]A^A_]
 AVAUATSH
 [A\A]A^]
 [A\A]A^]
@@ -1498,7 +1553,7 @@ tiIcw
 AVAUATM
 [A\A]A^A_]
 AVAUATSH
- [A\A]A^]
+[A\A]A^]
 AUATI
 HFPOH
 A]A^]
@@ -1519,10 +1574,9 @@ AWAVAUATSH
 x	HcK@H9
 A\A]A^A_]
 [A\A]A^A_]
-AUATSH
-8[A\A]]
-8[A\A]]
-8[A\A]]
+ [A\]
+ [A\]
+ [A\]
 AVAUL
 A9\$LvkHc
 A9\$Lw
@@ -1564,13 +1618,14 @@ HcS$D
 [A\A]]
 0[A\]
 [A\A]]
-AVAUA
+AWAVE
+IcO`D
 ([A\A]A^A_]
 AUATI
 [A\A]A^A_]
 PAQE1
 [A\A]A^A_]
-AWAVA
+AVAUI
 [A\A]A^A_]
 A\A]A^A_]
 A\A]A^A_]
@@ -1668,6 +1723,8 @@ TVESH
 AVAUATI
 [A\A]A^]
 AWAVI
+Lc%;;0
+D;%D;0
 [A\A]A^A_]
 [A\A]A^A_]
 dH34%(
@@ -1783,14 +1840,14 @@ AUATA
 [A\A]]
 AVAUATI
 A\A]A^]
-AWAVAUATS
-A;\$@u
-t	;X@
-8[A\A]A^A_]
 AWAVAUE1
 D$(E1
 PhE9t$(
 [A\A]A^A_]
+AWAVAUATS
+A;\$@u
+t	;X@
+8[A\A]A^A_]
 AUATSL
 [A\A]]
 AVAUATI
@@ -1872,7 +1929,6 @@ oHATSH
 AWAVAUI
 [A\A]A^A_]
 ]IcM0Ic
-AUATE
 [A\A]A^A_]
 oHATI
 tID;s(
@@ -1901,6 +1957,7 @@ AYAZt
 [A\A]]
 [A\A]]
 AVAUL
+Hc5-U/
 [A\A]A^]
 [A\A]A^]
 [A\A]A^A_]
@@ -1915,10 +1972,6 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATI
 h[A\A]A^A_]
-AUATL
-[A\A]]
-[A\A]]
-[A\A]]
 AVAUATSH
 [A\A]A^]
 AWAVAUATSH
@@ -1936,35 +1989,37 @@ AUATL
 [A\A]A^]
 AUATL
 [A\A]A^]
+AVAUL
 $[A\A]A^]
 AUATL
 [A\A]A^]
 AUATSH
 [A\A]A^]
-AUATSH
+AVAUATSH
 [A\A]A^]
-AUATSH
+AVAUATSH
 [A\A]A^]
-AUATL
+AVAUATL
 [A\A]A^]
-AWAVI
-AUATSH
-x[A\A]A^A_]
-AWAVAUATSH
-H[A\A]A^A_]
-AVAUATA
 A\A]A^]
 AWAVAUATSH
+$A;\$
+x[A\A]A^A_]
+AWAVAUA
+[A\A]A^A_]
+AWAVAUATSH
+H[A\A]A^A_]
+AWAVAUATSH
 [A\A]A^A_]
 Hc@pH
 AWAVI
-[A\A]A^A_]
-[A\A]A^A_]
+AUATSH
+([A\A]A^A_]
+([A\A]A^A_]
 Hc@pH
-AUATI
+AUATL
 [A\A]]
 AWAVAUI
-[A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -2163,6 +2218,7 @@ McfpA
 AWAVI
 AUATSH
 ([A\A]A^A_]
+vl;54L0
 t	9p,
 ([A\A]A^A_]
 xR;2}NHc
@@ -2203,7 +2259,7 @@ D;"}5H
 #[A\]
 [A\A]]
 AVAUI
-Cht^D
+ChtaD
 A\A]A^]
 IfD;L
 RfD;L
@@ -2254,6 +2310,7 @@ AUATSH
 [A\A]]
 [A\A]]
 A\A]]
+[A\A]A^A_]
 AWAVI
 AUATSH
 [A\A]A^A_]
@@ -2264,12 +2321,11 @@ t	[A\]
 A\A]]
 [A\A]]
 AWAVAUATSH
-pD95r
 [A\A]A^A_]
 AVAUATSH
+pD9-Y
 [A\A]A^A_]
 0[A\A]A^]
-pD9%B
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -2296,19 +2352,37 @@ A\A]A^]
 [A\A]A^]
 A\A]A^]
 u=[A\]
+pD9%U
 [A\A]]
 AWAVL
 H[A\A]A^A_]
+AWAVAUATSH
+([A\A]A^A_]
 AWAVAUI
 ([A\A]A^A_]
+AWAVAUATSH
+pD9%	
+8[A\A]A^A_]
 x[A\A]A^A_]
+AWAVI
+pD9%\
+([A\A]A^A_]
+[A\A]]
+[A\A]]
 AWAVAUATI
 [A\A]A^A_]
+AWAVAUA
+([A\A]A^A_]
+([A\A]A^A_]
+&YA1H
+AWAVAUI
+H[A\A]A^A_]
+&YA1H
+<	tKH
+<	t-H
+&YA1H
 AWAVAUATL
 [A\A]A^A_]
-AWAVI
-pD9%\j2
-([A\A]A^A_]
 [A\A]]
 0[A\]
 0[A\]
@@ -2324,6 +2398,7 @@ AVAUA
 AUATSH
 [A\A]]
 [A\A]]
+[A\A]A^]
 AUATA
 [A\A]]
 AWAVAUATI
@@ -2346,13 +2421,6 @@ D9k0~{L
 D;s(t6H
 [A\A]A^A_]
 KHcK(Ic
-AWAVAUATSH
-CLD;CH
-tuD+@
-[A\A]A^A_]
-D;C(tMH
-YHcK(Ic
-QHcK(Ic
 AWAVE1
 D;c(tbH
 [A\A]A^A_]
@@ -2378,6 +2446,18 @@ D9k0~{L
 D;s(tFH
 [A\A]A^A_]
 [HcK(Ic
+[A\A]]
+AWAVAUATSH
+CLD;CH
+t3Lc%
+[A\A]A^A_]
+Lc59J2
+D;5BJ2
+YHcK(Ic
+QHcK(Ic
+AUATI
+[A\A]]
+[A\A]]
 CLx#H
 oPATI
 [A\A]]
@@ -2622,6 +2702,7 @@ E;t$X
 AWAVL
 ([A\A]A^A_]
 ([A\A]A^A_]
+CJobH
 AWAVAUE1
 [A\A]A^A_]
 AUATL
@@ -2637,6 +2718,9 @@ AWAVAUATSH
 ([A\A]A^A_]
  [A\]
 t1[A\]
+AWAVAUATSH
+Z@$Lc@
+[A\A]A^A_]
 AUATSH
 DNSVL
 IMSVH
@@ -2648,6 +2732,16 @@ AWAVE
 [A\A]A^A_]
 AVAUI
 X[A\A]A^A_]
+AUATSH
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]]
+[A\A]]
+AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\]H
 [A\]H
 AVAUATI
@@ -2659,11 +2753,17 @@ AVAUI
 [A\A]A^]
 AWAVE1
 H[A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
+CThreade
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
 [A\A]]
 AUATSH
 t_Mc'A
 [A\A]A^A_]
-\%{e	
+\%ko	
 AUATI
 [A\A]A^A_]
 [A\A]A^A_]
@@ -2676,10 +2776,8 @@ PHH=vmatu
 x[A\A]A^A_]
 x[A\A]A^A_]
 ?[A\]
-AVAUATI
-[A\A]A^]
-[A\A]A^]
-AVAUATSH
+S8tBH
+AVAUL
 [A\A]A^]
 [A\A]A^]
 AWAVAUATSH
@@ -3003,6 +3101,8 @@ T$PHcE
 AWAVI
 BA9W`H
 [A\A]A^A_]
+AVAUI
+A\A]A^]
 AWAVAUATI
 [A\A]A^A_]
 &YA1L
@@ -3010,8 +3110,6 @@ AWAVAUATI
 &YA1L
 &YA1L
 &YA1L
-AVAUI
-A\A]A^]
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
@@ -3167,8 +3265,6 @@ $[A\A]A^]
 $[A\A]A^]
 AWAVAUI
 [A\A]A^A_]
-AWAVAUI
-[A\A]A^A_]
 [A\A]A^A_]
 AWAVAUA
 [A\A]A^A_]
@@ -3186,7 +3282,7 @@ AWAVAUATSH
 vsndH
 [A\A]]
 AWAVAUI
-E9l$X~>L
+E9l$X~FL
 SDNSH
 h[A\A]A^A_]
 [A\A]]
@@ -3202,7 +3298,7 @@ AUATI
 [A\A]]
 [A\A]]
 [A\A]]
-AVAUATL
+AVAUATSH
 @D;+}`L
 @D;+|
 $[A\A]A^]
@@ -3214,7 +3310,7 @@ AUATSH
 L9x u
 [A\A]A^A_]
 [A\A]A^A_]
-AWAVI
+AUATSH
 ([A\A]A^A_]
 AUATSLc'E)
 [A\A]A^]
@@ -3223,6 +3319,8 @@ AUATSLc'E)
 AVAUATSH
 [A\A]A^]
 vsndL
+AWAVAUI
+[A\A]A^A_]
 AWAVAUATSHc
 [A\A]A^A_]
 [A\A]A^A_]
@@ -3352,6 +3450,8 @@ OpIcFpA
 AWAVAUATSH
 dH34%(
 [A\A]A^A_]
+Lc-sh.
+D;-qh.
 AWAVAUATSD
 [A\A]A^A_]
 [A\A]A^A_]
@@ -3470,8 +3570,9 @@ Pt(L9
 [A\A]A^A_]
 Pt(L9
 [A\A]A^A_]
-AUATA
-[A\A]]
+AVAUI
+A\A]A^]
+A\A]A^]
 AWAVL
 8[A\A]A^A_]
 8[A\A]A^A_]
@@ -3535,9 +3636,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 AUATSH
@@ -3554,13 +3652,15 @@ G8t.H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 G0AQE1
 AWAVI
@@ -4206,11 +4306,18 @@ D+c$Mc
 D+c$Mc
 +S$Hc
 AVAUATSH
+F A+F
 [A\A]A^A_]
-D+s$Mc
-A+P$Hc
-A+p$Hc
-D+s$Mc
+E+n$Mc
+A+F$H
+A+V$I
+A+Q$Hc
+A+F$H
+F A+F
+A+q$Hc
+A+F$I
+A+F$H
+A+F$H
 AWAVAUATSH
 8[A\A]A^A_]
 8[A\A]A^A_]
@@ -4470,6 +4577,8 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVI
 [A\A]A^A_]
+[A\A]A^A_]
+AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
@@ -4825,16 +4934,16 @@ AVAUI
 A\A]A^]
 AWAVI
 H[A\A]A^A_]
-AWAVI
-H[A\A]A^A_]
 AUATSH
 h[A\A]A^A_]
-[A\A]]
-[A\A]]
+AWAVI
+H[A\A]A^A_]
 [A\A]]
 AWAVA
 AUATSH
 [A\A]A^A_]
+[A\A]]
+[A\A]]
 [A\A]]
 [A\A]]
 AWAVI
@@ -4935,11 +5044,13 @@ NETWORK_FIELD_LOWEST_PRIORITY
 5t~BC
 CONTENT
 BaseStack
-vmix_voicegraph_start_8track
-__customstack_layers
-__customstack_send_pos
 public
 operator_variables
+vmix_voicegraph_start_8track
+__customstack_components
+__customstack_send_pos
+RetriggerSoundEvent
+__customstack_layers
 __customstack_field
 __customstack_has_random
 __customstack_rand_min
@@ -4956,13 +5067,25 @@ value%d
 vgraph_name
 data_type
 ../public/tier1/utlrbtree.h
+__remap_input
 SET VMIXGRAPH NAME: %s
 OutputPosToVmix
 NUM LAYERS: %d
 @distance_to_source.output
+@mixer.output_volume
+mixer_volume
+@mixer.output_level
+mixer_level
+@mixer.output_dsp
+mixer_dsp
 CURVES: %d
 soundevent_data
+field_linear_atten_editor
+advanced
+display_group
 @public.%s
+%s_random_min
+%s_random_max
 %s_random_variance
 execute_once
 math_random_float
@@ -4971,9 +5094,7 @@ input_max
 %s_random_add
 math_float
 apply
-input1
 @%s.output
-input2
 get_vsnd_%s
 opvar_get_vsnd
 check_event_data
@@ -4990,8 +5111,14 @@ input_start%d
 send_voicegraph_%s
 vmix_voicegraph_input
 input_name
+send_mixgraph_%s
+vmix_mixgraph_send
+submix_name
+named
+send_type
 input_%s
-__remap_input
+__remap_input1
+__remap_input2
 %s_%s_linear
 %s_%s_mapping_curve
 %s_seek_speed_filter
@@ -5001,8 +5128,6 @@ float6
 value1
 value2
 [%f,%f,%f,%f,%f,%f]
-advanced
-display_group
 field_curve_2d_editor
 math_curve_2d
 FIND ELEMENT: (%s)
@@ -5012,6 +5137,7 @@ public_field_name
 %s_mult
 soundstacks/generated/generator_templates.txt
 __customstack_curve_mixgraph_send
+__customstack_curve_submix_send
 CUtlRBTree overflow with %u elements!
 @get_event_info.output_elapsed_time
 [ 0.005714, 0.3, 1.083, 1.083, 2.0, 3.0 ]
@@ -5197,6 +5323,7 @@ calc_distance
 calc_closest_point_on_line
 calc_closest_point_on_sphere
 calc_closest_point_on_volume
+calc_closest_point_on_capsule
 math_remap_float
 math_lerp_speakers
 math_curve_2d_4knot
@@ -5265,6 +5392,10 @@ input_sphere_pos
 input_sphere_radius
 input_volume_pos_min
 input_volume_pos_max
+input_sphere_1_pos
+input_sphere_2_pos
+input_sphere_1_radius
+input_sphere_2_radius
 input_map_min
 input_map_max
 clamp_range
@@ -5353,6 +5484,7 @@ operator_field_display_decibel
 23CSosOperatorPointOnLine
 25CSosOperatorPointOnSphere
 25CSosOperatorPointOnVolume
+26CSosOperatorPointOnCapsule
 22CSosOperatorRemapValue
 24CSosOperatorLerpSpeakers
 18CSosOperatorCurve4
@@ -5387,9 +5519,6 @@ soundmixer_set_trigger
 soundmixer_set_vmix
 CSosOperatorMixGroup
 %*smixgroup: %s
-output_volume
-output_level
-output_dsp
 output_mixgroups
 operator_field_display_vsnd
 input_vsnd
@@ -5442,6 +5571,7 @@ opvar_set_string
 opvar_get_string
 opvar_get_random_array_index
 opvar_set_array_index
+%s::%s
 output_element_count
 output_opvar_exists
 input_stack_name
@@ -5450,7 +5580,6 @@ input_get_ancestor
 weights_field_name
 input_clear_selection
 output_opvar_elements
-%s::%s
 CSosOperatorGetOpVarFloat
 CSosOperatorGetOpVarFloat3
 CSosOperatorGetOpVarString
@@ -5517,6 +5646,7 @@ process_steamaudio_source
 input_source_offset
 input_occlusion_method
 input_occlusion_mode
+input_occlusion_samples
 input_source_radius
 input_pathing_enabled
 output_occlusion
@@ -5529,12 +5659,14 @@ Enable visualization for pathing validation.
 snd_steamaudio_pathing_enablevalidationvis
 22CSosOperatorSteamAudio
 ?vmix_vsnd_start
-vmix_mixgraph_send
 vmix_voicegraph_inputarray
 vmix_mixgraph_input
+vmix_mixgraph_input_reset
 vmix_mixgraph_input_get_float
 vmix_vsnd_info
+snd_op_sys/sos_op_vmix.cpp
 Voice Elapsed Time: %f
+voice_layer
 vgraph_track
 input_speaker_volumes
 input_fade_out
@@ -5551,8 +5683,6 @@ input_channel_select
 output_vsnd_finished
 output_vsnd_playing
 output_vsnd_looping
-submix_name
-send_type
 input_start1
 input_start2
 input_start3
@@ -5581,7 +5711,6 @@ output_vgraph_finished
 output_vgraph_playing
 input_dsp_preset_name
 output_duration
-named
 vmix_mixgraph_input_dsp_preset
 vmix_start_vsnd: %s Voice count >= MAX_VOICES, aborting starting vsnd %s
 Unable to create voice for vmix "%s" check script.
@@ -5595,6 +5724,7 @@ snd_sos_show_voice_elapsed_time
 21CSosOperatorVMixInput
 26CSosOperatorVMixInputArray
 25CSosOperatorMixGraphInput
+30CSosOperatorMixGraphInputReset
 33CSosOperatorMixGraphInputGetFloat
 34CSosOperatorMixGraphInputDSPPreset
 20CSosOperatorVsndInfo
@@ -5704,6 +5834,7 @@ input_update_opvar2
 input_update_opvar3
 input_update_opvar4
 pass_opvar_args
+retrigger_current_event
 spawn_orphans
 econ_replacement
 output_event_finished
@@ -5726,8 +5857,8 @@ match_event_duration
 match_duration_type
 stop_oldest
 input_stop_immediate
-voice_layer
 output_waiting
+exclude_group_name
 %*s(%08x):Stopping: %s (%08x) : elapsed time: %.2fs
 snd_sos_show_operator_stop_entry
 27CSosOperatorStopSoundEvents
@@ -5823,11 +5954,14 @@ Data Size: %i
 ERROR: missing enum name!
 ERROR: missing enum tokenset!
 Stack Collection:
+opFields
+Active Sound events: %d
 soundstacks/sosstrings.txt
 Warning: %s (error %s)!
 construction_stack
 reference_stack
 String Count: %i
+snd_op_sys/sos_system.cpp
 Stop sound event: %s
 %d) %s
 _stack_properties
@@ -5873,7 +6007,6 @@ _editor_
 operator_arg_field
 reserve_array
 Operator Count: %i
-snd_op_sys/sos_system.cpp
 Start Sound Event: %s
 Update SoundEvent: %s
 Operator Stack: %s
@@ -5919,6 +6052,7 @@ public.position
 GameStartup
 ToolsStartupPreGame
 __UNKNOWN__
+async_load
 uint32
 uint64
 string_token
@@ -5937,6 +6071,8 @@ SosOpFieldInfo_t::GetValue: index %i out of range on %s
 SosOpFieldInfo_t::ValueToString: Unable to find ENUM match for %i on %s
 SosOpFieldInfo_t::ValueToString: Unable to find ENUM tokenset on %s
 Error: Unknown atomic data type!
+Can't read from type %d for field %s
+Can't write to type %d for field %s
 CSosOperatorStack::ReferenceCopyMemPool: Null mempool in %s
 CSosOperatorStack::GetTotalOperatorSize: Invalid operator index %i in %s
 CSosOperatorStack::GetOperatorNameSpace: Invalid operator index %i in %s
@@ -6157,9 +6293,11 @@ Purge and reload all vmidi data and files.
 FCleaning up leaked audio stream!
 18IAudioOutputStream
 18CAudioOutputStream
+audio_stream_attached.cpp
 sounds/__attached_output_stream_wrapper_%d.vsnd
 12CAudioSource
 21CAudioStream_Attached
+debug_visualizer.cpp
 16IDebugVisualizer
 21CSoundDebugVisualizer
 Audio Capture Device
@@ -6195,6 +6333,7 @@ snd_rear_headphone_position
 snd_front_headphone_position
 CSoundOperatorSystem
 (%s) %d
+snd_dma.cpp
 paused
 Sound system not started
 Active Voices: %d
@@ -6205,7 +6344,6 @@ Stopping All Sounds...
 SoundMix
 S_MixSampleFrames
 AudioMixer
-snd_dma.cpp
 S_MixAsync
 SoundOperators
 S_UpdateVoicesPerFrame
@@ -6242,7 +6380,6 @@ dsp_db_mixdrop
 snd_showstart
 snd_filter
 sndplaydelay
-Sound delay clock error!: %.2f %.2f
 Usage:  playdelay delay_in_msec (negative to skip ahead) soundname
   %d: %s (%08lx :: %08lx) %s [%.1fs]
 SoundSystem/WaveDataCacheSizeMB
@@ -6388,6 +6525,7 @@ OPEN SIDED OUTDOOR AREA Detected
 17IVMixToolServices
 24CPresetDSPAudioProcessor
 10CDSPEditor
+snd_mix.cpp
 10IMixFilter
 17CSoundViewerState
 %s: %s
@@ -6402,17 +6540,26 @@ Setting MixLayer %s : mix %f
 localPlayer
 %s:%s: 
 Setting MixLayer %s
+path_substring
+class_substring
+sndlvl_min
+sndlvl_max
+is_ducked
+causes_ducking
+duck_to_percent
+ducker_threshold
 MixGroup %s:
 MixLayer triggered %s:
 Can't find mix layer %s
+mixamount
+SoundMixers
+MixLayers
 scripts/soundmixers.txt
 snd_mixgroups.cpp
 Total Mix Groups Rules: %i
 Total Mix Layers: %i
 Parsing MixGroups:
-SoundMixers
 Parsing SoundMixers:
-MixLayers
 Parsing MixLayers:
 LayerTriggers
 Parsing LayerTriggers:
@@ -6440,23 +6587,30 @@ Parameters: mix group name, [vol, mute, solo], value
 Error: MixGroup %s cannot be resolved!
 Error: MixGroup %s, in LayerTriggers cannot be resolved!
 Parameters: mix layer name, mix group name, trigger amount
+Too many mix groups specified.
 Error: Parsing soundmixers.txt, mixgroup rules incomplete at group %s!
 Error: Parsing soundmixers.txt, mixgroup rules incomplete!
-Error: Parsing soundmixers.txt, soundmixer mix group values incomplete!
+Too many sound mixers specified
 Error: MixGroup %s, in SoundMixer %s, cannot be resolved!
+Error: Parsing soundmixers.txt, soundmixer mix group values incomplete!
 MixGroup %s: %f : %f : %f : %f : %f 
-Error: MixLayer Trigger entries require minimum 2 arguments after layer trigger for %s
-Unable to load sound system data.
-Starting verification of Steam Game Cache.
-Retry launching after completion.
-Error: Too many mix groups! MixGroup %s ignored
-Error: Too many sound mixers! SoundMixer %s ignored
-Error: Too many mix layers! MixLayer %s ignored
 	VOL: %f
 	LVL: %f
 	DSP: %f
 	MUTE: %f
 	SOLO: %f
+Error: MixLayer Trigger entries require minimum 2 arguments after layer trigger for %s
+Did not find valid MixGroups entry in soundmixers.txt
+Did not find valid SoundMixers entry in soundmixers.txt
+No 'Mixers' member found in MixLayer in soundmixers.txt
+Did not find valid MixLayers entry in soundmixers.txt
+Unable to load sound system data.
+Starting verification of Steam Game Cache.
+Retry launching after completion.
+Failed to read soundmixers.txt as KV3: %s
+Error: Too many mix groups! MixGroup %s ignored
+Error: Too many sound mixers! SoundMixer %s ignored
+Error: Too many mix layers! MixLayer %s ignored
 Set named Mixgroup of current mixer to mix vol, mute, solo.
 Set named Mixgroup of named mix layer to mix vol, mute, solo.
 Set named mix layer mix amount.
@@ -6481,6 +6635,7 @@ vsnd_c
 Size in bytes
 	Refs %16s : Name (Locks)
 	[%2d] %16.16s : %s (%d)
+snd_wave_data.cpp
 snd_async_spew_blocking
 snd_async_stream_spew
 Spew stream pool failures.
@@ -6621,6 +6776,7 @@ VSNDVEC COMPARE SIZE FAIL: %s->%s
 SOUNDEVENT COMPARE SUCCESS: %s->%s
 18CSoundEventManager
 29CVSoundEventScriptTypeManager
+soundsystem.cpp
 #OS_Default_Device
 SoundSystem
 speaker_config
@@ -6630,6 +6786,12 @@ SoundSystem001
 Addon unloaded, unloading sound resources.
 Attempted preload of soundevent %s with no vsnds
 Setting null device for -nosound
+11IRefCounted
+8CFunctor
+20CRefCountServiceBaseILb1E6CRefMTE
+12CRefCounted1I11IRefCounted20CRefCountServiceBaseILb1E6CRefMTEE
+12CThreadedJob
+11CFunctorJob
 12ISoundSystem
 21IVConCommDataReceived
 14CBaseAppSystemI12ISoundSystemE
@@ -6637,6 +6799,8 @@ Setting null device for -nosound
 15CTier1AppSystemI12ISoundSystemLi0EE
 15CTier2AppSystemI12ISoundSystemLi0EE
 12CSoundSystem
+12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
+9CFunctor1IPFvPK11CAudioStateEP19CAudioStateInternal12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEEE
 Reference dB at snd_refdist
 snd_refdb
 snd_gain
@@ -6661,16 +6825,12 @@ snd_steamaudio_export_scene
 snd_steamaudio_probes_nearby
 No filename specified to export Steam Audio scene.
 No scene loaded to export as Steam Audio scene.
-Usage:  snd_steamaudio_set_reverb_level <level in following range: [0.0 10.0]>. Current value = %.3f
-Setting Steam Audio Reverb Level to %.3f.
 Usage: snd_steamaudio_probes_nearby <radius_inches> <display_duration> <mapname>. Set radius_inches to -1 to use influence radius per probe.
 Steam Audio could not create probes.
 Displaying %d probes around (%.1f, %.1f, %.1f) with influence for %.2f seconds.
 Displaying %d probes around (%.1f, %.1f, %.1f) within %.2f radius for %.2f seconds.
 Usage: snd_get_physics_surface_properties <all|null|assigned|default|material-name>.
 Running snd_get_physics_surface_properties for %s mod.
-Reset Steam Audio Reverb Level value to %f
-Steam Audio Reverb Level value changed from %.3f to %.3f for this map.
 Usage: snd_set_physics_surface_properties <diffmaterials|diffmapping|set|overwrite|single> <mapping-file|material-name,material,...>
 Loading mapping from %s file.
 Running snd_set_physics_surface_properties for %s mod.
@@ -6680,8 +6840,6 @@ Failed to get p4 file info for %s
 File %s is opened for edit by someone. Ignoring the mapping.
 (Steam Audio) Update physics material attribute of a VMAT file. They are used for picking acoustic material property for Steam Audio.
 Exports scene currently used by Steam Audio as a phononscene file.
-Set reverb level for Steam Audio Reverb. Suggested values from [.0f, 10.0f]. Setting it to zero disables all simulation for reverb calculation as well.
-snd_steamaudio_set_reverb_level
 Load all the probes from a file and log the nearby probes within the radius.
 Get physics surface properties for all the materials.
 snd_get_physics_surface_properties
@@ -6764,7 +6922,6 @@ Graphs
 LoadVMixList
 VMixStartup
 snd_vmix_show_input_updates
-vmix.cpp
 SoundsystemVMixLoader
 Set input %s to %s on graph %s
 Unsupported version %d for resource '%s' (Expected %d)
@@ -6780,6 +6937,7 @@ VMixTableInit
 23CKV3ResourceTypeManagerILy2020175222EE
 16CVMixTypeManager
 ?Unknown graph input %s
+vmix_engine.cpp
 __toolspreview__
 <EMPTY>
 tools/
@@ -6788,6 +6946,7 @@ Set an input mix value
 mix_input
 10CVMixMixer
 vmix:%02d: %s
+vmix_voicelist.cpp
 AsyncSoundQueue
 %s: params.pSfx is NULL.
 	 x: %4f y: %4f z: %4f
@@ -6864,11 +7023,11 @@ Dropping Voice data (%d bytes)
 (%2db) %6i : %s
 Total: %.2f MB
 RESOURCE_TYPE_SOUND
+vsound_manager.cpp
 sounds/
 sounds\
 sound/
 sounds/%s
-vsound_manager.cpp
 GetSfx: NULL name
 List all known sounds.
 soundlist
@@ -7039,6 +7198,9 @@ HookUpConfigValue
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 client
 archive
 notify
@@ -7052,10 +7214,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -7063,7 +7228,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -7084,6 +7249,7 @@ u64( %lld = 0x%llX )
 #empty#
 update
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 
@@ -7120,6 +7286,8 @@ utlstring.cpp
 %s: string format requested %d chars
 FormatV
 UPDATE_STRING_TOKEN_DATABASE
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 WIN32
 WINDOWS
 LINUX
@@ -7679,6 +7847,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -7794,6 +7965,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -7847,6 +8019,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat
@@ -7917,7 +8093,14 @@ Sound Disabled
 19CNullAudioSubsystem
 17CAudioDeviceNull2
 SoundSystemLowLevel
-DFILTER_UNKNOWN
+Dm_effectName
+m_nProcessorType
+vmix_processor_type_t
+m_bAffectsGlobals
+m_nChannels
+m_flxfade
+m_params
+FILTER_UNKNOWN
 FILTER_LOWPASS
 FILTER_BANDPASS
 FILTER_HIGHPASS
@@ -7925,13 +8108,6 @@ FILTER_NOTCH
 FILTER_PEAKING_EQ
 FILTER_LOW_SHELF
 FILTER_HIGH_SHELF
-vmix_processor_type_t
-m_effectName
-m_nProcessorType
-m_bAffectsGlobals
-m_nChannels
-m_flxfade
-m_params
 libmpg123.so.0
 mpg123_init() failed
 Can't parse mp3 encoding %u
@@ -8080,6 +8256,7 @@ math_curve_2d
 math_curve_2d_4knot
 >math_lerp_speakers
 math_remap_float
+calc_closest_point_on_capsule
 calc_closest_point_on_volume
 calc_closest_point_on_sphere
 calc_closest_point_on_line
@@ -8119,6 +8296,7 @@ process_steamaudio_source
 vmix_vsnd_info
 vmix_mixgraph_input_dsp_preset
 vmix_mixgraph_input_get_float
+vmix_mixgraph_input_reset
 vmix_mixgraph_input
 vmix_voicegraph_inputarray
 vmix_voicegraph_input

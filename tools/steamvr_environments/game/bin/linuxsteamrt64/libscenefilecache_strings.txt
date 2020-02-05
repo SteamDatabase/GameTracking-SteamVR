@@ -52,6 +52,7 @@ strchr
 V_atoi
 V_sscanf
 V_atofloat64
+Plat_IsInDebugSession
 _Z6ConMsgPKcz
 V_atof
 CreateInterface
@@ -62,7 +63,6 @@ V_strtod
 _V_strnistr_fast
 CMemAllocSystemInitialize
 V_strnchr
-Plat_IsInDebugSession
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
 V_UTF32ToUTF8
 V_strupper_fast
@@ -92,18 +92,18 @@ pthread_mutex_unlock
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
 _ZN17CThreadSyncObjectD2Ev
 pthread_mutex_destroy
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 V_qsort_s
 _Z6DevMsgPKcz
 _Z17LoggingSystem_Logi17LoggingSeverity_t5ColorPKcz
@@ -274,9 +274,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 AUATSH
@@ -284,13 +281,15 @@ AUATSH
 [A\A]]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -360,15 +359,15 @@ AUATI
 t	[A\]
 D$(H9
 D$(H9
-Hcs H
+Hcs(H
 AVAUATSD
 A\A]A^]
-HcC H
-f;S.w
+HcC(H
+f;S6w
 t$HcW
 AWAVAUI
-IcE H9
-fE;}.
+IcE(H9
+fE;}6
 [A\A]A^A_]
 [A\A]]
 0[A\]
@@ -388,6 +387,11 @@ AVAUATSH
 AWAVAUI
 ` fD9
 [A\A]A^A_]
+AUATSH
+D$pHc
+D$pt Hc\
+[A\A]]
+[A\A]]
 AWAVAUATSH
 [A\A]A^A_]
 AUATL
@@ -434,7 +438,6 @@ AWAVAUE1
 ([A\A]A^A_]
 [A\A]A^]
 t$HcW
-HcKxD9
 xRHcO
 ~If;w
 f;2tr
@@ -469,9 +472,10 @@ AUATSH
 [A\A]A^A_]
 AVAUATI
 A\A]A^]
+AVAUATSH
+E;.tyA
+[A\A]A^A_]
 AWAVAUATI
-t$pHc
-t#HcSx
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUATSH
@@ -539,10 +543,12 @@ AUATSH
 [A\A]]H
 AUATI
 [A\A]]
-AVAUI
-ENA\A]A^]
 AUATI
 [A\A]]
+AVAUATI
+t$NA\A]A^]
+t$NA\A]A^]
+t$NA\A]A^]
 AVAUATI
 A\A]A^]
 AVAUATI
@@ -576,9 +582,9 @@ AWAVAUATSH
 [A\A]A^A_]
 AUATSH
 [A\A]]
-AUATI
-[A\A]]
-A\A]]
+AVAUI
+EIA\A]A^]
+A\A]A^]
 AWAVI
 AUATSH
 [A\A]A^A_]
@@ -603,6 +609,8 @@ $A\A]A^]
 AUATSH
 ([A\A]A^A_]
 ([A\A]A^A_]
+AVAUATI
+[A\A]A^]
 AUATSH
 ([A\A]]
 [A\A]]
@@ -613,6 +621,10 @@ AVAUATSH
 [A\A]A^A_]
 [A\A]]
 0[A\]
+AVAUATI
+ [A\A]A^]
+HcW$H
+HcS$D
 f;0t_fD
 AWAVAUATA
 [A\A]A^A_]
@@ -694,6 +706,12 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVI
 AUATSH
+[A\A]A^A_]
+;0tSD
+AWAVAUATA
+[A\A]A^A_]
+D;!ttHc
+AWAVAUATI
 [A\A]A^A_]
 [A\]H
 AWAVI
@@ -951,6 +969,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -965,21 +986,26 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
 14ConCommandBase
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 >utlbuffer.cpp
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
 VaPrintf
 utlstring.cpp
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 12CThreadEvent
 mempool.cpp
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
@@ -987,6 +1013,7 @@ CUtlMemoryPoolBase
 EMPTY - ok for slot zero only!
 String %d: ref:%d %s
 %d total counted strings.
+stringpool.cpp
 NewNode
 VApplication001
 interfaces.cpp
@@ -1186,6 +1213,7 @@ enumeration
 criterion
 criteria
 whitelistname
+conceptpriority
 matchonce
 applycontexttoworld
 applycontext
@@ -1202,6 +1230,7 @@ displaylast
 thensimple
 interrupt_then_resume
 interrupt_and_cancel
+cancel_existing
 AGResp_%s_%d
 required
 AGFollowup_%d
@@ -1213,6 +1242,7 @@ norepeat
 [%s%03i]
 Discarded rule %s
 [%s::%s]
+nopriority
 SNDLVL_NONE
 SNDLVL_20dB
 SNDLVL_25dB
@@ -1270,6 +1300,7 @@ Expecting '{' in rule '%s', got '%s'
 Expecting more tokens in rule '%s'
 Expecting '{' in enumeration '%s', got '%s'
 Expecting more tokens in enumeration '%s'
+NewNode
 NewNode
 NewNode
 NewNode

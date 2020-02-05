@@ -75,11 +75,11 @@ pthread_mutexattr_settype
 pthread_mutex_init
 __cxa_guard_release
 CommandLine
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEjPKci
+_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEPKcij
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 Plat_GetEnv
-_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
-_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
 _ZN16CThreadSemaphore7ReleaseEiPi
 _ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
 _ZN13CThreadRWLock11WaitForReadEv
@@ -98,7 +98,7 @@ ThreadInMainThread
 _ZN13CBufferString6ConcatEPKcS1_z
 Plat_LoadModule
 g_VProfCurrentProfile
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 _ZdaPv
 Plat_DebugString
 _ZN13CBufferString15ComposeFileNameEPKcS1_c
@@ -242,10 +242,10 @@ _V_ExtractFileExtension
 V_strnlen
 V_StrTrim
 V_tier0_strstr
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 V_localeconv
 Plat_GetOSType
 Plat_IsHighDPI
@@ -336,9 +336,9 @@ AUATI
 [A\A]A^A_]
 @tnH9
 AWAVAUATSH
+D;%!M$
 [A\A]A^A_]
 A\A]A^A_]
-D;%2=$
 AUATI
 [A\A]A^A_]
 [A\A]A^A_]
@@ -437,15 +437,13 @@ AVAUL
 [A\A]A^]
 AVAUATSH
 [A\A]A^A_]
+@paHFC
+[A\A]A^]
 AUATSH
 8[A\A]]
 [A\A]A^A_]
 AWAVI
 AUATSH
-[A\A]A^A_]
-AWAVL
-AUATSH
-@paHFC
 [A\A]A^A_]
 AWAVI
 S@teH
@@ -466,7 +464,7 @@ CPuJH
 [A\A]A^A_]
 CPunH
 fD;b@u
-[A\A]]
+A\A]A^]
 paHFCu
 [A\A]]
 [A\A]]
@@ -540,6 +538,7 @@ H90t%H
 Hc@pH
 [A\A]]
 AUATI
+dH3<%(
 [A\A]A^A_]
 D9xXu
 ~3fD;2
@@ -593,7 +592,7 @@ AWAVA
 `AWAVAUATI
 hE;,$|
 ([A\A]A^A_]
-([A\A]A^A_]
+[A\A]A^A_]
 [A\A]A^A_]
 AWAVI
 AUATI
@@ -757,17 +756,23 @@ CJobH
 FAJbH
 CJob]
 [A\A]A^A_]
-txHcW 
-t$HcW 
-O,t	[A\]
+txHcW(
+t$HcW(
+O4t	[A\]
+ffffff.
 { [A\]
+fffff.
 { [A\]
+ffff.
 AUATSH
 [A\A]]
 [A\A]]
 { [A\]
+fffff.
 AWAVAUATA
+CThreadeA
 [A\A]A^A_]
+CThreadeA
 FAJbf
 AUATSH
 [A\A]]
@@ -778,19 +783,23 @@ AUATSH
 [A\A]]
 FAJbH
 AUATSH
+CThreadeA
 [A\A]A^A_]
 AWAVE
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 AWAVM
+CThreadeA
 [A\A]A^A_]
 AWAVI
+CThreadeA
 [A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
 AVAUATS
 [A\A]A^]
+CThreade
 [A\A]A^A_]
 AWAVAUATSH
 h[A\A]A^A_]
@@ -949,9 +958,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
@@ -959,13 +965,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 AWAVM
 AUATL
@@ -1224,6 +1232,7 @@ AVAUATI
 AWAVAUI
 [A\A]A^A_]
 AWAVL
+dH34%(
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
@@ -1286,6 +1295,7 @@ Total Seconds: %.5f
 -log_opened_files
 opened_files.txt
 %s, %s, %s
+../public/tier1/utlsymbol.h
 fs_debug
 (vpk) 
 ---------------
@@ -1461,6 +1471,8 @@ AllocInternal
 -noasync
 -onethreadpool
 IOJob
+CFileAsyncJob
+basefilesystemasync.cpp
 asyncwrite
 asyncappend
 Invalid async read of %s
@@ -1522,11 +1534,11 @@ COMPLETED
 UNKNOWN
 Unknown Request
 VNewAsyncFileSystem001
-filesystemasync.cpp
 %s: request %llu has op %d
 Bad inner op %d in %s
 Aborting IO request for %s
 Bad Release Request
+filesystemasync.h
 CTSQueue corruption
 bIsLive
 !pRequest->m_bUsedAsContext
@@ -1637,6 +1649,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -1651,10 +1666,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -1662,7 +1680,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 >/game/
 /content/
 Unable to watch '%s'
@@ -1687,6 +1705,7 @@ u64( %lld = 0x%llX )
 update
 delete
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 
@@ -1706,6 +1725,7 @@ KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
 utlstring.cpp
 %s: string format requested %d chars
 FormatV
+utlsymbol.cpp
 WIN32
 WINDOWS
 LINUX

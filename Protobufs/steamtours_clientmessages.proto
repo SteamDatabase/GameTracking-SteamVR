@@ -124,11 +124,6 @@ message CClientMsg_SetSequence {
 	optional uint32 ent_ehandle = 1;
 	optional float cycle = 2;
 	optional string sequence = 3;
-	optional float finger00 = 4;
-	optional float finger01 = 5;
-	optional float finger02 = 6;
-	optional float finger03 = 7;
-	optional float finger04 = 8;
 }
 
 message CClientMsg_SetEntityColor {

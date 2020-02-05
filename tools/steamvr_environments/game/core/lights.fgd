@@ -106,6 +106,7 @@
 
 @PointClass
 	base( Targetname, Parentname, EnableDisable, BaseLightProbeVolume, IndoorOutdoorLevel )
+	tags( VisPreview )
 	editormodel( "models/editor/iv_helper" )
 	box_oriented( box_mins, box_maxs )
 	bakeresource( lightprobetexture, vtex, env_light_probe_volume, "ToolObjects/LightProbeVolume" )
@@ -115,6 +116,7 @@
 
 @PointClass
 	base( Targetname, Parentname, EnableDisable, BaseCubemap, IndoorOutdoorLevel )
+	tags( VisPreview )
 	editormodel( "models/editor/env_cubemap" )
 	leansphere( influenceradius, 128, 128, 255 )
 	bakeresource( cubemaptexture, vtex, env_cubemap, "ToolObjects/CubeMap" )
@@ -125,6 +127,7 @@
 
 @PointClass
 	base( Targetname, Parentname, EnableDisable, BaseCubemap, IndoorOutdoorLevel )
+	tags( VisPreview )
 	editormodel( "models/editor/env_cubemap" )
 	box_oriented( box_mins, box_maxs )
 	bakeresource( cubemaptexture, vtex, env_cubemap, "ToolObjects/CubeMap" )
@@ -136,6 +139,7 @@
 
 @PointClass
 	base( Targetname, Parentname, EnableDisable, BaseCubemap, BaseLightProbeVolume, SetBrightnessColor, IndoorOutdoorLevel )
+	tags( VisPreview )
 	editormodel( "models/editor/env_cubemap" )
 	box_oriented( box_mins, box_maxs )
 	bakeresource( lightprobetexture, vtex, env_light_probe_volume, "ToolObjects/LightProbeVolume" )

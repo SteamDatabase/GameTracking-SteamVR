@@ -1199,7 +1199,7 @@
 "[english]VR_Avatar_Companion_Bot"	"Refined Wrench Bot"
 "VR_Avatar_Companion_Bot_Desc"	"なんでも帽子にして楽しむオシャレで上品なロボットの頭。"
 "[english]VR_Avatar_Companion_Bot_Desc"	"A head from a delicate robot who enjoys fashioning objects into hats."
-"VR_Avatar_Touch"	"Touch コントローラ"
+"VR_Avatar_Touch"	"Touchコントローラー"
 "[english]VR_Avatar_Touch"	"Touch Controllers"
 "VR_Avatar_Touch_Desc"	"Oculus Rift 用 Touch コントローラ。"
 "[english]VR_Avatar_Touch_Desc"	"Touch controllers for the Oculus Rift."

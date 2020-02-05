@@ -31,8 +31,8 @@ _ZdaPv
 _V_strnicmp_fast
 _Z10DevWarningPKcz
 Plat_IsInDebugSession
-_ZNV16CThreadFastMutex4LockEyj
-_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEj
+_ZNV16CThreadFastMutex4LockEPKciyj
+_ZN22CThreadRWLock_FastRead20UnlockReadAccountingEPKcij
 _Znwm
 Plat_GetThreadIndex
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
@@ -46,16 +46,16 @@ ThreadYield
 _ZN13CBufferString12AppendFormatEPKcz
 V_PrettifyNum
 _ZN13CBufferString5PurgeEi
-LoggingSystem_Log
 Plat_ReconfigureWindow
 _ZN22CThreadRWLock_FastRead30HandleFirstWriteLockTransitionEv
 _ZN12CThreadEvent3SetEv
 _ZN16CThreadSemaphore7ReleaseEiPi
+LoggingSystem_Log
 memcmp
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 Plat_OsSpecificHandleToPlatWindow
 Plat_WindowToOsSpecificHandle
 _ZN12CThreadEventC1Eb
@@ -63,7 +63,7 @@ _ZN22CThreadRWLock_FastReadC1Ev
 Plat_GetClockStart
 g_pThreadPool
 V_stricmp_fast
-_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEj
+_ZN22CThreadRWLock_FastRead25WaitForReadLockTransitionEjPKci
 Plat_GetWindowMonitorIndex
 Plat_GetDesktopResolution
 Plat_GetDefaultMonitorIndex
@@ -85,6 +85,7 @@ V_vsnprintf
 ThreadJoin
 V_logf
 floorf
+CreateNewThreadPool
 ReturnJobManualEventToPool
 _ZN13CBufferString6InsertEiPKcib
 Plat_NeedsLowFragmentation
@@ -465,8 +466,8 @@ _ZN21CThreadMultiWaitEventC1Eb
 _ZN21CThreadMultiWaitEventD1Ev
 _ZN13CThreadRWLock11WaitForReadEv
 _V_ExtractFilePath
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 trunc
 frexp
 fprintf
@@ -528,8 +529,8 @@ GLIBC_2.11
 GLIBC_2.3.4
 AUAT1
 L9<$tAI
+H;=%w
 d$@L9
-H;=&H
 []A\A]A^A_
 fffff.
 fffff.
@@ -553,7 +554,7 @@ Lc~(N
 [A\A]A^A_]
 [A\A]A^A_]
 H;v8u
-E`9C$u
+Eh9C$u
 AVAUATStSH;v0tZLcv(J
 c([A\A]A^]
 H;v8u
@@ -585,10 +586,7 @@ AVAUI
 AUATI
 [A\A]]
 [A\A]]
-AVAUATI
-T$0H9
-[A\A]A^]
-[A\A]A^]
+)D$ H
 CLx8H
 AWAVAUATI
 [A\A]A^A_]
@@ -604,9 +602,9 @@ AWAVAUATI
 [A\A]A^A_]
 [A\A]]
 AWAVAUI
+tPLcc(D;c8D
 [A\A]A^A_]
 AWAVAUI
-tPLcc(D;c8D
 [A\A]A^A_]
 AUATSH
 ([A\A]A^A_]
@@ -614,33 +612,32 @@ AUATSH
 AUATS
 A\A]A^]
 A\A]A^]
-AVAUATS
-A]A^]
+AWAVAUATI
+A]A^A_]H
 vtexH
 AVAUA
 [A\A]A^]
 vtexH
-[A\A]]
-[A\A]
 AWAVAUATSH
-vtexL
+vtexH
 [A\A]A^A_]
-AVAUATSH
-[A\A]A^]
 H;QHtHH9QPu
 >H9WHt7H9WPtQH
 [A\A]A^]
 [A\A]A^]
 [A\A]A^]
+AWAVAUI
+([A\A]A^A_]
+([A\A]A^A_]
 AUATSH
 [A\A]]
 [A\A]]
-AVAUATI
-[A\A]A^]
-[A\A]A^]
 AWAVI
 AUATA
 ([A\A]A^A_]
+AVAUATI
+[A\A]A^]
+[A\A]A^]
 8A]A^]H
 AVAUI
 [A\A]A^A_]
@@ -700,6 +697,8 @@ A\A]A^A_]
 AVAUATSH
 zhufA
 X[A\A]A^A_]
+[A\A]A^]
+AVAUA
 [A\A]A^]
 6H92t%H
 AWAVAUATL
@@ -772,12 +771,12 @@ AVAUATSH
 ([A\A]A^A_]
 ([A\A]A^A_]
 [A\A]]
-AVAUATLc
+AVAUA
 [A\A]A^A_]
 AUATL
 h[A\A]]
 AWAVAUATA
-[A\A]A^A_]
+H[A\A]A^A_]
 D;c(}
 [A\A]]
 [A\A]]
@@ -828,6 +827,7 @@ AVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+t"L;:u
 X[A\A]A^A_]
 AWAVI
 AUATSH
@@ -840,7 +840,6 @@ AVAUATSH
 CJobH
 vtexE1
 [A\]H
-p[A\]
 vtexu
 [A\A]A^A_]
 [A\A]A^A_]
@@ -859,7 +858,7 @@ AUATSH
 [A\A]]
 AUATSH
 [A\A]]
-t0[A\]
+t-[A\]
 t-[A\]
 AVAUATSH
 [A\A]A^A_]
@@ -877,6 +876,11 @@ H[A\A]]
 AVAUI
 [A\A]
 pXA^]
+[A\A]]
+[A\A]]
+AVAUI
+A\A]A^]
+[A\A]A^]
 ([A\A]A^A_]
 AWAVAUI
 ([A\A]A^A_]
@@ -891,12 +895,6 @@ AWAVAUATSH
 AWAVAUATSH
 TRPGI
 [A\A]A^A_]
-AUATSH
-[A\A]]
-AUATSH
-[A\A]]
-AUATSH
-[A\A]]
 AWAVAUI
 [A\A]A^A_]
  [A\]
@@ -987,37 +985,49 @@ AUATLc
 x[A\A]A^A_]
 8[A\A]A^A_]
 AVAUATE1
-Wqt:D
+Wyt:D
 [A\A]A^A_]
 AWAVA
 AUATL
 [A\A]A^A_]
 AWAVAUATSH
-h[A\A]A^A_]
-h[A\A]A^A_]
-AWAVAUATSH
-s8AUAVH
+x[A\A]A^A_]
+x[A\A]A^A_]
+AWAVI
+AUATSH
+~0AWE
+FPATI
 [A\A]A^A_]
 [A\A]A^A_]
 D$0H9
 [A\A]A^A_]
+AUATSH
+CThreadeI
+dJobA
 [A\A]A^A_]
-AWAVL
-AUATE
 [A\A]A^A_]
 [A\A]A^A_]
-AVAUATI
+[A\A]A^A_]
+AWAVAUATSH
 ARAQWV1
 [A\A]A^A_]
-AVAUATI
+AWAVI
+AUATM
 [A\A]A^A_]
-DATAI
+DATAE1
 P8H=vtex
+AWAUH
 t3[A\]
 AWAVAUATSH
 h[A\A]A^A_]
+h[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
 AVAUI
 A]A^]
+AUATSH
+[A\A]]
+Lc Hc
 AWAVI
 [A\A]A^A_]
 AVAUATSH
@@ -1032,7 +1042,7 @@ AWAVAUATSH
 [A\A]A^A_]
 [A\A]]
 AVAUATSH
-I+W0I
+I+W0A
 [A\A]A^A_]
 Lc'D;g
 [A\A]A^A_]
@@ -1046,11 +1056,9 @@ AWAVAUI
 H[A\A]A^A_]
 AWAVAUATSH
 H[A\A]A^A_]
-AWAVI
-AUATSH
+AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-@Xu8H
 [A\A]A^A_]
 AWAVAUI
 ([A\A]A^A_]
@@ -1157,12 +1165,12 @@ D$hPA
 [A\A]]
 AWAVAUATI
 [A\A]A^A_]
-D$,E1
 [A\A]]
 AWAVAUATI
 x[A\A]A^A_]
 [A\A]A^A_]
-t7L;8u
+t'L;;u
+t'L;8u
 AWAVAUATSH
 8[A\A]A^A_]
 AWAVAUATSH
@@ -1186,7 +1194,6 @@ AWAVAUL
 o ATI
 t$0E1
 [A\A]A^A_]
-AVAUI
 ([A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
@@ -1209,7 +1216,7 @@ AWAVAUL
 f;7tt
 4vf;T
 AWAVAUATSH
-~YA;N
+~aA;N
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUI
@@ -1242,7 +1249,6 @@ AWAVAUATSH
 M AUD
 [A\A]A^A_]
 [A\A]A^A_]
-AWAVI
 AUATI
 X[A\A]A^A_]
 ~`f;w
@@ -1316,15 +1322,12 @@ AWAVAUATA
 AVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
-AUATSH
-fE;,$
+AWAVL
 [A\A]A^A_]
 AWAVAUATSH
 H[A\A]A^A_]
 AWAVAUATSH
-@E;t$
 [A\A]A^A_]
-AWAVAUATSH
 $0A9|$
 [A\A]A^A_]
 f;0tXfD
@@ -1347,14 +1350,15 @@ AWAVAUATA
 AVAUATSH
 4IfD;$
 [A\A]A^A_]
-AWAVAUATSH
-G8I;G@r
-[A\A]A^A_]
 AUATSD
 t4[A\A]]
 AVAUI
 [A\A]A^]
 [A\A]A^]
+AWAVAUATSH
+G8I;G@r
+[A\A]A^A_]
+[A\A]A^A_]
 [A\A]A^]
 tyHcW
 t$HcS
@@ -1645,8 +1649,7 @@ AVAUI
 t$PWH
 [A\A]A^A_]
 [A\A]A^A_]
-AWAVI
-AUATL
+AWAVAUI
 [A\A]A^A_]
 AVAUL
 [A\A]A^]
@@ -1701,10 +1704,10 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
-AWAVA
+AWAVI
 AUATI
 ([A\A]A^A_]
-AWAVI
+AWAVA
 AUATI
 ([A\A]A^A_]
 AWAVAUI
@@ -1759,7 +1762,7 @@ A\A]H
 [A\A]]
 [A\A]]
 AWAVI
-[A\A]A^A_]
+z$u"A
 [A\A]A^A_]
 AUATSH
 C$;A$
@@ -1814,8 +1817,8 @@ X[A\A]A^A_]
 ~2IcT$hH
 AUATSH
 [A\A]A^A_]
-AWAVI
-([A\A]A^A_]
+AVAUI
+[A\A]A^A_]
 |zH;@
 D$(tZH
 AVAUA
@@ -1853,14 +1856,15 @@ AWAVAUL
 [A\A]A^A_]
 [A\A]]
 u	[A\]
-AWAVAUATI
-[A\A]A^A_]
-|$pE1
-[A\A]A^A_]
+AVAUI
+[A\A]A^]
+A\A]A^]
 AWAVAUI
 [A\A]A^A_]
 AUATSH
 [A\A]]
+AWAVAUL
+[A\A]A^A_]
 AWAVAUL
 [A\A]A^A_]
 AWAVAUATSH
@@ -1888,8 +1892,10 @@ AVAUATL
 `[A\A]A^]
 AVAUATI
 X[A\A]A^A_]
+t/I;U
 AVAUATI
 X[A\A]A^A_]
+t/I;U
 AVAUH
 `[A\A]A^]
 [A\A]]
@@ -2052,7 +2058,7 @@ t [A\A]A^]
 A\A]A^]
 [A\A]A^]
 [A\A]]
-AVAUI
+AWAVAUI
 [A\A]A^A_]
  [A\]
 K@H9J
@@ -2065,7 +2071,8 @@ K@H9J
 S HcS
 tgHcS
 [A\A]A^A_]
-AVAUATSH
+AWAVA
+AUATSH
 X[A\A]A^A_]
 [A\A]A^]
 [A\A]]
@@ -2090,6 +2097,7 @@ AWAVAUA
 [A\A]A^A_]
 -VUUUD
 tWD;8u
+t!D;8u
 E A9G u
 D;8tnH
 [A\A]]
@@ -2128,10 +2136,11 @@ AWAVL
 AWAVAUATI
 [A\A]A^A_]
 AWAVAUATSH
-H;=8l
+H;=px
 [A\A]A^A_]
+H;=%v
 ></~#
-H;=Kf
+H;=/s
 AWAVAUATSH
 [A\A]A^A_]
 AVAUATSH
@@ -2182,7 +2191,9 @@ aintenanI
 VK_NV_deI
 dicated_I
 allocatiI
-AWAVAUATI
+AUATSH
+4[f;L
+4vf9D
 [A\A]A^A_]
 AVAUH
 [A\A]A^]
@@ -2222,6 +2233,9 @@ AUATA
 ([A\A]]
  [A\]
  [A\]
+AWAVAUATSH
+[A\A]A^A_]
+t/90u
 ATSvkH
 AWAVAUI
 ([A\A]A^A_]
@@ -2235,9 +2249,6 @@ AWAVL
 [A\A]A^A_]
 AUATSH
 AVAUI
-AWAVAUATSH
-[A\A]A^A_]
-t/90u
 AWAVI
 AUATSH
 [A\A]A^A_]
@@ -2335,6 +2346,7 @@ AWAVAUI
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^]
+AWAVL
 [A\A]A^A_]
 [A\A]A^A_]
 AUATSH
@@ -2500,8 +2512,6 @@ A\A]A^]
 AWAVAUATSH
 H;0t|A
 [A\A]A^A_]
-AUATSH
-[A\A]]
 AWAVAUL
 [A\A]A^A_]
 [A\A]A^A_]
@@ -2524,6 +2534,8 @@ AWAVAUI
 [A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
+AUATI
+[A\A]]
 AWAVI
 [A\A]A^A_]
 AWAVM
@@ -2544,8 +2556,6 @@ AVAUATSH
 `[A\A]A^]
 [A\A]A^A_]
 AWAVI
-[A\A]A^A_]
-AWAVAUATSH
 [A\A]A^A_]
 x[A\A]]
 x[A\A]]
@@ -2650,9 +2660,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
@@ -2661,13 +2668,15 @@ G8t.H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 G0AQE1
 [A\A]]
@@ -2794,11 +2803,11 @@ $woL)
 E9t$ M
 [A\A]A^A_]
 [A\A]A^A_]
-Hcs H
+Hcs(H
 t$HcW
 AWAVAUI
-IcE H9
-fE;}.
+IcE(H9
+fE;}6
 [A\A]A^A_]
 AVAUI
 A+E$A
@@ -3190,7 +3199,7 @@ AVAUI
 AUATI
 ([A\A]A^A_]
 [A\A]A^A_]
-uAL;%:
+uAL;%
 [A\A]]
 AWAVAUATSH
 [A\A]A^A_]
@@ -3203,7 +3212,6 @@ L;C(t;M
 AWAVAUM
 XZt%E
 [A\A]A^A_]
-H;=Wb|
 AWAVI
 AUATS
 [A\A]A^A_]
@@ -3214,15 +3222,17 @@ IcFxE
 [A\A]A^A_]
 vhMcNxAQ
 PASPE
-H;=~@|
+H;=&O|
 AZA[H
 AWAVAUI
 Lc{4E
 HcSxI
+H;=tH|
 [A\A]A^A_]
 tqLcK<Hc
 Hc{@L
-H;=]8|
+H;=\F|
+H;=eE|
 AWAVAUATSH
 dH34%(
 [A\A]A^A_]
@@ -3602,11 +3612,18 @@ D+c$Mc
 D+c$Mc
 +S$Hc
 AVAUATSH
+F A+F
 [A\A]A^A_]
-D+s$Mc
-A+P$Hc
-A+p$Hc
-D+s$Mc
+E+n$Mc
+A+F$H
+A+V$I
+A+Q$Hc
+A+F$H
+F A+F
+A+q$Hc
+A+F$I
+A+F$H
+A+F$H
 AWAVAUATSH
 8[A\A]A^A_]
 8[A\A]A^A_]
@@ -3868,6 +3885,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
 AUATL
 [A\A]]
 &YA1H
@@ -4081,9 +4100,9 @@ AUATUSH
 []A\A]
 AUATI
 ([]A\A]
-H;=Tqy
+H;=<}y
 ([]A\A]
-H;=<py
+H;=$|y
 ATUSH
 fffff.
 AWAVAUATA
@@ -4091,8 +4110,8 @@ AWAVAUATA
 AWAVAUATUSH
 []A\A]A^A_
 fffff.
-H;=U`y
-H;=l_y
+H;==ly
+H;=Tky
 AWAVLc
 AUATUSI
 ([]A\A]A^A_
@@ -4111,7 +4130,7 @@ AVAUATUH
  []A\A]A^
 ([]A\A]
 AWAVAUATA
-H;=}Gy
+H;=eSy
 H[]A\A]A^A_
 AWAVAUATA
 T$0H;T$8H
@@ -4123,7 +4142,7 @@ H[]A\A]A^A_
 B A9A @
 AWAVH
 AUATA
-H;=e9y
+H;=MEy
 D$@u9H
 []A\A]A^A_
 AWAVI
@@ -4137,8 +4156,8 @@ AUATA
 8[]A\A]A^A_
 AWAVI
 AUATUS
-H;=c1y
-H;=J1y
+H;=K=y
+H;=2=y
 []A\A]A^A_
 D$@E1
 D$@PD
@@ -4150,6 +4169,7 @@ D$PdH
 D$@PAT
 D$@PH
 D$(PL
+H;=q#y
 []A\A]A^A_
 AWAVI
 AUATA
@@ -4273,9 +4293,9 @@ AWAVAUATUSH
 D$DHcE@H
 D$Ht#H
 L$4Hc
-L;55jx
+L;5%vx
 L$4Hc
-H;=>fx
+H;=.rx
 |$HH+|$@
 []A\A]A^A_
 H9D$ 
@@ -4288,7 +4308,6 @@ P8H;P@
 G8I+G0H
 D$ H9
 []A\A]A^A_
-L;%!Wx
 spAUATI
 []A\A]
 G8H+G0H
@@ -4304,21 +4323,20 @@ AUATI
 []A\A]
 AVAUI
 ATUSH
+L;-rNx
  []A\A]A^
 AUATI
 []A\A]
 ATUSH
 AVAUI
 []A\A]A^
+H;=q5x
 AWAVAUATUSH
 p<@t"H
 D$0E1
-H;=)"x
 D$Xf%
 D$bf%
 []A\A]A^A_
-H;-!!x
-H;=	!x
 AWAVAUATUSH
 ([]A\A]A^A_
 AUATA
@@ -4570,12 +4588,11 @@ AWAVAUATUSH
 @PH9X
 @PH9X
 GPL9h
-H;-A\v
-H;-#\v
+H;-1hv
 fffff.
 fffff.
 AVAUATSI
-L;5XJv
+L;5@Vv
 dH34%(
 [A\A]A^]
 AUATI
@@ -4732,7 +4749,7 @@ AWAVI
 AUATH
 t$0tNH
 []A\A]A^A_
-F@H;-1
+F@H;-!
 []A\A]A^A_
 AWAVL
 AUATUSH
@@ -4878,7 +4895,7 @@ AWAVH
 AUATI
 H9,$t\H
 C([]A\A]A^A_
-H;=!Ou
+H;=	[u
 AWAVI
 AUATI
 Hc@(H
@@ -4890,21 +4907,21 @@ H9,$t`H
 C([]A\A]A^A_
 AWAVI
 AUATI
-H;=hBu
+H;=PNu
 IcG(H
 []A\A]A^A_
-H;=VAu
+H;=>Mu
 XZu`H
 AWAVAUATUSH
 H;p v
 t H;r r
 []A\A]A^A_
 tNHc@(H
-H;=[=u
+H;=CIu
 AWAVM
 AUATUSL
 D$8dH
-H;=e9u
+H;=MEu
 ~*HcP(
 Hc@(H
 t$0H9
@@ -4913,7 +4930,7 @@ H;D$0
 []A\A]A^A_
 L$`I9
 d$T9l$H
-H;=`#u
+H;=H/u
 AWAVAUATI
 H;h v
 []A\A]A^A_
@@ -5107,12 +5124,12 @@ AWAVAUATUSH
  []A\
 AUATI
 []A\A]
-H;=9Ot
+H;=)[t
 AVAUATUH
 []A\A]A^
 AWAVAUATUSH
 H[]A\A]A^A_
-H;=pGt
+H;=`St
 H[]A\A]A^A_
 AWAVI
 AUATI
@@ -5146,6 +5163,7 @@ AUATUI
 []A\A]A^
 AVAUI
 []A\A]A^
+H;=y@t
 0[]A\A]A^
 AWAVI
 AUATI
@@ -5278,7 +5296,7 @@ l$8I)
 H[]A\A]A^A_
 AWAVAUATUS
 D$`XZt
-H;=' s
+L;-x1s
 []A\A]A^A_
 AUATA
 []A\A]
@@ -5387,7 +5405,7 @@ AWAVAUATI
 []A\A]A^A_H
 ]A\A]A^A_
 AUATI
-D$ L;-Xir
+D$ L;-Hur
 []A\A]
 []A\A]
 AWAVAUATUSH
@@ -5407,7 +5425,7 @@ AUATA
 AUATI
 []A\A]
 []A\A]
-u1H;-B]r
+u1H;-2ir
 AWAVI
 AUATI
 8[]A\A]A^A_
@@ -5419,7 +5437,7 @@ AUATI
 fffff.
 AUATI
 []A\A]
-E L;%bDr
+E L;%RPr
 AWAVAUATUSH
 8[]A\A]A^A_H
 8[]A\A]A^A_
@@ -5499,7 +5517,7 @@ AWAVAUATM
 []A\A]A^A_
 AWAVH
 AUATI
-v8H;51
+v8H;5!
 v8H;5
 []A\A]A^A_
 D9$$vaH
@@ -5614,7 +5632,7 @@ AVAUI
  []A\A]A^
 AWAVAUATI
 C8H+C0H
-H;=00q
+H;= <q
 []A\A]A^A_
 pHH;5
 GhfD9
@@ -5628,7 +5646,7 @@ h[]A\A]A^A_
 @HH;D$
 @HH;D$
 C8H+C0H
-H;=P"q
+H;=@.q
 C8H+C0H
 @HH;D$
 C8H+C0H
@@ -5751,7 +5769,7 @@ AWAVI
 AUATH
 H[]A\A]A^A_
 H[]A\A]A^A_
-H;=NUp
+H;=>ap
 AUATUSH
 []A\A]
 fffff.
@@ -5760,7 +5778,7 @@ AWAVAUATUSH
 ([]A\A]A^A_
 ([]A\A]A^A_
 ([]A\A]A^A_
-H;59@p
+H;5)Lp
 AWAVI
 AUATI
 []A\A]A^A_
@@ -5769,7 +5787,6 @@ AWAVI
 AUATI
 []A\A]A^A_
 D$hE1
-H;5$3p
 AWAVAUATI
 []A\A]A^A_
 AWAVAUATI
@@ -5885,14 +5902,13 @@ F8I+F0H
 F8I+F0H
 AWAVA
 AUATI
-H;=Tro
-H;=>ro
+H;=D~o
+H;=.~o
 8[]A\A]A^A_
 8[]A\A]A^A_
 []A\A]
 ZYt@H
-H;=xmo
-H;=*lo
+H;=hyo
 AUATI
 []A\A]
 []A\A]
@@ -5918,8 +5934,7 @@ F8I+F0H
 t$`E1
 F8I+F0H
 p H;-
-H;=P@o
-H;=	=o
+H;=@Lo
 fffff.
 AVAUI
 []A\A]A^
@@ -5931,10 +5946,7 @@ AUATI
 AWAVI
 AUATI
 []A\A]A^A_
-H;5r/o
-H;5)/o
-H;52!o
-H;=..o
+H;5b;o
 u<L;%
 AVAUATI
 @PH;D$
@@ -6063,7 +6075,7 @@ AWAVH
 AUATUSH
 |$HdH3<%(
 X[]A\A]A^A_
-H;=DCn
+H;=,On
 Lc@ 1
 AWAVL
 AUATI
@@ -6214,7 +6226,7 @@ dH34%(
 [A\A]A^]
 AUATUI
 []A\A]A^
-H;=G[m
+H;=/gm
 AUATUI
 []A\A]A^
 AUATL
@@ -6271,7 +6283,7 @@ AVAUATI
 AWAVI
 []A\A]A^A_
 AVAUATSI
-L;58"m
+L;5 .m
 dH34%(
 [A\A]A^]
 AUATUSH
@@ -6413,7 +6425,6 @@ AUATUSH
 |$(u;H
 H[]A\A]A^A_
 AWAVAUATE
-H;=%Uk
 []A\A]A^A_
 AWAVAUATI
 ([]A\A]A^A_
@@ -6453,8 +6464,10 @@ AUATUSH
 []A\A]A^A_
 AWAVAUATI
 L$ L9
+H;=:!k
 8[]A\A]A^A_
 []A\A]A^A_
+H;=2 k
 @(<,w
 t`vF<
 t"<	u>H
@@ -6647,11 +6660,10 @@ AWAVI
 AUATL
 ghUSH
 h[]A\A]A^A_
-H;=Tzi
 AWAVI
 AUATUSH
 L$HsUH
-H;=Nii
+H;=6ui
 L$HH9
 AXAYH
 L$HH9
@@ -6664,9 +6676,7 @@ AWAVAUATUSH
 |$XH)
 D$TA	
 t$8H9
-H;=YBi
-H;=.;i
-H;=+6i
+H;=ANi
 AUATUI
 []A\A]A^
 AUATUI
@@ -7323,7 +7333,7 @@ AVAUATUH
 []A\A]A^H
 ffffff.
 tsUSH
-H;=j_g
+H;=Rkg
 AUATI
 D$HdH3
 X[]A\A]
@@ -7565,7 +7575,7 @@ AUATI
 D$hdH3
 x[]A\A]A^A_
 AWAVAUATUSH
-H;=qef
+H;=aqf
 []A\A]A^A_
 AWAVAUATI
 []A\A]A^A_
@@ -7588,7 +7598,7 @@ AUATUSH
 AWAVI
 AUATI
 8[]A\A]A^A_
-H;=4Sf
+H;=$_f
 AVAUI
 A\A]A^H
 ]A\A]A^L
@@ -7615,7 +7625,7 @@ AWAVAUATI
 []A\A]A^A_
 AWAVAUATI
 []A\A]A^A_
-H;=J5f
+H;=:Af
 AWAVI
 AUATI
 ([]A\A]A^A_
@@ -7726,7 +7736,6 @@ AUATUSH
 L$ H9
 H;D$ 
 H;T$0
-L;%V~e
 H;D$(
 H;D$ 
 t$ H9
@@ -7749,7 +7758,6 @@ H;T$0
 t$(E1
 H;D$(
 D$PE1
-H;-*Ye
 H;D$ 
 }jAWAVA
 AUATA
@@ -7776,7 +7784,7 @@ H9,$t@H
 8[]A\A]A^A_
 AWAVI
 AUATM
-H;=~Ie
+H;=nUe
 X[]A\A]A^A_
 H;,$t
 X[]A\A]A^A_
@@ -7805,7 +7813,7 @@ AWAVI
 AUATI
 D9@ }
 D;@ ~
-H;-0"e
+H;- .e
 []A\A]A^A_
 \$0H9
 B A9C @
@@ -7909,8 +7917,8 @@ D$0E1
 t$4E1
 AWAVAUATI
 []A\A]A^A_
-H;=jfd
-H;=?ed
+H;=Zrd
+H;=/qd
 l$@E1
 fffff.
 AWAVI
@@ -7925,7 +7933,6 @@ AUATI
 V0I9F
 F0I+F(H
 []A\A]A^A_
-H;=&Md
 AWAVM
 AUATI
 D$@dH
@@ -7943,7 +7950,7 @@ H9\$(
 H+T$HH
 AWAVE
 AUATI
-H;=vAd
+H;=fMd
 []A\A]A^A_
 AWAVAUATI
 []A\A]A^A_
@@ -7961,7 +7968,7 @@ AUATI
 []A\A]A^A_
 AWAVAUATI
 []A\A]A^A_
-H;=2#d
+H;="/d
 fffff.
 AWAVAUATI
 []A\A]A^A_
@@ -7972,6 +7979,7 @@ AUATI
 []A\A]A^A_
 D$XHcD$D
 H;l$H
+H;=z#d
 HcL$DI
 |$0H)
 F8I+F0H
@@ -8180,7 +8188,6 @@ AWAVAUATI
 []A\A]A^A_
 I;] H
 AWAVAUATI
-H;=+fc
 []A\A]A^A_
 M9l$ t&L
 []A\A]A^A_
@@ -8202,6 +8209,7 @@ AUATUSH
 X[]A\A]A^A_
 GHvi=
 xEH;=
+H;=#*c
 Lc@ 1
 fffff.
 AWAVL
@@ -8435,24 +8443,21 @@ X[]A\A]A^A_
 AWAVI
 AUATA
 []A\A]A^A_
-H;=[wa
-H;=`ta
  []A\
-H;=~sa
-H;=xra
-H;=xqa
-H;=xpa
-H;=*oa
-H;=Jna
-H;=jma
-H;=:ka
-H;=Zja
-H;=zia
-H;=*ha
-H;=Jga
-H;=jfa
-H;=:da
-H;=Zca
+H;=`~a
+H;=`}a
+H;=`|a
+H;=2za
+H;=Rya
+H;=rxa
+H;="wa
+H;=Bva
+H;=bua
+H;=2sa
+H;=Rra
+H;=rqa
+H;="pa
+H;=Boa
 AWAVI
 AUATUSH
 []A\A]A^A_
@@ -8490,7 +8495,7 @@ AUATUSt`I
 ]A\A]A^
 fffff.
 AWAVAUATA
-H;=g#a
+H;=O/a
 []A\A]A^A_
 fffff.
 D$(dH3
@@ -8563,7 +8568,6 @@ X[]A\A]A^A_
 X[]A\A]A^A_
 AWAVAUATA
 []A\A]A^A_
-H;=/q`
 AWAVAUATA
 []A\A]A^A_
 AWAVI
@@ -8638,7 +8642,9 @@ AUATI
 []A\A]A^A_
 AWAVAUATUSH
 L$@L)
+H;=V$`
 X[]A\A]A^A_
+H;=|#`
 AWAVH
 AUATI
 L$(L9
@@ -8740,10 +8746,9 @@ AVAUI
 []A\A]A^
 AVAUI
 []A\A]A^
-H;=Q`_
-H;=A__
-H;=1^_
-H;=!]_
+H;=9l_
+H;=)k_
+H;=	i_
 AUATI
 []A\A]
 AUATI
@@ -8765,14 +8770,13 @@ exM+epH
 AUATI
 []A\A]
 AUATI
-H;=4K_
+[]A\A]
+AUATI
+H;=lU_
 []A\A]
 AUATI
 []A\A]
 AUATI
-[]A\A]
-AUATI
-H;=$F_
 []A\A]
 AUATI
 []A\A]
@@ -8782,15 +8786,15 @@ m0L+m(H
 []A\A]
 AWAVAUATI
 t$XH9
-H;=8<_
+H;= H_
 []A\A]A^A_
 AWAVAUATI
-H;=F9_
-H;=Z8_
+H;=.E_
+H;=BD_
 []A\A]A^A_
 AWAVI
 AUATI
-H;=S5_
+H;=;A_
 []A\A]A^A_
 AWAVA
 AUATI
@@ -8810,9 +8814,9 @@ AUATM
 FDA9@DtFL
 []A\A]A^A_
 AUATI
-H;=v!_
+H;=^-_
 []A\A]
-H;=u _
+H;=],_
 AUATI
 []A\A]
 AWAVA
@@ -9025,17 +9029,16 @@ AUATUSH
 []A\A]
 ATUSH
 \$ dH
-H;=0W^
 fffff.
 AUATUSH
 []A\A]
 AUATUSH
+H;=w]^
 []A\A]
 ChD9 
 @t^H9
 ffffff.
 AWAVAUATUSH
-H;=)M^
 []A\A]A^A_
 ND9HD
 fffff.
@@ -9068,7 +9071,7 @@ T$hL)
 AWAVAUATI
 9H v&H
 ;H s!L
-H;=N!^
+H;=6-^
 []A\A]A^A_
 D$xH9
 H 91s
@@ -9216,7 +9219,6 @@ AUATUSH
 AWAVAUATUSH
 []A\A]A^A_
 AVAUATUH
-H;=0j]
 []A\A]A^
 ATUL)
 ]A\A]A^
@@ -9268,7 +9270,7 @@ H[]A\A]A^A_
 AZA[H
 AVAUATUI
 []A\A]A^
-H;=mC]
+H;=UO]
 ffff.
 AWAVAUATI
 []A\A]A^A_
@@ -9431,50 +9433,45 @@ AUATUSH
 f L+f
 []A\A]A^A_
 D$49D$0
-H;=I~\
-H;=u}\
-H;=<z\
-H;=ny\
-H;=.u\
-H;=^t\
-H;=+q\
-H;=lp\
-H;=*n\
-H;=Zl\
-H;=Vi\
-H;=Ah\
-H;=Yg\
-H;=gf\
-H;=oe\
-H;=wd\
-H;=_`\
-H;=G]\
-H;=6\\
-H;=a[\
-H;=zZ\
-H;=HS\
-H;='Q\
-H;=NN\
-H;=KK\
-H;=CI\
-H;=kD\
-H;=OA\
-H;=w@\
-H;='?\
-H;=(>\
-H;=i=\
-H;=T;\
-H;=r9\
-H;=W5\
-H;=A3\
-H;==1\
-H;=G0\
-H;=/-\
-H;=W,\
-H;=8)\
-H;=](\
-H;=s'\
-H;=k%\
+H;=T|\
+H;=Bx\
+H;=>u\
+H;=)t\
+H;=As\
+H;=Or\
+H;=Wq\
+H;=_p\
+H;=zo\
+H;=Gl\
+H;=/i\
+H;=Ig\
+H;=bf\
+H;=0_\
+H;={^\
+H;=6Z\
+H;=3W\
+H;=+U\
+H;=SP\
+H;=7M\
+H;=_L\
+H;=QI\
+H;=<G\
+H;=ZE\
+H;=?A\
+H;=)?\
+H;=g>\
+H;=%=\
+H;=/<\
+H;=?8\
+H;= 5\
+H;=E4\
+H;=[3\
+H;=S1\
+H;=i.\
+H;=V+\
+H;=n&\
+H;=!"\
+H;=^!\
 AWAVAUATUSH
 4$t11
 []A\A]A^A_
@@ -9620,8 +9617,7 @@ AUATI
 []A\A]A^A_
 AWAVI
 AUATI
-L;%`E[
-H;=6E[
+L;%HQ[
 []A\A]A^A_
 tCATUI
 AWAVI
@@ -9634,11 +9630,12 @@ C t6M
 C t6M
 AWAVAUATI
 []A\A]A^A_
-H;=_*[
+H;=G6[
 H9l$ 
 k H+k
 l$\H)
 E;} A
+H;=i+[
 AWAVI
 AUATI
 []A\A]A^A_
@@ -9755,16 +9752,16 @@ fffff.
 AVAUATUSH
 []A\A]A^
 AWAVAUATUSH
+H;=x`Z
 []A\A]A^A_
 fffff.
 AVAUATUSH
-H;=$QZ
 []A\A]A^
 fffff.
 AUATUSH
 []A\A]
 AWAVAUATUSH
-H;=@IZ
+H;=(UZ
 []A\A]A^A_
 I+<$E1
 ffffff.
@@ -9773,9 +9770,9 @@ AWAVAUATUSH
 ;H s*H
 (L9t$
 E I+E
+H;=mFZ
 A;H spH
 AUATUSH
-H;=$1Z
 []A\A]
 T$ H)
 T$ H)
@@ -9972,7 +9969,6 @@ t$ H9
 []A\A]A^A_
 D$ L)
 ATUSH
-H;=KzY
  []A\
 fffff.
 AWAVAUATI
@@ -10132,7 +10128,7 @@ tW97u
 AWAVI
 AUATE1
 d$HdH
-L;%H)X
+L;%05X
 []A\A]A^A_
 ffff.
 AWAVAUATM
@@ -10331,7 +10327,7 @@ AUAT1
 []A\A]
 []A\A]
 AWAVAUATI
-H;=~IW
+H;=fUW
 t$HH9
 L$0L9
 D$XH9
@@ -10345,6 +10341,7 @@ H9D$@
 AWAVI
 AUATUSH
 H9D$(t
+H;=nLW
 t$HH9
 hL9l$0
 H9D$P
@@ -10581,7 +10578,6 @@ H9D$H
 H9D$@
 []A\A]A^A_
 AWAVAUATUSH
-H;=yuV
 T$PH9
 t$0L9
 D$XH9
@@ -10664,7 +10660,7 @@ t$0E1
 |$0H;|$
 AWAVAUATUSH
 []A\A]A^A_
-H;=@;V
+H;=(GV
 |$`H;|$Ht
 AWAVI
 AUATUSH
@@ -10933,6 +10929,7 @@ vb'vb'v
 H9l$ 
 l$ I;l$(
 H9h(u
+H;=~*U
 D$8H9
 t$8L9
 D$PH9
@@ -11158,6 +11155,7 @@ p8H+p0H
 t$pM9
 AWAVAUATUSH
 []A\A]A^A_
+H;=nHT
 D$ I9
 AWAVI
 AUATUSH
@@ -12122,9 +12120,10 @@ fffff.
 AWAVAUATA
 |$8t5L
 l$hH9
-H;=fiP
+L;-wuP
+H;=NuP
 []A\A]A^A_
-H;=KgP
+H;=3sP
 []A\H
 AWAVAUATI
 G@I+G8H
@@ -12918,7 +12917,6 @@ D$8hH
 D$8H9
 D$(hH
 D$(H9
-H;=^~M
 ffff.
 ATUSL
 AWAVA
@@ -12927,7 +12925,6 @@ x[]A\A]A^A_
 \$PH9
 |$8L9
 hL9d$
-H;=HtM
 AUATUSH
 []A\A]
 AWAVAUATUSH
@@ -13004,7 +13001,7 @@ H9D$(
 dH34%(
 []A\A]A^A_
 D$0H9D$
-H;=T(M
+H;=<4M
 T$8H9
 D$XH9
 \$8H9
@@ -13445,15 +13442,16 @@ ATUSH
 0[]A\
 AWAVI
 AUATH
-H;=R;K
+H;=:GK
 H9l$(I
-H;=^-K
+H;=F9K
+H;=l8K
 D$ H9
 []A\A]A^A_
 L$@H9L$ 
 D$8L;d$8
 L9d$8t.E
-H;=G$K
+H;=/0K
 L$HH)
 AWAVAUATA
 H9X s
@@ -14558,7 +14556,7 @@ ffff.
 AUAT1
 X[]A\A]
 []A\A]
-H;=HpF
+H;=0|F
 AWAVAUATUSH
 []A\A]A^A_
 	H;L$0
@@ -14612,7 +14610,7 @@ AVAUATUH
 D$@I+D$8H
 D$@I+D$8H
 AWAVAUATUSH
-H;=b3F
+H;=J?F
 T$@L9
 H;D$H
 hL9t$@u
@@ -16043,7 +16041,6 @@ AUATI
 []A\A]A^A_
 AWAVA
 AUATUS
-H;=1KA
 []A\A]A^A_
 AWAVA
 AUATUS
@@ -16537,7 +16534,7 @@ AWAVAUATI
 AVAUATUI
 []A\A]A^
 AVAUATUH
-H;=x ?
+H;=`,?
 w(H;w0H
 P[]A\A]A^
 fffff.
@@ -17049,12 +17046,13 @@ H[]A\A]A^A_
 AZA[H9
 AWAVAUATUSH
 r H;5
-L;-Z]=
+L;-Bi=
 _AXH9
 []A\A]A^A_
 A]YL9
-L;-}[=
+L;-eg=
 AZA[H9
+H;-zf=
 AWAVI
 AUATUSH
 _AXu	H9
@@ -17136,6 +17134,8 @@ D$ M)
 []A\A]A^A_
 AWAVAUATI
 L$XH9
+H;=q'=
+H;=3'=
 []A\A]A^A_
 AWAVAUATI
 []A\A]A^A_
@@ -17143,9 +17143,11 @@ AWAVAUATI
 AWAVI
 AUATH
 T$.tYH
+H;='#=
 []A\A]A^A_
 AWAVI
 AUATUSH
+H;=~!=
 H+l$ H
 l$`H+l$ H
 []A\A]A^A_
@@ -17291,7 +17293,7 @@ ATUSH
 AWAVI
 AUATUSH
 []A\A]A^A_
-H;=lJ<
+H;=TV<
 AWAVAUATI
 []A\A]A^A_
 AWAVAUATUSH
@@ -17797,6 +17799,7 @@ AWAVAULc
 [A\A]A^A_]
 AWAVAUATSH
 G8I;G@r
+[A\A]A^A_]
 [A\A]A^A_]
 AWAVAUI
 h[A\A]A^A_]
@@ -18800,6 +18803,7 @@ blocking issue in occlusion queries!!
 ../public/tier1/utllinkedlist.h
 CUtlLinkedList overflow! (exhausted memory allocator)
 CUtlLinkedList overflow! (exhausted index range)
+occlusionquerymgr.cpp
 CUtlFixedMemory overflow!
 AllocInternal
 rendercontextbase.cpp
@@ -18815,17 +18819,23 @@ SetAssociatedThreadIndex
 ORENDER_MULTISAMPLE_INVALID
 <unknown multisample type
 -shaderstats
-VB: %d buffers, %.2f MB
-IB: %d buffers, %.2f MB
-CB: %u buffers, %.2f MB
-TEX: %u textures, %.2f MB
-TOTAL: %.2f MB
+renderstatehelper.h
+  VB: %d buffers, %.2f MB
+  IB: %d buffers, %.2f MB
+  CB: %u buffers, %.2f MB
+  TEX: %u textures, %.2f MB
+  TOTAL: %.2f MB
+Texture Streaming:
+  %s / %s MB
+../public/tier1/utltshash.h
 Display GPU memory usage.
 r_gpu_mem_stats
 -r_max_device_threads
 -rendersystem_thread_mode
 single
 queued
+renderdevicebase.cpp
+../public/tier1/memstack.h
 r_texturefilteringquality
 r_fullscreen_gamma
 r_wait_on_present
@@ -18837,7 +18847,7 @@ RENDER_MULTISAMPLE_8X
 RENDER_MULTISAMPLE_16X
 Maximum device access threads: %u
 Checked pending presents %s times; waited %s times; abandoned %s times
-Texture memory limit: %s; in use: %s in %s textures
+Texture memory: %s / %s MB; in %s textures (%s MB non-evictable)
 Textures created overall: %s; textures evicted: %s
 Command stream pools: %s bytes in base, %s bytes in medium, %s bytes in large (%s extra data fallbacks)
 FindOrCreateTexture: Texture usage is unspecified!
@@ -18847,6 +18857,9 @@ FindOrCreateTexture: Cannot create static textures with no data!
 WARNING: Trying to create a CRenderContextPtr without a valid context.
 FindOrCreateTexture: Cannot load multiple mipmaps into cubemap texture: %s
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s
+rendersystem (%s) tracked resources:
+  %s / %s MB (non-evictable: %s MB)
+Overall System GPU memory use:
 Warning: have oustanding per-frame memory stack with %d allocations
 Warning: have %d in use and %d free per-frame memory stacks outstanding. The oldest stack was created at present %d, and we're now on present %d
 Hitch alert: Present was waiting for %d iterations and %.1f seconds.
@@ -18866,7 +18879,7 @@ AllocInternal
 25CConCommandMemberAccessorI17CRenderDeviceBaseE
 17CRenderDeviceBase
 15CRenderPassDesc
-?cfg/moddefaults.txt
+5cfg/moddefaults.txt
 video.cfg
 VendorID
 min megahertz
@@ -18915,6 +18928,8 @@ setting.resettodefaults
 cfg/video.txt
 cfg/video_%02d.txt
 _tools.txt
+video_version
+cfg/video_version.txt
 -autoconfig
 -autoconfig_level
 RenderDevice003
@@ -18945,6 +18960,7 @@ Saved video settings config to '%s'
 Failed to save video settings config to '%s'
 Loaded video settings config from '%s'
 Graphics Device changed, resetting video config
+Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.
 10IAppSystem
 16IRenderDeviceMgr
 14CBaseAppSystemI16IRenderDeviceMgrE
@@ -18989,33 +19005,32 @@ RenderUtils_001
 15CTier1AppSystemI12IRenderUtilsLi0EE
 15CTier2AppSystemI12IRenderUtilsLi0EE
 12CRenderUtils
+sheetcache.cpp
+sheetcachetexture_.vtex
 Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!
 Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!
 Rendersystem/SheetCacheTextureRows
 Rendersystem/SheetCacheTextureCols
-sheetcache.cpp
-sheetcachetexture_.vtex
 AllocateAndUploadSequenceData
 RESOURCE_TYPE_TEXTURE
 -dontEvictTextures
 -maxtextureres
 -deferTextureLoads
 -preloadtextures
+AsyncTextureHookup
 Evict all resident texture.
 r_textures_evict_all
 -shadowTargetSize
+texturebase.cpp
 Streaming Validation: %s 
 WAITING_FOR_IO 
 WAITING_FOR_HOOKUP_JOB 
 OUTSTANDING_HOOKUP_REQUEST 
-texturebase.cpp
 TEXMAN: Deleting %d textures
-HookUpTextureBits
-_bake
+AsyncHookUpTextureBits
 png/jpg
 immediate
 TEXMAN: Abandoning job in %s
-TEXMAN: %s %s
 Bad VTEX data for '%s'
 r_texture_pool_size
 r_texture_stream_mip_bias
@@ -19031,33 +19046,33 @@ GPU reports %dMB available memory which is too low, using %d MB
 Texture memory discrepancy! %llu != %llu
 Texture streaming validation OK (%d texture loads in flight).
 Found %d streaming textures in array, but in-flight count is %d
-texturebase.cpp(2642):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2663):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2674):ResourceHandleToData( %s ) failed! Falling back to error texture!
 CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.
 CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.
 Texture manager out of space! Can't allocate new texture!
-texturebase.cpp(2685):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2696):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2717):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2728):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2739):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2750):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2740):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2761):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2772):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2783):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2794):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2815):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2826):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2837):ResourceHandleToData( %s ) failed! Falling back to error texture!
+texturebase.cpp(2848):ResourceHandleToData( %s ) failed! Falling back to error texture!
 TEXMAN: Adding %s, %llx to abandoned hookup jobs
 TEXMAN: %s MarkTextureBitsLoaded (%s)
 TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)
 Discarding abandoned streaming texture load for %s
-texturebase.cpp(1726):Error loading texture: %s
+texturebase.cpp(1803):Error loading texture: %s
 Deleting texture with outstanding streaming request (%s)
-TEXMAN: Added hookup job for %s
+TEXMAN: Abandoning streaming request early in %s
 Unable to stream in resource file "%s" (Error: %s)
 Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request
 Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore
+Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL
 TEXMAN: Abandoning streaming request in %s
 TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)
 Compressed texture decoded in %.2f ms
 Decompressed %i texture mips in %.2f ms (%.1fmb/s)
-TEXMAN: Posting resource load complete msg.
 Unexpected resource version '%d' for '%s'
 Failed AllocateTexture for '%s'
 Total size of the texture pool in MB
@@ -19066,6 +19081,8 @@ Upper limit on texture pool size.
 Allow immediately loading mips of textures (when possible) when their headers are loaded, saving IO & reducing latency.
 Only immediately load textures which have a fullmipchain.
 r_texture_nonstreaming_only_fullmipchain
+Async Texture hookup uses its own threadpool instead of the global pool.
+r_texture_hookup_uses_threadpool
 AllocTextureSlot
 MN_BuildRequestedResourcesList
 MN_OnResourceLoadCompleted
@@ -19087,18 +19104,31 @@ RemoveTextureFromAnyQueues
 12CThreadedJob
 11CFunctorJob
 12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
-15CMemberFunctor4IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequestP12CTextureBase22TextureSpecification_tiES3_S5_S6_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor7IP19CTextureManagerBaseMS0_FvP12CTextureBase12ResourceId_tPvi22TextureSpecification_ti23TextureBitsMemoryType_tES3_S4_S5_iS6_iS7_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-@TEXTURESTREAMING: Extremely low memory: Available mem: %.2f MB, Required: %.2f MB. Kicking out all non-pinned textures.
+15CMemberFunctor5IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequest11CWeakHandleI31InfoForResourceTypeCTextureBaseEP12CTextureBase22TextureSpecification_tiES3_S6_S8_S9_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CMemberFunctor9IP19CTextureManagerBaseMS0_FvP12CTextureBase11CWeakHandleI31InfoForResourceTypeCTextureBaseE12ResourceId_tPvj22TextureSpecification_tS9_i23TextureBitsMemoryType_tES3_S6_S7_S8_iS9_S9_iSA_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+@TEXTURESTREAMING: Extremely low memory: Available mem: %.2f MB, Required: %.2f MB.
+GPU memory available (%d MB of %d MB used). Reducing texture pool size %d MB -> %d MB
+GPU memory available (%d MB of %d MB used). Increasing texture pool size %d MB -> %d MB.
 r_texture_stream_throttle_amount
 r_texture_stream_throttle_count
+After hitting throttling limits for streamout, allow it to continue up to this number of milliseconds.
+r_texture_streamout_unthrottle_ms
 r_texture_streaming_timesliced
+Dynamically adjust texture streaming budget based on GPU memory usage.
+Time (in seconds) between updating texture memory budget.
+r_texture_budget_update_period
+Reduce texture memory pool size when this percentage of the budget is full.
+Reduce texture memory pool size by this many MB / s when over budget.
+Increase texture memory pool size by this many MB / s when under budget.
 TEX read request: %d KB; %s
 r_texture_eager_eviction
-r_texture_stream_debug_spew
+r_texture_budget_dynamic
+r_texture_budget_threshold
+256.0
+r_texture_pool_reduce_rate
+r_texture_pool_increase_rate
 LoadExplicitlyRequestedTextures
 23CTextureStreamingHelper
-?-dev
 vb_created_input_layout
 17CVertexBufferBase
 a[_\`
@@ -19128,6 +19158,7 @@ Prints out stats for the Vulkan Framebuffer manager
 Vulkan framebuffers: %s; renderpasses: %s
 vkCreateFramebuffer( m_pDeviceVulkan, &framebufferCreateInfo, NULL, &pFramebufferVulkan )
 ERROR! VK call failed! result = %s ( %s )
+vulkan/framebuffermgrvulkan.cpp
 vkCreateRenderPass( m_pDeviceVulkan, &renderPassCreateInfo, NULL, &pRenderPass )
 	Framebuffer Count ( %d ): 
 VK_SUCCESS
@@ -19182,6 +19213,7 @@ RenderTarget
 -vulkan_cmd_buffer_pool_size
 RenderSystem/VulkanPoolSize%s
 vkAllocateMemory
+vulkan/memorymgrvulkan.cpp
 %s allocation count overflow
 Pool Type ( %s ): 
 Total PMB ( %llu MB ) 
@@ -19266,6 +19298,7 @@ Renderpass with too many attachment.  Max: %d Has: %d.  Rejecting.
 Renderpass with invalid attachment reference.  Attachment #%d  Max: %d Has: %d.  Rejecting.
 vkCreateRenderPass( VulkanDevice(), pRenderPassCreateInfo, nullptr, &pFossilizeRenderPass->m_pExplicitRenderPass )
 Error creating renderpass from Vulkan Steam Shader Source pre-cache.
+vulkan/pipelinecachemgrvulkan.cpp
 Failed to read fossilize database: '%s'
 Failed to prepare fossilize database: '%s'
 Failed to get size of resource hashes.
@@ -19367,6 +19400,7 @@ layoutBindings
 pushConstantRanges
 numImmutableSamplers
 immutableSamplers
+vulkan/pipelinemgrvulkan.cpp
 Pipeline Dump
 =============
 Hash: %llu
@@ -19399,7 +19433,6 @@ shaders.cache
 %s/%s
 vulkan_async_descriptors
 vulkan_pipeline_compile_spew
-vulkan/pipelinemgrvulkan.cpp
 LoadPipelineCache
 AllocInternal
 AllocInternal
@@ -19409,9 +19442,9 @@ AllocInternal
 22CPipelineManagerVulkan
 MbP?LockDynamicTexture not currently implemented in rendersystemvulkan
 vkDeviceWaitIdle( m_pDeviceVulkan )
+vulkan/rendercontextvulkan.cpp
 vkResetCommandBuffer( (*ppCommandBuffer)->m_pCmdBuffer, 0 )
 vkBeginCommandBuffer( (*ppCommandBuffer)->m_pCmdBuffer, &beginInfo )
-vulkan/rendercontextvulkan.cpp
 Too many threads (%d) accessing the render device, need to increase -r_max_device_threads
 vulkan/rendercontextvulkan.cpp(499): 
 vulkan/rendercontextvulkan.cpp(512): 
@@ -19446,6 +19479,8 @@ AllocInternal
 AllocInternal
 MarkIssuesCommands
 20CRenderContextVulkan
+vulkan/renderdevicevulkan.cpp
+./renderresource.h
 Render Device Empty
 -nogammaramp
 invalid handle
@@ -19454,12 +19489,12 @@ VKRenderThread
 -vulkan_enable_validation
 AMD RADV
 vs_4_0
-vulkan/renderdevicevulkan.cpp
 ps_4_0
 -vulkan_no_image_transitions
 -vktrace
 -glsl_to_spirv
 -vulkan_metal_validation
+./inputlayoutbase.h
 concatenated_input_layout
 ClearLayout
 ResolveLayout
@@ -19950,6 +19985,7 @@ vkEnumeratePhysicalDeviceGroupsKHR
 VK_LAYER_LUNARG_parameter_validation
 VK_LAYER_LUNARG_core_validation
 22CRenderDeviceMgrVulkan
+vulkan/renderpassvulkan.cpp
 Failed to create renderpass.
 Subpass %d color attachment %d not found in renderpass attachment list.
 Subpass %d input attachment %d not found in renderpass attachment list.
@@ -19962,6 +19998,7 @@ NewNode
 24CRenderPassManagerVulkan
 Present
 vkMapMemory( m_pDeviceVulkan, pQuery->m_pQueryPool->m_pResultsMem, nResultOffset, nResultSize, 0, &pMappedBuffer )
+vulkan/renderpipelinestatsvulkan.cpp
 vkCreateQueryPool( m_pDeviceVulkan, &queryPoolCreateInfo, NULL, &pQueryPoolVulkan )
 Failed to allocate buffer memory for query results to be written to.
 Experimental: Set to 1 to enable full GPU pipeline flushing after each present.
@@ -19972,9 +20009,9 @@ Workaround AMD bug where vkCmdPipelineBarrier is needed prior to vkCmdResetQuery
 vulkan_amd_timestamp_workaround
 Found %d checkpoints.
 -lunarg_no_present_fence
+vulkan/renderthreadvulkan.cpp
 vr_explicit_timing_mode
 vulkan_additional_semaphores
-vr_flush_on_timer
 rs_submit_twice
 vulkan_batch_submits
 vulkan_batch_size
@@ -20022,9 +20059,10 @@ AllocInternal
 AllocInternal
 19CRenderThreadVulkan
 13CVulkanObjectIP9VkFence_TXadL_Z14vkDestroyFenceEEE
-C(knNTotal Shader Stored: %.2fMB
+zd?Total Shader Stored: %.2fMB
 validation.cache
 vulkan_shader_table_print
+vulkan/shadertablevulkan.cpp
 Total Shader Requested: %.2fMB
 Total Shader Modules Stored: %.2fMB
 Total Shader Modules Requested: %.2fMB
@@ -20041,6 +20079,7 @@ AllocInternal
 18CShaderTableVulkan
 TEXTURESTREAMING: Resource view ptr or texture resources are still NULL after waiting.
 TEXMAN: %s LoadStreamingData (%s)
+Vulkan texture manager frame update
 TEXMAN: CTextureManagerVulkan::LoadStreamingData MarkTextureBitsLoadRequired (%s)
 vkCreateImageView( VulkanDevice(), &imageViewCreateInfo, NULL, m_ImageViews.m_ppPerMipLevelImageView[ i ]->GetPtr() )
 vkCreateImageView( VulkanDevice(), &imageViewCreateInfoSrgb, NULL, m_ImageViews.m_ppPerMipLevelImageViewSrgb[ i ]->GetPtr())
@@ -20056,38 +20095,28 @@ vkCreateImageView( VulkanDevice(), &colorTargetViewCreateInfo, NULL, m_ImageView
 vkCreateImageView( VulkanDevice(), &colorTargetViewCreateInfo, NULL, m_ImageViews.m_ppPerArraySliceColorTargetViewSrgb[ i ]->GetPtr() )
 vkBindImageMemory( VulkanDevice(), pVulkanImage->m_pImage, pVulkanImage->m_pGPUMemory, pVulkanImage->m_nOffset )
 VulkanKhrBindMemory2Extension()->vkBindImageMemory2KHR( VulkanDevice(), 1, &bindImageMemoryInfo )
-Low GPU memory detected (%d MB of %d MB used). Reducing texture pool size %d MB -> %d MB
-GPU memory available (%d MB of %d MB used). Increasing texture pool size %d MB -> %d MB.
-Vulkan texture manager frame update
 vkCreateImage( VulkanDevice(), &imageCreateInfo, NULL, &m_pVulkanImage->m_pImage )
 vkBindImageMemory( VulkanDevice(), m_pVulkanImage->m_pImage, m_pVulkanImage->m_pGPUMemory, m_pVulkanImage->m_nOffset )
 vkCreateImageView( VulkanDevice(), &imageViewCreateInfo, NULL, m_pImageView->GetPtr() )
 vkCreateImageView( VulkanDevice(), &imageViewCreateInfo, NULL, m_pImageViewSrgb->GetPtr() )
 CTextureManagerVulkan::ComputeTextureObject: Tried to create a depth-stencil texture which is *not* a render target!
 vkCreateImage( VulkanDevice(), &imageCreateInfo, NULL, &pVulkanImage->m_pImage )
-vulkan/texturevulkan.cpp(1446): 
+vulkan/texturevulkan.cpp(1443): 
 UpdateExternalTexture called on unknown external texture '%s'
 Trying to create a render target with invalid image format %s
 CRenderDeviceVulkan::RebakeStaticDescriptorSetsReferencingTexture - could not allocate descriptor in new pool.
 Size (in KBs) above which textures should be allocated in dedicated memory (NV-only).
 vulkan_dedicated_allocation_threshold
-Time (in seconds) between updating texture memory budget.
-r_texture_budget_update_period
-Reduce texture memory pool size when this percentage of the budget is full.
-Percentage of heap budget used when we are in a critical state.
-r_texture_budget_threshold_critical
 -vulkan_depth_texture_as_r32f
 -vulkan_disable_pool_textures
-CRITICAL: 
 SwapChainTexture.vtex
-r_texture_budget_threshold
 LoadStreamingData
 NewNode
 14CTextureVulkan
 21CTextureManagerVulkan
 13CVulkanObjectIP13VkImageView_TXadL_Z18vkDestroyImageViewEEE
 24CTextureManagerVulkanNew
-pAvkCreateBufferView( m_pDeviceVulkan, &bufferViewCreateInfo, NULL, &m_pTexelBufferView )
+vkCreateBufferView( m_pDeviceVulkan, &bufferViewCreateInfo, NULL, &m_pTexelBufferView )
 *** VB "%s": Tried to lock twice without an unlock!
 *** VB "%s": Tried to lock too much memory (%d>%d)!
 *** VB "%s": Tried to lock a GPU-only buffer!
@@ -20538,6 +20567,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 notify
@@ -20551,10 +20583,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -20562,7 +20597,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -20584,6 +20619,7 @@ u64( %lld = 0x%llX )
 update
 delete
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 
@@ -20778,8 +20814,8 @@ submrg%dx%d.tga
 after solve err=%f
 before solve err=%f
 floatbitmap.cpp(141): Unknown gamma type "%s"!
-floatbitmap.cpp(325): Conversion not supported yet!
-floatbitmap.cpp(425): Conversion not supported yet!
+floatbitmap.cpp(338): Conversion not supported yet!
+floatbitmap.cpp(438): Conversion not supported yet!
 FloatBitMap_t::LoadFromFloatBitmap: Received improper bitmap size, skipping!
 FloatBitMap_t::CopyFloatBitmap: Received NULL pointer!
 BC6h compression not supported on this target (windows only).
@@ -20795,11 +20831,11 @@ Only DXT1/DXT5 online texture compression supported.
 FloatBitMap_t::LoadFromBuffer: Received improper buffer size, skipping!
 FloatBitMap_t::LoadFromBuffer: Unsupported color format, skipping!
 FloatBitMap_t::WriteToBuffer: Received improper buffer size %s (expecting %s), skipping!
-floatbitmap.cpp(888): Unsupported color format "%s", skipping!
-floatbitmap.cpp(2473): Error calling TGALoader::GetInfo( %s )
-floatbitmap.cpp(2484): Error loading %s
-floatbitmap.cpp(2507): Error! Unknown file type for %s
-floatbitmap.cpp(2526): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
+floatbitmap.cpp(901): Unsupported color format "%s", skipping!
+floatbitmap.cpp(2486): Error calling TGALoader::GetInfo( %s )
+floatbitmap.cpp(2497): Error loading %s
+floatbitmap.cpp(2520): Error! Unknown file type for %s
+floatbitmap.cpp(2539): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s
 FloatBitMap_t: Error loading %s
 FloatBitMap::QuarterSizeBlocky
 FloatBitMap::DownsampleNiceFiltered
@@ -20988,7 +21024,7 @@ SSE and SSE2 are required.
 -sse3
 -sse4
 MathLib_Init
-N24CFieldPathHuffmanEncoder5INodeE
+?N24CFieldPathHuffmanEncoder5INodeE
 N24CFieldPathHuffmanEncoder12InternalNodeE
 N24CFieldPathHuffmanEncoder8LeafNodeE
 _addons
@@ -21432,6 +21468,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -21548,6 +21587,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -21601,6 +21641,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat

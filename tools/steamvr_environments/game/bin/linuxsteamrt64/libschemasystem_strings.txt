@@ -19,17 +19,17 @@ CommandLine
 __cxa_guard_release
 _ZTVN10__cxxabiv120__si_class_type_infoE
 ThreadGetCurrentId
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 strlen
 g_pMemAlloc
 strcmp
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
 _V_strncpy
 __stack_chk_fail
 V_snprintf
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 CMemAllocSystemInitialize
 Plat_UnloadModule
 _Znam
@@ -107,8 +107,8 @@ _V_ExtractFilePath
 _ZN13CBufferString6ConcatEPKcS1_z
 _ZN17CThreadSyncObjectD2Ev
 pthread_mutex_destroy
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
 strcpy
@@ -190,6 +190,8 @@ AVAUATSt`
 [A\A]H
 R A^]
 [A\A]A^]
+AWAVL
+[A\A]A^A_]
 [A\]H
 AVAUI
 [A\A]A^]
@@ -203,17 +205,19 @@ AVAUI
 [A\A]]
 [A\A]]
 [A\A]]
+AVAUI
+[A\A]A^]
+[A\A]A^]
+[A\]H
+[A\]H
 -VUUUH
 [A\A]A^]
 [A\A]H
 -VUUUH
 [A\A]A^]
 [A\A]H
-AWAVAUATI
-[A\A]A^A_]
-[A\A]A^A_]
-[A\]H
-[A\]H
+A\A]A^]
+[A\A]A^]
 [A\A]]
 AWAVAUATSH
 [A\A]A^A_]
@@ -245,18 +249,19 @@ T$HH!
 AVAUA
 tWD;(u
 [A\A]A^A_]
-t0D;(u
+t8D;(u
 [A\A]A^A_]
-t$D9(u
+t D9(u
+t7D;(u
 AWAVAUI
 t D9"u
 [A\A]A^A_]
 -VUUU
-[A\A]A^A_]
+A\A]A^A_]
 -VUUU
-t D;8u
-D;>t8H
-[A\A]A^A_]
+t!D;8u
+D;>t@H
+A\A]A^A_]
 AWAVI
 [A\A]A^A_]
 H[A\A]A^A_]
@@ -268,28 +273,29 @@ AYtLH
 AVAUA
 tWD;(u
 [A\A]A^A_]
-t0D;(u
+t8D;(u
 [A\A]A^A_]
-t$D9(u
+t D9(u
+t7D;(u
 AWAVAUI
 t D9"u
 [A\A]A^A_]
 -VUUU
-[A\A]A^A_]
+A\A]A^A_]
 -VUUU
-t D;8u
-D;>t8H
-[A\A]A^A_]
+t!D;8u
+D;>t@H
+A\A]A^A_]
 [A\A]A^]
 [A\A]A^]
 U-VUUUH
 [A\A]]
-D$`H9
+D$hH9
 [A\A]]
 [A\A]]
 U-VUUUH
 [A\A]]
-D$`H9
+D$hH9
 [A\A]]
 [A\A]]
 AUATA
@@ -308,12 +314,12 @@ AWAVL
 ~Ef;w
 f;7tt
 4vf;T
-AUATSH
+AWAVL
+AUATI
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
+[A\A]]
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
@@ -324,13 +330,15 @@ AWAVAUATSH
 [A\A]]
 AWAVAUATSH
 [A\A]A^A_]
-[A\A]]
+AWAVAUATSH
+[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
  [A\]
  [A\]
 AWAVAUATSH
 [A\A]A^A_]
+[A\A]]
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]]
@@ -368,9 +376,8 @@ f;7tt
 4vf;T
 AWAVAUATSH
 [A\A]A^A_]
-AVAUATI
- [A\A]A^]
- [A\A]A^]
+AVAUA
+[A\A]A^]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -415,8 +422,8 @@ AVAUA
 AVAUI
 [A\A]A^A_]
 [A\A]A^A_]
-AWAVA
-dH3<%(
+AVAUA
+dH34%(
 [A\A]A^A_]
 AUATSH
 [A\A]]
@@ -517,8 +524,7 @@ AVAUATI
 [A\A]A^A_]
 o(ATSH
 [A\A]A^A_]
-AWAVI
-AUATSH
+AVAUATSH
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
@@ -649,9 +655,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
@@ -660,13 +663,15 @@ G8t.H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -1145,6 +1150,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
 AUATL
 [A\A]]
 &YA1H
@@ -1297,6 +1304,7 @@ All errors logged to console. First error (of %d):
 VerifySchemaBindingConsistency
 5t~BC
 schemasystem.cpp
+../public/tier1/utltshash.h
 %s%s%s
 schema_list_bindings
 schema_all_list_bindings
@@ -1328,6 +1336,7 @@ Enumerator Name
 Enumerator Value
 InstallSchemaBindings
 SchemaSystem_001
+schemasystem.h
 ../public/tier1/utlrbtree.h
 %s[%d]
 bitfield:%d
@@ -1598,6 +1607,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -1612,10 +1624,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -1623,7 +1638,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 >mempool.cpp
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 NewNode
@@ -1632,6 +1647,8 @@ utlstring.cpp
 %s: string format requested %d chars
 FormatV
 UPDATE_STRING_TOKEN_DATABASE
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 12CThreadEvent
 VApplication001
 interfaces.cpp
@@ -2164,6 +2181,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -2279,6 +2299,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -2332,6 +2353,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat

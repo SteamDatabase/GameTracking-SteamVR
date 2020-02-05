@@ -83,6 +83,57 @@
 	input Disable(void) : "Disable the fog."
 ]
 
+@OverrideClass = light_environment
+[
+	directlight(choices) : "Direct Lighting" : "1" : "How direct lighting should be represented" =
+	[
+		"0" : "None"
+		"1" : "Baked"
+		"2" : "Per-Pixel"
+	]
+]
+
+@OverrideClass = light_spot
+[
+	directlight(choices) : "Direct Lighting" : "1" : "How direct lighting should be represented" =
+	[
+		"0" : "None"
+		"1" : "Baked"
+		"2" : "Per-Pixel"
+	]
+]
+
+@OverrideClass = light_ortho
+[
+	directlight(choices) : "Direct Lighting" : "1" : "How direct lighting should be represented" =
+	[
+		"0" : "None"
+		"1" : "Baked"
+		"2" : "Per-Pixel"
+	]
+]
+
+@OverrideClass = light_omni
+[
+	directlight(choices) : "Direct Lighting" : "1" : "How direct lighting should be represented" =
+	[
+		"0" : "None"
+		"1" : "Baked"
+		"2" : "Per-Pixel"
+	]
+]
+
+@OverrideClass = env_combined_light_probe_volume
+[
+	voxel_size(choices) : "Voxel Size" : "12.0" : "" = 
+	[
+		"12.0" : "Very High Resolution"
+		"24.0" : "High Resolution"
+		"48.0" : "Medium Resolution"
+		"108.0" : "Low Resolution"
+	]
+]
+
 //-------------------------------------------------------------------------
 //
 // Teleport entities

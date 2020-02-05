@@ -2,10 +2,12 @@ cfg/machine_convars_default.vcfg CRC:00b89b0055 size:202
 cfg/user_keys_default.vcfg CRC:00e1125064 size:1426
 manifests/models.vrman_c CRC:004f61938d size:328
 materials/default/default_color_tga_47b1af3d.vtex_c CRC:003bd4d9a2 size:1756
+materials/default/default_metal_tga_8fbc2820.vtex_c CRC:00d8651a3b size:2156
 materials/default/default_normal_tga_7652cb.vtex_c CRC:0094f126ae size:2052
 materials/default/default_normal_tga_9204755b.vtex_c CRC:00c6c2f367 size:2244
 materials/default/default_normal_tga_f81979be.vtex_c CRC:0031a5f07d size:2004
 materials/default/default_selfillum_tga_e58fcf1c.vtex_c CRC:0043570dde size:1852
+materials/dev/gray_50.vmat_c CRC:00fbb1cf35 size:5255
 materials/dev/steamvr_background.vmat_c CRC:0013b56211 size:4264
 materials/dev/unlit_vertex_color.vmat_c CRC:00c9eaad8f size:4368
 materials/dev/unlit_vertex_color_trans.vmat_c CRC:006addf98e size:4520
@@ -434,7 +436,7 @@ particles/tool_fx/controller_trackpad_position.vpcf_c CRC:00a0f0a084 size:1727
 particles/tool_fx/controller_trackpad_position_b.vpcf_c CRC:0091af6771 size:1593
 particles/ui_grab_item.vpcf_c CRC:00f45627da size:2142
 particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
-scripts/contentdb.txt CRC:00f94f228a size:153804
+scripts/contentdb.txt CRC:00f09bcf8a size:152514
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:003e459188 size:473
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70

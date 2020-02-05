@@ -145,7 +145,7 @@ V_GetErrno
 V_UTF16ToUTF8
 _V_StringAfterPrefix
 ThreadGetCurrentId
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 _V_strnistr_fast
 V_strnchr
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
@@ -169,14 +169,14 @@ pthread_mutex_unlock
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN17CThreadSyncObjectD2Ev
 pthread_mutex_destroy
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
 V_localeconv
@@ -398,7 +398,7 @@ _ZSt9terminatev
 sigfillset
 pthread_sigmask
 _ZN17CThreadSyncObject4WaitEj
-_ZN12CThreadMutex7TryLockEv
+_ZN12CThreadMutex7TryLockEPKci
 _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
@@ -456,6 +456,8 @@ GLIBCXX_3.4
 GLIBC_2.4
 GLIBC_2.14
 GLIBC_2.3.4
+;Hc5v
+;Hc5;
 fffff.
 fffff.
 fffff.
@@ -637,34 +639,34 @@ AWAVAUI
 [A\A]A^A_]
 AWAVL
 [A\A]A^A_]
-sHH;5e
-s@H;5P
+sHH;5
+s@H;5
 s8H;5
 s0H;5
-s(H;5
+s(H;5h
+s H;58
+[A\A]A^A_]
+[A\A]A^]
+[A\A]A^]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+AWAVL
+[A\A]A^A_]
+sPH;5
+sHH;5
+s@H;5
+s8H;5
+s0H;5p
+s(H;5@
 s H;5
 [A\A]A^A_]
-[A\A]A^]
-[A\A]A^]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
 AWAVL
-[A\A]A^A_]
-sPH;5B
-sHH;5
-s@H;5@
-s8H;5
+s8H;5,
 s0H;5
-s(H;5
-s H;5x
-[A\A]A^A_]
-AWAVL
-s8H;5
-s0H;5l
 [A\A]A^A_]
 [A\A]A^A_]
 HcC H
@@ -673,7 +675,7 @@ AWAVI
 HcC H
 [A\A]A^A_]
 w0AUL
-s0H;5l}A
+s0H;5
 [A\A]A^A_]
 HcC H
 [A\A]A^A_]
@@ -686,28 +688,31 @@ AWAVI
 HcC H
 [A\A]A^A_]
 AVAUI
-H;=flA
-H;=;lA
+H;=){A
+H;=}zA
+H;=RzA
+H;='zA
 udA	\$
 [A\A]A^]
 AUATI
+H;=@wA
 [A\A]]
 [A\A]]
 [A\A]]
+H;={uA
 [A\A]]
 AVAUI
 [A\A]A^]
-[A\A]]
-H;=?YA
-[A\A]]
+H;=[pA
 [A\A]]
 [A\A]]
-H;=<UA
+[A\A]]
+[A\A]]
 [A\A]]
 AWAVAUATI
 t$0H9
+H;=2bA
 t$8H9
-H;=kSA
 [A\A]A^A_]
 k D;(
 uR[A\]
@@ -722,11 +727,11 @@ uO[A\]
 [A\A]]
 [A\A]]
 [A\A]]
-H;=hJA
-H;==JA
+H;=+YA
+H;=TXA
+H;=)XA
 u]A	\$
 [A\A]]
-H;=~HA
 AWAVAUA
 ([A\A]A^A_]
 AVAUI
@@ -737,7 +742,6 @@ AWAVAUA
 ([A\A]A^A_]
 AWAVAUATI
 t$0H9
-H;=R?A
 [A\A]A^A_]
 k D;(
 AVAUI
@@ -777,7 +781,7 @@ AVAUAT
 SxqHc
 [A\A]A^]
 [A\A]]
-;=:NA
+;=J]A
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
@@ -1016,20 +1020,19 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -2397,11 +2400,18 @@ D+c$Mc
 D+c$Mc
 +S$Hc
 AVAUATSH
+F A+F
 [A\A]A^A_]
-D+s$Mc
-A+P$Hc
-A+p$Hc
-D+s$Mc
+E+n$Mc
+A+F$H
+A+V$I
+A+Q$Hc
+A+F$H
+F A+F
+A+q$Hc
+A+F$I
+A+F$H
+A+F$H
 AWAVAUATSH
 8[A\A]A^A_]
 8[A\A]A^A_]
@@ -2613,6 +2623,8 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVI
 [A\A]A^A_]
+[A\A]A^A_]
+AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
@@ -3595,6 +3607,8 @@ EventClientPreOutput_t
 EventClientProcessGameInput_t
 EventClientProcessInput_t
 EventClientPollInput_t
+m_bFirstVRInputSample
+m_nVRInputSampleID
 EventSetTime_t
 m_nClientOutputFrames
 m_flRenderFrameTimeUnscaled
@@ -3609,6 +3623,7 @@ m_nRenderHeight
 EventServerProcessNetworking_t
 EventClientProcessNetworking_t
 EventClientSceneSystemThreadStateChange_t
+m_nVRLastInputSampleIDThisFrame
 EventSplitScreenStateChanged_t
 EventProfileStorageAvailable_t
 libhost.so
@@ -3624,6 +3639,9 @@ HookUpConfigValue
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -3637,17 +3655,20 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
 14ConCommandBase
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -3669,6 +3690,7 @@ u64( %lld = 0x%llX )
 update
 delete
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 
@@ -3692,6 +3714,8 @@ utlstring.cpp
 %s: string format requested %d chars
 FormatV
 UPDATE_STRING_TOKEN_DATABASE
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 12CThreadEvent
 WIN32
 WINDOWS
@@ -4997,6 +5021,7 @@ gameinterfaces.cpp
 DotaMapUtils001
 ResponseRulesCache001
 VRigHost001
+DACGameManager001
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!
 APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!
@@ -5415,6 +5440,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -5531,6 +5559,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -5584,6 +5613,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat
@@ -5655,7 +5688,6 @@ m_bHasBakedLightingFromVertexStream
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingBasisInVertex
 m_bCanBatchWithDynamicShaderConstants
-m_bHasPerInstanceBakedLightingData
 speeds
 runspeed
 walkspeed
@@ -5900,7 +5932,8 @@ physib
 ptestbed
 VertexColorPos_t
 phys_res
-@A  0x%08X %s,
+@Aphysaggregatedata.cpp
+  0x%08X %s,
  %llu aggs, %s total data
 Animated
 Simulated
@@ -5998,7 +6031,6 @@ POSITION
 F_ALPHA_TEST
 F_TRANSLUCENT
 F_MORPH_SUPPORTED
-Attribute counts between meshes is inconsistent
 Need valid position and texcoord when creating world space tangent lengths!
 Need valid position to calculate face centers!
 remapping vertex %d[w%d] invalid: %d->? >= %d

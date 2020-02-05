@@ -874,6 +874,11 @@
 "Warning_DismissableWarning_DevelopmentHardwareNotSupported_Action" " "
 "Warning_DismissableWarning_DevelopmentHardwareNotSupported_ActionURL" " "
 
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header" "Set SteamVR as the default OpenXR runtime?"
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description" "SteamVR isn't set as the default OpenXR runtime. This might prevent some applications from launching correctly."
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action" "Set SteamVR as default"
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL" "vrmonitor://openxr/makedefault"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Display Connection Trouble"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Your graphics card cannot successfully connect to your HMD display. Try removing any cable adapters or extenders you are using. Try another port on your GPU if one is available. <b>Use the reset link below to reset the HMD so the GPU will try again.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Reset Headset"

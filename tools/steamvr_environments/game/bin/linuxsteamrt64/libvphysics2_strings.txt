@@ -33,7 +33,7 @@ memset
 g_pMemAlloc
 _Z6DevMsgPKcz
 ThreadGetCurrentId
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 Warning
 ReturnJobManualEventToPool
 pthread_mutex_destroy
@@ -127,14 +127,14 @@ _ZN12CThreadEventC1Eb
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
 _ZN17CThreadSyncObjectD2Ev
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
 strcpy
@@ -909,11 +909,12 @@ A\A]A^]
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
 AWAVI
 [A\A]A^A_]
 [A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+ffffff.
 AVAUATM
 [A\A]A^]
 [A\A]A^A_]
@@ -935,6 +936,8 @@ AUATSH
 [A\A]]
 AWAVAUM
 [A\A]A^A_]
+CThreadeA
+dJobA
 [A\A]A^A_]
 DATAL
 AVAUI
@@ -1028,10 +1031,8 @@ AUATA
 AWAVAUI
 [A\A]A^A_]
 [A^]H
-AVATSH
-YGLfA
-[A\A^]
-[A\A^]
+YG\fA
+[A^]H
 AUATI
 [A\A]]
 AWAVAUATSH
@@ -1045,11 +1046,12 @@ AUATSH
 AWAVAUATSH
 H[A\A]A^A_]
 [A^]H
-YCLfA
+YC\fA
+YC\fA
 AVAUATSH
+YG\fA
 H[A\A]A^A_]
 H[A\A]A^A_]
-YGLfA
 AWAVAUATI
 8[A\A]A^A_]
 AWAVAUATSH
@@ -1063,10 +1065,10 @@ VUUUA
 [A\A]A^A_]
 AUATA
 [A\A]]
-AWAVI
-AUATSH
-N(AUH
-C\t4H
+AVAUATSH
+VUUUD
+@xAYAZH
+[A\A]A^A_]
 [A\A]A^A_]
 AUATA
 [A\A]]
@@ -1156,7 +1158,7 @@ AVAUI
 [A\A]A^]
 AUATI
 [A\A]]
-AWAVAUATSH
+AWAVAUATL
 &YA1L
 [A\A]A^A_]
 AWAVAUATSH
@@ -1351,15 +1353,16 @@ A;_8|
 [A\A]A^A_]
 [A\A]A^A_]
 AVAUI
-Y=l<.
-W5'<.
+Y=L`.
 [A\A]A^A_]
-W=+-.
-W5$-.
 [A\A]A^A_]
-W5v .
+W=sD.
+W5VD.
 [A\A]A^A_]
 AUATSH
+Y5c8.
+T%^8.
+T538.
 dH3<%(
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1430,12 +1433,13 @@ AWAVL
  [A\]
  [A\]
 AWAVAUATSH
+ulLck
+D9k(D
 ([A\A]A^A_]
-E9l$(D
 ([A\A]A^A_]
 ([A\A]A^A_]
 ([A\A]A^A_]
-NHcK0Ic
+xIcL$0Ic
 AWAVI
 ([A\A]A^A_]
 AUATSH
@@ -1466,8 +1470,8 @@ A\A]]
 [A\A]A^A_]
 [A\A]A^A_]
 A\A]]
-K(HcP
 [A\]H
+K(HcP
 G(UHc
 AUATSH
 [A\A]]
@@ -1480,8 +1484,6 @@ AVAUL
 [A\A]A^]
 AVAUI
 [A\A]A^]
-AUATSH
-[A\A]A^A_]
 AVAUATI
 [A\A]A^A_]
 AUATSH
@@ -1521,7 +1523,7 @@ A9T$0v
 [A\A]]
 ATSIc
 [A\A]A^A_]
-AUATI
+AVAUI
 [A\A]A^A_]
 [A\A]]
 AWAVAUI
@@ -1535,6 +1537,11 @@ AWAVL
 AWAVAUATI
 [A\A]A^A_]
 [A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+McX0E;X@
+wIcH@Ic
+lIcH(Ic
 AWAVAUA
 Lc7E)
 [A\A]A^A_]
@@ -1551,10 +1558,6 @@ AUATI
 [A\A]]
 t?[A\A]A^]
 6fD9s
-[A\A]]
-AVAUI
-IcE0A;E@
-[A\A]A^A_]
 [A\A]]
 [A\A]A^A_]
 AUATI
@@ -1591,6 +1594,15 @@ S(IcN
 t.Mc.E;n
 Mc>E;~
 X[A\A]A^A_]
+AUATSL
+[A\A]]
+AVAUATI
+[A\A]A^]
+AVAUATSH
+[A\A]A^A_]
+AWAVI
+8[A\A]A^A_]
+8[A\A]A^A_]
 AUATSL
 [A\A]]
 AVAUATI
@@ -1925,9 +1937,9 @@ AVAUATSH
 ([A\A]A^A_]
 [A\]H
 AWAVL
+CThreadeH
 [A\A]A^A_]
 [A\A]A^A_]
-@usHc
 AWAVAUATSH
 [A\A]A^A_]
 AUATI
@@ -2071,6 +2083,7 @@ AUATSLc/E)
 [A\A]A^]
 [A\A]A^]
 oHATI
+CThreadeH
 [A\A]A^A_]
 [A\A]]
 [A\A]]
@@ -2220,7 +2233,7 @@ AVAUATI
 [A\A]A^]
 AVAUATSH
 [A\A]A^A_]
-AWAVI
+AWAVAUI
 ([A\A]A^A_]
 [A\A]]
 AVAUATI
@@ -2278,9 +2291,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AWAVAUATSH
 }$A;]
 [A\A]A^A_]
@@ -2292,13 +2302,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 G0AQE1
 [A\A]]
@@ -2826,11 +2838,18 @@ D+c$Mc
 D+c$Mc
 +S$Hc
 AVAUATSH
+F A+F
 [A\A]A^A_]
-D+s$Mc
-A+P$Hc
-A+p$Hc
-D+s$Mc
+E+n$Mc
+A+F$H
+A+V$I
+A+Q$Hc
+A+F$H
+F A+F
+A+q$Hc
+A+F$I
+A+F$H
+A+F$H
 AWAVAUATSH
 8[A\A]A^A_]
 8[A\A]A^A_]
@@ -3060,6 +3079,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
 AUATL
 [A\A]]
 &YA1H
@@ -3228,6 +3249,7 @@ AUATSLc'E)
 AWAVI
 AUATSH
 VUUUf
+X5C3'
 HcS@L
 [A\A]A^A_]
 AUATI
@@ -3593,9 +3615,9 @@ AVAUATI
 [A\A]A^]
 AWAVAUATI
 [A\A]A^A_]
-AWAVI
-[A\A]A^A_]
 AVAUL
+[A\A]A^A_]
+AWAVI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
@@ -3603,13 +3625,13 @@ AWAVAUATI
 [A\A]A^A_]
 D6DHc
 [A\A]A^A_]
-AUATI
-[A\A]]
-[A\A]]
 AWAVAUL
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AUATI
+[A\A]]
+[A\A]]
 AVAUI
 [A\A]A^]
 [A\A]]
@@ -3695,11 +3717,11 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
 8[A\A]A^A_]
-AWAVAUATSH
-8[A\A]A^A_]
 A\A]A^]
 AUATSH
 [A\A]A^A_]
+AWAVAUATSH
+8[A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
 AWAVAUATSH
@@ -3713,11 +3735,11 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
 AVAUI
-[A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
-AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
 8[A\A]A^A_]
@@ -4354,27 +4376,27 @@ X[A\A]A^A_]
 AWAVAUATSH
 h[A\A]A^A_]
 AWAVAUATSH
-h[A\A]A^A_]
-AWAVAUATSH
-h[A\A]A^A_]
-AWAVAUATSH
-h[A\A]A^A_]
-AWAVAUATSH
-h[A\A]A^A_]
-AWAVAUATSH
-h[A\A]A^A_]
-AWAVAUATSH
-h[A\A]A^A_]
-AWAVAUATSH
-h[A\A]A^A_]
-AWAVAUATSH
-h[A\A]A^A_]
-AWAVAUATSH
-h[A\A]A^A_]
-AWAVAUATSH
 X[A\A]A^A_]
 AWAVAUATSH
 X[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
+AWAVAUATSH
+h[A\A]A^A_]
 AWAVAUATSH
 h[A\A]A^A_]
 AWAVAUATSH
@@ -4449,22 +4471,6 @@ Mc E;`
 Lc#D;c
 Lc#D;c
 [A\A]A^A_]
-ATSLc&H
-Lc#D;c
-[A\A]A^]
-ATSLc&H
-Lc#D;c
-[A\A]A^]
-ATSLc&H
-Lc#D;c
-[A\A]A^]
-AWAVL
-Lc&D;f
-Lc#D;c
-[A\A]A^A_]
-ATSLc&H
-Lc#D;c
-[A\A]A^]
 AWAVL
 Lc&D;f
 Lc#D;c
@@ -4482,10 +4488,26 @@ Lc#D;c
 ATSLc&H
 Lc#D;c
 [A\A]A^]
+ATSLc&H
+Lc#D;c
+[A\A]A^]
+ATSLc&H
+Lc#D;c
+[A\A]A^]
+ATSLc&H
+Lc#D;c
+[A\A]A^]
+AWAVL
+Lc&D;f
+Lc#D;c
+[A\A]A^A_]
 AWAVAUI
 Lc&D;f
 Lc#D;c
 [A\A]A^A_]
+ATSLc&H
+Lc#D;c
+[A\A]A^]
 AWAVAUATSH
 [A\A]A^A_]
 AVAUI
@@ -4528,13 +4550,13 @@ Lc#D;c
 Lc#D;c
 Lc#D;c
 [A\A]A^A_]
-AWAVL
+AWAVAUI
 Lc&D;f
 Lc#D;c
 Lc#D;c
 Lc#D;c
 [A\A]A^A_]
-AWAVAUI
+AWAVL
 Lc&D;f
 Lc#D;c
 Lc#D;c
@@ -4568,6 +4590,7 @@ Lc#D;c
 Lc#D;c
 Lc#D;c
 [A\A]A^A_]
+t^~4<
 AWAVAUI
 Lc&D;f
 Lc#D;c
@@ -4575,7 +4598,6 @@ Lc#D;c
 Lc#D;c
 Lc#D;c
 [A\A]A^A_]
-t^~4<
 AWAVAUATSH
 Mc'E;g
 Mc'E;g
@@ -4583,13 +4605,12 @@ Mc'E;g
 AWAVAUATSH
 Mc>E;~
 [A\A]A^A_]
-AWAVL
-w(AUATI
+AWAVAUATI
 Lc.D;n
-t$,D;k
-t$.D;k
-t$/D;k
-Lc+D;k
+t$ D;k
+t$8D;k
+t$PD;k
+t$hD;k
 Lc+D;k
 [A\A]A^A_]
 AWAVL
@@ -4600,12 +4621,13 @@ t$$D;k
 Lc+D;k
 Lc+D;k
 [A\A]A^A_]
-AWAVAUATI
+AWAVL
+w(AUATI
 Lc.D;n
-t$ D;k
-t$8D;k
-t$PD;k
-t$hD;k
+t$,D;k
+t$.D;k
+t$/D;k
+Lc+D;k
 Lc+D;k
 [A\A]A^A_]
 AWAVL
@@ -4648,10 +4670,6 @@ Lc+D;k
 [A\A]A^A_]
 AWAVAUATI
 Lc.D;n
-Lc+D;k
-[A\A]A^A_]
-AWAVAUATI
-Lc.D;n
 t$0D;k
 t$HD;k
 t$`D;k
@@ -4676,6 +4694,10 @@ Lc+D;k
 [A\A]A^A_]
 AWAVAUATI
 Lc.D;n
+Lc+D;k
+[A\A]A^A_]
+AWAVAUATI
+Lc.D;n
 t$ D;k
 t$(D;k
 t$0D;k
@@ -4692,6 +4714,10 @@ Lc#D;c
 [A\A]A^A_]
 AWAVAUATI
 Lc.D;n
+Lc+D;k
+[A\A]A^A_]
+AWAVAUATI
+Lc.D;n
 t$(D;k
 t$,D;k
 t$0D;k
@@ -4699,10 +4725,6 @@ t$2D;k
 t$@D;k
 t$HD;k
 t$LD;k
-Lc+D;k
-[A\A]A^A_]
-AWAVAUATI
-Lc.D;n
 Lc+D;k
 [A\A]A^A_]
 AWAVAUATSH
@@ -4752,20 +4774,21 @@ AWAVAUATSH
 Mc'E;g
 Mc'E;g
 Mc'E;g
-kXE;g
-Mc'E;g
-Mc'E;g
-Mc'E;g
-[A\A]A^A_]
-AWAVAUATSH
-Mc'E;g
-Mc'E;g
-Mc'E;g
 [A\A]A^A_]
 Mc'E;g
 AWAVAUL
 Lc3D;s
 Lc3D;s
+[A\A]A^A_]
+AWAVAUATSH
+Mc'E;g
+Mc'E;g
+Mc'E;g
+cHE;o
+kXE;g
+Mc'E;g
+Mc'E;g
+Mc'E;g
 [A\A]A^A_]
 AWAVAUATSH
 ([A\A]A^A_]
@@ -4847,7 +4870,14 @@ x[A\A]A^A_]
 VUUUfA
 [A\A]A^A_]
 [A\A]A^A_]
+ffffff.
+ffffff.
+ffffff.
+ffffff.
 AWAVAUATSH
+CThreadeH
+CThreadeH
+CThreadeH
 [A\A]A^A_]
 X[A\A]]
 X[A\A]]
@@ -4857,6 +4887,7 @@ X[A\A]A^A_]
 AWAVI
 H[A\A]A^A_]
 AWAVAUATE1
+CThreadeH
 [A\A]A^A_]
 [A\A]]
 [A\A]]
@@ -4864,12 +4895,18 @@ AWAVAUATE1
 AWAVAUL
 [A\A]A^A_]
 AWAVAUATSH
+CThreadeI
+dJobA
 [A\A]A^A_]
+CThreade
 AVAUL
 [A\A]A^A_]
 AVAUL
 [A\A]A^A_]
 AWAVAUATSH
+CThreade
+dJobA
+CThreadeH
 [A\A]A^A_]
 AUATSD
 t4[A\A]]
@@ -5230,6 +5267,10 @@ AWAVAUATSH
 AWAVAUATSH
 dH3<%(
 [A\A]A^A_]
+D9=w&A
+M=o&A
+D9=G&A
+M=?&A
 AWAVAUATSH
 [A\A]A^A_]
 AUATSD
@@ -5347,7 +5388,8 @@ Lc'E)
 [A\A]A^A_]
 A\A]A^A_]
 [A\A]]
-AWAVAUATSH
+AWAVI
+AUATSH
 [A\A]A^A_]
 #[A\]
 AWAVAUATSH
@@ -5418,9 +5460,9 @@ AVAUATI
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-X=\K<
-X5TK<
-X-:K<
+X=\c<
+X5Tc<
+X-:c<
 [A\A]]
 AVAUATSH
 `[A\A]A^]
@@ -5460,6 +5502,8 @@ AWAVAUI
 [A\A]A^A_]
 H;qXt5
 H9qXu
+AWAVAUI
+([A\A]A^A_]
 AWAVI
 AUATSH
 x[A\A]A^A_]
@@ -5523,18 +5567,13 @@ AVAUATSH
 AUATSD
 t2[A\A]]
 AVAUI
-<p><fontL
-bodies -H
+Can <b>NL
+ot</b> HH
+it: StatH
+ic <fontH
  color="H
-red">QueH
-ry</fontH
-> ObjectH
-SetMask H
-includesH
- static H
- proceedH
-@P</p>
-X[A\A]A^A_]
+blue">boH
+dy</fontH
 <p><font
  color="H
 red">QueH
@@ -5545,18 +5584,16 @@ excludesH
  static H
 bodies</H
 X[A\A]A^A_]
+X[A\A]A^A_]
+t$9H9
 t$JH9
-<p><font
-@P</p>H
+Can <b>N
+dy</fontH
+ot</b> HH
+it: StatH
+ic <fontH
  color="H
-red">QueH
-ry</fontH
-> ObjectH
-SetMask H
-includesH
- static H
-bodies -H
- proceedH
+blue">boH
 <div aliL
 t-size:1H
 gn=centeH
@@ -5636,13 +5673,10 @@ AWAVAUATSH
 AUATI
 [A\A]]
 AWAVA
-8[A\A]A^A_]
-Lc#D;c
-Lc#D;c
+[A\A]A^A_]
+g(D;c
 AWAVAUI
 [A\A]A^A_]
-AUATI
-[A\A]]
 AUATI
 A\A]A^]
 AUATI
@@ -5652,6 +5686,11 @@ AUATI
 [A\A]]
 AUATI
 [A\A]]
+AUATA
+[A\A]]
+[A\A]]
+AWAVAUI
+[A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
 H;J(t
@@ -5716,6 +5755,8 @@ A\A]A^]
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
 AUATSL
 [A\A]]
 AVAUATI
@@ -6041,7 +6082,7 @@ AWAVAUATSH
 [A\A]]
 AUATSH
 [A\A]]
-AVAUATSH
+AVAUI
 [A\A]A^A_]
 YD$|M
 x(E;|$hr	
@@ -6084,7 +6125,7 @@ AWAVH
 ([A\A]A^A_]
  [A\A]A^]
 AWAVAUATSH
-([A\A]A^A_]
+H[A\A]A^A_]
 D;x@}?H
 [A\A]A^A_]
 AVAUL
@@ -6204,6 +6245,9 @@ AUATI
 V68P6t
 AUATI
 [A\A]]
+AWAVAUATSH
+[A\A]A^A_]
+[A\A]A^A_]
 AWAVI
 h[A\A]A^A_]
 @&8BhA
@@ -6260,9 +6304,10 @@ A9GXH
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
-[A\A]A^A_]
-A9FXH
+G`A9GH
 z#u!H
+[A\A]A^A_]
+A9WXH
 AUATL
 ([A\A]]
 AUATI
@@ -6275,14 +6320,21 @@ AWAVAUATSH
 $A;\$
 zIcD$
 X[A\A]A^A_]
+AWAVI
+[A\A]A^A_]
+E9e@~*I
+[A\A]A^]
 AUATSH
 [A\A]]
 A\A]]
+AUATSH
+[A\A]]
+[A\A]]
+[A\A]]
 AVAUATSH
-D9k@~RH
+D9k@~BH
+A\A]A^]
 [A\A]A^]
-[A\A]A^]
-A:D$:
 AWAVAUATSH
 ([A\A]A^A_]
 AWAVA
@@ -6552,7 +6604,7 @@ AUATL
 AWAVH
 AUATSH
 H[A\A]A^A_]
-l$xE1
+l$pE1
 H[A\A]A^A_]
 AVAUATI
 C1[A\A]A^]
@@ -6702,9 +6754,9 @@ AWAVA
 [A\A]A^A_]
 ([A\A]]
 t=[A\]
-[A\A]A^]
 AUATSH
 [A\A]]
+[A\A]A^]
 ([A\]
 [A\A]A^]
 AWAVL
@@ -6717,10 +6769,10 @@ AWAVI
 AWAVI
 [A\A]A^A_]
 AWAVAUI
-~+Lc}
+~7Lc}
 [A\A]A^A_]
 AWAVAUI
-~7Lc}
+~+Lc}
 [A\A]A^A_]
 AWAVAUD
 ([A\A]A^A_]
@@ -6771,14 +6823,14 @@ AWAVAUATSH
 ([A\A]A^A_]
 AWAVL
 [A\A]A^A_]
-AUATSH
-[A\A]]
+AVAUATSH
+[A\A]A^]
 [A\A]]
 [A\A]A^]
 AWAVA
 [A\A]A^A_]
 AWAVAUA
-~8Lcu
+~>Lcu
 [A\A]A^A_]
 AWAVAUD
 ([A\A]A^A_]
@@ -6875,8 +6927,9 @@ AUATSLc/E)
 [A\A]A^]
 AUATSH
 [A\A]A^A_]
-p[A\A]A^]
-p[A\A]A^]
+AVAULc
+ATSHc
+[A\A]A^A_]
 AVAUA
 [A\A]A^A_]
 [A\A]]
@@ -7163,13 +7216,7 @@ D$XH9
 D$pH9
 [A\A]A^A_]
 NHcK8Ic
-AVAUATL
-Lc{(E
-D$@H9
-D$XH9
-D$pH9
-[A\A]A^A_]
-bHcK8Ic
+[A\A]A^]
 AUATA
 [A\A]A^]
 [A\A]]
@@ -7496,6 +7543,10 @@ AWAVAUATI
 ([A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
+AUATI
+[A\A]]
+AVAUL
+ [A\A]A^]
 AVAUI
 A\A]A^]
 AWAVL
@@ -7503,10 +7554,6 @@ RESLH
 vmdlH
 X[A\A]A^A_]
 vmdlH
-AUATI
-[A\A]]
-AVAUL
- [A\A]A^]
 AWAVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
@@ -8216,7 +8263,7 @@ N2f9N,
 AVAUI
 [A\A]A^A_]
 AUATI
-(-*Y	
+(-J[	
 z]u[H
 [A\A]]
 AWAVH
@@ -8938,7 +8985,6 @@ t)HcE
 8[A\A]A^A_]
 Lc)D;i
 8[A\A]A^A_]
- [A\]
 AWAVL
 8[A\A]A^A_]
 AVAUI
@@ -9801,6 +9847,7 @@ Rubikon%s
 -reset
 Counter reset
 (%d) %s
+vphysics2.cpp
 (None)
 VPhysXAggregateData_t
 Stack depth limit hit (%d)
@@ -9820,7 +9867,6 @@ ResourceSystem013
 InteractionLayerMask(uint64)
 CollisionGroup(uint8)
 VPhysics2SurfacePropLoader
-vphysics2.cpp
 Delayed Build Mass Bodies: %u
 StreamToPhysicsDebugger: Stream started
 StreamToPhysicsDebugger: Stream stoped
@@ -9980,8 +10026,8 @@ vphysics_save_motioncontroller_t
 m_objectList
 <Trace Result
 -validate
-Weld Joint: %s -> %s
 /%u.rnsave
+Weld Joint: %s -> %s
 _____Bytes %-30s[body]
 ( + %d more)
 %14s %-30s[%u]%s
@@ -10030,7 +10076,7 @@ vphys2_water_density_multiplier
 vphys2_artificial_acceleration
 vphys2_angular_damping_in_water
 vphys2_linear_damping_in_water
-@@Failed to load body %p
+'7Failed to load body %p
 ../public/tier1/utlrbtree.h
 m_nOldPointer
 m_pDebugName
@@ -10240,6 +10286,7 @@ Usage: phys_debug_draw [options]:
 		surface slipperymetal     - filter by surface names or (#41BC2B3D) hash
 		cfFF                      - collision function mask
 ~Hull id %llx local %p
+serial_stream.cpp
 Cannot serialize joint type %d
 Cannot serialize contact type %d
 New Hull id %llx local %p->%p
@@ -10272,6 +10319,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 archive
 notify
@@ -10284,10 +10334,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -10295,7 +10348,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 >mempool.cpp
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlMemoryPoolBase
@@ -10306,6 +10359,8 @@ utlstring.cpp
 %s: string format requested %d chars
 FormatV
 UPDATE_STRING_TOKEN_DATABASE
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 12CThreadEvent
 false
 Newline in string literal
@@ -10845,6 +10900,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -10960,6 +11018,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -11013,6 +11072,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat
@@ -11761,9 +11824,9 @@ MatrixSize
 ParticleCount
 SpringCount
 CapsuleCount
-[CRnPrismaticJoint]
-[CRnRevoluteJoint]
 [CRnWeldJoint]
+[CRnRevoluteJoint]
+[CRnPrismaticJoint]
 LevelCount
 TotalSpringsCount
 TotalBlendsCount
@@ -11771,60 +11834,60 @@ TotalParentsCount
 flWeight[]
 flHeight0
 nNode[]
-[RnBodyPair_t]
-[CRnShape]
-[CRnContact]
-Updated
 LayerIndex
 GroupIndex
-Entities
-Manifolds
+[CRnContact]
+[CRnShape]
+Updated
 Level1
 Level0
+[RnBodyPair_t]
+Entities
+Manifolds
 DebugIndex
 Reason
 row[0]
 row[1]
 row[2]
-MoveBuffer
-PairBuffer
 ProxyCount
 NodePool
 HitboxAddr
 EntityId
+MoveBuffer
+PairBuffer
 [%d] hit %d
 QueryBounds
 TriangleCache
 ContactCache
 RecordedTraceIndex
 fraction
+bOwnHull
 vTargetPosition
 qTargetOrientation
-bOwnHull
 vForcePoint
 vForce
 NextFreeIndex
 PreacquireMask
 AcquireMask
 NameToIndex
-UserData
 bOwnMesh
 vScale
 TriangleMaterials
+UserData
 EntityID
 EnergyPerUnitMass
 MaterialIndex
-PairCount
-CollisionAttributes
-PairList
-vLocalP1
-vLocalP2
 HitboxDesc
 HitboxState
 Casts
 DebugOverlay
 EntityDesc
 EntityClassDesc
+vLocalP1
+vLocalP2
+PairCount
+CollisionAttributes
+PairList
 XForm1
 XForm2
 TwistImpulse
@@ -11909,6 +11972,9 @@ Hit Solid
 Hit Trigger
 Should Ignore Disabled Pairs
 Object Set Mask
+CtrlCount
+API Calls
+serialize2_post.inl
 [CRnSolverJoint]
 MaxLinearConstraintImpulse
 MaxAngularConstraintImpulse
@@ -11916,8 +11982,6 @@ vLocalR1
 vLocalR2
 qLocalFrame1
 qLocalFrame2
-CtrlCount
-API Calls
 float
 float[4]
 float[3]
@@ -12886,7 +12950,8 @@ phys_build_bounds
 Mesh triangle material index %d>=%d is out of bounds
 phys_fast_report_contacts
 when 1, fast path for collision reporting is implemented making triggers faster in some cases
->Keyframed
+>world.cpp
+Keyframed
 Can <b>Not</b> Hit: %s
 Can Hit
 CParallelForAndPostProcessor
@@ -12956,6 +13021,7 @@ cloth_resim_after
 cloth_max_ticks_per_frame
 cloth_step_variability
 cloth_interpolation_strategy
+cloth_rigid_update
 cloth_quasistatic_iters
 cloth_wind
 cloth_wind_pitch
@@ -13016,6 +13082,8 @@ Mesh %d verts %d tris %g diameter
 is <b><font color="red">inconsistent</font></b> with actual collision group
 <p>Shape interact-as overrides:</p><small><tt><table>
 <p><font color="red">Warning</font>: interact-as 0x%llx is <b>inconsistent</b> with override 0x%llx & ~0x%llx</p>
+If enabled, surfaces with default material are highlighted in physics debug geometry.
+phys_debug_showdefaultmaterial
 @physics_debug_draw
 Bodies: %d (%d)
 Proxies: %d
@@ -13024,7 +13092,9 @@ Triangle Cache: %d (%d)
 Joints: %d
 Step: %6.3f [ms] (%6.3f [ms])
      *Sleeping: %6.3f [ms]
+helpers/world_helper.cpp
 CTSQueue corruption
+helpers/world_helper.inl
 phys_validate
 ../public/tier0/tslist.h
 nTries < 10000000
@@ -13121,7 +13191,6 @@ m_bHasBakedLightingFromVertexStream
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingBasisInVertex
 m_bCanBatchWithDynamicShaderConstants
-m_bHasPerInstanceBakedLightingData
 NewNode
 NewNode
 speeds
@@ -13932,7 +14001,9 @@ ptestbed
 VertexColorPos_t
 phys_res
 VertexUVPosColorNormalAndTangent_t
-B  0x%08X %s,
+../public/scenesystem/vertexformat.h
+physaggregatedata.cpp
+  0x%08X %s,
  %llu aggs, %s total data
 Animated
 Simulated
@@ -14460,7 +14531,6 @@ POSITION
 F_ALPHA_TEST
 F_TRANSLUCENT
 F_MORPH_SUPPORTED
-Attribute counts between meshes is inconsistent
 Need valid position and texcoord when creating world space tangent lengths!
 Need valid position to calculate face centers!
 remapping vertex %d[w%d] invalid: %d->? >= %d

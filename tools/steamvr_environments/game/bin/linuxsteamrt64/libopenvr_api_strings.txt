@@ -1,3 +1,4 @@
+0 m 0 4%
 5UXCE
 __gmon_start__
 _init
@@ -19,11 +20,8 @@ VR_GetGenericInterface
 VR_IsInterfaceVersionValid
 VR_IsHmdPresent
 VR_IsRuntimeInstalled
+VR_GetRuntimePath
 VR_RuntimePath
-__cxa_guard_acquire
-__cxa_guard_release
-_ZNSsD1Ev
-__cxa_atexit
 VR_GetVRInitErrorAsSymbol
 VR_GetVRInitErrorAsEnglishDescription
 VR_GetStringForHmdError
@@ -59,6 +57,7 @@ _ZNSs6insertEmPKcm
 _ZNSs9_M_mutateEmmm
 _ZSt24__throw_out_of_range_fmtPKcz
 _ZNSs7replaceEmmPKcm
+strcmp
 _ZNSs5eraseEN9__gnu_cxx17__normal_iteratorIPcSsEES2_
 __xstat
 fopen
@@ -84,24 +83,41 @@ strcasecmp
 dlopen
 dlsym
 dlclose
-strncmp
-_ZNSs6appendEmc
-_ZNSbIwSt11char_traitsIwESaIwEE4_Rep20_S_empty_rep_storageE
-_ZNSbIwSt11char_traitsIwESaIwEE6appendEmw
+_ZTIPFbcE
+_ZNSt19__codecvt_utf8_baseIwED2Ev
+_ZdlPv
+_ZNSt19__codecvt_utf8_baseIDiED2Ev
 _ZNSbIwSt11char_traitsIwESaIwEE4_Rep10_M_destroyERKS1_
+strncmp
+_ZNSbIwSt11char_traitsIwESaIwEE4_Rep20_S_empty_rep_storageE
+_Znwm
+_ZNSt7codecvtIwc11__mbstate_tEC2Em
+wcslen
+_ZNSsC1ERKSaIcE
+_ZNSs6resizeEmc
+_ZNSs15_M_replace_safeEmmPKcm
+_ZSt19__throw_logic_errorPKc
+__cxa_begin_catch
+__cxa_end_catch
+_ZSt20__throw_length_errorPKc
+_ZSt19__throw_range_errorPKc
+_ZNSbIwSt11char_traitsIwESaIwEEC1ERKS1_
+_ZNSbIwSt11char_traitsIwESaIwEE6resizeEmw
+_ZNSbIwSt11char_traitsIwESaIwEE12_M_leak_hardEv
+_ZNSbIwSt11char_traitsIwESaIwEE4_Rep9_S_createEmmRKS1_
+_ZNSbIwSt11char_traitsIwESaIwEE15_M_replace_safeEmmPKwm
+_ZNSbIwSt11char_traitsIwESaIwEEC1ERKS2_
+_ZNSbIwSt11char_traitsIwESaIwEE9_M_mutateEmmm
 strncpy
 _ZNSs7reserveEm
 toupper
 tolower
 __snprintf_chk
 strtoull
-_ZNSs6resizeEmc
+_ZSt25__throw_bad_function_callv
+_ZNKSt19__codecvt_utf8_baseIDiE5do_inER11__mbstate_tPKcS4_RS4_PDiS6_RS6_
 _ZNSt6vectorISsSaISsEE19_M_emplace_back_auxIJRKSsEEEvDpOT_
-_Znwm
-_ZdlPv
-__cxa_begin_catch
 __cxa_rethrow
-__cxa_end_catch
 _ZNSt8ios_baseC2Ev
 _ZTVSt9basic_iosIcSt11char_traitsIcEE
 _ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
@@ -117,16 +133,36 @@ _ZNSt8ios_baseD2Ev
 _ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev
 _ZNSt8ios_base4InitC1Ev
 _ZNSt8ios_base4InitD1Ev
+__cxa_atexit
+_ZTSFbcE
+_ZTIFbcE
+_ZTVN10__cxxabiv120__function_type_infoE
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZTISt19__codecvt_utf8_baseIwE
+_ZTISt19__codecvt_utf8_baseIDiE
+_ZTSPFbcE
+_ZTVN10__cxxabiv119__pointer_type_infoE
+_ZNKSt19__codecvt_utf8_baseIwE6do_outER11__mbstate_tPKwS4_RS4_PcS6_RS6_
+_ZNKSt19__codecvt_utf8_baseIwE10do_unshiftER11__mbstate_tPcS3_RS3_
+_ZNKSt19__codecvt_utf8_baseIwE5do_inER11__mbstate_tPKcS4_RS4_PwS6_RS6_
+_ZNKSt19__codecvt_utf8_baseIwE11do_encodingEv
+_ZNKSt19__codecvt_utf8_baseIwE16do_always_noconvEv
+_ZNKSt19__codecvt_utf8_baseIwE9do_lengthER11__mbstate_tPKcS4_m
+_ZNKSt19__codecvt_utf8_baseIwE13do_max_lengthEv
+_ZNKSt19__codecvt_utf8_baseIDiE6do_outER11__mbstate_tPKDiS4_RS4_PcS6_RS6_
+_ZNKSt19__codecvt_utf8_baseIDiE10do_unshiftER11__mbstate_tPcS3_RS3_
+_ZNKSt19__codecvt_utf8_baseIDiE11do_encodingEv
+_ZNKSt19__codecvt_utf8_baseIDiE16do_always_noconvEv
+_ZNKSt19__codecvt_utf8_baseIDiE9do_lengthER11__mbstate_tPKcS4_m
+_ZNKSt19__codecvt_utf8_baseIDiE13do_max_lengthEv
 _ZNSs6assignERKSs
+_ZSt17__throw_bad_allocv
 stderr
 __fprintf_chk
-_ZSt20__throw_length_errorPKc
-_ZSt17__throw_bad_allocv
 memcmp
 _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
 _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
 memmove
-_ZSt19__throw_logic_errorPKc
 _ZSt16__throw_bad_castv
 vsnprintf
 _ZNKSt5ctypeIcE13_M_widen_initEv
@@ -138,7 +174,6 @@ _ZNSolsEPSt15basic_streambufIcSt11char_traitsIcEE
 _ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
 _ZNSi10_M_extractIdEERSiRT_
 _ZTVN10__cxxabiv117__class_type_infoE
-_ZTVN10__cxxabiv120__si_class_type_infoE
 _ZNSt9exceptionD2Ev
 _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base
 __cxa_allocate_exception
@@ -152,6 +187,7 @@ _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base
 _ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base
 _ZNKSs7compareEPKc
 _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_
+_ZNSt6vectorISsSaISsEE19_M_emplace_back_auxIJSsEEEvDpOT_
 strchr
 _ZTISt9exception
 _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
@@ -160,12 +196,13 @@ strpbrk
 __cxa_pure_virtual
 mkdir
 __errno_location
+strtol
 unsetenv
 libm.so.6
 libdl.so.2
 libstdc++.so.6
-libpthread.so.0
 ld-linux-x86-64.so.2
+libpthread.so.0
 abort
 pthread_once
 dl_iterate_phdr
@@ -173,10 +210,12 @@ libc.so.6
 _edata
 __bss_start
 GLIBC_2.2.5
+GLIBCXX_3.4.14
 GLIBCXX_3.4.9
-GLIBCXX_3.4.11
 CXXABI_1.3
+GLIBCXX_3.4.11
 GLIBCXX_3.4.20
+GLIBCXX_3.4.21
 GLIBCXX_3.4
 GLIBC_2.14
 GLIBC_2.4
@@ -184,6 +223,7 @@ GLIBC_2.3.4
 fffff.
 fffff.
 fffff.
+ffff.
 AWAVH
 [A\A]A^A_]
 [A\A]A^]
@@ -192,8 +232,7 @@ AWAVH
 [A\A]]
 AVAUATSH
 [A\A]A^]
-@[A\]
-ffff.
+[A\A]A^A_]
 ffff.
 AUATSH
 [A\A]]
@@ -201,11 +240,11 @@ fffff.
 ffff.
 ffff.
 [A\A]]
-H;=hP#
+H;=X~#
 ffff.
 AWAVAUATI
 [A\A]A^A_]
-H;=`M#
+H;=P{#
 [A\A]A^]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -218,25 +257,27 @@ X[A\A]A^A_]
 AUATSH
 [A\A]]
 [A\A]]
+AUATH
+H[A\A]]
 AUATSH
-H;={@#
+H;=Km#
 [A\A]]
 ffff.
-H;=o?#
+H;=ql#
+H;=?l#
 AUATSH
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]]
 [A\A]]
+H;=dh#
 8[A\A]]
 AWAVI
 [A\A]A^A_]
-H;=x6#
-H;=X6#
-H;=>6#
+H;=ub#
+H;=Ob#
 AUATI
-H;=?5#
-[A\A]]
+H;=xa#
 [A\A]]
 ffff.
 [A\A]A^A_]
@@ -253,24 +294,32 @@ AVAUATS
 0[A\]
 AUATSH
 8[A\A]]
-AVAUI
-[A\A]A^]
-AVAUATI
-[A\A]A^]
+AVAUATSH
+[A\A]A^A_]
+AVAUATSH
+H;={G#
+[A\A]A^A_]
 AVAUATI
 [A\A]A^A_]
-H;=p!#
 AVAUATI
 [A\A]A^A_]
-H;=p #
 ffffff.
 ffffff.
-AUATS
-A\A]]
-A\A]]
+AWAVAUATSH
+8[A\A]A^A_]
+8[A\A]A^A_]
+0[A\]
+ffffff.
+0[A\]
+0[A\]
+fffff.
+AVAUATI
+AXAYu
+[A\A]A^A_]
 fffff.
 AWAVAUL
 [A\A]A^A_]
+H;=u3#
 AWAVI
 AUATSH
 8[A\A]A^A_]
@@ -278,25 +327,20 @@ AVAUI
 0[A\A]A^]
 AWAVAUATSH
 h[A\A]A^A_]
-AWAVAUI
+AWAVAUATI
 [A\A]A^A_]
 AUATI
 H[A\A]]
-AWAVAUATI
-[A\A]A^A_]
 F0H;F8t
 H;F t
 AWAVAUI
 8[A\A]A^A_]
 8[A\A]A^A_]
-AWAVAUATI
-[A\A]A^A_]
-[A\A]A^A_]
 AWAVI
 AUATSH
 [A\A]A^A_]
-AWAVI
-AUATSH
+[A\A]A^A_]
+AWAVAUL
 [A\A]A^A_]
 AWAVI
 AUATSH
@@ -306,10 +350,6 @@ AWAVAUATSH
 8[A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
-AWAVAUATSH
-8[A\A]A^A_]
-AUATI
-H[A\A]]
 [A\A]]
 AVAUATI
 [A\A]A^A_]
@@ -400,9 +440,7 @@ AUATI
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVI
-YH;=bh"
 [A\A]A^A_]
-H;='e"
 0[A\]
 AVAUI
 C0H9C8tfH
@@ -411,18 +449,16 @@ H;C8tOH
 [A\A]A^]
 AWAVAUATI
 C0H;C8
-H;=c`"
 C0H;C8
 C0H;C8
 {0H;{8
-H;="_"
 [A\A]A^A_]
-H;=@^"
-H;=t["
-H;=H["
-H;=wZ"
-H;=ZZ"
+H;=o{"
+H;=}z"
+H;=Qz"
+H;=8z"
 AUATL
+H;=Dy"
 C0H;C8
 S0H;S8
 x[A\A]]
@@ -433,6 +469,7 @@ C0H;C8
 C0H;C8
 C0H;C8
 C0H;C8
+H;=7q"
 fffff.
 AUATI
 C0H9C8
@@ -440,16 +477,14 @@ H;C8D
 {0H;{8
 H;C8D
 [A\A]A^]
-H;=8O"
+H;=5n"
 AVAUATL
 [A\A]A^A_]
-H;=OK"
+H;=Wk"
 AWAVAUI
-H;=5I"
-H;=mH"
 [A\A]A^A_]
-H;=XE"
-H;=0E"
+H;=ce"
+H;=Ce"
 fffff.
 [A\A]A^A_]
 AVAUI
@@ -474,27 +509,30 @@ C0H;C8
 C0H;C8
 {0H;{8
 [A\A]A^A_]
-H;=s5"
-H;=O3"
+H;=yU"
+H;=jS"
+H;=6S"
+H;=	S"
 AUATL
+H;=ER"
 C0H;C8
 S0H;S8
 x[A\A]]
 S0H9S8
+H;=)P"
 C0H;C8
 C0H;C8
 C0H;C8
-H;=J-"
+H;=xL"
 AUATI
 C0H9C8
 H;C8D
 {0H;{8
 H;C8D
 [A\A]A^]
-H;=5*"
 AVAUATL
 [A\A]A^A_]
-H;=0'"
+H;=jF"
 fffff.
 [A\A]]
 8[A\A]A^A_]
@@ -503,6 +541,7 @@ C0H9C8tfH
 H;C8t]H
 H;C8tOH
 [A\A]A^]
+H;=_C"
 AWAVAUI
 [A\A]A^A_]
 [A\A]]
@@ -510,6 +549,7 @@ AWAVAUI
 AWAVI
 AUATSH
 8[A\A]A^A_]
+H;=L?"
 AWAVI
 AUATSH
 8[A\A]A^A_]
@@ -522,6 +562,8 @@ AVAUI
 [A\A]A^A_]
 AUATI
 C0[A\A]A^]
+AWAVAUATSH
+8[A\A]A^A_]
 AWAVAUATSH
 8[A\A]A^A_]
 AUATI
@@ -548,11 +590,13 @@ H+G(H
 U I+U
 fffffff
 [A\A]A^]
-uAL;%
+uAL;%2#"
 [A\A]]
 dH3<%(
 AVAUATL
+H;=t!"
 [A\A]A^]
+H;=3 "
 fffff.
 fffff.
 fffff.
@@ -576,8 +620,6 @@ H(H9J(u
 AUATSH
 [A\A]]
 fffff.
-AWAVAUI
-[A\A]A^A_]
 0[A\]
 fffff.
 A\A]]
@@ -591,6 +633,8 @@ AUATSH
 [A\A]]
 [A\A]]
 fffff.
+AWAVAUATI
+[A\A]A^A_]
 AVAUI
 [A\A]A^]
 AUATSH
@@ -625,6 +669,12 @@ AWAVAUATSH
 [A\A]A^A_]
 fffff.
 H[A\A]A^A_]
+AWAVI
+AUATSH
+[A\A]A^A_]
+AWAVI
+AUATSH
+[A\A]A^A_]
 [A\A]]
 AVAUL
 A\A]A^]
@@ -632,6 +682,8 @@ AVAUATSH
 8[A\A]A^A_]
 AWAVL
 [A\A]A^A_]
+AVAUATSH
+8[A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
 AVAUATSH
@@ -688,21 +740,15 @@ AWAVAUL
 H;G t6UH
 AUATI
 [A\A]A^A_]
-H;="}!
-H;=i|!
-H;=L|!
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
-H;=Nq!
 x[A\A]A^A_]
-H;=:n!
-H;=3m!
 A\A]A^]
 AVAUATSH
 [A\A]A^A_]
-H;=gc!
-H;=Bc!
+H;=P|!
+H;='|!
 AVAUATSH
 @A;G0A
 ujE9g0
@@ -710,24 +756,23 @@ ujE9g0
 [A\A]A^A_]
 AVAUATSH
 H[A\A]A^A_]
-H;=	_!
-H;=/^!
 H[A\A]A^A_]
+H;=[u!
 AWAVI
 AUATI
-H;=)Z!
+H;=As!
 [A\A]A^A_]
-H;=mX!
+H;=Iq!
+H;=-q!
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-H;=sJ!
+H;=gd!
+H;=3c!
 {(HcC4H
-H;=yG!
-H;=DG!
-H;=.G!
-H;=	G!
+H;=X`!
+H;=9`!
 A\A]A^]
 AVAUATSH
 @A;G0A
@@ -735,38 +780,41 @@ uoE9g0
 8[A\A]A^A_]
 [A\A]A^A_]
 AVAUATSH
+H;=T\!
 X[A\A]A^A_]
 {(HcC4H
 X[A\A]A^A_]
+H;=\Y!
 AVAUATSH
 [A\A]A^A_]
-H;=L:!
-H;=-:!
+H;=}R!
 AVAUATSH
 @A;G(A
 uhE9g(
 8[A\A]A^A_]
 [A\A]A^A_]
 AVAUATSH
-H;=T6!
 H[A\A]A^A_]
 H[A\A]A^A_]
-H;=i5!
+H;=)N!
+H;=dL!
 AWAVI
 AUATSH
 [A\A]A^A_]
+H;=SI!
 AWAVI
 AUATSH
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 ffff.
-H;=G,!
 8[A\A]A^A_]
-H;=@+!
+H;=VD!
 [A\A]A^A_]
-H;=@*!
+ffff.
 ffffff.
+AUATSH
+[A\A]A^A_]
  tMv+@
 AWAVAUATI
 [A\A]A^A_]
@@ -845,7 +893,7 @@ vrclient.so
 VRClientCoreFactory
 IVRClientCore_003
 IVRDashboardManager_001
-IVRControlPanel_004
+IVRControlPanel_006
 IVRRenderModelsInternal_001
 IVRTrackedCameraInternal_001
 IVRVirtualDisplay_002
@@ -934,6 +982,10 @@ VRInitError_Init_FirmwareRecoveryBusy
 VRInitError_Init_USBServiceBusy
 VRInitError_Init_VRWebHelperStartupFailed
 VRInitError_Init_TrackerManagerInitFailed
+VRInitError_Init_AlreadyRunning
+VRInitError_Init_FailedForVrMonitor
+VRInitError_Init_PropertyManagerInitFailed
+VRInitError_Init_WebServerFailed
 VRInitError_Driver_RuntimeOutOfDate
 VRInitError_Driver_NotCalibrated
 VRInitError_Driver_CalibrationInvalid
@@ -941,6 +993,7 @@ VRInitError_Driver_HmdDisplayNotFound
 VRInitError_Driver_TrackedDeviceInterfaceUnknown
 VRInitError_Driver_HmdDriverIdOutOfBounds
 VRInitError_Driver_HmdDisplayMirrored
+VRInitError_Driver_HmdDisplayNotFoundLaptop
 VRInitError_IPC_ServerInitFailed
 VRInitError_IPC_SharedStateInitFailed
 VRInitError_IPC_CompositorInitFailed
@@ -948,6 +1001,8 @@ VRInitError_IPC_MutexInitFailed
 VRInitError_IPC_CompositorConnectFailed
 VRInitError_IPC_CompositorInvalidConnectResponse
 VRInitError_IPC_ConnectFailedAfterMultipleAttempts
+VRInitError_IPC_ConnectFailedAfterTargetExited
+VRInitError_IPC_NamespaceUnavailable
 VRInitError_Compositor_D3D11HardwareRequired
 VRInitError_Compositor_FirmwareRequiresUpdate
 VRInitError_Compositor_OverlayInitFailed
@@ -1032,8 +1087,12 @@ VRInitError_Compositor_CreateTextVertexBuffer
 VRInitError_Compositor_CreateTextIndexBuffer
 VRInitError_Compositor_CreateMirrorTextures
 VRInitError_Compositor_CreateLastFrameRenderTexture
+VRInitError_Compositor_CreateMirrorOverlay
+VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
+VRInitError_Compositor_DisplayModeNotSupported
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_WindowsNotInDevMode
+VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_HmdFound_CantOpenDevice
 VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
 VRInitError_VendorSpecific_HmdFound_NoStoredConfig
@@ -1079,6 +1138,7 @@ HMD detected over USB, but Monitor not found (208)
 Driver Tracked Device Interface unknown (209)
 Hmd DriverId is our of bounds (211)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
+On laptop, HMD detected over USB, but Monitor not found (213)
 Connect to VR Server Failed (301)
 Shared IPC State Init Failed (302)
 Shared IPC Compositor Init Failed (303)
@@ -1086,6 +1146,8 @@ Shared IPC Mutex Init Failed (304)
 Shared IPC Compositor Connect Failed (306)
 Shared IPC Compositor Invalid Connect Response (307)
 Shared IPC Connect Failed After Multiple Attempts (308)
+Shared IPC Connect Failed After Target Exited (309)
+Shared IPC Namespace Unavailable (310)
 Compositor failed to initialize (400)
 Compositor failed to find DX11 hardware (401)
 Compositor requires mandatory firmware update (402)
@@ -1093,6 +1155,7 @@ Compositor initialization succeeded, but overlay init failed (403)
 Compositor initialization succeeded, but screenshot init failed (404)
 Compositor unable to create graphics device (405)
 Unable to connect to Oculus Runtime (1000)
+Unable to connect to Oculus Runtime, possible bad install (1114)
 HMD found, but can not open device (1101)
 HMD found, but unable to request config (1102)
 HMD found, but no stored config (1103)
@@ -1116,26 +1179,35 @@ vr-input-workshop://
 file://
 %s: __pos (which is %zu) > this->size() (which is %zu)
 basic_string::substr
+wstring_convert::to_bytes
+wstring_convert::from_bytes
 0123456789ABCDEF
+basic_string::_M_replace_dispatch
+basic_string::_S_construct null not valid
+St12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
+St12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
+PFbcE
 XDG_CONFIG_HOME
 .config
 openvr
+VR_PATHREG_OVERRIDE
 openvrpaths.vrpath
-version
-vrpathreg
-jsonid
-runtime
-external_drivers
 vector::reserve
 Unable to parse %s: %s
+runtime
+external_drivers
 VR_OVERRIDE
 VR_CONFIG_PATH
 VR_LOG_PATH
-Unable to create path registry directory %s
-Unable to write VR path registry to %s
+version
+vrpathreg
+jsonid
 VR Path Registry node %s is not an array
 Unable to determine VR Path Registry filename
 Unable to read VR Path Registry from %s
+exception thrown in JSON library
+Unable to create path registry directory %s
+Unable to write VR path registry to %s
 Line %d, Column %d
 nfinity
 allowComments
@@ -1161,7 +1233,6 @@ additional six characters expected to parse unicode surrogate pair.
 expecting another \u token to begin the second half of a unicode surrogate pair
 Empty escape sequence in string
 deque::_M_new_elements_at_back
-basic_string::_S_construct null not valid
 Missing '}' or object member name
 Missing ':' after object member name
 Missing ',' or '}' in object declaration
@@ -1182,7 +1253,6 @@ in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value
 in Json::Value::setComment(): Comments must start with /
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
 in Json::Value::asCString(): requires stringValue
-in Json::Value::getMemberNames(), value must be objectValue
 in Json::Value::clear(): requires complex value
 in Json::Value::operator[](ArrayIndex)const: requires arrayValue
 in Json::Value::operator[](int index) const: index cannot be negative
@@ -1211,8 +1281,11 @@ N4Json6WriterE
 N4Json10FastWriterE
 N4Json12StyledWriterE
 N4Json23BuiltStyledStreamWriterE
+basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
 ;*3$"
-GCC: (Ubuntu 5.4.0-7steamrt1+srt1) 5.4.1 20160803
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt2) 5.4.1 20160803
+libopenvr_api.so.dbg
 .symtab
 .strtab
 .shstrtab
@@ -1252,17 +1325,19 @@ _ZN2vrL10g_nVRTokenE
 _ZN2vrL13g_mutexSystemE
 _ZN2vrL12g_pHmdSystemE
 _ZN2vrL11g_pVRModuleE
-_ZGVZ14VR_RuntimePathE12sRuntimePath
-_ZZ14VR_RuntimePathE12sRuntimePath
+_ZZ14VR_RuntimePathE9rchBuffer
 _GLOBAL__sub_I_openvr_api.cpp
 _ZZ19GetIDForVRInitErrorN2vr12EVRInitErrorEE3buf
 _ZNSs4_Rep10_M_disposeERKSaIcE.part.2
-_ZNSs4_Rep10_M_disposeERKSaIcE.part.4
-_Z19V_URLDecodeInternalPciPKcib.part.11
+_ZL25CharNeedsEscape_Componentc
+_ZL24CharNeedsEscape_FullPathc
+_ZNSbIwSt11char_traitsIwESaIwEE4_Rep10_M_disposeERKS1_.part.10
+_ZNSs4_Rep10_M_disposeERKSaIcE.part.9
+_Z19V_URLDecodeInternalPciPKcib.part.19
 _GLOBAL__sub_I_strtools_public.cpp
 _ZStL8__ioinit
-_ZL16StringListToJsonRKSt6vectorISsSaISsEERN4Json5ValueEPKc.constprop.53
-_ZL23ParseStringListFromJsonPSt6vectorISsSaISsEERKN4Json5ValueEPKc.constprop.54
+_ZL16StringListToJsonRKSt6vectorISsSaISsEERN4Json5ValueEPKc.constprop.35
+_ZL23ParseStringListFromJsonPSt6vectorISsSaISsEERKN4Json5ValueEPKc.constprop.36
 _ZNSs4_Rep10_M_disposeERKSaIcE.part.8
 _ZNSt11_Deque_baseIN4Json9OurReader9ErrorInfoESaIS2_EE15_M_create_nodesEPPS2_S6_.isra.103
 _ZNSt11_Deque_baseIN4Json6Reader9ErrorInfoESaIS2_EE15_M_create_nodesEPPS2_S6_.isra.86
@@ -1279,6 +1354,7 @@ _ZN4JsonL5kNullE
 _ZNSs4_Rep10_M_disposeERKSaIcE.part.7
 _ZN4Json23BuiltStyledStreamWriter11writeIndentEv.part.18.constprop.76
 _ZN4JsonL20valueToQuotedStringNEPKcj
+_ZNSs4_Rep10_M_disposeERKSaIcE.part.1
 read_encoded_value_with_base
 base_of_encoded_value
 execute_cfa_program
@@ -1333,9 +1409,11 @@ _ZNK4Json5Value3endEv
 _ZNK4Json5ValuentEv
 _ZN4Json13ValueIteratorC1ERKSt17_Rb_tree_iteratorISt4pairIKNS_5Value8CZStringES3_EE
 _ZN4Json18ValueConstIteratorC1ERKNS_13ValueIteratorE
+_ZTSSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
 DW.ref.__gxx_personality_v0
 _ZN4Json9OurReader16recoverFromErrorENS0_9TokenTypeE
 _ZN4Json9OurReader21readStringSingleQuoteEv
+_ZNKSt23__codecvt_abstract_baseIwc11__mbstate_tE2inERS0_PKcS4_RS4_PwS6_RS6_
 _ZN4Json9ExceptionD0Ev
 _ZN4Json12StyledWriter18hasCommentForValueERKNS_5ValueE
 _ZNSt11_Deque_baseIN4Json6Reader9ErrorInfoESaIS2_EE17_M_initialize_mapEm
@@ -1362,6 +1440,7 @@ _ZN4Json5ValueC2Ex
 _ZN4Json17ValueIteratorBase4copyERKS0_
 _ZN4Json23BuiltStyledStreamWriterD0Ev
 _ZN4Json9OurReader12decodeStringERNS0_5TokenERSs
+_Z25V_URLDecodeNoPlusForSpacePciPKci
 _ZNSt11_Deque_baseIPN4Json5ValueESaIS2_EED1Ev
 _ZNSt6vectorIN4Json12PathArgumentESaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_
 _ZNSt4pairIKN4Json5Value8CZStringES1_ED2Ev
@@ -1370,7 +1449,7 @@ _ZN4Json13ValueIteratoraSERKS0_
 _ZN2vr16g_pVROverlayViewE
 _ZN4Json13valueToStringEj
 __register_frame_table
-_ZN4Json6ReaderD2Ev
+_Z19V_URLEncodeInternalPciPKcibSt8functionIFbcEE
 _ZN4Json5ValueC2EOS0_
 _ZNSt8_Rb_treeISsSsSt9_IdentityISsESt4lessISsESaISsEE16_M_insert_uniqueISsEESt4pairISt17_Rb_tree_iteratorISsEbEOT_
 _ZTSN4Json12StyledWriterE
@@ -1381,6 +1460,7 @@ _ZN4Json13ValueIteratorC2ERKSt17_Rb_tree_iteratorISt4pairIKNS_5Value8CZStringES3
 _Z16Path_IsAppBundleRKSs
 _ZN4Json23BuiltStyledStreamWriter18hasCommentForValueERKNS_5ValueE
 _ZNSt5dequeIN4Json9OurReader9ErrorInfoESaIS2_EE19_M_destroy_data_auxESt15_Deque_iteratorIS2_RS2_PS2_ES8_
+_ZTISt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
 _Z24Path_RemoveTrailingSlashRKSsc
 _Unwind_GetGR
 _ZN4Json13ValueIteratorC1ERKS0_
@@ -1425,6 +1505,7 @@ _ZN4Json12RuntimeErrorD0Ev
 _ZN2vr11g_pLiquidVRE
 _ZTIN4Json10CharReaderE
 _ZN4Json5ValueC1EPKcS2_
+_ZNSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EED2Ev
 _ZNSt4pairIKN4Json5Value8CZStringES1_ED1Ev
 _ZN4Json5Value13minLargestIntE
 _ZN4Json17CharReaderBuilderD1Ev
@@ -1436,6 +1517,7 @@ _ZN2vr17g_pVRControlPanelE
 _ZN4Json12StreamWriterC2Ev
 _ZTIN4Json6WriterE
 _ZN2vr26g_pVRTrackedCameraInternalE
+_ZNSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EED0Ev
 _ZN4Json9OurReader10readStringEv
 _ZN4Json5Value8minInt64E
 _ZNSt5dequeIN4Json9OurReader9ErrorInfoESaIS2_EE16_M_push_back_auxIIRKS2_EEEvDpOT_
@@ -1443,6 +1525,7 @@ _ZTSN4Json10CharReader7FactoryE
 _ZTSN4Json19StreamWriterBuilderE
 _ZNSt8_Rb_treeIN4Json5Value8CZStringESt4pairIKS2_S1_ESt10_Select1stIS5_ESt4lessIS2_ESaIS5_EE11equal_rangeERS4_
 _ZTSN4Json12StreamWriterE
+_ZNSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EED1Ev
 _ZNK4Json5Value9isNumericEv
 _ZN4Json9ExceptionD2Ev
 _ZNK4Json5Value8isMemberEPKcS2_
@@ -1468,6 +1551,7 @@ _ZN4Json5Value8CZStringC2Ej
 _ZN4Json12StyledWriterC2Ev
 _ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag
 _ZNK4Json6Reader24getLocationLineAndColumnEPKcRiS3_
+_ZTVSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
 _ZNK4Json5Value8isUInt64Ev
 _ZN4Json5Value10setCommentERKSsNS_16CommentPlacementE
 _GLOBAL_OFFSET_TABLE_
@@ -1494,6 +1578,7 @@ _ZN4Json12StyledWriterD2Ev
 _ZNK4Json5Value15isConvertibleToENS_9ValueTypeE
 _ZN2vr17g_pVROculusDirectE
 _ZN4Json23BuiltStyledStreamWriter6indentEv
+_ZNSt14_Function_base13_Base_managerIPFbcEE10_M_managerERSt9_Any_dataRKS4_St18_Manager_operation
 _ZNK4Json17ValueIteratorBase3keyEv
 _ZN4Json18ValueConstIteratorC2Ev
 _ZNK4Json5Value7isInt64Ev
@@ -1539,14 +1624,15 @@ _ZN4Json12StyledWriter14isMultineArrayERKNS_5ValueE
 _Unwind_Backtrace
 _ZNSt6vectorIPKN4Json12PathArgumentESaIS3_EE19_M_emplace_back_auxIJS3_EEEvDpOT_
 _ZN4Json6Reader12decodeDoubleERNS0_5TokenE
-_ZN4Json6ReaderD1Ev
 _ZN4Json13valueToStringEdbj
 _ZNK4Json4Path4makeERNS_5ValueE
 _ZN4Json9OurReader9readArrayERNS0_5TokenE
 _ZN4Json6Reader8addErrorERKSsRNS0_5TokenEPKc
 _ZN4Json9OurReader11getNextCharEv
+_ZNSt17_Function_handlerIFbcEPS0_E9_M_invokeERKSt9_Any_dataOc
 _ZN4Json6ReaderC2Ev
 _ZN4Json18StyledStreamWriter14isMultineArrayERKNS_5ValueE
+_Z28GetEnvironmentVariableAsBoolPKcb
 _ZN2vr24VR_LoadHmdSystemInternalEv
 _ZN4Json12RuntimeErrorD2Ev
 _Z14cIntToHexDigiti
@@ -1567,6 +1653,8 @@ _ZN4Json12PathArgumentC2EPKc
 _ZN4Json5ValueixEPKc
 _Z9Path_JoinRKSsS0_S0_c
 _ZN4Json17CharReaderBuilderD0Ev
+_ZTISt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
+_ZNKSt23__codecvt_abstract_baseIwc11__mbstate_tE3outERS0_PKwS4_RS4_PcS6_RS6_
 _ZN4Json17CharReaderBuilderC1Ev
 _ZN4Json6Reader12decodeDoubleERNS0_5TokenERNS_5ValueE
 _ZN4Json12RuntimeErrorC2ERKSs
@@ -1611,6 +1699,7 @@ _ZN4Json13valueToStringEd
 _ZN4Json5Value14maxLargestUIntE
 _ZN4Json5Value7maxUIntE
 _ZN4Json6Reader12decodeNumberERNS0_5TokenE
+_ZNSt15wstring_convertISt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EEwSaIwESaIcEED1Ev
 _ZN4Json5ValueC2Ej
 _ZN4Json6ReaderC2ERKNS_8FeaturesE
 _Z22Path_GetThisModulePathv
@@ -1645,8 +1734,10 @@ _ZN4Json23BuiltStyledStreamWriter10writeValueERKNS_5ValueE
 _ZNK4Json5Value4sizeEv
 _ZNK4Json17CharReaderBuilder13newCharReaderEv
 _Z13StringToUpperRKSs
+_ZTSSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
 __TMC_END__
 _ZN4Json17CharReaderBuilderD2Ev
+_Z15Path_IsSamePathRKSsS0_
 _ZNK4Json5Value14toStyledStringEv
 _ZN4Json9ExceptionC2ERKSs
 _ZN4Json5Value11CommentInfoC1Ev
@@ -1660,6 +1751,7 @@ _ZN4Json5ValueC1ERKS0_
 _ZN4Json5Value8CZStringC2EPKcjNS1_17DuplicationPolicyE
 _ZN4Json18StyledStreamWriter23writeCommentBeforeValueERKNS_5ValueE
 _ZN4Json9OurReader9pushErrorERKNS_5ValueERKSs
+_Z19V_URLEncodeFullPathPciPKci
 __dso_handle
 _ZNK4Json17ValueIteratorBase7isEqualERKS0_
 _Z14TokenizeStringRKSsc
@@ -1685,6 +1777,7 @@ _ZNSt5dequeIN4Json6Reader9ErrorInfoESaIS2_EE17_M_reallocate_mapEmb
 _ZN4Json5Value12removeMemberERKSs
 _ZN4Json13valueToStringEx
 _ZN4Json23BuiltStyledStreamWriterC2ERKSsNS_12CommentStyle4EnumES2_S2_S2_bj
+_ZNSt15wstring_convertISt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EEwSaIwESaIcEED2Ev
 _Z15StringHasPrefixRKSsS0_
 _ZNK4Json5ValueixEPKc
 _ZN4Json12PathArgumentC1Ev
@@ -1695,6 +1788,7 @@ _Unwind_GetTextRelBase
 _ZN4Json5Value11removeIndexEjPS0_
 _ZN4Json8kNullRefE
 _ZNK4Json5Value5asIntEv
+_ZNSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EED2Ev
 _ZNK4Json5Value14getOffsetLimitEv
 _Z17Path_GetExtensionRKSs
 _ZN22CVRPathRegistry_Public13BLoadFromFileEv
@@ -1720,8 +1814,10 @@ _ZN4Json5Value10setCommentEPKcNS_16CommentPlacementE
 _ZN4Json13OurCharReaderD2Ev
 _ZNK4Json5Value9getStringEPPKcS3_
 _ZN4Json12StyledWriter15writeWithIndentERKSs
+_ZNSt6vectorISsSaISsEE19_M_emplace_back_auxIISsEEEvDpOT_
 _ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPSs
 _ZN4Json23BuiltStyledStreamWriter23writeCommentBeforeValueERKNS_5ValueE
+_ZTVSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
 _ZNSt5dequeIPN4Json5ValueESaIS2_EE16_M_push_back_auxIIS2_EEEvDpOT_
 _ZNK4Json5Value6asUIntEv
 _ZN4Json5Value8CZStringD2Ev
@@ -1741,6 +1837,7 @@ _ZN4Json9ExceptionD1Ev
 _ZNK4Json9OurReader4goodEv
 _ZN4Json12RuntimeErrorC1ERKSs
 _ZN2vr15g_pVRSceneGraphE
+_Z10RepairUTF8PKcS0_RSs
 _ZN4Json5Value6minIntE
 _ZNK4Json5Value7asInt64Ev
 _ZTSN4Json12RuntimeErrorE
@@ -1834,7 +1931,6 @@ _ZN4Json18ValueConstIteratorC1ERKSt17_Rb_tree_iteratorISt4pairIKNS_5Value8CZStri
 _Unwind_GetDataRelBase
 _ZNK4Json5Value8isMemberERKSs
 _ZN4Json17CharReaderBuilder10strictModeEPNS_5ValueE
-_Z19V_URLEncodeInternalPciPKcib
 _ZN4Json6ReaderC1ERKNS_8FeaturesE
 _ZN4Json18StyledStreamWriter10writeValueERKNS_5ValueE
 _ZN4Json5ValueC1Ej
@@ -1889,6 +1985,7 @@ _ZNK4Json17ValueIteratorBase15computeDistanceERKS0_
 _ZN4Json19StreamWriterBuilderixESs
 _ZN4JsonrsERSiRNS_5ValueE
 _ZNK4Json5Value8CZString14isStaticStringEv
+_ZNSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EED0Ev
 _ZN4Json5Value7nullRefE
 _ZN4Json12StyledWriter9pushValueERKSs
 _Z9Path_JoinRKSsS0_c
@@ -1918,8 +2015,10 @@ _ZN4Json6Reader5parseERSiRNS_5ValueEb
 _ZN4Json13valueToStringEb
 _ZN4Json10FastWriter18omitEndingLineFeedEv
 _ZN4Json5Value6appendERKS0_
+_ZNSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EED1Ev
 _ZTIN4Json19StreamWriterBuilderE
 _ZN4Json18ValueConstIteratorC2ERKSt17_Rb_tree_iteratorISt4pairIKNS_5Value8CZStringES3_EE
+_Z25V_URLEncodeNoPlusForSpacePciPKci
 _ZN4Json9OurReader5matchEPKci
 _ZN4Json12RuntimeErrorD1Ev
 _ZN4Json5Value8CZStringC1EPKcjNS1_17DuplicationPolicyE
@@ -1947,10 +2046,13 @@ _ZNK4Json5Value8CZString6lengthEv
 __deregister_frame_info
 _ZN4Json17ValueIteratorBase9incrementEv
 _ZNK4Json5Value6isNullEv
+_Z10RepairUTF8RKSsRSs
 VROculusDirect
 chmod@@GLIBC_2.2.5
 _ZNSs6appendEPKcm@@GLIBCXX_3.4
+_ZNKSt19__codecvt_utf8_baseIwE9do_lengthER11__mbstate_tPKcS4_m@@GLIBCXX_3.4.21
 _ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
+VR_GetRuntimePath
 _ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_ES4_@@GLIBCXX_3.4
 VR_InitInternal
 chdir@@GLIBC_2.2.5
@@ -1959,14 +2061,17 @@ VRDashboardManager
 ftell@@GLIBC_2.2.5
 _ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
 _ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+wcslen@@GLIBC_2.2.5
 _ZSt16__throw_bad_castv@@GLIBCXX_3.4
+_ZNSbIwSt11char_traitsIwESaIwEE4_Rep9_S_createEmmRKS1_@@GLIBCXX_3.4
 _ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZSt19__throw_range_errorPKc@@GLIBCXX_3.4
 _ZSt24__throw_out_of_range_fmtPKcz@@GLIBCXX_3.4.20
+_ZNSbIwSt11char_traitsIwESaIwEE15_M_replace_safeEmmPKwm@@GLIBCXX_3.4
 _ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZNSs9_M_mutateEmmm@@GLIBCXX_3.4
 abort@@GLIBC_2.2.5
 _ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
-__cxa_guard_acquire@@CXXABI_1.3
 _ZNSsC1EPKcmRKSaIcE@@GLIBCXX_3.4
 __fprintf_chk@@GLIBC_2.3.4
 _ZNSolsEPSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
@@ -1988,6 +2093,7 @@ _fini
 __cxa_rethrow@@CXXABI_1.3
 _ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
 strpbrk@@GLIBC_2.2.5
+_ZTVN10__cxxabiv120__function_type_infoE@@CXXABI_1.3
 VRSceneGraph
 strncmp@@GLIBC_2.2.5
 malloc@@GLIBC_2.2.5
@@ -1996,16 +2102,20 @@ VR_IsRuntimeInstalled
 unlink@@GLIBC_2.2.5
 _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
 _ZNSs4_Rep9_S_createEmmRKSaIcE@@GLIBCXX_3.4
+_ZNSs15_M_replace_safeEmmPKcm@@GLIBCXX_3.4
+_ZTIFbcE
 __memcpy_chk@@GLIBC_2.3.4
 _ZNSsC1ERKSs@@GLIBCXX_3.4
 __cxa_atexit@@GLIBC_2.2.5
+_ZNKSt19__codecvt_utf8_baseIDiE6do_outER11__mbstate_tPKDiS4_RS4_PcS6_RS6_@@GLIBCXX_3.4.21
 _ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 _ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
 _ITM_deregisterTMCloneTable
 _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
 VRControlPanel
+_ZNKSt19__codecvt_utf8_baseIDiE10do_unshiftER11__mbstate_tPcS3_RS3_@@GLIBCXX_3.4.21
+_ZNSbIwSt11char_traitsIwESaIwEE6resizeEmw@@GLIBCXX_3.4
 _ZNSsC1EmcRKSaIcE@@GLIBCXX_3.4
-_ZNSsD1Ev@@GLIBCXX_3.4
 free@@GLIBC_2.2.5
 VR_GetVRInitErrorAsEnglishDescription
 strlen@@GLIBC_2.2.5
@@ -2013,12 +2123,16 @@ _ITM_registerTMCloneTable
 VRTrackedCameraInternal
 _ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
 __xstat@@GLIBC_2.2.5
+_ZTIPFbcE
+_ZTISt19__codecvt_utf8_baseIwE@@GLIBCXX_3.4.21
 _ZNSi10_M_extractIdEERSiRT_@@GLIBCXX_3.4.9
-_ZNSbIwSt11char_traitsIwESaIwEE6appendEmw@@GLIBCXX_3.4
+_ZTSFbcE
 __cxa_finalize@@GLIBC_2.2.5
 _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-__cxa_guard_release@@CXXABI_1.3
 VR_GetGenericInterface
+_ZNKSt19__codecvt_utf8_baseIwE6do_outER11__mbstate_tPKwS4_RS4_PcS6_RS6_@@GLIBCXX_3.4.21
+_ZNSt6vectorISsSaISsEE19_M_emplace_back_auxIJSsEEEvDpOT_
+_ZNKSt19__codecvt_utf8_baseIDiE16do_always_noconvEv@@GLIBCXX_3.4.21
 VR_IsInterfaceVersionValid
 sscanf@@GLIBC_2.2.5
 VR_RuntimePath
@@ -2026,17 +2140,19 @@ _ZNSs6insertEmPKcm@@GLIBCXX_3.4
 _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
 _ZNSt6vectorISsSaISsEE19_M_emplace_back_auxIJRKSsEEEvDpOT_
 dlclose@@GLIBC_2.2.5
-_ZNSs6appendEmc@@GLIBCXX_3.4
 _ZNSbIwSt11char_traitsIwESaIwEE4_Rep10_M_destroyERKS1_@@GLIBCXX_3.4
 _ZNSbIwSt11char_traitsIwESaIwEE4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
 _ZNKSs7compareEPKc@@GLIBCXX_3.4
 _ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
+_ZNSbIwSt11char_traitsIwESaIwEE12_M_leak_hardEv@@GLIBCXX_3.4
 fputs@@GLIBC_2.2.5
+strtol@@GLIBC_2.2.5
 readlink@@GLIBC_2.2.5
 _ZNSt6localeC1Ev@@GLIBCXX_3.4
 VR_GetInitToken
 VROverlayView
 VRPaths
+_ZNKSt19__codecvt_utf8_baseIwE10do_unshiftER11__mbstate_tPcS3_RS3_@@GLIBCXX_3.4.21
 __cxa_pure_virtual@@CXXABI_1.3
 VR_GetStringForHmdError
 VR_ShutdownInternal
@@ -2047,31 +2163,43 @@ memmove@@GLIBC_2.2.5
 strchr@@GLIBC_2.2.5
 vsnprintf@@GLIBC_2.2.5
 fread@@GLIBC_2.2.5
+_ZNSt19__codecvt_utf8_baseIDiED2Ev@@GLIBCXX_3.4.21
 setenv@@GLIBC_2.2.5
 _ZTISt9exception@@GLIBCXX_3.4
 getenv@@GLIBC_2.2.5
 _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
+_ZNKSt19__codecvt_utf8_baseIwE11do_encodingEv@@GLIBCXX_3.4.21
 VRVirtualDisplay
 dl_iterate_phdr@@GLIBC_2.2.5
 __errno_location@@GLIBC_2.2.5
+_ZNKSt19__codecvt_utf8_baseIwE13do_max_lengthEv@@GLIBCXX_3.4.21
+_ZNKSt19__codecvt_utf8_baseIwE16do_always_noconvEv@@GLIBCXX_3.4.21
+_ZNKSt19__codecvt_utf8_baseIDiE13do_max_lengthEv@@GLIBCXX_3.4.21
 __bss_start
 _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
 VRRenderModelsInternal
 LiquidVR
 _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+_ZSt25__throw_bad_function_callv@@GLIBCXX_3.4.14
+_ZTISt19__codecvt_utf8_baseIDiE@@GLIBCXX_3.4.21
 strncasecmp@@GLIBC_2.2.5
 __stack_chk_fail@@GLIBC_2.4
 _ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
 _ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
 _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@@GLIBCXX_3.4
+strcmp@@GLIBC_2.2.5
 tolower@@GLIBC_2.2.5
 __cxa_allocate_exception@@CXXABI_1.3
+_ZNSt7codecvtIwc11__mbstate_tEC2Em@@GLIBCXX_3.4
 getcwd@@GLIBC_2.2.5
 _ZNSs6assignEPKcm@@GLIBCXX_3.4
 _ZNSt9exceptionD2Ev@@GLIBCXX_3.4
 __cxa_free_exception@@CXXABI_1.3
+_ZNKSt19__codecvt_utf8_baseIwE5do_inER11__mbstate_tPKcS4_RS4_PwS6_RS6_@@GLIBCXX_3.4.21
 _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm@@GLIBCXX_3.4
 _ZNSs6assignERKSs@@GLIBCXX_3.4
+_ZNSt19__codecvt_utf8_baseIwED2Ev@@GLIBCXX_3.4.21
+_ZNKSt19__codecvt_utf8_baseIDiE11do_encodingEv@@GLIBCXX_3.4.21
 _ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
 dladdr@@GLIBC_2.2.5
 _ZdaPv@@GLIBCXX_3.4
@@ -2083,19 +2211,23 @@ _ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4
 fclose@@GLIBC_2.2.5
 dlopen@@GLIBC_2.2.5
 strncpy@@GLIBC_2.2.5
+_ZNSbIwSt11char_traitsIwESaIwEEC1ERKS1_@@GLIBCXX_3.4
 _ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
 strtoull@@GLIBC_2.2.5
 dlsym@@GLIBC_2.2.5
+_ZTSPFbcE
 _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
 __cxa_end_catch@@CXXABI_1.3
 _ZSt17__throw_bad_allocv@@GLIBCXX_3.4
 unsetenv@@GLIBC_2.2.5
 _ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
+_ZNKSt19__codecvt_utf8_baseIDiE9do_lengthER11__mbstate_tPKcS4_m@@GLIBCXX_3.4.21
 _ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
 __sprintf_chk@@GLIBC_2.3.4
 _ZNSs6resizeEmc@@GLIBCXX_3.4
 stderr@@GLIBC_2.2.5
 __snprintf_chk@@GLIBC_2.3.4
+_ZNSbIwSt11char_traitsIwESaIwEEC1ERKS2_@@GLIBCXX_3.4
 modf@@GLIBC_2.2.5
 __pthread_key_create@@GLIBC_2.2.5
 __cxa_begin_catch@@CXXABI_1.3
@@ -2105,8 +2237,10 @@ _edata
 __gxx_personality_v0@@CXXABI_1.3
 _ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4
 VR_GetVRInitErrorAsSymbol
+_ZTVN10__cxxabiv119__pointer_type_infoE@@CXXABI_1.3
 _Znwm@@GLIBCXX_3.4
 _ZNSsC1ERKSsmm@@GLIBCXX_3.4
+_ZNSsC1ERKSaIcE@@GLIBCXX_3.4
 VR_IsHmdPresent
 _ZNSt6localeD1Ev@@GLIBCXX_3.4
 pthread_mutex_unlock@@GLIBC_2.2.5
@@ -2114,7 +2248,8 @@ _ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
 _ZNSs4swapERSs@@GLIBCXX_3.4
 memcpy@@GLIBC_2.14
 _ZNSs6appendERKSs@@GLIBCXX_3.4
+_ZNKSt19__codecvt_utf8_baseIDiE5do_inER11__mbstate_tPKcS4_RS4_PDiS6_RS6_@@GLIBCXX_3.4.21
 rename@@GLIBC_2.2.5
 mkdir@@GLIBC_2.2.5
+_ZNSbIwSt11char_traitsIwESaIwEE9_M_mutateEmmm@@GLIBCXX_3.4
 _init
-libopenvr_api.so.dbg

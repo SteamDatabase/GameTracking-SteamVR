@@ -2313,7 +2313,7 @@
 "[english]BS20_ConfigureChannel_ProgressConnecting"	"\nConnecting To Base Stations...\n"
 "Settings_DoNotFadeToGrid"	"Nie zanikaj do siatki, gdy aplikacja się zawiesza"
 "[english]Settings_DoNotFadeToGrid"	"Do not fade to grid when app hangs"
-"Settings_Advanced_MotionSmoothing_Disabled_Win7"	"Wygładzanie ruchu nie jest wspierane na starszych wersjach systemu Windows."
+"Settings_Advanced_MotionSmoothing_Disabled_Win7"	"Wygładzanie ruchu nie jest obsługiwane na starszych wersjach systemu Windows."
 "[english]Settings_Advanced_MotionSmoothing_Disabled_Win7"	"Motion Smoothing is not supported on older versions of Windows."
 "Settings_Advanced_RefreshRate_Header"	"Częstotliwość odświeżania"
 "[english]Settings_Advanced_RefreshRate_Header"	"Refresh Rate"

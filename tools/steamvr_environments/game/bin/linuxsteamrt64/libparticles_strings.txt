@@ -50,15 +50,15 @@ _ZN17CThreadSyncObject8WaitImplEj
 Plat_FloatTime
 V_powf
 RegisterStringToken
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 V_fmodf
 V_acosf
 V_sincosf
 __dynamic_cast
-_V_strncpy
 _ZdaPv
 AssertMsg_ConditionFailed
 CMemAllocSystemInitialize
+_V_strncpy
 _Znam
 Plat_USTime
 __memcpy_chk
@@ -80,13 +80,13 @@ V_acos
 V_atof
 V_atofloat64
 V_atofloat32
+V_atoi64
 floorf
 V_atan2f
 sqrtf
 Plat_MSTime
 ceilf
 V_log10f
-V_atoi64
 floor
 V_fmod
 pthread_mutex_lock
@@ -158,13 +158,13 @@ Plat_GetEnv
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 V_localeconv
 g_Tier1_CRC32Table
 g_Tier1_CRC64Table
@@ -247,7 +247,6 @@ GLIBCXX_3.4.14
 GLIBC_2.3.4
 GLIBC_2.4
 GLIBC_2.14
-&YA1H
 &YA1L
 &YA1L
 &YA1L
@@ -316,19 +315,22 @@ A\A]A^A_]
 }!Ic_
 [A\A]A^A_]
 x[A\A]A^A_]
+[A\A]A^A_]
 AWAVAUATSHc
 [A\A]A^A_]
 AWAVAUATI
-([A\A]A^A_]
-AWAVAUATI
 H[A\A]A^A_]
 [A\A]A^A_]
+AWAVAUATA
+([A\A]A^A_]
+zhuff
+[A\A]]
 AWAVAUATSf
 [A\A]A^A_]
 AWAVAUATSf
 [A\A]A^A_]
 AWAVAUATSf
-( Lc=7
+( Lc=
 [A\A]A^A_]
 AUATL
 [A\A]]
@@ -377,14 +379,12 @@ H90t.A
 Hc@pD
 ATStuH
 AUATSH
-(-p+ 
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 AUATSH
 [A\A]A^A_]
 AWAVAUATSH
-Lc-^qI
 [A\A]A^A_]
 AWAVH
 [A\A]A^A_]
@@ -397,6 +397,7 @@ AWAVAUATSH
 AUATSH
 [A\A]A^A_]
 AWAVAUATSH
+Lc5ZQI
 [A\A]A^A_]
 AWAVH
 [A\A]A^A_]
@@ -454,21 +455,19 @@ AWAVAUA
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]]
-AWAVAUA
+AWAVI
 x[A\A]A^A_]
 AWAVI
 ([A\A]A^A_]
-AWAVI
 AUATSH
-([A\A]A^A_]
+ [A\A]A^]
 AUATI
 [A\A]A^A_]
 [A\A]]
 AWAVM
-)WPfE
 [0XZH
 [A\A]A^A_]
-E;|$(D
+E;|$ D
 AUATSH
 [A\A]]
 [A\A]]
@@ -591,7 +590,7 @@ AVAUI
 vsnap
 [A\A]]
 AUATSH
-D951FH
+D95qQH
 [A\A]A^A_]
 [A\A]A^A_]
 `[A\]
@@ -602,8 +601,8 @@ t/A;T$
 [A\A]A^A_]
 AWAVAUD
 [A\A]A^A_]
-AWAVAUATSH
-([A\A]A^A_]
+AWAVAUATS
+[A\A]A^A_]
 h[A\A]A^A_]
 h[A\A]A^A_]
 H90t%A
@@ -621,7 +620,6 @@ AUATSH
 AWAVI
 [A\A]A^A_]
 [A\A]A^A_]
-AWAVL
 [A\A]A^A_]
 AVAUATI
  [A\A]A^]
@@ -672,7 +670,7 @@ AWAVAUATSH
 u*L9u
 glD+e
 8[A\A]A^A_]
-AVAUI
+AWAVI
 [A\A]A^A_]
 AUATL
 [A\A]]
@@ -719,14 +717,11 @@ AVAUL
 AUATSH
 [A\A]]
 [A\A]]
-[A\A]]
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
 ([A\A]A^A_]
-AWAVAUI
-Hc5+oG
-[A\A]A^A_]
+([A\A]A^A_]
 AUATLc
 [A\A]]
 ATSHc
@@ -736,6 +731,10 @@ E9.~x
 PPE9.H
 AWAVAUATA
 [A\A]A^A_]
+.H$zLuJ
+.H(z>u<
+.H,z0u.
+.H0z#u!
 AVAUATSH
 ([A\A]A^A_]
 AVAUATSH
@@ -743,6 +742,9 @@ u#H;]
 ([A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
+AVAUI
+gpt7H
+[A\A]A^]
 AVAUA
 tg;wl}wLc
 tZD;kl}TMc
@@ -779,19 +781,19 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVAUI
 8[A\A]A^A_]
-AWAVAUATI
-dH34%(
+AWAVAUI
+Hc5~5G
+Hc5J5G
+[A\A]A^A_]
+AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]]
-AVAUATSH
+AWAVAUI
 [A\A]A^A_]
 ;X(}HH
 A\A]A^]
-AVAUATI
-Gpt:H
-[A\A]A^]
 AVAUATS
 [A\A]A^]
 ;X(}OH
@@ -990,10 +992,9 @@ AUATM
 [A\A]A^A_]
 AUATA
 [A\A]]
-AWAVI
+AVAUL
 [A\A]A^A_]
-AWAVAUATS
-4PfA9
+AWAVI
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -1060,8 +1061,8 @@ AUATA
 [A\A]]
 AUATA
 [A\A]]
-D$PtQA
-CPtED
+D$`tUA
+C`tCD
 [A\A]A^A_]
 [A\A]]
 AUATSD
@@ -1070,7 +1071,7 @@ AUATSD
 AUATA
 [A\A]A^]
 AVAULc
-[A\A]A^A_]
+([A\A]A^A_]
 AWAVAUA
 [A\A]A^A_]
 XIcL$
@@ -1179,27 +1180,25 @@ AUATSD
 AUATA
 [A\A]A^]
 AWAVAUATSH
-)q@tG
 [A\A]A^A_]
-(l$ A
-AWAVAUATSH
-[A\A]A^A_]
+E AWH
 AVAUM
 `[A\A]A^]
 AWAVAUI
+[A\A]A^A_]
+AUATA
+x[A\A]A^A_]
+AVAUL
+[A\A]A^A_]
+AWAVAUATI
+)|$ I
+[A\A]A^A_]
+AWAVL
 [A\A]A^A_]
 AVAUL
 [A\A]A^]
 A\A]A^]
  [A\]
-0[A\]
-[A\A]A^A_]
-AUATA
-[A\A]A^A_]
-AWAVA
-AUATI
-[A\A]A^A_]
-[A\A]A^]
 AWAVL
 [A\A]A^A_]
 [A\A]A^A_]
@@ -1208,7 +1207,7 @@ AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
-AVAUATSH
+AWAVAUATI
 [A\A]A^A_]
 AVAUI
 [A\A]A^A_]
@@ -1225,19 +1224,8 @@ AWAVAUL
 [A\A]A^A_]
 AWAVAUL
 [A\A]A^A_]
-AWAVAUL
-[A\A]A^A_]
 AVAUL
  [A\A]A^]
-AUATI
-[A\A]A^A_]
-ATSHc
-[A\A]A^A_]
-[A\A]A^A_]
-[A\A]A^A_]
-AWAVM
-[A\A]A^A_]
-[A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
  [A\]
@@ -1264,16 +1252,15 @@ AUATL
 [A\A]]
 ([A\A]]
 ([A\A]]
-AWAVL
-([A\A]A^A_]
 [A\A]]
 AVAUATSH
 Lc*D;j
 [A\A]A^A_]
 [A\A]]
 AVAUI
-?w'Lc2D;r
+?w(Lc2D;r
 [A\A]A^]
+Lc2D;r
 AUATI
 [A\A]A^]
 AVAUI
@@ -1302,6 +1289,15 @@ AUATI
 [A\A]]
 AWAVAUI
 X[A\A]A^A_]
+AVAUI
+A\A]A^]
+A\A]A^]
+AWAVAUL
+[A\A]A^A_]
+AVAUI
+A\A]A^]
+AWAVL
+8[A\A]A^A_]
 G w4H
 [A\A]]
 [A\A]]
@@ -1321,14 +1317,16 @@ AVAUATSH
 AWAVAUATSH
 H[A\A]A^A_]
 [A\A]A^A_]
-[A\A]A^A_]
 AWAVAUATSH
+Hc5oED
 8[A\A]A^A_]
 AWAVAUI
 A t!L
 [A\A]A^A_]
 AUATSH
 [A\A]]
+[A\A]A^A_]
+Hc=Y=D
 X[A\A]A^A_]
 tkHc5
 [A\A]A^]
@@ -1346,13 +1344,16 @@ ATSHc
 AWAVA
 [A\A]A^A_]
 [A\A]A^A_]
+Hc=n*D
 [A\A]A^A_]
+Hc5U(D
 h[A\A]A^A_]
 AVAUA
 @[A\A]A^]
 [A\A]A^A_]
 AWAVA
 X[A\A]A^A_]
+Hc5b D
 x[A\A]A^A_]
 [A\A]A^A_]
 AWAVAUATSH
@@ -1361,7 +1362,6 @@ Hc8Hc
 [A\A]A^]
 [A\A]A^A_]
 AWAVA
-3Hc5y
 X[A\A]A^A_]
 AWAVAUATSH
  [A\A]A^A_]
@@ -1419,15 +1419,10 @@ t	E;1
 [A\A]A^A_]
 AWAVI
 [A\A]A^A_]
-Hc=,zC
-Hc=DyC
-AWAVAUATI
-([A\A]A^A_]
 ([A\A]A^A_]
 AWAVI
 [A\A]A^A_]
 AWAVI
-Hc5 eC
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -1449,11 +1444,11 @@ AWAVAUATS
 [A\A]A^A_]
 AWAVI
 AUATI
-Hc5i#C
 ^L$hA
+Hc5-LC
 [A\A]A^A_]
 AWAVI
-xCHc5
+xCHc5,
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -1481,7 +1476,7 @@ AWAVA
 AUATSH
 [A\A]A^A_]
 AUATSH
-tQHc=
+tQHc=)
 X[A\A]A^A_]
 X[A\A]A^A_]
 H[A\A]A^A_]
@@ -1496,16 +1491,20 @@ AWAVAUE
 [A\A]A^A_]
 [A\A]]
 [A\A]A^A_]
-([A\A]A^A_]
-([A\A]A^A_]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AWAVAUL
+[A\A]A^A_]
 [A\A]A^A_]
 AUATL
 [A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AVAUL
+[A\A]A^]
+AWAVAUL
+[A\A]A^A_]
+AWAVAUL
+[A\A]A^A_]
 AWAVAUL
 [A\A]A^A_]
 AVAUL
@@ -1528,9 +1527,9 @@ AUATL
 [A\A]]
 AWAVAUL
 ([A\A]A^A_]
-AUATL
+AWAVAUL
 ;d15H
-[A\A]]
+[A\A]A^A_]
 AVAUL
  [A\A]A^]
 AVAUL
@@ -1588,6 +1587,11 @@ AWAVAUATI
 ([A\A]A^A_]
 AWAVAUATI
 ([A\A]A^A_]
+AWAVL
+AUATI
+[A\A]A^A_]
+AVAUATI
+[A\A]A^]
 AWAVAUL
 [A\A]A^A_]
 AWAVAUL
@@ -1596,10 +1600,12 @@ AUATL
 [A\A]]
 AUATL
 [A\A]]
+AWAVAUL
+[A\A]A^A_]
 AUATL
 [A\A]]
-AVAUL
-[A\A]A^]
+AWAVAUL
+[A\A]A^A_]
 AWAVAUATI
 ([A\A]A^A_]
 AWAVAUL
@@ -1614,7 +1620,8 @@ AWAVAUATI
 [A\A]A^A_]
 AVAUL
  [A\A]A^]
-AWAVAUI
+AWAVL
+AUATI
 [A\A]A^A_]
 AWAVAUL
 RESSH
@@ -1809,7 +1816,7 @@ vmdlL
 AVAUATM
 [A\A]A^A_]
 D$hE1
-AWAVAUI
+AWAVAUATSH
 [A\A]A^A_]
 [A\A]]
 Lc'D;g
@@ -1909,6 +1916,10 @@ Mc,$E;l$
 [A\A]]
 AWAVI
 AUATI
+x(Lc+D;k
+A\A]A^A_]
+AWAVI
+AUATI
 x(Lc*D;j
 A\A]A^A_]
 AWAVI
@@ -1918,10 +1929,6 @@ x,Lc"D;b
 x(Lc"D;b
 [A\A]A^A_]
 Lc"D;b
-AWAVI
-AUATI
-x(Lc+D;k
-A\A]A^A_]
 AUATSH
 [A\A]A^]
 Lc*D;j
@@ -1953,8 +1960,7 @@ Lc*D;j
 [A\A]A^A_]
 AWAVI
 AUATI
-Hc5/~@
-A(Hc=x}@
+A(Hc=
 [A\A]A^A_]
 [A\A]A^A_]
 AUATI
@@ -2030,8 +2036,9 @@ AUATI
 AWAVAUL
 [A\A]A^A_]
 [A\A]A^A_]
-AUATA
-[A\A]]
+AVAUI
+A\A]A^]
+A\A]A^]
 AWAVE1
 EG E1
 8[A\A]A^A_]
@@ -2088,20 +2095,6 @@ AVAUI
 A\A]A^]
 AWAVL
 X[A\A]A^A_]
-AWAVL
-KG<PH
-8[A\A]A^A_]
-KG<PH
-AVAUL
-KG<PH
- [A\A]A^]
- [A\A]A^]
-AWAVAUATI
-[A\A]A^A_]
-[A\A]A^A_]
-[A\A]A^A_]
-[A\A]A^A_]
-[A\A]A^A_]
 AUATSH
 [A\A]]
 [A\A]]
@@ -2111,12 +2104,15 @@ z'u%H
  [A\]
  [A\]
 [A\A]A^]
+AVAUL
+[A\A]A^A_]
 AUATSH
 ([A\A]]
 ([A\A]]
 AVAUI
 [A\A]A^]
-[A\A]]
+AWAVA
+[A\A]A^A_]
 AWAVL
 [A\A]A^A_]
 AWAVL
@@ -2136,16 +2132,10 @@ AWAVL
 AVAUL
  [A\A]A^]
  [A\A]A^]
-AVAUATI
-_pu>H
-[A\A]A^]
 AWAVI
 AUATI
-zfudH
+dH34%(
 [A\A]A^A_]
-AVAUATSH
-)C@vI
-[A\A]A^]
 AWAVAUATSH
 dH34%(
 [A\A]A^A_]
@@ -2158,6 +2148,8 @@ AWAVL
 .MPv6H
 [A\A]A^A_]
 zPuNH
+AVAUI
+[A\A]A^]
 AWAVI
 AUATI
 [A\A]A^A_]
@@ -2178,8 +2170,7 @@ AWAVAUATSH
 [A\A]A^A_]
 [A\A]]
 [A\A]A^A_]
-AWAVL
-X[A\A]A^A_]
+[A\A]A^A_]
 [A\A]A^A_]
  [A\]
 8[A\A]]
@@ -2189,7 +2180,7 @@ AVAUL
 [A\A]A^A_]
 AWAVI
 AUATSH
-Hc=`4?
+Hc=Xz?
 [A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
@@ -2197,52 +2188,48 @@ x[A\A]A^A_]
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-Lc5\&?
-Lc-+&?
-8[A\A]A^A_]
-8[A\A]A^A_]
+Lc5Tl?
+Lc-#l?
 AWAVAUATI
 [A\A]A^A_]
 (|$ H
-AWAVL
 8[A\A]A^A_]
 AWAVL
+8[A\A]A^A_]
+AUATL
 {SP_H
-8[A\A]A^A_]
-AWAVL
-8[A\A]A^A_]
+[A\A]]
 AWAVAUL
 [A\A]A^A_]
-AVAUATI
+AWAVAUL
+[A\A]A^A_]
+AVAUL
 [A\A]A^]
-AWAVL
-8[A\A]A^A_]
+AUATL
+[A\A]]
+AUATL
 siN|H
-AWAVL
-8[A\A]A^A_]
-AWAVL
+[A\A]]
+AWAVAUL
+[A\A]A^A_]
+AWAVAUL
 {SP_H
 [A\A]A^A_]
-{SP_H
 AVAUL
  [A\A]A^]
 AWAVL
 8[A\A]A^A_]
-AWAVL
+AWAVAUL
 {SP_H
 [A\A]A^A_]
-{SP_H
-AWAVL
-8[A\A]A^A_]
+AWAVAUL
 =4L3H
+[A\A]A^A_]
 AUATL
 [A\A]]
  [A\]
  [A\]
 AUATL
-[A\A]]
-AUATL
-=4L3H
 [A\A]]
 AUATL
 ([A\A]]
@@ -2250,6 +2237,10 @@ AUATL
 AWAVL
 {SP_H
 ([A\A]A^A_]
+AUATL
+=4L3H
+([A\A]]
+([A\A]]
 AUATL
 [A\A]]
 AUATL
@@ -2285,15 +2276,9 @@ AVAUI
 AVAUI
 x+Lc3D;s
 A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
 AWAVL
 8[A\A]A^A_]
-C$[A\]
+[A\A]A^]
 [A\A]A^]
 AWAVL
 8[A\A]A^A_]
@@ -2311,7 +2296,6 @@ AVAUI
 AVAUI
 [A\A]A^]
 [A\]H	
-[A\A]]
 p[A\]
 AWAVAUI
 [A\A]A^A_]
@@ -2320,17 +2304,13 @@ A9\$l
 [A\A]A^A_]
 AUATL
 H[A\A]]
-AUATI
-x[A\A]]
 J 9Fl
 @ 9Kl
 ([A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-Hc=.4>
 @ 9Vl
 AWAVAUATSH
-Hc512>
 [A\A]A^A_]
 X[A\A]A^A_]
 AVAUE1
@@ -2353,12 +2333,9 @@ AVAUI
 [A\A]A^A_]
 AVAUATI
 [A\A]A^A_]
-AWAVAUATSH
-[ E9Jl
-8[A\A]A^A_]
 W 9Nl
 AWAVAUATI
-Hc5,	>
+Hc=kZ>
 A A9Cl
 [A\A]A^A_]
 AWAVI
@@ -2375,6 +2352,7 @@ B 9sl
 @[A\A]A^]
 AWAVI
 [A\A]A^A_]
+Hc=O/>
 AVAUATSH
 X[A\A]A^A_]
 AWAVI
@@ -2384,6 +2362,7 @@ AWAVI
 [A\A]A^A_]
 A9T$l
 0[A\]
+[A\A]A^]
 AVAUI
 [A\A]A^A_]
 AUATS
@@ -2410,8 +2389,6 @@ X[A\A]A^A_]
 AWAVAUI
 VpHc5
 H[A\A]A^A_]
-AWAVAUATSH
-([A\A]A^A_]
 [A\A]]
 AVAUATSH
 (w@Hc=
@@ -2419,19 +2396,10 @@ AVAUATSH
 AVAUATSH
 [A\A]A^A_]
 AVAUATSH
-h[A\A]A^A_]
-D;cl}
-AVAUATSH
-[A\A]A^A_]
-AUATI
 [A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
-;Fl|	
 YD$dH
-[A\A]A^A_]
-AWAVAUATSH
-Hc5!{=
 [A\A]A^A_]
 H A9T$l
 0[A\]
@@ -2447,6 +2415,19 @@ AWAVI
 AUATSH
 [A\A]A^A_]
 [A\A]A^A_]
+AWAVAUATA
+Hc5CQ=
+x[A\A]A^A_]
+AUATI
+[A\A]A^A_]
+AUATI
+x[A\A]]
+AWAVAUATSH
+Lc%DI=
+Z D9Nl
+8[A\A]A^A_]
+AWAVAUATSH
+([A\A]A^A_]
 AVAUA
 H[A\A]A^A_]
 AWAVAUATSH
@@ -2460,8 +2441,12 @@ AVAUH
 [A\A]A^]
 [A\A]A^]
 [A\A]A^A_]
-AWAVAUATSH
-x[A\A]A^A_]
+AWAVI
+AUATSH
+X[A\A]A^A_]
+D;cl}
+AWAVAUI
+[A\A]A^A_]
 AWAVAUATSH
 zmukE
 8[A\A]A^A_]
@@ -2527,9 +2512,9 @@ OPzTuR
 P E9gl
 [A\A]A^A_]
 AWAVAUATSH
-Lc=]:<
 X[A\A]A^A_]
 AWAVAUI
+Lc=Yz<
 [A\A]A^A_]
 AVAUATI
 [A\A]A^A_]
@@ -2548,34 +2533,36 @@ AVAUI
 A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
+Hc=>a<
+Hc=Ka<
 AVAUL
  [A\A]A^]
 AUATI
 ([A\A]]
 AVAUL
  [A\A]A^]
-AWAVAUL
-([A\A]A^A_]
-AVAUL
- [A\A]A^]
-AVAUL
- [A\A]A^]
-AWAVAUL
-([A\A]A^A_]
-AWAVAUL
-!4G(H
-[A\A]A^A_]
-AWAVAUL
-([A\A]A^A_]
-AUATL
-[A\A]]
-AWAVAUL
-([A\A]A^A_]
-;d15H
 AWAVL
 AUATI
-;d15H
 [A\A]A^A_]
+AVAUL
+ [A\A]A^]
+AVAUL
+ [A\A]A^]
+AWAVAUL
+([A\A]A^A_]
+AWAVAUL
+!4G(H
+[A\A]A^A_]
+AWAVAUL
+([A\A]A^A_]
+AUATL
+[A\A]]
+AWAVAUL
+[A\A]A^A_]
+;d15H
+AWAVAUL
+;d15H
+([A\A]A^A_]
 AWAVAUL
 ;d15H
 ([A\A]A^A_]
@@ -2589,7 +2576,7 @@ AUATL
 !4G(H
 [A\A]]
 AWAVAUL
-([A\A]A^A_]
+[A\A]A^A_]
 AWAVAUL
 ([A\A]A^A_]
 AWAVAUL
@@ -2621,10 +2608,12 @@ AVAUL
  [A\A]A^]
 AWAVAUL
 ([A\A]A^A_]
-AWAVAUL
+AWAVL
+AUATI
 ([A\A]A^A_]
 AWAVE1
 8[A\A]A^A_]
+AWAVE1
 8[A\A]A^A_]
 AWAVE1
 AUATI
@@ -2638,6 +2627,8 @@ AWAVAUL
 [A\A]A^A_]
 AUATL
 [A\A]]
+AWAVAUL
+[A\A]A^A_]
 AWAVAUL
 ([A\A]A^A_]
 AWAVAUL
@@ -2832,8 +2823,6 @@ AUATL
 AUATL
 [A\A]]
 AUATL
-[A\A]]
-AUATL
 ([A\A]]
 AUATL
 ([A\A]]
@@ -2950,6 +2939,8 @@ AUATL
 [A\A]]
 AUATL
 [A\A]]
+AUATL
+[A\A]]
 AUATSH
 [A\A]]
 AUATSH
@@ -2986,10 +2977,10 @@ AWAVL
 Lc"D;b
 [A\A]A^A_]
 AVAUATI
-Lc2D;r
+Mc7E;w
 [A\A]A^A_]
 AVAUATI
-Mc7E;w
+Lc2D;r
 [A\A]A^A_]
 AVAUATSH
 Lc*D;j
@@ -3068,12 +3059,12 @@ AVAUI
 AWAVAUI
 [A\A]A^A_]
 AWAVAUI
-x(Lc"D;b
-x(Lc"D;b
+x/Lc"D;b
+x/Lc"D;b
 [A\A]A^A_]
 AWAVAUI
-x/Lc"D;b
-x/Lc"D;b
+x(Lc"D;b
+x(Lc"D;b
 [A\A]A^A_]
 AVAUI
 x,Lc"D;b
@@ -3109,22 +3100,22 @@ Lc+D;k
 AUATSH
 [A\A]A^]
 Lc*D;j
-AUATSH
-[A\A]A^]
-Lc*D;j
-AUATSH
-[A\A]A^]
-Lc*D;j
-AUATSH
-[A\A]A^]
-Lc*D;j
-AUATSH
-[A\A]A^]
-Lc*D;j
 AUATI
 [A\A]]
 Lc+D;k
 [A\A]]
+AUATSH
+[A\A]A^]
+Lc*D;j
+AUATSH
+[A\A]A^]
+Lc*D;j
+AUATSH
+[A\A]A^]
+Lc*D;j
+AUATSH
+[A\A]A^]
+Lc*D;j
 AUATSH
 Lc"D;b
 [A\A]A^A_]
@@ -3135,18 +3126,17 @@ x,Lc+D;k
 x,Lc+D;k
 x(Lc+D;k
 A\A]A^A_]
-AVAUI
-[A\A]A^A_]
-A(Hc=
 AWAVI
 AUATSH
+[A\A]A^A_]
+A(Hc=W
+AVAUATSH
 [A\A]A^A_]
 A;GlH
 [A\A]]
 [A\A]A^A_]
 AVAUATI
 F D9kl
-Hc5Jk9
 Mc7E;w
 [A\A]A^A_]
 AUATI
@@ -3208,46 +3198,8 @@ x[A\A]A^A_]
 vmdlL
 AUATL
 [A\A]]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AVAUL
- [A\A]A^]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AUATL
-[A\A]]
-AVAUL
- [A\A]A^]
-AUATL
-[A\A]]
-AWAVAUL
-H[A\A]A^A_]
-AUATL
-[A\A]]
-AWAVAUL
-H[A\A]A^A_]
 AWAVAUL
 [A\A]A^A_]
-AUATL
-[A\A]]
 AWAVAUL
 ;d15H
 [A\A]A^A_]
@@ -3255,6 +3207,48 @@ AUATL
 [A\A]]
 AUATL
 [A\A]]
+AUATL
+[A\A]]
+AWAVAUL
+[A\A]A^A_]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AVAUL
+ [A\A]A^]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AVAUL
+ [A\A]A^]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AUATL
+[A\A]]
+AWAVAUL
+H[A\A]A^A_]
+AWAVAUL
+H[A\A]A^A_]
 AVAUI
 A\A]A^]
 AVAUI
@@ -3270,8 +3264,6 @@ AVAUI
 A\A]A^]
 AVAUL
  [A\A]A^]
-AWAVAUL
-[A\A]A^A_]
 AVAUI
 A\A]A^]
 AWAVAUL
@@ -3279,26 +3271,26 @@ AWAVAUL
 AUATSH
 [A\A]A^A_]
 AWAVAUD
+Hc=IA9
 x[A\A]A^A_]
-p(D9vl
-AUATA
-[A\A]]
+p(E9nl
+8[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-8[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
 )D$ L
-AWAVAUATI
-([A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-AWAVAUI
-X[A\A]A^A_]
-AWAVL
-8[A\A]A^A_]
+AWAVAUATSH
+zNuLA
+zEuCA
+z<u:f
+[A\A]A^A_]
+AVAUL
+0[A\A]A^]
 AWAVL
 8[A\A]A^A_]
 AWAVL
@@ -3332,8 +3324,7 @@ AVAUL
 AWAVL
 [A\A]A^A_]
 AUATL
-([A\A]]
-([A\A]]
+[A\A]]
 AVAUATI
 [A\A]A^]
 Lc+D;k
@@ -3381,9 +3372,9 @@ AUATSH
 [A\A]]
 [A\A]]
 AWAVL
-([A\A]A^A_]
-AWAVL
 8[A\A]A^A_]
+AWAVL
+([A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
 AWAVI
@@ -3408,7 +3399,13 @@ AUATSH
 &YA1L
 [A\A]A^]
 [A\A]A^]
-[A\A]]
+AWAVAUATSH
+([A\A]A^A_]
+AWAVI
+[A\A]A^A_]
+ [A\]
+AVAUATI
+P[A\A]A^]
 0[A\]
 AUATI
 8[A\A]]
@@ -3417,10 +3414,13 @@ AWAVAUI
 [A\A]A^A_]
 AWAVL
 [A\A]A^A_]
+[A\A]A^A_]
 AWAVAUL
 [A\A]A^A_]
 AWAVL
 x[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
 AWAVAUATSH
 x[A\A]A^A_]
 x[A\A]A^A_]
@@ -3428,29 +3428,20 @@ x[A\A]A^A_]
 AVAUATSH
 @[A\A]A^]
 @[A\A]A^]
+[A\A]]
 [A\A]A^A_]
 AWAVAUI
+[A\A]A^A_]
+AVAUL
 [A\A]A^A_]
  [A\]
 0[A\]
 0[A\]
-[A\A]]
-AVAUATI
-P[A\A]A^]
-AVAUL
-[A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
-AWAVAUATSH
-([A\A]A^A_]
-AWAVI
-[A\A]A^A_]
-8[A\A]A^A_]
-8[A\A]A^A_]
-8[A\A]A^A_]
 AVAUATI
 [A\A]A^]
 [A\A]A^]
+AWAVAUL
+[A\A]A^A_]
 AWAVAUL
 [A\A]A^A_]
 AWAVAUL
@@ -3466,8 +3457,6 @@ AUATI
 [A\A]]
 AUATL
 [A\A]]
-AVAUL
- [A\A]A^]
 AWAVAUI
 [A\A]A^A_]
 AUATL
@@ -3569,6 +3558,8 @@ A\A]A^]
 [A\A]]
 AUATI
 [A\A]A^]
+AUATI
+[A\A]A^]
 AWAVI
 AUATI
 [A\A]A^A_]
@@ -3586,14 +3577,25 @@ AWAVI
 [A\A]A^A_]
 [A\A]]
 [A\A]]
-AVAUL
- [A\A]A^]
+AUATSH
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+AUATL
+[A\A]]
 AUATL
 [A\A]]
 AUATL
 [A\A]]
 AWAVAUL
 ([A\A]A^A_]
+AVAUI
+A\A]A^]
+AWAVAUL
+X[A\A]A^A_]
+D5Qj7
 [A\A]]
 [A\A]]
 AWAVL
@@ -3627,12 +3629,10 @@ IcN Ic
 AWAVA
 ATSHc
 [A\A]A^A_]
-AWAVAUATI
+AVAUL
 ([A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
-AVAUL
-([A\A]A^A_]
 AUATSH
 [A\A]]
 AUATSH
@@ -3644,6 +3644,7 @@ x[A\A]A^A_]
 8[A\A]A^A_]
 AWAVI
 A9\$l
+Hc=W"7
 A9\$l
 H[A\A]A^A_]
 AWAVAUATSH
@@ -3657,15 +3658,13 @@ AVAUATSH
 [A\A]A^]
 AWAVI
 ([A\A]A^A_]
-AWAVAUATI
-([A\A]A^A_]
 AUATI
-~0Hc5S
+~0Hc53
 A9D$l
 [A\A]A^A_]
 A9D$l
 AVAUI
-~0Hc5
+~0Hc5u	7
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -3673,6 +3672,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVE1
 h[A\A]A^A_]
+AUATSH
+[A\A]]
 A\A]]
 [A\A]]
 A\A]]
@@ -3696,14 +3697,12 @@ AWAVI
 [A\A]A^A_]
 AVAUATSH
 [A\A]A^A_]
-AUATSH
 HcP,H
 X[A\A]A^A_]
 AWAVAUATSH
-u5Hc=
+u5Hc=b
 [A\A]A^A_]
 AWAVAUATSH
-[A\A]A^A_]
 [A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
@@ -3717,7 +3716,6 @@ AWAVL
 AWAVAUL
 [A\A]A^A_]
 AWAVL
-AUATI
 [A\A]A^A_]
 AWAVL
 H[A\A]A^A_]
@@ -3809,9 +3807,6 @@ AVAUL
  [A\A]A^]
 AUATA
 [A\A]]
-AWAVAUATI
-[A\A]A^A_]
-[A\A]A^A_]
 AWAVAUA
 [A\A]A^A_]
 AUATS
@@ -3839,11 +3834,12 @@ AUATL
 [A\A]]
 AWAVAUI
 [A\A]A^A_]
-AWAVAUI
+AWAVAUATI
 D$7@I
 R$HcB E
 ;B0}F
 AXAYE
+\$0I9
 [A\A]A^A_]
 position
 color
@@ -3856,26 +3852,28 @@ IcD$,H
 AUATSfA
  [A\A]A^]
 [A\A]A^]
-AVAUATSH
-Lc-0a5
-w@Hc=%_5
-Hc=,_5
-H@Hc5v^5
+AWAVI
+AUATSH
+[A\A]A^A_]
 [A\A]A^A_]
 AVAUATSH
-Q@Hc5dP5
-N@Hc5lO5
+w@Hc=
+H@Hc5f
+[A\A]A^A_]
+AVAUATSH
+Q@Hc5T
+N@Hc5\
 [A\A]A^A_]
 AUATSH
-Hc5PA5
-Hc=N@5
+Hc5@{5
+Hc=>z5
 [A\A]A^A_]
 AUATSH
 @@t!A
 [A\A]A^A_]
 AUATSH
-Hc5 "5
-Hc=~!5
+Hc5p\5
+Hc=n[5
 [A\A]A^A_]
 AUATSH
 @@t!A
@@ -3999,7 +3997,7 @@ AWAVAUATSH
 AWAVAUATI
 [A\A]A^A_]
 AWAVAUATSH
-Lc%>A4
+Lc%ny4
 [A\A]A^A_]
 AVAUATI
 [A\A]A^A_]
@@ -4064,38 +4062,6 @@ Y|$pD
 YD$@A
 [A\A]A^A_]
 AUATM
-Hc5qz3
-(d$PA
-]T$0E
-(D$`A
-(D$`A
-(D$`A
-(D$`A
-(D$`A
-(D$`A
-(D$`A
-(D$`A
-(D$`A
-Y|$`f
-YT$@A
-[A\A]A^A_]
-AWAVAUATM
-YD$PD
-Y|$pD
-]D$0E
-(\$`A
-(\$`A
-(\$`A
-(\$`A
-(\$`A
-(\$`A
-(\$`A
-(\$`A
-(\$`A
-YD$@A
-[A\A]A^A_]
-AUATM
-Hc5A]3
 (d$PA
 ]T$0E
 (D$`A
@@ -4141,6 +4107,38 @@ Y|$`f
 YT$@A
 [A\A]A^A_]
 AWAVAUATM
+YD$PD
+Y|$pD
+]D$0E
+(\$`A
+(\$`A
+(\$`A
+(\$`A
+(\$`A
+(\$`A
+(\$`A
+(\$`A
+(\$`A
+YD$@A
+[A\A]A^A_]
+AUATM
+Hc5.w3
+(d$PA
+]T$0E
+(D$`A
+(D$`A
+(D$`A
+(D$`A
+(D$`A
+(D$`A
+(D$`A
+(D$`A
+(D$`A
+Y|$`f
+YT$@A
+[A\A]A^A_]
+AWAVAUATM
+(%Y)	
 Y|$Pt
 Yt$pD
 ]D$0E
@@ -4156,7 +4154,6 @@ Yt$pD
 YD$@A
 [A\A]A^A_]
 AUATM
-Hc5Q"3
 (D$PE
 ]d$0A
 (\$`A
@@ -4231,6 +4228,35 @@ Yd$@f
 AWAVAUM
 t!L;u
 H[A\A]A^A_]
+AWAVAUATI
+H[A\A]A^A_]
+AWAVA
+[A\A]A^A_]
+AWAVAUI
+H[A\A]A^A_]
+AWAVAU)
+[A\A]A^A_]
+AWAVI
+AUATSH
+[A\A]A^A_]
+AWAVAUATI
+H[A\A]A^A_]
+AWAVA
+[A\A]A^A_]
+AWAVAUI
+H[A\A]A^A_]
+AWAVAU)
+[A\A]A^A_]
+AWAVAUATI
+H[A\A]A^A_]
+AWAVA
+[A\A]A^A_]
+AWAVAUI
+H[A\A]A^A_]
+AWAVAU)
+[A\A]A^A_]
+AVAUATI
+[A\A]A^A_]
 AVAUI
 A\A]A^]
 AWAVL
@@ -4250,34 +4276,6 @@ AVAUI
 A\A]A^]
 AWAVL
 8[A\A]A^A_]
-AWAVAUATI
-H[A\A]A^A_]
-AWAVA
-[A\A]A^A_]
-AWAVAUI
-H[A\A]A^A_]
-AWAVAU)
-[A\A]A^A_]
-AVAUATSH
-[A\A]A^A_]
-AWAVAUATI
-H[A\A]A^A_]
-AWAVA
-[A\A]A^A_]
-AWAVAUI
-H[A\A]A^A_]
-AWAVAU)
-[A\A]A^A_]
-AWAVAUATI
-H[A\A]A^A_]
-AWAVA
-[A\A]A^A_]
-AWAVAUI
-H[A\A]A^A_]
-AWAVAU)
-[A\A]A^A_]
-AVAUATSH
-[A\A]A^A_]
 [A\A]]
 AWAVA
 AUATA
@@ -4371,6 +4369,7 @@ AWAVL
 RESSH
 vpcfL
 8[A\A]A^A_]
+8[A\A]A^A_]
 AWAVL
 9-		M
 8[A\A]A^A_]
@@ -4395,13 +4394,14 @@ AVAUL
 0[A\A]A^]
  [A\]
  [A\]
+AVAUI
+A\A]A^]
 AWAVL
 RESLH
 vpcfL
 ([A\A]A^A_]
 RESLH
 vpcfL
-([A\A]A^A_]
 AWAVL
 RESSH
 vsnap
@@ -4471,8 +4471,7 @@ X[A\A]A^A_]
 [A\A]A^A_]
 AVAUI
 A\A]A^]
-AWAVI
-AUATSH
+AVAUATSH
 RESLL
 vsnap
 SYMLL
@@ -4487,9 +4486,9 @@ vpcfL
 [A\A]A^A_]
 vpcfL
 vpcfL
-vpcfL
-vpcfL
 vsnap
+vpcfL
+vpcfL
 AWAVI
 FT&TH
 B'E<H
@@ -4533,7 +4532,7 @@ A\A]A^]
 AVAUI
 A\A]A^]
 AWAVL
-GfFFH
+GfFFI
 RESLH
 vtexH
 RESLH
@@ -4559,9 +4558,8 @@ AWAVAUATI
 [A\A]A^A_]
 AUATI
 [A\A]]
-D$PH9
-CPtGE
-D$pH9
+D$`H9
+C`tGE
 [A\A]]
 [A\A]]
 [A\A]]
@@ -4581,8 +4579,6 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVL
 ([A\A]A^A_]
-AUATA
-[A\A]]
 AWAVI
 RESSH
 vmatH
@@ -4614,9 +4610,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
@@ -4624,13 +4617,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -5182,11 +5177,18 @@ D+c$Mc
 D+c$Mc
 +S$Hc
 AVAUATSH
+F A+F
 [A\A]A^A_]
-D+s$Mc
-A+P$Hc
-A+p$Hc
-D+s$Mc
+E+n$Mc
+A+F$H
+A+V$I
+A+Q$Hc
+A+F$H
+F A+F
+A+q$Hc
+A+F$I
+A+F$H
+A+F$H
 AWAVAUATSH
 8[A\A]A^A_]
 8[A\A]A^A_]
@@ -5459,6 +5461,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
 AUATL
 [A\A]]
 &YA1H
@@ -5598,11 +5602,6 @@ AUATI
 [A\A]]
 AWAVH
 8[A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
 AWAVL
 H[A\A]A^A_]
 H[A\A]A^A_]
@@ -5727,8 +5726,8 @@ AUATSH
 [A\A]]
 AWAVL
 [A\A]A^A_]
-IcEDf
-IcE,f
+IcETf
+IcE<f
 IcE$f
 AUATI
 [A\A]]
@@ -5737,25 +5736,25 @@ AUATI
 [A\A]]
 AUATI
 [A\A]]
-D$HH9
-FHtLE
-D$hH9
+D$XH9
+FXtLE
+D$xH9
 [A\A]]
 [A\A]]
 [A\A]]
 AUATI
 [A\A]]
-D$HH9
-FHtLE
-D$hH9
+D$XH9
+FXtLE
+D$xH9
 [A\A]]
 [A\A]]
 [A\A]]
 AUATI
 [A\A]]
-D$HH9
-FHtLE
-D$hH9
+D$XH9
+FXtLE
+D$xH9
 [A\A]]
 [A\A]]
 [A\A]]
@@ -5771,26 +5770,24 @@ AVAUI
 A\A]A^]
 AWAVL
 X[A\A]A^A_]
-AUATI
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-AUATI
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-AUATI
-[A\A]]
-[A\A]]
-[A\A]]
-[A\A]]
-AUATA
-[A\A]]
 AVAUL
-6IcG$f
+IcG$f
 [A\A]A^A_]
+AUATI
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+AUATI
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
+AUATI
+[A\A]]
+[A\A]]
+[A\A]]
+[A\A]]
 AVAUI
 A\A]A^]
 AWAVAUL
@@ -5912,8 +5909,10 @@ NETWORK_FIELD_DEFAULT_PRIORITY
 23IControlPointEditorData
 23CControlPointEditorData
 Particle/Effect_Rendering
+r_particle_max_detail_level
 %s is trying to get CP object %d but the function read limit is %d
 CParticleCollection::GenerateSortedIndexList
+The maximum detail level of particle to create
 19IParticleCollection
 19CParticleCollection
 CCParticleObjectDesc
@@ -5927,7 +5926,7 @@ r_draw_particle_children_with_parents
 20CSceneParticleObject
 20ISceneObjectDescBaseI20CSceneParticleObjectE
 19CParticleObjectDesc
-=  (data type of container field %d does not match particle attribute %s)
+?  (data type of container field %d does not match particle attribute %s)
   (container field %d has no allocated data)
 CParticleSnapshot::%s - Invalid attribute mapping specified for the provided container!
 CParticleSnapshot::%s - Invalid attribute mapping specified (must be one-to-one)!
@@ -5962,6 +5961,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 Problem loading error.vpcf, please validate your game install
 Tried to load a polymorphic pointer with no '%s' key
 Failed to allocate an instance of class '%s'
@@ -6035,13 +6035,13 @@ Memory at [%p]:
 %02x 
  Child collection: [%p]
  next: %p, parent: %p
+particlecollection.cpp
 particlecollection.h
 r_particle_render_test
 particles_multiplier
 r_particle_min_timestep
 Init Collection [%p]: %s
 Elapsed time = %f
-particlecollection.cpp
 false
 Error in child list of particle system %s [%p], parent: %p
 Address of m_Children.m_pHead: [%p]
@@ -6069,9 +6069,12 @@ Function is disabled
 MParticleMinVersion
 MParticleMaxVersion
 FCVAR_NEVER_AS_STRING
+1000000
+r_particle_max_draw_distance
 particle_layer_id_whitelist
 Function "%s" not found while loading particle system
 WARNING: Removing circular reference to particle child '%s'.
+The maximum distance that particles will render
 unknown
 Creating collection: 
  Child: 
@@ -6118,25 +6121,28 @@ report_type
 report_info
 report_time
 report_time_str
+Particles/Budget_SimulationUS
+Particles/Budget_RenderUS
+Particles/Budget_ActualTraces
 System Name
-Total Sim (us)
 total_sim
+Total Sim (us)
 Max Sim (us)
 max_sim
 max_expected
 default_sort
 Avg. Sim (us)
 avg_sim
-Max Instances
 max_instances
-Total Frames
+Max Instances
 total_frames
+Total Frames
 Max Particles
 max_particles
-alloc_particles
 Allocated Particles
-total_render
+alloc_particles
 Total Render (us)
+total_render
 Max Render (us)
 max_render
 Avg. Render (us)
@@ -6235,6 +6241,7 @@ materials/particle/base_projected.vmat
 materials/particle/base_sprite.vtex
 particles/dev/dev_cables_preview_material.vmat
 CParticleSystemMgr::InitAttributeTable has an out-of-date attribute list! (element %d not set up)
+Particles/Budget_InterectionTests
 Trace cache efficiency = %.2f%% (%d traces for %d tests)
 WARNING: Discarding existing in-progress particle performance request.
 Usage: particle_profile_spike <'systems'|'operators'> <spike_threshold_ms>
@@ -6319,6 +6326,7 @@ ParticleAttributeIndex_t
 CUtlVector
 CPerParticleFloatInput
 CParticleCollectionFloatInput
+ParticleCollisionMode_t
 CPerParticleVecInput
 ParticleColorBlendMode_t
 InfoForResourceTypeCModel
@@ -6333,6 +6341,7 @@ ParticlePinDistance_t
 HitboxLerpType_t
 ScalarExpressionType_t
 ControlPointReference_t
+VectorExpressionType_t
 InfoForResourceTypeIMaterial2
 ParticleColorBlendType_t
 ModelReference_t
@@ -6342,6 +6351,7 @@ ParticlePreviewBodyGroup_t
 ParticleAttachment_t
 ParticleControlPointDriver_t
 ParticlePreviewState_t
+ParticleDetailLevel_t
 CParticleFunctionPreEmission
 CParticleFunctionEmitter
 CParticleFunctionInitializer
@@ -6411,25 +6421,6 @@ m_bGlobalOrigin
 m_bGlobalNormal
 m_flRadiusScale
 m_flMaximumDistanceToCP
-m_vecCpOffset
-m_nCollisionMode
-m_flBounceAmount
-m_flSlideAmount
-m_flRandomDirScale
-m_flCpMovementTolerance
-m_flTraceTolerance
-m_flMinSpeed
-m_bDecayBounce
-m_bKillonContact
-m_bConfirmCollision
-m_bSetNormal
-m_nStickOnCollisionField
-m_flStopSpeed
-m_nEntityStickDataField
-m_bWorldOnly
-m_nIgnoreCP
-m_CollisionGroupName
-m_bBrushOnly
 m_vecMin
 m_vecMax
 m_nCP
@@ -6439,6 +6430,26 @@ m_flMinDistance
 m_flAdjustmentScale
 m_flInitialRestingLength
 0 0 1
+m_vecCpOffset
+m_nCollisionMode
+m_nCollisionModeMin
+m_flBounceAmount
+m_flSlideAmount
+m_flRandomDirScale
+m_flCpMovementTolerance
+m_flTraceTolerance
+m_flMinSpeed
+m_bDecayBounce
+m_bKillonContact
+m_bSetNormal
+m_nStickOnCollisionField
+m_flStopSpeed
+m_nEntityStickDataField
+m_bWorldOnly
+m_nIgnoreCP
+m_CollisionGroupName
+m_bBrushOnly
+COLLISION_MODE_DISABLED
 Collision via traces
 Constrain particles to a box
 Rope Spring constraint
@@ -6464,7 +6475,6 @@ MPropertyAttributeChoiceName
 particlefield_vector
 Speed to stop when sticking
 Set Normal
-Confirm Collision
 kill particle on collision
 Add Decay to Bounce
 trace accuracy tolerance
@@ -6472,7 +6482,7 @@ Random Direction scale
 radius scale
 amount of slide
 amount of bounce
-collision mode
+minimum detail collision mode
 MVectorIsCoordinate
 C_OP_WorldCollideConstraint
 C_OP_PlanarConstraint
@@ -6495,6 +6505,8 @@ maximum distance middle
 C_OP_ConstrainDistance
 global center point
 offset of center
+m_flCollisionConfirmationSpeed
+COLLISION_MODE_PER_PARTICLE_TRACE
 Constrain distance to control point
 Constrain distance to path between two control points
 Constrain distance to user specified path
@@ -6504,9 +6516,11 @@ scale factor for spring correction
 CP Entity to Ignore for Collisions
 Entity Hitbox Cache Field (Requires Stick on Collision)
 Stick On Collision Cache Field
+Confirm Collision Speed Threshold
 minimum speed to kill on collision
 control point movement distance tolerance
 control point offset for fast collisions
+control point for fast collision tests
 falloff distance from control point
 C_OP_ConstrainDistanceToUserSpecifiedPath
 distance scale control point (X/Y = Min/Max)
@@ -6783,9 +6797,9 @@ m_bScalePosition
 m_bScaleVelocity
 m_flMinSize
 m_flMaxSize
-m_bPlaceAlongPath
 m_bClosedLoop
 m_nNumPointsAlongPath
+m_bPlaceAlongPath
 m_names
 m_values
 m_nDetail2Combo
@@ -6824,10 +6838,10 @@ m_ColorMax
 m_TintMin
 m_TintMax
 m_flTintPerc
-m_nTintBlendMode
-m_flLightAmplification
 m_flUpdateThreshold
 m_nTintCP
+m_nTintBlendMode
+m_flLightAmplification
 255 255 255 255
 0 0 0 0
 PARTICLE_SET_REPLACE_VALUE
@@ -7570,21 +7584,6 @@ override CP (X/Y/Z *= radius/thickness/speed)
 32CParticleFunctionDefinitionTypedI14C_INIT_InitVecE
 HAT	K 
 HAT	KAT	KAT	KAT	K 
-m_bPosition
-m_bPrevPosition
-m_bRadius
-m_bRotation
-m_bColor
-m_bAlpha
-m_bSequence
-m_bSequence1
-Code driven initializer
-C_INIT_CodeDriven
-sequence number 1
-sequence number
-previous position
-17C_INIT_CodeDriven
-32CParticleFunctionDefinitionTypedI17C_INIT_CodeDrivenE
 m_nParticlesToEmit
 m_nMaxEmittedPerFrame
 m_nSnapshotControlPoint
@@ -7601,8 +7600,6 @@ Emit instantaneously
 Emit continuously
 Emit noise
 Emit to maintain count
-Code driven emitter
-C_OP_CodeDrivenEmitter
 C_OP_MaintainEmitter
 emission rate
 emission start time
@@ -7640,8 +7637,6 @@ SetNActiveParticles
 32CParticleFunctionDefinitionTypedI17C_OP_NoiseEmitterE
 20C_OP_MaintainEmitter
 32CParticleFunctionDefinitionTypedI20C_OP_MaintainEmitterE
-22C_OP_CodeDrivenEmitter
-32CParticleFunctionDefinitionTypedI22C_OP_CodeDrivenEmitterE
 MbP?m_MinForce
 m_MaxForce
 m_flForceScale
@@ -7998,6 +7993,7 @@ m_flTValue
 m_Lerp
 m_flOffscreenTime
 m_flFreezeTime
+m_nCount
 0 0 0 255
 PARTICLE_SELECTION_FIRST
 PARTICLE_PIN_DISTANCE_NONE
@@ -8039,6 +8035,7 @@ Lifespan from endcap decay
 Lifespan minimum alpha decay
 Lifespan minimum radius decay
 Lifespan maintain count decay
+Lifespan clamp count decay
 Cull random
 Rotation spin roll
 Rotation basic
@@ -8278,6 +8275,8 @@ cull time exponent
 cull end time
 cull start time
 cull percentage
+C_OP_DecayClampCount
+Maximum Count
 C_OP_DecayMaintainCount
 decay delay
 C_OP_RadiusDecay
@@ -8596,6 +8595,8 @@ force preserving particle order
 32CParticleFunctionDefinitionTypedI16C_OP_RadiusDecayE
 23C_OP_DecayMaintainCount
 32CParticleFunctionDefinitionTypedI23C_OP_DecayMaintainCountE
+20C_OP_DecayClampCount
+32CParticleFunctionDefinitionTypedI20C_OP_DecayClampCountE
 9C_OP_Cull
 32CParticleFunctionDefinitionTypedI9C_OP_CullE
 12CGeneralSpin
@@ -8920,6 +8921,8 @@ amount to multiply light brightness by
 ;m_nInControlPointNumber
 m_bUseDeltaV
 m_nOutVectorField
+m_vInput1
+m_vInput2
 m_vecRateMin
 m_vecRateMax
 m_nChildControlPoint
@@ -8949,6 +8952,7 @@ m_pszTimeOfDayParameter
 m_vecDefaultValue
 m_nLocalCP
 m_nInputField
+m_bDerivative
 m_nColorCP
 m_nColorGemEnableCP
 m_DefaultHSVColor
@@ -8978,6 +8982,7 @@ m_flNumberOfChildren
 0 128 0
 -128 0 0
 0 -128 0
+VECTOR_EXPRESSION_ADD
 Remap CP speed to CP
 Remap model volume to CP
 Set control point positions
@@ -9016,6 +9021,7 @@ C_OP_HSVShiftToCP
 Default HSV Color
 output control point number
 C_OP_RemapCPtoCP
+use the derivative
 C_OP_SetControlPointRotation
 C_OP_StopAfterCPDuration
 play end cap effect
@@ -9062,6 +9068,7 @@ C_OP_RemapSpeedtoCP
 Output field 0-2 X/Y/Z
 Remap dot product to control point
 Set control point component to scalar expression
+Set control point to vector expression
 Remap particle bbox volume to CP
 Remap average scalar value to CP
 Ramp control point linear random
@@ -9108,6 +9115,7 @@ first parent control point to set from
 C_OP_RemapAverageScalarValuetoCP
 input volume maximum in cubic units
 input volume minimum in cubic units
+C_OP_SetControlPointToVectorExpression
 C_OP_SetControlPointFieldToScalarExpression
 use delta of velocity instead of constant speed
 19C_OP_RemapSpeedtoCP
@@ -9116,6 +9124,8 @@ use delta of velocity instead of constant speed
 32CParticleFunctionDefinitionTypedI24C_OP_RemapDotProductToCPE
 43C_OP_SetControlPointFieldToScalarExpression
 32CParticleFunctionDefinitionTypedI43C_OP_SetControlPointFieldToScalarExpressionE
+38C_OP_SetControlPointToVectorExpression
+32CParticleFunctionDefinitionTypedI38C_OP_SetControlPointToVectorExpressionE
 25C_OP_RemapModelVolumetoCP
 32CParticleFunctionDefinitionTypedI25C_OP_RemapModelVolumetoCPE
 28C_OP_RemapBoundingVolumetoCP
@@ -9592,6 +9602,7 @@ m_bOnlyRenderInEffectsBloomPass
 m_bEnableProjectedDepthControls
 m_flControlPointOrientationAmount
 m_nControlPointForLinearDirection
+../public/scenesystem/vertexformat.h
 MPropertyAttributeChoiceEnumName
 Control Point for Orientation Amount
 Control Point Orientation Amount (-1..1)
@@ -9804,13 +9815,16 @@ m_ChildRef
 m_flDelay
 m_bEndCap
 m_bDisableChild
+m_nDetailLevel
 m_controlPointNameString
 m_vOffsetFromControlPoint
 m_bOffsetInLocalSpace
 m_model
 m_nCollisionGroupNumber
+m_nCollisionModeInternal
 m_vOffset
 m_flTimeDuration
+PARTICLEDETAIL_LOW
 Duration value for path point
 Offset from control point
 Control point
@@ -9837,6 +9851,16 @@ Lighten
 Darken
 Overlay
 Replace
+Collision Disabled
+Initial Trace Down
+Per-Frame Planeset
+Trace Caching
+Per-Particle Trace
+PARTICLEDETAIL_MEDIUM
+PARTICLEDETAIL_HIGH
+PARTICLEDETAIL_ULTRA
+Ultra
+Medium
 PARTICLE_TOPOLOGY_POINTS
 PARTICLE_TOPOLOGY_LINES
 PARTICLE_TOPOLOGY_TRIS
@@ -9848,6 +9872,7 @@ Triangles
 Line segments
 m_flRelativeProbabilityOfSpawn
 Use local coordinates for offset
+disable at detail levels below
 Offset from curve midpoint for curve center
 Offset from curve start point for path start
 bulge control 0=random 1=orientation of start pnt 2=orientation of end point
@@ -9863,9 +9888,11 @@ visibility radius scale maximum
 visibility radius scale minimum
 visibility alpha scale maximum
 visibility alpha scale minimum
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_INITIAL_TRACE_DOWN
 m_nBehaviorVersion
 m_PreEmissionOperators
-m_Emitters
 m_Initializers
 m_Operators
 m_ForceGenerators
@@ -9908,6 +9935,7 @@ m_controlPointConfigurations
 m_flNoDrawTimeToGoToSleep
 m_flMaxDrawDistance
 m_flStartFadeDistance
+m_flMaxCreationDistance
 m_nSkipRenderControlPoint
 m_nAllowRenderControlPoint
 m_flAggregateRadius
@@ -9915,15 +9943,18 @@ m_flStopSimulationAfterTime
 m_bShouldSort
 m_bShouldBatch
 m_flDepthSortBias
+m_bInfiniteBounds
+m_Emitters
 -10 -10 -10
 10 10 10
-100000.0
 200000.0
 1000000000
+infinite bounds - don't cull
 depth sort bias
 batch particle systems
 freeze simulation after time
 aggregation radius
+maximum creation distance
 start fade distance
 maximum draw distance
 time to sleep when not drawn
@@ -9936,6 +9967,8 @@ minimum simulation time step
 minimum sim tick rate
 maximum sim tick rate
 maximum time step
+sequence number 1
+sequence number
 lifetime
 rotation speed
 AssetBrowse( vpcf )
@@ -10046,22 +10079,20 @@ MISSING_PARENT_FIND_NEW
 Use Next Parent Particle
 Kill Particle
 Do Nothing
+VECTOR_EXPRESSION_SUBTRACT
+VECTOR_EXPRESSION_MUL
+VECTOR_EXPRESSION_DIVIDE
+VECTOR_EXPRESSION_INPUT_1
+VECTOR_EXPRESSION_MIN
+VECTOR_EXPRESSION_MAX
+Normalize Input 1
+Divide
 SCALAR_EXPRESSION_SUBTRACT
 SCALAR_EXPRESSION_MUL
 SCALAR_EXPRESSION_DIVIDE
 SCALAR_EXPRESSION_INPUT_1
 SCALAR_EXPRESSION_MIN
 SCALAR_EXPRESSION_MAX
-Input 1
-Divide
-17CParticleFunction
-28CParticleFunctionInitializer
-24CParticleFunctionEmitter
-27CParticleFunctionConstraint
-22CParticleFunctionForce
-25CParticleFunctionOperator
-28CParticleFunctionPreEmission
-25CParticleFunctionRenderer
 I cannot be refracted through refracting objects like water
 normalize fade times to endcap
 PARTICLE_SET_SCALE_INITIAL_VALUE
@@ -10076,7 +10107,17 @@ Distance to Both of Two Control Points
 Distance to Either of Two Control Points
 Distance to Particle System Center
 Distance to Neighboring Particle
+VECTOR_EXPRESSION_UNINITIALIZED
+VECTOR_EXPRESSION_NORMALIZE_INPUT_1
 SCALAR_EXPRESSION_UNINITIALIZED
+17CParticleFunction
+28CParticleFunctionInitializer
+24CParticleFunctionEmitter
+27CParticleFunctionConstraint
+22CParticleFunctionForce
+25CParticleFunctionOperator
+28CParticleFunctionPreEmission
+25CParticleFunctionRenderer
 m_bPerVertexLighting
 m_flSelfIllumAmount
 m_flDiffuseAmount
@@ -10275,12 +10316,14 @@ m_flNormalMapOffsetU
 m_bDrawCableCaps
 m_flCapRoundness
 m_flCapOffsetAmount
+m_nRoundness
 m_MaterialFloatVars
 m_MaterialVecVars
 TEXTURE_REPETITION_PARTICLE
 C_OP_RenderCables
 material vector variables
 material float variables
+roundness factor
 tessellation scale factor
 cable end cap offset amount
 cable end cap shape factor
@@ -10312,6 +10355,9 @@ HookUpConfigValue
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -10325,10 +10371,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -10336,7 +10385,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 8CFmtStrNILi256ELb0EE
 mempool.cpp
 ../public/tier1/utlrbtree.h
@@ -10373,6 +10422,8 @@ utlstring.cpp
 %s: string format requested %d chars
 FormatV
 UPDATE_STRING_TOKEN_DATABASE
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 VApplication001
 interfaces.cpp
 VEngineCvar007
@@ -11148,7 +11199,6 @@ m_bHasBakedLightingFromVertexStream
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingBasisInVertex
 m_bCanBatchWithDynamicShaderConstants
-m_bHasPerInstanceBakedLightingData
 invalid_hitbox
 invalid_bone
 speeds
@@ -11381,6 +11431,7 @@ physib
 ptestbed
 VertexColorPos_t
 phys_res
+physaggregatedata.cpp
   0x%08X %s,
  %llu aggs, %s total data
 Animated
@@ -11457,6 +11508,10 @@ particleslib
 32CSchemaRegistration_particleslib
 m_nScalarAttribute
 m_nVectorAttribute
+m_flLOD0
+m_flLOD1
+m_flLOD2
+m_flLOD3
 m_nInputMode
 m_Curve
 PF_MAP_TYPE_DIRECT
@@ -11481,6 +11536,7 @@ PF_TYPE_INVALID
 PF_TYPE_RANDOM_BIASED
 PF_TYPE_COLLECTION_AGE
 PF_TYPE_ENDCAP_AGE
+PF_TYPE_PARTICLE_DETAIL_LEVEL
 PF_TYPE_PARTICLE_AGE
 PF_TYPE_PARTICLE_FLOAT
 PF_TYPE_PARTICLE_SPEED
@@ -11488,6 +11544,7 @@ PF_TYPE_PARTICLE_NUMBER
 PF_TYPE_COUNT
 MPropertyEditClassCustomEditor
 MParticleCustomFieldDefaultValue
+PF_TYPE_CONTROL_POINT_CHANGE_AGE
 PF_TYPE_PARTICLE_VECTOR_COMPONENT
 PF_TYPE_PARTICLE_NUMBER_NORMALIZED
 m_vVectorAttributeScale
@@ -11550,12 +11607,12 @@ Attempting to create unknown particle system '%s'
 Failed to create unknown particle system '%s', and failed to create error particle system 
 ChangeSize
 ZN18CNewParticleEffect7RestartEvEUlvE_
-ProcessPSystem
+ProcessPSystems
 %30s		%5d		%5d
 Particle Effect Systems:
-UpdateNewEffects
 BuildParticleSimList
 EarlyRetireParticleSystems
+UpdateNewEffects
 ParticlesLib
 cl_particles_dumplist
 Attempted to create unknown particle system type "%s"!
@@ -11613,7 +11670,6 @@ POSITION
 F_ALPHA_TEST
 F_TRANSLUCENT
 F_MORPH_SUPPORTED
-Attribute counts between meshes is inconsistent
 Need valid position and texcoord when creating world space tangent lengths!
 Need valid position to calculate face centers!
 remapping vertex %d[w%d] invalid: %d->? >= %d

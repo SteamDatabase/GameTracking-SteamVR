@@ -45,7 +45,7 @@ Plat_IsWindowVisible
 V_UTF16ToUTF32
 V_UTF8ToUTF32
 ThreadGetCurrentId
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 KeyValuesSystem
 Plat_GetWindowClientSize
 _V_wcsncpy_bytes
@@ -76,6 +76,7 @@ strchr
 V_atoi
 V_sscanf
 V_atofloat64
+Plat_IsInDebugSession
 _Z6ConMsgPKcz
 V_atof
 strcmp
@@ -106,7 +107,6 @@ _Z14V_stristr_fastPKcS0_
 CMemAllocSystemInitialize
 _V_strnistr_fast
 V_strnchr
-Plat_IsInDebugSession
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
 V_strupper_fast
 _Z20V_UnicodeCaseConvertPKcPcii25EStringConvertErrorPolicy
@@ -192,14 +192,14 @@ _ZN12CThreadEventC1Eb
 _ZN13CThreadRWLock11WaitForReadEv
 _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
 _ZN17CThreadSyncObjectD2Ev
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
 V_GetFileExtension
@@ -251,7 +251,6 @@ AUATI
 [A\A]A^]
 AWAVA
 ([A\A]A^A_]
-Hc=p	2
 ([A\A]A^A_]
 xBHcO
 ~9;w$
@@ -461,7 +460,8 @@ AVAUATSH
 [A\A]A^A_]
 AUATSH
 [A\A]]
-AWAVAUATSH
+AWAVI
+AUATSH
 |$0L9
 [A\A]A^A_]
 AWAVAUATI
@@ -485,34 +485,34 @@ AWAVAUATA
 [A\A]A^A_]
 AVAUATSH
 [A\A]A^]
+8[A\A]A^A_]
 AWAVAUATA
 [A\A]A^A_]
 8[A\A]A^A_]
 8[A\A]A^A_]
 8[A\A]A^A_]
-8[A\A]A^A_]
+AWAVAUA
+([A\A]A^A_]
 8[A\A]A^A_]
 AUATSH
 [A\A]A^A_]
-AWAVAUA
+AVAUA
 ([A\A]A^A_]
 AUATSH
-([A\A]A^A_]
-AVAUA
 ([A\A]A^A_]
 AVAUATSH
 [A\A]A^]
 8[A\A]A^A_]
 X[A\A]A^A_]
+H[A\A]A^A_]
 AWAVAUATA
 [A\A]A^A_]
-H[A\A]A^A_]
 AWAVAUI
 8[A\A]A^A_]
 [A\A]A^A_]
-AWAVA
-[A\A]A^A_]
 AWAVAUATI
+[A\A]A^A_]
+AWAVA
 [A\A]A^A_]
 AWAVE
 [A\A]A^A_]
@@ -570,9 +570,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 AUATSH
@@ -580,13 +577,15 @@ AUATSH
 [A\A]]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -737,7 +736,6 @@ AVAUATSH
 8[A\A]]
 8[A\A]]
 h[A\A]]
- [A\]
 AVAUL
 [A\A]A^]
 AUATL
@@ -1442,6 +1440,8 @@ AWAVAUATSH
 AWAVA
 AUATSH
 [A\A]A^A_]
+Lc%D..
+D;%M..
 AWAVAUATI
 [A\A]A^A_]
 AVAUATA
@@ -2793,7 +2793,7 @@ AVAUATSH
 vtexL
 [A\A]A^]
 AWAVAUI
-E9}@~zI
+E9}H~zI
 [A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
@@ -2846,33 +2846,33 @@ AWAVI
 AUATI
 [A\A]A^A_]
 AVAUATSH
-Icw@H
+IcwHH
 [A\A]A^A_]
-HcC@I
-SHD;r
-Lcc@L
-SHD;r
-IcE@H
+HcCHI
+SPD;r
+LccHL
+SPD;r
+IcEHH
 Mc<$M
-UHE;|$
+UPE;|$
 pIcL$
 AWAVA
-Ic]@H
-UHD;2tpH
+Ic]HH
+UPD;2tpH
 [A\A]A^A_]
-Ic]@I
-EHD;`
-EHD;`
+Ic]HI
+EPD;`
+EPD;`
 AWAVI
 8[A\A]A^A_]
 8[A\A]A^A_]
 [A\A]A^]
 [A\A]A^]
 AVAUI
-HcC@H
-Lcs@D;sP
+HcCHH
+LcsHD;sX
 [A\A]A^A_]
-IHcKPIc
+IHcKXIc
 vmatL
 [A\A]]
 [A\A]]
@@ -2891,7 +2891,7 @@ AUATA
 S HcS
 [A\A]]
 AWAVAUATSH
-D;c@|
+D;cH|
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
@@ -3030,6 +3030,7 @@ RenderSystemTopPanel
 CVGuiRenderSurface::Init
 VguiRenderSurfaceInit
 -vguifocus
+vguirendersurface.cpp
 dev/vgui/materials/white.vtex
 materials/vgui/white.vmat
 WIN32WIDE
@@ -3040,7 +3041,6 @@ WIN32LODEF
 OnMovedPopupToFront
 VGUI popup window
 VguiCallQueue
-vguirendersurface.cpp
 ResolveVagueResourceFileName:: changed %s to %s
 Vgui is losing input messages! Call brian!
 HKEY_CURRENT_USER\Software\Valve\Steam\Language
@@ -3071,7 +3071,8 @@ N4vgui12IClientPanelE
 15CTier3AppSystemI18IVGuiRenderSurfaceLi0EE
 18CVGuiRenderSurface
 28CVguiProceduralLayerRenderer
-?VGuiPaintSurfaceLayout
+]vguipaintsurfacequeued.cpp
+VGuiPaintSurfaceLayout
 -pixel_offset_x
 -pixel_offset_y
 VguiPaint3D
@@ -3080,6 +3081,7 @@ CVGuiPaintSurfaceQueued::DrawFilledRectArray
 CVGuiPaintSurfaceQueued::DrawTexturedLineInternal
 CVGuiPaintSurfaceQueued::DrawQuad
 CVGuiRenderSurface::DrawGradientQuad
+../public/scenesystem/vertexformat.h
 CVGuiRenderSurface::StartDrawing
 CVGuiPaintSurfaceQueued::DrawTexturedPolygon
 CVGuiPaintSurfaceQueued::DrawTexturedQuadArray
@@ -3093,21 +3095,21 @@ DrawFlushText
 Queued fxn call: %s
 SetStencilReference
 SetZPos
-DrawSetColor
-DrawLine
-DrawFilledRect
-DrawTexturedRect
-DrawOutlinedRect
 DrawOutlinedCircle
-DrawPolyLine
+DrawSetColor
+DrawFilledRect
+DrawOutlinedRect
+DrawTexturedRect
 DrawSetTextPos
-DrawTexturedQuadArray
+DrawLine
+DrawPolyLine
 DrawTexturedPolygon
+DrawTexturedQuadArray
 DrawSetAlphaMultiplier
 DrawFilledRectFade
 DrawTexturedSubRect
-DrawSetTexture
 DrawFilledRectFastFade
+DrawSetTexture
 DrawGradientFilledRect
 DrawSetTextFont
 DrawSetTextureFile
@@ -3120,14 +3122,15 @@ DrawColoredText
 DrawColoredTextRect
 PopMakeCurrent
 PushMakeCurrent
-DrawTexturedPolyLine
 DrawFilledRectArray
+DrawTexturedPolyLine
 DrawUnicodeChar
 SetClipRect
 CallQueued
 StartDrawing
 FinishDrawing
 Too many popups! Rendering will be bad!
+vguipaintsurfacemainthread.cpp
 17IVGuiPaintSurface
 27CVGuiPaintSurfaceMainThread
 libvguirendersurface.so
@@ -3143,6 +3146,9 @@ FCVAR_NEVER_AS_STRING
  max. %f
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -3157,17 +3163,20 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
 14ConCommandBase
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -3189,6 +3198,7 @@ u64( %lld = 0x%llX )
 update
 delete
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 
@@ -3391,6 +3401,7 @@ SetString
 Couldn't find script file %s
 fgcolor
 bgcolor
+animationcontroller.cpp
 northwest
 north
 northeast
@@ -3531,6 +3542,7 @@ ClientScheme
 DefaultVerySmall
 ScrollBarSliderMoved
 FindDefaultButton
+editablepanel.cpp
 resource/layout/%s_%s.layout
 resource/layout/%s.layout
 unable to find control '%s'
@@ -4339,6 +4351,7 @@ unused
 Error reading attribute "%s"
 keyvalues2_flat
 elementid
+texturedictionary.cpp
 matsystemtexture_%s_%lld.vtex
 CTextureDictionary::GetTextureSize()
 WARNING: Trying to create a CRenderContextPtr without a valid context.
@@ -4364,6 +4377,8 @@ CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 NewNode
 CUtlMemoryPoolBase
 CMemoryStack %s
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 12CThreadEvent
 CONTENTROOT
 CONTENT

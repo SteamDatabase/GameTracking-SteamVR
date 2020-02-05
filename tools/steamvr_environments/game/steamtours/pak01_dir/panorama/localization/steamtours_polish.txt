@@ -2664,7 +2664,7 @@
 "[english]VR_Avatar_Wearable_ToTheTopKitsuneMask"	"TO THE TOP Kitsune Mask"
 "VR_Avatar_Wearable_ToTheTopKitsuneMask_Desc"	"Maska lisa, która spadła z latającego Super Bota.\n\nOdblokowane za zagranie w TO THE TOP."
 "[english]VR_Avatar_Wearable_ToTheTopKitsuneMask_Desc"	"A Kitsune mask that fell off of a high flying Super Bot.\n\nUnlocked by playing TO THE TOP."
-"ItemDetail_Type_Collectible"	"Przedmiot kolekcjonerski ze SteamVR"
+"ItemDetail_Type_Collectible"	"Przedmiot kolekcjonerski SteamVR"
 "[english]ItemDetail_Type_Collectible"	"SteamVR Collectible"
 "Beta_Desc"	"Aktualnie uczestniczysz w SteamVR Beta: dostęp do pokojów można uzyskać tylko wtedy, gdy zostały one stworzone przez innego gracza, który również uczestniczy w SteamVR Beta."
 "[english]Beta_Desc"	"You are currently opted into SteamVR Beta: Rooms are only accessible if created by another player opted into SteamVR Beta."

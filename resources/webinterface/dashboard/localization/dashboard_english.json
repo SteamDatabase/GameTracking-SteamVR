@@ -1,16 +1,45 @@
 {
-  "UI_Unknown": "UNKNOWN",
-  "Now_Starting": "NEXT UP",
-  "Now_Starting_HomeApp": "GOING HOME TO",
-  "Now_Playing": "NOW PLAYING",
-  "Now_Playing_HomeApp": "HOME",
-  "Now_Quitting": "NOW EXITING",
-  "Now_Waiting": "WAITING...",
-  "BackToApp": "BACK TO APP",
-  "Camera_Header": "ROOM VIEW",
-  "GoHome": "GO HOME",
-  "QuitApp": "QUIT APP",
-  "DashboardPower_Header": "SYSTEM",
-  "BindingCallout_Header": "SHOW CONTROLS",
-  "MutedLabel": "Muted"
+  "UI_Unknown": "Unknown",
+  "Now_Starting": "Next Up",
+  "Now_Starting_HomeApp": "Going Home To",
+  "Now_Playing": "Now Playing",
+  "Now_Playing_HomeApp": "Home",
+  "Now_Quitting": "Now Exiting",
+  "Now_Waiting": "Waiting...",
+  "BackToApp": "Back to App",
+  "Toggle_Room_View": "Toggle Room View",
+  "GoHome": "Go Home",
+  "QuitApp": "Quit App",
+  "DashboardPower_Header": "System",
+  "BindingCallout_Header": "Show Controls",
+  "MutedLabel": "Muted",
+
+  "SteamVR_Home": "SteamVR Home",
+  "Exit_SteamVR_Home": "Exit SteamVR Home",
+  "Exit_Game": "Exit Game",
+
+  "Menu": "Menu",
+  "Desktops": "Desktops",
+  "Volume": "Volume",
+
+  "One_More_Overlay": "1 More Overlay",
+  "X_More_Overlays": "%1$s More Overlays",
+
+  "Store": "Store",
+  "BrowseAllGames": "Browse All Games",
+  "BrowseAll": "Browse All",
+  "StoreSection_TopSingleplayer": "Top Singleplayer",
+  "StoreSection_TopMultiplayer": "Top Multiplayer",
+  "StoreSection_TopFree": "Top Free",
+
+  "Library": "Library",
+  "RecentlyPlayed": "Recently Played",
+
+  "Return_To_Game": "Return to Game",
+  "Return_To_Home": "Return to Home",
+  "Controller_Bindings": "Controller Bindings",
+  "App_Video_Settings": "Video Settings",
+
+  "Desktop": "Desktop",
+  "Desktop_X": "Desktop %1$s"
 }

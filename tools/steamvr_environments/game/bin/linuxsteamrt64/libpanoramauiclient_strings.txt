@@ -68,6 +68,7 @@ strchr
 V_stricmp_fast
 V_sscanf
 V_atofloat64
+Plat_IsInDebugSession
 _Z6ConMsgPKcz
 V_atof
 _ZTVN10__cxxabiv121__vmi_class_type_infoE
@@ -97,10 +98,9 @@ _V_StringAfterPrefix
 _Z14V_stristr_fastPKcS0_
 CMemAllocSystemInitialize
 ThreadGetCurrentId
-_ZNV16CThreadFastMutex4LockEyj
+_ZNV16CThreadFastMutex4LockEPKciyj
 _V_strnistr_fast
 V_strnchr
-Plat_IsInDebugSession
 _ZN13CBufferString10RelinquishENS_19EAllocationOption_tE
 V_strlower_fast
 V_strupper_fast
@@ -423,13 +423,13 @@ _V_StrSubst
 Plat_VirtualAlloc
 Plat_VirtualFree
 _ZN13CThreadRWLock11WaitForReadEv
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 _ZN13CBufferString6ConcatEPKcS1_z
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 __ctype_b_loc
 _ZNSs9_M_mutateEmmm
 strtoq
@@ -512,9 +512,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
@@ -522,13 +519,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -1619,10 +1618,10 @@ AVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
 ATS9G(H
-AUATI
-9C(txH
-[A\A]]
-9G(t=H
+AUATSH
+[A\A]A^A_]
+[A\A]A^A_]
+9G(t<H
 AUATI
 [A\A]]
 AWAVAUATI
@@ -2397,7 +2396,7 @@ AUATSH
 H[A\A]A^A_]
 AVAUATL
 [A\A]A^A_]
-AVAUATA
+AVAUI
 [A\A]A^]
 AVAUL
 [A\A]A^A_]
@@ -3357,17 +3356,17 @@ AUATSH
 AVAUH
 [A\A]A^]
 [A\A]A^]
+AWAVH
+[A\A]A^A_]
+AWAVH
+[A\A]A^A_]
+AWAVH
+[A\A]A^A_]
 AVAUH
 [A\A]A^]
 [A\A]A^]
 AWAVH
 [A\A]A^A_]
-AWAVH
-[A\A]A^A_]
-AWAVH
-[A\A]A^A_]
-AWAVH
-[A\A]A^A_]
 AUATSH
 [A\A]]
 AUATSH
@@ -3382,14 +3381,14 @@ AWAVAUL
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUL
+[A\A]A^A_]
+[A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVAUL
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVL
-[A\A]A^A_]
-[A\A]A^A_]
 [A\A]A^A_]
 [A\A]A^A_]
 AWAVI
@@ -3406,16 +3405,16 @@ AWAVAUATSH
 [A\A]A^A_]
 AVAUI
 [A\A]A^H
-AVAUATI
-[A\A]A^]
 AVAUI
 [A\A]A^H
-AVAUATI
-[A\A]A^]
 AVAUATI
 [A\A]A^]
 AVAUI
 |$HA\A]H
+AVAUATI
+[A\A]A^]
+AVAUATI
+[A\A]A^]
 AWAVAUATI
 [A\A]A^A_]
 AWAVAUATI
@@ -3426,18 +3425,18 @@ AVAUI
 [A\A]A^H
 AVAUI
 [A\A]A^H
-AWAVAUATI
-[A\A]A^A_]
-AWAVAUATI
-[A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
 AVAUI
 { [A\A]A^H
 AWAVAUATI
-([A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATI
+[A\A]A^A_]
 AVAUI
 |$ A\A]H
+AWAVAUATI
+([A\A]A^A_]
 AWAVI
 AUATI
 ([A\A]A^A_]
@@ -3458,13 +3457,13 @@ AWAVAUATSH
 [A\A]A^A_]
 AVAUATSH
 ([A\A]A^A_]
-AVAUATSH
-([A\A]A^A_]
-([A\A]A^A_]
-AVAUATSH
 ([A\A]A^A_]
 AUATI
 8[A\A]A^A_]
+AVAUATSH
+([A\A]A^A_]
+AVAUATSH
+([A\A]A^A_]
 AVAUATL
 [A\A]A^A_]
 AVAUATSH
@@ -4986,8 +4985,6 @@ AUATI
 t	[A\]
  [A\]
 {D[A^]
-{8[A^]
-t	[A^]
 AUATI
 [A\A]]
 [A\A]]
@@ -5130,14 +5127,14 @@ AVAUI
 [A\A]A^A_]
 AVAUATSH
 @[A\A]A^]
-AUATI
-[A\A]]
-[A\A]]
-AVAUL
-[A\A]A^]
 AVAUATSH
 [A\A]A^]
 A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+AUATI
+[A\A]]
+[A\A]]
 AWAVI
 [A\A]A^A_]
  [A\]
@@ -5202,14 +5199,10 @@ D$0H9
 ([A\A]]
 D$ H9
 ([A\A]]
+AWAVAUATD
+h[A\A]A^A_]
 AWAVAUATSH
 [A\A]A^A_]
-AWAVAUATSH
-[A\A]A^A_]
-AWAVAUATSH
-fA;T$
-H[A\A]A^A_]
-fE;|$
 AWAVAUATSH
 X[A\A]A^A_]
 AWAVAUATSH
@@ -5264,13 +5257,11 @@ D;g D
 AVAUATI
 IcD$ A9
 [A\A]A^]
-AWAVI
-x[A\A]A^A_]
-x[A\A]A^A_]
 AWAVAUATI
 [A\A]A^A_]
 HcC A9
-fB94(
+0f95[v1
+fB94 
 [A\A]]
 AVAUATSH
 F A9E u
@@ -5352,7 +5343,7 @@ AVAUATI
 [A\A]A^]
 AVAUATI
 [A\A]A^]
-AVAUATI
+AVAUL
 [A\A]A^]
 AVAUATI
 [A\A]A^]
@@ -6206,8 +6197,6 @@ l$0D;h0
 l$ D;h 
 AWAVAUATSH
 X[A\A]A^A_]
-AWAVD
-8[A\A]A^A_]
 [A\A]A^A_]
 AVAUI
 P[A\A]A^]
@@ -6586,6 +6575,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 archive
 notify
@@ -6599,10 +6591,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -6610,7 +6605,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 << NULL >>
 developer
 0x%016llX
@@ -6631,6 +6626,7 @@ u64( %lld = 0x%llX )
 #empty#
 delete
 borrow
+keyvalues.cpp
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
 JSON error, unterminated element: 
@@ -8719,6 +8715,7 @@ InlineImage
 allowtextselection
 imgscaling
 selectedTextBackgroundColor
+../public/tier1/memstack.h
 LabelRightClickContextMenu
 CopySelectedLabelText()
 #UI_Label_CopySelected
@@ -9441,6 +9438,7 @@ none
 %s %s %s 
 background-image
 background-color
+background-color-opacity
 border
 padding
 wash-color
@@ -9615,6 +9613,8 @@ background-color: gradient( linear, 0% 0%, 0% 100%, from( #fbfbfbff ), to( #c0c0
 background-color: gradient( linear, 0% 0%, 0% 100%, from( #fbfbfbff ), color-stop( 0.3, #ebebebff ), to( #c0c0c0c0 ) );
 background-color: gradient( radial, 50% 50%, 0% 0%, 80% 80%, from( #00ff00ff ), to( #0000ffff ) );
 background-color: #0d1c22ff, gradient( radial, 100% -0%, 100px -40px, 320% 270%, from( #3a464bff ), color-stop( 0.23, #0d1c22ff ), to( #0d1c22ff ) );</pre>
+Sets the background color opacity for a panel (does nothing on its own, but when merged with a full background-color it overrides the opacity).<br><br><b>Examples:</b><pre>background-color-opacity: 0.5;
+</pre>
 Shorthand for setting panel border. Specify width, style, and color.  Supported styles are: solid, none.<br><br><b>Examples:</b><pre>border: 2px solid #111111FF;</pre>
 Shorthand for setting the top panel border. Specify width, style, and color.  Supported styles are: solid, none.<br><br><b>Examples:</b><pre>border-top: 2px solid #111111FF;</pre>
 Shorthand for setting the right panel border. Specify width, style, and color.  Supported styles are: solid, none.<br><br><b>Examples:</b><pre>border-right: 2px solid #111111FF;</pre>
@@ -10105,6 +10105,8 @@ ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE
     Total used memory:      %d KB
     Total committed memory: %d KB
     Max committed memory: %u KB out of %d KB
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 mempool.cpp
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 CUtlMemoryPoolBase

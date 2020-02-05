@@ -30,11 +30,11 @@ Plat_GetThreadIndex
 __cxa_guard_acquire
 __cxa_guard_release
 ThreadGetCurrentId
-_ZN17CThreadSpinRWLock16SpinLockForWriteEy
-_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEPKciy
+_ZN17CThreadSpinRWLock11UnlockWriteEPKci
 pthread_mutex_lock
-_ZN17CThreadSpinRWLock11LockForReadEv
-_ZN17CThreadSpinRWLock10UnlockReadEv
+_ZN17CThreadSpinRWLock11LockForReadEPKci
+_ZN17CThreadSpinRWLock10UnlockReadEPKci
 pthread_mutex_unlock
 pthread_mutexattr_init
 pthread_mutexattr_settype
@@ -66,12 +66,12 @@ strchr
 V_atoi
 V_sscanf
 V_atofloat64
+Plat_IsInDebugSession
 _Z6ConMsgPKcz
 V_atof
 strcmp
 CreateInterface
-_ZNV16CThreadFastMutex4LockEyj
-Plat_IsInDebugSession
+_ZNV16CThreadFastMutex4LockEPKciyj
 _V_strncmp
 V_strtoui64
 V_strtoi64
@@ -107,8 +107,8 @@ _ZN12CThreadEvent3SetEv
 _V_ExtractFilePath
 _ZN13CBufferString6ConcatEPKcS1_z
 _ZN17CThreadSyncObjectD2Ev
-_ZN13CThreadRWLock12LockForWriteEv
-_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock12LockForWriteEPKci
+_ZN13CThreadRWLock11UnlockWriteEPKci
 _ZTI17CThreadSyncObject
 _ZN17CThreadSyncObject8WaitImplEj
 strcpy
@@ -243,8 +243,8 @@ AUATSH
 AWAVAUI
 NE fA
 [A\A]A^A_]
-D;q(t%I
-jIcE(1
+D;q tII
+wIcE 1
 AWAVAUATI
 A	E L;u
 [A\A]A^A_]
@@ -252,7 +252,8 @@ A	E L;u
 AVAUATSH
 HcB I
 [A\A]A^A_]
-AWAVAUI
+AWAVI
+AUATSH
 [A\A]A^A_]
 [A\A]A^A_]
 AUATSH
@@ -261,13 +262,13 @@ E oOH
 8[A\A]A^A_]
 AWAVAUI
 8[A\A]A^A_]
+AWAVI
+;G }0H
+[A\A]A^A_]
 AWAVAUATI
-Hp~=D
+Hh~=D
 ([A\A]A^A_]
 AWAVAUATSH
-[A\A]A^A_]
-AWAVI
-;G }8H
 [A\A]A^A_]
 AWAVI
 AUATSH
@@ -329,9 +330,9 @@ AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
 8[A\A]A^A_]
-AWAVI
-AUATSH
-[A\A]A^A_]
+AUATS
+A\A]A^]
+A\A]A^]
 [A\A]A^A_]
 [A\A]]
 AUATI
@@ -342,7 +343,7 @@ AWAVAUATSH
 h[A\A]A^A_]
 tyHcW
 t$HcW
-AWAVAUATI
+AWAVAUI
 h[A\A]A^A_]
 4[f;D
 AUATSH
@@ -393,9 +394,8 @@ AWAVL
 [A\A]A^A_]
 AWAVL
 ([A\A]A^A_]
-t(L; u
-L;&t[H
-H;pXt6L
+L;&t;H
+H;p`tfL
 AWAVAUATSH
 [A\A]A^A_]
 [A\A]A^A_]
@@ -413,7 +413,7 @@ AWAVAUI
 AWAVAUATI
 [A\A]A^A_]
 (AVAUATI
-VUUUA
+VUUUH
 ~pIcD$
 [A\A]A^A_]
 AUATA
@@ -510,7 +510,7 @@ AVAUATI
 [A\A]A^]
 AVAUATSH
 [A\A]A^A_]
-AWAVAUATI
+AWAVAUATSH
 8[A\A]A^A_]
 &YA1L
 AVAUATSH
@@ -634,10 +634,8 @@ AWAVAUATSH
 fA	E(H
 [A\A]A^A_]
 [A\A]A^A_]
-[A\A]A^A_]
 lr?vI
-f	H(H
-[A\A]A^A_]
+ f	H(H
 AWAVL
 [A\A]A^A_]
 AWAVAUATSH
@@ -673,9 +671,6 @@ AVAUATSH
 E9gPI
 A;_p|
 [A\A]A^A_]
-AUATSH
-[A\A]]
-[A\A]]
 AVAUATI
 P[A\A]A^]
 [A\A]]
@@ -683,13 +678,15 @@ G8t%H
 [A\A]A^A_]
 [A\A]]
 AWAVI
-Cht7Lc{pD;
+Cit7Lc{pD;
 HcSPH
 [A\A]A^A_]
 AUATI
 [A\A]A^A_]
-[A\A]A^A_]
 AUATSH
+[A\A]]
+AUATSH
+[A\A]]
 [A\A]]
 [A\A]]
 [A\A]]
@@ -1162,11 +1159,18 @@ D+c$Mc
 D+c$Mc
 +S$Hc
 AVAUATSH
+F A+F
 [A\A]A^A_]
-D+s$Mc
-A+P$Hc
-A+p$Hc
-D+s$Mc
+E+n$Mc
+A+F$H
+A+V$I
+A+Q$Hc
+A+F$H
+F A+F
+A+q$Hc
+A+F$I
+A+F$H
+A+F$H
 AWAVAUATSH
 8[A\A]A^A_]
 8[A\A]A^A_]
@@ -1396,6 +1400,8 @@ AWAVAUI
 [A\A]A^A_]
 AWAVAUI
 [A\A]A^A_]
+AWAVAUI
+[A\A]A^A_]
 AUATL
 [A\A]]
 &YA1H
@@ -1505,9 +1511,6 @@ AUATSH
 AWAVE1
 AUATS1
 h[A\A]A^A_]
-AWAVAUATSH
-G8I;G@r
-[A\A]A^A_]
 AVATSH
 ~@XAT
 [A\A^]
@@ -1518,6 +1521,10 @@ AVATSH
 ~@XAT
 [A\A^]
 [A\A]]
+AWAVAUATSH
+G8I;G@r
+[A\A]A^A_]
+[A\A]A^A_]
 AUATSH
 [A\A]]
 [A\A]]
@@ -1716,9 +1723,9 @@ AWAVAUI
 AWAVAUATSH
 [A\A]A^A_]
 AWAVAUATSH
-HcBpH
+HcBhH
 [A\A]A^A_]
-HcGpUH
+HcGhUH
 [A\A]]
 AVAUH
  [A\A]A^]
@@ -1741,7 +1748,7 @@ AUATL
 AWAVH
 AUATSH
 H[A\A]A^A_]
-l$xE1
+l$pE1
 H[A\A]A^A_]
 AVAUATI
 C1[A\A]A^]
@@ -1776,14 +1783,12 @@ AWAVAUATI
 [A\A]A^A_]
 [A\A]]
 AVAUATSH
-tjLco 
-s ~LA
+s ~MA
 s8~DE
 [A\A]A^A_]
 HcKHIc
-ATSLcg H
-D;g0D
-C([A\]
+SHc_ ;_0
+D$([A\]
 [A\A]]
 AVAUI
 }CIc_
@@ -1957,9 +1962,9 @@ AWAVA
 ~1Lc}
 [A\A]A^A_]
 ([A\A]]
-[A\A]A^]
 AUATSH
 [A\A]]
+[A\A]A^]
 ([A\]
 [A\A]A^]
 AWAVL
@@ -1972,10 +1977,10 @@ AWAVI
 AWAVI
 [A\A]A^A_]
 AWAVAUI
-~+Lc}
+~7Lc}
 [A\A]A^A_]
 AWAVAUI
-~7Lc}
+~+Lc}
 [A\A]A^A_]
 AWAVAUD
 ([A\A]A^A_]
@@ -2026,8 +2031,8 @@ AWAVAUATSH
 ([A\A]A^A_]
 AWAVL
 [A\A]A^A_]
-AUATSH
-[A\A]]
+AVAUATSH
+[A\A]A^]
 [A\A]]
 AWAVAUA
 Lc'E)
@@ -2036,7 +2041,7 @@ Lc'E)
 AWAVA
 [A\A]A^A_]
 AWAVAUA
-~8Lcu
+~>Lcu
 [A\A]A^A_]
 AWAVAUD
 ([A\A]A^A_]
@@ -2125,8 +2130,9 @@ AUATSLc/E)
 [A\A]A^]
 AUATSH
 [A\A]A^A_]
-p[A\A]A^]
-p[A\A]A^]
+AVAULc
+ATSHc
+[A\A]A^A_]
 AVAUA
 [A\A]A^A_]
 [A\A]]
@@ -2401,13 +2407,7 @@ D$XH9
 D$pH9
 [A\A]A^A_]
 NHcK8Ic
-AVAUATL
-Lc{(E
-D$@H9
-D$XH9
-D$pH9
-[A\A]A^A_]
-bHcK8Ic
+[A\A]A^]
 AUATA
 [A\A]A^]
 [A\A]]
@@ -2715,6 +2715,10 @@ AWAVAUATI
 [A\A]A^A_]
 AWAVI
 x[A\A]A^A_]
+AUATI
+[A\A]]
+AVAUL
+ [A\A]A^]
 AVAUI
 A\A]A^]
 AWAVL
@@ -2722,10 +2726,6 @@ RESLH
 vmdlH
 X[A\A]A^A_]
 vmdlH
-AUATI
-[A\A]]
-AVAUL
- [A\A]A^]
 AWAVAUATI
 [A\A]A^A_]
 [A\A]A^A_]
@@ -3458,7 +3458,7 @@ AppendDrawCallMeshHelper
 12CSceneObject
 16ISceneObjectDesc
 5t~BC
-?MeshUtils001
+MeshUtils001
 PermModelData_t
 Stack depth limit hit (%d)
 AnimatableSceneObjectDesc
@@ -3478,6 +3478,7 @@ phys_data_block
 VModelError
 RESOURCE_TYPE_MODEL
 MeshSystem
+../public/tier1/utltshash.h
 ProjectedDecalSceneObjectDesc
 ../public/tier1/utlrbtree.h
 MeshSystem001
@@ -3536,11 +3537,11 @@ ZN37CTypesafeIntrospectedToKV3TypeManagerILy1818520950E15PermModelData_tE24Deall
 15CTier3AppSystemI11IMeshSystemLi0EE
 11CMeshSystem
 *ZN24CDecalDrawDataRefCounted7ReleaseEvEUlvE_
-Gg_hSkeletonMeshLayout
+g_hSkeletonMeshLayout
 GameStartup
 meshutils.cpp
 materials/tools/show_skeleton.vmat
-../public/scenesystem/memoryvertex.h(156): 
+../public/scenesystem/memoryvertex.h(160): 
 20CPostConnectCallback
 20CSceneSkeletonObject
 10IMeshUtils
@@ -3553,7 +3554,7 @@ materials/tools/show_skeleton.vmat
 46CInputLayoutRegistration_g_hSkeletonMeshLayout
 20ISceneObjectDescBaseI20CSceneSkeletonObjectE
 24CSceneSkeletonObjectDesc
-?bodygroup_driven_morph_list
+bodygroup_driven_morph_list
 bodygroup_name
 bodygroup_choice
 morph_name
@@ -3595,7 +3596,7 @@ NewNode
 18CRenderMeshManager
 12CRefCounted1I13IMeshRayTrace20CRefCountServiceBaseILb1E6CRefMTEE
 13CMeshRayTrace
-8CMorphSetData
+?CMorphSetData
 RESOURCE_TYPE_MORPHSET_INTERNAL
 N37CTypesafeIntrospectedToKV3TypeManagerILy440006569334E13CMorphSetDataE26IKV3ResourceAllocatorUtilsE
 ZN37CTypesafeIntrospectedToKV3TypeManagerILy440006569334E13CMorphSetDataE15AllocateAndLoadER23CKV3TransferLoadContextPK21ResourceBindingBase_tP29IRD_RegisterResourceDataUtilsE15CAllocatorUtils
@@ -3717,6 +3718,9 @@ FCVAR_NEVER_AS_STRING
 "%s" 
 %-120s - %s
 %-120s
+<deferred>
+<no deferred ref found>
+<unconnected>
 <null>
 client
 archive
@@ -3730,10 +3734,13 @@ ss_added
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
 Warning:  %s = '%s' is infinite, clamping value.
+Access of unconnected SplitScreenConVarRef
  [%.3f server clamped to %.3f]
 InstallChangeCallback called with NULL callback, ignoring!!!
 InstallChangeCallback ignoring duplicate change callback!!!
 ConVar(%s) defined with infinite float value (%s)
+Invalid access of deferred ConVarRef for '%s'
+Access of unconnected ConVarRef
 ConVarRef %s doesn't point to an existing ConVar
 7IConVar
 23IConCommandBaseAccessor
@@ -3741,7 +3748,7 @@ ConVarRef %s doesn't point to an existing ConVar
 10ConCommand
 6ConVar
 16CDefaultAccessor
-12CEmptyConVar
+18CPlaceholderConVar
 >mempool.cpp
 CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
 NewNode
@@ -3753,6 +3760,8 @@ utlstring.cpp
 %s: string format requested %d chars
 FormatV
 UPDATE_STRING_TOKEN_DATABASE
+utlsymbol.cpp
+../public/tier1/utlsymbol.h
 12CThreadEvent
 VApplication001
 interfaces.cpp
@@ -4292,6 +4301,9 @@ m_ForceGenerators
 m_bLocalSpace
 m_nControlPointNumber
 C_OP_RenderSprites
+C_OP_WorldTraceConstraint
+m_Constraints
+m_nCollisionMode
 C_OP_RenderModels
 m_bForceLoopingAnimation
 PARTICLE_SET_REPLACE_VALUE
@@ -4408,6 +4420,7 @@ vpcf22
 vpcf23
 vpcf24
 vpcf25
+vpcf26
 m_bOffsetExistingPos
 C_INIT_CreateOnModelAtHeight
 C_INIT_SetHitboxToClosest
@@ -4461,6 +4474,10 @@ C_INIT_RemapInitialCPDirectionToRotation
 C_OP_LockToSavedSequentialPath
 C_INIT_InheritFromParentParticles
 C_OP_InheritFromParentParticles
+COLLISION_MODE_USE_NEAREST_TRACE
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 m_nFirstMultipleOverride_BackwardCompat
@@ -4560,7 +4577,6 @@ POSITION
 F_ALPHA_TEST
 F_TRANSLUCENT
 F_MORPH_SUPPORTED
-Attribute counts between meshes is inconsistent
 Need valid position and texcoord when creating world space tangent lengths!
 Need valid position to calculate face centers!
 remapping vertex %d[w%d] invalid: %d->? >= %d
@@ -4627,6 +4643,7 @@ CTSQueue corruption
 ../public/tier2/fileutils.h
 %d tris
 %f %f %f %f %f %f %f %f %f
+raytrace.cpp
 ../public/tier0/tslist.h
 nTries < 10000000
 %.2f %.2f %.2f %.2f %.2f %.2f %.2f %.2f %.2f
@@ -4793,7 +4810,6 @@ m_bHasBakedLightingFromVertexStream
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingBasisInVertex
 m_bCanBatchWithDynamicShaderConstants
-m_bHasPerInstanceBakedLightingData
 NewNode
 NewNode
 ACTIVITY WEIGHTS
@@ -4823,6 +4839,7 @@ Particles.ControlPoints
 control_points_list
 Cables
 cables_list
+model_old_disk.cpp
 model_dump_convert_info
 @<NO EXPRESSION>
 %s + %s
@@ -5612,7 +5629,8 @@ physib
 ptestbed
 VertexColorPos_t
 phys_res
-@A  0x%08X %s,
+@Aphysaggregatedata.cpp
+  0x%08X %s,
  %llu aggs, %s total data
 Animated
 Simulated
