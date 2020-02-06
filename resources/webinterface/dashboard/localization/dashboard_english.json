@@ -41,5 +41,6 @@
   "App_Video_Settings": "Video Settings",
 
   "Desktop": "Desktop",
-  "Desktop_X": "Desktop %1$s"
+  "Desktop_X": "Desktop %1$s",
+  "Size": "Size"
 }

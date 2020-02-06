@@ -65,6 +65,12 @@
 	steamaudio_export(boolean) : "Export Steam Audio Geometry" : "No"
 ]
 
+@PointClass base( Targetname ) global( 3dskybox )= skybox_reference
+[
+	targetMapName(instance_file) : "Map Name"
+	fixupNames(boolean) : "Fixup Entity Names" : 0
+	worldGroupID(string) : "WorldGroupID" : "skyboxWorldGroup0"
+]
 
 @PointClass
 	iconsprite( "materials/editor/env_fog_controller.vmat" ) tags( Lighting )

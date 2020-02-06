@@ -134,7 +134,6 @@ particles/entity/env_explosion/explosion_smoke.vpcf_c CRC:00345e204e size:1490
 particles/error/error.vpcf_c CRC:0090fcbd65 size:860
 resource/keybindings_english.txt CRC:00e52d3f20 size:196
 resource/valve_english.txt CRC:0076ecc6b7 size:67536
-resource/vgui_english.txt CRC:007dc3dd1d size:17678
 resourcemanifests/addon_resources.vrman_c CRC:006af7e63b size:475
 scripts/soundmixers.txt CRC:001f203e8f size:36664
 scripts/soundscapes_manifest.txt CRC:0093c17218 size:61
