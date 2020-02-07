@@ -2107,7 +2107,7 @@
 "[english]MenuAction_ShowManageTrackers"	"Manage Vive Trackers"
 "Settings_BaseStation_BluetoothBusy"	"Esperando por Bluetooth..."
 "[english]Settings_BaseStation_BluetoothBusy"	"Waiting for Bluetooth..."
-"Settings_BaseStation_BluetoothRequired"	"Os recursos sem fio não estão disponíveis até que os serviços Bluetooth sejam ativados."
+"Settings_BaseStation_BluetoothRequired"	"Por favor, ative o Bluetooth para acessar recursos sem fio da estação-base, como gerenciamento de energia e atualizações."
 "[english]Settings_BaseStation_BluetoothRequired"	"Please enable Bluetooth to access wireless features such as base station power management and updates."
 "Settings_BaseStation_OpenSettingsBluetooth"	"Ver configurações de Bluetooth"
 "[english]Settings_BaseStation_OpenSettingsBluetooth"	"View Bluetooth Settings"

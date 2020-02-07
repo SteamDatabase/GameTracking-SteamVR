@@ -1203,7 +1203,7 @@ Invalid argument for SaveEXRImageToMemory
 Invalid argument. `memory` or `exr_header` argument is null in ParseEXRHeaderFromMemory()
 Invalid channels format
 Invalid compressed buffer size
-Invalid conversion : CString '%s' to bool
+Invalid conversion : string '%s' to bool
 Invalid data for member '%s'
 Invalid data found when decoding pixels.
 Invalid data height value

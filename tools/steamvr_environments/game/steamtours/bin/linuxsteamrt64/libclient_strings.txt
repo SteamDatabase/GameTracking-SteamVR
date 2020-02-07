@@ -9886,7 +9886,7 @@ Invalid color type/bit depth combination in IHDR
 Invalid component ID %d in SOS
 Invalid compressed buffer size
 Invalid control characters encountered in text.
-Invalid conversion : CString '%s' to bool
+Invalid conversion : string '%s' to bool
 Invalid crop request
 Invalid data for member '%s'
 Invalid data found when decoding pixels.

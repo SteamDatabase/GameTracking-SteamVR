@@ -7564,6 +7564,7 @@ DataDesc_AddComponentFieldUnserializer
 DataDesc_AddComponentProceduralKeys
 DataDesc_BuildComponentUnserializers
 DataDesc_ConvertTextDataToNewKeyValues
+DataDesc_UnserializeKey
 DataValid
 Dead end link: %s
 DeadEnd
@@ -9954,7 +9955,7 @@ Invalid attach type specified for particle_test in cvar 'particle_test_attach_mo
 Invalid blackbox type: %s
 Invalid compressed buffer size
 Invalid control characters encountered in text.
-Invalid conversion : CString '%s' to bool
+Invalid conversion : string '%s' to bool
 Invalid data for member '%s'
 Invalid data.
 Invalid directory size %d for %s
@@ -13234,6 +13235,7 @@ Starting tracking download of workshop item %llu for client %llu
 Starting tracking download of workshop item %llu for client %llu '%s' (%.2f)
 Starts/stops a timespan with an ever increasing name.
 Stat: %s,
+State: %s
 State: %s,
 State: Disabled
 State: Enabled
