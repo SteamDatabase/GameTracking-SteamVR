@@ -13,4 +13,3 @@ message TensorDescription {
 	optional .tensorflow.TensorShapeProto shape = 2;
 	optional .tensorflow.AllocationDescription allocation_description = 4;
 }
-

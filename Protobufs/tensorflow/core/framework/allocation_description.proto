@@ -12,4 +12,3 @@ message AllocationDescription {
 	optional bool has_single_reference = 5;
 	optional uint64 ptr = 6;
 }
-

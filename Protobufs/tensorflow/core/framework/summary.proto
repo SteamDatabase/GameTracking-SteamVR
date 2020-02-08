@@ -51,6 +51,7 @@ message Summary {
 		optional string node_name = 7;
 		optional string tag = 1;
 		optional .tensorflow.SummaryMetadata metadata = 9;
+
 		oneof value {
 			float simple_value = 2;
 			bytes obsolete_old_style_histogram = 3;
@@ -63,4 +64,3 @@ message Summary {
 
 	repeated .tensorflow.Summary.Value value = 1;
 }
-

@@ -29,4 +29,3 @@ message BundleEntryProto {
 	optional fixed32 crc32c = 6;
 	repeated .tensorflow.TensorSliceProto slices = 7;
 }
-

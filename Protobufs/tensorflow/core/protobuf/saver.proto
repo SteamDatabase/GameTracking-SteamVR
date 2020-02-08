@@ -19,4 +19,3 @@ message SaverDef {
 	optional float keep_checkpoint_every_n_hours = 6;
 	optional .tensorflow.SaverDef.CheckpointFormatVersion version = 7 [default = LEGACY];
 }
-

@@ -10,4 +10,3 @@ message ReaderBaseState {
 	optional int64 num_records_produced = 3;
 	optional bytes current_work = 4;
 }
-

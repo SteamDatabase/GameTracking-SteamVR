@@ -31,4 +31,3 @@ message RemoteFusedGraphExecuteInfo {
 	repeated .tensorflow.RemoteFusedGraphExecuteInfo.TensorShapeTypeProto default_graph_input_tensor_shape = 6;
 	repeated .tensorflow.RemoteFusedGraphExecuteInfo.TensorShapeTypeProto default_graph_output_tensor_shape = 7;
 }
-

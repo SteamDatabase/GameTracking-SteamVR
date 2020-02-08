@@ -33,4 +33,3 @@ message VariantTensorDataProto {
 	optional bytes metadata = 2;
 	repeated .tensorflow.TensorProto tensors = 3;
 }
-

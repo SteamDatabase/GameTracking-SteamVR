@@ -11,4 +11,3 @@ message ResourceHandleProto {
 	optional uint64 hash_code = 4;
 	optional string maybe_type_name = 5;
 }
-

@@ -108,4 +108,3 @@ message RunMetadata {
 	optional .tensorflow.CostGraphDef cost_graph = 2;
 	repeated .tensorflow.GraphDef partition_graphs = 3;
 }
-

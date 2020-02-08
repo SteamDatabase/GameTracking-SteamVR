@@ -1330,7 +1330,7 @@
 "[english]WorkshopUpload_Visibility"	"Visibility"
 "WorkshopUpload_Visibility_Public"	"Público"
 "[english]WorkshopUpload_Visibility_Public"	"Public"
-"WorkshopUpload_Visibility_FriendsOnly"	"Apenas amigos"
+"WorkshopUpload_Visibility_FriendsOnly"	"Só para amigos"
 "[english]WorkshopUpload_Visibility_FriendsOnly"	"Friends Only"
 "WorkshopUpload_Visibility_Private"	"Privado"
 "[english]WorkshopUpload_Visibility_Private"	"Private"

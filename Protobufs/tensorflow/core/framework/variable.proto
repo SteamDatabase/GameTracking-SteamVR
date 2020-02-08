@@ -19,4 +19,3 @@ message SaveSliceInfoDef {
 	repeated int64 var_offset = 3;
 	repeated int64 var_shape = 4;
 }
-

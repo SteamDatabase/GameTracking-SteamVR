@@ -28,4 +28,3 @@ message DebuggedSourceFile {
 message DebuggedSourceFiles {
 	repeated .tensorflow.DebuggedSourceFile source_files = 1;
 }
-

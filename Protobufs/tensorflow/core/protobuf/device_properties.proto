@@ -27,4 +27,3 @@ message NamedDevice {
 	optional string name = 1;
 	optional .tensorflow.DeviceProperties properties = 2;
 }
-

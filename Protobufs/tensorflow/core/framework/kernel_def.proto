@@ -18,4 +18,3 @@ message KernelDef {
 	repeated string host_memory_arg = 4;
 	optional string label = 5;
 }
-

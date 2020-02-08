@@ -36,4 +36,3 @@ message RewriterConfig {
 	optional .tensorflow.AutoParallelOptions auto_parallel = 5;
 	repeated string optimizers = 100;
 }
-

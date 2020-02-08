@@ -9,4 +9,3 @@ message VersionDef {
 	optional int32 min_consumer = 2;
 	repeated int32 bad_consumers = 3;
 }
-

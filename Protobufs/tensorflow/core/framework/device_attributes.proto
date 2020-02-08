@@ -16,4 +16,3 @@ message DeviceAttributes {
 	optional fixed64 incarnation = 6;
 	optional string physical_device_desc = 7;
 }
-

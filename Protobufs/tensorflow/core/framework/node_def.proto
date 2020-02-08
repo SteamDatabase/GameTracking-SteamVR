@@ -18,4 +18,3 @@ message NodeDef {
 	optional string device = 4;
 	repeated .tensorflow.NodeDef.AttrEntry attr = 5;
 }
-

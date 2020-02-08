@@ -10,4 +10,3 @@ message SavedModel {
 	optional int64 saved_model_schema_version = 1;
 	repeated .tensorflow.MetaGraphDef meta_graphs = 2;
 }
-

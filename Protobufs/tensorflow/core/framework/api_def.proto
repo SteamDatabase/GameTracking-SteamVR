@@ -48,4 +48,3 @@ message ApiDef {
 message ApiDefs {
 	repeated .tensorflow.ApiDef op = 1;
 }
-

@@ -10,4 +10,3 @@ message NamedTensorProto {
 	optional string name = 1;
 	optional .tensorflow.TensorProto tensor = 2;
 }
-

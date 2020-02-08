@@ -13,4 +13,3 @@ message QueueRunnerDef {
 	optional string cancel_op_name = 4;
 	repeated .tensorflow.error.Code queue_closed_exception_types = 5;
 }
-

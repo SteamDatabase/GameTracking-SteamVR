@@ -49,4 +49,3 @@ message OpDeprecation {
 message OpList {
 	repeated .tensorflow.OpDef op = 1;
 }
-

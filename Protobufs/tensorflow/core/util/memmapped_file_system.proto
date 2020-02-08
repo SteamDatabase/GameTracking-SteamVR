@@ -8,4 +8,3 @@ message MemmappedFileSystemDirectoryElement {
 message MemmappedFileSystemDirectory {
 	repeated .tensorflow.MemmappedFileSystemDirectoryElement element = 1;
 }
-

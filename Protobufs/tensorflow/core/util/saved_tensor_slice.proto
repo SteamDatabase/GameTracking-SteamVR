@@ -32,4 +32,3 @@ message SavedTensorSlices {
 	optional .tensorflow.SavedTensorSliceMeta meta = 1;
 	optional .tensorflow.SavedSlice data = 2;
 }
-

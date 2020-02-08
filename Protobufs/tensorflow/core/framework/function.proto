@@ -34,4 +34,3 @@ message GradientDef {
 	optional string function_name = 1;
 	optional string gradient_func = 2;
 }
-

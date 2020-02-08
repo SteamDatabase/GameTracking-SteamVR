@@ -58,4 +58,3 @@ message DeviceStepStats {
 message StepStats {
 	repeated .tensorflow.DeviceStepStats dev_stats = 1;
 }
-

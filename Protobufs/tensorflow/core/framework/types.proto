@@ -53,4 +53,3 @@ enum DataType {
 	DT_UINT32_REF = 122;
 	DT_UINT64_REF = 123;
 }
-

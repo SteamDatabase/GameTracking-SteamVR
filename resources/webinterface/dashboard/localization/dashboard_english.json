@@ -42,5 +42,8 @@
 
   "Desktop": "Desktop",
   "Desktop_X": "Desktop %1$s",
-  "Size": "Size"
+  "Size": "Size",
+
+  "Mute": "Mute",
+  "Unmute": "Unmute"
 }

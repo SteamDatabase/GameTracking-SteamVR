@@ -45,4 +45,3 @@ message FeatureLists {
 
 	repeated .tensorflow.FeatureLists.FeatureListEntry feature_list = 1;
 }
-

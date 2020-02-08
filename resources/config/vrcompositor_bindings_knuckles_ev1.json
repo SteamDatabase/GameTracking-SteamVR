@@ -341,6 +341,20 @@
 				}
 			},
 			{
+				"inputs" : {
+					"click" : {
+						"output" : "/actions/lasermouse/in/LockMousePosition"
+					}
+				},
+				"mode" : "button",
+				"parameters" : {
+					"click_activate_threshold" : "0.1",
+					"click_deactivate_threshold" : "0.05",
+					"haptic_amplitude" : "0"
+				},
+				"path" : "/user/hand/right/input/trigger"
+			},
+			{
 				"mode": "button",
 				"path": "/user/hand/right/input/a",
 				"inputs": {
@@ -396,6 +410,20 @@
 						"output": "/actions/lasermouse/in/LeftClick"
 					}
 				}
+			},
+			{
+				"inputs" : {
+					"click" : {
+						"output" : "/actions/lasermouse/in/LockMousePosition"
+					}
+				},
+				"mode" : "button",
+				"parameters" : {
+					"click_activate_threshold" : "0.1",
+					"click_deactivate_threshold" : "0.05",
+					"haptic_amplitude" : "0"
+				},
+				"path" : "/user/hand/left/input/trigger"
 			},
 			{
 				"mode": "button",

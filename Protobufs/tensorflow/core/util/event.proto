@@ -9,6 +9,7 @@ option java_multiple_files = true;
 message Event {
 	optional double wall_time = 1;
 	optional int64 step = 2;
+
 	oneof what {
 		string file_version = 3;
 		bytes graph_def = 4;
@@ -51,4 +52,3 @@ message TaggedRunMetadata {
 	optional string tag = 1;
 	optional bytes run_metadata = 2;
 }
-

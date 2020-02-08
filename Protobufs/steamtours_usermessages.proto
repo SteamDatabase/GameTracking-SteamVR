@@ -21,4 +21,3 @@ message CUserMessageItemsUnlocked {
 	optional uint64 steamid = 1;
 	repeated string itemdefids = 2;
 }
-

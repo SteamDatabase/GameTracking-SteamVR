@@ -37,4 +37,3 @@ message ExampleParserConfiguration {
 
 	repeated .tensorflow.ExampleParserConfiguration.FeatureMapEntry feature_map = 1;
 }
-

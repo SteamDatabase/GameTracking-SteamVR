@@ -35,4 +35,3 @@ message WhileContextDef {
 	optional .tensorflow.ValuesDef values_def = 9;
 	optional string maximum_iterations_name = 11;
 }
-

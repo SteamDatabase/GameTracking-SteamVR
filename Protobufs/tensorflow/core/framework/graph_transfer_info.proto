@@ -65,4 +65,3 @@ message GraphTransferInfo {
 	repeated .tensorflow.GraphTransferInfo.GraphOutputNodeInfo graph_output_node_info = 6;
 	optional .tensorflow.GraphTransferInfo.Destination destination = 7 [default = NOP];
 }
-

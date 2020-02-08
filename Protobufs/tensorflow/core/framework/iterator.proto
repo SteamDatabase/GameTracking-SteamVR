@@ -8,4 +8,3 @@ message IteratorStateMetadata {
 	optional string version = 1;
 	repeated string keys = 2;
 }
-

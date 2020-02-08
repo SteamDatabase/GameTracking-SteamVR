@@ -13,4 +13,3 @@ message TensorShapeProto {
 	repeated .tensorflow.TensorShapeProto.Dim dim = 2;
 	optional bool unknown_rank = 3;
 }
-

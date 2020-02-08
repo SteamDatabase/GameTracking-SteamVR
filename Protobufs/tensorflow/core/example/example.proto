@@ -14,4 +14,3 @@ message SequenceExample {
 	optional .tensorflow.Features context = 1;
 	optional .tensorflow.FeatureLists feature_lists = 2;
 }
-

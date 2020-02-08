@@ -17,4 +17,3 @@ message JobDef {
 message ClusterDef {
 	repeated .tensorflow.JobDef job = 1;
 }
-

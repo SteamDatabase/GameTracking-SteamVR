@@ -207,4 +207,3 @@ message CClientMsg_SetSkin {
 	optional uint32 ent_ehandle = 1;
 	optional uint32 skin_token = 2;
 }
-

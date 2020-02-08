@@ -90,8 +90,7 @@
 		"url": "/dashboard/keyboard.html",
 		"overlay_key": "system.keyboard",
 		"type": "overlay",
-		"pixel_size": [ 1920, 1080 ],
-		"setting": [ "dashboard", "useWebKeyboard" ]
+		"pixel_size": [ 1920, 1080 ]
 	},
 	"debugcommands_desktop": {
 		"url": "/dashboard/debugcommands.html",

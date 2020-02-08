@@ -78,6 +78,7 @@ message TensorInfo {
 
 	optional .tensorflow.DataType dtype = 2 [default = DT_INVALID];
 	optional .tensorflow.TensorShapeProto tensor_shape = 3;
+
 	oneof encoding {
 		string name = 1;
 		.tensorflow.TensorInfo.CooSparse coo_sparse = 4;
@@ -104,4 +105,3 @@ message AssetFileDef {
 	optional .tensorflow.TensorInfo tensor_info = 1;
 	optional string filename = 2;
 }
-

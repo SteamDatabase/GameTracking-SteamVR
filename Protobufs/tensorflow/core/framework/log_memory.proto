@@ -45,4 +45,3 @@ message MemoryLogRawDeallocation {
 	optional string allocator_name = 4;
 	optional bool deferred = 5;
 }
-

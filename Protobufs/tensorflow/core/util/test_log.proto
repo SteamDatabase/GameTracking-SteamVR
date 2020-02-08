@@ -40,6 +40,7 @@ message BuildConfiguration {
 message CommitId {
 	optional string snapshot = 3;
 	optional int64 pending_changelist = 4;
+
 	oneof kind {
 		int64 changelist = 1;
 		string hash = 2;
@@ -121,4 +122,3 @@ message TestResults {
 	optional .tensorflow.TestResults.BenchmarkType benchmark_type = 10 [default = UNKNOWN];
 	optional string run_mode = 11;
 }
-

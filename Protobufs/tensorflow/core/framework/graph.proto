@@ -14,4 +14,3 @@ message GraphDef {
 	optional int32 version = 3 [deprecated = true];
 	optional .tensorflow.FunctionDefLibrary library = 2;
 }
-
