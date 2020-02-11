@@ -1999,7 +1999,7 @@
 "[english]Settings_PerApplication_Header"	"Use these options to create unique settings per application"
 "Settings_PerApplication_AppResTitle"	"Resolução personalizada"
 "[english]Settings_PerApplication_AppResTitle"	"Custom Resolution"
-"Settings_PerApplication_AppResHeader"	"Esta configuração funciona como um multiplicador sobre a configuração de resolução global de aplicativos na aba Vídeo à direita. O aplicativo pode precisar ser reiniciado para as configurações serem aplicadas. (Padrão: 100%)"
+"Settings_PerApplication_AppResHeader"	"Esta configuração funciona como um multiplicador sobre a resolução do aplicativo (configurada na aba \"Vídeo\"). O aplicativo pode precisar ser reiniciado para as configurações serem aplicadas. (Padrão: 100%)"
 "[english]Settings_PerApplication_AppResHeader"	"This setting is a multiplier on top of your Video Application Resolution settings. This application may need to be restarted for settings to take effect. (Default is 100%)"
 "Settings_PerApplication_AppResFooter"	"A configuração atual renderiza uma imagem <font color=#eeeeee>%1x%2</font> para cada olho"
 "[english]Settings_PerApplication_AppResFooter"	"The current setting renders each eye at <font color=#eeeeee>%1x%2</font>"
