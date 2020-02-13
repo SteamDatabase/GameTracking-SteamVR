@@ -102,6 +102,7 @@
 		"VrDefaultShadowTextureWidth" "6144"
 		"VrDefaultShadowTextureHeight" "6144"
 		"Tonemapping" "0"
+		"CubemapFog" "1"
 	}
 
 	ToolsEnvironment

@@ -89,6 +89,21 @@
 	input Disable(void) : "Disable the fog."
 ]
 
+@PointClass base(Targetname, EnableDisable) tags( Lighting )
+	iconsprite( "materials/editor/env_cubemap_fog.vmat" ) 
+	cubemap_fog()
+= env_cubemap_fog  
+[
+	cubemapfogtexture(resource:texture) : "Cubemap Texture" : "materials/skybox/tests/src/light_test_sky_sunset.vtex"
+	cubemapfoglodbiase(float) : "Cubemap LOD (mip) Bias" : "0.5" : "Adjust how quickly the cubemap blurs out into the distance"
+	cubemapfogstartdistance(float) : "Fog Start Distance" : "0.0"
+	cubemapfogenddistance(float) : "Fog End Distance" : "6000.0"
+	cubemapfogfalloffexponent(float) : "Distance Falloff Exponent" : "2.0" : "Exponent for distance falloff. For example, 2.0 = proportional to square of distance"
+	cubemapfogheightwidth(float) : "Height Fog Width" : "0.0"
+	cubemapfogheightstart(float) : "Height Fog Start" : "2000.0"
+	cubemapfogheightexponent(float) : "Height Fog Exponent" : "2.0"
+]
+
 @OverrideClass = env_combined_light_probe_volume
 [
 	voxel_size(choices) : "Voxel Size" : "12.0" : "" = 

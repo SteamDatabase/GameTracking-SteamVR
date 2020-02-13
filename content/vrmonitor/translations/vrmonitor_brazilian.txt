@@ -2553,7 +2553,7 @@
 "[english]Settings_PerApplication_Reprojection_Header"	"Reprojection"
 "Settings_PerApplication_Reprojection_Checkbox"	"Usar modo de reprojeção antigo"
 "[english]Settings_PerApplication_Reprojection_Checkbox"	"Use legacy reprojection mode"
-"Settings_PerApplication_Reprojection_Description"	"Marcar essa opção irá desabilitar a reprojeção assíncrona para este título."
+"Settings_PerApplication_Reprojection_Description"	"Assinalar essa opção desativará a reprojeção assíncrona para este título."
 "[english]Settings_PerApplication_Reprojection_Description"	"Checking this option will disable asynchronous reprojection for this title."
 "FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected"	"Uma conexão USB inesperada está prevenindo a atualização sem fio da estação-base.<br><br><font color=#aaaa00>Por favor, desconecte o cabo USB que está conectado à estação-base.</font>"
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected"	"An unexpected USB connection to the Base Station is preventing the wireless update.<br><br><font color=#aaaa00>Please unplug the USB cable that is plugged into the Base Station.</font>"

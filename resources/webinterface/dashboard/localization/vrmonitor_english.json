@@ -257,9 +257,13 @@
 	"Settings_Dashboard_ShowProgressIndicator" : "Long-press progress indicator",
 	"Settings_Dashboard_Position" : "Dashboard Position",
 	"Settings_Classic" : "Classic",
-	"Settings_Near" : "Near (beta)",
+	"Settings_Near" : "Near",
+	"Settings_Middle" : "Middle",
 	"Settings_DesktopScale" : "Desktop Scale",
 	"Settings_DashboardScale" : "Dashboard Scale",
+	"Settings_DesktopDarkMode" : "Desktop Dark Mode",
+	"Settings_ToggleDarkMode" : "Toggle Dark Mode",
+	"Settings_Dark" : "Dark",
 
 	"SettingsTime_5s": "5 Seconds",
 	"SettingsTime_30s": "30 Seconds",
@@ -318,6 +322,9 @@
 
 	"Settings_MustRestart_Description": "SteamVR must be restarted for some changes to take effect.",
 	"Settings_MustRestart_RestartSteamVR_Button": "Restart SteamVR",
+
+	"Settings_MustQuitApp_Description": "Please quit the current game for changes to take effect.",
+	"Settings_MustQuitApp_QuitCurrentGame_Button": "Quit Game",
 
 	"Settings_NotSupported": "Not Supported",
 

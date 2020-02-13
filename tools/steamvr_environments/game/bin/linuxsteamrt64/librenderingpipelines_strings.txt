@@ -710,7 +710,6 @@ Linear
 LoadKV3ObjectInPlace error: %s
 Localize_001
 LockDynamicConstantBuffer failed in CreatePerViewConstantBuffer!!!
-LockDynamicConstantBuffer failed in SetupConstantBufferForCoreGradientFog!!!
 LoggingSystem_IsChannelEnabled
 LoggingSystem_Log
 LoggingSystem_Log(int, LoggingSeverity_t, Color, char const*, ...)
@@ -963,7 +962,6 @@ SequenceMarkup
 SequenceMarkupList
 SerializedEntitiesVersion001
 ServerUploadGameStats001
-SetupConstantBufferForCoreGradientFog
 ShadowVisLayer
 Simulated
 SkeletonBoneBounds_t
