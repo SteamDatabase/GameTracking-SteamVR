@@ -9,6 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Energiemenü anzeigen",
 	"/actions/lasermouse/in/leftclick": "Linker Mausklick",
 	"/actions/lasermouse/in/rightclick": "Rechter Mausklick",
+	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "Zur Startseite",
 	"/actions/lasermouse/in/back": "Zurück",
 	"/actions/lasermouse/in/moveright": "Nach rechts bewegen",

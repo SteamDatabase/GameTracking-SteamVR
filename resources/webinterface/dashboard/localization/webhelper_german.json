@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Anwendung beenden",
 	"PowerMenuExitVR": "VR verlassen",
 	"PowerMenuCancel": "Abbrechen",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Energiemenü",
 	"IPD_Description": "Abstand zwischen Linsen",
 	"NoSteamWarning": "Steam ist nicht verfügbar. Einige Funktionen könnten deaktiviert sein.",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Fertig",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

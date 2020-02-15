@@ -14,12 +14,13 @@
 	"Button_Next": "Volgende",
 	"Button_Retry": "Opnieuw proberen",
 	"Settings": "Instellingen",
-	"PowerMenuResetSeatedPosition": "Zitpositie terugzetten",
-	"PowerMenuTurnOffController": "Controller uitschakelen",
+	"PowerMenuResetSeatedPosition": "Zitpositie herstellen",
+	"PowerMenuTurnOffController": "Controller uit",
 	"PowerMenuQuitSceneApp": "%1$s afsluiten",
 	"PowerMenuQuitSceneApp_NoApp": "App afsluiten",
 	"PowerMenuExitVR": "VR afsluiten",
 	"PowerMenuCancel": "Annuleren",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Energiemenu",
 	"IPD_Description": "Afstand tussen lenzen",
 	"NoSteamWarning": "Steam is niet beschikbaar. Sommige functies kunnen uitgeschakeld zijn.",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Gereed",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

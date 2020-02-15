@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Afslut app",
 	"PowerMenuExitVR": "Afslut VR",
 	"PowerMenuCancel": "Annuller",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Strømstyringsmenu",
 	"IPD_Description": "Afstand mellem linser",
 	"NoSteamWarning": "Steam er ikke tilgængelig. Nogle funktioner kan være deaktiveret.",
@@ -48,7 +49,7 @@
 	"/user/hand/primary": "Primær hånd",
 	"/user/hand/secondary": "Den anden hånd",
 	"/user/hand/any": "Vilkårlig hånd",
-	"/user/stylus": "Stylus",
+	"/user/stylus": "Pen",
 	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Venstre fod",
 	"/user/foot/right": "Højre fod",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Færdig",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

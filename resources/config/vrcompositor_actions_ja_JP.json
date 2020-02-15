@@ -9,6 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "電源メニューを表示",
 	"/actions/lasermouse/in/leftclick": "マウスの左クリック",
 	"/actions/lasermouse/in/rightclick": "マウスの右クリック",
+	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "ホームに戻る",
 	"/actions/lasermouse/in/back": "戻る",
 	"/actions/lasermouse/in/moveright": "右に移動",

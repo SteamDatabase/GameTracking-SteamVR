@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Exit App",
 	"PowerMenuExitVR": "Avsluta VR",
 	"PowerMenuCancel": "Avbryt",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Strömmeny",
 	"IPD_Description": "Avstånd mellan linser",
 	"NoSteamWarning": "Steam är inte tillgängligt. Vissa funktioner kan vara inaktiverade.",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Klar",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

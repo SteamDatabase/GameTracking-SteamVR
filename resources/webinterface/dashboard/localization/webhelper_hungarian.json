@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Kilépés az alkalmazásból",
 	"PowerMenuExitVR": "Kilépés a VR-ből",
 	"PowerMenuCancel": "Mégse",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Energia menü",
 	"IPD_Description": "Lencsék közti távolság",
 	"NoSteamWarning": "A Steam nem elérhető. Egyes funkció ki lehetnek kapcsolva.",
@@ -48,7 +49,7 @@
 	"/user/hand/primary": "Fő kéz",
 	"/user/hand/secondary": "Másik kéz",
 	"/user/hand/any": "Bármelyik kéz",
-	"/user/stylus": "Stylus",
+	"/user/stylus": "Érintőceruza",
 	"/user/gamepad": "Gamepad",
 	"/user/foot/left": "Bal láb",
 	"/user/foot/right": "Jobb láb",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Kész",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

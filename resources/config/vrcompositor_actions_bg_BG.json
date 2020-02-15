@@ -9,6 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Показване на менюто за захранване",
 	"/actions/lasermouse/in/leftclick": "Ляв клик с мишка",
 	"/actions/lasermouse/in/rightclick": "Десен клик с мишка",
+	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "Към началото",
 	"/actions/lasermouse/in/back": "Назад",
 	"/actions/lasermouse/in/moveright": "Надясно",

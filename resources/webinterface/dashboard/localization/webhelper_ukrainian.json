@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Вийти із застосунку",
 	"PowerMenuExitVR": "Вийти з ВР",
 	"PowerMenuCancel": "Скасувати",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Меню живлення",
 	"IPD_Description": "Відстань між лінзами",
 	"NoSteamWarning": "Steam недоступний. Деякі функції можуть не працювати.",
@@ -48,8 +49,8 @@
 	"/user/hand/primary": "Основна рука",
 	"/user/hand/secondary": "Інша рука",
 	"/user/hand/any": "Будь-яка рука",
-	"/user/stylus": "Stylus",
-	"/user/gamepad": "Gamepad",
+	"/user/stylus": "Стилус",
+	"/user/gamepad": "Ґеймпад",
 	"/user/foot/left": "Ліва нога",
 	"/user/foot/right": "Права нога",
 	"/user/shoulder/left": "Ліве плече",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Готово",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

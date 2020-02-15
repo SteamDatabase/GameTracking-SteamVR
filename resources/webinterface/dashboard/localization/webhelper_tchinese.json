@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "結束應用程式",
 	"PowerMenuExitVR": "結束 VR",
 	"PowerMenuCancel": "取消",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "電源選單",
 	"IPD_Description": "鏡片間距",
 	"NoSteamWarning": "Steam 無法使用，部分功能可能會受到停用。",
@@ -48,8 +49,8 @@
 	"/user/hand/primary": "主用手",
 	"/user/hand/secondary": "另一隻手",
 	"/user/hand/any": "任一隻手",
-	"/user/stylus": "Stylus",
-	"/user/gamepad": "Gamepad",
+	"/user/stylus": "觸控筆",
+	"/user/gamepad": "遊戲手把",
 	"/user/foot/left": "左腳",
 	"/user/foot/right": "右腳",
 	"/user/shoulder/left": "左肩",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "完成",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

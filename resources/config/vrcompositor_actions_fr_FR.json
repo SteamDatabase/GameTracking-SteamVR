@@ -9,6 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Afficher le menu d'allumage",
 	"/actions/lasermouse/in/leftclick": "Clic gauche (souris)",
 	"/actions/lasermouse/in/rightclick": "Clic droit (souris)",
+	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "Retourner à l'accueil",
 	"/actions/lasermouse/in/back": "Retour",
 	"/actions/lasermouse/in/moveright": "Déplacer vers la droite",

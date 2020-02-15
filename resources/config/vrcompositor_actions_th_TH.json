@@ -9,6 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "แสดงเมนูการเปิดทำงาน",
 	"/actions/lasermouse/in/leftclick": "คลิกเมาส์ซ้าย",
 	"/actions/lasermouse/in/rightclick": "คลิกเมาส์ขวา",
+	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "ไปยังหน้าหลัก",
 	"/actions/lasermouse/in/back": "ย้อนกลับ",
 	"/actions/lasermouse/in/moveright": "เลื่อนขวา",

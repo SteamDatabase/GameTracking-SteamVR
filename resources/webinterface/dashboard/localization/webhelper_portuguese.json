@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Sair da aplicação",
 	"PowerMenuExitVR": "Sair da R.V.",
 	"PowerMenuCancel": "Cancelar",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Menu de energia",
 	"IPD_Description": "Distância entre as lentes",
 	"NoSteamWarning": "Steam indisponível. Algumas funcionalidades podem estar desativadas.",
@@ -49,7 +50,7 @@
 	"/user/hand/secondary": "Mão secundária",
 	"/user/hand/any": "Qualquer mão",
 	"/user/stylus": "Stylus",
-	"/user/gamepad": "Gamepad",
+	"/user/gamepad": "Comando",
 	"/user/foot/left": "Pé esquerdo",
 	"/user/foot/right": "Pé direito",
 	"/user/shoulder/left": "Ombro esquerdo",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "OK",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

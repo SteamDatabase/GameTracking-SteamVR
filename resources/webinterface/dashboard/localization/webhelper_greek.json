@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Έξοδος",
 	"PowerMenuExitVR": "Έξοδος από VR",
 	"PowerMenuCancel": "Άκυρο",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Μενού ενέργειας",
 	"IPD_Description": "Απόσταση μεταξύ φακών",
 	"NoSteamWarning": "Το Steam δεν είναι διαθέσιμο. Μερικά χαρακτηριστικά μπορεί να έχουν απενεργοποιηθεί.",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Ολοκληρώθηκε",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

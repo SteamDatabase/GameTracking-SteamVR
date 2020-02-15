@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Выйти из приложения",
 	"PowerMenuExitVR": "Выйти из VR",
 	"PowerMenuCancel": "Отменить",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Меню управления питанием",
 	"IPD_Description": "Расстояние между линзами",
 	"NoSteamWarning": "Steam недоступен. Некоторые функции могут быть отключены.",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Готово",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Ukončit aplikaci",
 	"PowerMenuExitVR": "Ukončit VR",
 	"PowerMenuCancel": "Zrušit",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Nabídka napájení",
 	"IPD_Description": "Vzdálenost mezi čočkami",
 	"NoSteamWarning": "Služba Steam není dostupná, v důsledku čehož mohou být zakázány některé funkce.",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Hotovo",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

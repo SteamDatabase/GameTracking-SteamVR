@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Uygulamadan Çık",
 	"PowerMenuExitVR": "VR'dan Çık",
 	"PowerMenuCancel": "İptal",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Güç Menüsü",
 	"IPD_Description": "Lensler Arası Mesafe",
 	"NoSteamWarning": "Steam kullanılamıyor. Bazı özellikler devre dışı olabilir.",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Tamam",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

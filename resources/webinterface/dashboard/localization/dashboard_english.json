@@ -41,8 +41,16 @@
 
   "Desktop": "Desktop",
   "Desktop_X": "Desktop %1$s",
+  "ShowKeyboardLabel": "Keyboard",
+  "ShowKeyboardTooltip": "Show Keyboard",
+  "HideKeyboardTooltip": "Hide Keyboard",
   "Size": "Size",
 
   "Mute": "Mute",
-  "Unmute": "Unmute"
+  "Unmute": "Unmute",
+
+  "WelcomeHeader": "No Games?",
+  "WelcomeMessage": "Building a VR library that comes with you as your hardware changes has never been easier.",
+  "WelcomeBrowseStore": "Browse the Store",
+  "WelcomeInstall": "Install Games"
 }

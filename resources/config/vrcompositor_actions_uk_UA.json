@@ -9,6 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Показати меню живлення",
 	"/actions/lasermouse/in/leftclick": "Ліва кнопка миші",
 	"/actions/lasermouse/in/rightclick": "Права кнопка миші",
+	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "На домівку",
 	"/actions/lasermouse/in/back": "Назад",
 	"/actions/lasermouse/in/moveright": "Рух праворуч",

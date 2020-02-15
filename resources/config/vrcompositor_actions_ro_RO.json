@@ -9,6 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Arată meniul de alimentare",
 	"/actions/lasermouse/in/leftclick": "Clic stânga (mouse)",
 	"/actions/lasermouse/in/rightclick": "Clic dreapta (mouse)",
+	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "Mergi către pagina principală",
 	"/actions/lasermouse/in/back": "Mergi înapoi",
 	"/actions/lasermouse/in/moveright": "Mișcă la dreapta",

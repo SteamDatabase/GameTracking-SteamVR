@@ -9,6 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Pokaż menu zasilania",
 	"/actions/lasermouse/in/leftclick": "Kliknięcie lewym przyciskiem myszy",
 	"/actions/lasermouse/in/rightclick": "Kliknięcie prawym przyciskiem myszy",
+	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "Powrót do strony głównej",
 	"/actions/lasermouse/in/back": "Powrót",
 	"/actions/lasermouse/in/moveright": "Ruch w prawo",

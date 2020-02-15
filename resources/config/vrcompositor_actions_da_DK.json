@@ -9,6 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Vis strømstyringsmenu",
 	"/actions/lasermouse/in/leftclick": "Venstre museklik",
 	"/actions/lasermouse/in/rightclick": "Højre museklik",
+	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
 	"/actions/lasermouse/in/home": "Gå til startside",
 	"/actions/lasermouse/in/back": "Gå tilbage",
 	"/actions/lasermouse/in/moveright": "Flyt til højre",

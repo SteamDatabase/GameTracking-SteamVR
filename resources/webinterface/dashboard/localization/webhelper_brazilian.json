@@ -20,6 +20,7 @@
 	"PowerMenuQuitSceneApp_NoApp": "Sair do aplicativo",
 	"PowerMenuExitVR": "Sair da RV",
 	"PowerMenuCancel": "Cancelar",
+	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Menu de inicialização",
 	"IPD_Description": "Distância entre as lentes",
 	"NoSteamWarning": "O Steam não está disponível no momento. Alguns recursos podem estar desativados.",
@@ -67,5 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "OK",
+	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }
