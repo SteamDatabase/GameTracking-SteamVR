@@ -2595,7 +2595,6 @@ SetRepeatedUInt64
 SetString
 SetUInt32
 SetUInt64
-SetupLightingForViewVr
 ShadowMap "
 Shadowed spot lights in view: %d
 Should not reach here.
@@ -2654,6 +2653,7 @@ Stencil bit allocation failed
 Stencil bit dependency satisfied (bit %d)
 Stencil dependency layer : %s
 StencilReflection
+Strength of mixed shadows for testing
 String field
 String literals cannot cross line boundaries.
 StringOutputStream.
@@ -4704,6 +4704,7 @@ vr_single_light_fast_path_sun_cascade_0_texels_per_world
 vr_single_light_fast_path_sun_cascade_1_texels_per_world
 vr_single_light_fast_path_sun_size_cull_threshold
 vr_spectator_remove_roll_halflife
+vr_test_shadow_strength
 vr_unlit_shadow_color
 vsnap
 vtable for __cxxabiv1::__class_type_info

@@ -128,6 +128,9 @@
 	"Settings_LockedModeDesc": "Allow rendering to headset while computer is locked.",
 	"Settings_PauseOnStandby": "Pause VR when headset is idle",
 	"Settings_PauseOnLocked": "Pause VR when computer is locked",
+	"Settings_OverlayRenderQuality": "Overlay Render Quality",
+	"Settings_High": "High",
+	"Settings_Low": "Low",
 
 	"Settings_MediumSpace": "Medium Space",
 	"Settings_NightModeCheck": "Night Mode",

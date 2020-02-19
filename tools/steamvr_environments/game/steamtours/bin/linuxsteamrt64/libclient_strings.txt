@@ -3790,6 +3790,7 @@ $tK
 @&LH
 @@
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcDifferentialTrys.cpp
+@@CBodyComponentReferenced
 @A
 @C
 @keyframes
