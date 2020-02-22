@@ -3,8 +3,8 @@ shaders/vfx/deferred_shading_vulkan_50_features.vcs CRC:00119166fd size:4299
 shaders/vfx/deferred_shading_vulkan_50_ps.vcs CRC:000ada77f8 size:4283
 shaders/vfx/deferred_shading_vulkan_50_vs.vcs CRC:00e07342cf size:5671
 shaders/vfx/generic.ini CRC:0000000000 size:0
-shaders/vfx/generic_vulkan_50_features.vcs CRC:009f6b7b25 size:43566
-shaders/vfx/generic_vulkan_50_ps.vcs CRC:00af81c0ce size:1094344
+shaders/vfx/generic_vulkan_50_features.vcs CRC:009e40a18d size:43566
+shaders/vfx/generic_vulkan_50_ps.vcs CRC:007c21cf01 size:1095059
 shaders/vfx/generic_vulkan_50_vs.vcs CRC:002a7f7900 size:386938
 shaders/vfx/gradient_aa_lines.ini CRC:0000000000 size:0
 shaders/vfx/gradient_aa_lines_vulkan_50_features.vcs CRC:0080434437 size:16946
@@ -23,12 +23,12 @@ shaders/vfx/vr_depth_only_vulkan_50_features.vcs CRC:003ea4a624 size:18665
 shaders/vfx/vr_depth_only_vulkan_50_ps.vcs CRC:00393ea527 size:7601
 shaders/vfx/vr_depth_only_vulkan_50_vs.vcs CRC:0021697a7f size:89341
 shaders/vfx/vr_simple.ini CRC:0000000000 size:0
-shaders/vfx/vr_simple_vulkan_50_features.vcs CRC:00ca0557f4 size:62776
-shaders/vfx/vr_simple_vulkan_50_ps.vcs CRC:007e64c52d size:1993416
+shaders/vfx/vr_simple_vulkan_50_features.vcs CRC:0002f5a92b size:62776
+shaders/vfx/vr_simple_vulkan_50_ps.vcs CRC:00759f21fa size:1993874
 shaders/vfx/vr_simple_vulkan_50_vs.vcs CRC:00a79a0d08 size:837883
 shaders/vfx/vr_standard.ini CRC:0000000000 size:0
-shaders/vfx/vr_standard_vulkan_50_features.vcs CRC:0021665ec1 size:119801
-shaders/vfx/vr_standard_vulkan_50_ps.vcs CRC:00db559ddf size:148296471
+shaders/vfx/vr_standard_vulkan_50_features.vcs CRC:005c2bc96b size:119801
+shaders/vfx/vr_standard_vulkan_50_ps.vcs CRC:0078874a60 size:148357626
 shaders/vfx/vr_standard_vulkan_50_vs.vcs CRC:00fa3979c9 size:15999539
 shaders/vfx/vr_unlit.ini CRC:0000000000 size:0
 shaders/vfx/vr_unlit_vulkan_50_features.vcs CRC:00cbaa1785 size:26031

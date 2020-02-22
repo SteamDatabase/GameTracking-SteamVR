@@ -74,6 +74,16 @@
          ]
       },
       "/actions/lasermouse" : {
+         "haptics" : [
+            {
+               "output" : "/actions/lasermouse/out/haptic",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/lasermouse/out/haptic",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
          "poses" : [
             {
                "output" : "/actions/lasermouse/in/Pointer",
