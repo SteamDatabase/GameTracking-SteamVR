@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Energia menü mutatása",
 	"/actions/lasermouse/in/leftclick": "Bal egérgomb kattintás",
 	"/actions/lasermouse/in/rightclick": "Jobb egérgomb kattintás",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "Egérpozíció rögzítése",
 	"/actions/lasermouse/in/home": "Kezdőoldalra",
 	"/actions/lasermouse/in/back": "Vissza",
 	"/actions/lasermouse/in/moveright": "Mozgás jobbra",

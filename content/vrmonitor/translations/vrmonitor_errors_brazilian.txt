@@ -239,7 +239,7 @@
 "[english]VRInitError_Driver_RuntimeOutOfDate_Action"	"Visit oculus.com"
 "VRInitError_Driver_HmdInUse_Header"	"Erro do SteamVR"
 "[english]VRInitError_Driver_HmdInUse_Header"	"SteamVR Error"
-"VRInitError_Driver_HmdInUse_Description"	"O headset está em uso por outro aplicativo. Por favor, feche tal aplicativo e tente novamente."
+"VRInitError_Driver_HmdInUse_Description"	"O headset está em uso por outro aplicativo. Feche o aplicativo e tente novamente."
 "[english]VRInitError_Driver_HmdInUse_Description"	"Your headset is being used by another application. Please quit that app, then try again."
 "VRInitError_Driver_HmdInUse_Action"	"Tentar novamente"
 "[english]VRInitError_Driver_HmdInUse_Action"	"Try again"

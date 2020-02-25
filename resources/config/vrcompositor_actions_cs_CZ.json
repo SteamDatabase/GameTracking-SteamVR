@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Nabídka napájení",
 	"/actions/lasermouse/in/leftclick": "Levé tlačítko myši",
 	"/actions/lasermouse/in/rightclick": "Pravé tlačítko myši",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "Uzamknout pozici myši",
 	"/actions/lasermouse/in/home": "Domů",
 	"/actions/lasermouse/in/back": "Zpět",
 	"/actions/lasermouse/in/moveright": "Pohyb doprava",

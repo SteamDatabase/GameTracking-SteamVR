@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Mostrar menu de inicialização",
 	"/actions/lasermouse/in/leftclick": "Clique esquerdo do mouse",
 	"/actions/lasermouse/in/rightclick": "Clique direito do mouse",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "Bloquear posição do mouse",
 	"/actions/lasermouse/in/home": "Início",
 	"/actions/lasermouse/in/back": "Voltar",
 	"/actions/lasermouse/in/moveright": "Mover para direita",

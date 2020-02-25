@@ -454,7 +454,7 @@ sounds/props/beachball_impact_03.vsnd_c CRC:004b011f58 size:25192
 sounds/props/cube_impact_01.vsnd_c CRC:00bca411f8 size:27074
 sounds/props/default_impact_02.vsnd_c CRC:00f8d61c09 size:23088
 sounds/props/toy_soldier_impact_01.vsnd_c CRC:0026699638 size:14392
-soundstacks/mixgraph.vmix_c CRC:00841c553a size:6505
+soundstacks/mixgraph.vmix_c CRC:000b6e8ab8 size:20038
 soundstacks/soundstacks_destinations.vsndstck_c CRC:002bcf2f63 size:68024
 soundstacks/soundstacks_manifest.vrman_c CRC:00ae474b76 size:973
 surfaceproperties/surfaceproperties.vsurf_c CRC:00980540ec size:6954

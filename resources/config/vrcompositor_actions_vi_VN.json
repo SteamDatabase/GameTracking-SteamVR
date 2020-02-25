@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Hiện trình đơn điện năng",
 	"/actions/lasermouse/in/leftclick": "Nhấp chuột trái",
 	"/actions/lasermouse/in/rightclick": "Nhấp chuột phải",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "Khóa vị trí chuột",
 	"/actions/lasermouse/in/home": "Về trang chủ",
 	"/actions/lasermouse/in/back": "Quay lại",
 	"/actions/lasermouse/in/moveright": "Qua phải",
