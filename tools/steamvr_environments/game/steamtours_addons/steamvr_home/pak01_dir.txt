@@ -1,4 +1,4 @@
-maps/steamvr_home.vpk CRC:00791e6502 size:25873143
+maps/steamvr_home.vpk CRC:00a4e6b38b size:42869875
 maps/steamvr_home_baked/env_cubemap_4238.vtex_c CRC:00a59555da size:8389496
 maps/steamvr_home_baked/env_cubemap_4239.vtex_c CRC:00aa93f453 size:8389496
 maps/steamvr_home_baked/env_light_probe_volume_4238.vtex_c CRC:00f7b207c4 size:65560

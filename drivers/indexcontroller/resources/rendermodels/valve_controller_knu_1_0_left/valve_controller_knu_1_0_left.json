@@ -50,9 +50,6 @@
                 "component_path" : "/input/trackpad",
                 "center": [0.004356, 0.002397, 0.050816],
                 "rotate_xyz": [-24.308, -10.499, 6.363],
-                "press_rotation_x": [7,-7],
-                "press_rotation_y": [4,-4],
-                "press_translate": [0.0, -0.002, 0.0],
                 "touch_translate_x": [ -0.009, 0.009 ],
                 "touch_translate_y": [ 0.015, -0.015 ]
             },
