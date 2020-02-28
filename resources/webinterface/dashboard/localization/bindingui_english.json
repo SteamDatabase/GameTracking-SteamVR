@@ -328,6 +328,7 @@
   "BindingUI_EditPageTitle": "Editing %1$s",
   "BindingUI_ViewPageTitle": "Viewing %1$s",
   "BindingUI_PageSubTitle": "%3$s For %1$s in %2$s",
+  "BindingUI_PageSubTitle_WithVariant": "%3$s For %1$s (%4$s) in %2$s",
 
   "BindingUI_BindingType_autosave": "Local changes",
   "BindingUI_BindingType_personal": "Personal binding",
@@ -335,6 +336,8 @@
   "BindingUI_BindingType_developer_legacy": "Legacy defaults",
   "BindingUI_BindingType_local_file": "Local binding",
   "BindingUI_BindingType_public": "Public binding",
+
+  "BindingVariant_singlecontroller": "Single Controller",
 
   "BindingUI_List_CurrentSection": "Current Binding",
   "BindingUI_List_DeveloperSection": "Official Bindings",

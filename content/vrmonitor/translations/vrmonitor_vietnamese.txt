@@ -1082,7 +1082,7 @@
 "[english]MenuAction_ForceFirmware"	"Force Firmware"
 "MenuAction_DirectMode"	"Chế độ hiển thị trực tiếp"
 "[english]MenuAction_DirectMode"	"Direct Display Mode"
-"MenuAction_EnableDirectMode"	"Bật chế độ hiển thị trực tiếp"
+"MenuAction_EnableDirectMode"	"Bật hiển thị trực tiếp"
 "[english]MenuAction_EnableDirectMode"	"Enable Direct Display Mode"
 "MenuAction_DisableDirectMode"	"Tắt chế độ hiển thị trực tiếp"
 "[english]MenuAction_DisableDirectMode"	"Disable Direct Display Mode"
