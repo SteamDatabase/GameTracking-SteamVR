@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "显示电源菜单",
 	"/actions/lasermouse/in/leftclick": "左鼠标点击",
 	"/actions/lasermouse/in/rightclick": "右鼠标点击",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "锁定鼠标位置",
 	"/actions/lasermouse/in/home": "返回主页",
 	"/actions/lasermouse/in/back": "返回",
 	"/actions/lasermouse/in/moveright": "向右移动",

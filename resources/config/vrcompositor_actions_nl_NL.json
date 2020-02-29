@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Aan/uit",
 	"/actions/lasermouse/in/leftclick": "Linkermuisklik",
 	"/actions/lasermouse/in/rightclick": "Rechtermuisklik",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "Muispositie vergrendelen",
 	"/actions/lasermouse/in/home": "Startpagina",
 	"/actions/lasermouse/in/back": "Terug",
 	"/actions/lasermouse/in/moveright": "Naar rechts",

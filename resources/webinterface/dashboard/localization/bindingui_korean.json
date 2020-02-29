@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "레거시 기본 바인딩",
   "BindingUI_BindingType_local_file": "로컬 바인딩",
   "BindingUI_BindingType_public": "공개 바인딩",
-  "BindingVariant_onehanded": "One Handed",
+  "BindingVariant_singlecontroller": "Single Controller",
   "BindingUI_List_CurrentSection": "현재 바인딩",
   "BindingUI_List_DeveloperSection": "공식 바인딩",
   "BindingUI_List_LegacySection": "기본 바인딩",

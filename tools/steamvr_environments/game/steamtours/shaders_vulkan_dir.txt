@@ -38,3 +38,8 @@ shaders/vfx/vr_warp.ini CRC:0000000000 size:0
 shaders/vfx/vr_warp_vulkan_50_features.vcs CRC:0022913ac4 size:11013
 shaders/vfx/vr_warp_vulkan_50_ps.vcs CRC:0048913ef2 size:27217
 shaders/vfx/vr_warp_vulkan_50_vs.vcs CRC:0098dd7f00 size:3822
+shaders/vfx/vr_wireframe_hologram.ini CRC:0000000000 size:0
+shaders/vfx/vr_wireframe_hologram_vulkan_50_features.vcs CRC:0092588148 size:11662
+shaders/vfx/vr_wireframe_hologram_vulkan_50_gs.vcs CRC:0060de7af8 size:10649
+shaders/vfx/vr_wireframe_hologram_vulkan_50_ps.vcs CRC:009e129a08 size:11526
+shaders/vfx/vr_wireframe_hologram_vulkan_50_vs.vcs CRC:00b39216b5 size:47042

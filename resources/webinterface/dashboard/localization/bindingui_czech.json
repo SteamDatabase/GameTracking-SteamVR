@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "Starší výchozí nastavení",
   "BindingUI_BindingType_local_file": "Místní nastavení",
   "BindingUI_BindingType_public": "Veřejné nastavení",
-  "BindingVariant_onehanded": "One Handed",
+  "BindingVariant_singlecontroller": "Single Controller",
   "BindingUI_List_CurrentSection": "Aktuální nastavení",
   "BindingUI_List_DeveloperSection": "Oficiální nastavení",
   "BindingUI_List_LegacySection": "Výchozí nastavení",

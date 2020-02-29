@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "Äldre standarder",
   "BindingUI_BindingType_local_file": "Lokal bindning",
   "BindingUI_BindingType_public": "Offentlig bindning",
-  "BindingVariant_onehanded": "One Handed",
+  "BindingVariant_singlecontroller": "Single Controller",
   "BindingUI_List_CurrentSection": "Nuvarande bindning",
   "BindingUI_List_DeveloperSection": "Officiella bindningar",
   "BindingUI_List_LegacySection": "Standardbindningar",

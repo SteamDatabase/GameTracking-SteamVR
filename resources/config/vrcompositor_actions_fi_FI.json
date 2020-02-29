@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Näytä virranhallintavalikko",
 	"/actions/lasermouse/in/leftclick": "Hiiren vasen klikkaus",
 	"/actions/lasermouse/in/rightclick": "Hiiren oikea klikkaus",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "Lukitse hiiren sijainti",
 	"/actions/lasermouse/in/home": "Alkuun",
 	"/actions/lasermouse/in/back": "Takaisin",
 	"/actions/lasermouse/in/moveright": "Siirry oikealle",

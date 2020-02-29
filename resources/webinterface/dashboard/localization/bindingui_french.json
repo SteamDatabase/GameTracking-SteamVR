@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "Anciennes configurations par défaut",
   "BindingUI_BindingType_local_file": "Configuration locale",
   "BindingUI_BindingType_public": "Configuration publique",
-  "BindingVariant_onehanded": "One Handed",
+  "BindingVariant_singlecontroller": "Single Controller",
   "BindingUI_List_CurrentSection": "Configuration actuelle",
   "BindingUI_List_DeveloperSection": "Configurations officielles",
   "BindingUI_List_LegacySection": "Configurations par défaut",

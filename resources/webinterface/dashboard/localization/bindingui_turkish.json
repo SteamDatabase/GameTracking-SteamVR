@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "Eski tarzdaki varsayılanlar",
   "BindingUI_BindingType_local_file": "Yerel atamalar",
   "BindingUI_BindingType_public": "Herkese açık atamalar",
-  "BindingVariant_onehanded": "One Handed",
+  "BindingVariant_singlecontroller": "Single Controller",
   "BindingUI_List_CurrentSection": "Mevcut Atama",
   "BindingUI_List_DeveloperSection": "Resmî Atamalar",
   "BindingUI_List_LegacySection": "Varsayılan Atamalar",

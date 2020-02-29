@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "Класически по подразбиране",
   "BindingUI_BindingType_local_file": "Локална комбинация",
   "BindingUI_BindingType_public": "Публична комбинация",
-  "BindingVariant_onehanded": "One Handed",
+  "BindingVariant_singlecontroller": "Single Controller",
   "BindingUI_List_CurrentSection": "Текуща комбинация",
   "BindingUI_List_DeveloperSection": "Официални комбинации",
   "BindingUI_List_LegacySection": "Комбинации по подразбиране",

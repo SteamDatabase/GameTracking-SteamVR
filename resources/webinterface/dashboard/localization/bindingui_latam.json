@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "Configuración clásica",
   "BindingUI_BindingType_local_file": "Asignación local",
   "BindingUI_BindingType_public": "Asignación pública",
-  "BindingVariant_onehanded": "One Handed",
+  "BindingVariant_singlecontroller": "Single Controller",
   "BindingUI_List_CurrentSection": "Asignación actual",
   "BindingUI_List_DeveloperSection": "Asignaciones oficiales",
   "BindingUI_List_LegacySection": "Asignaciones predeterminadas",
