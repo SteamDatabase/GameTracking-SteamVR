@@ -438,7 +438,7 @@ particles/ui_grab_item.vpcf_c CRC:00f45627da size:2142
 particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
 scripts/contentdb.txt CRC:00f09bcf8a size:152514
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
-scripts/soundmixers.txt CRC:003e459188 size:473
+scripts/soundmixers.txt CRC:00a6f48047 size:20935
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70
 scripts/soundscapes_valve.txt CRC:009ab9b8d5 size:7415
 scripts/vscripts/tools/tagmarker.lua CRC:00d6c2005f size:14008
@@ -456,5 +456,5 @@ sounds/props/default_impact_02.vsnd_c CRC:00f8d61c09 size:23088
 sounds/props/toy_soldier_impact_01.vsnd_c CRC:0026699638 size:14392
 soundstacks/mixgraph.vmix_c CRC:000b6e8ab8 size:20038
 soundstacks/soundstacks_destinations.vsndstck_c CRC:002bcf2f63 size:68024
-soundstacks/soundstacks_manifest.vrman_c CRC:00ae474b76 size:973
+soundstacks/soundstacks_manifest.vrman_c CRC:0046dbfcb7 size:1063
 surfaceproperties/surfaceproperties.vsurf_c CRC:00980540ec size:6954

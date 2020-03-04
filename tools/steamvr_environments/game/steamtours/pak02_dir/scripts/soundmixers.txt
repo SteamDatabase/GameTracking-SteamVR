@@ -1,16 +1,1254 @@
-"MixGroups"
-{																										
-//	group name		dir/name 	classname	chan		sndlvl_min	sndlvl_max	priority 	Is Ducked	Ducks		Duck Pct%	Duck Threshold
-	"ambient"		""			""			""			""			""			""			""			""			""			""							
-	"ui"			""			""			""			""			""			""			""			""			""			""
-}
-
-"SoundMixers"
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	"Default_Mix"
+	MixGroups = 
+	[
+		{
+			name = "Dialog"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Player"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "PlayerInventory"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "PlayerWeapons"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "PlayerWeaponFire"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "PlayerFootsteps"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "AnimInteract"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "NPC_Footsteps"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "NPC_WeaponFire"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "NPC_Weapons"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "NPC_High"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "NPC_Med"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "NPC_Low"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Creature_Footsteps"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Strider"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Doors"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Buttons"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Items"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Screens"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "CombineMachines"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},		
+		{
+			name = "Combine_Elevator_Loop"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "helicopter"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "World"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "WorldMachines"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "WorldObjects"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "UI"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Physics"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Physics_Breaking"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Ambient"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "AmbientDSP"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Music"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "LoudMusic"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Weapons"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "BulletImpacts"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "Explosions"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "ScriptedSequence"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},		
+		{
+			name = "ScriptedSequence_Loud"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "LoudEvents"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+		{
+			name = "All"
+			path_substring = ""
+			class_substring = ""
+			chan_type = ""
+			sndlvl_min = 0
+			sndlvl_max = 20
+			priority = 60
+			is_ducked = 0
+			causes_ducking = 0
+			duck_to_percent = 100
+			ducker_threshold = 20
+		},
+	]
+	SoundMixers = 
 	{
-	//	group name		vol		lvl		dsp		solo	mute
-		"ambient"		"1.0"	"1.0"   "1.0"   "0.0"   "0.0"		
-		"ui"			"1.0"	"1.0"   "1.0"   "0.0"   "0.0"
+		Default_Mix = 
+		[
+			{
+				mixgroup = "Dialog"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Player"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "PlayerInventory"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "PlayerWeapons"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "PlayerWeaponFire"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "PlayerFootsteps"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "AnimInteract"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_Footsteps"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_WeaponFire"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_Weapons"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_High"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_Med"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_Low"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Creature_Footsteps"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Strider"
+				vol = 0.8
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Doors"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Buttons"
+				vol = 0.8
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Items"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Screens"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "CombineMachines"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},			
+			{
+				mixgroup = "Combine_Elevator_Loop"
+				vol = 0.5
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "helicopter"
+				vol = 0.0
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "World"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "WorldMachines"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "WorldObjects"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "UI"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Physics"
+				vol = 0.85
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Physics_Breaking"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Ambient"
+				vol = 0.6
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "AmbientDSP"
+				vol = 0.6
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Music"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "LoudMusic"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Weapons"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "BulletImpacts"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Explosions"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "ScriptedSequence"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},			
+			{
+				mixgroup = "ScriptedSequence_Loud"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "LoudEvents"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "All"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+		]
+		Display_Mix = 
+		[
+			{
+				mixgroup = "Dialog"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Player"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "PlayerInventory"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "PlayerWeapons"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "PlayerWeaponFire"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "PlayerFootsteps"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "AnimInteract"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_Footsteps"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_High"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_Med"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "NPC_Low"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Creature_Footsteps"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Strider"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Doors"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Buttons"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Items"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Screens"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "CombineMachines"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},			
+			{
+				mixgroup = "Combine_Elevator_Loop"
+				vol = 0.5
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "helicopter"
+				vol = 0.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "World"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "WorldMachines"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "WorldObjects"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "UI"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Physics"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},			
+			{
+				mixgroup = "Physics_Breaking"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Ambient"
+				vol = 0.6
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "AmbientDSP"
+				vol = 0.6
+				lvl = 1.0
+				dsp = 1.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Music"
+				vol = 0.7
+				lvl = 0.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "LoudMusic"
+				vol = 1.0
+				lvl = 0.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Combat"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Weapons"
+				vol = 0.79
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "BulletImpacts"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "Explosions"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "ScriptedSequence"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},			
+			{
+				mixgroup = "ScriptedSequence_Loud"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "LoudEvents"
+				vol = 1.0
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+			{
+				mixgroup = "All"
+				vol = 0.7
+				lvl = 1.0
+				dsp = 0.0
+				solo = 0.0
+				mute = 0.0
+			},
+		]
+	}
+	MixLayers = 
+	{
+		NPC_Ducking_A = 
+		{
+			Mixers = 
+			[
+				{
+					mixgroup = "NPC_Med"
+					vol = 0.3
+					lvl = 1.0
+					dsp = 1.0
+					solo = 0.0
+					mute = 0.0
+				},
+				{
+					mixgroup = "NPC_Low"
+					vol = 0.3
+					lvl = 1.0
+					dsp = 1.0
+					solo = 0.0
+					mute = 0.0
+				},
+			]
+			Triggers = [  ]
+		}
+		NPC_Ducking_B = 
+		{
+			Mixers = 
+			[
+				{
+					mixgroup = "NPC_Low"
+					vol = 0.3
+					lvl = 1.0
+					dsp = 1.0
+					solo = 0.0
+					mute = 0.0
+				},
+			]
+			Triggers = [  ]
+		}
+		Mute_Physics = 
+		{
+			Mixers = 
+			[
+				{
+					mixgroup = "Physics"
+					vol = 0.0
+					lvl = 1.0
+					dsp = 1.0
+					solo = 0.0
+					mute = 1.0
+				},
+			]
+			Triggers = [  ]
+		}
+		Reduce_NPC_Step_Oc = 
+		{
+			Mixers = 
+			[
+				{
+					mixgroup = "NPC_Footsteps"
+					vol = 1.0
+					lvl = 0.0
+					dsp = 1.0
+					solo = 0.0
+					mute = 0.0
+				},
+			]
+			Triggers = [  ]
+		}
+		Duck_NPC_Footsteps = 
+		{
+			Mixers = 
+			[
+				{
+					mixgroup = "NPC_Footsteps"
+					vol = 0.0
+					lvl = 1.0
+					dsp = 1.0
+					solo = 0.0
+					mute = 0.0
+				},
+			]
+			Triggers = [  ]
+		}		
+		Boost_Combine_Elevator = 
+		{
+			Mixers = 
+			[
+				{
+					mixgroup = "Combine_Elevator_Loop"
+					vol = 1.0
+					lvl = 1.0
+					dsp = 1.0
+					solo = 0.0
+					mute = 0.0
+				},
+			]
+			Triggers = [  ]
+		}		
+		Duck_Player_Steps = 
+		{
+			Mixers = 
+			[
+				{
+					mixgroup = "PlayerFootsteps"
+					vol = 0.55
+					lvl = 1.0
+					dsp = 1.0
+					solo = 0.0
+					mute = 0.0
+				},
+			]
+			Triggers = [  ]
+		}
 	}
 }

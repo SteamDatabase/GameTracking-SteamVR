@@ -420,6 +420,7 @@ $tI
 33CSosOperatorMixGraphInputGetFloat
 34CSosOperatorMixGraphInputDSPPreset
 35CSosOperatorIterateAndMergeSpeakers
+35CSosOperatorLogicSwitchStringHandle
 36
 4
 4000
@@ -994,7 +995,6 @@ Error: MixLayer operator has invalid mix group index!
 Error: MixLayer operator has invalid mix layer index!
 Error: Operator %s, EntryMatchList has no free slots!
 Error: Operator %s, problems parsing operator field %s
-Error: Operator %s, unknown sound operator attribute %s
 Error: Parsing soundmixers.txt, mixgroup rules incomplete at group %s!
 Error: Parsing soundmixers.txt, mixgroup rules incomplete!
 Error: Parsing soundmixers.txt, soundmixer mix group values incomplete!
@@ -2147,6 +2147,7 @@ ctrl_switch3_float3
 ctrl_switch_float
 ctrl_switch_float3
 ctrl_switch_speakers
+ctrl_switch_string
 curve_type
 custom_stack
 d

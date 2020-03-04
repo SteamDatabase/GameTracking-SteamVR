@@ -22248,6 +22248,12 @@ sound-out
 sound/combined/%s/%s%s.wav
 sound_base
 soundent
+soundevents/destinations_core.vsndevts
+soundevents/destinations_home.vsndevts
+soundevents/destinations_props.vsndevts
+soundevents/destinations_shared.vsndevts
+soundevents/destinations_temp.vsndevts
+soundevents/destinations_third_party.vsndevts
 soundfile
 soundlevel
 soundlevel not supported on sub-soundscapes
