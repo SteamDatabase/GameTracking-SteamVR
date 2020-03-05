@@ -5218,6 +5218,7 @@ Adding listener %s
 Adding prereq
 Additional interpolation ticks to use when interpolating with threaded engine mode set.
 Additional mouse sensitivity scale factor applied when FOV is zoomed in.
+AddonInfo
 Adds a required tag to the query
 Adds an I/O connection that will call the named function on the passed entity when the specified output fires.
 Adds an I/O connection that will call the named function on this entity when the specified output fires.
@@ -7943,6 +7944,7 @@ DeleteRowButton
 DeleteVideoPlayer
 Deleting Inventory Service Item: %s (def id: %llu, item id: %llu, quantity: %u)
 Density of Particle Rain 0-1
+Dependencies
 DepthPassBatchID
 Describe datamap_t for entindex
 DescribeFields
