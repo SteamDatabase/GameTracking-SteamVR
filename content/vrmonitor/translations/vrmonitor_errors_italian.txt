@@ -717,7 +717,7 @@
 "[english]Warning_DismissableWarning_DisplayInExtendedMode_Header"	"Headset Notice"
 "Warning_DismissableWarning_DisplayInExtendedMode_Description"	"SteamVR ha rilevato che stai utilizzando il visore come un monitor. Per risultati ottimali, passa alla modalità di visualizzazione diretta."
 "[english]Warning_DismissableWarning_DisplayInExtendedMode_Description"	"SteamVR has detected your headset running as a monitor. For best results, please switch to Direct Display Mode."
-"Warning_DismissableWarning_DisplayInExtendedMode_Action"	"Abilita la modalità diretta"
+"Warning_DismissableWarning_DisplayInExtendedMode_Action"	"Modalità diretta: sì"
 "[english]Warning_DismissableWarning_DisplayInExtendedMode_Action"	"Enable Direct Display Mode"
 "VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header"	"Errore del dispositivo"
 "[english]VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header"	"Device Error"

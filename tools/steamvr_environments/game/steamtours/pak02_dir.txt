@@ -426,7 +426,7 @@ panorama/styles/notifications_panel.vcss_c CRC:00eaac2ce3 size:3282
 panorama/styles/puppet.vcss_c CRC:008f104c91 size:7997
 panorama/styles/recent_apps.vcss_c CRC:00df16adaa size:13662
 panorama/styles/settings.vcss_c CRC:0077a1cd5c size:5859
-panorama/styles/steamvr_community_home.vcss_c CRC:006d82b80a size:24796
+panorama/styles/steamvr_community_home.vcss_c CRC:00b71a04ed size:24795
 panorama/styles/steamvr_community_item.vcss_c CRC:0092c45e20 size:9963
 panorama/styles/tutorial.vcss_c CRC:007f6bb5d5 size:11690
 particles/tool_fx/brush_spray.vpcf_c CRC:0085104424 size:1760

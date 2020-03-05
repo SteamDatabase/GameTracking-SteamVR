@@ -2426,7 +2426,7 @@
 "[english]SteamVRSystemState_Connecting_Application_OutsideInCamera"	"Make sure tracking cameras can see the headset"
 "SteamVRSystemState_Standby_Application"	"VR'ı uyandırmak için başlığınızı takın"
 "[english]SteamVRSystemState_Standby_Application"	"Put on your headset to wake VR"
-"SteamVRSystemState_PseudoState_Welcome_Application"	"Lütfen VR başlığınızın bağlantısını takın"
+"SteamVRSystemState_PseudoState_Welcome_Application"	"Lütfen VR başlığınızı takın"
 "[english]SteamVRSystemState_PseudoState_Welcome_Application"	"Please plug in your VR headset"
 "MenuAction_SystemReportViewer"	"Sistem Rapor Görüntüleyicisi"
 "[english]MenuAction_SystemReportViewer"	"System Report Viewer"
