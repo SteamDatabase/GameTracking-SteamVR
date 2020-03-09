@@ -8,7 +8,7 @@ function RegisterCommunityItemPanel()
 	// callback to show based on event from client => server => all clients
 	var onShow = function( parentPanel ) {
 		return function( data ) {
-			$.Msg( "Showing ugc: " + data.publishedfileid );
+//			$.Msg( "Showing ugc: " + data.publishedfileid );
 
 			parentPanel.RemoveClass( "screenshots" );
 			parentPanel.RemoveClass( "artwork" );
@@ -58,7 +58,7 @@ function RegisterCommunityItemPanel()
 								return function( data ) { panel.SetDialogVariable( "creator_name", data.persona_name ); };
 							} ( panel );
 							var strAuthor = SteamFriends.RequestPersonaName( details.creator_steamid, onGetPersonaName );
-							$.Msg( "Author: " + strAuthor );
+//							$.Msg( "Author: " + strAuthor );
 							if ( strAuthor )
 							{
 								panel.SetDialogVariable( "creator_name", strAuthor );
@@ -145,8 +145,9 @@ function RegisterCommunityItemPanel()
 
 							var subscriptionInfo = SteamUGC.GetSubscriptionInfo( details.publishedfileid );
 							panel.SetHasClass( "Subscribed", subscriptionInfo.subscribed );
-							panel.SetHasClass( "Installed", subscriptionInfo.installed );
+							panel.SetHasClass( "Installed", subscriptionInfo.installed && !subscriptionInfo.needs_update );
 							panel.SetHasClass( "Downloading", subscriptionInfo.downloading );
+//							$.Msg( "onQueryComplete: SteamUGC.GetSubscriptionInfo " + details.publishedfileid + ( subscriptionInfo.installed ? "  IS installed" : " NOT installed" ) );
 
 							// subscribe
 							var subscribeBtn = panel.FindChildTraverse( "BrowseSubscribeBtn" );
@@ -162,6 +163,7 @@ function RegisterCommunityItemPanel()
 								return function( data ) {
 									if ( data.success == 1 )
 									{
+//									    $.Msg( "onDownload: " + panel.id + " has finished downloading and is installed" );
 										panel.AddClass( "Installed" );
 										panel.RemoveClass( "Downloading" );
 									}
@@ -175,6 +177,14 @@ function RegisterCommunityItemPanel()
 								};
 							} ( details.publishedfileid );
 							subscribeBtn.SetPanelEvent( "onactivate", onTrySubscribe );
+
+                            // force it to download if you're subscribed, but haven't downloaded (otherwise dependencies may never download)
+                            if ( subscriptionInfo.subscribed && ( !subscriptionInfo.installed || subscriptionInfo.needs_update ) )
+							{
+//							    $.Msg( "onQueryComplete: downloading " + details.publishedfileid );
+							    panel.AddClass( "Downloading" );
+							    SteamUGC.RegisterDownloadItemResultCallback( details.publishedfileid, onDownload );
+							}
 
 							// unsubscribe
 							var unsubscribeBtn = panel.FindChildTraverse( "BrowseUnsubscribeBtn" );
@@ -230,7 +240,7 @@ function RegisterCommunityItemPanel()
 		// close button
 		var onActivate = function( panel ) {
 			return function() {
-				$.Msg( "trying to hide: " + panel.GetAttributeString( "publishedfileid", "" ) );
+//				$.Msg( "trying to hide: " + panel.GetAttributeString( "publishedfileid", "" ) );
 				var data = { publishedfileid: panel.GetAttributeString( "publishedfileid", "" ) };
 				GameEvents.SendCustomGameEventToAllClients( "HideCommunityItemDetail", data );
 			}

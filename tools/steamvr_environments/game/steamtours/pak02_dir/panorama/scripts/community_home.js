@@ -318,8 +318,9 @@ var CUGCItem = (function()
 	{
 		var subscriptionInfo = SteamUGC.GetSubscriptionInfo( this.m_item.publishedfileid );
 		this.m_panel.SetHasClass( "Subscribed", subscriptionInfo.subscribed );
-		this.m_panel.SetHasClass( "Installed", subscriptionInfo.installed );
+		this.m_panel.SetHasClass( "Installed", subscriptionInfo.installed && !subscriptionInfo.needs_update );
 		this.m_panel.SetHasClass( "Downloading", subscriptionInfo.downloading );
+//		$.Msg( "CUGCItem.prototype.UpdateSubscriptionInfo: " + this.m_item.publishedfileid + ( subscriptionInfo.installed ? "  IS installed" : " NOT installed" ) );
 	};
 
 	return CUGCItem;
@@ -417,8 +418,9 @@ function AddEnvironmentItem( detail, parentPanel )
 	// subscription classes
 	var subscriptionInfo = SteamUGC.GetSubscriptionInfo( detail.publishedfileid );
 	panelItem.SetHasClass( "Subscribed", subscriptionInfo.subscribed );
-	panelItem.SetHasClass( "Installed", subscriptionInfo.installed );
+	panelItem.SetHasClass( "Installed", subscriptionInfo.installed && !subscriptionInfo.needs_update );
 	panelItem.SetHasClass( "Downloading", subscriptionInfo.downloading );
+//	$.Msg( "AddEnvironmentItem: GetSubscriptionInfo: " + detail.publishedfileid + ( subscriptionInfo.installed ? "  IS installed" : " NOT installed" ) );
 
 	// set the thumbnail
 	var panelItemThumb = panelItem.FindChildInLayoutFile( "ItemThumbImage" );
