@@ -742,9 +742,9 @@
 "Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Configure"
 "Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/basestation/configurechannels"
 
-"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Safe Mode"
-"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Due</span> to a recent crash, SteamVR is currently operating in Safe Mode.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Learn more</a>."
-"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Disable Safe Mode"
+"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Some Add-ons Blocked"
+"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Due</span> to a recent crash, some SteamVR add-ons have been blocked.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Learn more</a>."
+"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Manage Add-ons"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR Update"
