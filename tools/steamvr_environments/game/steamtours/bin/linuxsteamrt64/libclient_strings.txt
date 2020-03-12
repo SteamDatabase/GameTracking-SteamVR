@@ -2287,6 +2287,7 @@ $tK
 19TESmoke_GameEvent_t
 19TonemapParameters_t
 19interactions_data_t
+1=s, 2=L, 4=I, 8=U, 16=D, 32=P
 1DBlend
 2
 2) Blue : %i
@@ -8003,7 +8004,7 @@ DisconnectRedirectedOutput
 DisconnectTime
 Disconnecting for the purpose of editing %s
 DismissAllContextMenus
-DismissHandLabCallout
+DismissHLAlyxCallout
 DispatchActivate
 DispatchEffect: effect "%s" not found on client
 DispatchInput
@@ -12450,7 +12451,7 @@ RecentAppsItemImage
 RecentAppsPanel
 RecomputeSprings
 ReconnectGameInterface
-Record that the user has dismissed the hand lab modal.
+Record that the user has dismissed the HL:Alyx modal.
 Recording duration: %f seconds
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
@@ -13302,8 +13303,8 @@ ShotgunShellEject
 ShotgunShellEject_global_client
 Should not reach here.
 Should the mover proxy be a capsule shape?
-Should we highlight Aperture Hand Lab?
-ShouldShowHandLabCallout
+Should we highlight HL:Alyx?
+ShouldShowHLAlyxCallout
 Show IK trace related details
 Show activities in the (client) animation state display.
 Show all EmitSound calls including their symbolic name and the actual wave file they resolved to. (-1 = for nobody, 0 = for everybody, n = for one entity)
@@ -16238,7 +16239,7 @@ destination_title
 destinations_base_game_mode
 destinations_debug_drawings
 destinations_disable_avatar_grab_at_speed
-destinations_dismissed_hand_lab
+destinations_dismissed_hl_alyx
 destinations_generate_itemdefs
 destinations_hide_player_billboard
 destinations_hide_ugc_images
@@ -22958,6 +22959,7 @@ u
 u axis
 u64( %lld = 0x%llX )
 ugc:
+ugc_fake_state
 uh
 ui-scale
 ui-scale-x

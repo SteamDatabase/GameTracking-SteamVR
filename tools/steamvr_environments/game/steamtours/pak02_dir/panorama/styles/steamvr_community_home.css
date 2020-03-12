@@ -528,6 +528,141 @@
 	//wash-color: none;
 }
 
+
+//----------------
+//  Announcements panel
+//----------------
+
+.LargeEnvironmentItemTitle
+{
+	color: white;
+	font-size: 55px;
+	//margin-left: 350px;	
+	//margin-left: 860px;
+	//margin-top: 80px;
+	//font-weight: bold;
+}
+
+.LargeEnvironmentItem
+{
+	background-color: #111111ff;
+//	border: 0px solid #111111ff;
+	width: 512px;
+	height: 692px;
+    margin-left: 30px;
+    margin-right: 30px;
+    flow-children: down;
+}
+
+.LargeEnvironmentImage
+{
+	border: 3px solid #ffffff05;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 512px;
+	height: 512px;
+}
+
+//.LargeEnvironmentItem:hover
+//{
+//	//background-color: #333333ff;
+//	border: 3px solid #ffffffaa;
+//	//wash-color: none;
+//}
+
+
+
+#SubscribeButton
+{
+	visibility: collapse;
+	horizontal-align: center;
+}
+
+.ShowSubscribeButton #SubscribeButton
+{
+	visibility: visible;
+}
+
+#VisitButton
+{
+	border: 2px solid #ffffff77;
+	visibility: collapse;
+	horizontal-align: center;
+}
+
+.ShowVisitButton #VisitButton
+{
+	visibility: visible;
+}
+
+.DownloadingLabel
+{
+	vertical-align: center;
+	font-size: 38px;
+	color: green;
+	margin-left: 30px;
+	margin-top: 10px;
+	visibility: collapse;
+	horizontal-align: center;
+}
+
+.ShowDownloadingLabel .DownloadingLabel
+{
+	visibility: visible;
+}
+
+
+// Initial community wall announcement dialog
+
+.AnnouncementWrapper
+{
+	width: 100%;
+	height: 100%;
+	//margin-right: 50px;
+	horizontal-align: center;
+	background-color: #111111fa;
+	visibility: collapse;
+}
+
+.AnnouncementDialogOn .AnnouncementWrapper
+{
+	visibility: visible;
+}
+
+.AnnouncementDialog
+{
+	//width: 2340px;
+	//height: 1030px;
+	width: 1800px;
+	height: 1300px;
+	margin-bottom: 100px;
+	vertical-align: center;
+	horizontal-align: center;
+	background-color: #111111ff;
+	//box-shadow: #111111ff -3px 0px 50px 0px;
+	border: 4px solid #ffffff11;
+	border-radius: 5px;
+	flow-children: down;
+}
+
+.AnnouncementDesc
+{
+	color: #ffffff88;
+	font-size: 50px;
+	width: 1750px;
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+.AnnouncementBody
+{
+	width: 100%;
+	height: 100%;
+	margin: 70px 300px 70px 300px;
+	flow-children: right-wrap;
+}
+
+
 //Valve Environments dialog
 
 .ValveEnvironmentsWrapper

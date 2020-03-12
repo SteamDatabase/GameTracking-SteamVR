@@ -406,14 +406,14 @@ panorama/layout/recent_apps.vxml_c CRC:00fed2dff6 size:11525
 panorama/layout/settings.vxml_c CRC:003144d75a size:4468
 panorama/layout/tutorial.vxml_c CRC:00e1763481 size:101683
 panorama/layout/vr_avatar.vxml_c CRC:0062dcc268 size:3804
-panorama/layout/vr_community_home.vxml_c CRC:00f25919e1 size:19829
+panorama/layout/vr_community_home.vxml_c CRC:0061dda72e size:22260
 panorama/layout/vr_community_item.vxml_c CRC:0057540074 size:12370
 panorama/layout/vr_content_browser.vxml_c CRC:0082692c07 size:756
 panorama/layout/vr_friends.vxml_c CRC:009a30628f size:621
-panorama/localization/steamtours_english.txt CRC:0035f3242b size:142564
+panorama/localization/steamtours_english.txt CRC:007cb9937f size:142945
 panorama/panorama_config.txt CRC:00a597fc0e size:294
-panorama/scripts/community_home.vjs_c CRC:008346a68f size:22656
-panorama/scripts/community_home_item.vjs_c CRC:009fafb4d0 size:12100
+panorama/scripts/community_home.vjs_c CRC:000472ec1f size:23892
+panorama/scripts/community_home_item.vjs_c CRC:00f577802b size:12241
 panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
 panorama/styles/base_styles.vcss_c CRC:000a3b8ae5 size:25471
@@ -426,7 +426,7 @@ panorama/styles/notifications_panel.vcss_c CRC:00eaac2ce3 size:3282
 panorama/styles/puppet.vcss_c CRC:008f104c91 size:7997
 panorama/styles/recent_apps.vcss_c CRC:00df16adaa size:13662
 panorama/styles/settings.vcss_c CRC:0077a1cd5c size:5859
-panorama/styles/steamvr_community_home.vcss_c CRC:00b71a04ed size:24795
+panorama/styles/steamvr_community_home.vcss_c CRC:003656530c size:26817
 panorama/styles/steamvr_community_item.vcss_c CRC:0092c45e20 size:9963
 panorama/styles/tutorial.vcss_c CRC:007f6bb5d5 size:11690
 particles/tool_fx/brush_spray.vpcf_c CRC:0085104424 size:1760

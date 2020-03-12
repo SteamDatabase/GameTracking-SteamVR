@@ -68,108 +68,6 @@ var CItemsContext = (function()
 var gChangeUGCThumbnailsEventID = null;
 var gSection = "environments";
 var gUGCItemsContext = new CItemsContext();
-var gIsShowingHandLabCallout = false;
-
-function OnShowHandLabCallout( handLabData )
-{
-	var wrapperPanel = $( "#CommunityHomeWrapper" );
-
-	if ( !SteamVRHome.ShouldShowHandLabCallout() )
-	{
-		if ( gIsShowingHandLabCallout )
-		{
-			wrapperPanel.RemoveClass( "AppConfirm" );
-			gIsShowingHandLabCallout = false;
-		}
-
-		return;
-	}
-
-	gIsShowingHandLabCallout = true;
-
-	wrapperPanel.AddClass( "AppConfirm" );
-	wrapperPanel.SetHasClass( "IsSteamApp", true );
-	
-	var confirmationPanel = wrapperPanel.FindChildInLayoutFile( "ConfirmationPanel" );
-	confirmationPanel.SetDialogVariable( "launch_app_name", handLabData.app_name );
-
-	var launchImagePanel = confirmationPanel.FindChildInLayoutFile( "LaunchAppImage" );
-	launchImagePanel.SetImage( handLabData.app_logo_url );
-
-	var vrAppData = VRUtils.GetVRAppPropertyData( handLabData.app_id );
-	if ( vrAppData.data_valid == 0 )
-		wrapperPanel.RemoveClass( "CanLaunchApp" );
-	else
-		wrapperPanel.AddClass( "CanLaunchApp" );
-
-	// Launch button
-	var launchButton = confirmationPanel.FindChildInLayoutFile( "LaunchAppButton" );
-	var onLaunchButtonActivate = function( localAppid ) {
-		return function() {
-			SteamVRHome.DismissHandLabCallout();
-			VRUtils.LaunchSteamApp( localAppid, "community_wall" );
-		}
-	}( handLabData.app_id );
-	launchButton.SetPanelEvent( "onactivate", onLaunchButtonActivate );
-
-	// Details button
-	var detailsButton = confirmationPanel.FindChildInLayoutFile( "DetailsButton" );
-	var onDetailsButtonActivate = function( localAppid ) {
-		return function() {
-			SteamVRHome.DismissHandLabCallout();
-			if ( vrAppData.data_valid == 0 )
-				$.DispatchEvent( 'OpenSteamURL', 'open/bigpicture/store/' + localAppid );
-			else
-				$.DispatchEvent( 'OpenSteamURL', 'open/bigpicture/librarydetails/' + localAppid );
-		}
-	}( handLabData.app_id );
-	detailsButton.SetPanelEvent( "onactivate", onDetailsButtonActivate );
-
-	// Cancel button
-	var cancelButton = confirmationPanel.FindChildInLayoutFile( "CancelButton" );
-	cancelButton.SetPanelEvent( "onactivate", function() {
-		SteamVRHome.DismissHandLabCallout();
-		wrapperPanel.RemoveClass( "AppConfirm" ); 
-	} );
-}
-
-
-function OnLoadMainPanel()
-{
-	var launchDate = new Date( 2019, 5, 24 );
-	if ( Date.now() < launchDate )
-		return;
-
-	$.AsyncWebRequest(
-		"http://steamcommunity.com/steamvr/ajaxgetgfxurl/",
-		{
-			type: "GET",
-			data: {},
-			success: function( data )
-			{
-				var handLabData = {
-					app_id: 868020,
-					app_name: "Aperture Hand Lab",
-					app_logo_url: data.url + "apps/868020/header.jpg"
-				};
-	
-				// If we already have Index controllers connected...
-				OnShowHandLabCallout( handLabData );
-
-				// If we don't have Index controllers right now, but connect them later in the session...
-				GameEvents.Subscribe( "vr_controllers_connected", function ( localHandLabData ) {
-					return function() {
-						OnShowHandLabCallout( localHandLabData );
-					}
-				}( handLabData ) );
-			},
-			error: function()
-			{
-				$.Msg( "Failed to get GFX url." );
-			}
-		}
-	);
-}
 
 
 function AddApps( parentPanelID, rgApps, maxPlayers, maxPeakPlayers )
@@ -484,6 +382,112 @@ function PopulateEnvironments( rgChildren, onCompleteFunc )
 	SteamUGC.SendUGCQuery( queryHandle, onQueryComplete );
 }
 
+function UpdateSubscribeDownloadingVisitUI( panel, fileId )
+{
+    var subscriptionInfo = SteamUGC.GetSubscriptionInfo( fileId );
+    if ( !subscriptionInfo.subscribed )
+    {
+        panel.AddClass( "ShowSubscribeButton" );
+        panel.RemoveClass( "ShowVisitButton" );
+        panel.RemoveClass( "ShowDownloadingLabel" );
+    }
+    else if ( subscriptionInfo.installed && !subscriptionInfo.needs_update )
+    {
+        panel.RemoveClass( "ShowSubscribeButton" );
+    	panel.AddClass( "ShowVisitButton" );
+        panel.RemoveClass( "ShowDownloadingLabel" );
+    }
+    else
+    {
+        panel.RemoveClass( "ShowSubscribeButton" );
+        panel.RemoveClass( "ShowVisitButton" );
+        panel.AddClass( "ShowDownloadingLabel" );
+    }
+}
+
+function UpdateSimpleUGCEnvironmentPanel( panel, fileId )
+{
+    $.Msg( "UpdateSimpleUGCEnvironmentPanel: " + panel.id + " " + fileId );
+
+    var queryHandle = SteamUGC.CreateQueryUGCDetailsRequest( [ fileId ] );
+    var params = {
+        long_description: false,
+        return_children: false,
+        cache_seconds: 60
+    };
+    SteamUGC.ConfigureQuery( queryHandle, params );
+
+    var onQueryComplete = function( panel ) {
+        return function ( data )
+        {
+            if ( data.num_results == 1 )
+            {
+                var imagePanel = panel.FindChildInLayoutFile( "LargeEnvironmentImage" );
+                imagePanel.SetImage( data.details[ 0 ].preview_image );
+            }
+        };
+    } ( panel );
+    SteamUGC.SendUGCQuery( queryHandle, onQueryComplete );
+
+    // subscribe / downloading
+    var subscribeBtn = panel.FindChildTraverse( "SubscribeButton" );
+	var onSubscribe = function( panel, fileId ) {
+		return function( data ) {
+//		    UpdateSubscribeDownloadingVisitUI( panel, fileId ); // it turns out that SteamUGC.GetSubscriptionInfo( fileId ).subscribed isn't accurate at this point
+		    if ( data.success == 1 )
+		    {
+                var subscriptionInfo = SteamUGC.GetSubscriptionInfo( fileId );
+    		    if ( subscriptionInfo.installed && !subscriptionInfo.needs_update )
+		        {
+		            panel.AddClass( "ShowVisitButton" );
+		        }
+		        else
+		        {
+		            panel.AddClass( "ShowDownloadingLabel" );
+		        }
+		    }
+		    else
+		    {
+                panel.AddClass( "ShowSubscribeButton" ); // put it back - not great, but it's rare at best
+		    }
+		}
+	} ( panel, fileId );
+	var onDownload = function( panel, fileId ) {
+		return function( data ) {
+//		    UpdateSubscribeDownloadingVisitUI( panel, fileId );
+            panel.RemoveClass( "ShowSubscribeButton" );
+    	    panel.AddClass( "ShowVisitButton" );
+            panel.RemoveClass( "ShowDownloadingLabel" );
+		}
+	} ( panel, fileId );
+	var onTrySubscribe = function( panel, fileId ) {
+		return function() {
+            panel.RemoveClass( "ShowSubscribeButton" );
+			SteamUGC.SubscribeItem( fileId, onSubscribe );
+			SteamUGC.RegisterDownloadItemResultCallback( fileId, onDownload );
+		};
+	} ( panel, fileId );
+	subscribeBtn.SetPanelEvent( "onactivate", onTrySubscribe );
+
+    // visit
+    var visitBtn = panel.FindChildTraverse( "VisitButton" );
+	var onVisit = function( publishedfileid ) {
+		return function() {
+			$.DispatchEvent( "ShowContentBrowserSection", "Maps" );
+			$.DispatchEvent( "ShowItemDetails", "workshop_" + publishedfileid );
+		}
+	} ( fileId );
+	visitBtn.SetPanelEvent( "onactivate", onVisit );
+
+    var subscriptionInfo = SteamUGC.GetSubscriptionInfo( fileId );
+    if ( subscriptionInfo.subscribed && ( !subscriptionInfo.installed || subscriptionInfo.needs_update ) )
+	{
+		SteamUGC.RegisterDownloadItemResultCallback( fileId, onDownload );
+	}
+
+    UpdateSubscribeDownloadingVisitUI( panel, fileId );
+}
+
 var k_AppID_DestinationsMain = 443150;
 var k_AppID_Destinations = 453170;
 var k_AppID_SteamVRMain = 330050;
@@ -570,6 +574,7 @@ function OnLoadCommunityHomeData()
 	var panelHome = $( "#CommunityHomeContainer" );
 	var onSelectUGCSection = function( panelHome ) {
 		return function( data ) {
+			$( "#CommunityHomeWrapper" ).RemoveClass( "AnnouncementDialogOn" );
 			panelHome.RemoveClass( "SelectedUGC_currentlyplayed" );
 			panelHome.RemoveClass( "SelectedUGC_screenshots" );
 			panelHome.RemoveClass( "SelectedUGC_artwork" );
@@ -753,4 +758,22 @@ function HideViveItems()
 {
 	gSection = "environments";
 	gUGCItemsContext.PopItemsContext();
+}
+
+function ShowAnnouncement()
+{
+    $.Msg( "ShowAnnouncement" );
+
+    $( "#CommunityHomeWrapper" ).RemoveClass( "SteamVRNowOn" );
+    $( "#CommunityHomeWrapper" ).AddClass( "AnnouncementDialogOn" );
+}
+
+function HideAnnouncement()
+{
+    $.Msg( "HideAnnouncement" );
+
+    $( "#CommunityHomeWrapper" ).RemoveClass( "AnnouncementDialogOn" );
+    $( "#CommunityHomeWrapper" ).AddClass( "SteamVRNowOn" );
+
+    SteamVRHome.DismissHLAlyxCallout();
 }

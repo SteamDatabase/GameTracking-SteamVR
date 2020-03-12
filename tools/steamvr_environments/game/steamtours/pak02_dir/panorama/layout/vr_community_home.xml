@@ -27,6 +27,18 @@
 				$("#CommunityHomeWrapper").AddClass( "SteamVRNowOn" );
 			}
 
+			function SelectAnnouncementOrSteamVRNow()
+			{
+				if ( SteamVRHome.ShouldShowHLAlyxCallout() )
+				{
+					ShowAnnouncement();
+				}
+				else
+				{
+					SelectSteamVRNow();
+				}
+			}
+
 			function SelectUGCTab(blah)
 			{
 				$("#CommunityHomeWrapper").RemoveClass( "SteamVRNowOn" );
@@ -62,7 +74,7 @@
 		</snippet>
 	</snippets>
 	
-	<ClientUIDialogPanel class="ScreenOn" onload="OnLoadMainPanel(); TurnWallOn();">
+	<ClientUIDialogPanel class="ScreenOn" onload="TurnWallOn();">
 
 		<Panel class="TutorialState">
 			<Image class="SteamVRLogo" src="s2r://panorama/images/content_browser/steamvr_home_logo_high_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
@@ -95,7 +107,7 @@
 			</Panel>
 
 
-			<Panel id="CommunityHomeContainer" class="SelectedUGC_currentlyplayed" onload="OnLoadCommunityHomeData(); SelectSteamVRNow();" onmouseover="CancelChangeUGCThumbnails()" onmouseout="ScheduleChangeUGCThumbnails()">
+			<Panel id="CommunityHomeContainer" class="SelectedUGC_currentlyplayed" onload="OnLoadCommunityHomeData(); SelectAnnouncementOrSteamVRNow();" onmouseover="CancelChangeUGCThumbnails()" onmouseout="ScheduleChangeUGCThumbnails()">
 
 				<Panel class="SteamVRTitleLogo">
 					<Image class="SteamVRTitleLogoImage" src="s2r://panorama/images/content_browser/steamvr_logo_high_png.vtex" />
@@ -202,7 +214,47 @@
 
 			</Panel>
 
-			
+      <Panel class="AnnouncementWrapper">
+        <Panel class="AnnouncementDialog">
+          <Panel class="DialogTitleBar">
+            <Label class="DialogTitle" text="#HLAlyxPromoTitle"/>
+            <Button class="CloseDialogButton" onactivate="HideAnnouncement()">
+              <Image class="CloseDialogButtonImage" src="s2r://panorama/images/content_browser/icon_unsubscribe_png.vtex" />
+            </Button>
+          </Panel>
+          <Label class="AnnouncementDesc" text="#HLAlyxPromoDesc"/>
+          <Panel class="AnnouncementBody" id="AnnouncementBody">
+
+            <Panel class="LargeEnvironmentItem" id="HLAlyxC17AlleywayItem" onload="UpdateSimpleUGCEnvironmentPanel( $('#HLAlyxC17AlleywayItem'), 2006662466 )">
+              <Label class="LargeEnvironmentItemTitle" id="LargeEnvironmentItemTitle" text="#HLAlyxC17AlleywayTitle" />
+              <Image class="LargeEnvironmentImage" id="LargeEnvironmentImage" />
+
+              <Button class="DestinationButton" id="SubscribeButton">
+                <Label class="SubscribeLabel" text="#SubscribeLabel" />
+              </Button>
+              <Label class="DownloadingLabel" text="#DownloadingLabel" />
+              <Button class="DestinationButton" id="VisitButton">
+                <Label class="ButtonLabel" id="BrowseWorkshop_Visit" text="#BrowseWorkshop_Visit" />
+              </Button>
+            </Panel>
+
+            <Panel class="LargeEnvironmentItem" id="HLAlyxRussellsLabItem" onload="UpdateSimpleUGCEnvironmentPanel( $('#HLAlyxRussellsLabItem'), 2006661698 )">
+              <Label class="LargeEnvironmentItemTitle" id="LargeEnvironmentItemTitle" text="#HLAlyxRussellsLabTitle"/>
+              <Image class="LargeEnvironmentImage" id="LargeEnvironmentImage" />
+
+              <Button class="DestinationButton" id="SubscribeButton">
+                <Label class="SubscribeLabel" text="#SubscribeLabel" />
+              </Button>
+              <Label class="DownloadingLabel" text="#DownloadingLabel" />
+              <Button class="DestinationButton" id="VisitButton">
+                <Label class="ButtonLabel" id="BrowseWorkshop_Visit" text="#BrowseWorkshop_Visit" />
+              </Button>
+            </Panel>
+
+          </Panel>
+        </Panel>
+      </Panel>
+
 			<Panel id="SteamVRNow" class="SteamVRNow">
 				<Panel class="SteamVRNowBackground">
 					<Panel class="Column1">

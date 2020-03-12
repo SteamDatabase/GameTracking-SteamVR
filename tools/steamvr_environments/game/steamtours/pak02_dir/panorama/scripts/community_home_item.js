@@ -170,9 +170,12 @@ function RegisterCommunityItemPanel()
 								}
 							} ( panel );
 							var onTrySubscribe = function( publishedfileid ) {
-								return function() {
-									panel.AddClass( "Downloading" );
-									SteamUGC.RegisterDownloadItemResultCallback( publishedfileid, onDownload );
+							    return function () {
+							        if ( !subscriptionInfo.installed || subscriptionInfo.needs_update )
+							        {
+							            panel.AddClass( "Downloading" );
+							            SteamUGC.RegisterDownloadItemResultCallback( publishedfileid, onDownload );
+							        }
 									SteamUGC.SubscribeItem( publishedfileid, onSubscribe );
 								};
 							} ( details.publishedfileid );
