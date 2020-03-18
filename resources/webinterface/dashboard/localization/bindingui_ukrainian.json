@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "Класичний стандарт",
   "BindingUI_BindingType_local_file": "Локальна розкладка",
   "BindingUI_BindingType_public": "Загальнодоступна розкладка",
-  "BindingVariant_singlecontroller": "Single Controller",
+  "BindingVariant_singlecontroller": "Один контролер",
   "BindingUI_List_CurrentSection": "Поточна розкладка",
   "BindingUI_List_DeveloperSection": "Офіційні розкладки",
   "BindingUI_List_LegacySection": "Стандартні розкладки",

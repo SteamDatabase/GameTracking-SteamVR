@@ -49,8 +49,8 @@
 	"/user/hand/primary": "Основна ръка",
 	"/user/hand/secondary": "Друга ръка",
 	"/user/hand/any": "Някоя ръка",
-	"/user/stylus": "Stylus",
-	"/user/gamepad": "Gamepad",
+	"/user/stylus": "Писалка",
+	"/user/gamepad": "Геймпад",
 	"/user/foot/left": "Ляв крак",
 	"/user/foot/right": "Десен крак",
 	"/user/shoulder/left": "Ляво рамо",
@@ -68,6 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Готово",
-	"Resetting_Seated_Origin": "Resetting Seated Origin",
+	"Resetting_Seated_Origin": "Нулиране на произхода за седналото положение",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

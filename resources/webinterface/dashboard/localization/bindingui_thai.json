@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "ค่าเริ่มต้นแบบดั้งเดิม",
   "BindingUI_BindingType_local_file": "การกำหนดปุ่มภายในเครื่อง",
   "BindingUI_BindingType_public": "การกำหนดปุ่มสาธารณะ",
-  "BindingVariant_singlecontroller": "Single Controller",
+  "BindingVariant_singlecontroller": "คอนโทรลเลอร์เดี่ยว",
   "BindingUI_List_CurrentSection": "การกำหนดปุ่มปัจจุบัน",
   "BindingUI_List_DeveloperSection": "การกำหนดปุ่มอย่างเป็นทางการ",
   "BindingUI_List_LegacySection": "การกำหนดปุ่มเริ่มต้น",

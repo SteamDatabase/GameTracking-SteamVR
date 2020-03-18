@@ -8,7 +8,7 @@
 	"pairing_nofreedongles_title": "Yhdistä ohjain",
 	"pairing_nofreedongles_desc": "Ohjaimet on jo yhdistetty!",
 	"pairing_nofreedongles_instr": "<span class=\"Highlight\">Sammuta päällä olevat ohjaimet</span>, jotta voit yhdistää uuden ohjaimen.",
-	"pairing_nodongles_title": "Yhdistettäviä laitteita ei löytynyt.",
+	"pairing_nodongles_title": "Yhdistettäviä laitteita ei löytynyt",
 	"pairing_nodongles_desc": "SteamVR ei löydä yhtään laitetta, johon ohjaimet voisi yhdistää.",
 	"pairing_nodongles_instr": "Varmista, että VR-lasisi on yhdistetty.",
 	"pairing_selectdevice_title": "Valitse ohjaintyyppi",

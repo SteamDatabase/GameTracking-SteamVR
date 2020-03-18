@@ -299,7 +299,7 @@
   "BindingUI_BindingType_developer_legacy": "Originale",
   "BindingUI_BindingType_local_file": "Asociere locală",
   "BindingUI_BindingType_public": "Asociere publică",
-  "BindingVariant_singlecontroller": "Single Controller",
+  "BindingVariant_singlecontroller": "Controler unic",
   "BindingUI_List_CurrentSection": "Asocierea din prezent",
   "BindingUI_List_DeveloperSection": "Asocieri oficiale",
   "BindingUI_List_LegacySection": "Asocieri implicite",

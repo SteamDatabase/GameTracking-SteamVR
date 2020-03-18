@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Εμφάνιση μενού ενέργειας",
 	"/actions/lasermouse/in/leftclick": "Αριστερό πάτημα ποντικιού",
 	"/actions/lasermouse/in/rightclick": "Δεξί πάτημα ποντικιού",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "Κλείδωμα θέσης ποντικιού",
 	"/actions/lasermouse/in/home": "Μετάβαση στην αρχική",
 	"/actions/lasermouse/in/back": "Μετάβαση πίσω",
 	"/actions/lasermouse/in/moveright": "Μετάβαση δεξιά",
