@@ -155,13 +155,6 @@
 	"Settings_CreateSystemReport_Button": "Create System Report",
 	"Settings_ViewLogs_Button": "View Logs",
 
-	"Settings_Chaperone_Style": "Chaperone style",
-	"Settings_Chaperone_Style_0": "Beginner",
-	"Settings_Chaperone_Style_1": "Intermediate",
-	"Settings_Chaperone_Style_2": "Squares",
-	"Settings_Chaperone_Style_3": "Advanced",
-	"Settings_Chaperone_Style_4": "Floor only",
-
 	"Settings_Video_RefreshRate_Header": "Refresh Rate",
 	"Settings_Video_RefreshRate_HzSuffix": " Hz",
 	"Settings_Video_RefreshRate_Label_Hz": "Refresh Rate (Hz)",
@@ -285,14 +278,25 @@
 	"Settings_Appearance_CycleBackgroundImageTimeSec": "Change backgound after:",
 	"Settings_Chaperone_BoundsColor": "Color",
 	"Settings_Chaperone_BoundsTransparency": "Transparency",
-	"Settings_Chaperone_Color": "Chaperone Color",
+	"Settings_Chaperone_Color": "Color",
+	"Settings_Chaperone_ActivationDistance": "Activation Distance (m)",
+	"Settings_Chaperone_SuitableForSmall": "Suitable for small playspaces. Use caution.",
+	"Settings_Chaperone_SuitableForMedium": "Suitable for medium playspaces.",
+	"Settings_Chaperone_SuitableForLarge": "Suitable for large playspaces.",
+
+	"Settings_Chaperone_Style": "Chaperone style",
+	"Settings_Chaperone_Style_0": "Grid (Dense)",
+	"Settings_Chaperone_Style_1": "Grid (Medium)",
+	"Settings_Chaperone_Style_2": "Squares",
+	"Settings_Chaperone_Style_3": "Grid (Sparse)",
+	"Settings_Chaperone_Style_4": "Floor only",
+
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Always show floor bounds",
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
 
 	"Settings_Appearance_Controller": "Change your controller model",
 	"Settings_Appearance_Base": "Change your base station model",
 	"Settings_Appearance_Environment": "Change your home environment",
-
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Always show floor bounds",
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
 
 	"Settings_ConnectAnHMD": "Please connect a headset.",
 	"Settings_Loading": "Loading...",
