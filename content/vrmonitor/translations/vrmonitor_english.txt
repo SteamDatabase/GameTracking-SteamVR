@@ -251,7 +251,6 @@
 
 "MonitorController_SwitchSafeMode_Header" "Safe Mode"
 "MonitorController_EnableSafeMode_Text" "<span>Safe Mode</span> can be used to limit SteamVR processes to the essentials when compatibility issues occur.<p>Are you sure you want to enable Safe Mode? SteamVR will restart after this change is made.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Learn more</a>."
-"MonitorController_DisableSafeMode_Text" "<span>SteamVR</span> is currently operating in Safe Mode.<p>Are you sure you want to disable Safe Mode? This will enable all device drivers and may result in compatability issues. This will also restart SteamVR.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Learn more</a>."
 
 "TrayIcon_Tooltip_vrmonitor" "SteamVR Status"
 "MonitorController_SelectRecordingDirectory" "Select Recording Directory"

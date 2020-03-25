@@ -14,6 +14,14 @@
   "BindingCallout_Header": "Show Controls",
   "MutedLabel": "Muted",
 
+  "MuteAudioMirror": "Mute Audio Mirror",
+  "UnmuteAudioMirror": "Unmute Audio Mirror",
+  "HeadsetVolume": "Headset Volume",
+  "AudioMirrorVolume": "Audio Mirror Volume",
+  "MuteMicrophone": "Mute Microphone",
+  "UnmuteMicrophone": "Unmute Microphone",
+  "MicrophoneVolume": "Microphone Volume",
+
   "SteamVR_Home": "SteamVR Home",
   "Exit_SteamVR_Home": "Exit SteamVR Home",
   "Exit_Game": "Exit Game",
@@ -48,6 +56,8 @@
 
   "Mute": "Mute",
   "Unmute": "Unmute",
+  "Mute_Headset": "Mute Headset",
+  "Unmute_Headset": "Unmute Headset",
 
   "WelcomeHeader": "No Games?",
   "WelcomeMessage": "Building a VR library that comes with you as your hardware changes has never been easier.",

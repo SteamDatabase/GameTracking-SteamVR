@@ -965,7 +965,7 @@
 "[english]Warning_DismissableWarning_SteamVRUpdated_Header"	"SteamVR Update"
 "Warning_DismissableWarning_SteamVRUpdated_Description"	"SteamVR se ha actualizado a la versión %2."
 "[english]Warning_DismissableWarning_SteamVRUpdated_Description"	"SteamVR has been updated to version %2."
-"Warning_DismissableWarning_SteamVRUpdated_Action"	"Ver lo que ha cambiado"
+"Warning_DismissableWarning_SteamVRUpdated_Action"	"Ver qué ha cambiado"
 "[english]Warning_DismissableWarning_SteamVRUpdated_Action"	"See what changed"
 "Warning_DismissableWarning_SteamVRUpdated_ActionURL"	"%1"
 "[english]Warning_DismissableWarning_SteamVRUpdated_ActionURL"	"%1"

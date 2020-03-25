@@ -401,7 +401,7 @@ panorama/layout/content_browser.vxml_c CRC:00ff3b87e0 size:79442
 panorama/layout/friends.vxml_c CRC:007791b920 size:20400
 panorama/layout/friends_item.vxml_c CRC:00af18c84d size:2425
 panorama/layout/hud.vxml_c CRC:00e9832024 size:534
-panorama/layout/notifications_panel.vxml_c CRC:00dfc4602d size:9980
+panorama/layout/notifications_panel.vxml_c CRC:00ed3b3fb7 size:9980
 panorama/layout/recent_apps.vxml_c CRC:00fed2dff6 size:11525
 panorama/layout/settings.vxml_c CRC:003144d75a size:4468
 panorama/layout/tutorial.vxml_c CRC:00e1763481 size:101683
@@ -422,7 +422,7 @@ panorama/styles/content_browser.vcss_c CRC:00e7953ce7 size:116828
 panorama/styles/friends.vcss_c CRC:00402d14ca size:43080
 panorama/styles/hud.vcss_c CRC:003b124f74 size:723
 panorama/styles/info_panels.vcss_c CRC:00442143f1 size:6118
-panorama/styles/notifications_panel.vcss_c CRC:00eaac2ce3 size:3282
+panorama/styles/notifications_panel.vcss_c CRC:004bfa1c9e size:3266
 panorama/styles/puppet.vcss_c CRC:008f104c91 size:7997
 panorama/styles/recent_apps.vcss_c CRC:00df16adaa size:13662
 panorama/styles/settings.vcss_c CRC:0077a1cd5c size:5859

@@ -1236,7 +1236,7 @@
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_Header"	"Switch to a higher framerate?"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Description"	"Je headset ondersteunt verschillende vernieuwingsfrequenties!<br>Deze is nu ingesteld op <b>%1 frames per seconde</b>. Wil je omschakelen naar <b>%2</b>?<br><br><i>Om dezelfde GPU-belasting te behouden wordt de %5 toepassingsresolutie gewijzigd van %3% naar %4%. Je kunt dit en andere instellingen aanpassen in Instellingen > Video.</i>"
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_Description"	"Your headset supports multiple refresh rates!<br>It’s currently set to <b>%1 frames per second</b>. Would you like to switch to <b>%2</b>?<br><br><i>To maintain the same gpu load, %5 application resolution will be adjusted from %3% to %4%. You can always control this and more in Settings > Video.</i>"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Action"	"Omschakelen en herstarten"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Action"	"Schakel om en herstart"
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_Action"	"Switch and restart"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL"	"vrmonitor://refreshrate/switch"
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL"	"vrmonitor://refreshrate/switch"

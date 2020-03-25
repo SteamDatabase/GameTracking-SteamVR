@@ -2559,7 +2559,7 @@
 "[english]Settings_PerApplication_Reprojection_Header"	"Reprojection"
 "Settings_PerApplication_Reprojection_Checkbox"	"ใช้งานโหมดรีโปรเจ็กชันดั้งเดิม"
 "[english]Settings_PerApplication_Reprojection_Checkbox"	"Use legacy reprojection mode"
-"Settings_PerApplication_Reprojection_Description"	"การเลือกตัวเลือกนี้จะปิดการใช้งานรีโปรเจกชันแบบอะซิงโครนัสสำหรับรายการนี้"
+"Settings_PerApplication_Reprojection_Description"	"การทำเครื่องหมายที่ตัวเลือกนี้จะปิดการใช้งานรีโปรเจกชันแบบอะซิงโครนัสสำหรับเกมนี้"
 "[english]Settings_PerApplication_Reprojection_Description"	"Checking this option will disable asynchronous reprojection for this title."
 "FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected"	"มีการเชื่อมต่อ USB อยู่กับสถานีฐานโดยไม่คาดคิด ซึ่งขัดขวางการอัปเดตไร้สายอยู่ในขณะนี้<br><br><font color=#aaaa00>กรุณาถอดสายเคเบิล USB ออกจากสถานีฐาน</font>"
 "[english]FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected"	"An unexpected USB connection to the Base Station is preventing the wireless update.<br><br><font color=#aaaa00>Please unplug the USB cable that is plugged into the Base Station.</font>"
