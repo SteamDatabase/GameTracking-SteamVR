@@ -1320,7 +1320,7 @@
 		"VivePromoDesc"		"Vive users have access to a Vive Headset Avatar and a Vive Logo statue.\n\nYou can find these in the Avatars and Things sections of the menu."
 
 		"HLAlyxPromoTitle"	"New Environments Inspired By Half-Life: Alyx"
-		"HLAlyxPromoDesc"	"We've released two new environments inspired by Half-Life: Alyx!\nBecause you purchased the Valve Index, they're available to you,\nand to anyone you invite to join you, or who joins your public room."
+		"HLAlyxPromoDesc"	"These two environments are now available to everyone!\nVisit City 17 on your own, or invite your friends."
 		"HLAlyxC17AlleywayTitle"	"City 17 Alleyway"
 		"HLAlyxRussellsLabTitle"	"Russell's Lab"
 
