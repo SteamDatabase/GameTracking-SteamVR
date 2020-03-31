@@ -659,6 +659,7 @@ Combo(
 CommandLine
 CommandProcedure
 CommandProcedureList
+Compositor failed initialization with error code %s: "%s"
 ConMsg(char const*, ...)
 ConVar(%s) defined with infinite float value (%s)
 ConVarRef %s doesn't point to an existing ConVar
@@ -882,6 +883,7 @@ IVRCompositor::Submit() failed with error '%s'
 IVRCompositor_024
 IVRCompositor_025
 IVRControlPanel::RegisterExternalWebRoot() failed with error '%s'
+IVRInput version %s unavailable
 IVRInputInternal_002
 IVRInput_007
 IVRMailbox_001
@@ -1072,6 +1074,7 @@ NewNode
 Newline in string literal
 No Buffer
 No Frame Timing data available.
+No headset detected. Please check your headset's connections and try again.
 NoPoseControl
 Non-windows platforms don't support loading of JPG images
 Non-windows platforms don't support loading of PNG images
@@ -1159,7 +1162,6 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_TickDiffSec
 Plat_UUIDFromString
 Plat_UUIDToString
-Please verify you are running the latest version of SteamVR by fully exiting and relaunching Steam,then manually launch SteamVR from your Steam Library.Minimum supported version is v%d.%d.%d.
 PosXYZ
 PostProcessingSystem_001
 PreviewAttachmentModel
@@ -1256,6 +1258,7 @@ SceneUtils_001
 SchemaSystem_001
 SchemaTestExternal_One_001
 SchemaTestExternal_Two_001
+See log for details.
 SendActionToAssertDialog
 SequenceMarkup
 SequenceMarkupList
@@ -1305,8 +1308,9 @@ Stack depth limit hit (%d)
 Stats:
 StatsService_001
 SteamAudio001
+SteamVR failed initialization with error code %s: "%s"Please verify SteamVR is properly installed and try again.
+SteamVR initialization failed!
 SteamVR initialized!
-SteamVR runtime is out of date!
 Stencil mask reduces rendering area by:
 Stereo FOV (H/V):
 Submitting first frame to the compositor
@@ -1403,21 +1407,14 @@ VPhysics2_Interface_001
 VProcessUtils002
 VProfService_001
 VR
-VR - ERROR! Compositor failed initialization with error code %s: "%s"!
-VR - ERROR! VRInput failed initialization!
-VR - ERROR! VrApplications failed initialization with error code %s: "%s"!
 VR - ERROR! VrApplications failed to LaunchInternalProcess( %s, %s, %s ) with error code:%i "%s"
-VR - ERROR! VrOverlay failed initialization with error code %s: "%s"!
 VR - Error calling g_pVr->GenerateWarpMeshVbAndIb()!
-VR - Error! SteamVR failed initialization with error code %s: "%s"!
+VR - Error! %s!
 VR - GPU( %5.2f )
 VR - IdentifyApplicaton steam.app.450390 AFTER VR Init
 VR - IdentifyApplicaton steam.app.450390 BEFORE VR Init
 VR - IdleGPU( %4.2f ) + GPU( %5.2f ) + WaitVsync( %4.2f ) = Total %6.3f ms
-VR - Warning! IVRInput version %s unavailable.
 VR - Warning! SteamVR failed initialization with error code %s: "%s"!
-VR - Warning! VRChaperone failed initialization with error code %s: "%s"!
-VR - Warning! VrRenderModels failed initialization with error code %s: "%s"!
 VR - vr_test_nonblocking_hmd_input available
 VR GPU Compositor benchmark data not available.
 VR Multiview Instancing enabled.
@@ -1429,6 +1426,7 @@ VR render model failed to load!
 VR render model failure: %d
 VR render model texture failed to load!
 VR render model texture failure: %d
+VRChaperone failed initialization with error code %s: "%s"
 VRCompositorError_AlreadySubmitted
 VRCompositorError_DoNotHaveFocus
 VRCompositorError_IncompatibleVersion
@@ -1445,6 +1443,7 @@ VRControlPanel
 VRFlyInputContext
 VRFlyInputHandler
 VRInit
+VRInput failed initialization
 VRPerfHUDDebugView
 VRPerformanceTest.csv
 VR_001
@@ -1545,15 +1544,18 @@ VisBuilder_001
 Vr/MultiviewInstancing
 Vr/PreAllocateScratchRenderTargets
 Vr/TickRateLockedToDisplayRate
+VrApplications failed initialization with error code %s: "%s"
 VrAutoFidelityVisualization
 VrGhostCorrectionTexture
 VrGroup
 VrInputInternal failed initialization with error code %s: "%s"!
-VrMailbox failed initialization with error code %s: "%s"!
+VrMailbox failed initialization with error code %s: "%s"
 VrManifest
-VrOverlayView failed initialization with error code %s: "%s"!
+VrOverlay failed initialization with error code %s: "%s"
+VrOverlayView failed initialization with error code %s: "%s"
 VrPerfHUD
 VrReconstructionQuadLayout
+VrRenderModels failed initialization with error code %s: "%s"
 VrStartup
 VrStencilLayout
 VrSubviewStencilLayout
@@ -2664,19 +2666,19 @@ vpcf7
 vpcf8
 vpcf9
 vr.cpp
-vr.cpp(4505): ERROR! Unknown controller axis type %d!
-vr.cpp(6052): VR - Destroying old VB for Stenciling!
-vr.cpp(6097): VR - Error! VB handle is invalid in CVrStencilRenderer!
-vr.cpp(6241): VR - Destroying old VB for SubviewStenciling!
-vr.cpp(6583): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
-vr.cpp(6764): VR - Destroying old IB for warping!
-vr.cpp(6842): VR - Error! VB handle is invalid in CVrWarpRenderer!
-vr.cpp(6851): VR - Error! IB handle is invalid in CVrWarpRenderer!
-vr.cpp(7001): VR - Destroying old VB for reconstruction eye %d!
-vr.cpp(7008): VR - Destroying old IB for reconstruction eye %d!
-vr.cpp(7029): VR - Destroying old IB for reconstruction!
-vr.cpp(7169): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
-vr.cpp(7178): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(4535): ERROR! Unknown controller axis type %d!
+vr.cpp(6082): VR - Destroying old VB for Stenciling!
+vr.cpp(6127): VR - Error! VB handle is invalid in CVrStencilRenderer!
+vr.cpp(6271): VR - Destroying old VB for SubviewStenciling!
+vr.cpp(6613): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
+vr.cpp(6794): VR - Destroying old IB for warping!
+vr.cpp(6872): VR - Error! VB handle is invalid in CVrWarpRenderer!
+vr.cpp(6881): VR - Error! IB handle is invalid in CVrWarpRenderer!
+vr.cpp(7031): VR - Destroying old VB for reconstruction eye %d!
+vr.cpp(7038): VR - Destroying old IB for reconstruction eye %d!
+vr.cpp(7059): VR - Destroying old IB for reconstruction!
+vr.cpp(7199): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(7208): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
 vr_author_refpt vrfly_refpt_pos vrfly_refpt_ang anchor models/dev/gordon_at_desk.vmdl
 vr_black_level_clamp
 vr_carry_type
