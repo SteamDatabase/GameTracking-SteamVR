@@ -3,6 +3,7 @@
 		"url": "/dashboard/notificationtoast.html",
 		"overlay_key": "system.toast",
 		"type": "overlay",
+		"create_from_mailbox": [ "toast_renderer/main" ],
 		"pixel_size": [ 524, 156 ]
 	},
 	"messageoverlay": {
@@ -10,11 +11,6 @@
 		"overlay_key": "system.messageoverlay",
 		"type": "dashboard",
 		"pixel_size": [ 1024, 600 ]
-	},
-	"progressindicator": {
-		"url": "/dashboard/progressindicator.html",
-		"type": "overlay",
-		"pixel_size": [ 512, 512 ]
 	},
 	"controllerbinding": {
 		"url": "/dashboard/controllerbinding.html",
@@ -45,22 +41,16 @@
 		"persist_visibility": true,
 		"pixel_size": [ 1920, 1080 ]
 	},
-	"settings": {
-		"url": "/dashboard/settings.html",
-		"overlay_key": "system.settings",
-		"type": "overlay",
-		"pixel_size": [ 2048, 2048 ]
-	},
-	"settings_desktop": {
-		"url": "/dashboard/settings.html",
-		"persist_layout": true,
-		"persist_visibility": true,
-		"valid_without_hmd": true,
-		"preload": true,
-		"resizable": false,
-		"type": "window",
-		"pixel_size": [ 800, 600 ]
-	},
+    "settings_desktop": {
+        "url": "/dashboard/settings_desktop.html",
+        "persist_layout": true,
+        "persist_visibility": true,
+        "valid_without_hmd": true,
+        "preload": true,
+        "resizable": false,
+        "type": "window",
+        "pixel_size": [ 800, 600 ]
+    },
 	"fallback": {
 		"url": "/dashboard/fallback.html",
 		"type": "overlay",
@@ -76,6 +66,7 @@
 	"bindingcallouts": {
 		"url": "/dashboard/bindingcallouts.html",
 		"type": "overlay",
+		"create_from_mailbox":  [ "binding_callouts/main" ],
 		"pixel_size": [ 2048, 2048 ]
 	},
 	"scenegraphtest": {

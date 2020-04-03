@@ -282,6 +282,7 @@
 	"Settings_Chaperone_BoundsTransparency": "Transparency",
 	"Settings_Chaperone_Color": "Color",
 	"Settings_Chaperone_ActivationDistance": "Activation Distance (m)",
+	"Settings_Chaperone_WallHeight": "Wall Height (m)",
 	"Settings_Chaperone_SuitableForSmall": "Suitable for small playspaces. Use caution.",
 	"Settings_Chaperone_SuitableForMedium": "Suitable for medium playspaces.",
 	"Settings_Chaperone_SuitableForLarge": "Suitable for large playspaces.",
