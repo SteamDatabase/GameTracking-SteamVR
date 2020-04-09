@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Показать меню выключения",
 	"/actions/lasermouse/in/leftclick": "Нажатие левой кнопки мыши",
 	"/actions/lasermouse/in/rightclick": "Нажатие правой кнопки мыши",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "Закрепить положение мыши",
 	"/actions/lasermouse/in/home": "На главную",
 	"/actions/lasermouse/in/back": "Назад",
 	"/actions/lasermouse/in/moveright": "Движение вправо",

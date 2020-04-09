@@ -310,6 +310,7 @@
   "BindingUI_List_Delete": "Löschen",
   "BindingUI_List_Edit": "Bearbeiten",
   "BindingUI_List_View": "Anzeigen",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Zuletzt aktualisiert: ",
   "BindingUI_List_MinutesPlayed": "Für insgesamt %1$s Minuten gespielt",
   "BindingUI_List_MinutesPlayedThisMonth": "In den letzten 30 Tagen für %1$s Minuten gespielt",

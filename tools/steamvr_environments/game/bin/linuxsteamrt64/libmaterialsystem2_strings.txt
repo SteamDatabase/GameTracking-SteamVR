@@ -1232,7 +1232,7 @@ Options:
 P
 P8
 P@
-PARALLEL_PROCESS material2.cpp:2128
+PARALLEL_PROCESS material2.cpp:2167
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_SET_REPLACE_VALUE
@@ -2228,15 +2228,15 @@ material2.cpp(1240): Error creating fallback shader %s for %s and cannot load er
 material2.cpp(1270): Error creating shader %s for material %s!
 material2.cpp(1275): Error creating shader %s and cannot load error.vfx instead!
 material2.cpp(1283): Error creating static combos for shader %s and error.vfx instead!
-material2.cpp(1806): DxSupportLevel %d not supported!
-material2.cpp(2109): Dynamic Combos should be assumed to be unique for dynamic shader compile! %d != %d
-material2.cpp(2141): Dynamic shader compile failed for %s in material "%s"!
-material2.cpp(2192): Dynamic shader compile failed for %s in material "%s"!
-material2.cpp(2486): Failed call to FindOrLoadStaticComboData()!
-material2.cpp(2697): Too many passes for caller! Ignoring layer %d pass %d
-material2.cpp(2782): All bad! The error material failed in dynamic shader compile!
-material2.cpp(3452): Find a graphics programmer! Trying to bind a "%s" shader that doesn't exist! for %s
-material2.cpp(3946): Unsupported sampler state type for "%s"!
+material2.cpp(1845): DxSupportLevel %d not supported!
+material2.cpp(2148): Dynamic Combos should be assumed to be unique for dynamic shader compile! %d != %d
+material2.cpp(2180): Dynamic shader compile failed for %s in material "%s"!
+material2.cpp(2231): Dynamic shader compile failed for %s in material "%s"!
+material2.cpp(2525): Failed call to FindOrLoadStaticComboData()!
+material2.cpp(2736): Too many passes for caller! Ignoring layer %d pass %d
+material2.cpp(2821): All bad! The error material failed in dynamic shader compile!
+material2.cpp(3491): Find a graphics programmer! Trying to bind a "%s" shader that doesn't exist! for %s
+material2.cpp(3985): Unsupported sampler state type for "%s"!
 material2.cpp(529): Material "%s" is requesting a bad mode "%s"!
 material2.cpp(629): Error! Material "%s" doesn't have any valid layers to get the CVsInputSignatureVector from!
 material2.cpp(661): Error! Material "%s" doesn't have a CVsInputSignatureVector!

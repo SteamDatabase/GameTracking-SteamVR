@@ -24,7 +24,7 @@
 	"PowerMenuHeader": "Trình đơn điện năng",
 	"IPD_Description": "Khoảng cách giữa các thấu kính",
 	"NoSteamWarning": "Steam hiện không khả dụng. Một vài tính năng có thể không hoạt động.",
-	"WakingUpBaseStations": "Đang đánh thức các trạm theo dõi...",
+	"WakingUpBaseStations": "Đang khởi động các trạm theo dõi...",
 	"/input/joystick": "Cần điều khiển",
 	"/input/trackpad": "Bàn cảm ứng",
 	"/input/trigger": "Nút cò",

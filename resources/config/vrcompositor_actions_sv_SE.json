@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "Visa strömmenyn",
 	"/actions/lasermouse/in/leftclick": "Vänster musklick",
 	"/actions/lasermouse/in/rightclick": "Höger musklick",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "Lås musläge",
 	"/actions/lasermouse/in/home": "Gå till startsidan",
 	"/actions/lasermouse/in/back": "Gå tillbaka",
 	"/actions/lasermouse/in/moveright": "Flytta till höger",

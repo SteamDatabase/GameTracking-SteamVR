@@ -9,6 +9,7 @@
 	"messageoverlay": {
 		"url": "/dashboard/messageoverlay.html",
 		"overlay_key": "system.messageoverlay",
+		"create_from_mailbox": [ "message_overlay/main" ],
 		"type": "dashboard",
 		"pixel_size": [ 1024, 600 ]
 	},
@@ -61,7 +62,7 @@
 		"url": "/dashboard/systemui.html",
 		"overlay_key": "system.systemui",
 		"type": "overlay",
-		"pixel_size": [ 2048, 4096 ]
+		"pixel_size": [ 2048, 3072 ]
 	},
 	"bindingcallouts": {
 		"url": "/dashboard/bindingcallouts.html",

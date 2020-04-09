@@ -17,7 +17,7 @@
 	"PowerMenuResetSeatedPosition": "Återställ sittande position",
 	"PowerMenuTurnOffController": "Stäng av kontroll",
 	"PowerMenuQuitSceneApp": "Avsluta %1$s",
-	"PowerMenuQuitSceneApp_NoApp": "Exit App",
+	"PowerMenuQuitSceneApp_NoApp": "Avsluta app",
 	"PowerMenuExitVR": "Avsluta VR",
 	"PowerMenuCancel": "Avbryt",
 	"PowerMenuSteamOverlay": "Steam",
@@ -49,8 +49,8 @@
 	"/user/hand/primary": "Primär hand",
 	"/user/hand/secondary": "Andra hand",
 	"/user/hand/any": "Någon hand",
-	"/user/stylus": "Stylus",
-	"/user/gamepad": "Gamepad",
+	"/user/stylus": "Penna",
+	"/user/gamepad": "Spelkontroll",
 	"/user/foot/left": "Vänster fot",
 	"/user/foot/right": "Höger fot",
 	"/user/shoulder/left": "Vänster axel",
@@ -68,6 +68,6 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Klar",
-	"Resetting_Seated_Origin": "Resetting Seated Origin",
+	"Resetting_Seated_Origin": "Återställer ursprunglig sittande position",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

@@ -310,6 +310,7 @@
   "BindingUI_List_Delete": "Verwijderen",
   "BindingUI_List_Edit": "Bewerken",
   "BindingUI_List_View": "Weergeven",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Laatst bijgewerkt: ",
   "BindingUI_List_MinutesPlayed": "In totaal %1$s minuten gespeeld",
   "BindingUI_List_MinutesPlayedThisMonth": "%1$s minuten gespeeld in de afgelopen 30 dagen",

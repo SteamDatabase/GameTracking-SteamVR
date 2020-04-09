@@ -9,7 +9,7 @@
 	"/actions/system/in/ShowPowerMenu": "전원 메뉴 표시",
 	"/actions/lasermouse/in/leftclick": "왼쪽 마우스 클릭",
 	"/actions/lasermouse/in/rightclick": "오른쪽 마우스 클릭",
-	"/actions/lasermouse/in/lockmouseposition": "Lock Mouse Position",
+	"/actions/lasermouse/in/lockmouseposition": "마우스 위치 고정",
 	"/actions/lasermouse/in/home": "홈으로 이동",
 	"/actions/lasermouse/in/back": "뒤로 가기",
 	"/actions/lasermouse/in/moveright": "오른쪽으로 이동",

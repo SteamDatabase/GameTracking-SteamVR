@@ -310,6 +310,7 @@
   "BindingUI_List_Delete": "Poista",
   "BindingUI_List_Edit": "Muokkaa",
   "BindingUI_List_View": "Katso",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Päivitetty viimeksi: ",
   "BindingUI_List_MinutesPlayed": "Pelattu yhteensä %1$s minuuttia",
   "BindingUI_List_MinutesPlayedThisMonth": "Pelattu yhteensä %1$s minuuttia viimeisen 30 päivän aikana",

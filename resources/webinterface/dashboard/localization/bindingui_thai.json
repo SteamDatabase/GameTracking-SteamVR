@@ -310,6 +310,7 @@
   "BindingUI_List_Delete": "ลบ",
   "BindingUI_List_Edit": "แก้ไข",
   "BindingUI_List_View": "มุมมอง",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "อัปเดตล่าสุด:",
   "BindingUI_List_MinutesPlayed": "ได้เล่นเป็นเวลาทั้งหมด %1$s นาที",
   "BindingUI_List_MinutesPlayedThisMonth": "ได้เล่นเป็นเวลา %1$s นาทีใน 30 วันที่ผ่านมา",
