@@ -2292,11 +2292,13 @@ models/globes/mars/mars.vmesh_c CRC:00180abdbe size:128041
 models/globes/mars/mars.vphys_c CRC:00906eb93b size:17524
 models/hands/8391a8ff/steamvr_hand_right.vanim_c CRC:00fb6447d6 size:7836
 models/hands/ac48803e/steamvr_hand_left.vanim_c CRC:009e7d2a6e size:7836
-models/hands/steamvr_hand_left.vmdl_c CRC:0099620b2a size:5648
-models/hands/steamvr_hand_left.vmesh_c CRC:00bdd297d7 size:119120
+models/hands/steamvr_hand_left.vmdl_c CRC:00a0c4c5a7 size:3610
+models/hands/steamvr_hand_left.vmesh_c CRC:00ed24b3a2 size:119072
+models/hands/steamvr_hand_left.vphys_c CRC:00d83b9b2c size:7572
 models/hands/steamvr_hand_left_ac48803e.vagrp_c CRC:00c1583905 size:7488
-models/hands/steamvr_hand_right.vmdl_c CRC:003cc180c1 size:5664
-models/hands/steamvr_hand_right.vmesh_c CRC:005ade010d size:119168
+models/hands/steamvr_hand_right.vmdl_c CRC:00db98e697 size:3648
+models/hands/steamvr_hand_right.vmesh_c CRC:00f790a1df size:119136
+models/hands/steamvr_hand_right.vphys_c CRC:009029c344 size:7572
 models/hands/steamvr_hand_right_8391a8ff.vagrp_c CRC:0066011441 size:7488
 models/hands/vr_glove_destinations.vmat_c CRC:004c1e502a size:6080
 models/hands/vr_glove_destinations_color_psd_36d8afc2.vtex_c CRC:009e4efb13 size:5594292

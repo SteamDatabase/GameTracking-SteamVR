@@ -7379,7 +7379,6 @@ Could not create an instance of
 Could not find type "
 Could not load VR script system. Check for vr_scriptsystem under game/scripts/vscripts
 Couldn't alloc player sound slot!
-Couldn't create %s!
 Couldn't create weapon %s to give NPC %s.
 Couldn't find HLTV client player.
 Couldn't find any entity named '%s'
@@ -8434,6 +8433,7 @@ Failed to stand at %d
 Failed to tokenize command "%s"!
 Failed to update on remove script entity %s of type %s: script entity instance is null
 Failed to walk between nodes
+Failed to write AIN to: %s!
 FakeScriptThinkFunc
 False
 FastHexToBuffer() wants non-negative integers, not
@@ -14499,7 +14499,6 @@ WARNING: Failed to load propdata.txt: %s
 WARNING: Failed to read propdata.txt
 WARNING: Ignoring invalid gameinfo MaxNetworkableEntities %d
 WARNING: Ignoring invalid gameinfo MaxNonNetworkableEntities %d
-WARNING: Level contains NPCs but has no path nodes
 WARNING: Looping path for %s
 WARNING: Momentary door (%s) start position not between 0 and 1.  Clamping.
 WARNING: Too many essential breakpieces in one frame - this may cause performance problems!
