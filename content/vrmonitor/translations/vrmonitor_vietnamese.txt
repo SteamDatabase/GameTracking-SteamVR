@@ -2414,7 +2414,7 @@
 "[english]SteamVRSystemState_Connecting_Application_InsideOutCamera"	"Make sure headset can see the play area"
 "SteamVRSystemState_Connecting_Application_OutsideInCamera"	"Hãy đảm bảo camera theo dõi có thể thấy mũ chụp"
 "[english]SteamVRSystemState_Connecting_Application_OutsideInCamera"	"Make sure tracking cameras can see the headset"
-"SteamVRSystemState_Standby_Application"	"Mang mũ chụp vào để đánh thức VR"
+"SteamVRSystemState_Standby_Application"	"Đeo mũ chụp để khởi động trạng thái VR"
 "[english]SteamVRSystemState_Standby_Application"	"Put on your headset to wake VR"
 "SteamVRSystemState_PseudoState_Welcome_Application"	"Xin hãy cắm dây mũ chụp VR của bạn"
 "[english]SteamVRSystemState_PseudoState_Welcome_Application"	"Please plug in your VR headset"

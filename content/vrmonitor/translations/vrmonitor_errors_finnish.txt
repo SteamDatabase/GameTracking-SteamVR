@@ -867,7 +867,7 @@
 "[english]Warning_DismissableWarning_NewDriverInstalled_Action"	"Restart SteamVR"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows 10 -päivitys"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Header"	"Windows 10 Update"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Käyttääksesi SteamVR:ää Windowsin yhdistetyssä todellisuudessa sinun tarvitsee asentaa viimeisin Windows-päivitys."
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"Käyttääksesi SteamVR:ää Windows Mixed Realitylla sinun tulee asentaa viimeisin Windows-päivitys."
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Description"	"To use SteamVR with Windows Mixed Reality, you need to install the latest Windows update."
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Lisätietoja"
 "[english]VRInitError_VendorSpecific_WindowsNotInDevMode_Action"	"Learn more"

@@ -1027,7 +1027,7 @@
 "[english]VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL"	"https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 "VRInitError_Compositor_D3D11HardwareRequired_Header"	"更新时间"
 "[english]VRInitError_Compositor_D3D11HardwareRequired_Header"	"Time to Upgrade"
-"VRInitError_Compositor_D3D11HardwareRequired_Description"	"SteamVR 无法定位 DirectX 11 兼容硬件或驱动程序。您也许需要更新系统。"
+"VRInitError_Compositor_D3D11HardwareRequired_Description"	"SteamVR 未能找到 DirectX 11 兼容硬件或驱动程序。您或许需要更新您的系统。"
 "[english]VRInitError_Compositor_D3D11HardwareRequired_Description"	"SteamVR was unable to locate DirectX 11 compatible hardware or drivers.  You may need to upgrade your system."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL"	"https://www.oculus.com/rift-patch/"
 "[english]VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL"	"https://www.oculus.com/rift-patch/"
@@ -1181,7 +1181,7 @@
 "[english]Warning_DismissableWarning_Windows8_ActionURL"	"https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Header"	"头戴式显示器端线缆已断开连接"
 "[english]Warning_DismissableWarning_HeadsetTetherDisconnected_Header"	"Tether Disconnected at Headset"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Description"	"您的头戴显示器端的线缆已断开。请确保面部衬垫后面的连接已连接紧固。"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Description"	"您的头戴显示器端的线缆已断开。请确保面部衬垫后的连接已接紧。"
 "[english]Warning_DismissableWarning_HeadsetTetherDisconnected_Description"	"Your headset's cable has become disconnected at the headset. Please ensure the connection behind the face gasket is firmly seated."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action"	"更多信息"
 "[english]Warning_DismissableWarning_HeadsetTetherDisconnected_Action"	"More info"
@@ -1265,7 +1265,7 @@
 "[english]VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
 "Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"停止支持的设备"
 "[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header"	"Device No Longer Supported"
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>您的预生产 %1 不再受到支持。</font> <br><br>此设备将不再收到固件更新，且功能预计会减少。请方便时及早替换。<br><br>（hwid: %2）"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>您的 %1 工程机不再受到支持。</font> <br><br>此设备将不再收到固件更新，并将逐渐失去功能。请于方便时及早替换。<br><br>（hwid: %2）"
 "[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Your pre-production %1 is no longer supported.</font> <br><br> This device will no longer receive firmware updates, and diminished functionality is expected. Please replace at your earliest convenience. <br><br>(hwid: %2)"
 }
 }

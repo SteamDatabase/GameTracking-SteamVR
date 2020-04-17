@@ -663,7 +663,7 @@
 "[english]WorkshopUpload_Error_SteamClientNotFound"	"Cannot start the SteamVR Workshop Upload Tool because the Steam Client is not running."
 "Popover_BaseStationNoPowerManagement_Header"	"Управление на захранването"
 "[english]Popover_BaseStationNoPowerManagement_Header"	"Power Management"
-"Popover_BaseStationNoPowerManagement_Description"	"Тази базова станция не е проектирана да поддържа отдалечено управление на захранването."
+"Popover_BaseStationNoPowerManagement_Description"	"Тази базова станция не е проектирана да поддържа дистанционно управление на захранването."
 "[english]Popover_BaseStationNoPowerManagement_Description"	"This base station is not designed to support remote power management."
 "VRInitError_Internal_Header"	"Неуспех на SteamVR"
 "[english]VRInitError_Internal_Header"	"SteamVR Fail"

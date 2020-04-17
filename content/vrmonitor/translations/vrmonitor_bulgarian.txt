@@ -1980,7 +1980,7 @@
 "[english]DismissableWarning_BasestationsSyncOnBeamChannelConflict"	"Sync on Beam Channel Conflict (0x400000)"
 "Settings_PowerOffBaseStations_Explanation"	"Базовите станции с управление на захранването влизат в режим за готовност след 60 секунди, когато SteamVR не е използвано и се събуждат, щом SteamVR стартира. Тази настройка не се препоръчва за споделени проследявани пространства с множество SteamVR потребители."
 "[english]Settings_PowerOffBaseStations_Explanation"	"Power managed Base Stations go into standby mode after 60 seconds when SteamVR is not in use and wake up when SteamVR starts. This setting is not recommended for shared tracking spaces with multiple SteamVR users."
-"Settings_BaseStationsWakeUpAll_Explanation"	"Събужда всички базови станции, участващи в отдалечено управление на захранването."
+"Settings_BaseStationsWakeUpAll_Explanation"	"Събужда всички базови станции, участващи в дистанционно управление на захранването."
 "[english]Settings_BaseStationsWakeUpAll_Explanation"	"Wakes all base stations participating in remote power management."
 "Settings_Bluetooth_ServicesNotAvailable"	"Bluetooth не e достъпно"
 "[english]Settings_Bluetooth_ServicesNotAvailable"	"Bluetooth not available"

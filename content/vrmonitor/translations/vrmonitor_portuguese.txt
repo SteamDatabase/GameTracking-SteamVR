@@ -1364,7 +1364,7 @@
 "[english]WorkshopUpload_Progress_Title"	"SteamVR Workshop"
 "WorkshopUpload_Progress_Start"	"A contactar o Workshop do SteamVR..."
 "[english]WorkshopUpload_Progress_Start"	"Contacting SteamVR Workshop..."
-"WorkshopUpload_Progress_PreparingConfig"	"A preparar a configuração..."
+"WorkshopUpload_Progress_PreparingConfig"	"A preparar configuração..."
 "[english]WorkshopUpload_Progress_PreparingConfig"	"Preparing configuration..."
 "WorkshopUpload_Progress_PreparingContent"	"A processar ficheiros..."
 "[english]WorkshopUpload_Progress_PreparingContent"	"Processing files..."
