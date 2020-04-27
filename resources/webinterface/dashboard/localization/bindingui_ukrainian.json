@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "Видалити",
   "BindingUI_List_Edit": "Редагувати",
   "BindingUI_List_View": "Переглянути",
-  "BindingUI_List_Select": "Activate",
+  "BindingUI_List_Select": "Активувати",
   "BindingUI_List_LastUpdated": "Востаннє оновлено: ",
   "BindingUI_List_MinutesPlayed": "Усього зіграно %1$s хв",
   "BindingUI_List_MinutesPlayedThisMonth": "Зіграно %1$s хв за останні 30 днів",

@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "Slett",
   "BindingUI_List_Edit": "Rediger",
   "BindingUI_List_View": "Vis",
-  "BindingUI_List_Select": "Activate",
+  "BindingUI_List_Select": "Aktiver",
   "BindingUI_List_LastUpdated": "Sist oppdatert: ",
   "BindingUI_List_MinutesPlayed": "Spilt i %1$s minutter totalt",
   "BindingUI_List_MinutesPlayedThisMonth": "Spilt i %1$s minutter i løpet av de siste 30 dagene",
