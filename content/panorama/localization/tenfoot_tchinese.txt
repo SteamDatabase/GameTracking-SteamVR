@@ -651,7 +651,7 @@
 "VRSettingsCamera_RoomViewMode_VideoTransluscent"	"半透明透視"
 "[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsBindingUITitle"	"控制器配置"
-"[english]VRSettingsBindingUITitle"	"Controller Settings"
+"[english]VRSettingsBindingUITitle"	"Controller Binding"
 "VRSettingsTrackerUITitle"	"管理 Vive 移動定位器"
 "[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 "Panorama_Lang_Latam_Spanish"	"拉美西班牙文"

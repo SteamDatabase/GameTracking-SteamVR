@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "Изтриване",
   "BindingUI_List_Edit": "Редактиране",
   "BindingUI_List_View": "Преглед",
-  "BindingUI_List_Select": "Активиране",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Последно обновено: ",
   "BindingUI_List_MinutesPlayed": "Играно за общо %1$s минути",
   "BindingUI_List_MinutesPlayedThisMonth": "Играно за общо %1$s минути през последните 30 дни",

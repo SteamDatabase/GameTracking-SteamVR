@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "Törlés",
   "BindingUI_List_Edit": "Szerkesztés",
   "BindingUI_List_View": "Megnézés",
-  "BindingUI_List_Select": "Aktiválás",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Legutóbb frissítve: ",
   "BindingUI_List_MinutesPlayed": "Összesen %1$s percet játszva",
   "BindingUI_List_MinutesPlayedThisMonth": "Összesen %1$s percet játszva az elmúlt 30 napban",

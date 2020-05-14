@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "Șterge",
   "BindingUI_List_Edit": "Editează",
   "BindingUI_List_View": "Vizualizează",
-  "BindingUI_List_Select": "Activează",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Ultima actualizare: ",
   "BindingUI_List_MinutesPlayed": "Played for %1$s minutes total",
   "BindingUI_List_MinutesPlayedThisMonth": "Played for %1$s minutes in the last 30 days",

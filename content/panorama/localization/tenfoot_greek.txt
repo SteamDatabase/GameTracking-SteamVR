@@ -654,8 +654,8 @@
 "[english]VRSettingsCamera_RoomViewMode_VideoTransluscent"	"Translucent Pass-Through"
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Αδιαφανές διαχωριστικό"
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
-"VRSettingsBindingUITitle"	"Ρυθμίσεις χειριστηρίου"
-"[english]VRSettingsBindingUITitle"	"Controller Settings"
+"VRSettingsBindingUITitle"	"Διάταξη χειριστηρίου"
+"[english]VRSettingsBindingUITitle"	"Controller Binding"
 "VRSettingsTrackerUITitle"	"Διαχείριση ανιχνευτών Vive"
 "[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 "Panorama_Lang_Latam_Spanish"	"Λατ. Αμερική"
@@ -670,6 +670,4 @@
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"Αναμονή για απόκριση εφαρμογής"
 "[english]App_Not_Responding"	"Waiting for application to respond"
-"VRSettingsDisplaySettingsTitle"	"Ρυθμίσεις προβολής"
-"[english]VRSettingsDisplaySettingsTitle"	"Display Settings"
 }

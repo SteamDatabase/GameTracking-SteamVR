@@ -655,7 +655,7 @@
 "VRSettingsCamera_RoomViewMode_VideoOpaque"	"Cản quang có thể xuyên qua"
 "[english]VRSettingsCamera_RoomViewMode_VideoOpaque"	"Opaque Pass-Through"
 "VRSettingsBindingUITitle"	"Gán phím tay cầm"
-"[english]VRSettingsBindingUITitle"	"Controller Settings"
+"[english]VRSettingsBindingUITitle"	"Controller Binding"
 "VRSettingsTrackerUITitle"	"Quản lý máy theo dõi Vive"
 "[english]VRSettingsTrackerUITitle"	"Manage Vive Trackers"
 "Panorama_Lang_Latam_Spanish"	"Latam"
@@ -670,6 +670,4 @@
 "[english]BindingCallout_Header"	"SHOW CONTROLS"
 "App_Not_Responding"	"Ứng dụng không phản hồi..."
 "[english]App_Not_Responding"	"Waiting for application to respond"
-"VRSettingsDisplaySettingsTitle"	"Thiết lập hiển thị"
-"[english]VRSettingsDisplaySettingsTitle"	"Display Settings"
 }

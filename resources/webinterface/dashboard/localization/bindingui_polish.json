@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "Usuń",
   "BindingUI_List_Edit": "Edytuj",
   "BindingUI_List_View": "Zobacz",
-  "BindingUI_List_Select": "Aktywuj",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Ostatnia aktualizacja: ",
   "BindingUI_List_MinutesPlayed": "Grano przez łącznie %1$s min",
   "BindingUI_List_MinutesPlayedThisMonth": "Grano przez łącznie %1$s min w ciągu ostatnich 30 dni",
