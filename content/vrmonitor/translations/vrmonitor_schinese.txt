@@ -2591,17 +2591,5 @@
 "[english]BS_PowerManagement_Identify"	"Click to identify Base Station."
 "BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 需要更新设备才能启用设备识别。"
 "[english]BS_PowerManagement_IdentifyRequiresFirmareUpdate"	"%1 requires a device update to enable device identification."
-"MenuAction_BluetoothSettings"	"蓝牙设置"
-"[english]MenuAction_BluetoothSettings"	"Bluetooth Settings"
-"MenuAction_BaseStationSettings"	"定位器设置"
-"[english]MenuAction_BaseStationSettings"	"Base Station Settings"
-"Settings_Bluetooth_Title"	"蓝牙设置"
-"[english]Settings_Bluetooth_Title"	"Bluetooth Settings"
-"Settings_BaseStations_Title"	"定位器设置"
-"[english]Settings_BaseStations_Title"	"Base Station Settings"
-"Settings_Developer_Title"	"开发者设置"
-"[english]Settings_Developer_Title"	"Developer Settings"
-"MenuAction_PerformanceGraph"	"显示性能图"
-"[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
 }
 }

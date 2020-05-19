@@ -6,4 +6,5 @@ Protobufs/google/
 *.so
 *.vpk
 *.vpk.manifest.txt
+*.bin
 

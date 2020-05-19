@@ -1947,7 +1947,7 @@
 "[english]BugReporter_SubmissionTimeout"	"Submission Timeout.\n\nThe network upload is taking longer than expected. Please try again later.\n"
 "BugReporter_ProgressSubmittingPercent"	"提交中…%1%"
 "[english]BugReporter_ProgressSubmittingPercent"	"Submitting...%1%"
-"Settings_HomeAppCheck"	"使用 SteamVR 家"
+"Settings_HomeAppCheck"	"SteamVR 家測試版"
 "[english]Settings_HomeAppCheck"	"Use SteamVR Home"
 "Settings_HomeAppDesc"	"新的 SteamVR 家支援多種居家空間、社交功能等等。立即加入測試並於討論區發表意見回饋。"
 "[english]Settings_HomeAppDesc"	"Enjoy virtual environments, social features, and more."

@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "Xóa",
   "BindingUI_List_Edit": "Sửa",
   "BindingUI_List_View": "Xem",
-  "BindingUI_List_Select": "Kích hoạt",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Cập nhật lần cuối vào: ",
   "BindingUI_List_MinutesPlayed": "Đã chơi tổng cộng %1$s phút",
   "BindingUI_List_MinutesPlayedThisMonth": "Đã chơi tổng cộng %1$s phút trong 30 ngày qua",

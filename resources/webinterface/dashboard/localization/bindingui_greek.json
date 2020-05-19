@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "Διαγραφή",
   "BindingUI_List_Edit": "Επεξεργασία",
   "BindingUI_List_View": "Προβολή",
-  "BindingUI_List_Select": "Ενεργοποίηση",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Τελευταία ενημέρωση: ",
   "BindingUI_List_MinutesPlayed": "Παίχθηκε για %1$s λεπτά συνολικά",
   "BindingUI_List_MinutesPlayedThisMonth": "Παίχθηκε για %1$s λεπτά τις τελευταίες 30 μέρες",

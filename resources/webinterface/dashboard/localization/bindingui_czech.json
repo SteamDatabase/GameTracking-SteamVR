@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "Odstranit",
   "BindingUI_List_Edit": "Upravit",
   "BindingUI_List_View": "Zobrazit",
-  "BindingUI_List_Select": "Aktivovat",
+  "BindingUI_List_Select": "Activate",
   "BindingUI_List_LastUpdated": "Poslední aktualizace:",
   "BindingUI_List_MinutesPlayed": "Používáno celkem %1$s minut",
   "BindingUI_List_MinutesPlayedThisMonth": "Používáno %1$s minut v posledních 30 dnech",

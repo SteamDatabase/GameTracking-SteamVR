@@ -7,6 +7,7 @@ echo "Processing SteamVR..."
 
 ProcessDepot ".so"
 ProcessVPK
+ProcessToolAssetInfo
 FixUCS2
 
 CreateCommit "$(cat bin/version.txt | grep -o '[0-9\.]*')" "$1"
