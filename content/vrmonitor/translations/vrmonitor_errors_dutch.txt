@@ -715,7 +715,7 @@
 "[english]Warning_DismissableWarning_Windows8_Header"	"Time to update Windows"
 "Warning_DismissableWarning_Windows8_Description"	"SteamVR wordt niet door Windows 8 ondersteund. Voor de beste resultaten kun je naar Windows 8.1 of Windows 10 upgraden."
 "[english]Warning_DismissableWarning_Windows8_Description"	"SteamVR is not supported on Windows 8. Please upgrade to Windows 8.1 or Windows 10 for the best results."
-"Warning_DismissableWarning_DisplayInExtendedMode_Header"	"Headsetopmerking"
+"Warning_DismissableWarning_DisplayInExtendedMode_Header"	"Opmerking voor headset"
 "[english]Warning_DismissableWarning_DisplayInExtendedMode_Header"	"Headset Notice"
 "Warning_DismissableWarning_DisplayInExtendedMode_Description"	"De uitgebreide modus wordt niet aanbevolen. Schakel over naar de directe modus voor de beste resultaten."
 "[english]Warning_DismissableWarning_DisplayInExtendedMode_Description"	"SteamVR has detected your headset running as a monitor. For best results, please switch to Direct Display Mode."

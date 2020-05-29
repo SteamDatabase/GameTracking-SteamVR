@@ -16,6 +16,7 @@
 	"controllerbinding": {
 		"url": "/dashboard/controllerbinding.html",
 		"type": "dashboard",
+		"create_from_mailbox": [ "bindingui/Overlay" ],
 		"pixel_size": [ 1920, 1080 ]
 	},
 	"controllerbinding_desktop": {

@@ -310,7 +310,7 @@
   "BindingUI_List_Delete": "删除",
   "BindingUI_List_Edit": "编辑",
   "BindingUI_List_View": "查看",
-  "BindingUI_List_Select": "Activate",
+  "BindingUI_List_Select": "激活",
   "BindingUI_List_LastUpdated": "最后更新：",
   "BindingUI_List_MinutesPlayed": "总共游玩了 %1$s 分钟",
   "BindingUI_List_MinutesPlayedThisMonth": "在过去 30 天内游玩了 %1$s 分钟",
