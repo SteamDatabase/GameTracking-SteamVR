@@ -2532,7 +2532,7 @@
 "[english]BS20_ConfigureChannel_RSSI"	"RSSI: %1"
 "Key_Escape_Abbreviation"	"ESC"
 "[english]Key_Escape_Abbreviation"	"ESC"
-"HeadsetView_Title"	"Огляд ВР"
+"HeadsetView_Title"	"Вигляд ВР"
 "[english]HeadsetView_Title"	"VR View"
 "HeadsetView_MenuLabel"	"Меню"
 "[english]HeadsetView_MenuLabel"	"Menu"

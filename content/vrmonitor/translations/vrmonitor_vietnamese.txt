@@ -711,6 +711,8 @@
 "[english]FrameTiming_Compositor"	"Compositor"
 "FrameTiming_Application"	"Ứng dụng"
 "[english]FrameTiming_Application"	"Application"
+"FrameTiming_Handoff"	"Cắt"
+"[english]FrameTiming_Handoff"	"Handoff"
 "FrameTiming_LateStart"	"Bắt đầu chậm"
 "[english]FrameTiming_LateStart"	"Late Start"
 "Settings_Camera_EnableCamera"	"Bật Camera"
