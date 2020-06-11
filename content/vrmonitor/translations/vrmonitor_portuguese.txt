@@ -239,7 +239,7 @@
 "[english]MonitorController_LoadPlaylist"	"Load Playlist"
 "MonitorController_Information_Title"	"SteamVR"
 "[english]MonitorController_Information_Title"	"SteamVR"
-"MonitorController_RestartSystemNotPossible"	"Neste momento, o SteamVR não pode ser reiniciado automaticamente. \nSai do SteamVR e tenta de novo. Se algum problema continuar, reinicia o teu computador."
+"MonitorController_RestartSystemNotPossible"	"Neste momento, o SteamVR não pode ser reiniciado automaticamente. \nSai do SteamVR e tenta de novo. Se o problema persistir, reinicia o teu computador."
 "[english]MonitorController_RestartSystemNotPossible"	"At this time SteamVR cannot be restarted automatically. \nPlease quit SteamVR and try again. If issues persist, please restart your computer."
 "MonitorController_NotAbleToMakeCompositorFullscreen"	"O SteamVR está a ter problemas em ativar o modo de ecrã completo."
 "[english]MonitorController_NotAbleToMakeCompositorFullscreen"	"SteamVR is having trouble enabling fullscreen mode."

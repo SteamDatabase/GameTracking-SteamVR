@@ -206,15 +206,34 @@
 	"Settings_MimeTypes_Pancake_Header": "Select an application to launch 2D applications in",
 
 	"Settings_Camera_EnableCamera": "Enable Camera",
-	"Settings_Camera_AllowCameraInDashboard": "Show Camera on Controller",
-	"Settings_Camera_AllowCameraInDashboard_Desc": "Turns on a camera window attached to your controller when the Dashboard is up.",
+	"Settings_Camera_ShowOnController": "Show Camera on Controller",
+	"Settings_Camera_ShowOnController_Desc": "Turns on a camera window attached to your controller when the Dashboard is up.",
 	"Settings_Camera_AllowCameraForChaperoneBounds": "Show Camera at Room Edge",
 	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
-	"Settings_Camera_AllowCameraForRoomView": "Enable Room View",
+	"Settings_Camera_AllowCameraForRoomView": "Room View",
 	"Settings_Camera_AllowCameraForRoomView_Desc": "Access Room View at any time by double clicking the System button",
 	"Settings_Camera_Compatibility": "Camera rate",
 	"Settings_Camera_Rate_Hz": "Camera Rate (Hz)",
 	"Settings_Camera_CompatibilityExplanation": "If you experience a loss of tracking you may want to set a lower Camera Rate, disable the camera, or try a different USB port.",
+
+	"Settings_Camera_RoomViewStyle": "Room View Style",
+	"Settings_Camera_RoomViewStyle_EdgeA": "Colored Edges",
+	"Settings_Camera_RoomViewStyle_EdgeB": "Colored Ghosts",
+	"Settings_Camera_RoomViewStyle_VideoTranslucent": "Translucent Pass-Through",
+	"Settings_Camera_RoomViewStyle_VideoOpaque": "Opaque Pass-Through",
+
+
+	"Settings_CameraTest": "Test camera and performance",
+	"Settings_StartCameraTest": "Start Test",
+	"CameraTest_CheckingCamera": "Checking camera...",
+	"CameraTest_CheckingTracking": "Checking tracking with camera...",
+	"CameraTest_CameraFailed": "Camera communication failed",
+	"CameraTest_TrackingFailed": "Tracking failed with camera enabled",
+	"CameraTest_Success": "Camera Test Passed",
+	"CameraTest": "Camera Test",
+	"CameraTestStatus_Evaluating": "Checking",
+	"CameraTestStatus_Success": "Success",
+	"CameraTestStatus_Failure": "Failed",
 
 	"Advanced_Appearance": "Appearance",
 	"Settings_Appearance_Background": "Background",
@@ -311,28 +330,10 @@
 	"Settings_ToggleButton_Disable": "Disable",
 	"Settings_ToggleButton_Enable": "Enable",
 
+	"Settings_2D": "2D",
+	"Settings_3D": "3D",
+
 	"Settings_Header_SteamVR": "SteamVR Settings",
-
-	"Settings_CameraTest": "Test camera and performance",
-	"Settings_StartCameraTest": "Start Test",
-
-	"CameraTest_CheckingCamera": "Checking camera...",
-	"CameraTest_CheckingTracking": "Checking tracking with camera...",
-	"CameraTest_CameraFailed": "Camera communication failed",
-	"CameraTest_TrackingFailed": "Tracking failed with camera enabled",
-	"CameraTest_Success": "Camera Test Passed",
-	"CameraTest": "Camera Test",
-
-	"CameraTestStatus_Evaluating": "Checking",
-	"CameraTestStatus_Success": "Success",
-	"CameraTestStatus_Failure": "Failed",
-
-	"Settings_CameraChaperone_RoomViewMode": "Room View Camera Mode",
-
-	"CameraRoomViewMode_EdgeA": "Colored Edges",
-	"CameraRoomViewMode_EdgeB": "Colored Ghosts",
-	"CameraRoomViewMode_VideoTranslucent": "Translucent Pass-Through",
-	"CameraRoomViewMode_VideoOpaque": "Opaque Pass-Through",
 
 	"Settings_MustRestart_Description": "SteamVR must be restarted for some changes to take effect.",
 	"Settings_MustRestart_RestartSteamVR_Button": "Restart SteamVR",

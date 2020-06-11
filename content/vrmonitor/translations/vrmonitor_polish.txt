@@ -1052,7 +1052,7 @@
 "[english]DismissableWarning_RunTutorialAgain"	"Run Tutorial Again (0x0001)"
 "DismissableWarning_BasestationsTooFarApart"	"Stacje bazowe są zbyt daleko od siebie (0x0002)"
 "[english]DismissableWarning_BasestationsTooFarApart"	"Base Stations too far apart (0x0002)"
-"DismissableWarning_DismissButton"	"Odrzuć"
+"DismissableWarning_DismissButton"	"Zamknij"
 "[english]DismissableWarning_DismissButton"	"Dismiss"
 "DismissableWarning_OpticalBasestationSyncWarning"	"Ostrzeżenie o synchronizacji wizualnej stacji bazowych (0x0004)"
 "[english]DismissableWarning_OpticalBasestationSyncWarning"	"Optical Base Station Sync Warning (0x0004)"
