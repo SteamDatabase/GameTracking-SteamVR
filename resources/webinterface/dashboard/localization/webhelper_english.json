@@ -20,6 +20,7 @@
 	"Settings":	"Settings",
 	"PowerMenuResetSeatedPosition": "Reset Seated Position",
 	"PowerMenuResetStandingPosition": "Reset Standing Position",
+	"Resetting_Countdown" : "Resetting...",
 	"PowerMenuTurnOffController": "Turn Off Controller",
 	"PowerMenuQuitSceneApp": "Exit %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Exit App",
@@ -83,9 +84,6 @@
  	"OriginString_Controller": "%2$s",
 
 	"KeyboardDone" : "Done",
-
-	"Resetting_Seated_Origin" : "Resetting Seated Origin",
-	"Resetting_Standing_Origin" : "Resetting Standing Origin",
 
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

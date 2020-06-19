@@ -2610,5 +2610,13 @@
 "[english]Settings_Developer_Title"	"Developer Settings"
 "MenuAction_PerformanceGraph"	"Bật đồ thị hiệu năng"
 "[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
+"Advanced_NormalFrame"	"Khung hình bình thường"
+"[english]Advanced_NormalFrame"	"Normal Frame"
+"Advanced_MotionSmoothedFrame"	"Chiếu lại có làm mượt chuyển động"
+"[english]Advanced_MotionSmoothedFrame"	"Reprojected w/ Motion Smoothing"
+"Advanced_ReprojectedFrame"	"Chiếu lại không làm mượt chuyển động"
+"[english]Advanced_ReprojectedFrame"	"Reprojected w/o Motion Smoothing"
+"Advanced_DroppedFrame"	"Lỗi hiển thị"
+"[english]Advanced_DroppedFrame"	"Display Error"
 }
 }

@@ -2614,5 +2614,15 @@
 "[english]Settings_Developer_Title"	"Developer Settings"
 "MenuAction_PerformanceGraph"	"Изобразяване на графика за производителността"
 "[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
+"Advanced_NormalFrame"	"Нормален кадър"
+"[english]Advanced_NormalFrame"	"Normal Frame"
+"Advanced_MotionSmoothedFrame"	"Повторна проекция със заглаждане за движението"
+"[english]Advanced_MotionSmoothedFrame"	"Reprojected w/ Motion Smoothing"
+"Advanced_ReprojectedFrame"	"Повторна проекция без заглаждане за движението"
+"[english]Advanced_ReprojectedFrame"	"Reprojected w/o Motion Smoothing"
+"Advanced_DroppedFrame"	"Екранна грешка"
+"[english]Advanced_DroppedFrame"	"Display Error"
+"Advanced_AppRequestedThrottling"	"Приложението изиска дроселиране (обвързано с процесора)"
+"[english]Advanced_AppRequestedThrottling"	"App requested throttling (cpu bound)"
 }
 }

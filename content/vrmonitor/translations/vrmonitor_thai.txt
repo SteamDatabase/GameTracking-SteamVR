@@ -2609,5 +2609,15 @@
 "[english]Settings_Developer_Title"	"Developer Settings"
 "MenuAction_PerformanceGraph"	"แสดงกราฟประสิทธิภาพ"
 "[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
+"Advanced_NormalFrame"	"เฟรมปกติ"
+"[english]Advanced_NormalFrame"	"Normal Frame"
+"Advanced_MotionSmoothedFrame"	"รีโปรเจกชันมีความเคลื่อนไหวแบบราบรื่น"
+"[english]Advanced_MotionSmoothedFrame"	"Reprojected w/ Motion Smoothing"
+"Advanced_ReprojectedFrame"	"รีโปรเจกชันไม่มีความเคลื่อนไหวแบบราบรื่น"
+"[english]Advanced_ReprojectedFrame"	"Reprojected w/o Motion Smoothing"
+"Advanced_DroppedFrame"	"ข้อผิดพลาดการแสดงผล"
+"[english]Advanced_DroppedFrame"	"Display Error"
+"Advanced_AppRequestedThrottling"	"แอปที่จำเป็นถูกยับยั้งไว้ (ขอบเขต CPU)"
+"[english]Advanced_AppRequestedThrottling"	"App requested throttling (cpu bound)"
 }
 }

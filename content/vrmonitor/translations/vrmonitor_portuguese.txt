@@ -2626,5 +2626,15 @@
 "[english]Settings_Developer_Title"	"Developer Settings"
 "MenuAction_PerformanceGraph"	"Mostrar gráfico de desempenho"
 "[english]MenuAction_PerformanceGraph"	"Display Performance Graph"
+"Advanced_NormalFrame"	"Frame normal"
+"[english]Advanced_NormalFrame"	"Normal Frame"
+"Advanced_MotionSmoothedFrame"	"Reprojetado com suav. de movimento"
+"[english]Advanced_MotionSmoothedFrame"	"Reprojected w/ Motion Smoothing"
+"Advanced_ReprojectedFrame"	"Reprojetado sem suav. de movimento"
+"[english]Advanced_ReprojectedFrame"	"Reprojected w/o Motion Smoothing"
+"Advanced_DroppedFrame"	"Erro de apresentação"
+"[english]Advanced_DroppedFrame"	"Display Error"
+"Advanced_AppRequestedThrottling"	"A app solicitou limitação (pelo processador)"
+"[english]Advanced_AppRequestedThrottling"	"App requested throttling (cpu bound)"
 }
 }
