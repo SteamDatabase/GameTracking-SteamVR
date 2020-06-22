@@ -1,0 +1,13 @@
+scripts/soundscapes_manifest.txt
+soundevents/soundevents_addon.vsndevts
+addoninfo.txt
+panorama/localization/addon_english.txt
+scripts/soundscapes_template.txt
+maps/placeholder.txt
+materials/placeholder.txt
+models/placeholder.txt
+panorama/images/custom_destination/placeholder.txt
+panorama/layout/custom_destination/placeholder.txt
+panorama/scripts/custom_destination/placeholder.txt
+panorama/styles/custom_destination/placeholder.txt
+particles/placeholder.txt
