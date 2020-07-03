@@ -15,6 +15,8 @@
 	"Button_Retry": "Reintentar",
 	"Settings": "Configuración",
 	"PowerMenuResetSeatedPosition": "Restablecer posición sentado",
+	"PowerMenuResetStandingPosition": "Restablecer posición de pie",
+	"Resetting_Countdown": "Restableciendo...",
 	"PowerMenuTurnOffController": "Apagar el mando",
 	"PowerMenuQuitSceneApp": "Salir de %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Salir de la aplicación",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Hecho",
-	"Resetting_Seated_Origin": "Restableciendo el origen de la posición sentado",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

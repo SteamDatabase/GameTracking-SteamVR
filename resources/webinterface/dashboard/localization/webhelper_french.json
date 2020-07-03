@@ -15,6 +15,8 @@
 	"Button_Retry": "Réessayer",
 	"Settings": "Paramètres",
 	"PowerMenuResetSeatedPosition": "Réinitialiser la position assise",
+	"PowerMenuResetStandingPosition": "Réinitialiser la position debout",
+	"Resetting_Countdown": "Réinitialisation...",
 	"PowerMenuTurnOffController": "Éteindre le contrôleur",
 	"PowerMenuQuitSceneApp": "Quitter %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Quitter l'application",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "OK",
-	"Resetting_Seated_Origin": "Réinitialisation de la position assise d'origine",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

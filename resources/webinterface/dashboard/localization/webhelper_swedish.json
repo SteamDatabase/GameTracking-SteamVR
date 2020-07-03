@@ -15,6 +15,8 @@
 	"Button_Retry": "Försök igen",
 	"Settings": "Inställningar",
 	"PowerMenuResetSeatedPosition": "Återställ sittande position",
+	"PowerMenuResetStandingPosition": "Återställ stående position",
+	"Resetting_Countdown": "Återställer ...",
 	"PowerMenuTurnOffController": "Stäng av kontroll",
 	"PowerMenuQuitSceneApp": "Avsluta %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Avsluta app",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Klar",
-	"Resetting_Seated_Origin": "Återställer ursprunglig sittande position",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

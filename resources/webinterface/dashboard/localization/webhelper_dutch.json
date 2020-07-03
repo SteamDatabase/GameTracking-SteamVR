@@ -15,6 +15,8 @@
 	"Button_Retry": "Opnieuw proberen",
 	"Settings": "Instellingen",
 	"PowerMenuResetSeatedPosition": "Zitpositie herstellen",
+	"PowerMenuResetStandingPosition": "Staande positie herstellen",
+	"Resetting_Countdown": "Herstellen...",
 	"PowerMenuTurnOffController": "Controller uit",
 	"PowerMenuQuitSceneApp": "%1$s afsluiten",
 	"PowerMenuQuitSceneApp_NoApp": "App afsluiten",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Gereed",
-	"Resetting_Seated_Origin": "Zitoorsprong herstellen",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

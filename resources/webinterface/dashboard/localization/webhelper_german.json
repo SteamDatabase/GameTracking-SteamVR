@@ -15,6 +15,8 @@
 	"Button_Retry": "Wiederholen",
 	"Settings": "Einstellungen",
 	"PowerMenuResetSeatedPosition": "Sitzposition zurücksetzen",
+	"PowerMenuResetStandingPosition": "Standposition zurücksetzen",
+	"Resetting_Countdown": "Zurücksetzen …",
 	"PowerMenuTurnOffController": "Controller ausschalten",
 	"PowerMenuQuitSceneApp": "%1$s beenden",
 	"PowerMenuQuitSceneApp_NoApp": "Anwendung beenden",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Fertig",
-	"Resetting_Seated_Origin": "Sitzenden Ursprung zurücksetzen",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

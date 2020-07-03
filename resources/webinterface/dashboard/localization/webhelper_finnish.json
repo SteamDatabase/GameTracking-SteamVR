@@ -15,6 +15,8 @@
 	"Button_Retry": "Yritä uudelleen",
 	"Settings": "Asetukset",
 	"PowerMenuResetSeatedPosition": "Palauta istuma-asento",
+	"PowerMenuResetStandingPosition": "Palauta seisoma-asento",
+	"Resetting_Countdown": "Palautetaan...",
 	"PowerMenuTurnOffController": "Sammuta ohjain",
 	"PowerMenuQuitSceneApp": "Sulje %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Sulje ohjelma",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Valmis",
-	"Resetting_Seated_Origin": "Palauttaa alkuperäisen istuma-asennon",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

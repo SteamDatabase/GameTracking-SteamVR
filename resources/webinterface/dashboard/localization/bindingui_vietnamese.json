@@ -56,7 +56,7 @@
   "SourceInputMode_LongPressDelay": "Độ trễ giữ lâu:",
   "SourceInputMode_DoublePressDelay": "Độ trễ giữ nhấp kép:",
   "SourceInputMode_DeadZone": "Vùng chết",
-  "SourceInputMode_button_tooltip": "Dùng bộ phận này như một nút. Xử lý tương tác chạm, nhấp, nhấp đôi, nắm và nhấn giữ.",
+  "SourceInputMode_button_tooltip": "Dùng bộ phận này như một nút. Xử lý tương tác chạm, nhấp, ấn giữ, nhấp đôi, nắm và ấn giữ lâu.",
   "SourceInputMode_trackpad_tooltip": "Dùng bộ phận này như bàn cảm ứng. Tính toán vị trí XY, cảm ứng chạm và nhấn.",
   "SourceInputMode_joystick_tooltip": "Dùng bộ phận này như joystick. Tính toán vị trí XY, cảm ứng chạm và nhấn.",
   "SourceInputMode_toggle_button_tooltip": "Dùng bộ phận này như công tắc. Nhấn một lần để bật và lần nữa để tắt.",

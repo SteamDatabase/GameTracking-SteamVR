@@ -15,6 +15,8 @@
 	"Button_Retry": "Încearcă din nou",
 	"Settings": "Setări",
 	"PowerMenuResetSeatedPosition": "Resetează poziția din șezut",
+	"PowerMenuResetStandingPosition": "Reset Standing Position",
+	"Resetting_Countdown": "Resetting...",
 	"PowerMenuTurnOffController": "Oprește controlerul",
 	"PowerMenuQuitSceneApp": "Ieși din %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Exit App",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Done",
-	"Resetting_Seated_Origin": "Resetting Seated Origin",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

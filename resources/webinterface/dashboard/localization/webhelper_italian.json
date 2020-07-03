@@ -14,7 +14,9 @@
 	"Button_Next": "Avanti",
 	"Button_Retry": "Riprova",
 	"Settings": "Impostazioni",
-	"PowerMenuResetSeatedPosition": "Resetta la posizione da seduto",
+	"PowerMenuResetSeatedPosition": "Ripristina la posizione da seduto",
+	"PowerMenuResetStandingPosition": "Ripristina la posizione in piedi",
+	"Resetting_Countdown": "Ripristino...",
 	"PowerMenuTurnOffController": "Spegni il controller",
 	"PowerMenuQuitSceneApp": "Esci da %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Esci dall'applicazione",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Ok",
-	"Resetting_Seated_Origin": "Resetta la posizione originale da seduto",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

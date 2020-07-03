@@ -15,6 +15,8 @@
 	"Button_Retry": "Ponów",
 	"Settings": "Ustawienia",
 	"PowerMenuResetSeatedPosition": "Zresetuj pozycję siedzącą",
+	"PowerMenuResetStandingPosition": "Zresetuj pozycję stojącą",
+	"Resetting_Countdown": "Resetowanie...",
 	"PowerMenuTurnOffController": "Wyłącz kontroler",
 	"PowerMenuQuitSceneApp": "Opuść %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Wyjdź z aplikacji",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Gotowe",
-	"Resetting_Seated_Origin": "Resetowanie początku układu pozycji siedzącej",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

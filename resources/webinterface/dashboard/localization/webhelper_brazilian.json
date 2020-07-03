@@ -15,6 +15,8 @@
 	"Button_Retry": "Tentar novamente",
 	"Settings": "Configurações",
 	"PowerMenuResetSeatedPosition": "Redefinir posição sentada",
+	"PowerMenuResetStandingPosition": "Redefinir posição em pé",
+	"Resetting_Countdown": "Redefinindo...",
 	"PowerMenuTurnOffController": "Desligar controle",
 	"PowerMenuQuitSceneApp": "Sair de %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Sair do aplicativo",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "OK",
-	"Resetting_Seated_Origin": "Restaurando posição sentada original",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

@@ -15,6 +15,8 @@
 	"Button_Retry": "Reintentar",
 	"Settings": "Configuración",
 	"PowerMenuResetSeatedPosition": "Restablecer posición sentado",
+	"PowerMenuResetStandingPosition": "Reset Standing Position",
+	"Resetting_Countdown": "Resetting...",
 	"PowerMenuTurnOffController": "Apagar el control",
 	"PowerMenuQuitSceneApp": "Salir de %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "Salir de la aplicación",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "Aceptar",
-	"Resetting_Seated_Origin": "Restableciendo el origen de la posición sentado",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }

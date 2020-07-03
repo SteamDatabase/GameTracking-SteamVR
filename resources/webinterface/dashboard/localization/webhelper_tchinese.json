@@ -15,6 +15,8 @@
 	"Button_Retry": "重試",
 	"Settings": "設定",
 	"PowerMenuResetSeatedPosition": "重設就座狀態",
+	"PowerMenuResetStandingPosition": "重設站立狀態",
+	"Resetting_Countdown": "重設中…",
 	"PowerMenuTurnOffController": "關閉控制器",
 	"PowerMenuQuitSceneApp": "結束 %1$s",
 	"PowerMenuQuitSceneApp_NoApp": "結束應用程式",
@@ -68,6 +70,5 @@
 	"OriginString_Source": "%3$s",
 	"OriginString_Controller": "%2$s",
 	"KeyboardDone": "完成",
-	"Resetting_Seated_Origin": "正在重設就座原點",
 	"DO_NOT_TRANSLATE": "IgnoreMe"
 }
