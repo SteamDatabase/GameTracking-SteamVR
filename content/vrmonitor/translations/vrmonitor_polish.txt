@@ -1062,7 +1062,7 @@
 "[english]Explanation_RemoveAllSteamVRUSBDevices"	"Remove all USB devices related to SteamVR from this system to reinstall drivers."
 "MenuAction_ResetDismissableWarnings"	"Zresetuj ostrzeżenia"
 "[english]MenuAction_ResetDismissableWarnings"	"Reset Warnings"
-"Explanation_ResetDismissableWarnings"	"Ta opcja wyświetli ponownie wszystkie odrzucone ostrzeżenia, gdy znowu się pojawią."
+"Explanation_ResetDismissableWarnings"	"Ta opcja wyświetli ponownie wszystkie zamknięte ostrzeżenia, gdy znowu się pojawią."
 "[english]Explanation_ResetDismissableWarnings"	"Reset Warnings will show all dismissed warnings again when they occur."
 "DismissableWarning_WarningsForTheFirstTime"	"Pierwsze ostrzeżenia (0x0010)"
 "[english]DismissableWarning_WarningsForTheFirstTime"	"Warnings for the first time (0x0010)"

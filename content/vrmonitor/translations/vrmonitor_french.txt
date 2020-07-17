@@ -1319,7 +1319,7 @@
 "[english]WorkshopUpload_Visibility"	"Visibility"
 "WorkshopUpload_Visibility_Public"	"Publique"
 "[english]WorkshopUpload_Visibility_Public"	"Public"
-"WorkshopUpload_Visibility_FriendsOnly"	"Amis seulement"
+"WorkshopUpload_Visibility_FriendsOnly"	"Contacts uniquement"
 "[english]WorkshopUpload_Visibility_FriendsOnly"	"Friends Only"
 "WorkshopUpload_Visibility_Private"	"Privée"
 "[english]WorkshopUpload_Visibility_Private"	"Private"

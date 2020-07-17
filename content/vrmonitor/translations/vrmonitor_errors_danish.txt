@@ -1275,7 +1275,7 @@
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header"	"SteamVR isn't set as the default OpenXR runtime."
 "Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description"	"Dette forhindrer muligvis nogle applikationer i at starte korrekt. %1"
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description"	"This might prevent some applications from launching correctly. %1"
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action"	"Sæt som standard"
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action"	"Angiv som standard"
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action"	"Set as default"
 "Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"

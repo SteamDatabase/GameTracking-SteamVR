@@ -105,6 +105,12 @@
                 "rotate_xyz" : [15.392, 2.071, 0.303]
              }
         },
+        "grip": {
+            "component_local" : {
+                "origin": [0.0, -0.015, 0.13],
+                "rotate_xyz" : [15.392, 2.071, 0.303]
+             }
+        },
         "squeeze": {
             "filename": "gripsqueeze.obj",
             "motion":{

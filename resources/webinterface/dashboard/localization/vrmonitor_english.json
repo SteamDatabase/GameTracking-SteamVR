@@ -385,6 +385,17 @@
 	"Settings_Drivers_UnblockAllTip": "NOTE: Unblocking and testing one add-on at a time is recommended.",
 	"Settings_Drivers_SomeBlocked": "Due to a recent crash, some SteamVR Add-Ons have been automatically blocked.",
 
+	"Settings_CurrentOpenXRRuntime_None": "None",
+	"Settings_CurrentOpenXRRuntime": "Current OpenXR Runtime:",
+	"Settings_SetAsOpenXRRuntime": "Set SteamVR as OpenXR Runtime",
+
+	"OpenXR_AnotherSteamVR": "Another copy of SteamVR",
+	"OpenXR_SteamVR": "SteamVR",
+	"OpenXR_None": "None",
+	"OpenXR_Error": "Error Finding Runtime",
+	"OpenXR_OculusRuntime": "Oculus",
+	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
+
 	"TestControllerTitle": "Testing Controller %1$s",
 	"TestController_NoController": "Turn on a controller to test it."
 }
