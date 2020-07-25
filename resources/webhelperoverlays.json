@@ -27,6 +27,7 @@
 		"type": "window",
 		"resizable": true,
 		"preload_setting":  [ "steamvr", "debugInputBinding" ],
+		"create_from_mailbox": [ "bindingui/Desktop" ],
 		"persist_layout": true,
 		"persist_visibility": true,
 		"pixel_size": [ 1920, 1080 ]
