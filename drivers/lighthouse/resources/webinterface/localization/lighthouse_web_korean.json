@@ -28,7 +28,7 @@
 	"pairing_button_menu": "메뉴 버튼",
 	"pairing_button_b": "B 버튼",
 	"pairing_knuckles_instructions_press": "트래커의 불빛이 파란색으로 깜빡일 때까지 %1$s과 %2$s을 길게 누르세요...",
-	"pairing_pen_instructions_press": "펜의 불빛이 파란색으로 깜빡일 때까지 %1$s과 %2$s을 길게 누르세요...",
+	"pairing_pen_instructions_press": "펜의 불빛이 파란색으로 깜빡일 때까지 %1$s 및 %2$s을(를) 길게 누르세요...",
 	"pairing_tracker_instructions_press": "트래커의 불빛이 파란색으로 깜빡일 때까지 %1$s을 길게 누르세요...",
 	"pairing_button_differentcontroller": "다른 종류의 컨트롤러를 페어링하고 싶습니다...",
 	"pairing_button_done": "완료",

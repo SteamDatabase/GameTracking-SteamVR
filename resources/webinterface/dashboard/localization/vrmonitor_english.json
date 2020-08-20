@@ -222,8 +222,8 @@
 	"Settings_Camera_RoomViewStyle_VideoTranslucent": "Translucent Pass-Through",
 	"Settings_Camera_RoomViewStyle_VideoOpaque": "Opaque Pass-Through",
 
-	"Settings_Camera_RoomView3D_Experimental": "3-D Room View is experimental.",
-	"Settings_Camera_RoomView3D_Unsupported": "3-D Room View is not supported on this headset.",
+	"Settings_Camera_RoomView3D_Experimental": "Room View 3D is experimental.",
+	"Settings_Camera_RoomView3D_Unsupported": "Room View 3D is not supported on this headset / system configuration.",
 
 	"Settings_CameraTest": "Test camera and performance",
 	"Settings_StartCameraTest": "Start Test",
