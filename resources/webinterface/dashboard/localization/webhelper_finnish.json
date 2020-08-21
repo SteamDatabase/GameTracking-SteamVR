@@ -15,7 +15,7 @@
 	"Button_Retry": "Yritä uudelleen",
 	"Settings": "Asetukset",
 	"PowerMenuResetSeatedPosition": "Palauta istuma-asento",
-	"PowerMenuResetStandingPosition": "Palauta seisoma-asento",
+	"PowerMenuResetStandingPosition": "Nollaa seisoma-asento",
 	"Resetting_Countdown": "Palautetaan...",
 	"PowerMenuTurnOffController": "Sammuta ohjain",
 	"PowerMenuQuitSceneApp": "Sulje %1$s",

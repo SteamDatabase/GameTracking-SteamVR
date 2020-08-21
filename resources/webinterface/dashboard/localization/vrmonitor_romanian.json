@@ -183,7 +183,7 @@
 	"Settings_Camera_ShowOnController_Desc": "Turns on a camera window attached to your controller when the Dashboard is up.",
 	"Settings_Camera_AllowCameraForChaperoneBounds": "Show Camera at Room Edge",
 	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
-	"Settings_Camera_AllowCameraForRoomView": "Room View",
+	"Settings_Camera_AllowCameraForRoomView": "Vederea încăperii",
 	"Settings_Camera_AllowCameraForRoomView_Desc": "Accesează vederea încăperii oricând prin apăsarea dublă a butonului de sistem",
 	"Settings_Camera_Compatibility": "Frecvența camerei",
 	"Settings_Camera_Rate_Hz": "Camera Rate (Hz)",
