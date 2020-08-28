@@ -70,8 +70,11 @@
 	"Settings_Audio_Mirroring_Independent_Volume_Label": "Control mirror volume separately (Beta)",
 	"Settings_Audio_Default": "System Default",
 	"Settings_Audio_Current_Setting_Unknown": "(Currently selected device is not present)",
-
 	"Settings_Audio_HDMIGain": "Gain reduction on VIVE HDMI Audio",
+	"Settings_Audio_SpeakerJackOutput" : "Speaker / 3.5mm Jack Output",
+	"Settings_Audio_SpeakerJackOutput_Title" : "Allows simultaneous audio through both the 3.5mm jack and the off-ear speakers",
+	"Settings_Audio_Single" : "Single",
+	"Settings_Audio_Dual" : "Dual",
 
 	"Settings_SectionTitle_Advanced": "Advanced",
 	"Settings_SectionTitle_Developer": "Developer",
