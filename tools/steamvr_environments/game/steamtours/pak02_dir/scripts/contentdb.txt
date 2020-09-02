@@ -485,6 +485,13 @@
 			preview_image = "file://{images}/contentdb/cosmos_controller.png"
 		},
 		{
+			id = "reverbg2_controllers"
+			name = "#VR_Avatar_ReverbG2_Controllers"
+			desc = "#VR_Avatar_ReverbG2_Controllers_Desc"
+			content = "models/controllers/hp_reverb_g2_controller_left.vmdl"
+			preview_image = "file://{images}/contentdb/reverbg2_controller.png"
+		},
+		{
 			id = "generic_tracked_controllers"
 			name = "#VR_Avatar_Generic_Tracked"
 			desc = "#VR_Avatar_Generic_Tracked_Desc"

@@ -300,7 +300,8 @@
 .TouchHelp,
 .WinMRHelp,
 .KnucklesHelp,
-.CosmosHelp
+.CosmosHelp,
+.ReverbG2Help
 {
 	visibility: collapse;
 }
@@ -313,7 +314,8 @@
 .RiftSController .TouchHelp,
 .WinMRController .WinMRHelp,
 .WinMRControllerSamsung .WinMRHelp,
-.CosmosController .CosmosHelp
+.CosmosController .CosmosHelp,
+.ReverbG2Controller .ReverbG2Help
 {
 	visibility: visible;
 }
@@ -350,11 +352,13 @@
 .WinMRControllerSamsung .Page3 .DoneButton,
 .CosmosController .Page1 .NextButton,
 .CosmosController .Page2 .NextButton,
-.CosmosController .Page3 .DoneButton
+.CosmosController .Page3 .DoneButton,
+.ReverbG2Controller .Page1 .NextButton,
+.ReverbG2Controller .Page2 .NextButton,
+.ReverbG2Controller .Page3 .DoneButton
 {
 	visibility: visible;	
 }
-
 
 
 .HorizontalDivider{
@@ -501,6 +505,7 @@
 .ViveController #TouchBottomText,
 .KnucklesController #TouchBottomText,
 .CosmosController #TouchBottomText,
+.ReverbG2Controller #TouchBottomText,
 .GamepadController #TouchBottomText
 {
 	visibility: collapse;

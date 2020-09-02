@@ -1190,6 +1190,7 @@ $tK
 -vr_force_gamepad_controller
 -vr_force_generic_tracked
 -vr_force_knuckles_controller
+-vr_force_reverbg2_controller
 -vr_force_rift_s_controller
 -vr_force_touch_controller
 -vr_force_vive_controller
@@ -12624,6 +12625,7 @@ Returns true if this is lua running from the client.dll.
 Returns true if this is lua running from the server.dll.
 Returns true if this is lua running within tools mode.
 Returns true if this server is a dedicated server.
+ReverbG2Controller
 ReverseSorted
 RevertButton
 Rich Presence: addon: %s
@@ -21867,6 +21869,8 @@ restoreentityindex
 restoretopred:slot %04d
 resumecondition
 return_children
+reverbg2
+reverbg2_controllers
 rfoot
 rgb
 rgb to gray green coefficient

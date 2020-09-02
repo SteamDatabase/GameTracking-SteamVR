@@ -274,7 +274,6 @@ $ORIGIN
 ;
 <
 <!--
-<ERROR>
 <INVALID EXPRESSION>
 <INVALID_RBF_TYPE>
 <NO EXPRESSION>
@@ -862,7 +861,6 @@ HMD Manufacturer:
 HMD Model:
 HMD Position: %.2f, %.2f, %.2f
 HMD Serial Number:
-HTC VIVE
 HammerMapLoader001
 Has Collision;
 HelpSystem_001
@@ -1530,7 +1528,6 @@ V_vsnprintfWarnTrunc
 V_wcstod
 V_wcstoi64
 VaPrintf
-Valve
 VertexColorPos_t
 VertexPaintBlendParams
 VertexPaintBlendParams1
@@ -1568,7 +1565,6 @@ Warning
 Warning:  %s = '%s' is infinite, clamping value.
 Warp mesh covers
 Window Rect:
-WindowsMR
 WindowsMR: %x/%x/%i/%i
 WorkshopSetup001
 WorldRendererBuilderMgr001
@@ -1850,7 +1846,7 @@ headtype
 health
 health_override
 holographic_controller
-htc
+hpmotioncontroller
 hurt_me
 hurt_them
 iBlue >= 0 && iBlue <= 15

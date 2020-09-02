@@ -3727,7 +3727,9 @@ AvatarCustomizationItem #SliderThumb
 .RiftSController .ScreenshotTouchImage,
 .RiftSController .ScreenshotTouchLabel,
 .CosmosController .ScreenshotTouchImage,
-.CosmosController .ScreenshotTouchLabel
+.CosmosController .ScreenshotTouchLabel,
+.ReverbG2Controller .ScreenshotTouchImage,
+.ReverbG2Controller .ScreenshotTouchLabel
 {
 	visibility: visible;
 }
@@ -5612,6 +5614,7 @@ AvatarCustomizationItem #SliderThumb
 .item_def_windowsmr_controllers,
 .item_def_windowsmr_samsung_controllers,
 .item_def_cosmos_controllers,
+.item_def_reverbg2_controllers,
 .item_def_generic_tracked_controllers,
 .item_def_full_hands
 {
@@ -5645,6 +5648,11 @@ AvatarCustomizationItem #SliderThumb
 }
 .CosmosController .item_def_cosmos_controllers,
 .CosmosController .item_def_full_hands
+{
+	visibility: visible;
+}
+.ReverbG2Controller .item_def_reverbg2_controllers,
+.ReverbG2Controller .item_def_full_hands
 {
 	visibility: visible;
 }

@@ -352,7 +352,8 @@ SteamToursRecentApps
 .RiftSImage,
 .WinMRImage,
 .KnucklesImage,
-.CosmosImage
+.CosmosImage,
+.ReverbG2Image
 {
 	width: 900px;
 	height: 900px;
@@ -379,7 +380,9 @@ SteamToursRecentApps
 .KnucklesController .KnucklesImage,
 .KnucklesController .PressBButton,
 .CosmosController .CosmosImage,
-.CosmosController .PressBOrYButton
+.CosmosController .PressBOrYButton,
+.ReverbG2Controller .ReverbG2Image,
+.ReverbG2Controller .PressBOrYButton
 {
 	visibility: visible;	
 }
@@ -394,7 +397,9 @@ SteamToursRecentApps
 .KnucklesController .MotionController,
 .KnucklesController .PressMenuButton,
 .CosmosController .MotionController,
-.CosmosController .PressMenuButton
+.CosmosController .PressMenuButton,
+.ReverbG2Controller .MotionController,
+.ReverbG2Controller .PressMenuButton
 {
 	visibility: collapse;	
 }
@@ -457,6 +462,16 @@ SteamToursRecentApps
 	margin-bottom: 269px;
 	margin-right: -40px;
 	margin-left: 50px;
+}
+
+.ReverbG2Controller .GlowAnim
+{
+	width: 65px;
+	height: 65px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 240px;
 }
 
 /*---------------------

@@ -45,6 +45,7 @@
         <Image class="WinMRImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_winmr_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
         <Image class="KnucklesImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_knuckles_png.vtex" />
         <Image class="CosmosImage" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_cosmos_png.vtex" />
+        <Image class="ReverbG2Image" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_reverbg2_png.vtex" />
         <Image class="Controller" src="s2r://panorama/images/welcome_panel/destinations_welcome_black_controller_png.vtex" />	
 				<Panel class="GlowAnim" />
 			</Panel>	
