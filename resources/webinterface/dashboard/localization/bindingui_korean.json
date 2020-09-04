@@ -67,7 +67,7 @@
   "SourceInputMode_Force_Sensor_tooltip": "아날로그 동작에 0-1 값을 부여하여 컨트롤에 적용하는 힘의 양을 표시합니다.",
   "SourceInputMode_trigger_tooltip": "이 컨트롤을 트리거처럼 사용합니다. 트리거 끝에 물리적인 클릭이 발생하면 터치(또는 누르기), 클릭이 수행됩니다. 트리거 누르기 양(0-1)은 적어집니다.",
   "SourceInputMode_Grab_tooltip": "정전식 센서와 압력 센서를 결합하여 손으로 움켜쥘 때 더욱 안정감을 줍니다.",
-  "SourceInputMode_Scalar_Constant_tooltip": "디지털 (on/off) 컨트롤을 사용하여 아날로그 (0-1) 값을 설정하도록 합니다.",
+  "SourceInputMode_Scalar_Constant_tooltip": "디지털(on/off) 컨트롤을 사용하여 아날로그(0-1) 값을 설정하도록 해줍니다.",
   "SourceInputMode_Click_tooltip": "실제 버튼이 있는 컨트롤의 경우 눌렀을 때 실행됩니다. 이 외의 경우, 설정가능한 임계값을 초과했을 때 실행됩니다.",
   "SourceInputMode_TriggerClick_tooltip": "트리거 끝의 물리적인 클릭.",
   "SourceInputMode_Touch_tooltip": "컨트롤에 접촉이 있을 때 true로 설정.",
