@@ -337,7 +337,7 @@
 	"Settings_CurrentOpenXRRuntime_None": "无",
 	"Settings_CurrentOpenXRRuntime": "当前 OpenXR 运行时：",
 	"Settings_SetAsOpenXRRuntime": "将 SteamVR 设置为 OpenXR 运行时",
-	"OpenXR_AnotherSteamVR": "SteamVR 的另一副本",
+	"OpenXR_AnotherSteamVR": "SteamVR 的另一个副本",
 	"OpenXR_SteamVR": "SteamVR",
 	"OpenXR_None": "无",
 	"OpenXR_Error": "查找运行时过程中发生错误",
