@@ -787,7 +787,7 @@
 "[english]FirmwareWizard_UpdateBasestation_Progress_Title"	"Update Base Station"
 "FirmwareWizard_UpdateBasestation_Progress_MiddleText"	"Aggiornamento della stazione di base in corso. L'operazione può richiedere alcuni minuti..."
 "[english]FirmwareWizard_UpdateBasestation_Progress_MiddleText"	"Updating base station. This could take several minutes..."
-"FirmwareWizard_UpdateBasestation_Progress_LowerText"	"ATTENZIONE: non scollegare la stazione di base, collegare altri dispositivi o apportare modifiche al sistema durante l'aggiornamento del dispositivo. Ciò potrebbe rendere la stazione di base inutilizzabile."
+"FirmwareWizard_UpdateBasestation_Progress_LowerText"	"ATTENZIONE: mentre la base viene aggiornata, non scollegarla, non collegare altri dispositivi e non effettuare nessuna modifica al sistema. In caso contrario, la stazione di base potrebbe essere resa inutilizzabile."
 "[english]FirmwareWizard_UpdateBasestation_Progress_LowerText"	"WARNING: Do not unplug the base station, plug in any additional devices, or make any other system changes while this device is being updated. Doing so can render this base station unusable."
 "FirmwareWizard_UpdateBasestation_Fail_Title"	"Aggiornamento della stazione di base non riuscito"
 "[english]FirmwareWizard_UpdateBasestation_Fail_Title"	"Base Station Update Failed"

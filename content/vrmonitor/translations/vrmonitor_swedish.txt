@@ -2263,7 +2263,7 @@
 "[english]MenuAction_WebDevTools"	"Web Dev Tools"
 "MenuAction_WebConsole"	"Webbkonsol"
 "[english]MenuAction_WebConsole"	"Web Console"
-"MenuAction_OverlayViewer"	"Övertoningsvisare"
+"MenuAction_OverlayViewer"	"Överläggsvisare"
 "[english]MenuAction_OverlayViewer"	"Overlay Viewer"
 "MenuAction_WebDevToolsPlaceholder"	"Inga instanser funna"
 "[english]MenuAction_WebDevToolsPlaceholder"	"No Instances Found"

@@ -1293,5 +1293,13 @@
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action"	"Set as default"
 "Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"
+"Warning_DismissableWarning_EnableAppContainers_Header"	"SteamVR deve configurarsi per i contenitori di applicazioni"
+"[english]Warning_DismissableWarning_EnableAppContainers_Header"	"SteamVR needs to set itself up for App Containers."
+"Warning_DismissableWarning_EnableAppContainers_Description"	"Ciò è necessario per consentire ai browser web di mostrare i contenuti sul tuo visore."
+"[english]Warning_DismissableWarning_EnableAppContainers_Description"	"This is required to allow web browsers to show content on your HMD."
+"Warning_DismissableWarning_EnableAppContainers_Action"	"Aggiorna autorizzazioni"
+"[english]Warning_DismissableWarning_EnableAppContainers_Action"	"Update Permissions"
+"Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
+"[english]Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
 }
 }

@@ -911,7 +911,7 @@
 "[english]Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action"	"More info"
 "Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=dutch#steamvr-issues"
 "[english]Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL"	"https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-"Warning_DismissableWarning_BluetoothLinkServiceError_Header"	"Bluetoothfout"
+"Warning_DismissableWarning_BluetoothLinkServiceError_Header"	"Bluetooth-fout"
 "[english]Warning_DismissableWarning_BluetoothLinkServiceError_Header"	"Bluetooth Error"
 "Warning_DismissableWarning_BluetoothLinkServiceError_Description"	"Er is een onverwacht probleem in het bluetooth-systeem opgetreden."
 "[english]Warning_DismissableWarning_BluetoothLinkServiceError_Description"	"SteamVR has detected an unexpected problem within the Bluetooth system."
@@ -1296,5 +1296,13 @@
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action"	"Set as default"
 "Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"
+"Warning_DismissableWarning_EnableAppContainers_Header"	"SteamVR moet zich instellen voor app-containers."
+"[english]Warning_DismissableWarning_EnableAppContainers_Header"	"SteamVR needs to set itself up for App Containers."
+"Warning_DismissableWarning_EnableAppContainers_Description"	"Dit is vereist om webbrowsers toe te staan inhoud te tonen op je HMD."
+"[english]Warning_DismissableWarning_EnableAppContainers_Description"	"This is required to allow web browsers to show content on your HMD."
+"Warning_DismissableWarning_EnableAppContainers_Action"	"Toestemmingen updaten"
+"[english]Warning_DismissableWarning_EnableAppContainers_Action"	"Update Permissions"
+"Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
+"[english]Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
 }
 }

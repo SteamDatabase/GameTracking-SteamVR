@@ -1199,7 +1199,7 @@
 "[english]Warning_DismissableWarning_Windows8_ActionURL"	"https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Header"	"ขาดการเชื่อมต่อในสายสัญญาณที่เครื่องสวมศีรษะ"
 "[english]Warning_DismissableWarning_HeadsetTetherDisconnected_Header"	"Tether Disconnected at Headset"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Description"	"สายของเครื่องสวมศีรษะของคุณได้เริ่มขาดการเชื่อมต่อที่เครื่องสวมศีรษะ กรุณาตรวจสอบให้แน่ใจว่าการเชื่อมต่อที่ด้านหลังฐานรองหน้าได้ติดตั้งอยู่อย่างมั่นคงแล้ว"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Description"	"สายของเครื่องสวมศีรษะของคุณได้เริ่มขาดการเชื่อมต่อที่เครื่องสวมศีรษะ กรุณาตรวจสอบให้แน่ใจว่าการเชื่อมต่อที่ด้านหลังแผ่นรองหน้าได้ติดอยู่อย่างมั่นคงแล้ว"
 "[english]Warning_DismissableWarning_HeadsetTetherDisconnected_Description"	"Your headset's cable has become disconnected at the headset. Please ensure the connection behind the face gasket is firmly seated."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action"	"ข้อมูลเพิ่มเติม"
 "[english]Warning_DismissableWarning_HeadsetTetherDisconnected_Action"	"More info"
@@ -1297,5 +1297,13 @@
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action"	"Set as default"
 "Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"
+"Warning_DismissableWarning_EnableAppContainers_Header"	"SteamVR จำเป็นที่จะต้องตั้งค่าตัวเองสำหรับแอปคอนเทนเนอร์"
+"[english]Warning_DismissableWarning_EnableAppContainers_Header"	"SteamVR needs to set itself up for App Containers."
+"Warning_DismissableWarning_EnableAppContainers_Description"	"นี่เป็นสิ่งจำเป็นเพื่อให้เว็บเบราว์เซอร์แสดงเนื้อหาบนหน้าจอสวมศีรษะของคุณ"
+"[english]Warning_DismissableWarning_EnableAppContainers_Description"	"This is required to allow web browsers to show content on your HMD."
+"Warning_DismissableWarning_EnableAppContainers_Action"	"อัปเดตสิทธิ์"
+"[english]Warning_DismissableWarning_EnableAppContainers_Action"	"Update Permissions"
+"Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
+"[english]Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
 }
 }

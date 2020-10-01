@@ -1128,7 +1128,7 @@
 "[english]Settings_Audio_AudioRecord"	"Audio input device"
 "Settings_Audio_Off"	"Когда SteamVR не используется..."
 "[english]Settings_Audio_Off"	"When not use SteamVR..."
-"Settings_Audio_HDMIGain"	"Включить функцию снижения усиления на звук с HDMI у VIVE"
+"Settings_Audio_HDMIGain"	"Включить снижение усиления у аудиоинтерфейса HDMI VIVE"
 "[english]Settings_Audio_HDMIGain"	"Enable Gain reduction on VIVE HDMI Audio"
 "Settings_Audio_LeaveAlone"	"(не изменять устройство)"
 "[english]Settings_Audio_LeaveAlone"	"(Do not change device)"

@@ -1533,7 +1533,7 @@
 "[english]CalibrateControllerTrackpad_Title"	"Calibrate Controller Trackpad"
 "CalibrateControllerTrackpad_Start_UpperText"	"Dette vil kalibrere din controllers trackpad. Du bør kalibrere trackpaden, hvis den virker upræcis eller du oplever pludselige bevægelser."
 "[english]CalibrateControllerTrackpad_Start_UpperText"	"This will calibrate your controller's trackpad. You should calibrate the trackpad if it seems jittery or you are seeing unexpected touches."
-"CalibrateControllerTrackpad_Start_LowerText"	"Sørg for at du ikke rør trackpaden og klik på \"Næste\" for at fortsætte."
+"CalibrateControllerTrackpad_Start_LowerText"	"Sørg for, at du ikke rører trackpaden, og klik på \"Næste\" for at fortsætte."
 "[english]CalibrateControllerTrackpad_Start_LowerText"	"Make sure you are not touching the trackpad and click Next to continue."
 "CalibrateControllerTrackpad_Progress_UpperText"	"Kalibrerer trackpad ..."
 "[english]CalibrateControllerTrackpad_Progress_UpperText"	"Calibrating trackpad ..."

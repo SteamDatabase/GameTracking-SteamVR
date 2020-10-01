@@ -1659,7 +1659,7 @@
 "[english]PlaylistEditor_Plus_Button"	"+"
 "PlaylistEditor_Minus_Button"	"-"
 "[english]PlaylistEditor_Minus_Button"	"-"
-"PlaylistEditor_Duration_Label"	"持續期間："
+"PlaylistEditor_Duration_Label"	"持續時間："
 "[english]PlaylistEditor_Duration_Label"	"Duration:"
 "PlaylistEditor_Play_Button"	"執行"
 "[english]PlaylistEditor_Play_Button"	"Play"

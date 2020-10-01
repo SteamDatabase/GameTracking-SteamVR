@@ -2488,7 +2488,7 @@
 "[english]BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"There are no channel conflicts."
 "BS20_ConfigureChannel_AutoConfig_NoFreeChannels"	"Er zijn geen kanalen beschikbaar om potentiële kanaalconflicten van %1 op te lossen. Je moet mogelijk kanalen handmatig configureren."
 "[english]BS20_ConfigureChannel_AutoConfig_NoFreeChannels"	"There are no free channels to resolve %1 potential channel conflicts. You may need to manually configure channels."
-"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"Er zijn vrije kanalen om %1 van de %2 potentiële kanaalconflicten op te lossen. Doorgaan en conflicten oplossen?"
+"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"Er zijn net genoeg vrije kanalen om %1 van de %2 potentiële kanaalconflicten op te lossen. Doorgaan?"
 "[english]BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"There are only enough free channels to resolve %1 out of %2 potential channel conflicts. Continue and resolve conflicts?"
 "BS20_ConfigureChannel_AutoConfigContinue"	"Er zijn %1 potentiële kanaalconflicten die automatisch opgelost kunnen worden door kanalen opnieuw toe te wijzen. Doorgaan en conflicten oplossen?"
 "[english]BS20_ConfigureChannel_AutoConfigContinue"	"There are %1 potential channel conflicts that can be automatically resolved by re-assigning their channels. Continue and resolve conflicts?"

@@ -1286,7 +1286,7 @@
 "[english]Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description"	"<font color=#aaaa00>Your pre-production %1 is no longer supported.</font> <br><br> This device will no longer receive firmware updates, and diminished functionality is expected. Please replace at your earliest convenience. <br><br>(hwid: %2)"
 "Warning_OpenXRDefaultRuntimePrompt_NotSet"	"OpenXR çalışma zamanı şu anda ayarlı değil."
 "[english]Warning_OpenXRDefaultRuntimePrompt_NotSet"	"The OpenXR runtime is not currently set."
-"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR"	"OpenXR çalışma zamanı şu anda farklı bir SteamVR sürümüne ayarlı."
+"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR"	"OpenXR runtime'ı şu anda farklı bir SteamVR sürümüne ayarlı."
 "[english]Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR"	"The OpenXR runtime is currently set to another version of SteamVR."
 "Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header"	"SteamVR, varsayılan OpenXR çalışma zamanı olarak ayarlanmamış."
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header"	"SteamVR isn't set as the default OpenXR runtime."
@@ -1296,5 +1296,13 @@
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action"	"Set as default"
 "Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"
 "[english]Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL"	"vrmonitor://openxr/makedefault"
+"Warning_DismissableWarning_EnableAppContainers_Header"	"SteamVR'ın kendisini uygulama konteynerleri için ayarlamaya ihtiyacı var."
+"[english]Warning_DismissableWarning_EnableAppContainers_Header"	"SteamVR needs to set itself up for App Containers."
+"Warning_DismissableWarning_EnableAppContainers_Description"	"İnternet tarayıcılarının başlığınızda içerik gösterebilmesi için bu gereklidir."
+"[english]Warning_DismissableWarning_EnableAppContainers_Description"	"This is required to allow web browsers to show content on your HMD."
+"Warning_DismissableWarning_EnableAppContainers_Action"	"İzinleri Güncelle"
+"[english]Warning_DismissableWarning_EnableAppContainers_Action"	"Update Permissions"
+"Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
+"[english]Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
 }
 }

@@ -598,7 +598,7 @@
 "[english]MessageBox_Retry"	"Retry"
 "MessageBox_Done"	"Hecho"
 "[english]MessageBox_Done"	"Done"
-"Info_UnknownURL_Title"	""
+"Info_UnknownURL_Title"	"SteamVR"
 "[english]Info_UnknownURL_Title"	"SteamVR"
 "Info_UnknownURL_Message"	"Ese enlace no funciona correctamente todavía. Si el error que estás intentando diagnosticar persiste, por favor, visita los <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>foros de desarrolladores de SteamVR</a> para recibir ayuda."
 "[english]Info_UnknownURL_Message"	"That link isn’t quite hooked up yet. If the error you are trying to diagnose persists, please visit the <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>SteamVR Developer Forums</a> for help."
