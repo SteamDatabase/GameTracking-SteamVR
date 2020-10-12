@@ -852,6 +852,11 @@
 "Warning_DismissableWarning_HDCPError_Action" "Reset Headset"
 "Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
 
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR Error"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Your</span> GPU is having trouble communicating with your HMD, resulting in an HDCP error. Try removing any cable adapters or extenders you are using. Try another port on your GPU if one is available. <p> <b>Use the button below to toggle the HDCP 1.4 Legacy Compatibility mode and RESTART SteamVR.</b>"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Restart (HDCP)"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
+
 "Warning_DismissableWarning_OutOfVideoMemory_Header" "Out Of Video Memory"
 "Warning_DismissableWarning_OutOfVideoMemory_Description" "Your system is running low on video memory which will cause poor performance. Try exiting the current application, or restarting SteamVR."
 "Warning_DismissableWarning_OutOfVideoMemory_Action" "More info"

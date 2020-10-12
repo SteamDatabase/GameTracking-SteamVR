@@ -696,7 +696,7 @@
 "[english]FirmwareWizard_UpdateController_LowerText"	"The firmware update will start automatically once your controller is detected."
 "FirmwareWizard_UpdateController_Fail_Title"	"Aggiornamento del dispositivo non riuscito"
 "[english]FirmwareWizard_UpdateController_Fail_Title"	"Device Update Failed"
-"FirmwareWizard_UpdateController_Fail_MiddleText"	"Assicurati che il controller sia connesso correttamente al tuo computer tramite micro-USB. Se il problema persiste, esci da SteamVR. Se il controller non si spegne tieni premuto il pulsante Sistema, quindi riavvia SteamVR e riprova."
+"FirmwareWizard_UpdateController_Fail_MiddleText"	"Assicurati che il controller sia connesso correttamente al tuo computer tramite micro-USB. Se continua a fallire, esci da SteamVR. Se il controller non si è spento, spegnilo tenendo premuto il pulsante Sistema. Avvia quindi SteamVR e riprova."
 "[english]FirmwareWizard_UpdateController_Fail_MiddleText"	"Make sure your controller is securely connected to your computer by micro-USB. If this continues to fail, quit SteamVR. If your controller didn't turn off, turn it off by pressing and holding the system button. Then launch SteamVR and try again."
 "FirmwareWizard_UpdateController_Fail_LowerText"	"Clicca su \"Riprova\" qui sotto e ritenta."
 "[english]FirmwareWizard_UpdateController_Fail_LowerText"	"Click 'Retry' below to try again."
