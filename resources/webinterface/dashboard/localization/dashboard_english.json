@@ -49,6 +49,7 @@
 
   "Desktop": "Desktop",
   "Desktop_X": "Desktop %1$s",
+  "AddWindow": "Add Window",
   "ShowKeyboardLabel": "Keyboard",
   "ShowKeyboardTooltip": "Show Keyboard",
   "HideKeyboardTooltip": "Hide Keyboard",
