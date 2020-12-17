@@ -2,14 +2,14 @@
     "thumbnail" : "oculus_quest2_controller_left_thumbnail.png",
     "components": {
         "body": {
-            "filename": "body.obj",
+            "filename": "oculus_quest2_controller_left_body.obj",
             "component_local" : {
                 "origin": [0.0, 0.0, 0.0],
                 "rotate_xyz" : [0.0,0.0,0.0]
             }
         },
         "trigger": {
-            "filename": "trigger.obj",
+            "filename": "oculus_quest2_controller_left_trigger.obj",
             "motion":{
                 "type":"rotate",
                 "controller_axis":1,
@@ -26,39 +26,39 @@
             }
         },
         "button_x": {
-            "filename": "button_x.obj",
+            "filename": "oculus_quest2_controller_left_button_x.obj",
             "motion":{
                 "type":"translate",
                 "pressed_path" : "/input/x/click",
                 "controller_button": 2,
-                "value_mapping": [0.0, 0.002],
+                "value_mapping": [-0.0005, 0.0015],
                 "axis": [0.0, -0.927, 0.375]
             },
             "component_local" : {
                 "origin": [0.005133, 0.00061, 0.057104],
-                "rotate_xyz" : [237.0, 0.0, 0.0]
+                "rotate_xyz" : [233.0, 0.0, 0.0]
             }
         },
          "button_y": {
-            "filename": "button_y.obj",
+            "filename": "oculus_quest2_controller_left_button_y.obj",
             "motion":{
                 "type":"translate",
                 "pressed_path" : "/input/y/click",
                 "controller_button": 1,
-                "value_mapping": [0.0, 0.002],
+                "value_mapping": [-0.0005, 0.0015],
                 "axis": [0.0, -0.927, 0.375]
             },
             "component_local" : {
                 "origin": [0.009579, -0.006358, 0.045326],
-                "rotate_xyz" : [237.0, 0.0, 0.0]
+                "rotate_xyz" : [233.0, 0.0, 0.0]
             }
         },
         "thumbstick": {
-            "filename": "thumbstick.obj",
+            "filename": "oculus_quest2_controller_left_thumbstick.obj",
             "motion":{
                 "type":"joystick",
                 "controller_axis": 0,
-                "center": [-0.011158, -0.013387, 0.04861],
+                "center": [-0.01511, -0.00977, 0.05549],
                 "rotate_xyz": [0.0,0.0,0.0],
                 "joystick_rotation_x": [18,-18],
                 "joystick_rotation_y": [18,-18],
@@ -67,27 +67,27 @@
             },
             "component_local" : {
                 "origin": [-0.010789, -0.00065, 0.04051],
-                "rotate_xyz" : [237.0, 0.0, 0.0]
+                "rotate_xyz" : [233.0, 0.0, 0.0]
             }
         },
         "button_grip": {
-            "filename": "button_grip.obj",
+            "filename": "oculus_quest2_controller_left_grip.obj",
             "motion":{
                 "type":"rotate",
                 "controller_axis":2,
                 "controller_axis_component":0,
-		"trigger_path" : "/input/grip",
-                "value_mapping": [0.0,10.0],
+		        "trigger_path" : "/input/grip",
+                "value_mapping": [0.0,15.0],
                 "pivot": [0.01, 0.008, 0.075],
                 "axis": [0.0, -1.0, 0.0]
             },
             "component_local" : {
-                "origin": [0.015861, -0.010463, 0.089375],
-                "rotate_xyz" : [266.0, 5.7, -100.2]
+                "origin": [0.015861, -0.0055373, 0.08826806],
+                "rotate_xyz" : [266.0, 5.7, -85]
             }
         },
         "button_enter": {
-            "filename": "button_enter.obj",
+            "filename": "oculus_quest2_controller_left_button_menu.obj",
             "motion":{
                 "type":"translate",
                 "pressed_path" : "/input/system/click",
@@ -102,14 +102,14 @@
         },
         "base": {
             "component_local" : {
-                "origin": [-0.00554, -0.00735, 0.139],
+                "origin": [-0.0034, -0.0034, 0.1491],
                 "rotate_xyz" : [-0.4,-180.0,0.0]
             }
         },
         "tip": {
             "component_local" : {
-                "origin": [0.00629,-0.02522,0.03469],
-                "rotate_xyz" : [-39.4,0.0,0.0]
+                "origin": [0.0028,-0.02522,0.03469],
+                "rotate_xyz" : [-37.4,0.0,0.0]
             }
         },
         "handgrip": {
