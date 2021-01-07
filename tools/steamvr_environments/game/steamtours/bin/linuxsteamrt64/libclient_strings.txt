@@ -1190,6 +1190,8 @@ $tK
 -vr_force_gamepad_controller
 -vr_force_generic_tracked
 -vr_force_knuckles_controller
+-vr_force_quest_1_controller
+-vr_force_quest_2_controller
 -vr_force_reverbg2_controller
 -vr_force_rift_s_controller
 -vr_force_touch_controller
@@ -12297,6 +12299,7 @@ Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
 QuarterSizeAttrWithBoxFilter
 Quaternion-world
+Quest2Controller
 QuestCompleted
 QuestDesc
 QuestDestinations
@@ -21649,6 +21652,10 @@ quantized float differs (1st diff) (net %g - pred %g) delta(%g)
 quaternion
 quaternion (%g %g %g %g)
 quaternion[] differs (1st diff) (net %g %g %g %g - pred %g %g %g %g) delta(%g %g %g %g)
+quest_1
+quest_1_controllers
+quest_2
+quest_2_controllers
 quest_completion_time
 quest_name
 quest_quantity

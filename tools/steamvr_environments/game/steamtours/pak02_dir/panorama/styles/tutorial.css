@@ -312,6 +312,7 @@
 .GamepadController .ControllerHelp,
 .TouchController .TouchHelp,
 .RiftSController .TouchHelp,
+.Quest2Controller .TouchHelp,
 .WinMRController .WinMRHelp,
 .WinMRControllerSamsung .WinMRHelp,
 .CosmosController .CosmosHelp,
@@ -344,6 +345,9 @@
 .RiftSController .Page1 .NextButton,
 .RiftSController .Page2 .NextButton,
 .RiftSController .Page3 .DoneButton,
+.Quest2Controller .Page1 .NextButton,
+.Quest2Controller .Page2 .NextButton,
+.Quest2Controller .Page3 .DoneButton,
 .WinMRController .Page1 .NextButton,
 .WinMRController .Page2 .NextButton,
 .WinMRController .Page3 .DoneButton,
@@ -357,7 +361,7 @@
 .ReverbG2Controller .Page2 .NextButton,
 .ReverbG2Controller .Page3 .DoneButton
 {
-	visibility: visible;	
+	visibility: visible;
 }
 
 
@@ -502,6 +506,7 @@
 .GamepadController #ViveBottomText,
 .TouchController #ViveBottomText,
 .RiftSController #ViveBottomText,
+.Quest2Controller #ViveBottomText,
 .ViveController #TouchBottomText,
 .KnucklesController #TouchBottomText,
 .CosmosController #TouchBottomText,
@@ -517,9 +522,10 @@
 }
 
 .TouchController #TouchBottomText,
-.RiftSController #TouchBottomText
+.RiftSController #TouchBottomText,
+.Quest2Controller #TouchBottomText
 {
-	visibility: visible;	
+	visibility: visible;
 }
 
 /*----------------------------------

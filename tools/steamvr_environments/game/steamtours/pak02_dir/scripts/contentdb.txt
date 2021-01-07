@@ -450,6 +450,13 @@
 			preview_image = "file://{images}/contentdb/oculus_rifts_controller.png"
 		},
 		{
+			id = "quest_2_controllers"
+			name = "#VR_Avatar_Quest_2"
+			desc = "#VR_Avatar_Quest_2_Desc"
+			content = "models/controllers/oculus_quest2_controller_left.vmdl"
+			preview_image = "file://{images}/contentdb/oculus_quest2_controller.png"
+		},
+		{
 			id = "knuckles_ev1_3_controllers"
 			name = "#VR_Avatar_Knuckles"
 			desc = "#VR_Avatar_Knuckles_Desc"

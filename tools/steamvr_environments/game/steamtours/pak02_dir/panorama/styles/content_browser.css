@@ -3726,6 +3726,8 @@ AvatarCustomizationItem #SliderThumb
 .TouchController .ScreenshotTouchLabel,
 .RiftSController .ScreenshotTouchImage,
 .RiftSController .ScreenshotTouchLabel,
+.Quest2Controller .ScreenshotTouchImage,
+.Quest2Controller .ScreenshotTouchLabel,
 .CosmosController .ScreenshotTouchImage,
 .CosmosController .ScreenshotTouchLabel,
 .ReverbG2Controller .ScreenshotTouchImage,
@@ -5633,6 +5635,11 @@ AvatarCustomizationItem #SliderThumb
 }
 .RiftSController .item_def_rift_s_controllers,
 .RiftSController .item_def_full_hands
+{
+	visibility: visible;
+}
+.Quest2Controller .item_def_quest_2_controllers,
+.Quest2Controller .item_def_full_hands
 {
 	visibility: visible;
 }

@@ -375,6 +375,8 @@ SteamToursRecentApps
 .TouchController .PressBOrYButton,
 .RiftSController .RiftSImage,
 .RiftSController .PressBOrYButton,
+.Quest2Controller .RiftSImage,
+.Quest2Controller .PressBOrYButton,
 .WinMRController .WinMRImage,
 .WinMRControllerSamsung .WinMRImage,
 .KnucklesController .KnucklesImage,
@@ -384,7 +386,7 @@ SteamToursRecentApps
 .ReverbG2Controller .ReverbG2Image,
 .ReverbG2Controller .PressBOrYButton
 {
-	visibility: visible;	
+	visibility: visible;
 }
 
 // if it's a gamepad or a touch, hide vive controller bits
@@ -394,6 +396,8 @@ SteamToursRecentApps
 .TouchController .PressMenuButton,
 .RiftSController .MotionController,
 .RiftSController .PressMenuButton,
+.Quest2Controller .MotionController,
+.Quest2Controller .PressMenuButton,
 .KnucklesController .MotionController,
 .KnucklesController .PressMenuButton,
 .CosmosController .MotionController,
@@ -401,7 +405,7 @@ SteamToursRecentApps
 .ReverbG2Controller .MotionController,
 .ReverbG2Controller .PressMenuButton
 {
-	visibility: collapse;	
+	visibility: collapse;
 }
 
 .GlowAnim
@@ -429,6 +433,12 @@ SteamToursRecentApps
 }
 
 .RiftSController .GlowAnim
+{
+	margin-bottom: 270px;
+	margin-right: 310px;
+}
+
+.Quest2Controller .GlowAnim
 {
 	margin-bottom: 270px;
 	margin-right: 310px;

@@ -90,6 +90,8 @@ DestinationsWelcomePanel {
 .TouchController .PressBOrYButton,
 .RiftSController .RiftSImage,
 .RiftSController .PressBOrYButton,
+.Quest2Controller .RiftSImage,
+.Quest2Controller .PressBOrYButton,
 .KnucklesController .KnucklesImage,
 .KnucklesController .PressBButton,
 .CosmosController .CosmosImage,
@@ -107,6 +109,8 @@ DestinationsWelcomePanel {
 .TouchController .PressMenuButton,
 .RiftSController .MotionController,
 .RiftSController .PressMenuButton,
+.Quest2Controller .MotionController,
+.Quest2Controller .PressMenuButton,
 .KnucklesController .MotionController,
 .KnucklesController .PressMenuButton,
 .CosmosController .MotionController,
@@ -189,6 +193,7 @@ DestinationsWelcomePanel {
 .GamepadController .UpdateDescController,
 .TouchController .UpdateDescTouch,
 .RiftSController .UpdateDescTouch,
+.Quest2Controller .UpdateDescTouch,
 .KnucklesController .UpdateDescKnuckles,
 .CosmosController .UpdateDescCosmos,
 .ReverbG2Controller .UpdateDescReverbG2
@@ -200,6 +205,7 @@ DestinationsWelcomePanel {
 .GamepadController .UpdateDesc,
 .TouchController .UpdateDesc,
 .RiftSController .UpdateDesc,
+.Quest2Controller .UpdateDesc,
 .KnucklesController .UpdateDesc,
 .CosmosController .UpdateDesc,
 .ReverbG2Controller .UpdateDesc

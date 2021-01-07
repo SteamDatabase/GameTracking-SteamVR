@@ -576,6 +576,8 @@
 		"VR_Avatar_Touch_Desc"			"Touch controllers for the Oculus Rift."
 		"VR_Avatar_Rift_S"				"Rift S Controllers"
 		"VR_Avatar_Rift_S_Desc"			"Touch controllers for the Oculus Rift S."
+		"VR_Avatar_Quest_2"				"Quest 2 Controllers"
+		"VR_Avatar_Quest_2_Desc"		"Touch controllers for the Oculus Quest 2."
 		"VR_Avatar_Hands_Mittens"		"Mittens"
 		"VR_Avatar_Hands_Mittens_Desc"	"Hands in mittens. Super cozy."
 		"VR_Avatar_Hands_Fingers"		"Hands"
