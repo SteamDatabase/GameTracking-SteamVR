@@ -58,16 +58,16 @@
             "motion":{
                 "type":"joystick",
                 "controller_axis": 0,
-                "center": [0.01511, -0.00977, 0.05549],
+                "center": [0.00069, -0.00769, 0.05279],
                 "rotate_xyz": [0.0,0.0,0.0],
-                "joystick_rotation_x": [18,-18],
-                "joystick_rotation_y": [18,-18],
+                "joystick_rotation_x": [20,-20],
+                "joystick_rotation_y": [20,-20],
                  "component_path" : "/input/joystick",
                 "press_translate": [0.0, -0.000927, 0.000375]
             },
             "component_local" : {
                 "origin": [0.010789, -0.00065, 0.04051],
-                "rotate_xyz" : [233.0, 0.0, 0.0]
+                "rotate_xyz" : [232.682, -8.687988, 6.927994]
             }
         },
         "button_grip": {
