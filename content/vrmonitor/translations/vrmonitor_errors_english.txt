@@ -39,6 +39,11 @@
 "Error_CompositorTooManyRunning_Action" "Restart SteamVR"
 "Error_CompositorTooManyRunning_ActionURL" "vrmonitor://restartsystem"
 
+"Error_PrismNotRunning_Header" "SteamVR Fail"
+"Error_PrismNotRunning_Description" "Oh no! SteamVR has encountered an unexpected problem."
+"Error_PrismNotRunning_Action" "Restart SteamVR"
+"Error_PrismNotRunning_ActionURL" "vrmonitor://restartsystem"
+
 "Error_VRServerNotRunning_Header" "SteamVR Fail"
 "Error_VRServerNotRunning_Description" "Oh no! SteamVR has encountered an unexpected problem."
 "Error_VRServerNotRunning_Action" "Restart SteamVR"
@@ -265,6 +270,16 @@
 "VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
 "VRInitError_Driver_HmdDisplayMirrored_Action" "More info"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
+"VRInitError_Init_PrismNeedsNewDrivers_Header" "Graphics driver update"
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "You need to update your computer's graphics driver."
+"VRInitError_Init_PrismNeedsNewDrivers_Action" "More info"
+"VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
+"VRInitError_Init_PrismStartupTimedOut_Header" "SteamVR Startup Issue"
+"VRInitError_Init_PrismStartupTimedOut_Description" "A key component of SteamVR has taken too long to start and failed."
+"VRInitError_Init_PrismStartupTimedOut_Action" "Restart SteamVR"
+"VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset not detected"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Make sure your headset is connected properly, then reset it below."
@@ -903,6 +918,13 @@
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL" "vrmonitor://reboothmd"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "More info"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
+
+"SteamVRServiceNeedsInstallation_Header" "SteamVR Service Installation"
+"SteamVRServiceNeedsInstallation_Description" "Your permission is required to install the helper service. Please click the link below, then select Yes at the UAC prompt."
+"SteamVRServiceNeedsInstallation_FirstAction" "Install"
+"SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
+"SteamVRServiceNeedsInstallation_Action" "More info"
+"SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
 }
 }

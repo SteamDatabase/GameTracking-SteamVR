@@ -1287,5 +1287,13 @@
 "[english]Warning_DismissableWarning_EnableAppContainers_Action"	"Update Permissions"
 "Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
 "[english]Warning_DismissableWarning_EnableAppContainers_ActionURL"	"vrmonitor://steamvr/setappcontainerpermissions"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header"	"SteamVR 错误"
+"[english]Warning_DismissableWarning_HDCPErrorWithToggleOption_Header"	"SteamVR Error"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description"	"<span>您的</span> GPU 与头戴式显示器通讯时出现问题，导致 HDCP 错误。尝试移除正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<p> <b>请使用下方按钮切换 HDCP 1.4 传统兼容性模式并重新启动 SteamVR。</b>"
+"[english]Warning_DismissableWarning_HDCPErrorWithToggleOption_Description"	"<span>Your</span> GPU is having trouble communicating with your HMD, resulting in an HDCP error. Try removing any cable adapters or extenders you are using. Try another port on your GPU if one is available. <p> <b>Use the button below to toggle the HDCP 1.4 Legacy Compatibility mode and RESTART SteamVR.</b>"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action"	"重新启动(HDCP)"
+"[english]Warning_DismissableWarning_HDCPErrorWithToggleOption_Action"	"Restart (HDCP)"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL"	"vrmonitor://togglehdcpcompatibility"
+"[english]Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL"	"vrmonitor://togglehdcpcompatibility"
 }
 }

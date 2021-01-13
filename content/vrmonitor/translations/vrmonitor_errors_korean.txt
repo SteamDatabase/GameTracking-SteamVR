@@ -879,5 +879,13 @@
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended"	"automatic"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden"	"사용자 지정"
 "[english]Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden"	"your custom"
+"Warning_DismissableWarning_InstallWMRPrompt_Header"	"Windows Mixed Reality 드라이버를 설치하시겠습니까?"
+"[english]Warning_DismissableWarning_InstallWMRPrompt_Header"	"Install Windows Mixed Reality driver?"
+"Warning_DismissableWarning_InstallWMRPrompt_Description"	"Windows Mixed Reality 헤드셋을 SteamVR에서 사용하려면 드라이버가 필요합니다."
+"[english]Warning_DismissableWarning_InstallWMRPrompt_Description"	"A driver is required to run Windows Mixed Reality headsets on SteamVR."
+"Warning_DismissableWarning_InstallWMRPrompt_Action"	"설치하기"
+"[english]Warning_DismissableWarning_InstallWMRPrompt_Action"	"Install"
+"Warning_DismissableWarning_InstallWMRPrompt_ActionURL"	"vrmonitor://installdriver/wmr"
+"[english]Warning_DismissableWarning_InstallWMRPrompt_ActionURL"	"vrmonitor://installdriver/wmr"
 }
 }

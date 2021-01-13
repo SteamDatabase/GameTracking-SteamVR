@@ -942,6 +942,8 @@
 "[english]Advanced_USB"	"USB"
 "Settings_USB_Component_Hub"	"Trung tâm"
 "[english]Settings_USB_Component_Hub"	"Hub"
+"Settings_USB_Component_HubController"	"Điều khiển bộ chia USB"
+"[english]Settings_USB_Component_HubController"	"Hub Controller"
 "Settings_USB_Component_HubBluetooth"	"Bluetooth"
 "[english]Settings_USB_Component_HubBluetooth"	"Bluetooth"
 "Settings_USB_Component_WatchmanBoard"	"Tracking Board"

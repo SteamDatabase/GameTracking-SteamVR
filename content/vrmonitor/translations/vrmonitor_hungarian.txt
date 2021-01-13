@@ -1923,7 +1923,7 @@
 "[english]MessageBox_Submit"	"Submit"
 "BugReporter_Title"	"Hiba jelentése"
 "[english]BugReporter_Title"	"Report a Bug"
-"BugReporter_Explanation"	"Köszönjük, hogy segítesz a Valve-nak a SteamVR tökéletesítésében.\n\nEz a hibajelentő egy SteamVR Rendszerjelentést készít, amely összegyűjti a rendszer-, környezet- és SteamVR-naplókat, hogy a Valve diagnosztikai célokra használja azokat."
+"BugReporter_Explanation"	"Köszönjük, hogy segítesz a Valve-nek a SteamVR tökéletesítésében.\n\nEz a hibajelentő egy SteamVR Rendszerjelentést készít, amely összegyűjti a rendszer-, környezet- és SteamVR-naplókat, hogy a Valve diagnosztikai célokra használja azokat."
 "[english]BugReporter_Explanation"	"Thank you for helping Valve improve SteamVR.\n\nThis bug reporter generates a SteamVR System Report which gathers system, environment, and SteamVR logging for use by Valve for diagnostics."
 "BugReporter_ForPersonalSupport"	"Ez nem támogatási jegy, nem fogsz közvetlen választ kapni. Hogy személyre szabott SteamVR támogatást kapj egy támogató kollégától, keresd fel a támogatási oldalt."
 "[english]BugReporter_ForPersonalSupport"	"This is not a support ticket and you will not receive a direct response. To receive personalized SteamVR support from an agent, please visit the support site."

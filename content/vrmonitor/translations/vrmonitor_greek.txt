@@ -41,7 +41,7 @@
 "[english]VRState_UnknownState"	"Unknown State"
 "StatusError_NoHMDAvailable"	"Κανένα διαθέσιμο headset."
 "[english]StatusError_NoHMDAvailable"	"No Headset available."
-"StatusError_HMDDoesNotTrack"	"Το headset δεν εντοπίζεται."
+"StatusError_HMDDoesNotTrack"	"Το headset δεν ανιχνεύει."
 "[english]StatusError_HMDDoesNotTrack"	"Headset does not track."
 "StatusError_NoCompositorAvailable"	"Κανένας διαθέσιμος στοιχειοθέτης."
 "[english]StatusError_NoCompositorAvailable"	"No Compositor available."

@@ -210,6 +210,14 @@
 	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Refresh Rate Override",
 	"Settings_Perapplication_RefreshRateOverride_Description": "Checking this option will allow specifying a different refresh rate from the global setting for this application.",
 
+	"Settings_PerApplication_ThrottlingOverride_Description": "Throttling and prediction are handled automatically based on measured performance, however, some applications may benefit from forcing to run at a fixed slower rate in order to provide an overall smoother experience.",
+	"Settings_PerApplication_ThrottlingOverride_Label": "Throttling Behavior",
+	"Settings_PerApplication_ThrottlingOverride_Toggle": "Selecting a fixed throttling value here will disable automatic throttling for this application.",
+	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Fixed",
+	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Auto",
+	"Settings_PerApplication_ThrottlingOverride_Framerate": "Lock application framerate to (max fps):",
+	"Settings_PerApplication_ThrottlingOverride_Prediction": "Additional prediction (ms):",
+
 	"Settings_MimeTypes_Pancake_Header": "Select an application to launch 2D applications in",
 
 	"Settings_Camera_EnableCamera": "Enable Camera",

@@ -1,0 +1,62 @@
+{
+  "jsonid" : "input_profile",
+  "controller_type": "khr_simple_controller",
+  "device_class" : "TrackedDeviceClass_Controller",
+  "driver_name" : "xrconformance",
+  "input_bindingui_mode" : "controller_handed",
+  "should_show_binding_errors" :  true,
+  "input_bindingui_left" :
+  {
+    "transform" : "scale(-1,1)",
+    "image": "{htc}/icons/vive_wand.svg"
+  },
+  "input_bindingui_right" :
+  {
+    "image": "{htc}/icons/vive_wand.svg"
+  },
+  "input_source" :
+  {
+    "/input/menu" : 
+	{
+   		"type" : "button",
+		"click" : true,
+        "binding_image_point" : [ 52, 87 ],
+        "order" : 3
+    },
+    "/input/select" : 
+	{
+   		"type" : "button",
+		"click" : true,
+        "binding_image_point" : [ 52, 87 ],
+        "order" : 3
+    },
+    "/pose/raw" : {
+        "type" : "pose",
+        "binding_image_point" : [ 62, 16 ]
+    },
+    "/pose/base" : {
+        "type" : "pose",
+        "binding_image_point" : [ 65, 150 ]
+    },
+    "/pose/handgrip" : {
+        "type" : "pose",
+        "binding_image_point" : [ 52, 86 ]
+    },
+    "/pose/tip" : {
+        "type" : "pose",
+        "binding_image_point" : [ 62, 16 ]
+    },
+    "/pose/front" : {
+        "type" : "pose",
+        "binding_image_point" : [ 62, 16 ]
+    },
+    "/pose/gdc2015" : {
+        "type" : "pose",
+        "binding_image_point" : [ 62, 16 ]
+    },
+    "/output/haptic" : {
+        "type" : "vibration",
+        "binding_image_point" : [ 66, 59 ]
+    }
+  }
+}

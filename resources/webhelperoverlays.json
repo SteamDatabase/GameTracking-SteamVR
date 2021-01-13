@@ -46,6 +46,9 @@
 	},
     "settings_desktop": {
         "url": "/dashboard/settings_desktop.html",
+		"parameters": {
+			"desktop": true
+		},
         "persist_layout": true,
         "persist_visibility": true,
         "valid_without_hmd": true,
@@ -86,6 +89,9 @@
 	},
 	"debugcommands_desktop": {
 		"url": "/dashboard/debugcommands.html",
+		"parameters": {
+			"desktop": true
+		},
 		"type": "window",
 		"resizable": true,
 		"persist_layout": true,
