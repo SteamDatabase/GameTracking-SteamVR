@@ -4171,4 +4171,4 @@ soundstacks/soundstacks_destinations_props.vsndstck_c CRC:00fd3a9ea6 size:25030
 soundstacks/soundstacks_destinations_utility.vsndstck_c CRC:005022de54 size:30255
 soundstacks/soundstacks_hlvr.vsndstck_c CRC:0055520a86 size:196287
 third_party_content_credits.txt CRC:004bf90beb size:1072
-vr_fidelity_levels.csv CRC:00b890f5fd size:1296
+vr_fidelity_levels.csv CRC:00b1b19359 size:1412

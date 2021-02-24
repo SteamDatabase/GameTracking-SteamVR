@@ -149,8 +149,6 @@ $ORIGIN
 -use_rift360config
 -use_viveconfig
 -vr         Enable VR (can be automatically enabled if launched from Steam in VR mode)
--vr_fidelity_memory_threshold
--vr_gpu_memory_reserve_mb
 -vr_minigames_transition
 -vrcompdebug
 -vrdebug
@@ -679,6 +677,7 @@ Controller at tracked device slot: %d %s
 Controller event vr::VREvent_%s, name = %-10s
 ConvertFloatToChannel: Trying to convert to a a float to a destation of byte size %d
 ConvertFloatToChannel: Trying to convert to a a normalized float to a destation of byte size %d
+ConvertGammaToLinear
 Converting display frequency from %f to %d / %d
 CopyAttrFrom
 Couldn't write Frame Timing data.
@@ -1349,7 +1348,6 @@ Trying to concatenate meshes with different numbers of attributes!
 Trying to concatenate meshes with incompatible attribute sets!
 Trying to find a flex controller (%s) that doesn't actually exist in the model.
 Two Bone
-UNKNOWN
 UV88
 UVLX8888
 UVWQ8888
@@ -1589,7 +1587,6 @@ ZFP compression is not supported.
 [%.3f server clamped to %.3f]
 [Auto-Fidelity System] %dxMSAA = %dx%d (Color + Depth + Other = %s MB)
 [Auto-Fidelity System] Default fidelity level = %d
-[Auto-Fidelity System] Filtered out fidelity level %d because it used more than %.2f%% of total GPU memory (would use %.2f GB of %.2f GB)
 [Auto-Fidelity System] Initialized with %d fidelity levels
 [Auto-Fidelity System] Initializing auto-fidelity system
 [Auto-Fidelity System] Using %s
@@ -2667,19 +2664,19 @@ vpcf7
 vpcf8
 vpcf9
 vr.cpp
-vr.cpp(4536): ERROR! Unknown controller axis type %d!
-vr.cpp(6083): VR - Destroying old VB for Stenciling!
-vr.cpp(6128): VR - Error! VB handle is invalid in CVrStencilRenderer!
-vr.cpp(6272): VR - Destroying old VB for SubviewStenciling!
-vr.cpp(6614): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
-vr.cpp(6795): VR - Destroying old IB for warping!
-vr.cpp(6873): VR - Error! VB handle is invalid in CVrWarpRenderer!
-vr.cpp(6882): VR - Error! IB handle is invalid in CVrWarpRenderer!
-vr.cpp(7032): VR - Destroying old VB for reconstruction eye %d!
-vr.cpp(7039): VR - Destroying old IB for reconstruction eye %d!
-vr.cpp(7060): VR - Destroying old IB for reconstruction!
-vr.cpp(7200): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
-vr.cpp(7209): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(4535): ERROR! Unknown controller axis type %d!
+vr.cpp(6082): VR - Destroying old VB for Stenciling!
+vr.cpp(6127): VR - Error! VB handle is invalid in CVrStencilRenderer!
+vr.cpp(6271): VR - Destroying old VB for SubviewStenciling!
+vr.cpp(6613): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
+vr.cpp(6794): VR - Destroying old IB for warping!
+vr.cpp(6872): VR - Error! VB handle is invalid in CVrWarpRenderer!
+vr.cpp(6881): VR - Error! IB handle is invalid in CVrWarpRenderer!
+vr.cpp(7031): VR - Destroying old VB for reconstruction eye %d!
+vr.cpp(7038): VR - Destroying old IB for reconstruction eye %d!
+vr.cpp(7059): VR - Destroying old IB for reconstruction!
+vr.cpp(7199): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(7208): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
 vr_author_refpt vrfly_refpt_pos vrfly_refpt_ang anchor models/dev/gordon_at_desk.vmdl
 vr_black_level_clamp
 vr_carry_type
