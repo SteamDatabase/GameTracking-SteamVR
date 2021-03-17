@@ -903,7 +903,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Bluetooth connection failed. Check link box connections, then unplug and replug power to the link box to reset it, then restart SteamVR."
 "BluetoothControllerStatus_Connected"						"Bluetooth connected"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "This application cannot run until you've performed Room Setup. Would you like to perform Room Setup now?"
 
 "WorkshopUpload_DialogTitle"	"SteamVR Workshop Uploader"
