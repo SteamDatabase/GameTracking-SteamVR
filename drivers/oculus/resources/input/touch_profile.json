@@ -106,7 +106,15 @@
         "type" : "pose",
         "binding_image_point" : [ 24, 86 ]
     },
+    "/pose/openxr_grip" : {
+        "type" : "pose",
+        "binding_image_point" : [ 24, 86 ]
+    },
     "/pose/tip" : {
+        "type" : "pose",
+        "binding_image_point" : [ 14, 16 ]
+    },
+    "/pose/openxr_aim" : {
         "type" : "pose",
         "binding_image_point" : [ 14, 16 ]
     }
