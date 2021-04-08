@@ -438,6 +438,11 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" " "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Headset Display Configuration Error"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "The headset's display has an invalid configuration. Please contact support for additional assistance."
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Action" " "
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_ActionURL" " "
+
 "VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR Error"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steam must be installed for SteamVR to work correctly."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Install Steam"
