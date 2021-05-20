@@ -220,8 +220,12 @@
 
 	"Settings_PerApplication_WorldScale_Description": "Override application's perceived scaling by adjusting head movement and eye separation.",
 	"Settings_PerApplication_WorldScale_Label": "Override World Scale",
-	"Settings_PerApplication_WorldScale_Toggle": "Toggle World Scale Multiplier slider.",
-	"Settings_PerApplication_WorldScale_Multiplier": "Custom Size",
+	"Settings_PerApplication_WorldScale_Off": "Off",
+	"Settings_PerApplication_WorldScale_Fine": "Fine",
+	"Settings_PerApplication_WorldScale_Normal": "Normal",
+	"Settings_PerApplication_WorldScale_Extreme": "Extreme",
+	"Settings_PerApplication_WorldScale_Range": "[%1$s% to %2$s%]",
+
 	"Settings_PerApplication_WorldScale_Warning": "Note: Changes may require application restart, and/or modify interactions in unexpected ways. Depending on the application, features such as throwing may be affected.",
 
 	"Settings_PerApplication_FovScale_Description": "Optionally lower the application's field of view in order to trade-off peripheral vision for clarity. Note: In many cases, the application will need to be restarted for the change to be applied properly.",

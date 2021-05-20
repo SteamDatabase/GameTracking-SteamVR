@@ -281,6 +281,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Action" "Restart SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
 
+"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR Startup Issue"
+"VRInitError_Init_CouldNotStartPrism_Description" "A key component of SteamVR could not be found. Try 'Verify integrity of tool files...' in Steam for SteamVR."
+"VRInitError_Init_CouldNotStartPrism_Action" "More info"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR Startup Issue"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR has encountered an unexpected problem. Please visit SteamVR Support for more info."
+"VRInitError_Init_PrismClientInitFailed_Action" "More info"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR Startup Issue"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR has encountered an unexpected problem. Please visit SteamVR Support for more info."
+"VRInitError_Init_PrismClientStartFailed_Action" "More info"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR Fail"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "A key component of SteamVR failed."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Restart SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
+
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset not detected"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Make sure your headset is connected properly, then reset it below."
 "VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Reset Headset"
