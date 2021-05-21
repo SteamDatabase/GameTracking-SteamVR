@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "More info"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Missing Driver"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "The current HMD requires a driver that is not installed."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "More info"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Graphics driver update"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "You need to update your computer's graphics driver."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "More info"
@@ -936,6 +941,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "A driver is required to run Windows Mixed Reality headsets on SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Install"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Install Vive Pro 2 driver?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "A driver is required to run the Vive Pro 2 headset on SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Install"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Display Connection Trouble"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Your graphics card cannot successfully connect to your HMD display. Try removing any cable adapters or extenders you are using. Try another port on your GPU if one is available. <b>Use the reset link below to reset the HMD so the GPU will try again.</b>"
