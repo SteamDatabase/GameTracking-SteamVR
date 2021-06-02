@@ -1,8 +1,8 @@
 {
 	"language_tag": "pt_BR",
-	"/actions/system/in/OpenDashboard": "Abrir Painel",
-	"/actions/system/in/CloseDashboard": "Fechar Painel",
-	"/actions/system/in/ToggleDashboard": "Abrir/fechar Painel",
+	"/actions/system/in/OpenDashboard": "Abrir painel",
+	"/actions/system/in/CloseDashboard": "Fechar painel",
+	"/actions/system/in/ToggleDashboard": "Abrir/fechar painel",
 	"/actions/system/in/TakeScreenshot": "Capturar tela",
 	"/actions/system/in/ToggleRoomView": "(Des)ativar visualização de cômodo",
 	"/actions/system/in/SystemButtonChord": "Modo de ativação de sistema",

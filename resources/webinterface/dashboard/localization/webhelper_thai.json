@@ -28,7 +28,7 @@
 	"NoSteamWarning": "Steam ไม่พร้อมใช้งาน คุณสมบัติบางอย่างอาจถูกปิดการใช้งาน",
 	"WakingUpBaseStations": "กำลังปลุกสถานีฐาน...",
 	"/input/joystick": "จอยสติก",
-	"/input/trackpad": "แทร็คแพด",
+	"/input/trackpad": "แทร็กแพด",
 	"/input/trigger": "ทริกเกอร์",
 	"/input/grip": "กริป",
 	"/input/application_menu": "เมนู",

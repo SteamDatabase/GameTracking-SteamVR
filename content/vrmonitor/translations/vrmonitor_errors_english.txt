@@ -882,6 +882,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "More info"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Upgrade Graphics Driver"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Your current graphics driver has a known issue that may lock up your PC. Please install the latest hotfix linked below."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "More info"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Headset Disconnected"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Your headset's display cable has become disconnected. Please check your headset's connections and try again."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "More info"

@@ -16,8 +16,8 @@
 	"/actions/lasermouse/in/moveup": "เลื่อนขึ้น",
 	"/actions/lasermouse/in/moveleft": "เลื่อนซ้าย",
 	"/actions/lasermouse/in/movedown": "เลื่อนลง",
-	"/actions/lasermouse/in/trackpadtouch": "สัมผัสแทร็คแพด",
-	"/actions/lasermouse/in/trackpadvalue": "เลื่อนแทร็คแพด",
+	"/actions/lasermouse/in/trackpadtouch": "สัมผัสแทร็กแพด",
+	"/actions/lasermouse/in/trackpadvalue": "เลื่อนแทร็กแพด",
 	"/actions/lasermouse/in/switchgamepadfocus": "สลับโฟกัสของแผง (เกมแพด)",
 	"/actions/lasermouse/in/trackpadscroll": "เลื่อนแผง",
 	"/actions/lasermouse/in/enter": "Enter",
@@ -49,5 +49,5 @@
 	"/actions/dualanalog": "การป้อนผ่านคีย์บอร์ด",
 	"/actions/system": "คำสั่งระบบ",
 	"/actions/scroll_discrete": "การเลื่อนสไตล์ล้อเมาส์",
-	"/actions/scroll_smooth": "การเลื่อนสไตล์แทร็คแพด"
+	"/actions/scroll_smooth": "การเลื่อนสไตล์แทร็กแพด"
 }
