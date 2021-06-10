@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Mere info"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Manglende driver"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Det aktuelle HMD kræver en driver, som ikke er installeret."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Flere oplysninger"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Opdatering til grafikdriver"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Du skal opdatere din computers grafikdriver."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Flere oplysninger"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "En nøglekomponent i SteamVR var for længe om at starte op og fejlede."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Genstart SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Problem med opstart af SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "En hovedkomponent i SteamVR kunne ikke findes. Prøv \"Bekræft værktøjsfilers integritet...\" i Steam for SteamVR."
+"VRInitError_Init_CouldNotStartPrism_Action" "Flere oplysninger"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Problem med opstart af SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR er stødt på et uventet problem. Gå til SteamVR-support for flere oplysninger."
+"VRInitError_Init_PrismClientInitFailed_Action" "Flere oplysninger"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Problem med opstart af SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR er stødt på et uventet problem. Gå til SteamVR-support for flere oplysninger."
+"VRInitError_Init_PrismClientStartFailed_Action" "Flere oplysninger"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR-fejl"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "En hovedkomponent i SteamVR fejlede."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Genstart SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset ikke registreret"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Sørg for, at dit headset er ordentligt tilsluttet, og nulstil det nedenfor."
@@ -438,6 +463,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" " "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Konfigurationsfejl på headsettets skærm"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Headsettets skærm har en ugyldig konfiguration. Kontakt support for at få yderligere hjælp."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR-fejl"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steam skal være installeret, for at SteamVR kan fungere korrekt."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Installer Steam"
@@ -860,6 +887,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "En driver er påkrævet for at bruge Windows Mixed Reality-headsets i SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Installer"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Installer VIVE Pro 2-driver?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "En driver er påkrævet for at bruge VIVE Pro 2-headset i SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installer"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Skærmforbindelsesproblem"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Dit grafikkort kan ikke oprette forbindelse til HMD-skærmen. Prøv at fjerne evt. kabeladaptere eller -forlængere. Prøv en anden ledig port på GPU'en, hvis der er en. <b>Brug nulstillingslinket nedenfor til at nulstille HMD'en, så GPU'en vil prøve igen.</b>"

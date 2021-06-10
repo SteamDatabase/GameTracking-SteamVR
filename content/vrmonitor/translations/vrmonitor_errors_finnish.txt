@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Lisätietoja"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Puuttuva ajuri"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Nykyiset VR-lasit vaativat ajurin, jota ei ole asennettu."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Lisätietoja"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Näytönohjaimen päivitys"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Tietokoneen näytönohjain vaatii päivityksen."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Lisätietoja"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "SteamVR:lle oleellisen osan käynnistäminen kesti liian kauan ja epäonnistui."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Käynnistä SteamVR uudelleen"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR-käynnistysongelma"
+"VRInitError_Init_CouldNotStartPrism_Description" "SteamVR:lle oleellista osaa ei löytynyt. Kokeile Steamin Tarkista työkalutiedostojen eheys... -toimintoa SteamVR:lle."
+"VRInitError_Init_CouldNotStartPrism_Action" "Lisätietoja"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=finnish"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR-käynnistysongelma"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR:ssä tapahtui odottamaton virhe. Lisätietoa löytyy SteamVR-tuesta."
+"VRInitError_Init_PrismClientInitFailed_Action" "Lisätietoja"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR-käynnistysongelma"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR:ssä tapahtui odottamaton virhe. Lisätietoa löytyy SteamVR-tuesta."
+"VRInitError_Init_PrismClientStartFailed_Action" "Lisätietoja"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR-virhe"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "SteamVR:lle oleellinen osa ei toimi."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Käynnistä SteamVR uudelleen"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "VR-laseja ei löytynyt"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Varmista, että VR-lasit on yhdistetty oikein. Nollaa sitten alta."
@@ -438,6 +463,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" " "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "VR-lasien näytön määritysvirhe"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "VR-lasien näytössä on väärä määritys. Ota yhteyttä tukeen saadaksesi apua ongelmaan."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR-virhe"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steamin tulee olla asennettuna, jotta SteamVR toimii kunnolla."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Asenna Steam"
@@ -809,7 +836,7 @@
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Lisätietoja"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
 
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "VR-lasien yhteys on katkennut"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "VR-lasien kaapeli on irronnut"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "VR-lasien kaapeli on irti. Varmista, että kaapeli on kunnolla kiinni VR-lasien takaosassa."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Lisätietoja"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
@@ -860,6 +887,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Ajuri vaaditaan, jotta Windows Mixed Reality -lasit voivat käyttää SteamVR:ää."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Asenna"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Asennetaanko VIVE Pro 2 -ajuri?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Ajuri vaaditaan, jotta VIVE Pro 2 -VR-lasit toimivat SteamVR:ssä."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Asenna"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Näytön yhteysongelma"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Näytönohjaimesi ei voi yhdistää VR-lasien näyttöön. Poista kaikki kaapelin adapterit ja lisäosat ja yritä uudelleen. Kokeile muita näytönohjaimen portteja, jos mahdollista. <b>Klikkaa nollaa-linkkiä alta nollataksesi VR-lasisi, jotta näytönohjain yrittää yhdistää uudelleen.</b>"

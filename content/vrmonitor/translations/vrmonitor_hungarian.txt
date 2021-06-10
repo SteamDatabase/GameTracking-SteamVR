@@ -1173,7 +1173,7 @@
 "BS_PowerManagement_ConnectionFailureLegend"				"Csatlakozás sikertelen. Kattints a „Frissítés” gombra az újrapróbáláshoz."
 
 "BS20_UpdateRecovery_Title"									"Bázisállomás 2.0 frissítés-helyreállító"
-"BS20_UpdateRecovery_BluetoothRequired"						"A frissítés-helyreállítás bekapcsolt Bluetooth kommunikációt igényel.\n\nKapcsold be a Bluetooth kommunikációt a Beállításokban."
+"BS20_UpdateRecovery_BluetoothRequired"						"A frissítés-helyreállítás bekapcsolt Bluetooth-kommunikációt igényel.\n\nKapcsold be a Bluetooth-kommunikációt a Beállításokban."
 "BS20_UpdateRecovery_Scanning"								"Bázisállomások keresése...\n\n%1 másodperc van hátra."
 "BS20_UpdateRecovery_Incomplete"							"Bázisállomások keresése...\n\nBefejezetlen."
 "BS20_UpdateRecovery_FoundStations"							"Keresés befejezve.<br><br><font color=#ffffff>Ezeknek a bázisállomásoknak befejezetlen frissítéseik vannak.<br><br>Válassz ki egy bázisállomást, majd a folytatáshoz kattints az „Eszköz helyreállítására”.</font>"

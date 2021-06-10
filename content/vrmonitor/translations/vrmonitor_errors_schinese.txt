@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "更多信息"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=schinese#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "缺失驱动程序"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "当前头戴式显示器需要的驱动程序尚未安装。"
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "更多信息"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "显卡驱动更新"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "电脑显卡驱动需要更新。"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "更多信息"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "SteamVR 的一个关键组件用时过长并已失败。"
 "VRInitError_Init_PrismStartupTimedOut_Action" "重启 SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR 启动问题"
+"VRInitError_Init_CouldNotStartPrism_Description" "无法找到 SteamVR 的一个关键组件。请在 Steam 中为 SteamVR 尝试“验证工具文件的完整性…”。"
+"VRInitError_Init_CouldNotStartPrism_Action" "更多信息"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR 启动问题"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR 出现意外问题。请访问 SteamVR 客服站点了解更多信息。"
+"VRInitError_Init_PrismClientInitFailed_Action" "更多信息"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR 启动问题"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR 出现意外问题。请访问 SteamVR 客服站点了解更多信息。"
+"VRInitError_Init_PrismClientStartFailed_Action" "更多信息"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR 出现问题"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "SteamVR 的一个关键组件出现问题。"
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "重启 SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "未找到头戴式显示器"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "确保头戴式显示器已正确连接，然后在下方重置。"
@@ -438,6 +463,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "&nbsp"
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " &nbsp"
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "头戴式显示器屏幕配置错误"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "头戴式显示器的屏幕有一个无效配置。请联系客服以获取额外帮助。"
 "VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR 错误"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "必须安装 Steam 才能使 SteamVR 正常工作。"
 "VRInitError_Steam_SteamInstallationNotFound_Action" "安装 Steam"
@@ -589,7 +616,6 @@
 "Popover_Pose_Invalid_Action" "更多信息"
 "Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/zh-cn/wizard/HelpWithGame/?appid=250820"
 
-"Popover_Pose_HMD_Header" "头戴式显示器可用"
 "Popover_Pose_HMD_Description" "您的头戴式显示器当前正在定位。"
 "Popover_Pose_Controller_Header" "控制器已启用"
 "Popover_Pose_Controller_Description" "此控制器当前正在定位。"
@@ -815,12 +841,12 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/zh-cn/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR 错误"
-"Warning_DismissableWarning_HDCPError_Description" "<span>您的</span> GPU 与头戴式显示器通讯时出现问题，导致 HDCP 错误。尝试移除正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<b>请使用下方的重置链接重置头戴式显示器，以便 GPU 可以重试。</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=schinese'>了解更多</a>。"
+"Warning_DismissableWarning_HDCPError_Description" "<span>您的</span> GPU 与头戴式显示器通信时出现问题，导致 HDCP 错误。尝试移除正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<b>请使用下方的重置链接重置头戴式显示器，以便 GPU 可以重试。</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=schinese'>了解更多</a>。"
 "Warning_DismissableWarning_HDCPError_Action" "重置头戴式显示器"
 "Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
 
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR 错误"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>您的</span> GPU 与头戴式显示器通讯时出现问题，导致 HDCP 错误。尝试移除正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<p> <b>请使用下方按钮切换 HDCP 1.4 传统兼容性模式并重新启动 SteamVR。</b>"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>您的</span> GPU 与头戴式显示器通信时出现问题，导致 HDCP 错误。尝试移除正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<p> <b>请使用下方按钮切换 HDCP 1.4 传统兼容性模式并重新启动 SteamVR。</b>"
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "重新启动（HDCP）"
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
 
@@ -860,6 +886,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "在 SteamVR 上运行 Windows 混合现实头戴式显示器需要驱动。"
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "安装"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "是否安装 VIVE Pro 2 驱动程序？"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "需要驱动程序才能在 SteamVR 中运行 VIVE Pro 2 头戴式显示器。"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "安装"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "显示屏连接故障"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "您的显卡无法成功连接至您的头戴式显示器显示屏。尝试移除您正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<b>请使用下方的重置链接重置头戴式显示器，以便 GPU 可以重试。</b>"

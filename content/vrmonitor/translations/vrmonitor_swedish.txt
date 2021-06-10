@@ -432,7 +432,7 @@
 "Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Använd alltid (VARNING: Applikation körs med halverad bildfrekvens)"
 
 "Settings_PerApplication_Reprojection_Header" "Återprojektion"
-"Settings_PerApplication_Reprojection_Checkbox" "Använd klassiskt läge för återprojicering"
+"Settings_PerApplication_Reprojection_Checkbox" "Använd klassiskt återprojiceringsläge"
 "Settings_PerApplication_Reprojection_Description" "Om du väljer detta alternativ, avaktiveras asynkron återprojicering för den här titeln."
 
 "Settings_Audio_Device_HMD"  "VR-headset"

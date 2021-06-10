@@ -273,6 +273,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Více informací"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Chybí ovladač"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Používaný headset vyžaduje ovladač, který není nainstalován."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Více informací"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizace ovladače grafické karty"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Je vyžadována aktualizace ovladače grafické karty."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Více informací"
@@ -282,6 +287,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Klíčový komponent režimu SteamVR se spouštěl příliš dlouho a nakonec selhal."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Restartovat režim SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Chyba spouštění režimu SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Klíčový komponent režimu SteamVR nebyl nalezen. Zkuste v klientu služby Steam ve vlastnostech režimu SteamVR vybrat možnost „Ověřit integritu souborů nástroje...“."
+"VRInitError_Init_CouldNotStartPrism_Action" "Více informací"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=czech"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Chyba spouštění režimu SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
+"VRInitError_Init_PrismClientInitFailed_Action" "Více informací"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Chyba spouštění režimu SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
+"VRInitError_Init_PrismClientStartFailed_Action" "Více informací"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Selhání režimu SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Klíčový komponent režimu SteamVR selhal."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Restartovat režim SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset nebyl nalezen"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Ujistěte se, že je headset správně připojen a restartujte jej."
@@ -442,6 +467,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
 "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Chyba konfigurace displeje headsetu"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Displej headsetu disponuje neplatnou konfigurací. Pro další pomoc kontaktujte podporu."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Chyba režimu SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Pro správnou funkci režimu SteamVR je potřeba mít nainstalovaného klienta služby Steam."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Nainstalovat klienta"
@@ -880,6 +907,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Aby byl režim SteamVR schopný pracovat s headsety hybridní reality (Windows Mixed Reality), je vyžadována instalace ovladače."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Nainstalovat"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Nainstalovat ovladač pro Vive Pro 2?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Aby byl režim SteamVR schopný pracovat s headsetem Vive Pro 2, je vyžadována instalace ovladače."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Nainstalovat"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problém s připojením k displeji"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Vaší grafické kartě se nepodařilo připojit k displeji headsetu. Zkuste odebrat veškeré adaptéry nebo prodlužovače a také (pokud je dostupný) zkuste jiný port GPU. <b>Kliknutím níže bude resetován Váš headset, takže se GPU pokusí znovu připojit.</b>"

@@ -273,6 +273,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Więcej informacji"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=polish#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Brakuje sterownika"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Obecne gogle wymagają sterownika, który nie jest zainstalowany."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Więcej informacji"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizacja sterowników graficznych"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Musisz zaktualizować sterowniki karty graficznej twojego komputera."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Więcej informacji"
@@ -282,6 +287,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Uruchomienie kluczowego komponentu SteamVR trwało zbyt długo i zakończyło się niepowodzeniem."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Zrestartuj SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Problem z uruchomieniem SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Kluczowy komponent SteamVR nie został odnaleziony. Spróbuj zweryfikować spójność plików narzędzia SteamVR w Steam."
+"VRInitError_Init_CouldNotStartPrism_Action" "Więcej informacji"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=polish"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Problem z uruchomieniem SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR napotkał nieoczekiwany problem. Odwiedź stronę Pomocy technicznej SteamVR, by uzyskać więcej informacji."
+"VRInitError_Init_PrismClientInitFailed_Action" "Więcej informacji"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Problem z uruchomieniem SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR napotkał nieoczekiwany problem. Odwiedź stronę Pomocy technicznej SteamVR, by uzyskać więcej informacji."
+"VRInitError_Init_PrismClientStartFailed_Action" "Więcej informacji"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Awaria SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Kluczowy komponent SteamVR przestał działać."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Zrestartuj SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Nie wykryto gogli"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Upewnij się, że twoje gogle są prawidłowo podłączone, a następnie zresetuj je poniżej."
@@ -442,6 +467,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " 
 "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Błąd konfiguracji wyświetlacza gogli"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Wyświetlacz gogli posiada nieprawidłową konfigurację. Skontaktuj się z pomocą techniczną, by uzyskać dodatkowe wsparcie."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Błąd SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Do prawidłowej pracy SteamVR wymagany jest zainstalowany klient Steam."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Zainstaluj Steam"
@@ -840,7 +867,7 @@
 "Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
 
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "Błąd SteamVR"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Twoje</span> GPU ma problem z komunikacją z twoimi goglami, a rezultatem tego jest błąd HDCP. Spróbuj odpiąć wszelkie przejściówki lub przedłużacze, z których korzystasz. Spróbuj użyć innego gniazda na swoim GPU, jeżeli takowe jest dostępne. <p> <b>Użyj poniższego przycisku, by przełączyć się na tryb HDCP 1.4 Legacy Compatibility i ZRESTARTOWAĆ SteamVR.</b>"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Twoje</span> GPU ma problem z komunikacją z twoimi goglami, a rezultatem tego jest błąd HDCP. Spróbuj odpiąć wszelkie przejściówki lub przedłużacze, z których korzystasz. Spróbuj użyć innego gniazda na swoim GPU, jeżeli takowe jest dostępne. <p> <b>Użyj poniższego przycisku, by przełączyć się na tryb kompatybilności ze starszą wersją HDCP 1.4 i ZRESTARTOWAĆ SteamVR.</b>"
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Zrestartuj (HDCP)"
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
 
@@ -880,6 +907,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Sterownik jest wymagany w celu uruchomienia gogli Windows Mixed Reality na SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Zainstaluj"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Zainstalować sterownik Vive Pro 2?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Sterownik jest wymagany w celu uruchomienia gogli Vive Pro 2 na SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Zainstaluj"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problem z podłączeniem wyświetlacza"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Twoja karta graficzna nie może pomyślnie połączyć się z wyświetlaczem gogli. Spróbuj odpiąć wszelkie przejściówki kabli lub przedłużacze, z których korzystasz. Spróbuj skorzystać z innego portu w twojej karcie graficznej, jeżeli jakiś jest dostępny. <b>Użyj linku do resetowania poniżej, by zresetować gogle, przez co karta graficzna ponowi próbę.</b>"

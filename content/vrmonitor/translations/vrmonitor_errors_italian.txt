@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Ulteriori informazioni"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Driver mancante"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Il visore attuale richiede un driver che al momento non è installato."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Ulteriori informazioni"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Aggiornamento driver grafici"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Devi aggiornare i driver grafici del tuo computer."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Altre informazioni"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Una componente chiave di SteamVR ha impiegato troppo tempo per avviarsi e ha riscontrato un errore."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Riavvia SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Problema con l'avvio di SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Una componente chiave di SteamVR non è stata trovata. Prova 'Verifica integrità dei file dello strumento...' su Steam per SteamVR."
+"VRInitError_Init_CouldNotStartPrism_Action" "Ulteriori informazioni"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Problema con l'avvio di SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "Si è verificato un problema inaspettato con SteamVR. Visita la pagina dell'assistenza di SteamVR per ulteriori informazioni."
+"VRInitError_Init_PrismClientInitFailed_Action" "Ulteriori informazioni"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Problema con l'avvio di SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "Si è verificato un problema inaspettato con SteamVR. Visita la pagina dell'assistenza di SteamVR per ulteriori informazioni."
+"VRInitError_Init_PrismClientStartFailed_Action" "Ulteriori informazioni"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Errore di SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Una componente chiave di SteamVR non funziona."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Riavvia SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Visore non rilevato"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Assicurati che il visore sia collegato correttamente, quindi ripristinalo qui sotto."
@@ -339,12 +364,12 @@
 "VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 
 "VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "Errore di SteamVR"
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "Un componente essenziale di SteamVR non funziona correttamente. Riavvia SteamVR."
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "Una componente essenziale di SteamVR non funziona correttamente. Riavvia SteamVR."
 "VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "Ulteriori informazioni"
 "VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 
 "VRInitError_IPC_NamespaceUnavailable_Header" "Errore di SteamVR"
-"VRInitError_IPC_NamespaceUnavailable_Description" "Un componente essenziale di SteamVR non funziona correttamente. Riavvia SteamVR."
+"VRInitError_IPC_NamespaceUnavailable_Description" "Una componente essenziale di SteamVR non funziona correttamente. Riavvia SteamVR."
 "VRInitError_IPC_NamespaceUnavailable_Action" "Ulteriori informazioni"
 "VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
 
@@ -439,6 +464,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
 "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Errore nella configurazione dello schermo del visore"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Lo schermo del visore ha una configurazione non valida. Contatta l'assistenza per ricevere ulteriore aiuto."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Errore di SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Affinché SteamVR funzioni correttamente, Steam deve essere installato."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Installa Steam"
@@ -874,6 +901,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "È necessario un driver per il funzionamento dei visori Windows Mixed Reality su SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Installa"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Installare il driver VIVE Pro 2?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "È necessario un driver per il funzionamento del visore VIVE Pro 2 su SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installa"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problema di connessione del display"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "La tua scheda grafica non è in grado di collegarsi allo schermo del tuo visore. Prova a rimuovere eventuali adattatori o estensioni che stai utilizzando. Prova un'altra porta sulla tuo GPU se disponibile. <b>Usa il link di ripristino qui sotto per ripristinare il visore così che la GPU possa tentare nuovamente di collegarsi.</b>"

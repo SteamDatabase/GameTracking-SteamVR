@@ -897,6 +897,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "More info"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Headset Connection Issue"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "There's an issue with the display connection. Please disconnect your headset and reconnect it. You can also try restarting SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Restart SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
+
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR Error"
 "Warning_DismissableWarning_HDCPError_Description" "<span>Your</span> GPU is having trouble communicating with your HMD, resulting in an HDCP error. Try removing any cable adapters or extenders you are using. Try another port on your GPU if one is available. <b>Use the reset link below to reset the HMD so the GPU will try again.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Learn more</a>."
 "Warning_DismissableWarning_HDCPError_Action" "Reset Headset"

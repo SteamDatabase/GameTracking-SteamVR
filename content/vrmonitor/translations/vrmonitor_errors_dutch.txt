@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Meer informatie"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=dutch#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Ontbrekend stuurprogramma"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "De huidige headset vereist een stuurprogramma dat niet is geïnstalleerd."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Meer informatie"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Update van het grafische stuurprogramma"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Het grafische stuurprogramma voor je computer dient bijgewerkt te worden."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Meer informatie"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Een belangrijk onderdeel van SteamVR kon niet op tijd starten en is gefaald."
 "VRInitError_Init_PrismStartupTimedOut_Action" "SteamVR herstarten"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Probleem bij het opstarten van SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Een belangrijk onderdeel van SteamVR kan niet worden gevonden. Probeer 'Integriteit controleren van toolbestanden...' in Steam voor SteamVR."
+"VRInitError_Init_CouldNotStartPrism_Action" "Meer informatie"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=dutch"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Probleem bij het opstarten van SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "Er is een onverwacht probleem opgetreden bij SteamVR. Bezoek de ondersteuningspagina van SteamVR voor meer informatie."
+"VRInitError_Init_PrismClientInitFailed_Action" "Meer informatie"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Probleem bij het opstarten van SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "Er is een onverwacht probleem opgetreden bij SteamVR. Bezoek de ondersteuningspagina van SteamVR voor meer informatie."
+"VRInitError_Init_PrismClientStartFailed_Action" "Meer informatie"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Fout met SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Een belangrijk onderdeel van SteamVR werkt niet correct."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "SteamVR herstarten"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset niet gedetecteerd"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Zorg ervoor dat je headset correct verbonden is en klik daarna hieronder om hem opnieuw in te stellen."
@@ -439,6 +464,8 @@
 "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Configuratiefout bij headsetweergave"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "De configuratie van de headset is ongeldig. Neem contact op met de ondersteuning voor aanvullende hulp."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Fout met SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steam moet geïnstalleerd zijn om SteamVR correct te laten werken."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Steam installeren"
@@ -652,9 +679,9 @@
 "Popover_Standby_Controller_Header" "Controller in stand-by"
 "Popover_Standby_Controller_Description" "Beweeg je controller om hem te activeren."
 "Popover_Standby_Base_Header" "Basisstation in stand-by"
-"Popover_Standby_Base_Description" "Gebruik VR om dit basisstation te wekken."
+"Popover_Standby_Base_Description" "Gebruik VR om dit basisstation te activeren."
 "Popover_Standby_Tracker_Header" "Volgapparaat in stand-by"
-"Popover_Standby_Tracker_Description" "Beweeg je volgapparaat om het te wekken."
+"Popover_Standby_Tracker_Description" "Beweeg je volgapparaat om het te activeren."
 "Popover_LowBattery_HMD_Header" "Laag batterijniveau headset"
 "Popover_LowBattery_HMD_Description" "De batterij van deze headset is bijna leeg."
 "Popover_LowBattery_Controller_Header" "Laag batterijniveau controller"
@@ -877,6 +904,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Een stuurprogramma is vereist om Windows Mixed Reality-headsets te kunnen gebruiken met SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Installeren"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "VIVE Pro 2-stuurprogramma installeren?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Een stuurprogramma is vereist om de VIVE Pro 2-headset te kunnen gebruiken met SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installeren"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Verbindingsproblemen weergeven"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Je grafische kaart kan geen verbinding maken met het scherm van de headset. Probeer eventuele kabeladapters of verlengkabels te verwijderen. Probeer een andere poort op de GPU als deze beschikbaar is. <b>Gebruik de onderstaande link om de headset opnieuw in te stellen zodat de GPU het opnieuw probeert.</b>"

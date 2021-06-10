@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "ข้อมูลเพิ่มเติม"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=thai#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "ไดรเวอร์สูญหาย"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "หน้าจอสวมศีรษะในปัจจุบันต้องใช้ไดรเวอร์ที่ไม่ได้ติดตั้งไว้"
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "ข้อมูลเพิ่มเติม"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/th/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "อัปเดตไดรเวอร์กราฟิก"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "คุณจำเป็นต้องอัปเดตไดรเวอร์กราฟิกของคอมพิวเตอร์ของคุณ"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "ข้อมูลเพิ่มเติม"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "ส่วนประกอบสำคัญของ SteamVR ใช้เวลานานเกินไปในการเริ่มต้นและล้มเหลว"
 "VRInitError_Init_PrismStartupTimedOut_Action" "รีสตาร์ท SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "ปัญหาการเริ่ม SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "ไม่พบส่วนประกอบสำคัญของ SteamVR กรุณาลอง 'ตรวจสอบความสมบูรณ์ของไฟล์เครื่องมือ...' ใน Steam สำหรับ SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Action" "ข้อมูลเพิ่มเติม"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=thai"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "ปัญหาการเริ่ม SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR ได้ตรวจพบปัญหาที่ไม่คาดคิด กรุณาไปที่ฝ่ายสนับสนุน SteamVR สำหรับข้อมูลเพิ่มเติม"
+"VRInitError_Init_PrismClientInitFailed_Action" "ข้อมูลเพิ่มเติม"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/th/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "ปัญหาการเริ่ม SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR ได้ตรวจพบปัญหาที่ไม่คาดคิด กรุณาไปที่ฝ่ายสนับสนุน SteamVR สำหรับข้อมูลเพิ่มเติม"
+"VRInitError_Init_PrismClientStartFailed_Action" "ข้อมูลเพิ่มเติม"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/th/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR ล้มเหลว"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "ส่วนประกอบสำคัญของ SteamVR ล้มเหลว"
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "รีสตาร์ท SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "ไม่พบเครื่องสวมศีรษะ"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "ตรวจสอบให้แน่ใจว่าเครื่องสวมศีรษะของคุณเชื่อมต่ออยู่อย่างเหมาะสม จากนั้นรีเซ็ตอุปกรณ์จากด้านล่างนี้"
@@ -440,6 +465,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
 "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "ข้อผิดพลาดการกำหนดค่าจอแสดงผลเครื่องสวมศีรษะ"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "จอแสดงผลของเครื่องสวมศีรษะมีการกำหนดค่าที่ไม่ถูกต้อง กรุณาติดต่อฝ่ายสนับสนุนเพื่อขอความช่วยเหลือเพิ่มเติม"
 "VRInitError_Steam_SteamInstallationNotFound_Header" "ข้อผิดพลาดของ SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steam จำเป็นต้องถูกติดตั้ง เพื่อให้ SteamVR ทำงานได้อย่างถูกต้อง"
 "VRInitError_Steam_SteamInstallationNotFound_Action" "ติดตั้ง Steam"
@@ -878,6 +905,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "จำเป็นต้องมีไดรเวอร์เพื่อเริ่มเปิดเครื่องสวมศีรษะ Windows Mixed Reality บน SteamVR"
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "ติดตั้ง"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "ติดตั้งไดรเวอร์ Vive Pro 2 ใช่หรือไม่?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "จำเป็นต้องมีไดรเวอร์เพื่อเริ่มเปิดเครื่องสวมศีรษะ Vive Pro 2 บน SteamVR"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "ติดตั้ง"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "ปัญหาการเชื่อมต่อจอแสดงผล"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "การ์ดกราฟิกของคุณไม่สามารถเชื่อมต่อไปยังจอแสดงผลหน้าจอสวมศีรษะของคุณได้ กรุณาลองถอดสายอะแดปเตอร์หรือส่วนต่อขยายสายใดก็ตามที่คุณกำลังใช้อยู่ ลองใช้พอร์ตอื่นบน GPU ของคุณหากมี <b>ใช้ลิงก์รีเซ็ตด้านล่างนี้เพื่อรีเซ็ตหน้าจอสวมศีรษะ จากนั้นลองให้ GPU ทำงานใหม่อีกครั้ง</b>"

@@ -1,6 +1,6 @@
 "lang"
 {
-"Language" "korean" 
+"Language" "koreana" 
 "Tokens"
 {
 
@@ -268,6 +268,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "추가 정보"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "누락된 드라이버"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "현재 HMD에는 설치되어 있지 않은 드라이버가 필요합니다."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "추가 정보"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/ko/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "그래픽 드라이버 업데이트"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "컴퓨터의 그래픽 드라이버를 업데이트해야 합니다."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "추가 정보"
@@ -277,6 +282,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "SteamVR의 핵심 요소를 실행하는 데 시간이 너무 오래 걸려 실패하였습니다."
 "VRInitError_Init_PrismStartupTimedOut_Action" "SteamVR 다시 시작하기"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR 시작 오류"
+"VRInitError_Init_CouldNotStartPrism_Description" "SteamVR의 핵심 요소를 찾을 수 없습니다. Steam에서 SteamVR에 대한 '도구 파일 무결성 검사...'를 시도하세요."
+"VRInitError_Init_CouldNotStartPrism_Action" "추가 정보"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR 시작 오류"
+"VRInitError_Init_PrismClientInitFailed_Description" "예기치 않은 문제가 발생했습니다. SteamVR 고객지원 페이지를 확인해 주세요."
+"VRInitError_Init_PrismClientInitFailed_Action" "추가 정보"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/ko/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR 시작 오류"
+"VRInitError_Init_PrismClientStartFailed_Description" "예기치 않은 문제가 발생했습니다. SteamVR 고객지원 페이지를 확인해 주세요."
+"VRInitError_Init_PrismClientStartFailed_Action" "추가 정보"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/ko/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR 실패"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "SteamVR의 핵심 요소를 실행하는 데 실패했습니다."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "SteamVR 다시 시작"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "헤드셋을 찾을 수 없음"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "헤드셋이 제대로 연결되어 있는지 확인한 후 아래에서 초기화하세요."
@@ -433,6 +458,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "헤드셋 오류"
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "헤드셋을 찾았지만, 하드웨어에 문제가 있습니다. 제조사에 문의해 주세요."
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" " "
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "헤드셋 디스플레이 설정 오류"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "헤드셋 디스플레이에 잘못된 설정이 있습니다. 고객지원으로 문의하여 추가 지원을 요청하세요."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR 오류"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "SteamVR이 올바르게 작동하려면 Steam을 설치해야 합니다."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Steam 설치"
@@ -834,6 +861,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Windows Mixed Reality 헤드셋을 SteamVR에서 사용하려면 드라이버가 필요합니다."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "설치하기"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Vive Pro 2 드라이버를 설치하시겠습니까?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Vive Pro 2 헤드셋을 SteamVR에서 사용하려면 드라이버가 필요합니다."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "설치"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "디스플레이 연결 문제"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "그래픽카드가 HMD 디스플레이와 연결되지 않습니다. 사용 중인 케이블 어댑터 또는 확장 케이블을 제거해 보세요. 가능한 경우 GPU에 다른 포트를 사용해 보세요. <b>GPU가 다시 시도할 수 있도록 아래 링크를 사용해 HMD를 초기화하세요.</b>"

@@ -272,6 +272,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Ayrıntılı bilgi"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset&l=turkish"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Eksik Sürücü"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Mevcut başlık yüklü olmayan bir sürücüye ihtiyaç duyuyor."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Daha fazla bilgi"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Grafik sürücüsü güncellemesi"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Bilgisayarınızın grafik sürücüsünü güncelleştirmelisiniz."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Daha fazla bilgi"
@@ -281,6 +286,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "SteamVR'ın gerekli bileşenlerinden birinin başlaması çok uzun sürdü ve başlayamadı."
 "VRInitError_Init_PrismStartupTimedOut_Action" "SteamVR'ı yeniden başlat"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR Başlatma Sorunu"
+"VRInitError_Init_CouldNotStartPrism_Description" "Steam VR'ın önemli bileşenlerinden biri bulunamadı. Steam'de SteamVR için \"Araç dosyalarının bütünlüğünü doğrula...\" seçeneğini deneyin."
+"VRInitError_Init_CouldNotStartPrism_Action" "Daha fazla bilgi"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR Başlatma Sorunu"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
+"VRInitError_Init_PrismClientInitFailed_Action" "Daha fazla bilgi"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR Başlatma Sorunu"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
+"VRInitError_Init_PrismClientStartFailed_Action" "Daha fazla bilgi"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR Hatası"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "SteamVR'ın önemli bir bileşeni çalışmıyor."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "SteamVR'ı Yeniden Başlat"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Başlık algılanmadı"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Başlığınızın düzgün bir şekilde bağlandığından emin olun ve aşağıdan sıfırlayın."
@@ -440,6 +465,8 @@
 "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Başlık Ekranı Yapılandırma Hatası"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Başlık ekranı geçersiz bir yapılandırmaya sahip. Yardım almak için lütfen destekle irtibata geçin."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR Hatası"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "SteamVR'ın düzgün çalışması için Steam'in yüklü olması gerekmektedir."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Steam'i yükle"
@@ -877,6 +904,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "SteamVR'da Windows Mixed Reality başlıklarını çalıştırmak için bir sürücü gereklidir."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Yükle"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Vive Pro 2 sürücüsü yüklensin mi?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "SteamVR'da Vive Pro 2 başlığını çalıştırmak için bir sürücü gereklidir."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Yükle"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Ekran Bağlantısı Sorunu"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ekran kartınız başlığınızın ekranına başarılı bir şekilde bağlanamıyor. Eğer kullanıyorsanız bütün kablo adaptörlerini ve uzatmaları çıkartmayı deneyin. Mevcutsa, ekran kartınızın farklı bir girişini deneyin. <b>Ekran kartınızın tekrar denemesi için aşağıdaki yeniden başlatma bağlantısını kullanarak başlığınızı yeniden başlatın.</b>"

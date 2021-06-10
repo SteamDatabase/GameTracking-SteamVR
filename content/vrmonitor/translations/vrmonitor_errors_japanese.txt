@@ -268,6 +268,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "詳細情報"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "ドライバーが見つかりません"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "現在のHMDには、インストールされていないドライバーが必要です。"
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "詳細"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "グラフィックドライバーのアップデート"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "お使いのコンピューターのグラフィックドライバーを更新する必要があります。"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "詳細情報"
@@ -277,6 +282,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "SteamVRの主要なコンポーネントの起動に時間がかかりすぎて失敗しました。"
 "VRInitError_Init_PrismStartupTimedOut_Action" "SteamVRを再起動"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR起動時の問題"
+"VRInitError_Init_CouldNotStartPrism_Description" "SteamVRの主要コンポーネントが見つかりません。Steamで、SteamVRの「ツールファイルの整合性を確認...」をお試しください。"
+"VRInitError_Init_CouldNotStartPrism_Action" "詳細"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR起動時の問題"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVRで予期しない問題が発生しました。詳細はSteamVRサポートをご覧ください。"
+"VRInitError_Init_PrismClientInitFailed_Action" "詳細"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR起動時の問題"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVRで予期しない問題が発生しました。詳細はSteamVRサポートをご覧ください。"
+"VRInitError_Init_PrismClientStartFailed_Action" "詳細"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVRで問題発生"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "SteamVRの主要コンポーネントで問題が発生しました。"
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "SteamVRを再起動"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "ヘッドセットが検出されません"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "ヘッドセットが適切に接続されていることを確認し、以下でリセットしてください。"
@@ -435,6 +460,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" " "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "  "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "ヘッドセットディスプレイ設定エラー"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "ヘッドセットのディスプレイ設定が無効です。追加のヘルプが必要な場合、サポートにお問合せください。"
 "VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVRエラー"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "SteamVRが正しく動作するためにはSteamをインストールする必要があります。"
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Steam をインストール"
@@ -857,6 +884,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "SteamVRでWindows Mixed Realityヘッドセットを実行するにはドライバーが必要です。"
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "インストール"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Vive Pro 2ドライバーのインストール？"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "SteamVRでVive Pro 2ヘッドセットを実行するにはドライバーが必要です。"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "インストール"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "接続の問題を表示"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "グラフィックカードがHMDディスプレイに接続できません。ご利用のケーブルアダプターまたはエクステンダーを外し、GPUに別のポートがある場合はそちらをお試しください。<b>以下のリセットリンクを使ってHMDをリセットするとGPUが再試行します。</b>"

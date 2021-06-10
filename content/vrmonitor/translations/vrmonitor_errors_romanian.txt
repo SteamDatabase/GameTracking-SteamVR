@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Mai multe informații"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Driver lipsă"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Casca actuală necesită un driver care nu este instalat."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Mai multe informații"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Actualizarea driverului pentru placa video"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Trebuie să-ți actualizezi driverul plăcii video a calculatorului tău."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mai multe informații"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "O componentă esențială a SteamVR a avut nevoie de prea mult timp pentru a porni și a eșuat."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Repornește SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Problemă la lansarea SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "O componentă cheie a SteamVR nu a putut fi găsită. Încearcă opțiunea „Verifică integritatea fișierelor instrumentului...” pe Steam pentru SteamVR."
+"VRInitError_Init_CouldNotStartPrism_Action" "Mai multe informații"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Problemă la lansarea SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR a întâmpinat o problemă neașteptată. Pentru informații suplimentare, te rugăm să accesezi pagina de asistență SteamVR."
+"VRInitError_Init_PrismClientInitFailed_Action" "Mai multe informații"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Problemă la lansarea SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR a întâmpinat o problemă neașteptată. Pentru informații suplimentare, te rugăm să accesezi pagina de asistență SteamVR."
+"VRInitError_Init_PrismClientStartFailed_Action" "Mai multe informații"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Eroare SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "O componentă cheie a SteamVR nu funcționează."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Repornește SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Casca nu a fost detectată"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Asigură-te că ai casca conectată în mod corespunzător și apoi reseteaz-o mai jos."
@@ -436,6 +461,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Eroare a căștii"
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "Casca ta a fost detectată, dar a apărut o problemă hardware. Te rugăm să contactezi producătorul pentru asistență."
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "Vizitează site-ul web HTC"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Eroare de configurare a ecranului căștii"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Ecranul căștii are o configurație nevalidă. Pentru ajutor suplimentar te rugăm să contactezi asistența."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Eroare SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steam trebuie să fie instalat pentru ca SteamVR să ruleze corespunzător."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Instalează Steam"
@@ -761,7 +788,7 @@
 "Warning_DismissableWarning_IssuesWithOneDongle_Action" "Mai multe informații"
 "Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#wireless-receivers"
 
-"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Receptorii wireless nu au fost găsiți"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Receptorii wireless nu au fost detectați"
 "Warning_DismissableWarning_IssuesWithTwoDongles_Description" "Receptorii wireless din casca ta nu au fost detectați. Aceasta poate cauza probleme de conexiune cu controlerele tale de RV."
 "Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Mai multe informații"
 "Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#wireless-receivers"
@@ -837,6 +864,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Este necesar un driver pentru a putea utiliza căștile Windows Mixed Reality cu SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Instalează"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Instalezi driverul pentru VIVE Pro 2?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Este necesar un driver pentru a putea utiliza casca VIVE Pro 2 cu SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Instalează"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problemă la conectarea ecranului"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Placa ta grafică nu se poate conecta corespunzător la ecranul căștii. Dacă utilizezi adaptoare sau prelungitoare pentru cablu, încearcă să le îndepărtezi. Dacă este disponibil, încearcă un alt port al plăcii grafice. <b>Utilizează linkul de resetare de mai jos pentru a reseta casca, astfel încât placa grafică va putea încerca din nou conectarea.</b>"

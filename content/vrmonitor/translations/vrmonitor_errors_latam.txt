@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Más información"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset&l=spanish"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Controlador no encontrado"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "El visor actual requiere un controlador que no está instalado."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Más información"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/es-419/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Actualización del controlador de gráficos"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Necesitas actualizar el controlador de gráficos de tu equipo."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Más información"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Un componente clave de SteamVR ha tardado demasiado en iniciarse y ha fallado."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Reiniciar SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Problema al iniciar SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "No se pudo encontrar un componente clave de SteamVR. Intenta 'Verificar la integridad de los archivos de herramientas...' en Steam para SteamVR."
+"VRInitError_Init_CouldNotStartPrism_Action" "Más información"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Problema al iniciar SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR encontró un problema inesperado. Para más información, visita el soporte para SteamVR."
+"VRInitError_Init_PrismClientInitFailed_Action" "Más información"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/es-419/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Problema al iniciar SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR encontró un problema inesperado. Para más información, visita el soporte para SteamVR."
+"VRInitError_Init_PrismClientStartFailed_Action" "Más información"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/es-419/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Error de SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Un componente clave de SteamVR no funciona."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Reiniciar SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Visor no detectado"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Asegúrate de que el visor esté conectado correctamente y reinícialo más abajo."
@@ -438,6 +463,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" " "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Error en configuración de la pantalla del visor"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "La configuración de la pantalla del visor no es válida. Por favor, contacta al soporte para ayuda adicional."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Error de SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steam debe estar instalado para que SteamVR funcione correctamente."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Instalar Steam"
@@ -861,6 +888,11 @@ Más información."
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Se necesita un controlador para utilizar los visores de Windows Mixed Reality en SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Instalar"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "¿Instalar controlador de Vive Pro 2?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Se necesita un controlador para utilizar el visor Vive Pro 2 en SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Instalar"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problema de conexión de pantalla"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Tu tarjeta gráfica no puede conectarse con éxito a la pantalla de tu visor. Intenta quitar cualquier adaptador de cable o extensor que estés utilizando. Prueba con otro puerto en su GPU si hay uno disponible. <b>Utiliza el enlace de reinicio a continuación para reiniciar el visor y que la GPU lo intente nuevamente.</b>"

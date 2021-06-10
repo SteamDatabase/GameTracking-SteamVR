@@ -1212,6 +1212,7 @@
 "Monitor_RestartRequestedDialog_Quit" "Quit SteamVR"
 
 "oculus_display_lost" "The Oculus system has lost its connection to the display. Please check your headset's connection and then restart."
+"oculus_requested_quit" "The Oculus system requested that SteamVR exit."
 
 "Monitor_WakingBaseStations" "Base stations waking up..."
 "Monitor_PuttingBaseStationsInStandby" "Base stations standing by..."

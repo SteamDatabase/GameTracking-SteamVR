@@ -540,7 +540,7 @@
 "Advanced_BaseStation" "Tukiasema"
 "Advanced_USB" "USB"
 
-"Advanced_HMD" "Visiiri"
+"Advanced_HMD" "VR-lasit"
 "Advanced_Controller" "Ohjain"
 "Advanced_Generic_Tracker" "Jäljitin"
 "Advanced_Base" "Tukiasema"

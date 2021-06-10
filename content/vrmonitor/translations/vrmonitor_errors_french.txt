@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Plus d'informations"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=french#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Pilote manquant"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Pour fonctionner, le casque actuel a besoin d'un pilote qui n'est pas installé."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Plus d'informations"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Mise à jour des pilotes graphiques"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Vous devez mettre à jour le pilote graphique de votre ordinateur."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Plus d'informations"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Un des composants principaux de SteamVR a mis trop de temps à démarrer et a échoué."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Redémarrer SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Erreur au démarrage de SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Un des composants principaux de SteamVR n'a pas été trouvé. Vérifiez l'intégrité des fichiers de SteamVR depuis Steam."
+"VRInitError_Init_CouldNotStartPrism_Action" "Plus d'informations"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=french"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Erreur au démarrage de SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR a rencontré un problème inattendu. Veuillez consulter le Support SteamVR pour plus d'informations."
+"VRInitError_Init_PrismClientInitFailed_Action" "Plus d'informations"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Erreur au démarrage de SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR a rencontré un problème inattendu. Veuillez consulter le Support SteamVR pour plus d'informations."
+"VRInitError_Init_PrismClientStartFailed_Action" "Plus d'informations"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Échec de SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Un des composants principaux de SteamVR a échoué."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Redémarrer SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Casque non détecté"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Assurez-vous que votre casque est bien connecté, puis réinitialisez-le ci-dessous."
@@ -439,6 +464,8 @@
 "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Erreur de configuration de l'écran du casque"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "La configuration de l'écran du casque n'est pas valide. Veuillez contacter le Support pour recevoir de l'aide."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Erreur de SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steam doit être installé pour que SteamVR fonctionne correctement."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Installer Steam"
@@ -786,12 +813,12 @@
 "Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
 
 "Warning_DismissableWarning_IssuesWithOneDongle_Header" "Erreur du casque"
-"Warning_DismissableWarning_IssuesWithOneDongle_Description" "Un des modules de communication sans fil de votre casque n'a pas été détecté. Cela peut entrainer des problèmes de connexion avec vos contrôleurs VR."
+"Warning_DismissableWarning_IssuesWithOneDongle_Description" "Un des récepteurs sans fil de votre casque n'a pas été détecté. Cela peut entrainer des problèmes de connexion avec vos contrôleurs VR."
 "Warning_DismissableWarning_IssuesWithOneDongle_Action" "Plus d'informations"
 "Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=french#wireless-receivers"
 
-"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Modules de communication sans fil non détectés"
-"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "Les modules de communication sans fil de votre casque n'ont pas été détectés. Cela peut entraîner des problèmes de connexion avec vos contrôleurs VR."
+"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Récepteurs sans fil non détectés"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "Les récepteurs sans fil de votre casque n'ont pas été détectés. Cela peut entrainer des problèmes de connexion avec vos contrôleurs VR."
 "Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Plus d'informations"
 "Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=french#wireless-receivers"
 
@@ -866,6 +893,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Un pilote est nécessaire pour utiliser les casques Windows Mixed Reality avec SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Installer"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Installer le pilote VIVE Pro 2 ?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Un pilote est nécessaire pour utiliser le casque VIVE Pro 2 avec SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installer"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problème d'affichage lié à la connexion"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Votre carte graphique n'a pas réussi à se connecter à l'affichage de votre casque. Essayez de débrancher tout adaptateur de câble ou tout câble d'extension que vous pourriez utiliser. Essayez de brancher votre casque à un autre port de votre carte graphique. <b>Utilisez le lien de réinitialisation ci-dessous pour réinitialiser le casque et réessayer.</b>"

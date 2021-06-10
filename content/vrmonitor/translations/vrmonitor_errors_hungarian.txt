@@ -273,6 +273,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Több infó"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Hiányzó illesztőprogram"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Az aktuális HMD olyan illesztőprogramot igényel, ami nincs telepítve."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Több infó"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Video-illesztőprogram frissítés"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Frissítened kell a számítógéped video-illesztőprogramját."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "További információ"
@@ -282,6 +287,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "A SteamVR egyik kulcsösszetevőjének indulása túl sokáig tartott, így sikertelen volt."
 "VRInitError_Init_PrismStartupTimedOut_Action" "SteamVR újraindítása"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR indítási probléma"
+"VRInitError_Init_CouldNotStartPrism_Description" "A SteamVR egy kulcsfontosságú összetevője nem található. Próbáld meg a „Kellékfájlok épségének ellenőrzése...” lehetőséget a Steamen a SteamVR-hez."
+"VRInitError_Init_CouldNotStartPrism_Action" "Több infó"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=hungarian"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR indítási probléma"
+"VRInitError_Init_PrismClientInitFailed_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
+"VRInitError_Init_PrismClientInitFailed_Action" "Több infó"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR indítási probléma"
+"VRInitError_Init_PrismClientStartFailed_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
+"VRInitError_Init_PrismClientStartFailed_Action" "Több infó"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR hiba"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "A SteamVR egyik kulcsösszetevője hibába ütközött."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "SteamVR újraindítása"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Fejszett nem észlelhető"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Győződj meg róla, hogy a fejszetted megfelelően van csatlakoztatva, majd alább állítsd alaphelyzetbe."
@@ -442,6 +467,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
 "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Fejszettkijelző konfigurációs hiba"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "A fejszettkijelző konfigurációja érvénytelen. Kérjük, vedd fel a kapcsolatot a támogatással további segítségért."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR hiba"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "A SteamVR helyes működéséhez a Steamnek telepítve kell lennie."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Steam telepítése"
@@ -880,6 +907,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "A Windows Mixed Reality fejszettek SteamVR-en működtetéséhez illesztőprogram szükséges."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Telepítés"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "VIVE Pro 2 illesztőprogam telepítése?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "A VIVE Pro 2 fejszett SteamVR-en működtetéséhez illesztőprogram szükséges."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Telepítés"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Kijelzőcsatlakozási probléma"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Videokártyád nem tud csatlakozni HMD kijelződhöz. Próbáld meg eltávolítani a használt kábeladaptereket vagy -hosszabbítókat. Próbálj ki egy másik csatlakozót a videokártyádon, ha van. <b>Használd a lenti alaphelyzetbe állító hivatkozást a HMD alaphelyzetbe állításához, hogy a videokártya újrapróbálja.</b>"

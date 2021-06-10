@@ -177,7 +177,7 @@
 "VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
 
 "VRInitError_Init_NotSupportedWithCompositor_Header" "Falha do SteamVR"
-"VRInitError_Init_NotSupportedWithCompositor_Description" "Houve um problema inesperado com o SteamVR. Acesse o suporte do SteamVR para mais detalhes."
+"VRInitError_Init_NotSupportedWithCompositor_Description" "Houve um problema inesperado com o SteamVR. Acesse o suporte do SteamVR para detalhes."
 "VRInitError_Init_NotSupportedWithCompositor_Action" "Mais informações"
 "VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
 
@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Mais informações"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Driver ausente"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "O headset atual requer um driver que não foi instalado."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Mais informações"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Atualização do driver de vídeo"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Atualize o driver de vídeo do computador."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mais informações"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Um componente-chave do SteamVR demorou demais para inicializar e falhou."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Reiniciar SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Problema ao inicializar o SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Um componente-chave do SteamVR não foi encontrado. Experimente verificar a integridade dos arquivos nas propriedades do Steam para o SteamVR."
+"VRInitError_Init_CouldNotStartPrism_Action" "Mais informações"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=brazilian"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Problema ao inicializar o SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "Houve um problema inesperado com o SteamVR. Acesse o suporte do SteamVR para detalhes."
+"VRInitError_Init_PrismClientInitFailed_Action" "Mais informações"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Problema ao inicializar o SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "Houve um problema inesperado com o SteamVR. Acesse o suporte do SteamVR para detalhes."
+"VRInitError_Init_PrismClientStartFailed_Action" "Mais informações"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Falha do SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Um componente-chave do SteamVR falhou."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Reiniciar o SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset não detectado"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Confirme que o headset está conectado corretamente e reinicie-o abaixo."
@@ -438,6 +463,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" " "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Erro de configuração da tela do headset"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "A tela do headset está usando uma configuração inválida. Entre em contato com o suporte para assistência."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Erro do SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "O Steam precisa estar instalado para que o SteamVR funcione corretamente."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Instalar Steam"
@@ -860,6 +887,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "É necessário um driver para que headsets do Windows Mixed Reality funcionem no SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Instalar"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Instalar driver do Vive Pro 2?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "É necessário um driver para que o headset do Vive Pro 2 funcione no SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Instalar"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problema de conexão da tela"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "A placa de vídeo não conseguiu se conectar à tela do headset. Tente remover todos os adaptadores ou extensões de cabos que estiver usando. Experimente usar outra porta da placa de vídeo, se houver.<b>Usa o link abaixo para reiniciar o headset para que a placa de vídeo seja forçada a tentar novamente.</b>"

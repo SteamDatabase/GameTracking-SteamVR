@@ -273,6 +273,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Докладніше"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Відсутній драйвер"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Для цього шолома необхідний драйвер, який не інстальований."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Докладніше"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/uk/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Оновлення відеодрайвера"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Вам потрібно оновити відеодрайвер комп’ютера."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Докладніше"
@@ -282,6 +287,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Ключовий компонент SteamVR запускався надто довго, що призвело до помилки."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Перезапустити SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Помилка запуску SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Не знайдено ключового компонента SteamVR. Спробуйте функцію «Перевірка цілісності файлів інструмента…» для SteamVR у Steam."
+"VRInitError_Init_CouldNotStartPrism_Action" "Докладніше"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Помилка запуску SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "Виникла неочікувана помилка SteamVR. Перегляньте статті підтримки SteamVR."
+"VRInitError_Init_PrismClientInitFailed_Action" "Докладніше"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/uk/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Помилка запуску SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "Виникла неочікувана помилка SteamVR. Перегляньте статті підтримки SteamVR."
+"VRInitError_Init_PrismClientStartFailed_Action" "Докладніше"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/uk/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Помилка SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "У ключовому компоненті SteamVR сталася помилка."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Перезапустити SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Шолом не виявлено"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Переконайтеся, що ваш шолом під’єднано належним чином, а потім скиньте його налаштування."
@@ -440,6 +465,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" " "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Помилка конфігурації екрана шолома"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Конфігурація екрана шолома не дійсна. Зверніться до служби підтримки для отримання допомоги."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Помилка SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Для коректної роботи SteamVR потрібно інсталювати Steam."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Інсталювати Steam"
@@ -862,6 +889,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Для роботи шолома Windows Mixed Reality в SteamVR потрібно інсталювати драйвер."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Інсталювати"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Інсталювати драйвер VIVE Pro 2?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Для роботи шолома VIVE Pro 2 в SteamVR потрібно інсталювати драйвер."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Інсталювати"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Проблеми з підключенням екрана"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Відеокарті не вдалося підключитися до екрана шолома. Спробуйте від’єднати всі адаптери та подовжувачі, які ви використовуєте. Також спробуйте інший порт відеокарти, якщо це можливо. <b>Скористайтеся наведеним нижче посиланням для скидання налаштувань шолома, щоб повторити спробу підключення відеокарти.</b>"

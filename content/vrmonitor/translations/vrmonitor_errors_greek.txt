@@ -271,6 +271,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Περισσότερες πληροφορίες"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=greek#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Λείπει οδηγός"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Το τρέχον headset απαιτεί έναν οδηγό που δεν έχει εγκατασταθεί."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Περισσότερες πληροφορίες"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/el/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Ενημέρωση οδηγού γραφικών"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Πρέπει να ενημερώσετε τον οδηγό γραφικών του υπολογιστή σας."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Περισσότερες πληροφορίες"
@@ -280,6 +285,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Ένα βασικό στοιχείο του SteamVR χρειάστηκε πάρα πολλή ώρα να εκκινήσει και απέτυχε."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Επανεκκίνηση SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Πρόβλημα εκκίνησης SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Ένα βασικό στοιχείο του SteamVR δεν βρέθηκε. Δοκιμάστε «Επαλήθευση ακεραιότητας αρχείων εργαλείου…» στο Steam για το SteamVR."
+"VRInitError_Init_CouldNotStartPrism_Action" "Περισσότερες πληροφορίες"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=greek"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Πρόβλημα εκκίνησης SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "Το SteamVR αντιμετώπισε ένα απρόσμενο πρόβλημα. Eπισκεφτείτε την Υποστήριξη SteamVR για περισσότερες πληροφορίες."
+"VRInitError_Init_PrismClientInitFailed_Action" "Περισσότερες πληροφορίες"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/el/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Πρόβλημα εκκίνησης SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "Το SteamVR αντιμετώπισε ένα απρόσμενο πρόβλημα. Eπισκεφτείτε την Υποστήριξη SteamVR για περισσότερες πληροφορίες."
+"VRInitError_Init_PrismClientStartFailed_Action" "Περισσότερες πληροφορίες"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/el/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Αποτυχία SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Ένα βασικό στοιχείο του SteamVR απέτυχε."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Επανεκκίνηση SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Δεν εντοπίστηκε headset"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Βεβαιωθείτε ότι το headset σας είναι συνδεδεμένο σωστά και έπειτα επαναφέρετέ το παρακάτω."
@@ -440,6 +465,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
 "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Σφάλμα διαμόρφωσης οθόνης headset"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Η οθόνη του headset έχει μη έγκυρη διαμόρφωση. Επικοινωνήστε με την υποστήριξη για επιπλέον βοήθεια."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Σφάλμα SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Το Steam πρέπει να είναι εγκατεστημένο για να λειτουργήσει σωστά το SteamVR."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Εγκατάσταση του Steam"
@@ -878,6 +905,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Απαιτείται ένας οδηγός για την εκτέλεση του headset Windows Mixed Reality στο SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Εγκατάσταση"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Εγκατάσταση οδηγού Vive Pro 2;"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Απαιτείται ένας οδηγός για την εκτέλεση του headset Vive Pro 2 στο SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Εγκατάσταση"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Πρόβλημα σύνδεσης προβολής"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Η κάρτα γραφικών σας δεν μπορεί να συνδεθεί επιτυχώς στην προβολή του headset σας. Δοκιμάστε να αφαιρέσετε οποιουσδήποτε προσαρμογείς ή επεκτάσεις καλωδίων χρησιμοποιείτε. Δοκιμάστε μια διαφορετική θύρα στην κάρτα γραφικών σας, αν υπάρχει μία διαθέσιμη. <b>Χρησιμοποιήστε τον παρακάτω σύνδεσμο επαναφοράς για να επαναφέρετε την προβολή του headset ώστε να προσπαθήσει ξανά η κάρτα γραφικών.</b>"

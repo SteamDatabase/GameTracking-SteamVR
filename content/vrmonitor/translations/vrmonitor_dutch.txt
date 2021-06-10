@@ -140,7 +140,7 @@
 "SteamVRSystemState_Connecting_Application_Lighthouse" "Zorg ervoor dat de headset de basisstations kan zien"
 "SteamVRSystemState_Connecting_Application_InsideOutCamera" "Zorg ervoor dat de headset het speelgebied kan zien"
 "SteamVRSystemState_Connecting_Application_OutsideInCamera" "Zorg ervoor dat de volgcamera's de headset kunnen zien"
-"SteamVRSystemState_Standby_Application" "Zet de headset op om VR te wekken"
+"SteamVRSystemState_Standby_Application" "Zet de headset op om VR te activeren"
 "SteamVRSystemState_PseudoState_Welcome_Application" "Sluit je VR-headset aan"
 
 "MenuAction_StatusBar" "Status"
@@ -214,7 +214,7 @@
 "MenuAction_Workshop_ViewWiki" "Wiki SteamVR-omgevingen"
 "MenuAction_Workshop_Browse" "Door Workshop bladeren"
 "MenuAction_ModelDirectory_Browse" "Door modelmap bladeren"
-"MenuAction_WakeupAllBaseStations" "Alle basisstations wakker maken"
+"MenuAction_WakeupAllBaseStations" "Basisstations activeren"
 "MenuAction_KnockKnock" "Klop, klop"
 "MenuAction_PairTracker" "Volgapparaat koppelen"
 "MenuAction_PowerOffTracker" "Volgapparaat uitschakelen"
@@ -322,8 +322,8 @@
 "Settings_LockedModeDesc" " "
 
 "Settings_Dashboard_Explanation" "Deze applicaties zijn toegankelijk als overlays in het VR-dashboard."
-"Settings_BaseStationsWakeUpAll" "Alle basisstations wakker maken"
-"Settings_BaseStationsWakeUpAll_Explanation" "Wekt alle basisstations waarvan het energiebeheer op afstand wordt geregeld."
+"Settings_BaseStationsWakeUpAll" "Alle basisstations activeren"
+"Settings_BaseStationsWakeUpAll_Explanation" "Activeert alle basisstations waarvan het energiebeheer op afstand wordt geregeld."
 "Settings_EnableScreenshots_Info" "Druk de systeemknop en trekker in om een screenshot te maken"
 "Settings_EnableScreenshots_Text" "Screenshots inschakelen (BÈTA)"
 "Settings_DefaultScreenshotType_Text" "Type screenshot"
@@ -348,7 +348,7 @@
 "Settings_BaseStation_BluetoothRequired" "Schakel bluetooth in om draadloze functies zoals energiebeheer van basisstations en updates mogelijk te maken."
 "Settings_BaseStation_OpenSettingsBluetooth" "Instellingen bluetooth weergeven"
 "Settings_BaseStation_PowerManagement" "Energiebeheer"
-"Settings_BaseStation_PowerManagement_Explanation" "Wek basisstations en zet ze in stand-by op basis van je SteamVR-gebruik."
+"Settings_BaseStation_PowerManagement_Explanation" "Activeer basisstations en zet ze in stand-by op basis van je SteamVR-gebruik."
 "Settings_BaseStation_ScanForBaseStations" "Basisstations zoeken"
 "Settings_BaseStation_ScanForBaseStations_Explanation" "Detecteer bekende basisstations die hun bluetoothaanwezigheid uitzenden."
 "Settings_BaseStation_ConfigureBaseStations" "Kanalen van basisstations configureren"
@@ -1146,11 +1146,11 @@
 
 "BS_PowerManagement_Title"									"Energiebeheer basisstation"
 "BS_PowerManagement_Enable"									"Energiebeheer inschakelen *"
-"BS_PowerManagement_Enable_Explanation"						"Basisstations waarvan energiebeheer aan staat, gaan in stand-bystand wanneer SteamVR buiten gebruik is en activeren weer wanneer SteamVR start.\n"
+"BS_PowerManagement_Enable_Explanation"						"Basisstations waarvan energiebeheer aan staat, gaan in stand-by wanneer SteamVR buiten gebruik is en activeren weer wanneer SteamVR start.\n"
 "BS_PowerManagement_Enable_Warning"							"<font color=#ffffff>* NIET AANBEVOLEN voor gedeelde ruimtes met meerdere SteamVR-gebruikers.</font>"
 "BS_PowerManagement_PartialStandby"							"Stand-by" 
-"BS_PowerManagement_PartialStandby_Explanation"				"Basisstations zetten alleen hun lasers uit om sneller te ontwaken als SteamVR start."
-"BS_PowerManagement_PartialStandby_HybridExplanation"		"Basisstations 2.0 zetten alleen hun lasers uit om sneller te ontwaken als SteamVR start."
+"BS_PowerManagement_PartialStandby_Explanation"				"Basisstations zetten alleen hun lasers uit om sneller te activeren als SteamVR start."
+"BS_PowerManagement_PartialStandby_HybridExplanation"		"Basisstations 2.0 zetten alleen hun lasers uit om sneller te activeren als SteamVR start."
 "BS_PowerManagement_FullStandby"							"Slaapstand"
 "BS_PowerManagement_FullStandby_Explanation"				"Basisstations zetten hun lasers en motoren uit."
 "BS_PowerManagement_RefreshLink"							"Vernieuwen"
@@ -1173,7 +1173,7 @@
 "BS20_UpdateRecovery_UpdateDevice"							"Apparaat herstellen"
 
 "BS_PromotePowerManagement_Title"							"SteamVR"
-"BS_PromotePowerManagement_Explanation"						"SteamVR kan het energiebeheer van je basisstations verzorgen.<br><br>Basisstations waarbij energiebeheer aan staat, gaan in stand-by wanneer SteamVR buiten gebruik is en activeren weer wanneer SteamVR start.<br>"
+"BS_PromotePowerManagement_Explanation"						"SteamVR kan het energiebeheer van je basisstations verzorgen.<br><br>Basisstations waarvan energiebeheer aan staat, gaan in stand-by wanneer SteamVR buiten gebruik is en activeren weer wanneer SteamVR start.<br>"
 "BS_PromotePowerManagement_Enable"							"Energiebeheer basisstation inschakelen *"
 "BS_PromotePowerManagement_Explanation2"					"<br><font color=#ffffff>* NIET AANBEVOLEN voor gedeelde volgruimtes met meerdere SteamVR-gebruikers.</font>"
 "BS_PromotePowerManagement_ExitNow"							"Nu afsluiten (%1)"
@@ -1191,7 +1191,7 @@
 
 "oculus_display_lost" "Het Oculus-systeem heeft de verbinding met het scherm verloren. Controleer de verbinding van je headset en start vervolgens opnieuw op."
 
-"Monitor_WakingBaseStations" "Basisstations starten op..."
+"Monitor_WakingBaseStations" "Basisstations worden geactiveerd..."
 "Monitor_PuttingBaseStationsInStandby" "Basisstations worden in stand-by gezet..."
 
 "VRApplicationError_None" "Geen fout"

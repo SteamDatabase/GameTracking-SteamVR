@@ -227,7 +227,7 @@
 
 "MonitorController_SwitchDirectMode_Header" "โหมดการแสดงผลโดยตรง"
 "MonitorController_EnableDirectMode_Text" "SteamVR จะรีสตาร์ทหลังจากเปิดการใช้งานโหมดการแสดงผลโดยตรง คุณต้องการดำเนินการต่อหรือไม่?"
-"MonitorController_DisableDirectMode_Text" "คำเตือน: การปิดการใช้งานโหมดการแสดงผลโดยตรงจะขยายหน้าจอเครื่องสวมศีรษะไปยังเดสก์ทอป ซึ่งไม่แนะนำ คุณแน่ใจหรือไม่ว่าคุณต้องการปิดการใช้งานโหมดการแสดงผลโดยตรง? SteamVR จะรีสตาร์ทหลังจากดำเนินการเปลี่ยนแปลงนี้"
+"MonitorController_DisableDirectMode_Text" "คำเตือน: การปิดการใช้งานโหมดการแสดงผลโดยตรงจะขยายหน้าจอเครื่องสวมศีรษะไปยังเดสก์ท็อป ซึ่งไม่แนะนำ คุณแน่ใจหรือไม่ว่าคุณต้องการปิดการใช้งานโหมดการแสดงผลโดยตรง? SteamVR จะรีสตาร์ทหลังจากดำเนินการเปลี่ยนแปลงนี้"
 
 "MonitorController_SwitchSafeMode_Header" "เซฟโหมด"
 "MonitorController_EnableSafeMode_Text" "<span>เซฟโหมด</span> สามารถนำมาใช้เพื่อจำกัดกระบวนการ SteamVR ให้ทำงานที่จำเป็นเท่านั้น เมื่อตรวจพบปัญหาความเข้ากันได้<p>คุณแน่ใจหรือไม่ว่าคุณต้องการเปิดการใช้งานเซฟโหมด? SteamVR จะรีสตาร์ทหลังจากดำเนินการเปลี่ยนแปลงนี้<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>เรียนรู้เพิ่มเติม</a>"
@@ -250,7 +250,7 @@
 "Settings_Notifications" "การแจ้งเตือน"
 "Settings_Applications" "แอปพลิเคชัน"
 "Settings_DisplayMode" "โหมดการแสดงผล"
-"Settings_DisplayMode_Extend" "ขยายเดสก์ทอปเพื่อแสดงผล"
+"Settings_DisplayMode_Extend" "ขยายเดสก์ท็อปเพื่อแสดงผล"
 "Settings_DisplayMode_MirrorWindow" "มุมมอง VR"
 "Settings_OpenVRPaths" "ตำแหน่ง OpenVR"
 "Settings_Reset" "รีเซ็ต"

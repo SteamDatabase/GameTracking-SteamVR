@@ -273,6 +273,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Подробнее"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset&l=russian"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Отсутствует драйвер"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Для текущего шлема требуется драйвер, который не установлен."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Подробнее"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/ru/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Обновление графического драйвера"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Вам необходимо обновить графический драйвер компьютера."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Подробнее"
@@ -282,6 +287,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Запуск ключевого компонента SteamVR занял слишком много времени, что привело к ошибке."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Перезапустить SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Ошибка запуска SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Ключевой компонент SteamVR не обнаружен. Найдите SteamVR в библиотеке Steam и выберите «Проверить целостность файлов инструмента...»"
+"VRInitError_Init_CouldNotStartPrism_Action" "Подробнее"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=russian"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Ошибка запуска SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "Произошла непредвиденная ошибка. Пожалуйста, обратитесь к статьям поддержки SteamVR."
+"VRInitError_Init_PrismClientInitFailed_Action" "Подробнее"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820&l=russian"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Ошибка запуска SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "Произошла непредвиденная ошибка. Пожалуйста, обратитесь к статьям поддержки SteamVR."
+"VRInitError_Init_PrismClientStartFailed_Action" "Подробнее"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820&l=russian"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Ошибка SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Ошибка ключевого компонента SteamVR."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Перезапустить SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Шлем не обнаружен"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Убедитесь, что шлем подключён правильно, а затем перезагрузите его, нажав кнопку внизу."
@@ -440,6 +465,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" " "
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Ошибка конфигурации экрана шлема"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Недопустимая конфигурация экрана шлема. Пожалуйста, обратитесь за помощью в службу поддержки."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Ошибка SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Необходимо установить Steam, чтобы SteamVR работал правильно."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Установить Steam"
@@ -491,7 +518,7 @@
 "ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
 "Lighthouse_UnknownEvent_Header" "Ошибка базовой станции"
-"Lighthouse_UnknownEvent_Description" "Произошла ошибка в системе трекинга SteamVR. Пожалуйста, обратитесь к статьям поддержки SteamVR."
+"Lighthouse_UnknownEvent_Description" "Произошла ошибка в системе отслеживания SteamVR. Пожалуйста, обратитесь к статьям поддержки SteamVR."
 "Lighthouse_UnknownEvent_Action" "Подробнее"
 "Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/ru/wizard/HelpWithGame/?appid=250820"
 
@@ -862,6 +889,11 @@
 "Warning_DismissableWarning_InstallWMRPrompt_Description" "Для работы шлемов Windows Mixed Reality со SteamVR необходимо установить драйвер."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Установить"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Установить драйвер Vive Pro 2?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Для работы шлема Vive Pro 2 со SteamVR необходимо установить драйвер."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Установить"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Ошибка при подключении дисплея"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ошибка подключения видеокарты к экрану шлема. Попробуйте отсоединить все используемые кабельные адаптеры и удлинители. Если возможно, попробуйте другой порт на видеокарте. <b>Воспользуйтесь ссылкой ниже, чтобы сбросить настройки шлема для повторного подключения видеокарты.</b>"

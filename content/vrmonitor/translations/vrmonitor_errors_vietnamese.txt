@@ -273,6 +273,11 @@
 "VRInitError_Driver_HmdDisplayMirrored_Action" "Xem thêm"
 "VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
 
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Thiếu driver"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Driver bắt buộc của mũ chụp hiện tại chưa được cài."
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Xem thêm"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Cập nhật driver đồ họa"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Bạn cần cập nhật driver đồ họa của máy tính."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Xem thêm"
@@ -282,6 +287,26 @@
 "VRInitError_Init_PrismStartupTimedOut_Description" "Một phần chủ chốt của SteamVR mất quá lâu để khởi động và không thành công."
 "VRInitError_Init_PrismStartupTimedOut_Action" "Khởi động lại SteamVR"
 "VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+
+"VRInitError_Init_CouldNotStartPrism_Header" "Sự cố khởi động SteamVR"
+"VRInitError_Init_CouldNotStartPrism_Description" "Không tìm thấy một phần chủ chốt của SteamVR. Vui lòng thử 'Kiểm tra lại dữ liệu công cụ...' trong Steam với SteamVR."
+"VRInitError_Init_CouldNotStartPrism_Action" "Xem thêm"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+
+"VRInitError_Init_PrismClientInitFailed_Header" "Sự cố khởi động SteamVR"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR đã gặp lỗi ngoài dự kiến. Vui lòng tìm hiểu thêm tại trang hỗ trợ SteamVR."
+"VRInitError_Init_PrismClientInitFailed_Action" "Xem thêm"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/vn/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismClientStartFailed_Header" "Sự cố khởi động SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR đã gặp lỗi ngoài dự kiến. Vui lòng tìm hiểu thêm tại trang hỗ trợ SteamVR."
+"VRInitError_Init_PrismClientStartFailed_Action" "Xem thêm"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/vn/wizard/HelpWithGame/?appid=250820"
+
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR thất bại"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Một phần chủ chốt của SteamVR bị hỏng."
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Khởi động lại SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
 
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Không tìm thấy mũ chụp"
 "VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Hãy đảm bảo mũ chụp của bạn được kết nối đúng cách, rồi đặt lại (reset) nó như bên dưới."
@@ -442,6 +467,8 @@
 "VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
 "
 
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Lỗi thiết lập hiển thị của mũ chụp"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Hiển thị của mũ chụp có thiết lập không hợp lệ. Vui lòng liên lạc đội hỗ trợ để được hướng dẫn."
 "VRInitError_Steam_SteamInstallationNotFound_Header" "Lỗi SteamVR"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steam phải được cài đặt để SteamVR hoạt động đúng cách."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Cài đặt Steam"
@@ -877,9 +904,14 @@
 "Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
 
 "Warning_DismissableWarning_InstallWMRPrompt_Header" "Cài đặt driver Windows Mixed Reality?"
-"Warning_DismissableWarning_InstallWMRPrompt_Description" "Yêu cầu driver để chạy mũ chụp Windows Mixed Reality trên SteamVR."
+"Warning_DismissableWarning_InstallWMRPrompt_Description" "Cần phải cài đặt driver để khởi động mũ chụp Windows Mixed Reality trên SteamVR."
 "Warning_DismissableWarning_InstallWMRPrompt_Action" "Cài đặt"
 "Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Cài driver cho VIVE Pro 2?"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Cần phải cài đặt driver để khởi động mũ chụp VIVE Pro 2 trên SteamVR."
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Cài đặt"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Vấn đề kết nối hiển thị"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Card đồ họa của bạn không thể kết nối thành công với màn hình hiển thị của mũ chụp. Hãy thử tháo dây đầu chuyển đổi hoặc dây nối dài nếu bạn đang sử dụng. Thử cổng kết nối khác trên GPU nếu có. <b>Sử dụng đường dẫn đặt lại (reset) bên dưới để đặt lại mũ chụp và GPU sẽ thử kết nối lại.</b>"
