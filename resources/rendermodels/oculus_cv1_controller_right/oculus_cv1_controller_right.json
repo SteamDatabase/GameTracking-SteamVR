@@ -106,8 +106,14 @@
         },
         "openxr_aim": {
             "component_local" : {
-                "origin": [0.0000,-0.05150,0.01650],
-                "rotate_xyz" : [-50.0,0.0,0.0]
+                "origin": [-0.007, -0.03894766, 0.00949694],
+                "rotate_xyz" : [-39.4, 0.0, 0.0]
+            }
+        },
+        "openxr_grip": {
+            "component_local" : {
+                "origin": [-0.007, -0.00182941, 0.1019482],
+                "rotate_xyz" : [20.6, 0.0, 0.0]
             }
         },
         "handgrip": {
