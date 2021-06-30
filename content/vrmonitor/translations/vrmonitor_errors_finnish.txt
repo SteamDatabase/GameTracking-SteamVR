@@ -831,6 +831,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Lisätietoja"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Päivitä näytönohjaimen ajuri"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Nykyisessä näytönohjaimen ajurissa on tunnettu ongelma, joka saattaa lukita tietokoneesi. Asenna uusin korjaus, jonka löydät alta."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Lisätietoja"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Yhteys VR-laseihin katkaistu"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "VR-lasien näyttökaapeli on irronnut. Tarkista kaapeli ja yritä uudelleen."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Lisätietoja"
@@ -840,6 +845,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "VR-lasien kaapeli on irti. Varmista, että kaapeli on kunnolla kiinni VR-lasien takaosassa."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Lisätietoja"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "VR-lasien yhteysongelma"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Näytössä on yhteysongelma. Irrota VR-lasit ja kytke ne uudelleen. Voit myös kokeilla, ratkaiseeko SteamVR:n uudelleenkäynnistys ongelman."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Käynnistä SteamVR uudelleen"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR-virhe"
 "Warning_DismissableWarning_HDCPError_Description" "Näytönohjain ei pysty kommunikoimaan VR-lasien kanssa ja se aiheuttaa HDCP-virheen. Poista kaikki kaapelin adapterit ja lisäosat ja yritä uudelleen. Kokeile näytönohjaimen toista porttia, jos sellainen on saatavilla. <b>Klikkaa nollaa-linkkiä alta nollataksesi VR-lasit, jotta näytönohjain yrittää yhdistää uudelleen.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=finnish'>Lisätietoja</a>."
@@ -906,6 +916,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Lisätietoja"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Irrota ohjaimet pelin aikana"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Jos irrotat latausjohdon vinossa, se saattaa vahingoittaa ohjainta."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Lisätietoja"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=finnish#wired-controller-usage"
 
 }
 }

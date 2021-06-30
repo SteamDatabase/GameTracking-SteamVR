@@ -876,7 +876,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Kết nối Bluetooth thất bại. Hãy kiểm tra kết nối Link box, rồi tháo và cắm lại nguồn điện đến Link box để khởi động lại nó, rồi khởi động lại SteamVR."
 "BluetoothControllerStatus_Connected"						"Bluetooth đã kết nối"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Ứng dụng này không thể chạy, trừ khi bạn đã thực hiện thiết lập phòng. Bạn có muốn thiết lập phòng bây giờ không?"
 
 "WorkshopUpload_DialogTitle"	"Công cụ tải lên Workshop SteamVR"
@@ -1187,6 +1186,7 @@
 "Monitor_RestartRequestedDialog_Quit" "Thoát SteamVR"
 
 "oculus_display_lost" "Máy Oculus đã mất kết nối tới màn hình của nó. Vui lòng kiểm tra kết nối mũ chụp của bạn rồi khởi động lại."
+"oculus_requested_quit" "Hệ thống Oculus yêu cầu thoát SteamVR."
 
 "Monitor_WakingBaseStations" "Đang đánh thức trạm theo dõi..."
 "Monitor_PuttingBaseStationsInStandby" "Trạm theo dõi sẽ về trạng thái nghỉ..."

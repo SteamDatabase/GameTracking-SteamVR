@@ -886,7 +886,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Bluetooth-csatlakozás sikertelen. Ellenőrizd a Link Box csatlakozásait, húzd ki és dugd be a tápkábelt a Link Boxba annak alaphelyzetbe állításához, majd indítsd újra a SteamVR-t."
 "BluetoothControllerStatus_Connected"						"Bluetooth csatlakozva"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Ez az alkalmazás nem tud futni, amíg nem végeztél szobaelrendezést. Szeretnéd most elvégezni a szobaelrendezést?"
 
 "WorkshopUpload_DialogTitle"	"SteamVR Műhely-feltöltő"
@@ -1199,6 +1198,7 @@
 "Monitor_RestartRequestedDialog_Quit" "Kilépés a SteamVR-ből"
 
 "oculus_display_lost" "Az Oculus rendszer elvesztette a kapcsolatot a kijelzővel. Ellenőrizd a fejszett csatlakozását, majd indítsd újra."
+"oculus_requested_quit" "Az Oculus rendszer a SteamVR kilépését kérte."
 
 "Monitor_WakingBaseStations" "A bázisállomások felébrednek..."
 "Monitor_PuttingBaseStationsInStandby" "Bázisállomások készenlétben..."

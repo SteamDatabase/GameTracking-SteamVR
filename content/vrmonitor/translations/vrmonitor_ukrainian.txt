@@ -878,7 +878,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Помилка підключення через Bluetooth. Перевірте підключення з’єднувальної коробки, потім від’єднайте та повторно під’єднайте кабель живлення і після цього перезапустіть SteamVR."
 "BluetoothControllerStatus_Connected"						"Bluetooth підключено"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Цей застосунок не працюватиме, доки не буде виконано налаштування кімнати. Налаштувати кімнату зараз?"
 
 "WorkshopUpload_DialogTitle"	"Вивантажувач майстерні SteamVR"
@@ -1189,6 +1188,7 @@
 "Monitor_RestartRequestedDialog_Quit" "Вийти зі SteamVR"
 
 "oculus_display_lost" "Система Oculus втратила зв’язок з екраном. Перевірте з’єднання з шоломом і виконайте перезапуск."
+"oculus_requested_quit" "Система Oculus вимагає завершення роботи SteamVR."
 
 "Monitor_WakingBaseStations" "Базові станції вмикаються…"
 "Monitor_PuttingBaseStationsInStandby" "Базові станції в режимі очікування…"

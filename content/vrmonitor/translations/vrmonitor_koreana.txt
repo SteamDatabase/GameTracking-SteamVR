@@ -854,7 +854,6 @@
 "BluetoothControllerStatus_FailedConnection"				"블루투스가 연결되지 않았습니다. 링크 박스 연결을 확인하고, 링크 박스 전원 케이블을 분리했다가 다시 연결하여 링크 박스를 초기화하고, SteamVR을 다시 시작하세요."
 "BluetoothControllerStatus_Connected"						"블루투스 연결됨"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "이 애플리케이션은 방 설정이 완료되기 전까지 실행할 수 없습니다. 지금 방 설정을 실행할까요?"
 
 "WorkshopUpload_DialogTitle"	"SteamVR 창작마당 업로드 도구"
@@ -1160,6 +1159,7 @@
 "Monitor_RestartRequestedDialog_Quit" "SteamVR 종료"
 
 "oculus_display_lost" "Oculus 시스템과 화면 연결이 끊어졌습니다. 헤드셋의 연결을 확인한 후 다시 시작하세요."
+"oculus_requested_quit" "Oculus 시스템이 SteamVR의 종료를 요청했습니다."
 
 "Monitor_WakingBaseStations" "베이스 스테이션이 켜집니다..."
 "Monitor_PuttingBaseStationsInStandby" "베이스 스테이션 대기 모드 중..."

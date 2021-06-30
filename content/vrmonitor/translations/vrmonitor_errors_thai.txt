@@ -849,6 +849,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "ข้อมูลเพิ่มเติม"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=thai#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "อัปเกรดไดรเวอร์กราฟิก"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "ไดรเวอร์กราฟิกปัจจุบันของคุณมีข้อผิดพลาดที่ทราบมาก่อนหน้านี้แล้ว ซึ่งอาจล็อค PC ของคุณ กรุณาติดตั้งโปรแกรมแก้ไขด่วนล่าสุดตามลิงก์ด้านล่าง"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "ข้อมูลเพิ่มเติม"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "เครื่องสวมศีรษะขาดการเชื่อมต่อ"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "สายจอแสดงผลของเครื่องสวมศีรษะของคุณได้เริ่มขาดการเชื่อมต่อ กรุณาตรวจสอบการเชื่อมต่อของเครื่องสวมศีรษะของคุณและลองใหม่อีกครั้ง"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "ข้อมูลเพิ่มเติม"
@@ -858,6 +863,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "สายของเครื่องสวมศีรษะของคุณได้ขาดการเชื่อมต่อที่เครื่องสวมศีรษะ กรุณาตรวจสอบให้แน่ใจว่าการเชื่อมต่อที่ด้านหลังแผ่นรองหน้าได้ติดอยู่อย่างมั่นคงแล้ว"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "ข้อมูลเพิ่มเติม"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/th/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "ปัญหาการเชื่อมต่อเครื่องสวมศีรษะ"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "เกิดปัญหาเกี่ยวกับการเชื่อมต่อจอแสดงผล กรุณาตัดการเชื่อมต่อเครื่องสวมศีรษะของคุณแล้วเชื่อมต่ออีกครั้ง คุณยังสามารถลองรีสตาร์ท SteamVR ได้อีกด้วย"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "รีสตาร์ท SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "ข้อผิดพลาดของ SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "GPU <span>ของคุณ</span>ได้ตรวจพบข้อผิดพลาดในการติดต่อสื่อสารกับหน้าจอสวมศีรษะของคุณ กรุณาลองถอดสายอะแดปเตอร์หรือส่วนต่อขยายสายใดก็ตามที่คุณกำลังใช้อยู่ ลองใช้พอร์ตอื่นบน GPU ของคุณหากมี <b>ใช้ลิงก์รีเซ็ตด้านล่างนี้เพื่อรีเซ็ตหน้าจอสวมศีรษะ จากนั้นลองให้ GPU ทำงานใหม่อีกครั้ง</b><p><a style=\"color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=thai'>เรียนรู้เพิ่มเติม</a>"
@@ -924,6 +934,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "ข้อมูลเพิ่มเติม"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/th/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "กรุณาถอดปลั๊กคอนโทรลเลอร์ออกระหว่างที่เล่นเกม"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "หากดึงสายชาร์จเฉียง ๆ อาจทำให้คอนโทรลเลอร์เสียหายได้"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "รายละเอียดเพิ่มเติม"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=thai#wired-controller-usage"
 
 }
 }

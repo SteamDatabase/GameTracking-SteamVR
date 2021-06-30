@@ -885,7 +885,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Spojení přes Bluetooth selhalo. Zkontrolujte připojení Link Boxu, restartujte jej odpojením a opětovným zapojením napájecího kabelu a následně restartujte také režim SteamVR."
 "BluetoothControllerStatus_Connected"						"Bluetooth připraveno"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Tuto aplikaci nelze spustit, dokud nebude dokončena příprava místnosti. Chcete nyní spustit přípravu místnosti?"
 
 "WorkshopUpload_DialogTitle"	"Nástroj workshopu režimu SteamVR"
@@ -1198,6 +1197,7 @@
 "Monitor_RestartRequestedDialog_Quit" "Ukončit režim SteamVR"
 
 "oculus_display_lost" "Systém Oculus ztratil spojení s displejem. Zkontrolujte připojení headsetu a proveďte restart."
+"oculus_requested_quit" "Systém Oculus si vyžádal ukončení režimu SteamVR."
 
 "Monitor_WakingBaseStations" "Probouzení základních stanic..."
 "Monitor_PuttingBaseStationsInStandby" "Uspávání základních stanic..."

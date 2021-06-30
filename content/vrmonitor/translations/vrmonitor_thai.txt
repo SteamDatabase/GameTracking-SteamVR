@@ -875,7 +875,6 @@
 "BluetoothControllerStatus_FailedConnection"				"การเชื่อมต่อบลูทูธล้มเหลว กรุณาตรวจสอบการเชื่อมต่อกล่องลิงก์ จากนั้นถอดสายไฟออกและเสียบสายไฟกลับเพื่อให้กล่องลิงก์รีเซ็ต และจากนั้นให้รีสตาร์ท SteamVR"
 "BluetoothControllerStatus_Connected"						"เชื่อมต่อบลูทูธแล้ว"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "แอปพลิเคชันนี้ไม่สามารถเริ่มเปิดได้จนกว่าคุณจะดำเนินการตั้งค่าห้อง คุณต้องการจะดำเนินการตั้งค่าห้องเดี๋ยวนี้หรือไม่?"
 
 "WorkshopUpload_DialogTitle"	"เครื่องมืออัปโหลดเวิร์กชอปบน SteamVR"
@@ -1185,6 +1184,7 @@
 "Monitor_RestartRequestedDialog_Quit" "ออกจาก SteamVR"
 
 "oculus_display_lost" "ระบบ Oculus ได้ขาดการเชื่อมต่อจากจอแสดงผล กรุณาตรวจสอบการเชื่อมต่อเครื่องสวมศีรษะของคุณแล้วจึงรีสตาร์ท"
+"oculus_requested_quit" "ระบบ Oculus ขอให้ออกจาก SteamVR"
 
 "Monitor_WakingBaseStations" "สถานีฐานกำลังตื่น..."
 "Monitor_PuttingBaseStationsInStandby" "สถานีฐานกำลังรอใช้งาน..."

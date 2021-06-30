@@ -848,6 +848,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Ayrıntılı bilgi"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues&l=turkish"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Ekran Kartı Sürücünüzü Güncelleştirin"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Mevcut ekran kartı sürücünüzde bilgisayarınızın kilitlenmesine neden olabilecek bilenen bir sorun var. Lütfen aşağıda bağlantısı verilmiş son düzeltmeyi yükleyin."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Başlığın Bağlantısı Kesildi"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Başlığınızın görüntü kablosu çıktı. Lütfen başlığınızın bağlantılarını kontrol edin ve tekrar deneyin."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Ayrıntılı bilgi"
@@ -857,6 +862,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Başlığınızın kablosu başlığınızdan çıktı. Lütfen yüz lastiğinin arkasındaki kablonun sıkıca bağlandığından emin olun."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Ayrıntılı bilgi"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Başlık Bağlantısı Sorunu"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Başlık bağlantısıyla ilgili bir sorun var. Lütfen başlığınızın görüntü kablosunu çıkarıp tekrar takın. SteamVR'ı yeniden başlatmayı da deneyebilirsiniz."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "SteamVR'ı Yeniden Başlat"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR Hatası"
 "Warning_DismissableWarning_HDCPError_Description" "Ekran kartınız başlığınızla iletişim sorunu yaşadı ve bir HDCP hatası meydana geldi. Eğer kullanıyorsanız bütün uzatma kablolarını ve adaptörleri çıkartmayı deneyin. Mevcutsa, ekran kartınızın farklı bir girişini deneyin. <b>Ekran kartınızın tekrar denemesi için aşağıdaki yeniden başlatma butonunu kullanarak başlığınızı yeniden başlatın.</b>"
@@ -923,6 +933,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Daha fazla bilgi"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Oynarken lütfen kontrolcüleri çıkarın"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Şarj kablosunu yamuk çekmek kontrolcüye hasar verebilir."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Daha Fazla Detay"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

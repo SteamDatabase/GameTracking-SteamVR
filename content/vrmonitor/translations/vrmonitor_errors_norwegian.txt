@@ -831,6 +831,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Mer info"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Oppgrader skjermdriver"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Den gjeldende skjermdriveren har et kjent problem som kan låse datamaskinen. Installer den nyeste hurtigreparasjonen lenket nedenfor."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Mer info"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Hodesett frakoblet"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Hodesettets skjermkabel ble koblet fra. Sjekk tilkoblingene til hodesettet og prøv igjen."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Mer info"
@@ -840,6 +845,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Hodesettets kabel er blitt koblet fra hodesettet. Sørg for at den er koblet til ordentlig bak ansiktsputen."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Mer info"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/no/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Problem med hodesettets tilkobling"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Det har oppstått et problem med skjermtilkoblingen. Koble fra hodesettet og koble det til igjen. Du kan også prøve å starte SteamVR på nytt."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Start SteamVR på nytt"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR-feil"
 "Warning_DismissableWarning_HDCPError_Description" "<span>Skjermkortet</span> har problemer med å kommunisere med hodesettet, noe som førte til en HDCP-feil. Prøv å fjerne eventuelle kabeladaptere eller skjøtekabler. Prøv en annen port på skjermkortet hvis det er mulig. <b>Trykk tilbakestill nedenfor for å tilbakestille hodesettet så skjermkortet kan prøve igjen.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Les mer</a>."
@@ -906,6 +916,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Mer informasjon"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/no/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Koble fra kontrollerne under spillingen"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Hvis ladekabelen trekkes ut på skrå, kan det skade kontrolleren."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Mer informasjon"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

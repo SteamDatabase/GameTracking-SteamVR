@@ -887,7 +887,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Bluetooth bağlantısı başarısız oldu. Link box bağlantılarını kontrol edin, ardından gücü sıfırlamak için link box'ın fişini çekip tekrar takın daha sonra SteamVR'ı yeniden başlatın."
 "BluetoothControllerStatus_Connected"						"Bluetooth bağlandı"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Bu uygulama oda kurulumunu tamamlamadan çalıştırılamaz. Oda kurulumunu şimdi çalıştırmak ister misiniz?"
 
 "WorkshopUpload_DialogTitle"	"SteamVR Atölye Yükleyici"
@@ -1197,6 +1196,7 @@
 "Monitor_RestartRequestedDialog_Quit" "SteamVR'dan Çık"
 
 "oculus_display_lost" "Oculus sisteminin ekranla olan bağlantısı kesildi. Lütfen başlığınızın bağlantısını kontrol edin ve yeniden başlatın."
+"oculus_requested_quit" "Oculus, SteamVR'ın çıkış yapmasını istedi."
 
 "Monitor_WakingBaseStations" "Takip istasyonları uyandırılıyor..."
 "Monitor_PuttingBaseStationsInStandby" "Takip istasyonları beklemede..."

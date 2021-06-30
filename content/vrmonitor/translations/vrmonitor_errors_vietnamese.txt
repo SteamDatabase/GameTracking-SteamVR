@@ -851,6 +851,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Xem thêm"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Cập nhật driver đồ họa"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Driver đồ họa hiện tại có một vấn đề đã biết có thể đóng băng PC của bạn. Vui lòng cài đặt bản hotfix mới nhất từ đường dẫn bên dưới."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Xem thêm"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Mất kết nối mũ chụp"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Cáp màn hình mũ chụp đã bị mất kết nối. Xin vui lòng kiểm tra kết nối và thử lại."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Xem thêm"
@@ -860,6 +865,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Cáp của mũ chụp bị mất kết nối với mũ chụp. Hãy chắc rằng miếng đệm quanh mắt đã đặt chắc chắn trên mặt."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Xem thêm"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/vn/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Vấn đề kết nối mũ chụp"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Có vấn đề với kết nối màn hình. Xin vui lòng ngắt kết nối mũ chụp rồi kết nối lại. Bạn cũng có thể thử khởi động lại SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Khởi động lại SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "Lỗi SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "<span>GPU của bạn</span> đang gặp vấn đề kết nối với mũ chụp, gây ra lỗi HDCP. Hãy thử tháo bất cứ bộ chuyển đổi hay kéo dài cáp nào bạn đang sử dụng. Hãy thử dùng một cổng khác trên GPU nếu có. <b>Dùng đường dẫn bên dưới để khởi động lại mũ chụp để GPU có thể thử lại.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Tìm hiểu thêm</a>."
@@ -926,6 +936,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Xem thêm"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/vn/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Vui lòng rút dây điện của tay cầm trong khi chơi"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Kéo cáp sạc ở góc độ nào cũng đều có thể gây hư hỏng cho tay cầm."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Chi tiết"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

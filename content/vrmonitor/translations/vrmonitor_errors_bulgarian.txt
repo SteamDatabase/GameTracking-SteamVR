@@ -832,6 +832,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Още информация"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Подобряване на графичния драйвер"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Настоящият Ви графичен драйвер има известен проблем, който може да заключи Вашия компютър. Моля, инсталирайте последната актуална корекция от връзката по-долу."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Още информация"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "ВР шлемът е разкачен"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Кабелът за екрана на ВР шлема се е разкачил. Моля, проверете свръзките на своя ВР шлем и опитайте отново."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Още информация"
@@ -841,6 +846,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Кабелът на ВР шлема Ви се е разкачил от него. Моля, уверете се, че връзката зад лицевото уплътнение е поставена стабилно."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Още информация"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/bg/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Проблем с връзката на шлема"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Има проблем с връзката към дисплея. Моля, разкачете шлема си и го свържете отново. Можете да опитате също да рестартирате SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Рестартиране на SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR грешка"
 "Warning_DismissableWarning_HDCPError_Description" "Видеокартата <span>Ви</span> се натъква на проблеми при комуникацията с ВР шлема. Резултатът от това е HDCP (High-Bandwidth Digital Content Protection — „Широколентова система за защита на цифрово съдържание“) грешка. Опитайте да премахнете кабелните адаптери или удължители, които използвате. Опитайте друг порт на видеокартата Ви, ако е достъпен такъв. <b>Използвайте връзката за нулиране по-долу, така че да сторите това за ВР шлема и опитайте отново.</b><p><a title=\"Отстраняване на неизправности във ВР шлема\" style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Научете още</a>."
@@ -907,6 +917,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Още информация"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Моля, изключете контролерите от контакта по време на игра"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Дърпането на зарядния кабел под ъгъл може да причини повреда."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Още детайли"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

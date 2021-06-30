@@ -848,6 +848,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Meer informatie"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=dutch#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Grafisch stuurprogramma bijwerken"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Je huidige stuurprogramma heeft een bekend probleem dat ervoor kan zorgen dat je pc bevriest. Installeer de meest recente hotfix, die je hieronder kunt vinden."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Meer informatie"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Headsetverbinding verbroken"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "De beeldkabel van je headset is losgeraakt. Controleer de aansluitingen van je headset en probeer het opnieuw."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Meer informatie"
@@ -857,6 +862,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "De headsetkabel is aan de kant van de headset losgeraakt. Zorg ervoor dat de kabel achter het gezichtskussen er goed in zit."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Meer informatie"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Verbindingsprobleem met headset"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Er is een probleem opgetreden met de verbinding van je weergave. Ontkoppel en herkoppel je headset. Je kunt ook proberen om SteamVR te herstarten."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "SteamVR herstarten"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "Fout met SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "<span>Je</span> GPU ondervindt problemen bij de communicatie met je headset, waardoor er een HDCP-fout optreedt. Probeer eventuele kabeladapters of verlengkabels die je gebruikt te verwijderen. <b>Probeer een andere poort op je GPU als deze beschikbaar is. Gebruik de link hieronder om de headset opnieuw in te stellen, zodat de GPU het opnieuw zal proberen.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Meer informatie</a>."
@@ -923,6 +933,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Meer informatie"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Koppel je controllers los tijdens het spelen"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Als je de oplaadkabel per ongeluk scheef trekt, kan dat schade veroorzaken aan de controller."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Meer details"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=dutch#wired-controller-usage"
 
 }
 }

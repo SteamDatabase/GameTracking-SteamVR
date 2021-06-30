@@ -858,7 +858,6 @@
 "BluetoothControllerStatus_FailedConnection"				"ブルートゥース接続に失敗しました。リンクボックスが正しく接続されていることを確認してから、電源プラグを入れ直してリンクボックスをリセットし、SteamVRを再起動してください。"
 "BluetoothControllerStatus_Connected"						"ブルートゥース接続中"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "ルームセットアップを実行するまでこのアプリケーションは起動できません。ルームセットアップを行いますか？"
 
 "WorkshopUpload_DialogTitle"	"SteamVRワークショップ アップローダ"
@@ -1164,6 +1163,7 @@
 "Monitor_RestartRequestedDialog_Quit" "SteamVRを終了"
 
 "oculus_display_lost" "Oculusシステムのディスプレイへの接続が切断されました。ヘッドセットの接続を確認してから再起動してください。"
+"oculus_requested_quit" "OculusシステムがSteamVRの終了を要求しました。"
 
 "Monitor_WakingBaseStations" "ベースステーションを復帰中..."
 "Monitor_PuttingBaseStationsInStandby" "ベースステーションをスタンバイ状態に移行中..."

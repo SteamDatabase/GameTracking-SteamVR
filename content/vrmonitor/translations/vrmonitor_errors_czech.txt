@@ -851,15 +851,25 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Více informací"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Aktualizujte ovladače grafické karty"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Nainstalovaný ovladač grafické karty se potýká s chybou, která může zablokovat Váš počítač. Nainstalujte proto nejnovější hotfix odkázaný níže."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Více informací"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Headset není připojen"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Displej headsetu byl odpojen. Zkontrolujte připojení a zkuste to znovu."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Více informací"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "Přerušené spojení v headsetu"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "V headsetu došlo k odpojení kabelu. Zajistěte bezproblémové spojení v oblasti za těsnící maskou headsetu."
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "V headsetu došlo k odpojení kabelu. Zajistěte bezproblémové spojení v oblasti za těsnicí maskou headsetu."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Více informací"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Chyba připojení headsetu"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Byla zjištěna chyba připojení displeje. Odpojte a znovu připojte svůj headset. Také můžete zkusit restartovat režim SteamVR."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Restartovat režim SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "Chyba režimu SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "<span>Vaše</span> GPU má problém s komunikací s headsetem, což vyústilo v chybu s HDCP. Zkuste odebrat veškeré adaptéry nebo prodlužovače a také (pokud je dostupný) zkuste jiný port GPU. <b>Kliknutím níže bude resetován Váš headset, takže se GPU pokusí znovu připojit.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=czech'>Více informací</a>."
@@ -926,6 +936,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Více informací"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Odpojte ovladače během hraní"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Vytažením nabíjecího kabelu pod úhlem může dojít k poškození ovladače. Vytahujte proto kabel přímo."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Více informací"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=czech#wired-controller-usage"
 
 }
 }

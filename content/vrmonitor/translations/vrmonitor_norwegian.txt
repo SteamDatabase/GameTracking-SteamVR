@@ -879,7 +879,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Bluetooth-tilkobling mislyktes. Sjekk tilkoblinger til koblingsboksen, koble ut og inn igjen støpselet til koblingsboksen for å tilbakestille den, og start deretter SteamVR på nytt."
 "BluetoothControllerStatus_Connected"						"Bluetooth tilkoblet"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Dette programmet kan ikke kjøres før romoppsettet er utført. Vil du utføre romoppsettet nå?"
 
 "WorkshopUpload_DialogTitle"	"Opplastingsverktøy til SteamVR Workshop"
@@ -1190,6 +1189,7 @@
 "Monitor_RestartRequestedDialog_Quit" "Avslutt SteamVR"
 
 "oculus_display_lost" "Oculus-systemet har mistet forbindelsen til skjermen. Sjekk hodesettets tilkobling og start deretter på nytt."
+"oculus_requested_quit" "Oculus-systemet ba om at SteamVR avsluttes."
 
 "Monitor_WakingBaseStations" "Basestasjoner vekkes …"
 "Monitor_PuttingBaseStationsInStandby" "Basestasjoner går i ventemodus …"

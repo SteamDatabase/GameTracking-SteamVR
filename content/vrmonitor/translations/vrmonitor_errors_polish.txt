@@ -851,6 +851,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Więcej informacji"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=polish#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Zaktualizuj sterowniki karty graficznej"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Twoje obecne sterowniki karty graficznej posiadają znany problem, który może zablokować twój komputer. Zainstaluj najnowszą łatkę poniżej."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Więcej informacji"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Gogle rozłączone"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Kabel ekranu gogli został odłączony. Sprawdź podłączenie okablowania gogli i spróbuj ponownie."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Więcej informacji"
@@ -860,6 +865,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Kabel twoich gogli został odłączony po stronie gogli. Upewnij się, że kabel za podkładką interfejsu jest dobrze podłączony."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Więcej informacji"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Problem z podłączeniem gogli"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Istnieje problem z podłączeniem wyświetlacza. Odłącz swoje gogle, po czym podłącz je ponownie. Możesz również spróbować zrestartować SteamVR."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Zrestartuj SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "Błąd SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "<span>Twoje</span> GPU ma problem z komunikacją z twoimi goglami, a rezultatem tego jest błąd HDCP. Spróbuj odpiąć wszelkie przejściówki lub przedłużacze, z których korzystasz. Spróbuj użyć innego gniazda na swoim GPU, jeżeli takowe jest dostępne. <b>Użyj poniższego linku do resetowania, by zresetować gogle i sprawić, że GPU ponowi próbę.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Dowiedz się więcej</a>."
@@ -926,6 +936,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Więcej informacji"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Odłącz kontrolery podczas gry"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Ciągnięcie kabla zasilającego pod kątem może spowodować uszkodzenie kontrolera."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Więcej informacji"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

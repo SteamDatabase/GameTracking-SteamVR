@@ -869,7 +869,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Conexão Bluetooth falhou. Verifique se todos os cabos estão conectados à Link Box, desconecte e reconecte o cabo de alimentação da Link Box para reiniciá-la e então reinicie o SteamVR."
 "BluetoothControllerStatus_Connected"						"Bluetooth conectado"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Este aplicativo não pode ser iniciado até realizar a preparação de cômodo. Deseja realizá-la agora?"
 
 "WorkshopUpload_DialogTitle"	"Ferramenta de envio à Oficina do SteamVR"
@@ -1179,6 +1178,7 @@
 "Monitor_RestartRequestedDialog_Quit" "Fechar SteamVR"
 
 "oculus_display_lost" "O sistema Oculus perdeu a conexão à tela. Verifique a conexão do headset e reinicie."
+"oculus_requested_quit" "O sistema Oculus solicitou o encerramento do SteamVR."
 
 "Monitor_WakingBaseStations" "Despertando estações-base..."
 "Monitor_PuttingBaseStationsInStandby" "Estações-base em repouso..."

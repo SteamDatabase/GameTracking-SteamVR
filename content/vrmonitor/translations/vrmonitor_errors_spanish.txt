@@ -831,6 +831,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Más información"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Actualizar controlador de gráficos"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "El controlador de gráficos actual tiene un problema conocido que puede bloquear tu ordenador. Por favor, instala la última revisión en el enlace de abajo."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Más información"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Visor desconectado"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "El cable de la pantalla del visor se ha desconectado. Revisa las conexiones del visor e inténtalo de nuevo."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Más información"
@@ -840,6 +845,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Se ha desconectado el cable de tu visor. Asegúrate de que el enganche detrás de la junta frontal esté firmemente abrochado."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Más información"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/es/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Problema de conexión del visor"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Hay un problema con la conexión de la pantalla. Por favor, desconecta el visor y vuelve a conectarlo. También puedes probar a reiniciar SteamVR."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Reiniciar SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "Error de SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "<span>Tu</span> GPU está teniendo problemas para comunicarse con el visor, lo que resulta en un error de HDCP. Prueba a quitar cualquier adaptador o alargador de cable que estés usando. Prueba con otro puerto de la GPU si hay alguno disponible. <b>Utiliza el enlace de abajo para reiniciar el visor y que la GPU lo intente de nuevo.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Más información</a>."
@@ -906,6 +916,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Más información"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/es/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Desenchufa los mandos mientras juegas"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Tirar del cable de carga en ángulo puede dañar el mando."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Más información"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

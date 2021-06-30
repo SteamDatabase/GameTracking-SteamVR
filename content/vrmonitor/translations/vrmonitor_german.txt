@@ -889,7 +889,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Bluetoothverbindung fehlgeschlagen. Überprüfen Sie die Verbindungen der Verbindungsbox, entfernen Sie sie zum Zurücksetzen kurzzeitig vom Strom und starten Sie dann SteamVR neu."
 "BluetoothControllerStatus_Connected"						"Bluetooth verbunden"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Diese Anwendung kann erst ausgeführt werden, wenn die Raumvermessung abgeschlossen ist. Möchten Sie die Raumvermessung jetzt ausführen?"
 
 "WorkshopUpload_DialogTitle"	"Upload-Werkzeug für den SteamVR-Workshop"
@@ -1202,6 +1201,7 @@
 "Monitor_RestartRequestedDialog_Quit" "SteamVR beenden"
 
 "oculus_display_lost" "Das Oculus-System hat seine Verbindung zur Anzeige verloren. Bitte überprüfen Sie den Anschluss Ihres VR-Headsets und starten Sie es dann neu."
+"oculus_requested_quit" "Das Oculus-System erfordert, SteamVR zu beenden."
 
 "Monitor_WakingBaseStations" "Basisstationen werden hochgefahren …"
 "Monitor_PuttingBaseStationsInStandby" "Basisstationen werden in den Stand-by-Modus versetzt …"

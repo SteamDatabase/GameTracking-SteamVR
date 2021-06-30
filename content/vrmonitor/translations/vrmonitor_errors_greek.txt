@@ -849,6 +849,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Περισσότερες πληροφορίες"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=greek#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Αναβάθμιση οδηγού γραφικών"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Ο τρέχων οδηγός γραφικών σας αντιμετωπίζει ένα γνωστό πρόβλημα που μπορεί να κλειδώσει τον υπολογιστή σας. Εγκαταστήστε την τελευταία άμεση επιδιόρθωση χρησιμοποιώντας τον παρακάτω σύνδεσμο."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Περισσότερες πληροφορίες"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Το headset δεν είναι συνδεδεμένο"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Το καλώδιο προβολής του headset σας αποσυνδέθηκε. Ελέγξτε τις συνδέσεις του headset σας και προσπαθήστε ξανά."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Περισσότερες πληροφορίες"
@@ -858,6 +863,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Το καλώδιο του headset σας αποσυνδέθηκε από το headset. Βεβαιωθείτε ότι η σύνδεση στο πίσω μέρος είναι σταθερή."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Περισσότερες πληροφορίες"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/el/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Πρόβλημα σύνδεσης headset"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Υπάρχει πρόβλημα με τη σύνδεση της οθόνης. Αποσυνδέστε το headset σας και επανασυνδέστε το. Μπορείτε επίσης να δοκιμάσετε την επανεκκίνηση του SteamVR."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Επανεκκίνηση SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "Σφάλμα SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "<span>Η</span> κάρτα γραφικών σας έχει πρόβλημα στην επικοινωνία με το headset σας, με αποτέλεσμα ένα σφάλμα HDCP. Δοκιμάστε να αφαιρέσετε οποιουσδήποτε προσαρμογείς ή επεκτάσεις καλωδίων χρησιμοποιείτε. Δοκιμάστε άλλη θύρα στη GPU σας, αν υπάρχει μία διαθέσιμη. <b>Χρησιμοποιήστε τον παρακάτω σύνδεσμο επαναφοράς για να επαναφέρετε το headset ώστε να προσπαθήσει ξανά η GPU.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=greek'>Μάθετε περισσότερα</a>."
@@ -924,6 +934,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Περισσότερες πληροφορίες"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/el/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Αποσυνδέστε τα χειριστήρια κατά τη διάρκεια του παιχνιδιού"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Το τράβηγμα του καλωδίου φόρτισης υπό γωνία μπορεί να προκαλέσει ζημιά στο χειριστήριο."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Περισσότερες λεπτομέρειες"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

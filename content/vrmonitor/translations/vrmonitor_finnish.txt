@@ -870,7 +870,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Bluetooth-yhteys epäonnistui. Tarkista linkkilaatikon kytkennät, irrota ja kytke virtajohto ja käynnistä SteamVR uudelleen."
 "BluetoothControllerStatus_Connected"						"Bluetooth yhdistetty"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Tätä sovellusta ei voida käynnistää ennen huoneen kartoitusta. Haluatko kartoittaa huoneen nyt?"
 
 "WorkshopUpload_DialogTitle"	"SteamVR Workshop -lähetystyökalu"
@@ -1177,6 +1176,7 @@
 "Monitor_RestartRequestedDialog_Quit" "Sulje SteamVR"
 
 "oculus_display_lost" "Oculuksen yhteys näyttöön katkesi. Käynnistä uudelleen, kun olet tarkistanut VR-lasiesi kytkennät."
+"oculus_requested_quit" "Oculus-järjestelmä vaati, että SteamVR suljetaan."
 
 "Monitor_WakingBaseStations" "Tukiasemat heräilemässä..."
 "Monitor_PuttingBaseStationsInStandby" "Tukiasemat siirtyvät lepotilaan..."

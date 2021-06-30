@@ -851,6 +851,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Több infó"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Video-illesztőprogram frissítése"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Jelenlegi video-illesztőprogramodnak olyan ismert problémája van, ami lefagyaszthatja a PC-det. Kérjük, telepítsd az alább hivatkozott legújabb gyorsjavítást."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "További információ"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Fejszett lecsatlakoztatva"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Fejszetted kijelzőkábele kihúzódott. Ellenőrizd fejszetted csatlakozását, majd próbáld újra."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Több infó"
@@ -860,6 +865,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "A fejszetted kábele leválasztódott a fejszettnél. Kérjük, biztosítsd az arcpárna mögötti csatlakozás megfelelő rögzítését."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Több infó"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Fejszettkapcsolódási hiba"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Probléma van a kijelzőkapcsolattal. Kérjük, csatlakoztasd le a fejszetted, majd csatlakoztasd újra. Megpróbálhatod újraindítani a SteamVR-t is."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "SteamVR újraindítása"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR hiba"
 "Warning_DismissableWarning_HDCPError_Description" "A <span>GPU</span>-d nem tud kommunikálni a HMD-vel, ami HDCP-hibát okoz. Próbáld eltávolítani a kábeladaptereket vagy -hosszabbítókat, ha használsz ilyet. Próbálj meg egy másik portot a GPU-don, ha van rajta. <b>Használd a lenti alaphelyzetbe állítás gombot a HMD alaphelyzetbe állításához, hogy a GPU újrapróbálja a kapcsolódást.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=hungarian'>További információ</a>."
@@ -926,6 +936,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "További információ"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Kérjük, játék közben húzd ki a játékvezérlőket."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "A töltőkábel ferdén kihúzása a játékvezérlő károsodását okozhatja."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "További részletek"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=hungarian#wired-controller-usage"
 
 }
 }

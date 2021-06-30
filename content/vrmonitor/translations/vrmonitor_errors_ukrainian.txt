@@ -833,6 +833,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Докладніше"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Оновити відеодрайвер"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Ваш поточний відеодрайвер має відому проблему, яка може призвести до блокування вашого ПК. Рекомендуємо інсталювати найновіше виправлення за посиланням нижче."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Докладніше"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Шолом відключено"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Екран вашого шолома відключено. Будь ласка, перевірте підключення вашого шолома й спробуйте ще раз."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Докладніше"
@@ -842,6 +847,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Від шолома від’єднався кабель. Будь ласка, переконайтеся, що з’єднання за лицевою підкладкою надійне."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Докладніше"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/uk/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Проблема з підключенням шолома"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Виникла проблема з підключенням екрана. Відключіть шолом і повторно підключіть його. Можна також спробувати перезапуск SteamVR."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Перезапустити SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "Помилка SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "<span>Відеокарті</span> не вдалося підключитися до шолома, що спричинило помилку HDCP. Спробуйте відключити всі адаптери та перехідники. Також спробуйте інший порт відеокарти, якщо можливо. <b>Скористайтеся наведеним нижче посиланням для скидання налаштувань шолома, щоб повторити спробу підключення відеокарти.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Докладніше</a>."
@@ -908,6 +918,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Докладніше"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/uk/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Від’єднайте контролери під час гри."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Витягування кабелю для заряджання під непрямим кутом може призвести до пошкодження контролера."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Більше інформації"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

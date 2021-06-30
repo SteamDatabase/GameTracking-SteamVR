@@ -805,6 +805,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "추가 정보"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "그래픽 드라이버 업그레이드"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "현재 사용 중인 그래픽 드라이버는 가끔씩 귀하의 PC를 잠그는 문제가 있습니다. 아래 링크에서 최신 핫픽스를 설치하세요."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "추가 정보"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "헤드셋 연결 끊김"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "헤드셋 디스플레이 케이블이 연결되지 않았습니다. 헤드셋의 연결을 확인한 후 다시 시도하세요."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "추가 정보"
@@ -814,6 +819,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "헤드셋 케이블이 연결되지 않았습니다. 헤드셋 뒤의 연결이 고정되어 있는지 확인하세요."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "추가 정보"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "헤드셋 연결 문제"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "디스플레이 연결에 문제가 있습니다. 헤드셋 연결을 분리했다가 다시 연결해 주세요. 또는 SteamVR을 다시 시작해보세요."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "SteamVR 다시 시작"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR 오류"
 "Warning_DismissableWarning_HDCPError_Description" "<span>고객님의</span> GPU가 헤드셋과 통신하는 데 문제가 있어 HDCP 오류가 발생했습니다. 사용 중인 케이블 어댑터 또는 확장기를 제거해 보세요. 가능한 경우 GPU에 다른 포트를 사용해 보세요.<b>GPU가 다시 시도할 수 있도록 아래 링크를 사용해 헤드셋을 초기화하세요.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>더 알아보기</a>."
@@ -880,6 +890,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "추가 정보"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "게임 플레이 중에 컨트롤러 연결을 해제하세요"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "충전 케이블을 비스듬히 당기면 컨트롤러가 손상될 수 있습니다."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "세부 정보"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

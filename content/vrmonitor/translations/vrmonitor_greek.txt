@@ -875,7 +875,6 @@
 "BluetoothControllerStatus_FailedConnection"				"Αποτυχία σύνδεσης Bluetooth. Ελέγξτε τις συνδέσεις του Link Box, επαναφέρετε το Link Box αποσυνδέοντας και επανασυνδέοντας την παροχή ρεύματος, έπειτα επανεκκινήστε το SteamVR."
 "BluetoothControllerStatus_Connected"						"Το Bluetooth συνδέθηκε"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "Αυτή η εφαρμογή δεν μπορεί να εκτελεστεί μέχρι πραγματοποιήσετε «Ρύθμιση δωματίου». Θα θέλατε να εκτελέσετε τη «Ρύθμιση δωματίου» τώρα;"
 
 "WorkshopUpload_DialogTitle"	"Εργαλείο μεταφόρτωσης Εργαστηρίου SteamVR"
@@ -1185,6 +1184,7 @@
 "Monitor_RestartRequestedDialog_Quit" "Τερματισμός SteamVR"
 
 "oculus_display_lost" "Το σύστημα Oculus έχασε τη σύνδεσή του με την προβολή. Ελέγξτε τη σύνδεση του headset σας και έπειτα κάντε επανεκκίνηση."
+"oculus_requested_quit" "Το σύστημα Oculus ζήτησε τερματισμό του SteamVR."
 
 "Monitor_WakingBaseStations" "Ενεργοποίηση σταθμών βάσης…"
 "Monitor_PuttingBaseStationsInStandby" "Αδρανοποίηση σταθμών βάσης…"

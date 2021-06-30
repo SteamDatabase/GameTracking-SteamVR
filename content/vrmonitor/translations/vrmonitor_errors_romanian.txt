@@ -808,6 +808,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Mai multe informații"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Actualizează driverul plăcii video"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Driverul actual al plăcii tale video prezintă o problemă cunoscută care îți poate bloca PC-ul. Te rugăm să instalezi ultima actualizare rapidă pe care o poți găsi accesând linkul de mai jos."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Mai multe informații"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Casca este deconectată"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Cablul ecranului căștii a fost deconectat. Te rugăm să verifici conexiunile căștii și să încerci din nou."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Mai multe informații"
@@ -817,6 +822,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Cablul căștii tale a fost deconectat la nivelul căștii. Te rugăm să te asiguri că ai conectat corespunzătorul cablul aflat în spatele perniței pentru față."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Mai multe informații"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/ro/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Problemă la conectarea căștii"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "A apărut o problemă cu conexiunea la ecran. Te rugăm să deconectezi casca și să o reconectezi. De asemenea, poți încerca să repornești SteamVR."
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Repornește SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "Eroare SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "Placa <span>ta</span> grafică întâmpină probleme în ceea ce privește comunicarea cu casca ta, cauzând astfel o eroare HDCP. Dacă utilizezi adaptoare sau prelungitoare pentru cablu, încearcă să le îndepărtezi. Dacă este disponibil, încearcă un alt port al plăcii grafice. <b>Utilizează linkul de resetare de mai jos pentru a reseta casca, astfel încât placa grafică va putea încerca din nou conectarea.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Află mai multe</a>."
@@ -883,6 +893,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Mai multe informații"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/ro/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Te rugăm să deconectezi controlerele în timpul jocului"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Dacă tragi de cablul de alimentare sub un anumit unghi, poți provoca deteriorarea controlerului."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Mai multe detalii"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=romanian#wired-controller-usage"
 
 }
 }

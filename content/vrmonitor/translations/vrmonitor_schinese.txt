@@ -851,7 +851,6 @@
 "BluetoothControllerStatus_FailedConnection"				"蓝牙连接失败。检查串流盒连接，然后拔下再插上串流盒电源以重置，接着重启 SteamVR。"
 "BluetoothControllerStatus_Connected"						"蓝牙已连接。"
 
-"NeedRoomSetupNoLaunch_Message" "Please perform Room Setup"
 "NeedRoomSetupNoLaunch_Message" "需先进行房间设置，此应用程序方能运行。是否立即进行房间设置？"
 
 "WorkshopUpload_DialogTitle"	"SteamVR 创意工坊上传器"
@@ -1157,6 +1156,7 @@
 "Monitor_RestartRequestedDialog_Quit" "退出 SteamVR"
 
 "oculus_display_lost" "Oculus 系统失去与显示器的连接。请检查您的头戴式显示器的连接情况，然后重启。"
+"oculus_requested_quit" "Oculus 系统要求 SteamVR 退出。"
 
 "Monitor_WakingBaseStations" "正在唤醒定位器…"
 "Monitor_PuttingBaseStationsInStandby" "定位器正处于待机模式…"

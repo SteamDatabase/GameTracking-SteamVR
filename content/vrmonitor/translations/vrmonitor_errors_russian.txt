@@ -833,6 +833,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Подробнее"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Обновите драйвер видеокарты"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Текущий драйвер видеокарты содержит известную проблему, которая может привести к блокировке вашего компьютера. Пожалуйста, установите исправление по ссылке ниже."
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Подробнее"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Шлем отключён"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Дисплей шлема отключился. Проверьте соединение и повторите попытку."
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Подробнее"
@@ -842,6 +847,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Провод шлема отсоединён. Убедитесь, что соединение за лицевой накладкой закреплено надёжно."
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Подробнее"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Проблема соединения со шлемом"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Проблема соединения с дисплеем. Пожалуйста, отключите свой шлем, а затем подключите его. Вы также можете попробовать перезапустить SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Перезапустить SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "Ошибка SteamVR"
 "Warning_DismissableWarning_HDCPError_Description" "<span>Ваша</span> видеокарта не может связаться со шлемом, из-за чего возникает ошибка HDCP. Попробуйте отключить адаптеры или удлинители кабелей либо использовать другой разъём видеокарты. <b>Нажмите на кнопку перезагрузки ниже, чтобы видеокарта попыталась подключиться к шлему ещё раз.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Подробнее</a>"
@@ -908,6 +918,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Подробнее"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/ru/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Отключите контроллеры во время игры"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Вытягивание кабеля питания под углом может привести к поломке контроллера."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Подробнее"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

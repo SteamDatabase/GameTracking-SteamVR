@@ -971,5 +971,10 @@
 "SteamVRServiceNeedsInstallation_Action" "More info"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
 
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Please unplug controllers during gameplay"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Pulling the charge cable at an angle may cause damage to the controller."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "More Details"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
+
 }
 }

@@ -828,6 +828,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "詳細情報"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "グラフィックドライバーのアップグレード"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "現在のグラフィックドライバーには、PCをロックする可能性のある既知の問題があります。以下にリンクされている最新の修正プログラムをインストールしてください。"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "詳細"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "ヘッドセットの接続が切断"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "ヘッドセットのディスプレイケーブルの接続が切断されました。ヘッドセットの接続を確認し、再試行してください。"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "詳細情報"
@@ -837,6 +842,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "ヘッドセットケーブルとヘッドセットの接続が切断されました。フェイスガスケットの裏側にある接続部がしっかりと固定されていることを確認してください。"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "詳細情報"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "ヘッドセット接続問題"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "ディスプレイの接続に問題があります。ヘッドセットを外して、再接続してください。SteamVRの再起動もお試しください。"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "SteamVRを再起動"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "SteamVRエラー"
 "Warning_DismissableWarning_HDCPError_Description" "<span>ご利用の環境において</span>GPUとHMDとの接続に問題があるため、HDCPエラーが発生しています。ご利用のケーブルアダプターまたはエクステンダーを外すか、GPUに別のポートがある場合はそちらをお試しください。<b>以下のリセット用リンクを使ってHMDをリセットすると、GPUとの接続を再試行します。</b><p>詳細は<a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>こちら</a>です。"
@@ -903,6 +913,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "詳細情報"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "ゲームプレイ中にコントローラを抜いてください"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "充電ケーブルを斜めに引っ張るとコントローラが破損する可能性があります。"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "詳細"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

@@ -831,6 +831,11 @@
 "Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "更多資訊"
 "Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?l=traditional%20chinese&ref=8566-SDZC-9326#steamvr-issues"
 
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "升級顯示卡驅動程式"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "您目前的顯示卡驅動程式有個已知問題，可能會鎖住您的電腦。請安裝下列連結中最新的 Hotfix。"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "更多資訊"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "頭戴顯示器已斷線"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "您的頭戴顯示器線纜已斷線。請檢查頭戴顯示器的連線狀況然後再試一次。"
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "更多資訊"
@@ -840,6 +845,11 @@
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "您的頭戴顯示器端線纜已斷線。請確保面部襯墊後的連線已連接穩妥。"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "更多資訊"
 "Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/zh-tw/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "頭戴顯示器連線問題"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "顯示器連線有問題。請中斷頭戴顯示器連線然後再重新連線。您也可嘗試重新啟動 SteamVR。"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "重新啟動 SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
 
 "Warning_DismissableWarning_HDCPError_Header" "SteamVR 錯誤"
 "Warning_DismissableWarning_HDCPError_Description" "<span>您的</span> GPU 無法與頭戴顯示器順利連線，導致 HDCP 錯誤。請嘗試移除您正在使用的所有線纜介面卡或延長線。如 GPU 上另有連接埠可用，請嘗試該埠。<b>使用下方的重設連結來重設頭戴顯示器，以便 GPU 重新嘗試連線。</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>深入了解</a>。"
@@ -906,6 +916,11 @@
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "更多資訊"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/zh-tw/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "遊戲進行時，請拔除控制器"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "歪斜地拔出充電線可能會對控制器造成損壞。"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "更多資訊"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }
