@@ -3716,8 +3716,8 @@ AvatarCustomizationItem #SliderThumb
 .KnucklesController .ScreenshotViveLabel,
 .KnucklesEV1_3Controller .ScreenshotViveImage,
 .KnucklesEV1_3Controller .ScreenshotViveLabel,
-.GenericTrackedController .ScreenshotViveImage,
-.GenericTrackedController .ScreenshotViveLabel,
+.GenericTrackedController .ScreenshotTouchImage,
+.GenericTrackedController .ScreenshotTouchLabel,
 .WinMRController .ScreenshotWinMRImage,
 .WinMRController .ScreenshotWinMRLabel,
 .WinMRControllerSamsung .ScreenshotWinMRImage,
@@ -5611,6 +5611,7 @@ AvatarCustomizationItem #SliderThumb
 .item_def_vive_controllers,
 .item_def_touch_controllers,
 .item_def_rift_s_controllers,
+.item_def_quest_2_controllers,
 .item_def_knuckles_controllers,
 .item_def_knuckles_ev1_3_controllers,
 .item_def_windowsmr_controllers,
@@ -5663,7 +5664,8 @@ AvatarCustomizationItem #SliderThumb
 {
 	visibility: visible;
 }
-.WinMRController .item_def_windowsmr_controllers
+.WinMRController .item_def_windowsmr_controllers,
+.ReverbG2Controller .item_def_full_hands
 {
 	visibility: visible;
 }
@@ -5671,10 +5673,12 @@ AvatarCustomizationItem #SliderThumb
 {
 	visibility: visible;
 }
-.GenericTrackedController .item_def_generic_tracked_controllers
+/* The Vive Focus 3 is the first controller we're falling back to GenericTrackedController for, and it doesn't provide hand (finger) animation data
+.GenericTrackedController .item_def_full_hands
 {
 	visibility: visible;
 }
+*/
 
 .item_def_vive_headset,
 .item_def_vive_pro_headset,

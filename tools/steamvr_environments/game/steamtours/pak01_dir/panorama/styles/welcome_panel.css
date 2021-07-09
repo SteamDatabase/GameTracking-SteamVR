@@ -97,9 +97,11 @@ DestinationsWelcomePanel {
 .CosmosController .CosmosImage,
 .CosmosController .PressBOrYButton,
 .ReverbG2Controller .ReverbG2Image,
-.ReverbG2Controller .PressBOrYButton
+.ReverbG2Controller .PressBOrYButton,
+.GenericTrackedController .RiftSImage,
+.GenericTrackedController .PressBOrYButton
 {
-	visibility: visible;	
+	visibility: visible;
 }
 
 // if it's a gamepad or a touch, hide vive controller bits
@@ -116,9 +118,11 @@ DestinationsWelcomePanel {
 .CosmosController .MotionController,
 .CosmosController .PressMenuButton,
 .ReverbG2Controller .MotionController,
-.ReverbG2Controller .PressMenuButton
+.ReverbG2Controller .PressMenuButton,
+.GenericTrackedController .MotionController,
+.GenericTrackedController .PressMenuButton,
 {
-	visibility: collapse;	
+	visibility: collapse;
 }
 
 //
@@ -196,9 +200,10 @@ DestinationsWelcomePanel {
 .Quest2Controller .UpdateDescTouch,
 .KnucklesController .UpdateDescKnuckles,
 .CosmosController .UpdateDescCosmos,
-.ReverbG2Controller .UpdateDescReverbG2
+.ReverbG2Controller .UpdateDescReverbG2,
+.GenericTrackedController .UpdateDescTouch
 {
-	visibility: visible;	
+	visibility: visible;
 }
 
 // if it's a gamepad or a touch, hide the irrelevant bits
@@ -208,9 +213,10 @@ DestinationsWelcomePanel {
 .Quest2Controller .UpdateDesc,
 .KnucklesController .UpdateDesc,
 .CosmosController .UpdateDesc,
-.ReverbG2Controller .UpdateDesc
+.ReverbG2Controller .UpdateDesc,
+.GenericTrackedController .UpdateDesc
 {
-	visibility: collapse;	
+	visibility: collapse;
 }
 
 .UpdateText {

@@ -1164,6 +1164,7 @@ $tK
 -playtest
 -pressdemo
 -reload
+-reset_avatar_config
 -rr_allow_reload
 -s2-mix-blend-mode
 -score
@@ -13679,6 +13680,7 @@ SteamVRController
 SteamVRHomeSessionDetails
 SteampadGuideButton
 SteampadGuideButtonUp
+SteamtoursControllerManifest
 Steamworks Stats: %s Ending %s session id: %llu
 Steamworks Stats: %s Ending CLIENT session id: %llu
 Steamworks Stats: %s Received %s session id: %llu
@@ -14882,8 +14884,9 @@ Zs
 [M:%u:%u:%u]
 [OVERRIDE] Applied controller override to at least one outfit.
 [OVERRIDE] Applied hand override, disabling for future runs.
-[OVERRIDE] Applying current controller model %s to outfit %d.
+[OVERRIDE] Applying current hand or controller model %s to outfit %d.
 [OVERRIDE] Applying hand override %s to all outfits.
+[OVERRIDE] Applying non-finger-tracking hand model %s to outfit %d.
 [P:%u:%u]
 [PR#]
 [RESPONSELIB] %s
@@ -15085,6 +15088,7 @@ _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/point_worldtext.
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/predictioncopy.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/predictioncopy_referenced.h
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/predictioncopy_utlvector.h
+_vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/prop_vr_hand.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/querycache.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/skeletoninstance.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/spawngroupmgrgamesystem.cpp
@@ -15321,7 +15325,6 @@ autoswitchfrom
 autoswitchto
 avatar menu menu distance offset
 avatar menu offset angle from the main menu
-avatar_config
 avatar_heads
 avatar_num_outfits
 avatar_puppet_clientside
@@ -17200,6 +17203,7 @@ h1
 hAttacker
 hThinkFunc
 halfhealth
+hand %d is tracking, but doesn't have a valid tracked device index!
 hand_conform_data
 hand_pose_list
 hand_trackpad_ui
@@ -20199,6 +20203,7 @@ m_pPredictionPlayer
 m_pPrev
 m_pPrevByClass
 m_pRenderComponent
+m_pRenderModelSceneObject
 m_pRope
 m_pSceneNode
 m_pSceneObject
@@ -20745,6 +20750,7 @@ materials/decaltests/runtime_decal_sheet_albedo.vtex
 materials/decaltests/runtime_decal_sheet_normal.vtex
 materials/dev/bicubicfilter_invalphablended.vmat
 materials/dev/blur.vmat
+materials/dev/debug_ghost_translucent.vmat
 materials/dev/glowproperty.vmat
 materials/dev/steamvr_background.vmat
 materials/dev/unlit_vertex_color.vmat
@@ -23076,6 +23082,7 @@ v %g %g %g
 v %g %g %g%s
 v axis
 v2f
+v3_hands
 v8::Array::Length() const
 v8::Array::New(v8::Isolate*, int)
 v8::Boolean::Value() const
@@ -23377,6 +23384,7 @@ vr_controller_vive
 vr_controllers_connected
 vr_createhmdavatar
 vr_debug_actions
+vr_debug_hand_proximity_to_chaperone
 vr_debug_hidden_objects
 vr_debug_overlay
 vr_debug_panel_manipulation

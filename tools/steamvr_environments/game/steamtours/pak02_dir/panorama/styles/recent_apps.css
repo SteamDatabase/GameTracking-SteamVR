@@ -384,7 +384,9 @@ SteamToursRecentApps
 .CosmosController .CosmosImage,
 .CosmosController .PressBOrYButton,
 .ReverbG2Controller .ReverbG2Image,
-.ReverbG2Controller .PressBOrYButton
+.ReverbG2Controller .PressBOrYButton,
+.GenericTrackedController .RiftSImage,
+.GenericTrackedController .PressBOrYButton
 {
 	visibility: visible;
 }
@@ -403,7 +405,9 @@ SteamToursRecentApps
 .CosmosController .MotionController,
 .CosmosController .PressMenuButton,
 .ReverbG2Controller .MotionController,
-.ReverbG2Controller .PressMenuButton
+.ReverbG2Controller .PressMenuButton,
+.GenericTrackedController .MotionController,
+.GenericTrackedController .PressMenuButton
 {
 	visibility: collapse;
 }
@@ -426,19 +430,10 @@ SteamToursRecentApps
 	animation-iteration-count: infinite;
 }
 
-.TouchController .GlowAnim
-{
-	margin-bottom: 270px;
-	margin-right: 310px;
-}
-
-.RiftSController .GlowAnim
-{
-	margin-bottom: 270px;
-	margin-right: 310px;
-}
-
-.Quest2Controller .GlowAnim
+.TouchController .GlowAnim,
+.RiftSController .GlowAnim,
+.Quest2Controller .GlowAnim,
+.GenericTrackedController .GlowAnim
 {
 	margin-bottom: 270px;
 	margin-right: 310px;

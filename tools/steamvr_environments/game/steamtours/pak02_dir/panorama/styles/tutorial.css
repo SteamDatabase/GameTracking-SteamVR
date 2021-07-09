@@ -308,7 +308,7 @@
 
 .ViveController .ViveHelp,
 .KnucklesController .KnucklesHelp,
-.GenericTrackedController .ViveHelp,
+.GenericTrackedController .TouchHelp,
 .GamepadController .ControllerHelp,
 .TouchController .TouchHelp,
 .RiftSController .TouchHelp,
@@ -511,7 +511,8 @@
 .KnucklesController #TouchBottomText,
 .CosmosController #TouchBottomText,
 .ReverbG2Controller #TouchBottomText,
-.GamepadController #TouchBottomText
+.GamepadController #TouchBottomText,
+.GenericTrackedController #TouchBottomText
 {
 	visibility: collapse;
 }

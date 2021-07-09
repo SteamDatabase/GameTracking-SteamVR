@@ -3699,7 +3699,7 @@ panorama/styles/tool_hint_drop.vcss_c CRC:00514b0d90 size:958
 panorama/styles/trackpad_ui.vcss_c CRC:00ddfe1007 size:2013
 panorama/styles/ugc_image.vcss_c CRC:00101a40bd size:1191
 panorama/styles/vimeo_player.vcss_c CRC:0001790b7d size:1716
-panorama/styles/welcome_panel.vcss_c CRC:0051df5539 size:5830
+panorama/styles/welcome_panel.vcss_c CRC:00617f8d31 size:6082
 panorama/styles/youtube_player.vcss_c CRC:00dc779526 size:1687
 particles/boxing_fx/boxing_team_glow.vpcf_c CRC:003b18ab58 size:1617
 particles/boxing_fx/kapow.vpcf_c CRC:00914ba4fb size:1206
@@ -4171,4 +4171,4 @@ soundstacks/soundstacks_destinations_props.vsndstck_c CRC:00fd3a9ea6 size:25030
 soundstacks/soundstacks_destinations_utility.vsndstck_c CRC:005022de54 size:30255
 soundstacks/soundstacks_hlvr.vsndstck_c CRC:0055520a86 size:196287
 third_party_content_credits.txt CRC:004bf90beb size:1072
-vr_fidelity_levels.csv CRC:00b1b19359 size:1412
+vr_fidelity_levels.csv CRC:00b890f5fd size:1296
