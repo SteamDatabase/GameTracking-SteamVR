@@ -143,6 +143,10 @@
 	"Settings_Medium": "Medium",
 	"Settings_Low": "Low",
 	"Settings_Animations": "Animations",
+	"Settings_DisplayPortTrainingMode": "DisplayPort Training Mode",
+	"Settings_DisplayPortTrainingMode_Automatic": "Automatic",
+	"Settings_DisplayPortTrainingMode_CompatibilityModeA": "Compatibility Mode A",
+	"Settings_DisplayPortTrainingMode_CompatibilityModeB": "Compatibility Mode B",
 
 	"Settings_MediumSpace": "Medium Space",
 	"Settings_NightModeCheck": "Night Mode",

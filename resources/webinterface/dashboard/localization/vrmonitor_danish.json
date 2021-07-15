@@ -193,7 +193,7 @@
 	"Settings_PerApplication_ThrottlingOverride_Framerate": "Lås applikationens billedhastighed (maks. FPS):",
 	"Settings_PerApplication_ThrottlingOverride_Prediction": "Yderligere forudsigelse (ms):",
 	"Settings_PerApplication_WorldScale_Description": "Overskriv applikationens opfattede skalering ved at justere hovedbevægelse og afstand mellem øjnene.",
-	"Settings_PerApplication_WorldScale_Label": "Overskriv verdensskalering",
+	"Settings_PerApplication_WorldScale_Label": "Tilsidesæt verdensskalering",
 	"Settings_PerApplication_WorldScale_Off": "Fra",
 	"Settings_PerApplication_WorldScale_Fine": "Detaljeret",
 	"Settings_PerApplication_WorldScale_Normal": "Normal",

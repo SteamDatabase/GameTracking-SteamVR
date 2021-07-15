@@ -193,7 +193,7 @@
 	"Settings_PerApplication_ThrottlingOverride_Framerate": "Максимальна частота кадрів застосунку:",
 	"Settings_PerApplication_ThrottlingOverride_Prediction": "Додатковий розрахунок (мс):",
 	"Settings_PerApplication_WorldScale_Description": "Перевизначати стандартне масштабування застосунку шляхом регулювання руху голови й відстані між очима.",
-	"Settings_PerApplication_WorldScale_Label": "Перевизначати масштабування середовища",
+	"Settings_PerApplication_WorldScale_Label": "Перевизначення масштабування середовища",
 	"Settings_PerApplication_WorldScale_Off": "Вимк.",
 	"Settings_PerApplication_WorldScale_Fine": "Точн.",
 	"Settings_PerApplication_WorldScale_Normal": "Звичайн.",

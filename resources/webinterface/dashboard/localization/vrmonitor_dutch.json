@@ -193,7 +193,7 @@
 	"Settings_PerApplication_ThrottlingOverride_Framerate": "Beeldfrequentie voor app vergrendelen op (max. fps):",
 	"Settings_PerApplication_ThrottlingOverride_Prediction": "Extra voorspelling (ms):",
 	"Settings_PerApplication_WorldScale_Description": "Hef de door de applicatie vastgestelde schaal op door hoofdbeweging en oogafstand bij te stellen.",
-	"Settings_PerApplication_WorldScale_Label": "Wereldschaal overschrijven",
+	"Settings_PerApplication_WorldScale_Label": "Wereldschaal opheffen",
 	"Settings_PerApplication_WorldScale_Off": "Uit",
 	"Settings_PerApplication_WorldScale_Fine": "Fijn",
 	"Settings_PerApplication_WorldScale_Normal": "Normaal",

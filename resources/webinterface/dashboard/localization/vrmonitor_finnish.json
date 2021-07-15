@@ -200,7 +200,7 @@
 	"Settings_PerApplication_WorldScale_Extreme": "Suuri",
 	"Settings_PerApplication_WorldScale_Range": "[%1$s–%2$s %]",
 	"Settings_PerApplication_WorldScale_Warning": "Huomaa, että muutokset saattavat vaikuttaa pelikokemukseen odottamattomilla tavoilla ja vaatia sovelluksen uudelleenkäynnistämisen. Toiminnot, kuten objektin heittäminen, saattavat toimia arvaamattomasti.",
-	"Settings_PerApplication_FovScale_Description": "Voit vaihtoehtoisesti madaltaa sovelluksen näkökenttää, mikä alentaa ääreisnäön laatua mutta lisää kuvan tarkkuutta. Huomaa, että useimmissa tapauksissa sovellus pitää käynnistää uudelleen, jotta muutokset toimivat kunnolla.",
+	"Settings_PerApplication_FovScale_Description": "Voit vaihtoehtoisesti pienentää sovelluksen näkökenttää, jolloin saat kapeamman ääreisnäön, mutta tarkemman kuvanlaadun. Huomaa, että useimmissa tapauksissa sovellus pitää käynnistää uudelleen, jotta muutokset toimivat kunnolla.",
 	"Settings_PerApplication_FovScale_Label": "Näkökenttä",
 	"Settings_PerApplication_FovScale_Multiplier": "Mukautettu skaalaus",
 	"Settings_MimeTypes_Pancake_Header": "Valitse sovellus, jotta voit käynnistää 2D-sovellukset",
