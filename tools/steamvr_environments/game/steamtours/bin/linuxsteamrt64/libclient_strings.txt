@@ -20929,6 +20929,7 @@ models/controller/knuckles_ev_1_3/knuckles_right_ev_1_3.vmdl
 models/controllers/vr_controller_vive_1_5.vmdl
 models/controllers/vr_controller_vive_1_5_left.vmdl
 models/dev/error.vmdl
+models/development/invisiblebox.vmdl
 models/steamvr_controllers/%llu/%llu.vmdl
 models/steamvr_rendermodels/
 models/survivors/survivor_gambler.vmdl

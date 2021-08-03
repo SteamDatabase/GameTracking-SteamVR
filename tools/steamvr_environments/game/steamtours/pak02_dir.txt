@@ -397,7 +397,7 @@ panorama/images/welcome_panel/destinations_welcome_black_touch_png.vtex_c CRC:00
 panorama/layout/avatar.vxml_c CRC:00f8d1272e size:6394
 panorama/layout/base_hud.vxml_c CRC:00d4b1fab1 size:584
 panorama/layout/base_world_panel.vxml_c CRC:0045a9d16c size:548
-panorama/layout/content_browser.vxml_c CRC:00ef0e541a size:79449
+panorama/layout/content_browser.vxml_c CRC:009834d849 size:79449
 panorama/layout/friends.vxml_c CRC:007791b920 size:20400
 panorama/layout/friends_item.vxml_c CRC:00af18c84d size:2425
 panorama/layout/hud.vxml_c CRC:00e9832024 size:534
@@ -410,15 +410,15 @@ panorama/layout/vr_community_home.vxml_c CRC:0061dda72e size:22260
 panorama/layout/vr_community_item.vxml_c CRC:0057540074 size:12370
 panorama/layout/vr_content_browser.vxml_c CRC:0082692c07 size:756
 panorama/layout/vr_friends.vxml_c CRC:009a30628f size:621
-panorama/localization/steamtours_english.txt CRC:0064de1e8b size:143816
+panorama/localization/steamtours_english.txt CRC:00a589050b size:143830
 panorama/panorama_config.txt CRC:00a597fc0e size:294
 panorama/scripts/community_home.vjs_c CRC:000472ec1f size:23892
 panorama/scripts/community_home_item.vjs_c CRC:00f577802b size:12241
 panorama/steamtours_keybinds.cfg CRC:009337d3fa size:304
 panorama/styles/base.vcss_c CRC:00396395b7 size:932
-panorama/styles/base_styles.vcss_c CRC:000a3b8ae5 size:25471
+panorama/styles/base_styles.vcss_c CRC:00d02c07d9 size:25471
 panorama/styles/base_world_panel.vcss_c CRC:0017b56cf5 size:774
-panorama/styles/content_browser.vcss_c CRC:00135ac7c4 size:117470
+panorama/styles/content_browser.vcss_c CRC:005333be01 size:117561
 panorama/styles/friends.vcss_c CRC:00402d14ca size:43080
 panorama/styles/hud.vcss_c CRC:003b124f74 size:723
 panorama/styles/info_panels.vcss_c CRC:00442143f1 size:6118
@@ -436,7 +436,7 @@ particles/tool_fx/controller_trackpad_position.vpcf_c CRC:00a0f0a084 size:1727
 particles/tool_fx/controller_trackpad_position_b.vpcf_c CRC:0091af6771 size:1593
 particles/ui_grab_item.vpcf_c CRC:00f45627da size:2142
 particles/ui_grab_item_b.vpcf_c CRC:0049c04540 size:1683
-scripts/contentdb.txt CRC:00e758de83 size:153051
+scripts/contentdb.txt CRC:00e0152929 size:153035
 scripts/custom_net_tables.txt CRC:00f1ffac57 size:183
 scripts/soundmixers.txt CRC:00a6f48047 size:20935
 scripts/soundscapes_manifest.txt CRC:009490e58a size:70

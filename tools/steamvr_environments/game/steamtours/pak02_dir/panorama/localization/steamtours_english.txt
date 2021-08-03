@@ -592,8 +592,8 @@
 		"VR_Avatar_Cosmos_Controllers_Desc"	"Cosmos controllers"
 		"VR_Avatar_ReverbG2_Controllers"		"Reverb G2 Controllers"
 		"VR_Avatar_ReverbG2_Controllers_Desc"	"Reverb G2 controllers"
-		"VR_Avatar_Generic_Tracked"			"Generic Tracked Controllers"
-		"VR_Avatar_Generic_Tracked_Desc"	"Generic tracked controllers"
+		"VR_Avatar_Generic_Tracked"			"SteamVR Rendermodels"
+		"VR_Avatar_Generic_Tracked_Desc"	"The current controller rendermodels from SteamVR"
 
 		// avatar wearables
 		"VR_Avatar_Wearable_BasicSphere001"		"Simple Sphere"

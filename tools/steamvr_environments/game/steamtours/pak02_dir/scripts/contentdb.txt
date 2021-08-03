@@ -425,7 +425,7 @@
 			name = "#Imported_Vive_RenderModel"
 			desc = "#Imported_Vive_RenderModel_Desc"
 			content = "models/steamvr_rendermodels/vr_controller_vive_1_5/vr_controller_vive_1_5.vmdl"
-			preview_image = "file://{images}/contentdb/default_controllers.png"
+			preview_image = "file://{images}/contentdb/vive_controllers.png"
 			dev_only = true
 		},
 		{
@@ -433,7 +433,7 @@
 			name = "#VR_Avatar_Hand_Default"
 			desc = "#VR_Avatar_Hand_Default_Desc"
 			content = "models/controllers/vr_controller_vive_1_5.vmdl"
-			preview_image = "file://{images}/contentdb/default_controllers.png"
+			preview_image = "file://{images}/contentdb/vive_controllers.png"
 		},
 		{
 			id = "touch_controllers"
@@ -502,7 +502,7 @@
 			id = "generic_tracked_controllers"
 			name = "#VR_Avatar_Generic_Tracked"
 			desc = "#VR_Avatar_Generic_Tracked_Desc"
-			content = "models/controllers/vr_controller_vive_1_5.vmdl"
+			content = "models/development/invisiblebox.vmdl"
 			preview_image = "file://{images}/contentdb/default_controllers.png"
 		},		
 		{

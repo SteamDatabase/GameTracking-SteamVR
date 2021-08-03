@@ -3224,7 +3224,7 @@ models/turret_models/turret.vphys_c CRC:00b8c6e2ab size:23720
 models/turret_models/turret_eaad7de7.vagrp_c CRC:0044f82020 size:7576
 models/turret_models/turretwife.vmdl_c CRC:0055a67f45 size:4248
 models/turret_models/turretwife.vmesh_c CRC:00b78073d2 size:458673
-panorama/dynamic_images.vpdi_c CRC:00be881469 size:180969
+panorama/dynamic_images.vpdi_c CRC:00f5443750 size:181573
 panorama/dynamic_images_addon.vpdi_c CRC:0093ad896b size:1062
 panorama/dynamic_images_addon_sentinel.vtex_c CRC:000b6f1813 size:20948
 panorama/images/cache_finder/captured_cache_1_png.vtex_c CRC:00269209eb size:411556
@@ -3328,7 +3328,7 @@ panorama/images/contentdb/counter001_png.vtex_c CRC:00e860680f size:264068
 panorama/images/contentdb/cowboy_hat001_png.vtex_c CRC:009ed4d7c0 size:264084
 panorama/images/contentdb/crown001_png.vtex_c CRC:00e76b9360 size:264052
 panorama/images/contentdb/cube_png.vtex_c CRC:006c41f84d size:264036
-panorama/images/contentdb/default_controllers_png.vtex_c CRC:00363e6727 size:264100
+panorama/images/contentdb/default_controllers_png.vtex_c CRC:00a11bab50 size:264116
 panorama/images/contentdb/default_headset_png.vtex_c CRC:001b07b271 size:264084
 panorama/images/contentdb/deserving_life_pizza_png.vtex_c CRC:00c533d6c8 size:264100
 panorama/images/contentdb/desk001_png.vtex_c CRC:00a0d59f74 size:264052
@@ -3496,7 +3496,7 @@ panorama/images/contentdb/neko_plushie_png.vtex_c CRC:007cc053b4 size:264068
 panorama/images/contentdb/nevrosa_escape_cube_png.vtex_c CRC:00ba779a6a size:264100
 panorama/images/contentdb/night_table001_png.vtex_c CRC:00f9651aa8 size:264084
 panorama/images/contentdb/oculus_cv1_controller_png.vtex_c CRC:005d68e62d size:264116
-panorama/images/contentdb/oculus_quest2_controller_png.vtex_c CRC:00c9f837ad size:264180
+panorama/images/contentdb/oculus_quest2_controller_png.vtex_c CRC:00c1e8ac86 size:264132
 panorama/images/contentdb/oculus_rifts_controller_png.vtex_c CRC:003a941eac size:264116
 panorama/images/contentdb/offense_bot001_png.vtex_c CRC:00ef9b6110 size:264084
 panorama/images/contentdb/office_stool001_png.vtex_c CRC:008e5faf13 size:264084
@@ -3590,6 +3590,7 @@ panorama/images/contentdb/undying_helmet001_png.vtex_c CRC:00c62f7968 size:26410
 panorama/images/contentdb/venice_courtyard_png.vtex_c CRC:00ba11d6a5 size:264084
 panorama/images/contentdb/vesper_peak_png.vtex_c CRC:00110af50e size:264068
 panorama/images/contentdb/veteran_hat001_png.vtex_c CRC:00375753bb size:264084
+panorama/images/contentdb/vive_controllers_png.vtex_c CRC:00b009e826 size:264100
 panorama/images/contentdb/vive_headset_png.vtex_c CRC:00641192db size:264068
 panorama/images/contentdb/vive_logo_statue_png.vtex_c CRC:00f255101e size:264084
 panorama/images/contentdb/vive_pro_headset_png.vtex_c CRC:0054241471 size:264084

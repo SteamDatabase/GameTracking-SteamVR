@@ -5673,6 +5673,11 @@ AvatarCustomizationItem #SliderThumb
 {
 	visibility: visible;
 }
+.GenericTrackedController .item_def_generic_tracked_controllers
+{
+	visibility: visible;
+}
+
 /* The Vive Focus 3 is the first controller we're falling back to GenericTrackedController for, and it doesn't provide hand (finger) animation data
 .GenericTrackedController .item_def_full_hands
 {

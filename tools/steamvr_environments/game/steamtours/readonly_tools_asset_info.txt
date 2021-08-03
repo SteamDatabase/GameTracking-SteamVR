@@ -4576,3 +4576,4 @@ models/controllers/oculus_quest2_controller_left_2cc0c422.vmesh
 models/controllers/oculus_quest2_controller_right.vmdl
 models/controllers/oculus_quest2_controller_right.vphys
 models/controllers/oculus_quest2_controller_right_8a41f329.vmesh
+panorama/images/contentdb/vive_controllers_png.vtex
