@@ -130,6 +130,12 @@
                 "rotate_xyz" : [5.037,0.0,0.0]
              }
         },
+        "openxr_handmodel": {
+            "component_local" : {
+                "origin": [-0.03, -0.00182941, 0.1019482],
+                "rotate_xyz" : [-39.4, 0.0, 0.0]
+            }
+        },
         "grip": {
             "component_local" : {
                 "origin": [0.0, 0.003, 0.097],

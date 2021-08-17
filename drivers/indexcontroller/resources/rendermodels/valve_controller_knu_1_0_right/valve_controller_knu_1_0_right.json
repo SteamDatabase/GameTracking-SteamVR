@@ -111,6 +111,12 @@
                 "rotate_xyz" : [15.392, 2.071, -0.303]
              }
         },
+        "openxr_handmodel": {
+            "component_local" : {
+                "origin": [0.035, 0.01, 0.13],
+                "rotate_xyz" : [-40.0, 0.0, 0.0]
+            }
+        },
         "squeeze": {
             "filename": "gripsqueeze.obj",
             "motion":{
