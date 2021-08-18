@@ -1,0 +1,158 @@
+body {
+  overflow: none;
+  background: transparent;
+}
+
+.QuickLaunch {
+  --defaulttext: #dee2e5;
+  --disabledtext: rgb(144, 147, 150);
+
+  --quicklaunch-advanced-sidenav-text-color: #6b6b6b;
+  --quicklaunch-advanced-sidenav-control-background-color: #69466d;
+  --quicklaunch-advanced-control-background-color: #493b4b;
+  --quicklaunch-advanced-control-hover-background-color: #725b75;
+  --quicklaunch-advanced-control-active-background-color: #2d242e;
+
+  --quicklaunch-side-nav-gradient-a: #3a9aed;
+  --quicklaunch-side-nav-gradient-b: #245fcf;
+
+  --quicklaunch-sidebar-min-width: 13rem;
+  --quicklaunch-sidebar-max-width: 15rem;
+
+  --quicklaunch-sidebar-transition-time: 0.1s;
+  --scrollbar-color: #444953;
+  --scrollbar-color-hover: #59606e;
+
+  --quicklaunch-control-hover-fade-duration: 0.13s;
+  --quicklaunch-control-hover-fade-ease: ease-in-out;
+
+  --quicklaunch-modal-animation-duration: 0.2s;
+
+  --quicklaunch-control-spacing: 1rem;
+
+  --quicklaunch-control-background: #25282e;
+  --quicklaunch-control-background-hover-background: #1e2126;
+  --quicklaunch-control-hover-background: #586170;
+  --quicklaunch-control-active-background: var(
+    --quicklaunch-control-background-hover-background
+  );
+  --quicklaunch-control-activated-background: #3d4450;
+  --quicklaunch-control-track-background-rgb: #3f454a;
+  --quicklaunch-control-track-background-a: 0.5;
+
+  --quicklaunch-control-image-padding: calc(
+    var(--quicklaunch-control-default-height) * 0.15
+  );
+  --quicklaunch-button-image-border-radius: calc(
+    var(--quicklaunch-control-inner-border-radius) * 0.7
+  );
+
+  --quicklaunch-control-inner-border-radius: 0.65rem;
+  --quicklaunch-control-outer-border-radius: 0.85rem;
+
+  --quicklaunch-control-margin: 0.5em;
+  --quicklaunch-control-button-min-padding-h: 0.8em;
+  --quicklaunch-control-button-min-padding-v: 0.5em;
+
+  --quicklaunch-right-column-width-adjustment: 0px; /* Adjusted in subsections. */
+  --quicklaunch-right-column-computed-width: calc(
+    var(--quicklaunch-right-column-width) -
+      var(--quicklaunch-right-column-width-adjustment)
+  );
+
+  --quicklaunch-subsection-background-rgb: 37, 40, 46;
+  --quicklaunch-subsection-background-a: 0.5;
+  --quicklaunch-subsection-padding-v: 1.5em;
+  --quicklaunch-subsection-padding-h: 1.5em;
+  --quicklaunch-subsection-border-radius: 1rem;
+  --quicklaunch-subsection-stem-padding: 0.5em;
+  --quicklaunch-subsection-stem-bottom-padding: 0.3em;
+
+  --quicklaunch-font-weight: 200;
+
+  --quicklaunch-right-column-left-margin: 1.6rem;
+
+  --quicklaunch-left-outer-margin: calc(
+    var(--quicklaunch-sidebar-button-expansion) * 1.5
+  );
+
+  --control-switch-animation-time: 0.2s;
+  --control-switch-overshoot-ease: cubic-bezier(0.1, 0.12, 0.36, 1.38);
+
+  width: 100%;
+  height: 100%;
+}
+
+.QuickLaunch.Overlay {
+  --quicklaunch-background-gradient-alpha: 0.97;
+  --quicklaunch-content-padding: 100px;
+  --quicklaunch-sidebar-button-spacing: 30px;
+  --quicklaunch-border-radius: 30px;
+  --quicklaunch-button-border-radius: calc(
+    1.2 * var(--quicklaunch-border-radius)
+  );
+  --quicklaunch-sidebar-side-margin: 40px;
+  --quicklaunch-sidebar-button-expansion: 20px;
+  --quicklaunch-sidebar-button-max-height: 2.8rem;
+  --quicklaunch-right-column-width: 500px;
+  --quicklaunch-control-default-height: 2rem;
+  --quicklaunch-font-size: 1rem;
+  --quicklaunch-control-box-hover-shadow: 0px 10px 25px #00000024;
+  --quicklaunch-control-box-active-shadow: 0px 5px 10px #00000024;
+}
+
+.QuickLaunch .QuickLaunchPanel {
+  width: 100%;
+  height: 100%;
+  color: var(--defaulttext);
+  font-weight: var(--quicklaunch-font-weight);
+  font-size: var(--quicklaunch-font-size);
+}
+
+.QuickLaunch.Overlay .QuickLaunchPanel {
+  width: 1920px;
+  height: 1200px;
+  overflow-y: auto;
+}
+
+.QuickLaunch .AppCarousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.QuickLaunch .AppButton {
+  width: 300px;
+  height: calc(300px * 900 / 600);
+  flex-shrink: 0;
+  flex-grow: 0;
+
+  background-color: var(--quicklaunch-control-activated-background);
+  margin: var(--quicklaunch-control-margin) var(--quicklaunch-control-margin);
+  font-weight: var(--quicklaunch-font-weight);
+  font-size: var(--quicklaunch-font-size);
+  box-sizing: border-box;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  justify-content: center;
+  text-align: center;
+
+  transition: background-color var(--quicklaunch-control-hover-fade-duration),
+    box-shadow var(--quicklaunch-control-hover-fade-duration);
+}
+
+.QuickLaunch .AppButton .Icon {
+  width: 100%;
+  pointer-events: none;
+}
+
+.QuickLaunch .AppButton .Title {
+  display: none;
+}
+
+.QuickLaunch .AppButton.Disabled,
+.QuickLaunch .AppButton.Disabled:hover {
+  color: var(--disabledtext);
+  background-color: rgb(66, 75, 88);
+  cursor: default;
+}

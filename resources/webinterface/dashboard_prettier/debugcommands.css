@@ -1,0 +1,464 @@
+:root {
+  --text-color: #ffffff;
+
+  --inputbordercolor: rgb(86, 142, 172);
+  --inputbackgroundcolor: rgb(12, 47, 61);
+  --inputtextcolor: rgb(255, 255, 255);
+  --inputborderradius: 0.1rem;
+  --inputfontsize: 1.2rem;
+
+  --scrollbar-width: 1.3rem;
+  --scrollbar-border-width: 0.45rem;
+  --scrollbar-color: var(--button-background);
+  --scrollbar-color-hover: var(--button-background-hover);
+
+  --transitionspeed-hover: 0.15s;
+
+  /* == Text == */
+  --title-color: #fff;
+  --title-size: 1.5rem;
+  --description-color: #aeb0b3;
+  --description-size: 0.8rem;
+
+  /* == Buttons == */
+  --button-background-hover: #69b4ff;
+  /* alt is used for icon-style buttons (such as the settings window root) */
+  --button-backgroundalt: #1a1818;
+  --button-backgroundalt-hover: #2a3746;
+  /* decline styles are used for cancel-like actions */
+  --button-background-decline: #364c85;
+
+  --bordercolor: #004777;
+  --controller-image-margin: 2rem;
+  --text-font: "Motiva Sans", "Arial";
+  --pairing-color-pink: #cc4298;
+  --pairing-color-green: #2ead8c;
+  --pairing-color-blue: #1f83e0;
+  --pairing-controller-stroke-color: #3a66c7;
+  --pairing-controller-fill-color-a: #78eacd;
+  --pairing-controller-fill-color-b: #00523b;
+  --pairing-page-horizontal-margin: 35px;
+  --pairing-page-top-margin: 65px;
+  --pairing-page-bottom-margin: 50px;
+  --pairing-page-button-padding: 0.8rem;
+  --pairing-page-button-spacing: 0.8rem;
+  --pairing-page-content-top-margin: 140px;
+  --hover-transition-time: 0.17s;
+  --button-background: #171d21c7;
+  --app-text: rgba(255, 255, 255, 0.664);
+  --text-color: var(--app-text);
+  --title-color: var(--app-text);
+  --description-color: var(--app-text);
+  --button-text: var(--app-text);
+  --app-text-highlight: var(--pairing-color-green);
+
+  --button-width: 30rem;
+  --color-pink: #cc4298;
+  --color-green: #2ead8c;
+  --color-blue: #1f83e0;
+  --page-horizontal-margin: 35px;
+  --page-top-margin: 65px;
+  --page-bottom-margin: 50px;
+  --page-button-padding: 0.4rem;
+  --page-button-spacing: 0.8rem;
+  --page-content-top-margin: 140px;
+  --hover-transition-time: 0.17s;
+  --button-background: transparent;
+  --input-hover-box-shadow: 0px 0px 9px 1px var(--color-blue);
+  --input-focus-box-shadow: 0px 0px 6px 2px var(--color-blue);
+  --clear-search-button-size: 20px;
+  --header-control-spacing: 1rem;
+
+  font-size: 16px;
+}
+
+html {
+  overflow: hidden;
+  background: none;
+  font-family: var(--text-font);
+  font-weight: normal;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  user-select: none;
+  transition: opacity var(--loading-fade-time);
+  opacity: 1;
+  background: url("/dashboard/images/green_purple_background.png");
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 0.45rem solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 100px;
+  background-color: var(--color-blue);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-width: 0.35rem;
+  background-color: var(--button-background-hover);
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+#root {
+  display: flex;
+  margin-bottom: 0.5rem;
+  height: 100%;
+}
+
+.Label {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--text-color);
+  display: inline;
+}
+
+.Label.Title {
+  font-size: var(--title-size);
+  color: var(--title-color);
+}
+
+.Label.Description {
+  font-size: var(--description-size);
+  color: var(--description-color);
+}
+
+.Label.Error {
+  border-color: red;
+  background-color: #494402;
+  border-width: 0.5rem;
+}
+
+.Label .Highlight {
+  color: var(--app-text-highlight);
+}
+
+.ButtonControl {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: var(--button-text);
+  opacity: 1;
+  margin: 0.8rem 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background: var(--button-background);
+  align-self: center;
+  transition-property: background-color;
+  transition-timing-function: ease-out;
+  transition-duration: var(--transitionspeed-hover);
+  cursor: pointer;
+  text-align: center;
+}
+
+.ButtonControl:hover {
+  background: var(--button-background-hover);
+}
+
+.ButtonControl.Decline {
+  background: var(--button-background-decline);
+}
+
+.ButtonControl.Decline:hover {
+  background: var(--button-background);
+}
+
+.ButtonControl.Inline {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+input[type="text"],
+textarea {
+  background-color: var(--inputbackgroundcolor);
+  border: 1px solid var(--inputbordercolor);
+  color: var(--inputtextcolor);
+  border-radius: var(--inputborderradius);
+  padding: 0.3rem;
+  font-size: var(--inputfontsize);
+  font-family: var(--text-font);
+}
+
+input[type="text"],
+.ButtonControl {
+  --button-padding: var(--page-button-padding);
+  background: none;
+  padding: var(--button-padding);
+  background: var(--button-background);
+  position: relative;
+  transition: color var(--hover-transition-time);
+  overflow: hidden;
+  text-align: left;
+  width: var(--button-width);
+  display: inline-flex;
+  flex-direction: row;
+  margin: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="text"]::after,
+.ButtonControl::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-style: solid;
+  border-image: linear-gradient(
+    to right,
+    var(--color-green) 0%,
+    var(--color-blue) 100%
+  );
+  border-image-slice: 1;
+  border-width: 1px;
+}
+
+input[type="text"] {
+  transition: box-shadow 0.1s linear;
+}
+
+input[type="text"]:hover {
+  box-shadow: var(--input-hover-box-shadow);
+}
+
+input[type="text"]:focus {
+  box-shadow: var(--input-focus-box-shadow);
+}
+
+.DebugCommands .ButtonControl span {
+  /* Puts text in front of hover background gradient. */
+  position: relative;
+}
+
+.ButtonControl::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    to right,
+    var(--color-green) 0%,
+    var(--color-blue) 100%
+  );
+  z-index: 0;
+  opacity: 0.25;
+  transition: opacity var(--hover-transition-time);
+}
+
+.ButtonControl:hover {
+  background: none;
+}
+
+.ButtonControl:hover::before {
+  opacity: 0.5;
+}
+
+.ButtonControl:active {
+  color: black;
+}
+
+.ButtonControl:active::before,
+.ButtonControl.Active::before {
+  opacity: 1;
+}
+
+.DebugCommands {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes EditingFadeAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.DebugCommands .EditingFade {
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  animation: EditingFadeAnimation 0.3s forwards;
+}
+
+.DebugCommands .Header,
+.DebugCommands .Footer {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  flex-shrink: 0;
+  padding: 10px;
+  background: url("/dashboard/images/green_purple_background.png");
+  background-size: cover;
+  box-shadow: 0px 6px 11px 0px #181d1a;
+  z-index: 3;
+}
+
+.DebugCommands .Footer {
+  box-shadow: 0px -6px 11px 0px #181d1a;
+}
+
+.DebugCommands .Footer h1 {
+  color: grey;
+  text-align: center;
+  font-weight: 300;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.DebugCommands .Header::after {
+  content: "";
+  width: var(--scrollbar-width);
+}
+
+.DebugCommands .Header .InnerContainer {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 100%;
+  width: var(--button-width);
+}
+
+.DebugCommands .Header .InnerContainer > *:not(:first-child) {
+  margin-left: var(--header-control-spacing);
+}
+
+.DebugCommands .Header input[type="text"],
+.DebugCommands .Header .ButtonControl {
+  width: auto;
+  margin: auto;
+}
+
+.DebugCommands .Header input[type="text"] {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding-right: calc(
+    var(--clear-search-button-size) + var(--page-button-padding)
+  );
+}
+
+.DebugCommands .Header .ButtonControl {
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.DebugCommands .Header .InnerContainer .ClearSearchButton {
+  background: grey;
+  opacity: 0.85;
+  width: var(--clear-search-button-size);
+  height: var(--clear-search-button-size);
+  margin: auto 0;
+  margin-left: calc(
+    ((var(--clear-search-button-size) + var(--page-button-padding)) * -1)
+  );
+  margin-right: var(--page-button-padding);
+  text-align: center;
+  line-height: var(--clear-search-button-size);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.DebugCommands .Header .InnerContainer .ClearSearchButton:hover:not(:active) {
+  opacity: 1;
+}
+
+.DebugCommandsList {
+  overflow-y: scroll;
+  width: 100%;
+  flex-grow: 1;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.DebugCommandButton.Editing:hover {
+  background: var(--button-background);
+}
+
+.DebugCommandButton .CommandName {
+  flex-grow: 1;
+  padding-right: 10px;
+  word-break: break-all;
+  margin: auto;
+  position: relative;
+}
+
+.DebugCommandButton .KeyboardShortcut {
+  transition: box-shadow 0.2s;
+  flex-grow: 0;
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 0.9rem;
+  padding: 0.2rem 0.8rem;
+  float: right;
+  margin: auto;
+  border-radius: 2px;
+  font-weight: 800;
+  color: #000000c7;
+  font-family: monospace;
+  cursor: text;
+  text-transform: lowercase;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.DebugCommandButton.Editing .KeyboardShortcut,
+.DebugCommandButton.Unbound .KeyboardShortcut {
+  font-style: italic;
+}
+
+.DebugCommandButton.Unbound .KeyboardShortcut {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.DebugCommandButton.Unbound:not(.Editing):not(:hover) .KeyboardShortcut {
+  opacity: 0.4;
+}
+
+.DebugCommandButton .KeyboardShortcut:hover,
+.DebugCommandButton.Editing .KeyboardShortcut {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.DebugCommandButton .KeyboardShortcut:hover {
+  box-shadow: var(--input-hover-box-shadow);
+}
+
+.DebugCommandButton.Editing .KeyboardShortcut {
+  box-shadow: var(--input-focus-box-shadow);
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.DebugCommandButton .KeyboardShortcut .Plus {
+  opacity: 0.5;
+  font-weight: normal;
+}

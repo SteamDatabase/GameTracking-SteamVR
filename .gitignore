@@ -8,3 +8,5 @@ Protobufs/google/
 *.vpk.manifest.txt
 *.bin
 
+node_modules/
+package-lock.json

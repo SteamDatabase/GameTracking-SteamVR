@@ -1,0 +1,148 @@
+.VRKBContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.VRKBBackground {
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  padding: 5px;
+  opacity: 1;
+}
+
+.VRKBRows {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+}
+
+.VRKBRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.VRKBKey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1%;
+  margin: 2px;
+  text-align: center;
+  flex-grow: 1;
+  background-color: rgb(35, 39, 45);
+  font-size: 72px;
+  font-family: var(--text-font);
+  color: #a1a2a3;
+  font-weight: normal;
+  border-radius: 4px;
+}
+
+/* nothing needed here today
+.VRKBKeyFace
+{
+}
+*/
+
+.VRKBDone {
+  background-color: rgb(35, 39, 45);
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.VRKBKey:hover {
+  background-color: rgb(55, 59, 65);
+  color: #c1c2c3;
+}
+
+.VRKBDone:hover {
+  background-color: rgb(55, 59, 65);
+}
+
+.VRKBKeyFace .VRKBDone:hover {
+  background-color: #5f845a;
+  color: #c1c2c3;
+}
+
+.VRKBShift_normal {
+  display: none;
+}
+
+.VRKBShift_shift {
+  display: none;
+}
+
+.VRKBShift_symbols {
+  display: none;
+}
+
+.VRKBChooseShift_normal .VRKBShift_normal {
+  opacity: 1;
+  display: inline;
+}
+
+.VRKBChooseShift_shift .VRKBShift_shift {
+  opacity: 1;
+  display: inline;
+}
+
+.VRKBChooseShift_symbols .VRKBShift_symbols {
+  opacity: 1;
+  display: inline;
+}
+
+.VRKBPreviewWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  background-color: rgb(35, 39, 45);
+  overflow: clip;
+  margin-bottom: 20px;
+}
+
+.VRKBPreviewText {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+.VRKBPreviewTextPart {
+  color: #d8d8d8;
+
+  font-size: 60px;
+  height: 36px;
+  font-family: (--text-font);
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.VRKBPreviewTextCursor {
+  color: #66c0f4;
+  font-size: 60px;
+  height: 100%;
+  font-family: (--text-font);
+}
+
+.VRKBSuggestionWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.VRKBSuggestion {
+  display: block;
+  margin: 5px;
+  font-family: (--text-font);
+  font-size: 50px;
+  font-weight: normal;
+  width: 25%;
+  color: #bfbfbf;
+  background-color: #363e44;
+  text-align: center;
+  overflow: hidden;
+}

@@ -1,0 +1,424 @@
+/* ================================================================================================== */
+/* (c) Valve Corporation. Use is governed by the terms of the Steam Subscriber Agreement http://store.steampowered.com/subscriber_agreement/. */
+/* ================================================================================================== */
+
+body
+{
+	--color_background: #262626;
+	
+	--color_text_primary: #CCCCCC;
+	--color_text_secondary: #888888;
+	
+	--color_text_active: #9DC112;
+	--color_text_inactive: #777777;
+	--color_text_warning: #D94453;
+	--color_text_attention: #E6BE42;
+	
+	--color_header_link: #CCCCCC;
+	--color_header_link_hover: #FFFFFF;
+	--color_header_link_active: #888888;
+	
+	--color_seperator: #636363;
+	
+	--color_command_link: #6ea9d7;
+	--color_command_link_hover: #8ad4ff;
+	
+	--color_overlay: rgba( 38, 38, 38, 0.9 );
+	
+	--color_flyout_cursor: #4C4C4C;
+	
+	--gradient_dialog: linear-gradient( to bottom, rgb( 28, 36, 41 ), rgb( 25, 25, 25 ) );
+	
+	--color_messagebox_title: var( --color_text_primary );
+	--color_messagebox_text: var( --color_text_primary );
+	
+	--color_button_background: rgb( 60, 60, 60 );
+	
+	background-color: var( --color_background );
+	color: var( --color_text_primary );
+	
+	font-family: "Arial";
+	font-size: 16px;
+}
+
+a
+{
+    color: var( --color_text_primary );
+}
+
+a.header_link
+{
+	color: var( --color_header_link );
+	padding: 0px 10px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a.header_link.active_link
+{
+	color: var( --color_header_link_active );
+}
+
+a.header_link:hover 
+{
+    color: var( --color_header_link_hover );
+	cursor: pointer;
+}
+
+.header_row
+{	
+	height: 80px;
+	
+	margin: 20px 20px 0px 20px;
+	
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-direction: row;
+	flex-direction: row;
+
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	
+	-webkit-align-items: center;
+	align-items: center;
+	
+	-webkit-align-content: center;
+	align-content: center;
+}
+
+.header_identity
+{
+	width: 400px;
+}
+
+.footer
+{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	font-size: 15px;
+	background-color: var( --color_background );
+}
+
+.footer_row
+{
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-direction: row;
+	flex-direction: row;
+
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	
+	-webkit-align-items: center;
+	align-items: center;
+	
+	-webkit-align-content: center;
+	align-content: center;
+	
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+.footer_version
+{
+	text-align: left;
+}
+
+.footer_time
+{
+	text-align: right;
+}
+
+.section_header_row_layout
+{
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-direction: row;
+	flex-direction: row;
+
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+	
+	-webkit-align-items: center;
+	align-items: center;
+	
+	-webkit-align-content: center;
+	align-content: center;
+}
+
+.section_icon
+{
+	margin-right: 10px;
+}
+
+.section_title
+{
+	font-size: 18px;
+}
+
+.section_separator
+{
+	 border-color: var( --color_seperator );
+}
+
+.command_link
+{
+	color: var( --color_command_link );
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.command_link:hover 
+{
+    color: var( --color_command_link_hover );
+	cursor: pointer;
+}
+
+.close_window_icon
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: var( --color_seperator );
+}
+
+.close_window_icon:hover
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: var( --color_command_link_hover );
+}
+
+.core_button 
+{
+	background-color: var( --color_button_background );
+	border-style: solid;
+	border-width: 1px;
+	border-color: var( --color_seperator );
+	
+	text-decoration: none;
+	
+	cursor: pointer;
+	color: var( --color_messagebox_text );
+	
+	padding: 5px 15px;
+	
+	min-width: 125px;
+}
+
+.core_button:hover
+{
+	border-color: var( --color_command_link_hover );	
+}
+
+.core_button:focus 
+{
+	outline: none;
+}
+
+.core_button:active
+{
+	position: relative;
+	top: 1px;
+}
+
+.core_checkbox 
+{
+	-webkit-appearance: none;
+	background-color: var( --color_background );
+	border: 1px solid #FFFFFF;
+	padding: 7px;
+	display: inline-block;
+	position: relative;
+	outline: none;
+}
+
+.core_checkbox:active, .core_checkbox:checked:active
+{
+}
+
+.core_checkbox:checked
+{
+}
+
+.core_checkbox:hover
+{
+	border: 1px solid var( --color_command_link_hover );
+}
+
+.core_checkbox:checked:after
+{
+	content: '\2714';
+	font-size: 13px;
+	position: absolute;
+	top: -2px;
+	left: 2px;
+	color: var( --color_command_link );
+}
+
+.core_checkbox:checked:disabled:after
+{
+	color: var( --color_text_inactive );
+}
+
+.core_checkbox:disabled
+{
+	border: 1px solid var( --color_text_inactive );
+}
+
+.core_checkbox_label
+{
+	font-size: 15px;
+	color: var( --color_text_primary );
+	vertical-align: 5px;
+}
+
+.core_checkbox:disabled + .core_checkbox_label
+{
+	color: var( --color_text_inactive );
+}
+
+.core_slider_label
+{
+	font-size: 15px;
+	color: var( --color_text_primary );
+	margin-bottom: 5px;
+}
+
+.core_slider_range_label
+{
+	font-size: 13px;
+	color: var( --color_text_primary );
+	vertical-align: 6px;
+}
+
+.core_slider_value_label
+{
+	font-size: 13px;
+	margin-left: 10px;
+	padding: 5px 20px;
+	background-color: var( --color_button_background );
+	font-size: 13px;
+	color: var( --color_text_primary );
+	vertical-align: 6px;
+}
+
+.core_dropdown
+{
+	background-color: var( --color_button_background );
+	width: 100%;
+	margin: 5px 0px;
+	font-size: 15px;
+	border: 1px solid var( --color_button_background );
+	padding: 4px;
+	color: var( --color_text_primary );
+}
+
+.core_dropdown:hover
+{
+	border: 1px solid var( --color_command_link_hover );
+}
+
+.flyout_grip
+{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba( 0, 0, 0, 0 );
+	
+	opacity: 0.3;
+}
+
+.flyout_grip.enabled
+{
+	opacity: 1.0;
+}
+
+.flyout_grip_icon
+{
+	margin-left: 5px;
+	margin-top: 5px;
+	
+	width: 100%;
+	height: 100%;
+	
+	background-repeat: no-repeat;
+	background-image: url( "/shared/images/triangle_down.png" );
+}
+
+.flyout_grip.enabled:hover, .flyout_grip.open
+{
+	cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var( --color_seperator );
+}
+
+.flyout_menu
+{
+	color: var( --color_text_primary );
+	background-color: var( --color_background );
+	
+	visibility: hidden;
+	width: 250px;
+	position: absolute;
+	right: -1px;
+	top: 100%;
+	z-index: 1;
+	text-align: left;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: var( --color_seperator );
+
+	padding: 6px;
+}
+
+.flyout_menu div:hover
+{
+	background-color: var( --color_flyout_cursor );
+}
+
+.flyout_menu div
+{
+	padding: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

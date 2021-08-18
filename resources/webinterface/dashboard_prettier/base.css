@@ -1,0 +1,936 @@
+:root {
+  --background-color: #00000000;
+  --background-image: url("/dashboard/images/settings/background.png");
+
+  --bordercolor: #004777;
+  --descriptiontext: #88ccf1;
+  --titletext: #ffffff;
+  --disabledtext: #5b6169;
+  --text-color: #ffffff;
+  --text-font: "Motiva Sans", "Arial";
+  --titlefontsize: 1.3rem;
+  --selectedtext: #43b8e7;
+
+  --visualizerclick: #ffffff;
+
+  --buttondefault: #3d4450;
+  --buttonhover: #586170;
+
+  --pageheaderbottomborder: #476288;
+  --pagetitlebackground: #324b6d;
+  --modalheaderbottomborder: rgb(139, 129, 122);
+
+  --modalbackground: #161c2c;
+  --bindinglistheaders: lightgray;
+  --bindinglistdetails: lightgray;
+  --bindingsourceheader: #ffffff;
+  --sourcemodegroupbackground: #1e2230;
+  --sourcemodehover: #253b5a;
+  --bindingmodeedit: #13335f;
+  --chordbindingsetbackground: #324b6d;
+  --chordbindingrowbackground: #1f3452;
+
+  --tabborderbottom: rgb(91, 82, 77);
+  --tabborderbottomtab: rgb(127, 117, 112);
+  --tabborderbottomselected: rgb(86, 142, 172);
+  --tabbackground: #1f3452;
+  --tabbackgroundselected: #2978a0;
+  --tabbackgroundhovered: #2f7091;
+
+  --backbuttonbackground: #4a6c9b;
+  --backbuttonbackgroundhover: #307fa7;
+  --backbuttonborder: rgb(130, 122, 116);
+
+  --poseactionsbackground: #1f3452;
+  --poseactiontitle: #ffffff;
+  --poseactionlistentry: #31496b;
+
+  --button-fade-time: 0.15s;
+  --loading-fade-time: 0.3s;
+  --controller-image-margin: 2rem;
+
+  --warningbackground: rgb(179, 68, 40);
+  --warningbackgroundselected: rgb(212, 93, 63);
+  --errorbackground: rgb(134, 65, 46);
+
+  --pagecontenttoppadding: 1rem;
+
+  --bindinglistcurrentsectionborder: rgb(25, 90, 116);
+  --bindinglistdetailsbackground: #1c2736;
+  --bindinglistdetailsborder: #354458;
+  --controllertypebackground: #0e111d;
+
+  --inputbordercolor: rgb(86, 142, 172);
+  --inputbackgroundcolor: rgb(12, 47, 61);
+  --inputtextcolor: rgb(255, 255, 255);
+  --inputborderradius: 0.1rem;
+  --inputfontsize: 1.2rem;
+  --scrollbarthumb: #88ccf1;
+  --scrollbarbackground: #1f345270;
+
+  --scrollbar-width: 1.3rem;
+  --scrollbar-border-width: 0.45rem;
+  --scrollbar-color: #444953;
+  --scrollbar-color-hover: #59606e;
+
+  --hr-color: rgba(255, 255, 255, 0.4);
+
+  --dashboard-background-fade-color: rgba(29, 29, 29, 0.9);
+  --dashboard-control-bar-volume-slider-width: 430px;
+  --dashboard-control-bar-side-padding: 1rem;
+  --dashboard-control-bar-component-padding: 21px;
+  --dashboard-control-bar-width: calc(
+    2000px -
+      (
+        (
+            var(--dashboard-control-bar-side-padding) +
+              var(--dashboard-control-bar-component-padding)
+          ) * 2
+      )
+  );
+  --dashboard-control-bar-control-spacing: 1rem;
+  --dashboard-control-bar-group-color-a: #24272c;
+  --dashboard-control-bar-group-color-b: #30343b;
+  --dashboard-control-bar-button-color-a: #3d4450;
+  --dashboard-control-bar-button-color-b: #54575f;
+  --dashboard-desktop-bar-button-color-a: #1f2228;
+  --dashboard-desktop-bar-button-color-b: #323439;
+  --dashboard-control-bar-now-playing-height: 150px;
+  --dashboard-status-bar-control-spacing: 1rem;
+  --dashboard-primary-width: 1860px;
+  --dashboard-primary-aspect-ratio: (1920/1080);
+  --dashboard-minitoggle-color-a: #585f6d;
+  --dashboard-minitoggle-color-b: #323439;
+
+  --dashboard-panel-padding: 2rem;
+
+  --dashboard-control-margin: 0.5em;
+  --dashboard-control-padding: 0.5rem 1rem 0.5rem 1rem;
+
+  --dashboard-button-animation-time: 0.25s;
+  --dashboard-button-animation-ease: ease;
+  --dashboard-button-grey-min-opacity: 0.2;
+  --dashboard-glow-color: var(--settings-side-nav-gradient-a);
+
+  --control-bar-button-size: 96px;
+  --control-bar-icon-size: 45px;
+  --control-bar-button-gradient-start-color: rgba(35, 35, 36, 1);
+  --control-bar-button-gradient-end-color: rgba(10, 10, 10, 1);
+  --control-bar-button-transition-time: 0.1s;
+  --control-bar-button-transition-ease: ease-out;
+  --control-bar-tray-control-margin: 0.8rem;
+  --control-bar-tray-section-spacing: 2rem;
+  --control-bar-tray-control-height: 78px;
+
+  --dashboard-app-carousel-button-aspect-ratio: calc(900 / 600);
+  --dashboard-app-carousel-button-height: 400px;
+  --dashboard-app-carousel-button-width: calc(
+    var(--dashboard-app-carousel-button-height) /
+      var(--dashboard-app-carousel-button-aspect-ratio)
+  );
+  --dashboard-app-carousel-spacing: 60px;
+
+  --settings-advanced-sidenav-text-color: #6b6b6b;
+  --settings-advanced-sidenav-control-background-color: #69466d;
+  --settings-advanced-control-background-color: #493b4b;
+  --settings-advanced-control-hover-background-color: #725b75;
+  --settings-advanced-control-active-background-color: #2d242e;
+  --settings-side-nav-gradient-a: #3a9aed;
+  --settings-side-nav-gradient-b: #245fcf;
+  --settings-sidebar-min-width: 13rem;
+  --settings-sidebar-max-width: 15rem;
+  --settings-sidebar-transition-time: 0.1s;
+  --settings-modal-animation-duration: 0.2s;
+  --settings-control-hover-fade-duration: 0.13s;
+  --settings-control-hover-fade-ease: ease-in-out;
+  --settings-control-spacing: 1rem;
+
+  --settings-control-background-new-rgb: 0, 0, 0;
+  --settings-control-background-new-a: 0.45;
+  --settings-control-background-new: rgba(
+    var(--settings-control-background-new-rgb),
+    var(--settings-control-background-new-a)
+  );
+
+  --settings-control-background-new-hover-a: 0.65;
+  --settings-control-background-new-hover: rgba(
+    var(--settings-control-background-new-rgb),
+    var(--settings-control-background-new-hover-a)
+  );
+
+  --settings-control-background: #25282e;
+  --settings-control-background-hover-background: #1e2126;
+  --settings-control-hover-background: var(--buttonhover);
+  --settings-control-active-background: var(
+    --settings-control-background-hover-background
+  );
+  --settings-control-activated-background: var(--buttondefault);
+  --settings-control-track-background-rgb: var(
+    --settings-control-background-new-rgb
+  );
+  --settings-control-track-background-a: var(
+    --settings-control-background-new-a
+  );
+  --settings-control-track-hover-background-a: var(
+    --settings-control-background-new-hover-a
+  );
+  --settings-control-image-padding: calc(
+    var(--settings-control-default-height) * 0.15
+  );
+  --settings-button-image-border-radius: calc(
+    var(--settings-control-inner-border-radius) * 0.7
+  );
+  --settings-control-inner-border-radius: 0.65rem;
+  --settings-control-outer-border-radius: 0.85rem;
+  --settings-control-margin: 0.5em;
+  --settings-control-button-min-padding-h: 0.8em;
+  --settings-control-button-min-padding-v: 0.5em;
+  --settings-right-column-width-adjustment: 0px; /* Adjusted in subsections. */
+  --settings-right-column-computed-width: calc(
+    var(--settings-right-column-width) -
+      var(--settings-right-column-width-adjustment)
+  );
+  --settings-subsection-background-rgb: 37, 40, 46;
+  --settings-subsection-background-a: 0.5;
+  --settings-subsection-padding-v: 1.5em;
+  --settings-subsection-padding-h: 1.5em;
+  --settings-subsection-border-radius: 1rem;
+  --settings-subsection-stem-padding: 0.5em;
+  --settings-subsection-stem-bottom-padding: 0.3em;
+  --settings-font-weight: 200;
+  --settings-right-column-left-margin: 1.6rem;
+  --settings-left-outer-margin: calc(
+    var(--settings-sidebar-button-expansion) * 1.5
+  );
+  --settings-background-gradient-alpha: 1;
+  --settings-content-padding: 40px;
+  --settings-sidebar-button-spacing: 5px;
+  --settings-border-radius: 0px;
+  --settings-button-border-radius: 10px;
+  --settings-sidebar-side-margin: 20px;
+  --settings-sidebar-button-expansion: 5px;
+  --settings-sidebar-button-max-height: 37px;
+  --settings-right-column-width: 220px;
+  --settings-control-default-height: 2rem;
+  --settings-font-size: 14px;
+  --settings-control-box-hover-shadow: 0px 6px 9px #00000021;
+  --settings-control-box-active-shadow: 0px 3px 9px #00000021;
+
+  --colorfulbutton-gradient-a: rgb(65, 96, 207);
+  --colorfulbutton-gradient-b: rgb(104, 153, 237);
+  --colorfulbutton-hover-gradient-a: rgb(95, 126, 237);
+  --colorfulbutton-hover-gradient-b: rgb(134, 183, 255);
+  --colorfulbutton-press-color: rgb(53, 69, 129);
+
+  --control-switch-animation-time: 0.2s;
+  --control-switch-overshoot-ease: cubic-bezier(0.1, 0.12, 0.36, 1.38);
+
+  --dropdown-popover-background-color: var(--buttondefault);
+  --dropdown-popover-selected-background-color: hsl(218, 13%, 33%);
+
+  /* Establish 1rem -> 16px on desktop UIs. */
+  font-size: 16px;
+}
+
+html.VROverlay {
+  /* Some base variable overrides for ease-of-use in overlays. */
+
+  --scrollbar-width: 1.5rem;
+  --scrollbar-border-width: 0.55rem;
+
+  /* --settings-background-gradient-alpha: 0.97; */
+  --settings-content-padding: 100px;
+  --settings-sidebar-button-spacing: 30px;
+  --settings-border-radius: 30px;
+  --settings-button-border-radius: calc(1.2 * var(--settings-border-radius));
+  --settings-sidebar-side-margin: 40px;
+  --settings-sidebar-button-expansion: 20px;
+  --settings-sidebar-button-max-height: 2.8rem;
+  --settings-right-column-width: 500px;
+  --settings-control-default-height: 2rem;
+  --settings-font-size: 1rem;
+  --settings-control-box-hover-shadow: 0px 10px 25px #00000024;
+  --settings-control-box-active-shadow: 0px 5px 10px #00000024;
+  --settings-subsection-padding-v: 1.4em;
+
+  /* Establish 1rem -> 32px on overlay UIs. */
+  font-size: 32px;
+}
+
+html {
+  overflow: hidden;
+  background: none;
+  font-family: var(--text-font);
+  font-weight: normal;
+  height: 100%;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  user-select: none;
+  transition: opacity var(--loading-fade-time);
+  opacity: 1;
+}
+
+body.SGApp {
+  /* If we're a scene graph app, make the background transparent. */
+  background: #00000000;
+}
+
+#root {
+  display: flex;
+  height: 100%;
+}
+
+/* Scene graph app and embedded data */
+
+vsg-app {
+  margin-top: 2px;
+}
+
+vsg-app .EmbeddedData {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  z-index: 9001;
+}
+
+vsg-app .AppSceneGraph {
+  margin-top: 10px;
+}
+
+vsg-app .DebugPointer {
+  --innersize: 15px;
+  --bordersize: 2px;
+  --outersize: calc(var(--innersize) + var(--bordersize));
+
+  background-color: rgba(255, 255, 0, 0.5);
+  border: solid var(--bordersize) orange;
+  width: var(--innersize);
+  height: var(--innersize);
+  border-radius: 50%;
+  position: absolute;
+  left: calc(var(--outersize) * -0.5);
+  top: calc(var(--outersize) * -0.5);
+  z-index: 9001;
+  pointer-events: none;
+}
+
+vsg-app:not(.ShowDebugPointer) .DebugPointer {
+  display: none;
+}
+
+.ParentPortalAnchor {
+  display: none;
+}
+
+.v-parent-portal {
+  display: inline;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbarthumb);
+  border-radius: 0.8rem;
+  width: 6px;
+  height: 6px;
+  border: var(--scrollbar-border-width) solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 100px;
+  background-color: var(--scrollbar-color);
+  transition: background var(--transitionspeed-hover) ease-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-color-hover);
+}
+
+::-webkit-scrollbar-thumb:active {
+  border-width: calc(0.8 * var(--scrollbar-border-width));
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* Views */
+
+.FadedForModal {
+  filter: saturate(50%) brightness(30%);
+}
+
+.FadedForModal > * {
+  pointer-events: none !important;
+}
+
+/* Modals */
+
+.Modal {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9001;
+  width: fit-content;
+  height: fit-content;
+  min-width: 10px;
+  min-height: 10px;
+}
+
+/* Scene graph panel layout */
+
+[vsg-type="panel"] {
+  overflow: hidden;
+  display: inline-block;
+  padding: 0px;
+  margin-top: 2px;
+  margin-left: 2px;
+  font-size: 24px;
+  position: relative;
+}
+
+[vsg-type="panel"]:empty {
+  display: none;
+}
+
+[vsg-type="panel"][overlay-key] {
+  display: none;
+}
+
+/* Fidelity utils */
+
+.NoAnimations *,
+.NoAnimations *::before,
+.NoAnimations *::after {
+  transition: none !important;
+  animation-duration: 0s !important;
+}
+
+/* Base text */
+
+.Label {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--text-color);
+  display: inline;
+}
+
+/* Base button */
+
+.ButtonControl {
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: var(--text-color);
+  opacity: 1;
+  margin: var(--dashboard-control-margin);
+  padding: var(--dashboard-control-padding);
+  background: var(--buttondefault);
+  border-radius: 2px;
+  box-shadow: none;
+  border: 1px solid var(--bordercolor);
+  align-self: center;
+  transition-property: background;
+  transition-timing-function: ease-out;
+  transition-duration: var(--button-fade-time);
+  cursor: pointer;
+}
+
+.ButtonControl img {
+  pointer-events: none;
+}
+
+.ButtonControl.Inline {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.ButtonControl:hover {
+  background: var(--buttonhover);
+}
+
+.ButtonControl.WithIcon {
+  --icon-margin: 0.5em;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.ButtonControl.WithIcon > .Icon {
+  width: 1em;
+  height: 1em;
+  margin: auto;
+}
+
+.ButtonControl.WithIcon > .Icon path {
+  fill: var(--text-color);
+}
+
+.ButtonControl.WithIcon > span {
+  margin-right: var(--icon-margin);
+  flex-grow: 1;
+  overflow: none;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.ButtonControl.Colorful,
+.ButtonControl.Colorful:not(.Disabled):hover {
+  font-weight: 500;
+  background: none;
+  overflow: hidden;
+  contain: content;
+}
+
+.ButtonControl.Colorful::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  background: linear-gradient(
+    to right,
+    var(--colorfulbutton-gradient-a) 0%,
+    var(--colorfulbutton-gradient-b) 100%
+  );
+}
+
+.ButtonControl.Colorful::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(
+    to right,
+    var(--colorfulbutton-hover-gradient-a) 0%,
+    var(--colorfulbutton-hover-gradient-b) 100%
+  );
+  transition: opacity var(--settings-control-hover-fade-duration);
+}
+
+.ButtonControl.Colorful:not(:hover)::after,
+.ButtonControl.Colorful:active::after {
+  opacity: 0;
+}
+
+.ButtonControl.Colorful:not(.Disabled):active {
+  background: var(--colorfulbutton-press-color);
+}
+
+/* .ButtonControl.Colorful:not(.Disabled):hover
+{
+} */
+
+/* Flex helpers. Don't combine these with other classes, only use them
+   when they're the /only/ thing a div needs. */
+
+.FlexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.FlexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Base Slider */
+
+.SliderControl {
+  --slider-thickness: var(--settings-control-default-height);
+  --handle-length: var(--slider-thickness);
+  --handle-thickness: var(--slider-thickness);
+  --handle-springiness: calc(0.8 - var(--drag-elapsed-seconds));
+  --track-thickness: 0.4em;
+  --detent-length: 3px;
+  --handle-background-fade-duration: var(
+    --settings-control-hover-fade-duration
+  );
+  --handle-circle-size: calc(var(--handle-length) * 0.5);
+
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.SliderControl.Disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.SliderControl:not(.Vertical) {
+  height: var(--slider-thickness);
+  margin-top: 0.2em;
+}
+
+.SliderControl.Vertical {
+  width: var(--slider-thickness);
+  margin-left: 0.2em;
+}
+
+.SliderControl.ValueOnHandle {
+  --slider-thickness: calc(1.2 * var(--settings-control-default-height));
+}
+
+.SliderControl.Color {
+  --slider-thickness: calc(1.58 * var(--settings-control-default-height));
+  --track-thickness: var(--settings-control-default-height);
+}
+
+.SliderControl .Track {
+  margin: auto;
+  background: rgb(var(--settings-control-track-background-rgb));
+  opacity: var(--settings-control-track-background-a);
+  border-radius: calc(0.5 * var(--track-thickness));
+  transition: opacity var(--settings-control-hover-fade-duration);
+  overflow: hidden;
+}
+
+.SliderControl:not(.Vertical) .Track {
+  height: var(--track-thickness);
+  width: 100%;
+}
+
+.SliderControl.Vertical .Track {
+  height: 100%;
+  width: var(--track-thickness);
+}
+
+.SliderControl:hover .Track,
+.SliderControl.Sliding .Track {
+  opacity: var(--settings-control-track-hover-background-a);
+}
+
+.SliderControl.Color .Track {
+  border-radius: var(--settings-control-inner-border-radius);
+}
+
+.SliderControl.Color:not(:hover):not(.Sliding) .Track {
+  opacity: 0.8;
+}
+
+.SliderControl .Track .Detent {
+  position: absolute;
+  margin: auto;
+  background: white;
+}
+
+.SliderControl:not(.Vertical) .Track .Detent {
+  width: var(--detent-length);
+  height: var(--track-thickness);
+  left: calc(
+    (100% * var(--detent-value)) - (var(--detent-length) * var(--detent-value)) +
+      (var(--handle-length) * 0.5) -
+      (var(--handle-length) * var(--detent-value))
+  );
+}
+
+.SliderControl.Vertical .Track .Detent {
+  width: var(--track-thickness);
+  height: var(--detent-length);
+  bottom: calc(
+    (100% * var(--detent-value)) - (var(--detent-length) * var(--detent-value)) +
+      (var(--handle-length) * 0.5) -
+      (var(--handle-length) * var(--detent-value))
+  );
+}
+
+.SliderControl .HandleContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  transition: transform
+    calc(var(--control-switch-animation-time) * var(--handle-springiness))
+    var(--control-switch-overshoot-ease);
+}
+
+.SliderControl:not(.Vertical) .HandleContainer {
+  transform: translateX(
+    calc(
+      (var(--slider-value) * 100%) -
+        (var(--slider-value) * var(--handle-length))
+    )
+  );
+}
+
+.SliderControl.Vertical .HandleContainer {
+  transform: translateY(
+    calc(
+      ((1 - var(--slider-value)) * 100%) -
+        ((1 - var(--slider-value)) * var(--handle-length))
+    )
+  );
+}
+
+.SliderControl.Color {
+  --handle-length: calc(0.42 * var(--handle-thickness));
+}
+
+.SliderControl .Handle {
+  border-radius: calc(0.5 * var(--handle-length));
+  background: var(--settings-control-activated-background);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  box-sizing: border-box;
+  border: solid 2px transparent;
+  transition: background-color var(--handle-background-fade-duration),
+    border var(--settings-control-hover-fade-duration),
+    box-shadow var(--settings-control-hover-fade-duration);
+}
+
+.SliderControl:not(.Vertical) .Handle {
+  width: var(--handle-length);
+  height: var(--handle-thickness);
+}
+
+.SliderControl.Vertical .Handle {
+  width: var(--handle-thickness);
+  height: var(--handle-length);
+}
+
+.SliderControl .Handle.SmallerText {
+  font-size: 0.8em;
+}
+
+.SliderControl.Color {
+  --handle-background-fade-duration: 0s;
+}
+
+.SliderControl.Color .Handle {
+  border-color: #5b5b5b;
+}
+
+.SliderControl.Color:hover .Handle,
+.SliderControl.Color.Sliding .Handle {
+  border-color: rgb(128, 128, 128);
+}
+
+.SliderControl.Color .Handle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: black;
+  border-radius: calc(0.5 * var(--handle-length));
+  transition: opacity var(--settings-control-hover-fade-duration);
+  opacity: 0;
+}
+
+.SliderControl.Color:not(:hover):not(.Sliding) .Handle::after {
+  opacity: 0.05;
+}
+
+.SliderControl:hover .Handle,
+.SliderControl.Sliding .Handle {
+  background-color: var(--settings-control-hover-background);
+  box-shadow: var(--settings-control-box-hover-shadow);
+}
+
+.SliderControl.Color:hover .Handle,
+.SliderControl.Color.Sliding .Handle {
+  box-shadow: 0px 3px 17px #00000075;
+}
+
+.SliderControl:active .Handle {
+  box-shadow: var(--settings-control-box-active-shadow);
+}
+
+.SliderControl.Color:active .Handle {
+  box-shadow: 0px 3px 11px #00000075;
+}
+
+.SliderControl .HandleCircle {
+  width: var(--handle-circle-size);
+  height: var(--handle-circle-size);
+  border-radius: 50%;
+  border: solid 1px var(--text-color);
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.SliderControl > .RangeLabel {
+  text-align: center;
+  margin-top: calc(1 * var(--settings-control-margin));
+}
+
+.SliderControl .Handle > .RangeLabel {
+  margin: auto;
+  font-size: 0.95em;
+  color: var(--text-color);
+}
+
+.SliderControl .HandleCircle,
+.SliderControl .Handle > .RangeLabel {
+  transition: transform var(--control-switch-animation-time)
+    var(--control-switch-overshoot-ease);
+}
+
+.SliderControl.Sliding .HandleCircle {
+  transform: scale(0.7);
+}
+
+.SliderControl.Sliding .Handle > .RangeLabel {
+  transform: scale(0.85);
+}
+
+/* Text Input */
+
+input[type="text"],
+textarea {
+  background-color: var(--inputbackgroundcolor);
+  border: 1px solid var(--inputbordercolor);
+  color: var(--inputtextcolor);
+  border-radius: var(--inputborderradius);
+  padding: 0.3rem;
+  font-size: var(--inputfontsize);
+  font-family: var(--text-font);
+}
+
+/* Checkboxes */
+
+input[type="checkbox"]:focus {
+  outline-width: 0;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  min-width: 1.2rem;
+  text-align: center;
+}
+
+input[type="checkbox"]:after {
+  content: "\2002";
+  display: inline-block;
+  line-height: 1.2rem;
+  font-size: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+
+  color: var(--inputtextcolor);
+  border: 1px solid var(--inputbordercolor);
+}
+
+input[type="checkbox"]:focus:after {
+  box-shadow: 0 0 5px var(--inputbordercolor);
+}
+
+input[type="checkbox"]:checked:after {
+  content: "\2714";
+}
+
+/* Radio Buttons */
+
+/* We hide radio buttons and style the labels instead. */
+input[type="radio"] {
+  display: none;
+}
+
+label.RadioButton {
+  margin: 0.035rem 0;
+}
+
+label.RadioButton span:before {
+  content: " ";
+  position: relative;
+  display: inline-block;
+
+  margin-right: 0.5rem;
+  top: 0.1rem;
+
+  width: 1rem;
+  height: 1rem;
+
+  background-color: var(--background-color);
+  border-radius: 1.5rem;
+  border: var(--inputbordercolor) solid 0.1rem;
+}
+
+label.RadioButton input[type="radio"]:checked + span:before {
+  background-color: var(--selectedtext);
+  box-shadow: inset 0 0 0 0.15rem var(--background-color);
+}
+
+/* Animation Helpers */
+
+@keyframes ShowHideAnimation-Fade-Showing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes ShowHideAnimation-Fade-Hiding {
+  to {
+    opacity: 0;
+  }
+}
+
+.ShowHideAnimation.Preset-Fade {
+  animation-duration: var(--show-hide-duration);
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+.ShowHideAnimation.Preset-Fade.Showing {
+  animation-name: ShowHideAnimation-Fade-Showing;
+}
+
+.ShowHideAnimation.Preset-Fade.Hiding {
+  animation-name: ShowHideAnimation-Fade-Hiding;
+}
+
+/* Other */
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--descriptiontext);
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+  width: 100%;
+}
+
+img.BlackToWhite {
+  filter: invert(100%) sepia(40%) saturate(2%) hue-rotate(196deg)
+    brightness(105%) contrast(101%);
+}
