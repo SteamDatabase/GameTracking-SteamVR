@@ -1,0 +1,318 @@
+:root
+{
+	--system-font: "Motiva Sans", sans-serif;
+	--control-spacing: 10px;
+	--scrollbar-width: 20px;
+
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+	width: var(--scrollbar-width);
+	background: rgb(32,32,32);
+}
+
+::-webkit-scrollbar-thumb {
+	height: 6px;
+	border: 0.45rem solid rgba(0, 0, 0, 0);
+	background-clip: padding-box;
+	border-radius: 100px;
+	background-color: #707070;
+	cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	border-width: 0.35rem;
+	background-color: #A7A7A7;
+}
+
+::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+
+body
+{
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	font-family: var( --system-font );
+}
+
+.hidden
+{
+	display: none;
+}
+
+.core_button
+{
+	min-width: 6.5em;
+}
+
+.core_button,
+input[type=text]
+{
+	font-family: var( --system-font );
+	padding: 2px 15px;
+	font-size: 1em;
+}
+
+input[type=text]
+{
+	outline: none;
+	padding: 2px;
+	background-color: var( --color_button_background );
+	color: var( --color_text_primary );
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: var( --color_seperator );
+}
+
+input[type=text]:hover
+{
+	border-color: var( --color_command_link_hover );	
+}
+
+input[type=text]:focus
+{
+	border-color: var( --color_command_link_hover );	
+}
+
+.console_page_top,
+.console_page_bottom
+{
+	background-color: var( --color_background );
+	position: fixed;
+	left: 0;
+	right: 0;
+	padding: var( --control-spacing );
+	box-shadow: 0px 0px 20px 4px rgb(29, 29, 29);
+}
+
+.console_page_top
+{
+	top: 0;
+}
+
+.console_page_bottom
+{
+	bottom: 0;
+}
+
+.console_flex_row
+{
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-direction: row;
+	flex-direction: row;
+
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+	
+	-webkit-align-items: center;
+	align-items: center;
+	
+	-webkit-align-content: center;
+	align-content: center;
+}
+
+.console_command_row
+{
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-direction: row;
+	flex-direction: row;
+
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+	
+	-webkit-align-items: center;
+	align-items: center;
+	
+	-webkit-align-content: center;
+	align-content: center;
+}
+
+.drop_down
+{
+	--drop-down-top: 0px;
+	--drop-down-left: 0px;
+
+	position: fixed;
+	top: var( --drop-down-top );
+	left: var( --drop-down-left );
+	background: var( --color_background );
+	border: solid 1px var( --color_seperator );
+	max-height: calc( 100% - var( --drop-down-top ) );
+	overflow-y: auto;
+	box-shadow: 0px 0px 20px 4px rgb(29, 29, 29);
+}
+
+.log_link
+{
+	--log_link_color: transparent;
+
+	color: rgb( var( --log_link_color ) );
+	padding: 2px 15px;
+	display: flex;
+}
+
+.log_link.active
+{
+	background: linear-gradient(to right,
+		rgba( var( --log_link_color ), 0.15) 0%,
+		transparent 100%);
+}
+
+.log_link:hover
+{
+	cursor: pointer;
+}
+
+.log_link:hover
+{
+	background: linear-gradient(to right,
+		rgba( var( --log_link_color ), 0.1) 0%,
+		transparent 100%);
+}
+
+.log_link.active:hover
+{
+	background: linear-gradient(to right,
+		rgba( var( --log_link_color ), 0.2) 0%,
+		transparent 100%);
+}
+
+.log_link:not(.active):active
+{
+	background: linear-gradient(to right,
+		rgba( var( --log_link_color ), 0.2) 0%,
+		transparent 100%);
+}
+
+.log_link .label
+{
+	flex-grow: 1;
+}
+
+.log_link .badge
+{
+	margin-left: 1.5em;
+	position: relative;
+	top: 2px;
+	pointer-events: none;
+	font-size: 70%;
+	opacity: 0.5;
+}
+
+.log_link .badge:empty
+{
+	display: none;
+}
+
+.core_checkbox_label
+{
+	white-space: nowrap;
+}
+
+.console_top_row .core_button,
+.console_top_row .log_link,
+.console_top_row input,
+.console_top_row label
+{
+	margin-right: var( --control-spacing );
+}
+
+#filter_text
+{
+	flex-grow: 0.3;
+}
+
+#console_command
+{
+	width: 100%;
+}
+
+#console_parent
+{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#console
+{
+	width: 100%;
+	height: 100%;
+}
+
+#console .row
+{
+	font-family: "Lucida Console";
+	font-size: 14px;
+	padding: 1px 0px;
+	line-height: 15px;
+	white-space: pre-wrap;
+}
+
+#console .row.logname
+{
+	display: inline-block;
+	width: 180px;
+	margin-right: 1px;
+}
+
+body:not(.show-log-name) #console .row.logname {
+	display: none;
+}
+
+body:not(.show-log-date) #console .row.date,
+body:not(.show-log-date) #console .row.hyphen {
+	display: none;
+}
+
+#console .row.warning
+{
+	color: yellow;
+}
+
+#console .row.error
+{
+	color: red;
+}
+
+#console_selector_button
+{
+	--log_link_color: transparent;
+
+	color: rgb( var( --log_link_color ), 0.8 );
+	position: relative;
+	padding-right: 23px;
+}
+
+#console_selector_button::after
+{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4.7px 3px 0 3px;
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+	top: 11px;
+	right: 10px;
+    opacity: 0.8;
+}

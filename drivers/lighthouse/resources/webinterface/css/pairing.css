@@ -1,0 +1,592 @@
+:root
+{
+	--transitionspeed-hover: 0.15s;
+
+	/* == Text == */
+	--title-color: #fff;
+	--title-size: 1.5rem;
+	--description-color: #aeb0b3;
+	--description-size: 0.8rem;
+
+	/* == Buttons == */
+	--button-background-hover: #69b4ff;
+	/* alt is used for icon-style buttons (such as the settings window root) */
+	--button-backgroundalt: #1a1818;
+	--button-backgroundalt-hover: #2a3746;
+	/* decline styles are used for cancel-like actions */
+	--button-background-decline: #364c85;
+
+	--bordercolor: #004777;
+	--controller-image-margin: 2rem;
+	--text-font: "Motiva Sans", "Arial";
+	--pairing-color-pink: #CC4298;
+	--pairing-color-green: #2EAD8C;
+	--pairing-color-blue: #1F83E0;
+	--pairing-controller-stroke-color: #3A66C7;
+	--pairing-controller-fill-color-a: #78eacd;
+	--pairing-controller-fill-color-b: #00523b;
+	--pairing-page-horizontal-margin: 35px;
+	--pairing-page-top-margin: 65px;
+	--pairing-page-bottom-margin: 50px;
+	--pairing-page-button-padding: 0.8rem;
+	--pairing-page-button-spacing: 0.8rem;
+	--pairing-page-content-top-margin: 140px;
+	--hover-transition-time: 0.17s;
+	--button-background: #171d21c7;
+	--app-text: rgba(255, 255, 255, 0.664);
+	--text-color: var(--app-text);
+	--title-color: var(--app-text);
+	--description-color: var(--app-text);
+	--button-text: var(--app-text);
+	--app-text-highlight: var(--pairing-color-green);
+
+	font-size: 15px;
+}
+
+html
+{
+	overflow: hidden;
+	background: none;
+	font-family: var(--text-font);
+	font-weight: normal;
+	height: 100%;
+}
+
+body
+{
+	margin: 0;
+	overflow: hidden;
+	height: 100%;
+	user-select: none;
+}
+
+.FullPage
+{
+	width: 100%;
+	height: 100%;
+}
+
+.Label
+{
+	font-size: 1rem;
+	font-weight: normal;
+	color: var(--text-color);
+	display: inline;
+}
+
+.Label.Title
+{
+	font-size: var( --title-size );
+	color: var( --title-color  );
+}
+
+.Label.Description
+{
+	font-size: var( --description-size );
+	color: var(--description-color);
+}
+
+.Label.Error
+{
+	border-color: red;
+	background-color: #494402;
+	border-width:0.5rem;
+}
+
+.Label .Highlight {
+	color: var(--app-text-highlight);
+}
+
+.ButtonControl
+{
+	font-size: 1.2rem;
+	font-weight: normal;
+	color: var( --button-text );
+	opacity: 1.0;
+	margin: 0.8rem 0;
+	padding: .5rem 1rem .5rem 1rem;
+	background: var( --button-background );
+	align-self : center;
+	transition-property: background-color;
+	transition-timing-function: ease-out;
+	transition-duration: var( --transitionspeed-hover );
+	cursor: pointer;
+	text-align: center;
+}
+
+.ButtonControl:hover
+{
+	background: var(--button-background-hover );
+}
+
+.ButtonControl.Decline {
+	background: var( --button-background-decline );
+}
+
+.ButtonControl.Decline:hover {
+	background: var( --button-background );
+}
+
+.ButtonControl.Inline {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.FlexColumn
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#root > div {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+body {
+	background: url("../images/pairingui/background.png");
+	background-size: cover;
+}
+
+h1 {
+	color: green;
+}
+
+.PairingWindow
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.PairingWindow .Title
+{
+	position: absolute;
+	bottom: calc( 100% - var(--pairing-page-top-margin) );
+	left: var(--pairing-page-horizontal-margin);
+}
+
+.PairingWindow .PageContent
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: var(--pairing-page-content-top-margin);
+	margin-left: var(--pairing-page-horizontal-margin);
+	margin-right: var(--pairing-page-horizontal-margin);
+	text-align: left;
+	width: 600px;
+}
+
+.PairingWindow .PairingLabelText
+{
+	color: red;
+	font-size: 0.9rem;
+}
+
+.PairingWindow .ButtonControl
+{
+	--button-padding: var(--pairing-page-button-padding);
+	padding: var(--button-padding);
+	background: var(--button-background);
+	text-align: left;
+	font-size: 1rem;
+	position: relative;
+	margin: 0;
+	transition: color var(--hover-transition-time);
+	overflow: hidden;
+}
+
+.PairingWindow .ButtonControl span
+{
+	/* Puts text in front of hover background gradient. */
+	position: relative;
+}
+
+.ButtonControl::after
+{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-style: solid;
+	border-image: linear-gradient(
+		to right,
+		var(--pairing-color-green) 0%,
+		var(--pairing-color-blue) 100%);
+	border-image-slice: 1;
+	border-width: 1px;
+}
+
+.ButtonControl::before
+{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-image: linear-gradient(
+		to right,
+		var(--pairing-color-green) 0%,
+		var(--pairing-color-blue) 100%);
+	z-index: 0;
+	opacity: 0;
+	transition: opacity var(--hover-transition-time);
+}
+
+.ButtonControl.Focus::before
+{
+	opacity: 0.25;
+}
+
+.ButtonControl:hover::before
+{
+	opacity: 0.5;
+}
+
+.ButtonControl:active
+{
+	color: black;
+}
+
+.ButtonControl:active::before
+{
+	opacity: 1;
+}
+
+.PairingWindow .FlexColumn.HalfWidth .ButtonControl
+{
+	margin-right: var(--button-padding);
+	width: calc(100% - var(--button-padding) * 3);
+}
+
+.PairingWindow .FlexColumn .ButtonControl:not(:last-child)
+{
+	margin-bottom: var(--pairing-page-button-spacing);
+}
+
+.HalfWidth {
+	width: calc( 50% - var(--pairing-page-horizontal-margin ) );
+}
+
+.PairingWindow .FlexColumn .ButtonStack
+{
+	width: calc( 50% - var(--pairing-page-horizontal-margin ) - var(--pairing-page-button-padding) );
+}
+
+.BottomRight
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.PairingWindow .BottomRight
+{
+	bottom: var(--pairing-page-bottom-margin);
+	right: calc( var(--pairing-page-horizontal-margin) );
+}
+
+.FlexColumn .ButtonControl
+{
+	width: 100%;
+}
+
+.PairingDevice .PageContent {
+	left: 50%;
+	width: 37%;
+	margin-left: 0px;
+	padding-left: var(--pairing-page-button-padding);
+	padding-right: var(--pairing-page-button-padding);
+}
+
+.PairingDevice .PairingImage {
+	opacity: 0.9;
+}
+
+.PairingDevice.Knuckles .PairingImage
+{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	width: 70%;
+}
+
+.PairingDevice.ViveWand .PairingImage
+{
+	position: absolute;
+	top: 22%;
+    left: 0%;
+    width: 55%;
+}
+
+.PairingDevice.ViveTracker .PairingImage
+{
+	position: absolute;
+    top: 25%;
+    left: 2%;
+    width: 53%;
+}
+
+.PairingDevice.VRInkPilotEdition .PairingImage
+{
+	position: absolute;
+	top: 17%;
+	left: 5%;
+	width: 65%;
+}
+
+.PairingDevice.PairingDevice.VRInkPilotEdition .PageContent {
+	top: 30%;
+}
+
+.PairingDevice .StatusIcon
+{
+	width: 50px;
+	float: left;
+	margin-top: -15px;
+	margin-right: var(--pairing-page-button-padding);
+	pointer-events: none;
+}
+
+.PairingImage > div {
+	border: 0.1rem solid var( --bordercolor );
+	margin: 0.5rem 2rem;
+}
+
+.PairingImage img {
+	max-height: 20rem;
+}
+
+.Label.Description {
+	text-align: left;
+}
+
+.PairingImagePlaceholder {
+	background-image: linear-gradient(45deg, magenta 25%, transparent 25%), linear-gradient(-45deg, magenta 25%, transparent 25%), linear-gradient(45deg, transparent 75%, magenta 75%), linear-gradient(-45deg, transparent 75%, magenta 75%);
+  	background-size: 40px 40px;
+	background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+
+	width: 300px;
+	height: 500px;
+}
+
+.PairingWindow {
+	padding: 1rem 2rem;
+
+}
+
+.ButtonRow > div {
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 50%;
+	margin: 1rem 3rem;
+}
+
+@keyframes FadeIn {
+	from {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.InitializingPage {
+	opacity: 0;
+	animation: FadeIn 0.3s ease-in;
+	animation-delay: 1s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+
+.PairingOptions {
+	--pairing-option-padding-h: 40px;
+	--pairing-option-padding-v: 20px;
+	--pairing-page-content-top-margin: 100px; /* override */
+}
+
+.PairingOptions .PairingOption {
+	display: inline-block;
+}
+
+.PairingOptions .PairingOption:not(:last-child) {
+	margin-right: var(--pairing-option-padding-h);
+	margin-bottom: var(--pairing-option-padding-v);
+}
+
+.PairingOptions .Button {
+	--pairing-button-size: 190px;
+	width: var(--pairing-button-size);
+	height: var(--pairing-button-size);
+	padding: 0;
+	margin-bottom: 0.5rem;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+
+.PairingOptions .Button::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-style: solid;
+    border-image: linear-gradient(
+		to bottom,
+		var(--pairing-color-green) 0%,
+		var(--pairing-color-blue) 100%);
+	border-image-slice: 1;
+	border-width: 1px;
+	opacity: 0.4;
+	transition: opacity var(--hover-transition-time),
+	            background-color var(--hover-transition-time);
+}
+
+.PairingOptions .Button:hover::before {
+	opacity: 1;
+}
+
+.PairingOptions .Button:active {
+	background-color: var(--button-background);
+}
+
+.PairingOptions .PairingOption .Button svg {
+	opacity: 0.8;
+	transition: opacity var(--hover-transition-time);
+}
+
+.PairingOptions .PairingOption .Button:hover svg {
+	opacity: 1;
+}
+
+.PairingOptions .PairingOption.Knuckles svg {
+	width: calc(320px*190/160);
+	position: relative;
+	top: -55px;
+	left: 5px;
+}
+
+.PairingOptions .PairingOption.ViveWand svg {
+	width: calc(254px*190/160);
+	position: relative;
+	top: 10px;
+	left: -10px;
+}
+
+.PairingOptions .PairingOption.ViveWand .st0 {
+	stroke-width: 2.0;
+}
+
+.PairingOptions .PairingOption.ViveTracker svg {
+	width: calc(192px*190/160);
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+
+.PairingOptions .PairingOption.VRInkPilotEdition svg {
+	width: calc(282px*190/160);
+	position: relative;
+	top: -75px;
+	left: 15px;
+}
+
+.PairingOptions .PairingOption.ViveTracker .st0 {
+	stroke-width: 1.7;
+}
+
+.ControllerBackground > * {
+	opacity: 0.18;
+}
+
+.ControllerBackground .ViveTracker {
+	position: absolute;
+	width: 290px;
+	left: 40px;
+	top: 330px;
+	transform: rotate(-18deg);
+}
+
+.ControllerBackground .ViveTracker .st0 {
+	stroke-width: 1.3;
+}
+
+.ControllerBackground .Knuckles {
+	position: absolute;
+	width: 340px;
+	left: 230px;
+	top: 115px;
+	transform: rotate(12deg);
+}
+
+.ControllerBackground .Knuckles .st1 {
+	stroke-width: 0.7;
+}
+
+.ControllerBackground .ViveWand {
+	position: absolute;
+	width: 270px;
+	left: 530px;
+	top: 25px;
+	transform: rotate(-17deg);
+}
+
+.ControllerBackground .VRInkPilotEdition {
+	display: none;
+}
+
+.ControllerBackground .ViveWand .st0 {
+	stroke-width: 2.0;
+}
+
+@keyframes PairingFillPulseAnimation {
+  0%  { fill: var(--pairing-controller-fill-color-b); }
+  50%  { fill: var(--pairing-controller-fill-color-a); }
+  100%  { fill: var(--pairing-controller-fill-color-b); }
+}
+
+.KnucklesPairingSVG .st1{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:0.425;stroke-linecap:round;stroke-linejoin:round;}
+.KnucklesPairingSVG .st2{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;}
+.KnucklesPairingSVG .st3{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-linecap:round;stroke-linejoin:round;}
+
+.ViveWandPairingSVG .st0{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.ViveWandPairingSVG .st1{stroke:var(--pairing-controller-stroke-color);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.ViveWandPairingSVG .st2{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.ViveWandPairingSVG .st3{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.ViveWandPairingSVG .st4{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.ViveWandPairingSVG .st5{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:0.75;stroke-miterlimit:2;}
+.ViveWandPairingSVG .st6{fill:var(--pairing-controller-stroke-color);}
+
+.ViveTrackerPairingSVG .st0{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:1.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+.ViveTrackerPairingSVG .st1{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:0.5;stroke-miterlimit:10;}
+.ViveTrackerPairingSVG .st2{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:1.25;stroke-miterlimit:10;}
+.ViveTrackerPairingSVG .st3{stroke:var(--pairing-controller-stroke-color);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+.ViveTrackerPairingSVG .st3{stroke:var(--pairing-controller-stroke-color);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+.ViveTrackerPairingSVG .st4{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+.ViveTrackerPairingSVG .st5{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:1.686;}
+.ViveTrackerPairingSVG .st6{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+.VRInkPilotEditionPairingSVG .st0{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:3px;stroke-miterlimit:10;}
+.VRInkPilotEditionPairingSVG .st1{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:2px;stroke-miterlimit:10;}
+.VRInkPilotEditionPairingSVG .st2{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:3.5;stroke-miterlimit:10;}
+.VRInkPilotEditionPairingSVG .st3{fill:none;stroke:var(--pairing-controller-stroke-color);stroke-width:1.35;stroke-miterlimit:10;}
+
+.KnucklesPairingSVG .st0,
+.ViveWandPairingSVG .st1,
+.ViveTrackerPairingSVG .st3,
+.VRInkPilotEditionPairingSVG .st4
+{
+	animation: PairingFillPulseAnimation 1s infinite ease-in-out;
+}

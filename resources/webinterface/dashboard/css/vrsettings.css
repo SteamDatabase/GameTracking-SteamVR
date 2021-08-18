@@ -1,0 +1,2145 @@
+body {
+	overflow: none;
+	background: transparent;
+}
+
+.SettingsMain {
+	--text-color: #DEE2E5;
+	--disabledtext: rgb(144, 147, 150);
+
+	width: 100%;
+	height: 100%;
+}
+
+#settingsRoot
+{
+	width: 100%;
+	height: 100%;
+}
+
+.SettingsMain.Loading,
+#settingsRoot:empty
+{
+	display: flex;
+	background-image: var(--background-image);
+	background-size: cover;
+}
+
+.SettingsMain .SubsectionStem:not(.Hidden),
+.SettingsMain .Subsection {
+	--settings-control-background: #22252a;
+}
+
+.SettingsMain .SettingsMainPanel {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	color: var(--text-color);
+	font-weight: var(--settings-font-weight);
+	font-size: var(--settings-font-size);
+}
+
+.SettingsMain.Overlay .SettingsMainPanel {
+	width: calc( var(--dashboard-primary-width) + ( var(--settings-left-outer-margin) * 2 ) );
+	height: calc( var(--dashboard-primary-width) / var(--dashboard-primary-aspect-ratio) );
+}
+
+.SettingsMain.Overlay .SettingsRestartRequiredBanner {
+	width: var(--dashboard-primary-width);
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.SettingsMain .ButtonControl
+{
+	border: none;
+	border-radius: var(--settings-control-inner-border-radius);
+	background-color: var(--settings-control-activated-background);
+	margin: 0;
+	font-weight: var(--settings-font-weight);
+	font-size: var(--settings-font-size);
+	padding: var(--settings-control-button-min-padding-v) var(--settings-control-button-min-padding-h);
+	box-sizing: border-box;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+	min-height: var(--settings-control-default-height);
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	text-align: center;
+
+	transition: background-color var(--settings-control-hover-fade-duration),
+	            box-shadow var(--settings-control-hover-fade-duration);
+}
+
+.SettingsMain .ButtonControl.WithIcon
+{
+	--icon-margin: 0.5em;
+}
+
+.SettingsMain .ButtonControl.WithIcon > .Icon
+{
+	width: 1em;
+	height: 1em;
+	margin: auto;
+}
+
+.SettingsMain .ButtonControl.WithIcon > .Icon path
+{
+	fill: var(--text-color);
+}
+
+.SettingsMain .ButtonControl.WithIcon > span
+{
+	margin-left: calc( 1em + var(--icon-margin) );
+	margin-right: var(--icon-margin);
+	flex-grow: 1;
+	overflow: none;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+
+.SettingsMain .ButtonControl.Dropdown::after
+{
+	--size: calc( 0.2 * var(--settings-control-default-height) );
+	--thickness: 0.15em;
+
+	content: '';
+	width: var(--size);
+	height: var(--size);
+	flex-shrink: 0;
+	align-self: center;
+	border: solid var(--text-color);
+	border-width: 0 var(--thickness) var(--thickness) 0;
+	display: inline-block;
+	transform: translateY(-20%) rotate(45deg);
+	margin-right: 0.2em;
+}
+
+.SettingsMain .ButtonControl + .ButtonControl
+{
+	margin-left: var(--settings-control-margin);
+}
+
+.SettingsMain .ButtonControl:not(.Disabled):hover
+{
+	background-color: var(--settings-control-hover-background);
+	box-shadow: var(--settings-control-box-hover-shadow);
+}
+
+.SettingsMain .ButtonControl:not(.Disabled):active
+{
+	background-color: var(--settings-control-active-background);
+	box-shadow: var(--settings-control-box-active-shadow);
+}
+
+.SettingsMain .ButtonControl > .Badge
+{
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.08);
+	border-radius: calc(0.7 * var(--settings-control-inner-border-radius));
+	margin-left: 1.5em;
+	font-size: 0.8em;
+	padding: 0.2em 0.5em;
+	opacity: 0.9;
+	font-weight: 400;
+	align-self: center;
+}
+
+.SettingsMain .ButtonControl > .Badge.DriversBlocked,
+.SettingsMain .Modal .Subsection .BlockedSubheader .Label
+{
+	color: #ffff35;
+}
+
+.SettingsMain .Modal .Subsection .BlockedSubheader .ButtonControl
+{
+	width: var(--settings-right-column-computed-width);
+}
+
+.SettingsMain .Modal .Subsection .BlockedSubheader .Label
+{
+	max-width: calc( 2 * var(--settings-right-column-computed-width));
+}
+
+.SettingsMain .Modal .Subsection .BlockedSubheader
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.SettingsMain .SettingsItem:not(.Label)
+{
+	display: grid;
+	grid-template-columns: 1fr var(--settings-right-column-computed-width);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.SettingsMain .SettingsItem:not(:last-child)
+{
+	margin-bottom: var(--settings-control-spacing);
+}
+
+.SettingsMain .SettingsItem.ResetDefaultButton
+{
+	margin-top: 1rem;
+}
+
+/* Left side of settings item */
+.SettingsMain .SettingsItem > .Label:not(.Spanning):first-child
+{
+	grid-area: 1 / 1 / 2 / 2;
+}
+
+/* Right side of settings item */
+.SettingsMain .SettingsItem > .Label:not(.Spanning) + *:nth-child(2):not(.Subsection)
+{
+	grid-area: 1 / 2 / 2 / 3;
+	justify-self: right;
+}
+
+.SettingsMain .SettingsItem > .Label:not(.Spanning) + .Label:nth-child(2)
+{
+	width: var(--settings-right-column-width);
+}
+
+/* Sole spanning child of settings item */
+.SettingsMain .SettingsItem > :only-child,
+.SettingsMain .SettingsItem > .SubsectionStem,
+.SettingsMain .SettingsItem > .Spanning
+{
+	grid-area: 1 / 1 / 2 / 3;
+	margin: 0;
+}
+
+/* Bottom, spanning section of settings item */
+.SettingsMain .SettingsItem > *:nth-child(3),
+.SettingsMain .SettingsItem > .Subsection,
+.SettingsMain .SettingsItem > .Spanning + :last-child
+{
+	grid-area: 2 / 1 / 3 / 3;
+	margin-top: var(--settings-control-spacing);
+}
+
+.SettingsMain .SettingsItem > .Subsection:first-child
+{
+	margin: 0;
+}
+
+.SettingsMain .SettingsItem > .SubsectionStem.Hidden > :only-child
+{
+	margin: 0;
+}
+
+.SettingsMain .Subsection
+{
+	--settings-right-column-width-adjustment: 300px;
+
+    background: rgba(
+		var(--settings-subsection-background-rgb),
+		var(--settings-subsection-background-a)
+	);
+	padding: var(--settings-subsection-padding-v)
+	         var(--settings-subsection-padding-h);
+	border-radius: var(--settings-subsection-border-radius);
+}
+
+.SettingsMain .Subsection:not(:first-child)
+{
+	margin-top: calc( 0.5 * var(--settings-control-spacing) );
+}
+
+.SettingsMain .Subsection
+{
+	margin-bottom: var(--settings-control-spacing);
+}
+
+.SettingsMain .SettingsItem .Subsection
+{
+	margin-bottom: 0;
+}
+
+.SettingsMain .Subsection.WithStem {
+	margin-right: calc( -1 * var(--settings-subsection-stem-padding));
+	margin-top: calc( 1 * ( var(--settings-subsection-stem-padding) + var(--settings-subsection-stem-bottom-padding) ) );
+	border-top-right-radius: 0;
+}
+
+.SettingsMain .SubsectionStem:not(.Hidden) {
+	width: fit-content;
+	height: fit-content;
+	padding: var(--settings-subsection-stem-padding);
+	margin-right: calc( -1 * var(--settings-subsection-stem-padding) );
+	margin-top: calc( -1 * var(--settings-subsection-stem-padding) );
+	margin-bottom: calc( -1 * ( var(--settings-subsection-stem-padding) + var(--settings-subsection-stem-bottom-padding) ) );
+	padding-bottom: calc( var(--settings-subsection-stem-padding) + var(--settings-subsection-stem-bottom-padding) );
+	z-index: 0;
+	position: relative;
+
+    background: rgba(
+		var(--settings-subsection-background-rgb),
+		var(--settings-subsection-background-a)
+	);
+
+    border-top-left-radius: var(--settings-subsection-border-radius);
+	border-top-right-radius: var(--settings-subsection-border-radius);
+}
+
+.SettingsMain .SubsectionStem:not(.Hidden)::before {
+	--size: var(--settings-subsection-border-radius);
+    --background: rgba(
+		var(--settings-subsection-background-rgb),
+		var(--settings-subsection-background-a)
+	);
+
+	content: '';
+	position: absolute;
+	width: var(--size);
+	height: var(--size);
+	left: calc(-1 * var(--size));
+	bottom: 0px;
+
+	/* You can't do a negative border-radius with css, but you can make a transparent radial gradient! Hah. */
+	background: radial-gradient(
+		circle at top left,
+		transparent 0px,
+		transparent var(--size),
+		var(--background) var(--size));
+}
+
+.SettingsMain .SubsectionStem.Label {
+	text-align: left;
+	padding-left: calc( var(--settings-subsection-stem-padding) + var(--settings-control-button-min-padding-h) );
+	padding-right: calc( var(--settings-subsection-stem-padding) + var(--settings-control-button-min-padding-h) );
+	box-sizing: border-box;
+	font-variant-numeric: tabular-nums;
+}
+
+.SettingsMain .SubsectionStem:not(:first-child) .ButtonControl {
+	width: var(--settings-right-column-width);
+	margin: 0;
+}
+
+.SettingsMain .SettingsItem > .Spanning + .SubsectionStem,
+.SettingsMain .SettingsItem > .Spanning + .SubsectionStem .ButtonControl {
+	width: auto;
+}
+
+.SettingsMain .Subsection > .ButtonControl
+{
+	margin: 0;
+}
+
+.SettingsMain .Subsection > .ButtonControl:not(:first-child)
+{
+	margin-top: calc(var(--settings-control-margin) + 0.5em);
+}
+
+.SettingsMain .SettingsPageContainer > .Subsection.Top
+{
+	--margin: calc( -1 * var(--settings-content-padding));
+	margin-top: var(--margin);
+	margin-left: var(--margin);
+	margin-right: var(--margin);
+	margin-bottom: var(--settings-content-padding);
+	border-radius: 0;
+	background: linear-gradient(
+		to right,
+		rgba(
+			var(--settings-subsection-background-rgb),
+			var(--settings-subsection-background-a)
+		) 0%,
+		rgba(
+			var(--settings-subsection-background-rgb),
+			0
+		) 100%
+	);
+}
+
+.SettingsMain .ButtonControl.Disabled,
+.SettingsMain .ButtonControl.Disabled:hover
+{
+	color: var(--disabledtext);
+	background-color: rgb(66, 75, 88);
+	cursor: default;
+}
+
+.FlexRow .SettingsItem {
+	margin: 1.2rem 0;
+}
+
+.SettingsSidebarPageModalContainer {
+	display: flex;
+	flex-direction: row;
+	height: fit-content;
+	flex-grow: 1;
+	position: relative;
+}
+
+.SettingsSidebarPageContainer {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.SettingsMain.Overlay .SettingsSidebarPageContainer {
+	padding: 0 var(--settings-left-outer-margin);
+}
+
+.SettingsSidebar {
+	min-width: var(--settings-sidebar-min-width);
+	max-width: var(--settings-sidebar-max-width);
+	height: 100%;
+	position: relative;
+	border-top-left-radius: var(--settings-border-radius);
+	border-bottom-left-radius: var(--settings-border-radius);
+	box-sizing: border-box;
+	padding: 0;
+	padding-bottom: var(--settings-sidebar-side-margin);
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+}
+
+.SettingsSidebar::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	transform: scaleY(-1);
+	background-image: var(--background-image);
+	background-size: cover;
+	background-position: left center;
+	border-top-left-radius: var(--settings-border-radius);
+	border-bottom-left-radius: var(--settings-border-radius);
+	z-index: -1;
+}
+
+.SettingsMain.Overlay .SettingsSidebar::before {
+	background-image: var(--background-image);
+}
+
+.SettingsSidebar .Spacer {
+	flex-grow: 10000;
+}
+
+.SettingsSidebar .Bottom {
+	padding: 0 var(--settings-sidebar-side-margin);
+	width: var(--settings-sidebar-min-width);
+	box-sizing: border-box;
+	margin-top: 2em;
+}
+
+.SettingsSidebar:empty {
+	display: none;
+}
+
+.SettingsSidebar .Header {
+	font-size: 1.2rem;
+	margin-left: var(--settings-sidebar-side-margin);
+	margin-top: 30px;
+	margin-bottom: 1rem;
+	font-weight: 400;
+}
+
+.SettingsMain.Desktop .SettingsSidebar .Header {
+	display: none;
+}
+
+.SettingsSidebarButton {
+	height: var(--settings-sidebar-button-max-height);
+	min-height: 10px;
+	margin: 0;
+	padding: 0 var(--settings-sidebar-side-margin);
+	position: relative;
+	cursor: pointer;
+	flex-shrink: 1;
+	flex-grow: 1;
+	display: flex;
+}
+
+.SettingsSidebarButton::before {
+	content: '';
+	position: absolute;
+	left: calc(-1 * var(--settings-sidebar-button-expansion));
+	right: calc(-1 * var(--settings-sidebar-button-expansion));
+	top: 0px;
+	bottom: 0px;
+	background: linear-gradient(to left, var(--settings-side-nav-gradient-b) 0%, var(--settings-side-nav-gradient-a) 100%);
+	border-radius: var(--settings-button-border-radius);
+	z-index: 10;
+	opacity: 0;
+	transform: scale(0.93);
+	box-shadow: 0px 6px 20px #00000033;
+
+	transition: transform var(--settings-sidebar-transition-time) ease-out,
+				opacity var(--settings-sidebar-transition-time) ease-out;
+}
+
+.SettingsMain.Desktop .SettingsSidebarButton::before {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.SettingsSidebarButton.Active::before {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.SettingsSidebarButton .Label {
+	z-index: 20;
+	position: relative;
+	color: rgb(200, 200, 200);
+	font-weight: 200;
+	margin: auto;
+	margin-left: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.SettingsSidebarButton.Active .Label {
+	color: white;
+	font-weight: 400;
+}
+
+.SettingsSidebarButton:hover .Label {
+	color: white;
+}
+
+.SettingsSidebarButton:not(.Active):active .Label {
+	color: rgb(220, 220, 220);
+}
+
+.SettingsRestartRequiredBanner {
+	display: flex;
+	flex-direction: row;
+	padding: 0.5em;
+	padding-left: var(--settings-sidebar-side-margin);
+	background: rgb(var(--settings-subsection-background-rgb));
+	flex-shrink: 0;
+	position: relative;
+	overflow: hidden;
+	z-index: 10000;
+}
+
+.SettingsMain.Desktop .SettingsRestartRequiredBanner:not(.Shown) {
+	display: none;
+}
+
+.SettingsMain.Overlay .SettingsRestartRequiredBanner:not(.Shown) {
+	pointer-events: none;
+	opacity: 0;
+}
+
+@keyframes RestartBannerSlideUpAnimation {
+	0% {
+		transform: scale(0.5);
+		opacity: 0;
+		z-index: -1;
+	}
+	99% {
+		transform: scale(1);
+		opacity: 1;
+		z-index: -1;
+	}
+	100% {
+		z-index: initial;
+	}
+}
+
+.SettingsMain.Overlay .SettingsRestartRequiredBanner.Shown {
+	animation: RestartBannerSlideUpAnimation 0.3s;
+}
+
+@keyframes RestartBannerShimmerAnimation {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(100%);
+	}
+}
+
+.SettingsRestartRequiredBanner::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 200%;
+	background: linear-gradient(to right, transparent 0%, #b4b4b43b 50%, transparent 100%);
+	animation: RestartBannerShimmerAnimation 1s ease-in;
+	animation-fill-mode: both;
+}
+
+.SettingsRestartRequiredBanner.ReShimmer::before {
+	animation: none;
+	display: none;
+}
+
+.SettingsRestartRequiredBanner .Label {
+	position: relative;
+	flex-grow: 1;
+	align-self: center;
+	font-weight: 100;
+}
+
+@keyframes RestartButtonFlashAnimation {
+	0%,
+	100% {
+		background: var(--settings-control-activated-background);
+	}
+	50% {
+		background: var(--settings-control-hover-background);
+	}
+}
+
+.SettingsRestartRequiredBanner .ButtonControl {
+	position: relative;
+	padding: var(--settings-control-button-min-padding-v) 2em;
+	animation: RestartButtonFlashAnimation 0.3s ease-in;
+	animation-delay: 0.5s;
+	width: fit-content;
+}
+
+.SettingsRestartRequiredBanner.ReShimmer .ButtonControl {
+	animation: none;
+}
+
+.SettingsMain.Overlay .SettingsRestartRequiredBanner {
+	border-radius: var(--settings-border-radius);
+}
+
+.SettingsMain.Desktop .SettingsRestartRequiredBanner {
+	box-shadow: 0 0 15px #0000006b;
+}
+
+.SettingsMain.Overlay .SettingsRestartRequiredBanner::before {
+	border-radius: var(--settings-border-radius);
+}
+
+.SettingsPageContainer {
+	flex-grow: 1;
+	background-image: var(--background-image);
+	background-size: cover;
+	background-position: left center;
+	border-top-right-radius: var(--settings-border-radius);
+	border-bottom-right-radius: var(--settings-border-radius);
+	height: 100%;
+	padding: var(--settings-content-padding);
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.DashboardPanel .SettingsPageContainer {
+	background: none;
+}
+
+.SettingsPageContainer > .SettingsItem {
+	flex-shrink: 0;
+}
+
+.SettingsPageContainer > .Bottom {
+	flex-grow: 1;
+	justify-content: flex-end;
+	display: flex;
+	flex-direction: column;
+}
+
+.SettingsMain .SettingsPageContainer hr {
+
+	border-color: #25282E;
+	border-width: 2px;
+	opacity: 0.5;
+}
+
+.SettingsMain.Overlay .SettingsPageContainer hr {
+	border-width: 4px;
+}
+
+.SettingsMain .Modal hr {
+	border-color: rgb(var(--settings-subsection-background-rgb));
+	border-width: 2px;
+	opacity: 0.5;
+}
+
+.SettingsSubTitle {
+	font-size: 1.2rem;
+	color: var(--bindinglistheaders);
+	font-weight: 400;
+	flex-grow: 0;
+	padding: 1rem;
+	padding-left: 0;
+}
+
+.BindingEntry {
+	margin: 0.5rem 0;
+}
+
+.SettingsCheckboxContainer input {
+	margin-right: 0.5rem;
+}
+
+.SettingsItem .Label,
+.SettingsItem.Label {
+	flex-grow: 1;
+	font-weight: var(--settings-font-weight);
+	align-self: center;
+	font-size: var(--settings-font-size);
+}
+
+.SettingsItem.Label {
+	display: block;
+}
+
+.SettingsItem .Label:first-child {
+	padding-right: var(--settings-right-column-left-margin);
+}
+
+.SettingsItemValueLabel {
+    text-align: right;
+    display: block;
+    width: 100%;
+	opacity: 0.65;
+	font-style: italic;
+}
+
+.SettingsItemValueLabel.Fixed {
+	max-width: 26rem;
+	text-align: left;
+}
+
+.SettingsItem + .SettingsItemValueLabel {
+	margin-top: calc(var(--settings-control-spacing) * -0.5);
+}
+
+.SettingsItemValueLabel + .SettingsItem {
+	margin-top: var(--settings-control-spacing);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroup {
+	--item-count: 1;
+	--item-value-index: 0;
+	--toggle-control-translate-x-direction: 0;
+
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+	border-radius: var(--settings-control-inner-border-radius);
+	cursor: pointer;
+	position: relative;
+	min-height: var(--settings-control-default-height);
+	width: var(--settings-right-column-computed-width);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroup::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	background-color: rgb( var(--settings-control-background-new-rgb) );
+	opacity: var(--settings-control-background-new-a);
+	border-radius: var(--settings-control-inner-border-radius);
+	transition: opacity var(--settings-control-hover-fade-duration) var(--settings-control-hover-fade-ease);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroup::after {
+	--toggle-control-scale-y: 1;
+	--toggle-control-width: calc(100% / var(--item-count));
+	--toggle-control-translate-x-standard: calc( 100% *var(--item-value-index) );
+	--toggle-control-translate-x-inward: 0%;
+
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+	width: var(--toggle-control-width);
+	background: var(--settings-control-activated-background);
+	border-radius: var(--settings-control-inner-border-radius);
+	transform: translateX(calc(var(--toggle-control-translate-x-standard) + var(--toggle-control-translate-x-inward)))
+	           scaleY(var(--toggle-control-scale-y));
+	transition: transform var(--control-switch-animation-time) var(--control-switch-overshoot-ease),
+	            background var(--settings-control-hover-fade-duration) var(--settings-control-hover-fade-ease),
+	            box-shadow var(--settings-control-hover-fade-duration) var(--settings-control-hover-fade-ease);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroup:hover::after {
+	box-shadow: var(--settings-control-box-hover-shadow);
+	background: var(--settings-control-hover-background);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroup:active::after {
+	box-shadow: var(--settings-control-box-active-shadow);
+	--toggle-control-scale-y: 0.9;
+    --toggle-control-translate-x-inward: calc(1% * var(--toggle-control-translate-x-direction) * var(--item-count));
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroup:hover::before {
+	opacity: var(--settings-control-background-new-hover-a);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroup:not(.DualValue) .SegmentedControlGroupOption.Active {
+	cursor: default;
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroupOption {
+	flex-grow: 1;
+	padding: 0.3em 0.8em;
+	width: calc(var(--settings-right-column-computed-width) * 0.5);
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+	contain: layout;
+	display: flex;
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroupOption > span {
+	font-weight: 100;
+	font-size: var(--settings-font-size);
+	box-sizing: border-box;
+	margin: auto;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 100%;
+	transition: opacity var(--control-switch-animation-time);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroupOption.Active > span {
+	font-weight: 400;
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroupOption:first-child {
+	border-top-left-radius: var(--settings-control-inner-border-radius);
+	border-bottom-left-radius: var(--settings-control-inner-border-radius);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroupOption:last-child {
+	border-top-right-radius: var(--settings-control-inner-border-radius);
+	border-bottom-right-radius: var(--settings-control-inner-border-radius);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroup:not(.DualValue) .SegmentedControlGroupOption:not(.Active):not(:hover) > span,
+.SettingsItem.SegmentedControl .SegmentedControlGroup.DualValue:not(:hover) .SegmentedControlGroupOption:not(.Active) > span {
+	opacity: 0.4;
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroupOption:not(:first-child)::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20%;
+    bottom: 20%;
+    width: 1px;
+	background: var(--settings-control-activated-background);
+	opacity: 0;
+	transition: opacity var(--control-switch-animation-time) var(--control-switch-overshoot-ease);
+}
+
+.SettingsItem.SegmentedControl .SegmentedControlGroupOption:not(.Active) + .SegmentedControlGroupOption:not(.Active)::before {
+	opacity: 0.75;
+}
+
+.SettingsMain .SettingsSidebar .SettingsItem {
+	display: block;
+}
+
+.SettingsMain .SettingsSidebar .SettingsItem .Label {
+	font-size: 1em;
+	padding-bottom: 0.5em;
+	display: block;
+}
+
+.SettingsMain .SettingsSidebar .SettingsItem .SegmentedControlGroup {
+	width: auto;
+}
+
+.SettingsItem.Slider {
+	height: auto;
+	cursor: default;
+	margin: 0;
+}
+
+.SettingsItem.Slider.Hue .SliderControl.Color .Track {
+	--percent-white: 0.03;
+
+	/* Last 2.5% of hue slider is white */
+	background: linear-gradient(to right,
+		#F00 0%,
+		#FF0 calc(16.31% * (1 - var(--percent-white))),
+		#0F0 calc(32.64% * (1 - var(--percent-white))),
+		#0FF calc(48.95% * (1 - var(--percent-white))),
+		#00F calc(65.27% * (1 - var(--percent-white))),
+		#F0F calc(81.6% * (1 - var(--percent-white))),
+		#F00 calc(100% * (1 - var(--percent-white))),
+		#FFF calc(100% * (1 - var(--percent-white))),
+		#FFF 100%
+		);
+}
+
+.SettingsItem.Slider.Alpha .SliderControl.Color .Track {
+	background: linear-gradient(
+		to right,
+		rgb( var(--settings-control-track-background-rgb) ) 0%,
+		var(--slider-color) 100%
+		);
+}
+
+.SettingsItem.Slider > .RangeLabel {
+	text-align: center;
+	margin-top: calc(1.0 * var(--settings-control-margin));
+}
+
+.SettingsItem.Slider .Handle > .RangeLabel {
+	margin: auto;
+	font-size: 0.95em;
+}
+
+.SettingsItem.RadioButtons {
+	display: flex;
+	flex-direction: row;
+}
+
+.SettingsItem.RadioButtons .RadioButtonsSet {
+	display: flex;
+	flex-direction: row;
+}
+
+.SettingsItem.RadioButtons .RadioButton {
+	--size: calc(var(--settings-control-default-height) * 1.33);
+	width: var(--size);
+	height: var(--size);
+	margin: 0;
+	margin-left: calc(0.3 * var(--size));
+	box-sizing: border-box;
+	border: none;
+	background: var(--settings-control-background-new);
+	border-radius: 50%;
+	display: flex;
+	padding: 0;
+	position: relative;
+	cursor: pointer;
+	transition: background var(--settings-control-hover-fade-duration);
+}
+
+.SettingsItem.RadioButtons .RadioButton .Label {
+	padding: 0;
+}
+
+.SettingsItem.RadioButtons .RadioButton:hover,
+.SettingsItem.RadioButtons .RadioButton.Selected {
+	background: var(--settings-control-activated-background);
+}
+
+.SettingsItem.RadioButtons .RadioButton:not(.Selected):hover {
+	box-shadow: var(--settings-control-box-hover-shadow);
+}
+
+.SettingsItem.RadioButtons .RadioButton:not(.Selected):active {
+	background: var(--settings-control-background-new-hover);
+	box-shadow: var(--settings-control-box-active-shadow);
+}
+
+.SettingsItem.RadioButtons .RadioButton.Selected {
+	cursor: default;
+}
+
+.SettingsItem.RadioButtons .RadioButton.Selected .Label {
+	font-weight: bold;
+}
+
+.SettingsItem.RadioButtons .RadioButton .Label {
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+
+.SettingsItem.RadioButtons .RadioButton.Selected:after {
+	content: none;
+}
+
+.SettingsAppSelectorButton {
+	margin: 0.5rem;
+}
+
+.BackgroundSelector {
+	flex-wrap: wrap;
+}
+
+.SettingsBackgroundOption {
+	width: 10rem;
+	height: 10rem;
+	margin: 0.3rem;
+	background-size: cover;
+	border: 0.2rem solid transparent;
+	transition-property: border;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+	border-radius: 0.1rem;
+	background-clip: content-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.SettingsBackgroundOption.Selected {
+	border-color: var(--tabborderbottomselected);
+}
+
+.ColorIndicator {
+	width: 8rem;
+	height: 8rem;
+	margin: 1rem;
+}
+
+.SettingsFrame {
+	position: relative;
+	flex-grow: 1;
+}
+
+.SettingsNavigationContainer,
+.SettingsTextLinks {
+	transition: opacity var(--button-fade-time);
+}
+
+.InSubpage .SettingsNavigationContainer,
+.InSubpage .SettingsTextLinks {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.ColorRanges {
+	flex-grow: 1;
+}
+
+.CenteredBox {
+	position: absolute;
+	top: 30vh;
+	bottom: 30vh;
+	left: 30vw;
+	right: 30vw;
+	display: flex;
+	align-items: center;
+
+	border: 1px solid var(--bordercolor);
+	background: var(--modalbackground);
+}
+
+.SettingsNavigationContainer {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-auto-columns: 1fr;
+	grid-auto-flow: column;
+	height: 100%;
+}
+
+.SettingsNavigationContainer > div {
+	--tile-size: 9rem;
+	padding: 1rem 0.3rem;
+	width: var(--tile-size);
+	height: var(--tile-size);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.SettingsNavigationContainer .SettingsHeader {
+	font-size: 1.2rem;
+	align-self: center;
+
+	width: calc( var(--tile-size) * 0.8 );
+	height: calc( var(--tile-size) * 0.8 );
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	font-weight: normal;
+	color: var( --button-text );
+	opacity: 1.0;
+
+	/* padding: 5px; */
+
+	background-color: var(--button-backgroundalt);
+	border-radius: 2px;
+	box-shadow: none;
+	border: 0.2rem solid var(--button-background);
+	transition-property: background-color, border-color;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+	cursor: pointer;
+	border-radius: 0.3rem;
+
+	margin-bottom: 0.5rem;
+}
+
+.SettingsNavigationContainer .SettingsHeader:hover
+{
+	background-color: var(--button-backgroundalt-hover);
+	border-color: var(--button-background-hover);
+}
+
+.SettingsNavigationContainer .SettingsHeader svg {
+	--size: 40%;
+	width: var(--size);
+	height: var(--size);
+}
+
+.SettingsNavigationContainer .SettingsHeader path {
+	transition-property: fill;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+}
+
+.SettingsNavigationContainer .SettingsHeader:hover path  {
+	fill: var(--button-background-hover);
+}
+
+.SettingsNavigationContainer .SettingsHeader .Label {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.SettingsTextLinks {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 0 20%;
+}
+
+.SettingsTextLinks > div {
+	flex-grow: 1;
+	text-align: center;
+	color: var( --button-background );
+	padding: 2rem;
+	font-size: 1.4rem;
+	cursor: pointer;
+	transition: color var( --button-fade-time );
+}
+
+.SettingsTextLinks > div:hover {
+	color: var( --button-background-hover );
+}
+
+.SettingsBodyContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: transform 1s, opacity 1s;
+}
+
+.SettingsTitle /{
+	justify-content: space-between;
+}
+
+.SettingsTitle .Title
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.SettingsRootContainer {
+	justify-content: center;
+    align-items: center;
+}
+
+.SettingsTitle .Title {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	pointer-events: none;
+}
+
+.SettingsCloseButton {
+	cursor: pointer;
+	--size: 3rem;
+	height: var(--size);
+}
+
+.SettingsCloseButton > svg {
+	width: var(--size);
+	height: var(--size);
+}
+
+.SettingsCloseButton circle {
+	transition: fill var(--button-fade-time);
+}
+
+.SettingsCloseButton:hover circle {
+	fill: var(--button-background-hover )
+}
+
+.ChaperoneSelector > div {
+	flex: 1 1;
+	padding: 1rem;
+}
+
+.ChaperoneSelectorPreview {
+	text-align: center;
+
+}
+
+.ChaperoneSelectorPreview > svg {
+	width: calc( 100% - 2rem );
+	max-height: 45vh;
+}
+
+.SettingsColumn {
+	margin: 0 2rem;
+	width: 100%;
+}
+
+.ThumbstickCalibrateBody
+{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+.ThumbstickContainer
+{
+	margin: 0.2rem;
+}
+
+.ThumbstickContainer svg
+{
+	width: 7rem;
+}
+
+.ThumbstickContainer svg circle
+{
+	fill: rgb( var(--settings-control-track-background-rgb) );
+}
+
+.ThumbstickContainer svg polyline
+{
+	stroke: var(--settings-side-nav-gradient-a);
+}
+
+.ThumbstickAngle
+{
+	margin-left: 1.5rem;
+	margin-top: auto;
+	width: 15rem;
+	margin-bottom: auto;
+}
+
+.CalibrateButtonRow
+{
+	width: fit-content;
+	margin-left: auto;
+	margin-right: 0.2rem;
+}
+
+.CalibrateButton
+{
+	margin-left: 0.2rem;
+}
+
+.CalibrateThumbstickItem .Label
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 1rem;
+}
+
+.SettingsItem .Label.Resolution
+{
+	width: calc(var(--settings-right-column-width) - var(--settings-subsection-padding-h));
+	padding-right: 0;
+	display: flex;
+	flex-direction: row;
+	font-variant-numeric: tabular-nums;
+}
+
+.SettingsItem .Label.Resolution.SubsectionStem
+{
+	padding-right: var(--settings-subsection-padding-h);
+}
+
+.SettingsItem .Label.Resolution .Dimensions
+{
+	flex-grow: 1;
+}
+
+.SettingsItem .Label.Resolution .Dimensions,
+.SettingsItem .Label.Resolution .Percentage
+{
+	padding: 0 0.5em;
+}
+
+.SettingsMain .Modal.CameraTest .Body
+{
+	width: 25rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.SettingsMain .Modal.CameraTest img
+{
+	pointer-events: none;
+	width: 100%;
+	border-radius: var(--settings-control-inner-border-radius);
+}
+
+.SettingsMain .Modal.CameraTest .Label.CameraStatus
+{
+	padding: var(--settings-control-spacing);
+	padding-bottom: 0;
+	font-weight: bold;
+}
+
+.SettingsMain .CameraTestStatusItem
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.SettingsMain .CameraTestSummary
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.SettingsMain .CameraStatus.Evaluating
+{
+	color: rgb(197, 175, 48);
+}
+
+.SettingsMain .CameraStatus.Success
+{
+	color: rgb(40, 207, 40);
+}
+
+.SettingsMain .CameraStatus.Failure
+{
+	color: lightcoral;
+}
+
+.SettingsMain .CameraTestLabel
+{
+	padding-right: 5px;
+}
+
+@keyframes SettingsModalFadeIn {
+	from {
+		opacity: 0;
+		transform: scale(0.7);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.SettingsMain .Modal {
+	/*
+	Modal children must be either Subsection.Top, Subsection.Body, or Subsection.Bottom.
+	*/
+
+	max-width: 50%;
+	min-width: 20rem;
+	animation: SettingsModalFadeIn var(--settings-modal-animation-duration) var(--control-switch-overshoot-ease);
+	animation-fill-mode: both;
+	border-radius: var(--settings-control-outer-border-radius);
+	box-shadow: var(--settings-control-box-hover-shadow);
+	background: linear-gradient(
+		135deg,
+		#32373F 0%,
+		#25282E 100%
+	);
+	overflow: hidden;
+	box-sizing: border-box;
+	color: var(--text-color);
+	display: flex;
+	flex-direction: column;
+}
+
+.SettingsMain .Modal > .Subsection.Top,
+.SettingsMain .Modal > .Subsection.Bottom
+{
+	padding: var(--settings-subsection-padding-v)
+	         var(--settings-subsection-padding-h);
+	margin: 0;
+	border-radius: 0;
+	background: rgb(var(--settings-subsection-background-rgb));
+}
+
+.SettingsMain .Modal > .Subsection.Top.Subheader
+{
+	--settings-subsection-padding-v: 0.5em;
+
+	background: var(--settings-control-background-hover-background);
+}
+
+.SettingsMain .Modal > .Subsection .Label
+{
+	font-size: var(--settings-font-size);
+}
+
+.SettingsMain .Modal > .Subsection.Body
+{
+	margin: 0;
+	border-radius: 0;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+@keyframes SettingsDropdownPopoverFadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.SettingsMain .Dropdown.Popover
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9001;
+	box-shadow: 0px 1px 18px 4px #00000021;
+	background: var(--settings-control-background);
+
+	animation: SettingsDropdownPopoverFadeIn var(--settings-modal-animation-duration) var(--control-switch-overshoot-ease);
+	animation-fill-mode: both;
+}
+
+.SettingsMain .Dropdown.Popover,
+.SettingsMain .Dropdown.Popover > .ScrollPanel
+{
+	border-radius: var(--settings-control-inner-border-radius);
+	width: fit-content;
+	height: fit-content;
+}
+
+.SettingsMain .Dropdown.Popover > .ScrollPanel
+{
+	width: 100%;
+}
+
+.SettingsMain .Dropdown.Popover .Separator
+{
+	border-top: solid 1px var(--settings-control-hover-background);
+}
+
+.SettingsMain .ButtonControl.Dropdown
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.SettingsMain .ButtonControl.Dropdown > span
+{
+	flex-grow: 1;
+	overflow: none;
+	text-overflow: ellipsis;
+	text-align: left;
+}
+
+.SettingsMain .ButtonControl.Dropdown::after
+{
+	--size: calc( 0.2 * var(--settings-control-default-height) );
+	--thickness: 0.15em;
+
+	content: '';
+	width: var(--size);
+	height: var(--size);
+	flex-shrink: 0;
+	align-self: center;
+	border: solid var(--text-color);
+	border-width: 0 var(--thickness) var(--thickness) 0;
+	display: inline-block;
+	transform: translateY(-20%) rotate(45deg);
+	margin-right: 0.2em;
+}
+
+.SettingsMain .DropdownPopoverButton
+{
+	background-color: var(--dropdown-popover-background-color);
+	font-size: var(--settings-font-size);
+	padding: var(--settings-control-button-min-padding-v) var(--settings-control-button-min-padding-h);
+	box-sizing: border-box;
+	text-align: left;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+	width: 100%;
+	min-height: var(--settings-control-default-height);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	cursor: pointer;
+	color: var(--text-color);
+
+	transition: background-color var(--settings-control-hover-fade-duration),
+	            box-shadow var(--settings-control-hover-fade-duration);
+}
+
+.SettingsMain .DropdownPopoverButton.Selected
+{
+	background-color: var(--dropdown-popover-selected-background-color);
+}
+
+.SettingsMain .DropdownPopoverButton:hover
+{
+	background-color: var(--settings-control-hover-background);
+}
+
+.SettingsMain .DropdownPopoverButton:active
+{
+	background-color: var(--settings-control-active-background);
+}
+
+.SettingsMain .SettingsItem.ButtonRow
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.SettingsMain .SettingsItem.ButtonRow > .ButtonControl
+{
+	margin: 0;
+	height: auto;
+	align-self: stretch;
+}
+
+.SettingsMain .SettingsItem.ButtonRow > :not(:first-child)
+{
+	margin-left: var(--settings-control-spacing);
+}
+
+.SettingsMain .Subsection > .ButtonRow > .Spacer
+{
+	flex-grow: 9001;
+}
+
+.SettingsMain .Subsection > .ButtonRow > .ButtonControl
+{
+	width: var(--settings-right-column-width);
+	flex-shrink: 1;
+	flex-grow: 1;
+}
+
+.SettingsMain .Subsection > .ButtonRow > .ButtonControl:only-child
+{
+	margin-left: auto;
+}
+
+.SettingsMain .SettingsItem.ColorPicker .ButtonControl
+{
+	--color-value: rgba(var(--color-value-rgb), var(--color-value-a));
+
+	position: relative;
+}
+
+.SettingsMain .SettingsItem.ColorPicker .ButtonControl::before
+{
+	--checker-color-a: white;
+	--checker-color-b: black;
+
+	content: '';
+	position: absolute;
+	left: var(--settings-control-image-padding);
+	right: var(--settings-control-image-padding);
+	top: var(--settings-control-image-padding);
+	bottom: var(--settings-control-image-padding);
+	border-radius: var(--settings-button-image-border-radius);
+
+	background-image: /* tint image */
+						linear-gradient(to right, var(--color-value), var(--color-value)),
+						/* checkered effect */
+						linear-gradient(to right, var(--checker-color-a) 50%, var(--checker-color-b) 50%),
+						linear-gradient(to bottom, var(--checker-color-a) 50%, var(--checker-color-b) 50%);
+	background-blend-mode: normal, difference, normal;
+	background-size: 10% 100%;
+
+	transition: opacity var(--settings-control-hover-fade-duration) var(--settings-control-hover-fade-ease);
+}
+
+.SettingsMain .SettingsItem.ColorPicker .ButtonControl:not(:hover)::before
+{
+	opacity: calc( 0.4 + var(--color-value-a));
+}
+
+.SettingsMain h1
+{
+	color: var(--text-color);
+	font-size: 1.0rem;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+.SettingsMain h1:last-child
+{
+	margin-bottom: 0;
+}
+
+.SettingsMain .SettingsItem.Background .ButtonControl.Background
+{
+	display: flex;
+	padding: var(--settings-control-image-padding);
+}
+
+.SettingsMain .SettingsItem.Background .ButtonControl.Background::before
+{
+	content: '';
+	margin: auto;
+	padding-top: 50%;
+	border-radius: var(--settings-button-image-border-radius);
+	background-color: black;
+	background-image: var(--background-url-value);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 100%;
+}
+
+.SettingsMain .Modal.Backgrounds
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.SettingsMain .Modal.Backgrounds .BackgroundsGrid
+{
+	--grid-width: 30rem;
+	--grid-item-width: calc(var(--grid-width) / 3);
+	--grid-item-spacing: 0.8rem;
+
+	width: var(--grid-width);
+	margin-right: calc(-1 * var(--grid-item-spacing));
+	margin-bottom: calc(-1 * var(--grid-item-spacing));
+}
+
+.SettingsMain .Modal.Backgrounds .ButtonControl.Background
+{
+	padding: var(--settings-control-image-padding);
+	width: calc(var(--grid-item-width) - var(--grid-item-spacing));
+	display: inline-flex;
+	margin: 0;
+	margin-right: var(--grid-item-spacing);
+	margin-bottom: var(--grid-item-spacing);
+}
+
+.SettingsMain .Modal.Backgrounds .ButtonControl.Background.Selected
+{
+	background: var(--settings-side-nav-gradient-b);
+}
+
+.SettingsMain .Modal.Backgrounds .ButtonControl.Background.Selected:hover
+{
+	background: var(--settings-side-nav-gradient-a);
+}
+
+.SettingsMain .Modal.Backgrounds .ButtonControl.Background::before
+{
+	content: '';
+	margin: auto;
+	padding-top: 75%;
+	border-radius: var(--settings-button-image-border-radius);
+	background-image: var(--background-url-value);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 11em;
+}
+
+@keyframes SettingsLoadingLabelFadeIn {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+.SettingsMain.Loading > .Label
+{
+	margin: auto;
+	color: var(--text-color);
+	font-size: 1.5rem;
+	font-weight: 100;
+	animation: SettingsLoadingLabelFadeIn 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	animation-delay: 0.5s;
+}
+
+.SettingsMain .SettingsSidebar .AdvancedSettingsSegmentedControl .SegmentedControlGroup
+{
+	transition: opacity 0.3s;
+	opacity: 0.5;
+}
+
+.SettingsMain .SettingsSidebar .AdvancedSettingsSegmentedControl .Label{
+	color: var(--settings-advanced-sidenav-text-color);
+}
+
+.SettingsMain.Desktop .SettingsSidebar .AdvancedSettingsSegmentedControl .Label{
+	filter: brightness(130%);
+}
+
+.SettingsMain .SettingsSidebar .AdvancedSettingsSegmentedControl .SegmentedControlGroup.Fadable:not(:hover)
+{
+	opacity: 0.4;
+}
+
+.SettingsMain .SettingsSidebar .AdvancedSettingsSegmentedControl .SegmentedControlGroup.On::after
+{
+	background: var(--settings-advanced-sidenav-control-background-color);
+}
+
+.SettingsMain .SettingsItem.Advanced
+{
+	--settings-control-activated-background: var(--settings-advanced-control-background-color);
+	--settings-control-hover-background: var(--settings-advanced-control-hover-background-color);
+	--settings-control-active-background: var(--settings-advanced-control-active-background-color);
+}
+
+.SettingsMain .TrackerEditorModal
+{
+	min-width: 27rem;
+}
+
+.SettingsMain .TrackerEditorModal .TrackerEntry:not(:last-child)
+{
+	margin-bottom: 3em;
+}
+
+.SettingsMain .TrackerEditorModal .TrackerEntry > .Label
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.SettingsMain .TrackerEditorModal .TrackerEntry > .Label .TrackerConnectionIndicator
+{
+	--size: 0.8em;
+	width: var(--size);
+	height: var(--size);
+	border-radius: 50%;
+	align-self: center;
+	margin-left: 0.8em;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.SettingsMain .TrackerEditorModal .TrackerEntry > .Label .TrackerConnectionIndicator.Connected
+{
+	background: #0fba0f;
+}
+
+.SettingsMain .TrackerEditorModal .TrackerEntry > .Label .TrackerConnectionIndicator.Disconnected
+{
+	border: solid 0.18em #932222;
+}
+
+.ThumbstickAngleIcon
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.ThumbstickDeadzoneItem
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.DeadzoneOuter
+{
+	border-radius: 50%;
+	border: solid  4px white;
+	width: 2.3rem;
+	height: 2.3rem;
+	position: relative;
+	margin-right: 4px;
+}
+
+.DeadzoneInner
+{
+	border-radius: 50%;
+	background: grey;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.CalibrateThumbstickItem
+{
+	/* This doesn't work, presumably because the specifier is less specific */
+	grid-template-columns: 1fr 1fr var(--settings-right-column-computed-width);
+}
+
+.SettingsMain .Modal .Body > .Spacer
+{
+	flex-grow: 1;
+}
+
+.SettingsMain .Modal.AppVideoModal
+{
+	min-width: 33rem;
+}
+
+.SettingsMain .Modal.OverlayAutoLaunchModal
+{
+	min-width: 25rem;
+}
+
+.SettingsMain .Modal .ModalPlaceholder
+{
+	text-align: center;
+	min-height: 0rem;
+	margin: 3em auto;
+	opacity: 0.6;
+	text-transform: uppercase;
+}
+
+.SettingsMain .Modal.BindingsModal
+{
+	min-height: 31rem;
+	width: 30rem;
+}
+
+.SettingsMain.Overlay .Modal.BindingsModal
+{
+	width: 37rem;
+}
+
+.LegacyDebuggerController
+{
+	min-width: 15rem;
+}
+
+.LegacyDebuggerButtonName
+{
+	margin-left: 2rem;
+}
+
+.LegacyDebuggerGroup
+{
+	margin-top: 1rem;
+}
+
+.LegacyDebuggerWrapper
+{
+	min-height: 20rem;
+}
+
+
+.ControllerVisualizerWrapper
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.ControllerVisualizer
+{
+	width: 100%;
+	min-width: 30rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.ControllerVisualizerEntries
+{
+	display: flex;
+	flex-direction: column;
+	width: 30rem;
+	margin: 0.5rem;
+}
+
+.VisualizerImageContainer
+{
+	width: 50%;
+	padding-left: 5%;
+	padding-right: 5%
+}
+
+.VisualizerImage
+{
+	pointer-events: none;
+	z-index: -1;
+	display: inline-flex;
+	position: sticky;
+	/* top: 1rem; */
+	width: 90%;
+	object-fit: contain;
+	margin: var(--controller-image-margin) auto;
+}
+
+.VisualizerButtonContainer
+{
+	margin-left: auto;
+}
+
+.VisualizerButtonBase,
+.VisualizerButtonClick,
+.VisualizerButtonTouch
+{
+	border-radius: 50%;
+}
+
+.VisualizerButtonBase
+{
+	border-color:  var(--selectedtext);
+	border-style: solid;
+	border-width: thin;
+	background-color: #55555580;
+	z-index: 1;
+	width: 1.5rem;
+	height: 1.5rem;
+	top: -0.75rem;
+	left: -0.75rem;
+	right: 0.75rem;
+	bottom: 0.75rem;
+}
+
+.VisualizerButtonBase.Touched
+{
+	background-color: var(--selectedtext);
+}
+
+.VisualizerButtonBase.Clicked
+{
+	background-color: var(--visualizerclick);
+}
+
+.TriggerVisualizerContainer
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 0.5rem;
+}
+
+.TriggerVisualizerContainer.HasForce
+{
+	height: 6rem;
+	bottom: 6rem;
+}
+
+.TriggerVisualizerContainer.HasClick
+{
+	height: 4rem;
+	bottom: 4rem;
+}
+
+
+.TriggerBar
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding-bottom: 0.2rem;
+}
+
+.VisualizerLabel
+{
+	width: 50%;
+	font-size: 1rem;
+	padding: 2px;
+	width: 80%;
+	word-break: break-word;
+	color: var(--bindinglistdetails);
+
+}
+
+.TriggerBarBackground
+{
+	width: 50%;
+	border-style: solid;
+	border-color: var(--selectedtext);
+	border-width: thin;
+	background-color: #55555580;
+}
+
+.TriggerValue .TriggerBarContent
+{
+	background-color: var( --selectedtext );
+	height: 100%;
+}
+
+.TriggerForce .TriggerBarContent
+{
+	background-color: var( --selectedtext );
+	height: 100%;
+}
+
+.TrackpadVisualizerContainer
+{
+	position: relative;
+	padding-bottom: 0.5rem;
+}
+
+.TrackpadPosition
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 0.2rem;
+}
+
+.TrackpadVisualizerBackground
+{
+	border-style: solid;
+	border-color: var( --selectedtext );
+	border-width: thin;
+	background-color: #55555580;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+}
+
+.TrackpadVisualizerPipContainer
+{
+	position: relative;
+	margin-right: auto;
+}
+
+.TrackpadVisualizerPip
+{
+	position: absolute;
+	z-index: 2;
+	left: -0.15rem;
+	top: -0.15rem;
+	right: 0.15rem;
+	bottom: 0.15rem;
+	width: 0.3rem;
+	height: 0.3rem;
+	border-style: solid;
+	border-color: rgba(100, 100, 100, 0.121);
+	border-width: thin;
+	background-color: var(--selectedtext);
+	border-radius: 50%;
+}
+
+.TrackpadVisualizerPip.Clicked
+{
+	background-color: var(--visualizerclick);
+}
+
+.TrackpadVisualizerForceBackground
+{
+	border-style: solid;
+	border-color: var(--selectedtext);
+	background-color: #55555580;
+	left: 2.5rem;
+	right: 4rem;
+	top: -1.8rem;
+	bottom: 1.8rem;
+	width: 1.2rem;
+	height: 3.6rem;
+}
+
+.TrackpadVisualizerForce
+{
+	background-color: red;
+}
+
+.VisualizerControl
+{
+	width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+	background-color: #333333;
+}
+
+.VisualizerSectionHeader
+{
+	display: flex;
+	flex-direction: row;
+}
+
+/* .VisualizerControlName
+{
+
+} */
+
+.MenuSVG, .BindingPosePointSVG, .BindingPoseLineSVG
+{
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.MenuSVG
+{
+	position: fixed;
+	opacity: 0;
+	top: 8rem;
+}
+
+.MenuSVGVisible
+{
+	opacity: 1;
+}
+
+.BindingPoseLineSVG, .BindingPosePointSVG
+{
+	width: 3000px;
+	left: 0;
+}
+
+.VisualizerControl
+{
+	background-color: rgb(var(--settings-subsection-background-rgb));
+	border-radius: var(--settings-control-inner-border-radius);
+}
+
+.VisualizerControl .MenuSVG
+{
+	top: 0;
+	position: absolute;
+}
+
+
+.DeviceTabs
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.SettingsMain .BindingButtonRow .ButtonControl.WithIcon > span
+{
+	text-align: left;
+	margin-left: 0;
+}
+
+.SettingsMain .TrackerPath
+{
+	font-size: 0.9rem;
+	font-weight: normal;
+	color: var(--text-color);
+	display: inline;
+}

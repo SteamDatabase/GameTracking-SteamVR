@@ -1,0 +1,179 @@
+.BindingListSectionHeader
+{
+    font-size: 1.4em;
+    color:var(--descriptiontext);
+	padding-bottom: 0.2rem;
+}
+
+.BindingUITopSection
+{
+	padding-top: var(--pagecontenttoppadding);
+	margin-bottom: 1rem;
+	min-height: 9.5rem;
+}
+
+.ActionTabContainer
+{
+	padding-top: var(--pagecontenttoppadding);
+}
+
+.BindingName
+{
+    font-size: 1.4em;
+    color:lightgray;
+
+	word-wrap: break-word;
+	max-width: 40rem;
+}
+
+.BindingDescription
+{
+    font-size: 1em;
+    color:lightgray;
+	padding-top: 0.5rem;
+	margin-right: 5rem;
+	min-height: 2.5rem;
+}
+
+.VROverlay .BindingDescription
+{
+	margin-right: 7rem;
+}
+
+.CurrentSection
+{
+	margin: 0 2rem;
+}
+
+.CurrentSection .BindingDescription
+{
+	min-height: 1rem;
+	padding-top: 0;
+}
+
+.CurrentSection, .ControllerTypeWrapper
+{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+
+.BindingLastUpdated
+{
+	margin-top: auto;
+    font-size: 0.8em;
+	color:lightgray;
+}
+
+.BindingEntry
+{
+	position: relative;
+
+	border: 1px solid var(--bindinglistdetailsborder);
+	background: var(--bindinglistdetailsbackground);
+	padding: 0.5rem;
+	margin: 0.5rem;
+	width: 40vw;
+}
+
+.ControllerTypeWrapper .BindingEntry
+{
+	background: var(--controllertypebackground);
+	width: 20vw;
+	flex: 1;
+}
+
+.BindingEntry .AppImage
+{
+	height: 92px;
+	margin-right: 1rem;
+}
+
+.BindingListSection
+{
+	margin: 0 1rem;
+	padding: 0.5rem;
+}
+
+
+.BindingDetails
+{
+	margin-right: auto;
+	width: 100%;
+}
+
+.BindingEntryActionButtons
+{
+	position: absolute;
+	bottom: 0;
+	width: calc( 100% - 0.7rem);
+}
+
+.BindingListEntryButton
+{
+	align-self: flex-end;
+	margin: 0.2rem 0;
+	margin-left: auto;
+}
+
+.DeleteButton
+{
+    height: 1.7rem;
+}
+
+.SteamCommunityProfileImage
+{
+	height: 92px;
+	width: 92px;
+	object-fit: contain;
+	margin-right: 1rem;
+}
+
+.BindingSteamPersonaName
+{
+	font-size: 0.8em;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.ControllerTypeButton
+{
+	margin: 0.5rem;
+	margin-left: auto;
+	align-items: center;
+}
+
+.ControllerTypeButton img
+{
+	margin: 0;
+	margin-right: auto;
+	background: var(--controllertypebackground);
+	z-index: 0;
+	height: 92px;
+	width: 92px;
+}
+
+.AppBindingSection
+{
+	position: relative;
+	overflow-y: auto;
+	padding: 0 1rem;
+	max-height: calc( 100% - 20rem);
+}
+
+.ConvertWarning
+{
+	color: var(--descriptiontext);
+}
+
+.BindingSelectButton
+{
+	float: right;
+	margin: 0.1rem;
+}
+
+
+.ButtonControl + .ButtonControl
+{
+	margin-left: initial;
+}

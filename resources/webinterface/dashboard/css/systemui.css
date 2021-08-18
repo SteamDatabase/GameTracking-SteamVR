@@ -1,0 +1,2688 @@
+:root {
+	--text-color: #DEE2E5;
+	--disabledtext: rgb(144, 147, 150);
+
+	--ipddescriptiontext: #ffffff80;
+	--ipdvaluetext: rgb(220, 220, 220);
+}
+
+/* Panel apperance */
+
+.panel {
+	background: #000000ee;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.panel h1 {
+	font-size: 42px;
+}
+
+.panel h1:first-child {
+	margin-top: 0;
+}
+
+.Label.ButtonControl {
+	display: inline-block;
+}
+
+/* Button control */
+
+.ButtonControl
+{
+	border-radius: var(--settings-control-inner-border-radius);
+	background-color: var(--settings-control-activated-background);
+	font-weight: var(--settings-font-weight);
+	font-size: var(--settings-font-size);
+	padding: var(--settings-control-button-min-padding-v) var(--settings-control-button-min-padding-h);
+	box-sizing: border-box;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	border: none;
+
+	transition: background-color var(--settings-control-hover-fade-duration),
+	            box-shadow var(--settings-control-hover-fade-duration);
+}
+
+.ButtonControl:not(.Disabled):hover
+{
+	background-color: var(--settings-control-hover-background);
+	box-shadow: var(--settings-control-box-hover-shadow);
+}
+
+.ButtonControl:not(.Disabled):active
+{
+	background-color: var(--settings-control-active-background);
+	box-shadow: var(--settings-control-box-active-shadow);
+}
+
+/* Activity Spinner */
+
+.ActivitySpinner {
+	--activity-spinner-size: 80px;
+	--activity-spinner-animation-period: 1.15s;
+	width: calc( var(--activity-spinner-size) * 0.7 );
+	height: var(--activity-spinner-size);
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+@keyframes AnimationSpinnerBarPulse {
+  0%   { transform: scaleY( 0.5 ); opacity: 0; }
+  10%  {                           opacity: 1; }
+  25%  { transform: scaleY( 1.0 ); opacity: 1; }
+  50%  { transform: scaleY( 0.5 ); opacity: 1; }
+  70%  { transform: scaleY( 0.5 ); opacity: 1; }
+  90%  { transform: scaleY( 0.5 ); opacity: 0; }
+}
+
+.ActivitySpinner .Bar {
+	height: 100%;
+	width: 25%;
+	margin: auto;
+	opacity: 0;
+	animation: AnimationSpinnerBarPulse var(--activity-spinner-animation-period) infinite linear;
+	background: white;
+}
+
+.ActivitySpinner .Bar:first-child {
+	animation-delay: calc( -1s * var(--activity-spinner-animation-period));
+	margin-left: 0;
+}
+
+.ActivitySpinner .Bar:nth-child(2) {
+	animation-delay: 0.2s;
+}
+
+.ActivitySpinner .Bar:last-child {
+	animation-delay: calc( -1s * var(--activity-spinner-animation-period));
+	margin-right: 0;
+}
+
+/* Dashboard */
+
+.BackgroundFade {
+	--size: 50px;
+	width: var(--size);
+	height: var(--size);
+	background: var(--dashboard-background-fade-color);
+	transition: opacity 0.5s;
+}
+
+.BackgroundFade.Suppressed {
+	opacity: 0;
+}
+
+.DashboardPanel {
+	width: calc(1920px / 2);
+	height: calc(1080px / 2);
+	display: flex;
+	flex-direction: column;
+	border-radius: var(--settings-border-radius);
+}
+
+.ControlBarSlider {
+	--slider-handle-width: 0px;
+	--value: 0.5;
+	--dashboard-control-bar-component-padding: 0;
+	width: var(--dashboard-control-bar-volume-slider-width);
+	height: 100%;
+	display: flex;
+}
+
+.ControlBarSlider .SliderBody {
+	margin: auto;
+	height: 55px;
+	width: 100%;
+	overflow: hidden;
+	background: #2f3540;
+	border-radius: 9001px;
+}
+
+.ControlBarSlider .SliderFill {
+	width: calc(100% - var(--slider-handle-width));
+	height: 100%;
+	background: linear-gradient(to right, var(--settings-side-nav-gradient-b) 0%, var(--settings-side-nav-gradient-a) 100%);
+	border-right: solid var(--slider-handle-width) white;
+	width: calc(100% * var(--value));
+	background-size: calc(100% / var(--value));
+}
+
+.ControlBar .MutedLabel {
+	--left-padding: 20px;
+	--dashboard-control-bar-component-padding: 0;
+	color: white;
+	font-family: var(--text-font);
+	font-size: 1.7em;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: var(--dashboard-control-bar-volume-slider-width);
+	opacity: 0.8;
+}
+
+.VolumePopup
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Dev Panel */
+
+.panel.DevPanel {
+	width: 30em;
+	display: flex;
+	flex-direction: column;
+	background-image: var(--background-image);
+	background-size: 100% 100%;
+	border-radius: 10px;
+}
+
+.panel.DevPanel h1 {
+	margin-left: 10px;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	margin: 0.5rem auto;
+}
+
+/* Room Setup */
+
+.RoomSetupControls {
+	width: 100%;
+}
+
+.RoomSetupText
+{
+	padding-bottom: 0.2em;
+	font-size: 1.25rem;
+}
+
+.RoomSetupControls .Label.ButtonControl {
+	font-size: 1.5rem;
+}
+
+.HeightSlider input[type=range] {
+	-webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+	width: 100%; /* Specific width is required for Firefox. */
+	background: transparent; /* Otherwise white in Chrome */
+	margin: 1.5rem 0;
+  }
+
+  .HeightSlider input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 1.5rem;
+	height: 3rem;
+	margin-top: -1.35rem;
+	box-shadow: 0.05rem 0.05rem 0.05rem #000;
+	border-radius: 0.05rem;
+	background-color: var( --selectedtext );
+	transition-property: background;
+	transition-timing-function: ease-out;
+	transition-duration: var(--button-fade-time);
+
+}
+
+.HeightSlider input[type="range"]::-webkit-slider-thumb:hover {
+	background-color: var( --descriptiontext );
+}
+
+.HeightSlider input[type=range]:focus {
+	outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+.HeightSlider input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	cursor: pointer;
+
+	/* Hides the slider so custom styles can be added */
+	background: transparent;
+	border-color: transparent;
+	color: transparent;
+
+	height: 0.25rem;
+	border-radius: 0.05rem;
+	background-color: var(--poseactionlistentry);
+}
+
+.BindingCalloutColumn
+{
+	width: fit-content;
+}
+
+.BindingCalloutContainer
+{
+	margin-top: .25rem;
+	margin-bottom: .25rem;
+}
+
+.BindingCalloutActionList
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 1em;
+}
+
+.BindingCallout
+{
+	border-radius: 5px;
+	border: 2px solid #444444;
+	height: fit-content;
+	padding: 0.5rem;
+	background-color: #111111;
+	transition: border 0.3s;
+	position: relative;
+}
+
+.BindingCallout .Label
+{
+	font-size: 1.25rem;
+	justify-content: center;
+}
+
+.BindingCalloutContents
+{
+	display: flex;
+}
+
+.BindingCalloutIcon
+{
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-top: 0.5rem;
+}
+
+.BindingCalloutModifierIcon
+{
+	height: 2.5rem;
+	margin-top: 0.5rem;
+}
+
+div.BindingCalloutIcon
+{
+	border: none;
+}
+
+div.BindingCalloutModifierIcon
+{
+	border: none;
+}
+
+.DeviceCalloutList,
+.CalloutTopLevelContainer
+{
+	display:flex;
+	flex-direction: row;
+}
+
+.DeviceCalloutListEntry
+.CalloutActionSetDialogContainer
+{
+	display: flex;
+}
+
+.CalloutAnchorPoint
+{
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+}
+
+.AlignCalloutLeft .CalloutAnchorPoint
+{
+	left: 0;
+	right: 0;
+}
+
+.AlignCalloutRight .CalloutAnchorPoint
+{
+	left: 100%;
+	right: 100%;
+}
+
+
+.BindingCalloutLabelContainer
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 0.75rem;
+}
+
+.BindingCalloutLabelContainer .Label
+{
+	transition: margin .3s;
+	margin-top: 1rem;
+}
+
+.CalloutInputActive .BindingCalloutLabelContainer .Label
+{
+	margin-top: 0.5rem;
+}
+
+.BindingCalloutModeSlot
+{
+	font-size: 1rem;
+	font-weight: normal;
+	color: var(--text-color);
+	display: inline;
+	color: #ffffffaa;
+
+	transition: margin-bottom .3s, opacity .2s;
+	opacity: 0;
+
+}
+
+.CalloutInputActive .BindingCalloutModeSlot
+{
+	margin-bottom: 0.5rem;
+	opacity: 1;
+}
+
+.ChordCalloutContainer
+{
+	border-radius: 5px;
+	border: 2px solid #444444;
+	height: fit-content;
+	padding: 0.75rem 0.5rem 0rem 0.5rem;
+	background-color: #111111;
+	transition: padding .3s;
+	position: relative;
+}
+
+.CalloutInputActive.ChordCalloutContainer
+{
+	padding-top: 0rem;
+	padding-bottom: 0.75rem;
+}
+
+.ChordCalloutHeader
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.ChordCalloutPlus
+{
+	font-size: 2.5rem;
+	color: white;
+	margin-left: .25rem;
+	margin-top: .25rem;
+	margin-bottom: auto;
+}
+
+.ChordCalloutBody
+{
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.ChordCalloutBody .Label
+{
+	font-size: 1.25rem;
+	justify-content: center;
+	display : block;
+}
+
+.ChordCalloutBody .BindingCalloutModeSlot
+{
+	display: block;
+}
+
+.ChordCalloutContainer .BindingCalloutModeSlot,
+.ChordCalloutContainer .Label
+{
+	margin: 0rem 0rem 0rem .25rem;
+}
+
+
+.CalloutInputActive
+{
+	background-color: #0c1e31;
+}
+
+.BindingCalloutImage
+{
+	width: 25rem;
+	height: 12rem;
+	border-radius: 20px;
+	pointer-events: none;
+}
+
+.BindingCalloutTitle
+{
+	margin-top: 10px;
+	font-size: 1.75rem;
+	flex-wrap: wrap;
+	color: white;
+}
+
+.BindingCalloutConfigName
+{
+	font-size: 1.25rem;
+	color: #ffffffaa;
+	flex-wrap: wrap;
+	margin-bottom: 0.75rem;
+}
+
+.BindingCalloutActionPanel
+{
+	--settings-control-inner-border-radius: 0.7rem;
+
+	display: flex;
+	flex-direction: column;
+	width: 25rem;
+	padding: 1.5rem;
+	background-image: var(--background-image);
+	background-size: 100% 100%;
+	border-radius: 35px;
+}
+
+.BindingCalloutActionList .ButtonControl
+{
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0.75rem;
+	font-size: 1.25rem;
+	text-align: left;
+}
+
+.BindingCalloutActionList .ButtonControl.CloseButton
+{
+	margin-top: 30px;
+	padding: 0.75rem;
+	font-size: 1.25rem;
+}
+
+.BindingCalloutActionList .ButtonControl.CloseButton:not(:hover)
+{
+	background-color: #1a212c;
+}
+
+.BindingCalloutActionList .ButtonControl.ActionSetSelected:not(:hover)
+{
+	background: var(--settings-control-hover-background);
+}
+
+.FlipImageHorizontal
+{
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.TransitionAppImage {
+	width: calc( 460px * 1.2);
+	height: calc( 215px * 1.2);
+	background-color: black;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	border-radius: 10px;
+	border: solid 4px rgba(0, 0, 0, 1);
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+
+@keyframes TransitionFadingInKeyframes {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.TransitionAppImage.FadingIn,
+.TransitionAppLabels.FadingIn,
+.TransitionAppSpinner.FadingIn
+{
+	animation: TransitionFadingInKeyframes;
+	animation-iteration-count: 1;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes TransitionFadingOutKeyframes {
+	0% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+.TransitionAppImage.FadingOut,
+.TransitionAppLabels.FadingOut,
+.TransitionAppSpinner.FadingOut
+{
+	animation: TransitionFadingOutKeyframes;
+	animation-iteration-count: 1;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+.TransitionAppImage.Waiting::after
+{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: black;
+	opacity: 0.3;
+}
+
+.TransitionAppLabels {
+	background: rgba(20, 20, 20, 0.97);
+	text-align: center;
+	color: rgb(200,200,200);
+	font-weight: bold;
+	font-size: 27px;
+	margin-top: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	position: relative;
+	padding: 15px 35px;
+	width: 400px;
+	border-radius: 10px;
+	border: solid 4px black;
+}
+
+.TransitionAppLabels .AppStatus
+{
+	font-size: 22px;
+}
+
+.IPDParent
+{
+	visibility: visible;
+	border-radius: 25px;
+    background: rgba(20, 20, 20, 0.97);
+	padding: 3px;
+}
+
+.IPDParent.Fading
+{
+	opacity: 0;
+	transition: opacity 1.0s;
+}
+
+.IPDSettingTextDesc
+{
+	font-size: 20px;
+	color: var(--ipddescriptiontext);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.IPDNumberRow
+{
+	position: relative;
+	margin: 0px auto;
+	margin-bottom: 0px;
+	flex-direction: row;
+}
+
+.IPDNumberText
+{
+	font-size: 59px;
+	font-variant-numeric: tabular-nums;
+	color: var(--ipdvaluetext);
+	display: inline-block;
+}
+
+.IPDLabelText
+{
+	font-size: 35px;
+	color: var(--ipdvaluetext);
+	display: inline-block;
+	margin-left: 2px;
+}
+
+.IPDLensRow
+{
+	position: relative;
+	margin: 15px auto;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+}
+
+.IPDLens
+{
+	display: inline-block;
+	height: 50px;
+}
+
+.IPDLens svg
+{
+	width: 240px;
+	height: 50px;
+}
+
+.IPDLensSpacer
+{
+	height: 1px;
+	min-width: 0px;
+	display: inline-block;
+}
+
+.WakingBaseStationsPanel
+{
+	--waking-width: 1000px;
+	width: var(--waking-width);
+	height: 524px;
+	overflow: clip;
+	position: relative;
+}
+
+.WakingBaseStationsPanel:not(.Loaded)
+{
+	opacity: 0;
+}
+
+@keyframes RainbowRotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+.WakingBaseStationsPanel .Rainbow
+{
+	--rainbow-size: calc(var(--waking-width) * 2);
+	width: var(--rainbow-size);
+	height: var(--rainbow-size);
+    -webkit-animation: RainbowRotation 4s infinite linear;
+	position: absolute;
+	left: calc(var(--rainbow-size) * -0.40);
+	top: calc(var(--rainbow-size) * -0.39);
+}
+
+.WakingBaseStationsPanel .Ground
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	top: 50%;
+	background: linear-gradient(to bottom, rgba(35,31,32,1) 0%,rgb(67, 76, 85) 100%);
+}
+
+.WakingBaseStationsPanel .Base
+{
+	position: absolute;
+	left: 8%;
+	top: 20%;
+	height: 58%;
+}
+
+.WakingBaseStationsPanel h1
+{
+	--message-size: 62%;
+	position: absolute;
+	top: 50%;
+	left: calc( 100% - var(--message-size));
+	width: var(--message-size);
+	color: white;
+	font-size: 42px;
+	font-family: var(--text-font);
+	font-weight: normal;
+}
+
+.PowerMenuContainer {
+	background-color: transparent;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.PowerMenuPanel {
+	--power-menu-panel-border-radius: 20px;
+	--power-menu-panel-hilite-margin: 0px;
+	border-radius: var( --power-menu-panel-border-radius );
+	background: var(--settings-control-background);
+	border: solid 2px hsla(214, 81%, 92%, 0.25);
+}
+
+.PowerMenuPanel .PowerMenuButton {
+	--inner-padding: 20px;
+
+	font-size: 0.6rem;
+	font-weight: normal;
+	color: rgb(255,255,255);
+	padding: .25rem 0.5rem .25rem 0.5rem;
+	align-self : center;
+	cursor: pointer;
+	text-align: left;
+	--button-border-radius: 3px;
+	--button-hover-animation-time: 0.2s;
+	border-radius: var(--button-border-radius);
+	font-size: 1rem;
+	width: 14rem;
+	border: none;
+	position: relative;
+	padding: var(--inner-padding);
+	display: flex;
+	flex-direction: row;
+}
+
+.PowerMenuPanel .PowerMenuButton > .LineBelow {
+	height: 1px;
+	background: rgba(255,255,255,0.1);
+	position: absolute;
+	bottom: 0;
+	left: var(--inner-padding);
+	right: var(--inner-padding);
+	transition: opacity var(--button-hover-animation-time);
+}
+
+.PowerMenuPanel .PowerMenuButton:hover > .LineBelow,
+.PowerMenuPanel .PowerMenuButton:active > .LineBelow {
+	opacity: 0;
+}
+
+.PowerMenuPanel .PowerMenuButton > img {
+	height: 1.1em;
+	margin-left: 0.2em;
+	margin-right: 0.5em;
+}
+
+.PowerMenuPanel .PowerMenuButton > span {
+	position: relative; /* put text on top of gradient */
+	display: block;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.PowerMenuPanel .PowerMenuButton > img,
+.PowerMenuPanel .PowerMenuButton > span {
+	transition: transform var(--button-hover-animation-time);
+}
+
+.PowerMenuPanel .PowerMenuButton:hover > span,
+.PowerMenuPanel .PowerMenuButton:active > span,
+.PowerMenuPanel .PowerMenuButton:hover > img,
+.PowerMenuPanel .PowerMenuButton:active > img {
+	transform: translateX(10px);
+}
+
+.PowerMenuPanel .PowerMenuButton:hover > img,
+.PowerMenuPanel .PowerMenuButton:active > img {
+	transform: translateX(5px);
+}
+
+.PowerMenuPanel .PowerMenuButton .ClickGradient,
+.PowerMenuPanel .PowerMenuButton .HoverGradient {
+	margin-left: var(--power-menu-panel-hilite-margin);
+	margin-right: var(--power-menu-panel-hilite-margin);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	z-index: 0;
+	transition: opacity var(--button-hover-animation-time);
+}
+
+.PowerMenuPanel .PowerMenuButton:first-child .ClickGradient,
+.PowerMenuPanel .PowerMenuButton:first-child .HoverGradient
+{
+	border-top-left-radius: calc(var( --power-menu-panel-border-radius ) - 3px);
+	border-top-right-radius: calc(var( --power-menu-panel-border-radius ) - 3px);
+	margin-top:var(--power-menu-panel-hilite-margin);
+}
+
+.PowerMenuPanel .PowerMenuButton:last-child .ClickGradient,
+.PowerMenuPanel .PowerMenuButton:last-child .HoverGradient
+{
+	border-bottom-left-radius: calc(var( --power-menu-panel-border-radius ) - 3px);
+	border-bottom-right-radius: calc(var( --power-menu-panel-border-radius ) - 3px);
+	margin-bottom:var(--power-menu-panel-hilite-margin);
+}
+
+.PowerMenuPanel .PowerMenuButton .HoverGradient {
+	background: var(--settings-control-hover-background);
+}
+
+.PowerMenuPanel .PowerMenuButton .ClickGradient {
+	background: var(--settings-control-active-background);
+}
+
+.PowerMenuPanel .PowerMenuButton:hover:not(:active) .HoverGradient {
+	opacity: 1;
+}
+
+.PowerMenuPanel .PowerMenuButton:active .ClickGradient {
+	opacity: 1;
+}
+
+.MessageOverlayContainer {
+	background-color: transparent;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	max-width: 1024px;
+	max-height: 600px;
+}
+
+.MessageOverlayPanel {
+	flex-direction: column;
+	background-image: var(--background-image);
+	background-size: 100% 100%;
+	border-radius: 15px;
+	padding: 0.85rem;
+	max-height: 500px;
+}
+
+.MessageOverlayTextPanel {
+	background: transparent;
+	color: white;
+	border-radius: 7px;
+	font-size: 0.5rem;
+	padding: 0.85rem;
+	flex-grow: 1;
+	max-height: 440px;
+	overflow-y: auto;
+}
+
+.MessageOverlayTextPanel h1 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.MessageOverlayTextPanel p {
+	font-size: 1rem;
+}
+
+.MessageOverlayButtonContainer {
+	background-color: transparent;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-shrink: 0;
+}
+
+.MessageOverlayPanel .ButtonControl {
+	font-size: 0.75rem;
+	align-self: stretch;
+	position: relative;
+}
+
+.MessageOverlayPanel .ButtonControl > span {
+	word-break: break-word;
+}
+
+.KeyboardBackground
+{
+	background-color: grey;
+}
+
+@keyframes DashboardHomePanelFadeInAnimation
+{
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+.DashboardMain
+{
+	--dashboard-home-fade-in-duration: 0.2s;
+
+	--dashboard-control-bar-width: 1800px;
+	--dashboard-control-bar-height: 180px;
+}
+
+.DashboardMain img
+{
+	pointer-events: none;
+}
+
+.DashboardMain .DashboardPanel
+{
+	width: var(--dashboard-primary-width);
+	height: calc( var(--dashboard-primary-width) / var(--dashboard-primary-aspect-ratio) );
+	font-family: var(--text-font);
+	color: var(--text-color);
+	box-sizing: border-box;
+	padding: var(--dashboard-panel-padding);
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+
+	/* animation: DashboardHomePanelFadeInAnimation var(--dashboard-home-fade-in-duration) ease-out; */
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-delay: calc( 0.5 * var(--dashboard-home-fade-in-duration));
+}
+
+.DashboardMain .DashboardPanel.QuickStore
+{
+	overflow-y: scroll;
+	padding-top: 2em;
+}
+
+.DashboardMain .DashboardPanel.QuickLaunch
+{
+	padding-top: 48px;  /* why are we overriding this? */
+}
+
+.DashboardMain .DashboardPanel.QuickLaunch .AppCarousel.TopRow
+{
+	align-self: center;
+	padding-top: 0.5rem;
+	--dashboard-app-carousel-button-height: 420px;
+	--dashboard-app-carousel-button-width: calc( var(--dashboard-app-carousel-button-height) / var(--dashboard-app-carousel-button-aspect-ratio) );
+	--dashboard-app-carousel-spacing: 100px;
+}
+
+.DashboardMain .DashboardPanel.QuickLaunch .AppCarousel.BottomRow
+{
+	align-self: center;
+	padding-top: 0.5rem;
+	max-width: var(--dashboard-primary-width);
+	--dashboard-app-carousel-button-height: 210px;
+	--dashboard-app-carousel-button-width: calc( var(--dashboard-app-carousel-button-height) / var(--dashboard-app-carousel-button-aspect-ratio) );
+	--dashboard-app-carousel-spacing: 50px;
+}
+
+
+.DashboardMain .DashboardPanel > *
+{
+	flex-shrink: 0;
+}
+
+.DashboardMain .DashboardPanel h1,
+.DashboardMain .DashboardPanel h2
+{
+	margin: 0;
+}
+
+.DashboardMain .DashboardPanel .DashboardTabLabel
+{
+	font-size: 27px;
+}
+
+.DashboardMain .DashboardPanel .DashboardTabCircle
+{
+	margin-top: 0;
+}
+
+.DashboardMain .DashboardPanel .DashboardTabCircle::after
+{
+	content: none;
+}
+
+.DashboardMain .DashboardTabButton:hover .DashboardTabLabel > div,
+.DashboardMain .DashboardTabButton.Active .DashboardTabLabel > div
+{
+    transform: none;
+}
+
+.DashboardMain .DashboardPanelBackground
+{
+	--background-resolution-scale: 0.5;
+	width: calc( var(--background-resolution-scale) * var(--dashboard-primary-width) );
+	height: calc( var(--background-resolution-scale) * var(--dashboard-primary-width) / var(--dashboard-primary-aspect-ratio) );
+	background-size: stretch;
+	border-radius: calc( var(--background-resolution-scale) * var(--settings-border-radius) );
+	box-sizing: content-box;
+
+	/* animation: DashboardHomePanelFadeInAnimation var(--dashboard-home-fade-in-duration) ease-out; */
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+
+	background:
+		radial-gradient(ellipse at top center, rgba(255, 255, 255, 0.05) 10%,rgba(255, 255, 255, 0) 80%),
+		linear-gradient(to bottom, black 0%, rgba(0,0,0,0.1) 0%),
+		radial-gradient(ellipse at top left, #42454c, #25282e);
+}
+
+.DashboardMain .DashboardPanel .DashboardTabList
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.DashboardMain .ControlBarBackground {
+	width: 736px;
+	height: 80px;
+	background-image: var(--background-image);
+	background-size: cover;
+	background-position: top center;
+	margin: 2px;
+	border-radius: 7px;
+}
+
+.DashboardMain .ControlBarSpacing {
+	flex-grow: 1;
+}
+
+.DashboardMain .ControlBarBackground
+{
+	--background-resolution-scale: 0.5;
+	width: calc( var(--background-resolution-scale) * var(--dashboard-control-bar-width) );
+	height: calc( var(--background-resolution-scale) * var(--dashboard-control-bar-height) );
+	background-size: cover;
+	background-position: top center;
+	border-radius: calc( var(--background-resolution-scale) * var(--settings-border-radius) );
+	background:
+		radial-gradient(ellipse at top center, rgba(255, 255, 255, 0.08) 10%, rgba(255, 255, 255, 0) 80%),
+		linear-gradient(to bottom, black 0%, rgba(0,0,0,0.1) 0%),
+		radial-gradient(ellipse at top left, #42454c, #25282e);
+}
+
+.DashboardMain .PaginatedCarousel
+{
+	--paginated-carousel-button-size: 4rem;
+
+	position: relative;
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	pointer-events: none;
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer
+{
+	margin: auto;
+	width: calc( var(--paginated-carousel-button-size) * 0.8 );
+	height: var(--paginated-carousel-button-size);
+	pointer-events: all;
+	border-radius: 9001px;
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer .ButtonControl
+{
+	pointer-events: all;
+	margin: auto;
+	height: var(--paginated-carousel-button-size);
+	padding: 0 calc(var(--paginated-carousel-button-size) * 0.20);
+	font-size: calc(var(--paginated-carousel-button-size) * 0.8);
+	line-height: calc(var(--paginated-carousel-button-size) * 0.8);
+	box-shadow: 0 4px 17px 4px #000000a6;
+
+	/* TODO: Figure out a performant way to animate this. */
+	transition: transform var(--control-switch-animation-time) var(--control-switch-overshoot-ease);
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer.Disabled
+{
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer.Disabled .ButtonControl
+{
+	transform: scale(0.5);
+	pointer-events: none;
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer:not(.Disabled) .ButtonControl:hover
+{
+	transform: scale(1.1);
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer:not(.Disabled) .ButtonControl:active
+{
+	transform: scale(0.9);
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer.Left
+{
+	margin-left: calc( -0.5 * var(--dashboard-panel-padding) );
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer.Left .ButtonControl
+{
+	border-top-right-radius: 9001px;
+	border-bottom-right-radius: 9001px;
+	text-align: right;
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer.Right
+{
+	margin-right: calc( -0.5 * var(--dashboard-panel-padding) );
+}
+
+.DashboardMain .PaginatedCarousel .PaginationButtons .ButtonContainer.Right .ButtonControl
+{
+	border-top-left-radius: 9001px;
+	border-bottom-left-radius: 9001px;
+	text-align: left;
+}
+
+.DashboardMain .DashboardPanel .AppCarousel
+{
+	--side-margin: 35px;
+
+	margin-left: calc( -1 * var(--dashboard-panel-padding) );
+	margin-right: calc( -1 * var(--dashboard-panel-padding) );
+	height: fit-content;
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .ScrollPanel
+{
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .ScrollPanel::before,
+.DashboardMain .DashboardPanel .AppCarousel .ScrollPanel::after
+{
+	content: '';
+	flex-shrink: 0;
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .ScrollPanel::before
+{
+	width: var(--dashboard-panel-padding);
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .ScrollPanel::after
+{
+	width: calc( var(--dashboard-panel-padding) - var(--dashboard-app-carousel-spacing) );
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .ScrollPanel::-webkit-scrollbar,
+.DashboardMain .DashboardPanel::-webkit-scrollbar
+{
+	display: none;
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButtonContainer
+{
+	flex-shrink: 0;
+	flex-grow: 0;
+	perspective: var(--dashboard-app-carousel-button-width);
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButtonContainer .AppButton
+{
+	width: var(--dashboard-app-carousel-button-width);
+	height: var(--dashboard-app-carousel-button-height);
+	box-sizing: border-box;
+	border-radius: calc( var(--settings-control-inner-border-radius) / 3 );
+	overflow: hidden;
+	filter: brightness(100%);
+	background-color: rgba(
+		var(--settings-subsection-background-rgb),
+		calc( 0.5 * var(--settings-subsection-background-a) )
+	);
+	box-shadow: 0 7px 20px 2px black;
+
+	margin-right: var(--dashboard-app-carousel-spacing);
+	margin-top: 25px;
+	margin-bottom: 50px;
+
+	/* TODO: Figure out a performant way to animate this. */
+	transition: all var(--control-bar-button-transition-time) var(--control-bar-button-transition-ease);
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButtonContainer .AppButton:hover,
+.DashboardMain .DashboardPanel .AppCarousel .AppButtonContainer.ShowingPopovers .AppButton
+{
+	transform: translateZ(9px) rotateX(1.5deg);
+	filter: brightness(105%);
+	box-shadow: 0 7px 40px 7px black;
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButtonContainer .AppButton:active
+{
+	transform: translateZ(-2px);
+	filter: brightness(95%);
+	box-shadow: 0 7px 12px 0px black;
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButton.Placeholder
+{
+	--placeholder-button-max-opacity: calc( 0.5 * var(--settings-subsection-background-a) / 4 * 4 );
+
+	pointer-events: none;
+	background: rgb(var(--settings-subsection-background-rgb));
+	opacity: var(--placeholder-button-max-opacity);
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButton.Placeholder:nth-child(2)
+{
+	--placeholder-button-max-opacity: calc( 0.5 * var(--settings-subsection-background-a) / 4 * 3 );
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButton.Placeholder:nth-child(3)
+{
+	--placeholder-button-max-opacity: calc( 0.5 * var(--settings-subsection-background-a) / 4 * 2 );
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButton.Placeholder:nth-child(4)
+{
+	--placeholder-button-max-opacity: calc( 0.5 * var(--settings-subsection-background-a) / 4 * 1 );
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButton .PlayIcon
+{
+	margin: auto;
+	width: 3rem;
+	z-index: 11;
+	filter: invert(100%) sepia(40%) saturate(2%) hue-rotate(196deg) brightness(105%) contrast(101%);
+	opacity: 0;
+	transform: scale(0.5);
+	transition: all calc(var(--control-bar-button-transition-time) * 2) var(--control-switch-overshoot-ease);
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButton .PlayIconFade
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.35);
+	opacity: 0;
+	z-index: 10;
+	transition: opacity var(--control-bar-button-transition-time) var(--control-bar-button-transition-ease);
+}
+
+.DashboardMain .DashboardPanel .AppCarousel .AppButton:hover .PlayIcon,
+.DashboardMain .DashboardPanel .AppCarousel .AppButton:hover .PlayIconFade
+{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.PortraitAppImageContainer
+{
+	display: flex;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.PortraitAppImageContainer .OverlaidContents
+{
+	z-index: 20;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.PortraitAppImageContainer .OverlaidContents svg,
+.PortraitAppImageContainer .OverlaidContents img
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.QuickLaunchPlayIconContainer
+{
+	--color: #01a75b;
+	--size: 300px;
+
+	width: var(--size);
+	height: var(--size);
+	display: flex;
+}
+
+.QuickLaunchPlayIcon
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 4%;
+	right: 5%;
+	z-index: 1;
+	margin: auto;
+	width: 35%;
+	height: 35%;
+	fill: var(--color);
+
+	background: url('/dashboard/images/icons/quicklaunch_play.png');
+	background-size: contain;
+}
+
+.QuickLaunchPlayIconBackground
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 2%;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	fill: var(--color);
+	fill: black;
+}
+
+.ShowHideAnimation .QuickLaunchPlayIcon,
+.ShowHideAnimation .QuickLaunchPlayIconBackground
+{
+	animation-duration: var(--show-hide-duration);
+	animation-fill-mode: both;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+}
+
+.ShowHideAnimation .QuickLaunchPlayIconBackground
+{
+	animation-timing-function: ease-out;
+}
+
+@keyframes QuickLaunchPlayIconBackground-Showing
+{
+	0% {
+		opacity: 0;
+		transform: scale(1.0)
+	}
+	40%, 100% {
+		opacity: 0.1;
+		transform: scale(0.6)
+	}
+}
+
+@keyframes QuickLaunchPlayIconBackground-Hiding
+{
+	0% {
+		opacity: 0.1;
+		transform: scale(0.6)
+	}
+	50%, 100% {
+		opacity: 0;
+		transform: scale(0);
+	}
+}
+
+.ShowHideAnimation.Showing .QuickLaunchPlayIconBackground,
+.ShowHideAnimation.Shown .QuickLaunchPlayIconBackground
+{
+	animation-name: QuickLaunchPlayIconBackground-Showing;
+}
+
+.ShowHideAnimation.Hiding .QuickLaunchPlayIconBackground
+{
+	animation-name: QuickLaunchPlayIconBackground-Hiding;
+}
+
+@keyframes QuickLaunchPlayIcon-Showing
+{
+	0% {
+		opacity: 0;
+		filter: brightness(60%);
+		transform: scale(0.1)
+	}
+	50% {
+		opacity: 1;
+		filter: brightness(110%);
+		transform: scale(1.08)
+	}
+	100% {
+		opacity: 1;
+		filter: brightness(100%);
+		transform: scale(1.0)
+	}
+}
+
+@keyframes QuickLaunchPlayIcon-Hiding
+{
+	50%, 100% {
+		opacity: 0;
+		transform: scale(0);
+	}
+}
+
+.ShowHideAnimation.Showing .QuickLaunchPlayIcon
+{
+	animation-name: QuickLaunchPlayIcon-Showing;
+}
+
+.ShowHideAnimation.Hiding .QuickLaunchPlayIcon
+{
+	animation-name: QuickLaunchPlayIcon-Hiding;
+}
+
+.PortraitAppImageContainer .Icon,
+.PortraitAppImageContainer .IconBackgroundBlur
+{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background-size: contain;
+	background-position: 0% 21.3%;  /* this matches Steam */
+	background-repeat: no-repeat;
+}
+
+.PortraitAppImageContainer .IconBackgroundBlur
+{
+	z-index: 1;
+	filter: blur( 16px );
+	background-position: 50% 30%;
+	background-size: 200% 200%;
+}
+
+.PortraitAppImageContainer .Title
+{
+	display: none;
+}
+
+.PortraitAppImageContainer.Fallback .Title
+{
+	display: block;
+	position: absolute;
+	z-index: 20;
+	top: 20%;
+	max-height: 60%;
+	left: 5%;
+	width: 90%;
+	overflow: hidden;
+	text-align: center;
+	white-space: normal;
+	font-size: 32px;
+}
+
+.DashboardMain .DashboardPanel .HeaderRow
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.DashboardMain .DashboardPanel .HeaderRow:not(:first-child),
+.DashboardMain .DashboardPanel > h1:not(:first-child),
+.DashboardMain .DashboardPanel > h2:not(:first-child)
+{
+	margin-top: 0.6em;
+}
+
+.DashboardMain .DashboardPanel > .HeaderRow,
+.DashboardMain .DashboardPanel > h1,
+.DashboardMain .DashboardPanel > h2
+{
+	margin-top: 0;
+	margin-bottom: 0.25em;
+}
+
+.DashboardMain .DashboardPanel > h1:not(:first-child),
+.DashboardMain .DashboardPanel > h2:not(:first-child)
+{
+	margin-top: 0.6em;
+}
+
+.DashboardMain .DashboardPanel > .HeaderRow > h1,
+.DashboardMain .DashboardPanel > .HeaderRow > h2
+{
+	flex-grow: 1;
+	margin: 0;
+	height: fit-content;
+	align-self: flex-end;
+}
+
+.DashboardMain .DashboardPanel .AppCarousel + .HeaderRow,
+.DashboardMain .DashboardPanel .AppCarousel + h1,
+.DashboardMain .DashboardPanel .AppCarousel + h2
+{
+	margin-top: 1.5em;
+	margin-bottom: 0.35em;
+}
+
+.DashboardMain .DashboardPanel .HeaderRow + .AppCarousel,
+.DashboardMain .DashboardPanel h1 + .AppCarousel,
+.DashboardMain .DashboardPanel h2 + .AppCarousel
+{
+	margin-top: calc( -0.25em - 0.35em );
+}
+
+.DashboardMain .DashboardPanel .HeaderRow > .Controls
+{
+	flex-shrink: 0;
+}
+
+.DashboardMain .DashboardPanel .HeaderRow > .Controls > *
+{
+	margin: 0;
+}
+
+.DashboardMain .DashboardPanel .HeaderRow > .Controls > *:not(:first-child)
+{
+	margin-left: var(--dashboard-control-margin);
+}
+
+.DashboardMain .DashboardPanel .ButtonControl.PanelTopRight + .HeaderRow,
+.DashboardMain .DashboardPanel .ButtonControl.PanelTopRight + h1,
+.DashboardMain .DashboardPanel .ButtonControl.PanelTopRight + h2
+{
+	margin-top: 2em;
+}
+
+.DashboardMain .ControlBar
+{
+	box-sizing: border-box;
+	height: var(--dashboard-control-bar-height);
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.DashboardMain .ControlBar.MainControlBar
+{
+	width: var(--dashboard-control-bar-width);
+	padding: 0 calc(var(--dashboard-control-bar-side-padding) + var(--dashboard-control-bar-component-padding));
+}
+
+.DashboardMain .ControlBar > div {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: var(--dashboard-control-bar-component-padding);
+	padding-right: var(--dashboard-control-bar-component-padding);
+	padding: 0 var(--dashboard-control-bar-control-spacing);
+}
+
+.DashboardMain .ControlBar .Section
+{
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	justify-content: center;
+	margin: auto;
+}
+
+.DashboardMain .ControlBar .Section.Left
+{
+	justify-content: flex-start;
+	margin-right: auto;
+}
+
+.DashboardMain .ControlBar .Section.Left,
+.DashboardMain .ControlBar .Section.Right
+{
+	width: 0; /* Stops them from growing, keeps .Section.Center truly centered... */
+}
+
+.DashboardMain .ControlBar .Section.Right
+{
+	justify-content: flex-end;
+	margin-left: auto;
+}
+
+.DashboardMain .ControlBar .Section > *
+{
+	margin: auto 0;
+	padding: 0;
+}
+
+.DashboardMain .ControlBar .Section.Left > *
+{
+	margin-right: var(--dashboard-control-bar-control-spacing);
+}
+
+.DashboardMain .ControlBar .Section.Center > *:not(:last-child)
+{
+	margin-right: var(--dashboard-control-bar-control-spacing);
+}
+
+.DashboardMain .ControlBar .Section.Right > *
+{
+	margin-left: var(--dashboard-control-bar-control-spacing);
+}
+
+.DashboardMain .ControlBar .ControlBarGroup
+{
+	display: flex;
+	flex-direction: row;
+	padding: 7px;
+	border-radius: 9001px;
+	background: linear-gradient(
+		to bottom,
+		var(--dashboard-control-bar-group-color-a) 0%,
+		var(--dashboard-control-bar-group-color-b) 100%
+	);
+}
+
+.DashboardMain .ControlBar .ControlBarGroup:empty
+{
+	display: none;
+}
+
+.DashboardMain .ControlBar .ControlBarGroup > *:not(:last-child)
+{
+	margin-right: calc( 0.4 * var(--dashboard-control-bar-control-spacing) );
+}
+
+.DashboardMain .ControlBar .ControlBarButton,
+.DashboardMain .ControlBarTray .ButtonControl,
+.DashboardMain .OverlayControlBar .ButtonControl,
+.DashboardMain .ControlBarTray .SliderControl .Handle,
+.DashboardMain .OverlayControlBar .SliderControl .Handle,
+.WindowTray .WindowTrayButton,
+.WindowTray .SliderControl .Handle
+{
+	--base-shadow: inset 0px 1px 1px 0px rgba(149, 149, 149, 0.5), 0px 2px 13px rgba(0, 0, 0, 0.4);
+	--state-shadow: 0 0 0 0 transparent;
+	--outline-shadow: 0 0 0 0 transparent;
+
+	background: linear-gradient(
+		to bottom,
+		var(--dashboard-control-bar-button-color-a) 0%,
+		var(--dashboard-control-bar-button-color-b) 100%
+	);
+	box-shadow:
+		var(--base-shadow),
+		var(--outline-shadow),
+		var(--state-shadow);
+	transition: all 0.1s;
+}
+
+.DashboardMain .ControlBar .ControlBarButton
+{
+	display: flex;
+	flex-direction: row;
+	height: var(--control-bar-button-size);
+	min-width: var(--control-bar-button-size);
+	position: relative;
+	border-radius: 50%;
+	/* optimizations to minimize non-local redraw impact */
+	will-change: transform;
+	/* note: not transitioning transform */
+	transition-property: background, box-shadow, opacity;
+}
+
+.DashboardMain .ControlBar .ControlBarButton:active,
+.DashboardMain .ControlBarTray .ButtonControl:not(.Disabled):active,
+.DashboardMain .OverlayControlBar .ButtonControl:not(.Disabled):active,
+.WindowTray .WindowTrayButton:not(.Disabled):active
+{
+	transform: scale(0.965);
+	--base-shadow: inset 0px 3px 2px rgba(0, 0, 0, 0.6);
+	--state-shadow: 0 0 0 0 transparent;
+}
+
+.DashboardMain .ControlBar .ControlBarButton:hover:not(:active),
+.DashboardMain .ControlBarTray .ButtonControl:not(.Disabled):hover:not(:active),
+.DashboardMain .OverlayControlBar .ButtonControl:not(.Disabled):hover:not(:active),
+.DashboardMain .ControlBarTray .SliderControl:hover:not(:active) .Handle,
+.DashboardMain .OverlayControlBar .SliderControl:hover:not(:active) .Handle,
+.WindowTray .WindowTrayButton:not(.Disabled):hover:not(:active),
+.WindowTray .SliderControl:hover:not(:active) .Handle
+{
+	--state-shadow: 0px 0px 0px 1px #ffffff, 0px 0px 3px 3px #88ccf1, inset 0px 0px 11px 4px #88ccf147;
+}
+
+.DashboardMain .ControlBar .ControlBarButton.Active:not(:active),
+.DashboardMain .ControlBarTray .ButtonControl.Active:not(:active),
+.DashboardMain .OverlayControlBar .ButtonControl.Active:not(:active),
+.WindowTray .WindowTrayButton.Active:not(:active)
+{
+	--outline-shadow: 0px 0px 0px 2px #88ccf1;
+}
+
+.DashboardMain .ControlBar .ControlBarButton:hover:before,
+.DashboardMain .ControlBar .ControlBarButton.Active:before
+{
+	opacity: 1;
+}
+
+.DashboardMain .ControlBar .ControlBarButton.Toggled:not(:active),
+.DashboardMain .ControlBarTray .ButtonControl.Toggled:not(:active),
+.DashboardMain .OverlayControlBar .ButtonControl.Toggled:not(:active)
+{
+	background: linear-gradient(
+		to bottom,
+		var(--dashboard-minitoggle-color-a) 0%,
+		var(--dashboard-minitoggle-color-b) 100%
+	);
+}
+
+.DashboardMain .ControlBar .ControlBarButton:hover:before,
+.DashboardMain .ControlBar .ControlBarButton.Toggled:before
+{
+	opacity: 1;
+}
+
+.WindowTrayButton .Icon,
+.DashboardMain .ControlBar .ControlBarButton > .Icon
+{
+    --size: 55px;
+	width: var(--size);
+	height: var(--size);
+	z-index: 1;
+	pointer-events: none;
+	margin: auto;
+}
+
+.WindowTrayButton .Icon > img,
+.DashboardMain .Icon > img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.DashboardMain .ControlBar .ControlBarButton.FillImage
+{
+	background-image: var(--image-url);
+	background-size: 110%;
+	background-position: center;
+}
+
+.DashboardMain .ControlBar .ControlBarButton.FillImage > img
+{
+	display: none;
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.Small .ControlBarButton
+{
+	--control-bar-button-size: 85px;
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.Small .ControlBarButton.CenterImage > img
+{
+	margin-top: 19px;
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.Small .ControlBarButton.CenterImage > .Icon
+{
+	--size: var(--control-bar-icon-size);
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.Large .ControlBarButton.Store > .Icon
+{
+	margin-right: 25%;
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.Large
+{
+	border-radius: 21px;
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.Large .ControlBarButton
+{
+	border-radius: 16px;
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.App
+{
+	background: none;
+	padding: 0;
+	perspective: 320px;
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.App .ControlBarButton
+{
+	height: var(--dashboard-control-bar-now-playing-height);
+	width: calc(var(--dashboard-control-bar-now-playing-height) * 460 / 215 );
+	border-radius: 16px;
+	background-image: var(--image-url);
+	background-color: var(--dashboard-control-bar-group-color-b);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow:
+		inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
+		0 7px 12px 0px rgba(0, 0, 0, 0.5);
+	margin: 0 16px;
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.App .ControlBarButton:hover
+{
+	transform: translateZ(9px) rotateX(1.5deg);
+	filter: brightness(105%);
+	box-shadow:
+		inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
+		0 7px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.App .ControlBarButton:active
+{
+	transform: translateZ(-10px) rotateX(0deg);
+	filter: brightness(95%);
+	box-shadow:
+		inset 0px 1px 1px 0px rgba(255, 255, 255, 0.8),
+		0 5px 3px 0px rgba(0, 0, 0, 0.7);
+}
+
+.DashboardMain .ControlBar .ControlBarGroup.App .ControlBarButton img
+{
+	display: none;
+}
+
+.DashboardMain .ControlBar .NowPlayingSpacer
+{
+	--height: var(--dashboard-control-bar-now-playing-height);
+	--width: calc( 1.1 * var(--dashboard-control-bar-now-playing-height) * 460 / 215 );
+
+	height: var(--height);
+	width: var(--width);
+	box-sizing: border-box;
+	position: relative;
+}
+
+.DashboardMain .ControlBar .NowPlayingSpacer [vsg-type=panel-anchor]
+{
+	position: absolute;
+	top: calc( var(--height) / 2 );
+	left: calc( var(--width) / 2 );
+}
+
+.DashboardMain .ControlBar .ControlBarButton.Disabled
+{
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.DashboardMain .ControlBarTray
+{
+	padding-top: calc( var(--control-bar-tray-control-margin) * 1.0 );
+	min-height: 3rem;
+	min-width: 3rem;
+	max-width: var(--dashboard-control-bar-width);
+	border-bottom-left-radius: var(--settings-control-inner-border-radius);
+	border-bottom-right-radius: var(--settings-control-inner-border-radius);
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	box-shadow: inset 0px 35px 16px -25px black;
+	overflow: hidden;
+}
+
+.DashboardMain .ControlBarTray.FixedWidth
+{
+	width: 1600px;
+}
+
+.DashboardMain .ControlBarTray::after
+{
+	content: '';
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 0px 56px 33px -25px #000000a6;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.DashboardMain .ControlBarTrayBackground
+{
+	--scale: 0.5;
+	border-bottom-left-radius: calc( var(--scale) * var(--settings-control-inner-border-radius) );
+	border-bottom-right-radius: calc( var(--scale) * var(--settings-control-inner-border-radius) );
+	background: linear-gradient(
+		to bottom,
+		hsla(220, 11%, 11%, 1) 0%,
+		hsla(220, 11%, 14%, 1) 100%
+	);
+}
+
+.DashboardMain .ControlBarTray .Section {
+	display: flex;
+	flex-direction: row;
+}
+
+.DashboardMain .ControlBarTray > *:not(:last-child) {
+	margin-right: var(--control-bar-tray-section-spacing);
+}
+
+.DashboardMain .ControlBarTray .Section > * {
+	margin: var(--control-bar-tray-control-margin);
+}
+
+.DashboardMain .ControlBarTray .Section > *:not(:last-child) {
+	margin-right: 0;
+}
+
+.DashboardMain .ControlBarTray .Section.Grow {
+	flex-grow: 1;
+}
+
+.DashboardMain .ControlBarTray .Section .Label {
+	font-size: 1rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.DashboardMain .ControlBarTray .Section .ButtonControl {
+	--side-padding: 2em;
+	/*padding-left: var(--side-padding);*/
+	/*padding-right: var(--side-padding);*/
+	width: fit-content;
+	white-space: nowrap;
+}
+
+.DashboardMain .ControlBarTray .Section .ButtonControl.ViewButton.Fixed
+{
+	width: 82px;
+}
+
+.DashboardMain .ControlBarTray .Section .ButtonControl.ViewButton:last-of-type
+{
+	margin-right: 9px;
+}
+
+.DashboardMain .ControlBarTray .Section .ButtonControl.Round {
+	border-radius: 9001px;
+	display: flex;
+	padding: 0;
+	height: calc(1.2 * var(--settings-control-default-height));
+	width: calc(1.2 * var(--settings-control-default-height));
+}
+
+.DashboardMain .ControlBarTray .Section .ButtonControl.Round > img {
+	width: var(--control-bar-icon-size);
+	margin: auto;
+}
+
+.DashboardMain .ControlBarTray .Section .ButtonControl,
+.DashboardMain .OverlayControlBar .Section .ButtonControl,
+.DashboardMain .ControlBarTray .SliderControl .Handle,
+.DashboardMain .OverlayControlBar .SliderControl .Handle,
+.WindowTray .WindowTrayButton,
+.WindowTray .SliderControl .Handle {
+	background: linear-gradient(
+		to bottom,
+		var(--dashboard-desktop-bar-button-color-a) 0%,
+		var(--dashboard-desktop-bar-button-color-b) 100%
+	);
+}
+
+.DashboardMain .ControlBarTray .Section .ButtonControl.Disabled {
+	background: var(--dashboard-desktop-bar-button-color-a);
+	box-shadow: none;
+}
+
+.DashboardMain .ControlBarTray .Section .ButtonControl.Disabled > .Icon {
+	opacity: 0.5;
+}
+
+.DashboardMain .ControlBarTray .SliderControl .Handle {
+	border-width: 0;
+}
+
+.DashboardMain .ControlBarTray .Section .SliderControl {
+	min-width: 10em;
+	width: 15em;
+	max-width: 20em;
+}
+
+.DashboardMain .ControlBarTray .SliderControl.Sliding .Handle > .RangeLabel {
+	transform: scale(1);
+}
+
+.NoDesktopFound {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+.DashboardMain .ControlBarTray .ScrollPanel::-webkit-scrollbar
+{
+	display: none;
+}
+
+.DashboardMain .ControlBarButtonTooltip
+{
+	display: inline-block;
+	width: fit-content;
+	background: rgba(0, 0, 0, 0.85);
+	color: white;
+	border-radius: 9001px;
+	padding: 0.3em 1em;
+	font-size: 1rem;
+	text-transform: capitalize;
+}
+
+.WindowTray
+{
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+	/*
+	background: linear-gradient(
+		to bottom,
+		hsla(220, 11%, 11%, 1) 0%,
+		hsla(220, 11%, 14%, 1) 100%
+	);
+	*/
+	color: #fff;
+	min-width: 28em;
+	display: flex;
+	flex-direction: row;
+	padding: 16px;
+}
+
+.WindowTray .WindowTrayButton
+{
+	border-radius: 16px;
+	margin-left: 16px;
+	white-space: nowrap;
+	padding: 1em;
+	width: fit-content;
+}
+
+.DashboardMain .OverlayControlBar .OverlayControlBarSlider
+{
+	min-width: 16em;
+	font-size: 0.66rem;
+	margin: .5em;
+}
+
+.DashboardMain .OverlayControlBar .Label
+{
+	margin: .5em;
+	margin-top: 1em;
+	margin-right: 1em;
+	font-size: .8rem;
+}
+
+.WindowTray .WindowTraySlider
+{
+	min-width: 5em;
+}
+
+.DashboardMain .OverlayControlBar
+{
+	display: flex;
+	flex-direction: row;
+	background: var( --dashboard-control-bar-group-color-a );
+	padding: 0;
+	width: var(--dashboard-primary-width);
+	box-sizing: border-box;
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 2px 2px black;
+	font-variant-numeric: tabular-nums;
+}
+
+.DashboardMain .OverlayControlBar .Section
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+}
+
+.DashboardMain .OverlayControlBar .ButtonControl.Disabled
+{
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.DashboardMain .OverlayControlBar .ButtonControl.CloseWindow.Disabled
+{
+	visibility: hidden;
+}
+
+
+.DashboardMain .StatusBar
+{
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	width: var(--dashboard-primary-width);
+	box-sizing: border-box;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 2px 2px black;
+	font-variant-numeric: tabular-nums;
+}
+
+.DashboardMain .StatusBar .Section
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+}
+
+.DashboardMain .StatusBar .Section.Left
+{
+	justify-content: flex-end;
+	margin-right: auto;
+	padding-left: var(--settings-border-radius);
+}
+
+.DashboardMain .StatusBar .Section.Left,
+.DashboardMain .StatusBar .Section.Right
+{
+	flex: 1;
+}
+
+.DashboardMain .StatusBar .Section.Center
+{
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.DashboardMain .StatusBar .Section.Right
+{
+	justify-content: flex-start;
+	margin-left: auto;
+	padding-right: var(--settings-border-radius);
+}
+
+.DashboardMain .StatusBar .Section.Left > *:not(:last-child)
+{
+	margin-right: var(--dashboard-status-bar-control-spacing);
+}
+
+.DashboardMain .StatusBar .Section.Center > *
+{
+	margin-right: var(--dashboard-status-bar-control-spacing);
+}
+
+.DashboardMain .StatusBar .Section.Center > *:first-child
+{
+	margin-left: var(--dashboard-status-bar-control-spacing);
+}
+
+.DashboardMain .StatusBar .Section.Right > *:not(:first-child)
+{
+	margin-left: var(--dashboard-status-bar-control-spacing);
+}
+
+.DashboardMain .StatusBar .Title
+{
+	flex-grow: 1;
+	display: flex;
+}
+
+.DashboardMain .StatusBar .Title .Icon
+{
+	position: relative;
+	width: 1em;
+	height: 1em;
+	margin: auto 0.5em auto 0;
+	flex-shrink: 0;
+}
+
+.DashboardMain .StatusBar .Title .Icon img
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.DashboardMain .StatusBar .Title .Icon img.Shadow
+{
+	top: 2px;
+	opacity: 0.8;
+}
+
+.DashboardMain .StatusBar .Title .NoWrapText
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	max-width: 15em;
+}
+
+.DashboardMain .StatusBar .BatteryStatus
+{
+	display: flex;
+}
+
+.DashboardMain .StatusBar .BatteryStatus > img
+{
+	margin: auto;
+	height: 1.1em;
+}
+
+.DashboardMain .DashboardPanel.Settings
+{
+	align-items: center;
+	position: relative;
+	padding: 0;
+
+	margin: 0 var(--settings-sidebar-button-expansion);
+	overflow: visible !important;
+}
+
+.DashboardMain .DashboardPanelBackground.Settings
+{
+	position: relative;
+}
+
+.DashboardMain .DashboardPanel.NowPlaying
+{
+	/*width: 1350px;*/
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	padding: var(--dashboard-panel-padding) 6rem;
+	position: relative;
+}
+
+.DashboardMain .DashboardPanelBackground.NowPlaying
+{
+	/*width: calc( 0.5 * 1350px );*/
+	position: relative;
+}
+
+.DashboardMain .NowPlaying .ArtworkColumn
+{
+	flex-grow: 0;
+	flex-shrink: 0;
+	--width: 500px;
+	width: var(--width);
+	height: calc(var(--width) * 900 / 600);
+
+	border-radius: calc( var(--settings-control-inner-border-radius) / 2 );
+	overflow: hidden;
+	box-shadow: 0 7px 20px 2px black;
+}
+
+.DashboardMain .NowPlaying .InfoColumn
+{
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin-left: 150px;
+	margin-right: 0px;
+}
+
+.DashboardMain .NowPlayingAppTitle
+{
+    font-size: 3.0em;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.DashboardMain .NowPlaying .InfoColumn .ButtonControl
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 1.5em;
+	margin-bottom: 25px;
+}
+
+.DashboardMain .NowPlaying .InfoColumn .ButtonControl.Colorful
+{
+	margin-bottom: 40px;
+}
+
+.DashboardMain .NoDesktopFound .ButtonControl
+{
+	margin-top: 100px;
+	font-size: 1.5em;
+	width: fit-content;
+	padding: 1em;
+}
+
+.DashboardMain .NowPlaying .PortraitAppImageContainer
+{
+	/* --width: 500px;*/
+	/*width: var(--width);*/
+	/*height: calc(var(--width) * 900 / 600); */
+}
+
+.DashboardMain .DashboardPanel .ButtonControl.PanelTopRight
+{
+	position: absolute;
+	top: var(--dashboard-panel-padding);
+	right: var(--dashboard-panel-padding);
+	margin: 0;
+	width: auto;
+}
+
+.DashboardMain .SteamLogo
+{
+	text-align: right;
+	flex-grow: 1;
+}
+
+.DashboardMain .SteamLogo img
+{
+	height: 1.5em;
+	filter: brightness(80%);
+}
+
+.DashboardMain .ControlBarTray .SliderContainer, .DashboardMain .OverlayControlBar .SliderContainer
+{
+	width: fit-content;
+	height: fit-content;
+	position: relative;
+}
+
+.DashboardMain .ControlBarTray.VolumeTray .SliderControl
+{
+	width: 350px;
+}
+
+.DashboardMain .ControlBarTray.VolumeTray .SliderControl.Muted:not(:hover)
+{
+	opacity: 0.5;
+}
+
+.DashboardMain .ControlBarTray.VolumeTray {
+	--control-bar-tray-section-spacing: 75px !important;
+}
+
+.DashboardMain .ControlBarTray .SliderControl, .DashboardMain .OverlayControlBar .SliderControl
+{
+	--slider-thickness: var(--control-bar-tray-control-height);
+}
+
+.DashboardMain .ControlBarTray .ButtonControl
+{
+	min-height: var(--control-bar-tray-control-height);
+}
+
+.DashboardMain .ControlBarTray .ButtonControl.Keyboard .Icon
+{
+	--size: 1.4em;
+	width: var(--size);
+	height: var(--size);
+}
+
+.DashboardMain .ControlBarTray .ButtonControl.AddWindow
+{
+	width: fit-content;
+}
+
+.DashboardMain .ControlBarTray .ButtonControl.CloseWindow.Disabled
+{
+	visibility: hidden;
+}
+
+@keyframes ControlBarTrayAnimationShowing
+{
+	from { transform: translateY(-100%); }
+	to { transform: translateY(0%); }
+}
+
+@keyframes ControlBarTrayAnimationHiding
+{
+	from { transform: translateY(0%); }
+	to { transform: translateY(-100%); }
+}
+
+@keyframes ControlBarTrayShadowAnimationShowing
+{
+	from { top: 100%; }
+	to { top: 0%; }
+}
+
+@keyframes ControlBarTrayShadowAnimationHiding
+{
+	from { top: 0%; }
+	to { top: 100%; }
+}
+
+.DashboardMain .ShowHideAnimation.ControlBarTrayAnimation .ControlBarTray,
+.DashboardMain .ShowHideAnimation.ControlBarTrayAnimation .ControlBarTrayBackground,
+.DashboardMain .ShowHideAnimation.ControlBarTrayAnimation .ControlBarTray::after
+{
+	animation-duration: var(--show-hide-duration);
+	animation-fill-mode: both;
+	animation-timing-function: ease-out;
+}
+
+.DashboardMain .ShowHideAnimation.ControlBarTrayAnimation.Showing .ControlBarTray,
+.DashboardMain .ShowHideAnimation.ControlBarTrayAnimation.Showing .ControlBarTrayBackground
+{
+	animation-name: ControlBarTrayAnimationShowing;
+}
+
+.DashboardMain .ShowHideAnimation.ControlBarTrayAnimation.Hiding .ControlBarTray,
+.DashboardMain .ShowHideAnimation.ControlBarTrayAnimation.Hiding .ControlBarTrayBackground
+{
+	animation-name: ControlBarTrayAnimationHiding;
+}
+
+.DashboardMain .ShowHideAnimation.ControlBarTrayAnimation.Showing .ControlBarTray::after
+{
+	animation-name: ControlBarTrayShadowAnimationShowing;
+}
+
+.DashboardMain .ShowHideAnimation.ControlBarTrayAnimation.Hiding .ControlBarTray::after
+{
+	animation-name: ControlBarTrayShadowAnimationHiding;
+}
+
+.ResetSeatedCountdownParent
+{
+	visibility: visible;
+	border-radius: 25px;
+    background: rgba(20, 20, 20, 0.97);
+	padding: 3px;
+}
+
+.ResetSeatedCountdownParent.Fading
+{
+	opacity: 0;
+	transition: opacity 1.0s;
+}
+
+.ResetSeatedCountdownParent .ResetSeatedCountdownTextDesc
+{
+	font-size: 20px;
+	color: var(--ipddescriptiontext);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ResetSeatedCountdownParent .ResetSeatedCountdownRow
+{
+	position: relative;
+	margin: 0px auto;
+	margin-bottom: 0px;
+	flex-direction: row;
+}
+
+.ResetSeatedCountdownParent .ResetSeatedCountdownText
+{
+	font-size: 59px;
+	font-variant-numeric: tabular-nums;
+	color: var(--ipdvaluetext);
+	display: inline-block;
+}
+
+.QuickLaunchWelcome
+{
+	position: relative;
+	width: var(--dashboard-primary-width);
+	height: calc( var(--dashboard-primary-width) / var(--dashboard-primary-aspect-ratio) );
+	margin-left: calc(-1 * var(--dashboard-panel-padding));
+	margin-top: calc(-1 * 48px); /* this is overridden on every panel? */
+	overflow: hidden;
+	box-shadow: inset 0px 0px 400px 200px rgba(0, 0, 0, 0.4);
+}
+
+.QuickLaunchWelcome .QuickLaunchWelcomePrompt
+{
+	margin: auto;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+}
+
+.QuickLaunchWelcome .WelcomeBrowseStore
+{
+	min-width: 65%;
+	font-weight: 400 !important;
+}
+
+.QuickLaunchWelcome .WelcomeInstall
+{
+	position: absolute;
+	bottom: var(--dashboard-panel-padding);
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+.QuickLaunchWelcome .QuickLaunchWelcomeHeader
+{
+	text-align: center;
+	font-weight: 600;
+	font-size: 45px;
+}
+
+.QuickLaunchWelcome .QuickLaunchWelcomeMessage
+{
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 0.8em;
+}
+
+.QuickLaunchWelcome .WelcomeFloatingApp
+{
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+.QuickLaunchWelcome .WelcomeFloatingApp > img
+{
+	max-width: 100%;
+	display: block;
+	box-shadow: 0 7px 20px 2px black;
+	pointer-events: none;
+}
+
+.WelcomeFloatingApp0,
+.WelcomeFloatingApp1,
+.WelcomeFloatingApp2,
+.WelcomeFloatingApp3
+{
+	width: 290px;
+}
+
+.WelcomeFloatingApp4,
+.WelcomeFloatingApp5,
+.WelcomeFloatingApp6,
+.WelcomeFloatingApp7
+{
+	width: 240px;
+}
+
+.WelcomeFloatingApp8,
+.WelcomeFloatingApp9,
+.WelcomeFloatingApp10,
+.WelcomeFloatingApp11
+{
+	width: 170px;
+}
+
+.WelcomeFloatingApp0  { left: 16%; top: 39%; }
+.WelcomeFloatingApp1  { left: 83%; top: 40%; }
+.WelcomeFloatingApp2  { left: 19%; top: 79%; }
+.WelcomeFloatingApp3  { left: 80%; top: 79%; }
+.WelcomeFloatingApp4  { left: 93%; top: 15%; }
+.WelcomeFloatingApp5  { left:  5%; top: 15%; }
+.WelcomeFloatingApp6  { left: 99%; top: 87%; }
+.WelcomeFloatingApp7  { left:  1%; top: 87%; }
+.WelcomeFloatingApp8  { left: 27%; top: 14%; }
+.WelcomeFloatingApp9  { left: 99%; top: 35%; }
+.WelcomeFloatingApp10 { left:  1%; top: 35%; }
+.WelcomeFloatingApp11 { left:  1%; top: 71%; }
+
+
+
+
+.CircularProgressbar {
+	/*
+	* This fixes an issue where the CircularProgressbar svg has
+	* 0 width inside a "display: flex" container, and thus not visible.
+	*
+	* If you're not using "display: flex", you can remove this style.
+	*/
+	width: 100%;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+	stroke: #3ec75c;
+	stroke-linecap: round;
+	background-color: black;
+	stroke-width: 0.325rem;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+	stroke: white;
+	opacity: 0.1;
+	stroke-width: 0.325rem;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+	fill: #3e40c7;
+	font-size: 20px;
+	text-anchor: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-background {
+	fill: #414141;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+	fill: #3ec777;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+	fill: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+	stroke: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+	stroke: transparent;
+}
+
+.ProgressContainer
+{
+	height: 508px;
+	width: 508px;
+	color: "white";
+	opacity: 0.8;
+	display: flex;
+	position: relative;
+}
+
+.ProgressContainer .CircularProgressbar
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.ProgressContainer .ProgressIcon
+{
+	width: 255px;
+	height: 255px;
+	margin: auto;
+	z-index: 10;
+}
