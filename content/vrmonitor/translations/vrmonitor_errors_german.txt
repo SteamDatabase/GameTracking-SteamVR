@@ -928,7 +928,7 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Bitte trennen Sie Ihre Controller zum Spielen vom Aufladekabel."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Ein Ziehen am Aufladekabel aus verschiedenen Winkeln kann die Controller beschädigen und zu Unfällen führen."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Weitere Details"
-"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=german#wired-controller-usage"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

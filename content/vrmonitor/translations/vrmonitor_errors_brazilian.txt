@@ -10,7 +10,7 @@
 "Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=brazilian#headset"
 
 "Error_HMDDoesNotTrack_Header" "Buscando..."
-"Error_HMDDoesNotTrack_Description" "Confirme que o headset está no campo de visão de uma estação-base."
+"Error_HMDDoesNotTrack_Description" "Confirme que o headset está no campo de visão de uma estação-base. "
 "Error_HMDDoesNotTrack_Action" "Mais informações"
 "Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=brazilian#tracking-issues"
 
@@ -481,7 +481,7 @@
 "ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
 "ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Estação-base removida"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "O SteamVR perdeu uma das estações-base de vista. Realize a preparação de cômodo mais uma vez."
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "O SteamVR perdeu uma das  de vista. Realize a preparação de cômodo mais uma vez."
 "ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "Realizar preparação de cômodo"
 "ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
@@ -641,7 +641,7 @@
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/wizard/HelpWithGame/?appid=250820"
 
 "Popover_NoPose_Controller_Header" "Buscando..."
-"Popover_NoPose_Controller_Description" "Este controle não está sendo rastreado. Confirme que ele pode ser visto por uma estação-base."
+"Popover_NoPose_Controller_Description" "Este controle não está sendo rastreado. Confirme que ele pode ser visto por uma estação-base. "
 "Popover_NoPose_Controller_Action" "Identificar controle"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
@@ -920,7 +920,7 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Desconecte os controles para jogar"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Puxar o cabo de recarga pelo lado pode danificar o controle."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Mais detalhes"
-"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=brazilian#wired-controller-usage"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

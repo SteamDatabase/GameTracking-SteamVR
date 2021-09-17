@@ -3416,6 +3416,7 @@
                 "body",
                 ".SettingsMain",
                 ".DesktopHandWidget",
+                ".HMDPanel",
                 "vsg-app",
                 "vsg-mountable",
                 "[vsg-type=panel]",
@@ -13896,4 +13897,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=53286abc72ee70230c17
+//# sourceMappingURL=vrwebui_shared.js.map?v=b1f2ed18f95a2325692c

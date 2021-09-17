@@ -392,8 +392,8 @@
 
 "Settings_Advanced_RefreshRate_Header" "Virkistystaajuus"
 "Settings_Advanced_RefreshRate_HzSuffix" "Hz"
-"Settings_Advanced_RefreshRate_NotFound" "<b>HUOMAA:</b> VR-lasit tukevat lisäpäivitystiheyttä, mutta näytönohjaimen ajuri ei havaitse sitä. Varmista, että VR-lasien laiteohjelmisto ja näytönohjaimen ajurit ovat ajan tasalla."
-"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>HUOMAA:</b> VR-lasit tukevat lisäpäivitystiheyttä, mutta SteamVR ei voi hallinnoida päivitystiheyttä, kun VR-lasit ovat jatketussa tilassa. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Ota suora tila käyttöön.</span></a>"
+"Settings_Advanced_RefreshRate_NotFound" "<b>HUOMAA:</b> VR-lasit tukevat muita virkistystaajuuksia, mutta näytönohjaimen ajuri ei havaitse niitä. Varmista, että VR-lasien laiteohjelmisto ja näytönohjaimen ajurit ovat ajan tasalla."
+"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>HUOMAA:</b> VR-lasit tukevat muita virkistystaajuuksia, mutta SteamVR ei voi hallinnoida virkistystaajuutta, kun VR-lasit ovat jatketussa tilassa. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Ota suora tila käyttöön.</span></a>"
 "Settings_Advanced_Restart" "<i>Vireillä oleva muutos astuu voimaan, <a href='vrmonitor://restartsystem'><span style='color:white;'>kun käynnistät SteamVR:n uudelleen</span></a></i>"
 
 "Settings_Advanced_Supersampling_Header" "Sovelluksen kuvatarkkuus"

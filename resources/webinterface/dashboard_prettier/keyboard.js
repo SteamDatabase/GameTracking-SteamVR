@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(ge || (ge = {}));
-    var Ee, Te, Ie, Pe, xe, Ve, Le, Be, Ne, He, Fe, Ae, je, Ue, We, ze, Ge;
+    var Ee, Te, Ie, Pe, xe, Ve, Le, Be, Ne, He, Fe, Ae, je, Ue, We, ze, Ge, Ke;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -2054,8 +2054,13 @@
       })(ze || (ze = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(Ge || (Ge = {}));
-    class Ke extends w.Component {
+      })(Ge || (Ge = {})),
+      (function (e) {
+        (e[(e.Hostname = 0)] = "Hostname"),
+          (e[(e.IP = 1)] = "IP"),
+          (e[(e.Version = 2)] = "Version");
+      })(Ke || (Ke = {}));
+    class qe extends w.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2099,7 +2104,7 @@
         );
       }
     }
-    class qe extends $ {
+    class Qe extends $ {
       constructor(e) {
         super(e);
       }
@@ -2111,7 +2116,7 @@
         );
       }
     }
-    class Qe extends $ {
+    class Xe extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2122,7 +2127,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(r.b)([o.a], Qe.prototype, "buildNode", null),
+    Object(r.b)([o.a], Xe.prototype, "buildNode", null),
       n.d(t, "c", function () {
         return s;
       }),
@@ -2250,13 +2255,13 @@
         return Me;
       }),
       n.d(t, "e", function () {
-        return Ke;
-      }),
-      n.d(t, "d", function () {
         return qe;
       }),
-      n.d(t, "k", function () {
+      n.d(t, "d", function () {
         return Qe;
+      }),
+      n.d(t, "k", function () {
+        return Xe;
       }),
       n.d(t, "H", function () {
         return he;
@@ -8816,4 +8821,4 @@
         });
   },
 });
-//# sourceMappingURL=keyboard.js.map?v=e70936ced0dacf745203
+//# sourceMappingURL=keyboard.js.map?v=700012b4630e0ff502db

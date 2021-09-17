@@ -780,7 +780,7 @@
 
 "Warning_DismissableWarning_DisplayInExtendedMode_Header" "Avertisment cască"
 "Warning_DismissableWarning_DisplayInExtendedMode_Description" "SteamVR a detectat faptul că-ți folosești casca drept monitor. Pentru cele mai bune rezultate, te rugăm să treci la modul de afișaj direct."
-"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Activează modul de afisaj direct"
+"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Activează modul de afișaj direct"
 "Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
 
 "Warning_DismissableWarning_IssuesWithOneDongle_Header" "Eroare a căștii"

@@ -940,7 +940,7 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Odpojte ovladače během hraní"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Vytažením nabíjecího kabelu pod úhlem může dojít k poškození ovladače. Vytahujte proto kabel přímo."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Více informací"
-"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=czech#wired-controller-usage"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

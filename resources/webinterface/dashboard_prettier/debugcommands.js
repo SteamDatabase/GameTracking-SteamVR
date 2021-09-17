@@ -284,7 +284,7 @@
         z: i * o * c - a * l * s,
       };
     }
-    function v(e) {
+    function _(e) {
       let t = e[0][0] + e[1][1] + e[2][2];
       if (t > 0) {
         let n = 2 * Math.sqrt(t + 1);
@@ -323,7 +323,7 @@
         };
       }
     }
-    function _(e, t) {
+    function v(e, t) {
       let n = 2 * (e.y * t.z - e.z * t.y),
         r = 2 * (e.z * t.x - e.x * t.z),
         i = 2 * (e.x * t.y - e.y * t.x);
@@ -341,7 +341,7 @@
       ];
     }
     function f(e) {
-      return _(e.rotation, { x: 0, y: 0, z: 1 });
+      return v(e.rotation, { x: 0, y: 0, z: 1 });
     }
     function S(e) {
       let t = g(e);
@@ -836,7 +836,7 @@
         );
       }
     }
-    class ve extends $ {
+    class _e extends $ {
       constructor(e) {
         super(e);
       }
@@ -852,7 +852,7 @@
         );
       }
     }
-    function _e(e) {
+    function ve(e) {
       if (e) return [e.u, e.v];
     }
     function ye(e) {
@@ -1055,8 +1055,8 @@
                   ? void 0
                   : e.VROverlay.ThisOverlayHandle();
               })()),
-          (a.properties.uv_min = null != (n = _e(this.m_UVsMin)) ? n : void 0),
-          (a.properties.uv_max = null != (r = _e(this.m_UVsMax)) ? r : void 0),
+          (a.properties.uv_min = null != (n = ve(this.m_UVsMin)) ? n : void 0),
+          (a.properties.uv_max = null != (r = ve(this.m_UVsMax)) ? r : void 0),
           (a.properties.width = null != (i = this.props.width) ? i : void 0),
           (a.properties.height = null != (o = this.props.height) ? o : void 0),
           (a.properties["target-dpi-panel-id"] = W(
@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(ge || (ge = {}));
-    var Re, Ie, Te, Pe, xe, Ve, Le, Ne, Be, Fe, Ae, He, je, Ue, We, ze, Ge;
+    var Re, Ie, Te, Pe, xe, Ve, Le, Ne, Be, Fe, Ae, He, je, Ue, We, ze, Ge, Ke;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -2054,8 +2054,13 @@
       })(ze || (ze = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(Ge || (Ge = {}));
-    class Ke extends O.Component {
+      })(Ge || (Ge = {})),
+      (function (e) {
+        (e[(e.Hostname = 0)] = "Hostname"),
+          (e[(e.IP = 1)] = "IP"),
+          (e[(e.Version = 2)] = "Version");
+      })(Ke || (Ke = {}));
+    class qe extends O.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2099,7 +2104,7 @@
         );
       }
     }
-    class qe extends $ {
+    class Qe extends $ {
       constructor(e) {
         super(e);
       }
@@ -2111,7 +2116,7 @@
         );
       }
     }
-    class Qe extends $ {
+    class Xe extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2122,7 +2127,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(r.b)([o.a], Qe.prototype, "buildNode", null),
+    Object(r.b)([o.a], Xe.prototype, "buildNode", null),
       n.d(t, "c", function () {
         return s;
       }),
@@ -2157,10 +2162,10 @@
         return b;
       }),
       n.d(t, "R", function () {
-        return v;
+        return _;
       }),
       n.d(t, "T", function () {
-        return _;
+        return v;
       }),
       n.d(t, "b", function () {
         return y;
@@ -2199,7 +2204,7 @@
         return be;
       }),
       n.d(t, "kb", function () {
-        return ve;
+        return _e;
       }),
       n.d(t, "f", function () {
         return U;
@@ -2250,13 +2255,13 @@
         return Me;
       }),
       n.d(t, "e", function () {
-        return Ke;
-      }),
-      n.d(t, "d", function () {
         return qe;
       }),
-      n.d(t, "k", function () {
+      n.d(t, "d", function () {
         return Qe;
+      }),
+      n.d(t, "k", function () {
+        return Xe;
       }),
       n.d(t, "H", function () {
         return he;
@@ -2520,8 +2525,8 @@
       m = n("Q+Z6"),
       g = n("okNM"),
       b = n("YRJX"),
-      v = n("2vnA"),
-      _ = n("X3sx"),
+      _ = n("2vnA"),
+      v = n("X3sx"),
       y = n("p9CI"),
       f = n("nAcY");
     var S;
@@ -2894,12 +2899,12 @@
                   { className: "Label" },
                   Object(p.c)("#Size")
                 ),
-                d.createElement(_.a, {
+                d.createElement(v.a, {
                   additionalClassName: "OverlayControlBarSlider",
                   min: 0.75,
                   max: 1.5,
                   value: this.desktopViewScale,
-                  valueStyleVariant: _.c.OnHandle,
+                  valueStyleVariant: v.c.OnHandle,
                   onChange: this.onDesktopScaleChange,
                   detents: [1],
                   renderValue: (e) => (100 * e).toFixed(0) + "%",
@@ -3110,11 +3115,11 @@
       }
     }
     (k.k_sMailboxName = "systemui_desktopview"),
-      Object(s.b)([v.f], k.prototype, "desktopCount", null),
-      Object(s.b)([v.f], k.prototype, "sCurrentOverlayKey", null),
-      Object(s.b)([v.f], k.prototype, "currentDesktopIndex", null),
-      Object(s.b)([v.f], k.prototype, "currentWindowHwnd", null),
-      Object(s.b)([v.f], k.prototype, "desktopViewScale", null),
+      Object(s.b)([_.f], k.prototype, "desktopCount", null),
+      Object(s.b)([_.f], k.prototype, "sCurrentOverlayKey", null),
+      Object(s.b)([_.f], k.prototype, "currentDesktopIndex", null),
+      Object(s.b)([_.f], k.prototype, "currentWindowHwnd", null),
+      Object(s.b)([_.f], k.prototype, "desktopViewScale", null),
       Object(s.b)([c.a], k.prototype, "dockOverlay", null),
       Object(s.b)([c.a], k.prototype, "onDesktopScaleChange", null),
       Object(s.b)([c.a], k.prototype, "onDesktopChange", null),
@@ -3467,12 +3472,12 @@
             d.createElement(
               "div",
               { className: "WindowTray" },
-              d.createElement(_.a, {
+              d.createElement(v.a, {
                 additionalClassName: "WindowTraySlider",
                 min: o.sfOverlayScaleMin,
                 max: o.sfOverlayScaleMax,
                 value: this.state.fOverlayScale,
-                valueStyleVariant: _.c.OnHandle,
+                valueStyleVariant: v.c.OnHandle,
                 onChange: this.onOverlayScaleChanged,
                 detents: [0.25, 0.5],
                 renderValue: (e) => (100 * e).toFixed(0) + "%",
@@ -4461,7 +4466,7 @@
               ? void 0
               : e.VROverlay.ShowDashboard(null != s ? s : "");
           }, 500),
-          (this.m_appStateChangedAutorunDisposer = Object(v.e)(() => {
+          (this.m_appStateChangedAutorunDisposer = Object(_.e)(() => {
             const e = $.a.Instance.SceneApplicationState != a.v.None;
             this.isOverlayActive(h.o) && !e && this.switchToOverlay(h.q);
           })),
@@ -5144,8 +5149,8 @@
       }
       renderControlBar(e, t) {
         var n, r, i, o, s, l, c, g;
-        const v = this.isDarkMode ? { r: 0.05, g: 0.05, b: 0.05 } : null,
-          _ = this.isDarkMode ? { r: 0.25, g: 0.25, b: 0.25 } : null,
+        const _ = this.isDarkMode ? { r: 0.05, g: 0.05, b: 0.05 } : null,
+          v = this.isDarkMode ? { r: 0.25, g: 0.25, b: 0.25 } : null,
           y = te.k_nControlBarWidthMeters,
           f =
             null ==
@@ -5174,7 +5179,7 @@
           this.isOverlayActive(h.k) && (P = { y: -0.4, z: 0 }),
           d.createElement(
             a.jb,
-            { color: v },
+            { color: _ },
             d.createElement(
               a.Y,
               {
@@ -5266,7 +5271,7 @@
                           { allowableParentSelectors: [".DashboardMain"] },
                           d.createElement(
                             a.jb,
-                            { color: v },
+                            { color: _ },
                             d.createElement(
                               a.lb,
                               { translation: { z: 0.02 } },
@@ -5356,7 +5361,7 @@
                   ref: this.m_refDesktopTray,
                   position: 0,
                   visible: this.isDesktopTrayActive(),
-                  tintColor: _,
+                  tintColor: v,
                   bDarkMode: this.state.bDesktopDarkMode,
                   onToggleDarkMode: () =>
                     this.setState({
@@ -5756,8 +5761,8 @@
       Object(s.b)([l.bind], de.prototype, "showPopupMenu", null),
       Object(s.b)([l.bind], de.prototype, "popupMenuMouseLeave", null),
       Object(s.b)([l.bind], de.prototype, "popupMenuMouseUp", null),
-      Object(s.b)([v.f], de.prototype, "isDarkMode", null),
-      Object(s.b)([v.f], de.prototype, "screenshotMode", null),
+      Object(s.b)([_.f], de.prototype, "isDarkMode", null),
+      Object(s.b)([_.f], de.prototype, "screenshotMode", null),
       Object(s.b)(
         [l.bind],
         de.prototype,
@@ -5766,8 +5771,8 @@
       ),
       Object(s.b)([l.bind], de.prototype, "isDesktopTrayActive", null),
       Object(s.b)([l.bind], de.prototype, "isDesktopOverlayActive", null),
-      Object(s.b)([v.m], de, "s_dashboardUserDistance", void 0),
-      Object(s.b)([v.m], de, "s_dashboardUserScale", void 0),
+      Object(s.b)([_.m], de, "s_dashboardUserDistance", void 0),
+      Object(s.b)([_.m], de, "s_dashboardUserScale", void 0),
       (de = te = Object(s.b)([g.a], de));
   },
   N46P: function (e, t, n) {
@@ -6327,8 +6332,18 @@
                   e,
                   "get_debug_commands_response"
                 ),
-                r = t.commands.concat(n.commands),
-                i = new p(r.map((e) => new h(e.command, e.mailbox)));
+                r = t.commands.concat(n.commands);
+              try {
+                if (yield d.d.GetSettingsValue("/settings/steamvr/usePrism")) {
+                  let t = yield this.mailbox.SendMessageAndWaitForResponse(
+                    "prism_mailbox",
+                    e,
+                    "get_debug_commands_response"
+                  );
+                  r = r.concat(t.commands);
+                }
+              } catch (e) {}
+              let i = new p(r.map((e) => new h(e.command, e.mailbox)));
               yield i.initializeKeyboardShortcuts(),
                 this.setState({ commands: i });
             })
@@ -6558,7 +6573,7 @@
     !(function (e) {
       (e[(e.Left = 0)] = "Left"), (e[(e.Right = 1)] = "Right");
     })(r || (r = {}));
-    class v extends o.Component {
+    class _ extends o.Component {
       constructor(e) {
         super(e),
           (this.m_containerRef = null),
@@ -6856,14 +6871,14 @@
         );
       }
     }
-    Object(i.b)([s.bind], v.prototype, "ComponentUpdated", null),
-      Object(i.b)([s.bind], v.prototype, "UpdateSVGPath", null);
-    class _ extends v {
+    Object(i.b)([s.bind], _.prototype, "ComponentUpdated", null),
+      Object(i.b)([s.bind], _.prototype, "UpdateSVGPath", null);
+    class v extends _ {
       constructor(e) {
         super(e);
       }
     }
-    class y extends v {
+    class y extends _ {
       constructor(e) {
         super(e);
       }
@@ -6892,7 +6907,7 @@
         );
       }
     }
-    class f extends v {
+    class f extends _ {
       constructor(e) {
         super(e);
       }
@@ -6989,7 +7004,7 @@
         let r = e + this.ControllerTypeInfo.controller_type;
         switch (t.type) {
           case "button":
-            return o.createElement(_, {
+            return o.createElement(v, {
               key: r,
               side: n,
               controllerType: this.ControllerTypeInfo,
@@ -7360,8 +7375,8 @@
       m = n("2vnA"),
       g = n("Vp/w"),
       b = n("okNM"),
-      v = n("p9CI"),
-      _ = n("X3sx"),
+      _ = n("p9CI"),
+      v = n("X3sx"),
       y = n("39GS"),
       f = n("nsy5"),
       S = n("8GAN"),
@@ -7438,9 +7453,9 @@
                   c.b,
                   null,
                   s.createElement(
-                    v.b,
+                    _.b,
                     {
-                      scrollDirection: o ? v.a.Vertical : v.a.None,
+                      scrollDirection: o ? _.a.Vertical : _.a.None,
                       className: Object(u.a)(
                         "DashboardPanel",
                         e.additionalClassNames
@@ -8079,7 +8094,7 @@
               onMouseLeave: this.onSliderMouseLeave,
               onFinalChange: this.onSliderFinalChange,
               renderValue: (e) => Math.round(100 * e) + "%",
-              valueStyleVariant: _.c.OnHandle,
+              valueStyleVariant: v.c.OnHandle,
               additionalClassName: Object(u.a)([
                 "Muted",
                 y.a.Instance.microphoneMuted,
@@ -8116,7 +8131,7 @@
                 onMouseLeave: this.onSliderMouseLeave,
                 onFinalChange: this.onSliderFinalChange,
                 renderValue: (e) => Math.round(100 * e) + "%",
-                valueStyleVariant: _.c.OnHandle,
+                valueStyleVariant: v.c.OnHandle,
                 additionalClassName: Object(u.a)([
                   "Muted",
                   y.a.Instance.mirrorMuted,
@@ -8151,7 +8166,7 @@
               onMouseLeave: this.onSliderMouseLeave,
               onFinalChange: this.onSliderFinalChange,
               renderValue: (e) => Math.round(100 * e) + "%",
-              valueStyleVariant: _.c.OnHandle,
+              valueStyleVariant: v.c.OnHandle,
               additionalClassName: Object(u.a)(["Muted", y.a.Instance.muted]),
               interactionEndSoundEffect: d.a.VolumePreview,
             })
@@ -8208,7 +8223,7 @@
               shown: this.state.bHover || this.state.bSliding,
             }),
           s.createElement(
-            _.a,
+            v.a,
             Object.assign({}, e, {
               onMouseEnter: this.onMouseEnter,
               onMouseLeave: this.onMouseLeave,
@@ -8749,4 +8764,4 @@
       Object(i.b)([s.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=debugcommands.js.map?v=35cf81aa9cdea9d3c162
+//# sourceMappingURL=debugcommands.js.map?v=9b1652a19d9125e34d07

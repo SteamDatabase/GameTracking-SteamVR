@@ -934,7 +934,7 @@
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Scollega i controller durante la sessione di gioco"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Tirare il cavo di ricarica da qualsiasi angolazione può causare dei danni."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Maggiori dettagli"
-"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=italian#wired-controller-usage"
 
 }
 }

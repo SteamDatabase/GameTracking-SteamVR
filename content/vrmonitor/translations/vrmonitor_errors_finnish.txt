@@ -4,7 +4,7 @@
 "Tokens"
 {
 
-"Error_NoHMDAvailable_Header" "VR-laseja ei löydetty"
+"Error_NoHMDAvailable_Header" "VR-laseja ei löytynyt"
 "Error_NoHMDAvailable_Description" "Tarkista, että virtuaalitodellisuuslasisi on yhdistetty kunnolla, ja käynnistä sitten SteamVR uudelleen."
 "Error_NoHMDAvailable_Action" "Lisätietoja"
 "Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#headset"
@@ -104,7 +104,7 @@
 "VRInitError_Init_UserConfigDirectoryInvalid_Action" "Määritä asetuskansio"
 "VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
 
-"VRInitError_Init_HmdNotFound_Header" "VR-laseja ei löydetty"
+"VRInitError_Init_HmdNotFound_Header" "VR-laseja ei löytynyt"
 "VRInitError_Init_HmdNotFound_Description" "Varmista, että VR-lasit on yhdistetty oikein. Nollaa sitten alta."
 "VRInitError_Init_HmdNotFound_FirstAction" "Nollaa VR-lasit"
 "VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
@@ -581,7 +581,7 @@
 "Lighthouse_RecommendControllerUpgradeOverUsb_ActionURL" "vrmonitor://firmwareupdate/"
 
 "Popover_Off_Invalid_Header" "Laite ei ole yhdistetty"
-"Popover_Off_HMD_Header" "VR-laseja ei ole yhdistetty"
+"Popover_Off_HMD_Header" "VR-laseja ei löytynyt"
 "Popover_Off_HMD_Description" "Varmista, että se on yhdistetty oikein."
 "Popover_Off_HMD_Action" "Lisätietoja"
 "Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#headset"
@@ -803,7 +803,7 @@
 
 "Warning_DismissableWarning_DisplayInExtendedMode_Header" "VR-lasien ilmoitus"
 "Warning_DismissableWarning_DisplayInExtendedMode_Description" "SteamVR on havainnut, että VR-lasit ovat käynnissä näyttönä. Parhaan tuloksen saat siirtymällä suoraan näyttötilaan."
-"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Käytä suoraa näyttötilaa"
+"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Ota suora näyttötila käyttöön"
 "Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
 
 "Warning_DismissableWarning_IssuesWithOneDongle_Header" "VR-lasien virhe"
@@ -917,10 +917,10 @@
 "SteamVRServiceNeedsInstallation_Action" "Lisätietoja"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGame/?appid=250820"
 
-"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Irrota ohjaimet pelin aikana"
-"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Jos irrotat latausjohdon vinossa, se saattaa vahingoittaa ohjainta."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Irrota ohjaimet johdoista pelin aikana"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Johdon vetäminen vinossa asennossa saattaa aiheuttaa vahinkoa ohjaimelle."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Lisätietoja"
-"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=finnish#wired-controller-usage"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

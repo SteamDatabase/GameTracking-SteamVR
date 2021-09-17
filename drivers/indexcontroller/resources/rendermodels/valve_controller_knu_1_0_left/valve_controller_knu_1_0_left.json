@@ -102,13 +102,13 @@
         "handgrip": {
             "component_local" : {
                 "origin": [-0.003851, 0.003715, 0.075948],
-                "rotate_xyz" : [15.392, 2.071, 0.303]
+                "rotate_xyz" : [15.392, -2.071, 0.303]
              }
         },
         "grip": {
             "component_local" : {
                 "origin": [0.0, -0.015, 0.13],
-                "rotate_xyz" : [15.392, 2.071, 0.303]
+                "rotate_xyz" : [15.392, -2.071, 0.303]
              }
         },
         "openxr_handmodel": {

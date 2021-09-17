@@ -437,7 +437,7 @@
 "Settings_Audio_Device_HMD"  "Mũ chụp VR"
 "Settings_Audio_Device_Other"  "Khác"
 "Settings_Audio_AudioPlay"  "Thiết bị phát âm"
-"Settings_Audio_AudioRecord"  "Thiết bị thu âm"
+"Settings_Audio_AudioRecord"  "Thiết bị thu âm thanh"
 "Settings_Audio_HDMIGain"  "Bật giảm khuếch đại trên VIVE HDMI Audio"
 "Settings_Audio_Default"  "Mặc định"
 "Settings_Audio_AudioMirrorPlay"  "Lặp âm đến thiết bị"

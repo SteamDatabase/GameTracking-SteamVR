@@ -822,8 +822,8 @@
 "Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_DisplayInExtendedMode_Header" "Notis om headset"
-"Warning_DismissableWarning_DisplayInExtendedMode_Description" "SteamVR har upptäckt att ditt headset är i skärmläge. Byt till Direct Display-läge för bästa resultat."
-"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Aktivera Direct Display-läge"
+"Warning_DismissableWarning_DisplayInExtendedMode_Description" "SteamVR har upptäckt att ditt headset är i skärmläge. Byt till direkt skärmläge för bästa resultat."
+"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Aktivera direkt skärmläge"
 "Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
 
 "Warning_DismissableWarning_IssuesWithOneDongle_Header" "Headset-fel"

@@ -571,7 +571,7 @@
 "Lighthouse_Disambiguator_TdmConfigurationError_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
 
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Feil med basestasjon"
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Basestasjonene er i modusene A og C. Bytt basestasjonen med modus A til modus B for optimal synkronisering."
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Basestasjonene er i modusene A og C. Bytt basestasjonen med modus A til modus B for optisk synkronisering."
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Mer info"
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
 

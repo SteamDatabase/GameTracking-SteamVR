@@ -99,7 +99,7 @@
 "RebootWhileAppRunning_Title" "Starta om SteamVR?"
 "RebootWhileAppRunning_Format" "Detta innebär att ”%1” också stängs av. Vill du starta om nu?"
 
-"FrameTiming_Title" "Bildtiming"
+"FrameTiming_Title" "Bildtajming"
 "FrameTiming_Idle" "Passiv"
 "FrameTiming_Vsync" "Vsync"
 "FrameTiming_Compositor" "Compositor"
@@ -171,7 +171,7 @@
 "MenuAction_CreateSystemReport" "Skapa systemrapport"
 "MenuAction_ResetSeatedPosition" "Återställ sittande position"
 "MenuAction_SystemReportViewer" "Visning av systemrapporter"
-"MenuAction_DisplayFrameTiming" "Avancerad bildtiming"
+"MenuAction_DisplayFrameTiming" "Avancerad bildtajming"
 "MenuAction_RecordTrackingData" "Spela in spårningsdata"
 "MenuAction_StopRecording" "Stoppa inspelning"
 "MenuAction_Crash" "Krasch"

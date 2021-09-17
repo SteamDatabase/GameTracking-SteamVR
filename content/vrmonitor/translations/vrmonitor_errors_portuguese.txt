@@ -938,7 +938,7 @@
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/pt/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Por favor, desconecta os comandos durante o jogo"
-"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Puxar o cabo de recarga de lado pode causar danos ao comando."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Puxar o cabo de recarga de um determinado ângulo pode danificar o comando."
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Mais detalhes"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=portuguese#wired-controller-usage"
 

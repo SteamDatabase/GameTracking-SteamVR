@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(be || (be = {}));
-    var Re, we, Te, Be, Ae, Ne, Pe, Le, xe, Ve, je, Fe, He, Ue, We, Ge, ze;
+    var Re, we, Te, Be, Ae, Ne, Pe, Le, xe, Ve, je, Fe, He, Ue, We, Ge, ze, qe;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -2054,8 +2054,13 @@
       })(Ge || (Ge = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(ze || (ze = {}));
-    class qe extends E.Component {
+      })(ze || (ze = {})),
+      (function (e) {
+        (e[(e.Hostname = 0)] = "Hostname"),
+          (e[(e.IP = 1)] = "IP"),
+          (e[(e.Version = 2)] = "Version");
+      })(qe || (qe = {}));
+    class Ke extends E.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2099,7 +2104,7 @@
         );
       }
     }
-    class Ke extends $ {
+    class Ye extends $ {
       constructor(e) {
         super(e);
       }
@@ -2111,7 +2116,7 @@
         );
       }
     }
-    class Ye extends $ {
+    class Xe extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2122,7 +2127,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(o.b)([r.a], Ye.prototype, "buildNode", null),
+    Object(o.b)([r.a], Xe.prototype, "buildNode", null),
       n.d(t, "c", function () {
         return a;
       }),
@@ -2250,13 +2255,13 @@
         return Me;
       }),
       n.d(t, "e", function () {
-        return qe;
-      }),
-      n.d(t, "d", function () {
         return Ke;
       }),
-      n.d(t, "k", function () {
+      n.d(t, "d", function () {
         return Ye;
+      }),
+      n.d(t, "k", function () {
+        return Xe;
       }),
       n.d(t, "H", function () {
         return he;
@@ -17104,4 +17109,4 @@
       Object(i.b)([a.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=controllerbindingui.js.map?v=5c73c75bcec94ddc0e5d
+//# sourceMappingURL=controllerbindingui.js.map?v=0e6a97bb6078d744ca45

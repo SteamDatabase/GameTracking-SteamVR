@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(_e || (_e = {}));
-    var we, Oe, Fe, Te, Ee, Ne, ke, Ae, Be, Ve, Ue, Le, He, We, ze, Ge, qe;
+    var we, Oe, Fe, Te, Ee, Ne, ke, Ae, Be, Ve, Ue, Le, He, We, ze, Ge, qe, je;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -2054,8 +2054,13 @@
       })(Ge || (Ge = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(qe || (qe = {}));
-    class je extends I.Component {
+      })(qe || (qe = {})),
+      (function (e) {
+        (e[(e.Hostname = 0)] = "Hostname"),
+          (e[(e.IP = 1)] = "IP"),
+          (e[(e.Version = 2)] = "Version");
+      })(je || (je = {}));
+    class Ke extends I.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2099,7 +2104,7 @@
         );
       }
     }
-    class Ke extends $ {
+    class Xe extends $ {
       constructor(e) {
         super(e);
       }
@@ -2111,7 +2116,7 @@
         );
       }
     }
-    class Xe extends $ {
+    class Ze extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2122,7 +2127,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(n.b)([o.a], Xe.prototype, "buildNode", null),
+    Object(n.b)([o.a], Ze.prototype, "buildNode", null),
       r.d(t, "c", function () {
         return s;
       }),
@@ -2250,13 +2255,13 @@
         return Me;
       }),
       r.d(t, "e", function () {
-        return je;
-      }),
-      r.d(t, "d", function () {
         return Ke;
       }),
-      r.d(t, "k", function () {
+      r.d(t, "d", function () {
         return Xe;
+      }),
+      r.d(t, "k", function () {
+        return Ze;
       }),
       r.d(t, "H", function () {
         return pe;
@@ -2737,4 +2742,4 @@
         );
   },
 });
-//# sourceMappingURL=scenegraphtest.js.map?v=7ab0e9f82d8b2195f747
+//# sourceMappingURL=scenegraphtest.js.map?v=c81e4baf28aa76228d03

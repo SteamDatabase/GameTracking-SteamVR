@@ -364,12 +364,12 @@
       Object(n.b)([i.bind], s.prototype, "OnWebSocketClose", null),
       Object(n.b)([i.bind], s.prototype, "WebSocketSend", null),
       Object(n.b)([i.bind], s.prototype, "OnWebSocketMessage", null);
-    class C {
+    class I {
       constructor() {
         (this.m_mailbox = new s()), this.m_mailbox.Init("sgtransformcache");
       }
       static getInstance() {
-        return C.instance || (C.instance = new C()), C.instance;
+        return I.instance || (I.instance = new I()), I.instance;
       }
       requestSGTransform(e) {
         return new Promise((t, r) =>
@@ -387,7 +387,7 @@
         );
       }
     }
-    var I = r("q1tI");
+    var C = r("q1tI");
     function M(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) {
@@ -622,10 +622,10 @@
         ? void 0
         : t.join(" ");
     }
-    class $ extends I.Component {
+    class $ extends C.Component {
       constructor(e) {
         super(e),
-          (this.m_domRef = I.createRef()),
+          (this.m_domRef = C.createRef()),
           (this.m_buildNodeOverride = null),
           (this.m_SGID = $.s_NextSGID),
           ($.s_NextSGID = ($.s_NextSGID + 1) % 4294967296);
@@ -663,7 +663,7 @@
             delete this.m_domRef.current.buildNode;
       }
       render() {
-        return I.cloneElement(this.internalRender(), {
+        return C.cloneElement(this.internalRender(), {
           id: this.props.id,
           "vsg-type": this.getNodeType(),
           sgid: this.m_SGID,
@@ -672,7 +672,7 @@
       }
       internalRender() {
         return this.m_buildNodeOverride
-          ? I.createElement("vsg-node", null, this.props.children)
+          ? C.createElement("vsg-node", null, this.props.children)
           : null;
       }
     }
@@ -734,10 +734,10 @@
         );
       }
       internalRender() {
-        return I.createElement(
+        return C.createElement(
           "vsg-node",
           { id: this.props.id },
-          I.createElement(
+          C.createElement(
             ee,
             { id: this.m_sMountableUnqualifiedID },
             this.props.children
@@ -822,7 +822,7 @@
             if (e) return e.w + " " + e.x + " " + e.y + " " + e.z;
           })(t),
           o = Z(r);
-        return I.createElement(
+        return C.createElement(
           "vsg-transform",
           {
             translation: n,
@@ -841,7 +841,7 @@
         super(e);
       }
       internalRender() {
-        return I.createElement(
+        return C.createElement(
           "vsg-tracking-state-visibility",
           {
             "visible-0dof": this.props.visibleIn0DOF,
@@ -1111,7 +1111,7 @@
           });
       }
       internalRender() {
-        return I.createElement(
+        return C.createElement(
           "vsg-node",
           { style: { display: this.visibility == de.Hidden ? "none" : null } },
           this.props.children
@@ -1123,7 +1123,7 @@
       Object(n.b)([o.a], ve.prototype, "onPanelMouseDown", null),
       Object(n.b)([o.a], ve.prototype, "onWindowMouseUp", null),
       Object(n.b)([o.a], ve.prototype, "buildNode", null);
-    class Se extends I.Component {
+    class Se extends C.Component {
       constructor(e) {
         super(e),
           (this.m_DomRef = null),
@@ -1147,10 +1147,10 @@
             nForcedUpdateNumber: 0,
             bShowDebugPointer: !1,
           }),
-          (this.m_DomRef = I.createRef()),
-          (this.m_scalingDomRef = I.createRef()),
-          (this.m_CanvasRef = I.createRef()),
-          (this.m_DebugPointerRef = I.createRef());
+          (this.m_DomRef = C.createRef()),
+          (this.m_scalingDomRef = C.createRef()),
+          (this.m_CanvasRef = C.createRef()),
+          (this.m_DebugPointerRef = C.createRef());
       }
       static get IsSceneGraphApp() {
         return null !== Se.Current();
@@ -1220,23 +1220,23 @@
         let e = [];
         return (
           this.state.bShowDebugPointer && e.push("ShowDebugPointer"),
-          I.createElement(
+          C.createElement(
             "vsg-app",
             {
               class: e.join(" "),
               ref: this.m_DomRef,
               "sg-forced-update-number": this.state.nForcedUpdateNumber,
             },
-            I.createElement("div", {
+            C.createElement("div", {
               className: "DebugPointer",
               ref: this.m_DebugPointerRef,
             }),
-            I.createElement("canvas", {
+            C.createElement("canvas", {
               ref: this.m_CanvasRef,
               className: "EmbeddedData",
               height: Se.k_EmbeddedDataRows,
             }),
-            I.createElement(
+            C.createElement(
               "div",
               { className: "AppSceneGraph", ref: this.m_scalingDomRef },
               this.state.bFontsLoaded && this.props.children
@@ -1418,7 +1418,7 @@
         super(e);
       }
       internalRender() {
-        return I.createElement("vsg-line", {
+        return C.createElement("vsg-line", {
           "target-id": this.props.target_id,
           thickness: this.props.thickness,
           "start-buffer": this.props.start_buffer,
@@ -1426,12 +1426,12 @@
         });
       }
     }
-    class Ce extends $ {
+    class Ie extends $ {
       constructor(e) {
         super(e);
       }
       internalRender() {
-        return I.createElement(
+        return C.createElement(
           "vsg-pin-to-view-transform",
           {
             "offscreen-z-depth": this.props.fOffscreenZDepth,
@@ -1442,7 +1442,7 @@
         );
       }
     }
-    class Ie extends $ {
+    class Ce extends $ {
       constructor(e) {
         super(e),
           (this.m_latchedPosition = null),
@@ -1505,7 +1505,7 @@
         );
       }
     }
-    Object(n.b)([o.a], Ie.prototype, "buildNode", null);
+    Object(n.b)([o.a], Ce.prototype, "buildNode", null);
     !(function (e) {
       (e[(e.LockedToParent = 0)] = "LockedToParent"),
         (e[(e.LockedToWorld = 1)] = "LockedToWorld");
@@ -1530,7 +1530,7 @@
           i = this.props.max_angular_velocity
             ? (this.props.max_angular_velocity * Math.PI) / 180
             : null;
-        return I.createElement(
+        return C.createElement(
           "vsg-elastic-head-transform",
           {
             "start-angle-threshold": e,
@@ -1553,7 +1553,7 @@
         super(e);
       }
       internalRender() {
-        return I.createElement(
+        return C.createElement(
           "vsg-head-facing-transform",
           null,
           this.props.children
@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(me || (me = {}));
-    var we, Oe, Fe, Te, Ne, Be, Ee, Ae, ke, Ve, Le, Ue, He, We, ze, Ge, je;
+    var we, Oe, Fe, Te, Ne, Be, Ee, Ae, ke, Ve, Le, Ue, He, We, ze, Ge, je, qe;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -2054,8 +2054,13 @@
       })(Ge || (Ge = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(je || (je = {}));
-    class qe extends I.Component {
+      })(je || (je = {})),
+      (function (e) {
+        (e[(e.Hostname = 0)] = "Hostname"),
+          (e[(e.IP = 1)] = "IP"),
+          (e[(e.Version = 2)] = "Version");
+      })(qe || (qe = {}));
+    class Ke extends C.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2088,7 +2093,7 @@
         this.state = t;
       }
       render() {
-        return I.createElement(
+        return C.createElement(
           ge,
           {
             id: this.props.id,
@@ -2099,19 +2104,19 @@
         );
       }
     }
-    class Ke extends $ {
+    class Xe extends $ {
       constructor(e) {
         super(e);
       }
       internalRender() {
-        return I.createElement(
+        return C.createElement(
           "vsg-callout-transform",
           { offset: Z(this.props.vOffset) },
           this.props.children
         );
       }
     }
-    class Xe extends $ {
+    class Qe extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2122,7 +2127,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(n.b)([o.a], Xe.prototype, "buildNode", null),
+    Object(n.b)([o.a], Qe.prototype, "buildNode", null),
       r.d(t, "c", function () {
         return s;
       }),
@@ -2178,7 +2183,7 @@
         return R;
       }),
       r.d(t, "fb", function () {
-        return C;
+        return I;
       }),
       r.d(t, "j", function () {
         return re;
@@ -2226,10 +2231,10 @@
         return Re;
       }),
       r.d(t, "bb", function () {
-        return Ce;
+        return Ie;
       }),
       r.d(t, "Z", function () {
-        return Ie;
+        return Ce;
       }),
       r.d(t, "s", function () {
         return se;
@@ -2250,13 +2255,13 @@
         return xe;
       }),
       r.d(t, "e", function () {
-        return qe;
-      }),
-      r.d(t, "d", function () {
         return Ke;
       }),
-      r.d(t, "k", function () {
+      r.d(t, "d", function () {
         return Xe;
+      }),
+      r.d(t, "k", function () {
+        return Qe;
       }),
       r.d(t, "H", function () {
         return pe;
@@ -2608,4 +2613,4 @@
     );
   },
 });
-//# sourceMappingURL=fallback.js.map?v=e46f90fabdc05008ae25
+//# sourceMappingURL=fallback.js.map?v=3bdf015b3e0044a9ab5e

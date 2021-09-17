@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(ge || (ge = {}));
-    var Ee, Te, Ie, Pe, xe, Ve, Le, Be, Ne, Ae, He, Fe, je, Ue, We, ze, Ge;
+    var Ee, Te, Ie, Pe, xe, Ve, Le, Be, Ne, Ae, He, Fe, je, Ue, We, ze, Ge, Ke;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -2054,8 +2054,13 @@
       })(ze || (ze = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(Ge || (Ge = {}));
-    class Ke extends D.Component {
+      })(Ge || (Ge = {})),
+      (function (e) {
+        (e[(e.Hostname = 0)] = "Hostname"),
+          (e[(e.IP = 1)] = "IP"),
+          (e[(e.Version = 2)] = "Version");
+      })(Ke || (Ke = {}));
+    class qe extends D.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2099,7 +2104,7 @@
         );
       }
     }
-    class qe extends $ {
+    class Qe extends $ {
       constructor(e) {
         super(e);
       }
@@ -2111,7 +2116,7 @@
         );
       }
     }
-    class Qe extends $ {
+    class Ye extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2122,7 +2127,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(i.b)([o.a], Qe.prototype, "buildNode", null),
+    Object(i.b)([o.a], Ye.prototype, "buildNode", null),
       n.d(t, "c", function () {
         return s;
       }),
@@ -2250,13 +2255,13 @@
         return Me;
       }),
       n.d(t, "e", function () {
-        return Ke;
-      }),
-      n.d(t, "d", function () {
         return qe;
       }),
-      n.d(t, "k", function () {
+      n.d(t, "d", function () {
         return Qe;
+      }),
+      n.d(t, "k", function () {
+        return Ye;
       }),
       n.d(t, "H", function () {
         return pe;
@@ -9129,4 +9134,4 @@
       Object(r.b)([s.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=bindingcallouts.js.map?v=c18f46550ffb10641827
+//# sourceMappingURL=bindingcallouts.js.map?v=29068a1bdb5adfc54194

@@ -532,8 +532,8 @@
       L,
       B,
       N,
-      A = [],
-      H = null,
+      H = [],
+      A = null,
       F = null,
       j = null;
     function U(e, t) {
@@ -565,8 +565,8 @@
       e != j && ((j = e), q());
     }
     function q() {
-      H ||
-        (H = window.setTimeout(
+      A ||
+        (A = window.setTimeout(
           () =>
             Object(r.a)(this, void 0, void 0, function* () {
               let e = document.body;
@@ -587,11 +587,11 @@
                 type: "update_scene_graph",
                 owning_overlay_key: z(),
                 scene_graph: t,
-                retired_sgids: A,
+                retired_sgids: H,
               };
               F.SendMessage("vrcompositor_systemlayer", n),
-                (H = null),
-                (A = []),
+                (A = null),
+                (H = []),
                 (N = !1);
             }),
           0
@@ -656,7 +656,7 @@
       componentWillUnmount() {
         var e;
         (e = this.m_SGID),
-          A.push(e),
+          H.push(e),
           q(),
           this.m_domRef.current &&
             this.m_buildNodeOverride &&
@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(ge || (ge = {}));
-    var Ee, Te, Ie, Pe, xe, Ve, Le, Be, Ne, Ae, He, Fe, je, Ue, We, ze, Ge;
+    var Ee, Te, Ie, Pe, xe, Ve, Le, Be, Ne, He, Ae, Fe, je, Ue, We, ze, Ge, Ke;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1985,11 +1985,11 @@
         (e[(e.Normal = 0)] = "Normal"),
           (e[(e.Password = 1)] = "Password"),
           (e[(e.Submit = 2)] = "Submit");
-      })(Ae || (Ae = {})),
+      })(He || (He = {})),
       (function (e) {
         (e[(e.SingleLine = 0)] = "SingleLine"),
           (e[(e.MultipleLines = 1)] = "MultipleLines");
-      })(He || (He = {})),
+      })(Ae || (Ae = {})),
       (function (e) {
         (e[(e.LaserMouse = 1)] = "LaserMouse"),
           (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -2054,8 +2054,13 @@
       })(ze || (ze = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(Ge || (Ge = {}));
-    class Ke extends D.Component {
+      })(Ge || (Ge = {})),
+      (function (e) {
+        (e[(e.Hostname = 0)] = "Hostname"),
+          (e[(e.IP = 1)] = "IP"),
+          (e[(e.Version = 2)] = "Version");
+      })(Ke || (Ke = {}));
+    class qe extends D.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2099,7 +2104,7 @@
         );
       }
     }
-    class qe extends $ {
+    class Qe extends $ {
       constructor(e) {
         super(e);
       }
@@ -2111,7 +2116,7 @@
         );
       }
     }
-    class Qe extends $ {
+    class Xe extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2122,7 +2127,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(r.b)([o.a], Qe.prototype, "buildNode", null),
+    Object(r.b)([o.a], Xe.prototype, "buildNode", null),
       n.d(t, "c", function () {
         return s;
       }),
@@ -2250,13 +2255,13 @@
         return Me;
       }),
       n.d(t, "e", function () {
-        return Ke;
-      }),
-      n.d(t, "d", function () {
         return qe;
       }),
-      n.d(t, "k", function () {
+      n.d(t, "d", function () {
         return Qe;
+      }),
+      n.d(t, "k", function () {
+        return Xe;
       }),
       n.d(t, "H", function () {
         return he;
@@ -2301,10 +2306,10 @@
         return Ne;
       }),
       n.d(t, "p", function () {
-        return Ae;
+        return He;
       }),
       n.d(t, "o", function () {
-        return He;
+        return Ae;
       }),
       n.d(t, "l", function () {
         return je;
@@ -3900,8 +3905,8 @@
     var L = n("Ibgz"),
       B = n("vDqi"),
       N = n.n(B),
-      A = n("uTck");
-    function H() {
+      H = n("uTck");
+    function A() {
       return N.a
         .get(
           "https://steamcommunity.com/steamvr/ajaxgethomedata/?include_apps=1&include_free_apps=1&num_apps=20"
@@ -3932,10 +3937,10 @@
         super(e), (this.state = { storeData: null });
       }
       componentDidMount() {
-        H().then((e) => this.setState({ storeData: e }));
+        A().then((e) => this.setState({ storeData: e }));
       }
       openSteamApp(e, t, n) {
-        A.a.instance.RecordUIEvent(
+        H.a.instance.RecordUIEvent(
           "QuickStoreAppClick",
           j[t].toLowerCase() + ":" + n,
           "steam.app." + e
@@ -4042,7 +4047,7 @@
         super(e), (this.state = { storeData: null });
       }
       componentDidMount() {
-        H().then((e) => this.setState({ storeData: e }));
+        A().then((e) => this.setState({ storeData: e }));
       }
       render() {
         let e = [];
@@ -4104,7 +4109,7 @@
       }
       launchApplication(e, t, n) {
         var r, i, o;
-        A.a.instance.RecordUIEvent(
+        H.a.instance.RecordUIEvent(
           "QuickLaunchAppClick",
           (t ? "top" : "bottom") + ":" + n,
           e
@@ -4764,7 +4769,7 @@
                 null != (i = o.summon_overlay_key) ? i : ""
               ),
             this.setState({ sActiveOverlayID: o.mountable_id }),
-            A.a.instance.RecordUIEvent(
+            H.a.instance.RecordUIEvent(
               "SetDashboardOverlay",
               null != t ? t : "Button",
               e
@@ -4796,7 +4801,7 @@
       }
       show(e) {
         if (this.isShown()) return;
-        A.a.instance.StartDashboardSession(e);
+        H.a.instance.StartDashboardSession(e);
         this.m_mailbox.SendMessage("desktopview", {
           type: "request_window_list_update",
         });
@@ -4814,7 +4819,7 @@
       hide(e) {
         this.isShown() &&
           (this.setState({ bShown: !1, eShowPopupMenu: re.None }),
-          A.a.instance.EndDashboardSession(e));
+          H.a.instance.EndDashboardSession(e));
       }
       isShown() {
         return this.state.bShown;
@@ -6934,10 +6939,10 @@
         return N;
       }),
       n.d(t, "b", function () {
-        return A;
+        return H;
       }),
       n.d(t, "k", function () {
-        return H;
+        return A;
       }),
       n.d(t, "l", function () {
         return F;
@@ -7230,7 +7235,7 @@
         { className: Object(u.a)("ControlBarGroup", L[e.style]) },
         e.children
       );
-    let A = class extends s.Component {
+    let H = class extends s.Component {
       constructor(e) {
         super(e), (this.m_refTooltip = s.createRef());
       }
@@ -7290,14 +7295,14 @@
         );
       }
     };
-    Object(o.b)([a.bind], A.prototype, "onMouseEnter", null),
-      Object(o.b)([a.bind], A.prototype, "onMouseLeave", null),
-      (A = Object(o.b)([v.a], A));
-    const H = (e) =>
+    Object(o.b)([a.bind], H.prototype, "onMouseEnter", null),
+      Object(o.b)([a.bind], H.prototype, "onMouseLeave", null),
+      (H = Object(o.b)([v.a], H));
+    const A = (e) =>
       s.createElement(
         N,
         { style: e.style },
-        s.createElement(A, Object.assign({}, e))
+        s.createElement(H, Object.assign({}, e))
       );
     class F extends s.Component {
       constructor(e) {
@@ -7478,13 +7483,13 @@
       render() {
         switch (this.state.eTrackingUniverseOrigin) {
           case h.A.Seated:
-            return s.createElement(A, {
+            return s.createElement(H, {
               imageUrl: "/dashboard/images/icons/svr_reset_tracking.svg",
               label: Object(l.c)("#PowerMenuResetSeatedPosition"),
               onClick: this.onResetUniverseOrigin,
             });
           case h.A.Standing:
-            return s.createElement(A, {
+            return s.createElement(H, {
               imageUrl: "/dashboard/images/icons/svr_reset_tracking.svg",
               label: Object(l.c)("#PowerMenuResetStandingPosition"),
               onClick: this.onResetUniverseOrigin,
@@ -7930,7 +7935,7 @@
           null === (r = this.slider) || void 0 === r || r.stopExternalSliding();
       }
       render() {
-        return s.createElement(A, {
+        return s.createElement(H, {
           imageUrl: y.a.Instance.muted
             ? "/dashboard/images/icons/svr_volume_mute.svg"
             : "/dashboard/images/icons/svr_volume.svg",
@@ -8363,4 +8368,4 @@
       Object(i.b)([s.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=messageoverlay.js.map?v=7bdf1255a15a1483cb1d
+//# sourceMappingURL=messageoverlay.js.map?v=709e87e46b221c315bcc

@@ -379,7 +379,7 @@
 "Settings_USB_EnhancedStatus" "Afficher les détails"
 "Settings_USB_Refresh" "Actualiser"
 
-"Settings_Developer_General_Header" "Équipe de développement"
+"Settings_Developer_General_Header" "Développement"
 "Settings_Advanced_Status_Header" "Vérification de l'état"
 "Settings_Advanced_RoomAndTracking_Header" "Pièce et suivi de position"
 "Settings_Advanced_Reset_Header" "Réinitialisation"
@@ -526,7 +526,7 @@
 
 "Advanced_Title" "Avancé"
 "Advanced_Advanced" "Avancé"
-"Advanced_Developer" "Équipe de développement"
+"Advanced_Developer" "Développement"
 "Advanced_General" "Général"
 "Advanced_Applications" "Applications"
 "Advanced_Audio" "Audio"

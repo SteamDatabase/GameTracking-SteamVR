@@ -533,8 +533,8 @@
       B,
       N,
       A = [],
-      F = null,
       H = null,
+      F = null,
       j = null;
     function U(e, t) {
       return e + "::" + t;
@@ -565,8 +565,8 @@
       e != j && ((j = e), q());
     }
     function q() {
-      F ||
-        (F = window.setTimeout(
+      H ||
+        (H = window.setTimeout(
           () =>
             Object(r.a)(this, void 0, void 0, function* () {
               let e = document.body;
@@ -579,18 +579,18 @@
                 },
                 children: x({ currentPanel: null, bShouldAbort: !1 }, e),
               };
-              H ||
+              F ||
                 (console.log("Initializing sg_mailbox"),
-                (H = new s()),
-                yield H.Init("sg_mailbox", B));
+                (F = new s()),
+                yield F.Init("sg_mailbox", B));
               let n = {
                 type: "update_scene_graph",
                 owning_overlay_key: z(),
                 scene_graph: t,
                 retired_sgids: A,
               };
-              H.SendMessage("vrcompositor_systemlayer", n),
-                (F = null),
+              F.SendMessage("vrcompositor_systemlayer", n),
+                (H = null),
                 (A = []),
                 (N = !1);
             }),
@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(ge || (ge = {}));
-    var Ee, Ie, Te, Pe, xe, Ve, Le, Be, Ne, Ae, Fe, He, je, Ue, We, ze, Ge;
+    var Ee, Ie, Te, Pe, xe, Ve, Le, Be, Ne, Ae, He, Fe, je, Ue, We, ze, Ge, Ke;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1989,7 +1989,7 @@
       (function (e) {
         (e[(e.SingleLine = 0)] = "SingleLine"),
           (e[(e.MultipleLines = 1)] = "MultipleLines");
-      })(Fe || (Fe = {})),
+      })(He || (He = {})),
       (function (e) {
         (e[(e.LaserMouse = 1)] = "LaserMouse"),
           (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -2002,7 +2002,7 @@
             "DriverRequestsApplicationPause"),
           (e[(e.DriverRequestsReducedRendering = 128)] =
             "DriverRequestsReducedRendering");
-      })(He || (He = {})),
+      })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
           (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -2054,8 +2054,13 @@
       })(ze || (ze = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(Ge || (Ge = {}));
-    class Ke extends D.Component {
+      })(Ge || (Ge = {})),
+      (function (e) {
+        (e[(e.Hostname = 0)] = "Hostname"),
+          (e[(e.IP = 1)] = "IP"),
+          (e[(e.Version = 2)] = "Version");
+      })(Ke || (Ke = {}));
+    class qe extends D.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2099,7 +2104,7 @@
         );
       }
     }
-    class qe extends $ {
+    class Qe extends $ {
       constructor(e) {
         super(e);
       }
@@ -2111,7 +2116,7 @@
         );
       }
     }
-    class Qe extends $ {
+    class Xe extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2122,7 +2127,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(r.b)([o.a], Qe.prototype, "buildNode", null),
+    Object(r.b)([o.a], Xe.prototype, "buildNode", null),
       n.d(t, "c", function () {
         return s;
       }),
@@ -2250,13 +2255,13 @@
         return Me;
       }),
       n.d(t, "e", function () {
-        return Ke;
-      }),
-      n.d(t, "d", function () {
         return qe;
       }),
-      n.d(t, "k", function () {
+      n.d(t, "d", function () {
         return Qe;
+      }),
+      n.d(t, "k", function () {
+        return Xe;
       }),
       n.d(t, "H", function () {
         return he;
@@ -2304,7 +2309,7 @@
         return Ae;
       }),
       n.d(t, "o", function () {
-        return Fe;
+        return He;
       }),
       n.d(t, "l", function () {
         return je;
@@ -3901,14 +3906,14 @@
       B = n("vDqi"),
       N = n.n(B),
       A = n("uTck");
-    function F() {
+    function H() {
       return N.a
         .get(
           "https://steamcommunity.com/steamvr/ajaxgethomedata/?include_apps=1&include_free_apps=1&num_apps=20"
         )
         .then((e) => e.data);
     }
-    const H = () =>
+    const F = () =>
       d.createElement(
         u.a,
         {
@@ -3932,7 +3937,7 @@
         super(e), (this.state = { storeData: null });
       }
       componentDidMount() {
-        F().then((e) => this.setState({ storeData: e }));
+        H().then((e) => this.setState({ storeData: e }));
       }
       openSteamApp(e, t, n) {
         A.a.instance.RecordUIEvent(
@@ -3980,7 +3985,7 @@
         return d.createElement(
           v.h,
           { visible: this.props.visible, additionalClassNames: "QuickStore" },
-          d.createElement(H, null),
+          d.createElement(F, null),
           d.createElement(
             "h2",
             null,
@@ -4042,7 +4047,7 @@
         super(e), (this.state = { storeData: null });
       }
       componentDidMount() {
-        F().then((e) => this.setState({ storeData: e }));
+        H().then((e) => this.setState({ storeData: e }));
       }
       render() {
         let e = [];
@@ -6742,10 +6747,10 @@
         return A;
       }),
       n.d(t, "k", function () {
-        return F;
+        return H;
       }),
       n.d(t, "l", function () {
-        return H;
+        return F;
       }),
       n.d(t, "m", function () {
         return j;
@@ -7098,13 +7103,13 @@
     Object(o.b)([a.bind], A.prototype, "onMouseEnter", null),
       Object(o.b)([a.bind], A.prototype, "onMouseLeave", null),
       (A = Object(o.b)([v.a], A));
-    const F = (e) =>
+    const H = (e) =>
       s.createElement(
         N,
         { style: e.style },
         s.createElement(A, Object.assign({}, e))
       );
-    class H extends s.Component {
+    class F extends s.Component {
       constructor(e) {
         super(e),
           (this.m_BatteryStateChangedCallbackHandle = null),
@@ -7175,12 +7180,12 @@
               ? (this.batteryLevelStable = e)
               : ((this.batteryLevelStable = Math.min(
                   this.batteryLevelStable,
-                  e + H.kBatteryLevelHysteresis,
+                  e + F.kBatteryLevelHysteresis,
                   1
                 )),
                 (this.batteryLevelStable = Math.max(
                   this.batteryLevelStable,
-                  e - H.kBatteryLevelHysteresis,
+                  e - F.kBatteryLevelHysteresis,
                   0
                 )));
         }
@@ -7213,11 +7218,11 @@
         );
       }
     }
-    (H.kBatteryLevelHysteresis = 0.02),
-      Object(o.b)([a.bind], H.prototype, "updateControllerStatus", null),
-      Object(o.b)([a.bind], H.prototype, "onBatteryStateChanged", null),
-      Object(o.b)([a.bind], H.prototype, "onDeviceRoleChanged", null),
-      Object(o.b)([a.bind], H.prototype, "onDeviceEvent", null);
+    (F.kBatteryLevelHysteresis = 0.02),
+      Object(o.b)([a.bind], F.prototype, "updateControllerStatus", null),
+      Object(o.b)([a.bind], F.prototype, "onBatteryStateChanged", null),
+      Object(o.b)([a.bind], F.prototype, "onDeviceRoleChanged", null),
+      Object(o.b)([a.bind], F.prototype, "onDeviceEvent", null);
     s.Component;
     const j = (e) =>
       s.createElement(
@@ -8202,4 +8207,4 @@
       Object(i.b)([s.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=settings_desktop.js.map?v=830a0c1014500c856391
+//# sourceMappingURL=settings_desktop.js.map?v=53796bcd6c71bd330452

@@ -616,6 +616,7 @@
 "Popover_Pose_Invalid_Action" "更多信息"
 "Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/zh-cn/wizard/HelpWithGame/?appid=250820"
 
+"Popover_Pose_HMD_Header" "头戴式显示器已启用"
 "Popover_Pose_HMD_Description" "您的头戴式显示器当前正在定位。"
 "Popover_Pose_Controller_Header" "控制器已启用"
 "Popover_Pose_Controller_Description" "此控制器当前正在定位。"
@@ -916,10 +917,10 @@
 "SteamVRServiceNeedsInstallation_Action" "更多信息"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/zh-cn/wizard/HelpWithGame/?appid=250820"
 
-"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "请在游戏时拔掉控制器插头"
-"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "以某个角度拔掉充电线缆可能会对控制器造成伤害。"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "请在游戏时拔掉控制器电源插头"
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "以一定的角度拖拽充电线缆可能会对控制器造成损坏。"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "更多详情"
-"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage&l=simplified%20chinese"
+"Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
 
 }
 }

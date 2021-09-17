@@ -436,7 +436,7 @@
 
 "Settings_Audio_Device_HMD"  "Cască RV"
 "Settings_Audio_Device_Other"  "Altul"
-"Settings_Audio_AudioPlay"  "Dispozitiv de ieșire audio"
+"Settings_Audio_AudioPlay"  "Dispozitivul de ieșire audio"
 "Settings_Audio_AudioRecord"  "Dispozitiv de intrare audio"
 "Settings_Audio_HDMIGain"  "Activează reducerea de amplificare a semnalului audio HDMI pentru VIVE"
 "Settings_Audio_Default"  "Implicit"
