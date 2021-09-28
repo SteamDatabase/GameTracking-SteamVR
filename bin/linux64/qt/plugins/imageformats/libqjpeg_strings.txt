@@ -1,0 +1,392 @@
+
+!
+"
+#
+#;
+$
+$ORIGIN/../../lib
+%
+%3d %3d %3d %3d %3d %3d %3d %3d
+%4u %4u %4u %4u %4u %4u %4u %4u
+%ld%c
+&
+'
+(
+)
+*
++
+,
+-
+.
+/
+0
+1
+11QJpegPlugin
+12QJpegHandler
+2
+3
+4
+5
+6
+7
+8
+8c  16-Jan-2011
+9
+:
+;
+<
+=
+>
+>!h
+?
+?"N
+@
+@&LH
+A':
+ALIGN_TYPE is wrong, please fix
+Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+Application transferred too few scanlines
+Application transferred too many scanlines
+Arithmetic table 0x%02x was not defined
+At marker 0x%02x, recovery action %d
+B
+Backing store not supported
+Bogus DAC index %d
+Bogus DAC value 0x%x
+Bogus DHT index %d
+Bogus DQT index %d
+Bogus Huffman table definition
+Bogus JPEG colorspace
+Bogus buffer control mode
+Bogus input colorspace
+Bogus marker length
+Bogus message code %d
+Bogus sampling factors
+Bogus virtual array access
+Buffer passed to JPEG library is too small
+C
+CCIR601 sampling not implemented yet
+CXXABI_1.3
+Cannot quantize more than %d color components
+Cannot quantize to fewer than %d colors
+Cannot quantize to more than %d colors
+Cannot transcode due to multiple use of quantization table %d
+Caution: quantization tables are too coarse for baseline JPEG
+Closed temporary file %s
+Component %d: %dhx%dv q=%d
+Component %d: dc=%d ac=%d
+Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
+Copyright (C) 2011, Thomas G. Lane, Guido Vollbeding
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Corrupt JPEG data: bad Huffman code
+Corrupt JPEG data: bad arithmetic code
+Corrupt JPEG data: found marker 0x%02x instead of RST%d
+Corrupt JPEG data: premature end of data segment
+D
+DCT coefficient out of range
+DCT scaled block size %dx%d not supported
+Define Arithmetic Table 0x%02x: 0x%02x
+Define Huffman Table 0x%02x
+Define Quantization Table %d  precision %d
+Define Restart Interval %u
+Description
+Didn't expect more than one scan
+E
+Empty JPEG image (DNL not supported)
+Empty input file
+End Of Image
+Failed to create temporary file %s
+Fractional sampling not implemented yet
+Freed EMS handle %u
+Freed XMS handle %u
+GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
+GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GLIBCXX_3.4
+GLIBC_2.2.5
+GLIBC_2.7
+GNU
+H
+Huffman code size table overflow
+Huffman table 0x%02x was not defined
+Image too wide for this implementation
+Improper call to JPEG library in state %d
+Inconsistent progression sequence for component %d coefficient %d
+Input file read error
+Insufficient memory (case %d)
+Invalid JPEG file structure: SOS before SOF
+Invalid JPEG file structure: missing SOS marker
+Invalid JPEG file structure: two SOF markers
+Invalid JPEG file structure: two SOI markers
+Invalid SOS parameters for sequential JPEG
+Invalid color quantization mode change
+Invalid component ID %d in SOS
+Invalid crop request
+Invalid memory pool code %d
+Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+Invalid progressive parameters at scan script entry %d
+Invalid scan script at entry %d
+JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+JFIF extension marker: JPEG-compressed thumbnail image, length %u
+JFIF extension marker: RGB thumbnail image, length %u
+JFIF extension marker: palette thumbnail image, length %u
+JFIF extension marker: type 0x%02x, length %u
+JPEG datastream contains no image
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+JPEGMEM
+KNQ
+M
+M0@
+MAX_ALLOC_CHUNK is wrong, please fix
+Maximum supported image dimension is %u pixels
+Miscellaneous marker 0x%02x, length %u
+Missing Huffman code table entry
+N
+Not a JPEG file: starts with 0x%02x 0x%02x
+Not implemented yet
+Obtained EMS handle %u
+Obtained XMS handle %u
+Opened temporary file %s
+Output file write error --- out of disk space?
+P
+Premature end of JPEG file
+Premature end of input file
+Q
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
+QArrayData::shared_null
+QBuffer::data() const
+QBuffer::staticMetaObject
+QByteArray::QByteArray(char const*, int)
+QByteArray::append(QByteArray const&)
+QByteArray::append(char const*)
+QByteArray::append(char const*, int)
+QByteArray::truncate(int)
+QC,A
+QDataStream::QDataStream(QByteArray*, QFlags<QIODevice::OpenModeFlag>)
+QDataStream::atEnd() const
+QDataStream::operator>>(int&)
+QDataStream::operator>>(short&)
+QDataStream::readRawData(char*, int)
+QDataStream::setByteOrder(QDataStream::ByteOrder)
+QDataStream::skipRawData(int)
+QDataStream::~QDataStream()
+QIODevice::isOpen() const
+QIODevice::isReadable() const
+QIODevice::isWritable() const
+QIODevice::peek(char*, long long)
+QIODevice::read(char*, long long)
+QIODevice::write(char const*, long long)
+QImage::QImage(QImage const&)
+QImage::QImage(QSize const&, QImage::Format)
+QImage::colorCount() const
+QImage::colorTable() const
+QImage::constScanLine(int) const
+QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const
+QImage::convertToFormat_inplace(QImage::Format, QFlags<Qt::ImageConversionFlag>)
+QImage::copy(QRect const&) const
+QImage::dotsPerMeterX() const
+QImage::dotsPerMeterY() const
+QImage::format() const
+QImage::height() const
+QImage::isNull() const
+QImage::scaled(QSize const&, Qt::AspectRatioMode, Qt::TransformationMode) const
+QImage::scanLine(int)
+QImage::setDotsPerMeterX(int)
+QImage::setDotsPerMeterY(int)
+QImage::setText(QString const&, QString const&)
+QImage::size() const
+QImage::text(QString const&) const
+QImage::textKeys() const
+QImage::width() const
+QImage::~QImage()
+QImageIOHandler::QImageIOHandler()
+QImageIOHandler::currentImageNumber() const
+QImageIOHandler::currentImageRect() const
+QImageIOHandler::device() const
+QImageIOHandler::imageCount() const
+QImageIOHandler::jumpToImage(int)
+QImageIOHandler::jumpToNextImage()
+QImageIOHandler::loopCount() const
+QImageIOHandler::nextImageDelay() const
+QImageIOHandler::setDevice(QIODevice*)
+QImageIOHandler::setFormat(QByteArray const&)
+QImageIOHandler::setFormat(QByteArray const&) const
+QImageIOHandler::~QImageIOHandler()
+QImageIOPlugin::QImageIOPlugin(QObject*)
+QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
+QImageIOPlugin::qt_metacast(char const*)
+QImageIOPlugin::staticMetaObject
+QImageIOPlugin::~QImageIOPlugin()
+QJpegHandler::canRead() called with no device
+QJpegPlugin
+QListData::append()
+QListData::detach(int)
+QListData::detach_grow(int*, int)
+QListData::dispose(QListData::Data*)
+QListData::shared_null
+QMapDataBase::createData()
+QMapDataBase::createNode(int, int, QMapNodeBase*, bool)
+QMapDataBase::freeData(QMapDataBase*)
+QMapDataBase::freeTree(QMapNodeBase*, int)
+QMapDataBase::recalcMostLeftNode()
+QMapDataBase::shared_null
+QMapNodeBase::nextNode() const
+QMessageLogger::warning(char const*, ...) const
+QMetaObject::cast(QObject*) const
+QObject::childEvent(QChildEvent*)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
+QObject::event(QEvent*)
+QObject::eventFilter(QObject*, QEvent*)
+QObject::timerEvent(QTimerEvent*)
+QObjectData::dynamicMetaObject() const
+QPaintDevice::QPaintDevice()
+QRect::operator&(QRect const&) const
+QString::append(QLatin1String)
+QString::append(QString const&)
+QString::fromLatin1_helper(char const*, int)
+QString::indexOf(QChar, int, Qt::CaseSensitivity) const
+QString::indexOf(QLatin1String, int, Qt::CaseSensitivity) const
+QString::left(int) const
+QString::mid(int, int) const
+QString::operator=(QString const&)
+QString::simplified_helper(QString const&)
+QString::simplified_helper(QString&)
+QString::split(QString const&, QString::SplitBehavior, Qt::CaseSensitivity) const
+QString::toLatin1_helper(QString const&)
+QVariant::QVariant(QRect const&)
+QVariant::QVariant(QSize const&)
+QVariant::QVariant(QString const&)
+QVariant::QVariant(QVariant const&)
+QVariant::QVariant(bool)
+QVariant::QVariant(int)
+QVariant::toBool() const
+QVariant::toInt(bool*) const
+QVariant::toRect() const
+QVariant::toSize() const
+QVariant::toString() const
+QVariant::~QVariant()
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+Quantization table 0x%02x was not defined
+Quantizing to %d = %d*%d*%d colors
+Quantizing to %d colors
+RST%d
+Read failed on temporary file
+Read from EMS failed
+Read from XMS failed
+Requested feature was omitted at compile time
+Sampling factors too large for interleaved scan
+Scan script does not transmit all data
+Seek failed on temporary file
+Selected %d colors for quantization
+Smoothing not supported with nonstandard sampling ratios
+Ss=%d, Se=%d, Ah=%d, Al=%d
+Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+Start Of Scan: %d components
+Start of Image
+Suspension not allowed here
+TF<)
+Too many color components: %d, max %d
+Unexpected marker 0x%02x
+Unknown APP0 marker (not JFIF), length %u
+Unknown APP14 marker (not Adobe), length %u
+Unknown Adobe color transform code %d
+Unrecognized component IDs %d %d %d, assuming YCbCr
+Unsupported JPEG data precision %d
+Unsupported JPEG process: SOF type 0x%02x
+Unsupported color conversion request
+Unsupported marker type 0x%02x
+VGy#
+Virtual array controller messed up
+W
+Warning: thumbnail image size does not match data length %u
+Warning: unknown JFIF revision number %d.%02d
+Write failed on temporary file --- out of disk space?
+Write to EMS failed
+Write to XMS failed
+Wrong JPEG library version: library is %d, caller expects %d
+\
+_
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__gmon_start__
+__isoc99_sscanf
+_edata
+_end
+_fini
+_init
+_setjmp
+a\">
+b
+c
+c]$8
+c]^7
+ceil
+d
+default
+e
+eaFO
+ferror
+fflush
+fprintf
+fread
+free
+fwrite
+g
+gc^A
+getenv
+h
+hd=<
+if1R
+jpeg
+jpg
+kh9F
+libGL.so.1
+libQt5Core.so.5
+libQt5Gui.so.5
+libc.so.6
+libgcc_s.so.1
+libm.so.6
+libpthread.so.0
+libstdc++.so.6
+longjmp
+m
+malloc
+memcmp
+memcpy
+memset
+okOP
+operator delete(void*)
+operator delete[](void*)
+operator new(unsigned long)
+operator new[](unsigned long)
+operator<(QString const&, QString const&)
+p
+pm"U
+q
+qDetectCpuFeatures()
+qstrcmp(QByteArray const&, char const*)
+qt_convert_rgb888_to_rgb32(unsigned int*, unsigned char const*, int)
+qt_convert_rgb888_to_rgb32_ssse3(unsigned int*, unsigned char const*, int)
+qt_cpu_features
+qt_imageTransform(QImage&, QFlags<QImageIOHandler::Transformation>)
+qt_plugin_instance
+qt_plugin_query_metadata
+sprintf
+stderr
+strcmp
+strlen
+typeinfo for QImageIOHandler
+typeinfo for QImageIOPlugin
+vtable for QImage
+vtable for __cxxabiv1::__si_class_type_info
+with %d x %d thumbnail image
+x
+y
+

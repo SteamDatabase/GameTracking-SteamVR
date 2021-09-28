@@ -1,0 +1,713 @@
+
+!
+!(delta_y & 1)
+!(io->mb_y & 1)
+!IsWPI(kChunks[idx].id)
+!b->error_
+!idec->is_lossless_
+!wpi->is_partial_
+"
+""
+#
+#l'
+$
+$@../../../3rdparty/libwebp/src/enc/histogram.c
+$I
+$ORIGIN/../../lib
+%
+&
+&%
+&2
+'
+(
+((
+(int)error < VP8_ENC_ERROR_LAST
+(int)error >= VP8_ENC_OK
+(uint64_t)(data - headers->data) < (~0U - 8 - 1)
+(uint64_t)(w * h) == (uint64_t)w * h
+(uint64_t)data_size == (uint64_t)width * height
+(uint64_t)sum * kInvAlpha[total_a] < ((uint64_t)1 << 32)
+)
+*
+*H/
++
+,
+-
+.
+../../../3rdparty/libwebp/src/dec/./../utils/bit_reader.h
+../../../3rdparty/libwebp/src/dec/./../utils/color_cache.h
+../../../3rdparty/libwebp/src/dec/alpha.c
+../../../3rdparty/libwebp/src/dec/frame.c
+../../../3rdparty/libwebp/src/dec/io.c
+../../../3rdparty/libwebp/src/dec/vp8.c
+../../../3rdparty/libwebp/src/dec/vp8l.c
+../../../3rdparty/libwebp/src/dec/webp.c
+../../../3rdparty/libwebp/src/dsp/enc.c
+../../../3rdparty/libwebp/src/dsp/enc_sse2.c
+../../../3rdparty/libwebp/src/dsp/lossless_sse2.c
+../../../3rdparty/libwebp/src/dsp/upsampling_sse2.c
+../../../3rdparty/libwebp/src/enc/../dsp/../utils/utils.h
+../../../3rdparty/libwebp/src/enc/./backward_references.h
+../../../3rdparty/libwebp/src/enc/alpha.c
+../../../3rdparty/libwebp/src/enc/analysis.c
+../../../3rdparty/libwebp/src/enc/backward_references.c
+../../../3rdparty/libwebp/src/enc/filter.c
+../../../3rdparty/libwebp/src/enc/frame.c
+../../../3rdparty/libwebp/src/enc/picture_csp.c
+../../../3rdparty/libwebp/src/enc/quant.c
+../../../3rdparty/libwebp/src/enc/syntax.c
+../../../3rdparty/libwebp/src/enc/token.c
+../../../3rdparty/libwebp/src/mux/../utils/utils.h
+../../../3rdparty/libwebp/src/mux/./muxi.h
+../../../3rdparty/libwebp/src/mux/muxedit.c
+../../../3rdparty/libwebp/src/mux/muxinternal.c
+../../../3rdparty/libwebp/src/utils/././bit_reader.h
+../../../3rdparty/libwebp/src/utils/./bit_reader_inl.h
+../../../3rdparty/libwebp/src/utils/bit_reader.c
+../../../3rdparty/libwebp/src/utils/bit_writer.c
+../../../3rdparty/libwebp/src/utils/color_cache.c
+../../../3rdparty/libwebp/src/utils/filters.c
+../../../3rdparty/libwebp/src/utils/huffman.c
+../../../3rdparty/libwebp/src/utils/huffman_encode.c
+../../../3rdparty/libwebp/src/utils/utils.c
+.k>
+/
+/P
+0
+1
+1$7
+11QWebpPlugin
+12QWebpHandler
+2
+3
+33
+4
+5
+6
+7
+8
+9
+9K
+:
+:O!
+;
+<
+<%
+<<
+=
+>
+>r0
+?
+@
+@Y>)F
+A
+A+)
+ALPH
+ALPHDecode
+ALPHInit
+AddToken
+AllocateAndInitRescaler
+AllocateInternalBuffers32b
+AllocateMemory
+AlphaMultiplyARGB
+AnalyzeAndInit
+AppendToMemBuffer
+ApplyCrossColorFilter
+ApplyInverseTransformsAlpha
+ApplyPredictFilter
+AssignChildren
+AssignSegments
+B
+BackwardReferencesHashChainFollowChosenPath
+Bad code word
+BitWriterResize
+C
+CXXABI_1.3
+CalcTokenProba
+ChangeState
+CheckMemBufferMode
+ChunkDiskSize
+ChunkEmit
+ChunkEmitSpecial
+ChunkInit
+ChunkSearchListToSet
+ClearBackwardRefs
+ClearMetadata
+CodeRepeatedValues
+CompareColors
+CompareHuffmanTrees
+ComputeCacheEntropy
+ConvertBitDepthsToSymbols
+CopyParts0Data
+Could not decode alpha data.
+CreateFrameFragmentData
+CustomPut
+D
+D@
+DD
+DecodeAlphaData
+DecodeImageData
+DecodeImageStream
+DecodeInto
+DecodeRemaining
+DecodeVP8LData
+DecodeVP8LHeader
+DefaultFeatures
+DeleteChunks
+DoFilter
+DoGradientFilter
+DoHorizontalFilter
+DoRemap
+DoVerticalFilter
+E
+EN8
+EmitRescaledRGB
+EmitRescaledRowsRGBA
+EmitVP8XChunk
+EncodeAlpha
+EncodeAlphaInternal
+EncodeImageInternal
+EncodeImageNoHuffman
+EncodeLossless
+EncodePalette
+End
+ExportAlpha
+ExportAlphaRGBA4444
+ExportRGB
+F
+FastSLog2Slow
+FinishRow
+Flush
+Frame not displayable.
+Frame setup failed
+G
+GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
+GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GLIBCXX_3.4
+GLIBC_2.2.5
+GNU
+GenerateOptimalTree
+GetAdjustedCanvasSize
+GetCombinedHistogramEntropy
+GetFrameFragmentInfo
+GetHistoBinIndex
+GetHtreeGroupForPos
+GetImageData
+GetImageInfo
+GetParamsForHashChainFindCopy
+GetResidualCost
+H
+HashChainFindCopy
+HashChainInit
+HistogramAdd
+HistogramAnalyzeEntropyBin
+HistogramBuild
+HistogramCompactBins
+HistogramCopy
+I
+IDecCheckStatus
+Import
+ImportYUVAFromRGBA
+Incorrect keyframe parameters.
+InitVP8Encoder
+Interpolate
+Is8bOptimizable(hdr)
+J
+K
+L
+L*@
+Ld
+LinearToGammaWeighted
+M
+Mult
+MuxCleanup
+MuxDeleteAllNamedData
+MuxEmitRiffHeader
+MuxGet
+MuxGetCanvasInfo
+MuxGetChunkListFromId
+MuxImageDeleteNth
+MuxImageEmit
+MuxImageGetNth
+MuxImageInit
+MuxImageParse
+MuxSet
+N
+NULL VP8Io parameter in VP8Decode().
+NeedCompressedAlpha
+Not a key frame.
+Ny"
+O
+O#
+Output aborted.
+P
+ParseHeadersInternal
+PictureGrabSpecs
+PixOrCopyCacheIdx
+PixOrCopyCreateCacheIdx
+PixOrCopyDistance
+PixOrCopyLiteral
+Premature end-of-file encountered.
+Premature end-of-partition0 encountered.
+ProcessRows
+PutLE16
+PutLE24
+PutVP8Header
+PutVP8XHeader
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
+QByteArray::endsWith(char const*) const
+QByteArray::startsWith(char const*) const
+QDebug::~QDebug()
+QIODevice::isOpen() const
+QIODevice::isReadable() const
+QIODevice::isWritable() const
+QIODevice::peek(long long)
+QIODevice::readAll()
+QIODevice::write(char const*, long long)
+QImage::QImage(QImage const&)
+QImage::QImage(int, int, QImage::Format)
+QImage::bits()
+QImage::byteCount() const
+QImage::bytesPerLine() const
+QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const
+QImage::format() const
+QImage::height() const
+QImage::isNull() const
+QImage::operator=(QImage const&)
+QImage::width() const
+QImage::~QImage()
+QImageIOHandler::QImageIOHandler()
+QImageIOHandler::currentImageNumber() const
+QImageIOHandler::currentImageRect() const
+QImageIOHandler::device() const
+QImageIOHandler::imageCount() const
+QImageIOHandler::jumpToImage(int)
+QImageIOHandler::jumpToNextImage()
+QImageIOHandler::loopCount() const
+QImageIOHandler::nextImageDelay() const
+QImageIOHandler::setDevice(QIODevice*)
+QImageIOHandler::setFormat(QByteArray const&)
+QImageIOHandler::setFormat(QByteArray const&) const
+QImageIOHandler::setOption(QImageIOHandler::ImageOption, QVariant const&)
+QImageIOHandler::~QImageIOHandler()
+QImageIOPlugin::QImageIOPlugin(QObject*)
+QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
+QImageIOPlugin::qt_metacast(char const*)
+QImageIOPlugin::staticMetaObject
+QImageIOPlugin::~QImageIOPlugin()
+QMessageLogger::warning() const
+QMessageLogger::warning(char const*, ...) const
+QObject::childEvent(QChildEvent*)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
+QObject::event(QEvent*)
+QObject::eventFilter(QObject*, QEvent*)
+QObject::timerEvent(QTimerEvent*)
+QObjectData::dynamicMetaObject() const
+QString::fromUtf8_helper(char const*, int)
+QTextStream::operator<<(QString const&)
+QTextStream::operator<<(char)
+QTextStream::operator<<(int)
+QVariant::QVariant(QSize const&)
+QVariant::QVariant(int)
+QVariant::toInt(bool*) const
+QWebpHandler::canRead() called with no device
+QWebpPlugin
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+QuantizeBlockWHT
+QuantizeLevels
+R
+RIFF
+ReadSymbol
+ReadTransform
+ReconstructIntra16
+S
+SearchImageToGetOrDelete
+Sequential devices are not supported
+SetCropWindow
+SetResidualCoeffs
+SetSegmentAlphas
+SmoothSegmentMap
+Sync
+SynthesizeBitstream
+T
+TreeAddSymbol
+TreeInit
+Truncated header.
+U
+UU
+UU*
+UpsampleArgbLinePair
+UpsampleBgrLinePair
+UpsampleBgraLinePair
+UpsampleRgb565LinePair
+UpsampleRgbLinePair
+UpsampleRgba4444LinePair
+UpsampleRgbaLinePair
+V
+VP8
+VP8BitWriterAppend
+VP8Decode
+VP8DecompressAlphaRows
+VP8EmitTokens
+VP8EstimateTokenSize
+VP8FilterStrengthFromDelta
+VP8GetThreadMethod
+VP8InitBitReader
+VP8InitDithering
+VP8L
+VP8LBackwardRefsClear
+VP8LBackwardRefsCopy
+VP8LBackwardRefsInit
+VP8LBitReaderSetBuffer
+VP8LColorCacheInit
+VP8LColorCacheLookup
+VP8LConvertFromBGRA
+VP8LCreateCompressedHuffmanTree
+VP8LDecodeAlphaHeader
+VP8LDecodeAlphaImageStream
+VP8LDecodeHeader
+VP8LDecodeImage
+VP8LDoFillBitWindow
+VP8LEncodeStream
+VP8LGetHistogramSize
+VP8LHashChainClear
+VP8LHashChainInit
+VP8LHtreeGroupsNew
+VP8LHuffmanCodeLengthsToCodes
+VP8LHuffmanTreeBuildExplicit
+VP8LHuffmanTreeBuildImplicit
+VP8LInitBitReader
+VP8LInverseTransform
+VP8LIsEndOfStream
+VP8LReadBits
+VP8LRefsCursorNext
+VP8LRefsCursorOk(c)
+VP8LWriteBits
+VP8LoadFinalBytes
+VP8LoadNewBytes
+VP8ProcessRow
+VP8SetResidualCoeffsSSE2
+VP8SetSegmentParams
+VP8X
+W
+WEBP
+WebPDecodeYUV
+WebPEncodingSetError
+WebPMuxAssemble
+WebPMuxPushFrame
+WebPParseHeaders
+WebPPictureAllocARGB
+WebPSafeCalloc
+WebPSafeMalloc
+WriteImageSize
+X
+Y
+Y7
+Y@
+Yx9
+Z
+[
+\
+\12
+]
+^
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__assert_fail
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__gmon_start__
+_edata
+_end
+_fini
+_init
+_}
+`
+`TA
+a != b
+a->palette_code_bits_ == b->palette_code_bits_
+a9
+alph_dec != ((void *)0)
+alph_dec->vp8l_dec_ != ((void *)0)
+alph_vp8l_dec != ((void *)0)
+b
+b'
+bad partition length
+bin_id < (4 * 4 * 4)
+bin_offset + num_histos < bin_depth * (4 * 4 * 4)
+br != ((void *)0)
+br != ((void *)0) && br->buf_ != ((void *)0)
+br->bit_pos_ >= 32
+br->eos_ == VP8LIsEndOfStream(br)
+br->pos_ <= br->len_
+buf != ((void *)0)
+buf->u_stride == buf->v_stride
+bw->buf_ != ((void *)0)
+bw->nb_bits_ >= 0
+bw->used_ + n_bits <= 2 * (8 * (int)sizeof(vp8l_atype_t))
+c
+c:
+calloc
+cannot parse filter header
+cannot parse partitions
+cannot parse picture header
+cannot parse segment header
+cc != ((void *)0)
+ccolor_transform_bits >= 2
+children - node == (int)(children - node)
+chunk
+chunk->tag_ != 0x00000000u
+chunk->tag_ == kChunks[IDX_ANMF].tag || chunk->tag_ == kChunks[IDX_FRGM].tag
+chunk_list
+chunk_list != ((void *)0)
+chunk_size == (uint32_t)chunk_size
+code_length <= 15
+code_lengths != ((void *)0)
+code_lengths_size > 0
+color_cache != ((void *)0)
+config.quality >= 0 && config.quality <= 100.f
+d
+data != ((void *)0)
+data != ((void *)0) && output != ((void *)0)
+data == ((void *)0)
+data_size < (~0U - 8 - 1)
+dec->action_ == READ_DATA
+dec->alph_dec_ != ((void *)0)
+dec->alpha_data_size_ >= 1
+dec->alpha_data_size_ >= 1 + offset + num_pixels
+dec->alpha_plane_ != ((void *)0)
+dec->hdr_.htree_groups_ != ((void *)0)
+dec->hdr_.num_htree_groups_ > 0
+dec->last_out_row_ <= output->height
+dec->last_row_ <= dec->height_
+dec->method_ == 1
+dec->next_transform_ <= 4
+dec->next_transform_ == 1
+dec->output_ != ((void *)0)
+dec->ready_
+dec->rescaler_memory == ((void *)0)
+dec->status_ != VP8_STATUS_OK
+dec->width_ <= final_width
+default
+dst == data + size
+e
+enc != ((void *)0) && pic != ((void *)0) && pic->a != ((void *)0)
+enc->argb_ != ((void *)0)
+enc->num_parts_ == 1
+enc->use_tokens_
+err == WEBP_MUX_OK
+expn > 0.
+f
+failed to encode webp picture, error code:
+failed to import image data to webp picture.
+failed to init webp picture and config
+features != ((void *)0)
+ff
+filter >= 0 && filter < WEBP_FILTER_LAST
+frame_frag != ((void *)0)
+frame_frag->header_->tag_ == kChunks[IDX_ANMF].tag || frame_frag->header_->tag_ == kChunks[IDX_FRGM].tag
+frame_frgm_chunk != ((void *)0)
+free
+g
+h
+hash_bits > 0
+hdr
+header->tag_ == kChunks[IDX_ANMF].tag || header->tag_ == kChunks[IDX_FRGM].tag
+header_size == (uint32_t)header_size
+headers != ((void *)0)
+headers == ((void *)0) || !headers->is_lossless
+headers->offset == headers->data_size - data_size
+histo_bits > 0
+histogram_bits <= 9
+histogram_bits >= 2
+histogram_image->size == 1
+histograms[end] != ((void *)0)
+histograms[start] != ((void *)0)
+htree_group != ((void *)0)
+huff_codes != ((void *)0)
+i
+idec
+idec->mem_.start_ <= idec->mem_.end_
+idx < (1 << 9)
+idx >= 0
+in != ((void *)0)
+inv_q_level[0] == min_s
+inv_q_level[num_levels - 1] == max_s
+io != ((void *)0)
+io->crop_left < io->crop_right
+i+
+j
+k
+key <= (~0U >> cc->hash_shift_)
+l
+l8$
+last_part >= 0
+last_row <= dec->height_
+left_over > 0
+len < 0xfffffff8u
+len == max_len
+length < 0xfffffff8u
+libGL.so.1
+libQt5Core.so.5
+libQt5Gui.so.5
+libc.so.6
+libgcc_s.so.1
+libm.so.6
+libpthread.so.0
+libstdc++.so.6
+limit >= 3
+log
+log10
+malloc
+mem <= (uint8_t*)dec->mem_ + dec->mem_size_
+mem <= (uint8_t*)enc + size
+mem->end_ <= mem->buf_size_
+mem->mode_ == expected
+mem->part0_buf_ == ((void *)0)
+mem->start_ <= mem->end_
+memcmp
+memcpy
+memmove
+memset
+meta_index < hdr->num_htree_groups_
+method <= 1
+method >= 0
+mid <= max && mid >= min
+mtx->sharpen_[j] == 0
+mux != ((void *)0)
+n
+n < 2 * nb
+n_bits <= 32
+n_bits >= 0
+nb <= total
+nb >= 1
+needed_lines > 0 && needed_lines <= lines_left
+nmemb * size > 0
+no memory during frame initialization.
+no object
+node != ((void *)0)
+null VP8Io passed to VP8GetHeaders()
+num_htree_groups <= 0x10000
+num_pass_left > 0
+o
+operator delete(void*)
+operator new(unsigned long)
+out != ((void *)0)
+p
+p->argb_or_distance < (1U << 9)
+p->chain_ == ((void *)0)
+p->last_y + y_pos + num_lines_out < p->output->height
+p->mode == kCopy
+p->mode == kLiteral
+p->scaler_u.y_accum == p->scaler_v.y_accum
+p->size_ == 0
+p[3
+palette_size >= 1
+params != ((void *)0)
+part_size <= mem->part0_size_
+pic != ((void *)0) && pic->argb != ((void *)0)
+pic->a_stride >= width
+pic->argb != ((void *)0)
+pic->width <= (1 << 24) && pic->height <= (1 << 24)
+pic->width >= 1 && pic->height >= 1
+picture != ((void *)0)
+pixel_index == xsize * ysize
+pos < end
+pow
+pred_bits >= 2
+proba->use_skip_proba_ == 0
+proba_idx < (1u << 14)
+q
+qsort
+qstrcmp(QByteArray const&, char const*)
+qt_plugin_instance
+qt_plugin_query_metadata
+r
+rd->y_ac_levels[n][0] == 0
+rd_opt >= RD_OPT_BASIC
+refs != ((void *)0)
+res->first == 0 || coeffs[0] == 0
+row >= 0 && num_rows > 0 && row + num_rows <= height
+row_end <= transform->ysize_
+row_start < row_end
+s
+sharpness >= 0 && sharpness <= 7
+size == (uint32_t)size
+source image is null.
+src != ((void *)0) && dst != ((void *)0)
+src < src_end
+src->block_size_ == dst->block_size_
+src->palette_code_bits_ == dst_cache_bits
+src_last <= src_end
+start != ((void *)0)
+start <= end
+step == 4
+step >= (import_alpha ? 4 : 3)
+strcmp
+symbol == (int16_t)symbol
+symbols != ((void *)0)
+t
+t1->value_ != t2->value_
+tab_pos + 1 < (1 << (12 - 7)) + 1
+tag == kChunks[IDX_ANMF].tag || tag == kChunks[IDX_FRGM].tag
+thread initialization failed.
+tokens != ((void *)0)
+tokens <= ending_token
+top_y != ((void *)0)
+total_a > 0 && total_a <= 4 * 0xff
+total_size <= (size_t)0x7fffffff
+transform->type_ == COLOR_INDEXING_TRANSFORM
+tree != ((void *)0)
+tree->max_nodes_ < (1 << 16)
+tree_size_orig <= (1 << (tree_depth_limit - 1))
+typeinfo for QImageIOHandler
+typeinfo for QImageIOPlugin
+t~B
+u
+u_lines_in == v_lines_in
+v != 0
+v <= 255
+v >= 256
+val < (1 << 16)
+val < (1 << 24)
+value <= 15
+vp8_size == (uint32_t)vp8_size
+vtable for __cxxabiv1::__si_class_type_info
+w
+w7;
+webp
+width * (uint64_t)height < (1ULL << 32)
+width < 16383 && height < 16383
+width <= (1 << 24) && height <= (1 << 24)
+width > 0
+width > 0 && height > 0
+width > 0 && height > 0 && info->duration >= 0
+width >= 1 && height >= 1
+worker->impl_ == ((void *)0)
+worker->status_ <= OK
+worker->status_ == OK
+wpi
+wpi != ((void *)0)
+wpi != ((void *)0) && wpi->img_ != ((void *)0)
+wpi->header_ != ((void *)0)
+wpi->img_ != ((void *)0)
+wpi.img_ != ((void *)0)
+wpi_list
+x
+x_offset < (1 << 24)
+xsize > 0
+xx
+y
+y_offset < (1 << 24)
+y_start < y_end
+z
+{
+|
+}
+

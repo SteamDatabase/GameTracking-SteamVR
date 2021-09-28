@@ -1,0 +1,932 @@
+
+!
+"
+#
+$
+$ORIGIN/../../lib
+%
+%s: Unable to determine KDE dirs
+&
+&Cancel
+&Close
+&OK
+&Save
+'
+(
+)
++
+,
+, properties=
+-
+.
+/
+/MenuBar
+/StatusNotifierItem
+/StatusNotifierWatcher
+/usr/local/share/:/usr/share/
+1
+10QGtk2Theme
+11QGnomeTheme
+11QGtk2Dialog
+13QDBusTrayIcon
+16QDBusMenuAdaptor
+16QGtk2ThemePlugin
+16QKdeThemePrivate
+17QDBusPlatformMenu
+17QGenericUnixTheme
+18QGnomeThemePrivate
+19QDBusMenuConnection
+1actionInvoked(uint,QString)
+1attentionTimerExpired()
+1dbusError(QDBusError)
+1notificationClosed(uint,uint)
+1onAccepted()
+1quit()
+2
+21QDBusPlatformMenuItem
+21QGtk2FileDialogHelper
+21QGtk2FontDialogHelper
+22QGtk2ColorDialogHelper
+24QGenericUnixThemePrivate
+25QXdgNotificationInterface
+26QStatusNotifierItemAdaptor
+2ActionInvoked(uint,QString)
+2ItemsPropertiesUpdated(QDBusMenuItemList,QDBusMenuItemKeysList)
+2LayoutUpdated(uint,int)
+2NewAttentionIcon()
+2NewIcon()
+2NewStatus(QString)
+2NewTitle()
+2NewToolTip()
+2NotificationClosed(uint,uint)
+2accept()
+2attention()
+2iconChanged()
+2propertiesUpdated(QDBusMenuItemList,QDBusMenuItemKeysList)
+2reject()
+2statusChanged(QString)
+2timeout()
+2tooltipChanged()
+2trayIconRegistered()
+2updated(uint,int)
+6
+6@
+9
+9QKdeTheme
+:
+;
+<
+<interface name="com.canonical.dbusmenu">    <property access="read" type="u" name="Version">    </property>    <property access="read" type="s" name="TextDirection">    </property>    <property access="read" type="s" name="Status">    </property>    <property access="read" type="as" name="IconThemePath">    </property>    <method name="GetLayout">      <annotation value="QDBusMenuLayoutItem" name="org.qtproject.QtDBus.QtTypeName.Out1"/>      <arg direction="in" type="i" name="parentId"/>      <arg direction="in" type="i" name="recursionDepth"/>      <arg direction="in" type="as" name="propertyNames"/>      <arg direction="out" type="u" name="revision"/>      <arg direction="out" type="(ia{sv}av)" name="layout"/>    </method>    <method name="GetGroupProperties">      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.In0"/>      <annotation value="QDBusMenuItemList" name="org.qtproject.QtDBus.QtTypeName.Out0"/>      <arg direction="in" type="ai" name="ids"/>      <arg direction="in" type="as" name="propertyNames"/>      <arg direction="out" type="a(ia{sv})" name="properties"/>    </method>    <method name="GetProperty">      <arg direction="in" type="i" name="id"/>      <arg direction="in" type="s" name="name"/>      <arg direction="out" type="v" name="value"/>    </method>    <method name="Event">      <arg direction="in" type="i" name="id"/>      <arg direction="in" type="s" name="eventId"/>      <arg direction="in" type="v" name="data"/>      <arg direction="in" type="u" name="timestamp"/>    </method>    <method name="EventGroup">      <annotation value="QList&lt;QDBusMenuEvent&gt;" name="org.qtproject.QtDBus.QtTypeName.In0"/>      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.Out0"/>      <arg direction="in" type="a(isvu)" name="events"/>      <arg direction="out" type="ai" name="idErrors"/>    </method>    <method name="AboutToShow">      <arg direction="in" type="i" name="id"/>      <arg direction="out" type="b" name="needUpdate"/>    </method>    <method name="AboutToShowGroup">      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.In0"/>      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.Out0"/>      <annotation value="QList&lt;int&gt;" name="org.qtproject.QtDBus.QtTypeName.Out1"/>      <arg direction="in" type="ai" name="ids"/>      <arg direction="out" type="ai" name="updatesNeeded"/>      <arg direction="out" type="ai" name="idErrors"/>    </method>    <signal name="ItemsPropertiesUpdated">      <annotation value="QDBusMenuItemList" name="org.qtproject.QtDBus.QtTypeName.In0"/>      <annotation value="QDBusMenuItemKeysList" name="org.qtproject.QtDBus.QtTypeName.In1"/>      <arg direction="out" type="a(ia{sv})" name="updatedProps"/>      <arg direction="out" type="a(ias)" name="removedProps"/>    </signal>    <signal name="LayoutUpdated">      <arg direction="out" type="u" name="revision"/>      <arg direction="out" type="i" name="parent"/>    </signal>    <signal name="ItemActivationRequested">      <arg direction="out" type="i" name="id"/>      <arg direction="out" type="u" name="timestamp"/>    </signal>  </interface>
+<interface name="org.kde.StatusNotifierItem">    <property access="read" type="s" name="Category"/>    <property access="read" type="s" name="Id"/>    <property access="read" type="s" name="Title"/>    <property access="read" type="s" name="Status"/>    <property access="read" type="i" name="WindowId"/>    <property access="read" type="s" name="IconThemePath"/>    <property access="read" type="o" name="Menu"/>    <property access="read" type="b" name="ItemIsMenu"/>    <property access="read" type="s" name="IconName"/>    <property access="read" type="(iiay)" name="IconPixmap">      <annotation value="QXdgDBusImageVector" name="org.qtproject.QtDBus.QtTypeName"/>    </property>    <property access="read" type="s" name="OverlayIconName"/>    <property access="read" type="(iiay)" name="OverlayIconPixmap">      <annotation value="QXdgDBusImageVector" name="org.qtproject.QtDBus.QtTypeName"/>    </property>    <property access="read" type="s" name="AttentionIconName"/>    <property access="read" type="(iiay)" name="AttentionIconPixmap">      <annotation value="QXdgDBusImageVector" name="org.qtproject.QtDBus.QtTypeName"/>    </property>    <property access="read" type="s" name="AttentionMovieName"/>    <property access="read" type="(s(iiay)ss)" name="ToolTip">      <annotation value="QXdgDBusToolTipStruct" name="org.qtproject.QtDBus.QtTypeName"/>    </property>    <method name="ContextMenu">      <arg direction="in" type="i" name="x"/>      <arg direction="in" type="i" name="y"/>    </method>    <method name="Activate">      <arg direction="in" type="i" name="x"/>      <arg direction="in" type="i" name="y"/>    </method>    <method name="SecondaryActivate">      <arg direction="in" type="i" name="x"/>      <arg direction="in" type="i" name="y"/>    </method>    <method name="Scroll">      <arg direction="in" type="i" name="delta"/>      <arg direction="in" type="s" name="orientation"/>    </method>    <signal name="NewTitle"/>    <signal name="NewIcon"/>    <signal name="NewAttentionIcon"/>    <signal name="NewOverlayIcon"/>    <signal name="NewToolTip"/>    <signal name="NewStatus">      <arg type="s" name="status"/>    </signal>  </interface>
+=>
+>
+?
+@
+A
+AboutToShow
+AboutToShowGroup
+ActionInvoked
+Activate
+AttentionIconName
+AttentionIconPixmap
+AttentionMovieName
+B
+C
+CXXABI_1.3
+Category
+Close without Saving
+ContextMenu
+D
+D-Bus Interface
+D-Bus Introspection
+D-Bus tray available:
+DESKTOP_SESSION
+E
+Event
+EventGroup
+F
+G
+GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
+GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GLIBCXX_3.4
+GLIBC_2.2.5
+GNOME
+GNU
+GetGroupProperties
+GetLayout
+GetProperty
+H
+I
+IconName
+IconPixmap
+Id
+IsStatusNotifierHostRegistered
+ItemActivationRequested
+ItemIsMenu
+ItemsPropertiesUpdated
+J
+K
+KDE
+KDEDIRS
+KDEHOME
+KDE_SESSION_VERSION
+L
+LXDE
+LayoutUpdated
+MATE
+Menu
+MessageIcon
+N
+NewAttentionIcon
+NewIcon
+NewOverlayIcon
+NewStatus
+NewTitle
+NewToolTip
+NotificationClosed
+O
+OverlayIconName
+OverlayIconPixmap
+P@/NO_DBUSMENU
+PNG
+Q
+QAbstractConcatenable::appendLatin1To(char const*, int, QChar*)
+QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>)
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
+QArrayData::shared_null
+QBrush::QBrush(QColor const&, Qt::BrushStyle)
+QBrush::QBrush(Qt::GlobalColor, Qt::BrushStyle)
+QBrush::~QBrush()
+QBuffer::QBuffer(QObject*)
+QBuffer::data() const
+QBuffer::~QBuffer()
+QByteArray::QByteArray(char const*, int)
+QByteArray::QByteArray(int, char)
+QByteArray::append(char const*, int)
+QByteArray::append(char)
+QByteArray::endsWith(char) const
+QByteArray::operator=(QByteArray const&)
+QByteArray::reallocData(unsigned int, QFlags<QArrayData::AllocationOption>)
+QByteArray::split(char) const
+QByteArray::toInt(bool*, int) const
+QColor::alpha() const
+QColor::blue() const
+QColor::dark(int) const
+QColor::getHsv(int*, int*, int*, int*) const
+QColor::green() const
+QColor::light(int) const
+QColor::red() const
+QColor::setRgb(int, int, int, int)
+QColorDialogOptions::testOption(QColorDialogOptions::ColorDialogOption) const
+QColorDialogOptions::windowTitle() const
+QCoreApplication::applicationName()
+QCoreApplication::applicationPid()
+QCoreApplication::self
+QCoreApplication::translate(char const*, char const*, char const*, int)
+QDBusAbstractAdaptor::QDBusAbstractAdaptor(QObject*)
+QDBusAbstractAdaptor::qt_metacall(QMetaObject::Call, int, void**)
+QDBusAbstractAdaptor::qt_metacast(char const*)
+QDBusAbstractAdaptor::setAutoRelaySignals(bool)
+QDBusAbstractAdaptor::staticMetaObject
+QDBusAbstractAdaptor::~QDBusAbstractAdaptor()
+QDBusAbstractInterface::QDBusAbstractInterface(QString const&, QString const&, char const*, QDBusConnection const&, QObject*)
+QDBusAbstractInterface::asyncCallWithArgumentList(QString const&, QList<QVariant> const&)
+QDBusAbstractInterface::callWithArgumentList(QDBus::CallMode, QString const&, QList<QVariant> const&)
+QDBusAbstractInterface::connectNotify(QMetaMethod const&)
+QDBusAbstractInterface::disconnectNotify(QMetaMethod const&)
+QDBusAbstractInterface::isValid() const
+QDBusAbstractInterface::qt_metacall(QMetaObject::Call, int, void**)
+QDBusAbstractInterface::qt_metacast(char const*)
+QDBusAbstractInterface::staticMetaObject
+QDBusAbstractInterface::~QDBusAbstractInterface()
+QDBusArgument
+QDBusArgument::QDBusArgument()
+QDBusArgument::QDBusArgument(QDBusArgument const&)
+QDBusArgument::atEnd() const
+QDBusArgument::beginArray() const
+QDBusArgument::beginArray(int)
+QDBusArgument::beginMap() const
+QDBusArgument::beginMap(int, int)
+QDBusArgument::beginMapEntry()
+QDBusArgument::beginMapEntry() const
+QDBusArgument::beginStructure()
+QDBusArgument::beginStructure() const
+QDBusArgument::endArray()
+QDBusArgument::endArray() const
+QDBusArgument::endMap()
+QDBusArgument::endMap() const
+QDBusArgument::endMapEntry()
+QDBusArgument::endMapEntry() const
+QDBusArgument::endStructure()
+QDBusArgument::endStructure() const
+QDBusArgument::operator<<(QByteArray const&)
+QDBusArgument::operator<<(QDBusVariant const&)
+QDBusArgument::operator<<(QString const&)
+QDBusArgument::operator<<(QStringList const&)
+QDBusArgument::operator<<(int)
+QDBusArgument::operator<<(unsigned int)
+QDBusArgument::operator>>(QByteArray&) const
+QDBusArgument::operator>>(QDBusVariant&) const
+QDBusArgument::operator>>(QString&) const
+QDBusArgument::operator>>(QStringList&) const
+QDBusArgument::operator>>(int&) const
+QDBusArgument::operator>>(unsigned int&) const
+QDBusArgument::~QDBusArgument()
+QDBusConnection::QDBusConnection(QDBusConnection const&)
+QDBusConnection::callWithCallback(QDBusMessage const&, QObject*, char const*, char const*, int) const
+QDBusConnection::registerObject(QString const&, QObject*, QFlags<QDBusConnection::RegisterOption>)
+QDBusConnection::registerService(QString const&)
+QDBusConnection::sessionBus()
+QDBusConnection::unregisterObject(QString const&, QDBusConnection::UnregisterMode)
+QDBusConnection::unregisterService(QString const&)
+QDBusConnection::~QDBusConnection()
+QDBusError
+QDBusError::QDBusError()
+QDBusError::operator=(QDBusError const&)
+QDBusInterface::QDBusInterface(QString const&, QString const&, QString const&, QDBusConnection const&, QObject*)
+QDBusInterface::~QDBusInterface()
+QDBusMenuAdaptor
+QDBusMenuConnection
+QDBusMenuEvent
+QDBusMenuEventList
+QDBusMenuItem
+QDBusMenuItem(id=
+QDBusMenuItemKeys
+QDBusMenuItemKeysList
+QDBusMenuItemList
+QDBusMenuLayoutItem
+QDBusMenuLayoutItem&
+QDBusMenuLayoutItem(id=
+QDBusMenuLayoutItemList
+QDBusMessage::arguments() const
+QDBusMessage::createMethodCall(QString const&, QString const&, QString const&, QString const&)
+QDBusMessage::setArguments(QList<QVariant> const&)
+QDBusMessage::type() const
+QDBusMessage::~QDBusMessage()
+QDBusMetaType::registerMarshallOperators(int, void (*)(QDBusArgument&, void const*), void (*)(QDBusArgument const&, void*))
+QDBusObjectPath
+QDBusObjectPath::doCheck()
+QDBusPendingCall::~QDBusPendingCall()
+QDBusPendingReply<>
+QDBusPendingReply<QString,QString,QString,QString>
+QDBusPendingReply<QStringList>
+QDBusPendingReply<uint>
+QDBusPendingReplyData::QDBusPendingReplyData()
+QDBusPendingReplyData::assign(QDBusPendingCall const&)
+QDBusPendingReplyData::setMetaTypes(int, int const*)
+QDBusPendingReplyData::~QDBusPendingReplyData()
+QDBusPlatformMenu
+QDBusPlatformMenu*
+QDBusPlatformMenuItem
+QDBusReply<QString>
+QDBusServiceWatcher::QDBusServiceWatcher(QString const&, QDBusConnection const&, QFlags<QDBusServiceWatcher::WatchModeFlag>, QObject*)
+QDBusTrayIcon
+QDBusTrayIcon encountered a D-Bus error:
+QDBusVariant
+QDebug::putString(QChar const*, unsigned long)
+QDebug::~QDebug()
+QDebugStateSaver::QDebugStateSaver(QDebug&)
+QDebugStateSaver::~QDebugStateSaver()
+QDir::homePath()
+QDir::tempPath()
+QEventLoop::QEventLoop(QObject*)
+QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>)
+QEventLoop::~QEventLoop()
+QFileDialogOptions::acceptMode() const
+QFileDialogOptions::fileMode() const
+QFileDialogOptions::initialDirectory() const
+QFileDialogOptions::initiallySelectedFiles() const
+QFileDialogOptions::initiallySelectedNameFilter() const
+QFileDialogOptions::isLabelExplicitlySet(QFileDialogOptions::DialogLabel)
+QFileDialogOptions::labelText(QFileDialogOptions::DialogLabel) const
+QFileDialogOptions::nameFilters() const
+QFileDialogOptions::testOption(QFileDialogOptions::FileDialogOption) const
+QFileDialogOptions::windowTitle() const
+QFileInfo::QFileInfo(QString const&)
+QFileInfo::absoluteFilePath() const
+QFileInfo::fileName() const
+QFileInfo::isDir() const
+QFileInfo::isReadable() const
+QFileInfo::path() const
+QFileInfo::~QFileInfo()
+QFont::QFont()
+QFont::QFont(QFont const&)
+QFont::QFont(QString const&, int, int, bool)
+QFont::family() const
+QFont::fromString(QString const&)
+QFont::pointSize() const
+QFont::pointSizeF() const
+QFont::setFamily(QString const&)
+QFont::setPointSizeF(double)
+QFont::setStyle(QFont::Style)
+QFont::setStyleHint(QFont::StyleHint, QFont::StyleStrategy)
+QFont::setWeight(int)
+QFont::style() const
+QFont::weight() const
+QFont::~QFont()
+QFontDialogOptions::testOption(QFontDialogOptions::FontDialogOption) const
+QFontDialogOptions::windowTitle() const
+QGnomeTheme
+QGtk2ColorDialogHelper
+QGtk2Dialog
+QGtk2FileDialogHelper
+QGtk2FontDialogHelper
+QGtk2ThemePlugin
+QGuiApplication::desktopSettingsAware()
+QGuiApplication::devicePixelRatio() const
+QGuiApplicationPrivate::hideModalWindow(QWindow*)
+QGuiApplicationPrivate::platform_integration
+QGuiApplicationPrivate::showModalWindow(QWindow*)
+QHashData::allocateNode(int)
+QHashData::detach_helper(void (*)(QHashData::Node*, void*), void (*)(QHashData::Node*), int, int)
+QHashData::freeNode(void*)
+QHashData::free_helper(void (*)(QHashData::Node*))
+QHashData::nextNode(QHashData::Node*)
+QHashData::rehash(int)
+QHashData::shared_null
+QIcon::QIcon()
+QIcon::QIcon(QIcon const&)
+QIcon::availableSizes(QIcon::Mode, QIcon::State) const
+QIcon::isNull() const
+QIcon::name() const
+QIcon::operator=(QIcon const&)
+QIcon::pixmap(QSize const&, QIcon::Mode, QIcon::State) const
+QIcon::~QIcon()
+QImage::QImage(int, int, QImage::Format)
+QImage::byteCount() const
+QImage::constBits() const
+QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const
+QImage::convertToFormat_inplace(QImage::Format, QFlags<Qt::ImageConversionFlag>)
+QImage::fill(Qt::GlobalColor)
+QImage::height() const
+QImage::operator=(QImage const&)
+QImage::width() const
+QImage::~QImage()
+QKeySequence::QKeySequence()
+QKeySequence::operator=(QKeySequence const&)
+QKeySequence::~QKeySequence()
+QList
+QList<int>
+QList<int>&
+QListData::append()
+QListData::append(QListData const&)
+QListData::detach(int)
+QListData::detach_grow(int*, int)
+QListData::dispose(QListData::Data*)
+QListData::insert(int)
+QListData::prepend()
+QListData::remove(int)
+QListData::shared_null
+QLocale::QLocale()
+QLocale::textDirection() const
+QLocale::~QLocale()
+QLoggingCategory::QLoggingCategory(char const*)
+QLoggingCategory::~QLoggingCategory()
+QMap(
+QMapDataBase::createData()
+QMapDataBase::createNode(int, int, QMapNodeBase*, bool)
+QMapDataBase::freeData(QMapDataBase*)
+QMapDataBase::freeTree(QMapNodeBase*, int)
+QMapDataBase::recalcMostLeftNode()
+QMapDataBase::shared_null
+QMapNodeBase::nextNode() const
+QMessageLogger::debug() const
+QMessageLogger::warning() const
+QMessageLogger::warning(char const*, ...) const
+QMetaEnum::valueToKey(int) const
+QMetaObject::Connection::~Connection()
+QMetaObject::activate(QObject*, QMetaObject const*, int, void**)
+QMetaObject::cast(QObject*) const
+QMetaObject::enumerator(int) const
+QMetaObject::indexOfEnumerator(char const*) const
+QMetaObject::normalizedType(char const*)
+QMetaObject::tr(char const*, char const*, int) const
+QMetaType::hasRegisteredConverterFunction(int, int)
+QMetaType::registerConverterFunction(QtPrivate::AbstractConverterFunction const*, int, int)
+QMetaType::registerNormalizedType(QByteArray const&, void (*)(void*), void* (*)(void*, void const*), int, QFlags<QMetaType::TypeFlag>, QMetaObject const*)
+QMetaType::registerNormalizedTypedef(QByteArray const&, int)
+QMetaType::typeName(int)
+QMetaType::unregisterConverterFunction(int, int)
+QObject::QObject(QObject*)
+QObject::childEvent(QChildEvent*)
+QObject::connect(QObject const*, char const*, QObject const*, char const*, Qt::ConnectionType)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
+QObject::event(QEvent*)
+QObject::eventFilter(QObject*, QEvent*)
+QObject::property(char const*) const
+QObject::qt_metacall(QMetaObject::Call, int, void**)
+QObject::qt_metacast(char const*)
+QObject::staticMetaObject
+QObject::timerEvent(QTimerEvent*)
+QObject::~QObject()
+QObjectData::dynamicMetaObject() const
+QPaintDevice::QPaintDevice()
+QPainter::QPainter(QPaintDevice*)
+QPainter::drawImage(QPointF const&, QImage const&)
+QPainter::~QPainter()
+QPalette::QPalette()
+QPalette::QPalette(QColor const&, QColor const&)
+QPalette::QPalette(QPalette const&)
+QPalette::brush(QPalette::ColorGroup, QPalette::ColorRole) const
+QPalette::setBrush(QPalette::ColorGroup, QPalette::ColorRole, QBrush const&)
+QPalette::~QPalette()
+QPixmap::save(QIODevice*, char const*, int) const
+QPixmap::toImage() const
+QPixmap::~QPixmap()
+QPlatformColorDialogHelper::colorSelected(QColor const&)
+QPlatformColorDialogHelper::currentColorChanged(QColor const&)
+QPlatformColorDialogHelper::options() const
+QPlatformColorDialogHelper::qt_metacall(QMetaObject::Call, int, void**)
+QPlatformColorDialogHelper::qt_metacast(char const*)
+QPlatformColorDialogHelper::staticMetaObject
+QPlatformDialogHelper::QPlatformDialogHelper()
+QPlatformDialogHelper::accept()
+QPlatformDialogHelper::styleHint(QPlatformDialogHelper::StyleHint) const
+QPlatformDialogHelper::~QPlatformDialogHelper()
+QPlatformFileDialogHelper::cleanFilterList(QString const&)
+QPlatformFileDialogHelper::currentChanged(QUrl const&)
+QPlatformFileDialogHelper::directoryEntered(QUrl const&)
+QPlatformFileDialogHelper::fileSelected(QUrl const&)
+QPlatformFileDialogHelper::filesSelected(QList<QUrl> const&)
+QPlatformFileDialogHelper::filterSelected(QString const&)
+QPlatformFileDialogHelper::isSupportedUrl(QUrl const&) const
+QPlatformFileDialogHelper::options() const
+QPlatformFileDialogHelper::qt_metacall(QMetaObject::Call, int, void**)
+QPlatformFileDialogHelper::qt_metacast(char const*)
+QPlatformFileDialogHelper::staticMetaObject
+QPlatformFontDatabase::weightFromInteger(int)
+QPlatformFontDialogHelper::currentFontChanged(QFont const&)
+QPlatformFontDialogHelper::fontSelected(QFont const&)
+QPlatformFontDialogHelper::options() const
+QPlatformFontDialogHelper::qt_metacall(QMetaObject::Call, int, void**)
+QPlatformFontDialogHelper::qt_metacast(char const*)
+QPlatformFontDialogHelper::staticMetaObject
+QPlatformMenu::qt_metacall(QMetaObject::Call, int, void**)
+QPlatformMenu::qt_metacast(char const*)
+QPlatformMenu::staticMetaObject
+QPlatformMenuItem::activated()
+QPlatformMenuItem::qt_metacall(QMetaObject::Call, int, void**)
+QPlatformMenuItem::qt_metacast(char const*)
+QPlatformMenuItem::staticMetaObject
+QPlatformSystemTrayIcon::QPlatformSystemTrayIcon()
+QPlatformSystemTrayIcon::activated(QPlatformSystemTrayIcon::ActivationReason)
+QPlatformSystemTrayIcon::messageClicked()
+QPlatformSystemTrayIcon::metaObject() const
+QPlatformSystemTrayIcon::qt_metacall(QMetaObject::Call, int, void**)
+QPlatformSystemTrayIcon::qt_metacast(char const*)
+QPlatformSystemTrayIcon::staticMetaObject
+QPlatformSystemTrayIcon::~QPlatformSystemTrayIcon()
+QPlatformTheme::QPlatformTheme(QPlatformThemePrivate*)
+QPlatformTheme::createIconEngine(QString const&) const
+QPlatformTheme::createPlatformDialogHelper(QPlatformTheme::DialogType) const
+QPlatformTheme::createPlatformMenu() const
+QPlatformTheme::createPlatformMenuBar() const
+QPlatformTheme::createPlatformMenuItem() const
+QPlatformTheme::fileIconPixmap(QFileInfo const&, QSizeF const&, QFlags<QPlatformTheme::IconOption>) const
+QPlatformTheme::keyBindings(QKeySequence::StandardKey) const
+QPlatformTheme::palette(QPlatformTheme::Palette) const
+QPlatformTheme::standardButtonText(int) const
+QPlatformTheme::standardPixmap(QPlatformTheme::StandardPixmap, QSizeF const&) const
+QPlatformTheme::themeHint(QPlatformTheme::ThemeHint) const
+QPlatformTheme::usePlatformNativeDialog(QPlatformTheme::DialogType) const
+QPlatformTheme::~QPlatformTheme()
+QPlatformThemePlugin::QPlatformThemePlugin(QObject*)
+QPlatformThemePlugin::qt_metacall(QMetaObject::Call, int, void**)
+QPlatformThemePlugin::qt_metacast(char const*)
+QPlatformThemePlugin::staticMetaObject
+QPlatformThemePlugin::~QPlatformThemePlugin()
+QPlatformThemePrivate::QPlatformThemePrivate()
+QPlatformThemePrivate::~QPlatformThemePrivate()
+QSettings::QSettings(QString const&, QSettings::Format, QObject*)
+QSettings::beginGroup(QString const&)
+QSettings::value(QString const&, QVariant const&) const
+QSettings::~QSettings()
+QStatusNotifierItemAdaptor
+QString&
+QString::QString(int, Qt::Initialization)
+QString::append(QString const&)
+QString::arg(QString const&, int, QChar) const
+QString::arg(long long, int, int, QChar) const
+QString::compare(QLatin1String, Qt::CaseSensitivity) const
+QString::expand(int)
+QString::fromLatin1_helper(char const*, int)
+QString::fromLocal8Bit_helper(char const*, int)
+QString::fromUtf8_helper(char const*, int)
+QString::indexOf(QChar, int, Qt::CaseSensitivity) const
+QString::lastIndexOf(QChar, int, Qt::CaseSensitivity) const
+QString::left(int) const
+QString::mid(int, int) const
+QString::operator=(QString const&)
+QString::operator==(QLatin1String) const
+QString::reallocData(unsigned int, bool)
+QString::split(QChar, QString::SplitBehavior, Qt::CaseSensitivity) const
+QString::toFloat(bool*) const
+QString::toInt(bool*, int) const
+QString::toUtf8_helper(QString const&)
+QTemporaryFile::QTemporaryFile(QString const&, QObject*)
+QTextStream::operator<<(QString const&)
+QTextStream::operator<<(char const*)
+QTextStream::operator<<(char)
+QTextStream::operator<<(int)
+QTextStream::operator<<(unsigned int)
+QTimer::QTimer(QObject*)
+QTimer::start(int)
+QTimer::~QTimer()
+QUrl::QUrl()
+QUrl::QUrl(QUrl const&)
+QUrl::clear()
+QUrl::fromLocalFile(QString const&)
+QUrl::isEmpty() const
+QUrl::isLocalFile() const
+QUrl::toLocalFile() const
+QUrl::~QUrl()
+QVariant::QVariant(QByteArray const&)
+QVariant::QVariant(QChar)
+QVariant::QVariant(QLatin1String)
+QVariant::QVariant(QString const&)
+QVariant::QVariant(QStringList const&)
+QVariant::QVariant(QVariant const&)
+QVariant::QVariant(bool)
+QVariant::QVariant(int)
+QVariant::QVariant(int, void const*)
+QVariant::QVariant(int, void const*, unsigned int)
+QVariant::constData() const
+QVariant::convert(int, void*) const
+QVariant::operator=(QVariant const&)
+QVariant::toBool() const
+QVariant::toInt(bool*) const
+QVariant::toString() const
+QVariant::toStringList() const
+QVariant::type() const
+QVariant::userType() const
+QVariant::~QVariant()
+QWindow::QWindow(QScreen*)
+QWindow::accessibleRoot() const
+QWindow::event(QEvent*)
+QWindow::exposeEvent(QExposeEvent*)
+QWindow::focusInEvent(QFocusEvent*)
+QWindow::focusObject() const
+QWindow::focusOutEvent(QFocusEvent*)
+QWindow::format() const
+QWindow::geometry() const
+QWindow::hideEvent(QHideEvent*)
+QWindow::keyPressEvent(QKeyEvent*)
+QWindow::keyReleaseEvent(QKeyEvent*)
+QWindow::modality() const
+QWindow::mouseDoubleClickEvent(QMouseEvent*)
+QWindow::mouseMoveEvent(QMouseEvent*)
+QWindow::mousePressEvent(QMouseEvent*)
+QWindow::mouseReleaseEvent(QMouseEvent*)
+QWindow::moveEvent(QMoveEvent*)
+QWindow::nativeEvent(QByteArray const&, void*, long*)
+QWindow::qt_metacall(QMetaObject::Call, int, void**)
+QWindow::qt_metacast(char const*)
+QWindow::resizeEvent(QResizeEvent*)
+QWindow::setFlags(QFlags<Qt::WindowType>)
+QWindow::setModality(Qt::WindowModality)
+QWindow::setParent(QWindow*)
+QWindow::showEvent(QShowEvent*)
+QWindow::staticMetaObject
+QWindow::surfaceHandle() const
+QWindow::surfaceType() const
+QWindow::tabletEvent(QTabletEvent*)
+QWindow::touchEvent(QTouchEvent*)
+QWindow::wheelEvent(QWheelEvent*)
+QWindow::winId() const
+QWindow::~QWindow()
+QXdgDBusImageStruct
+QXdgDBusImageVector
+QXdgDBusToolTipStruct
+QXdgNotificationInterface
+QtMetaTypePrivate::QSequentialIterableImpl
+QtPrivate::QStringList_contains(QStringList const*, QString const&, Qt::CaseSensitivity)
+QtPrivate::QStringList_join(QStringList const*, QChar const*, int)
+QtPrivate::QStringList_removeDuplicates(QStringList*)
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+RegisterStatusNotifierItem
+S
+Sans Serif
+Scroll
+SecondaryActivate
+Status
+StatusNotifierHost is not registered
+T
+TextBesideIcon
+TextDirection
+TextOnly
+TextUnderIcon
+Title
+ToolTip
+U
+UNITY
+V
+Version
+W
+X
+X-CINNAMON
+XDG_DATA_DIRS
+XFCE
+XSetErrorHandler
+XSetTransientForHint
+[
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__gmon_start__
+_edata
+_end
+_fini
+`
+a
+accept
+action
+actionInvoked
+action_key
+actions
+appIcon
+appName
+arg
+attention
+attentionIcon
+attentionIconName
+attentionMessage
+attentionTimerExpired
+attentionTitle
+b
+body
+c
+cancel-button
+category
+categoryChanged
+checkmark
+children)
+children-display
+clicked
+closeNotification
+color-changed
+com.canonical.dbusmenu
+current-folder-changed
+d
+data
+dbusError
+dbusId
+default
+delete-event
+delta
+depth
+e
+enabled
+error
+eventId
+events
+f
+failed to register
+failed to register service
+failed to unregister service
+false
+g
+g_free
+g_object_get
+g_object_set
+g_signal_connect_data
+g_slist_free
+g_type_check_instance_cast
+gdk_window_focus
+gdk_window_set_modal_hint
+gdk_x11_drawable_get_xdisplay
+gdk_x11_drawable_get_xid
+generic
+getCapabilities
+getServerInformation
+gnome
+gtk-cancel
+gtk-fallback-icon-theme
+gtk-icon-theme-name
+gtk-ok
+gtk-open
+gtk-save
+gtk2
+gtk_button_get_type
+gtk_button_set_label
+gtk_clipboard_get
+gtk_clipboard_store
+gtk_color_selection_dialog_get_color_selection
+gtk_color_selection_dialog_get_type
+gtk_color_selection_dialog_new
+gtk_color_selection_get_current_alpha
+gtk_color_selection_get_current_color
+gtk_color_selection_get_type
+gtk_color_selection_set_current_alpha
+gtk_color_selection_set_current_color
+gtk_color_selection_set_has_opacity_control
+gtk_dialog_get_type
+gtk_dialog_get_widget_for_response
+gtk_dialog_run
+gtk_file_chooser_add_filter
+gtk_file_chooser_dialog_new
+gtk_file_chooser_get_current_folder
+gtk_file_chooser_get_filename
+gtk_file_chooser_get_filenames
+gtk_file_chooser_get_filter
+gtk_file_chooser_get_type
+gtk_file_chooser_remove_filter
+gtk_file_chooser_select_filename
+gtk_file_chooser_set_action
+gtk_file_chooser_set_current_folder
+gtk_file_chooser_set_current_name
+gtk_file_chooser_set_do_overwrite_confirmation
+gtk_file_chooser_set_filter
+gtk_file_chooser_set_local_only
+gtk_file_chooser_set_select_multiple
+gtk_file_filter_add_pattern
+gtk_file_filter_new
+gtk_file_filter_set_name
+gtk_font_selection_dialog_get_cancel_button
+gtk_font_selection_dialog_get_font_name
+gtk_font_selection_dialog_get_ok_button
+gtk_font_selection_dialog_get_type
+gtk_font_selection_dialog_new
+gtk_font_selection_dialog_set_font_name
+gtk_init
+gtk_settings_get_default
+gtk_widget_destroy
+gtk_widget_hide
+gtk_widget_hide_on_delete
+gtk_widget_realize
+gtk_widget_set_visible
+gtk_widget_show
+gtk_window_get_type
+gtk_window_set_title
+h
+help-button
+hints
+i
+icon
+icon-data
+icon-name
+iconChanged
+iconName
+id
+idErrors
+ids
+isRequestingAttention
+k
+kde
+l
+label
+layout
+libGL.so.1
+libQt5Core.so.5
+libQt5DBus.so.5
+libQt5Gui.so.5
+libX11.so.6
+libXext.so.6
+libXrender.so.1
+libatk-1.0.so.0
+libc.so.6
+libcairo.so.2
+libfontconfig.so.1
+libfreetype.so.6
+libgcc_s.so.1
+libgdk-x11-2.0.so.0
+libgdk_pixbuf-2.0.so.0
+libgio-2.0.so.0
+libglib-2.0.so.0
+libgmodule-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libgtk-x11-2.0.so.0
+libm.so.6
+libpango-1.0.so.0
+libpangocairo-1.0.so.0
+libpangoft2-1.0.so.0
+libpthread.so.0
+librt.so.1
+libstdc++.so.6
+ltr
+m
+memcmp
+memcpy
+menu
+menuChanged
+monospace
+n
+name
+non-virtual thunk to QWindow::format() const
+non-virtual thunk to QWindow::surfaceHandle() const
+non-virtual thunk to QWindow::surfaceType() const
+normal
+notificationClosed
+notify
+o
+ok-button
+onAccepted
+operator delete(void*)
+operator new(unsigned long)
+operator<(QString const&, QString const&)
+operator<<(QDebug, QDBusError const&)
+operator<<(QDebug, QObject const*)
+operator<<(QDebug, QSize const&)
+operator<<(QDebug, QVariant const&)
+operator==(QString const&, QString const&)
+operator>>(QDBusArgument const&, QVariant&)
+org.freedesktop.Notifications
+org.kde.StatusNotifierItem
+org.kde.StatusNotifierWatcher
+orientation
+p
+pango_font_description_free
+pango_font_description_from_string
+pango_font_description_get_family
+pango_font_description_get_size
+pango_font_description_get_style
+pango_font_description_get_weight
+pango_font_description_new
+pango_font_description_set_family
+pango_font_description_set_size
+pango_font_description_set_style
+pango_font_description_set_weight
+pango_font_description_to_string
+parent
+parentId
+propertiesUpdated
+propertyNames
+q
+qDBusReplyFill(QDBusMessage const&, QDBusError&, QVariant&)
+qHash(QString const&, unsigned int)
+qgetenv(char const*)
+qstrcmp(QByteArray const&, char const*)
+qt.qpa.menu
+qt.qpa.tray
+qt_plugin_instance
+qt_plugin_query_metadata
+r
+reason
+recursionDepth
+reject
+removedProps
+replacesId
+response
+revision
+rtl
+s
+selection-changed
+separator
+specVersion
+static QPlatformTheme* QKdeTheme::createKdeTheme()
+status
+statusChanged
+strcmp
+strlen
+submenu
+summary
+t
+timeout
+timestamp
+toggle-state
+toggle-type
+tooltip
+tooltipChanged
+trayIconRegistered
+true
+typeinfo for QDBusAbstractAdaptor
+typeinfo for QDBusAbstractInterface
+typeinfo for QObject
+typeinfo for QPlatformColorDialogHelper
+typeinfo for QPlatformFileDialogHelper
+typeinfo for QPlatformFontDialogHelper
+typeinfo for QPlatformMenu
+typeinfo for QPlatformMenuItem
+typeinfo for QPlatformSystemTrayIcon
+typeinfo for QPlatformTheme
+typeinfo for QPlatformThemePlugin
+typeinfo for QPlatformThemePrivate
+typeinfo for QWindow
+u
+unregistering
+updated
+updatedProps
+urgency
+v
+vendor
+version
+visible
+vtable for QImage
+vtable for QPlatformColorDialogHelper
+vtable for QPlatformFileDialogHelper
+vtable for QPlatformFontDialogHelper
+vtable for QPlatformMenu
+vtable for QPlatformMenuItem
+vtable for __cxxabiv1::__si_class_type_info
+w
+x
+y
+z
+{

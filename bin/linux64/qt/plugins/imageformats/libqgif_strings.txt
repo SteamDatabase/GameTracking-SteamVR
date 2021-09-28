@@ -1,0 +1,97 @@
+$ORIGIN/../../lib
+10QGifPlugin
+11QGifHandler
+CXXABI_1.3
+GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
+GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GIF87a
+GIF89a
+GLIBCXX_3.4
+GLIBC_2.2.5
+GNU
+NETSCAPE
+QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>)
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
+QArrayData::shared_null
+QByteArray::QByteArray(char const*, int)
+QByteArray::append(QByteArray const&)
+QByteArray::remove(int, int)
+QGifPlugin
+QIODevice::isReadable() const
+QIODevice::peek(char*, long long)
+QIODevice::read(long long)
+QImage::QImage()
+QImage::QImage(int, int, QImage::Format)
+QImage::bits()
+QImage::byteCount() const
+QImage::bytesPerLine() const
+QImage::detach()
+QImage::height() const
+QImage::isNull() const
+QImage::operator=(QImage const&)
+QImage::scanLine(int)
+QImage::width() const
+QImage::~QImage()
+QImageIOHandler::QImageIOHandler()
+QImageIOHandler::currentImageRect() const
+QImageIOHandler::device() const
+QImageIOHandler::jumpToImage(int)
+QImageIOHandler::jumpToNextImage()
+QImageIOHandler::setDevice(QIODevice*)
+QImageIOHandler::setFormat(QByteArray const&)
+QImageIOHandler::setFormat(QByteArray const&) const
+QImageIOHandler::~QImageIOHandler()
+QImageIOPlugin::QImageIOPlugin(QObject*)
+QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
+QImageIOPlugin::qt_metacast(char const*)
+QImageIOPlugin::staticMetaObject
+QImageIOPlugin::~QImageIOPlugin()
+QMessageLogger::warning(char const*, ...) const
+QObject::childEvent(QChildEvent*)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
+QObject::event(QEvent*)
+QObject::eventFilter(QObject*, QEvent*)
+QObject::timerEvent(QTimerEvent*)
+QObjectData::dynamicMetaObject() const
+QVariant::QVariant(QSize const&)
+QVariant::QVariant(bool)
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__gmon_start__
+_edata
+_end
+_fini
+_init
+default
+gif
+libGL.so.1
+libQt5Core.so.5
+libQt5Gui.so.5
+libc.so.6
+libgcc_s.so.1
+libm.so.6
+libpthread.so.0
+libstdc++.so.6
+memcpy
+memset
+operator delete(void*)
+operator delete[](void*)
+operator new(unsigned long)
+operator new[](unsigned long)
+qstrcmp(QByteArray const&, char const*)
+qt_plugin_instance
+qt_plugin_query_metadata
+strcmp
+strncmp
+typeinfo for QImageIOHandler
+typeinfo for QImageIOPlugin
+vtable for __cxxabiv1::__si_class_type_info

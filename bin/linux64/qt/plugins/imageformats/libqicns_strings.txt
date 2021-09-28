@@ -1,0 +1,191 @@
+
+"
+#
+$
+$ORIGIN/../../lib
+(
+)
+,
+-
+0
+0@
+1
+11QICNSPlugin
+2
+3
+4
+<
+>
+?
+A
+CXXABI_1.3
+D
+GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
+GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GLIBCXX_3.4
+GLIBC_2.2.5
+GNU
+QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>)
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
+QArrayData::shared_null
+QBuffer::QBuffer(QByteArray*, QObject*)
+QBuffer::close()
+QBuffer::open(QFlags<QIODevice::OpenModeFlag>)
+QBuffer::~QBuffer()
+QByteArray::QByteArray(char const*, int)
+QByteArray::append(QByteArray const&)
+QByteArray::append(char const*)
+QByteArray::append(char)
+QByteArray::number(int, int)
+QByteArray::number(long long, int)
+QByteArray::startsWith(QByteArray const&) const
+QDataStream::QDataStream(QIODevice*)
+QDataStream::atEnd() const
+QDataStream::operator<<(int)
+QDataStream::operator>>(int&)
+QDataStream::operator>>(signed char&)
+QDataStream::setByteOrder(QDataStream::ByteOrder)
+QDataStream::skipRawData(int)
+QDataStream::status() const
+QDataStream::writeRawData(char const*, int)
+QDataStream::~QDataStream()
+QICNSHandler::canRead() called on a sequential device
+QICNSHandler::canRead() called without a readable device
+QICNSHandler::read(): Failed, compressed format "%s" is not supported by your Qt library or this file is corrupt. OSType: "%s"
+QICNSHandler::read(): Failed, unsupported icon bit depth: %u, OSType: "%s"
+QICNSHandler::read(): The device wasn't parsed properly!
+QICNSHandler::scanDevice(): Failed, bad header at pos %s. OSType "%s", length %u
+QICNSHandler::scanDevice(): Failed, file is incomplete.
+QICNSHandler::scanDevice(): Warning! Table of contents contains a bad entry! Stop at device pos: %s bytes. This file may be corrupted.
+QICNSPlugin
+QIODevice::isOpen() const
+QIODevice::isReadable() const
+QIODevice::isWritable() const
+QIODevice::peek(long long)
+QIODevice::read(long long)
+QImage::QImage()
+QImage::QImage(QImage const&)
+QImage::QImage(int, int, QImage::Format)
+QImage::fromData(unsigned char const*, int, char const*)
+QImage::height() const
+QImage::isNull() const
+QImage::operator=(QImage const&)
+QImage::save(QIODevice*, char const*, int) const
+QImage::scaled(QSize const&, Qt::AspectRatioMode, Qt::TransformationMode) const
+QImage::scanLine(int)
+QImage::setAlphaChannel(QImage const&)
+QImage::setColorTable(QVector<unsigned int>)
+QImage::setPixel(int, int, unsigned int)
+QImage::width() const
+QImage::~QImage()
+QImageIOHandler::QImageIOHandler()
+QImageIOHandler::currentImageNumber() const
+QImageIOHandler::currentImageRect() const
+QImageIOHandler::device() const
+QImageIOHandler::loopCount() const
+QImageIOHandler::nextImageDelay() const
+QImageIOHandler::setDevice(QIODevice*)
+QImageIOHandler::setFormat(QByteArray const&)
+QImageIOHandler::setFormat(QByteArray const&) const
+QImageIOHandler::setOption(QImageIOHandler::ImageOption, QVariant const&)
+QImageIOHandler::~QImageIOHandler()
+QImageIOPlugin::QImageIOPlugin(QObject*)
+QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
+QImageIOPlugin::qt_metacast(char const*)
+QImageIOPlugin::staticMetaObject
+QImageIOPlugin::~QImageIOPlugin()
+QMessageLogger::warning(char const*, ...) const
+QObject::childEvent(QChildEvent*)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
+QObject::event(QEvent*)
+QObject::eventFilter(QObject*, QEvent*)
+QObject::timerEvent(QTimerEvent*)
+QObjectData::dynamicMetaObject() const
+QPaintDevice::QPaintDevice()
+QRegularExpression::QRegularExpression(QString const&, QFlags<QRegularExpression::PatternOption>)
+QRegularExpression::match(QString const&, int, QRegularExpression::MatchType, QFlags<QRegularExpression::MatchOption>) const
+QRegularExpression::~QRegularExpression()
+QRegularExpressionMatch::captured(QString const&) const
+QRegularExpressionMatch::hasMatch() const
+QRegularExpressionMatch::~QRegularExpressionMatch()
+QString::fromLatin1_helper(char const*, int)
+QString::toLocal8Bit_helper(QChar const*, int)
+QString::toUInt(bool*, int) const
+QVariant::QVariant(QByteArray const&)
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+Scan of the icon variant container ("%s") failed at pos %s.Reason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
+U
+Z
+[
+\
+]
+^
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__gmon_start__
+_edata
+_end
+_fini
+_init
+a
+d
+default
+e
+f
+g
+h
+h@
+ic
+icns
+icp
+j
+jp2
+k
+libGL.so.1
+libQt5Core.so.5
+libQt5Gui.so.5
+libc.so.6
+libgcc_s.so.1
+libm.so.6
+libpthread.so.0
+libstdc++.so.6
+m
+memcmp
+memcpy
+memset
+n
+o
+operator delete(void*)
+operator new(unsigned long)
+p
+parseIconEntryInfo(): Failed, 32bit icon from an unknown group. OSType: "%s"
+parseIconEntryInfo(): Failed, OSType doesn't match: "%s"
+png
+qt_plugin_instance
+qt_plugin_query_metadata
+r
+readMask(): Failed, unusual bit depth: %u OSType: "%s"
+s
+sqrt
+strcmp
+strlen
+t
+typeinfo for QImageIOHandler
+typeinfo for QImageIOPlugin
+u
+unknown
+vtable for QImage
+vtable for __cxxabiv1::__si_class_type_info
+w
+z
+{
+|
+}

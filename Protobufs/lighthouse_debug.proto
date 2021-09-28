@@ -1,0 +1,72 @@
+package lighthouse.pb;
+
+message CVec3 {
+	required double x = 1;
+	required double y = 2;
+	required double z = 3;
+}
+
+message CImuSample {
+	required double time = 1;
+	required .lighthouse.pb.CVec3 accel = 2;
+	required .lighthouse.pb.CVec3 gyro = 3;
+	optional uint32 flags = 4;
+}
+
+message COpticalSample {
+	required int32 id = 1;
+	required int32 axis = 2;
+	required double time = 3;
+	optional double angle = 4;
+	required double width = 5;
+	optional uint32 flags = 6;
+	optional uint32 flags2 = 7;
+}
+
+message COpticalFrame {
+	required uint32 serial_number = 1;
+	optional int32 axis = 2;
+	optional double left_sync_time = 3;
+	optional double right_sync_time = 4;
+	optional double sync_width = 5;
+	optional double ideal_period = 6;
+	optional double average_period = 7;
+	optional double previous_period = 8;
+	optional bool left_sync_is_real = 9;
+	optional bool right_sync_is_real_as_it_gets = 10;
+	optional bool high_frame_jitter = 11;
+	optional double sample_angle_estimate = 12;
+	repeated .lighthouse.pb.COpticalSample samples = 13;
+	optional int32 unique_base_id = 14;
+}
+
+message CBaseConfig {
+	optional string base_config_json = 1;
+}
+
+message CDynamicState {
+	optional string dynamic_state_json = 1;
+}
+
+message CBaseConfigAndDynamicState {
+	required .lighthouse.pb.CBaseConfig base_config = 1;
+	required .lighthouse.pb.CDynamicState dynamic_state = 2;
+}
+
+message CRecord {
+	optional double systime = 1;
+	optional .lighthouse.pb.CImuSample imu_sample = 2;
+	optional .lighthouse.pb.COpticalSample optical_sample = 3;
+	optional .lighthouse.pb.COpticalFrame optical_frame = 4;
+	optional .lighthouse.pb.CBaseConfigAndDynamicState ootx = 5;
+}
+
+message CHeader {
+	optional uint32 time = 1;
+	optional string tracked_object_json = 2;
+	optional string firmware_version = 3;
+	optional string hardware_revision = 4;
+	optional string wireless_dongle_serial_number = 5;
+	optional double systime = 6;
+	optional string lighthouse_db_json = 7;
+}

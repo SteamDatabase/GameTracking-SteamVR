@@ -1,0 +1,121 @@
+ A __bss_start
+ A _edata
+ A _end
+ D g_GladeUI
+ T LoadScreenSelectorWindow
+ T OnInputListRowActivated
+ T OnScreenSelectorOK
+ T OnScreenSelectorQuit
+ T OnSelectedDisplayChanged
+ T SetupUnityCallbacks
+ T _fini
+ T _init
+ _ITM_deregisterTMCloneTable
+ _ITM_registerTMCloneTable
+ _Jv_RegisterClasses
+ __cxa_finalize@@GLIBC_2.2.5
+ __gmon_start__
+ __printf_chk@@GLIBC_2.3.4
+ __stack_chk_fail@@GLIBC_2.4
+ a _DYNAMIC
+ a _GLOBAL_OFFSET_TABLE_
+ b ConfigureAxis
+ b GetAxisDescription
+ b GetDisplays
+ b GetQualityLevels
+ b GetResolutions
+ b GetSelectedDisplay
+ b GetSelectedQualityLevel
+ b GetSelectedResolution
+ b SetSelectedDisplay
+ b SetSelectedQualityLevel
+ b SetSelectedResolution
+ b builder
+ b completed.6976
+ b listColumns
+ b module
+ b resolutions
+ d __JCR_END__
+ d __JCR_LIST__
+ d __TMC_END__
+ d __do_global_dtors_aux_fini_array_entry
+ d __dso_handle
+ d __frame_dummy_init_array_entry
+ d defaultHeight
+ d defaultWidth
+ dlsym@@GLIBC_2.2.5
+ exit@@GLIBC_2.2.5
+ g_list_free
+ g_object_unref
+ g_signal_connect_data
+ g_signal_connect_object
+ g_snprintf
+ g_type_check_instance_cast
+ g_type_name
+ gdk_pixbuf_new_from_file_at_scale
+ gtk_alignment_get_type
+ gtk_builder_add_from_string
+ gtk_builder_connect_signals_full
+ gtk_builder_get_object
+ gtk_builder_new
+ gtk_cell_layout_get_type
+ gtk_cell_layout_pack_start
+ gtk_cell_layout_set_attributes
+ gtk_cell_renderer_text_new
+ gtk_check_button_get_type
+ gtk_combo_box_get_active
+ gtk_combo_box_get_type
+ gtk_combo_box_set_active_iter
+ gtk_combo_box_set_model
+ gtk_frame_get_type
+ gtk_hbox_get_type
+ gtk_image_get_type
+ gtk_image_set_from_pixbuf
+ gtk_init_check
+ gtk_label_get_type
+ gtk_list_store_append
+ gtk_list_store_clear
+ gtk_list_store_get_type
+ gtk_list_store_set
+ gtk_main
+ gtk_main_quit
+ gtk_notebook_get_type
+ gtk_scrolled_window_get_type
+ gtk_set_locale
+ gtk_toggle_button_get_active
+ gtk_toggle_button_get_type
+ gtk_toggle_button_set_active
+ gtk_tree_model_get_iter
+ gtk_tree_model_get_path
+ gtk_tree_model_get_type
+ gtk_tree_path_get_indices
+ gtk_tree_selection_select_iter
+ gtk_tree_view_append_column
+ gtk_tree_view_column_new_with_attributes
+ gtk_tree_view_get_column
+ gtk_tree_view_get_columns
+ gtk_tree_view_get_cursor
+ gtk_tree_view_get_selection
+ gtk_tree_view_get_type
+ gtk_tree_view_scroll_to_cell
+ gtk_tree_view_set_model
+ gtk_vbox_get_type
+ gtk_widget_destroy
+ gtk_widget_get_type
+ gtk_widget_hide_all
+ gtk_widget_set_sensitive
+ gtk_widget_show_all
+ gtk_window_get_type
+ gtk_window_set_icon_from_file
+ gtk_window_set_title
+ puts@@GLIBC_2.2.5
+ r __FRAME_END__
+ std::__throw_out_of_range(char const*)@@GLIBCXX_3.4
+ t ConnectSignals(_GtkBuilder*, _GObject*, char const*, char const*, _GObject*, GConnectFlags, void*)
+ t LoadInputRow(int, _GtkListStore*, _GtkTreeIter*)
+ t LoadResolutionList(int)
+ t __do_global_dtors_aux
+ t call_gmon_start
+ t deregister_tm_clones
+ t frame_dummy
+ t register_tm_clones

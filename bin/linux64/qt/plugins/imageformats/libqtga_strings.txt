@@ -1,0 +1,113 @@
+$ORIGIN/../../lib
+10QTgaPlugin
+11QTgaHandler
+11Tga16Reader
+11Tga24Reader
+11Tga32Reader
+9TgaReader
+CXXABI_1.3
+Could not read footer
+Could not read image data
+Could not reset to read data
+Could not seek to image read footer
+GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
+GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GLIBCXX_3.4
+GLIBC_2.2.5
+GNU
+Image depth not valid
+Image header read failed
+Image type (non-TrueVision 2.0) not supported
+Image type not supported
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
+QArrayData::shared_null
+QByteArray::QByteArray(char const*, int)
+QCoreApplication::translate(char const*, char const*, char const*, int)
+QIODevice::getChar(char*)
+QIODevice::isOpen() const
+QIODevice::isReadable() const
+QIODevice::read(char*, long long)
+QImage::QImage()
+QImage::QImage(int, int, QImage::Format)
+QImage::isNull() const
+QImage::setPixel(int, int, unsigned int)
+QImage::~QImage()
+QImageIOHandler::QImageIOHandler()
+QImageIOHandler::currentImageNumber() const
+QImageIOHandler::currentImageRect() const
+QImageIOHandler::device() const
+QImageIOHandler::imageCount() const
+QImageIOHandler::jumpToImage(int)
+QImageIOHandler::jumpToNextImage()
+QImageIOHandler::loopCount() const
+QImageIOHandler::nextImageDelay() const
+QImageIOHandler::setDevice(QIODevice*)
+QImageIOHandler::setFormat(QByteArray const&)
+QImageIOHandler::setFormat(QByteArray const&) const
+QImageIOHandler::write(QImage const&)
+QImageIOHandler::~QImageIOHandler()
+QImageIOPlugin::QImageIOPlugin(QObject*)
+QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
+QImageIOPlugin::qt_metacast(char const*)
+QImageIOPlugin::staticMetaObject
+QImageIOPlugin::~QImageIOPlugin()
+QListData::append()
+QListData::detach(int)
+QListData::detach_grow(int*, int)
+QListData::dispose(QListData::Data*)
+QListData::shared_null
+QMessageLogger::warning(char const*, ...) const
+QObject::childEvent(QChildEvent*)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
+QObject::event(QEvent*)
+QObject::eventFilter(QObject*, QEvent*)
+QObject::timerEvent(QTimerEvent*)
+QObjectData::dynamicMetaObject() const
+QPaintDevice::QPaintDevice()
+QString::fromLatin1_helper(char const*, int)
+QTgaFile
+QTgaHandler::canRead() called with no device
+QTgaPlugin
+QVariant::QVariant(QSize const&)
+QVariant::QVariant(int)
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+Seek file/device for image read failed
+Sequential device (eg socket) for image read not supported
+TRUEVISION-XFILE
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__cxa_pure_virtual
+__gmon_start__
+_edata
+_end
+_fini
+_init
+default
+libGL.so.1
+libQt5Core.so.5
+libQt5Gui.so.5
+libc.so.6
+libgcc_s.so.1
+libm.so.6
+libpthread.so.0
+libstdc++.so.6
+operator delete(void*)
+operator new(unsigned long)
+qstrcmp(QByteArray const&, char const*)
+qt_plugin_instance
+qt_plugin_query_metadata
+strcmp
+tga
+typeinfo for QImageIOHandler
+typeinfo for QImageIOPlugin
+vtable for QImage
+vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__si_class_type_info

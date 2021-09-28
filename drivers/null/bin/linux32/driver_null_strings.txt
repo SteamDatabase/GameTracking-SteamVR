@@ -1,0 +1,436 @@
+%llu
+' is not a number.
+*
+,
+/proc/self/exe
+14CNullHmdLatest
+18CClientDriver_Null
+18CServerDriver_Null
+:
+A valid JSON document must be either an array or an object value.
+All
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+CXXABI_1.3
+ConstIterator to Iterator should never be allowed.
+Could not instantiate settings. Using default values
+Duplicate key: '
+Empty escape sequence in string
+Error from reader: %s
+Exceeded stackLimit in readValue().
+Extra non-whitespace after JSON value.
+GCC: (crosstool-NG 1.17.0) 4.6.3
+GLIBCXX_3.4
+GLIBCXX_3.4.11
+GLIBCXX_3.4.9
+GLIBC_2.0
+GLIBC_2.1
+GLIBC_2.1.3
+GLIBC_2.2.4
+GNU
+HmdDriverFactory
+IClientTrackedDeviceProvider_002
+IServerTrackedDeviceProvider_001
+LargestInt out of Int range
+LargestInt out of UInt range
+LargestInt out of UInt64 range
+LargestUInt out of Int range
+LargestUInt out of Int64 range
+LargestUInt out of UInt range
+Line %d, Column %d
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+N2vr26ITrackedDeviceServerDriverE
+N2vr28IClientTrackedDeviceProviderE
+N2vr28IServerTrackedDeviceProviderE
+N4Json10CharReader7FactoryE
+N4Json10CharReaderE
+N4Json10FastWriterE
+N4Json10LogicErrorE
+N4Json12RuntimeErrorE
+N4Json12StreamWriterE
+N4Json12StyledWriterE
+N4Json13OurCharReaderE
+N4Json17CharReaderBuilderE
+N4Json19StreamWriterBuilderE
+N4Json23BuiltStyledStreamWriterE
+N4Json6WriterE
+N4Json9ExceptionE
+None
+Null Driver
+Null Model Number
+Null Serial Number
+See
+Syntax error: value, object or array expected.
+Type is not convertible to string
+Unable to parse token length
+Using settings values
+VR_FORCE_NULL_DRIVER
+VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+Value is not convertible to Int.
+Value is not convertible to Int64.
+Value is not convertible to UInt.
+Value is not convertible to UInt64.
+Value is not convertible to bool.
+Value is not convertible to double.
+Value is not convertible to float.
+[
+[.
+[]
+\"
+\\
+\b
+\f
+\n
+\r
+\t
+\u
+]
+_Jv_RegisterClasses
+_ZNKSs4findEcj@@GLIBCXX_3.4
+_ZNKSs5rfindEcj@@GLIBCXX_3.4
+_ZNKSs7compareEPKc@@GLIBCXX_3.4
+_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4
+_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
+_ZNSbIwSt11char_traitsIwESaIwEE4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
+_ZNSbIwSt11char_traitsIwESaIwEE6appendEjw@@GLIBCXX_3.4
+_ZNSbIwSt11char_traitsIwESaIwEED1Ev@@GLIBCXX_3.4
+_ZNSi10_M_extractIdEERSiRT_@@GLIBCXX_3.4.9
+_ZNSolsEPSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZNSolsEi@@GLIBCXX_3.4
+_ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
+_ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
+_ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
+_ZNSs4_Rep9_S_createEjjRKSaIcE@@GLIBCXX_3.4
+_ZNSs4swapERSs@@GLIBCXX_3.4
+_ZNSs5eraseEN9__gnu_cxx17__normal_iteratorIPcSsEES2_@@GLIBCXX_3.4
+_ZNSs6appendEPKcj@@GLIBCXX_3.4
+_ZNSs6appendERKSs@@GLIBCXX_3.4
+_ZNSs6appendEjc@@GLIBCXX_3.4
+_ZNSs6assignEPKcj@@GLIBCXX_3.4
+_ZNSs6assignERKSs@@GLIBCXX_3.4
+_ZNSs6insertEjPKcj@@GLIBCXX_3.4
+_ZNSs6resizeEjc@@GLIBCXX_3.4
+_ZNSs7replaceEjjPKcj@@GLIBCXX_3.4
+_ZNSs7reserveEj@@GLIBCXX_3.4
+_ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
+_ZNSsC1EPKcjRKSaIcE@@GLIBCXX_3.4
+_ZNSsC1ERKSs@@GLIBCXX_3.4
+_ZNSsC1ERKSsjj@@GLIBCXX_3.4
+_ZNSsC1EjcRKSaIcE@@GLIBCXX_3.4
+_ZNSsD1Ev@@GLIBCXX_3.4
+_ZNSt15basic_streambufIcSt11char_traitsIcEED2Ev@@GLIBCXX_3.4
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj@@GLIBCXX_3.4
+_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
+_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4
+_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
+_ZNSt6localeC1Ev@@GLIBCXX_3.4
+_ZNSt6localeD1Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEED2Ev@@GLIBCXX_3.4
+_ZNSt9exceptionD2Ev@@GLIBCXX_3.4
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i@@GLIBCXX_3.4.9
+_ZSt16__throw_bad_castv@@GLIBCXX_3.4
+_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
+_ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
+_ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
+_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@@GLIBCXX_3.4
+_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
+_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_ES4_@@GLIBCXX_3.4
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
+_ZTISt9exception@@GLIBCXX_3.4
+_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
+_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZdaPv@@GLIBCXX_3.4
+_ZdlPv@@GLIBCXX_3.4
+_Znaj@@GLIBCXX_3.4
+_Znwj@@GLIBCXX_3.4
+__bss_start
+__cxa_allocate_exception
+__cxa_allocate_exception@@CXXABI_1.3
+__cxa_begin_catch
+__cxa_begin_catch@@CXXABI_1.3
+__cxa_end_catch
+__cxa_end_catch@@CXXABI_1.3
+__cxa_finalize
+__cxa_finalize@@GLIBC_2.1.3
+__cxa_free_exception
+__cxa_free_exception@@CXXABI_1.3
+__cxa_pure_virtual
+__cxa_pure_virtual@@CXXABI_1.3
+__cxa_rethrow
+__cxa_rethrow@@CXXABI_1.3
+__cxa_throw
+__cxa_throw@@CXXABI_1.3
+__gmon_start__
+__gxx_personality_v0
+__gxx_personality_v0@@CXXABI_1.3
+__xstat
+__xstat@@GLIBC_2.0
+_edata
+_end
+_fini
+_init
+aN
+abort
+abort@@GLIBC_2.0
+additional six characters expected to parse unicode surrogate pair.
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+basic_string::substr
+chdir
+chdir@@GLIBC_2.0
+collectComments
+commentStyle
+commentStyle must be 'All' or 'None'
+deque::_M_new_elements_at_back
+displayFrequency
+dl_iterate_phdr
+dl_iterate_phdr@@GLIBC_2.2.4
+dladdr
+dladdr@@GLIBC_2.0
+double out of Int range
+double out of Int64 range
+double out of UInt range
+double out of UInt64 range
+driver_null
+driver_null: Display Frequency: %f
+driver_null: ID: %s
+driver_null: IPD: %f
+driver_null: Model Number: %s
+driver_null: Render Target: %d %d
+driver_null: Seconds from Vsync to Photons: %f
+driver_null: Serial Number: %s
+driver_null: Window: %d %d %d %d
+dropNullPlaceholders
+enable
+enableYAMLCompatibility
+expecting another \u token to begin the second half of a unicode surrogate pair
+failIfExtra
+false
+fclose
+fclose@@GLIBC_2.1
+fopen
+fopen@@GLIBC_2.1
+for detail.
+fprintf
+fprintf@@GLIBC_2.0
+fputs
+fputs@@GLIBC_2.0
+fread
+fread@@GLIBC_2.0
+free
+free@@GLIBC_2.0
+fseek
+fseek@@GLIBC_2.0
+ftell
+ftell@@GLIBC_2.0
+fwrite
+fwrite@@GLIBC_2.0
+generic_hmd
+getcwd
+getcwd@@GLIBC_2.0
+getenv
+getenv@@GLIBC_2.0
+id
+in Json::Value::asCString(): requires stringValue
+in Json::Value::clear(): requires complex value
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::getMemberNames(), value must be objectValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::removeMember(): requires objectValue
+in Json::Value::resize(): requires arrayValue
+in Json::Value::resolveReference(): requires objectValue
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+indentation
+ipd
+keylength >= 2^30
+ld-linux.so.2
+libGL.so.1
+libX11.so.6
+libXext.so.6
+libXinerama.so.1
+libXrandr.so.2
+libc.so.6
+libdl.so.2
+libm.so.6
+libpthread.so.0
+librt.so.1
+libstdc++.so.6
+libudev.so.0
+malloc
+malloc@@GLIBC_2.0
+memcmp
+memcmp@@GLIBC_2.0
+memcpy
+memcpy@@GLIBC_2.0
+memmove
+memmove@@GLIBC_2.0
+modelNumber
+modf
+modf@@GLIBC_2.0
+nfinity
+operator delete(void*)
+operator delete[](void*)
+operator new(unsigned int)
+operator new[](unsigned int)
+precision
+pthread_cancel
+pthread_cancel@@GLIBC_2.0
+pthread_mutex_lock
+pthread_mutex_lock@@GLIBC_2.0
+pthread_mutex_unlock
+pthread_mutex_unlock@@GLIBC_2.0
+pthread_once
+pthread_once@@GLIBC_2.0
+rb
+readlink
+readlink@@GLIBC_2.0
+rejectDupKeys
+renderHeight
+renderWidth
+secondsFromVsyncToPhotons
+serialNumber
+setenv@@GLIBC_2.0
+snprintf@@GLIBC_2.0
+sprintf
+sprintf@@GLIBC_2.0
+sscanf
+sscanf@@GLIBC_2.0
+stackLimit
+std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::__throw_bad_alloc()
+std::__throw_bad_cast()
+std::__throw_length_error(char const*)
+std::__throw_logic_error(char const*)
+std::__throw_out_of_range(char const*)
+std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
+std::basic_ios<char, std::char_traits<char> >::~basic_ios()
+std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
+std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()
+std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, int)
+std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream(std::_Ios_Openmode)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
+std::basic_streambuf<char, std::char_traits<char> >::~basic_streambuf()
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned int, unsigned int)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned int, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::append(unsigned int, wchar_t)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_string()
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned int, unsigned int)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const
+std::ctype<char>::_M_widen_init() const
+std::exception::~exception()
+std::ios_base::ios_base()
+std::ios_base::~ios_base()
+std::istream& std::istream::_M_extract<double>(double&)
+std::locale::locale()
+std::locale::~locale()
+std::ostream::operator<<(int)
+std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*)
+std::string::_M_leak_hard()
+std::string::_Rep::_M_destroy(std::allocator<char> const&)
+std::string::_Rep::_S_create(unsigned int, unsigned int, std::allocator<char> const&)
+std::string::_Rep::_S_empty_rep_storage
+std::string::append(char const*, unsigned int)
+std::string::append(std::string const&)
+std::string::append(unsigned int, char)
+std::string::assign(char const*, unsigned int)
+std::string::assign(std::string const&)
+std::string::compare(char const*) const
+std::string::erase(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>)
+std::string::find(char, unsigned int) const
+std::string::insert(unsigned int, char const*, unsigned int)
+std::string::replace(unsigned int, unsigned int, char const*, unsigned int)
+std::string::reserve(unsigned int)
+std::string::resize(unsigned int, char)
+std::string::rfind(char, unsigned int) const
+std::string::swap(std::string&)
+stderr
+stderr@@GLIBC_2.0
+steamvr
+steamvr.vrsettings
+strcasecmp
+strcasecmp@@GLIBC_2.0
+strchr
+strchr@@GLIBC_2.0
+strictRoot
+strlen
+strlen@@GLIBC_2.0
+strncasecmp
+strncasecmp@@GLIBC_2.0
+strncmp
+strncmp@@GLIBC_2.0
+strncpy
+strncpy@@GLIBC_2.0
+strpbrk
+strpbrk@@GLIBC_2.0
+strtol
+strtol@@GLIBC_2.0
+strtoull
+strtoull@@GLIBC_2.0
+tolower
+tolower@@GLIBC_2.0
+toupper
+toupper@@GLIBC_2.0
+true
+typeinfo for std::exception
+unsetenv
+unsetenv@@GLIBC_2.0
+useSpecialFloats
+vector::reserve
+vsnprintf
+vsnprintf@@GLIBC_2.0
+vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__si_class_type_info
+vtable for std::basic_ios<char, std::char_traits<char> >
+vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+vtable for std::basic_streambuf<char, std::char_traits<char> >
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
+w
+wb
+windowHeight
+windowWidth
+windowX
+windowY
+{
+{}

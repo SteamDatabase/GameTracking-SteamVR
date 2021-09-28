@@ -1,0 +1,974 @@
+
+!
+!((expn + (numrlvls - 1) - (numrlvls - 1 - ((bandno > 0) ? ((bandno + 2) / 3) : (0)))) & (~0x1f))
+!((expn) & (~0x1f))
+!((outimage)->cmprof_)
+!((stream->bufmode_ & 0x0010) && (stream->bufmode_ & 0x0020))
+!(filldata & (~0x3f))
+!(matrix->flags_ & 0x0001)
+!(stream->bufmode_ & 0x0010)
+!(v & (~((1 << (n)) - 1)))
+!(x & (~((1 << (bitpos + 1)) - 1)))
+!__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (mode) && __builtin_constant_p ("r") && (__s1_len = strlen (mode), __s2_len = strlen ("r"), (!((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) || __s1_len >= 4) && (!((size_t)(const void *)(("r") + 1) - (size_t)(const void *)("r") == 1) || __s2_len >= 4)) ? __builtin_strcmp (mode, "r") : (__builtin_constant_p (mode) && ((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) && (__s1_len = strlen (mode), __s1_len < 4) ? (__builtin_constant_p ("r") && ((size_t)(const void *)(("r") + 1) - (size_t)(const void *)("r") == 1) ? __builtin_strcmp (mode, "r") : (__extension__ ({ __const unsigned char *__s2 = (__const unsigned char *) (__const char *) ("r"); register int __result = (((__const unsigned char *) (__const char *) (mode))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (mode))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (mode))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((__const unsigned char *) (__const char *) (mode))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p ("r") && ((size_t)(const void *)(("r") + 1) - (size_t)(const void *)("r") == 1) && (__s2_len = strlen ("r"), __s2_len < 4) ? (__builtin_constant_p (mode) && ((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) ? __builtin_strcmp (mode, "r") : (__extension__ ({ __const unsigned char *__s1 = (__const unsigned char *) (__const char *) (mode); register int __result = __s1[0] - ((__const unsigned char *) (__const char *) ("r"))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((__const unsigned char *) (__const char *) ("r"))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((__const unsigned char *) (__const char *) ("r"))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((__const unsigned char *) (__const char *) ("r"))[3]); } } __result; }))) : __builtin_strcmp (mode, "r")))); }) || !__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (mode) && __builtin_constant_p ("w") && (__s1_len = strlen (mode), __s2_len = strlen ("w"), (!((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) || __s1_len >= 4) && (!((size_t)(const void *)(("w") + 1) - (size_t)(const void *)("w") == 1) || __s2_len >= 4)) ? __builtin_strcmp (mode, "w") : (__builtin_constant_p (mode) && ((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) && (__s1_len = strlen (mode), __s1_len < 4) ? (__builtin_constant_p ("w") && ((size_t)(const void *)(("w") + 1) - (size_t)(const void *)("w") == 1) ? __builtin_strcmp (mode, "w") : (__extension__ ({ __const unsigned char *__s2 = (__const unsigned char *) (__const char *) ("w"); register int __result = (((__const unsigned char *) (__const char *) (mode))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (mode))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (mode))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((__const unsigned char *) (__const char *) (mode))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p ("w") && ((size_t)(const void *)(("w") + 1) - (size_t)(const void *)("w") == 1) && (__s2_len = strlen ("w"), __s2_len < 4) ? (__builtin_constant_p (mode) && ((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) ? __builtin_strcmp (mode, "w") : (__extension__ ({ __const unsigned char *__s1 = (__const unsigned char *) (__const char *) (mode); register int __result = __s1[0] - ((__const unsigned char *) (__const char *) ("w"))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((__const unsigned char *) (__const char *) ("w"))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((__const unsigned char *) (__const char *) ("w"))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((__const unsigned char *) (__const char *) ("w"))[3]); } } __result; }))) : __builtin_strcmp (mode, "w")))); }) || !__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (mode) && __builtin_constant_p ("r+") && (__s1_len = strlen (mode), __s2_len = strlen ("r+"), (!((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) || __s1_len >= 4) && (!((size_t)(const void *)(("r+") + 1) - (size_t)(const void *)("r+") == 1) || __s2_len >= 4)) ? __builtin_strcmp (mode, "r+") : (__builtin_constant_p (mode) && ((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) && (__s1_len = strlen (mode), __s1_len < 4) ? (__builtin_constant_p ("r+") && ((size_t)(const void *)(("r+") + 1) - (size_t)(const void *)("r+") == 1) ? __builtin_strcmp (mode, "r+") : (__extension__ ({ __const unsigned char *__s2 = (__const unsigned char *) (__const char *) ("r+"); register int __result = (((__const unsigned char *) (__const char *) (mode))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (mode))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (mode))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((__const unsigned char *) (__const char *) (mode))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p ("r+") && ((size_t)(const void *)(("r+") + 1) - (size_t)(const void *)("r+") == 1) && (__s2_len = strlen ("r+"), __s2_len < 4) ? (__builtin_constant_p (mode) && ((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) ? __builtin_strcmp (mode, "r+") : (__extension__ ({ __const unsigned char *__s1 = (__const unsigned char *) (__const char *) (mode); register int __result = __s1[0] - ((__const unsigned char *) (__const char *) ("r+"))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((__const unsigned char *) (__const char *) ("r+"))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((__const unsigned char *) (__const char *) ("r+"))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((__const unsigned char *) (__const char *) ("r+"))[3]); } } __result; }))) : __builtin_strcmp (mode, "r+")))); }) || !__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (mode) && __builtin_constant_p ("w+") && (__s1_len = strlen (mode), __s2_len = strlen ("w+"), (!((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) || __s1_len >= 4) && (!((size_t)(const void *)(("w+") + 1) - (size_t)(const void *)("w+") == 1) || __s2_len >= 4)) ? __builtin_strcmp (mode, "w+") : (__builtin_constant_p (mode) && ((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) && (__s1_len = strlen (mode), __s1_len < 4) ? (__builtin_constant_p ("w+") && ((size_t)(const void *)(("w+") + 1) - (size_t)(const void *)("w+") == 1) ? __builtin_strcmp (mode, "w+") : (__extension__ ({ __const unsigned char *__s2 = (__const unsigned char *) (__const char *) ("w+"); register int __result = (((__const unsigned char *) (__const char *) (mode))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (mode))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (mode))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((__const unsigned char *) (__const char *) (mode))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p ("w+") && ((size_t)(const void *)(("w+") + 1) - (size_t)(const void *)("w+") == 1) && (__s2_len = strlen ("w+"), __s2_len < 4) ? (__builtin_constant_p (mode) && ((size_t)(const void *)((mode) + 1) - (size_t)(const void *)(mode) == 1) ? __builtin_strcmp (mode, "w+") : (__extension__ ({ __const unsigned char *__s1 = (__const unsigned char *) (__const char *) (mode); register int __result = __s1[0] - ((__const unsigned char *) (__const char *) ("w+"))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((__const unsigned char *) (__const char *) ("w+"))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((__const unsigned char *) (__const char *) ("w+"))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((__const unsigned char *) (__const char *) ("w+"))[3]); } } __result; }))) : __builtin_strcmp (mode, "w+")))); })
+!stream->bufbase_
+!tile->cp
+"
+#
+#;
+$
+$ORIGIN/../../lib
+%
+%02x
+%04x:
+%08x:
+%3d %3d %3d %3d %3d %3d %3d %3d
+%4u %4u %4u %4u %4u %4u %4u %4u
+%c%c
+%d %d
+%ld%c
+%lu %lu%ld
+%s %s %d %ld %ld
+%s%4ld
+%s%ld
+%s_jp2overhead=%lu
+&
+'
+(
+(%f, %f, %f)
+((c1)->numcols_) == numcols && ((c2)->numcols_) == numcols
+((c1)->numrows_) == numrows && ((c1)->numcols_) == numcols && ((c2)->numrows_) == numrows && ((c2)->numcols_) == numcols
+((c1)->numrows_) == numrows && ((c2)->numrows_) == numrows
+((enc->image)->numcmpts_) == 3
+((out))->openmode_ & 0x02
+(bitstream)->openmode_ & 0x01
+(bitstream)->openmode_ & 0x02
+(bitstream->buf_ & 0xff) != 0xff
+(in)->openmode_ & 0x01
+(inb)->openmode_ & 0x01
+(out)->openmode_ & 0x02
+(outb)->openmode_ & 0x02
+(stream->bufmode_ & 0x0020) == 0
+(tmpval & (1 << (wordsize - 1))) == 0
+)
+*
++
+,
+-
+---
+.
+../../../3rdparty/jasper/src/libjasper/base/jas_icc.c
+../../../3rdparty/jasper/src/libjasper/base/jas_image.c
+../../../3rdparty/jasper/src/libjasper/base/jas_seq.c
+../../../3rdparty/jasper/src/libjasper/base/jas_stream.c
+../../../3rdparty/jasper/src/libjasper/bmp/bmp_dec.c
+../../../3rdparty/jasper/src/libjasper/bmp/bmp_enc.c
+../../../3rdparty/jasper/src/libjasper/jp2/jp2_dec.c
+../../../3rdparty/jasper/src/libjasper/jp2/jp2_enc.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_bs.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_cs.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_dec.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_enc.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_mct.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_mqdec.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_t1cod.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_t1dec.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_t1enc.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_t2cod.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_t2dec.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_t2enc.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_tagtree.c
+../../../3rdparty/jasper/src/libjasper/jpc/jpc_util.c
+../../../3rdparty/jasper/src/libjasper/jpg/jpg_dec.c
+../../../3rdparty/jasper/src/libjasper/jpg/jpg_enc.c
+../../../3rdparty/jasper/src/libjasper/mif/mif_cod.c
+../../../3rdparty/jasper/src/libjasper/pnm/pnm_dec.c
+../../../3rdparty/jasper/src/libjasper/ras/ras_dec.c
+../../../3rdparty/jasper/src/libjasper/ras/ras_enc.c
+/
+0
+1
+10QJp2Plugin
+11QJp2Handler
+2
+3
+4
+5
+6
+7
+8
+8c  16-Jan-2011
+9
+:
+;
+<
+=
+>
+>!h
+?
+?"N
+?../../../3rdparty/jasper/src/libjasper/jpc/jpc_math.c
+@
+@&LH
+A':
+ALIGN_TYPE is wrong, please fix
+AREG = %08x, CREG = %08x, CTREG = %d
+Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+Application transferred too few scanlines
+Application transferred too many scanlines
+Arithmetic table 0x%02x was not defined
+At marker 0x%02x, recovery action %d
+B
+BAND %d
+BPCC
+Backing store not supported
+Bogus DAC index %d
+Bogus DAC value 0x%x
+Bogus DHT index %d
+Bogus DQT index %d
+Bogus Huffman table definition
+Bogus JPEG colorspace
+Bogus buffer control mode
+Bogus input colorspace
+Bogus marker length
+Bogus sampling factors
+Bogus virtual array access
+Buffer passed to JPEG library is too small
+C
+CCIR601 sampling not implemented yet
+CDEF
+CMAP
+COC
+COD
+CODE BLOCK %d
+CODE BLOCK GROUP %d
+COLR
+COM
+CRG
+CTX = %d,
+CXXABI_1.3
+Cannot quantize more than %d color components
+Cannot quantize to fewer than %d colors
+Cannot quantize to more than %d colors
+Cannot transcode due to multiple use of quantization table %d
+Caution: quantization tables are too coarse for baseline JPEG
+Closed temporary file %s
+Component %d: %dhx%dv q=%d
+Component %d: dc=%d ac=%d
+Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
+Copyright (C) 2011, Thomas G. Lane, Guido Vollbeding
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Corrupt JPEG data: bad Huffman code
+Corrupt JPEG data: bad arithmetic code
+Corrupt JPEG data: found marker 0x%02x instead of RST%d
+Corrupt JPEG data: premature end of data segment
+Creator: JasPer Version %s
+D
+DCT coefficient out of range
+DCT scaled block size %dx%d not supported
+Define Arithmetic Table 0x%02x: 0x%02x
+Define Huffman Table 0x%02x
+Define Quantization Table %d  precision %d
+Define Restart Interval %u
+Didn't expect more than one scan
+E
+EOC
+EPH
+Empty JPEG image (DNL not supported)
+Empty input file
+End Of Image
+FTYP
+Failed to create temporary file %s
+Fractional sampling not implemented yet
+Freed EMS handle %u
+Freed XMS handle %u
+GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
+GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GLIBCXX_3.4
+GLIBC_2.2.5
+GLIBC_2.3
+GLIBC_2.7
+GNU
+H
+Huffman code size table overflow
+Huffman table 0x%02x was not defined
+ICC Profile CS %08x
+IHDR
+IND %d, MPS %d, QEVAL %x
+IND = %02d, MPS = %d, QEVAL = %04x
+Image too wide for this implementation
+Improper call to JPEG library in state %d
+Inconsistent progression sequence for component %d coefficient %d
+Input file read error
+Insufficient memory (case %d)
+Invalid JPEG file structure: SOS before SOF
+Invalid JPEG file structure: missing SOS marker
+Invalid JPEG file structure: two SOF markers
+Invalid JPEG file structure: two SOI markers
+Invalid SOS parameters for sequential JPEG
+Invalid color quantization mode change
+Invalid component ID %d in SOS
+Invalid crop request
+Invalid memory pool code %d
+Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+Invalid progressive parameters at scan script entry %d
+Invalid scan script at entry %d
+JAS_CLRSPC_CIELAB
+JAS_CLRSPC_CIEXYZ
+JAS_CLRSPC_FAM_GRAY
+JAS_CLRSPC_FAM_LAB
+JAS_CLRSPC_FAM_RGB
+JAS_CLRSPC_FAM_UNKNOWN
+JAS_CLRSPC_FAM_XYZ
+JAS_CLRSPC_FAM_YCBCR
+JAS_CLRSPC_GENGRAY
+JAS_CLRSPC_GENRGB
+JAS_CLRSPC_GENYCBCR
+JAS_CLRSPC_SGRAY
+JAS_CLRSPC_SRGB
+JAS_CLRSPC_SYCBCR
+JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+JFIF extension marker: JPEG-compressed thumbnail image, length %u
+JFIF extension marker: RGB thumbnail image, length %u
+JFIF extension marker: palette thumbnail image, length %u
+JFIF extension marker: type 0x%02x, length %u
+JP
+JP2 box:
+JP2C
+JP2H
+JP2I
+JPC_NOMINALGAIN
+JPC_PASSTYPE
+JPC_SEGPASSCNT
+JPEG (ISO/IEC 10918-1)
+JPEG 2000 reader expected 1 or 2 components, got %d
+JPEG 2000 reader missing a color component
+JPEG datastream contains no image
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+JPEG-2000 Code Stream Syntax (ISO/IEC 15444-1)
+JPEG-2000 JP2 File Format Syntax (ISO/IEC 15444-1)
+JPEG-2000 VM Format (PGX)
+JPEGMEM
+Jasper Library initialization failed
+Jasper library can't decode Jpeg2000 image data
+Jpeg2000 decoder is not able to handle color space %s - %s
+KNQ
+LUT[%d][%d]=%d
+M
+M0@
+MAX_ALLOC_CHUNK is wrong, please fix
+MQDEC A = %08lx, C = %08lx, CT=%08lx,
+Maximum supported image dimension is %u pixels
+Microsoft Bitmap (BMP)
+Miscellaneous marker 0x%02x, length %u
+Missing Huffman code table entry
+My Image Format (MIF)
+N
+Not a JPEG file: starts with 0x%02x 0x%02x
+Not implemented yet
+Obtained EMS handle %u
+Obtained XMS handle %u
+Opened temporary file %s
+Output file write error --- out of disk space?
+P
+P@
+PCLR
+PLM
+POC
+PPM
+PPT
+Portable Graymap/Pixmap (PNM)
+Premature end of JPEG file
+Premature end of input file
+Q
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
+QArrayData::shared_null
+QByteArray::QByteArray(char const*, int)
+QByteArray::operator=(QByteArray const&)
+QByteArray::reallocData(unsigned int, QFlags<QArrayData::AllocationOption>)
+QByteArray::startsWith(QByteArray const&) const
+QC,A
+QCC
+QCD
+QIODevice::isOpen() const
+QIODevice::isReadable() const
+QIODevice::isWritable() const
+QIODevice::peek(long long)
+QIODevice::readAll()
+QIODevice::write(char const*, long long)
+QImage::QImage()
+QImage::QImage(int, int, QImage::Format)
+QImage::allGray() const
+QImage::color(int) const
+QImage::depth() const
+QImage::hasAlphaChannel() const
+QImage::height() const
+QImage::operator=(QImage const&)
+QImage::scanLine(int)
+QImage::width() const
+QImage::~QImage()
+QImageIOHandler::QImageIOHandler()
+QImageIOHandler::currentImageNumber() const
+QImageIOHandler::currentImageRect() const
+QImageIOHandler::device() const
+QImageIOHandler::imageCount() const
+QImageIOHandler::jumpToImage(int)
+QImageIOHandler::jumpToNextImage()
+QImageIOHandler::loopCount() const
+QImageIOHandler::nextImageDelay() const
+QImageIOHandler::setDevice(QIODevice*)
+QImageIOHandler::setFormat(QByteArray const&)
+QImageIOHandler::setFormat(QByteArray const&) const
+QImageIOHandler::~QImageIOHandler()
+QImageIOPlugin::QImageIOPlugin(QObject*)
+QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
+QImageIOPlugin::qt_metacast(char const*)
+QImageIOPlugin::staticMetaObject
+QImageIOPlugin::~QImageIOPlugin()
+QJp2Plugin
+QListData::append()
+QListData::detach(int)
+QListData::detach_grow(int*, int)
+QListData::dispose(QListData::Data*)
+QListData::shared_null
+QMessageLogger::debug(char const*, ...) const
+QObject::childEvent(QChildEvent*)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
+QObject::event(QEvent*)
+QObject::eventFilter(QObject*, QEvent*)
+QObject::timerEvent(QTimerEvent*)
+QObjectData::dynamicMetaObject() const
+QString::append(QLatin1String)
+QString::append(QString const&)
+QString::arg(double, int, char, int, QChar) const
+QString::fromLatin1_helper(char const*, int)
+QString::toLatin1_helper(QString const&)
+QString::toLocal8Bit_helper(QChar const*, int)
+QVariant::QVariant(QByteArray const&)
+QVariant::QVariant(int)
+QVariant::toByteArray() const
+QVariant::toInt(bool*) const
+Qt JPEG 2000 reader does not support signed components
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+Quantization table 0x%02x was not defined
+Quantizing to %d = %d*%d*%d colors
+Quantizing to %d colors
+RES
+RESC
+RESD
+RESOLUTION LEVEL %d
+RGN
+RST%d
+Read failed on temporary file
+Read from EMS failed
+Read from XMS failed
+Requested feature was omitted at compile time
+SIZ
+SOC
+SOD
+SOP
+SOT
+Sampling factors too large for interleaved scan
+Scan script does not transmit all data
+Seek failed on temporary file
+Selected %d colors for quantization
+Smoothing not supported with nonstandard sampling ratios
+Ss=%d, Se=%d, Ah=%d, Al=%d
+Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+Start Of Scan: %d components
+Start of Image
+Sun Rasterfile (RAS)
+Suspension not allowed here
+TF<)
+THE BMP FORMAT IS NOT FULLY SUPPORTED!THAT IS, THE JASPER SOFTWARE CANNOT DECODE ALL TYPES OF BMP DATA.IF YOU HAVE ANY PROBLEMS, PLEASE TRY CONVERTING YOUR IMAGE DATATO THE PNM FORMAT, AND USING THIS FORMAT INSTEAD.
+TLM
+The BMP format cannot be used to represent an image with this geometry.
+The PNM format cannot be used to represent an image with this geometry.
+The Qt JPEG 2000 reader does not support components with precision != 8
+The Qt JPEG 2000 reader does not support images where component geometry differs from image geometry
+The Qt JPEG 2000 reader was unable to convert colorspace to RGB or grayscale
+The RAS format cannot be used to represent an image with this geometry.
+Too many color components: %d, max %d
+UINF
+ULST
+URL
+UUID
+Unable to handle color depth %d
+Unexpected marker 0x%02x
+Unknown
+Unknown APP0 marker (not JFIF), length %u
+Unknown APP14 marker (not Adobe), length %u
+Unknown Adobe color transform code %d
+Unrecognized component IDs %d %d %d, assuming YCbCr
+Unsupported JPEG data precision %d
+Unsupported JPEG process: SOF type 0x%02x
+Unsupported color conversion request
+Unsupported marker type 0x%02x
+VGy#
+Virtual array controller messed up
+W
+Warning: thumbnail image size does not match data length %u
+Warning: unknown JFIF revision number %d.%02d
+Write failed on temporary file --- out of disk space?
+Write to EMS failed
+Write to XMS failed
+Wrong JPEG library version: library is %d, caller expects %d
+XML
+Y2
+You may not be able to read or correctly display the resulting PNM data with other software.
+\
+_
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__assert_fail
+__bss_start
+__ctype_b_loc
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__gmon_start__
+__isoc99_fscanf
+__isoc99_sscanf
+_edata
+_end
+_fini
+_init
+_jp2overhead
+a\">
+abort
+absstepsize >= 0
+alignment failed
+ascii = "%s"
+attrno=%d; attrname="%s"(0x%08x); attrtype="%s"(0x%08x)
+attrval->ops->output
+b
+band %5d %5d %5d %5d
+bigendian
+bitpos >= 0
+bitstream->cnt_ <= 0
+bitstream->cnt_ >= 0 && bitstream->cnt_ < 8
+bitstream->openmode_ & 0x01
+bitstream->openmode_ & 0x02
+bmp
+bmp_getdata
+bmp_putint32
+bout
+box type %s
+bpno >= 0 && bpno < 31
+bufmax > 0
+bufsize > 0
+byteorder=%s sgnd=%s prec=%d width=%d height=%d
+c
+c]$8
+c]^7
+calcrdslopes
+calcstepsizes
+cannot copy box data
+cannot get (EPH) marker segment
+cannot get header
+cannot get info
+cannot get marker segment
+cannot get tab table
+cannot open tmp file
+cannot parse box data
+cannot use real mode for lossless coding
+cannot write COD marker
+cannot write COM marker
+cannot write EOI marker
+cannot write SIZ marker
+cannot write SOC marker
+cannot write SOD marker
+cannot write SOT marker
+caps = 0x%02x;
+cblk %5d %5d %5d %5d
+cblk->flags
+cblk->mqenc
+cblk->numimsbs >= 0
+cblk->passes
+cblk->stream
+cblkheight
+cblktlx < cblkbrx && cblktly < cblkbry
+cblkwidth
+cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x;
+cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x; qmfbid = %d;
+ceil
+channo=%d; type=%d; assoc=%d
+cinfo->output_components == ((dinfo->image)->numcmpts_)
+cmptno >= 0 && cmptno < image->numcmpts_
+cmptno >= 0 && cmptno <= image->numcmpts_
+cmptno=%d; map=%d; pcol=%d
+coc->compparms.numdlvls <= 32
+cod->compparms.numdlvls == cod->compparms.numrlvls - 1
+cod->numlyrs > 0 && cod->compparms.numdlvls <= 32
+code block size too large
+coding pass failed passtype=%d segtype=%d
+colr->iccp
+compinfos
+compno = %d; csty = 0x%02x; numdlvls = %d;
+compno = %d; qntsty = %d; numguard = %d; numstepsizes = %d
+compno = %d; roisty = %d; roishift = %d
+component
+component tlx=%ld tly=%ld sampperx=%ld samppery=%ld width=%ld height=%ld prec=%d sgnd=%d
+compparms->numdlvls <= 32
+compparms->stepsizes
+cprl
+cs[%d] = %d; ce[%d] = %d;
+csid=%d
+csty = 0x%02x;
+curoff == ((long) (tagtabent->off))
+d
+data =
+data=%s
+data[i]
+debug
+dec->image->cmprof_
+dec->numcomps == 3
+dec_rawrefpass
+dec_rawsigpass
+default
+dopartial ? (!cblk->curseg) : 1
+dotile failed
+downtomult
+e
+e[%d][%d]=%f
+eaFO
+enc->tmpstream
+end
+entry[%d] = %f
+eph
+error: BMP format does not support color space
+error: JPG format does not support color space
+error: PNM support required
+error: RLE encoding method not supported
+error: The JPG encoder cannot handle an image with this geometry.
+error: bad signature
+error: cannot decode code stream
+error: cannot get box
+error: encoding method not supported
+error: expecting signature box
+error: invalid CMAP LUT index
+error: invalid component number in CMAP box
+error: missing IHDR box
+error: missing color component
+error: no COLR box
+error: no code stream found
+error: no components
+error: no memory
+error: possibly bad bitmap offset?
+error: too few guard bits (need at least %d)
+error: unsupported BMP encoding
+error: unsupported color space
+error: unsupported compression type
+expecting file type box
+expn[%d] = 0x%04x; mant[%d] = 0x%04x;
+f(%d,%d)=%ld
+fclose
+ferror
+fflush
+fgetc
+floor
+fputc
+fputs
+fread
+free
+fseek
+fwrite
+g
+gamma = %f
+gc^A
+getenv
+getthebyte
+gettimeofday
+h
+hd=<
+hdrlen=%lu bodylen=%lu
+hoff[%d] = %d; voff[%d] = %d
+i >= 0 && i <= attrtab->numattrs
+i >= 0 && i <= pxformseq->numpxforms
+iccprof
+iccstream
+id >= 0 && name && ext && ops
+if1R
+ignoring bad quality specifier %s
+ignoring bad rate specifier %s
+ignoring invalid mode %s
+ignoring invalid progression order %s
+ilyrrates
+imgareatlx
+imgareatly
+incmptfmts
+incorrect magic number
+ind=%d; len = %d;
+info->depth == 8 || info->depth == 24
+info->enctype == 0
+inprof
+int
+intermediate layer rates must increase monotonically
+invalid JP encoder options
+invalid PNM encoder options specified
+invalid code block height %d
+invalid code block width %d
+invalid component number in COC marker segment
+invalid component number in QCC marker segment
+invalid component number in RGN marker segment
+invalid number of guard bits
+invalid precinct height
+invalid precinct width
+invalid tile grid offset (%lu, %lu)
+invalid tile height %lu
+invalid tile number in SOT marker segment
+invalid tile width %lu
+j >= 0
+j2k
+jas_cmprof_createsycc
+jas_cmpxformseq_insertpxform
+jas_cmpxformseq_resize
+jas_cmshapmat_apply
+jas_cmshapmatlut_invert
+jas_cmxform_apply
+jas_cmxform_create
+jas_iccattrtab_add
+jas_iccattrtab_resize
+jas_iccprof_copy
+jas_iccprof_save
+jas_image_addcmpt
+jas_image_addfmt
+jas_image_chclrspc
+jas_image_sampcmpt
+jas_matrix_asr
+jas_matrix_destroy
+jas_seq2d_copy
+jas_seq2d_create
+jas_stream_fillbuf
+jas_stream_flushbuf
+jas_stream_getc_func
+jas_stream_gets
+jas_stream_initbuf
+jas_stream_putc_func
+jas_stream_seek
+jas_stream_tell(cblk->stream) == startpass->start
+jp2
+jp2_decode
+jp2_encode
+jpc
+jpc_abstorelstepsize
+jpc_bitstream_fillbuf
+jpc_bitstream_getbit_func
+jpc_bitstream_getbits
+jpc_bitstream_needalign
+jpc_bitstream_outalign
+jpc_bitstream_putbit_func
+jpc_bitstream_putbits
+jpc_bitstream_sopen
+jpc_coc_putparms
+jpc_cod_putparms
+jpc_cox_putcompparms
+jpc_dec_decodecblk
+jpc_dec_decodecblks failed
+jpc_dec_decodepkt
+jpc_dec_decodepkts
+jpc_dec_decodepkts failed
+jpc_dec_process_sot
+jpc_dec_tiledecode
+jpc_dec_tileinit
+jpc_dequantize
+jpc_enc_enccblk
+jpc_enc_enccblks
+jpc_enc_encodemainbody
+jpc_enc_encodemainhdr
+jpc_enc_encodetiledata
+jpc_enc_encpkt
+jpc_enc_encpkts
+jpc_encrawrefpass
+jpc_encrawsigpass
+jpc_firstone
+jpc_firstone(datalen) < cblk->numlenbits + jpc_floorlog2(passcount)
+jpc_floorlog2
+jpc_getcommacode
+jpc_getnumnewpasses
+jpc_getsignmsedec_func
+jpc_ict
+jpc_iict
+jpc_init_t2state
+jpc_irct
+jpc_mqdec_create
+jpc_pchglist_remove
+jpc_pi_nextcprl
+jpc_pi_nextpcrl
+jpc_pi_nextrlcp
+jpc_pi_nextrpcl
+jpc_putcommacode
+jpc_putnumnewpasses
+jpc_qcx_getcompparms
+jpc_rct
+jpc_seq_conv
+jpc_siz_putparms
+jpc_streamlist_get
+jpc_tagtree_copy
+jpc_tagtree_create
+jpc_tagtree_decode
+jpc_tagtree_encode
+jpc_tagtree_setvalue
+jpg
+jpg_encode
+jpg_put_pixel_rows
+kh9F
+l7
+lazy
+le[%d] = %d
+leaf
+leaf->known_ && i == leaf->value_ + 1
+len = %d;
+libGL.so.1
+libQt5Core.so.5
+libQt5Gui.so.5
+libc.so.6
+libgcc_s.so.1
+libm.so.6
+libpthread.so.0
+libstdc++.so.6
+littleendian
+lrcp
+lseek
+lyrno = %02d
+lyrno == numlyrs - 1
+lyrno=%02d cmptno=%02d rlvlno=%02d bandno=%02d prcno=%02d cblkno=%03d passno=%03d
+m
+m->buf_
+maclen = %d
+malloc
+maxcmpts >= hdr->numcmpts
+maxctxs > 0
+maxents >= tab->numattrs
+maxlen=%08ld actuallen=%08ld thresh=%f
+maxlyrs
+maxpkts
+mem_resize
+mem_write
+memcmp
+memcpy
+memmove
+memset
+method=%d; pri=%d; approx=%d
+mif
+mif_hdr_growcmpts
+min rdslope = %f max rdslope = %f
+missing EPH marker segment
+missing SOP marker segment
+missing argument for option %s
+mode=real
+must be at least one resolution level
+n >= 0
+n >= 0 && n < 32
+n >= 2
+n >= pxformseq->numpxforms
+newbufsize >= 0
+newprof->attrtab
+no palettized image support for BMP format
+node %p, parent %p, value %d, lower %d, known %d
+nomct
+numattrs=%d
+number of entires = %d
+numchans = %d
+numcolors <= 256
+numdlvls = %d; qmfbid = %d; mctrans = %d
+numents=%d; numchans=%d
+numgbits
+numinchans=%d, numoutchans=%d, clutlen=%d
+numintabents=%d, numouttabents=%d
+numleafsh > 0 && numleafsv > 0
+numrlvls
+okOP
+oldcmpt->tlx_ == 0 && oldcmpt->tly_ == 0
+oldpos >= 0
+oldx >= 0 && oldx < oldcmpt->width_ && oldy >= 0 && oldy < oldcmpt->height_
+open
+operator delete(void*)
+operator delete[](void*)
+operator new(unsigned long)
+operator new[](unsigned long)
+orient == 0
+outb
+outcmptfmts
+p
+p?
+packet body offset=%06ld
+packet offset=%08ld prg=%d cmptno=%02d rlvlno=%02d prcno=%03d lyrno=%02d
+pass->lyrno < 0 || pass->lyrno > lyrno
+pass->term == 1
+pass->type == 1
+pass->type == 2
+pass0
+pchg
+pchgno < pchglist->numpchgs
+pcrl
+pgm
+pgx
+pi->prcno < pi->pirlvl->numprcs
+pi->valid
+pm"U
+pnm
+pnm_getsint
+po[%d] = %d;
+pow
+ppm
+prc %5d %5d %5d %5d (%5d %5d)
+prc->numcblks > 0
+prcheight
+prcwidth
+prcwidth[%d] = %d, prcheight[%d] = %d
+prec
+prec=%d, sgnd=%d, cmpttype=%d
+prec[%d] = %d; sgnd[%d] = %d; hsamp[%d] = %d; vsamp[%d] = %d
+prfprof
+prg
+prg = %d; numlyrs = %d;
+prof->numchans == 3 && prof->numrefchans == 3
+prof->refclrspc == (((1) << 8) | (1))
+pterm
+pxformseq->numpxforms < pxformseq->maxpxforms
+q
+qmfbid == 0x01
+qntsty = %d; numguard = %d; numstepsizes = %d
+qsort
+qstrcmp(QByteArray const&, char const*)
+qstrdup(char const*)
+qt_plugin_instance
+qt_plugin_query_metadata
+quality
+ras
+ras_getcmap
+ras_getdatastd
+ras_putdatastd
+rate
+rate=%1
+rateallocate
+rb
+read error
+realloc
+refcnt = %d; type = 0x%08x %s
+regid = %d;
+reloff >= 0
+resetprob
+ret == cnt
+rewind
+rlcp
+rlvl %5d %5d %5d %5d
+rlvl->numprcs
+rpcl
+rs[%d] = %d; re[%d] = %d;
+sampperx
+samppery
+sccode = %d
+seg->stream
+seg->type == 1
+seg->type == 2
+segsym
+seqno = %d;
+sgnd
+siz->comps
+siz->width && siz->height && siz->tilewidth && siz->tileheight && siz->numcomps
+skipping unknown data in BMP file
+sop
+sqrt
+src_mgr->data
+srctree->numleafsh_ == dsttree->numleafsh_ && srctree->numleafsv_ == dsttree->numleafsv_
+start=%d end=%d type=%d term=%d lyrno=%d firstchar=%02x size=%ld pos=%ld
+stderr
+strcat
+strchr
+strcmp
+strcpy
+stream->cnt_ > 0
+stream->ptr_ - stream->bufbase_ <= stream->bufsize_ + 16
+stream->ptr_ - stream->bufstart_ <= stream->bufsize_
+streamno < streamlist->numstreams
+string = "%s"
+strlen
+strncpy
+strrchr
+strtod
+strtok
+strtol
+success %d goodthresh %f
+tcmpt %5d %5d %5d %5d
+tcmpt->numstepsizes <= (3 * 33 + 1)
+tcmpt_create
+termall
+text
+threshold >= 0
+tilegrdtlx
+tilegrdtly
+tileheight
+tileno = %d; len = %d; partno = %d; numparts = %d
+tilewidth
+tilewidth = %d; tileheight = %d; tilexoff = %d; tileyoff = %d;
+tmpfile
+tmpnam
+too many layers
+type = 0x%04x (%s);
+type=%c%s%c (0x%08x); length=%d
+typeinfo for QImageIOHandler
+typeinfo for QImageIOPlugin
+uclangcode = %d; uclen = %d
+unexpected marker segment type
+unknown long option %s
+unknown short option %s
+unlink
+unsigned
+unsupported BMP encoding
+unsupported image type
+uptomult
+val >= 0
+value >= 0
+vcausal
+vfprintf
+vsprintf
+vtable for __cxxabiv1::__si_class_type_info
+w
+w+
+warning: bad segmentation symbol
+warning: bad termination pattern detected
+warning: cannot handle large 64-bit box length
+warning: color space apparently not RGB
+warning: component data type mismatch
+warning: corrupt code stream
+warning: empty layer generated
+warning: ignoring BMP decoder options
+warning: ignoring BMP encoder options
+warning: ignoring RAS decoder options
+warning: ignoring RAS encoder options
+warning: ignoring invalid option %s
+warning: ignoring options
+warning: ignoring trailing garbage (%lu bytes)
+warning: ignoring unknown marker segment
+warning: ignoring unsupported options
+warning: inaccurate color
+warning: intermediate layer rates must be less than overall rate
+warning: invalid intermediate layer rates specifier ignored (%s)
+warning: missing CMAP box or superfluous PCLR box
+warning: missing PCLR box or superfluous CMAP box
+warning: not enough tile data (%lu bytes)
+warning: number of components mismatch
+warning: overriding imgareatlx value
+warning: overriding imgareatly value
+warning: palettized images not fully supported
+warning: possibly corrupt code stream
+warning: specified rate is unreasonably large (%lu > %lu)
+warning: stopping decode prematurely as requested
+warning: superfluous BPCC box
+warning: support for signed sample data requires use of nonstandard extension to PNM format
+warning: trailing garbage in marker segment (%ld bytes)
+width = %d; height = %d; xoff = %d; yoff = %d;
+with %d x %d thumbnail image
+write component failed
+x
+x >= 0
+xs =%d, ys = %d, xe = %d, ye = %d, w = %d, h = %d
+xstart <= xend && ystart <= yend
+y
+z
+

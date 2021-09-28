@@ -1,0 +1,122 @@
+$ORIGIN/../../lib
+10QSvgPlugin
+<?xml
+<svg
+CXXABI_1.3
+GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
+GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GLIBCXX_3.4
+GLIBC_2.2.5
+GNU
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
+QBuffer::data() const
+QBuffer::staticMetaObject
+QByteArray::QByteArray(char const*, int)
+QByteArray::fromRawData(char const*, int)
+QByteArray::indexOf(char const*, int) const
+QByteArray::startsWith(char const*) const
+QColor::QColor(Qt::GlobalColor)
+QColor::invalidate()
+QColor::operator QVariant() const
+QColor::operator=(QColor const&)
+QColor::rgba() const
+QIODevice::isReadable() const
+QIODevice::peek(long long)
+QIODevice::readAll()
+QImage::QImage(QSize const&, QImage::Format)
+QImage::fill(unsigned int)
+QImage::~QImage()
+QImageIOHandler::QImageIOHandler()
+QImageIOHandler::currentImageNumber() const
+QImageIOHandler::currentImageRect() const
+QImageIOHandler::device() const
+QImageIOHandler::format() const
+QImageIOHandler::imageCount() const
+QImageIOHandler::jumpToImage(int)
+QImageIOHandler::jumpToNextImage()
+QImageIOHandler::loopCount() const
+QImageIOHandler::nextImageDelay() const
+QImageIOHandler::setDevice(QIODevice*)
+QImageIOHandler::setFormat(QByteArray const&)
+QImageIOHandler::setFormat(QByteArray const&) const
+QImageIOHandler::write(QImage const&)
+QImageIOHandler::~QImageIOHandler()
+QImageIOPlugin::QImageIOPlugin(QObject*)
+QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
+QImageIOPlugin::qt_metacast(char const*)
+QImageIOPlugin::staticMetaObject
+QImageIOPlugin::~QImageIOPlugin()
+QListData::append()
+QListData::detach(int)
+QListData::detach_grow(int*, int)
+QListData::dispose(QListData::Data*)
+QListData::shared_null
+QMetaObject::cast(QObject*) const
+QObject::childEvent(QChildEvent*)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
+QObject::event(QEvent*)
+QObject::eventFilter(QObject*, QEvent*)
+QObject::timerEvent(QTimerEvent*)
+QObjectData::dynamicMetaObject() const
+QPainter::QPainter(QPaintDevice*)
+QPainter::end()
+QPainter::~QPainter()
+QString::fromLatin1_helper(char const*, int)
+QSvgPlugin
+QSvgRenderer::QSvgRenderer(QObject*)
+QSvgRenderer::load(QByteArray const&)
+QSvgRenderer::load(QXmlStreamReader*)
+QSvgRenderer::render(QPainter*, QRectF const&)
+QSvgRenderer::viewBox() const
+QSvgRenderer::~QSvgRenderer()
+QTransform::QTransform()
+QTransform::mapRect(QRectF const&) const
+QTransform::scale(double, double)
+QTransform::translate(double, double)
+QVariant::QVariant(QRect const&)
+QVariant::QVariant(QSize const&)
+QVariant::QVariant(int)
+QVariant::constData() const
+QVariant::convert(int, void*) const
+QVariant::toRect() const
+QVariant::toSize() const
+QVariant::userType() const
+QXmlStreamReader::QXmlStreamReader()
+QXmlStreamReader::setDevice(QIODevice*)
+QXmlStreamReader::~QXmlStreamReader()
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__gmon_start__
+_edata
+_end
+_fini
+_init
+libGL.so.1
+libQt5Core.so.5
+libQt5Gui.so.5
+libQt5Svg.so.5
+libQt5Widgets.so.5
+libc.so.6
+libgcc_s.so.1
+libm.so.6
+libpthread.so.0
+libstdc++.so.6
+operator delete(void*)
+operator new(unsigned long)
+qstrcmp(QByteArray const&, char const*)
+qt_plugin_instance
+qt_plugin_query_metadata
+strcmp
+svgz
+typeinfo for QImageIOHandler
+typeinfo for QImageIOPlugin
+vtable for __cxxabiv1::__si_class_type_info

@@ -1,0 +1,2072 @@
+
+%Y-%m-%d
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%06u
+%p
+%s %s
+%s -
+%s%c%s
+' is not a number.
+*
+*.*
+,
+..
+.config
+.tmp
+/e%s%s
+/proc
+/proc/%d/status
+/proc/%u/stat
+/tmp/.steam-sem-names
+:
+>jm
+A valid JSON document must be either an array or an object value.
+All
+Another app was already launching (117)
+App info manager init failed (114)
+BCreateDirectory(char const*)
+BCreateDirectoryRecursive(char const*)
+BDeleteFileIfExists(char const*)
+BFileExists(char const*)
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeys
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
+BRenameFile(char const*, char const*)
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+CDirIterator::BCurrentIsDir() const
+CDirIterator::BCurrentIsHidden() const
+CDirIterator::BCurrentIsMarkedForArchive() const
+CDirIterator::BCurrentIsReadOnly() const
+CDirIterator::BCurrentIsSystem() const
+CDirIterator::BNextFile()
+CDirIterator::BValidFilename()
+CDirIterator::CDirIterator(char const*, char const*)
+CDirIterator::CurrentFileCreateTime() const
+CDirIterator::CurrentFileLength() const
+CDirIterator::CurrentFileName()
+CDirIterator::CurrentFileWriteTime() const
+CDirIterator::Init(std::string const&)
+CDirIterator::IsValid() const
+CDirIterator::~CDirIterator()
+CLogTimer::CLogTimer(char const*, double)
+CLogTimer::~CLogTimer()
+CStopwatch::CStopwatch()
+CStopwatch::GetElapsedSeconds()
+CStopwatch::Reset()
+CStopwatch::Start()
+CStopwatch::Stop()
+CVRLog::CVRLog()
+CVRLog::CloseLog()
+CVRLog::InitLog(char const*, char const*, bool, unsigned long)
+CVRLog::InitLog(char const*, char const*, bool, unsigned long)::sb_combinedLogging
+CVRLog::IsOpen()
+CVRLog::Log(LogLevel, char const*, ...)
+CVRLog::Log(char const*, ...)
+CVRLog::LogDirect(LogLevel, bool, char const*, __va_list_tag (&) [1])
+CVRLog::LogIncremental(LogLevel, char const*, ...)
+CVRLog::LogIncremental(char const*, ...)
+CVRLog::SetMaxLogLevel(LogLevel)
+CVRLog::WillLog(LogLevel)
+CVRLog::~CVRLog()
+CVRPathRegistry::AddExternalDriver(char const*)
+CVRPathRegistry::BLoadFromFile()
+CVRPathRegistry::BSaveToFile() const
+CVRPathRegistry::CVRPathRegistry()
+CVRPathRegistry::GetConfigHistoryCount() const
+CVRPathRegistry::GetConfigHistoryPath(unsigned int) const
+CVRPathRegistry::GetConfigPath() const
+CVRPathRegistry::GetExternalDriverCount() const
+CVRPathRegistry::GetExternalDriverPath(unsigned int) const
+CVRPathRegistry::GetLogHistoryCount() const
+CVRPathRegistry::GetLogHistoryPath(unsigned int) const
+CVRPathRegistry::GetLogPath() const
+CVRPathRegistry::GetOpenVRConfigPath()
+CVRPathRegistry::GetPaths(std::string*, std::string*, std::string*, char const*, char const*, std::vector<std::string, std::allocator<std::string> >*)
+CVRPathRegistry::GetRuntimeHistoryCount() const
+CVRPathRegistry::GetRuntimeHistoryPath(unsigned int) const
+CVRPathRegistry::GetRuntimePath() const
+CVRPathRegistry::GetSteamPath()
+CVRPathRegistry::GetVRConfigPathFromSteamOrOS()
+CVRPathRegistry::GetVRLogPathFromSteamOrOS()
+CVRPathRegistry::GetVRPathRegistryFilename()
+CVRPathRegistry::GetVRRuntimePathFromExecutable(char const*)
+CVRPathRegistry::RemoveExternalDriver(char const*)
+CVRPathRegistry::SetConfigPath(char const*)
+CVRPathRegistry::SetLogPath(char const*)
+CVRPathRegistry::SetRuntimePath(char const*)
+CVRPathRegistry::ToJsonString(std::string&)
+CVRPathRegistry::~CVRPathRegistry()
+CXXABI_1.3
+CloseLog()
+Compositor failed to find DX11 hardware (401)
+Compositor failed to initialize (400)
+Compositor initialization succeeded, but overlay init failed (403)
+Compositor requires mandatory firmware update (402)
+Config path could not be located (111)
+Connect to VR Server Failed (301)
+ConstIterator to Iterator should never be allowed.
+CreateSimpleProcess
+CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
+DW.ref.__gxx_personality_v0
+DeclareCurrentThreadIsMainThread
+Device Calibration is invalid (207)
+Device is not calibrated (206)
+Driver Failed (200)
+Driver Not Known (201)
+Driver Not Loaded (203)
+Driver Tracked Device Interface unknown (209)
+Driver runtime is out of date (204)
+DumpLogStrings(std::vector<std::string, std::allocator<std::string> >&)
+Duplicate key: '
+Empty escape sequence in string
+Error from reader: %s
+Exceeded stackLimit in readValue().
+Extra non-whitespace after JSON value.
+Factory Function Not Found (104)
+File Not Found (103)
+FileSelect(dirent const*)
+FillDataStruct(_finddata_t*)
+GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+GLIBCXX_3.4
+GLIBCXX_3.4.11
+GLIBCXX_3.4.9
+GLIBC_2.12
+GLIBC_2.14
+GLIBC_2.2.5
+GLIBC_2.3.2
+GLIBC_2.3.4
+GLIBC_2.4
+GNU
+GetEnglishStringForHmdError(vr::EVRInitError)
+GetEnglishStringForHmdError(vr::EVRInitError)::buf
+GetEnvironmentVariable(char const*)
+GetFileLength(char const*)
+GetGMUnixTime()
+GetGMUnixTimeAtNextLocalTime(unsigned long, int, int, int)
+GetHmdErrorPriority(vr::EVRInitError)
+GetIDForVRInitError(vr::EVRInitError)
+GetIDForVRInitError(vr::EVRInitError)::buf
+GetStringForCompositorError(vr::EVRCompositorError)
+GetStringForCompositorError(vr::EVRCompositorError)::buf
+GetStringForRenderModelError(vr::EVRRenderModelError)
+GetStringForRenderModelError(vr::EVRRenderModelError)::buf
+GetStringForTrackedDeviceClass(vr::ETrackedDeviceClass)
+GetStringForTrackedDeviceClass(vr::ETrackedDeviceClass)::buf
+GetStringForTrackedDeviceProperty(vr::ETrackedDeviceProperty)
+GetStringForTrackedDeviceProperty(vr::ETrackedDeviceProperty)::buf
+GetStringForVRApplicationTransitionState(vr::EVRApplicationTransitionState)
+GetStringForVRApplicationTransitionState(vr::EVRApplicationTransitionState)::buf
+GetStringForVRApplicationType(vr::EVRApplicationType)
+GetStringForVRApplicationType(vr::EVRApplicationType)::buf
+GetStringForVRApplicationsError(vr::EVRApplicationError)
+GetStringForVRApplicationsError(vr::EVRApplicationError)::buf
+GetStringForVRButtonId(vr::EVRButtonId)
+GetStringForVRButtonId(vr::EVRButtonId)::buf
+GetStringForVRControllerAxisType(vr::EVRControllerAxisType)
+GetStringForVRControllerAxisType(vr::EVRControllerAxisType)::buf
+GetStringForVREventType(vr::EVREventType)
+GetStringForVREventType(vr::EVREventType)::buf
+GetStringForVRMsgType(VRMsgType)
+GetStringForVRMsgType(VRMsgType)::buf
+GetStringForVRNotificationError(vr::EVRNotificationError)
+GetStringForVRNotificationError(vr::EVRNotificationError)::buf
+GetStringForVROverlayError(vr::EVROverlayError)
+GetStringForVROverlayError(vr::EVROverlayError)::buf
+GetStringForVRSettingsError(vr::EVRSettingsError)
+GetStringForVRSettingsError(vr::EVRSettingsError)::buf
+GetStringForVRTrackedCameraError(vr::EVRTrackedCameraError)
+GetStringForVRTrackedCameraError(vr::EVRTrackedCameraError)::buf
+GetSystemBaseTicks()
+GetSystemTicksFromTime(double)
+GetSystemTime()
+GetSystemTimeFrequency()
+GetSystemTimeFromTicks(unsigned long)
+GetSystemTimeInTicks()
+GetTrackedDeviceProperties()
+GetTrackedDeviceProperties()::eKeys
+GetTrackedDeviceProperties()::eKeysVector
+GetUserDocumentsPath()
+GetVRLogTimeString(bool)
+HMD Not Known (202)
+HMD already in use by another application (205)
+HMD detected over USB, but Monitor may be mirrored instead of extended (212)
+HMD detected over USB, but Monitor not found (208)
+HMD found, but can not open device (1101)
+HMD found, but config too big (1104)
+HMD found, but config too small (1105)
+HMD found, but failed configuration check (1113)
+HMD found, but no stored config (1103)
+HMD found, but problems with the data (1107)
+HMD found, but problems with the data (1108)
+HMD found, but problems with the data (1109)
+HMD found, but problems with the data (1110)
+HMD found, but problems with the data (1111)
+HMD found, but problems with the data (1112)
+HMD found, but unable to init ZLib (1106)
+HMD found, but unable to request config (1102)
+Hmd DriverId is invalid (125)
+Hmd DriverId is our of bounds (211)
+Hmd Not Found (108)
+Hmd Not Found Presence Failed (126)
+ILiquidVR_001
+IVRClientCore_002
+IVRCompositorSystemInternal_001
+IVRControlPanel_004
+IVRDashboardManager_001
+IVROculusDirect_001
+IVRRenderModelsInternal_001
+IVRTrackedCameraInternal_001
+InitLog(char const*, char const*)
+InitMainThread()
+InitSystemBaseTimeTicks(unsigned long)
+InitSystemTime(unsigned long) [clone .part.0]
+Installation Corrupt (101)
+Installation Not Found (100)
+Installation path could not be located (110)
+Interface Not Found (105)
+Internal Retry (115)
+Invalid Interface (106)
+IsPosix()
+Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
+Json::BuiltStyledStreamWriter::hasCommentForValue(Json::Value const&)
+Json::BuiltStyledStreamWriter::indent()
+Json::BuiltStyledStreamWriter::isMultineArray(Json::Value const&)
+Json::BuiltStyledStreamWriter::pushValue(std::string const&)
+Json::BuiltStyledStreamWriter::unindent()
+Json::BuiltStyledStreamWriter::write(Json::Value const&, std::ostream*)
+Json::BuiltStyledStreamWriter::writeArrayValue(Json::Value const&)
+Json::BuiltStyledStreamWriter::writeCommentAfterValueOnSameLine(Json::Value const&)
+Json::BuiltStyledStreamWriter::writeCommentBeforeValue(Json::Value const&)
+Json::BuiltStyledStreamWriter::writeIndent()
+Json::BuiltStyledStreamWriter::writeIndent() [clone .part.13]
+Json::BuiltStyledStreamWriter::writeValue(Json::Value const&)
+Json::BuiltStyledStreamWriter::writeWithIndent(std::string const&)
+Json::BuiltStyledStreamWriter::~BuiltStyledStreamWriter()
+Json::CharReader::Factory::~Factory()
+Json::CharReader::~CharReader()
+Json::CharReaderBuilder::CharReaderBuilder()
+Json::CharReaderBuilder::newCharReader() const
+Json::CharReaderBuilder::operator[](std::string)
+Json::CharReaderBuilder::setDefaults(Json::Value*)
+Json::CharReaderBuilder::strictMode(Json::Value*)
+Json::CharReaderBuilder::validate(Json::Value*) const
+Json::CharReaderBuilder::~CharReaderBuilder()
+Json::Exception::Exception(std::string const&)
+Json::Exception::what() const
+Json::Exception::~Exception()
+Json::FastWriter::FastWriter()
+Json::FastWriter::dropNullPlaceholders()
+Json::FastWriter::enableYAMLCompatibility()
+Json::FastWriter::omitEndingLineFeed()
+Json::FastWriter::write(Json::Value const&)
+Json::FastWriter::writeValue(Json::Value const&)
+Json::FastWriter::~FastWriter()
+Json::Features::Features()
+Json::Features::all()
+Json::Features::strictMode()
+Json::LogicError::LogicError(std::string const&)
+Json::LogicError::~LogicError()
+Json::OurCharReader::parse(char const*, char const*, Json::Value*, std::string*)
+Json::OurCharReader::~OurCharReader()
+Json::OurFeatures::all()
+Json::OurReader::OurReader(Json::OurFeatures const&)
+Json::OurReader::addComment(char const*, char const*, Json::CommentPlacement)
+Json::OurReader::addError(std::string const&, Json::OurReader::Token&, char const*)
+Json::OurReader::addErrorAndRecover(std::string const&, Json::OurReader::Token&, Json::OurReader::TokenType)
+Json::OurReader::currentValue()
+Json::OurReader::decodeDouble(Json::OurReader::Token&)
+Json::OurReader::decodeDouble(Json::OurReader::Token&, Json::Value&)
+Json::OurReader::decodeNumber(Json::OurReader::Token&)
+Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)
+Json::OurReader::decodeString(Json::OurReader::Token&)
+Json::OurReader::decodeString(Json::OurReader::Token&, std::string&)
+Json::OurReader::decodeUnicodeCodePoint(Json::OurReader::Token&, char const*&, char const*, unsigned int&)
+Json::OurReader::decodeUnicodeEscapeSequence(Json::OurReader::Token&, char const*&, char const*, unsigned int&)
+Json::OurReader::getFormattedErrorMessages() const
+Json::OurReader::getLocationLineAndColumn(char const*) const
+Json::OurReader::getLocationLineAndColumn(char const*, int&, int&) const
+Json::OurReader::getNextChar()
+Json::OurReader::getStructuredErrors() const
+Json::OurReader::good() const
+Json::OurReader::match(char const*, int)
+Json::OurReader::parse(char const*, char const*, Json::Value&, bool)
+Json::OurReader::pushError(Json::Value const&, std::string const&)
+Json::OurReader::pushError(Json::Value const&, std::string const&, Json::Value const&)
+Json::OurReader::readArray(Json::OurReader::Token&)
+Json::OurReader::readCStyleComment()
+Json::OurReader::readComment()
+Json::OurReader::readCppStyleComment()
+Json::OurReader::readNumber(bool)
+Json::OurReader::readObject(Json::OurReader::Token&)
+Json::OurReader::readString()
+Json::OurReader::readStringSingleQuote()
+Json::OurReader::readToken(Json::OurReader::Token&)
+Json::OurReader::readValue()
+Json::OurReader::recoverFromError(Json::OurReader::TokenType)
+Json::OurReader::skipCommentTokens(Json::OurReader::Token&)
+Json::OurReader::skipSpaces()
+Json::Path::Path(std::string const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&)
+Json::Path::addPathInArg(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > const&, __gnu_cxx::__normal_iterator<Json::PathArgument const* const*, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > >&, Json::PathArgument::Kind)
+Json::Path::invalidPath(std::string const&, int)
+Json::Path::make(Json::Value&) const
+Json::Path::makePath(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > const&)
+Json::Path::resolve(Json::Value const&) const
+Json::Path::resolve(Json::Value const&, Json::Value const&) const
+Json::PathArgument::PathArgument()
+Json::PathArgument::PathArgument(char const*)
+Json::PathArgument::PathArgument(std::string const&)
+Json::PathArgument::PathArgument(unsigned int)
+Json::Reader::Reader()
+Json::Reader::Reader(Json::Features const&)
+Json::Reader::addComment(char const*, char const*, Json::CommentPlacement)
+Json::Reader::addError(std::string const&, Json::Reader::Token&, char const*)
+Json::Reader::addErrorAndRecover(std::string const&, Json::Reader::Token&, Json::Reader::TokenType)
+Json::Reader::currentValue()
+Json::Reader::decodeDouble(Json::Reader::Token&)
+Json::Reader::decodeDouble(Json::Reader::Token&, Json::Value&)
+Json::Reader::decodeNumber(Json::Reader::Token&)
+Json::Reader::decodeNumber(Json::Reader::Token&, Json::Value&)
+Json::Reader::decodeString(Json::Reader::Token&)
+Json::Reader::decodeString(Json::Reader::Token&, std::string&)
+Json::Reader::decodeUnicodeCodePoint(Json::Reader::Token&, char const*&, char const*, unsigned int&)
+Json::Reader::decodeUnicodeEscapeSequence(Json::Reader::Token&, char const*&, char const*, unsigned int&)
+Json::Reader::getFormatedErrorMessages() const
+Json::Reader::getFormattedErrorMessages() const
+Json::Reader::getLocationLineAndColumn(char const*) const
+Json::Reader::getLocationLineAndColumn(char const*, int&, int&) const
+Json::Reader::getLocationSnippet(char const*) const
+Json::Reader::getNextChar()
+Json::Reader::getStructuredErrors() const
+Json::Reader::good() const
+Json::Reader::match(char const*, int)
+Json::Reader::parse(char const*, char const*, Json::Value&, bool)
+Json::Reader::parse(std::istream&, Json::Value&, bool)
+Json::Reader::parse(std::string const&, Json::Value&, bool)
+Json::Reader::pushError(Json::Value const&, std::string const&)
+Json::Reader::pushError(Json::Value const&, std::string const&, Json::Value const&)
+Json::Reader::readArray(Json::Reader::Token&)
+Json::Reader::readCStyleComment()
+Json::Reader::readComment()
+Json::Reader::readCppStyleComment()
+Json::Reader::readNumber()
+Json::Reader::readObject(Json::Reader::Token&)
+Json::Reader::readString()
+Json::Reader::readToken(Json::Reader::Token&)
+Json::Reader::readValue()
+Json::Reader::recoverFromError(Json::Reader::TokenType)
+Json::Reader::skipCommentTokens(Json::Reader::Token&)
+Json::Reader::skipSpaces()
+Json::Reader::~Reader()
+Json::RuntimeError::RuntimeError(std::string const&)
+Json::RuntimeError::~RuntimeError()
+Json::StreamWriter::Factory::~Factory()
+Json::StreamWriter::StreamWriter()
+Json::StreamWriter::~StreamWriter()
+Json::StreamWriterBuilder::StreamWriterBuilder()
+Json::StreamWriterBuilder::newStreamWriter() const
+Json::StreamWriterBuilder::operator[](std::string)
+Json::StreamWriterBuilder::setDefaults(Json::Value*)
+Json::StreamWriterBuilder::validate(Json::Value*) const
+Json::StreamWriterBuilder::~StreamWriterBuilder()
+Json::StyledStreamWriter::StyledStreamWriter(std::string)
+Json::StyledStreamWriter::hasCommentForValue(Json::Value const&)
+Json::StyledStreamWriter::indent()
+Json::StyledStreamWriter::isMultineArray(Json::Value const&)
+Json::StyledStreamWriter::pushValue(std::string const&)
+Json::StyledStreamWriter::unindent()
+Json::StyledStreamWriter::write(std::ostream&, Json::Value const&)
+Json::StyledStreamWriter::writeArrayValue(Json::Value const&)
+Json::StyledStreamWriter::writeCommentAfterValueOnSameLine(Json::Value const&)
+Json::StyledStreamWriter::writeCommentBeforeValue(Json::Value const&)
+Json::StyledStreamWriter::writeIndent()
+Json::StyledStreamWriter::writeValue(Json::Value const&)
+Json::StyledStreamWriter::writeWithIndent(std::string const&)
+Json::StyledWriter::StyledWriter()
+Json::StyledWriter::hasCommentForValue(Json::Value const&)
+Json::StyledWriter::indent()
+Json::StyledWriter::isMultineArray(Json::Value const&)
+Json::StyledWriter::pushValue(std::string const&)
+Json::StyledWriter::unindent()
+Json::StyledWriter::write(Json::Value const&)
+Json::StyledWriter::writeArrayValue(Json::Value const&)
+Json::StyledWriter::writeCommentAfterValueOnSameLine(Json::Value const&)
+Json::StyledWriter::writeCommentBeforeValue(Json::Value const&)
+Json::StyledWriter::writeIndent()
+Json::StyledWriter::writeValue(Json::Value const&)
+Json::StyledWriter::writeWithIndent(std::string const&)
+Json::StyledWriter::~StyledWriter()
+Json::Value::CZString::CZString(Json::Value::CZString const&)
+Json::Value::CZString::CZString(Json::Value::CZString&&)
+Json::Value::CZString::CZString(char const*, unsigned int, Json::Value::CZString::DuplicationPolicy)
+Json::Value::CZString::CZString(unsigned int)
+Json::Value::CZString::data() const
+Json::Value::CZString::index() const
+Json::Value::CZString::isStaticString() const
+Json::Value::CZString::length() const
+Json::Value::CZString::operator<(Json::Value::CZString const&) const
+Json::Value::CZString::operator=(Json::Value::CZString)
+Json::Value::CZString::operator==(Json::Value::CZString const&) const
+Json::Value::CZString::swap(Json::Value::CZString&)
+Json::Value::CZString::~CZString()
+Json::Value::CommentInfo::CommentInfo()
+Json::Value::CommentInfo::setComment(char const*, unsigned long)
+Json::Value::CommentInfo::~CommentInfo()
+Json::Value::Value(Json::StaticString const&)
+Json::Value::Value(Json::Value const&)
+Json::Value::Value(Json::Value&&)
+Json::Value::Value(Json::ValueType)
+Json::Value::Value(bool)
+Json::Value::Value(char const*)
+Json::Value::Value(char const*, char const*)
+Json::Value::Value(double)
+Json::Value::Value(int)
+Json::Value::Value(long long)
+Json::Value::Value(std::string const&)
+Json::Value::Value(unsigned int)
+Json::Value::Value(unsigned long long)
+Json::Value::append(Json::Value const&)
+Json::Value::asBool() const
+Json::Value::asCString() const
+Json::Value::asDouble() const
+Json::Value::asFloat() const
+Json::Value::asInt() const
+Json::Value::asInt64() const
+Json::Value::asLargestInt() const
+Json::Value::asLargestUInt() const
+Json::Value::asString() const
+Json::Value::asUInt() const
+Json::Value::asUInt64() const
+Json::Value::begin()
+Json::Value::begin() const
+Json::Value::clear()
+Json::Value::compare(Json::Value const&) const
+Json::Value::empty() const
+Json::Value::end()
+Json::Value::end() const
+Json::Value::find(char const*, char const*) const
+Json::Value::get(char const*, Json::Value const&) const
+Json::Value::get(char const*, char const*, Json::Value const&) const
+Json::Value::get(std::string const&, Json::Value const&) const
+Json::Value::get(unsigned int, Json::Value const&) const
+Json::Value::getComment(Json::CommentPlacement) const
+Json::Value::getMemberNames() const
+Json::Value::getOffsetLimit() const
+Json::Value::getOffsetStart() const
+Json::Value::getString(char const**, char const**) const
+Json::Value::hasComment(Json::CommentPlacement) const
+Json::Value::initBasic(Json::ValueType, bool)
+Json::Value::isArray() const
+Json::Value::isBool() const
+Json::Value::isConvertibleTo(Json::ValueType) const
+Json::Value::isDouble() const
+Json::Value::isInt() const
+Json::Value::isInt64() const
+Json::Value::isIntegral() const
+Json::Value::isMember(char const*) const
+Json::Value::isMember(char const*, char const*) const
+Json::Value::isMember(std::string const&) const
+Json::Value::isNull() const
+Json::Value::isNumeric() const
+Json::Value::isObject() const
+Json::Value::isString() const
+Json::Value::isUInt() const
+Json::Value::isUInt64() const
+Json::Value::isValidIndex(unsigned int) const
+Json::Value::maxInt
+Json::Value::maxInt64
+Json::Value::maxLargestInt
+Json::Value::maxLargestUInt
+Json::Value::maxUInt
+Json::Value::maxUInt64
+Json::Value::minInt
+Json::Value::minInt64
+Json::Value::minLargestInt
+Json::Value::null
+Json::Value::nullRef
+Json::Value::operator!() const
+Json::Value::operator!=(Json::Value const&) const
+Json::Value::operator<(Json::Value const&) const
+Json::Value::operator<=(Json::Value const&) const
+Json::Value::operator=(Json::Value)
+Json::Value::operator==(Json::Value const&) const
+Json::Value::operator>(Json::Value const&) const
+Json::Value::operator>=(Json::Value const&) const
+Json::Value::operator[](Json::StaticString const&)
+Json::Value::operator[](char const*)
+Json::Value::operator[](char const*) const
+Json::Value::operator[](int)
+Json::Value::operator[](int) const
+Json::Value::operator[](std::string const&)
+Json::Value::operator[](std::string const&) const
+Json::Value::operator[](unsigned int)
+Json::Value::operator[](unsigned int) const
+Json::Value::removeIndex(unsigned int, Json::Value*)
+Json::Value::removeMember(char const*)
+Json::Value::removeMember(char const*, Json::Value*)
+Json::Value::removeMember(char const*, char const*, Json::Value*)
+Json::Value::removeMember(std::string const&)
+Json::Value::removeMember(std::string const&, Json::Value*)
+Json::Value::resize(unsigned int)
+Json::Value::resolveReference(char const*)
+Json::Value::resolveReference(char const*, char const*)
+Json::Value::setComment(char const*, Json::CommentPlacement)
+Json::Value::setComment(char const*, unsigned long, Json::CommentPlacement)
+Json::Value::setComment(std::string const&, Json::CommentPlacement)
+Json::Value::setOffsetLimit(unsigned long)
+Json::Value::setOffsetStart(unsigned long)
+Json::Value::size() const
+Json::Value::swap(Json::Value&)
+Json::Value::swapPayload(Json::Value&)
+Json::Value::toStyledString() const
+Json::Value::type() const
+Json::Value::~Value()
+Json::ValueConstIterator::ValueConstIterator()
+Json::ValueConstIterator::ValueConstIterator(Json::ValueIterator const&)
+Json::ValueConstIterator::ValueConstIterator(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > const&)
+Json::ValueConstIterator::operator=(Json::ValueIteratorBase const&)
+Json::ValueIterator::ValueIterator()
+Json::ValueIterator::ValueIterator(Json::ValueConstIterator const&)
+Json::ValueIterator::ValueIterator(Json::ValueIterator const&)
+Json::ValueIterator::ValueIterator(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > const&)
+Json::ValueIterator::operator=(Json::ValueIterator const&)
+Json::ValueIteratorBase::ValueIteratorBase()
+Json::ValueIteratorBase::ValueIteratorBase(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > const&)
+Json::ValueIteratorBase::computeDistance(Json::ValueIteratorBase const&) const
+Json::ValueIteratorBase::copy(Json::ValueIteratorBase const&)
+Json::ValueIteratorBase::decrement()
+Json::ValueIteratorBase::deref() const
+Json::ValueIteratorBase::increment()
+Json::ValueIteratorBase::index() const
+Json::ValueIteratorBase::isEqual(Json::ValueIteratorBase const&) const
+Json::ValueIteratorBase::key() const
+Json::ValueIteratorBase::memberName() const
+Json::ValueIteratorBase::memberName(char const**) const
+Json::ValueIteratorBase::name() const
+Json::Writer::~Writer()
+Json::duplicateAndPrefixStringValue(char const*, unsigned int)
+Json::kNull
+Json::kNullRef
+Json::normalizeEOL(char const*, char const*)
+Json::operator<<(std::ostream&, Json::Value const&)
+Json::operator>>(std::istream&, Json::Value&)
+Json::parseFromStream(Json::CharReader::Factory const&, std::istream&, Json::Value*, std::string*)
+Json::throwLogicError(std::string const&)
+Json::throwRuntimeError(std::string const&)
+Json::valueToQuotedString(char const*)
+Json::valueToQuotedStringN(char const*, unsigned int)
+Json::valueToString(bool)
+Json::valueToString(double)
+Json::valueToString(double, bool, unsigned int)
+Json::valueToString(int)
+Json::valueToString(long long)
+Json::valueToString(unsigned int)
+Json::valueToString(unsigned long long)
+Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
+LargestInt out of Int range
+LargestInt out of UInt range
+LargestInt out of UInt64 range
+LargestUInt out of Int range
+LargestUInt out of Int64 range
+LargestUInt out of UInt range
+Line %d, Column %d
+LiquidVR
+Log Level Set to %d
+Log path could not be located (112)
+Log(LogLevel, char const*, ...)
+Log(char const*, ...)
+LogIncremental(LogLevel, char const*, ...)
+LogIncremental(char const*, ...)
+MGiI
+MakeFileWriteable(char const*)
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+N
+N16SteamThreadTools7CThreadE
+N4Json10CharReader7FactoryE
+N4Json10CharReaderE
+N4Json10FastWriterE
+N4Json10LogicErrorE
+N4Json12RuntimeErrorE
+N4Json12StreamWriterE
+N4Json12StyledWriterE
+N4Json13OurCharReaderE
+N4Json17CharReaderBuilderE
+N4Json19StreamWriterBuilderE
+N4Json23BuiltStyledStreamWriterE
+N4Json6WriterE
+N4Json9ExceptionE
+No Error (0)
+Not Initialized (109)
+Not starting vrserver for background app (121)
+Out of thread local storage!
+ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*)
+Path_Compact(std::string const&, char)
+Path_Exists(std::string const&)
+Path_FilePathToUrl(std::string const&, std::string const&)
+Path_FindParentDirectoryRecursively(std::string const&, std::string const&)
+Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
+Path_FixSlashes(std::string const&, char)
+Path_GetExecutablePath()
+Path_GetExtension(std::string const&)
+Path_GetSlash()
+Path_GetThisModulePath()
+Path_GetWorkingDirectory()
+Path_IsAbsolute(std::string const&)
+Path_IsAppBundle(std::string const&)
+Path_IsDirectory(std::string const&)
+Path_Join(std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&, char)
+Path_MakeAbsolute(std::string const&, std::string const&, char)
+Path_ReadBinaryFile(std::string const&, int*)
+Path_ReadBinaryFile(std::string const&, unsigned char*, unsigned int)
+Path_ReadTextFile(std::string const&)
+Path_RemoveTrailingSlash(std::string const&, char)
+Path_SetWorkingDirectory(std::string const&)
+Path_StripDirectory(std::string const&, char)
+Path_StripExtension(std::string const&)
+Path_StripFilename(std::string const&, char)
+Path_UrlToFilePath(std::string const&)
+Path_WriteBinaryFile(std::string const&, unsigned char*, unsigned int)
+Path_WriteStringToTextFile(std::string const&, char const*)
+Path_WriteStringToTextFileAtomic(std::string const&, char const*)
+Plat_IsInDebugSession
+Plat_IsInDebugSession::fp
+Prop_AllWirelessDongleDescriptions_String
+Prop_AttachedDeviceId_String
+Prop_AudioFirmwareVersion_Uint64
+Prop_Axis0Type_Int32
+Prop_Axis1Type_Int32
+Prop_Axis2Type_Int32
+Prop_Axis3Type_Int32
+Prop_Axis4Type_Int32
+Prop_BlockServerShutdown_Bool
+Prop_CameraCompatibilityMode_Int32
+Prop_CameraFirmwareDescription_String
+Prop_CameraFirmwareVersion_Uint64
+Prop_CameraToHeadTransform_Matrix34
+Prop_CanUnifyCoordinateSystemWithHmd_Bool
+Prop_ConnectedWirelessDongle_String
+Prop_ContainsProximitySensor_Bool
+Prop_ControllerRoleHint_Int32
+Prop_CurrentUniverseId_Uint64
+Prop_DeviceBatteryPercentage_Float
+Prop_DeviceCanPowerOff_Bool
+Prop_DeviceClass_Int32
+Prop_DeviceIsCharging_Bool
+Prop_DeviceIsWireless_Bool
+Prop_DeviceProvidesBatteryStatus_Bool
+Prop_DisplayBootloaderVersion_Uint64
+Prop_DisplayFPGAVersion_Uint64
+Prop_DisplayFirmwareVersion_Uint64
+Prop_DisplayFrequency_Float
+Prop_DisplayGCBlackClamp_Float
+Prop_DisplayGCImage_String
+Prop_DisplayGCOffset_Float
+Prop_DisplayGCPrescale_Float
+Prop_DisplayGCScale_Float
+Prop_DisplayGCType_Int32
+Prop_DisplayHardwareVersion_Uint64
+Prop_DisplayMCImageLeft_String
+Prop_DisplayMCImageRight_String
+Prop_DisplayMCOffset_Float
+Prop_DisplayMCScale_Float
+Prop_DisplayMCType_Int32
+Prop_DisplaySuppressed_Bool
+Prop_DongleVersion_Uint64
+Prop_DriverVersion_String
+Prop_EdidProductID_Int32
+Prop_EdidVendorID_Int32
+Prop_FPGAVersion_Uint64
+Prop_FieldOfViewBottomDegrees_Float
+Prop_FieldOfViewLeftDegrees_Float
+Prop_FieldOfViewRightDegrees_Float
+Prop_FieldOfViewTopDegrees_Float
+Prop_FirmwareVersion_Uint64
+Prop_Firmware_ForceUpdateRequired_Bool
+Prop_Firmware_ManualUpdateURL_String
+Prop_Firmware_ManualUpdate_Bool
+Prop_Firmware_ProgrammingTarget_String
+Prop_Firmware_UpdateAvailable_Bool
+Prop_HardwareRevision_String
+Prop_HardwareRevision_Uint64
+Prop_HasCamera_Bool
+Prop_IconPathName_String
+Prop_IsOnDesktop_Bool
+Prop_LensCenterLeftU_Float
+Prop_LensCenterLeftV_Float
+Prop_LensCenterRightU_Float
+Prop_LensCenterRightV_Float
+Prop_ManufacturerName_String
+Prop_ModeLabel_String
+Prop_ModelNumber_String
+Prop_NamedIconPathDeviceAlertLow_String
+Prop_NamedIconPathDeviceNotReady_String
+Prop_NamedIconPathDeviceOff_String
+Prop_NamedIconPathDeviceReadyAlert_String
+Prop_NamedIconPathDeviceReady_String
+Prop_NamedIconPathDeviceSearchingAlert_String
+Prop_NamedIconPathDeviceSearching_String
+Prop_NamedIconPathDeviceStandby_String
+Prop_PreviousUniverseId_Uint64
+Prop_RadioVersion_Uint64
+Prop_RenderModelName_String
+Prop_ReportsTimeSinceVSync_Bool
+Prop_ScreenshotHorizontalFieldOfViewDegrees_Float
+Prop_ScreenshotVerticalFieldOfViewDegrees_Float
+Prop_SecondsFromVsyncToPhotons_Float
+Prop_SerialNumber_String
+Prop_StatusDisplayTransform_Matrix34
+Prop_SupportedButtons_Uint64
+Prop_TrackingFirmwareVersion_String
+Prop_TrackingRangeMaximumMeters_Float
+Prop_TrackingRangeMinimumMeters_Float
+Prop_TrackingSystemName_String
+Prop_UserHeadToEyeDepthMeters_Float
+Prop_UserIpdMeters_Float
+Prop_VRCVersion_Uint64
+Prop_WillDriftInYaw_Bool
+ReapChildProcesses(int)
+ReleaseThreadHandle
+SecondsToSystemTicks(double)
+See
+SetEnvironmentVariable(char const*, char const*)
+SetMaxLogLevel(LogLevel)
+Settings manager init failed (118)
+Shared IPC Compositor Connect Failed (306)
+Shared IPC Compositor Init Failed (303)
+Shared IPC Compositor Invalid Connect Response (307)
+Shared IPC Connect Failed After Multiple Attempts (308)
+Shared IPC Failed (305)
+Shared IPC Mutex Init Failed (304)
+Shared IPC State Init Failed (302)
+SharedLib_GetFunction(void*, char const*)
+SharedLib_Load(char const*)
+SharedLib_Unload(void*)
+SteamThreadTools::CThread::BHasValidThreadID()
+SteamThreadTools::CThread::CThread()
+SteamThreadTools::CThread::GetCurrentCThread()
+SteamThreadTools::CThread::GetName()
+SteamThreadTools::CThread::GetPriority() const
+SteamThreadTools::CThread::GetResult() const
+SteamThreadTools::CThread::GetThreadProc()
+SteamThreadTools::CThread::Init()
+SteamThreadTools::CThread::IsAlive()
+SteamThreadTools::CThread::IsAlive() [clone .part.4]
+SteamThreadTools::CThread::IsThreadRunning()
+SteamThreadTools::CThread::Join(unsigned int)
+SteamThreadTools::CThread::OnExit()
+SteamThreadTools::CThread::Resume()
+SteamThreadTools::CThread::SetName(char const*)
+SteamThreadTools::CThread::SetPriority(int)
+SteamThreadTools::CThread::Sleep(unsigned int)
+SteamThreadTools::CThread::Start(unsigned int)
+SteamThreadTools::CThread::Stop(int)
+SteamThreadTools::CThread::Suspend()
+SteamThreadTools::CThread::Terminate(int)
+SteamThreadTools::CThread::ThreadExceptionWrapper(void*)
+SteamThreadTools::CThread::ThreadProc(void*)
+SteamThreadTools::CThread::WaitForCreateComplete(SteamThreadTools::CThreadEvent*)
+SteamThreadTools::CThread::Yield()
+SteamThreadTools::CThread::~CThread()
+SteamThreadTools::CThread::~CThread() [clone .part.8]
+SteamThreadTools::CThreadEvent::CThreadEvent(bool)
+SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool)
+SteamThreadTools::CThreadEvent::Check()
+SteamThreadTools::CThreadEvent::Reset()
+SteamThreadTools::CThreadEvent::Set()
+SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
+SteamThreadTools::CThreadFullMutex::IsCreator() const
+SteamThreadTools::CThreadFullMutex::Release()
+SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
+SteamThreadTools::CThreadLocalBase::Get() const
+SteamThreadTools::CThreadLocalBase::Set(void*)
+SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
+SteamThreadTools::CThreadLocalInt<long>::~CThreadLocalInt()
+SteamThreadTools::CThreadLocalPtr<SteamThreadTools::CThread>::~CThreadLocalPtr()
+SteamThreadTools::CThreadMutex::CThreadMutex()
+SteamThreadTools::CThreadMutex::~CThreadMutex()
+SteamThreadTools::CThreadRWLock::LockForWrite()
+SteamThreadTools::CThreadRWLock::UnlockWrite()
+SteamThreadTools::CThreadRWLock::WaitForRead()
+SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long)
+SteamThreadTools::CThreadSemaphore::Release(long)
+SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
+SteamThreadTools::CThreadSpinRWLock::LockForRead()
+SteamThreadTools::CThreadSpinRWLock::SpinLockForWrite(unsigned int)
+SteamThreadTools::CThreadSpinRWLock::TryLockForWrite(unsigned int)::oldValue
+SteamThreadTools::CThreadSpinRWLock::UnlockRead()
+SteamThreadTools::CThreadSpinRWLock::UnlockWrite()
+SteamThreadTools::CThreadSpinRWLock::UnlockWrite()::newValue
+SteamThreadTools::CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
+SteamThreadTools::CThreadSyncObject::AssertUseable()
+SteamThreadTools::CThreadSyncObject::CThreadSyncObject()
+SteamThreadTools::CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
+SteamThreadTools::CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
+SteamThreadTools::CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
+SteamThreadTools::CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
+SteamThreadTools::CThreadSyncObject::EnsureSemaphorePostedInternal(int)
+SteamThreadTools::CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
+SteamThreadTools::CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
+SteamThreadTools::CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
+SteamThreadTools::CThreadSyncObject::SaveNameToFile(char const*)
+SteamThreadTools::CThreadSyncObject::SignalThreadSyncObjectInternal()
+SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
+SteamThreadTools::CThreadSyncObject::operator!() const
+SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
+SteamThreadTools::CThreadSyncObject::~CThreadSyncObject() [clone .part.2]
+StringListToJson(std::vector<std::string, std::allocator<std::string> > const&, Json::Value&, char const*)
+SuspendResumePthread(unsigned long, int)
+Syntax error: value, object or array expected.
+SystemTicksToSeconds(unsigned long)
+SystemTimeSleep(unsigned int)
+The requested interface is incompatible with the compositor and the compositor is running (122)
+This interface is not available to utility applications (123)
+Thread failed to initialize 1
+Thread failed to initialize 2
+Thread(0x%p/0x%p/0x%x)
+ThreadCloseProcess
+ThreadGetCurrentHandle
+ThreadGetCurrentId
+ThreadGetCurrentProcessHandle
+ThreadGetCurrentProcessId
+ThreadGetCurrentRunningRef
+ThreadGetPriority
+ThreadGetProcessExitCode
+ThreadGetProcessListInfo
+ThreadGetProcessParentID
+ThreadInMainThread
+ThreadInterlockedAssignIf
+ThreadInterlockedAssignIf64
+ThreadInterlockedAssignPointerIf
+ThreadInterlockedCompareExchange
+ThreadInterlockedCompareExchange64
+ThreadInterlockedCompareExchangePointer
+ThreadInterlockedDecrement
+ThreadInterlockedDecrement64
+ThreadInterlockedExchange
+ThreadInterlockedExchange64
+ThreadInterlockedExchangeAdd
+ThreadInterlockedExchangeAdd64
+ThreadInterlockedExchangePointer
+ThreadInterlockedIncrement
+ThreadInterlockedIncrement64
+ThreadIsProcessActive
+ThreadIsThreadRunning
+ThreadOpenProcess
+ThreadProcConvert(void*)
+ThreadResumeSignal(int)
+ThreadSetAffinity
+ThreadSetDebugName
+ThreadSetDebugName.part.0
+ThreadSetPriority
+ThreadShellExecute
+ThreadShellExecute::bInstalledSignalHandler
+ThreadSleep
+ThreadSuspendSignal(int)
+ThreadTerminate
+ThreadTerminateProcessCode
+ThreadWaitForProcessExit
+ThreadYield()
+Too many tracked objects (120)
+TracerPid:
+TrackedDeviceClass_Controller
+TrackedDeviceClass_GenericTracker
+TrackedDeviceClass_HMD
+TrackedDeviceClass_Invalid
+TrackedDeviceClass_TrackingReference
+USER
+Unable to connect to Oculus Runtime (1000)
+Unable to create path registry directory %s
+Unable to determine VR Path Registry filename
+Unable to find Steam installation (2000)
+Unable to parse %s: %s
+Unable to parse token length
+Unable to read VR Path Registry from %s
+Unable to write VR path registry to %s
+Unable to write path registry (113)
+UnixTimeToDateString(unsigned long)
+Unknown EVRApplicationTransitionState (%d)
+Unknown EVRApplicationType (%d)
+Unknown EVRButtonId (%d)
+Unknown EVRControllerAxisType (%d)
+Unknown EVREventType (%d)
+Unknown EVROverlayError (%d)
+Unknown HMDClass (%d)
+Unknown VRApplicationsError (%d)
+Unknown VRMsgType (%d)
+Unknown VRNotificationError (%d)
+Unknown VRSettingsError (%d)
+Unknown VRTrackedCameraError (%d)
+Unknown compositor error (%d)
+Unknown error (%d)
+Unknown render model error (%d)
+Unknown tracked device property (%d)
+UnlinkFile(char const*)
+User Canceled Init (116)
+User Config Directory Invalid (107)
+VR Path Registry node %s is not an array
+VR Server Init Failed (300)
+VR system shutting down (119)
+VRApplicationError_AppKeyAlreadyExists
+VRApplicationError_ApplicationAlreadyRunning
+VRApplicationError_ApplicationAlreadyStarting
+VRApplicationError_BufferTooSmall
+VRApplicationError_IPCFailed
+VRApplicationError_InvalidApplication
+VRApplicationError_InvalidIndex
+VRApplicationError_InvalidManifest
+VRApplicationError_InvalidParameter
+VRApplicationError_LaunchFailed
+VRApplicationError_LaunchInProgress
+VRApplicationError_NoApplication
+VRApplicationError_NoManifest
+VRApplicationError_None
+VRApplicationError_OldApplicationQuitting
+VRApplicationError_PropertyNotSet
+VRApplicationError_TransitionAborted
+VRApplicationError_UnknownApplication
+VRApplicationError_UnknownProperty
+VRApplicationTransition_NewAppLaunched
+VRApplicationTransition_None
+VRApplicationTransition_OldAppQuitSent
+VRApplication_Background
+VRApplication_Other
+VRApplication_Overlay
+VRApplication_Scene
+VRApplication_SteamWatchdog
+VRApplication_Utility
+VRApplication_VRMonitor
+VRClientCoreFactory
+VRCompositorError_DoNotHaveFocus
+VRCompositorError_IncompatibleVersion
+VRCompositorError_IndexOutOfRange
+VRCompositorError_InvalidTexture
+VRCompositorError_IsNotSceneApplication
+VRCompositorError_None
+VRCompositorError_SharedTexturesNotSupported
+VRCompositorError_TextureIsOnWrongDevice
+VRCompositorError_TextureUsesUnsupportedFormat
+VRCompositorSystemInternal
+VRControlPanel
+VRDashboardManager
+VREvent_ApplicationListUpdated
+VREvent_ApplicationTransitionAborted
+VREvent_ApplicationTransitionNewAppStarted
+VREvent_ApplicationTransitionStarted
+VREvent_AudioSettingsHaveChanged
+VREvent_BackgroundSettingHasChanged
+VREvent_ButtonPress
+VREvent_ButtonTouch
+VREvent_ButtonUnpress
+VREvent_ButtonUntouch
+VREvent_CameraSettingsHaveChanged
+VREvent_ChaperoneDataHasChanged
+VREvent_ChaperoneTempDataHasChanged
+VREvent_ChaperoneUniverseHasChanged
+VREvent_Compositor_ChaperoneBoundsHidden
+VREvent_Compositor_ChaperoneBoundsShown
+VREvent_Compositor_MirrorWindowHidden
+VREvent_Compositor_MirrorWindowShown
+VREvent_DashboardActivated
+VREvent_DashboardDeactivated
+VREvent_DashboardGuideButtonDown
+VREvent_DashboardGuideButtonUp
+VREvent_DashboardOverlayCreated
+VREvent_DashboardRequested
+VREvent_DashboardThumbSelected
+VREvent_DriverRequestedQuit
+VREvent_EnterStandbyMode
+VREvent_EnvironmentSettingsHaveChanged
+VREvent_FirmwareUpdateFinished
+VREvent_FirmwareUpdateStarted
+VREvent_FocusEnter
+VREvent_FocusLeave
+VREvent_HideKeyboard
+VREvent_HideRenderModels
+VREvent_ImageFailed
+VREvent_ImageLoaded
+VREvent_InputFocusCaptured
+VREvent_InputFocusChanged
+VREvent_InputFocusReleased
+VREvent_IpdChanged
+VREvent_LeaveStandbyMode
+VREvent_MessageOverlay_Closed
+VREvent_ModelSkinSettingsHaveChanged
+VREvent_MouseButtonDown
+VREvent_MouseButtonUp
+VREvent_MouseMove
+VREvent_None
+VREvent_Notification_BeginInteraction
+VREvent_Notification_Destroyed
+VREvent_Notification_Hidden
+VREvent_Notification_Shown
+VREvent_OverlayGamepadFocusGained
+VREvent_OverlayGamepadFocusLost
+VREvent_OverlayHidden
+VREvent_OverlaySharedTextureChanged
+VREvent_OverlayShown
+VREvent_PerformanceTest_DisableCapture
+VREvent_PerformanceTest_EnableCapture
+VREvent_PerformanceTest_FidelityLevel
+VREvent_PowerSettingsHaveChanged
+VREvent_ProcessQuit
+VREvent_Quit
+VREvent_QuitAborted_UserPrompt
+VREvent_QuitAcknowledged
+VREvent_RenderToast
+VREvent_ReprojectionSettingHasChanged
+VREvent_RequestScreenshot
+VREvent_ResetDashboard
+VREvent_SceneApplicationChanged
+VREvent_SceneApplicationSecondaryRenderingStarted
+VREvent_SceneFocusChanged
+VREvent_SceneFocusGained
+VREvent_SceneFocusLost
+VREvent_ScreenshotFailed
+VREvent_ScreenshotProgressToDashboard
+VREvent_ScreenshotTaken
+VREvent_ScreenshotTriggered
+VREvent_Scroll
+VREvent_ShowKeyboard
+VREvent_ShowRenderModels
+VREvent_StatusUpdate
+VREvent_SubmitScreenshotToDashboard
+VREvent_TouchPadMove
+VREvent_TrackedCamera_EditingSurface
+VREvent_TrackedCamera_PauseVideoStream
+VREvent_TrackedCamera_ResumeVideoStream
+VREvent_TrackedCamera_StartVideoStream
+VREvent_TrackedCamera_StopVideoStream
+VREvent_TrackedDeviceActivated
+VREvent_TrackedDeviceDeactivated
+VREvent_TrackedDeviceRoleChanged
+VREvent_TrackedDeviceUpdated
+VREvent_TrackedDeviceUserInteractionEnded
+VREvent_TrackedDeviceUserInteractionStarted
+VREvent_VendorSpecific_Reserved_Start+%d
+VREvent_WatchdogWakeUpRequested
+VRInitError_Compositor_D3D11HardwareRequired
+VRInitError_Compositor_Failed
+VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_OverlayInitFailed
+VRInitError_Driver_CalibrationInvalid
+VRInitError_Driver_Failed
+VRInitError_Driver_HmdDisplayMirrored
+VRInitError_Driver_HmdDisplayNotFound
+VRInitError_Driver_HmdDriverIdOutOfBounds
+VRInitError_Driver_HmdInUse
+VRInitError_Driver_HmdUnknown
+VRInitError_Driver_NotCalibrated
+VRInitError_Driver_NotLoaded
+VRInitError_Driver_RuntimeOutOfDate
+VRInitError_Driver_TrackedDeviceInterfaceUnknown
+VRInitError_Driver_Unknown
+VRInitError_IPC_CompositorConnectFailed
+VRInitError_IPC_CompositorInitFailed
+VRInitError_IPC_CompositorInvalidConnectResponse
+VRInitError_IPC_ConnectFailed
+VRInitError_IPC_ConnectFailedAfterMultipleAttempts
+VRInitError_IPC_Failed
+VRInitError_IPC_MutexInitFailed
+VRInitError_IPC_ServerInitFailed
+VRInitError_IPC_SharedStateInitFailed
+VRInitError_Init_AnotherAppLaunching
+VRInitError_Init_AppInfoInitFailed
+VRInitError_Init_FactoryNotFound
+VRInitError_Init_FileNotFound
+VRInitError_Init_HmdDriverIdIsNone
+VRInitError_Init_HmdNotFound
+VRInitError_Init_HmdNotFoundPresenceFailed
+VRInitError_Init_InitCanceledByUser
+VRInitError_Init_InstallationCorrupt
+VRInitError_Init_InstallationNotFound
+VRInitError_Init_InterfaceNotFound
+VRInitError_Init_Internal
+VRInitError_Init_InvalidApplicationType
+VRInitError_Init_InvalidInterface
+VRInitError_Init_LowPowerWatchdogNotSupported
+VRInitError_Init_NoConfigPath
+VRInitError_Init_NoLogPath
+VRInitError_Init_NoServerForBackgroundApp
+VRInitError_Init_NotAvailableToUtilityApps
+VRInitError_Init_NotAvailableToWatchdogApps
+VRInitError_Init_NotInitialized
+VRInitError_Init_NotSupportedWithCompositor
+VRInitError_Init_PathRegistryNotFound
+VRInitError_Init_PathRegistryNotWritable
+VRInitError_Init_Retry
+VRInitError_Init_SettingsInitFailed
+VRInitError_Init_ShuttingDown
+VRInitError_Init_TooManyObjects
+VRInitError_Init_UserConfigDirectoryInvalid
+VRInitError_Init_VRClientDLLNotFound
+VRInitError_Init_VRDashboardNotFound
+VRInitError_Init_VRDashboardStartupFailed
+VRInitError_Init_VRMonitorNotFound
+VRInitError_Init_VRMonitorStartupFailed
+VRInitError_Init_WatchdogDisabledInSettings
+VRInitError_None
+VRInitError_Steam_SteamInstallationNotFound
+VRInitError_Unknown
+VRInitError_VendorSpecific_HmdFound_CantOpenDevice
+VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
+VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
+VRInitError_VendorSpecific_HmdFound_ConfigTooBig
+VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
+VRInitError_VendorSpecific_HmdFound_NoStoredConfig
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
+VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
+VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
+VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
+VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRMsg_AbortApplicationTransition
+VRMsg_AcknowledgeQuit_Exiting
+VRMsg_AcknowledgeQuit_UserPrompt
+VRMsg_AddApplicationManifest
+VRMsg_AddApplicationManifestResponse
+VRMsg_CancelApplicationLaunch
+VRMsg_CancelApplicationLaunchResponse
+VRMsg_CaptureInputFocus
+VRMsg_CaptureInputFocusResponse
+VRMsg_CompositorBringToFront
+VRMsg_CompositorClearFrameBuffer
+VRMsg_CompositorConnect
+VRMsg_CompositorConnectResponse
+VRMsg_CompositorDumpImages
+VRMsg_CompositorFadeGrid
+VRMsg_CompositorFadeToColor
+VRMsg_CompositorGoToBack
+VRMsg_CompositorHandleSystemButton
+VRMsg_CompositorHandleSystemButtonResponse
+VRMsg_CompositorHideDashboard
+VRMsg_CompositorHideDashboardResponse
+VRMsg_CompositorHideMirrorWindow
+VRMsg_CompositorPrepareInternalProcessTransition
+VRMsg_CompositorPrepareInternalProcessTransitionResponse
+VRMsg_CompositorQuit
+VRMsg_CompositorSetOverlay
+VRMsg_CompositorSetOverlayFromFile
+VRMsg_CompositorSetOverlayFromFileResponse
+VRMsg_CompositorShowDashboard
+VRMsg_CompositorShowDashboardResponse
+VRMsg_CompositorShowMirrorWindow
+VRMsg_ComputeDistortion
+VRMsg_ComputeDistortionResponse
+VRMsg_Connect
+VRMsg_ConnectResponse
+VRMsg_CreateSwapTextureSet
+VRMsg_CreateSwapTextureSetResponse
+VRMsg_DestroySwapTextureSet
+VRMsg_DriverDebugRequest
+VRMsg_DriverDebugResponse
+VRMsg_GetApplicationInfo
+VRMsg_GetApplicationInfoResponse
+VRMsg_GetDisplayInfo
+VRMsg_GetDisplayInfoResponse
+VRMsg_GetDriverInfo
+VRMsg_GetDriverInfoResponse
+VRMsg_GetProperty
+VRMsg_GetPropertyResponse
+VRMsg_LaunchApplication
+VRMsg_LaunchApplicationResponse
+VRMsg_LaunchInternalProcess
+VRMsg_LaunchInternalProcessResponse
+VRMsg_LaunchTemplateApplication
+VRMsg_LaunchTemplateApplicationResponse
+VRMsg_PerformApplicationPrelaunchCheck
+VRMsg_PerformApplicationPrelaunchCheckResponse
+VRMsg_PowerOffTrackedDevice
+VRMsg_QuitProcessRequest
+VRMsg_QuitProcessResponse
+VRMsg_ReleaseInputFocus
+VRMsg_ReleaseInputFocusResponse
+VRMsg_RemoveApplicationManifest
+VRMsg_RemoveApplicationManifestResponse
+VRMsg_SetApplicationOptions
+VRMsg_SetApplicationOptionsResponse
+VRMsg_SetApplicationProcessId
+VRMsg_SetApplicationProcessIdResponse
+VRMsg_SetMasterProcess
+VRMsg_SetMasterProcessResponse
+VRMsg_SetNotificationImage
+VRMsg_SetNotificationImageResponse
+VRMsg_Settings_GetBool
+VRMsg_Settings_GetBool_Response
+VRMsg_Settings_GetFloat
+VRMsg_Settings_GetFloat_Response
+VRMsg_Settings_GetInt32
+VRMsg_Settings_GetInt32_Response
+VRMsg_Settings_GetString
+VRMsg_Settings_GetString_Response
+VRMsg_Settings_SetBool
+VRMsg_Settings_SetFloat
+VRMsg_Settings_SetInt32
+VRMsg_Settings_SetString
+VRMsg_Settings_SetValue_Response
+VRMsg_Settings_Sync
+VRMsg_Settings_Sync_Response
+VRMsg_StartAutolaunchOverlays
+VRMsg_StartHomeApp
+VRMsg_StartHomeAppResponse
+VRMsg_TrackedCamera_Enable
+VRMsg_TrackedCamera_EnableResponse
+VRMsg_TrackedCamera_GetDistortion
+VRMsg_TrackedCamera_GetDistortionResponse
+VRMsg_TrackedCamera_GetFormatDimensions
+VRMsg_TrackedCamera_GetFormatDimensionsResponse
+VRMsg_TrackedCamera_GetIntrinsics
+VRMsg_TrackedCamera_GetIntrinsicsResponse
+VRMsg_TrackedCamera_GetProjection
+VRMsg_TrackedCamera_GetProjectionResponse
+VRMsg_TrackedCamera_GetVideoStreamFormat
+VRMsg_TrackedCamera_GetVideoStreamFormatResponse
+VRMsg_TrackedCamera_IsVideoStreamActive
+VRMsg_TrackedCamera_IsVideoStreamActiveResponse
+VRMsg_TrackedCamera_PauseVideoStream
+VRMsg_TrackedCamera_PauseVideoStreamResponse
+VRMsg_TrackedCamera_ResumeVideoStream
+VRMsg_TrackedCamera_ResumeVideoStreamResponse
+VRMsg_TrackedCamera_SetAutoExposure
+VRMsg_TrackedCamera_SetAutoExposureResponse
+VRMsg_TrackedCamera_SetCompatibilityMode
+VRMsg_TrackedCamera_SetCompatibilityModeResponse
+VRMsg_TrackedCamera_SetVideoStreamFormat
+VRMsg_TrackedCamera_SetVideoStreamFormatResponse
+VRMsg_TrackedCamera_StartVideoStream
+VRMsg_TrackedCamera_StartVideoStreamResponse
+VRMsg_TrackedCamera_StopVideoStream
+VRMsg_TrackedCamera_StopVideoStreamResponse
+VRMsg_TrackedCamera_Unused1
+VRMsg_TrackedCamera_Unused2
+VRMsg_TriggerHapticPulse
+VRNotificationError_InvalidNotificationId
+VRNotificationError_InvalidOverlayHandle
+VRNotificationError_NotificationQueueFull
+VRNotificationError_OK
+VROculusDirect
+VROverlayError_ArrayTooSmall
+VROverlayError_BadMaskPrimitive
+VROverlayError_InvalidHandle
+VROverlayError_InvalidParameter
+VROverlayError_InvalidTexture
+VROverlayError_InvalidTrackedDevice
+VROverlayError_KeyInUse
+VROverlayError_KeyTooLong
+VROverlayError_KeyboardAlreadyInUse
+VROverlayError_NameTooLong
+VROverlayError_NoNeighbor
+VROverlayError_None
+VROverlayError_OverlayLimitExceeded
+VROverlayError_PermissionDenied
+VROverlayError_RequestFailed
+VROverlayError_ThumbnailCantBeDestroyed
+VROverlayError_TooManyMaskPrimitives
+VROverlayError_UnableToLoadFile
+VROverlayError_UnknownOverlay
+VROverlayError_WrongTransformType
+VROverlayError_WrongVisibilityType
+VRRenderModelError_InvalidArg (300)
+VRRenderModelError_InvalidModel (301)
+VRRenderModelError_InvalidTexture (400)
+VRRenderModelError_Loading (100)
+VRRenderModelError_MultipleShapes (303)
+VRRenderModelError_MultipleTextures (305)
+VRRenderModelError_NoShapes (302)
+VRRenderModelError_None (0)
+VRRenderModelError_TooManyVertices (304)
+VRRenderModelsInternal
+VRSettingsError_IPCFailed
+VRSettingsError_None
+VRSettingsError_ReadFailed
+VRSettingsError_UnsetSettingHasNoDefault
+VRSettingsError_WriteFailed
+VRTrackedCameraError_FailedToGetGLTextureId
+VRTrackedCameraError_FrameBufferingFailure
+VRTrackedCameraError_IPCFailure
+VRTrackedCameraError_InvalidArgument
+VRTrackedCameraError_InvalidFrameBufferSize
+VRTrackedCameraError_InvalidFrameHeaderVersion
+VRTrackedCameraError_InvalidGLTextureId
+VRTrackedCameraError_InvalidHandle
+VRTrackedCameraError_InvalidSharedTextureHandle
+VRTrackedCameraError_NoFrameAvailable
+VRTrackedCameraError_None
+VRTrackedCameraError_NotSupportedForThisDevice
+VRTrackedCameraError_OperationFailed
+VRTrackedCameraError_OutOfHandles
+VRTrackedCameraError_SharedMemoryFailure
+VRTrackedCameraError_SharedTextureFailure
+VRTrackedCameraError_StreamSetupFailure
+VRTrackedCameraInternal
+VR_COMBINED_LOGGING
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetInitToken
+VR_GetStringForHmdError
+VR_GetVRInitErrorAsEnglishDescription
+VR_GetVRInitErrorAsSymbol
+VR_InitInternal
+VR_IsHmdPresent
+VR_IsInterfaceVersionValid
+VR_IsRuntimeInstalled
+VR_LOG_PATH
+VR_OVERRIDE
+VR_RuntimePath
+VR_RuntimePath::sRuntimePath
+VR_ShutdownInternal
+VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+WillLog(LogLevel)
+XDG_CONFIG_HOME
+[
+[.
+[System] No OS path for config available
+[System] No OS path for logs available
+[System] No Steam Path available.
+[]
+\"
+\\
+\b
+\f
+\n
+\r
+\t
+\u
+]
+_
+_DYNAMIC
+_GLOBAL_OFFSET_TABLE_
+_GLOBAL__sub_I_json_value.cpp
+_GLOBAL__sub_I_threadtools.cpp
+_GLOBAL__sub_I_vrlog.cpp
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+_Unwind_Backtrace
+_Unwind_DebugHook
+_Unwind_DeleteException
+_Unwind_FindEnclosingFunction
+_Unwind_Find_FDE
+_Unwind_ForcedUnwind
+_Unwind_ForcedUnwind_Phase2
+_Unwind_GetCFA
+_Unwind_GetDataRelBase
+_Unwind_GetGR
+_Unwind_GetIP
+_Unwind_GetIPInfo
+_Unwind_GetLanguageSpecificData
+_Unwind_GetRegionStart
+_Unwind_GetTextRelBase
+_Unwind_IteratePhdrCallback
+_Unwind_RaiseException
+_Unwind_RaiseException_Phase2
+_Unwind_Resume
+_Unwind_Resume_or_Rethrow
+_Unwind_SetGR
+_Unwind_SetIP
+_ZNKSs5rfindEcm@@GLIBCXX_3.4
+_ZNKSs7compareEPKc@@GLIBCXX_3.4
+_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4
+_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
+_ZNSi10_M_extractIdEERSiRT_@@GLIBCXX_3.4.9
+_ZNSolsEPSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZNSolsEi@@GLIBCXX_3.4
+_ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
+_ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
+_ZNSs4_Rep10_M_disposeERKSaIcE@@GLIBCXX_3.4
+_ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
+_ZNSs4_Rep9_S_createEmmRKSaIcE@@GLIBCXX_3.4
+_ZNSs4swapERSs@@GLIBCXX_3.4
+_ZNSs5eraseEN9__gnu_cxx17__normal_iteratorIPcSsEES2_@@GLIBCXX_3.4
+_ZNSs6appendEPKcm@@GLIBCXX_3.4
+_ZNSs6appendERKSs@@GLIBCXX_3.4
+_ZNSs6assignEPKcm@@GLIBCXX_3.4
+_ZNSs6assignERKSs@@GLIBCXX_3.4
+_ZNSs6insertEmPKcm@@GLIBCXX_3.4
+_ZNSs6resizeEmc@@GLIBCXX_3.4
+_ZNSs7replaceEmmPKcm@@GLIBCXX_3.4
+_ZNSs7reserveEm@@GLIBCXX_3.4
+_ZNSs9_M_mutateEmmm@@GLIBCXX_3.4
+_ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
+_ZNSsC1EPKcmRKSaIcE@@GLIBCXX_3.4
+_ZNSsC1ERKSs@@GLIBCXX_3.4
+_ZNSsC1ERKSsmm@@GLIBCXX_3.4
+_ZNSsC1EmcRKSaIcE@@GLIBCXX_3.4
+_ZNSsD1Ev@@GLIBCXX_3.4
+_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm@@GLIBCXX_3.4
+_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
+_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4
+_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
+_ZNSt6localeC1Ev@@GLIBCXX_3.4
+_ZNSt6localeD1Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@@GLIBCXX_3.4
+_ZNSt9exceptionD2Ev@@GLIBCXX_3.4
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@@GLIBCXX_3.4.9
+_ZSt16__throw_bad_castv@@GLIBCXX_3.4
+_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
+_ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
+_ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
+_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@@GLIBCXX_3.4
+_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
+_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_ES4_@@GLIBCXX_3.4
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
+_ZTISt9exception@@GLIBCXX_3.4
+_ZTIi@@CXXABI_1.3
+_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
+_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
+_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZdaPv@@GLIBCXX_3.4
+_ZdlPv@@GLIBCXX_3.4
+_Znam@@GLIBCXX_3.4
+_Znwm@@GLIBCXX_3.4
+__FRAME_END__
+__JCR_END__
+__JCR_LIST__
+__TMC_END__
+__bss_start
+__cxa_allocate_exception
+__cxa_allocate_exception@@CXXABI_1.3
+__cxa_atexit
+__cxa_atexit@@GLIBC_2.2.5
+__cxa_begin_catch
+__cxa_begin_catch@@CXXABI_1.3
+__cxa_end_catch
+__cxa_end_catch@@CXXABI_1.3
+__cxa_finalize
+__cxa_finalize@@GLIBC_2.2.5
+__cxa_free_exception
+__cxa_free_exception@@CXXABI_1.3
+__cxa_guard_abort
+__cxa_guard_abort@@CXXABI_1.3
+__cxa_guard_acquire
+__cxa_guard_acquire@@CXXABI_1.3
+__cxa_guard_release
+__cxa_guard_release@@CXXABI_1.3
+__cxa_pure_virtual
+__cxa_pure_virtual@@CXXABI_1.3
+__cxa_rethrow
+__cxa_rethrow@@CXXABI_1.3
+__cxa_throw
+__cxa_throw@@CXXABI_1.3
+__deregister_frame
+__deregister_frame_info
+__deregister_frame_info_bases
+__do_global_dtors_aux
+__do_global_dtors_aux_fini_array_entry
+__dso_handle
+__errno_location
+__errno_location@@GLIBC_2.2.5
+__fprintf_chk
+__fprintf_chk@@GLIBC_2.3.4
+__frame_dummy_init_array_entry
+__frame_state_for
+__gmon_start__
+__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, char const*>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, char const* const&, std::random_access_iterator_tag)
+__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&, std::random_access_iterator_tag)
+__gxx_personality_v0
+__gxx_personality_v0@@CXXABI_1.3
+__memcpy_chk
+__memcpy_chk@@GLIBC_2.3.4
+__printf_chk
+__printf_chk@@GLIBC_2.3.4
+__pthread_key_create
+__pthread_key_create@@GLIBC_2.2.5
+__register_frame
+__register_frame_info
+__register_frame_info_bases
+__register_frame_info_table
+__register_frame_info_table_bases
+__register_frame_table
+__snprintf_chk
+__snprintf_chk@@GLIBC_2.3.4
+__sprintf_chk
+__sprintf_chk@@GLIBC_2.3.4
+__stack_chk_fail
+__stack_chk_fail@@GLIBC_2.4
+__vsnprintf_chk
+__vsnprintf_chk@@GLIBC_2.3.4
+__xstat
+__xstat64
+__xstat64@@GLIBC_2.2.5
+__xstat@@GLIBC_2.2.5
+_edata
+_end
+_exit
+_exit@@GLIBC_2.2.5
+_findclose(long)
+_findfirst(char const*, _finddata_t*)
+_findnext(long, _finddata_t*)
+_fini
+_init
+abort@@GLIBC_2.2.5
+add_fdes
+additional six characters expected to parse unicode surrogate pair.
+adds.8985
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+allprojectscode.cpp
+alphasort
+alphasort@@GLIBC_2.2.5
+base_from_cb_data.isra.4
+base_from_object.isra.3
+basic_string::_S_construct null not valid
+basic_string::erase
+bin
+call_gmon_start
+char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
+char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag)
+char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag)
+chdir
+chdir@@GLIBC_2.2.5
+chmod
+chmod@@GLIBC_2.2.5
+classify_object_over_fdes
+clock_gettime
+clock_gettime@@GLIBC_2.2.5
+closedir
+closedir@@GLIBC_2.2.5
+collectComments
+commentStyle
+commentStyle must be 'All' or 'None'
+completed.6976
+crc32(unsigned long, void const*, unsigned long)::crcTable
+crtfastmath.c
+crtstuff.c
+deque::_M_new_elements_at_back
+deregister_tm_clones
+dirtools.cpp
+dl_iterate_phdr
+dl_iterate_phdr@@GLIBC_2.2.5
+dladdr
+dladdr@@GLIBC_2.2.5
+dlclose
+dlclose@@GLIBC_2.2.5
+dlopen
+dlopen@@GLIBC_2.2.5
+dlsym
+dlsym@@GLIBC_2.2.5
+double out of Int range
+double out of Int64 range
+double out of UInt range
+double out of UInt64 range
+dropNullPlaceholders
+dwarf_reg_size_table
+enableYAMLCompatibility
+envvartools.cpp
+execute_cfa_program
+execute_stack_op
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+failIfExtra
+false
+fclose
+fclose@@GLIBC_2.2.5
+fde_mixed_encoding_compare
+fde_single_encoding_compare
+fde_unencoded_compare
+fflush
+fflush@@GLIBC_2.2.5
+fgets
+fgets@@GLIBC_2.2.5
+file://
+filetools.cpp
+fopen
+fopen@@GLIBC_2.2.5
+for detail.
+fork
+fork@@GLIBC_2.2.5
+fputs
+fputs@@GLIBC_2.2.5
+frame_downheap
+frame_dummy
+frame_hdr_cache
+frame_hdr_cache_head
+frame_heapsort
+fread
+fread@@GLIBC_2.2.5
+free
+free@@GLIBC_2.2.5
+fseek
+fseek@@GLIBC_2.2.5
+ftell
+ftell@@GLIBC_2.2.5
+fwrite
+fwrite@@GLIBC_2.2.5
+g_SuspendResumeLock
+g_ThreadMainThreadID
+g_VRLog
+g_bSetSuspendHandlers
+g_bSuspendResumeAck
+g_nCurThreadSuspendCount
+g_pCurThread
+g_pLoggingMutex
+g_szSemFileName
+get_cie_encoding
+getcwd
+getcwd@@GLIBC_2.2.5
+getenv
+getenv@@GLIBC_2.2.5
+getpid
+getpid@@GLIBC_2.2.5
+getppid
+getppid@@GLIBC_2.2.5
+gettimeofday
+gettimeofday@@GLIBC_2.2.5
+guard variable for BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
+guard variable for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::sb_combinedLogging
+guard variable for GetTrackedDeviceProperties()::eKeysVector
+guard variable for VR_RuntimePath::sRuntimePath
+hmderrors.cpp
+hmdplatform_private.cpp
+http://
+https://
+in Json::Value::asCString(): requires stringValue
+in Json::Value::clear(): requires complex value
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::getMemberNames(), value must be objectValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::removeMember(): requires objectValue
+in Json::Value::resize(): requires arrayValue
+in Json::Value::resolveReference(): requires objectValue
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+indentation
+init_dwarf_reg_size_table
+isalpha
+isalpha@@GLIBC_2.2.5
+json_reader.cpp
+json_value.cpp
+json_writer.cpp
+jsonid
+k_EButton_A
+k_EButton_ApplicationMenu
+k_EButton_Axis0
+k_EButton_Axis1
+k_EButton_Axis2
+k_EButton_Axis3
+k_EButton_Axis4
+k_EButton_DPad_Down
+k_EButton_DPad_Left
+k_EButton_DPad_Right
+k_EButton_DPad_Up
+k_EButton_Grip
+k_EButton_ProximitySensor
+k_EButton_System
+k_eControllerAxis_Joystick
+k_eControllerAxis_None
+k_eControllerAxis_TrackPad
+k_eControllerAxis_Trigger
+keylength >= 2^30
+kill@@GLIBC_2.2.5
+ld-linux-x86-64.so.2
+libc.so.6
+libdl.so.2
+libm.so.6
+libpthread.so.0
+librt.so.1
+libstdc++.so.6
+linear_search_fdes
+linux64
+localtime
+localtime@@GLIBC_2.2.5
+log
+logs
+malloc
+malloc@@GLIBC_2.2.5
+marker.8723
+memcmp
+memcmp@@GLIBC_2.2.5
+memcpy
+memcpy@@GLIBC_2.14
+memmove
+memmove@@GLIBC_2.2.5
+memset
+memset@@GLIBC_2.2.5
+mkdir
+mkdir@@GLIBC_2.2.5
+mktime
+mktime@@GLIBC_2.2.5
+modf
+modf@@GLIBC_2.2.5
+nanosleep
+nanosleep@@GLIBC_2.2.5
+nfinity
+null
+object_mutex
+once_regsizes.9087
+opendir
+opendir@@GLIBC_2.2.5
+openvr
+openvr_api.cpp
+openvr_api_headers.cpp
+openvrpaths.vrpath
+operator delete(void*)
+operator delete[](void*)
+operator new(unsigned long)
+operator new[](unsigned long)
+pathtools.cpp
+precision
+pthread_attr_init
+pthread_attr_init@@GLIBC_2.2.5
+pthread_attr_setstacksize
+pthread_attr_setstacksize@@GLIBC_2.2.5
+pthread_cancel
+pthread_cancel@@GLIBC_2.2.5
+pthread_cond_destroy
+pthread_cond_destroy@@GLIBC_2.3.2
+pthread_cond_init
+pthread_cond_init@@GLIBC_2.3.2
+pthread_cond_signal
+pthread_cond_signal@@GLIBC_2.3.2
+pthread_cond_timedwait
+pthread_cond_timedwait@@GLIBC_2.3.2
+pthread_create
+pthread_create@@GLIBC_2.2.5
+pthread_getschedparam
+pthread_getschedparam@@GLIBC_2.2.5
+pthread_getspecific
+pthread_getspecific@@GLIBC_2.2.5
+pthread_join
+pthread_join@@GLIBC_2.2.5
+pthread_key_create@@GLIBC_2.2.5
+pthread_key_delete
+pthread_key_delete@@GLIBC_2.2.5
+pthread_kill
+pthread_kill@@GLIBC_2.2.5
+pthread_mutex_destroy
+pthread_mutex_destroy@@GLIBC_2.2.5
+pthread_mutex_init
+pthread_mutex_init@@GLIBC_2.2.5
+pthread_mutex_lock
+pthread_mutex_lock@@GLIBC_2.2.5
+pthread_mutex_unlock
+pthread_mutex_unlock@@GLIBC_2.2.5
+pthread_mutexattr_destroy
+pthread_mutexattr_destroy@@GLIBC_2.2.5
+pthread_mutexattr_init
+pthread_mutexattr_init@@GLIBC_2.2.5
+pthread_mutexattr_settype
+pthread_mutexattr_settype@@GLIBC_2.2.5
+pthread_once
+pthread_once@@GLIBC_2.2.5
+pthread_self
+pthread_self@@GLIBC_2.2.5
+pthread_setname_np
+pthread_setname_np@@GLIBC_2.12
+pthread_setschedparam
+pthread_setschedparam@@GLIBC_2.2.5
+pthread_setspecific
+pthread_setspecific@@GLIBC_2.2.5
+rb
+read_encoded_value_with_base
+read_sleb128
+readdir
+readdir@@GLIBC_2.2.5
+readlink
+readlink@@GLIBC_2.2.5
+register_tm_clones
+rejectDupKeys
+rename
+rename@@GLIBC_2.2.5
+resources
+rewind
+rewind@@GLIBC_2.2.5
+runtime
+scandir
+scandir@@GLIBC_2.2.5
+sched_yield
+sched_yield@@GLIBC_2.2.5
+search_object
+seen_objects
+selectBuf
+semctl
+semctl@@GLIBC_2.2.5
+semget
+semget@@GLIBC_2.2.5
+semop
+semop@@GLIBC_2.2.5
+set_fast_math
+setenv@@GLIBC_2.2.5
+sharedlibtools.cpp
+sigaction
+sigaction@@GLIBC_2.2.5
+sigemptyset
+sigemptyset@@GLIBC_2.2.5
+size_of_encoded_value
+sscanf
+sscanf@@GLIBC_2.2.5
+stackDepth_g
+stackLimit
+std::_Deque_base<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::~_Deque_base()
+std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_initialize_map(unsigned long)
+std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::~_Deque_base()
+std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::_M_initialize_map(unsigned long)
+std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::~_Deque_base()
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_copy(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> > const*, std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_erase(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, Json::Value::CZString const&)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_get_insert_unique_pos(Json::Value::CZString const&)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*, std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*, Json::Value::CZString const&) [clone .isra.45]
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::equal_range(Json::Value::CZString const&)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::find(Json::Value::CZString const&)
+std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_erase(std::_Rb_tree_node<std::string>*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_insert_unique_<std::pair<Json::Value::CZString const, Json::Value>&>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::pair<Json::Value::CZString const, Json::Value>&)
+std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::__throw_bad_alloc()
+std::__throw_bad_cast()
+std::__throw_length_error(char const*)
+std::__throw_logic_error(char const*)
+std::__throw_out_of_range(char const*)
+std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
+std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
+std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
+std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()
+std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) [clone .part.10]
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream(std::_Ios_Openmode)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
+std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned long, unsigned long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned long, unsigned long)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+std::ctype<char>::_M_widen_init() const
+std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_default_append(unsigned long)
+std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>, std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>)
+std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_new_elements_at_back(unsigned long)
+std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_reallocate_map(unsigned long, bool)
+std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_default_append(unsigned long)
+std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>, std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>)
+std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_new_elements_at_back(unsigned long)
+std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_reallocate_map(unsigned long, bool)
+std::deque<Json::Value*, std::allocator<Json::Value*> >::_M_pop_back_aux()
+std::exception::~exception()
+std::ios_base::ios_base()
+std::ios_base::~ios_base()
+std::istream& std::istream::_M_extract<double>(double&)
+std::locale::locale()
+std::locale::~locale()
+std::ostream::operator<<(int)
+std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*)
+std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_insert_unique<std::string>(std::string&&)
+std::piecewise_construct
+std::string __gnu_cxx::__to_xstring<std::string, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
+std::string::_M_leak_hard()
+std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
+std::string::_Rep::_M_destroy(std::allocator<char> const&)
+std::string::_Rep::_M_dispose(std::allocator<char> const&)
+std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+std::string::_Rep::_S_empty_rep_storage
+std::string::append(char const*, unsigned long)
+std::string::append(std::string const&)
+std::string::assign(char const*, unsigned long)
+std::string::assign(std::string const&)
+std::string::compare(char const*) const
+std::string::erase(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>)
+std::string::insert(unsigned long, char const*, unsigned long)
+std::string::replace(unsigned long, unsigned long, char const*, unsigned long)
+std::string::reserve(unsigned long)
+std::string::resize(unsigned long, char)
+std::string::rfind(char, unsigned long) const
+std::string::swap(std::string&)
+std::vector<std::string, std::allocator<std::string> >::erase(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >)
+std::vector<std::string, std::allocator<std::string> >::insert(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
+std::vector<std::string, std::allocator<std::string> >::reserve(unsigned long)
+std::vector<std::string, std::allocator<std::string> >::~vector()
+std::vector<vr::ETrackedDeviceProperty, std::allocator<vr::ETrackedDeviceProperty> >::~vector()
+stderr
+stderr@@GLIBC_2.2.5
+strcasecmp
+strcasecmp@@GLIBC_2.2.5
+strchr
+strchr@@GLIBC_2.2.5
+strerror
+strerror@@GLIBC_2.2.5
+strftime
+strftime@@GLIBC_2.2.5
+strictRoot
+strlen
+strlen@@GLIBC_2.2.5
+strncasecmp
+strncasecmp@@GLIBC_2.2.5
+strncpy
+strncpy@@GLIBC_2.2.5
+strpbrk
+strpbrk@@GLIBC_2.2.5
+strrchr
+strrchr@@GLIBC_2.2.5
+strtol
+strtol@@GLIBC_2.2.5
+subs.8986
+syscall
+syscall@@GLIBC_2.2.5
+system
+system@@GLIBC_2.2.5
+systemBaseTicks
+systemSecondsPerTick
+systemTicksPerSecond
+systemTimeInitialized
+t
+terminator.8829
+threadtools.cpp
+time@@GLIBC_2.2.5
+timeutils.cpp
+toupper
+toupper@@GLIBC_2.2.5
+true
+typeinfo for Json::BuiltStyledStreamWriter
+typeinfo for Json::CharReader
+typeinfo for Json::CharReader::Factory
+typeinfo for Json::CharReaderBuilder
+typeinfo for Json::Exception
+typeinfo for Json::FastWriter
+typeinfo for Json::LogicError
+typeinfo for Json::OurCharReader
+typeinfo for Json::RuntimeError
+typeinfo for Json::StreamWriter
+typeinfo for Json::StreamWriter::Factory
+typeinfo for Json::StreamWriterBuilder
+typeinfo for Json::StyledWriter
+typeinfo for Json::Writer
+typeinfo for SteamThreadTools::CThread
+typeinfo for int
+typeinfo for std::exception
+typeinfo name for Json::BuiltStyledStreamWriter
+typeinfo name for Json::CharReader
+typeinfo name for Json::CharReader::Factory
+typeinfo name for Json::CharReaderBuilder
+typeinfo name for Json::Exception
+typeinfo name for Json::FastWriter
+typeinfo name for Json::LogicError
+typeinfo name for Json::OurCharReader
+typeinfo name for Json::RuntimeError
+typeinfo name for Json::StreamWriter
+typeinfo name for Json::StreamWriter::Factory
+typeinfo name for Json::StreamWriterBuilder
+typeinfo name for Json::StyledWriter
+typeinfo name for Json::Writer
+typeinfo name for SteamThreadTools::CThread
+unlink
+unlink@@GLIBC_2.2.5
+unseen_objects
+unsetenv
+unsetenv@@GLIBC_2.2.5
+useSpecialFloats
+usleep
+usleep@@GLIBC_2.2.5
+uw_frame_state_for
+uw_init_context_1
+uw_install_context_1
+uw_update_context
+uw_update_context_1
+vector::reserve
+version
+void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
+void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
+void std::deque<Json::Value*, std::allocator<Json::Value*> >::emplace_back<Json::Value*>(Json::Value*&&)
+void std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError> >::_M_emplace_back_aux<Json::OurReader::StructuredError const&>(Json::OurReader::StructuredError const&)
+void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::_M_emplace_back_aux<Json::PathArgument const*>(Json::PathArgument const*&&)
+void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::emplace_back<Json::PathArgument const*>(Json::PathArgument const*&&)
+void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::_M_emplace_back_aux<Json::PathArgument const&>(Json::PathArgument const&)
+void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::_M_emplace_back_aux<Json::PathArgument>(Json::PathArgument&&)
+void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::emplace_back<Json::PathArgument>(Json::PathArgument&&)
+void std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError> >::_M_emplace_back_aux<Json::Reader::StructuredError const&>(Json::Reader::StructuredError const&)
+void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string const&>(std::string const&)
+void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string>(std::string&&)
+void std::vector<std::string, std::allocator<std::string> >::_M_insert_aux<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+void std::vector<std::string, std::allocator<std::string> >::_M_insert_aux<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
+vr::VR_LoadHmdSystemInternal()
+vr::g_nVRToken
+vr::g_pHmdSystem
+vr::g_pLiquidVR
+vr::g_pVRCompositorSystemInternal
+vr::g_pVRControlPanel
+vr::g_pVRDashboardManager
+vr::g_pVRModule
+vr::g_pVROculusDirect
+vr::g_pVRRenderModelsInternal
+vr::g_pVRTrackedCameraInternal
+vrclient Shared Lib Not Found (102)
+vrclient.so
+vrcombined_log.previous.txt
+vrcombined_log.txt
+vrlog.cpp
+vrpathreg
+vrpathregistry.cpp
+vrserver internal error (124)
+vsnprintf
+vsnprintf@@GLIBC_2.2.5
+vtable for Json::BuiltStyledStreamWriter
+vtable for Json::CharReader
+vtable for Json::CharReader::Factory
+vtable for Json::CharReaderBuilder
+vtable for Json::Exception
+vtable for Json::FastWriter
+vtable for Json::LogicError
+vtable for Json::OurCharReader
+vtable for Json::RuntimeError
+vtable for Json::StreamWriter
+vtable for Json::StreamWriter::Factory
+vtable for Json::StreamWriterBuilder
+vtable for Json::StyledWriter
+vtable for Json::Writer
+vtable for SteamThreadTools::CThread
+vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__si_class_type_info
+vtable for std::basic_ios<char, std::char_traits<char> >
+vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+vtable for std::basic_streambuf<char, std::char_traits<char> >
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
+w
+waitpid
+waitpid@@GLIBC_2.2.5
+wb
+{
+{}

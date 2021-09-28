@@ -1,0 +1,884 @@
+
+%Y-%m-%d
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%06u
+%p
+%s %s
+%s -
+%s%c%s
+*.*
+..
+.tmp
+/dev/%s
+/e%s%s
+/proc
+/proc/%d/status
+/proc/%u/stat
+/proc/self/exe
+/sys/class/video4linux
+/tmp/.steam-sem-names
+10CAitCamera
+12IAitCamGraph
+14CPreviewThread
+17CCameraWorkThread
+17CLinuxVideoStream
+25ICameraCompletionCallback
+:
+>jm
+AITAPI_AitExtGet(void*, unsigned short, unsigned char*, unsigned long, unsigned long*)
+AITAPI_AitExtSet(void*, unsigned short, unsigned char*, unsigned long, unsigned long*)
+AITAPI_CloseDevice(void**)
+AITAPI_GetFWBuildDate(void*, char*)
+AITAPI_GetFWVersion(void*, unsigned char*)
+AITAPI_IspCommand(void*, unsigned char*, unsigned char*)
+AITAPI_MmpCommand(void*, unsigned char*, unsigned char*)
+AITAPI_OpenDeviceEx(unsigned int, void**, unsigned int, unsigned int)
+BCreateDirectory(char const*)
+BCreateDirectoryRecursive(char const*)
+BDeleteFileIfExists(char const*)
+BFileExists(char const*)
+BRenameFile(char const*, char const*)
+CAitCamera::AitStreamTypeToVideoStreamFormat(AitStreamType_e)
+CAitCamera::AitXU_SetTvOption(void*, unsigned char, bool)
+CAitCamera::CAitCamera()
+CAitCamera::CloseCamera()
+CAitCamera::CreateVideoStream()
+CAitCamera::FlushFrameQueue(bool)
+CAitCamera::FramePayloadParser(void*, unsigned int, RawFrameDescriptor_t*)
+CAitCamera::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
+CAitCamera::GetCameraFormatDimensions(vr::ECameraVideoStreamFormat, unsigned int*, unsigned int*)
+CAitCamera::GetCameraFrameBufferingRequirements(vr::ECameraVideoStreamFormat, int*, unsigned int*)
+CAitCamera::GetFirmwareDescription(char*, unsigned int)
+CAitCamera::GetFirmwareVersion(unsigned long*)
+CAitCamera::GetVideoStreamElapsedTime()
+CAitCamera::GetVideoStreamFormat()
+CAitCamera::GetVideoStreamFrame()
+CAitCamera::HasCameraStartupFailure()
+CAitCamera::IsVideoStreamActive()
+CAitCamera::IsVideoStreamPaused()
+CAitCamera::LogMessage(LogLevel, char const*, ...)
+CAitCamera::OnCamSyncEvent(double)
+CAitCamera::OnCameraCommandCompleted(CameraCommand_t*, bool)
+CAitCamera::OnCameraCommandCompleted(CameraCommand_t*, bool) [clone .part.17]
+CAitCamera::OnISPSyncEvent(double)
+CAitCamera::OnStartCommand_StartVideoStreamInternal(CameraCommand_t*)
+CAitCamera::OnStopCommand_StopVideoStreamInternal(CameraCommand_t*)
+CAitCamera::OnVideoSinkCallback(void*, unsigned int)
+CAitCamera::OnWorkThread_CloseCamera()
+CAitCamera::OnWorkThread_OpenCamera()
+CAitCamera::OpenCamera(vr::IVRSettings*, vr::ICameraHostServices*)
+CAitCamera::PauseVideoStream_Async(vr::ICameraAsyncCompletionCallback*, void const*)
+CAitCamera::ReleaseVideoStreamFrame(vr::CameraVideoStreamFrame_t const*)
+CAitCamera::ResetForSyncBeforeResume()
+CAitCamera::ResumeVideoStream_Async(vr::ICameraAsyncCompletionCallback*, void const*)
+CAitCamera::ServiceVideoSinkCallback(void*, unsigned int)
+CAitCamera::SetAutoExposure_Async(bool)
+CAitCamera::SetCameraCompatibilityMode_Async(vr::ECameraCompatibilityMode)
+CAitCamera::SetCameraFrameBuffering(int, void**, unsigned int)
+CAitCamera::SetEdgeEnhancement_Async(bool)
+CAitCamera::SetFrameRate_Async(int, int)
+CAitCamera::SetVideoSinkCallback(vr::ICameraVideoSinkCallback*)
+CAitCamera::SetVideoStreamFormat(vr::ECameraVideoStreamFormat)
+CAitCamera::StartVideoStream_Async(vr::ICameraAsyncCompletionCallback*, void const*)
+CAitCamera::StopVideoStreamForShutdown()
+CAitCamera::StopVideoStreamForTermination_Async()
+CAitCamera::StopVideoStream_Async(vr::ICameraAsyncCompletionCallback*, void const*)
+CAitCamera::VideoStreamFormatToAitVideoSignal(vr::ECameraVideoStreamFormat)
+CAitCamera::~CAitCamera()
+CCamSyncQueueTS::CCamSyncQueueTS()
+CCamSyncQueueTS::FindClosestEvent(double, double, double*, double*, int*)
+CCamSyncQueueTS::Flush()
+CCamSyncQueueTS::IsEmpty()
+CCamSyncQueueTS::Write(double)
+CCameraWorkThread::CCameraWorkThread(ICameraCompletionCallback*)
+CCameraWorkThread::Flush()
+CCameraWorkThread::GetCommand()
+CCameraWorkThread::LinkToCommand(CameraCommand_t*, CameraCommand_t const&)
+CCameraWorkThread::QueueCommand(CameraCommand_t const&)
+CCameraWorkThread::Run()
+CCameraWorkThread::RunCommands()
+CCameraWorkThread::Shutdown()
+CCameraWorkThread::WaitForEmpty(unsigned int)
+CCameraWorkThread::~CCameraWorkThread()
+CDirIterator::BCurrentIsDir() const
+CDirIterator::BCurrentIsHidden() const
+CDirIterator::BCurrentIsMarkedForArchive() const
+CDirIterator::BCurrentIsReadOnly() const
+CDirIterator::BCurrentIsSystem() const
+CDirIterator::BNextFile()
+CDirIterator::BValidFilename()
+CDirIterator::CDirIterator(char const*, char const*)
+CDirIterator::CurrentFileCreateTime() const
+CDirIterator::CurrentFileLength() const
+CDirIterator::CurrentFileName()
+CDirIterator::CurrentFileWriteTime() const
+CDirIterator::Init(std::string const&)
+CDirIterator::IsValid() const
+CDirIterator::~CDirIterator()
+CLinuxVideoStream::CloseDevice()
+CLinuxVideoStream::OpenDevice(unsigned int, unsigned int)
+CLinuxVideoStream::Release()
+CLinuxVideoStream::StartPreview(unsigned int (*)(unsigned int, void*, void*), void*)
+CLinuxVideoStream::StopPreview()
+CLogTimer::CLogTimer(char const*, double)
+CLogTimer::~CLogTimer()
+CPreviewThread::Run()
+CPreviewThread::~CPreviewThread()
+CSWTCH.221
+CSWTCH.253
+CStopwatch::CStopwatch()
+CStopwatch::GetElapsedSeconds()
+CStopwatch::Reset()
+CStopwatch::Start()
+CStopwatch::Stop()
+CVRLog::CVRLog()
+CVRLog::CloseLog()
+CVRLog::InitLog(char const*, char const*, bool, unsigned long)
+CVRLog::InitLog(char const*, char const*, bool, unsigned long)::sb_combinedLogging
+CVRLog::IsOpen()
+CVRLog::Log(LogLevel, char const*, ...)
+CVRLog::Log(char const*, ...)
+CVRLog::LogDirect(LogLevel, bool, char const*, __va_list_tag (&) [1])
+CVRLog::LogIncremental(LogLevel, char const*, ...)
+CVRLog::LogIncremental(char const*, ...)
+CVRLog::SetMaxLogLevel(LogLevel)
+CVRLog::WillLog(LogLevel)
+CVRLog::~CVRLog()
+CXXABI_1.3
+CloseLog()
+CreateSimpleProcess
+CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
+DW.ref.__gxx_personality_v0
+DeclareCurrentThreadIsMainThread
+DumpLogStrings(std::vector<std::string, std::allocator<std::string> >&)
+Enabled
+FileSelect(dirent const*)
+FillDataStruct(_finddata_t*)
+GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+GLIBCXX_3.4
+GLIBCXX_3.4.9
+GLIBC_2.12
+GLIBC_2.14
+GLIBC_2.2.5
+GLIBC_2.3.2
+GLIBC_2.3.4
+GLIBC_2.4
+GNU
+GetCameraHALInterface
+GetEnvironmentVariable(char const*)
+GetFileLength(char const*)
+GetGMUnixTime()
+GetGMUnixTimeAtNextLocalTime(unsigned long, int, int, int)
+GetSystemBaseTicks()
+GetSystemTicksFromTime(double)
+GetSystemTime()
+GetSystemTimeFrequency()
+GetSystemTimeFromTicks(unsigned long)
+GetSystemTimeInTicks()
+GetUserDocumentsPath()
+GetVRLogTimeString(bool)
+HOME
+InitLog(char const*, char const*)
+InitMainThread()
+InitSystemBaseTimeTicks(unsigned long)
+InitSystemTime(unsigned long) [clone .part.0]
+IsPosix()
+Log Level Set to %d
+Log(LogLevel, char const*, ...)
+Log(char const*, ...)
+LogIncremental(LogLevel, char const*, ...)
+LogIncremental(char const*, ...)
+MGiI
+MakeFileWriteable(char const*)
+N
+N16SteamThreadTools7CThreadE
+N2vr10ICameraHALE
+N@/sys/class/video4linux/%s/device/../%s
+Not Available
+Out of thread local storage!
+Path_Compact(std::string const&, char)
+Path_Exists(std::string const&)
+Path_FilePathToUrl(std::string const&, std::string const&)
+Path_FindParentDirectoryRecursively(std::string const&, std::string const&)
+Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
+Path_FixSlashes(std::string const&, char)
+Path_GetExecutablePath()
+Path_GetExtension(std::string const&)
+Path_GetSlash()
+Path_GetThisModulePath()
+Path_GetWorkingDirectory()
+Path_IsAbsolute(std::string const&)
+Path_IsAppBundle(std::string const&)
+Path_IsDirectory(std::string const&)
+Path_Join(std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&, char)
+Path_MakeAbsolute(std::string const&, std::string const&, char)
+Path_ReadBinaryFile(std::string const&, int*)
+Path_ReadBinaryFile(std::string const&, unsigned char*, unsigned int)
+Path_ReadTextFile(std::string const&)
+Path_RemoveTrailingSlash(std::string const&, char)
+Path_SetWorkingDirectory(std::string const&)
+Path_StripDirectory(std::string const&, char)
+Path_StripExtension(std::string const&)
+Path_StripFilename(std::string const&, char)
+Path_UrlToFilePath(std::string const&)
+Path_WriteBinaryFile(std::string const&, unsigned char*, unsigned int)
+Path_WriteStringToTextFile(std::string const&, char const*)
+Path_WriteStringToTextFileAtomic(std::string const&, char const*)
+Plat_IsInDebugSession
+Plat_IsInDebugSession::fp
+ReadVideoDeviceId(char const*, char const*)
+ReapChildProcesses(int)
+ReleaseThreadHandle
+SecondsToSystemTicks(double)
+SetEnvironmentVariable(char const*, char const*)
+SetMaxLogLevel(LogLevel)
+SteamThreadTools::CThread::BHasValidThreadID()
+SteamThreadTools::CThread::CThread()
+SteamThreadTools::CThread::GetCurrentCThread()
+SteamThreadTools::CThread::GetName()
+SteamThreadTools::CThread::GetPriority() const
+SteamThreadTools::CThread::GetResult() const
+SteamThreadTools::CThread::GetThreadProc()
+SteamThreadTools::CThread::Init()
+SteamThreadTools::CThread::IsAlive()
+SteamThreadTools::CThread::IsAlive() [clone .part.4]
+SteamThreadTools::CThread::IsThreadRunning()
+SteamThreadTools::CThread::Join(unsigned int)
+SteamThreadTools::CThread::OnExit()
+SteamThreadTools::CThread::Resume()
+SteamThreadTools::CThread::SetName(char const*)
+SteamThreadTools::CThread::SetPriority(int)
+SteamThreadTools::CThread::Sleep(unsigned int)
+SteamThreadTools::CThread::Start(unsigned int)
+SteamThreadTools::CThread::Stop(int)
+SteamThreadTools::CThread::Suspend()
+SteamThreadTools::CThread::Terminate(int)
+SteamThreadTools::CThread::ThreadExceptionWrapper(void*)
+SteamThreadTools::CThread::ThreadProc(void*)
+SteamThreadTools::CThread::WaitForCreateComplete(SteamThreadTools::CThreadEvent*)
+SteamThreadTools::CThread::Yield()
+SteamThreadTools::CThread::~CThread()
+SteamThreadTools::CThread::~CThread() [clone .part.8]
+SteamThreadTools::CThreadEvent::CThreadEvent(bool)
+SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool)
+SteamThreadTools::CThreadEvent::Check()
+SteamThreadTools::CThreadEvent::Reset()
+SteamThreadTools::CThreadEvent::Set()
+SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
+SteamThreadTools::CThreadFullMutex::IsCreator() const
+SteamThreadTools::CThreadFullMutex::Release()
+SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
+SteamThreadTools::CThreadLocalBase::Get() const
+SteamThreadTools::CThreadLocalBase::Set(void*)
+SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
+SteamThreadTools::CThreadLocalInt<long>::~CThreadLocalInt()
+SteamThreadTools::CThreadLocalPtr<SteamThreadTools::CThread>::~CThreadLocalPtr()
+SteamThreadTools::CThreadMutex::CThreadMutex()
+SteamThreadTools::CThreadMutex::~CThreadMutex()
+SteamThreadTools::CThreadRWLock::LockForWrite()
+SteamThreadTools::CThreadRWLock::UnlockWrite()
+SteamThreadTools::CThreadRWLock::WaitForRead()
+SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long)
+SteamThreadTools::CThreadSemaphore::Release(long)
+SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
+SteamThreadTools::CThreadSpinRWLock::LockForRead()
+SteamThreadTools::CThreadSpinRWLock::SpinLockForWrite(unsigned int)
+SteamThreadTools::CThreadSpinRWLock::TryLockForWrite(unsigned int)::oldValue
+SteamThreadTools::CThreadSpinRWLock::UnlockRead()
+SteamThreadTools::CThreadSpinRWLock::UnlockWrite()
+SteamThreadTools::CThreadSpinRWLock::UnlockWrite()::newValue
+SteamThreadTools::CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
+SteamThreadTools::CThreadSyncObject::AssertUseable()
+SteamThreadTools::CThreadSyncObject::CThreadSyncObject()
+SteamThreadTools::CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
+SteamThreadTools::CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
+SteamThreadTools::CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
+SteamThreadTools::CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
+SteamThreadTools::CThreadSyncObject::EnsureSemaphorePostedInternal(int)
+SteamThreadTools::CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
+SteamThreadTools::CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
+SteamThreadTools::CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
+SteamThreadTools::CThreadSyncObject::SaveNameToFile(char const*)
+SteamThreadTools::CThreadSyncObject::SignalThreadSyncObjectInternal()
+SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
+SteamThreadTools::CThreadSyncObject::operator!() const
+SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
+SteamThreadTools::CThreadSyncObject::~CThreadSyncObject() [clone .part.2]
+SuspendResumePthread(unsigned long, int)
+SystemTicksToSeconds(unsigned long)
+SystemTimeSleep(unsigned int)
+Thread failed to initialize 1
+Thread failed to initialize 2
+Thread(0x%p/0x%p/0x%x)
+ThreadCloseProcess
+ThreadGetCurrentHandle
+ThreadGetCurrentId
+ThreadGetCurrentProcessHandle
+ThreadGetCurrentProcessId
+ThreadGetCurrentRunningRef
+ThreadGetPriority
+ThreadGetProcessExitCode
+ThreadGetProcessListInfo
+ThreadGetProcessParentID
+ThreadInMainThread
+ThreadInterlockedAssignIf
+ThreadInterlockedAssignIf64
+ThreadInterlockedAssignPointerIf
+ThreadInterlockedCompareExchange
+ThreadInterlockedCompareExchange64
+ThreadInterlockedCompareExchangePointer
+ThreadInterlockedDecrement
+ThreadInterlockedDecrement64
+ThreadInterlockedExchange
+ThreadInterlockedExchange64
+ThreadInterlockedExchangeAdd
+ThreadInterlockedExchangeAdd64
+ThreadInterlockedExchangePointer
+ThreadInterlockedIncrement
+ThreadInterlockedIncrement64
+ThreadIsProcessActive
+ThreadIsThreadRunning
+ThreadOpenProcess
+ThreadProcConvert(void*)
+ThreadResumeSignal(int)
+ThreadSetAffinity
+ThreadSetDebugName
+ThreadSetDebugName.part.0
+ThreadSetPriority
+ThreadShellExecute
+ThreadShellExecute::bInstalledSignalHandler
+ThreadSleep
+ThreadSuspendSignal(int)
+ThreadTerminate
+ThreadTerminateProcessCode
+ThreadWaitForProcessExit
+ThreadYield()
+TracerPid:
+TrackedCamera: CloseCamera()
+TrackedCamera: Degenerate Frame Buffering size %d.
+TrackedCamera: Expecting drivers at '%s'
+TrackedCamera: Failed to find camera at USB VID:%04X, USB PID:%04X
+TrackedCamera: Failed to get firmware version.
+TrackedCamera: Failed to queue.
+TrackedCamera: Failed to start preview!
+TrackedCamera: Found Camera at USB VID:%04X, USB PID:%04X
+TrackedCamera: Frame Buffering, missing buffer %d.
+TrackedCamera: ISP Sync: %s (Divisor:%d).
+TrackedCamera: Incompatible firmware version: %llu.
+TrackedCamera: No Frame Buffers established. Video preview not available.
+TrackedCamera: OpenCamera()
+TrackedCamera: StartVideoStream() took %.0f ms
+TrackedCamera: Starting Video Stream.
+TrackedCamera: Stopping Video Stream For Camera Shutdown.
+TrackedCamera: Stopping Video Stream.
+TrackedCamera: Video Stream Stopped (abnormal shutdown).
+TrackedCamera: Video Stream Stopped (failed startup).
+TrackedCamera: Video Stream Stopped.
+TrackedCamera: failed to open device using video graph interface!
+USER
+UnixTimeToDateString(unsigned long)
+UnlinkFile(char const*)
+VTT for std::basic_ifstream<char, std::char_traits<char> >
+Version: %X%X.%X%X.%X%X Date: %s
+VideoSinkCallback(unsigned int, void*, void*)
+WillLog(LogLevel)
+_
+_DYNAMIC
+_GLOBAL_OFFSET_TABLE_
+_GLOBAL__sub_I_aitcamera.cpp
+_GLOBAL__sub_I_threadtools.cpp
+_GLOBAL__sub_I_vrlog.cpp
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+_Unwind_Backtrace
+_Unwind_DebugHook
+_Unwind_DeleteException
+_Unwind_FindEnclosingFunction
+_Unwind_Find_FDE
+_Unwind_ForcedUnwind
+_Unwind_ForcedUnwind_Phase2
+_Unwind_GetCFA
+_Unwind_GetDataRelBase
+_Unwind_GetGR
+_Unwind_GetIP
+_Unwind_GetIPInfo
+_Unwind_GetLanguageSpecificData
+_Unwind_GetRegionStart
+_Unwind_GetTextRelBase
+_Unwind_IteratePhdrCallback
+_Unwind_RaiseException
+_Unwind_RaiseException_Phase2
+_Unwind_Resume
+_Unwind_Resume_or_Rethrow
+_Unwind_SetGR
+_Unwind_SetIP
+_ZNKSs5rfindEcm@@GLIBCXX_3.4
+_ZNSi10_M_extractIjEERSiRT_@@GLIBCXX_3.4.9
+_ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
+_ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
+_ZNSs4_Rep10_M_disposeERKSaIcE@@GLIBCXX_3.4
+_ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
+_ZNSs4_Rep9_S_createEmmRKSaIcE@@GLIBCXX_3.4
+_ZNSs4swapERSs@@GLIBCXX_3.4
+_ZNSs5eraseEN9__gnu_cxx17__normal_iteratorIPcSsEES2_@@GLIBCXX_3.4
+_ZNSs6appendEPKcm@@GLIBCXX_3.4
+_ZNSs6appendERKSs@@GLIBCXX_3.4
+_ZNSs6assignEPKcm@@GLIBCXX_3.4
+_ZNSs6assignERKSs@@GLIBCXX_3.4
+_ZNSs6insertEmPKcm@@GLIBCXX_3.4
+_ZNSs7replaceEmmPKcm@@GLIBCXX_3.4
+_ZNSs9_M_mutateEmmm@@GLIBCXX_3.4
+_ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
+_ZNSsC1ERKSs@@GLIBCXX_3.4
+_ZNSsC1ERKSsmm@@GLIBCXX_3.4
+_ZNSsC1EmcRKSaIcE@@GLIBCXX_3.4
+_ZNSt12__basic_fileIcED1Ev@@GLIBCXX_3.4
+_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode@@GLIBCXX_3.4
+_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv@@GLIBCXX_3.4
+_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev@@GLIBCXX_3.4
+_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev@@GLIBCXX_3.4
+_ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev@@GLIBCXX_3.4
+_ZNSt6localeD1Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
+_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@@GLIBCXX_3.4
+_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+_ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
+_ZTIi@@CXXABI_1.3
+_ZTTSt14basic_ifstreamIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
+_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+_ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
+_ZTVSt13basic_filebufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZTVSt14basic_ifstreamIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZdaPv@@GLIBCXX_3.4
+_ZdlPv@@GLIBCXX_3.4
+_Znam@@GLIBCXX_3.4
+_Znwm@@GLIBCXX_3.4
+__FRAME_END__
+__JCR_END__
+__JCR_LIST__
+__TMC_END__
+__bss_start
+__cxa_allocate_exception
+__cxa_allocate_exception@@CXXABI_1.3
+__cxa_atexit
+__cxa_atexit@@GLIBC_2.2.5
+__cxa_begin_catch
+__cxa_begin_catch@@CXXABI_1.3
+__cxa_end_catch
+__cxa_end_catch@@CXXABI_1.3
+__cxa_finalize
+__cxa_finalize@@GLIBC_2.2.5
+__cxa_guard_abort
+__cxa_guard_abort@@CXXABI_1.3
+__cxa_guard_acquire
+__cxa_guard_acquire@@CXXABI_1.3
+__cxa_guard_release
+__cxa_guard_release@@CXXABI_1.3
+__cxa_pure_virtual
+__cxa_pure_virtual@@CXXABI_1.3
+__cxa_rethrow
+__cxa_rethrow@@CXXABI_1.3
+__cxa_throw
+__cxa_throw@@CXXABI_1.3
+__deregister_frame
+__deregister_frame_info
+__deregister_frame_info_bases
+__do_global_dtors_aux
+__do_global_dtors_aux_fini_array_entry
+__dso_handle
+__errno_location
+__errno_location@@GLIBC_2.2.5
+__fprintf_chk
+__fprintf_chk@@GLIBC_2.3.4
+__frame_dummy_init_array_entry
+__frame_state_for
+__gmon_start__
+__gxx_personality_v0
+__gxx_personality_v0@@CXXABI_1.3
+__printf_chk
+__printf_chk@@GLIBC_2.3.4
+__pthread_key_create
+__pthread_key_create@@GLIBC_2.2.5
+__register_frame
+__register_frame_info
+__register_frame_info_bases
+__register_frame_info_table
+__register_frame_info_table_bases
+__register_frame_table
+__snprintf_chk
+__snprintf_chk@@GLIBC_2.3.4
+__sprintf_chk
+__sprintf_chk@@GLIBC_2.3.4
+__stack_chk_fail
+__stack_chk_fail@@GLIBC_2.4
+__vsnprintf_chk
+__vsnprintf_chk@@GLIBC_2.3.4
+__xstat
+__xstat64
+__xstat64@@GLIBC_2.2.5
+__xstat@@GLIBC_2.2.5
+_edata
+_end
+_exit
+_exit@@GLIBC_2.2.5
+_findclose(long)
+_findfirst(char const*, _finddata_t*)
+_findnext(long, _finddata_t*)
+_fini
+_init
+a
+abort@@GLIBC_2.2.5
+add_fdes
+adds.8985
+alphasort
+alphasort@@GLIBC_2.2.5
+base_from_cb_data.isra.4
+base_from_object.isra.3
+basic_string::erase
+call_gmon_start
+cameraEdgeEnhancement
+cameraFrameCaptureOffsetTime
+cameraFrameRate
+cameraISPSyncDivisor
+cameraSensorFrameRate
+char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
+chdir
+chdir@@GLIBC_2.2.5
+chmod
+chmod@@GLIBC_2.2.5
+classify_object_over_fdes
+clock_gettime
+clock_gettime@@GLIBC_2.2.5
+close@@GLIBC_2.2.5
+closedir
+closedir@@GLIBC_2.2.5
+completed.6976
+crc32(unsigned long, void const*, unsigned long)::crcTable
+deregister_tm_clones
+dl_iterate_phdr
+dl_iterate_phdr@@GLIBC_2.2.5
+dladdr
+dladdr@@GLIBC_2.2.5
+driver_lighthouse
+dwarf_reg_size_table
+execute_cfa_program
+execute_stack_op
+fclose
+fclose@@GLIBC_2.2.5
+fde_mixed_encoding_compare
+fde_single_encoding_compare
+fde_unencoded_compare
+fflush
+fflush@@GLIBC_2.2.5
+fgets
+fgets@@GLIBC_2.2.5
+file://
+fopen
+fopen@@GLIBC_2.2.5
+fork
+fork@@GLIBC_2.2.5
+fputs
+fputs@@GLIBC_2.2.5
+frame_downheap
+frame_dummy
+frame_hdr_cache
+frame_hdr_cache_head
+frame_heapsort
+fread
+fread@@GLIBC_2.2.5
+free
+free@@GLIBC_2.2.5
+fseek
+fseek@@GLIBC_2.2.5
+ftell
+ftell@@GLIBC_2.2.5
+fwrite
+fwrite@@GLIBC_2.2.5
+g_AITCamera
+g_SuspendResumeLock
+g_ThreadMainThreadID
+g_VRLog
+g_bSetSuspendHandlers
+g_bSuspendResumeAck
+g_nCurThreadSuspendCount
+g_pCurThread
+g_pLoggingMutex
+g_szSemFileName
+get_cie_encoding
+getcwd
+getcwd@@GLIBC_2.2.5
+getenv
+getenv@@GLIBC_2.2.5
+getpid
+getpid@@GLIBC_2.2.5
+getppid
+getppid@@GLIBC_2.2.5
+gettimeofday
+gettimeofday@@GLIBC_2.2.5
+guard variable for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::sb_combinedLogging
+http://
+https://
+idProduct
+idVendor
+init_dwarf_reg_size_table
+ioctl
+ioctl EXU1_CS_GET_MMP_RESULT failed, err %d
+ioctl EXU1_CS_SET_ISP failed, err %d
+ioctl EXU1_CS_SET_MMP failed, err %d
+ioctl@@GLIBC_2.2.5
+isalpha
+isalpha@@GLIBC_2.2.5
+kill@@GLIBC_2.2.5
+ld-linux-x86-64.so.2
+libc.so.6
+libdl.so.2
+libpthread.so.0
+librt.so.1
+libstdc++.so.6
+linear_search_fdes
+localtime
+localtime@@GLIBC_2.2.5
+m
+malloc
+malloc@@GLIBC_2.2.5
+marker.8723
+memcpy
+memcpy@@GLIBC_2.14
+memmove
+memmove@@GLIBC_2.2.5
+memset
+memset@@GLIBC_2.2.5
+mkdir
+mkdir@@GLIBC_2.2.5
+mktime
+mktime@@GLIBC_2.2.5
+mmap
+mmap@@GLIBC_2.2.5
+munmap
+munmap@@GLIBC_2.2.5
+nanosleep
+nanosleep@@GLIBC_2.2.5
+non-virtual thunk to CAitCamera::OnCameraCommandCompleted(CameraCommand_t*, bool)
+object_mutex
+once_regsizes.9087
+open@@GLIBC_2.2.5
+opendir
+opendir@@GLIBC_2.2.5
+operator delete(void*)
+operator delete[](void*)
+operator new(unsigned long)
+operator new[](unsigned long)
+pthread_attr_init
+pthread_attr_init@@GLIBC_2.2.5
+pthread_attr_setstacksize
+pthread_attr_setstacksize@@GLIBC_2.2.5
+pthread_cancel
+pthread_cancel@@GLIBC_2.2.5
+pthread_cond_destroy
+pthread_cond_destroy@@GLIBC_2.3.2
+pthread_cond_init
+pthread_cond_init@@GLIBC_2.3.2
+pthread_cond_signal
+pthread_cond_signal@@GLIBC_2.3.2
+pthread_cond_timedwait
+pthread_cond_timedwait@@GLIBC_2.3.2
+pthread_create
+pthread_create@@GLIBC_2.2.5
+pthread_getschedparam
+pthread_getschedparam@@GLIBC_2.2.5
+pthread_getspecific
+pthread_getspecific@@GLIBC_2.2.5
+pthread_join
+pthread_join@@GLIBC_2.2.5
+pthread_key_create@@GLIBC_2.2.5
+pthread_key_delete
+pthread_key_delete@@GLIBC_2.2.5
+pthread_kill
+pthread_kill@@GLIBC_2.2.5
+pthread_mutex_destroy
+pthread_mutex_destroy@@GLIBC_2.2.5
+pthread_mutex_init
+pthread_mutex_init@@GLIBC_2.2.5
+pthread_mutex_lock
+pthread_mutex_lock@@GLIBC_2.2.5
+pthread_mutex_unlock
+pthread_mutex_unlock@@GLIBC_2.2.5
+pthread_mutexattr_destroy
+pthread_mutexattr_destroy@@GLIBC_2.2.5
+pthread_mutexattr_init
+pthread_mutexattr_init@@GLIBC_2.2.5
+pthread_mutexattr_settype
+pthread_mutexattr_settype@@GLIBC_2.2.5
+pthread_once
+pthread_once@@GLIBC_2.2.5
+pthread_self
+pthread_self@@GLIBC_2.2.5
+pthread_setname_np
+pthread_setname_np@@GLIBC_2.12
+pthread_setschedparam
+pthread_setschedparam@@GLIBC_2.2.5
+pthread_setspecific
+pthread_setspecific@@GLIBC_2.2.5
+rb
+read_encoded_value_with_base
+read_sleb128
+readdir
+readdir@@GLIBC_2.2.5
+readlink
+readlink@@GLIBC_2.2.5
+register_tm_clones
+rename
+rename@@GLIBC_2.2.5
+rewind
+rewind@@GLIBC_2.2.5
+scandir
+scandir@@GLIBC_2.2.5
+sched_yield
+sched_yield@@GLIBC_2.2.5
+search_object
+seen_objects
+selectBuf
+semctl
+semctl@@GLIBC_2.2.5
+semget
+semget@@GLIBC_2.2.5
+semop
+semop@@GLIBC_2.2.5
+set_fast_math
+setenv@@GLIBC_2.2.5
+sigaction
+sigaction@@GLIBC_2.2.5
+sigemptyset
+sigemptyset@@GLIBC_2.2.5
+size_of_encoded_value
+std::_Deque_base<CameraCommand_t*, std::allocator<CameraCommand_t*> >::~_Deque_base()
+std::_Deque_base<vr::CameraVideoStreamFrame_t*, std::allocator<vr::CameraVideoStreamFrame_t*> >::_M_initialize_map(unsigned long)
+std::_Deque_base<vr::CameraVideoStreamFrame_t*, std::allocator<vr::CameraVideoStreamFrame_t*> >::~_Deque_base()
+std::__basic_file<char>::~__basic_file()
+std::__throw_bad_alloc()
+std::__throw_out_of_range(char const*)
+std::basic_filebuf<char, std::char_traits<char> >::basic_filebuf()
+std::basic_filebuf<char, std::char_traits<char> >::close()
+std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode)
+std::basic_filebuf<char, std::char_traits<char> >::~basic_filebuf()
+std::basic_ifstream<char, std::char_traits<char> >::~basic_ifstream()
+std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
+std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned long, unsigned long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
+std::deque<vr::CameraVideoStreamFrame_t*, std::allocator<vr::CameraVideoStreamFrame_t*> >::_M_reallocate_map(unsigned long, bool)
+std::ios_base::ios_base()
+std::ios_base::~ios_base()
+std::istream& std::istream::_M_extract<unsigned int>(unsigned int&)
+std::locale::~locale()
+std::string::_M_leak_hard()
+std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
+std::string::_Rep::_M_destroy(std::allocator<char> const&)
+std::string::_Rep::_M_dispose(std::allocator<char> const&)
+std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+std::string::_Rep::_S_empty_rep_storage
+std::string::append(char const*, unsigned long)
+std::string::append(std::string const&)
+std::string::assign(char const*, unsigned long)
+std::string::assign(std::string const&)
+std::string::erase(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>)
+std::string::insert(unsigned long, char const*, unsigned long)
+std::string::replace(unsigned long, unsigned long, char const*, unsigned long)
+std::string::rfind(char, unsigned long) const
+std::string::swap(std::string&)
+stderr
+stderr@@GLIBC_2.2.5
+strcasecmp
+strcasecmp@@GLIBC_2.2.5
+strerror
+strerror@@GLIBC_2.2.5
+strftime
+strftime@@GLIBC_2.2.5
+strlen
+strlen@@GLIBC_2.2.5
+strncasecmp
+strncasecmp@@GLIBC_2.2.5
+strncpy
+strncpy@@GLIBC_2.2.5
+strrchr
+strrchr@@GLIBC_2.2.5
+strtol
+strtol@@GLIBC_2.2.5
+subs.8986
+syscall
+syscall@@GLIBC_2.2.5
+system
+system@@GLIBC_2.2.5
+systemBaseTicks
+systemSecondsPerTick
+systemTicksPerSecond
+systemTimeInitialized
+t
+terminator.8829
+time@@GLIBC_2.2.5
+toupper
+toupper@@GLIBC_2.2.5
+typeinfo for CAitCamera
+typeinfo for CCameraWorkThread
+typeinfo for CLinuxVideoStream
+typeinfo for CPreviewThread
+typeinfo for IAitCamGraph
+typeinfo for ICameraCompletionCallback
+typeinfo for SteamThreadTools::CThread
+typeinfo for int
+typeinfo for vr::ICameraHAL
+typeinfo name for CAitCamera
+typeinfo name for CCameraWorkThread
+typeinfo name for CLinuxVideoStream
+typeinfo name for CPreviewThread
+typeinfo name for IAitCamGraph
+typeinfo name for ICameraCompletionCallback
+typeinfo name for SteamThreadTools::CThread
+typeinfo name for vr::ICameraHAL
+unlink
+unlink@@GLIBC_2.2.5
+unseen_objects
+unsetenv
+unsetenv@@GLIBC_2.2.5
+usleep
+usleep@@GLIBC_2.2.5
+uw_frame_state_for
+uw_init_context_1
+uw_install_context_1
+uw_update_context
+uw_update_context_1
+void std::deque<CameraCommand_t*, std::allocator<CameraCommand_t*> >::_M_push_back_aux<CameraCommand_t* const&>(CameraCommand_t* const&)
+void std::vector<CPreviewThread::buff_t, std::allocator<CPreviewThread::buff_t> >::_M_emplace_back_aux<CPreviewThread::buff_t const&>(CPreviewThread::buff_t const&)
+void std::vector<void*, std::allocator<void*> >::_M_emplace_back_aux<void* const&>(void* const&)
+vrcombined_log.previous.txt
+vrcombined_log.txt
+vtable for CAitCamera
+vtable for CCameraWorkThread
+vtable for CLinuxVideoStream
+vtable for CPreviewThread
+vtable for IAitCamGraph
+vtable for ICameraCompletionCallback
+vtable for SteamThreadTools::CThread
+vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__vmi_class_type_info
+vtable for std::basic_filebuf<char, std::char_traits<char> >
+vtable for std::basic_ifstream<char, std::char_traits<char> >
+vtable for std::basic_ios<char, std::char_traits<char> >
+vtable for std::basic_streambuf<char, std::char_traits<char> >
+vtable for vr::ICameraHAL
+w
+waitpid
+waitpid@@GLIBC_2.2.5
+wb

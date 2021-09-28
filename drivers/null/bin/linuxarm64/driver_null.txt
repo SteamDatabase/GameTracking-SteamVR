@@ -1,0 +1,337 @@
+ B __bss_end__
+ B __bss_start
+ B __bss_start__
+ B __end__
+ B _bss_end__
+ B _end
+ D _edata
+ T HmdDriverFactory
+ T _fini
+ T _init
+ V typeinfo for bool (*)(char)
+ V typeinfo for bool (char)
+ V typeinfo name for bool (*)(char)
+ V typeinfo name for bool (char)
+ VTT for std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4.21
+ _ITM_deregisterTMCloneTable
+ _ITM_registerTMCloneTable
+ __cxa_atexit@@GLIBC_2.17
+ __cxa_begin_catch@@CXXABI_1.3
+ __cxa_end_catch@@CXXABI_1.3
+ __cxa_finalize@@GLIBC_2.17
+ __cxa_guard_abort@@CXXABI_1.3
+ __cxa_guard_acquire@@CXXABI_1.3
+ __cxa_guard_release@@CXXABI_1.3
+ __cxa_rethrow@@CXXABI_1.3
+ __gmon_start__
+ __gxx_personality_v0@@CXXABI_1.3
+ __pthread_key_create
+ __snprintf_chk@@GLIBC_2.17
+ __stack_chk_fail@@GLIBC_2.17
+ __stack_chk_guard@@GLIBC_2.17
+ __vsnprintf_chk@@GLIBC_2.17
+ a _DYNAMIC
+ a _GLOBAL_OFFSET_TABLE_
+ abort@@GLIBC_2.17
+ b $d
+ b CAssert::m_mutex
+ b CAssert::m_pInstance
+ b CLog::s_mutex
+ b CLog::s_pInstance
+ b UTF16to8[abi:cxx11](wchar_t const*)::s_converter
+ b UTF8to16[abi:cxx11](char const*)::s_converter
+ b any_objects_registered
+ b completed.8904
+ b dwarf_reg_size_table
+ b frame_hdr_cache
+ b frame_hdr_cache_head
+ b g_serverDriverNull
+ b guard variable for UTF16to8[abi:cxx11](wchar_t const*)::s_converter
+ b guard variable for UTF8to16[abi:cxx11](char const*)::s_converter
+ b marker.10668
+ b object_mutex
+ b once_regsizes.11106
+ b s_pLogFile
+ b seen_objects
+ b std::__ioinit
+ b subs.10931
+ b unseen_objects
+ b vr::OpenVRInternal_ModuleServerDriverContext()::ctx
+ b vr::VRDriverContext()::pHost
+ d $d
+ d DW.ref.__gxx_personality_v0
+ d __TMC_END__
+ d __do_global_dtors_aux_fini_array_entry
+ d __dso_handle
+ d __frame_dummy_init_array_entry
+ d adds.10930
+ d typeinfo for CNullHmdLatest
+ d typeinfo for CServerDriver_Null
+ d typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
+ d typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d typeinfo for vr::IServerTrackedDeviceProvider
+ d typeinfo for vr::ITrackedDeviceServerDriver
+ d typeinfo for vr::IVRDisplayComponent
+ d vr::k_InterfaceVersions
+ d vtable for CNullHmdLatest
+ d vtable for CServerDriver_Null
+ d vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
+ d vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ dl_iterate_phdr@@GLIBC_2.17
+ free@@GLIBC_2.17
+ malloc@@GLIBC_2.17
+ memchr@@GLIBC_2.17
+ memcpy@@GLIBC_2.17
+ memmove@@GLIBC_2.17
+ memset@@GLIBC_2.17
+ operator delete(void*)@@GLIBCXX_3.4
+ operator delete(void*, unsigned long)@@CXXABI_1.3.9
+ operator new(unsigned long)@@GLIBCXX_3.4
+ pthread_mutex_lock@@GLIBC_2.17
+ pthread_mutex_unlock@@GLIBC_2.17
+ pthread_once
+ r $d
+ r __FRAME_END__
+ r __GNU_EH_FRAME_HDR
+ r terminator.10774
+ r typeinfo name for CNullHmdLatest
+ r typeinfo name for CServerDriver_Null
+ r typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
+ r typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ r typeinfo name for vr::IServerTrackedDeviceProvider
+ r typeinfo name for vr::ITrackedDeviceServerDriver
+ r typeinfo name for vr::IVRDisplayComponent
+ snprintf@@GLIBC_2.17
+ std::__codecvt_utf8_base<char32_t>::do_always_noconv() const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<char32_t>::do_encoding() const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<char32_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<char32_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<char32_t>::do_max_length() const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<wchar_t>::do_encoding() const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<wchar_t>::do_max_length() const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const@@GLIBCXX_3.4.21
+ std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()@@GLIBCXX_3.4.21
+ std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()@@GLIBCXX_3.4.21
+ std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned long, unsigned long)@@GLIBCXX_3.4.21
+ std::__throw_bad_function_call()@@GLIBCXX_3.4.14
+ std::__throw_length_error(char const*)@@GLIBCXX_3.4
+ std::__throw_logic_error(char const*)@@GLIBCXX_3.4
+ std::__throw_out_of_range_fmt(char const*, ...)@@GLIBCXX_3.4.20
+ std::__throw_range_error(char const*)@@GLIBCXX_3.4
+ std::__throw_system_error(int)@@GLIBCXX_3.4.11
+ std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@@GLIBCXX_3.4
+ std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)@@GLIBCXX_3.4.21
+ std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)@@GLIBCXX_3.4
+ std::ios_base::Init::Init()@@GLIBCXX_3.4
+ std::ios_base::Init::~Init()@@GLIBCXX_3.4
+ std::ios_base::ios_base()@@GLIBCXX_3.4
+ std::ios_base::~ios_base()@@GLIBCXX_3.4
+ std::locale::locale()@@GLIBCXX_3.4
+ std::locale::~locale()@@GLIBCXX_3.4
+ strcasecmp@@GLIBC_2.17
+ strcmp@@GLIBC_2.17
+ strlen@@GLIBC_2.17
+ strncasecmp@@GLIBC_2.17
+ strncmp@@GLIBC_2.17
+ strncpy@@GLIBC_2.17
+ strtoull@@GLIBC_2.17
+ t $x
+ t CAssert::AddCallback(CAssertCallback*)
+ t CAssert::AssertMsgImpl(char const*, unsigned int, bool, unsigned int, ...)
+ t CAssert::GetInstance()
+ t CAssert::RemoveCallback(CAssertCallback*)
+ t CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*)
+ t CAssertCallback::~CAssertCallback()
+ t CLog::AddCallback(CLogCallback*)
+ t CLog::GetInstance()
+ t CLog::Log(ELogLevel, char const*, ...)
+ t CLog::Log(ELogLevel, char const*, std::__va_list&)
+ t CLog::RemoveCallback(CLogCallback*)
+ t CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*)
+ t CLogCallback::~CLogCallback()
+ t CNullHmdLatest::Activate(unsigned int)
+ t CNullHmdLatest::ComputeDistortion(vr::EVREye, float, float)
+ t CNullHmdLatest::Deactivate()
+ t CNullHmdLatest::DebugRequest(char const*, char*, unsigned int)
+ t CNullHmdLatest::EnterStandby()
+ t CNullHmdLatest::GetComponent(char const*)
+ t CNullHmdLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t CNullHmdLatest::GetPose()
+ t CNullHmdLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+ t CNullHmdLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t CNullHmdLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t CNullHmdLatest::IsDisplayOnDesktop()
+ t CNullHmdLatest::IsDisplayRealDisplay()
+ t CNullHmdLatest::RunFrame() [clone .part.11]
+ t CNullHmdLatest::~CNullHmdLatest()
+ t CServerDriver_Null::Cleanup()
+ t CServerDriver_Null::EnterStandby()
+ t CServerDriver_Null::GetInterfaceVersions()
+ t CServerDriver_Null::GetTrackedDeviceDriverVersion()
+ t CServerDriver_Null::Init(vr::IVRDriverContext*)
+ t CServerDriver_Null::LeaveStandby()
+ t CServerDriver_Null::RunFrame()
+ t CServerDriver_Null::ShouldBlockStandbyMode()
+ t CharNeedsEscape_Component(char)
+ t CharNeedsEscape_FullPath(char)
+ t CleanupDriverLog()
+ t DebugDriverLog(char const*, ...)
+ t DriverLog(char const*, ...)
+ t DriverLogString(char const*)
+ t DriverLogVarArgs(char const*, std::__va_list)
+ t Format[abi:cxx11](char const*, ...)
+ t InitDriverLog(vr::IVRDriverLog*)
+ t IsDriverLogActive()
+ t Log(ELogLevel, char const*, ...)
+ t Log(char const*, ...)
+ t LogDirect(ELogLevel, char const*, std::__va_list&)
+ t LogHelper(ELogLevel, char const*, std::__va_list&)
+ t RepairUTF8(char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+ t RepairUTF8(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+ t ReturnStdString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char*, unsigned int)
+ t StringHasPrefix(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t StringHasPrefixCaseSensitive(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t StringHasSuffix(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t StringHasSuffixCaseSensitive(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t StringToLower(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t StringToUint64(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t StringToUpper(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t TokenizeString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char)
+ t TrimTrailingWhitespace(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t UTF16to8(std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
+ t UTF16to8[abi:cxx11](wchar_t const*)
+ t UTF8to16(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t UTF8to16[abi:cxx11](char const*)
+ t Uint64ToString[abi:cxx11](unsigned long)
+ t V_StripExtension(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+ t V_URLDecode(char*, int, char const*, int)
+ t V_URLDecodeInternal(char*, int, char const*, int, bool)
+ t V_URLDecodeInternal(char*, int, char const*, int, bool) [clone .part.13]
+ t V_URLDecodeNoPlusForSpace(char*, int, char const*, int)
+ t V_URLEncode(char*, int, char const*, int)
+ t V_URLEncodeFullPath(char*, int, char const*, int)
+ t V_URLEncodeInternal(char*, int, char const*, int, bool, std::function<bool (char)>)
+ t V_URLEncodeNoPlusForSpace(char*, int, char const*, int)
+ t _GLOBAL__sub_I_driver_null.cpp
+ t _GLOBAL__sub_I_strtools_public.cpp
+ t _Unwind_Backtrace
+ t _Unwind_DebugHook
+ t _Unwind_DeleteException
+ t _Unwind_FindEnclosingFunction
+ t _Unwind_Find_FDE
+ t _Unwind_ForcedUnwind
+ t _Unwind_ForcedUnwind_Phase2
+ t _Unwind_GetCFA
+ t _Unwind_GetDataRelBase
+ t _Unwind_GetGR
+ t _Unwind_GetIP
+ t _Unwind_GetIPInfo
+ t _Unwind_GetLanguageSpecificData
+ t _Unwind_GetRegionStart
+ t _Unwind_GetTextRelBase
+ t _Unwind_IteratePhdrCallback
+ t _Unwind_RaiseException
+ t _Unwind_RaiseException_Phase2
+ t _Unwind_Resume
+ t _Unwind_Resume_or_Rethrow
+ t _Unwind_SetGR
+ t _Unwind_SetIP
+ t __deregister_frame
+ t __deregister_frame_info
+ t __deregister_frame_info_bases
+ t __do_global_dtors_aux
+ t __frame_state_for
+ t __register_frame
+ t __register_frame_info
+ t __register_frame_info_bases
+ t __register_frame_info_bases.part.7
+ t __register_frame_info_table
+ t __register_frame_info_table_bases
+ t __register_frame_table
+ t add_fdes
+ t base_from_cb_data.isra.5
+ t base_from_object.isra.4
+ t base_of_encoded_value
+ t cIntToHexDigit(int)
+ t call_weak_fn
+ t classify_object_over_fdes
+ t deregister_tm_clones
+ t execute_cfa_program
+ t execute_stack_op
+ t fde_mixed_encoding_compare
+ t fde_single_encoding_compare
+ t fde_unencoded_compare
+ t frame_downheap
+ t frame_dummy
+ t frame_heapsort
+ t get_cie_encoding
+ t iHexCharToInt(char)
+ t init_dwarf_reg_size_table
+ t linear_search_fdes
+ t non-virtual thunk to CNullHmdLatest::ComputeDistortion(vr::EVREye, float, float)
+ t non-virtual thunk to CNullHmdLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t non-virtual thunk to CNullHmdLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+ t non-virtual thunk to CNullHmdLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t non-virtual thunk to CNullHmdLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t non-virtual thunk to CNullHmdLatest::IsDisplayOnDesktop()
+ t non-virtual thunk to CNullHmdLatest::IsDisplayRealDisplay()
+ t read_encoded_value_with_base
+ t register_tm_clones
+ t search_object
+ t size_of_encoded_value
+ t std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
+ t std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+ t std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+ t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long) [clone .isra.76]
+ t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long)
+ t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)
+ t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::reserve(unsigned long)
+ t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::resize(unsigned long, char)
+ t std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_create(unsigned long&, unsigned long)
+ t std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_mutate(unsigned long, unsigned long, wchar_t const*, unsigned long)
+ t std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_replace(unsigned long, unsigned long, wchar_t const*, unsigned long)
+ t std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_replace_aux(unsigned long, unsigned long, unsigned long, wchar_t)
+ t std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::resize(unsigned long, wchar_t)
+ t std::__cxx11::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+ t std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+ t std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+ t std::vector<char, std::allocator<char> >::_M_default_append(unsigned long)
+ t strcpy_safe(char*, unsigned long, char const*)
+ t stricmp(char const*, char const*)
+ t strnicmp(char const*, char const*, unsigned long)
+ t uw_frame_state_for
+ t uw_init_context_1
+ t uw_install_context_1
+ t uw_update_context
+ t uw_update_context_1
+ t void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ t void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+ t void std::vector<CAssertCallback*, std::allocator<CAssertCallback*> >::_M_realloc_insert<CAssertCallback* const&>(__gnu_cxx::__normal_iterator<CAssertCallback**, std::vector<CAssertCallback*, std::allocator<CAssertCallback*> > >, CAssertCallback* const&)
+ t void std::vector<CLogCallback*, std::allocator<CLogCallback*> >::_M_realloc_insert<CLogCallback* const&>(__gnu_cxx::__normal_iterator<CLogCallback**, std::vector<CLogCallback*, std::allocator<CLogCallback*> > >, CLogCallback* const&)
+ t void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+ t void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ tolower@@GLIBC_2.17
+ toupper@@GLIBC_2.17
+ typeinfo for std::__codecvt_utf8_base<char32_t>@@GLIBCXX_3.4.21
+ typeinfo for std::__codecvt_utf8_base<wchar_t>@@GLIBCXX_3.4.21
+ vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
+ vtable for __cxxabiv1::__function_type_info@@CXXABI_1.3
+ vtable for __cxxabiv1::__pointer_type_info@@CXXABI_1.3
+ vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
+ vtable for __cxxabiv1::__vmi_class_type_info@@CXXABI_1.3
+ vtable for std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4.21
+ vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4.21
+ vtable for std::basic_ios<char, std::char_traits<char> >@@GLIBCXX_3.4
+ vtable for std::basic_streambuf<char, std::char_traits<char> >@@GLIBCXX_3.4
+ wcslen@@GLIBC_2.17
+ wmemcpy@@GLIBC_2.17
+ wmemmove@@GLIBC_2.17
+ wmemset@@GLIBC_2.17
