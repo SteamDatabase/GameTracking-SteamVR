@@ -1,0 +1,58 @@
+{
+	"jsonid" : "input_profile",
+  "controller_type": "vive_tracker",
+  "input_bindingui_mode" : "single_device",
+  "input_bindingui_right" :
+  {
+    "image": "{htc}/icons/vive_tracker.svg"
+  },
+  "priority" :  6,
+  "tracker_types" :
+  {
+  	"TrackerRole_Handed" : "{tundra_labs}/input/tracker/tundra_tracker_handed_profile.json",
+  	"TrackerRole_LeftFoot" : "{tundra_labs}/input/tracker/tundra_tracker_left_foot_profile.json",
+  	"TrackerRole_RightFoot" : "{tundra_labs}/input/tracker/tundra_tracker_right_foot_profile.json",
+  	"TrackerRole_LeftShoulder" : "{tundra_labs}/input/tracker/tundra_tracker_left_shoulder_profile.json",
+  	"TrackerRole_RightShoulder" : "{tundra_labs}/input/tracker/tundra_tracker_right_shoulder_profile.json",
+  	"TrackerRole_LeftElbow" : "{tundra_labs}/input/tracker/tundra_tracker_left_elbow_profile.json",
+  	"TrackerRole_RightElbow" : "{tundra_labs}/input/tracker/tundra_tracker_right_elbow_profile.json",
+  	"TrackerRole_LeftKnee" : "{tundra_labs}/input/tracker/tundra_tracker_left_knee_profile.json",
+  	"TrackerRole_RightKnee" : "{tundra_labs}/input/tracker/tundra_tracker_right_knee_profile.json",
+  	"TrackerRole_Waist" : "{tundra_labs}/input/tracker/tundra_tracker_waist_profile.json",
+  	"TrackerRole_Chest" : "{tundra_labs}/input/tracker/tundra_tracker_chest_profile.json",
+  	"TrackerRole_Camera" : "{tundra_labs}/input/tracker/tundra_tracker_camera_profile.json",
+  	"TrackerRole_Keyboard" : "{tundra_labs}/input/tracker/tundra_tracker_keyboard_profile.json"
+  },
+  "input_source" :
+  {
+    "/input/power" : {
+        "type" : "button",
+				"order" :  1,
+        "binding_image_point" : [ 345, 128 ]
+    },
+    "/input/trigger" : {
+        "type" : "button",
+				"order" :  2,
+        "binding_image_point" : [ 127, 62 ]
+    },
+    "/input/grip" : {
+        "type" : "button",
+				"order" :  3,
+        "binding_image_point" : [ 210, 100 ]
+    },
+    "/input/application_menu" : {
+        "type" : "button",
+				"order" :  4,
+        "binding_image_point" : [ 210, 130 ]
+    },
+    "/input/thumb" : {
+        "type" : "button",
+				"order" :  5,
+        "binding_image_point" : [ 88, 148 ]
+    },
+    "/pose/raw" : {
+        "type" : "pose",
+        "binding_image_point" : [ 63, 148 ]
+    }
+  }
+}

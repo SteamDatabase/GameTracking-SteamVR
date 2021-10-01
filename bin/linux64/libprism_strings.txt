@@ -458,6 +458,7 @@ $+
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
 16CVkCommandBuffer
+18:57:12
 18CPrismDisplay_Null
 18IPrismPoseProvider
 19CVkGarbageCollector
@@ -467,7 +468,6 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-21:15:58
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -2030,6 +2030,7 @@ Null Client
 O
 O"
 Oct
+Oct  1 2021
 October
 OnPreSubmit
 Out of thread local storage!
@@ -2266,7 +2267,6 @@ SecondsToSystemTicks(double)
 See
 Self queried namespace: %u
 Sep
-Sep 24 2021
 September
 Set thread %p priority to: %d
 SetCurrentProcessExplicitAppUserModelID()

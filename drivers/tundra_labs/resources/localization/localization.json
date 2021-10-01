@@ -1,0 +1,10 @@
+[
+  {
+    "language_tag": "en_US",
+    "tundra_tracker" : "Tundra Tracker",
+    "/input/system" : "System Button",
+    "/input/trigger" : "Trigger Button",
+    "/input/menu" : "Menu Button",
+    "/input/a" : "A Button"
+  }
+]

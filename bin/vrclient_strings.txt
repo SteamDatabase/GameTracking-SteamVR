@@ -2998,6 +2998,7 @@ $0}
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:56:58
 18CPropertyContainer
 18CSharedBufferLinux
 18CVRChaperoneClient
@@ -3048,7 +3049,6 @@ $0}
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:15:51
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -22709,6 +22709,7 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
+Oct  1 2021
 October
 OculusSDKStart
 OldAppQuitSent
@@ -23313,7 +23314,6 @@ Sending focus captured event
 Sending focus released event
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
-Sep 24 2021
 September
 Server
 Server could not create read event %s
