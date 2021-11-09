@@ -418,7 +418,7 @@
 "Settings_PerApplication_AppResTitle" "Benutzerdefinierte Auflösung"
 "Settings_PerApplication_AppResHeader" "Diese Einstellung ist ein Multiplikator zusätzlich zu Ihrer eingestellten Videoauflösung für Anwendungen. Diese Anwendung muss gegebenenfalls neu gestartet werden, damit die Einstellungen übernommen werden. (Standardeinstellung ist 100 %)"
 "Settings_PerApplication_AppResFooter" "Die derzeitige Einstellung rendert jedes Auge mit <font color=#eeeeee>%1×%2</font>"
-"Settings_PerApplication_OverlayVisibleHeader" "Overlay-Anwendungen sind als Reiter im SteamVR-Dashboard verfügbar."
+"Settings_PerApplication_OverlayVisibleHeader" "Overlay-Anwendungen sind als Tab im SteamVR-Dashboard verfügbar."
 "Settings_PerApplication_OverlayVisibleCheckbox" "Diese Overlay-Anwendung beim Start von SteamVR starten."
 "Settings_PerApplication_DashboardSuffix" "(Overlay-Anwendung)"
 "Settings_PerApplication_CustomSuffix" "(Angepasst)"

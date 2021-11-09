@@ -9,9 +9,12 @@
 %H:%M
 %H:%M:%S
 %d
+%d.%d.%d.%d
+%d.%d.%d.%d:%u
 %llu
 %m/%d/%y
 %s
+%s%c%s
 %s: __pos (which is %zu) > this->size() (which is %zu)
 %u
 &
@@ -93,6 +96,7 @@
 )
 )#
 *
+*.*
 *=
 *N12_GLOBAL__N_121system_error_categoryE
 *N12_GLOBAL__N_122generic_error_categoryE
@@ -113,6 +117,7 @@
 -in-
 .
 .*
+..
 ...
 ...)
 ./obj_openvr_api_linux64/release/libopenvr_api.so
@@ -178,6 +183,22 @@ CAssert::m_pInstance
 CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*)
 CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*) [clone .cold]
 CAssertCallback::~CAssertCallback()
+CDirIterator::BCurrentIsDir() const
+CDirIterator::BCurrentIsHidden() const
+CDirIterator::BCurrentIsMarkedForArchive() const
+CDirIterator::BCurrentIsReadOnly() const
+CDirIterator::BCurrentIsSystem() const
+CDirIterator::BNextFile()
+CDirIterator::BValidFilename()
+CDirIterator::CDirIterator(char const*, char const*)
+CDirIterator::CDirIterator(char const*, char const*) [clone .cold]
+CDirIterator::CurrentFileCreateTime() const
+CDirIterator::CurrentFileLength() const
+CDirIterator::CurrentFileName()
+CDirIterator::CurrentFileWriteTime() const
+CDirIterator::Init(std::string const&)
+CDirIterator::IsValid() const
+CDirIterator::~CDirIterator()
 CET
 CLog::AddCallback(CLogCallback*)
 CLog::AddCallback(CLogCallback*) [clone .cold]
@@ -259,6 +280,9 @@ Factory Function Not Found (104)
 Feb
 February
 File Not Found (103)
+File path truncated
+FileSelect(dirent const*)
+FillDataStruct(_finddata_t*)
 Firmware Recovery In Progress (139)
 Firmware Update In Progress (138)
 Format string parse failure
@@ -323,6 +347,8 @@ Interface Not Found (105)
 Internal Retry (115)
 Invalid Application Type (130)
 Invalid Interface (106)
+IpAndPortToString(unsigned int, unsigned short)
+IpToString(unsigned int)
 J
 JArray
 JST
@@ -893,6 +919,7 @@ ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*,
 ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*) [clone .cold]
 Path_Compact(std::string const&, char)
 Path_Compact(std::string const&, char) [clone .cold]
+Path_DeleteDirectory(std::string const&, bool)
 Path_Exists(std::string const&)
 Path_FilePathToUrl(std::string const&, std::string const&)
 Path_FilePathToUrl(std::string const&, std::string const&) [clone .cold]
@@ -1170,6 +1197,14 @@ User Canceled Init (116)
 User Config Directory Invalid (107)
 VR Dashboard Not Found (133)
 VR Dashboard startup failed (134)
+VR Dashboard startup failed, attempt to communicate with vrservice timed out (161)
+VR Dashboard startup failed, path error (167)
+VR Dashboard startup failed, required files did not copy correctly (164)
+VR Dashboard startup failed, unable to create appropriate environment (166)
+VR Dashboard startup failed, unable to create appropriate token (165)
+VR Dashboard startup failed, vrdashboard was already running (163)
+VR Dashboard startup failed, vrservice was pending for too long (160)
+VR Dashboard startup failed, vrservice was stopped (162)
 VR Home Not Found (135)
 VR Monitor Not Found (127)
 VR Monitor startup failed (128)
@@ -1287,6 +1322,7 @@ VRInitError_Driver_PeerDriverNotInstalled
 VRInitError_Driver_RuntimeOutOfDate
 VRInitError_Driver_TrackedDeviceInterfaceUnknown
 VRInitError_Driver_Unknown
+VRInitError_Driver_WirelessHmdNotConnected
 VRInitError_IPC_CompositorConnectFailed
 VRInitError_IPC_CompositorInitFailed
 VRInitError_IPC_CompositorInvalidConnectResponse
@@ -1348,8 +1384,16 @@ VRInitError_Init_TrackerManagerInitFailed
 VRInitError_Init_USBServiceBusy
 VRInitError_Init_UserConfigDirectoryInvalid
 VRInitError_Init_VRClientDLLNotFound
+VRInitError_Init_VRDashboardAlreadyStarted
+VRInitError_Init_VRDashboardCopyFailed
+VRInitError_Init_VRDashboardEnvironmentFailure
 VRInitError_Init_VRDashboardNotFound
+VRInitError_Init_VRDashboardPathFailure
+VRInitError_Init_VRDashboardServicePending
+VRInitError_Init_VRDashboardServiceStopped
+VRInitError_Init_VRDashboardServiceTimeout
 VRInitError_Init_VRDashboardStartupFailed
+VRInitError_Init_VRDashboardTokenFailure
 VRInitError_Init_VRHomeNotFound
 VRInitError_Init_VRHomeStartupFailed
 VRInitError_Init_VRMonitorNotFound
@@ -1745,6 +1789,9 @@ __wctype_l
 __xstat
 _edata
 _end
+_findclose(long)
+_findfirst(char const*, _finddata_t*)
+_findnext(long, _finddata_t*)
 _fini
 _init
 _txnal_cow_string_C1_for_exceptions(void*, char const*, void*)
@@ -1775,6 +1822,7 @@ allowSingleQuotes
 allowSpecialFloats
 alnum
 alpha
+alphasort
 alse
 an
 any_objects_registered
@@ -2269,9 +2317,11 @@ s
 sP
 sZ
 sc
+scandir
 search_object
 search_object.cold
 seen_objects
+selectBuf
 setenv
 setlocale
 setvbuf
@@ -4406,6 +4456,7 @@ strncmp
 strncpy
 strnicmp(char const*, char const*, unsigned long)
 strpbrk
+strrchr
 strtol
 strtold_l
 strtoull

@@ -1712,6 +1712,7 @@
           (e[(e.CameraStreamFormat_Int32 = 1041)] = "CameraStreamFormat_Int32"),
           (e[(e.AdditionalDeviceSettingsPath_String = 1042)] =
             "AdditionalDeviceSettingsPath_String"),
+          (e[(e.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
           (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
             "ReportsTimeSinceVSync_Bool"),
           (e[(e.SecondsFromVsyncToPhotons_Float = 2001)] =
@@ -1856,6 +1857,7 @@
           (e[(e.DisplayMaxAnalogGain_Float = 2087)] =
             "DisplayMaxAnalogGain_Float"),
           (e[(e.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
+          (e[(e.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
           (e[(e.IpdUIRangeMinMeters_Float = 2100)] =
             "IpdUIRangeMinMeters_Float"),
           (e[(e.IpdUIRangeMaxMeters_Float = 2101)] =
@@ -1866,8 +1868,6 @@
             "Hmd_SupportsMicMonitoring_Bool"),
           (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-          (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
-            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
           (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -1886,6 +1886,8 @@
             "DriverRequestedMuraFeather_OuterTop_Int32"),
           (e[(e.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
             "DriverRequestedMuraFeather_OuterBottom_Int32"),
+          (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
+            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
           (e[(e.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
           (e[(e.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
           (e[(e.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
@@ -2058,7 +2060,8 @@
       (function (e) {
         (e[(e.Hostname = 0)] = "Hostname"),
           (e[(e.IP = 1)] = "IP"),
-          (e[(e.Version = 2)] = "Version");
+          (e[(e.Version = 2)] = "Version"),
+          (e[(e.NetworkConnections = 3)] = "NetworkConnections");
       })(Ke || (Ke = {}));
     class qe extends D.Component {
       constructor(e) {
@@ -5147,6 +5150,20 @@
             : e.startsWith("system.window"))
         );
       }
+      getPeerButtonInfo() {
+        var e;
+        const t =
+          null === (e = VRHTML) || void 0 === e
+            ? void 0
+            : e.VRProperties.GetStringProperty(0, a.y.PeerButtonInfo_String);
+        if (t) return JSON.parse(t);
+      }
+      handlePeerButton() {
+        const e = this.getPeerButtonInfo();
+        if (!e) return;
+        let t = { type: e.sMessageType };
+        this.m_mailbox.SendMessage(e.sMailbox, t);
+      }
       renderControlBar(e, t) {
         var n, i, r, o, s, l, c, g;
         const b = this.isDarkMode ? { r: 0.05, g: 0.05, b: 0.05 } : null,
@@ -5166,17 +5183,18 @@
             null != (o = m.d.settings.get("/settings/dashboard/arcadeMode")) &&
             o
           ),
-          D = $.a.Instance.SceneApplicationState,
-          w = $.a.Instance.SceneAppIsHome,
-          M = $.a.Instance.SceneAppKey;
-        let R = "images/appimage_default.png";
-        M && (R = "/app/image?app_key=" + M);
-        const E = null != (s = m.d.settings.get(p.d)) && s,
-          T = null != (l = m.d.settings.get(p.e)) ? l : 0,
-          I = E && T > 0;
-        let P = { y: -0.25, z: 0 };
+          D = this.getPeerButtonInfo(),
+          w = $.a.Instance.SceneApplicationState,
+          M = $.a.Instance.SceneAppIsHome,
+          R = $.a.Instance.SceneAppKey;
+        let E = "images/appimage_default.png";
+        R && (E = "/app/image?app_key=" + R);
+        const T = null != (s = m.d.settings.get(p.d)) && s,
+          I = null != (l = m.d.settings.get(p.e)) ? l : 0,
+          P = T && I > 0;
+        let x = { y: -0.25, z: 0 };
         return (
-          this.isOverlayActive(p.k) && (P = { y: -0.4, z: 0 }),
+          this.isOverlayActive(p.k) && (x = { y: -0.4, z: 0 }),
           d.createElement(
             a.jb,
             { color: b },
@@ -5262,7 +5280,7 @@
                       style: _.d.Large,
                       onClick: this.onQuickLaunchButtonClick,
                     }),
-                    D != a.v.None &&
+                    w != a.v.None &&
                       d.createElement(
                         "div",
                         { className: "NowPlayingSpacer" },
@@ -5287,12 +5305,12 @@
                                   "div",
                                   { className: "ControlBar" },
                                   d.createElement(_.k, {
-                                    label: w
+                                    label: M
                                       ? Object(h.c)("#SteamVR_Home")
                                       : Object(h.c)("#Now_Playing"),
                                     active: this.isOverlayActive(p.o),
                                     style: _.d.App,
-                                    imageUrl: R,
+                                    imageUrl: E,
                                     onClick: () => this.switchToOverlay(p.o),
                                   })
                                 )
@@ -5322,7 +5340,7 @@
                       _.e,
                       { style: _.d.Small },
                       d.createElement(_.j, null),
-                      I &&
+                      P &&
                         d.createElement(_.b, {
                           imageUrl: "/dashboard/images/icons/svr_eye.svg",
                           label: Object(h.c)("#Toggle_Room_View"),
@@ -5354,6 +5372,16 @@
                         style: _.d.Small,
                         centerPanelAnchorID: "VolumeButton",
                         onClick: () => this.switchToOverlay(p.C),
+                      }),
+                    D &&
+                      d.createElement(_.k, {
+                        imageUrl: D.sIcon,
+                        active: !1,
+                        enabled: !0,
+                        label: Object(h.c)(D.sButtonName),
+                        style: _.d.Small,
+                        centerPanelAnchorID: "VolumeButton",
+                        onClick: () => this.handlePeerButton(),
                       })
                   )
                 ),
@@ -5390,7 +5418,7 @@
             ),
             d.createElement(
               a.lb,
-              { translation: P, scale: { y: 1.5, x: 1.5 } },
+              { translation: x, scale: { y: 1.5, x: 1.5 } },
               d.createElement(a.S, {
                 mountedId: Object(a.f)(p.E, "system.keyboard"),
               })
@@ -5771,6 +5799,7 @@
       ),
       Object(s.b)([l.bind], de.prototype, "isDesktopTrayActive", null),
       Object(s.b)([l.bind], de.prototype, "isDesktopOverlayActive", null),
+      Object(s.b)([l.bind], de.prototype, "handlePeerButton", null),
       Object(s.b)([b.m], de, "s_dashboardUserDistance", void 0),
       Object(s.b)([b.m], de, "s_dashboardUserScale", void 0),
       (de = te = Object(s.b)([g.a], de));
@@ -9134,4 +9163,4 @@
       Object(r.b)([s.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=bindingcallouts.js.map?v=29068a1bdb5adfc54194
+//# sourceMappingURL=bindingcallouts.js.map?v=b749846af66ab96a5f75

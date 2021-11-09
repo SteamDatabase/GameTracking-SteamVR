@@ -438,6 +438,8 @@
  b (anonymous namespace)::CVRMsg_CreateSwapTextureSetResponse_reflection_
  b (anonymous namespace)::CVRMsg_CreateSwapTextureSet_descriptor_
  b (anonymous namespace)::CVRMsg_CreateSwapTextureSet_reflection_
+ b (anonymous namespace)::CVRMsg_DashboardStarted_descriptor_
+ b (anonymous namespace)::CVRMsg_DashboardStarted_reflection_
  b (anonymous namespace)::CVRMsg_DefaultBinding_descriptor_
  b (anonymous namespace)::CVRMsg_DefaultBinding_reflection_
  b (anonymous namespace)::CVRMsg_DestroySwapTextureSet_descriptor_
@@ -594,6 +596,10 @@
  b (anonymous namespace)::CVRMsg_ShouldKillTheaterPancakeProcess_reflection_
  b (anonymous namespace)::CVRMsg_StartAutolaunchOverlays_descriptor_
  b (anonymous namespace)::CVRMsg_StartAutolaunchOverlays_reflection_
+ b (anonymous namespace)::CVRMsg_StartDashboardResponse_descriptor_
+ b (anonymous namespace)::CVRMsg_StartDashboardResponse_reflection_
+ b (anonymous namespace)::CVRMsg_StartDashboard_descriptor_
+ b (anonymous namespace)::CVRMsg_StartDashboard_reflection_
  b (anonymous namespace)::CVRMsg_StartHomeAppResponse_descriptor_
  b (anonymous namespace)::CVRMsg_StartHomeAppResponse_reflection_
  b (anonymous namespace)::CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse_descriptor_
@@ -857,6 +863,7 @@
  b CVRMsg_ConnectResponse::default_instance_
  b CVRMsg_CreateSwapTextureSet::default_instance_
  b CVRMsg_CreateSwapTextureSetResponse::default_instance_
+ b CVRMsg_DashboardStarted::default_instance_
  b CVRMsg_DefaultBinding::default_instance_
  b CVRMsg_DestroySwapTextureSet::default_instance_
  b CVRMsg_DriverDebugRequest::default_instance_
@@ -934,6 +941,8 @@
  b CVRMsg_ShouldKillTheaterPancakeProcess::default_instance_
  b CVRMsg_ShouldKillTheaterPancakeProcessResponse::default_instance_
  b CVRMsg_StartAutolaunchOverlays::default_instance_
+ b CVRMsg_StartDashboard::default_instance_
+ b CVRMsg_StartDashboardResponse::default_instance_
  b CVRMsg_StartHomeAppResponse::default_instance_
  b CVRMsg_TrackedCamera_AcquireVideoStreamingService::default_instance_
  b CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse::default_instance_
@@ -1046,7 +1055,6 @@
  b SplitInputPath(std::string const&, std::string*, std::string*)::k_sPosePathPrefix
  b SplitInputPath(std::string const&, std::string*, std::string*)::k_sProximityPathPrefix
  b SteamVRVersionAsString()::s_sCachedVersion
- b ThreadGetCurrentId::s_selftid
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
  b ThreadShellExecute::bInstalledSignalHandler
@@ -1324,6 +1332,7 @@
  b s_mapDumpedAsserts
  b s_mapTimings
  b s_pInstance
+ b s_pLogCallback
  b s_pLogFile
  b s_rchProcessIdentifier
  b s_thread_pRobustListStruct
@@ -1879,6 +1888,8 @@
  b vrapplications006_FnTable
  b vrblockqueue001
  b vrblockqueue002
+ b vrblockqueue003
+ b vrblockqueue004
  b vrchaperone003
  b vrchaperone003_FnTable
  b vrchaperonesetup001
@@ -2065,7 +2076,7 @@
  d CSkeletonList::m_List
  d CVRChaperoneClient::GetBoundsColor(vr::HmdColor_t*, int, float, vr::HmdColor_t*)::s_bFirstTime
  d CVRCompositorClient::CheckError(CVRCompositorSharedTextures::Error, vr::EVRCompositorError*) const::s_bFirstTime
- d CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)::s_bFirstOffense
+ d CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long long)::s_bFirstOffense
  d DW.ref._ZTIN10__cxxabiv115__forced_unwindE
  d DW.ref._ZTIPN4Json9ExceptionE
  d DW.ref._ZTISt9bad_alloc
@@ -2268,7 +2279,6 @@
  d k_pchDisplayComponentPrefix
  d k_pchDriverDirectModeComponentPrefix
  d k_pchVirtualDisplayComponentPrefix
- d k_unMCDataTag
  d s_bCurrentMiniDumpIsFatal
  d s_mat34Identity
  d standard_subs
@@ -2307,6 +2317,8 @@
  d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_006>
  d typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_001>
  d typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_002>
+ d typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_003>
+ d typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_004>
  d typeinfo for CAnimFactoryBase::CFactoryMaker
  d typeinfo for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>
  d typeinfo for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>
@@ -2402,6 +2414,8 @@
  d typeinfo for CVRBlockQueueManager
  d typeinfo for CVRBlockQueue_001
  d typeinfo for CVRBlockQueue_002
+ d typeinfo for CVRBlockQueue_003
+ d typeinfo for CVRBlockQueue_004
  d typeinfo for CVRCameraComponentAdapter
  d typeinfo for CVRCameraComponent_001
  d typeinfo for CVRCameraComponent_002
@@ -2554,6 +2568,7 @@
  d typeinfo for CVRMsg_ConnectResponse
  d typeinfo for CVRMsg_CreateSwapTextureSet
  d typeinfo for CVRMsg_CreateSwapTextureSetResponse
+ d typeinfo for CVRMsg_DashboardStarted
  d typeinfo for CVRMsg_DefaultBinding
  d typeinfo for CVRMsg_DestroySwapTextureSet
  d typeinfo for CVRMsg_DriverDebugRequest
@@ -2631,6 +2646,8 @@
  d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcess
  d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcessResponse
  d typeinfo for CVRMsg_StartAutolaunchOverlays
+ d typeinfo for CVRMsg_StartDashboard
+ d typeinfo for CVRMsg_StartDashboardResponse
  d typeinfo for CVRMsg_StartHomeAppResponse
  d typeinfo for CVRMsg_TrackedCamera_AcquireVideoStreamingService
  d typeinfo for CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
@@ -2873,6 +2890,7 @@
  d typeinfo for IVRVirtualDisplay001
  d typeinfo for InMemoryInputStream
  d typeinfo for InMemoryStreamInputBuf
+ d typeinfo for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
  d typeinfo for InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}
  d typeinfo for InputInterfaceRegistration<CVRInput_001>
  d typeinfo for InputInterfaceRegistration<CVRInput_002>
@@ -3001,7 +3019,7 @@
  d typeinfo for std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)>
  d typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
- d typeinfo for std::_Sp_counted_deleter<CBlockQueue*, std::default_delete<CBlockQueue>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::_Sp_counted_ptr_inplace<CRenderModelManager::ModelInfo_t, std::allocator<CRenderModelManager::ModelInfo_t>, (__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::_Sp_counted_ptr_inplace<CSharedResourceBaseLinux::CSharedResourceData, std::allocator<CSharedResourceBaseLinux::CSharedResourceData>, (__gnu_cxx::_Lock_policy)2>
@@ -3224,6 +3242,8 @@
  d vtable for ApplicationsInterfaceRegistration<CVRApplications_006>
  d vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_001>
  d vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_002>
+ d vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_003>
+ d vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_004>
  d vtable for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>
  d vtable for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>
  d vtable for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>
@@ -3312,6 +3332,8 @@
  d vtable for CVRBlockQueueManager
  d vtable for CVRBlockQueue_001
  d vtable for CVRBlockQueue_002
+ d vtable for CVRBlockQueue_003
+ d vtable for CVRBlockQueue_004
  d vtable for CVRCameraComponent_001
  d vtable for CVRCameraComponent_002
  d vtable for CVRCameraComponent_Latest
@@ -3451,6 +3473,7 @@
  d vtable for CVRMsg_ConnectResponse
  d vtable for CVRMsg_CreateSwapTextureSet
  d vtable for CVRMsg_CreateSwapTextureSetResponse
+ d vtable for CVRMsg_DashboardStarted
  d vtable for CVRMsg_DefaultBinding
  d vtable for CVRMsg_DestroySwapTextureSet
  d vtable for CVRMsg_DriverDebugRequest
@@ -3528,6 +3551,8 @@
  d vtable for CVRMsg_ShouldKillTheaterPancakeProcess
  d vtable for CVRMsg_ShouldKillTheaterPancakeProcessResponse
  d vtable for CVRMsg_StartAutolaunchOverlays
+ d vtable for CVRMsg_StartDashboard
+ d vtable for CVRMsg_StartDashboardResponse
  d vtable for CVRMsg_StartHomeAppResponse
  d vtable for CVRMsg_TrackedCamera_AcquireVideoStreamingService
  d vtable for CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
@@ -3831,7 +3856,7 @@
  d vtable for nlohmann::detail::output_string_adapter<char, std::string>
  d vtable for nlohmann::detail::parse_error
  d vtable for nlohmann::detail::type_error
- d vtable for std::_Sp_counted_deleter<CBlockQueue*, std::default_delete<CBlockQueue>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::_Sp_counted_ptr_inplace<CRenderModelManager::ModelInfo_t, std::allocator<CRenderModelManager::ModelInfo_t>, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::_Sp_counted_ptr_inplace<CSharedResourceBaseLinux::CSharedResourceData, std::allocator<CSharedResourceBaseLinux::CSharedResourceData>, (__gnu_cxx::_Lock_policy)2>
@@ -4108,7 +4133,7 @@
  qsort
  r C.427.288574
  r CSWTCH.101
- r CSWTCH.208
+ r CSWTCH.211
  r CSWTCH.224
  r CSWTCH.28
  r CSWTCH.701
@@ -4261,6 +4286,7 @@
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_Connect_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_CreateSwapTextureSetResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_CreateSwapTextureSet_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_DashboardStarted_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_DefaultBinding_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_DestroySwapTextureSet_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_DriverDebugRequest_offsets_
@@ -4338,6 +4364,8 @@
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShouldKillTheaterPancakeProcessResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShouldKillTheaterPancakeProcess_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartAutolaunchOverlays_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartDashboardResponse_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartDashboard_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartHomeAppResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_TrackedCamera_AcquireVideoStreamingService_offsets_
@@ -4517,6 +4545,8 @@
  r typeinfo name for ApplicationsInterfaceRegistration<CVRApplications_006>
  r typeinfo name for BlockQueueInterfaceRegistration<CVRBlockQueue_001>
  r typeinfo name for BlockQueueInterfaceRegistration<CVRBlockQueue_002>
+ r typeinfo name for BlockQueueInterfaceRegistration<CVRBlockQueue_003>
+ r typeinfo name for BlockQueueInterfaceRegistration<CVRBlockQueue_004>
  r typeinfo name for CAnimFactoryBase::CFactoryMaker
  r typeinfo name for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>
  r typeinfo name for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>
@@ -4612,6 +4642,8 @@
  r typeinfo name for CVRBlockQueueManager
  r typeinfo name for CVRBlockQueue_001
  r typeinfo name for CVRBlockQueue_002
+ r typeinfo name for CVRBlockQueue_003
+ r typeinfo name for CVRBlockQueue_004
  r typeinfo name for CVRCameraComponentAdapter
  r typeinfo name for CVRCameraComponent_001
  r typeinfo name for CVRCameraComponent_002
@@ -4764,6 +4796,7 @@
  r typeinfo name for CVRMsg_ConnectResponse
  r typeinfo name for CVRMsg_CreateSwapTextureSet
  r typeinfo name for CVRMsg_CreateSwapTextureSetResponse
+ r typeinfo name for CVRMsg_DashboardStarted
  r typeinfo name for CVRMsg_DefaultBinding
  r typeinfo name for CVRMsg_DestroySwapTextureSet
  r typeinfo name for CVRMsg_DriverDebugRequest
@@ -4841,6 +4874,8 @@
  r typeinfo name for CVRMsg_ShouldKillTheaterPancakeProcess
  r typeinfo name for CVRMsg_ShouldKillTheaterPancakeProcessResponse
  r typeinfo name for CVRMsg_StartAutolaunchOverlays
+ r typeinfo name for CVRMsg_StartDashboard
+ r typeinfo name for CVRMsg_StartDashboardResponse
  r typeinfo name for CVRMsg_StartHomeAppResponse
  r typeinfo name for CVRMsg_TrackedCamera_AcquireVideoStreamingService
  r typeinfo name for CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
@@ -5083,6 +5118,7 @@
  r typeinfo name for IVRVirtualDisplay001
  r typeinfo name for InMemoryInputStream
  r typeinfo name for InMemoryStreamInputBuf
+ r typeinfo name for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
  r typeinfo name for InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}
  r typeinfo name for InputInterfaceRegistration<CVRInput_001>
  r typeinfo name for InputInterfaceRegistration<CVRInput_002>
@@ -5211,7 +5247,7 @@
  r typeinfo name for std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)>
  r typeinfo name for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
- r typeinfo name for std::_Sp_counted_deleter<CBlockQueue*, std::default_delete<CBlockQueue>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>
+ r typeinfo name for std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::_Sp_counted_ptr_inplace<CRenderModelManager::ModelInfo_t, std::allocator<CRenderModelManager::ModelInfo_t>, (__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::_Sp_counted_ptr_inplace<CSharedResourceBaseLinux::CSharedResourceData, std::allocator<CSharedResourceBaseLinux::CSharedResourceData>, (__gnu_cxx::_Lock_policy)2>
@@ -5302,7 +5338,6 @@
  r typeinfo name for std::ctype_base
  r typeinfo name for std::ctype_byname<char>
  r typeinfo name for std::ctype_byname<wchar_t>
- r typeinfo name for std::default_delete<CBlockQueue>
  r typeinfo name for std::domain_error
  r typeinfo name for std::exception
  r typeinfo name for std::invalid_argument
@@ -5535,14 +5570,17 @@
  t .L1012
  t .L1013
  t .L1014
+ t .L1015
  t .L1016
+ t .L1017
  t .L1019
  t .L102
- t .L1020
  t .L1022
  t .L1023
- t .L1024
+ t .L1025
  t .L1026
+ t .L1027
+ t .L1029
  t .L103
  t .L1034
  t .L1036
@@ -5563,7 +5601,10 @@
  t .L105
  t .L1050
  t .L1051
+ t .L1052
  t .L1053
+ t .L1054
+ t .L1056
  t .L106
  t .L1062
  t .L1063
@@ -5615,11 +5656,12 @@
  t .L1141
  t .L1142
  t .L1143
- t .L1144
  t .L1145
  t .L1146
+ t .L1147
  t .L1148
  t .L115
+ t .L1150
  t .L11501
  t .L11502
  t .L11504
@@ -5880,16 +5922,16 @@
  t .L14379
  t .L14380
  t .L14381
+ t .L1439
  t .L144
  t .L1440
- t .L1441
+ t .L1442
  t .L1443
  t .L14433
  t .L14434
  t .L14439
  t .L1444
  t .L1445
- t .L1446
  t .L1449
  t .L145
  t .L1451
@@ -5931,7 +5973,6 @@
  t .L14759
  t .L14760
  t .L1477
- t .L1478
  t .L1479
  t .L148
  t .L1480
@@ -5953,7 +5994,6 @@
  t .L1492
  t .L1493
  t .L1494
- t .L1498
  t .L14980
  t .L14981
  t .L14983
@@ -5967,6 +6007,7 @@
  t .L14991
  t .L15
  t .L150
+ t .L1503
  t .L151
  t .L152
  t .L153
@@ -6095,43 +6136,42 @@
  t .L1805
  t .L1806
  t .L181
- t .L18153
- t .L18154
- t .L18156
- t .L18157
- t .L18158
- t .L18159
- t .L18160
  t .L182
- t .L18217
- t .L18218
- t .L18220
- t .L18221
- t .L18222
- t .L18223
- t .L18224
- t .L18285
- t .L18286
- t .L18288
- t .L18289
- t .L18290
- t .L18291
- t .L18292
- t .L18293
- t .L18294
  t .L183
- t .L18365
- t .L18366
- t .L18368
- t .L18369
- t .L18370
- t .L18371
- t .L18372
- t .L18373
- t .L18374
  t .L184
+ t .L18424
+ t .L18425
+ t .L18427
+ t .L18428
+ t .L18429
+ t .L18430
+ t .L18431
+ t .L18488
+ t .L18489
+ t .L18491
+ t .L18492
+ t .L18493
+ t .L18494
+ t .L18495
+ t .L18496
  t .L185
+ t .L18560
+ t .L18561
+ t .L18563
+ t .L18564
+ t .L18565
+ t .L18566
+ t .L18567
  t .L186
+ t .L18628
+ t .L18629
+ t .L18631
+ t .L18632
+ t .L18633
+ t .L18634
+ t .L18635
+ t .L18636
+ t .L18637
  t .L1864
  t .L1865
  t .L1866
@@ -6178,21 +6218,7 @@
  t .L200
  t .L201
  t .L202
- t .L20296
- t .L20297
- t .L20299
  t .L203
- t .L20300
- t .L20301
- t .L20302
- t .L20303
- t .L20304
- t .L20305
- t .L20306
- t .L20307
- t .L20308
- t .L20309
- t .L20310
  t .L2037
  t .L2038
  t .L204
@@ -6206,9 +6232,24 @@
  t .L205
  t .L2055
  t .L2056
+ t .L20560
+ t .L20561
+ t .L20563
+ t .L20564
+ t .L20565
+ t .L20566
+ t .L20567
+ t .L20568
+ t .L20569
+ t .L20570
+ t .L20571
+ t .L20572
+ t .L20573
+ t .L20574
  t .L2058
  t .L206
  t .L207
+ t .L208
  t .L209
  t .L21
  t .L210
@@ -6216,13 +6257,6 @@
  t .L212
  t .L213
  t .L214
- t .L21453
- t .L21454
- t .L21456
- t .L21457
- t .L21458
- t .L21459
- t .L21460
  t .L215
  t .L2150
  t .L2152
@@ -6235,6 +6269,13 @@
  t .L217
  t .L218
  t .L219
+ t .L21931
+ t .L21932
+ t .L21934
+ t .L21935
+ t .L21936
+ t .L21937
+ t .L21938
  t .L22
  t .L220
  t .L221
@@ -6300,7 +6341,6 @@
  t .L236
  t .L237
  t .L238
- t .L239
  t .L24
  t .L240
  t .L241
@@ -6337,6 +6377,13 @@
  t .L262
  t .L263
  t .L264
+ t .L26488
+ t .L26489
+ t .L26491
+ t .L26492
+ t .L26493
+ t .L26494
+ t .L26495
  t .L265
  t .L266
  t .L267
@@ -6484,31 +6531,6 @@
  t .L297
  t .L298
  t .L299
- t .L29961
- t .L29962
- t .L29964
- t .L29965
- t .L29966
- t .L29967
- t .L29968
- t .L29969
- t .L29970
- t .L29971
- t .L29972
- t .L29973
- t .L29974
- t .L29975
- t .L29976
- t .L29977
- t .L29979
- t .L29980
- t .L29982
- t .L29983
- t .L29984
- t .L29985
- t .L29986
- t .L29987
- t .L29988
  t .L3
  t .L30
  t .L300
@@ -6516,6 +6538,31 @@
  t .L302
  t .L303
  t .L304
+ t .L30421
+ t .L30422
+ t .L30424
+ t .L30425
+ t .L30426
+ t .L30427
+ t .L30428
+ t .L30429
+ t .L30430
+ t .L30431
+ t .L30432
+ t .L30433
+ t .L30434
+ t .L30435
+ t .L30436
+ t .L30437
+ t .L30439
+ t .L30440
+ t .L30442
+ t .L30443
+ t .L30444
+ t .L30445
+ t .L30446
+ t .L30447
+ t .L30448
  t .L305
  t .L306
  t .L307
@@ -6606,9 +6653,11 @@
  t .L331
  t .L332
  t .L333
- t .L334
- t .L336
+ t .L335
+ t .L3363
+ t .L3393
  t .L34
+ t .L341
  t .L342
  t .L343
  t .L344
@@ -6659,6 +6708,7 @@
  t .L3689
  t .L369
  t .L37
+ t .L371
  t .L372
  t .L373
  t .L374
@@ -6666,7 +6716,6 @@
  t .L376
  t .L3765
  t .L377
- t .L378
  t .L379
  t .L38
  t .L380
@@ -6694,16 +6743,17 @@
  t .L3944
  t .L3945
  t .L3946
- t .L39699
- t .L39700
- t .L39702
- t .L39703
- t .L39704
- t .L39705
- t .L39706
  t .L399
  t .L4
  t .L40
+ t .L401
+ t .L40159
+ t .L40160
+ t .L40162
+ t .L40163
+ t .L40164
+ t .L40165
+ t .L40166
  t .L402
  t .L403
  t .L404
@@ -6727,25 +6777,26 @@
  t .L419
  t .L42
  t .L420
- t .L421
  t .L422
  t .L423
  t .L4230
  t .L424
  t .L4248
+ t .L425
  t .L4250
  t .L4251
  t .L426
- t .L427
  t .L4271
+ t .L428
  t .L429
  t .L43
  t .L430
  t .L431
  t .L432
- t .L433
+ t .L434
  t .L435
  t .L436
+ t .L437
  t .L438
  t .L439
  t .L44
@@ -6773,21 +6824,21 @@
  t .L452
  t .L453
  t .L454
- t .L45414
- t .L45415
- t .L45417
- t .L45418
- t .L45419
- t .L45420
- t .L45421
- t .L45422
- t .L45423
  t .L455
  t .L456
  t .L457
  t .L458
  t .L4585
  t .L459
+ t .L45904
+ t .L45905
+ t .L45907
+ t .L45908
+ t .L45909
+ t .L45910
+ t .L45911
+ t .L45912
+ t .L45913
  t .L4597
  t .L46
  t .L460
@@ -7036,11 +7087,11 @@
  t .L586
  t .L587
  t .L588
- t .L589
  t .L59
+ t .L590
  t .L591
- t .L592
- t .L596
+ t .L595
+ t .L597
  t .L598
  t .L599
  t .L6
@@ -7226,7 +7277,6 @@
  t .L754
  t .L755
  t .L756
- t .L757
  t .L7571
  t .L7572
  t .L7574
@@ -7309,7 +7359,10 @@
  t .L816
  t .L817
  t .L818
+ t .L819
  t .L82
+ t .L820
+ t .L821
  t .L829
  t .L83
  t .L831
@@ -7344,11 +7397,8 @@
  t .L8920
  t .L8921
  t .L8922
- t .L893
  t .L8931
- t .L895
  t .L896
- t .L897
  t .L898
  t .L899
  t .L9
@@ -7368,16 +7418,17 @@
  t .L906
  t .L907
  t .L908
+ t .L909
  t .L91
  t .L910
- t .L9100
- t .L9101
  t .L9103
  t .L9104
- t .L9105
  t .L9106
  t .L9107
  t .L9108
+ t .L9109
+ t .L911
+ t .L9110
  t .L9111
  t .L913
  t .L914
@@ -7393,21 +7444,19 @@
  t .L924
  t .L925
  t .L926
- t .L928
  t .L929
  t .L93
- t .L930
  t .L931
+ t .L932
  t .L933
+ t .L934
+ t .L936
  t .L94
  t .L95
  t .L96
- t .L966
- t .L967
  t .L969
  t .L97
  t .L970
- t .L971
  t .L972
  t .L973
  t .L974
@@ -7424,12 +7473,12 @@
  t .L984
  t .L985
  t .L986
+ t .L987
+ t .L988
  t .L989
  t .L99
- t .L994
- t .L996
+ t .L992
  t .L997
- t .L998
  t .L999
  t ActionDirectionNameToEnum(std::string const&)
  t ActionScopeNameToEnum(std::string const&)
@@ -7531,6 +7580,10 @@
  t BlockQueueInterfaceRegistration<CVRBlockQueue_001>::~BlockQueueInterfaceRegistration()
  t BlockQueueInterfaceRegistration<CVRBlockQueue_002>::GetInterface()
  t BlockQueueInterfaceRegistration<CVRBlockQueue_002>::~BlockQueueInterfaceRegistration()
+ t BlockQueueInterfaceRegistration<CVRBlockQueue_003>::GetInterface()
+ t BlockQueueInterfaceRegistration<CVRBlockQueue_003>::~BlockQueueInterfaceRegistration()
+ t BlockQueueInterfaceRegistration<CVRBlockQueue_004>::GetInterface()
+ t BlockQueueInterfaceRegistration<CVRBlockQueue_004>::~BlockQueueInterfaceRegistration()
  t BuildFadeGridMessage(float, bool)
  t BuildFadeGridMessage(float, bool) [clone .cold]
  t BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
@@ -7720,18 +7773,19 @@
  t CBlockQueue::BHasReader() [clone .cold]
  t CBlockQueue::Connect(std::string const&)
  t CBlockQueue::Connect(std::string const&) [clone .cold]
- t CBlockQueue::Create(std::string const&, unsigned int, unsigned int, unsigned int)
- t CBlockQueue::Create(std::string const&, unsigned int, unsigned int, unsigned int) [clone .cold]
+ t CBlockQueue::Create(std::string const&, unsigned int, unsigned int, unsigned int, unsigned int)
+ t CBlockQueue::Create(std::string const&, unsigned int, unsigned int, unsigned int, unsigned int) [clone .cold]
  t CBlockQueue::GetDataBlock(unsigned int)
+ t CBlockQueue::GetFlags() const
  t CBlockQueue::GetHeaderBlock(unsigned int)
  t CBlockQueue::GetMetaContainerHandle()
- t CBlockQueue::RefreshClientListIfNecessary(CBlockQueue::BlockQueueHeader_t const&)
- t CBlockQueue::RefreshClientListIfNecessary(CBlockQueue::BlockQueueHeader_t const&) [clone .cold]
+ t CBlockQueue::RefreshReaderListIfNecessary(CBlockQueue::BlockQueueHeader_t const&)
+ t CBlockQueue::RefreshReaderListIfNecessary(CBlockQueue::BlockQueueHeader_t const&) [clone .cold]
  t CBlockQueue::ReleaseReadOnlyBlock(unsigned long long)
  t CBlockQueue::ReleaseReadOnlyBlock(unsigned long long) [clone .cold]
  t CBlockQueue::ReleaseWriteOnlyBlock(unsigned long long)
  t CBlockQueue::ReleaseWriteOnlyBlock(unsigned long long) [clone .cold]
- t CBlockQueue::SignalAllClients()
+ t CBlockQueue::SignalAllReaders()
  t CBlockQueue::WaitAndAcquireReadOnlyBlock(unsigned long long*, void const**, vr::EBlockQueueReadType, unsigned int)
  t CBlockQueue::WaitAndAcquireReadOnlyBlock(unsigned long long*, void const**, vr::EBlockQueueReadType, unsigned int) [clone .part.0]
  t CBlockQueue::~CBlockQueue()
@@ -9012,6 +9066,8 @@
  t CSharedImageLinux::GetHeight() const [clone .cold]
  t CSharedImageLinux::GetOGLTexture()
  t CSharedImageLinux::GetType() const
+ t CSharedImageLinux::GetUsage() const
+ t CSharedImageLinux::GetUsage() const [clone .cold]
  t CSharedImageLinux::GetVulkanImage() const
  t CSharedImageLinux::GetVulkanImageMemory() const
  t CSharedImageLinux::GetVulkanLayout() const
@@ -9336,8 +9392,8 @@
  t CVRBlockQueueManager::AcquireWriteOnlyBlock(unsigned long long, unsigned long long*, void**) [clone .cold]
  t CVRBlockQueueManager::Connect(unsigned long long*, char const*)
  t CVRBlockQueueManager::Connect(unsigned long long*, char const*) [clone .cold]
- t CVRBlockQueueManager::Create(unsigned long long*, char const*, unsigned int, unsigned int, unsigned int)
- t CVRBlockQueueManager::Create(unsigned long long*, char const*, unsigned int, unsigned int, unsigned int) [clone .cold]
+ t CVRBlockQueueManager::Create(unsigned long long*, char const*, unsigned int, unsigned int, unsigned int, unsigned int)
+ t CVRBlockQueueManager::Create(unsigned long long*, char const*, unsigned int, unsigned int, unsigned int, unsigned int) [clone .cold]
  t CVRBlockQueueManager::Destroy(unsigned long long)
  t CVRBlockQueueManager::QueueHasReader(unsigned long long, bool*)
  t CVRBlockQueueManager::QueueHasReader(unsigned long long, bool*) [clone .cold]
@@ -9360,6 +9416,23 @@
  t CVRBlockQueue_002::ReleaseReadOnlyBlock(unsigned long long, unsigned long long)
  t CVRBlockQueue_002::ReleaseWriteOnlyBlock(unsigned long long, unsigned long long)
  t CVRBlockQueue_002::WaitAndAcquireReadOnlyBlock(unsigned long long, unsigned long long*, void const**, vr::EBlockQueueReadType, unsigned int)
+ t CVRBlockQueue_003::AcquireReadOnlyBlock(unsigned long long, unsigned long long*, void const**, vr::EBlockQueueReadType)
+ t CVRBlockQueue_003::AcquireWriteOnlyBlock(unsigned long long, unsigned long long*, void**)
+ t CVRBlockQueue_003::Connect(unsigned long long*, char const*)
+ t CVRBlockQueue_003::Create(unsigned long long*, char const*, unsigned int, unsigned int, unsigned int)
+ t CVRBlockQueue_003::QueueHasReader(unsigned long long, bool*)
+ t CVRBlockQueue_003::ReleaseReadOnlyBlock(unsigned long long, unsigned long long)
+ t CVRBlockQueue_003::ReleaseWriteOnlyBlock(unsigned long long, unsigned long long)
+ t CVRBlockQueue_003::WaitAndAcquireReadOnlyBlock(unsigned long long, unsigned long long*, void const**, vr::EBlockQueueReadType, unsigned int)
+ t CVRBlockQueue_004::AcquireReadOnlyBlock(unsigned long long, unsigned long long*, void const**, vr::EBlockQueueReadType)
+ t CVRBlockQueue_004::AcquireWriteOnlyBlock(unsigned long long, unsigned long long*, void**)
+ t CVRBlockQueue_004::Connect(unsigned long long*, char const*)
+ t CVRBlockQueue_004::Create(unsigned long long*, char const*, unsigned int, unsigned int, unsigned int)
+ t CVRBlockQueue_004::Destroy(unsigned long long)
+ t CVRBlockQueue_004::QueueHasReader(unsigned long long, bool*)
+ t CVRBlockQueue_004::ReleaseReadOnlyBlock(unsigned long long, unsigned long long)
+ t CVRBlockQueue_004::ReleaseWriteOnlyBlock(unsigned long long, unsigned long long)
+ t CVRBlockQueue_004::WaitAndAcquireReadOnlyBlock(unsigned long long, unsigned long long*, void const**, vr::EBlockQueueReadType, unsigned int)
  t CVRCameraComponentAdapter* CVRCameraComponentAdapter::Create<CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
  t CVRCameraComponentAdapter* CVRCameraComponentAdapter::Create<vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
  t CVRCameraComponent_001::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
@@ -9708,8 +9781,8 @@
  t CVRCompositorClient::SubmitFrameBeginTiming(unsigned long long, CVRCompositorSharedTextures::CommandBuffer_t const*)
  t CVRCompositorClient::SubmitFrameData(double, bool)
  t CVRCompositorClient::SubmitFrameData(double, bool) [clone .cold]
- t CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
- t CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags) [clone .cold]
+ t CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long long)
+ t CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long long) [clone .cold]
  t CVRCompositorClient::SuspendRendering(bool)
  t CVRCompositorClient::SuspendRendering(bool) [clone .cold]
  t CVRCompositorClient::UnlockGLSharedTextureForAccess(void*)
@@ -9723,6 +9796,7 @@
  t CVRCompositorClientBase::CVRCompositorClientBase()
  t CVRCompositorClientBase::CVRCompositorClientBase() [clone .cold]
  t CVRCompositorClientBase::CanRenderScene()
+ t CVRCompositorClientBase::CanRenderScene() [clone .cold]
  t CVRCompositorClientBase::Cleanup()
  t CVRCompositorClientBase::ClearLastSubmittedFrame()
  t CVRCompositorClientBase::ClearSkyboxOverride()
@@ -9922,7 +9996,7 @@
  t CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Release(CVRCompositorSharedTextures*)
  t CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
  t CVRCompositorSharedTextures::UnlockGLSharedTextureForAccess(void*)
- t CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
+ t CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
  t CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)
  t CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*) [clone .cold]
  t CVRCompositorSharedTextures::UpdateVRRenderer(void*, void*, void*)
@@ -13141,6 +13215,31 @@
  t CVRMsg_CreateSwapTextureSetResponse::descriptor()
  t CVRMsg_CreateSwapTextureSetResponse::descriptor() [clone .cold]
  t CVRMsg_CreateSwapTextureSetResponse::~CVRMsg_CreateSwapTextureSetResponse()
+ t CVRMsg_DashboardStarted::ByteSize() const
+ t CVRMsg_DashboardStarted::CVRMsg_DashboardStarted()
+ t CVRMsg_DashboardStarted::CVRMsg_DashboardStarted() [clone .cold]
+ t CVRMsg_DashboardStarted::CVRMsg_DashboardStarted(CVRMsg_DashboardStarted const&)
+ t CVRMsg_DashboardStarted::CVRMsg_DashboardStarted(CVRMsg_DashboardStarted const&) [clone .cold]
+ t CVRMsg_DashboardStarted::Clear()
+ t CVRMsg_DashboardStarted::CopyFrom(CVRMsg_DashboardStarted const&)
+ t CVRMsg_DashboardStarted::GetCachedSize() const
+ t CVRMsg_DashboardStarted::GetMetadata() const
+ t CVRMsg_DashboardStarted::GetMetadata() const [clone .cold]
+ t CVRMsg_DashboardStarted::InitAsDefaultInstance()
+ t CVRMsg_DashboardStarted::IsInitialized() const
+ t CVRMsg_DashboardStarted::MergeFrom(CVRMsg_DashboardStarted const&)
+ t CVRMsg_DashboardStarted::MergeFrom(CVRMsg_DashboardStarted const&) [clone .cold]
+ t CVRMsg_DashboardStarted::New() const
+ t CVRMsg_DashboardStarted::New() const [clone .cold]
+ t CVRMsg_DashboardStarted::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_DashboardStarted::SetCachedSize(int) const
+ t CVRMsg_DashboardStarted::SharedCtor()
+ t CVRMsg_DashboardStarted::SharedDtor()
+ t CVRMsg_DashboardStarted::Swap(CVRMsg_DashboardStarted*)
+ t CVRMsg_DashboardStarted::default_instance()
+ t CVRMsg_DashboardStarted::descriptor()
+ t CVRMsg_DashboardStarted::descriptor() [clone .cold]
+ t CVRMsg_DashboardStarted::~CVRMsg_DashboardStarted()
  t CVRMsg_DefaultBinding::ByteSize() const
  t CVRMsg_DefaultBinding::CVRMsg_DefaultBinding()
  t CVRMsg_DefaultBinding::CVRMsg_DefaultBinding() [clone .cold]
@@ -15480,6 +15579,56 @@
  t CVRMsg_StartAutolaunchOverlays::descriptor()
  t CVRMsg_StartAutolaunchOverlays::descriptor() [clone .cold]
  t CVRMsg_StartAutolaunchOverlays::~CVRMsg_StartAutolaunchOverlays()
+ t CVRMsg_StartDashboard::ByteSize() const
+ t CVRMsg_StartDashboard::CVRMsg_StartDashboard()
+ t CVRMsg_StartDashboard::CVRMsg_StartDashboard() [clone .cold]
+ t CVRMsg_StartDashboard::CVRMsg_StartDashboard(CVRMsg_StartDashboard const&)
+ t CVRMsg_StartDashboard::CVRMsg_StartDashboard(CVRMsg_StartDashboard const&) [clone .cold]
+ t CVRMsg_StartDashboard::Clear()
+ t CVRMsg_StartDashboard::CopyFrom(CVRMsg_StartDashboard const&)
+ t CVRMsg_StartDashboard::GetCachedSize() const
+ t CVRMsg_StartDashboard::GetMetadata() const
+ t CVRMsg_StartDashboard::GetMetadata() const [clone .cold]
+ t CVRMsg_StartDashboard::InitAsDefaultInstance()
+ t CVRMsg_StartDashboard::IsInitialized() const
+ t CVRMsg_StartDashboard::MergeFrom(CVRMsg_StartDashboard const&)
+ t CVRMsg_StartDashboard::MergeFrom(CVRMsg_StartDashboard const&) [clone .cold]
+ t CVRMsg_StartDashboard::New() const
+ t CVRMsg_StartDashboard::New() const [clone .cold]
+ t CVRMsg_StartDashboard::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_StartDashboard::SetCachedSize(int) const
+ t CVRMsg_StartDashboard::SharedCtor()
+ t CVRMsg_StartDashboard::SharedDtor()
+ t CVRMsg_StartDashboard::Swap(CVRMsg_StartDashboard*)
+ t CVRMsg_StartDashboard::default_instance()
+ t CVRMsg_StartDashboard::descriptor()
+ t CVRMsg_StartDashboard::descriptor() [clone .cold]
+ t CVRMsg_StartDashboard::~CVRMsg_StartDashboard()
+ t CVRMsg_StartDashboardResponse::ByteSize() const
+ t CVRMsg_StartDashboardResponse::CVRMsg_StartDashboardResponse()
+ t CVRMsg_StartDashboardResponse::CVRMsg_StartDashboardResponse() [clone .cold]
+ t CVRMsg_StartDashboardResponse::CVRMsg_StartDashboardResponse(CVRMsg_StartDashboardResponse const&)
+ t CVRMsg_StartDashboardResponse::CVRMsg_StartDashboardResponse(CVRMsg_StartDashboardResponse const&) [clone .cold]
+ t CVRMsg_StartDashboardResponse::Clear()
+ t CVRMsg_StartDashboardResponse::CopyFrom(CVRMsg_StartDashboardResponse const&)
+ t CVRMsg_StartDashboardResponse::GetCachedSize() const
+ t CVRMsg_StartDashboardResponse::GetMetadata() const
+ t CVRMsg_StartDashboardResponse::GetMetadata() const [clone .cold]
+ t CVRMsg_StartDashboardResponse::InitAsDefaultInstance()
+ t CVRMsg_StartDashboardResponse::IsInitialized() const
+ t CVRMsg_StartDashboardResponse::MergeFrom(CVRMsg_StartDashboardResponse const&)
+ t CVRMsg_StartDashboardResponse::MergeFrom(CVRMsg_StartDashboardResponse const&) [clone .cold]
+ t CVRMsg_StartDashboardResponse::New() const
+ t CVRMsg_StartDashboardResponse::New() const [clone .cold]
+ t CVRMsg_StartDashboardResponse::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_StartDashboardResponse::SetCachedSize(int) const
+ t CVRMsg_StartDashboardResponse::SharedCtor()
+ t CVRMsg_StartDashboardResponse::SharedDtor()
+ t CVRMsg_StartDashboardResponse::Swap(CVRMsg_StartDashboardResponse*)
+ t CVRMsg_StartDashboardResponse::default_instance()
+ t CVRMsg_StartDashboardResponse::descriptor()
+ t CVRMsg_StartDashboardResponse::descriptor() [clone .cold]
+ t CVRMsg_StartDashboardResponse::~CVRMsg_StartDashboardResponse()
  t CVRMsg_StartHomeAppResponse::ByteSize() const
  t CVRMsg_StartHomeAppResponse::CVRMsg_StartHomeAppResponse()
  t CVRMsg_StartHomeAppResponse::CVRMsg_StartHomeAppResponse() [clone .cold]
@@ -20017,6 +20166,7 @@
  t ComputeConeLineIntersection(vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, float, float*, float*)
  t ComputeOverlayIntersectionInternal(OverlayTransformDetails_t const&, vr::HmdVector3_t, vr::HmdVector3_t, vr::HmdVector2_t*, vr::HmdVector3_t*, vr::HmdVector3_t*, float*)
  t ComputePaddedSize(unsigned int)
+ t ComputeParallelProjection(vr::HmdMatrix33_t const&, float*, float*, float*, float*)
  t ComputeReadEventName(std::string const&, unsigned int)
  t ComputeReadEventName(std::string const&, unsigned int) [clone .cold]
  t ComputeSubresourceRegion(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
@@ -22981,6 +23131,7 @@
  t InitAssertCallback()
  t InitAssertCallback() [clone .cold]
  t InitDriverLog(vr::IVRDriverLog*)
+ t InitDriverLog(vr::IVRDriverLog*) [clone .cold]
  t InitInternalClientInterfaces(std::function<void* (char const*)>)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
@@ -23032,6 +23183,8 @@
  t InterfaceRegistrationBase::InterfaceRegistrationBase(char const*) [clone .cold]
  t InterfaceStringMatchesPrefixAndVersion(std::string const&, std::string const&, int)
  t InternalBitBufErrorHandler(BitBufErrorType, char const*)
+ t IpAndPortToString(unsigned int, unsigned short)
+ t IpToString(unsigned int)
  t IsAppKeyValid(char const*)
  t IsDashboardVisibleInternal()
  t IsDashboardVisibleInternal() [clone .cold]
@@ -23647,6 +23800,7 @@
  t PathHandleInfo_t& std::vector<PathHandleInfo_t, std::allocator<PathHandleInfo_t> >::emplace_back<PathHandleInfo_t>(PathHandleInfo_t&&)
  t Path_Compact(std::string const&, char)
  t Path_Compact(std::string const&, char) [clone .cold]
+ t Path_DeleteDirectory(std::string const&, bool)
  t Path_Exists(std::string const&)
  t Path_FilePathToUrl(std::string const&, std::string const&)
  t Path_FilePathToUrl(std::string const&, std::string const&) [clone .cold]
@@ -24070,7 +24224,7 @@
  t VR_IVRBlockQueue_FnTable_AcquireReadOnlyBlock(unsigned long long, unsigned long long*, void**, EBlockQueueReadType)
  t VR_IVRBlockQueue_FnTable_AcquireWriteOnlyBlock(unsigned long long, unsigned long long*, void**)
  t VR_IVRBlockQueue_FnTable_Connect(unsigned long long*, char*)
- t VR_IVRBlockQueue_FnTable_Create(unsigned long long*, char*, unsigned int, unsigned int, unsigned int)
+ t VR_IVRBlockQueue_FnTable_Create(unsigned long long*, char*, unsigned int, unsigned int, unsigned int, unsigned int)
  t VR_IVRBlockQueue_FnTable_Destroy(unsigned long long)
  t VR_IVRBlockQueue_FnTable_QueueHasReader(unsigned long long, bool*)
  t VR_IVRBlockQueue_FnTable_ReleaseReadOnlyBlock(unsigned long long, unsigned long long)
@@ -24503,6 +24657,7 @@
  t VcetJobCreate.cold
  t VcetJobDestroy
  t VcetJobWait
+ t VerifyTidIntegrity()
  t VersionIsLess(std::string const&, std::string const&)
  t VersionIsLess(std::string const&, std::string const&) [clone .cold]
  t VkExtensionProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkExtensionProperties*, unsigned int>(VkExtensionProperties*, unsigned int)
@@ -24556,6 +24711,7 @@
  t _GLOBAL__sub_I_descriptor_database.cc
  t _GLOBAL__sub_I_downsample_renderer.cpp
  t _GLOBAL__sub_I_driverdirectinternalclient.cpp
+ t _GLOBAL__sub_I_driverlog.cpp
  t _GLOBAL__sub_I_drivermanager.cpp
  t _GLOBAL__sub_I_dynamic_message.cc
  t _GLOBAL__sub_I_eh_alloc.cc
@@ -25499,7 +25655,6 @@
  t non-virtual thunk to std::basic_iostream<wchar_t, std::char_traits<wchar_t> >::~basic_iostream()
  t non-virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()
  t non-virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_stringstream()
- t non-virtual thunk to vr::CVRApplicationsLatest::GetSceneApplicationPid()
  t non-virtual thunk to vr::CVRApplicationsLatest::IsSceneAppQuitting(unsigned int)
  t non-virtual thunk to vr::CVRApplicationsLatest::SetSceneAppDetails(bool, bool, bool, bool, bool)
  t non-virtual thunk to vr::CVRSettingsLatest::GetKeysInSection(char const*, std::vector<std::string, std::allocator<std::string> >*, vr::EVRSettingsError*)
@@ -25722,6 +25877,7 @@
  t std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}> const&, std::_Manager_operation) [clone .cold]
  t std::_Function_base::_Base_manager<CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<ConvertHiddenAreaMesh(vr::HiddenAreaMesh_t const&, vr::EHiddenAreaMeshType, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType)::{lambda(vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ConvertHiddenAreaMesh(vr::HiddenAreaMesh_t const&, vr::EHiddenAreaMeshType, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType)::{lambda(vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)#1}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -25734,6 +25890,7 @@
  t std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
  t std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&) [clone .cold]
  t std::_Function_handler<void (ELogLevel, char const*, void*), CVRLog::InitLog(char const*, char const*, bool, unsigned int)::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
+ t std::_Function_handler<void (ELogLevel, char const*, void*), InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
  t std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_invoke(std::_Any_data const&, Json::Value const&)
  t std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_invoke(std::_Any_data const&, Json::Value const&) [clone .cold]
  t std::_Function_handler<void (Json::Value const&), std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)> >::_M_invoke(std::_Any_data const&, Json::Value const&)
@@ -26008,11 +26165,11 @@
  t std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_destroy()
  t std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
  t std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_weak_release()
- t std::_Sp_counted_deleter<CBlockQueue*, std::default_delete<CBlockQueue>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
- t std::_Sp_counted_deleter<CBlockQueue*, std::default_delete<CBlockQueue>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
- t std::_Sp_counted_deleter<CBlockQueue*, std::default_delete<CBlockQueue>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
- t std::_Sp_counted_deleter<CBlockQueue*, std::default_delete<CBlockQueue>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_deleter()
  t std::_Sp_counted_ptr<decltype(nullptr), (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+ t std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+ t std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+ t std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+ t std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
  t std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
  t std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
  t std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
@@ -26215,7 +26372,6 @@
  t std::__numpunct_cache<wchar_t>::~__numpunct_cache()
  t std::__pad<char, std::char_traits<char> >::_S_pad(std::ios_base&, char, char*, char const*, int, int)
  t std::__pad<wchar_t, std::char_traits<wchar_t> >::_S_pad(std::ios_base&, wchar_t, wchar_t*, wchar_t const*, int, int)
- t std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<CBlockQueue, std::default_delete<CBlockQueue> >(std::unique_ptr<CBlockQueue, std::default_delete<CBlockQueue> >&&)
  t std::__throw_bad_alloc()
  t std::__throw_bad_cast()
  t std::__throw_bad_exception()
@@ -27205,7 +27361,6 @@
  t std::ctype_byname<wchar_t>::ctype_byname(char const*, unsigned int) [clone .cold]
  t std::ctype_byname<wchar_t>::ctype_byname(std::string const&, unsigned int)
  t std::ctype_byname<wchar_t>::~ctype_byname()
- t std::default_delete<CBlockQueue>::operator()(CBlockQueue*) const [clone .isra.0] [clone .part.0]
  t std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > >::operator()(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*) const [clone .isra.0] [clone .part.0]
  t std::deque<CAnimPose*, std::allocator<CAnimPose*> >::_M_reallocate_map(unsigned int, bool)
  t std::deque<CVRCompositorSharedTextures::CommandBuffer_t*, std::allocator<CVRCompositorSharedTextures::CommandBuffer_t*> >::deque(std::deque<CVRCompositorSharedTextures::CommandBuffer_t*, std::allocator<CVRCompositorSharedTextures::CommandBuffer_t*> > const&)
@@ -27794,7 +27949,7 @@
  t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, CIOBufferCursor*> >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, CIOBufferCursor*>, std::_Select1st<std::pair<unsigned long long const, CIOBufferCursor*> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, CIOBufferCursor*> > >::_M_emplace_unique<std::pair<unsigned long long, CIOBufferCursor*> >(std::pair<unsigned long long, CIOBufferCursor*>&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, MailboxInfo_t> >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, MailboxInfo_t>, std::_Select1st<std::pair<unsigned long long const, MailboxInfo_t> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, MailboxInfo_t> > >::_M_emplace_unique<std::pair<unsigned long long, MailboxInfo_t> >(std::pair<unsigned long long, MailboxInfo_t>&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, int> >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, int>, std::_Select1st<std::pair<unsigned long long const, int> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, int> > >::_M_emplace_unique<std::pair<unsigned long long, int> >(std::pair<unsigned long long, int>&&)
- t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> >, std::_Select1st<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > > >::_M_emplace_unique<std::pair<unsigned long long, std::unique_ptr<CBlockQueue, std::default_delete<CBlockQueue> > > >(std::pair<unsigned long long, std::unique_ptr<CBlockQueue, std::default_delete<CBlockQueue> > >&&)
+ t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> >, std::_Select1st<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > > >::_M_emplace_unique<std::pair<unsigned long long, std::shared_ptr<CBlockQueue> > >(std::pair<unsigned long long, std::shared_ptr<CBlockQueue> >&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, std::string> >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::string>, std::_Select1st<std::pair<unsigned long long const, std::string> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::string> > >::_M_emplace_unique<std::pair<unsigned long long, std::string> >(std::pair<unsigned long long, std::string>&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > >, std::_Select1st<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > > >::_M_emplace_unique<std::pair<unsigned long long, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >(std::pair<unsigned long long, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > >&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > >, bool> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > >, std::_Select1st<std::pair<unsigned long long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > > >::_M_emplace_unique<std::pair<unsigned long long, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > >(std::pair<unsigned long long, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > >&&)
@@ -28087,6 +28242,7 @@
  t std::unique_lock<std::recursive_mutex>::unlock() [clone .isra.0]
  t std::unique_ptr<CAssertCallback, std::default_delete<CAssertCallback> >::~unique_ptr()
  t std::unique_ptr<CLogBuffer, std::default_delete<CLogBuffer> >::~unique_ptr()
+ t std::unique_ptr<CLogCallback, std::default_delete<CLogCallback> >::~unique_ptr()
  t std::unordered_map<char const*, TimingData_t, std::hash<char const*>, std::equal_to<char const*>, std::allocator<std::pair<char const* const, TimingData_t> > >::~unordered_map()
  t std::vector<CActionBinding, std::allocator<CActionBinding> >::operator=(std::vector<CActionBinding, std::allocator<CActionBinding> > const&)
  t std::vector<CActionBinding, std::allocator<CActionBinding> >::push_back(CActionBinding const&)
@@ -28437,6 +28593,7 @@
  t virtual thunk to CSharedImageLinux::GetHeight() const
  t virtual thunk to CSharedImageLinux::GetOGLTexture()
  t virtual thunk to CSharedImageLinux::GetType() const
+ t virtual thunk to CSharedImageLinux::GetUsage() const
  t virtual thunk to CSharedImageLinux::GetVulkanImage() const
  t virtual thunk to CSharedImageLinux::GetVulkanImageMemory() const
  t virtual thunk to CSharedImageLinux::GetVulkanLayout() const
@@ -28801,7 +28958,6 @@
  t vr::CVRApplicationsLatest::GetCurrentSceneProcessId()
  t vr::CVRApplicationsLatest::GetDefaultApplicationForMimeType(char const*, char*, unsigned int)
  t vr::CVRApplicationsLatest::GetDefaultApplicationForMimeType(char const*, char*, unsigned int) [clone .cold]
- t vr::CVRApplicationsLatest::GetSceneApplicationPid()
  t vr::CVRApplicationsLatest::GetSceneApplicationState()
  t vr::CVRApplicationsLatest::GetSceneApplicationState() [clone .cold]
  t vr::CVRApplicationsLatest::GetSceneApplicationStateNameFromEnum(vr::EVRSceneApplicationState)

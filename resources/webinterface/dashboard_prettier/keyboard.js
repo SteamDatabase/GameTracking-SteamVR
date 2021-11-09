@@ -405,7 +405,7 @@
       let n = e.getAttribute(t);
       if (n && n.length > 0) return parseInt(n);
     }
-    function E(e, t) {
+    function T(e, t) {
       let n = e.getAttribute(t);
       if (n && n.length > 0)
         return (
@@ -413,12 +413,12 @@
           (n.length > 0 && 0 != parseInt(n) && !isNaN(parseInt(n)))
         );
     }
-    function T(e, t) {
+    function E(e, t) {
       let n = e.getAttribute(t);
       if (n && n.length > 0) return n;
     }
     function I(e, t) {
-      return W(T(e, t));
+      return W(E(e, t));
     }
     function P(e, t) {
       let n = { type: e, properties: {} };
@@ -440,15 +440,15 @@
                 (i.properties.translation = D(t, "translation")),
                 (i.properties.rotation = D(t, "rotation")),
                 (i.properties.scale = D(t, "scale")),
-                (i.properties["parent-path"] = T(t, "parent-path")),
-                (i.properties["parent-origin"] = T(t, "parent-origin")),
+                (i.properties["parent-path"] = E(t, "parent-path")),
+                (i.properties["parent-origin"] = E(t, "parent-origin")),
                 (i.properties["parent-id"] = I(t, "parent-id"));
               break;
             case "VSG-TRACKING-STATE-VISIBILITY":
               (i = P("trackingstatevisibility", t)),
-                (i.properties["visible-0dof"] = E(t, "visible-0dof")),
-                (i.properties["visible-3dof"] = E(t, "visible-3dof")),
-                (i.properties["visible-6dof"] = E(t, "visible-6dof"));
+                (i.properties["visible-0dof"] = T(t, "visible-0dof")),
+                (i.properties["visible-3dof"] = T(t, "visible-3dof")),
+                (i.properties["visible-6dof"] = T(t, "visible-6dof"));
               break;
             case "VSG-ELASTIC-HEAD-TRANSFORM":
               (i = P("elasticheadtransform", t)),
@@ -475,7 +475,7 @@
                   t,
                   "max-angular-velocity"
                 )),
-                (i.properties["lock-to-horizon"] = E(t, "lock-to-horizon")),
+                (i.properties["lock-to-horizon"] = T(t, "lock-to-horizon")),
                 (i.properties["translation-behavior"] = R(
                   t,
                   "translation-behavior"
@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(ge || (ge = {}));
-    var Ee, Te, Ie, Pe, xe, Ve, Le, Be, Ne, He, Fe, Ae, je, Ue, We, ze, Ge, Ke;
+    var Te, Ee, Ie, Pe, xe, Ve, Le, Be, Ne, He, Fe, Ae, je, Ue, We, ze, Ge, Ke;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1617,11 +1617,11 @@
         (e[(e.Close = 14)] = "Close"),
         (e[(e.TakeFocus = 15)] = "TakeFocus"),
         (e[(e.HitTest = 16)] = "HitTest");
-    })(Ee || (Ee = {})),
+    })(Te || (Te = {})),
       (function (e) {
         (e[(e.Activated = 0)] = "Activated"),
           (e[(e.Deactivated = 1)] = "Deactivated");
-      })(Te || (Te = {})),
+      })(Ee || (Ee = {})),
       (function (e) {
         (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
           (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
@@ -1712,6 +1712,7 @@
           (e[(e.CameraStreamFormat_Int32 = 1041)] = "CameraStreamFormat_Int32"),
           (e[(e.AdditionalDeviceSettingsPath_String = 1042)] =
             "AdditionalDeviceSettingsPath_String"),
+          (e[(e.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
           (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
             "ReportsTimeSinceVSync_Bool"),
           (e[(e.SecondsFromVsyncToPhotons_Float = 2001)] =
@@ -1856,6 +1857,7 @@
           (e[(e.DisplayMaxAnalogGain_Float = 2087)] =
             "DisplayMaxAnalogGain_Float"),
           (e[(e.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
+          (e[(e.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
           (e[(e.IpdUIRangeMinMeters_Float = 2100)] =
             "IpdUIRangeMinMeters_Float"),
           (e[(e.IpdUIRangeMaxMeters_Float = 2101)] =
@@ -1866,8 +1868,6 @@
             "Hmd_SupportsMicMonitoring_Bool"),
           (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-          (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
-            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
           (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -1886,6 +1886,8 @@
             "DriverRequestedMuraFeather_OuterTop_Int32"),
           (e[(e.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
             "DriverRequestedMuraFeather_OuterBottom_Int32"),
+          (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
+            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
           (e[(e.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
           (e[(e.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
           (e[(e.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
@@ -2058,7 +2060,8 @@
       (function (e) {
         (e[(e.Hostname = 0)] = "Hostname"),
           (e[(e.IP = 1)] = "IP"),
-          (e[(e.Version = 2)] = "Version");
+          (e[(e.Version = 2)] = "Version"),
+          (e[(e.NetworkConnections = 3)] = "NetworkConnections");
       })(Ke || (Ke = {}));
     class qe extends w.Component {
       constructor(e) {
@@ -2285,7 +2288,7 @@
         return -1;
       }),
       n.d(t, "m", function () {
-        return Te;
+        return Ee;
       }),
       n.d(t, "D", function () {
         return Ie;
@@ -3647,7 +3650,7 @@
         );
       }
     });
-    var E;
+    var T;
     (R.defaultProps = {
       fallbackImageUrl: "images/appimage_default_portrait.png",
     }),
@@ -3658,12 +3661,12 @@
       (R = D = Object(s.b)([g.a], R)),
       (function (e) {
         (e[(e.Left = 0)] = "Left"), (e[(e.Right = 1)] = "Right");
-      })(E || (E = {}));
-    const T = (e) =>
+      })(T || (T = {}));
+    const E = (e) =>
       d.createElement(
         "div",
         {
-          className: Object(M.a)("ButtonContainer", E[e.side], [
+          className: Object(M.a)("ButtonContainer", T[e.side], [
             "Disabled",
             !1 === e.enabled,
           ]),
@@ -3671,7 +3674,7 @@
         d.createElement(
           u.a,
           { className: "ButtonControl", onClick: e.onClick },
-          e.side == E.Left
+          e.side == T.Left
             ? d.createElement(d.Fragment, null, "‹")
             : d.createElement(d.Fragment, null, "›")
         )
@@ -3778,14 +3781,14 @@
               "div",
               { className: "PaginationButtons" },
               null !== this.state.bScrolledToStart &&
-                d.createElement(T, {
-                  side: E.Left,
+                d.createElement(E, {
+                  side: T.Left,
                   enabled: !this.state.bScrolledToStart,
                   onClick: this.onLeftButtonClick,
                 }),
               null !== this.state.bScrolledToEnd &&
-                d.createElement(T, {
-                  side: E.Right,
+                d.createElement(E, {
+                  side: T.Right,
                   enabled: !this.state.bScrolledToEnd,
                   onClick: this.onRightButtonClick,
                 })
@@ -5147,6 +5150,20 @@
             : e.startsWith("system.window"))
         );
       }
+      getPeerButtonInfo() {
+        var e;
+        const t =
+          null === (e = VRHTML) || void 0 === e
+            ? void 0
+            : e.VRProperties.GetStringProperty(0, a.y.PeerButtonInfo_String);
+        if (t) return JSON.parse(t);
+      }
+      handlePeerButton() {
+        const e = this.getPeerButtonInfo();
+        if (!e) return;
+        let t = { type: e.sMessageType };
+        this.m_mailbox.SendMessage(e.sMailbox, t);
+      }
       renderControlBar(e, t) {
         var n, r, i, o, s, l, c, g;
         const v = this.isDarkMode ? { r: 0.05, g: 0.05, b: 0.05 } : null,
@@ -5166,17 +5183,18 @@
             null != (o = m.d.settings.get("/settings/dashboard/arcadeMode")) &&
             o
           ),
-          w = $.a.Instance.SceneApplicationState,
-          D = $.a.Instance.SceneAppIsHome,
-          M = $.a.Instance.SceneAppKey;
-        let R = "images/appimage_default.png";
-        M && (R = "/app/image?app_key=" + M);
+          w = this.getPeerButtonInfo(),
+          D = $.a.Instance.SceneApplicationState,
+          M = $.a.Instance.SceneAppIsHome,
+          R = $.a.Instance.SceneAppKey;
+        let T = "images/appimage_default.png";
+        R && (T = "/app/image?app_key=" + R);
         const E = null != (s = m.d.settings.get(h.d)) && s,
-          T = null != (l = m.d.settings.get(h.e)) ? l : 0,
-          I = E && T > 0;
-        let P = { y: -0.25, z: 0 };
+          I = null != (l = m.d.settings.get(h.e)) ? l : 0,
+          P = E && I > 0;
+        let x = { y: -0.25, z: 0 };
         return (
-          this.isOverlayActive(h.k) && (P = { y: -0.4, z: 0 }),
+          this.isOverlayActive(h.k) && (x = { y: -0.4, z: 0 }),
           d.createElement(
             a.jb,
             { color: v },
@@ -5262,7 +5280,7 @@
                       style: b.d.Large,
                       onClick: this.onQuickLaunchButtonClick,
                     }),
-                    w != a.v.None &&
+                    D != a.v.None &&
                       d.createElement(
                         "div",
                         { className: "NowPlayingSpacer" },
@@ -5287,12 +5305,12 @@
                                   "div",
                                   { className: "ControlBar" },
                                   d.createElement(b.k, {
-                                    label: D
+                                    label: M
                                       ? Object(p.c)("#SteamVR_Home")
                                       : Object(p.c)("#Now_Playing"),
                                     active: this.isOverlayActive(h.o),
                                     style: b.d.App,
-                                    imageUrl: R,
+                                    imageUrl: T,
                                     onClick: () => this.switchToOverlay(h.o),
                                   })
                                 )
@@ -5322,7 +5340,7 @@
                       b.e,
                       { style: b.d.Small },
                       d.createElement(b.j, null),
-                      I &&
+                      P &&
                         d.createElement(b.b, {
                           imageUrl: "/dashboard/images/icons/svr_eye.svg",
                           label: Object(p.c)("#Toggle_Room_View"),
@@ -5354,6 +5372,16 @@
                         style: b.d.Small,
                         centerPanelAnchorID: "VolumeButton",
                         onClick: () => this.switchToOverlay(h.C),
+                      }),
+                    w &&
+                      d.createElement(b.k, {
+                        imageUrl: w.sIcon,
+                        active: !1,
+                        enabled: !0,
+                        label: Object(p.c)(w.sButtonName),
+                        style: b.d.Small,
+                        centerPanelAnchorID: "VolumeButton",
+                        onClick: () => this.handlePeerButton(),
                       })
                   )
                 ),
@@ -5390,7 +5418,7 @@
             ),
             d.createElement(
               a.lb,
-              { translation: P, scale: { y: 1.5, x: 1.5 } },
+              { translation: x, scale: { y: 1.5, x: 1.5 } },
               d.createElement(a.S, {
                 mountedId: Object(a.f)(h.E, "system.keyboard"),
               })
@@ -5771,6 +5799,7 @@
       ),
       Object(s.b)([l.bind], de.prototype, "isDesktopTrayActive", null),
       Object(s.b)([l.bind], de.prototype, "isDesktopOverlayActive", null),
+      Object(s.b)([l.bind], de.prototype, "handlePeerButton", null),
       Object(s.b)([v.m], de, "s_dashboardUserDistance", void 0),
       Object(s.b)([v.m], de, "s_dashboardUserScale", void 0),
       (de = te = Object(s.b)([g.a], de));
@@ -6723,10 +6752,10 @@
         return R;
       }),
       n.d(t, "h", function () {
-        return E;
+        return T;
       }),
       n.d(t, "a", function () {
-        return T;
+        return E;
       }),
       n.d(t, "g", function () {
         return I;
@@ -6796,7 +6825,7 @@
       D = n.n(w);
     const M = "DashboardPanelTopCenter",
       R = "DashboardControlStrip",
-      E = (e) => {
+      T = (e) => {
         var t, n;
         const r = s.useRef(null),
           i = s.useRef(null);
@@ -6879,7 +6908,7 @@
           )
         );
       };
-    function T() {
+    function E() {
       return s.createElement(
         "div",
         { className: "ActivitySpinner" },
@@ -8821,4 +8850,4 @@
         });
   },
 });
-//# sourceMappingURL=keyboard.js.map?v=700012b4630e0ff502db
+//# sourceMappingURL=keyboard.js.map?v=57fd8a963782177c7943

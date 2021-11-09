@@ -413,12 +413,12 @@
           (n.length > 0 && 0 != parseInt(n) && !isNaN(parseInt(n)))
         );
     }
-    function T(e, t) {
+    function I(e, t) {
       let n = e.getAttribute(t);
       if (n && n.length > 0) return n;
     }
-    function I(e, t) {
-      return W(T(e, t));
+    function T(e, t) {
+      return W(I(e, t));
     }
     function P(e, t) {
       let n = { type: e, properties: {} };
@@ -440,9 +440,9 @@
                 (i.properties.translation = w(t, "translation")),
                 (i.properties.rotation = w(t, "rotation")),
                 (i.properties.scale = w(t, "scale")),
-                (i.properties["parent-path"] = T(t, "parent-path")),
-                (i.properties["parent-origin"] = T(t, "parent-origin")),
-                (i.properties["parent-id"] = I(t, "parent-id"));
+                (i.properties["parent-path"] = I(t, "parent-path")),
+                (i.properties["parent-origin"] = I(t, "parent-origin")),
+                (i.properties["parent-id"] = T(t, "parent-id"));
               break;
             case "VSG-TRACKING-STATE-VISIBILITY":
               (i = P("trackingstatevisibility", t)),
@@ -483,15 +483,15 @@
               break;
             case "VSG-LINE":
               (i = P("line", t)),
-                (i.properties["target-id"] = I(t, "target-id")),
+                (i.properties["target-id"] = T(t, "target-id")),
                 (i.properties.thickness = M(t, "thickness")),
                 (i.properties["start-buffer"] = M(t, "start-buffer")),
                 (i.properties["end-buffer"] = M(t, "end-buffer"));
               break;
             case "VSG-LINE-CONSTRAINED-TRANSFORM":
               (i = P("line-constrained-transform", t)),
-                (i.properties["target-id"] = I(t, "target-id")),
-                (i.properties["source-id"] = I(t, "source-id")),
+                (i.properties["target-id"] = T(t, "target-id")),
+                (i.properties["source-id"] = T(t, "source-id")),
                 (i.properties["source-distance"] = M(t, "source-distance")),
                 (i.properties["target-limit"] = M(t, "target-limit"));
               break;
@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(ge || (ge = {}));
-    var Ee, Te, Ie, Pe, xe, Ve, Le, Ne, Be, Ae, He, Fe, je, Ue, We, ze, Ge, Ke;
+    var Ee, Ie, Te, Pe, xe, Ve, Le, Ne, Be, Ae, He, Fe, je, Ue, We, ze, Ge, Ke;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1621,7 +1621,7 @@
       (function (e) {
         (e[(e.Activated = 0)] = "Activated"),
           (e[(e.Deactivated = 1)] = "Deactivated");
-      })(Te || (Te = {})),
+      })(Ie || (Ie = {})),
       (function (e) {
         (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
           (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
@@ -1646,7 +1646,7 @@
           (e[(e.ProtectedContent = 262144)] = "ProtectedContent"),
           (e[(e.HideLaserIntersection = 524288)] = "HideLaserIntersection"),
           (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior");
-      })(Ie || (Ie = {})),
+      })(Te || (Te = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
       })(Pe || (Pe = {})),
@@ -1712,6 +1712,7 @@
           (e[(e.CameraStreamFormat_Int32 = 1041)] = "CameraStreamFormat_Int32"),
           (e[(e.AdditionalDeviceSettingsPath_String = 1042)] =
             "AdditionalDeviceSettingsPath_String"),
+          (e[(e.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
           (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
             "ReportsTimeSinceVSync_Bool"),
           (e[(e.SecondsFromVsyncToPhotons_Float = 2001)] =
@@ -1856,6 +1857,7 @@
           (e[(e.DisplayMaxAnalogGain_Float = 2087)] =
             "DisplayMaxAnalogGain_Float"),
           (e[(e.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
+          (e[(e.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
           (e[(e.IpdUIRangeMinMeters_Float = 2100)] =
             "IpdUIRangeMinMeters_Float"),
           (e[(e.IpdUIRangeMaxMeters_Float = 2101)] =
@@ -1866,8 +1868,6 @@
             "Hmd_SupportsMicMonitoring_Bool"),
           (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-          (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
-            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
           (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -1886,6 +1886,8 @@
             "DriverRequestedMuraFeather_OuterTop_Int32"),
           (e[(e.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
             "DriverRequestedMuraFeather_OuterBottom_Int32"),
+          (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
+            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
           (e[(e.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
           (e[(e.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
           (e[(e.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
@@ -2058,7 +2060,8 @@
       (function (e) {
         (e[(e.Hostname = 0)] = "Hostname"),
           (e[(e.IP = 1)] = "IP"),
-          (e[(e.Version = 2)] = "Version");
+          (e[(e.Version = 2)] = "Version"),
+          (e[(e.NetworkConnections = 3)] = "NetworkConnections");
       })(Ke || (Ke = {}));
     class qe extends D.Component {
       constructor(e) {
@@ -2285,10 +2288,10 @@
         return -1;
       }),
       n.d(t, "m", function () {
-        return Te;
+        return Ie;
       }),
       n.d(t, "D", function () {
-        return Ie;
+        return Te;
       }),
       n.d(t, "E", function () {
         return Pe;
@@ -3744,7 +3747,7 @@
       (function (e) {
         (e[(e.Left = 0)] = "Left"), (e[(e.Right = 1)] = "Right");
       })(E || (E = {}));
-    const T = (e) =>
+    const I = (e) =>
       d.createElement(
         "div",
         {
@@ -3761,7 +3764,7 @@
             : d.createElement(d.Fragment, null, "›")
         )
       );
-    class I extends d.Component {
+    class T extends d.Component {
       constructor(e) {
         super(e),
           (this.m_refScrollPanel = d.createRef()),
@@ -3863,13 +3866,13 @@
               "div",
               { className: "PaginationButtons" },
               null !== this.state.bScrolledToStart &&
-                d.createElement(T, {
+                d.createElement(I, {
                   side: E.Left,
                   enabled: !this.state.bScrolledToStart,
                   onClick: this.onLeftButtonClick,
                 }),
               null !== this.state.bScrolledToEnd &&
-                d.createElement(T, {
+                d.createElement(I, {
                   side: E.Right,
                   enabled: !this.state.bScrolledToEnd,
                   onClick: this.onRightButtonClick,
@@ -3878,10 +3881,10 @@
         );
       }
     }
-    Object(s.b)([c.a], I.prototype, "onAnimationFrame", null),
-      Object(s.b)([c.a], I.prototype, "onScroll", null),
-      Object(s.b)([c.a], I.prototype, "onLeftButtonClick", null),
-      Object(s.b)([c.a], I.prototype, "onRightButtonClick", null);
+    Object(s.b)([c.a], T.prototype, "onAnimationFrame", null),
+      Object(s.b)([c.a], T.prototype, "onScroll", null),
+      Object(s.b)([c.a], T.prototype, "onLeftButtonClick", null),
+      Object(s.b)([c.a], T.prototype, "onRightButtonClick", null);
     let P = class extends d.Component {
       constructor(e) {
         super(e),
@@ -3969,7 +3972,7 @@
           e.className && (i += " " + e.className),
           (i += " NoAnimations"),
           d.createElement(
-            I,
+            T,
             { additionalClassNames: i, paginationAlignmentOffset: -20 },
             n &&
               d.createElement(
@@ -5232,6 +5235,20 @@
             : e.startsWith("system.window"))
         );
       }
+      getPeerButtonInfo() {
+        var e;
+        const t =
+          null === (e = VRHTML) || void 0 === e
+            ? void 0
+            : e.VRProperties.GetStringProperty(0, a.y.PeerButtonInfo_String);
+        if (t) return JSON.parse(t);
+      }
+      handlePeerButton() {
+        const e = this.getPeerButtonInfo();
+        if (!e) return;
+        let t = { type: e.sMessageType };
+        this.m_mailbox.SendMessage(e.sMailbox, t);
+      }
       renderControlBar(e, t) {
         var n, r, i, o, s, l, c, g;
         const b = this.isDarkMode ? { r: 0.05, g: 0.05, b: 0.05 } : null,
@@ -5251,17 +5268,18 @@
             null != (o = m.d.settings.get("/settings/dashboard/arcadeMode")) &&
             o
           ),
-          D = $.a.Instance.SceneApplicationState,
-          w = $.a.Instance.SceneAppIsHome,
-          M = $.a.Instance.SceneAppKey;
-        let R = "images/appimage_default.png";
-        M && (R = "/app/image?app_key=" + M);
-        const E = null != (s = m.d.settings.get(h.d)) && s,
+          D = this.getPeerButtonInfo(),
+          w = $.a.Instance.SceneApplicationState,
+          M = $.a.Instance.SceneAppIsHome,
+          R = $.a.Instance.SceneAppKey;
+        let E = "images/appimage_default.png";
+        R && (E = "/app/image?app_key=" + R);
+        const I = null != (s = m.d.settings.get(h.d)) && s,
           T = null != (l = m.d.settings.get(h.e)) ? l : 0,
-          I = E && T > 0;
-        let P = { y: -0.25, z: 0 };
+          P = I && T > 0;
+        let x = { y: -0.25, z: 0 };
         return (
-          this.isOverlayActive(h.k) && (P = { y: -0.4, z: 0 }),
+          this.isOverlayActive(h.k) && (x = { y: -0.4, z: 0 }),
           d.createElement(
             a.jb,
             { color: b },
@@ -5347,7 +5365,7 @@
                       style: v.d.Large,
                       onClick: this.onQuickLaunchButtonClick,
                     }),
-                    D != a.v.None &&
+                    w != a.v.None &&
                       d.createElement(
                         "div",
                         { className: "NowPlayingSpacer" },
@@ -5372,12 +5390,12 @@
                                   "div",
                                   { className: "ControlBar" },
                                   d.createElement(v.k, {
-                                    label: w
+                                    label: M
                                       ? Object(p.c)("#SteamVR_Home")
                                       : Object(p.c)("#Now_Playing"),
                                     active: this.isOverlayActive(h.o),
                                     style: v.d.App,
-                                    imageUrl: R,
+                                    imageUrl: E,
                                     onClick: () => this.switchToOverlay(h.o),
                                   })
                                 )
@@ -5407,7 +5425,7 @@
                       v.e,
                       { style: v.d.Small },
                       d.createElement(v.j, null),
-                      I &&
+                      P &&
                         d.createElement(v.b, {
                           imageUrl: "/dashboard/images/icons/svr_eye.svg",
                           label: Object(p.c)("#Toggle_Room_View"),
@@ -5439,6 +5457,16 @@
                         style: v.d.Small,
                         centerPanelAnchorID: "VolumeButton",
                         onClick: () => this.switchToOverlay(h.C),
+                      }),
+                    D &&
+                      d.createElement(v.k, {
+                        imageUrl: D.sIcon,
+                        active: !1,
+                        enabled: !0,
+                        label: Object(p.c)(D.sButtonName),
+                        style: v.d.Small,
+                        centerPanelAnchorID: "VolumeButton",
+                        onClick: () => this.handlePeerButton(),
                       })
                   )
                 ),
@@ -5475,7 +5503,7 @@
             ),
             d.createElement(
               a.lb,
-              { translation: P, scale: { y: 1.5, x: 1.5 } },
+              { translation: x, scale: { y: 1.5, x: 1.5 } },
               d.createElement(a.S, {
                 mountedId: Object(a.f)(h.E, "system.keyboard"),
               })
@@ -5856,6 +5884,7 @@
       ),
       Object(s.b)([l.bind], de.prototype, "isDesktopTrayActive", null),
       Object(s.b)([l.bind], de.prototype, "isDesktopOverlayActive", null),
+      Object(s.b)([l.bind], de.prototype, "handlePeerButton", null),
       Object(s.b)([b.m], de, "s_dashboardUserDistance", void 0),
       Object(s.b)([b.m], de, "s_dashboardUserScale", void 0),
       (de = te = Object(s.b)([g.a], de));
@@ -6811,10 +6840,10 @@
         return E;
       }),
       n.d(t, "a", function () {
-        return T;
+        return I;
       }),
       n.d(t, "g", function () {
-        return I;
+        return T;
       }),
       n.d(t, "i", function () {
         return P;
@@ -6964,7 +6993,7 @@
           )
         );
       };
-    function T() {
+    function I() {
       return s.createElement(
         "div",
         { className: "ActivitySpinner" },
@@ -6973,7 +7002,7 @@
         s.createElement("div", { className: "Bar" })
       );
     }
-    class I extends s.Component {
+    class T extends s.Component {
       constructor(e) {
         super(e), (this.state = { time: new Date() });
       }
@@ -7023,7 +7052,7 @@
         e.lineBelow && s.createElement("div", { className: "LineBelow" })
       );
     }
-    Object(o.b)([a.bind], I.prototype, "updateTime", null);
+    Object(o.b)([a.bind], T.prototype, "updateTime", null);
     let x = (r = class extends s.Component {
       get isShowingTooltip() {
         return r.s_CurrentlyShownTooltip === this;
@@ -8258,4 +8287,4 @@
       Object(i.b)([s.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=notificationtoast.js.map?v=76b0525f1449c06d34f4
+//# sourceMappingURL=notificationtoast.js.map?v=96630ab6fb1016802203

@@ -6,6 +6,8 @@
 %H:%M
 %H:%M:%S
 %d
+%d.%d.%d.%d
+%d.%d.%d.%d:%u
 %llu
 %m/%d/%y
 %s
@@ -91,6 +93,7 @@
 *=
 *N12_GLOBAL__N_121system_error_categoryE
 *N12_GLOBAL__N_122generic_error_categoryE
+*Z13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
 +
 ++
 +=
@@ -258,6 +261,9 @@ IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
 InitDriverLog(vr::IVRDriverLog*)
+InitDriverLog(vr::IVRDriverLog*) [clone .cold]
+IpAndPortToString(unsigned int, unsigned short)
+IpToString(unsigned int)
 IsDriverLogActive()
 J
 JArray
@@ -589,6 +595,7 @@ _Fract
 _GLOBAL_
 _GLOBAL_OFFSET_TABLE_
 _GLOBAL__sub_I_driver_null.cpp
+_GLOBAL__sub_I_driverlog.cpp
 _GLOBAL__sub_I_eh_alloc.cc
 _GLOBAL__sub_I_locale_inst.cc
 _GLOBAL__sub_I_strtools_public.cpp
@@ -1337,6 +1344,7 @@ rs
 s
 sP
 sZ
+s_pLogCallback
 s_pLogFile
 sc
 search_object
@@ -1369,8 +1377,10 @@ std::Catalogs::_M_erase(int) [clone .cold]
 std::Catalogs::_M_get(int) const
 std::Catalogs::_M_get(int) const [clone .cold]
 std::Catalogs::~Catalogs()
+std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<void (ELogLevel, char const*, void*), InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
 std::_Setfill<char> std::setfill<char>(char)
 std::_Setfill<wchar_t> std::setfill<wchar_t>(wchar_t)
 std::_V2::error_category::_M_message(int) const
@@ -3410,6 +3420,7 @@ std::underflow_error::underflow_error(char const*)
 std::underflow_error::underflow_error(std::string const&)
 std::underflow_error::~underflow_error()
 std::unexpected()
+std::unique_ptr<CLogCallback, std::default_delete<CLogCallback> >::~unique_ptr()
 std::vector<char, std::allocator<char> >::_M_default_append(unsigned long)
 std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*> >::_M_realloc_insert(__gnu_cxx::__normal_iterator<std::Catalog_info**, std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*> > >, std::Catalog_info* const&)
 std::wcerr
@@ -3495,6 +3506,7 @@ typeinfo for (anonymous namespace)::generic_error_category
 typeinfo for (anonymous namespace)::system_error_category
 typeinfo for CNullHmdLatest
 typeinfo for CServerDriver_Null
+typeinfo for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
 typeinfo for __cxxabiv1::__class_type_info
 typeinfo for __cxxabiv1::__forced_unwind
 typeinfo for __cxxabiv1::__foreign_exception
@@ -3726,6 +3738,7 @@ typeinfo name for (anonymous namespace)::generic_error_category
 typeinfo name for (anonymous namespace)::system_error_category
 typeinfo name for CNullHmdLatest
 typeinfo name for CServerDriver_Null
+typeinfo name for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
 typeinfo name for __cxxabiv1::__class_type_info
 typeinfo name for __cxxabiv1::__forced_unwind
 typeinfo name for __cxxabiv1::__foreign_exception

@@ -257,7 +257,7 @@
 "VRInitError_Driver_HmdDisplayNotFound_Action" "Περισσότερες πληροφορίες"
 "VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/el/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Φορητός υπολογιστής: Αποσύνδεση οθόνης headset"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Φορητός υπολογιστής: Αποσυνδεδεμένη οθόνη headset"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Βεβαιωθείτε ότι τα καλώδια βίντεο είναι συνδεδεμένα με ασφάλεια στον φορητό υπολογιστή σας. Οι φορητοί υπολογιστές μπορεί να απαιτούν ειδική ρύθμιση για να λειτουργήσουν με VR."
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Επαναφορά headset"
 "VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 

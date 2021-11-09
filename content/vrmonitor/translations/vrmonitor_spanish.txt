@@ -145,7 +145,7 @@
 
 "MenuAction_StatusBar" "Estado"
 "MenuAction_RoomOverview" "Vista general de la habitación"
-"MenuAction_Settings" "Preferencias"
+"MenuAction_Settings" "Ajustes"
 "MenuAction_LegacySettings" "Ajustes de desarrollador"
 "MenuAction_BluetoothSettings" "Ajustes de Bluetooth"
 "MenuAction_BaseStationSettings" "Ajustes de la estación base"

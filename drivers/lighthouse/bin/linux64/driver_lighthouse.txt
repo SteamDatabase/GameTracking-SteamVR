@@ -333,6 +333,7 @@
  accept
  acos
  acosf
+ alphasort
  asin
  asinf
  atan
@@ -462,7 +463,6 @@
  b Reflection::Object::MyTypeID()::sID
  b Reflection::Object::m_typeInfoObject
  b SteamVRVersionAsString()::s_sCachedVersion
- b ThreadGetCurrentId::s_selftid
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
  b ThreadShellExecute::bInstalledSignalHandler
@@ -662,6 +662,7 @@
  b s_hModule
  b s_nInstanceCount
  b s_pInstance
+ b s_pLogCallback
  b s_pLogFile
  b s_pRealCreateInstance
  b s_pRealDestroyInstance
@@ -669,6 +670,7 @@
  b s_rchProcessIdentifier
  b s_thread_pRobustListStruct
  b seen_objects
+ b selectBuf
  b sg_vecOptionalDeviceExtensions
  b sg_vecOptionalInstanceExtensions
  b sg_vecRequiredDeviceExtensions
@@ -1458,6 +1460,7 @@
  d typeinfo for IVRAudioDevices
  d typeinfo for IVRAudioNotification
  d typeinfo for InitCameraHAL::{lambda(char const*)#1}
+ d typeinfo for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
  d typeinfo for InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}
  d typeinfo for Json::BuiltStyledStreamWriter
  d typeinfo for Json::CharReader
@@ -2158,7 +2161,7 @@
  r CSWTCH.138
  r CSWTCH.158
  r CSWTCH.1923
- r CSWTCH.206
+ r CSWTCH.209
  r CSWTCH.221
  r CSWTCH.878
  r CVkDevice::CreateDevice(CreateDeviceDetails_t const&)::queuePriorities
@@ -2450,6 +2453,7 @@
  r typeinfo name for IVRAudioDevices
  r typeinfo name for IVRAudioNotification
  r typeinfo name for InitCameraHAL::{lambda(char const*)#1}
+ r typeinfo name for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
  r typeinfo name for InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}
  r typeinfo name for Json::BuiltStyledStreamWriter
  r typeinfo name for Json::CharReader
@@ -2786,6 +2790,7 @@
  recvmsg
  rename
  rewind
+ scandir
  sched_get_priority_max
  sched_get_priority_min
  sched_getparam
@@ -2829,6 +2834,7 @@
  strncmp
  strncpy
  strpbrk
+ strrchr
  strstr
  strtod
  strtof
@@ -3311,6 +3317,22 @@
  t CDampedFloat::Update(float, float, float)
  t CDampedVector::Reset(VectorAligned const&)
  t CDampedVector::Update(VectorAligned const&, float, float)
+ t CDirIterator::BCurrentIsDir() const
+ t CDirIterator::BCurrentIsHidden() const
+ t CDirIterator::BCurrentIsMarkedForArchive() const
+ t CDirIterator::BCurrentIsReadOnly() const
+ t CDirIterator::BCurrentIsSystem() const
+ t CDirIterator::BNextFile()
+ t CDirIterator::BValidFilename()
+ t CDirIterator::CDirIterator(char const*, char const*)
+ t CDirIterator::CDirIterator(char const*, char const*) [clone .cold]
+ t CDirIterator::CurrentFileCreateTime() const
+ t CDirIterator::CurrentFileLength() const
+ t CDirIterator::CurrentFileName()
+ t CDirIterator::CurrentFileWriteTime() const
+ t CDirIterator::Init(std::string const&)
+ t CDirIterator::IsValid() const
+ t CDirIterator::~CDirIterator()
  t CDriverLog::Log(char const*)
  t CEtronCamera::AreCameraCompatibilityModesSupported()
  t CEtronCamera::CEtronCamera()
@@ -3528,10 +3550,10 @@
  t CLighthouseHmdDriver::HandleDebug_GetEyeToHead() [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)
  t CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*) [clone .cold]
- t CLighthouseHmdDriver::HandleDebug_SetEyeToHead(char const*)
- t CLighthouseHmdDriver::HandleDebug_SetEyeToHead(char const*) [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*)
  t CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*) [clone .cold]
+ t CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*)
+ t CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*) [clone .cold]
  t CLighthouseHmdDriver::HasTrackedCamera()
  t CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)
  t CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&) [clone .cold]
@@ -4030,8 +4052,8 @@
  t CVkAllocator::AllocateMemoryFromType(CVkAllocator::MemoryTypeInfo_t const&, VkMemoryRequirements2 const&, VkImage_T*, VkBuffer_T*, char const*, VkAllocationDetails_t const&, CVkMemory&)
  t CVkAllocator::AllocateMemoryFromType(CVkAllocator::MemoryTypeInfo_t const&, VkMemoryRequirements2 const&, VkImage_T*, VkBuffer_T*, char const*, VkAllocationDetails_t const&, CVkMemory&) [clone .cold]
  t CVkAllocator::CVkAllocator(CVkDevice*, char const*)
- t CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&)
- t CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&) [clone .cold]
+ t CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&, VkBuffer_T*)
+ t CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&, VkBuffer_T*) [clone .cold]
  t CVkAllocator::CreateImage(unsigned int, unsigned int, VkFormat, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*)
  t CVkAllocator::CreateImage(unsigned int, unsigned int, VkFormat, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*) [clone .cold]
  t CVkAllocator::EnumerateMemoryTypes()
@@ -4041,8 +4063,9 @@
  t CVkAllocator::ImportBuffer(VkBufferSharedData_t const&, char const*)
  t CVkAllocator::ImportImage(VkImageSharedData_t const&, char const*)
  t CVkAllocator::Initialize()
- t CVkBuffer::CmdCopyBuffer(CVkCommandBuffer*, CVkBuffer*)
+ t CVkBuffer::CmdCopyBuffer(CVkCommandBuffer*, CVkBuffer*, unsigned long)
  t CVkBuffer::CmdCopyImageToBuffer(CVkCommandBuffer*, CVkImage*, unsigned int, VkImageLayout)
+ t CVkBuffer::CmdPipelineBarrier(CVkCommandBuffer*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, unsigned long)
  t CVkBuffer::PrepareForExport(VkBufferSharedData_t&, unsigned int)
  t CVkBuffer::Release()
  t CVkBuffer::~CVkBuffer()
@@ -4099,7 +4122,6 @@
  t CVkDevice::FillPhysicalDeviceInfo(VkPhysicalDevice_T*, PhysicalDeviceInfo_t*)
  t CVkDevice::GetQueueType(unsigned int)
  t CVkDevice::Initialize(void (*(*)(VkInstance_T*, char const*))())
- t CVkDevice::Initialize(void (*(*)(VkInstance_T*, char const*))()) [clone .cold]
  t CVkDevice::IsCompatibleVulkanVersion(unsigned int)
  t CVkDevice::IsCompatibleVulkanVersion(unsigned int) [clone .part.0]
  t CVkDevice::IsDeviceExtensionAvailable(char const*)
@@ -4111,9 +4133,14 @@
  t CVkDevice::IsInstanceExtensionEnabled(char const*)
  t CVkDevice::IsInstanceExtensionEnabled(char const*) [clone .cold]
  t CVkDevice::IsLayerAvailable(char const*)
- t CVkDevice::IsLayerAvailableLocked(char const*)
+ t CVkDevice::IsLayerAvailableLocked(char const*) const
  t CVkDevice::IsLayerEnabled(char const*)
  t CVkDevice::IsLayerEnabled(char const*) [clone .cold]
+ t CVkDevice::IsLayerEnabledLocked(char const*) const
+ t CVkDevice::LoadAvailableLayers()
+ t CVkDevice::LoadAvailableLayers() [clone .cold]
+ t CVkDevice::LoadInstanceExtensions(char const*)
+ t CVkDevice::LoadInstanceExtensions(char const*) [clone .cold]
  t CVkDevice::SetDebugName(VkBuffer_T*, std::string const&)
  t CVkDevice::SetDebugName(VkCommandBuffer_T*, std::string const&)
  t CVkDevice::SetDebugName(VkCommandPool_T*, std::string const&)
@@ -4121,10 +4148,14 @@
  t CVkDevice::SetDebugName(VkDevice_T*, std::string const&)
  t CVkDevice::SetDebugName(VkImageView_T*, std::string const&)
  t CVkDevice::SetDebugName(VkImage_T*, std::string const&)
+ t CVkDevice::SetDebugName(VkQueryPool_T*, std::string const&)
  t CVkDevice::SetDebugName(VkSemaphore_T*, std::string const&)
  t CVkDevice::SetDebugName(VkShaderModule_T*, std::string const&)
  t CVkDevice::SetDebugName(unsigned long, VkObjectType, std::string const&)
  t CVkDevice::Shutdown()
+ t CVkDevice::UseDevice(VkDevice_T*)
+ t CVkDevice::UseInstance(VkInstance_T*)
+ t CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*)
  t CVkDevice::~CVkDevice()
  t CVkGarbageCollector::Acquire(CVkResourceBase*)
  t CVkGarbageCollector::Acquire(CVkResourceBase*) [clone .cold]
@@ -4257,8 +4288,11 @@
  t DeclareCurrentThreadIsMainThread
  t DeleteUserDataImageBuilder(UserDataImageBuilder*)
  t DestroyInstanceAndUnload
+ t Display_Camera_Calibration::BAppearsToBeCalibrated() const
  t Display_Camera_Calibration::BDistortionsEqual(Display_Camera_Calibration const&)
  t Display_Camera_Calibration::BEyeToHeadEqual(Display_Camera_Calibration const&)
+ t Display_Camera_Calibration::BHasFlippedIntrinsics() const
+ t Display_Camera_Calibration::GetEyeToHead() const
  t Display_Camera_Calibration::ReorientIntrinsics(bool)
  t Display_Camera_Calibration::clear()
  t Display_Camera_Calibration::from_json(Json::Value const&)
@@ -4362,6 +4396,8 @@
  t EventWriteStringEnd(char const*, unsigned long)
  t EventWriteStringF(char const*, ...)
  t EyeFromName(char const*)
+ t FileSelect(dirent const*)
+ t FillDataStruct(_finddata_t*)
  t FillPipeAddr(sockaddr_un&, std::string)
  t FillPipeAddr(sockaddr_un&, std::string) [clone .cold]
  t FindUserDataByName(unsigned char const*, unsigned long, char const*, int*)
@@ -4471,6 +4507,7 @@
  t IVRAudioDevices::CVRAudioDeviceInfo::~CVRAudioDeviceInfo()
  t InitCameraHAL.cold
  t InitDriverLog(vr::IVRDriverLog*)
+ t InitDriverLog(vr::IVRDriverLog*) [clone .cold]
  t InitInternalClientInterfaces(std::function<void* (char const*)>)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
@@ -4485,6 +4522,8 @@
  t InitSharedResourceNamespaceForTest()
  t InitSystemBaseTimeTicks(unsigned long)
  t InitSystemTime(unsigned long) [clone .part.0]
+ t IpAndPortToString(unsigned int, unsigned short)
+ t IpToString(unsigned int)
  t IsDriverLogActive()
  t IsOnLaptop()
  t IsOnMainBranch()
@@ -5033,6 +5072,7 @@
  t ParseUserDataEntry(unsigned char const*, unsigned long, int, char const**, unsigned int*, unsigned int*, unsigned int*)
  t Path_Compact(std::string const&, char)
  t Path_Compact(std::string const&, char) [clone .cold]
+ t Path_DeleteDirectory(std::string const&, bool)
  t Path_Exists(std::string const&)
  t Path_FilePathToUrl(std::string const&, std::string const&)
  t Path_FilePathToUrl(std::string const&, std::string const&) [clone .cold]
@@ -5424,6 +5464,7 @@
  t VcetJobCreate.cold
  t VcetJobDestroy
  t VcetJobWait
+ t VerifyTidIntegrity()
  t VersionIsLess(std::string const&, std::string const&)
  t VersionIsLess(std::string const&, std::string const&) [clone .cold]
  t VkExtensionProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkExtensionProperties*, unsigned long>(VkExtensionProperties*, unsigned long)
@@ -5486,6 +5527,7 @@
  t _GLOBAL__sub_I_disambiguation_sob.cpp
  t _GLOBAL__sub_I_disambiguation_tdm.cpp
  t _GLOBAL__sub_I_driver_lighthouse.cpp
+ t _GLOBAL__sub_I_driverlog.cpp
  t _GLOBAL__sub_I_dynamic_message.cc
  t _GLOBAL__sub_I_eh_alloc.cc
  t _GLOBAL__sub_I_etroncamera.cpp
@@ -5731,11 +5773,15 @@
  t __tcf_0
  t __tcf_1
  t __tcf_2
+ t _findclose(long)
+ t _findfirst(char const*, _finddata_t*)
+ t _findnext(long, _finddata_t*)
  t _txnal_cow_string_C1_for_exceptions(void*, char const*, void*) [clone .cold]
  t add_fdes
  t amdgpu_bo*& std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*> >::emplace_back<amdgpu_bo*>(amdgpu_bo*&&)
  t arena<128ul, 8ul>::deallocate(char*, unsigned long)
  t arena<160ul, 8ul>::deallocate(char*, unsigned long)
+ t arena<400ul, 8ul>::deallocate(char*, unsigned long)
  t arena<40ul, 4ul>::deallocate(char*, unsigned long)
  t arena<80ul, 8ul>::deallocate(char*, unsigned long)
  t atexit
@@ -5908,6 +5954,7 @@
  t char& std::vector<char, std::allocator<char> >::emplace_back<char>(char&&)
  t char* arena<128ul, 8ul>::allocate<8ul>(unsigned long)
  t char* arena<160ul, 8ul>::allocate<8ul>(unsigned long)
+ t char* arena<400ul, 8ul>::allocate<8ul>(unsigned long)
  t char* arena<40ul, 4ul>::allocate<4ul>(unsigned long)
  t char* arena<80ul, 8ul>::allocate<8ul>(unsigned long)
  t char* std::__add_grouping<char>(char*, char, char const*, unsigned long, char const*, char const*)
@@ -6201,6 +6248,7 @@
  t htc::CHtcHmdControllerState::TriggerHapticPulse(unsigned long, float, float, float, float)
  t htc::CHtcHmdControllerState::~CHtcHmdControllerState()
  t htc::CHtcHmdThread::CHtcHmdThread(htc::CHtcHmdThread::ICallback*, htc::CHtcHmdControllerState*, unsigned short, unsigned short)
+ t htc::CHtcHmdThread::CHtcHmdThread(htc::CHtcHmdThread::ICallback*, htc::CHtcHmdControllerState*, unsigned short, unsigned short) [clone .cold]
  t htc::CHtcHmdThread::GetPollingTime()
  t htc::CHtcHmdThread::GetThreadName()
  t htc::CHtcHmdThread::OnHidClose()
@@ -7220,6 +7268,7 @@
  t std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}> const&, std::_Manager_operation) [clone .cold]
  t std::_Function_base::_Base_manager<InitCameraHAL::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitCameraHAL::{lambda(char const*)#1}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -7243,6 +7292,7 @@
  t std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&) [clone .cold]
  t std::_Function_handler<void (ELogLevel, char const*, void*), CPrismDirect::CPrismDirect()::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
  t std::_Function_handler<void (ELogLevel, char const*, void*), CVRLog::InitLog(char const*, char const*, bool, unsigned long)::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
+ t std::_Function_handler<void (ELogLevel, char const*, void*), InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
  t std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_invoke(std::_Any_data const&, Json::Value const&)
  t std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_invoke(std::_Any_data const&, Json::Value const&) [clone .cold]
  t std::_Function_handler<void (Json::Value const&), std::_Bind<void (CLighthousePairing::*(CLighthousePairing*, std::_Placeholder<1>))(Json::Value const&)> >::_M_invoke(std::_Any_data const&, Json::Value const&)
@@ -9504,6 +9554,7 @@
  t std::unexpected()
  t std::unique_lock<std::recursive_mutex>::unlock() [clone .isra.0]
  t std::unique_ptr<CLogBuffer, std::default_delete<CLogBuffer> >::~unique_ptr()
+ t std::unique_ptr<CLogCallback, std::default_delete<CLogCallback> >::~unique_ptr()
  t std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo> >::_M_default_append(unsigned long)
  t std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo> >::~vector()
  t std::vector<CISPConfig, std::allocator<CISPConfig> >::operator=(std::vector<CISPConfig, std::allocator<CISPConfig> > const&)
@@ -9967,6 +10018,8 @@
  t void std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> >::_M_realloc_insert<PhysicalDeviceInfo_t>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, PhysicalDeviceInfo_t&&)
  t void std::vector<Reflection::TypeInfo::BaseClassInfo_t, std::allocator<Reflection::TypeInfo::BaseClassInfo_t> >::_M_realloc_insert<Reflection::TypeInfo::BaseClassInfo_t const&>(__gnu_cxx::__normal_iterator<Reflection::TypeInfo::BaseClassInfo_t*, std::vector<Reflection::TypeInfo::BaseClassInfo_t, std::allocator<Reflection::TypeInfo::BaseClassInfo_t> > >, Reflection::TypeInfo::BaseClassInfo_t const&)
  t void std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul> >::_M_realloc_insert<VkDeviceMemory_T* const&>(__gnu_cxx::__normal_iterator<VkDeviceMemory_T**, std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul> > >, VkDeviceMemory_T* const&)
+ t void std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul> >::_M_realloc_insert<VkDeviceQueueCreateInfo const&>(__gnu_cxx::__normal_iterator<VkDeviceQueueCreateInfo*, std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul> > >, VkDeviceQueueCreateInfo const&)
+ t void std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> >::_M_range_insert<__gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> > > >(__gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> > >, __gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> > >, __gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> > >, std::forward_iterator_tag)
  t void std::vector<VkImageSharedData_t, std::allocator<VkImageSharedData_t> >::_M_realloc_insert<>(__gnu_cxx::__normal_iterator<VkImageSharedData_t*, std::vector<VkImageSharedData_t, std::allocator<VkImageSharedData_t> > >)
  t void std::vector<VkSemaphore_T*, short_alloc<VkSemaphore_T*, 80ul, 8ul> >::_M_realloc_insert<VkSemaphore_T* const&>(__gnu_cxx::__normal_iterator<VkSemaphore_T**, std::vector<VkSemaphore_T*, short_alloc<VkSemaphore_T*, 80ul, 8ul> > >, VkSemaphore_T* const&)
  t void std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*> >::_M_realloc_insert<amdgpu_bo*>(__gnu_cxx::__normal_iterator<amdgpu_bo**, std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*> > >, amdgpu_bo*&&)
@@ -10753,6 +10806,7 @@
  t vortex::CLighthouseIMUThread::SetISPSyncDivisor(unsigned char)
  t vortex::CLighthouseIMUThread::SetLedEmitterConfig(unsigned char, unsigned int)
  t vortex::CLighthouseIMUThread::SetLedSchedule(vortex::qpd_cmd_schedule_t const&)
+ t vortex::CLighthouseIMUThread::SetLedSequence(signed char const*, unsigned char)
  t vortex::CLighthouseIMUThread::SetMonitorCallback(void*, vortex::CLighthouseIMUThread::IMonitorCallback*)
  t vortex::CLighthouseIMUThread::SetPanelColumnCorrection(vortex::panel_column_correction_t const&, vortex::panel_column_correction_t const&)
  t vortex::CLighthouseIMUThread::SetRadioMode(vortex::ERadioMode)
@@ -10788,10 +10842,12 @@
  t vortex::CLighthouseIMUThread::~CLighthouseIMUThread()
  t vortex::CLighthouseInput::CConnection::BNeedReconnection() const
  t vortex::CLighthouseInput::CConnection::CConnection(std::string const&)
+ t vortex::CLighthouseInput::CConnection::CConnection(std::string const&) [clone .cold]
  t vortex::CLighthouseInput::CConnection::ConfigureInput()
  t vortex::CLighthouseInput::CConnection::ConfigureInput() [clone .cold]
  t vortex::CLighthouseInput::CConnection::ConnectOrReconnect()
  t vortex::CLighthouseInput::CConnection::Disconnect()
+ t vortex::CLighthouseInput::CConnection::Disconnect() [clone .cold]
  t vortex::CLighthouseInput::CConnection::GetVrcInterface() const
  t vortex::CLighthouseInput::CConnection::GetWirelessDongleSerialNumber(std::string*)
  t vortex::CLighthouseInput::CConnection::GetWirelessDongleSerialNumber(std::string*) [clone .cold]
@@ -10804,6 +10860,7 @@
  t vortex::CLighthouseInput::CConnection::SetVrcCallback(vortex::CLighthouseIMUThread::IVrcCallback*)
  t vortex::CLighthouseInput::CConnection::~CConnection()
  t vortex::CLighthouseInput::CLighthouseInput(std::string const&)
+ t vortex::CLighthouseInput::CLighthouseInput(std::string const&) [clone .cold]
  t vortex::CLighthouseInput::GetAllWirelessDongleDescriptions()
  t vortex::CLighthouseInput::GetAllWirelessDongleDescriptions() [clone .cold]
  t vortex::CLighthouseInput::GetAttachedDeviceId(std::string const&)
@@ -11026,9 +11083,13 @@
  t vortex::CLighthouseThreadBase::CLighthouseThreadBase(vortex::CLighthouseThreadBase::CTime&, char const*, int, unsigned short, unsigned short)
  t vortex::CLighthouseThreadBase::CLighthouseThreadBase(vortex::CLighthouseThreadBase::CTime&, char const*, int, unsigned short, unsigned short) [clone .cold]
  t vortex::CLighthouseThreadBase::CTime::ExtendTimestamp(unsigned int, int)
- t vortex::CLighthouseThreadBase::CTime::TimeFromTimestamp(long)
- t vortex::CLighthouseThreadBase::CTime::UpdateUsbTimeFromImuPacket(double, double)
- t vortex::CLighthouseThreadBase::CTime::UpdateUsbTimeFromUsbSof(double, double, bool)
+ t vortex::CLighthouseThreadBase::CTime::ExtendTrackingTimestamp(unsigned int, int)
+ t vortex::CLighthouseThreadBase::CTime::GetTrackingTimeOffset(vortex::CLighthouseThreadBase::CTime const&) const
+ t vortex::CLighthouseThreadBase::CTime::GetTrackingTimeOffset(vortex::CLighthouseThreadBase::CTime const&) const [clone .cold]
+ t vortex::CLighthouseThreadBase::CTime::TimeFromTimestamp(long) const
+ t vortex::CLighthouseThreadBase::CTime::TrackingTimeFromTimestamp(long) const
+ t vortex::CLighthouseThreadBase::CTime::UpdateTrackingTime(double, double, bool)
+ t vortex::CLighthouseThreadBase::CTime::UpdateUsbTime(double, double)
  t vortex::CLighthouseThreadBase::DeviceAttached()
  t vortex::CLighthouseThreadBase::GetKeepaliveTime()
  t vortex::CLighthouseThreadBase::GetRateStatusReport()
@@ -11157,12 +11218,6 @@
  t vortex::CSysTimer::TickCount()
  t vortex::CSysTimer::~CSysTimer()
  t vortex::CThreadHelper::ThreadCallback(void*)
- t vortex::CUsbSofTracking::CUsbSofTracking(char const*)
- t vortex::CUsbSofTracking::GetCurrentUsbFrameNumber()
- t vortex::CUsbSofTracking::GetUsbSofTime(unsigned short, int)
- t vortex::CUsbSofTracking::Initialize()
- t vortex::CUsbSofTracking::Uninitialize()
- t vortex::CUsbSofTracking::~CUsbSofTracking()
  t vortex::CUserDataThread::Run()
  t vortex::CUserDataThread::Run() [clone .cold]
  t vortex::CUserDataThread::~CUserDataThread()

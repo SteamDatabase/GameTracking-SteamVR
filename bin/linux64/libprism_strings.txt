@@ -4,6 +4,7 @@
 !(
 !( pDedicatedBuffer && pDedicatedImage )
 !=
+!IsDepthFormat( m_eFormat )
 !IsInUse()
 !bindings.empty()
 !g_bTestMode
@@ -29,6 +30,8 @@ $+
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
 %d
+%d.%d.%d.%d
+%d.%d.%d.%d:%u
 %llu
 %lu
 %m/%d/%y
@@ -37,6 +40,7 @@ $+
 %s %s
 %s begin_ctx=%lu
 %s end_ctx=%lu
+%s%c%s
 %s%s
 %s%s%s%s%s
 %s(%s): concurrent batches not allowed
@@ -85,7 +89,6 @@ $+
 %s: client resources cleared without leaving clientid intact!
 %s: cmdbuf references a resource that has been released: %s
 %s: concurrent sharing mode requires queue family indices
-%s: device does not support compute shader derivatives group quad.
 %s: device does not support host query reset.
 %s: device does not support reliable realtime compute queue creation.
 %s: device does not support timeline semaphores.
@@ -174,6 +177,8 @@ $+
 %s: failed to initialize query pool
 %s: failed to initialize timeline
 %s: failed to initialize vulkan device
+%s: failed to load available layers
+%s: failed to load instance extensions
 %s: failed to map vulkan memory
 %s: failed to present HMD image
 %s: failed to query display modes
@@ -194,6 +199,7 @@ $+
 %s: feature hostQueryReset missing
 %s: high priority compute requested, but %s is missing
 %s: incompatible vulkan version requested
+%s: invalid device
 %s: invalid display mode
 %s: invalid instance
 %s: invalid parameter
@@ -209,6 +215,7 @@ $+
 %s: missing required device extension: %s
 %s: missing required instance extension %s
 %s: missing required layer: %s
+%s: missing validation layer extension %s
 %s: multiple vertex stages specified for %s
 %s: no compatible vulkan devices detected
 %s: no timelines
@@ -364,6 +371,7 @@ $+
 ********** Blue ( nLoopCount++ > 1000 )!
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
+*.*
 *=
 *N12_GLOBAL__N_121system_error_categoryE
 *N12_GLOBAL__N_122generic_error_categoryE
@@ -391,6 +399,7 @@ $+
 -in-
 .
 .*
+..
 ...
 ...)
 ./obj_prism_linux64/release/libprism.so
@@ -467,7 +476,7 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-23:51:49
+23:52:11
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -576,6 +585,22 @@ CClientSwapchain::Import(CVkDevice*, CVkAllocator*, SwapchainState_t const&, uns
 CClientSwapchain::ImportSampler(CVkDevice*, VkSamplerCreateInfo const&)
 CCountedMutexWithLogCache::Log(char const*, ...)
 CCountedMutexWithLogCache::Log(char const*, ...) [clone .cold]
+CDirIterator::BCurrentIsDir() const
+CDirIterator::BCurrentIsHidden() const
+CDirIterator::BCurrentIsMarkedForArchive() const
+CDirIterator::BCurrentIsReadOnly() const
+CDirIterator::BCurrentIsSystem() const
+CDirIterator::BNextFile()
+CDirIterator::BValidFilename()
+CDirIterator::CDirIterator(char const*, char const*)
+CDirIterator::CDirIterator(char const*, char const*) [clone .cold]
+CDirIterator::CurrentFileCreateTime() const
+CDirIterator::CurrentFileLength() const
+CDirIterator::CurrentFileName()
+CDirIterator::CurrentFileWriteTime() const
+CDirIterator::Init(std::string const&)
+CDirIterator::IsValid() const
+CDirIterator::~CDirIterator()
 CET
 CFrameHallucination::CFrameHallucination(CVkDevice*)
 CFrameHallucination::CFrameHallucination(CVkDevice*) [clone .cold]
@@ -684,7 +709,7 @@ CMotionEstimation::CRenderPipeline::CRenderPipeline(CVkDevice*, char const*)
 CMotionEstimation::CRenderPipeline::CRenderPipeline(CVkDevice*, char const*) [clone .cold]
 CMotionEstimation::CRenderPipeline::CmdBindAndDraw(CVkCommandBuffer*, CMotionEstimation::CRenderPipeline::DrawInfo_t const&)
 CMotionEstimation::CRenderPipeline::CreateFramebuffer(CVkImage const*, VkFramebuffer_T**)
-CMotionEstimation::CRenderPipeline::CreateRenderPass(VkFormat, VkImageLayout, VkImageLayout, VkRenderPass_T**)
+CMotionEstimation::CRenderPipeline::CreateRenderPass(VkFormat, VkImageLayout, VkImageLayout, unsigned int, unsigned int, unsigned int, unsigned int, VkRenderPass_T**)
 CMotionEstimation::CRenderPipeline::Release()
 CMotionEstimation::CRenderPipeline::Release() [clone .part.0]
 CMotionEstimation::CRenderPipeline::~CRenderPipeline()
@@ -857,7 +882,7 @@ CPrismPoseProvider_Null::GetInstance()::instance
 CPrismPoseProvider_Null::GetPoses(glm::mat<4, 4, float, (glm::qualifier)0>*, bool*, unsigned int, unsigned long)
 CST
 CSWTCH.100
-CSWTCH.206
+CSWTCH.209
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CSharedResourceNamespaceClient::Init(): failed connect
@@ -954,8 +979,8 @@ CVkAllocator::AllocateMemory(VkMemoryRequirements2 const&, VkImage_T*, VkBuffer_
 CVkAllocator::AllocateMemoryFromType(CVkAllocator::MemoryTypeInfo_t const&, VkMemoryRequirements2 const&, VkImage_T*, VkBuffer_T*, char const*, VkAllocationDetails_t const&, CVkMemory&)
 CVkAllocator::AllocateMemoryFromType(CVkAllocator::MemoryTypeInfo_t const&, VkMemoryRequirements2 const&, VkImage_T*, VkBuffer_T*, char const*, VkAllocationDetails_t const&, CVkMemory&) [clone .cold]
 CVkAllocator::CVkAllocator(CVkDevice*, char const*)
-CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&)
-CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&) [clone .cold]
+CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&, VkBuffer_T*)
+CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&, VkBuffer_T*) [clone .cold]
 CVkAllocator::CreateImage(unsigned int, unsigned int, VkFormat, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*)
 CVkAllocator::CreateImage(unsigned int, unsigned int, VkFormat, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*) [clone .cold]
 CVkAllocator::EnumerateMemoryTypes()
@@ -965,8 +990,9 @@ CVkAllocator::GetCompatibleMemoryTypes(VkAllocationDetails_t const&, VkMemoryReq
 CVkAllocator::ImportBuffer(VkBufferSharedData_t const&, char const*)
 CVkAllocator::ImportImage(VkImageSharedData_t const&, char const*)
 CVkAllocator::Initialize()
-CVkBuffer::CmdCopyBuffer(CVkCommandBuffer*, CVkBuffer*)
+CVkBuffer::CmdCopyBuffer(CVkCommandBuffer*, CVkBuffer*, unsigned long)
 CVkBuffer::CmdCopyImageToBuffer(CVkCommandBuffer*, CVkImage*, unsigned int, VkImageLayout)
+CVkBuffer::CmdPipelineBarrier(CVkCommandBuffer*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, unsigned long)
 CVkBuffer::PrepareForExport(VkBufferSharedData_t&, unsigned int)
 CVkBuffer::Release()
 CVkBuffer::~CVkBuffer()
@@ -1039,7 +1065,6 @@ CVkDevice::GetQueueType(unsigned int)
 CVkDevice::Init - failed to get extension count
 CVkDevice::Init - no instance extensions supported
 CVkDevice::Initialize(void (*(*)(VkInstance_T*, char const*))())
-CVkDevice::Initialize(void (*(*)(VkInstance_T*, char const*))()) [clone .cold]
 CVkDevice::IsCompatibleVulkanVersion(unsigned int)
 CVkDevice::IsCompatibleVulkanVersion(unsigned int) [clone .part.0]
 CVkDevice::IsDeviceExtensionAvailable(char const*)
@@ -1051,9 +1076,14 @@ CVkDevice::IsInstanceExtensionAvailable(char const*)
 CVkDevice::IsInstanceExtensionEnabled(char const*)
 CVkDevice::IsInstanceExtensionEnabled(char const*) [clone .cold]
 CVkDevice::IsLayerAvailable(char const*)
-CVkDevice::IsLayerAvailableLocked(char const*)
+CVkDevice::IsLayerAvailableLocked(char const*) const
 CVkDevice::IsLayerEnabled(char const*)
 CVkDevice::IsLayerEnabled(char const*) [clone .cold]
+CVkDevice::IsLayerEnabledLocked(char const*) const
+CVkDevice::LoadAvailableLayers()
+CVkDevice::LoadAvailableLayers() [clone .cold]
+CVkDevice::LoadInstanceExtensions(char const*)
+CVkDevice::LoadInstanceExtensions(char const*) [clone .cold]
 CVkDevice::SetDebugName(VkBuffer_T*, std::string const&)
 CVkDevice::SetDebugName(VkCommandBuffer_T*, std::string const&)
 CVkDevice::SetDebugName(VkCommandPool_T*, std::string const&)
@@ -1061,10 +1091,14 @@ CVkDevice::SetDebugName(VkDeviceMemory_T*, std::string const&)
 CVkDevice::SetDebugName(VkDevice_T*, std::string const&)
 CVkDevice::SetDebugName(VkImageView_T*, std::string const&)
 CVkDevice::SetDebugName(VkImage_T*, std::string const&)
+CVkDevice::SetDebugName(VkQueryPool_T*, std::string const&)
 CVkDevice::SetDebugName(VkSemaphore_T*, std::string const&)
 CVkDevice::SetDebugName(VkShaderModule_T*, std::string const&)
 CVkDevice::SetDebugName(unsigned long, VkObjectType, std::string const&)
 CVkDevice::Shutdown()
+CVkDevice::UseDevice(VkDevice_T*)
+CVkDevice::UseInstance(VkInstance_T*)
+CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*)
 CVkDevice::~CVkDevice()
 CVkGarbageCollector: %s
 CVkGarbageCollector::Acquire(CVkResourceBase*)
@@ -1291,6 +1325,9 @@ Failed when reading payload of length %u: errno=%d
 FbcE
 Feb
 February
+File path truncated
+FileSelect(dirent const*)
+FillDataStruct(_finddata_t*)
 FillPipeAddr(sockaddr_un&, std::string)
 FillPipeAddr(sockaddr_un&, std::string) [clone .cold]
 FillPipeAddr(sockaddr_un&, std::string)::sPrefix
@@ -1366,7 +1403,7 @@ History-Buffer-%d
 HmdActivated
 I
 ID
-IPC error: LockMgrMutex failed to acquire SysMgrMutex
+IPC error: LockMgrMutex failed to acquire SysMgrMutex: %d
 IPC: recovering abandoned mutex %p
 IPC::CIPCHandle::Import() const
 IPC::CIPCHandle::InitForExport(IPC::TSharedHandleBase<int, -1>, unsigned int)
@@ -1439,6 +1476,8 @@ Initializing display history...
 Input
 Invalid queue family index
 Invalid socket name parameters for shared fd
+IpAndPortToString(unsigned int, unsigned short)
+IpToString(unsigned int)
 IsOnLaptop()
 IsPosix()
 IsRunningAsService()
@@ -1914,6 +1953,8 @@ Left Eye
 LfMutexLockRobust(LfMutex*, timespec const*)
 LfMutexUnlockRobust(LfMutex*)
 Line %d, Column %d
+LoadAvailableLayers
+LoadInstanceExtensions
 Log(ELogLevel, char const*, ...)
 Log(char const*, ...)
 LogDirect(ELogLevel, char const*, __va_list_tag (&) [1])
@@ -2024,13 +2065,13 @@ NanosecondsFromSystemTicks(unsigned long)
 NewBatch
 None
 Nov
+Nov  8 2021
 November
 Null
 Null Client
 O
 O"
 Oct
-Oct 18 2021
 October
 OnPreSubmit
 Out of thread local storage!
@@ -2127,6 +2168,7 @@ ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*,
 ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*) [clone .cold]
 Path_Compact(std::string const&, char)
 Path_Compact(std::string const&, char) [clone .cold]
+Path_DeleteDirectory(std::string const&, bool)
 Path_Exists(std::string const&)
 Path_FilePathToUrl(std::string const&, std::string const&)
 Path_FilePathToUrl(std::string const&, std::string const&) [clone .cold]
@@ -2232,6 +2274,7 @@ R
 RENDERDOC_GetAPI
 Ran out of IPC SharedObjectManager entries!
 ReapChildProcesses(int)
+Recording stopped.
 Reference
 RegisterDestinationImage
 ReleaseThreadHandle
@@ -2256,7 +2299,6 @@ S
 SDL_GetError
 SDL_GetPowerInfo
 SDL_SetThreadPriority
-SPV_NV_compute_shader_derivatives
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
@@ -2526,7 +2568,6 @@ Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentId
-ThreadGetCurrentId::s_selftid
 ThreadGetCurrentProcessHandle
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
@@ -2622,12 +2663,15 @@ UpdateResults
 Upload raw motion vectors
 UploadMotionVectors
 Usage
+UseDevice
+UsePhysicalDevice
 V
 VALVE
 VK_EXT_acquire_xlib_display
 VK_EXT_debug_utils
 VK_EXT_direct_mode_display
 VK_EXT_global_priority
+VK_EXT_validation_features
 VK_KHR_display
 VK_KHR_external_memory_fd
 VK_KHR_external_semaphore_fd
@@ -2688,6 +2732,8 @@ V_URLEncodeNoPlusForSpace(char*, int, char const*, int)
 V_URLEncodeNoPlusForSpace(char*, int, char const*, int) [clone .cold]
 ValidateReferencedResources
 Valve Corporation
+VerifyTidIntegrity failed for thread %d. Most likely this process was forked after calling ThreadGetCurrentId.
+VerifyTidIntegrity()
 VkExtensionProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkExtensionProperties*, unsigned long>(VkExtensionProperties*, unsigned long)
 VkLayerProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkLayerProperties*, unsigned long>(VkLayerProperties*, unsigned long)
 VrInitGpuProfiling()
@@ -3037,6 +3083,9 @@ __xstat64
 _edata
 _end
 _exit
+_findclose(long)
+_findfirst(char const*, _finddata_t*)
+_findnext(long, _finddata_t*)
 _fini
 _init
 _txnal_cow_string_C1_for_exceptions(void*, char const*, void*)
@@ -3070,6 +3119,7 @@ allowSingleQuotes
 allowSpecialFloats
 alnum
 alpha
+alphasort
 alse
 an
 any_objects_registered
@@ -3078,6 +3128,7 @@ arena<160ul, 4ul>::deallocate(char*, unsigned long)
 arena<160ul, 8ul>::deallocate(char*, unsigned long)
 arena<240ul, 4ul>::deallocate(char*, unsigned long)
 arena<240ul, 8ul>::deallocate(char*, unsigned long)
+arena<400ul, 8ul>::deallocate(char*, unsigned long)
 arena<40ul, 4ul>::deallocate(char*, unsigned long)
 arena<480ul, 8ul>::deallocate(char*, unsigned long)
 arena<80ul, 8ul>::deallocate(char*, unsigned long)
@@ -3183,6 +3234,7 @@ char* arena<160ul, 4ul>::allocate<4ul>(unsigned long)
 char* arena<160ul, 8ul>::allocate<8ul>(unsigned long)
 char* arena<240ul, 4ul>::allocate<4ul>(unsigned long)
 char* arena<240ul, 8ul>::allocate<8ul>(unsigned long)
+char* arena<400ul, 8ul>::allocate<8ul>(unsigned long)
 char* arena<40ul, 4ul>::allocate<4ul>(unsigned long)
 char* arena<480ul, 8ul>::allocate<8ul>(unsigned long)
 char* arena<80ul, 8ul>::allocate<8ul>(unsigned long)
@@ -3633,7 +3685,9 @@ m_pCommandBufferPool != nullptr
 m_pCommandBufferPool->QueueFamilyIndex() == m_pQueue->FamilyIndex()
 m_pDevice
 m_pDevice != nullptr
+m_pDevice == VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
+m_pPhysicalDevice == VK_NULL_HANDLE
 m_pPool != nullptr
 m_pPool->m_pActiveBatch == nullptr
 m_pPool->m_pActiveBatch == this
@@ -3753,7 +3807,7 @@ pResource
 pResult != nullptr
 pShaderModule != VK_NULL_HANDLE
 pSourceBuffer
-pSourceBuffer->m_unSizeInBytes == m_unSizeInBytes
+pSourceBuffer->m_unSizeInBytes >= nSourceOffset + m_unSizeInBytes
 pSourceImage
 pSrcVertices != nullptr && pDstVertices != nullptr
 pStaging != nullptr
@@ -3854,6 +3908,7 @@ s_pInstance
 s_rchProcessIdentifier
 s_thread_pRobustListStruct
 sc
+scandir
 sched_get_priority_max
 sched_get_priority_min
 sched_getparam
@@ -3863,6 +3918,7 @@ sched_yield
 search_object
 search_object.cold
 seen_objects
+selectBuf
 semctl
 semget
 semop
@@ -6175,6 +6231,7 @@ strncmp
 strncpy
 strnicmp(char const*, char const*, unsigned long)
 strpbrk
+strrchr
 strstr
 strtol
 strtold_l
@@ -6848,6 +6905,7 @@ uw_update_context_1.cold
 v
 variant.pPipeline != &m_frameHallucinationPipeline
 vector::_M_default_append
+vector::_M_range_insert
 vector::_M_realloc_insert
 vector::reserve
 version
@@ -7361,6 +7419,8 @@ void std::vector<VkDescriptorPoolSize, std::allocator<VkDescriptorPoolSize> >::_
 void std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> >::_M_realloc_insert<VkDescriptorSetLayoutBinding>(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, VkDescriptorSetLayoutBinding&&)
 void std::vector<VkDescriptorSetLayout_T*, std::allocator<VkDescriptorSetLayout_T*> >::_M_realloc_insert<VkDescriptorSetLayout_T* const&>(__gnu_cxx::__normal_iterator<VkDescriptorSetLayout_T**, std::vector<VkDescriptorSetLayout_T*, std::allocator<VkDescriptorSetLayout_T*> > >, VkDescriptorSetLayout_T* const&)
 void std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul> >::_M_realloc_insert<VkDeviceMemory_T* const&>(__gnu_cxx::__normal_iterator<VkDeviceMemory_T**, std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul> > >, VkDeviceMemory_T* const&)
+void std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul> >::_M_realloc_insert<VkDeviceQueueCreateInfo const&>(__gnu_cxx::__normal_iterator<VkDeviceQueueCreateInfo*, std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul> > >, VkDeviceQueueCreateInfo const&)
+void std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> >::_M_range_insert<__gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> > > >(__gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> > >, __gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> > >, __gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> > >, std::forward_iterator_tag)
 void std::vector<VkExtent2D, std::allocator<VkExtent2D> >::_M_realloc_insert<VkExtent2D const&>(__gnu_cxx::__normal_iterator<VkExtent2D*, std::vector<VkExtent2D, std::allocator<VkExtent2D> > >, VkExtent2D const&)
 void std::vector<VkPipelineColorBlendAttachmentState, std::allocator<VkPipelineColorBlendAttachmentState> >::_M_realloc_insert<VkPipelineColorBlendAttachmentState const&>(__gnu_cxx::__normal_iterator<VkPipelineColorBlendAttachmentState*, std::vector<VkPipelineColorBlendAttachmentState, std::allocator<VkPipelineColorBlendAttachmentState> > >, VkPipelineColorBlendAttachmentState const&)
 void std::vector<VkPipelineShaderStageCreateInfo, short_alloc<VkPipelineShaderStageCreateInfo, 480ul, 8ul> >::_M_realloc_insert<VkPipelineShaderStageCreateInfo const&>(__gnu_cxx::__normal_iterator<VkPipelineShaderStageCreateInfo*, std::vector<VkPipelineShaderStageCreateInfo, short_alloc<VkPipelineShaderStageCreateInfo, 480ul, 8ul> > >, VkPipelineShaderStageCreateInfo const&)

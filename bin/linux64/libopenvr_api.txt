@@ -328,6 +328,7 @@
  __wctype_l
  __xstat
  abort
+ alphasort
  b (anonymous namespace)::__new_handler
  b (anonymous namespace)::c_locale
  b (anonymous namespace)::c_locale_impl
@@ -438,6 +439,7 @@
  b object_mutex
  b once_regsizes.10235
  b seen_objects
+ b selectBuf
  b stackDepth_g
  b std::__ioinit
  b std::__timepunct<char>::id
@@ -1153,6 +1155,7 @@
  readlink
  realloc
  rename
+ scandir
  setenv
  setlocale
  setvbuf
@@ -1171,6 +1174,7 @@
  strncmp
  strncpy
  strpbrk
+ strrchr
  strtol
  strtold_l
  strtoull
@@ -1202,6 +1206,22 @@
  t CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*)
  t CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*) [clone .cold]
  t CAssertCallback::~CAssertCallback()
+ t CDirIterator::BCurrentIsDir() const
+ t CDirIterator::BCurrentIsHidden() const
+ t CDirIterator::BCurrentIsMarkedForArchive() const
+ t CDirIterator::BCurrentIsReadOnly() const
+ t CDirIterator::BCurrentIsSystem() const
+ t CDirIterator::BNextFile()
+ t CDirIterator::BValidFilename()
+ t CDirIterator::CDirIterator(char const*, char const*)
+ t CDirIterator::CDirIterator(char const*, char const*) [clone .cold]
+ t CDirIterator::CurrentFileCreateTime() const
+ t CDirIterator::CurrentFileLength() const
+ t CDirIterator::CurrentFileName()
+ t CDirIterator::CurrentFileWriteTime() const
+ t CDirIterator::Init(std::string const&)
+ t CDirIterator::IsValid() const
+ t CDirIterator::~CDirIterator()
  t CLog::AddCallback(CLogCallback*)
  t CLog::AddCallback(CLogCallback*) [clone .cold]
  t CLog::GetInstance()
@@ -1236,6 +1256,8 @@
  t CVRPathRegistry_Public::~CVRPathRegistry_Public()
  t CharNeedsEscape_Component(char)
  t CharNeedsEscape_FullPath(char)
+ t FileSelect(dirent const*)
+ t FillDataStruct(_finddata_t*)
  t Format(char const*, ...)
  t Format(char const*, ...) [clone .cold]
  t GetEnglishStringForHmdError(vr::EVRInitError)
@@ -1244,6 +1266,8 @@
  t GetEnvironmentVariableAsBool(char const*, bool) [clone .cold]
  t GetIDForVRInitError(vr::EVRInitError)
  t GetUserDocumentsPath()
+ t IpAndPortToString(unsigned int, unsigned short)
+ t IpToString(unsigned int)
  t Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
  t Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
  t Json::BuiltStyledStreamWriter::hasCommentForValue(Json::Value const&)
@@ -1677,6 +1701,7 @@
  t ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*) [clone .cold]
  t Path_Compact(std::string const&, char)
  t Path_Compact(std::string const&, char) [clone .cold]
+ t Path_DeleteDirectory(std::string const&, bool)
  t Path_Exists(std::string const&)
  t Path_FilePathToUrl(std::string const&, std::string const&)
  t Path_FilePathToUrl(std::string const&, std::string const&) [clone .cold]
@@ -1919,6 +1944,9 @@
  t __register_frame_info_table
  t __register_frame_info_table_bases
  t __register_frame_table
+ t _findclose(long)
+ t _findfirst(char const*, _finddata_t*)
+ t _findnext(long, _finddata_t*)
  t _txnal_cow_string_C1_for_exceptions(void*, char const*, void*) [clone .cold]
  t add_fdes
  t base_from_cb_data

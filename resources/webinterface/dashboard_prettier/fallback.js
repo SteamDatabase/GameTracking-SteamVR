@@ -420,7 +420,7 @@
     function F(e, t) {
       return z(O(e, t));
     }
-    function T(e, t) {
+    function N(e, t) {
       let r = { type: e, properties: {} };
       return (
         t.id && (r.properties.id = z(t.id)),
@@ -428,7 +428,7 @@
         r
       );
     }
-    function N(e, t) {
+    function T(e, t) {
       let [r, n] = (function (e, t) {
           let r = t.buildNode;
           if (r) return r(e, t);
@@ -436,7 +436,7 @@
             i = null;
           switch (t.nodeName.toUpperCase()) {
             case "VSG-TRANSFORM":
-              (i = T("transform", t)),
+              (i = N("transform", t)),
                 (i.properties.translation = M(t, "translation")),
                 (i.properties.rotation = M(t, "rotation")),
                 (i.properties.scale = M(t, "scale")),
@@ -445,13 +445,13 @@
                 (i.properties["parent-id"] = F(t, "parent-id"));
               break;
             case "VSG-TRACKING-STATE-VISIBILITY":
-              (i = T("trackingstatevisibility", t)),
+              (i = N("trackingstatevisibility", t)),
                 (i.properties["visible-0dof"] = w(t, "visible-0dof")),
                 (i.properties["visible-3dof"] = w(t, "visible-3dof")),
                 (i.properties["visible-6dof"] = w(t, "visible-6dof"));
               break;
             case "VSG-ELASTIC-HEAD-TRANSFORM":
-              (i = T("elasticheadtransform", t)),
+              (i = N("elasticheadtransform", t)),
                 (i.properties["start-angle-threshold"] = x(
                   t,
                   "start-angle-threshold"
@@ -482,28 +482,28 @@
                 ));
               break;
             case "VSG-LINE":
-              (i = T("line", t)),
+              (i = N("line", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
                 (i.properties.thickness = x(t, "thickness")),
                 (i.properties["start-buffer"] = x(t, "start-buffer")),
                 (i.properties["end-buffer"] = x(t, "end-buffer"));
               break;
             case "VSG-LINE-CONSTRAINED-TRANSFORM":
-              (i = T("line-constrained-transform", t)),
+              (i = N("line-constrained-transform", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
                 (i.properties["source-id"] = F(t, "source-id")),
                 (i.properties["source-distance"] = x(t, "source-distance")),
                 (i.properties["target-limit"] = x(t, "target-limit"));
               break;
             case "VSG-CALLOUT-TRANSFORM":
-              (i = T("callout-transform", t)),
+              (i = N("callout-transform", t)),
                 (i.properties.offset = M(t, "offset"));
               break;
             case "VSG-HEAD-FACING-TRANSFORM":
-              i = T("head-facing-transform", t);
+              i = N("head-facing-transform", t);
               break;
             case "VSG-PIN-TO-VIEW-TRANSFORM":
-              (i = T("pin-to-view-transform", t)),
+              (i = N("pin-to-view-transform", t)),
                 (i.properties["offscreen-z-depth"] = x(t, "offscreen-z-depth")),
                 (i.properties["off-axis-limit"] = x(t, "off-axis-limit")),
                 (i.properties["transition-limit"] = x(t, "transition-limit"));
@@ -514,7 +514,7 @@
       for (let e = 0; e < t.children.length; e++) {
         let n = t.children.item(e);
         if (n.children) {
-          let e = N(r, n);
+          let e = T(r, n);
           e && (i = i.concat(e));
         }
       }
@@ -530,11 +530,11 @@
     }
     let B,
       E,
-      A,
       k,
+      A,
       V = [],
-      L = null,
       U = null,
+      L = null,
       H = null;
     function W(e, t) {
       return e + "::" + t;
@@ -559,14 +559,14 @@
         : B;
     }
     function j() {
-      k = !0;
+      A = !0;
     }
     function q(e) {
       e != H && ((H = e), K());
     }
     function K() {
-      L ||
-        (L = window.setTimeout(
+      U ||
+        (U = window.setTimeout(
           () =>
             Object(n.a)(this, void 0, void 0, function* () {
               let e = document.body;
@@ -574,25 +574,25 @@
               let t = {
                 type: "root",
                 rootproperties: {
-                  relatchDashboardTransform: k,
+                  relatchDashboardTransform: A,
                   sceneCompositeMult: H,
                 },
-                children: N({ currentPanel: null, bShouldAbort: !1 }, e),
+                children: T({ currentPanel: null, bShouldAbort: !1 }, e),
               };
-              U ||
+              L ||
                 (console.log("Initializing sg_mailbox"),
-                (U = new s()),
-                yield U.Init("sg_mailbox", A));
+                (L = new s()),
+                yield L.Init("sg_mailbox", k));
               let r = {
                 type: "update_scene_graph",
                 owning_overlay_key: G(),
                 scene_graph: t,
                 retired_sgids: V,
               };
-              U.SendMessage("vrcompositor_systemlayer", r),
-                (L = null),
+              L.SendMessage("vrcompositor_systemlayer", r),
+                (U = null),
                 (V = []),
-                (k = !1);
+                (A = !1);
             }),
           0
         ));
@@ -640,7 +640,7 @@
         return "base";
       }
       createSgNode(e) {
-        return T(this.getNodeType(), e);
+        return N(this.getNodeType(), e);
       }
       getCurrentRootElement() {
         return this.m_domRef.current;
@@ -1206,7 +1206,7 @@
             (o = this.props.web_secret),
             (B = n),
             (E = i),
-            (A = o),
+            (k = o),
             console.log("Setting owning overlay key to " + n));
       }
       componentWillUnmount() {
@@ -1598,7 +1598,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(me || (me = {}));
-    var we, Oe, Fe, Te, Ne, Be, Ee, Ae, ke, Ve, Le, Ue, He, We, ze, Ge, je, qe;
+    var we, Oe, Fe, Ne, Te, Be, Ee, ke, Ae, Ve, Ue, Le, He, We, ze, Ge, je, qe;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1649,7 +1649,7 @@
       })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-      })(Te || (Te = {})),
+      })(Ne || (Ne = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.TrackingSystemName_String = 1e3)] =
@@ -1712,6 +1712,7 @@
           (e[(e.CameraStreamFormat_Int32 = 1041)] = "CameraStreamFormat_Int32"),
           (e[(e.AdditionalDeviceSettingsPath_String = 1042)] =
             "AdditionalDeviceSettingsPath_String"),
+          (e[(e.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
           (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
             "ReportsTimeSinceVSync_Bool"),
           (e[(e.SecondsFromVsyncToPhotons_Float = 2001)] =
@@ -1856,6 +1857,7 @@
           (e[(e.DisplayMaxAnalogGain_Float = 2087)] =
             "DisplayMaxAnalogGain_Float"),
           (e[(e.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
+          (e[(e.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
           (e[(e.IpdUIRangeMinMeters_Float = 2100)] =
             "IpdUIRangeMinMeters_Float"),
           (e[(e.IpdUIRangeMaxMeters_Float = 2101)] =
@@ -1866,8 +1868,6 @@
             "Hmd_SupportsMicMonitoring_Bool"),
           (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-          (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
-            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
           (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -1886,6 +1886,8 @@
             "DriverRequestedMuraFeather_OuterTop_Int32"),
           (e[(e.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
             "DriverRequestedMuraFeather_OuterBottom_Int32"),
+          (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
+            "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
           (e[(e.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
           (e[(e.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
           (e[(e.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
@@ -1950,7 +1952,7 @@
             "VendorSpecific_Reserved_End"),
           (e[(e.TrackedDeviceProperty_Max = 1e6)] =
             "TrackedDeviceProperty_Max");
-      })(Ne || (Ne = {})),
+      })(Te || (Te = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.HMD = 1)] = "HMD"),
@@ -1970,7 +1972,7 @@
           (e[(e.Quitting = 2)] = "Quitting"),
           (e[(e.Running = 3)] = "Running"),
           (e[(e.Waiting = 4)] = "Waiting");
-      })(Ae || (Ae = {})),
+      })(ke || (ke = {})),
       (function (e) {
         (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
           (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -1980,7 +1982,7 @@
           (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
             "CouldntFindOrCreateClientOverlay"),
           (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-      })(ke || (ke = {})),
+      })(Ae || (Ae = {})),
       (function (e) {
         (e[(e.Normal = 0)] = "Normal"),
           (e[(e.Password = 1)] = "Password"),
@@ -1989,7 +1991,7 @@
       (function (e) {
         (e[(e.SingleLine = 0)] = "SingleLine"),
           (e[(e.MultipleLines = 1)] = "MultipleLines");
-      })(Le || (Le = {})),
+      })(Ue || (Ue = {})),
       (function (e) {
         (e[(e.LaserMouse = 1)] = "LaserMouse"),
           (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -2002,7 +2004,7 @@
             "DriverRequestsApplicationPause"),
           (e[(e.DriverRequestsReducedRendering = 128)] =
             "DriverRequestsReducedRendering");
-      })(Ue || (Ue = {})),
+      })(Le || (Le = {})),
       (function (e) {
         (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
           (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -2058,7 +2060,8 @@
       (function (e) {
         (e[(e.Hostname = 0)] = "Hostname"),
           (e[(e.IP = 1)] = "IP"),
-          (e[(e.Version = 2)] = "Version");
+          (e[(e.Version = 2)] = "Version"),
+          (e[(e.NetworkConnections = 3)] = "NetworkConnections");
       })(qe || (qe = {}));
     class Ke extends C.Component {
       constructor(e) {
@@ -2068,7 +2071,7 @@
           try {
             let e = VRHTML.VRProperties.GetStringProperty(
               this.props.sDevicePath,
-              Ne.RenderModelName_String
+              Te.RenderModelName_String
             );
             if (e) {
               let r = VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
@@ -2291,25 +2294,25 @@
         return Fe;
       }),
       r.d(t, "E", function () {
-        return Te;
+        return Ne;
       }),
       r.d(t, "y", function () {
-        return Ne;
+        return Te;
       }),
       r.d(t, "x", function () {
         return Be;
       }),
       r.d(t, "v", function () {
-        return Ae;
+        return ke;
       }),
       r.d(t, "C", function () {
-        return ke;
+        return Ae;
       }),
       r.d(t, "p", function () {
         return Ve;
       }),
       r.d(t, "o", function () {
-        return Le;
+        return Ue;
       }),
       r.d(t, "l", function () {
         return He;
@@ -2613,4 +2616,4 @@
     );
   },
 });
-//# sourceMappingURL=fallback.js.map?v=3bdf015b3e0044a9ab5e
+//# sourceMappingURL=fallback.js.map?v=16356b7f407f04725e41

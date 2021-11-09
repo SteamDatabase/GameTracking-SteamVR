@@ -37,12 +37,22 @@ message CVRMsg_ServiceConnectResponse {
 	optional uint64 event_mutex_handle = 4;
 	optional uint64 tracking_memory_handle = 5;
 	optional uint64 tracking_mutex_handle = 6;
-	optional uint32 prism_host_pid = 7;
 }
 
 message CVRMsg_PrismPrioritySet {
 	optional bool success = 1;
 	optional uint32 prism_host_pid = 2;
+}
+
+message CVRMsg_StartDashboard {
+}
+
+message CVRMsg_StartDashboardResponse {
+	optional int32 result = 1;
+}
+
+message CVRMsg_DashboardStarted {
+	optional int32 result = 1;
 }
 
 message CVRMsg_ShouldKillTheaterPancakeProcess {
@@ -303,6 +313,7 @@ message CVRMsg_CompositorConnect {
 	optional uint32 pid = 2;
 	optional string binary_path = 3;
 	optional string startup_info_json = 4;
+	optional uint32 app_type = 5;
 }
 
 message CVRMsg_CompositorSetDashboardVisibilityResponse {

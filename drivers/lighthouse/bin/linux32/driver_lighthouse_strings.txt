@@ -156,6 +156,8 @@ $tI
 %d.
 %d.%d
 %d.%d.%d
+%d.%d.%d.%d
+%d.%d.%d.%d:%u
 %d: x: %d, y: %d, w: %d, h: %d edid: %s
 %f %f %f %f
 %g
@@ -178,6 +180,7 @@ $tI
 %s disambiguator provided base configuration. Rotor count: %d
 %s end_ctx=%llu
 %s pitch ~%0.1f deg roll ~%0.1f deg
+%s%c%s
 %s%s
 %s%s%s%s%s
 %s%s%s%s%s%s%s
@@ -341,6 +344,7 @@ $tI
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 *
 * Available base %08X
+*.*
 *=
 *N12_GLOBAL__N_121system_error_categoryE
 *N12_GLOBAL__N_122generic_error_categoryE
@@ -350,6 +354,7 @@ $tI
 *N6vortex12_GLOBAL__N_117CDisambiguatorTDME
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN18CHandAnimEvaluatorC4EPN2vr14IVRDriverInputEyP14IHandPoseLogicNS4_11EVRHandSideEEUlvE_EEEEEE
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN22CThreadWatchdogManager13InitWatchdogsEvEUlvE_EEEEEE
+*Z13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
 *Z33InitInternalInterfacesNonStandardPFPvPKcEEUlS1_E_
 *ZN10CLogBufferC4EvEUl9ELogLevelPKcPvE_
 *ZN10CVRMailbox22AutoForwardMessageTypeESsRKSsEUlRKN4Json5ValueEE_
@@ -923,6 +928,7 @@ $tI
 .L1762
 .L177
 .L178
+.L1783
 .L1784
 .L1786
 .L1787
@@ -934,8 +940,6 @@ $tI
 .L1792
 .L1793
 .L1794
-.L1796
-.L1797
 .L1798
 .L1799
 .L18
@@ -1014,6 +1018,7 @@ $tI
 .L20
 .L200
 .L201
+.L202
 .L203
 .L2037
 .L2038
@@ -1032,11 +1037,10 @@ $tI
 .L206
 .L207
 .L208
+.L209
 .L21
 .L210
-.L211
 .L212
-.L213
 .L214
 .L215
 .L2150
@@ -1084,6 +1088,7 @@ $tI
 .L228
 .L229
 .L23
+.L230
 .L2301
 .L2305
 .L2307
@@ -1114,7 +1119,6 @@ $tI
 .L236
 .L237
 .L238
-.L239
 .L24
 .L240
 .L241
@@ -1367,6 +1371,8 @@ $tI
 .L3141
 .L3142
 .L315
+.L316
+.L317
 .L318
 .L3190
 .L3192
@@ -1380,6 +1386,7 @@ $tI
 .L32
 .L320
 .L3206
+.L321
 .L3211
 .L3213
 .L3214
@@ -1481,7 +1488,6 @@ $tI
 .L376
 .L3765
 .L377
-.L378
 .L379
 .L38
 .L380
@@ -1549,14 +1555,14 @@ $tI
 .L439
 .L44
 .L441
+.L4426
 .L4427
-.L4428
+.L4429
 .L443
 .L4430
 .L4431
 .L4432
 .L4433
-.L4434
 .L444
 .L4444
 .L4446
@@ -2033,28 +2039,22 @@ $tI
 .L8665
 .L867
 .L868
-.L8688
-.L8690
-.L8691
-.L8692
-.L8693
-.L8694
 .L87
 .L870
 .L871
-.L8717
-.L8719
 .L872
-.L8720
-.L8721
 .L8722
-.L8723
-.L8746
-.L8748
-.L8749
-.L8750
+.L8724
+.L8725
+.L8726
+.L8727
+.L8728
 .L8751
-.L8752
+.L8753
+.L8754
+.L8755
+.L8756
+.L8757
 .L878
 .L879
 .L88
@@ -2103,6 +2103,12 @@ $tI
 .L926
 .L93
 .L94
+.L9452
+.L9454
+.L9455
+.L9456
+.L9457
+.L9458
 .L95
 .L9505
 .L9507
@@ -2372,7 +2378,7 @@ $tI
 20IVRAudioNotification
 22CKeyframedDataResource
 22CLighthouseHmdProvider
-23:51:46
+23:51:55
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3012,6 +3018,22 @@ CCircularProtobuf::~CCircularProtobuf()
 CDampedFloat::Update(float, float, float)
 CDampedVector::Reset(VectorAligned const&)
 CDampedVector::Update(VectorAligned const&, float, float)
+CDirIterator::BCurrentIsDir() const
+CDirIterator::BCurrentIsHidden() const
+CDirIterator::BCurrentIsMarkedForArchive() const
+CDirIterator::BCurrentIsReadOnly() const
+CDirIterator::BCurrentIsSystem() const
+CDirIterator::BNextFile()
+CDirIterator::BValidFilename()
+CDirIterator::CDirIterator(char const*, char const*)
+CDirIterator::CDirIterator(char const*, char const*) [clone .cold]
+CDirIterator::CurrentFileCreateTime() const
+CDirIterator::CurrentFileLength() const
+CDirIterator::CurrentFileName()
+CDirIterator::CurrentFileWriteTime() const
+CDirIterator::Init(std::string const&)
+CDirIterator::IsValid() const
+CDirIterator::~CDirIterator()
 CDisambiguatorFramer: Non monotonicity in ProcessSensorHit
 CDriverLog::Log(char const*)
 CET
@@ -3342,10 +3364,10 @@ CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)
 CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*) [clone .cold]
 CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vBlueChromaticCorrection
 CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vRedChromaticCorrection
-CLighthouseHmdDriver::HandleDebug_SetEyeToHead(char const*)
-CLighthouseHmdDriver::HandleDebug_SetEyeToHead(char const*) [clone .cold]
 CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*)
 CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*) [clone .cold]
+CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*)
+CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*) [clone .cold]
 CLighthouseHmdDriver::HasTrackedCamera()
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&) [clone .cold]
@@ -3589,11 +3611,11 @@ CRefCount::Release() const
 CST
 CSWTCH.101
 CSWTCH.123
-CSWTCH.130
+CSWTCH.132
 CSWTCH.138
 CSWTCH.140
 CSWTCH.157
-CSWTCH.208
+CSWTCH.211
 CSWTCH.2112
 CSWTCH.224
 CSWTCH.927
@@ -4005,8 +4027,11 @@ Discarding %u haptic events because there were too many this frame
 Discarding duplicate universe %llu at index %d when parsing db json file %s
 Display
 DisplayFPGA
+Display_Camera_Calibration::BAppearsToBeCalibrated() const
 Display_Camera_Calibration::BDistortionsEqual(Display_Camera_Calibration const&)
 Display_Camera_Calibration::BEyeToHeadEqual(Display_Camera_Calibration const&)
+Display_Camera_Calibration::BHasFlippedIntrinsics() const
+Display_Camera_Calibration::GetEyeToHead() const
 Display_Camera_Calibration::ReorientIntrinsics(bool)
 Display_Camera_Calibration::clear()
 Display_Camera_Calibration::from_json(Json::Value const&)
@@ -4073,7 +4098,7 @@ ECameraHAL_OpenError_ToString::mapStrings
 EET
 ERROR
 ERROR: Expected 2 float args, '
-ERROR: Expected 2 float args, fCantingAngleDegrees, fClockingAngleDegrees'
+ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
 ERROR: GetEdidId (%d)
 ERROR: GetVideoConfig (%d)
 ERROR: No display or device
@@ -4384,13 +4409,16 @@ File is empty :
 File not found :
 File open error :
 File open error for writing :
+File path truncated
 File read error :
 File recursively imports itself:
 File size mismatch :
 File write error:
 File:
+FileSelect(dirent const*)
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
+FillDataStruct(_finddata_t*)
 FindUserDataByName(unsigned char const*, unsigned int, char const*, int*)
 Firmware
 Firmware Recovery In Progress (139)
@@ -4617,7 +4645,7 @@ ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRAudioDevices::CVRAudioDeviceInfo::~CVRAudioDeviceInfo()
-IVRBlockQueue_004
+IVRBlockQueue_005
 IVRCameraComponent_003
 IVRChaperoneInternal_001
 IVRChaperoneSetup_006
@@ -4675,6 +4703,7 @@ Infinity
 InitCameraHAL
 InitCameraHAL.cold
 InitDriverLog(vr::IVRDriverLog*)
+InitDriverLog(vr::IVRDriverLog*) [clone .cold]
 InitInternalClientInterfaces(std::function<void* (char const*)>)
 InitInternalInterfaces(std::function<void* (char const*)>, bool)
 InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
@@ -4759,6 +4788,8 @@ Invalid wire type for CPPTYPE_MESSAGE:
 Invalid wire type for CPPTYPE_UINT32:
 Invalid wire type for CPPTYPE_UINT64:
 Invalid.
+IpAndPortToString(unsigned int, unsigned short)
+IpToString(unsigned int)
 IsDriverLogActive()
 IsManual
 IsOnLaptop()
@@ -5651,6 +5682,7 @@ Not the preferred basestation
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Nov
+Nov  8 2021
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -5692,7 +5724,6 @@ OSTypesAreCompatible(EOSType, EOSType)
 OSTypesAreCompatible(EOSType, EOSType) [clone .part.0]
 Object
 Oct
-Oct 18 2021
 October
 Ok
 Old Normal: %f %f %f
@@ -5817,6 +5848,7 @@ Parsing of JSON string "%s" failed: %s
 Partial preamble
 Path_Compact(std::string const&, char)
 Path_Compact(std::string const&, char) [clone .cold]
+Path_DeleteDirectory(std::string const&, bool)
 Path_Exists( absFilePath )
 Path_Exists(std::string const&)
 Path_FilePathToUrl(std::string const&, std::string const&)
@@ -6438,7 +6470,6 @@ Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentId
-ThreadGetCurrentId::s_selftid
 ThreadGetCurrentProcessHandle
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
@@ -6667,6 +6698,14 @@ VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
 VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
 VR Dashboard Not Found (133)
 VR Dashboard startup failed (134)
+VR Dashboard startup failed, attempt to communicate with vrservice timed out (161)
+VR Dashboard startup failed, path error (167)
+VR Dashboard startup failed, required files did not copy correctly (164)
+VR Dashboard startup failed, unable to create appropriate environment (166)
+VR Dashboard startup failed, unable to create appropriate token (165)
+VR Dashboard startup failed, vrdashboard was already running (163)
+VR Dashboard startup failed, vrservice was pending for too long (160)
+VR Dashboard startup failed, vrservice was stopped (162)
 VR Home Not Found (135)
 VR Monitor Not Found (127)
 VR Monitor startup failed (128)
@@ -6799,6 +6838,7 @@ VRInitError_Driver_PeerDriverNotInstalled
 VRInitError_Driver_RuntimeOutOfDate
 VRInitError_Driver_TrackedDeviceInterfaceUnknown
 VRInitError_Driver_Unknown
+VRInitError_Driver_WirelessHmdNotConnected
 VRInitError_IPC_CompositorConnectFailed
 VRInitError_IPC_CompositorInitFailed
 VRInitError_IPC_CompositorInvalidConnectResponse
@@ -6860,8 +6900,16 @@ VRInitError_Init_TrackerManagerInitFailed
 VRInitError_Init_USBServiceBusy
 VRInitError_Init_UserConfigDirectoryInvalid
 VRInitError_Init_VRClientDLLNotFound
+VRInitError_Init_VRDashboardAlreadyStarted
+VRInitError_Init_VRDashboardCopyFailed
+VRInitError_Init_VRDashboardEnvironmentFailure
 VRInitError_Init_VRDashboardNotFound
+VRInitError_Init_VRDashboardPathFailure
+VRInitError_Init_VRDashboardServicePending
+VRInitError_Init_VRDashboardServiceStopped
+VRInitError_Init_VRDashboardServiceTimeout
 VRInitError_Init_VRDashboardStartupFailed
+VRInitError_Init_VRDashboardTokenFailure
 VRInitError_Init_VRHomeNotFound
 VRInitError_Init_VRHomeStartupFailed
 VRInitError_Init_VRMonitorNotFound
@@ -7044,6 +7092,8 @@ VectorAligned::vLeft
 VectorAligned::vOne
 VectorAligned::vUp
 VectorAligned::vZero
+VerifyTidIntegrity failed for thread %d. Most likely this process was forked after calling ThreadGetCurrentId.
+VerifyTidIntegrity()
 VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)
 VerifyUSBUserDataInDirectory: %s data stream failed size validation. Expected %d bytes, copied %d from device
 VerifyUSBUserDataInDirectory: %s failed crc/size validation, replacing with data from device...
@@ -7152,6 +7202,7 @@ WillLog(ELogLevel)
 Win 10
 Windows
 Windows 10
+Windows 11
 Windows 2000
 Windows 2003
 Windows 2008
@@ -7266,6 +7317,7 @@ _GLOBAL__sub_I_disambiguation_framer.cpp
 _GLOBAL__sub_I_disambiguation_sob.cpp
 _GLOBAL__sub_I_disambiguation_tdm.cpp
 _GLOBAL__sub_I_driver_lighthouse.cpp
+_GLOBAL__sub_I_driverlog.cpp
 _GLOBAL__sub_I_dynamic_message.cc
 _GLOBAL__sub_I_eh_alloc.cc
 _GLOBAL__sub_I_etroncamera.cpp
@@ -7668,6 +7720,9 @@ __xstat64
 _edata
 _end
 _exit
+_findclose(long long)
+_findfirst(char const*, _finddata_t*)
+_findnext(long long, _finddata_t*)
 _fini
 _init
 _parsefailed.json
@@ -7730,6 +7785,7 @@ alnum
 alpha
 alphaCutoff
 alphaMode
+alphasort
 alse
 also seeing
 amdgpu
@@ -8128,6 +8184,7 @@ ceres::internal::FixedArray<ceres::Jet<double, 9>, 22>::FixedArray(unsigned int)
 cfg
 cfg/hmd/
 channelMap
+channelOrder
 channels
 char
 char const* std::(anonymous namespace)::ucs4_span<char>(char const*, char const*, unsigned int, char32_t, std::codecvt_mode)
@@ -10735,6 +10792,7 @@ htc::CHtcHmdControllerState::Start()
 htc::CHtcHmdControllerState::TriggerHapticPulse(unsigned long long, float, float, float, float)
 htc::CHtcHmdControllerState::~CHtcHmdControllerState()
 htc::CHtcHmdThread::CHtcHmdThread(htc::CHtcHmdThread::ICallback*, htc::CHtcHmdControllerState*, unsigned short, unsigned short)
+htc::CHtcHmdThread::CHtcHmdThread(htc::CHtcHmdThread::ICallback*, htc::CHtcHmdControllerState*, unsigned short, unsigned short) [clone .cold]
 htc::CHtcHmdThread::GetPollingTime()
 htc::CHtcHmdThread::GetThreadName()
 htc::CHtcHmdThread::OnHidClose()
@@ -12075,6 +12133,7 @@ package
 package $0;
 pairing_result
 panel_burn_time_s: %d %d
+panel_clocking
 panel_on_time_deprecated_s: %d %d
 panel_on_time_s: %d %d
 params
@@ -12249,6 +12308,7 @@ s_fnPreCrashCallback
 s_hModule
 s_nInstanceCount
 s_pInstance
+s_pLogCallback
 s_pLogFile
 s_pRealCreateInstance
 s_pRealDestroyInstance
@@ -12259,6 +12319,7 @@ samplers
 sc
 scalar
 scale
+scandir
 scene
 scenes
 sched_get_priority_max
@@ -12276,6 +12337,7 @@ seconds_from_photons_to_vblank
 seconds_from_vsync_to_photons
 seeing
 seen_objects
+selectBuf
 semctl
 semget
 semop
@@ -12288,11 +12350,11 @@ serializing
 service $0 {
 set_chromatic_correction_factors
 set_chromatic_correction_factors %f %f
-set_eye_to_head
-set_eye_to_head %f %f
 set_index_brightness %f
 set_lenscal
 set_lenscal %255s
+set_panel_clocking
+set_panel_clocking %f %f
 set_radio_mode_ble
 set_radio_mode_valve
 setenv
@@ -12578,6 +12640,7 @@ std::_Function_base::_Base_manager<CVRLog::InitLog(char const*, char const*, boo
 std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}> const&, std::_Manager_operation) [clone .cold]
 std::_Function_base::_Base_manager<InitCameraHAL::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitCameraHAL::{lambda(char const*)#1}> const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -12600,6 +12663,7 @@ std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data co
 std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
 std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&) [clone .cold]
 std::_Function_handler<void (ELogLevel, char const*, void*), CVRLog::InitLog(char const*, char const*, bool, unsigned int)::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
+std::_Function_handler<void (ELogLevel, char const*, void*), InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
 std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_invoke(std::_Any_data const&, Json::Value const&)
 std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_invoke(std::_Any_data const&, Json::Value const&) [clone .cold]
 std::_Function_handler<void (Json::Value const&), std::_Bind<void (CLighthousePairing::*(CLighthousePairing*, std::_Placeholder<1>))(Json::Value const&)> >::_M_invoke(std::_Any_data const&, Json::Value const&)
@@ -15038,6 +15102,7 @@ std::underflow_error::~underflow_error()
 std::unexpected()
 std::unique_lock<std::recursive_mutex>::unlock() [clone .isra.0]
 std::unique_ptr<CLogBuffer, std::default_delete<CLogBuffer> >::~unique_ptr()
+std::unique_ptr<CLogCallback, std::default_delete<CLogCallback> >::~unique_ptr()
 std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo> >::_M_default_append(unsigned int)
 std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo> >::~vector()
 std::vector<CISPConfig, std::allocator<CISPConfig> >::operator=(std::vector<CISPConfig, std::allocator<CISPConfig> > const&)
@@ -15157,6 +15222,7 @@ strncmp
 strncpy
 strnicmp(char const*, char const*, unsigned int)
 strpbrk
+strrchr
 strstr
 strtod
 strtof
@@ -15558,6 +15624,7 @@ typeinfo for IUsbDeviceCallback
 typeinfo for IVRAudioDevices
 typeinfo for IVRAudioNotification
 typeinfo for InitCameraHAL::{lambda(char const*)#1}
+typeinfo for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
 typeinfo for InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}
 typeinfo for Json::BuiltStyledStreamWriter
 typeinfo for Json::CharReader
@@ -16054,6 +16121,7 @@ typeinfo name for IUsbDeviceCallback
 typeinfo name for IVRAudioDevices
 typeinfo name for IVRAudioNotification
 typeinfo name for InitCameraHAL::{lambda(char const*)#1}
+typeinfo name for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
 typeinfo name for InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}
 typeinfo name for Json::BuiltStyledStreamWriter
 typeinfo name for Json::CharReader
@@ -17602,6 +17670,7 @@ vortex::CLighthouseIMUThread::SetHMDMuteState(vortex::CLighthouseIMUThread::HmdM
 vortex::CLighthouseIMUThread::SetISPSyncDivisor(unsigned char)
 vortex::CLighthouseIMUThread::SetLedEmitterConfig(unsigned char, unsigned int)
 vortex::CLighthouseIMUThread::SetLedSchedule(vortex::qpd_cmd_schedule_t const&)
+vortex::CLighthouseIMUThread::SetLedSequence(signed char const*, unsigned char)
 vortex::CLighthouseIMUThread::SetMonitorCallback(void*, vortex::CLighthouseIMUThread::IMonitorCallback*)
 vortex::CLighthouseIMUThread::SetPanelColumnCorrection(vortex::panel_column_correction_t const&, vortex::panel_column_correction_t const&)
 vortex::CLighthouseIMUThread::SetRadioMode(vortex::ERadioMode)
@@ -17642,10 +17711,12 @@ vortex::CLighthouseIMUThread::s_StandardGravity
 vortex::CLighthouseIMUThread::~CLighthouseIMUThread()
 vortex::CLighthouseInput::CConnection::BNeedReconnection() const
 vortex::CLighthouseInput::CConnection::CConnection(std::string const&)
+vortex::CLighthouseInput::CConnection::CConnection(std::string const&) [clone .cold]
 vortex::CLighthouseInput::CConnection::ConfigureInput()
 vortex::CLighthouseInput::CConnection::ConfigureInput() [clone .cold]
 vortex::CLighthouseInput::CConnection::ConnectOrReconnect()
 vortex::CLighthouseInput::CConnection::Disconnect()
+vortex::CLighthouseInput::CConnection::Disconnect() [clone .cold]
 vortex::CLighthouseInput::CConnection::GetVrcInterface() const
 vortex::CLighthouseInput::CConnection::GetWirelessDongleSerialNumber(std::string*)
 vortex::CLighthouseInput::CConnection::GetWirelessDongleSerialNumber(std::string*) [clone .cold]
@@ -17658,6 +17729,7 @@ vortex::CLighthouseInput::CConnection::SetRawImuCallback(vortex::CLighthouseIMUT
 vortex::CLighthouseInput::CConnection::SetVrcCallback(vortex::CLighthouseIMUThread::IVrcCallback*)
 vortex::CLighthouseInput::CConnection::~CConnection()
 vortex::CLighthouseInput::CLighthouseInput(std::string const&)
+vortex::CLighthouseInput::CLighthouseInput(std::string const&) [clone .cold]
 vortex::CLighthouseInput::GetAllWirelessDongleDescriptions()
 vortex::CLighthouseInput::GetAllWirelessDongleDescriptions() [clone .cold]
 vortex::CLighthouseInput::GetAttachedDeviceId(std::string const&)
@@ -17917,9 +17989,13 @@ vortex::CLighthouseSyncCoordinator::~CLighthouseSyncCoordinator()
 vortex::CLighthouseThreadBase::CLighthouseThreadBase(vortex::CLighthouseThreadBase::CTime&, char const*, int, unsigned short, unsigned short)
 vortex::CLighthouseThreadBase::CLighthouseThreadBase(vortex::CLighthouseThreadBase::CTime&, char const*, int, unsigned short, unsigned short) [clone .cold]
 vortex::CLighthouseThreadBase::CTime::ExtendTimestamp(unsigned int, int)
-vortex::CLighthouseThreadBase::CTime::TimeFromTimestamp(long long)
-vortex::CLighthouseThreadBase::CTime::UpdateUsbTimeFromImuPacket(double, double)
-vortex::CLighthouseThreadBase::CTime::UpdateUsbTimeFromUsbSof(double, double, bool)
+vortex::CLighthouseThreadBase::CTime::ExtendTrackingTimestamp(unsigned int, int)
+vortex::CLighthouseThreadBase::CTime::GetTrackingTimeOffset(vortex::CLighthouseThreadBase::CTime const&) const
+vortex::CLighthouseThreadBase::CTime::GetTrackingTimeOffset(vortex::CLighthouseThreadBase::CTime const&) const [clone .cold]
+vortex::CLighthouseThreadBase::CTime::TimeFromTimestamp(long long) const
+vortex::CLighthouseThreadBase::CTime::TrackingTimeFromTimestamp(long long) const
+vortex::CLighthouseThreadBase::CTime::UpdateTrackingTime(double, double, bool)
+vortex::CLighthouseThreadBase::CTime::UpdateUsbTime(double, double)
 vortex::CLighthouseThreadBase::DeviceAttached()
 vortex::CLighthouseThreadBase::GetKeepaliveTime()
 vortex::CLighthouseThreadBase::GetRateStatusReport()
@@ -18057,12 +18133,6 @@ vortex::CSysTimer::_secondsPerTick
 vortex::CSysTimer::_ticksPerSecond
 vortex::CSysTimer::~CSysTimer()
 vortex::CThreadHelper::ThreadCallback(void*)
-vortex::CUsbSofTracking::CUsbSofTracking(char const*)
-vortex::CUsbSofTracking::GetCurrentUsbFrameNumber()
-vortex::CUsbSofTracking::GetUsbSofTime(unsigned short, int)
-vortex::CUsbSofTracking::Initialize()
-vortex::CUsbSofTracking::Uninitialize()
-vortex::CUsbSofTracking::~CUsbSofTracking()
 vortex::CUserDataThread::Run()
 vortex::CUserDataThread::Run() [clone .cold]
 vortex::CUserDataThread::~CUserDataThread()
