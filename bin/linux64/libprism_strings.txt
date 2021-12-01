@@ -473,7 +473,7 @@ $+
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
 2
-20:44:39
+20:30:50
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
@@ -1246,6 +1246,7 @@ De
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 Dec
+Dec  1 2021
 December
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex
@@ -2065,7 +2066,6 @@ NanosecondsFromSystemTicks(unsigned long)
 NewBatch
 None
 Nov
-Nov 11 2021
 November
 Null
 Null Client
