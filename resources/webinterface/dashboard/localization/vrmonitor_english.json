@@ -295,7 +295,7 @@
 	"Settings_General_Notifications_Label": "Notifications",
 	"Settings_General_Notifications_Text": "Allow notifications while in VR",
 	"Settings_General_ShowBindingUI": "Edit Controller Bindings",
-	"Settings_General_ShowTrackerUI": "Manage Vive Trackers",
+	"Settings_General_ShowTrackerUI": "Manage Trackers",
 
 	"Settings_General_Cancel": "Cancel",
 	"Settings_General_Confirm": "Confirm",

@@ -1559,7 +1559,6 @@ $0}
 19InMemoryInputStream
 1e+9999
 2
-20:30:50
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -1578,6 +1577,7 @@ $0}
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:24:35
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -17111,7 +17111,7 @@ DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
 Dec
-Dec  1 2021
+Dec 13 2021
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -34618,6 +34618,8 @@ sxu::ProjectionFromXrFov(XrFovf const&, float*, float*, float*, float*)
 sxu::ProjectionFromXrFov(XrFovf const&, float, float)
 sxu::ResultToString(XrResult, char*)
 sxu::ScalePose(XrPosef&, float)
+sxu::StringToValidPath(std::string&)
+sxu::StringToValidPath(std::string&) [clone .cold]
 sxu::StructureTypeToString(XrStructureType, char*)
 sxu::TextureBoundsFromXrRect(XrRect2Di const&, XrExtent2Di const&)
 sxu::ToXrVector3f(vr::HmdVector3_t const&)

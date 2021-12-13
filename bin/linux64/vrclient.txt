@@ -27909,6 +27909,8 @@
  t sxu::ProjectionFromXrFov(XrFovf const&, float, float)
  t sxu::ResultToString(XrResult, char*)
  t sxu::ScalePose(XrPosef&, float)
+ t sxu::StringToValidPath(std::string&)
+ t sxu::StringToValidPath(std::string&) [clone .cold]
  t sxu::StructureTypeToString(XrStructureType, char*)
  t sxu::TextureBoundsFromXrRect(XrRect2Di const&, XrExtent2Di const&)
  t sxu::ToXrVector3f(vr::HmdVector3_t const&)
