@@ -95,6 +95,35 @@ message CVRMsg_ComputeDistortionResponse {
 	optional bool result = 7;
 }
 
+message CVRMsg_ComputeDistortionBatched {
+	message InputCoord {
+		optional float u = 1;
+		optional float v = 2;
+	}
+
+	optional uint32 eye = 1;
+	optional uint32 channel = 2;
+	optional bool ndc = 3;
+	repeated .CVRMsg_ComputeDistortionBatched.InputCoord coordinates = 4;
+}
+
+message CVRMsg_ComputeDistortionBatchedResponse {
+	message OutputCoord {
+		optional float u = 1;
+		optional float v = 2;
+	}
+
+	optional bool result = 1;
+	repeated .CVRMsg_ComputeDistortionBatchedResponse.OutputCoord coordinates = 2;
+}
+
+message CVRMsg_ShutdownSystem {
+}
+
+message CVRMsg_ShutdownSystemResponse {
+	optional int32 result = 1;
+}
+
 message CVRMsg_GetDriverInfo {
 }
 

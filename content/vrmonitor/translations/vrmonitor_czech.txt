@@ -500,6 +500,7 @@
 "MenuAction_Compositor_ShowMirror" "Povolit VR pohled"
 "MenuAction_Compositor_HideMirror" "Zakázat VR pohled"
 "MenuAction_IdentifyController" "Rozpoznat ovladač"
+"MenuAction_IdentifyTracker" "Identifikovat zařízení"
 "MenuAction_QuickCalibrate" "Rychlá kalibrace"
 "Explanation_QuickCalibrate" "Rychlý reset přípravy místnosti. Nové hranice budou vycentrovány dle momentální pozice headsetu."
 "MenuAction_ResetRuntimeAndQuit" "Resetovat cestu SteamVR"

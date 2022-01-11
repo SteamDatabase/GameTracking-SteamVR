@@ -278,8 +278,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Докладніше"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/uk/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Бездротовий шолом не підключений"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Переконайтеся, що ваш бездротовий шолом увімкнений, щоб його можна було підключити до SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Докладніше"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=ukrainian#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Оновлення відеодрайвера"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Вам потрібно оновити відеодрайвер комп’ютера."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Вам слід оновити драйвер відеокарти комп’ютера або увімкнути планування графічного процесора з апаратним прискоренням."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Докладніше"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

@@ -872,7 +872,7 @@ $@
 20CVRFramerateGovernor
 20CVkCommandBufferPool
 20IVRAudioNotification
-21:24:35
+22:44:39
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -2224,6 +2224,7 @@ CSWTCH.1923
 CSWTCH.209
 CSWTCH.221
 CSWTCH.878
+CSWTCH.90
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
@@ -2311,7 +2312,7 @@ CTrackedCameraCalibration::GetCameraIntrinsics(math::Vec2T<float>*, math::Vec2T<
 CTrackedCameraCalibration::GetCameraProjection(float, float, float, float, math::Matrix44T<float>*) const
 CTrackedCameraCalibration::GetCameraToHead(math::PoseT<float>*) const
 CTrackedCameraCalibration::GetDistortion(float, float, float*, float*) const
-CTrackedCameraCalibration::GetDistortionFunction(std::string&, double*)
+CTrackedCameraCalibration::GetDistortionFunction(std::string&, double*, int)
 CTrackedCameraCalibration::GetRecommendedUndistortion(unsigned int*, unsigned int*) const
 CTrackedCameraCalibration::GetUndistortion(unsigned int*, unsigned int*) const
 CTrackedCameraCalibration::GetWhiteBalance(float*) const
@@ -2827,6 +2828,7 @@ D
 DISTORT_DPOLY3
 DISTORT_DPOLY3_SCALED
 DISTORT_DPOLY4_PANELSCALE
+DISTORT_DPOLY4_QUADRATIC_TILT
 DISTORT_DPOLY4_SCALED
 DISTORT_EXTENDED_FTHETA
 DISTORT_FOV1
@@ -2864,7 +2866,6 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 Dec
-Dec 13 2021
 December
 DeclareCurrentThreadIsMainThread
 Default value for an enum field must be an identifier.
@@ -2872,6 +2873,7 @@ Defaulting Edid to TSB and 0x8888 because we don't know it
 Delayed State Change
 DeleteUserDataImageBuilder(UserDataImageBuilder*)
 DestroyInstanceAndUnload
+DestroyInstanceAndUnload.cold
 Destroying a held mutex
 Detail
 Dev Error
@@ -3806,6 +3808,7 @@ JSON Update
 JSON string too short.
 JST
 Jan
+Jan 11 2022
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -4340,6 +4343,7 @@ LiquidVR::WaitForPresent()
 LiquidVR::WaitTilFinished(unsigned int, unsigned int)
 LiquidVR::sgVcetMotionEstimator
 LoadAndCreateInstance
+LoadAndCreateInstance.cold
 LoadAvailableLayers
 LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)
 LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)::s_vIndicesForLineLoop
@@ -4376,6 +4380,7 @@ MAT2
 MAT3
 MAT4
 MAX10
+MD5(void const*, unsigned int)
 MD5_Base64(unsigned char*)
 MD5_Final(unsigned char*, MD5Context_t*)
 MD5_Hex(unsigned char*)
@@ -4507,7 +4512,6 @@ N3IPC17SharedObjectMutexE
 N3IPC6IEventE
 N3IPC6IMutexE
 N3htc13CHtcHmdThread9ICallbackE
-N3htc13CHtcHmdThreadE
 N3htc22CHtcHmdControllerStateE
 N4Json10CharReader7FactoryE
 N4Json10CharReaderE
@@ -4601,6 +4605,7 @@ N6google8protobuf8internal29DescriptorPoolExtensionFinderE
 N6vortex10CHidDeviceE
 N6vortex12IPoseTrackerE
 N6vortex13CVortexThreadE
+N6vortex13CVrControllerE
 N6vortex14IDisambiguatorE
 N6vortex15CImuOnlyTrackerE
 N6vortex15CUserDataThread9ICallbackE
@@ -5770,6 +5775,7 @@ UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x
 UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d
 UserData Error: Unable to send start user data feature report
 Using default hidden area meshes for model %s
+Using physical device: %s
 Utah
 Utah DV
 Utah EV1
@@ -5837,6 +5843,8 @@ VRCrashHandlingInit(std::function<void (bool)>)::{lambda(void*)#1}::_FUN(void*)
 VRCrashPreCrashSetMinidumpComment(char const*) [clone .part.0]
 VRCrashPreCrashSetMinidumpComment(char const*)::szMinidumpCommentBuffer
 VRCrashPreCrashSetMinidumpComment(char const*)::szPrefix
+VRInitError_Compoistor_CreateBackbufferDepth
+VRInitError_Compoistor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
 VRInitError_Compositor_CreateBlendState
@@ -6042,6 +6050,7 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_WindowsNotInDevMode
@@ -6320,6 +6329,15 @@ Wed
 Wednesday
 WillLog(ELogLevel)
 Win 10
+WinRT
+WinRT::AcquireDisplay(int)
+WinRT::GetAdapterLuid(int, void*)
+WinRT::GetCurrentDriverVersion()
+WinRT::GetDeviceString(int)
+WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
+WinRT::HasDisplay(int)
+WinRT::Present()
+WinRT::WaitForPresent(unsigned long*, float*)
 Windows
 Windows 10
 Windows 11
@@ -7793,6 +7811,7 @@ facet::DXGIFormatFromVk(VkFormat)
 facet::GetFlatIndex(SwapchainIndices_t const&)
 facet::GetFov(glm::mat<4, 4, float, (glm::qualifier)0> const&, float*, float*, float*, float*)
 facet::GetLUIDFromDeviceId(facet::VkDeviceId_t const&, unsigned long&)
+facet::GetSrgbFormat(VkFormat)
 facet::GetVulkanSampleCount(unsigned int)
 facet::InitDeviceId(facet::VkDeviceId_t&, VkPhysicalDeviceIDProperties const&)
 facet::IsDepthFormat(VkFormat)
@@ -7801,6 +7820,7 @@ facet::IsDepthStencilFormat(VkFormat)
 facet::IsDeviceIdValid(facet::VkDeviceId_t const&)
 facet::IsInDebugSession()
 facet::IsInDebugSession()::fp
+facet::IsSrgbFormat(VkFormat)
 facet::ToIPC(unsigned long)
 facet::VkFormatFromDXGI(unsigned int, VkFormat*)
 facet::WaitUntil(double)
@@ -11693,6 +11713,7 @@ s_bCurrentMiniDumpIsFatal
 s_bMinidumpCommentAlreadySet
 s_fnPreCrashCallback
 s_hModule
+s_mutex
 s_nInstanceCount
 s_pInstance
 s_pLogCallback

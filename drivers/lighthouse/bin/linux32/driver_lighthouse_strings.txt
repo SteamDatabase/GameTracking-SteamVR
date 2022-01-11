@@ -1040,7 +1040,9 @@ $tI
 .L209
 .L21
 .L210
+.L211
 .L212
+.L213
 .L214
 .L215
 .L2150
@@ -1119,6 +1121,7 @@ $tI
 .L236
 .L237
 .L238
+.L239
 .L24
 .L240
 .L241
@@ -1374,6 +1377,7 @@ $tI
 .L316
 .L317
 .L318
+.L319
 .L3190
 .L3192
 .L3193
@@ -1386,7 +1390,6 @@ $tI
 .L32
 .L320
 .L3206
-.L321
 .L3211
 .L3213
 .L3214
@@ -2376,7 +2379,7 @@ $tI
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
-21:24:33
+22:44:37
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -3619,6 +3622,7 @@ CSWTCH.211
 CSWTCH.2112
 CSWTCH.224
 CSWTCH.927
+CSWTCH.93
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
@@ -3685,7 +3689,7 @@ CTrackedCameraCalibration::GetCameraIntrinsics(math::Vec2T<float>*, math::Vec2T<
 CTrackedCameraCalibration::GetCameraProjection(float, float, float, float, math::Matrix44T<float>*) const
 CTrackedCameraCalibration::GetCameraToHead(math::PoseT<float>*) const
 CTrackedCameraCalibration::GetDistortion(float, float, float*, float*) const
-CTrackedCameraCalibration::GetDistortionFunction(std::string&, double*)
+CTrackedCameraCalibration::GetDistortionFunction(std::string&, double*, int)
 CTrackedCameraCalibration::GetRecommendedUndistortion(unsigned int*, unsigned int*) const
 CTrackedCameraCalibration::GetUndistortion(unsigned int*, unsigned int*) const
 CTrackedCameraCalibration::GetWhiteBalance(float*) const
@@ -3958,6 +3962,7 @@ D
 DISTORT_DPOLY3
 DISTORT_DPOLY3_SCALED
 DISTORT_DPOLY4_PANELSCALE
+DISTORT_DPOLY4_QUADRATIC_TILT
 DISTORT_DPOLY4_SCALED
 DISTORT_EXTENDED_FTHETA
 DISTORT_FOV1
@@ -3994,7 +3999,6 @@ Dd
 De
 DebugDriverLog(char const*, ...)
 Dec
-Dec 13 2021
 December
 DeclareCurrentThreadIsMainThread
 Default value for an enum field must be an identifier.
@@ -4002,6 +4006,7 @@ Defaulting Edid to TSB and 0x8888 because we don't know it
 Delayed State Change
 DeleteUserDataImageBuilder(UserDataImageBuilder*)
 DestroyInstanceAndUnload
+DestroyInstanceAndUnload.cold
 Dev Error
 Device %s powering off upon entering standby.
 Device %s requires driver %s, which is not present
@@ -4812,6 +4817,7 @@ JSON Update
 JSON string too short.
 JST
 Jan
+Jan 11 2022
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -5344,6 +5350,7 @@ LiquidVR::WaitForPresent()
 LiquidVR::WaitTilFinished(unsigned int, unsigned int)
 LiquidVR::sgVcetMotionEstimator
 LoadAndCreateInstance
+LoadAndCreateInstance.cold
 LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)
 LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*) [clone .cold]
 LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)::s_vIndicesForLineLoop
@@ -5379,6 +5386,7 @@ MAT2
 MAT3
 MAT4
 MAX10
+MD5(void const*, unsigned int)
 MD5_Base64(unsigned char*)
 MD5_Final(unsigned char*, MD5Context_t*)
 MD5_Hex(unsigned char*)
@@ -5583,6 +5591,7 @@ N6google8protobuf8internal29DescriptorPoolExtensionFinderE
 N6vortex10CHidDeviceE
 N6vortex12IPoseTrackerE
 N6vortex13CVortexThreadE
+N6vortex13CVrControllerE
 N6vortex14IDisambiguatorE
 N6vortex15CImuOnlyTrackerE
 N6vortex15CUserDataThread9ICallbackE
@@ -6730,6 +6739,8 @@ VRCrashHandlingInit(std::function<void (bool)>)::{lambda(void*)#1}::_FUN(void*)
 VRCrashPreCrashSetMinidumpComment(char const*) [clone .part.0]
 VRCrashPreCrashSetMinidumpComment(char const*)::szMinidumpCommentBuffer
 VRCrashPreCrashSetMinidumpComment(char const*)::szPrefix
+VRInitError_Compoistor_CreateBackbufferDepth
+VRInitError_Compoistor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
 VRInitError_Compositor_CreateBlendState
@@ -6935,6 +6946,7 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_WindowsNotInDevMode
@@ -7200,6 +7212,15 @@ Wed
 Wednesday
 WillLog(ELogLevel)
 Win 10
+WinRT
+WinRT::AcquireDisplay(int)
+WinRT::GetAdapterLuid(int, void*)
+WinRT::GetCurrentDriverVersion()
+WinRT::GetDeviceString(int)
+WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
+WinRT::HasDisplay(int)
+WinRT::Present()
+WinRT::WaitForPresent(unsigned long long*, float*)
 Windows
 Windows 10
 Windows 11
@@ -12306,6 +12327,7 @@ s_bCurrentMiniDumpIsFatal
 s_bMinidumpCommentAlreadySet
 s_fnPreCrashCallback
 s_hModule
+s_mutex
 s_nInstanceCount
 s_pInstance
 s_pLogCallback

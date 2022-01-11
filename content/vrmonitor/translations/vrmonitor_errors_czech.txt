@@ -278,8 +278,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Více informací"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Bezdrátový headset není připojen"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Ujistěte se, že je bezdrátový headset zapnut a schopen spojení s režimem SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Více informací"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizace ovladače grafické karty"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Je vyžadována aktualizace ovladače grafické karty."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Je vyžadována aktualizace ovladače grafické karty nebo povolení plánování GPU s hardwarovou akcelerací."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Více informací"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
 

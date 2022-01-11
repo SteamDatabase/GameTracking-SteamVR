@@ -444,6 +444,14 @@
  b (anonymous namespace)::CVRMsg_CompositorUpdateScreenshotProgressResponse_reflection_
  b (anonymous namespace)::CVRMsg_CompositorUpdateScreenshotProgress_descriptor_
  b (anonymous namespace)::CVRMsg_CompositorUpdateScreenshotProgress_reflection_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord_descriptor_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord_reflection_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatchedResponse_descriptor_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatchedResponse_reflection_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatched_InputCoord_descriptor_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatched_InputCoord_reflection_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatched_descriptor_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatched_reflection_
  b (anonymous namespace)::CVRMsg_ComputeDistortionResponse_descriptor_
  b (anonymous namespace)::CVRMsg_ComputeDistortionResponse_reflection_
  b (anonymous namespace)::CVRMsg_ComputeDistortion_descriptor_
@@ -612,6 +620,10 @@
  b (anonymous namespace)::CVRMsg_ShouldKillTheaterPancakeProcessResponse_reflection_
  b (anonymous namespace)::CVRMsg_ShouldKillTheaterPancakeProcess_descriptor_
  b (anonymous namespace)::CVRMsg_ShouldKillTheaterPancakeProcess_reflection_
+ b (anonymous namespace)::CVRMsg_ShutdownSystemResponse_descriptor_
+ b (anonymous namespace)::CVRMsg_ShutdownSystemResponse_reflection_
+ b (anonymous namespace)::CVRMsg_ShutdownSystem_descriptor_
+ b (anonymous namespace)::CVRMsg_ShutdownSystem_reflection_
  b (anonymous namespace)::CVRMsg_StartAutolaunchOverlays_descriptor_
  b (anonymous namespace)::CVRMsg_StartAutolaunchOverlays_reflection_
  b (anonymous namespace)::CVRMsg_StartDashboardResponse_descriptor_
@@ -757,6 +769,7 @@
  b (anonymous namespace)::timepunct_cache_c
  b (anonymous namespace)::timepunct_cache_w
  b (anonymous namespace)::timepunct_w
+ b AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&)::dpadDirections
  b AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
  b BInitializeLogging()::s_LogMutex
  b BInitializeLogging()::s_bLogInitialized
@@ -889,6 +902,10 @@
  b CVRMsg_CompositorUpdateScreenshotProgress::default_instance_
  b CVRMsg_CompositorUpdateScreenshotProgressResponse::default_instance_
  b CVRMsg_ComputeDistortion::default_instance_
+ b CVRMsg_ComputeDistortionBatched::default_instance_
+ b CVRMsg_ComputeDistortionBatchedResponse::default_instance_
+ b CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::default_instance_
+ b CVRMsg_ComputeDistortionBatched_InputCoord::default_instance_
  b CVRMsg_ComputeDistortionResponse::default_instance_
  b CVRMsg_Connect::default_instance_
  b CVRMsg_ConnectResponse::default_instance_
@@ -971,6 +988,8 @@
  b CVRMsg_Settings_SetValue_Response::default_instance_
  b CVRMsg_ShouldKillTheaterPancakeProcess::default_instance_
  b CVRMsg_ShouldKillTheaterPancakeProcessResponse::default_instance_
+ b CVRMsg_ShutdownSystem::default_instance_
+ b CVRMsg_ShutdownSystemResponse::default_instance_
  b CVRMsg_StartAutolaunchOverlays::default_instance_
  b CVRMsg_StartDashboard::default_instance_
  b CVRMsg_StartDashboardResponse::default_instance_
@@ -1164,6 +1183,7 @@
  b g_bSuspendResumeAck
  b g_bTestMode
  b g_hmdSystem
+ b g_isDpadBindingEnabled
  b g_isHandModelPoseEnabled
  b g_isViveTrackerProfileEnabled
  b g_legalInteractionProfiles
@@ -1256,6 +1276,7 @@
  b gli::dx::dx()::Table
  b guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
  b guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
+ b guard variable for AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&)::dpadDirections
  b guard variable for AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
  b guard variable for BInitializeLogging()::s_LogMutex
  b guard variable for BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
@@ -2688,6 +2709,10 @@
  d typeinfo for CVRMsg_CompositorUpdateScreenshotProgress
  d typeinfo for CVRMsg_CompositorUpdateScreenshotProgressResponse
  d typeinfo for CVRMsg_ComputeDistortion
+ d typeinfo for CVRMsg_ComputeDistortionBatched
+ d typeinfo for CVRMsg_ComputeDistortionBatchedResponse
+ d typeinfo for CVRMsg_ComputeDistortionBatchedResponse_OutputCoord
+ d typeinfo for CVRMsg_ComputeDistortionBatched_InputCoord
  d typeinfo for CVRMsg_ComputeDistortionResponse
  d typeinfo for CVRMsg_Connect
  d typeinfo for CVRMsg_ConnectResponse
@@ -2770,6 +2795,8 @@
  d typeinfo for CVRMsg_Settings_SetValue_Response
  d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcess
  d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcessResponse
+ d typeinfo for CVRMsg_ShutdownSystem
+ d typeinfo for CVRMsg_ShutdownSystemResponse
  d typeinfo for CVRMsg_StartAutolaunchOverlays
  d typeinfo for CVRMsg_StartDashboard
  d typeinfo for CVRMsg_StartDashboardResponse
@@ -3087,6 +3114,7 @@
  d typeinfo for OverlayViewInterfaceRegistration<CVROverlayView_002>
  d typeinfo for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}
  d typeinfo for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}
+ d typeinfo for ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}
  d typeinfo for Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>
  d typeinfo for Reflection::Detail::ToBaseT<CKeyframedDataResource, CAnimResource>
  d typeinfo for Reflection::Detail::ToBase_t
@@ -3666,6 +3694,10 @@
  d vtable for CVRMsg_CompositorUpdateScreenshotProgress
  d vtable for CVRMsg_CompositorUpdateScreenshotProgressResponse
  d vtable for CVRMsg_ComputeDistortion
+ d vtable for CVRMsg_ComputeDistortionBatched
+ d vtable for CVRMsg_ComputeDistortionBatchedResponse
+ d vtable for CVRMsg_ComputeDistortionBatchedResponse_OutputCoord
+ d vtable for CVRMsg_ComputeDistortionBatched_InputCoord
  d vtable for CVRMsg_ComputeDistortionResponse
  d vtable for CVRMsg_Connect
  d vtable for CVRMsg_ConnectResponse
@@ -3748,6 +3780,8 @@
  d vtable for CVRMsg_Settings_SetValue_Response
  d vtable for CVRMsg_ShouldKillTheaterPancakeProcess
  d vtable for CVRMsg_ShouldKillTheaterPancakeProcessResponse
+ d vtable for CVRMsg_ShutdownSystem
+ d vtable for CVRMsg_ShutdownSystemResponse
  d vtable for CVRMsg_StartAutolaunchOverlays
  d vtable for CVRMsg_StartDashboard
  d vtable for CVRMsg_StartDashboardResponse
@@ -4354,7 +4388,7 @@
  r CSWTCH.209
  r CSWTCH.221
  r CSWTCH.28
- r CSWTCH.373
+ r CSWTCH.409
  r CSWTCH.725
  r CSWTCH.772
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -4502,6 +4536,10 @@
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_CompositorUnrefSharedResource_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_CompositorUpdateScreenshotProgressResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_CompositorUpdateScreenshotProgress_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionBatchedResponse_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionBatched_InputCoord_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionBatched_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortion_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ConnectResponse_offsets_
@@ -4585,6 +4623,8 @@
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_Settings_SetValue_Response_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShouldKillTheaterPancakeProcessResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShouldKillTheaterPancakeProcess_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShutdownSystemResponse_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShutdownSystem_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartAutolaunchOverlays_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartDashboardResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartDashboard_offsets_
@@ -5048,6 +5088,10 @@
  r typeinfo name for CVRMsg_CompositorUpdateScreenshotProgress
  r typeinfo name for CVRMsg_CompositorUpdateScreenshotProgressResponse
  r typeinfo name for CVRMsg_ComputeDistortion
+ r typeinfo name for CVRMsg_ComputeDistortionBatched
+ r typeinfo name for CVRMsg_ComputeDistortionBatchedResponse
+ r typeinfo name for CVRMsg_ComputeDistortionBatchedResponse_OutputCoord
+ r typeinfo name for CVRMsg_ComputeDistortionBatched_InputCoord
  r typeinfo name for CVRMsg_ComputeDistortionResponse
  r typeinfo name for CVRMsg_Connect
  r typeinfo name for CVRMsg_ConnectResponse
@@ -5130,6 +5174,8 @@
  r typeinfo name for CVRMsg_Settings_SetValue_Response
  r typeinfo name for CVRMsg_ShouldKillTheaterPancakeProcess
  r typeinfo name for CVRMsg_ShouldKillTheaterPancakeProcessResponse
+ r typeinfo name for CVRMsg_ShutdownSystem
+ r typeinfo name for CVRMsg_ShutdownSystemResponse
  r typeinfo name for CVRMsg_StartAutolaunchOverlays
  r typeinfo name for CVRMsg_StartDashboard
  r typeinfo name for CVRMsg_StartDashboardResponse
@@ -5447,6 +5493,7 @@
  r typeinfo name for OverlayViewInterfaceRegistration<CVROverlayView_002>
  r typeinfo name for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}
  r typeinfo name for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}
+ r typeinfo name for ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}
  r typeinfo name for Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>
  r typeinfo name for Reflection::Detail::ToBaseT<CKeyframedDataResource, CAnimResource>
  r typeinfo name for Reflection::Detail::ToBase_t
@@ -5858,6 +5905,8 @@
  t ActionDirectionNameToEnum(std::string const&)
  t ActionScopeNameToEnum(std::string const&)
  t ActionTypeNameToEnum(std::string const&)
+ t AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&)
+ t AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t> >)
  t AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t> >) [clone .cold]
  t AddLegalInteractionProfiles()
@@ -6519,11 +6568,14 @@
  t CHmdSystemLatest::ShowUI(vr::EShowUIType) [clone .cold]
  t CHmdSystemLatest::Shutdown(bool)
  t CHmdSystemLatest::Shutdown(bool) [clone .cold]
+ t CHmdSystemLatest::ShutdownSystem()
+ t CHmdSystemLatest::ShutdownSystem() [clone .cold]
  t CHmdSystemLatest::StartAutolaunchOverlays()
  t CHmdSystemLatest::StartAutolaunchOverlays() [clone .cold]
  t CHmdSystemLatest::StartHomeApp()
  t CHmdSystemLatest::StartHomeAppPreload()
  t CHmdSystemLatest::StartHomeAppPreload() [clone .cold]
+ t CHmdSystemLatest::StartSecondaryComponents()
  t CHmdSystemLatest::StartSubsystemProcesses(bool, vr::EVRInitError)
  t CHmdSystemLatest::StartSubsystemProcesses(bool, vr::EVRInitError) [clone .cold]
  t CHmdSystemLatest::StartVRDashboard()
@@ -7608,7 +7660,7 @@
  t CSxrCompositorOpenVR::BeginFrame(CFrameData*)
  t CSxrCompositorOpenVR::CSxrCompositorOpenVR(CSxrInstance*)
  t CSxrCompositorOpenVR::CSxrCompositorOpenVR(CSxrInstance*) [clone .cold]
- t CSxrCompositorOpenVR::ComposeLayerProjection(CFrameData*, XrCompositionLayerProjection const*, long)
+ t CSxrCompositorOpenVR::ComposeLayerProjection(CFrameData*, XrCompositionLayerProjection const*, long, bool)
  t CSxrCompositorOpenVR::ComposeLayerQuad(CFrameData*, XrCompositionLayerQuad const*, long)
  t CSxrCompositorOpenVR::CreateVulkanDevice(XrVulkanDeviceCreateInfoKHR const*, VkDevice_T**, VkResult*)
  t CSxrCompositorOpenVR::CreateVulkanDevice(XrVulkanDeviceCreateInfoKHR const*, VkDevice_T**, VkResult*) [clone .cold]
@@ -7747,6 +7799,7 @@
  t CSxrInstance::CSxrInstance(XrInstanceCreateInfo const*) [clone .cold]
  t CSxrInstance::ComputeBindingFile(std::vector<Json::Value, std::allocator<Json::Value> >&, unsigned long, unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)
  t CSxrInstance::ComputeBindingFile(std::vector<Json::Value, std::allocator<Json::Value> >&, unsigned long, unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&) [clone .cold]
+ t CSxrInstance::ComputeBindingFile(std::vector<Json::Value, std::allocator<Json::Value> >&, unsigned long, unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)::DpadAction::~DpadAction()
  t CSxrInstance::ComputeBindingFiles()
  t CSxrInstance::ComputeBindingFiles() [clone .cold]
  t CSxrInstance::ComputeTrackerBindingFiles(std::vector<Json::Value, std::allocator<Json::Value> >&, std::pair<unsigned long const, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > >&)
@@ -8391,6 +8444,8 @@
  t CVRClient::Cleanup()
  t CVRClient::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
  t CVRClient::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*) [clone .cold]
+ t CVRClient::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
+ t CVRClient::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*) [clone .cold]
  t CVRClient::Init(std::string const&, vr::EVRApplicationType, bool, std::string const&, IVRClientHandler*, IVRClientInternal*)
  t CVRClient::Init(std::string const&, vr::EVRApplicationType, bool, std::string const&, IVRClientHandler*, IVRClientInternal*) [clone .cold]
  t CVRClient::SendConnectMessage(bool)
@@ -11779,6 +11834,106 @@
  t CVRMsg_ComputeDistortion::descriptor()
  t CVRMsg_ComputeDistortion::descriptor() [clone .cold]
  t CVRMsg_ComputeDistortion::~CVRMsg_ComputeDistortion()
+ t CVRMsg_ComputeDistortionBatched::ByteSize() const
+ t CVRMsg_ComputeDistortionBatched::CVRMsg_ComputeDistortionBatched()
+ t CVRMsg_ComputeDistortionBatched::CVRMsg_ComputeDistortionBatched() [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::CVRMsg_ComputeDistortionBatched(CVRMsg_ComputeDistortionBatched const&)
+ t CVRMsg_ComputeDistortionBatched::CVRMsg_ComputeDistortionBatched(CVRMsg_ComputeDistortionBatched const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::Clear()
+ t CVRMsg_ComputeDistortionBatched::CopyFrom(CVRMsg_ComputeDistortionBatched const&)
+ t CVRMsg_ComputeDistortionBatched::GetCachedSize() const
+ t CVRMsg_ComputeDistortionBatched::GetMetadata() const
+ t CVRMsg_ComputeDistortionBatched::GetMetadata() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::InitAsDefaultInstance()
+ t CVRMsg_ComputeDistortionBatched::IsInitialized() const
+ t CVRMsg_ComputeDistortionBatched::MergeFrom(CVRMsg_ComputeDistortionBatched const&)
+ t CVRMsg_ComputeDistortionBatched::MergeFrom(CVRMsg_ComputeDistortionBatched const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::New() const
+ t CVRMsg_ComputeDistortionBatched::New() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ComputeDistortionBatched::SetCachedSize(int) const
+ t CVRMsg_ComputeDistortionBatched::SharedCtor()
+ t CVRMsg_ComputeDistortionBatched::SharedDtor()
+ t CVRMsg_ComputeDistortionBatched::Swap(CVRMsg_ComputeDistortionBatched*)
+ t CVRMsg_ComputeDistortionBatched::default_instance()
+ t CVRMsg_ComputeDistortionBatched::descriptor()
+ t CVRMsg_ComputeDistortionBatched::descriptor() [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::~CVRMsg_ComputeDistortionBatched()
+ t CVRMsg_ComputeDistortionBatchedResponse::ByteSize() const
+ t CVRMsg_ComputeDistortionBatchedResponse::CVRMsg_ComputeDistortionBatchedResponse()
+ t CVRMsg_ComputeDistortionBatchedResponse::CVRMsg_ComputeDistortionBatchedResponse() [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::CVRMsg_ComputeDistortionBatchedResponse(CVRMsg_ComputeDistortionBatchedResponse const&)
+ t CVRMsg_ComputeDistortionBatchedResponse::CVRMsg_ComputeDistortionBatchedResponse(CVRMsg_ComputeDistortionBatchedResponse const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::Clear()
+ t CVRMsg_ComputeDistortionBatchedResponse::CopyFrom(CVRMsg_ComputeDistortionBatchedResponse const&)
+ t CVRMsg_ComputeDistortionBatchedResponse::GetCachedSize() const
+ t CVRMsg_ComputeDistortionBatchedResponse::GetMetadata() const
+ t CVRMsg_ComputeDistortionBatchedResponse::GetMetadata() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::InitAsDefaultInstance()
+ t CVRMsg_ComputeDistortionBatchedResponse::IsInitialized() const
+ t CVRMsg_ComputeDistortionBatchedResponse::MergeFrom(CVRMsg_ComputeDistortionBatchedResponse const&)
+ t CVRMsg_ComputeDistortionBatchedResponse::MergeFrom(CVRMsg_ComputeDistortionBatchedResponse const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::New() const
+ t CVRMsg_ComputeDistortionBatchedResponse::New() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ComputeDistortionBatchedResponse::SetCachedSize(int) const
+ t CVRMsg_ComputeDistortionBatchedResponse::SharedCtor()
+ t CVRMsg_ComputeDistortionBatchedResponse::SharedDtor()
+ t CVRMsg_ComputeDistortionBatchedResponse::Swap(CVRMsg_ComputeDistortionBatchedResponse*)
+ t CVRMsg_ComputeDistortionBatchedResponse::default_instance()
+ t CVRMsg_ComputeDistortionBatchedResponse::descriptor()
+ t CVRMsg_ComputeDistortionBatchedResponse::descriptor() [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::~CVRMsg_ComputeDistortionBatchedResponse()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::ByteSize() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord() [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&)
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::Clear()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CopyFrom(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&)
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::GetCachedSize() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::GetMetadata() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::GetMetadata() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::InitAsDefaultInstance()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::IsInitialized() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::MergeFrom(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&)
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::MergeFrom(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::New() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::New() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::SetCachedSize(int) const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::SharedCtor()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::SharedDtor()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::Swap(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord*)
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::default_instance()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::descriptor()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::descriptor() [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::~CVRMsg_ComputeDistortionBatchedResponse_OutputCoord()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::ByteSize() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CVRMsg_ComputeDistortionBatched_InputCoord()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CVRMsg_ComputeDistortionBatched_InputCoord() [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CVRMsg_ComputeDistortionBatched_InputCoord(CVRMsg_ComputeDistortionBatched_InputCoord const&)
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CVRMsg_ComputeDistortionBatched_InputCoord(CVRMsg_ComputeDistortionBatched_InputCoord const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::Clear()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CopyFrom(CVRMsg_ComputeDistortionBatched_InputCoord const&)
+ t CVRMsg_ComputeDistortionBatched_InputCoord::GetCachedSize() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::GetMetadata() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::GetMetadata() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::InitAsDefaultInstance()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::IsInitialized() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::MergeFrom(CVRMsg_ComputeDistortionBatched_InputCoord const&)
+ t CVRMsg_ComputeDistortionBatched_InputCoord::MergeFrom(CVRMsg_ComputeDistortionBatched_InputCoord const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::New() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::New() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::SetCachedSize(int) const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::SharedCtor()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::SharedDtor()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::Swap(CVRMsg_ComputeDistortionBatched_InputCoord*)
+ t CVRMsg_ComputeDistortionBatched_InputCoord::default_instance()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::descriptor()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::descriptor() [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::~CVRMsg_ComputeDistortionBatched_InputCoord()
  t CVRMsg_ComputeDistortionResponse::ByteSize() const
  t CVRMsg_ComputeDistortionResponse::CVRMsg_ComputeDistortionResponse()
  t CVRMsg_ComputeDistortionResponse::CVRMsg_ComputeDistortionResponse() [clone .cold]
@@ -14274,6 +14429,56 @@
  t CVRMsg_ShouldKillTheaterPancakeProcessResponse::descriptor()
  t CVRMsg_ShouldKillTheaterPancakeProcessResponse::descriptor() [clone .cold]
  t CVRMsg_ShouldKillTheaterPancakeProcessResponse::~CVRMsg_ShouldKillTheaterPancakeProcessResponse()
+ t CVRMsg_ShutdownSystem::ByteSize() const
+ t CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem()
+ t CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem() [clone .cold]
+ t CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem(CVRMsg_ShutdownSystem const&)
+ t CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem(CVRMsg_ShutdownSystem const&) [clone .cold]
+ t CVRMsg_ShutdownSystem::Clear()
+ t CVRMsg_ShutdownSystem::CopyFrom(CVRMsg_ShutdownSystem const&)
+ t CVRMsg_ShutdownSystem::GetCachedSize() const
+ t CVRMsg_ShutdownSystem::GetMetadata() const
+ t CVRMsg_ShutdownSystem::GetMetadata() const [clone .cold]
+ t CVRMsg_ShutdownSystem::InitAsDefaultInstance()
+ t CVRMsg_ShutdownSystem::IsInitialized() const
+ t CVRMsg_ShutdownSystem::MergeFrom(CVRMsg_ShutdownSystem const&)
+ t CVRMsg_ShutdownSystem::MergeFrom(CVRMsg_ShutdownSystem const&) [clone .cold]
+ t CVRMsg_ShutdownSystem::New() const
+ t CVRMsg_ShutdownSystem::New() const [clone .cold]
+ t CVRMsg_ShutdownSystem::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ShutdownSystem::SetCachedSize(int) const
+ t CVRMsg_ShutdownSystem::SharedCtor()
+ t CVRMsg_ShutdownSystem::SharedDtor()
+ t CVRMsg_ShutdownSystem::Swap(CVRMsg_ShutdownSystem*)
+ t CVRMsg_ShutdownSystem::default_instance()
+ t CVRMsg_ShutdownSystem::descriptor()
+ t CVRMsg_ShutdownSystem::descriptor() [clone .cold]
+ t CVRMsg_ShutdownSystem::~CVRMsg_ShutdownSystem()
+ t CVRMsg_ShutdownSystemResponse::ByteSize() const
+ t CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse()
+ t CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse() [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse(CVRMsg_ShutdownSystemResponse const&)
+ t CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse(CVRMsg_ShutdownSystemResponse const&) [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::Clear()
+ t CVRMsg_ShutdownSystemResponse::CopyFrom(CVRMsg_ShutdownSystemResponse const&)
+ t CVRMsg_ShutdownSystemResponse::GetCachedSize() const
+ t CVRMsg_ShutdownSystemResponse::GetMetadata() const
+ t CVRMsg_ShutdownSystemResponse::GetMetadata() const [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::InitAsDefaultInstance()
+ t CVRMsg_ShutdownSystemResponse::IsInitialized() const
+ t CVRMsg_ShutdownSystemResponse::MergeFrom(CVRMsg_ShutdownSystemResponse const&)
+ t CVRMsg_ShutdownSystemResponse::MergeFrom(CVRMsg_ShutdownSystemResponse const&) [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::New() const
+ t CVRMsg_ShutdownSystemResponse::New() const [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ShutdownSystemResponse::SetCachedSize(int) const
+ t CVRMsg_ShutdownSystemResponse::SharedCtor()
+ t CVRMsg_ShutdownSystemResponse::SharedDtor()
+ t CVRMsg_ShutdownSystemResponse::Swap(CVRMsg_ShutdownSystemResponse*)
+ t CVRMsg_ShutdownSystemResponse::default_instance()
+ t CVRMsg_ShutdownSystemResponse::descriptor()
+ t CVRMsg_ShutdownSystemResponse::descriptor() [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::~CVRMsg_ShutdownSystemResponse()
  t CVRMsg_StartAutolaunchOverlays::ByteSize() const
  t CVRMsg_StartAutolaunchOverlays::CVRMsg_StartAutolaunchOverlays()
  t CVRMsg_StartAutolaunchOverlays::CVRMsg_StartAutolaunchOverlays() [clone .cold]
@@ -17497,6 +17702,7 @@
  t CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*) [clone .cold]
  t CVRSystemLatest::ClearHiddenAreaCache()
  t CVRSystemLatest::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
+ t CVRSystemLatest::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
  t CVRSystemLatest::GetAppContainerFilePaths(char*, unsigned int)
  t CVRSystemLatest::GetApplicationSpecificFovScale() const
  t CVRSystemLatest::GetApplicationSpecificFovScale() const [clone .cold]
@@ -17559,6 +17765,8 @@
  t CVRSystemLatest::GetRawZeroPoseToStandingAbsoluteTrackingPose()
  t CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
  t CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*) [clone .cold]
+ t CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
+ t CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int) [clone .cold]
  t CVRSystemLatest::GetRuntimeVersion()
  t CVRSystemLatest::GetRuntimeVersion() [clone .cold]
  t CVRSystemLatest::GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
@@ -17576,6 +17784,7 @@
  t CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*) [clone .cold]
  t CVRSystemLatest::GetZeroPoseFromDevicePose(VRTrackingState_Pose_t const&, vr::HmdMatrix34_t*) const
  t CVRSystemLatest::GetZeroPoseFromDevicePose(VRTrackingState_Pose_t const&, vr::HmdMatrix34_t*) const [clone .part.0]
+ t CVRSystemLatest::HasRemoteFrameTiming()
  t CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
  t CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags) [clone .cold]
  t CVRSystemLatest::IncrementChaperoneDataRefreshIndex()
@@ -18990,6 +19199,7 @@
  t ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_005>::~ChaperoneSetupInterfaceRegistration()
  t CharNeedsEscape_Component(char)
  t CharNeedsEscape_FullPath(char)
+ t CheckMinMax(std::string&, float, float, float)
  t CheckPoseRecipe(CPoseRecipe const&, unsigned char)
  t CleanupAssertCallback()
  t CleanupDriverLog()
@@ -19004,6 +19214,8 @@
  t CollapseInputValues(std::vector<VRInputValue_t, std::allocator<VRInputValue_t> > const&, bool)
  t CompareTrackedDeviceEntry(void const*, void const*)
  t ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_006>::CreateAdapter(void*, std::string const&)
+ t ComposeDpadInputPath(std::string, std::string, std::string, std::string)
+ t ComposeDpadInputPath(std::string, std::string, std::string, std::string) [clone .cold]
  t CompositorInterfaceRegistration<CVRCompositor_003>::GetInterface()
  t CompositorInterfaceRegistration<CVRCompositor_003>::~CompositorInterfaceRegistration()
  t CompositorInterfaceRegistration<CVRCompositor_004>::GetInterface()
@@ -19182,6 +19394,10 @@
  t GetDefaultInputValueForType(EInputValueType, VRInputValue_t*)
  t GetDefaultOverlay()
  t GetDefaultSystem()
+ t GetDpadBindings(char const*)
+ t GetDpadBindings(char const*) [clone .cold]
+ t GetDpadDirection(std::string)
+ t GetDpadSubMode(std::string)
  t GetEnglishStringForHmdError(vr::EVRInitError)
  t GetEnvironmentVariable(char const*)
  t GetEnvironmentVariableAsBool(char const*, bool)
@@ -19320,6 +19536,9 @@
  t HmdInterfaceRegistration<CVRSystem_020>::~HmdInterfaceRegistration()
  t HmdInterfaceRegistration<CVRSystem_021>::GetInterface()
  t HmdInterfaceRegistration<CVRSystem_021>::~HmdInterfaceRegistration()
+ t HmdMatrix34FromJson(Json::Value const&, vr::HmdMatrix34_t&)
+ t HmdMatrix34ToJson(vr::HmdMatrix34_t const&)
+ t HmdMatrix34ToJson(vr::HmdMatrix34_t const&) [clone .cold]
  t HmdMatrix_GetRotationEuler(vr::HmdMatrix34_t const&)
  t HmdMatrix_Invert(vr::HmdMatrix34_t const&, bool*)
  t HmdMatrix_Invert(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t*)
@@ -22109,6 +22328,10 @@
  t IsAppKeyValid(char const*)
  t IsDashboardVisibleInternal()
  t IsDashboardVisibleInternal() [clone .cold]
+ t IsDpadPath(unsigned long)
+ t IsDpadPath(unsigned long) [clone .cold]
+ t IsDpadValidForComponent(unsigned long)
+ t IsDpadValidForComponent(unsigned long) [clone .cold]
  t IsDriverLogActive()
  t IsExtendedStorage(PropertyTableEntry_t const*, unsigned int*, unsigned int*, unsigned int*)
  t IsInputPathLegal(unsigned long, std::string const&, std::string const&)
@@ -22784,6 +23007,8 @@
  t PredictRawPose(double, vr::HmdMatrix34_t const&, VRTrackingState_DeviceInfo_t const&, VRTrackingState_Pose_t const&, vr::TrackedDevicePose_t*)
  t ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)
  t ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*) [clone .cold]
+ t ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)
+ t ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*) [clone .cold]
  t QuaternionAligned::ToMatrix(VectorAligned const&) const
  t ReadJsonFile(std::string const&, Json::Value&, std::string*)
  t ReadJsonFile(std::string const&, Json::Value&, std::string*) [clone .cold]
@@ -23948,6 +24173,7 @@
  t __register_frame_info_table_bases
  t __register_frame_table
  t __tcf_0
+ t __tcf_1
  t _findclose(long)
  t _findfirst(char const*, _finddata_t*)
  t _findnext(long, _finddata_t*)
@@ -24046,6 +24272,7 @@
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_CompositorTakeStereoScreenshotResponse>(unsigned int, unsigned int, CVRMsg_CompositorTakeStereoScreenshotResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_CompositorUnrefSharedResourceResponse>(unsigned int, unsigned int, CVRMsg_CompositorUnrefSharedResourceResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_CompositorUpdateScreenshotProgressResponse>(unsigned int, unsigned int, CVRMsg_CompositorUpdateScreenshotProgressResponse&, unsigned int)
+ t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ComputeDistortionBatchedResponse>(unsigned int, unsigned int, CVRMsg_ComputeDistortionBatchedResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ComputeDistortionResponse>(unsigned int, unsigned int, CVRMsg_ComputeDistortionResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ConnectResponse>(unsigned int, unsigned int, CVRMsg_ConnectResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_CreateSwapTextureSetResponse>(unsigned int, unsigned int, CVRMsg_CreateSwapTextureSetResponse&, unsigned int)
@@ -24075,6 +24302,7 @@
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Settings_GetValueType_Response>(unsigned int, unsigned int, CVRMsg_Settings_GetValueType_Response&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Settings_SetValue_Response>(unsigned int, unsigned int, CVRMsg_Settings_SetValue_Response&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ShouldKillTheaterPancakeProcessResponse>(unsigned int, unsigned int, CVRMsg_ShouldKillTheaterPancakeProcessResponse&, unsigned int)
+ t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ShutdownSystemResponse>(unsigned int, unsigned int, CVRMsg_ShutdownSystemResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse>(unsigned int, unsigned int, CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_EnableResponse>(unsigned int, unsigned int, CVRMsg_TrackedCamera_EnableResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_GetDistortionResponse>(unsigned int, unsigned int, CVRMsg_TrackedCamera_GetDistortionResponse&, unsigned int)
@@ -24380,6 +24608,7 @@
  t facet::GetFlatIndex(SwapchainIndices_t const&)
  t facet::GetFov(glm::mat<4, 4, float, (glm::qualifier)0> const&, float*, float*, float*, float*)
  t facet::GetLUIDFromDeviceId(facet::VkDeviceId_t const&, unsigned long&)
+ t facet::GetSrgbFormat(VkFormat)
  t facet::GetVulkanSampleCount(unsigned int)
  t facet::InitDeviceId(facet::VkDeviceId_t&, VkPhysicalDeviceIDProperties const&)
  t facet::IsDepthFormat(VkFormat)
@@ -24387,6 +24616,7 @@
  t facet::IsDepthStencilFormat(VkFormat)
  t facet::IsDeviceIdValid(facet::VkDeviceId_t const&)
  t facet::IsInDebugSession()
+ t facet::IsSrgbFormat(VkFormat)
  t facet::ToIPC(unsigned long)
  t facet::VkFormatFromDXGI(unsigned int, VkFormat*)
  t facet::WaitUntil(double)
@@ -24560,8 +24790,10 @@
  t non-virtual thunk to CHmdSystemLatest::ShowDevTools(int)
  t non-virtual thunk to CHmdSystemLatest::ShowUI(vr::EShowUIType)
  t non-virtual thunk to CHmdSystemLatest::Shutdown(bool)
+ t non-virtual thunk to CHmdSystemLatest::ShutdownSystem()
  t non-virtual thunk to CHmdSystemLatest::StartAutolaunchOverlays()
  t non-virtual thunk to CHmdSystemLatest::StartHomeApp()
+ t non-virtual thunk to CHmdSystemLatest::StartSecondaryComponents()
  t non-virtual thunk to CHmdSystemLatest::ThisProcessIsCompositor()
  t non-virtual thunk to CHmdSystemLatest::TopologyChanged()
  t non-virtual thunk to CHmdSystemLatest::TransformPoseToUniverse(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const&, vr::ETrackingUniverseOrigin)
@@ -24788,6 +25020,7 @@
  t non-virtual thunk to CVRSystemLatest::AddSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
  t non-virtual thunk to CVRSystemLatest::ApplyApplicationSpecificPoseTransform(unsigned int, vr::TrackedDevicePose_t*, float)
  t non-virtual thunk to CVRSystemLatest::ApplyApplicationSpecificPoseTransform(vr::TrackedDevicePose_t*, unsigned int, float)
+ t non-virtual thunk to CVRSystemLatest::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
  t non-virtual thunk to CVRSystemLatest::GetApplicationSpecificScaling()
  t non-virtual thunk to CVRSystemLatest::GetCompositorError()
  t non-virtual thunk to CVRSystemLatest::GetCompositorProcessId()
@@ -24801,8 +25034,10 @@
  t non-virtual thunk to CVRSystemLatest::GetMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
  t non-virtual thunk to CVRSystemLatest::GetRawRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::GetTrackedDeviceClassUnmodified(unsigned int)
  t non-virtual thunk to CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRSystemLatest::HasRemoteFrameTiming()
  t non-virtual thunk to CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
  t non-virtual thunk to CVRSystemLatest::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::PostGlobalEvent(vr::VREvent_t const&, unsigned int)
@@ -25069,6 +25304,7 @@
  t std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}> const&, std::_Manager_operation)
@@ -25086,6 +25322,7 @@
  t std::_Function_handler<bool (XrBindingModificationsKHR const*), sxr_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSuggestedBinding const*)::{lambda(XrBindingModificationsKHR const*)#1}>::_M_invoke(std::_Any_data const&, XrBindingModificationsKHR const*&&)
  t std::_Function_handler<bool (XrInteractionProfileAnalogThresholdVALVE const*), ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}>::_M_invoke(std::_Any_data const&, XrInteractionProfileAnalogThresholdVALVE const*&&)
  t std::_Function_handler<bool (XrInteractionProfileAnalogThresholdVALVE const*), ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}>::_M_invoke(std::_Any_data const&, XrInteractionProfileAnalogThresholdVALVE const*&&)
+ t std::_Function_handler<bool (XrInteractionProfileDpadBindingEXT const*), ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}>::_M_invoke(std::_Any_data const&, XrInteractionProfileDpadBindingEXT const*&&)
  t std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
  t std::_Function_handler<bool (unsigned long), CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::{lambda(unsigned long)#1}>::_M_invoke(std::_Any_data const&, unsigned long&&)
  t std::_Function_handler<bool (vr::ETrackedDeviceClass), CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}>::_M_invoke(std::_Any_data const&, vr::ETrackedDeviceClass&&)

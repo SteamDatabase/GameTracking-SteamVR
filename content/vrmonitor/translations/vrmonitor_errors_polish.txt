@@ -278,8 +278,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Więcej informacji"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Nie podłączono bezprzewodowych gogli"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Upewnij się, że twoje bezprzewodowe gogle są włączone, by mogły zostać połączone ze SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Więcej informacji"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizacja sterowników graficznych"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Musisz zaktualizować sterowniki karty graficznej twojego komputera."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Musisz zaktualizować sterowniki karty graficznej twojego komputera lub włączyć planowanie przyspieszanego sprzętowo procesora GPU."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Więcej informacji"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=polish#steamvr-issues"
 

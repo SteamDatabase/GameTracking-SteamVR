@@ -276,8 +276,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Περισσότερες πληροφορίες"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/el/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Δεν είναι συνδεδεμένο το ασύρματο headset"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Σιγουρευτείτε ότι το ασύρματο headset σας είναι ενεργοποιημένο ώστε να μπορεί να συνδεθεί στο SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Περισσότερες πληροφορίες"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://help.steampowered.com/el/faqs/view/153F-1B04-6CAB-43A1#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Ενημέρωση οδηγού γραφικών"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Πρέπει να ενημερώσετε τον οδηγό γραφικών του υπολογιστή σας."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Πρέπει να ενημερώσετε τον οδηγό γραφικών του υπολογιστή σας ή να ενεργοποιήσετε τον προγραμματισμό GPU με επιτάχυνση υλικού."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Περισσότερες πληροφορίες"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=greek#steamvr-issues"
 

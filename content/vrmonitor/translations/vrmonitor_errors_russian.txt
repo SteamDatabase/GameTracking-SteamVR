@@ -278,8 +278,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Подробнее"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/ru/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Беспроводной шлем не подключен"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Убедитесь, что беспроводной шлем включён, чтобы его можно было подключить к SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Подробнее"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=russian#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Обновление графического драйвера"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Вам необходимо обновить графический драйвер компьютера."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Вам необходимо обновить графические драйверы или включить планирование графического процессора с аппаратным ускорением."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Подробнее"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=russian#steamvr-issues"
 
@@ -870,7 +875,7 @@
 
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Увеличить частоту кадров?"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "Ваш шлем поддерживает несколько режимов частоты кадров!<br>Сейчас она составляет <b>%1 кадров в секунду</b>. Хотите изменить её на <b>%2</b>?<br><br><i>Чтобы нагрузка на видеокарту не изменилась, разрешение приложения «%5» будет изменено с %3% на %4%. Эти и другие параметры также можно изменить в меню «Настройки > Графика».</i>"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Изменить и перезапустить"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Да, изменить"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "автоматически"
 "Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "вручную"

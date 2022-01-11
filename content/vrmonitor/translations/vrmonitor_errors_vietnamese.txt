@@ -278,8 +278,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Xem thêm"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Mũ chụp không dây chưa được kết nối"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Hãy chắc rằng mũ chụp không dây đã được bật nguồn để có thể kết nối với SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Xem thêm"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Cập nhật driver đồ họa"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Bạn cần cập nhật driver đồ họa của máy tính."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Bạn cần cập nhật driver đồ họa của máy tính, hoặc bật tính năng Hardware-accelerated GPU scheduling."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Xem thêm"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

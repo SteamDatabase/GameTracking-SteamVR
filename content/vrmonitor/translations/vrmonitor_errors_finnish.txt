@@ -276,8 +276,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Lisätietoja"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Langattomat VR-lasit ei yhdistetty"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Varmista, että langattomissa VR-laseissa on virta päällä, jotta ne voivat yhdistää SteamVR:ään."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Lisätietoja"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Näytönohjaimen päivitys"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Tietokoneen näytönohjain vaatii päivityksen."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Sinun pitää päivittää tietokoneesi näytönohjaimen ajurit tai ottaa laitteistokiihdytetty grafiikkasuorittimen ajoitus käyttöön."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Lisätietoja"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#steamvr-issues"
 

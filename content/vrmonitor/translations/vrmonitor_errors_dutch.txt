@@ -276,8 +276,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Meer informatie"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Draadloze headset niet verbonden"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Zorg ervoor dat je draadloze headset aan staat, zodat hij met SteamVR kan verbinden."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Meer informatie"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://help.steampowered.com/nl/faqs/view/153F-1B04-6CAB-43A1#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Update van het grafische stuurprogramma"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Het grafische stuurprogramma voor je computer dient bijgewerkt te worden."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Je dient het grafische stuurprogramma van je computer bij te werken, of 'GPU met hardwareversnelling plannen' in te schakelen."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Meer informatie"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=dutch#steamvr-issues"
 

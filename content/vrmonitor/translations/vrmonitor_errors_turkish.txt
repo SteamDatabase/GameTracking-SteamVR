@@ -277,8 +277,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Daha fazla bilgi"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Kablosuz Başlık Bağlı Değil"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR'a bağlanabilmesi için kablosuz başlığınızın açık olduğundan emin olun."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Daha fazla bilgi"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Grafik sürücüsü güncellemesi"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Bilgisayarınızın grafik sürücüsünü güncelleştirmelisiniz."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Bilgisayarınızın grafik sürücüsünü güncelleştirmeli veya donanım hızlandırmalı GPU zamanlamasını etkinleştirmelisiniz."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Daha fazla bilgi"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

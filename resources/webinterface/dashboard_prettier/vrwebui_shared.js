@@ -1076,7 +1076,7 @@
                 o.createElement(S.f, null),
                 o.createElement(S.e, null),
                 o.createElement(d.h, {
-                  name: f.p,
+                  name: f.q,
                   label: Object(l.c)("#Settings_Dashboard_Position"),
                   items: [
                     { value: j.b.Near, sLabel: Object(l.c)("#Settings_Near") },
@@ -1173,15 +1173,15 @@
               items: [
                 { value: "", sLabel: "Default" },
                 h.b.Separator,
-                { value: f.q, sLabel: "Library" },
-                { value: f.o, sLabel: "Now Playing" },
-                { value: f.r, sLabel: "Store" },
+                { value: f.r, sLabel: "Library" },
+                { value: f.p, sLabel: "Now Playing" },
+                { value: f.s, sLabel: "Store" },
                 h.b.Separator,
                 { value: f.k, sLabel: "Desktop View" },
-                { value: f.K + ".1", sLabel: "Desktop 1" },
-                { value: f.K + ".2", sLabel: "Desktop 2" },
+                { value: f.L + ".1", sLabel: "Desktop 1" },
+                { value: f.L + ".2", sLabel: "Desktop 2" },
                 h.b.Separator,
-                { value: f.C, sLabel: "Settings" },
+                { value: f.D, sLabel: "Settings" },
               ],
             })
           )
@@ -1612,14 +1612,14 @@
         }
         componentDidMount() {
           c.d.SetDashboardForceBoundsVisible(
-            f.C,
+            f.D,
             this.m_sUniqueIdForForceBoundsVisible,
             !0
           );
         }
         componentWillUnmount() {
           c.d.SetDashboardForceBoundsVisible(
-            f.C,
+            f.D,
             this.m_sUniqueIdForForceBoundsVisible,
             !1
           );
@@ -1746,7 +1746,7 @@
                       min: 1,
                       max: 10,
                       detents: [1.6],
-                      name: f.s,
+                      name: f.t,
                       label: Object(l.c)(
                         "#Settings_Appearance_DomeCameraHeight"
                       ),
@@ -1759,7 +1759,7 @@
                       min: 2,
                       max: 250,
                       specialMaxValue: 0,
-                      name: f.t,
+                      name: f.u,
                       label: Object(l.c)(
                         "#Settings_Appearance_DomeCameraRadius"
                       ),
@@ -1775,7 +1775,7 @@
                         _.a,
                         {
                           className: "ButtonControl",
-                          onClick: () => c.d.ResetSettingsValues(f.s, f.t),
+                          onClick: () => c.d.ResetSettingsValues(f.t, f.u),
                         },
                         Object(l.c)(
                           "#Settings_Appearance_ResetDomeProjectionSettings"
@@ -2017,7 +2017,7 @@
             t = e
               ? c.d.apps.filter(
                   (e) =>
-                    e.is_dashboard_overlay && e.key != f.F && !e.is_internal
+                    e.is_dashboard_overlay && e.key != f.G && !e.is_internal
                 )
               : [],
             n = t.filter((e) => e.is_autolaunch);
@@ -2144,7 +2144,7 @@
                 o.Fragment,
                 null,
                 o.createElement(d.h, {
-                  name: f.p,
+                  name: f.q,
                   label: Object(l.c)("#Settings_Dashboard_Position"),
                   items: [
                     { value: j.b.Near, sLabel: Object(l.c)("#Settings_Near") },
@@ -2379,7 +2379,7 @@
                 id: "settingstab",
                 tabName: Object(l.c)("#VRMonitor_Nav_Settings"),
                 iconUri: "/dashboard/images/icons/svr_settings.svg",
-                summonOverlayKey: f.C,
+                summonOverlayKey: f.D,
                 mountableUnqualifiedID: e,
               },
               t && o.createElement(re, { standalonePanel: !0 }),
@@ -2519,16 +2519,16 @@
         ListenForHomeEnabledChanges() {
           return Object(i.a)(this, void 0, void 0, function* () {
             if (Object(a.i)() != a.H.Overlay) return;
-            let e = yield c.d.GetSettingsValue(f.u);
+            let e = yield c.d.GetSettingsValue(f.v);
             a.mb &&
               Object(v.e)(() => {
-                let t = c.d.settings.get(f.u);
+                let t = c.d.settings.get(f.v);
                 void 0 !== t &&
                   t != e &&
                   (t && !a.mb.VRApplications.GetSceneApplicationKey()
-                    ? a.mb.VRApplications.LaunchApplication(f.x)
+                    ? a.mb.VRApplications.LaunchApplication(f.y)
                     : t ||
-                      a.mb.VRApplications.GetSceneApplicationKey() != f.x ||
+                      a.mb.VRApplications.GetSceneApplicationKey() != f.y ||
                       a.mb.QuitSceneApp(),
                   (e = t));
               });
@@ -2679,28 +2679,28 @@
     },
     "7uy8": function (e, t, n) {
       "use strict";
-      n.d(t, "x", function () {
+      n.d(t, "y", function () {
         return i;
       }),
-        n.d(t, "F", function () {
+        n.d(t, "G", function () {
           return o;
         }),
-        n.d(t, "J", function () {
+        n.d(t, "K", function () {
           return s;
         }),
-        n.d(t, "L", function () {
+        n.d(t, "M", function () {
           return r;
         }),
         n.d(t, "n", function () {
           return a;
         }),
-        n.d(t, "q", function () {
+        n.d(t, "r", function () {
           return l;
         }),
-        n.d(t, "r", function () {
+        n.d(t, "s", function () {
           return c;
         }),
-        n.d(t, "o", function () {
+        n.d(t, "p", function () {
           return d;
         }),
         n.d(t, "k", function () {
@@ -2709,34 +2709,34 @@
         n.d(t, "h", function () {
           return p;
         }),
-        n.d(t, "E", function () {
+        n.d(t, "F", function () {
           return h;
         }),
-        n.d(t, "P", function () {
+        n.d(t, "Q", function () {
           return m;
         }),
-        n.d(t, "C", function () {
+        n.d(t, "D", function () {
           return b;
         }),
-        n.d(t, "G", function () {
+        n.d(t, "H", function () {
           return g;
         }),
-        n.d(t, "H", function () {
+        n.d(t, "I", function () {
           return S;
         }),
         n.d(t, "c", function () {
           return _;
         }),
-        n.d(t, "A", function () {
+        n.d(t, "B", function () {
           return f;
         }),
-        n.d(t, "K", function () {
+        n.d(t, "L", function () {
           return v;
         }),
-        n.d(t, "M", function () {
+        n.d(t, "N", function () {
           return y;
         }),
-        n.d(t, "I", function () {
+        n.d(t, "J", function () {
           return O;
         }),
         n.d(t, "j", function () {
@@ -2745,49 +2745,49 @@
         n.d(t, "i", function () {
           return C;
         }),
-        n.d(t, "u", function () {
+        n.d(t, "v", function () {
           return w;
         }),
-        n.d(t, "N", function () {
+        n.d(t, "O", function () {
           return j;
         }),
-        n.d(t, "O", function () {
+        n.d(t, "P", function () {
           return M;
         }),
-        n.d(t, "w", function () {
+        n.d(t, "x", function () {
           return T;
         }),
         n.d(t, "f", function () {
           return R;
         }),
-        n.d(t, "s", function () {
+        n.d(t, "t", function () {
           return E;
         }),
-        n.d(t, "t", function () {
+        n.d(t, "u", function () {
           return k;
         }),
         n.d(t, "a", function () {
           return I;
         }),
-        n.d(t, "y", function () {
+        n.d(t, "z", function () {
           return D;
         }),
-        n.d(t, "D", function () {
+        n.d(t, "E", function () {
           return B;
         }),
-        n.d(t, "z", function () {
+        n.d(t, "A", function () {
           return P;
         }),
         n.d(t, "m", function () {
           return L;
         }),
-        n.d(t, "p", function () {
+        n.d(t, "q", function () {
           return V;
         }),
         n.d(t, "l", function () {
           return N;
         }),
-        n.d(t, "B", function () {
+        n.d(t, "C", function () {
           return F;
         }),
         n.d(t, "g", function () {
@@ -2799,11 +2799,14 @@
         n.d(t, "d", function () {
           return x;
         }),
-        n.d(t, "v", function () {
+        n.d(t, "w", function () {
           return W;
         }),
-        n.d(t, "b", function () {
+        n.d(t, "o", function () {
           return U;
+        }),
+        n.d(t, "b", function () {
+          return q;
         });
       const i = "openvr.tool.steamvr_environments",
         o = "system.generated.steam.exe",
@@ -2846,7 +2849,8 @@
         H = "/settings/camera/roomView",
         x = "/settings/camera/enableCamera",
         W = "/settings/dashboard/enableWindowView",
-        U = "binding_callouts/main";
+        U = "/settings/dashboard/maxInlineTabs",
+        q = "binding_callouts/main";
     },
     CzjV: function (e, t, n) {
       "use strict";
@@ -3662,14 +3666,14 @@
           this.setNextEntryPoint(this.m_LastBPEntryPoint),
             null === (e = VRHTML) ||
               void 0 === e ||
-              e.VROverlay.ShowDashboard(l.G);
+              e.VROverlay.ShowDashboard(l.H);
         }
         getBackstackTokenForEntryPoint(e) {
           switch (e) {
             case i.QuickStore:
-              return l.r;
+              return l.s;
             case i.QuickLaunch:
-              return l.q;
+              return l.r;
             case i.Unknown:
               return null;
           }
@@ -6900,7 +6904,7 @@
           return this.m_sceneAppKey;
         }
         get SceneAppIsHome() {
-          return this.m_sceneAppKey == l.x;
+          return this.m_sceneAppKey == l.y;
         }
         static get Instance() {
           return c.s_Instance || (c.s_Instance = new c()), c.s_Instance;
@@ -7521,10 +7525,10 @@
           return e > h ? h : e < p ? p : e;
         }
         get showAdvancedSettings() {
-          return this.settings.get(d.D);
+          return this.settings.get(d.E);
         }
         set showAdvancedSettings(e) {
-          this.SetSettingsValue(d.D, e);
+          this.SetSettingsValue(d.E, e);
         }
         showBindingCallouts(e) {
           let t = { type: "request_binding_callouts", app_key: e };
@@ -8628,9 +8632,9 @@
               let i = !0;
               "openvr.component.vrcompositor" == n.key
                 ? (i = !!this.props.showCompositor)
-                : n.key == f.F
+                : n.key == f.G
                 ? (i = !!this.props.showSteam)
-                : n.key == f.J || n.key == f.L
+                : n.key == f.K || n.key == f.M
                 ? (i = !!this.props.showSteamVR)
                 : n.key.startsWith("system.generated")
                 ? (i = !!this.props.showGenerated)
@@ -9851,7 +9855,7 @@
         }
         updateFidelity() {
           var e, t, n;
-          let i = null != (e = a.d.settings.get(l.B)) ? e : c.q.Auto;
+          let i = null != (e = a.d.settings.get(l.C)) ? e : c.q.Auto;
           i == c.q.Auto &&
             (i =
               null !=
@@ -12425,7 +12429,7 @@
           var t;
           (null === (t = VRHTML) || void 0 === t
             ? void 0
-            : t.VROverlay.ThisOverlayKey()) != a.P &&
+            : t.VROverlay.ThisOverlayKey()) != a.Q &&
             (this.m_lastDashboardSessionId = e.id);
         }
         AddRow(e, t) {
@@ -12461,7 +12465,7 @@
         StartDashboardSession(e) {
           var t;
           this.m_dashboardSession && this.CommitDashboardSession();
-          const n = l.d.settings.get(a.p);
+          const n = l.d.settings.get(a.q);
           (this.m_lastDashboardSessionId = ++this.m_dashboardSessionCount),
             (this.m_dashboardSession = {
               dashboardSessionId: this.m_lastDashboardSessionId,
@@ -12626,10 +12630,10 @@
           }
         }),
         v = Object(h.a)(() => {
-          const e = c.d.settings.get(b.N),
-            t = c.d.settings.get(b.O);
+          const e = c.d.settings.get(b.O),
+            t = c.d.settings.get(b.P);
           let n = [],
-            i = c.d.settings.get(b.w);
+            i = c.d.settings.get(b.x);
           if ((i > 0 ? n.push(i) : n.push(1), null === e || null === t))
             return null;
           let o = null;
@@ -12660,7 +12664,7 @@
               ));
           }
           return s.createElement(d.n, {
-            name: b.N,
+            name: b.O,
             label: Object(l.c)("#Settings_Advanced_Supersampling_Header"),
             onLabel: Object(l.c)("#Settings_Advanced_Supersampling_Auto"),
             offLabel: Object(l.c)("#Settings_Advanced_Supersampling_Custom"),
@@ -12695,7 +12699,7 @@
                   step: 0.02,
                   detents: n,
                   value: t,
-                  onChange: (e) => c.d.SetSettingsValue(b.O, e),
+                  onChange: (e) => c.d.SetSettingsValue(b.P, e),
                 })
               )
             ),
@@ -12759,7 +12763,7 @@
               )
             );
           {
-            let t = c.d.settings.get(b.y);
+            let t = c.d.settings.get(b.z);
             const n = "/settings/driver_lighthouse/" + e + "_L",
               i = "/settings/driver_lighthouse/" + e + "_R";
             let o = c.d.settings.get(n);
@@ -12796,7 +12800,7 @@
                       footer: s.createElement(d.j, {
                         showResetButton: !0,
                         onResetRequested: () => {
-                          c.d.SetSettingsValue(b.y, 1),
+                          c.d.SetSettingsValue(b.z, 1),
                             c.d.SetSettingsValue(n, 0),
                             c.d.SetSettingsValue(i, 0);
                         },
@@ -12815,7 +12819,7 @@
                       onLabel: Object(l.c)(
                         "#DisplaySettings_ColumnCorrectionAuto"
                       ),
-                      onChange: (e) => c.d.SetSettingsValue(b.y, e ? 1 : 0),
+                      onChange: (e) => c.d.SetSettingsValue(b.z, e ? 1 : 0),
                     }),
                     s.createElement(d.m, {
                       label: Object(l.c)(
@@ -13202,9 +13206,9 @@
           }
         }
         get computedResolution() {
-          let e = c.d.settings.get(b.N)
-            ? c.d.settings.get(b.O)
-            : c.d.settings.get(b.w);
+          let e = c.d.settings.get(b.O)
+            ? c.d.settings.get(b.P)
+            : c.d.settings.get(b.x);
           if (null == e || null == this.state.nResolutionMultiplier) return "";
           let t = c.d.SliderposToSupersample(this.state.nResolutionMultiplier);
           if (
@@ -13897,4 +13901,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=b1f2ed18f95a2325692c
+//# sourceMappingURL=vrwebui_shared.js.map?v=d97f2117c9406bb09411

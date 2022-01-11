@@ -629,6 +629,7 @@
  b s_bMinidumpCommentAlreadySet
  b s_fnPreCrashCallback
  b s_hModule
+ b s_mutex
  b s_nInstanceCount
  b s_pInstance
  b s_pLogCallback
@@ -1614,6 +1615,7 @@
  r CSWTCH.2112
  r CSWTCH.224
  r CSWTCH.927
+ r CSWTCH.93
  r Four_2PIs
  r Four_2ToThe21s
  r Four_2ToThe22s
@@ -2879,7 +2881,9 @@
  t .L209
  t .L21
  t .L210
+ t .L211
  t .L212
+ t .L213
  t .L214
  t .L215
  t .L2150
@@ -2958,6 +2962,7 @@
  t .L236
  t .L237
  t .L238
+ t .L239
  t .L24
  t .L240
  t .L241
@@ -3213,6 +3218,7 @@
  t .L316
  t .L317
  t .L318
+ t .L319
  t .L3190
  t .L3192
  t .L3193
@@ -3225,7 +3231,6 @@
  t .L32
  t .L320
  t .L3206
- t .L321
  t .L3211
  t .L3213
  t .L3214
@@ -4910,7 +4915,7 @@
  t CTrackedCameraCalibration::GetCameraProjection(float, float, float, float, math::Matrix44T<float>*) const
  t CTrackedCameraCalibration::GetCameraToHead(math::PoseT<float>*) const
  t CTrackedCameraCalibration::GetDistortion(float, float, float*, float*) const
- t CTrackedCameraCalibration::GetDistortionFunction(std::string&, double*)
+ t CTrackedCameraCalibration::GetDistortionFunction(std::string&, double*, int)
  t CTrackedCameraCalibration::GetRecommendedUndistortion(unsigned int*, unsigned int*) const
  t CTrackedCameraCalibration::GetUndistortion(unsigned int*, unsigned int*) const
  t CTrackedCameraCalibration::GetWhiteBalance(float*) const
@@ -5135,6 +5140,7 @@
  t DeclareCurrentThreadIsMainThread
  t DeleteUserDataImageBuilder(UserDataImageBuilder*)
  t DestroyInstanceAndUnload
+ t DestroyInstanceAndUnload.cold
  t Display_Camera_Calibration::BAppearsToBeCalibrated() const
  t Display_Camera_Calibration::BDistortionsEqual(Display_Camera_Calibration const&)
  t Display_Camera_Calibration::BEyeToHeadEqual(Display_Camera_Calibration const&)
@@ -5796,6 +5802,7 @@
  t LiquidVR::WaitForPresent()
  t LiquidVR::WaitTilFinished(unsigned int, unsigned int)
  t LoadAndCreateInstance
+ t LoadAndCreateInstance.cold
  t LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)
  t LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*) [clone .cold]
  t LoadMCImage()
@@ -5808,6 +5815,7 @@
  t LogHapticDebugIfEnabled(char const*, ...) [clone .cold]
  t LogHelper(ELogLevel, char const*, char*&)
  t LogMatrix(vr::HmdMatrix34_t const&)
+ t MD5(void const*, unsigned int)
  t MD5_Base64(unsigned char*)
  t MD5_Final(unsigned char*, MD5Context_t*)
  t MD5_Hex(unsigned char*)
@@ -6281,6 +6289,14 @@
  t Vortex_WriteStringToTextFile(std::string const&, char const*) [clone .cold]
  t VrInitGpuProfiling()
  t WillLog(ELogLevel)
+ t WinRT::AcquireDisplay(int)
+ t WinRT::GetAdapterLuid(int, void*)
+ t WinRT::GetCurrentDriverVersion()
+ t WinRT::GetDeviceString(int)
+ t WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
+ t WinRT::HasDisplay(int)
+ t WinRT::Present()
+ t WinRT::WaitForPresent(unsigned long long*, float*)
  t WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool)
  t WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool) [clone .cold]
  t WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&)

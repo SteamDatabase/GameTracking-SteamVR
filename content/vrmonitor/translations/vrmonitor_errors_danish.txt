@@ -276,8 +276,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Flere oplysninger"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Trådløst headset ikke tilsluttet"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Sørg for, at det trådløse headset har strøm, så det kan få forbindelse til SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Mere info"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Opdatering til grafikdriver"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Du skal opdatere din computers grafikdriver."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Du skal opdatere din computers grafikdriver eller slå hardwareaccelereret GPU-planlægning til."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Flere oplysninger"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

@@ -278,9 +278,14 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Több infó"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "A vezeték nélküli fejszett nincs csatlakoztatva"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Kérjük, győződj meg róla, hogy vezeték nélküli fejszetted be van kapcsolva, hogy csatlakozni tudjon a SteamVR-hez."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Több infó"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Video-illesztőprogram frissítés"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Frissítened kell a számítógéped video-illesztőprogramját."
-"VRInitError_Init_PrismNeedsNewDrivers_Action" "További információ"
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Frissítened kell a számítógéped video-illesztőprogramját, vagy engedélyezned a hardveres gyorsítású GPU-ütemezést."
+"VRInitError_Init_PrismNeedsNewDrivers_Action" "Több infó"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
 
 "VRInitError_Init_PrismStartupTimedOut_Header" "SteamVR indítási probléma"
@@ -853,7 +858,7 @@
 
 "Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Video-illesztőprogram frissítése"
 "Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Jelenlegi video-illesztőprogramodnak olyan ismert problémája van, ami lefagyaszthatja a PC-det. Kérjük, telepítsd az alább hivatkozott legújabb gyorsjavítást."
-"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "További információ"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Több infó"
 "Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
 
 "Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Fejszett lecsatlakoztatva"
@@ -934,7 +939,7 @@
 "SteamVRServiceNeedsInstallation_Description" "Az engedélyedre van szükség a segítő szolgáltatás telepítéséhez. Kérjük, kattints az alábbi hivatkozásra, majd válaszd az „Igent” a „Felhasználó fiókok felügyelete” kérdésére."
 "SteamVRServiceNeedsInstallation_FirstAction" "Telepítés"
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
-"SteamVRServiceNeedsInstallation_Action" "További információ"
+"SteamVRServiceNeedsInstallation_Action" "Több infó"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Kérjük, játék közben húzd ki a játékvezérlőket."

@@ -276,8 +276,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Plus d'informations"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/fr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Casque sans fil non connecté"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Assurez-vous que votre casque sans fil est en marche pour qu'il puisse se connecter à SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Plus d'informations"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Mise à jour des pilotes graphiques"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Vous devez mettre à jour le pilote graphique de votre ordinateur."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Vous devez mettre à jour vos pilotes graphiques ou activer la planification de processeur graphique à accélération matérielle."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Plus d'informations"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=french#steamvr-issues"
 

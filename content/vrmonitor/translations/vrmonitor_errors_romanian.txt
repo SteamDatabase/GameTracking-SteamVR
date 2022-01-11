@@ -276,8 +276,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Mai multe informații"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Casca fără fir nu este conectată"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Pentru a se conecta la SteamVR, casca trebuie să fie alimentată. Te rugăm să te asiguri de acest lucru."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Mai multe informații"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Actualizarea driverului pentru placa video"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Trebuie să-ți actualizezi driverul plăcii video a calculatorului tău."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Trebuie să actualizezi driverul video al calculatorului tău sau să activezi planificarea GPU accelerată prin hardware."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mai multe informații"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#steamvr-issues"
 

@@ -277,8 +277,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Още информация"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Безжичният ВР шлем не е свързан"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Моля, уверете се, че безжичният Ви ВР шлем е включен, за да може да се свърже със SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Още информация"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Обновяване на графичния драйвер"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Нужно е да обновите графичния драйвер на компютъра си."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Необходимо е да обновите графичния драйвер на компютъра си или да включите хардуерно ускореното планиране на графичния Ви процесор."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Още информация"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

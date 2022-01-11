@@ -2543,8 +2543,11 @@
  t CVkShaderPipeline::AddDescriptorSet(std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> > const&, unsigned int)
  t CVkShaderPipeline::AddDescriptorSet(std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> > const&, unsigned int) [clone .cold]
  t CVkShaderPipeline::AddFragmentStage(char const*, unsigned int const*, unsigned long, char const*)
+ t CVkShaderPipeline::AddGeometryStage(char const*, unsigned int const*, unsigned long, char const*)
  t CVkShaderPipeline::AddStage(VkShaderStageFlagBits, char const*, unsigned int const*, unsigned long, char const*)
  t CVkShaderPipeline::AddStage(VkShaderStageFlagBits, char const*, unsigned int const*, unsigned long, char const*) [clone .cold]
+ t CVkShaderPipeline::AddTessellationControlStage(char const*, unsigned int const*, unsigned long, char const*)
+ t CVkShaderPipeline::AddTessellationEvaluationStage(char const*, unsigned int const*, unsigned long, char const*)
  t CVkShaderPipeline::AddVertexStage(char const*, std::vector<VkVertexInputBindingDescription, std::allocator<VkVertexInputBindingDescription> > const&, std::vector<VkVertexInputAttributeDescription, std::allocator<VkVertexInputAttributeDescription> > const&, unsigned int const*, unsigned long, char const*)
  t CVkShaderPipeline::AddViewport(VkExtent2D const&)
  t CVkShaderPipeline::CVkShaderPipeline(CVkDevice*, char const*)
@@ -3689,6 +3692,7 @@
  t facet::GetFlatIndex(SwapchainIndices_t const&)
  t facet::GetFov(glm::mat<4, 4, float, (glm::qualifier)0> const&, float*, float*, float*, float*)
  t facet::GetLUIDFromDeviceId(facet::VkDeviceId_t const&, unsigned long&)
+ t facet::GetSrgbFormat(VkFormat)
  t facet::GetVulkanSampleCount(unsigned int)
  t facet::InitDeviceId(facet::VkDeviceId_t&, VkPhysicalDeviceIDProperties const&)
  t facet::IsDepthFormat(VkFormat)
@@ -3696,6 +3700,7 @@
  t facet::IsDepthStencilFormat(VkFormat)
  t facet::IsDeviceIdValid(facet::VkDeviceId_t const&)
  t facet::IsInDebugSession()
+ t facet::IsSrgbFormat(VkFormat)
  t facet::ToIPC(unsigned long)
  t facet::VkFormatFromDXGI(unsigned int, VkFormat*)
  t facet::WaitUntil(double)

@@ -276,8 +276,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "ข้อมูลเพิ่มเติม"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/th/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "เครื่องสวมศีรษะแบบไร้สายไม่ได้เชื่อมต่อ"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "กรุณาตรวจสอบให้แน่ใจว่าคุณได้เปิดเครื่องสวมศีรษะแบบไร้สายของคุณแล้ว เพื่อให้เชื่อมต่อกับ SteamVR ได้"
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "ข้อมูลเพิ่มเติม"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=thai#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "อัปเดตไดรเวอร์กราฟิก"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "คุณจำเป็นต้องอัปเดตไดรเวอร์กราฟิกของคอมพิวเตอร์ของคุณ"
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "คุณจำเป็นต้องอัปเดตไดรเวอร์กราฟิกให้คอมพิวเตอร์ของคุณ หรือเปิดใช้งานการจัดเวลา GPU แบบเร่งด้วยฮาร์ดแวร์"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "ข้อมูลเพิ่มเติม"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=thai#steamvr-issues"
 

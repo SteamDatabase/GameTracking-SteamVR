@@ -499,6 +499,7 @@
 "MenuAction_Compositor_ShowMirror" "Vis VR-visning"
 "MenuAction_Compositor_HideMirror" "Skjul VR-visning"
 "MenuAction_IdentifyController" "Identifiser kontroller"
+"MenuAction_IdentifyTracker" "Identifiser sporingsenhet"
 "MenuAction_QuickCalibrate" "Hurtigkalibrering"
 "Explanation_QuickCalibrate" "Hurtig tilbakestilling av romoppsettet. For stående VR og VR i romskala, sentreres nye grenser på hodesettet på gulvet i midten av området."
 "MenuAction_ResetRuntimeAndQuit" "Tilbakestill SteamVR-stien"

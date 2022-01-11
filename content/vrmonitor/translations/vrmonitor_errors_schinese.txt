@@ -276,8 +276,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "更多信息"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "无线头戴式显示器未连接"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "请确保您的无线头戴式显示器已开启，以连接至 SteamVR。"
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "更多信息"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "显卡驱动更新"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "电脑显卡驱动需要更新。"
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "您需要更新您计算机的显卡驱动，或启用硬件加速 GPU 计划。"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "更多信息"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=schinese#steamvr-issues"
 

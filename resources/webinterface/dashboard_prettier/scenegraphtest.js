@@ -2061,7 +2061,9 @@
         (e[(e.Hostname = 0)] = "Hostname"),
           (e[(e.IP = 1)] = "IP"),
           (e[(e.Version = 2)] = "Version"),
-          (e[(e.NetworkConnections = 3)] = "NetworkConnections");
+          (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
+          (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate"),
+          (e[(e.SteamVR_Path = 5)] = "SteamVR_Path");
       })(je || (je = {}));
     class Ke extends I.Component {
       constructor(e) {
@@ -2745,4 +2747,4 @@
         );
   },
 });
-//# sourceMappingURL=scenegraphtest.js.map?v=7d386280cd700081222e
+//# sourceMappingURL=scenegraphtest.js.map?v=09eccf31ec2a33b30161

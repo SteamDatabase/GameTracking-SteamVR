@@ -273,8 +273,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "추가 정보"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/ko/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "무선 헤드셋이 연결되지 않음"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR에 연결될 수 있도록 무선 헤드셋의 전원이 켜져 있는지 확인하세요."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "추가 정보"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://help.steampowered.com/ko/faqs/view/153F-1B04-6CAB-43A1#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "그래픽 드라이버 업데이트"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "컴퓨터의 그래픽 드라이버를 업데이트해야 합니다."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "컴퓨터의 그래픽 드라이버를 업데이트하거나 하드웨어 가속 GPU 일정 예약을 활성화하세요."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "추가 정보"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

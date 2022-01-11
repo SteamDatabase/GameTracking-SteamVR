@@ -89,6 +89,7 @@ $+
 %s: client resources cleared without leaving clientid intact!
 %s: cmdbuf references a resource that has been released: %s
 %s: concurrent sharing mode requires queue family indices
+%s: device does not support compute shader derivatives group quad.
 %s: device does not support host query reset.
 %s: device does not support reliable realtime compute queue creation.
 %s: device does not support timeline semaphores.
@@ -476,7 +477,7 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-21:24:35
+22:44:39
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -1154,8 +1155,11 @@ CVkShaderPipeline::AddComputeStage(char const*, unsigned int const*, unsigned lo
 CVkShaderPipeline::AddDescriptorSet(std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> > const&, unsigned int)
 CVkShaderPipeline::AddDescriptorSet(std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> > const&, unsigned int) [clone .cold]
 CVkShaderPipeline::AddFragmentStage(char const*, unsigned int const*, unsigned long, char const*)
+CVkShaderPipeline::AddGeometryStage(char const*, unsigned int const*, unsigned long, char const*)
 CVkShaderPipeline::AddStage(VkShaderStageFlagBits, char const*, unsigned int const*, unsigned long, char const*)
 CVkShaderPipeline::AddStage(VkShaderStageFlagBits, char const*, unsigned int const*, unsigned long, char const*) [clone .cold]
+CVkShaderPipeline::AddTessellationControlStage(char const*, unsigned int const*, unsigned long, char const*)
+CVkShaderPipeline::AddTessellationEvaluationStage(char const*, unsigned int const*, unsigned long, char const*)
 CVkShaderPipeline::AddVertexStage(char const*, std::vector<VkVertexInputBindingDescription, std::allocator<VkVertexInputBindingDescription> > const&, std::vector<VkVertexInputAttributeDescription, std::allocator<VkVertexInputAttributeDescription> > const&, unsigned int const*, unsigned long, char const*)
 CVkShaderPipeline::AddViewport(VkExtent2D const&)
 CVkShaderPipeline::CVkShaderPipeline(CVkDevice*, char const*)
@@ -1246,7 +1250,6 @@ De
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 Dec
-Dec 13 2021
 December
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex
@@ -1491,6 +1494,7 @@ J
 JArray
 JST
 Jan
+Jan 11 2022
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -2299,6 +2303,7 @@ S
 SDL_GetError
 SDL_GetPowerInfo
 SDL_SetThreadPriority
+SPV_NV_compute_shader_derivatives
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
@@ -2665,6 +2670,7 @@ UploadMotionVectors
 Usage
 UseDevice
 UsePhysicalDevice
+Using physical device: %s
 V
 VALVE
 VK_EXT_acquire_xlib_display
@@ -3429,6 +3435,7 @@ facet::GenerateVisibleAreaMesh(std::vector<facet::VisibleAreaMeshVertex_t, std::
 facet::GetFlatIndex(SwapchainIndices_t const&)
 facet::GetFov(glm::mat<4, 4, float, (glm::qualifier)0> const&, float*, float*, float*, float*)
 facet::GetLUIDFromDeviceId(facet::VkDeviceId_t const&, unsigned long&)
+facet::GetSrgbFormat(VkFormat)
 facet::GetVulkanSampleCount(unsigned int)
 facet::InitDeviceId(facet::VkDeviceId_t&, VkPhysicalDeviceIDProperties const&)
 facet::IsDepthFormat(VkFormat)
@@ -3437,6 +3444,7 @@ facet::IsDepthStencilFormat(VkFormat)
 facet::IsDeviceIdValid(facet::VkDeviceId_t const&)
 facet::IsInDebugSession()
 facet::IsInDebugSession()::fp
+facet::IsSrgbFormat(VkFormat)
 facet::ToIPC(unsigned long)
 facet::VkFormatFromDXGI(unsigned int, VkFormat*)
 facet::WaitUntil(double)

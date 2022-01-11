@@ -2061,7 +2061,9 @@
         (e[(e.Hostname = 0)] = "Hostname"),
           (e[(e.IP = 1)] = "IP"),
           (e[(e.Version = 2)] = "Version"),
-          (e[(e.NetworkConnections = 3)] = "NetworkConnections");
+          (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
+          (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate"),
+          (e[(e.SteamVR_Path = 5)] = "SteamVR_Path");
       })(Ke || (Ke = {}));
     class qe extends w.Component {
       constructor(e) {
@@ -2991,7 +2993,7 @@
           return null;
         if (this.state.bIsUsingSteamDesktop)
           return d.createElement(a.S, {
-            mountedId: Object(a.f)(h.E, "valve.steam.desktop"),
+            mountedId: Object(a.f)(h.F, "valve.steam.desktop"),
           });
         if (!this.state.bIsReady)
           return d.createElement(
@@ -3067,7 +3069,7 @@
                 d.createElement(a.Z, { id: b.r, location: a.s.TopCenter }),
                 d.createElement(a.S, {
                   mountedId: Object(a.f)(
-                    h.E,
+                    h.F,
                     this.state.sCurrentWindowOverlayKey + ".cursor"
                   ),
                 }),
@@ -3094,7 +3096,7 @@
                 d.createElement(a.Z, { id: b.r, location: a.s.TopCenter }),
                 d.createElement(a.S, {
                   mountedId: Object(a.f)(
-                    h.E,
+                    h.F,
                     "system.desktop." + this.currentDesktopIndex + ".cursor"
                   ),
                 }),
@@ -3421,7 +3423,7 @@
                 origin: a.s.BottomCenter,
               },
               d.createElement(a.S, {
-                mountedId: Object(a.f)(h.E, this.props.sOverlayKey + ".cursor"),
+                mountedId: Object(a.f)(h.F, this.props.sOverlayKey + ".cursor"),
               })
             )
           );
@@ -3461,7 +3463,7 @@
               origin: a.s.BottomCenter,
             },
             d.createElement(a.S, {
-              mountedId: Object(a.f)(h.E, this.props.sOverlayKey + ".cursor"),
+              mountedId: Object(a.f)(h.F, this.props.sOverlayKey + ".cursor"),
             })
           ),
           d.createElement(
@@ -4030,7 +4032,7 @@
               var e;
               return null === (e = VRHTML) || void 0 === e
                 ? void 0
-                : e.VROverlay.ShowDashboard(h.r);
+                : e.VROverlay.ShowDashboard(h.s);
             },
           },
           d.createElement("span", null, Object(p.c)("#WelcomeBrowseStore"))
@@ -4202,8 +4204,8 @@
         "openvr.tool.steamvr_tutorial",
         "openvr.tool.steamvr_environments",
         "openvr.tool.steamvr_environments_tools",
-        h.J,
-        h.L,
+        h.K,
+        h.M,
       ])),
       (X = z = Object(s.b)([g.a], X));
     var Y = n("vzqD"),
@@ -4384,7 +4386,7 @@
           (this.m_refDesktopTray = d.createRef()),
           (this.m_refOverlayTransform = d.createRef()),
           (this.m_refVolumeTray = d.createRef()),
-          (this.m_sOverlayToSwitchToOnLoad = h.q),
+          (this.m_sOverlayToSwitchToOnLoad = h.r),
           (this.m_bQuickLaunchShouldReturnToBigPicture = !1),
           (this.m_bQuickStoreShouldReturnToBigPicture = !1),
           (this.m_roomViewChangedEventHandle = null),
@@ -4471,7 +4473,7 @@
           }, 500),
           (this.m_appStateChangedAutorunDisposer = Object(v.e)(() => {
             const e = $.a.Instance.SceneApplicationState != a.v.None;
-            this.isOverlayActive(h.o) && !e && this.switchToOverlay(h.q);
+            this.isOverlayActive(h.p) && !e && this.switchToOverlay(h.r);
           })),
           this.updateSiblingReferences();
       }
@@ -4489,24 +4491,24 @@
           t.sActiveOverlayID != this.state.sActiveOverlayID
         )
           switch (n) {
-            case h.C:
+            case h.D:
               oe.b.Instance.playSound(oe.a.ThemeSettings);
               break;
             case h.k:
               oe.b.Instance.playSound(oe.a.ThemeDesktop);
               break;
-            case h.q:
+            case h.r:
               oe.b.Instance.playSound(oe.a.ThemeLibrary);
               break;
-            case h.r:
+            case h.s:
               oe.b.Instance.playSound(oe.a.ThemeStore);
               break;
-            case h.o:
+            case h.p:
               oe.b.Instance.playSound(oe.a.ThemeNowPlaying);
           }
         if (
           t.sActiveOverlayID != this.state.sActiveOverlayID &&
-          this.isOverlayActive(h.G)
+          this.isOverlayActive(h.H)
         )
           switch (L.b.Instance.lastBigPictureEntryPoint) {
             case L.a.QuickLaunch:
@@ -4536,7 +4538,7 @@
       }
       static getDashboardDistance() {
         if (te.s_dashboardUserDistance) return te.s_dashboardUserDistance;
-        const e = m.d.settings.get(h.p);
+        const e = m.d.settings.get(h.q);
         return e == ne.Near
           ? 0.925
           : e == ne.Screenshot_Only
@@ -4553,7 +4555,7 @@
             (e = m.d.settings.get("/settings/dashboard/verticalOffsetCm_2"))
               ? e
               : 0),
-          n = m.d.settings.get(h.p);
+          n = m.d.settings.get(h.q);
         return n == ne.Screenshot_Only
           ? -0.57
           : n == ne.Near
@@ -4566,7 +4568,7 @@
         var e, t;
         if (te.s_dashboardUserScale) return te.s_dashboardUserScale;
         let n = 1;
-        const r = m.d.settings.get(h.p),
+        const r = m.d.settings.get(h.q),
           i = r == ne.Screenshot_Only;
         return (
           (n = i ? 2 : r == ne.Near ? 0.36 : r == ne.Middle ? 0.41 : 0.47),
@@ -4644,7 +4646,7 @@
         }),
           this.setState({
             mapWindows: n,
-            bWindowViewEnabled: ((t = m.d.settings.get(h.v)), null == t || t),
+            bWindowViewEnabled: ((t = m.d.settings.get(h.w)), null == t || t),
           });
       }
       onUpdateDebugInfo(e) {
@@ -4685,8 +4687,8 @@
             xfInitial: n,
           };
           this.state.mapOverlayState.set(e, r);
-        } else if (e.startsWith(h.K)) {
-          const t = Number.parseInt(e.substring(h.K.length + 1));
+        } else if (e.startsWith(h.L)) {
+          const t = Number.parseInt(e.substring(h.L.length + 1));
           null === (i = this.m_refDesktopView.current) ||
             void 0 === i ||
             i.onDesktopChange(t);
@@ -4713,12 +4715,12 @@
           const n = this.m_mapExternalOverlays[t];
           (void 0 === n.icon_overlay_key && null == n.icon_uri) ||
             (n.summon_overlay_key &&
-              n.summon_overlay_key != h.C &&
-              n.summon_overlay_key != h.G &&
+              n.summon_overlay_key != h.D &&
               n.summon_overlay_key != h.H &&
-              (n.summon_overlay_key.startsWith(h.K) ||
-                n.summon_overlay_key.startsWith(h.M) ||
-                n.summon_overlay_key.startsWith(h.I) ||
+              n.summon_overlay_key != h.I &&
+              (n.summon_overlay_key.startsWith(h.L) ||
+                n.summon_overlay_key.startsWith(h.N) ||
+                n.summon_overlay_key.startsWith(h.J) ||
                 ce(n.summon_overlay_key) ||
                 e.push(n)));
         }
@@ -4734,13 +4736,13 @@
       switchToOverlay(e, t) {
         var n, r, i;
         switch (e) {
-          case h.G:
+          case h.H:
             L.b.Instance.latchBigPictureEntryPoint();
             break;
-          case h.q:
+          case h.r:
             this.m_bQuickLaunchShouldReturnToBigPicture = !1;
             break;
-          case h.r:
+          case h.s:
             this.m_bQuickStoreShouldReturnToBigPicture = !1;
             break;
           case h.h:
@@ -4756,8 +4758,8 @@
               (this.m_bQuickStoreShouldReturnToBigPicture = !1),
               (e = h.c);
         }
-        if (e.startsWith(h.K)) {
-          const t = Number.parseInt(e.substring(h.K.length + 1));
+        if (e.startsWith(h.L)) {
+          const t = Number.parseInt(e.substring(h.L.length + 1));
           Number.isSafeInteger(t) &&
             (null === (r = this.m_refDesktopView.current) ||
               void 0 === r ||
@@ -4768,7 +4770,7 @@
         return o
           ? (this.computeFilteredOverlayTabs().includes(o) &&
               m.d.SetSettingsValue(
-                h.z,
+                h.A,
                 null != (i = o.summon_overlay_key) ? i : ""
               ),
             this.setState({ sActiveOverlayID: o.mountable_id }),
@@ -4800,7 +4802,7 @@
           : null;
       }
       hideMessageOverlay() {
-        this.getActiveOverlaySummonKey() == h.A && this.switchToOverlay(h.q);
+        this.getActiveOverlaySummonKey() == h.B && this.switchToOverlay(h.r);
       }
       show(e) {
         if (this.isShown()) return;
@@ -4813,7 +4815,7 @@
         t &&
           t != this.state.sLastShownAppKey &&
           (this.setState({ sLastShownAppKey: t }),
-          this.switchToOverlay(n ? h.q : h.o)),
+          this.switchToOverlay(n ? h.r : h.p)),
           this.setState({ bShown: !0 });
         let r = { type: te.k_sRequestDashboardTabsMessage };
         this.m_mailbox.SendMessage("vrcompositor_systemlayer", r),
@@ -4838,16 +4840,16 @@
       onQuickLaunchButtonClick() {
         this.m_bQuickLaunchShouldReturnToBigPicture &&
         L.b.Instance.lastBigPictureEntryPoint == L.a.QuickLaunch &&
-        !this.isOverlayActive(h.G)
+        !this.isOverlayActive(h.H)
           ? L.b.Instance.openBigPictureThroughLastEntryPoint()
-          : this.switchToOverlay(h.q);
+          : this.switchToOverlay(h.r);
       }
       onQuickStoreButtonClick() {
         this.m_bQuickStoreShouldReturnToBigPicture &&
         L.b.Instance.lastBigPictureEntryPoint == L.a.QuickStore &&
-        !this.isOverlayActive(h.G)
+        !this.isOverlayActive(h.H)
           ? L.b.Instance.openBigPictureThroughLastEntryPoint()
-          : this.switchToOverlay(h.r);
+          : this.switchToOverlay(h.s);
       }
       getDashboardIconUri(e) {
         var t;
@@ -4867,40 +4869,41 @@
         const t = !!(null === (e = VRHTML) || void 0 === e
             ? void 0
             : e.SceneAppRunning()),
-          n = m.d.settings.get("/settings/dashboard/allowAppQuitting");
-        let r = !1;
+          n = m.d.settings.get("/settings/dashboard/allowAppQuitting"),
+          r = m.d.settings.get("/settings/dashboard/allowSystemShutdown");
+        let i = !1;
         if (VRHTML) {
           VRHTML.VROverlay.GetPrimaryDashboardDevice() >= 0 &&
-            (r = VRHTML.VRProperties.GetBoolProperty(
+            (i = VRHTML.VRProperties.GetBoolProperty(
               VRHTML.VROverlay.GetPrimaryDashboardDevice(),
               a.y.DeviceCanPowerOff_Bool
             ));
         }
-        const i = $.a.Instance.SceneAppName,
-          o = $.a.Instance.SceneAppIsHome;
-        let s, l;
-        (s = o
+        const o = $.a.Instance.SceneAppName,
+          s = $.a.Instance.SceneAppIsHome;
+        let l, c;
+        (l = s
           ? Object(p.c)("#Exit_SteamVR_Home")
-          : i
-          ? Object(p.c)("#PowerMenuQuitSceneApp", i)
+          : o
+          ? Object(p.c)("#PowerMenuQuitSceneApp", o)
           : Object(p.c)("#PowerMenuQuitSceneApp_NoApp")),
-          (l = o
+          (c = s
             ? "/dashboard/images/icons/svr_svrhome_quit_alt.svg"
             : "/dashboard/images/icons/svr_app_quit.svg");
-        const c = this.findDashboardTab(h.G);
+        const u = this.findDashboardTab(h.H);
         return this.renderPopupMenu(
           d.createElement(
             d.Fragment,
             null,
-            c &&
+            u &&
               d.createElement(b.i, {
                 label: Object(p.c)("#PowerMenuSteamOverlay"),
                 lineBelow: !0,
                 onClick: () => {
-                  this.switchToOverlay(h.G), this.showPopupMenu(re.None);
+                  this.switchToOverlay(h.H), this.showPopupMenu(re.None);
                 },
               }),
-            r &&
+            i &&
               d.createElement(b.i, {
                 label: Object(p.c)("#PowerMenuTurnOffController"),
                 imageUrl: "/dashboard/images/icons/svr_controller_power.svg",
@@ -4915,8 +4918,8 @@
             n &&
               t &&
               d.createElement(b.i, {
-                label: s,
-                imageUrl: l,
+                label: l,
+                imageUrl: c,
                 onClick: () => {
                   var e;
                   null === (e = VRHTML) || void 0 === e || e.QuitSceneApp(),
@@ -4932,7 +4935,18 @@
                   ? void 0
                   : e.QuitOpenVR();
               },
-            })
+            }),
+            r &&
+              d.createElement(b.i, {
+                label: Object(p.c)("#PowerMenuShutdown"),
+                imageUrl: "/dashboard/images/icons/svr_svr_quit_alt.svg",
+                onClick: () => {
+                  var e;
+                  return null === (e = VRHTML) || void 0 === e
+                    ? void 0
+                    : e.ShutdownSystem();
+                },
+              })
           )
         );
       }
@@ -4980,11 +4994,11 @@
         let i = this.getActiveOverlay();
         if (!i) return null;
         if (
-          (i.summon_overlay_key == h.G &&
+          (i.summon_overlay_key == h.H &&
             (L.b.Instance.lastBigPictureEntryPoint == L.a.QuickLaunch
-              ? (i = this.findDashboardTab(h.q))
+              ? (i = this.findDashboardTab(h.r))
               : L.b.Instance.lastBigPictureEntryPoint == L.a.QuickStore &&
-                (i = this.findDashboardTab(h.r))),
+                (i = this.findDashboardTab(h.s))),
           i.summon_overlay_key == h.k)
         ) {
           if (
@@ -5023,7 +5037,7 @@
         return this.state.bDesktopDarkMode && this.isOverlayActive(h.k);
       }
       get screenshotMode() {
-        return m.d.settings.get(h.p) == ne.Screenshot_Only;
+        return m.d.settings.get(h.q) == ne.Screenshot_Only;
       }
       getCollisionBoundsFadeVisualizationElements() {
         var e, t;
@@ -5075,7 +5089,7 @@
         if (this.state.bShown) {
           const e =
               this.m_setSuppressingFade.size > 0 &&
-              this.getActiveOverlaySummonKey() == h.C,
+              this.getActiveOverlaySummonKey() == h.D,
             t = m.d.settings.get(
               "/settings/dashboard/omitDashboardFadeWithSteamVRHome"
             ),
@@ -5162,7 +5176,8 @@
         const e = this.getPeerButtonInfo();
         if (!e) return;
         let t = { type: e.sMessageType };
-        this.m_mailbox.SendMessage(e.sMailbox, t);
+        (t.whichDevice = VRHTML.VROverlay.GetPrimaryDashboardDevice()),
+          this.m_mailbox.SendMessage(e.sMailbox, t);
       }
       renderControlBar(e, t) {
         var n, r, i, o, s, l, c, g;
@@ -5273,8 +5288,8 @@
                       label: Object(p.c)("#Library"),
                       imageUrl: "/dashboard/images/icons/svr_items.svg",
                       active:
-                        this.isOverlayActive(h.q) ||
-                        (this.isOverlayActive(h.G) &&
+                        this.isOverlayActive(h.r) ||
+                        (this.isOverlayActive(h.H) &&
                           L.b.Instance.lastBigPictureEntryPoint ==
                             L.a.QuickLaunch),
                       style: b.d.Large,
@@ -5308,10 +5323,10 @@
                                     label: M
                                       ? Object(p.c)("#SteamVR_Home")
                                       : Object(p.c)("#Now_Playing"),
-                                    active: this.isOverlayActive(h.o),
+                                    active: this.isOverlayActive(h.p),
                                     style: b.d.App,
                                     imageUrl: T,
-                                    onClick: () => this.switchToOverlay(h.o),
+                                    onClick: () => this.switchToOverlay(h.p),
                                   })
                                 )
                               )
@@ -5325,8 +5340,8 @@
                         imageUrl: "/dashboard/images/icons/svr_store.svg",
                         additionalClassNames: "Store",
                         active:
-                          this.isOverlayActive(h.r) ||
-                          (this.isOverlayActive(h.G) &&
+                          this.isOverlayActive(h.s) ||
+                          (this.isOverlayActive(h.H) &&
                             L.b.Instance.lastBigPictureEntryPoint ==
                               L.a.QuickStore),
                         style: b.d.Large,
@@ -5366,12 +5381,12 @@
                     O &&
                       d.createElement(b.k, {
                         imageUrl: "/dashboard/images/icons/svr_settings.svg",
-                        active: this.isOverlayActive(h.C),
-                        enabled: this.hasOverlay(h.C),
+                        active: this.isOverlayActive(h.D),
+                        enabled: this.hasOverlay(h.D),
                         label: Object(p.c)("#Settings"),
                         style: b.d.Small,
                         centerPanelAnchorID: "VolumeButton",
-                        onClick: () => this.switchToOverlay(h.C),
+                        onClick: () => this.switchToOverlay(h.D),
                       }),
                     w &&
                       d.createElement(b.k, {
@@ -5420,7 +5435,7 @@
               a.lb,
               { translation: x, scale: { y: 1.5, x: 1.5 } },
               d.createElement(a.S, {
-                mountedId: Object(a.f)(h.E, "system.keyboard"),
+                mountedId: Object(a.f)(h.F, "system.keyboard"),
               })
             )
           )
@@ -5473,10 +5488,10 @@
             {
               tabName: Object(p.c)("#Library"),
               iconUri: "/dashboard/images/icons/svr_items.svg",
-              summonOverlayKey: h.q,
+              summonOverlayKey: h.r,
             },
             d.createElement(X, {
-              visible: this.state.bShown && this.isOverlayActive(h.q),
+              visible: this.state.bShown && this.isOverlayActive(h.r),
               onGameLaunched: () => {
                 var e;
                 null === (e = VRHTML) ||
@@ -5490,18 +5505,18 @@
             {
               tabName: Object(p.c)("#Store"),
               iconUri: "/dashboard/images/icons/svr_store.svg",
-              summonOverlayKey: h.r,
+              summonOverlayKey: h.s,
             },
             d.createElement(W, {
-              visible: this.state.bShown && this.isOverlayActive(h.r),
+              visible: this.state.bShown && this.isOverlayActive(h.s),
             })
           ),
           d.createElement(
             a.j,
-            { tabName: Object(p.c)("#Now_Playing"), summonOverlayKey: h.o },
+            { tabName: Object(p.c)("#Now_Playing"), summonOverlayKey: h.p },
             d.createElement(ee, {
-              visible: this.state.bShown && this.isOverlayActive(h.o),
-              onExitGame: () => this.switchToOverlay(h.q),
+              visible: this.state.bShown && this.isOverlayActive(h.p),
+              onExitGame: () => this.switchToOverlay(h.r),
             })
           ),
           d.createElement(
@@ -5521,45 +5536,46 @@
             })
           ),
           d.createElement(se.a, {
-            visible: this.state.bShown && this.isOverlayActive(h.C),
+            visible: this.state.bShown && this.isOverlayActive(h.D),
           })
         );
       }
       renderDashboard() {
-        var e;
-        const t = this.computeFilteredOverlayTabs(),
-          n = this.isDarkMode ? { r: 0.02, g: 0.02, b: 0.02 } : null;
-        let r = [],
-          i = [];
-        if (t.length > 2) {
-          const n = m.d.settings.get(h.z);
-          (r = [
-            ((e = t.find((e) => e.summon_overlay_key == n)),
-            null != e ? e : t[0]),
+        var e, t;
+        const n = this.computeFilteredOverlayTabs(),
+          r = this.isDarkMode ? { r: 0.02, g: 0.02, b: 0.02 } : null;
+        let i = [],
+          o = [],
+          s = null != (e = m.d.settings.get(h.o)) ? e : 2;
+        if (n.length > s) {
+          const e = m.d.settings.get(h.A);
+          (i = [
+            ((t = n.find((t) => t.summon_overlay_key == e)),
+            null != t ? t : n[0]),
           ]),
-            (i = t.filter((e) => !r.includes(e)));
-        } else r = t;
-        let o = null;
-        this.isDesktopOverlayActive() && (o = 2048);
-        let s = [];
+            (o = n.filter((e) => !i.includes(e)));
+        } else i = n;
+        let l = null;
+        this.isDesktopOverlayActive() && (l = 2048);
+        let c = [];
         this.state.mapWindows.forEach((e) => {
-          "" == e.overlay_key && s.push(e);
+          "" == e.overlay_key && c.push(e);
         });
-        const l = this.screenshotMode,
-          c = l ? 2.5 : 1.8;
+        const u = this.screenshotMode,
+          p = u ? 2.5 : 1.8;
         return d.createElement(
           a.k,
           null,
-          d.createElement(a.lb, { id: h.j, translation: { z: c } }),
+          d.createElement(a.lb, { id: h.j, translation: { z: p } }),
           d.createElement(
             a.lb,
             {
               translation: {
-                x: l ? 0.1 : 0,
+                x: u ? 0.1 : 0,
                 y: te.getDashboardVerticalPosition(),
-                z: -te.getDashboardDistance() * (l ? 1.1 : 1),
+                z: -te.getDashboardDistance() * (u ? 1.1 : 1),
               },
-              rotation: { x: l ? -20 : 0 },
+              rotation: { x: u ? -20 : 0 },
               scale: te.getDashboardScale(),
             },
             d.createElement(
@@ -5567,7 +5583,7 @@
               { parent_id: this.statusBarAnchorID, translation: { y: 0.008 } },
               d.createElement(
                 a.jb,
-                { color: n },
+                { color: r },
                 d.createElement(
                   a.Y,
                   {
@@ -5580,7 +5596,7 @@
                   },
                   d.createElement(
                     "div",
-                    { className: "StatusBar", style: { width: o } },
+                    { className: "StatusBar", style: { width: l } },
                     d.createElement(
                       "div",
                       { className: "Section Left" },
@@ -5635,7 +5651,7 @@
               d.createElement(
                 a.lb,
                 { rotation: { x: -35 } },
-                this.renderControlBar(r, i)
+                this.renderControlBar(i, o)
               ),
               this.state.eShowPopupMenu == re.Power &&
                 d.createElement(
@@ -5681,7 +5697,7 @@
                         d.Fragment,
                         null,
                         " ",
-                        i.map((e) =>
+                        o.map((e) =>
                           d.createElement(b.i, {
                             key: e.mountable_id,
                             imageUrl: this.getDashboardIconUri(e),
@@ -5720,7 +5736,7 @@
                         d.Fragment,
                         null,
                         " ",
-                        s.map((e) =>
+                        c.map((e) =>
                           d.createElement(b.i, {
                             key: e.hwnd,
                             imageUrl: "/dashboard/images/icons/icon_add.png",
@@ -7146,6 +7162,7 @@
           (this.m_DeviceEventCallbackHandle = null),
           (this.deviceIndex = h.nb),
           (this.batteryLevelStable = null),
+          (this.devicePowerUsage = null),
           (this.state = { batteryIconPath: null });
       }
       componentDidMount() {
@@ -7189,34 +7206,43 @@
               ))
             : void 0 !== this.props.deviceIndex && (n = this.props.deviceIndex),
           n != this.deviceIndex &&
-            ((this.batteryLevelStable = null), (this.deviceIndex = n)),
-          n != h.nb &&
+            ((this.batteryLevelStable = null),
+            (this.devicePowerUsage = null),
+            (this.deviceIndex = n)),
+          n != h.nb)
+        ) {
+          if (
             ((e = VRHTML.VRProperties.GetBoolProperty(
               n,
               h.y.DeviceProvidesBatteryStatus_Bool
             )),
-            e))
-        ) {
-          const e = VRHTML.VRProperties.GetFloatProperty(
+            e)
+          ) {
+            const e = VRHTML.VRProperties.GetFloatProperty(
+              n,
+              h.y.DeviceBatteryPercentage_Float
+            );
+            (t = VRHTML.VRProperties.GetBoolProperty(
+              n,
+              h.y.DeviceIsCharging_Bool
+            )),
+              null == this.batteryLevelStable || 0 == this.batteryLevelStable
+                ? (this.batteryLevelStable = e)
+                : ((this.batteryLevelStable = Math.min(
+                    this.batteryLevelStable,
+                    e + A.kBatteryLevelHysteresis,
+                    1
+                  )),
+                  (this.batteryLevelStable = Math.max(
+                    this.batteryLevelStable,
+                    e - A.kBatteryLevelHysteresis,
+                    0
+                  )));
+          }
+          this.devicePowerUsage = VRHTML.VRProperties.GetFloatProperty(
             n,
-            h.y.DeviceBatteryPercentage_Float
+            h.y.DevicePowerUsage_Float
           );
-          (t = VRHTML.VRProperties.GetBoolProperty(
-            n,
-            h.y.DeviceIsCharging_Bool
-          )),
-            null == this.batteryLevelStable || 0 == this.batteryLevelStable
-              ? (this.batteryLevelStable = e)
-              : ((this.batteryLevelStable = Math.min(
-                  this.batteryLevelStable,
-                  e + A.kBatteryLevelHysteresis,
-                  1
-                )),
-                (this.batteryLevelStable = Math.max(
-                  this.batteryLevelStable,
-                  e - A.kBatteryLevelHysteresis,
-                  0
-                )));
         }
         let r = k.a.GetBatteryIcon(
           e,
@@ -7243,6 +7269,14 @@
         return s.createElement(
           "div",
           { className: "BatteryStatus" },
+          this.devicePowerUsage &&
+            s.createElement(
+              "div",
+              { className: "Label" },
+              " ",
+              Math.round(10 * this.devicePowerUsage) / 10,
+              " W "
+            ),
           s.createElement("img", { src: this.state.batteryIconPath })
         );
       }
@@ -8850,4 +8884,4 @@
         });
   },
 });
-//# sourceMappingURL=keyboard.js.map?v=57fd8a963782177c7943
+//# sourceMappingURL=keyboard.js.map?v=e65828f66deaa905764b

@@ -426,6 +426,14 @@
  b (anonymous namespace)::CVRMsg_CompositorUpdateScreenshotProgressResponse_reflection_
  b (anonymous namespace)::CVRMsg_CompositorUpdateScreenshotProgress_descriptor_
  b (anonymous namespace)::CVRMsg_CompositorUpdateScreenshotProgress_reflection_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord_descriptor_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord_reflection_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatchedResponse_descriptor_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatchedResponse_reflection_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatched_InputCoord_descriptor_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatched_InputCoord_reflection_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatched_descriptor_
+ b (anonymous namespace)::CVRMsg_ComputeDistortionBatched_reflection_
  b (anonymous namespace)::CVRMsg_ComputeDistortionResponse_descriptor_
  b (anonymous namespace)::CVRMsg_ComputeDistortionResponse_reflection_
  b (anonymous namespace)::CVRMsg_ComputeDistortion_descriptor_
@@ -594,6 +602,10 @@
  b (anonymous namespace)::CVRMsg_ShouldKillTheaterPancakeProcessResponse_reflection_
  b (anonymous namespace)::CVRMsg_ShouldKillTheaterPancakeProcess_descriptor_
  b (anonymous namespace)::CVRMsg_ShouldKillTheaterPancakeProcess_reflection_
+ b (anonymous namespace)::CVRMsg_ShutdownSystemResponse_descriptor_
+ b (anonymous namespace)::CVRMsg_ShutdownSystemResponse_reflection_
+ b (anonymous namespace)::CVRMsg_ShutdownSystem_descriptor_
+ b (anonymous namespace)::CVRMsg_ShutdownSystem_reflection_
  b (anonymous namespace)::CVRMsg_StartAutolaunchOverlays_descriptor_
  b (anonymous namespace)::CVRMsg_StartAutolaunchOverlays_reflection_
  b (anonymous namespace)::CVRMsg_StartDashboardResponse_descriptor_
@@ -858,6 +870,10 @@
  b CVRMsg_CompositorUpdateScreenshotProgress::default_instance_
  b CVRMsg_CompositorUpdateScreenshotProgressResponse::default_instance_
  b CVRMsg_ComputeDistortion::default_instance_
+ b CVRMsg_ComputeDistortionBatched::default_instance_
+ b CVRMsg_ComputeDistortionBatchedResponse::default_instance_
+ b CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::default_instance_
+ b CVRMsg_ComputeDistortionBatched_InputCoord::default_instance_
  b CVRMsg_ComputeDistortionResponse::default_instance_
  b CVRMsg_Connect::default_instance_
  b CVRMsg_ConnectResponse::default_instance_
@@ -940,6 +956,8 @@
  b CVRMsg_Settings_SetValue_Response::default_instance_
  b CVRMsg_ShouldKillTheaterPancakeProcess::default_instance_
  b CVRMsg_ShouldKillTheaterPancakeProcessResponse::default_instance_
+ b CVRMsg_ShutdownSystem::default_instance_
+ b CVRMsg_ShutdownSystemResponse::default_instance_
  b CVRMsg_StartAutolaunchOverlays::default_instance_
  b CVRMsg_StartDashboard::default_instance_
  b CVRMsg_StartDashboardResponse::default_instance_
@@ -2563,6 +2581,10 @@
  d typeinfo for CVRMsg_CompositorUpdateScreenshotProgress
  d typeinfo for CVRMsg_CompositorUpdateScreenshotProgressResponse
  d typeinfo for CVRMsg_ComputeDistortion
+ d typeinfo for CVRMsg_ComputeDistortionBatched
+ d typeinfo for CVRMsg_ComputeDistortionBatchedResponse
+ d typeinfo for CVRMsg_ComputeDistortionBatchedResponse_OutputCoord
+ d typeinfo for CVRMsg_ComputeDistortionBatched_InputCoord
  d typeinfo for CVRMsg_ComputeDistortionResponse
  d typeinfo for CVRMsg_Connect
  d typeinfo for CVRMsg_ConnectResponse
@@ -2645,6 +2667,8 @@
  d typeinfo for CVRMsg_Settings_SetValue_Response
  d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcess
  d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcessResponse
+ d typeinfo for CVRMsg_ShutdownSystem
+ d typeinfo for CVRMsg_ShutdownSystemResponse
  d typeinfo for CVRMsg_StartAutolaunchOverlays
  d typeinfo for CVRMsg_StartDashboard
  d typeinfo for CVRMsg_StartDashboardResponse
@@ -3468,6 +3492,10 @@
  d vtable for CVRMsg_CompositorUpdateScreenshotProgress
  d vtable for CVRMsg_CompositorUpdateScreenshotProgressResponse
  d vtable for CVRMsg_ComputeDistortion
+ d vtable for CVRMsg_ComputeDistortionBatched
+ d vtable for CVRMsg_ComputeDistortionBatchedResponse
+ d vtable for CVRMsg_ComputeDistortionBatchedResponse_OutputCoord
+ d vtable for CVRMsg_ComputeDistortionBatched_InputCoord
  d vtable for CVRMsg_ComputeDistortionResponse
  d vtable for CVRMsg_Connect
  d vtable for CVRMsg_ConnectResponse
@@ -3550,6 +3578,8 @@
  d vtable for CVRMsg_Settings_SetValue_Response
  d vtable for CVRMsg_ShouldKillTheaterPancakeProcess
  d vtable for CVRMsg_ShouldKillTheaterPancakeProcessResponse
+ d vtable for CVRMsg_ShutdownSystem
+ d vtable for CVRMsg_ShutdownSystemResponse
  d vtable for CVRMsg_StartAutolaunchOverlays
  d vtable for CVRMsg_StartDashboard
  d vtable for CVRMsg_StartDashboardResponse
@@ -4280,6 +4310,10 @@
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_CompositorUnrefSharedResource_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_CompositorUpdateScreenshotProgressResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_CompositorUpdateScreenshotProgress_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionBatchedResponse_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionBatched_InputCoord_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionBatched_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortionResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ComputeDistortion_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ConnectResponse_offsets_
@@ -4363,6 +4397,8 @@
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_Settings_SetValue_Response_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShouldKillTheaterPancakeProcessResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShouldKillTheaterPancakeProcess_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShutdownSystemResponse_offsets_
+ r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_ShutdownSystem_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartAutolaunchOverlays_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartDashboardResponse_offsets_
  r protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_StartDashboard_offsets_
@@ -4791,6 +4827,10 @@
  r typeinfo name for CVRMsg_CompositorUpdateScreenshotProgress
  r typeinfo name for CVRMsg_CompositorUpdateScreenshotProgressResponse
  r typeinfo name for CVRMsg_ComputeDistortion
+ r typeinfo name for CVRMsg_ComputeDistortionBatched
+ r typeinfo name for CVRMsg_ComputeDistortionBatchedResponse
+ r typeinfo name for CVRMsg_ComputeDistortionBatchedResponse_OutputCoord
+ r typeinfo name for CVRMsg_ComputeDistortionBatched_InputCoord
  r typeinfo name for CVRMsg_ComputeDistortionResponse
  r typeinfo name for CVRMsg_Connect
  r typeinfo name for CVRMsg_ConnectResponse
@@ -4873,6 +4913,8 @@
  r typeinfo name for CVRMsg_Settings_SetValue_Response
  r typeinfo name for CVRMsg_ShouldKillTheaterPancakeProcess
  r typeinfo name for CVRMsg_ShouldKillTheaterPancakeProcessResponse
+ r typeinfo name for CVRMsg_ShutdownSystem
+ r typeinfo name for CVRMsg_ShutdownSystemResponse
  r typeinfo name for CVRMsg_StartAutolaunchOverlays
  r typeinfo name for CVRMsg_StartDashboard
  r typeinfo name for CVRMsg_StartDashboardResponse
@@ -5554,11 +5596,7 @@
  t (anonymous namespace)::xwrite(int, char const*, int)
  t .L10
  t .L100
- t .L1000
- t .L1001
- t .L1002
  t .L1003
- t .L1004
  t .L1005
  t .L1006
  t .L1007
@@ -5573,16 +5611,22 @@
  t .L1015
  t .L1016
  t .L1017
+ t .L1018
  t .L1019
  t .L102
+ t .L1020
+ t .L1021
  t .L1022
  t .L1023
  t .L1025
- t .L1026
- t .L1027
+ t .L1028
  t .L1029
  t .L103
+ t .L1031
+ t .L1032
+ t .L1033
  t .L1034
+ t .L1035
  t .L1036
  t .L1037
  t .L1038
@@ -5593,10 +5637,7 @@
  t .L1042
  t .L1043
  t .L1044
- t .L1045
- t .L1046
  t .L1047
- t .L1048
  t .L1049
  t .L105
  t .L1050
@@ -5604,8 +5645,13 @@
  t .L1052
  t .L1053
  t .L1054
+ t .L1055
  t .L1056
+ t .L1057
+ t .L1058
+ t .L1059
  t .L106
+ t .L1060
  t .L1062
  t .L1063
  t .L1064
@@ -5656,12 +5702,7 @@
  t .L1141
  t .L1142
  t .L1143
- t .L1145
- t .L1146
- t .L1147
- t .L1148
  t .L115
- t .L1150
  t .L11501
  t .L11502
  t .L11504
@@ -6139,39 +6180,8 @@
  t .L182
  t .L183
  t .L184
- t .L18424
- t .L18425
- t .L18427
- t .L18428
- t .L18429
- t .L18430
- t .L18431
- t .L18488
- t .L18489
- t .L18491
- t .L18492
- t .L18493
- t .L18494
- t .L18495
- t .L18496
  t .L185
- t .L18560
- t .L18561
- t .L18563
- t .L18564
- t .L18565
- t .L18566
- t .L18567
  t .L186
- t .L18628
- t .L18629
- t .L18631
- t .L18632
- t .L18633
- t .L18634
- t .L18635
- t .L18636
- t .L18637
  t .L1864
  t .L1865
  t .L1866
@@ -6186,8 +6196,39 @@
  t .L189
  t .L19
  t .L190
+ t .L19054
+ t .L19055
+ t .L19057
+ t .L19058
+ t .L19059
+ t .L19060
+ t .L19061
  t .L191
+ t .L19118
+ t .L19119
+ t .L19121
+ t .L19122
+ t .L19123
+ t .L19124
+ t .L19125
+ t .L19126
+ t .L19190
+ t .L19191
+ t .L19193
+ t .L19194
+ t .L19195
+ t .L19196
+ t .L19197
  t .L192
+ t .L19258
+ t .L19259
+ t .L19261
+ t .L19262
+ t .L19263
+ t .L19264
+ t .L19265
+ t .L19266
+ t .L19267
  t .L193
  t .L194
  t .L1941
@@ -6232,20 +6273,6 @@
  t .L205
  t .L2055
  t .L2056
- t .L20560
- t .L20561
- t .L20563
- t .L20564
- t .L20565
- t .L20566
- t .L20567
- t .L20568
- t .L20569
- t .L20570
- t .L20571
- t .L20572
- t .L20573
- t .L20574
  t .L2058
  t .L206
  t .L207
@@ -6254,7 +6281,21 @@
  t .L21
  t .L210
  t .L211
+ t .L21190
+ t .L21191
+ t .L21193
+ t .L21194
+ t .L21195
+ t .L21196
+ t .L21197
+ t .L21198
+ t .L21199
  t .L212
+ t .L21200
+ t .L21201
+ t .L21202
+ t .L21203
+ t .L21204
  t .L213
  t .L214
  t .L215
@@ -6269,13 +6310,6 @@
  t .L217
  t .L218
  t .L219
- t .L21931
- t .L21932
- t .L21934
- t .L21935
- t .L21936
- t .L21937
- t .L21938
  t .L22
  t .L220
  t .L221
@@ -6305,7 +6339,13 @@
  t .L2243
  t .L2244
  t .L225
- t .L226
+ t .L22561
+ t .L22562
+ t .L22564
+ t .L22565
+ t .L22566
+ t .L22567
+ t .L22568
  t .L227
  t .L228
  t .L229
@@ -6341,10 +6381,10 @@
  t .L236
  t .L237
  t .L238
+ t .L239
  t .L24
  t .L240
  t .L241
- t .L242
  t .L243
  t .L244
  t .L245
@@ -6377,13 +6417,6 @@
  t .L262
  t .L263
  t .L264
- t .L26488
- t .L26489
- t .L26491
- t .L26492
- t .L26493
- t .L26494
- t .L26495
  t .L265
  t .L266
  t .L267
@@ -6413,6 +6446,13 @@
  t .L275
  t .L276
  t .L277
+ t .L27790
+ t .L27791
+ t .L27793
+ t .L27794
+ t .L27795
+ t .L27796
+ t .L27797
  t .L278
  t .L2780
  t .L2781
@@ -6538,31 +6578,6 @@
  t .L302
  t .L303
  t .L304
- t .L30421
- t .L30422
- t .L30424
- t .L30425
- t .L30426
- t .L30427
- t .L30428
- t .L30429
- t .L30430
- t .L30431
- t .L30432
- t .L30433
- t .L30434
- t .L30435
- t .L30436
- t .L30437
- t .L30439
- t .L30440
- t .L30442
- t .L30443
- t .L30444
- t .L30445
- t .L30446
- t .L30447
- t .L30448
  t .L305
  t .L306
  t .L307
@@ -6607,6 +6622,31 @@
  t .L315
  t .L316
  t .L317
+ t .L31723
+ t .L31724
+ t .L31726
+ t .L31727
+ t .L31728
+ t .L31729
+ t .L31730
+ t .L31731
+ t .L31732
+ t .L31733
+ t .L31734
+ t .L31735
+ t .L31736
+ t .L31737
+ t .L31738
+ t .L31739
+ t .L31741
+ t .L31742
+ t .L31744
+ t .L31745
+ t .L31746
+ t .L31747
+ t .L31748
+ t .L31749
+ t .L31750
  t .L318
  t .L319
  t .L3190
@@ -6653,11 +6693,12 @@
  t .L331
  t .L332
  t .L333
+ t .L334
  t .L335
- t .L3363
- t .L3393
+ t .L336
+ t .L337
+ t .L339
  t .L34
- t .L341
  t .L342
  t .L343
  t .L344
@@ -6708,7 +6749,6 @@
  t .L3689
  t .L369
  t .L37
- t .L371
  t .L372
  t .L373
  t .L374
@@ -6716,6 +6756,7 @@
  t .L376
  t .L3765
  t .L377
+ t .L378
  t .L379
  t .L38
  t .L380
@@ -6746,15 +6787,6 @@
  t .L399
  t .L4
  t .L40
- t .L401
- t .L40159
- t .L40160
- t .L40162
- t .L40163
- t .L40164
- t .L40165
- t .L40166
- t .L402
  t .L403
  t .L404
  t .L405
@@ -6768,6 +6800,13 @@
  t .L412
  t .L413
  t .L414
+ t .L41461
+ t .L41462
+ t .L41464
+ t .L41465
+ t .L41466
+ t .L41467
+ t .L41468
  t .L415
  t .L416
  t .L417
@@ -6777,30 +6816,26 @@
  t .L419
  t .L42
  t .L420
+ t .L421
  t .L422
  t .L423
  t .L4230
  t .L424
  t .L4248
- t .L425
  t .L4250
  t .L4251
- t .L426
  t .L4271
- t .L428
  t .L429
  t .L43
  t .L430
- t .L431
  t .L432
+ t .L433
  t .L434
  t .L435
  t .L436
- t .L437
  t .L438
  t .L439
  t .L44
- t .L440
  t .L441
  t .L442
  t .L443
@@ -6830,15 +6865,6 @@
  t .L458
  t .L4585
  t .L459
- t .L45904
- t .L45905
- t .L45907
- t .L45908
- t .L45909
- t .L45910
- t .L45911
- t .L45912
- t .L45913
  t .L4597
  t .L46
  t .L460
@@ -6881,7 +6907,16 @@
  t .L4724
  t .L4725
  t .L4726
+ t .L47266
+ t .L47267
+ t .L47269
  t .L4727
+ t .L47270
+ t .L47271
+ t .L47272
+ t .L47273
+ t .L47274
+ t .L47275
  t .L4728
  t .L4729
  t .L473
@@ -7087,16 +7122,19 @@
  t .L586
  t .L587
  t .L588
+ t .L589
  t .L59
  t .L590
  t .L591
- t .L595
+ t .L592
+ t .L593
+ t .L594
+ t .L596
  t .L597
  t .L598
  t .L599
  t .L6
  t .L60
- t .L600
  t .L601
  t .L602
  t .L603
@@ -7105,9 +7143,15 @@
  t .L606
  t .L607
  t .L608
+ t .L609
  t .L61
  t .L610
+ t .L611
+ t .L612
+ t .L613
+ t .L614
  t .L615
+ t .L616
  t .L617
  t .L618
  t .L619
@@ -7124,9 +7168,7 @@
  t .L629
  t .L63
  t .L630
- t .L631
  t .L632
- t .L633
  t .L634
  t .L635
  t .L636
@@ -7156,7 +7198,6 @@
  t .L658
  t .L659
  t .L66
- t .L660
  t .L661
  t .L662
  t .L663
@@ -7277,6 +7318,7 @@
  t .L754
  t .L755
  t .L756
+ t .L757
  t .L7571
  t .L7572
  t .L7574
@@ -7358,11 +7400,13 @@
  t .L815
  t .L816
  t .L817
- t .L818
- t .L819
  t .L82
- t .L820
- t .L821
+ t .L822
+ t .L823
+ t .L824
+ t .L825
+ t .L826
+ t .L827
  t .L829
  t .L83
  t .L831
@@ -7398,13 +7442,8 @@
  t .L8921
  t .L8922
  t .L8931
- t .L896
- t .L898
- t .L899
  t .L9
  t .L90
- t .L900
- t .L901
  t .L9017
  t .L9019
  t .L902
@@ -7412,7 +7451,6 @@
  t .L9021
  t .L9022
  t .L9023
- t .L903
  t .L904
  t .L905
  t .L906
@@ -7430,8 +7468,10 @@
  t .L911
  t .L9110
  t .L9111
+ t .L912
  t .L913
  t .L914
+ t .L915
  t .L916
  t .L917
  t .L918
@@ -7444,25 +7484,23 @@
  t .L924
  t .L925
  t .L926
+ t .L927
+ t .L928
  t .L929
  t .L93
  t .L931
- t .L932
- t .L933
- t .L934
- t .L936
+ t .L935
+ t .L937
+ t .L938
+ t .L939
  t .L94
+ t .L940
+ t .L942
  t .L95
  t .L96
- t .L969
  t .L97
- t .L970
- t .L972
- t .L973
- t .L974
  t .L975
  t .L976
- t .L977
  t .L978
  t .L979
  t .L98
@@ -7477,9 +7515,13 @@
  t .L988
  t .L989
  t .L99
+ t .L990
+ t .L991
  t .L992
- t .L997
- t .L999
+ t .L993
+ t .L994
+ t .L995
+ t .L998
  t ActionDirectionNameToEnum(std::string const&)
  t ActionScopeNameToEnum(std::string const&)
  t ActionTypeNameToEnum(std::string const&)
@@ -8132,11 +8174,14 @@
  t CHmdSystemLatest::ShowUI(vr::EShowUIType) [clone .cold]
  t CHmdSystemLatest::Shutdown(bool)
  t CHmdSystemLatest::Shutdown(bool) [clone .cold]
+ t CHmdSystemLatest::ShutdownSystem()
+ t CHmdSystemLatest::ShutdownSystem() [clone .cold]
  t CHmdSystemLatest::StartAutolaunchOverlays()
  t CHmdSystemLatest::StartAutolaunchOverlays() [clone .cold]
  t CHmdSystemLatest::StartHomeApp()
  t CHmdSystemLatest::StartHomeAppPreload()
  t CHmdSystemLatest::StartHomeAppPreload() [clone .cold]
+ t CHmdSystemLatest::StartSecondaryComponents()
  t CHmdSystemLatest::StartSubsystemProcesses(bool, vr::EVRInitError)
  t CHmdSystemLatest::StartSubsystemProcesses(bool, vr::EVRInitError) [clone .cold]
  t CHmdSystemLatest::StartVRDashboard()
@@ -9675,6 +9720,8 @@
  t CVRClient::Cleanup()
  t CVRClient::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
  t CVRClient::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*) [clone .cold]
+ t CVRClient::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
+ t CVRClient::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*) [clone .cold]
  t CVRClient::Init(std::string const&, vr::EVRApplicationType, bool, std::string const&, IVRClientHandler*, IVRClientInternal*)
  t CVRClient::Init(std::string const&, vr::EVRApplicationType, bool, std::string const&, IVRClientHandler*, IVRClientInternal*) [clone .cold]
  t CVRClient::SendConnectMessage(bool)
@@ -13059,6 +13106,106 @@
  t CVRMsg_ComputeDistortion::descriptor()
  t CVRMsg_ComputeDistortion::descriptor() [clone .cold]
  t CVRMsg_ComputeDistortion::~CVRMsg_ComputeDistortion()
+ t CVRMsg_ComputeDistortionBatched::ByteSize() const
+ t CVRMsg_ComputeDistortionBatched::CVRMsg_ComputeDistortionBatched()
+ t CVRMsg_ComputeDistortionBatched::CVRMsg_ComputeDistortionBatched() [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::CVRMsg_ComputeDistortionBatched(CVRMsg_ComputeDistortionBatched const&)
+ t CVRMsg_ComputeDistortionBatched::CVRMsg_ComputeDistortionBatched(CVRMsg_ComputeDistortionBatched const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::Clear()
+ t CVRMsg_ComputeDistortionBatched::CopyFrom(CVRMsg_ComputeDistortionBatched const&)
+ t CVRMsg_ComputeDistortionBatched::GetCachedSize() const
+ t CVRMsg_ComputeDistortionBatched::GetMetadata() const
+ t CVRMsg_ComputeDistortionBatched::GetMetadata() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::InitAsDefaultInstance()
+ t CVRMsg_ComputeDistortionBatched::IsInitialized() const
+ t CVRMsg_ComputeDistortionBatched::MergeFrom(CVRMsg_ComputeDistortionBatched const&)
+ t CVRMsg_ComputeDistortionBatched::MergeFrom(CVRMsg_ComputeDistortionBatched const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::New() const
+ t CVRMsg_ComputeDistortionBatched::New() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ComputeDistortionBatched::SetCachedSize(int) const
+ t CVRMsg_ComputeDistortionBatched::SharedCtor()
+ t CVRMsg_ComputeDistortionBatched::SharedDtor()
+ t CVRMsg_ComputeDistortionBatched::Swap(CVRMsg_ComputeDistortionBatched*)
+ t CVRMsg_ComputeDistortionBatched::default_instance()
+ t CVRMsg_ComputeDistortionBatched::descriptor()
+ t CVRMsg_ComputeDistortionBatched::descriptor() [clone .cold]
+ t CVRMsg_ComputeDistortionBatched::~CVRMsg_ComputeDistortionBatched()
+ t CVRMsg_ComputeDistortionBatchedResponse::ByteSize() const
+ t CVRMsg_ComputeDistortionBatchedResponse::CVRMsg_ComputeDistortionBatchedResponse()
+ t CVRMsg_ComputeDistortionBatchedResponse::CVRMsg_ComputeDistortionBatchedResponse() [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::CVRMsg_ComputeDistortionBatchedResponse(CVRMsg_ComputeDistortionBatchedResponse const&)
+ t CVRMsg_ComputeDistortionBatchedResponse::CVRMsg_ComputeDistortionBatchedResponse(CVRMsg_ComputeDistortionBatchedResponse const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::Clear()
+ t CVRMsg_ComputeDistortionBatchedResponse::CopyFrom(CVRMsg_ComputeDistortionBatchedResponse const&)
+ t CVRMsg_ComputeDistortionBatchedResponse::GetCachedSize() const
+ t CVRMsg_ComputeDistortionBatchedResponse::GetMetadata() const
+ t CVRMsg_ComputeDistortionBatchedResponse::GetMetadata() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::InitAsDefaultInstance()
+ t CVRMsg_ComputeDistortionBatchedResponse::IsInitialized() const
+ t CVRMsg_ComputeDistortionBatchedResponse::MergeFrom(CVRMsg_ComputeDistortionBatchedResponse const&)
+ t CVRMsg_ComputeDistortionBatchedResponse::MergeFrom(CVRMsg_ComputeDistortionBatchedResponse const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::New() const
+ t CVRMsg_ComputeDistortionBatchedResponse::New() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ComputeDistortionBatchedResponse::SetCachedSize(int) const
+ t CVRMsg_ComputeDistortionBatchedResponse::SharedCtor()
+ t CVRMsg_ComputeDistortionBatchedResponse::SharedDtor()
+ t CVRMsg_ComputeDistortionBatchedResponse::Swap(CVRMsg_ComputeDistortionBatchedResponse*)
+ t CVRMsg_ComputeDistortionBatchedResponse::default_instance()
+ t CVRMsg_ComputeDistortionBatchedResponse::descriptor()
+ t CVRMsg_ComputeDistortionBatchedResponse::descriptor() [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse::~CVRMsg_ComputeDistortionBatchedResponse()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::ByteSize() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord() [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&)
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CVRMsg_ComputeDistortionBatchedResponse_OutputCoord(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::Clear()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::CopyFrom(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&)
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::GetCachedSize() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::GetMetadata() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::GetMetadata() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::InitAsDefaultInstance()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::IsInitialized() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::MergeFrom(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&)
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::MergeFrom(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::New() const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::New() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::SetCachedSize(int) const
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::SharedCtor()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::SharedDtor()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::Swap(CVRMsg_ComputeDistortionBatchedResponse_OutputCoord*)
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::default_instance()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::descriptor()
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::descriptor() [clone .cold]
+ t CVRMsg_ComputeDistortionBatchedResponse_OutputCoord::~CVRMsg_ComputeDistortionBatchedResponse_OutputCoord()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::ByteSize() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CVRMsg_ComputeDistortionBatched_InputCoord()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CVRMsg_ComputeDistortionBatched_InputCoord() [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CVRMsg_ComputeDistortionBatched_InputCoord(CVRMsg_ComputeDistortionBatched_InputCoord const&)
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CVRMsg_ComputeDistortionBatched_InputCoord(CVRMsg_ComputeDistortionBatched_InputCoord const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::Clear()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::CopyFrom(CVRMsg_ComputeDistortionBatched_InputCoord const&)
+ t CVRMsg_ComputeDistortionBatched_InputCoord::GetCachedSize() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::GetMetadata() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::GetMetadata() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::InitAsDefaultInstance()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::IsInitialized() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::MergeFrom(CVRMsg_ComputeDistortionBatched_InputCoord const&)
+ t CVRMsg_ComputeDistortionBatched_InputCoord::MergeFrom(CVRMsg_ComputeDistortionBatched_InputCoord const&) [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::New() const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::New() const [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::SetCachedSize(int) const
+ t CVRMsg_ComputeDistortionBatched_InputCoord::SharedCtor()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::SharedDtor()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::Swap(CVRMsg_ComputeDistortionBatched_InputCoord*)
+ t CVRMsg_ComputeDistortionBatched_InputCoord::default_instance()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::descriptor()
+ t CVRMsg_ComputeDistortionBatched_InputCoord::descriptor() [clone .cold]
+ t CVRMsg_ComputeDistortionBatched_InputCoord::~CVRMsg_ComputeDistortionBatched_InputCoord()
  t CVRMsg_ComputeDistortionResponse::ByteSize() const
  t CVRMsg_ComputeDistortionResponse::CVRMsg_ComputeDistortionResponse()
  t CVRMsg_ComputeDistortionResponse::CVRMsg_ComputeDistortionResponse() [clone .cold]
@@ -15554,6 +15701,56 @@
  t CVRMsg_ShouldKillTheaterPancakeProcessResponse::descriptor()
  t CVRMsg_ShouldKillTheaterPancakeProcessResponse::descriptor() [clone .cold]
  t CVRMsg_ShouldKillTheaterPancakeProcessResponse::~CVRMsg_ShouldKillTheaterPancakeProcessResponse()
+ t CVRMsg_ShutdownSystem::ByteSize() const
+ t CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem()
+ t CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem() [clone .cold]
+ t CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem(CVRMsg_ShutdownSystem const&)
+ t CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem(CVRMsg_ShutdownSystem const&) [clone .cold]
+ t CVRMsg_ShutdownSystem::Clear()
+ t CVRMsg_ShutdownSystem::CopyFrom(CVRMsg_ShutdownSystem const&)
+ t CVRMsg_ShutdownSystem::GetCachedSize() const
+ t CVRMsg_ShutdownSystem::GetMetadata() const
+ t CVRMsg_ShutdownSystem::GetMetadata() const [clone .cold]
+ t CVRMsg_ShutdownSystem::InitAsDefaultInstance()
+ t CVRMsg_ShutdownSystem::IsInitialized() const
+ t CVRMsg_ShutdownSystem::MergeFrom(CVRMsg_ShutdownSystem const&)
+ t CVRMsg_ShutdownSystem::MergeFrom(CVRMsg_ShutdownSystem const&) [clone .cold]
+ t CVRMsg_ShutdownSystem::New() const
+ t CVRMsg_ShutdownSystem::New() const [clone .cold]
+ t CVRMsg_ShutdownSystem::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ShutdownSystem::SetCachedSize(int) const
+ t CVRMsg_ShutdownSystem::SharedCtor()
+ t CVRMsg_ShutdownSystem::SharedDtor()
+ t CVRMsg_ShutdownSystem::Swap(CVRMsg_ShutdownSystem*)
+ t CVRMsg_ShutdownSystem::default_instance()
+ t CVRMsg_ShutdownSystem::descriptor()
+ t CVRMsg_ShutdownSystem::descriptor() [clone .cold]
+ t CVRMsg_ShutdownSystem::~CVRMsg_ShutdownSystem()
+ t CVRMsg_ShutdownSystemResponse::ByteSize() const
+ t CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse()
+ t CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse() [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse(CVRMsg_ShutdownSystemResponse const&)
+ t CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse(CVRMsg_ShutdownSystemResponse const&) [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::Clear()
+ t CVRMsg_ShutdownSystemResponse::CopyFrom(CVRMsg_ShutdownSystemResponse const&)
+ t CVRMsg_ShutdownSystemResponse::GetCachedSize() const
+ t CVRMsg_ShutdownSystemResponse::GetMetadata() const
+ t CVRMsg_ShutdownSystemResponse::GetMetadata() const [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::InitAsDefaultInstance()
+ t CVRMsg_ShutdownSystemResponse::IsInitialized() const
+ t CVRMsg_ShutdownSystemResponse::MergeFrom(CVRMsg_ShutdownSystemResponse const&)
+ t CVRMsg_ShutdownSystemResponse::MergeFrom(CVRMsg_ShutdownSystemResponse const&) [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::New() const
+ t CVRMsg_ShutdownSystemResponse::New() const [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::SerializeWithCachedSizesToArray(unsigned char*) const
+ t CVRMsg_ShutdownSystemResponse::SetCachedSize(int) const
+ t CVRMsg_ShutdownSystemResponse::SharedCtor()
+ t CVRMsg_ShutdownSystemResponse::SharedDtor()
+ t CVRMsg_ShutdownSystemResponse::Swap(CVRMsg_ShutdownSystemResponse*)
+ t CVRMsg_ShutdownSystemResponse::default_instance()
+ t CVRMsg_ShutdownSystemResponse::descriptor()
+ t CVRMsg_ShutdownSystemResponse::descriptor() [clone .cold]
+ t CVRMsg_ShutdownSystemResponse::~CVRMsg_ShutdownSystemResponse()
  t CVRMsg_StartAutolaunchOverlays::ByteSize() const
  t CVRMsg_StartAutolaunchOverlays::CVRMsg_StartAutolaunchOverlays()
  t CVRMsg_StartAutolaunchOverlays::CVRMsg_StartAutolaunchOverlays() [clone .cold]
@@ -18777,6 +18974,7 @@
  t CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*) [clone .cold]
  t CVRSystemLatest::ClearHiddenAreaCache()
  t CVRSystemLatest::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
+ t CVRSystemLatest::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
  t CVRSystemLatest::GetAppContainerFilePaths(char*, unsigned int)
  t CVRSystemLatest::GetApplicationSpecificFovScale() const
  t CVRSystemLatest::GetApplicationSpecificFovScale() const [clone .cold]
@@ -18839,6 +19037,8 @@
  t CVRSystemLatest::GetRawZeroPoseToStandingAbsoluteTrackingPose()
  t CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
  t CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*) [clone .cold]
+ t CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
+ t CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int) [clone .cold]
  t CVRSystemLatest::GetRuntimeVersion()
  t CVRSystemLatest::GetRuntimeVersion() [clone .cold]
  t CVRSystemLatest::GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
@@ -18856,6 +19056,7 @@
  t CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*) [clone .cold]
  t CVRSystemLatest::GetZeroPoseFromDevicePose(VRTrackingState_Pose_t const&, vr::HmdMatrix34_t*) const
  t CVRSystemLatest::GetZeroPoseFromDevicePose(VRTrackingState_Pose_t const&, vr::HmdMatrix34_t*) const [clone .part.0]
+ t CVRSystemLatest::HasRemoteFrameTiming()
  t CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
  t CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags) [clone .cold]
  t CVRSystemLatest::IncrementChaperoneDataRefreshIndex()
@@ -20405,6 +20606,9 @@
  t HmdInterfaceRegistration<CVRSystem_020>::~HmdInterfaceRegistration()
  t HmdInterfaceRegistration<CVRSystem_021>::GetInterface()
  t HmdInterfaceRegistration<CVRSystem_021>::~HmdInterfaceRegistration()
+ t HmdMatrix34FromJson(Json::Value const&, vr::HmdMatrix34_t&)
+ t HmdMatrix34ToJson(vr::HmdMatrix34_t const&)
+ t HmdMatrix34ToJson(vr::HmdMatrix34_t const&) [clone .cold]
  t HmdMatrix_GetRotationEuler(vr::HmdMatrix34_t const&)
  t HmdMatrix_Invert(vr::HmdMatrix34_t const&, bool*)
  t HmdMatrix_Invert(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t*)
@@ -25076,6 +25280,7 @@
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_CompositorTakeStereoScreenshotResponse>(unsigned int, unsigned int, CVRMsg_CompositorTakeStereoScreenshotResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_CompositorUnrefSharedResourceResponse>(unsigned int, unsigned int, CVRMsg_CompositorUnrefSharedResourceResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_CompositorUpdateScreenshotProgressResponse>(unsigned int, unsigned int, CVRMsg_CompositorUpdateScreenshotProgressResponse&, unsigned int)
+ t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ComputeDistortionBatchedResponse>(unsigned int, unsigned int, CVRMsg_ComputeDistortionBatchedResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ComputeDistortionResponse>(unsigned int, unsigned int, CVRMsg_ComputeDistortionResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ConnectResponse>(unsigned int, unsigned int, CVRMsg_ConnectResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_CreateSwapTextureSetResponse>(unsigned int, unsigned int, CVRMsg_CreateSwapTextureSetResponse&, unsigned int)
@@ -25105,6 +25310,7 @@
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Settings_GetValueType_Response>(unsigned int, unsigned int, CVRMsg_Settings_GetValueType_Response&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Settings_SetValue_Response>(unsigned int, unsigned int, CVRMsg_Settings_SetValue_Response&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ShouldKillTheaterPancakeProcessResponse>(unsigned int, unsigned int, CVRMsg_ShouldKillTheaterPancakeProcessResponse&, unsigned int)
+ t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ShutdownSystemResponse>(unsigned int, unsigned int, CVRMsg_ShutdownSystemResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse>(unsigned int, unsigned int, CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_EnableResponse>(unsigned int, unsigned int, CVRMsg_TrackedCamera_EnableResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_GetDistortionResponse>(unsigned int, unsigned int, CVRMsg_TrackedCamera_GetDistortionResponse&, unsigned int)
@@ -25418,8 +25624,10 @@
  t non-virtual thunk to CHmdSystemLatest::ShowDevTools(int)
  t non-virtual thunk to CHmdSystemLatest::ShowUI(vr::EShowUIType)
  t non-virtual thunk to CHmdSystemLatest::Shutdown(bool)
+ t non-virtual thunk to CHmdSystemLatest::ShutdownSystem()
  t non-virtual thunk to CHmdSystemLatest::StartAutolaunchOverlays()
  t non-virtual thunk to CHmdSystemLatest::StartHomeApp()
+ t non-virtual thunk to CHmdSystemLatest::StartSecondaryComponents()
  t non-virtual thunk to CHmdSystemLatest::ThisProcessIsCompositor()
  t non-virtual thunk to CHmdSystemLatest::TopologyChanged()
  t non-virtual thunk to CHmdSystemLatest::TransformPoseToUniverse(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const&, vr::ETrackingUniverseOrigin)
@@ -25601,6 +25809,7 @@
  t non-virtual thunk to CVRSystemLatest::AddSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
  t non-virtual thunk to CVRSystemLatest::ApplyApplicationSpecificPoseTransform(unsigned int, vr::TrackedDevicePose_t*, float)
  t non-virtual thunk to CVRSystemLatest::ApplyApplicationSpecificPoseTransform(vr::TrackedDevicePose_t*, unsigned int, float)
+ t non-virtual thunk to CVRSystemLatest::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
  t non-virtual thunk to CVRSystemLatest::GetApplicationSpecificScaling()
  t non-virtual thunk to CVRSystemLatest::GetCompositorError()
  t non-virtual thunk to CVRSystemLatest::GetCompositorProcessId()
@@ -25614,8 +25823,10 @@
  t non-virtual thunk to CVRSystemLatest::GetMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
  t non-virtual thunk to CVRSystemLatest::GetRawRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::GetTrackedDeviceClassUnmodified(unsigned int)
  t non-virtual thunk to CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t non-virtual thunk to CVRSystemLatest::HasRemoteFrameTiming()
  t non-virtual thunk to CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
  t non-virtual thunk to CVRSystemLatest::PollNextOverlayEvent(unsigned long long, vr::VREvent_t*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::PostGlobalEvent(vr::VREvent_t const&, unsigned int)

@@ -276,8 +276,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Más información"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Visor inalámbrico no conectado"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Asegúrate de que el visor inalámbrico está encendido para que pueda conectarse a SteamVR."
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "Más información"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Actualización del controlador de vídeo"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Necesitas actualizar el controlador de vídeo de tu ordenador."
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Debes actualizar el controlador gráfico de tu ordenador o activar la programación de GPU acelerada por hardware."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Más información"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=spanish#steamvr-issues"
 

@@ -273,8 +273,13 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "詳細"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "ワイヤレスヘッドセットが接続されていません"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVRに接続できるように、ワイヤレスヘッドセットの電源が入っていることを確認してください。"
+"VRInitError_Driver_WirelessHmdNotConnected_Action" "詳細情報"
+"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "グラフィックドライバーのアップデート"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "お使いのコンピューターのグラフィックドライバーを更新する必要があります。"
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "コンピューターのグラフィックドライバーを更新するか、ハードウェアアクセラレーションによるGPUスケジューリングを有効にする必要があります。"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "詳細情報"
 "VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 

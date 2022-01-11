@@ -123,6 +123,7 @@
 "FrameTiming_Pause" "Pause"
 "FrameTiming_Raw" "Details"
 "FrameTiming_ShowInHeadset" "Show in Headset"
+"FrameTiming_Remote" "Remote"
 
 "FrameTiming_5sStats" "Drops in last %1s:\n  %2 single frame\n  %3 2 frame\n  %4 3 frame\n  %5 4 or more\n Total %6\n"
 "FrameTiming_Config" "Warn if over %3s we see\n   %1 single frames missed\n   or %2 multi frame drops"
