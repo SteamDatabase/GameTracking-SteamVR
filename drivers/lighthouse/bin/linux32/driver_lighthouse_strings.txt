@@ -2379,7 +2379,7 @@ $tI
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
-21:15:48
+22:35:14
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -4386,6 +4386,7 @@ FailedToGetFirmwareVersion
 False
 FastHexToBuffer() wants non-negative integers, not
 Feb
+Feb  4 2022
 February
 Feel free to add support for more if you need it.
 Field       :
@@ -4663,7 +4664,7 @@ IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_002
 IVRDriverDirectInternal_XXX
-IVRDriverDirectModeComponent_007
+IVRDriverDirectModeComponent_008
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -4817,7 +4818,6 @@ JSON Update
 JSON string too short.
 JST
 Jan
-Jan 14 2022
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -7217,6 +7217,7 @@ WinRT::AcquireDisplay(int)
 WinRT::GetAdapterLuid(int, void*)
 WinRT::GetCurrentDriverVersion()
 WinRT::GetDeviceString(int)
+WinRT::GetDisplayMode(WinRT::DisplayMode_t*)
 WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
 WinRT::HasDisplay(int)
 WinRT::Present()

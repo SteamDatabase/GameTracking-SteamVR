@@ -1868,6 +1868,10 @@
             "Hmd_SupportsMicMonitoring_Bool"),
           (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
+          (e[(e.SupportsRoomViewDirect_Bool = 2105)] =
+            "SupportsRoomViewDirect_Bool"),
+          (e[(e.SupportsAppThrottling_Bool = 2106)] =
+            "SupportsAppThrottling_Bool"),
           (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -2867,6 +2871,11 @@
         let t = { type: "request_destroy_window_view", hwnd: e };
         this.m_mailbox.SendMessage("desktopview", t);
       }
+      ShowDesktop() {
+        this.m_mailbox.SendMessage("desktopview", {
+          type: "request_show_desktop",
+        });
+      }
       ToggleKeyboard() {
         this.setState((e) => ({ bKeyboardVisible: !e.bKeyboardVisible }));
       }
@@ -2973,11 +2982,15 @@
                   active: this.state.currentOverlayDockLocation == f.World,
                 }),
                 this.props.bWindowViewEnabled &&
+                  "" != this.state.sCurrentWindowOverlayKey &&
                   d.createElement(g.n, {
-                    additionalClassNames: "CloseWindow",
                     iconUrl: "/dashboard/images/icons/icon_close_black.png",
                     onClick: this.CloseWindow,
-                    enabled: "" != this.state.sCurrentWindowOverlayKey,
+                  }),
+                "" == this.state.sCurrentWindowOverlayKey &&
+                  d.createElement(g.n, {
+                    iconUrl: "/dashboard/images/icons/icon_showdesktop.png",
+                    onClick: this.ShowDesktop,
                   })
               )
             )
@@ -3132,6 +3145,7 @@
       Object(a.b)([c.a], O.prototype, "onDesktopViewReady", null),
       Object(a.b)([c.a], O.prototype, "onWindowViewChange", null),
       Object(a.b)([c.a], O.prototype, "CloseWindow", null),
+      Object(a.b)([c.a], O.prototype, "ShowDesktop", null),
       Object(a.b)([c.a], O.prototype, "ToggleKeyboard", null),
       Object(a.b)([c.a], O.prototype, "OnKeyboardClosed", null),
       (O = i = Object(a.b)([b.a], O));
@@ -17172,4 +17186,4 @@
       Object(i.b)([a.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=controllerbindingui.js.map?v=e58faf5546d8b2dfe590
+//# sourceMappingURL=controllerbindingui.js.map?v=66b67e558ca6b72d8dc9

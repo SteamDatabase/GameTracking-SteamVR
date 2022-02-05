@@ -257,10 +257,10 @@
     function p(e, t) {
       return { x: e.x * t, y: e.y * t };
     }
-    function h(e, t) {
+    function _(e, t) {
       return { x: e.x * t, y: e.y * t, z: e.z * t };
     }
-    function _(e) {
+    function h(e) {
       return Math.sqrt(e.x * e.x + e.y * e.y);
     }
     function m(e) {
@@ -420,7 +420,7 @@
     function F(e, t) {
       return z(O(e, t));
     }
-    function N(e, t) {
+    function T(e, t) {
       let r = { type: e, properties: {} };
       return (
         t.id && (r.properties.id = z(t.id)),
@@ -428,7 +428,7 @@
         r
       );
     }
-    function T(e, t) {
+    function N(e, t) {
       let [r, n] = (function (e, t) {
           let r = t.buildNode;
           if (r) return r(e, t);
@@ -436,7 +436,7 @@
             i = null;
           switch (t.nodeName.toUpperCase()) {
             case "VSG-TRANSFORM":
-              (i = N("transform", t)),
+              (i = T("transform", t)),
                 (i.properties.translation = M(t, "translation")),
                 (i.properties.rotation = M(t, "rotation")),
                 (i.properties.scale = M(t, "scale")),
@@ -445,13 +445,13 @@
                 (i.properties["parent-id"] = F(t, "parent-id"));
               break;
             case "VSG-TRACKING-STATE-VISIBILITY":
-              (i = N("trackingstatevisibility", t)),
+              (i = T("trackingstatevisibility", t)),
                 (i.properties["visible-0dof"] = w(t, "visible-0dof")),
                 (i.properties["visible-3dof"] = w(t, "visible-3dof")),
                 (i.properties["visible-6dof"] = w(t, "visible-6dof"));
               break;
             case "VSG-ELASTIC-HEAD-TRANSFORM":
-              (i = N("elasticheadtransform", t)),
+              (i = T("elasticheadtransform", t)),
                 (i.properties["start-angle-threshold"] = x(
                   t,
                   "start-angle-threshold"
@@ -482,28 +482,28 @@
                 ));
               break;
             case "VSG-LINE":
-              (i = N("line", t)),
+              (i = T("line", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
                 (i.properties.thickness = x(t, "thickness")),
                 (i.properties["start-buffer"] = x(t, "start-buffer")),
                 (i.properties["end-buffer"] = x(t, "end-buffer"));
               break;
             case "VSG-LINE-CONSTRAINED-TRANSFORM":
-              (i = N("line-constrained-transform", t)),
+              (i = T("line-constrained-transform", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
                 (i.properties["source-id"] = F(t, "source-id")),
                 (i.properties["source-distance"] = x(t, "source-distance")),
                 (i.properties["target-limit"] = x(t, "target-limit"));
               break;
             case "VSG-CALLOUT-TRANSFORM":
-              (i = N("callout-transform", t)),
+              (i = T("callout-transform", t)),
                 (i.properties.offset = M(t, "offset"));
               break;
             case "VSG-HEAD-FACING-TRANSFORM":
-              i = N("head-facing-transform", t);
+              i = T("head-facing-transform", t);
               break;
             case "VSG-PIN-TO-VIEW-TRANSFORM":
-              (i = N("pin-to-view-transform", t)),
+              (i = T("pin-to-view-transform", t)),
                 (i.properties["offscreen-z-depth"] = x(t, "offscreen-z-depth")),
                 (i.properties["off-axis-limit"] = x(t, "off-axis-limit")),
                 (i.properties["transition-limit"] = x(t, "transition-limit"));
@@ -514,7 +514,7 @@
       for (let e = 0; e < t.children.length; e++) {
         let n = t.children.item(e);
         if (n.children) {
-          let e = T(r, n);
+          let e = N(r, n);
           e && (i = i.concat(e));
         }
       }
@@ -530,8 +530,8 @@
     }
     let B,
       E,
-      k,
       A,
+      k,
       V = [],
       U = null,
       L = null,
@@ -559,7 +559,7 @@
         : B;
     }
     function j() {
-      A = !0;
+      k = !0;
     }
     function q(e) {
       e != H && ((H = e), K());
@@ -574,15 +574,15 @@
               let t = {
                 type: "root",
                 rootproperties: {
-                  relatchDashboardTransform: A,
+                  relatchDashboardTransform: k,
                   sceneCompositeMult: H,
                 },
-                children: T({ currentPanel: null, bShouldAbort: !1 }, e),
+                children: N({ currentPanel: null, bShouldAbort: !1 }, e),
               };
               L ||
                 (console.log("Initializing sg_mailbox"),
                 (L = new s()),
-                yield L.Init("sg_mailbox", k));
+                yield L.Init("sg_mailbox", A));
               let r = {
                 type: "update_scene_graph",
                 owning_overlay_key: G(),
@@ -592,7 +592,7 @@
               L.SendMessage("vrcompositor_systemlayer", r),
                 (U = null),
                 (V = []),
-                (A = !1);
+                (k = !1);
             }),
           0
         ));
@@ -640,7 +640,7 @@
         return "base";
       }
       createSgNode(e) {
-        return N(this.getNodeType(), e);
+        return T(this.getNodeType(), e);
       }
       getCurrentRootElement() {
         return this.m_domRef.current;
@@ -779,7 +779,7 @@
         return (r.properties.opacity = this.props.value), [e, r];
       }
     }
-    var oe, se, ae, le, de, ce, ue, pe, he, _e, me;
+    var oe, se, ae, le, de, ce, ue, pe, _e, he, me;
     Object(n.b)([o.a], ie.prototype, "buildNode", null),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
@@ -807,7 +807,7 @@
             (r = this.props.transform.scale))
           : ((e = Q(this.props.translation, { x: 0, y: 0, z: 0 })),
             (t = g(
-              h(Q(this.props.rotation, { x: 0, y: 0, z: 0 }), Math.PI / 180)
+              _(Q(this.props.rotation, { x: 0, y: 0, z: 0 }), Math.PI / 180)
             )),
             (r =
               "number" == typeof this.props.scale
@@ -1206,7 +1206,7 @@
             (o = this.props.web_secret),
             (B = n),
             (E = i),
-            (k = o),
+            (A = o),
             console.log("Setting owning overlay key to " + n));
       }
       componentWillUnmount() {
@@ -1578,7 +1578,7 @@
           (e[(e.Low = 1)] = "Low"),
           (e[(e.Medium = 2)] = "Medium"),
           (e[(e.High = 3)] = "High");
-      })(he || (he = {})),
+      })(_e || (_e = {})),
       (function (e) {
         (e[(e.TrackingResult_Uninitialized = 1)] =
           "TrackingResult_Uninitialized"),
@@ -1592,13 +1592,13 @@
             "TrackingResult_Running_OutOfRange"),
           (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
             "TrackingResult_Fallback_RotationOnly");
-      })(_e || (_e = {})),
+      })(he || (he = {})),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(me || (me = {}));
-    var we, Oe, Fe, Ne, Te, Be, Ee, ke, Ae, Ve, Ue, Le, He, We, ze, Ge, je, qe;
+    var we, Oe, Fe, Te, Ne, Be, Ee, Ae, ke, Ve, Ue, Le, He, We, ze, Ge, je, qe;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1649,7 +1649,7 @@
       })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-      })(Ne || (Ne = {})),
+      })(Te || (Te = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.TrackingSystemName_String = 1e3)] =
@@ -1868,6 +1868,10 @@
             "Hmd_SupportsMicMonitoring_Bool"),
           (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
+          (e[(e.SupportsRoomViewDirect_Bool = 2105)] =
+            "SupportsRoomViewDirect_Bool"),
+          (e[(e.SupportsAppThrottling_Bool = 2106)] =
+            "SupportsAppThrottling_Bool"),
           (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -1952,7 +1956,7 @@
             "VendorSpecific_Reserved_End"),
           (e[(e.TrackedDeviceProperty_Max = 1e6)] =
             "TrackedDeviceProperty_Max");
-      })(Te || (Te = {})),
+      })(Ne || (Ne = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.HMD = 1)] = "HMD"),
@@ -1972,7 +1976,7 @@
           (e[(e.Quitting = 2)] = "Quitting"),
           (e[(e.Running = 3)] = "Running"),
           (e[(e.Waiting = 4)] = "Waiting");
-      })(ke || (ke = {})),
+      })(Ae || (Ae = {})),
       (function (e) {
         (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
           (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -1982,7 +1986,7 @@
           (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
             "CouldntFindOrCreateClientOverlay"),
           (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-      })(Ae || (Ae = {})),
+      })(ke || (ke = {})),
       (function (e) {
         (e[(e.Normal = 0)] = "Normal"),
           (e[(e.Password = 1)] = "Password"),
@@ -2073,7 +2077,7 @@
           try {
             let e = VRHTML.VRProperties.GetStringProperty(
               this.props.sDevicePath,
-              Te.RenderModelName_String
+              Ne.RenderModelName_String
             );
             if (e) {
               let r = VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
@@ -2155,10 +2159,10 @@
         return p;
       }),
       r.d(t, "V", function () {
-        return h;
+        return _;
       }),
       r.d(t, "M", function () {
-        return _;
+        return h;
       }),
       r.d(t, "N", function () {
         return m;
@@ -2275,10 +2279,10 @@
         return Pe;
       }),
       r.d(t, "q", function () {
-        return he;
+        return _e;
       }),
       r.d(t, "z", function () {
-        return _e;
+        return he;
       }),
       r.d(t, "A", function () {
         return me;
@@ -2296,19 +2300,19 @@
         return Fe;
       }),
       r.d(t, "E", function () {
-        return Ne;
+        return Te;
       }),
       r.d(t, "y", function () {
-        return Te;
+        return Ne;
       }),
       r.d(t, "x", function () {
         return Be;
       }),
       r.d(t, "v", function () {
-        return ke;
+        return Ae;
       }),
       r.d(t, "C", function () {
-        return Ae;
+        return ke;
       }),
       r.d(t, "p", function () {
         return Ve;
@@ -2618,4 +2622,4 @@
     );
   },
 });
-//# sourceMappingURL=fallback.js.map?v=b63ada4d1cf5db178ec4
+//# sourceMappingURL=fallback.js.map?v=0e0dbddb7410cac1ae55

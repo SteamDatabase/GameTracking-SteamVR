@@ -251,7 +251,7 @@ ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_002
-IVRDriverDirectModeComponent_007
+IVRDriverDirectModeComponent_008
 IVRDriverLog_001
 IVRDriverManager_001
 IVRProperties_001

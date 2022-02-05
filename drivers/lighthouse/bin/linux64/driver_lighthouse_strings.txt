@@ -872,7 +872,7 @@ $@
 20CVRFramerateGovernor
 20CVkCommandBufferPool
 20IVRAudioNotification
-21:15:54
+22:35:25
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -2204,8 +2204,8 @@ CPrismDirect::GetNextSwapTextureSetIndex(unsigned long*, unsigned int (*) [2]) [
 CPrismDirect::GetTextureSet(unsigned long) const
 CPrismDirect::Initialize(CTrackedDeviceConfig*)
 CPrismDirect::Initialize(CTrackedDeviceConfig*) [clone .cold]
-CPrismDirect::PostPresent()
-CPrismDirect::PostPresent() [clone .cold]
+CPrismDirect::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
+CPrismDirect::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*) [clone .cold]
 CPrismDirect::Present(unsigned long)
 CPrismDirect::Present(unsigned long) [clone .cold]
 CPrismDirect::SetEyeToHead(vr::HmdMatrix34_t const&, vr::HmdMatrix34_t const&)
@@ -3295,6 +3295,7 @@ False
 FastHexToBuffer() wants non-negative integers, not
 Fatal
 Feb
+Feb  4 2022
 February
 Feel free to add support for more if you need it.
 Field       :
@@ -3636,7 +3637,7 @@ IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_002
 IVRDriverDirectInternal_XXX
-IVRDriverDirectModeComponent_007
+IVRDriverDirectModeComponent_008
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -3808,7 +3809,6 @@ JSON Update
 JSON string too short.
 JST
 Jan
-Jan 14 2022
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -6334,6 +6334,7 @@ WinRT::AcquireDisplay(int)
 WinRT::GetAdapterLuid(int, void*)
 WinRT::GetCurrentDriverVersion()
 WinRT::GetDeviceString(int)
+WinRT::GetDisplayMode(WinRT::DisplayMode_t*)
 WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
 WinRT::HasDisplay(int)
 WinRT::Present()

@@ -3797,8 +3797,8 @@
  t CPrismDirect::GetTextureSet(unsigned long) const
  t CPrismDirect::Initialize(CTrackedDeviceConfig*)
  t CPrismDirect::Initialize(CTrackedDeviceConfig*) [clone .cold]
- t CPrismDirect::PostPresent()
- t CPrismDirect::PostPresent() [clone .cold]
+ t CPrismDirect::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
+ t CPrismDirect::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*) [clone .cold]
  t CPrismDirect::Present(unsigned long)
  t CPrismDirect::Present(unsigned long) [clone .cold]
  t CPrismDirect::SetEyeToHead(vr::HmdMatrix34_t const&, vr::HmdMatrix34_t const&)
@@ -5501,6 +5501,7 @@
  t WinRT::GetAdapterLuid(int, void*)
  t WinRT::GetCurrentDriverVersion()
  t WinRT::GetDeviceString(int)
+ t WinRT::GetDisplayMode(WinRT::DisplayMode_t*)
  t WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
  t WinRT::HasDisplay(int)
  t WinRT::Present()

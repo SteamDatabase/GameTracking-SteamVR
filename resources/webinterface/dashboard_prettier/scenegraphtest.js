@@ -1868,6 +1868,10 @@
             "Hmd_SupportsMicMonitoring_Bool"),
           (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
+          (e[(e.SupportsRoomViewDirect_Bool = 2105)] =
+            "SupportsRoomViewDirect_Bool"),
+          (e[(e.SupportsAppThrottling_Bool = 2106)] =
+            "SupportsAppThrottling_Bool"),
           (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -2747,4 +2751,4 @@
         );
   },
 });
-//# sourceMappingURL=scenegraphtest.js.map?v=09eccf31ec2a33b30161
+//# sourceMappingURL=scenegraphtest.js.map?v=b78c4063db3793a22507

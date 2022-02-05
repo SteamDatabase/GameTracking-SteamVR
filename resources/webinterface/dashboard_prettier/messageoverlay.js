@@ -347,14 +347,14 @@
       let t = g(e);
       return { x: e.x / t, y: e.y / t, z: e.z / t };
     }
-    function O(e, t) {
+    function k(e, t) {
       return {
         x: e.y * t.z - e.z * t.y,
         y: e.z * t.x - e.x * t.z,
         z: e.x * t.y - e.y * t.x,
       };
     }
-    function C(e) {
+    function O(e) {
       let t = e.w * e.w + e.x * e.x + e.y * e.y + e.z * e.z;
       return { w: e.w / t, x: -e.x / t, y: -e.y / t, z: -e.z / t };
     }
@@ -364,12 +364,12 @@
       Object(r.b)([i.bind], s.prototype, "OnWebSocketClose", null),
       Object(r.b)([i.bind], s.prototype, "WebSocketSend", null),
       Object(r.b)([i.bind], s.prototype, "OnWebSocketMessage", null);
-    class k {
+    class C {
       constructor() {
         (this.m_mailbox = new s()), this.m_mailbox.Init("sgtransformcache");
       }
       static getInstance() {
-        return k.instance || (k.instance = new k()), k.instance;
+        return C.instance || (C.instance = new C()), C.instance;
       }
       requestSGTransform(e) {
         return new Promise((t, n) =>
@@ -1379,7 +1379,7 @@
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
       })(de || (de = {}));
-    class Oe extends $ {
+    class ke extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -1412,8 +1412,8 @@
         );
       }
     }
-    Object(r.b)([o.a], Oe.prototype, "buildNode", null);
-    class Ce extends $ {
+    Object(r.b)([o.a], ke.prototype, "buildNode", null);
+    class Oe extends $ {
       constructor(e) {
         super(e);
       }
@@ -1426,7 +1426,7 @@
         });
       }
     }
-    class ke extends $ {
+    class Ce extends $ {
       constructor(e) {
         super(e);
       }
@@ -1868,6 +1868,10 @@
             "Hmd_SupportsMicMonitoring_Bool"),
           (e[(e.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
+          (e[(e.SupportsRoomViewDirect_Bool = 2105)] =
+            "SupportsRoomViewDirect_Bool"),
+          (e[(e.SupportsAppThrottling_Bool = 2106)] =
+            "SupportsAppThrottling_Bool"),
           (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -2182,13 +2186,13 @@
         return S;
       }),
       n.d(t, "h", function () {
-        return O;
+        return k;
       }),
       n.d(t, "L", function () {
-        return C;
+        return O;
       }),
       n.d(t, "fb", function () {
-        return k;
+        return C;
       }),
       n.d(t, "j", function () {
         return ne;
@@ -2230,13 +2234,13 @@
         return de;
       }),
       n.d(t, "db", function () {
-        return Oe;
+        return ke;
       }),
       n.d(t, "P", function () {
-        return Ce;
+        return Oe;
       }),
       n.d(t, "bb", function () {
-        return ke;
+        return Ce;
       }),
       n.d(t, "Z", function () {
         return De;
@@ -2541,7 +2545,7 @@
         (e[(e.RightHand = 2)] = "RightHand"),
         (e[(e.World = 3)] = "World");
     })(S || (S = {}));
-    let O = (r = class extends d.Component {
+    let k = (r = class extends d.Component {
       constructor(e) {
         super(e),
           (this.m_mailbox = new a.c()),
@@ -2687,9 +2691,9 @@
         );
       }
     });
-    (O.k_sMailboxName = "systemui_desktoptray"),
-      (O = r = Object(s.b)([g.a], O));
-    let C = (i = class extends d.Component {
+    (k.k_sMailboxName = "systemui_desktoptray"),
+      (k = r = Object(s.b)([g.a], k));
+    let O = (i = class extends d.Component {
       constructor(e) {
         super(e),
           (this.m_mailbox = new a.c()),
@@ -2867,6 +2871,11 @@
         let t = { type: "request_destroy_window_view", hwnd: e };
         this.m_mailbox.SendMessage("desktopview", t);
       }
+      ShowDesktop() {
+        this.m_mailbox.SendMessage("desktopview", {
+          type: "request_show_desktop",
+        });
+      }
       ToggleKeyboard() {
         this.setState((e) => ({ bKeyboardVisible: !e.bKeyboardVisible }));
       }
@@ -2973,11 +2982,15 @@
                   active: this.state.currentOverlayDockLocation == S.World,
                 }),
                 this.props.bWindowViewEnabled &&
+                  "" != this.state.sCurrentWindowOverlayKey &&
                   d.createElement(v.n, {
-                    additionalClassNames: "CloseWindow",
                     iconUrl: "/dashboard/images/icons/icon_close_black.png",
                     onClick: this.CloseWindow,
-                    enabled: "" != this.state.sCurrentWindowOverlayKey,
+                  }),
+                "" == this.state.sCurrentWindowOverlayKey &&
+                  d.createElement(v.n, {
+                    iconUrl: "/dashboard/images/icons/icon_showdesktop.png",
+                    onClick: this.ShowDesktop,
                   })
               )
             )
@@ -3109,7 +3122,7 @@
             );
       }
     });
-    function k(e) {
+    function C(e) {
       switch (e) {
         case S.LeftHand:
           return "/user/hand/left";
@@ -3119,29 +3132,30 @@
           return "";
       }
     }
-    (C.k_sMailboxName = "systemui_desktopview"),
-      Object(s.b)([b.f], C.prototype, "desktopCount", null),
-      Object(s.b)([b.f], C.prototype, "sCurrentOverlayKey", null),
-      Object(s.b)([b.f], C.prototype, "currentDesktopIndex", null),
-      Object(s.b)([b.f], C.prototype, "currentWindowHwnd", null),
-      Object(s.b)([b.f], C.prototype, "desktopViewScale", null),
-      Object(s.b)([c.a], C.prototype, "dockOverlay", null),
-      Object(s.b)([c.a], C.prototype, "onDesktopScaleChange", null),
-      Object(s.b)([c.a], C.prototype, "onDesktopChange", null),
-      Object(s.b)([c.a], C.prototype, "onDesktopViewUpdating", null),
-      Object(s.b)([c.a], C.prototype, "onDesktopViewReady", null),
-      Object(s.b)([c.a], C.prototype, "onWindowViewChange", null),
-      Object(s.b)([c.a], C.prototype, "CloseWindow", null),
-      Object(s.b)([c.a], C.prototype, "ToggleKeyboard", null),
-      Object(s.b)([c.a], C.prototype, "OnKeyboardClosed", null),
-      (C = i = Object(s.b)([g.a], C));
+    (O.k_sMailboxName = "systemui_desktopview"),
+      Object(s.b)([b.f], O.prototype, "desktopCount", null),
+      Object(s.b)([b.f], O.prototype, "sCurrentOverlayKey", null),
+      Object(s.b)([b.f], O.prototype, "currentDesktopIndex", null),
+      Object(s.b)([b.f], O.prototype, "currentWindowHwnd", null),
+      Object(s.b)([b.f], O.prototype, "desktopViewScale", null),
+      Object(s.b)([c.a], O.prototype, "dockOverlay", null),
+      Object(s.b)([c.a], O.prototype, "onDesktopScaleChange", null),
+      Object(s.b)([c.a], O.prototype, "onDesktopChange", null),
+      Object(s.b)([c.a], O.prototype, "onDesktopViewUpdating", null),
+      Object(s.b)([c.a], O.prototype, "onDesktopViewReady", null),
+      Object(s.b)([c.a], O.prototype, "onWindowViewChange", null),
+      Object(s.b)([c.a], O.prototype, "CloseWindow", null),
+      Object(s.b)([c.a], O.prototype, "ShowDesktop", null),
+      Object(s.b)([c.a], O.prototype, "ToggleKeyboard", null),
+      Object(s.b)([c.a], O.prototype, "OnKeyboardClosed", null),
+      (O = i = Object(s.b)([g.a], O));
     let D = (o = class extends d.Component {
       constructor(e) {
         super(e),
           (this.state = {
             fOverlayScale: this.GetDefaultScaleForLocation(),
             xfTransform: null,
-            sParent: k(this.props.dockLocation),
+            sParent: C(this.props.dockLocation),
             bIsOutsideMaxDist: !1,
             destination: this.props.dockLocation,
           }),
@@ -3217,7 +3231,7 @@
         e.dockLocation != this.props.dockLocation &&
           this.setState(
             {
-              sParent: k(this.props.dockLocation),
+              sParent: C(this.props.dockLocation),
               xfTransform: null,
               bIsOutsideMaxDist: !1,
               destination: this.props.dockLocation,
@@ -3393,7 +3407,7 @@
             this.state.xfTransform
           ),
           s = VRHTML.ChangeBasis(o, n.xfDeviceToAbsoluteTracking);
-        this.setState({ xfTransform: s, sParent: k(this.state.destination) }),
+        this.setState({ xfTransform: s, sParent: C(this.state.destination) }),
           (this.m_bIsMoving = !1),
           this.props.onDockOverlay(
             this.props.sOverlayKey,
@@ -5191,10 +5205,10 @@
           S =
             null == (r = m.d.settings.get("/settings/dashboard/showDesktop")) ||
             r,
-          C =
+          O =
             null ==
               (i = m.d.settings.get("/settings/dashboard/showQuickStore")) || i,
-          k = !(
+          C = !(
             null != (o = m.d.settings.get("/settings/dashboard/arcadeMode")) &&
             o
           ),
@@ -5334,7 +5348,7 @@
                           )
                         )
                       ),
-                    C &&
+                    O &&
                       d.createElement(v.k, {
                         label: Object(p.c)("#Store"),
                         imageUrl: "/dashboard/images/icons/svr_store.svg",
@@ -5378,7 +5392,7 @@
                         onMouseLeave: () => this.startPopupMenuTimeout(500),
                       })
                     ),
-                    k &&
+                    C &&
                       d.createElement(v.k, {
                         imageUrl: "/dashboard/images/icons/svr_settings.svg",
                         active: this.isOverlayActive(h.D),
@@ -5400,7 +5414,7 @@
                       })
                   )
                 ),
-                d.createElement(O, {
+                d.createElement(k, {
                   ref: this.m_refDesktopTray,
                   position: 0,
                   visible: this.isDesktopTrayActive(),
@@ -5527,7 +5541,7 @@
                 o > 1 ? Object(p.c)("#Desktop_X", i) : Object(p.c)("#Desktop"),
               iconUri: "/dashboard/images/icons/svr_desktop_alt.svg",
             },
-            d.createElement(C, {
+            d.createElement(O, {
               visible: this.state.bShown && this.isOverlayActive(h.k),
               onDockOverlay: this.onDockOverlay,
               mapWindows: this.state.mapWindows,
@@ -6203,7 +6217,7 @@
   V1oe: function (e, t, n) {
     "use strict";
     n.d(t, "a", function () {
-      return O;
+      return k;
     });
     var r,
       i = n("mrSG"),
@@ -6811,7 +6825,7 @@
     }
     Object(i.b)([s.bind], S.prototype, "OnImageLoaded", null),
       Object(i.b)([s.bind], S.prototype, "OnImageReflow", null);
-    let O = class extends o.Component {
+    let k = class extends o.Component {
       constructor(e) {
         super(e),
           (this.m_mailbox = new l.c()),
@@ -6950,9 +6964,9 @@
         );
       }
     };
-    Object(i.b)([s.bind], O.prototype, "OnConnectedDevicesChanged", null),
-      Object(i.b)([s.bind], O.prototype, "OnUpdateComponentStates", null),
-      (O = Object(i.b)([p.a], O));
+    Object(i.b)([s.bind], k.prototype, "OnConnectedDevicesChanged", null),
+      Object(i.b)([s.bind], k.prototype, "OnUpdateComponentStates", null),
+      (k = Object(i.b)([p.a], k));
   },
   YRJX: function (e, t, n) {
     "use strict";
@@ -7029,9 +7043,9 @@
       y = n("39GS"),
       f = n("nsy5"),
       S = n("8GAN"),
-      O = n("vvDA"),
-      C = n("Q+Z6"),
-      k = n("/CXA"),
+      k = n("vvDA"),
+      O = n("Q+Z6"),
+      C = n("/CXA"),
       D = n("aaBP"),
       w = n.n(D);
     const M = "DashboardPanelTopCenter",
@@ -7069,7 +7083,7 @@
             },
             s.createElement(h.Z, { id: M, location: h.s.TopCenter }),
             s.createElement(
-              k.a,
+              C.a,
               { ref: r },
               s.createElement("div", {
                 className: Object(u.a)(
@@ -7096,7 +7110,7 @@
                 reflect: 0.2 * a,
               },
               s.createElement(
-                k.c,
+                C.c,
                 { ref: i },
                 s.createElement(
                   c.b,
@@ -7439,7 +7453,7 @@
             h.y.DevicePowerUsage_Float
           );
         }
-        let r = O.a.GetBatteryIcon(
+        let r = k.a.GetBatteryIcon(
           e,
           t,
           this.batteryLevelStable,
@@ -7717,13 +7731,13 @@
       }
       get showAudioMirrorControls() {
         return (
-          C.d.settings.get(
+          O.d.settings.get(
             "/settings/audio/enablePlaybackMirrorIndependentVolume"
-          ) && C.d.settings.get("/settings/audio/enablePlaybackMirror")
+          ) && O.d.settings.get("/settings/audio/enablePlaybackMirror")
         );
       }
       get enableAudioMirrorControls() {
-        return !!C.d.settings.get("/settings/audio/activePlaybackMirrorDevice");
+        return !!O.d.settings.get("/settings/audio/activePlaybackMirrorDevice");
       }
       render() {
         const e =
@@ -8431,4 +8445,4 @@
       Object(i.b)([s.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=messageoverlay.js.map?v=0ad65c4c1075027322e5
+//# sourceMappingURL=messageoverlay.js.map?v=6cab1459ec52719402ba

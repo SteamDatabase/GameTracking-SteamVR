@@ -2505,6 +2505,7 @@
  d typeinfo for CVRDriverDirectModeComponent_004
  d typeinfo for CVRDriverDirectModeComponent_005
  d typeinfo for CVRDriverDirectModeComponent_006
+ d typeinfo for CVRDriverDirectModeComponent_007
  d typeinfo for CVRDriverDirectModeComponent_Latest
  d typeinfo for CVRIOBuffer
  d typeinfo for CVRIOBuffer_001
@@ -2817,9 +2818,10 @@
  d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_004, &k_pchDriverDirectModeComponentPrefix, 4, CVRDriverDirectModeComponent_004, CVRDriverDirectModeComponent_003>
  d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_005, &k_pchDriverDirectModeComponentPrefix, 5, CVRDriverDirectModeComponent_005, CVRDriverDirectModeComponent_004>
  d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_006, &k_pchDriverDirectModeComponentPrefix, 6, CVRDriverDirectModeComponent_006, CVRDriverDirectModeComponent_005>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_007, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_007, CVRDriverDirectModeComponent_006>
  d typeinfo for ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>
  d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 2, CVRDisplayComponent_Latest, CVRDisplayComponent_001>
- d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_006>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>
  d typeinfo for ComponentAdapterBaseWithParent<vr::IVRVirtualDisplay, &k_pchVirtualDisplayComponentPrefix, 2, CVRVirtualDisplayComponent_Latest, CVRVirtualDisplayComponent_001>
  d typeinfo for CompositorInterfaceRegistration<CVRCompositor_003>
  d typeinfo for CompositorInterfaceRegistration<CVRCompositor_004>
@@ -2909,6 +2911,7 @@
  d typeinfo for IVRDriverDirectModeComponent_004
  d typeinfo for IVRDriverDirectModeComponent_005
  d typeinfo for IVRDriverDirectModeComponent_006
+ d typeinfo for IVRDriverDirectModeComponent_007
  d typeinfo for IVRLegacyInput
  d typeinfo for IVRRenderer
  d typeinfo for IVRVirtualDisplay001
@@ -3419,6 +3422,7 @@
  d vtable for CVRDriverDirectModeComponent_004
  d vtable for CVRDriverDirectModeComponent_005
  d vtable for CVRDriverDirectModeComponent_006
+ d vtable for CVRDriverDirectModeComponent_007
  d vtable for CVRDriverDirectModeComponent_Latest
  d vtable for CVRIOBuffer
  d vtable for CVRIOBuffer_001
@@ -4751,6 +4755,7 @@
  r typeinfo name for CVRDriverDirectModeComponent_004
  r typeinfo name for CVRDriverDirectModeComponent_005
  r typeinfo name for CVRDriverDirectModeComponent_006
+ r typeinfo name for CVRDriverDirectModeComponent_007
  r typeinfo name for CVRDriverDirectModeComponent_Latest
  r typeinfo name for CVRIOBuffer
  r typeinfo name for CVRIOBuffer_001
@@ -5063,9 +5068,10 @@
  r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_004, &k_pchDriverDirectModeComponentPrefix, 4, CVRDriverDirectModeComponent_004, CVRDriverDirectModeComponent_003>
  r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_005, &k_pchDriverDirectModeComponentPrefix, 5, CVRDriverDirectModeComponent_005, CVRDriverDirectModeComponent_004>
  r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_006, &k_pchDriverDirectModeComponentPrefix, 6, CVRDriverDirectModeComponent_006, CVRDriverDirectModeComponent_005>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_007, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_007, CVRDriverDirectModeComponent_006>
  r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>
  r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 2, CVRDisplayComponent_Latest, CVRDisplayComponent_001>
- r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_006>
+ r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>
  r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRVirtualDisplay, &k_pchVirtualDisplayComponentPrefix, 2, CVRVirtualDisplayComponent_Latest, CVRVirtualDisplayComponent_001>
  r typeinfo name for CompositorInterfaceRegistration<CVRCompositor_003>
  r typeinfo name for CompositorInterfaceRegistration<CVRCompositor_004>
@@ -5155,6 +5161,7 @@
  r typeinfo name for IVRDriverDirectModeComponent_004
  r typeinfo name for IVRDriverDirectModeComponent_005
  r typeinfo name for IVRDriverDirectModeComponent_006
+ r typeinfo name for IVRDriverDirectModeComponent_007
  r typeinfo name for IVRLegacyInput
  r typeinfo name for IVRRenderer
  r typeinfo name for IVRVirtualDisplay001
@@ -5596,8 +5603,7 @@
  t (anonymous namespace)::xwrite(int, char const*, int)
  t .L10
  t .L100
- t .L1003
- t .L1005
+ t .L1004
  t .L1006
  t .L1007
  t .L1008
@@ -5618,15 +5624,14 @@
  t .L1021
  t .L1022
  t .L1023
- t .L1025
- t .L1028
+ t .L1024
+ t .L1026
  t .L1029
  t .L103
- t .L1031
+ t .L1030
  t .L1032
  t .L1033
  t .L1034
- t .L1035
  t .L1036
  t .L1037
  t .L1038
@@ -5637,8 +5642,7 @@
  t .L1042
  t .L1043
  t .L1044
- t .L1047
- t .L1049
+ t .L1048
  t .L105
  t .L1050
  t .L1051
@@ -5652,6 +5656,7 @@
  t .L1059
  t .L106
  t .L1060
+ t .L1061
  t .L1062
  t .L1063
  t .L1064
@@ -7401,12 +7406,12 @@
  t .L816
  t .L817
  t .L82
- t .L822
  t .L823
  t .L824
  t .L825
  t .L826
  t .L827
+ t .L828
  t .L829
  t .L83
  t .L831
@@ -7446,12 +7451,11 @@
  t .L90
  t .L9017
  t .L9019
- t .L902
  t .L9020
  t .L9021
  t .L9022
  t .L9023
- t .L904
+ t .L903
  t .L905
  t .L906
  t .L907
@@ -7488,20 +7492,20 @@
  t .L928
  t .L929
  t .L93
- t .L931
- t .L935
- t .L937
+ t .L930
+ t .L932
+ t .L936
  t .L938
  t .L939
  t .L94
  t .L940
- t .L942
+ t .L941
+ t .L943
  t .L95
  t .L96
  t .L97
- t .L975
  t .L976
- t .L978
+ t .L977
  t .L979
  t .L98
  t .L980
@@ -7521,7 +7525,8 @@
  t .L993
  t .L994
  t .L995
- t .L998
+ t .L996
+ t .L999
  t ActionDirectionNameToEnum(std::string const&)
  t ActionScopeNameToEnum(std::string const&)
  t ActionTypeNameToEnum(std::string const&)
@@ -11124,12 +11129,21 @@
  t CVRDriverDirectModeComponent_006::Present(unsigned long long)
  t CVRDriverDirectModeComponent_006::SubmitLayer(IVRDriverDirectModeComponent_006::SubmitLayerPerEye_t const (&) [2])
  t CVRDriverDirectModeComponent_006::~CVRDriverDirectModeComponent_006()
+ t CVRDriverDirectModeComponent_007::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+ t CVRDriverDirectModeComponent_007::DestroyAllSwapTextureSets(unsigned int)
+ t CVRDriverDirectModeComponent_007::DestroySwapTextureSet(unsigned long long)
+ t CVRDriverDirectModeComponent_007::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t CVRDriverDirectModeComponent_007::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t CVRDriverDirectModeComponent_007::PostPresent()
+ t CVRDriverDirectModeComponent_007::Present(unsigned long long)
+ t CVRDriverDirectModeComponent_007::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
+ t CVRDriverDirectModeComponent_007::~CVRDriverDirectModeComponent_007()
  t CVRDriverDirectModeComponent_Latest::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
  t CVRDriverDirectModeComponent_Latest::DestroyAllSwapTextureSets(unsigned int)
  t CVRDriverDirectModeComponent_Latest::DestroySwapTextureSet(unsigned long long)
  t CVRDriverDirectModeComponent_Latest::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
  t CVRDriverDirectModeComponent_Latest::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
- t CVRDriverDirectModeComponent_Latest::PostPresent()
+ t CVRDriverDirectModeComponent_Latest::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
  t CVRDriverDirectModeComponent_Latest::Present(unsigned long long)
  t CVRDriverDirectModeComponent_Latest::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
  t CVRDriverDirectModeComponent_Latest::~CVRDriverDirectModeComponent_Latest()
@@ -20313,7 +20327,7 @@
  t CollapseActionValues(std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > const&, std::function<bool (unsigned long long)>)
  t CollapseInputValues(std::vector<VRInputValue_t, std::allocator<VRInputValue_t> > const&, bool)
  t CompareTrackedDeviceEntry(void const*, void const*)
- t ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_006>::CreateAdapter(void*, std::string const&)
+ t ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>::CreateAdapter(void*, std::string const&)
  t CompositorInterfaceRegistration<CVRCompositor_003>::GetInterface()
  t CompositorInterfaceRegistration<CVRCompositor_003>::~CompositorInterfaceRegistration()
  t CompositorInterfaceRegistration<CVRCompositor_004>::GetInterface()
@@ -25756,36 +25770,40 @@
  t non-virtual thunk to CVRDriverDirectModeComponent_003::DestroyAllSwapTextureSets(unsigned int)
  t non-virtual thunk to CVRDriverDirectModeComponent_003::DestroySwapTextureSet(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_003::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
- t non-virtual thunk to CVRDriverDirectModeComponent_003::PostPresent()
  t non-virtual thunk to CVRDriverDirectModeComponent_003::Present(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_003::~CVRDriverDirectModeComponent_003()
  t non-virtual thunk to CVRDriverDirectModeComponent_004::DestroyAllSwapTextureSets(unsigned int)
  t non-virtual thunk to CVRDriverDirectModeComponent_004::DestroySwapTextureSet(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_004::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
  t non-virtual thunk to CVRDriverDirectModeComponent_004::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
- t non-virtual thunk to CVRDriverDirectModeComponent_004::PostPresent()
  t non-virtual thunk to CVRDriverDirectModeComponent_004::Present(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_004::~CVRDriverDirectModeComponent_004()
  t non-virtual thunk to CVRDriverDirectModeComponent_005::DestroyAllSwapTextureSets(unsigned int)
  t non-virtual thunk to CVRDriverDirectModeComponent_005::DestroySwapTextureSet(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_005::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
  t non-virtual thunk to CVRDriverDirectModeComponent_005::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
- t non-virtual thunk to CVRDriverDirectModeComponent_005::PostPresent()
  t non-virtual thunk to CVRDriverDirectModeComponent_005::Present(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_005::~CVRDriverDirectModeComponent_005()
  t non-virtual thunk to CVRDriverDirectModeComponent_006::DestroyAllSwapTextureSets(unsigned int)
  t non-virtual thunk to CVRDriverDirectModeComponent_006::DestroySwapTextureSet(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_006::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
  t non-virtual thunk to CVRDriverDirectModeComponent_006::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
- t non-virtual thunk to CVRDriverDirectModeComponent_006::PostPresent()
  t non-virtual thunk to CVRDriverDirectModeComponent_006::Present(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_006::~CVRDriverDirectModeComponent_006()
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::DestroyAllSwapTextureSets(unsigned int)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::DestroySwapTextureSet(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::Present(unsigned long long)
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
+ t non-virtual thunk to CVRDriverDirectModeComponent_007::~CVRDriverDirectModeComponent_007()
  t non-virtual thunk to CVRDriverDirectModeComponent_Latest::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
  t non-virtual thunk to CVRDriverDirectModeComponent_Latest::DestroyAllSwapTextureSets(unsigned int)
  t non-virtual thunk to CVRDriverDirectModeComponent_Latest::DestroySwapTextureSet(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_Latest::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
  t non-virtual thunk to CVRDriverDirectModeComponent_Latest::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
- t non-virtual thunk to CVRDriverDirectModeComponent_Latest::PostPresent()
+ t non-virtual thunk to CVRDriverDirectModeComponent_Latest::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
  t non-virtual thunk to CVRDriverDirectModeComponent_Latest::Present(unsigned long long)
  t non-virtual thunk to CVRDriverDirectModeComponent_Latest::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
  t non-virtual thunk to CVRDriverDirectModeComponent_Latest::~CVRDriverDirectModeComponent_Latest()
@@ -29376,7 +29394,7 @@
  t vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long long)
  t vr::IVRDriverDirectModeComponent::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
  t vr::IVRDriverDirectModeComponent::GetNextSwapTextureSetIndex(unsigned long long*, unsigned int (*) [2])
- t vr::IVRDriverDirectModeComponent::PostPresent()
+ t vr::IVRDriverDirectModeComponent::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
  t vr::IVRDriverDirectModeComponent::Present(unsigned long long)
  t vr::IVRDriverDirectModeComponent::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
  t vr::IVRSharedBuffer::GetVulkanBuffer() const

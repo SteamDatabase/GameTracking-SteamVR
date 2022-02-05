@@ -13090,22 +13090,19 @@
           return e.length >= 1 ? e[0] : null;
         }
         get enableThrottleOverrideSettings() {
-          if (!VRHTML) return !1;
-          if (
-            VRHTML.VRProperties.GetBoolProperty(
+          return (
+            !!VRHTML &&
+            !!VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.y.HasDriverDirectModeComponent_Bool
-            )
-          ) {
-            return (
-              "lighthouse" ===
-              VRHTML.VRProperties.GetStringProperty(
+              p.y.SupportsAppThrottling_Bool
+            ) &&
+            !(
+              !VRHTML.VRProperties.GetBoolProperty(
                 "/user/head",
-                p.y.TrackingSystemName_String
-              )
-            );
-          }
-          return !0;
+                p.y.HasDriverDirectModeComponent_Bool
+              ) && this.state.disableAsyncReprojection
+            )
+          );
         }
         get enableMotionSmoothingOverrideSettings() {
           if (!VRHTML) return !1;
@@ -13687,7 +13684,6 @@
                           })
                         ),
                       this.enableThrottleOverrideSettings &&
-                        !this.state.disableAsyncReprojection &&
                         (c.d.showAdvancedSettings ||
                           (this.m_initialAppState &&
                             this.m_initialAppState.bShowThrottleOptions)) &&
@@ -13901,4 +13897,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=d97f2117c9406bb09411
+//# sourceMappingURL=vrwebui_shared.js.map?v=bcbaac2e5427c9353a4a

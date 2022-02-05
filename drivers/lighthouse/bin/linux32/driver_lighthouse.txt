@@ -6293,6 +6293,7 @@
  t WinRT::GetAdapterLuid(int, void*)
  t WinRT::GetCurrentDriverVersion()
  t WinRT::GetDeviceString(int)
+ t WinRT::GetDisplayMode(WinRT::DisplayMode_t*)
  t WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
  t WinRT::HasDisplay(int)
  t WinRT::Present()
