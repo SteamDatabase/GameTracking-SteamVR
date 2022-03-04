@@ -2320,7 +2320,6 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:16:48
 0A
 0x
 0x%08llx
@@ -2377,6 +2376,7 @@ $tI
 19CWirelessDecoderWv2
 1e+9999
 2
+20:34:26
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
@@ -4386,7 +4386,6 @@ FailedToGetFirmwareVersion
 False
 FastHexToBuffer() wants non-negative integers, not
 Feb
-Feb 26 2022
 February
 Feel free to add support for more if you need it.
 Field       :
@@ -5417,6 +5416,7 @@ MainSteamVR
 MakeFileWriteable(char const*)
 ManualURL
 Mar
+Mar  1 2022
 March
 Mark 1
 Mark 2

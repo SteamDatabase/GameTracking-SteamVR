@@ -462,7 +462,6 @@ $+
 0+
 0123456789
 0123456789ABCDEF
-01:16:59
 1
 11CVkTimeline
 12CNonCopyable
@@ -475,6 +474,7 @@ $+
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
 2
+20:34:29
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
@@ -1328,7 +1328,6 @@ Failed to wait for shared fd client
 Failed when reading payload of length %u: errno=%d
 FbcE
 Feb
-Feb 26 2022
 February
 File path truncated
 FileSelect(dirent const*)
@@ -1999,6 +1998,7 @@ MV-PreviousInput-%s
 MV-Threshold
 Map
 Mar
+Mar  1 2022
 March
 MarkInUse
 Mask Input Image
