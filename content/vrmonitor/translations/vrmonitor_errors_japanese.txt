@@ -232,6 +232,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "詳細を表示"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Linkが有効になっていません"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Quest2またはその他のスタンドアロンデバイスを使用している場合は、SteamVRを起動する前に、HMDでLinkまたはAir Linkを手動で有効にする必要があります。"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "SteamVRを再起動"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "oculus.comを開く"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "SteamVRエラー"
 "VRInitError_Driver_HmdInUse_Description" "ヘッドセットが他のアプリケーションで使用されています。他のアプリを終了した後、再試行してください。"
 "VRInitError_Driver_HmdInUse_Action" "再試行"
@@ -273,11 +280,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "詳細"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "ワイヤレスヘッドセットが接続されていません"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVRに接続できるように、ワイヤレスヘッドセットの電源が入っていることを確認してください。"
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "詳細情報"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "ワイヤレス接続待機中"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVRは、ワイヤレスヘッドセットの接続を待っています..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "グラフィックドライバーのアップデート"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "コンピューターのグラフィックドライバーを更新するか、ハードウェアアクセラレーションによるGPUスケジューリングを有効にする必要があります。"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "詳細情報"
@@ -393,7 +397,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVRエラー"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVRがOculusアプリに接続できませんでした。最新バージョンがインストールされていることを確認してください。"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "oculus.comを開く"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVRエラー"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Oculusランタイムのインストールで問題が発生しました。再起動後、Oculusソフトウェアがインストールされ更新済であることを確認してください。"

@@ -237,6 +237,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Mais informações"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link não está ativo"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Se estiveres a usar um Quest 2 ou outro dispositivo independente, tens de ativar manualmente o Link ou o Air Link no headset antes de iniciares o SteamVR."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Reiniciar SteamVR"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Visitar oculus.com"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "Erro do SteamVR"
 "VRInitError_Driver_HmdInUse_Description" "O teu headset está a ser usado por outra aplicação. Por favor, sai dessa aplicação e tenta de novo."
 "VRInitError_Driver_HmdInUse_Action" "Tentar de novo"
@@ -278,11 +285,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Mais informações"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/pt/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Headset sem fios não conectado"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Assegura-te de que o teu headset sem fios está ligado para que se possa conectar ao SteamVR."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Mais informações"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=portuguese#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "À espera de ligação sem fios"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "O SteamVR está a aguardar pela ligação de um headset sem fios..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Atualização do driver da placa gráfica"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "É necessário atualizar o driver da placa gráfica do computador ou ativar o agendamento da GPU acelerada por hardware."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mais informações"
@@ -398,7 +402,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Erro do SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "O SteamVR não conseguiu estabelecer ligação com a aplicação do Oculus. Assegura-te de que tens a versão mais recente instalada."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Visitar oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "Erro do SteamVR"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Ocorreu um problema com a instalação do Oculus Runtime. Por favor, reinicia e verifica se o software do Oculus está instalado e atualizado."

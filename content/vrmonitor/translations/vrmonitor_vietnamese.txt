@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Tạm dừng"
 "FrameTiming_Raw" "Chi tiết"
 "FrameTiming_ShowInHeadset" "Hiện trong mũ chụp"
+"FrameTiming_Remote" "Từ xa"
 
 "FrameTiming_5sStats" "Khung hình rớt trong %1s vừa qua:\n %2 khung hình đơn\n %3 khung hình 2\n %4 khung hình 3\n %5 khung hình 4 hoặc cao hơn\n Tổng %6\n"
 "FrameTiming_Config" "Cảnh báo nếu thấy hơn %3s\n  Thiếu %1 khung hình đơn\n  hoặc rớt %2 lần đa khung hình"

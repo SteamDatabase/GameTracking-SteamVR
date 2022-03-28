@@ -237,6 +237,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Dowiedz się więcej"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link nie jest włączony"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Jeżeli używasz Quest2 lub innego samodzielnego urządzenia, musisz ręcznie włączyć Link lub Air Link w goglach przed uruchomieniem SteamVR."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Zrestartuj SteamVR"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Odwiedź oculus.com"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "Błąd SteamVR"
 "VRInitError_Driver_HmdInUse_Description" "Twoje gogle są obecnie używane przez inną aplikację. Zamknij tę aplikację i spróbuj ponownie."
 "VRInitError_Driver_HmdInUse_Action" "Spróbuj ponownie"
@@ -278,11 +285,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Więcej informacji"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/pl/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Nie podłączono bezprzewodowych gogli"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Upewnij się, że twoje bezprzewodowe gogle są włączone, by mogły zostać połączone ze SteamVR."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Więcej informacji"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Oczekiwanie na połączenie bezprzewodowe"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR czeka na połączenie z bezprzewodowymi goglami..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizacja sterowników graficznych"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Musisz zaktualizować sterowniki karty graficznej twojego komputera lub włączyć planowanie przyspieszanego sprzętowo procesora GPU."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Więcej informacji"
@@ -398,7 +402,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Błąd SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR nie był w stanie połączyć się z aplikacją Oculus. Upewnij się, że masz zainstalowaną najnowszą wersję."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Odwiedź oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "Błąd SteamVR"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Wystąpił błąd z instalacją Oculus. Zrestartuj i upewnij się, że oprogramowanie Oculus jest zainstalowane i zaktualizowane."

@@ -118,6 +118,7 @@
 "FrameTiming_Pause" "Keskeytä"
 "FrameTiming_Raw" "Lisätiedot"
 "FrameTiming_ShowInHeadset" "Näytä VR-laseissa"
+"FrameTiming_Remote" "Etä"
 
 "FrameTiming_5sStats" "Puuttuvat ruudut edellisen %1s aikana:\n %2 1 ruutu\n %3 2 ruutua\n %4 3 ruutua \n %5 4 tai useampi\n Yhteensä %6\n"
 "FrameTiming_Config" "Varoita, jos %3s aikana puuttuu \n %1 yksittäistä ruutua\n tai %2 useampaa ruutua"

@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Szünet"
 "FrameTiming_Raw" "Részletek"
 "FrameTiming_ShowInHeadset" "Mutatás a fejszettben"
+"FrameTiming_Remote" "Távoli"
 
 "FrameTiming_5sStats" "Eldobva az utóbbi %1s során:\n %2 egyszeres képkocka\n %3 2 képkocka\n %4 3 képkocka\n %5 4 vagy több\n Összesen: %6\n"
 "FrameTiming_Config" "Figyelmeztetés, ha %3s idő alatt van\n %1 egyszeres kihagyott képkocka\n vagy %2 többszörös képkocka-eldobás"

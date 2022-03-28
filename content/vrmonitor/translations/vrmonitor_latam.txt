@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Poner en pausa"
 "FrameTiming_Raw" "Detalles"
 "FrameTiming_ShowInHeadset" "Mostrar en el casco"
+"FrameTiming_Remote" "Remoto"
 
 "FrameTiming_5sStats" "Pérdidas en los últimos %1s:\n %2 fotograma individual\n %3 2 fotogramas\n %4 3 fotogramas\n %5 4 o más\n Total %6\n"
 "FrameTiming_Config" "Advertir si sobre %3s vemos\n  %1 fotogramas individuales perdidos\n  o %2 pérdidas multifotograma"

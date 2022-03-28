@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Sæt på pause"
 "FrameTiming_Raw" "Detaljer"
 "FrameTiming_ShowInHeadset" "Vis i headset"
+"FrameTiming_Remote" "Ekstern"
 
 "FrameTiming_5sStats" "Tab de seneste %1s:\n %2 enkelte billeder\n %3 2-billeder\n %4 3-billeder\n %5 med 4 eller flere\n I alt %6\n"
 "FrameTiming_Config" "Advar hvis vi i løbet af %3s oplever\n %1 enkelte billeder mistet\n eller %2 multibilledtab"

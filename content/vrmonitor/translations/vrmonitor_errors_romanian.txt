@@ -235,6 +235,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Află mai multe"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link nu este activ"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Dacă utilizezi Quest 2 sau alt dispozitiv de sine stătător, trebuie să activezi manual Link sau Air Link în casca virtuală, înainte de a lansa SteamVR."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Repornește SteamVR"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Accesează oculus.com"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "Eroare SteamVR"
 "VRInitError_Driver_HmdInUse_Description" "Casca ta este utilizat de o altă aplicație. Te rugăm să închizi acea aplicație și să încerci din nou."
 "VRInitError_Driver_HmdInUse_Action" "Încearcă din nou"
@@ -276,11 +283,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Mai multe informații"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Casca fără fir nu este conectată"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Pentru a se conecta la SteamVR, casca trebuie să fie alimentată. Te rugăm să te asiguri de acest lucru."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Mai multe informații"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=romanian#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Se așteaptă conexiunea wireless"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR așteaptă conectarea cu o cască wireless..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Actualizarea driverului pentru placa video"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Trebuie să actualizezi driverul video al calculatorului tău sau să activezi planificarea GPU accelerată prin hardware."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mai multe informații"
@@ -396,7 +400,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Eroare SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR nu s-a putut conecta la aplicația Oculus. Te rugăm să te asiguri că ai ultima versiune instalată."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Accesează oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "Eroare SteamVR"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Există o problemă la instalarea programului Oculus Runtime. Te rugăm să efectuezi o repornire și să verifici dacă software-ul Oculus este instalat și actualizat."

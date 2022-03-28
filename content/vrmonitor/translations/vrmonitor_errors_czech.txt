@@ -237,6 +237,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Více informací"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link není aktivován"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Pokud používáte Quest 2 nebo jiné samostatné zařízení, musíte v headsetu ještě před spuštěním režimu SteamVR ručně aktivovat Oculus Link nebo Air Link."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Restartovat režim SteamVR"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Přejít na oculus.com"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "Chyba režimu SteamVR"
 "VRInitError_Driver_HmdInUse_Description" "Heaset momentálně používá jiná aplikace. Ukončete tuto aplikaci a zkuste to znovu."
 "VRInitError_Driver_HmdInUse_Action" "Zkusit znovu"
@@ -278,11 +285,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Více informací"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Bezdrátový headset není připojen"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Ujistěte se, že je bezdrátový headset zapnut a schopen spojení s režimem SteamVR."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Více informací"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Čeká se na bezdrátové spojení"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Režim SteamVR čeká na připojení bezdrátového headsetu..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizace ovladače grafické karty"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Je vyžadována aktualizace ovladače grafické karty nebo povolení plánování GPU s hardwarovou akcelerací."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Více informací"
@@ -398,7 +402,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Chyba režimu SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "Režimu SteamVR se nepodařilo připojit k aplikaci Oculus. Ujistěte se, že máte nainstalovanou její nejnovější verzi."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Přejít na oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "Chyba režimu SteamVR"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Došlo k chybě instalace runtimu Oculus. Restartujte režim SteamVR a ujistěte se, že je Vaše aplikace Oculus nainstalovaná a aktualizovaná."

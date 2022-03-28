@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Призупинити"
 "FrameTiming_Raw" "Відомості"
 "FrameTiming_ShowInHeadset" "Показати в шоломі"
+"FrameTiming_Remote" "Віддалено"
 
 "FrameTiming_5sStats" "Втрати за %1s:\n %2 х1 кадр\n %3 х2 кадри\n %4 х3 кадри\n %5 4 або більше кадрів\n Усього %6\n"
 "FrameTiming_Config" "Попереджати, якщо за %3s ми бачимо\n однокадрових втрат: %1\n чи багатокадрових втрат: %2"

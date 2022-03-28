@@ -1131,6 +1131,8 @@
  b compositor004
  b compositor005
  b dwarf_reg_size_table
+ b force_pid
+ b force_pid_val
  b frame_hdr_cache
  b frame_hdr_cache_head
  b g_BitBufErrorHandler
@@ -1207,6 +1209,7 @@
  b g_pVRApplications
  b g_pVRApplicationsInternal
  b g_pVRBlockQueue
+ b g_pVRCameraPassThruInternal
  b g_pVRChaperone
  b g_pVRChaperoneInternal
  b g_pVRChaperoneSetup
@@ -2146,6 +2149,7 @@
  d VulkanVRRenderer::iedDistort
  d VulkanVRRenderer::iedGeom
  d VulkanVRRenderer::iedGeomWithNormals
+ d VulkanVRRenderer::iedGeomWithTangents
  d VulkanVRRenderer::iedLatLong
  d VulkanVRRenderer::iedNoDistort
  d VulkanVRRenderer::iedNoDistortLayered
@@ -2405,6 +2409,15 @@
  d typeinfo for CPropertyManager
  d typeinfo for CRenderModelLoadThread
  d typeinfo for CRenderModelManager
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#2}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#3}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#4}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#5}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#6}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#7}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#8}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#9}
  d typeinfo for CServerDriverHost_002
  d typeinfo for CServerDriverHost_003
  d typeinfo for CServerTrackedDeviceProvider
@@ -4167,7 +4180,7 @@
  qsort
  r C.427.288574
  r CSWTCH.101
- r CSWTCH.211
+ r CSWTCH.213
  r CSWTCH.224
  r CSWTCH.28
  r CSWTCH.701
@@ -4655,6 +4668,15 @@
  r typeinfo name for CPropertyManager
  r typeinfo name for CRenderModelLoadThread
  r typeinfo name for CRenderModelManager
+ r typeinfo name for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}
+ r typeinfo name for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#2}
+ r typeinfo name for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#3}
+ r typeinfo name for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#4}
+ r typeinfo name for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#5}
+ r typeinfo name for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#6}
+ r typeinfo name for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#7}
+ r typeinfo name for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#8}
+ r typeinfo name for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#9}
  r typeinfo name for CServerDriverHost_002
  r typeinfo name for CServerDriverHost_003
  r typeinfo name for CServerTrackedDeviceProvider
@@ -5603,8 +5625,8 @@
  t (anonymous namespace)::xwrite(int, char const*, int)
  t .L10
  t .L100
- t .L1004
- t .L1006
+ t .L1000
+ t .L1005
  t .L1007
  t .L1008
  t .L1009
@@ -5625,13 +5647,14 @@
  t .L1022
  t .L1023
  t .L1024
- t .L1026
- t .L1029
+ t .L1025
+ t .L1027
  t .L103
  t .L1030
- t .L1032
+ t .L1031
  t .L1033
  t .L1034
+ t .L1035
  t .L1036
  t .L1037
  t .L1038
@@ -5642,9 +5665,8 @@
  t .L1042
  t .L1043
  t .L1044
- t .L1048
+ t .L1049
  t .L105
- t .L1050
  t .L1051
  t .L1052
  t .L1053
@@ -5677,6 +5699,7 @@
  t .L1078
  t .L1079
  t .L108
+ t .L1080
  t .L1084
  t .L109
  t .L11
@@ -6074,15 +6097,15 @@
  t .L157
  t .L158
  t .L15871
- t .L1589
  t .L159
- t .L1591
- t .L1592
- t .L1593
- t .L1594
- t .L1595
+ t .L1597
+ t .L1599
  t .L16
  t .L160
+ t .L1600
+ t .L1601
+ t .L1602
+ t .L1603
  t .L161
  t .L16141
  t .L16142
@@ -6201,40 +6224,40 @@
  t .L189
  t .L19
  t .L190
- t .L19054
- t .L19055
- t .L19057
- t .L19058
- t .L19059
- t .L19060
- t .L19061
+ t .L19045
+ t .L19046
+ t .L19048
+ t .L19049
+ t .L19050
+ t .L19051
+ t .L19052
  t .L191
- t .L19118
- t .L19119
- t .L19121
- t .L19122
- t .L19123
- t .L19124
- t .L19125
- t .L19126
- t .L19190
- t .L19191
- t .L19193
- t .L19194
- t .L19195
- t .L19196
- t .L19197
+ t .L19167
+ t .L19168
+ t .L19170
+ t .L19171
+ t .L19172
+ t .L19173
+ t .L19174
+ t .L19175
  t .L192
- t .L19258
- t .L19259
- t .L19261
- t .L19262
- t .L19263
- t .L19264
- t .L19265
- t .L19266
- t .L19267
+ t .L19239
+ t .L19240
+ t .L19242
+ t .L19243
+ t .L19244
+ t .L19245
+ t .L19246
  t .L193
+ t .L19307
+ t .L19308
+ t .L19310
+ t .L19311
+ t .L19312
+ t .L19313
+ t .L19314
+ t .L19315
+ t .L19316
  t .L194
  t .L1941
  t .L1942
@@ -6286,21 +6309,21 @@
  t .L21
  t .L210
  t .L211
- t .L21190
- t .L21191
- t .L21193
- t .L21194
- t .L21195
- t .L21196
- t .L21197
- t .L21198
- t .L21199
  t .L212
- t .L21200
- t .L21201
- t .L21202
- t .L21203
- t .L21204
+ t .L21238
+ t .L21239
+ t .L21241
+ t .L21242
+ t .L21243
+ t .L21244
+ t .L21245
+ t .L21246
+ t .L21247
+ t .L21248
+ t .L21249
+ t .L21250
+ t .L21251
+ t .L21252
  t .L213
  t .L214
  t .L215
@@ -6344,13 +6367,14 @@
  t .L2243
  t .L2244
  t .L225
- t .L22561
- t .L22562
- t .L22564
- t .L22565
- t .L22566
- t .L22567
- t .L22568
+ t .L226
+ t .L22613
+ t .L22614
+ t .L22616
+ t .L22617
+ t .L22618
+ t .L22619
+ t .L22620
  t .L227
  t .L228
  t .L229
@@ -6451,19 +6475,19 @@
  t .L275
  t .L276
  t .L277
- t .L27790
- t .L27791
- t .L27793
- t .L27794
- t .L27795
- t .L27796
- t .L27797
  t .L278
  t .L2780
  t .L2781
  t .L2782
  t .L2783
  t .L2784
+ t .L27842
+ t .L27843
+ t .L27845
+ t .L27846
+ t .L27847
+ t .L27848
+ t .L27849
  t .L2785
  t .L2786
  t .L2787
@@ -6627,32 +6651,33 @@
  t .L315
  t .L316
  t .L317
- t .L31723
- t .L31724
- t .L31726
- t .L31727
- t .L31728
- t .L31729
- t .L31730
- t .L31731
- t .L31732
- t .L31733
- t .L31734
- t .L31735
- t .L31736
- t .L31737
- t .L31738
- t .L31739
- t .L31741
- t .L31742
- t .L31744
- t .L31745
- t .L31746
- t .L31747
- t .L31748
- t .L31749
- t .L31750
+ t .L31775
+ t .L31776
+ t .L31778
+ t .L31779
+ t .L31780
+ t .L31781
+ t .L31782
+ t .L31783
+ t .L31784
+ t .L31785
+ t .L31786
+ t .L31787
+ t .L31788
+ t .L31789
+ t .L31790
+ t .L31791
+ t .L31793
+ t .L31794
+ t .L31796
+ t .L31797
+ t .L31798
+ t .L31799
  t .L318
+ t .L31800
+ t .L31801
+ t .L31802
+ t .L31803
  t .L319
  t .L3190
  t .L3192
@@ -6702,8 +6727,9 @@
  t .L335
  t .L336
  t .L337
- t .L339
+ t .L338
  t .L34
+ t .L340
  t .L342
  t .L343
  t .L344
@@ -6805,14 +6831,14 @@
  t .L412
  t .L413
  t .L414
- t .L41461
- t .L41462
- t .L41464
- t .L41465
- t .L41466
- t .L41467
- t .L41468
  t .L415
+ t .L41529
+ t .L41530
+ t .L41532
+ t .L41533
+ t .L41534
+ t .L41535
+ t .L41536
  t .L416
  t .L417
  t .L418
@@ -6827,21 +6853,23 @@
  t .L4230
  t .L424
  t .L4248
+ t .L425
  t .L4250
  t .L4251
  t .L4271
  t .L429
  t .L43
  t .L430
- t .L432
+ t .L431
  t .L433
  t .L434
  t .L435
  t .L436
+ t .L437
  t .L438
  t .L439
  t .L44
- t .L441
+ t .L440
  t .L442
  t .L443
  t .L444
@@ -6912,16 +6940,7 @@
  t .L4724
  t .L4725
  t .L4726
- t .L47266
- t .L47267
- t .L47269
  t .L4727
- t .L47270
- t .L47271
- t .L47272
- t .L47273
- t .L47274
- t .L47275
  t .L4728
  t .L4729
  t .L473
@@ -6929,7 +6948,16 @@
  t .L4731
  t .L4732
  t .L4733
+ t .L47334
+ t .L47335
+ t .L47337
+ t .L47338
+ t .L47339
  t .L4734
+ t .L47340
+ t .L47341
+ t .L47342
+ t .L47343
  t .L4735
  t .L474
  t .L475
@@ -7134,7 +7162,7 @@
  t .L592
  t .L593
  t .L594
- t .L596
+ t .L595
  t .L597
  t .L598
  t .L599
@@ -7156,7 +7184,6 @@
  t .L613
  t .L614
  t .L615
- t .L616
  t .L617
  t .L618
  t .L619
@@ -7173,8 +7200,7 @@
  t .L629
  t .L63
  t .L630
- t .L632
- t .L634
+ t .L633
  t .L635
  t .L636
  t .L637
@@ -7203,6 +7229,7 @@
  t .L658
  t .L659
  t .L66
+ t .L660
  t .L661
  t .L662
  t .L663
@@ -7406,7 +7433,6 @@
  t .L816
  t .L817
  t .L82
- t .L823
  t .L824
  t .L825
  t .L826
@@ -7455,8 +7481,7 @@
  t .L9021
  t .L9022
  t .L9023
- t .L903
- t .L905
+ t .L904
  t .L906
  t .L907
  t .L908
@@ -7493,20 +7518,20 @@
  t .L929
  t .L93
  t .L930
- t .L932
- t .L936
- t .L938
+ t .L931
+ t .L933
+ t .L937
  t .L939
  t .L94
  t .L940
  t .L941
- t .L943
+ t .L942
+ t .L944
  t .L95
  t .L96
  t .L97
- t .L976
  t .L977
- t .L979
+ t .L978
  t .L98
  t .L980
  t .L981
@@ -7526,7 +7551,7 @@
  t .L994
  t .L995
  t .L996
- t .L999
+ t .L997
  t ActionDirectionNameToEnum(std::string const&)
  t ActionScopeNameToEnum(std::string const&)
  t ActionTypeNameToEnum(std::string const&)
@@ -8929,6 +8954,8 @@
  t CRenderModelManager::RenderModelHasComponent(char const*, char const*)
  t CRenderModelManager::RenderModelHasComponent(char const*, char const*) [clone .cold]
  t CRenderModelManager::RenderModelTextureContainer_t::~RenderModelTextureContainer_t()
+ t CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)
+ t CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*) [clone .cold]
  t CRenderModelManager::~CRenderModelManager()
  t CScopedEventDuration::CScopedEventDuration(char const*, ...)
  t CScopedEventDuration::~CScopedEventDuration()
@@ -20198,6 +20225,7 @@
  t CVulkanVRRenderer::GetGPUSemaphoreSharedResource(VRRenderer::GPUSemaphoreBase*)
  t CVulkanVRRenderer::GetNativeDevice(VRRenderer::QueueMode)
  t CVulkanVRRenderer::GetRendererAPI()
+ t CVulkanVRRenderer::GetTextureLOD(VRRenderer::TextureBase*, unsigned int)
  t CVulkanVRRenderer::GetTextureNativePointer(VRRenderer::TextureBase*)
  t CVulkanVRRenderer::GetTextureSharedHandle(VRRenderer::TextureBase*)
  t CVulkanVRRenderer::GetTextureSharedResource(VRRenderer::TextureBase*)
@@ -23350,6 +23378,7 @@
  t InitAssertCallback() [clone .cold]
  t InitDriverLog(vr::IVRDriverLog*)
  t InitDriverLog(vr::IVRDriverLog*) [clone .cold]
+ t InitInternalCameraPassThruInterface(std::function<void* (char const*)>)
  t InitInternalClientInterfaces(std::function<void* (char const*)>)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
@@ -24325,6 +24354,7 @@
  t ThreadIsProcessActive
  t ThreadIsThreadRunning
  t ThreadOpenProcess
+ t ThreadOverrideCurrentProcessId
  t ThreadProcConvert(void*)
  t ThreadResumeSignal(int)
  t ThreadSetAffinity
@@ -25884,6 +25914,7 @@
  t non-virtual thunk to std::basic_iostream<wchar_t, std::char_traits<wchar_t> >::~basic_iostream()
  t non-virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()
  t non-virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_stringstream()
+ t non-virtual thunk to vr::CVRApplicationsLatest::IsSceneAppOpenOrTransitioning()
  t non-virtual thunk to vr::CVRApplicationsLatest::IsSceneAppQuitting(unsigned int)
  t non-virtual thunk to vr::CVRApplicationsLatest::SetSceneAppDetails(bool, bool, bool, bool, bool)
  t non-virtual thunk to vr::CVRSettingsLatest::GetKeysInSection(char const*, std::vector<std::string, std::allocator<std::string> >*, vr::EVRSettingsError*)
@@ -26100,6 +26131,15 @@
  t std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CHmdSystemLatest::Init(vr::EVRApplicationType, char const*)::{lambda(char const*)#2}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#2}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#3}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#3}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#4}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#4}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#5}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#5}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#6}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#6}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#7}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#7}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#8}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#8}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#9}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#9}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long long, unsigned long long)::{lambda(unsigned long long)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long long, unsigned long long)::{lambda(unsigned long long)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<CVRLog::InitLog(char const*, char const*, bool, unsigned int)::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRLog::InitLog(char const*, char const*, bool, unsigned int)::{lambda(ELogLevel, char const*, void*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}> const&, std::_Manager_operation)
@@ -26113,9 +26153,18 @@
  t std::_Function_base::_Base_manager<void (*)(char const*, char const*, unsigned int, bool, void*, bool*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
  t std::_Function_handler<bool (unsigned long long), CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long long, unsigned long long)::{lambda(unsigned long long)#1}>::_M_invoke(std::_Any_data const&, unsigned long long&&)
+ t std::_Function_handler<bool (unsigned short, unsigned short, unsigned short), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}>::_M_invoke(std::_Any_data const&, unsigned short&&, std::_Any_data const&, std::_Any_data const&)
  t std::_Function_handler<bool (vr::ETrackedDeviceClass), CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}>::_M_invoke(std::_Any_data const&, vr::ETrackedDeviceClass&&)
  t std::_Function_handler<bool (vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&), ConvertHiddenAreaMesh(vr::HiddenAreaMesh_t const&, vr::EHiddenAreaMeshType, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType)::{lambda(vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)#1}>::_M_invoke(std::_Any_data const&, vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)
  t std::_Function_handler<bool (vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&), ConvertHiddenAreaMesh(vr::HiddenAreaMesh_t const&, vr::EHiddenAreaMeshType, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType)::{lambda(vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)#1}>::_M_invoke(std::_Any_data const&, vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&) [clone .cold]
+ t std::_Function_handler<bool (vr::HmdVector3_t const&), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#2}>::_M_invoke(std::_Any_data const&, vr::HmdVector3_t const&)
+ t std::_Function_handler<bool (vr::HmdVector3_t const&), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#3}>::_M_invoke(std::_Any_data const&, vr::HmdVector3_t const&)
+ t std::_Function_handler<bool (vr::HmdVector3_t const&), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#4}>::_M_invoke(std::_Any_data const&, vr::HmdVector3_t const&)
+ t std::_Function_handler<bool (vr::HmdVector3_t const&), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#5}>::_M_invoke(std::_Any_data const&, vr::HmdVector3_t const&)
+ t std::_Function_handler<bool (vr::HmdVector3_t const&), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#6}>::_M_invoke(std::_Any_data const&, vr::HmdVector3_t const&)
+ t std::_Function_handler<bool (vr::HmdVector3_t const&), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#7}>::_M_invoke(std::_Any_data const&, vr::HmdVector3_t const&)
+ t std::_Function_handler<bool (vr::HmdVector3_t const&), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#8}>::_M_invoke(std::_Any_data const&, vr::HmdVector3_t const&)
+ t std::_Function_handler<bool (vr::HmdVector3_t const&), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#9}>::_M_invoke(std::_Any_data const&, vr::HmdVector3_t const&)
  t std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
  t std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&) [clone .cold]
  t std::_Function_handler<void (ELogLevel, char const*, void*), CVRLog::InitLog(char const*, char const*, bool, unsigned int)::{lambda(ELogLevel, char const*, void*)#1}>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
@@ -29109,6 +29158,7 @@
  t void std::vector<unsigned int, std::allocator<unsigned int> >::_M_realloc_insert<unsigned int>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int&&)
  t void std::vector<unsigned long long, std::allocator<unsigned long long> >::_M_realloc_insert<unsigned long long const&>(__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long, std::allocator<unsigned long long> > >, unsigned long long const&)
  t void std::vector<unsigned long long, std::allocator<unsigned long long> >::_M_realloc_insert<unsigned long long>(__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long, std::allocator<unsigned long long> > >, unsigned long long&&)
+ t void std::vector<unsigned short, std::allocator<unsigned short> >::_M_realloc_insert<unsigned short const&>(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, unsigned short const&)
  t void std::vector<void (*)(), std::allocator<void (*)()> >::_M_emplace_back_aux<void (* const&)()>(void (* const&)())
  t void std::vector<void*, std::allocator<void*> >::_M_emplace_back_aux<void* const&>(void* const&)
  t void std::vector<vr::ETrackedDeviceProperty, std::allocator<vr::ETrackedDeviceProperty> >::_M_realloc_insert<vr::ETrackedDeviceProperty const&>(__gnu_cxx::__normal_iterator<vr::ETrackedDeviceProperty*, std::vector<vr::ETrackedDeviceProperty, std::allocator<vr::ETrackedDeviceProperty> > >, vr::ETrackedDeviceProperty const&)
@@ -29127,6 +29177,7 @@
  t void std::vector<vr::PerInputTutorialActions_t, std::allocator<vr::PerInputTutorialActions_t> >::_M_realloc_insert<vr::PerInputTutorialActions_t const&>(__gnu_cxx::__normal_iterator<vr::PerInputTutorialActions_t*, std::vector<vr::PerInputTutorialActions_t, std::allocator<vr::PerInputTutorialActions_t> > >, vr::PerInputTutorialActions_t const&)
  t void std::vector<vr::PropertyRead_t, std::allocator<vr::PropertyRead_t> >::_M_realloc_insert<vr::PropertyRead_t const&>(__gnu_cxx::__normal_iterator<vr::PropertyRead_t*, std::vector<vr::PropertyRead_t, std::allocator<vr::PropertyRead_t> > >, vr::PropertyRead_t const&)
  t void std::vector<vr::PropertyWrite_t, std::allocator<vr::PropertyWrite_t> >::_M_realloc_insert<vr::PropertyWrite_t const&>(__gnu_cxx::__normal_iterator<vr::PropertyWrite_t*, std::vector<vr::PropertyWrite_t, std::allocator<vr::PropertyWrite_t> > >, vr::PropertyWrite_t const&)
+ t void std::vector<vr::RenderModel_Vertex_t, std::allocator<vr::RenderModel_Vertex_t> >::_M_realloc_insert<vr::RenderModel_Vertex_t const&>(__gnu_cxx::__normal_iterator<vr::RenderModel_Vertex_t*, std::vector<vr::RenderModel_Vertex_t, std::allocator<vr::RenderModel_Vertex_t> > >, vr::RenderModel_Vertex_t const&)
  t void std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> >::_M_range_insert<vr::VRActiveActionSet_t*>(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, vr::VRActiveActionSet_t*, vr::VRActiveActionSet_t*, std::forward_iterator_tag)
  t void std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> >::_M_realloc_insert<vr::VRActiveActionSet_t const&>(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t> > >, vr::VRActiveActionSet_t const&)
  t void std::vector<vr::VREvent_t, std::allocator<vr::VREvent_t> >::_M_realloc_insert<vr::VREvent_t const&>(__gnu_cxx::__normal_iterator<vr::VREvent_t*, std::vector<vr::VREvent_t, std::allocator<vr::VREvent_t> > >, vr::VREvent_t const&)
@@ -29196,6 +29247,8 @@
  t vr::CVRApplicationsLatest::IdentifyApplication(unsigned int, char const*) [clone .cold]
  t vr::CVRApplicationsLatest::IsApplicationInstalled(char const*)
  t vr::CVRApplicationsLatest::IsApplicationInstalled(char const*) [clone .cold]
+ t vr::CVRApplicationsLatest::IsSceneAppOpenOrTransitioning()
+ t vr::CVRApplicationsLatest::IsSceneAppOpenOrTransitioning() [clone .cold]
  t vr::CVRApplicationsLatest::IsSceneAppQuitting(unsigned int)
  t vr::CVRApplicationsLatest::LaunchApplication(char const*)
  t vr::CVRApplicationsLatest::LaunchApplication(char const*) [clone .cold]
@@ -29234,6 +29287,8 @@
  t vr::CVROverlayInternalLatest::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
  t vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int)
  t vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
+ t vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int)
+ t vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
  t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int)
  t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int) [clone .cold]
  t vr::CVROverlayInternalLatest::GetKeyboardOwnerOverlay(unsigned long long*)
@@ -29428,6 +29483,7 @@
  t vr_internal::VRApplications()
  t vr_internal::VRApplicationsInternal()
  t vr_internal::VRBlockQueue()
+ t vr_internal::VRCameraPassThruInternal()
  t vr_internal::VRChaperone()
  t vr_internal::VRChaperoneInternal()
  t vr_internal::VRChaperoneSetup()

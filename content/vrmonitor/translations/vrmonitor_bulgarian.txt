@@ -117,6 +117,7 @@
 "FrameTiming_Pause" "Пауза"
 "FrameTiming_Raw" "Подробности"
 "FrameTiming_ShowInHeadset" "Показване във ВР шлема"
+"FrameTiming_Remote" "Дистанционно"
 
 "FrameTiming_5sStats" "Спадове в последните %1s:\n %2 един кадър\n %3 2 кадъра\n %4 3 кадъра\n %5 4 или повече\n Общо %6\n"
 "FrameTiming_Config" "Предупреждаване, ако над %3s, които виждаме са\n %1 единични спадове на кадри\n или %2 множествени"

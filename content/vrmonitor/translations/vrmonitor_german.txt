@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Pausieren"
 "FrameTiming_Raw" "Details"
 "FrameTiming_ShowInHeadset" "Im VR-Headset anzeigen"
+"FrameTiming_Remote" "Extern"
 
 "FrameTiming_5sStats" "Drops in den letzten %1s:\n%2 einzelner Frame\n%3 2 Frames\n%4 3 Frames\n%5 4 oder mehr\nGesamt %6\n"
 "FrameTiming_Config" "Bei mehr als %3s\n%1 einzelnen Frame-Drops\noder %2 Multi-Frame-Drops warnen"

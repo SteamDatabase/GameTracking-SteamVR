@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Пауза"
 "FrameTiming_Raw" "Подробнее"
 "FrameTiming_ShowInHeadset" "Показывать в шлеме"
+"FrameTiming_Remote" "Удалённо"
 
 "FrameTiming_5sStats" "Потери за %1s:\n%2 1 кадр\n%3 2 кадра\n%4 3 кадра\n%5 4 или более\n Всего %6\n"
 "FrameTiming_Config" "Предупредить, если за более чем %3 с.\n потеряно %1 одиночных кадров\n или %2 последовательностей кадров"

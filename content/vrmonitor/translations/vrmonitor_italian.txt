@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Pausa"
 "FrameTiming_Raw" "Dettagli"
 "FrameTiming_ShowInHeadset" "Mostra nel visore"
+"FrameTiming_Remote" "Remoto"
 
 "FrameTiming_5sStats" "Perdite nelle ultime %1s :\n %2 - fotogramma singolo\n %3 - 2 fotogrammi\n %4 - 3 fotogrammi\n %5 - 4 o più\n Totale: %6\n"
 "FrameTiming_Config" "Avvisa se oltre %3s manca\n %1 fotogrammi individuali\n o %2 fotogrammi multipli"

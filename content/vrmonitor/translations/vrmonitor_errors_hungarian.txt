@@ -229,13 +229,20 @@
 
 "VRInitError_Driver_RuntimeOutOfDate_Header" "SteamVR hiba"
 "VRInitError_Driver_RuntimeOutOfDate_Description" "Oculus szoftvered elavultnak tűnik. Kérjük, telepítsd a legújabb verziót."
-"VRInitError_Driver_RuntimeOutOfDate_Action" "Látogasd meg az oculus.com oldalt."
+"VRInitError_Driver_RuntimeOutOfDate_Action" "Látogasd meg az oculus.com oldalt"
 "VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
 
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Windows 10 frissítés"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "A SteamVR Windows Mixed Realityvel való használatához telepítened kell a legújabb Windows frissítést."
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Tudj meg többet"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
+
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Az Oculus Link nincs engedélyezve"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Ha Quest 2 vagy más különálló eszközt használsz, a SteamVR indítása előtt manuálisan engedélyezned kell a Linket vagy Air Linket a fejszettben."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "SteamVR újraindítása"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Látogasd meg az oculus.com oldalt"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
 
 "VRInitError_Driver_HmdInUse_Header" "SteamVR hiba"
 "VRInitError_Driver_HmdInUse_Description" "A fejszettedet egy másik alkalmazás használja. Kérjük, lépj ki abból az alkalmazásból, majd próbáld újra."
@@ -278,11 +285,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Több infó"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "A vezeték nélküli fejszett nincs csatlakoztatva"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Kérjük, győződj meg róla, hogy vezeték nélküli fejszetted be van kapcsolva, hogy csatlakozni tudjon a SteamVR-hez."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Több infó"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Várakozás vezeték nélküli kapcsolatra"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "A SteamVR vezeték nélküli fejszett csatlakozására várakozik..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Video-illesztőprogram frissítés"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Frissítened kell a számítógéped video-illesztőprogramját, vagy engedélyezned a hardveres gyorsítású GPU-ütemezést."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Több infó"
@@ -398,7 +402,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR hiba"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "A SteamVR nem tudott csatlakozni az Oculus alkalmazáshoz. Győződj meg róla, hogy a legújabb verzió van telepítve."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Látogasd meg az oculus.com oldalt"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR hiba"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Probléma van az Oculus runtime telepítéssel. Kérjük, indítsd újra és ellenőrizd, hogy az Oculus szoftver telepítve és frissítve van-e."

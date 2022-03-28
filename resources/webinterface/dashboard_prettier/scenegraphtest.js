@@ -4,15 +4,15 @@
  */ !(function (e) {
   function t(t) {
     for (
-      var n, s, a = t[0], l = t[1], d = t[2], u = 0, p = [];
-      u < a.length;
-      u++
+      var n, s, a = t[0], l = t[1], d = t[2], c = 0, p = [];
+      c < a.length;
+      c++
     )
-      (s = a[u]),
+      (s = a[c]),
         Object.prototype.hasOwnProperty.call(i, s) && i[s] && p.push(i[s][0]),
         (i[s] = 0);
     for (n in l) Object.prototype.hasOwnProperty.call(l, n) && (e[n] = l[n]);
-    for (c && c(t); p.length; ) p.shift()();
+    for (u && u(t); p.length; ) p.shift()();
     return o.push.apply(o, d || []), r();
   }
   function r() {
@@ -82,7 +82,7 @@
     l = a.push.bind(a);
   (a.push = t), (a = a.slice());
   for (var d = 0; d < a.length; d++) t(a[d]);
-  var c = l;
+  var u = l;
   o.push(["HaPb", 0]), r();
 })({
   "/i/y": function (e, t, r) {
@@ -248,10 +248,10 @@
         z: t.z + e * (r.z - t.z),
       };
     }
-    function c(e, t) {
+    function u(e, t) {
       return { x: e.x - t.x, y: e.y - t.y };
     }
-    function u(e, t) {
+    function c(e, t) {
       return { x: e.x - t.x, y: e.y - t.y, z: e.z - t.z };
     }
     function p(e, t) {
@@ -371,18 +371,18 @@
       static getInstance() {
         return C.instance || (C.instance = new C()), C.instance;
       }
-      requestSGTransform(e) {
-        return new Promise((t, r) =>
+      requestSGTransform(e, t = 0) {
+        return new Promise((r, i) =>
           Object(n.a)(this, void 0, void 0, function* () {
-            let n = { type: "transform_request", id: e },
-              i = yield this.m_mailbox.SendMessageAndWaitForResponse(
+            let n = { type: "transform_request", id: e, flPushDistance: t },
+              o = yield this.m_mailbox.SendMessageAndWaitForResponse(
                 "vrcompositor_systemlayer",
                 n,
                 "transform_response"
               );
-            i.id == e && i.transform
-              ? t(i.transform)
-              : r("requestSGTransform failed");
+            o.id == e && o.transform
+              ? r(o.transform)
+              : i("requestSGTransform failed");
           })
         );
       }
@@ -397,11 +397,11 @@
         if (e.length > 0) return e;
       }
     }
-    function M(e, t) {
+    function P(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) return parseFloat(r);
     }
-    function P(e, t) {
+    function M(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) return parseInt(r);
     }
@@ -424,7 +424,7 @@
       let r = { type: e, properties: {} };
       return (
         t.id && (r.properties.id = z(t.id)),
-        (r.properties.sgid = P(t, "sgid")),
+        (r.properties.sgid = M(t, "sgid")),
         r
       );
     }
@@ -452,31 +452,31 @@
               break;
             case "VSG-ELASTIC-HEAD-TRANSFORM":
               (i = T("elasticheadtransform", t)),
-                (i.properties["start-angle-threshold"] = M(
+                (i.properties["start-angle-threshold"] = P(
                   t,
                   "start-angle-threshold"
                 )),
-                (i.properties["stop-angle-threshold"] = M(
+                (i.properties["stop-angle-threshold"] = P(
                   t,
                   "stop-angle-threshold"
                 )),
-                (i.properties["ease-in-time"] = M(t, "ease-in-time")),
-                (i.properties["ease-in-power"] = M(t, "ease-in-power")),
-                (i.properties["ease-out-angle-threshold"] = M(
+                (i.properties["ease-in-time"] = P(t, "ease-in-time")),
+                (i.properties["ease-in-power"] = P(t, "ease-in-power")),
+                (i.properties["ease-out-angle-threshold"] = P(
                   t,
                   "ease-out-angle-threshold"
                 )),
-                (i.properties["ease-out-power"] = M(t, "ease-out-power")),
-                (i.properties["min-angular-velocity"] = M(
+                (i.properties["ease-out-power"] = P(t, "ease-out-power")),
+                (i.properties["min-angular-velocity"] = P(
                   t,
                   "min-angular-velocity"
                 )),
-                (i.properties["max-angular-velocity"] = M(
+                (i.properties["max-angular-velocity"] = P(
                   t,
                   "max-angular-velocity"
                 )),
                 (i.properties["lock-to-horizon"] = w(t, "lock-to-horizon")),
-                (i.properties["translation-behavior"] = P(
+                (i.properties["translation-behavior"] = M(
                   t,
                   "translation-behavior"
                 ));
@@ -484,16 +484,16 @@
             case "VSG-LINE":
               (i = T("line", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
-                (i.properties.thickness = M(t, "thickness")),
-                (i.properties["start-buffer"] = M(t, "start-buffer")),
-                (i.properties["end-buffer"] = M(t, "end-buffer"));
+                (i.properties.thickness = P(t, "thickness")),
+                (i.properties["start-buffer"] = P(t, "start-buffer")),
+                (i.properties["end-buffer"] = P(t, "end-buffer"));
               break;
             case "VSG-LINE-CONSTRAINED-TRANSFORM":
               (i = T("line-constrained-transform", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
                 (i.properties["source-id"] = F(t, "source-id")),
-                (i.properties["source-distance"] = M(t, "source-distance")),
-                (i.properties["target-limit"] = M(t, "target-limit"));
+                (i.properties["source-distance"] = P(t, "source-distance")),
+                (i.properties["target-limit"] = P(t, "target-limit"));
               break;
             case "VSG-CALLOUT-TRANSFORM":
               (i = T("callout-transform", t)),
@@ -504,9 +504,9 @@
               break;
             case "VSG-PIN-TO-VIEW-TRANSFORM":
               (i = T("pin-to-view-transform", t)),
-                (i.properties["offscreen-z-depth"] = M(t, "offscreen-z-depth")),
-                (i.properties["off-axis-limit"] = M(t, "off-axis-limit")),
-                (i.properties["transition-limit"] = M(t, "transition-limit"));
+                (i.properties["offscreen-z-depth"] = P(t, "offscreen-z-depth")),
+                (i.properties["off-axis-limit"] = P(t, "off-axis-limit")),
+                (i.properties["transition-limit"] = P(t, "transition-limit"));
           }
           return [n, i];
         })(e, t),
@@ -779,7 +779,7 @@
         return (r.properties.opacity = this.props.value), [e, r];
       }
     }
-    var oe, se, ae, le, de, ce, ue, pe, he, me, _e;
+    var oe, se, ae, le, de, ue, ce, pe, he, me, _e;
     Object(n.b)([o.a], ie.prototype, "buildNode", null),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
@@ -1033,59 +1033,64 @@
         return null != (e = this.props.visibility) ? e : de.Visible;
       }
       buildNode(e, t) {
-        var r, n, i, o;
+        var r, n, i, o, s;
         if (this.visibility != de.Visible) return [e, null];
-        let s = Object.assign({}, e),
-          a = this.createSgNode(t),
-          l = { x: 0, y: 0 };
-        l =
+        let a = Object.assign({}, e),
+          l = this.createSgNode(t),
+          d = { x: 0, y: 0 };
+        d =
           "object" == typeof this.props.origin
             ? X(this.props.origin, { x: 0, y: 0 })
             : ye(this.props.origin);
-        const d = this.props.overlay_key,
+        const u = this.props.overlay_key,
           c = G();
         return (
-          d && d.length > 0
-            ? (a.properties.key = d)
+          u && u.length > 0
+            ? (l.properties.key = u)
             : c
-            ? (a.properties.key = c)
-            : (a.properties.overlay_handle = (function () {
+            ? (l.properties.key = c)
+            : (l.properties.overlay_handle = (function () {
                 var e;
                 return null === (e = VRHTML) || void 0 === e
                   ? void 0
                   : e.VROverlay.ThisOverlayHandle();
               })()),
-          (a.properties.uv_min = null != (r = be(this.m_UVsMin)) ? r : void 0),
-          (a.properties.uv_max = null != (n = be(this.m_UVsMax)) ? n : void 0),
-          (a.properties.width = null != (i = this.props.width) ? i : void 0),
-          (a.properties.height = null != (o = this.props.height) ? o : void 0),
-          (a.properties["target-dpi-panel-id"] = z(
+          (l.properties.uv_min = null != (r = be(this.m_UVsMin)) ? r : void 0),
+          (l.properties.uv_max = null != (n = be(this.m_UVsMax)) ? n : void 0),
+          (l.properties.width = null != (i = this.props.width) ? i : void 0),
+          (l.properties.height = null != (o = this.props.height) ? o : void 0),
+          (l.properties["min-width"] =
+            null != (s = this.props.min_width) ? s : void 0),
+          (l.properties["target-width-anchor-id"] = z(
+            this.props.target_width_anchor_id
+          )),
+          (l.properties["target-dpi-panel-id"] = z(
             this.props.target_dpi_panel_id
           )),
-          (a.properties["target-dpi-multiplier"] =
+          (l.properties["target-dpi-multiplier"] =
             this.props.target_dpi_multiplier),
-          (a.properties.curvature = this.props.curvature),
-          (a.properties["curvature-origin-id"] = z(
+          (l.properties.curvature = this.props.curvature),
+          (l.properties["curvature-origin-id"] = z(
             this.props.curvature_origin_id
           )),
-          (a.properties.interactive = this.props.interactive),
-          (a.properties.scrollable = this.props.scrollable),
-          (a.properties.modal = this.props.modal),
-          (a.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-          (a.properties.origin = J(l)),
-          (a.properties.debug_name = this.props.debug_name),
-          (a.properties.sampler = this.props.sampler),
-          (a.properties.reflect = this.props.reflect),
-          (a.properties.stereoscopy = this.props.stereoscopy),
-          (a.properties.rendermodel_component_device_index =
+          (l.properties.interactive = this.props.interactive),
+          (l.properties.scrollable = this.props.scrollable),
+          (l.properties.modal = this.props.modal),
+          (l.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
+          (l.properties.origin = J(d)),
+          (l.properties.debug_name = this.props.debug_name),
+          (l.properties.sampler = this.props.sampler),
+          (l.properties.reflect = this.props.reflect),
+          (l.properties.stereoscopy = this.props.stereoscopy),
+          (l.properties.rendermodel_component_device_index =
             this.props.rendermodel_component_device_index),
-          (a.properties.rendermodel_component_name =
+          (l.properties.rendermodel_component_name =
             this.props.rendermodel_component_name),
-          (a.properties["texture-id"] = z(this.props.texture_id)),
-          (a.properties["sort-order"] = this.props.sort_order),
-          (a.properties["sort-depth-bias"] = this.props.sort_depth_bias),
-          (s.currentPanel = this),
-          [s, a]
+          (l.properties["texture-id"] = z(this.props.texture_id)),
+          (l.properties["sort-order"] = this.props.sort_order),
+          (l.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+          (a.currentPanel = this),
+          [a, l]
         );
       }
       scaleLocalUVToGlobal(e) {
@@ -1378,7 +1383,7 @@
     ),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
-      })(ce || (ce = {}));
+      })(ue || (ue = {}));
     class De extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
@@ -1509,7 +1514,7 @@
     !(function (e) {
       (e[(e.LockedToParent = 0)] = "LockedToParent"),
         (e[(e.LockedToWorld = 1)] = "LockedToWorld");
-    })(ue || (ue = {}));
+    })(ce || (ce = {}));
     class xe extends $ {
       constructor(e) {
         super(e);
@@ -1548,7 +1553,7 @@
         );
       }
     }
-    class Me extends $ {
+    class Pe extends $ {
       constructor(e) {
         super(e);
       }
@@ -1560,7 +1565,7 @@
         );
       }
     }
-    function Pe() {
+    function Me() {
       var e, t;
       return null !=
         (t = null === (e = VRHTML) || void 0 === e ? void 0 : e.Environment())
@@ -1645,7 +1650,12 @@
             "SendVRSmoothScrollEvents"),
           (e[(e.ProtectedContent = 262144)] = "ProtectedContent"),
           (e[(e.HideLaserIntersection = 524288)] = "HideLaserIntersection"),
-          (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior");
+          (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior"),
+          (e[(e.IsPremultiplied = 2097152)] = "IsPremultiplied"),
+          (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
+          (e[(e.EnableControlBar = 8388608)] = "EnableControlBar"),
+          (e[(e.EnableControlBarKeyboard = 16777216)] =
+            "EnableControlBarKeyboard");
       })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -2150,10 +2160,10 @@
         return d;
       }),
       r.d(t, "hb", function () {
-        return c;
+        return u;
       }),
       r.d(t, "ib", function () {
-        return u;
+        return c;
       }),
       r.d(t, "U", function () {
         return p;
@@ -2231,7 +2241,7 @@
         return Se;
       }),
       r.d(t, "u", function () {
-        return ce;
+        return ue;
       }),
       r.d(t, "db", function () {
         return De;
@@ -2261,7 +2271,7 @@
         return xe;
       }),
       r.d(t, "K", function () {
-        return Me;
+        return Pe;
       }),
       r.d(t, "e", function () {
         return Ke;
@@ -2276,7 +2286,7 @@
         return pe;
       }),
       r.d(t, "i", function () {
-        return Pe;
+        return Me;
       }),
       r.d(t, "q", function () {
         return he;
@@ -2347,8 +2357,8 @@
       a = r("q1tI"),
       l = r("i8i4"),
       d = r("7wIv"),
-      c = r("/i/y");
-    function u() {
+      u = r("/i/y");
+    function c() {
       const [e, t] = a.useState(0);
       return (
         a.useEffect(() => {
@@ -2358,7 +2368,7 @@
           return () => window.clearInterval(r);
         }),
         a.createElement(
-          c.j,
+          u.j,
           {
             summonOverlayKey: "system.dashboardtabtest",
             tabName: "3D Test",
@@ -2367,16 +2377,16 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/3D_model_of_a_Cube.stl/1200px-3D_model_of_a_Cube.stl.png",
           },
           a.createElement(
-            c.lb,
+            u.lb,
             { translation: { y: 0.5 }, scale: 0.2, rotation: { y: e } },
-            a.createElement(c.db, { source: "locator" })
+            a.createElement(u.db, { source: "locator" })
           ),
           a.createElement(
-            c.K,
+            u.K,
             null,
             a.createElement(
-              c.Y,
-              { width: 1, origin: c.s.BottomCenter },
+              u.Y,
+              { width: 1, origin: u.s.BottomCenter },
               a.createElement(
                 "div",
                 {
@@ -2399,14 +2409,14 @@
           (this.state = {
             Frame: 1,
             Degrees: 0,
-            Transform: Object(c.g)(),
+            Transform: Object(u.g)(),
             LabelValue: "                                               ",
             ShowElasticPanel: !0,
           }),
           (this.animationFrameHandle = window.requestAnimationFrame(
             this.onAnimationFrame
           )),
-          (this.mailbox = new c.c()),
+          (this.mailbox = new u.c()),
           this.mailbox.Init("scenegraphtest"),
           this.mailbox.RegisterHandler("fnord", this.onMailboxMessage);
       }
@@ -2414,7 +2424,7 @@
         window.cancelAnimationFrame(this.animationFrameHandle);
       }
       componentDidMount() {
-        Object(c.Q)();
+        Object(u.Q)();
       }
       onAnimationFrame() {
         var e, t;
@@ -2426,7 +2436,7 @@
             (t =
               null === (e = VRHTML) || void 0 === e
                 ? void 0
-                : e.GetPose("/user/hand/right", c.A.Standing)
+                : e.GetPose("/user/hand/right", u.A.Standing)
                     .xfDeviceToAbsoluteTracking)
               ? t
               : this.state.Transform;
@@ -2471,7 +2481,7 @@
           "div",
           null,
           a.createElement(
-            c.j,
+            u.j,
             {
               summonOverlayKey: "keypadtest",
               id: "bigpicture",
@@ -2480,7 +2490,7 @@
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png",
             },
             a.createElement(
-              c.Y,
+              u.Y,
               { width: 1.2, interactive: !0 },
               a.createElement(
                 "div",
@@ -2586,33 +2596,33 @@
             )
           ),
           a.createElement(
-            c.lb,
-            { transform: this.state.Transform, parent_origin: c.B.Standing },
-            a.createElement(c.db, { source: "generic_hmd" })
+            u.lb,
+            { transform: this.state.Transform, parent_origin: u.B.Standing },
+            a.createElement(u.db, { source: "generic_hmd" })
           ),
           a.createElement(
-            c.lb,
+            u.lb,
             {
               translation: { x: 0, y: 0.3, z: 0 },
               rotation: { x: 30, y: this.state.Degrees, z: 90 },
-              parent_origin: c.B.Standing,
+              parent_origin: u.B.Standing,
             },
-            a.createElement(c.db, { source: "locator" })
+            a.createElement(u.db, { source: "locator" })
           ),
-          a.createElement(c.lb, {
+          a.createElement(u.lb, {
             translation: { x: 0, y: 1.8, z: 0 },
-            parent_origin: c.B.Standing,
+            parent_origin: u.B.Standing,
             id: "line_origin",
           }),
           a.createElement(
-            c.lb,
+            u.lb,
             {
               translation: { x: 0, y: 0, z: -0.5 },
               scale: { x: 2, y: 2, z: 2 },
-              parent_origin: c.B.Seated,
+              parent_origin: u.B.Seated,
             },
             a.createElement(
-              c.Y,
+              u.Y,
               { height: 0.45, width: 0.45, interactive: !0 },
               a.createElement("iframe", {
                 src: "https://www.valvesoftware.com",
@@ -2623,23 +2633,23 @@
             )
           ),
           a.createElement(
-            c.lb,
+            u.lb,
             {
               translation: { x: 0, y: 0, z: -0.5 },
               parent_path: "/user/hand/left",
               id: "left_hand_model",
             },
-            a.createElement(c.db, { source: "locator_one_sided" })
+            a.createElement(u.db, { source: "locator_one_sided" })
           ),
           a.createElement(
-            c.lb,
+            u.lb,
             { parent_path: "/user/hand/right" },
-            a.createElement(c.P, {
+            a.createElement(u.P, {
               target_id: "line_origin",
               thickness: 0.01,
               end_buffer: 0.5,
             }),
-            a.createElement(c.P, {
+            a.createElement(u.P, {
               target_id: "left_hand_model",
               thickness: 0.001,
               end_buffer: 0.1,
@@ -2647,7 +2657,7 @@
             })
           ),
           a.createElement(
-            c.j,
+            u.j,
             {
               summonOverlayKey: "bigpicturetest",
               id: "bigpicture",
@@ -2655,7 +2665,7 @@
               iconUri:
                 "data:image/png;base64,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",
             },
-            a.createElement(c.Y, {
+            a.createElement(u.Y, {
               overlay_key: "valve.steam.bigpicture",
               uv_min: { u: 0, v: 0 },
               uv_max: { u: 1, v: 0.3 },
@@ -2663,19 +2673,19 @@
               interactive: !1,
             })
           ),
-          a.createElement(c.lb, {
+          a.createElement(u.lb, {
             translation: { x: 0, y: 0, z: -0.5 },
             parent_path: "/user/hand/right/pose/base",
           }),
           a.createElement(
-            c.lb,
+            u.lb,
             {
               translation: { x: 0, y: -1.2, z: -2 },
               rotation: { x: -45 },
               parent_path: "/user/head/pose/raw",
             },
             a.createElement(
-              c.Y,
+              u.Y,
               { height: 0.2, width: void 0, interactive: !1 },
               a.createElement(
                 "div",
@@ -2694,22 +2704,22 @@
             )
           ),
           a.createElement(
-            c.lb,
-            { parent_origin: c.B.Standing },
-            a.createElement(c.db, {
+            u.lb,
+            { parent_origin: u.B.Standing },
+            a.createElement(u.db, {
               source: "{knuckles}valve_controller_knu_ev2_0_left",
             })
           ),
           a.createElement(
-            c.lb,
+            u.lb,
             { translation: { y: 0.5 } },
             a.createElement(
-              c.X,
+              u.X,
               { value: 0.1 },
               a.createElement(
-                c.jb,
+                u.jb,
                 { color: { b: 1, g: 1, r: 0 } },
-                a.createElement(c.db, {
+                a.createElement(u.db, {
                   source: "generic_hmd",
                   wireframe: !0,
                   fresnel: { color: { r: 1 }, opacity: 0.7, strength: 1 },
@@ -2717,7 +2727,7 @@
               )
             )
           ),
-          a.createElement(u, null)
+          a.createElement(c, null)
         );
       }
     }
@@ -2726,29 +2736,29 @@
       Object(s.b)([d.bind], p.prototype, "onHideElasticPanel", null),
       Object(s.b)([d.bind], p.prototype, "onMailboxMessage", null),
       l.render(
-        a.createElement(c.eb, null, a.createElement(p, null)),
+        a.createElement(u.eb, null, a.createElement(p, null)),
         document.getElementById("root")
       ),
       null === (n = VRHTML) ||
         void 0 === n ||
         n.VROverlay.SetFlag(
           VRHTML.VROverlay.ThisOverlayHandle(),
-          c.D.ShowTouchPadScrollWheel,
+          u.D.ShowTouchPadScrollWheel,
           !0
         ),
       null === (i = VRHTML) ||
         void 0 === i ||
         i.VROverlay.SetFlag(
           VRHTML.VROverlay.ThisOverlayHandle(),
-          c.D.SendVRSmoothScrollEvents,
+          u.D.SendVRSmoothScrollEvents,
           !0
         ),
       null === (o = VRHTML) ||
         void 0 === o ||
         o.VROverlay.SetInputMethod(
           VRHTML.VROverlay.ThisOverlayHandle(),
-          c.E.Mouse
+          u.E.Mouse
         );
   },
 });
-//# sourceMappingURL=scenegraphtest.js.map?v=b78c4063db3793a22507
+//# sourceMappingURL=scenegraphtest.js.map?v=1dfe01049406ee436d83

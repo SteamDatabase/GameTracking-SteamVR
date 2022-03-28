@@ -462,6 +462,8 @@
  b completed.7953
  b dwarf_reg_size_table
  b facet::IsInDebugSession()::fp
+ b force_pid
+ b force_pid_val
  b frame_hdr_cache
  b frame_hdr_cache_head
  b g_SuspendResumeLock
@@ -1619,7 +1621,9 @@
  r (anonymous namespace)::k_nThresholdBytecode
  r (anonymous namespace)::k_nVertBytecode
  r CSWTCH.100
- r CSWTCH.209
+ r CSWTCH.16
+ r CSWTCH.211
+ r CSWTCH.23
  r CVkDevice::CreateDevice(CreateDeviceDetails_t const&)::queuePriorities
  r IPC::crc32(unsigned int, void const*, unsigned long)::s_crc32
  r Json::Value::maxInt
@@ -2504,6 +2508,7 @@
  t CVkGarbageCollector::WaitForWork() [clone .cold]
  t CVkGarbageCollector::~CVkGarbageCollector()
  t CVkImage::AspectMask() const
+ t CVkImage::BytesRequired() const
  t CVkImage::CmdClearColorImage(CVkCommandBuffer*, VkClearColorValue const&, VkImageLayout, unsigned int)
  t CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int)
  t CVkImage::CmdCopyImage(CVkCommandBuffer*, CVkImage*, std::vector<VkImageCopy, std::allocator<VkImageCopy> > const&, VkImageLayout, VkImageLayout)
@@ -3316,6 +3321,7 @@
  t ThreadIsProcessActive
  t ThreadIsThreadRunning
  t ThreadOpenProcess
+ t ThreadOverrideCurrentProcessId
  t ThreadProcConvert(void*)
  t ThreadResumeSignal(int)
  t ThreadSetAffinity
@@ -3663,6 +3669,12 @@
  t execute_stack_op.cold
  t facet::AppendToNextChain(void const*&, void const*)
  t facet::AppendToNextChain(void*&, void*)
+ t facet::BytesPerCompressedBlock(VkFormat)
+ t facet::BytesPerCompressedBlock(VkFormat) [clone .part.0]
+ t facet::BytesPerTexel(VkFormat)
+ t facet::BytesPerTexel(VkFormat) [clone .part.0]
+ t facet::BytesRequired(VkFormat, unsigned int, unsigned int)
+ t facet::BytesRequired(VkFormat, unsigned int, unsigned int, unsigned int)
  t facet::CPanelMask::CPanelMask()
  t facet::CPanelMask::GenerateMesh(std::vector<facet::CPanelMask::Vertex_t, std::allocator<facet::CPanelMask::Vertex_t> >&, std::vector<unsigned short, std::allocator<unsigned short> >&, vr::EVREye, facet::CPanelMask::ColorChannel_t::Value_t, float) const
  t facet::CPanelMask::GenerateOuterMesh(std::vector<facet::CPanelMask::Vertex_t, std::allocator<facet::CPanelMask::Vertex_t> >&, std::vector<unsigned short, std::allocator<unsigned short> >&, vr::EVREye) const
@@ -3687,6 +3699,7 @@
  t facet::CVkTimestampQueryPoolBase::~CVkTimestampQueryPoolBase()
  t facet::CopyDeviceId(facet::VkDeviceId_t&, facet::VkDeviceId_t const&)
  t facet::DXGIFormatFromVk(VkFormat)
+ t facet::FromIPC(int)
  t facet::GenerateVisibleAreaMesh(std::vector<facet::VisibleAreaMeshVertex_t, std::allocator<facet::VisibleAreaMeshVertex_t> >&, std::vector<unsigned int, std::allocator<unsigned int> >&, facet::VisibleAreaMeshInput_t const&)
  t facet::GenerateVisibleAreaMesh(std::vector<facet::VisibleAreaMeshVertex_t, std::allocator<facet::VisibleAreaMeshVertex_t> >&, std::vector<unsigned int, std::allocator<unsigned int> >&, facet::VisibleAreaMeshInput_t const&) [clone .cold]
  t facet::GetFlatIndex(SwapchainIndices_t const&)
@@ -3695,12 +3708,14 @@
  t facet::GetSrgbFormat(VkFormat)
  t facet::GetVulkanSampleCount(unsigned int)
  t facet::InitDeviceId(facet::VkDeviceId_t&, VkPhysicalDeviceIDProperties const&)
+ t facet::IsCompressedFormat(VkFormat)
  t facet::IsDepthFormat(VkFormat)
  t facet::IsDepthOnlyFormat(VkFormat)
  t facet::IsDepthStencilFormat(VkFormat)
  t facet::IsDeviceIdValid(facet::VkDeviceId_t const&)
  t facet::IsInDebugSession()
  t facet::IsSrgbFormat(VkFormat)
+ t facet::NumCompressedBlocks(unsigned int, unsigned int)
  t facet::ToIPC(unsigned long)
  t facet::VkFormatFromDXGI(unsigned int, VkFormat*)
  t facet::WaitUntil(double)

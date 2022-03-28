@@ -218,7 +218,7 @@ CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, vo
 CLogCallback::~CLogCallback()
 CST
 CSWTCH.100
-CSWTCH.209
+CSWTCH.211
 CServerDriver_Gamepad::AddGameControllerByIndex(int)
 CServerDriver_Gamepad::Cleanup()
 CServerDriver_Gamepad::Cleanup_SDL()
@@ -747,6 +747,7 @@ ThreadInterlockedIncrement64
 ThreadIsProcessActive
 ThreadIsThreadRunning
 ThreadOpenProcess
+ThreadOverrideCurrentProcessId
 ThreadProcConvert(void*)
 ThreadResumeSignal(int)
 ThreadSetAffinity
@@ -1377,6 +1378,8 @@ float
 fopen
 fopen64
 for
+force_pid
+force_pid_val
 fork
 fputc
 fputs

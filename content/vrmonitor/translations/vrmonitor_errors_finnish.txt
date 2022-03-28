@@ -235,6 +235,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Lisätietoja"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Linkiä ei ole otettu käyttöön"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Jos käytät Quest 2:ta tai muuta erillistä laitetta, sinun pitää ottaa Link tai Air Link käyttöön manuaalisesti VR-laseissa ennen SteamVR:n käynnistämistä."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Käynnistä SteamVR uudelleen"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Mene sivulle: oculus.com"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "SteamVR-virhe"
 "VRInitError_Driver_HmdInUse_Description" "VR-lasit ovat käytössä toisessa sovelluksessa. Sulje kyseinen sovellus ja yritä sitten uudelleen."
 "VRInitError_Driver_HmdInUse_Action" "Yritä uudelleen"
@@ -276,11 +283,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Lisätietoja"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/fi/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Langattomat VR-lasit ei yhdistetty"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Varmista, että langattomissa VR-laseissa on virta päällä, jotta ne voivat yhdistää SteamVR:ään."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Lisätietoja"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=finnish#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Odottaa langatonta yhteyttä"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR odottaa langattomien VR-lasien yhdistymistä..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Näytönohjaimen päivitys"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Sinun pitää päivittää tietokoneesi näytönohjaimen ajurit tai ottaa laitteistokiihdytetty grafiikkasuorittimen ajoitus käyttöön."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Lisätietoja"
@@ -396,7 +400,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR-virhe"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR ei voinut yhdistää Oculus-sovellukseen. Varmista, että olet asentanut uusimman version."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Käy sivulla oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR-virhe"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Oculus-asennustiedostossa esiintyi ongelma. Käynnistä uudelleen ja tarkista Oculus-ohjelmiston asennus ja päivitys."
@@ -862,7 +866,7 @@
 "Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
 
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR-virhe"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Näytönohjain</span> ei pysty kommunikoimaan VR-lasien kanssa ja se aiheuttaa HDCP-virheen. Poista kaikki kaapelin adapterit ja lisäosat ja yritä uudelleen. Kokeile näytönohjaimen toista porttia, jos sellainen on saatavilla.<p> <b>Käytä alla olevaa painiketta vaihtaaksesi HDCP 1.4 Legacy Compatibility -tilaan ja käynnistä SteamVR uudelleen.</b>"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Näytönohjain</span> ei pysty kommunikoimaan VR-lasien kanssa ja se aiheuttaa HDCP-virheen. Poista kaikki kaapelin adapterit ja lisäosat ja yritä uudelleen. Kokeile näytönohjaimen toista porttia, jos sellainen on saatavilla.<p> <b>Käytä alla olevaa painiketta vaihtaaksesi HDCP 1.4 legacy -yhteensopivuustila päälle/pois ja käynnistä SteamVR uudelleen.</b>"
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Käynnistä uudelleen (HDCP)"
 "Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
 

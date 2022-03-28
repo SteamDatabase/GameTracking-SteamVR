@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "暂停"
 "FrameTiming_Raw" "详情"
 "FrameTiming_ShowInHeadset" "在头戴式显示器中显示"
+"FrameTiming_Remote" "远程"
 
 "FrameTiming_5sStats" "最近 %1s 掉帧：\n %2 次单帧\n %3 次 2 帧\n %4 次 3 帧\n %5 次 4 帧或更多\n 总计 %6 次\n"
 "FrameTiming_Config" "如果出现以下情况超出 %3 秒将发出警告\n %1 次单帧丢失\n 或 %2 次多帧丢失"

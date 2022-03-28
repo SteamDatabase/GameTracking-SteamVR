@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "暫停"
 "FrameTiming_Raw" "細節"
 "FrameTiming_ShowInHeadset" "在頭戴顯示器內顯示"
+"FrameTiming_Remote" "遠端"
 
 "FrameTiming_5sStats" "最近 %1s 影格率丟格：\n %2 次單格\n %3 次 2 格\n %4 次 3 格\n %5 次 4 格或更多\n 總計 %6 次\n"
 "FrameTiming_Config" "若出現 %3s 秒以上將發出警告\n %1 次單幀丟格\n 或 %2 次多幀丟格"

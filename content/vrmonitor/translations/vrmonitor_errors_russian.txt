@@ -237,6 +237,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Подробнее"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link не подключён"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Если вы используете Quest 2 или другое внешнее устройство, вам потребуется вручную включить в шлеме функцию Link или Air Link перед запуском SteamVR."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Перезапустить SteamVR"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Посетить oculus.com"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "Ошибка SteamVR"
 "VRInitError_Driver_HmdInUse_Description" "Шлем используется другим приложением. Чтобы продолжить, выйдите из него и попробуйте ещё раз."
 "VRInitError_Driver_HmdInUse_Action" "Попробовать ещё раз"
@@ -278,11 +285,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Подробнее"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/ru/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Беспроводной шлем не подключен"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Убедитесь, что беспроводной шлем включён, чтобы его можно было подключить к SteamVR."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Подробнее"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=russian#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Ожидание беспроводного подключения"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR ждёт беспроводного подключения шлема..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Обновление графического драйвера"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Вам необходимо обновить графические драйверы или включить планирование графического процессора с аппаратным ускорением."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Подробнее"
@@ -398,7 +402,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Ошибка SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR не удалось подключиться к приложению Oculus. Убедитесь, что установлена его последняя версия."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Посетить oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "Ошибка SteamVR"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Произошла ошибка при запуске программного обеспечения от Oculus. Перезагрузите компьютер и убедитесь, что программы Oculus установлены и обновлены до последней версии."

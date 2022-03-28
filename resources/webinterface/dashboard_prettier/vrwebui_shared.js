@@ -2308,7 +2308,7 @@
                   curvature_origin_id: f.i,
                   origin: a.s.BottomCenter,
                   interactive: !0,
-                  target_dpi_panel_id: ie.q,
+                  target_dpi_panel_id: ie.s,
                   reflect: 0.1,
                 },
                 e
@@ -11808,7 +11808,7 @@
                   this.state.currentControllerType.controller_type
                 ]);
           } catch (e) {}
-          const r = this.state.bForceToggleToCustom || (s && s != i),
+          const r = this.state.bForceToggleToCustom || !s || s != i,
             l =
               (null === (e = this.state.currentActionManifest) || void 0 === e
                 ? void 0
@@ -11882,12 +11882,6 @@
                       )
                     )
                   ),
-                !i &&
-                  o.createElement(
-                    "div",
-                    { className: "Subsection" },
-                    Object(a.c)("#Settings_Loading_CurrentBinding")
-                  ),
                 !p.a.IsSteamAvailable &&
                   this.state.currentBinding &&
                   o.createElement(
@@ -11905,7 +11899,6 @@
                     )
                   ),
                 p.a.IsSteamAvailable &&
-                  i &&
                   o.createElement(c.n, {
                     label: Object(a.c)("#Settings_ActiveControllerBinding"),
                     offLabel: Object(a.c)(
@@ -11917,34 +11910,12 @@
                     onSubsection: o.createElement(
                       o.Fragment,
                       null,
-                      p.a.IsSteamAvailable &&
-                        i &&
-                        !this.state.currentBinding &&
+                      (!i || !this.state.currentBinding) &&
                         o.createElement(
                           "div",
                           { className: "SettingsItem Label" },
                           Object(a.c)("#Settings_Loading_CurrentBinding")
                         ),
-                      o.createElement(
-                        "div",
-                        { className: "SettingsItem Label" },
-                        !p.a.IsSteamAvailable &&
-                          !this.state.currentBinding &&
-                          o.createElement(
-                            o.Fragment,
-                            null,
-                            Object(a.c)(
-                              "#Settings_NeedSteamTo_SeeCurrentBinding"
-                            )
-                          ),
-                        this.state.currentBinding &&
-                          o.createElement(
-                            o.Fragment,
-                            null,
-                            this.state.currentBinding.name
-                          ),
-                        o.createElement("br", null)
-                      ),
                       r &&
                         o.createElement(
                           "div",
@@ -11956,6 +11927,7 @@
                             c.e,
                             {
                               icon: c.f.PopOut,
+                              enabled: p.a.IsSteamAvailable && Boolean(i),
                               onClick: this.showBindingDetail.bind(this, !0),
                             },
                             Object(a.c)("#Settings_EditBinding")
@@ -11973,7 +11945,7 @@
                     ),
                   }),
                 o.createElement("div", { className: "Spacer" }),
-                this.state.currentBindingApp &&
+                this.state.currentBinding &&
                   o.createElement(E, {
                     appKey: this.state.currentBindingApp.key,
                   }),
@@ -13897,4 +13869,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=bcbaac2e5427c9353a4a
+//# sourceMappingURL=vrwebui_shared.js.map?v=309c367a37a8ff969683

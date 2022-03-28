@@ -867,7 +867,7 @@ $@
 19CWirelessDecoderWv2
 1e+9999
 2
-20:54:30
+20:01:48
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20CVRFramerateGovernor
@@ -1929,6 +1929,7 @@ CLighthouseHmdDriver::GetImuPose()
 CLighthouseHmdDriver::GetLighthousePose()
 CLighthouseHmdDriver::GetPose()
 CLighthouseHmdDriver::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+CLighthouseHmdDriver::GetPropertyContainer()
 CLighthouseHmdDriver::GetRadioMode(vortex::ERadioMode*)
 CLighthouseHmdDriver::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
 CLighthouseHmdDriver::GetSensorType()
@@ -2039,6 +2040,7 @@ CLighthouseHmdProvider::DBActivated()
 CLighthouseHmdProvider::DBBaseDeviceAdded(unsigned int)
 CLighthouseHmdProvider::DBBaseDeviceAdded(unsigned int) [clone .cold]
 CLighthouseHmdProvider::DBUniverseSelected(unsigned long)
+CLighthouseHmdProvider::DBUniverseSelected(unsigned long) [clone .cold]
 CLighthouseHmdProvider::EnqueueReplayObject(std::string const&, vr::DriverPose_t const&)
 CLighthouseHmdProvider::EnqueueReplayObject(std::string const&, vr::DriverPose_t const&) [clone .cold]
 CLighthouseHmdProvider::EnterStandby()
@@ -2216,15 +2218,17 @@ CPrismDirect::UpdateUndistortParams()
 CRefCount::Release() const
 CST
 CSWTCH.100
-CSWTCH.121
+CSWTCH.123
 CSWTCH.132
+CSWTCH.136
 CSWTCH.138
 CSWTCH.158
+CSWTCH.16
 CSWTCH.1923
-CSWTCH.209
+CSWTCH.211
 CSWTCH.221
+CSWTCH.23
 CSWTCH.878
-CSWTCH.90
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
@@ -2618,6 +2622,7 @@ CVkGarbageCollector::WaitForWork()
 CVkGarbageCollector::WaitForWork() [clone .cold]
 CVkGarbageCollector::~CVkGarbageCollector()
 CVkImage::AspectMask() const
+CVkImage::BytesRequired() const
 CVkImage::CmdClearColorImage(CVkCommandBuffer*, VkClearColorValue const&, VkImageLayout, unsigned int)
 CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int)
 CVkImage::CmdCopyImage(CVkCommandBuffer*, CVkImage*, std::vector<VkImageCopy, std::allocator<VkImageCopy> > const&, VkImageLayout, VkImageLayout)
@@ -3074,7 +3079,7 @@ Error loading MC data. Buffer too small to contain image.
 Error loading MC info '%s'
 Error loading device profile: %s
 Error on GetFeatureReport
-Error on Release(): Not the lock owner
+Error on Release(): Not the lock owner(%d) != %d
 Error on Watchman_Feature_EdidEnumerate
 Error on Watchman_Feature_EdidInfo
 Error on reply_version
@@ -3626,6 +3631,7 @@ IVRApplications_007
 IVRAudioDevices::CVRAudioDeviceInfo::~CVRAudioDeviceInfo()
 IVRBlockQueue_005
 IVRCameraComponent_003
+IVRCameraPassThruInternal_001
 IVRChaperoneInternal_001
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -3690,6 +3696,7 @@ InitDevice
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) [clone .cold]
 InitIfNeeded
+InitInternalCameraPassThruInterface(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>)
 InitInternalInterfaces(std::function<void* (char const*)>, bool)
 InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
@@ -4411,7 +4418,7 @@ MakeFileWriteable(char const*)
 ManualURL
 Map
 Mar
-Mar 11 2022
+Mar 25 2022
 March
 Mark 1
 Mark 2
@@ -5579,6 +5586,7 @@ ThreadInterlockedIncrement64
 ThreadIsProcessActive
 ThreadIsThreadRunning
 ThreadOpenProcess
+ThreadOverrideCurrentProcessId
 ThreadProcConvert(void*)
 ThreadResumeSignal(int)
 ThreadSetAffinity
@@ -7661,6 +7669,12 @@ fL
 fR
 facet::AppendToNextChain(void const*&, void const*)
 facet::AppendToNextChain(void*&, void*)
+facet::BytesPerCompressedBlock(VkFormat)
+facet::BytesPerCompressedBlock(VkFormat) [clone .part.0]
+facet::BytesPerTexel(VkFormat)
+facet::BytesPerTexel(VkFormat) [clone .part.0]
+facet::BytesRequired(VkFormat, unsigned int, unsigned int)
+facet::BytesRequired(VkFormat, unsigned int, unsigned int, unsigned int)
 facet::CCompositionClient::AcquireCompositorSlot(unsigned int)
 facet::CCompositionClient::AcquireCompositorSlot(unsigned int) [clone .cold]
 facet::CCompositionClient::AcquireImage(facet::CCompositionClient::CSwapchain*, unsigned int)
@@ -7809,12 +7823,14 @@ facet::CVkTimestampQueryPoolBase::UpdateResults(facet::CVkTimestampQueryPoolBase
 facet::CVkTimestampQueryPoolBase::~CVkTimestampQueryPoolBase()
 facet::CopyDeviceId(facet::VkDeviceId_t&, facet::VkDeviceId_t const&)
 facet::DXGIFormatFromVk(VkFormat)
+facet::FromIPC(int)
 facet::GetFlatIndex(SwapchainIndices_t const&)
 facet::GetFov(glm::mat<4, 4, float, (glm::qualifier)0> const&, float*, float*, float*, float*)
 facet::GetLUIDFromDeviceId(facet::VkDeviceId_t const&, unsigned long&)
 facet::GetSrgbFormat(VkFormat)
 facet::GetVulkanSampleCount(unsigned int)
 facet::InitDeviceId(facet::VkDeviceId_t&, VkPhysicalDeviceIDProperties const&)
+facet::IsCompressedFormat(VkFormat)
 facet::IsDepthFormat(VkFormat)
 facet::IsDepthOnlyFormat(VkFormat)
 facet::IsDepthStencilFormat(VkFormat)
@@ -7822,6 +7838,7 @@ facet::IsDeviceIdValid(facet::VkDeviceId_t const&)
 facet::IsInDebugSession()
 facet::IsInDebugSession()::fp
 facet::IsSrgbFormat(VkFormat)
+facet::NumCompressedBlocks(unsigned int, unsigned int)
 facet::ToIPC(unsigned long)
 facet::VkFormatFromDXGI(unsigned int, VkFormat*)
 facet::WaitUntil(double)
@@ -7880,6 +7897,8 @@ fopen64
 for
 for detail.
 forceSoloEdid
+force_pid
+force_pid_val
 forcedExposureTime
 forcedFrameRate
 forcedGlobalGain
@@ -7958,6 +7977,7 @@ g_pVRApplications
 g_pVRApplicationsInternal
 g_pVRAudioDevices
 g_pVRBlockQueue
+g_pVRCameraPassThruInternal
 g_pVRChaperone
 g_pVRChaperoneInternal
 g_pVRChaperoneSetup
@@ -11635,6 +11655,7 @@ qu
 r
 r+
 r+b
+r2max
 rEyeFile:%s width:%d height:%d components:%d
 rM
 rS
@@ -16719,7 +16740,7 @@ void CeresQuaternionRotationTo<ceres::Jet<double, 49> >(ceres::Jet<double, 49> c
 void CeresQuaternionRotationTo<double>(double const*, double const*, double*)
 void CeresVectorNormalize<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
 void DiscreteWhiteNoiseJerkCovariance<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >(Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, double, double)
-void Distortion_Model::distort<double, double>(Distortion_Type, double&, double&, double const*, double const*)
+void Distortion_Model::distort<double, double>(Distortion_Type, double, double&, double&, double const*, double const*)
 void Eigen::internal::call_assignment<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const>, Eigen::internal::assign_op<double, double> >(Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>&, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const> const&, Eigen::internal::assign_op<double, double> const&, Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const>, Eigen::internal::evaluator_traits<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const> >::Shape>::value, void*>::type) [clone .isra.0] [clone .constprop.0]
 void Eigen::internal::call_assignment<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const>, Eigen::internal::assign_op<double, double> >(Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>&, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const> const&, Eigen::internal::assign_op<double, double> const&, Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const>, Eigen::internal::evaluator_traits<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const> >::Shape>::value, void*>::type) [clone .isra.0] [clone .constprop.0] [clone .cold]
 void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, -1, -1, 1, -1, -1> >, Eigen::internal::assign_op<double, double> >(Eigen::Matrix<double, -1, -1, 1, -1, -1>&, Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, -1, -1, 1, -1, -1> > const&, Eigen::internal::assign_op<double, double> const&)
@@ -17309,6 +17330,7 @@ vortex::CLighthouseBaseStationDriver::DBUniverseSelected(unsigned long) [clone .
 vortex::CLighthouseBaseStationDriver::Deactivate()
 vortex::CLighthouseBaseStationDriver::GetDeviceClass()
 vortex::CLighthouseBaseStationDriver::GetPose()
+vortex::CLighthouseBaseStationDriver::GetPropertyContainer()
 vortex::CLighthouseBaseStationDriver::GetSerialNumber()
 vortex::CLighthouseBaseStationDriver::Init(unsigned int)
 vortex::CLighthouseBaseStationDriver::IsActivated() const
@@ -18393,6 +18415,7 @@ vortex::ILighthouseTrackedDeviceServerDriver::BTryToFixFailedActivation()
 vortex::ILighthouseTrackedDeviceServerDriver::DebugRequest(char const*, char*, unsigned int)
 vortex::ILighthouseTrackedDeviceServerDriver::EnterStandby()
 vortex::ILighthouseTrackedDeviceServerDriver::GetComponent(char const*)
+vortex::ILighthouseTrackedDeviceServerDriver::GetPropertyContainer()
 vortex::ILighthouseTrackedDeviceServerDriver::LeaveStandby()
 vortex::ILighthouseTrackedDeviceServerDriver::RunFrame()
 vortex::ILighthouseTrackedDeviceServerDriver::ShouldBlockStandby()
@@ -18481,6 +18504,7 @@ vr_internal::Localize(std::string const&, std::string const&, std::string const&
 vr_internal::VRApplications()
 vr_internal::VRApplicationsInternal()
 vr_internal::VRBlockQueue()
+vr_internal::VRCameraPassThruInternal()
 vr_internal::VRChaperone()
 vr_internal::VRChaperoneInternal()
 vr_internal::VRChaperoneSetup()

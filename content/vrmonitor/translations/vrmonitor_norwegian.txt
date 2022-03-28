@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Sett på pause"
 "FrameTiming_Raw" "Detaljer"
 "FrameTiming_ShowInHeadset" "Vis i hodesett"
+"FrameTiming_Remote" "Ekstern"
 
 "FrameTiming_5sStats" "Tap de siste %1s:\n %2 enkelt bilde\n %3 2 bilder\n %4 3 bilder\n %5 4 eller flere\n Totalt %6\n"
 "FrameTiming_Config" "Varsle hvis vi over %3s ser\n  %1 enkelte bilder tapt\n  eller %2 tap av flere bilder"

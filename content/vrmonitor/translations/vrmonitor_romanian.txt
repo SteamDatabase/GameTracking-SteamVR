@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Pauză"
 "FrameTiming_Raw" "Detalii"
 "FrameTiming_ShowInHeadset" "Arată în cască"
+"FrameTiming_Remote" "La distanță"
 
 "FrameTiming_5sStats" "Căderi în ultimele %1s:\n%2 cadre unice\n%3 2 cadre\n%4 3 cadre\n%5 4 sau mai multe\n Total %6\n"
 "FrameTiming_Config" "Avertizează dacă peste %3s vedem\n %1 cadre unice pierdute\n sau %2 căderi de cadre multiple"

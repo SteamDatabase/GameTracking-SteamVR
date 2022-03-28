@@ -235,6 +235,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Les mer"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link er ikke slått på"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Hvis du bruker en Quest2 eller annen selvstendig enhet, må du manuelt slå på Link eller Air Link i hodesettet før du starter SteamVR."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Start SteamVR på nytt"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Gå til oculus.com"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "SteamVR-feil"
 "VRInitError_Driver_HmdInUse_Description" "Hodesettet blir brukt av et annet program. Avslutt det programmet og prøv igjen."
 "VRInitError_Driver_HmdInUse_Action" "Prøv igjen"
@@ -276,11 +283,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Mer info"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/no/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Trådløst hodesett ikke koblet til"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Sørg for at det trådløse hodesettet er slått på, slik at det kan koble til SteamVR."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Mer info"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Venter på trådløs tilkobling"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR venter på at et trådløst hodesett skal koble til …"
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Oppdatering av skjermdriver"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Du må oppdatere datamaskinens skjermdriver eller slå på maskinvareakselerert GPU-planlegging."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Mer informasjon"
@@ -396,7 +400,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR-feil"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR kunne ikke koble til Oculus-programmet. Sørg for at du har den nyeste versjonen installert."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Gå til oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR-feil"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Det oppstod et problem med Oculus-installasjonen. Start på nytt og bekreft at Oculus-programvaren er installert og oppdatert."

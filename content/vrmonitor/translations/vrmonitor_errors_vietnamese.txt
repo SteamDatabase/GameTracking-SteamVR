@@ -237,6 +237,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Tìm hiểu thêm"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Chưa bật Oculus Link"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Nếu đang sử dụng Quest 2 hoặc thiết bị độc lập khác, bạn phải tự bật Link hoặc Air Link trong mũ chụp trước khi khởi động SteamVR."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Khởi động lại SteamVR"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Truy cập oculus.com"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "Lỗi SteamVR"
 "VRInitError_Driver_HmdInUse_Description" "Mũ chụp đang được dùng bởi ứng dụng khác. Vui lòng thoát ứng dụng đó, và thử lại."
 "VRInitError_Driver_HmdInUse_Action" "Thử lại"
@@ -278,11 +285,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Xem thêm"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Mũ chụp không dây chưa được kết nối"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Hãy chắc rằng mũ chụp không dây đã được bật nguồn để có thể kết nối với SteamVR."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Xem thêm"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Đang chờ kết nối không dây"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR đang đợi mũ chụp không dây kết nối..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Cập nhật driver đồ họa"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Bạn cần cập nhật driver đồ họa của máy tính, hoặc bật tính năng Hardware-accelerated GPU scheduling."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Xem thêm"
@@ -398,7 +402,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Lỗi SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR không thể kết nối với ứng dụng Oculus. Vui lòng đảm bảo rằng bạn đã cài đặt phiên bản mới nhất."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Truy cập oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "Lỗi SteamVR"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Xảy ra lỗi khi cài đặt Oculus Runtime. Vui lòng khởi động lại và xác nhận phần mềm Oculus đã được cài đặt và cập nhật."

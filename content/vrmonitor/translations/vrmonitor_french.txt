@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Pause"
 "FrameTiming_Raw" "Informations"
 "FrameTiming_ShowInHeadset" "Afficher dans le casque"
+"FrameTiming_Remote" "À distance"
 
 "FrameTiming_5sStats" "Pertes dans les dernières %1s :\n %2 image individuelle\n %3 × 2 images\n %4 × 3 images\n %5 × 4 ou plus\n Total : %6\n"
 "FrameTiming_Config" "Alerter si, au-delà de %3s, il manque\n %1 image(s) individuelle(s)\n ou %2 image(s) multiple(s)"

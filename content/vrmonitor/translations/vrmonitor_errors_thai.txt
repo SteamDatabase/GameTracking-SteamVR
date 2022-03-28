@@ -235,6 +235,13 @@
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "เรียนรู้เพิ่มเติม"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link ยังไม่เปิดใช้งาน"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "หากคุณใช้ Quest2 หรืออุปกรณ์เดี่ยวอื่น ๆ อยู่ในขณะนี้ คุณต้องเปิดการใช้งาน Link หรือ Air Link ใน HMD ด้วยตนเองก่อนที่จะเริ่มต้น SteamVR"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "รีสตาร์ท SteamVR"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "เยี่ยมชม oculus.com"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+
 "VRInitError_Driver_HmdInUse_Header" "ข้อผิดพลาดของ SteamVR"
 "VRInitError_Driver_HmdInUse_Description" "เครื่องสวมศีรษะของคุณกำลังถูกใช้งานโดยแอปพลิเคชันอื่น กรุณาออกจากแอปนั้นและลองใหม่อีกครั้ง"
 "VRInitError_Driver_HmdInUse_Action" "ลองอีกครั้ง"
@@ -276,11 +283,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "ข้อมูลเพิ่มเติม"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/th/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "เครื่องสวมศีรษะแบบไร้สายไม่ได้เชื่อมต่อ"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "กรุณาตรวจสอบให้แน่ใจว่าคุณได้เปิดเครื่องสวมศีรษะแบบไร้สายของคุณแล้ว เพื่อให้เชื่อมต่อกับ SteamVR ได้"
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "ข้อมูลเพิ่มเติม"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=thai#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "กำลังรอการเชื่อมต่อแบบไร้สาย"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR กำลังรอให้เครื่องสวมศีรษะแบบไร้สายทำการเชื่อมต่อ..."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "อัปเดตไดรเวอร์กราฟิก"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "คุณจำเป็นต้องอัปเดตไดรเวอร์กราฟิกให้คอมพิวเตอร์ของคุณ หรือเปิดใช้งานการจัดเวลา GPU แบบเร่งด้วยฮาร์ดแวร์"
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "ข้อมูลเพิ่มเติม"
@@ -396,7 +400,7 @@
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "ข้อผิดพลาดของ SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR ไม่สามารถเชื่อมต่อไปยังแอป Oculus ได้ กรุณาตรวจสอบให้แน่ใจว่าคุณมีการติดตั้งเป็นเวอร์ชันล่าสุดแล้ว"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "เยี่ยมชม oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "ข้อผิดพลาดของ SteamVR"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "ตรวจพบปัญหาเกี่ยวกับการติดตั้ง Oculus Runtime กรุณารีบูตและตรวจสอบซอฟต์แวร์ Oculus ที่ถูกติดตั้งและอัปเดต"

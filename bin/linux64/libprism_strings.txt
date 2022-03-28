@@ -474,7 +474,7 @@ $+
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
 2
-20:54:30
+20:01:48
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
@@ -883,7 +883,9 @@ CPrismPoseProvider_Null::GetInstance()::instance
 CPrismPoseProvider_Null::GetPoses(glm::mat<4, 4, float, (glm::qualifier)0>*, bool*, unsigned int, unsigned long)
 CST
 CSWTCH.100
-CSWTCH.209
+CSWTCH.16
+CSWTCH.211
+CSWTCH.23
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CSharedResourceNamespaceClient::Init(): failed connect
@@ -1116,6 +1118,7 @@ CVkGarbageCollector::WaitForWork()
 CVkGarbageCollector::WaitForWork() [clone .cold]
 CVkGarbageCollector::~CVkGarbageCollector()
 CVkImage::AspectMask() const
+CVkImage::BytesRequired() const
 CVkImage::CmdClearColorImage(CVkCommandBuffer*, VkClearColorValue const&, VkImageLayout, unsigned int)
 CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int)
 CVkImage::CmdCopyImage(CVkCommandBuffer*, CVkImage*, std::vector<VkImageCopy, std::allocator<VkImageCopy> > const&, VkImageLayout, VkImageLayout)
@@ -1280,7 +1283,7 @@ Error %d getting shared memory size
 Error %d growing shared object manager file.
 Error %d locking shared memory file
 Error from reader: %s
-Error on Release(): Not the lock owner
+Error on Release(): Not the lock owner(%d) != %d
 Error reading from socket
 EventWriteString(char const*, EVRTraceEvent)
 EventWriteString(char const*, EVRTraceEvent) [clone .cold]
@@ -1998,7 +2001,7 @@ MV-PreviousInput-%s
 MV-Threshold
 Map
 Mar
-Mar 11 2022
+Mar 25 2022
 March
 MarkInUse
 Mask Input Image
@@ -2602,6 +2605,7 @@ ThreadInterlockedIncrement64
 ThreadIsProcessActive
 ThreadIsThreadRunning
 ThreadOpenProcess
+ThreadOverrideCurrentProcessId
 ThreadProcConvert(void*)
 ThreadResumeSignal(int)
 ThreadSetAffinity
@@ -3406,6 +3410,12 @@ fL
 fR
 facet::AppendToNextChain(void const*&, void const*)
 facet::AppendToNextChain(void*&, void*)
+facet::BytesPerCompressedBlock(VkFormat)
+facet::BytesPerCompressedBlock(VkFormat) [clone .part.0]
+facet::BytesPerTexel(VkFormat)
+facet::BytesPerTexel(VkFormat) [clone .part.0]
+facet::BytesRequired(VkFormat, unsigned int, unsigned int)
+facet::BytesRequired(VkFormat, unsigned int, unsigned int, unsigned int)
 facet::CPanelMask::CPanelMask()
 facet::CPanelMask::GenerateMesh(std::vector<facet::CPanelMask::Vertex_t, std::allocator<facet::CPanelMask::Vertex_t> >&, std::vector<unsigned short, std::allocator<unsigned short> >&, vr::EVREye, facet::CPanelMask::ColorChannel_t::Value_t, float) const
 facet::CPanelMask::GenerateOuterMesh(std::vector<facet::CPanelMask::Vertex_t, std::allocator<facet::CPanelMask::Vertex_t> >&, std::vector<unsigned short, std::allocator<unsigned short> >&, vr::EVREye) const
@@ -3430,6 +3440,7 @@ facet::CVkTimestampQueryPoolBase::UpdateResults(facet::CVkTimestampQueryPoolBase
 facet::CVkTimestampQueryPoolBase::~CVkTimestampQueryPoolBase()
 facet::CopyDeviceId(facet::VkDeviceId_t&, facet::VkDeviceId_t const&)
 facet::DXGIFormatFromVk(VkFormat)
+facet::FromIPC(int)
 facet::GenerateVisibleAreaMesh(std::vector<facet::VisibleAreaMeshVertex_t, std::allocator<facet::VisibleAreaMeshVertex_t> >&, std::vector<unsigned int, std::allocator<unsigned int> >&, facet::VisibleAreaMeshInput_t const&)
 facet::GenerateVisibleAreaMesh(std::vector<facet::VisibleAreaMeshVertex_t, std::allocator<facet::VisibleAreaMeshVertex_t> >&, std::vector<unsigned int, std::allocator<unsigned int> >&, facet::VisibleAreaMeshInput_t const&) [clone .cold]
 facet::GetFlatIndex(SwapchainIndices_t const&)
@@ -3438,6 +3449,7 @@ facet::GetLUIDFromDeviceId(facet::VkDeviceId_t const&, unsigned long&)
 facet::GetSrgbFormat(VkFormat)
 facet::GetVulkanSampleCount(unsigned int)
 facet::InitDeviceId(facet::VkDeviceId_t&, VkPhysicalDeviceIDProperties const&)
+facet::IsCompressedFormat(VkFormat)
 facet::IsDepthFormat(VkFormat)
 facet::IsDepthOnlyFormat(VkFormat)
 facet::IsDepthStencilFormat(VkFormat)
@@ -3445,6 +3457,7 @@ facet::IsDeviceIdValid(facet::VkDeviceId_t const&)
 facet::IsInDebugSession()
 facet::IsInDebugSession()::fp
 facet::IsSrgbFormat(VkFormat)
+facet::NumCompressedBlocks(unsigned int, unsigned int)
 facet::ToIPC(unsigned long)
 facet::VkFormatFromDXGI(unsigned int, VkFormat*)
 facet::WaitUntil(double)
@@ -3472,6 +3485,8 @@ fopen
 fopen64
 for
 for detail.
+force_pid
+force_pid_val
 fork
 fputc
 fputs
@@ -6896,6 +6911,7 @@ unsigned long
 unsigned long long
 unsigned short
 unsigned short& std::vector<unsigned short, std::allocator<unsigned short> >::emplace_back<unsigned short>(unsigned short&&)
+unsupported format
 unsupported platform
 upper
 useSpecialFloats

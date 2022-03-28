@@ -227,13 +227,20 @@
 
 "VRInitError_Driver_RuntimeOutOfDate_Header" "Fout met SteamVR"
 "VRInitError_Driver_RuntimeOutOfDate_Description" "Je Oculus-software lijkt verouderd te zijn. Installeer de meest recente versie."
-"VRInitError_Driver_RuntimeOutOfDate_Action" "oculus.com bezoeken"
+"VRInitError_Driver_RuntimeOutOfDate_Action" "Oculus.com bezoeken"
 "VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
 
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Windows 10-update"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "Om SteamVR met Windows Mixed Reality te kunnen gebruiken, moet de nieuwste Windows-update geïnstalleerd worden."
 "VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Meer informatie"
 "VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
+
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link niet geactiveerd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Als je een Quest 2 of ander losstaand apparaat gebruikt, moet je Link of Air Link handmatig in de headset activeren voordat je SteamVR opstart."
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "SteamVR herstarten"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Oculus.com bezoeken"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
 
 "VRInitError_Driver_HmdInUse_Header" "Fout met SteamVR"
 "VRInitError_Driver_HmdInUse_Description" "Je headset wordt momenteel gebruikt door een andere toepassing. Sluit deze toepassing af en probeer het opnieuw."
@@ -276,11 +283,8 @@
 "VRInitError_Driver_PeerDriverNotInstalled_Action" "Meer informatie"
 "VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/nl/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
 
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Draadloze headset niet verbonden"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Zorg ervoor dat je draadloze headset aan staat, zodat hij met SteamVR kan verbinden."
-"VRInitError_Driver_WirelessHmdNotConnected_Action" "Meer informatie"
-"VRInitError_Driver_WirelessHmdNotConnected_ActionURL" "https://help.steampowered.com/nl/faqs/view/153F-1B04-6CAB-43A1#headset"
-
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Op draadloze verbinding aan het wachten"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR wacht tot een draadloze headset verbinding maakt."
 "VRInitError_Init_PrismNeedsNewDrivers_Header" "Update van het grafische stuurprogramma"
 "VRInitError_Init_PrismNeedsNewDrivers_Description" "Je dient het grafische stuurprogramma van je computer bij te werken, of 'GPU met hardwareversnelling plannen' in te schakelen."
 "VRInitError_Init_PrismNeedsNewDrivers_Action" "Meer informatie"
@@ -385,7 +389,7 @@
 
 "VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Tijd voor een update"
 "VRInitError_Compositor_FirmwareRequiresUpdate_Description" "Je headset is gedetecteerd, maar vereist een update om goed te kunnen werken."
-"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Headset bijwerken"
+"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Headset updaten"
 "VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
 
 "VRInitError_Compositor_UnableToCreateDevice_Header" "Fout met SteamVR-graphics"
@@ -395,12 +399,12 @@
 
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Fout met SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR kan niet met de Oculus-toepassing verbinden. Zorg ervoor dat je de meest recente versie hebt geïnstalleerd."
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "oculus.com bezoeken"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Oculus.com bezoeken"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "Fout met SteamVR"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Er is een probleem opgetreden bij de runtime-installatie van Oculus. Herstart en controleer of de Oculus-software geïnstalleerd en bijgewerkt is."
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "oculus.com bezoeken"
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "Oculus.com bezoeken"
 "VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
 
 "VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB-fout"

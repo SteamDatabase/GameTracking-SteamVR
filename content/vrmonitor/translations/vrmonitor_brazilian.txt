@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Pausa"
 "FrameTiming_Raw" "Detalhes"
 "FrameTiming_ShowInHeadset" "Exibir no headset"
+"FrameTiming_Remote" "Remoto"
 
 "FrameTiming_5sStats" "Descartes nos últimos %1s:\n %2 x quadro único\n %3 x 2 quadros\n %4 x 3 quadros\n %5 x 4 ou mais\n Total: %6\n"
 "FrameTiming_Config" "Alertar caso durante %3s ocorram\n %1 descartes de quadros únicos\n ou %2 descartes de múltiplos quadros"

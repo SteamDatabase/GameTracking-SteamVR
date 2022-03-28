@@ -257,10 +257,10 @@
     function p(e, t) {
       return { x: e.x * t, y: e.y * t };
     }
-    function _(e, t) {
+    function h(e, t) {
       return { x: e.x * t, y: e.y * t, z: e.z * t };
     }
-    function h(e) {
+    function _(e) {
       return Math.sqrt(e.x * e.x + e.y * e.y);
     }
     function m(e) {
@@ -371,24 +371,24 @@
       static getInstance() {
         return C.instance || (C.instance = new C()), C.instance;
       }
-      requestSGTransform(e) {
-        return new Promise((t, r) =>
+      requestSGTransform(e, t = 0) {
+        return new Promise((r, i) =>
           Object(n.a)(this, void 0, void 0, function* () {
-            let n = { type: "transform_request", id: e },
-              i = yield this.m_mailbox.SendMessageAndWaitForResponse(
+            let n = { type: "transform_request", id: e, flPushDistance: t },
+              o = yield this.m_mailbox.SendMessageAndWaitForResponse(
                 "vrcompositor_systemlayer",
                 n,
                 "transform_response"
               );
-            i.id == e && i.transform
-              ? t(i.transform)
-              : r("requestSGTransform failed");
+            o.id == e && o.transform
+              ? r(o.transform)
+              : i("requestSGTransform failed");
           })
         );
       }
     }
     var I = r("q1tI");
-    function M(e, t) {
+    function x(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) {
         if ("undefined" == r) return;
@@ -397,7 +397,7 @@
         if (e.length > 0) return e;
       }
     }
-    function x(e, t) {
+    function M(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) return parseFloat(r);
     }
@@ -437,9 +437,9 @@
           switch (t.nodeName.toUpperCase()) {
             case "VSG-TRANSFORM":
               (i = T("transform", t)),
-                (i.properties.translation = M(t, "translation")),
-                (i.properties.rotation = M(t, "rotation")),
-                (i.properties.scale = M(t, "scale")),
+                (i.properties.translation = x(t, "translation")),
+                (i.properties.rotation = x(t, "rotation")),
+                (i.properties.scale = x(t, "scale")),
                 (i.properties["parent-path"] = O(t, "parent-path")),
                 (i.properties["parent-origin"] = O(t, "parent-origin")),
                 (i.properties["parent-id"] = F(t, "parent-id"));
@@ -452,26 +452,26 @@
               break;
             case "VSG-ELASTIC-HEAD-TRANSFORM":
               (i = T("elasticheadtransform", t)),
-                (i.properties["start-angle-threshold"] = x(
+                (i.properties["start-angle-threshold"] = M(
                   t,
                   "start-angle-threshold"
                 )),
-                (i.properties["stop-angle-threshold"] = x(
+                (i.properties["stop-angle-threshold"] = M(
                   t,
                   "stop-angle-threshold"
                 )),
-                (i.properties["ease-in-time"] = x(t, "ease-in-time")),
-                (i.properties["ease-in-power"] = x(t, "ease-in-power")),
-                (i.properties["ease-out-angle-threshold"] = x(
+                (i.properties["ease-in-time"] = M(t, "ease-in-time")),
+                (i.properties["ease-in-power"] = M(t, "ease-in-power")),
+                (i.properties["ease-out-angle-threshold"] = M(
                   t,
                   "ease-out-angle-threshold"
                 )),
-                (i.properties["ease-out-power"] = x(t, "ease-out-power")),
-                (i.properties["min-angular-velocity"] = x(
+                (i.properties["ease-out-power"] = M(t, "ease-out-power")),
+                (i.properties["min-angular-velocity"] = M(
                   t,
                   "min-angular-velocity"
                 )),
-                (i.properties["max-angular-velocity"] = x(
+                (i.properties["max-angular-velocity"] = M(
                   t,
                   "max-angular-velocity"
                 )),
@@ -484,29 +484,29 @@
             case "VSG-LINE":
               (i = T("line", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
-                (i.properties.thickness = x(t, "thickness")),
-                (i.properties["start-buffer"] = x(t, "start-buffer")),
-                (i.properties["end-buffer"] = x(t, "end-buffer"));
+                (i.properties.thickness = M(t, "thickness")),
+                (i.properties["start-buffer"] = M(t, "start-buffer")),
+                (i.properties["end-buffer"] = M(t, "end-buffer"));
               break;
             case "VSG-LINE-CONSTRAINED-TRANSFORM":
               (i = T("line-constrained-transform", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
                 (i.properties["source-id"] = F(t, "source-id")),
-                (i.properties["source-distance"] = x(t, "source-distance")),
-                (i.properties["target-limit"] = x(t, "target-limit"));
+                (i.properties["source-distance"] = M(t, "source-distance")),
+                (i.properties["target-limit"] = M(t, "target-limit"));
               break;
             case "VSG-CALLOUT-TRANSFORM":
               (i = T("callout-transform", t)),
-                (i.properties.offset = M(t, "offset"));
+                (i.properties.offset = x(t, "offset"));
               break;
             case "VSG-HEAD-FACING-TRANSFORM":
               i = T("head-facing-transform", t);
               break;
             case "VSG-PIN-TO-VIEW-TRANSFORM":
               (i = T("pin-to-view-transform", t)),
-                (i.properties["offscreen-z-depth"] = x(t, "offscreen-z-depth")),
-                (i.properties["off-axis-limit"] = x(t, "off-axis-limit")),
-                (i.properties["transition-limit"] = x(t, "transition-limit"));
+                (i.properties["offscreen-z-depth"] = M(t, "offscreen-z-depth")),
+                (i.properties["off-axis-limit"] = M(t, "off-axis-limit")),
+                (i.properties["transition-limit"] = M(t, "transition-limit"));
           }
           return [n, i];
         })(e, t),
@@ -779,7 +779,7 @@
         return (r.properties.opacity = this.props.value), [e, r];
       }
     }
-    var oe, se, ae, le, de, ce, ue, pe, _e, he, me;
+    var oe, se, ae, le, de, ce, ue, pe, he, _e, me;
     Object(n.b)([o.a], ie.prototype, "buildNode", null),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
@@ -807,7 +807,7 @@
             (r = this.props.transform.scale))
           : ((e = Q(this.props.translation, { x: 0, y: 0, z: 0 })),
             (t = g(
-              _(Q(this.props.rotation, { x: 0, y: 0, z: 0 }), Math.PI / 180)
+              h(Q(this.props.rotation, { x: 0, y: 0, z: 0 }), Math.PI / 180)
             )),
             (r =
               "number" == typeof this.props.scale
@@ -1033,59 +1033,64 @@
         return null != (e = this.props.visibility) ? e : de.Visible;
       }
       buildNode(e, t) {
-        var r, n, i, o;
+        var r, n, i, o, s;
         if (this.visibility != de.Visible) return [e, null];
-        let s = Object.assign({}, e),
-          a = this.createSgNode(t),
-          l = { x: 0, y: 0 };
-        l =
+        let a = Object.assign({}, e),
+          l = this.createSgNode(t),
+          d = { x: 0, y: 0 };
+        d =
           "object" == typeof this.props.origin
             ? X(this.props.origin, { x: 0, y: 0 })
             : be(this.props.origin);
-        const d = this.props.overlay_key,
-          c = G();
+        const c = this.props.overlay_key,
+          u = G();
         return (
-          d && d.length > 0
-            ? (a.properties.key = d)
-            : c
-            ? (a.properties.key = c)
-            : (a.properties.overlay_handle = (function () {
+          c && c.length > 0
+            ? (l.properties.key = c)
+            : u
+            ? (l.properties.key = u)
+            : (l.properties.overlay_handle = (function () {
                 var e;
                 return null === (e = VRHTML) || void 0 === e
                   ? void 0
                   : e.VROverlay.ThisOverlayHandle();
               })()),
-          (a.properties.uv_min = null != (r = ye(this.m_UVsMin)) ? r : void 0),
-          (a.properties.uv_max = null != (n = ye(this.m_UVsMax)) ? n : void 0),
-          (a.properties.width = null != (i = this.props.width) ? i : void 0),
-          (a.properties.height = null != (o = this.props.height) ? o : void 0),
-          (a.properties["target-dpi-panel-id"] = z(
+          (l.properties.uv_min = null != (r = ye(this.m_UVsMin)) ? r : void 0),
+          (l.properties.uv_max = null != (n = ye(this.m_UVsMax)) ? n : void 0),
+          (l.properties.width = null != (i = this.props.width) ? i : void 0),
+          (l.properties.height = null != (o = this.props.height) ? o : void 0),
+          (l.properties["min-width"] =
+            null != (s = this.props.min_width) ? s : void 0),
+          (l.properties["target-width-anchor-id"] = z(
+            this.props.target_width_anchor_id
+          )),
+          (l.properties["target-dpi-panel-id"] = z(
             this.props.target_dpi_panel_id
           )),
-          (a.properties["target-dpi-multiplier"] =
+          (l.properties["target-dpi-multiplier"] =
             this.props.target_dpi_multiplier),
-          (a.properties.curvature = this.props.curvature),
-          (a.properties["curvature-origin-id"] = z(
+          (l.properties.curvature = this.props.curvature),
+          (l.properties["curvature-origin-id"] = z(
             this.props.curvature_origin_id
           )),
-          (a.properties.interactive = this.props.interactive),
-          (a.properties.scrollable = this.props.scrollable),
-          (a.properties.modal = this.props.modal),
-          (a.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-          (a.properties.origin = J(l)),
-          (a.properties.debug_name = this.props.debug_name),
-          (a.properties.sampler = this.props.sampler),
-          (a.properties.reflect = this.props.reflect),
-          (a.properties.stereoscopy = this.props.stereoscopy),
-          (a.properties.rendermodel_component_device_index =
+          (l.properties.interactive = this.props.interactive),
+          (l.properties.scrollable = this.props.scrollable),
+          (l.properties.modal = this.props.modal),
+          (l.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
+          (l.properties.origin = J(d)),
+          (l.properties.debug_name = this.props.debug_name),
+          (l.properties.sampler = this.props.sampler),
+          (l.properties.reflect = this.props.reflect),
+          (l.properties.stereoscopy = this.props.stereoscopy),
+          (l.properties.rendermodel_component_device_index =
             this.props.rendermodel_component_device_index),
-          (a.properties.rendermodel_component_name =
+          (l.properties.rendermodel_component_name =
             this.props.rendermodel_component_name),
-          (a.properties["texture-id"] = z(this.props.texture_id)),
-          (a.properties["sort-order"] = this.props.sort_order),
-          (a.properties["sort-depth-bias"] = this.props.sort_depth_bias),
-          (s.currentPanel = this),
-          [s, a]
+          (l.properties["texture-id"] = z(this.props.texture_id)),
+          (l.properties["sort-order"] = this.props.sort_order),
+          (l.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+          (a.currentPanel = this),
+          [a, l]
         );
       }
       scaleLocalUVToGlobal(e) {
@@ -1510,7 +1515,7 @@
       (e[(e.LockedToParent = 0)] = "LockedToParent"),
         (e[(e.LockedToWorld = 1)] = "LockedToWorld");
     })(ue || (ue = {}));
-    class Me extends $ {
+    class xe extends $ {
       constructor(e) {
         super(e);
       }
@@ -1548,7 +1553,7 @@
         );
       }
     }
-    class xe extends $ {
+    class Me extends $ {
       constructor(e) {
         super(e);
       }
@@ -1578,7 +1583,7 @@
           (e[(e.Low = 1)] = "Low"),
           (e[(e.Medium = 2)] = "Medium"),
           (e[(e.High = 3)] = "High");
-      })(_e || (_e = {})),
+      })(he || (he = {})),
       (function (e) {
         (e[(e.TrackingResult_Uninitialized = 1)] =
           "TrackingResult_Uninitialized"),
@@ -1592,7 +1597,7 @@
             "TrackingResult_Running_OutOfRange"),
           (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
             "TrackingResult_Fallback_RotationOnly");
-      })(he || (he = {})),
+      })(_e || (_e = {})),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
           (e[(e.Standing = 1)] = "Standing"),
@@ -1645,7 +1650,12 @@
             "SendVRSmoothScrollEvents"),
           (e[(e.ProtectedContent = 262144)] = "ProtectedContent"),
           (e[(e.HideLaserIntersection = 524288)] = "HideLaserIntersection"),
-          (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior");
+          (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior"),
+          (e[(e.IsPremultiplied = 2097152)] = "IsPremultiplied"),
+          (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
+          (e[(e.EnableControlBar = 8388608)] = "EnableControlBar"),
+          (e[(e.EnableControlBarKeyboard = 16777216)] =
+            "EnableControlBarKeyboard");
       })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -2159,10 +2169,10 @@
         return p;
       }),
       r.d(t, "V", function () {
-        return _;
+        return h;
       }),
       r.d(t, "M", function () {
-        return h;
+        return _;
       }),
       r.d(t, "N", function () {
         return m;
@@ -2258,10 +2268,10 @@
         return ve;
       }),
       r.d(t, "G", function () {
-        return Me;
+        return xe;
       }),
       r.d(t, "K", function () {
-        return xe;
+        return Me;
       }),
       r.d(t, "e", function () {
         return Ke;
@@ -2279,10 +2289,10 @@
         return Pe;
       }),
       r.d(t, "q", function () {
-        return _e;
+        return he;
       }),
       r.d(t, "z", function () {
-        return he;
+        return _e;
       }),
       r.d(t, "A", function () {
         return me;
@@ -2622,4 +2632,4 @@
     );
   },
 });
-//# sourceMappingURL=fallback.js.map?v=0e0dbddb7410cac1ae55
+//# sourceMappingURL=fallback.js.map?v=f41cb910ec8426619b6d

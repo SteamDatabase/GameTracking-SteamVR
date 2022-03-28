@@ -1043,6 +1043,12 @@ div.BindingCalloutModifierIcon
 		radial-gradient(ellipse at top left, #42454c, #25282e);
 }
 
+.DashboardMain .DashboardPanelBackground .WithControlBar
+{
+	border-bottom-left-radius: 0%;
+	border-bottom-right-radius: 0%;
+}
+
 .DashboardMain .DashboardPanel .DashboardTabList
 {
 	display: flex;
@@ -2105,7 +2111,7 @@ div.BindingCalloutModifierIcon
 	flex-direction: row;
 	background: var( --dashboard-control-bar-group-color-a );
 	padding: 0;
-	width: var(--dashboard-primary-width);
+	width: 100%;
 	box-sizing: border-box;
 	font-size: 1rem;
 	font-weight: bold;

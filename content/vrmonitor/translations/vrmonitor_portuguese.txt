@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Pausa"
 "FrameTiming_Raw" "Detalhes"
 "FrameTiming_ShowInHeadset" "Mostrar no headset"
+"FrameTiming_Remote" "Remoto"
 
 "FrameTiming_5sStats" "Perdas nos últimos %1s:\n %2 - 1 frame\n %3 - 2 frames\n %4 - 3 frames\n %5 - 4 ou mais\n Total: %6\n"
 "FrameTiming_Config" "Avisar se durante %3s ocorrerem\n %1 perdas de frames únicas\n ou %2 perdas de várias frames"

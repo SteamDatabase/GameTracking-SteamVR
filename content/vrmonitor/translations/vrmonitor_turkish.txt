@@ -116,7 +116,6 @@
 "FrameTiming_Pause" "Duraklat"
 "FrameTiming_Raw" "Detaylar"
 "FrameTiming_ShowInHeadset" "Başlıkta göster"
-
 "FrameTiming_5sStats" "Son %1s düşüşleri:\n %2 tek kare\n %3 2 kare\n %4 3 kare\n %5 4 ya da daha fazla\n Toplam %6\n"
 "FrameTiming_Config" "%3s üzerinde\n  %1 tek kare kaybı\n  veya %2 çoklu kare kaybı görülürse uyar"
 

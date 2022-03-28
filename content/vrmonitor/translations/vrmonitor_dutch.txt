@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Pauzeren"
 "FrameTiming_Raw" "Details"
 "FrameTiming_ShowInHeadset" "In headset tonen"
+"FrameTiming_Remote" "Extern"
 
 "FrameTiming_5sStats" "Framedrops in de laatste %1s:\n %2x enkel frame\n %3x 2 frames\n %4x 3 frames\n %5x 4 of meer\n Totaal %6\n"
 "FrameTiming_Config" "Waarschuwen als we meer dan %3s lang\n %1 afzonderlijke framedrops\n of %2 multi-framedrops zien"

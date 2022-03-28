@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "一時停止"
 "FrameTiming_Raw" "詳細"
 "FrameTiming_ShowInHeadset" "ヘッドセットに表示"
+"FrameTiming_Remote" "リモート"
 
 "FrameTiming_5sStats" "最後 %1s のドロップ:\n %2 シングルフレーム\n %3 2 フレーム\n %4 3 フレーム\n %5 4 以上\n 合計 %6\n"
 "FrameTiming_Config" "%3s 以上で警告\n  %1 シングルフレームミス\n  あるいは %2 マルチフレームドロップ"

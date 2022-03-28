@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "หยุดชั่วคราว"
 "FrameTiming_Raw" "รายละเอียด"
 "FrameTiming_ShowInHeadset" "แสดงในเครื่องสวมศีรษะ"
+"FrameTiming_Remote" "ระยะไกล"
 
 "FrameTiming_5sStats" "การดรอปในช่วง %1s ล่าสุด:\n %2 เฟรมเดี่ยว\n %3 สองเฟรม\n %4 สามเฟรม\n %5 สี่เฟรมขึ้นไป\n\n ทั้งหมด %6\n"
 "FrameTiming_Config" "แจ้งเตือนหากมากกว่า %3s ที่เราเห็น\n %1 เฟรมเดี่ยวที่สูญหาย\n หรือ %2 หลายเฟรมที่ดรอป"

@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Παύση"
 "FrameTiming_Raw" "Λεπτομέρειες"
 "FrameTiming_ShowInHeadset" "Εμφάνιση στο headset"
+"FrameTiming_Remote" "Απομακρυσμένο"
 
 "FrameTiming_5sStats" "Πτώσεις στα τελευταία %1s:\n %2 μεμονωμένο καρέ\n %3 2 καρέ\n %4 3 καρέ\n %5 4 ή περισσότερα\n Σύνολο %6\n"
 "FrameTiming_Config" "Προειδοποίηση εάν σε %3s υπάρξουν\n  %1 μονά χαμένα καρέ\n  ή %2 πολλαπλά χαμένα καρέ"

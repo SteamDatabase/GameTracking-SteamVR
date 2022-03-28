@@ -416,6 +416,8 @@
  b any_objects_registered
  b completed.7953
  b dwarf_reg_size_table
+ b force_pid
+ b force_pid_val
  b frame_hdr_cache
  b frame_hdr_cache_head
  b g_SuspendResumeLock
@@ -947,7 +949,7 @@
  putc
  putwc
  r CSWTCH.100
- r CSWTCH.209
+ r CSWTCH.211
  r SteamThreadTools::CThreadSpinRWLock::TryLockForWrite(unsigned int)::oldValue
  r SteamThreadTools::CThreadSpinRWLock::UnlockWrite()::newValue
  r __FRAME_END__
@@ -1417,6 +1419,7 @@
  t ThreadIsProcessActive
  t ThreadIsThreadRunning
  t ThreadOpenProcess
+ t ThreadOverrideCurrentProcessId
  t ThreadProcConvert(void*)
  t ThreadResumeSignal(int)
  t ThreadSetAffinity

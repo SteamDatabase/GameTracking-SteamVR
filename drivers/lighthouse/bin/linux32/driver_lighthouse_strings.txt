@@ -1043,7 +1043,6 @@ $tI
 .L211
 .L212
 .L213
-.L214
 .L215
 .L2150
 .L2152
@@ -1125,7 +1124,6 @@ $tI
 .L24
 .L240
 .L241
-.L242
 .L243
 .L244
 .L245
@@ -1511,6 +1509,7 @@ $tI
 .L3936
 .L3938
 .L3939
+.L394
 .L3940
 .L3941
 .L3942
@@ -1518,9 +1517,15 @@ $tI
 .L3944
 .L3945
 .L3946
+.L396
+.L397
+.L398
 .L399
 .L4
 .L40
+.L400
+.L401
+.L402
 .L403
 .L404
 .L405
@@ -1557,7 +1562,7 @@ $tI
 .L438
 .L439
 .L44
-.L441
+.L440
 .L4426
 .L4427
 .L4429
@@ -1566,7 +1571,6 @@ $tI
 .L4431
 .L4432
 .L4433
-.L444
 .L4444
 .L4446
 .L4447
@@ -1584,6 +1588,8 @@ $tI
 .L450
 .L451
 .L452
+.L453
+.L454
 .L4585
 .L4597
 .L46
@@ -2320,6 +2326,7 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+0@
 0A
 0x
 0x%08llx
@@ -2376,7 +2383,7 @@ $tI
 19CWirelessDecoderWv2
 1e+9999
 2
-20:54:18
+20:01:44
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
@@ -3355,6 +3362,7 @@ CLighthouseHmdDriver::GetImuPose()
 CLighthouseHmdDriver::GetLighthousePose()
 CLighthouseHmdDriver::GetPose()
 CLighthouseHmdDriver::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+CLighthouseHmdDriver::GetPropertyContainer()
 CLighthouseHmdDriver::GetRadioMode(vortex::ERadioMode*)
 CLighthouseHmdDriver::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
 CLighthouseHmdDriver::GetSensorType()
@@ -3464,6 +3472,7 @@ CLighthouseHmdProvider::DBActivated()
 CLighthouseHmdProvider::DBBaseDeviceAdded(unsigned int)
 CLighthouseHmdProvider::DBBaseDeviceAdded(unsigned int) [clone .cold]
 CLighthouseHmdProvider::DBUniverseSelected(unsigned long long)
+CLighthouseHmdProvider::DBUniverseSelected(unsigned long long) [clone .cold]
 CLighthouseHmdProvider::EnqueueReplayObject(std::string const&, vr::DriverPose_t const&)
 CLighthouseHmdProvider::EnqueueReplayObject(std::string const&, vr::DriverPose_t const&) [clone .cold]
 CLighthouseHmdProvider::EnterStandby()
@@ -3613,16 +3622,16 @@ CPreviewThread::~CPreviewThread()
 CRefCount::Release() const
 CST
 CSWTCH.101
-CSWTCH.123
+CSWTCH.125
 CSWTCH.132
 CSWTCH.138
+CSWTCH.139
 CSWTCH.140
 CSWTCH.157
-CSWTCH.211
 CSWTCH.2112
+CSWTCH.213
 CSWTCH.224
 CSWTCH.927
-CSWTCH.93
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
@@ -4653,6 +4662,7 @@ IVRApplications_007
 IVRAudioDevices::CVRAudioDeviceInfo::~CVRAudioDeviceInfo()
 IVRBlockQueue_005
 IVRCameraComponent_003
+IVRCameraPassThruInternal_001
 IVRChaperoneInternal_001
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -4710,6 +4720,7 @@ InitCameraHAL
 InitCameraHAL.cold
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) [clone .cold]
+InitInternalCameraPassThruInterface(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>)
 InitInternalInterfaces(std::function<void* (char const*)>, bool)
 InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
@@ -5416,7 +5427,7 @@ MainSteamVR
 MakeFileWriteable(char const*)
 ManualURL
 Mar
-Mar 11 2022
+Mar 25 2022
 March
 Mark 1
 Mark 2
@@ -6508,6 +6519,7 @@ ThreadInterlockedIncrement64
 ThreadIsProcessActive
 ThreadIsThreadRunning
 ThreadOpenProcess
+ThreadOverrideCurrentProcessId
 ThreadProcConvert(void*)
 ThreadResumeSignal(int)
 ThreadSetAffinity
@@ -8566,6 +8578,8 @@ fopen64
 for
 for detail.
 forceSoloEdid
+force_pid
+force_pid_val
 forcedExposureTime
 forcedFrameRate
 forcedGlobalGain
@@ -8637,6 +8651,7 @@ g_pVRApplications
 g_pVRApplicationsInternal
 g_pVRAudioDevices
 g_pVRBlockQueue
+g_pVRCameraPassThruInternal
 g_pVRChaperone
 g_pVRChaperoneInternal
 g_pVRChaperoneSetup
@@ -12253,6 +12268,7 @@ qu
 r
 r+
 r+b
+r2max
 rEyeFile:%s width:%d height:%d components:%d
 rM
 rS
@@ -16720,7 +16736,7 @@ void CeresQuaternionRotationTo<ceres::Jet<double, 49> >(ceres::Jet<double, 49> c
 void CeresQuaternionRotationTo<double>(double const*, double const*, double*)
 void CeresVectorNormalize<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
 void DiscreteWhiteNoiseJerkCovariance<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >(Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, double, double)
-void Distortion_Model::distort<double, double>(Distortion_Type, double&, double&, double const*, double const*)
+void Distortion_Model::distort<double, double>(Distortion_Type, double, double&, double&, double const*, double const*)
 void Eigen::internal::call_assignment<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const>, Eigen::internal::assign_op<double, double> >(Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>&, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const> const&, Eigen::internal::assign_op<double, double> const&, Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const>, Eigen::internal::evaluator_traits<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const> >::Shape>::value, void*>::type) [clone .isra.0] [clone .constprop.0]
 void Eigen::internal::call_assignment<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const>, Eigen::internal::assign_op<double, double> >(Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>&, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const> const&, Eigen::internal::assign_op<double, double> const&, Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const>, Eigen::internal::evaluator_traits<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const, Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> >, 0>, Eigen::Transpose<Eigen::Matrix<double, -1, -1, 1, -1, -1> >, 0> const> >::Shape>::value, void*>::type) [clone .isra.0] [clone .constprop.0] [clone .cold]
 void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<double, -1, -1, 0, -1, -1>, Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, -1, -1, 0, -1, -1> >, Eigen::internal::assign_op<double, double> >(Eigen::Matrix<double, -1, -1, 0, -1, -1>&, Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, -1, -1, 0, -1, -1> > const&, Eigen::internal::assign_op<double, double> const&)
@@ -17271,6 +17287,7 @@ vortex::CLighthouseBaseStationDriver::DBUniverseSelected(unsigned long long) [cl
 vortex::CLighthouseBaseStationDriver::Deactivate()
 vortex::CLighthouseBaseStationDriver::GetDeviceClass()
 vortex::CLighthouseBaseStationDriver::GetPose()
+vortex::CLighthouseBaseStationDriver::GetPropertyContainer()
 vortex::CLighthouseBaseStationDriver::GetSerialNumber()
 vortex::CLighthouseBaseStationDriver::Init(unsigned int)
 vortex::CLighthouseBaseStationDriver::IsActivated() const
@@ -18357,6 +18374,7 @@ vortex::ILighthouseTrackedDeviceServerDriver::BTryToFixFailedActivation()
 vortex::ILighthouseTrackedDeviceServerDriver::DebugRequest(char const*, char*, unsigned int)
 vortex::ILighthouseTrackedDeviceServerDriver::EnterStandby()
 vortex::ILighthouseTrackedDeviceServerDriver::GetComponent(char const*)
+vortex::ILighthouseTrackedDeviceServerDriver::GetPropertyContainer()
 vortex::ILighthouseTrackedDeviceServerDriver::LeaveStandby()
 vortex::ILighthouseTrackedDeviceServerDriver::RunFrame()
 vortex::ILighthouseTrackedDeviceServerDriver::ShouldBlockStandby()
@@ -18444,6 +18462,7 @@ vr_internal::Localize(std::string const&, std::string const&, std::string const&
 vr_internal::VRApplications()
 vr_internal::VRApplicationsInternal()
 vr_internal::VRBlockQueue()
+vr_internal::VRCameraPassThruInternal()
 vr_internal::VRChaperone()
 vr_internal::VRChaperoneInternal()
 vr_internal::VRChaperoneSetup()

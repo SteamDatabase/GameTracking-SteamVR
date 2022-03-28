@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Pausa"
 "FrameTiming_Raw" "Detaljer"
 "FrameTiming_ShowInHeadset" "Visa i headset"
+"FrameTiming_Remote" "Extern"
 
 "FrameTiming_5sStats" "Tappade under senaste %1s:\n %2 en bildruta\n %3 2 bildrutor\n %4 3 bildrutor\n %5 4 eller fler\n Totalt %6\n"
 "FrameTiming_Config" "Varna om fler än %3s vi ser\n %1 enstaka bildrutor missade\n eller %2 grupperade tappade bildrutor"

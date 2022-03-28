@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "일시 정지"
 "FrameTiming_Raw" "세부 정보"
 "FrameTiming_ShowInHeadset" "헤드셋에 보이기"
+"FrameTiming_Remote" "원격"
 
 "FrameTiming_5sStats" "%1s 의 최신 결과:\n 1 프레임 %2\n 2 프레임 %3\n 3 프레임 %4\n 4 프레임 이후 %5\n 총합 %6\n"
 "FrameTiming_Config" "%3s 이상이면 경고\n  %1 누락된 단일 프레임\n 또는 %2 드롭된 다중 프레임"

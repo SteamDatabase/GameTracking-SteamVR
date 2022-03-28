@@ -116,6 +116,7 @@
 "FrameTiming_Pause" "Pauza"
 "FrameTiming_Raw" "Podrobnosti"
 "FrameTiming_ShowInHeadset" "Zobrazit v headsetu"
+"FrameTiming_Remote" "Vzdálené"
 
 "FrameTiming_5sStats" "Výpadků v posledních %1s:\n %2× jeden snímek\n %3× dva snímky\n %4× tři snímky\n %5× čtyři nebo více snímků\nCelkem %6\n"
 "FrameTiming_Config" "Upozornit, pokud budou v %3s zaznamenány výpadky\n %1 jednotlivých snímků\n nebo %2 snímků za sebou"
