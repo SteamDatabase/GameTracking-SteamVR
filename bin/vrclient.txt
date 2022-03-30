@@ -4178,6 +4178,8 @@
  putc
  putwc
  qsort
+ r C.1104.336564
+ r C.1105.336575
  r C.427.288574
  r CSWTCH.101
  r CSWTCH.213
@@ -5978,29 +5980,29 @@
  t .L14219
  t .L14220
  t .L14221
+ t .L1426
+ t .L1427
  t .L14271
  t .L14272
  t .L14274
  t .L14275
  t .L14276
  t .L14277
+ t .L1429
  t .L143
+ t .L1430
+ t .L1431
+ t .L1432
  t .L14375
  t .L14376
  t .L14378
  t .L14379
  t .L14380
  t .L14381
- t .L1439
  t .L144
- t .L1440
- t .L1442
- t .L1443
  t .L14433
  t .L14434
  t .L14439
- t .L1444
- t .L1445
  t .L1449
  t .L145
  t .L1451
@@ -7488,14 +7490,7 @@
  t .L909
  t .L91
  t .L910
- t .L9103
- t .L9104
- t .L9106
- t .L9107
- t .L9108
- t .L9109
  t .L911
- t .L9110
  t .L9111
  t .L912
  t .L913
@@ -7530,6 +7525,14 @@
  t .L95
  t .L96
  t .L97
+ t .L9734
+ t .L9735
+ t .L9737
+ t .L9738
+ t .L9739
+ t .L9740
+ t .L9741
+ t .L9742
  t .L977
  t .L978
  t .L98
@@ -8396,8 +8399,8 @@
  t CInputActionManifest::GetActionSetsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >) [clone .cold]
  t CInputActionManifest::GetActionsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >)
  t CInputActionManifest::GetActionsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >) [clone .cold]
- t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&)
- t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&) [clone .cold]
+ t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&, std::string const&)
+ t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&, std::string const&) [clone .cold]
  t CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool)
  t CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool) [clone .cold]
  t CInputActionManifest::GetLocalizationMapFromJSON(Json::Value const&, std::string const&, std::string const&, std::string*, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&)
@@ -8568,8 +8571,6 @@
  t CLegacyInput::Action(std::string const&, std::string const&, std::string const&)
  t CLegacyInput::Action(std::string const&, std::string const&, std::string const&) [clone .cold]
  t CLegacyInput::BestControllerTypeOverride()
- t CLegacyInput::ClearLegacyProperties()
- t CLegacyInput::ClearLegacyProperties() [clone .cold]
  t CLegacyInput::ControlActions(CLegacyInput::ActionHand_t&, std::string const&, std::string const&, std::string const&, vr::EVRButtonId)
  t CLegacyInput::ControlActions(CLegacyInput::ActionHand_t&, std::string const&, std::string const&, std::string const&, vr::EVRButtonId) [clone .cold]
  t CLegacyInput::ControllerStateToJson(CLegacyInput::ControllerInfo_t const&)
@@ -8591,8 +8592,6 @@
  t CLegacyInput::SendStateToDebugger()
  t CLegacyInput::SendStateToDebugger() [clone .cold]
  t CLegacyInput::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
- t CLegacyInput::UpdatePropertiesForControllerType(unsigned long long, std::string const&)
- t CLegacyInput::UpdatePropertiesForControllerType(unsigned long long, std::string const&) [clone .part.0]
  t CLegacyInput::UpdateStateForBoolean(CLegacyInput::ControllerInfo_t&, vr::EVRButtonId, bool, unsigned long long, bool, unsigned long long*)
  t CLegacyInput::UpdateStateForButton(CLegacyInput::ControllerInfo_t&, CLegacyInput::ActionHand_t const&, vr::EVRButtonId)
  t CLegacyInput::UpdateStateForController(vr::ETrackedControllerRole)
@@ -11028,6 +11027,7 @@
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole) [clone .cold]
  t CVRControllerTypeBindings::SendBindingUpdatedEvents()
+ t CVRControllerTypeBindings::UpdateSimulatedDevices()
  t CVRDashboardManager_001::CloseKeyboard()
  t CVRDashboardManager_001::CreateDashboardCoreOverlay(char const*, char const*, unsigned long long*)
  t CVRDashboardManager_001::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -11210,6 +11210,7 @@
  t CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const [clone .cold]
  t CVRInputLatest::DoesActionHaveOrigin(unsigned long long, unsigned long long, bool&)
  t CVRInputLatest::DoesActionHaveOrigin(unsigned long long, unsigned long long, bool&) [clone .cold]
+ t CVRInputLatest::EraseOverridePropertiesForControllerType(unsigned long long)
  t CVRInputLatest::GetActionBindingInfo(unsigned long long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*)
  t CVRInputLatest::GetActionBindingInfo(unsigned long long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*) [clone .cold]
  t CVRInputLatest::GetActionHandle(char const*, unsigned long long*)
@@ -11292,6 +11293,8 @@
  t CVRInputLatest::OpenBindingUI(char const*, unsigned long long, unsigned long long, bool) [clone .cold]
  t CVRInputLatest::OverrideCurlValue(unsigned long long, unsigned long long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*)
  t CVRInputLatest::OverrideCurlValue(unsigned long long, unsigned long long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*) [clone .cold]
+ t CVRInputLatest::OverridePropertiesForControllerType(unsigned long long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
+ t CVRInputLatest::OverridePropertiesForControllerType(unsigned long long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&) [clone .cold]
  t CVRInputLatest::OverrideSplayValue(unsigned long long, unsigned long long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*)
  t CVRInputLatest::OverrideSplayValue(unsigned long long, unsigned long long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*) [clone .cold]
  t CVRInputLatest::ReloadConfigIfNecessary()
@@ -26258,8 +26261,11 @@
  t std::_Rb_tree<std::string, std::pair<std::string const, CVRMsg_ApplicationInfo>, std::_Select1st<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CVRMsg_ApplicationInfo> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, CVRMsg_ApplicationInfo> >*)
  t std::_Rb_tree<std::string, std::pair<std::string const, CVRMsg_ApplicationInfo>, std::_Select1st<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CVRMsg_ApplicationInfo> > >::_M_get_insert_unique_pos(std::string const&)
  t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, Json::Value> >*)
+ t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value> >, std::string const&)
  t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_get_insert_unique_pos(std::string const&)
+ t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<std::string const, Json::Value> >*)
  t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::find(std::string const&)
+ t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::find(std::string const&) const
  t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::operator=(std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
  t std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, double> >*)
  t std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > >::operator=(std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > > const&)
@@ -26390,6 +26396,7 @@
  t std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>, std::_Select1st<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&) [clone .isra.0] [clone .cold]
  t std::_Rb_tree_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo> > std::_Rb_tree<std::string, std::pair<std::string const, CVRMsg_ApplicationInfo>, std::_Select1st<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CVRMsg_ApplicationInfo> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::string const, Json::Value> > std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
+ t std::_Rb_tree_iterator<std::pair<std::string const, Json::Value> > std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::string const, int> > std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, int> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > > std::_Rb_tree<std::string, std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >, std::_Select1st<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > >, std::less<void>, std::allocator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::string const, std::pair<void const*, int> > > std::_Rb_tree<std::string, std::pair<std::string const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::string const, std::pair<void const*, int> > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::pair<void const*, int> > > >::_M_insert_<std::pair<std::string const, std::pair<void const*, int> > >(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::string const, std::pair<void const*, int> >&&)

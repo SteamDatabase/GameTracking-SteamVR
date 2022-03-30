@@ -4400,6 +4400,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
+ r C.1096.336418
+ r C.1097.336429
  r C.413.288424
  r CSWTCH.100
  r CSWTCH.16
@@ -6791,8 +6793,8 @@
  t CInputActionManifest::GetActionSetsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >) [clone .cold]
  t CInputActionManifest::GetActionsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >)
  t CInputActionManifest::GetActionsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >) [clone .cold]
- t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&)
- t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&) [clone .cold]
+ t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&, std::string const&)
+ t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&, std::string const&) [clone .cold]
  t CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool)
  t CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool) [clone .cold]
  t CInputActionManifest::GetLocalizationMapFromJSON(Json::Value const&, std::string const&, std::string const&, std::string*, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&)
@@ -6963,8 +6965,6 @@
  t CLegacyInput::Action(std::string const&, std::string const&, std::string const&)
  t CLegacyInput::Action(std::string const&, std::string const&, std::string const&) [clone .cold]
  t CLegacyInput::BestControllerTypeOverride()
- t CLegacyInput::ClearLegacyProperties()
- t CLegacyInput::ClearLegacyProperties() [clone .cold]
  t CLegacyInput::ControlActions(CLegacyInput::ActionHand_t&, std::string const&, std::string const&, std::string const&, vr::EVRButtonId)
  t CLegacyInput::ControlActions(CLegacyInput::ActionHand_t&, std::string const&, std::string const&, std::string const&, vr::EVRButtonId) [clone .cold]
  t CLegacyInput::ControllerStateToJson(CLegacyInput::ControllerInfo_t const&)
@@ -6986,8 +6986,6 @@
  t CLegacyInput::SendStateToDebugger()
  t CLegacyInput::SendStateToDebugger() [clone .cold]
  t CLegacyInput::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
- t CLegacyInput::UpdatePropertiesForControllerType(unsigned long, std::string const&)
- t CLegacyInput::UpdatePropertiesForControllerType(unsigned long, std::string const&) [clone .part.0]
  t CLegacyInput::UpdateStateForBoolean(CLegacyInput::ControllerInfo_t&, vr::EVRButtonId, bool, unsigned long, bool, unsigned long*)
  t CLegacyInput::UpdateStateForButton(CLegacyInput::ControllerInfo_t&, CLegacyInput::ActionHand_t const&, vr::EVRButtonId)
  t CLegacyInput::UpdateStateForController(vr::ETrackedControllerRole)
@@ -7908,9 +7906,11 @@
  t CSxrSession::EndFrame(XrFrameEndInfo const*) [clone .cold]
  t CSxrSession::EndSession()
  t CSxrSession::EndSession() [clone .cold]
+ t CSxrSession::EnumerateDisplayRefreshRatesFB(unsigned int, unsigned int*, float*)
  t CSxrSession::GetConformanceMailbox()
  t CSxrSession::GetConformanceMailbox() [clone .cold]
  t CSxrSession::GetCurrentInteractionProfile(unsigned long, unsigned long*) const
+ t CSxrSession::GetDisplayRefreshRateFB(float*)
  t CSxrSession::GetFrameCompositionReport(unsigned int, XrFrameCompositionReportEXT*)
  t CSxrSession::GetFrameCompositionReport(unsigned int, XrFrameCompositionReportEXT*) [clone .cold]
  t CSxrSession::GetFrameData(unsigned long)
@@ -7923,6 +7923,7 @@
  t CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView> >&, XrViewLocateInfo const*, XrViewState*)
  t CSxrSession::RefreshSessionStateForFocus()
  t CSxrSession::RefreshSessionStateForFocus() [clone .cold]
+ t CSxrSession::RequestDisplayRefreshRateFB(float)
  t CSxrSession::RequestExitSession()
  t CSxrSession::RequestExitSession() [clone .cold]
  t CSxrSession::RuntimeRequestedExit()
@@ -9755,6 +9756,7 @@
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole) [clone .cold]
  t CVRControllerTypeBindings::SendBindingUpdatedEvents()
+ t CVRControllerTypeBindings::UpdateSimulatedDevices()
  t CVRDashboardManager_001::CloseKeyboard()
  t CVRDashboardManager_001::CreateDashboardCoreOverlay(char const*, char const*, unsigned long*)
  t CVRDashboardManager_001::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -9941,6 +9943,7 @@
  t CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const [clone .cold]
  t CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&)
  t CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&) [clone .cold]
+ t CVRInputLatest::EraseOverridePropertiesForControllerType(unsigned long)
  t CVRInputLatest::GetActionBindingInfo(unsigned long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*)
  t CVRInputLatest::GetActionBindingInfo(unsigned long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*) [clone .cold]
  t CVRInputLatest::GetActionHandle(char const*, unsigned long*)
@@ -10023,6 +10026,8 @@
  t CVRInputLatest::OpenBindingUI(char const*, unsigned long, unsigned long, bool) [clone .cold]
  t CVRInputLatest::OverrideCurlValue(unsigned long, unsigned long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*)
  t CVRInputLatest::OverrideCurlValue(unsigned long, unsigned long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*) [clone .cold]
+ t CVRInputLatest::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
+ t CVRInputLatest::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&) [clone .cold]
  t CVRInputLatest::OverrideSplayValue(unsigned long, unsigned long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*)
  t CVRInputLatest::OverrideSplayValue(unsigned long, unsigned long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*) [clone .cold]
  t CVRInputLatest::ReloadConfigIfNecessary()
@@ -25546,7 +25551,9 @@
  t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, Json::Value> >*)
  t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value> >, std::string const&)
  t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_get_insert_unique_pos(std::string const&)
+ t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<std::string const, Json::Value> >*)
  t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::find(std::string const&)
+ t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::find(std::string const&) const
  t std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::operator=(std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
  t std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, double> >*)
  t std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > >::operator=(std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > > const&)
@@ -25713,6 +25720,7 @@
  t std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>, std::_Select1st<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&) [clone .isra.0] [clone .cold]
  t std::_Rb_tree_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo> > std::_Rb_tree<std::string, std::pair<std::string const, CVRMsg_ApplicationInfo>, std::_Select1st<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CVRMsg_ApplicationInfo> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::string const, Json::Value> > std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
+ t std::_Rb_tree_iterator<std::pair<std::string const, Json::Value> > std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::string const, int> > std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, int> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > > std::_Rb_tree<std::string, std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >, std::_Select1st<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >, std::less<void>, std::allocator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::string const, std::pair<void const*, int> > > std::_Rb_tree<std::string, std::pair<std::string const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::string const, std::pair<void const*, int> > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::pair<void const*, int> > > >::_M_insert_<std::pair<std::string const, std::pair<void const*, int> > >(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::string const, std::pair<void const*, int> >&&)
@@ -25972,6 +25980,7 @@
  t std::__numpunct_cache<wchar_t>::~__numpunct_cache()
  t std::__pad<char, std::char_traits<char> >::_S_pad(std::ios_base&, char, char*, char const*, long, long)
  t std::__pad<wchar_t, std::char_traits<wchar_t> >::_S_pad(std::ios_base&, wchar_t, wchar_t*, wchar_t const*, long, long)
+ t std::__shared_count<(__gnu_cxx::_Lock_policy)2>::operator=(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [clone .isra.0]
  t std::__throw_bad_alloc()
  t std::__throw_bad_cast()
  t std::__throw_bad_exception()
@@ -28013,6 +28022,8 @@
  t sxr_wrap_xrEndSession(XrSession_T*) [clone .cold]
  t sxr_wrap_xrEnumerateBoundSourcesForAction(XrSession_T*, XrBoundSourcesForActionEnumerateInfo const*, unsigned int, unsigned int*, unsigned long*)
  t sxr_wrap_xrEnumerateBoundSourcesForAction(XrSession_T*, XrBoundSourcesForActionEnumerateInfo const*, unsigned int, unsigned int*, unsigned long*) [clone .cold]
+ t sxr_wrap_xrEnumerateDisplayRefreshRatesFB(XrSession_T*, unsigned int, unsigned int*, float*)
+ t sxr_wrap_xrEnumerateDisplayRefreshRatesFB(XrSession_T*, unsigned int, unsigned int*, float*) [clone .cold]
  t sxr_wrap_xrEnumerateEnvironmentBlendModes(XrInstance_T*, unsigned long, XrViewConfigurationType, unsigned int, unsigned int*, XrEnvironmentBlendMode*)
  t sxr_wrap_xrEnumerateEnvironmentBlendModes(XrInstance_T*, unsigned long, XrViewConfigurationType, unsigned int, unsigned int*, XrEnvironmentBlendMode*) [clone .cold]
  t sxr_wrap_xrEnumerateInstanceExtensionProperties(char const*, unsigned int, unsigned int*, XrExtensionProperties*)
@@ -28039,6 +28050,8 @@
  t sxr_wrap_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*) [clone .cold]
  t sxr_wrap_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)
  t sxr_wrap_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*) [clone .cold]
+ t sxr_wrap_xrGetDisplayRefreshRateFB(XrSession_T*, float*)
+ t sxr_wrap_xrGetDisplayRefreshRateFB(XrSession_T*, float*) [clone .cold]
  t sxr_wrap_xrGetFrameCompositionReportEXT(XrSession_T*, unsigned int, XrFrameCompositionReportEXT*)
  t sxr_wrap_xrGetFrameCompositionReportEXT(XrSession_T*, unsigned int, XrFrameCompositionReportEXT*) [clone .cold]
  t sxr_wrap_xrGetInputSourceLocalizedName(XrSession_T*, XrInputSourceLocalizedNameGetInfo const*, unsigned int, unsigned int*, char*)
@@ -28083,6 +28096,8 @@
  t sxr_wrap_xrPollEvent(XrInstance_T*, XrEventDataBuffer*) [clone .cold]
  t sxr_wrap_xrReleaseSwapchainImage(XrSwapchain_T*, XrSwapchainImageReleaseInfo const*)
  t sxr_wrap_xrReleaseSwapchainImage(XrSwapchain_T*, XrSwapchainImageReleaseInfo const*) [clone .cold]
+ t sxr_wrap_xrRequestDisplayRefreshRateFB(XrSession_T*, float)
+ t sxr_wrap_xrRequestDisplayRefreshRateFB(XrSession_T*, float) [clone .cold]
  t sxr_wrap_xrRequestExitSession(XrSession_T*)
  t sxr_wrap_xrRequestExitSession(XrSession_T*) [clone .cold]
  t sxr_wrap_xrResultToString(XrInstance_T*, XrResult, char*)
@@ -28145,6 +28160,7 @@
  t sxr_xrEndFrame(XrSession_T*, XrFrameEndInfo const*)
  t sxr_xrEndSession(XrSession_T*)
  t sxr_xrEnumerateBoundSourcesForAction(XrSession_T*, XrBoundSourcesForActionEnumerateInfo const*, unsigned int, unsigned int*, unsigned long*)
+ t sxr_xrEnumerateDisplayRefreshRatesFB(XrSession_T*, unsigned int, unsigned int*, float*)
  t sxr_xrEnumerateEnvironmentBlendModes(XrInstance_T*, unsigned long, XrViewConfigurationType, unsigned int, unsigned int*, XrEnvironmentBlendMode*)
  t sxr_xrEnumerateInstanceExtensionProperties(char const*, unsigned int, unsigned int*, XrExtensionProperties*)
  t sxr_xrEnumerateReferenceSpaces(XrSession_T*, unsigned int, unsigned int*, XrReferenceSpaceType*)
@@ -28163,6 +28179,7 @@
  t sxr_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*) [clone .cold]
  t sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)
  t sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*) [clone .cold]
+ t sxr_xrGetDisplayRefreshRateFB(XrSession_T*, float*)
  t sxr_xrGetFrameCompositionReportEXT(XrSession_T*, unsigned int, XrFrameCompositionReportEXT*)
  t sxr_xrGetInputSourceLocalizedName(XrSession_T*, XrInputSourceLocalizedNameGetInfo const*, unsigned int, unsigned int*, char*)
  t sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
@@ -28189,6 +28206,7 @@
  t sxr_xrPollEvent(XrInstance_T*, XrEventDataBuffer*)
  t sxr_xrPollEvent(XrInstance_T*, XrEventDataBuffer*) [clone .cold]
  t sxr_xrReleaseSwapchainImage(XrSwapchain_T*, XrSwapchainImageReleaseInfo const*)
+ t sxr_xrRequestDisplayRefreshRateFB(XrSession_T*, float)
  t sxr_xrRequestExitSession(XrSession_T*)
  t sxr_xrResultToString(XrInstance_T*, XrResult, char*)
  t sxr_xrSetInputDeviceActiveEXT(XrSession_T*, unsigned long, unsigned long, unsigned int)

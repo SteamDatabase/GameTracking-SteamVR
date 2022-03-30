@@ -141,6 +141,21 @@
     "/output/haptic" : {
       "type" : "vibration",
       "binding_image_point" : [ 5, 35 ]
-    } 
+    }
+  },
+  "simulation_settings":
+  {
+    "left_controller_modelnumber": "Knuckles Left",
+    "right_controller_modelnumber": "Knuckles Right",
+    "left_controller_serialnumber": "LHR-FFFFFFF0",
+    "right_controller_serialnumber": "LHR-FFFFFFF1",
+    "left_controller_rendermodel": "{indexcontroller}valve_controller_knu_1_0_left",
+    "right_controller_rendermodel": "{indexcontroller}valve_controller_knu_1_0_right",
+	"left_registered_device_type": "valve/index_controllerLHR-FFFFFFF0",
+	"right_registered_device_type": "valve/index_controllerLHR-FFFFFFF1",
+    "tracking_system_name": "lighthouse",
+    "manufacturer_name": "Valve",
+	"legacy_buttons": [0, 1, 2, 7, 32, 33, 34],
+	"legacy_axis": [2, 3, 3, 0, 0]
   }
  }

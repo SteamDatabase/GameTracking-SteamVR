@@ -1570,6 +1570,7 @@ $tI
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:48:23
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -1612,7 +1613,6 @@ $tI
 19InMemoryInputStream
 1e+9999
 2
-20:01:48
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -2422,6 +2422,8 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
+C.1096.336418
+C.1097.336429
 C.413.288424
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -3325,8 +3327,8 @@ CInputActionManifest::GetActionSetsFromJSON(Json::Value const&, std::string*, st
 CInputActionManifest::GetActionSetsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >) [clone .cold]
 CInputActionManifest::GetActionsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >)
 CInputActionManifest::GetActionsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >) [clone .cold]
-CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&)
-CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&) [clone .cold]
+CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&, std::string const&)
+CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&, std::string const&) [clone .cold]
 CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool)
 CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool) [clone .cold]
 CInputActionManifest::GetLocalizationMapFromJSON(Json::Value const&, std::string const&, std::string const&, std::string*, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&)
@@ -3501,8 +3503,6 @@ CLcx
 CLegacyInput::Action(std::string const&, std::string const&, std::string const&)
 CLegacyInput::Action(std::string const&, std::string const&, std::string const&) [clone .cold]
 CLegacyInput::BestControllerTypeOverride()
-CLegacyInput::ClearLegacyProperties()
-CLegacyInput::ClearLegacyProperties() [clone .cold]
 CLegacyInput::ControlActions(CLegacyInput::ActionHand_t&, std::string const&, std::string const&, std::string const&, vr::EVRButtonId)
 CLegacyInput::ControlActions(CLegacyInput::ActionHand_t&, std::string const&, std::string const&, std::string const&, vr::EVRButtonId) [clone .cold]
 CLegacyInput::ControllerStateToJson(CLegacyInput::ControllerInfo_t const&)
@@ -3525,8 +3525,6 @@ CLegacyInput::RunInputFrame(bool)::k_pathLegacyDebuggerPid
 CLegacyInput::SendStateToDebugger()
 CLegacyInput::SendStateToDebugger() [clone .cold]
 CLegacyInput::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
-CLegacyInput::UpdatePropertiesForControllerType(unsigned long, std::string const&)
-CLegacyInput::UpdatePropertiesForControllerType(unsigned long, std::string const&) [clone .part.0]
 CLegacyInput::UpdateStateForBoolean(CLegacyInput::ControllerInfo_t&, vr::EVRButtonId, bool, unsigned long, bool, unsigned long*)
 CLegacyInput::UpdateStateForButton(CLegacyInput::ControllerInfo_t&, CLegacyInput::ActionHand_t const&, vr::EVRButtonId)
 CLegacyInput::UpdateStateForController(vr::ETrackedControllerRole)
@@ -4562,9 +4560,11 @@ CSxrSession::EndFrame(XrFrameEndInfo const*)
 CSxrSession::EndFrame(XrFrameEndInfo const*) [clone .cold]
 CSxrSession::EndSession()
 CSxrSession::EndSession() [clone .cold]
+CSxrSession::EnumerateDisplayRefreshRatesFB(unsigned int, unsigned int*, float*)
 CSxrSession::GetConformanceMailbox()
 CSxrSession::GetConformanceMailbox() [clone .cold]
 CSxrSession::GetCurrentInteractionProfile(unsigned long, unsigned long*) const
+CSxrSession::GetDisplayRefreshRateFB(float*)
 CSxrSession::GetFrameCompositionReport(unsigned int, XrFrameCompositionReportEXT*)
 CSxrSession::GetFrameCompositionReport(unsigned int, XrFrameCompositionReportEXT*) [clone .cold]
 CSxrSession::GetFrameData(unsigned long)
@@ -4577,6 +4577,7 @@ CSxrSession::Init()
 CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView> >&, XrViewLocateInfo const*, XrViewState*)
 CSxrSession::RefreshSessionStateForFocus()
 CSxrSession::RefreshSessionStateForFocus() [clone .cold]
+CSxrSession::RequestDisplayRefreshRateFB(float)
 CSxrSession::RequestExitSession()
 CSxrSession::RequestExitSession() [clone .cold]
 CSxrSession::RuntimeRequestedExit()
@@ -6436,6 +6437,7 @@ CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManife
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole) [clone .cold]
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
 CVRControllerTypeBindings::SendBindingUpdatedEvents()
+CVRControllerTypeBindings::UpdateSimulatedDevices()
 CVRDashboardManager_001::CloseKeyboard()
 CVRDashboardManager_001::CreateDashboardCoreOverlay(char const*, char const*, unsigned long*)
 CVRDashboardManager_001::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -6627,6 +6629,7 @@ CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const
 CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const [clone .cold]
 CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&)
 CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&) [clone .cold]
+CVRInputLatest::EraseOverridePropertiesForControllerType(unsigned long)
 CVRInputLatest::GetActionBindingInfo(unsigned long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*)
 CVRInputLatest::GetActionBindingInfo(unsigned long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*) [clone .cold]
 CVRInputLatest::GetActionHandle(char const*, unsigned long*)
@@ -6720,6 +6723,8 @@ CVRInputLatest::OpenBindingUI(char const*, unsigned long, unsigned long, bool)
 CVRInputLatest::OpenBindingUI(char const*, unsigned long, unsigned long, bool) [clone .cold]
 CVRInputLatest::OverrideCurlValue(unsigned long, unsigned long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*)
 CVRInputLatest::OverrideCurlValue(unsigned long, unsigned long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*) [clone .cold]
+CVRInputLatest::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
+CVRInputLatest::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&) [clone .cold]
 CVRInputLatest::OverrideSplayValue(unsigned long, unsigned long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*)
 CVRInputLatest::OverrideSplayValue(unsigned long, unsigned long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*) [clone .cold]
 CVRInputLatest::ReloadConfigIfNecessary()
@@ -17515,6 +17520,13 @@ Error %d growing shared object manager file.
 Error %d locking shared memory file
 Error calling m_pDownsampleRenderer->Draw()!
 Error from reader: %s
+Error in input profile simulation settings for %s. Internal error: Failed to assign controller_type.
+Error in input profile simulation settings for %s. Internal error: Failed to assign simulate_rendermodel.
+Error in input profile simulation settings for %s. Missing property: %s
+Error in input profile simulation settings for %s. Missing property: manufacturer_name
+Error in input profile simulation settings for %s. Missing property: tracking_system_name
+Error in input profile simulation settings for %s. legacy_axis needs 5 values.
+Error in input profile simulation settings for %s. legacy_buttons needs to be specified.
 Error initializing CDownsampleRenderer
 Error initializing CVulkanVRRenderer
 Error on Release(): Not the lock owner(%d) != %d
@@ -17726,6 +17738,7 @@ Failed to load extension: GetSemaphoreFdKHR
 Failed to load extension: ImportSemaphoreFdKHR
 Failed to load external 'uri' for image[
 Failed to load input profile for controller type: %s
+Failed to load input profile for simulated controller type: %s
 Failed to load libdrm
 Failed to load libdrm entrypoints
 Failed to load libdrm_amdgpu
@@ -21308,6 +21321,7 @@ InitializeInterfaceFnTables()
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.
 Initializing CVulkanVRRenderer
 Initializing the limited version of CVRCompositorClient
+Input profile has a simulation_settings item but is not an object
 InputActionRequirementToEnum(std::string const&)
 InputActionRequirementToStdString(EInputActionRequirement)
 InputActionScopeToStdString(EInputActionScope)
@@ -22015,6 +22029,7 @@ LoadObjFromUtf8Path(std::vector<tinyobj::shape_t, std::allocator<tinyobj::shape_
 LoadObjFromUtf8Path(std::vector<tinyobj::shape_t, std::allocator<tinyobj::shape_t> >&, std::vector<tinyobj::material_t, std::allocator<tinyobj::material_t> >&, char const*, char const*) [clone .cold]
 LoadRenderModelInternal
 LoadRenderModel_Async
+Loaded input profile for simulated controller type: %s
 Loaded resource-only driver %s from %s
 Loaded server driver %s (%s) from %s
 Loading compute shader %s
@@ -22051,7 +22066,7 @@ MailboxInterfaceRegistration<CVRMailbox_001>::~MailboxInterfaceRegistration()
 MakeFileWriteable(char const*)
 Map
 Mar
-Mar 25 2022
+Mar 30 2022
 March
 MarkInUse
 MaterialUtf8FileReader::operator()(std::string const&, std::vector<tinyobj::material_t, std::allocator<tinyobj::material_t> >&, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >&)
@@ -23127,6 +23142,7 @@ SetSyncTexture
 SetUInt32
 SetUInt64
 SetUsageType
+Setting device %u with override properties for %s
 Setting max texture dimensions to %dx%d before requiring downsampling
 Settings manager init failed (118)
 SettingsIdToEvent(ESettingsSectionId)
@@ -25228,7 +25244,6 @@ VersionIsLess(std::string const&, std::string const&) [clone .cold]
 VirtualDisplay_AllQueued
 VirtualDisplay_NewFrame
 VirtualDisplay_Presented
-Vive Controller MV
 VkExtensionProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkExtensionProperties*, unsigned long>(VkExtensionProperties*, unsigned long)
 VkLayerProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkLayerProperties*, unsigned long>(VkLayerProperties*, unsigned long)
 VkSemaphore_T*& std::vector<VkSemaphore_T*, std::allocator<VkSemaphore_T*> >::emplace_back<VkSemaphore_T*>(VkSemaphore_T*&&)
@@ -25392,6 +25407,7 @@ XR_EXT_frame_composition_report
 XR_EXT_hand_joints_motion_range
 XR_EXT_hand_tracking
 XR_EXT_hp_mixed_reality_controller
+XR_FB_display_refresh_rate
 XR_FRAME_DISCARDED
 XR_HTCX_vive_tracker_interaction
 XR_HTC_vive_cosmos_controller_interaction
@@ -26212,6 +26228,9 @@ __wcsxfrm_l
 __wctype_l
 __xstat
 __xstat64
+_controller_modelnumber
+_controller_rendermodel
+_controller_serialnumber
 _edata
 _end
 _exit
@@ -26223,6 +26242,7 @@ _handle
 _header
 _init
 _legacy
+_registered_device_type
 _response
 _steamvrinput
 _stickyclick
@@ -30080,7 +30100,9 @@ left
 leftThumbstickRotation
 leftright
 legacy
+legacy_axis
 legacy_binding_manifest
+legacy_buttons
 legacy_debugger
 legacy_input_frame
 legacy_mirrored
@@ -30119,7 +30141,6 @@ localized_action_name
 localtime
 log
 log_file_name
-logitech_stylus
 loglevel
 logs
 long
@@ -30182,9 +30203,11 @@ m_waitTimelines.size() == m_waitStages.size()
 magFilter
 malloc
 mandatory
+manufacturer_name
 map key must name a scalar or string field.
 map type is only allowed for fields with a message type.
 map type is only allowed for repeated fields.
+map::at
 map_Ka
 map_Kd
 map_Ks
@@ -31470,11 +31493,13 @@ side
 sigaction
 signed char
 simple
+simulate_rendermodel
 simulated action does not have a type
 simulated action had unknown type '
 simulated action is not an object
 simulated_actions
 simulated_controller_type
+simulation_settings
 sincos
 sincosf
 sinf
@@ -32020,7 +32045,9 @@ std::_Rb_tree<std::string, std::pair<std::string const, CVRMsg_ApplicationInfo>,
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, Json::Value> >*)
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value> >, std::string const&)
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_get_insert_unique_pos(std::string const&)
+std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<std::string const, Json::Value> >*)
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::find(std::string const&)
+std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::find(std::string const&) const
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::operator=(std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
 std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, double> >*)
 std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > >::operator=(std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double> >, std::less<std::string>, std::allocator<std::pair<std::string const, double> > > const&)
@@ -32192,6 +32219,7 @@ std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingConfigGenerato
 std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>, std::_Select1st<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&) [clone .isra.0] [clone .cold]
 std::_Rb_tree_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo> > std::_Rb_tree<std::string, std::pair<std::string const, CVRMsg_ApplicationInfo>, std::_Select1st<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::less<std::string>, std::allocator<std::pair<std::string const, CVRMsg_ApplicationInfo> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, Json::Value> > std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<std::string const, Json::Value> > std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value> >, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, google::protobuf::FileDescriptorProto const*> > std::_Rb_tree<std::string, std::pair<std::string const, google::protobuf::FileDescriptorProto const*>, std::_Select1st<std::pair<std::string const, google::protobuf::FileDescriptorProto const*> >, std::less<std::string>, std::allocator<std::pair<std::string const, google::protobuf::FileDescriptorProto const*> > >::_M_insert_<std::pair<std::string const, google::protobuf::FileDescriptorProto const*> >(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::string const, google::protobuf::FileDescriptorProto const*>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, google::protobuf::FileDescriptorProto const*> > std::_Rb_tree<std::string, std::pair<std::string const, google::protobuf::FileDescriptorProto const*>, std::_Select1st<std::pair<std::string const, google::protobuf::FileDescriptorProto const*> >, std::less<std::string>, std::allocator<std::pair<std::string const, google::protobuf::FileDescriptorProto const*> > >::_M_insert_<std::pair<std::string const, google::protobuf::FileDescriptorProto const*> const&>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::string const, google::protobuf::FileDescriptorProto const*> const&)
 std::_Rb_tree_iterator<std::pair<std::string const, int> > std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::string const, int> >, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
@@ -32463,6 +32491,7 @@ std::__numpunct_cache<wchar_t>::__numpunct_cache(unsigned long)
 std::__numpunct_cache<wchar_t>::~__numpunct_cache()
 std::__pad<char, std::char_traits<char> >::_S_pad(std::ios_base&, char, char*, char const*, long, long)
 std::__pad<wchar_t, std::char_traits<wchar_t> >::_S_pad(std::ios_base&, wchar_t, wchar_t*, wchar_t const*, long, long)
+std::__shared_count<(__gnu_cxx::_Lock_policy)2>::operator=(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [clone .isra.0]
 std::__throw_bad_alloc()
 std::__throw_bad_cast()
 std::__throw_bad_exception()
@@ -34738,6 +34767,8 @@ sxr_wrap_xrEndSession(XrSession_T*)
 sxr_wrap_xrEndSession(XrSession_T*) [clone .cold]
 sxr_wrap_xrEnumerateBoundSourcesForAction(XrSession_T*, XrBoundSourcesForActionEnumerateInfo const*, unsigned int, unsigned int*, unsigned long*)
 sxr_wrap_xrEnumerateBoundSourcesForAction(XrSession_T*, XrBoundSourcesForActionEnumerateInfo const*, unsigned int, unsigned int*, unsigned long*) [clone .cold]
+sxr_wrap_xrEnumerateDisplayRefreshRatesFB(XrSession_T*, unsigned int, unsigned int*, float*)
+sxr_wrap_xrEnumerateDisplayRefreshRatesFB(XrSession_T*, unsigned int, unsigned int*, float*) [clone .cold]
 sxr_wrap_xrEnumerateEnvironmentBlendModes(XrInstance_T*, unsigned long, XrViewConfigurationType, unsigned int, unsigned int*, XrEnvironmentBlendMode*)
 sxr_wrap_xrEnumerateEnvironmentBlendModes(XrInstance_T*, unsigned long, XrViewConfigurationType, unsigned int, unsigned int*, XrEnvironmentBlendMode*) [clone .cold]
 sxr_wrap_xrEnumerateInstanceExtensionProperties(char const*, unsigned int, unsigned int*, XrExtensionProperties*)
@@ -34764,6 +34795,8 @@ sxr_wrap_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrA
 sxr_wrap_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*) [clone .cold]
 sxr_wrap_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)
 sxr_wrap_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*) [clone .cold]
+sxr_wrap_xrGetDisplayRefreshRateFB(XrSession_T*, float*)
+sxr_wrap_xrGetDisplayRefreshRateFB(XrSession_T*, float*) [clone .cold]
 sxr_wrap_xrGetFrameCompositionReportEXT(XrSession_T*, unsigned int, XrFrameCompositionReportEXT*)
 sxr_wrap_xrGetFrameCompositionReportEXT(XrSession_T*, unsigned int, XrFrameCompositionReportEXT*) [clone .cold]
 sxr_wrap_xrGetInputSourceLocalizedName(XrSession_T*, XrInputSourceLocalizedNameGetInfo const*, unsigned int, unsigned int*, char*)
@@ -34808,6 +34841,8 @@ sxr_wrap_xrPollEvent(XrInstance_T*, XrEventDataBuffer*)
 sxr_wrap_xrPollEvent(XrInstance_T*, XrEventDataBuffer*) [clone .cold]
 sxr_wrap_xrReleaseSwapchainImage(XrSwapchain_T*, XrSwapchainImageReleaseInfo const*)
 sxr_wrap_xrReleaseSwapchainImage(XrSwapchain_T*, XrSwapchainImageReleaseInfo const*) [clone .cold]
+sxr_wrap_xrRequestDisplayRefreshRateFB(XrSession_T*, float)
+sxr_wrap_xrRequestDisplayRefreshRateFB(XrSession_T*, float) [clone .cold]
 sxr_wrap_xrRequestExitSession(XrSession_T*)
 sxr_wrap_xrRequestExitSession(XrSession_T*) [clone .cold]
 sxr_wrap_xrResultToString(XrInstance_T*, XrResult, char*)
@@ -34895,6 +34930,8 @@ sxr_xrEndSession
 sxr_xrEndSession(XrSession_T*)
 sxr_xrEnumerateBoundSourcesForAction
 sxr_xrEnumerateBoundSourcesForAction(XrSession_T*, XrBoundSourcesForActionEnumerateInfo const*, unsigned int, unsigned int*, unsigned long*)
+sxr_xrEnumerateDisplayRefreshRatesFB
+sxr_xrEnumerateDisplayRefreshRatesFB(XrSession_T*, unsigned int, unsigned int*, float*)
 sxr_xrEnumerateEnvironmentBlendModes
 sxr_xrEnumerateEnvironmentBlendModes(XrInstance_T*, unsigned long, XrViewConfigurationType, unsigned int, unsigned int*, XrEnvironmentBlendMode*)
 sxr_xrEnumerateInstanceExtensionProperties(char const*, unsigned int, unsigned int*, XrExtensionProperties*)
@@ -34933,6 +34970,8 @@ sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionPro
 sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHandLeft
 sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHandRight
 sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHead
+sxr_xrGetDisplayRefreshRateFB
+sxr_xrGetDisplayRefreshRateFB(XrSession_T*, float*)
 sxr_xrGetFrameCompositionReportEXT
 sxr_xrGetFrameCompositionReportEXT(XrSession_T*, unsigned int, XrFrameCompositionReportEXT*)
 sxr_xrGetInputSourceLocalizedName
@@ -34981,6 +35020,8 @@ sxr_xrPollEvent(XrInstance_T*, XrEventDataBuffer*)
 sxr_xrPollEvent(XrInstance_T*, XrEventDataBuffer*) [clone .cold]
 sxr_xrReleaseSwapchainImage
 sxr_xrReleaseSwapchainImage(XrSwapchain_T*, XrSwapchainImageReleaseInfo const*)
+sxr_xrRequestDisplayRefreshRateFB
+sxr_xrRequestDisplayRefreshRateFB(XrSession_T*, float)
 sxr_xrRequestExitSession
 sxr_xrRequestExitSession(XrSession_T*)
 sxr_xrResultToString(XrInstance_T*, XrResult, char*)
@@ -35314,6 +35355,7 @@ trackedCamera
 tracked_device_index
 trackers
 trackingLevel
+tracking_system_name
 trackpad
 trackpad/
 trackpad_scroll
@@ -40350,6 +40392,7 @@ xrEndFrame: compositor failed EndFrame()
 xrEndFrame: swapchain failed EndFrame()
 xrEndSession
 xrEnumerateBoundSourcesForAction
+xrEnumerateDisplayRefreshRatesFB
 xrEnumerateEnvironmentBlendModes
 xrEnumerateInstanceExtensionProperties
 xrEnumerateReferenceSpaces
@@ -40363,6 +40406,7 @@ xrGetActionStateFloat
 xrGetActionStatePose
 xrGetActionStateVector2f
 xrGetCurrentInteractionProfile
+xrGetDisplayRefreshRateFB
 xrGetFrameCompositionReportEXT
 xrGetInputSourceLocalizedName
 xrGetInstanceProcAddr
@@ -40391,6 +40435,7 @@ xrNegotiateLoaderRuntimeInterface.cold
 xrPathToString
 xrPollEvent
 xrReleaseSwapchainImage
+xrRequestDisplayRefreshRateFB
 xrRequestExitSession
 xrResultToString
 xrSetInputDeviceActiveEXT
