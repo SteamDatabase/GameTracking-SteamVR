@@ -4400,8 +4400,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1096.336418
- r C.1097.336429
+ r C.1108.336424
+ r C.1109.336435
  r C.413.288424
  r CSWTCH.100
  r CSWTCH.16
@@ -9757,6 +9757,7 @@
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole) [clone .cold]
  t CVRControllerTypeBindings::SendBindingUpdatedEvents()
  t CVRControllerTypeBindings::UpdateSimulatedDevices()
+ t CVRControllerTypeBindings::UpdateSimulatedDevices() [clone .cold]
  t CVRDashboardManager_001::CloseKeyboard()
  t CVRDashboardManager_001::CreateDashboardCoreOverlay(char const*, char const*, unsigned long*)
  t CVRDashboardManager_001::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -27161,6 +27162,7 @@
  t std::map<VkDevice_T*, VulkanFunctionPointers_t, std::less<VkDevice_T*>, std::allocator<std::pair<VkDevice_T* const, VulkanFunctionPointers_t> > >::~map()
  t std::map<int, std::string, std::less<int>, std::allocator<std::pair<int const, std::string> > >::operator[](int&&)
  t std::map<std::string, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::operator[](std::string const&)
+ t std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::operator[](std::string&&)
  t std::map<std::string, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::less<void>, std::allocator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > > >::operator[](std::string const&)
  t std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >::operator[](std::string&&)
  t std::map<unsigned long, CIOBufferCursor*, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, CIOBufferCursor*> > >::~map()

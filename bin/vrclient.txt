@@ -4178,8 +4178,8 @@
  putc
  putwc
  qsort
- r C.1104.336564
- r C.1105.336575
+ r C.1116.336570
+ r C.1117.336581
  r C.427.288574
  r CSWTCH.101
  r CSWTCH.213
@@ -5980,19 +5980,13 @@
  t .L14219
  t .L14220
  t .L14221
- t .L1426
- t .L1427
  t .L14271
  t .L14272
  t .L14274
  t .L14275
  t .L14276
  t .L14277
- t .L1429
  t .L143
- t .L1430
- t .L1431
- t .L1432
  t .L14375
  t .L14376
  t .L14378
@@ -6000,9 +5994,15 @@
  t .L14380
  t .L14381
  t .L144
+ t .L1442
+ t .L1443
  t .L14433
  t .L14434
  t .L14439
+ t .L1445
+ t .L1446
+ t .L1447
+ t .L1448
  t .L1449
  t .L145
  t .L1451
@@ -7525,21 +7525,21 @@
  t .L95
  t .L96
  t .L97
- t .L9734
- t .L9735
- t .L9737
- t .L9738
- t .L9739
- t .L9740
- t .L9741
- t .L9742
  t .L977
  t .L978
  t .L98
  t .L980
  t .L981
  t .L982
+ t .L9823
+ t .L9824
+ t .L9826
+ t .L9827
+ t .L9828
+ t .L9829
  t .L983
+ t .L9830
+ t .L9831
  t .L984
  t .L985
  t .L986
@@ -11028,6 +11028,7 @@
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole) [clone .cold]
  t CVRControllerTypeBindings::SendBindingUpdatedEvents()
  t CVRControllerTypeBindings::UpdateSimulatedDevices()
+ t CVRControllerTypeBindings::UpdateSimulatedDevices() [clone .cold]
  t CVRDashboardManager_001::CloseKeyboard()
  t CVRDashboardManager_001::CreateDashboardCoreOverlay(char const*, char const*, unsigned long long*)
  t CVRDashboardManager_001::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -27833,6 +27834,7 @@
  t std::map<VkDevice_T*, VulkanFunctionPointers_t, std::less<VkDevice_T*>, std::allocator<std::pair<VkDevice_T* const, VulkanFunctionPointers_t> > >::~map()
  t std::map<int, std::string, std::less<int>, std::allocator<std::pair<int const, std::string> > >::operator[](int&&)
  t std::map<std::string, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::operator[](std::string const&)
+ t std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::operator[](std::string&&)
  t std::map<std::string, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>, std::less<void>, std::allocator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > > >::operator[](std::string const&)
  t std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >::operator[](std::string&&)
  t std::map<unsigned long long, CIOBufferCursor*, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, CIOBufferCursor*> > >::~map()

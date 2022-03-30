@@ -1141,19 +1141,13 @@ $0}
 .L14219
 .L14220
 .L14221
-.L1426
-.L1427
 .L14271
 .L14272
 .L14274
 .L14275
 .L14276
 .L14277
-.L1429
 .L143
-.L1430
-.L1431
-.L1432
 .L14375
 .L14376
 .L14378
@@ -1161,9 +1155,15 @@ $0}
 .L14380
 .L14381
 .L144
+.L1442
+.L1443
 .L14433
 .L14434
 .L14439
+.L1445
+.L1446
+.L1447
+.L1448
 .L1449
 .L145
 .L1451
@@ -2686,21 +2686,21 @@ $0}
 .L95
 .L96
 .L97
-.L9734
-.L9735
-.L9737
-.L9738
-.L9739
-.L9740
-.L9741
-.L9742
 .L977
 .L978
 .L98
 .L980
 .L981
 .L982
+.L9823
+.L9824
+.L9826
+.L9827
+.L9828
+.L9829
 .L983
+.L9830
+.L9831
 .L984
 .L985
 .L986
@@ -3053,7 +3053,6 @@ $0}
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
-18:48:11
 18CPropertyContainer
 18CSharedBufferLinux
 18CVRChaperoneClient
@@ -3142,6 +3141,7 @@ $0}
 22IVRDisplayComponent001
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:10:42
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -3846,8 +3846,8 @@ C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DescriptorPool::Tables]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1104.336564
-C.1105.336575
+C.1116.336570
+C.1117.336581
 C.427.288574
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -7481,6 +7481,7 @@ CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManife
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
 CVRControllerTypeBindings::SendBindingUpdatedEvents()
 CVRControllerTypeBindings::UpdateSimulatedDevices()
+CVRControllerTypeBindings::UpdateSimulatedDevices() [clone .cold]
 CVRDashboardManager_001::CloseKeyboard()
 CVRDashboardManager_001::CreateDashboardCoreOverlay(char const*, char const*, unsigned long long*)
 CVRDashboardManager_001::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -33517,6 +33518,7 @@ std::map<VkDevice_T*, VulkanFunctionPointers_t, std::less<VkDevice_T*>, std::all
 std::map<int, std::string, std::less<int>, std::allocator<std::pair<int const, std::string> > >::operator[](int&&)
 std::map<std::pair<google::protobuf::Descriptor const*, int>, google::protobuf::FieldDescriptor const*, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > >::value_type::second_type google::protobuf::FindPtrOrNull<std::map<std::pair<google::protobuf::Descriptor const*, int>, google::protobuf::FieldDescriptor const*, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > > >(std::map<std::pair<google::protobuf::Descriptor const*, int>, google::protobuf::FieldDescriptor const*, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > >&, std::map<std::pair<google::protobuf::Descriptor const*, int>, google::protobuf::FieldDescriptor const*, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > >::value_type::first_type const&)
 std::map<std::string, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::operator[](std::string const&)
+std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::operator[](std::string&&)
 std::map<std::string, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>, std::less<void>, std::allocator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > > >::operator[](std::string const&)
 std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >::operator[](std::string&&)
 std::map<unsigned long long, CIOBufferCursor*, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, CIOBufferCursor*> > >::~map()

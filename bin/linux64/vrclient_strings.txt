@@ -1570,7 +1570,6 @@ $tI
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
-18:48:23
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -1677,6 +1676,7 @@ $tI
 22IVRDisplayComponent001
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:11:00
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2422,8 +2422,8 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1096.336418
-C.1097.336429
+C.1108.336424
+C.1109.336435
 C.413.288424
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -6438,6 +6438,7 @@ CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManife
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
 CVRControllerTypeBindings::SendBindingUpdatedEvents()
 CVRControllerTypeBindings::UpdateSimulatedDevices()
+CVRControllerTypeBindings::UpdateSimulatedDevices() [clone .cold]
 CVRDashboardManager_001::CloseKeyboard()
 CVRDashboardManager_001::CreateDashboardCoreOverlay(char const*, char const*, unsigned long*)
 CVRDashboardManager_001::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -33780,6 +33781,7 @@ std::map<VkDevice_T*, VulkanFunctionPointers_t, std::less<VkDevice_T*>, std::all
 std::map<int, std::string, std::less<int>, std::allocator<std::pair<int const, std::string> > >::operator[](int&&)
 std::map<std::pair<google::protobuf::Descriptor const*, int>, google::protobuf::FieldDescriptor const*, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > >::value_type::second_type google::protobuf::FindPtrOrNull<std::map<std::pair<google::protobuf::Descriptor const*, int>, google::protobuf::FieldDescriptor const*, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > > >(std::map<std::pair<google::protobuf::Descriptor const*, int>, google::protobuf::FieldDescriptor const*, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > >&, std::map<std::pair<google::protobuf::Descriptor const*, int>, google::protobuf::FieldDescriptor const*, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > >::value_type::first_type const&)
 std::map<std::string, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t> > >::operator[](std::string const&)
+std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > >::operator[](std::string&&)
 std::map<std::string, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::less<void>, std::allocator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > > >::operator[](std::string const&)
 std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >::operator[](std::string&&)
 std::map<unsigned long, CIOBufferCursor*, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, CIOBufferCursor*> > >::~map()
