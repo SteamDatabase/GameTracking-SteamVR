@@ -1395,6 +1395,7 @@
  %+lf%s
  %.20g,%.20g
  %.20gx%.20g %s
+ %41g
  (%s)
  (Normalized)
  (Sum %.*lg)
@@ -1559,6 +1560,7 @@
 !font_map || PANGO_IS_FONT_MAP (font_map)
 !g_type_is_a (interface_type, prerequisite_type)
 !g_type_is_a (prerequisite_type, interface_type)
+!hn7!
 !layout->log_attrs
 !lock->writer_locked
 !puhQ*
@@ -2156,6 +2158,7 @@ $~O="""
 ')AP*
 '*&&4+):670-1$
 ',',',',',',',',',',',',',',',',',',',',',',',',','#'#'c
+',=?k
 '0F0K0Z0_0
 '0K0o0
 '6Q N
@@ -2219,8 +2222,6 @@ $~O="""
 (C;\$
 (D(yS
 (DICOM)", is available at http://medical.nema.org/.  In particular,
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (Internal) no handler for tag %x
 (KY$q
 (L$0+
@@ -2245,6 +2246,7 @@ $~O="""
 (`,UF5
 (error == NULL) || (*error == NULL)
 (exception processing is suspended)
+(f*^[0
 (fGrLUq
 (flags & ~G_DATALIST_FLAGS_MASK) == 0
 (flags & ~TYPE_FLAG_MASK) == 0
@@ -2305,6 +2307,7 @@ $~O="""
 *+D$,;
 *070V0
 *5*h*
+*9Z9N
 *:JZjz
 *;D$ }
 *;D$$}
@@ -2404,6 +2407,7 @@ $~O="""
 +T$8+L$<
 +T$<;
 +TCP!
++Xt@(
 +YRSt
 +\$ t$
 +\$H+l$LK
@@ -2813,6 +2817,7 @@ $~O="""
 ,SVWj
 ,T$8C
 ,T$xf
+,W5y+
 ,[_^]
 ,\$8W+
 ,\$<Vj
@@ -2821,8 +2826,6 @@ $~O="""
 ,_^][
 ,filc
 ,hdX:`
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
 ,rB)N
 ,t$@f
 ,t$Hf
@@ -3239,6 +3242,7 @@ $~O="""
 .?AVios_base@std@@
 .?AVtype_info@@
 .?EK.?tz.?
+.By{Q
 .CRT$XCA
 .CRT$XCU
 .CRT$XCZ
@@ -3778,6 +3782,7 @@ $~O="""
 0t2y2
 0u1z1
 0vq2fL
+0w0c1
 0w1$2b2
 0x%02X 0x%02X 0x%02X 0x%02X
 0x%02X%s
@@ -3998,7 +4003,6 @@ $~O="""
 1584x2448
 15x15+3+3
 16 16
-160107120000Z
 161$2
 162>2U2]2s2{2
 162E2l2{2
@@ -4304,7 +4308,6 @@ $~O="""
 20907-GITv2.9.7-rc1
 20I0X0m0
 20a0u0
-210101000000Z
 210429000000Z
 210x297
 211007000000Z
@@ -4317,7 +4320,9 @@ $~O="""
 213m3|3
 213q3
 213w3
-220330231158Z0/
+220323000000Z
+220329000000Z
+220331224608Z0/
 22272A2Y2d2
 22282E2
 222A2F2
@@ -4401,6 +4406,8 @@ $~O="""
 2C3P3d3z3
 2D2d2i2
 2D3U3b3o3}3
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2E2J2Y2^2
 2E2S293S3`3
 2E2j2
@@ -4474,6 +4481,7 @@ $~O="""
 2h4y4
 2hT2:
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2j3o3
 2o2u2}2
 2o3t3
@@ -4486,6 +4494,7 @@ $~O="""
 2tfmumW
 2v2{2
 2x3#6s6
+2xJK7*L
 3	3"3+343=3F3O3X3{3
 3	354H4[4j4
 3	383m3w3
@@ -4649,8 +4658,6 @@ $~O="""
 30=0B0
 30@0S0`0s0
 30L0m0
-310106000000Z0H1
-310107120000Z0r1
 31363
 313R3
 31484?4D4
@@ -4668,6 +4675,7 @@ $~O="""
 323x459
 32474A4
 324@4
+330314235959Z0L1
 333333
 3333UUUU
 3333v/h
@@ -4695,6 +4703,7 @@ $~O="""
 363x516
 364A4I4
 364x515
+370322235959Z0c1
 373<3Z3_3}3
 374<4t4y4
 380115120000Z0b1
@@ -4877,7 +4886,6 @@ $~O="""
 3`3j3o3
 3`4f4j4o4u4y4
 3a3f3
-3bF4_
 3c4h4
 3d4l4
 3desc
@@ -5226,8 +5234,6 @@ $~O="""
 4g5o5z5
 4g5r5z5
 4h4m4|4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 4i5U6B738%9
 4i5y5
 4j5r5
@@ -5858,7 +5864,6 @@ $~O="""
 6i7q7;8C8P<W<e<m<u<
 6j7{7
 6j7~7M9\9K<P<`<e<
-6jMEl
 6k7x7
 6l6q6
 6m7t7|7
@@ -6186,7 +6191,6 @@ $~O="""
 7h8V9q9
 7hCRTrV
 7hHy1
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7j7w7|7
 7l7x7
 7n8/9
@@ -6500,7 +6504,6 @@ $~O="""
 8`9d9h9
 8`9t9
 8`;h;
-8aMbF$
 8av/&J
 8bim:
 8d$(u
@@ -7165,7 +7168,6 @@ $~O="""
 :/;9;>;
 :/;c;m;
 :/?_.#&;=
-:0806
 :0:::?:W:a:f:~:
 :0:;:G:x:
 :0:A:R:c:q:
@@ -8642,6 +8644,7 @@ $~O="""
 =o>y>
 =pscat-hl
 =q={=
+=rIQU
 =rbCYt
 =rtnmt
 =rtnmu
@@ -9472,6 +9475,7 @@ Air Kerma Rate Reference Date
 Air Kerma Rate Reference Time
 Aj Uf
 Aj@PE
+AjEB#AZ
 Aku isa mangan beling tanpa lara.
 Aladdin Ghostscript
 Algorithm Code Sequence
@@ -10089,7 +10093,6 @@ Child watch source dispatched without callback
 Chop/Image
 Chroma
 Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 Chuaigh b
 Cine Rate
 Cineon Image File
@@ -11966,11 +11969,11 @@ Did not see expected message %s-%s: %s
 Difference
 Differential Channel Source
 Differential Channel Source Modifiers
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 Digital Image Format Acquired
 Digital Imaging and Communications in Medicine image
@@ -13176,7 +13179,6 @@ I koh Glos esa, und es duard ma ned wei.
 I suggest the following: try compressing the file again,
 I'?Fx'?v
 I.S(ja
-I0G08
 I0N0s0x0
 I1S1X1
 I9D$|
@@ -13327,6 +13329,7 @@ Ignoring attempt to write tRNS chunk out-of-range for bit_depth
 Ignoring invalid time value
 Ignoring request to write a PLTE chunk in grayscale PNG
 Igrave
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 IiGM>nw
 Ii`QjaRlbTjaRjaRkbSkbSkbRlcSlcTpbRpaUf_RfaP_YCA@%rM<
 Image
@@ -14291,6 +14294,7 @@ LevelImage
 LevelImageColors
 Levelize/Image
 LevelizeImage
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Li`Qi`Qi`QjaRjaQk_Zk__kaVkaTkaXlaRkbNZVDDF8<C55C1?C)
 Libpng jmp_buf still allocated
 Light
@@ -14420,7 +14424,6 @@ Lydian
 L|$TB
 M %g %g
 M 9U$|
-M$#0]
 M' pozz magna' o'vetr, e nun m' fa mal.
 M'(:fjgl4
 M-|];
@@ -16020,7 +16023,6 @@ Q>JBR>L
 Q@j;V
 QC)\C
 QCannot load font '%s
-QJxy6z'
 QLEQMmQN
 QName split
 QPRSh
@@ -16144,6 +16146,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSI
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -16677,6 +16680,7 @@ S Coord Of Top Right Corner
 S urrainn dhomh gloinne ithe; cha ghoirtich i mi.
 S$;T$
 S']!e
+S0Q0O
 S1?=ST6I
 S9~`u	
 SAR Avg Head
@@ -18047,7 +18051,6 @@ U|L0t
 V!MV	
 V*?=%,?
 V0`0e0
-V3"/"6
 V939j%5'
 V=YARG
 VC# V
@@ -19152,7 +19155,6 @@ _invalid_parameter_noinfo_noreturn
 _isatty
 _isnan
 _kbhit
-_lCI	
 _libm_sse2_acos_precise
 _libm_sse2_asin_precise
 _libm_sse2_atan_precise
@@ -20219,11 +20221,11 @@ duplicate
 duplicate sRGB information ignored
 duployan
 dv (0..255), count (0..255), text
-dwc_#Ri
 d}_S_G671681==8B@;FA?HC>HC>JD<MB7J=0H<-F=/E;0A91<71:7.>9,E</M?/OA0O>1K;1D:/>=17=0
 e	@cy
 e bez moljca.
 e, na st?pe sa ?ate? u?
+e,>~^
 e-1.0*
 e0(1Q1V1e1j1
 eC}gc}m
@@ -20782,7 +20784,6 @@ floodfill
 floor
 florin
 flush error
-fnVa')
 folio
 font != NULL
 font face
@@ -21626,14 +21627,12 @@ htsbaV
 htsbaW
 http://
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 http://www.imagemagick.org
 http://www.w3.org/2000/xmlns/
 http://www.w3.org/XML/1998/namespace
-https://www.digicert.com/CPS0
 hungarumlaut
 hxi(j
 hyphen
@@ -21978,7 +21977,6 @@ j USRV
 j UWRV
 j!3V$E
 j+@u'`
-j0h02
 j0hPz4
 j2k:%s
 j8h u*
@@ -22315,7 +22313,6 @@ lwtpt
 lycian
 lydian
 m,!$;Y
-m0k0$
 m1WY$
 m5u5A6I6
 m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
@@ -23371,7 +23368,6 @@ setting space_avail for thread %#x
 setvbuf
 seven
 sfw:%s
-sg6jTl
 sha`h
 shade
 shadow
@@ -24890,7 +24886,6 @@ v.p{ xx-v.page.x-.5, yy-v.page.y-.5 }
 v0Vh|
 v0Wh|
 v3Sh|
-v7xZ=
 v8RPQV
 v9Lld
 v=Y]Bv
@@ -25037,8 +25032,6 @@ writing raw profile: type=%s, length=%.20g
 wrp==rdp, !running
 wsbdp
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
 w|9)t	
 x	;Ut}
 x ;^p
@@ -25124,6 +25117,7 @@ xV4"?
 xYUVSW
 x\;Op}W
 x\|@W
+x]~\6
 x_;~p}Z;^t}U
 x_Chinese-Eten
 x_off=%.20g, y_off=%.20g
@@ -25823,7 +25817,6 @@ xz;Kp}u
 y#ht34
 y)Wh|
 y-resolution
-y0w0$
 yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
 y\{ZN^G=:32'(/')-(+0(,2(/1+00*0+'
 ya spilte jo whist og quickstep i min taxi.
@@ -25839,7 +25832,6 @@ yi~(@`
 yp;D$
 yrI,D
 z*1j=?~
-z0x0:
 z>rdf:Bag
 z?RHz?
 zAh{,
@@ -25867,8 +25859,8 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 {s[zV
 {td=KYMCt@=YARGt
 {uij}W
+{un'%
 {wo={
-{{{#D
 {} def
 |	*oEY
 |	+++
@@ -26117,8 +26109,8 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |Lu?c
 |Pa{q
 |ZzsP
-|]E-K
 |d+t$l
+|zP8b6
 } bind def
 }"QPW
 }&;D$

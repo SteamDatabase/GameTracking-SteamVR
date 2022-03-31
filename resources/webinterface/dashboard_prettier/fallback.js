@@ -323,7 +323,7 @@
         };
       }
     }
-    function y(e, t) {
+    function b(e, t) {
       let r = 2 * (e.y * t.z - e.z * t.y),
         n = 2 * (e.z * t.x - e.x * t.z),
         i = 2 * (e.x * t.y - e.y * t.x);
@@ -333,7 +333,7 @@
         z: t.z + e.w * i + e.x * n - e.y * r,
       };
     }
-    function b(e, t, r) {
+    function y(e, t, r) {
       return [
         [e.x, e.y, e.z],
         [t.x, t.y, t.z],
@@ -341,7 +341,7 @@
       ];
     }
     function v(e) {
-      return y(e.rotation, { x: 0, y: 0, z: 1 });
+      return b(e.rotation, { x: 0, y: 0, z: 1 });
     }
     function S(e) {
       let t = m(e);
@@ -698,7 +698,12 @@
       }
       buildNode(e, t) {
         const r = this.createSgNode(t);
-        return (r.properties.mountable_id = z(this.props.mountedId)), [e, r];
+        return (
+          (r.properties.mountable_id = z(this.props.mountedId)),
+          this.props.fDashboardScale &&
+            (r.properties.dashboard_scale = this.props.fDashboardScale),
+          [e, r]
+        );
       }
     }
     Object(n.b)([o.a], te.prototype, "buildNode", null);
@@ -852,10 +857,10 @@
         );
       }
     }
-    function ye(e) {
+    function be(e) {
       if (e) return [e.u, e.v];
     }
-    function be(e) {
+    function ye(e) {
       switch (e) {
         case se.TopLeft:
           return { x: -1, y: 1 };
@@ -1041,7 +1046,7 @@
         d =
           "object" == typeof this.props.origin
             ? X(this.props.origin, { x: 0, y: 0 })
-            : be(this.props.origin);
+            : ye(this.props.origin);
         const c = this.props.overlay_key,
           u = G();
         return (
@@ -1055,8 +1060,8 @@
                   ? void 0
                   : e.VROverlay.ThisOverlayHandle();
               })()),
-          (l.properties.uv_min = null != (r = ye(this.m_UVsMin)) ? r : void 0),
-          (l.properties.uv_max = null != (n = ye(this.m_UVsMax)) ? n : void 0),
+          (l.properties.uv_min = null != (r = be(this.m_UVsMin)) ? r : void 0),
+          (l.properties.uv_max = null != (n = be(this.m_UVsMax)) ? n : void 0),
           (l.properties.width = null != (i = this.props.width) ? i : void 0),
           (l.properties.height = null != (o = this.props.height) ? o : void 0),
           (l.properties["min-width"] =
@@ -1469,7 +1474,7 @@
         "object" == typeof this.props.location
           ? (r = X(this.props.location, { x: 0, y: 0 }))
           : "number" == typeof this.props.location &&
-            (r = be(this.props.location));
+            (r = ye(this.props.location));
         let n = this.createSgNode(t);
         if (this.props.latched && null !== this.m_latchedPosition)
           (n.properties["anchor-u"] = this.m_latchedPosition.u),
@@ -2184,10 +2189,10 @@
         return f;
       }),
       r.d(t, "T", function () {
-        return y;
+        return b;
       }),
       r.d(t, "b", function () {
-        return b;
+        return y;
       }),
       r.d(t, "J", function () {
         return v;
@@ -2632,4 +2637,4 @@
     );
   },
 });
-//# sourceMappingURL=fallback.js.map?v=f41cb910ec8426619b6d
+//# sourceMappingURL=fallback.js.map?v=fffaaf25b7e89e1c3cb8

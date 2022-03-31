@@ -3016,6 +3016,7 @@ $wtpt
 -A-v-
 -B@u.
 -HP  
+-Ld_a&
 -Y %.20g +X %.20g
 -a.:/
 -abcdefghijklmnopqrstuvwxyz
@@ -3465,6 +3466,7 @@ $wtpt
 /* columns rows colors chars-per-pixel */
 /* pixels */
 /-?$_-?e
+//Fb2
 /84_>
 /8R:5
 /9)v7
@@ -3713,7 +3715,7 @@ $wtpt
 210429000000Z
 210x297
 211007000000Z
-220330231215Z0/
+220331224608Z0/
 230x323
 2384x3370
 24 24
@@ -3881,6 +3883,7 @@ $wtpt
 5: -4,-1,0,-1,-4  -1,2,3,2,-1  0,3,4,3,0  -1,2,3,2,-1  -4,-1,0,-1,-4
 5: 0,0,-1,0,0  0,-1,-2,-1,0  -1,-2,16,-2,-1  0,-1,-2,-1,0  0,0,-1,0,0
 5?rM5?
+5TT?V
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5r?lt
 6*f(_
@@ -4123,6 +4126,7 @@ $wtpt
 :LOG*}
 :NF& 
 :RS	x 
+:Z{eFON
 :\FSY$
 :acspMSFT
 :gscP
@@ -4575,6 +4579,7 @@ $wtpt
 @"t$P
 @#@d@
 @$(1D$
+@$)wd
 @%04lx
 @%s: %s/%s/%s
 @%wED
@@ -5920,7 +5925,6 @@ CXD+d
 CXH;CPr
 CYRILLIC-ASIAN
 C\9C`t
-C\j;G
 C`H9Ch
 Cache
 Cache/Error/
@@ -7877,7 +7881,6 @@ GLIB_DOMAIN
 GLIB_OLD_LOG_API
 GLib (gthread-win32.c): Unexpected error from C library during '%s': %s.  Aborting.
 GLib: Cannot convert message: %s
-GM5uGV7
 GNU Ghostscript
 GOBJECT_DEBUG
 GO`u@
@@ -14238,7 +14241,7 @@ Y|q'za
 Z Offset In Slide Coordinate System
 Z({:3m
 Z* ,	
-ZBf>\
+Z0A'm
 ZDepthHomogeneous
 ZDepthLinear
 ZEK|D
@@ -17954,7 +17957,6 @@ nD$8f
 nD$pH
 nF1~P8wH*n_*
 nT$PH
-n[Zz$
 n\$Pf
 n]"{7
 n_WlYGh\Kj^N
@@ -18113,6 +18115,7 @@ onehalf
 onequarter
 onesuperior
 ons d'hidrogen, coi!
+oo]f>}
 opacity
 opacity "%s"
 opacity %s 
@@ -19778,6 +19781,7 @@ uXHcD$XIc
 uXL9%`
 uZD9d$0uS
 u]yH1e6"e3)j90l?4i>4h>2cA7_D5YG5e]GEF/9C'EI+ppR\`G29'7=57=37>48>38<57;66;5271.3-,1+(.(*.*,1,/2/=D==J81?(BP<EPD/90ddSgdUhgWieWhfWkeVnd\lhZdkRdwo
+u^.}2
 u^E9xDu
 u_9/t[
 u`Hcu

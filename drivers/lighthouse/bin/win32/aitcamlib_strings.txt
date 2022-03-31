@@ -2,8 +2,10 @@
 	!s99
 	0=0^0l0t0~0
 	0g0u0|0
+ %41g
 !(0)"
 !9~ t
+!hn7!
 #*1892+$
 #?RADIANCE
 #?RGBE
@@ -11,10 +13,8 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
-&/E:x 
+',=?k
 '.5<=6/7>????????????????
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -23,12 +23,13 @@ $9^ t
 (Not Enough Power)
 (Overcurrent)
 (Reset)
-+E]pa	
+(f*^[0
+*9Z9N
++Xt@(
 +o'q)}
 , last executing in 
 ,020@0L0
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -98,6 +99,7 @@ $9^ t
 .tls$ZZZ
 .xdata$x
 /9s<u*
+/Fb	_
 /delivery_rate
 /elapsed_time
 /format
@@ -133,6 +135,7 @@ $9^ t
 0.0>0H0R0b0m0
 052:2n2
 061;1
+0w0c1
 0x1|1
 0}0i1
 1 1$1(1,10141<1T1d1h1x1|1
@@ -145,7 +148,6 @@ $9^ t
 111a1
 123456789000
 130801120000Z
-160107120000Z
 1@1v1|1
 1C1J1~1
 1F1V1`1e1o1
@@ -160,28 +162,34 @@ $9^ t
 2&2*292=2E3
 2&2,21272B2H2W2^2c2l2q2z2
 2*3d3*4C4M4[4d4
-210101000000Z
 210429000000Z
 211007000000Z
-220330231421Z0/
+220323000000Z
+220329000000Z
+220331224800Z0/
 241009235959Z0a1
 262H2O2o283?3
 293r3
 2>3k3
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2SPV9
 2Z3a3
 2`4{4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
 3 3$3(3,3034383<3@3D3P3$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 3"31393E3V3]3
 3#3(33383B3S3X3b3s3x3
 3%3,3E3L3e3l3
 3(323B3M3n3~3
 3)3-3:3>3r7v7
-310106000000Z0H1
-310107120000Z0r1
+330314235959Z0L1
 360428235959Z0i1
+370322235959Z0c1
 380115120000Z0b1
+3??:?'N
 3N4^4b4
 3mq+<
 4 494@4Y4^4c4h4
@@ -195,8 +203,6 @@ $9^ t
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
 4`:d:q:u:
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5	7+7
 5 5$5
 5!5M5c5k5
@@ -235,7 +241,6 @@ $9^ t
 7.7>7H7R7b7m7
 70503
 7[8_8
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7u7%8
 8 8$8(8X8t8
 8!8B8F8U8Y8h8l8{8
@@ -251,7 +256,6 @@ $9^ t
 8I9M9
 8SVWh
 8`9d9h9|9
-8aMbF$
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -269,7 +273,6 @@ $9^ t
 9_lt\
 :#:-:A:O:T:b:g:q:~:
 :.:8:B:R:]:~:
-:0806
 :0:L:P:X:`:h:l:t:
 :3:9:N:f:l:|:
 :8;<;@;D;\;`;p;t;x;|;
@@ -307,6 +310,7 @@ $9^ t
 =8>J>P>W>b>o>|>
 =?>U>|>
 =N>R>
+=rIQU
 > >B>Q>Z>g>
 > ?(?-?@?T?Y?l?
 >4>D>H>\>`>p>t>x>
@@ -361,24 +365,25 @@ ASSERT: "%s" at %s:%d.
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
+AjEB#AZ
+Ar#A&7RGkUMY
 BMP RLE
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
 Camera Recovery Mode Required
 CameraWork
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 CloseHandle
 Closed
 CreateEventA
 CreateEventW
 CreateThread
 DeleteCriticalSection
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 ECameraHAL_OpenError_ToString
@@ -409,7 +414,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
-I0G08
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -441,6 +445,7 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -453,9 +458,9 @@ KERNEL32.dll
 K}*n:	
 L?n(Zy&
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 LocalizationManager
-M$#0]
 MB(iVR
 MSVCP140.dll
 MainThrd
@@ -476,14 +481,15 @@ PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QJxy6z'
 QueryPerformanceCounter
 QueryPerformanceFrequency
+R?Ya)
 RPCRT4.dll
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
+S0Q0O
 SA|X=G
 SETUPAPI.dll
 SNRtt(
@@ -551,7 +557,6 @@ UnhandledExceptionFilter
 Unknown
 Unknown exception
 UuidFromStringA
-V3"/"6
 VCRUNTIME140.dll
 VID_%04X
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
@@ -563,7 +568,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
-WUxu`5O
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -577,6 +581,7 @@ Y__^[
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
+[]8Z=
 \2d2h2l2p2t2x2|2
 ]J<0"0i3
 _CIpow
@@ -614,7 +619,6 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _purecall
 _register_onexit_function
 _seh_filter_dll
@@ -687,30 +691,26 @@ cameraSensorFrameRate
 can't merge dc and ac
 corrupt
 deque<T> too long
-dwc_#Ri
+e,>~^
+eM?$5
 etronlib
 expected marker
 f;A*stSW
 first not IHDR
-fnVa')
 fread
 fseek
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
 illegal code in raster
 invalid
 invalid PLTE
 invalid decoded scanline length
 invalid filter
-j0h02
 jj@0HK4
 k0i0$
 ldexp
-m0k0$
 malloc
 map/set<T> too long
 max value > 255
@@ -775,13 +775,10 @@ wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
-y0w0$
+x]~\6
 yrPhX
-z0x0:
 zlib corrupt
+{un'%
 |Lu?c
-|]E-K
 }LuHO
 ~t&LN

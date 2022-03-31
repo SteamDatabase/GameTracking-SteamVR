@@ -1,16 +1,14 @@
 	!s99
- %41g
  A__^
  H3E H3E
-!hn7!
-',=?k
+!!Bwr{
 (D$ f
-(f*^[0
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
 (|$pL
-*9Z9N
-+Xt@(
 +o'q)}
-,W5y+
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -90,35 +88,34 @@
 /input/y/click
 /output/haptic
 0A_A^A]A\_^[
-0w0c1
 0}0i1
 130801120000Z
+160107120000Z
+210101000000Z
 210429000000Z
 211007000000Z
-220323000000Z
-220329000000Z
-220330231600Z0/
+220331224931Z0/
 241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
-330314235959Z0L1
+310106000000Z0H1
+310107120000Z0r1
 360428235959Z0i1
-370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8aMbF$
 9C }.H
+:0806
 <0:08
-=rIQU
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
@@ -132,20 +129,19 @@
 A9A A
 A_A^_
 A_A^_^]
-AjEB#AZ
 AuthD
 Bellevue1
-C'Sz90
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 CloseHandle
 CreateEventW
 D$8H9
 D8{0t
 DeleteCriticalSection
+DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20210
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
-DigiCert, Inc.1;09
+DigiCert, Inc.1 0
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Gamepad
@@ -163,6 +159,7 @@ H95E}
 H95O~
 H9w`tFH
 HmdDriverFactory
+I0G08
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -178,20 +175,18 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JAl.0*}
 KERNEL32.dll
 K}*n:	
 L$ SH
 L?n(Zy&
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
+M$#0]
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -199,17 +194,17 @@ MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 NPH9Q
-Orm:G/-
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QJxy6z'
 QueryPerformanceCounter
+RSDSR
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S0Q0O
 SA|X=G
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
@@ -248,6 +243,7 @@ UVWAVAWH
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
+V3"/"6
 VCRUNTIME140.dll
 VWAVH
 VWAWH
@@ -295,26 +291,30 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
+_lCI	
 _register_onexit_function
 _seh_filter_dll
 `.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
-b=mY4
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
-e,>~^
+dwc_#Ri
+fnVa')
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0X
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-j9gb:
+https://www.digicert.com/CPS0
+j0h02
 jj@0HK4
 k0i0$
 l$8E3
+m0k0$
 malloc
 map/set<T> too long
 memcpy
@@ -322,20 +322,22 @@ memmove
 memset
 ntelD
 p WAVAWH
-p7-g+
-qCQ0G{u
-q{IzjR
+r8=H1
 string too long
 t$ AVH
 t$ AWH
 t$ WH
 t$@H=
+t0Od^
 tXfff
 terminate
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
-x]~\6
+www.digicert.com1$0"
+www.digicert.com110/
+y0w0$
+z0x0:
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -345,8 +347,9 @@ x]~\6
 {gamepad}/icons/gamepad_status_searching_alert.gif
 {gamepad}/icons/gamepad_status_standby.png
 {gamepad}/input/gamepad_profile.json
-{un'%
 |$ AVH
 |Lu?c
+|]E-K
+}4w9/_+
 }LuHO
 ~t&LN

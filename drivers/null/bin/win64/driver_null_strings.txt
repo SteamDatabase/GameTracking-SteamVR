@@ -1,11 +1,15 @@
 	!s99
+ %41g
  A__^
  H3E H3E
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
+!hn7!
+',=?k
+'r%yd
+(f*^[0
+*9Z9N
++Xt@(
 +o'q)}
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -69,52 +73,55 @@
 /user/shoulder/right
 /user/waist
 0A_A^A]A\_^[
+0w0c1
 0}0i1
 130801120000Z
-160107120000Z
-210101000000Z
 210429000000Z
 211007000000Z
-220330231604Z0/
+220323000000Z
+220329000000Z
+220331224935Z0/
 241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-310106000000Z0H1
-310107120000Z0r1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+30xWl
+330314235959Z0L1
 360428235959Z0i1
+370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
+6\prnOP
 70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8aMbF$
-:0806
 <0:08
+=rIQU
 >Mp$d
-?<x+)
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 @.data
 @.reloc
 @.rsrc
 @A^_^
+AjEB#AZ
 AuthD
 Bellevue1
 CT$0H
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+Do>k>
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -122,7 +129,6 @@ H SWH
 H93t	H
 H9=*R
 HmdDriverFactory
-I0G08
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -137,16 +143,16 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KR F$
 K}*n:	
 L?n(Zy&
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
-M$#0]
 MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -155,11 +161,11 @@ NPH9Q
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QJxy6z'
 QueryPerformanceCounter
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
@@ -167,7 +173,6 @@ UWAVH
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
-V3"/"6
 VCRUNTIME140.dll
 VWAVH
 VWAWH
@@ -201,7 +206,6 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _register_onexit_function
 _seh_filter_dll
 _stricmp
@@ -213,7 +217,7 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
-c\r[[
+dMeoj
 displayFrequency
 driver_null
 driver_null.dll
@@ -224,26 +228,20 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-dwc_#Ri
-fnVa')
+e,>~^
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
-j0h02
 jj@0HK4
 k0i0$
 l$8E3
-m0k0$
 malloc
 memcpy
 memmove
 memset
 modelNumber
 ntelD
-p#q$rm
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -260,13 +258,10 @@ windowWidth
 windowX
 windowY
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
-y0w0$
-z0x0:
+x]~\6
+z$T"9S
+{un'%
 |$ AVH
-|Fo$9
 |Lu?c
-|]E-K
 }LuHO
 ~t&LN

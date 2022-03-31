@@ -5,8 +5,8 @@ cd "${0%/*}"
 
 echo "Processing SteamVR..."
 
-ProcessDepot ".so"
 ProcessDepot ".dll"
+ProcessDepot ".so"
 ProcessVPK
 ProcessToolAssetInfo
 FixUCS2

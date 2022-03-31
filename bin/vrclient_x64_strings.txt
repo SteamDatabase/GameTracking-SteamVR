@@ -51,7 +51,6 @@
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !00"#$%&'()*+,-./f
- %41g
  '-46
  (Thumb)
  (does the path point to a directory?)
@@ -131,7 +130,6 @@
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
 !bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 !frameData.BIsInUse()
-!hn7!
 !m_pParent1
 !m_pParent2
 !m_stackFreeResources.empty()
@@ -263,7 +261,6 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$rJ$e
 $tI(knN
 $w!Hc
 %%.%dg
@@ -531,7 +528,6 @@ $w!Hc
 ' property is not an integer type.
 ' property is not an object.
 ' value is not an integer type.
-',=?k
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '.5<=6/7>????????????????
 '9k0t
@@ -542,6 +538,7 @@ $w!Hc
 'CVRMsg_PerformApplicationPrelaunchCheck
 'CVRMsg_SetDefaultApplicationForMimeType
 'D9c0t
+'KHI[/
 '[', '{', or a literal
 'action_sets' member found for legacy binding manifest. New action sets cannot be added.
 'action_sets' member is not an array
@@ -552,13 +549,11 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%PS/
-(%Y'/
-(-5J"
-(5jT(
+(-eJ"
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
+(=>>"
 (A\^][
 (A\_^[
 (A]_^[
@@ -591,6 +586,8 @@ $w!Hc
 (D$pI
 (D$pL
 (D;}8
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
 (E;~,
 (Enumerating)
 (Failed Enumeration)
@@ -627,7 +624,6 @@ $w!Hc
 (cannot determine missing fields for lite message)
 (d$`D
 (d$pD
-(f*^[0
 (l$ L
 (l$0I
 (l$@D
@@ -790,7 +786,6 @@ $w!Hc
 **** JUDDER **** expected %u got %u
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
-*9Z9N
 *CVRMsg_CompositorGetScreenshotPropertyType
 *CVRMsg_CompositorRefSharedResourceResponse
 *CVRMsg_CompositorRequestScreenshotResponse
@@ -809,7 +804,6 @@ $w!Hc
 +CVRMsg_LaunchApplicationForMimeTypeResponse
 +CVRMsg_TrackedCamera_GetFrameBoundsResponse
 +L$@A
-+Xt@(
 +o'q)}
 , binary size = 
 , but got 
@@ -828,7 +822,8 @@ $w!Hc
 ,CVRMsg_TrackedCamera_SetAutoExposureResponse
 ,CVRMsg_TrackedCamera_StopVideoStreamResponse
 ,H;D$ 
-,W5y+
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
 -1e+9999
 -9k0t&H
 -9{0t%H
@@ -841,6 +836,7 @@ $w!Hc
 -ID3D11On12Device::CreateWrappedResource failed.
 -IPCWrapper
 -Infinity
+-Xb5%Fq%
 -disablewatchdogs
 -nokillprocess
 -personality_distort
@@ -2183,13 +2179,13 @@ $w!Hc
 0I;T$ H
 0_^[H
 0_^]H
-0w0c1
 0}0i1
 1.0.3.16
 1.2.840.113549.1.9.6
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 130801120000Z
+160107120000Z
 1:wglGetCurrentContext() returned NULL.  No OpenGL context current.
 1A9p 
 1CVRMsg_CompositorUpdateScreenshotProgressResponse
@@ -2206,29 +2202,24 @@ $w!Hc
 2+.CVRMsg_ComputeDistortionBatched.InputCoord
 2..CVRMsg_TrackedCamera_GetDistortion.InputCoord
 20.CVRMsg_LaunchTemplateApplication.AppOverrideKey
+210101000000Z
 210429000000Z
 211007000000Z
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
-220323000000Z
-220329000000Z
-220330231817Z0/
+220331225210Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
 27.CVRMsg_TrackedCamera_GetDistortionResponse.OutputCoord
 2CVRMsg_CompositorGetScreenshotPropertyTypeResponse
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2HcB,
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
-330314235959Z0L1
+310106000000Z0H1
+310107120000Z0r1
 3333333
 333?E
 360428235959Z0i1
 361.75
-370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
@@ -2236,6 +2227,8 @@ $w!Hc
 42HcF,
 440.97
 4IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 650000
@@ -2248,6 +2241,7 @@ $w!Hc
 79L$Pua
 7Failed to create readable frame info buffer (D3D10)!
 7HcC,
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7u;H;
 8"u	H
 8*u	H
@@ -2276,12 +2270,14 @@ $w!Hc
 8\$hu6
 8\u7H
 8_^][
+8aMbF$
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9)u$M
 98tHH
 9;tC@8{
+9=/L%
 9A(~0H
 9A|6H
 9C s.H
@@ -2416,6 +2412,7 @@ $w!Hc
 : Tried to merge from a message with a different type.  to: 
 : exception thrown in JSON library
 : one or more FS callback not set
+:0806
 :0u(H
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
@@ -2470,7 +2467,6 @@ $w!Hc
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
-=rIQU
 >"tVH
 >-ufH
 >Mp$d
@@ -2514,6 +2510,7 @@ $w!Hc
 ?CSxrSession
 ?CVkDevice::CreateDevice
 ?HcC,H
+?P5$!
 ?UUUUUU
 ?VALVE_runtime_is_steamvr
 ?_BADOFF@std@@3_JB
@@ -2591,9 +2588,7 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@8=-!=
-@8=\ =
-@8=~"=
+@8=]!=
 @8I+@0H
 @8i(u
 @8k t
@@ -2979,7 +2974,6 @@ Adobe
 After initial config load, app appears to be using legacy input
 After initial config load, app appears to not be using SteamVR Input
 After initial config load, app appears to not be using input
-AjEB#AZ
 Alert
 Alias
 AllowSetForegroundWindow
@@ -3073,11 +3067,13 @@ C H9C(t
 C H9T$@t
 C t~H
 C$A;A
+C%H =
 C(9~(~FL
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
+C-&E0
 C09w(~:L
 C0L9$
 C0L;E
@@ -3495,6 +3491,7 @@ ChangeAppType failed with %s
 Changing app type from %s to %s
 Chaperone Universe was missing ID
 Chord for %s had %d bindings, which we don't know how to deal with yet
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 ClHcKhH
 ClearField
 ClearSkyboxOverride
@@ -3918,11 +3915,11 @@ Device is not calibrated (206)
 DeviceGC
 Did not find any drivers!
 Did the application enable the required instance/device extensions?
+DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20210
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
-DigiCert, Inc.1;09
+DigiCert, Inc.1 0
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Disabling advanced image processing of scene textures. Only enabled on latest OSs.
@@ -4681,6 +4678,7 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
+H;= E0
 H;A s
 H;Axt
 H;C(v
@@ -4883,6 +4881,7 @@ I(I+I H
 I+G@H
 I+H H
 I+JHE3
+I0G08
 I98u2A
 I9<$u
 I9<$u"L
@@ -5176,7 +5175,6 @@ IcV H
 IcV0E3
 Ignoring WatchdogWakeUp because the workstation is locked
 Ignoring WatchdogWakeUp from driver because vrclient isn't in watchdog mode
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
@@ -5604,7 +5602,6 @@ Lcl$$I
 LeaveCriticalSection
 Left_
 Legacy Overlay
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LiquidVR v1.0.8.0+ required for Vulkan supported on AMD.
 LoadDriver called when there is no user config directory set
@@ -5636,6 +5633,7 @@ M H1E
 M#V0M
 M#W0M
 M#e0I
+M$#0]
 M+HPI
 M,fff
 M9 t13
@@ -6054,12 +6052,14 @@ Q H9P
 QFailed to create internal command allocator
 QHL9u
 QHtfH
+QJxy6z'
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSw
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6144,7 +6144,6 @@ S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 S0H;X
 S0IcH
-S0Q0O
 S8H+S0H
 S8H+S`H
 SATAUAVAWH
@@ -6764,6 +6763,7 @@ Using physical device: %s
 UuidFromStringA
 V H;P s
 V0H+V H
+V3"/"6
 V8H;C
 V@I9VHt
 VATAUAVAWH
@@ -7425,8 +7425,6 @@ W(H;C
 W(LcB
 W,H;C
 W0H;C
-W5SE$
-W5|E$
 W8H+W`I
 W8H;C
 W<H;C
@@ -7485,7 +7483,7 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
-X52U'
+X5bU'
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -7816,12 +7814,13 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%Gq-
-Y5!~"
-Y5+U/
-Y5NU/
+Y%3R/
+Y%wq-
+Y5Q~"
+Y5[U/
+Y5~U/
 Y9"SD
-Y=.~"
+Y=^~"
 Y>t$7?*
 YD$8E
 Yd$@A
@@ -8022,8 +8021,7 @@ ZvFailed to create fence to block on queue flush at shutdown.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%;'"
-_%w2"
+_%k'"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8098,6 +8096,7 @@ _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
 _l$8A
 _l$8E
+_lCI	
 _localtime64
 _lock_file
 _mbsstr
@@ -8240,6 +8239,7 @@ attributes
 audio
 autoLaunchSteamVROnButtonPress
 axis_index
+b=~N;&>
 b@8u'u
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
@@ -8603,8 +8603,8 @@ drivers
 dropNullPlaceholders
 drop_speed
 duration
+dwc_#Ri
 dxgi.dll
-e,>~^
 e0A_A^A]A\]
 eCS < CS_Count
 ePH9C tEH
@@ -8740,6 +8740,7 @@ fixed64
 flWaitTime < 1.0
 float
 fmodf
+fnVa')
 focal_x
 focal_y
 fopen
@@ -8860,10 +8861,12 @@ holographic_controller
 hpmotioncontroller
 http://
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0X
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 https://
+https://www.digicert.com/CPS0
 iError calling pDownsampleRenderer->Draw()!
 identifier_value
 ig@-?e
@@ -8988,6 +8991,7 @@ isdigit
 isspace
 it->nRefCount > 0
 ix`fA
+j0h02
 java_generate_equals_and_hash
 java_generic_services
 java_multiple_files
@@ -9128,6 +9132,7 @@ log_timestamp
 log_web_console_handle
 loglevel
 m0_$@
+m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_acquiredFrameIndices.size() > 0
@@ -9277,7 +9282,7 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o52W&
+o5bW&
 o@@fD
 oD$ fD
 oD$0f
@@ -10157,7 +10162,7 @@ t1Hcl$@
 t1fff
 t3fff
 t4L9P
-t8D8-!
+t8D8-Q
 t9fff
 t:fff
 t<Lc@xE
@@ -10353,7 +10358,6 @@ v=Y]Bv
 vD;EHL
 vE;E`M
 vHcD$LH
-vI!"S
 value
 value_hold_threshold
 value_mapping
@@ -10938,6 +10942,8 @@ wrong submessage type
 wrong version
 ww'Hc
 www.digicert.com1!0
+www.digicert.com1$0"
+www.digicert.com110/
 x ATAVAWH
 x AVH
 x L;m
@@ -10949,7 +10955,6 @@ xA^A\_^][
 xA_A^A]A\][
 xA_A^_^][
 xL97t
-x]~\6
 x_^][
 x_path
 xrAcquireSwapchainImage
@@ -11063,6 +11068,7 @@ xrclient
 xrclient_conformance
 xrconformance/driver
 xxxxxxx
+y0w0$
 yPDX10
 y_path
 yxxxxxxx
@@ -11078,8 +11084,10 @@ yxxxxxxxf
 yxxxxxxxu!H
 z+u)H
 z/u-H
+z0x0:
 z2u0H
 z4u2H
+z]JFB
 z_far
 z_near
 zlib corrupt
@@ -11091,7 +11099,6 @@ zuusA
 {%s}%s
 {,	u#
 {8@8l$8t1
-{un'%
 |$ 9kh~
 |$ 9y ~=H
 |$ @8y
@@ -11198,6 +11205,7 @@ zuusA
 |8PH;
 |D8E t"H
 |Lu?c
+|]E-K
 |s;K(tnA
 }(Hcv4I
 }(M98t

@@ -1,17 +1,13 @@
 	!s99
- %41g
  (Camera)
-!hn7!
-%?xC(.
-%R(wg
-',=?k
+ C  X1H
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
 (Unable to load LibOVR)
-(f*^[0
-*9Z9N
-+Xt@(
 +o'q)}
 , last executing in 
-,W5y+
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -75,9 +71,7 @@
 0"0(00080=0C0K0S0X0^0f0n0s0y0
 0#0A0M0S0a0k0q0
 0,040<0D0H0L0T0h0
-0hb~F
 0n0y0
-0w0c1
 0}0i1
 1"1'1,1A1F1K1P1U1Z1_1d1i1n1s1x1}1
 1#1+10161>1F1K1Q1Y1a1f1l1t1|1
@@ -86,29 +80,25 @@
 1(2L2x2
 1-232
 130801120000Z
+160107120000Z
 1G1O1x1
 2"2'2/242=2D2I2P2Y2`2e2l2u2|2
 2#2)21292>2D2L2T2Y2_2g2o2
 2*3d3
 2.4n4
+210101000000Z
 210429000000Z
 211007000000Z
-220323000000Z
-220329000000Z
-220330231450Z0/
+220331224847Z0/
 241009235959Z0a1
 242M2
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2\3&4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 3!3+383B3H3O3S3Y3c3m3w3
 3#3-373A3K3U3_3i3s3}3
-330314235959Z0L1
+310106000000Z0H1
+310107120000Z0r1
 360428235959Z0i1
-370322235959Z0c1
 380115120000Z0b1
 3<3X3x3
 3T4p4
@@ -121,6 +111,8 @@
 40m0v0
 4<4^4
 4>5G5P5Y5^5c5j5
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 4j/hd
 5#5-585]5
 5&5b5p5
@@ -146,11 +138,13 @@
 7(81898u8
 70503
 7c8w8
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 8#8,888>8D8O8
 8'818;8E8O8\8e8s8|8
 8,80888P8`8d8t8x8|8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8aMbF$
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -168,6 +162,7 @@
 :&:/:4:9:@:P:
 :&:/:8:=:B:I:
 :&;E;
+:0806
 :9;B;S;_;k;q;w;
 :E:q:
 ;!;&;+;2;B;
@@ -190,7 +185,6 @@
 =@>X>\>
 =M=V=_=h=m=r=y=~=
 =j)h8
-=rIQU
 >!>'>/>7><>B>J>R>W>]>e>m>r>x>
 >">(>.>4>:>@>F>L>R>X>^>d>j>p>v>|>
 >">D>N>W>b>h>n>u>
@@ -211,11 +205,10 @@
 @.data
 @.reloc
 ADVAPI32.dll
-AjEB#AZ
-AvtM_
 Bellevue1
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 CloseHandle
 Code: -1003
 Code: -3003
@@ -224,11 +217,11 @@ CreateEventW
 CreateThread
 D3D11CreateDevice
 DeleteCriticalSection
+DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20210
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
-DigiCert, Inc.1;09
+DigiCert, Inc.1 0
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Error! EventWriteString Severe: %s
@@ -251,6 +244,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 HmdDriverFactory
+I0G08
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -265,7 +259,6 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitDirectMode: DX11 level hardware required!
 InitDirectMode: Failed to create D3D11 device! (err=%u)
 InitializeConditionVariable
@@ -279,15 +272,14 @@ KERNEL32.dll
 K}*n:	
 L?n(Zy&
 LIBOVR_DLL_DIR
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 LoadLibraryW
+M$#0]
 MB(iVR
 MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-M}Z[g
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -295,10 +287,10 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QJxy6z'
 QueryPerformanceCounter
 RPCRT4.dll
 RaiseException
-S0Q0O
 SA|X=G
 SDL2.dll
 SDL_CreateWindow
@@ -324,6 +316,8 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
+V(EO_9
+V3"/"6
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
@@ -331,6 +325,7 @@ VR_OVERRIDE
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+W<nx`8
 WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
@@ -377,6 +372,7 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
+_lCI	
 _purecall
 _register_onexit_function
 _seh_filter_dll
@@ -393,22 +389,26 @@ bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
 d3d11.dll
-d9)1h
 dk2_camera
 driver_oculus_legacy.dll
-e,>~^
+dwc_#Ri
 f;A*stSW
+fnVa')
 getenv
+hdNdZ
 headset
-ht0^ga
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0X
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+https://www.digicert.com/CPS0
 invalid string position
+j0h02
 jdjdh
 jj@0HK4
 k0i0$
+m0k0$
 malloc
 map/set<T> too long
 memcpy
@@ -473,7 +473,12 @@ uCVj@
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
-x]~\6
+www.digicert.com1$0"
+www.digicert.com110/
+y0w0$
+y5Gv)
+z0x0:
+zLz)7
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -483,7 +488,7 @@ x]~\6
 {oculus_legacy}/icons/%s_%s_ready_alert.png
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
-{un'%
 |Lu?c
+|]E-K
 }LuHO
 ~t&LN

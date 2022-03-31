@@ -30,7 +30,6 @@
     Bucket: size:%zu timeline:none
     Unused Resources: size:%zu
     Unused timelines: size:%zu
- %41g
  - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s
  A^^[
  A_A^A\
@@ -50,7 +49,6 @@
 !IsInUse()
 !bindings.empty()
 !g_pSharedResourceNamespaceServer
-!hn7!
 !isnan( *pSecondsSinceVsync )
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
@@ -306,7 +304,6 @@ $II+L$`
 %s: unsupported format
 %s: usage must be specified when allocating images
 %u != %zu
-',=?k
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -316,9 +313,10 @@ $II+L$`
 (D$ f
 (D$0f
 (D$pv
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
 (L$pD
 (d$pD
-(f*^[0
 (l$0L
 (l$@D
 (l$`H
@@ -350,12 +348,11 @@ $II+L$`
 ********** Blue ( nLoopCount++ > 1000 )!
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
-*9Z9N
 *HcT$PH
-+Xt@(
 +o'q)}
 , last executing in 
-,W5y+
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
 -IPCWrapper
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -485,7 +482,6 @@ $II+L$`
 .CRT$XTA
 .CRT$XTZ
 .P6AXW4ELogLevel@@PEBDPEAX@Z
-.\F9B
 .data
 .data$r
 .edata
@@ -522,38 +518,37 @@ $II+L$`
 0A_A^A]A\_^[
 0A_A^_
 0A_A^_^[
-0w0c1
 0}0i1
 1.2.840.113549.1.9.6
 130801120000Z
+160107120000Z
+210101000000Z
 210429000000Z
 211007000000Z
-220323000000Z
-220329000000Z
-220330231256Z0/
+220331224750Z0/
 241009235959Z0a1
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
-330314235959Z0L1
+310106000000Z0H1
+310107120000Z0r1
 33s?+
 360428235959Z0i1
-370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 8 t"L
 8 u'L
 8A^A\
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+8aMbF$
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -561,6 +556,7 @@ $II+L$`
 9C<rTH
 9ELtgL9|$Pt
 9H(~-
+:0806
 :A9x 
 :EotB
 ;K sOH
@@ -569,7 +565,6 @@ $II+L$`
 <0:08
 <P)9Y
 <unknown>
-=rIQU
 >Mp$d
 >ffv?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
@@ -623,7 +618,6 @@ $II+L$`
 @SWAUH
 @SWAVH
 @SteamVR_Namespace
-@U/@i
 @UATAUH
 @UAVAWH
 @UAVH
@@ -717,7 +711,6 @@ AddAccessAllowedAce failed for test app. GetLastError returned: %d
 AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
 AddDescriptorSet and CopyDescriptorSets are mutually exclusive.
 AddStage and CopyStages are mutually exclusive.
-AjEB#AZ
 Apply blur filter
 Apply median filter
 Attempt to init shared state %s twice
@@ -880,6 +873,7 @@ CertCloseStore
 CertFindCertificateInStore
 CertFreeCertificateContext
 CertGetNameStringA
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 Client (%s) app container state: %d
 Client Swapchain: %d
 ClientLayers-%d
@@ -987,11 +981,11 @@ D;C sIH
 DebugMessengerCallback
 DeleteCriticalSection
 DeviceGC
+DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20210
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
-DigiCert, Inc.1;09
+DigiCert, Inc.1 0
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Downsample Scene Image
@@ -1075,6 +1069,7 @@ GetTokenInformation failed. GetLastError returned: %d
 Graphics Timeline
 H SVWH
 H USVAUH
+H&8g*
 H+D$@
 H+D$Xf
 H+EpH
@@ -1136,6 +1131,7 @@ History Timeline
 History-Buffer-%d
 I#V0I
 I+O`H
+I0G08
 I97t;I
 I98u2A
 I9B A
@@ -1152,7 +1148,6 @@ IPCPipe(%s): Next message type %u, seq %u, len %u
 IPCPipe(%s): Sending simple message type %u, seq %u
 IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal
 IPCPipe(%s): Wrote %u bytes of total message length
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 ImportClients
 InitializeAcl
 InitializeAcl failed. GetLastError returned: %d
@@ -1220,7 +1215,6 @@ L?n(Zy&
 LAYER:%2d[%d|%d|%d] [%d|%d|%d]
 LeaveCriticalSection
 Left Eye
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LiquidVR
 LiquidVR: Failed to close display! Error=%d
 LiquidVR: Failed to create fence!
@@ -1236,6 +1230,7 @@ LoadLibraryW
 LocalAlloc
 LocalFree
 M H1E
+M$#0]
 M(I9V t
 M98u/
 M9L$pthI
@@ -1321,7 +1316,6 @@ NvEncode
 NvEncode %s-%s
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
-O#:z/(Y
 O0H9Q
 OLEAUT32.dll
 OpH9Q
@@ -1403,6 +1397,7 @@ Prism-Main
 Prism-PrepareInput
 Prism-UpdatePanelMask
 Pz}b!
+QJxy6z'
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
@@ -1437,7 +1432,6 @@ RtlVirtualUnwind
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
-S0Q0O
 SA|X=G
 SHGetFolderPathW
 SPV_NV_compute_shader_derivatives
@@ -1559,6 +1553,7 @@ Upload raw motion vectors
 UploadMotionVectors
 Using physical device: %s
 UuidFromStringA
+V3"/"6
 VAVAWH
 VCRUNTIME140.dll
 VERSION.dll
@@ -1655,6 +1650,7 @@ Yl$4E
 \$xHk
 \$xMi
 \\.\pipe\
+](1Rlk=d
 ]J<0"0i3
 ]g@8yhu
 _Cnd_broadcast
@@ -1703,6 +1699,7 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
+_lCI	
 _purecall
 _register_onexit_function
 _seh_filter_dll
@@ -1814,8 +1811,8 @@ data->IsInitialized()
 data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
+dwc_#Ri
 dxgi.dll
-e,>~^
 effffff
 fabsf( *pSecondsSinceVsync ) < 1000.0f
 facet::CVkTimestampQueryPool<2>::Create
@@ -1829,6 +1826,7 @@ fffffff
 flMotionVectorScale[ vr::Eye_Left ] == flMotionVectorScale[ vr::Eye_Right ]
 flWaitTime < 1.0
 fn != nullptr
+fnVa')
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
 from.pPool != nullptr
@@ -1844,15 +1842,18 @@ gfffffffO
 graphicsCommandSet.Valid()
 hA_A^A]A\_^[]
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0X
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+https://www.digicert.com/CPS0
 input.colorIndices.nSwapchainIndex != SwapchainIndices_t::k_nInvalidSwapchainIndex
 invalid bitset<N> position
 invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
+j0h02
 jj@0HK4
 k0i0$
 l$ E3
@@ -1875,6 +1876,7 @@ l$XL9
 l$xHc
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
+m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
@@ -1921,7 +1923,6 @@ memset
 multiple signals per batch not allowed
 mwH9S
 nArrayIndex < m_details.nArrayLayerCount
-nCY@F
 nD$p3
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nImageIndex < ARRAY_SIZE( m_descriptorClientImages )
@@ -2039,7 +2040,6 @@ t$PH=
 t$`Li
 t$hH+
 t$lff
-t9\qc
 tC8Khu1
 tOH97t	H
 tUH93t	H
@@ -2054,7 +2054,6 @@ timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
 uAfff
-uIuH:
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
@@ -2525,12 +2524,14 @@ vulkan-1.dll
 wcsrchr
 wcsstr
 www.digicert.com1!0
+www.digicert.com1$0"
+www.digicert.com110/
 xA_A^A]A\_^[]
-x]~\6
+y0w0$
 yxxxxxxxH
 yxxxxxxxI+
+z0x0:
 {pH;{xw?
-{un'%
 |$ ATAVAWH
 |$ AVH
 |$ AVL
@@ -2564,6 +2565,7 @@ yxxxxxxxI+
 |$xMi
 |6hE3
 |Lu?c
+|]E-K
 }(M98t
 }LuHO
 }`H+}XH

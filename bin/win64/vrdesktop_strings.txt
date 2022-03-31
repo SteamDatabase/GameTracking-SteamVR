@@ -23,14 +23,12 @@
 (D$ f
 (DigiCert SHA2 Assured ID Timestamping CA
 (DigiCert SHA2 Assured ID Timestamping CA0
-(i.="Ff]
 (t$ 2
 (t$@H
 (|$ H
 )D$ L
 )t$0H
 )t$@H
-*XY7Q>
 *uXI;
 +o'q)}
 , last executing in 
@@ -139,6 +137,8 @@
 0A_A^_^[
 0A_A^_^]
 0A__[
+0Fb	l
+0ix$*
 0}0i1
 130801120000Z
 160107120000Z
@@ -146,7 +146,7 @@
 210101000000Z
 210429000000Z
 211007000000Z
-220330231653Z0/
+220331225008Z0/
 241009235959Z0a1
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 310106000000Z0H1
@@ -161,11 +161,13 @@
 6I]Dc
 6OB,n_
 70503
+7Vg9Ol
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 8aMbF$
+9, 5dbXP
 :0806
 < t+<
 </u#H
@@ -354,6 +356,7 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
+F5ccz
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -537,7 +540,6 @@ NPH9Q
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
-P*!,8dT.
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
@@ -549,7 +551,7 @@ QJxy6z'
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS=
+RSDS;IR
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -731,7 +733,6 @@ desktopview
 dwc_#Ri
 dwmapi.dll
 dxgi.dll
-e$>Ol
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fF94@u

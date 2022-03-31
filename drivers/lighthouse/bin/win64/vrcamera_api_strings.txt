@@ -322,6 +322,8 @@ $< t6<$t,<+t"<vt
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.FbxD
+.HTi~/
 .data
 .data$r
 .edata
@@ -378,10 +380,11 @@ $< t6<$t,<+t"<vt
 211007000000Z
 220323000000Z
 220329000000Z
-220330231137Z0/
+220331224508Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2IT$A!
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -439,6 +442,8 @@ $< t6<$t,<+t"<vt
 ;Ct~EH
 ;Ct~ZH
 ;Ct~gH
+;kYRI
+;sv?$,U
 <%ufH
 <0:08
 <:u/H
@@ -449,7 +454,6 @@ $< t6<$t,<+t"<vt
 <}wYI
 =rIQU
 >Mp$d
-?:>dqLy
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -1075,7 +1079,6 @@ L;L$(t
 L?n(Zy&
 LCMapStringEx
 LCMapStringW
-LMzDx
 LcCP3
 LcGDI
 LcGP3
@@ -1253,11 +1256,11 @@ WideCharToMultiByte
 WinRTInitialization
 Writing failed at 0x%X/0x%X Bytes
 X E9j
+X$\NV
 Y$D;R
 Y0t>H
 Y9"SD
 Z(D9Z
-Zl#3F 
 [@D8}oteH
 [K]taM?
 \$ UH
@@ -1279,7 +1282,6 @@ Zl#3F
 \$Pu-H
 \$hE3
 \$pE3
-\6#sOC6K
 ]J<0"0i3
 ]`u7H
 _(H9n
@@ -1410,6 +1412,7 @@ fD9 u
 fD9!t	H
 fD98t
 fD9|$Xu
+faMD!z0
 false
 fclose
 fflush
@@ -1480,7 +1483,6 @@ l$pfA#
 l$xM+
 l*$D+l*,tDD+l*(
 ldexp
-lnmvh
 localeconv
 lower
 lstrcmpW
@@ -1540,8 +1542,8 @@ protocol error
 protocol not supported
 punct
 q(9qD~[E3
+qBO+H
 r	uAD;d$$u:
-r yA:
 rBu/H
 rLp>B
 raB3G

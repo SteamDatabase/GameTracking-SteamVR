@@ -1,25 +1,29 @@
 	!s99
     A
+ %41g
  (Camera)
  9D$D
  A__^
  H3E H3E
+!hn7!
+',=?k
 (A^A]^[
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (Unable to load LibOVR)
 (\$pD
 (d$`D
+(f*^[0
 (l$PD
 (t$pH
+)/(Z6
 )D$ H
 )\$pD
 )d$`D
 )t$pu.H
+*9Z9N
++Xt@(
 +o'q)}
 , last executing in 
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -81,32 +85,34 @@
 .xdata
 .xdata$x
 0A_A^A]A\_^[
+0w0c1
 0}0i1
 130801120000Z
-160107120000Z
-210101000000Z
 210429000000Z
 211007000000Z
-220330231956Z0/
+220323000000Z
+220329000000Z
+220331225133Z0/
 241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-310106000000Z0H1
-310107120000Z0r1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+330314235959Z0L1
 360428235959Z0i1
+370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+4"mF'
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-8aMbF$
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -114,13 +120,12 @@
 9h u{H
 9l$Ht
 9l$pt
-9t5t(
-:0806
 ;K sCH
 ;K sUH
 ;k sAH
 ;k sDH
 <0:08
+=rIQU
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
@@ -148,15 +153,14 @@ A_A^A]A\_
 A_A^A]A\_^[]
 A_A^]
 A__][
+AjEB#AZ
 AuthD
-B!8o*r
 Bellevue1
 C(L95
 CL$PH
 COculusHmdLatest::UpdateThread
 CT$ H
 Camera tracker driver for rejected by vrserver
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 CloseHandle
 Code: -1003
 Code: -3003
@@ -171,13 +175,13 @@ D9@ s
 D9H s
 D;A s
 D;I s
-DI*70
+D[Ej)
 DeleteCriticalSection
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Error! EventWriteString Severe: %s
@@ -205,7 +209,6 @@ H;{XH
 HcD$0
 HcK@H
 HmdDriverFactory
-I0G08
 IL95-
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -221,6 +224,7 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitDirectMode: DX11 level hardware required!
 InitDirectMode: Failed to create D3D11 device! (err=%u)
 InitializeConditionVariable
@@ -240,10 +244,10 @@ L$@H3
 L9t$huP
 L?n(Zy&
 LIBOVR_DLL_DIR
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 LoadLibraryW
 M H1E
-M$#0]
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -259,14 +263,15 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QJxy6z'
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDS%jwO@
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S0Q0O
 SA|X=G
 SDL2.dll
 SDL_CreateWindow
@@ -298,7 +303,6 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
-V3"/"6
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
@@ -322,6 +326,7 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
+\ZY,|W
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -355,12 +360,12 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _purecall
 _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`>nGp=O
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -372,27 +377,24 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\201
 camera
 d$`H=
 d3d11.dll
+dgwLg7U+
 dk2_camera
 driver_oculus_legacy.dll
-dwc_#Ri
+e,>~^
 effffff
 f9<Xu
-fnVa')
+fj@+6
+g>eHoK
 getenv
 gfffffffH
-h24/.
 headset
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
-j0h02
 jj@0HK4
 k0i0$
 l$8E3
-m0k0$
 malloc
 map/set<T> too long
 memcmp
@@ -448,6 +450,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+pC&@.
 startup
 string too long
 strncpy
@@ -458,6 +461,7 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
+t0Fb6
 tIL95v
 tXfff
 tdh.dll
@@ -466,11 +470,9 @@ tkH97t	H
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
-y0w0$
+x]~\6
 z(uMH
-z0x0:
+zah0+T
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -480,9 +482,9 @@ z0x0:
 {oculus_legacy}/icons/%s_%s_ready_alert.png
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
+{un'%
 |$ AVH
 |$8I;
 |Lu?c
-|]E-K
 }LuHO
 ~t&LN

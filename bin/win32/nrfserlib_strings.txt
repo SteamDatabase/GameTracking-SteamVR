@@ -15,7 +15,6 @@
    Manufacturer: %s
    Service: %s
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
- %41g
  QP9F
  aborted.
  ack#:
@@ -53,7 +52,6 @@
  syncSent:
  times.
  version-number:
-!hn7!
 "0)0C0
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
@@ -73,21 +71,21 @@ $Vh&*
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
 ' is not a number.
-',=?k
 ()$^.*+?[]|\-{},:=!
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
-(f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-*9Z9N
 +KL+SL_;
-+Xt@(
 +o'q)}
 , H5 error count: 
 , defaulting to flow_control::none!
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
-,W5y+
+,X97Of
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
 -1e+9999
 -Infinity
 -external
@@ -562,7 +560,6 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
-/s_sT]
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -617,7 +614,6 @@ $Vh&*
 0S1m1
 0^0q0x0
 0f3x3
-0w0c1
 0}0i1
 1 1$1(1,101
 1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
@@ -653,6 +649,7 @@ $Vh&*
 141<1D1L1T1\1d1l1t1|1
 141@1H1h1
 15A5Q5a5q5
+160107120000Z
 181X1x1
 182?2
 1:1^1h1
@@ -703,11 +700,10 @@ $Vh&*
 2-2G2^2&7
 2.0.0
 2.3?3F3M3
+210101000000Z
 210429000000Z
 211007000000Z
-220323000000Z
-220329000000Z
-220330231439Z0/
+220331224801Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -724,8 +720,6 @@ $Vh&*
 2@2E2
 2@2x2
 2A2F2Q2V2p2
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
-2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2F3R3_3
 2G2Y2t2
 2H3L3P3T3X3\3`3d3h3l3p3t3x3|3
@@ -737,9 +731,7 @@ $Vh&*
 2d3h3l3p3t3x3|3
 2e3v3f4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2v3F4X4
-2xJK7*L
 3	4K4t4
 3 3$3
 3 3$3(3,3034383<3@3D3H3L3P3T3
@@ -765,18 +757,19 @@ $Vh&*
 3)4T4
 3+31353;3?3I3f3u3
 3+3>3L3g3r3
+3,0|{
 3,30343<3T3d3h3x3|3
 3,303@3D3H3P3h3x3|3
 3-3H3c3q3
 3.3R3\3
+310106000000Z0H1
+310107120000Z0r1
 31;1C1M1
 32-bit
 323H3
-330314235959Z0L1
 343D3H3X3\3`3h3
 353[3
 360428235959Z0i1
-370322235959Z0c1
 374R4l4
 374W4c4
 380115120000Z0b1
@@ -838,6 +831,8 @@ $Vh&*
 4U7p7
 4]4t4z4
 4f5s546
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 4q5v5
 5	646\6
 5 5$5
@@ -977,8 +972,8 @@ $Vh&*
 7V8J9
 7V8h8
 7^8~8
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7t7y7~7
-7v9`xcLA
 8	9%9=9^9s9
 8 8$8(8,808
 8 8$8(8,8084888<8@8D8H8L8P8L>P>t>x>
@@ -1038,6 +1033,7 @@ $Vh&*
 8W9n9x9
 8^8q8x8
 8_^[]
+8aMbF$
 8m97:>:L:P:
 8t9y9
 8u9_:v:R<
@@ -1116,6 +1112,7 @@ $Vh&*
 :+:F:K:
 :,;3;:;Q;X;_;
 :,;=;_;d;
+:0806
 :0:T:`:h:
 :0;J;d;&<@<
 :2:q:
@@ -1272,7 +1269,6 @@ $Vh&*
 =_>h>
 =a>q>
 =f>t>
-=rIQU
 > >$>(>,>0>4>8>
 > >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
 > >$>(>0>H>X>\>l>p>t>|>
@@ -1430,7 +1426,6 @@ A98t
 ACL_DATA_PACKET
 ADVAPI32.dll
 Address:  %s
-AjEB#AZ
 Already open
 Attribute Discovery
 Authentication
@@ -1552,6 +1547,7 @@ Caller: the file had already been partially unzipped
 Caller: there was a previous error
 Characteristic Declaration handle: %d, Value handle: %d, Characteristic UUID: 0x%04X
 Characteristic discovery failed. (gatt_status: %s)
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 ClPSR
 CloseHandle
 CoGetClassObject
@@ -1615,11 +1611,11 @@ DFU_RESPONSE_UNSUPPORTED_TYPE
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
+DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20210
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
-DigiCert, Inc.1;09
+DigiCert, Inc.1 0
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Disconnected, reason: %s
@@ -1741,10 +1737,10 @@ HCI_EVENT_PACKET
 HTC BS
 HeapAlloc
 HeapFree
+I0G08
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
-Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Indication
 Infinity
 InitializeConditionVariable
@@ -1775,11 +1771,11 @@ L?n(Zy&
 LHB-DFU
 LINK_CONTROL_PACKET
 LeaveCriticalSection
-Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LocalFree
 Looking for external adpater.
 Looking for internal adpater.
+M$#0]
 MB(iVR
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)
@@ -1870,7 +1866,6 @@ OLEAUT32.dll
 OT+O`
 Od+O`
 Out of thread local storage!
-P3HI)Z
 P4X4\4`4d4h4l4p4t4x4|4
 PAq=?Mp#
 PID_%04X
@@ -1895,6 +1890,7 @@ Power Control
 Progress: %d%% (%d/%d)
 Pz}b!
 Q0;Q(t#
+QJxy6z'
 QPh@	
 Qkkbal
 QueryPerformanceCounter
@@ -1933,7 +1929,6 @@ Rejecting malformed advertisement report, address: %s name: %s
 ResetEvent
 Response: %s, %s
 Restart:  %s
-S0Q0O
 S9~@u
 SA|X=G
 SD RPC APP Status: %s, %s
@@ -2041,7 +2036,7 @@ Unknown Nordic Semiconductor vendor specific packet received
 Unknown RPC App Status (%d)
 Unknown exception
 UnlouA
-V!v1L:l
+V3"/"6
 VCRUNTIME140.dll
 VENDOR_SPECIFIC
 VID_%04X
@@ -2099,7 +2094,6 @@ Zipfile is corrupt or not a zipfile
 [K]taM?
 \0`0d0|0
 \Device Parameters
-]ECiF
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2155,6 +2149,7 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
+_lCI	
 _localtime64
 _mbsstr
 _mktime64
@@ -2166,8 +2161,6 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
-`e)&"
-a7b?J
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -2202,7 +2195,7 @@ dat_file
 data error
 deque<T> too long
 digit
-e,>~^
+dwc_#Ri
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2218,6 +2211,7 @@ f=cku7
 false
 file error
 floor
+fnVa')
 generic
 gfffVW3
 graph
@@ -2226,9 +2220,11 @@ h5_transport is in state
 h5_transport received ack packet in state 
 hardware
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0X
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+https://www.digicert.com/CPS0
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -2261,12 +2257,14 @@ j!hti
 j#h<M
 j$h i
 j(hHi
+j0h02
 jWhXG
 jj@0HK4
 k0i0$
 list<T> too long
 lj!hh
 lower
+m0k0$
 malloc
 manifest
 manifest file %s parse error from %s
@@ -2286,7 +2284,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-q,c0Mw
+qONU0
 realloc
 s?=2N
 sd_ble_cfg_set
@@ -2470,14 +2468,16 @@ winsock
 wn>Jj
 wt_^[
 www.digicert.com1!0
+www.digicert.com1$0"
+www.digicert.com110/
 x5t7j
-xP/Zy
-x]~\6
 xdigit
+y0w0$
 y4_^[
+z0x0:
 {L?uI
-{un'%
 |Lu?c
+|]E-K
 |cj#h
 }	jCh
 }LuHO

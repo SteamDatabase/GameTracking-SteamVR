@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+ %41g
  A_A^A\
  A_A^A]A\_
  A_A^]
@@ -13,33 +14,35 @@
  H3E H3E
  for detail.
 !! refusing to trigger minidump with debugger attached
+!hn7!
 %%.%dg
-%(~|x
 %s%s%s%s%s
 ' is not a number.
+',=?k
 (A\_^[
 (A^A]^[
 (A_A^^[
 (A_A^_]
 (D$ f
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
+(f*^[0
 (t$ 2
 (t$@H
-({2>q
 (|$ H
 )D$ L
 )t$0H
 )t$@H
+*9Z9N
 *uXI;
++Xt@(
 +o'q)}
 , last executing in 
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 -1e+9999
 -Infinity
+-lv*S
 -u-I;
 .00cfg
+.0Fb~\b
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
 .?AUhresult_access_denied@winrt@@
@@ -164,41 +167,44 @@
 0A_A^_^[
 0A_A^_^]
 0A__[
+0w0c1
 0}0i1
 130801120000Z
-160107120000Z
 1e+9999
-210101000000Z
 210429000000Z
 211007000000Z
-220330231712Z0/
+220323000000Z
+220329000000Z
+220331225023Z0/
 241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-310106000000Z0H1
-310107120000Z0r1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+3!:Gc
+330314235959Z0L1
 360428235959Z0i1
+370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+7|,x)S
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-8aMbF$
-92P<;
 9D$xu
 9D$|tcH
-:0806
+:p>D<j
 < t+<
 </u#H
 <0:08
 <unknown>
+=rIQU
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -307,6 +313,7 @@ A_A^_^[]
 A_A^_^]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
+AjEB#AZ
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
@@ -335,7 +342,6 @@ C\$0L
 C\$0M
 C\$PL
 C\$pH
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 Close Frame
 CloseHandle
 CoCreateInstance
@@ -399,11 +405,11 @@ DesktopView_%d
 Destroying overlay for desktop %d.
 Destroying overlay for window %s.
 Destroying pointer overlay for desktop.
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
@@ -430,6 +436,8 @@ Error showing window.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
+F6CwN
+FLY;N&u
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -529,7 +537,6 @@ Handling scroll discrete
 Handling scroll smooth
 Handling unlock mouse
 HcFdH
-I0G08
 I9Bhs
 I;4$H
 I;4$L
@@ -565,6 +572,7 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -601,6 +609,7 @@ L9|$p
 L;8u6H
 L?n(Zy&
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LoadCursorA
 LoadLibraryA
@@ -608,7 +617,6 @@ LocalFree
 LocalizationManager
 Lsystem.window.%s
 M H1E
-M$#0]
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -634,10 +642,10 @@ Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QJxy6z'
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSg]
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -647,6 +655,7 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S0Q0O
 SA|X=G
 SHCreateItemFromParsingName
 SHELL32.dll
@@ -735,7 +744,6 @@ UpdateOverlayTexture
 UpdatePhysicalMouseInfo
 UpdatePointerOverlay
 UploadCursorTexture
-V3"/"6
 VATAVH
 VCRUNTIME140.dll
 VR_CONFIG_PATH
@@ -771,7 +779,7 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
-\jtty
+\4P.9
 \u=H;
 ]J<0"0i3
 _Cnd_destroy
@@ -817,7 +825,6 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _purecall
 _register_onexit_function
 _seh_filter_dll
@@ -861,26 +868,24 @@ d3d11.dll
 dashboard
 deque<T> too long
 desktopview
-dwc_#Ri
 dwmapi.dll
 dxgi.dll
+e,>~^
 enableWindowView
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fF94@u
 false
 fffffff
-fnVa')
 frame_time
+gf^F=
 gfffffffH
 gfffffffI
 handlers
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -894,7 +899,6 @@ in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 input_frame_time
 invalid stoull argument
-j0h02
 jj@0HK4
 k0i0$
 l$ H;
@@ -904,7 +908,6 @@ l$@H;
 l$PM9n
 l$xM;
 list<T> too long
-m0k0$
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -988,11 +991,10 @@ window_view_destroyed
 windows
 wn>Jj
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-y0w0$
-z0x0:
+x]~\6
+z:>08
+{un'%
 |$ ATAVAWH
 |$ AVH
 |$ AVL
@@ -1008,6 +1010,5 @@ z0x0:
 |$PL9~
 |$hH9>ueH
 |Lu?c
-|]E-K
 }LuHO
 ~t&LN

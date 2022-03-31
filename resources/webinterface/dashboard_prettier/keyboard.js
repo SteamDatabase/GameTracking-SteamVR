@@ -698,7 +698,12 @@
       }
       buildNode(e, t) {
         const n = this.createSgNode(t);
-        return (n.properties.mountable_id = W(this.props.mountedId)), [e, n];
+        return (
+          (n.properties.mountable_id = W(this.props.mountedId)),
+          this.props.fDashboardScale &&
+            (n.properties.dashboard_scale = this.props.fDashboardScale),
+          [e, n]
+        );
       }
     }
     Object(r.b)([a.a], te.prototype, "buildNode", null);
@@ -3902,21 +3907,16 @@
           o = a ? this.state.mapOverlayState.get(a) : null,
           l = a ? t.mapOverlayState.get(a) : null,
           c = o && l && o.fScale != l.fScale;
-        if ((t.sActiveOverlayID != this.state.sActiveOverlayID || c) && o)
-          if (this.isDesktopOverlayActive())
-            null === (n = this.m_refDesktopView.current) ||
-              void 0 === n ||
-              n.onDesktopScaleChange(o.fScale);
-          else {
-            const e = VRHTML.VROverlay.FindOverlay(a);
-            if (e) {
-              const t = o.fInitialWidth * o.fScale;
-              VRHTML.VROverlay.SetWidthInMeters(e, t);
-            }
-          }
         if (
+          ((t.sActiveOverlayID != this.state.sActiveOverlayID || c) &&
+            o &&
+            this.isDesktopOverlayActive() &&
+            (null === (n = this.m_refDesktopView.current) ||
+              void 0 === n ||
+              n.onDesktopScaleChange(o.fScale)),
           t.sActiveOverlayID != this.state.sActiveOverlayID &&
-          (this.setState({ bKeyboardVisible: !1 }), this.isOverlayActive(u.H))
+            (this.setState({ bKeyboardVisible: !1 }),
+            this.isOverlayActive(u.H)))
         )
           switch (T.b.Instance.lastBigPictureEntryPoint) {
             case T.a.QuickLaunch:
@@ -3944,21 +3944,18 @@
       }
       initializeOverlayState(e) {
         var t;
-        const n = VRHTML.VROverlay.FindOverlay(e);
-        let r = n ? VRHTML.VROverlay.GetWidthInMeters(n) : 1,
-          i = 1;
+        let n = 1;
         if (e.startsWith("system.desktop.")) {
-          let n = "/settings/dashboard/desktopScale" + e.split(".")[2];
-          i = null != (t = p.d.settings.get(n)) ? t : 1;
+          let r = "/settings/dashboard/desktopScale" + e.split(".")[2];
+          n = null != (t = p.d.settings.get(r)) ? t : 1;
         }
-        let a = {
+        let r = {
           dockLocation: g.i.Dashboard,
           refOverlayWidget: c.createRef(),
           xfInitial: null,
-          fInitialWidth: r,
-          fScale: i,
+          fScale: n,
         };
-        this.state.mapOverlayState.set(e, a);
+        this.state.mapOverlayState.set(e, r);
       }
       updateSiblingReferences() {
         var e;
@@ -4133,7 +4130,14 @@
       renderActiveOverlay() {
         if (null === this.state.sActiveOverlayID) return null;
         const e = this.getActiveOverlay();
-        return e ? c.createElement(s.S, { mountedId: e.mountable_id }) : null;
+        if (!e) return null;
+        const t = this.getActiveOverlayKey(),
+          n = this.state.mapOverlayState.get(t),
+          r = n ? n.fScale : 1;
+        return c.createElement(s.S, {
+          mountedId: e.mountable_id,
+          fDashboardScale: r,
+        });
       }
       computeFilteredOverlayTabs() {
         if (this.screenshotMode) return [];
@@ -9068,4 +9072,4 @@
         });
   },
 });
-//# sourceMappingURL=keyboard.js.map?v=aa9022a6d43b39f2693e
+//# sourceMappingURL=keyboard.js.map?v=f104dbedfc7cb19a724a

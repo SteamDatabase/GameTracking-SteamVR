@@ -8,6 +8,7 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
+#o>s*_
 ',=?k
 (D$0f
 (f*^[0
@@ -111,11 +112,12 @@
 0}0i1
 1.0.0
 130801120000Z
+1U/[L
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220330231216Z0/
+220331224614Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -126,7 +128,9 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3T+v;
 3mq+<
+5/Fbv3
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -134,14 +138,12 @@
 70503
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8STW/
 8_^][
 9E ukH
 <0:08
 <P)9Y
 <unknown>
 =rIQU
->	[8c
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -221,6 +223,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KurOD<
 K}*n:	
 L$ SH
 L$ SUVWH
@@ -326,6 +329,7 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
+_}lwLiE
 `.rdata
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -354,15 +358,14 @@ iswspace
 jj@0HK4
 k0i0$
 l$ WH
-lrlzX
 m_path
 malloc
 memcpy
 memmove
 memset
+muH(Q?
 ntelD
 ole32.dll
-s[nx%C
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -372,6 +375,7 @@ t$8H9)t
 t$@H=
 tXfff
 terminate
+uD7\o
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long

@@ -9,6 +9,7 @@
 	<bu 
 	@81t/@8q
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
+ %41g
  -SERVICE_EXPLORE
  A^A]A\^]
  A^^[
@@ -29,6 +30,7 @@
  for detail.
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
+!hn7!
 %%.%dg
 %2.2X
 %8.8X
@@ -74,6 +76,7 @@
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
 ' is not a number.
+',=?k
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
@@ -81,8 +84,6 @@
 (A^A]^[
 (A_A^^[
 (A_A^_]
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (HANDLE:)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})(-)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})\s([0-9A-F]*)
@@ -95,6 +96,7 @@
 (UUID16:)([0-9A-F]{4})
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
+(f*^[0
 (t$@H
 (t$PA;
 (t$PH
@@ -102,11 +104,12 @@
 )D$ L
 )t$@H
 )t$PA
+*9Z9N
 *uXI;
 +9kdt	H
++Xt@(
 +o'q)}
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 -1e+9999
 -ADDR %s
 -Infinity
@@ -214,31 +217,33 @@
 0A__[
 0A__^
 0L;w(
+0w0c1
 0}0i1
 130801120000Z
-160107120000Z
 1e+9999
-210101000000Z
 210429000000Z
 211007000000Z
-220330231454Z0/
+220323000000Z
+220329000000Z
+220331224830Z0/
 241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-310106000000Z0H1
-310107120000Z0r1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+330314235959Z0L1
 3333333
 360428235959Z0i1
+370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 666666666666666666666666666666666666666666666666666666666666
 6I]Dc
 6OB,n_
 70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8EC90001F3154F609FB8838830DAEA50
@@ -246,11 +251,9 @@
 8EC90003F3154F609FB8838830DAEA50
 8L$4tMH
 8_^][
-8aMbF$
 9\u-H
 9\u4H
 9sdu	@8s
-:0806
 ::LHB::%4.4X %s
 :\u-L
 :\u6L
@@ -261,6 +264,7 @@
 ======================
 ==============================
 => Entering Context
+=rIQU
 >"t H
 >"t-H
 >Mp$d
@@ -411,6 +415,7 @@ A_A^_
 A_A^_^]
 A__^[]
 Address:  %s
+AjEB#AZ
 AuthD
 Authentication
 BDFU Post
@@ -500,7 +505,6 @@ Caller: the file had already been partially unzipped
 Caller: there was a previous error
 Can not open file to determine Bluetooth Link status (%s)
 Can not open file to determine Bluetooth driver version (%s)
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 Cl$ M
 Cl$0H
 CloseHandle
@@ -595,11 +599,11 @@ DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
 DeleteCriticalSection
 DeleteFileW
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DisconnectNamedPipe
@@ -674,10 +678,10 @@ HA_A^A]A\_^][
 HA_^][
 HTC BS
 HcMxI
-I0G08
 I9Bhs
 I;4$L
 I@H9k8u
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
 InitializeConditionVariable
@@ -726,6 +730,7 @@ L;gHu
 L?n(Zy&
 LHB-DFU
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 Linkbox Not Connected
 LinkboxNotConnected
@@ -741,7 +746,6 @@ LoadLibraryA
 LocalFree
 Logger.txt
 M H1E
-M$#0]
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -788,7 +792,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 PipeInit
 Progress: %d%% (%d/%d)
 Pz}b!
-QJxy6z'
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -806,6 +809,7 @@ RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 Running
+S0Q0O
 SA|X=G
 SCAN -NAME "%s" -T %X
 SERVICES
@@ -888,7 +892,6 @@ Unknown DFU OpCode (%d)
 Unknown DFU Response (%d)
 Unknown ViveLink Error (%d)
 Unknown exception
-V3"/"6
 VATAVH
 VCRUNTIME140.dll
 VL2_Connect
@@ -1031,6 +1034,7 @@ Windows XP
 WriteFile
 XA]A\_^
 Y9"SD
+ZIJ~k
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1069,6 +1073,7 @@ Zipfile is corrupt or not a zipfile
 ]gfff
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
+^O(	/
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -1099,7 +1104,6 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _mbsstr
 _register_onexit_function
 _seh_filter_dll
@@ -1111,7 +1115,6 @@ _wstat64i32
 `.rdata
 `A_A^A]A\_^[
 `A_A^_
-a#G(t
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1146,7 +1149,7 @@ dat_file
 data error
 deque<T> too long
 digit
-dwc_#Ri
+e,>~^
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1154,7 +1157,6 @@ fD9>uF
 false
 fclose
 file error
-fnVa')
 fputs
 fread
 fseek
@@ -1167,11 +1169,9 @@ graph
 hA\_^[
 hA_A^A]A\^[
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1198,7 +1198,6 @@ invalid string position
 invalid vector<T> subscript
 invalid window size
 isxdigit
-j0h02
 jj@0HK4
 k0i0$
 l$ H;
@@ -1213,7 +1212,6 @@ l$PM9n
 l$pM+
 lighthouse
 lower
-m0k0$
 malloc
 manifest
 manifest file %s parse error from %s
@@ -1318,17 +1316,14 @@ vivelink-driver.txt
 vivelink-output.txt
 vivelink.exe
 vivelinklib.dll
-v~w]#
 win64
 wn>Jj
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
 xA\^][
 xAtAL
+x]~\6
 xdigit
-y0w0$
-z0x0:
+{un'%
 {x\u!H
 {|?uWH
 |$ ATAUAWH
@@ -1356,6 +1351,5 @@ z0x0:
 |$pE2
 |$xH;
 |Lu?c
-|]E-K
 }LuHO
 ~t&LN
