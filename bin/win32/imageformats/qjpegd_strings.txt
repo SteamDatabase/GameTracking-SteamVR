@@ -1,0 +1,653 @@
+	?colorCount@QImage@@QBEHXZ
+	?createNode@QMapDataBase@@QAEPAUQMapNodeBase@@HHPAU2@_N@Z
+	?customEvent@QObject@@MAEXPAVQEvent@@@Z
+        %3d %3d %3d %3d %3d %3d %3d %3d
+        %4u %4u %4u %4u %4u %4u %4u %4u
+    Component %d: %dhx%dv q=%d
+    Component %d: dc=%d ac=%d
+    with %d x %d thumbnail image
+  Ss=%d, Se=%d, Ah=%d, Al=%d
+!This program cannot be run in DOS mode.
+!weakref.load()
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%ld%c
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&1?1U1_1h1q1
+'515;5
+-676A6K6
+..\..\..\gui\image\qjpeghandler.cpp
+.00cfg
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQJpegHandler@@
+.?AVQJpegPlugin@@
+.?AVQObject@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.idata
+.text
+/6J8=9G9Q9[9e9o9y9w=
+/TF<)VGy#WH
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0 0H0
+0$0*00060<0B0H0N0T0Z0`0f0l0r0x0~0
+007<7
+0D0_3
+0Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
+0T?setDotsPerMeterX@QImage@@QAEXH@Z
+0`1d1l1p1
+0`2e2j2p2}3
+0v1+2E4m5|5
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1 1&1,12181>1D1J1P1V1
+1:1X1a1n1
+1<2F2V2_2
+1G1L1R1
+1I1q1
+1O=V=
+1t2y2
+2	313:3D3\3i3|3
+2 242@2H2T2X2\2h2|2
+2,2Q2h2r2
+23465F5U5
+263;3M3l3
+2=2G2t2~2
+2H2j2{2
+2K2c2
+2T?setDotsPerMeterY@QImage@@QAEXH@Z
+2W:W<
+2Y2h2~2
+2n4t4z4
+3 3$3(3D3H3L3
+3*464>4O4[4c4
+3.3B3T3h3}3
+38?B?L?V?`?j?t?~?
+3A4y4
+3f7h3g7KPc6
+3g7KP
+3g7KPb6
+3g7KPe6
+3g7KPf6
+3g7KPg6
+3g7Rich
+3g7YQb6
+3g7YQc6
+3g7YQd6
+3g7YQf6
+4'5}5
+405W5d5m5u5
+414_4
+475x5
+4J4S4\4e4n4
+4Vj`j
+4t5x5|5
+5"5(5.545:5@5F5L5R5X5^5d5j5p5v5|5
+5'515
+5-6B6W6l6
+5>6H6]6
+5@5L5]5i5
+5Genu
+5j5t5
+6!6A6M6U6~6
+6$6*60666<6B6H6N6T6Z6`6f6l6r6x6~6
+6'7L7]7n7
+6(6l6k7u7
+6*7M7^7
+6B6m6
+6C7K7i7r7z7
+6E6k6
+7 7&7,72787>7D7J7P7V7\7b7h7n7t7z7
+7 787P7X7l7p7
+7#=>=Y=
+7'7A7[7u7
+7'7D7g7
+7(848
+7)7M7W9
+7,8C8m8
+758[8
+8	9*9Q9f9}9
+8"8(8.848:8
+8"8,858<8T8
+8"8T8{8
+8(;;;N;a;t;
+8+8E8_8y8
+848<8P8T8h8p8x8
+8<8`8
+8>8O8_8d8j8
+8J<V<n<z<
+8`9d9h9l9p9Z<
+8c  16-Jan-2011
+8v90;J<
+9 9$9,9D9\9`9t9|9
+9(:2:
+9):;:O:
+9/9I9c9}9
+999J9i9z9
+9<E<]<i<
+9@:J:
+9@;R;\;f;};
+9H9a9
+9H:O:n:
+9J8rK
+9W;w;
+9X:]:g:p:w:
+9i9q9z9
+:$:+:3:;:C:O:X:]:c:m:w:
+:/;9;C;M;W;
+:/;<;F<n<i=u=
+:3:A:P:T:X:\:`:d:h:l:p:t:x:
+::;@;F;L;R;X;_;f;m;t;{;
+:T:Z:u:
+:V?setText@QImage@@QAEXABVQString@@0@Z
+; ;%;*;i;u;
+;!;H;V;l;z;
+;%;<;X;
+;2;c;
+;8;i;y;
+;@;c;v;
+;B r&
+;B$} 
+;B$}Dh
+;B$}s
+;B$}u
+;B8}$
+;B8}A
+;BL|3
+;BL})
+;BL}-
+;BL}<
+;BL}N
+;B`v	
+;B||#
+;B|~	
+;E<Q<]<i<u<
+;H$}.
+;H$}A
+;H$}R
+;H,v	
+;H<}\
+;HL}C
+;HL}IkU
+;HL}L
+;HL}P
+;HL}S
+;HL}W
+;Hd}$
+;Hd}y
+;J<P<V<\<b<h<o<v<}<
+;P4w]
+;PL}R
+;PL}V
+;Q$}.
+;Q8}D
+;Q8}R
+;QL}*
+;QL}<
+;QL}C
+<	=[=
+<"<.<7<
+<"<;<K<_<
+<%=d?h?l?p?t?x?|?
+<*=^=c=j=v=}=
+</>9>
+<2<E<X<k<~<
+<I<u<
+<M>W>a>
+<Vj@j
+<l<p<t<x<
+=)=<=O=b=
+=*>K>i>
+=*?1?
+=3=8=Y=^=l=
+=A=H=
+=f=q=~=
+=f>k>}>
+>'>6>C>Q>Y>c>p>}>
+>1>K>
+>4>:>T>
+>d>l>
+>v?{?
+?!?<?Y?b?x?
+??0QByteArray@@QAE@PBDH@Z
+??0QByteArray@@QAE@XZ
+??0QChar@@QAE@UQLatin1Char@@@Z
+??0QDataStream@@QAE@PAVQByteArray@@V?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+??0QImage@@QAE@ABV0@@Z
+??0QImage@@QAE@ABVQSize@@W4Format@0@@Z
+??0QImageIOHandler@@QAE@XZ
+??0QImageIOPlugin@@QAE@PAVQObject@@@Z
+??0QMessageLogger@@QAE@PBDH0@Z
+??0QRect@@QAE@HHHH@Z
+??0QRect@@QAE@XZ
+??0QSize@@QAE@HH@Z
+??0QSize@@QAE@XZ
+??0QString@@QAE@$$QAV0@@Z
+??0QString@@QAE@ABV0@@Z
+??0QString@@QAE@VQLatin1String@@@Z
+??0QString@@QAE@XZ
+??0QVariant@@QAE@ABV0@@Z
+??0QVariant@@QAE@ABVQRect@@@Z
+??0QVariant@@QAE@ABVQSize@@@Z
+??0QVariant@@QAE@ABVQString@@@Z
+??0QVariant@@QAE@H@Z
+??0QVariant@@QAE@XZ
+??0QVariant@@QAE@_N@Z
+??1QByteArray@@QAE@XZ
+??1QDataStream@@QAE@XZ
+??1QImage@@UAE@XZ
+??1QImageIOHandler@@UAE@XZ
+??1QImageIOPlugin@@UAE@XZ
+??1QString@@QAE@XZ
+??1QVariant@@QAE@XZ
+??4QImage@@QAEAAV0@$$QAV0@@Z
+??4QString@@QAEAAV0@$$QAV0@@Z
+??4QString@@QAEAAV0@ABV0@@Z
+??4QString@@QAEAAV0@VQLatin1String@@@Z
+??4QVariant@@QAEAAV0@$$QAV0@@Z
+??5QDataStream@@QAEAAV0@AAG@Z
+??5QDataStream@@QAEAAV0@AAI@Z
+??M@YA_NABVQString@@0@Z
+??YQByteArray@@QAEAAV0@ABV0@@Z
+??YQByteArray@@QAEAAV0@PBD@Z
+??YQString@@QAEAAV0@ABV0@@Z
+??YQString@@QAEAAV0@VQLatin1String@@@Z
+?X?\?`?d?h?
+?append@QByteArray@@QAEAAV1@PBDH@Z
+?append@QListData@@QAEPAPAXXZ
+?at@QListData@@QBEPAPAXH@Z
+?atEnd@QDataStream@@QBE_NXZ
+?begin@QListData@@QBEPAPAXXZ
+?bottom@QRect@@QBEHXZ
+?cast@QMetaObject@@QBEPAVQObject@@PAV2@@Z
+?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+?color@QMapNodeBase@@QBE?AW4Color@1@XZ
+?colorTable@QImage@@QBE?AV?$QVector@I@@XZ
+?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?constData@QByteArray@@QBEPBDXZ
+?constScanLine@QImage@@QBEPBEH@Z
+?convertToFormat@QImage@@QHAE?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+?copy@QImage@@QBE?AV1@ABVQRect@@@Z
+?copy@QImage@@QBE?AV1@HHHH@Z
+?currentImageNumber@QImageIOHandler@@UBEHXZ
+?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+?data@QArrayData@@QAEPAXXZ
+?data@QBuffer@@QBEABVQByteArray@@XZ
+?deallocate@QArrayData@@SAXPAU1@II@Z
+?detach@QListData@@QAEPAUData@1@H@Z
+?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
+?device@QDataStream@@QBEPAVQIODevice@@XZ
+?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?dispose@QListData@@QAEXXZ
+?dispose@QListData@@SAXPAUData@1@@Z
+?dotsPerMeterX@QImage@@QBEHXZ
+?dotsPerMeterY@QImage@@QBEHXZ
+?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+?end@QListData@@QBEPAPAXXZ
+?event@QObject@@UAE_NPAVQEvent@@@Z
+?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+?format@QImage@@QBE?AW4Format@1@XZ
+?freeData@QMapDataBase@@SAXPAU1@@Z
+?freeNodeAndRebalance@QMapDataBase@@QAEXPAUQMapNodeBase@@@Z
+?freeTree@QMapDataBase@@QAEXPAUQMapNodeBase@@H@Z
+?fromLatin1@QString@@SA?AV1@PBDH@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+?height@QRect@@QBEHXZ
+?height@QSize@@QBEHXZ
+?indexOf@QString@@QBEHVQChar@@HW4CaseSensitivity@Qt@@@Z
+?indexOf@QString@@QBEHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
+?intersected@QRect@@QBE?AV1@ABV1@@Z
+?isEmpty@QByteArray@@QBE_NXZ
+?isEmpty@QRect@@QBE_NXZ
+?isEmpty@QSize@@QBE_NXZ
+?isEmpty@QString@@QBE_NXZ
+?isOpen@QIODevice@@QBE_NXZ
+?isReadable@QIODevice@@QBE_NXZ
+?isValid@QSize@@QBE_NXZ
+?isWritable@QIODevice@@QBE_NXZ
+?k?u?
+?left@QString@@QBE?AV1@H@Z
+?length@QByteArray@@QBEHXZ
+?mid@QString@@QBE?AV1@HH@Z
+?nextNode@QMapNodeBase@@QBEPBU1@XZ
+?peek@QIODevice@@QAE_JPAD_J@Z
+?qDetectCpuFeatures@@YAXXZ
+?qstrcmp@@YAHABVQByteArray@@PBD@Z
+?qt_assert@@YAXPBD0H@Z
+?qt_assert_x@@YAXPBD00H@Z
+?qt_cpu_features@@3V?$QBasicAtomicInteger@H@@A
+?read@QIODevice@@QAE_JPAD_J@Z
+?readRawData@QDataStream@@QAEHPADH@Z
+?recalcMostLeftNode@QMapDataBase@@QAEXXZ
+?right@QRect@@QBEHXZ
+?setByteOrder@QDataStream@@QAEXW4ByteOrder@1@@Z
+?setColor@QMapNodeBase@@QAEXW4Color@1@@Z
+?setParent@QMapNodeBase@@QAEXPAU1@@Z
+?shared_null@QListData@@2UData@1@B
+?shared_null@QMapDataBase@@2U1@B
+?simplified@QString@@QGBE?AV1@XZ
+?simplified@QString@@QHAE?AV1@XZ
+?size@QByteArray@@QBEHXZ
+?size@QListData@@QBEHXZ
+?size@QRect@@QBE?AVQSize@@XZ
+?skipRawData@QDataStream@@QAEHH@Z
+?split@QString@@QBE?AVQStringList@@ABV1@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
+?staticMetaObject@QBuffer@@2UQMetaObject@@B
+?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
+?toBool@QVariant@@QBE_NXZ
+?toInt@QVariant@@QBEHPA_N@Z
+?toLatin1@QString@@QGBE?AVQByteArray@@XZ
+?toRect@QVariant@@QBE?AVQRect@@XZ
+?toSize@QVariant@@QBE?AVQSize@@XZ
+?toString@QVariant@@QBE?AVQString@@XZ
+?topLeft@QRect@@QBE?AVQPoint@@XZ
+?translate@QRect@@QAEXABVQPoint@@@Z
+?truncate@QByteArray@@QAEXH@Z
+?u='@
+?warning@QMessageLogger@@QBAXPBDZZ
+?width@QRect@@QBEHXZ
+?width@QSize@@QBEHXZ
+?write@QIODevice@@QAE_JPBD_J@Z
+?x@QRect@@QBEHXZ
+?y@QRect@@QBEHXZ
+@.data
+@.qtmetad
+@.reloc
+@.rsrc
+A!;I2
+A4;BHs
+A<+B4
+AL;B$t
+ALIGN_TYPE is wrong, please fix
+AP;B(u
+Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+Ahd=<c]^7if1Rjg
+Application transferred too few scanlines
+Application transferred too many scanlines
+Arithmetic table 0x%02x was not defined
+Assumption in Q_ASSUME("features != 0") was not correct
+At marker 0x%02x, recovery action %d
+Ax;B`
+Ax;B`r#
+Ax;B`r&
+Ax;B`s
+Ax;B`s'
+Ax;B`sr
+BKbhTb~XBK!;
+Backing store not supported
+Bogus DAC index %d
+Bogus DAC value 0x%x
+Bogus DHT index %d
+Bogus DQT index %d
+Bogus Huffman table definition
+Bogus JPEG colorspace
+Bogus buffer control mode
+Bogus input colorspace
+Bogus marker length
+Bogus message code %d
+Bogus sampling factors
+Bogus virtual array access
+Buffer passed to JPEG library is too small
+CCIR601 sampling not implemented yet
+Cannot quantize more than %d color components
+Cannot quantize to fewer than %d colors
+Cannot quantize to more than %d colors
+Cannot transcode due to multiple use of quantization table %d
+Caution: quantization tables are too coarse for baseline JPEG
+CloseHandle
+Closed temporary file %s
+Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
+Copyright (C) 2011, Thomas G. Lane, Guido Vollbeding
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Corrupt JPEG data: bad Huffman code
+Corrupt JPEG data: bad arithmetic code
+Corrupt JPEG data: found marker 0x%02x instead of RST%d
+Corrupt JPEG data: premature end of data segment
+CreateEventW
+DCT coefficient out of range
+DCT scaled block size %dx%d not supported
+Da\">c]$8c^
+Define Arithmetic Table 0x%02x: 0x%02x
+Define Huffman Table 0x%02x
+Define Quantization Table %d  precision %d
+Define Restart Interval %u
+DeleteCriticalSection
+Description
+Didn't expect more than one scan
+DisableThreadLibraryCalls
+Empty JPEG image (DNL not supported)
+Empty input file
+End Of Image
+EnterCriticalSection
+F:\qt5\qtbase\plugins\imageformats\qjpegd.pdb
+Failed to create temporary file %s
+Fractional sampling not implemented yet
+Freed EMS handle %u
+Freed XMS handle %u
+GK?imageCount@QImageIOHandler@@UBEHXZ
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTimeAsFileTime
+Huffman code size table overflow
+Huffman table 0x%02x was not defined
+Image too wide for this implementation
+Improper call to JPEG library in state %d
+Inconsistent progression sequence for component %d coefficient %d
+InitializeConditionVariable
+InitializeSListHead
+Input file read error
+Insufficient memory (case %d)
+Invalid EXIF orientation
+Invalid JPEG file structure: SOS before SOF
+Invalid JPEG file structure: missing SOS marker
+Invalid JPEG file structure: two SOF markers
+Invalid JPEG file structure: two SOI markers
+Invalid SOS parameters for sequential JPEG
+Invalid color quantization mode change
+Invalid component ID %d in SOS
+Invalid crop request
+Invalid memory pool code %d
+Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+Invalid progressive parameters at scan script entry %d
+Invalid scan script at entry %d
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J0;H up
+J4;H0u3
+J4;HHs
+JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+JFIF extension marker: JPEG-compressed thumbnail image, length %u
+JFIF extension marker: RGB thumbnail image, length %u
+JFIF extension marker: palette thumbnail image, length %u
+JFIF extension marker: type 0x%02x, length %u
+JPEG datastream contains no image
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+JPEGMEM
+Jx;H`u
+K?height@QImage@@QBEHXZ
+KERNEL32.dll
+L?isNull@QImage@@QBE_NXZ
+L?jumpToImage@QImageIOHandler@@UAE_NH@Z
+L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
+LeaveCriticalSection
+Lkh9Fgc^A
+M?loopCount@QImageIOHandler@@UBEHXZ
+MAX_ALLOC_CHUNK is wrong, please fix
+MQC,ARD
+Maximum supported image dimension is %u pixels
+MetaData
+MimeTypes
+Miscellaneous marker 0x%02x, length %u
+Missing Huffman code table entry
+Not a JPEG file: starts with 0x%02x 0x%02x
+Not implemented yet
+O?nextImageDelay@QImageIOHandler@@UBEHXZ
+Obtained EMS handle %u
+Obtained XMS handle %u
+Opened temporary file %s
+Output file write error --- out of disk space?
+P,;Q(u
+P.tls
+P0T0X0\0`0d0h0l0p0t0x0|0
+P4;Q<
+P4;Q<}S
+P?qt_convert_rgb888_to_rgb32@@YIXPAIPBEH@Z
+P?qt_convert_rgb888_to_rgb32_ssse3@@YIXPAIPBEH@Z
+P?qt_imageTransform@@YAXAAVQImage@@V?$QFlags@W4Transformation@QImageIOHandler@@@@@Z
+P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+PVj j
+Premature end of JPEG file
+Premature end of input file
+Q2XXR
+QJpegHandler::canRead() called with no device
+QJpegPlugin
+QList<T>::at
+QTMETADATA  qbjs
+QVector<T>::operator[]
+QW?size@QImage@@QBE?AVQSize@@XZ
+Q_ASSUME()
+Qt5Cored.dll
+Qt5Guid.dll
+Quantization table 0x%02x was not defined
+Quantizing to %d = %d*%d*%d colors
+Quantizing to %d colors
+QueryPerformanceCounter
+R<^<v<
+R?scaled@QImage@@QBE?AV1@ABVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
+R?scanLine@QImage@@QAEPAEH@Z
+RSDSZA l
+RST%d
+Read failed on temporary file
+Read from EMS failed
+Read from XMS failed
+Requested feature was omitted at compile time
+ResetEvent
+Sampling factors too large for interleaved scan
+Scan script does not transmit all data
+Seek failed on temporary file
+Selected %d colors for quantization
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+Smoothing not supported with nonstandard sampling ratios
+Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+Start Of Scan: %d components
+Start of Image
+Suspension not allowed here
+T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
+TerminateProcess
+Too many color components: %d, max %d
+Unexpected marker 0x%02x
+UnhandledExceptionFilter
+Unknown APP0 marker (not JFIF), length %u
+Unknown APP14 marker (not Adobe), length %u
+Unknown Adobe color transform code %d
+Unknown exception
+Unrecognized component IDs %d %d %d, assuming YCbCr
+Unsupported JPEG data precision %d
+Unsupported JPEG process: SOF type 0x%02x
+Unsupported color conversion request
+Unsupported marker type 0x%02x
+UokOP
+VCRUNTIME140D.dll
+VeaFOfb
+Virtual array controller messed up
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning: thumbnail image size does not match data length %u
+Warning: unknown JFIF revision number %d.%02d
+Write failed on temporary file --- out of disk space?
+Write to EMS failed
+Write to XMS failed
+Wrong JPEG library version: library is %d, caller expects %d
+X?text@QImage@@QBE?AVQString@@ABV2@@Z
+X?textKeys@QImage@@QBE?AVQStringList@@XZ
+YpU_Z
+Z?width@QImage@@QBEHXZ
+Z@&LHA'
+Zpm"U
+_CrtDbgReportW
+_CxxThrowException
+__acrt_iob_func
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__stdio_common_vfprintf
+__stdio_common_vsprintf
+__stdio_common_vsscanf
+__vcrt_InitializeCriticalSectionEx
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_at_quick_exit
+_crt_atexit
+_except_handler4_common
+_execute_onexit_table
+_free_dbg
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_register_onexit_function
+_seh_filter_dll
+_setjmp3
+`.rdata
+`1d1h1l1p1t1x1|1
+bad allocation
+bad array new length
+bool __cdecl QJpegHandler::canRead(class QIODevice *)
+class QFlags<enum QImageIOHandler::Transformation> __cdecl exif2Qt(int)
+className
+debug
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qlist.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+f:\qt5\qtbase\include\qtcore\5.5.0\qtcore\private\../../../../../src/corelib/tools/qsimd_p.h
+ferror
+fflush
+fread
+fwrite
+getenv
+hPh@'
+hQh@&
+image/jpeg
+index out of range
+j'Vlk
+kQ 	R
+kQ$XRj
+kQ4	;
+longjmp
+malloc
+memcmp
+memcpy
+memset
+org.qt-project.Qt.QImageIOHandlerFactoryInterface
+q	?createData@QMapDataBase@@SAPAU1@XZ
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qjpegd.dll
+qt_plugin_instance
+qt_plugin_query_metadata
+sAmTb
+strcmp
+strlen
+strongref.load() <= 0
+terminate
+u/hD~
+u6j@j
+uBj(j
+ucrtbased.dll
+version
+void __cdecl my_error_exit(struct jpeg_common_struct *)
+void __cdecl my_output_message(struct jpeg_common_struct *)
+yT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
+zT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z

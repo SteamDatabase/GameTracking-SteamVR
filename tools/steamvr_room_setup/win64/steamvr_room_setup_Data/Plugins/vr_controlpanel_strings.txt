@@ -1,0 +1,1212 @@
+					
+							
+												
+																																												
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ A^^]
+ A^_^
+ A_A^A\
+ A_A^A\_^
+ A_A^A]
+ A_A^A]A\_
+ A_A^A]A\_^]
+ A_A^_
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Type Descriptor'
+ delete
+ delete[]
+ for detail.
+ new[]
+ t>D9
+ tDE3
+!This program cannot be run in DOS mode.
+!t$(H!t$ I
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+#fD9M
+%D8D$ t
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%03u
+%s - 
+' is not a number.
+( 8PX
+('8PW
+(A_A^
+(null)
+)fD;A
+*uWI;
+,+<:w
+,X< w
+-64OS
+.?AVDefaultValueAllocator@Json@@
+.?AVValueAllocator@Json@@
+.?AV_Generic_error_category@std@@
+.?AV_Iostream_error_category@std@@
+.?AV_System_error_category@std@@
+.?AVbad_alloc@std@@
+.?AVbad_exception@std@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.pdata
+.text
+0123456789abcdefABCDEF
+0123456789abcdefghijklmnopqrstuvwxyz
+0A^_^
+0A_A^A]
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A_A^A]_^
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+700PP
+700WP
+80tVD
+8D$8t
+8L$@t
+8UXt$@
+8\$ t
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+9D$@t
+9D$LupE
+9D$`t
+9T$`t
+9\$ ~>L
+9\$(tlM
+9\$lu
+9\$pu
+9\$xu
+9\$|u
+:/t	L9
+;\$ |
+< tD<	t@
+<-uYE
+<0|B<9
+>%u=A
+?:u*H
+?:u\H
+@.data
+@.reloc
+@83t'
+@8l$8t
+@8t$8t
+@A^A\_
+@A^_^
+@A^_^][
+@A_A^A\
+@A_A^A]A\_
+@HcyH
+@SUVWATAVAWH
+@SUVWAVH
+@SUVWH
+@SUWH
+@SVWATAUAVAWH
+@SVWH
+@UATAUAVAWH
+@UAVH
+@USVAVH
+@USVWATAUAVAWH
+@USVWATAUAWH
+@USVWAVH
+@USVWH
+@USWATH
+@USWH
+@UVWATAUAVAWH
+@UVWH
+@WATAUAVAWH
+@WAVH
+A valid JSON document must be either an array or an object value.
+A81t@@8r
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
+ATAVAWH
+AUAVAWH
+AVAWH
+A\_[]
+A\_^]
+A^A\_
+A^A\_^[]
+A^^[]
+A^_^[]
+A^_^][
+A_A]A\_^[]
+A_A^A\
+A_A^A\_^
+A_A^A]
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^[
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^]
+A_A^_
+Another app was already launching (117)
+App info manager init failed (114)
+April
+AreFileApisANSI
+August
+AuthA
+B(A9C
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+CT$8L
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+Comments must start with /
+CompareStringEx
+CompareStringW
+Config path could not be located (111)
+Connect to VR Server Failed (301)
+Copyright (c) 1992-2004 by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+CorExitProcess
+CreateEventExW
+CreateFile2
+CreateFileW
+CreateSemaphoreExW
+CreateSymbolicLinkW
+CreateThreadpoolTimer
+CreateThreadpoolWait
+D!l$h3
+D$ E3
+D$ H9
+D$ H;
+D$(A9h
+D$(E3
+D$0A+
+D$0E3
+D$0H;
+D$0L9
+D$8L9
+D$<A;
+D$@!\$(H!\$ 
+D$@H+
+D$@L;D$Hu
+D$DD9T$X
+D$HHcH
+D$L0A
+D$XD+
+D$XE3
+D$`E3
+D$`Hc
+D$p H
+D)\$4A;
+D+%{h
+D+moA
+D1:Hc
+D8&t!
+D8&t4H
+D8't6
+D82u&H
+D8D$Pt
+D8L$Ht
+D8d$8t
+D8d$Ht
+D8eoupH
+D8t$Ht
+D8|$0
+D8|$0u
+D9T$x
+D9d$du
+D9d$hu
+D9d$pu
+D9d$tu
+D9d$xu
+D9d$|t
+D9l$`
+D9l$dtXH
+D9t$htrH
+D9|$ 
+D9|$pt
+December
+DecodePointer
+DeleteCriticalSection
+Device Calibration is invalid (207)
+Device is not calibrated (206)
+Driver Failed (200)
+Driver Not Known (201)
+Driver Not Loaded (203)
+Driver runtime is out of date (204)
+E0HcH
+E0Lcx
+E;Z(L
+Empty escape sequence in string
+EncodePointer
+EnterCriticalSection
+EnumSystemLocalesEx
+EventRegister
+EventWriteString
+ExitProcess
+F9D9H
+Factory Function Not Found (104)
+February
+File Not Found (103)
+FileTimeToLocalFileTime
+FileTimeToSystemTime
+FindClose
+FindFirstFileExW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryWhenCallbackReturns
+Friday
+G 9\$tu
+G D9d$lu
+G(A9A
+G0Hc	H
+G@8.u
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
+GetConsoleCP
+GetConsoleMode
+GetCurrentDirectoryW
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentThreadId
+GetDateFormatEx
+GetDateFormatW
+GetDriveTypeW
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetFileInformationByHandle
+GetFileInformationByHandleExW
+GetFileType
+GetFullPathNameW
+GetLastActivePopup
+GetLastError
+GetLocaleInfoEx
+GetLogicalProcessorInformation
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetProcessWindowStation
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTime
+GetSystemTimeAsFileTime
+GetTickCount64
+GetTimeFormatEx
+GetTimeFormatW
+GetTimeZoneInformation
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+H AVH
+H(H9J(u
+H3E H3E
+H92u'
+H9Q s
+H9q tSf
+H9s r
+H9s t
+H9s u
+H;8u7H
+H;8ulI
+H;Cxu
+H;s r
+H;s smH
+HH:mm:ss
+HMD Not Known (202)
+HMD already in use by another application (205)
+HMD detected over USB, but Monitor not found (208)
+HMD found, but (1100)
+HMD found, but can not open device (1101)
+HMD found, but config too big (1104)
+HMD found, but config too small (1105)
+HMD found, but failed configuration check (1113)
+HMD found, but no stored config (1103)
+HMD found, but problems with the data (1107)
+HMD found, but problems with the data (1108)
+HMD found, but problems with the data (1109)
+HMD found, but problems with the data (1110)
+HMD found, but problems with the data (1111)
+HMD found, but problems with the data (1112)
+HMD found, but unable to init ZLib (1106)
+HMD found, but unable to request config (1102)
+HcC H
+HcD$0
+HcD$PH;
+HcE Hc
+HcE8H
+HcH<H
+HcM H
+HcO H
+Hct$@H
+Hc{HH
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+Hmd Not Found (108)
+I!>E3
+I;*t:H
+I;:t>H
+IVRApplications_002
+IVRChaperoneSetup_004
+IVRChaperone_003
+IVRClientCore_002
+IVRCompositor_009
+IVRControlPanel_001
+IVRDashboardManager_001
+IVRExtendedDisplay_001
+IVROverlay_008
+IVRRenderModels_002
+IVRSettings_001
+IVRSystem_010
+IVRTrackedCamera_001
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+Installation Corrupt (101)
+Installation Not Found (100)
+Installation path could not be located (110)
+Interface Not Found (105)
+Internal Retry (115)
+Invalid Interface (106)
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+IsValidLocaleName
+J;D9@
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+K0LcQ
+KERNEL32.dll
+L!|$@L!
+L$ A3
+L$ E3
+L$ H;
+L$ USVWH
+L$ USWH
+L$ UVWATAUAVAWH
+L$ WH
+L$(9i
+L$(H3
+L$0A3
+L$0H3
+L$0H9
+L$0H;
+L$0Hc
+L$4A;
+L$8H3
+L$@;|
+L$@E3
+L$@H3
+L$Df;
+L$HH3
+L$PE3
+L$PH3
+L$XH3
+L$`H3
+L$`Lc
+L$hE3
+L$pH3
+L$xH3
+L0	A:
+L09A:
+L0:A:
+L9g0u
+LCMapStringEx
+LCMapStringW
+LcA<E3
+LcepA
+Lc}hA
+LeaveCriticalSection
+Line %d, Column %d
+LoadLibraryExA
+LoadLibraryExW
+Log path could not be located (112)
+MM/dd/yy
+MainThrd
+March
+MessageBoxW
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+Monday
+MultiByteToWideChar
+No Error (0)
+Not Initialized (109)
+Not starting vrserver for background app (121)
+November
+O0HcQ
+OPENGL32.dll
+October
+Out of thread local storage!
+OutputDebugStringA
+OutputDebugStringW
+PA^_^
+PA_A^A\_^][
+PA_A^A]A\_^[
+PA_A^_
+PeekNamedPipe
+QueryPerformanceCounter
+RPCRT4.dll
+RaiseException
+ReadConsoleW
+ReadFile
+Rich(~h
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+SHELL32.dll
+SHGetFolderPathW
+SUVWH
+SVWATAUAVAWH
+Saturday
+September
+SetDefaultDllDirectories
+SetEndOfFile
+SetEnvironmentVariableA
+SetFileInformationByHandleW
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUnhandledExceptionFilter
+Settings manager init failed (118)
+Shared IPC Compositor Init Failed (303)
+Shared IPC Failed (305)
+Shared IPC Mutex Init Failed (304)
+Shared IPC State Init Failed (302)
+Sleep
+SunMonTueWedThuFriSat
+Sunday
+Syntax error: value, object or array expected.
+SystemTimeToFileTime
+SystemTimeToTzSpecificLocalTime
+T$ E3
+T$ H;
+T$&@8t$&t9@8r
+T$(9r
+T$0E3
+T$@E3
+T$HHc
+T$PE3
+T$`E3
+T$eLc
+T$xD+
+TerminateProcess
+The requested interface is in compatible with the compositor and the compositor is running (122)
+This interface is not availble to utility applications (123)
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Too many tracked objects (120)
+Tuesday
+Type is not convertible to string
+UATAUAVAWH
+UAVAWH
+UNICODE
+USVWATAUAVAWH
+USVWATAVH
+UTF-16LE
+UTF-8
+UVAVH
+UVWATAUAVAWH
+UVWATH
+UWAVH
+Unable to connect to Oculus Runtime (1000)
+Unable to determine VR Path Registry filename
+Unable to find Steam installation (2000)
+Unable to parse %s: %s
+Unable to read VR Path Registry from %s
+Unable to write path registry (113)
+UnhandledExceptionFilter
+UnityHooks_EventWriteString
+UnityHooks_GetRenderEventFunc
+UnityHooks_SetColorSpace
+UnityHooks_SetSubmitParams
+UnityPluginLoad
+UnityRenderEvent
+UnitySetGraphicsDevice
+Unknown error (%d)
+Unknown exception
+User Canceled Init (116)
+User Config Directory Invalid (107)
+UuidFromStringA
+Uy]E3
+VR Path Registry node %s is not an array
+VR Server Init Failed (300)
+VR system shutting down (119)
+VRApplications
+VRChaperone
+VRChaperoneSetup
+VRClientCoreFactory
+VRCompositor
+VRControlPanel
+VRDashboardManager
+VRExtendedDisplay
+VRInitError_Driver_CalibrationInvalid
+VRInitError_Driver_Failed
+VRInitError_Driver_HmdDisplayNotFound
+VRInitError_Driver_HmdInUse
+VRInitError_Driver_HmdUnknown
+VRInitError_Driver_NotCalibrated
+VRInitError_Driver_NotLoaded
+VRInitError_Driver_RuntimeOutOfDate
+VRInitError_Driver_Unknown
+VRInitError_IPC_CompositorInitFailed
+VRInitError_IPC_ConnectFailed
+VRInitError_IPC_Failed
+VRInitError_IPC_MutexInitFailed
+VRInitError_IPC_ServerInitFailed
+VRInitError_IPC_SharedStateInitFailed
+VRInitError_Init_AnotherAppLaunching
+VRInitError_Init_AppInfoInitFailed
+VRInitError_Init_FactoryNotFound
+VRInitError_Init_FileNotFound
+VRInitError_Init_HmdNotFound
+VRInitError_Init_InitCanceledByUser
+VRInitError_Init_InstallationCorrupt
+VRInitError_Init_InstallationNotFound
+VRInitError_Init_InterfaceNotFound
+VRInitError_Init_InvalidInterface
+VRInitError_Init_NoConfigPath
+VRInitError_Init_NoLogPath
+VRInitError_Init_NotAvailableToUtilityApps
+VRInitError_Init_NotInitialized
+VRInitError_Init_PathRegistryNotFound
+VRInitError_Init_PathRegistryNotWritable
+VRInitError_Init_Retry
+VRInitError_Init_SettingsInitFailed
+VRInitError_Init_VRClientDLLNotFound
+VRInitError_None
+VRInitError_Steam_SteamInstallationNotFound
+VRInitError_Unknown
+VRInitError_VendorSpecific_HmdFound_But
+VRInitError_VendorSpecific_HmdFound_CantOpenDevice
+VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
+VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
+VRInitError_VendorSpecific_HmdFound_ConfigTooBig
+VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
+VRInitError_VendorSpecific_HmdFound_NoStoredConfig
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
+VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
+VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
+VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
+VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VROverlay
+VRRenderModels
+VRSettings
+VRSystem
+VRTrackedCamera
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetStringForHmdError
+VR_GetVRInitErrorAsEnglishDescription
+VR_GetVRInitErrorAsSymbol
+VR_IVRApplications_AddApplicationManifest
+VR_IVRApplications_GetApplicationAutoLaunch
+VR_IVRApplications_GetApplicationCount
+VR_IVRApplications_GetApplicationKeyByIndex
+VR_IVRApplications_GetApplicationKeyByProcessId
+VR_IVRApplications_GetApplicationProcessId
+VR_IVRApplications_GetApplicationPropertyBool
+VR_IVRApplications_GetApplicationPropertyString
+VR_IVRApplications_GetApplicationsErrorNameFromEnum
+VR_IVRApplications_GetApplicationsTransitionStateNameFromEnum
+VR_IVRApplications_GetStartingApplication
+VR_IVRApplications_GetTransitionState
+VR_IVRApplications_IdentifyApplication
+VR_IVRApplications_IsApplicationInstalled
+VR_IVRApplications_IsQuitUserPromptRequested
+VR_IVRApplications_LaunchApplication
+VR_IVRApplications_LaunchDashboardOverlay
+VR_IVRApplications_PerformApplicationPrelaunchCheck
+VR_IVRApplications_RemoveApplicationManifest
+VR_IVRApplications_SetApplicationAutoLaunch
+VR_IVRChaperoneSetup_CommitWorkingCopy
+VR_IVRChaperoneSetup_GetLiveCollisionBoundsInfo
+VR_IVRChaperoneSetup_GetLiveSeatedZeroPoseToRawTrackingPose
+VR_IVRChaperoneSetup_GetWorkingCollisionBoundsInfo
+VR_IVRChaperoneSetup_GetWorkingPlayAreaRect
+VR_IVRChaperoneSetup_GetWorkingPlayAreaSize
+VR_IVRChaperoneSetup_GetWorkingSeatedZeroPoseToRawTrackingPose
+VR_IVRChaperoneSetup_GetWorkingStandingZeroPoseToRawTrackingPose
+VR_IVRChaperoneSetup_ReloadFromDisk
+VR_IVRChaperoneSetup_RevertWorkingCopy
+VR_IVRChaperoneSetup_SetWorkingCollisionBoundsInfo
+VR_IVRChaperoneSetup_SetWorkingPlayAreaSize
+VR_IVRChaperoneSetup_SetWorkingSeatedZeroPoseToRawTrackingPose
+VR_IVRChaperoneSetup_SetWorkingStandingZeroPoseToRawTrackingPose
+VR_IVRChaperone_AreBoundsVisible
+VR_IVRChaperone_ForceBoundsVisible
+VR_IVRChaperone_GetBoundsColor
+VR_IVRChaperone_GetCalibrationState
+VR_IVRChaperone_GetPlayAreaRect
+VR_IVRChaperone_GetPlayAreaSize
+VR_IVRChaperone_ReloadInfo
+VR_IVRChaperone_SetSceneColor
+VR_IVRCompositor_CanRenderScene
+VR_IVRCompositor_ClearLastSubmittedFrame
+VR_IVRCompositor_ClearSkyboxOverride
+VR_IVRCompositor_CompositorBringToFront
+VR_IVRCompositor_CompositorDumpImages
+VR_IVRCompositor_CompositorGoToBack
+VR_IVRCompositor_CompositorQuit
+VR_IVRCompositor_FadeGrid
+VR_IVRCompositor_FadeToColor
+VR_IVRCompositor_GetCurrentSceneFocusProcess
+VR_IVRCompositor_GetFrameTimeRemaining
+VR_IVRCompositor_GetFrameTiming
+VR_IVRCompositor_GetLastFrameRenderer
+VR_IVRCompositor_GetLastPoses
+VR_IVRCompositor_GetTrackingSpace
+VR_IVRCompositor_HideMirrorWindow
+VR_IVRCompositor_IsFullscreen
+VR_IVRCompositor_IsMirrorWindowVisible
+VR_IVRCompositor_PostPresentHandoff
+VR_IVRCompositor_SetSkyboxOverride
+VR_IVRCompositor_SetTrackingSpace
+VR_IVRCompositor_ShowMirrorWindow
+VR_IVRCompositor_Submit
+VR_IVRCompositor_ToggleCameraReprojection
+VR_IVRCompositor_WaitGetPoses
+VR_IVRControlPanel_AbortTransition
+VR_IVRControlPanel_ForceQuitProcess
+VR_IVRControlPanel_GetCurrentCompositorInterface
+VR_IVRControlPanel_GetDashboardEnabled
+VR_IVRControlPanel_GetDriverCount
+VR_IVRControlPanel_GetDriverDisplayCount
+VR_IVRControlPanel_GetDriverDisplayId
+VR_IVRControlPanel_GetDriverDisplayModelNumber
+VR_IVRControlPanel_GetDriverDisplaySerialNumber
+VR_IVRControlPanel_GetDriverId
+VR_IVRControlPanel_GetIPD
+VR_IVRControlPanel_GetVRMonitorState
+VR_IVRControlPanel_LoadSharedResource
+VR_IVRControlPanel_PowerOffTrackedDevice
+VR_IVRControlPanel_QuitProcess
+VR_IVRControlPanel_SetDashboardEnabled
+VR_IVRControlPanel_SetIPD
+VR_IVRControlPanel_SetMasterProcessToThis
+VR_IVRControlPanel_SetVRMonitorState
+VR_IVRControlPanel_StartAutolaunchOverlays
+VR_IVRControlPanel_StartVRProcess
+VR_IVRExtendedDisplay_GetDXGIOutputInfo
+VR_IVRExtendedDisplay_GetEyeOutputViewport
+VR_IVRExtendedDisplay_GetWindowBounds
+VR_IVRNotifications_CreateNotification
+VR_IVRNotifications_RemoveNotification
+VR_IVROverlay_ClearOverlayTexture
+VR_IVROverlay_ComputeOverlayIntersection
+VR_IVROverlay_CreateDashboardOverlay
+VR_IVROverlay_CreateOverlay
+VR_IVROverlay_DestroyOverlay
+VR_IVROverlay_FindOverlay
+VR_IVROverlay_GetDashboardOverlaySceneProcess
+VR_IVROverlay_GetGamepadFocusOverlay
+VR_IVROverlay_GetHighQualityOverlay
+VR_IVROverlay_GetKeyboardText
+VR_IVROverlay_GetOverlayAlpha
+VR_IVROverlay_GetOverlayAutoCurveDistanceRangeInMeters
+VR_IVROverlay_GetOverlayColor
+VR_IVROverlay_GetOverlayErrorNameFromEnum
+VR_IVROverlay_GetOverlayFlag
+VR_IVROverlay_GetOverlayImageData
+VR_IVROverlay_GetOverlayInputMethod
+VR_IVROverlay_GetOverlayKey
+VR_IVROverlay_GetOverlayMouseScale
+VR_IVROverlay_GetOverlayName
+VR_IVROverlay_GetOverlayTextureBounds
+VR_IVROverlay_GetOverlayTextureColorSpace
+VR_IVROverlay_GetOverlayTransformAbsolute
+VR_IVROverlay_GetOverlayTransformTrackedDeviceRelative
+VR_IVROverlay_GetOverlayTransformType
+VR_IVROverlay_GetOverlayWidthInMeters
+VR_IVROverlay_GetTransformForOverlayCoordinates
+VR_IVROverlay_HandleControllerOverlayInteractionAsMouse
+VR_IVROverlay_HideKeyboard
+VR_IVROverlay_HideOverlay
+VR_IVROverlay_IsActiveDashboardOverlay
+VR_IVROverlay_IsDashboardVisible
+VR_IVROverlay_IsHoverTargetOverlay
+VR_IVROverlay_IsOverlayVisible
+VR_IVROverlay_MoveGamepadFocusToNeighbor
+VR_IVROverlay_PollNextOverlayEvent
+VR_IVROverlay_SetDashboardOverlaySceneProcess
+VR_IVROverlay_SetGamepadFocusOverlay
+VR_IVROverlay_SetHighQualityOverlay
+VR_IVROverlay_SetKeyboardPositionForOverlay
+VR_IVROverlay_SetKeyboardTransformAbsolute
+VR_IVROverlay_SetOverlayAlpha
+VR_IVROverlay_SetOverlayAutoCurveDistanceRangeInMeters
+VR_IVROverlay_SetOverlayColor
+VR_IVROverlay_SetOverlayFlag
+VR_IVROverlay_SetOverlayFromFile
+VR_IVROverlay_SetOverlayInputMethod
+VR_IVROverlay_SetOverlayMouseScale
+VR_IVROverlay_SetOverlayNeighbor
+VR_IVROverlay_SetOverlayRaw
+VR_IVROverlay_SetOverlayTexture
+VR_IVROverlay_SetOverlayTextureBounds
+VR_IVROverlay_SetOverlayTextureColorSpace
+VR_IVROverlay_SetOverlayTransformAbsolute
+VR_IVROverlay_SetOverlayTransformTrackedDeviceRelative
+VR_IVROverlay_SetOverlayWidthInMeters
+VR_IVROverlay_ShowDashboard
+VR_IVROverlay_ShowKeyboard
+VR_IVROverlay_ShowKeyboardForOverlay
+VR_IVROverlay_ShowOverlay
+VR_IVRRenderModels_FreeRenderModel
+VR_IVRRenderModels_FreeTexture
+VR_IVRRenderModels_GetComponentButtonMask
+VR_IVRRenderModels_GetComponentCount
+VR_IVRRenderModels_GetComponentName
+VR_IVRRenderModels_GetComponentRenderModelName
+VR_IVRRenderModels_GetComponentState
+VR_IVRRenderModels_GetRenderModelCount
+VR_IVRRenderModels_GetRenderModelName
+VR_IVRRenderModels_LoadRenderModel
+VR_IVRRenderModels_LoadTexture
+VR_IVRSettings_GetBool
+VR_IVRSettings_GetFloat
+VR_IVRSettings_GetInt32
+VR_IVRSettings_GetSettingsErrorNameFromEnum
+VR_IVRSettings_GetString
+VR_IVRSettings_SetBool
+VR_IVRSettings_SetFloat
+VR_IVRSettings_SetInt32
+VR_IVRSettings_SetString
+VR_IVRSettings_Sync
+VR_IVRSystem_AcknowledgeQuit_Exiting
+VR_IVRSystem_AcknowledgeQuit_UserPrompt
+VR_IVRSystem_ApplyTransform
+VR_IVRSystem_CaptureInputFocus
+VR_IVRSystem_ComputeDistortion
+VR_IVRSystem_DriverDebugRequest
+VR_IVRSystem_GetBoolTrackedDeviceProperty
+VR_IVRSystem_GetButtonIdNameFromEnum
+VR_IVRSystem_GetControllerAxisTypeNameFromEnum
+VR_IVRSystem_GetControllerRoleForTrackedDeviceIndex
+VR_IVRSystem_GetControllerState
+VR_IVRSystem_GetControllerStateWithPose
+VR_IVRSystem_GetD3D9AdapterIndex
+VR_IVRSystem_GetDXGIOutputInfo
+VR_IVRSystem_GetDeviceToAbsoluteTrackingPose
+VR_IVRSystem_GetEventTypeNameFromEnum
+VR_IVRSystem_GetEyeToHeadTransform
+VR_IVRSystem_GetFloatTrackedDeviceProperty
+VR_IVRSystem_GetHiddenAreaMesh
+VR_IVRSystem_GetInt32TrackedDeviceProperty
+VR_IVRSystem_GetMatrix34TrackedDeviceProperty
+VR_IVRSystem_GetProjectionMatrix
+VR_IVRSystem_GetProjectionRaw
+VR_IVRSystem_GetPropErrorNameFromEnum
+VR_IVRSystem_GetRawZeroPoseToStandingAbsoluteTrackingPose
+VR_IVRSystem_GetRecommendedRenderTargetSize
+VR_IVRSystem_GetSeatedZeroPoseToStandingAbsoluteTrackingPose
+VR_IVRSystem_GetSortedTrackedDeviceIndicesOfClass
+VR_IVRSystem_GetStringTrackedDeviceProperty
+VR_IVRSystem_GetTimeSinceLastVsync
+VR_IVRSystem_GetTrackedDeviceActivityLevel
+VR_IVRSystem_GetTrackedDeviceClass
+VR_IVRSystem_GetTrackedDeviceIndexForControllerRole
+VR_IVRSystem_GetUint64TrackedDeviceProperty
+VR_IVRSystem_IsDisplayOnDesktop
+VR_IVRSystem_IsInputFocusCapturedByAnotherProcess
+VR_IVRSystem_IsTrackedDeviceConnected
+VR_IVRSystem_PerformFirmwareUpdate
+VR_IVRSystem_PollNextEvent
+VR_IVRSystem_PollNextEventWithPose
+VR_IVRSystem_ReleaseInputFocus
+VR_IVRSystem_ResetSeatedZeroPose
+VR_IVRSystem_SetDisplayVisibility
+VR_IVRSystem_TriggerHapticPulse
+VR_IVRTrackedCamera_EnableCameraForStreaming
+VR_IVRTrackedCamera_GetCameraDistortion
+VR_IVRTrackedCamera_GetCameraFirmwareDescription
+VR_IVRTrackedCamera_GetCameraFrameDimensions
+VR_IVRTrackedCamera_GetCameraProjection
+VR_IVRTrackedCamera_GetCameraVideoStreamFormat
+VR_IVRTrackedCamera_GetRecommendedCameraUndistortion
+VR_IVRTrackedCamera_GetVideoStreamElapsedTime
+VR_IVRTrackedCamera_GetVideoStreamFrame
+VR_IVRTrackedCamera_GetVideoStreamFrameSharedTextureGL
+VR_IVRTrackedCamera_HasCamera
+VR_IVRTrackedCamera_IsVideoStreamActive
+VR_IVRTrackedCamera_IsVideoStreamPaused
+VR_IVRTrackedCamera_LockSharedTextureGL
+VR_IVRTrackedCamera_PauseVideoStream
+VR_IVRTrackedCamera_ReleaseVideoServicesForTool
+VR_IVRTrackedCamera_ReleaseVideoStreamFrame
+VR_IVRTrackedCamera_ReleaseVideoStreamFrameSharedTextureGL
+VR_IVRTrackedCamera_RequestVideoServicesForTool
+VR_IVRTrackedCamera_ResumeVideoStream
+VR_IVRTrackedCamera_SetAutoExposure
+VR_IVRTrackedCamera_SetCameraUndistortion
+VR_IVRTrackedCamera_SetCameraVideoStreamFormat
+VR_IVRTrackedCamera_StartVideoStream
+VR_IVRTrackedCamera_StopVideoStream
+VR_IVRTrackedCamera_SupportsPauseResume
+VR_IVRTrackedCamera_UnlockSharedTextureGL
+VR_Init
+VR_IsHmdPresent
+VR_IsRuntimeInstalled
+VR_LOG_PATH
+VR_OVERRIDE
+VR_Shutdown
+VWATAVAWH
+VWAUAVAWH
+VWAVH
+WATAUAVAWH
+WATAVH
+WAVAWH
+WaitForThreadpoolTimerCallbacks
+Wednesday
+WideCharToMultiByte
+WriteConsoleW
+WriteFile
+XA_A^A]A\_^[]
+X_^[]
+\$ UH
+\$ UVWATAUAVAWH
+\$ UWAWH
+\$ WH
+\$(fD
+\$0D9=
+\$0E3
+\$0H3
+\$0H;
+\$@tD
+\L96t
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+` AUAVAWH
+`.rdata
+`A^_]
+`A^_^][
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h````
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+additional six characters expected to parse unicode surrogate pair.
+address family not supported
+address in use
+address not available
+address_family_not_supported
+address_in_use
+address_not_available
+already connected
+already_connected
+argument list too long
+argument out of domain
+atan2
+bad address
+bad allocation
+bad exception
+bad file descriptor
+bad message
+bad_address
+bad_file_descriptor
+broken pipe
+c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Release\win64\openvr_api.pdb
+cAMDD
+config
+connection aborted
+connection already in progress
+connection refused
+connection reset
+connection_aborted
+connection_already_in_progress
+connection_refused
+connection_reset
+cross device link
+d$ E3
+d$4A+
+d$4A;
+d$4E3
+d$4t	fD
+d$HI;
+d$|fD
+dddd, MMMM dd, yyyy
+deque<T> too long
+destination address required
+destination_address_required
+device or resource busy
+directory not empty
+e+000
+e0A_A^A]A\_^]
+eHA_A^A]A\_^[]
+entiE
+executable format error
+expecting another \u token to begin the second half of a unicode surrogate pair
+fA9	u
+fD90t
+fD93u
+false
+fffff
+fffffff
+file exists
+file too large
+filename too long
+filename_too_long
+floor
+frexp
+function not supported
+generic
+gfffA
+gfffffffH
+glGetFramebufferAttachmentParameteriv
+host unreachable
+host_unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+interrupted
+invalid argument
+invalid seek
+invalid string position
+invalid_argument
+io error
+iostream
+iostream stream error
+is a directory
+l$ VWATAVAWH
+l$ VWAVH
+l$ WH
+l$XD+
+ldexp
+log10
+map/set<T> too long
+message size
+message_size
+network down
+network reset
+network unreachable
+network_down
+network_reset
+network_unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+no_buffer_space
+no_protocol_option
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+not_a_socket
+not_connected
+ntelD
+opengl32.dll
+openvr
+openvr_api.dll
+openvrpaths.vrpath
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operation_in_progress
+operation_not_supported
+operation_would_block
+operator
+owner dead
+p AWH
+p WAVAWH
+pA_A^A]A\_^]
+permission denied
+permission_denied
+protocol error
+protocol not supported
+protocol_not_supported
+r"fD;A
+r=D8v
+read only file system
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+runtime
+sYHcL$HH
+state not recoverable
+stream timeout
+string too long
+system
+t#fA;
+t$ AVH
+t$ E3
+t$ UH
+t$ UWAVH
+t$ WATAUAVAW
+t$ WATAUAVAWH
+t$ WAVAWH
+t$ WH
+t$4A;
+t$8H+
+t$8Hc0I
+t$@E3
+t$@H+
+t$@fA
+t$DA;
+t$Du^
+t$Dub
+t$PD8|$8t
+t$PE3
+t$\9D$`t
+t$`I;
+t$pE+
+t$xI;
+t/A8]
+t8A9~
+t8HcP
+t=L95
+tXfA;
+tcH95
+text file busy
+timed out
+timed_out
+tmfD9C
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+too_many_files_open
+tpHcy
+tpIc^
+ttI9<
+ttIcF
+u	A!B
+uAiD$P
+unknown error
+utfD9K
+value too large
+vector<T> too long
+vrclient Shared Lib Not Found (102)
+vrclient_x64.dll
+w*H9Q
+w,I9P
+wYIcH
+wglGetProcAddress
+wrong protocol type
+wrong_protocol_type
+x ATAVAWH
+x AUAVAWH
+x AVH
+x AWH
+xA_A^A]A\_^[]
+x_^][
+xppwpp
+xpxxxx
+z?aUY
+zc%C1
+|$ ;=ZW
+|$ AVH
+|$ D!
+|$ H+
+|$ H;
+|$ Hc
+|$ UATAUAVAWH
+|$ UH
+|$0-H
+|$<A;
+|$@-D
+|$@-H
+|$DA;
+|$Dtp
+|$PD;
+|$XE3
+|$`H;
+|$h+t$D+
+|$hH+
+|$xE3
+}'r	H
+~`HcE H

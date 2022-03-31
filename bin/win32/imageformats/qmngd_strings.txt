@@ -1,0 +1,905 @@
+	?blue@QColor@@QBEHXZ
+	?customEvent@QObject@@MAEXPAVQEvent@@@Z
+ 0/0Z0i0
+!This program cannot be run in DOS mode.
+!weakref.load()
+$0)0/0L1
+$5(5H5h5
++B(y	
++H$y	
+,1014181<1P1T1X1\1`1d1h1l1p1t1x1|1
+.00cfg
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQMngHandler@@
+.?AVQMngPlugin@@
+.?AVQObject@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.idata
+.text
+0"0)01090A0L0Q0W0a0
+0%040
+0&1H1c6
+0(0/060=0D0
+0,0	3#3=3W3
+0.0?0O0T0Z0
+001l1p1t1x1|1
+0070>0E0L0
+091H1W1|1
+0J1Y1h1
+0Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
+1$1,141<1D1L1T1\1d1l1t1|1
+1$3(3,3034383<3@3D3H3L3P3T3X3\368=8`8g8t8
+1%1,1
+1%1,1P2W2^2e2l2
+1.0.10
+1.2.5
+121F1Z1n1
+1G2Q3
+1Y1a1j1q1
+1p273D3M3V3b3
+1r4z4
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2$2,242<2D2L2T2\2d2l2t2|2
+2'212;2c2m2w2
+2,2s2
+2024282<2@2T2X2\2`2d2x2|2
+20575>5E5L5
+272N2e2|2
+2?2F2M2T2[2r2
+2@4G4N4U4\4p5w5~5
+2D2J2e2z2
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3!3+3S3]3g3q3{3
+3!303P3_3|3
+3"313>3
+3$3,343<3D3L3T3\3d3l3t3|3
+3)383t3
+3+4O4f4n4
+3-4<4(5]5l5X6
+30575>5E5L5
+329|;
+3@4H4P4X4`4h4p4x4
+3F4P4
+3U4|4
+3Y3e3
+4 4$4(4,404
+4#5(5I5N5\5
+4+4?4h4r4
+4,4[4v4
+45:	;
+4:8d8k8
+4C4M4W4a4k4
+4\4`4d4h4
+5 5(50585@5H5P5X5`5h5p5x5
+5#6-676A6K6s6}6
+5(5,5054585<5@5D5H5L5P5T5X5
+535=5G5Q5[5
+575N5e5|5
+5:6R6
+5F5U5r5
+5Genu
+5H6}6
+5T6X6\6`6d6h6l6p6t6x6|6
+5V5a5n5v5
+5V6[6m6
+5Y6c6
+6 6(60686@6H6P6X6`6h6p6x6
+6 646
+6$6*6D6d6t6
+667@7
+6f7k7}7
+7 7(70787@7H7P7X7`7h7p7x7
+7"7)7D7
+7'717;7c7m7w7
+797/8
+7]7l7
+7`8g8n8u8|8
+7`9d9h9l9
+7`:f:l:r:x:~:
+8	?convert@QVariant@@QBE_NHPAX@Z
+8 8(80888@8H8P8X8`8h8p8x8
+8!8+8S8]8g8q8{8
+8"8(8.848:8@8F8L8R8X8^8d8j8p8v8|8
+8%8,8
+8'8>8U8l8
+80<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0
+80<0@0D0H0L0P0T0X0\0`0d0h0|0
+848G8V8c8q8y8
+878N8e8|8
+88<<<@<D<H<L<P<T<X<\<`<d<h<l<p<
+8=9G9
+8>8E8N8W8`8i8
+8@@@@u
+8AMAgt
+8B8Q8y8
+8BGRst
+8CSIDt
+8DEEnt
+8DGKbt
+8DNEIt
+8DNEMt
+8EMItt
+8ETLPt
+8EVASt
+8EVOMt
+8GNPIt
+8H9}9
+8IFEDt
+8IPXet
+8IRPft
+8ISABt
+8KCABt
+8KEESt
+8KYBDt
+8LDNEt
+8MARFt
+8MORPt
+8MRETt
+8MRHct
+8NGAMt
+8NOLCt
+8P9W9^9e9l9`:g:n:u:|:
+8PCCit
+8PILCt
+8POOLt
+8PORDt
+8RDHDt
+8RDHIt
+8RDHMt
+8RDROt
+8SNRtt
+8TADIt
+8TIBst
+8TLPPt
+8TLPst
+8TNvet
+8TSAPt
+8TSIht
+8V9q9
+8WOHSt
+8gADpt
+8sYHpt
+8tXEtt
+8tXTit
+8tXTzt
+9	:/;9;
+9	:;:S:
+9 9(90989@9H9P9X9`9h9p9x9
+9 ;';.;5;<;q<x<
+9"9+929
+9$9*909
+9,9G9^9u9
+9-949=9F9O9X9
+9.9i9x9
+92999F9U9d9s9
+9<9K9
+9@;G;N;U;\;
+9C9M9W9a9k9
+9DNEIu
+9DNEMu
+9RDHIu
+9RDHJu
+9`;g;n;u;|;
+:	:1:8:A:J:S:\:
+: :(:0:8:@:H:P:X:`:h:p:x:
+:#;-;7;A;K;s;};
+:&;+;=;\;
+:(:L:[:
+:0:K:n:
+:3:=:G:Q:[:
+:8:Z:k:
+:9:H:e:t:
+:@;G;N;U;\;
+:MRETt
+:RDHMu
+; ;$;(;
+; ;$;(;,;0;
+; ;&;,;2;8;>;D;J;P;V;\;b;h;n;t;z;
+; ;(;0;8;@;H;P;X;`;h;p;x;
+;"<1<H<W<n<}<
+;$;(;<;D;H;L;T;l;x;
+;$<T<
+;(;L;l;
+;);7;
+;-;?;Q;c;u;
+;0;7;@;I;R;[;
+;4<;<D<M<V<_<
+;7;N;e;|;
+;A@sD
+;B$sC
+;B$}S
+;B$}]
+;B(sk
+;B(}E
+;B@s&kM
+;B@s=kM
+;H s&
+;H s'
+;H s2
+;H s<
+;H$s"kU
+;H$s$kU
+;H$s<
+;H$s=kU
+;H$}d
+;H,}-
+;H4s%
+;H@sDkU
+;J@sD
+;J@sd
+;J@si
+;L;[;x;
+;P@s;
+;P@sd
+;P@sr
+;Q s#
+;Q v#j
+;Q |%
+;Q$v#j
+;Q$}L
+;Q(}>
+;Q,}4
+;Q4s&
+;Q@sDkE
+;Q@v	
+;QLs%
+;QLs&
+;\;p;
+;]<g<
+< <$<(<,<
+< <(<0<8<@<H<P<X<`<h<p<x<
+< <(<0<H<`<d<x<
+< =G=T=]=e=
+< >'>.>5><>
+<&<5<@<D<H<L<P<T<X<\<`<
+<'<1<;<c<m<w<
+<'=h=
+<(<,<0<4<8<<<@<D<
+<,<G<^<u<
+<[>`>f>
+= =(=0=8=@=H=
+=!=+=S=]=g=q={=
+=!=,=3=l=r=x=~=
+=#=*=3=<=E=N=
+=$=1=@=O=^=
+=%=,=@>G>N>U>\>
+=,=4=8=<=D=\=
+=0?4?8?<?@?D?H?
+=5=D=a=p=
+=W?m?{?
+=p?w?~?
+>	?h?w?
+> >$>(>,>0>4>
+>#>~>
+>)>7>
+>+>=>F>
+>+?:?W?f?
+>3?;?Y?b?j?
+>;>B>O>^>m>|>
+>;>`>n>
+>=>L>8?m?|?
+>@>[>j>
+>C>M>W>a>k>
+>D?L?
+?!?)?1?<?A?G?Q?[?p?u?
+?3?=?G?Q?[?
+?4?W?~?
+?7?N?e?|?
+??0QByteArray@@QAE@PBDH@Z
+??0QColor@@QAE@ABV0@@Z
+??0QColor@@QAE@HHHH@Z
+??0QColor@@QAE@XZ
+??0QImage@@QAE@HHW4Format@0@@Z
+??0QImage@@QAE@XZ
+??0QImageIOHandler@@QAE@XZ
+??0QImageIOPlugin@@QAE@PAVQObject@@@Z
+??0QMessageLogger@@QAE@PBDH0@Z
+??0QString@@QAE@ABV0@@Z
+??0QString@@QAE@VQLatin1String@@@Z
+??0QVariant@@QAE@XZ
+??0QVariant@@QAE@_N@Z
+??1QByteArray@@QAE@XZ
+??1QImage@@UAE@XZ
+??1QImageIOHandler@@UAE@XZ
+??1QImageIOPlugin@@UAE@XZ
+??1QString@@QAE@XZ
+??4QImage@@QAEAAV0@$$QAV0@@Z
+??4QImage@@QAEAAV0@ABV0@@Z
+??BQColor@@QBE?AVQVariant@@XZ
+?E?T?
+?\?k?
+?append@QListData@@QAEPAPAXXZ
+?begin@QListData@@QBEPAPAXXZ
+?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?constData@QVariant@@QBEPBXXZ
+?convertToFormat@QImage@@QGBE?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+?debug@QMessageLogger@@QBAXPBDZZ
+?detach@QListData@@QAEPAUData@1@H@Z
+?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
+?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?dispose@QListData@@QAEXXZ
+?dispose@QListData@@SAXPAUData@1@@Z
+?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+?end@QListData@@QBEPAPAXXZ
+?event@QObject@@UAE_NPAVQEvent@@@Z
+?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+?fill@QImage@@QAEXI@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+?isEmpty@QByteArray@@QBE_NXZ
+?isOpen@QIODevice@@QBE_NXZ
+?isReadable@QIODevice@@QBE_NXZ
+?peek@QIODevice@@QAE?AVQByteArray@@_J@Z
+?qstrcmp@@YAHABVQByteArray@@PBD@Z
+?qt_assert@@YAXPBD0H@Z
+?read@QIODevice@@QAE_JPAD_J@Z
+?shared_null@QListData@@2UData@1@B
+?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
+?userType@QVariant@@QBEHXZ
+?warning@QMessageLogger@@QBAXPBDZZ
+?write@QIODevice@@QAE_JPBD_J@Z
+@.data
+@.qtmetad^
+@.reloc
+@.rsrc
+A required callback is not defined
+A(;B,u
+A4+B$P
+A4;B$~W
+A<+B(P
+A<;B(~Ij
+Application signalled CMS error
+Application signalled I/O error
+Application signalled an error
+Application signalled error during trace-callback
+Application signalled timing error
+Attempt to access an non-existing entry
+Attempt to access the wrong chunk
+Canvas_style is invalid
+Chunk cannot be empty
+Chunk cannot occur multiple times
+Chunk must not end with NULL byte
+Chunk not allowed at this point
+Chunk out of sequence
+Chunk-length is invalid
+Chunklength is incredibly large
+CloseHandle
+CreateEventW
+DeleteCriticalSection
+Delta block width and or height invalid
+Destination object for PAST must be abstract
+DisableThreadLibraryCalls
+ENDL without matching LOOP
+Encountered unexpected end-of-file
+EnterCriticalSection
+Event type is invalid
+F:\qt5\qtimageformats\plugins\imageformats\qmngd.pdb
+Framenr out of bounds
+Function is invalid at this point
+Function not yet implemented
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTimeAsFileTime
+Global data length invalid
+Handle could not be initialized
+Image is frozen
+Image is larger than defined maximum
+Image is not an animation
+Index-value out of bounds
+InitializeConditionVariable
+InitializeSListHead
+Internal buffer for JPEG processing too small
+Internal buffer-overflow
+Internal error in libmng
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J0;H4
+J8;H<
+J?green@QColor@@QBEHXZ
+J@;H@s
+K?height@QImage@@QBEHXZ
+KEESu
+KERNEL32.dll
+Keyword cannot be zero-length
+LOOP encountered when playback cache is turned off
+Layernr out of bounds
+LeaveCriticalSection
+MHDR simplicity indicates unsupported feature(s)
+MNG error %d: %s; chunk %c%c%c%c; subcode %d:%d
+Mask type is invalid
+MetaData
+Method is invalid
+MimeTypes
+Missing IDAT chunk(s)
+Missing PLTE chunk
+NULL separator not found
+No MNG header (MHDR) found
+No error
+No memory for gamma-table(s)
+No output-profile defined for CMS
+No sRGB-profile defined for CMS
+No valid header-chunk
+O0Y0l1v1?2I2&303
+Object already exists
+Object does not exist
+Out of memory
+P(;Q,|
+P.tls
+P1W1^1e1l1
+P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+Palette-index out of bounds
+Parent chunk not found
+Photoshop ICC profile
+Playtime out of bounds
+Q?red@QColor@@QBEHXZ
+QMngHandler::canRead() called with no device
+QMngPlugin
+QMngPlugin1
+QTMETADATA  qbjs
+Qt5Cored.dll
+Qt5Guid.dll
+QueryPerformanceCounter
+R?scanLine@QImage@@QAEPAEH@Z
+RDHIu
+RDHMt
+Reading suspended; waiting for I/O to catch up
+Requested nEED resources are not supported
+ResetEvent
+S;@?D?H?L?P?T?
+SEEK suspension; application decides
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
+TERM misplaced during creation of MNG stream
+Target object for DHDR must be concrete
+Target object must have alpha-channel
+TerminateProcess
+The CRC for this chunk is invalid
+The bit_depth is invalid
+The color_type is invalid
+The compression_method is invalid
+The delta operation is invalid (mismatched color_types?)
+The delta_type is invalid
+The entry_type is invalid
+The fill_method is invalid
+The filter_method or filter_type is invalid
+The handle is invalid
+The image_type is invalid
+The interlace_method is invalid
+The offset_type is invalid
+The sample_depth is invalid
+The signature is invalid
+There is not enough data in the IDAT chunk(s)
+Timer suspension; normal animation delay
+Too much data in IDAT chunk(s)
+Transformation could not be initialized
+UnhandledExceptionFilter
+Unknown critical chunk encountered
+Unknown error
+Unknown exception
+VCRUNTIME140D.dll
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Writing was unsuccessful; disk full?
+Z1s1}1
+Z?width@QImage@@QBEHXZ
+_CrtDbgReportW
+_CxxThrowException
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__vcrt_InitializeCriticalSectionEx
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_at_quick_exit
+_crt_atexit
+_except1
+_except_handler4_common
+_execute_onexit_table
+_free_dbg
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_register_onexit_function
+_seh_filter_dll
+`.rdata
+bad allocation
+bad array new length
+bool __cdecl QMngHandler::canRead(class QIODevice *)
+calloc
+className
+debug
+evNT points to unknown SEEK
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+hCSID
+hDEEn
+hDGKb
+hDNEI
+hEMIt
+hETLP
+hEVAS
+hEVOM
+hIFED
+hIPXe
+hISAB
+hKCAB
+hKEES
+hKYBD
+hMARF
+hMORP
+hMRHc
+hNGAM
+hNOLC
+hPCCi
+hPILC
+hPOOL
+hPORD
+hRDHD
+hRDHI
+hRDHM
+hRDRO
+hSNRt
+hTADI
+hTIBs
+hTLPs
+hTNve
+hTSAP
+hTSIh
+hWOHS
+hgADp
+hhGNPI
+hsYHp
+htXEt
+htXTi
+htXTz
+image/x-mng
+invalid fieldvalue (generic)
+invalid frame/image height
+invalid frame/image width
+jph@4
+kB,$P
+kH($Q
+kQ$$R
+lcms encountered an error
+malloc
+memcpy
+memset
+mng trace: iFuncnr: %d iFuncseq: %d zFuncname: %s
+mng_cleanup
+mng_copy_chunk
+mng_create
+mng_display
+mng_display_freeze
+mng_display_goframe
+mng_display_golayer
+mng_display_gotime
+mng_display_reset
+mng_display_resume
+mng_get_alphabitdepth
+mng_get_alphacompression
+mng_get_alphadepth
+mng_get_alphafilter
+mng_get_alphainterlace
+mng_get_bgcolor
+mng_get_bitdepth
+mng_get_bkgdstyle
+mng_get_cacheplayback
+mng_get_canvasstyle
+mng_get_colortype
+mng_get_compression
+mng_get_currentframe
+mng_get_currentlayer
+mng_get_currentplaytime
+mng_get_currframdelay
+mng_get_dfltimggamma
+mng_get_dfltimggammaint
+mng_get_displaygamma
+mng_get_displaygammaint
+mng_get_doprogressive
+mng_get_filter
+mng_get_framecount
+mng_get_imageheight
+mng_get_imagelevel
+mng_get_imagetype
+mng_get_imagewidth
+mng_get_interlace
+mng_get_lastbackchunk
+mng_get_lastseekname
+mng_get_layercount
+mng_get_maxcanvasheight
+mng_get_maxcanvaswidth
+mng_get_playtime
+mng_get_refreshpass
+mng_get_runtime
+mng_get_sectionbreaks
+mng_get_sigtype
+mng_get_simplicity
+mng_get_speed
+mng_get_srgb
+mng_get_starttime
+mng_get_storechunks
+mng_get_suspensionmode
+mng_get_ticks
+mng_get_totalframes
+mng_get_totallayers
+mng_get_totalplaytime
+mng_get_usebkgd
+mng_get_userdata
+mng_get_viewgamma
+mng_get_viewgammaint
+mng_getcb_closestream
+mng_getcb_errorproc
+mng_getcb_getalphaline
+mng_getcb_getbkgdline
+mng_getcb_getcanvasline
+mng_getcb_gettickcount
+mng_getcb_memalloc
+mng_getcb_memfree
+mng_getcb_openstream
+mng_getcb_processarow
+mng_getcb_processchroma
+mng_getcb_processgamma
+mng_getcb_processheader
+mng_getcb_processiccp
+mng_getcb_processmend
+mng_getcb_processneed
+mng_getcb_processsave
+mng_getcb_processseek
+mng_getcb_processsrgb
+mng_getcb_processterm
+mng_getcb_processtext
+mng_getcb_processunknown
+mng_getcb_readdata
+mng_getcb_refresh
+mng_getcb_releasedata
+mng_getcb_settimer
+mng_getcb_traceproc
+mng_getcb_writedata
+mng_getchunk_back
+mng_getchunk_basi
+mng_getchunk_bkgd
+mng_getchunk_chrm
+mng_getchunk_clip
+mng_getchunk_clon
+mng_getchunk_dbyk
+mng_getchunk_defi
+mng_getchunk_dhdr
+mng_getchunk_disc
+mng_getchunk_drop
+mng_getchunk_endl
+mng_getchunk_evnt
+mng_getchunk_evnt_entry
+mng_getchunk_expi
+mng_getchunk_fpri
+mng_getchunk_fram
+mng_getchunk_gama
+mng_getchunk_hist
+mng_getchunk_iccp
+mng_getchunk_idat
+mng_getchunk_iend
+mng_getchunk_ihdr
+mng_getchunk_ipng
+mng_getchunk_itxt
+mng_getchunk_loop
+mng_getchunk_magn
+mng_getchunk_mend
+mng_getchunk_mhdr
+mng_getchunk_move
+mng_getchunk_need
+mng_getchunk_ordr
+mng_getchunk_ordr_entry
+mng_getchunk_past
+mng_getchunk_past_src
+mng_getchunk_phyg
+mng_getchunk_phys
+mng_getchunk_plte
+mng_getchunk_pplt
+mng_getchunk_pplt_entry
+mng_getchunk_prom
+mng_getchunk_save
+mng_getchunk_save_entry
+mng_getchunk_sbit
+mng_getchunk_seek
+mng_getchunk_show
+mng_getchunk_splt
+mng_getchunk_srgb
+mng_getchunk_term
+mng_getchunk_text
+mng_getchunk_time
+mng_getchunk_trns
+mng_getchunk_unkown
+mng_getchunk_ztxt
+mng_getimgdata_chunk
+mng_getimgdata_chunkseq
+mng_getimgdata_seq
+mng_getlasterror
+mng_initialize
+mng_iterate_chunks
+mng_putchunk_back
+mng_putchunk_basi
+mng_putchunk_bkgd
+mng_putchunk_chrm
+mng_putchunk_clip
+mng_putchunk_clon
+mng_putchunk_dbyk
+mng_putchunk_defi
+mng_putchunk_dhdr
+mng_putchunk_disc
+mng_putchunk_drop
+mng_putchunk_endl
+mng_putchunk_evnt
+mng_putchunk_evnt_entry
+mng_putchunk_expi
+mng_putchunk_fpri
+mng_putchunk_fram
+mng_putchunk_gama
+mng_putchunk_hist
+mng_putchunk_iccp
+mng_putchunk_idat
+mng_putchunk_iend
+mng_putchunk_ihdr
+mng_putchunk_ipng
+mng_putchunk_itxt
+mng_putchunk_loop
+mng_putchunk_magn
+mng_putchunk_mend
+mng_putchunk_mhdr
+mng_putchunk_move
+mng_putchunk_need
+mng_putchunk_ordr
+mng_putchunk_ordr_entry
+mng_putchunk_past
+mng_putchunk_past_src
+mng_putchunk_phyg
+mng_putchunk_phys
+mng_putchunk_plte
+mng_putchunk_pplt
+mng_putchunk_pplt_entry
+mng_putchunk_prom
+mng_putchunk_save
+mng_putchunk_save_entry
+mng_putchunk_sbit
+mng_putchunk_seek
+mng_putchunk_show
+mng_putchunk_splt
+mng_putchunk_srgb
+mng_putchunk_term
+mng_putchunk_text
+mng_putchunk_time
+mng_putchunk_trns
+mng_putchunk_unkown
+mng_putchunk_ztxt
+mng_putimgdata_ihdr
+mng_putimgdata_jhdr
+mng_read
+mng_read_pushchunk
+mng_read_pushdata
+mng_read_pushsig
+mng_read_resume
+mng_readdisplay
+mng_reset
+mng_set_bgcolor
+mng_set_bkgdstyle
+mng_set_cacheplayback
+mng_set_canvasstyle
+mng_set_dfltimggamma
+mng_set_dfltimggammaint
+mng_set_displaygamma
+mng_set_displaygammaint
+mng_set_doprogressive
+mng_set_maxcanvasheight
+mng_set_maxcanvassize
+mng_set_maxcanvaswidth
+mng_set_outputprofile
+mng_set_outputprofile2
+mng_set_outputsrgb
+mng_set_sectionbreaks
+mng_set_speed
+mng_set_srgb
+mng_set_srgbimplicit
+mng_set_srgbprofile
+mng_set_srgbprofile2
+mng_set_storechunks
+mng_set_suspensionmode
+mng_set_usebkgd
+mng_set_userdata
+mng_set_viewgamma
+mng_set_viewgammaint
+mng_setcb_closestream
+mng_setcb_errorproc
+mng_setcb_getalphaline
+mng_setcb_getbkgdline
+mng_setcb_getcanvasline
+mng_setcb_gettickcount
+mng_setcb_memalloc
+mng_setcb_memfree
+mng_setcb_openstream
+mng_setcb_processarow
+mng_setcb_processchroma
+mng_setcb_processgamma
+mng_setcb_processheader
+mng_setcb_processiccp
+mng_setcb_processmend
+mng_setcb_processneed
+mng_setcb_processsave
+mng_setcb_processseek
+mng_setcb_processsrgb
+mng_setcb_processterm
+mng_setcb_processtext
+mng_setcb_processunknown
+mng_setcb_readdata
+mng_setcb_refresh
+mng_setcb_releasedata
+mng_setcb_settimer
+mng_setcb_traceproc
+mng_setcb_writedata
+mng_status_creating
+mng_status_displaying
+mng_status_dynamic
+mng_status_error
+mng_status_reading
+mng_status_running
+mng_status_runningevent
+mng_status_suspendbreak
+mng_status_timerbreak
+mng_status_writing
+mng_supports_func
+mng_trapevent
+mng_updatemngheader
+mng_updatemngsimplicity
+mng_version_beta
+mng_version_dll
+mng_version_major
+mng_version_minor
+mng_version_release
+mng_version_so
+mng_version_text
+mng_write
+org.qt-project.Qt.QImageIOHandlerFactoryInterface
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qhLDNE
+qmngd.dll
+qmnghandler.cpp
+qt_plugin_instance
+qt_plugin_query_metadata
+rhDNEM
+signed char __cdecl myerror(struct mng_data_struct *,int,signed char,int,unsigned int,int,int,char *)
+signed char __cdecl mytrace(struct mng_data_struct *,int,int,char *)
+strcmp
+strlen
+strncmp
+strongref.load() <= 0
+terminate
+ucrtbased.dll
+version
+yT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
+zT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z
+z_deflate
+z_deflateEnd
+z_deflateInit2_
+z_inflate
+z_inflateEnd
+z_inflateInit_
+zhAMAg
+zhBGRs
+zhIRPf
+zhTLPP
+zlib encountered an error
+~:hp}

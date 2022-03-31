@@ -1,0 +1,26 @@
+!This program cannot be run in DOS mode.
+#Blob
+#GUID
+#Strings
+*BSJB
+.ctor
+.text
+<Module>
+@.reloc
+DebuggableAttribute
+DebuggingModes
+Object
+Placeholder
+RuntimeCompatibilityAttribute
+System
+System.Diagnostics
+System.Runtime.CompilerServices
+UnityEngine.VR
+UnityEngine.VR.dll
+UnityEngine.VRInternal
+WrapNonExceptionThrows
+_CorDllMain
+`.rsrc
+mscoree.dll
+mscorlib
+v2.0.50727

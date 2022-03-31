@@ -1,0 +1,1909 @@
+                          
+       Sum (ms)         Avg Time/Frame (ms)     Avg Time/Call (ms)
+  %10.3f %6.2f      %10.3f %6.2f      %10.3f %6.2f   %6d %6.2f
+  %10.3f %6.2f      %6d
+  %52s%12d%12.3f%6.2f%%%12.3f%6.2f%%%12.3f%12.3f%12.3f
+  ---------- ------      ------
+  ---------- ------      ---------- ------      ---------- ------   ------ ------
+  ---------------------------------------------------- ----------- ----------- ------ ----------- ------ ----------- ----------- -----------
+  HEAP_ZERO_MEMORY is specified.
+  Scope                                                      Calls  Time+Child    Pct        Time    Pct   Avg+Child         Avg        Peak
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Avg Time/Frame (ms)
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Type Descriptor'
+ _^[]
+ bytes
+ delete
+ delete[]
+ new[]
+!4D4V4[4e4s4
+%%.%if%s
+%*s%s %s --> %d blocks = %s (%s larger)
+%*s%s %s --> %d blocks = %s (new)
+%*s%s --> %d blocks = %s
+%.1f pct of time accounted for
+%02d:%02d:%02d
+%04d%02d%02d%02d%02d%02d
+%262=2N2\2k2
+%VeriSign Class 3 Code Signing 2010 CA
+%VeriSign Class 3 Code Signing 2010 CA0
+%d frames sampled for %.2f seconds
+%d validator nodes, %d nodes larger than %s
+%d,%p,%u,%u,%u,%u,%u,%d,%s
+%s (%d) : 
+%u MB address space used assuming maximum PageHeap overhead.
+%u MB allocated.
+%u MB memory used assuming maximum PageHeap overhead.
+%u lifetime allocations (%u delta).
+%u outstanding allocations (%d delta).
+&0$0"
+'2B2P2X2
+'Symantec Time Stamping Services CA - G2
+'Symantec Time Stamping Services CA - G20
+( 8PX
+('8PW
+(070g0v0
+(Function name not found)
+(null)
+***** OUT OF MEMORY! attempted allocation size: %I64d ****
+***** OUT OF MEMORY! attempted allocation size: %llu ****
++Symantec Time Stamping Services Signer - G40
++http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
++http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
++n&~O	D+
++t"HHt
+,SVWj0X
+-- Hierarchical Call Graph --
+-- Profile scopes sorted by average time (including children) --
+-- Profile scopes sorted by average time (without children) --
+-- Profile scopes sorted by peak --
+-- Profile scopes sorted by peak over average (including children) --
+-- Profile scopes sorted by time (including children) --
+-- Profile scopes sorted by time (without children) --
+-- Summary --
+-64OS
+-NOPROCESSHEAP
+-PROCESSHEAP
+-PROCESSHEAPZEROMEM
+-RESERVELOWMEM
+-debugbreak
+-hometest
+-jd[;
+-noassert
+-nocrashdialog
+-stack:
+-steamconsole
+-steamos
+.?AVCHeapDefault@@
+.?AVCHeapMemAlloc@@
+.?AVCStdMemAlloc@@
+.?AVCThread@@
+.?AVCVProfManager@@
+.?AVCWorkerThread@@
+.?AVCpuidImpl@?A0x498a2d27@@
+.?AVDefaultImpl@?A0x498a2d27@@
+.?AVGlpiImpl@?A0x498a2d27@@
+.?AVICpuTopology@@
+.?AVIMemAlloc@@
+.?AV_Generic_error_category@std@@
+.?AV_Iostream_error_category@std@@
+.?AV_System_error_category@std@@
+.?AVbad_alloc@std@@
+.?AVbad_exception@std@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVtype_info@@
+.AC Runtime heap
+.http://crl.thawte.com/ThawteTimestampingCA.crl0
+.rsrc
+.text
+/0]0j1
+/http://csc3-2010-aia.verisign.com/CSC3-2010.cer0
+/http://csc3-2010-crl.verisign.com/CSC3-2010.crl0D
+0	0v0
+0!0*00060>0P0V0v0|0
+0"0'0-01070;0A0E0J0P0T0Z0^0d0h0n0r0y0
+0$0,040<0D0L0T0\0d0l0t0|0
+0%0/0=0M0T0Z0z0
+0&0,01070<0I0Q0W0\0c0i0n0u0{0
+0&0-0;0U0\0j0}0
+0'070F0V0d0
+0(0,0004080<0@0D0L0P0X4t4
+0*060B0L0`0f0
+0+01090C0
+0+0O0
+0+1E1U1|1
+0,0<0@0P0T0X0`0x0
+0/1J1
+010;0Q0a0g0l0
+010k0s0
+080X0x0
+091]1{1
+0@0D0H0L0T0X0\0t0|0
+0B0_0~081B1]1w1
+0K0^0
+0U1`1v1
+0X1b1q1x1
+0c1o1!2
+0r0^1
+1 1$1,1D1T1X1\1d1|1
+1!1'10171<1Q1W1`1g1l1
+1"161=1M1T1b1
+1"2q2
+1#1+161@1F1L1
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+1$1,141<1D1L1T1\1d1l1t1|1
+1$1,141<1D1L1T1p1x1
+1$1~1
+1%1*181}2
+1%1f1
+1(1H1h1
+1-242<2
+102<2X2
+120928000000Z
+121018000000Z
+121221000000Z
+131J1
+150725005744Z0#
+151123235959Z0
+151K1R1`1f1
+17:57:41
+1?1K1
+1?2G2
+1B4}4
+1C1R1l1v1
+1N5C6T6
+1N_^[
+1Q1}1
+1T1g1<2
+1j1'3O5
+1p:t:x:
+1q2z2
+2 2%2/24292>2I2R2_2e2k2q2w2
+2 2-2B2Q2\2c2i2
+2 272
+2 373|3
+2$2,242<2D2L2T2\2d2l2t2|2
+2'4F4^7m7
+2(2,2<2@2H2`2p2t2
+2)23282E2R2n2
+2)2m2y2
+2,2e2
+2,878Y8d8
+201229235959Z0b1
+201230235959Z0^1
+222D2R2
+232I2_2u2
+24282H2l2x2
+2894504P
+2;3J3O3Y3n3
+2>2}2
+2A3b3
+2E3P3b3x3~3
+2G2S2X2b2p2
+2H2_2Q3X3
+2H3Q3[3w3
+2Terms of use at https://www.verisign.com/rpa (c)101.0,
+3	4+4~4
+3 3$3(3,343L3P3h3x3|3
+3 3$3034383<3P3T3X3
+3!3y3#4K4Y4
+3"3+3D3R3[3a3o3v3
+3"3,3d3
+3#3'353
+3#4N4
+3$3,343<3D3L3T3\3d3l3t3|3
+3%3-3S3[3c3k3
+3'313H3S3a3m3s3
+3'3M3l3
+3(343P3p3
+3(3=3D3L3R3
+3(3N3
+3.3S3
+3/353
+3/656t6{6
+383M3S3\3
+3@3H3Y3
+3E4f4
+3I3|3
+3l4s4
+3o4w4
+3q4:5N5H6d6
+3q^QW
+4 4&454?4E4W4a4g4
+4 505
+4!4&4L4S4a4
+4!4@4I4P4Y4e4m4w4
+4"454W4^4
+4#4*494Y4b4u4
+4#4J4P4b4p4
+4$4(4,4044484<4d4h4l4p4t4x4|4
+4$4(484<4@4H4`4p4t4
+4$4,444<4D4L4T4\4d4l4t4|4
+4%4K4S4[4c4q4
+4'474>4`4
+4'5m5x5
+4(4R4|4
+4*4H4
+40454:4A4F4P4U4b4r4x4
+404P4p4
+405X5o5~5
+4:4B4
+4<4t4
+4<6C6
+4R5Z5f5s5{5
+4V5[5
+4s4~4
+5	6#6-6D6V6d6w6|6
+5 5$5(5,545L5\5`5p5t5|5
+5 5$5|5
+5 676@6M6R6^6j6t6
+5!5+5?5E5g5u5}5
+5!6R6j6
+5#5(5.565;5A5I5N5T5\5a5g5o5t5z5
+5#5/5>5
+5#5;5G5V5{5
+5$5(50585@5H5P5X5`5h5p5x5
+5$555<5u5
+5$6*616K6
+5$6+696Q6a6r6y6
+5$6;6@6J6]6~6
+5%53595?5U5c5i5o5
+5&566
+5*5<5
+5.5Y5k5
+50301
+555C5J5b5g5l5r5x5
+558<8`8
+585T5p5
+5@5G5
+5D6Q6]6o6
+5Digital ID Class 3 - Microsoft Software Validation v21
+5Genu
+5M5'8a8
+5ntel
+6	7,7
+6 6(60686@6H6P6X6`6h6p6x6
+6#6<6C6K6P6T6X6
+6#7Q7
+6%6-62686@6E6K6S6X6^6f6k6q6y6~6
+6%6G6M6S6u6
+6&7-7
+6'6.6
+6.757n7u7
+606<6X6t6
+617t7
+62787<7@7D7
+637	9p9
+646j6p6
+647^7
+64:!;
+6:6U6n6
+6A6L6
+6R6]6c6
+6`9p;
+6d6|6_9
+7 7$7(7,70747
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+7 7(70787@7H7P7X7`7h7p7x7
+7"7(7K7o7~7
+7"727L7S7s7
+7"8(8.848:8@8G8N8U8\8c8j8q8y8
+7$7)7.777<7B7J7P7h7o7|7
+7'7l7r7w7
+7'898
+7(707P7t7
+7)7=7b7m7
+7)909
+7,8Q8e8q8
+7-7N7`7r7
+700PP
+700WP
+718u8
+7A7d7
+7F7M7T7v7
+7F7Z7n7
+7R7Y7o7y7
+7i7#8V8
+7i7p7
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8 8$8(8Q8w8
+8 8(80888@8H8P8X8`8h8p8x8
+8"8*8
+8$8,888X8d8
+8$858U8
+8%868<8B8U8f8l8r8
+8'858C8Q8_8m8{8
+8*8/858G8M8X8a8n8v8
+8*898C8U8d8k8|8
+8*8@8T8Y8e8k8p8
+8+8B8I8T8Z8j8z8
+8/888&9+9=9
+8/8a8h8l8p8t8x8|8
+80604
+82878Z8d8x8
+829|9
+868A8L8^8
+879=9r9
+8<8O8[8g8q8
+8B9W9{9
+8L?P?X?\?`?d?
+8O8X8c8u8
+8f:m:
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+9 9(90989@9H9P9X9`9h9p9x9
+9!9'9W9^9
+9!9E9r9
+9%979=9C9h9w9
+9&9K9a9
+9'919;9P9W9i9
+9(9T9\9
+9+:R:X:
+9,919:9N9W9e9s9{9
+9,9A9G9
+90705
+90t2h
+919C9U9g9y9
+91:8:<:@:D:H:L:P:T:
+93:>:
+959a9
+969<9V9_9t9z9
+9=9j9p9
+9=:k:
+9?9J9\9p9
+9E9P9b9~9
+9M:j:r:
+9P9f9
+9T:Z:g:s:
+9X9]9f9k9t9y9
+9] t"
+9w9D:s:|:
+:	:):F:n:
+: :$:(:,:0:4:8:<:@:D:]:j:v:
+: :(:0:8:@:H:P:X:`:h:p:x:
+:":H:
+:";(;
+:$:*:0:>:C:N:
+:(:::L:^:
+:):.:D:Q:W:
+:):A:I:O:V:r:x:
+:+:U:\:c:j:
+:+:\:
+:/:A:N:^:d:j:r:
+:1:9:?:G:M:a:q:
+:1:B:X:
+:2;D;M;g;w;
+:9:@:
+::>'?
+:;:G:
+:;;A;H;
+:<:`:l:t:
+:<;S;
+:<;[;m;
+:B;Y;
+:K:e:r:
+:K;L<\<m<u<
+:Q;a;q;
+:V:q:
+:Wj$h
+:Y<y>
+:^;z;
+;	<-<C<_<n<t<L=p=v=
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+; ;(;0;8;@;H;P;X;`;h;p;x;
+;!;<;T;\;o;
+;";@;M;U;q;};
+;"<(<C<K<m<t<}<
+;"<F<K<W<c<
+;#;N;b;p;z;
+;$;D;h;t;|;
+;%;C;y;
+;(;f;r;
+;)<S<f<w<
+;*;:;@;O;Z;l;
+;,;B;X;n;
+;,;I;`;
+;3;|;
+;9<i<
+;=;E;m;u;
+;>;\;
+;F`s6
+;G;b;
+;L;V;
+;_;y;
+;_tr.
+;h<o<
+;j;v;
+;t$,v-
+<	=n>t>z>
+< <$<(<,<0<4<8<<<@<D<l<|<
+< <(<0<8<@<
+< </<6<s<
+< =,=4=T=x=
+< t8<	t4
+<!<3<C<e<
+<!<7<]<d<q<
+<!<8<@<E<J<U<]<n<x<
+<!<y<
+<!=6=D=M=x=
+<"<*<0<6<
+<$<,<L<p<|<
+<%<,<<<B<H<P<V<\<d<j<p<x<
+<%<0<9<t<{<
+<,<0<4<8<<<@<D<H<L<T<\<d<l<t<|<
+<,<p<
+<0<s<
+<0=H=a=.>4>@>
+<1<7<;<F<L<V<_<i<s<}<
+<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+<5===D=
+<6>F>
+<7=P=u=
+<:<T<
+<;<u<
+<>\t7Nu
+<K=T=\=v=
+<O<W<j<u<z<
+<V=v=<>Q>~>
+<`=g=
+<at-<rt"<wt
+<c>p>y>~>
+<itx<o
+<unable to get local hostname>
+=!=2=6=B=F=R=V=b=l=r=y=
+=!=6=>=H=a=v=~=
+=$=(=,=0=4=8=<=@=D=H=p>t>`?d?
+=$=,=4=<=D=L=T=\=d=l=t=|=
+=%>,>d>
+=%>D>U>\>f>l>s>z>
+=&=B=H=r=
+='=:=M=`=s=
+=(>B>J>U>l>
+=*=N=
+=/>J>o>
+=0;09
+=0=4=8=<=@=D=H=L=v=
+=0=@=L=u=
+=2=;=A=H=O=Z=a=o=
+=5=<=
+=6=q=~=
+=F>U>g>;?t?
+=J>O>g>z>
+=Q=[=~=
+=R=]=o=
+=q=x=
+>">4>@>J>`>
+>">:>A>L>
+>"?G?y?
+>"hcS
+>#>*>6>T>]>j>r>z>
+>#>.>Q>V>b>g>
+>$>,>4><>D>L>T>\>d>l>t>|>
+>$?[?
+>*><>Y>m>
+>+>=>O>a>{>
+>,>4>H>P>d>l>t>|>
+>/?>?n?}?
+>0!0	
+>0t-N
+>4>B>I>W>f>\?
+>:>H>h>
+>@>E>O>
+>A?g?z?
+>B?k?x?~?
+>H?N?q?}?
+>J>Q>
+>]?{?
+>j=Xf
+?	?1?
+?	?4?C?H?R?`?w?|?
+?!?e?k?{?
+?$?,?4?<?D?L?T?\?d?l?t?|?
+?$?.?D?S?X?d?p?z?
+?+?:?H?
+?,?2?>?X?b?s?~?
+?,?G?
+?0?7?G?N?s?
+?0H0R0f0
+?5?>?H?o?
+?8?X?x?
+?:uBGW
+??0CStack@@QAE@XZ
+??0CThread@@QAE@XZ
+??0CThreadEvent@@QAE@PAX_N@Z
+??0CThreadEvent@@QAE@PBD_N1@Z
+??0CThreadEvent@@QAE@_N@Z
+??0CThreadFullMutex@@QAE@_NPBD00@Z
+??0CThreadLocalBase@@QAE@XZ
+??0CThreadMutex@@QAE@XZ
+??0CThreadRWLock@@QAE@XZ
+??0CThreadSemaphore@@QAE@JJ@Z
+??0CThreadSpinRWLock@@QAE@XZ
+??0CThreadSyncObject@@IAE@XZ
+??0CVProfManager@@QAE@XZ
+??0CVProfNode@@QAE@PAVCVProfile@@PBDHPAV0@W4EVProfBugdetGroup@@H@Z
+??0CVProfile@@QAE@XZ
+??0CVProfileArray@@QAE@XZ
+??0CValidator@@QAE@H_N@Z
+??0CWorkerThread@@QAE@XZ
+??1CStack@@QAE@XZ
+??1CThread@@UAE@XZ
+??1CThreadEvent@@QAE@XZ
+??1CThreadFullMutex@@QAE@XZ
+??1CThreadLocalBase@@QAE@XZ
+??1CThreadMutex@@QAE@XZ
+??1CThreadRWLock@@QAE@XZ
+??1CThreadSemaphore@@QAE@XZ
+??1CThreadSyncObject@@QAE@XZ
+??1CVProfManager@@QAE@XZ
+??1CVProfNode@@QAE@XZ
+??1CVProfile@@QAE@XZ
+??1CVProfileArray@@QAE@XZ
+??1CValidator@@QAE@XZ
+??1CWorkerThread@@UAE@XZ
+??4CStack@@QAEAAV0@ABV0@@Z
+??4CThreadLocalBase@@QAEAAV0@ABV0@@Z
+??4CThreadSpinRWLock@@QAEAAV0@ABV0@@Z
+??4CTier0@@QAEAAV0@ABV0@@Z
+??4CVProfNode@@QAEAAV0@ABV0@@Z
+??4CVProfileArray@@QAEAAV0@ABV0@@Z
+??4CValidator@@QAEAAV0@ABV0@@Z
+??7CThreadSyncObject@@QBE_NXZ
+??BCThreadSyncObject@@QAEPAXXZ
+??_7CThread@@6B@
+??_7CWorkerThread@@6B@
+??_FCThreadEvent@@QAEXXZ
+??_FCThreadFullMutex@@QAEXXZ
+?Add@CStack@@QAEX_K@Z
+?AddBudgetGroupName@CVProfile@@IAEXW4EVProfBugdetGroup@@HPBD@Z
+?AddProfileForThread@CVProfManager@@QAEPAVCVProfileThreadEntry@@PAVCVProfile@@II@Z
+?AddToTotal@CValidator@@QAEXH@Z
+?AddValidationLock@CValidator@@QAEXPAVCThreadMutex@@@Z
+?AssertOwnedByCurrentThread@CThreadFullMutex@@QAE_NXZ
+?AssertOwnedByCurrentThread@CThreadMutex@@QAE_NXZ
+?AssertUseable@CThreadSyncObject@@IAEXXZ
+?AssignIf@CThreadSpinRWLock@@AAE_NABULockInfo_t@1@0@Z
+?AtRoot@CVProfile@@QBE_NXZ
+?BCountingOnly@CValidator@@QAE_NXZ
+?BExcludeAllocationFromTracking@CValidator@@AAE_NPBDH@Z
+?BHasValidThreadID@CThread@@QAE_NXZ
+?BIsProfilePtrValid@CVProfManager@@QAE_NPAVCVProfile@@@Z
+?BMemLeaks@CValidator@@QAE_NXZ
+?BProfileHasNodesOutsideBudgetGroup_Recursive@CVProfile@@IAE_NPAVCVProfNode@@H@Z
+?BoostPriority@CWorkerThread@@QAEHXZ
+?BudgetGroupNameToBudgetGroupID@CVProfile@@QBE?AW4EVProfBugdetGroup@@PBD@Z
+?CalcStackDepth@CThread@@QAEIPAX@Z
+?CalculateCRC@CStack@@QAEXXZ
+?Call@CWorkerThread@@IAEHII_NP6GIIPBQAXHI@Z@Z
+?CallMaster@CWorkerThread@@QAEHII@Z
+?CallWorker@CWorkerThread@@QAEHII_N@Z
+?Check@CThreadEvent@@QAE_NXZ
+?ClaimArrayMemory@CValidator@@QAEXPAX@Z
+?ClaimConnection@CValidator@@QAEXI@Z
+?ClaimMemory@CValidator@@QAEXPAX@Z
+?ClaimMemory_Aligned@CValidator@@QAEXPAX@Z
+?ClaimOsFile@CValidator@@QAEXPAX@Z
+?ClaimSocket@CValidator@@QAEXI@Z
+?ClaimTrackedKey@CValidator@@AAEXPAVCTrackItems@@PAXPAI@Z
+?ClaimUntrackedMemory@CValidator@@QAEXI@Z
+?CleanupUnusedProfiles@CVProfManager@@QAEXXZ
+?ClearPrevTime@CVProfNode@@QAEXXZ
+?CreateBudgetGroups@CVProfile@@IAEXXZ
+?CreateSimpleThread@@YAPAXP6AIPAX@Z0PAII@Z
+?DiffAgainst@CValidator@@QAEXPAV1@@Z
+?Dump@CVProfile@@IAAXPBDZZ
+?DumpAllThreadProfiles@CVProfManager@@QAEXXZ
+?DumpNodes@CVProfile@@IAEXPAVCVProfNode@@H_N@Z
+?DumpSorted@CVProfile@@IAEXPBDNP6A_NABUTimeSums_t@@1@ZH@Z
+?EnableDumpSpikes@CVProfManager@@QAEXH@Z
+?EnterScope@CVProfNode@@QAEXPAX@Z
+?EnterScope@CVProfile@@QAE_NPBDHW4EVProfBugdetGroup@@_NHPAX@Z
+?EnterScope@CVProfile@@QAE_NPBDHW4EVProfBugdetGroup@@_NPAX@Z
+?ExitScope@CVProfNode@@QAE_NXZ
+?ExitScope@CVProfile@@QAEXXZ
+?Finalize@CValidator@@QAEXXZ
+?FindNode@CVProfile@@QAEPAVCVProfNode@@PAV2@PBD@Z
+?FindObject@CValidator@@QAEPAVCValObject@@PAX@Z
+?FindOrCreateCounter@CVProfile@@QAEPAHPBDW4CounterGroup_t@@@Z
+?FreeNodes_R@CVProfile@@IAEXPAVCVProfNode@@@Z
+?Genu
+?Get@CThreadLocalBase@@QBEPAXXZ
+?GetAllThreadProfiles@CVProfManager@@QAEXPAVCVProfileArray@@@Z
+?GetBudgetGroupColor@CVProfile@@QAEXW4EVProfBugdetGroup@@AAH111@Z
+?GetBudgetGroupFlags@CVProfile@@QBEHW4EVProfBugdetGroup@@@Z
+?GetBudgetGroupID@CVProfNode@@QBE?AW4EVProfBugdetGroup@@XZ
+?GetBudgetGroupName@CVProfile@@QBEPBDW4EVProfBugdetGroup@@@Z
+?GetCPUInformation@@YAABUCPUInformation@@XZ
+?GetCallHandle@CWorkerThread@@QAEPAXXZ
+?GetCallParam@CWorkerThread@@QBEIXZ
+?GetChild@CVProfNode@@QAEPAV1@XZ
+?GetClientData@CVProfNode@@QBEHXZ
+?GetCount@CVProfileArray@@QAEHXZ
+?GetCounterGroup@CVProfile@@QBE?AW4CounterGroup_t@@H@Z
+?GetCounterName@CVProfile@@QBEPBDH@Z
+?GetCounterNameAndValue@CVProfile@@QBEPBDHAAH@Z
+?GetCounterValue@CVProfile@@QBEHH@Z
+?GetCubTotal@CValidator@@QAE_JXZ
+?GetCurCalls@CVProfNode@@QAEHXZ
+?GetCurTime@CVProfNode@@QAENXZ
+?GetCurTimeLessChildren@CVProfNode@@QAENXZ
+?GetCurrentCThread@CThread@@SAPAV1@XZ
+?GetCurrentNode@CVProfile@@QAEPAVCVProfNode@@XZ
+?GetCurrentScope@CVProfNode@@QAEPAXXZ
+?GetCurrentScope@CVProfile@@QAEPAXXZ
+?GetFrameTimeOutsideBudgetGroup_Recursive@CVProfile@@QAENPAVCVProfNode@@W4EVProfBugdetGroup@@@Z
+?GetL2CacheMisses@CVProfNode@@QAEHXZ
+?GetName@CThread@@QAEPBDXZ
+?GetName@CVProfNode@@QAEPBDXZ
+?GetNumConnections@CValidator@@QAEIXZ
+?GetNumCounters@CVProfile@@QBEHXZ
+?GetNumFrames@CStack@@QAEHXZ
+?GetNumOsFiles@CValidator@@QAEIXZ
+?GetNumSockets@CValidator@@QAEIXZ
+?GetOrigNameAddress@CVProfNode@@QAEPBXXZ
+?GetParent@CVProfNode@@QAEPAV1@XZ
+?GetPeakFrameTime@CVProfile@@QAENXZ
+?GetPeakTime@CVProfNode@@QAENXZ
+?GetPrevCalls@CVProfNode@@QAEHXZ
+?GetPrevSibling@CVProfNode@@QAEPAV1@XZ
+?GetPrevTime@CVProfNode@@QAENXZ
+?GetPrevTimeLessChildren@CVProfNode@@QAENXZ
+?GetPriority@CThread@@QBEHXZ
+?GetProfile@CVProfNode@@QAEPAVCVProfile@@XZ
+?GetProfile@CVProfileArray@@QAEPAVCVProfile@@H@Z
+?GetResult@CThread@@QBEHXZ
+?GetRoot@CVProfile@@QAEPAVCVProfNode@@XZ
+?GetSibling@CVProfNode@@QAEPAV1@XZ
+?GetSubNode@CVProfNode@@QAEPAV1@PBDHW4EVProfBugdetGroup@@@Z
+?GetSubNode@CVProfNode@@QAEPAV1@PBDHW4EVProfBugdetGroup@@H@Z
+?GetThreadEntry@CVProfile@@QAEPAVCVProfileThreadEntry@@XZ
+?GetThreadHandle@CThread@@QBEPAXXZ
+?GetThreadID@CVProfile@@QAEIXZ
+?GetThreadId@CThread@@QBEIXZ
+?GetThreadName@CVProfile@@QAEPBDXZ
+?GetThreadProc@CThread@@EAEP6GIPAX@ZXZ
+?GetTimeLastFrame@CVProfile@@QAENXZ
+?GetTotalCalls@CVProfNode@@QAEHXZ
+?GetTotalTime@CVProfNode@@QAENXZ
+?GetTotalTimeLessChildren@CVProfNode@@QAENXZ
+?GetTotalTimeSampled@CVProfile@@QAENXZ
+?GetUniqueNodeID@CVProfNode@@ABEHXZ
+?Handle@CThreadSyncObject@@QAEPAXXZ
+?Init@CThread@@MAE_NXZ
+?IsAlive@CThread@@QAE_NXZ
+?IsClaimed@CValidator@@QAE_NPAX@Z
+?IsCreator@CThreadFullMutex@@QBE_NXZ
+?IsEnabled@CVProfile@@QBE_NXZ
+?IsThreadRunning@CThread@@MAE_NXZ
+?IsValid@CThreadSyncObject@@QBE_NXZ
+?Join@CThread@@QAE_NI@Z
+?Lock@CThreadFullMutex@@QAEXXZ
+?Lock@CThreadMutex@@QAEXXZ
+?Lock@CThreadMutex@@QBEXXZ
+?Lock@CThreadSpinLock@@ACEXI@Z
+?LockForRead@CThreadRWLock@@QAEXXZ
+?LockForRead@CThreadRWLock@@QBEXXZ
+?LockForRead@CThreadSpinRWLock@@QAEXXZ
+?LockForRead@CThreadSpinRWLock@@QBEXXZ
+?LockForWrite@CThreadRWLock@@QAEXXZ
+?LockForWrite@CThreadRWLock@@QBEXXZ
+?LockForWrite@CThreadSpinRWLock@@QAEXXZ
+?LockForWrite@CThreadSpinRWLock@@QBEXXZ
+?MainThrd
+?MarkFrame@CVProfNode@@QAEXXZ
+?MarkFrame@CVProfile@@QAEXPBD@Z
+?NGetPC@CStack@@QAE_KH@Z
+?NumFramesSampled@CVProfile@@QAEHXZ
+?OnExit@CThread@@MAEXXZ
+?OutputReport@CVProfile@@QAEXHPBDH@Z
+?PMEEnable@CVProfile@@QAEX_N@Z
+?PMEInitialized@CVProfile@@QAEX_N@Z
+?PPPPh
+?PValObjectFirst@CValidator@@QAEPAVCValObject@@XZ
+?PVhh
+?PageHeap is on. Memory use will be larger than normal.
+?Pause@CVProfNode@@QAEXXZ
+?Pause@CVProfile@@QAEXXZ
+?PeekCall@CWorkerThread@@QAE_NPAI@Z
+?Pop@CValidator@@QAEXXZ
+?Push@CValidator@@QAEXPBDPAX0@Z
+?RegisterCallbackHandler@CVProfile@@QAEXPAVIVProfileCallbackHandler@@@Z
+?Release@CThreadFullMutex@@QAE_NXZ
+?Release@CThreadSemaphore@@QAE_NJ@Z
+?RenderLeaks@CValidator@@QAE_NI@Z
+?RenderObjects@CValidator@@QAEXI@Z
+?Reply@CWorkerThread@@QAEXI@Z
+?Reset@CStack@@QAEXXZ
+?Reset@CThreadEvent@@QAE_NXZ
+?Reset@CVProfNode@@QAEXXZ
+?Reset@CVProfile@@QAEXXZ
+?ResetCounters@CVProfile@@QAEXW4CounterGroup_t@@@Z
+?ResetPeak@CVProfNode@@QAEXXZ
+?ResetPeaks@CVProfile@@QAEXXZ
+?Resume@CThread@@QAEIXZ
+?Resume@CVProfNode@@QAEXXZ
+?Resume@CVProfile@@QAEXXZ
+?SSPQSW
+?Set@CThreadEvent@@QAE_NXZ
+?Set@CThreadLocalBase@@QAEXPAX@Z
+?SetAllocSizeFilter@CValidator@@QAEXH@Z
+?SetBudgetGroupID@CVProfNode@@QAEXW4EVProfBugdetGroup@@@Z
+?SetClientData@CVProfNode@@QAEXH@Z
+?SetCurFrameTime@CVProfNode@@QAEXK@Z
+?SetDumpFunc@CVProfile@@QAEXP6AXPBD@Z@Z
+?SetExitQuietly@CThread@@QAEXXZ
+?SetName@CThread@@QAEXPBD@Z
+?SetPriority@CThread@@QAE_NH@Z
+?SetThreadEntry@CVProfile@@QAEXPAVCVProfileThreadEntry@@@Z
+?SetTrace@CThreadFullMutex@@QAEX_N@Z
+?SetTrace@CThreadMutex@@QAEX_N@Z
+?SetUniqueNodeID@CVProfNode@@AAEXH@Z
+?Sleep@CThread@@SAXI@Z
+?SpinLockForWrite@CThreadSpinRWLock@@AAEXI@Z
+?Start@CThread@@QAE_NI@Z
+?Start@CVProfile@@QAEXXZ
+?StartProfilingAllThreads@CVProfManager@@QAEXXZ
+?Stop@CThread@@QAEXH@Z
+?Stop@CVProfile@@QAEXXZ
+?StopProfilingAllThreads@CVProfManager@@QAEXXZ
+?SumTimes@CVProfile@@IAEXPAVCVProfNode@@H@Z
+?SumTimes@CVProfile@@IAEXPBDH@Z
+?Suspend@CThread@@QAEIXZ
+?Term@CVProfile@@QAEXXZ
+?Terminate@CThread@@QAE_NH@Z
+?ThreadExceptionWrapper@CThread@@CAXPAX@Z
+?ThreadGetProcessExitCode@@YA_NPAXPAH@Z
+?ThreadProc@CThread@@CGIPAX@Z
+?ThreadTerminateProcessCode@@YA_NPAXH@Z
+?TryLock@CThreadFullMutex@@QAE_NI@Z
+?TryLock@CThreadMutex@@QAE_NH@Z
+?TryLock@CThreadMutex@@QBE_NXZ
+?TryLockForRead@CThreadSpinRWLock@@QAE_NXZ
+?TryLockForRead@CThreadSpinRWLock@@QBE_NXZ
+?TryLockForWrite@CThreadSpinRWLock@@AAE_NI@Z
+?TryLockForWrite@CThreadSpinRWLock@@QAE_NXZ
+?TryLockForWrite@CThreadSpinRWLock@@QBE_NXZ
+?U?c?m?
+?Unknown exception
+?Unlock@CThreadFullMutex@@QAEXXZ
+?Unlock@CThreadMutex@@QAEXXZ
+?Unlock@CThreadMutex@@QBEXXZ
+?UnlockRead@CThreadRWLock@@QAEXXZ
+?UnlockRead@CThreadRWLock@@QBEXXZ
+?UnlockRead@CThreadSpinRWLock@@QAEXXZ
+?UnlockRead@CThreadSpinRWLock@@QBEXXZ
+?UnlockValidationLocks@CValidator@@QAEXXZ
+?UnlockWrite@CThreadRWLock@@QAEXXZ
+?UnlockWrite@CThreadRWLock@@QBEXXZ
+?UnlockWrite@CThreadSpinRWLock@@QAEXXZ
+?UnlockWrite@CThreadSpinRWLock@@QBEXXZ
+?UnregisterCallbackHandler@CVProfile@@QAEXPAVIVProfileCallbackHandler@@@Z
+?UsePME@CVProfile@@QAE_NXZ
+?Validate@CVProfManager@@QAEXAAVCValidator@@PBD@Z
+?Validate@CVProfNode@@QAEXAAVCValidator@@PBD@Z
+?Validate@CVProfile@@QAEXAAVCValidator@@PBD@Z
+?Validate@CValidator@@QAEXAAV1@PBD@Z
+?ValidateGlobals@CTier0@@SAXAAVCValidator@@@Z
+?WVPQ
+?Wait@CThreadSyncObject@@QAE_NI@Z
+?WaitForCall@CWorkerThread@@QAE_NIPAI@Z
+?WaitForCall@CWorkerThread@@QAE_NPAI@Z
+?WaitForCreateComplete@CThread@@AAE_NPAVCThreadEvent@@@Z
+?WaitForRead@CThreadRWLock@@AAEXXZ
+?WaitForReply@CWorkerThread@@IAEHIP6GIIPBQAXHI@Z@Z
+?WaitForReply@CWorkerThread@@QAEHI@Z
+?Y?q?{?
+?YY^]
+?Yield@CThread@@SAXXZ
+?[_^]
+?_?t?
+?_^[]
+?__based(
+?bad allocation
+?bad exception
+?c:\buildslave\steam_rel_client_win32\build\src\tier0\memstd.h
+?g_bInException@@3_NC
+?generic
+?ineIuu
+?iostream
+?kernel32
+?ntel
+?oldValue@?4??TryLockForWrite@CThreadSpinRWLock@@AAE_NI@Z@4ULockInfo_t@2@B
+?s_iCurrentUniqueNodeID@CVProfNode@@0HA
+?system
+?t#95D
+?t+95@
+?t395<
+?t;958
+?} j@W
+@.data
+@.reloc
+@CTSListBase: Misaligned list
+@Fv^k
+@SVWj8
+@VurP
+@WARNING: Disabling vprof spike dumping and stopping profile for thread %d - %s because of exceeded rate limit, try a higher threshold.
+@_^[]
+@vprof.cpp
+A4PQh
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
+A_^[]
+About to request trace recording.
+Alc blocks size,%12u,%12u,%12u,%u
+Alloc(): iPage >= 0 && iPage < %d, iPage == %d, pResult = 0x%p, pSharedData->m_pBase == 0x%p
+AllocateCrashMemoryReserve
+App Heap
+April
+AreFileApisANSI
+AreStackTrackingFiltersEnabledAtStart
+Assert
+Assert( %s ):%s:%d
+AssertMsgImplementation
+Assertion Failed: !m_bJustCount
+Assertion Failed: !m_bTestThreadRunning
+Assertion Failed: !pTracker->IsClaimed( pKey )
+Assertion Failed: %s
+Assertion Failed: (iub & (m_nSizeWithStack-1)) == 0
+Assertion Failed: 0
+Assertion Failed: GetCurrentThreadId() == m_ulMainThreadID
+Assertion Failed: GetCurrentThreadId() == m_ulTestThreadID
+Assertion Failed: NULL != m_pValObjectCur
+Assertion Failed: NULL == pValObjectPrev->m_pValObjectNext
+Assertion Failed: ShouldUse( nBytes )
+Assertion Failed: _tcslen( pGroupName ) < MAX_GROUP_NAME_LENGTH
+Assertion Failed: dwRet - WAIT_OBJECT_0 < cActualSyncObjects
+Assertion Failed: eGroup < VPROF_BUDGETGROUP_MAX
+Assertion Failed: g_pMemAllocSteam
+Assertion Failed: iCurPool == NUM_POOLS
+Assertion Failed: index >= 0 && index < m_NumCounters
+Assertion Failed: len > 0
+Assertion Failed: m_CounterNames[n]
+Assertion Failed: m_NumCounters+1 < MAXCOUNTERS
+Assertion Failed: m_cReentrancyCount >= 0
+Assertion Failed: m_iThreadMutexValidationLock < (int) ( sizeof(m_threadMutexValidationLock)/sizeof(m_threadMutexValidationLock[0]) )
+Assertion Failed: m_iThreadMutexValidationLock == 0
+Assertion Failed: m_lockInfo.m_nReaders > 0 && m_lockInfo.m_writerId == 0
+Assertion Failed: m_lockInfo.m_writerId == ThreadGetCurrentId() && m_lockInfo.m_nReaders == 0
+Assertion Failed: m_nRecursions > 0
+Assertion Failed: m_pBudgetGroups
+Assertion Failed: m_pBudgetGroups == NULL
+Assertion Failed: m_pParent
+Assertion Failed: m_pValObjects != NULL
+Assertion Failed: m_pszName
+Assertion Failed: m_pvOrigNameAddress
+Assertion Failed: pAllocTracker->m_uSentinel == 0xaa110ced
+Assertion Failed: pGroupName
+Assertion Failed: pTracker->Find( pKey ) != NULL
+Assertion Failed: ppFrames[iFrame] != NULL
+Assertion Failed: pszName == NULL || *pszName == '/' || (isalpha((unsigned char) *pszName) && pszName[1] == ':' && pszName[2] == '/')
+Assertion Failed: stack%2d: %s (%d): %s
+Assertion: %s
+Atestthread.cpp
+Attempting to create a named event with a null name
+August
+AuthenticAMD
+Authu{
+Avail Virtual %llu
+Average %.2f fps, %.2f ms per frame
+BBlockingGetMiniDumpLock
+BGetMiniDumpLock
+BSQ_cache_reference
+BWritingFatalMiniDump
+BWritingMiniDump
+BWritingNonFatalMiniDump
+Bad Event handle (handle 0x%p)
+Bad thread local
+Busy, please retry.
+C-runtime internal
+C@j:f
+CL2Cache
+CRT Heap index=%p, Default Heap index=%p
+CTSQueue bad node count
+CTSQueue bad peek pointer when empty
+CTSQueue bad tail pointer
+CTSQueue bad tail->Next value
+CTSQueue freelist depth mismatch
+CTSQueue m_HeadTailPair mismatch when empty
+CVProfNode
+CValidator
+CValidator : too many memory nodes to store, try again with a higher threshold value
+CallAssertFailedNotifyFunc
+CallFlushLogFunc
+Can't dump heaps until you've walked them!
+Cannot perform call if there's an existing call pending
+CatchAndWriteContext_t::Invoke with bogus argc/argv
+CatchAndWriteContext_t::Invoke with bogus void *ptr
+CatchAndWriteContext_t::Set w/o a function pointer!
+CatchAndWriteMiniDump
+CatchAndWriteMiniDumpEx
+CatchAndWriteMiniDumpExForVoidPtrFn
+CatchAndWriteMiniDumpExReturnsInt
+CatchAndWriteMiniDumpForVoidPtrFn
+ClearStackTrackingFilters
+ClearWritingMiniDump
+ClientDLL
+CloseClipboard
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+Committed size %llu
+Committed size in large blocks %llu
+Compact is no longer supported in release builds
+CompareStringEx
+CompareStringW
+CopyFileUTF8
+CopyFileW
+CorExitProcess
+Couldn't copy to clipboard.
+CrackSmokingCompiler
+CreateDirectoryUTF8
+CreateDirectoryW
+CreateEventA
+CreateEventExW
+CreateFile2
+CreateFileA
+CreateFileUTF8
+CreateFileW
+CreateInterface
+CreateMutexA
+CreateProcessA
+CreateProcessUTF8
+CreateProcessW
+CreateSemaphoreA
+CreateSemaphoreExW
+CreateSimpleProcess
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+CreateToolhelp32Snapshot
+CreateVProfile
+DONT_BREAK_ON_ASSERT
+DWarning
+DebugBreak
+December
+DeclareCurrentThreadIsMainThread
+Default heap
+DeleteCriticalSection
+DeleteFileW
+Deleting thread object from the thread, this is bad
+DeviceIoControl
+DialogBoxParamA
+DoNewAssertDialog
+Durbanville1
+ETWBegin
+ETWEnd
+ETWGetRenderFrameNumber
+ETWGetVTraceDir
+ETWIsTracingEnabled
+ETWKeyDown
+ETWMark
+ETWMark1F
+ETWMark1I
+ETWMark1S
+ETWMark2F
+ETWMark2I
+ETWMark2S
+ETWMark3F
+ETWMark3I
+ETWMark4F
+ETWMark4I
+ETWMarkPrintf
+ETWMouseDown
+ETWMouseMove
+ETWMouseUp
+ETWMouseWheel
+ETWOverlayFrameMark
+ETWReadPacket
+ETWRecordTrace
+ETWRenderFrameMark
+ETWResourceFrameMark
+ETWSendPacket
+ETWSimFrameMark
+ETWThrottled
+EmptyClipboard
+EnableCrashingOnCrashes
+Encryption
+EndDialog
+EnterCriticalSection
+EnumProcessModules
+EnumProcesses
+EnumSystemLocalesEx
+EnumWindows
+Error
+EventRegister
+EventUnregister
+EventWrite
+ExitProcess
+ExitThread
+Exiting on SPEW_ABORT
+F _^]
+FVWPP
+Failed to acquire mutex ownership
+Failed to capture symbols - gle %d - make sure frame pointers are being emited
+Failed to create event (error 0x%x)
+Failed to create mutex (error 0x%x)
+Failed to create semaphore (error 0x%x)
+Failed to create thread (error 0x%x)
+Failed to enable the low-fragmentation heap on %p with LastError %d.
+Failed to enable the low-fragmentation, HeapSetInformation() not found
+Failed to find My Documents directory.
+Failed to query heap information, HeapQueryInformation() not found
+Failed to query heap information.
+Fatal Assertion Failed: %s
+Fatal assert
+Fatal assert failed: %s, line %d.  Application exiting.
+February
+File: %s
+FileSystem
+FindWindowA
+Fl_^[
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+Free blocks size %12s %12s %12s %12s
+Free blocks size %12u %12u %12u %12llu
+Free blocks size,%12u,%12u,%12u,%u
+Free fragments %llu
+Free( 0x%p ): iPage >= 0 && iPage < %d, iPage == %d
+FreeCrashMemoryReserve
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryWhenCallbackReturns
+Friday
+G$_^[
+G<-u_
+GWVj	
+GameOverlayUI
+Generic_x86
+GenuineIntel
+Genuu
+GetACP
+GetActiveWindow
+GetAvailableRAM
+GetBinaryTypeUTF8
+GetBinaryTypeW
+GetCPInfo
+GetCRunTimeVersion
+GetCommandLineA
+GetComputerNameExW
+GetConsoleCP
+GetConsoleMode
+GetCrashHandlerFactory
+GetCurrentDirectoryUTF8
+GetCurrentDirectoryW
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentThread
+GetCurrentThreadId
+GetDateFormatEx
+GetDesktopWindow
+GetDlgItem
+GetDlgItemInt
+GetDriveTypeW
+GetEnvironmentStringsW
+GetExitCodeProcess
+GetExitCodeThread
+GetFileAttributesExUTF8
+GetFileAttributesExW
+GetFileAttributesUTF8
+GetFileAttributesW
+GetFileInformationByHandleExW
+GetFileType
+GetFullPathNameUTF8
+GetFullPathNameW
+GetInstalledRAM
+GetLastActivePopup
+GetLastError
+GetLocalHostname
+GetLocaleInfoEx
+GetLogicalProcessorInformation
+GetMiniDumpBuildID
+GetMiniDumpSteamID
+GetModuleBaseNameA
+GetModuleFileNameA
+GetModuleFileNameUTF8
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetNumberOfSpewAndLogGroups
+GetNumberOfStackTrackingFilters
+GetOEMCP
+GetPortableSystemInformation
+GetProcAddress
+GetProcessAffinityMask
+GetProcessHeap
+GetProcessHeaps
+GetProcessId
+GetProcessMemoryInfo
+GetProcessUserModeExceptionPolicy
+GetProcessWindowStation
+GetShortPathNameUTF8
+GetShortPathNameW
+GetSpewAndLogLevel
+GetSpewAndLogLevelByGroupIndex
+GetSpewOutputFunc
+GetStackTrackingFilter
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemInfo
+GetSystemTimeAsFileTime
+GetTempFileNameUTF8
+GetTempFileNameW
+GetTempPathUTF8
+GetTempPathW
+GetThreadPriority
+GetTickCount64
+GetTimeFormatEx
+GetTimeZoneInformation
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+GetVersionExA
+GetWindowRect
+GetWindowTextLengthA
+GetWindowThreadProcessId
+Global
+Global Constructor
+GlobalAlloc
+GlobalLock
+GlobalMemoryStatusEx
+GlobalUnlock
+Global\
+H2W2v2
+HH:mm:ss
+HHtVHHt
+HasStackTrackingFilters
+Heap Dump - All (%d heaps)
+Heap#,Heap Handle,Allocated Bytes,Allocated Bytes(with overhead),Free Bytes,Total Bytes,Blocks,Heap Type,HeapNote
+Heap(%4.4d) Base=0x%p TotalAlloc=0x%p AllocWithOverhead=0x%p TotalFree=0x%p TotalBytes=0x%p Blocks=%8d Type=%2.2d Note=%12.12s
+HeapAlloc
+HeapCompatibilityInformation for %p is %d.
+HeapFree
+HeapLock
+HeapQueryInformation
+HeapReAlloc
+HeapSetInformation
+HeapSize
+HeapUnlock
+HeapValidate
+HeapWalk
+Ht+Ht$Ht
+Ht;Ht
+HtVHt&Hu{9F
+HxjNV
+IVALIDATE001
+Illegal termination of worker thread '%s'
+InitPME
+InitVirtualHeap( %d ) called twice (%d, %d)
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSecurityDescriptor
+InitializeStackTrackingFilters
+InterlockedCompareExchange
+InterlockedDecrement
+InterlockedExchange
+InterlockedExchangeAdd
+InterlockedIncrement
+Invalid initial value for semaphore
+Invalid max value for semaphore
+Is64BitOS
+IsDebuggerPresent
+IsInAssert
+IsLogActive
+IsProcessorFeaturePresent
+IsSpewActive
+IsStackTrackingFiltered
+IsValidCodePage
+IsValidLocaleName
+IsWindowVisible
+IsWow64Process
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+Jobs/Coroutines
+Jul 24 2015
+KERNEL32.dll
+Kernel32.dll
+L1R1X1_1s1
+LCMapStringEx
+LCMapStringW
+LeaveCriticalSection
+Line: %d
+LoadLibraryA
+LoadLibraryExA
+LoadLibraryExW
+LoadLibraryUTF8
+LoadLibraryW
+Logger
+Logical bytes allocated (no heap overhead/fragmentation, but includes sbh block size overhead): %s
+MM/dd/yy
+Main thread
+March
+MessageBoxA
+MessageBoxUTF8
+MessageBoxW
+MiniDumpUnlock
+Monday
+MoveFileExUTF8
+MoveFileExW
+MoveFileUTF8
+MoveFileW
+MultiByteToWideChar
+N@_^[
+NQXjL
+Network
+No Process Heaps!
+No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
+No samples during profile period.
+No tracked allocs currently in use. Total %d
+November
+October
+Only thread can stop self: Use a higher-level protocol
+OpenClipboard
+OpenProcess
+OpenThread
+Other %llu
+Other Overhead %llu
+Other Overhead ( beyond 4 byte alignment ) %llu
+Other blocks %u
+Other blocks size %12u %12u %12u %12llu
+Out of thread local storage!
+OutputDebugStringA
+OutputDebugStringUTF8
+OutputDebugStringW
+Ovalobject.cpp
+OverlayInput
+OverlayRendering
+PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
+PME Initialized.
+PME Uninitialized.
+PP9E u
+PPPPP
+PPPPh,
+PRPQh
+PS3 Unattributed
+PSSSSV
+PSVWj
+PVWShH
+PVWhH
+PWQWV
+PWWWWV
+PageHeap is off. Memory use will be normal.
+PageHeapFlags
+Peak %.2f ms frame
+Pj_h`
+PjdSQ
+Plat_AbsoluteTime
+Plat_AbsoluteTimeToFloat
+Plat_Alloc
+Plat_AttachDebuggerToProcess
+Plat_ExitProcess
+Plat_FloatTime
+Plat_Free
+Plat_GetCommandLine
+Plat_GetExecutablePath
+Plat_GetExecutablePathUTF8
+Plat_GetStackBackTrace
+Plat_IsInDebugSession
+Plat_IsSteamConsoleMode
+Plat_IsSteamOS
+Plat_MSTime
+Plat_MSTime64
+Plat_OutputDebugString
+Plat_OutputDebugStringRaw
+Plat_Realloc
+Plat_RelativeTickFrequency
+Plat_RelativeTicks
+Plat_TickDiffMicroSec
+Plat_TickDiffMilliSec
+Plat_VirtualAccessFlags
+Plat_VirtualAlloc
+Plat_VirtualFree
+Plat_VirtualProtect
+Plat_asctime
+Plat_ctime
+Plat_daylight
+Plat_gmtime
+Plat_localtime
+Plat_timegm
+Plat_timezone
+Pool %4llu: allocated:%6i free:%6i committed:%6i (size:%5u kb)
+Pool %i: Size: %llu Allocated: %i Free: %i Committed: %i CommittedSize: %i
+Possible hung thread, call to thread timed out
+PostMessageA
+Probably deadlock or failure waiting for thread to initialize.
+Process32First
+Process32Next
+QQSVWd
+QSVWh
+QVWSj
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RaiseException
+ReadConsoleW
+ReadFile
+RealGetCallStack
+RealPrintCallStack
+RealPrintRawCallStack
+RegCloseKey
+RegOpenKeyA
+RegQueryValueExA
+ReleaseMutex
+ReleaseSemaphore
+ReleaseThreadHandle
+RemoveDirectoryUTF8
+RemoveDirectoryW
+ReplaceFileUTF8
+ReplaceFileW
+ResetEvent
+ResumeThread
+RtlCaptureStackBackTrace
+RtlUnwind
+RunCallbacks
+S*"T;
+SHELL32.dll
+SHGetFolderPathUTF8
+SHGetFolderPathW
+SHGetSpecialFolderPathA
+SPPP+
+SSSSS
+SVWPP
+SVWUj
+Saturday
+September
+ServerMain
+SetAssertDumpStack
+SetAssertFailedNotifyFunc
+SetClipboardData
+SetCurrentDirectoryUTF8
+SetCurrentDirectoryW
+SetDefaultDllDirectories
+SetDlgItemInt
+SetDlgItemTextA
+SetEndOfFile
+SetEnvironmentVariableA
+SetEnvironmentVariableW
+SetEvent
+SetFileAttributesUTF8
+SetFileAttributesW
+SetFileInformationByHandleW
+SetFilePointerEx
+SetFlushLogFunc
+SetFullMemoryDumpOnCrash
+SetInAssert
+SetLastError
+SetMiniDumpAppID
+SetMiniDumpBuildID
+SetMiniDumpSteamID
+SetPriorityClass
+SetProcessAffinityMask
+SetProcessUserModeExceptionPolicy
+SetSecurityDescriptorDacl
+SetStackTrackingFilter
+SetStdHandle
+SetThreadAffinityMask
+SetThreadPriority
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUnhandledExceptionFilter
+SetWindowPos
+ShellExecuteExW
+ShouldUseNewAssertDialog
+ShutdownPME
+Sleep
+Sleeping
+Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\%s
+Someone called ClearWritingMinidump without holding the minidump lock.
+Someone called SetWritingMinidump without holding the minidump lock.
+Sorry -- no stats saved to file memstats.txt when the heap allocator is enabled.
+Spew globals
+SpewActivate
+SpewAndLogActivate
+SpewAndLogChangeIfStillDefault
+SpewChangeIfStillDefault
+SpewOutputFunc
+Stack:%2d    %s (%d): %s
+Stack:%2d    0x%08I64x (File and line number not available): %s
+StackTraceDatabaseSizeInMB
+StackWalk64
+Steam
+SteamUI
+Streaming
+Subj blocks,%12d,%12d,%12u
+SunMonTueWedThuFriSat
+Sunday
+SuspendThread
+SymCleanup
+SymFromAddr
+SymFunctionTableAccess64
+SymGetLineFromAddr64
+SymGetModuleBase64
+SymInitialize
+SymSetOptions
+Symantec Corporation100.
+Symantec Corporation1402
+TSListBase_Init
+TSListBase_Pop
+TSListBase_Push
+TSListBase_SwapList
+TSListBase_UnsafePeek
+TSQueueBase_Init
+TSQueueBase_Pop
+TSQueueBase_Push
+TSQueueBase_UnsafeDummy
+TSQueueBase_UnsafePeek
+TSQueue_PopIntoFreeList
+TSQueue_UnsafeDebugCheck
+TenFoot
+TerminateProcess
+TerminateThread
+TestThread_Yield
+Test_HasFailed
+Test_HasFinished
+Test_IsActive
+Test_RunFrame
+Test_RunTest
+Test_SetFailed
+Test_TerminateThread
+Thawte Certification1
+Thawte Timestamping CA0
+Thawte1
+The low-fragmentation heap has been enabled for heap %p.
+Thread cannot be joined with self
+Thread did nothing but sleep during profile period.
+Thread exited immediately
+Thread failed to initialize
+Thread failed to respond, probably exited
+Thread synchronization object is unuseable
+Thread(0x%p/0x%p/0x%x)
+ThreadCloseProcess
+ThreadFindProcessByName
+ThreadGetCurrentHandle
+ThreadGetCurrentProcessHandle
+ThreadGetCurrentProcessId
+ThreadGetCurrentRunningRef
+ThreadGetPriority
+ThreadGetProcessExitCode
+ThreadGetProcessListInfo
+ThreadInMainThread
+ThreadInterlockedAssignIf64
+ThreadInterlockedCompareExchange64
+ThreadInterlockedDecrement64
+ThreadInterlockedExchange64
+ThreadInterlockedExchangeAdd64
+ThreadInterlockedIncrement64
+ThreadIsProcessActive
+ThreadIsProcessIdActive
+ThreadIsThreadRunning
+ThreadOpenProcess
+ThreadSetAffinity
+ThreadSetDebugName
+ThreadSetPriority
+ThreadShellExecute
+ThreadSleep
+ThreadTerminate
+ThreadTerminateProcessCode
+ThreadWaitForObjects
+ThreadWaitForProcessExit
+ThreadWorkItem
+Thursday
+TimeStamp-2048-10
+TimeStamp-2048-20
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Total      TotalBytes=0x%llx TotalAlloc=0x%llx TotalAllocWithOverhead=0x%llx TotalFree=0x%llx Total Blocks=%8lld
+Total Virtual %llu
+Total bytes allocated (os heap reported): %s
+Total bytes allocated counted: %s
+Totals: blocks:%u Committed:%u MB Allocated:%u MB
+Totals: blocks:%u Committed:%u kb Allocated:%u kb
+TracingFlags
+Tracked allocs currently in use. %d Total %d
+Trailing space on executable name! This will cause Application Verifier and ETW Heap tracing to fail!
+Tried to create a thread that has already been created!
+TryEnterCriticalSection
+Tuesday
+UNICODE
+UQPXY]Y[
+URPQQh
+USER32.dll
+UTF-16LE
+UTF-8
+Unaccounted
+Uncommitted %llu
+Uncommitted OverHead %llu
+Uncommitted blocks %u
+Uncommitted size %llu
+UnhandledExceptionFilter
+Unrecognized HeapInformation reported for heap %p.
+Used %llu
+Used Overhead %llu
+Used Overhead ( beyond 4 byte alignment ) %llu
+Used blocks %u
+Used blocks size %12u %12u %12u %12llu
+VC20XC00U
+VPROF Report for Thread: %d - %s
+VTPause
+VTResume
+VVVVV
+VVVVj
+VWh@;
+ValidateSpew
+Valve Perf Trace Recorder
+Valve input provider initialized.
+Valve0
+Valve1>0<
+VerSetConditionMask
+VeriSign Trust Network1;09
+VeriSign, Inc.1
+VerifyVersionInfoA
+VirtualAlloc
+VirtualFree
+VirtualProtect
+VirtualQuery
+W3oc;BZ
+WARNING! CThread::Terminate: %s
+WWWWW
+WaitForMultipleEvents
+WaitForMultipleObjects
+WaitForSingleObject
+WaitForThreadpoolTimerCallbacks
+Warning
+Washington1
+Wednesday
+Western Cape1
+WideCharToMultiByte
+Wj0XPV
+WriteConsoleW
+WriteFile
+WriteMiniDump
+Y_^[]
+Y__^[
+Z0X03
+ZwQueryInformationProcess
+[ func+child   func ]     Count
+[ func+child   func ]  [ func+child   func ]  [ func+child   func ]  Count   Peak
+[9x)bwDbgHelp.dll
+\VTrace
+\\.\GDPERF
+\\.\GDPERF.VXD
+\src\
+\vnO^
+]Lq${
+]jxdE
+_*"\7
+_DMsg
+_DSpewMessage
+_ExitOnFatalAssert
+_SpewInfo
+_SpewMessage
+_SpewMessageType
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+`.rdata
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h````
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+address family not supported
+address in use
+address not available
+address_family_not_supported
+address_in_use
+address_not_available
+already connected
+already_connected
+argument list too long
+argument out of domain
+atan2
+audio.dll
+bWWWWj
+bad address
+bad file descriptor
+bad message
+bad_address
+bad_file_descriptor
+broken pipe
+c:\buildslave\steam_rel_client_win32\build\src\public\tier0/threadtools.h
+c:\buildslave\steam_rel_client_win32\build\src\public\tier0/vprof.h
+c:\buildslave\steam_rel_client_win32\build\src\tier0\Release\tier0_s.pdb
+cAMDus
+chdir_utf8
+chromehtml.dll
+connection aborted
+connection already in progress
+connection refused
+connection reset
+connection_aborted
+connection_already_in_progress
+connection_refused
+connection_reset
+console
+count
+crashhandler.dll
+crashhandler002
+cross device link
+dbg.cpp
+dddd, MMMM dd, yyyy
+destination address required
+destination_address_required
+device or resource busy
+directory not empty
+e+000
+e0c0$
+entiuk
+executable format error
+externaltests.dll
+file exists
+file too large
+filename too long
+filename_too_long
+filesystem_stdio.dll
+filesystem_steam.dll
+floor
+fopen_utf8_internal
+freopen_utf8_internal
+frexp
+friendsui.dll
+ft!9q
+function not supported
+g0e0*
+g_ClockSpeed
+g_ClockSpeedMicrosecondsMultiplier
+g_ClockSpeedMillisecondsMultiplier
+g_ClockSpeedSecondsMultiplier
+g_CpuTimeUnreliable
+g_VProfManager
+g_VProfProfilesRunningCount
+g_VProfile
+g_dwClockSpeed
+g_dwDllEntryThreadId
+g_pMemAllocSteam
+getcwd_utf8
+gsoapwrapper.dll
+hHeap %p
+heap %p has the low-fragmentation heap enabled.
+heap %p is a standard heap.
+heap %p supports look-aside lists.
+heapdump.cpp
+heapdump.csv
+host unreachable
+host_unreachable
+http://ocsp.thawte.com0
+http://ocsp.verisign.com0;
+http://ts-ocsp.ws.symantec.com07
+https://www.verisign.com/rpa0
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+ineItD
+interrupted
+invalid argument
+invalid seek
+invalid string position
+invalid_argument
+io error
+iostream stream error
+is a directory
+item %p sentinel corrupted. skipping.
+j@j _W
+jA[jZZ+
+k4X}rx
+kernel32.dll
+l8$`"0
+ldexp
+log10
+m_L2Cache
+m_pChild
+m_pSibling
+map/set<T> too long
+memblockhdr.cpp
+memstd.cpp
+message size
+message_size
+minidump.cpp
+misc.h
+mkdir_utf8
+n-%2k
+nattypeprobe.dll
+network down
+network reset
+network unreachable
+network_down
+network_reset
+network_unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+no_buffer_space
+no_protocol_option
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+not_a_socket
+not_connected
+ntdll.dll
+ntelu
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operation_in_progress
+operation_not_supported
+operation_would_block
+operator
+owner dead
+p2pcore.dll
+p2prelayserver.dll
+p2pstunserver.dll
+pChild
+permission denied
+permission_denied
+platform.cpp
+propack.dll
+protocol error
+protocol not supported
+protocol_not_supported
+psapi.dll
+r)f;q
+r2f;A
+rTVWS
+read only file system
+remove_utf8
+rename_utf8
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+rmdir_utf8
+sI+1S
+secblock.h
+server.dll
+serverbrowser.dll
+state not recoverable
+steamclient.dll
+steamservice.dll
+steamui.dll
+stream timeout
+string too long
+t&9=0
+t,HuP
+t/HHt
+t7Kx4
+t7QVW
+t;Ht+
+t@VSP
+tHHt*Ht#
+tHHt/Ht
+tLxXj
+tRHtC
+t\j=S
+tenfoot.dll
+text file busy
+threadtools.cpp
+tier0_s.dll
+timed out
+timed_out
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+too_many_files_open
+total bytes
+tzh0u
+u	9F<u
+u";0u
+u'j0X
+u/8A0u
+uFVjX
+uJSSR
+unknown
+unknown error
+v	N+D$
+validator.cpp
+value too large
+vector<T> too long
+vgui2_s.dll
+video.dll
+visualstudioautomation.exe -attachtoprocessid %u
+vsjitdebugger.exe -p %u
+vtune
+vtuneapi.dll
+wrong protocol type
+wrong_protocol_type
+wsprintfA
+wtVj	
+xlocale
+xmemory
+xppwpp
+xpxxxx
+y3+.{
+z?aUY
+zc%C1
+} kE$<
+~';_t|%3
+~pjCXf

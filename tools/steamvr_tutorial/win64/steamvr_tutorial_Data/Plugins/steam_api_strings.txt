@@ -1,0 +1,2177 @@
+						
+											
+												
+																	
+																																			
+																																															
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Data: <%s> %s
+ H3D$0H
+ HcD$ 
+ HcL$0Hk
+ Type Descriptor'
+ delete
+ delete[]
+ new[]
+ throw(
+ volatile
+!HcD$ H
+!This program cannot be run in DOS mode.
+"HcD$
+#File Error#(%d) : 
+$Hc@<H
+$HcD$
+$HcL$
+%.2X 
+%02d:%02d:%02d
+%04d%02d%02d%02d%02d%02d
+%Id bytes in %Id %hs Blocks.
+%hs located at 0x%p is %Iu bytes long.
+%hs(%d) : 
+%s%c%s
+%s(%d) : %s
+%s\%s
+( 8PX
+('8PW
+(HcD$0Hk
+(kD$p
+(null)
+*HcD$`H
+*HcD$tHk
+*HcD$xHk
+*HcD$|Hk
++HcD$@Hk
++HcD$DHk
+, Line 
+,<ellipsis>
+-64OS
+-s'Hc
+.?AV?$CCallResult@VCAssociateWithClanResult_t_result@@UAssociateWithClanResult_t@@@@
+.?AV?$CCallResult@VCCheckFileSignature_t_result@@UCheckFileSignature_t@@@@
+.?AV?$CCallResult@VCClanOfficerListResponse_t_result@@UClanOfficerListResponse_t@@@@
+.?AV?$CCallResult@VCComputeNewPlayerCompatibilityResult_t_result@@UComputeNewPlayerCompatibilityResult_t@@@@
+.?AV?$CCallResult@VCCreateItemResult_t_result@@UCreateItemResult_t@@@@
+.?AV?$CCallResult@VCEncryptedAppTicketResponse_t_result@@UEncryptedAppTicketResponse_t@@@@
+.?AV?$CCallResult@VCFriendsEnumerateFollowingList_t_result@@UFriendsEnumerateFollowingList_t@@@@
+.?AV?$CCallResult@VCFriendsGetFollowerCount_t_result@@UFriendsGetFollowerCount_t@@@@
+.?AV?$CCallResult@VCFriendsIsFollowing_t_result@@UFriendsIsFollowing_t@@@@
+.?AV?$CCallResult@VCGSReputation_t_result@@UGSReputation_t@@@@
+.?AV?$CCallResult@VCGSStatsReceived_t_result@@UGSStatsReceived_t@@@@
+.?AV?$CCallResult@VCGSStatsStored_t_result@@UGSStatsStored_t@@@@
+.?AV?$CCallResult@VCGetUserItemVoteResult_t_result@@UGetUserItemVoteResult_t@@@@
+.?AV?$CCallResult@VCGlobalAchievementPercentagesReady_t_result@@UGlobalAchievementPercentagesReady_t@@@@
+.?AV?$CCallResult@VCGlobalStatsReceived_t_result@@UGlobalStatsReceived_t@@@@
+.?AV?$CCallResult@VCHTML_BrowserReady_t_result@@UHTML_BrowserReady_t@@@@
+.?AV?$CCallResult@VCJoinClanChatRoomCompletionResult_t_result@@UJoinClanChatRoomCompletionResult_t@@@@
+.?AV?$CCallResult@VCLeaderboardFindResult_t_result@@ULeaderboardFindResult_t@@@@
+.?AV?$CCallResult@VCLeaderboardScoreUploaded_t_result@@ULeaderboardScoreUploaded_t@@@@
+.?AV?$CCallResult@VCLeaderboardScoresDownloaded_t_result@@ULeaderboardScoresDownloaded_t@@@@
+.?AV?$CCallResult@VCLeaderboardUGCSet_t_result@@ULeaderboardUGCSet_t@@@@
+.?AV?$CCallResult@VCLobbyCreated_t_result@@ULobbyCreated_t@@@@
+.?AV?$CCallResult@VCLobbyEnter_t_result@@ULobbyEnter_t@@@@
+.?AV?$CCallResult@VCLobbyMatchList_t_result@@ULobbyMatchList_t@@@@
+.?AV?$CCallResult@VCNumberOfCurrentPlayers_t_result@@UNumberOfCurrentPlayers_t@@@@
+.?AV?$CCallResult@VCRemoteStorageDeletePublishedFileResult_t_result@@URemoteStorageDeletePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageDownloadUGCResult_t_result@@URemoteStorageDownloadUGCResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumeratePublishedFilesByUserActionResult_t_result@@URemoteStorageEnumeratePublishedFilesByUserActionResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumerateUserPublishedFilesResult_t_result@@URemoteStorageEnumerateUserPublishedFilesResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumerateUserSubscribedFilesResult_t_result@@URemoteStorageEnumerateUserSubscribedFilesResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumerateWorkshopFilesResult_t_result@@URemoteStorageEnumerateWorkshopFilesResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageFileReadAsyncComplete_t_result@@URemoteStorageFileReadAsyncComplete_t@@@@
+.?AV?$CCallResult@VCRemoteStorageFileShareResult_t_result@@URemoteStorageFileShareResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageFileWriteAsyncComplete_t_result@@URemoteStorageFileWriteAsyncComplete_t@@@@
+.?AV?$CCallResult@VCRemoteStorageGetPublishedFileDetailsResult_t_result@@URemoteStorageGetPublishedFileDetailsResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageGetPublishedItemVoteDetailsResult_t_result@@URemoteStorageGetPublishedItemVoteDetailsResult_t@@@@
+.?AV?$CCallResult@VCRemoteStoragePublishFileProgress_t_result@@URemoteStoragePublishFileProgress_t@@@@
+.?AV?$CCallResult@VCRemoteStorageSubscribePublishedFileResult_t_result@@URemoteStorageSubscribePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageUnsubscribePublishedFileResult_t_result@@URemoteStorageUnsubscribePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageUpdatePublishedFileResult_t_result@@URemoteStorageUpdatePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageUpdateUserPublishedItemVoteResult_t_result@@URemoteStorageUpdateUserPublishedItemVoteResult_t@@@@
+.?AV?$CCallResult@VCSetPersonaNameResponse_t_result@@USetPersonaNameResponse_t@@@@
+.?AV?$CCallResult@VCSetUserItemVoteResult_t_result@@USetUserItemVoteResult_t@@@@
+.?AV?$CCallResult@VCSteamUGCQueryCompleted_t_result@@USteamUGCQueryCompleted_t@@@@
+.?AV?$CCallResult@VCStoreAuthURLResponse_t_result@@UStoreAuthURLResponse_t@@@@
+.?AV?$CCallResult@VCSubmitItemUpdateResult_t_result@@USubmitItemUpdateResult_t@@@@
+.?AV?$CCallResult@VCUserFavoriteItemsListChanged_t_result@@UUserFavoriteItemsListChanged_t@@@@
+.?AV?$CCallResult@VCUserStatsReceived_t_result@@UUserStatsReceived_t@@@@
+.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
+.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
+.?AV?$CCallback@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
+.?AV?$CCallbackImpl@$07@@
+.?AV?$CCallbackImpl@$0BI@@@
+.?AV?$CCallbackManual@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
+.?AVCCallbackBase@@
+.?AVDNameNode@@
+.?AVDNameStatusNode@@
+.?AV_Generic_error_category@std@@
+.?AV_Iostream_error_category@std@@
+.?AV_System_error_category@std@@
+.?AV__non_rtti_object@std@@
+.?AVbad_alloc@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_function_call@std@@
+.?AVbad_typeid@std@@
+.?AVcharNode@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVinvalid_argument@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVoverflow_error@std@@
+.?AVpDNameNode@@
+.?AVpairNode@@
+.?AVpcharNode@@
+.?AVregex_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.HcD$@Hk
+.HcD$DHk
+.pdata
+.text
+/D$(v
+/D$Pv
+0123456789ABCDEF
+0HcD$0HcL$0H
+0HcD$@Hk
+0HcD$DHk
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+1HcD$@Hk
+1HcD$DHk
+2HcD$@Hk
+2HcD$DHk
+5Auth
+5Genu
+6HcD$@H
+700PP
+700WP
+8HcD$HH
+9D$ s
+9D$ s(
+9D$ u
+9D$ uHH
+9D$ w(
+9D$ w@
+9D$ |bH
+9D$ }
+9D$ } HcD$ Hk
+9D$ ~
+9D$(~
+9D$4}
+9D$<t
+9D$<u2HcD$<H
+9D$@t
+9D$@u
+9D$@}
+9D$@~
+9D$Dr
+9D$Du
+9D$Dw
+9D$D|EH
+9D$D}
+9D$Hr
+9D$H~
+9D$L}[H
+9D$Ps
+9D$Pw
+9D$P} HcD$PHk
+9D$X}
+9D$X}[H
+9D$X~
+9D$`s
+9D$`}
+9D$d}
+9D$d~
+9D$d~FD
+9D$h|0H
+:cD$ @
+:wDHc
+:wEHc
+;D$ u&H
+;D$(u5
+;D$(uA
+;D$4t"
+;D$4t-
+;D$Pu
+;D$lu
+<ellipsis>
+<file unknown>
+<program name unknown>
+<unknown>
+@ H9D$PvFH
+@.data
+@.idata
+@.reloc
+@.rsrc
+@0Hc@
+A#D$8
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
+AH9D$P
+April
+AreFileApisANSI
+Assertion failed!
+Assertion failed: 
+August
+BHcD$0H
+Bad memory block found at 0x%p.
+Breakpad_SteamMiniDumpInit
+Breakpad_SteamSetAppID
+Breakpad_SteamSetSteamID
+Breakpad_SteamWriteMiniDumpSetComment
+Breakpad_SteamWriteMiniDumpUsingExceptionInfoWithBuildId
+CAssociateWithClanResult_t_RemoveCallResult
+CAssociateWithClanResult_t_SetCallResult
+CCheckFileSignature_t_RemoveCallResult
+CCheckFileSignature_t_SetCallResult
+CClanOfficerListResponse_t_RemoveCallResult
+CClanOfficerListResponse_t_SetCallResult
+CComputeNewPlayerCompatibilityResult_t_RemoveCallResult
+CComputeNewPlayerCompatibilityResult_t_SetCallResult
+CCreateItemResult_t_RemoveCallResult
+CCreateItemResult_t_SetCallResult
+CEncryptedAppTicketResponse_t_RemoveCallResult
+CEncryptedAppTicketResponse_t_SetCallResult
+CFriendsEnumerateFollowingList_t_RemoveCallResult
+CFriendsEnumerateFollowingList_t_SetCallResult
+CFriendsGetFollowerCount_t_RemoveCallResult
+CFriendsGetFollowerCount_t_SetCallResult
+CFriendsIsFollowing_t_RemoveCallResult
+CFriendsIsFollowing_t_SetCallResult
+CGSReputation_t_RemoveCallResult
+CGSReputation_t_SetCallResult
+CGSStatsReceived_t_RemoveCallResult
+CGSStatsReceived_t_SetCallResult
+CGSStatsStored_t_RemoveCallResult
+CGSStatsStored_t_SetCallResult
+CGetUserItemVoteResult_t_RemoveCallResult
+CGetUserItemVoteResult_t_SetCallResult
+CGlobalAchievementPercentagesReady_t_RemoveCallResult
+CGlobalAchievementPercentagesReady_t_SetCallResult
+CGlobalStatsReceived_t_RemoveCallResult
+CGlobalStatsReceived_t_SetCallResult
+CHTML_BrowserReady_t_RemoveCallResult
+CHTML_BrowserReady_t_SetCallResult
+CJoinClanChatRoomCompletionResult_t_RemoveCallResult
+CJoinClanChatRoomCompletionResult_t_SetCallResult
+CLeaderboardFindResult_t_RemoveCallResult
+CLeaderboardFindResult_t_SetCallResult
+CLeaderboardScoreUploaded_t_RemoveCallResult
+CLeaderboardScoreUploaded_t_SetCallResult
+CLeaderboardScoresDownloaded_t_RemoveCallResult
+CLeaderboardScoresDownloaded_t_SetCallResult
+CLeaderboardUGCSet_t_RemoveCallResult
+CLeaderboardUGCSet_t_SetCallResult
+CLobbyCreated_t_RemoveCallResult
+CLobbyCreated_t_SetCallResult
+CLobbyEnter_t_RemoveCallResult
+CLobbyEnter_t_SetCallResult
+CLobbyMatchList_t_RemoveCallResult
+CLobbyMatchList_t_SetCallResult
+CNumberOfCurrentPlayers_t_RemoveCallResult
+CNumberOfCurrentPlayers_t_SetCallResult
+CRT detected that the application wrote to a heap buffer that was freed.
+CRT detected that the application wrote to memory after end of heap buffer.
+CRT detected that the application wrote to memory before start of heap buffer.
+CRemoteStorageDeletePublishedFileResult_t_RemoveCallResult
+CRemoteStorageDeletePublishedFileResult_t_SetCallResult
+CRemoteStorageDownloadUGCResult_t_RemoveCallResult
+CRemoteStorageDownloadUGCResult_t_SetCallResult
+CRemoteStorageEnumeratePublishedFilesByUserActionResult_t_RemoveCallResult
+CRemoteStorageEnumeratePublishedFilesByUserActionResult_t_SetCallResult
+CRemoteStorageEnumerateUserPublishedFilesResult_t_RemoveCallResult
+CRemoteStorageEnumerateUserPublishedFilesResult_t_SetCallResult
+CRemoteStorageEnumerateUserSubscribedFilesResult_t_RemoveCallResult
+CRemoteStorageEnumerateUserSubscribedFilesResult_t_SetCallResult
+CRemoteStorageEnumerateWorkshopFilesResult_t_RemoveCallResult
+CRemoteStorageEnumerateWorkshopFilesResult_t_SetCallResult
+CRemoteStorageFileReadAsyncComplete_t_RemoveCallResult
+CRemoteStorageFileReadAsyncComplete_t_SetCallResult
+CRemoteStorageFileShareResult_t_RemoveCallResult
+CRemoteStorageFileShareResult_t_SetCallResult
+CRemoteStorageFileWriteAsyncComplete_t_RemoveCallResult
+CRemoteStorageFileWriteAsyncComplete_t_SetCallResult
+CRemoteStorageGetPublishedFileDetailsResult_t_RemoveCallResult
+CRemoteStorageGetPublishedFileDetailsResult_t_SetCallResult
+CRemoteStorageGetPublishedItemVoteDetailsResult_t_RemoveCallResult
+CRemoteStorageGetPublishedItemVoteDetailsResult_t_SetCallResult
+CRemoteStoragePublishFileProgress_t_RemoveCallResult
+CRemoteStoragePublishFileProgress_t_SetCallResult
+CRemoteStorageSubscribePublishedFileResult_t_RemoveCallResult
+CRemoteStorageSubscribePublishedFileResult_t_SetCallResult
+CRemoteStorageUnsubscribePublishedFileResult_t_RemoveCallResult
+CRemoteStorageUnsubscribePublishedFileResult_t_SetCallResult
+CRemoteStorageUpdatePublishedFileResult_t_RemoveCallResult
+CRemoteStorageUpdatePublishedFileResult_t_SetCallResult
+CRemoteStorageUpdateUserPublishedItemVoteResult_t_RemoveCallResult
+CRemoteStorageUpdateUserPublishedItemVoteResult_t_SetCallResult
+CSetPersonaNameResponse_t_RemoveCallResult
+CSetPersonaNameResponse_t_SetCallResult
+CSetUserItemVoteResult_t_RemoveCallResult
+CSetUserItemVoteResult_t_SetCallResult
+CSteamUGCQueryCompleted_t_RemoveCallResult
+CSteamUGCQueryCompleted_t_SetCallResult
+CStoreAuthURLResponse_t_RemoveCallResult
+CStoreAuthURLResponse_t_SetCallResult
+CSubmitItemUpdateResult_t_RemoveCallResult
+CSubmitItemUpdateResult_t_SetCallResult
+CUserFavoriteItemsListChanged_t_RemoveCallResult
+CUserFavoriteItemsListChanged_t_SetCallResult
+CUserStatsReceived_t_RemoveCallResult
+CUserStatsReceived_t_RemoveCallback
+CUserStatsReceived_t_SetCallResult
+CUserStatsReceived_t_SetCallback
+Calling BreakpadMiniDumpSystemInit
+Client
+Client hook allocation failure at file %hs line %d.
+Client hook allocation failure.
+Client hook free failure.
+Client hook re-allocation failure at file %hs line %d.
+Client hook re-allocation failure.
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CompareStringEx
+CompareStringW
+CorExitProcess
+CreateEventExW
+CreateEventW
+CreateFile2
+CreateFileW
+CreateInterface
+CreateMutexA
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+D$ %?
+D$ 9D$X~
+D$ E3
+D$ H9D$@u
+D$ H9D$Xs
+D$ HcD$ H
+D$ HcD$ Hk
+D$ Hk
+D$ T=
+D$$9D$ 
+D$$9D$ sAH
+D$$9D$(
+D$$9D$(t$H
+D$$9D$Pt1
+D$$HcD$ Hk
+D$$HcD$$Hk
+D$(9D$0t
+D$(E3
+D$(H9
+D$(H9D$ r
+D$(H9D$ s
+D$(H9D$ u	
+D$(H9D$0s	
+D$(Hc
+D$(Hc@
+D$(HcD$ H
+D$(Hk
+D$(kD$h
+D$0%@
+D$09D$ 
+D$0H9
+D$0H9D$ 
+D$0H9D$(t"
+D$0H9D$8r
+D$0H9D$8s*H
+D$0H9D$8u
+D$0H9D$hr
+D$0H9D$pr
+D$0Hc
+D$0Hc@
+D$0Hc@<H
+D$0HcD$ H
+D$0HcD$0H
+D$0HcD$0H=
+D$0HcD$0Hk
+D$0HcD$@H
+D$0HcD$lH
+D$0Hk
+D$49D$
+D$49D$0
+D$49D$8t
+D$4HcD$ 
+D$8%@
+D$8H9D$0s"H
+D$8H9D$0t>H
+D$8Hc
+D$8Hc@
+D$8HcD$ H
+D$8HcD$83
+D$<9D$8
+D$<HcD$ H
+D$<HcL$0H
+D$@%0
+D$@9D$Hu;
+D$@E3
+D$@H9D$Hr1
+D$@H9D$Ht(H
+D$@Hc@
+D$@HcD$0H
+D$@HcD$`H
+D$@Hk
+D$@kL$D
+D$@pH
+D$AxH
+D$BxH
+D$CpH
+D$D%0
+D$D9D$,u1H
+D$D9D$0
+D$D]H
+D$E]H
+D$H%0
+D$H9D$ s"
+D$H9D$(
+D$H9D$@r 
+D$H9D$@t
+D$H9D$@u,3
+D$H9D$D
+D$HE3
+D$HH%
+D$HH9D$ tSH
+D$HH9D$8s
+D$HH9D$@
+D$HH9D$@s-
+D$HH9D$@t&H
+D$HH9D$@u0H
+D$HH9D$hw
+D$HHcD$<H
+D$HHcD$XH
+D$L9D$P}eHcD$PH
+D$P9D$ }pHcD$ H
+D$P9D$@t
+D$PH%
+D$PH9
+D$PH9D$ s&H
+D$PH9D$8t9H
+D$PHc@
+D$PHcD$<H
+D$PHcD$PE3
+D$PHcD$PH
+D$T9D$@
+D$T9D$@r 
+D$T9D$@u,3
+D$XH9
+D$XH9D$Ht
+D$XH9D$Ht:H
+D$XHc
+D$XHc@
+D$`9D$0}UH
+D$`H9D$0r
+D$`H9D$0u!
+D$`H9D$@r6H
+D$`H9D$@u'
+D$`H9D$@uL
+D$`Hc@
+D$d9D$`
+D$h9D$
+D$h9D$t
+D$h9D$t~
+D$hH9
+D$hHc
+D$hHcD$4H
+D$p9D$@|
+D$p9D$D
+D$p9D$D~
+D$p9D$t~
+D$p9D$x~
+D$pH9D$@r<H
+D$pH9D$@uR
+D$pHc
+D$pHc@
+D$pHcD$<H
+D$pHcD$tHk
+D$pHcD$xHk
+D$t9D$@
+D$t9D$@~
+D$t9D$x~
+D$t9D$|~
+D$tHcD$xHk
+D$tHcD$|Hk
+D$xH9D$h
+D$xH9D$hr
+DAMAGED
+Damage before 0x%p which was allocated by aligned routine
+December
+DecodePointer
+DeleteCriticalSection
+Detected memory leaks!
+Dumping objects ->
+Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
+EncodePointer
+EnterCriticalSection
+EnumSystemLocalesEx
+EnumSystemLocalesW
+Error: memory allocation: bad memory block type.
+Error: possible heap corruption at or near 0x%p
+ExitProcess
+F:\full\Steam\main\src\steam_api\win64\Debug\steam_api64.pdb
+FatalAppExitA
+February
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+Forcing breakpad minidump interfaces to load
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryWhenCallbackReturns
+Friday
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
+GetConsoleCP
+GetConsoleMode
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentThread
+GetCurrentThreadId
+GetDateFormatEx
+GetDateFormatW
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetExitCodeProcess
+GetFileInformationByHandleExW
+GetFileType
+GetHSteamPipe
+GetHSteamUser
+GetLastActivePopup
+GetLastError
+GetLocaleInfoEx
+GetLocaleInfoW
+GetLogicalProcessorInformation
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetProcessWindowStation
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemInfo
+GetSystemTimeAsFileTime
+GetTickCount
+GetTickCount64
+GetTimeFormatEx
+GetTimeFormatW
+GetUserDefaultLCID
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+H#D$p
+H+D$8L
+H+D$@H
+H+D$P
+H+D$PH
+H+D$X
+H+D$XH
+H+D$`
+H+D$pH
+H9A w)3
+H9D$ t
+H9D$ t!H
+H9D$ t#H
+H9D$ tbH
+H9D$ u
+H9D$(s
+H9D$(t
+H9D$(t!H
+H9D$(t#H
+H9D$(u!H
+H9D$0
+H9D$0rY
+H9D$0s}H
+H9D$0t
+H9D$0w
+H9D$0w<H
+H9D$8
+H9D$8r
+H9D$8r H
+H9D$8s
+H9D$8s&H
+H9D$8t[H
+H9D$8u
+H9D$@
+H9D$@s
+H9D$@s,H
+H9D$@t
+H9D$@u
+H9D$@vR
+H9D$@w
+H9D$Hs
+H9D$Hu)H
+H9D$P
+H9D$PseH
+H9D$PsjH
+H9D$PtlH
+H9D$Pv:H
+H9D$P}
+H9D$Xrd
+H9D$XsL
+H9D$Xu
+H9D$`t
+H9D$hu
+H9D$hu8H
+H9D$p
+H9D$psaH
+H9D$xv
+H9H t
+H9H(t
+H9H0t
+H9H8t
+H9H@t
+H9HHt
+H9HXt
+H9H`t
+H9Hht
+H9Hpt
+H9Hxt
+H;D$ s
+H;D$ v	
+H;D$8
+H;D$8s
+H;D$8w
+H;D$Hs
+H;D$Ht
+H;D$Ps
+H;D$Pv
+H;D$Pw
+H;D$`r
+H;D$`u
+H;D$ht
+H;D$pv
+H;D$x
+H;D$xsg
+H;D$xsi
+HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.
+HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.
+HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.
+HH:mm:ss
+HHcD$PH
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HcD$ 
+HcD$ H
+HcD$ H=
+HcD$ Hk
+HcD$$H
+HcD$$Hk
+HcD$(H
+HcD$,H
+HcD$0
+HcD$0H
+HcD$0HcL$0H
+HcD$0HcL$4H
+HcD$0Hk
+HcD$4
+HcD$4H
+HcD$4L
+HcD$8H
+HcD$<H
+HcD$@A
+HcD$@H
+HcD$@Hk
+HcD$D
+HcD$DH
+HcD$DHk
+HcD$HH
+HcD$HHcL$ H
+HcD$LH
+HcD$PH
+HcD$TH
+HcD$TH9
+HcD$X
+HcD$XH
+HcD$`H
+HcD$lH
+HcD$tHk
+HcD$xH
+HcD$xHk
+HcD$|Hk
+HcE H
+HcI H
+HcL$ 
+HcL$ H
+HcL$ HcD
+HcL$ Hk
+HcL$ L
+HcL$$Hk
+HcL$0H
+HcL$0L
+HcL$4H
+HcL$4H;
+HcL$8H
+HcL$PH
+HcL$Pf
+HcL$XH
+HcL$hH
+HcL$xH
+HcT$8Hk
+HcT$@LcD$@H
+HcT$DH
+HeapAlloc
+HeapFree
+HeapQueryInformation
+HeapReAlloc
+HeapSize
+HeapValidate
+HkD$@
+HkD$@(H
+HkD$@0H
+I(H9H(u
+I0HcI
+IHcD$0H
+Ignore
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InstallPath
+Invalid allocation size: %Iu bytes.
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+IsValidLocale
+IsValidLocaleName
+JHcD$pL
+January
+KERNEL32.dll
+KHcD$0Hk
+L$ 9H
+L$ E3
+L$ H#
+L$ H+
+L$ H3
+L$ H9
+L$ Hk
+L$ WH
+L$ fD
+L$(H#
+L$(H+
+L$(H3
+L$(H9
+L$(H9A uaH
+L$(H;
+L$(HcI
+L$0;A
+L$0E3
+L$0H#
+L$0H+
+L$0H+A
+L$0H3
+L$0H9
+L$0H9A
+L$0Hc	H
+L$0Hk
+L$8E3
+L$8H+
+L$8H3
+L$8H9
+L$8H9H
+L$8H;
+L$8HcD
+L$<E3
+L$@E3
+L$@H+
+L$@H3
+L$@H9
+L$@Hc	H
+L$@HcI
+L$HE3
+L$HH+
+L$HH3
+L$HH9
+L$HH9H
+L$HH9H s
+L$HH;
+L$PE3
+L$PH#
+L$PH+
+L$PH9
+L$PH;A
+L$PHcI
+L$XE3
+L$XH#
+L$XH+
+L$XH3
+L$XH9H 
+L$XHcI
+L$`E3
+L$`H+
+L$`H9H
+L$`HcI
+L$hH+
+L$hH3
+L$hH9
+L$hHcI
+L$pH+
+L$pH3
+L$pH;
+L$pHcI
+L$x9H
+L$xE3
+L$xH+
+L$xH9H
+LCMapStringEx
+LCMapStringW
+Largest number used: %Id bytes.
+LeaveCriticalSection
+LoadLibraryExA
+LoadLibraryExW
+Looking up breakpad interfaces from steamclient
+MM/dd/yy
+March
+Memory allocated at %hs(%d).
+MessageBoxW
+Monday
+MultiByteToWideChar
+Normal
+November
+Object dump complete.
+October
+OpenProcess
+OutputDebugStringA
+OutputDebugStringW
+QueryPerformanceCounter
+RaiseException
+ReadConsoleW
+ReadFile
+RegCloseKey
+RegOpenKeyExA
+RegQueryValueExA
+ReleaseMutex
+Rich&z
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+SHELL32.dll
+STEAMAPPLIST_INTERFACE_VERSION001
+STEAMAPPS_INTERFACE_VERSION007
+STEAMHTMLSURFACE_INTERFACE_VERSION_003
+STEAMHTTP_INTERFACE_VERSION002
+STEAMINVENTORY_INTERFACE_V001
+STEAMMUSICREMOTE_INTERFACE_VERSION001
+STEAMMUSIC_INTERFACE_VERSION001
+STEAMREMOTESTORAGE_INTERFACE_VERSION013
+STEAMSCREENSHOTS_INTERFACE_VERSION002
+STEAMUGC_INTERFACE_VERSION007
+STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
+STEAMUSERSTATS_INTERFACE_VERSION011
+STEAMVIDEO_INTERFACE_V001
+Saturday
+Second Chance Assertion Failed: File 
+September
+SetConsoleCtrlHandler
+SetDefaultDllDirectories
+SetEndOfFile
+SetEnvironmentVariableA
+SetFileInformationByHandleW
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUnhandledExceptionFilter
+Setting breakpad minidump AppID = %u
+ShellExecuteA
+Sleep
+Software\Valve\Steam
+Software\Valve\Steam\ActiveProcess
+Standard C++ Libraries Invalid Argument
+Standard C++ Libraries Out of Range
+SteamAPI_GetHSteamPipe
+SteamAPI_GetHSteamUser
+SteamAPI_GetSteamInstallPath
+SteamAPI_ISteamAppList_GetAppBuildId
+SteamAPI_ISteamAppList_GetAppInstallDir
+SteamAPI_ISteamAppList_GetAppName
+SteamAPI_ISteamAppList_GetInstalledApps
+SteamAPI_ISteamAppList_GetNumInstalledApps
+SteamAPI_ISteamApps_BGetDLCDataByIndex
+SteamAPI_ISteamApps_BIsAppInstalled
+SteamAPI_ISteamApps_BIsCybercafe
+SteamAPI_ISteamApps_BIsDlcInstalled
+SteamAPI_ISteamApps_BIsLowViolence
+SteamAPI_ISteamApps_BIsSubscribed
+SteamAPI_ISteamApps_BIsSubscribedApp
+SteamAPI_ISteamApps_BIsSubscribedFromFreeWeekend
+SteamAPI_ISteamApps_BIsVACBanned
+SteamAPI_ISteamApps_GetAppBuildId
+SteamAPI_ISteamApps_GetAppInstallDir
+SteamAPI_ISteamApps_GetAppOwner
+SteamAPI_ISteamApps_GetAvailableGameLanguages
+SteamAPI_ISteamApps_GetCurrentBetaName
+SteamAPI_ISteamApps_GetCurrentGameLanguage
+SteamAPI_ISteamApps_GetDLCCount
+SteamAPI_ISteamApps_GetDlcDownloadProgress
+SteamAPI_ISteamApps_GetEarliestPurchaseUnixTime
+SteamAPI_ISteamApps_GetInstalledDepots
+SteamAPI_ISteamApps_GetLaunchQueryParam
+SteamAPI_ISteamApps_InstallDLC
+SteamAPI_ISteamApps_MarkContentCorrupt
+SteamAPI_ISteamApps_RequestAppProofOfPurchaseKey
+SteamAPI_ISteamApps_UninstallDLC
+SteamAPI_ISteamClient_BReleaseSteamPipe
+SteamAPI_ISteamClient_BShutdownIfAllPipesClosed
+SteamAPI_ISteamClient_ConnectToGlobalUser
+SteamAPI_ISteamClient_CreateLocalUser
+SteamAPI_ISteamClient_CreateSteamPipe
+SteamAPI_ISteamClient_GetIPCCallCount
+SteamAPI_ISteamClient_GetISteamAppList
+SteamAPI_ISteamClient_GetISteamApps
+SteamAPI_ISteamClient_GetISteamController
+SteamAPI_ISteamClient_GetISteamFriends
+SteamAPI_ISteamClient_GetISteamGameServer
+SteamAPI_ISteamClient_GetISteamGameServerStats
+SteamAPI_ISteamClient_GetISteamGenericInterface
+SteamAPI_ISteamClient_GetISteamHTMLSurface
+SteamAPI_ISteamClient_GetISteamHTTP
+SteamAPI_ISteamClient_GetISteamInventory
+SteamAPI_ISteamClient_GetISteamMatchmaking
+SteamAPI_ISteamClient_GetISteamMatchmakingServers
+SteamAPI_ISteamClient_GetISteamMusic
+SteamAPI_ISteamClient_GetISteamMusicRemote
+SteamAPI_ISteamClient_GetISteamNetworking
+SteamAPI_ISteamClient_GetISteamRemoteStorage
+SteamAPI_ISteamClient_GetISteamScreenshots
+SteamAPI_ISteamClient_GetISteamUGC
+SteamAPI_ISteamClient_GetISteamUnifiedMessages
+SteamAPI_ISteamClient_GetISteamUser
+SteamAPI_ISteamClient_GetISteamUserStats
+SteamAPI_ISteamClient_GetISteamUtils
+SteamAPI_ISteamClient_GetISteamVideo
+SteamAPI_ISteamClient_ReleaseUser
+SteamAPI_ISteamClient_Remove_SteamAPI_CPostAPIResultInProcess
+SteamAPI_ISteamClient_RunFrame
+SteamAPI_ISteamClient_SetLocalIPBinding
+SteamAPI_ISteamClient_SetWarningMessageHook
+SteamAPI_ISteamClient_Set_SteamAPI_CCheckCallbackRegisteredInProcess
+SteamAPI_ISteamClient_Set_SteamAPI_CPostAPIResultInProcess
+SteamAPI_ISteamController_ActivateActionSet
+SteamAPI_ISteamController_GetActionSetHandle
+SteamAPI_ISteamController_GetAnalogActionData
+SteamAPI_ISteamController_GetAnalogActionHandle
+SteamAPI_ISteamController_GetAnalogActionOrigins
+SteamAPI_ISteamController_GetConnectedControllers
+SteamAPI_ISteamController_GetCurrentActionSet
+SteamAPI_ISteamController_GetDigitalActionData
+SteamAPI_ISteamController_GetDigitalActionHandle
+SteamAPI_ISteamController_GetDigitalActionOrigins
+SteamAPI_ISteamController_Init
+SteamAPI_ISteamController_RunFrame
+SteamAPI_ISteamController_ShowBindingPanel
+SteamAPI_ISteamController_Shutdown
+SteamAPI_ISteamController_StopAnalogActionMomentum
+SteamAPI_ISteamController_TriggerHapticPulse
+SteamAPI_ISteamFriends_ActivateGameOverlay
+SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialog
+SteamAPI_ISteamFriends_ActivateGameOverlayToStore
+SteamAPI_ISteamFriends_ActivateGameOverlayToUser
+SteamAPI_ISteamFriends_ActivateGameOverlayToWebPage
+SteamAPI_ISteamFriends_ClearRichPresence
+SteamAPI_ISteamFriends_CloseClanChatWindowInSteam
+SteamAPI_ISteamFriends_DownloadClanActivityCounts
+SteamAPI_ISteamFriends_EnumerateFollowingList
+SteamAPI_ISteamFriends_GetChatMemberByIndex
+SteamAPI_ISteamFriends_GetClanActivityCounts
+SteamAPI_ISteamFriends_GetClanByIndex
+SteamAPI_ISteamFriends_GetClanChatMemberCount
+SteamAPI_ISteamFriends_GetClanChatMessage
+SteamAPI_ISteamFriends_GetClanCount
+SteamAPI_ISteamFriends_GetClanName
+SteamAPI_ISteamFriends_GetClanOfficerByIndex
+SteamAPI_ISteamFriends_GetClanOfficerCount
+SteamAPI_ISteamFriends_GetClanOwner
+SteamAPI_ISteamFriends_GetClanTag
+SteamAPI_ISteamFriends_GetCoplayFriend
+SteamAPI_ISteamFriends_GetCoplayFriendCount
+SteamAPI_ISteamFriends_GetFollowerCount
+SteamAPI_ISteamFriends_GetFriendByIndex
+SteamAPI_ISteamFriends_GetFriendCoplayGame
+SteamAPI_ISteamFriends_GetFriendCoplayTime
+SteamAPI_ISteamFriends_GetFriendCount
+SteamAPI_ISteamFriends_GetFriendCountFromSource
+SteamAPI_ISteamFriends_GetFriendFromSourceByIndex
+SteamAPI_ISteamFriends_GetFriendGamePlayed
+SteamAPI_ISteamFriends_GetFriendMessage
+SteamAPI_ISteamFriends_GetFriendPersonaName
+SteamAPI_ISteamFriends_GetFriendPersonaNameHistory
+SteamAPI_ISteamFriends_GetFriendPersonaState
+SteamAPI_ISteamFriends_GetFriendRelationship
+SteamAPI_ISteamFriends_GetFriendRichPresence
+SteamAPI_ISteamFriends_GetFriendRichPresenceKeyByIndex
+SteamAPI_ISteamFriends_GetFriendRichPresenceKeyCount
+SteamAPI_ISteamFriends_GetFriendSteamLevel
+SteamAPI_ISteamFriends_GetFriendsGroupCount
+SteamAPI_ISteamFriends_GetFriendsGroupIDByIndex
+SteamAPI_ISteamFriends_GetFriendsGroupMembersCount
+SteamAPI_ISteamFriends_GetFriendsGroupMembersList
+SteamAPI_ISteamFriends_GetFriendsGroupName
+SteamAPI_ISteamFriends_GetLargeFriendAvatar
+SteamAPI_ISteamFriends_GetMediumFriendAvatar
+SteamAPI_ISteamFriends_GetPersonaName
+SteamAPI_ISteamFriends_GetPersonaState
+SteamAPI_ISteamFriends_GetPlayerNickname
+SteamAPI_ISteamFriends_GetSmallFriendAvatar
+SteamAPI_ISteamFriends_GetUserRestrictions
+SteamAPI_ISteamFriends_HasFriend
+SteamAPI_ISteamFriends_InviteUserToGame
+SteamAPI_ISteamFriends_IsClanChatAdmin
+SteamAPI_ISteamFriends_IsClanChatWindowOpenInSteam
+SteamAPI_ISteamFriends_IsFollowing
+SteamAPI_ISteamFriends_IsUserInSource
+SteamAPI_ISteamFriends_JoinClanChatRoom
+SteamAPI_ISteamFriends_LeaveClanChatRoom
+SteamAPI_ISteamFriends_OpenClanChatWindowInSteam
+SteamAPI_ISteamFriends_ReplyToFriendMessage
+SteamAPI_ISteamFriends_RequestClanOfficerList
+SteamAPI_ISteamFriends_RequestFriendRichPresence
+SteamAPI_ISteamFriends_RequestUserInformation
+SteamAPI_ISteamFriends_SendClanChatMessage
+SteamAPI_ISteamFriends_SetInGameVoiceSpeaking
+SteamAPI_ISteamFriends_SetListenForFriendsMessages
+SteamAPI_ISteamFriends_SetPersonaName
+SteamAPI_ISteamFriends_SetPlayedWith
+SteamAPI_ISteamFriends_SetRichPresence
+SteamAPI_ISteamGameServerStats_ClearUserAchievement
+SteamAPI_ISteamGameServerStats_GetUserAchievement
+SteamAPI_ISteamGameServerStats_GetUserStat
+SteamAPI_ISteamGameServerStats_GetUserStat0
+SteamAPI_ISteamGameServerStats_RequestUserStats
+SteamAPI_ISteamGameServerStats_SetUserAchievement
+SteamAPI_ISteamGameServerStats_SetUserStat
+SteamAPI_ISteamGameServerStats_SetUserStat0
+SteamAPI_ISteamGameServerStats_StoreUserStats
+SteamAPI_ISteamGameServerStats_UpdateUserAvgRateStat
+SteamAPI_ISteamGameServer_AssociateWithClan
+SteamAPI_ISteamGameServer_BLoggedOn
+SteamAPI_ISteamGameServer_BSecure
+SteamAPI_ISteamGameServer_BUpdateUserData
+SteamAPI_ISteamGameServer_BeginAuthSession
+SteamAPI_ISteamGameServer_CancelAuthTicket
+SteamAPI_ISteamGameServer_ClearAllKeyValues
+SteamAPI_ISteamGameServer_ComputeNewPlayerCompatibility
+SteamAPI_ISteamGameServer_CreateUnauthenticatedUserConnection
+SteamAPI_ISteamGameServer_EnableHeartbeats
+SteamAPI_ISteamGameServer_EndAuthSession
+SteamAPI_ISteamGameServer_ForceHeartbeat
+SteamAPI_ISteamGameServer_GetAuthSessionTicket
+SteamAPI_ISteamGameServer_GetGameplayStats
+SteamAPI_ISteamGameServer_GetNextOutgoingPacket
+SteamAPI_ISteamGameServer_GetPublicIP
+SteamAPI_ISteamGameServer_GetServerReputation
+SteamAPI_ISteamGameServer_GetSteamID
+SteamAPI_ISteamGameServer_HandleIncomingPacket
+SteamAPI_ISteamGameServer_InitGameServer
+SteamAPI_ISteamGameServer_LogOff
+SteamAPI_ISteamGameServer_LogOn
+SteamAPI_ISteamGameServer_LogOnAnonymous
+SteamAPI_ISteamGameServer_RequestUserGroupStatus
+SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate
+SteamAPI_ISteamGameServer_SendUserDisconnect
+SteamAPI_ISteamGameServer_SetBotPlayerCount
+SteamAPI_ISteamGameServer_SetDedicatedServer
+SteamAPI_ISteamGameServer_SetGameData
+SteamAPI_ISteamGameServer_SetGameDescription
+SteamAPI_ISteamGameServer_SetGameTags
+SteamAPI_ISteamGameServer_SetHeartbeatInterval
+SteamAPI_ISteamGameServer_SetKeyValue
+SteamAPI_ISteamGameServer_SetMapName
+SteamAPI_ISteamGameServer_SetMaxPlayerCount
+SteamAPI_ISteamGameServer_SetModDir
+SteamAPI_ISteamGameServer_SetPasswordProtected
+SteamAPI_ISteamGameServer_SetProduct
+SteamAPI_ISteamGameServer_SetRegion
+SteamAPI_ISteamGameServer_SetServerName
+SteamAPI_ISteamGameServer_SetSpectatorPort
+SteamAPI_ISteamGameServer_SetSpectatorServerName
+SteamAPI_ISteamGameServer_UserHasLicenseForApp
+SteamAPI_ISteamGameServer_WasRestartRequested
+SteamAPI_ISteamHTMLSurface_AddHeader
+SteamAPI_ISteamHTMLSurface_AllowStartRequest
+SteamAPI_ISteamHTMLSurface_CopyToClipboard
+SteamAPI_ISteamHTMLSurface_CreateBrowser
+SteamAPI_ISteamHTMLSurface_DestructISteamHTMLSurface
+SteamAPI_ISteamHTMLSurface_ExecuteJavascript
+SteamAPI_ISteamHTMLSurface_Find
+SteamAPI_ISteamHTMLSurface_GetLinkAtPosition
+SteamAPI_ISteamHTMLSurface_GoBack
+SteamAPI_ISteamHTMLSurface_GoForward
+SteamAPI_ISteamHTMLSurface_Init
+SteamAPI_ISteamHTMLSurface_JSDialogResponse
+SteamAPI_ISteamHTMLSurface_KeyChar
+SteamAPI_ISteamHTMLSurface_KeyDown
+SteamAPI_ISteamHTMLSurface_KeyUp
+SteamAPI_ISteamHTMLSurface_LoadURL
+SteamAPI_ISteamHTMLSurface_MouseDoubleClick
+SteamAPI_ISteamHTMLSurface_MouseDown
+SteamAPI_ISteamHTMLSurface_MouseMove
+SteamAPI_ISteamHTMLSurface_MouseUp
+SteamAPI_ISteamHTMLSurface_MouseWheel
+SteamAPI_ISteamHTMLSurface_PasteFromClipboard
+SteamAPI_ISteamHTMLSurface_Reload
+SteamAPI_ISteamHTMLSurface_RemoveBrowser
+SteamAPI_ISteamHTMLSurface_SetBackgroundMode
+SteamAPI_ISteamHTMLSurface_SetCookie
+SteamAPI_ISteamHTMLSurface_SetHorizontalScroll
+SteamAPI_ISteamHTMLSurface_SetKeyFocus
+SteamAPI_ISteamHTMLSurface_SetPageScaleFactor
+SteamAPI_ISteamHTMLSurface_SetSize
+SteamAPI_ISteamHTMLSurface_SetVerticalScroll
+SteamAPI_ISteamHTMLSurface_Shutdown
+SteamAPI_ISteamHTMLSurface_StopFind
+SteamAPI_ISteamHTMLSurface_StopLoad
+SteamAPI_ISteamHTMLSurface_ViewSource
+SteamAPI_ISteamHTTP_CreateCookieContainer
+SteamAPI_ISteamHTTP_CreateHTTPRequest
+SteamAPI_ISteamHTTP_DeferHTTPRequest
+SteamAPI_ISteamHTTP_GetHTTPDownloadProgressPct
+SteamAPI_ISteamHTTP_GetHTTPRequestWasTimedOut
+SteamAPI_ISteamHTTP_GetHTTPResponseBodyData
+SteamAPI_ISteamHTTP_GetHTTPResponseBodySize
+SteamAPI_ISteamHTTP_GetHTTPResponseHeaderSize
+SteamAPI_ISteamHTTP_GetHTTPResponseHeaderValue
+SteamAPI_ISteamHTTP_GetHTTPStreamingResponseBodyData
+SteamAPI_ISteamHTTP_PrioritizeHTTPRequest
+SteamAPI_ISteamHTTP_ReleaseCookieContainer
+SteamAPI_ISteamHTTP_ReleaseHTTPRequest
+SteamAPI_ISteamHTTP_SendHTTPRequest
+SteamAPI_ISteamHTTP_SendHTTPRequestAndStreamResponse
+SteamAPI_ISteamHTTP_SetCookie
+SteamAPI_ISteamHTTP_SetHTTPRequestAbsoluteTimeoutMS
+SteamAPI_ISteamHTTP_SetHTTPRequestContextValue
+SteamAPI_ISteamHTTP_SetHTTPRequestCookieContainer
+SteamAPI_ISteamHTTP_SetHTTPRequestGetOrPostParameter
+SteamAPI_ISteamHTTP_SetHTTPRequestHeaderValue
+SteamAPI_ISteamHTTP_SetHTTPRequestNetworkActivityTimeout
+SteamAPI_ISteamHTTP_SetHTTPRequestRawPostBody
+SteamAPI_ISteamHTTP_SetHTTPRequestRequiresVerifiedCertificate
+SteamAPI_ISteamHTTP_SetHTTPRequestUserAgentInfo
+SteamAPI_ISteamInventory_AddPromoItem
+SteamAPI_ISteamInventory_AddPromoItems
+SteamAPI_ISteamInventory_CheckResultSteamID
+SteamAPI_ISteamInventory_ConsumeItem
+SteamAPI_ISteamInventory_DeserializeResult
+SteamAPI_ISteamInventory_DestroyResult
+SteamAPI_ISteamInventory_ExchangeItems
+SteamAPI_ISteamInventory_GenerateItems
+SteamAPI_ISteamInventory_GetAllItems
+SteamAPI_ISteamInventory_GetItemDefinitionIDs
+SteamAPI_ISteamInventory_GetItemDefinitionProperty
+SteamAPI_ISteamInventory_GetItemsByID
+SteamAPI_ISteamInventory_GetResultItems
+SteamAPI_ISteamInventory_GetResultStatus
+SteamAPI_ISteamInventory_GetResultTimestamp
+SteamAPI_ISteamInventory_GrantPromoItems
+SteamAPI_ISteamInventory_LoadItemDefinitions
+SteamAPI_ISteamInventory_SendItemDropHeartbeat
+SteamAPI_ISteamInventory_SerializeResult
+SteamAPI_ISteamInventory_TradeItems
+SteamAPI_ISteamInventory_TransferItemQuantity
+SteamAPI_ISteamInventory_TriggerItemDrop
+SteamAPI_ISteamMatchmakingPingResponse_ServerFailedToRespond
+SteamAPI_ISteamMatchmakingPingResponse_ServerResponded
+SteamAPI_ISteamMatchmakingPlayersResponse_AddPlayerToList
+SteamAPI_ISteamMatchmakingPlayersResponse_PlayersFailedToRespond
+SteamAPI_ISteamMatchmakingPlayersResponse_PlayersRefreshComplete
+SteamAPI_ISteamMatchmakingRulesResponse_RulesFailedToRespond
+SteamAPI_ISteamMatchmakingRulesResponse_RulesRefreshComplete
+SteamAPI_ISteamMatchmakingRulesResponse_RulesResponded
+SteamAPI_ISteamMatchmakingServerListResponse_RefreshComplete
+SteamAPI_ISteamMatchmakingServerListResponse_ServerFailedToRespond
+SteamAPI_ISteamMatchmakingServerListResponse_ServerResponded
+SteamAPI_ISteamMatchmakingServers_CancelQuery
+SteamAPI_ISteamMatchmakingServers_CancelServerQuery
+SteamAPI_ISteamMatchmakingServers_GetServerCount
+SteamAPI_ISteamMatchmakingServers_GetServerDetails
+SteamAPI_ISteamMatchmakingServers_IsRefreshing
+SteamAPI_ISteamMatchmakingServers_PingServer
+SteamAPI_ISteamMatchmakingServers_PlayerDetails
+SteamAPI_ISteamMatchmakingServers_RefreshQuery
+SteamAPI_ISteamMatchmakingServers_RefreshServer
+SteamAPI_ISteamMatchmakingServers_ReleaseRequest
+SteamAPI_ISteamMatchmakingServers_RequestFavoritesServerList
+SteamAPI_ISteamMatchmakingServers_RequestFriendsServerList
+SteamAPI_ISteamMatchmakingServers_RequestHistoryServerList
+SteamAPI_ISteamMatchmakingServers_RequestInternetServerList
+SteamAPI_ISteamMatchmakingServers_RequestLANServerList
+SteamAPI_ISteamMatchmakingServers_RequestSpectatorServerList
+SteamAPI_ISteamMatchmakingServers_ServerRules
+SteamAPI_ISteamMatchmaking_AddFavoriteGame
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListCompatibleMembersFilter
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListDistanceFilter
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListNearValueFilter
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListNumericalFilter
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListResultCountFilter
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListStringFilter
+SteamAPI_ISteamMatchmaking_CreateLobby
+SteamAPI_ISteamMatchmaking_DeleteLobbyData
+SteamAPI_ISteamMatchmaking_GetFavoriteGame
+SteamAPI_ISteamMatchmaking_GetFavoriteGameCount
+SteamAPI_ISteamMatchmaking_GetLobbyByIndex
+SteamAPI_ISteamMatchmaking_GetLobbyChatEntry
+SteamAPI_ISteamMatchmaking_GetLobbyData
+SteamAPI_ISteamMatchmaking_GetLobbyDataByIndex
+SteamAPI_ISteamMatchmaking_GetLobbyDataCount
+SteamAPI_ISteamMatchmaking_GetLobbyGameServer
+SteamAPI_ISteamMatchmaking_GetLobbyMemberByIndex
+SteamAPI_ISteamMatchmaking_GetLobbyMemberData
+SteamAPI_ISteamMatchmaking_GetLobbyMemberLimit
+SteamAPI_ISteamMatchmaking_GetLobbyOwner
+SteamAPI_ISteamMatchmaking_GetNumLobbyMembers
+SteamAPI_ISteamMatchmaking_InviteUserToLobby
+SteamAPI_ISteamMatchmaking_JoinLobby
+SteamAPI_ISteamMatchmaking_LeaveLobby
+SteamAPI_ISteamMatchmaking_RemoveFavoriteGame
+SteamAPI_ISteamMatchmaking_RequestLobbyData
+SteamAPI_ISteamMatchmaking_RequestLobbyList
+SteamAPI_ISteamMatchmaking_SendLobbyChatMsg
+SteamAPI_ISteamMatchmaking_SetLinkedLobby
+SteamAPI_ISteamMatchmaking_SetLobbyData
+SteamAPI_ISteamMatchmaking_SetLobbyGameServer
+SteamAPI_ISteamMatchmaking_SetLobbyJoinable
+SteamAPI_ISteamMatchmaking_SetLobbyMemberData
+SteamAPI_ISteamMatchmaking_SetLobbyMemberLimit
+SteamAPI_ISteamMatchmaking_SetLobbyOwner
+SteamAPI_ISteamMatchmaking_SetLobbyType
+SteamAPI_ISteamMusicRemote_BActivationSuccess
+SteamAPI_ISteamMusicRemote_BIsCurrentMusicRemote
+SteamAPI_ISteamMusicRemote_CurrentEntryDidChange
+SteamAPI_ISteamMusicRemote_CurrentEntryIsAvailable
+SteamAPI_ISteamMusicRemote_CurrentEntryWillChange
+SteamAPI_ISteamMusicRemote_DeregisterSteamMusicRemote
+SteamAPI_ISteamMusicRemote_EnableLooped
+SteamAPI_ISteamMusicRemote_EnablePlayNext
+SteamAPI_ISteamMusicRemote_EnablePlayPrevious
+SteamAPI_ISteamMusicRemote_EnablePlaylists
+SteamAPI_ISteamMusicRemote_EnableQueue
+SteamAPI_ISteamMusicRemote_EnableShuffled
+SteamAPI_ISteamMusicRemote_PlaylistDidChange
+SteamAPI_ISteamMusicRemote_PlaylistWillChange
+SteamAPI_ISteamMusicRemote_QueueDidChange
+SteamAPI_ISteamMusicRemote_QueueWillChange
+SteamAPI_ISteamMusicRemote_RegisterSteamMusicRemote
+SteamAPI_ISteamMusicRemote_ResetPlaylistEntries
+SteamAPI_ISteamMusicRemote_ResetQueueEntries
+SteamAPI_ISteamMusicRemote_SetCurrentPlaylistEntry
+SteamAPI_ISteamMusicRemote_SetCurrentQueueEntry
+SteamAPI_ISteamMusicRemote_SetDisplayName
+SteamAPI_ISteamMusicRemote_SetPNGIcon_64x64
+SteamAPI_ISteamMusicRemote_SetPlaylistEntry
+SteamAPI_ISteamMusicRemote_SetQueueEntry
+SteamAPI_ISteamMusicRemote_UpdateCurrentEntryCoverArt
+SteamAPI_ISteamMusicRemote_UpdateCurrentEntryElapsedSeconds
+SteamAPI_ISteamMusicRemote_UpdateCurrentEntryText
+SteamAPI_ISteamMusicRemote_UpdateLooped
+SteamAPI_ISteamMusicRemote_UpdatePlaybackStatus
+SteamAPI_ISteamMusicRemote_UpdateShuffled
+SteamAPI_ISteamMusicRemote_UpdateVolume
+SteamAPI_ISteamMusic_BIsEnabled
+SteamAPI_ISteamMusic_BIsPlaying
+SteamAPI_ISteamMusic_GetPlaybackStatus
+SteamAPI_ISteamMusic_GetVolume
+SteamAPI_ISteamMusic_Pause
+SteamAPI_ISteamMusic_Play
+SteamAPI_ISteamMusic_PlayNext
+SteamAPI_ISteamMusic_PlayPrevious
+SteamAPI_ISteamMusic_SetVolume
+SteamAPI_ISteamNetworking_AcceptP2PSessionWithUser
+SteamAPI_ISteamNetworking_AllowP2PPacketRelay
+SteamAPI_ISteamNetworking_CloseP2PChannelWithUser
+SteamAPI_ISteamNetworking_CloseP2PSessionWithUser
+SteamAPI_ISteamNetworking_CreateConnectionSocket
+SteamAPI_ISteamNetworking_CreateListenSocket
+SteamAPI_ISteamNetworking_CreateP2PConnectionSocket
+SteamAPI_ISteamNetworking_DestroyListenSocket
+SteamAPI_ISteamNetworking_DestroySocket
+SteamAPI_ISteamNetworking_GetListenSocketInfo
+SteamAPI_ISteamNetworking_GetMaxPacketSize
+SteamAPI_ISteamNetworking_GetP2PSessionState
+SteamAPI_ISteamNetworking_GetSocketConnectionType
+SteamAPI_ISteamNetworking_GetSocketInfo
+SteamAPI_ISteamNetworking_IsDataAvailable
+SteamAPI_ISteamNetworking_IsDataAvailableOnSocket
+SteamAPI_ISteamNetworking_IsP2PPacketAvailable
+SteamAPI_ISteamNetworking_ReadP2PPacket
+SteamAPI_ISteamNetworking_RetrieveData
+SteamAPI_ISteamNetworking_RetrieveDataFromSocket
+SteamAPI_ISteamNetworking_SendDataOnSocket
+SteamAPI_ISteamNetworking_SendP2PPacket
+SteamAPI_ISteamRemoteStorage_CommitPublishedFileUpdate
+SteamAPI_ISteamRemoteStorage_CreatePublishedFileUpdateRequest
+SteamAPI_ISteamRemoteStorage_DeletePublishedFile
+SteamAPI_ISteamRemoteStorage_EnumeratePublishedFilesByUserAction
+SteamAPI_ISteamRemoteStorage_EnumeratePublishedWorkshopFiles
+SteamAPI_ISteamRemoteStorage_EnumerateUserPublishedFiles
+SteamAPI_ISteamRemoteStorage_EnumerateUserSharedWorkshopFiles
+SteamAPI_ISteamRemoteStorage_EnumerateUserSubscribedFiles
+SteamAPI_ISteamRemoteStorage_FileDelete
+SteamAPI_ISteamRemoteStorage_FileExists
+SteamAPI_ISteamRemoteStorage_FileForget
+SteamAPI_ISteamRemoteStorage_FilePersisted
+SteamAPI_ISteamRemoteStorage_FileRead
+SteamAPI_ISteamRemoteStorage_FileReadAsync
+SteamAPI_ISteamRemoteStorage_FileReadAsyncComplete
+SteamAPI_ISteamRemoteStorage_FileShare
+SteamAPI_ISteamRemoteStorage_FileWrite
+SteamAPI_ISteamRemoteStorage_FileWriteAsync
+SteamAPI_ISteamRemoteStorage_FileWriteStreamCancel
+SteamAPI_ISteamRemoteStorage_FileWriteStreamClose
+SteamAPI_ISteamRemoteStorage_FileWriteStreamOpen
+SteamAPI_ISteamRemoteStorage_FileWriteStreamWriteChunk
+SteamAPI_ISteamRemoteStorage_GetCachedUGCCount
+SteamAPI_ISteamRemoteStorage_GetCachedUGCHandle
+SteamAPI_ISteamRemoteStorage_GetFileCount
+SteamAPI_ISteamRemoteStorage_GetFileNameAndSize
+SteamAPI_ISteamRemoteStorage_GetFileSize
+SteamAPI_ISteamRemoteStorage_GetFileTimestamp
+SteamAPI_ISteamRemoteStorage_GetPublishedFileDetails
+SteamAPI_ISteamRemoteStorage_GetPublishedItemVoteDetails
+SteamAPI_ISteamRemoteStorage_GetQuota
+SteamAPI_ISteamRemoteStorage_GetSyncPlatforms
+SteamAPI_ISteamRemoteStorage_GetUGCDetails
+SteamAPI_ISteamRemoteStorage_GetUGCDownloadProgress
+SteamAPI_ISteamRemoteStorage_GetUserPublishedItemVoteDetails
+SteamAPI_ISteamRemoteStorage_IsCloudEnabledForAccount
+SteamAPI_ISteamRemoteStorage_IsCloudEnabledForApp
+SteamAPI_ISteamRemoteStorage_PublishVideo
+SteamAPI_ISteamRemoteStorage_PublishWorkshopFile
+SteamAPI_ISteamRemoteStorage_SetCloudEnabledForApp
+SteamAPI_ISteamRemoteStorage_SetSyncPlatforms
+SteamAPI_ISteamRemoteStorage_SetUserPublishedFileAction
+SteamAPI_ISteamRemoteStorage_SubscribePublishedFile
+SteamAPI_ISteamRemoteStorage_UGCDownload
+SteamAPI_ISteamRemoteStorage_UGCDownloadToLocation
+SteamAPI_ISteamRemoteStorage_UGCRead
+SteamAPI_ISteamRemoteStorage_UnsubscribePublishedFile
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileDescription
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileFile
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFilePreviewFile
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileSetChangeDescription
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTags
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTitle
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileVisibility
+SteamAPI_ISteamRemoteStorage_UpdateUserPublishedItemVote
+SteamAPI_ISteamScreenshots_AddScreenshotToLibrary
+SteamAPI_ISteamScreenshots_HookScreenshots
+SteamAPI_ISteamScreenshots_SetLocation
+SteamAPI_ISteamScreenshots_TagPublishedFile
+SteamAPI_ISteamScreenshots_TagUser
+SteamAPI_ISteamScreenshots_TriggerScreenshot
+SteamAPI_ISteamScreenshots_WriteScreenshot
+SteamAPI_ISteamUGC_AddExcludedTag
+SteamAPI_ISteamUGC_AddItemKeyValueTag
+SteamAPI_ISteamUGC_AddItemToFavorites
+SteamAPI_ISteamUGC_AddRequiredKeyValueTag
+SteamAPI_ISteamUGC_AddRequiredTag
+SteamAPI_ISteamUGC_BInitWorkshopForGameServer
+SteamAPI_ISteamUGC_CreateItem
+SteamAPI_ISteamUGC_CreateQueryAllUGCRequest
+SteamAPI_ISteamUGC_CreateQueryUGCDetailsRequest
+SteamAPI_ISteamUGC_CreateQueryUserUGCRequest
+SteamAPI_ISteamUGC_DownloadItem
+SteamAPI_ISteamUGC_GetItemDownloadInfo
+SteamAPI_ISteamUGC_GetItemInstallInfo
+SteamAPI_ISteamUGC_GetItemState
+SteamAPI_ISteamUGC_GetItemUpdateProgress
+SteamAPI_ISteamUGC_GetNumSubscribedItems
+SteamAPI_ISteamUGC_GetQueryUGCAdditionalPreview
+SteamAPI_ISteamUGC_GetQueryUGCChildren
+SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag
+SteamAPI_ISteamUGC_GetQueryUGCMetadata
+SteamAPI_ISteamUGC_GetQueryUGCNumAdditionalPreviews
+SteamAPI_ISteamUGC_GetQueryUGCNumKeyValueTags
+SteamAPI_ISteamUGC_GetQueryUGCPreviewURL
+SteamAPI_ISteamUGC_GetQueryUGCResult
+SteamAPI_ISteamUGC_GetQueryUGCStatistic
+SteamAPI_ISteamUGC_GetSubscribedItems
+SteamAPI_ISteamUGC_GetUserItemVote
+SteamAPI_ISteamUGC_ReleaseQueryUGCRequest
+SteamAPI_ISteamUGC_RemoveItemFromFavorites
+SteamAPI_ISteamUGC_RemoveItemKeyValueTags
+SteamAPI_ISteamUGC_RequestUGCDetails
+SteamAPI_ISteamUGC_SendQueryUGCRequest
+SteamAPI_ISteamUGC_SetAllowCachedResponse
+SteamAPI_ISteamUGC_SetCloudFileNameFilter
+SteamAPI_ISteamUGC_SetItemContent
+SteamAPI_ISteamUGC_SetItemDescription
+SteamAPI_ISteamUGC_SetItemMetadata
+SteamAPI_ISteamUGC_SetItemPreview
+SteamAPI_ISteamUGC_SetItemTags
+SteamAPI_ISteamUGC_SetItemTitle
+SteamAPI_ISteamUGC_SetItemUpdateLanguage
+SteamAPI_ISteamUGC_SetItemVisibility
+SteamAPI_ISteamUGC_SetLanguage
+SteamAPI_ISteamUGC_SetMatchAnyTag
+SteamAPI_ISteamUGC_SetRankedByTrendDays
+SteamAPI_ISteamUGC_SetReturnAdditionalPreviews
+SteamAPI_ISteamUGC_SetReturnChildren
+SteamAPI_ISteamUGC_SetReturnKeyValueTags
+SteamAPI_ISteamUGC_SetReturnLongDescription
+SteamAPI_ISteamUGC_SetReturnMetadata
+SteamAPI_ISteamUGC_SetReturnTotalOnly
+SteamAPI_ISteamUGC_SetSearchText
+SteamAPI_ISteamUGC_SetUserItemVote
+SteamAPI_ISteamUGC_StartItemUpdate
+SteamAPI_ISteamUGC_SubmitItemUpdate
+SteamAPI_ISteamUGC_SubscribeItem
+SteamAPI_ISteamUGC_SuspendDownloads
+SteamAPI_ISteamUGC_UnsubscribeItem
+SteamAPI_ISteamUnifiedMessages_GetMethodResponseData
+SteamAPI_ISteamUnifiedMessages_GetMethodResponseInfo
+SteamAPI_ISteamUnifiedMessages_ReleaseMethod
+SteamAPI_ISteamUnifiedMessages_SendMethod
+SteamAPI_ISteamUnifiedMessages_SendNotification
+SteamAPI_ISteamUserStats_AttachLeaderboardUGC
+SteamAPI_ISteamUserStats_ClearAchievement
+SteamAPI_ISteamUserStats_DownloadLeaderboardEntries
+SteamAPI_ISteamUserStats_DownloadLeaderboardEntriesForUsers
+SteamAPI_ISteamUserStats_FindLeaderboard
+SteamAPI_ISteamUserStats_FindOrCreateLeaderboard
+SteamAPI_ISteamUserStats_GetAchievement
+SteamAPI_ISteamUserStats_GetAchievementAchievedPercent
+SteamAPI_ISteamUserStats_GetAchievementAndUnlockTime
+SteamAPI_ISteamUserStats_GetAchievementDisplayAttribute
+SteamAPI_ISteamUserStats_GetAchievementIcon
+SteamAPI_ISteamUserStats_GetAchievementName
+SteamAPI_ISteamUserStats_GetDownloadedLeaderboardEntry
+SteamAPI_ISteamUserStats_GetGlobalStat
+SteamAPI_ISteamUserStats_GetGlobalStat0
+SteamAPI_ISteamUserStats_GetGlobalStatHistory
+SteamAPI_ISteamUserStats_GetGlobalStatHistory0
+SteamAPI_ISteamUserStats_GetLeaderboardDisplayType
+SteamAPI_ISteamUserStats_GetLeaderboardEntryCount
+SteamAPI_ISteamUserStats_GetLeaderboardName
+SteamAPI_ISteamUserStats_GetLeaderboardSortMethod
+SteamAPI_ISteamUserStats_GetMostAchievedAchievementInfo
+SteamAPI_ISteamUserStats_GetNextMostAchievedAchievementInfo
+SteamAPI_ISteamUserStats_GetNumAchievements
+SteamAPI_ISteamUserStats_GetNumberOfCurrentPlayers
+SteamAPI_ISteamUserStats_GetStat
+SteamAPI_ISteamUserStats_GetStat0
+SteamAPI_ISteamUserStats_GetUserAchievement
+SteamAPI_ISteamUserStats_GetUserAchievementAndUnlockTime
+SteamAPI_ISteamUserStats_GetUserStat
+SteamAPI_ISteamUserStats_GetUserStat0
+SteamAPI_ISteamUserStats_IndicateAchievementProgress
+SteamAPI_ISteamUserStats_RequestCurrentStats
+SteamAPI_ISteamUserStats_RequestGlobalAchievementPercentages
+SteamAPI_ISteamUserStats_RequestGlobalStats
+SteamAPI_ISteamUserStats_RequestUserStats
+SteamAPI_ISteamUserStats_ResetAllStats
+SteamAPI_ISteamUserStats_SetAchievement
+SteamAPI_ISteamUserStats_SetStat
+SteamAPI_ISteamUserStats_SetStat0
+SteamAPI_ISteamUserStats_StoreStats
+SteamAPI_ISteamUserStats_UpdateAvgRateStat
+SteamAPI_ISteamUserStats_UploadLeaderboardScore
+SteamAPI_ISteamUser_AdvertiseGame
+SteamAPI_ISteamUser_BIsBehindNAT
+SteamAPI_ISteamUser_BLoggedOn
+SteamAPI_ISteamUser_BeginAuthSession
+SteamAPI_ISteamUser_CancelAuthTicket
+SteamAPI_ISteamUser_DecompressVoice
+SteamAPI_ISteamUser_EndAuthSession
+SteamAPI_ISteamUser_GetAuthSessionTicket
+SteamAPI_ISteamUser_GetAvailableVoice
+SteamAPI_ISteamUser_GetEncryptedAppTicket
+SteamAPI_ISteamUser_GetGameBadgeLevel
+SteamAPI_ISteamUser_GetHSteamUser
+SteamAPI_ISteamUser_GetPlayerSteamLevel
+SteamAPI_ISteamUser_GetSteamID
+SteamAPI_ISteamUser_GetUserDataFolder
+SteamAPI_ISteamUser_GetVoice
+SteamAPI_ISteamUser_GetVoiceOptimalSampleRate
+SteamAPI_ISteamUser_InitiateGameConnection
+SteamAPI_ISteamUser_RequestEncryptedAppTicket
+SteamAPI_ISteamUser_RequestStoreAuthURL
+SteamAPI_ISteamUser_StartVoiceRecording
+SteamAPI_ISteamUser_StopVoiceRecording
+SteamAPI_ISteamUser_TerminateGameConnection
+SteamAPI_ISteamUser_TrackAppUsageEvent
+SteamAPI_ISteamUser_UserHasLicenseForApp
+SteamAPI_ISteamUtils_BOverlayNeedsPresent
+SteamAPI_ISteamUtils_CheckFileSignature
+SteamAPI_ISteamUtils_GetAPICallFailureReason
+SteamAPI_ISteamUtils_GetAPICallResult
+SteamAPI_ISteamUtils_GetAppID
+SteamAPI_ISteamUtils_GetCSERIPPort
+SteamAPI_ISteamUtils_GetConnectedUniverse
+SteamAPI_ISteamUtils_GetCurrentBatteryPower
+SteamAPI_ISteamUtils_GetEnteredGamepadTextInput
+SteamAPI_ISteamUtils_GetEnteredGamepadTextLength
+SteamAPI_ISteamUtils_GetIPCCallCount
+SteamAPI_ISteamUtils_GetIPCountry
+SteamAPI_ISteamUtils_GetImageRGBA
+SteamAPI_ISteamUtils_GetImageSize
+SteamAPI_ISteamUtils_GetSecondsSinceAppActive
+SteamAPI_ISteamUtils_GetSecondsSinceComputerActive
+SteamAPI_ISteamUtils_GetServerRealTime
+SteamAPI_ISteamUtils_GetSteamUILanguage
+SteamAPI_ISteamUtils_IsAPICallCompleted
+SteamAPI_ISteamUtils_IsOverlayEnabled
+SteamAPI_ISteamUtils_IsSteamRunningInVR
+SteamAPI_ISteamUtils_RunFrame
+SteamAPI_ISteamUtils_SetOverlayNotificationInset
+SteamAPI_ISteamUtils_SetOverlayNotificationPosition
+SteamAPI_ISteamUtils_SetWarningMessageHook
+SteamAPI_ISteamUtils_ShowGamepadTextInput
+SteamAPI_ISteamVideo_GetVideoURL
+SteamAPI_ISteamVideo_IsBroadcasting
+SteamAPI_Init
+SteamAPI_InitSafe
+SteamAPI_IsSteamRunning
+SteamAPI_RegisterCallResult
+SteamAPI_RegisterCallback
+SteamAPI_RestartAppIfNecessary
+SteamAPI_RunCallbacks
+SteamAPI_SetBreakpadAppID
+SteamAPI_SetMiniDumpComment
+SteamAPI_SetTryCatchCallbacks
+SteamAPI_Shutdown
+SteamAPI_UnregisterCallResult
+SteamAPI_UnregisterCallback
+SteamAPI_UseBreakpadCrashHandler
+SteamAPI_WriteMiniDump
+SteamAppId
+SteamAppList
+SteamApps
+SteamClient
+SteamClient017
+SteamClientDll
+SteamClientDll64
+SteamController
+SteamController003
+SteamFriends
+SteamFriends015
+SteamGameId
+SteamGameServer
+SteamGameServer012
+SteamGameServerApps
+SteamGameServerHTTP
+SteamGameServerInventory
+SteamGameServerNetworking
+SteamGameServerStats
+SteamGameServerStats001
+SteamGameServerUGC
+SteamGameServerUtils
+SteamGameServer_BSecure
+SteamGameServer_GetHSteamPipe
+SteamGameServer_GetHSteamUser
+SteamGameServer_GetIPCCallCount
+SteamGameServer_GetSteamID
+SteamGameServer_Init
+SteamGameServer_InitSafe
+SteamGameServer_RunCallbacks
+SteamGameServer_Shutdown
+SteamHTMLSurface
+SteamHTTP
+SteamInventory
+SteamMatchMaking009
+SteamMatchMakingServers002
+SteamMatchmaking
+SteamMatchmakingServers
+SteamMusic
+SteamMusicRemote
+SteamNetworking
+SteamNetworking005
+SteamRemoteStorage
+SteamScreenshots
+SteamUGC
+SteamUnifiedMessages
+SteamUser
+SteamUser018
+SteamUserStats
+SteamUtils
+SteamUtils007
+SteamVideo
+Steam_BGetCallback
+Steam_FreeLastCallback
+Steam_GetAPICallResult
+Steam_GetHSteamUserCurrent
+Steam_RegisterInterfaceFuncs
+Steam_RunCallbacks
+Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]
+Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld
+Sunday
+SystemFunction036
+T$ H9L
+T$@H+
+T$HH+
+T$PH9L
+T$`H+
+T$hH+
+T$xH+
+TerminateProcess
+The Block at 0x%p was allocated by aligned routines, use _aligned_free()
+The Block at 0x%p was allocated by aligned routines, use _aligned_realloc()
+The block at 0x%p was not allocated by _aligned routines, use free()
+The block at 0x%p was not allocated by _aligned routines, use realloc()
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Total allocations: %Id bytes.
+Tuesday
+UNICODE
+UNKNOWN
+UTF-16LE
+UTF-8
+UUUUUUU
+UnhandledExceptionFilter
+Unknown exception
+UpdateDLLWrapper.dll
+Using breakpad crash handler
+WHcD$ H
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+Wednesday
+WideCharToMultiByte
+WriteConsoleW
+WriteFile
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.
+[S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s
+[S_API FAIL] SteamAPI_Init() failed; no appID found.
+[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local %s.
+[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.
+[thunk]:
+\steam.exe
+_CrtDbgReport: String too long or IO Error
+_CrtDbgReport: String too long or Invalid characters in String
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__int128
+__int16
+__int32
+__int64
+__int8
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+__w64 
+_cabs
+_heapchk fails with _HEAPBADBEGIN.
+_heapchk fails with _HEAPBADEND.
+_heapchk fails with _HEAPBADNODE.
+_heapchk fails with _HEAPBADPTR.
+_heapchk fails with unknown return value!
+_hypot
+_logb
+_nextafter
+`.rdata
+`RTTI
+`adjustor{
+`anonymous namespace'
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h````
+`h`hhh
+`local static destructor helper'
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`non-type-template-parameter
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`template static data member constructor helper'
+`template static data member destructor helper'
+`template-parameter
+`typeof'
+`udt returning'
+`unknown ecsu'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+`vtordispex{
+`vtordisp{
+abcdefghijklmnopqrstuvwxyz
+address family not supported
+address in use
+address not available
+address_family_not_supported
+address_in_use
+address_not_available
+alnum
+alpha
+already connected
+already_connected
+argument list too long
+argument out of domain
+atan2
+bad address
+bad allocation
+bad exception
+bad file descriptor
+bad function call
+bad message
+bad_address
+bad_file_descriptor
+blank
+broken pipe
+char 
+class 
+cli::array<
+cli::pin_ptr<
+client block at 0x%p, subtype %x, %Iu bytes long.
+cntrl
+coclass 
+cointerface 
+connection aborted
+connection already in progress
+connection refused
+connection reset
+connection_aborted
+connection_already_in_progress
+connection_refused
+connection_reset
+const
+const 
+cross device link
+crt block at 0x%p, subtype %x, %Iu bytes long.
+dddd, MMMM dd, yyyy
+destination address required
+destination_address_required
+device or resource busy
+digit
+directory not empty
+double
+e+000
+enum 
+executable format error
+extern "C" 
+f:\dd\vctools\crt\crtw32\convert\wcstoq.c
+f:\dd\vctools\crt\crtw32\lowio\ioinit.c
+f:\dd\vctools\crt\crtw32\lowio\osfinfo.c
+f:\dd\vctools\crt\crtw32\lowio\read.c
+f:\dd\vctools\crt\crtw32\mbstring\mbctype.c
+f:\dd\vctools\crt\crtw32\misc\a_env.c
+f:\dd\vctools\crt\crtw32\misc\dbgrpt.c
+f:\dd\vctools\crt\crtw32\misc\initctyp.c
+f:\dd\vctools\crt\crtw32\misc\inithelp.c
+f:\dd\vctools\crt\crtw32\misc\initmon.c
+f:\dd\vctools\crt\crtw32\misc\initnum.c
+f:\dd\vctools\crt\crtw32\misc\inittime.c
+f:\dd\vctools\crt\crtw32\misc\onexit.c
+f:\dd\vctools\crt\crtw32\misc\winsig.c
+f:\dd\vctools\crt\crtw32\misc\wsetloca.c
+f:\dd\vctools\crt\crtw32\startup\crt0dat.c
+f:\dd\vctools\crt\crtw32\startup\dllcrt0.c
+f:\dd\vctools\crt\crtw32\startup\mlock.c
+f:\dd\vctools\crt\crtw32\startup\stdargv.c
+f:\dd\vctools\crt\crtw32\startup\stdenvp.c
+f:\dd\vctools\crt\crtw32\startup\tidtable.c
+f:\dd\vctools\crt\crtw32\stdio\_file.c
+f:\dd\vctools\crt\crtw32\stdio\_getbuf.c
+f:\dd\vctools\crt\crtw32\stdio\_sftbuf.c
+f:\dd\vctools\crt\crtw32\stdio\input.c
+f:\dd\vctools\crt\crtw32\stdio\output.c
+f:\dd\vctools\crt\crtw32\stdio\setvbuf.c
+f:\dd\vctools\crt\crtw32\stdio\stream.c
+fffff
+fffffff
+file exists
+file too large
+filename too long
+filename_too_long
+float
+floor
+frexp
+function not supported
+g_pSteamClientGameServer
+gameoverlayrenderer64.dll
+generic
+generic-type-
+graph
+host unreachable
+host_unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+interrupted
+invalid argument
+invalid seek
+invalid string position
+invalid_argument
+io error
+iostream
+iostream stream error
+is a directory
+jHcD$H
+kD$0 
+ldexp
+list<T> too long
+log10
+long 
+lower
+map/set<T> too long
+message size
+message_size
+network down
+network reset
+network unreachable
+network_down
+network_reset
+network_unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+no_buffer_space
+no_protocol_option
+normal block at 0x%p, %Iu bytes long.
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+not_a_socket
+not_connected
+oD$ f
+oD$0f
+oD$@f
+oD$Pf
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operation_in_progress
+operation_not_supported
+operation_would_block
+operator
+owner dead
+permission denied
+permission_denied
+print
+private: 
+protected: 
+protocol error
+protocol not supported
+protocol_not_supported
+public: 
+punct
+rOHcD$@H
+rOHcD$DH
+rXHcD$HH
+read only file system
+regex_error
+regex_error(error_backref): The expression contained an invalid back reference.
+regex_error(error_badbrace): The expression contained an invalid range in a { expression }.
+regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
+regex_error(error_brace): The expression contained mismatched { and }.
+regex_error(error_brack): The expression contained mismatched [ and ].
+regex_error(error_collate): The expression contained an invalid collating element name.
+regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
+regex_error(error_ctype): The expression contained an invalid character class name.
+regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
+regex_error(error_paren): The expression contained mismatched ( and ).
+regex_error(error_parse)
+regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
+regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
+regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
+regex_error(error_syntax)
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+s!HcD$P
+s(HcD$ H
+s0HcD$0HcL$0H
+short
+short 
+signed 
+space
+state not recoverable
+static 
+std::nullptr_t
+steam2.dll
+steam://run/%u
+steam://run/%u//%s
+steam_api64.dll
+steam_appid.txt
+steamclient.dll
+steamclient64.dll
+steamconsole64.dll
+steamui.dll
+stream timeout
+string too long
+struct 
+system
+t"HcD$ H
+t$HcD$ H
+t$PH;D$Xs
+t$hH;D$ps
+t&HcD$0H
+t&HcD$@H
+t&HcD$DH
+t)HcD$HH
+t,HcD$@A
+t-HcD$
+t.HcD$ H
+t.HcD$PH
+t3HcD$@H
+t5HcD$0Hk
+t;HcD$ Hk
+tD$@f
+tD$Pf
+tKHcD$ Hk
+tKHcD$0Hk
+tQHcD$0Hk
+tbHcD$ H
+tbHcD$ Hk
+teHcD$0Hk
+template-parameter-
+text file busy
+tgHcD$0Hk
+timed out
+timed_out
+tjHcD$PE3
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+too_many_files_open
+u"HcD$0Hk
+u$HcD$ Hk
+u&HcD$ H
+u9HcD$0Hk
+u<HcD$ H
+uBHcD$DHk
+uBHcD$tHk
+uBHcD$xHk
+uCHcD$@Hk
+uCHcD$xHk
+uCHcD$|Hk
+uD$ f
+uD$0f
+uOHcD$@H
+uUHcD$$Hk
+ufHcD$0Hk
+union 
+unknown error
+unsigned 
+upHcD$@H
+upper
+uvHcD$DH
+value too large
+virtual 
+void 
+volatile
+volatile 
+wOHcD$0H
+wchar_t
+wfHcD$ H
+win64\audio.dll
+wrong protocol type
+wrong_protocol_type
+xdigit
+xppwpp
+xpxxxx
+yHcD$PH
+z?aUY
+zc%C1
+{%ld} 
+{flat}
+{for 
+|$ $w	
+|$ $}THcD$ Hk
+|$ $}nHcD$ Hk
+|$ $}~HcD$ Hk
+|$ )uqH
+|$ 0t
+|$ 2t
+|$ 5t.
+|$ @u&H
+|$ At
+|$ Btz
+|$ MOC
+|$ RCC
+|$ Zt
+|$ csm
+|$ zu
+|$$1t
+|$$3t
+|$$5t	
+|$$7t
+|$$FtD
+|$$Gt
+|$$Ht\
+|$$It/
+|$$Jt
+|$$XtV
+|$$Zt
+|$$_t
+|$,H|/
+|$,J~
+|$00t"
+|$01t~
+|$0@t
+|$0Ata
+|$0Bt,
+|$0Ur
+|$0Xt)
+|$0csm
+|$4	|
+|$4 uA
+|$4+u%
+|$4+u@
+|$4+uF
+|$4-u
+|$4-u'H
+|$4-u_H
+|$48}
+|$4et
+|$8	v
+|$8@sX
+|$8@s[
+|$8d|4
+|$<	v
+|$<@tn
+|$<Et
+|$<Gt
+|$<It
+|$<Kt	
+|$<Mt
+|$@	u
+|$@	~
+|$@@t?H
+|$@A|
+|$@_t
+|$@d}
+|$Dd}
+|$H0t2
+|$Hat@
+|$Hd|IH
+|$Hrt	
+|$Hwt
+|$LFu
+|$Lct
+|$Lct#
+|$Lct]
+|$Lnt
+|$LntA
+|$Lou!
+|$Lou$
+|$Lou*
+|$Lpu8
+|$Lpu;
+|$LpuA
+|$Lst
+|$Lsu
+|$Lxt
+|$Lxt-
+|$L{t
+|$L{u
+|$L{u=H
+|$PArO
+|$PZwH
+|$ParO
+|$PzwH
+|$X@t
+|$\mu
+|$`	u
+|$hAu4H
+|$hEu7H
+|$hat
+|$het
+|$hfu,H
+|$l t8
+|$l#t>
+|$l+t
+|$l-t	
+|$l0t7
+|$pPtSH
+|$t t'
+|$t0t-
+|$t@t3
+|$x:wKHcD$xH
+|$x:wLHcD$xH
+|$| t8
+|$|#t>
+|$|+t
+|$|-t	
+|$|0t7
+|$|:wAHcD$|H
+|$|:wBHcD$|H
+|KHcD$ H
+|LHcD$ H
+} HcD$ HcL$ H
+} HcD$ Hk
+}!HcD$ HcL$ H
+}#HcD$ HcL$ H
+}(HcD$0Hk
+}(HcD$@H
+}bHcD$@H
+~2HcD$ H
+~cHcD$0H

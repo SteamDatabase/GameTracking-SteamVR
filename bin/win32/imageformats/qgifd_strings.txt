@@ -1,0 +1,250 @@
+	?customEvent@QObject@@MAEXPAVQEvent@@@Z
+ 1@1d1
+!This program cannot be run in DOS mode.
+!weakref.load()
+!x->ref.isStatic()
+..\..\..\gui\image\qgifhandler.cpp
+.00cfg
+.?AVQGifHandler@@
+.?AVQGifPlugin@@
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQObject@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.idata
+.text
+0!0)010<0A0G0Q0
+0'141=1E1r1|1
+0Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
+0m1s1
+1!1*111@1
+1,202D2L2P2X2p2|2
+2%2:2@2^2e2k2r2
+2O2u3	4
+3 3&3,32383>3D3J3P3V3\3b3h3n3t3z3
+3%3E3L3
+343L3T3X3`3x3
+393B3J3
+4 4$4(4,4044484<4u4
+4 4$4(4V4[4m4
+4$4,4D4\4`4t4|4
+4898?8C8I8M8S8W8]8g8
+494>4D4:5?5E5~5
+4@8D8H8L8P8T8X8\8`8d8h8l8p8t8
+566;6A6v6{6
+5Genu
+6&7+7=7[7f8
+6-6B6Q6Y6n6
+758\8
+869A9N9V9
+9,959J9l9
+9J0u:j
+:$:D:T:
+:+:X:x:
+:M:V:^:y:
+:|;o<
+;	;$;
+;Bp~O
+;B|t/
+;HX}	
+;Hp~'
+;Hp~W
+< <&<,<2<8<><D<J<P<V<\<b<h<n<t<z<
+<'=N=
+<(=w=
+<T<g<v<
+<Y<t<|<
+<h>l>p>
+= =,=4=@=D=P=d=p=
+=#=\=b=h=n=t=z=
+=1>T>g>
+=[?`?f?
+>->6>
+>->?>
+>d?h?p?
+?!?,?1?7?A?K?`?e?
+?,?A?e?
+?>?K?Q?_?e?z?
+??0QByteArray@@QAE@PBDH@Z
+??0QByteArray@@QAE@XZ
+??0QImage@@QAE@HHW4Format@0@@Z
+??0QImage@@QAE@XZ
+??0QImageIOHandler@@QAE@XZ
+??0QImageIOPlugin@@QAE@PAVQObject@@@Z
+??0QMessageLogger@@QAE@PBDH0@Z
+??0QSize@@QAE@HH@Z
+??0QSize@@QAE@XZ
+??0QString@@QAE@XZ
+??0QVariant@@QAE@$$QAV0@@Z
+??0QVariant@@QAE@ABVQSize@@@Z
+??0QVariant@@QAE@XZ
+??0QVariant@@QAE@_N@Z
+??1QByteArray@@QAE@XZ
+??1QImage@@UAE@XZ
+??1QImageIOHandler@@UAE@XZ
+??1QImageIOPlugin@@UAE@XZ
+??1QString@@QAE@XZ
+??1QVariant@@QAE@XZ
+??4QByteArray@@QAEAAV0@$$QAV0@@Z
+??4QImage@@QAEAAV0@$$QAV0@@Z
+??4QImage@@QAEAAV0@ABV0@@Z
+??YQByteArray@@QAEAAV0@ABV0@@Z
+?allocate@QArrayData@@SAPAU1@IIIV?$QFlags@W4AllocationOption@QArrayData@@@@@Z
+?bits@QImage@@QAEPAEXZ
+?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?constData@QByteArray@@QBEPBDXZ
+?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+?data@QArrayData@@QAEPAXXZ
+?deallocate@QArrayData@@SAXPAU1@II@Z
+?detach@QImage@@QAEXXZ
+?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+?event@QObject@@UAE_NPAVQEvent@@@Z
+?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+?isEmpty@QByteArray@@QBE_NXZ
+?isReadable@QIODevice@@QBE_NXZ
+?peek@QIODevice@@QAE_JPAD_J@Z
+?qstrcmp@@YAHABVQByteArray@@PBD@Z
+?qt_assert@@YAXPBD0H@Z
+?qt_assert_x@@YAXPBD00H@Z
+?qt_check_pointer@@YAXPBDH@Z
+?read@QIODevice@@QAE?AVQByteArray@@_J@Z
+?remove@QByteArray@@QAEAAV1@HH@Z
+?sharedNull@QArrayData@@SAPAU1@XZ
+?size@QByteArray@@QBEHXZ
+?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
+?warning@QMessageLogger@@QBAXPBDZZ
+@.data
+@.qtmetadY
+@.reloc
+@.rsrc
+A0;B8u
+CloseHandle
+CreateEventW
+DeleteCriticalSection
+DisableThreadLibraryCalls
+EnterCriticalSection
+F:\qt5\qtbase\plugins\imageformats\qgifd.pdb
+GIF87a
+GIF89a
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTimeAsFileTime
+InitializeConditionVariable
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J4;HD}
+Jd;HT}
+Jl+Hd
+K?height@QImage@@QBEHXZ
+KERNEL32.dll
+L?isNull@QImage@@QBE_NXZ
+L?jumpToImage@QImageIOHandler@@UAE_NH@Z
+L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
+LeaveCriticalSection
+MetaData
+MimeTypes
+NETSCAPE
+P.tls
+P0;Q8u
+P0;Q8u3
+P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+P\;QT|
+P`;QX}x
+Pl+Qd
+QGifHandler::canRead() called with no device
+QGifPlugin
+QGifPlugin1
+QTMETADATA  qbjs
+QVector<T>::at
+Qt5Cored.dll
+Qt5Guid.dll
+QueryPerformanceCounter
+R?scanLine@QImage@@QAEPAEH@Z
+ResetEvent
+Rich$k
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
+TerminateProcess
+UnhandledExceptionFilter
+Unknown exception
+VCRUNTIME140D.dll
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Z?width@QImage@@QBEHXZ
+_CrtDbgReportW
+_CxxThrowException
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__vcrt_InitializeCriticalSectionEx
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_at_quick_exit
+_crt_atexit
+_except_handler4_common
+_execute_onexit_table
+_free_dbg
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_register_onexit_function
+_seh_filter_dll
+`.rdata
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+asize >= 0 && asize <= aalloc
+bad allocation
+bad array new length
+bool __cdecl QGifHandler::canRead(class QIODevice *)
+className
+d != Data::unsharableEmpty()
+d->alloc >= uint(aalloc)
+d->data()
+d->size == asize
+debug
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+h	?byteCount@QImage@@QBEHXZ
+image/gif
+index out of range
+int(d->alloc) == aalloc
+isDetached()
+j	?bytesPerLine@QImage@@QBEHXZ
+malloc
+memcpy
+memset
+org.qt-project.Qt.QImageIOHandlerFactoryInterface
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qgifd.dll
+qt_plugin_instance
+qt_plugin_query_metadata
+strcmp
+strncmp
+strongref.load() <= 0
+terminate
+ucrtbased.dll
+uint(d->size) <= d->alloc
+version
+x == d
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
+yT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
+zT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z

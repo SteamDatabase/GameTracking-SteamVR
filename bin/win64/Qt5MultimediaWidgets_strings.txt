@@ -1,0 +1,821 @@
+	 ?type@QGraphicsItem@@UEBAHXZ
+	?contains@QByteArray@@QEBA_NPEBD@Z
+	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+	?devType@QWidget@@UEBAHXZ
+           1.0);
+           texture2D(texU, textureCoord.st).r,
+           texture2D(texV, textureCoord.st).r,
+           texture2D(texY, textureCoord.st).r,
+        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+      </requestedPrivileges>
+      <requestedPrivileges>
+    </security>
+    <security>
+    color = colorMatrix * color;
+    gl_FragColor = colorMatrix * color;
+    gl_FragColor = vec4(color.rgb, texture2D(texRgb, textureCoord.st).a);
+    gl_FragColor = vec4(color.rgb, texture2D(texRgb, textureCoord.st).r);
+    highp vec4 color = vec4(
+    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).bgr, 1.0);
+    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).gba, 1.0);
+    highp vec4 color = vec4(texture2D(texRgb, textureCoord.st).rgb, 1.0);
+   gl_Position = positionMatrix * vertexCoordArray;
+   textureCoord = textureCoordArray;
+  </trustInfo>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+ !?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+ A^A]A\_[
+ A_A]A\_]
+ H3E H3E
+!!ARBfp1.0
+!?glGetError@QOpenGLFunctions@@QEAAIXZ
+!?wheelEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneWheelEvent@@@Z
+!This program cannot be run in DOS mode.
+(D$ f
+(T$pD
+(\$`D
+(t$pH
+)T$pD
+)\$`t!H
+)t$PA
++!?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
+.00cfg
+.?AVQAbstractVideoSurface@@
+.?AVQBoxLayout@@
+.?AVQCameraViewfinder@@
+.?AVQGraphicsItem@@
+.?AVQGraphicsObject@@
+.?AVQGraphicsVideoItem@@
+.?AVQLayout@@
+.?AVQLayoutItem@@
+.?AVQMediaBindableInterface@@
+.?AVQMediaControl@@
+.?AVQObject@@
+.?AVQOpenGLFunctions@@
+.?AVQPaintDevice@@
+.?AVQPainterVideoSurface@@
+.?AVQRendererVideoWidgetBackend@@
+.?AVQVBoxLayout@@
+.?AVQVideoSurfaceArbFpPainter@@
+.?AVQVideoSurfaceGLPainter@@
+.?AVQVideoSurfaceGenericPainter@@
+.?AVQVideoSurfaceGlslPainter@@
+.?AVQVideoSurfacePainter@@
+.?AVQVideoWidget@@
+.?AVQVideoWidgetBackend@@
+.?AVQVideoWidgetControl@@
+.?AVQVideoWidgetControlBackend@@
+.?AVQVideoWidgetControlInterface@@
+.?AVQWidget@@
+.?AVQWindowVideoWidgetBackend@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.xdata
+.xdata$x
+0A^_^
+1_q_brightnessChanged(int)
+1_q_contrastChanged(int)
+1_q_dimensionsChanged()
+1_q_fullScreenChanged(bool)
+1_q_hueChanged(int)
+1_q_present()
+1_q_saturationChanged(int)
+1_q_serviceDestroyed()
+1_q_updateNativeSize()
+1formatChanged(QVideoSurfaceFormat)
+1frameChanged()
+1viewportDestroyed()
+2brightnessChanged(int)
+2contrastChanged(int)
+2destroyed()
+2frameChanged()
+2fullScreenChanged(bool)
+2hueChanged(int)
+2nativeSizeChanged()
+2saturationChanged(int)
+2surfaceFormatChanged(QVideoSurfaceFormat)
+8	?convert@QVariant@@QEBA_NHPEAX@Z
+91t H
+91tkH
+9RichZ
+:%?glGetString@QOpenGLFunctions@@QEAAPEBEI@Z
+</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+=?glTexImage2D@QOpenGLFunctions@@QEAAXIHHHHHIIPEBX@Z
+>)?glIsEnabled@QOpenGLFunctions@@QEAAEI@Z
+>?glTexParameteri@QOpenGLFunctions@@QEAAXIIH@Z
+??0QAbstractVideoSurface@@QEAA@PEAVQObject@@@Z
+??0QBrush@@QEAA@AEBV0@@Z
+??0QBrush@@QEAA@W4GlobalColor@Qt@@W4BrushStyle@2@@Z
+??0QByteArray@@QEAA@PEBDH@Z
+??0QByteArray@@QEAA@XZ
+??0QCameraViewfinder@@QEAA@PEAVQWidget@@@Z
+??0QColor@@QEAA@W4GlobalColor@Qt@@@Z
+??0QGLShaderProgram@@QEAA@PEBVQGLContext@@PEAVQObject@@@Z
+??0QGraphicsObject@@QEAA@PEAVQGraphicsItem@@@Z
+??0QGraphicsVideoItem@@QEAA@PEAVQGraphicsItem@@@Z
+??0QImage@@QEAA@PEAEHHHW4Format@0@P6AXPEAX@Z2@Z
+??0QMatrix4x4@@AEAA@H@Z
+??0QMatrix4x4@@QEAA@MMMMMMMMMMMMMMMM@Z
+??0QMatrix4x4@@QEAA@XZ
+??0QMediaControl@@IEAA@PEAVQObject@@@Z
+??0QMessageLogger@@QEAA@PEBDH0@Z
+??0QObject@@QEAA@PEAV0@@Z
+??0QOpenGLFunctions@@QEAA@XZ
+??0QPainter@@QEAA@PEAVQPaintDevice@@@Z
+??0QPalette@@QEAA@AEBV0@@Z
+??0QPixmap@@QEAA@AEBV0@@Z
+??0QPixmap@@QEAA@XZ
+??0QPointF@@QEAA@NN@Z
+??0QRect@@QEAA@HHHH@Z
+??0QRect@@QEAA@XZ
+??0QRectF@@QEAA@AEBVQRect@@@Z
+??0QRectF@@QEAA@NNNN@Z
+??0QRectF@@QEAA@XZ
+??0QRegion@@QEAA@AEBV0@@Z
+??0QRegion@@QEAA@AEBVQRect@@W4RegionType@0@@Z
+??0QSize@@QEAA@XZ
+??0QSizeF@@QEAA@AEBVQSize@@@Z
+??0QSizeF@@QEAA@NN@Z
+??0QSizeF@@QEAA@XZ
+??0QString@@QEAA@VQLatin1String@@@Z
+??0QTransform@@QEAA@AEBV0@@Z
+??0QVBoxLayout@@QEAA@XZ
+??0QVariant@@QEAA@HPEBXI@Z
+??0QVideoFrame@@QEAA@XZ
+??0QVideoSurfaceFormat@@QEAA@AEBV0@@Z
+??0QVideoSurfaceFormat@@QEAA@XZ
+??0QVideoWidget@@IEAA@AEAVQVideoWidgetPrivate@@PEAVQWidget@@@Z
+??0QVideoWidget@@QEAA@PEAVQWidget@@@Z
+??0QVideoWidgetControl@@IEAA@PEAVQObject@@@Z
+??0QWidget@@QEAA@PEAV0@V?$QFlags@W4WindowType@Qt@@@@@Z
+??1Connection@QMetaObject@@QEAA@XZ
+??1QAbstractVideoSurface@@UEAA@XZ
+??1QBrush@@QEAA@XZ
+??1QByteArray@@QEAA@XZ
+??1QCameraViewfinder@@UEAA@XZ
+??1QGLShaderProgram@@UEAA@XZ
+??1QGraphicsObject@@UEAA@XZ
+??1QGraphicsVideoItem@@UEAA@XZ
+??1QImage@@UEAA@XZ
+??1QMediaBindableInterface@@UEAA@XZ
+??1QMediaControl@@UEAA@XZ
+??1QObject@@UEAA@XZ
+??1QOpenGLFunctions@@QEAA@XZ
+??1QPainter@@QEAA@XZ
+??1QPalette@@QEAA@XZ
+??1QPixmap@@UEAA@XZ
+??1QRegion@@QEAA@XZ
+??1QString@@QEAA@XZ
+??1QVBoxLayout@@UEAA@XZ
+??1QVariant@@QEAA@XZ
+??1QVideoFrame@@QEAA@XZ
+??1QVideoSurfaceFormat@@QEAA@XZ
+??1QVideoWidget@@UEAA@XZ
+??1QVideoWidgetControl@@UEAA@XZ
+??1QWidget@@UEAA@XZ
+??4QRegion@@QEAAAEAV0@$$QEAV0@@Z
+??4QVideoFrame@@QEAAAEAV0@AEBV0@@Z
+??RQMatrix4x4@@QEAAAEAMHH@Z
+??_7QCameraViewfinder@@6B@
+??_7QCameraViewfinder@@6BQObject@@@
+??_7QCameraViewfinder@@6BQPaintDevice@@@
+??_7QGraphicsVideoItem@@6B@
+??_7QGraphicsVideoItem@@6BQGraphicsItem@@@
+??_7QGraphicsVideoItem@@6BQObject@@@
+??_7QVideoWidget@@6B@
+??_7QVideoWidget@@6BQObject@@@
+??_7QVideoWidget@@6BQPaintDevice@@@
+??_7QVideoWidgetControl@@6B@
+??_FQCameraViewfinder@@QEAAXXZ
+??_FQGraphicsVideoItem@@QEAAXXZ
+??_FQVideoWidget@@QEAAXXZ
+??_FQVideoWidgetControl@@QEAAXXZ
+?accept@QEvent@@QEAAXXZ
+?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
+?activate@QMetaObject@@SAXPEAVQObject@@PEBU1@HPEAPEAX@Z
+?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
+?addShaderFromSourceCode@QGLShaderProgram@@QEAA_NV?$QFlags@W4ShaderTypeBit@QGLShader@@@@PEBD@Z
+?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?advance@QGraphicsItem@@UEAAXH@Z
+?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
+?append@QByteArray@@QEAAAEAV1@D@Z
+?append@QByteArray@@QEAAAEAV1@PEBD@Z
+?append@QListData@@QEAAPEAPEAXXZ
+?aspectRatioMode@QGraphicsVideoItem@@QEBA?AW4AspectRatioMode@Qt@@XZ
+?aspectRatioMode@QVideoWidget@@QEBA?AW4AspectRatioMode@Qt@@XZ
+?begin@QListData@@QEBAPEAPEAXXZ
+?beginNativePainting@QPainter@@QEAAXXZ
+?bind@QGLShaderProgram@@QEAA_NXZ
+?bits@QVideoFrame@@QEAAPEAEXZ
+?bottom@QRectF@@QEBANXZ
+?boundingRect@QGraphicsVideoItem@@UEBA?AVQRectF@@XZ
+?brightness@QVideoWidget@@QEBAHXZ
+?brightnessChanged@QVideoWidget@@QEAAXH@Z
+?brightnessChanged@QVideoWidgetControl@@QEAAXH@Z
+?bytesPerLine@QVideoFrame@@QEBAHXZ
+?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
+?center@QRect@@QEBA?AVQPoint@@XZ
+?center@QRectF@@QEBA?AVQPointF@@XZ
+?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z
+?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
+?className@QMetaObject@@QEBAPEBDXZ
+?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
+?collidesWithItem@QGraphicsItem@@UEBA_NPEBV1@W4ItemSelectionMode@Qt@@@Z
+?collidesWithPath@QGraphicsItem@@UEBA_NAEBVQPainterPath@@W4ItemSelectionMode@Qt@@@Z
+?connect@QObject@@QEBA?AVConnection@QMetaObject@@PEBV1@PEBD1W4ConnectionType@Qt@@@Z
+?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
+?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?constData@QByteArray@@QEBAPEBDXZ
+?constData@QVariant@@QEBAPEBXXZ
+?contains@QGraphicsItem@@UEBA_NAEBVQPointF@@@Z
+?contextHandle@QGLContext@@QEBAPEAVQOpenGLContext@@XZ
+?contextMenuEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneContextMenuEvent@@@Z
+?contextMenuEvent@QWidget@@MEAAXPEAVQContextMenuEvent@@@Z
+?contrast@QVideoWidget@@QEBAHXZ
+?contrastChanged@QVideoWidget@@QEAAXH@Z
+?contrastChanged@QVideoWidgetControl@@QEAAXH@Z
+?controlTypes@QLayout@@UEBA?AV?$QFlags@W4ControlType@QSizePolicy@@@@XZ
+?count@QBoxLayout@@UEBAHXZ
+?currentContext@QGLContext@@SAPEBV1@XZ
+?currentContext@QOpenGLContext@@SAPEAV1@XZ
+?d_func@QCameraViewfinder@@AEAAPEAVQCameraViewfinderPrivate@@XZ
+?d_func@QCameraViewfinder@@AEBAPEBVQCameraViewfinderPrivate@@XZ
+?d_func@QGraphicsVideoItem@@AEAAPEAVQGraphicsVideoItemPrivate@@XZ
+?d_func@QGraphicsVideoItem@@AEBAPEBVQGraphicsVideoItemPrivate@@XZ
+?d_func@QVideoWidget@@AEAAPEAVQVideoWidgetPrivate@@XZ
+?d_func@QVideoWidget@@AEBAPEBVQVideoWidgetPrivate@@XZ
+?data@QArrayData@@QEAAPEAXXZ
+?deallocate@QArrayData@@SAXPEAU1@_K1@Z
+?detach@QListData@@QEAAPEAUData@1@H@Z
+?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+?deviceTransform@QPainter@@QEBAAEBVQTransform@@XZ
+?disconnect@QObject@@SA_NPEBV1@PEBD01@Z
+?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?dispose@QListData@@SAXPEAUData@1@@Z
+?dragEnterEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
+?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
+?dragLeaveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
+?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
+?dragMoveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
+?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z
+?drawImage@QPainter@@QEAAXAEBVQRectF@@AEBVQImage@@0V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+?drawPixmap@QPainter@@QEAAXAEBVQRectF@@AEBVQPixmap@@0@Z
+?dropEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
+?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z
+?dx@QTransform@@QEBANXZ
+?dy@QTransform@@QEBANXZ
+?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+?enableAttributeArray@QGLShaderProgram@@QEAAXPEBD@Z
+?end@QListData@@QEBAPEAPEAXXZ
+?endNativePainting@QPainter@@QEAAXXZ
+?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+?event@QGraphicsObject@@MEAA_NPEAVQEvent@@@Z
+?event@QObject@@UEAA_NPEAVQEvent@@@Z
+?event@QVideoWidget@@MEAA_NPEAVQEvent@@@Z
+?event@QWidget@@MEAA_NPEAVQEvent@@@Z
+?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+?expandingDirections@QBoxLayout@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
+?extension@QGraphicsItem@@MEBA?AVQVariant@@AEBV2@@Z
+?fillRect@QPainter@@QEAAXAEBVQRect@@AEBVQBrush@@@Z
+?fillRect@QPainter@@QEAAXAEBVQRectF@@AEBVQBrush@@@Z
+?fillRect@QPainter@@QEAAXAEBVQRectF@@W4GlobalColor@Qt@@@Z
+?focusInEvent@QGraphicsItem@@MEAAXPEAVQFocusEvent@@@Z
+?focusInEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
+?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+?focusOutEvent@QGraphicsItem@@MEAAXPEAVQFocusEvent@@@Z
+?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
+?frameSize@QVideoSurfaceFormat@@QEBA?AVQSize@@XZ
+?fullScreenChanged@QVideoWidget@@QEAAX_N@Z
+?fullScreenChanged@QVideoWidgetControl@@QEAAX_N@Z
+?functions@QOpenGLContext@@QEBAPEAVQOpenGLFunctions@@XZ
+?geometry@QLayout@@UEBA?AVQRect@@XZ
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+?getProcAddress@QGLContext@@QEBAP6AXXZAEBVQString@@@Z
+?glBindTexture@QOpenGLFunctions@@QEAAXII@Z
+?glDeleteTextures@QOpenGLFunctions@@QEAAXHPEBI@Z
+?glDisable@QOpenGLFunctions@@QEAAXI@Z
+?glDrawArrays@QOpenGLFunctions@@QEAAXIHH@Z
+?glEnable@QOpenGLFunctions@@QEAAXI@Z
+?glGenTextures@QOpenGLFunctions@@QEAAXHPEAI@Z
+?handle@QVideoFrame@@QEBA?AVQVariant@@XZ
+?handleType@QVideoFrame@@QEBA?AW4HandleType@QAbstractVideoBuffer@@XZ
+?handleType@QVideoSurfaceFormat@@QEBA?AW4HandleType@QAbstractVideoBuffer@@XZ
+?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
+?hasHeightForWidth@QWidget@@UEBA_NXZ
+?hasOpenGLShaderPrograms@QGLShaderProgram@@SA_NPEBVQGLContext@@@Z
+?height@QRect@@QEBAHXZ
+?height@QRectF@@QEBANXZ
+?height@QSize@@QEBAHXZ
+?height@QSizeF@@QEBANXZ
+?heightForWidth@QBoxLayout@@UEBAHH@Z
+?heightForWidth@QWidget@@UEBAHH@Z
+?hideEvent@QVideoWidget@@MEAAXPEAVQHideEvent@@@Z
+?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
+?hoverEnterEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneHoverEvent@@@Z
+?hoverLeaveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneHoverEvent@@@Z
+?hoverMoveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneHoverEvent@@@Z
+?hue@QVideoWidget@@QEBAHXZ
+?hueChanged@QVideoWidget@@QEAAXH@Z
+?hueChanged@QVideoWidgetControl@@QEAAXH@Z
+?imageFormatFromPixelFormat@QVideoFrame@@SA?AW4Format@QImage@@W4PixelFormat@1@@Z
+?indexOf@QLayout@@UEBAHPEAVQWidget@@@Z
+?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
+?inputMethodEvent@QGraphicsItem@@MEAAXPEAVQInputMethodEvent@@@Z
+?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
+?inputMethodQuery@QGraphicsItem@@MEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+?intersects@QRect@@QEBA_NAEBV1@@Z
+?invalidate@QBoxLayout@@UEAAXXZ
+?isActive@QAbstractVideoSurface@@QEBA_NXZ
+?isEmpty@QLayout@@UEBA_NXZ
+?isEmpty@QSize@@QEBA_NXZ
+?isEmpty@QSizeF@@QEBA_NXZ
+?isFullScreen@QWidget@@QEBA_NXZ
+?isObscured@QGraphicsItem@@QEBA_NAEBVQRectF@@@Z
+?isObscuredBy@QGraphicsItem@@UEBA_NPEBV1@@Z
+?isValid@QSizeF@@QEBA_NXZ
+?isValid@QVideoFrame@@QEBA_NXZ
+?isVisible@QWidget@@QEBA_NXZ
+?itemAt@QBoxLayout@@UEBAPEAVQLayoutItem@@H@Z
+?itemChange@QGraphicsItem@@MEAA?AVQVariant@@W4GraphicsItemChange@1@AEBV2@@Z
+?itemChange@QGraphicsVideoItem@@MEAA?AVQVariant@@W4GraphicsItemChange@QGraphicsItem@@AEBV2@@Z
+?keyPressEvent@QGraphicsItem@@MEAAXPEAVQKeyEvent@@@Z
+?keyPressEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
+?keyReleaseEvent@QGraphicsItem@@MEAAXPEAVQKeyEvent@@@Z
+?keyReleaseEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
+?layout@QLayout@@UEAAPEAV1@XZ
+?layout@QWidget@@QEBAPEAVQLayout@@XZ
+?leaveEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+?left@QRectF@@QEBANXZ
+?log@QGLShaderProgram@@QEBA?AVQString@@XZ
+?map@QVideoFrame@@QEAA_NW4MapMode@QAbstractVideoBuffer@@@Z
+?maximumSize@QBoxLayout@@UEBA?AVQSize@@XZ
+?mediaObject@QCameraViewfinder@@UEBAPEAVQMediaObject@@XZ
+?mediaObject@QGraphicsVideoItem@@UEBAPEAVQMediaObject@@XZ
+?mediaObject@QVideoWidget@@UEBAPEAVQMediaObject@@XZ
+?metaObject@QCameraViewfinder@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QGraphicsVideoItem@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QVBoxLayout@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QVideoWidget@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QVideoWidgetControl@@UEBAPEBUQMetaObject@@XZ
+?metric@QWidget@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
+?minimumHeightForWidth@QBoxLayout@@UEBAHH@Z
+?minimumSize@QBoxLayout@@UEBA?AVQSize@@XZ
+?minimumSizeHint@QWidget@@UEBA?AVQSize@@XZ
+?mouseDoubleClickEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
+?mouseDoubleClickEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?mouseMoveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
+?mouseMoveEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?mousePressEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
+?mousePressEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?mouseReleaseEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
+?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?moveCenter@QRect@@QEAAXAEBVQPoint@@@Z
+?moveCenter@QRectF@@QEAAXAEBVQPointF@@@Z
+?moveEvent@QVideoWidget@@MEAAXPEAVQMoveEvent@@@Z
+?moveTo@QRectF@@QEAAXAEBVQPointF@@@Z
+?nativeEvent@QWidget@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z
+?nativeSize@QGraphicsVideoItem@@QEBA?AVQSizeF@@XZ
+?nativeSizeChanged@QGraphicsVideoItem@@QEAAXAEBVQSizeF@@@Z
+?nearestFormat@QAbstractVideoSurface@@UEBA?AVQVideoSurfaceFormat@@AEBV2@@Z
+?normalizedType@QMetaObject@@SA?AVQByteArray@@PEBD@Z
+?offset@QGraphicsVideoItem@@QEBA?AVQPointF@@XZ
+?opaqueArea@QGraphicsItem@@UEBA?AVQPainterPath@@XZ
+?paint@QGraphicsVideoItem@@UEAAXPEAVQPainter@@PEBVQStyleOptionGraphicsItem@@PEAVQWidget@@@Z
+?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
+?paintEvent@QVideoWidget@@MEAAXPEAVQPaintEvent@@@Z
+?palette@QWidget@@QEBAAEBVQPalette@@XZ
+?pixelFormat@QVideoFrame@@QEBA?AW4PixelFormat@1@XZ
+?pixelFormat@QVideoSurfaceFormat@@QEBA?AW4PixelFormat@QVideoFrame@@XZ
+?prepareGeometryChange@QGraphicsItem@@IEAAXXZ
+?qt_metacall@QAbstractVideoSurface@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QCameraViewfinder@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QGraphicsObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QGraphicsVideoItem@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QMediaControl@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QVideoWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QVideoWidgetControl@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QAbstractVideoSurface@@UEAAPEAXPEBD@Z
+?qt_metacast@QCameraViewfinder@@UEAAPEAXPEBD@Z
+?qt_metacast@QGraphicsObject@@UEAAPEAXPEBD@Z
+?qt_metacast@QGraphicsVideoItem@@UEAAPEAXPEBD@Z
+?qt_metacast@QMediaControl@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
+?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
+?qt_metacast@QVideoWidget@@UEAAPEAXPEBD@Z
+?qt_metacast@QVideoWidgetControl@@UEAAPEAXPEBD@Z
+?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
+?qt_static_metacall@QCameraViewfinder@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
+?qt_static_metacall@QGraphicsVideoItem@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
+?qt_static_metacall@QVideoWidget@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
+?qt_static_metacall@QVideoWidgetControl@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
+?rect@QWidget@@QEBA?AVQRect@@XZ
+?redirected@QWidget@@MEBAPEAVQPaintDevice@@PEAVQPoint@@@Z
+?registerNormalizedType@QMetaType@@SAHAEBVQByteArray@@P6AXPEAX@ZP6APEAX1PEBX@ZHV?$QFlags@W4TypeFlag@QMetaType@@@@PEBUQMetaObject@@@Z
+?release@QGLShaderProgram@@QEAAXXZ
+?removeAllShaders@QGLShaderProgram@@QEAAXXZ
+?reserve@QByteArray@@QEAAXH@Z
+?resizeEvent@QVideoWidget@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
+?right@QRectF@@QEBANXZ
+?saturation@QVideoWidget@@QEBAHXZ
+?saturationChanged@QVideoWidget@@QEAAXH@Z
+?saturationChanged@QVideoWidgetControl@@QEAAXH@Z
+?scale@QSize@@QEAAXAEBV1@W4AspectRatioMode@Qt@@@Z
+?scale@QSizeF@@QEAAXAEBV1@W4AspectRatioMode@Qt@@@Z
+?scanLineDirection@QVideoSurfaceFormat@@QEBA?AW4Direction@1@XZ
+?sceneEvent@QGraphicsItem@@MEAA_NPEAVQEvent@@@Z
+?sceneEventFilter@QGraphicsItem@@MEAA_NPEAV1@PEAVQEvent@@@Z
+?setAspectRatioMode@QGraphicsVideoItem@@QEAAXW4AspectRatioMode@Qt@@@Z
+?setAspectRatioMode@QVideoWidget@@QEAAXW4AspectRatioMode@Qt@@@Z
+?setAttributeArray@QGLShaderProgram@@QEAAXPEBDPEBMHH@Z
+?setBrightness@QVideoWidget@@QEAAXH@Z
+?setContrast@QVideoWidget@@QEAAXH@Z
+?setError@QAbstractVideoSurface@@IEAAXW4Error@1@@Z
+?setExtension@QGraphicsItem@@MEAAXW4Extension@1@AEBVQVariant@@@Z
+?setFullScreen@QVideoWidget@@QEAAX_N@Z
+?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
+?setHue@QVideoWidget@@QEAAXH@Z
+?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z
+?setMargin@QLayout@@QEAAXH@Z
+?setMediaObject@QCameraViewfinder@@MEAA_NPEAVQMediaObject@@@Z
+?setMediaObject@QGraphicsVideoItem@@MEAA_NPEAVQMediaObject@@@Z
+?setMediaObject@QVideoWidget@@MEAA_NPEAVQMediaObject@@@Z
+?setOffset@QGraphicsVideoItem@@QEAAXAEBVQPointF@@@Z
+?setPalette@QWidget@@QEAAXAEBVQPalette@@@Z
+?setParent@QWidget@@QEAAXPEAV1@@Z
+?setProperty@QObject@@QEAA_NPEBDAEBVQVariant@@@Z
+?setSaturation@QVideoWidget@@QEAAXH@Z
+?setSize@QGraphicsVideoItem@@QEAAXAEBVQSizeF@@@Z
+?setSize@QRectF@@QEAAXAEBVQSizeF@@@Z
+?setSpacing@QBoxLayout@@QEAAXH@Z
+?setUniformValue@QGLShaderProgram@@QEAAXPEBDAEBVQMatrix4x4@@@Z
+?setUniformValue@QGLShaderProgram@@QEAAXPEBDH@Z
+?setUniformValue@QGLShaderProgram@@QEAAXPEBDQEAY03$$CBM@Z
+?setVisible@QWidget@@UEAAX_N@Z
+?setWindowFlags@QWidget@@QEAAXV?$QFlags@W4WindowType@Qt@@@@@Z
+?shape@QGraphicsItem@@UEBA?AVQPainterPath@@XZ
+?sharedNull@QArrayData@@SAPEAU1@XZ
+?sharedPainter@QWidget@@MEBAPEAVQPainter@@XZ
+?shared_null@QListData@@2UData@1@B
+?showEvent@QVideoWidget@@MEAAXPEAVQShowEvent@@@Z
+?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
+?showFullScreen@QWidget@@QEAAXXZ
+?showNormal@QWidget@@QEAAXXZ
+?size@QGraphicsVideoItem@@QEBA?AVQSizeF@@XZ
+?size@QRect@@QEBA?AVQSize@@XZ
+?size@QRectF@@QEBA?AVQSizeF@@XZ
+?size@QVideoFrame@@QEBA?AVQSize@@XZ
+?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ
+?sizeHint@QVideoSurfaceFormat@@QEBA?AVQSize@@XZ
+?sizeHint@QVideoWidget@@UEBA?AVQSize@@XZ
+?sizeHint@QWidget@@UEBA?AVQSize@@XZ
+?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
+?start@QAbstractVideoSurface@@UEAA_NAEBVQVideoSurfaceFormat@@@Z
+?staticMetaObject@QAbstractVideoSurface@@2UQMetaObject@@B
+?staticMetaObject@QCameraViewfinder@@2UQMetaObject@@B
+?staticMetaObject@QGraphicsObject@@2UQMetaObject@@B
+?staticMetaObject@QGraphicsVideoItem@@2UQMetaObject@@B
+?staticMetaObject@QMediaControl@@2UQMetaObject@@B
+?staticMetaObject@QMediaObject@@2UQMetaObject@@B
+?staticMetaObject@QObject@@2UQMetaObject@@B
+?staticMetaObject@QVideoRendererControl@@2UQMetaObject@@B
+?staticMetaObject@QVideoWidget@@2UQMetaObject@@B
+?staticMetaObject@QVideoWidgetControl@@2UQMetaObject@@B
+?staticMetaObject@QVideoWindowControl@@2UQMetaObject@@B
+?staticMetaObject@QWidget@@2UQMetaObject@@B
+?stop@QAbstractVideoSurface@@UEAAXXZ
+?supportedFormatsChanged@QAbstractVideoSurface@@QEAAXXZ
+?supportsExtension@QGraphicsItem@@MEBA_NW4Extension@1@@Z
+?surfaceFormat@QAbstractVideoSurface@@QEBA?AVQVideoSurfaceFormat@@XZ
+?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
+?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z
+?testAttribute@QWidget@@QEBA_NW4WidgetAttribute@Qt@@@Z
+?timerEvent@QGraphicsVideoItem@@MEAAXPEAVQTimerEvent@@@Z
+?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?toInt@QVariant@@QEBAHPEA_N@Z
+?toLocal8Bit@QString@@QEHAA?AVQByteArray@@XZ
+?top@QRectF@@QEBANXZ
+?topLeft@QRectF@@QEBA?AVQPointF@@XZ
+?tr@QCameraViewfinder@@SA?AVQString@@PEBD0H@Z
+?tr@QGraphicsVideoItem@@SA?AVQString@@PEBD0H@Z
+?tr@QMetaObject@@QEBA?AVQString@@PEBD0H@Z
+?tr@QVideoWidget@@SA?AVQString@@PEBD0H@Z
+?tr@QVideoWidgetControl@@SA?AVQString@@PEBD0H@Z
+?trUtf8@QCameraViewfinder@@SA?AVQString@@PEBD0H@Z
+?trUtf8@QGraphicsVideoItem@@SA?AVQString@@PEBD0H@Z
+?trUtf8@QVideoWidget@@SA?AVQString@@PEBD0H@Z
+?trUtf8@QVideoWidgetControl@@SA?AVQString@@PEBD0H@Z
+?type@QEvent@@QEBA?AW4Type@1@XZ
+?unmap@QVideoFrame@@QEAAXXZ
+?userType@QVariant@@QEBAHXZ
+?viewport@QVideoSurfaceFormat@@QEBA?AVQRect@@XZ
+?warning@QMessageLogger@@QEBAXPEBDZZ
+?width@QRect@@QEBAHXZ
+?width@QRectF@@QEBANXZ
+?width@QSize@@QEBAHXZ
+?width@QSizeF@@QEBANXZ
+?x@QRect@@QEBAHXZ
+?x@QRectF@@QEBANXZ
+?y@QRect@@QEBAHXZ
+?y@QRectF@@QEBANXZ
+?yCbCrColorSpace@QVideoSurfaceFormat@@QEBA?AW4YCbCrColorSpace@1@XZ
+@.data
+@.reloc
+@.rsrc
+@A_A^_^[
+@SAVAWH
+@SUAVH
+@SUVWATAVAWH
+@SUWAVAWH
+@SVWH
+@SWATAUAVH
+@UATAUAVAWH
+@USVATAUAWH
+@USWAVH
+@USWH
+@UVWH
+@UWATAUAWH
+@VATH
+@X?subtracted@QRegion@@QEBA?AV1@AEBV1@@Z
+ARB_fragment_program
+ARB_shader_objects
+A_A]A\^[]
+A_A^A\_^][
+A_A^A]A\]
+A_A^_][
+A_A^_^]
+AuthD
+D$(E3
+D9@Ht7D
+D9@Lt7D
+D9@Pt7D
+D:\qt5\qtmultimedia\lib\Qt5MultimediaWidgets.pdb
+DP4 result.color.x, argb.zyxw, matrix[0];
+DP4 result.color.x, ayuv.yzwx, matrix[0];
+DP4 result.color.x, rgb, matrix[0];
+DP4 result.color.x, xrgb.zyxw, matrix[0];
+DP4 result.color.x, yuv, matrix[0];
+DP4 result.color.y, argb.zyxw, matrix[1];
+DP4 result.color.y, ayuv.yzwx, matrix[1];
+DP4 result.color.y, rgb, matrix[1];
+DP4 result.color.y, xrgb.zyxw, matrix[1];
+DP4 result.color.y, yuv, matrix[1];
+DP4 result.color.z, argb.zyxw, matrix[2];
+DP4 result.color.z, ayuv.yzwx, matrix[2];
+DP4 result.color.z, rgb, matrix[2];
+DP4 result.color.z, xrgb.zyxw, matrix[2];
+DP4 result.color.z, yuv, matrix[2];
+DisableThreadLibraryCalls
+E!?winId@QWidget@@QEBA_KXZ
+GLContext
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+H!?window@QWidget@@QEBAPEAV1@XZ
+H9Q8tJH
+HcD$PH
+HcL$PH
+HcT$P
+Hc\$PL
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J ?update@QGraphicsItem@@QEAAXAEBVQRectF@@@Z
+K!?windowFlags@QWidget@@QEBA?AV?$QFlags@W4WindowType@Qt@@@@XZ
+KERNEL32.dll
+L$@H3
+L$hE3
+L$pH3
+L?isOpenGLES@QOpenGLContext@@QEBA_NXZ
+M H1E
+M?m11@QTransform@@QEBANXZ
+M?m12@QTransform@@QEBANXZ
+M?m13@QTransform@@QEBANXZ
+M?m21@QTransform@@QEBANXZ
+M?m22@QTransform@@QEBANXZ
+M?m23@QTransform@@QEBANXZ
+M?m33@QTransform@@QEBANXZ
+MOV argb.w, matrix[3].w;
+MOV ayuv.x, matrix[3].w;
+MOV rgb.w, matrix[3].w;
+MOV xrgb.w, matrix[3].w;
+MOV yuv.w, matrix[3].w;
+O?paintEngine@QPainter@@QEBAPEAVQPaintEngine@@XZ
+OO?openGLModuleType@QOpenGLContext@@SA?AW4OpenGLModuleType@1@XZ
+OPENGL32.dll
+P ?update@QWidget@@QEAAXAEBVQRect@@@Z
+PARAM matrix[4] = { program.local[0..2],{ 0.0, 0.0, 0.0, 1.0 } };
+PA^][
+Q?rect@QPaintEvent@@QEBAAEBVQRect@@XZ
+Q?rects@QRegion@@QEBA?AV?$QVector@VQRect@@@@XZ
+QCameraViewfinder
+QGraphicsVideoItem
+QMediaBindableInterface
+QMediaObject*
+QPainterVideoSurface
+QPainterVideoSurface: ARBfb Shader allocation error %x
+QPainterVideoSurface: ARBfp Shader compile error %x, %s
+QPainterVideoSurface: Shader compile error %s
+QPainterVideoSurface: Shader link error %s
+QPainterVideoSurface: Vertex shader compile error %s
+QRendererVideoWidgetBackend
+QVideoSurfaceFormat
+QVideoWidget
+QVideoWidgetBackend
+QVideoWidgetControl
+QVideoWidgetControlBackend
+QVideoWidgetControlInterface
+QWindowVideoWidgetBackend
+Qt5Core.dll
+Qt5Gui.dll
+Qt5Multimedia.dll
+Qt5MultimediaWidgets.dll
+Qt5OpenGL.dll
+Qt5Widgets.dll
+Qt::AspectRatioMode
+QueryPerformanceCounter
+R?region@QPaintEvent@@QEBAAEBVQRegion@@XZ
+R?scale@QPainter@@QEAAXNN@Z
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S ?update@QWidget@@QEAAXXZ
+S?setColor@QPalette@@QEAAXW4ColorRole@1@AEBVQColor@@@Z
+SVWAVAWH
+SetUnhandledExceptionFilter
+T>?glTexParameterf@QOpenGLFunctions@@QEAAXIIM@Z
+TEMP argb;
+TEMP ayuv;
+TEMP rgb;
+TEMP xrgb;
+TEMP yuv;
+TEX argb, fragment.texcoord[0], texture[0], 2D;
+TEX ayuv, fragment.texcoord[0], texture[0], 2D;
+TEX result.color.w, fragment.texcoord[0], texture, 2D;
+TEX rgb, fragment.texcoord[0], texture[0], 2D;
+TEX xrgb.xyz, fragment.texcoord[0], texture[0], 2D;
+TEX yuv.x, fragment.texcoord[0], texture[0], 2D;
+TEX yuv.y, fragment.texcoord[0], texture[1], 2D;
+TEX yuv.z, fragment.texcoord[0], texture[2], 2D;
+TerminateProcess
+UVWAVAWH
+UnhandledExceptionFilter
+Unknown exception
+VCRUNTIME140.dll
+VWAVH
+Y?transform@QPainter@@QEBAAEBVQTransform@@XZ
+Z!?windowState@QWidget@@QEBA?AV?$QFlags@W4WindowState@Qt@@@@XZ
+Z?translate@QPainter@@QEAAXNN@Z
+[?window@QPalette@@QEBAAEBVQBrush@@XZ
+\$ UH
+\$ WH
+^V?setTransform@QPainter@@QEAAXAEBVQTransform@@_N@Z
+^X?surface@QOpenGLContext@@QEBAPEAVQSurface@@XZ
+_CxxThrowException
+__C_specific_handler
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+_callnewh
+_cexit
+_configure_narrow_argv
+_execute_onexit_table
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_purecall
+_q_brightnessChanged
+_q_contrastChanged
+_q_dimensionsChanged
+_q_fullScreenChanged
+_q_hueChanged
+_q_present
+_q_saturationChanged
+_q_serviceDestroyed
+_q_updateNativeSize
+_seh_filter_dll
+` D9@Tt7D
+`.rdata
+`A_A^[
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+aspectRatioMode
+attribute highp vec2 textureCoordArray;
+attribute highp vec4 vertexCoordArray;
+bad allocation
+bad array new length
+brightness
+brightnessChanged
+colorMatrix
+contrast
+contrastChanged
+ffffff
+format
+formatChanged
+frameChanged
+fullScreen
+fullScreenChanged
+glActiveTexture
+glBindProgramARB
+glDeleteProgramsARB
+glDisableClientState
+glEnableClientState
+glGenProgramsARB
+glProgramLocalParameter4fARB
+glProgramStringARB
+glTexCoordPointer
+glVertexPointer
+hueChanged
+l$ VH
+l$ VWAVH
+l$PD;y
+malloc
+mediaObject
+memcpy
+memset
+nativeSize
+nativeSizeChanged
+ntelD
+offset
+org.qt-project.qt.mediabindable/5.0
+org.qt-project.qt.videorenderercontrol/5.0
+org.qt-project.qt.videowidgetcontrol/5.0
+org.qt-project.qt.videowindowcontrol/5.0
+p UWAVH
+positionMatrix
+q ?updateGeometry@QWidget@@QEAAXXZ
+sK?initializeOpenGLFunctions@QOpenGLFunctions@@QEAAXXZ
+saturation
+saturationChanged
+setAspectRatioMode
+setBrightness
+setContrast
+setFullScreen
+setHue
+setSaturation
+strcmp
+t$XH;
+texRgb
+textureCoordArray
+tfD8w4u
+uQ9C t
+uniform highp mat4 positionMatrix;
+uniform mediump mat4 colorMatrix;
+uniform sampler2D texRgb;
+uniform sampler2D texU;
+uniform sampler2D texV;
+uniform sampler2D texY;
+varying highp vec2 textureCoord;
+vertexCoordArray
+viewportDestroyed
+void main(void)
+xA^_[]
+|$ AVH
+|$ UH
+|$`Mc
+|$pE3
+|$xL9w(t(H

@@ -1,0 +1,1824 @@
+	%	:	O	d	y	
+	?color@QImage@@QBEIH@Z
+	?customEvent@QObject@@MAEXPAVQEvent@@@Z
+         cblk %5d %5d %5d %5d
+        %3d %3d %3d %3d %3d %3d %3d %3d
+        %4u %4u %4u %4u %4u %4u %4u %4u
+        prc %5d %5d %5d %5d (%5d %5d)
+      band %5d %5d %5d %5d
+    Component %d: %dhx%dv q=%d
+    Component %d: dc=%d ac=%d
+    rlvl %5d %5d %5d %5d
+    with %d x %d thumbnail image
+  Pj^
+  Pjh
+  Pjt
+  Ss=%d, Se=%d, Ah=%d, Al=%d
+  tcmpt %5d %5d %5d %5d
+ %02x
+ %s %s %d %ld %ld
+ )\$()l$,
+ ;j8|
+ ;z8|
+ A l 
+ ZYXt
+ _^]3
+ _^][
+ baLt
+ data=%s
+ len = %d;
+ rate=%1
+!H!u!
+!This program cannot be run in DOS mode.
+!acsp
+"'"U"
+#8#f#
+$M$|$
+$SUVWh
+$VSh@
+$VWh@
+$lumi
+$tech
+%	%8%h%
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%02x 
+%04x:
+%ld%c
+%lu %lu
+%s%ld
+&'&W&
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+'I'z'
+(%f, %f, %f)
+(0,000H0L0P0d0h0l0
+(?(q(
+(SUVW
+(_^]3
+)070?0X0
+)8)k)
+)D$ ff
+)L$(+
+)L$0i
+)T$ )t$
+)T$,)\$()t$
+)\$<)T$
+)l$$)|$,
+)l$$+
+*5*h*
+*iT$$
++6+i+
++D$(+
++D$(i
++D$,P
++D$8+D$<
++D$@i
++D$H+
++L$ +
++L$$9D$$
++L$$i
++L$L_
++l$,E
++t$$+
++t$(+
++t$8+
++t$L+
++t$Pi
++wtpt
++|$ +
++|$$3
++|$@+|$ 
+,0)t$0
+,9,n,
+,=rdhitz=c2pjt
+,L$$;
+,Reference Viewing Condition in IEC61966-2.1
+,Restricted ICC profile describing sRGB-grey
+-A-v-
+-HP  
+-JPEG
+-Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
+.00cfg
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQJp2Handler@@
+.?AVQJp2Plugin@@
+.?AVQObject@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.IEC 61966-2.1 Default RGB colour space - sRGB
+.^]_[
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.qtmetadP
+.qtmetadata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$sxdata
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata$x
+/$/Z/
+/TF<)VGy#WH
+/Y(s.
+0	1L1R1c1q1
+0 0$0(080<0@0D0L0P0T0X0\0`0h0l0p0t0x0|0
+0 000@0D0H0
+0!0,040<0d0
+0$040D0M0
+00B0\0r0
+024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+030B0y0
+040T0t0
+050l0
+0@1 2
+0C0J0Q0
+0H1L1P1T1l1p1
+0S2z2
+0SUVW3
+0T1X1\1`1d1h1
+0a0p0
+0v0{0
+1!2E2q2
+1"2:2G2
+1$1(1,101M1a1k1
+1$1)1M1f1y1
+1*252
+1+1J1i1<2T3X3\3`3d3h3l3p3t3x3|3
+1,1H1d1
+1.900.1
+141t1
+182O2e2
+1=1L1
+1A1X1o1
+1F1V1
+1G3G4
+1N2[2p2
+1]2o2
+1l1p1t1x1|1
+2"2.2@2V2
+2$2(2,20242<2D2H2L2T2X2\2`2d2l2p2t2x2|2
+2$2)232;2L2R2W2\2f2n2}2
+2&2+2@2F2K2V2e2o2}2
+2&295@5G5N5U5\5c5j5q5x5
+2&4q7
+2*2c2
+2+333?3J3F4w4
+2,202H2X2\2`2h2
+2-2F2
+2.3X3
+20a0{275Q5a5m7^8
+244{5
+2;q8~
+2C2u2
+2^3~3
+2_4o4
+2d9??
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3 4,4D4P4\4d4l4t4
+3 404Q4V4o4t4
+3"3'3,363>3O3U3Z3_3i3q3
+3"3(3.343>3H3S3]3b3
+3$5o8w;
+3$7(7H7h7
+3%4:4s4
+3'4S4{4
+3(383<3L3P3T3\3t3
+3,34383<3D3H3L3P3T3\3`3d3h3l3x3
+30373J3g3
+334E4_4
+334`4l4
+35M5t5
+3D$$9B
+3D$49C
+3J3v3I4N5
+3N:j:t:~:
+3R:l:
+3T3`3{3
+3a4n4{4
+3desc
+3v4}4
+4 4$4(4
+4"424U4\4b4s4
+4$5H5Q5]5i5w5
+4'5T:Y:`:e:a;f;A<H<y<
+4(4S4
+4(5H5
+4)5.5
+4+4e4
+486>6K6g6|6
+4;_ r
+4;k r
+4;n r
+4;{ |
+4;} r
+4B;V0|
+4SVW3
+4n9N<
+5!5(5.545:5@5F5L5R5X5^5d5j5p5v5
+5"595D5d5o5{5
+5$5,545<5D5L5T5d5l5t5|5
+5%525?5c5p5}5
+545r5
+555C5z5
+5;5R5W5
+5>6q6
+5B6L6k6
+5E5|5
+5F5|5
+5O6V6~6
+5R5g5l5p5t5x5|5
+5ineI
+5ntel
+6	6L6T6`6k6;7C7
+6 6$60646@6D6P6T6`6d6p6t6
+6 7,7<7)8>8n8z8
+6"727L7z8
+6#6%7+7C7[7s7
+6#6:6N6
+6$7.787
+606=6J6n6{6
+627L7
+676r6
+6H7y7
+7 7$70747@7D7P7T7`7d7p7t7
+7$7`7
+7)7O7f7
+738^8
+748R8p8
+787M7
+7A7I7Q7\7f7p7
+7v8~8
+8 8$80848@8D8P8T8`8d8p8t8
+8$9,9E9u9
+8$9{9~;
+8%8,8W8x8
+8'8;8b8
+8'8=8T8i8p8v8
+8'8Q8]8{8
+8)|$,
+8+|$$
+8;_,|
+8D?K?
+8VIv"
+8\$Pt
+8c  16-Jan-2011
+8d9p9
+8j9/<E<v<
+8t:y:
+9 9$90949@9D9P9T9`9d9p9t9
+9!:):;:G:S:Y:_:
+9&:R:Y:h:
+9(9R9
+9(:[:
+9+:X:
+9-9G9Y9
+9.9{9
+90t'A
+93~4W3
+97~(f
+97~)S
+9:~-3
+9;;K<
+9=:F:N:
+9D$$u5;
+9D$$~<
+9D$(t
+9D$@t
+9D$Lu$
+9D$Xs'
+9D$XuZ
+9D$\tg
+9E<}J
+9F<}2
+9F<}6
+9F<}7
+9F<};
+9F<}<
+9F<}=
+9F<}?
+9F<}@
+9F<}E
+9F<}J
+9F<}S
+9F<}X
+9F<}d
+9F<}f
+9F<}k
+9F<}m
+9F<}s
+9F<}t
+9F<}~
+9GL}p
+9H<}J
+9H<}g
+9H<}p
+9KL~X
+9KL~j
+9L$Lt,
+9N$~!
+9N<}6
+9N<}>
+9N<}A
+9N<}D
+9N<}M
+9N<}V
+9N<}Z
+9N<}t
+9N<}x
+9N<}z
+9N<}|
+9NL~N3
+9Nh|	P
+9O v8
+9P$u+9P|u&9
+9P<}5
+9SL~`
+9V0~!
+9W<}Q
+9Xh~mUW
+9\$ ~`
+9],~jWf
+9^ ~H
+9^$~V
+9^$~]
+9^0~;
+9^0~U
+9^L~\
+9_ u	
+9j8~d
+9k<~]
+9n vl
+9n$~;S
+9n$~e
+9n0~M
+9n0~N
+9nL~_
+9o0~[V
+9oL~O
+9s$~ Wf
+9s8~K
+9w ~Z
+9{ ~Z
+9{X~b
+9{X~r
+9|$(~.
+9|$L~Jf
+9|$T~&f
+9}$~8
+9}$~t
+9~0~$f
+9~L~#
+: :$:0:4:@:D:P:T:`:d:p:t:
+:%:8:d:
+:&:g:
+:):S:
+:0\0l0
+:6:t:
+:8:B:
+:::Z:t:
+:B:J:Z:b:r:z:
+:I;Q;];h;D<L<
+:Q;'<
+:T;[;
+:X<_<
+:i|$,
+:i|$D
+:x<|<
+; ;$;0;4;@;D;P;T;`;d;p;t;
+;!;';-;3;9;?;E;K;Q;W;];c;i;o;u;{;
+;$;.;8;Y;c;m;w;
+;%;V;o;
+;';/;<;@;D;H;L;P;T;X;\;`;d;v;
+;-;W;
+;-;k;
+;0;L;r>
+;;<Q<
+;;u(3
+;=;`<
+;B?\?
+;C uc3
+;D$$u
+;D$,u
+;D$,|
+;D$8}
+;D$Hr
+;FL|8
+;FL}?
+;F`s?
+;J<q<}<
+;\$ |
+;\$@r
+;\$Hr
+;l>z>
+;t$ |
+;t$<|
+;y;E<M<U<
+;|$ ~
+;|$(|
+< <$<(<,<0<4<8<<<@<D<H<*?1?
+<#<M<4>
+<%</<9<C<M<
+<'<e<
+<-<7<A<K<s<}<
+<.<S<
+<4>?>x>
+<SUVW
+<o=w=
+=!=4=9=R=^=
+="=a=
+=&=,=<=C=P=Z=d=n=x=
+=0=J=_=
+=0d0s0
+=8=k=
+=;>Z>p>
+=V>h>
+=YARGt"= BGRt
+=Z=c=o=
+=pamcuO
+=rbCY
+=rbCYt
+=rlcpu
+=rlocwCt6=ccpbt$=fedct
+=z=}>
+> >`>
+>%?.?>?G?R?Y?y?
+>-?y?
+>/>?>O>
+>1?e?
+>3?D?_?l?
+>=?E?Q?\?
+>d?h?
+?!?a?
+?$?(?4?T?d?h?t?
+?0?C?L?
+??0QByteArray@@QAE@PBDH@Z
+??0QByteArray@@QAE@XZ
+??0QChar@@QAE@UQLatin1Char@@@Z
+??0QImage@@QAE@HHW4Format@0@@Z
+??0QImage@@QAE@XZ
+??0QImageIOHandler@@QAE@XZ
+??0QImageIOPlugin@@QAE@PAVQObject@@@Z
+??0QMessageLogger@@QAE@PBDH0@Z
+??0QString@@QAE@ABV0@@Z
+??0QString@@QAE@VQLatin1String@@@Z
+??0QString@@QAE@XZ
+??0QVariant@@QAE@ABVQByteArray@@@Z
+??0QVariant@@QAE@H@Z
+??0QVariant@@QAE@XZ
+??1QByteArray@@QAE@XZ
+??1QImage@@UAE@XZ
+??1QImageIOHandler@@UAE@XZ
+??1QImageIOPlugin@@UAE@XZ
+??1QString@@QAE@XZ
+??4QByteArray@@QAEAAV0@$$QAV0@@Z
+??4QByteArray@@QAEAAV0@ABV0@@Z
+??4QImage@@QAEAAV0@$$QAV0@@Z
+??4QImage@@QAEAAV0@ABV0@@Z
+??4QString@@QAEAAV0@VQLatin1String@@@Z
+?allGray@QImage@@QBE_NXZ
+?append@QString@@QAEAAV1@ABV1@@Z
+?append@QString@@QAEAAV1@VQLatin1String@@@Z
+?arg@QString@@QBE?AV1@NHDHVQChar@@@Z
+?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?constData@QByteArray@@QBEPBDXZ
+?currentImageNumber@QImageIOHandler@@UBEHXZ
+?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+?data@QByteArray@@QAEPADXZ
+?debug@QMessageLogger@@QBAXPBDZZ
+?depth@QImage@@QBEHXZ
+?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+?event@QObject@@UAE_NPAVQEvent@@@Z
+?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+?isOpen@QIODevice@@QBE_NXZ
+?isReadable@QIODevice@@QBE_NXZ
+?isWritable@QIODevice@@QBE_NXZ
+?peek@QIODevice@@QAE?AVQByteArray@@_J@Z
+?qstrcmp@@YAHABVQByteArray@@PBD@Z
+?qstrdup@@YAPADPBD@Z
+?readAll@QIODevice@@QAE?AVQByteArray@@XZ
+?startsWith@QByteArray@@QBE_NABV1@@Z
+?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
+?toByteArray@QVariant@@QBE?AVQByteArray@@XZ
+?toInt@QVariant@@QBEHPA_N@Z
+?toLatin1@QString@@QGBE?AVQByteArray@@XZ
+?toLocal8Bit@QString@@QHAE?AVQByteArray@@XZ
+?u='@
+?write@QIODevice@@QAE_JPBD_J@Z
+?{r}+G
+@ iT$
+@#@d@
+@.data
+@.reloc
+A _^[
+A iD$
+A iD$0
+A!;I2
+A)AjA
+A;N(|
+A<PhP
+A@iL$0
+A@iL$<
+ALIGN_TYPE is wrong, please fix
+A`iD$(<O
+Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+Af;N0r
+Ahd=<c]^7if1Rjg
+Application transferred too few scanlines
+Application transferred too many scanlines
+Arithmetic table 0x%02x was not defined
+At marker 0x%02x, recovery action %d
+B iD$
+B$iD$
+B$iD$$Tb
+B(iD$
+B(iD$$Tb
+B,iD$
+B,iD$$Tb
+B09Z,
+B0BrB
+B0iD$
+B0iD$$Tb
+B4iD$
+B4iD$$Tb
+B8iD$
+B8iD$$Tb
+B<iD$
+B<iD$$Tb
+BAND %d
+BG;|$
+BKbhTb~XBK!;
+B`iD$
+B`iD$,
+Backing store not supported
+BdiD$
+BdiD$,
+BhiD$
+BhiD$,
+BliD$
+BliD$,
+Bogus DAC index %d
+Bogus DAC value 0x%x
+Bogus DHT index %d
+Bogus DQT index %d
+Bogus Huffman table definition
+Bogus JPEG colorspace
+Bogus buffer control mode
+Bogus input colorspace
+Bogus marker length
+Bogus message code %d
+Bogus sampling factors
+Bogus virtual array access
+BpiD$
+BtiD$
+BtiD$,
+Buffer passed to JPEG library is too small
+BxiD$
+BxiD$,
+B|iD$
+B|iD$,
+C iD$
+C iD$0
+C$VW3
+C:C}C
+C;\$$|
+C;^0|
+CCIR601 sampling not implemented yet
+CD$ ;L$
+CH_^][
+CODE BLOCK %d
+CODE BLOCK GROUP %d
+CRT curv
+CX_^]
+C`iD$
+Cannot quantize more than %d color components
+Cannot quantize to fewer than %d colors
+Cannot quantize to more than %d colors
+Cannot transcode due to multiple use of quantization table %d
+Caution: quantization tables are too coarse for baseline JPEG
+CloseHandle
+Closed temporary file %s
+Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
+Copyright (C) 2011, Thomas G. Lane, Guido Vollbeding
+Copyright (c) 1998 Hewlett-Packard Company
+Copyright 2003 sRGB-grey Reference
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Corrupt JPEG data: bad Huffman code
+Corrupt JPEG data: bad arithmetic code
+Corrupt JPEG data: found marker 0x%02x instead of RST%d
+Corrupt JPEG data: premature end of data segment
+CreateEventW
+Creator: JasPer Version %s
+D$ )l$
+D$ )l$ 
+D$ +A
+D$ +D$
+D$ +D$(
+D$ +D$8+D$
+D$ +D$@+D$D
+D$ +D)
+D$ +H0
+D$ 9A
+D$ 9^$~>
+D$ 9k
+D$ 9{d
+D$ ;E
+D$ ;F<
+D$ <M
+D$ PV
+D$ PW
+D$ Pj
+D$ SUV
+D$ SVW
+D$ VW
+D$ VWS
+D$ Wf
+D$ iA
+D$ tYWVS
+D$$)T$$
+D$$)l$$
+D$$)|$$
+D$$+A
+D$$+B
+D$$+D$
+D$$9A
+D$$9C
+D$$;D$
+D$$;G
+D$$;t$<
+D$$B;
+D$$PS
+D$$PU
+D$$PUWS
+D$$PV
+D$$PW
+D$$WP
+D$$_^
+D$$pV
+D$$uv
+D$$xE
+D$()l$4
+D$(+A
+D$(+B 
+D$(+D$ i
+D$(9D$l}\
+D$(=YARGt"= BGRt
+D$(C;X
+D$(PS
+D$(PW
+D$(Ph
+D$(Pj
+D$(VS
+D$(WP
+D$,)l$$
+D$,)|$,
+D$,+A
+D$,+B
+D$,+B 
+D$,+D$T+D$X
+D$,9n
+D$,;D$ |
+D$,;D$@
+D$,;D$H
+D$,@r
+D$,PW
+D$,WVP
+D$,iL$,#
+D$,uP
+D$0)t$0
+D$0+A 
+D$0+B
+D$0+D$Di
+D$0+D$\+
+D$0+T$
+D$09F<
+D$0;D$8
+D$0;F<|
+D$0F;t$
+D$0PS
+D$0Pj
+D$0SU
+D$0UP
+D$0VS
+D$0VW
+D$0iE
+D$0jPP
+D$0t$
+D$0tT
+D$4)L$4
+D$4)l$ i
+D$4+D$ i
+D$49G
+D$4;D$
+D$4;Z,
+D$4PS
+D$4PVUS
+D$4SP
+D$4SU
+D$4SUV
+D$4UP
+D$4_^]
+D$4iL$4q
+D$4iq
+D$8+A
+D$8+D$Li
+D$8;B8|
+D$8;D$D
+D$8;|$,s
+D$8PWS
+D$8SP
+D$8SVW
+D$8VW
+D$8tTUWS
+D$<+B 
+D$<+D$@i
+D$<+D$Pi
+D$<Ph
+D$<SU
+D$<iG
+D$@)l$$
+D$@+K
+D$@;M
+D$@;|$8s
+D$@PVU
+D$@VW
+D$@jPP
+D$D+T$ +
+D$D;D$
+D$DPU
+D$DiL$Dq
+D$H+T$ 
+D$HSUV
+D$HUP
+D$HiL$Hq
+D$L)t$0
+D$LSU
+D$LSUV
+D$LiL$Lq
+D$LiM
+D$LiN
+D$PPV
+D$PPhh
+D$PSU
+D$PiL$Pq
+D$Pta
+D$T a
+D$T9E
+D$TPU
+D$X;D$
+D$Xh`
+D$\;D$
+D$`9D$
+D$`9E u
+D$`;D$
+D$`QW
+D$`SU
+D$diN
+D$pSU
+D$xSU
+DCT coefficient out of range
+DCT scaled block size %dx%d not supported
+Da\">c]$8c^
+Define Arithmetic Table 0x%02x: 0x%02x
+Define Huffman Table 0x%02x
+Define Quantization Table %d  precision %d
+Define Restart Interval %u
+DeleteCriticalSection
+Didn't expect more than one scan
+DisableThreadLibraryCalls
+E +D$$i
+E iD$
+E iL$
+E$+D$$i
+E(+D$$i
+E,+D$$i
+E0+D$$i
+E4)E0
+E4+D$$i
+E4;E<uW
+E4;E<}u3
+E8+D$$i
+E89u8|
+E;l$8
+E;nL|
+E<+D$$i
+EL$P3
+Empty JPEG image (DNL not supported)
+Empty input file
+End Of Image
+EnterCriticalSection
+F  2pj
+F iD$
+F"FgF
+F(;F@
+F(;F@|%
+F(;F@|D
+F(@9F0uDj
+F,;F<u 
+F,;FD
+F,;FD|#
+F,H_[
+F,_^Y
+F;w |
+FK?imageCount@QImageIOHandler@@UBEHXZ
+FL$$Q
+FL;F$t
+F\kF 
+F`9V$~(
+F`WUV
+F`iD$
+F`iD$ 
+Failed to create temporary file %s
+Fractional sampling not implemented yet
+Freed EMS handle %u
+Freed XMS handle %u
+Fx;F`r
+Fx;F`s
+G1'5i=,?3?:?
+G5G{G
+G;|$T|
+G;~0|
+G;~L|
+GO8OIv
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+H iD$`
+H(;\$
+H0i@,
+H9G(u
+HLino
+Huffman code size table overflow
+Huffman table 0x%02x was not defined
+ICC Profile CS %08x
+IEC http://www.iec.ch
+IEC sRGB
+IF YOU HAVE ANY PROBLEMS, PLEASE TRY CONVERTING YOUR IMAGE DATA
+Image too wide for this implementation
+Improper call to JPEG library in state %d
+Inconsistent progression sequence for component %d coefficient %d
+InitializeConditionVariable
+InitializeSListHead
+Input file read error
+Insufficient memory (case %d)
+Invalid JPEG file structure: SOS before SOF
+Invalid JPEG file structure: missing SOS marker
+Invalid JPEG file structure: two SOF markers
+Invalid JPEG file structure: two SOI markers
+Invalid SOS parameters for sequential JPEG
+Invalid color quantization mode change
+Invalid component ID %d in SOS
+Invalid crop request
+Invalid memory pool code %d
+Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+Invalid progressive parameters at scan script entry %d
+Invalid scan script at entry %d
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J7J}J
+J?hasAlphaChannel@QImage@@QBE_NXZ
+JAS_CLRSPC_CIELAB
+JAS_CLRSPC_CIEXYZ
+JAS_CLRSPC_FAM_GRAY
+JAS_CLRSPC_FAM_LAB
+JAS_CLRSPC_FAM_RGB
+JAS_CLRSPC_FAM_UNKNOWN
+JAS_CLRSPC_FAM_XYZ
+JAS_CLRSPC_FAM_YCBCR
+JAS_CLRSPC_GENGRAY
+JAS_CLRSPC_GENRGB
+JAS_CLRSPC_GENYCBCR
+JAS_CLRSPC_SGRAY
+JAS_CLRSPC_SRGB
+JAS_CLRSPC_SYCBCR
+JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+JFIF extension marker: JPEG-compressed thumbnail image, length %u
+JFIF extension marker: RGB thumbnail image, length %u
+JFIF extension marker: palette thumbnail image, length %u
+JFIF extension marker: type 0x%02x, length %u
+JP2 box: 
+JPEG (ISO/IEC 10918-1)
+JPEG 2000 reader expected 1 or 2 components, got %d
+JPEG 2000 reader expected 3 or 4 components, got %d
+JPEG 2000 reader missing a color component
+JPEG datastream contains no image
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+JPEG-2000 Code Stream Syntax (ISO/IEC 15444-1)
+JPEG-2000 JP2 File Format Syntax (ISO/IEC 15444-1)
+JPEG-2000 VM Format (PGX)
+JPEGMEM
+Jasper Library initialization failed
+Jasper library can't decode Jpeg2000 image data
+Jpeg2000 decoder is not able to handle color space %s - %s
+K?height@QImage@@QBEHXZ
+KERNEL32.dll
+KODAsGry
+L$ +L$
+L$ +L$0i
+L$ +L$X
+L$ +L$d
+L$ ;L$
+L$ ;L$$
+L$ SU
+L$ SUVWh
+L$ iL$8\
+L$$)|$
+L$$+L$P
+L$$+L$\
+L$$8M
+L$$8N
+L$$_[^
+L$$iL$D1'
+L$$t'
+L$()D$8
+L$(+D$
+L$(+L$4i
+L$(+L$8i
+L$(9;~(
+L$(9H
+L$(9J8
+L$(;H
+L$(G;;|
+L$(SVW
+L$(];
+L$,9H,
+L$,;L$$
+L$,;M,
+L$,SUVW
+L$,SW
+L$,VWf
+L$,_[^3
+L$0+L$\
+L$0+L$h
+L$0;F8u
+L$0;{L|
+L$0QPV
+L$0iL$
+L$4+L$$i
+L$4+L$Di
+L$49H
+L$4;l$
+L$4PUW
+L$8+L$<i
+L$8;l$H
+L$8iL$ 
+L$<9M
+L$<;L$
+L$<SUV
+L$<][3
+L$<iN
+L$@+L$HA
+L$@9K
+L$@;K
+L$@UWQS
+L$DG;{
+L$H+M
+L$LG;
+L$P;L$
+L$T;L$
+L$TUQ
+L$T_;L$
+L$`9K u
+L$d#t$
+L$dSU
+L$hSV
+L$hVW
+L$hWAQP
+L$l;L$(}
+L$p9T$
+L$tVAQP
+L$|_^][3
+L*LrL
+L?jumpToImage@QImageIOHandler@@UAE_NH@Z
+L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
+LD$8B
+LUT[%d][%d]=%d
+LeaveCriticalSection
+Lkh9Fgc^A
+M'@[KX
+M?loopCount@QImageIOHandler@@UBEHXZ
+MAX_ALLOC_CHUNK is wrong, please fix
+MQC,ARD
+MT$,G
+Maximum supported image dimension is %u pixels
+MbP?333333
+MetaData
+Microsoft Bitmap (BMP)
+MimeTypes
+Miscellaneous marker 0x%02x, length %u
+Missing Huffman code table entry
+My Image Format (MIF)
+N$_^]
+N%NnN
+Not a JPEG file: starts with 0x%02x 0x%02x
+Not implemented yet
+O$_^]
+O(9D$$u';
+O?nextImageDelay@QImageIOHandler@@UBEHXZ
+Obtained EMS handle %u
+Obtained XMS handle %u
+Opened temporary file %s
+Output file write error --- out of disk space?
+P'PqP
+P.rsrc
+P0i@,
+P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+PRQSW
+PRQWVh
+PVQVh
+Portable Graymap/Pixmap (PNM)
+Premature end of JPEG file
+Premature end of input file
+Q2XXR
+QJp2Plugin
+QSUVWh
+QSUVWj
+QSUVWjH
+QSVWj8
+QTMETADATA  qbjs
+Qt JPEG 2000 reader does not support signed components
+Qt5Core.dll
+Qt5Gui.dll
+Quantization table 0x%02x was not defined
+Quantizing to %d = %d*%d*%d colors
+Quantizing to %d colors
+QueryPerformanceCounter
+R1R|R
+R?scanLine@QImage@@QAEPAEH@Z
+RESOLUTION LEVEL %d
+RST%d
+Read failed on temporary file
+Read from EMS failed
+Read from XMS failed
+Requested feature was omitted at compile time
+ResetEvent
+SUVW3
+SUVWf
+SUVWh
+SUVWj
+SUVWj 
+SVWhCRTk
+Sampling factors too large for interleaved scan
+Scan script does not transmit all data
+Seek failed on temporary file
+Selected %d colors for quantization
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+Smoothing not supported with nonstandard sampling ratios
+Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+Start Of Scan: %d components
+Start of Image
+Sun Rasterfile (RAS)
+Suspension not allowed here
+T$ 9Q
+T$ 9V
+T$ ;V
+T$ ;X 
+T$ ;\$
+T$ iT$$Tb
+T$$+L$
+T$$+T$D
+T$$+T$T
+T$$8U
+T$$8W
+T$$9P
+T$$UW
+T$$iT$ Tb
+T$(+T$4B
+T$(H+T$$
+T$(VW
+T$,)D$,
+T$,+T$(
+T$,S3
+T$,SU
+T$,UW
+T$,]_^
+T$0)|$$
+T$09U
+T$09U,
+T$0A;
+T$0F;
+T$0SU
+T$0SUV
+T$0ff
+T$0t&
+T$4+T$L
+T$4+T$\
+T$4;T$
+T$4;x 
+T$4iT$D
+T$4iT$P
+T$8+U
+T$89V 
+T$8;V 
+T$<9<
+T$<;T$
+T$<;]
+T$<SUV
+T$D;T$
+T$DSUV
+T$DUf
+T$HSUV
+T$LQR
+T$LSUV
+T$Ptr
+T$T93
+T$T;3
+T$X;T$
+T$XSUV
+T$\;T$
+T$\RV
+T$`9S uh
+T$d#D$
+T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
+THAT IS, THE JASPER SOFTWARE CANNOT DECODE ALL TYPES OF BMP DATA.
+THE BMP FORMAT IS NOT FULLY SUPPORTED!
+TO THE PNM FORMAT, AND USING THIS FORMAT INSTEAD.
+T_^]2
+TerminateProcess
+The BMP format cannot be used to represent an image with this geometry.
+The PNM format cannot be used to represent an image with this geometry.
+The Qt JPEG 2000 reader does not support components with precision != 8
+The Qt JPEG 2000 reader does not support images where component geometry differs from image geometry
+The Qt JPEG 2000 reader was unable to convert colorspace to RGB or grayscale
+The RAS format cannot be used to represent an image with this geometry.
+Too many color components: %d, max %d
+U(UuU
+UNKNOWN
+UVWt0
+Unable to handle color depth %d
+Unexpected marker 0x%02x
+UnhandledExceptionFilter
+Unknown
+Unknown APP0 marker (not JFIF), length %u
+Unknown APP14 marker (not Adobe), length %u
+Unknown Adobe color transform code %d
+Unknown exception
+Unrecognized component IDs %d %d %d, assuming YCbCr
+Unsupported JPEG data precision %d
+Unsupported JPEG process: SOF type 0x%02x
+Unsupported color conversion request
+Unsupported marker type 0x%02x
+UokOP
+V,^][
+VCRUNTIME140.dll
+VPVh(
+VUUUI
+VWf;E
+VeaFOfb
+Virtual array controller messed up
+W9(~}
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning: thumbnail image size does not match data length %u
+Warning: unknown JFIF revision number %d.%02d
+Write failed on temporary file --- out of disk space?
+Write to EMS failed
+Write to XMS failed
+Wrong JPEG library version: library is %d, caller expects %d
+X$9z8~Zf
+X/X}X
+X;NL|
+X;^$|
+X;^L|
+X;}$|
+X;~L|
+YD$0f
+YG8t"
+Y__^[
+You may not be able to read or correctly display the resulting PNM data with other software.
+YpU_Z
+Z?width@QImage@@QBEHXZ
+Z@&LHA'
+Zpm"U
+[9~0~
+[_^]3
+\$ +\$T
+\$ VW
+\$ t(
+\$$9E
+\$$9_
+\$$;\$
+\$$;_
+\$$;l$<
+\$()L$(
+\$(+\$@
+\$(9Z 
+\$(;p8
+\$(UV
+\$(UW
+\$(hR
+\$,PVRQ
+\$0+U 
+\$0UV
+\$4)L$4
+\$4)T$4
+\$4_]
+\$8UV
+\$8VW
+\$<Pj
+\$<UV
+\$<UVWj`
+\$D)\$,
+\$HUVW
+\$HUVWj@
+\$L;H8}	
+\$L;\$
+\$XUV
+\$\)\$8
+\$xUVWh
+\O8+G
+]']x]
+]_^[3
+^T9~L~
+^_][3
+^`)T$
+^d)T$
+^|)T$
+_$_^][
+_CxxThrowException
+_[;F$|
+_][^Y
+_]^[3
+_^[9E
+_^[]3
+_^][3
+_^][Y
+_^][|
+__acrt_iob_func
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__stdio_common_vfprintf
+__stdio_common_vsprintf
+__stdio_common_vsscanf
+__vcrt_InitializeCriticalSectionEx
+_callnewh
+_cexit
+_close
+_configure_narrow_argv
+_crt_atexit
+_except1
+_except_handler4_common
+_execute_onexit_table
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_jp2overhead
+_jp2overhead=%lu
+_libm_sse2_pow_precise
+_libm_sse2_sqrt_precise
+_lseek
+_open
+_read
+_register_onexit_function
+_seh_filter_dll
+_unlink
+_write
+`.rdata
+abort
+acspMSFT
+alignment failed
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-utility-l1-1-0.dll
+ascii = "%s"
+bad allocation
+bad array new length
+box type %s
+cannot copy box data
+cannot get (EPH) marker segment
+cannot get header
+cannot get info
+cannot get marker segment
+cannot get tab table
+cannot open tmp file
+cannot parse box data
+cannot use real mode for lossless coding
+cannot write COD marker
+cannot write COM marker
+cannot write EOI marker
+cannot write SIZ marker
+cannot write SOC marker
+cannot write SOD marker
+cannot write SOT marker
+caps = 0x%02x;
+cblkheight
+cblkwidth
+cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x;
+cblkwidthval = %d; cblkheightval = %d; cblksty = 0x%02x; qmfbid = %d;
+channo=%d; type=%d; assoc=%d
+className
+cmptno=%d; map=%d; pcol=%d
+code block size too large
+coding pass failed passtype=%d segtype=%d
+compno = %d; csty = 0x%02x; numdlvls = %d;
+compno = %d; qntsty = %d; numguard = %d; numstepsizes = %d
+compno = %d; roisty = %d; roishift = %d
+component
+component tlx=%ld tly=%ld sampperx=%ld samppery=%ld width=%ld height=%ld prec=%d sgnd=%d
+cs[%d] = %d; ce[%d] = %d; 
+csid=%d
+csty = 0x%02x;
+data =
+data = 
+debug
+dotile failed
+e[%d][%d]=%f 
+entry[%d] = %f
+error: BMP format does not support color space
+error: JPG format does not support color space
+error: PNM support required
+error: RLE encoding method not supported
+error: The JPG encoder cannot handle an image with this geometry.
+error: bad signature
+error: cannot decode code stream
+error: cannot get box
+error: encoding method not supported
+error: expecting signature box
+error: invalid CMAP LUT index
+error: invalid component number in CMAP box
+error: missing IHDR box
+error: missing color component
+error: no COLR box
+error: no code stream found
+error: no components
+error: no memory
+error: possibly bad bitmap offset?
+error: too few guard bits (need at least %d)
+error: unsupported BMP encoding
+error: unsupported color space
+error: unsupported compression type
+expecting file type box
+expn[%d] = 0x%04x; mant[%d] = 0x%04x;
+f	+F;
+f9+v0
+f9G@v
+f;F,s^
+f;F0r
+f;F0s0
+f;F0s]3
+f;F<s7
+f;FHs=
+f;G,s4
+f;G0s`
+f;G<s`f
+f;GHsnf
+f;N0r
+f;T$@
+f;V0s
+fclose
+ferror
+fflush
+fgetc
+floor
+fputc
+fread
+fseek
+fwrite
+gamma = %f
+getenv
+h  Pj
+h2pjt
+hCRTbW
+hCRTgW
+hCRTrW
+hZYXbW
+hZYXgW
+hZYXrW
+hc2pj
+hccpb
+hdrlen=%lu bodylen=%lu 
+height
+hfedc
+hh2pj
+hoff[%d] = %d; voff[%d] = %d
+hpytf
+hrdhi
+hrloc
+iD$ u.
+iD$$'@
+iD$$?5
+iD$$Tb
+iD$,*I
+iD$,A-
+iD$4?5
+iD$4A-
+iD$8T
+iD$<*I
+iD$<~Q
+iD$@1'
+iD$@u.
+iD$T1'
+iD$d1'
+iD$p1'
+iD$|1'
+iD$|A-
+iL$ 1'
+iL$ `
+iL$ l+
+iL$$G'
+iL$$M
+iL$$O2
+iL$(1'
+iL$(5+
+iL$(<b
+iL$(K
+iL$(Y
+iL$,1'
+iL$,M
+iL$0!;
+iL$00
+iL$0>
+iL$0?5
+iL$4B-
+iL$8>
+iL$<0
+iL$<1'
+iL$<B-
+iL$<u.
+iL$D\
+iL$Du.
+iL$HB-
+iL$TB-
+iL$X1'
+iT$ 3
+iT$ G'
+iT$(>
+iT$0SH
+i\$81'
+ignoring bad quality specifier %s
+ignoring invalid mode %s
+ignoring invalid progression order %s
+ilyrrates
+image/jp2
+image/jpm
+image/jpx
+imgareatlx
+imgareatly
+incorrect magic number
+ind=%d; len = %d;
+intermediate layer rates must increase monotonically
+invalid JP encoder options
+invalid PNM encoder options specified
+invalid code block height %d
+invalid code block width %d
+invalid component number in COC marker segment
+invalid component number in QCC marker segment
+invalid component number in RGN marker segment
+invalid number of guard bits
+invalid precinct height
+invalid precinct width
+invalid tile grid offset (%lu, %lu)
+invalid tile height %lu
+invalid tile number in SOT marker segment
+invalid tile width %lu
+isalpha
+isdigit
+isprint
+isspace
+j'Vlk
+jGjPh
+jpc_dec_decodecblks failed
+jpc_dec_decodepkts failed
+kD$\4
+kT$\4
+l$ 9~0~
+l$ SU
+l$ VU
+l$$t=j
+l$(;l$L
+l$(VW
+l$,;J8
+l$,VW
+l$,i|$0
+l$,t5j
+l$09x,
+l$0;A,
+l$0;p
+l$4)l$
+l$49C$
+l$4;l$
+l$4VW
+l$4ttj
+l$8)l$,
+l$8;C$
+l$<)t$
+l$@)l$
+l$@;l$
+l$D)L$ 
+l$D)l$
+l$DSU
+l$DVW3
+l$Dt+
+l$HSU
+l$HVW
+l$PVWt
+l$X)l$ 
+l$X)l$TQ
+l$X9Y
+l$X;_
+l$\SV
+l$|VWj$
+le[%d] = %d
+lwtpt
+lyrno = %02d
+lyrno=%02d cmptno=%02d rlvlno=%02d bandno=%02d prcno=%02d cblkno=%03d passno=%03d
+m8)T$
+maclen = %d
+malloc
+maxlen=%08ld actuallen=%08ld thresh=%f
+maxlyrs
+maxpkts
+memcpy
+memmove
+memset
+method=%d; pri=%d; approx=%d
+min rdslope = %f max rdslope = %f
+missing EPH marker segment
+missing SOP marker segment
+mntrRGB XYZ 
+mode=real
+must be at least one resolution level
+n,;n<u
+no palettized image support for BMP format
+nomct
+number of entires = %d
+numchans = %d
+numdlvls = %d; qmfbid = %d; mctrans = %d
+numents=%d; numchans=%d
+numgbits
+numinchans=%d, numoutchans=%d, clutlen=%d
+numintabents=%d, numouttabents=%d
+numrlvls
+org.qt-project.Qt.QImageIOHandlerFactoryInterface
+packet body offset=%06ld
+packet offset=%08ld prg=%d cmptno=%02d rlvlno=%02d prcno=%03d lyrno=%02d
+pdmdd
+po[%d] = %d; 
+prcheight
+prcwidth
+prcwidth[%d] = %d, prcheight[%d] = %d
+prec[%d] = %d; sgnd[%d] = %d; hsamp[%d] = %d; vsamp[%d] = %d
+prg = %d; numlyrs = %d;
+pterm
+pytfl
+pytft
+qjp2.dll
+qntsty = %d; numguard = %d; numstepsizes = %d
+qsort
+qt_plugin_instance
+qt_plugin_query_metadata
+quality
+rX9z8~E
+rdhi|
+read error
+realloc
+regid = %d;
+resetprob
+rewind
+rs[%d] = %d; re[%d] = %d; 
+s RVu
+sAmTb
+sLWVU
+sRGB IEC61966-2.1
+sampperx
+samppery
+sccode = %d
+scnrGRAYXYZ 
+segsym
+seqno = %d;
+skipping unknown data in BMP file
+strchr
+string = "%s"
+strncpy
+strtok
+success %d goodthresh %f
+t"SPWVR
+t#G;|$
+t$ +]$
+t$ QPQPR
+t$ VUP
+t$ ff
+t$ jpj
+t$ t;
+t$$)L$
+t$$+t$<
+t$$Sh 
+t$$hP
+t$(;E
+t$(WUS
+t$(toj
+t$,)|$
+t$,+t$<
+t$,Wt
+t$,iL$41'
+t$,t1
+t$0)\$$
+t$0WVU
+t$0Wh
+t$4SUV
+t$4UV
+t$4W3
+t$4Wh
+t$8+t$
+t$8+t$<
+t$8;}8
+t$<)\$
+t$<WS
+t$@+t$D
+t$@9W,
+t$@;W,
+t$D)|$
+t$DUV
+t$DW3
+t$DWVU
+t$HSUV
+t$HUWS
+t$HiL$L1'
+t$L)|$$
+t$PW3
+t$T+t$X
+t$\UWS
+t$`PW
+tC9{ u>
+tG;F`r
+tXPVj
+tYf;F
+termall
+tilegrdtlx
+tilegrdtly
+tileheight
+tileno = %d; len = %d; partno = %d; numparts = %d
+tilewidth
+tilewidth = %d; tileheight = %d; tilexoff = %d; tileyoff = %d;
+tmpfile
+tmpnam
+to<=t1
+too many layers
+tvkG 4P
+txet`N
+type = 0x%04x (%s);
+type=%c%s%c (0x%08x); length=%d
+u"hPU
+u'i},
+u*8D$
+u@8F$t
+uGf9M uAf9M0u;f9M@u5f9MPu/f9M`u)f9Mpu#
+uJVW9D$ t33
+uMf9G uGf9G0uAf9G@u;f9GPu5f9G`u/f9Gpu)
+uS_^]
+uSf9C uMf9C0uGf9C@uAf9CPu;f9C`u5f9Cpu/
+uSf9M uMf9M0uGf9M@uAf9MPu;f9M`u5f9Mpu/
+uT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
+uclangcode = %d; uclen = %d
+uef9Y u_f9Y0uYf9Y@uSf9YPuMf9Y`uGf9YpuA
+unexpected marker segment type
+unsupported BMP encoding
+unsupported image type
+vD)L$
+vL)L$
+vP)L$
+vT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z
+vcausal
+version
+video/mj2
+vx)L$
+w09_,~&
+w4)w0
+warning: bad segmentation symbol
+warning: bad termination pattern detected
+warning: cannot handle large 64-bit box length
+warning: color space apparently not RGB
+warning: component data type mismatch
+warning: corrupt code stream
+warning: empty layer generated
+warning: ignoring BMP decoder options
+warning: ignoring BMP encoder options
+warning: ignoring RAS decoder options
+warning: ignoring RAS encoder options
+warning: ignoring invalid option %s
+warning: ignoring options
+warning: ignoring trailing garbage (%lu bytes)
+warning: ignoring unknown marker segment
+warning: ignoring unsupported options
+warning: inaccurate color
+warning: intermediate layer rates must be less than overall rate
+warning: invalid intermediate layer rates specifier ignored (%s)
+warning: missing CMAP box or superfluous PCLR box
+warning: missing PCLR box or superfluous CMAP box
+warning: not enough tile data (%lu bytes)
+warning: number of components mismatch
+warning: overriding imgareatlx value
+warning: overriding imgareatly value
+warning: palettized images not fully supported
+warning: possibly corrupt code stream
+warning: specified rate is unreasonably large (%lu > %lu)
+warning: stopping decode prematurely as requested
+warning: superfluous BPCC box
+warning: support for signed sample data requires use of nonstandard extension to PNM format
+warning: trailing garbage in marker segment (%ld bytes)
+width
+width = %d; height = %d; xoff = %d; yoff = %d;
+write component failed
+x	9F<
+x	9G$
+x	9H<
+x	9K<
+x	9N<
+x	9V<
+x!9p<|
+x"9N<|
+x"9P<|
+x%9N<| 
+x(9P<|#
+x*9P<|%
+x,9P<|'
+x59N<|0
+xE9N<|@
+xs =%d, ys = %d, xe = %d, ye = %d, w = %d, h = %d
+y	(4y
+y2@-!
+yRich
+zp@Nd
+{@Ggk
+{\){`
+|$ )\$@
+|$ +|$
+|$$+|$
+|$$9:u9PSQ
+|$(t(
+|$,)l$()\$
+|$,+q
+|$,9z 
+|$,9{L
+|$,;\$
+|$,^;
+|$0)T$
+|$0)l$
+|$09}8
+|$0;H
+|$0QW
+|$8)l$
+|$89o
+|$8;L$
+|$8;T$
+|$@)\$(
+|$@i|$<
+|$`Vhx
+|$dhx
+~1fff
+~:SVWf
+~D$ f
+~D$0f
+~T9^L~<U
+~T9^L~B
+~rSUW
+~tSUW

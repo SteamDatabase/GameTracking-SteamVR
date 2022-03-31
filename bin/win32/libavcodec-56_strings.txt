@@ -1,0 +1,4522 @@
+					
+						
+							
+																
+	3	3	3	3	3	3	3	3;
+	4?"A4?*y4?!
+	>Y\	>
+	?CL	?>
+	?D<	?B\	?@|	?<
+	Q?& Q?]6Q?
+	_B{	J
+	u?L-u?{Pu?\su?
+       
+        
+                          
+    !!!!!!!!!!!!!!!!!!!!!!!
+  !!!""###$$$%%%&&?
+  !""##$$%%%&&&''''
+ ! 1 A Q a q 
+ !"##$%&&'(())**+++,,,----
+ !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
+ !"#$%&'(
+ !"#$%&'())*+,,-..//001112223333
+ !"#$%&'()*+,-./0123456789:;<=>>?
+ !"#$%&'()*+,-./0123456789:;<=>?
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"$(&)
+ !#Gray
+ " 2 B R b r 
+ # 3 C S c s 
+ $ 4 D T d t 
+ $(+.0368:<>@BDFHJLMOPRTUWXZ[\^_`bcdfghiklmnoprstuvwxyz{|}~
+ $(-28?GPZeq
+ % 5 E U e u 
+ %u. Codebook has too many entries (%u).
+ %u. Codebook setup data corrupt.
+ %u. Codebook's dimension is invalid (%d).
+ & 6 F V f v 
+ ' 7 G W g w 
+ ( 8 H X h x 
+ ($)!,%-
+ (%s)
+ (0891)!
+ (hq)
+ ) 9 I Y i y 
+ * : J Z j z 
+ + ; K [ k { 
+ , < L \ l | 
+ - = M ] m } 
+ . > N ^ n ~ 
+ / ? O _ o 
+ 0\0c0v0
+ 1$1(1,1014181<1
+ 1F1N1b1j1
+ 8$80848@8D8P8T8`8d8p8t8
+ ;C0t
+ ?8# ?
+ @ @ @ @ @ @ @ @&
+ Error generating vlc tables. 
+ Invalid code lengths while generating vlcs. 
+ Invalid residue type while residue decode?! 
+ L?G8L?
+ More codelengths than codes in codebook. 
+ PjPW
+ SVW3
+ Vorbis id header packet corrupt (framing flag not set). 
+ Vorbis id header packet corrupt (illegal blocksize). 
+ Vorbis id header packet corrupt (no vorbis signature). 
+ Vorbis setup header packet corrupt (codebooks). 
+ Vorbis setup header packet corrupt (floors). 
+ Vorbis setup header packet corrupt (framing flag). 
+ Vorbis setup header packet corrupt (mappings). 
+ Vorbis setup header packet corrupt (modes). 
+ Vorbis setup header packet corrupt (no vorbis signature). 
+ Vorbis setup header packet corrupt (residues). 
+ Vorbis setup header packet corrupt (time domain transforms). 
+ [PAR %d:%d DAR %d:%d]
+ _^[]
+ d?nAd? bd?
+ uE9C
+! !0!@!P!`!p!
+!!&((())%%%""
+!$&(*	
+!'-6BN*fBNZfr~Z
+!(0)"
+!?47"?
+!?A5!?
+!?sD!?5
+!P?8Ki?h"|?
+!This program cannot be run in DOS mode.
+!Zig{
+!_?1F_?Xj_?f
+!b?<2b?TCb?eTb?qeb?wvb?w
+!dst->f->buf[0]
+!dst->f.buf[0]
+!pic->f.data[0]
+!pic->hwaccel_picture_private
+!y?w.y?C;y?
+"#()01*+$%&',-./2389:;4567<=>?
+"(*3..***''
+"*2:#+3;
+"=Ze3=`
+"?2)#?
+"b@ZF
+"f?WAf?
+#%*,!"$('+-.
+#*1892+$
+#050G0Y0
+#1'1+1/13171;1?1
+#?K8#?{V#?
+#?N@ >
+#@?}=@?vW@?jq@?Z
+#CfU7
+#Rh$H!
+#Y?=wX?
+$'?O`'?
+$,4<%-5=
+$0;0%1I1P1
+$>b(%>8
+$?tk(?>
+$?v)$?
+$PjQW
+$h B&
+$h R&
+$y?B+y?
+%,3:;4-&
+%2&U'{(
+%<RX'<i
+%>*E&>E
+%?86&?
+%????
+%?e	&?H'&?(E&?
+%@@@@
+%[?L{Z?
+%d %d %p
+%d modes (either a false positive or a sample from an unknown encoder)
+%l?C2l?y?l?
+%lu fn:%d poc:%d %p
+%n?[1n?
+%p finished %d field %d
+%s / 0x%04X
+%s is not implemented. Update your Libav version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+%u. mapping setup data invalid.
+%w?u4w?
+%y?{=
+%|?qG|?lh|?
+&'45<=67>?DELMFGNO\]de^_fglmtunovw
+&'B/6"
+&.6>'/7?
+&57{15
+&=AL,=$
+&?~YK|
+&@ @ @ @ @ @ @ @ 
+&A?Z@A?!ZA?
+&C?/@C?
+&`?b8`?(J`?
+&s]j5X
+&xr(*
+&}?r)}?
+')FD$
+',?LY
+'.5<=6/7>?
+'3?W`3?
+'4v2#!
+'>XQ(>
+'? _*?
+'?/0(?
+'B?AAB?
+'G?G@G?
+'He?7".>
+'^??dy
+'d'e'm'
+'fOgOaOGO
+'hb7=
+( 8PX
+("?YF"?
+(&$ :".+=
+('8PW
+(:L`%:b
+(=ef5=
+(>20*>
+(>~@)>O
+(?[!(?
+(?y:)?
+(H?QYH?
+(O[&,3
+(_^[]
+(autodetected if FOURCC == UMP4)
+(d?>9d?
+(null)
+(unsigned)pkt->size <= 2147483647 - 8
+))/113//+++((
+)0i0t0
+)505<5C5b5g5n5s5z5
+)?>&*?
+)h?EGh?
+)o?jAo?
+)|?h2|?
+* @AF<
+*#++Q5
+*,,hi
+*080B0a0q0}0
+*9?/79
+*9?9F9?ra9?
+*:	*7:
+*<T#,<(
+*=;V+=
+*>3`*>H
+*>r +>
+*?VEw?
+*?l~*?
+*PjTW
+*^?Q=^?
+*z?q0z?+6z?
+*{?.cu
++)?<I)?
++1*2~2
++:Gn0:
++<?F|
++=G&2=
++>yA,>
++?i5,?
++E,j P
++KD+sD
++M$9M
++PjUW
++SD+sD
++VDWP
++_?$=_?=O_?Pa_?]s_?e
++t"HHt
++u49M@
+, %d Hz
+, %d kb/s
+, %d/%d
+, %dx%d
+, iD*
+, pass 1
+, pass 2
+, q=%d-%d
+,2-g.
+,4'=>
+,=` .=
+,?;;-?6
+,?@u-?
+,PjVW
+,SVWj0X
+,|?H0|?
+,}?K0}?
+-+5;C,
+--prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
+-13596X6
+-64OS
+-8?}M:?
+-;7u	
+-=J3)=
+->Ic->
+->fU.>z
+-?@X-?=
+-PjWW
+-jd[;
+-t*j0X;
+-v?Hov?
+.,e<"
+.262==
+.;S 2;Bl5;
+.=&T/=
+.>@;0>~
+.?g1.?KN.?+k.?
+.?|&/?
+.K="=
+.PjRW
+.idata
+.text
+.}?f5}?*<}?
+/#PdJ
+/=cW1=
+/=mJ;=@vG=
+/?+D3?m
+/J?hGJ?H_J?"wJ?
+/PjSW
+/a?}@a?
+/o?};o?UGo?)So?
+/p?(;p?
+0	1`1
+0 0$0(0,0004080<0@0D0H0L0P0T0X0l4p4t4x4|4
+0 0$0L0P0T0|0
+0 0$0L0X0\0h0l0
+0 0@0`0
+0 1J1
+0!0%0/050B0P0T0Z0p0z0
+0!040F0
+0!0[0b0
+0"Ve\
+0#1T1l1
+0#1t1
+0$0,040<0D0L0T0\0d0l0t0
+0$0.050<0F0P0W0^0h0r0y0
+0$161
+0$1?1K1_1
+0$1t1_2
+0$292]2g2
+0%0-060=0E0N0`0x0~0
+0%0/090C0M0W0a0k0u0
+0%1<1S1j1
+0&1a1
+0'0>0U0;1M1X1i1z1
+0'0?0G0k0t0
+0'0n0
+0(0/060=0D0K0R0Y0`0g0u0|0
+0)0]0o0
+0)4@415
+0)LK>
+0+0`0
+0+0b0m0
+0,00040\0`0
+0,00040\0`0d0
+0,000@0D0T0X0h0l0|0
+0-050\0
+0.0]0k0x0
+0.1G1X1
+0/0A0a0
+000D0X0
+020G0a0l0
+031;1y1
+031G1
+040<0b0o0~0
+040E0S0o0
+060B0R0c0t0
+061J1^1r1
+08491<5="*&+#.'/2:6;3>7?
+090]2x2
+091D1
+0:0t0
+0:1h1
+0;0_0Y5
+0;1C2
+0<0N0`0r0
+0<1_1
+0=2]3
+0?1i1
+0?3b2?
+0?HF1?
+0?fE0?
+0@0D0p0t0
+0@0l0p0t0
+0A1S1
+0B0T0
+0B0`0
+0BGR 
+0H1I2Y2d2o2[4
+0I0n0
+0L1S1u1|1
+0M1T1
+0N0c0x0
+0N1b1v1
+0O2^2
+0Ph8	 
+0Q0W0
+0RGBD
+0S0d0u0
+0S1`1
+0S1z4
+0T0\0q0
+0T2x2=3
+0V0s0
+0W2'5W7
+0Y0_0
+0_^[]
+0a1y1
+0i1~1
+0l0|0
+0q2{2
+0q?m;q?QFq?/Qq?
+0w?H8w?
+0z1j2*5
+0~>n*
+1	222
+1 1$1
+1 1$1L1P1T1|1
+1 1&1,12181>1D1J1P1V1\1b1h1n1t1z1
+1 1)1
+1 10141D1H1X1\1l1p1
+1 2Y2e2
+1!1(1/191C1J1Q1[1e1x1
+1!1*1/151?1I1Y1i1y1
+1"1j1|1
+1"262J2^2
+1#1-131@1N1R1X1n1x1
+1#161@1L1S1Z1a1h1o1v1}1
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+1$1+1T1^1e1
+1$1,141<1D1L1T1\1d1l1t1|1
+1$2u2
+1$3>3d3
+1%161{1
+1%171
+1'111;1E1O1Y1c1m1w1
+1'1x1
+1'262E2T2
+1'2C2O2
+1(101
+1(191J1[1z1
+1(1:1
+1(4M4
+1)131=1G1Q1[1e1o1y1
+1,10141\1`1d1
+1,101@1D1T1X1h1l1|1
+1,101\1`1
+1,2Q2w2
+1,2c2[3
+1-242I2
+1.1>1a1q1
+1.2:2`2{2
+1/151
+1/2w2
+102(3
+10262h2z2
+112F2\2j2
+121Q1
+122o2
+14P;=4p
+16-bit signed integer
+16-bit signed integer planar
+161B1J1
+162@2
+163;3@394g5
+171D1J1l1v1|1
+182D2L2
+191X1j1~1
+191\1
+192y2
+194]4
+1:1c1
+1:1}4
+1;2U2
+1<1@1D1l1p1t1
+1=1O1a1s1
+1=2O2T2
+1=3J3x3
+1>1T2>
+1>?TL>?
+1>u='>
+1?1q1x1|1
+1?5 1?\\0?
+1?~y8?
+1@1R1d1v1
+1@1p1
+1@2F2r2
+1A2o2
+1B2t2
+1D2b2
+1E2v2
+1F2K2]2{2
+1G2Z2e2
+1K9~;
+1N2`5
+1N_^[
+1O?}HO?+_O?
+1Q2`2
+1R1y1
+1T?.GT?
+1Y2a2
+1Z2c2r8
+1Z2w3
+1`1}1
+1c1w1
+1d?ord?r
+1g2.353
+1g3G4
+1hty 
+1j1~1
+1j2=3=4=5=6
+1j8):h:
+1n1w1
+1n1{1
+1o2@3K3R3`3h3r3
+1q3\4
+1u1&2
+1v?":v?\Bv?
+1z2u3|3
+1z3*5
+2	3I3
+2	3g3
+2 2$24282H2L2\2`2p2t2
+2 2$2L2P2T2|2
+2 20242D2H2X2\2l2p2
+2 2L2P2T2
+2 3`3
+2 6c7
+2!2.262H2W2j2o2v2{2
+2"2(2.242:2@2F2
+2"2i2
+2#2-272A2V2]2d2k2r2y2
+2$2,242<2D2L2T2\2d2l2t2|2
+2$212]2g2
+2$2c2j2|4
+2$2s2
+2%2,232:2A2K2U2_2i2s2}2
+2%2/292C2M2W2i2s2}2
+2%2A2H2N2\2b2w2
+2%2Z2
+2&2,202:2@2L2X2j2p2t2~2
+2&2.2b2n2v2
+2&2.2n2z2
+2&3.3l3t3
+2&3}3
+2'2,222<2F2Y2^2
+2'292j2
+2'2;2
+2(2?2
+2(2[2f2
+2)2:2K2f2
+2)819#<
+2*2x2
+2+252:2O2V2]2d2j2y2
+2,2>2
+2,2O2
+2.252E2L2j2t2{2
+2.3~5
+2.757
+2/262;2O2]2
+20242\2`2d2
+202e2
+203M3
+223U3
+224f5
+22k\-f
+232M2X2k2
+233G3w3
+243F3X3r3
+262F2i2y2
+263)4<4h4o4
+29M?$~
+2:3B3V3`3~3
+2:3J3
+2;3c3
+2<2@2D2l2p2
+2<2@2D2l2p2t2
+2<3N3q3
+2=2|2
+2=x]3=
+2>2p2
+2A3r3
+2A5+?
+2B3G3L3c3
+2D2f2z2
+2D3H3L3
+2E3O3
+2G3X3i3z3
+2G6i6
+2I2W2e2s2
+2I9P:
+2J4q9
+2K2S2
+2Q3x4
+2T2f2x2
+2T2q2
+2T334
+2T3Z3
+2T3[3
+2Y2>4
+2Y2k2
+2]5J6
+2^3j3
+2`3i3q3
+2e4(6=6`6q6
+2f3n3
+2ieO=
+2x?'9x?-@x?.Gx?,Nx?$Ux?
+2~?|4~?
+3 3$34383H3L3\3`3p3t3
+3 3$3L3P3T3|3
+3 3(3F3N3n3v3
+3 383@3d3m3
+3 4$4P4T4
+3 4044484<4@4D4H4L4P4T4X4\4`4d4h4
+3!3(3/393C3M3W3a3k3u3
+3!3-343;3B3I3P3W3^3e3l3s3
+3!313L3b3x3
+3!3<3@3D3o5
+3"4O4k4
+3#333I3j3
+3#353
+3$3(383<3L3P3`3d3t3x3
+3$3,343<3D3L3T38=<=@=D=
+3$3,343<3D3L3T3\3d3l3t3|3
+3%343;3P3\3h3t3{3
+3&3-343;3B3L3V3]3d3k3r3y3
+3&4P4b4t4
+3&5!679~=
+3'313;3E3O3Y3
+3'313;3E3O3Y3c3m3w3
+3'3z3
+3'415
+3'5'6
+3'?pQ'?.o'?
+3(3G3^3m3
+3(6-6:8?8D8
+3)3-333I3S3Z3b3n3
+3)323@3j3
+3+40494E4J4t4
+3+4T4i4
+3,373F3Q3b3
+3,3d3s3
+3,484R4
+3,60687`<d<h<l<
+3-.6?
+3-3L3a3z3
+3-4E4
+3.3;3
+3.3B3W3q3|3
+3/3%4L4
+3/383
+3/3A3
+3/3A3p3
+30343`3d3
+30373N3T3_3e3r3
+303O3
+303`3
+30M0r0
+30}->
+313C3U3g3
+313S3
+32-bit float
+32-bit float planar
+32-bit signed integer
+32-bit signed integer planar
+323:3N3V3
+32f5h290g53047gv5034nbvt923b
+333R3d3x3
+34?%O4?)k4?)
+353E3h3x3
+356b6
+363E3m3t3
+363`3
+37:a:
+3:!;|;
+3:4G4T4
+3;3j3
+3<3@3D3l3p3t3
+3<3a3
+3<4^5f5
+3=/	7=7T:=
+3>+z3>U
+3>3P3d3v3
+3>3`3t3
+3?(]4?
+3?cpQ
+3@3D3p3t3
+3@4H4
+3@:$=tr
+3A6L6
+3E3M3V3_3
+3E4a4/5N5S6r6Y7
+3F4N4
+3F4Y4
+3G4M4
+3J4w5
+3J5b5h5
+3M4T4[4b4y4
+3R7)8X8
+3S4c4
+3S;c;w;
+3V4`4|4
+3W3C5X5t5
+3W<d<r<
+3Y4z4V5
+3Z5W<
+3[3-4
+3^[_]
+3_3g3
+3a4o4
+3d3z3
+3l3r3
+3r6^;
+3t?]<t?
+3y5~5
+4	5I5
+4 4*444>4N4U4\4c4j4v4
+4 4+4<4M4^4
+4 4,484D4P4\4h4t4
+4 4w619C9o91:C:o:	;
+4 5A5o5
+4 5L5P5|5
+4 5P5
+4!4%4*40444:4>4D4H4M4S4W4]4a4g4k4q4u4
+4!4+454?4I4S4]4g4q4{4
+4!434d4
+4!5)5o5w5
+4"5@5/6
+4#43484=4N4S4d4i4v4{4
+4#4O4
+4#5,5B5H5Z5q5
+4$4(484<4L4P4`4d4t4x4
+4$4,444<4D4L4T4\4d4l4t4|4
+4$444D4s4~4
+4%414@4F4J4P4f4p4x4
+4&4.444;4A4H4N4U4i4
+4&4M4
+4&5A5
+4'4;4c4w4
+4'5T5d5t5
+4(4,4<4@4P4T4d4h4x4|4
+4(424<4F4P4Z4d4n4x4
+4(424N4W4d4m4
+4(444@4t4~4
+4(4=4
+4(4A4v4
+4)434=4G4Q4[4e4o4y4
+4)454y4
+4)484c4k4
+4)4d4
+4)535E5g5}5
+4)545y5
+4)5;5^5
+4*4<4N4`4
+4*?YR*?
+4+4|4
+4,40444\4`4d4
+4,535i5
+4-484I4Y4j4
+4-5R5
+4-5W5
+4-6-8
+4.4@4T4h4
+4.4H4_4v4
+4/4o7
+4/4~4
+404Q4
+404`4
+405L6
+414p4
+415t5
+422P!
+425>5
+425D5l5p5t5x5|5
+42767:7>7B7F7J7N7
+42Z2b2v2~2
+434:4>5S5Z5a5h5o5v5
+434>4M4X4i4
+440P"
+444P	
+444q4
+448@8
+454=4
+454@4_4j4
+464}4
+474`4z5
+484A4H4_4f4o4v4}4
+4:5J5
+4<4@4D4l4p4
+4=;SZ
+4>-"7>X<:>
+4>4F4
+4>{\6>6
+4?5i5p5
+4?zt5?
+4@4L4P4\4h4l4p4t4
+4@5X5
+4@5}5
+4A5Q5r7
+4C4z4
+4D5X5l5
+4D6L7
+4E4P4
+4F415
+4G5U6
+4H?'MH?yeH?
+4J5R5S6
+4J5_5
+4L5v5
+4N4c4q4z4
+4P4t4
+4W5a5
+4X Movie
+4Y4d4
+4[5o5
+4]5}6
+4g5G6G7g8g9
+4h8x8Z=
+4j4K5\5
+4t4x4|4
+4y?UNy?
+5	5%5+565=5Q5W5y5
+5 5$5L5P5T5|5
+5 5+535Q5]5s5|5
+5 5,5d5s5{5
+5 505O5
+5 626
+5 6L6P6T6|6
+5 6P6
+5 6a6
+5!5(5
+5"5)50575>5E5L5_5f5m5t5{5
+5"666a6u6
+5"676O6X6t6C7L7
+5#5-575A5K5U5_5i5s5}5
+5#525A5p5
+5#5O5
+5#7F7
+5$5+52595@5G5N5U5\5c5m5w5
+5$5,545<5D5L5T5\5d5l5t5|5
+5$5.585B5L5V5`5j5t5~5
+5$555F5W5u5'6]6h6s6~6
+5$5h5x5
+5$6\6
+5%5/595C5M5W5a5k5u5
+5%595r5
+5&5-545;5B5I5P5W5c5j5s5z5
+5&626>6T6
+5'5C5`5l5
+5(5,5<5@5P5T5d5h5x5|5
+5(6:6U6g6y6
+5)535I5
+5)6L6
+5)6g6
+5+585E5T5d5v5
+5+5=5O5a5
+5+6n6
+5,505@5D5T5X5h5l5|5
+5,6r6
+5-555E5V5
+5/5@5Q5s5~5
+505`5d5
+515\5p5
+516L6V6]6d6o6v6
+525F5
+52696@6J6
+526T6h6|6
+536F6
+54686<6@6
+546n6
+565V5|5
+575:7x7
+576A6K6X6
+576U6}6
+585u5
+58?mP8?
+5:=B=Q=[=
+5;7A7g7m7
+5=7]8}9
+5>6R6X6 7
+5?L?4?kv3?
+5@5D5p5t5
+5@6R6d6v6
+5@7q7
+5A6k6r6
+5B6x6|6
+5D6';
+5Dx,6
+5F5P5V5m5y5
+5F6Q6
+5G5~5
+5Genu
+5K6l6-7m7
+5L5r5
+5M6Z7
+5P6h6
+5P?kbP?4
+5Q6X6`6h6p6
+5R5[5d5j5n5t5
+5V6o7
+5V6}6
+5W5y5
+5X6{6
+5Y6j6m9
+5[?+I[?
+5\;g;w;$<R=
+5_5v5
+5_7l7z7
+5a6s6
+5b7&9
+5c6j6
+5i5z6
+5j8j::<z>
+5ntel
+5v5x6
+5z6-7:8
+5z6J8
+5|6\7n7
+6 6$6(6,6064686<6@6D6H6L6P6\6`6d6h6l6p6t6x6|6
+6 6&6.6K6n6
+6 6(6H6h6
+6 60646D6H6X6\6l6p6
+6 6C6[6
+6 7$7P7T7
+6 7:7
+6!6+656?6I6S6]6g6q6{6
+6"6,646;6@6G6N6U6\6k6p6w6|6
+6"6,666@6J6T6^6h6r6|6
+6#646E6j6u6
+6#757P7`7p7
+6#7s7
+6$6,646<6D6L6T6\6d6l6t6|6
+6$6/6Q6\6|6
+6$7D7
+6%6,6064686<6@6D6H6
+6&6-646?6F6M6Y6`6g6m6t6{6
+6&606:6D6N6W6^6h6
+6&6]7&9::
+6'616;6E6O6Z>
+6'6;6O6t6
+6'7c7
+6(616
+6(696K6V6h6y6
+6(6|6
+6)6W6
+6+646T8d8
+6+6>6
+6,606@6D6T6X6h6l6|6
+6,606\6`6
+6,8r8
+6/666<6I6O6`6f6u6{6
+6/6N6`6t6
+6/777z7
+60696
+606s6
+607E7
+617E7M7U7
+61Q1Z1c1i1s1w1}1
+627D7
+636;6
+637q7x7
+63?BR3?ln3?
+64-bit double
+64-bit double planar
+646[6
+656=7R7j7z7
+656a6
+666`6z6
+66?ln6?
+676q6
+696A6
+697J7o8t8
+697y7
+6<6@6D6l6p6t6
+6<7F7P7
+6<C@D<
+6=*r7=xD8=:
+6=7k7s7
+6>:P:
+6?!)6?
+6@6p6
+6C7K7
+6H7]7
+6I6P6
+6I7n7
+6J7S7j7t7
+6K6S6
+6L9j9q9
+6M7X7u7
+6O7_7
+6O:t[V:-
+6P6n6
+6Q7s7
+6Q7y7
+6V7]7d7
+6W:u:
+6Y6a6
+6Y>K?
+6Z7a7N:p:[=}=
+6[7h7
+6i6w6
+6i=\>
+6j6 7S7
+6l6~6
+6v?xFv?
+6z7:8
+6~?e9~?
+7	8I8T8
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7
+7 7$74787H7L7\7`7p7t7
+7 70747D7H7X7\7l7p7
+7 727D7
+7 727f7
+7 8$8P8T8
+7 858F8M8
+7 8=8
+7!7'7.747;7A7K7\7
+7#737<7D7\7o7u7{7
+7#7R7\7c7Z8j8
+7#8>8a8s8
+7$7+727<7F7P7Z7d7n7x7
+7$7+727>7E7K7R7Y7`7g7n7u7|7
+7$7+757=7D7I7P7W7^7e7t7y7
+7$7,747<7D7L7T7\7d7l7t7|7
+7$7.787B7L7V7`7o7y7
+7$777G7W7t7
+7%7/797C7M7W7a7k7u7
+7%797M7
+7&707:7D7N7X7b7l7v7
+7'747>7d7
+7(7Z7
+7)797O7j7
+7)8<8{8Z>
+7)8i8t8
+7*727f7r7z7
+7*757
+7*8G9
+7+7<7Z7
+7+8r8z8
+7,70747\7`7d7
+7,7>7M7\7m7~7
+7,8084888<8@8D8H81;G;];
+7,8<8g8y8
+7-898y8
+7.84888<8@8
+7/8?8
+700PP
+700WP
+70777<7@7D7e7
+70r0A174K4#6
+71787H7O7m7w7~7
+717C7U7
+727]7q7
+738B8Q8`8
+738U9
+738t8
+747D7T7d7t7
+747u7
+748s8
+74S:2
+757K7b7z7
+768>8
+778Q8
+788k8v8
+7:7l7
+7:8B8N8]8
+7;8a8
+7<7@7D7p7
+7<p?9<
+7=9M:
+7>Lu9>
+7>[K8>
+7?R'8?
+7?mK7?
+7@7E7Q7V7u7
+7@7p7
+7B$//+r
+7C8K8
+7D7H7T7`7d7h7
+7D8S839
+7E738
+7G7N7
+7J8Q8
+7J9Z<
+7P7a7r7
+7S:q:
+7U9\9f9m9
+7X7u7
+7Z7`7
+7Z?fKZ?
+7[7m7
+7[7o7~7
+7^8o8
+7_^[]
+7`718
+7`7d7h7l7p7t7x7|7
+7d=T"j=
+7n?!Pn?
+7o8z8
+7t?^Jt?
+7w8W9W:
+7x>*A}>
+7y:	;2;
+7z8+;B;
+7z:Z;Z<
+7}?z:}?
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8 8$84888H8L8\8`8p8t8
+8 8$8L8P8T8|8
+8 8(8-848>8F8M8R8Y8`8g8n8
+8 8(80888@8H8P8X8`8h8p8x8
+8 8*848>8H8R8\8f8p8z8
+8 828D8
+8 9$9P9T9
+8 9(9n9v9
+8 9?9Q9c9u9
+8 9P9
+8"3hrf
+8"8,868@8J8T8^8h8r8|8
+8"8e8o8
+8"999H:f:
+8":-:b:q:
+8#8(8.868;8A8I8N8T8\8a8g8o8t8z8
+8#8-878A8K8U8_8i8s8}8
+8#8.848:8U8
+8#828C8a8l8{8
+8#8_8q8
+8#9b9v9
+8$8(888<8L8P8`8d8t8x8
+8$8+82898@8G8N8U8\8c8j8q8{8
+8$8,848<8D8L8T8\8d8l8t8|8
+8$979
+8%878
+8%8h8
+8%9*9b9t9
+8%9T9
+8%9v9|9
+8&8-848I9
+8&888H8T8i9u9
+8&969
+8'8M8x8
+8';-;S;Y;{;
+8(8/8?8F8o8y8
+8(808
+8)8L8
+8)9/9A9R9
+8*919b9i9
+8*9<9_9
+8*:j;
+8+8=8
+8,80848\8`8d8
+8,:G:
+8-939:9
+8-bit unsigned integer
+8-bit unsigned integer planar
+8.8<8K8
+8.8@8R8e8u8
+8/;U;];q;y;
+80878
+8088flex TMV
+808G8\8q8
+808S8
+808`8
+808b8m8z8
+80959>9C9L9Q9^9
+818;8D8[8a8e8o8u8
+848k8
+868?8F8]8d8m8t8{8
+879G:W;g<
+879h9
+889?9~9
+898[8
+899D9
+8:9@9
+8<8@8l8p8
+8=8G8
+8=8J8
+8=9]:
+8=aR?=
+8>8P8b8t8
+8>SR6>
+8?$N1
+8?ZN7?
+8@8p8
+8A9b9
+8C9P9W9^9
+8D9a9
+8H9O9V9]9d9k9r9y9
+8M8Y8a8
+8P:X:\:`:d:h:l:p:t:x:|:
+8Q9.:5:
+8SVX exponential
+8SVX fibonacci
+8Z9j9
+8Z:J;*=
+8_^[]
+8a8v8
+8c9j9
+8d8z8
+8e9C:
+8e9t9
+8e:j:z:
+8fLaCt6
+8g8y8
+8j;j=:?
+8l9s9
+8l??Sl?
+8svx_exp
+8svx_fib
+8x8DCT
+8y?t>y?
+8}?|S}?sm}?
+8~9v:
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+9 9(90989@9H9P9X9`9h9p9x9
+9"9*929
+9#9*91989?9F9M9T9[9b9i9p9z9
+9#9*919;9E9O9Y9
+9#:):0:b:j:p:~:
+9#;R;_;
+9$9(989<9L9P9`9d9t9x9
+9$9+92999@9G9N9U9a9h9q9x9
+9$9.989B9L9V9`9j9t9~9
+9$9/9@9[9g:
+9$979>9G9R9y9
+9$9i9
+9$:P:w:
+9$:`:G<d<
+9$:l:
+9%9-92989@9E9K9S9X9^9f9k9q9y9~9
+9&9g:
+9'9j9t9
+9':Z:g:
+9(9,9<9@9P9T9d9h9x9|9
+9(9:9L9
+9)9@9X9o9
+9*969
+9+:[:{:
+9,909\9`9
+9-<{=
+9/999B9Y9_9c9m9s9
+9/9r9
+909C9N9W9
+909`9
+919<9z9
+91:::
+92989
+92:D:
+939v9
+93:?:
+949X9a9l9
+94:G:
+959E9U9h9
+95;;;a;g;
+95h.0
+960/120 MDCT window
+979B9d9
+97:G:f:v:
+97:I:[:m:
+97:T:
+97:m:
+97;W;
+989H9Z9l9~9
+98:x:
+99:y:
+9:g&=:
+9;:{:
+9;}RV
+9<9@9D9l9p9t9
+9<:O:
+9<?TT<?
+9=460
+9?)c:?0
+9@9p9t9
+9E$tX
+9E9g9{9
+9FDue
+9FV	9
+9G(t2
+9GHu;
+9Gd}A
+9G|tEWj
+9J9R9
+9M$t1
+9P:T:(=
+9P<T<X<p<t<x<|<
+9R:[:
+9R:t:
+9S9[9i9w9
+9S9c9r9
+9T:Y:^:v?
+9TCr9
+9U:_:h:o:
+9W:';~<
+9W;]<
+9X?~bX?
+9] t"
+9^9{9
+9_9|9
+9_:x:
+9_^[]
+9ay8':
+9f?&If?
+9g9l9
+9h9z9
+9k?4pk?5
+9o?v?
+9s@vJ
+9sDvZ
+9z?iDz?
+9zDvH
+9{?|C{?`M{?5W{?
+9}:V;];d;k;s<<=D=@>
+:	;I;
+: :(:0:8:@:H:P:X:`:h:p:x:
+: :L:P:|:
+: :Q:\:
+: ;$;P;
+: ;P;
+: ;Q;
+:!:):
+:!;3;
+:!;];
+:";4;
+:#:*:1:8:?:F:P:W:^:h:r:|:
+:#:5:G:Y:k:}:
+:#:?:
+:$:*:0:6:<:B:H:N:T:Z:`:f:l:r:x:~:
+:$:.:8:B:L:U:\:f:
+:$:.:8:B:L:V:`:j:t:~:
+:$:0:<:H:T:`:l:x:
+:$;K;j;|;
+:%;Z;j;
+:&:;:Q:g:~:
+:':-:B:H:b:h:
+:':7:J:\:l:~:
+:':@:H:l:v:
+:':M:
+:';G;v;
+:(:,:<:@:P:T:d:h:x:|:
+:(:2:<:F:P:Z:d:n:x:
+:(;c;~;
+:);i;
+:*:m:x:
+:+:::B:T:j:|:
+:+:y:
+:+;2;c;j;
+:,:0:
+:,:0:4:\:`:d:
+:,:^:
+:.:@:
+:.:@:R:d:
+:/:::K:e:t:|:
+:/<w=
+:0:4:`:d:
+:0:<:D:
+:1:8:H:O:m:w:~:
+:3:X:x:
+:4;h;
+:6;M;
+:6;g;
+:7:M:c:k:u;
+:7:l:
+:7;G<d=|=
+:8:X:x:
+:8:a:
+:9:@:z:
+::%JA:
+:;:M:h:z:
+:<:@:D:l:p:t:
+:<;D;
+:>)n:>
+:?;K;
+:?;u;
+:?a*:?Mw9?O
+:A;x;
+:B:V:j:~:
+:H;b;
+:I;[;m;
+:J;R;
+:K:R:
+:K;d;K<d<
+:L;W;
+:M<]?
+:N<l<
+:P;a;s;
+:S=W=[=_=c=g=k=o=b?i?
+:S=y=
+:W?,OW?
+:Z:l:~:
+:];m<
+:]=O>
+:a:s:
+:c:h:p:';e<
+:h"?bC
+:h:z:
+:r;z;
+:u;#<
+:u<~<
+:u?SCu?
+:z<<=
+:|?CC|?
+:~?{?~?ND~?
+;	=%=
+; ;$;L;P;T;|;
+; ;&;,;2;8;>;D;J;P;V;\;b;h;n;t;z;
+; ;(;0;8;@;H;P;X;`;h;p;x;
+; ;*;4;>;H;R;\;f;p;z;
+; ;,;8;D;P;\;h;t;
+; <,<
+; <1<B<S<
+;!=w=
+;";,;6;@;J;T;^;h;r;|;
+;";,;6;@;J;T;^;m;w;
+;";1;`;k;
+;"<a<u<
+;$<.<z<
+;%;5;A;^;d;y;
+;%;6;P;_;n;y;
+;&;0;V?
+;&;5;D;h;t;
+;&;E;k;r;
+;&<A<d<v<
+;';q;
+;'=Q?U?Y?]?a?e?i?m?
+;(;2;<;F;P;m;t;~;
+;(;t;
+;(;y;
+;(=,=
+;);8;G;V;
+;*<W=
+;,;0;@;D;T;X;h;l;|;
+;,<2<[<m<
+;,<<<
+;,<]<
+;-;*>;>L>n>[?
+;-;>;
+;.;3;l;
+;.<B<V<j<
+;/;C;f;o;y;
+;/;o;
+;0;4;`;d;
+;0;7;>;E;L;S;Z;a;h;o;{;
+;0;:;A;H;S;Z;~;
+;0;C;S;f;x?
+;0<4<8<<<
+;0X0v0
+;1;C;
+;2<D<
+;3	3	3	3	3	3	3	3	
+;3<?<n<u<}<
+;3<e<
+;4;8;X;x;
+;4A4g>
+;5(U0
+;5<G<Y<k<
+;5=;=V=\=j=
+;5`T0
+;7;>;E;L;S;Z;a;k;r;y;
+;7<z=
+;8;O;f;x;`>i>
+;8;f;
+;8tB;x
+;9<y<
+;:<F<`<
+;:<G<g?
+;:<U<j<t<~<
+;<,"?<
+;<;@;D;l;p;t;
+;<<T<7?a?
+;=(U0
+;=`T0
+;>"tH>
+;>xa<>
+;?@,<?
+;?x-;?^H;??c;?
+;@<R<d<~<
+;@<~?
+;A$t$h
+;A<S<e<w<
+;A<f<
+;A}0;
+;B;N;
+;B?Z?f?s?|?
+;C|t^
+;C|t_
+;D;_;k;
+;D<4=
+;G>M.T>7
+;H;N;V;s;
+;H;S;^;i;
+;H<e<
+;Hxu-;p|u(
+;J;8<
+;J<Y<x<
+;J=:>
+;JJ9'
+;Jq=<
+;M v2Q
+;O;d;n;x;
+;Phta 
+;Q<x<
+;U,|y
+;W$u5
+;\;l;{;
+;]<e<
+;]=}>
+;^<}?
+;_tr.
+;`;H<
+;d;s;
+;m<u<
+;n<+=
+;p<y<
+;r=w=
+;r?gEr?
+;s<#=
+;s?`Vs?
+;t$,v-
+;z<*=
+;~?D>~?
+<	=I=T=
+< <(<0<8<@<H<P<X<`<h<p<x<
+< <)<6<e<m<
+< <)<<<A<O<
+< <0<4<D<H<X<\<l<p<
+< <2<
+< <F<[<l<s<}<
+< <L<P<|<
+< =^=
+< t8<	t4
+<! @<
+<!<(</<;<E<O<Y<`<g<
+<!<(<2<<<C<J<T<^<e<l<v<
+<!<X<_<
+<!><>
+<"<)<4<;<B<I<c<j<
+<#<)<:<?<G<M<^<c<k<q<
+<#<2<9<@<G<N<U<\<f<m<t<~<
+<#<2<C<d<o<~<
+<#<><M<\<g<~<
+<#=/=
+<$<.<8<B<L<V<`<j<t<~<
+<$<8<L<}<
+<$<e<{<
+<$t6f
+<$tPf
+<&<6<
+<(<4<@<
+<(<4<P<p<
+<)<9<I<Y<
+<)=4=y=
+<)=]=
+<*S"=JvW=
+<+<W<a<
+<+<Z<e<
+<,<0<\<`<
+<,<=<E>P>
+<,=>=Q=c=u=
+<.<P<[<j<u<
+<.<W<i<
+<0<8<\<f<
+<0=j=
+<0|m<9
+<1<\<w<
+<3=[=i=
+<4<=<D<[<b<k<r<y<
+<7=>=
+<7>B>
+<8=U=
+<8bunz8
+<9>Z>
+<;g~?;;
+<<<@<D<l<p<t<
+<<<D<r<
+<<Zp?m
+<<~I><T
+<=8|>=
+<=<J<W<d<
+<=>]?
+<?,Q=?!
+<?@D<?
+<?]|<?
+<@<D<H<L<P<h<l<p<t<x<|<
+<@<P<T<X<\<`<d<h<l<p<t<x<|<
+<@<p<
+<@=h=
+<@En[vP
+<C=I=O=V=^=d=k=q=x=~=
+<D<S<b<s<
+<D<n<
+<E<R<_<l<
+<ItH<ht<<lt
+<Q=x=
+<U=`=
+<X=:=]
+<Xt|3
+<Y<d<
+<Z=]>m?
+<Z`:&Lra
+<]_^[
+<]tTF
+<_^[3
+<`<}<
+<a?f?p?
+<at-<rt"<wt
+<i<~<
+<itx<o
+<k=x>
+<t<~<
+<v5h"00
+<zQ}<
+<{Q}<
+<|?*A|?ZE|?
+= =$=4=8=H=L=\=`=p=t=
+= =$=L=P=|=
+= =(=0=8=@=H=P=X=`=h=p=x=
+= =*=9=@=G=N=U=\=c=j=q=x=
+= =4=H=
+= >$>(>,>
+= >T>
+=!=,=;=F=W=v=
+=!=C=N=]=h=y=
+="=)=0=7=>=E=L=S=_=f=o=v=
+=">.>
+=#=*=:=A=_=i=p=
+=#=D=
+=$?+?2?9?
+=%=,=3=:=v>}>
+=%=6===x=
+=&=5?
+=&>B>
+='=.=9=B=R=Y={=
+='=2=h=s=y=
+='=:=L=^=n=
+='=u>
+=(=0=D=L=
+=(=2=<=F=P=Z=d=n=x=
+=(=8=
+=)>z>
+=*=5=D=O=`=q=
+=*>5>[>`>~>
+=*>9>b>
+=+=1=A=e=
+=+=;=[=k=
+=+===O=
+=+>3>}>
+=+?RZ+?
+=,=0=4=\=`=
+=,>0>4>8><>@>D>H>L>P>
+=-=2=
+=-=3=
+=-=8=I=g=v=
+=-=?=Q=c=
+=->-?
+=->E>O>Y>o>z>
+=-?K?R?b?i?
+=.4O?	=^
+=/=8=O=`=x=
+=/=Z>
+=0=4=\=`=
+=0=P=p=
+=0f0r0
+=3=y=
+=4	F?s
+=5^6f8
+=5^LI5;aV5
+=6=E>]>U?n?
+=6=x?
+=7=a=
+=7=d=
+=7?4Y7?
+=8=^=x=
+=8>X>x>
+=9=S=
+=9>B>
+=:=I=r=
+=:=j=
+=:D:K:R:Y:`:g:n:u:|:
+=;=B=R=Y=
+=;=u>
+=;],Ns
+=<=@=l=p=
+=<Q:/$|
+===b=
+==>=?
+==?b?
+=>=\=
+=?GpC?$
+=?])=?
+=@=p=
+=A>i>
+=A>x>
+=A?_?
+=B>H>z>
+=C>K>"?.?
+=D>M>q>|>
+=D?KVD?toD?
+=E>n>
+=F=X=i={=
+=F=z=
+=J=R=^=d=k=v={=
+=P=W=
+=P=d=x=
+=S=~=
+=T>^>
+=W>/?F?
+=[>r>
+=\=v=
+=\uI=
+=`=t=
+=b=7?
+=b>y>
+=g?{?
+=i=|=
+=o>v>
+=pqMU
+=r=?>n>w>
+=s?JQs?
+=t=e>
+=}?6A}?
+>	?,?<?_?o?
+> >$>L>P>|>
+> >(>0>8>@>H>P>X>`>h>p>x>
+> >L>P>|>
+>">,>6>@>J>S>Z>d>~>
+>">,>6>H>O>V>]>d>k>r>y>
+>">E>Y>m>
+>$>(>8><>L>P>`>d>t>x>
+>$>.>8>B>L>V>`>j>t>~>
+>$>4>W>g>
+>$>6>g>r>
+>$?(?,?0?
+>&>5>@>Q>s>~>
+>'>9>L>\>l>z>
+>'>W>
+>(>4>
+>(><>
+>)>0>K>R>e>l>
+>)?F?
+>*>|>
+>+>J>Q>q>
+>,'1D=
+>,>0>\>`>
+>,@U?
+>.>@>R>
+>.>n>
+>0>`>
+>0t-N
+>0t<NAj0X
+>1 ;>_q
+>2?:?O?_?o?
+>3?B?Q?`?
+>3?j?
+>8>X>x>
+>:>E>T>_>p>
+><>@>l>p>
+>>>X?
+>>?\?k?
+>>YR?>
+>?'?>?
+>C>}>
+>Cu/f9F
+>E?x?
+>F*'=9,
+>F>R>b>s>
+>I>n>
+>I?W?
+>K>R>
+>Q>X>
+>Q>k>
+>Richwq
+>S?_?
+>U?{?
+>W>]>
+>W?^?
+>Y>p>
+>^?d?h?r?x?
+>_A!>
+>d>w>
+>dp)>A
+>g>x>
+>y<}>
+>z#8>vq
+>z#9>tq
+>z#:>vq
+>z#;>vq
+>z?`Uz?
+>{?MR{?
+?	;	@
+?	?	?	?	?	?	?	?	?
+? ?$?(?,?0?
+? ?$?P?T?
+? ?)?8?E?
+? ?*?4?>?H?R?\?k?u?
+? ?3?=?V?
+? ?@?\?`?
+?!?+?5???I?S?]?g?q?{?
+?"?C?J?
+?"?`?r?
+?#	v?
+?#%X.y
+?#?5?G?
+?#?W?^?p?t?x?|?
+?#U+?
+?$?+?2?9?@?G?N?U?\?c?n?u?|?
+?$?|?
+?&?-?4?;?B?I?
+?&?0?7?>?H?R?i?p?z?
+?&?I?
+?&?J?V?^?h?
+?&Ty?
+?'?s?
+?(?,?<?@?P?T?d?h?x?|?
+?(FN\
+?*?\?
+?+?3?Z?
+?,?0?\?`?d?
+?0?J?
+?1?Z?
+?2?>?E?Q?l?x?
+?3?L?S?[?`?d?h?
+?3?W?
+?43-s
+?5L$.
+?6FID
+?7Tf(
+?9?X?j?|?
+?:?L?g?w?
+?<?@?D?l?p?t?
+?>ZN@>K
+??qd@?t3A?7
+??{	@?
+??~0@?P
+?@?o?
+?A%My
+?Al	?Yi
+?D,	?:
+?DaL?{
+?E?b?
+?F?X?
+?F?X?j?|?
+?I?P?
+?IT$7
+?N;)54
+?O?W?b?m?
+?P?y?
+?P`E5
+?QNT	
+?RbSQ
+?S?u?
+?Sg{@
+?U?u?
+?UUUUUU
+?X&eB
+?X?_?m?
+?`?o?
+?f?l?
+?g)([|X>=
+?h0& 
+?h6_~
+?m=)T|=
+?mU2?
+?no ?
+?u='@
+?uZEeu
+?w2 ?Z
+?|I7Z#
+@.data
+@.reloc
+@.rodata
+@33*@
+@4333
+@9L9X9d9p9|9
+@;FTv
+@>D>H>L>
+@?>=<;:98765443210//.-,,+*))('&&%$$##"!!  
+@?fff?H
+@?zJ@?c~@?8
+@H#?43
+@Mgq	$
+@P 0`p
+@P?5WP?
+@PSjU
+@RBAu
+@Vj j SP
+@VurP
+@_^[]
+@`0Pp
+@`p@@`@
+@g?@Og?v^g?
+@k?DNk?
+@r1RA
+A ?2` ?
+A frame threaded decoder did not free the frame on failure. This is a bug, please report it.
+A non-intra slice in an IDR NAL unit.
+A$;A(t$h
+A,_[3
+A7>O;
+A>o}A>
+A?>MA?
+A?u4B?
+A?|3C?]
+AAC (Advanced Audio Coding)
+AAC LATM (Advanced Audio Coding LATM syntax)
+AAC LD is only defined for ONLY_LONG_SEQUENCE but window sequence %d found.
+AAC data resilience (flags %x)
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ACreateFile2
+ADPCM 4X Movie
+ADPCM CDROM XA
+ADPCM Creative Technology
+ADPCM Electronic Arts
+ADPCM Electronic Arts Maxis CDROM XA
+ADPCM Electronic Arts R1
+ADPCM Electronic Arts R2
+ADPCM Electronic Arts R3
+ADPCM Electronic Arts XAS
+ADPCM IMA AMV
+ADPCM IMA CRYO APC
+ADPCM IMA Duck DK3
+ADPCM IMA Duck DK4
+ADPCM IMA Electronic Arts EACS
+ADPCM IMA Electronic Arts SEAD
+ADPCM IMA Funcom ISS
+ADPCM IMA Loki SDL MJPEG
+ADPCM IMA QuickTime
+ADPCM IMA WAV
+ADPCM IMA Westwood
+ADPCM Microsoft
+ADPCM Nintendo Gamecube THP
+ADPCM Shockwave Flash
+ADPCM Sound Blaster Pro 2-bit
+ADPCM Sound Blaster Pro 2.6-bit
+ADPCM Sound Blaster Pro 4-bit
+ADPCM Yamaha
+ADTS header detected, probably as result of configuration misparsing
+ADU (Application Data Unit) MP3 (MPEG audio layer 3)
+AJA Kona 10-bit RGB Codec
+ALAC (Apple Lossless Audio Codec)
+AMR-NB (Adaptive Multi-Rate NarrowBand)
+AMR-WB (Adaptive Multi-Rate WideBand)
+AMV Video
+ASCII/ANSI art
+ASUS V1
+ASUS V2
+ATI VCR1
+ATRAC1 (Adaptive TRansform Acoustic Coding)
+ATRAC3 (Adaptive TRansform Acoustic Coding 3)
+ATRAC3+ (Adaptive TRansform Acoustic Coding 3+)
+ATSC A/52A (AC-3)
+ATSC A/52B (AC-3, E-AC-3)
+AVC: Consumed only %d bytes instead of %d
+AVC: nal size %d
+AVCodecContext
+AVS (Audio Video Standard) video
+A_^[]
+AiFC.
+Alias/Wavefront PIX image
+Amazing Studio Packed Animation File Audio
+Amazing Studio Packed Animation File Video
+American Laser Games MM Video
+Apple Intermediate Codec
+Apple MJPEG-B
+Apple ProRes (iCodec Pro)
+Apple QuickDraw
+Application has requested %d threads. Using a thread count greater than %d is not recommended.
+April
+AreFileApisANSI
+Assertion %s failed at %s:%d
+Attachment: %s
+Audio object type %s%d
+Audio: %s
+August
+Auravision AURA
+Auravision Aura 2
+Autodesk Animator Flic video
+Autodesk RLE
+Ax#?uN}*
+Az??Gz?
+B sub_mb_type %u out of range at %d %d
+B'=>>
+B0H0L0P0T0
+B0f;C0u
+B2f;C2t
+B;VTv
+B>bvD>
+B??5N?
+B?X^A?
+BGR0C
+BGRAt
+BMP (Windows and OS/2 bitmap)
+BRA@s
+BRender PIX image
+BT.1361
+BT.2020
+BT.2020 - 10 bit
+BT.2020 - 12 bit
+BT.2020 CL
+BT.2020 NCL
+BT.470 BG
+BT.470 M
+BT.709
+Baseline
+Beam Software VB
+Bethesda VID video
+Bink Audio (DCT)
+Bink Audio (RDFT)
+Bink video
+Bitdepth greater than 8
+Bitmap Brothers JV video
+Brute Force & Ignorance
+Bs?^Ls?5Vs?
+Buffer for type %u was too small
+Bug in codevector vector building code. 
+C QRP
+C$QRP
+C)EpF
+C,?!a,?B~,?_
+C=/:E=3
+C=?o^=?
+C=pOT=
+C=u='>
+C>9xC>
+C?@fC?
+C?g`y?
+CABAC
+CAVLC
+CAVLC 4:4:4
+CD Graphics video
+CH_^3
+CL;FT
+CONSTR
+C`PWS
+CamStudio
+Cannot (re-)initialize context during parallel decoding.
+Cannot allocate memory.
+Canopus Lossless Codec
+Changing field mode (%d -> %d) between slices is not allowed
+Chinese AVS (Audio Video Standard) (AVS1-P2, JiZhun profile)
+Chronomaster DFA
+Cinepak
+Cirrus Logic AccuPak
+Clipping illegal num_reorder_frames %d
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+Codebook lookup type not supported. 
+Commentary
+Commodore CDXL video
+CompareStringEx
+CompareStringW
+Constrained Baseline
+Constrained Energy Lapped Transform (CELT)
+Context scratch buffers could not be allocated due to unknown size.
+Cook / Cooker / Gecko (RealAudio G2)
+CorExitProcess
+Could not allocate memory
+Could not find an AVHWAccel for the pixel format: %s
+CqTR;
+CreateEventA
+CreateEventExW
+CreateEventW
+CreateFileW
+CreateSemaphoreA
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+Creative YUV (CYUV)
+Ct=Y4u=
+D>u='>Qf
+D?{]E?'
+DCA (DTS Coherent Acoustics)
+DCT algorithm
+DCT coeffs of MB at %dx%d:
+DE?nvE?D
+DPCM Interplay
+DPCM Sol
+DPCM Xan
+DPCM id RoQ
+DPX image
+DS?yZS?
+DSP Group TrueSpeech
+DV (Digital Video)
+DV audio
+DVB subtitles
+DVB teletext
+DVD subtitles
+DVOO.
+DX?_XX?
+D]_^[
+Data: %s
+Dc9h	r9
+December
+Decoding in chunks is not supported for partitioned slices.
+Decoding pps %d from avcC failed
+Decoding sps %d from avcC failed
+Delayed frames seen. Reenabling low delay requires a codec flush.
+DeleteCriticalSection
+Delphine Software International CIN audio
+Delphine Software International CIN video
+Deluxe Paint Animation
+Dependent coupling is not supported together with LTP
+Dialogue
+Different chroma and luma bit depth
+Dirac
+Discarding interframe without a prior keyframe!
+Discworld II BMV audio
+Discworld II BMV video
+Duck TrueMotion 1.0
+Duck TrueMotion 2.0
+Duplicate value found in floor 1 X coordinates
+Dxtory
+Dy?*Ky?
+E _^[
+E$+M(;
+E(+E 
+E,+E$;
+E8+M(9M
+E>*AF>W
+E>>tF>
+E?AYF?W'G?
+E@j	RRP
+EHj	RRP
+EPZS motion estimation (default)
+ERROR : no subband found for frequency %d
+Eb2]A=
+Effects
+Electronic Arts CMV video
+Electronic Arts Madcow Video
+Electronic Arts TGQ video
+Electronic Arts TGV video
+Electronic Arts TQI video
+Emergency
+Encoding to a planar sample format, with more than %d channels, but extended_data is not set.
+EnterCriticalSection
+EnumSystemLocalesEx
+EnumSystemLocalesW
+Ep9& U
+Error allocating a picture.
+Error applying parameter changes.
+Error decoding AAC frame header.
+Escape 124
+Escape 130
+ExitProcess
+ExitThread
+Expected to read %d PS bits actually read %d.
+Expected to read %d SBR bytes actually read %d.
+Extended
+Extradata corrupt.
+Extradata missing.
+E{?4i{?
+F 9y,~G3
+F"VM>
+F0$?3=1
+F=|[G=e6H=
+F?H=F?
+FFmpeg video codec #1
+FLAC (Free Lossless Audio Codec)
+FLV / Sorenson Spark / Sorenson H.263 (Flash Video)
+FMO not supported
+FVWPP
+FX+FT
+FX+FTP
+FX+FTtL
+FX+FTu
+F\?$&0\z
+F\IE>
+F^?Vk^?
+Failed to add bitstream or slice control buffer
+Failed to add inverse quantization matrix buffer
+Failed to add picture parameter buffer
+Failed to allocate context scratch buffers.
+Failed to begin frame: 0x%lx
+Failed to build bitstream
+Failed to end frame: 0x%lx
+Failed to execute: 0x%lx
+Failed to get a buffer for %u: 0x%lx
+Failed to initialize bitstream reader
+Failed to initialize decoder for %dx%d
+Failed to release buffer type %u: 0x%lx
+FatalAppExitA
+Feature %s present in macroblock (value 0x%x)
+February
+Feeble Files/ScummVM DXA
+First header is not the id header.
+Flash Screen Video v1
+Flash Screen Video v2
+Floor 0 bark map size is 0.
+Floor 0 order is 0.
+Floor 0 rate is 0.
+Floor value is too large for blocksize: %u (%lu)
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+Forward Uncompressed
+Found reference and non-reference fields in the same frame, which
+FourCC
+Frame num gap %d %d
+Fraps
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryWhenCallbackReturns
+Friday
+F||<##
+F~?3P~?
+G Pj*S
+G$Pj+S
+G(Pj,S
+G,+W,
+G,Pj-S
+G.722 ADPCM
+G.723.1
+G.726 ADPCM
+G.729
+G0+G4
+G0H9E
+G0Pj.S
+G2H9E
+G4Pj/S
+G8;G0}$
+G8PjDS
+G:v|E:n
+G<-u_
+G<PjES
+G=#8K=
+G>uAI>
+G@PjFS
+GDPjGS
+GHPjHS
+GIF (Graphics Interchange Format)
+GIF87a
+GIF89a
+GLPjIS
+GOP timecode frame start number, in non-drop-frame format
+GPPjJS
+GSM Microsoft variant
+GTPjKS
+GWVj	
+GXPjLS
+G\PjMS
+G`PjNS
+Gamma 2.2
+Gamma 2.8
+GdPjOS
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
+GetConsoleCP
+GetConsoleMode
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentThread
+GetCurrentThreadId
+GetDateFormatEx
+GetDateFormatW
+GetEnvironmentStringsW
+GetFileInformationByHandleExW
+GetFileType
+GetLastActivePopup
+GetLastError
+GetLocaleInfoEx
+GetLocaleInfoW
+GetLogicalProcessorInformation
+GetModuleFileNameA
+GetModuleFileNameExA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetProcessWindowStation
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetTickCount
+GetTickCount64
+GetTimeFormatEx
+GetTimeFormatW
+GetUserDefaultLCID
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+Gf95)1}b*XhUu
+GhPj8S
+GlPj9S
+Go2Meeting
+Google VP9
+GpPj:S
+Gp]'&
+GtPj;S
+Gu?;Yu?
+Gw?'Ow?
+GxPj<S
+G|Pj=S
+G}?8K}?
+G~?HJ~?
+H.261
+H.263 / H.263-1996, H.263+ / H.263-1998 / H.263 version 2
+H.263 advanced intra coding / MPEG-4 AC prediction
+H.263+ / H.263-1998 / H.263 version 2
+H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+H9G |
+H:?2~:?5
+H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+H<gNJ<
+H?S3I?
+HDMV Presentation Graphic Stream subtitles
+HE$)M,
+HEVC (High Efficiency Video Coding)
+HH:mm:ss
+HHtVHHt
+HHtXHHt
+HNM 4 video
+HPQhD
+HPRhD
+HPWj@V
+HPjPW
+HX+HT
+H`$?h|
+Header size larger than data provided
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+Hearing Impaired
+High 10
+High 10 Intra
+High 4:2:2
+High 4:2:2 Intra
+High 4:4:4
+High 4:4:4 Intra
+High 4:4:4 Predictive
+Ht%Ht
+Ht+Ht$Ht
+Ht8Ht5Ht+Ht(Ht,HH
+HuffYUV
+Huffyuv FFmpeg variant
+Hv<_5x<"$z<
+I0:1X238
+I6e"V6
+I?B'I?c?I?
+I?YSJ?
+I?rKI?
+IAC (Indeo Audio Coder)
+IBM UltiMotion
+IF?lbF?({F?
+IFF ByteRun1
+IFF ILBM
+IMC (Intel Music Coder)
+IW\)SRc25''
+IYizEUdtBP_n>LZh;HVc8EQ^5AMY3>IU0;EP.8BL+5?H)2;E'08A%-6>#+3;!)08 '.5
+Id header corrupt.
+Id header is too short
+If you heard an audible artifact, there may be a bug in the decoder. Clipped intensity stereo position (%d -> %d)
+If you heard an audible artifact, there may be a bug in the decoder. Clipped noise gain (%d -> %d)
+If you want to help, upload a sample of this file to ftp://upload.libav.org/incoming/ and contact the libav-devel mailing list.
+Ignoring NAL unit %d during extradata parsing
+Ignoring cropping information.
+Implicit SBR was found with a first occurrence after the first frame.
+In?EVn?
+Inconsistent MMCO state between slices [%d, %d, %d]
+Inconsistent MMCO state between slices [%d, %d]
+Inconsistent channel configuration.
+Index value %d out of range (0 - %d) for %s at %s:%i
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+Input buffer exhausted before END element found
+Input contains more MB rows than the frame height.
+Insufficient output buffer
+Intel H.263
+Intel Indeo 2
+Intel Indeo 3
+Intel Indeo Video Interactive 4
+Intel Indeo Video Interactive 5
+Internal error, IDCT permutation not set
+Interplay C93
+Interplay MVE video
+Invalid Codec type %d
+Invalid Predictor Reset Group.
+Invalid Setup header
+Invalid bitstream - cannot apply SBR to element type %d
+Invalid bitstream, bs_pointer points to a middle noise border outside the time borders table: %d
+Invalid bitstream, crossover band index beyond array bounds: %d
+Invalid bitstream, too many QMF subbands: %d
+Invalid bitstream, too many SBR envelopes in FIXFIX type SBR frame: %d
+Invalid bitstream, too many SBR envelopes in VARVAR type SBR frame: %d
+Invalid bs_stop_freq: %d
+Invalid codebook in vorbis_floor_decode.
+Invalid compressed header size
+Invalid cropped dimensions: %dx%d.
+Invalid field mode combination %d/%d
+Invalid floor type!
+Invalid frame marker
+Invalid framing bit in Id header
+Invalid level prefix
+Invalid mix of idr and non-idr slices
+Invalid mode in packet
+Invalid n_master: %d
+Invalid num_bands_0: %d
+Invalid number of channels
+Invalid packet
+Invalid packet signature in Id header
+Invalid packet signature in Setup header
+Invalid partitions
+Invalid samplerate
+Invalid start code 0x%x
+Invalid sync code
+Invalid vDk0[%d]: %d
+Invalid vDk1[%d]: %d
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+IsValidLocale
+IsValidLocaleName
+ItNIt
+I}?0P}?
+J?Z)K?
+J?h[L?
+J?v;J?6kJ?
+JL?Qw,?B
+JPEG (2^n-1)
+JPEG 2000
+JPEG-LS
+JZdI 
+January
+Jr?I_r?
+K$_^[
+K<<H!
+K>IFL>
+K?15K?
+K?MpK?
+K?]	L?
+KERNEL32.dll
+K]?d^]?
+Karaoke
+Karl Morton's video codec
+Kega Game Video
+Kq?raq?
+Kr?3er?y
+L0P0T0X0\0
+L0b_^[
+L3h3l3p3
+L555,
+L565+
+L=VaM=h?N=
+L?&-M?
+L?1SK?
+L?P?T?X?\?`?d?h?l?p?t?x?|?
+L?YDM?
+LCL (LossLess Codec Library) MSZH
+LCL (LossLess Codec Library) ZLIB
+LCMapStringEx
+LCMapStringW
+LK?~dK?
+LPjQW
+LTP in ER AAC LD not yet implemented.
+LV?$vV?
+LZW init failed
+L\?qz]?]
+Lagarith lossless
+LeaveCriticalSection
+Linear
+LoadLibraryExW
+Lossless JPEG
+Low Delay SBR
+Lu.9}
+LucasArts SANM video
+LucasArts VIMA audio
+M$;M }3
+M$QWV
+M(WSV
+M0$1r2Y3r4
+M9=;K?U?f?w?
+M?#=O?
+MACE (Macintosh Audio Compression/Expansion) 3:1
+MACE (Macintosh Audio Compression/Expansion) 6:1
+MB-AFF
+MLP (Meridian Lossless Packing)
+MM/dd/yy
+MN?vdN?]{N?>
+MOV text
+MP1 (MPEG audio layer 1)
+MP2 (MPEG audio layer 2)
+MP3 (MPEG audio layer 3)
+MP3onMP4
+MPEG (219*2^(n-8))
+MPEG motion vector out of boundary (%d %d)
+MPEG-1 video
+MPEG-1/2 video XvMC (X-Video Motion Compensation)
+MPEG-2 video
+MPEG-4 Audio Lossless Coding (ALS)
+MPEG-4 part 2
+MPEG-4 part 2 Microsoft variant version 1
+MPEG-4 part 2 Microsoft variant version 2
+MPEG-4 part 2 Microsoft variant version 3
+MS ATC Screen
+MS Expression Encoder Screen
+MS Screen 1
+MS Windows Media Video V9 Screen
+MVs not available, ER not possible.
+MVx:>
+Main Audio Service
+March
+Marker bit was set
+MessageBoxW
+Microsoft RLE
+Microsoft Video 1
+Mimic
+Mirillis FIC
+Miro VideoXL
+Missing reference picture
+MnZ/r9
+Mobotix MxPEG video
+Monday
+Monkey's Audio
+More than one AAC RDB per ADTS frame
+Motion JPEG
+Motion Pixels video
+MultiByteToWideChar
+Multicolor charset for Commodore 64
+Multicolor charset for Commodore 64, extended with 5th color (colram)
+Multiple layers
+Multiple programs
+Musepack SV7
+Musepack SV8
+Mw?omw?
+M{?ANF
+N4^_]
+N=I,R=(
+N?7-N?|vM?p
+N?OzP
+N?l&O?
+NAL %d at %d/%d length %d
+NBj0X
+NCw;&Spg
+NFO`O
+NV21.
+NX+NT
+N_U9203+a
+Nellymoser Asao
+New frame, type: 
+Nintendo Gamecube THP video
+No codec provided to avcodec_open2().
+Non monotone time borders
+Non-byte-aligned audio-specific config
+Non-reference picture received and no reference available
+Not a Vorbis I audio packet.
+Not all references are available
+Not enough data for an intra PCM block.
+Not evaluating a further program_config_element as this construct is dubious at best.
+November
+Number of bands (%d) exceeds limit (%d).
+Number of scalefactor bands in group (%d) exceeds limit (%d).
+NuppelVideo/RTJPEG
+N~^[]
+O=1LQ=
+O>JXQ>B
+O?sVP?M
+O^?$b^?
+October
+Om?w\m?*im?
+On2 Audio for Video Codec
+On2 VP3
+On2 VP5
+On2 VP6
+On2 VP6 (Flash version)
+On2 VP6 (Flash version, with alpha channel)
+On2 VP7
+On2 VP8
+OpenEXR image
+OpenProcess
+Opus (Opus Interactive Audio Codec)
+Ot?TXt?
+Other mappings than type 0 are not compliant with the Vorbis I specification. 
+Out of memory
+Output even potentially corrupted frames
+OutputDebugStringW
+Overread VUI by %d bits
+O|?A`|?
+O~?`Q~?
+P sub_mb_type %u out of range at %d %d
+P0m0s0
+P;0sT;V
+P>"$Q>x
+P>$i^
+P>$zU>
+P?B+Q?
+P?O*P?
+P?ber
+PAM (Portable AnyMap) image
+PARAM_CHANGE side data too small.
+PBM (Portable BitMap) image
+PC Paintbrush PCX image
+PCM 16-bit little-endian planar
+PCM 32-bit floating point big-endian
+PCM 32-bit floating point little-endian
+PCM 64-bit floating point big-endian
+PCM 64-bit floating point little-endian
+PCM A-law
+PCM D-Cinema audio signed 24-bit
+PCM Zork
+PCM mu-law
+PCM signed 16-bit big-endian
+PCM signed 16-bit little-endian
+PCM signed 16|20|24-bit big-endian for Blu-ray media
+PCM signed 20-bit little-endian planar
+PCM signed 20|24-bit big-endian
+PCM signed 24-bit big-endian
+PCM signed 24-bit little-endian
+PCM signed 24-bit little-endian planar
+PCM signed 32-bit big-endian
+PCM signed 32-bit little-endian
+PCM signed 32-bit little-endian planar
+PCM signed 8-bit
+PCM signed 8-bit planar
+PCM unsigned 16-bit big-endian
+PCM unsigned 16-bit little-endian
+PCM unsigned 24-bit big-endian
+PCM unsigned 24-bit little-endian
+PCM unsigned 32-bit big-endian
+PCM unsigned 32-bit little-endian
+PCM unsigned 8-bit
+PGM (Portable GrayMap) image
+PGMYUV (Portable GrayMap YUV) image
+PIC-AFF
+PNG (Portable Network Graphics) image
+PP9E u
+PPM (Portable PixelMap) image
+PPPPP
+PPPPj
+PPWVj
+PQj(V
+PRN12#
+PSAPI.DLL
+PSSSSV
+PSSSj
+PSh8{ 
+PVVVVQ
+PWWWWV
+PWj/V
+P_^[]
+Parametric Stereo signaled to be not-present but was found in the bitstream.
+Pex?0
+Ph % 
+Ph,j 
+PhDa 
+PhHj 
+PhHt 
+PhTH!
+Phh& 
+Phhs 
+Phlt 
+Phpj 
+Phxu 
+Pictor/PC Paint
+Pixel format list longer than expected, it is either not properly terminated or contains duplicates
+Pj PQ
+Pj@Sj
+PjOSj
+PjdSQ
+Prediction is not allowed in AAC-LC.
+Psygnosis YOP Video
+Pulse data corrupt or invalid.
+Pulse tool not allowed in eight short sequence.
+P}R7,D
+Q-team QPEG
+Q/?\n/?
+Q>_]R>
+Q>ptO>
+Q?=4R?
+Q?wAQ?
+QCELP / PureVoice
+QDesign Music
+QDesign Music Codec 2
+QP %u out of range
+QP factor between P- and B-frames
+QP factor between P- and I-frames
+QP offset between P- and B-frames
+QP offset between P- and I-frames
+QQQQQ
+QQQRS
+QVWSj
+QVhH9
+Qa?Mca?
+Qc?Sbc?
+Qh0' 
+QhH| 
+QhPv 
+Qhl| 
+Qj	j	PP
+Qp?8]p?
+Qt?qSx?
+QueryPerformanceCounter
+QuickTime 8BPS video
+QuickTime Animation (RLE) video
+QuickTime Graphics (SMC)
+QuickTime video (RPZA)
+Qw,?B
+Q}?!U}?hX}?
+R0f0a1x1
+R4BY*
+R=E}S=}^T=(@U=E"V=
+R?,JR?
+R?C)R?5?R?"UR?	kR?
+R?KeS?
+R?L$S?
+RAQPS
+RBA@v
+RFC 3389 Comfort Noise
+RGB not supported in profile 0
+RGB0)
+RL2 video
+RTP payload size in bytes
+RUUUUU
+RVj	j	PP
+RWj	j	PP
+Ra=X#c=
+RaiseException
+Ran out of free frames!
+Ran out of memory during range coder init
+ReadConsoleW
+ReadFile
+RealAudio 1.0 (14.4K)
+RealAudio 2.0 (28.8K)
+RealAudio Lossless
+RealAudio SIPR / ACELP.NET
+RealVideo 1.0
+RealVideo 2.0
+RealVideo 3.0
+RealVideo 4.0
+Reducing left cropping to %d chroma samples to preserve alignment.
+Reference %d >= %d
+Reinit context to %dx%d, pix_fmt: %d
+ReleaseSemaphore
+Renderware TXD (TeXture Dictionary) image
+Requested reference %d not available
+Reserved SBR extensions
+Reserved bit set.
+Reserved bit should be zero
+ResetEvent
+Rh0' 
+Rh0H!
+Rh@H!
+Rhh' 
+Rhta 
+Rl={-n=
+RoInitialize
+RoUninitialize
+Rt?pot?W
+RtlUnwind
+Ru49]
+Rz?0Xz?
+R~?:W~?
+S 9CD
+S0?Mp0?
+S?%/S?
+S??gT?g
+S?SWR?u
+S?{<T?
+SBR Extension over read.
+SBR reset failed. Switching SBR to pure upsampling mode.
+SBR signaled to be not-present but was found in the bitstream.
+SBR was found before the first channel element.
+SEGA CRI ADX ADPCM
+SEI type %d truncated at %d
+SGI RLE 8-bit
+SGI image
+SHPh@)#
+SMPTE 170 M
+SMPTE 240 M
+SMPTE 302M
+SMPTE VC-1
+SPPP+
+SPRVW
+SPS decoding failure, trying again with the complete NAL
+SQRQP
+SSA (SubStation Alpha) / ASS (Advanced SSA) subtitle
+SSPVW
+SSSPQV
+SSSSS
+SSWWV
+SVPQW
+SVWPP
+SVWUj
+SVWjA_jZ+
+SVWjpXf;
+SVWtA
+SVj	j	PP
+SVj	j	QQ
+SVjA[jZ^+
+SWVPj
+Sample rate index in program config element does not match the sample rate index configured by the container.
+Saturday
+Scalefactor (%d) out of range.
+September
+Set maximum bitrate tolerance (in bits/s). Requires bufsize to be set.
+Set minimum bitrate tolerance (in bits/s). Most useful in setting up a CBR encode. It is of little use otherwise.
+Set rate control equation. When computing the expression, besides the standard functions defined in the section 'Expression Evaluation', the following functions are available: bits2qp(bits), qp2bits(qp). Also the following constants are available: iTex pTex tex mv fCode iCount mcVar var isI isP isB avgQP qComp avgIITex avgPITex avgPPTex avgBPTex avgTex.
+Set video bitrate tolerance (in bits/s). In 1-pass mode, bitrate tolerance specifies how far ratecontrol is willing to deviate from the target average bitrate value. This is not related to minimum/maximum bitrate. Lowering tolerance too much has an adverse effect on quality.
+SetConsoleCtrlHandler
+SetDefaultDllDirectories
+SetEndOfFile
+SetEvent
+SetFileInformationByHandleW
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUnhandledExceptionFilter
+Setup header corrupt.
+Setup header is too short
+Shorten
+Sierra VMD audio
+Sierra VMD video
+Silicon Graphics Motion Video Compressor 1
+Silicon Graphics Motion Video Compressor 2
+Sj VW
+Sj j P
+Sj j V
+Sj*XPj
+Sj\h(
+Sleep
+SleepConditionVariableCS
+Smacker audio
+Smacker video
+Sony PlayStation MDEC (Motion DECoder)
+Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1
+Sorenson Vector Quantizer 3 / Sorenson Video 3 / SVQ3
+Specified channel_layout is not supported
+Specified pix_fmt is not supported
+Specified sample_fmt is not supported.
+Specified sample_rate is not supported
+Speex
+Start frequency border too high: %d
+Stop frequency border too high: %d
+Stream is old and may not work
+Stream may have unhandled features
+SubRip Text
+Subtitle: %s
+Sun Rasterfile image
+Sunday
+Sunplus JPEG (SP5X)
+Superframe packet size too big: %u > %d
+Sx?Ytx?
+SystemFunction036
+S|?'\|?Xd|?|l|?
+T2?Zp2?
+T?.5@?
+TAK (Tom's lossless Audio Kompressor)
+TIFF image
+TMU{V
+TNS filter order %d is greater than maximum %d.
+TTA (True Audio)
+TUUUU
+TechSmith Screen Capture Codec
+TechSmith Screen Codec 2
+TerminateProcess
+Theora
+Third header is not the setup header.
+This AVCodecContext was allocated for %s, but %s passed to avcodec_open2().
+This decoder does not support parameter changes, but PARAM_CHANGE side data was sent to it.
+This stream was generated by a broken encoder, invalid 8x8 inference
+Thursday
+Tiertex Limited SEQ video
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Too many channels in vorbis_floor_decode.
+Too many channels: %d.
+Too many noise floor scale factors: %d
+Too many patches: %d
+Too many slices, increase MAX_SLICES and recompile
+Tr?.~r?
+Tried to copy AVCodecContext %p into already-initialized %p
+TrueHD
+Truevision Targa image
+Tuesday
+Ty?Bay?
+T~OXu
+U7&F|If
+U7>Ff=G%"5
+U9`9h9x<
+U=7=Y=s
+U?$|V?
+U?%1U?GFU?c[U?ypU?
+U?KGV?^3
+U?VaV?
+UNICODE
+UQPXY]Y[
+URPQQh
+UTF-16LE
+UTF-8
+UUUUUU
+Ui?Udi?
+Uncompressed 4:2:2 10-bit
+Uncompressed 4:4:4 10-bit
+Uncompressed RGB 10-bit
+Unexpected partition %d.
+UnhandledExceptionFilter
+Unimplemented luma bit depth=%d (max=10)
+Unknown ER channel configuration %d
+Unknown NAL code: %d (%d bits)
+Unknown chroma format %d
+Unknown profile %d
+Unspecified
+Unspecified colorspace
+Unsupported bit depth %d
+Unsupported mode count: %d
+Unsupported picture coding mode %d
+Unsupported sample rate for SBR: %d
+Upscaling
+Ut Video
+V%A+=
+V.Flash PTX image
+V<E}X<
+V="'K=r
+V>[IW>
+V?<-V?
+V?S0W?y
+V?rYW?
+V@QR;
+VBLE Lossless Codec
+VC3/DNxHD
+VMware Screen Codec / VMware Video
+VQF TwinVQ
+VRPQS
+VRj	j	PP
+VVVVV
+VWPhD	 
+VWh8:!
+VWj S
+VWtQ3
+Vg?;ug?
+Vh"00
+VhD<!
+Vh|x 
+Video: %s%s
+Visually Impaired
+Vj j 
+Vj j P
+Vj j S
+Vj j WP
+Voice Over
+Vorbis
+Vorbis time domain transform data nonzero. 
+Voxware MetaSound
+Voxware RT29 Metasound
+Vv?(gv?dwv?
+Vw?O^w?
+V}?N]}?
+V~?cX~?
+W%	s;M@
+W)?h.+?'
+W*[4	V
+W?>NX?
+WDG,r3
+WH9G8
+WPPPPj
+WSRPQV
+WWWWW
+WaitForSingleObject
+WaitForThreadpoolTimerCallbacks
+WakeAllConditionVariable
+WakeConditionVariable
+WavPack
+Wednesday
+Westwood Audio (SND1)
+Westwood Studios VQA (Vector Quantized Animation) video
+Wh H!
+WhxB!
+WideCharToMultiByte
+Windows Media Audio 1
+Windows Media Audio 2
+Windows Media Audio 9 Professional
+Windows Media Audio Lossless
+Windows Media Audio Voice
+Windows Media Video 7
+Windows Media Video 8
+Windows Media Video 9
+Windows Media Video 9 Image
+Windows Media Video 9 Image v2
+Wing Commander III / Xan
+Wing Commander IV / Xxan
+Winnov WNV1
+Wj	QQ
+Wj XP
+Wj j 
+Wj j P
+Wj j SP
+Wj0XP
+Wj0XPV
+Wj5_f;
+WjBhd9!
+Wp?.np?
+WriteConsoleW
+WriteFile
+Wrong packet type in Id header
+Wrong packet type in Setup header
+X1 motion estimation
+X=L0^=
+X>p`_>(
+XBM (X BitMap) image
+XG?ZqG?
+XWD (X Window Dump) image
+Xf?Uhf?
+Xvid interlacing bug (autodetected if FOURCC == XVIX)
+Y:/(A6>
+Y>|-Z>
+YCOCG
+YUNVw
+YX=Z!Z=
+YY_^[
+YYjgXf9
+Y_^[]
+Y__^[
+Yc?S{c?
+Yd?Hjd?
+Yu2Vj@h@)#
+Y{?#F}
+Z"uwC
+Z1l1v2
+Z=ex[=
+Z?2f[?!
+Z?;UZ?
+Z?Fy[?
+Z?{?[?
+ZB?ftB?
+ZI:i/K:
+Za?Z}a?
+ZeroCodec Lossless Video
+Zip Motion Blocks Video
+Zr?sdr?
+Zz?3fz?Vqz?j|z?o
+Z|?4^|?Mb|?bf|?tj|?
+[/\H]]^n_{`
+[>,={i
+[>r@\>
+[??L:7
+[?a&\?
+[?b"[?
+[j&,>
+[k?mik?
+[~?v`~?
+\(?Cz(?
+\.??C/?
+\0l0 101=2\2
+\>/8w>
+\?x9\?
+\x?	cx?
+]0&2:3
+]>MU^>
+]?"&]?
+]?JB]?
+]?l$]?
+]?qW^?^
+]V^H#$
+]\=[C]=
+]h?Nlh?
+]u?Qfu?
+]vQ<)8
+]z?gcz?
+]~?Q_~?
+^<WPV
+^>|6`>z
+^?Xo_?c
+^?b|_?
+^x^[]
+^y?edy?
+^{?kc{?Gh{?
+^}?.b}?je}?
+_1>E#2>
+_9@@tt
+_>_^[
+_?HX_?d
+_?~/`?{v`?
+_cabs
+_hypot
+_logb
+_nextafter
+_tcPVj@
+_x?.{x?
+_{=7I}=
+`.rdata
+`6?D|6?
+`>wBa>
+`?FA`?
+`?P&a?L
+`H9SfU9
+`h````
+`h`hhh
+a0?5J5l5w5
+a64_multi
+a64_multi5
+a<jpc<DJe<
+a>2id>I
+a?3Ia?
+a?@o`?
+a?}	b?
+aZ>bN_>
+aac_eld
+aac_he
+aac_he_v2
+aac_latm
+aac_ld
+aac_low
+aac_ltp
+aac_main
+aac_ssr
+abcdefghijklmnopqrstuvwxyz
+abort decoding on minor error detection
+abs_diff_pic_num overflow
+ac_vlc
+accurate integer
+adjust sensitivity of b_frame_strategy 1
+adpcm_4xm
+adpcm_adx
+adpcm_ct
+adpcm_ea
+adpcm_ea_maxis_xa
+adpcm_ea_r1
+adpcm_ea_r2
+adpcm_ea_r3
+adpcm_ea_xas
+adpcm_g722
+adpcm_g726
+adpcm_ima_amv
+adpcm_ima_apc
+adpcm_ima_dk3
+adpcm_ima_dk4
+adpcm_ima_ea_eacs
+adpcm_ima_ea_sead
+adpcm_ima_iss
+adpcm_ima_qt
+adpcm_ima_smjpeg
+adpcm_ima_wav
+adpcm_ima_ws
+adpcm_ms
+adpcm_sbpro_2
+adpcm_sbpro_3
+adpcm_sbpro_4
+adpcm_swf
+adpcm_thp
+adpcm_vima
+adpcm_xa
+adpcm_yamaha
+alias_pix
+alloc_frame_buffer() failed (hwaccel private data allocation)
+allocate dummy last picture for field based first keyframe
+allow decoders to produce unaligned output
+allow non-spec-compliant speedup tricks
+allow non-standardized experimental things
+allow unofficial extensions
+altivec
+always try a mb with mv=<0,0>
+amount of motion predictors from the previous frame
+amr_nb
+amr_wb
+ar=6Rs=
+arithmetic coder
+aspect
+atan2
+atrac1
+atrac3
+atrac3p
+au=9]
+audio config changed
+audio service type
+audio_service_type
+aura2
+autodetect
+autodetect a suitable number of threads to use
+autoselect a good one (default)
+av_bitstream_filter_close
+av_bitstream_filter_filter
+av_bitstream_filter_init
+av_bitstream_filter_next
+av_buffer_alloc
+av_buffer_allocz
+av_buffer_create
+av_buffer_default_free
+av_buffer_make_writable
+av_buffer_pool_get
+av_buffer_pool_init
+av_buffer_pool_uninit
+av_buffer_realloc
+av_buffer_ref
+av_buffer_unref
+av_codec_is_decoder
+av_codec_is_encoder
+av_codec_next
+av_cpu_count
+av_crc
+av_crc_get_table
+av_destruct_packet
+av_dict_copy
+av_dict_free
+av_display_matrix_flip
+av_display_rotation_set
+av_dup_packet
+av_dv_codec_profile
+av_dv_frame_profile
+av_fast_malloc
+av_fast_padded_malloc
+av_fast_realloc
+av_fft_calc
+av_fft_end
+av_fft_init
+av_fft_permute
+av_frame_alloc
+av_frame_copy
+av_frame_copy_props
+av_frame_free
+av_frame_get_buffer
+av_frame_get_side_data
+av_frame_is_writable
+av_frame_move_ref
+av_frame_new_side_data
+av_frame_ref
+av_frame_unref
+av_free
+av_free_packet
+av_freep
+av_gcd
+av_get_audio_frame_duration
+av_get_bits_per_pixel
+av_get_bits_per_sample
+av_get_channel_layout_nb_channels
+av_get_channel_layout_string
+av_get_codec_tag_string
+av_get_cpu_flags
+av_get_default_channel_layout
+av_get_exact_bits_per_sample
+av_get_picture_type_char
+av_get_pix_fmt_name
+av_get_planar_sample_fmt
+av_get_profile_name
+av_get_sample_fmt_name
+av_grow_packet
+av_hwaccel_next
+av_image_alloc
+av_image_check_sar
+av_image_check_size
+av_image_copy
+av_image_fill_linesizes
+av_image_fill_pointers
+av_imdct_calc
+av_imdct_half
+av_init_packet
+av_lockmgr_register
+av_log
+av_log_ask_for_sample
+av_log_get_level
+av_log_missing_feature
+av_malloc_tracked
+av_mallocz_tracked
+av_mdct_calc
+av_mdct_end
+av_mdct_init
+av_new_packet
+av_opt_free
+av_opt_set
+av_opt_set_defaults
+av_opt_set_dict
+av_packet_copy_props
+av_packet_free_side_data
+av_packet_from_data
+av_packet_get_side_data
+av_packet_move_ref
+av_packet_new_side_data
+av_packet_ref
+av_packet_rescale_ts
+av_packet_shrink_side_data
+av_packet_unref
+av_parser_change
+av_parser_close
+av_parser_init
+av_parser_next
+av_parser_parse2
+av_picture_copy
+av_picture_crop
+av_picture_pad
+av_pix_fmt_count_planes
+av_pix_fmt_desc_get
+av_pix_fmt_get_chroma_sub_sample
+av_realloc_tracked
+av_reallocp
+av_reduce
+av_register_bitstream_filter
+av_register_codec_parser
+av_register_hwaccel
+av_rescale_q
+av_sample_fmt_is_planar
+av_samples_copy
+av_samples_fill_arrays
+av_samples_get_buffer_size
+av_samples_set_silence
+av_shrink_packet
+av_stereo3d_create_side_data
+av_strdup
+av_strlcat
+av_usleep
+av_vlog
+av_xiphlacing
+avcC %d too short
+avcodec_align_dimensions
+avcodec_align_dimensions2
+avcodec_alloc_context3
+avcodec_alloc_frame
+avcodec_close
+avcodec_configuration
+avcodec_copy_context
+avcodec_decode_audio4
+avcodec_decode_subtitle2
+avcodec_decode_video2
+avcodec_default_execute
+avcodec_default_execute2
+avcodec_default_get_buffer
+avcodec_default_get_buffer2
+avcodec_default_get_format
+avcodec_default_reget_buffer
+avcodec_default_release_buffer
+avcodec_descriptor_get
+avcodec_descriptor_get_by_name
+avcodec_descriptor_next
+avcodec_encode_audio2
+avcodec_encode_subtitle
+avcodec_encode_video2
+avcodec_fill_audio_frame
+avcodec_find_best_pix_fmt2
+avcodec_find_decoder
+avcodec_find_decoder_by_name
+avcodec_find_encoder
+avcodec_find_encoder_by_name
+avcodec_flush_buffers
+avcodec_free_context
+avcodec_free_frame
+avcodec_get_chroma_sub_sample
+avcodec_get_class
+avcodec_get_context_defaults3
+avcodec_get_edge_width
+avcodec_get_frame_defaults
+avcodec_get_pix_fmt_loss
+avcodec_get_type
+avcodec_is_open
+avcodec_license
+avcodec_open2
+avcodec_pix_fmt_to_codec_tag
+avcodec_register
+avcodec_register_all
+avcodec_set_dimensions
+avcodec_string
+avcodec_version
+avctx->codec->encode2
+avctx->codec_type == AVMEDIA_TYPE_VIDEO
+avdiscard
+avpicture_alloc
+avpicture_deinterlace
+avpicture_fill
+avpicture_free
+avpicture_get_size
+avpicture_layout
+avpriv_aac_parse_header
+avpriv_ac3_channel_layout_tab
+avpriv_align_put_bits
+avpriv_copy_bits
+avpriv_copy_pce_data
+avpriv_dirac_parse_sequence_header
+avpriv_find_start_code
+avpriv_flac_is_extradata_valid
+avpriv_flac_parse_streaminfo
+avpriv_float_dsp_init
+avpriv_lock_avformat
+avpriv_mpa_bitrate_tab
+avpriv_mpa_freq_tab
+avpriv_mpeg4audio_get_config
+avpriv_mpeg4audio_sample_rates
+avpriv_put_string
+avpriv_report_missing_feature
+avpriv_request_sample
+avpriv_set_systematic_pal2
+avpriv_snprintf
+avpriv_split_xiph_headers
+avpriv_strtod
+avpriv_toupper4
+avpriv_unlock_avformat
+avpriv_vorbis_parse_extradata
+avpriv_vorbis_parse_frame
+avpriv_vorbis_parse_reset
+avsubtitle_free
+b!?~U"?dG#?
+b.?6X/?sL0?T?1?
+b16g)
+b48r,
+b>SQp>
+b?FIc?G
+b?`xe
+bJ@Ba
+b_qfactor
+b_qoffset
+b_sensitivity
+b_strategy
+b`9A!i9*
+backward predicted MVs of B-frames
+bethsoftvid
+bidir
+bidir_refine
+binkaudio_dct
+binkaudio_rdft
+binkvideo
+bitexact
+bits_per_coded_sample
+bits_per_raw_sample
+bitstream
+blit-pitch
+block_align
+bmv_audio
+bmv_video
+book_idx
+border_mask
+brd_scale
+brender_pix
+broken stream, invalid padding
+bt1361
+bt2020
+bt2020_10bit
+bt2020_12bit
+bt2020_cl
+bt2020_ncl
+bt470bg
+bt470m
+bt709
+buffer
+buffers
+bufsize
+bw?(qw?'
+c">] #>&
+c8nPr8
+c:\buildslave\libav_win32\build\dev\compat/w32pthreads.h
+c:\buildslave\libav_win32\build\dev\libavcodec\fft_template.c
+c:\buildslave\libav_win32\build\dev\libavcodec\libavcodec-56.pdb
+c:\buildslave\libav_win32\build\dev\libavcodec\mdct_template.c
+c:\buildslave\libav_win32\build\dev\libavutil/file_open.c
+c:\buildslave\libav_win32\build\dev\libavutil/mem.h
+c;0yj;
+c>I3d> 
+c?+0c?
+cUw,>;C
+cW?:xW?
+cabac decode of qscale diff failed at %d %d
+cabac_init_idc %u overflow
+cannot decode frame without keyframe
+cbp too large (%u) at %d %d
+cdgraphics
+changing width %d -> %d / height %d -> %d on slice %d
+channel element %d.%d is not allocated
+channel layout does not match number of channels
+channel_layout
+channel_layout not specified
+chroma
+chroma QP offset from luma
+chroma_format_idc %u
+chroma_sample_location
+chromaoffset
+cinepak
+closed GOP
+cmp_func
+code=%02x '%c'
+codec type or id mismatches
+codec_tag
+coder
+color primaries
+color range
+color transfert characteristic
+color value (ARGB) that is used instead of transparent color
+color_primaries
+color_primaries_type
+color_range
+color_range_type
+color_trc
+color_trc_type
+colorspace
+colorspace_type
+comfortnoise
+compresses bright areas stronger than medium ones
+compresses dark areas stronger than medium ones
+compression_level
+concealing %d DC, %d AC, %d MV errors
+context
+context model
+context_init() failed.
+corrupted macroblock %d %d (total_coeff=%d)
+cpb_count %d invalid
+crccheck
+ct_type:%X pic_struct:%d
+cu79}
+currently useless
+cutoff
+cv?9kv?Vsv?p{v?
+c}?>j}?
+c~?)f~?lh~?
+d$ ^[
+d$ _^[
+d$(^[
+d$(_^[
+d$@^[
+d$@_^[
+d$P^[
+d$P_^[
+d$p^[
+d$p_^[
+d2O4h4
+d4Ums4
+d>,Yb>
+d?Qkj?
+d?XTe?d
+d?Z4e??te?
+dark_mask
+dc_5(7
+dc_clip
+dct_coeff
+dctmax
+dddd, MMMM dd, yyyy
+deblock
+deblocking filter parameters %d %d out of range
+deblocking_filter_idc %u out of range
+debug
+debug_mv
+decode_slice_header error
+decoding to AV_PIX_FMT_NONE is not supported.
+default
+default_get_buffer called on frame %p
+default_get_buffer called on pic %p
+deflate
+deflate-based coder
+delay
+detect bitstream specification deviations
+detect improper bitstream length
+detected %d logical cores
+dia_size
+diamond motion estimation (alias for EPZS)
+diamond type & size for motion estimation
+diamond type & size for motion estimation pre-pass
+dirac
+direct-qpel-blocksize bug (autodetected per FOURCC/version)
+direct_blocksize
+discarding sps cropping, original values are l:%d r:%d t:%d b:%d
+dnxhd
+do not draw edges
+downscale frames for dynamic B-frame decision
+dqe-?;Z
+dquant out of range (%d) at %d %d
+ds?}xs?
+dsicinaudio
+dsicinvideo
+dtg_active_format
+dts_96_24
+dts_es
+dts_hd_hra
+dts_hd_ma
+duT9u
+dvaudio
+dvb_subtitle
+dvb_teletext
+dvd_subtitle
+dvvideo
+dxtory
+d{emf[gCh'i
+e+000
+e>;Of>q
+e?R$e?\De?Nde?)
+e?V,e?[<e?[Le?T\e?Gle?5|e?
+edge padding bug (autodetected per FOURCC/version)
+emu_edge
+epConfig %d
+err_detect
+error
+error in spectral data, ESC overflow
+error recognition
+error while decoding MB %d %d
+error while decoding MB %d %d, bytestream %td
+error[?] variables will be set during encoding
+esa motion estimation (alias for full)
+escape124
+escape130
+ew?emw?
+exp10
+experimental
+experimental quantizer modulation
+explode
+extended_data is not set.
+extradata NULL or too small.
+extradata contains %d bytes too many.
+extradata too small.
+extradata_size
+e{?+y{?D
+f#<?dY<
+f+E$f+E
+f-00f=
+f0l0r0x0~0
+f1p~^[
+f1w~_^[
+f? )g?
+f[;< !pG
+faani
+failed to allocate context scratch buffers.
+fast integer
+fastint
+ffvhuff
+first_mb_in_slice overflow
+flags
+flags2
+flashsv
+flashsv2
+floating point AAN DCT
+floating point AAN IDCT
+floor
+floor0 dec: booknumber too high!
+floor_setup->data.t1.class_masterbook[j]
+force low delay
+forward predicted MVs of B-frames
+forward predicted MVs of P-frames
+frame
+frame length mismatch %d << %d
+frame skip compare function
+frame skip exponent
+frame skip factor
+frame skip threshold
+frame_bits
+frame_number
+frame_size
+fraps
+frexp
+full motion estimation (slowest)
+full-pel ME compare function
+fx?Mtx?
+g723_1
+g;>q/<>
+g?!]i?
+g?e8g?
+g?k8h?
+g?|!g?
+g@u='@
+gL?|~L?
+gM?>~M?]
+gamma22
+gamma28
+get_buffer() cannot be called after ff_thread_finish_setup()
+get_buffer() failed
+get_buffer() failed (%d %p)
+get_buffer() failed (stride changed)
+get_buffer() failed (uv stride mismatch)
+get_buffer() failed to allocate context scratch buffers.
+get_buffer() failed!
+global_header
+global_quality
+gsm_ms
+guess_mvs
+h0l0p0t0
+h1o1v1}1
+h263i
+h263p
+h264_dxva2
+h264_slice_header_init() failed
+h4~?&
+h;@QR;
+h=Nxj=
+h>,Vj>6
+h><Fi>
+h?5wg?
+h?R#i?
+hI{L[
+hardware accelerator failed to decode picture
+has_b_frames
+hb?O2
+hdmv_pgs_subtitle
+header crc mismatch
+header_bits
+hex motion estimation
+hnm4video
+how strictly to follow the standards
+how to keep quantizer between qmin and qmax (0 = clip, 1 = use differentiable function)
+hpel_chroma
+htHjlY;
+htHjlZ;
+huffyuv
+i0 1>1\1
+i?E@i?
+iLBC (Internet Low Bitrate Codec)
+i^^?(>
+i_count
+i_qfactor
+i_qoffset
+i_tex_bits
+ibias
+icc_mode %d is reserved.
+id Quake II CIN video
+id RoQ video
+idcin
+iec61966_2_1
+iec61966_2_4
+iff_byterun1
+iff_ilbm
+ignore cropping information from sps
+ignorecrop
+ignoring invalid SAR: %u/%u
+ignoring invalid width/height values
+iid_mode %d is reserved.
+ildct
+ildctcmp
+illegal POC type %d
+illegal VLC bug (autodetected per FOURCC)
+illegal aspect ratio
+illegal icc
+illegal iid
+illegal long ref in memory management control operation %d
+illegal memory management control operation %d
+illegal modification_of_pic_nums_idc %u
+illegal reordering_of_pic_nums_idc %d
+illegal sample rate code %d
+illegal short term buffer state detected
+illegal short term reference assignment for second field in complementary field pair (first field is long term)
+in]D>
+incomplete frame
+incorrect codes
+increase the quantizer for macroblocks close to borders
+indeo2
+indeo3
+indeo4
+indeo5
+initial complexity for 1-pass encoding
+input_preserved
+insufficient thread locking around avcodec_open/close()
+inter masking
+inter quant bias
+interlaced DCT compare function
+interlaced motion estimation
+internal error in cmp function selection
+internal error, slice end before start
+interplay_dpcm
+interplayvideo
+intra quant bias
+intra_dc_precision
+invalid band type
+invalid channel mode: %d
+invalid default channel configuration (%d)
+invalid low delay sampling rate index %d
+invalid max blocksize: %d
+invalid packet: NULL data, size != 0
+invalid sample size code (%d)
+invalid sampling rate index %d
+invalid sync code
+iterative motion vector (MV) search (slow)
+j	PjYV
+j	RRP
+j	WWQ
+j	Yf;
+j	j	PP
+j	j	QQ
+j	j	QQR
+j SSPVW
+j VVPW
+j Yf;
+j j S
+j j SP
+j j V
+j j VP
+j j W
+j j WP
+j$_f98u,
+j*Xf;
+j*Zf;
+j.Yf;
+j0Xf;
+j0Yf;
+j1j	h 
+j1j	h0
+j;Yf9
+j=j	h
+j?(X3>
+j?g`y?
+j?j	h
+j?j	h@
+j?j	hP
+j@WPV
+j@h0{"
+j@j _W
+jAZjZ^
+jA[jZZ+
+jXYf;
+jXZf;
+jdZf;
+jdhxl#
+jgXf;
+joZf;
+jpSu'H
+jpeg2000
+jpegls
+jxYf;
+jyj	h
+j{?\t{?
+k+c?sjP
+k<;Gq\
+k>gwl>
+k?0,k?vGk?
+k?[%k?
+k?f`l?
+kernel32.dll
+keyint_min
+kx != f_table{high,low}[0]. Derived frequency tables were not regenerated.
+l	=q#
+l,kg<i
+l:*$t:
+l?.Om?
+l?a	m?
+l?g\n?
+lagarith
+last_pred
+ldexp
+left block unavailable for requested intra mode at %d %d
+left block unavailable for requested intra4x4 mode %d at %d %d
+level
+lf-delta
+libav.conf
+libavcodec license: LGPL version 2.1 or later
+libavcodec-56.dll
+libavcodec/aacdec.c
+libavcodec/avfft.c
+libavcodec/avpacket.c
+libavcodec/bitstream.c
+libavcodec/bitstream_filter.c
+libavcodec/h264.c
+libavcodec/h264_picture.c
+libavcodec/h264_ps.c
+libavcodec/h264_slice.c
+libavcodec/imgconvert.c
+libavcodec/lzw.c
+libavcodec/mpegvideo.c
+libavcodec/options.c
+libavcodec/parser.c
+libavcodec/pthread_frame.c
+libavcodec/pthread_slice.c
+libavcodec/utils.c
+libavcodec/vorbis_parser.c
+libavcodec/vorbisdec.c
+libavcodec/vp8.c
+libavcodec/vp9.c
+libavutil-54.dll
+limit motion vectors range (1023 for DivX player)
+linear
+ljpeg
+local_header
+log motion estimation
+log10
+log2_max_frame_num_minus4 out of range (0-12): %d
+log_level_offset
+log_sqrt
+long term list:
+long_term_pic_idx overflow
+low_delay
+lumi_mask
+l~?(o~?bq~?
+m0_$@
+m1WY$
+m?0+n?D
+m?`Im?,|m?
+m?r)m?<6m?
+mIA*C
+mWZ?Nq
+mX7gY
+mace3
+mace6
+macroblock (MB) type
+macroblock compare function
+macroblock decision algorithm (high quality mode)
+macroblock threshold
+mapping_setup->angle[j]
+mapping_setup->magnitude[j]
+mapping_setup->submap_floor[j]
+mapping_setup->submap_residue[j]
+max_prediction_order
+maximum Lagrange factor (VBR)
+maximum difference between the quantizer scales (VBR)
+maximum macroblock Lagrange factor (VBR)
+maximum video quantizer scale (VBR)
+maxrate
+mb_threshold
+mb_type
+mb_type %d in %c slice too large at %d %d
+mb_width/height overflow
+mbcmp
+mblmax
+mblmin
+me_method
+me_range
+me_threshold
+median
+memory management control operations (H.264)
+metasound
+mimic
+min_prediction_order
+minimum Lagrange factor (VBR)
+minimum interval between IDR-frames (x264)
+minimum macroblock Lagrange factor (VBR)
+minimum video quantizer scale (VBR)
+minrate
+misc_bits
+missing picture in access unit
+mjpeg
+mjpegb
+mmco: unref long failure
+mmco: unref short %d count %d
+mmco: unref short failure
+mmco:%d %d %d
+mmvideo
+mode_number
+mode_setup->mapping
+motion estimation bitrate penalty compensation (1.0 = 256)
+motion estimation threshold
+motion vector
+motionpixels
+mov_text
+mp3adu
+mp3on4
+mp4als
+mpeg1video
+mpeg2_aac_he
+mpeg2_aac_low
+mpeg2ts
+mpeg2video
+mpeg4
+mpeg_quant
+mpegvideo_xvmc
+ms_present = 3 is reserved.
+msmpeg4v1
+msmpeg4v2
+msmpeg4v3
+msrle
+msvideo1
+multiplied by qscale for each frame and added to scene_change_score
+musepack7
+musepack8
+mv0_threshold
+mv_bits
+mxpeg
+my?Bzy?
+n!;g{
+n>\	r>
+n?@Mo?*
+n?Cwn?
+n?a|o?v5p?
+nd$$f
+needed %d had %d
+negative number of zero coeffs at %d %d
+nellymoser
+no decoder config found
+no frame buffer available
+no frame!
+no mmco here
+no picture
+no_padding
+noise preserving sum of squared differences
+noise reduction
+nokey
+non-existing PPS %u referenced
+non-existing SPS %d referenced in buffering period
+non-existing SPS %u referenced
+noout
+noref
+normal
+normalize adaptive quantization
+np?z 
+nsse weight
+nssew
+nt$$f
+nt'joZ;
+number of bits needed for the block
+number of bits which should be loaded into the rc buffer before decoding starts
+number of macroblock rows at the bottom which are skipped
+number of macroblock rows at the top which are skipped
+number of reference frames (%d+%d) exceeds max (%d; probably corrupt input), discarding one
+number of slices, used in parallelized encoding
+n~?~r~?
+o% z"
+o'7cd
+o-0z"
+o-`z"
+o0!1(141;1
+o5 z"
+o5py"
+o88 W8
+o= z"
+o=Pz"
+o?9u5
+oD$@f
+oD$Pf
+oD$d)
+oL$0f
+oL$@f
+oL$`f
+oL$pf
+oT$@f
+oT$Pf
+oY.odP
+o\$ f
+o\$0f
+o\$@f
+o\$`f
+od$ f
+od$0f
+od$`f
+ol$0f
+ol$@f
+ol$Pf
+ol$`f
+ol$d)
+old standard qpel (autodetected per FOURCC/version)
+old_msmpeg4
+only decode/encode grayscale
+ot$ f
+ot$@f
+ot$Pf
+ot$pf
+out of range intra chroma pred mode at %d %d
+output_corrupt
+overflow in decode_cabac_mb_mvd
+o|$0f
+o|$@f
+o|$`f
+o}?=r}?ju}?
+p->avctx->codec_type == AVMEDIA_TYPE_VIDEO
+p<Q=e<
+p<{tr<
+p>7dq>K
+p?6Lp?uyp?]
+p?X$p?
+p?k^p?<qp?
+p\24D
+p_count
+p_mask
+p_tex_bits
+padding bug (autodetected)
+paf_audio
+paf_video
+partial-golden-update
+partition out of bounds: type, begin, end, size, blocksize: %hu, %lu, %lu, %u, %lu
+pass1
+pass2
+pbias
+pcm_alaw
+pcm_bluray
+pcm_dvd
+pcm_f32be
+pcm_f32le
+pcm_f64be
+pcm_f64le
+pcm_lxf
+pcm_mulaw
+pcm_s16be
+pcm_s16le
+pcm_s16le_planar
+pcm_s24be
+pcm_s24daud
+pcm_s24le
+pcm_s24le_planar
+pcm_s32be
+pcm_s32le
+pcm_s32le_planar
+pcm_s8
+pcm_s8_planar
+pcm_u16be
+pcm_u16le
+pcm_u24be
+pcm_u24le
+pcm_u32be
+pcm_u32le
+pcm_u8
+pcm_zork
+per-block quantization parameter (QP)
+pgmyuv
+phods
+phods motion estimation
+pic->data[0]!=NULL in avcodec_default_get_buffer
+pictor
+picture buffer allocations
+picture doesn't have either global or local palette.
+picture info
+place global headers at every keyframe instead of in extradata
+place global headers in extradata instead of every keyframe
+plane
+poc_cycle_length overflow %d
+pps:%u sps:%u %s slice_groups:%d ref:%u/%u %s qp:%d/%d/%d/%d %s %s %s %s
+pps_id %u out of range
+pre motion estimation
+pre motion estimation compare function
+pre_dia_size
+precmp
+prediction method
+preme
+print specific debug info
+profile
+prores
+ps extension overflow %d
+py?&wy?]}y?
+q-index
+q>q@r>
+q?5@r?
+q?>ft?
+q?Clq?
+q?W3q?
+q?\"q?@
+qNt?GA0?
+qblur
+qcelp
+qcomp
+qdiff
+qdraw
+qpel_chroma
+qpel_chroma2
+qq?r|q?6
+qscale
+qsquish
+qtrle
+r%f;M
+r)SRh
+r)f;q
+r2f;A
+r7Yr7=
+r;'>k;
+r?	1r?
+r?+&r?
+r?c+r?
+r?o>T?
+ra_144
+ra_288
+rate control
+rate distortion optimal, slow
+rate-distortion optimal quantization
+ratecontrol method
+raw (no encoding)
+raw UTF-8 text
+raw video
+rawvideo
+rc_buf_aggressivity
+rc_eq
+rc_init_cplx
+rc_init_occupancy
+rc_max_vbv_use
+rc_min_vbv_use
+rc_override_count
+rc_qmod_amp
+rc_qmod_freq
+rc_strategy
+ref %u overflow
+refcounted_frames
+reference count %d overflow
+reference count overflow
+reference frames to consider for motion compensation
+reference overflow
+reference overflow (pps)
+reference picture missing during reorder
+refine the two motion vectors used in bidirectional macroblocks
+releasing zombie picture
+remove short %d count %d
+request_channel_layout
+request_channels
+request_sample_fmt
+res_setup->books[j][k]
+res_setup->classbook
+reserved blocksize code: 0
+ret >= 0
+roq_dpcm
+run-length coder
+s PQR
+s->7E+>
+s0QRV
+s302m
+s>=ht>
+s?	At?#
+s?qGs?
+sU0&?W
+s`VWS
+sample aspect ratio
+sample/frame number invalid; utf8 fscked
+sc_factor
+sc_threshold
+scene change threshold
+scplx_mask
+select IDCT implementation
+select multithreading type
+set audio sampling rate (in Hz)
+set bitrate (in bits/s)
+set cutoff bandwidth
+set desired number of audio channels
+set error concealment strategy
+set error detection flags
+set motion estimation method
+set number of audio channels
+set ratecontrol buffer size (in bits)
+set the group of picture (GOP) size
+set the log level offset
+sgirle
+short term list:
+shorten
+side_data_only_packets
+simple
+simplealpha
+simplearm
+simplearmv5te
+simplearmv6
+simplemmx
+simpleneon
+skip bitstream encoding
+skip_bottom
+skip_count
+skip_exp
+skip_factor
+skip_frame
+skip_idct
+skip_loop_filter
+skip_threshold
+skip_top
+skipcmp
+slice
+slice type %d too large at %d %d
+slice:%d %s mb:%d %c%s%s pps:%u frame:%d poc:%d/%d ref:%d/%d qp:%d loop:%d:%d:%d weight:%d%s %s
+slice_count
+slice_flags
+slices
+smackaudio
+smackvideo
+smpte170m
+smpte240m
+sol_dpcm
+some old lavc-generated MSMPEG4v3 files (no autodetection)
+spatial complexity masking
+speex
+sps:%u profile:%d/%d poc:%d ref:%d %dx%d %s %s crop:%u/%u/%u/%u %s %s %ld/%ld
+sps_id %u out of range
+src->f->buf[0]
+src->f.buf[0]
+ss?^}s?
+start_display_time must be 0.
+startcode
+std_qpel
+steam.exe
+strategy to choose between I/P/B-frames
+stream_codec_tag
+strict
+strictly conform to a older more strict version of the spec or reference software
+strictly conform to all the things in the spec no matter what the consequences
+sub-pel ME compare function
+sub-pel motion estimation quality
+subcmp
+sum of absolute DCT transformed differences
+sum of absolute Hadamard transformed differences
+sum of absolute differences, fast (default)
+sum of absolute vertical differences
+sum of squared errors
+sum of squared quantization errors (avoid, low quality)
+sum of squared vertical differences
+sunrast
+t	_^3
+t WW9}
+t!+L$
+t!hH& 
+t"f;M
+t$ JK
+t$$JK
+t$0u-
+t$4u-
+t$hhE!
+t%Phh
+t%jGhd9!
+t&HHt
+t&hH& 
+t'+L$
+t'joZf;
+t(f;U
+t*hH& 
+t+OfF
+t.f;U
+t/HHt
+t/jiZf;
+t2Nt(
+t3B;U
+t4f;U
+t;Ht+
+t>ZZv>K
+t>sEu>(
+t?8 t?
+t??|s?
+t?P.t?
+t@VSP
+tHHt*Ht#
+tKHt:
+tLVWh
+tMj_S
+tRHtC
+targa
+tbj S
+tcplx_mask
+tehhE!
+temporal complexity masking
+tesa motion estimation
+tfHtWHtHHt/
+theora
+thread awaiting %d field %d from %p
+thread_ops
+thread_release_buffer called on pic %p
+thread_type
+threading operations
+threads
+ticks_per_frame
+tiertexseqvideo
+time_base
+time_scale/num_units_in_tick invalid or unsupported (%lu/%lu)
+timecode_frame_start
+too many reference frames %d
+too many threads/slices %d, reducing to %d
+too many threads/slices (%d), reducing to %d
+top block unavailable for requested intra mode at %d %d
+top block unavailable for requested intra4x4 mode %d at %d %d
+trans_color
+trellis
+truehd
+truemotion1
+truemotion2
+truespeech
+trunc
+truncated
+truncated frames
+tscc2
+tt?W}t?
+tuPQhp
+tw?i|w?
+twinvq
+txPQhp
+tyPVj@W
+t~?x}~?
+u	9F(u
+u	;_$
+u	^_3
+u	_^3
+u jfh
+u!h|}"
+u#j,Xf;
+u$WSj
+u&62G16t
+u'j0X
+u(hH& 
+u,9M@
+u,PQP
+u,Wj	QQ
+u,j V
+u4+U,+
+u<jPVW
+u=pE{=ga
+u>h\x 
+u?^p?o4
+u?t$u?
+u@h 8
+uBjAYjZ+
+uCPVj
+uGh\C!
+uHjAXf;
+uJSSR
+uWjAXf;
+uZEeu
+ucSVW
+umh motion estimation
+unaligned
+unknown
+unknown SEI type %d
+unofficial
+unset cur_pic_ptr on slice %d
+unspecified
+uo>3-q>
+uof;U
+use 'frames' B frames
+use 1/4-pel motion compensation
+use MPEG quantizers instead of H.263
+use best rate distortion
+use fewest bits
+use fixed qscale
+use four motion vectors per macroblock (MPEG-4)
+use gmc
+use interlaced DCT
+use internal 2-pass ratecontrol in first  pass mode
+use internal 2-pass ratecontrol in second pass mode
+use loop filter
+use mbcmp (default)
+use only bitexact functions (except (I)DCT)
+use strong deblock filter for damaged MBs
+user data:"%s"
+utvideo
+v	N+D$
+v.F_KO{/3
+v210x
+v5PWV
+v<'*6
+v=`kz=
+v>WSV
+v?-vb?
+v?@>v?
+v?Jfw?M
+v?V!v?
+v?Z0v?tOv?
+v?ZKw?
+v?hmx?
+v?{%v?
+vGPh8s 
+vJ>,DK>
+vL:w1M:wdM:
+variable length coder / Huffman coder
+vc1image
+verify embedded CRCs
+viSVW
+video quantizer scale blur (VBR)
+video quantizer scale compression (VBR). Constant of ratecontrol equation. Recommended range for default rc_eq: 0.0-1.0
+vis_mb_type
+vis_qp
+vismv
+visualize block types
+visualize motion vectors (MVs)
+visualize quantization parameter (QP), lower QP are tinted greener
+vmdaudio
+vmdvideo
+vorbis
+vorbu>f
+voxware
+v~?K{~?
+w?@!w?
+wWRhT
+w]_^[
+warning: first frame is no keyframe
+wavpack
+weighted
+westwood_snd1
+wmalossless
+wmapro
+wmav1
+wmav2
+wmavoice
+wmv3image
+work around not autodetected encoder bugs
+work around various bugs in Microsoft's broken decoders
+ws_vqa
+wtVj	
+w}?P}}?
+x	yny
+x(f9TE
+x0#1*1P1W1
+x0Ysqx
+x264 - core %d
+x4VCR2u
+x>P,y>
+x?CVx?s
+x?o x?
+xNj$_f99uFjdY9
+x`_^[
+xan_dpcm
+xan_wc3
+xan_wc4
+xk?SB*?
+xppwpp
+xpxxxx
+xvid_ilace
+xvidmmx
+xvmc_acceleration
+x~?3z~?b|~?
+y!_^[
+y%Sh8
+y(E<G&Iw
+y+?Xs,?
+y1~?|"
+y6_^[]
+y<_^[
+y<_^]
+y?N>y?X`y?y
+y?O3z?
+ycocg
+y{_^[
+z%~xU
+z({u{
+z>)Ex>
+z?%[z?$
+z?aUY
+z?k {?pH{?
+z?q.z?
+zB>sEC>
+zc%C1
+zero motion estimation (fastest)
+zerocodec
+z~_^f
+{?x%{?
+{N{N{N{NFEFEFEFE
+{S;-%K;
+{`WVS
+|)P!?Ua0
+|.}a}
+|9Nxp9
+|?	X|?X
+|?#>|?
+|?(.|?
+|?)+}?
+|?Kg~?
+|?V!|?
+|?{#|?
+|W8A=
+|ePWV
+}	_[3
+} j@W
+}.VPS
+}1syx
+}?%9}?2]}?M
+}?:F}?)z}?>
+}?G$}?
+}T?a)U?
+}j;REn;
+~ j!h
+~';_t|%3
+~(;^@u
+~-Pz"
+~6~Y~z~
+~?,	~?
+~?4:v?l)e?
+~?B$~?,8~?xK~?+^~?Fp~?
+~?H`~?B
+~?K)~?@3~?
+~?K.~?
+~?t ~?
+~@t	W
+~Lf9FRu
+~W>AQX>
+~j?*B{
+~lPQV
+~pjCXf
+~|?x)	

@@ -1,0 +1,1013 @@
+					
+							
+												
+																																												
+	!s99
+ A_A^A\
+ A_A^A]A\_
+ A_A^]
+ A_A^_
+ A_^[
+ A__[
+ A__^
+ H3E H3E
+ for detail.
+!! refusing to trigger minidump with debugger attached
+%%.%dg
+%(~|x
+%s%s%s%s%s
+' is not a number.
+(A\_^[
+(A^A]^[
+(A_A^^[
+(A_A^_]
+(D$ f
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
+(t$ 2
+(t$@H
+({2>q
+(|$ H
+)D$ L
+)t$0H
+)t$@H
+*uXI;
++o'q)}
+, last executing in 
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
+-1e+9999
+-Infinity
+-u-I;
+.00cfg
+.?AUIInteractableOverlay@@
+.?AU_Crt_new_delete@std@@
+.?AUhresult_access_denied@winrt@@
+.?AUhresult_canceled@winrt@@
+.?AUhresult_changed_state@winrt@@
+.?AUhresult_class_not_available@winrt@@
+.?AUhresult_error@winrt@@
+.?AUhresult_illegal_delegate_assignment@winrt@@
+.?AUhresult_illegal_method_call@winrt@@
+.?AUhresult_illegal_state_change@winrt@@
+.?AUhresult_invalid_argument@winrt@@
+.?AUhresult_no_interface@winrt@@
+.?AUhresult_not_implemented@winrt@@
+.?AUhresult_out_of_bounds@winrt@@
+.?AUhresult_wrong_thread@winrt@@
+.?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_cf2263839315ded02fdf5be5a75de7a8>@@
+.?AV?$_Binder@U_Unforced@std@@AEAP8CDesktopManagerThread@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@XAEBVValue@Json@@@std@@
+.?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_cf2263839315ded02fdf5be5a75de7a8>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CDesktopManagerThread@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCDesktopManagerThread@@
+.?AVCDesktopView@@
+.?AVCNonCopyable@@
+.?AVCThread@@
+.?AVCVRDesktop@@
+.?AVCVRMailbox@@
+.?AVCVRMailboxBase@@
+.?AVCWindowView@@
+.?AVException@Json@@
+.?AVIVRDesktop@@
+.?AVLogicError@Json@@
+.?AVRuntimeError@Json@@
+.?AVStyledWriter@Json@@
+.?AVWriter@Json@@
+.?AV_Facet_base@std@@
+.?AV_Pad@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+0A^_^
+0A_A^A\_^
+0A_A^A]A\_^[
+0A_A^A]A\_^]
+0A_A^_^[
+0A_A^_^]
+0A__[
+0}0i1
+130801120000Z
+160107120000Z
+1e+9999
+210101000000Z
+210429000000Z
+211007000000Z
+220330231712Z0/
+241009235959Z0a1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+310106000000Z0H1
+310107120000Z0r1
+360428235959Z0i1
+380115120000Z0b1
+3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6*f(_
+6I]Dc
+6OB,n_
+70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8_^][
+8aMbF$
+92P<;
+9D$xu
+9D$|tcH
+:0806
+< t+<
+</u#H
+<0:08
+<unknown>
+>Mp$d
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xinvalid_argument@std@@YAXPEBD@Z
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@.data
+@.reloc
+@A^_^
+@A_A^A\
+@A_A^A\_^
+@A_A^A]A\_^[
+@HcQdH
+@LcqHD
+@SAUAVAWH
+@SAUH
+@SVAUAVH
+@SVAVAWH
+@SVAWH
+@SVWATAWH
+@SVWATH
+@SWAWH
+@UAUAWH
+@USVATAVH
+@USVWATAUAVAWH
+@USVWATAVAWH
+@USVWAVH
+@USVWH
+@UVATAUAVH
+@UVAUH
+@UVWATAUAVAWH
+@UVWAVAWH
+@UWAVAWH
+A valid JSON document must be either an array or an object value.
+ASSERT: "%s" at %s:%d.
+ATAVAWH
+A^A\^
+A^A\^[]
+A^A]A\^]
+A^_^[]
+A_A\_^[
+A_A\_^]
+A_A]A\^[]
+A_A]]
+A_A^A\
+A_A^A\_]
+A_A^A\_^[]
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^[
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^A][
+A_A^_^[]
+A_A^_^]
+AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
+Access to desktop duplication lost for desktop %d.
+AttachThreadInput
+AttemptSendInput failed.
+AuthD
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Bellevue1
+C++/WinRT version:1.0.190111.3
+C0L9$
+CD$(H
+CD$0H
+CD$hH
+CDesktopManagerThread
+CDesktopManagerThread::CreateDXGIFactory1 failed.
+CL$0H
+CT$ H
+CT$(L
+CT$0I
+CT$8D
+CT$`H
+CT$`I
+CT$pH
+C\$(3
+C\$0H
+C\$0L
+C\$0M
+C\$PL
+C\$pH
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+Close Frame
+CloseHandle
+CoCreateInstance
+CoIncrementMTAUsage
+CoInitializeEx
+CoInitializeEx failed.
+CoTaskMemFree
+CoUninitialize
+ComputeVirtualDesktopBounds
+CoreMessaging.dll
+CreateDXGIFactory1
+CreateDirect3D11DeviceFromDXGIDevice
+CreateDispatcherQueueController
+CreateEventA
+CreateEventW
+CreateThread
+Created desktop staging texture.
+Created desktop upload texture.
+Cursor has neither color nor mask bitmap.
+C|$PL
+D	d$DA
+D	l$DH
+D$ A;
+D$ E3
+D$ H;
+D$(E3
+D$(H;
+D$(I;
+D$0E3
+D$0H+
+D$0L#
+D$0fD
+D$8A+
+D$8E+
+D$@E3
+D$EL;
+D$EM+
+D$PM;
+D$`E3
+D$`H;
+D$`I;
+D$`fI
+D$hL;
+D$pE3
+D3D11CreateDevice
+D3D11CreateDevice failed.
+D8fht/H
+D;l$0
+D;v(s
+DXGI output null, failed to duplicate output.
+DeleteCriticalSection
+DeleteDC
+DeleteObject
+Desktop %d
+Desktop %d. Call %s. Function %s. Overlay error %s.
+Desktop Pointer
+Desktop Text
+DesktopManagerThread
+DesktopView %d exiting
+DesktopView_%d
+Destroying overlay for desktop %d.
+Destroying overlay for window %s.
+Destroying pointer overlay for desktop.
+DigiCert Assured ID Root CA0
+DigiCert Inc1
+DigiCert Timestamp 20210
+DigiCert Trusted Root G40
+DigiCert, Inc.1 0
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+DwmGetDxSharedSurface
+DwmGetWindowAttribute
+E;u`|
+Empty escape sequence in string
+Encountered a fatal error updating desktop views.
+EnterCriticalSection
+EnumWindows
+Error attaching thread input.
+Error detaching thread input.
+Error enumerating HMD adapter.
+Error getting HMD adapter index.
+Error getting window placement.
+Error querying IDXGIDevice interface.
+Error releasing duplication frame.
+Error resetting window style.
+Error setting GWL_STYLE.
+Error setting active window.
+Error setting focus.
+Error setting foreground window.
+Error setting window position.
+Error showing window.
+Error uploading cursor texture for desktop %d.
+Exceeded stackLimit in readValue().
+Executable: %s
+Failed Watchdog timeout in thread %s after %f seconds
+Failed Watchdog timeout in thread %s after %f seconds. Aborting.
+Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
+Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
+Failed calling AcquireNextFrame.
+Failed to create IShellDispatch instance.
+Failed to create cursor Texture2D.
+Failed to create cursor upload texture.
+Failed to create desktop staging texture.
+Failed to create desktop upload texture.
+Failed to duplicate output.
+Failed to get DPI for monitor. Falling back to default DPI.
+Failed to get HMD adapter.
+Failed to get IDXGIOutput1 interface.
+Failed to get adapter description.
+Failed to get output desc.
+Failed to get output description.
+Failed to get pixel buffer for icon.
+Failed to get pointer shape.
+Failed to get texture from desktop resource.
+Failed to initialize desktop views.
+Failed to map cursor upload texture.
+Failed to map desktop staging texture.
+Failed to map desktop upload texture.
+Failed to reinitialize output duplication for desktop %d, updating description.
+Failed to set thread %p priority: invalid priority %d
+Failed to update pointer overlay for desktop %d.
+FormatMessageA
+GDI32.dll
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetCursorInfo
+GetCursorInfo failed.
+GetCursorPos
+GetDC
+GetDIBits
+GetDIBits failed to retrieve BITMAPINFO.
+GetDIBits failed to retrieve pixel buffer.
+GetDpiForMonitor
+GetEnvironmentVariableA
+GetExitCodeThread
+GetForegroundWindow
+GetIconInfo
+GetIconInfo failed.
+GetLastError
+GetModuleHandleW
+GetOverlayMouseScale
+GetPixelBuffer not implemented for biBitCount == %d.
+GetProcAddress
+GetRestrictedErrorInfo
+GetSystemMetrics
+GetSystemTimeAsFileTime
+GetTickCount64
+GetVRDesktopImpl
+GetWindowLongA
+GetWindowLongPtrA
+GetWindowPlacement
+GetWindowRect
+GetWindowTextLengthW
+GetWindowTextW
+GetWindowThreadProcessId
+GraphicsCaptureSession is not supported.
+H!C@H
+H+SpI
+H+WpA
+H+WpH
+H+WpI
+H93t	H
+H9Ahs
+H9D$@u
+H9Qhv#H
+H;0u:H
+H;9u|A
+H;Cxu
+H;{XH
+H;}PtwH
+HA^_^[
+HMD D3D11CreateDevice failed.
+HMD IDXGIAdapter (%s)
+HMD context (%s)
+HMD device (%s)
+HandleInput
+Handling keyboard char input
+Handling keyboard closed
+Handling lock mouse
+Handling mouse button down
+Handling mouse button up
+Handling mouse move
+Handling overlay events
+Handling overlay focus enter
+Handling overlay focus leave
+Handling overlay shown
+Handling physical mouse override
+Handling raw mouse move
+Handling scroll discrete
+Handling scroll smooth
+Handling unlock mouse
+HcFdH
+I0G08
+I9Bhs
+I;4$H
+I;4$L
+I;8u?H
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRChaperoneInternal_001
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorSystemInternal_001
+IVRControlPanel_006
+IVRDebug_001
+IVRDriverDirectInternal_XXX
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRInputInternal_002
+IVRInput_010
+IVRMailbox_002
+IVROverlayInternal_XXX
+IVROverlay_025
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRServer_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+Infinity
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Initializing desktop manager...
+Initializing desktop view %d.
+Initializing output duplication for desktop view %d.
+InterlockedPushEntrySList
+IsDebuggerPresent
+IsOverlayVisible
+IsProcessorFeaturePresent
+J>@G_
+K32GetModuleFileNameExW
+KERNEL32.dll
+K}*n:	
+L$ E3
+L$ H;
+L$ L;
+L$ SH
+L$ SUVWH
+L$ SVWH
+L$ SWH
+L$ UVWATAUAVAWH
+L$(E3
+L$0E3
+L$0fD
+L$8D;
+L$@H;
+L$hE3
+L$pE3
+L9)t>H
+L9l$H
+L9|$p
+L;8u6H
+L?n(Zy&
+LeaveCriticalSection
+Line %d, Column %d
+LoadCursorA
+LoadLibraryA
+LocalFree
+LocalizationManager
+Lsystem.window.%s
+M H1E
+M$#0]
+M98u/
+MB(iVR
+MSVCP140.dll
+Mailbox %s received message %s, which it didn't have a handler for
+MainThrd
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Minidump comment truncated
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+NPH9Q
+OLEAUT32.dll
+OpenProcess
+OpenProcess failed for pid = %d. Error: %s
+Out of thread local storage!
+PA^_^
+PA_A^A]A\_^]
+PA_A^_^]
+PAq=?Mp#
+Parse failed for JSON message in mailbox %s: %s
+Parsing of JSON string "%s" failed: %s
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Pz}b!
+QJxy6z'
+Qkkbal
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RaiseException
+Recreate CaptureFramePool
+Reinitializing output duplication for desktop %d.
+ResetEvent
+RoGetActivationFactory
+RoOriginateLanguageException
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+SA|X=G
+SHCreateItemFromParsingName
+SHELL32.dll
+STEAMVR_DISABLE_CRASH_REPORTING
+STEAMVR_DISABLE_THREAD_WATCHDOGS
+STEAMVR_ENABLE_THREAD_WATCHDOGS
+SUVWATAVAWH
+SVWATAUAVAWH
+SVWAVAWH
+SVWAVH
+SWAWH
+SendInput
+SendInput failed: %d events inserted, error code = %s
+Set thread %p priority to: %d
+SetActiveWindow
+SetEvent
+SetFocus
+SetForegroundWindow
+SetOverlayTexture
+SetThreadPriority
+SetUnhandledExceptionFilter
+SetWindowLongPtrA
+SetWindowPos
+Setting mouse scale X: %f, Y: %f
+ShowWindow
+Shutdown
+Shutting down existing desktop views.
+Sleep
+SleepConditionVariableCS
+Started desktop capture for display %d.
+Successfully reinitialized output duplication for desktop %d, updating description.
+Switching from laser mouse to physical mouse at %d, %d (from %d, %d). Physical timestamp was %d ticks newer.
+Switching from physical mouse to laser mouse at %d, %d
+Switching to laser mouse when first showing overlay.
+Syntax error: value, object or array expected.
+T$ M+
+T$(H9T$0t!H
+T$@fI
+T$XH+
+Thread exited immediately
+Thread failed to initialize 1
+Thread failed to initialize 2
+Thread watchdog timed out %s
+Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TryGetNextFrame
+UATAUAVAWH
+USER32.dll
+USVATAUAWH
+USVWATAUAVAWH
+USVWAVAWH
+USVWAVH
+UVWATAUAVAWH
+UVWATAWH
+UVWAVAWH
+UWATAVAWH
+UWAVH
+UWAWH
+Unable to call duplication release frame for desktop %d.
+Unable to compute virtual coords or normalized coords...
+Unable to destroy window view - invalid HWND.
+Unable to get normalized coords from virtual coords for locked mouse position.
+Unable to get overlay mouse scale.
+Unable to interact with foreground window. Displaying window switcher.
+Unable to open desktopview mailbox.
+Unable to send debug info to the dashboard UI.
+Unable to send keyboard closed to the dashboard UI.
+Unable to send updated window list to the dashboard UI.
+Unable to send window view created message to the dashboard UI.
+Unable to send window view destroyed message to the dashboard UI.
+Unable to spawn window view - HWND not found in window map.
+Unable to spawn window view - invalid HWND.
+Unable to start window view for %s.
+UnhandledExceptionFilter
+Unknown cursor type %d
+Unknown exception
+UpdateDesktopViews
+UpdateDesktopViews: clear out existing views.
+UpdateDesktopViews: create desktop views.
+UpdateDesktopViews: fatal error.
+UpdateOverlayCursorPositionOverride
+UpdateOverlayTexture
+UpdatePhysicalMouseInfo
+UpdatePointerOverlay
+UploadCursorTexture
+V3"/"6
+VATAVH
+VCRUNTIME140.dll
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetInitToken
+VR_LOG_PATH
+VR_OVERRIDE
+VWATAVAWH
+VWAVH
+VWAWH
+V_~]	,
+Valve Corp.0
+Valve Corp.1
+W H+W
+WATAUAVAWH
+WAVAWH
+WaitForSingleObject
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning: Watchdog %s not properly cleaned up%s%s
+Washington1
+WindowView_%s
+WindowsCreateStringReference
+Y9"SD
+[K]taM?
+\$ E3
+\$ UAVAWH
+\$ UH
+\$ UWATH
+\$0H;
+\$8H;
+\$PI;
+\$`H+
+\$hI;
+\$pI;
+\jtty
+\u=H;
+]J<0"0i3
+_Cnd_destroy
+_Cnd_destroy_in_situ
+_Cnd_do_broadcast_at_thread_exit
+_Cnd_init
+_Cnd_init_in_situ
+_Cnd_signal
+_Cnd_timedwait
+_Cnd_wait
+_CxxThrowException
+_Mtx_current_owns
+_Mtx_destroy
+_Mtx_destroy_in_situ
+_Mtx_init
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Thrd_id
+_Thrd_join
+_Thrd_start
+_Xtime_get_ticks
+__C_specific_handler
+__CxxFrameHandler3
+__acrt_iob_func
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vfprintf
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_errno
+_execute_onexit_table
+_gUT^
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_lCI	
+_purecall
+_register_onexit_function
+_seh_filter_dll
+`.rdata
+`A_A^A]A\_^[
+`A_A^A]A\_^]
+abort
+additional six characters expected to parse unicode surrogate pair.
+api-ms-win-core-errorhandling-l1-1-0.dll
+api-ms-win-core-handle-l1-1-0.dll
+api-ms-win-core-heap-l2-1-0.dll
+api-ms-win-core-interlocked-l1-1-0.dll
+api-ms-win-core-libraryloader-l1-2-0.dll
+api-ms-win-core-libraryloader-l1-2-1.dll
+api-ms-win-core-localization-l1-2-0.dll
+api-ms-win-core-processthreads-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-1.dll
+api-ms-win-core-psapi-l1-1-0.dll
+api-ms-win-core-synch-l1-1-0.dll
+api-ms-win-core-winrt-error-l1-1-0.dll
+api-ms-win-core-winrt-error-l1-1-1.dll
+api-ms-win-core-winrt-l1-1-0.dll
+api-ms-win-core-winrt-string-l1-1-0.dll
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+assert json failed
+bad allocation
+bad array new length
+bad conversion
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+d$`H=
+d3d11.dll
+dashboard
+deque<T> too long
+desktopview
+dwc_#Ri
+dwmapi.dll
+dxgi.dll
+enableWindowView
+exception thrown in JSON library
+expecting another \u token to begin the second half of a unicode surrogate pair
+fF94@u
+false
+fffffff
+fnVa')
+frame_time
+gfffffffH
+gfffffffI
+handlers
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+https://www.digicert.com/CPS0
+icon_steamvr_desktop.png
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+input_frame_time
+invalid stoull argument
+j0h02
+jj@0HK4
+k0i0$
+l$ H;
+l$ H=
+l$8E3
+l$@H;
+l$PM9n
+l$xM;
+list<T> too long
+m0k0$
+m_nMaxLogBufferingSize > 0
+m_pCursorTexture
+m_ulHandle != vr::k_ulInvalidMailbox
+malloc
+map/set<T> too long
+memcmp
+memcpy
+memmove
+memset
+message_id
+ntelD
+ole32.dll
+openvr_api.dll
+overlay_frame_times
+overlay_key
+overlay_keyboard_closed
+pA_A^A\_^][
+pA_A^_
+pA_A^_^]
+product_name
+r,fff
+request_destroy_window_view
+request_handlers
+request_handlers_response
+request_show_desktop
+request_spawn_window_view
+request_window_list_update
+returnAddress
+running
+shcore.dll
+shutdown
+startup
+stoull argument out of range
+string too long
+strncpy
+strpbrk
+strtoull
+system.cursor.ibeam
+system.desktop.%d
+system.desktop.pointer
+systemui_dashboard
+t$ AVH
+t$ AWH
+t$ E3
+t$ UWATAVAWH
+t$ WAVAWH
+t$ WH
+t$0H;
+t$@H=
+t$PH=
+t:I;>t
+tXfff
+terminate
+title
+tolower
+update_debug_info
+update_window_list
+user32.dll
+v=Y]Bv
+vE;E`M
+vector<T> too long
+vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
+vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )
+vr::VROverlay()->DestroyOverlay( m_ulOverlayHandle )
+vr::VROverlay()->FindOverlay( "system.cursor.ibeam", &m_ulOverlayIbeamHandle )
+vr::VROverlay()->GetOverlayMouseScale( m_ulOverlayHandle, & vMouseScale )
+vr::VROverlay()->GetOverlayMouseScale( m_ulOverlayHandle, &vMouseScale )
+vr::VROverlay()->SetOverlayCursor( m_ulOverlayHandle, m_ulOverlayIbeamHandle )
+vr::VROverlay()->SetOverlayCursor( m_ulOverlayHandle, m_ulOverlayPointerHandle )
+vr::VROverlay()->SetOverlayCursor( m_ulOverlayHandle, vr::k_ulOverlayHandleInvalid )
+vr::VROverlay()->SetOverlayCursorPositionOverride( m_ulOverlayHandle, &vCursorPositionOverride )
+vr::VROverlay()->SetOverlayFlag( m_ulOverlayHandle, vr::VROverlayFlags_HideLaserIntersection, false )
+vr::VROverlay()->SetOverlayFlag( m_ulOverlayHandle, vr::VROverlayFlags_HideLaserIntersection, true )
+vr::VROverlay()->SetOverlayTexture( m_ulOverlayHandle, &texture )
+vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
+vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
+vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
+vrdesktop_graphics_capture.dll
+window_view_created
+window_view_destroyed
+windows
+wn>Jj
+www.digicert.com1!0
+www.digicert.com1$0"
+www.digicert.com110/
+x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+y0w0$
+z0x0:
+|$ ATAVAWH
+|$ AVH
+|$ AVL
+|$ UATAUAVAWH
+|$ UH
+|$(A^
+|$0H9
+|$8A_A^A\
+|$@E3
+|$@I;
+|$HH;
+|$HH=
+|$PL9~
+|$hH9>ueH
+|Lu?c
+|]E-K
+}LuHO
+~t&LN

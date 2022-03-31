@@ -1,0 +1,7845 @@
+					
+							
+								
+												
+																																												
+																																																																																																																
+			"P1": 0,
+			"P2": 0,
+			"SADWindowSize": 9,
+			"closeDepthStrategy": "SmartDilatationOfClosDepth",
+			"disp12MaxDiff": 0, // left <> right check disabled
+			"keepInputDepthValues": true, 
+			"preFilterCap": 63,
+			"preventInitialValuesToChangeDuringOptimization": true,
+			"speckleRange": 1,
+			"speckleWindowSize": 200,
+			"temporalConsistentStrategy":"WithoutBlurWhenStillNoneWhenMoving",
+			"uniquenessRatio": 20,
+		"addDilatedController": "onTopOfWarpedFrame",
+		"controllerRenderingType":"GPU",
+		"fillRightDepthFrame" : true,
+		"hardwareFriendlyBilateralSolver": {
+		"initialDepthAlgo": "StereoSGBM",
+		"postProcessingStrategy":"None",
+		"postprocesssingFilter":"HardwareFriendlyBilateral",
+		"sgbm":
+		"sparseDepthCleaningAlgo": "None",
+		"useBackgroundProcessingForFullDepthEstimation": true,
+		"useMaskOnTheBorders" : true,
+		"useRawDepthHistory" : true,
+	!s99
+	#jT$
+	CODE_SIZE
+	D$HA
+	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
+	TYPE_BOOL
+	TYPE_ENUM
+	enum_type
+	extension
+	name_part
+	type_name
+	vid=0x%x, pid=0x%x, sn=%ls
+	|$HA
+     
+      
+               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],
+               "type" : "DISTORT_EXTENDED_FTHETA"
+            "center_x" : 480,
+            "center_y" : 480,
+            "distort" : {
+            "focal_x" : 417,
+            "focal_y" : 417,
+            "height" : 960,
+            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],
+            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],
+            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],
+            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],
+            "position" : [ -0.06749, -0.03294, 0.06881 ]
+            "position" : [ 0.06749, -0.03294, 0.06881 ]
+            "width" : 960
+            },
+         "extrinsics" : {
+         "intrinsics" : {
+         "name" : "left",
+         "name" : "right",
+         }
+         },
+        Resource: InUse:%d name:%s
+        Timeline: refs:%d name:%s
+      status = 
+      {
+      }
+      },
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f sample_sensors=%0.1f multihit_sensors=%0.2f width_delta=%+0.0f
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f width_delta=%+0.0f
+    %X, %X: s/n %s: %s (interface %d)
+    %d: x: %d, y: %d, w: %d, h: %d edid: %s
+    %s
+    .codec = 
+    .cs47l35_error = 
+    .jack = 
+    .muted = 
+    .npca110p_error = 
+    .reserved = 
+    .state = 
+    .tfa9892_left_error = 
+    .tfa9892_right_error = 
+    A
+    Actual    : 
+    Bucket: size:%zu timeline:%s
+    Bucket: size:%zu timeline:none
+    Expected  : 
+    Field type: 
+    No devices
+    Unused Resources: size:%zu
+    Unused timelines: size:%zu
+    trackref_from_head: %s
+    trackref_from_imu: %s
+   "tracked_cameras" : [
+  .audio_cs47l35_timer_stats[0] = 
+  .audio_cs47l35_timer_stats[1] = 
+  .audio_reserved = 
+  .audio_state = 
+  .audio_status: 
+  .audio_subsystem_status = 
+  .backlight_left = 
+  .backlight_right = 
+  .general_debug[0] = 
+  .general_debug[1] = 
+  .general_debug[2] = 
+  .reserved_status0 = 
+  .reserved_status1 = 
+  .video_disable_code = 
+  .video_init_attempts = 
+  .video_mode = 
+  .video_state = 
+  .video_status_word = 
+  .video_subsystem_status = 
+  BL 
+  Comment started here.
+  DP audio 16 bit sample size.
+  DP audio 48 kHz audio sample rate.
+  DP audio sample rate: 
+  DP audio samples detected.
+  Error: DP audio invalid sample rate.
+  Error: DP audio invalid sample size.
+  Error: No DP audio samples detected.
+  Field       : 
+  Message type: 
+  Problem     : 
+  Problem     : Enum value did not match field type:
+  Problem     : Field is not the right type for this message:
+  wmstatus.audio_tf9892_sregs 
+ !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
+ '-46
+ (cal)
+ (does the path point to a directory?)
+ (object had no JSON IMU cal)
+ (right sync)
+ (selected 
+ ) = 
+ * Available base %08X
+ .anx_dp_error = 
+ .anx_dp_height = 
+ .anx_dp_vtotal = 
+ .anx_dp_width = 
+ .anx_lane_0_1_status = 
+ .anx_lane_2_3_status = 
+ .anx_lane_count = 
+ .anx_link_BW = 
+ .anx_sensor = 
+ .anx_sink_status = 
+ .audio_component_status = 
+ .audio_stream_status = 
+ .daughterboard_sensor = 
+ .isp_sensor = 
+ .panel_status = 
+ .peripheral_status = 
+ .reserved = 
+ .startup_debug_messages = 
+ .version = 
+ ;]X|
+ = { <proto text format> }". To set fields within it, use syntax like "
+ =RDHI
+ A^A]A\_^
+ A^][
+ A^^]
+ A^_[
+ A^_^
+ A^_^][
+ A_A\[
+ A_A\^
+ A_A\^][
+ A_A\_
+ A_A]A\_^
+ A_A^A\
+ A_A^A\_^
+ A_A^A\_^H
+ A_A^A]A\_
+ A_A^A]A\_^]
+ A_A^]
+ A_A^^
+ A_A^_
+ A_A^_H
+ A_A^_][
+ A_A^_^]
+ A_^[
+ A__[
+ A__]
+ A__^
+ BackUp() can only be called after Next().
+ Backlights:
+ Brightness: 
+ Can't back up over more bytes than were returned by the last call to Next().
+ H3E H3E
+ Outdent() without matching Indent().
+ Parameter to BackUp() can't be negative.
+ Peripheral MCU %u
+ Radio %u
+ SetDefaultAudioDevice: device = %s, role = %d
+ Subsystem statuses (0 = not started, 127 = ok, negative = problem)
+ Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+ Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
+ Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+ VRC %u
+ Video subsystem details:
+ [$0]
+ [default = $0
+ also seeing 
+ args were given.  Full format string was: "
+ at all
+ at line 
+ back-facing hits
+ deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
+ deg/s
+ disambiguator
+ for detail.
+ hitf
+ hits0=
+ hits1=
+ in Buffer
+ in `
+ inflate 1.2.5 Copyright 1995-2010 Mark Adler 
+ is not valid for field 
+ len 
+ m/s/s
+ message of type "
+ nohit=
+ non-clustered hits
+ nosplit=
+ of the Protocol Buffer runtime library, but the installed version is 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+ of type 
+ period=
+ ppm=
+ rejected updates
+ sJE3
+ sec)
+ seeing 
+ sensors~
+ sigma 
+ syncs=
+ utE3
+ u~E3
+!! refusing to trigger minidump with debugger attached
+!""""""
+!&.37<
+!( pDedicatedBuffer && pDedicatedImage )
+!(0)"
+!HcS0
+!IsInUse()
+!bGraphicsCmd || m_eState == State_t::ApplicationReleased
+!bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
+!leftSyncIsReal
+!m_stackFreeResources.empty()
+!rightSyncIsRealAsItGets
+" because it is missing required fields: 
+" conflicts with the existing symbol "
+" for field "
+" for option "
+" has no field named "
+" has no value named "
+" has not been loaded.
+" implements neither SetCachedSize() nor ByteSize().  Must implement one or the other.
+" imports "
+" in type "
+" is a message. To set the entire message, use syntax like "
+" is a repeated message. Repeated message options must be initialized using an aggregate value.
+" is already defined (as something other than a package) in file "
+" is already defined in "
+" is already defined in file "
+" is already defined.
+" is an atomic type, not a message.
+" is not a field or extension of message "
+" is not a message type.
+" is not a type.
+" is not a valid identifier.
+" is not an enum type.
+" is not defined or is not an extension of "
+" is not defined.
+" is resolved to "
+" is resolved to "(
+" is specified along with field "
+" is specified multiple times.
+" must be unique within 
+" not found in the scene.
+" not previously defined in symbols_by_name_, but was defined in symbols_by_parent_; this shouldn't be possible.
+" seems to be defined in "
+" unknown.
+" uses the same enum value as "
+" was already set.
+" was listed twice.
+" was not found or had errors.
+" which is not used.
+" which is.
+"""""""
+"$0" does not declare $1 as an extension number.
+"%/28;=#$019:>?
+") is not compatible with this reflection object (which is for type "
+") to start from the outermost scope.
+").  Note that the exact same class is required; not just the same descriptor.
+", another member of oneof "
+", but only 
+", found "
+", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
+", which is not imported by "
+".  To use it here, please add the necessary import.
+". If this is intended, set 'option allow_alias = true;' to the enum definition.
+". Must be "perspective" or "orthographic"
+". This appears to be a value from a sibling type.
+". Value: "
+"/*" inside block comment.  Block comments cannot be nested.
+"0x" must be followed by hex digits.
+"9k0t
+"MutableRawRepeatedField"
+"accessors" object not found in .gltf
+"asset" object not found in .gltf or not an object type
+"bufferViews" object not found in .gltf
+"buffers" object not found in .gltf
+"e" must be followed by exponent.
+"nodes" object not found in .gltf
+"orthographic" is not a JSON object.
+"perspective" is not a JSON object.
+"scenes" object not found in .gltf or not an array type
+"spot" is not a JSON object.
+#*1892+$
+#9i0t
+#?RADIANCE
+#?RGBE
+#D9c0t
+#D9{0t
+#bML"
+$0  extend .$1 {
+$0  extensions $1 to $2;
+$0  message $1
+$0  }
+$0 oneof $1 {
+$0$1 = $2
+$0$1$2 $3 = $4
+$0enum $1 {
+$0option $1;
+$9k0t
+$tAUUPE
+$w!Hc
+%%.%dg
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%,3:;4-&
+%9k0t
+%9{0t
+%Y-%m-%d
+%d.%d.%d
+%hu,%hu,'%4c',%hu
+%s %c: 
+%s - Unable to init
+%s - Unable to start replay of "%s"
+%s begin_ctx=%llu
+%s called without first releasing previous slot!
+%s created to play "%s"
+%s disambiguator provided base configuration. Rotor count: %d
+%s end_ctx=%llu
+%s pitch ~%0.1f deg roll ~%0.1f deg 
+%s%s%s%s%s
+%s%s%s%s%s%s%s
+%s-%d
+%s-CommandBuffer-%d
+%s-Image
+%s-ImageView
+%s-Memory
+%s: %d, %d, %d, %d
+%s: %s
+%s: %s #%d already pending acquire
+%s: %s #%d already pending release
+%s: %s #%d already pending release (lock)
+%s: %s IMU calibration: Accel bias change %.2fm/s/s%s
+%s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total
+%s: AcquireSync FAILED with DXGI_ERROR_INVALID_CALL
+%s: AcquireSync FAILED with E_FAIL
+%s: AcquireSync FAILED with WAIT_ABANDONED
+%s: AcquireSync FAILED with WAIT_TIMEOUT
+%s: AcquireSync FAILED with unknown hr
+%s: An error occurred while recording command buffer: %s
+%s: Applying scale %0.04f from reference object %s
+%s: Attached device ID not set.  No controller input available.
+%s: Can't create source of type "%s"
+%s: Checking to see if display has connected...
+%s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x
+%s: Connected to receiver %s
+%s: D3D11 feature level required for interop
+%s: Device does not have a stored config
+%s: Disconnected from receiver %s
+%s: ERROR: could not query version from watchman board.
+%s: ERROR: firmware does not meet minimum required version (%d). Please update device.
+%s: Enabling IMU tracking fallback
+%s: Expected %u bytes of config but only found %d. Rejecting config
+%s: Failed to allocate command buffer: %d
+%s: Failed to allocate memory
+%s: Failed to allocate memory for command buffer
+%s: Failed to begin command buffer
+%s: Failed to create command buffer pool: %d
+%s: Failed to create vulkan device: %d
+%s: Failed to determine a compatible memory type
+%s: Failed to get queue: %u:%u
+%s: Failed to initialize compute queue.
+%s: Failed to initialize graphics queue.
+%s: Failed to reset command buffer: %d
+%s: Failed to submit to queue: %u:%u
+%s: Firmware Version %s
+%s: Ignoring unlikely saved IMU calibration %s
+%s: Insufficient permission to create high priority queue.
+%s: Interdependent timelines are not supported
+%s: Invalid interop API: %d
+%s: Log recorded at %s
+%s: Not loading device config because its size is too large: 0x%X bytes
+%s: Packet received after %.3fs, keepalive (%d/%d)
+%s: Protocol versioning supported, requesting %d
+%s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes
+%s: Reading %s from device (Attempt %d of %d)
+%s: Received short %d byte packet when expecting config
+%s: Receiving wireless data, but unable to talk to controller main board.
+%s: ReleaseSync FAILED with E_FAIL
+%s: ReleaseSync FAILED with unknown hr
+%s: Retry protocol version request for %d
+%s: Similar CAD but scale mismatch to reference object %s
+%s: Successfully fetched gyro/accelerometer range modes from the device. GyroRangeMode:%d AccelRangeMode:%d
+%s: Transition to protocol version %d
+%s: Triggered keepalive (%s)
+%s: Unable to fetch gyro/accelerometer range modes from the device
+%s: Unable to request config start from device
+%s: WARNING: Malformed wireless packet v%d: %s
+%s: WARNING: Unable to set sync detect mode %d
+%s: Warning, can't request wireless protocol version
+%s: Warning: Unknown disambiguation mode: %s
+%s: Warning: Unknown disambiguation option "%s" in: %s
+%s: Wireless controller %s disconnected
+%s: allocator not initialized
+%s: at least one signal point is required
+%s: attempt to block on incomplete query set: %s
+%s: attempted to release an invalid handle
+%s: cmdbuf references a resource that has been released: %s
+%s: concurrent sharing mode requires queue family indices
+%s: device does not support host query reset.
+%s: device does not support timeline semaphores.
+%s: device supports zero extensions
+%s: device supports zero instance extensions
+%s: discarding current frame #%llu to avoid deadlock!
+%s: failed get device extension count
+%s: failed init client device
+%s: failed to %s sync texture
+%s: failed to acquire a d3d11 device for interop
+%s: failed to acquire compositor slot
+%s: failed to acquire compute command
+%s: failed to acquire graphics command
+%s: failed to acquire orphan sync
+%s: failed to acquire sync
+%s: failed to allocate D3D interop image
+%s: failed to allocate D3D11 aliased vulkan texture
+%s: failed to allocate Null aliased vulkan texture
+%s: failed to allocate buffer memory
+%s: failed to allocate image memory
+%s: failed to allocate memory for query pool
+%s: failed to allocate memory for timeline
+%s: failed to allocate null interop image
+%s: failed to allocate timestamp query pool %d
+%s: failed to bind buffer memory (%d)
+%s: failed to bind image memory (%d)
+%s: failed to check for format support
+%s: failed to complete maintenance
+%s: failed to connect to prism shared state
+%s: failed to create D3D11 2D texture
+%s: failed to create D3D11 interop device
+%s: failed to create buffer
+%s: failed to create buffer (%d)
+%s: failed to create image %s
+%s: failed to create image view (%d)
+%s: failed to create interop device
+%s: failed to create interop texture
+%s: failed to create local timeline
+%s: failed to create mapped memory view
+%s: failed to create resources
+%s: failed to create shared timeline
+%s: failed to create staging buffer %d
+%s: failed to create swapchain
+%s: failed to create timeline
+%s: failed to create timestamp query pool
+%s: failed to create vulkan image (%d)
+%s: failed to create vulkan instance %d
+%s: failed to create vulkan interop device
+%s: failed to create vulkan interop instace
+%s: failed to create vulkan resources
+%s: failed to detect prism
+%s: failed to determine D3D11 texture format
+%s: failed to determine typeless D3D11 texture format
+%s: failed to enumerate extensions
+%s: failed to enumerate instance extensions
+%s: failed to enumerate physical devices
+%s: failed to export client buffer
+%s: failed to export client swapchain image
+%s: failed to export client timeline
+%s: failed to export memory (%d)
+%s: failed to export swapchain texture to %d
+%s: failed to export timeline %s
+%s: failed to find a suitable vulkan device
+%s: failed to get D3D11 interop resource handle
+%s: failed to get D3D11 keyed mutex for texture
+%s: failed to get instance extension count
+%s: failed to get physical device count
+%s: failed to get query pool results
+%s: failed to get shared handle
+%s: failed to get vulkan format from DXGI format
+%s: failed to import interop texture
+%s: failed to import timeline %s
+%s: failed to initialize D3D interop image
+%s: failed to initialize client constant buffer
+%s: failed to initialize compute command pool
+%s: failed to initialize graphics command pool
+%s: failed to initialize interop device
+%s: failed to initialize prism shared state
+%s: failed to initialize query pool
+%s: failed to initialize swapchain
+%s: failed to initialize timeline
+%s: failed to initialize vulkan allocator
+%s: failed to initialize vulkan interop device
+%s: failed to load available layers
+%s: failed to load instance extensions
+%s: failed to map staging buffer %d
+%s: failed to map vulkan memory
+%s: failed to open shared resource
+%s: failed to open the prism process
+%s: failed to query DXGI shared handle
+%s: failed to query resource interface
+%s: failed to register compositor resources
+%s: failed to register debug callback
+%s: failed to register resources
+%s: failed to release sync
+%s: failed to set debug name
+%s: failed to set sync texture
+%s: failed to start client frame
+%s: failed to start client frame rendering
+%s: failed to start client session
+%s: failed to submit compute command
+%s: failed to submit discard frame state update
+%s: failed to submit frame state update
+%s: failed to submit graphics command
+%s: failed to submit graphics work
+%s: failed to wait for a timeline signal
+%s: failed to wait for semaphore
+%s: failed to wait for start of frame
+%s: failed with error '%s' (%d)
+%s: feature hostQueryReset missing
+%s: forcing acquire of %s to avoid deadlock!
+%s: frame was discarded due to CCompositionClient::CSwapchain::WaitImage timeout!
+%s: high priority compute requested, but %s is missing
+%s: id mismatch when registering client resources
+%s: incompatible vulkan version requested
+%s: interop images must be shareable
+%s: interop resources cannot be mappable
+%s: invalid D3D11 interop device
+%s: invalid device
+%s: invalid frame stage: %s
+%s: invalid instance
+%s: invalid prism device id
+%s: invalid resource
+%s: invalid swapchain image count specified: 0
+%s: invalid swapchain image index: %d (%d)
+%s: invalid vulkan device
+%s: is the Vulkan SDK installed?
+%s: mismatched sizes
+%s: missing optional device extension %s
+%s: missing optional instance extension %s
+%s: missing required device extension %s
+%s: missing required instance extension %s
+%s: missing required layer: %s
+%s: missing validation layer extension %s
+%s: no color swapchain available for index: %d
+%s: no timelines
+%s: not supoported with external synchronization!
+%s: physical device does not support the requested timeline handle type
+%s: physical device does not support timeline export
+%s: physical device does not support timeline import
+%s: pool contained invalid data
+%s: pre-submit failed
+%s: prism process not found
+%s: swapchain image #%d not available for texture set %llu
+%s: switching shared handle type to WIN32_KMT from <%d>
+%s: unknown sync type
+%s: unknown vulkan message severity
+%s: usage changed from quad to %s, sampler not updated
+%s: usage must be specified when allocating images
+%s:ForceAcquireImageTimeline
+%s:SyncTexture
+%s:Timeline
+%u != %zu
+%u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
+%u_%02u
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&9k0t
+&D9c0t
+&D9k0t
+&D9{0t
+' is not a number.
+' property is missing
+' property is missing in 
+' property is missing.
+' property is missing. 
+' property is not a JSON object.
+' property is not a bool type.
+' property is not a number type.
+' property is not a number.
+' property is not a positive integer.
+' property is not a string type.
+' property is not an array
+' property is not an integer type.
+' property is not an object.
+' value is not an integer type.
+'.5<=6/7>????????????????
+'9k0t
+'D9c0t
+'[', '{', or a literal
+'f?FO-
+'uri' is missing from non binary glTF file buffer.
+(;^,|
+(;s,|
+(A\^][
+(A\_^[
+(A]_^[
+(A^A]A\_
+(A^A]^[
+(A^A]_[
+(A_A\
+(A_A]_^
+(A_A^A\[
+(A_A^A]A\_^][
+(A_A^][
+(A_A^^[
+(A_A^_[
+(A_A^_]
+(D$ A
+(D$ H
+(D$ Hc
+(D$ I
+(D$ f
+(D$0D
+(D$0H
+(D$0I
+(D$0L
+(D$0f
+(D$@D
+(D$@H
+(D$@I
+(D$@I+
+(D$PD
+(D$PH
+(D$`H
+(D$`f
+(D$pH
+(D;}8
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
+(E;~,
+(Enumerating)
+(Failed Enumeration)
+(General Failure)
+(H;Ehu
+(Hub Nested Too Deeply)
+(In Legacy Hub)
+(L$ D
+(L$ f
+(L$0D
+(L$0I+
+(L$@D
+(L$PD
+(L$PH
+(L$PfH
+(L$`D
+(L$`E
+(L$`H
+(Not Enough Bandwidth)
+(Not Enough Power)
+(Overcurrent)
+(Reset)
+(T$ H
+(T$0D
+(T$0H
+(T$@D
+(T$@H
+(T$PD
+(T$PH
+(T$Pf
+(T$`I
+(T$pf
+(\$ D
+(\$0A
+(\$0D
+(\$`D
+(cannot determine missing fields for lite message)
+(d$ H
+(d$PD
+(d$`B
+(d$`L
+(d$pD
+(l$0D
+(l$0I
+(l$@D
+(l$`D
+(l$pH
+(merge 
+(t$ 2
+(t$ @
+(t$ E
+(t$ H
+(t$ L
+(t$ f
+(t$ t
+(t$02
+(t$0D
+(t$0H
+(t$0L
+(t$0vs
+(t$@D
+(t$@H
+(t$@I
+(t$@L
+(t$@r
+(t$PD
+(t$PH
+(t$PL
+(t$Pf
+(t$`E
+(t$`H
+(t$`L
+(t$`t
+(t$pD
+(t$pH
+(t$pI
+(t$pL
+(|$ 2
+(|$ D
+(|$ H
+(|$0A
+(|$0D
+(|$0H
+(|$0L
+(|$0s
+(|$@D
+(|$@H
+(|$@I
+(|$PD
+(|$PE
+(|$PH
+(|$PI
+(|$PL
+(|$`D
+(|$`H
+(|$`I
+(|$pD
+(|$pH
+(|$pL
+) deg
+)", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
+).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+)9k0t
+)D$ D
+)D$ H
+)D$ L
+)D$0D
+)D$0E
+)D$0H
+)D$0I;
+)D$0L
+)D$0M;
+)D$0fD
+)D$0s"L
+)D$0s'A
+)D$0u
+)D$@A
+)D$@H
+)D$@L
+)D$PD
+)D$PE
+)D$PH
+)D$PL
+)D$`E
+)D$`H
+)D$`L
+)D$pE
+)D$pH
+)D$pf
+)L$ fD
+)L$0A
+)L$0D
+)L$0H
+)L$0fff
+)L$@H
+)L$PD
+)L$PM;
+)L$`H
+)L$pA
+)T$ H
+)T$0H
+)T$@E
+)T$PH
+)T$PI
+)T$Pf
+)T$pD
+)\$0uE
+)\$pI
+)\ZEo^m/
+)d$`H
+)d$pD
+)l$ D
+)l$0D
+)l$0E
+)l$@D
+)l$`D
+)l$pD
+)t$ A
+)t$ D
+)t$ H
+)t$ H=
+)t$ I
+)t$ f
+)t$0@
+)t$0A
+)t$0D
+)t$0H
+)t$0f
+)t$@H
+)t$@f
+)t$PD
+)t$PE
+)t$PH
+)t$PL
+)t$Pf
+)t$`D
+)t$`H
+)t$pD
+)t$pE3
+)t$pH
+)t$pM
+)t$pf
+)|$ A
+)|$ D
+)|$ E2
+)|$ H
+)|$ f
+)|$0A
+)|$0H
+)|$0f
+)|$@A
+)|$@D
+)|$@E3
+)|$@f
+)|$PD
+)|$PH
+)|$PM
+)|$`D
+)|$`H
+)|$`f
+)|$pD
+)|$pH
+)|$pI
+)|$pf
+*H+KXI
+*HcT$PH
+*T$4I
+*uXI;
++C,+C
++D9c0t H
++laser0
++laser1
++motor0
++motor1
++o'q)}
++temp_high
++temp_low
++unknown
+, IMU susp: 
+, VRC susp: 
+, binary size = 
+, but got 
+, column 
+, from:
+, last executing in 
+, max interval 
+, not just within "
+, requestedBytes 
+,$HiL$h
+,+<:w
+,0<6w H
+,9k0t%H
+,9{0t%H
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
+----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
+----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
+----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
+----- RELATIONSHIP bases %08X <-> %08x distance %0.2fm, angle %0.2f deg -----
+----- SECONDARY base %08X distance %0.2fm%*s-----
+-1e+9999
+-9k0t&H
+-9{0t%H
+-<	u#
+-D9c0t%H
+-IPCWrapper
+-Infinity
+-OpenProcessToken failed. GetLastError returned: %d
+-t!?Ks
+-t1?Ks
+-tA?Ks
+-tQ?x
+-u-I;
+.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+... Moving the base for tracking too, which might cause a pop
+.... BaseStation Map has %d entries
+../..
+.00cfg
+.>u%A
+.?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
+.?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
+.?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
+.?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AUALVRDisplayNotification@@
+.?AUCFactoryMaker@CAnimFactoryBase@@
+.?AUCLighthouseStateTraits@vortex@@
+.?AUCStateTraits@CLighthouseDirect@vortex@@
+.?AUIAudioEndpointVolumeCallback@@
+.?AUIMMNotificationClient@@
+.?AUIUnknown@@
+.?AULiquidVRDll@LiquidVR@@
+.?AUToBase_t@Detail@Reflection@@
+.?AU_Crt_new_delete@std@@
+.?AUinput_adapter_protocol@detail@nlohmann@@
+.?AV<lambda_0088d02490873a7ab14b0c74d65c5fe9>@@
+.?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_3697dac63288bf8c8a12901dbe60e384>@@
+.?AV<lambda_44fa05ced2397b12e7cb91f2402b5ea0>@@
+.?AV<lambda_6ff2491101331d3b6b80f3dd1670e9e1>@@
+.?AV<lambda_964a3fa5f92718448580b0687711af46>@@
+.?AV<lambda_b4075912951e9099b7bdd3dd4d0c07a7>@@
+.?AV<lambda_b7bead9d7f5e4ba9f3f82c372d57656e>@@
+.?AV<lambda_bbf946103424aa0c20851f8b580f73f5>@@
+.?AV<lambda_c8cdb8a6f4ced2eeff10ac96ea7b52db>@@
+.?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
+.?AV<lambda_f2718d821d56c40349629e6f0a6f2226>@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UOverrideTraits@?$AlternateBase@$0BP@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UOverrideTraits@?$AlternateBase@$0CF@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UOverrideTraits@?$AlternateBase@$0CL@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$00@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UOverrideTraits@?$AlternateBase@$0BP@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UOverrideTraits@?$AlternateBase@$0CF@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UOverrideTraits@?$AlternateBase@$0CL@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCImuAccel@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCImuGyro@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCQuaternionNormalizer@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCQuaternionNormalizer@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCSensorNormalCosAngle@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCSensorNormalCosAngle@?$Functors@UOverrideTraits@?$AlternateBase@$0BP@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCSensorNormalCosAngle@?$Functors@UOverrideTraits@?$AlternateBase@$0CF@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCSensorNormalCosAngle@?$Functors@UOverrideTraits@?$AlternateBase@$0CL@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctors@N$00@@
+.?AV?$CStateTimestep@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseDirect@vortex@@
+.?AV?$CVkPoolGarbageCollector@VCVkCommandBuffer@@@@
+.?AV?$CVkPoolableResource@VCVkCommandBufferPool@@@@
+.?AV?$CVkResourcePool@VCVkCommandBuffer@@@@
+.?AV?$CVkTimestampQueryPool@$01@facet@@
+.?AV?$ICeresFunctor@N@@
+.?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
+.?AV?$TypeInfoT@VCBoneMaskResource@@@Detail@Reflection@@
+.?AV?$TypeInfoT@VCKeyframedDataResource@@@Detail@Reflection@@
+.?AV?$TypeInfoT@VObject@Reflection@@@Detail@Reflection@@
+.?AV?$_Binder@U_Unforced@std@@P8CLighthousePairing@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@XAEBVValue@Json@@@std@@
+.?AV?$_Func_base@XPEAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_base@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0088d02490873a7ab14b0c74d65c5fe9>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3697dac63288bf8c8a12901dbe60e384>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_44fa05ced2397b12e7cb91f2402b5ea0>@@XPEAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6ff2491101331d3b6b80f3dd1670e9e1>@@XPEAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_964a3fa5f92718448580b0687711af46>@@XPEAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b4075912951e9099b7bdd3dd4d0c07a7>@@XPEAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b7bead9d7f5e4ba9f3f82c372d57656e>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_bbf946103424aa0c20851f8b580f73f5>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c8cdb8a6f4ced2eeff10ac96ea7b52db>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_f2718d821d56c40349629e6f0a6f2226>@@XPEAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CLighthousePairing@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_636292ec0dcdb162c491278084ee9b55>@@@std@@U?$default_delete@V?$tuple@V<lambda_636292ec0dcdb162c491278084ee9b55>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
+.?AV?$_Ref_count@UMultiCameraColorFrame@ST@@@std@@
+.?AV?$_Ref_count_obj@UMultiCameraColorFrame@ST@@@std@@
+.?AV?$_Ref_count_obj@VCConnection@CLighthouseInput@vortex@@@std@@
+.?AV?$_Ref_count_obj@Vinput_buffer_adapter@detail@nlohmann@@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVBlendMatrix3x3PoseMaker@@
+.?AVCAnimResource@@
+.?AVCAnimSkeleton@@
+.?AVCAudioEndpointVolumeCallback@@
+.?AVCBaseConfig@pb@lighthouse@@
+.?AVCBaseConfigAndDynamicState@pb@lighthouse@@
+.?AVCBoneMaskResource@@
+.?AVCDepthAugmentedPassthrough@@
+.?AVCDisambiguatorFramer@vortex@@
+.?AVCDisambiguatorSyncOnBeam@vortex@@
+.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
+.?AVCDynamicState@pb@lighthouse@@
+.?AVCFirmwareManifest@@
+.?AVCHandPoseLogic_IndexController@vortex@@
+.?AVCHandPoseLogic_ViveWand@vortex@@
+.?AVCHeader@pb@lighthouse@@
+.?AVCHidDevice@vortex@@
+.?AVCHtcHmdControllerState@htc@@
+.?AVCHtcHmdThread@htc@@
+.?AVCImuOnlyTracker@vortex@@
+.?AVCImuSample@pb@lighthouse@@
+.?AVCImuTrackerThread@@
+.?AVCKalmanQuaternion@@
+.?AVCKeyframedDataResource@@
+.?AVCLighthouseBaseStationDriver@vortex@@
+.?AVCLighthouseDBUniverse@vortex@@
+.?AVCLighthouseDirect@vortex@@
+.?AVCLighthouseHmdDriver@@
+.?AVCLighthouseHmdProvider@@
+.?AVCLighthouseIMUThread@vortex@@
+.?AVCLighthouseOpticalThread@vortex@@
+.?AVCLighthouseRecorder@vortex@@
+.?AVCLighthouseRecorderThread@vortex@@
+.?AVCLighthouseReplayDriver@vortex@@
+.?AVCLighthouseReplayer@vortex@@
+.?AVCLighthouseSource@vortex@@
+.?AVCLighthouseThreadBase@vortex@@
+.?AVCLighthouseUsbThread@vortex@@
+.?AVCMMNotificationClient@@
+.?AVCNonCopyable@@
+.?AVCOpticalFrame@pb@lighthouse@@
+.?AVCOpticalSample@pb@lighthouse@@
+.?AVCPrismDirect@@
+.?AVCRecord@pb@lighthouse@@
+.?AVCRefCount@@
+.?AVCSwSyncDetectSource@vortex@@
+.?AVCThread@@
+.?AVCUsbDeviceScannerThread@@
+.?AVCUserDataThread@vortex@@
+.?AVCVRAudioDeviceImpl@@
+.?AVCVRAudioDevices@@
+.?AVCVRFramerateGovernor@@
+.?AVCVRMailbox@@
+.?AVCVRMailboxBase@@
+.?AVCVec3@pb@lighthouse@@
+.?AVCVkBuffer@@
+.?AVCVkCommandBuffer@@
+.?AVCVkCommandBufferPool@@
+.?AVCVkGarbageCollector@@
+.?AVCVkImage@@
+.?AVCVkInteropDeviceD3D11@facet@@
+.?AVCVkInteropDeviceNull@facet@@
+.?AVCVkInteropImageD3D11@facet@@
+.?AVCVkInteropImageNull@facet@@
+.?AVCVkMemory@@
+.?AVCVkResourceBase@@
+.?AVCVkTimeline@@
+.?AVCVkTimestampQueryPoolBase@facet@@
+.?AVCVortexThread@vortex@@
+.?AVCVrController@vortex@@
+.?AVCVrControllerHapticWrapper@vortex@@
+.?AVCVrControllerUsbThread@vortex@@
+.?AVCVrcDecodeTagged@@
+.?AVCWatchdogConnectionMonitor@@
+.?AVCWatchdogDriver_Lighthouse@@
+.?AVCWirelessConnectionMonitor@@
+.?AVCWirelessDecoder@@
+.?AVCWirelessDecoderWv2@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVException@Json@@
+.?AVFactory@CharReader@Json@@
+.?AVFastWriter@Json@@
+.?AVIAudioEndpointVolumeCallbackImpl@@
+.?AVIAuxEventCallback@CLighthouseIMUThread@vortex@@
+.?AVICVrControllerHapticWrapperClient@vortex@@
+.?AVICallback@CHtcHmdThread@htc@@
+.?AVICallback@CLighthouseIMUThread@vortex@@
+.?AVICallback@CLighthouseOpticalThread@vortex@@
+.?AVICallback@CUserDataThread@vortex@@
+.?AVICameraAsyncCompletionCallback@vr@@
+.?AVICameraHostServices@vr@@
+.?AVIControllerState@vortex@@
+.?AVIControllerStateDriver@vortex@@
+.?AVIDepthAugmentedPassthroughCallbacks@PE@@
+.?AVIDisambiguator@vortex@@
+.?AVIEvent@IPC@@
+.?AVIFramerateGovernor@facet@@
+.?AVIHandPoseLogic@@
+.?AVIImuCallback@CLighthouseIMUThread@vortex@@
+.?AVILighthouseDBListener@vortex@@
+.?AVILighthouseSource@vortex@@
+.?AVILighthouseTrackedDeviceServerDriver@vortex@@
+.?AVIMMNotificationClientCallbackImpl@@
+.?AVIMonitorCallback@CLighthouseIMUThread@vortex@@
+.?AVIMutex@IPC@@
+.?AVIPoseTracker@vortex@@
+.?AVIPoseTrackerDriver@vortex@@
+.?AVIServerTrackedDeviceProvider@vr@@
+.?AVISharedMem@IPC@@
+.?AVIStatePoseMaker@@
+.?AVISyncObject@IPC@@
+.?AVITrackedDeviceServerDriver@vr@@
+.?AVIUsbDeviceCallback@@
+.?AVIVRAudioDevices@@
+.?AVIVRAudioNotification@@
+.?AVIVRCameraComponent@vr@@
+.?AVIVRDisplayComponent@vr@@
+.?AVIVRDriverDirectModeComponent@vr@@
+.?AVIVRWatchdogProvider@vr@@
+.?AVIVkInteropDevice@facet@@
+.?AVIVkInteropImage@facet@@
+.?AVIVrControllerUsb@vortex@@
+.?AVIVrcCallback@CLighthouseIMUThread@vortex@@
+.?AVLogStream@LogMessage@google@@
+.?AVLogStreamBuf@base_logging@google@@
+.?AVLogicError@Json@@
+.?AVOurCharReader@Json@@
+.?AVRuntimeError@Json@@
+.?AVStaticPoseMaker@@
+.?AVStyledWriter@Json@@
+.?AVTypeInfo@Reflection@@
+.?AVWin32Event@IPC@@
+.?AVWin32Mutex@IPC@@
+.?AVWin32SharedMemory@IPC@@
+.?AVWriter@Json@@
+.?AV_Facet_base@std@@
+.?AV_Pad@std@@
+.?AV_Ref_count_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@detail@nlohmann@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVinput_buffer_adapter@detail@nlohmann@@
+.?AVios_base@std@@
+.?AVout_of_range@detail@nlohmann@@
+.?AVparse_error@detail@nlohmann@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.@Pt*
+.A t/
+.A(u	
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.D9c0t&H
+.G t-H
+.PLACEHOLDER_VALUE
+.data
+.data$r
+.dummy
+.edata
+.foo = value".
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.json
+.lighthouse.pb.CBaseConfig
+.lighthouse.pb.CDynamicState"
+.lighthouse.pb.CImuSample
+.lighthouse.pb.COpticalFrame
+.lighthouse.pb.COpticalSample
+.lighthouse.pb.CVec3
+.pdata
+.placeholder.proto
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+/1v]H
+/7v&Hc
+/8v8f
+/9{0t'H
+/D$hs:I
+/D8pH
+/F@v	L
+/Z v"
+/bin/mail
+/delivery_rate
+/devices/lighthouse/
+/elapsed_time
+/factory_accel_bias
+/factory_accel_scale
+/factory_gyro_bias
+/factory_gyro_scale
+/factory_head_from_imu
+/firmware/
+/format
+/frame_sequence
+/frame_size
+/frame_time_monotonic
+/height
+/input/a/click
+/input/a/touch
+/input/application_menu/click
+/input/b/click
+/input/b/touch
+/input/finger/index
+/input/finger/middle
+/input/finger/pinky
+/input/finger/ring
+/input/grip/click
+/input/grip/force
+/input/grip/touch
+/input/grip/value
+/input/mute_mic/click
+/input/power/click
+/input/skeleton/left
+/input/skeleton/right
+/input/system/click
+/input/system/touch
+/input/thumb/click
+/input/thumbstick/click
+/input/thumbstick/touch
+/input/thumbstick/x
+/input/thumbstick/y
+/input/trackpad/click
+/input/trackpad/force
+/input/trackpad/touch
+/input/trackpad/x
+/input/trackpad/y
+/input/trigger/click
+/input/trigger/touch
+/input/trigger/value
+/input/volume_down/click
+/input/volume_up/click
+/lighthouse/
+/lighthouse/camera/raw_frames
+/lighthouse/depthAugmentedPassthrough/leftMeshElementCount
+/lighthouse/depthAugmentedPassthrough/meshHeight
+/lighthouse/depthAugmentedPassthrough/meshId
+/lighthouse/depthAugmentedPassthrough/meshIsUpToDate
+/lighthouse/depthAugmentedPassthrough/meshWidth
+/lighthouse/depthAugmentedPassthrough/processingMode
+/lighthouse/depthAugmentedPassthrough/rawMesh
+/lighthouse/depthAugmentedPassthrough/rightMeshElementCount
+/observed_basestations
+/output/haptic
+/pose/raw
+/proximity
+/server_time_ticks
+/skeleton/hand/left
+/skeleton/hand/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/width
+0	FAJ
+0 width
+0-pixel image
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+0123456789abcdef
+0@interface
+0A;nh|
+0A\][
+0A]A\_^[
+0A^A\^
+0A^A\_
+0A^A][
+0A^][
+0A^_]
+0A^_^
+0A^_^][
+0A_A\^
+0A_A\_
+0A_A^A\
+0A_A^A\_^
+0A_A^A]A\^
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A_A^A]A\_^]
+0A_A^A]_^
+0A_A^A]_^][
+0A_A^^
+0A_A^^][
+0A_A^_
+0A_A^_^[
+0A_A^_^]
+0A__[
+0A__^
+0D9c0t'H
+0_^[H
+0_^]H
+0x%08llx
+0}0i1
+1.2.5
+1.2.840.113549.1.9.6
+1/2/4/8/16-bit only
+11 4 22 44 44 22 444444
+130801120000Z
+160107120000Z
+1A26b
+1A9p 
+1I9p 
+1e+9999
+1wsHp
+2).lighthouse.pb.CBaseConfigAndDynamicState"
+210101000000Z
+210429000000Z
+211007000000Z
+21VNt
+220330231941Z0/
+2333333
+241009235959Z0a1
+2HcB,
+2YUYw,tE
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+310106000000Z0H1
+310107120000Z0r1
+3333333
+360428235959Z0i1
+380115120000Z0b1
+3?9y>m0_D@H_
+3Pole
+3mq+<
+42HcF,
+4Pole
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+5(rmNE
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6*f(_
+6I]Dc
+6OB,n_
+6p7M=:P_:}u
+70503
+7HcC,
+7^d[L
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+7u;H;
+8"u	H
+8*u	H
+8.u9I
+8.u?I
+8.uPI
+82u	H
+8:u	H
+8A	t	E
+8A]A\_]
+8A^A\
+8A^A]_[
+8A^^][
+8A^_][
+8A^_^[
+8A^_^]
+8A_A]A\[
+8A_A]_^
+8A_A^A]A\_^][
+8A_A^_^][
+8Bu	H
+8CytW
+8D$Xt
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8E;~X|
+8H)t,E
+8H;^pu
+8O0u]A
+8\$@t
+8\u7H
+8^Ht!D8fIt
+8_^][
+8aMbF$
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+8s4A;X u.
+9APuC
+9ApuM
+9AtuB
+9A|6H
+9C s'L
+9C s.H
+9C }(H
+9C$|'H
+9CTt=
+9H(|)A
+9N,t#
+9T$XJ
+9U8~&E
+9Y ~5H
+9Y ~aH
+9Y$~9H
+9ZH~43
+9ZX~;
+9]pu2
+9^(~F3
+9^,~#3
+9^,~B3
+9^@~E3
+9^X~E3
+9^p~:3
+9_,~*f
+9_@~;H
+9_X~63
+9_x~33
+9i ~0H
+9k(~$H
+9k0t H
+9k0t$H
+9k0t[D
+9k0t\D
+9k0t_D
+9k0tcH
+9k0~%H
+9k0~)H
+9k@~&H
+9kH~@H
+9kP~4H
+9kP~aH
+9kX~&H
+9kp~&H
+9l$Lt	E
+9l$\u
+9q ~&H
+9s ~CL
+9s ~SL
+9s0~)H
+9s8~)L
+9s8~AH
+9s8~ZL
+9s@~;L
+9s@~SH
+9s@~[H
+9sX~)L
+9sh~/L
+9sp~IH
+9y4~9H
+9yh~-H
+9yl~1H
+9z,~23
+9{ ~6L
+9{$~4H
+9{(~0H
+9{(~YH
+9{,~4H
+9{0~0H
+9{0~6H
+9{0~;L
+9{0~[H
+9{0~^H
+9{0~`H
+9{@~#L
+9{@~%H
+9{D~0L
+9{D~4H
+9{H~1L
+9{H~43
+9{T~4H
+9{X~)L
+9{X~63
+9{\~0L
+9{h~)L
+9{h~XH
+9{l~)L
+9{p~)L
+9{t~'L
+9{x~?3
+9|$@u
+9}gu(H
+: Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
+: Tried to copy from a message with a different type. to: 
+: Tried to merge from a message with a different type.  to: 
+: exception thrown in JSON library
+: one or more FS callback not set
+: ppm=
+:0806
+:0u(H
+:0ulH
+::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
+:EotB
+; expected 
+; last read: '
+;.u H
+;<$uCB
+;Ch}(
+;D$lu H
+;K s;H
+;K sEH
+;K sFH
+;K sIH
+;K(tMH
+;S sIH
+;S sLH
+;S sMH
+;S }EH
+;S8}n
+;W,}(
+;^,}	
+;s sSH
+;t$@sH
+;w,~PA
+;{(} H
+<	u(H
+<	vzH
+<	w'H
+< t+<
+<$Hc\
+<*tq</tm<
+<*ufH
+</u#H
+<0:08
+<1uHH
+<9w/H
+<9waH
+<:$u<B
+<Eu1H
+<U+%.4X>
+<^w&E
+<hidden>
+<parse error>
+<redirected>
+<uninitialized>
+<unknown>
+=5^:>
+=7p7M}
+=ETLP
+=IBgC
+=SNRtt%
+=TADIt<=DNEI
+=q=J?
+>"t-H
+>#u&H
+>$u5I
+>-ufH
+>B`E?)\
+>Mp$d
+>W`.]tB3?
+>X9t?
+>fff?
+?!std::isnan( flSystemTimeInSeconds )
+?&x0O
+?'1(?
+?)\o?;
+?333333
+?333?
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??0DepthFromStereo@PE@@QEAA@XZ
+??0Extrinsics@ST@@QEAA@XZ
+??0KBIntrinsics@ST@@QEAA@XZ
+??0Matrix4@ST@@QEAA@AEBV?$array@M$0BA@@std@@@Z
+??0MultiCameraColorFrame@ST@@QEAA@XZ
+??0_Lockit@std@@QEAA@H@Z
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1DepthFromStereo@PE@@QEAA@XZ
+??1Extrinsics@ST@@QEAA@XZ
+??1KBIntrinsics@ST@@QEAA@XZ
+??1MultiCameraColorFrame@ST@@QEAA@XZ
+??1_Lockit@std@@QEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@N@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_N@Z
+??Bid@locale@std@@QEAA_KXZ
+??DMatrix4@ST@@QEBA?AU01@AEBU01@@Z
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?@s#0?LD
+?CVkDevice::CreateDevice
+?HcC,H
+?Nbp?
+?UUUUUU
+?VR_OVERRIDE
+?VUUUUU
+?Xb&<
+?Zero@Intrinsics@ST@@SA?BU12@XZ
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_alloc@std@@YAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xinvalid_argument@std@@YAXPEBD@Z
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?always_noconv@codecvt_base@std@@QEBA_NXZ
+?backgroundThreadHasResult@DepthFromStereo@PE@@QEBA_NXZ
+?backgroundThreadIsProcessing@DepthFromStereo@PE@@QEBA_NXZ
+?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?connectCallbacksInterface@DepthFromStereo@PE@@QEAAXPEAVIDepthAugmentedPassthroughCallbacks@2@@Z
+?createMCCFFromRawYUYVBuffer@DepthFromStereo@PE@@QEAAXAEAUMultiCameraColorFrame@ST@@PEAEHHNQEAUIntrinsics@4@QEAUKBIntrinsics@4@QEAUExtrinsics@4@QEAUMatrix4@4@_N@Z
+?destroy@DepthFromStereo@PE@@QEAAXXZ
+?enqueueMCCFDataAndPoseForProcessing@DepthFromStereo@PE@@QEAAXAEBUMultiCameraColorFrame@ST@@AEBUMatrix4@4@H@Z
+?enqueuePoseDataForWarping@DepthFromStereo@PE@@QEAAXAEBUMatrix4@ST@@AEBM00@Z
+?es-8R
+?ffffff
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?fromExtrinsics@Matrix4@ST@@QEAAXMMMMMMM@Z
+?getPhToKbFocalLengthMultiplier@DepthFromStereo@PE@@QEBAMXZ
+?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+?gyro_scale
+?hasNan@Matrix4@ST@@QEBA_NXZ
+?hideAllVisualLoggingWindows@ST@@YAXXZ
+?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?identity@Matrix4@ST@@SA?AU12@XZ
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?init@DepthFromStereo@PE@@QEAAX_N@Z
+?initializeVisualLogging@ST@@YAXXZ
+?inversed@Matrix4@ST@@QEBA?AU12@XZ
+?isSupportedOnThisCpu@DepthFromStereo@PE@@SA_NXZ
+?nan@Matrix4@ST@@SA?AU12@XZ
+?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+?prepareFrame@PE@@YAXPEAUMultiCameraColorFrame@ST@@W4FramePreparationStrategy@1@N0_N2@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAV32@@Z
+?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+?rotated@Matrix4@ST@@QEBA?AU12@AEBU?$Vector3@M@2@@Z
+?rotationAsQuaternion@Matrix4@ST@@QEBA?AUVector4@2@XZ
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z
+?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+?setControllerMeshPath@DepthFromStereo@PE@@QEAAXAEBEPEBD@Z
+?setDepthFromStereoConfig@DepthFromStereo@PE@@QEAAXPEBD_N@Z
+?setExtrinsics@Extrinsics@ST@@QEAAXMMMMMMM@Z
+?setIdentity@Intrinsics@ST@@QEAAXHH@Z
+?setKBIntrinsics@KBIntrinsics@ST@@QEAAXMMMMMMMMHH@Z
+?setVisualLoggingVerbosity@ST@@YA_NH@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setprecision@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?stillProcessingLatestInput@DepthFromStereo@PE@@QEBA_NXZ
+?swap@?$basic_iostream@DU?$char_traits@D@std@@@std@@IEAAXAEAV12@@Z
+?swap@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXAEAV12@@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+?tellp@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+?translation@Matrix4@ST@@QEBA?AU?$Vector3@M@2@XZ
+?u='?
+?uZEeu
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?uncaught_exceptions@std@@YAHXZ
+?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@ D9A s
+@$A9B
+@(9B(}
+@(A9@
+@.data
+@.reloc
+@.rsrc
+@8<(u
+@8<0u
+@8I+@0H
+@8hFu
+@8k t
+@8k$t:
+@8k4t
+@8kDt
+@8kFuDD
+@8nxt:E3
+@8o4t
+@8oxt
+@8p)u]
+@8s$t
+@8s,u
+@8|$@t$
+@@H+H0
+@@H+H0I
+@@H+P0
+@@H+P0I
+@@H;L$ u
+@@L+@0
+@@L+@0I
+@A\^]
+@A]A\[
+@A]A\^][H
+@A]_[
+@A^A]A\[]
+@A^][
+@A^_[
+@A^_^
+@A_A\]
+@A_A^A\
+@A_A^A\H
+@A_A^A\_^
+@A_A^A]A\_
+@A_A^A]A\_^[
+@A_A^A]A\_^]
+@A_A^A]_[
+@A_A^A]_^
+@A_A^^
+@A_A^_
+@A__]
+@A__]H
+@HcQdH
+@LcqHD
+@PH;L$ u
+@SATAUAVAWH
+@SATAUH
+@SATAVAWH
+@SATAWH
+@SAUAVAWH
+@SAUAVH
+@SAUH
+@SAVH
+@SAWH
+@SUATH
+@SUAVAWH
+@SUAVH
+@SUAWH
+@SUVATAWH
+@SUVATH
+@SUVAUAVAWH
+@SUVAVAWH
+@SUVAVH
+@SUVH
+@SUVWATAUAVAWH
+@SUVWATAUAWH
+@SUVWATAVAWH
+@SUVWATH
+@SUVWAUAVAWH
+@SUVWAVAWH
+@SUVWAVH
+@SUVWH
+@SUWAVAWH
+@SUWAWH
+@SVAUAVH
+@SVAVAWH
+@SVAWH
+@SVWATAUAVAWH
+@SVWATAWH
+@SVWATH
+@SVWAUAVH
+@SVWAUH
+@SVWAVAWH
+@SVWAVH
+@SVWAWH
+@SVWH
+@SWATAVH
+@SWAUAVAWH
+@SWAUAVH
+@SWAUH
+@SWAVAWH
+@SWAVH
+@SWAWH
+@UATAUAVAWH
+@UATAUH
+@UATAWH
+@UAUAWH
+@UAVAWH
+@UAVH
+@UAWH
+@USATAUAVH
+@USATAVAWH
+@USATAWH
+@USATH
+@USAUAVAWH
+@USAUAVH
+@USAVH
+@USAWH
+@USVATAVH
+@USVAVH
+@USVAWH
+@USVH
+@USVWATAUAVAWH
+@USVWATAUAVH
+@USVWATAUH
+@USVWATAVAWH
+@USVWATH
+@USVWAUAVAWH
+@USVWAUAVH
+@USVWAUAWH
+@USVWAVH
+@USVWAWH
+@USVWH
+@USWATAUH
+@USWH
+@UVATAUAVH
+@UVATH
+@UVAUAVAWH
+@UVAUH
+@UVAVH
+@UVAWH
+@UVWATAUAVAWH
+@UVWAUH
+@UVWAVAWH
+@UVWAVH
+@UVWH
+@UWATAUAVH
+@UWATAUH
+@UWATAVAWH
+@UWAUAWH
+@UWAUH
+@UWAVAWH
+@UWAVH
+@UWAWH
+@VATAUAVAW
+@VATAVAWH
+@VATAWL
+@VATH
+@VAVH
+@VWATAVAWH
+@VWAUAWH
+@VWAVH
+@VWAWH
+@WATAUAVAWH
+@WATAWH
+@^8U)zj
+@_RDATA
+@fff>fff>fff>fff>
+A H+A
+A H;A
+A file with this name is already in the pool.
+A protocol message was rejected because it was too big (more than 
+A valid JSON document must be either an array or an object value.
+A$A9B
+A(9B(}
+A(9C(}
+A(A9@
+A(A9@(}
+A(A9C(}
+A)}HA
+A+H,A
+A,9AT|
+A0H9i8u
+A8IcA0I
+A8_Yt
+A8t$qt
+A8t$r
+A9@$}VM
+A9@(r"A
+A9A A
+A9B$|
+A9B(r
+A9B(|
+A9Blu
+A9E|s]f
+A9N,t.A
+A9P }
+A9Q sEI
+A9Q }
+A9R }
+A9^H~,3
+A9^x~93
+A9nh~}E3
+A9q }EI
+A9x s
+A;@ r
+A;@0}
+A;B r
+A;L$8}
+A;M0v"A
+A;O0}
+A;P s
+A;Q s?I
+A;X s
+A;^H|
+A;^x|
+A;_h|
+A;h r
+A;q }?I
+A;wX|
+A@H+A8H
+A@H+H0
+A@H+H0I
+A@H+P0
+A@H+P0I
+A@L+H0
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ABGRu*
+ACTIVE
+ADVAPI32.dll
+AHJzrJbk
+ALVRDisplayInit
+ALVRInit
+AMDiuE
+APH+AHH
+ASSERT: "%s" at %s:%d.
+ATAUAWH
+ATAVAWH
+ATAVH
+ATAWH
+AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY
+AUDIO: 
+AUDIO: %s
+A\_^[]
+A\_^][
+A]A\[
+A]A\]
+A]A\^
+A]A\_[]
+A]A\_^[]
+A]^[]
+A]^[]H
+A]_[]
+A]_[]H
+A]_^[]
+A]_^]
+A^A\^
+A^A\^[]
+A^A\_
+A^A\_[
+A^A\_[H
+A^A\_[]
+A^A\_]
+A^A\_^]
+A^A]A\[]
+A^A]A\^]
+A^A]A\_]
+A^A]A\_^[]
+A^A][
+A^A][]
+A^A]_[]
+A^A]_^[]
+A^A]_^]
+A^^[]
+A^_[]
+A^_^[]
+A^_^[]H
+A^_^]
+A^_^][
+A_A\[]
+A_A\]
+A_A\^
+A_A\^]
+A_A\_
+A_A\_][
+A_A\_^[
+A_A\_^]
+A_A]A\
+A_A]A\[]
+A_A]A\^[]
+A_A]A\_]
+A_A]A\_^[]
+A_A]A\_^]
+A_A]]
+A_A]^]
+A_A]_[
+A_A]_[]
+A_A]_]
+A_A]_^[]
+A_A]_^[]H
+A_A^A\
+A_A^A\[]
+A_A^A\]
+A_A^A\^
+A_A^A\_]
+A_A^A\_^
+A_A^A\_^[]
+A_A^A\_^[]H
+A_A^A\_^][
+A_A^A]
+A_A^A]A\
+A_A^A]A\]
+A_A^A]A\^
+A_A^A]A\_
+A_A^A]A\_][
+A_A^A]A\_^[
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^A]A\_^]H
+A_A^A]A\_^][
+A_A^A][
+A_A^A][]
+A_A^A]]
+A_A^A]^]
+A_A^A]_]
+A_A^A]_^
+A_A^A]_^[]
+A_A^A]_^][
+A_A^]
+A_A^^
+A_A^_
+A_A^_H
+A_A^_^[]
+A_A^_^]
+A_A^_^][
+A_^[]
+A_^][
+A__[]
+A__^[]
+A__^]
+AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
+Accessor
+Add Json firmware manifest from %s
+AddAccessAllowedAce
+AddAccessAllowedAce failed for administrator. GetLastError returned: %d
+AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
+AddAccessAllowedAce failed for steam. GetLastError returned: %d
+AddAccessAllowedAce failed for test app. GetLastError returned: %d
+AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
+AddBool
+AddDouble
+AddEnum
+AddFloat
+AddInt32
+AddInt64
+AddMessage
+AddString
+AddUInt32
+AddUInt64
+Additional system report data updated for %s
+Adobe
+Alfred
+Alias
+Already saw decimal point or exponent; can't have another one.
+Already tracking from %d bases
+AnimationChannel
+Anx temp: 
+App CRC invalid
+App Init
+App not found
+ArcturusPerception.dll
+Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
+Array length of `emissiveFactor` parameter in material must be 3, but got 
+Assertion failed:  Explicit right sync does not match pending frame
+Asset
+Attached HID Devices:
+Attempt to add tilt observation to DB for %08X which has never had a dynamic state observation
+Attempt to init shared state %s twice
+Attempted Default Load: 
+Attempted Gold Load: 
+Attempting HID Open %s: %s
+Audio
+AudioBridge
+AudioDeviceChangeNotice (noting refresh): %d, device = %s
+AuthD
+Authu
+AvRevertMmThreadCharacteristics
+AvRevertMmThreadCharacteristics failed: last error is %d
+AvSetMmThreadCharacteristics failed: last error = %u
+AvSetMmThreadCharacteristicsA
+Available samples not sufficient for booting (%s)
+B fA;
+B$A9A
+B(A9A
+B(A9C
+B(teH
+B,9A,
+B98Fyt
+B<I;_X
+B@H+P0
+B@H+P0I
+BA99u	
+BL Init
+BL requested by app
+BL requested by buttons
+BMP RLE
+BPH;BXu
+BQ27421
+BQ27520
+BRAND NEW BASE %08X recorded
+BXL9BPu#M
+B\$@H
+BackUp() can only be called after a successful Next().
+Backlight Init
+Backlight Init Error
+Backup reset
+Bad State
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Base %08X (modelid: %d) transmitting faults %s (%08X)
+Base %08X already has pose to global. Not changing anything
+Base %08X axis %d appears to have failed
+Base %08X is learning to get to %08X because of direct observation
+Base %08X is learning to get to global from %08X because of chain
+Base %08X is learning to get to global from %08X because of direct observation
+Base %08X reset count changed.  Base may have been bumped or power cycled.
+Base station driver for %08X rejected by vrserver
+Batman
+Batt: 
+BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
+BeginFrame called outside of a valid session.
+Bellevue1
+Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f
+Bf9LB
+Boolean default must be true or false.
+Boot to app
+Bootstrap failed because no IMU data was available%s
+Bootstrap pose is out of range at %0.1fm
+BootstrapFinished setting tilt base to %08X
+Boy/Girl
+Buffer
+BufferView
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
+C ;G 
+C ;s@
+C ?t23
+C @8{
+C D8s
+C D8{
+C D;pxu
+C D;px|
+C H9S
+C H;K(u
+C(9C 
+C(9~(~FL
+C(H9C0t
+C,HcK(H
+C09w(~:L
+C0;C,s
+C0L9$
+C4;C,A
+C4LcC0H
+C8;C<
+C8;K<
+C8@8l$8t.
+C8D;C<
+C8H+C0H
+C8H;s0t!H
+C@9C0~'H
+C@9E |
+C@H+H0
+C@H+H0I
+C@H+P0I
+C@H+X0
+CAnimResource
+CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
+CAudioEndpointVolumeCallback::Register
+CB9C0~%H
+CBaseConfig
+CBaseConfigAndDynamicState
+CBoneMaskResource
+CD$ H
+CD$(H
+CD$03
+CD$0H
+CD$83
+CD$8D
+CD$@3
+CD$@I
+CD$HH
+CD$PH
+CD$PL
+CD$`I
+CD$`J
+CD$hH
+CD$pH
+CDHcK@H
+CDisambiguatorFramer: Non monotonicity in ProcessSensorHit
+CDynamicState
+CHECK failed: !coded_out.HadError(): 
+CHECK failed: !is_closed_: 
+CHECK failed: !out.HadError(): 
+CHECK failed: (&from) != (this): 
+CHECK failed: (&from) != (to): 
+CHECK failed: (&other) != (this): 
+CHECK failed: (backup_bytes_) == (0): 
+CHECK failed: (buffer_size) >= (0): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
+CHECK failed: (count) <= (buffer_used_): 
+CHECK failed: (count) <= (last_returned_size_): 
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (count) >= (0): 
+CHECK failed: (field->message_type()) == (desc): 
+CHECK failed: (field->options().ctype()) == (ctype): 
+CHECK failed: (from.GetDescriptor()) == (descriptor): 
+CHECK failed: (last_returned_size_) > (0): 
+CHECK failed: (message1->GetReflection()) == (this): 
+CHECK failed: (message2->GetReflection()) == (this): 
+CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP): 
+CHECK failed: (output->ByteCount()) == (expected_endpoint): 
+CHECK failed: (size) <= (6): 
+CHECK failed: (temp[0]) == ('1'): 
+CHECK failed: (temp[size-1]) == ('5'): 
+CHECK failed: (to->GetDescriptor()) == (descriptor): 
+CHECK failed: allow_unknown_field_: 
+CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL: 
+CHECK failed: builder_: 
+CHECK failed: dynamic.get() != NULL: 
+CHECK failed: field != NULL: 
+CHECK failed: file != NULL: 
+CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+CHECK failed: has_default_value(): 
+CHECK failed: is_prototype(): 
+CHECK failed: iter != extensions_.end(): 
+CHECK failed: options->ParseFromString(buf): 
+CHECK failed: options_descriptor: 
+CHECK failed: original_uninterpreted_options_field != NULL: 
+CHECK failed: output->message_prototype != NULL: 
+CHECK failed: prototype != NULL: 
+CHECK failed: result != NULL: 
+CHECK failed: trees: 
+CHECK failed: uninterpreted_options_field != NULL: 
+CHECK failed: value.size() <= kint32max: 
+CHeader
+CHidDevice: Can't open USB device VID %08x, PID %08x %s %d
+CImuSample
+CKeyframedDataResource
+CL$ 3
+CL$ H
+CL$0H
+CL$8E3
+CL$HM;
+CL$PH
+CL$PL
+CL$PM;
+CL$`H
+CL$pH
+CL$pL
+CL$pL;
+CLD#C|L#
+CLighthouseHmdDriver::InitTracking
+CLighthouseHmdDriver::RunFrame
+CLighthouseHmdDriver::RunFrame/ControllerState
+CLighthouseHmdDriver::TryUpdateAudioProperties
+CLighthouseHmdProvider::LookForNewDevices
+CLighthouseHmdProvider::RunFrame
+CLighthouseHmdProvider::RunFrame/HapticDispatch
+CLighthouseHmdProvider::RunFrame/LighthouseDB
+CLighthouseHmdProvider::RunFrame/WirelessDeviceDiscovery
+CLighthousePairing::RunFrame
+CM'M;
+CMMNotificationClient::Register
+COpticalFrame
+COpticalSample
+CPPTYPE_BOOL
+CPPTYPE_DOUBLE
+CPPTYPE_ENUM
+CPPTYPE_FLOAT
+CPPTYPE_INT32
+CPPTYPE_INT64
+CPPTYPE_MESSAGE
+CPPTYPE_STRING
+CPPTYPE_UINT32
+CPPTYPE_UINT64
+CPrismDirect::CreateSwapTextureSet
+CPrismDirect::GetNextSwapTextureSetIndex
+CPrismDirect::Initialize
+CRecord
+CSharedResourceNamespaceClient::Init(): failed connect
+CSharedResourceNamespaceClient::Init(): failed to get server response
+CSharedResourceNamespaceClient::Init(): failed to retreive payload
+CSharedResourceNamespaceClient::Init(): invalid payload size %u
+CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u
+CSharedResourceNamespaceClient::Init(): received namespace data %u
+CSharedResourceNamespaceClient::Init(): received unexpected message type %u
+CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data
+CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace
+CSharedResourceNamespaceClient::Init(): timed out waiting for server reply
+CSharedResourceNamespaceClient::InitIfNeeded
+CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....
+CT$ H
+CT$(L
+CT$0D
+CT$0E3
+CT$0H
+CT$0L
+CT$@H
+CT$H+L$x
+CT$HE+
+CT$HH
+CT$PD
+CT$PL
+CT$XH
+CT$pD
+CT$pH
+CT$xD
+CT9F,t3@2
+CType
+CVRAudioDeviceImpl::CVRAudioDeviceImpl
+CVRAudioDeviceImpl::EnumAudioDevices
+CVRAudioDeviceImpl::GetDeviceSoundVolume
+CVRAudioDeviceImpl::GetIAudioEndpointVolume
+CVRAudioDeviceImpl::GetIMMDevice
+CVRAudioDeviceImpl::IsDeviceSoundVolumeMute
+CVRAudioDeviceImpl::SetDeviceSoundVolume
+CVRAudioDeviceImpl::SetDeviceSoundVolumeMute
+CVRAudioDevices::GetDefaultAudioDevice
+CVRAudioDevices::Refresh
+CVec3
+CVkAllocator::AllocateMemory
+CVkAllocator::AllocateMemoryFromType
+CVkAllocator::CreateBuffer
+CVkAllocator::CreateImage
+CVkAllocator::GetCompatibleMemoryType
+CVkCommandBuffer::Begin
+CVkCommandBuffer::End
+CVkCommandBuffer::Initialize
+CVkCommandBuffer::OnPreSubmit
+CVkCommandBuffer::Reset
+CVkCommandBuffer::ValidateReferencedResources
+CVkCommandBufferPool::CreateResource
+CVkCommandBufferPool::Initialize
+CVkDevice::ChoosePhysicalDevice
+CVkDevice::CreateInstance
+CVkDevice::Init - failed to get extension count
+CVkDevice::Init - no instance extensions supported
+CVkDevice::Initialize
+CVkDevice::LoadAvailableLayers
+CVkDevice::LoadInstanceExtensions
+CVkDevice::SetDebugName
+CVkDevice::UseDevice
+CVkDevice::UsePhysicalDevice
+CVkGarbageCollector: %s
+CVkGarbageCollector::WaitForWork
+CVkInteropImageD3D11 released without transferring ownership back to D3D11 first!
+CVkMappedMemoryView<struct ClientLayers_t>::Remap
+CVkMemory::Map
+CVkQueue::Initialize
+CVkQueue::Submit
+CVkResourceBase::MarkInUse
+CVkResourcePool<class CVkCommandBuffer>::BorrowResource
+CVkTimeline::CheckPhysicalDeviceCapabilities
+CVkTimeline::Create
+CVkTimeline::ExportTimeline
+CVkTimeline::ImportTimeline
+CVkTimeline::Initialize
+CVkTimeline::WaitMultiple
+CVortex Error
+CXL+CPI
+C\$0D
+C\$0H
+C\$0L
+C\$0M
+C\$8M
+C\$@H
+C\$@M
+C\$PE
+C\$PH
+C\$PL
+C\$PM
+C\$`H
+C\$pH
+C\$pL
+C\$pL9%
+C\$pM
+C\HcKXH
+C`9C(uq
+C`H9F
+Cal Fail
+Calibration failed
+Camera
+Can't 
+Can't create connection to %s for Bluetooth services.
+Can't create lighthouse connection to %s
+Can't get here.
+Can't get here: failed to get default value as string
+Can't parse HMD config from USB: %s
+CancelIo
+Cannot allocate buffer larger than kint32max for 
+Cb9CP~(H
+CertCloseStore
+CertFindCertificateInStore
+CertFreeCertificateContext
+CertGetNameStringA
+Ch9C,uiH
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+ClHcKhH
+Clamping MC to %d (%0.1f%%) %d (%0.1f%%)
+ClearField
+Clearing HmdDisplayNotFound error due to PrismInit success.
+Client (%s) app container state: %d
+Client Allocator
+Client Device
+Client Graphics
+Client-AcquireSync
+Client-BeginFrame:%d
+Client-CreateSwapchain
+Client-DiscardFrame
+Client-DoMaintenance
+Client-ForcedTransitionFromPrism-Compute
+Client-ForcedTransitionFromPrism-Graphics
+Client-FrameAddLayerProjection
+Client-FrameBeginRendering
+Client-FrameDiscard
+Client-FrameEnd
+Client-FrameEndRendering
+Client-FrameStart
+Client-FrameSubmit:%d|%d
+Client-FrameWait
+Client-GetDeltaMs
+Client-InitSwapchainLayout
+Client-InitUBO
+Client-ReleaseAccess
+Client-ReleaseSync
+Client-SubmitLayers
+Client-WaitForBegin
+Client-WaitForRunningStart:%d|%d
+ClientBuffer:%u
+ClientBufferStaging-%llu:%d
+ClientQueryPool-%llu:%d
+ClientTimeline:%llu
+CloseHandle
+CloseServiceHandle
+Closing pipe %s because it was broken from the other end
+CoCreateInstance
+CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x
+CoInitializeEx
+CoInitializeEx, hr = 0x%08x
+CoTaskMemFree
+CoUninitialize
+CompositionState
+CompositionStateMutex
+Compute Client
+ConnectToPrism
+Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x
+ConvertStringSidToSidA
+ConvertStringSidToSidA failed for test app %d
+CopySid
+Could add as alternate, but disallowed by LighthouseDB
+Could boot, but disallowed by LighthouseDB
+Could not create an instance of 
+Could not find field named "
+Could not find field type.
+Could not find monitor of expected size %d x %d Attached monitors: %d
+Could not open "%s": %s
+Could not open device %u, %u, %s to read its config
+Could not open replay file "
+Could not read header from file "
+Couldn't parse default value "
+CpHcL0
+CpHcO4D
+CreateDXGIFactory2
+CreateDirectoryW
+CreateEventA
+CreateEventEx failed
+CreateEventExA
+CreateEventW
+CreateFileA
+CreateFileMappingA
+CreateMediaType(pwfxIn) failed hr = 0x%08x
+CreateMediaType(pwfxOut) failed hr = 0x%08x
+CreateMutexA
+CreateProcessA
+CreateProcessAsUserA
+CreateProcessAsUserW
+CreateResampler failed: hr = 0x%08x
+CreateResamplerBuffer (input) failed: hr = 0x%08x
+CreateResamplerBuffer (output) failed: hr = 0x%08x
+CreateThread
+CreateThread for playback failed: last error is %u
+CreateWellKnownSid
+CreateWellKnownSid failed for WinBuiltinAnyPackageSid
+CreateWindowExA
+Creating new universe %llu because there were no %sexisting universes
+Creating playback mirror thread for device %s
+CryptDecodeObject
+CryptMsgClose
+CryptMsgGetParam
+CryptQueryObject
+Ct$0H
+Ct$PH
+Ct$PI
+CtHcKpH
+C|$0H
+C|$0L
+C|$PL
+D#C|D
+D#G|D
+D#K|M#
+D$ 9D$ H
+D$ 9D$Lw
+D$ @f
+D$ A;
+D$ D88
+D$ E3
+D$ E;
+D$ H#
+D$ H+
+D$ H+]
+D$ H3
+D$ H9V
+D$ H;
+D$ HcH
+D$ I;
+D$ Ii
+D$ L;
+D$ M;
+D$ `3
+D$ fE
+D$ fI
+D$ ff
+D$ tX
+D$ u!H
+D$ v5
+D$!yx~v
+D$$E3
+D$%|oy`
+D$(@88
+D$(E3
+D$(H#
+D$(H+
+D$(H+]
+D$(H9D$ 
+D$(H9D$0t
+D$(H9D$Xs
+D$(H;
+D$(Hc
+D$(HcA
+D$(Hi
+D$(I+
+D$(I9x
+D$(I9~
+D$(I;
+D$(I;G
+D$(I;H
+D$(L+
+D$(L;
+D$(L;D$PtVI
+D$(\E3
+D$(t3
+D$)2tsm
+D$,+D$$
+D$,9D$(s
+D$,D;l$8
+D$,I+
+D$-hiBm
+D$0+D$(
+D$0E+
+D$0E3
+D$0H+
+D$0H9D$(v
+D$0H9Q
+D$0H9V8t
+D$0H;
+D$0H;D$Pt
+D$0I+
+D$0I;
+D$0L;
+D$0L;D$htVI
+D$0M;
+D$0fD
+D$0fff
+D$0tx
+D$1or{t
+D$28I
+D$4I9V@
+D$4I;
+D$5qx3w
+D$88X4tJ
+D$8;D$<u3D
+D$8D8
+D$8E3
+D$8H+
+D$8H;C
+D$8I+
+D$8I;
+D$8L+
+D$8fff
+D$9nrs
+D$<SX
+D$?I;
+D$@8B
+D$@;D$D
+D$@E3
+D$@H9D$8
+D$@H9Q
+D$@H9Q@t
+D$@H9S@t
+D$@H9W
+D$@H;
+D$@H;CHt
+D$@H;G
+D$@H;Y
+D$@HcH
+D$@I+
+D$@I;
+D$@L+
+D$@L;
+D$@L;D$Hu
+D$@Lc@
+D$@M+
+D$@fA
+D$@u'H
+D$A8B
+D$B8B
+D$H9D$$
+D$HE3
+D$HH#
+D$HH+
+D$HHi
+D$Hfff
+D$PE3
+D$PH+
+D$PH9
+D$PH9D$HsHH
+D$PH9D$XscH
+D$PH9D$Xu!H
+D$PH9Q
+D$PH;
+D$PHcC
+D$PHcH
+D$PI+
+D$PI9Q
+D$PI9T$
+D$PI9VPt
+D$PI;
+D$PL+
+D$PL;D$Xu
+D$PM;
+D$PMc
+D$PfA
+D$TI;
+D$XA#
+D$XE3
+D$XH+
+D$XH9D$8
+D$XH9Q
+D$XH;
+D$XHc
+D$XIc
+D$XL;
+D$Xaxis
+D$XuQH
+D$Xv?
+D$] fra
+D$`A9
+D$`D9
+D$`E3
+D$`H9D$@
+D$`H9Q
+D$`H9~
+D$`H;
+D$`HcH
+D$`I;
+D$`I;}
+D$`L;
+D$`M+
+D$`fI
+D$ames
+D$h8\$pu#
+D$h;X(|
+D$h;X@|
+D$h;XX|
+D$h;Xp|
+D$h;p,|
+D$h;xx|
+D$hH3
+D$hH9D$H
+D$hH;
+D$hH;F0u
+D$hHc
+D$hHcA,H
+D$hIc
+D$hL;
+D$hL;d$p
+D$hL;d$x
+D$hM+
+D$hfff
+D$lA;
+D$p(;M8
+D$pD9u
+D$pE3
+D$pE9fx|+
+D$pH;
+D$pH;X
+D$pHcH
+D$pI;
+D$pL;
+D$pfA
+D$pfH
+D$xH+
+D$xH;
+D$xHc
+D$xL;
+D3D11CreateDevice
+D8$:u
+D8,7u
+D8,8u
+D840u
+D8<0u
+D8D$9t$
+D8D$hH
+D8L$(t
+D8MoD
+D8`)t#E
+D8d$H
+D8d$P
+D8fht/H
+D8h)t
+D8mpt
+D8o)tJ
+D8o)tU
+D8s4t
+D8t$P
+D8x)t!E3
+D8{4t
+D8~ A
+D90uGH
+D9>u:H
+D9@ s
+D9@ }
+D9@$|
+D9A }
+D9B }
+D9D$D
+D9H s
+D9S,~XA
+D9` s
+D9` urH
+D9`(u
+D9`Pu
+D9ahty
+D9c0t
+D9c0t)H
+D9d$<t
+D9d$<u
+D9p s
+D9p,~9I
+D9q(u
+D9s,u
+D9sh~)H
+D9u4t
+D9w u-H
+D9x0u
+D9y s
+D9{0t
+D9{0t'H
+D9{0t?H
+D9{0tZD
+D9{H~7I
+D9{X~7I
+D9|$@
+D9~hu
+D:t$P
+D;@ }
+D;A s
+D;B }
+D;C }
+D;C }JH
+D;C0|
+D;D$hu0H
+D;E8|
+D;I s
+D;K,|
+D;L$Dr
+D;R s
+D;S,|
+D;a s
+D;b s
+D;d$p
+D;l$0
+D;l$0}K
+D;q s
+D;r8|
+D;sh}(
+D;v(s
+D;vh|
+D;x s
+D;y s
+D;{ |
+D;}Tr
+DD$(H
+DISABLED
+DISTORT_DPOLY3
+DISTORT_DPOLY3_SCALED
+DISTORT_DPOLY4_PANELSCALE
+DISTORT_DPOLY4_QUADRATIC_TILT
+DISTORT_DPOLY4_SCALED
+DISTORT_EXTENDED_FTHETA
+DISTORT_FOV1
+DISTORT_FOV2
+DISTORT_FOV3
+DISTORT_FTHETA
+DISTORT_NONE
+DISTORT_POLY2
+DISTORT_POLY2_TANGENT
+DISTORT_POLY3
+DISTORT_POLY3_TANGENT
+DISTORT_R1_POLY_4
+DISTORT_RPOLY2_1
+DISTORT_RPOLY2_2
+DISTORT__COUNT
+DP Init
+Data Invalid
+DebugMessengerCallback
+DefWindowProcA
+Default value for an enum field must be an identifier.
+Defaulting Edid to TSB and 0x8888 because we don't know it
+Delayed State Change
+DeleteCriticalSection
+DeleteFileW
+DepthAugmentedPassthrough
+DescriptorProto
+DescriptorProtosH
+DestroyWindow
+Detail
+Detected %d playback and %d record devices
+Dev Error
+Device %s powering off upon entering standby.
+Device %s requires driver %s, which is not present
+Device JSON: Found entry... overriding TrackedCameraCalibrations extrinsics
+Device JSON: Overriding Head Position (%s)
+Device JSON: Overriding IPD control to enabled (%s)
+Device JSON: Overriding display_color_mult
+Device JSON: Overriding incorrect device normal (%s)
+Device JSON: Overriding input_profile (%s)
+Device JSON: Overriding input_profile to %s (%s)
+Device JSON: Overriding proximityEnable to %d (%s)
+Device JSON: Overriding resource_root (%s)
+Device JSON: Overriding subpixel_shift (%s)
+DeviceGC
+DeviceIoControl
+DeviceMessageWindow_t::RunFrame
+Devices with no on-device calibration are not supported in the Lighthouse driver.
+DigiCert Assured ID Root CA0
+DigiCert Inc1
+DigiCert Timestamp 20210
+DigiCert Trusted Root G40
+DigiCert, Inc.1 0
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+Disabled
+Disabled by Config
+Discard
+Discarded IMU sample in ImuOnlyTracker because they were backing up.
+Discarding %u haptic events because there were too many this frame
+Discarding duplicate universe %llu at index %d when parsing db json file %s
+DispatchMessageA
+Display
+Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
+DisplayFPGA
+Disregard world_from_global entry in universe %llu
+Distortion_Type
+Dongle
+DongleV2
+Dropped %s during the previous tracking session
+Duplicate basestation serials detected.
+Duplicate key: '
+DuplicateHandle
+E$HcM H
+E(L9M
+E)eHD
+E0H+E(H
+E0Lc$
+E8^Xt
+E8g(tDD8
+E9>~iI
+E9A(|
+E9x s
+E;A }
+E;p s
+E;u`|
+E@H+h0H
+E@L9M
+ECameraHAL_OpenError_ToString
+ED$(H
+EHAiWh
+EHI;FHu
+EOfff
+ERROR
+ERROR: Expected 2 float args, '
+ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
+ERROR: GetEdidId (%d)
+ERROR: GetVideoConfig (%d)
+ERROR: No display or device
+ERROR: SetEdidId (%d)
+ERROR: SetVideoConfig (%d)
+EV2.0
+E\$@f;
+E_H9U
+Edid already edid_id %d, no change needed
+Ef;K@
+EgH9Q@t
+EgH9S@t
+EgH9V
+Empty escape sequence in string
+Empty file.
+End-of-file inside block comment.
+EndFrame called w/ incorrect client frame index.
+EndSession
+Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x
+Endpoint topology GetConnector(0) failed: hr = 0x%08x
+EnterCriticalSection
+Entered Debug
+Entry #
+Enum type "
+EnumAudioEndpoints failed: hr = 0x%08x
+EnumDescriptorProto
+EnumDisplayDevicesA
+EnumDisplayMonitors
+EnumOptions
+EnumValueDescriptorProto
+EnumValueOptions
+Enumerating displays...
+Enums must contain at least one value.
+Eo%lf
+Ep9H(tRA
+Epfff
+Error
+Error - IMU Sample IOBuffer can't be or is already established (%p,%llX)
+Error SetVideoConfigAndWaitForDisplayReenumeration
+Error creating component: %d (%s) in %s
+Error getting Watchman HMD Status.
+Error getting Watchman Status.
+Error loading HMD overrides from file
+Error loading MC data '%s'
+Error loading MC data. Buffer too small to contain image.
+Error loading MC info '%s'
+Error loading device profile: %s
+Error on GetFeatureReport
+Error on Watchman_Feature_EdidEnumerate
+Error on Watchman_Feature_EdidInfo
+Error on reply_version
+Error parsing all digits of rootserial. Skipping overrides
+Error parsing device profile JSON: %s: %s
+Error parsing text-format 
+Error querying Index HMD panel stats
+Error querying IndexHmdColumnCorrectionMode
+Error reading tracked device config from path 
+Error setting column correction
+Error setting index audio mute state
+Error setting index backlight gain
+Error unzipping config data: %s
+Error while parsing option value for "
+Error! EventWriteString Severe: %s
+Error! Unable to load firmware manifest %s after allocating memory
+Error: Override File %s cannot be read
+Error: Override File %s crc mismatch. Actual: %08X, expected %08X 
+Error: Override File %s defined unknown format %d (expected 0x01)
+Error: Override File %s is empty.
+Error: Override File %s is not a valid override file (magic number mismatch)
+Error: Override File %s is too small, or cannot be read
+Error: Override File %s is too small. Actual size: %d, expected size %d 
+Error: Override File does not have entry for device key 0x%08X
+Error: Override file %s exceeds maximum size %d
+Errors when parsing lighthouse database %s:
+Errors!
+EventRegister
+EventUnregister
+EventWrite
+EventWriteString
+EwD9u
+ExH9Q
+Exceeded stackLimit in readValue().
+Executable: %s
+ExpandEnvironmentStringsA
+Expect a decimal number.
+Expected "
+Expected MC Images:
+Expected double.
+Expected eight hex digits up to 10ffff for \U escape sequence
+Expected four hex digits for \u escape sequence.
+Expected hex digits for escape sequence.
+Expected identifier.
+Expected integer or identifier.
+Expected integer.
+Expected string.
+Extension "
+Extension conflicts with extension already in database: extend 
+Extension factory's GetPrototype() returned NULL for extension: 
+Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
+Extension number $0 has already been used in "$1" by extension "$2".
+Extension numbers cannot be greater than $0.
+Extension numbers must be positive integers.
+Extension range $0 to $1 includes field "$2" ($3).
+Extension range $0 to $1 overlaps with already-defined range $2 to $3.
+Extension range end number must be greater than start number.
+ExtensionRange
+Extensions of MessageSets must be optional messages.
+Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
+Extra non-whitespace after JSON value.
+Eye Displays must be adjacent: left (%d, %d), right (%d, %d)
+E|A;Epr
+F 9C@|
+F 9G |
+F @8p)u]
+F!A+F%H
+F$HcN H
+F()h(H
+F(HcH
+F,9ATu
+F,9G,
+F0D85
+F8@85W
+F<@85
+F@@8h)u
+FACET_VULKAN_VALIDATION
+FATAL
+FORMAT=32-bit_rle_rgbe
+FPGA susp: 
+FS callback[s] not set
+FW App
+FW Assert
+FW BL
+FW Update Finish
+FW Update Load
+FW Update Start
+FX@8h(t
+FX@8h)u
+F`@8h)u
+F`H9X
+Facet
+Failed Watchdog timeout in thread %s after %f seconds
+Failed Watchdog timeout in thread %s after %f seconds. Aborting.
+Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
+Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
+Failed creating auto reset event %s (GLE: %u)
+Failed creating file mapping %s: %u
+Failed creating mutex %s (GLE: %u)
+Failed mapping view for %s
+Failed to connect to pipe %s because %s
+Failed to create IMU IOBuffer for %d (error=%d, handle=%d)
+Failed to create vrprismhost_startup
+Failed to create window in DeviceMessageWindow_t::Create
+Failed to decode 'uri' : 
+Failed to decode 'uri' for image[
+Failed to find entrypoint WINRT_AcquireDisplay
+Failed to find entrypoint WINRT_GetAdapterLuid
+Failed to find entrypoint WINRT_GetCurrentDriverVersion
+Failed to find entrypoint WINRT_GetDeviceString
+Failed to find entrypoint WINRT_GetDisplayMode
+Failed to find entrypoint WINRT_GetSurfaces
+Failed to find entrypoint WINRT_HasDisplay
+Failed to find entrypoint WINRT_Initialize
+Failed to find entrypoint WINRT_Present
+Failed to find entrypoint WINRT_Release
+Failed to find entrypoint WINRT_ReleaseDisplay
+Failed to find entrypoint WINRT_WaitForPresent
+Failed to get HINSTANCE in DeviceMessageWindow_t::Create
+Failed to import client event handle from pipe %s after connecting
+Failed to import server event handle from pipe %s after connecting
+Failed to load external 'uri' for image[
+Failed to open event %s because access was denied
+Failed to open file mapping %s because access was denied
+Failed to open mutex %s because access was denied
+Failed to parse JSON object
+Failed to parse `bufferView` for image[
+Failed to parse `uri` for image[
+Failed to read config when activating watchdog on button press: %s
+Failed to read file: 
+Failed to register/find class in DeviceMessageWindow_t::Create
+Failed to send pairing result mailbox message. Maybe it didn't have a return address?
+Failed to send reply to discover_dongles message: %d
+Failed to set thread %p priority: invalid priority %d
+Failed to start pairing on dongle %s
+Failed to start vrprismhost: %s
+Failed to write app container status to pipe %s after connecting because %s
+Failed to write event process handle after connecting because %s
+False
+Fatal
+Field "
+Field does not match message type.
+Field is repeated; the method requires a singular field.
+Field is singular; the method requires a repeated field.
+Field number $0 has already been used in "$1" by field "$2".
+Field numbers $0 through $1 are reserved for the protocol buffer library implementation.
+Field numbers cannot be greater than $0.
+Field numbers must be positive integers.
+Field with message or enum type missing type_name.
+Field with primitive type has type_name.
+FieldDescriptorProto
+FieldDescriptorProto.extendee not set for extension field.
+FieldDescriptorProto.extendee set for non-extension field.
+FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
+FieldDescriptorProto.oneof_index should not be set for extensions.
+FieldOptions
+FieldSize
+Fields of oneofs must themselves have label LABEL_OPTIONAL.
+File already exists in database: 
+File appears to be in generated pool but wasn't registered: 
+File is already registered: 
+File is empty : 
+File not found : 
+File open error : 
+File open error for writing : 
+File read error : 
+File recursively imports itself: 
+File size mismatch : 
+File write error: 
+File: 
+FileDescriptorProto
+FileDescriptorSet
+FileOptions
+Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
+Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
+Firmware
+First argument to Swap() (of type "
+First argument to SwapFields() (of type "
+Flextronics
+Forced create of Win32 mutex %s but it already existed
+Forced create of Win32Event %s but it already existed
+Forced create of Win32Event but it already existed
+Forced create of Win32Mutex but it already existed
+Forced create of file mapping %s but it already existed
+Foreign timelines unsupported. Leaking resource.
+Format string parse failure
+FormatMessageA
+Found Direct Mode Display
+Found default audio playback device %s, VID:%04x/PID:%04x %s
+Found default audio recording device %s, VID:%04x/PID:%04x %s
+Found per-device override of unhandled type %d
+Found two different DeviceIDs for monitor %s: %s and %s
+Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).
+Framer sensorType: %d
+Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d
+FreeLibrary
+Fuel Gauge Reset
+Full base station info: >>>%s<<<
+Future Model
+G 8X@t:H
+G A9F |
+G(M+G I
+G,+G$
+G,HcO(H
+G,iV(
+G8@8n4t{H
+G8D8t$8t/A
+GHiVX
+GLOG_alsologtoemail
+GLOG_alsologtostderr
+GLOG_colorlogtostderr
+GLOG_log_backtrace_at
+GLOG_log_dir
+GLOG_log_link
+GLOG_log_prefix
+GLOG_logbuflevel
+GLOG_logbufsecs
+GLOG_logemaillevel
+GLOG_logfile_mode
+GLOG_logmailer
+GLOG_logtostderr
+GLOG_max_log_size
+GLOG_minloglevel
+GLOG_stop_logging_if_full_disk
+GLOG_v
+GLOG_vmodule
+GOOGLE_ALSOLOGTOSTDERR
+GOOGLE_LOGTOSTDERR
+GOOGLE_LOG_DIR
+GPI+GHf
+GPJMt
+GPJMtUH
+GXkVp8H
+General reset
+Generating hidden area mesh for mode "%d" %s
+GetACP
+GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+GetBool
+GetCameraHALInterface
+GetClassInfoA
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetDXGISharedHandle
+GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x
+GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x
+GetDefaultAudioEndpoint failed: hr = 0x%08x
+GetDouble
+GetEnum
+GetEnvironmentVariableA
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
+GetExitCodeThread
+GetFileAttributesExW
+GetFileAttributesW
+GetFileVersionInfoSizeW
+GetFileVersionInfoW
+GetFloat
+GetFullPathNameW
+GetInt32
+GetInt64
+GetLastError
+GetLengthSid
+GetMediaSubtype failed hr = 0x%08x
+GetMessage
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetMonitorInfoA
+GetOverlappedResult
+GetProcAddress
+GetRepeatedBool
+GetRepeatedDouble
+GetRepeatedEnum
+GetRepeatedFloat
+GetRepeatedInt32
+GetRepeatedInt64
+GetRepeatedMessage
+GetRepeatedString
+GetRepeatedStringReference
+GetRepeatedUInt32
+GetRepeatedUInt64
+GetStdHandle
+GetString
+GetStringReference
+GetSystemDirectoryW
+GetSystemPowerStatus
+GetSystemTimeAsFileTime
+GetTickCount64
+GetTokenInformation
+GetTokenInformation failed. GetLastError returned: %d
+GetUInt32
+GetUInt64
+GetWindowLongPtrA
+Getting devnode property store failed: hr = 0x%08x
+Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
+GpfD9
+GxiV@
+H I;	r
+H SVWH
+H SWH
+H!C@H
+H!CxH
+H#C0H
+H#C0L
+H#G0L
+H#KxH
+H#KxL
+H#L$8H
+H#N0H
+H#P(H
+H#W0H
+H(9J(}
+H(9K(}
+H(A9H
+H(A9H(}
+H(A9K(}
+H(fff
+H*0"ZOW
+H+C H;
+H+C(D
+H+C(H
+H+C0H
+H+C@H
+H+D$8
+H+EpH
+H+H@H
+H+H@I
+H+K(H
+H+KPH
+H+KXI
+H+KpI
+H+KpL
+H+L$0
+H+L$0H
+H+L$8H
+H+L$HH
+H+NhH
+H+Q0H
+H+Q@H
+H+Q@HcO,H
+H+SpH
+H+SpI
+H+T$pH
+H+WpA
+H+WpH
+H+WpI
+H+WpJ
+H+Y@H
+H+_@H
+H+_pH
+H+q@HcO,H
+H0Ic@,Hc
+H9)u 
+H9-A>!
+H91u 
+H92u&
+H92u,
+H93t	H
+H97t	H
+H98t	H
+H9;uAA
+H9A s
+H9A u&
+H9A u6
+H9A(u$
+H9A(u&
+H9A(u6
+H9A0u$
+H9A0u&
+H9A0u6
+H9A@u&
+H9A@u6
+H9AHu&
+H9APu&
+H9APu6
+H9AXu&
+H9AXu6
+H9Ahs
+H9C s'L
+H9C s(H
+H9C s.H
+H9C t
+H9D$0s*H
+H9D$@
+H9D$@u
+H9D$Hu
+H9D$P
+H9E8u$H
+H9G u6
+H9G(u6
+H9G0u6
+H9GHu'
+H9GPu'
+H9H s
+H9H s*
+H9H@t`H
+H9HXt
+H9P A
+H9P s
+H9PXt
+H9Q@t
+H9Qhv#H
+H9T$@t.
+H9UPt
+H9V8t
+H9X s
+H9Y uRA
+H9Z s
+H9\$@H
+H9\$pt:H
+H9t$hu
+H9uou
+H9w u#
+H9w0u#
+H9x@u
+H9y r
+H9{Xu
+H9|$@
+H9|$pH
+H;+u*
+H;0t(H
+H;0u7
+H;0u8H
+H;0u:H
+H;8u9
+H;9u|A
+H;Axt
+H;B0t
+H;C s<H
+H;C sFH
+H;C(v
+H;C`u
+H;Cxu
+H;D$@
+H;D$P
+H;H s
+H;K sOH
+H;K u
+H;K(u
+H;P A
+H;Q r
+H;Q s
+H;S s?H
+H;S sAH
+H;S8r
+H;X s
+H;X`H
+H;Y s
+H;Y t
+H;YptV
+H;Z s
+H;\$0t
+H;\$Ht
+H;\$Htf
+H;\$Hu
+H;\$X
+H;\$h
+H;\$ht
+H;\$hu
+H;\$p
+H;](t
+H;](u
+H;]Hu
+H;^Hu
+H;_ t+H
+H;_ t,H
+H;_ u
+H;p s
+H;s(r
+H;t$8
+H;t$@
+H;t$`
+H;t$x
+H;x`L
+H;{8t7
+H;{XH
+H;|$0t
+H;|$Pt
+H;|$X
+H;|$Xt
+H;|$`
+H;|$x
+H;}PtwH
+H@L+A0
+HAPTICDEBUG %s:%d age: %f	 sec: %f	 freq: %f	 amp: %f
+HA^A]_[
+HA^_^[
+HA_A^A]_][
+HA_A^][
+HHcL$PH
+HID opened: VID %04x PID %04x serial %S seq %d | if %d
+HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
+HMD Model: %s
+HMD Report:
+HTC SR-1
+HTC V2-XC
+HTC V2-XD/XE
+HTC Vive
+HTC Vive Developer Edition
+HTC Vive Pro
+HTC-VIVE
+HWID Signature not found
+H_^][
+HasField
+HcA A
+HcA,H
+HcA,L
+HcA0H
+HcB Hi
+HcB,A
+HcB,H
+HcC(N
+HcC,H
+HcD$$H
+HcD$x
+HcD7,A
+HcE,H
+HcF$H
+HcF,A
+HcF,H
+HcFdH
+HcG,A
+HcG,H
+HcI,H
+HcI,I
+HcI4M
+HcK4M
+HcKHH
+HcKXH
+HcL$4H
+HcL$@H
+HcL$HH
+HcL$PH
+HcN,H
+HcN0L
+HcN4E
+HcN4H
+HcN4L
+HcO,A
+HcO,H
+HcO,I
+HcO,L
+HcO4D
+HcO4E
+HcO4H
+HcO4Hi
+HcO4L
+HcOXH
+HcQ0H
+HcS B
+HcT$$
+HcT$PH
+HcT$`L
+HcV|H
+HcW,H
+HcW,L
+HcY(I
+Hc\$ 
+Hct$0
+Hct$@L+
+Hex and octal numbers must be integers.
+HiL$ 
+Hid not open
+HidD_FreePreparsedData
+HidD_GetAttributes
+HidD_GetFeature
+HidD_GetIndexedString
+HidD_GetManufacturerString
+HidD_GetPreparsedData
+HidD_GetProductString
+HidD_GetSerialNumberString
+HidD_SetFeature
+HidP_GetCaps
+HkEpd
+HkExd
+HmdDeviceConnect( %u, %u, %llu, %llu )
+HmdDriverFactory
+Hu"Hc
+I#HHI
+I#Q0L
+I(+K H
+I(9J(}
+I(I+I H
+I+G@H
+I0G08
+I9<$u
+I9A A
+I9B A
+I9Bhs
+I9FXw
+I9GPu
+I9H@t
+I9I@t
+I9Q sEI
+I9U tDH
+I9V t
+I9q sEI
+I;4$H
+I;4$L
+I;8u?H
+I;B r
+I;F t/H
+I;F u
+I;I r
+I;P s
+I;Q s?I
+I;V8r
+I;\$ t
+I;\$`I
+I;]xH
+I;^Hu
+I;^hu
+I;q s?I
+I;x r
+I;}`I
+IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x
+IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u
+IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x
+IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x
+IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x
+IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x
+IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x
+IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x
+IAudioClient::GetDevicePeriod failed: hr = 0x%08x
+IAudioClient::GetDevicePeriod hnsDefaultDevicePeriod = %4.2fms
+IAudioClient::GetDevicePeriod hnsMinimumDevicePeriod = %4.2fms
+IAudioClient::GetMixFormat failed: hr = 0x%08x
+IAudioClient::GetService(IAudioCaptureClient) failed: hr = 0x%08x
+IAudioClient::GetService(IAudioRenderClient) failed: hr = 0x%08x
+IAudioClient::Stop failed: hr = 0x%08x
+IAudioClientFrom::GetBufferSize failed: hr = 0x%08x
+IAudioClientFrom::Initialize failed: hr = 0x%08x
+IAudioClientFrom::Start failed: hr = 0x%08x
+IAudioClientTo::GetBufferSize failed: hr = 0x%08x
+IAudioClientTo::Initialize failed: hr = 0x%08x
+IAudioClientTo::IsFormatSupported failed: hr = 0x%08x
+IAudioClientTo::SetEventHandle failed: hr = 0x%08x
+IAudioClientTo::Start failed: hr = 0x%08x
+IAudioEndpointVolume(IAudioClientFrom) supports hardware mute
+IAudioEndpointVolume(IAudioClientFrom) supports hardware volume
+IAudioEndpointVolume::GetMasterVolumeLevel failed: hr = 0x%08x
+IAudioEndpointVolume::GetMasterVolumeLevelScalar failed: hr = 0x%08x
+IAudioEndpointVolume::GetMute failed: hr = 0x%08x
+IAudioEndpointVolume::GetVolumeRange failed: hr = 0x%08x
+IAudioEndpointVolume::QueryHardwareSupport failed: hr = 0x%08x
+IAudioEndpointVolume::SetMasterVolumeLevelScalar failed: hr = 0x%08x
+IAudioEndpointVolume::SetMute failed: hr = 0x%08x
+IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer
+IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
+IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
+ICE40
+IDATH
+IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
+IMFMediaBuffer::Lock failed: hr = 0x%08x
+IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
+IMFMediaBuffer::Unlock failed: hr = 0x%08x
+IMFSample::AddBuffer failed: hr = 0x%08x
+IMFTransform->SetInputType failed hr = 0x%08x
+IMFTransform->SetOutputType failed hr = 0x%08x
+IMFTransform::ProcessInput failed: hr = 0x%08x
+IMFTransform::ProcessOutput failed: hr = 0x%08x
+IMMDevice invalid ID: %ls -> %s
+IMMDevice::Activate failed(IAudioEndpointVolume): hr = 0x%08x
+IMMDevice::Activate failed: hr = 0x%08x
+IMMDevice::Activate(IAudioClientFrom) failed: hr = 0x%08x
+IMMDevice::Activate(IAudioClientTo) failed: hr = 0x%08x
+IMMDevice::GetId failed: hr = 0x%08x
+IMMDevice::GetState failed: hr = 0x%08x
+IMMDevice::Item(%u) failed: hr = 0x%08x
+IMMDevice::OpenPropertyStore failed: hr = 0x%08x
+IMU Tracker
+IMU data received again...
+IMU misalignment unreasonably large 
+IMU off scale
+IMU only!
+IMU samples
+IMU went off scale.
+INFO: firmware_config %s
+INVALID
+INVALID_CPPTYPE
+IPC::CIPCHandle::InitForExport
+IPC::TSharedHandleBase<void *,0>::Close
+IPCPipe(%s) failed to read payload of %u bytes
+IPCPipe(%s) failed to write message of %u bytes because %s
+IPCPipe(%s): Next message type %u, seq %u, len %u
+IPCPipe(%s): Sending simple message type %u, seq %u
+IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal
+IPCPipe(%s): Wrote %u bytes of total message length
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND
+IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_005
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRCameraComponent_003
+IVRChaperoneInternal_001
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorPluginProvider_001
+IVRCompositorSystemInternal_001
+IVRControlPanel_006
+IVRDebug_001
+IVRDisplayComponent_002
+IVRDriverDirectInternal_XXX
+IVRDriverDirectModeComponent_008
+IVRDriverInput_003
+IVRDriverLog_001
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRIOBuffer_002
+IVRInputInternal_002
+IVRInput_010
+IVRMCStore_001
+IVRMailbox_002
+IVROverlayInternal_XXX
+IVROverlay_025
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRServerDriverHost_006
+IVRServer_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+IVRVirtualDisplay_002
+IVRWatchdogHost_002
+IVRWatchdogProvider_001
+Ic@,A
+Ic@,I
+IcA,H
+IcD$ f
+IcE4J
+IcL$,
+IcN,H
+IcO4H
+IiGM>nw
+Image data is empty for image[
+Image height mismatch. for image[
+Image width mismatch for image[
+ImageBridge
+Import "
+In BL: 
+Index
+Index Controller CreateSkeletonComponent failed.  Error: %i
+Index HMD
+Index out-of-bounds (field is empty).
+Infinity
+InitCameraHAL
+InitTrackedCamera(): Disabling camera on (%s) due to required recovery firmware update. Camera services restricted.
+InitTrackedCamera(): Disabling camera on (%s) due to vr settings. Camera services restricted.
+InitTrackedCamera(): Failed to find expected interface on (%s). Camera services not available.
+InitTrackedCamera(): Failed to find primary configuration for camera on (%s). Camera services not available.
+InitTrackedCamera(): Failed to get compatibility mode for camera on (%s). Camera services not available.
+InitTrackedCamera(): Failed to get firmware description for camera on (%s). Camera services not available.
+InitTrackedCamera(): Failed to get firmware version for camera on (%s). Camera services not available.
+InitTrackedCamera(): Failed to open expected camera on (%s): %s. Camera services not available.
+InitTrackedCamera(): Failed to set video format for camera on (%s). Camera services not available.
+InitTrackedCamera(): Forcing camera exposure time to %2.2f %s
+InitTrackedCamera(): Forcing camera framerate to %d %s
+InitTrackedCamera(): Forcing camera gain to %2.2f %s
+InitTrackedCamera(): Forcing camera white balance to %d %s
+InitTrackedCamera(): No calibration configuration for camera found on (%s). Camera services not available.
+InitTrackedCamera(): Opened tracked camera on (%s). Compatibility Mode:%d. %s
+InitTrackedCamera(): Rejecting camera on (%s) due to vr settings. Camera services not available.
+InitTrackedCamera(): no ISP configurations specified in device json (%s). Camera services not available.
+InitializeAcl
+InitializeAcl failed. GetLastError returned: %d
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+InitializeSecurityDescriptor
+InitializeSecurityDescriptor failed. GetLastError returned: %d
+Integer out of range.
+Interpreting non ascii codepoint %d.
+Invalid
+Invalid Arg
+Invalid Arguments
+Invalid Device
+Invalid HMD interrupt packet length %u
+Invalid HMD interrupt packet tag %X
+Invalid TDM lock on matched serial / phase.
+Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
+Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
+Invalid `componentType` in accessor. Got 
+Invalid binary data in `Buffer'.
+Invalid camera type: "
+Invalid control characters encountered in text.
+Invalid data!
+Invalid escape sequence in string literal.
+Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
+Invalid file size : 
+Invalid float number: 
+Invalid glTF binary.
+Invalid image data for image[
+Invalid magic.
+Invalid proto descriptor for file "
+Invalid public dependency index.
+Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Invalid report version %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Invalid strings::Substitute() format string: "
+Invalid symbol name: 
+Invalid universe ID %llu when parsing universe
+Invalid value for boolean field "
+Invalid weak dependency index.
+Invalid wire type for CPPTYPE_INT32: 
+Invalid wire type for CPPTYPE_INT64: 
+Invalid wire type for CPPTYPE_MESSAGE: 
+Invalid wire type for CPPTYPE_UINT32: 
+Invalid wire type for CPPTYPE_UINT64: 
+Invalid.
+IsDebuggerPresent
+IsManual
+IsProcessorFeaturePresent
+IsValidSid
+J 9H s
+J(9O(|
+J>@G_
+JSON Update
+JSON string too short.
+K(9J(}
+K(u1H
+K@H+K8H
+K@H+Y0I
+KERNEL32.dll
+KHR_lights_punctual
+K`H;S
+Knu RevB
+Knuckles
+Knuckles EV1.3
+Knuckles EV1.4
+KpLcW4
+K}*n:	
+L#AxJ
+L#F0H
+L#F0L
+L#N0H
+L#O0H
+L#Q0L
+L#Q0M
+L#V0M
+L#n0M
+L$ +G H
+L$ 8J4tjH
+L$ 9D$ H
+L$ ;o(|
+L$ ;o@|
+L$ ;oX|
+L$ ;op|
+L$ ATAUAVH
+L$ AVH
+L$ D+
+L$ D8I	tR
+L$ E2
+L$ E3
+L$ H+
+L$ H3
+L$ H9U
+L$ H;
+L$ Hc
+L$ HcQ
+L$ I+
+L$ I9Vpt(
+L$ I;
+L$ L;
+L$ M;
+L$ SH
+L$ SUVWH
+L$ SUWATH
+L$ SVW
+L$ SVWATAUH
+L$ SVWH
+L$ SWH
+L$ USVWH
+L$ UVWATAUAVAWH
+L$ UVWATAVH
+L$ UWAUAVAWH
+L$ VWAUAVAWH
+L$ WATAUAVAWH
+L$ WH
+L$!f;
+L$"@*
+L$"H;
+L$$Ic
+L$(@8t$ u
+L$(E3
+L$(H+
+L$(H3
+L$(H9U
+L$(H9V
+L$(H;
+L$(I+
+L$(I9W
+L$(K9
+L$(L+
+L$(fI
+L$0;L$DuLD
+L$0H+
+L$0H3
+L$0H9
+L$0H9W
+L$0H;
+L$0I9H@t
+L$0I9V
+L$0M;
+L$0fE
+L$4D;
+L$4E3
+L$4L;
+L$5yEA
+L$89s(udL
+L$8A+
+L$8D;
+L$8E3
+L$8H+L$0H
+L$8H;
+L$8H;L$0
+L$8HcQx
+L$8I#
+L$8I9H@t
+L$8I9V@t
+L$8L+
+L$8L;
+L$@D8	u
+L$@D;
+L$@E3
+L$@H+
+L$@H3
+L$@H9Q
+L$@H9t$@ujH
+L$@H;
+L$@HcQ
+L$@Ic
+L$@L#
+L$@L+
+L$@L;L$P
+L$@fD
+L$HH+
+L$HH3
+L$HI#
+L$HI+
+L$HI9T$Xt
+L$HIk
+L$HL+
+L$PE3
+L$PH3
+L$PH;
+L$X@8
+L$XE3
+L$XH3
+L$XH;
+L$XM+
+L$\E3
+L$`A8
+L$`E3
+L$`H3
+L$`H9D$0t
+L$`Hi
+L$`L;
+L$`LcC,B
+L$`fD
+L$h;^H
+L$hE3
+L$hH3
+L$pE3
+L$pH3
+L$pHcQ
+L$pI+
+L$pL+
+L$x;Oh
+L$xD9u
+L$xE3
+L$xH3
+L$xL;
+L$xfA
+L$xu83
+L+@@H
+L+@@I
+L+H@H
+L+H@I
+L+P@H
+L+Q@I
+L80L;
+L9%I?(
+L9%O=(
+L9%^G(
+L9%zF(
+L9%~I(
+L9&u"
+L9-6,&
+L9-P@&
+L90H;
+L90M;
+L92u'
+L959S&
+L95MQ&
+L95hS&
+L95wP&
+L97u0H
+L9>u	H
+L9@ s
+L9A r
+L9E(H
+L9H@u
+L9J s
+L9J u
+L9d$ A
+L9d$hu
+L9jhu
+L9k8v
+L9l$0
+L9l$@
+L9l$@H
+L9l$pH
+L9l$ptLH
+L9t$@
+L9w u
+L9{0t^H
+L9|$(u
+L9|$`
+L9|$p
+L;(u?H
+L;8u6H
+L;8u9
+L;9u9
+L;9u;
+L;C u=
+L;D$0u
+L;D$@u	
+L;D$x
+L;H s
+L;R s
+L;\$`
+L;d$ 
+L;l$P
+L;l$p
+L;t$P
+L;t$h
+L;|$`t
+L;|$h
+L<pL;
+L?n(Zy&
+LABEL_OPTIONAL
+LABEL_REPEATED
+LABEL_REQUIRED
+LG Prototype
+LHB-%08X
+LHR-%08X
+LHR-00000000
+LINEAR
+LITE_RUNTIME
+LPC11 App
+LPC11 BL
+Label
+Last sample %d %lf %lf
+Lc E3
+LcA0L
+LcCHI
+LcCXI
+LcI,N
+LcIhE3
+LcJ,H
+LcN,L
+LcO,H+H@I
+LcQ(I
+Lcl$$I
+LeaveCriticalSection
+Lighthouse %s HID device error
+Lighthouse %s HID opened
+Lighthouse DB Base station %08X has a zero serialNumber in JSON
+Lighthouse DB Base station %08X has no serialNumber in JSON
+Lighthouse HMD failed sanity-check
+LighthouseDirect
+LighthouseDirect:  Unexpected backwards optical sample time
+LighthouseDirect: Optical data at time %.6f < filter at %.6f%s
+LighthouseUSB
+Line %d, Column %d
+Line: 
+LiquidVR
+LoadLibraryA
+LoadLibraryExW
+LoadLibraryW
+Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f
+Loading MC file '%s'
+Loading of firmware manifest file (%s) not successful: (%d)
+Loading override file: %s
+LocalAlloc
+LocalFree
+LocalizationManager
+Location
+Log Erase
+Looking for default audio playback device matching VID:%04x/PID:%04x %s
+Looking for default audio recording device matching VID:%04x/PID:%04x %s
+Lost default audio playback %s
+Lost default audio recording %s
+L~Zs>9
+M H1E
+M#V0M
+M#W0M
+M#e0I
+M$#0]
+M98u/
+M9H s
+M;A r
+MAX10
+MB(iVR
+MFCreateMediaType
+MFCreateMemoryBuffer
+MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
+MFCreateSample
+MFCreateSample failed: hr = 0x%08x
+MH;H(s
+MH;H8s
+MIPI Init
+MIPI Init Error
+MSVCP140.dll
+MS_:F
+MT$dA
+Mailbox %s received message %s, which it didn't have a handler for
+MainSteamVR
+MainThrd
+ManualURL
+MapViewOfFile
+Mark 1
+Mark 2
+Mark 3
+Mark 4
+Max watchdog reset count
+Mb ?QFo
+MbP?GUQ?
+Mb`?+
+Mbp?USERNAME
+McA0I
+Message class "
+Message extensions cannot have required fields.
+Message missing required fields: 
+Message type "
+MessageBoxA
+MessageOptions
+MessageSets cannot have fields, only extensions.
+Messages can't have default values!
+Messages can't have default values.
+MethodDescriptorProto
+MethodOptions
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Minidump comment truncated
+Mirroring from %s to %ls
+Mirroring is same as source %s, not mirroring
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+Missing String for %s (%d)
+Missing base serial number in base universe reference
+Missing base station array when parsing universe %llu
+Missing field: FileDescriptorProto.name.
+Missing name.
+Missing required param "filename"
+Missing target pose in base universe reference
+Moving base %08X %.0fmm and %.1f deg because of relationship with %08X, which is closer to the origin
+MultiByteToWideChar
+Multiple TDM masters in mode B.
+Multiple TDM slaves in mode A/C.
+Multiple basestations locked to same phase. Please confirm TDM cable is plugged in and bases are in proper A/B modes.
+MutableRawRepeatedField
+MutableRepeatedMessage
+MwE9'~MI
+N H+N
+N H;N
+N I9N(
+N(D9q(u
+NJ2"v
+NOTPRESENT
+NPH9Q
+NRF52
+NRF52 DTM
+NVIDIA Corporation
+NVIDIA Corporation PE Sign v2016
+NVIDIA Subordinate CA
+NVIDIA Subordinate CA 2016 v2
+NXH9Q
+NamePart
+Need space between identifier and decimal point.
+Need space between number and identifier.
+Neither required `bufferView` nor `uri` defined for image[
+Neo V0
+New App Version
+New BL Version
+New HWID
+New Normal: %f %f %f 
+New Radio Version
+New sample  %d %lf %lf (end diff: %lf)
+No IMU data in past %d seconds
+No LoadImageData callback specified.
+No additional system report data for %s:
+No base stations seen...
+No default audio device found to listen to
+No default value
+No field named "uninterpreted_option" in the Options proto.
+No optical frames in past %d seconds
+Non-Production BL
+Non-primitive types can't be packed.
+Non-repeated field "
+NormalTextureInfo
+Not enough contiguous samples for a bootstrap pose
+Not generating hidden area meshes for unknown hidden area mode %d
+Not the preferred basestation
+Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
+Numbers starting with leading zero must be in octal.
+NvAPI
+NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!
+NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
+NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d
+O	u~w
+O(;H(}+I
+O(H9O0t
+O*9y]
+O0H9Q
+OPAQUE
+OZw3(?
+O`H9Q
+O`H;W
+Object
+Old Normal: %f %f %f 
+OnDefaultDeviceChanged: flow = %s, role = %s, device = %s
+OnDeviceAdded: device = %s
+OnDeviceRemoved: device = %s
+OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s
+Oneof must have at least one field.
+OneofDescriptorProto
+Only one of `bufferView` or `uri` should be defined, but both are defined for image[
+OpH9Q
+Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+OpenEventA
+OpenFileMappingA
+OpenMutexA
+OpenProcess
+OpenProcessToken
+OpenSCManagerW
+OpenServiceW
+OpenVR
+Operation Failed
+Optical
+Optical frames received again...
+OptimizeMode
+Option "
+Option field "
+Option must have a name.
+Option must not use reserved name "uninterpreted_option".
+Orhographic camera description not found.
+Original Left Camera Extrinsics: %s
+Original Right Camera Extrinsics: %s
+Original shift blue in pixels: %f %f
+Original shift red in pixels:  %f %f
+Original: %f %f %f 
+OrthographicCamera
+Out of thread local storage!
+OutputDebugStringA
+OutputDebugStringW
+P(H9|$h
+P;A(|
+PA^A]A\_^[]
+PA^A]_^[
+PA^^]
+PA^_]
+PA^_^
+PA^_^][
+PA_A]A\_^
+PA_A^A]A\[
+PA_A^A]A\]
+PA_A^A]A\_^[
+PA_A^A]A\_^]
+PA_A^]
+PA_A^_
+PA_A^_^]
+PA_A^_^]H
+PA_[]
+PAq=?Mp#
+PH@8|$HtAA
+PI;\$ u
+PLACEHOLDER_VALUE
+PLAY-
+PRISM_AcquireDisplay
+PRISM_ClientDisconnected
+PRISM_CreateDisplayFactory
+PRISM_CreateInstance
+PRISM_CreateMotionEstimator
+PRISM_DestroyDisplayFactory
+PRISM_DestroyInstance
+PRISM_DestroyMotionEstimator
+PRISM_DumpHistory
+PRISM_GetConnectedDisplays
+PRISM_GetDisplayModes
+PRISM_GetDisplaySubsystems
+PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPoseProvider
+PRISM_HmdActivated
+PRISM_Initialize
+PRISM_RegisterDisplaySubsystem
+PRISM_RegisterLogCallback
+PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPoseProviderSubsystem
+PRISM_ReleaseDisplay
+PRISM_Run
+PRISM_RunFrame
+PRISM_SetDisplayMode
+PRISM_SetFrameInfoCallback
+PRISM_Shutdown
+PRISM_Stop
+P`]s 
+Pairing Failed
+Pairing Start
+Pairing Success
+Panel Init
+Panel Init Error
+Panic in TDM. basestation offset is invalid: %f
+Parse error: 
+Parse failed for JSON message in mailbox %s: %s
+Parse of lighthouse scale JSON "%s" failed: %s
+Parsing LighthouseDB from file %s
+Parsing of JSON file "%s" failed: %s
+Parsing of JSON string "%s" failed: %s
+Path_Exists( absFilePath )
+PeekMessageA
+PeekNamedPipe
+PeripheralApplication
+Perspective camera description not found.
+PerspectiveCamera
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+PoolGC
+Primitive
+Prism only supports DPOLY3 and DPOLY3_SCALED distortiong functions
+Prism%s: %s
+PrismDirect GetNextSwapTextureSetIndex
+PrismDirect PostPresent
+PrismDirect Present
+PrismDirect SubmitLayer
+PrismDirect Swapchain-%d:%d
+PrismTimeline:%llu
+Pro Audio
+Projection
+PropVariantClear
+Protocol Buffer reflection usage error:
+Protocol message serialized itself in invalid fashion.
+Protocol message was modified concurrently during serialization.
+Prototype
+Pz}b!
+Q@D85
+QJxy6z'
+Qk6eV5RE
+Qkkbal
+QueryPerformanceCounter
+QueryPerformanceFrequency
+QueryServiceConfigW
+R$fE;B*
+R1h58
+R8D9mgt
+RENDERDOC_GetAPI
+RPCRT4.dll
+RPH;SXt
+RSDS?m
+Radio
+RaiseException
+Reached an unintended state: CPPTYPE_MESSAGE
+ReadFile
+ReadFile failed on %s after event was signaled because %s
+ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer
+Reading dangerously large protocol message.  If the message turns out to be larger than 
+Received mirror reset event
+Received mirror reset event after %u passes, %llu samples
+Received mirror stop event
+Received mirror stop event after %u passes, %llu samples
+RecommendedRenderTargetSize: %u, %u (viewport %u, %u scaled by %.2f)
+Recording to "%s"
+Refreshing audio devices
+RegCloseKey
+RegEnumValueW
+RegOpenKeyA
+RegOpenKeyExW
+RegQueryValueExA
+RegQueryValueExW
+RegisterClassA
+RegisterDeviceNotificationA
+ReleaseLast
+ReleaseMessage
+ReleaseMutex
+Releasing OS object failed: invalid parameter
+RemindVersion
+RemoveLast
+RenderDoc connected
+RenderEnd
+RenderStart
+Repeated fields can't have default values.
+ReplaceFileW
+Replay failed to parse base configuration: 
+Replay failed to parse base dynamic state: 
+Reset
+Reset Video Error
+ResetEvent
+Resetting all state to synchronize with recording...
+Resetting tracking
+Restart
+ResumeThread
+Returning failure when parsing lighthouse DB from %s because of base station errors
+Returning failure when parsing lighthouse DB from %s because of universe errors
+Right
+RlK8`K8
+Robin
+Robin 2
+RootNode
+RootSerial %s
+Rotors on basestation out of 180-degree phase lock.
+RtlCaptureContext
+RtlGetNtVersionNumbers
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S H9K
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
+S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+S0IcH
+S8H+S0H
+SATAUAVAWH
+SATAUAWH
+SATAUH
+SAUAVH
+SAVAWH
+SA|X=G
+SCALAR
+SETUPAPI.dll
+SHELL32.dll
+SHGetFolderPathW
+SL9SHuv
+SOB total=
+SOB: add 
+SOB: drop 
+SPB8t
+SPB8u,
+SPEED
+SRB-0
+STEAMVR_DISABLE_CRASH_REPORTING
+STEAMVR_DISABLE_THREAD_WATCHDOGS
+STEAMVR_ENABLE_THREAD_WATCHDOGS
+STEAMVR_VERBOSE_HAPTIC_LOG
+STEREO_DEV_BENCRUSHER2_MICROVISION
+STEREO_DEV_BENCRUSHER_MICROVISION
+STEREO_DEV_DANHAT_EMAGIN_SXGA
+STEREO_DEV_DEANPHOTONBLASTER
+STEREO_DEV_JERI_RETRO_MARK1
+STEREO_DEV_LUMUS_DK_32
+STEREO_DEV_LUMUS_DK_32_DUALCB
+STEREO_DEV_NUM
+STEREO_DEV_NVIS_ST50
+STEREO_DEV_NVIS_ST50_MARK2
+STEREO_DEV_NVIS_ST60
+STEREO_DEV_OCULUS_RIFT_FLIP_UPWARD
+STEREO_DEV_ST1080_FLIP_FORWARD
+STEREO_DEV_ST1080_FLIP_UPWARD
+STEREO_DEV_ST1080_UPWARD_GLUE_GUN_SPECIAL
+STEREO_DEV_TEST
+STEREO_DEV_VUZIX_STAR_1200
+STRING
+STRING_PIECE
+SUATAVH
+SUVATAUH
+SUVAWH
+SUVWATAUAVAWH
+SUVWATAVH
+SUVWAUAVAWH
+SUVWAVH
+SUVWH
+SUWATAUAVAWH
+SUWATAWH
+SUWAUAVAWH
+SUWAVH
+SVWATAUAVAWH
+SVWATH
+SVWAVAWH
+SVWAVH
+SWAUAVH
+SWAUAWH
+SWAUH
+SWAWH
+S\9SXuv
+Samples didn't yield successful bootstrap pose
+Saved LighthouseDB rev %u to %s
+Saw %d early IMU related panics, using factory IMU cal
+Saw %u bases and none are the preferred base %08X
+Saw demod rate %.0f/s, enabling Sync on Beam
+Sc?Nb
+Searching for camera extrinsics calibration override (deviceKey=%08X)
+Second argument to Swap() (of type "
+Second argument to SwapFields() (of type "
+SelectVideoConfig:         refresh=%f
+SelectVideoConfig:     edid_id=%d
+SelectVideoConfig: Could not query watchman firmware version in SelectNonDefaultHmdEdid
+SelectVideoConfig: Current VideoMode EdidId=%d HDCP14LegacyCompat=%d PreEmphSwingValid=%d PreEmphasis=%d Swing=%d
+SelectVideoConfig: DP HDCP14LegacyCompatibility support: %d
+SelectVideoConfig: DP Training Mode support: %d
+SelectVideoConfig: Error GetEdidId failed %d
+SelectVideoConfig: Error Querying PreferredRefreshRate
+SelectVideoConfig: Error Setting Video Config %d
+SelectVideoConfig: Error: GetVideoConfig failed %d
+SelectVideoConfig: HMD has exposed %d EDIDs
+SelectVideoConfig: HMD/FW does not advertise multiple EDIDs.
+SelectVideoConfig: No Video Mode Change required
+SelectVideoConfig: Selecting solo HMD EDID
+SelectVideoConfig: The HMD's current edid (%d) is not in the expected multi-framerate family, so the edid will not be changed
+SelectVideoConfig: Video Mode change required. Alternate HDCP Compatibility mode specified: %d
+SelectVideoConfig: Video Mode change required. Alternate display port training mode specified: %d
+SelectVideoConfig: driver_lighthouse.disableRuntimeEdidOverride=true. Leaving device video mode unchanged
+SelectVideoConfig: driver_lighthouse.forceSoloEdid=true
+Selected existing universe %llu (%08X is %s)
+ServiceDescriptorProto
+ServiceOptions
+Set column correction %f %d %f %d
+Set index backlight gain: %f
+Set initial
+Set thread %p priority to: %d
+SetAllocatedMessage
+SetBool
+SetDouble
+SetEnum
+SetEvent
+SetFileAttributesW
+SetFloat
+SetInt32
+SetInt64
+SetLastError
+SetNamedPipeHandleState
+SetRepeatedBool
+SetRepeatedDouble
+SetRepeatedEnum
+SetRepeatedFloat
+SetRepeatedInt32
+SetRepeatedInt64
+SetRepeatedString
+SetRepeatedUInt32
+SetRepeatedUInt64
+SetSecurityDescriptorDacl
+SetSecurityDescriptorDacl failed. GetLastError returned: %d
+SetString
+SetThreadPriority
+SetUInt32
+SetUInt64
+SetUnhandledExceptionFilter
+SetVideoConfig nPreEmphasis %d nSwingLevel %d
+SetVideoConfig to edid_id %d HDCP14LegacyCompat %d
+SetWindowLongPtrA
+Setting %08X as the origin of universe %llu
+Setting Edid VendorID %X and product ID %X from json
+Setting Edid to edid_id %d...
+Setting firmware manifest beta override: %d
+Setting universe tilt from %08X %s: pitch %0.2f deg roll %0.2f deg
+SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInterfaces
+SetupDiGetClassDevsA
+SetupDiGetClassDevsW
+SetupDiGetDeviceInterfaceDetailA
+SetupDiGetDeviceInterfaceDetailW
+SetupDiGetDevicePropertyW
+SetupDiGetDeviceRegistryPropertyW
+SetupGetInfDriverStoreLocationW
+SharedMem access invalid: %x
+ShellExecuteA
+ShellExecuteExA
+ShellExecuteExW
+ShellExecuteW
+Shutdown
+ShutdownCameraHAL
+Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json
+Sleep
+SleepConditionVariableCS
+Software Reset
+Software\Valve\Steam\ActiveProcess
+Somebody beat us to creating event %s to go with pipe %s in WaitForConnection
+Somebody created vrprismhost_startup before driver_lighthouse started prism. Something has gone wrong.
+Somebody else should have created event %s to go with pipe %s in WaitForConnection
+Somebody locked a non-leaf shared memory %s while %s was already locked
+Source: %s -- Preferred basestation %08X
+SourceCodeInfo
+Spot light description not found.
+Stable
+Standby toggled
+Standby unknown hmd
+Start
+StartSession
+Started pairing dongle serial=%s timeout=%f
+SteamVR_Namespace
+SteamXR Interop Device
+Still waiting for Direct Mode Display...
+Stopped tracking with universe %llu
+Stopping playback mirror thread
+Stopping recording...
+String literals cannot cross line boundaries.
+StringFromGUID2
+StringOutputStream.
+Submit
+Success
+Success: 
+Successfully parsed Lighthouse DB rev %u from %s
+SwSyncDetect %s, primary: %s, alt: %s.  SensorType %d
+SwSyncDetect selected %s
+Swapchain-WaitImage
+Switching IMU Only -> Lighthouse
+Switching Lighthouse -> IMU Only
+Symbol name "
+Syntax error: value, object or array expected.
+Sys Temp: 
+Sys clk: 
+T$ E3
+T$ H+
+T$ H;
+T$ HcN
+T$ I9Vpt,D
+T$ I;
+T$ L+
+T$ M+
+T$ M;
+T$ fD
+T$ fff
+T$$A;
+T$$I+
+T$(@2
+T$(E3
+T$(H+
+T$(H9T$0t
+T$(H9T$0t!H
+T$(H;u
+T$(L+
+T$(L;
+T$(M;A
+T$0E3
+T$0H+
+T$0H;
+T$0fA
+T$4I+
+T$8;T$<
+T$8H+
+T$8H;
+T$@A;
+T$@E3
+T$@H+
+T$@H9T$Ht
+T$@H;
+T$@H;]
+T$@Hc
+T$@I;
+T$@L;
+T$@fA
+T$@fI
+T$HE3
+T$HH9T$Pt
+T$HH;
+T$PE3
+T$PH;
+T$PH;T$Xu
+T$PL;
+T$PM;
+T$XA#
+T$XE3
+T$XH+
+T$XH;
+T$`H3
+T$`H;
+T$`fA
+T$hC8
+T$hE3
+T$hH9T$pt
+T$hH;T$pu
+T$hL+
+T$pD;
+T$pE3
+T$pH;
+T$pL;
+T$xE3
+T$xH;
+T$xL+
+T$xL;
+T$xMk
+TDM only works with matched single / double rotor pairs.
+TDM sensorType changed to: %d
+TDM supports max of 2 basestations.
+TDM total=%d invalid_long=%d runt=%d sync_miss=%d samples_in_sync_guard_band=%d
+TEST_TMPDIR
+TT$0f
+TT$@f
+TUUUUUU
+TYPE_BYTES
+TYPE_DOUBLE
+TYPE_FIXED32
+TYPE_FIXED64
+TYPE_FLOAT
+TYPE_GROUP
+TYPE_INT32
+TYPE_INT64
+TYPE_MESSAGE
+TYPE_SFIXED32
+TYPE_SFIXED64
+TYPE_SINT32
+TYPE_SINT64
+TYPE_STRING
+TYPE_UINT32
+TYPE_UINT64
+T\$0f
+T\$@f
+Target fw version: 
+Task Suspended
+TdhEnumerateManifestProviderEvents
+TerminateProcess
+Test mode ena: 
+TextureInfo
+The owner SID is invalid.
+The total number of bytes read was 
+This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
+This program requires version 
+This program was compiled against version 
+This shouldn't be called if all the sizes are equal.
+Thread exited immediately
+Thread failed to initialize 1
+Thread failed to initialize 2
+Thread watchdog timed out %s
+Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
+Time: 
+Timed Out
+TimestampQueryPool-%s
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Too short data size for glTF Binary.
+Tp=9y>m0_D@H_
+Tracking thread peak duty cycle %0.0f%% (over %0.1fs).  Blocked in SendOnPoseChange %0.0f%% of that.
+Transition Err
+TranslateMessage
+Tried to merge messages of different types 
+Triggered by system report: 
+Trying to %s %08X: %s
+Tundra Labs
+Tundra Tracker
+Type appears to be in generated pool but wasn't 
+Type is already registered: 
+U0H9U8t
+UATAUAVAWH
+UATAUH
+UATAVAWI
+UATAWH
+UAUAVAWH
+UAVAWH
+UNKNOWN
+UNPLUGGED
+USAGE: set_lenscal <device_json_path>
+USATAUAWH
+USATAWH
+USATH
+USAUH
+USB status (rates over 
+USER32.dll
+USVATAUAWH
+USVAUI
+USVAVH
+USVWATAUAVAWH
+USVWATAUAVAWI
+USVWATAUAVH
+USVWATAUAWH
+USVWATAVAWH
+USVWATAVH
+USVWATH
+USVWAUAVAWH
+USVWAUAVI
+USVWAUI
+USVWAVAWH
+USVWAVAWI
+USVWAVH
+USVWAVI
+USVWH
+USVWI
+USWATAVH
+USWAUAVH
+USWAUAWH
+USWAUH
+USWAUI
+USWAVH
+USWAWI
+UUUUUU
+UUUUUUU
+UVATAWH
+UVAUAWH
+UVAVH
+UVAWH
+UVWATAUAVAWH
+UVWATAUAWH
+UVWATAVH
+UVWATAWH
+UVWAUAVH
+UVWAUAVI
+UVWAUH
+UVWAVAWH
+UVWAVH
+UVWAWH
+UWATAUAVH
+UWATAUAWI
+UWATAVAWH
+UWATAVH
+UWATI
+UWAUAVAWH
+UWAUH
+UWAVH
+UWAWH
+UhH9Upt"A
+Unable to SetLcmBrightness
+Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
+Unable to create event %s to go with pipe %s in WaitForConnection
+Unable to create shared memory %s for IPC client
+Unable to create shared mutex %s for IPC client
+Unable to create shared state %s because namespace wasn't available
+Unable to determine VR Path Registry filename
+Unable to fetch %s to store MC data
+Unable to get IMMDeviceEnumerator, hr = 0x%08x
+Unable to get default from IMMDevice, hr = 0x%08x
+Unable to get to IMMDevice %s, hr = 0x%08x
+Unable to init base station driver for %X
+Unable to init zlib
+Unable to load avrt.dll
+Unable to load bind mfplat.dll and/or avrt.dll
+Unable to load mfplat.dll
+Unable to open current process for duplicating handles because %s
+Unable to open process id=%d from pipe %s after connecting because %s
+Unable to parse 
+Unable to parse Lighthouse base target pose
+Unable to parse base at index %d in db json file %s
+Unable to parse base station config for info
+Unable to parse base station index %d in universe %llu
+Unable to parse base station info
+Unable to parse dynamic state %d in %08X
+Unable to parse object at index %d in db json file %s
+Unable to parse target pose for base %08X
+Unable to parse token length
+Unable to parse universe at index %d in db json file %s
+Unable to query MC Image size
+Unable to read Lighthouse DB from file %s
+Unable to read VR Path Registry from 
+Unable to read device config for dongle %s device %s (%s). Ignoring it
+Unable to read device config for vid 0x%X pid 0x%X serial %s. Rejecting it
+Unable to read event handles from pipe %s after connecting because %s
+Unable to read event salt from pipe %s after connecting because %s
+Unable to read first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Unable to read pid from pipe %s after connecting because %s
+Unable to request wireless pairing
+Unable to save backup database for revision %u to %s
+Unable to set room view to '%s' for HMD Hid device
+Unable to set tilt origin from %08X because it has no pose to global but there is already an origin
+Unable to set work state to %d for HMD Hid device
+Unable to store MC image: %s
+Unable to turn on polling for HMD Hid device
+Unable to write database version %u to file %s
+Unexpected WaitForMultipleObjects return value %u
+Unexpected WaitForMultipleObjects return value %u on pass %u
+Unexpected backwards sync by %.3fms S-%d
+Unexpected centroid ordering error %.3fms S-%d
+Unexpected end of string.
+Unexpected failure when checking for timeline signal
+Unexpected failure while serializing option submessage 
+Unexpected sample before sync by %.3fms S-%d
+UnhandledExceptionFilter
+Unidentified
+Unimplemented type: 
+Uninitialized
+UninterpretedOption
+Universe %llu already has an origin, can't set it to %08X
+Unknown
+Unknown Hmd Interrupt packet: report ID %d
+Unknown base %08X in base universe reference
+Unknown entry type
+Unknown enumeration value of "
+Unknown error (%d)
+Unknown exception
+Unknown image format. STB cannot decode image data for image[
+Unknown method: "
+UnmapViewOfFile
+UnregisterClassA
+UnregisterDeviceNotification
+Unsupported `type` for accessor object. Got "
+Updated
+Updated Left Camera Extrinsics: %s
+Updated Right Camera Extrinsics: %s
+Updated shift blue in pixels: %f %f
+Updated shift red in pixels:  %f %f
+Updated:  %f %f %f 
+Updating additional system report data for %s
+Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g
+Use Screen Resolution control panel to fix
+User reset
+UserData
+UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x, max address:0x%x
+UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d
+UserData Error: Unable to send start user data feature report 
+Using default hidden area meshes for model %s
+Using monitor index %d
+Using physical device: %s
+Utah DV
+Utah EV1
+Utah EV2
+Utah MP
+UuidFromStringA
+V H+V
+V2 HMD with bogus trackrefs detected in configuration:
+V3"/"6
+V8H;C
+VATAUAVH
+VATAUH
+VATAVH
+VAVAWH
+VBus: 
+VCRUNTIME140.dll
+VDEST
+VERSION.dll
+VIVE Pro
+VIVE Pro Mutimedia Audio
+VIVE Tracker 3.0
+VIVE Tracker Pro MV
+VIVE_DVT
+VIVE_Pro EVT
+VIVE_Pro MV
+VK_EXT_debug_utils
+VK_EXT_global_priority
+VK_EXT_validation_features
+VK_KHR_external_memory_win32
+VK_KHR_external_semaphore_win32
+VK_KHR_present_id
+VK_LAYER_KHRONOS_validation
+VK_NV_compute_shader_derivatives
+VR Path Registry node %s is not an array
+VRAudioDevices_Init
+VRC-%s
+VRInitError_Compoistor_CreateBackbufferDepth
+VRInitError_Compoistor_CreateInverseDistortUVs
+VRInitError_Compositor_CreateAlphaBlendState
+VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBlendState
+VRInitError_Compositor_CreateBlendStateMaskB
+VRInitError_Compositor_CreateBlendStateMaskG
+VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateClampToBorderSamplerState
+VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
+VRInitError_Compositor_CreateComputeResolveRenderTextures
+VRInitError_Compositor_CreateConstantBuffer
+VRInitError_Compositor_CreateDepthStencilState
+VRInitError_Compositor_CreateDepthStencilStateNoDepth
+VRInitError_Compositor_CreateDepthStencilStateNoWrite
+VRInitError_Compositor_CreateDistortionSurfaces
+VRInitError_Compositor_CreateDriverDirectModeResolveTextures
+VRInitError_Compositor_CreateFallbackSyncTexture
+VRInitError_Compositor_CreateFlushTexture
+VRInitError_Compositor_CreateFontSamplerState
+VRInitError_Compositor_CreateFullscreenWindowFailed
+VRInitError_Compositor_CreateGeomConstantBuffer
+VRInitError_Compositor_CreateHmdPoseConstantBuffer
+VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateLastFrameRenderTexture
+VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerGraphicsTextureIndexConstantBuffer
+VRInitError_Compositor_CreateMSAARenderTextures
+VRInitError_Compositor_CreateMirrorOverlay
+VRInitError_Compositor_CreateMirrorTextures
+VRInitError_Compositor_CreateNoBlendState
+VRInitError_Compositor_CreateOverlayAlreadyInitialized
+VRInitError_Compositor_CreateOverlayConstantBuffer
+VRInitError_Compositor_CreateOverlayIndexBuffer
+VRInitError_Compositor_CreateOverlayInvalidCall
+VRInitError_Compositor_CreateOverlaySamplerState
+VRInitError_Compositor_CreateOverlayVertexBuffer
+VRInitError_Compositor_CreatePanelMaskConstantBuffer
+VRInitError_Compositor_CreatePanoramaSamplerState
+VRInitError_Compositor_CreatePixelSimUBO
+VRInitError_Compositor_CreateRasterizerState
+VRInitError_Compositor_CreateReadableSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateResolveRenderTextures
+VRInitError_Compositor_CreateSamplerState
+VRInitError_Compositor_CreateSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateSharedFrameInfoConstantBuffer
+VRInitError_Compositor_CreateTextIndexBuffer
+VRInitError_Compositor_CreateTextVertexBuffer
+VRInitError_Compositor_CreateWireframeRasterizerState
+VRInitError_Compositor_D3D11HardwareRequired
+VRInitError_Compositor_D3D11RendererInitializationFailed
+VRInitError_Compositor_DXGIFactoryCreateFailed
+VRInitError_Compositor_DXGIFactoryInterfaceIsNull
+VRInitError_Compositor_DXGIFactoryQueryFailed
+VRInitError_Compositor_DisplayFrequencyFailure
+VRInitError_Compositor_DisplayModeNotSupported
+VRInitError_Compositor_DistortInterfaceIsNull
+VRInitError_Compositor_Failed
+VRInitError_Compositor_FailedToCreateDXGI2RenderTarget
+VRInitError_Compositor_FailedToCreateDXGI2SwapChain
+VRInitError_Compositor_FailedToCreateDirectModeDisplay
+VRInitError_Compositor_FailedToCreateMailbox
+VRInitError_Compositor_FailedToCreateNvAPIRenderTargets
+VRInitError_Compositor_FailedToCreateRenderTarget
+VRInitError_Compositor_FailedToCreateSwapChain
+VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
+VRInitError_Compositor_FailedToFindDisplayMode
+VRInitError_Compositor_FailedToGetBackBuffer
+VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToShowWindow
+VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
+VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_InvalidAdapterDesktop
+VRInitError_Compositor_InvalidDeviceProvided
+VRInitError_Compositor_InvalidHmdAttachment
+VRInitError_Compositor_InvalidHmdPropertyContainer
+VRInitError_Compositor_InvalidOutputDesktop
+VRInitError_Compositor_MessageOverlaySharedStateInitFailure
+VRInitError_Compositor_NotificationManagerIsNull
+VRInitError_Compositor_NvAPISetDisplayMode
+VRInitError_Compositor_OpenDriverDirectModeResolveTextures
+VRInitError_Compositor_OverlayInitFailed
+VRInitError_Compositor_PropertiesInterfaceIsNull
+VRInitError_Compositor_RendererInitializationFailed
+VRInitError_Compositor_ResourceManagerClientIsNull
+VRInitError_Compositor_ScreenshotsInitFailed
+VRInitError_Compositor_SelectDisplayMode
+VRInitError_Compositor_SettingsInterfaceIsNull
+VRInitError_Compositor_ShareFallbackSyncTexture
+VRInitError_Compositor_SharedStateIsNull
+VRInitError_Compositor_SystemLayerCreateInstance
+VRInitError_Compositor_SystemLayerCreateSession
+VRInitError_Compositor_UnableToCreateDevice
+VRInitError_Compositor_UpdateDisplayFrequency
+VRInitError_Compositor_WindowInterfaceIsNull
+VRInitError_Driver_CalibrationInvalid
+VRInitError_Driver_Failed
+VRInitError_Driver_HmdDisplayMirrored
+VRInitError_Driver_HmdDisplayNotFound
+VRInitError_Driver_HmdDisplayNotFoundLaptop
+VRInitError_Driver_HmdDriverIdOutOfBounds
+VRInitError_Driver_HmdInUse
+VRInitError_Driver_HmdUnknown
+VRInitError_Driver_NotCalibrated
+VRInitError_Driver_NotLoaded
+VRInitError_Driver_PeerDriverNotInstalled
+VRInitError_Driver_RuntimeOutOfDate
+VRInitError_Driver_TrackedDeviceInterfaceUnknown
+VRInitError_Driver_Unknown
+VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_IPC_CompositorConnectFailed
+VRInitError_IPC_CompositorInitFailed
+VRInitError_IPC_CompositorInvalidConnectResponse
+VRInitError_IPC_ConnectFailed
+VRInitError_IPC_ConnectFailedAfterMultipleAttempts
+VRInitError_IPC_ConnectFailedAfterTargetExited
+VRInitError_IPC_Failed
+VRInitError_IPC_MutexInitFailed
+VRInitError_IPC_NamespaceUnavailable
+VRInitError_IPC_ServerInitFailed
+VRInitError_IPC_SharedStateInitFailed
+VRInitError_Init_AlreadyRunning
+VRInitError_Init_AnotherAppLaunching
+VRInitError_Init_AppInfoInitFailed
+VRInitError_Init_BadLuid
+VRInitError_Init_CouldNotStartPrism
+VRInitError_Init_DuplicateBootstrapper
+VRInitError_Init_FactoryNotFound
+VRInitError_Init_FailedForVrMonitor
+VRInitError_Init_FileNotFound
+VRInitError_Init_FirmwareRecoveryBusy
+VRInitError_Init_FirmwareUpdateBusy
+VRInitError_Init_HmdDriverIdIsNone
+VRInitError_Init_HmdNotFound
+VRInitError_Init_HmdNotFoundPresenceFailed
+VRInitError_Init_IllegalTypeTransition
+VRInitError_Init_InitCanceledByUser
+VRInitError_Init_InstallationCorrupt
+VRInitError_Init_InstallationNotFound
+VRInitError_Init_InterfaceNotFound
+VRInitError_Init_Internal
+VRInitError_Init_InvalidApplicationType
+VRInitError_Init_InvalidInterface
+VRInitError_Init_InvalidProcessId
+VRInitError_Init_LowPowerWatchdogNotSupported
+VRInitError_Init_MismatchedRuntimes
+VRInitError_Init_NoConfigPath
+VRInitError_Init_NoLogPath
+VRInitError_Init_NoServerForAppContainer
+VRInitError_Init_NoServerForBackgroundApp
+VRInitError_Init_NotAvailableToUtilityApps
+VRInitError_Init_NotAvailableToWatchdogApps
+VRInitError_Init_NotInitialized
+VRInitError_Init_NotSupportedWithCompositor
+VRInitError_Init_PathRegistryNotFound
+VRInitError_Init_PathRegistryNotWritable
+VRInitError_Init_PrismClientInitFailed
+VRInitError_Init_PrismClientStartFailed
+VRInitError_Init_PrismExitedUnexpectedly
+VRInitError_Init_PrismNeedsNewDrivers
+VRInitError_Init_PrismStartupTimedOut
+VRInitError_Init_PropertyManagerInitFailed
+VRInitError_Init_RebootingBusy
+VRInitError_Init_Retry
+VRInitError_Init_SettingsInitFailed
+VRInitError_Init_ShuttingDown
+VRInitError_Init_TooManyObjects
+VRInitError_Init_TrackerManagerInitFailed
+VRInitError_Init_USBServiceBusy
+VRInitError_Init_UserConfigDirectoryInvalid
+VRInitError_Init_VRClientDLLNotFound
+VRInitError_Init_VRDashboardAlreadyStarted
+VRInitError_Init_VRDashboardCopyFailed
+VRInitError_Init_VRDashboardEnvironmentFailure
+VRInitError_Init_VRDashboardNotFound
+VRInitError_Init_VRDashboardPathFailure
+VRInitError_Init_VRDashboardServicePending
+VRInitError_Init_VRDashboardServiceStopped
+VRInitError_Init_VRDashboardServiceTimeout
+VRInitError_Init_VRDashboardStartupFailed
+VRInitError_Init_VRDashboardTokenFailure
+VRInitError_Init_VRHomeNotFound
+VRInitError_Init_VRHomeStartupFailed
+VRInitError_Init_VRMonitorNotFound
+VRInitError_Init_VRMonitorStartupFailed
+VRInitError_Init_VRServiceStartupFailed
+VRInitError_Init_VRWebHelperStartupFailed
+VRInitError_Init_WatchdogDisabledInSettings
+VRInitError_Init_WebServerFailed
+VRInitError_None
+VRInitError_Steam_SteamInstallationNotFound
+VRInitError_Unknown
+VRInitError_VendorSpecific_HmdFound_CantOpenDevice
+VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
+VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
+VRInitError_VendorSpecific_HmdFound_ConfigTooBig
+VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
+VRInitError_VendorSpecific_HmdFound_NoStoredConfig
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
+VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
+VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
+VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
+VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_OculusLinkNotEnabled
+VRInitError_VendorSpecific_OculusRuntimeBadInstall
+VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_WindowsNotInDevMode
+VR_CONFIG_PATH
+VR_FIRMWARE_MANIFEST_FILE
+VR_LOG_DEBUG
+VR_LOG_PATH
+VR_PATHREG_OVERRIDE
+VSYNC:  %8d>%07.4f
+VUUUH
+VWATAUAWH
+VWATAVAWH
+VWAUAVAWH
+VWAUAWH
+VWAVH
+VWAWH
+VYUYt
+V_:X1:
+V_~]	,
+Value 
+Value must be "true" or "false" for boolean option "
+Value must be identifier for boolean option "
+Value must be identifier for enum-valued option "
+Value must be integer for int32 option "
+Value must be integer for int64 option "
+Value must be non-negative integer for uint32 option "
+Value must be non-negative integer for uint64 option "
+Value must be number for double option "
+Value must be number for float option "
+Value must be quoted string for string option "
+Value out of range for int32 option "
+Value out of range for int64 option "
+Value out of range for uint32 option "
+Valve
+Valve Corp.0
+Valve Corp.1
+Valve Corporation
+Valve SR
+Valve SR Blinker
+Valve SR EV2
+Valve SR Imp
+Valve VR Radio & HMD Mic
+VerQueryValueA
+VerSetConditionMask
+VeriSign Class 3 Code Signing 2010 CA
+VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)
+VerifyUSBUserDataInDirectory: %s data stream failed size validation. Expected %d bytes, copied %d from device
+VerifyUSBUserDataInDirectory: %s failed crc/size validation, replacing with data from device...
+VerifyUSBUserDataInDirectory: %s validated
+VerifyUSBUserDataInDirectory: Error parsing user data for index %d
+VerifyUSBUserDataInDirectory: Error reading USB user data from device for file %s
+VerifyUSBUserDataInDirectory: Error writing file %s
+VerifyUSBUserDataInDirectory: Skipping %s (header.crc=%08X)
+VerifyUSBUserDataInDirectory: error parsing user data header
+VerifyUSBUserDataInDirectory: header failed sanity check
+VerifyVersionInfoW
+Version
+Video Failure
+Video state: 
+Vive 2.0
+Vive 2.0 DVT
+Vive DVT
+Vive Developer Edition
+Vive EVT
+Vive MV
+Vive MV.
+Vive PV
+Vive Pro
+Vive Pro 2
+Vive. DVT
+Vive. EVT
+Vive. MV
+Vive_Pro
+Vive_Pro DVT
+VpH9Vxt'
+VrController
+W%:R 
+W(LcB
+W0H;C
+W8H;C
+W8I9W@t
+W<H;C
+WARNING
+WARNING: Base %08X has no factory calibration and will be ignored
+WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
+WARNING: Saw sync on beam channel conflict on ch %d
+WARNING: Speculative Start Collision for base %0X (removing %s)
+WARNING: large time gap between IMU samples (%f -> %f diff=%f)
+WATAUAVAWH
+WATAUAVH
+WATAVH
+WAVAWH
+WHH;C
+WINMM.dll
+WINRT_AcquireDisplay
+WINRT_GetAdapterLuid
+WINRT_GetCurrentDriverVersion
+WINRT_GetDeviceString
+WINRT_GetDisplayMode
+WINRT_GetSurfaces
+WINRT_HasDisplay
+WINRT_Initialize
+WINRT_Present
+WINRT_Release
+WINRT_ReleaseDisplay
+WINRT_WaitForPresent
+Wait For Sync
+WaitForMultipleObjects
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitNamedPipe %s failed because %s
+WaitNamedPipe %s failed because no one is listening at that name.
+WaitNamedPipeA
+Waiting
+Waiting for best bootstrap base station candidate...
+WakeAllConditionVariable
+WakeConditionVariable
+Warned about misattributed base %08X
+Warning
+Warning parsing text-format 
+Warning:  HMD Display %s is Primary display
+Warning: CVrController::CreateInputComponents called on empty input_profile
+Warning: Could not interpret 'type' of %s (%s) in %s
+Warning: Edid VendorID / product ID not specified in json (direct mode)
+Warning: Found multiple monitors matching size %d x %d, using first
+Warning: Framer decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.
+Warning: Framer sensorType NotYetAvailable
+Warning: Framer unknown sensorType: %d
+Warning: MC images must be equal size and components.
+Warning: SOB decoded ootx incorrectly specifies non-SOB mode. Forcing to MODE_SOB.
+Warning: SOB decoded ootx specifies incorrect SOB channel. Forcing to known correct value.
+Warning: TDM decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.
+Warning: TDM sensorType NotYetAvailable
+Warning: TDM sensorType changed to unknown type: %d
+Warning: TDM unknown sensorType
+Warning: Unused import: "
+Warning: Watchdog %s not properly cleaned up%s%s
+Warning: unexpected vulkan major version
+Washington1
+Watchdog count: 
+Watchdog reset
+WatchdogWakeUp because of HMD button
+WatchdogWakeUp because of new system button press
+WatchdogWakeUp because of new wireless connection
+Watchman
+Watchman device log download failed or not supported for %s
+Watchman device log downloaded for %s
+Watchman device log:
+Watchman flash log download failed or not supported for %s
+Watchman flash log downloaded for %s
+Watchman flash log:
+Watchman saw FIFO overflow event
+WatchmanFPGA
+WideCharToMultiByte
+Win 10
+WinRT
+WriteFile
+X USVWATAVAWH
+X UVWAVAWH
+X UVWH
+XA;6|
+XA;?|
+XA\_^[
+XA^A\][
+XA^A]A\^
+XA^^[]
+XA_A^A]^][
+XD$XH
+XE;>|
+XL$hL
+XXXX PNG chunk not known
+X_^][
+Xt$HH
+Y5[8!
+Y9"SD
+Y?33s?
+YAHH+
+YAPH+
+Yl$ M
+Yl$4E
+Yl$hfD
+YwrHc
+Z* ,	
+Z9k0tUD
+ZL$Xf
+[ UVWAVAWI
+[ UWATAVAWI
+[(HcS
+[-&LMb#{'
+[DepthAugmentedPassthrough] : Clean depthFromStereo and stop internal processing thread 
+[DepthAugmentedPassthrough] : Connecting to the frame block queue ...
+[DepthAugmentedPassthrough] : Could not access controller model for controller id : %i.  error %i 
+[DepthAugmentedPassthrough] : Could not access controller role for  id : %i. error %i 
+[DepthAugmentedPassthrough] : Couldn't access the camera frame layout information (err : %i)
+[DepthAugmentedPassthrough] : Couldn't access the camera to head transform. Depth can't be computed without it (err : %i)
+[DepthAugmentedPassthrough] : Couldn't get access to the IVRServerDriverHost,  early return 
+[DepthAugmentedPassthrough] : Creating the mesh block queue ...
+[DepthAugmentedPassthrough] : ERROR with preset setDepthFromStereoConfig %s
+[DepthAugmentedPassthrough] : ERROR with preset setDepthFromStereoConfig UNKNOWN EXCEPTION
+[DepthAugmentedPassthrough] : Grabbing model at path %s for controller id %i 
+[DepthAugmentedPassthrough] : Invalid frame format type received when trying to do depth-aware frame.
+[DepthAugmentedPassthrough] : Main processing thread fetching frame was stopped. CDepthAugmentedPassthrough is cleaned and can be destroyed safely 
+[DepthAugmentedPassthrough] : Main processing thread has started. We will wait until we get a listener before really launching the processing ... 
+[DepthAugmentedPassthrough] : Object is created 
+[DepthAugmentedPassthrough] : Object is destroyed 
+[DepthAugmentedPassthrough] : Registered a new index headset id : %i 
+[DepthAugmentedPassthrough] : Registered a new left controller device. id : %i 
+[DepthAugmentedPassthrough] : Registered a new right controller device. id : %i 
+[DepthAugmentedPassthrough] : Unregistering tracked device. id : %i, TrackedDeviceType %i 
+[DepthAugmentedPassthrough] : We can't create the mesh block queue. We don't have the mesh size ...
+[DepthAugmentedPassthrough] : We fail to connect to the frame block queue ...
+[DepthAugmentedPassthrough] : We failed registering the controller. id : %i 
+[DepthAugmentedPassthrough] : We have a consumer. Initialization of DepthFromStereo 
+[DepthAugmentedPassthrough] : failed to create the mesh block queue (%d)
+[DepthAugmentedPassthrough] supported on this system: %d
+[FORCEUPDATE]
+[K]taM?
+[json.exception.
+[lazy = true] can only be specified for submessage fields.
+[packed = true] can only be specified for repeated primitive fields.
+\$ ATAVAWH
+\$ E3
+\$ H#
+\$ H+
+\$ H;
+\$ I;
+\$ I;]
+\$ UATAUAVAWH
+\$ UAVAWH
+\$ UH
+\$ UVAVH
+\$ UVAWH
+\$ UVWATAUAVAWH
+\$ UVWAUAVH
+\$ UVWH
+\$ UWATH
+\$ UWAUAVAWH
+\$ UWAWH
+\$ VATAVH
+\$ VATAWH
+\$ VH
+\$ VWAVH
+\$ WH
+\$$8Y
+\$$9Y
+\$$9Y0u
+\$$H;
+\$$L;
+\$(H9V
+\$(H;
+\$(HcC
+\$0)p(H
+\$0E3
+\$0H9
+\$0H;
+\$0I+
+\$0fI
+\$0fff
+\$4A9_0
+\$88_
+\$8D;
+\$8H;
+\$8I#
+\$8I+
+\$8I9H@t
+\$8I9\$@tGH
+\$8I;
+\$@H;
+\$@L;
+\$HH+
+\$HH9Q
+\$HH;
+\$HHc
+\$HI;
+\$HfA
+\$PH;
+\$PI;
+\$PL9I(uA
+\$PfD
+\$XE3
+\$XH+
+\$XH;
+\$XHc
+\$XI;
+\$XL;
+\$XLc
+\$Xrv
+\$`E3
+\$`H+
+\$`H9Q
+\$`H;\$h
+\$`ff
+\$hH;
+\$hI;
+\$hM;
+\$pD;
+\$pD;},
+\$pH;
+\$pI;
+\$pI;\$xtIH
+\$pfD
+\$xH;
+\$xHk
+\$xI;
+\$xM;
+\$xMk
+\%03o
+\1??I
+\D$ A
+\O(|%
+\T$@IcD$ H
+\U%08x
+\\.\pipe\
+\\\\\\\\
+\d$`f
+\u=H;
+\x%02x
+\|$`D
+] buffer "
+] bufferView "
+] invalid bufferView
+] is not a JSON object.
+] name = "
+] name = [
+]7H9_
+]9k0tVD
+]@H;]Ht@H
+]@L)]HA
+]J<0"0i3
+]g;]w}
+]g@8yhu
+]wfHc
+^9k0tWD
+^@H;^Ht
+^@I;^Ht
+^@I;^Ht&f
+^@I;^Ht(
+^HH9|$hu
+^`I;^h
+^oEZ_
+_0IcG
+_Cnd_broadcast
+_Cnd_destroy
+_Cnd_destroy_in_situ
+_Cnd_do_broadcast_at_thread_exit
+_Cnd_init
+_Cnd_init_in_situ
+_Cnd_signal
+_Cnd_timedwait
+_Cnd_wait
+_CxxThrowException
+_D9c0tWD
+_D9k0tWD
+_D9s0tWD
+_D9w0tWD
+_Mtx_current_owns
+_Mtx_destroy
+_Mtx_destroy_in_situ
+_Mtx_init
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_PI;_X
+_Query_perf_counter
+_Query_perf_frequency
+_RDATA
+_TEST
+_Thrd_id
+_Thrd_join
+_Thrd_sleep
+_Thrd_start
+_Xtime_get_ticks
+__C_specific_handler
+__CxxFrameHandler3
+__RTDynamicCast
+__acrt_iob_func
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vfprintf
+__stdio_common_vsnprintf_s
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_aligned_free
+_aligned_malloc
+_aligned_realloc
+_callnewh
+_cexit
+_close
+_configure_narrow_argv
+_crt_atexit
+_ctime64
+_dtest
+_errno
+_execute_onexit_table
+_fdtest
+_fseeki64
+_gUT^
+_get_stream_buffer_pointers
+_getpid
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo
+_invalid_parameter_noinfo_noreturn
+_lCI	
+_localtime64
+_lock_file
+_low_res.obj
+_open
+_parsefailed.json
+_purecall
+_read
+_register_onexit_function
+_seh_filter_dll
+_stricmp
+_strnicmp
+_strtoi64
+_strtoui64
+_time64
+_unlock_file
+_wcsdup
+_wcsicmp
+_wcsnicmp
+_wcsupr
+_wfopen_s
+_wfsopen
+_wgetcwd
+_wstat64i32
+`	P!A
+` UAVAWH
+`.rdata
+`A^_]
+`A^_^
+`A_A]A\_^][
+`A_A^A\_^][
+`A_A^A]A\_^[
+`A_A^A]A\_^]
+`A_A^[
+`A_A^_^]
+`A__^
+`_^]H
+``````````````````````````````````````````````````````````````````````````````````````````````````
+`accessors' does not contain an JSON object.
+`animations' does not contain an JSON object.
+`bufferViews' does not contain an JSON object.
+`buffers' does not contain an JSON object.
+`cameras' does not contain an JSON object.
+`input` field is missing in animation.sampler
+`materials' does not contain an JSON object.
+`meshes' does not contain an JSON object.
+`node` field is missing in animation.channels.target
+`nodes' does not contain an JSON object.
+`output` field is missing in animation.sampler
+`path` field is missing in animation.channels.target
+`sampler` field is missing in animation channels
+`samplers' does not contain an JSON object.
+`scenes' does not contain an JSON object.
+`skins' does not contain an JSON object.
+`textures' does not contain an JSON object.
+aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
+abgrt
+abort
+acc_bias
+acc_scale
+accel
+accessor[
+accessors
+acosf
+add a secondary base
+additional six characters expected to parse unicode surrogate pair.
+additionalFramesToPredict
+af}{f
+aggregate_value
+aitcamlib.dll
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+allow_alias
+alphaCutoff
+alphaMode
+analogGain
+angle
+animations
+anims
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+api-ms-win-crt-utility-l1-1-0.dll
+array
+as new origin
+aspectRatio
+assert json failed
+asset
+atan2
+atan2f
+attached_device_id
+attributes
+audio
+audio_playback_device_name
+audio_playback_device_pid
+audio_playback_device_vid
+audio_recording_device_name
+audio_recording_device_pid
+audio_recording_device_vid
+average_period
+avrt.dll
+bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
+bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
+bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
+bad AC huff
+bad APP len
+bad BMP
+bad COM len
+bad DC huff
+bad DHT header
+bad DNL height
+bad DNL len
+bad DQT table
+bad DQT type
+bad DRI len
+bad H
+bad IHDR len
+bad Image Descriptor
+bad SOF len
+bad SOS
+bad SOS component count
+bad SOS len
+bad TQ
+bad V
+bad allocation
+bad array new length
+bad base station orientation ( 
+bad bpp
+bad cast
+bad code lengths
+bad codelengths
+bad comp method
+bad component count
+bad compression
+bad conversion
+bad ctype
+bad dist
+bad file
+bad filter method
+bad format
+bad huffman code
+bad interlace method
+bad masks
+bad palette
+bad png sig
+bad req_comp
+bad sizes
+bad tRNS len
+bad zlib header
+base %08X u%d r%d (i%d)
+baseCalibration
+baseColorFactor
+baseColorTexture
+baseName
+base_config
+base_config_json
+base_serial_number
+base_stations
+basestation_mode
+bin\win64\vrprismhost.exe
+bit_offset
+bit_width
+bl_ctl
+black_clamp
+bodnok
+bonemask_fingeraux.txt
+bonemask_grip.txt
+bonemask_index.txt
+bonemask_indexcurl.txt
+bonemask_middle.txt
+bonemask_pinky.txt
+bonemask_ring.txt
+bonemask_squeeze.txt
+bonemask_thumb.txt
+bonemask_thumb_and_wrist.txt
+buffer
+buffer error
+bufferView
+bufferViews
+buffers
+bxk.f
+byteLength
+byteOffset
+byteStride
+bytes
+c H9K
+c0D9cTt$D
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
+cAMDt
+cal_method
+calloc
+camera
+cameras
+can't fopen
+can't merge dc and ac
+canceled
+cannot set backlight gain
+cc_generic_services
+center
+center_x
+center_y
+channelMap
+channelOrder
+channels
+children
+client
+clips
+clkoor
+close() failed: 
+closed
+closest
+coeffs
+collectComments
+color
+compatible 
+componentType
+compositordebug
+config
+config.json
+configuration string is empty
+connectedSerial
+const unsigned int __cdecl CAnimResource::MyTypeID(void)
+const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
+const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
+const unsigned int __cdecl Reflection::Object::MyTypeID(void)
+controller
+corrupt
+count
+create
+ctype
+d$ E3
+d$ IcA,H
+d$ UAVAWH
+d$$E3
+d$(E3
+d$(H;
+d$(Hi
+d$(M+
+d$(M;
+d$0E2
+d$8E3
+d$<Mc
+d$@H9k
+d$@fD
+d$HL;
+d$HMc
+d$PE9~X~QE3
+d$PM;A
+d$PfD
+d$XE3
+d$XH;
+d$`H=
+d$`L;
+d$`fD
+d$bHc
+d$hE3
+d$hH3
+d$hHcC,L
+d$pI;
+d$xL;
+d3d11.dll
+data error
+data->IsInitialized()
+data:application/gltf-buffer;base64,
+data:application/octet-stream;base64,
+data:image/bmp;base64,
+data:image/gif;base64,
+data:image/jpeg;base64,
+data:image/png;base64,
+data:text/plain;base64,
+dbhistory
+deactivateStandbyOverride
+default_value
+delayed
+dependency
+deprecated
+deque<T> too long
+device
+deviceClass
+device_class
+device_pid
+device_serial_number
+device_serial_number_watchman
+device_vid
+devicescannermsgwindow
+direct_mode_edid_pid
+direct_mode_edid_vid
+disableRuntimeEdidOverride
+disableimu
+disableimuexcepthmd
+disambiguationdebug
+discover_dongles
+discover_dongles_response
+displayPortTrainingMode
+display_color_mult
+display_edid
+display_frequency
+display_gc
+display_mc
+display_usb_pid
+display_usb_protocol
+display_usb_vid
+distort
+distortion
+distortion_blue
+distortion_red
+dn}kf
+dongles
+double
+doubleSided
+double_value
+driver
+driver_lighthouse
+driver_lighthouse message window
+driver_lighthouse.dll
+driver_lighthouse: Activate(%p %d)
+driver_lighthouse: Activate: Tracking started
+driver_lighthouse: Deactivate(%p  %d)
+driver_lighthouse: GetEyeOutputViewport(%u, %u, %u, %u)
+driver_lighthouse: GetRecommendedRenderTargetSize(%u, %u)
+driver_lighthouse: GetWindowBounds(%d, %d, %u, %u)
+driver_lighthouse: IServerTrackedDeviceProvider::Cleanup()
+driver_lighthouse: IServerTrackedDeviceProvider::Init( %s, %s)
+driver_lighthouse: Tracking stopped
+driver_lighthouse: enumerating attached Lighthouse devices HMDs:
+drivers
+drop %08X u%d (i%d)
+dualSpeakerAndJackOutput
+dual_extrinsics
+dvNL9
+dwc_#Ri
+dxgi.dll
+dynamic_state
+dynamic_state_json
+dynamic_states
+eCapture
+eCommunications
+eConsole
+eEYE_FIRST
+eEYE_L
+eEYE_LEFT
+eEYE_R
+eEYE_RIGHT
+eMultimedia
+eNUM_EYES
+ePIcD$ 
+eRender
+e_H9U
+echo %127s
+effffff
+emissiveFactor
+emissiveTexture
+enable
+enableCamera
+enableImuFallback
+enableMJPEGMode
+enableRawMode
+end of input
+entiu
+error
+es-8R
+ev3Ff
+ewh/?y
+exception thrown in JSON library
+expected marker
+expectedControllerType
+expected_bases
+expected_controllers
+expecting another \u token to begin the second half of a unicode surrogate pair
+experimental_map_key
+extend .$0 {
+extendee
+extension_range
+extensions
+extensionsRequired
+extensionsUsed
+external_drivers
+extras
+extrinsics
+eye_target_height_in_pixels
+eye_target_width_in_pixels
+eye_to_head
+f(I;^
+f;D$T
+f;t$V
+fB9<Bu
+fD9	u
+fD9,Bu
+fF9,Au
+facet::CCompositionClient::AcquireCompositorSlot
+facet::CCompositionClient::AcquireImage
+facet::CCompositionClient::BeginFrameRendering
+facet::CCompositionClient::CFrameState::AddLayerProjection
+facet::CCompositionClient::CFrameState::BeginRendering
+facet::CCompositionClient::CFrameState::Discard
+facet::CCompositionClient::CFrameState::End
+facet::CCompositionClient::CFrameState::EndRendering
+facet::CCompositionClient::CFrameState::Start
+facet::CCompositionClient::CFrameState::Submit
+facet::CCompositionClient::CFrameState::Wait
+facet::CCompositionClient::CSwapchain::AcquireCompositorSlot
+facet::CCompositionClient::CSwapchain::CreateVulkanResources
+facet::CCompositionClient::CSwapchain::GetAPIImage
+facet::CCompositionClient::CSwapchain::GetIndices
+facet::CCompositionClient::CSwapchain::GetInteropImage
+facet::CCompositionClient::CSwapchain::Initialize
+facet::CCompositionClient::CSwapchain::RegisterCompositorResources
+facet::CCompositionClient::CSwapchain::SetUsageType
+facet::CCompositionClient::CSwapchain::Transition
+facet::CCompositionClient::ConnectToPrism
+facet::CCompositionClient::CreateSwapchain
+facet::CCompositionClient::CreateVulkanResources
+facet::CCompositionClient::DiscardFrameLocked
+facet::CCompositionClient::EndFrameRendering
+facet::CCompositionClient::EndFrameRenderingLocked
+facet::CCompositionClient::ForceAcquireImage
+facet::CCompositionClient::InitDevice
+facet::CCompositionClient::InitVulkan
+facet::CCompositionClient::RegisterCompositorResources
+facet::CCompositionClient::ReleaseImage
+facet::CCompositionClient::ReleaseVulkanResources
+facet::CCompositionClient::SetSyncTexture
+facet::CCompositionClient::StartSession
+facet::CCompositionClient::SubmitLayers
+facet::CCompositionClient::WaitFrame
+facet::CCompositionClient::WaitImage
+facet::CVkInteropDeviceD3D11::CreateDevice
+facet::CVkInteropDeviceD3D11::CreateImage
+facet::CVkInteropDeviceD3D11::GetVkFormatFromAPIFormat
+facet::CVkInteropDeviceD3D11::Initialize
+facet::CVkInteropDeviceD3D11::IsTextureFormatSupported
+facet::CVkInteropDeviceFactory::CreateInteropDevice
+facet::CVkInteropDeviceNull::CreateImage
+facet::CVkInteropImageD3D11::AcquireAccess
+facet::CVkInteropImageD3D11::CreateTexture
+facet::CVkInteropImageD3D11::ImportTexture
+facet::CVkInteropImageD3D11::Initialize
+facet::CVkInteropImageD3D11::ReleaseAccess
+facet::CVkInteropImageD3D11::SyncAndSubmit
+facet::CVkInteropImageD3D11::~CVkInteropImageD3D11
+facet::CVkInteropImageNull::Initialize
+facet::CVkTimestampQueryPool<2>::Create
+facet::CVkTimestampQueryPool<2>::UpdateResults
+facet::CVkTimestampQueryPoolBase::Initialize
+facet::CVkTimestampQueryPoolBase::UpdateResults
+failIfExtra
+failed
+failed to send to device
+failed_to_start
+fakeHtcHmdMainboard
+false
+false literal
+faults
+fclose
+ffffff
+fffffff
+fflush
+fgetc
+fgetpos
+field
+file error
+file is empty or does not exist
+filename
+firmwareVersion
+firmware_config
+firmware_update_required
+firmware_version
+first not IHDR
+first_eye
+first_id
+fixed32
+fixed64
+flWaitTime < 1.0
+flags
+flags2
+float
+fnVa')
+focal_x
+focal_y
+fopen
+fopen_s
+forceSoloEdid
+forcedExposureTime
+forcedFrameRate
+forcedGlobalGain
+forcedWhiteBalance
+fputc
+fputs
+framer
+framesToThrottle
+fread
+from base 
+fseek
+fsetpos
+ftell
+fwrite
+g9k0t_D
+gc/250_v0.gc
+generator
+generic_controller
+generic_hmd
+generic_tracker
+getDeviceProperty returned empty
+getDeviceProperty returned wrong type %d
+get_eye_to_head
+get_radio_mode
+getenv
+gfffA
+gfffD+
+gfffM
+gfffffff
+gfffffffE
+gfffffffH
+gfffffffH+
+gfffffffH+L$8H
+gfffffffH+Q@H
+gfffffffI
+gfffffffI+
+gfffffffL
+gfffffffL+
+gfffffffM
+go_package
+gravity_vector
+group
+grow_for_undistort
+gyro_bias
+h AVH
+h UAVAWH
+h VAVAWH
+hA\_^[
+hA^A\_^[]
+hA_A^_^][
+hA__][
+hA__^[H
+h_^][
+hand_right_closeanim.glb
+hand_right_poses.glb
+handlers
+hardware_revision
+hdcp14legacyCompatibility
+head_from_camera
+header crc mismatch
+height
+hid.dll
+hid_close
+hid_enumerate
+hid_error
+hid_exit
+hid_free_enumeration
+hid_get_feature_report
+hid_get_indexed_string
+hid_get_manufacturer_string
+hid_get_product_string
+hid_get_serial_number_string
+hid_init
+hid_open
+hid_open_nths
+hid_open_path
+hid_read
+hid_read_timeout
+hid_send_feature_report
+hid_set_nonblocking
+hid_write
+hidden_area_mesh
+highFrameJitter
+high_frame_jitter
+high_mm
+hits: 
+htc/vive_controller
+htc/vive_tracker
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
+https://www.digicert.com/CPS0
+i H9i0u
+iauds
+ideal_period
+identifier_value
+ig@-?e
+illegal code in raster
+image
+image.pSwapchain->m_images[ image.nImageIndex ].GetState() == CImage::State_t::PrismLocked || m_pClient->m_pendingRelease.find( { image.pSwapchain, image.nImageIndex } ) != m_pClient->m_pendingRelease.end()
+image/bmp
+image/gif
+image/jpeg
+image/png
+image[
+images
+immediate
+import
+imu_sample
+in Json::Value::asCString(): requires stringValue
+in Json::Value::clear(): requires complex value
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::removeMember(): requires objectValue
+in Json::Value::resize(): requires arrayValue
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+incompatible version
+incorrect data check
+incorrect header check
+incorrect length check
+index
+indexHmdColumnCorrection
+indexHmdColumnOffset_
+indexcontroller
+indexcontroller_anim_closesqueeze.glb
+indexhmd
+indices
+infinity
+innerConeAngle
+input
+input_components
+input_profile
+input_type
+insufficient memory
+int32
+int64
+intensity
+interpolation
+intrinsics
+invalid
+invalid BOM; must be 0xEF 0xBB 0xBF if given
+invalid PLTE
+invalid bit length repeat
+invalid bitset<N> position
+invalid block type
+invalid code -- missing end-of-block
+invalid code lengths set
+invalid decoded scanline length
+invalid distance code
+invalid distance too far back
+invalid distances set
+invalid filter
+invalid literal
+invalid literal/length code
+invalid literal/lengths set
+invalid map<K, T> key
+invalid number; expected '+', '-', or digit after exponent
+invalid number; expected digit after '-'
+invalid number; expected digit after '.'
+invalid number; expected digit after exponent sign
+invalid stoi argument
+invalid stored block lengths
+invalid stoul argument
+invalid string position
+invalid string: '\u' must be followed by 4 hex digits
+invalid string: control character U+0000 (NUL) must be escaped to \u0000
+invalid string: control character U+0001 (SOH) must be escaped to \u0001
+invalid string: control character U+0002 (STX) must be escaped to \u0002
+invalid string: control character U+0003 (ETX) must be escaped to \u0003
+invalid string: control character U+0004 (EOT) must be escaped to \u0004
+invalid string: control character U+0005 (ENQ) must be escaped to \u0005
+invalid string: control character U+0006 (ACK) must be escaped to \u0006
+invalid string: control character U+0007 (BEL) must be escaped to \u0007
+invalid string: control character U+0008 (BS) must be escaped to \u0008 or \b
+invalid string: control character U+0009 (HT) must be escaped to \u0009 or \t
+invalid string: control character U+000A (LF) must be escaped to \u000A or \n
+invalid string: control character U+000B (VT) must be escaped to \u000B
+invalid string: control character U+000C (FF) must be escaped to \u000C or \f
+invalid string: control character U+000D (CR) must be escaped to \u000D or \r
+invalid string: control character U+000E (SO) must be escaped to \u000E
+invalid string: control character U+000F (SI) must be escaped to \u000F
+invalid string: control character U+0010 (DLE) must be escaped to \u0010
+invalid string: control character U+0011 (DC1) must be escaped to \u0011
+invalid string: control character U+0012 (DC2) must be escaped to \u0012
+invalid string: control character U+0013 (DC3) must be escaped to \u0013
+invalid string: control character U+0014 (DC4) must be escaped to \u0014
+invalid string: control character U+0015 (NAK) must be escaped to \u0015
+invalid string: control character U+0016 (SYN) must be escaped to \u0016
+invalid string: control character U+0017 (ETB) must be escaped to \u0017
+invalid string: control character U+0018 (CAN) must be escaped to \u0018
+invalid string: control character U+0019 (EM) must be escaped to \u0019
+invalid string: control character U+001A (SUB) must be escaped to \u001A
+invalid string: control character U+001B (ESC) must be escaped to \u001B
+invalid string: control character U+001C (FS) must be escaped to \u001C
+invalid string: control character U+001D (GS) must be escaped to \u001D
+invalid string: control character U+001E (RS) must be escaped to \u001E
+invalid string: control character U+001F (US) must be escaped to \u001F
+invalid string: forbidden character after backslash
+invalid string: ill-formed UTF-8 byte
+invalid string: missing closing quote
+invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
+invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
+invalid vector<T> subscript
+invalid window size
+invalid-user
+inverseBindMatrices
+ipdOffset
+isPairing
+is_extension
+isalnum
+isalpha
+isdigit
+isspace
+ix`fA
+j0h02
+java_generate_equals_and_hash
+java_generic_services
+java_multiple_files
+java_outer_classname
+java_package
+java_string_check_utf8
+jj@0HK4
+joints
+k0i0$
+k?KPm?
+kcizf
+keylength >= 2^30
+known_objects
+known_universes
+knuckles
+knuckles_ev1
+l!;b	F
+l$ 8Y 
+l$ ATAVAWH
+l$ AVH
+l$ E3
+l$ H;
+l$ H=
+l$ HcF,H
+l$ L+
+l$ L;
+l$ UAVAWH
+l$ VATAUAVAWH
+l$ VATAWH
+l$ VAVAWH
+l$ VH
+l$ VWATAUAVH
+l$ VWAVH
+l$ VWAWH
+l$ WATAWH
+l$ WAVAWH
+l$ WAVHc|$8I
+l$ WH
+l$(H;
+l$(L+
+l$0A^_
+l$0E3
+l$0H+
+l$0H;
+l$0Hc
+l$0I;
+l$0Ic] 
+l$4D9e
+l$4D;l$@u=
+l$4H;
+l$8E3
+l$8Hc
+l$8M;
+l$@(I
+l$@H;
+l$@t[
+l$@t^
+l$Hu$
+l$PH;
+l$PI;
+l$PM9n
+l$PfA
+l$TD;
+l$XH9
+l$XH;
+l$XI+
+l$XL+
+l$`H;
+l$`Hc
+l$h9s8~F
+l$h9{X~&L
+l$pH;
+l$pL;l$P
+l$pM+
+l$xHc
+l$xLc
+l$xLi
+l$xM+
+l6qnk
+l?Nb0?
+lEyeFile:%s width:%d height:%d components:%d
+label
+lastChaperoneCommit
+last_eye
+last_id
+ldexp
+leading_comments
+left eye
+left_hand
+left_sync_is_real
+left_sync_time
+lenscal
+lh_basestation_01_boysandgirls
+lh_basestation_03_robin
+lh_basestation_valve_gen2
+lh_basestation_vive
+lhjsonfx
+lhs->m_pTimeline == rhs->m_pTimeline
+lighthouse
+lighthouse.pb"(
+lighthouse:
+lighthouse_config
+lighthouse_db_json
+lighthouse_debug.proto
+lighthouse_pairing
+lighthousedb write error: baseStation is not an array type, but is %d
+lighthousedb.json
+lighthousedriver:
+lights
+list<T> too long
+localeconv
+location
+low_mm
+m0_$@
+m0k0$
+mXu.H
+m_acquireMutexes.size() == m_acquireKeys.size()
+m_acquireMutexes.size() == m_acquireTimeouts.size()
+m_eMutexOwnership != MutexOwnership_t::D3D11
+m_eMutexOwnership != MutexOwnership_t::Vulkan
+m_eMutexOwnership == MutexOwnership_t::D3D11
+m_eMutexOwnership == MutexOwnership_t::Vulkan
+m_eState == State_t::ApplicationAcquired
+m_eState == State_t::ApplicationReleased
+m_images.size() <= SwapchainState_t::k_nMaxImages
+m_mapTimelineToBuckets[ pKey ].empty()
+m_nClientDataSlot < CompositionState_t::k_nMaxClients
+m_nMapCount == 0
+m_nMapCount > 0
+m_nMaxLogBufferingSize > 0
+m_nSwapchainSlot < CompositionState_t::k_nMaxSwapchains
+m_pClient != nullptr
+m_pDevice
+m_pDevice == VK_NULL_HANDLE
+m_pInstance == VK_NULL_HANDLE
+m_pPhysicalDevice == VK_NULL_HANDLE
+m_pendingLock.empty()
+m_releaseMutexes.size() == m_releaseKeys.size()
+m_signalTimelines.size() == m_signalPoints.size()
+m_ulHandle != vr::k_ulInvalidMailbox
+m_waitSemaphores.size() == m_waitSemaphoreStages.size()
+m_waitTimelines.size() == m_waitPoints.size()
+m_waitTimelines.size() == m_waitStages.size()
+magFilter
+malloc
+manifest.vrfirmware
+manufacturer
+map key must name a scalar or string field.
+map type is only allowed for fields with a message type.
+map type is only allowed for repeated fields.
+map/set<T> too long
+map_key must not name a repeated field.
+material
+materials
+matrix
+max value > 255
+measuring...
+memchr
+memcmp
+memcpy
+memmove
+memset
+meo|f
+meshes
+message
+message_id
+message_set_wire_format
+message_type
+metallicFactor
+metallicRoughnessTexture
+method
+mfg_build_info
+mfplat.dll
+mgI;](
+mimeType
+minFilter
+minVersion
+minimum_ipd_step
+minstep_mm
+missing color table
+missing values from "device" section
+mj>zjZ
+modelCad
+modelId
+modelNormals
+modelPoints
+model_number
+multiple IHDR
+multiple signals per batch not allowed
+muteMicMonitor
+n0_D@
+nArrayIndex < m_details.nArrayLayerCount
+nClientFrameIndex != k_nInvalidClientFrameIndex
+nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
+nNextPrismWaitIndex >= nNextPrismFrameIndex
+nSampleCount > 0 && nSampleCount <= 64
+need dictionary
+negative_int_value
+nested_type
+nfinity
+no IDAT
+no PLTE
+no SOF
+no SOI
+no clear code
+no header height
+no optical samples 
+no preset dict
+no_standard_descriptor_accessor
+noclk
+nodes
+non-finite elements of state vector: 
+nonce
+normalTexture
+normalized
+not BMP
+not GIF
+not HDR
+not PSD
+not enough pixels
+not present
+not running
+not wireless endpoint
+ntdll.dll
+ntelD
+null literal
+num_windows
+number
+number literal
+number overflow parsing '
+nvapi_QueryInterface
+nvapi_pepQueryInterface
+o@@fD
+oD$ fD
+oD$0H
+oD$0f
+oD$0fD
+oL$ f
+oT$0f
+object
+object key
+object separator
+occlusionTexture
+offset
+ole32.dll
+oneof_decl
+oneof_index
+onesided
+only 8-bit
+ootx %08X u%d r%d (i%d)
+ootxVersion
+openvr
+openvrpaths.vrpath
+opt_out
+optical_frame
+optical_sample
+optimize_for
+optional
+options
+orthographic
+ot$Pf
+out_of_range
+outerConeAngle
+outofdata
+outofmem
+output
+output buffer limit
+output_path
+output_type
+p AVH
+p UAVAWH
+p WATAVH
+p$D+;
+pA^A]A\
+pA^^]
+pA^_^
+pA^_^[]H
+pA^_^][
+pA_A^A\_^[]
+pA_A^A]A\[
+pA_A^A]A\_^[
+pA_A^A]A\_^]
+pA_A^_
+pA_A^_^[
+pBuffer != nullptr
+pClient
+pCmdBuf
+pCmdBuf != nullptr
+pDevice
+pH0Df
+pImage != nullptr
+pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
+pNewResource
+pNewResource->Load( absFilePath )
+pP DfD
+pP@Df
+pP`DfD
+pResource
+pSourceBuffer
+pSourceBuffer->m_unSizeInBytes >= nSourceOffset + m_unSizeInBytes
+pSwapchain != nullptr
+pT$0Df
+pT$PD
+pT$pDfD
+pTextureSet->pSwapchain
+pTimeline
+pTimeline != nullptr
+pTimeline->m_nRefCount > 0
+package
+packed
+pairing_result
+panel_burn_time_s: %d %d
+panel_clocking
+panel_on_time_deprecated_s: %d %d
+panel_on_time_s: %d %d
+parallel
+parameter must be a string or number / number array.
+params
+parse
+parse error
+parse_error
+pbrMetallicRoughness
+pd$ D
+pd$@D
+pd$`D
+perspective
+pitch
+plus_x
+plus_z
+position
+position out of bounds 
+positive_int_value
+power
+powerOffOnExit
+preferred
+preferredRefreshRate
+prescale
+previous_id
+previous_period
+primary
+primarybasestation
+primitive indices accessor out of bounds
+primitives
+priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
+prism.dll
+product %u rev %u.%u.%u lot %u/%u/%u %u
+proximity
+public_dependency
+py_generic_services
+qMFCreateMediaType failed hr = 0x%08x
+r	D;@(}
+r+w.I
+r,fff
+r/w0H
+r2max
+r2w	A
+r6w%H
+r?'1(?
+rBkg_M
+rEyeFile:%s width:%d height:%d components:%d
+rND9{0t
+rZw%H
+range
+read past buffer
+realloc
+record
+recorded
+recorder
+recorder + 
+recording
+registered: 
+registered_device_type_prefix
+rejectDupKeys
+renderCameraMode
+render_model
+render_target_scale
+renderdoc.dll
+repeated
+replay stats: 
+replay stats: IMU max arrival interval 
+replay stats: count of seen sensors (all sources): 
+replayer
+request_handlers
+request_handlers_response
+required
+required_peer_driver
+reset_count
+resource_root
+result
+returnAddress
+revision
+rewind
+right
+right eye
+right_hand
+right_sync_is_real_as_it_gets
+right_sync_time
+rnw(I
+rootserial
+rotating at 
+rotation
+roughnessFactor
+roundf
+runtime
+r|fff
+s AVH
+s H9S
+s UAVAWI
+s fff
+s0H;s t!H
+s@fff
+sFL9c
+sample_angle_estimate
+sampler
+samplers
+samples
+sbetu=
+scalar
+scale
+scene
+scenes
+second_tracked_camera
+secondary
+seconds_from_photons_to_vblank
+seconds_from_vsync_to_photons
+sendStatusUpdates
+serial
+serialNumber
+serial_number
+server
+service
+set_chromatic_correction_factors
+set_chromatic_correction_factors %f %f
+set_index_brightness %f
+set_lenscal
+set_lenscal %255s
+set_panel_clocking
+set_panel_clocking %f %f
+set_radio_mode_ble
+set_radio_mode_valve
+setvbuf
+sfixed32
+sfixed64
+short_alloc: spilling into system allocator
+short_bad
+sint32
+sint64
+skeleton
+skeletons
+skins
+slow-edid
+sobChannel
+source
+source_code_info
+sparse
+special_value_zero
+stackLimit
+start
+start tracking from base
+start_pairing
+startup
+steamvr
+stmute
+stmuteb
+stoi argument out of range
+stop_pairing
+stoprecord
+stoul argument out of range
+strcat_s
+strchr
+strcmp
+stream end
+stream error
+streams
+strength
+strerror
+strftime
+strictRoot
+string
+string literal
+string too long
+string_value
+strings::Substitute format string invalid: asked for "$
+strncat
+strncmp
+strncpy
+strncpy_s
+strpbrk
+strstr
+strtod
+strtol
+strtoll
+strtoul
+strtoull
+stylus
+subpixel_shift_blue_in_pixels
+subpixel_shift_red_in_pixels
+subtype mismatch
+succeeded
+success
+svuyt
+swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
+sync_width
+synconbeam
+syntax error 
+systime
+t	9P A
+t LcC
+t!HcO4E
+t#@8(t
+t#HcO4D
+t#fff
+t$ 8Y
+t$ 9q ~
+t$ 9q ~5L
+t$ @2
+t$ AVH
+t$ AWH
+t$ E3
+t$ H+
+t$ H9Q
+t$ H;
+t$ HcH
+t$ I;
+t$ L+
+t$ L;
+t$ M;
+t$ UAVAWH
+t$ UH
+t$ UWATAUAVH
+t$ UWATAUAWH
+t$ UWATAVAWH
+t$ UWAUAVAWH
+t$ UWAVH
+t$ WATAUAVAWH
+t$ WATAUAVL
+t$ WATAWH
+t$ WAV
+t$ WAVAWH
+t$ WH
+t$ fI
+t$ uOH
+t$$@8qxuPA
+t$$H;
+t$(A^
+t$(E3
+t$(H+
+t$(H;
+t$(Hi
+t$(L+
+t$(L;
+t$(fD
+t$,H+>H
+t$09kh~FH
+t$09s ~/L
+t$09s(~OH
+t$09s8~f
+t$09{(~/L
+t$09{,~-H
+t$09{0~%L
+t$0A^_
+t$0E3
+t$0H+
+t$0H9Q
+t$0H;
+t$0Hc
+t$0I9H@t
+t$0M;
+t$0fff
+t$4H;
+t$8E3
+t$8H+
+t$8H;
+t$8HcA
+t$8I+
+t$8I;
+t$8L9t$@tg
+t$8L;kht`L;kptZL
+t$@9kX~FH
+t$@A^A]A\_
+t$@E3
+t$@H+
+t$@H;
+t$@H=
+t$@I;
+t$@L;
+t$@LcGh
+t$@r_A
+t$@tK
+t$@tuH
+t$@u/H
+t$DA+
+t$H99t	H
+t$HH+
+t$HHi
+t$HI;
+t$HcO4D
+t$Hff
+t$HuJH
+t$P;k
+t$PE3
+t$PH;
+t$PH=
+t$PHc
+t$PI;
+t$PM+
+t$PM;
+t$Tu0H
+t$XE3
+t$XtQH
+t$`8Y
+t$`A;
+t$`D;
+t$`E3
+t$`H;
+t$`I+
+t$`I;
+t$`L;
+t$`Li
+t$`Lk
+t$`M+
+t$`M9f
+t$h9k0
+t$hD;
+t$hE3
+t$hH9W
+t$hHc
+t$hI;
+t$hI;}
+t$hL;
+t$pH+
+t$pH;
+t$pI;
+t$pfA
+t$pfD
+t$xE2
+t$xH+
+t%HcO4D
+t%HcO4L
+t&HcO4D
+t'8Ypt
+t(HcW,H
+t(LcK,C
+t)HcO4
+t,HcI
+t,HcKT
+t,M9x
+t,fff
+t/HcK
+t0fff
+t1Hcl$@
+t4L9{
+t9fff
+t:fff
+t<Lc@xE
+t>H9n
+t>y#I
+t?fff
+t?y$I
+t?y&I
+tAy&H
+tFA;Q r@w
+tKfA9
+tPD8B
+tPL9--
+tPfA9i
+tRNS after IDAT
+tRNS before PLTE
+tRNS with alpha
+tUA91uPH
+tXH+A
+tXfff
+t[D8p
+t[H+A
+target
+target_pose
+target_serial_number
+targets
+tb9l$Xt@9n$~;
+tdLc\$HIc
+tdh.dll
+tdm sync acquired
+tdm sync lost
+tdmerr
+tdmstat0
+tdmstat1
+tdmstat2
+tdmulter
+teH9EXtPA
+teL9L$ptGI
+ter!u53
+terminate
+testhtclcm %d
+teststandby
+texCoord
+text format contains deprecated field "
+text/plain
+textures
+tgfff
+the global scope
+the sparse object ob ths accessor doesn't have values
+the sparse object of this accessor doesn't have indices
+ti<	u#
+tilt_to_pose_method
+timeBeginPeriod
+timeEndPeriod
+timeKillEvent
+timeSetEvent
+time_last_seen
+timeout
+timeoutSeconds
+tnLc6H
+tolower
+too large
+too many codes
+too many length or distance symbols
+toupper
+tpH9.t	H
+trH9}
+trackedCamera
+tracked_camera
+tracked_camera1
+tracked_cameras
+tracked_controller_role
+tracked_object_json
+tracking_camera_intrinsics
+tracking_camera_unique_id
+tracking_reference
+tracking_to_eye_transform
+trackref_from_head
+trackref_from_imu
+trailing_comments
+translation
+treadmill
+true literal
+ttfD;W@smE
+tvfff
+twos_complement
+tx<	u#
+t|C9D
+t|SUVH
+t~L9=
+t~L9=(
+t~L9=k
+u	A;p(s
+u	A;y(s
+u	D;X
+u#D9A
+u'9}(u
+u(HcI(H
+u(K9<
+u)IcA,D
+u.fA9q
+u0f;M
+u18E4t
+u2H9P s
+u6fff
+u9fff
+u;H9{(L
+u<L9-
+u=L;Mhu7IcG
+u>f9X u8f9X0u2f9X@u,f9XPu&
+u>f9X"u8f9X2u2f9XBu,f9XRu&
+uAfff
+uDf9X
+uJf9X
+uKb!?6mH
+uSL9-
+uSfff
+uZEeu
+ubHcC0I
+uint32
+uint64
+umM;~
+undist_height
+undist_width
+undistort_r2_cutoff
+unexpected 
+ungetc
+uninterpreted_option
+unique_base_id
+unknown
+unknown BMP
+unknown code
+unknown command
+unknown compression method
+unknown header flags set
+unknown image type
+unknown marker
+unknown token
+unlikely gravity 
+unsupported bit depth
+unsupported data layout
+unsupported format
+upHcH
+updated lenscal
+usbPID
+usbVID
+usePrism
+usedisambiguation
+userdata
+ut9}(voH
+u{L9=
+u}aba
+v(M;l
+v9fff
+v=Y]Bv
+v@L;D$P
+vE;E`M
+vHcD$LH
+vOL9-2
+vQO+t
+value
+values
+valve/index_controller
+valve_controller_knu_1_0
+variance
+vb'vb'v
+vboost_ok
+vector<T> too long
+vector<bool> too long
+velocity %0.2fm/s 
+version
+version %s
+version.txt
+vfA'I
+via transform to global
+vibration
+video_mode
+viveVR
+vive_controller
+vive_pro
+vivewand_hand_poses.glb
+vkAcquireDrmDisplayEXT
+vkAcquireFullScreenExclusiveModeEXT
+vkAcquireNextImage2KHR
+vkAcquireNextImageKHR
+vkAcquirePerformanceConfigurationINTEL
+vkAcquireProfilingLockKHR
+vkAcquireWinrtDisplayNV
+vkAllocateCommandBuffers
+vkAllocateDescriptorSets
+vkAllocateMemory
+vkBeginCommandBuffer
+vkBindAccelerationStructureMemoryNV
+vkBindBufferMemory
+vkBindBufferMemory2
+vkBindBufferMemory2KHR
+vkBindImageMemory
+vkBindImageMemory2
+vkBindImageMemory2KHR
+vkBuildAccelerationStructuresKHR
+vkCmdBeginConditionalRenderingEXT
+vkCmdBeginDebugUtilsLabelEXT
+vkCmdBeginQuery
+vkCmdBeginQueryIndexedEXT
+vkCmdBeginRenderPass
+vkCmdBeginRenderPass2
+vkCmdBeginRenderPass2KHR
+vkCmdBeginTransformFeedbackEXT
+vkCmdBindDescriptorSets
+vkCmdBindIndexBuffer
+vkCmdBindInvocationMaskHUAWEI
+vkCmdBindPipeline
+vkCmdBindPipelineShaderGroupNV
+vkCmdBindShadingRateImageNV
+vkCmdBindTransformFeedbackBuffersEXT
+vkCmdBindVertexBuffers
+vkCmdBindVertexBuffers2EXT
+vkCmdBlitImage
+vkCmdBlitImage2KHR
+vkCmdBuildAccelerationStructureNV
+vkCmdBuildAccelerationStructuresIndirectKHR
+vkCmdBuildAccelerationStructuresKHR
+vkCmdClearAttachments
+vkCmdClearColorImage
+vkCmdClearDepthStencilImage
+vkCmdCopyAccelerationStructureKHR
+vkCmdCopyAccelerationStructureNV
+vkCmdCopyAccelerationStructureToMemoryKHR
+vkCmdCopyBuffer
+vkCmdCopyBuffer2KHR
+vkCmdCopyBufferToImage
+vkCmdCopyBufferToImage2KHR
+vkCmdCopyImage
+vkCmdCopyImage2KHR
+vkCmdCopyImageToBuffer
+vkCmdCopyImageToBuffer2KHR
+vkCmdCopyMemoryToAccelerationStructureKHR
+vkCmdCopyQueryPoolResults
+vkCmdCuLaunchKernelNVX
+vkCmdDebugMarkerBeginEXT
+vkCmdDebugMarkerEndEXT
+vkCmdDebugMarkerInsertEXT
+vkCmdDispatch
+vkCmdDispatchBase
+vkCmdDispatchBaseKHR
+vkCmdDispatchIndirect
+vkCmdDraw
+vkCmdDrawIndexed
+vkCmdDrawIndexedIndirect
+vkCmdDrawIndexedIndirectCount
+vkCmdDrawIndexedIndirectCountAMD
+vkCmdDrawIndexedIndirectCountKHR
+vkCmdDrawIndirect
+vkCmdDrawIndirectByteCountEXT
+vkCmdDrawIndirectCount
+vkCmdDrawIndirectCountAMD
+vkCmdDrawIndirectCountKHR
+vkCmdDrawMeshTasksIndirectCountNV
+vkCmdDrawMeshTasksIndirectNV
+vkCmdDrawMeshTasksNV
+vkCmdDrawMultiEXT
+vkCmdDrawMultiIndexedEXT
+vkCmdEndConditionalRenderingEXT
+vkCmdEndDebugUtilsLabelEXT
+vkCmdEndQuery
+vkCmdEndQueryIndexedEXT
+vkCmdEndRenderPass
+vkCmdEndRenderPass2
+vkCmdEndRenderPass2KHR
+vkCmdEndTransformFeedbackEXT
+vkCmdExecuteCommands
+vkCmdExecuteGeneratedCommandsNV
+vkCmdFillBuffer
+vkCmdInsertDebugUtilsLabelEXT
+vkCmdNextSubpass
+vkCmdNextSubpass2
+vkCmdNextSubpass2KHR
+vkCmdPipelineBarrier
+vkCmdPipelineBarrier2KHR
+vkCmdPreprocessGeneratedCommandsNV
+vkCmdPushConstants
+vkCmdPushDescriptorSetKHR
+vkCmdPushDescriptorSetWithTemplateKHR
+vkCmdResetEvent
+vkCmdResetEvent2KHR
+vkCmdResetQueryPool
+vkCmdResolveImage
+vkCmdResolveImage2KHR
+vkCmdSetBlendConstants
+vkCmdSetCheckpointNV
+vkCmdSetCoarseSampleOrderNV
+vkCmdSetColorWriteEnableEXT
+vkCmdSetCullModeEXT
+vkCmdSetDepthBias
+vkCmdSetDepthBiasEnableEXT
+vkCmdSetDepthBounds
+vkCmdSetDepthBoundsTestEnableEXT
+vkCmdSetDepthCompareOpEXT
+vkCmdSetDepthTestEnableEXT
+vkCmdSetDepthWriteEnableEXT
+vkCmdSetDeviceMask
+vkCmdSetDeviceMaskKHR
+vkCmdSetDiscardRectangleEXT
+vkCmdSetEvent
+vkCmdSetEvent2KHR
+vkCmdSetExclusiveScissorNV
+vkCmdSetFragmentShadingRateEnumNV
+vkCmdSetFragmentShadingRateKHR
+vkCmdSetFrontFaceEXT
+vkCmdSetLineStippleEXT
+vkCmdSetLineWidth
+vkCmdSetLogicOpEXT
+vkCmdSetPatchControlPointsEXT
+vkCmdSetPerformanceMarkerINTEL
+vkCmdSetPerformanceOverrideINTEL
+vkCmdSetPerformanceStreamMarkerINTEL
+vkCmdSetPrimitiveRestartEnableEXT
+vkCmdSetPrimitiveTopologyEXT
+vkCmdSetRasterizerDiscardEnableEXT
+vkCmdSetRayTracingPipelineStackSizeKHR
+vkCmdSetSampleLocationsEXT
+vkCmdSetScissor
+vkCmdSetScissorWithCountEXT
+vkCmdSetStencilCompareMask
+vkCmdSetStencilOpEXT
+vkCmdSetStencilReference
+vkCmdSetStencilTestEnableEXT
+vkCmdSetStencilWriteMask
+vkCmdSetVertexInputEXT
+vkCmdSetViewport
+vkCmdSetViewportShadingRatePaletteNV
+vkCmdSetViewportWScalingNV
+vkCmdSetViewportWithCountEXT
+vkCmdSubpassShadingHUAWEI
+vkCmdTraceRaysIndirectKHR
+vkCmdTraceRaysKHR
+vkCmdTraceRaysNV
+vkCmdUpdateBuffer
+vkCmdWaitEvents
+vkCmdWaitEvents2KHR
+vkCmdWriteAccelerationStructuresPropertiesKHR
+vkCmdWriteAccelerationStructuresPropertiesNV
+vkCmdWriteBufferMarker2AMD
+vkCmdWriteBufferMarkerAMD
+vkCmdWriteTimestamp
+vkCmdWriteTimestamp2KHR
+vkCompileDeferredNV
+vkCopyAccelerationStructureKHR
+vkCopyAccelerationStructureToMemoryKHR
+vkCopyMemoryToAccelerationStructureKHR
+vkCreateAccelerationStructureKHR
+vkCreateAccelerationStructureNV
+vkCreateBuffer
+vkCreateBufferView
+vkCreateCommandPool
+vkCreateComputePipelines
+vkCreateCuFunctionNVX
+vkCreateCuModuleNVX
+vkCreateDebugReportCallbackEXT
+vkCreateDebugUtilsMessengerEXT
+vkCreateDeferredOperationKHR
+vkCreateDescriptorPool
+vkCreateDescriptorSetLayout
+vkCreateDescriptorUpdateTemplate
+vkCreateDescriptorUpdateTemplateKHR
+vkCreateDevice
+vkCreateDisplayModeKHR
+vkCreateDisplayPlaneSurfaceKHR
+vkCreateEvent
+vkCreateFence
+vkCreateFramebuffer
+vkCreateGraphicsPipelines
+vkCreateHeadlessSurfaceEXT
+vkCreateImage
+vkCreateImageView
+vkCreateIndirectCommandsLayoutNV
+vkCreateInstance
+vkCreatePipelineCache
+vkCreatePipelineLayout
+vkCreatePrivateDataSlotEXT
+vkCreateQueryPool
+vkCreateRayTracingPipelinesKHR
+vkCreateRayTracingPipelinesNV
+vkCreateRenderPass
+vkCreateRenderPass2
+vkCreateRenderPass2KHR
+vkCreateSampler
+vkCreateSamplerYcbcrConversion
+vkCreateSamplerYcbcrConversionKHR
+vkCreateSemaphore
+vkCreateShaderModule
+vkCreateSharedSwapchainsKHR
+vkCreateSwapchainKHR
+vkCreateValidationCacheEXT
+vkCreateWin32SurfaceKHR
+vkDebugMarkerSetObjectNameEXT
+vkDebugMarkerSetObjectTagEXT
+vkDebugReportMessageEXT
+vkDeferredOperationJoinKHR
+vkDestroyAccelerationStructureKHR
+vkDestroyAccelerationStructureNV
+vkDestroyBuffer
+vkDestroyBufferView
+vkDestroyCommandPool
+vkDestroyCuFunctionNVX
+vkDestroyCuModuleNVX
+vkDestroyDebugReportCallbackEXT
+vkDestroyDebugUtilsMessengerEXT
+vkDestroyDeferredOperationKHR
+vkDestroyDescriptorPool
+vkDestroyDescriptorSetLayout
+vkDestroyDescriptorUpdateTemplate
+vkDestroyDescriptorUpdateTemplateKHR
+vkDestroyDevice
+vkDestroyEvent
+vkDestroyFence
+vkDestroyFramebuffer
+vkDestroyImage
+vkDestroyImageView
+vkDestroyIndirectCommandsLayoutNV
+vkDestroyInstance
+vkDestroyPipeline
+vkDestroyPipelineCache
+vkDestroyPipelineLayout
+vkDestroyPrivateDataSlotEXT
+vkDestroyQueryPool
+vkDestroyRenderPass
+vkDestroySampler
+vkDestroySamplerYcbcrConversion
+vkDestroySamplerYcbcrConversionKHR
+vkDestroySemaphore
+vkDestroyShaderModule
+vkDestroySurfaceKHR
+vkDestroySwapchainKHR
+vkDestroyValidationCacheEXT
+vkDeviceWaitIdle
+vkDisplayPowerControlEXT
+vkEndCommandBuffer
+vkEnumerateDeviceExtensionProperties
+vkEnumerateDeviceLayerProperties
+vkEnumerateInstanceExtensionProperties
+vkEnumerateInstanceLayerProperties
+vkEnumerateInstanceVersion
+vkEnumeratePhysicalDeviceGroups
+vkEnumeratePhysicalDeviceGroupsKHR
+vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR
+vkEnumeratePhysicalDevices
+vkFlushMappedMemoryRanges
+vkFreeCommandBuffers
+vkFreeDescriptorSets
+vkFreeMemory
+vkGetAccelerationStructureBuildSizesKHR
+vkGetAccelerationStructureDeviceAddressKHR
+vkGetAccelerationStructureHandleNV
+vkGetAccelerationStructureMemoryRequirementsNV
+vkGetBufferDeviceAddress
+vkGetBufferDeviceAddressEXT
+vkGetBufferDeviceAddressKHR
+vkGetBufferMemoryRequirements
+vkGetBufferMemoryRequirements2
+vkGetBufferMemoryRequirements2KHR
+vkGetBufferOpaqueCaptureAddress
+vkGetBufferOpaqueCaptureAddressKHR
+vkGetCalibratedTimestampsEXT
+vkGetDeferredOperationMaxConcurrencyKHR
+vkGetDeferredOperationResultKHR
+vkGetDescriptorSetLayoutSupport
+vkGetDescriptorSetLayoutSupportKHR
+vkGetDeviceAccelerationStructureCompatibilityKHR
+vkGetDeviceGroupPeerMemoryFeatures
+vkGetDeviceGroupPeerMemoryFeaturesKHR
+vkGetDeviceGroupPresentCapabilitiesKHR
+vkGetDeviceGroupSurfacePresentModes2EXT
+vkGetDeviceGroupSurfacePresentModesKHR
+vkGetDeviceMemoryCommitment
+vkGetDeviceMemoryOpaqueCaptureAddress
+vkGetDeviceMemoryOpaqueCaptureAddressKHR
+vkGetDeviceProcAddr
+vkGetDeviceQueue
+vkGetDeviceQueue2
+vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI
+vkGetDisplayModeProperties2KHR
+vkGetDisplayModePropertiesKHR
+vkGetDisplayPlaneCapabilities2KHR
+vkGetDisplayPlaneCapabilitiesKHR
+vkGetDisplayPlaneSupportedDisplaysKHR
+vkGetDrmDisplayEXT
+vkGetEventStatus
+vkGetFenceFdKHR
+vkGetFenceStatus
+vkGetFenceWin32HandleKHR
+vkGetGeneratedCommandsMemoryRequirementsNV
+vkGetImageDrmFormatModifierPropertiesEXT
+vkGetImageMemoryRequirements
+vkGetImageMemoryRequirements2
+vkGetImageMemoryRequirements2KHR
+vkGetImageSparseMemoryRequirements
+vkGetImageSparseMemoryRequirements2
+vkGetImageSparseMemoryRequirements2KHR
+vkGetImageSubresourceLayout
+vkGetImageViewAddressNVX
+vkGetImageViewHandleNVX
+vkGetInstanceProcAddr
+vkGetMemoryFdKHR
+vkGetMemoryFdPropertiesKHR
+vkGetMemoryHostPointerPropertiesEXT
+vkGetMemoryRemoteAddressNV
+vkGetMemoryWin32HandleKHR
+vkGetMemoryWin32HandleNV
+vkGetMemoryWin32HandlePropertiesKHR
+vkGetPastPresentationTimingGOOGLE
+vkGetPerformanceParameterINTEL
+vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
+vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
+vkGetPhysicalDeviceDisplayPlaneProperties2KHR
+vkGetPhysicalDeviceDisplayPlanePropertiesKHR
+vkGetPhysicalDeviceDisplayProperties2KHR
+vkGetPhysicalDeviceDisplayPropertiesKHR
+vkGetPhysicalDeviceExternalBufferProperties
+vkGetPhysicalDeviceExternalBufferPropertiesKHR
+vkGetPhysicalDeviceExternalFenceProperties
+vkGetPhysicalDeviceExternalFencePropertiesKHR
+vkGetPhysicalDeviceExternalImageFormatPropertiesNV
+vkGetPhysicalDeviceExternalSemaphoreProperties
+vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
+vkGetPhysicalDeviceFeatures
+vkGetPhysicalDeviceFeatures2
+vkGetPhysicalDeviceFeatures2KHR
+vkGetPhysicalDeviceFormatProperties
+vkGetPhysicalDeviceFormatProperties2
+vkGetPhysicalDeviceFormatProperties2KHR
+vkGetPhysicalDeviceFragmentShadingRatesKHR
+vkGetPhysicalDeviceImageFormatProperties
+vkGetPhysicalDeviceImageFormatProperties2
+vkGetPhysicalDeviceImageFormatProperties2KHR
+vkGetPhysicalDeviceMemoryProperties
+vkGetPhysicalDeviceMemoryProperties2
+vkGetPhysicalDeviceMemoryProperties2KHR
+vkGetPhysicalDeviceMultisamplePropertiesEXT
+vkGetPhysicalDevicePresentRectanglesKHR
+vkGetPhysicalDeviceProperties
+vkGetPhysicalDeviceProperties2
+vkGetPhysicalDeviceProperties2KHR
+vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR
+vkGetPhysicalDeviceQueueFamilyProperties
+vkGetPhysicalDeviceQueueFamilyProperties2
+vkGetPhysicalDeviceQueueFamilyProperties2KHR
+vkGetPhysicalDeviceSparseImageFormatProperties
+vkGetPhysicalDeviceSparseImageFormatProperties2
+vkGetPhysicalDeviceSparseImageFormatProperties2KHR
+vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV
+vkGetPhysicalDeviceSurfaceCapabilities2EXT
+vkGetPhysicalDeviceSurfaceCapabilities2KHR
+vkGetPhysicalDeviceSurfaceCapabilitiesKHR
+vkGetPhysicalDeviceSurfaceFormats2KHR
+vkGetPhysicalDeviceSurfaceFormatsKHR
+vkGetPhysicalDeviceSurfacePresentModes2EXT
+vkGetPhysicalDeviceSurfacePresentModesKHR
+vkGetPhysicalDeviceSurfaceSupportKHR
+vkGetPhysicalDeviceToolPropertiesEXT
+vkGetPhysicalDeviceWin32PresentationSupportKHR
+vkGetPipelineCacheData
+vkGetPipelineExecutableInternalRepresentationsKHR
+vkGetPipelineExecutablePropertiesKHR
+vkGetPipelineExecutableStatisticsKHR
+vkGetPrivateDataEXT
+vkGetQueryPoolResults
+vkGetQueueCheckpointData2NV
+vkGetQueueCheckpointDataNV
+vkGetRayTracingCaptureReplayShaderGroupHandlesKHR
+vkGetRayTracingShaderGroupHandlesKHR
+vkGetRayTracingShaderGroupHandlesNV
+vkGetRayTracingShaderGroupStackSizeKHR
+vkGetRefreshCycleDurationGOOGLE
+vkGetRenderAreaGranularity
+vkGetSemaphoreCounterValue
+vkGetSemaphoreCounterValueKHR
+vkGetSemaphoreFdKHR
+vkGetSemaphoreWin32HandleKHR
+vkGetShaderInfoAMD
+vkGetSwapchainCounterEXT
+vkGetSwapchainImagesKHR
+vkGetSwapchainStatusKHR
+vkGetValidationCacheDataEXT
+vkGetWinrtDisplayNV
+vkImportFenceFdKHR
+vkImportFenceWin32HandleKHR
+vkImportSemaphoreFdKHR
+vkImportSemaphoreWin32HandleKHR
+vkInitializePerformanceApiINTEL
+vkInvalidateMappedMemoryRanges
+vkMapMemory
+vkMergePipelineCaches
+vkMergeValidationCachesEXT
+vkQueueBeginDebugUtilsLabelEXT
+vkQueueBindSparse
+vkQueueEndDebugUtilsLabelEXT
+vkQueueInsertDebugUtilsLabelEXT
+vkQueuePresentKHR
+vkQueueSetPerformanceConfigurationINTEL
+vkQueueSubmit
+vkQueueSubmit2KHR
+vkQueueWaitIdle
+vkRegisterDeviceEventEXT
+vkRegisterDisplayEventEXT
+vkReleaseDisplayEXT
+vkReleaseFullScreenExclusiveModeEXT
+vkReleasePerformanceConfigurationINTEL
+vkReleaseProfilingLockKHR
+vkResetCommandBuffer
+vkResetCommandPool
+vkResetDescriptorPool
+vkResetEvent
+vkResetFences
+vkResetQueryPool
+vkResetQueryPoolEXT
+vkSetDebugUtilsObjectNameEXT
+vkSetDebugUtilsObjectTagEXT
+vkSetEvent
+vkSetHdrMetadataEXT
+vkSetLocalDimmingAMD
+vkSetPrivateDataEXT
+vkSignalSemaphore
+vkSignalSemaphoreKHR
+vkSubmitDebugUtilsMessageEXT
+vkTrimCommandPool
+vkTrimCommandPoolKHR
+vkUninitializePerformanceApiINTEL
+vkUnmapMemory
+vkUpdateDescriptorSetWithTemplate
+vkUpdateDescriptorSetWithTemplateKHR
+vkUpdateDescriptorSets
+vkWaitForFences
+vkWaitForPresentKHR
+vkWaitSemaphores
+vkWaitSemaphoresKHR
+vkWriteAccelerationStructuresPropertiesKHR
+vortex
+vr_glove_left_skeleton.glb
+vr_glove_right_poses.glb
+vr_glove_right_skeleton.glb
+vr_tracker_vive_1_0
+vref_ok
+vrprismhost_startup
+vrprismhost_startup timed out after %u ms before being set by the new vrprismhost process
+vrwebhelper
+vuf?H
+vulkan-1.dll
+v}L9-@
+w(M9w0tH
+w+OQvr
+wUD;C$}OH
+wXH9w`t/H
+wcsncmp
+wcsrchr
+wcsstr
+wdaeow
+weak_dependency
+weights
+while parsing 
+white_balance
+width
+winrtdisplay.dll
+wireless_dongle_serial_number
+wn>Jj
+world_from_global
+world_identity
+wrapR
+wrapS
+wrapT
+wrong channel count
+wrong color format
+wrong submessage type
+wrong version
+www.digicert.com1!0
+www.digicert.com1$0"
+www.digicert.com110/
+w{L9=
+x ATAVAWH
+x AVH
+x UATAUAVAWH
+x UAVAWH
+x2A;O0},I
+xA\_][
+xA^A\_^][
+xA_A]_]
+xA_A^_^][
+x_^][
+y0w0$
+y@tTyY1
+yxxxxxxx
+yxxxxxxxE
+yxxxxxxxH
+yxxxxxxxH+
+yxxxxxxxI
+yxxxxxxxL;
+yxxxxxxxf
+yxxxxxxxu!H
+z+u)H
+z/u-H
+z0x0:
+z2u0H
+z4u2H
+z?X9T?
+zd?/n
+zlib corrupt
+znear
+zuusA
+{ "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,1,'NV12'" ] }
+{ "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }
+{ AVH
+{"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }
+{%s}%s
+{,	u#
+{8@8l$8t1
+{htc}
+{htc}/input/vive_controller_profile.json
+{htc}/input/vive_pro_profile.json
+{htc}/input/vive_profile.json
+{htc}/input/vive_tracker_profile.json
+{htc}vr_tracker_vive_3_0
+{indexcontroller}/input/index_controller_profile.json
+{indexcontroller}/input/knuckles_ev1_profile.json
+{indexcontroller}valve_controller_knu_1_0_left
+{indexcontroller}valve_controller_knu_1_0_right
+{indexcontroller}valve_controller_knu_ev1_3_left
+{indexcontroller}valve_controller_knu_ev1_3_right
+{indexcontroller}valve_controller_knu_ev2_0_left
+{indexcontroller}valve_controller_knu_ev2_0_right
+{indexhmd}/additional.vrsettings
+{indexhmd}/index_hmd_overrides.bin
+{indexhmd}/input/indexhmd_profile.json
+{knuckles}
+{knuckles}valve_controller_knu_ev1_3_left
+{knuckles}valve_controller_knu_ev1_3_right
+{knuckles}valve_controller_knu_ev2_0_left
+{knuckles}valve_controller_knu_ev2_0_right
+|$ 9kh~
+|$ 9y ~=H
+|$ @8y
+|$ ATAUAVAW
+|$ ATAVAW
+|$ ATAVAWH
+|$ AUAVAWH
+|$ AVE
+|$ AVH
+|$ AVL
+|$ E+
+|$ E3
+|$ H+
+|$ H;
+|$ I;
+|$ M;
+|$ UATAUAVAWH
+|$ UATAWH
+|$ UAVAWH
+|$ UH
+|$ r}H
+|$ t 
+|$ t@
+|$$9y0tAA
+|$$H;
+|$(@8:t
+|$(A^
+|$(E3
+|$(H;
+|$(I9V
+|$(L+
+|$(M;
+|$0E3
+|$0H+
+|$0H9
+|$0H;
+|$0HcC0
+|$0HcH
+|$0Hk
+|$0I;
+|$0L9n0u-H
+|$0Mc
+|$0t@I
+|$0u,A
+|$0uS
+|$89q ~ 
+|$8A;_0
+|$8A_A^A\
+|$8E3
+|$8H+
+|$8H9S
+|$8H;
+|$8H;t$p
+|$8L9|$`t 
+|$8tCH
+|$8~u
+|$<I;
+|$@D;
+|$@E2
+|$@E3
+|$@E;
+|$@H+
+|$@H99t
+|$@H;
+|$@Hc
+|$@I;
+|$@M+
+|$@M;
+|$HE3
+|$HH9
+|$HH9q
+|$HH9y
+|$HH;
+|$HH=
+|$HHc
+|$HI+
+|$HM;
+|$Hff
+|$PE3
+|$PH+
+|$PH;
+|$PI;~X
+|$PL9~
+|$PLc
+|$PM+
+|$Pt+H
+|$XD9c
+|$XH;
+|$XI;
+|$XL9w@
+|$`H+
+|$`H9Q
+|$`H;
+|$`L+
+|$`M+
+|$hH;
+|$hI9}
+|$pD9y8
+|$pH+
+|$pH9Q
+|$pH;
+|$pH;\$@
+|$pHk
+|$pI9}
+|$pI;
+|$p\u
+|$x@2
+|$xE3
+|$xH+
+|$xH9s
+|$xHc
+|$xHcF4
+|$xIi
+|$xIk
+|@E;F
+|D;k(|?uyH
+|Lu?c
+|Wu	A
+|]E-K
+|fu0f
+|s;K(tnA
+}(Hcv4I
+}(M98t
+}/lighthouse_scale.json
+}5fff
+}7fff
+}8HcF,H
+}</uyH
+}LuHO
+}M?/n
+}Ufff
+}`H+}XH
+}o;Dr_
+}w;Dr_
+~'HcB
+~+fff
+~-HcK,H+
+~3LcD$(L
+~6HcD$ I
+~:fD9
+~t&LN

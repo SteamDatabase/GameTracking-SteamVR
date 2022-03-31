@@ -1,0 +1,532 @@
+	kE>fvw
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ 'L>[
+ A^_^
+ A_A^A\
+ A_A^A\_^
+ A_A^A]A\_
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ H3E H3E
+ Type Descriptor'
+ delete
+ delete[]
+ new[]
+ tDE3
+ t^D9
+ vJH+
+!>6'Y
+!This program cannot be run in DOS mode.$
+(t$PH
+)>6{1n
+*StO9>T
++M<7>
++f)>0'
++h->|
+,/<-w
+.?AVbad_exception@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.pdata
+.text
+.xJ>Hf
+/>58d%
+0A_A^A]
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A_A^_
+0A_A^_^]
+0iN>/
+1<.	/>:
+3>N;kU
+3>fvw
+;H9>&X
+;I9}(tiH
+< t=<	t9
+=imb;D
+>jtm}S
+?7zQ6$
+?:kP<
+?BindAPI@egl@@YAII@Z
+?BindTexImage@egl@@YAIPEAX0H@Z
+?ChooseConfig@egl@@YAIPEAXPEBHPEAPEAXHPEAH@Z
+?ClientWaitSync@egl@@YAHPEAX0H_K@Z
+?CopyBuffers@egl@@YAIPEAX0PEAUHBITMAP__@@@Z
+?CreateContext@egl@@YAPEAXPEAX00PEBH@Z
+?CreateDeviceANGLE@egl@@YAPEAXHPEAXPEB_J@Z
+?CreateImage@egl@@YAPEAXPEAX0I0PEB_J@Z
+?CreateImageKHR@egl@@YAPEAXPEAX0I0PEBH@Z
+?CreatePbufferFromClientBuffer@egl@@YAPEAXPEAXI00PEBH@Z
+?CreatePbufferSurface@egl@@YAPEAXPEAX0PEBH@Z
+?CreatePixmapSurface@egl@@YAPEAXPEAX0PEAUHBITMAP__@@PEBH@Z
+?CreatePlatformPixmapSurface@egl@@YAPEAXPEAX00PEB_J@Z
+?CreatePlatformPixmapSurfaceEXT@egl@@YAPEAXPEAX00PEBH@Z
+?CreatePlatformWindowSurface@egl@@YAPEAXPEAX00PEB_J@Z
+?CreatePlatformWindowSurfaceEXT@egl@@YAPEAXPEAX00PEBH@Z
+?CreateStreamKHR@egl@@YAPEAXPEAXPEBH@Z
+?CreateStreamProducerD3DTextureANGLE@egl@@YAIPEAX0PEB_J@Z
+?CreateSync@egl@@YAPEAXPEAXIPEB_J@Z
+?CreateWindowSurface@egl@@YAPEAXPEAX0PEAUHWND__@@PEBH@Z
+?DebugMessageControlKHR@egl@@YAHP6AXIPEBDHPEAX10@ZPEB_J@Z
+?DestroyContext@egl@@YAIPEAX0@Z
+?DestroyImage@egl@@YAIPEAX0@Z
+?DestroyImageKHR@egl@@YAIPEAX0@Z
+?DestroyStreamKHR@egl@@YAIPEAX0@Z
+?DestroySurface@egl@@YAIPEAX0@Z
+?DestroySync@egl@@YAIPEAX0@Z
+?GetConfigAttrib@egl@@YAIPEAX0HPEAH@Z
+?GetConfigs@egl@@YAIPEAXPEAPEAXHPEAH@Z
+?GetCurrentContext@egl@@YAPEAXXZ
+?GetCurrentDisplay@egl@@YAPEAXXZ
+?GetCurrentSurface@egl@@YAPEAXH@Z
+?GetDisplay@egl@@YAPEAXPEAUHDC__@@@Z
+?GetError@egl@@YAHXZ
+?GetPlatformDisplay@egl@@YAPEAXIPEAXPEB_J@Z
+?GetPlatformDisplayEXT@egl@@YAPEAXIPEAXPEBH@Z
+?GetProcAddress@egl@@YAP6AXXZPEBD@Z
+?GetSyncAttrib@egl@@YAIPEAX0HPEA_J@Z
+?GetSyncValuesCHROMIUM@egl@@YAIPEAX0PEA_K11@Z
+?Initialize@egl@@YAIPEAXPEAH1@Z
+?LabelObjectKHR@egl@@YAHPEAXI00@Z
+?MakeCurrent@egl@@YAIPEAX000@Z
+?PostSubBufferNV@egl@@YAIPEAX0HHHH@Z
+?PresentationTimeANDROID@egl@@YAIPEAX0_J@Z
+?ProgramCacheGetAttribANGLE@egl@@YAHPEAXI@Z
+?ProgramCachePopulateANGLE@egl@@YAXPEAXPEBXH1H@Z
+?ProgramCacheQueryANGLE@egl@@YAXPEAXH0PEAH01@Z
+?ProgramCacheResizeANGLE@egl@@YAHPEAXHI@Z
+?QY^&
+?QueryAPI@egl@@YAIXZ
+?QueryContext@egl@@YAIPEAX0HPEAH@Z
+?QueryDebugKHR@egl@@YAIHPEA_J@Z
+?QueryDeviceAttribEXT@egl@@YAIPEAXHPEA_J@Z
+?QueryDeviceStringEXT@egl@@YAPEBDPEAXH@Z
+?QueryDisplayAttribEXT@egl@@YAIPEAXHPEA_J@Z
+?QueryStreamKHR@egl@@YAIPEAX0IPEAH@Z
+?QueryStreamu64KHR@egl@@YAIPEAX0IPEA_K@Z
+?QueryString@egl@@YAPEBDPEAXH@Z
+?QuerySurface@egl@@YAIPEAX0HPEAH@Z
+?QuerySurfacePointerANGLE@egl@@YAIPEAX0HPEAPEAX@Z
+?ReleaseDeviceANGLE@egl@@YAIPEAX@Z
+?ReleaseTexImage@egl@@YAIPEAX0H@Z
+?ReleaseThread@egl@@YAIXZ
+?SetBlobCacheFuncsANDROID@egl@@YAXPEAXP6AXPEBX_J12@ZP6A_J1202@Z@Z
+?StreamAttribKHR@egl@@YAIPEAX0IH@Z
+?StreamConsumerAcquireKHR@egl@@YAIPEAX0@Z
+?StreamConsumerGLTextureExternalAttribsNV@egl@@YAIPEAX0PEB_J@Z
+?StreamConsumerGLTextureExternalKHR@egl@@YAIPEAX0@Z
+?StreamConsumerReleaseKHR@egl@@YAIPEAX0@Z
+?StreamPostD3DTextureANGLE@egl@@YAIPEAX00PEB_J@Z
+?SurfaceAttrib@egl@@YAIPEAX0HH@Z
+?SwapBuffers@egl@@YAIPEAX0@Z
+?SwapBuffersWithDamageKHR@egl@@YAIPEAX0PEAHH@Z
+?SwapInterval@egl@@YAIPEAXH@Z
+?Terminate@egl@@YAIPEAX@Z
+?UUUUUU
+?WaitClient@egl@@YAIXZ
+?WaitGL@egl@@YAIXZ
+?WaitNative@egl@@YAIH@Z
+?WaitSync@egl@@YAIPEAX0H@Z
+?f`Y4
+@.00cfg
+@.data
+@.gfids
+@.reloc
+@.rsrc
+@8<)u
+@8l$Ht
+@8|$^t
+@>%>b
+@A^A]A\_^
+@A^_^
+@A_A^A]A\_^]
+@A_A^_^]
+@SVWATAUAVAWH
+@SVWH
+@UATAUAVAWH
+@USVWATAVAWH
+A84.u
+A>pP&
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ATAUAVH
+AUAVAWH
+A^A]A\
+A^_^[]
+A_A^A\_]
+A_A^A\_^
+A_A^A\_^[]
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^]
+A_A^_^]
+AppPolicyGetProcessTerminationMethod
+April
+August
+AuthD
+B(I9A(u
+BC?>6t9^	c:>
+BF>^G
+C8<(u
+CloseHandle
+CorExitProcess
+CreateFileW
+D!l$xA
+D$ E3
+D$(H;
+D$0E3
+D$0HcH
+D$8L9
+D$@H+
+D$@[H
+D$PH+
+D$PI;
+D$`Hc
+D8&t 
+D8&t4H
+D9c t
+December
+DeleteCriticalSection
+E0HcH
+E0Lcx
+EP*?H
+EncodePointer
+EnterCriticalSection
+ExitProcess
+February
+FindClose
+FindFirstFileExW
+FindNextFileW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
+G0Hc	H
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentStringsW
+GetFileType
+GetLastError
+GetModuleFileNameW
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+H!D$ H
+H!T$0D
+H9=U~
+H9>u+A
+H;XXs
+H;xXu5
+HH:mm:ss
+HcC H
+HcK H
+Hc]`M
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+InterlockedFlushSList
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+January
+K&>.yC
+KERNEL32.dll
+K~Je#>!
+L!|$(L!
+L$ I;
+L$ L;
+L$ VWAVH
+L$ WH
+L$ fff
+L$ |+L;
+L$&8\$&t,8Y
+L$0H3
+L$0H;
+L$8H3
+L$@;|
+L$@H3
+L$XE3
+L9`8u'L
+LCMapStringEx
+LCMapStringW
+LLD PDB.
+LcA<E3
+LeaveCriticalSection
+Lj[;>
+LoadLibraryExW
+LocaleNameToLCID
+M H1E
+MM/dd/yy
+March
+Monday
+MultiByteToWideChar
+November
+O0HcQ
+O0LcQ
+October
+QueryPerformanceCounter
+RaiseException
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+SVWATAUAVAWH
+Saturday
+September
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
+Sunday
+T$PE3
+TUUUU
+TerminateProcess
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Tuesday
+UATAUAVAWH
+USVWAVH
+UUUUUU
+UVWATAUAVAWH
+UVWAVAWH
+UWATAVAWH
+UWAVH
+UnhandledExceptionFilter
+Unknown exception
+V6E>`"(5
+VWATAVAW
+VWATAVAWH
+VWAVH
+WATAUAVAWH
+WAVAWH
+Wednesday
+WideCharToMultiByte
+WriteConsoleW
+WriteFile
+\$ UH
+\$ UVWATAUAVAWH
+\$ UVWAVAWH
+\$ VWATAUAVH
+\$ WH
+\$0H;
+\$0eH
+\$8I;
+\$@H;
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__swift
+__thiscall
+__unaligned
+__vectorcall
+`.rdata
+`A^_^
+`A_A^A]A\_^]
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+bad exception
+bp(=>?g
+c [1>H'
+c(>\,
+dddd, MMMM dd, yyyy
+e0A_A^A]A\]
+eglBindAPI
+eglBindTexImage
+eglChooseConfig
+eglClientWaitSync
+eglCopyBuffers
+eglCreateContext
+eglCreateDeviceANGLE
+eglCreateImage
+eglCreateImageKHR
+eglCreatePbufferFromClientBuffer
+eglCreatePbufferSurface
+eglCreatePixmapSurface
+eglCreatePlatformPixmapSurface
+eglCreatePlatformPixmapSurfaceEXT
+eglCreatePlatformWindowSurface
+eglCreatePlatformWindowSurfaceEXT
+eglCreateStreamKHR
+eglCreateStreamProducerD3DTextureANGLE
+eglCreateSync
+eglCreateWindowSurface
+eglDebugMessageControlKHR
+eglDestroyContext
+eglDestroyImage
+eglDestroyImageKHR
+eglDestroyStreamKHR
+eglDestroySurface
+eglDestroySync
+eglGetConfigAttrib
+eglGetConfigs
+eglGetCurrentContext
+eglGetCurrentDisplay
+eglGetCurrentSurface
+eglGetDisplay
+eglGetError
+eglGetPlatformDisplay
+eglGetPlatformDisplayEXT
+eglGetProcAddress
+eglGetSyncAttrib
+eglGetSyncValuesCHROMIUM
+eglInitialize
+eglLabelObjectKHR
+eglMakeCurrent
+eglPostSubBufferNV
+eglPresentationTimeANDROID
+eglProgramCacheGetAttribANGLE
+eglProgramCachePopulateANGLE
+eglProgramCacheQueryANGLE
+eglProgramCacheResizeANGLE
+eglQueryAPI
+eglQueryContext
+eglQueryDebugKHR
+eglQueryDeviceAttribEXT
+eglQueryDeviceStringEXT
+eglQueryDisplayAttribEXT
+eglQueryStreamKHR
+eglQueryStreamu64KHR
+eglQueryString
+eglQuerySurface
+eglQuerySurfacePointerANGLE
+eglReleaseDeviceANGLE
+eglReleaseTexImage
+eglReleaseThread
+eglSetBlobCacheFuncsANDROID
+eglStreamAttribKHR
+eglStreamConsumerAcquireKHR
+eglStreamConsumerGLTextureExternalAttribsNV
+eglStreamConsumerGLTextureExternalKHR
+eglStreamConsumerReleaseKHR
+eglStreamPostD3DTextureANGLE
+eglSurfaceAttrib
+eglSwapBuffers
+eglSwapBuffersWithDamageKHR
+eglSwapInterval
+eglTerminate
+eglWaitClient
+eglWaitGL
+eglWaitNative
+eglWaitSync
+fD90t
+fD94Fu
+fD94H}0L
+fD96u
+fD98t
+fD98u
+fD9t$b
+fffff
+ffffff
+fffffff
+libEGL.dll
+libEGL.dll.pdb
+libGLESv2.dll
+log10
+mL+6H
+n03>Pu
+ntelD
+operator
+operator "" 
+operator co_await
+ot$ H
+pA_A^A]A\_^[
+pA_A^A]A\_^]
+r	Vr.>T
+r>@8o
+restrict(
+ri9O vdH
+t"<.u
+t$ E3
+t$ WH
+t$8H+
+t5HcP
+t<ffff
+tRLcY
+ttIcF
+u HcA<H
+u(8J(t
+u3HcH<H
+u4I9}(
+ue!T$(H!T$ 
+uzKs@>
+v0D8eou\H
+x ATAVAWH
+x AVAWE3
+x AVH
+y\PD>!
+|$ AVH
+|$ D!
+|$ E3
+|$ UH
+|$0A_A^
+|$8;3
+|$\.u
+|b=})>

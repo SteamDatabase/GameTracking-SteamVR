@@ -1,0 +1,6564 @@
+					
+							
+								
+												
+																																												
+																																																																																																																
+	!s99
+	#jT$
+	0<0H0k0
+	CODE_SIZE
+	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
+	PQh\
+	PQh|
+	TYPE_BOOL
+	TYPE_ENUM
+	enum_type
+	extension
+	name_part
+	type_name
+	vid=0x%x, pid=0x%x, sn=%ls
+     
+      
+               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],
+               "type" : "DISTORT_EXTENDED_FTHETA"
+            "center_x" : 480,
+            "center_y" : 480,
+            "distort" : {
+            "focal_x" : 417,
+            "focal_y" : 417,
+            "height" : 960,
+            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],
+            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],
+            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],
+            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],
+            "position" : [ -0.06749, -0.03294, 0.06881 ]
+            "position" : [ 0.06749, -0.03294, 0.06881 ]
+            "width" : 960
+            },
+         "extrinsics" : {
+         "intrinsics" : {
+         "name" : "left",
+         "name" : "right",
+         }
+         },
+      status = 
+      {
+      }
+      },
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f sample_sensors=%0.1f multihit_sensors=%0.2f width_delta=%+0.0f
+    %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f width_delta=%+0.0f
+    %X, %X: s/n %s: %s (interface %d)
+    %d: x: %d, y: %d, w: %d, h: %d edid: %s
+    %s
+    .codec = 
+    .cs47l35_error = 
+    .jack = 
+    .muted = 
+    .npca110p_error = 
+    .reserved = 
+    .state = 
+    .tfa9892_left_error = 
+    .tfa9892_right_error = 
+    Actual    : 
+    Expected  : 
+    Field type: 
+    No devices
+    trackref_from_head: %s
+    trackref_from_imu: %s
+   "tracked_cameras" : [
+  .audio_cs47l35_timer_stats[0] = 
+  .audio_cs47l35_timer_stats[1] = 
+  .audio_reserved = 
+  .audio_state = 
+  .audio_status: 
+  .audio_subsystem_status = 
+  .backlight_left = 
+  .backlight_right = 
+  .general_debug[0] = 
+  .general_debug[1] = 
+  .general_debug[2] = 
+  .reserved_status0 = 
+  .reserved_status1 = 
+  .video_disable_code = 
+  .video_init_attempts = 
+  .video_mode = 
+  .video_state = 
+  .video_status_word = 
+  .video_subsystem_status = 
+  BL 
+  Comment started here.
+  DP audio 16 bit sample size.
+  DP audio 48 kHz audio sample rate.
+  DP audio sample rate: 
+  DP audio samples detected.
+  Error: DP audio invalid sample rate.
+  Error: DP audio invalid sample size.
+  Error: No DP audio samples detected.
+  Field       : 
+  Message type: 
+  Problem     : 
+  Problem     : Enum value did not match field type:
+  Problem     : Field is not the right type for this message:
+  wmstatus.audio_tf9892_sregs 
+ !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
+ %41g
+ '-46
+ (cal)
+ (does the path point to a directory?)
+ (object had no JSON IMU cal)
+ (right sync)
+ (selected 
+ ) = 
+ * Available base %08X
+ .anx_dp_error = 
+ .anx_dp_height = 
+ .anx_dp_vtotal = 
+ .anx_dp_width = 
+ .anx_lane_0_1_status = 
+ .anx_lane_2_3_status = 
+ .anx_lane_count = 
+ .anx_link_BW = 
+ .anx_sensor = 
+ .anx_sink_status = 
+ .audio_component_status = 
+ .audio_stream_status = 
+ .daughterboard_sensor = 
+ .isp_sensor = 
+ .panel_status = 
+ .peripheral_status = 
+ .reserved = 
+ .startup_debug_messages = 
+ .version = 
+ 0G0k0~0
+ 1V1W3
+ 6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+ ;rH|
+ ;w,|
+ ;y8|
+ ;~0|
+ = { <proto text format> }". To set fields within it, use syntax like "
+ BackUp() can only be called after Next().
+ Backlights:
+ Brightness: 
+ Can't back up over more bytes than were returned by the last call to Next().
+ G;{0|
+ Outdent() without matching Indent().
+ Parameter to BackUp() can't be negative.
+ Peripheral MCU %u
+ Radio %u
+ SetDefaultAudioDevice: device = %s, role = %d
+ Subsystem statuses (0 = not started, 127 = ok, negative = problem)
+ Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+ Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
+ Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+ VRC %u
+ Video subsystem details:
+ [$0]
+ [default = $0
+ also seeing 
+ args were given.  Full format string was: "
+ at all
+ at line 
+ back-facing hits
+ deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
+ deg/s
+ disambiguator
+ for detail.
+ hitf
+ hits0=
+ hits1=
+ in Buffer
+ in `
+ inflate 1.2.5 Copyright 1995-2010 Mark Adler 
+ is not valid for field 
+ len 
+ m/s/s
+ message of type "
+ nohit=
+ non-clustered hits
+ nosplit=
+ of the Protocol Buffer runtime library, but the installed version is 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+ of type 
+ period=
+ ppm=
+ rejected updates
+ sDQj
+ sec)
+ seeing 
+ sensors~
+ sigma 
+ syncs=
+!&.37<
+!(0)"
+!030M0
+!4S63J
+!9~ t
+!hn7!
+!leftSyncIsReal
+!rightSyncIsRealAsItGets
+" because it is missing required fields: 
+" conflicts with the existing symbol "
+" for field "
+" for option "
+" has no field named "
+" has no value named "
+" has not been loaded.
+" implements neither SetCachedSize() nor ByteSize().  Must implement one or the other.
+" imports "
+" in type "
+" is a message. To set the entire message, use syntax like "
+" is a repeated message. Repeated message options must be initialized using an aggregate value.
+" is already defined (as something other than a package) in file "
+" is already defined in "
+" is already defined in file "
+" is already defined.
+" is an atomic type, not a message.
+" is not a field or extension of message "
+" is not a message type.
+" is not a type.
+" is not a valid identifier.
+" is not an enum type.
+" is not defined or is not an extension of "
+" is not defined.
+" is resolved to "
+" is resolved to "(
+" is specified along with field "
+" is specified multiple times.
+" must be unique within 
+" not found in the scene.
+" not previously defined in symbols_by_name_, but was defined in symbols_by_parent_; this shouldn't be possible.
+" seems to be defined in "
+" unknown.
+" uses the same enum value as "
+" was already set.
+" was listed twice.
+" was not found or had errors.
+" which is not used.
+" which is.
+"$0" does not declare $1 as an extension number.
+"%/28;=#$019:>?
+") is not compatible with this reflection object (which is for type "
+") to start from the outermost scope.
+").  Note that the exact same class is required; not just the same descriptor.
+", another member of oneof "
+", but only 
+", found "
+", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
+", which is not imported by "
+".  To use it here, please add the necessary import.
+". If this is intended, set 'option allow_alias = true;' to the enum definition.
+". Must be "perspective" or "orthographic"
+". This appears to be a value from a sibling type.
+". Value: "
+"/*" inside block comment.  Block comments cannot be nested.
+"0x" must be followed by hex digits.
+"MutableRawRepeatedField"
+"accessors" object not found in .gltf
+"asset" object not found in .gltf or not an object type
+"bufferViews" object not found in .gltf
+"buffers" object not found in .gltf
+"e" must be followed by exponent.
+"nodes" object not found in .gltf
+"orthographic" is not a JSON object.
+"perspective" is not a JSON object.
+"scenes" object not found in .gltf or not an array type
+"spot" is not a JSON object.
+#*1892+$
+#1B1M1O4
+#?RADIANCE
+#?RGBE
+#bML"
+$0  extend .$1 {
+$0  extensions $1 to $2;
+$0  message $1
+$0  }
+$0 oneof $1 {
+$0$1 = $2
+$0$1$2 $3 = $4
+$0enum $1 {
+$0option $1;
+$3(3,30343
+$9^ t
+$Qjnj
+$SWj8
+$VPhp
+$tAUUPE
+%%.%dg
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%,3:;4-&
+%3333
+%UUUU
+%Y-%m-%d
+%d.%d.%d
+%hu,%hu,'%4c',%hu
+%s %c: 
+%s - Unable to init
+%s - Unable to start replay of "%s"
+%s created to play "%s"
+%s disambiguator provided base configuration. Rotor count: %d
+%s pitch ~%0.1f deg roll ~%0.1f deg 
+%s%s%s%s%s%s%s
+%s: %d, %d, %d, %d
+%s: %s
+%s: %s IMU calibration: Accel bias change %.2fm/s/s%s
+%s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total
+%s: Applying scale %0.04f from reference object %s
+%s: Attached device ID not set.  No controller input available.
+%s: Can't create source of type "%s"
+%s: Checking to see if display has connected...
+%s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x
+%s: Connected to receiver %s
+%s: Device does not have a stored config
+%s: Disconnected from receiver %s
+%s: ERROR: could not query version from watchman board.
+%s: ERROR: firmware does not meet minimum required version (%d). Please update device.
+%s: Enabling IMU tracking fallback
+%s: Expected %u bytes of config but only found %d. Rejecting config
+%s: Firmware Version %s
+%s: Ignoring unlikely saved IMU calibration %s
+%s: Log recorded at %s
+%s: Not loading device config because its size is too large: 0x%X bytes
+%s: Packet received after %.3fs, keepalive (%d/%d)
+%s: Protocol versioning supported, requesting %d
+%s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes
+%s: Reading %s from device (Attempt %d of %d)
+%s: Received short %d byte packet when expecting config
+%s: Receiving wireless data, but unable to talk to controller main board.
+%s: Retry protocol version request for %d
+%s: Similar CAD but scale mismatch to reference object %s
+%s: Transition to protocol version %d
+%s: Triggered keepalive (%s)
+%s: Unable to fetch gyro/accelerometer range modes from the device
+%s: Unable to request config start from device
+%s: WARNING: Malformed wireless packet v%d: %s
+%s: WARNING: Unable to set sync detect mode %d
+%s: Warning, can't request wireless protocol version
+%s: Warning: Unknown disambiguation mode: %s
+%s: Warning: Unknown disambiguation option "%s" in: %s
+%s: Wireless controller %s disconnected
+%u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
+%u_%02u
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+' is not a number.
+' property is missing
+' property is missing in 
+' property is missing.
+' property is missing. 
+' property is not a JSON object.
+' property is not a bool type.
+' property is not a number type.
+' property is not a number.
+' property is not a positive integer.
+' property is not a string type.
+' property is not an array
+' property is not an integer type.
+' property is not an object.
+' value is not an integer type.
+',=?k
+'.5<=6/7>????????????????
+'0<0I0V0a0
+'[', '{', or a literal
+'uri' is missing from non binary glTF file buffer.
+(0,0R0V0K1
+(Enumerating)
+(Failed Enumeration)
+(General Failure)
+(Hub Nested Too Deeply)
+(In Legacy Hub)
+(Not Enough Bandwidth)
+(Not Enough Power)
+(Overcurrent)
+(Reset)
+(T$ f
+(f*^[0
+(merge 
+) deg
+)", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
+).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+)020;0D0I0N0U0
+);[_^]
+)D$0f
+)\ZEo^m/
+*+N43
+*+N4C
+*+N@3
+*+N@C
+*040>0I0Q0[0
+*9Z9N
++060P0[0n0
++1_1f1u1|1
++3R3y3
++F +F
++Xt@(
++laser0
++laser1
++motor0
++motor1
++o'q)}
++temp_high
++temp_low
++unknown
+, IMU susp: 
+, VRC susp: 
+, binary size = 
+, but got 
+, column 
+, from:
+, last executing in 
+, max interval 
+, not just within "
+, requestedBytes 
+,0<	w
+,0<	wP
+,W5y+
+,^_[]
+----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
+----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
+----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
+----- RELATIONSHIP bases %08X <-> %08x distance %0.2fm, angle %0.2f deg -----
+----- SECONDARY base %08X distance %0.2fm%*s-----
+-1e+9999
+-7;7m7{7
+-Infinity
+-ediu5
+-openvr
+-t!?Ks
+-t1?Ks
+-tA?Ks
+.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+... Moving the base for tracking too, which might cause a pop
+.... BaseStation Map has %d entries
+../..
+.00cfg
+.?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
+.?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
+.?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
+.?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AUALVRDisplayNotification@@
+.?AUCFactoryMaker@CAnimFactoryBase@@
+.?AUCLighthouseStateTraits@vortex@@
+.?AUCStateTraits@CLighthouseDirect@vortex@@
+.?AUIAudioEndpointVolumeCallback@@
+.?AUIMMNotificationClient@@
+.?AUIUnknown@@
+.?AULiquidVRDll@LiquidVR@@
+.?AUToBase_t@Detail@Reflection@@
+.?AU_Crt_new_delete@std@@
+.?AUinput_adapter_protocol@detail@nlohmann@@
+.?AV<lambda_0071fdbcd7a365eddd749e64ff4b46b1>@@
+.?AV<lambda_0557c6dd6dd3323a6d88ad58705fe418>@@
+.?AV<lambda_1f0a68b20b22887c0e785786564d1231>@@
+.?AV<lambda_2a43a36163a5abb0cd0e4ca423babb00>@@
+.?AV<lambda_66a5acfb77add1a8c34f8471abf17701>@@
+.?AV<lambda_8bb584773e73c7555aa89bfaeaceafb4>@@
+.?AV<lambda_a0d49f1d668fb94d279d38da558306c0>@@
+.?AV<lambda_ab7ceb0df539218cb09409470cecddf9>@@
+.?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
+.?AV<lambda_d7878bdb14f933f0919307dad6f4d2ee>@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UOverrideTraits@?$AlternateBase@$0BP@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UOverrideTraits@?$AlternateBase@$0CF@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0?0$0A@@?$Functors@UOverrideTraits@?$AlternateBase@$0CL@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$00@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UOverrideTraits@?$AlternateBase@$0BP@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UOverrideTraits@?$AlternateBase@$0CF@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@U?$CSensorPositionAngular@$0A@$0?0@?$Functors@UOverrideTraits@?$AlternateBase@$0CL@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCImuAccel@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCImuGyro@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCQuaternionNormalizer@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCQuaternionNormalizer@?$Functors@UCStateTraits@CLighthousePoseSolver@vortex@@@CLighthouseModel@vortex@@N$06$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCSensorNormalCosAngle@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCSensorNormalCosAngle@?$Functors@UOverrideTraits@?$AlternateBase@$0BP@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCSensorNormalCosAngle@?$Functors@UOverrideTraits@?$AlternateBase@$0CF@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctor@UCSensorNormalCosAngle@?$Functors@UOverrideTraits@?$AlternateBase@$0CL@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
+.?AV?$CCeresFunctors@N$00@@
+.?AV?$CStateTimestep@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseDirect@vortex@@
+.?AV?$ICeresFunctor@N@@
+.?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
+.?AV?$TypeInfoT@VCBoneMaskResource@@@Detail@Reflection@@
+.?AV?$TypeInfoT@VCKeyframedDataResource@@@Detail@Reflection@@
+.?AV?$TypeInfoT@VObject@Reflection@@@Detail@Reflection@@
+.?AV?$_Binder@U_Unforced@std@@P8CLighthousePairing@@AEXABVValue@Json@@@ZPAV3@ABU?$_Ph@$00@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@AEXABVValue@Json@@@ZPAV3@ABU?$_Ph@$00@2@@std@@
+.?AV?$_Func_base@PAXPBD@std@@
+.?AV?$_Func_base@XABVValue@Json@@@std@@
+.?AV?$_Func_base@XPAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
+.?AV?$_Func_base@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0071fdbcd7a365eddd749e64ff4b46b1>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0557c6dd6dd3323a6d88ad58705fe418>@@XPAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1f0a68b20b22887c0e785786564d1231>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2a43a36163a5abb0cd0e4ca423babb00>@@_N$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_66a5acfb77add1a8c34f8471abf17701>@@PAXPBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8bb584773e73c7555aa89bfaeaceafb4>@@XPAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_a0d49f1d668fb94d279d38da558306c0>@@XPAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ab7ceb0df539218cb09409470cecddf9>@@XPAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@XW4ELogLevel@@PBDPAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d7878bdb14f933f0919307dad6f4d2ee>@@XPAVILighthouseDBListener@vortex@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CLighthousePairing@@AEXABVValue@Json@@@ZPAV3@ABU?$_Ph@$00@2@@std@@XABVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@AEXABVValue@Json@@@ZPAV3@ABU?$_Ph@$00@2@@std@@XABVValue@Json@@@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_7f5b9e7ec5c8f9ee4eaffc493ce1f82c>@@@std@@U?$default_delete@V?$tuple@V<lambda_7f5b9e7ec5c8f9ee4eaffc493ce1f82c>@@@std@@@2@@std@@@std@@
+.?AV?$_Ref_count_obj@VCConnection@CLighthouseInput@vortex@@@std@@
+.?AV?$_Ref_count_obj@Vinput_buffer_adapter@detail@nlohmann@@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVBlendMatrix3x3PoseMaker@@
+.?AVCAnimResource@@
+.?AVCAnimSkeleton@@
+.?AVCAudioEndpointVolumeCallback@@
+.?AVCBaseConfig@pb@lighthouse@@
+.?AVCBaseConfigAndDynamicState@pb@lighthouse@@
+.?AVCBoneMaskResource@@
+.?AVCDisambiguatorFramer@vortex@@
+.?AVCDisambiguatorSyncOnBeam@vortex@@
+.?AVCDisambiguatorTDM@?A0xf9547aae@vortex@@
+.?AVCDynamicState@pb@lighthouse@@
+.?AVCFirmwareManifest@@
+.?AVCHandPoseLogic_IndexController@vortex@@
+.?AVCHandPoseLogic_ViveWand@vortex@@
+.?AVCHeader@pb@lighthouse@@
+.?AVCHidDevice@vortex@@
+.?AVCHtcHmdControllerState@htc@@
+.?AVCHtcHmdThread@htc@@
+.?AVCImuOnlyTracker@vortex@@
+.?AVCImuSample@pb@lighthouse@@
+.?AVCImuTrackerThread@@
+.?AVCKalmanQuaternion@@
+.?AVCKeyframedDataResource@@
+.?AVCLighthouseBaseStationDriver@vortex@@
+.?AVCLighthouseDBUniverse@vortex@@
+.?AVCLighthouseDirect@vortex@@
+.?AVCLighthouseHmdDriver@@
+.?AVCLighthouseHmdProvider@@
+.?AVCLighthouseIMUThread@vortex@@
+.?AVCLighthouseOpticalThread@vortex@@
+.?AVCLighthouseRecorder@vortex@@
+.?AVCLighthouseRecorderThread@vortex@@
+.?AVCLighthouseReplayDriver@vortex@@
+.?AVCLighthouseReplayer@vortex@@
+.?AVCLighthouseSource@vortex@@
+.?AVCLighthouseThreadBase@vortex@@
+.?AVCLighthouseUsbThread@vortex@@
+.?AVCMMNotificationClient@@
+.?AVCNonCopyable@@
+.?AVCOpticalFrame@pb@lighthouse@@
+.?AVCOpticalSample@pb@lighthouse@@
+.?AVCRecord@pb@lighthouse@@
+.?AVCRefCount@@
+.?AVCSwSyncDetectSource@vortex@@
+.?AVCThread@@
+.?AVCUsbDeviceScannerThread@@
+.?AVCUserDataThread@vortex@@
+.?AVCVRAudioDeviceImpl@@
+.?AVCVRAudioDevices@@
+.?AVCVRMailbox@@
+.?AVCVRMailboxBase@@
+.?AVCVec3@pb@lighthouse@@
+.?AVCVortexThread@vortex@@
+.?AVCVrController@vortex@@
+.?AVCVrControllerHapticWrapper@vortex@@
+.?AVCVrControllerUsbThread@vortex@@
+.?AVCVrcDecodeTagged@@
+.?AVCWatchdogConnectionMonitor@@
+.?AVCWatchdogDriver_Lighthouse@@
+.?AVCWirelessConnectionMonitor@@
+.?AVCWirelessDecoder@@
+.?AVCWirelessDecoderWv2@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVException@Json@@
+.?AVFactory@CharReader@Json@@
+.?AVFastWriter@Json@@
+.?AVIAudioEndpointVolumeCallbackImpl@@
+.?AVIAuxEventCallback@CLighthouseIMUThread@vortex@@
+.?AVICVrControllerHapticWrapperClient@vortex@@
+.?AVICallback@CHtcHmdThread@htc@@
+.?AVICallback@CLighthouseIMUThread@vortex@@
+.?AVICallback@CLighthouseOpticalThread@vortex@@
+.?AVICallback@CUserDataThread@vortex@@
+.?AVICameraAsyncCompletionCallback@vr@@
+.?AVICameraHostServices@vr@@
+.?AVIControllerState@vortex@@
+.?AVIControllerStateDriver@vortex@@
+.?AVIDisambiguator@vortex@@
+.?AVIHandPoseLogic@@
+.?AVIImuCallback@CLighthouseIMUThread@vortex@@
+.?AVILighthouseDBListener@vortex@@
+.?AVILighthouseSource@vortex@@
+.?AVILighthouseTrackedDeviceServerDriver@vortex@@
+.?AVIMMNotificationClientCallbackImpl@@
+.?AVIMonitorCallback@CLighthouseIMUThread@vortex@@
+.?AVIPoseTracker@vortex@@
+.?AVIPoseTrackerDriver@vortex@@
+.?AVIServerTrackedDeviceProvider@vr@@
+.?AVIStatePoseMaker@@
+.?AVITrackedDeviceServerDriver@vr@@
+.?AVIUsbDeviceCallback@@
+.?AVIVRAudioDevices@@
+.?AVIVRAudioNotification@@
+.?AVIVRCameraComponent@vr@@
+.?AVIVRDisplayComponent@vr@@
+.?AVIVRWatchdogProvider@vr@@
+.?AVIVrControllerUsb@vortex@@
+.?AVIVrcCallback@CLighthouseIMUThread@vortex@@
+.?AVLogStream@LogMessage@google@@
+.?AVLogStreamBuf@base_logging@google@@
+.?AVLogicError@Json@@
+.?AVOurCharReader@Json@@
+.?AVRuntimeError@Json@@
+.?AVStaticPoseMaker@@
+.?AVStyledWriter@Json@@
+.?AVTypeInfo@Reflection@@
+.?AVWriter@Json@@
+.?AV_Facet_base@std@@
+.?AV_Pad@std@@
+.?AV_Ref_count_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@detail@nlohmann@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVinput_buffer_adapter@detail@nlohmann@@
+.?AVios_base@std@@
+.?AVout_of_range@detail@nlohmann@@
+.?AVparse_error@detail@nlohmann@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.PLACEHOLDER_VALUE
+.data
+.data$r
+.dummy
+.edata
+.foo = value".
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.json
+.lighthouse.pb.CBaseConfig
+.lighthouse.pb.CDynamicState"
+.lighthouse.pb.CImuSample
+.lighthouse.pb.COpticalFrame
+.lighthouse.pb.COpticalSample
+.lighthouse.pb.CVec3
+.placeholder.proto
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata$x
+/C,v$
+/Fhvnj
+/bin/mail
+/devices/lighthouse/
+/factory_accel_bias
+/factory_accel_scale
+/factory_gyro_bias
+/factory_gyro_scale
+/factory_head_from_imu
+/firmware/
+/input/a/click
+/input/a/touch
+/input/application_menu/click
+/input/b/click
+/input/b/touch
+/input/finger/index
+/input/finger/middle
+/input/finger/pinky
+/input/finger/ring
+/input/grip/click
+/input/grip/force
+/input/grip/touch
+/input/grip/value
+/input/mute_mic/click
+/input/power/click
+/input/skeleton/left
+/input/skeleton/right
+/input/system/click
+/input/system/touch
+/input/thumb/click
+/input/thumbstick/click
+/input/thumbstick/touch
+/input/thumbstick/x
+/input/thumbstick/y
+/input/trackpad/click
+/input/trackpad/force
+/input/trackpad/touch
+/input/trackpad/x
+/input/trackpad/y
+/input/trigger/click
+/input/trigger/touch
+/input/trigger/value
+/input/volume_down/click
+/input/volume_up/click
+/lighthouse/
+/observed_basestations
+/output/haptic
+/pose/raw
+/proximity
+/skeleton/hand/left
+/skeleton/hand/right
+/t;_^2
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+0	1&151_1x1
+0	1=1E1J1
+0 0$0
+0 0$0(0
+0 0$0(0,0004080<0@0D0H0L0
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0
+0 0$0(0,0004080<0@0H0L0P0T0X0\0`0d0h0l0
+0 0$0(0,000^2l2p2t2x2|2
+0 0$0(0,0L0P0
+0 0$0(0L0
+0 0,0P0p0x0
+0 0;0
+0 1,141T1h1
+0 1,141T1x1
+0 width
+0!010;0H1	202
+0!010A0Q0a0q0
+0!0@0H0N0U0Z0`0
+0!1,1T1_1
+0"0'0.0
+0"0.0:0F0R0p0
+0"020B0R0b0r0
+0"020I0r0
+0"0C0U0s0
+0"0T0r0
+0"1`1
+0#0(0-02070<0Q0V0[0`0e0j0o0t0y0~0
+0#0(0-02070<0Q0[0q0v0{0
+0#0(0-040s0|0
+0#0(0.0D0V0t0
+0#0*01080?0F0M0T0n0u0|0
+0#0<0!111A1S1Y1q1
+0#1*11181`1
+0#1-171A1U1e1
+0#1c1
+0#252G2Y2
+0$0,040<0D0L0T0`0
+0$0,040@0I0N0T0^0h0x0
+0$0,080X0`0h0p0|0
+0$0,0L0p0|0
+0$0.0
+0$0?0q1y1
+0$1E1
+0$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+0%0/080D0M0R0]0j0t0
+0%000
+0%060B0I0]0}0
+0%1M1d1
+0&0,030P0X0t0
+0&0/04090@0D1g1p1y1
+0&0M0r0
+0&0U0
+0&0p0x0
+0&141U1
+0&181
+0'000
+0'000<0M0U0^0j0{0
+0'1H1
+0'2*3,4
+0(0,0004080W0h0:1{1
+0(0,0<0@0D0H0P0h0x0|0
+0(040<0\0
+0(080<0L0P0T0X0`0x0
+0(080<0L0P0T0\0t0
+0(0@0h0t0
+0(0L0X0`0
+0(0|0
+0(1x1
+0*0:0
+0,000@0D0H0P0h0x0|0
+0,000H0X0\0p0t0
+0,080@0`0p0|0
+0,0X0}0
+0,1014181<1@1$2
+0,1o1
+0-161?1H1M1R1Y1
+0-pixel image
+0/0H061E1o1
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\x%02x
+000c0
+000e0
+001Z1
+001v1
+010J0c0|0
+010]0s0{0
+011b1
+011u1
+0123456789abcdef
+03090@0I0_0e0l0u0
+030H0}0
+031C1J1u1
+031`1
+040=1^1
+041T1l1
+041u1
+050?0K0z0
+050I0^0~0
+060H0b0r0
+060Q0^0
+060w0R1
+070K0a0
+071<1Q1V1l1v1
+071P1
+080D0L0l0
+080`0
+080e0
+081=1c1h1
+081d1
+081f1u1
+097_^
+0:1>2j3
+0:2B2O243
+0;1B1T1[1b1k2v3
+0<1y3
+0=0G0P0Y0g0u0
+0>0V0
+0>1D1^1
+0?0M0i0
+0@0F0L0R0X0^0d0j0p0v0|0
+0@0L0T0t0
+0@0O0
+0@0r0
+0@172
+0@1D1H1P1T1X1\1`1d1h1l1p1t1x1|1
+0@2j2o2
+0D4H4
+0F0S0q0v0
+0F1S1
+0G1W2
+0G1j1
+0I1&242
+0J2U2
+0L0Z0|0
+0M0n0
+0M1S226l9
+0O0s0
+0O1T1i1n1
+0P0X0e0
+0Pj	W
+0R1a1r1
+0SVWh
+0SVWj
+0T1F2D4
+0T1H2
+0T1b1
+0T3X3\3`3d3h3l3p3t3x3|3
+0U1^1g1p1u1z1
+0V1`1
+0V1f1
+0V2e2
+0W0A1o142
+0Z1j1
+0[0f0
+0^_[]
+0b4i4
+0c1m1
+0cbJ<H
+0cbZ<H
+0f0x0o1
+0g0q0
+0o1t1
+0p0t0x0|0
+0p184T4n4v4
+0r0;3
+0w0c1
+0w1Z3W4
+0x%08llx
+0x1|1
+0{1&383
+0}0i1
+1	2-2x2
+1	3a4
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1 1$1(1,1014181<1@1`1d1
+1 1$14181<1@1D1H1L1P1T1t1x1
+1 1%1*1/14191>1C1H1S1Z1a1h1o1v1}1
+1 10141D1H1L1T1l1|1
+1 181H1L1\1`1h1
+1 2<2\2
+1 2E2x2
+1!111A1M1S1b1m1
+1!111A1Q1a1q1
+1!1>1G1P1Y1^1c1l1
+1!1J1V1j1
+1!1c1
+1"1'1,11161;1@1E1J1O1T1Y1^1c1h1u1
+1"1-12171>1
+1"121B1R1b1r1
+1"2+242=2B2G2T2
+1"242h2
+1"2Q2
+1"2W2
+1#1+131;1F1K1Q1[1e1x1}1
+1#121f1o1x1
+1#2*2I2P2^2g2u2}2
+1$1(1,141L1\1`1p1t1x1
+1$1(181<1@1H1`1p1t1
+1$1,141@1`1h1p1x1
+1$1,181X1`1l1
+1$1H1T1\1|1
+1$2"3*3D4K4U4]4e4
+1$2v2
+1%181>1E1N1a1g1n1w1
+1%1\1
+1%2e2
+1&186J67;
+1(141=1B1V1`1i1u1~1
+1(1D1
+1(1S1U2y2
+1(1W1{1
+1(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+1(2=2A2
+1(2p2
+1(4F4F5
+1*2g2
+1+111q1w1
+1+131K1
+1+1@3^3d3{3
+1+2_2Q3
+1,1014181@1X1h1l1|1
+1,1l2l4}4
+1.2.5
+1.2.840.113549.1.9.6
+1.2h3
+1/191>1\1
+1/2/4/8/16-bit only
+10181=1D1I1O1n1
+101<1D1d1
+101T1`1h1
+1024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+11 4 22 44 44 22 444444
+11161;1@1E1J1O1T1Y1^1c1h1m1r1w1|1
+112 5
+11748
+123n3
+130801120000Z
+131<1}1
+131=1Q1[1`1f1q1y1
+132=2I2P2a2}2
+132@2P2i2
+132T2O3q4
+141S1d1n1t1z1
+142D2
+142t2
+162y2~2
+163H3f5x5
+171l1
+172N2c2
+176E6Y6
+181X1`1|1
+183\4
+191f1p1v1
+1:1U1a1
+1:1j1
+1<1D1L1T1\1d1l1t1|1
+1<2C2
+1<2b2
+1=2I2S2_2s2}2
+1=2^2
+1?1E1
+1?1H1Q1Z1_1d1o1#212:2C2L2Q2V2]2
+1?1X1
+1?2D2Y2^2t2~2
+1@1L1T1t1
+1@1o1
+1@1x1
+1A1`2
+1A26b
+1B2a3f3
+1B2c3
+1B3R3V3
+1D1H1L1P1T1X1\1`1d1h1l1
+1E192Y2
+1E1a1
+1E1p1
+1E2T2c2e3w3
+1E2X2d2l2t2
+1G2q2
+1H2W2h2
+1H2u2
+1I1-232J2^2}2
+1J2V2]2
+1K4O4
+1M1U1j1r1
+1O1`1{1
+1O4W4d4
+1P2T2X2\2f2v2
+1Q1a1
+1W243g3
+1X3c3g3w3
+1Z2d2j2
+1[1g1
+1[2z2
+1]2f2r2{2
+1e+9999
+1f2x2F3[3h3u3
+1f3&5f6
+1g2q2w2
+1h1t1
+1h1w1
+1h2o2
+1i3s3
+1j2y2
+1j3}3
+1k2v2
+1k2z2
+1r2}2/3:3n3y3
+1r7x7
+1u1{1
+1v223l3t3
+1v2v3$4
+1wsHp
+2	3H3
+2 2$2(2,2024282<2@2D2
+2 2$2(2,2024282<2@2D2H2L2P2
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2 2$2(2,20242<2T2X2p2t2
+2 2$2(202H2X2\2l2p2t2x2
+2 2$2(262E2r2
+2 2$2(2G2X2*3k3
+2 2$24282<2D2\2`2x2
+2 2$2x3|3(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+2 2024282@2X2h2l2|2
+2 2@2H2T2t2|2
+2 2@2L2t2
+2 3(3-34393?3^3f3l3s3x3~3
+2 3P3
+2!2&2+20252:2?2D2I2N2S2X2]2b2g2l2
+2!2&21262C2M2a2o2t2
+2!212A2Q2a2q2
+2!2a2
+2!3'3/45465E5
+2"2)20272>2E2L2T2X2\2`2d2h2l2p2t2x2|2
+2"2-2;2B2K2R2`2i2r2{2
+2"2.282W2^2j2t2
+2"2A2
+2"2j2s2|2
+2"30393B3K3P3U3\3
+2"3a3
+2"3c3
+2"3w3
+2#2(2-22272<2A2F2K2P2U2Z2_2d2i2n2s2x2
+2#21262A2T2]2 3Y3
+2#222
+2#2C2
+2#2F2
+2#2T2
+2$2(2,2024282<2@2D2
+2$2)2?2I2
+2$282d2l2
+2$2H2T2\2|2
+2$2I2i2
+2$2\2
+2$2d2
+2$3,3L3`3
+2$383D3L3d3l3
+2$434
+2%20252:2K2u2~2
+2%2q2
+2&2/282A2F2K2R2
+2&202:2D2N2X2b2l2v2
+2&373K3
+2'20252:2A2
+2'2_2
+2(242<2\2
+2(252U2w2
+2(282<2L2P2T2\2t2
+2(373H3
+2(3q3
+2(474G4M4S4a4v4
+2).lighthouse.pb.CBaseConfigAndDynamicState"
+2)2A2
+2*2%3/393E3c3m3y3
+2*272D2O267E7
+2*2?5P5p7t7x7|7
+2*3J3_3
+2+3m3
+2,282\2
+2,2P2\2d2
+2,2V2\2i2
+2.3@3
+2/3B3
+20282@2H2P2X2t2
+20353A3G3f3u3
+203x3
+210429000000Z
+211007000000Z
+21262L2V2p2
+21272
+212@2b2
+220323000000Z
+220329000000Z
+220330231744Z0/
+22282
+223W3
+232~2
+233n3
+241009235959Z0a1
+242<2H2h2p2|2
+242H2g2l2q2
+242R2i2
+243!4
+243;3m3x3
+24787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+252f2t2
+267E7
+282D2L2l2
+282\2h2p2
+283m3
+293C3I3^3r3
+294b7
+2:2R2
+2<2A2F2[2f2t2
+2<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+2<3K3
+2<5D5L5T5\5d5l5t5|5
+2=3F3
+2>3o3
+2?2X2
+2?2`2
+2A3l3
+2C2b2o2u2z2
+2C2d2
+2C2p2
+2D2]2
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2E2X2e2
+2F2U2y3
+2F3$565f7
+2F3_3
+2G2]2
+2K2Q2W2]2c2i2o2u2{2
+2K3U3^3j3s3
+2K3a3
+2L3b3
+2L4P4T4X4\4`4d4h4l4p4t4x4|4
+2M3%4
+2M4X4
+2O2V2
+2O3\3
+2P2n2
+2Q2[2a2p2v2
+2Q6g6X7|7
+2R2Z2g2u2
+2S3e3
+2SPV9
+2T3X3\3`3d3h3l3p3t3x3|3
+2V2o2
+2Z3w3
+2]2f2o2z2
+2`3l3
+2`3t3
+2c3m3u3
+2f3u4
+2f4x4
+2g2q2
+2h2t2
+2h5l5p5t5x5|5
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2i3r3
+2q2Z3
+2q5y5
+2s2*3T3
+2u3%4/474E4`4t4
+2v9;:J:
+2xJK7*L
+2y4d6h6l6p6i9X;v;q<
+3	4.4J4
+3	;Z;
+3 3$3(3,303
+3 3%3X3^3
+3 30343D3H3P3h3x3|3
+3 383H3L3\3`3d3h3p3
+3 3@3H3P3X3`3h3p3x3
+3 4;4H4l4
+3!3&3-3
+3!313A3Q3a3q3
+3!3@3_3
+3!3S3X3
+3!3h3
+3!4e4
+3"3'3,31363;3@3E3J3O3T3Y3^3c3h3q3v3{3
+3"3)32383?3H3N3U3^3d3k3u3
+3"3,353U3
+3"3T3~3
+3"4{4
+3#3(363=3L3V3`3t3~3
+3#3+3H3P3]3e3
+3#3B3G3Y3^3
+3#3^3
+3#4(4w4
+3$3(3,3034383s3
+3$3)3.33383=3B3G3L3Q3V3[3`3e3j3o3t3y3~3
+3$3)3?3I3_4d4y4~4
+3$3,343<3H3h3p3x3
+3$3,343D3L3X3
+3$3-34393@3I3P3U3\3e3l3r3w3
+3$3-393?3E3M3
+3$3.3
+3$383L3
+3$3V3e3
+3$4-464D4M4`4A5a5k5
+3$4e4
+3$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7
+3%3R3k3
+3%3e3
+3%41484I4e4
+3%4<4
+3&434Q4`4
+3&484
+3&495F5
+3&4o4
+3'30393>3C3J3
+3'3M3|3
+3(3,3<3@3D3L3d3t3x3
+3(3-32393
+3(3A3
+3(4H4O4
+3(4v4
+3)3;3I3
+3)444
+3*323<3F3
+3*32484D4
+3*4w4g5
+3+303C3r3
+3+353q3x3
+3+484r4x5
+3+4=4A4_4n4
+3,30343<3T3d3h3x3|3
+3,313D3s3
+3,343B3J3P3^3f3t3|3
+3,3<3@3P3T3X3`3x3
+3,3F3
+3,3P3\3d3
+3,424M4a4
+3,4d4
+3-3>3F3O3g3x3
+3-3[3
+3/3u3
+3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+30383D3d3p3
+303<3D3d3
+303R3`3
+303w3|3
+304}4
+31494J5
+324L4
+330314235959Z0L1
+333:3Y3`3n3w3
+34393
+343P3
+343X3d3l3
+344K4
+360428235959Z0i1
+363?3E3L3\3
+363A3T3X3\3`3d3h3l3p3t3
+364o4
+370322235959Z0c1
+374<4Q4V4l4v4
+375R5Y5
+380115120000Z0b1
+383d3
+393B3K3V3[3`3n3
+393D3z3
+393x3
+3:4E4
+3:4\4
+3<3D3`3
+3<4j4
+3=3I3S3_3
+3=3K3}3
+3=4H4
+3=4u4
+3=9f:
+3>3N3X3b3r3~3
+3?4g4
+3@3L3T3t3
+3@4f4
+3@4n4
+3D3R3
+3F3U3f3r3y3
+3F4P4
+3F4U4
+3F5U5
+3G425w5
+3G4T4l4
+3H4v4
+3J5^5k5
+3L3e3
+3L4P4
+3N4x5
+3Pole
+3Q4f4
+3R4b4y4
+3S456
+3[4q4
+3_4Q5&656
+3_4d4y4~4
+3a3p3
+3d4n4q5
+3f4l4
+3g4m4
+3g4n4g5
+3h4l4p4t4x4|4
+3h4|4
+3j5u5
+3l4v4
+3mq+<
+3n4~4
+3p405
+3r3y3
+3r3{3
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+4 4$4,4D4T4X4h4l4p4t4x4|4
+4 4&4
+4 4(40484@4H4P4X4`4h4p4|4
+4 4(404<4\4h4
+4 4044484@4X4h4l4|4
+4 484H4L4\4`4d4h4p4
+4 4V4
+4 5H5l5
+4 5O5
+4!4&4+40454:4?4D4I4N4S4X4f4p4
+4!4-4O5U5a5
+4!414A4Q4a4q4
+4!4C4J4i4p4~4
+4!4w4
+4#4(4/4v4
+4#5S5
+4$4D4h4t4|4
+4$4H4T4\4|4
+4$5,5L5`5
+4$595E5
+4%4.474<4A4H4
+4%414>4N4W4`4e4j4~4
+4%465E5&949":v:
+4%4R4a4r4
+4%5.565R5{5
+4&4.474O4`4h4m4x4
+4&4\4
+4&525
+4&555_5x5
+4&5?5
+4'4/4<4N4
+4'4C4H4R4a4m4
+4'<\?
+4(484<4L4P4T4X4`4x4
+4(4:4B4G4T4Z4a4l4q4x4
+4(4T4\4|4
+4(5"6t6
+4)4=4Z4w4
+4)5g5z5
+4*404D4c4z4
+4*4;4C4H4V4]4l4v4
+4*4W4a4g4|4
+4*5=5Z5e5
+4*5@5
+4*6I6w6t7
+4+404A4
+4+464?4H4S4X4]4e4
+4+4b4r4x4
+4+5c5
+4,40484P4`4d4t4x4|4
+4,444>4H4q4z8
+4,4L4T4\4d4l4
+4-4]5n5T6X6\6`6d6h6l6p6t6x6|6
+4-525G5L5b5l5
+4-5^5
+4.4?4V4n4
+4/5|6
+40484E4c4k4x4
+404<4`4
+404K4f4q4
+4054585<5@5D5H5L5
+405c5
+40D0J0_0s0
+40a0j0s0|0
+414:4C4L4Q4V4]4
+416A7
+416t6]7
+425F5-6
+426:6B6]6e6m6
+434j4
+43595n5t5y5
+444D4p4x4
+444X4
+444X4d4l4
+444{4
+454@4
+456_6e6r6
+464;4E4d4k4<5N5
+464>4f4u4
+465E5E6^6d6F8X8
+465H5
+474H4
+475^6
+484?4F4w4~4
+484D4L4l4
+484L4\4p4x4
+485G5
+494j4p4x4
+495c5
+4:4C4L4U4Z4_4i4
+4:5]5
+4<4\4
+4<4`4l4t4
+4=5F5O5X5]5b5i5
+4=5^5g5
+4=5j5
+4>4P4
+4?4k4
+4@6|6
+4A7n7w7
+4D5r5
+4G4M4
+4G4X4\4B5[5h5
+4G4p4
+4J4P4
+4J4U4
+4K5U5[5p5
+4K5[5o5
+4M4V4t5
+4N587b7
+4O4b4~4
+4O4e4v4
+4P5T5X5\5`5d5h5l5p5t5x5|5
+4Pole
+4R5}5
+4V5d5
+4V5e5
+4V5g5
+4Z4|4
+4Z5l5
+4Z5~5
+4Z738
+4\4`4d4h4l4p4t4x4|4
+4_5e5|5
+4_5o5
+4_5z5
+4f4u4
+4g6M7
+4h5l5p5t5x5|5
+4m4u4
+4t5x5
+5	5,595!:3:C:
+5 5$5(5,505
+5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
+5 5$5(5,575o5<6&757
+5 5%515<5p5
+5 5&5,52585>5D5J5P5V5\5b5h5n5t5z5
+5 5*5
+5 5H5l5x5
+5 6,646T6x6
+5 6H6l6
+5 7$7(7,7074787<7@7D7H7V7h7F9X9
+5!5&5+50555:5?5D5I5N5S5X5]5b5g5l5q5v5{5
+5!505
+5!515A5Q5a5q5
+5!6-696^6l6
+5"5)5=5V5^5
+5"53585B5S5X5b5s5x5
+5"5;5R5
+5$5,545<5D5L5T5\5d5l5t5|5
+5$5,545L5T5\5h5
+5$5,5L5p5|5
+5$51575>5K5Q5X5e5k5r5
+5$515B5K5W5\5a5x5
+5$5<5L5P5`5d5h5l5t5
+5$5D5h5t5|5
+5%5,5=5L5S5c5t5
+5%585K5d5z5
+5%5O5h5
+5%6.676@6E6J6Q6
+5%626<6E6
+5%6m6
+5&5/5:5?5D5L5
+5&515;5V5`5m5s5{5
+5&757
+5'5A5J5w5
+5'717
+5'9\9
+5(5,5<5@5D5H5L5T5l5p5
+5(5,5<5@5D5H5P5h5x5|5
+5(585<5L5P5T5X5`5x5
+5(5L5T6
+5(5O5U5]5k5z5
+5(5T5\5
+5(686Q6
+5)6P6o6v6
+5*5E5`5{5
+5+535
+5+5>5D6
+5+6l6
+5,545<5D5
+5,595@5c5j5
+5,5P5\5d5
+5,5p5
+5,656>6G6L6Q6^6
+5,6>6W7p7
+5,6\6
+5-5S5
+5-656I6
+5.585S5X5f5m5|5
+5.6P6l6<7U7
+5/6Y6b6k6t6y6~6
+505A5I5R5j5{5
+506[6f6\7T8_8
+507Y7
+50_0k0
+51575?5M5R5c5
+525>5F5N5
+535j5r5<6
+53>3G3P3U3Z3a3
+54585P5T5l5p5
+545T5t5
+546<6D6
+546_6m6
+565A5N5W5c5h5r5{5
+565z5
+566E6v9|9
+575E5Y5o5
+576X6	7*7
+576^6
+576e6
+585@5H5P5X5`5h5p5x5
+585p5
+595T5a5q5
+5:5I5R5X5^5
+5;5^5
+5<5^5
+5<5`5l5t5
+5<5c5
+5=5X5
+5>6P6
+5@5L5T5t5
+5@7A8Z8a8h8
+5B5T5^5
+5B5|5
+5B6Z6u6
+5C5g5
+5D5e6i6Y8
+5D5j5
+5E6|6
+5E7v7
+5F5X5
+5F6U6
+5F6W6k7
+5F7p7u7
+5Genu
+5H5b5t5x5|5
+5H6L6P6T6X6\6`6d637C7P7e7r7
+5I5i5
+5I6Y6b6k6t6y6~6
+5K6\6m6
+5L6P6T7
+5M:a:
+5R6a6q6
+5W5t5
+5Z7e7
+5[5~5
+5]6b6w6|6
+5_6z6
+5b6}6
+5c5m5v5
+5e7o7
+5f5u5
+5f8u8
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5i6u6{6
+5ineI
+5p7t7
+5p9t9x9|9
+5q5z5
+5r7x7f8x8
+5t3j>h
+5w546
+6	7?7E7Q7V7&959
+6	7f8w8
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+6 6$6(6,6064686<6@6D6H6L6P6h6l6p6t6x6|6
+6 6$6(6,6064686<6@6D6d6h6x6|6
+6 6$6(6,60686P6T6l6|6
+6 6(60686@6H6P6X6`6h6p6x6
+6 6(60686@6L6t6
+6 6)62676<6C6
+6 60646D6H6X6\6l6p6
+6 606<6P6X6f6z6
+6 6@6L6l6t6
+6 7$7(7,7074787
+6 7,747T7x7
+6!616A6Q6a6q6
+6!7c7%8,8c8
+6"6(6.646:6
+6"6,6C6\6j6y6
+6"6=6Z6b6j6
+6"6{6
+6#6+636;6
+6#6-636=6E6Q6W6d6r6x6
+6#7I7
+6$6(6,6064686<6@6D6H6L6
+6$6)6.63686A6F6K6P6U6Z6_6d6i6n6s6x6}6
+6$6,646@6`6l6
+6$6,6L6p6|6
+6$6/6<6
+6$64686H6L6T6l6|6
+6$6;6\6e6
+6$6D6h6t6|6
+6$6H6T6\6|6
+6$6V6
+6$737<7
+6$7D7
+6%666B6I6]6v6~6
+6%6O6h6
+6&6/6
+6&676D6L6S6b6m6s6
+6&717R7[7
+6&757
+6&757_7x7
+6&757f7
+6&7;7@7K7a7j7p7z7
+6&7K7R7
+6&8#9D9
+6&959v9
+6'7S7`7
+6(6,6<6@6D6H6P6h6x6|6
+6(6H6h6
+6(7,7074787
+6(747
+6(7x7
+6(7|7
+6)686L6_6p6
+6)777d8J9
+6)9P9x9
+6*656B6s6y6
+6*f(_
+6,6064686@6X6h6l6|6
+6,666D6N6W6c6l6q6
+6,6L6R6^6o6
+6,757>7G7L7Q7^7
+6,7{7
+6-656R6^6c6h6o6~6
+6.6>6H6R6b6m6
+6/6H6
+606M6U6q6x6
+6074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+6094989<9@9v;
+60D0e0
+60H0s2
+616A6S8
+626L6Y6`6
+636;6
+636;6B6x6
+637I7
+638d8y;~;
+63<9<Y<
+646>6
+646J6
+646X6d6l6
+647q7
+666<6Q6i6o6
+667-8D8c8
+667E7a7p7
+667H7&888
+667H7m7
+668H8
+676B6J6
+677<7
+677<7Q7V7l7v7
+686Q6[6e6
+697v7
+6:6C6L6V6[6`6e6l6
+6:6Z6
+6;6A6Q6k6s6
+6;wHtn
+6<6\6d6l6t6|6
+6<7F7
+6>6T6h6
+6>6\6
+6?6P6X6`6h6
+6?6i6
+6@7T8
+6B6F6*=.=;=?=
+6C6p6
+6D6l6
+6D7Q7[7d7m7x7}7
+6E6K6S6a6p6
+6F9X9
+6I]Dc
+6K7Q7F8V8{8
+6L8k819F9
+6M8y8
+6N7I8
+6O6&747&;5;&=6=
+6OB,n_
+6PVh(
+6PVhTx
+6PjMjBhL
+6QPVh
+6QVh` 
+6RPVh
+6S6g6t6
+6S7m7
+6T7c7
+6U6r6
+6U7*8
+6V6_6h6q6v6{6
+6V7h7
+6Vh$S
+6Vh0J
+6Vh8&
+6W7w8l9
+6X7\7
+6X99<
+6a7n7
+6f7k9
+6n7J8
+6v8&;
+7	8U8x8
+7 7$7(7,7
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7v7
+7 7$7,7D7T7X7h7l7t7
+7 7$747=7A7
+7 7$7L7
+7 7%7*717[7d7m7x7}7
+7 7(70787@7H7P7X7`7h7p7x7
+7 7(747T7\7h7
+7 7(7@7P7T7d7h7l7t7
+7 7074787P7T7X7
+7 7F7o7
+7 8,848T8x8
+7 878m8
+7 8L8x8
+7!7&7+70757:7?7D7I7N7S7X7a7f7k7p7u7z7
+7!7&7+727?8
+7!7(7/767=7D7c7l7s7z7
+7!717A7Q7a7q7
+7!7[7r7
+7!8*838<8A8F8M8
+7"7'7,71797B7K7T7Y7^7c7p7
+7"7-7N7^7h7r7
+7"7A7_7
+7"8K8>9O9|9
+7#7(717?7H7N7Y7_7g7u7
+7#7)7:7T7Y7d7u7
+7#7y:
+7#8s8}8
+7#8u8
+7$7,747@7H7\7
+7$7,7L7p7|7
+7$7-767=7B7I7b7k7t7}7
+7$7.7
+7$757D7J7
+7$757F7\7m7~7
+7$7W7
+7$8.888J8b8
+7$8Y8
+7%7,797M7T7[7b7
+7%7L7
+7%8K8
+7&7-7<7F7P7d7n7
+7&717
+7&777E7
+7&797E7L7`7|7
+7&7K7
+7&7h7v7
+7&858
+7&858b8{8
+7&9f9
+7(7,70787P7`7d7t7x7|7
+7(7,7<7@7D7H7P7h7l7
+7(747<7\7
+7(7H7
+7(7H7|7
+7(7[7
+7(7v7
+7(8;8
+7)7F7U7s7
+7)7P7r7
+7*8c8j8
+7*8d8
+7+7q7
+7,7P7\7d7
+7,838b8h8n8
+7,8g8
+7-7=7M7
+7-8;8m8{8
+7.7:7e7x7
+7/7>7
+70503
+70787>7E7J7P7
+70787@7H7P7X7`7h7p7x7
+707k7
+717=7I7^7j7
+71888?8H8Q8Z8c8
+718O8e8
+727:7@7G7L7R7q7y7~7
+747D7H7X7\7`7d7h7l7t7
+747H7P7X7d7
+748J8
+748d8
+748i8
+767@7`8
+767A7b7y7
+767E7V7b7i7}7
+767N7`7
+768G8
+76:5<r<w=
+78768E8o8
+788B8[8
+788G8X8
+797?7G7U7k7
+798D8~8
+7:7?7F7U7f7
+7;7e7j7w7
+7;9=:?;
+7<7B7J7U7b7q7v7
+7<7H7l7
+7<7`7l7t7
+7<8E8N8W8\8a8h8
+7<8_8
+7<8b8o8|8
+7=8r8
+7>8X8x8
+7?7q7
+7@PVW
+7A8W8s8{8
+7B8z8
+7C8Q8Z8c8l8q8v8}8
+7E8J8X8
+7F7O7X7a7f7k7u7
+7F8#9=9
+7F8T8
+7F8U8"9
+7F8U8w8
+7G7w7
+7H7`7
+7H7z7
+7I7P8T8X8\8`8
+7I9U9
+7K7P7x7
+7K8a8
+7N7X7g7m7t7
+7N7X7y7
+7N7_7
+7O8y8
+7O9T9i9n9
+7P7T7X7\7`7d7h7l7p7t7x7|7
+7P:X:h:x:
+7R7b7
+7R8g8
+7T8l8q9}9
+7V8\8
+7W7k7z7X8p8
+7Y<u<
+7]8q8
+7^9z9
+7^d[L
+7_7h7q7z7
+7f8u8
+7g7q7
+7h<l<p<t<x<|<
+7m8w8}8
+7o9<:
+7p8x8
+7t8x8|8
+7u7|7-8}8
+7x7|7
+7}89:F;X<X=Y>
+8 8$8(8,80848
+8 8$8(8,8084888<8@8D8
+8 8$8(8,8084888<8@8D8H8
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8 8(8j9x9
+8 8*8;8B8L8]8d8n8
+8 80848D8H8P8h8x8|8
+8!8)8
+8!818A8Q8a8q8
+8!848;8
+8!9I9s9x9
+8"8*81878C8M8S8]8e8q8w8
+8"808<8F8N8T8d8j8
+8"818f8u8
+8"8H8O8e8
+8":O:[:o:y:
+8#8(8-82878<8A8F8K8P8U8Z8_8d8i8n8s8x8
+8#8(8/8o8x8
+8#8+8
+8#8E8n8
+8#9_9
+8$8(8
+8$8,848X8\8`8d8h8l8p8t8x8|8
+8$8,888\8|8
+8$8,8:8U8i8
+8$8-82878>8O8]8f8o8t8y8
+8$84888H8L8P8X8p8
+8$888H9
+8$8D8h8t8|8
+8%8*8/8
+8%808:8Q8j8x8
+8%878?8G8U8^8d8u8z8
+8%8R8k8V9e9
+8%8x8
+8%9.979@9E9J9[9m9v9
+8%919E9Q9;:
+8%:):8:<:=;A;p;t;
+8&8-848;8B8I8P8W8^8e8l8s8z8
+8&8.8V8e8v8
+8&8?8R8i8}8
+8&989
+8'80858:8?8L8y8
+8'8Z8f8l8y8
+8'9I9O9[9
+8(8,808
+8(808<8\8d8p8
+8(818<8A8F8T8
+8(888<8D8\8l8p8
+8(898C8
+8(8S8s8
+8(9,9094989<9@9
+8(9.9F9U9[9d9v9|9
+8(9.9u9;;
+8(979H9
+8*929
+8+8?8^8k8
+8+949E9Q9]9c9i9
+8,808@8D8H8P8h8x8|8
+8,888X8d8
+8,929M9a9
+8,959>9G9L9Q9X9
+8,969
+8,9h9
+8-9;9m9{9
+8-9C9i9
+8.828A8E8T8X8g8k8z8
+8.8>8F8W8
+8.8o8
+8.9M9n9
+8.u@j
+8.uYj
+8.usSP
+8/868
+8/8H8
+808<8D8d8
+808@8d8p8x8
+808X8
+808X8`8h8p8x8
+808k8
+80989I9Q9
+818:8D8R8z8
+818?8Q8_8|8
+818b8h8p8~8
+81<1@1D1H1L1P1T1X1\1`1d1
+828v8
+82u	@
+83888M8R8
+839>9
+84898
+848=8Q8m8
+848D8H8P8h8x8|8
+848X8d8l8
+84989<9@9D9H9L9P9
+84:v:k;
+858O8
+869D9
+869H9
+86:H:
+888@8`8t8
+888A8P8a8i8u8
+8:u	@
+8;9B9J9
+8;s\u
+8<8?9
+8<8G8X8{8
+8<8o8
+8<9D9f9
+8<9|9
+8=9':
+8=9Q9h9
+8=;q<
+8>9I9o93:>:n:
+8?8g8
+8@8P8 969@9F9
+8@8a8|8
+8@9O9
+8A8J8S8\8a8f8m8
+8C:\:s:}:
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8E$u h<
+8E8K8R8H9]9s:
+8E9f9
+8F86:v:z<
+8F8X8p9
+8FAtS
+8H9W9h9
+8J8S8\8e8j8o8v8
+8J8T8
+8J:r:
+8Knu 
+8L8U8^8g8l8q8
+8L8z8
+8L:Q::;T;X;\;`;d;h;l;p;
+8M8i8
+8N8X8b8k8u8
+8O9w9
+8P9^9r9
+8P9d9
+8Q	tmH
+8S9X9^9
+8SVW3
+8SVWj
+8U8Z8k8
+8U9r9{9
+8V8f8y8
+8V9c9
+8V9j9w9
+8V:h:6<H<
+8W9\9q9v9
+8WPRQ
+8\:j:v;
+8]8s8
+8^	t1j{h
+8^	t4h
+8_	t4h
+8_8r8
+8_^[]
+8`8d8h8l8p8t8x8|8
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8centu
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+8f8u8
+8h8w8
+8i9q9;:C:r:
+8i9r9
+8i9}9n:
+8jpu9
+8l9p9t9x9|9
+8leftu
+8opt_u
+8play
+8pnuM
+8reco
+8rewiuKf
+8righu
+8slowu>
+8spot
+8stopuD
+8stylu
+8t9f:
+8treau
+8unknu
+8utahu?j
+8viveu
+8x9`:l:
+8y9,:X:
+8{9	;u;
+8}899B9
+9	:*:
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9+:<:u:
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+9 9$9(9,9094989<9@9D9H9L9l9p9
+9 9$9(9,9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+9 9$9(909H9L9d9t9x9
+9 9$9(909H9X9\9l9p9t9|9
+9 9$9@9D9X9\9`9d9h9l9p9t9x9|9
+9 9(9@9T9\9d9l9p9t9|9
+9 9(9H9l9x9
+9 9)92979<9C9
+9 :X:x:
+9 ;$;(;,;0;4;8;O;
+9 u	A
+9!9%9
+9!9&9+90959:9?9D9I9N9S9X9]9b9g9l9q9v9{9
+9!9&9+9B9
+9!9(999U9
+9!9*93989=9D9
+9!9.9M9\9
+9!919A9Q9a9q9
+9!9e9}9
+9!:):9:J:X:
+9"9)90979>9E9L9S9Z9a9h9o9v9}9
+9"91979<9B9Q9[9q9{9
+9"929B9R9b9r9
+9"9c9l9u9~9
+9":2:;:F:L:
+9":B:
+9";>;
+9#9*939:9C9J9V9c9j9q9v9{9
+9#9B9R9f9k9
+9#;;;e;#<P<
+9$9(9,949L9T=x=
+9$9,949<9D9L9T9\9d9l9t9|9
+9$9,9L9p9|9
+9$94989H9L9T9l9|9
+9$9h9l9p9t9x9|9
+9$:Y:
+9$:`;k;
+9$;(;,;0;
+9%9&:5:6;E;E<v<
+9%9,949]9d9k9$:+:1:P:l:
+9%9,999?9F9S9Y9`9m9s9z9
+9%9,9@9\9y9
+9%929E9]9
+9%:+:8:
+9%:B:^:x:
+9&9*999=9L9P9
+9&9[9i9r9~9
+9&:5:V<e<v>
+9&:5:l:v:
+9'9J;T;a;
+9':K:
+9':x:|:
+9(949<9\9
+9(9H9P9\9
+9(9L9t9
+9(:,:X:\:
+9)929>9G9W9b9l9u9~9
+9)9R9{9
+9*9/9F9]9n9
+9*9;9C9O9Y9^9~9
+9*9K9
+9*9\9
+9+9h9
+9+:4:=:F:K:P:^:
+9,90949<9T9d9h9x9|9
+9,90989P9`9d9t9x9
+9,919d9i9
+9,:@:Q:y:
+9,:X:
+9-9F9N9v9
+9-:;:m:{:
+9-:A:Q:e:j:~:
+9-:a:v:
+9.929
+9/:k:
+909T9`9h9
+909`9
+90<5<=<N<Z<n<{<
+90t$A
+919K9p9
+91:m:
+929<9F9P9Z9d9n9x9
+949>9K9Q9t9|9
+94:&;;;L;
+94:=:
+94:B:
+959;9C9Q9V9g9t9
+95:L:
+969q9|9
+96:E:
+979?9p9v9
+989D9L9l9
+989D9d9p9
+989d9i9
+98:G:X:
+98;1<
+999H9
+99:d:o:u:
+99;>;K;
+9;9B9u9
+9;9[9
+9<9`9l9t9
+9<:|:
+9<;/=C=O=
+9=:u:
+9>9n9
+9>9v9
+9>:E:K:
+9>:z:
+9?9X9
+9?:c:q:
+9@9z9
+9@:P:g:w:}:
+9B:j:
+9C,~e3
+9D9L9
+9D9m9
+9D9n9
+9E:R:s:
+9E:Z:g:t:
+9EV2.u
+9G:O:W:b:
+9Glra
+9H9T9e9|9
+9H9y9
+9H:P:]:j>p>
+9H<~v3
+9H\tP
+9K ~$
+9K4~p3
+9K:U:^:i:o:u:|:
+9L:Q:c:p:|:
+9L:q:
+9N$~^
+9N,~6
+9N9W9`9i9n9s9z9
+9O,~g
+9O8~B
+9OD~03
+9OT~03
+9Od~53
+9Ot~23
+9Q4vV
+9R9[9c9
+9Rootu	
+9T9x9
+9V8~<
+9V:f:8;M;Z;g;r;
+9X9g9x9
+9X;k=
+9Y:V;
+9[:g:
+9[:~:
+9\;z;
+9^$t4h9
+9^$~"
+9^(~!
+9^:p:<<[<!=6=
+9_:d:y:~:
+9_^[]
+9_xtD
+9c;d<h<l<p<t<
+9d:y: =W=
+9h9w9
+9j:o:
+9lensu
+9lhjs
+9n;&=U>
+9p9t9x9|9
+9s$~"3
+9s(~'3
+9s<~#3
+9s@~)3
+9u tL
+9w$~"3
+9w(~#
+9w,~"3
+9w<~"3
+9|;(<
+9~$~7
+9~(~(3
+9~(~2
+9~(~:S
+9~,~:
+9~0~(3
+9~0~.3
+9~0~@S
+9~8~:
+9~@~(3
+9~@~Y3
+9~H~4
+9~T~9
+9~\~6
+9~d~9
+9~t~9
+:	:V:e:
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+: :$:(:,:0:4:8:F:U:U<y<
+: :$:(:0:H:X:\:l:p:x:
+: :$:,:D:T:X:h:l:p:x:
+: :%:*:/:4:9:>:C:H:M:R:W:\:q:v:{:
+: :(:0:8:@:H:P:X:`:h:p:|:
+: :,:L:T:`:
+: :0:4:D:H:P:h:x:|:
+: :8:H:L:\:`:d:l:
+: :;:Y:v:
+: :V:g:
+: Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
+: Tried to copy from a message with a different type. to: 
+: Tried to merge from a message with a different type.  to: 
+: exception thrown in JSON library
+: one or more FS callback not set
+: ppm=
+:!:&:+:0:5:::?:D:I:N:S:X:]:b:g:l:q:v:{:
+:!:1:
+:!:1:A:Q:a:q:
+:!:7:k:q<
+:!:;:X:
+:!<+<
+:":+:4:=:B:G:N:
+:":,:6:@:J:T:^:h:r:|:
+:#:):0:=:C:J:W:]:d:q:w:~:
+:#:B:M:W:n:
+:#:d:h:l:p:t:x:|:
+:#;,;5;>;C;H;O;};
+:$:):.:3:8:=:B:G:L:Q:V:[:`:e:j:o:t:y:~:
+:$:,:4:<:D:L:T:\:d:l:
+:$:-:2:7:>:
+:$:9:>:T:^:
+:$:::k:q:y:
+:$:D:h:t:|:
+:%:,:3:]:b:i:p:w:~:
+:%:/:8:D:M:^:
+:%:`<k<
+:%:~:
+:%;0;n<
+:%;`;
+:&:2:9:M:f:n:
+:&:4:O:c:
+:&;2;
+:&;4;
+:&;5;F;R;Y;m;
+:&;5;[;o;
+:&;7;V;f<v<V=e=
+:&>5>x>"?
+:':-:E:d:v:
+:':0:5:::A:o:x:
+:':0:<:E:J:d:r:{:
+:':2:G:Q:i:y:
+:':4:?:
+:':8:~:
+:';;;H;U;`;
+:';\;
+:'<r<
+:(:0:P:t:
+:(:3:;:G:p:|:
+:(:9:A:J:V:g:o:
+:(:`:r:
+:(;,;0;4;8;<;
+:(;7;H;
+:(;v;
+:);.;=;Q;V;
+:);2;K;
+:)=l=
+:*:0:~;
+:*:<:E:N:W:\:a:h:
+:+;J;n;
+:,:8:@:l:p:
+:,:<:@:H:`:p:t:x:
+:,:]:t:
+:-: ;
+:0:8:@:L:l:t:
+:0:<:D:d:
+:0:=:J:W:]:b:p:z:
+:0:P:X:`:h:p:|:
+:0:T:t:|:
+:0v0Y2
+:1:B:S:m:
+:1:R:{:
+:2;b;
+:3:P:j:
+:4:<:A:H:M:S:
+:4:>:
+:4;8;<;@;D;l;
+:5:^:
+:6;D;w;
+:6;H;
+:7<_=
+:8:G:V:k:
+:8:d:i:
+:8:h:
+::;@;Q;Y;_;u;
+:;;E;N;W;e;
+:<$u:
+:=:f:v:
+:=;];
+:>;R;Z;
+:?<W<}<
+:@:D:H:L:f:m:y:
+:@:E:T:^:c:y:
+:@:L:T:t:
+:D:N:d:t:y;
+:D;R;
+:D;R;\;e;
+:D;l;
+:F:S:
+:F;*===
+:F;=<
+:F`tP
+:FatK
+:FbtK
+:FctK
+:FdtK
+:G;Q;
+:H;T;
+:I:u:z:
+:I:}:
+:J;Z;j;
+:K;c;
+:N:T:\:m:~:
+:O:b:
+:O:x:|:
+:O<T<i<n<
+:P;\;
+:S;#<
+:S;l;
+:T;c;t;
+:T<X<\<`<d<h<-?m?
+:V:e:
+:V:o:
+:W:a:
+:X>\>`>d>h>l>p>t>x>|>
+:Y:b:k:u:z:
+:Z:b:s:
+:`;	<}=
+:c;j;
+:c<J=
+:d;u;S<a=
+:f;F<
+:k:y:
+:l:r:
+:m;s;
+:o:u:
+:rota
+:s;/<8<A<
+;	;$;.;7;@;L;x;
+;	;7;~;
+;	<&=
+;	<<<a<
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+; ;$;(;,;0;4;8;F;W;w;
+; ;$;(;0;D;T;d;
+; ;$;4;8;@;X;h;l;|;
+; ;,;
+; ;0;4;D;H;L;T;l;|;
+; ;0;4;D;H;X;\;`;d;l;
+; <,<4<T<x<
+; <X<
+; expected 
+; last read: '
+;!;&;+;0;5;:;?;D;I;N;S;X;a;r;{;
+;!;(;/;6;
+;!;*;3;8;=;D;
+;!;1;7;\;j;o;
+;!;1;A;G;Q;a;q;
+;!;1;A;Q;a;q;
+;!;6;F;M;U;g;m;r;
+;!<,<9<B<N<W<k<
+;!<:<
+;";/;A;q;
+;";y;
+;"<7<|<
+;#;+;5;:;Q;V;[;`;e;j;o;t;y;~;
+;#;,;5;:;?;F;m;v;
+;#</<F=
+;#<5<
+;$;,;
+;$;,;4;<;D;L;T;\;d;l;t;|;
+;$;,;4;<;D;L;T;\;h;
+;$;,;L;p;|;
+;$;.;
+;$;0;8;X;|;
+;$;:;C;L;U;Z;_;f;
+;$;D;h;t;|;
+;$;E;
+;$;H;T;\;|;
+;$;k;t;};
+;$<)<v<
+;$<><W<b<j<u<{<
+;%;E;
+;&;-;4;;;B;I;P;W;^;e;l;s;z;
+;&;9;E;L;`;|;
+;&<4<U<
+;';-;4;A;G;N;[;a;h;q;w;~;
+;';=;
+;';n;
+;'<I<r<
+;'<\?o?
+;(;,;0;4;8;<;@;D;H;L;l;p;|;
+;(;H;P;d;
+;(;y;
+;(<k<
+;);.;D;N;
+;*;~;
+;+;9;E;J;O;X;e;
+;+<7<
+;,;0;@;D;H;P;h;l;
+;,;0;@;D;T;X;`;x;
+;,;<;L;
+;,;K;{;M<m<
+;,<L<l<
+;,<[<
+;-<6<?<H<M<R<Y<
+;-=E=]=w=
+;.;4;P;i;};
+;.;s;y;
+;.<8<7>A>s>x>
+;/;H;
+;/<X<\<`<d<h<
+;0;C;V;i;|;
+;0;\<w<~<
+;0<~<
+;0B0t0
+;1;7;?;M;R;c;
+;1;7;c;
+;1;a;
+;1;u?
+;1<:<C<L<Q<V<]<
+;2<e<
+;3;;;E;W;
+;3;A;
+;3t"W
+;3u3;
+;4;<;D;P;p;x;
+;4;Z;t;
+;4<I<
+;4<y<
+;5;A;
+;5;I;d;
+;5<;<H<L<P<T<X<j=
+;6<A<
+;6<C<b<
+;6<E<h<
+;7;A;G;\;p;
+;7<@<I<R<W<\<c<
+;8;D;L;l;
+;8;G;
+;8;d;i;
+;8<U<
+;9tpSV
+;:;&<5<_<
+;:<F<
+;<;p;
+;=<r<
+;>;f;
+;@<D=Y=_=f=
+;ADt!
+;ADt$
+;B<W<d<q<|<
+;CDt$
+;Cts=
+;F$^t
+;F;r;
+;F=X=
+;FDuA
+;Fd^t
+;G;^;
+;H;|;
+;H<!=9=B>
+;H<u<
+;H<ufh#
+;H<~>
+;L<{<
+;L>P>T>X>\>`>d>p>t>x>
+;O u1
+;O;T;^;g;p;u;z;
+;O;s;
+;Q<i<q<
+;T>X>\>`>d>h>l>p>t>x>|>
+;V<d<
+;`?d?
+;d=}=
+;e;*<
+;f;n;v;~;
+;l;r;
+;l;x;
+;v<+=A=
+;{4tF
+;|3 v0
+;~ ~Bh
+<	<&<,<=<Q<a<t<|<
+< <$<(<,<0<4<8<<<@<
+< <$<(<,<0<R<
+< <$<(<,<0<{<
+< <$<(<,<L<P<`<d<h<l<p<t<x<|<
+< <(<4<T<\<d<l<t<|<
+< <2<M<f<y<
+< <8<H<L<\<`<d<l<
+< <8<H<L<\<`<p<t<x<|<
+< <<<D<L<
+< <a<e<:=>=
+< <b<k<t<}<
+< =,=4=T=x=
+< =X=
+<!<&<5<M<^<f<
+<!<1<A<Q<a<q<
+<!<5<:<N<a<n<|<
+<"<&<5<9<D<H<L<P<p<t<x<|<
+<"<'<,<1<6<;<@<E<J<O<T<Y<^<c<h<q<v<{<
+<"<)<0<7<><E<L<S<Z<a<h<o<v<}<
+<"<.<?<P<X<]<k<|<
+<"<K<V<a<m<
+<#<y<
+<#=@=f=
+<#=F=,?V?
+<$<,<L<p<|<
+<$<0<P<X<`<l<
+<$=(=,=0=4=8=<=@=D=
+<$===
+<%<#=:=z=
+<%<)<8<<<n=u=}=
+<%<J<U<
+<%<a<y<
+<%<n<
+<%=,=1=8=?=F=M=T=[=b=i=p=w=~=
+<%=0=9=B=
+<%=2=:=G=O=
+<%=q=
+<&<9<P<f<r<~<
+<&=6=I=U=\=p=
+<&=W=
+<'<:<M<`<s<
+<'=G=Z=_=|=
+<(<,<4<L<\<`<p<t<|<
+<(<,<<<@<P<T<X<\<`<h<
+<(<0<8<@<H<P<\<|<
+<(<1<
+<(<_<n<
+<(=,=
+<(=X=
+<)<Z<`<h<r<z<
+<*=O=c=t=
+<+<D<R<a<z<
+<+<n<
+<+<{<
+<,<0<4<8<@<X<h<l<t<
+<,<8<@<`<
+<,<P<\<d<
+<,=`=
+<-=3=J=^=}=
+<-=p=
+<->J>
+<-u];]
+<.<7<@<I<N<S<g<
+<.=5=p=t=x=|=
+</=[=
+</=\=x=
+<0:08
+<0<4<8<<<@<D<H<L<P<T<b<s<y<
+<0<8<@<H<P<X<`<h<p<x<
+<0<P<h<
+<0<Z<_<r<
+<0=I=R=[=d=i=n=|=
+<0=M=
+<0O0Y0b0k0w0
+<1<7<<<B<T<\<d<t<|<
+<1=^>\?
+<1=s=
+<2<R<r<
+<2<_<g<
+<2=;=D=M=R=W=^=y=
+<2>8>
+<3=Q=o=
+<3>e>
+<4<f<k<r<w<
+<4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+<4=:=M=
+<4===
+<4=>=H=P=X=`=h=
+<4=t?
+<5<<<U<\<u<|<
+<6<E<
+<6<[<v<
+<7<><]<e<
+<7=A=J=S=
+<7=w=
+<7>T>\>n>
+<8<=<H<Y<a<v<
+<8<@<H<P<X<d<
+<8<p<t<x<|<
+<8=K=T=]=f=k=p=w=
+<9~Y<etU<EtQ<+tM<-tI
+<:<q<
+<:=@=W=k=
+<;=f=
+<<<H<h<p<x<
+<<=@=D=H=L=
+<<=B=L=h=q=z=
+<?<H<Q<Z<_<d<k<
+<?<X<
+<?>Z>
+<@=p=
+<B<p<
+<C=R=[=e=j=
+<C=S>
+<C=`=b?
+<E<K<Q<W<
+<E<v<
+<E=N=W=`=e=j=x=
+<E=T=
+<F<U<f<r<y<
+<F=T=u=
+<F=U=
+<F>V?
+<G=V=j=@>V>(?>?U?c?l?q?x?
+<H<N<
+<L=V=
+<O<k<
+<O=T=i=n=
+<P<V<\<b<?=U=_=
+<P=[=
+<S<Z<
+<SVWj
+<SVj;
+<Sh@K
+<T=^=
+<T>f>
+<U+%.4X>
+<V<d<
+<V=e=
+<V?^?k?
+<W=G?
+<W=^=)>8>
+<X<d<
+<\t;</t7
+<_>i>v>|>
+<_uQ<
+<c<h<t<
+<d<h<l<
+<f=u=
+<hidden>
+<name
+<p=t=x=|=
+<parse error>
+<redirected>
+<uninitialized>
+<|=]>
+<}>N?`?q?
+= =$=(=
+= =$=(=,=0=4=8=<=
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+= =%=,=l=u=~=
+= =(=0=8=@=H=T=t=|=
+= =)=0=>=G=P=Y=f=p=z=
+= =,=L=T=`=
+= =.=:=Y=^=o=u=z=
+= =0=4=8=@=X=\=t=
+= =1=;=@=Q=[=a=e=q=v=}=
+=!=4=w=
+=!>?>
+="=<=Z=`=
+="=B=Q=a=q=
+=#=(=.=d=b>l>{>
+=#=(=1=6=;=@=E=J=O=T=Y=^=c=h=m=r=w=|=
+=#=,=1=6===~=
+=#>'>T>
+=#>,>5>>>C>H>c>
+=#>->
+=#>4>
+=$=(=8=<=@=D=H=L=T=l=p=
+=$=(=8=<=@=D=L=d=h=
+=$=)=.=3=8===B=G=L=Q=V=[=`=e=j=o=t=y=~=
+=$=,=8=\=|=
+=$=-=
+=$=D=h=t=|=
+=$=E=v=
+=$>(>,>0>4>8><>@>D>H>L>P>T>X>
+=$>/>L>W>t>
+=$>=>
+=%=0=5=~=
+=%=A=U=a=h=+>
+=%>;>Q>g>
+=&=,=3=@=F=M=Z=`=g=t=z=
+=&>5>_>x>
+='=.=8=I=P=Z=k=r=|=
+='=.=<=F=
+='=4=
+='=<=
+='>O>
+=(=2=B=L=w=
+=(=4=<=\=
+=(=H=
+=)=0=I=N=S=X=t=y=
+=)=I=S=f=s=
+=)=m=n>
+=)>C>c>
+=*>e?
+=*?5?
+=,=<=@=P=T=\=t=
+=.=7=B=X=e=
+=.>C>P>]>h>
+=/=;=
+=/=G=Q=
+=/>6>?>H>Q>Z>
+=/>o>
+=0=8=
+=0=8=@=L=l=x=
+=0=@=D=L=d=t=x=
+=0>:>C>L>
+=0>N>
+=0>O>
+=1=6=^=
+=1=D=T=X=\=`=d=h=l=p=t=x=|=
+=21VNt
+=2YUYw,tC=GPJMt
+=3=(>0>6>I>Q>[>`>f>
+=3>A>
+=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+=4=>=
+=4=@=H=h=
+=4=X=d=l=
+=4>&?
+=4>?>r>
+=4>C>c>q>
+=5=S=
+=5>D>U>]>b>p>
+=5^:>
+=6=>=f=u=
+=6=F=
+=6=G=M=a=
+=6>"?:?U?p?
+=8=\=h=p=
+=8?<?@?D?H?L?P?T?
+=;=a=i=
+==>F>K>`>s>
+=>=E=L=O>
+=?>\>a>m>y>
+=ABGRu*
+=AMDiu
+=Authu
+=C=o=
+=F=6?v?
+=F>U>
+=F>X>
+=F?X?
+=G=o=
+=G>m>
+=Genuu
+=H=N=
+=J>T>^>g>
+=L>P>T>\>`>d>h>l>p>t>x>|>
+=M=q=w=
+=N>W>`>i>n>s>z>
+=P?i?
+=Q=f=p=
+=Q=n=
+=Q>z>
+=R>X>
+=T>X>\>
+=V>^?d?
+=V>e>
+=VYUYt
+=[=v=
+=\=+>Z?
+=\>u>
+=_?y?
+=`=o=
+=abgrt
+=d>i>{>
+=f=u=
+=f>F?
+=f>t>
+=j>q>
+=jSh(/
+=q=J?
+=rIQU
+=svuyt
+>	?"?
+>	?#?q?
+>	?8?g?
+>	?Q?Y?f?
+> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>
+> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+> >$>(>,>0>4>8><>@>D>H>L>P>T>X>`>d>h>l>p>t>x>|>
+> >$>(>,>4>L>\>`>p>t>
+> >%>*>/>4>9>>>C>H>M>R>W>\>q>~>
+> >%>*>/>4>9>>>C>H>Q>V>[>`>e>j>o>t>y>~>
+> >'>0>F>
+> >(>0>l?
+> >,>L>X>x>
+> >0>4>8>@>X>h>l>t>
+> >0>4>D>H>L>T>l>|>
+> >@>L>l>x>
+> >g>
+> ?,?4?T?x?
+> ?E?l?
+> ?G?
+> ?P?
+>!>&>+>0>5>:>?>D>I>N>S>X>]>b>g>l>q>v>{>
+>!>/>@>
+>!>1>6>R>\>e>n>s>x>
+>!>1>A>Q>a>q>
+>!>8>O>
+>!>I>S>X>^>
+>!?(?
+>!?+?7?f?p?|?
+>">)>=>V>^>
+>">)>V>_>h>q>v>{>
+>">B>b>
+>">Z>j>t>~>
+>#>(>
+>#>)>=>\>o>t>
+>#>C>g>
+>#?)?@?T?s?
+>#?*?
+>$>(>9>=>J>N>
+>$>,>L>p>|>
+>$>W>
+>%>O>h>
+>%?9?>?J?V?b?n?z?
+>&>/>8>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+>&>2>9>M>b>
+>&>7>>>H>Y>`>j>{>
+>&>A>J>k>
+>&?5?_?x?
+>&?6?
+>&?O?^?j?y?
+>&?q?
+>'>2>:>D>L>W>]>c>m>w>
+>'?]?
+>'?t?
+>(>4><>\>
+>(>5>@>
+>(>H>P>X>`>l>
+>(>H>P>\>|>
+>(>J>u>~>
+>(>L>h>(?X?
+>+?@?M?Z?e?
+>+?[?
+>,>0>4><>T>d>h>x>|>
+>,><>@>P>T>X>`>x>
+>,>@>K>_>s>~>
+>,>A>h>l>p>t>x>
+>,>E>N>W>`>e>j>x>
+>,?L?
+>,?M?
+>,?X?
+>-?K?i?}?
+>.?[?k?
+>0><>D>d>
+>0>D>T>\>|>
+>0>L>y>
+>0?4?8?<?
+>0?N?^?j?
+>0s0J3
+>2>d>w>
+>3?Y?
+>4>>>
+>4>F>L>S>p>x>
+>5>&?4?U?
+>6>D>S>l>z>
+>6?B?Y?m?
+>6?E?r?
+>7>=>e>m>v>
+>7>>>W>^>w>|>
+>8><>@>D>H>g>x>J?
+>8>@>H>P>X>`>h>t>
+>8>T>
+>8>_>
+>8>l>
+>9>h>
+>9?D?k?
+>:>k>
+>;?E?K?`?t?
+><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+><>H>P>p>
+><>`>l>t>
+>>?P?
+>??D?Y?^?t?~?
+>@>m>
+>A?\?j?p?u?
+>B`E?)\
+>D>h>
+>D>y>
+>E?J?h?|?
+>E?Y?
+>F?U?
+>G>S>v>
+>H>Y>b>n>y>~>
+>H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+>I?T?
+>J>S>\>g>l>q>x>
+>K?p?t?x?|?
+>KPm?
+>L>P>T>
+>Mp$d
+>N>Z>l?
+>S>~>
+>T>\>d>s>
+>V?h?
+>X9t?
+>Y?b?n?x?
+>Z?w?
+>[>i>q>y>
+>]>n>
+>]?c?x?~?
+>^?x?~?
+>a?x?
+>f>u>
+>f?u?
+>f?z?
+>g?l?
+>interface
+>j?o?
+>x>|>
+? ?$?
+? ?$?(?,?0?4?8?<?@?D?H?
+? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?
+? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?h?
+? ?$?(?,?0?4?d?
+? ?$?4?8?<?@?D?H?L?P?T?t?x?
+? ?$?4?8?<?D?\?l?p?x?
+? ?$?R?
+? ?(?0?<?\?d?l?t?|?
+? ?(?@?H?P?\?|?
+? ?4?@?H?h?p?x?
+? ?8?H?L?\?`?d?l?
+? ?D?P?X?x?
+?!?1?A?Q?a?q?
+?"?+?8?>?K?W?a?g?v?
+?"?5?F?K?W?
+?"?B?n?
+?#?(?-?4?a?j?s?|?
+?$?)?.?3?8?=?B?G?L?Q?V?[?`?e?j?o?t?y?~?
+?$?,?4?@?`?h?p?|?
+?$?0?5?w?
+?$?6?
+?$?6?X?o?
+?$?>?K?
+?$?D?h?t?|?
+?$?X?h?t?}?
+?%?,?6?G?N?X?i?p?
+?&?n?
+?&x0O
+?'1(?
+?'?2?=?H?e?v?
+?'?8?I?Z?k?|?
+?(?,?0?4?8?<?D?\?l?p?
+?(?,?<?@?P?T?X?`?x?
+?(?1?9?>?E?
+?(?9?A?J?V?g?o?x?
+?(?T?
+?)?=?\?g?q?
+?)\o?;
+?+?0?6?@?Q?Z?`?n?v?
+?+???^?f?p?
+?,?4?:?A?F?L?k?s?x?
+?,?4?@?`?l?
+?-?>?P?
+?/?H?
+?/?H?t?y?
+?0?4?L?\?`?d?h?l?p?t?x?|?
+?0?8?T?f?l?s?
+?0?<?D?d?
+?0?<?\?h?
+?0?C?j?
+?2?]?
+?2?n?w?
+?333333
+?5?E?P?i?t?
+?6???
+?6?H?
+?6?]?h?
+?8?D?L?l?
+?:?A?Z?a?{?
+?:?D?N?Y?a?k?
+?<unknown>
+?=?V?
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
+??0_Lockit@std@@QAE@H@Z
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
+??1_Lockit@std@@QAE@XZ
+??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_K@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_N@Z
+???D?Q?
+???d?u?
+??Bid@locale@std@@QAEIXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?@?Z?b?u?
+?A?|?
+?F?S?^?d?j?n?t?~?
+?H?Q?Z?c?h?m?t?
+?J?[?
+?Nbp?
+?O?X?a?j?o?t?{?
+?O?d?
+?Q?q?
+?QWPj
+?UUUUUU
+?V?`?j?x?
+?VR_OVERRIDE
+?VUUUUU
+?W?n?
+?Xb&<
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
+?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z
+?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SAIPAPBVfacet@locale@2@PBV42@@Z
+?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ
+?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ
+?_Incref@facet@locale@std@@UAEXXZ
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ
+?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPAV123@ABV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+?_Xbad_alloc@std@@YAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xinvalid_argument@std@@YAXPBD@Z
+?_Xlength_error@std@@YAXPBD@Z
+?_Xout_of_range@std@@YAXPBD@Z
+?always_noconv@codecvt_base@std@@QBE_NXZ
+?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
+?d?y?
+?es-8R
+?ffffff
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
+?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z
+?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ
+?gyro_scale
+?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+?in@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPA_W3AAPA_W@Z
+?j?s?|?
+?out@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
+?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
+?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PAV32@@Z
+?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@_JH@Z
+?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
+?setprecision@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
+?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z
+?swap@?$basic_iostream@DU?$char_traits@D@std@@@std@@IAEXAAV12@@Z
+?swap@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXAAV12@@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@U_Mbstatet@@@2@XZ
+?tellp@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@U_Mbstatet@@@2@XZ
+?u='?
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?uncaught_exception@std@@YA_NXZ
+?uncaught_exceptions@std@@YAHXZ
+?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+?unshift@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PAD1AAPAD@Z
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
+?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@PBD_J@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+@ WPj
+@$(_^
+@$RPj
+@$SPj
+@$WPj
+@(_^[
+@.data
+@.reloc
+@.rsrc
+@0D0H0L0
+@0QPj
+@0WPj
+@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+@SVWj
+@VWj?
+@^8U)zj
+@fff>fff>fff>fff>
+@jdj@
+@tWPj
+A PQV
+A file with this name is already in the pool.
+A protocol message was rejected because it was too big (more than 
+A valid JSON document must be either an array or an object value.
+A(;B(_
+A49A0u"h
+A8PQV
+A;O |
+A;O(r
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ACTIVE
+AD;G$u
+ADVAPI32.dll
+AHJzrJbk
+ALVRDisplayInit
+ALVRInit
+AP;A(|
+ASSERT: "%s" at %s:%d.
+AT;A,|
+AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY
+AUDIO: 
+AUDIO: %s
+AX,0<	w
+AX<0|
+Accessor
+Add Json firmware manifest from %s
+AddBool
+AddDouble
+AddEnum
+AddFloat
+AddInt32
+AddInt64
+AddMessage
+AddString
+AddUInt32
+AddUInt64
+Additional system report data updated for %s
+Adobe
+Ah;A\r
+Ah;A\se
+AjEB#AZ
+Alfred
+Alias
+Already saw decimal point or exponent; can't have another one.
+Already tracking from %d bases
+AnimationChannel
+Anx temp: 
+App CRC invalid
+App Init
+App not found
+Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
+Array length of `emissiveFactor` parameter in material must be 3, but got 
+Assertion failed:  Explicit right sync does not match pending frame
+Asset
+At+Ap
+Attached HID Devices:
+Attempt to add tilt observation to DB for %08X which has never had a dynamic state observation
+Attempted Default Load: 
+Attempted Gold Load: 
+Attempting HID Open %s: %s
+Audio
+AudioBridge
+AudioDeviceChangeNotice (noting refresh): %d, device = %s
+AvRevertMmThreadCharacteristics
+AvRevertMmThreadCharacteristics failed: last error is %d
+AvSetMmThreadCharacteristics failed: last error = %u
+AvSetMmThreadCharacteristicsA
+Available samples not sufficient for booting (%s)
+B [_^]
+B(+B$
+BD9x(u
+BL Init
+BL requested by app
+BL requested by buttons
+BMP RLE
+BP;BTu
+BQ27421
+BQ27520
+BRAND NEW BASE %08X recorded
+BackUp() can only be called after a successful Next().
+Backlight Init
+Backlight Init Error
+Backup reset
+Bad State
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Base %08X (modelid: %d) transmitting faults %s (%08X)
+Base %08X already has pose to global. Not changing anything
+Base %08X axis %d appears to have failed
+Base %08X is learning to get to %08X because of direct observation
+Base %08X is learning to get to global from %08X because of chain
+Base %08X is learning to get to global from %08X because of direct observation
+Base %08X reset count changed.  Base may have been bumped or power cycled.
+Base station driver for %08X rejected by vrserver
+Batman
+Batt: 
+Bellevue1
+Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f
+Bk'o~{
+Boolean default must be true or false.
+Boot to app
+Bootstrap failed because no IMU data was available%s
+Bootstrap pose is out of range at %0.1fm
+BootstrapFinished setting tilt base to %08X
+Boy/Girl
+Buffer
+BufferView
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
+C(PVjPj
+C0f1x1
+C4;C8
+C4PVjXj
+C9P,|
+C;ZX|
+C;^$|
+C;^\|
+CAnimResource
+CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
+CAudioEndpointVolumeCallback::Register
+CBaseConfig
+CBaseConfigAndDynamicState
+CBoneMaskResource
+CDisambiguatorFramer: Non monotonicity in ProcessSensorHit
+CDynamicState
+CHECK failed: !coded_out.HadError(): 
+CHECK failed: !is_closed_: 
+CHECK failed: !out.HadError(): 
+CHECK failed: (&from) != (this): 
+CHECK failed: (&from) != (to): 
+CHECK failed: (&other) != (this): 
+CHECK failed: (backup_bytes_) == (0): 
+CHECK failed: (buffer_size) >= (0): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
+CHECK failed: (count) <= (buffer_used_): 
+CHECK failed: (count) <= (last_returned_size_): 
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (count) >= (0): 
+CHECK failed: (field->message_type()) == (desc): 
+CHECK failed: (field->options().ctype()) == (ctype): 
+CHECK failed: (from.GetDescriptor()) == (descriptor): 
+CHECK failed: (last_returned_size_) > (0): 
+CHECK failed: (message1->GetReflection()) == (this): 
+CHECK failed: (message2->GetReflection()) == (this): 
+CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP): 
+CHECK failed: (output->ByteCount()) == (expected_endpoint): 
+CHECK failed: (size) <= (6): 
+CHECK failed: (temp[0]) == ('1'): 
+CHECK failed: (temp[size-1]) == ('5'): 
+CHECK failed: (to->GetDescriptor()) == (descriptor): 
+CHECK failed: allow_unknown_field_: 
+CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL: 
+CHECK failed: builder_: 
+CHECK failed: dynamic.get() != NULL: 
+CHECK failed: field != NULL: 
+CHECK failed: file != NULL: 
+CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+CHECK failed: has_default_value(): 
+CHECK failed: is_prototype(): 
+CHECK failed: iter != extensions_.end(): 
+CHECK failed: options->ParseFromString(buf): 
+CHECK failed: options_descriptor: 
+CHECK failed: original_uninterpreted_options_field != NULL: 
+CHECK failed: output->message_prototype != NULL: 
+CHECK failed: prototype != NULL: 
+CHECK failed: result != NULL: 
+CHECK failed: trees: 
+CHECK failed: uninterpreted_options_field != NULL: 
+CHECK failed: value.size() <= kint32max: 
+CHeader
+CHidDevice: Can't open USB device VID %08x, PID %08x %s %d
+CImuSample
+CKeyframedDataResource
+CLighthouseHmdDriver::InitTracking
+CLighthouseHmdDriver::RunFrame
+CLighthouseHmdDriver::RunFrame/ControllerState
+CLighthouseHmdDriver::TryUpdateAudioProperties
+CLighthouseHmdProvider::LookForNewDevices
+CLighthouseHmdProvider::RunFrame
+CLighthouseHmdProvider::RunFrame/HapticDispatch
+CLighthouseHmdProvider::RunFrame/LighthouseDB
+CLighthouseHmdProvider::RunFrame/WirelessDeviceDiscovery
+CLighthousePairing::RunFrame
+CMMNotificationClient::Register
+COpticalFrame
+COpticalSample
+CPPTYPE_BOOL
+CPPTYPE_DOUBLE
+CPPTYPE_ENUM
+CPPTYPE_FLOAT
+CPPTYPE_INT32
+CPPTYPE_INT64
+CPPTYPE_MESSAGE
+CPPTYPE_STRING
+CPPTYPE_UINT32
+CPPTYPE_UINT64
+CRecord
+CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....
+CType
+CVRAudioDeviceImpl::CVRAudioDeviceImpl
+CVRAudioDeviceImpl::EnumAudioDevices
+CVRAudioDeviceImpl::GetDeviceSoundVolume
+CVRAudioDeviceImpl::GetIAudioEndpointVolume
+CVRAudioDeviceImpl::GetIMMDevice
+CVRAudioDeviceImpl::IsDeviceSoundVolumeMute
+CVRAudioDeviceImpl::SetDeviceSoundVolume
+CVRAudioDeviceImpl::SetDeviceSoundVolumeMute
+CVRAudioDevices::GetDefaultAudioDevice
+CVRAudioDevices::Refresh
+CVec3
+Cal Fail
+Calibration failed
+Camera
+Can't 
+Can't create connection to %s for Bluetooth services.
+Can't create lighthouse connection to %s
+Can't get here.
+Can't get here: failed to get default value as string
+Can't parse HMD config from USB: %s
+CancelIo
+Cannot allocate buffer larger than kint32max for 
+CertCloseStore
+CertFindCertificateInStore
+CertFreeCertificateContext
+CertGetNameStringA
+Clamping MC to %d (%0.1f%%) %d (%0.1f%%)
+ClearField
+CloseHandle
+CloseServiceHandle
+CoCreateInstance
+CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x
+CoInitializeEx
+CoInitializeEx, hr = 0x%08x
+CoTaskMemFree
+CoUninitialize
+Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x
+Could add as alternate, but disallowed by LighthouseDB
+Could boot, but disallowed by LighthouseDB
+Could not create an instance of 
+Could not find field named "
+Could not find field type.
+Could not find monitor of expected size %d x %d Attached monitors: %d
+Could not open "%s": %s
+Could not open device %u, %u, %s to read its config
+Could not open replay file "
+Could not read header from file "
+Couldn't parse default value "
+CreateDXGIFactory2
+CreateDirectoryW
+CreateEventA
+CreateEventEx failed
+CreateEventExA
+CreateEventW
+CreateFileA
+CreateMediaType(pwfxIn) failed hr = 0x%08x
+CreateMediaType(pwfxOut) failed hr = 0x%08x
+CreateProcessAsUserA
+CreateProcessAsUserW
+CreateResampler failed: hr = 0x%08x
+CreateResamplerBuffer (input) failed: hr = 0x%08x
+CreateResamplerBuffer (output) failed: hr = 0x%08x
+CreateThread
+CreateThread for playback failed: last error is %u
+CreateWindowExA
+Creating new universe %llu because there were no %sexisting universes
+Creating playback mirror thread for device %s
+CryptDecodeObject
+CryptMsgClose
+CryptMsgGetParam
+CryptQueryObject
+Ct;Cxu
+DISABLED
+DISTORT_DPOLY3
+DISTORT_DPOLY3_SCALED
+DISTORT_DPOLY4_PANELSCALE
+DISTORT_DPOLY4_QUADRATIC_TILT
+DISTORT_DPOLY4_SCALED
+DISTORT_EXTENDED_FTHETA
+DISTORT_FOV1
+DISTORT_FOV2
+DISTORT_FOV3
+DISTORT_FTHETA
+DISTORT_NONE
+DISTORT_POLY2
+DISTORT_POLY2_TANGENT
+DISTORT_POLY3
+DISTORT_POLY3_TANGENT
+DISTORT_R1_POLY_4
+DISTORT_RPOLY2_1
+DISTORT_RPOLY2_2
+DISTORT__COUNT
+DP Init
+DVWj1
+DVWjQ
+Data Invalid
+Deckard Mini-D
+Deckard POC-A
+Deckard POC-C
+DefWindowProcA
+Default value for an enum field must be an identifier.
+Defaulting Edid to TSB and 0x8888 because we don't know it
+Delayed State Change
+DeleteCriticalSection
+DeleteFileW
+DescriptorProto
+DescriptorProtosH
+DestroyWindow
+Detected %d playback and %d record devices
+Dev Error
+Device %s powering off upon entering standby.
+Device %s requires driver %s, which is not present
+Device JSON: Found entry... overriding TrackedCameraCalibrations extrinsics
+Device JSON: Overriding Head Position (%s)
+Device JSON: Overriding IPD control to enabled (%s)
+Device JSON: Overriding display_color_mult
+Device JSON: Overriding incorrect device normal (%s)
+Device JSON: Overriding input_profile (%s)
+Device JSON: Overriding input_profile to %s (%s)
+Device JSON: Overriding proximityEnable to %d (%s)
+Device JSON: Overriding resource_root (%s)
+Device JSON: Overriding subpixel_shift (%s)
+DeviceIoControl
+DeviceMessageWindow_t::RunFrame
+Devices with no on-device calibration are not supported in the Lighthouse driver.
+DigiCert Inc1
+DigiCert Timestamp 2022 - 20
+DigiCert Trusted Root G40
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+Disabled
+Disabled by Config
+Discarded IMU sample in ImuOnlyTracker because they were backing up.
+Discarding %u haptic events because there were too many this frame
+Discarding duplicate universe %llu at index %d when parsing db json file %s
+DispatchMessageA
+Display
+DisplayFPGA
+Disregard world_from_global entry in universe %llu
+Distortion_Type
+Dongle
+DongleV2
+Dropped %s during the previous tracking session
+Duplicate basestation serials detected.
+Duplicate key: '
+E(VSP
+E,Ph 
+ECameraHAL_OpenError_ToString
+ERROR
+ERROR: Expected 2 float args, '
+ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
+ERROR: GetEdidId (%d)
+ERROR: GetVideoConfig (%d)
+ERROR: No display or device
+ERROR: SetEdidId (%d)
+ERROR: SetVideoConfig (%d)
+Edid already edid_id %d, no change needed
+Empty escape sequence in string
+Empty file.
+End-of-file inside block comment.
+Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x
+Endpoint topology GetConnector(0) failed: hr = 0x%08x
+EnterCriticalSection
+Entered Debug
+Entry #
+Enum type "
+EnumAudioEndpoints failed: hr = 0x%08x
+EnumDescriptorProto
+EnumDisplayDevicesA
+EnumDisplayMonitors
+EnumOptions
+EnumValueDescriptorProto
+EnumValueOptions
+Enumerating displays...
+Enums must contain at least one value.
+Error - IMU Sample IOBuffer can't be or is already established (%p,%llX)
+Error SetVideoConfigAndWaitForDisplayReenumeration
+Error creating component: %d (%s) in %s
+Error getting Watchman HMD Status.
+Error getting Watchman Status.
+Error loading HMD overrides from file
+Error loading MC data '%s'
+Error loading MC data. Buffer too small to contain image.
+Error loading MC info '%s'
+Error loading device profile: %s
+Error on GetFeatureReport
+Error on Watchman_Feature_EdidEnumerate
+Error on Watchman_Feature_EdidInfo
+Error on reply_version
+Error parsing all digits of rootserial. Skipping overrides
+Error parsing device profile JSON: %s: %s
+Error parsing text-format 
+Error querying Index HMD panel stats
+Error querying IndexHmdColumnCorrectionMode
+Error reading tracked device config from path 
+Error setting column correction
+Error setting index audio mute state
+Error setting index backlight gain
+Error unzipping config data: %s
+Error while parsing option value for "
+Error! Unable to load firmware manifest %s after allocating memory
+Error: Override File %s cannot be read
+Error: Override File %s crc mismatch. Actual: %08X, expected %08X 
+Error: Override File %s defined unknown format %d (expected 0x01)
+Error: Override File %s is empty.
+Error: Override File %s is not a valid override file (magic number mismatch)
+Error: Override File %s is too small, or cannot be read
+Error: Override File %s is too small. Actual size: %d, expected size %d 
+Error: Override File does not have entry for device key 0x%08X
+Error: Override file %s exceeds maximum size %d
+Errors when parsing lighthouse database %s:
+Errors!
+EventRegister
+EventUnregister
+Exceeded stackLimit in readValue().
+ExpandEnvironmentStringsA
+ExpandEnvironmentStringsW
+Expect a decimal number.
+Expected "
+Expected MC Images:
+Expected double.
+Expected eight hex digits up to 10ffff for \U escape sequence
+Expected four hex digits for \u escape sequence.
+Expected hex digits for escape sequence.
+Expected identifier.
+Expected integer or identifier.
+Expected integer.
+Expected string.
+Extension "
+Extension conflicts with extension already in database: extend 
+Extension factory's GetPrototype() returned NULL for extension: 
+Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
+Extension number $0 has already been used in "$1" by extension "$2".
+Extension numbers cannot be greater than $0.
+Extension numbers must be positive integers.
+Extension range $0 to $1 includes field "$2" ($3).
+Extension range $0 to $1 overlaps with already-defined range $2 to $3.
+Extension range end number must be greater than start number.
+ExtensionRange
+Extensions of MessageSets must be optional messages.
+Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
+Extra non-whitespace after JSON value.
+Eye Displays must be adjacent: left (%d, %d), right (%d, %d)
+F ;FLu9h V
+F C+F
+F G+F
+F WPj
+F hH\
+F!WPj
+F"WPj
+F#WPj
+F$_^[
+F(+F$
+F(;G(
+F(Q9F,t
+F(SPj
+F(Wj0
+F(cannot determine missing fields for lite message)
+F(j4f
+F)SPj
+F*SPj
+F,;F0
+F,;F0~
+F,;N0
+F,;V0
+F,C+F(
+F,[_3
+F09F,uu
+F49Y0u
+F8hpb
+F;w |
+F;w(|
+F;w,|
+F;w4|
+F;w8|
+F;w`|
+F<9F8uu
+F<I#NDW
+F<J#VD
+F<WPj
+F<\uD
+F=WPj
+F>9F0~
+F>WPj
+F@hID
+FATAL
+FH;FDu
+FHWPj	
+FH_^]
+FIWPj
+FJWPj
+FLQ9FPt
+FORMAT=32-bit_rle_rgbe
+FPGA susp: 
+FS callback[s] not set
+FU:C9t
+FW App
+FW Assert
+FW BL
+FW Update Finish
+FW Update Load
+FW Update Start
+FX,0<	
+FX< t
+FX<"u
+FX<*tM</tI<
+FX</u&
+FX<0t
+FX<0|
+FX<a|
+FX<et
+FX<ft
+FX<xt
+Failed to create IMU IOBuffer for %d (error=%d, handle=%d)
+Failed to create window in DeviceMessageWindow_t::Create
+Failed to decode 'uri' : 
+Failed to decode 'uri' for image[
+Failed to find entrypoint WINRT_AcquireDisplay
+Failed to find entrypoint WINRT_GetAdapterLuid
+Failed to find entrypoint WINRT_GetCurrentDriverVersion
+Failed to find entrypoint WINRT_GetDeviceString
+Failed to find entrypoint WINRT_GetDisplayMode
+Failed to find entrypoint WINRT_GetSurfaces
+Failed to find entrypoint WINRT_HasDisplay
+Failed to find entrypoint WINRT_Initialize
+Failed to find entrypoint WINRT_Present
+Failed to find entrypoint WINRT_Release
+Failed to find entrypoint WINRT_ReleaseDisplay
+Failed to find entrypoint WINRT_WaitForPresent
+Failed to get HINSTANCE in DeviceMessageWindow_t::Create
+Failed to load external 'uri' for image[
+Failed to parse JSON object
+Failed to parse `bufferView` for image[
+Failed to parse `uri` for image[
+Failed to read config when activating watchdog on button press: %s
+Failed to read file: 
+Failed to register/find class in DeviceMessageWindow_t::Create
+Failed to send pairing result mailbox message. Maybe it didn't have a return address?
+Failed to send reply to discover_dongles message: %d
+Failed to start pairing on dongle %s
+False
+Field "
+Field does not match message type.
+Field is repeated; the method requires a singular field.
+Field is singular; the method requires a repeated field.
+Field number $0 has already been used in "$1" by field "$2".
+Field numbers $0 through $1 are reserved for the protocol buffer library implementation.
+Field numbers cannot be greater than $0.
+Field numbers must be positive integers.
+Field with message or enum type missing type_name.
+Field with primitive type has type_name.
+FieldDescriptorProto
+FieldDescriptorProto.extendee not set for extension field.
+FieldDescriptorProto.extendee set for non-extension field.
+FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
+FieldDescriptorProto.oneof_index should not be set for extensions.
+FieldOptions
+FieldSize
+Fields of oneofs must themselves have label LABEL_OPTIONAL.
+File already exists in database: 
+File appears to be in generated pool but wasn't registered: 
+File is already registered: 
+File is empty : 
+File not found : 
+File open error : 
+File open error for writing : 
+File read error : 
+File recursively imports itself: 
+File size mismatch : 
+File write error: 
+File: 
+FileDescriptorProto
+FileDescriptorSet
+FileOptions
+Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
+Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
+Firmware
+First argument to Swap() (of type "
+First argument to SwapFields() (of type "
+Fl+Fp=
+Flextronics
+Flf+Fp
+Found Direct Mode Display
+Found default audio playback device %s, VID:%04x/PID:%04x %s
+Found default audio recording device %s, VID:%04x/PID:%04x %s
+Found per-device override of unhandled type %d
+Found two different DeviceIDs for monitor %s: %s and %s
+Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).
+Framer sensorType: %d
+Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d
+FreeLibrary
+Fuel Gauge Reset
+Full base station info: >>>%s<<<
+Future Model
+G PVj
+G!+G%
+G$;FDt
+G(SPj
+G(SPj!
+G,9r8~*3
+G49rH~*3
+G4^_]
+G4_^[
+G8h`O
+G;~$|
+G;~(|
+G;~,|
+G;~0|
+G;~8|
+G;~<|
+G;~D|
+G;~H|
+G;~L|
+G;~T|
+G;~X|
+G;~\|
+G;~d|
+G;~d}
+G;~h|
+G;~l|
+G;~t|
+G;~x|
+G<9ZX~t
+G@+G<
+GD)wp)wl)w\
+GD9r(~23
+GH+G@
+GH+G@HP
+GH+G@P
+GLOG_alsologtoemail
+GLOG_alsologtostderr
+GLOG_colorlogtostderr
+GLOG_log_backtrace_at
+GLOG_log_dir
+GLOG_log_link
+GLOG_log_prefix
+GLOG_logbuflevel
+GLOG_logbufsecs
+GLOG_logemaillevel
+GLOG_logfile_mode
+GLOG_logmailer
+GLOG_logtostderr
+GLOG_max_log_size
+GLOG_minloglevel
+GLOG_stop_logging_if_full_disk
+GLOG_v
+GLOG_vmodule
+GOOGLE_ALSOLOGTOSTDERR
+GOOGLE_LOGTOSTDERR
+GOOGLE_LOG_DIR
+GPJMtG
+GWPhT
+General reset
+Generating hidden area mesh for mode "%d" %s
+GetACP
+GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+GetBool
+GetCameraHALInterface
+GetClassInfoA
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x
+GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x
+GetDefaultAudioEndpoint failed: hr = 0x%08x
+GetDouble
+GetEnum
+GetEnvironmentVariableA
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
+GetExitCodeThread
+GetFileAttributesExW
+GetFileAttributesW
+GetFileVersionInfoSizeW
+GetFileVersionInfoW
+GetFloat
+GetFullPathNameW
+GetInt32
+GetInt64
+GetLastError
+GetMediaSubtype failed hr = 0x%08x
+GetMessage
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetMonitorInfoA
+GetOverlappedResult
+GetProcAddress
+GetRepeatedBool
+GetRepeatedDouble
+GetRepeatedEnum
+GetRepeatedFloat
+GetRepeatedInt32
+GetRepeatedInt64
+GetRepeatedMessage
+GetRepeatedString
+GetRepeatedStringReference
+GetRepeatedUInt32
+GetRepeatedUInt64
+GetStdHandle
+GetString
+GetStringReference
+GetSystemDirectoryW
+GetSystemPowerStatus
+GetSystemTimeAsFileTime
+GetTickCount64
+GetUInt32
+GetUInt64
+GetWindowLongA
+Getting devnode property store failed: hr = 0x%08x
+Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
+Gl;Gx|fj#h
+Gp_^]
+H*0"ZOW
+H;r8|
+H;s$|
+H;s(|
+H;w$|
+H;~(|
+HAPTICDEBUG %s:%d age: %f	 sec: %f	 freq: %f	 amp: %f
+HG;{(|
+HID opened: VID %04x PID %04x serial %S seq %d | if %d
+HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
+HMD Model: %s
+HMD Report:
+HSVWj
+HSVj8
+HTC SR-1
+HTC V2-XC
+HTC V2-XD/XE
+HTC Vive
+HTC Vive Developer Edition
+HTC Vive Pro
+HTC-VIVE
+HWID Signature not found
+HWPRQ
+HXWSR
+HasField
+Hex and octal numbers must be integers.
+Hid not open
+HidD_FreePreparsedData
+HidD_GetAttributes
+HidD_GetFeature
+HidD_GetIndexedString
+HidD_GetManufacturerString
+HidD_GetPreparsedData
+HidD_GetProductString
+HidD_GetSerialNumberString
+HidD_SetFeature
+HidP_GetCaps
+HmdDeviceConnect( %u, %u, %llu, %llu )
+HmdDriverFactory
+IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x
+IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u
+IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x
+IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x
+IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x
+IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x
+IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x
+IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x
+IAudioClient::GetDevicePeriod failed: hr = 0x%08x
+IAudioClient::GetDevicePeriod hnsDefaultDevicePeriod = %4.2fms
+IAudioClient::GetDevicePeriod hnsMinimumDevicePeriod = %4.2fms
+IAudioClient::GetMixFormat failed: hr = 0x%08x
+IAudioClient::GetService(IAudioCaptureClient) failed: hr = 0x%08x
+IAudioClient::GetService(IAudioRenderClient) failed: hr = 0x%08x
+IAudioClient::Stop failed: hr = 0x%08x
+IAudioClientFrom::GetBufferSize failed: hr = 0x%08x
+IAudioClientFrom::Initialize failed: hr = 0x%08x
+IAudioClientFrom::Start failed: hr = 0x%08x
+IAudioClientTo::GetBufferSize failed: hr = 0x%08x
+IAudioClientTo::Initialize failed: hr = 0x%08x
+IAudioClientTo::IsFormatSupported failed: hr = 0x%08x
+IAudioClientTo::SetEventHandle failed: hr = 0x%08x
+IAudioClientTo::Start failed: hr = 0x%08x
+IAudioEndpointVolume(IAudioClientFrom) supports hardware mute
+IAudioEndpointVolume(IAudioClientFrom) supports hardware volume
+IAudioEndpointVolume::GetMasterVolumeLevel failed: hr = 0x%08x
+IAudioEndpointVolume::GetMasterVolumeLevelScalar failed: hr = 0x%08x
+IAudioEndpointVolume::GetMute failed: hr = 0x%08x
+IAudioEndpointVolume::GetVolumeRange failed: hr = 0x%08x
+IAudioEndpointVolume::QueryHardwareSupport failed: hr = 0x%08x
+IAudioEndpointVolume::SetMasterVolumeLevelScalar failed: hr = 0x%08x
+IAudioEndpointVolume::SetMute failed: hr = 0x%08x
+IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer
+IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
+IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
+ICE40
+IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
+IMFMediaBuffer::Lock failed: hr = 0x%08x
+IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
+IMFMediaBuffer::Unlock failed: hr = 0x%08x
+IMFSample::AddBuffer failed: hr = 0x%08x
+IMFTransform->SetInputType failed hr = 0x%08x
+IMFTransform->SetOutputType failed hr = 0x%08x
+IMFTransform::ProcessInput failed: hr = 0x%08x
+IMFTransform::ProcessOutput failed: hr = 0x%08x
+IMMDevice invalid ID: %ls -> %s
+IMMDevice::Activate failed(IAudioEndpointVolume): hr = 0x%08x
+IMMDevice::Activate failed: hr = 0x%08x
+IMMDevice::Activate(IAudioClientFrom) failed: hr = 0x%08x
+IMMDevice::Activate(IAudioClientTo) failed: hr = 0x%08x
+IMMDevice::GetId failed: hr = 0x%08x
+IMMDevice::GetState failed: hr = 0x%08x
+IMMDevice::Item(%u) failed: hr = 0x%08x
+IMMDevice::OpenPropertyStore failed: hr = 0x%08x
+IMU Tracker
+IMU data received again...
+IMU misalignment unreasonably large 
+IMU off scale
+IMU only!
+IMU samples
+IMU went off scale.
+INFO: firmware_config %s
+INVALID
+INVALID_CPPTYPE
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG
+IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND
+IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_005
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRCameraComponent_003
+IVRChaperoneInternal_001
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorPluginProvider_001
+IVRCompositorSystemInternal_001
+IVRControlPanel_006
+IVRDebug_001
+IVRDisplayComponent_002
+IVRDriverDirectInternal_XXX
+IVRDriverDirectModeComponent_008
+IVRDriverInput_003
+IVRDriverLog_001
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRIOBuffer_002
+IVRInputInternal_002
+IVRInput_010
+IVRMCStore_001
+IVRMailbox_002
+IVROverlayInternal_XXX
+IVROverlay_025
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRServerDriverHost_006
+IVRServer_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+IVRVirtualDisplay_002
+IVRWatchdogHost_002
+IVRWatchdogProvider_001
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+IiGM>nw
+Image data is empty for image[
+Image height mismatch. for image[
+Image width mismatch for image[
+ImageBridge
+Import "
+In BL: 
+Index
+Index Controller CreateSkeletonComponent failed.  Error: %i
+Index HMD
+Index out-of-bounds (field is empty).
+Infinity
+InitCameraHAL
+InitTrackedCamera(): Disabling camera on (%s) due to required recovery firmware update. Camera services restricted.
+InitTrackedCamera(): Disabling camera on (%s) due to vr settings. Camera services restricted.
+InitTrackedCamera(): Failed to find expected interface on (%s). Camera services not available.
+InitTrackedCamera(): Failed to find primary configuration for camera on (%s). Camera services not available.
+InitTrackedCamera(): Failed to get compatibility mode for camera on (%s). Camera services not available.
+InitTrackedCamera(): Failed to get firmware description for camera on (%s). Camera services not available.
+InitTrackedCamera(): Failed to get firmware version for camera on (%s). Camera services not available.
+InitTrackedCamera(): Failed to open expected camera on (%s): %s. Camera services not available.
+InitTrackedCamera(): Failed to set video format for camera on (%s). Camera services not available.
+InitTrackedCamera(): Forcing camera exposure time to %2.2f %s
+InitTrackedCamera(): Forcing camera framerate to %d %s
+InitTrackedCamera(): Forcing camera gain to %2.2f %s
+InitTrackedCamera(): Forcing camera white balance to %d %s
+InitTrackedCamera(): No calibration configuration for camera found on (%s). Camera services not available.
+InitTrackedCamera(): Opened tracked camera on (%s). Compatibility Mode:%d. %s
+InitTrackedCamera(): Rejecting camera on (%s) due to vr settings. Camera services not available.
+InitTrackedCamera(): no ISP configurations specified in device json (%s). Camera services not available.
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+Integer out of range.
+InterlockedDecrement
+InterlockedIncrement
+Interpreting non ascii codepoint %d.
+Invalid
+Invalid Arg
+Invalid Device
+Invalid HMD interrupt packet length %u
+Invalid HMD interrupt packet tag %X
+Invalid TDM lock on matched serial / phase.
+Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
+Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
+Invalid `componentType` in accessor. Got 
+Invalid binary data in `Buffer'.
+Invalid camera type: "
+Invalid control characters encountered in text.
+Invalid data!
+Invalid escape sequence in string literal.
+Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
+Invalid file size : 
+Invalid float number: 
+Invalid glTF binary.
+Invalid image data for image[
+Invalid magic.
+Invalid proto descriptor for file "
+Invalid public dependency index.
+Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Invalid report version %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Invalid strings::Substitute() format string: "
+Invalid symbol name: 
+Invalid universe ID %llu when parsing universe
+Invalid value for boolean field "
+Invalid weak dependency index.
+Invalid wire type for CPPTYPE_INT32: 
+Invalid wire type for CPPTYPE_INT64: 
+Invalid wire type for CPPTYPE_MESSAGE: 
+Invalid wire type for CPPTYPE_UINT32: 
+Invalid wire type for CPPTYPE_UINT64: 
+Invalid.
+IsDebuggerPresent
+IsManual
+IsProcessorFeaturePresent
+IsWow64Process
+J0+J(
+J>@G_
+JSON Update
+JSON string too short.
+JSONuTS
+Jd;J`}
+K0Z0l0
+K1Y1#3
+K8+K4
+KDWVP
+KERNEL32.dll
+KHR_lights_punctual
+Knuckles
+Knuckles EV1.3
+Knuckles EV1.4
+K}*n:	
+L=333?O
+L?n(Zy&
+LABEL_OPTIONAL
+LABEL_REPEATED
+LABEL_REQUIRED
+LG Prototype
+LHB-%08X
+LHR-%08X
+LHR-00000000
+LINEAR
+LITE_RUNTIME
+LPC11 App
+LPC11 BL
+Label
+Last sample %d %lf %lf
+LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+Lighthouse %s HID device error
+Lighthouse %s HID opened
+Lighthouse DB Base station %08X has a zero serialNumber in JSON
+Lighthouse DB Base station %08X has no serialNumber in JSON
+Lighthouse HMD failed sanity-check
+LighthouseDirect
+LighthouseDirect:  Unexpected backwards optical sample time
+LighthouseDirect: Optical data at time %.6f < filter at %.6f%s
+LighthouseUSB
+Line %d, Column %d
+Line: 
+LiquidVR
+LoadLibraryA
+LoadLibraryExW
+LoadLibraryW
+Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f
+Loading MC file '%s'
+Loading of firmware manifest file (%s) not successful: (%d)
+Loading override file: %s
+LocalAlloc
+LocalFree
+Location
+Log Erase
+Looking for default audio playback device matching VID:%04x/PID:%04x %s
+Looking for default audio recording device matching VID:%04x/PID:%04x %s
+Lost default audio playback %s
+Lost default audio recording %s
+L~Zs@
+M$SVW
+M2:3>4r4M5m7
+MAX10
+MB(iVR
+MFCreateMediaType
+MFCreateMemoryBuffer
+MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
+MFCreateSample
+MFCreateSample failed: hr = 0x%08x
+MIPI Init
+MIPI Init Error
+MSVCP140.dll
+Mailbox %s received message %s, which it didn't have a handler for
+MainSteamVR
+MainThrd
+ManualURL
+Mark 1
+Mark 2
+Mark 3
+Mark 4
+Max watchdog reset count
+Mb ?QFo
+MbP?GUQ?
+Mb`?|
+Mbp?USERNAME
+Message class "
+Message extensions cannot have required fields.
+Message missing required fields: 
+Message type "
+MessageBoxA
+MessageOptions
+MessageSets cannot have fields, only extensions.
+Messages can't have default values!
+Messages can't have default values.
+MethodDescriptorProto
+MethodOptions
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Mirroring from %s to %ls
+Mirroring is same as source %s, not mirroring
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+Missing String for %s (%d)
+Missing base serial number in base universe reference
+Missing base station array when parsing universe %llu
+Missing field: FileDescriptorProto.name.
+Missing name.
+Missing required param "filename"
+Missing target pose in base universe reference
+Moving base %08X %.0fmm and %.1f deg because of relationship with %08X, which is closer to the origin
+MultiByteToWideChar
+Multiple TDM masters in mode B.
+Multiple TDM slaves in mode A/C.
+Multiple basestations locked to same phase. Please confirm TDM cable is plugged in and bases are in proper A/B modes.
+MutableRawRepeatedField
+MutableRepeatedMessage
+N(9N0u
+NJ2"v
+NOTPRESENT
+NRF52
+NRF52 DTM
+NVIDIA Corporation
+NVIDIA Corporation PE Sign v2016
+NVIDIA Subordinate CA
+NVIDIA Subordinate CA 2016 v2
+NamePart
+Nd;N`}
+Need space between identifier and decimal point.
+Need space between number and identifier.
+Neither required `bufferView` nor `uri` defined for image[
+Neo V0
+New App Version
+New BL Version
+New HWID
+New Normal: %f %f %f 
+New Radio Version
+New sample  %d %lf %lf (end diff: %lf)
+Nl#N4
+No IMU data in past %d seconds
+No LoadImageData callback specified.
+No additional system report data for %s:
+No base stations seen...
+No default audio device found to listen to
+No default value
+No field named "uninterpreted_option" in the Options proto.
+No optical frames in past %d seconds
+Nodet3
+Non-Production BL
+Non-primitive types can't be packed.
+Non-repeated field "
+NormalTextureInfo
+Not enough contiguous samples for a bootstrap pose
+Not generating hidden area meshes for unknown hidden area mode %d
+Not the preferred basestation
+Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
+Numbers starting with leading zero must be in octal.
+NvAPI
+NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!
+NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
+NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d
+O	u~w
+O*9y]
+O,_^[
+O8j%h
+O8j(h`X
+O8j1h
+OH_^[
+OLocalizationManager
+OPAQUE
+OZw3(?
+Object
+Old Normal: %f %f %f 
+OnDefaultDeviceChanged: flow = %s, role = %s, device = %s
+OnDeviceAdded: device = %s
+OnDeviceRemoved: device = %s
+OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s
+Oneof must have at least one field.
+OneofDescriptorProto
+Only one of `bufferView` or `uri` should be defined, but both are defined for image[
+Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+OpenSCManagerW
+OpenServiceW
+OpenVR
+Operation Failed
+Optical
+Optical frames received again...
+OptimizeMode
+Option "
+Option field "
+Option must have a name.
+Option must not use reserved name "uninterpreted_option".
+Orhographic camera description not found.
+Original Left Camera Extrinsics: %s
+Original Right Camera Extrinsics: %s
+Original shift blue in pixels: %f %f
+Original shift red in pixels:  %f %f
+Original: %f %f %f 
+OrthographicCamera
+Ot+Op
+Out of thread local storage!
+OutputDebugStringA
+OutputDebugStringW
+P _^[]
+P$_^[
+P$_^]
+P(_^[
+P9O t
+P;r(|
+P;s<|
+P;s@|
+P;w<|
+P;~@|
+PAq=?Mp#
+PG;{@|
+PH90trj@h
+PH90trjMh
+PLACEHOLDER_VALUE
+PLAY-
+PQSVW
+PQh,u
+PQh@[
+PQh@z
+PQj!f
+PRISM_AcquireDisplay
+PRISM_ClientDisconnected
+PRISM_CreateDisplayFactory
+PRISM_CreateInstance
+PRISM_CreateMotionEstimator
+PRISM_DestroyDisplayFactory
+PRISM_DestroyInstance
+PRISM_DestroyMotionEstimator
+PRISM_DumpHistory
+PRISM_GetConnectedDisplays
+PRISM_GetDisplayModes
+PRISM_GetDisplaySubsystems
+PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPoseProvider
+PRISM_HmdActivated
+PRISM_Initialize
+PRISM_RegisterDisplaySubsystem
+PRISM_RegisterLogCallback
+PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPoseProviderSubsystem
+PRISM_ReleaseDisplay
+PRISM_Run
+PRISM_RunFrame
+PRISM_SetDisplayMode
+PRISM_SetFrameInfoCallback
+PRISM_Shutdown
+PRISM_Stop
+PRVQh
+PShPt
+PWh$`
+P`]s 
+P`]sG
+Pairing Failed
+Pairing Start
+Pairing Success
+Panel Init
+Panel Init Error
+Panic in TDM. basestation offset is invalid: %f
+Parse error: 
+Parse failed for JSON message in mailbox %s: %s
+Parse of lighthouse scale JSON "%s" failed: %s
+Parsing LighthouseDB from file %s
+Parsing of JSON file "%s" failed: %s
+Parsing of JSON string "%s" failed: %s
+Path_Exists( absFilePath )
+PeekMessageA
+PeripheralApplication
+Perspective camera description not found.
+PerspectiveCamera
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+PjCh`5
+Primitive
+Pro Audio
+PropVariantClear
+Protocol Buffer reflection usage error:
+Protocol message serialized itself in invalid fashion.
+Protocol message was modified concurrently during serialization.
+Prototype
+Pz}b!
+P{1q}0
+Q0]0 1&1=1Q1p1
+Q9F t
+QPQPh
+QPWhT
+QPhtS
+QT_[3
+Qj#h e
+Qk6eV5RE
+Qkkbal
+QueryPerformanceCounter
+QueryPerformanceFrequency
+QueryServiceConfigW
+R(_^]
+R0n0|0
+R1h58
+R8F;u
+RENDERDOC_GetAPI
+RHhx 
+RPCRT4.dll
+RSDS%
+Radio
+RaiseException
+Reached an unintended state: CPPTYPE_MESSAGE
+ReadFile
+Reading dangerously large protocol message.  If the message turns out to be larger than 
+Received mirror reset event
+Received mirror reset event after %u passes, %llu samples
+Received mirror stop event
+Received mirror stop event after %u passes, %llu samples
+RecommendedRenderTargetSize: %u, %u (viewport %u, %u scaled by %.2f)
+Recording to "%s"
+Refreshing audio devices
+RegCloseKey
+RegEnumValueW
+RegOpenKeyExW
+RegQueryValueExW
+RegisterClassA
+RegisterDeviceNotificationA
+ReleaseLast
+ReleaseMessage
+RemindVersion
+RemoveLast
+RenderDoc connected
+Repeated fields can't have default values.
+ReplaceFileW
+Replay failed to parse base configuration: 
+Replay failed to parse base dynamic state: 
+Reset
+Reset Video Error
+ResetEvent
+Resetting all state to synchronize with recording...
+Resetting tracking
+Restart
+ResumeThread
+Returning failure when parsing lighthouse DB from %s because of base station errors
+Returning failure when parsing lighthouse DB from %s because of universe errors
+Right
+Robin
+Robin 2
+RootSerial %s
+Rotors on basestation out of 180-degree phase lock.
+RtlGetNtVersionNumbers
+S0Q0O
+S9~D~;
+S;~<t\;~@tW
+S<.uW
+SA|X=G
+SCALAR
+SETUPAPI.dll
+SHELL32.dll
+SHGetFolderPathW
+SNRtt(
+SOB total=
+SOB: add 
+SOB: drop 
+SPB8t
+SPB8u
+SPEED
+SRB-0
+SSVRP
+STEAMVR_VERBOSE_HAPTIC_LOG
+STEREO_DEV_BENCRUSHER2_MICROVISION
+STEREO_DEV_BENCRUSHER_MICROVISION
+STEREO_DEV_DANHAT_EMAGIN_SXGA
+STEREO_DEV_DEANPHOTONBLASTER
+STEREO_DEV_JERI_RETRO_MARK1
+STEREO_DEV_LUMUS_DK_32
+STEREO_DEV_LUMUS_DK_32_DUALCB
+STEREO_DEV_NUM
+STEREO_DEV_NVIS_ST50
+STEREO_DEV_NVIS_ST50_MARK2
+STEREO_DEV_NVIS_ST60
+STEREO_DEV_OCULUS_RIFT_FLIP_UPWARD
+STEREO_DEV_ST1080_FLIP_FORWARD
+STEREO_DEV_ST1080_FLIP_UPWARD
+STEREO_DEV_ST1080_UPWARD_GLUE_GUN_SPECIAL
+STEREO_DEV_TEST
+STEREO_DEV_VUZIX_STAR_1200
+STRING
+STRING_PIECE
+SVPhLo
+SVW9U
+SVW;E
+SVW;M
+SVWPj
+SVWhX
+SVWj0j
+SVWj8
+SVWj<
+SVWj=
+SVWjA
+SVWtN
+SVj%hx
+SWSRP
+Samples didn't yield successful bootstrap pose
+Saved LighthouseDB rev %u to %s
+Saw %d early IMU related panics, using factory IMU cal
+Saw %u bases and none are the preferred base %08X
+Saw demod rate %.0f/s, enabling Sync on Beam
+Sc?Nb
+Searching for camera extrinsics calibration override (deviceKey=%08X)
+Second argument to Swap() (of type "
+Second argument to SwapFields() (of type "
+SelectVideoConfig:         refresh=%f
+SelectVideoConfig:     edid_id=%d
+SelectVideoConfig: Could not query watchman firmware version in SelectNonDefaultHmdEdid
+SelectVideoConfig: Current VideoMode EdidId=%d HDCP14LegacyCompat=%d PreEmphSwingValid=%d PreEmphasis=%d Swing=%d
+SelectVideoConfig: DP HDCP14LegacyCompatibility support: %d
+SelectVideoConfig: DP Training Mode support: %d
+SelectVideoConfig: Error GetEdidId failed %d
+SelectVideoConfig: Error Querying PreferredRefreshRate
+SelectVideoConfig: Error Setting Video Config %d
+SelectVideoConfig: Error: GetVideoConfig failed %d
+SelectVideoConfig: HMD has exposed %d EDIDs
+SelectVideoConfig: HMD/FW does not advertise multiple EDIDs.
+SelectVideoConfig: No Video Mode Change required
+SelectVideoConfig: Selecting solo HMD EDID
+SelectVideoConfig: The HMD's current edid (%d) is not in the expected multi-framerate family, so the edid will not be changed
+SelectVideoConfig: Video Mode change required. Alternate HDCP Compatibility mode specified: %d
+SelectVideoConfig: Video Mode change required. Alternate display port training mode specified: %d
+SelectVideoConfig: driver_lighthouse.disableRuntimeEdidOverride=true. Leaving device video mode unchanged
+SelectVideoConfig: driver_lighthouse.forceSoloEdid=true
+Selected existing universe %llu (%08X is %s)
+ServiceDescriptorProto
+ServiceOptions
+Set column correction %f %d %f %d
+Set index backlight gain: %f
+Set initial
+SetAllocatedMessage
+SetBool
+SetDouble
+SetEnum
+SetEvent
+SetFileAttributesW
+SetFloat
+SetInt32
+SetInt64
+SetLastError
+SetRepeatedBool
+SetRepeatedDouble
+SetRepeatedEnum
+SetRepeatedFloat
+SetRepeatedInt32
+SetRepeatedInt64
+SetRepeatedString
+SetRepeatedUInt32
+SetRepeatedUInt64
+SetString
+SetThreadPriority
+SetUInt32
+SetUInt64
+SetUnhandledExceptionFilter
+SetVideoConfig nPreEmphasis %d nSwingLevel %d
+SetVideoConfig to edid_id %d HDCP14LegacyCompat %d
+SetWindowLongA
+Setting %08X as the origin of universe %llu
+Setting Edid VendorID %X and product ID %X from json
+Setting Edid to edid_id %d...
+Setting firmware manifest beta override: %d
+Setting universe tilt from %08X %s: pitch %0.2f deg roll %0.2f deg
+SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInterfaces
+SetupDiGetClassDevsA
+SetupDiGetClassDevsW
+SetupDiGetDeviceInterfaceDetailA
+SetupDiGetDeviceInterfaceDetailW
+SetupDiGetDevicePropertyW
+SetupDiGetDeviceRegistryPropertyW
+SetupGetInfDriverStoreLocationW
+ShellExecuteA
+ShellExecuteExA
+ShellExecuteExW
+ShellExecuteW
+Shutdown
+ShutdownCameraHAL
+Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json
+Sleep
+SleepConditionVariableCS
+Software Reset
+Source: %s -- Preferred basestation %08X
+SourceCodeInfo
+Spot light description not found.
+Stable
+Standby toggled
+Standby unknown hmd
+Start
+Started pairing dongle serial=%s timeout=%f
+Still waiting for Direct Mode Display...
+Stopped tracking with universe %llu
+Stopping playback mirror thread
+Stopping recording...
+String literals cannot cross line boundaries.
+StringFromGUID2
+StringOutputStream.
+Success
+Success: 
+Successfully parsed Lighthouse DB rev %u from %s
+SwSyncDetect %s, primary: %s, alt: %s.  SensorType %d
+SwSyncDetect selected %s
+Switching IMU Only -> Lighthouse
+Switching Lighthouse -> IMU Only
+Symbol name "
+Syntax error: value, object or array expected.
+Sys Temp: 
+Sys clk: 
+T3,9U
+T309L34w
+TADItA
+TDM only works with matched single / double rotor pairs.
+TDM sensorType changed to: %d
+TDM supports max of 2 basestations.
+TDM total=%d invalid_long=%d runt=%d sync_miss=%d samples_in_sync_guard_band=%d
+TEST_TMPDIR
+TYPE_BYTES
+TYPE_DOUBLE
+TYPE_FIXED32
+TYPE_FIXED64
+TYPE_FLOAT
+TYPE_GROUP
+TYPE_INT32
+TYPE_INT64
+TYPE_MESSAGE
+TYPE_SFIXED32
+TYPE_SFIXED64
+TYPE_SINT32
+TYPE_SINT64
+TYPE_STRING
+TYPE_UINT32
+TYPE_UINT64
+Target fw version: 
+Task Suspended
+TdhEnumerateManifestProviderEvents
+TerminateProcess
+Test mode ena: 
+TextureInfo
+The total number of bytes read was 
+This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
+This program requires version 
+This program was compiled against version 
+This shouldn't be called if all the sizes are equal.
+Thread exited immediately
+Thread failed to initialize 1
+Thread failed to initialize 2
+Time: 
+Timed Out
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Too short data size for glTF Binary.
+Tracking thread peak duty cycle %0.0f%% (over %0.1fs).  Blocked in SendOnPoseChange %0.0f%% of that.
+Transition Err
+TranslateMessage
+Tried to merge messages of different types 
+Triggered by system report: 
+Trying to %s %08X: %s
+Tundra Labs
+Tundra Tracker
+Type appears to be in generated pool but wasn't 
+Type is already registered: 
+UNKNOWN
+UNPLUGGED
+USAGE: set_lenscal <device_json_path>
+USB status (rates over 
+USER32.dll
+UUUUUU
+Unable to SetLcmBrightness
+Unable to determine VR Path Registry filename
+Unable to fetch %s to store MC data
+Unable to get IMMDeviceEnumerator, hr = 0x%08x
+Unable to get default from IMMDevice, hr = 0x%08x
+Unable to get to IMMDevice %s, hr = 0x%08x
+Unable to init base station driver for %X
+Unable to init zlib
+Unable to load avrt.dll
+Unable to load bind mfplat.dll and/or avrt.dll
+Unable to load mfplat.dll
+Unable to parse 
+Unable to parse Lighthouse base target pose
+Unable to parse base at index %d in db json file %s
+Unable to parse base station config for info
+Unable to parse base station index %d in universe %llu
+Unable to parse base station info
+Unable to parse dynamic state %d in %08X
+Unable to parse object at index %d in db json file %s
+Unable to parse target pose for base %08X
+Unable to parse token length
+Unable to parse universe at index %d in db json file %s
+Unable to query MC Image size
+Unable to read Lighthouse DB from file %s
+Unable to read VR Path Registry from 
+Unable to read device config for dongle %s device %s (%s). Ignoring it
+Unable to read device config for vid 0x%X pid 0x%X serial %s. Rejecting it
+Unable to read first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X
+Unable to request wireless pairing
+Unable to save backup database for revision %u to %s
+Unable to set room view to '%s' for HMD Hid device
+Unable to set tilt origin from %08X because it has no pose to global but there is already an origin
+Unable to set work state to %d for HMD Hid device
+Unable to store MC image: %s
+Unable to turn on polling for HMD Hid device
+Unable to write database version %u to file %s
+Unexpected WaitForMultipleObjects return value %u
+Unexpected WaitForMultipleObjects return value %u on pass %u
+Unexpected backwards sync by %.3fms S-%d
+Unexpected centroid ordering error %.3fms S-%d
+Unexpected end of string.
+Unexpected failure while serializing option submessage 
+Unexpected sample before sync by %.3fms S-%d
+UnhandledExceptionFilter
+Unidentified
+Unimplemented type: 
+Uninitialized
+UninterpretedOption
+Universe %llu already has an origin, can't set it to %08X
+Unknown
+Unknown Hmd Interrupt packet: report ID %d
+Unknown base %08X in base universe reference
+Unknown entry type
+Unknown enumeration value of "
+Unknown error (%d)
+Unknown exception
+Unknown image format. STB cannot decode image data for image[
+Unknown method: "
+UnregisterClassA
+UnregisterDeviceNotification
+Unsupported `type` for accessor object. Got "
+Updated
+Updated Left Camera Extrinsics: %s
+Updated Right Camera Extrinsics: %s
+Updated shift blue in pixels: %f %f
+Updated shift red in pixels:  %f %f
+Updated:  %f %f %f 
+Updating additional system report data for %s
+Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g
+Use Screen Resolution control panel to fix
+User reset
+UserData
+UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x, max address:0x%x
+UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d
+UserData Error: Unable to send start user data feature report 
+Using default hidden area meshes for model %s
+Using monitor index %d
+Utah DV
+Utah EV1
+Utah EV2
+Utah MP
+UuidFromStringA
+V0d2v2V4[6
+V0g081<1@1D1H1L1P1T1X1\1f1u1
+V2 HMD with bogus trackrefs detected in configuration:
+V2h2!363C3P3[3
+VBus: 
+VCRUNTIME140.dll
+VDEST
+VERSION.dll
+VGWPQh
+VIVE Pro
+VIVE Pro Mutimedia Audio
+VIVE Tracker 3.0
+VIVE Tracker Pro MV
+VIVE_DVT
+VIVE_Pro EVT
+VIVE_Pro MV
+VR Path Registry node %s is not an array
+VRAudioDevices_Init
+VRC-%s
+VRInitError_Compoistor_CreateBackbufferDepth
+VRInitError_Compoistor_CreateInverseDistortUVs
+VRInitError_Compositor_CreateAlphaBlendState
+VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBlendState
+VRInitError_Compositor_CreateBlendStateMaskB
+VRInitError_Compositor_CreateBlendStateMaskG
+VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateClampToBorderSamplerState
+VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
+VRInitError_Compositor_CreateComputeResolveRenderTextures
+VRInitError_Compositor_CreateConstantBuffer
+VRInitError_Compositor_CreateDepthStencilState
+VRInitError_Compositor_CreateDepthStencilStateNoDepth
+VRInitError_Compositor_CreateDepthStencilStateNoWrite
+VRInitError_Compositor_CreateDistortionSurfaces
+VRInitError_Compositor_CreateDriverDirectModeResolveTextures
+VRInitError_Compositor_CreateFallbackSyncTexture
+VRInitError_Compositor_CreateFlushTexture
+VRInitError_Compositor_CreateFontSamplerState
+VRInitError_Compositor_CreateFullscreenWindowFailed
+VRInitError_Compositor_CreateGeomConstantBuffer
+VRInitError_Compositor_CreateHmdPoseConstantBuffer
+VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateLastFrameRenderTexture
+VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerGraphicsTextureIndexConstantBuffer
+VRInitError_Compositor_CreateMSAARenderTextures
+VRInitError_Compositor_CreateMirrorOverlay
+VRInitError_Compositor_CreateMirrorTextures
+VRInitError_Compositor_CreateNoBlendState
+VRInitError_Compositor_CreateOverlayAlreadyInitialized
+VRInitError_Compositor_CreateOverlayConstantBuffer
+VRInitError_Compositor_CreateOverlayIndexBuffer
+VRInitError_Compositor_CreateOverlayInvalidCall
+VRInitError_Compositor_CreateOverlaySamplerState
+VRInitError_Compositor_CreateOverlayVertexBuffer
+VRInitError_Compositor_CreatePanelMaskConstantBuffer
+VRInitError_Compositor_CreatePanoramaSamplerState
+VRInitError_Compositor_CreatePixelSimUBO
+VRInitError_Compositor_CreateRasterizerState
+VRInitError_Compositor_CreateReadableSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateResolveRenderTextures
+VRInitError_Compositor_CreateSamplerState
+VRInitError_Compositor_CreateSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateSharedFrameInfoConstantBuffer
+VRInitError_Compositor_CreateTextIndexBuffer
+VRInitError_Compositor_CreateTextVertexBuffer
+VRInitError_Compositor_CreateWireframeRasterizerState
+VRInitError_Compositor_D3D11HardwareRequired
+VRInitError_Compositor_D3D11RendererInitializationFailed
+VRInitError_Compositor_DXGIFactoryCreateFailed
+VRInitError_Compositor_DXGIFactoryInterfaceIsNull
+VRInitError_Compositor_DXGIFactoryQueryFailed
+VRInitError_Compositor_DisplayFrequencyFailure
+VRInitError_Compositor_DisplayModeNotSupported
+VRInitError_Compositor_DistortInterfaceIsNull
+VRInitError_Compositor_Failed
+VRInitError_Compositor_FailedToCreateDXGI2RenderTarget
+VRInitError_Compositor_FailedToCreateDXGI2SwapChain
+VRInitError_Compositor_FailedToCreateDirectModeDisplay
+VRInitError_Compositor_FailedToCreateMailbox
+VRInitError_Compositor_FailedToCreateNvAPIRenderTargets
+VRInitError_Compositor_FailedToCreateRenderTarget
+VRInitError_Compositor_FailedToCreateSwapChain
+VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
+VRInitError_Compositor_FailedToFindDisplayMode
+VRInitError_Compositor_FailedToGetBackBuffer
+VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToShowWindow
+VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
+VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_InvalidAdapterDesktop
+VRInitError_Compositor_InvalidDeviceProvided
+VRInitError_Compositor_InvalidHmdAttachment
+VRInitError_Compositor_InvalidHmdPropertyContainer
+VRInitError_Compositor_InvalidOutputDesktop
+VRInitError_Compositor_MessageOverlaySharedStateInitFailure
+VRInitError_Compositor_NotificationManagerIsNull
+VRInitError_Compositor_NvAPISetDisplayMode
+VRInitError_Compositor_OpenDriverDirectModeResolveTextures
+VRInitError_Compositor_OverlayInitFailed
+VRInitError_Compositor_PropertiesInterfaceIsNull
+VRInitError_Compositor_RendererInitializationFailed
+VRInitError_Compositor_ResourceManagerClientIsNull
+VRInitError_Compositor_ScreenshotsInitFailed
+VRInitError_Compositor_SelectDisplayMode
+VRInitError_Compositor_SettingsInterfaceIsNull
+VRInitError_Compositor_ShareFallbackSyncTexture
+VRInitError_Compositor_SharedStateIsNull
+VRInitError_Compositor_SystemLayerCreateInstance
+VRInitError_Compositor_SystemLayerCreateSession
+VRInitError_Compositor_UnableToCreateDevice
+VRInitError_Compositor_UpdateDisplayFrequency
+VRInitError_Compositor_WindowInterfaceIsNull
+VRInitError_Driver_CalibrationInvalid
+VRInitError_Driver_Failed
+VRInitError_Driver_HmdDisplayMirrored
+VRInitError_Driver_HmdDisplayNotFound
+VRInitError_Driver_HmdDisplayNotFoundLaptop
+VRInitError_Driver_HmdDriverIdOutOfBounds
+VRInitError_Driver_HmdInUse
+VRInitError_Driver_HmdUnknown
+VRInitError_Driver_NotCalibrated
+VRInitError_Driver_NotLoaded
+VRInitError_Driver_PeerDriverNotInstalled
+VRInitError_Driver_RuntimeOutOfDate
+VRInitError_Driver_TrackedDeviceInterfaceUnknown
+VRInitError_Driver_Unknown
+VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_IPC_CompositorConnectFailed
+VRInitError_IPC_CompositorInitFailed
+VRInitError_IPC_CompositorInvalidConnectResponse
+VRInitError_IPC_ConnectFailed
+VRInitError_IPC_ConnectFailedAfterMultipleAttempts
+VRInitError_IPC_ConnectFailedAfterTargetExited
+VRInitError_IPC_Failed
+VRInitError_IPC_MutexInitFailed
+VRInitError_IPC_NamespaceUnavailable
+VRInitError_IPC_ServerInitFailed
+VRInitError_IPC_SharedStateInitFailed
+VRInitError_Init_AlreadyRunning
+VRInitError_Init_AnotherAppLaunching
+VRInitError_Init_AppInfoInitFailed
+VRInitError_Init_BadLuid
+VRInitError_Init_CouldNotStartPrism
+VRInitError_Init_DuplicateBootstrapper
+VRInitError_Init_FactoryNotFound
+VRInitError_Init_FailedForVrMonitor
+VRInitError_Init_FileNotFound
+VRInitError_Init_FirmwareRecoveryBusy
+VRInitError_Init_FirmwareUpdateBusy
+VRInitError_Init_HmdDriverIdIsNone
+VRInitError_Init_HmdNotFound
+VRInitError_Init_HmdNotFoundPresenceFailed
+VRInitError_Init_IllegalTypeTransition
+VRInitError_Init_InitCanceledByUser
+VRInitError_Init_InstallationCorrupt
+VRInitError_Init_InstallationNotFound
+VRInitError_Init_InterfaceNotFound
+VRInitError_Init_Internal
+VRInitError_Init_InvalidApplicationType
+VRInitError_Init_InvalidInterface
+VRInitError_Init_InvalidProcessId
+VRInitError_Init_LowPowerWatchdogNotSupported
+VRInitError_Init_MismatchedRuntimes
+VRInitError_Init_NoConfigPath
+VRInitError_Init_NoLogPath
+VRInitError_Init_NoServerForAppContainer
+VRInitError_Init_NoServerForBackgroundApp
+VRInitError_Init_NotAvailableToUtilityApps
+VRInitError_Init_NotAvailableToWatchdogApps
+VRInitError_Init_NotInitialized
+VRInitError_Init_NotSupportedWithCompositor
+VRInitError_Init_PathRegistryNotFound
+VRInitError_Init_PathRegistryNotWritable
+VRInitError_Init_PrismClientInitFailed
+VRInitError_Init_PrismClientStartFailed
+VRInitError_Init_PrismExitedUnexpectedly
+VRInitError_Init_PrismNeedsNewDrivers
+VRInitError_Init_PrismStartupTimedOut
+VRInitError_Init_PropertyManagerInitFailed
+VRInitError_Init_RebootingBusy
+VRInitError_Init_Retry
+VRInitError_Init_SettingsInitFailed
+VRInitError_Init_ShuttingDown
+VRInitError_Init_TooManyObjects
+VRInitError_Init_TrackerManagerInitFailed
+VRInitError_Init_USBServiceBusy
+VRInitError_Init_UserConfigDirectoryInvalid
+VRInitError_Init_VRClientDLLNotFound
+VRInitError_Init_VRDashboardAlreadyStarted
+VRInitError_Init_VRDashboardCopyFailed
+VRInitError_Init_VRDashboardEnvironmentFailure
+VRInitError_Init_VRDashboardNotFound
+VRInitError_Init_VRDashboardPathFailure
+VRInitError_Init_VRDashboardServicePending
+VRInitError_Init_VRDashboardServiceStopped
+VRInitError_Init_VRDashboardServiceTimeout
+VRInitError_Init_VRDashboardStartupFailed
+VRInitError_Init_VRDashboardTokenFailure
+VRInitError_Init_VRHomeNotFound
+VRInitError_Init_VRHomeStartupFailed
+VRInitError_Init_VRMonitorNotFound
+VRInitError_Init_VRMonitorStartupFailed
+VRInitError_Init_VRServiceStartupFailed
+VRInitError_Init_VRWebHelperStartupFailed
+VRInitError_Init_WatchdogDisabledInSettings
+VRInitError_Init_WebServerFailed
+VRInitError_None
+VRInitError_Steam_SteamInstallationNotFound
+VRInitError_Unknown
+VRInitError_VendorSpecific_HmdFound_CantOpenDevice
+VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
+VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
+VRInitError_VendorSpecific_HmdFound_ConfigTooBig
+VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
+VRInitError_VendorSpecific_HmdFound_NoStoredConfig
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
+VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
+VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
+VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
+VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_OculusLinkNotEnabled
+VRInitError_VendorSpecific_OculusRuntimeBadInstall
+VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_WindowsNotInDevMode
+VR_CONFIG_PATH
+VR_FIRMWARE_MANIFEST_FILE
+VR_LOG_DEBUG
+VR_LOG_PATH
+VR_PATHREG_OVERRIDE
+VW+H$
+VWhdh
+V_:X1:
+V_~]	,
+Value 
+Value must be "true" or "false" for boolean option "
+Value must be identifier for boolean option "
+Value must be identifier for enum-valued option "
+Value must be integer for int32 option "
+Value must be integer for int64 option "
+Value must be non-negative integer for uint32 option "
+Value must be non-negative integer for uint64 option "
+Value must be number for double option "
+Value must be number for float option "
+Value must be quoted string for string option "
+Value out of range for int32 option "
+Value out of range for int64 option "
+Value out of range for uint32 option "
+Valve
+Valve Corp.0
+Valve Corp.1
+Valve Corporation
+Valve Deckard
+Valve Index HMD
+Valve SR
+Valve SR Blinker
+Valve SR EV2
+Valve SR Imp
+Valve Unidentified
+Valve VMinus1
+Valve VR Radio & HMD Mic
+VerQueryValueA
+VerSetConditionMask
+VeriSign Class 3 Code Signing 2010 CA
+VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)
+VerifyUSBUserDataInDirectory: %s data stream failed size validation. Expected %d bytes, copied %d from device
+VerifyUSBUserDataInDirectory: %s failed crc/size validation, replacing with data from device...
+VerifyUSBUserDataInDirectory: %s validated
+VerifyUSBUserDataInDirectory: Error parsing user data for index %d
+VerifyUSBUserDataInDirectory: Error reading USB user data from device for file %s
+VerifyUSBUserDataInDirectory: Error writing file %s
+VerifyUSBUserDataInDirectory: Skipping %s (header.crc=%08X)
+VerifyUSBUserDataInDirectory: error parsing user data header
+VerifyUSBUserDataInDirectory: header failed sanity check
+VerifyVersionInfoW
+Version
+Video Failure
+Video state: 
+Vive 2.0
+Vive 2.0 DVT
+Vive DVT
+Vive Developer Edition
+Vive EVT
+Vive MV
+Vive MV.
+Vive PV
+Vive Pro
+Vive Pro 2
+Vive. DVT
+Vive. EVT
+Vive. MV
+Vive_Pro
+Vive_Pro DVT
+Vortex Error
+VrController
+W(PQR
+W0PQR
+WARNING
+WARNING: Base %08X has no factory calibration and will be ignored
+WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
+WARNING: Saw sync on beam channel conflict on ch %d
+WARNING: Speculative Start Collision for base %0X (removing %s)
+WARNING: large time gap between IMU samples (%f -> %f diff=%f)
+WINMM.dll
+WINRT_AcquireDisplay
+WINRT_GetAdapterLuid
+WINRT_GetCurrentDriverVersion
+WINRT_GetDeviceString
+WINRT_GetDisplayMode
+WINRT_GetSurfaces
+WINRT_HasDisplay
+WINRT_Initialize
+WINRT_Present
+WINRT_Release
+WINRT_ReleaseDisplay
+WINRT_WaitForPresent
+WPhXk
+Wait For Sync
+WaitForMultipleObjects
+WaitForSingleObject
+WaitForSingleObjectEx
+Waiting
+Waiting for best bootstrap base station candidate...
+WakeAllConditionVariable
+WakeConditionVariable
+Warned about misattributed base %08X
+Warning parsing text-format 
+Warning:  HMD Display %s is Primary display
+Warning: CVrController::CreateInputComponents called on empty input_profile
+Warning: Could not interpret 'type' of %s (%s) in %s
+Warning: Edid VendorID / product ID not specified in json (direct mode)
+Warning: Found multiple monitors matching size %d x %d, using first
+Warning: Framer decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.
+Warning: Framer sensorType NotYetAvailable
+Warning: Framer unknown sensorType: %d
+Warning: MC images must be equal size and components.
+Warning: SOB decoded ootx incorrectly specifies non-SOB mode. Forcing to MODE_SOB.
+Warning: SOB decoded ootx specifies incorrect SOB channel. Forcing to known correct value.
+Warning: TDM decoded ootx incorrectly specifies SOB mode. Forcing to MODE_UNKNOWN.
+Warning: TDM sensorType NotYetAvailable
+Warning: TDM sensorType changed to unknown type: %d
+Warning: TDM unknown sensorType
+Warning: Unused import: "
+Warning: Watchdog %s not properly cleaned up%s%s
+Washington1
+Watchdog count: 
+Watchdog reset
+WatchdogWakeUp because of HMD button
+WatchdogWakeUp because of new system button press
+WatchdogWakeUp because of new wireless connection
+Watchman
+Watchman device log download failed or not supported for %s
+Watchman device log downloaded for %s
+Watchman device log:
+Watchman flash log download failed or not supported for %s
+Watchman flash log downloaded for %s
+Watchman flash log:
+Watchman saw FIFO overflow event
+WatchmanFPGA
+WideCharToMultiByte
+Win 10
+WinRT
+WriteFile
+XXXX PNG chunk not known
+Y9"SD
+Y__^[
+Z _^]
+Z(rDf
+Z* ,	
+[-&LMb#{'
+[DepthAugmentedPassthrough] supported on this system: %d
+[FORCEUPDATE]
+[K]taM?
+[json.exception.
+[lazy = true] can only be specified for submessage fields.
+[packed = true] can only be specified for repeated primitive fields.
+\%03o
+\0a0~0
+\U%08x
+] buffer "
+] bufferView "
+] invalid bufferView
+] is not a JSON object.
+] name = "
+] name = [
+]J<0"0i3
+^$Q9C
+^<Q9C
+^X_^[
+^[;Glv
+^oEZ_
+_,9_0t-
+_0_[]
+_0_^]
+_CIacos
+_CIfmod
+_CIpow
+_Cnd_destroy
+_Cnd_destroy_in_situ
+_Cnd_do_broadcast_at_thread_exit
+_Cnd_init
+_Cnd_init_in_situ
+_Cnd_signal
+_Cnd_wait
+_CxxThrowException
+_Mtx_destroy
+_Mtx_destroy_in_situ
+_Mtx_init
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Query_perf_counter
+_Query_perf_frequency
+_RDATA
+_Thrd_id
+_Thrd_join
+_Thrd_sleep
+_Thrd_start
+_Xtime_get_ticks
+_[;Flv
+_^;Clv
+_^u%j
+__CxxFrameHandler3
+__RTDynamicCast
+__acrt_iob_func
+__libm_sse2_acos
+__libm_sse2_acosf
+__libm_sse2_asin
+__libm_sse2_atan
+__libm_sse2_atan2
+__libm_sse2_cos
+__libm_sse2_pow
+__libm_sse2_sin
+__libm_sse2_tan
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vfprintf
+__stdio_common_vsnprintf_s
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_aligned_free
+_aligned_malloc
+_aligned_realloc
+_callnewh
+_cexit
+_close
+_configure_narrow_argv
+_crt_atexit
+_ctime64
+_dtest
+_errno
+_except1
+_except_handler3
+_except_handler4_common
+_execute_onexit_table
+_fseeki64
+_gUT^
+_get_stream_buffer_pointers
+_getpid
+_hanu
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo
+_invalid_parameter_noinfo_noreturn
+_localtime64
+_lock_file
+_open
+_parsefailed.json
+_prou
+_purecall
+_read
+_register_onexit_function
+_seh_filter_dll
+_stricmp
+_strnicmp
+_strtoi64
+_strtoui64
+_time64
+_unlock_file
+_wcsdup
+_wcsicmp
+_wcsnicmp
+_wcsupr
+_wfopen_s
+_wfsopen
+_wgetcwd
+_wstat64i32
+`.rdata
+`0_dL
+`0_tL
+`2d2h2l2p2t2x2|2
+`5d5h5l5p5t5x5|5
+`SVWj%hx
+``````````````````````````````````````````````````````````````````````````````````````````````````
+`accessors' does not contain an JSON object.
+`animations' does not contain an JSON object.
+`bufferViews' does not contain an JSON object.
+`buffers' does not contain an JSON object.
+`cameras' does not contain an JSON object.
+`input` field is missing in animation.sampler
+`materials' does not contain an JSON object.
+`meshes' does not contain an JSON object.
+`node` field is missing in animation.channels.target
+`nodes' does not contain an JSON object.
+`output` field is missing in animation.sampler
+`path` field is missing in animation.channels.target
+`sampler` field is missing in animation channels
+`samplers' does not contain an JSON object.
+`scenes' does not contain an JSON object.
+`skins' does not contain an JSON object.
+`textures' does not contain an JSON object.
+a0v0.1q1
+aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
+abort
+acc_bias
+acc_scale
+accel
+accessor[
+accessors
+add a secondary base
+additional six characters expected to parse unicode surrogate pair.
+af}{f
+aggregate_value
+aitcamlib.dll
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+allow_alias
+alphaCutoff
+alphaMode
+analogGain
+angle
+animations
+anims
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+api-ms-win-crt-utility-l1-1-0.dll
+array
+as new origin
+aspectRatio
+assert json failed
+asset
+attached_device_id
+attributes
+audio
+audio_playback_device_name
+audio_playback_device_pid
+audio_playback_device_vid
+audio_recording_device_name
+audio_recording_device_pid
+audio_recording_device_vid
+average_period
+avrt.dll
+axisSW
+bad AC huff
+bad APP len
+bad BMP
+bad COM len
+bad DC huff
+bad DHT header
+bad DNL height
+bad DNL len
+bad DQT table
+bad DQT type
+bad DRI len
+bad H
+bad IHDR len
+bad Image Descriptor
+bad SOF len
+bad SOS
+bad SOS component count
+bad SOS len
+bad TQ
+bad V
+bad allocation
+bad array new length
+bad base station orientation ( 
+bad bpp
+bad cast
+bad code lengths
+bad codelengths
+bad comp method
+bad component count
+bad compression
+bad conversion
+bad ctype
+bad dist
+bad file
+bad filter method
+bad format
+bad huffman code
+bad interlace method
+bad masks
+bad palette
+bad png sig
+bad req_comp
+bad sizes
+bad tRNS len
+bad zlib header
+base %08X u%d r%d (i%d)
+baseCalibration
+baseColorFactor
+baseColorTexture
+baseName
+base_config
+base_config_json
+base_serial_number
+base_stations
+basestation_mode
+bit_offset
+bit_width
+bl_ctl
+black_clamp
+bodnok
+bonemask_fingeraux.txt
+bonemask_grip.txt
+bonemask_index.txt
+bonemask_indexcurl.txt
+bonemask_middle.txt
+bonemask_pinky.txt
+bonemask_ring.txt
+bonemask_squeeze.txt
+bonemask_thumb.txt
+bonemask_thumb_and_wrist.txt
+buffer
+buffer error
+bufferView
+bufferViews
+buffers
+byteLength
+byteOffset
+byteStride
+bytes
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
+cAMDt
+cal_method
+calloc
+camera
+cameras
+can't fopen
+can't merge dc and ac
+canceled
+cannot set backlight gain
+cc_generic_services
+center
+center_x
+center_y
+channelMap
+channelOrder
+channels
+children
+clips
+clkoor
+close() failed: 
+closed
+closest
+coeffs
+collectComments
+color
+compatible 
+componentType
+compositordebug
+config
+config.json
+configuration string is empty
+connectedSerial
+const unsigned int __cdecl CAnimResource::MyTypeID(void)
+const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
+const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
+const unsigned int __cdecl Reflection::Object::MyTypeID(void)
+controller
+corrupt
+count
+ctype
+dSVWj
+data error
+data:application/gltf-buffer;base64,
+data:application/octet-stream;base64,
+data:image/bmp;base64,
+data:image/gif;base64,
+data:image/jpeg;base64,
+data:image/png;base64,
+data:text/plain;base64,
+dbhistory
+deactivateStandbyOverride
+default_value
+delayed
+dependency
+deprecated
+deque<T> too long
+device
+deviceClass
+device_class
+device_pid
+device_serial_number
+device_serial_number_watchman
+device_vid
+devicescannermsgwindow
+direct_mode_edid_pid
+direct_mode_edid_vid
+disableRuntimeEdidOverride
+disableimu
+disableimuexcepthmd
+disambiguationdebug
+discover_dongles
+discover_dongles_response
+displayPortTrainingMode
+display_color_mult
+display_edid
+display_frequency
+display_gc
+display_mc
+display_usb_pid
+display_usb_protocol
+display_usb_vid
+distort
+distortion
+distortion_blue
+distortion_red
+dmilu
+dongles
+double
+doubleSided
+double_value
+driver
+driver_lighthouse
+driver_lighthouse message window
+driver_lighthouse.dll
+driver_lighthouse: Activate(%p %d)
+driver_lighthouse: Activate: Tracking started
+driver_lighthouse: Deactivate(%p  %d)
+driver_lighthouse: GetEyeOutputViewport(%u, %u, %u, %u)
+driver_lighthouse: GetRecommendedRenderTargetSize(%u, %u)
+driver_lighthouse: GetWindowBounds(%d, %d, %u, %u)
+driver_lighthouse: IServerTrackedDeviceProvider::Cleanup()
+driver_lighthouse: IServerTrackedDeviceProvider::Init( %s, %s)
+driver_lighthouse: Tracking stopped
+driver_lighthouse: enumerating attached Lighthouse devices HMDs:
+drivers
+drop %08X u%d (i%d)
+dualSpeakerAndJackOutput
+dual_extrinsics
+dxgi.dll
+dynamic_state
+dynamic_state_json
+dynamic_states
+e,>~^
+eCapture
+eCommunications
+eConsole
+eEYE_FIRST
+eEYE_L
+eEYE_LEFT
+eEYE_R
+eEYE_RIGHT
+eMultimedia
+eNUM_EYES
+eRender
+echo %127s
+emissiveFactor
+emissiveTexture
+enable
+enableCamera
+enableImuFallback
+enableMJPEGMode
+enableRawMode
+end of input
+entiu
+error
+es-8R
+ewh/?y
+exception thrown in JSON library
+expected marker
+expectedControllerType
+expected_bases
+expected_controllers
+expecting another \u token to begin the second half of a unicode surrogate pair
+experimental_map_key
+extend .$0 {
+extendee
+extension_range
+extensions
+extensionsRequired
+extensionsUsed
+external_drivers
+extras
+extrinsics
+eye_target_height_in_pixels
+eye_target_width_in_pixels
+eye_to_head
+f4t4v5
+f;A*stSW
+f;F@_^
+f;w@s\
+failIfExtra
+failed
+failed to send to device
+failed_to_start
+fakeHtcHmdMainboard
+false
+false literal
+faults
+fclose
+fff?PQ
+fflush
+fgetc
+fgetpos
+field
+file error
+file is empty or does not exist
+filename
+firmwareVersion
+firmware_config
+firmware_update_required
+firmware_version
+first not IHDR
+first_eye
+first_id
+fixed32
+fixed64
+flags
+flags2
+float
+focal_x
+focal_y
+fopen
+fopen_s
+forceSoloEdid
+forcedExposureTime
+forcedFrameRate
+forcedGlobalGain
+forcedWhiteBalance
+fputc
+fputs
+framer
+fread
+from base 
+fseek
+fsetpos
+ftell
+fwrite
+gc/250_v0.gc
+generator
+generic_controller
+generic_hmd
+generic_tracker
+getDeviceProperty returned empty
+getDeviceProperty returned wrong type %d
+get_eye_to_head
+get_radio_mode
+getenv
+gfff+
+gfff+KP
+gfff+M
+gfff+Q,
+gfff+U
+gfffS
+gfffSV
+gfffSW
+gfffVW
+gfffW
+go_package
+gravity_vector
+group
+grow_for_undistort
+gu3jd
+gyro_bias
+h6l6p6t6x6|6
+hGenu
+hand_right_closeanim.glb
+hand_right_poses.glb
+handlers
+hardware_revision
+hdcp14legacyCompatibility
+head_from_camera
+header crc mismatch
+height
+hid.dll
+hid_close
+hid_enumerate
+hid_error
+hid_exit
+hid_free_enumeration
+hid_get_feature_report
+hid_get_indexed_string
+hid_get_manufacturer_string
+hid_get_product_string
+hid_get_serial_number_string
+hid_init
+hid_open
+hid_open_nths
+hid_open_path
+hid_read
+hid_read_timeout
+hid_send_feature_report
+hid_set_nonblocking
+hid_write
+hidden_area_mesh
+highFrameJitter
+high_frame_jitter
+high_mm
+hits: 
+htc/vive_controller
+htc/vive_tracker
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0X
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
+iauds
+ideal_period
+identifier_value
+illegal code in raster
+image
+image/bmp
+image/gif
+image/jpeg
+image/png
+image[
+images
+immediate
+imu_sample
+in Json::Value::asCString(): requires stringValue
+in Json::Value::clear(): requires complex value
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::removeMember(): requires objectValue
+in Json::Value::resize(): requires arrayValue
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+incompatible version
+incorrect data check
+incorrect header check
+incorrect length check
+index
+indexHmdColumnCorrection
+indexHmdColumnOffset_
+indexcontroller
+indexcontroller_anim_closesqueeze.glb
+indexhmd
+indices
+ineIu
+infinity
+innerConeAngle
+input
+input_components
+input_profile
+input_type
+insufficient memory
+int32
+int64
+intensity
+interpolation
+intrinsics
+invalid
+invalid BOM; must be 0xEF 0xBB 0xBF if given
+invalid PLTE
+invalid bit length repeat
+invalid block type
+invalid code -- missing end-of-block
+invalid code lengths set
+invalid decoded scanline length
+invalid distance code
+invalid distance too far back
+invalid distances set
+invalid filter
+invalid literal
+invalid literal/length code
+invalid literal/lengths set
+invalid map<K, T> key
+invalid number; expected '+', '-', or digit after exponent
+invalid number; expected digit after '-'
+invalid number; expected digit after '.'
+invalid number; expected digit after exponent sign
+invalid stoi argument
+invalid stored block lengths
+invalid string position
+invalid string: '\u' must be followed by 4 hex digits
+invalid string: control character U+0000 (NUL) must be escaped to \u0000
+invalid string: control character U+0001 (SOH) must be escaped to \u0001
+invalid string: control character U+0002 (STX) must be escaped to \u0002
+invalid string: control character U+0003 (ETX) must be escaped to \u0003
+invalid string: control character U+0004 (EOT) must be escaped to \u0004
+invalid string: control character U+0005 (ENQ) must be escaped to \u0005
+invalid string: control character U+0006 (ACK) must be escaped to \u0006
+invalid string: control character U+0007 (BEL) must be escaped to \u0007
+invalid string: control character U+0008 (BS) must be escaped to \u0008 or \b
+invalid string: control character U+0009 (HT) must be escaped to \u0009 or \t
+invalid string: control character U+000A (LF) must be escaped to \u000A or \n
+invalid string: control character U+000B (VT) must be escaped to \u000B
+invalid string: control character U+000C (FF) must be escaped to \u000C or \f
+invalid string: control character U+000D (CR) must be escaped to \u000D or \r
+invalid string: control character U+000E (SO) must be escaped to \u000E
+invalid string: control character U+000F (SI) must be escaped to \u000F
+invalid string: control character U+0010 (DLE) must be escaped to \u0010
+invalid string: control character U+0011 (DC1) must be escaped to \u0011
+invalid string: control character U+0012 (DC2) must be escaped to \u0012
+invalid string: control character U+0013 (DC3) must be escaped to \u0013
+invalid string: control character U+0014 (DC4) must be escaped to \u0014
+invalid string: control character U+0015 (NAK) must be escaped to \u0015
+invalid string: control character U+0016 (SYN) must be escaped to \u0016
+invalid string: control character U+0017 (ETB) must be escaped to \u0017
+invalid string: control character U+0018 (CAN) must be escaped to \u0018
+invalid string: control character U+0019 (EM) must be escaped to \u0019
+invalid string: control character U+001A (SUB) must be escaped to \u001A
+invalid string: control character U+001B (ESC) must be escaped to \u001B
+invalid string: control character U+001C (FS) must be escaped to \u001C
+invalid string: control character U+001D (GS) must be escaped to \u001D
+invalid string: control character U+001E (RS) must be escaped to \u001E
+invalid string: control character U+001F (US) must be escaped to \u001F
+invalid string: forbidden character after backslash
+invalid string: ill-formed UTF-8 byte
+invalid string: missing closing quote
+invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
+invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
+invalid vector<T> subscript
+invalid window size
+invalid-user
+inverseBindMatrices
+ipdOffset
+isPairing
+is_extension
+isalnum
+isalpha
+isdigit
+isspace
+j	h$+
+j	h8+
+j j j
+j!j!hA
+j%h`o
+j1j1ha	
+j;Qj;P
+j<htU
+j?Pj&
+j?Pj2
+j@j P
+jFh0B
+jVh|$
+j`PhhR
+java_generate_equals_and_hash
+java_generic_services
+java_multiple_files
+java_outer_classname
+java_package
+java_string_check_utf8
+jd@Ph
+jdQPj
+jdQPj	
+jdj>Pj
+jdj?Ph
+jdj?Pj
+jdj?Pj!
+jdj?Pj"
+jdj?Pj&
+jdj?f
+jdj@Pj
+jdj@Pj 
+jj@0HK4
+joints
+jph|$
+j}h|$
+k0i0$
+k6q:W=P?U?[?d?
+kcizf
+kernel32
+keylength >= 2^30
+known_objects
+known_universes
+knuckles
+knuckles_ev1
+l!;b	F
+l6qnk
+l?Nb0?
+lEyeFile:%s width:%d height:%d components:%d
+label
+lastChaperoneCommit
+last_eye
+last_id
+ldexp
+leading_comments
+left eye
+left_sync_is_real
+left_sync_time
+lh_basestation_01_boysandgirls
+lh_basestation_03_robin
+lh_basestation_valve_gen2
+lh_basestation_vive
+lighthouse
+lighthouse.pb"(
+lighthouse:
+lighthouse_config
+lighthouse_db_json
+lighthouse_debug.proto
+lighthouse_pairing
+lighthousedb write error: baseStation is not an array type, but is %d
+lighthousedb.json
+lighthousedriver:
+lights
+list<T> too long
+localeconv
+location
+low_mm
+lstrcmpW
+m2t2e8m>u>
+m_ulHandle != vr::k_ulInvalidMailbox
+magFilter
+malloc
+manifest.vrfirmware
+manufacturer
+map key must name a scalar or string field.
+map type is only allowed for fields with a message type.
+map type is only allowed for repeated fields.
+map/set<T> too long
+map_key must not name a repeated field.
+material
+materials
+matrix
+max value > 255
+measuring...
+memchr
+memcpy
+memmove
+memset
+meshes
+message
+message_id
+message_set_wire_format
+message_type
+metallicFactor
+metallicRoughnessTexture
+method
+mfg_build_info
+mfplat.dll
+mimeType
+minFilter
+minVersion
+minimum_ipd_step
+minstep_mm
+missing color table
+missing values from "device" section
+mj>zjZ
+modelCad
+modelId
+modelNormals
+modelPoints
+model_number
+multiple IHDR
+muteMicMonitor
+need dictionary
+negative_int_value
+nested_type
+nfinity
+no IDAT
+no PLTE
+no SOF
+no SOI
+no clear code
+no header height
+no optical samples 
+no preset dict
+no_standard_descriptor_accessor
+noclk
+nodes
+non-finite elements of state vector: 
+nonce
+normalTexture
+normalized
+not BMP
+not GIF
+not HDR
+not PSD
+not enough pixels
+not present
+not running
+not wireless endpoint
+ntdll.dll
+ntelu
+null literal
+num_windows
+number
+number literal
+number overflow parsing '
+nvapi_QueryInterface
+nvapi_pepQueryInterface
+object
+object key
+object separator
+occlusionTexture
+offset
+ole32.dll
+oneof_decl
+oneof_index
+onesided
+only 8-bit
+ootx %08X u%d r%d (i%d)
+ootxVersion
+openvrpaths.vrpath
+optical_frame
+optical_sample
+optimize_for
+optional
+options
+orthographic
+out_of_range
+outerConeAngle
+outofdata
+outofmem
+output
+output buffer limit
+output_path
+output_type
+pNewResource
+pNewResource->Load( absFilePath )
+pO Df
+pO`Df
+package
+packed
+pairing_result
+panel_burn_time_s: %d %d
+panel_clocking
+panel_on_time_deprecated_s: %d %d
+panel_on_time_s: %d %d
+parameter must be a string or number / number array.
+params
+parse
+parse error
+parse_error
+pbrMetallicRoughness
+perspective
+pg0Df
+pgpDf
+pitch
+plus_x
+plus_z
+poPDf
+position
+position out of bounds 
+positive_int_value
+power
+powerOffOnExit
+preferred
+preferredRefreshRate
+prescale
+previous_id
+previous_period
+primary
+primarybasestation
+primitive indices accessor out of bounds
+primitives
+prism.dll
+product %u rev %u.%u.%u lot %u/%u/%u %u
+proximity
+public_dependency
+py_generic_services
+q@;p s
+q@;p(s
+qMFCreateMediaType failed hr = 0x%08x
+qinvalid stoul argument
+r2max
+r?'1(?
+rEyeFile:%s width:%d height:%d components:%d
+rP;rT
+range
+read past buffer
+realloc
+recorded
+recorder
+recorder + 
+recording
+recou;f
+registered: 
+registered_device_type_prefix
+rejectDupKeys
+render_model
+render_target_scale
+renderdoc.dll
+repeated
+replay stats: 
+replay stats: IMU max arrival interval 
+replay stats: count of seen sensors (all sources): 
+replayer
+request_handlers
+request_handlers_response
+required
+required_peer_driver
+reset_count
+resource_root
+result
+returnAddress
+revision
+right
+right eye
+right_hand
+right_sync_is_real_as_it_gets
+right_sync_time
+rootserial
+rotating at 
+rotation
+roughnessFactor
+roundf
+runtime
+s$;s(t
+s$;s(t 
+s$;s(t"
+s$;s(t3
+s(+CD
+s(h`	
+s4;s8
+sX;s\t]
+sample_angle_estimate
+sampler
+samplers
+samples
+sbetuw
+scalar
+scale
+scene
+scenes
+second_tracked_camera
+secondary
+seconds_from_photons_to_vblank
+seconds_from_vsync_to_photons
+sendStatusUpdates
+serial
+serialNumber
+serial_number
+service
+set_chromatic_correction_factors
+set_chromatic_correction_factors %f %f
+set_index_brightness %f
+set_lenscal
+set_lenscal %255s
+set_panel_clocking
+set_panel_clocking %f %f
+set_radio_mode_ble
+set_radio_mode_valve
+setvbuf
+sfixed32
+sfixed64
+short_bad
+sint32
+sint64
+skeleton
+skeletons
+skins
+sobChannel
+source
+source_code_info
+sparse
+special_value_zero
+stackLimit
+start
+start tracking from base
+start_pairing
+startup
+steamvr
+stmute
+stmuteb
+stoi argument out of range
+stop_pairing
+stoul argument out of range
+strchr
+stream end
+stream error
+streams
+strength
+strerror
+strftime
+strictRoot
+string
+string literal
+string too long
+string_value
+strings::Substitute format string invalid: asked for "$
+strncmp
+strncpy
+strpbrk
+strstr
+strtod
+strtol
+strtoll
+strtoul
+strtoull
+subpixel_shift_blue_in_pixels
+subpixel_shift_red_in_pixels
+subtype mismatch
+succeeded
+success
+sync_width
+synconbeam
+syntax error 
+systime
+t	_^2
+t!RPV
+t$,RW
+t$j$h
+t&Vj4
+t&jHj
+t'jvhX
+t(VPRQ
+t.jdj
+t/Vj4
+t0VWf
+t2jHj
+t3j@j
+t5j=h
+t=j?h
+t?jAh
+t@;1u1
+tA;9u2
+tB;9u3
+tE<	u
+tEF;w8|
+tEj&h
+tJ_^2
+tNF;u
+tP<	u
+tRNS after IDAT
+tRNS before PLTE
+tRNS with alpha
+tSjmh
+tTyY1
+tXVW3
+tYSVW
+t_h\m
+t_hau
+target
+target_pose
+target_serial_number
+targets
+td9C4tHhp
+tdh.dll
+tdm sync acquired
+tdm sync lost
+tdmerr
+tdmstat0
+tdmstat1
+tdmstat2
+tdmulter
+ter!uo
+terminate
+testhtclcm %d
+teststandby
+texCoord
+text format contains deprecated field "
+text/plain
+textures
+the global scope
+the sparse object ob ths accessor doesn't have values
+the sparse object of this accessor doesn't have indices
+tilt_to_pose_method
+timeBeginPeriod
+timeEndPeriod
+time_last_seen
+timeout
+timeoutSeconds
+tkSVP
+tnh\m
+tolower
+too large
+too many codes
+too many length or distance symbols
+toupper
+trackedCamera
+tracked_camera
+tracked_camera1
+tracked_cameras
+tracked_controller_role
+tracked_object_json
+tracking_camera_intrinsics
+tracking_camera_unique_id
+tracking_reference
+tracking_to_eye_transform
+trackref_from_head
+trackref_from_imu
+trailing_comments
+translation
+true literal
+tv9D7
+twos_complement
+t~=UUU
+t~=fff
+u	j/h
+u	j0h
+u	j0hDT
+u	j1hdU
+u ;0t.
+u#h45
+u$WVS
+u(_^2
+u(_^[
+u*hLf
+u,PVj
+u.PPPP
+u4hl	
+u4hv#
+u4hx	
+u5jdh
+u9Vh(
+u<Vj0
+u<f9C u6f9C0u0f9C@u*f9CPu$
+u=j7h
+uAf9^
+uBVj@
+uBf9C
+uCVj@
+uDj^h
+uEVj@
+uFj9h
+uKb!?6mH
+uKj@P
+uWj&h
+uZVj(
+uint32
+uint64
+undist_height
+undist_width
+undistort_r2_cutoff
+unexpected 
+ungetc
+uninterpreted_option
+unique_base_id
+unknown
+unknown BMP
+unknown code
+unknown command
+unknown compression method
+unknown header flags set
+unknown image type
+unknown marker
+unknown token
+unlikely gravity 
+unsupported bit depth
+unsupported data layout
+unsupported format
+updated lenscal
+upj@j"P
+usbPID
+usbVID
+usedisambiguation
+userdata
+uvVj@
+uwhID
+uwj	hT
+uwj	h`
+uwj	hl
+v	N+D$
+v	_^2
+v(hID
+v0D1I1
+v0PRV
+v0fff
+v=Y]Bv
+v>;T3$r8w
+vDQPh
+vQO+t
+value
+values
+valve/index_controller
+variance
+vboost_ok
+vector<T> too long
+vector<bool> too long
+velocity %0.2fm/s 
+version
+version %s
+version.txt
+via transform to global
+vibration
+video_mode
+viveVR
+vive_controller
+vivewand_hand_poses.glb
+vortex
+vr_glove_left_skeleton.glb
+vr_glove_right_poses.glb
+vr_glove_right_skeleton.glb
+vr_tracker_vive_1_0
+vref_ok
+vrwebhelper
+w QVR
+w$Rhp
+w)Av5q7N
+w+OQvr
+w,_^[
+w4_^]
+wP;wTt
+wcscmp
+wcslen
+wcsncmp
+wcsrchr
+wcsstr
+weak_dependency
+weights
+while parsing 
+white_balance
+width
+winrtdisplay.dll
+wipe%s: Successfully fetched gyro/accelerometer range modes from the device. GyroRangeMode:%d AccelRangeMode:%d
+wireless_dongle_serial_number
+wn>Jj
+world_from_global
+world_identity
+wrapR
+wrapS
+wrapT
+wrong channel count
+wrong color format
+wrong submessage type
+wrong version
+www.digicert.com1!0
+xRjdj@
+x]~\6
+y%PWhx
+y/PhH
+y/PhX
+y1j\h(/
+y3jVh(/
+y4+A0
+yxxx+
+z3u4`5
+z?X9T?
+zd?/n
+zlib corrupt
+znear
+{ "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,1,'NV12'" ] }
+{ "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }
+{"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }
+{%s}%s
+{@^_[
+{htc}
+{htc}/input/vive_controller_profile.json
+{htc}/input/vive_pro_profile.json
+{htc}/input/vive_profile.json
+{htc}/input/vive_tracker_profile.json
+{htc}vr_tracker_vive_3_0
+{indexcontroller}/input/index_controller_profile.json
+{indexcontroller}/input/knuckles_ev1_profile.json
+{indexcontroller}valve_controller_knu_1_0_left
+{indexcontroller}valve_controller_knu_1_0_right
+{indexcontroller}valve_controller_knu_ev1_3_left
+{indexcontroller}valve_controller_knu_ev1_3_right
+{indexcontroller}valve_controller_knu_ev2_0_left
+{indexcontroller}valve_controller_knu_ev2_0_right
+{indexhmd}/additional.vrsettings
+{indexhmd}/index_hmd_overrides.bin
+{indexhmd}/input/indexhmd_profile.json
+{knuckles}
+{knuckles}valve_controller_knu_ev1_3_left
+{knuckles}valve_controller_knu_ev1_3_right
+{knuckles}valve_controller_knu_ev2_0_left
+{knuckles}valve_controller_knu_ev2_0_right
+{un'%
+|Lu?c
+|cj#h
+}	jCh8
+}/lighthouse_scale.json
+}LuHO
+}M?/n
+}Pjdj
+}qj<h
+}zjS@
+~(_^[
+~,uMW
+~3j?h
+~3jUh(/
+~6VVS
+~@#rn
+~AVVW
+~F0Pf
+~G Wf
+~X0uT
+~X0ua
+~t&LN
+~t<a|

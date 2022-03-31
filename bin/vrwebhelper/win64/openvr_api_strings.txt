@@ -1,0 +1,2367 @@
+					
+							
+												
+																																												
+	!s99
+	kE>fvw
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
+ %41g
+ 'L>[
+ A9_ w
+ A^A\_
+ A^_^
+ A_A\_
+ A_A^A\
+ A_A^A\_^
+ A_A^A]
+ A_A^A]A\_
+ A_A^A]A\_^]
+ A_A^A]_^
+ A_A^[
+ A_A^]
+ A_A^_
+ A_^[
+ A__[
+ A__^
+ Base Class Array'
+ Base Class Descriptor at (
+ C>TQ
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ D;5J
+ D;j0u
+ H3E H3E
+ Type Descriptor'
+ delete
+ delete[]
+ for detail.
+ new[]
+ t(<#t
+ tDE3
+ tQD8c:u0M
+ t^D9
+ vJH+
+!,X< w
+!>6'Y
+!T$(H!T$ 
+!hn7!
+!~?s5
+"e?<<<<<<l?
+"f9;t
+#])#	
+$+xvA
+$< t6<$t,<+t"<vt
+$C#9$"
+$Ib?s
+$iMBm
+%%.%dg
+%.0Lf
+%D8d$@t
+%GoU?*
+%H : %M
+%H : %M : %S
+%I : %M : %S %p
+%Z/nJ?
+%b %d %H : %M : %S %Y
+%d / %m / %y
+%m / %d / %y
+&!M/{2-
+&<	x4;O
+&?PPPPPPP?
+&uo r
+' is not a number.
+',=?k
+( 8PX
+('8PW
+(A^A]^[
+(A_A^^[
+(A_A^_]
+(D$ f
+(D$PE3
+(T?j?Y
+(f*^[0
+(null)
+(t$ H
+(t$03
+(t$0H
+(t$@H
+(t$@L
+(t$PH
+(t$`H
+(t$`L
+(t$pL
+(uEKw
+(|$ H
+(|$0H
+(|$0I
+)-M-=
+)>6{1n
+)D$@A
+)D$PH
+)D$PM
+)D$pL
+)H+}0
+)t$ A
+)t$0H
+)t$@H
+)t$`3
+)|$0H
+)|B?d!
+*9Z9N
+*StO9>T
+*uXI;
++J$D8M@
++M<7>
++Xt@(
++Z$cH
++f)>0'
++h->|
++o'q)}
++v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
+,/<-w
+,0<	w
+,HR>O
+,I<%w
+,W5y+
+,t0D9J0v*L
+,zeDo
+,~fMK
+-0zAoL
+-1e+9999
+-7"+x
+-BH>t
+-Infinity
+-\!]N=
+-uKI;
+..om?
+.00cfg
+.3=}%
+.8\$!t.9\
+.>PJ;I:qE>
+.?AUIExecutionContext@Concurrency@@
+.?AUIExecutionResource@Concurrency@@
+.?AUIResourceManager@Concurrency@@
+.?AUIScheduler@Concurrency@@
+.?AUISchedulerProxy@Concurrency@@
+.?AUIThreadProxy@Concurrency@@
+.?AUIThreadProxyFactory@details@Concurrency@@
+.?AUITopologyExecutionResource@Concurrency@@
+.?AUITopologyNode@Concurrency@@
+.?AUIVirtualProcessorRoot@Concurrency@@
+.?AUTopologyObject@GlobalCore@details@Concurrency@@
+.?AUTopologyObject@GlobalNode@details@Concurrency@@
+.?AU_Chore@details@Concurrency@@
+.?AU_Crt_new_delete@std@@
+.?AUctype_base@std@@
+.?AUmessages_base@std@@
+.?AUmoney_base@std@@
+.?AUtime_base@std@@
+.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_MallocaArrayHolder@PEAVContext@Concurrency@@@details@Concurrency@@
+.?AV?$_MallocaArrayHolder@PEAVevent@Concurrency@@@details@Concurrency@@
+.?AV?$_Mpunct@D@std@@
+.?AV?$_Mpunct@G@std@@
+.?AV?$_Mpunct@_W@std@@
+.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
+.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@DDU_Mbstatet@@@std@@
+.?AV?$codecvt@GDU_Mbstatet@@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$collate@D@std@@
+.?AV?$collate@G@std@@
+.?AV?$collate@_W@std@@
+.?AV?$ctype@D@std@@
+.?AV?$ctype@G@std@@
+.?AV?$ctype@_W@std@@
+.?AV?$messages@D@std@@
+.?AV?$messages@G@std@@
+.?AV?$messages@_W@std@@
+.?AV?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$moneypunct@D$00@std@@
+.?AV?$moneypunct@D$0A@@std@@
+.?AV?$moneypunct@G$00@std@@
+.?AV?$moneypunct@G$0A@@std@@
+.?AV?$moneypunct@_W$00@std@@
+.?AV?$moneypunct@_W$0A@@std@@
+.?AV?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$numpunct@D@std@@
+.?AV?$numpunct@G@std@@
+.?AV?$numpunct@_W@std@@
+.?AV?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCacheLocalScheduleGroup@details@Concurrency@@
+.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
+.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVContext@Concurrency@@
+.?AVContextBase@details@Concurrency@@
+.?AVException@Json@@
+.?AVExecutionResource@details@Concurrency@@
+.?AVExternalContextBase@details@Concurrency@@
+.?AVFactory@CharReader@Json@@
+.?AVFairScheduleGroup@details@Concurrency@@
+.?AVFairScheduleGroupSegment@details@Concurrency@@
+.?AVFreeThreadProxy@details@Concurrency@@
+.?AVFreeThreadProxyFactory@details@Concurrency@@
+.?AVFreeVirtualProcessorRoot@details@Concurrency@@
+.?AVInternalContextBase@details@Concurrency@@
+.?AVLogicError@Json@@
+.?AVMultiWaitBlock@details@Concurrency@@
+.?AVOurCharReader@Json@@
+.?AVRealizedChore@details@Concurrency@@
+.?AVResourceManager@details@Concurrency@@
+.?AVRuntimeError@Json@@
+.?AVScheduleGroup@Concurrency@@
+.?AVScheduleGroupBase@details@Concurrency@@
+.?AVScheduleGroupSegmentBase@details@Concurrency@@
+.?AVScheduler@Concurrency@@
+.?AVSchedulerBase@details@Concurrency@@
+.?AVSchedulerProxy@details@Concurrency@@
+.?AVSingleWaitBlock@details@Concurrency@@
+.?AVThreadInternalContext@details@Concurrency@@
+.?AVThreadProxy@details@Concurrency@@
+.?AVThreadScheduler@details@Concurrency@@
+.?AVThreadVirtualProcessor@details@Concurrency@@
+.?AVTimedSingleWaitBlock@details@Concurrency@@
+.?AVVirtualProcessor@details@Concurrency@@
+.?AVVirtualProcessorRoot@details@Concurrency@@
+.?AVWaitAllBlock@details@Concurrency@@
+.?AVWaitAnyBlock@details@Concurrency@@
+.?AVWaitBlock@details@Concurrency@@
+.?AV_CancellationTokenRegistration@details@Concurrency@@
+.?AV_Facet_base@std@@
+.?AV_Generic_error_category@std@@
+.?AV_Interruption_exception@details@Concurrency@@
+.?AV_Iostream_error_category@std@@
+.?AV_Locimp@locale@std@@
+.?AV_RefCounter@details@Concurrency@@
+.?AV_Ref_count_base@std@@
+.?AV_System_error@std@@
+.?AV__non_rtti_object@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_typeid@std@@
+.?AVcodecvt_base@std@@
+.?AVcontext_self_unblock@Concurrency@@
+.?AVcontext_unblock_unbalanced@Concurrency@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVfailure@ios_base@std@@
+.?AVimproper_lock@Concurrency@@
+.?AVimproper_scheduler_attach@Concurrency@@
+.?AVimproper_scheduler_reference@Concurrency@@
+.?AVinvalid_argument@std@@
+.?AVinvalid_operation@Concurrency@@
+.?AVinvalid_oversubscribe_operation@Concurrency@@
+.?AVinvalid_scheduler_policy_key@Concurrency@@
+.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
+.?AVinvalid_scheduler_policy_value@Concurrency@@
+.?AVios_base@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVmissing_wait@Concurrency@@
+.?AVnested_scheduler_missing_detach@Concurrency@@
+.?AVout_of_range@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVscheduler_resource_allocation_error@Concurrency@@
+.?AVscheduler_worker_creation_error@Concurrency@@
+.?AVstl_condition_variable_concrt@details@Concurrency@@
+.?AVstl_condition_variable_interface@details@Concurrency@@
+.?AVstl_condition_variable_vista@details@Concurrency@@
+.?AVstl_condition_variable_win7@details@Concurrency@@
+.?AVstl_critical_section_concrt@details@Concurrency@@
+.?AVstl_critical_section_interface@details@Concurrency@@
+.?AVstl_critical_section_vista@details@Concurrency@@
+.?AVstl_critical_section_win7@details@Concurrency@@
+.?AVsystem_error@std@@
+.?AVtype_info@@
+.?AVunsupported_os@Concurrency@@
+.CRT$XCA
+.CRT$XCC
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPB
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.T(:"
+.data
+.data$r
+.edata
+.i?0@I
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xJ>Hf
+.xdata
+.xdata$x
+/2GG>!B
+/>58d%
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+0123456789-
+0123456789-+Ee
+0123456789ABCDEFabcdef-+Xx
+0123456789ABCDEFabcdef-+XxPp
+0123456789abcdefghijklmnopqrstuvwxyz
+0><[cZUg^>
+0A^_^
+0A^_^][
+0A_A^A\
+0A_A^A\_^
+0A_A^A]
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A_A^A]A\_^]
+0A_A^A]_]
+0A_A^A]_^
+0A_A^_
+0A_A^_^]
+0A__^
+0A__^[]
+0X8b?~
+0iN>/
+0w0c1
+0}0i1
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+130801120000Z
+1<.	/>:
+1e+9999
+1eaB@
+210429000000Z
+211007000000Z
+220323000000Z
+220329000000Z
+220330231430Z0/
+241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+330314235959Z0L1
+360428235959Z0i1
+370322235959Z0c1
+380115120000Z0b1
+3>N;kU
+3>fvw
+3A8A#
+3T$(H
+3mq+<
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6({wyyj:
+6*f(_
+6D8\$`u
+6I]Dc
+6OB,n_
+700PP
+700WP
+70503
+8*u;I
+8-uCH
+8-uGH
+80tWD
+8A^_^[
+8A_A^A\_^[
+8A_A^A]A\_^][
+8D$ u+H
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8G	uEH
+8G	utH
+8H;^XtB
+8HtKH
+8T$0u
+8T$Ht
+8\$0u`H
+8\$PtD
+8\$PtF
+8_	u7E3
+8_^][
+8ke?;
+91~/E3
+9>powf
+9D$(}k
+9D$`t_
+9FHtGH
+9W$v8D
+9WP~GM
+9WP~HM
+9WP~KM
+9\$0u
+9^ t"H
+9_P~+E3
+9_P~,E3
+9_P~OE3
+9u@u	H
+9{D~H3
+: exception thrown in JSON library
+:>)*	v
+:>t6k'
+:AM:am:PM:pm
+:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+:O	t	I
+:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+:u,f9Q
+;.u1L
+;:u#H
+;:uNH
+;A$vTH
+;B$vUH
+;Ct~EH
+;Ct~ZH
+;Ct~gH
+;H9>&X
+;I9}(tiH
+;\$p|
+<	w	@
+< t;<	t7
+<%ufH
+</u#H
+<0:08
+<:u/H
+<:u3H
+<:wuH
+<>#n2
+<htr<jtb<lt6<tt&<wt
+<xu<D
+<}wYI
+=WIDATx
+=imb;D
+=rIQU
+>KpP`
+>Mp$d
+>ffffff
+>jtm}S
+?!5WOo
+?+>^m
+?49HoKC
+?7zQ6$
+?7{KV
+?8bunz8
+?:kP<
+???????????????????????????????????????????????????????????????????????????????????????????????????
+?@En[vP
+?Cu0f9w
+?D8d$@
+?E=$% B
+?QY^&
+?R0I?
+?TY,>5
+?U'];
+?UUUUUU
+?f`Y4
+?kxG2)
+?w,_3
+?{Q}<
+@(D9i(
+@.data
+@.reloc
+@.rsrc
+@80u#H
+@8<)u
+@8l$8t
+@8q$t
+@8t$0
+@8t$8t)A
+@8t(8}
+@8y:t
+@8{:t
+@8|$Pt
+@8|$Pu
+@8|$^t
+@>%>b
+@A^A\_^]
+@A^_^
+@A_A]A\_^
+@A_A^A\
+@A_A^A\_^
+@A_A^A\_^[]
+@A_A^A]A\_^[
+@A_A^A]A\_^]
+@A_A^]
+@A_A^_^]
+@HcC(H
+@LcqHD
+@SAUAVAWH
+@SAVAWH
+@SUVWATAUAVAWH
+@SUVWATAVAWH
+@SUVWAVH
+@SVAUAVH
+@SVAVAWH
+@SVAWH
+@SVWATAUAVAWH
+@SVWATAWH
+@SVWATH
+@SVWH
+@SWAWH
+@UATAUAVAWH
+@UAVAWH
+@USVWATAUAVAWH
+@USVWATAUAVH
+@USVWATAVAWH
+@USVWAWH
+@USVWH
+@USWAUAVH
+@USWH
+@UVWATAUAVAWH
+@UVWH
+@UWAVAWH
+@VWAVH
+@b;zO]
+A valid JSON document must be either an array or an object value.
+A$+A,t\3
+A(9B(D
+A+B$+
+A+B$A
+A+B$D
+A+X$D
+A+n H
+A,A9A(v&L
+A,u+H
+A03>A|
+A0H9P
+A84.u
+A86taH
+A8H90t!H
+A8H98t!H
+A;6}#I
+A;H$I
+A;H$s
+A;J$vdH
+A>l$/
+A>pP&
+AA,A$
+AA<Fu
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+AK>(v
+ATAUAVH
+ATAVAWH
+AUAVAWH
+A^A\[]
+A^A\]
+A^A\^
+A^A\_
+A^A]A\
+A^A]A\_^[]
+A^A]_[]
+A^_^[]
+A_A\_^[
+A_A]A\^[]
+A_A]_^]
+A_A^A\
+A_A^A\_]
+A_A^A\_^
+A_A^A\_^[]
+A_A^A\_^][
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^[
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^A]A\_^][
+A_A^A][
+A_A^A]_]
+A_A^A]_^
+A_A^]
+A_A^_
+A_A^_^[]
+A_A^_^]
+A`D9L8
+Access violation - no RTTI data!
+AcquireSRWLockExclusive
+AjEB#AZ
+Another app was already launching (117)
+App info manager init failed (114)
+AppPolicyGetProcessTerminationMethod
+April
+AreFileApisANSI
+August
+AuthD
+B$D+B,toD+B(
+B(I9A(u
+B0E8XAt
+B8\(8
+B8\(9
+BC?>6t9^	c:>
+BF>^G
+BHoxqF
+BL$(A
+Bad dynamic_cast!
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Bellevue1
+C H9G
+C$u	H
+C'db-N
+C(H;C0r
+C0HcF
+C0L9$
+C4D+@ H
+C5R?	
+C847u
+C8<(u
+C8H9(u
+C9|0$uA
+CA7%^[
+CB(A;J,A
+CB0A;B(A
+CD$0M
+CE,D;m0D
+CL$ H
+CL$0H
+CL$PH
+CL:>8
+CT$ L
+CT$0H
+CWD>~3
+C\$0H
+C\$PH
+C\$PL
+C\$pH
+C`D;Sh|
+ChangeTimerQueueTimer
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CloseThreadpoolWork
+CompareStringEx
+CompareStringW
+Compositor failed to find DX11 hardware (401)
+Compositor failed to initialize (400)
+Compositor initialization succeeded, but overlay init failed (403)
+Compositor initialization succeeded, but screenshot init failed (404)
+Compositor requires mandatory firmware update (402)
+Compositor unable to create graphics device (405)
+Config path could not be located (111)
+Connect to VR Server Failed (301)
+ContextPriority
+ContextStackSize
+Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+CorExitProcess
+CreateEventExW
+CreateEventW
+CreateFileW
+CreateRemoteThreadEx
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+CreateThreadpoolWork
+CreateTimerQueue
+CreateTimerQueueTimer
+CreateUmsCompletionList
+CreateUmsThreadContext
+D	g I
+D W?{W
+D!l$x@
+D$ 3A
+D$ 3Q
+D$ A;
+D$ E3
+D$ H;
+D$ I;
+D$(H9
+D$(H;
+D$(L9
+D$(fD
+D$0,fD
+D$0.fD
+D$0E3
+D$0H#
+D$0H+
+D$0H;
+D$0HcH
+D$0L;
+D$0f;VPu
+D$0fD
+D$49C
+D$8E3
+D$8H;
+D$8H=
+D$8HcJ
+D$8L9
+D$@E3
+D$@H+
+D$@H9D$8t
+D$@H;
+D$@H;C
+D$@Ic
+D$@fD
+D$P I
+D$PA#
+D$PE3
+D$PH+
+D$PH;
+D$PI;
+D$PIc
+D$PL;
+D$XA+
+D$`D90}
+D$`E3
+D$`Hc
+D$`L;
+D$`fI
+D$hD;
+D$hE;
+D$pA+
+D$pE3
+D$pH;
+D$pHcH
+D$pfA;
+D$xfD
+D+AHH
+D+ShHcChM
+D+d$8H
+D08@t	
+D8"u3H
+D8$+u
+D8&t!
+D8&t3H
+D82u&H
+D8?t	H
+D8M@t
+D8M@t^
+D8Q:uEH
+D8\$`t
+D8a:uDH
+D8c:u
+D8d$1u
+D8d$8t
+D8d$8tEI
+D8d$@t
+D8d$Ht
+D8d$Xt
+D8l$`
+D8l$ht
+D8t$8t
+D8t$Ht
+D8yDt
+D8|$0u
+D8|$Ht
+D9&tXA
+D9B,t
+D9G$s5
+D9J,w
+D9L$,uDH
+D9L$0uFI
+D9Y$v+E
+D9c t
+D9d$$u
+D9g@~2Ic
+D9h(uiE
+D9k(u
+D;=2$
+D;T$4
+D;d$$A
+D;d$$u
+D;j0v
+D;l$0
+D;v(s
+D;w@|
+D;z,A
+D;z,u
+D;z,v	A
+D<P0I
+December
+DecodePointer
+DeleteCriticalSection
+DeleteProcThreadAttributeList
+DeleteTimerQueueTimer
+DeleteUmsCompletionList
+DeleteUmsThreadContext
+DequeueUmsCompletionListItems
+Device Calibration is invalid (207)
+Device is not calibrated (206)
+DigiCert Inc1
+DigiCert Timestamp 2022 - 20
+DigiCert Trusted Root G40
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
+DigiCert, Inc.1A0?
+Dl$8E
+Driver Failed (200)
+Driver Not Known (201)
+Driver Not Loaded (203)
+Driver Tracked Device Interface unknown (209)
+Driver runtime is out of date (204)
+Duplicate key: '
+DuplicateHandle
+DynamicProgressFeedback
+E'i}p&b
+E+BHH
+E+BhIcBhM
+E0HcH
+E0Lcx
+E0t H
+E8X@t8A
+E;B0E
+E;Bl}DM
+E>nEA
+EP*?@
+EPHc@
+ET$(H
+Eg8C	
+Empty escape sequence in string
+EncodePointer
+EnterCriticalSection
+EnterUmsSchedulingMode
+EnumSystemLocalesEx
+EnumSystemLocalesW
+Eo%lf
+Exceeded stackLimit in readValue().
+ExecuteUmsThread
+ExitProcess
+Extra non-whitespace after JSON value.
+F(LcF I
+F>qUxv
+Factory Function Not Found (104)
+February
+File Not Found (103)
+FileTimeToSystemTime
+FindClose
+FindFirstFileExA
+FindNextFileA
+Firmware Recovery In Progress (139)
+Firmware Update In Progress (138)
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryAndExitThread
+FreeLibraryWhenCallbackReturns
+Friday
+G$;G,
+G(9G u
+G,9G$u
+G0Hc	H
+G0LcGDI
+G8HcODI
+GPP@&R7T
+GQ@R<E
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentDirectoryW
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentProcessorNumberEx
+GetCurrentThread
+GetCurrentThreadId
+GetCurrentUmsThread
+GetDateFormatEx
+GetDateFormatW
+GetDriveTypeW
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetFileInformationByHandle
+GetFileInformationByHandleEx
+GetFileType
+GetFullPathNameW
+GetLastError
+GetLocaleInfoEx
+GetLocaleInfoW
+GetLogicalProcessorInformation
+GetLogicalProcessorInformationEx
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetNextUmsListItem
+GetNumaHighestNodeNumber
+GetOEMCP
+GetProcAddress
+GetProcessAffinityMask
+GetProcessHeap
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetThreadGroupAffinity
+GetThreadPriority
+GetThreadTimes
+GetTickCount
+GetTickCount64
+GetTimeFormatEx
+GetTimeFormatW
+GetTimeZoneInformation
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+GetUmsCompletionListEvent
+GetUserDefaultLCID
+GetUserDefaultLocaleName
+GetVersionExW
+GrvD)
+H WATAUAVAWH
+H!C@H
+H!D$ E
+H!T$0D
+H#T$0H
+H#|$0tB
+H+C H=
+H+D$XH+D$@3
+H+G H=
+H+L$(x?H
+H+L$(xAH
+H+OpH
+H+SpA
+H+WpA
+H+WpH
+H+\$0H
+H+|$8
+H3\$HH
+H97uWH
+H98t%H
+H99u{
+H9='V	
+H9=3a	
+H9=CP	
+H9=SI	
+H9=SU	
+H9=_L	
+H9=_Q	
+H9=k\	
+H9A u
+H9Ahs
+H9D$@u
+H9D$Ht
+H9D$Pu@H
+H9J t1
+H9K u
+H9L$Ht?H
+H9Qhv#H
+H9\$ u
+H9\$P
+H9_ht0H
+H9i(u
+H9t$@r
+H9t$@t
+H;9u|A
+H;@0u
+H;@Xu
+H;A0s
+H;Axt
+H;Cxu
+H;D$Pu
+H;D$`
+H;D$pr
+H;XXs
+H;_Xt
+H;xXu5
+HH:mm:ss
+HHtfH
+HMD Not Known (202)
+HMD already in use by another application (205)
+HMD detected over USB, but Monitor may be mirrored instead of extended (212)
+HMD detected over USB, but Monitor not found (208)
+HMD found, but can not open device (1101)
+HMD found, but config too big (1104)
+HMD found, but config too small (1105)
+HMD found, but failed configuration check (1113)
+HMD found, but no stored config (1103)
+HMD found, but problems with the data (1107)
+HMD found, but problems with the data (1108)
+HMD found, but problems with the data (1109)
+HMD found, but problems with the data (1110)
+HMD found, but problems with the data (1111)
+HMD found, but problems with the data (1112)
+HMD found, but problems with the data (1115)
+HMD found, but unable to init ZLib (1106)
+HMD found, but unable to request config (1102)
+H[><y5
+H_^[]
+Hc-/0
+Hc9;q
+Hc;HcK
+HcC H
+HcC0H
+HcD$hH
+HcG(H
+HcGTL
+HcGl;Gh}
+HcK H
+HcKhH
+HcKpH
+HcS H
+Hc]`M
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+Hmd DriverId is invalid (125)
+Hmd DriverId is our of bounds (211)
+Hmd Not Found (108)
+Hmd Not Found Presence Failed (126)
+H}*M;
+I96t4H
+I9Bhs
+I;4$H
+I;4$L
+ILiquidVR_001
+IND)ind)
+INITY
+IVRClientCore_003
+IVRControlPanel_006
+IVRHeadsetView_001
+IVRPaths_001
+IVRVirtualDisplay_002
+IcI A
+IcJ 3
+IcJPHc
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+Il?333333c?
+Infinity
+InitOnceExecuteOnce
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeProcThreadAttributeList
+InitializeSListHead
+InitializeSRWLock
+Installation Corrupt (101)
+Installation Not Found (100)
+Installation path could not be located (110)
+Interface Not Found (105)
+InterlockedFlushSList
+InterlockedPopEntrySList
+InterlockedPushEntrySList
+Internal Retry (115)
+Invalid Application Type (130)
+Invalid Interface (106)
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+IsValidLocale
+IsValidLocaleName
+J$A;H$A
+J>@G_
+JBIh	i
+JX<$N
+J`E;Bh|
+January
+K 9N v@H
+K H9y
+K&>.yC
+K0u2H
+K3tyI
+K4A+H 
+K74LN
+K8Hc@
+KERNEL32.dll
+KH;_XtW3
+KXHcS8
+K}*n:	
+K~Je#>!
+L!|$(L!
+L$ E3
+L$ I;
+L$ L;
+L$ SH
+L$ SUVWH
+L$ SVWH
+L$ UVWATAUAVAWH
+L$ VWAVH
+L$ WH
+L$ fff
+L$ |+L;
+L$&8\$&t-8Y
+L$(E3
+L$(H3
+L$0E3
+L$0E;
+L$0H3
+L$0H9
+L$0H;
+L$0H;K
+L$0fH
+L$0fI
+L$4E;
+L$8H3
+L$8M;
+L$<+L$4
+L$<+L$H
+L$@;L$T
+L$@;|
+L$@H3
+L$@H9
+L$@H9t$@ugH
+L$@uU
+L$HHc
+L$PH3
+L$XE3
+L$XH3
+L$pD9c
+L$pE3
+L$pH3
+L(:A:
+L(;A:
+L(;E:
+L(<A:
+L+t$0
+L9"u&
+L9L$(D
+L9`8u'L
+L9l$0
+L9|$@
+L9|$pveH;
+L9~ t
+L;8u6H
+L;FHu
+L;L$(A
+L;L$(t
+L?UUUUUUU?
+L?n(Zy&
+LCIDToLocaleName
+LCMapStringEx
+LCMapStringW
+LargestInt out of Int range
+LargestUInt out of Int range
+LcA<E3
+LcCP3
+LcGDI
+LcGP3
+LceoA
+LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+Line %d, Column %d
+LiquidVR
+Lj[;>
+LoadLibraryExA
+LoadLibraryExW
+LoadLibraryW
+LocalContextCacheSize
+LocaleNameToLCID
+Lock already taken
+Log path could not be located (112)
+Low Power Watchdog Not Supported (129)
+LrvD)O
+M H1E
+M(f95
+M98u/
+MB(iVR
+MM/dd/yy
+March
+MaxConcurrency
+MaxPolicyElementKey
+Mbp?333333
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+MinConcurrency
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+Monday
+MultiByteToWideChar
+N3`d?
+N>O=I9
+NAN(IND)
+NAN(SNAN)
+No Error (0)
+Not Initialized (109)
+Not available to watchdog apps (131)
+Not starting vrserver for background app (121)
+November
+O,D9O(vcH
+O0HcQ
+O0LcQ
+OF>;^
+October
+On laptop, HMD detected over USB, but Monitor not found (213)
+P>q_Y~
+PA^_^
+PA_A^A]A\_^]
+PA_A^_^]
+PA__^[]
+PAq=?Mp#
+PeekNamedPipe
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Pk7o`
+Pz}b!
+Q5rHg,>
+QmqTMv
+Qn 0G
+QueryDepthSList
+QueryPerformanceCounter
+QueryUmsThreadInformation
+R(1)Y9
+R0E8XAt
+R\hvv
+RaiseException
+ReadConsoleW
+ReadFile
+Rebooting In Progress (137)
+RegisterTraceGuidsW
+RegisterWaitForSingleObject
+ReleaseSRWLockExclusive
+ReleaseSemaphore
+ResetEvent
+RoInitialize
+RoUninitialize
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+S0Q0O
+S;\$0tH
+S>$hkDh$h>[2
+SA|X=G
+SHELL32.dll
+SHGetFolderPathW
+SNAN)
+SUVWATAUAVAWH
+SUVWATAUAVAWL
+SUVWH
+SVWATAUAVAWH
+SVWATAVAWH
+SVWAVAWH
+SVWAVH
+Saturday
+SchedulerKind
+SchedulingProtocol
+September
+SetEndOfFile
+SetEnvironmentVariableA
+SetEvent
+SetFileInformationByHandle
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetThreadAffinityMask
+SetThreadGroupAffinity
+SetThreadPriority
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUmsThreadInformation
+SetUnhandledExceptionFilter
+Settings manager init failed (118)
+Sg^V;f
+Shared IPC Compositor Connect Failed (306)
+Shared IPC Compositor Init Failed (303)
+Shared IPC Compositor Invalid Connect Response (307)
+Shared IPC Connect Failed After Multiple Attempts (308)
+Shared IPC Connect Failed After Target Exited (309)
+Shared IPC Failed (305)
+Shared IPC Mutex Init Failed (304)
+Shared IPC Namespace Unavailable (310)
+Shared IPC State Init Failed (302)
+SignalObjectAndWait
+Sleep
+SleepConditionVariableCS
+SleepConditionVariableSRW
+SubmitThreadpoolWork
+Sunday
+SwitchToThread
+Syntax error: value, object or array expected.
+SystemTimeToTzSpecificLocalTime
+T$ 3Q
+T$ D){
+T$ E3
+T$0D9d$@
+T$0E3
+T$8H+
+T$HE3
+T$PD+
+T$PE3
+T$PH3
+T$PH;T$Xu
+T$`A:
+T$`D8p
+T$hD+
+T$hH;T$pu
+T$pE3
+T$pkD$x<
+TUUUU
+TargetOversubscriptionFactor
+TerminateProcess
+The requested interface is incompatible with the compositor and the compositor is running (122)
+This interface is not available to utility applications (123)
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Too many tracked objects (120)
+TraceEvent
+TryAcquireSRWLockExclusive
+TryEnterCriticalSection
+Tuesday
+U8D8;A
+UA>N0Wl
+UATAUAVAWH
+UAVAWH
+USATAVH
+USB Service Busy (140)
+USVATAUAWH
+USVWATAUAVAWH
+USVWATAUAVH
+USVWAVAWH
+USVWAVH
+UUUUUU
+UVWATAUAVAWH
+UVWATAVH
+UVWAUAWH
+UVWAVAWH
+UWATAVAWH
+UWAVH
+UmsThreadYield
+Unable to connect to Oculus Runtime (1000)
+Unable to connect to Oculus Runtime, possible bad install (1114)
+Unable to determine VR Path Registry filename
+Unable to find Steam installation (2000)
+Unable to parse 
+Unable to parse token length
+Unable to read VR Path Registry from 
+Unable to write path registry (113)
+UnhandledExceptionFilter
+Unknown error (%d)
+Unknown exception
+UnregisterTraceGuids
+UnregisterWait
+UnregisterWaitEx
+UpdateProcThreadAttribute
+User Canceled Init (116)
+User Config Directory Invalid (107)
+V6E>`"(5
+VATAVH
+VD$Pf
+VR Dashboard Not Found (133)
+VR Dashboard startup failed (134)
+VR Dashboard startup failed, attempt to communicate with vrservice timed out (161)
+VR Dashboard startup failed, path error (167)
+VR Dashboard startup failed, required files did not copy correctly (164)
+VR Dashboard startup failed, unable to create appropriate environment (166)
+VR Dashboard startup failed, unable to create appropriate token (165)
+VR Dashboard startup failed, vrdashboard was already running (163)
+VR Dashboard startup failed, vrservice was pending for too long (160)
+VR Dashboard startup failed, vrservice was stopped (162)
+VR Home Not Found (135)
+VR Monitor Not Found (127)
+VR Monitor startup failed (128)
+VR Path Registry node %s is not an array
+VR Server Init Failed (300)
+VR home startup failed (136)
+VR system shutting down (119)
+VRClientCoreFactory
+VRControlPanel
+VRHeadsetView
+VRInitError_Compoistor_CreateBackbufferDepth
+VRInitError_Compoistor_CreateInverseDistortUVs
+VRInitError_Compositor_CreateAlphaBlendState
+VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBlendState
+VRInitError_Compositor_CreateBlendStateMaskB
+VRInitError_Compositor_CreateBlendStateMaskG
+VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateClampToBorderSamplerState
+VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
+VRInitError_Compositor_CreateComputeResolveRenderTextures
+VRInitError_Compositor_CreateConstantBuffer
+VRInitError_Compositor_CreateDepthStencilState
+VRInitError_Compositor_CreateDepthStencilStateNoDepth
+VRInitError_Compositor_CreateDepthStencilStateNoWrite
+VRInitError_Compositor_CreateDistortionSurfaces
+VRInitError_Compositor_CreateDriverDirectModeResolveTextures
+VRInitError_Compositor_CreateFallbackSyncTexture
+VRInitError_Compositor_CreateFlushTexture
+VRInitError_Compositor_CreateFontSamplerState
+VRInitError_Compositor_CreateFullscreenWindowFailed
+VRInitError_Compositor_CreateGeomConstantBuffer
+VRInitError_Compositor_CreateHmdPoseConstantBuffer
+VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateLastFrameRenderTexture
+VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
+VRInitError_Compositor_CreateLayerGraphicsTextureIndexConstantBuffer
+VRInitError_Compositor_CreateMSAARenderTextures
+VRInitError_Compositor_CreateMirrorOverlay
+VRInitError_Compositor_CreateMirrorTextures
+VRInitError_Compositor_CreateNoBlendState
+VRInitError_Compositor_CreateOverlayAlreadyInitialized
+VRInitError_Compositor_CreateOverlayConstantBuffer
+VRInitError_Compositor_CreateOverlayIndexBuffer
+VRInitError_Compositor_CreateOverlayInvalidCall
+VRInitError_Compositor_CreateOverlaySamplerState
+VRInitError_Compositor_CreateOverlayVertexBuffer
+VRInitError_Compositor_CreatePanelMaskConstantBuffer
+VRInitError_Compositor_CreatePanoramaSamplerState
+VRInitError_Compositor_CreatePixelSimUBO
+VRInitError_Compositor_CreateRasterizerState
+VRInitError_Compositor_CreateReadableSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateResolveRenderTextures
+VRInitError_Compositor_CreateSamplerState
+VRInitError_Compositor_CreateSceneTextureIndexConstantBuffer
+VRInitError_Compositor_CreateSharedFrameInfoConstantBuffer
+VRInitError_Compositor_CreateTextIndexBuffer
+VRInitError_Compositor_CreateTextVertexBuffer
+VRInitError_Compositor_CreateWireframeRasterizerState
+VRInitError_Compositor_D3D11HardwareRequired
+VRInitError_Compositor_D3D11RendererInitializationFailed
+VRInitError_Compositor_DXGIFactoryCreateFailed
+VRInitError_Compositor_DXGIFactoryInterfaceIsNull
+VRInitError_Compositor_DXGIFactoryQueryFailed
+VRInitError_Compositor_DisplayFrequencyFailure
+VRInitError_Compositor_DisplayModeNotSupported
+VRInitError_Compositor_DistortInterfaceIsNull
+VRInitError_Compositor_Failed
+VRInitError_Compositor_FailedToCreateDXGI2RenderTarget
+VRInitError_Compositor_FailedToCreateDXGI2SwapChain
+VRInitError_Compositor_FailedToCreateDirectModeDisplay
+VRInitError_Compositor_FailedToCreateMailbox
+VRInitError_Compositor_FailedToCreateNvAPIRenderTargets
+VRInitError_Compositor_FailedToCreateRenderTarget
+VRInitError_Compositor_FailedToCreateSwapChain
+VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
+VRInitError_Compositor_FailedToFindDisplayMode
+VRInitError_Compositor_FailedToGetBackBuffer
+VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToShowWindow
+VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
+VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_InvalidAdapterDesktop
+VRInitError_Compositor_InvalidDeviceProvided
+VRInitError_Compositor_InvalidHmdAttachment
+VRInitError_Compositor_InvalidHmdPropertyContainer
+VRInitError_Compositor_InvalidOutputDesktop
+VRInitError_Compositor_MessageOverlaySharedStateInitFailure
+VRInitError_Compositor_NotificationManagerIsNull
+VRInitError_Compositor_NvAPISetDisplayMode
+VRInitError_Compositor_OpenDriverDirectModeResolveTextures
+VRInitError_Compositor_OverlayInitFailed
+VRInitError_Compositor_PropertiesInterfaceIsNull
+VRInitError_Compositor_RendererInitializationFailed
+VRInitError_Compositor_ResourceManagerClientIsNull
+VRInitError_Compositor_ScreenshotsInitFailed
+VRInitError_Compositor_SelectDisplayMode
+VRInitError_Compositor_SettingsInterfaceIsNull
+VRInitError_Compositor_ShareFallbackSyncTexture
+VRInitError_Compositor_SharedStateIsNull
+VRInitError_Compositor_SystemLayerCreateInstance
+VRInitError_Compositor_SystemLayerCreateSession
+VRInitError_Compositor_UnableToCreateDevice
+VRInitError_Compositor_UpdateDisplayFrequency
+VRInitError_Compositor_WindowInterfaceIsNull
+VRInitError_Driver_CalibrationInvalid
+VRInitError_Driver_Failed
+VRInitError_Driver_HmdDisplayMirrored
+VRInitError_Driver_HmdDisplayNotFound
+VRInitError_Driver_HmdDisplayNotFoundLaptop
+VRInitError_Driver_HmdDriverIdOutOfBounds
+VRInitError_Driver_HmdInUse
+VRInitError_Driver_HmdUnknown
+VRInitError_Driver_NotCalibrated
+VRInitError_Driver_NotLoaded
+VRInitError_Driver_PeerDriverNotInstalled
+VRInitError_Driver_RuntimeOutOfDate
+VRInitError_Driver_TrackedDeviceInterfaceUnknown
+VRInitError_Driver_Unknown
+VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_IPC_CompositorConnectFailed
+VRInitError_IPC_CompositorInitFailed
+VRInitError_IPC_CompositorInvalidConnectResponse
+VRInitError_IPC_ConnectFailed
+VRInitError_IPC_ConnectFailedAfterMultipleAttempts
+VRInitError_IPC_ConnectFailedAfterTargetExited
+VRInitError_IPC_Failed
+VRInitError_IPC_MutexInitFailed
+VRInitError_IPC_NamespaceUnavailable
+VRInitError_IPC_ServerInitFailed
+VRInitError_IPC_SharedStateInitFailed
+VRInitError_Init_AlreadyRunning
+VRInitError_Init_AnotherAppLaunching
+VRInitError_Init_AppInfoInitFailed
+VRInitError_Init_BadLuid
+VRInitError_Init_CouldNotStartPrism
+VRInitError_Init_DuplicateBootstrapper
+VRInitError_Init_FactoryNotFound
+VRInitError_Init_FailedForVrMonitor
+VRInitError_Init_FileNotFound
+VRInitError_Init_FirmwareRecoveryBusy
+VRInitError_Init_FirmwareUpdateBusy
+VRInitError_Init_HmdDriverIdIsNone
+VRInitError_Init_HmdNotFound
+VRInitError_Init_HmdNotFoundPresenceFailed
+VRInitError_Init_IllegalTypeTransition
+VRInitError_Init_InitCanceledByUser
+VRInitError_Init_InstallationCorrupt
+VRInitError_Init_InstallationNotFound
+VRInitError_Init_InterfaceNotFound
+VRInitError_Init_Internal
+VRInitError_Init_InvalidApplicationType
+VRInitError_Init_InvalidInterface
+VRInitError_Init_InvalidProcessId
+VRInitError_Init_LowPowerWatchdogNotSupported
+VRInitError_Init_MismatchedRuntimes
+VRInitError_Init_NoConfigPath
+VRInitError_Init_NoLogPath
+VRInitError_Init_NoServerForAppContainer
+VRInitError_Init_NoServerForBackgroundApp
+VRInitError_Init_NotAvailableToUtilityApps
+VRInitError_Init_NotAvailableToWatchdogApps
+VRInitError_Init_NotInitialized
+VRInitError_Init_NotSupportedWithCompositor
+VRInitError_Init_PathRegistryNotFound
+VRInitError_Init_PathRegistryNotWritable
+VRInitError_Init_PrismClientInitFailed
+VRInitError_Init_PrismClientStartFailed
+VRInitError_Init_PrismExitedUnexpectedly
+VRInitError_Init_PrismNeedsNewDrivers
+VRInitError_Init_PrismStartupTimedOut
+VRInitError_Init_PropertyManagerInitFailed
+VRInitError_Init_RebootingBusy
+VRInitError_Init_Retry
+VRInitError_Init_SettingsInitFailed
+VRInitError_Init_ShuttingDown
+VRInitError_Init_TooManyObjects
+VRInitError_Init_TrackerManagerInitFailed
+VRInitError_Init_USBServiceBusy
+VRInitError_Init_UserConfigDirectoryInvalid
+VRInitError_Init_VRClientDLLNotFound
+VRInitError_Init_VRDashboardAlreadyStarted
+VRInitError_Init_VRDashboardCopyFailed
+VRInitError_Init_VRDashboardEnvironmentFailure
+VRInitError_Init_VRDashboardNotFound
+VRInitError_Init_VRDashboardPathFailure
+VRInitError_Init_VRDashboardServicePending
+VRInitError_Init_VRDashboardServiceStopped
+VRInitError_Init_VRDashboardServiceTimeout
+VRInitError_Init_VRDashboardStartupFailed
+VRInitError_Init_VRDashboardTokenFailure
+VRInitError_Init_VRHomeNotFound
+VRInitError_Init_VRHomeStartupFailed
+VRInitError_Init_VRMonitorNotFound
+VRInitError_Init_VRMonitorStartupFailed
+VRInitError_Init_VRServiceStartupFailed
+VRInitError_Init_VRWebHelperStartupFailed
+VRInitError_Init_WatchdogDisabledInSettings
+VRInitError_Init_WebServerFailed
+VRInitError_None
+VRInitError_Steam_SteamInstallationNotFound
+VRInitError_Unknown
+VRInitError_VendorSpecific_HmdFound_CantOpenDevice
+VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
+VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
+VRInitError_VendorSpecific_HmdFound_ConfigTooBig
+VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
+VRInitError_VendorSpecific_HmdFound_NoStoredConfig
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
+VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
+VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
+VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
+VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_OculusLinkNotEnabled
+VRInitError_VendorSpecific_OculusRuntimeBadInstall
+VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_WindowsNotInDevMode
+VRPaths
+VRVirtualDisplay
+VR_CONFIG_PATH
+VR_GetGenericInterface
+VR_GetInitToken
+VR_GetRuntimePath
+VR_GetStringForHmdError
+VR_GetVRInitErrorAsEnglishDescription
+VR_GetVRInitErrorAsSymbol
+VR_InitInternal
+VR_InitInternal2
+VR_IsHmdPresent
+VR_IsInterfaceVersionValid
+VR_IsRuntimeInstalled
+VR_LOG_PATH
+VR_OVERRIDE
+VR_PATHREG_OVERRIDE
+VR_RuntimePath
+VR_ShutdownInternal
+VT$PD
+VUD8oDu
+VWATAUAVAWL
+VWATAVAW
+VWATAVAWH
+VWAUAVAWH
+VWAUH
+VWAVH
+VWAWH
+V_~]	,
+Valve Corp.0
+Valve Corp.1
+VirtualAlloc
+VirtualFree
+VirtualProtect
+W0;Ct~ZH
+W8HcH
+WATAUAVAWH
+WATAVH
+WATAWH
+WAVAWH
+W`;Ct~|H
+WaNd?
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WakeAllConditionVariable
+WakeConditionVariable
+Washington1
+Watchdog disabled in settings (132)
+Wednesday
+WideCharToMultiByte
+WinRTInitialization
+WriteConsoleW
+WriteFile
+X E9j
+X_^][
+Y$D;R
+Y([~=
+Y0t>H
+Y7'v[M
+Y8(|bUhI;W4$eG8
+Y9"SD
+Y>kX>M
+YD$@f
+YYyhe"B
+Z(D9Z
+Z=5`^^^
+Z\>z8
+Zod(^?
+[ 0@QT
+[*ncd>0
+[3F|}
+[@D8}oteH
+[K]taM?
+[aOni*{
+[zm4H
+\$ E3
+\$ UAVAWH
+\$ UH
+\$ UVAVH
+\$ UVWATAUAVAWH
+\$ UVWAVAWH
+\$ UVWH
+\$ VWATAUAWH
+\$ WH
+\$(E3
+\$(H;
+\$(Hc
+\$0H+^
+\$0H9^
+\$0H;
+\$0eH
+\$2fE
+\$8E3
+\$8H;
+\$8I+_
+\$8I9_
+\$8I;
+\$<D2
+\$@H;
+\$@fD
+\$PE3
+\$PI;
+\$Pu-H
+\$gm?
+\$hI;
+\$pE3
+\@d#_
+\Fj;!h8
+\ffff
+\u=H;
+\wDgG
+])6M>&
+]+9pa
+]6%S*
+]>)2X
+]J<0"0i3
+]`u7H
+]g@8yhu
+^<V7w
+^RfN>
+^fD9(H
+_(H9n
+_C5D#
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__swift
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_gUT^
+_hypot
+_logb
+_nextafter
+_oD>Kg
+` UAVAWH
+`+!]?
+`.rdata
+`A^_^
+`A_A^A]A\_^]
+`A_A^_^[
+`F8bI<bH;^C6H)
+`RTTI
+``````````````````````````````````````````````````````````````````````````````````````````````````
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h````
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+a8&Y.
+abcdefghijklmnopqrstuvwxyz
+additional six characters expected to parse unicode surrogate pair.
+address family not supported
+address in use
+address not available
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+already connected
+argument list too long
+argument out of domain
+assert json failed
+atan2
+b4 a2
+b?^Cy
+bJ3*n
+bad address
+bad allocation
+bad array new length
+bad cast
+bad conversion
+bad exception
+bad file descriptor
+bad locale name
+bad message
+bp(=>?g
+broken pipe
+c [1>H'
+c%;>7
+c(>\,
+c0&>`
+c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c?FA@s}
+cD5U3#eF7v\NV5%J%
+cRpp`
+ceLfdfK3
+cg+tY
+collectComments
+config
+connection aborted
+connection already in progress
+connection refused
+connection reset
+count
+cross device link
+d$ E3
+d$ UAVAWH
+d$DE;
+d$XD9
+d$`H=
+d?000000`?
+dC4N(
+dI;D#
+dddd, MMMM dd, yyyy
+deque<T> too long
+destination address required
+device or resource busy
+directory not empty
+double out of Int range
+e+000
+e,>~^
+e0A^A]A\_^[]
+e0A_A^A]A\]
+e0A_A^A]A\_^]
+e0A_A^]
+e8A_A^A]A\_^[]
+e@A_A^]
+eLK(w
+eTe6 d4
+eventObject
+executable format error
+expecting another \u token to begin the second half of a unicode surrogate pair
+external_drivers
+f#D$@H
+f9)u H
+f9)uTH
+f9,Ju
+f9,Yu
+f9,~u
+f9/t	H
+f94H}7H
+f9<Ju
+f9D$pu
+f9t$bu
+f;M	tt
+fA9,Au
+fA9<\u
+fA;	H
+fB9,Nu
+fB94Ou
+fB9<@u
+fB9<@}eH
+fB9<Bu
+fB9<Hu
+fD9	t
+fD9	t(I
+fD9 t
+fD9 tMH
+fD9 u
+fD9$Hu
+fD9,Au
+fD90t
+fD91u
+fD92t
+fD92u
+fD94Fu
+fD94Gu
+fD96u
+fD97t
+fD9;u
+fD9<Au
+fD9<Cu
+fD9<Hu
+fD9<Xu
+fD9?t&
+fD9\$pt
+fD9\$pu
+fD9t$b
+fD9|$Xu
+fE90t
+fE98t'
+fE9<Au
+fF9<qu
+fG9$Ou
+fJBGo
+failIfExtra
+false
+fffff
+ffffff
+fffffff
+file exists
+file too large
+filename too long
+floor
+frexp
+function not supported
+generic
+gfe[D
+gfffA
+gfffL
+gfffffffH
+h VWATAVAWH
+h-y"3
+h< t <$
+h>1my
+hA\_^[
+hA_A^A]A\_^][
+hPP`*
+host unreachable
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0X
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+i,MFey<e
+iG8O(
+identifier removed
+illegal byte sequence
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+inappropriate io control operation
+inity
+interrupted
+invalid argument
+invalid seek
+invalid string position
+io error
+ios_base::badbit set
+ios_base::eofbit set
+ios_base::failbit set
+iostream
+iostream stream error
+is a directory
+iu+-,
+j>>A?1
+j?V()
+j?{$*
+jOIHg
+jj@0HK4
+k0i0$
+kB0[/
+kC2\/
+kXL9sHu
+keylength >= 2^30
+l$ E3
+l$ H;
+l$ H=
+l$ UAVAWH
+l$ VWATAUAVAWE3
+l$ VWATAVAWH
+l$ VWAUAVAWH
+l$ VWAVH
+l$ VWAWH
+l$0E3
+l$4D8d$1u
+l$4E3
+l$4E;C
+l$4H9u
+l$4L9}
+l$8E3
+l$@H;
+l$HA_A^A]A\_^
+l$PA_A^A]A\_^
+l$PE;C
+l$Pu H
+l$`E;
+l$xM+
+l*$D+l*,tDD+l*(
+l*JHD
+ldexp
+log10
+lq%&1T
+map/set<T> too long
+message size
+n03>Pu
+nD8-.
+n]?iJ
+nan(ind)
+nan(snan)
+network down
+network reset
+network unreachable
+nfinity
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+ntelD
+o0t$I
+oB(h8
+oI>O7
+obwQ4
+openvr
+openvr_api.dll
+openvrpaths.vrpath
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operator
+operator "" 
+operator co_await
+os.b	
+ot$ H
+ot$HH
+owner dead
+o|$0f
+p AWH
+p D9V
+p WATAUAVAWH
+p WAVAWH
+p*E?(
+pA_A^A]A\_^[
+pA_A^A]A\_^]
+pContext
+pEvents
+pExecutionResource
+pG6^0
+pKp$3
+pScheduler
+pThreadProxy
+permission denied
+ppVirtualProcessorRoots
+protocol error
+protocol not supported
+q(9qD~[E3
+q)]2<Mt
+qS>g?h3
+qe^3!Y-
+r	Vr.>T
+r	uAD;d$$u:
+r8w&M;
+r9D8v
+rB-<e*
+rBu/H
+rLp>B
+raB3G
+rcf9#b3
+read only file system
+rejectDupKeys
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+ri9O vdH
+runtime
+s WATAUAVAWH
+s WAVAWH
+s4+sP+
+sQA^7&^7%sP@
+snan)
+stCD;
+stZD;
+st[D;
+staE;
+stackLimit
+state not recoverable
+stbE;
+stcE;
+stdE;
+stream timeout
+strictRoot
+string too long
+switchState
+sxu/H
+sxuIH
+sxutH
+t	L9c
+t @8x
+t H9X8t]
+t"<.u
+t#fA;
+t$ AVH
+t$ AWH
+t$ E3
+t$ UH
+t$ UWAUAVAWH
+t$ UWAVH
+t$ WATAUAVAW
+t$ WATAUAVAWH
+t$ WAVAWH
+t$ WH
+t$(I;
+t$0E3
+t$8H+
+t$<D;t$@
+t$@A_A^A]A\_
+t$@H+
+t$@H=
+t$HI+
+t$HL;
+t$Hu{H
+t$PH=
+t$PuyH
+t$XE3
+t$XH;
+t$`;w
+t$hE3
+t$pH9\$ u
+t$xfD
+t&D8d$@t
+t'fE9
+t(B;\ 
+t*H9p8u$@8
+t+H;E
+t.8\$P
+t/D8e
+t4~ ;
+t5HcP
+t5LcF
+t<ffff
+t?8_:t
+t?H95
+t@LcM
+tA8_:t
+tAm4@
+tDLcC
+tG8\$ u08\$!t*E
+tKI;D
+tQfD9 tK
+tRCU+
+tRLcY
+tSf91tNH
+tTfA;
+tVf91tQH
+text file busy
+tgfD9I
+timed out
+tlLcA
+tlMcH
+toA l<
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+tpH91uk
+ttIcF
+tvLcK
+tyfD9 tsH
+t}D8O
+u	9o$
+u D9~
+u HcA<H
+u!!D$(H
+u%!D$@H
+u'L;k
+u)!t$(H
+u.H9>uBA
+u1!D$0H
+u2A8D
+u3HcH<H
+u4D9~
+u4I9}(
+uAiD$@
+uIL9[
+uY8\$ t
+ucD9~
+uf!T$(H!T$ 
+ug8Y$t
+ulD	3A
+unfD9A
+unknown error
+uoA8F
+upE8N
+uxHcOP
+uzKs@>
+u|fD9I
+u~9t$Xt
+u~LcW
+v0D8eou\H
+v2!L.2
+v=Y]Bv
+value too large
+vector<T> too long
+version
+vj`7%X,
+vrclient Shared Lib Not Found (102)
+vrclient_x64.dll
+vrserver internal error (124)
+v}`[>
+w(HcODI
+wFHcN
+wXJR*
+wrong protocol type
+www.digicert.com1!0
+x ATAVAWH
+x AUAVAWH
+x AVAWE3
+x AVAWL
+x AVE3
+x AVH
+x AVHcA
+x AWH
+x UAVAWH
+xMHcC
+xP?b3
+xRB`2
+xWI96tRI
+x]~\6
+x`cot~
+xmZ8(N*
+xpxxxx
+xwpwpp
+yH;YXtl
+y\PD>!
+y^QZ8(O*
+ygCH2
+zY;>u:m	
+zwom}
+{ ATAVAWH
+{ AVH
+{ tjL
+{S@d6
+{XIZ/
+{ZLjF5jE5zZK
+{^5#W-
+{un'%
+|$ ATAVAWH
+|$ AUAVAWH
+|$ AVH
+|$ AVL
+|$ D!
+|$ E2
+|$ E3
+|$ H;
+|$ UATAUAVAWH
+|$ UATAVH
+|$ UAVAWH
+|$ fA
+|$":us
+|$(A^
+|$0@"
+|$0A_A^
+|$0H+
+|$4E3
+|$4H9]
+|$4H9u
+|$8;3
+|$8A_A^A\
+|$@-D
+|$@-H
+|$@-u
+|$@E3
+|$HE;
+|$HH;
+|$HH=
+|$XHcU
+|$XM9~
+|$\.u
+|$`CI
+|$h9i
+|$h9w
+|Lu?c
+|TBc4
+|^4#W,
+|b=})>
+}LuHO
+}o@8{
+~ $s%r
+~`D8I!t-
+~t&LN

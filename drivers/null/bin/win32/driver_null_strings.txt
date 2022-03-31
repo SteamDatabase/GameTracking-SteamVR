@@ -1,0 +1,286 @@
+	!s99
+ %41g
+!hn7!
+',=?k
+(f*^[0
+*9Z9N
++Xt@(
++o'q)}
+,W5y+
+.00cfg
+.?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
+.?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@XW4ELogLevel@@PBDPAX@std@@
+.?AVCNullHmdLatest@@
+.?AVCServerDriver_Null@@
+.?AVIServerTrackedDeviceProvider@vr@@
+.?AVITrackedDeviceServerDriver@vr@@
+.?AVIVRDisplayComponent@vr@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.rdata
+.rdata$r
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$x
+.text$yd
+.xdata$x
+/AGSa
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0
+0$0)0.03080=0B0G0L0a0f0k0p0u0z0
+0'0,01080
+090o0
+0w0c1
+0}0i1
+1)10161H1R1
+1)181G1l1
+101X1x1
+130801120000Z
+1T2l2
+210429000000Z
+211007000000Z
+220323000000Z
+220329000000Z
+220330231444Z0/
+241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+3(3d3
+330314235959Z0L1
+360428235959Z0i1
+370322235959Z0c1
+380115120000Z0b1
+3<3Y3o3
+3mq+<
+4(4Z4
+4*464<4B4N4q4O5o5y5
+4>4K4S4[4
+5 5$5(5H6L6P6T6X6\6`6x6|6
+5&53595C5M5W5a5k5x5
+5&5V5[5~5
+5Genu
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5ineI
+6$7o7y7
+6&636E6O6Y6b6
+6*f(_
+6I]Dc
+6K7T7\7
+6OB,n_
+6k6p6
+70503
+8(8,8<8@8D8L8d8t8x8
+8)8?8H8S8Z8z8
+8*858?8K8
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+9#9,9>9C9M9W9`9i9~9
+9$9>9
+9%959E9N9]9c9i9o9u9{9
+90949L9\9`9p9t9|9
+:!:3:Q:
+:(:-:;:E:N:W:b:g:u:
+:(:8:<:L:P:X:p:
+;(;2;;;G;P;U;`;q;
+;4>X>d>l>
+;Z;k;
+<0:08
+<B<O<X<a<f<k<r<
+<B<O<p<u<
+='=9=Q=
+=(=.=4=x=}=
+=?>S>x>
+=rIQU
+>4?=?F?O?T?Y?`?
+>Mp$d
+>T>]>f>o>t>y>
+?0?8?L?T?\?d?h?l?t?
+?_ ZY
+?_Throw_C_error@std@@YAXH@Z
+?_Xlength_error@std@@YAXPBD@Z
+@.data
+@.reloc
+AjEB#AZ
+Bellevue1
+Db^Z5
+DigiCert Inc1
+DigiCert Timestamp 2022 - 20
+DigiCert Trusted Root G40
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+HmdDriverFactory
+IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_005
+IVRCameraComponent_003
+IVRCompositorPluginProvider_001
+IVRDisplayComponent_002
+IVRDriverDirectModeComponent_008
+IVRDriverLog_001
+IVRDriverManager_001
+IVRProperties_001
+IVRResources_001
+IVRServerDriverHost_006
+IVRSettings_003
+IVRVirtualDisplay_002
+IVRWatchdogProvider_001
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J>@G_
+KERNEL32.dll
+K}*n:	
+L?n(Zy&
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+MB(iVR
+MSVCP140.dll
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+PAq=?Mp#
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Pz}b!
+QueryPerformanceCounter
+S0Q0O
+SA|X=G
+SetUnhandledExceptionFilter
+TerminateProcess
+UnhandledExceptionFilter
+Unknown exception
+Using settings values
+VCRUNTIME140.dll
+V_~]	,
+Valve Corp.0
+Valve Corp.1
+Washington1
+Y9"SD
+Y__^[
+[K]taM?
+]J<0"0i3
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+__CxxFrameHandler3
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__stdio_common_vsprintf
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_except1
+_except_handler4_common
+_execute_onexit_table
+_gUT^
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_purecall
+_register_onexit_function
+_seh_filter_dll
+_stricmp
+`.rdata
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+bad allocation
+bad array new length
+c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
+displayFrequency
+driver_null
+driver_null.dll
+driver_null: Display Frequency: %f
+driver_null: IPD: %f
+driver_null: Model Number: %s
+driver_null: Render Target: %d %d
+driver_null: Seconds from Vsync to Photons: %f
+driver_null: Serial Number: %s
+driver_null: Window: %d %d %d %d
+e,>~^
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0X
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+jj@0HK4
+k0i0$
+malloc
+memcpy
+memmove
+memset
+modelNumber
+renderHeight
+renderWidth
+secondsFromVsyncToPhotons
+serialNumber
+steamvr
+string too long
+uCVj@
+v=Y]Bv
+vector<T> too long
+windowHeight
+windowWidth
+windowX
+windowY
+www.digicert.com1!0
+x]~\6
+{un'%
+|Lu?c
+}LuHO
+~t&LN

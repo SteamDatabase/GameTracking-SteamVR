@@ -1,0 +1,260 @@
+	?contains@QByteArray@@QEBA_NPEBD@Z
+	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+ 5Auth
+ 5Genu
+ H3D$0H
+!This program cannot be run in DOS mode.
+!weakref.load()
+$Hc@<H
+.00cfg
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQObject@@
+.?AVQSvgIOHandler@@
+.?AVQSvgPlugin@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.pdata
+.text
+0Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+7[?write@QImageIOHandler@@UEAA_NAEBVQImage@@@Z
+8	?convert@QVariant@@QEBA_NHPEAX@Z
+9D$ u H
+<?xml
+??0QByteArray@@QEAA@PEBDH@Z
+??0QColor@@QEAA@AEBV0@@Z
+??0QColor@@QEAA@W4GlobalColor@Qt@@@Z
+??0QColor@@QEAA@XZ
+??0QImage@@QEAA@AEBVQSize@@W4Format@0@@Z
+??0QImageIOHandler@@QEAA@XZ
+??0QImageIOPlugin@@QEAA@PEAVQObject@@@Z
+??0QPainter@@QEAA@PEAVQPaintDevice@@@Z
+??0QPoint@@QEAA@HH@Z
+??0QPoint@@QEAA@XZ
+??0QPointF@@QEAA@NN@Z
+??0QRect@@QEAA@XZ
+??0QRectF@@QEAA@AEBVQPointF@@AEBVQSizeF@@@Z
+??0QRectF@@QEAA@XZ
+??0QSize@@QEAA@HH@Z
+??0QSize@@QEAA@XZ
+??0QSizeF@@QEAA@AEBVQSize@@@Z
+??0QSizeF@@QEAA@NN@Z
+??0QString@@QEAA@AEBV0@@Z
+??0QString@@QEAA@VQLatin1String@@@Z
+??0QSvgRenderer@@QEAA@PEAVQObject@@@Z
+??0QTransform@@QEAA@XZ
+??0QVariant@@QEAA@AEBVQRect@@@Z
+??0QVariant@@QEAA@AEBVQSize@@@Z
+??0QVariant@@QEAA@H@Z
+??0QVariant@@QEAA@XZ
+??0QXmlStreamReader@@QEAA@XZ
+??1QByteArray@@QEAA@XZ
+??1QImage@@UEAA@XZ
+??1QImageIOHandler@@UEAA@XZ
+??1QImageIOPlugin@@UEAA@XZ
+??1QPainter@@QEAA@XZ
+??1QString@@QEAA@XZ
+??1QSvgRenderer@@UEAA@XZ
+??1QXmlStreamReader@@QEAA@XZ
+??4QColor@@QEAAAEAV0@AEBV0@@Z
+??4QImage@@QEAAAEAV0@$$QEAV0@@Z
+??BQColor@@QEBA?AVQVariant@@XZ
+?append@QListData@@QEAAPEAPEAXXZ
+?begin@QListData@@QEBAPEAPEAXXZ
+?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
+?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
+?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?constData@QByteArray@@QEBAPEBDXZ
+?constData@QVariant@@QEBAPEBXXZ
+?currentImageNumber@QImageIOHandler@@UEBAHXZ
+?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+?data@QBuffer@@QEBAAEBVQByteArray@@XZ
+?detach@QListData@@QEAAPEAUData@1@H@Z
+?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?dispose@QListData@@QEAAXXZ
+?dispose@QListData@@SAXPEAUData@1@@Z
+?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+?end@QListData@@QEBAPEAPEAXXZ
+?end@QPainter@@QEAA_NXZ
+?event@QObject@@UEAA_NPEAVQEvent@@@Z
+?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+?fill@QImage@@QEAAXI@Z
+?format@QImageIOHandler@@QEBA?AVQByteArray@@XZ
+?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+?height@QRect@@QEBAHXZ
+?height@QSize@@QEBAHXZ
+?height@QSizeF@@QEBANXZ
+?isEmpty@QByteArray@@QEBA_NXZ
+?isEmpty@QSize@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
+?isValid@QRect@@QEBA_NXZ
+?isValid@QSize@@QEBA_NXZ
+?load@QSvgRenderer@@QEAA_NAEBVQByteArray@@@Z
+?load@QSvgRenderer@@QEAA_NPEAVQXmlStreamReader@@@Z
+?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_assert@@YAXPEBD0H@Z
+?readAll@QIODevice@@QEAA?AVQByteArray@@XZ
+?render@QSvgRenderer@@QEAAXPEAVQPainter@@AEBVQRectF@@@Z
+?setDevice@QXmlStreamReader@@QEAAXPEAVQIODevice@@@Z
+?shared_null@QListData@@2UData@1@B
+?size@QByteArray@@QEBAHXZ
+?size@QRect@@QEBA?AVQSize@@XZ
+?startsWith@QByteArray@@QEBA_NPEBD@Z
+?staticMetaObject@QBuffer@@2UQMetaObject@@B
+?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?toRect@QVariant@@QEBA?AVQRect@@XZ
+?toSize@QVariant@@QEBA?AVQSize@@XZ
+?topLeft@QRect@@QEBA?AVQPoint@@XZ
+?userType@QVariant@@QEBAHXZ
+?viewBox@QSvgRenderer@@QEBA?AVQRect@@XZ
+?width@QRect@@QEBAHXZ
+?width@QSize@@QEBAHXZ
+?width@QSizeF@@QEBANXZ
+?x@QPoint@@QEBAHXZ
+?y@QPoint@@QEBAHXZ
+@.data
+@.idata
+@.qtmetadl
+@.reloc
+@.rsrc
+CloseHandle
+CreateEventW
+D$ E3
+D$ H9D$(u
+D$ Hc@<H
+D$(H9
+D$8Hc@
+D$8HcD$ H
+D$@H9D$Ht@H
+D$H9D$ s"
+D$HE3
+D$PE3
+D$`H9D$Xt
+D$`H9D$XtNH
+D$hH9D$pt
+D$pHc@
+DeleteCriticalSection
+DisableThreadLibraryCalls
+EnterCriticalSection
+F:\qt5\qtsvg\plugins\imageformats\qsvgd.pdb
+GK?imageCount@QImageIOHandler@@UEBAHXZ
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTimeAsFileTime
+H9D$ tKH
+H9D$ tn
+H9D$ u
+H9D$Hr
+H9D$Hs
+Hc@<H
+HcD$ H
+HcL$hH
+HcL$pH
+InitializeConditionVariable
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+KERNEL32.dll
+L$ H#
+L$ H3
+L$0H3
+L$8H+
+L$8H3
+L$8HcI
+L$@H3
+L$PH+
+L$XH9
+L$`H3
+L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
+L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
+LeaveCriticalSection
+M?loopCount@QImageIOHandler@@UEBAHXZ
+M?mapRect@QTransform@@QEBA?AVQRectF@@AEBV2@@Z
+MetaData
+MimeTypes
+O?nextImageDelay@QImageIOHandler@@UEBAHXZ
+P.tls
+P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+QSvgPlugin
+QSvgPlugin1
+QTMETADATA  qbjs
+Qt5Cored.dll
+Qt5Guid.dll
+Qt5Svgd.dll
+QueryPerformanceCounter
+R?rgba@QColor@@QEBAIXZ
+R?scale@QTransform@@QEAAAEAV1@NN@Z
+ResetEvent
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+T$0H3
+T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+TerminateProcess
+UnhandledExceptionFilter
+Unknown exception
+VCRUNTIME140D.dll
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Z?translate@QTransform@@QEAAAEAV1@NN@Z
+_CrtDbgReportW
+_CxxThrowException
+__C_specific_handler
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__vcrt_InitializeCriticalSectionEx
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_at_quick_exit
+_crt_atexit
+_execute_onexit_table
+_free_dbg
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_register_onexit_function
+_seh_filter_dll
+`.rdata
+bad allocation
+bad array new length
+className
+debug
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+ffffff
+image/svg+xml
+malloc
+memcpy
+org.qt-project.Qt.QImageIOHandlerFactoryInterface
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qsvgd.dll
+qt_plugin_instance
+qt_plugin_query_metadata
+strcmp
+strlen
+strongref.load() <= 0
+t_HcD$hH
+terminate
+ucrtbased.dll
+version
+yT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+zT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z

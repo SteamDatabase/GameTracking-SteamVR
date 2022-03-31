@@ -1,0 +1,437 @@
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ A\][
+ A\_^
+ A]A\_
+ A]^]
+ A]_^][
+ A^A]A\
+ A^A]A\_^
+ A_A]A\
+ A_A^A]A\_
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Type Descriptor'
+ delete
+ delete[]
+ new[]
+ t?D9
+!This program cannot be run in DOS mode.
+!t$(H!t$ A
+!|$DHc
+!|$XI
+( 8PX
+('8PW
+(null)
+.?AVbad_alloc@std@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVtype_info@@
+.pdata
+.text
+0A\_^
+0A^A\^
+0A^A]A\
+0A_A]A\
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A_A^A]A\_^]
+700PP
+700WP
+8.u9I
+8/u(3
+8L$8t
+9D$@t
+9D$Du
+9D$Ttg
+9\$du
+9\$hu
+9\$pu
+9\$tu
+9\$xu
+;7sUH
+< tG<	tC
+?:u.H
+?:udH
+@.data
+@.reloc
+@87t-
+@8t$8t
+@8|$8t
+@8|$8tbH
+@A]A\_^]
+@A^A\_
+@A^A]A\
+@A_A^A]A\_
+@SUATH
+@SUVWATAUAVH
+@SUVWAUH
+@SVWATAUAVAWH
+@UATAUAVAWH
+@USVWATAUAVAWH
+@USVWATH
+A;1~	I
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ATAUAVH
+ATAUAWH
+A\_^[]
+A]A\_
+A]A\_^]
+A^A]A\
+A^A]A\_^
+A_A^A\_]
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^[
+A_A^A]A\_^[]
+A_A^A]A\_^]
+April
+August
+CloseHandle
+CompareStringW
+Connect to VR Server Failed (301)
+CorExitProcess
+CreateFileA
+CreateFileW
+D$ E3
+D$&8\$&t-8X
+D$(A9x
+D$8HcH
+D$A:.
+D$HD9T$\
+D$P0A
+D$PL9oXt
+D$XE3
+D$`E3
+D$p H
+D1:Hc
+D8"u%H
+D9d$ 
+D9l$xttI
+D9t$du
+D9t$hu
+D9t$pu
+D9t$tu
+D9t$xu
+D9t$|t
+D;+t1
+December
+DecodePointer
+DeleteCriticalSection
+Driver Failed (200)
+Driver Not Known (201)
+Driver Not Loaded (202)
+E84$t
+E9,$~T3
+E;,$|
+EncodePointer
+EnterCriticalSection
+ExitProcess
+F0HcH
+Factory Function Not Found (104)
+February
+File Not Found (103)
+FileTimeToLocalFileTime
+FileTimeToSystemTime
+FindClose
+FindFirstFileExA
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
+G 9\$lu
+G D9t$lu
+G0Hc	H
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
+GetConsoleCP
+GetConsoleMode
+GetCurrentDirectoryW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetDriveTypeA
+GetDriveTypeW
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetFileInformationByHandle
+GetFileType
+GetFullPathNameA
+GetLastActivePopup
+GetLastError
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetProcessWindowStation
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetTickCount
+GetTimeZoneInformation
+GetUserObjectInformationW
+GetVersion
+H!\$ H
+H!|$ L
+H(H9J(u
+H9|$8t
+H9|$`t
+HH:mm:ss
+HMD Not Known (201)
+HcC H
+HcD$HH;
+HcH<H
+HcM H
+HcO H
+Hct$@H
+HeapAlloc
+HeapCreate
+HeapDestroy
+HeapFree
+HeapReAlloc
+HeapSetInformation
+HeapSize
+Hmd Not Found (108)
+HmdSystemFactory
+IHmdSystem_003
+IHmd_005
+IcqHH
+IcqHI
+InitializeCriticalSectionAndSpinCount
+Installation Corrupt (101)
+Installation Not Found (100)
+Interface Not Found (105)
+Invalid Interface (106)
+IsDebuggerPresent
+IsValidCodePage
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+K0LcY
+KERNEL32.dll
+L!l$HL!l$@
+L$ H3
+L$ USWH
+L$ UVWH
+L$(H3
+L$0H;
+L$8H3
+L$@;|
+L$@E3
+L$HH3
+L$xE3
+L0	A:
+L09A:
+L0:A:
+LCMapStringW
+LcA<E3
+LcmhA
+LcupA
+LeaveCriticalSection
+LoadLibraryExA
+LoadLibraryW
+MM/dd/yy
+March
+Mc,$E
+MessageBoxW
+Monday
+MultiByteToWideChar
+NRich
+No Error (0)
+Not Initialized (109)
+November
+O0HcQ
+October
+PA^A]A\_^][
+PA_A^A]A\_^[
+PeekNamedPipe
+QueryPerformanceCounter
+RaiseException
+ReadFile
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+SVWATAUAVAWH
+SVWATH
+Saturday
+September
+SetEndOfFile
+SetEnvironmentVariableA
+SetFilePointer
+SetHandleCount
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
+Shared IPC State Init Failed (302)
+Sleep
+SunMonTueWedThuFriSat
+Sunday
+T$PE3
+T$xA+
+TerminateProcess
+Thursday
+Tuesday
+USVWATAUAVAWH
+UVAUH
+UVWATAUAVAWH
+UVWATAUH
+UWATAVAWH
+UWATH
+Unable to connect to Oculus Runtime (1000)
+UnhandledExceptionFilter
+Unknown error (%d)
+Unknown exception
+User Config Directory Invalid (107)
+Uy]E3
+VR Server Init Failed (300)
+VR_GetGenericInterface
+VR_GetStringForHmdError
+VR_Init
+VR_IsHmdPresent
+VR_OVERRIDE
+VR_PLATFORM_INSTALL_PATH
+VR_Shutdown
+VWATAUAVH
+VWATH
+WATAUAVAWH
+WATAUH
+WATAVH
+Wednesday
+WideCharToMultiByte
+WriteConsoleW
+WriteFile
+XA_A^A]A\_^[]
+\$ UVWATAUAVAWH
+\$ UVWATAUH
+\$ VATAVH
+\$0E3
+\$0H;
+\$8L3
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+` AUH
+` AVH
+`.rdata
+`A\_]
+`A_A^A]A\_^]
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h````
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+bad allocation
+bad exception
+c:\buildslave\steamvr_main_win32\build\src\vrtest_api\Release\win64\vrtest_api_x64.pdb
+config
+d$ UH
+d$8H+
+d$PMk
+d$`I;
+dddd, MMMM dd, yyyy
+e8A_A^A]A\_^[]
+f;D$@uD
+f;D$@ug
+fD9 t
+fD9#u
+fD9t$b
+fffffff
+hA\_^[
+invalid string position
+l$ D!
+l$PL;
+l$pI;
+operator
+p WATAUH
+r&D8g
+s\HcL$HH
+string too long
+t$ ATH
+t$ E3
+t$ WATAUAVAWH
+t$ WATAUH
+t$ WH
+t$@E3
+t$HD;
+t$pD+d$HD+
+t*HcO
+t8L9-=
+tfL9l
+tlD8&u
+tnLcV
+tpD8'u
+vrclient Shared Lib Not Found (102)
+vrclient_x64.dll
+vrtest_api_x64.dll
+x ATAUAVH
+x ATAUAWH
+x ATH
+xA_A^A]A\_^[]
+xppwpp
+xpxxxx
+|$ H;
+|$ Hc
+|$ UATAUAVAWH
+|$ UH
+|$DD9d$X
+|$Pr	H
+}@r	H
+~ID;c

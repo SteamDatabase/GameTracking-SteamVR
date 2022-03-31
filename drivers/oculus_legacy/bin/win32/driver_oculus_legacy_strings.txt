@@ -1,0 +1,489 @@
+	!s99
+ %41g
+ (Camera)
+!hn7!
+%?xC(.
+%R(wg
+',=?k
+(Unable to load LibOVR)
+(f*^[0
+*9Z9N
++Xt@(
++o'q)}
+, last executing in 
+,W5y+
+.00cfg
+.?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
+.?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@XW4ELogLevel@@PBDPAX@std@@
+.?AVCOVRRuntimeWindowThread@@
+.?AVCOculusCameraTransformDriver@@
+.?AVCOculusHmdLatest@@
+.?AVCServerDriver_Oculus@@
+.?AVCThread@@
+.?AVIServerTrackedDeviceProvider@vr@@
+.?AVITrackedDeviceServerDriver@vr@@
+.?AVIVRDisplayComponent@vr@@
+.?AVIVRDriverDirectModeComponent@vr@@
+.?AVUpdateThread@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata$x
+0 0$0(0H0L0t0
+0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
+0"0(00080=0C0K0S0X0^0f0n0s0y0
+0#0A0M0S0a0k0q0
+0,040<0D0H0L0T0h0
+0hb~F
+0n0y0
+0w0c1
+0}0i1
+1"1'1,1A1F1K1P1U1Z1_1d1i1n1s1x1}1
+1#1+10161>1F1K1Q1Y1a1f1l1t1|1
+1$1(1,1014181<1@1D1H1h1l1
+1&1/1B1N1^1s1
+1(2L2x2
+1-232
+130801120000Z
+1G1O1x1
+2"2'2/242=2D2I2P2Y2`2e2l2u2|2
+2#2)21292>2D2L2T2Y2_2g2o2
+2*3d3
+2.4n4
+210429000000Z
+211007000000Z
+220323000000Z
+220329000000Z
+220330231450Z0/
+241009235959Z0a1
+242M2
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2\3&4
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+3!3+383B3H3O3S3Y3c3m3w3
+3#3-373A3K3U3_3i3s3}3
+330314235959Z0L1
+360428235959Z0i1
+370322235959Z0c1
+380115120000Z0b1
+3<3X3x3
+3T4p4
+3V3w3
+3mq+<
+4!4*434<4
+4'414;4J4P4d4
+4(4<4D4J4X4d4
+4,40484P4`4d4t4x4|4
+40m0v0
+4<4^4
+4>5G5P5Y5^5c5j5
+4j/hd
+5#5-585]5
+5&5b5p5
+5,505@5D5H5P5h5l5
+5-6#7A7n7
+54585<5@5D5H5L5P5
+546q6
+586<6@6D6H6L6P6T6X6\6`6
+5Genu
+5K6k6x6
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5ineI
+6)6b6
+6*f(_
+6+7H7`7n7
+6,6<6@6P6T6X6`6x6
+6I]Dc
+6OB,n_
+7!7Z7}7
+7#7+7
+7$737<7E7N7S7X7_7
+7(7,7<7@7H7`7p7t7
+7(81898u8
+70503
+7c8w8
+8#8,888>8D8O8
+8'818;8E8O8\8e8s8|8
+8,80888P8`8d8t8x8|8
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+9!939=9G9R9]9j9t9
+9$?(?,?0?4?8?<?@?D?H?h?l?p?t?x?|?
+9)9m9
+9*:F:K:U:f:
+919H9d9
+9B:U:j:
+9H;X;{;
+9^9d9
+:!;t;
+:":1:N:
+:&:/:4:9:@:P:
+:&:/:8:=:B:I:
+:&;E;
+:9;B;S;_;k;q;w;
+:E:q:
+;!;&;+;2;B;
+;";';.;3;?;a;x;
+;Z<a<
+;`<w<
+;|< =@=q=
+<!<+<5<?<I<S<]<g<
+<$<i<r<{<
+<'<,<1<8<
+<)<?<H<
+<0:08
+<5>z?
+<6>A>\>e>
+<?<E<K<Q<W<]<d<k<r<y<
+<J=R=
+="=(=.=8=F=b=z=
+=$=B=w=
+=$=H=T=\=|=
+=@>X>\>
+=M=V=_=h=m=r=y=~=
+=j)h8
+=rIQU
+>!>'>/>7><>B>J>R>W>]>e>m>r>x>
+>">(>.>4>:>@>F>L>R>X>^>d>j>p>v>|>
+>">D>N>W>b>h>n>u>
+>,>P>\>d>
+>5>L>a>h>n>
+>Mp$d
+>P>^>
+?!?<?W?b?l?
+?"?*?/?5?=?E?J?P?X?`?e?k?s?{?
+?$?=?r?
+?*?]?f?o?x?}?
+?,?8?@?l?p?
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPBD@Z
+?_Xout_of_range@std@@YAXPBD@Z
+@.data
+@.reloc
+ADVAPI32.dll
+AjEB#AZ
+AvtM_
+Bellevue1
+COculusHmdLatest::UpdateThread
+Camera tracker driver for rejected by vrserver
+CloseHandle
+Code: -1003
+Code: -3003
+CreateEventA
+CreateEventW
+CreateThread
+D3D11CreateDevice
+DeleteCriticalSection
+DigiCert Inc1
+DigiCert Timestamp 2022 - 20
+DigiCert Trusted Root G40
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+Error! EventWriteString Severe: %s
+EventRegister
+EventUnregister
+EventWrite
+EventWriteString
+Failed to initalize OVR direct mode support.
+Failed to initialized Oculus device
+FreeLibrary
+GetCurrentDirectoryW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetExitCodeThread
+GetLastError
+GetModuleFileNameW
+GetModuleHandleExW
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+HmdDriverFactory
+IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_005
+IVRCameraComponent_003
+IVRCompositorPluginProvider_001
+IVRDisplayComponent_002
+IVRDriverDirectModeComponent_008
+IVRDriverLog_001
+IVRDriverManager_001
+IVRProperties_001
+IVRResources_001
+IVRServerDriverHost_006
+IVRSettings_003
+IVRVirtualDisplay_002
+IVRWatchdogProvider_001
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+InitDirectMode: DX11 level hardware required!
+InitDirectMode: Failed to create D3D11 device! (err=%u)
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Initialized Oculus device %s
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J>@G_
+KERNEL32.dll
+K}*n:	
+L?n(Zy&
+LIBOVR_DLL_DIR
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+LoadLibraryA
+LoadLibraryW
+MB(iVR
+MSVCP140.dll
+MainThrd
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+M}Z[g
+OVR Runtime Init
+OVRRuntimeWindowThread
+Oculus
+Out of thread local storage!
+PAq=?Mp#
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Pz}b!
+QueryPerformanceCounter
+RPCRT4.dll
+RaiseException
+S0Q0O
+SA|X=G
+SDL2.dll
+SDL_CreateWindow
+SDL_DestroyWindow
+SDL_WaitEventTimeout
+SetEvent
+SetUnhandledExceptionFilter
+Sleep
+SleepConditionVariableCS
+TdhEnumerateManifestProviderEvents
+Temp Window to disable SW_HIDE
+TerminateProcess
+Thread exited immediately
+Thread failed to initialize 1
+Thread failed to initialize 2
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Unable to create texture set for pid %u: %s
+Unable to init oculus camera tracker
+UnhandledExceptionFilter
+Unknown exception
+Unknown(%u, %u)
+UuidFromStringA
+VCRUNTIME140.dll
+VR_CONFIG_PATH
+VR_LOG_PATH
+VR_OVERRIDE
+V_~]	,
+Valve Corp.0
+Valve Corp.1
+WaitForSingleObject
+WakeAllConditionVariable
+Warning: Watchdog %s not properly cleaned up%s%s
+Washington1
+Y9"SD
+Y__^[
+[K]taM?
+[OculusDirect] Begin ReleaseSync
+[OculusDirect] End AcquireSync
+[OculusDirect] End ReleaseSync
+[OculusDirect] ovr_SubmitFrame - Begin
+[OculusDirect] ovr_SubmitFrame - End
+]J<0"0i3
+][OculusDirect] Begin AcquireSync
+_Camera
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Thrd_id
+_Thrd_join
+__CxxFrameHandler3
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vswprintf
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_except1
+_except_handler3
+_except_handler4_common
+_execute_onexit_table
+_gUT^
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_purecall
+_register_onexit_function
+_seh_filter_dll
+_stricmp
+`.rdata
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+bad allocation
+bad array new length
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
+camera
+d3d11.dll
+d9)1h
+dk2_camera
+driver_oculus_legacy.dll
+e,>~^
+f;A*stSW
+getenv
+headset
+ht0^ga
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0X
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+invalid string position
+jdjdh
+jj@0HK4
+k0i0$
+malloc
+map/set<T> too long
+memcpy
+memmove
+memset
+oculus
+ovrHmd_ConfigureTracking failed for %d
+ovrHmd_Create failed
+ovr_ConfigureTracking
+ovr_Create
+ovr_CreateMirrorTextureD3D11
+ovr_CreateMirrorTextureGL
+ovr_CreateSwapTextureSetD3D11
+ovr_CreateSwapTextureSetGL
+ovr_Destroy
+ovr_DestroyMirrorTexture
+ovr_DestroySwapTextureSet
+ovr_GetBool
+ovr_GetEnabledCaps
+ovr_GetFloat
+ovr_GetFloatArray
+ovr_GetFovTextureSize
+ovr_GetHmdDesc
+ovr_GetInputState
+ovr_GetInt
+ovr_GetLastErrorInfo
+ovr_GetPredictedDisplayTime
+ovr_GetRenderDesc
+ovr_GetSessionStatus
+ovr_GetString
+ovr_GetTimeInSeconds
+ovr_GetTrackingCaps
+ovr_GetTrackingState
+ovr_GetVersionString
+ovr_Initialize
+ovr_InitializeRenderingShimVersion
+ovr_Lookup
+ovr_RecenterPose
+ovr_ResetBackOfHeadTracking
+ovr_ResetMulticameraTracking
+ovr_SetBool
+ovr_SetControllerVibration
+ovr_SetEnabledCaps
+ovr_SetFloat
+ovr_SetFloatArray
+ovr_SetInt
+ovr_SetQueueAheadFraction
+ovr_SetString
+ovr_Shutdown
+ovr_SubmitFrame
+ovr_SubmitFrame failed: %s
+ovr_TraceMessage
+startup
+string too long
+strncpy
+strncpy_s
+strstr
+tdh.dll
+terminate
+u7j8Q
+uCVj@
+v=Y]Bv
+vector<T> too long
+www.digicert.com1!0
+x]~\6
+{ERR-001}
+{ERR-079}
+{oculus_legacy}/icons/%s_%s_alert_searching.gif
+{oculus_legacy}/icons/%s_%s_error.png
+{oculus_legacy}/icons/%s_%s_off.png
+{oculus_legacy}/icons/%s_%s_ready.png
+{oculus_legacy}/icons/%s_%s_ready_alert.png
+{oculus_legacy}/icons/%s_%s_searching.gif
+{oculus_legacy}/icons/%s_%s_standby.png
+{un'%
+|Lu?c
+}LuHO
+~t&LN

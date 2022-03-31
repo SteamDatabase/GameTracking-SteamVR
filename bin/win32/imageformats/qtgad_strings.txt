@@ -1,0 +1,239 @@
+	?customEvent@QObject@@MAEXPAVQEvent@@@Z
+ 1@1d1
+!This program cannot be run in DOS mode.
+!weakref.load()
+.00cfg
+.?AUTga16Reader@@
+.?AUTga24Reader@@
+.?AUTga32Reader@@
+.?AUTgaReader@@
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQObject@@
+.?AVQTgaHandler@@
+.?AVQTgaPlugin@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.idata
+.text
+0"0)01090A0L0Q0W0a0k0
+000<0T0l0t0
+070^0k0q0
+0Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
+1$1+12191A1I1Q1\1a1g1q1
+1$1<1@1T1\1`1h1
+1/141:1
+192A2J2Q2`2
+1?1T1g1v1
+1G1]1f1
+1G2T2]2e2
+2$2<2H2`2x2
+2$2@2\2
+2$3*3E3Z3`3~3
+232<2
+3#3<3N3d3m3t3
+3,4^4
+30343H3P3X3p3
+334;4Y4b4j4
+394E4e4l4
+4 4&4,42484>4D4J4P4V4\4b4h4n4t4z4
+4<5@5D5H5v5{5
+4<5^6g6{7
+5"5(5.545:5@5F5L5R5X5^5d5
+5Genu
+6)6.6<6
+6+747
+667;7M7b7q7y7
+7<8&9N9
+7F8K8]8{8
+7[?write@QImageIOHandler@@UAE_NABVQImage@@@Z
+8U9|9
+949d9
+96:Q:
+: :$:(:,:0:4:8:
+:(<,<0<P<T<X<t<x<|<
+:B:V:
+:V:a:n:v:
+;$;*;D;d;t;
+;%;N;
+;&;:;
+;3;m;v;~;
+;:;K;x;
+<"<)<D<
+<$=(=0=
+<(<H<d<h<t<|<
+<V<_<h<
+="=(=.=4=:=@=F=L=R=X=^=d=j=p=v=|=
+=`>j>
+>">2>D>u>
+>'>1><>C>|>
+>Q?t?
+?)?;?M?V?
+??0QByteArray@@QAE@PBDH@Z
+??0QImage@@QAE@$$QAV0@@Z
+??0QImage@@QAE@HHW4Format@0@@Z
+??0QImage@@QAE@XZ
+??0QImageIOHandler@@QAE@XZ
+??0QImageIOPlugin@@QAE@PAVQObject@@@Z
+??0QMessageLogger@@QAE@PBDH0@Z
+??0QSize@@QAE@HH@Z
+??0QString@@QAE@ABV0@@Z
+??0QString@@QAE@VQLatin1String@@@Z
+??0QString@@QAE@XZ
+??0QVariant@@QAE@ABVQSize@@@Z
+??0QVariant@@QAE@H@Z
+??0QVariant@@QAE@XZ
+??1QByteArray@@QAE@XZ
+??1QImage@@UAE@XZ
+??1QImageIOHandler@@UAE@XZ
+??1QImageIOPlugin@@UAE@XZ
+??1QString@@QAE@XZ
+??4QImage@@QAEAAV0@$$QAV0@@Z
+??4QString@@QAEAAV0@$$QAV0@@Z
+?append@QListData@@QAEPAPAXXZ
+?begin@QListData@@QBEPAPAXXZ
+?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?currentImageNumber@QImageIOHandler@@UBEHXZ
+?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+?detach@QListData@@QAEPAUData@1@H@Z
+?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
+?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?dispose@QListData@@QAEXXZ
+?dispose@QListData@@SAXPAUData@1@@Z
+?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+?end@QListData@@QBEPAPAXXZ
+?event@QObject@@UAE_NPAVQEvent@@@Z
+?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+?getChar@QIODevice@@QAE_NPAD@Z
+?isEmpty@QByteArray@@QBE_NXZ
+?isEmpty@QString@@QBE_NXZ
+?isOpen@QIODevice@@QBE_NXZ
+?isReadable@QIODevice@@QBE_NXZ
+?qstrcmp@@YAHABVQByteArray@@PBD@Z
+?qt_assert@@YAXPBD0H@Z
+?read@QIODevice@@QAE_JPAD_J@Z
+?shared_null@QListData@@2UData@1@B
+?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
+?translate@QCoreApplication@@SA?AVQString@@PBD00H@Z
+?warning@QMessageLogger@@QBAXPBDZZ
+@.data
+@.qtmetad^
+@.reloc
+@.rsrc
+CloseHandle
+Could not read footer
+Could not read image data
+Could not reset to read data
+Could not seek to image read footer
+CreateEventW
+DeleteCriticalSection
+DisableThreadLibraryCalls
+EnterCriticalSection
+F:\qt5\qtimageformats\plugins\imageformats\qtgad.pdb
+GK?imageCount@QImageIOHandler@@UBEHXZ
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTimeAsFileTime
+Image depth not valid
+Image header read failed
+Image type (non-TrueVision 2.0) not supported
+Image type not supported
+InitializeConditionVariable
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+KERNEL32.dll
+L?isNull@QImage@@QBE_NXZ
+L?jumpToImage@QImageIOHandler@@UAE_NH@Z
+L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
+LeaveCriticalSection
+M?loopCount@QImageIOHandler@@UBEHXZ
+MetaData
+MimeTypes
+O?nextImageDelay@QImageIOHandler@@UBEHXZ
+P.tls
+P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+QTMETADATA  qbjs
+QTgaFile
+QTgaHandler::canRead() called with no device
+QTgaPlugin
+QTgaPlugin1
+Qt5Cored.dll
+Qt5Guid.dll
+QueryPerformanceCounter
+RSDS2
+ResetEvent
+Seek file/device for image read failed
+Sequential device (eg socket) for image read not supported
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
+TRUEVISION-XFILE
+TerminateProcess
+U?setPixel@QImage@@QAEXHHI@Z
+UnhandledExceptionFilter
+Unknown exception
+VCRUNTIME140D.dll
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WaitForSingleObjectEx
+WakeAllConditionVariable
+_CrtDbgReportW
+_CxxThrowException
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__vcrt_InitializeCriticalSectionEx
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_at_quick_exit
+_crt_atexit
+_except_handler4_common
+_execute_onexit_table
+_free_dbg
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_purecall
+_register_onexit_function
+_seh_filter_dll
+`.rdata
+bad allocation
+bad array new length
+bool __cdecl QTgaHandler::canRead(class QIODevice *)
+className
+debug
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+image/x-tga
+malloc
+memcpy
+memset
+org.qt-project.Qt.QImageIOHandlerFactoryInterface
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qt_plugin_instance
+qt_plugin_query_metadata
+qtgad.dll
+qtgahandler.cpp
+strcmp
+strlen
+strncmp
+strongref.load() <= 0
+terminate
+ucrtbased.dll
+version
+yT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
+zT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z

@@ -1,0 +1,1718 @@
+					
+																			
+																									
+																												
+	!s99
+  GetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
+  GetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
+  SetMultiByteHWValue:Get Value Fail-1! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
+  SetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
+  SetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
+ %41g
+ A9_ w
+ A^A\_
+ A^A]A\^]
+ A^_]
+ A^_^
+ A^_^][
+ A_A\_
+ A_A^A\
+ A_A^A\_^
+ A_A^A]A\_
+ A_A^A]A\_^]
+ A_A^A]_^
+ A_A^_
+ A_A^_^]
+ A__[
+ A__^
+ Capability Size: 
+ D;5v
+ D;j0u
+ H3E H3E
+ Height: 
+ Width: 
+ s2E3
+ sIE3
+!T$(H!T$ 
+!hn7!
+$+xvA
+$< t6<$t,<+t"<vt
+%.0Lf
+%H : %M
+%H : %M : %S
+%I : %M : %S %p
+%b %d %H : %M : %S %Y
+%d / %m / %y
+%m / %d / %y
+',=?k
+()$^.*+?[]|\-{},:=!
+(A^A\^[
+(A^A\_[
+(A^A]^[
+(A_A^A][
+(A_A^A]_
+(A_A^^[
+(A_A^_]
+(A_^][
+(D$ f
+(D$0f
+(D$@f
+(D$PE3
+(D$Pf
+(f*^[0
+(t$ H
+(t$02
+(t$0H
+(t$@H
+(t$@L
+(t$`H
+(t$`L
+(t$pH
+(|$ H
+(|$0I
+)D$ I
+)D$@A
+)D$PH
+)D$PM
+)D$`I
+)t$ A
+)t$ H
+)t$ I
+)t$0H
+)t$`H
+*9Z9N
++J$D8M@
++Xt@(
++o'q)}
++v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
+,W5y+
+,t0D9J0v*L
+.00cfg
+.8\$!t.9\
+.?AUIAMovieSetup@@
+.?AUIBaseFilter@@
+.?AUIEnumMediaTypes@@
+.?AUIEnumPins@@
+.?AUIExecutionContext@Concurrency@@
+.?AUIExecutionResource@Concurrency@@
+.?AUIMediaFilter@@
+.?AUIMemInputPin@@
+.?AUINonDelegatingUnknown@@
+.?AUIPersist@@
+.?AUIPin@@
+.?AUIQualityControl@@
+.?AUIResourceManager@Concurrency@@
+.?AUIScheduler@Concurrency@@
+.?AUISchedulerProxy@Concurrency@@
+.?AUIThreadProxy@Concurrency@@
+.?AUIThreadProxyFactory@details@Concurrency@@
+.?AUITopologyExecutionResource@Concurrency@@
+.?AUITopologyNode@Concurrency@@
+.?AUIUnknown@@
+.?AUIVirtualProcessorRoot@Concurrency@@
+.?AUTopologyObject@GlobalCore@details@Concurrency@@
+.?AUTopologyObject@GlobalNode@details@Concurrency@@
+.?AU_Chore@details@Concurrency@@
+.?AU_Crt_new_delete@std@@
+.?AUctype_base@std@@
+.?AUmessages_base@std@@
+.?AUmoney_base@std@@
+.?AUtime_base@std@@
+.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_MallocaArrayHolder@PEAVContext@Concurrency@@@details@Concurrency@@
+.?AV?$_MallocaArrayHolder@PEAVevent@Concurrency@@@details@Concurrency@@
+.?AV?$_Mpunct@D@std@@
+.?AV?$_Mpunct@G@std@@
+.?AV?$_Mpunct@_W@std@@
+.?AV?$_Node_class@_WV?$regex_traits@_W@std@@@std@@
+.?AV?$_Node_str@_W@std@@
+.?AV?$_Ref_count_obj@VCVRCameraFrameWindowsDS@vrcamera@@@std@@
+.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
+.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_filebuf@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+.?AV?$codecvt@DDU_Mbstatet@@@std@@
+.?AV?$codecvt@GDU_Mbstatet@@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$collate@D@std@@
+.?AV?$collate@G@std@@
+.?AV?$collate@_W@std@@
+.?AV?$ctype@D@std@@
+.?AV?$ctype@G@std@@
+.?AV?$ctype@_W@std@@
+.?AV?$messages@D@std@@
+.?AV?$messages@G@std@@
+.?AV?$messages@_W@std@@
+.?AV?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$moneypunct@D$00@std@@
+.?AV?$moneypunct@D$0A@@std@@
+.?AV?$moneypunct@G$00@std@@
+.?AV?$moneypunct@G$0A@@std@@
+.?AV?$moneypunct@_W$00@std@@
+.?AV?$moneypunct@_W$0A@@std@@
+.?AV?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$numpunct@D@std@@
+.?AV?$numpunct@G@std@@
+.?AV?$numpunct@_W@std@@
+.?AV?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCBaseFilter@@
+.?AVCBaseInputPin@@
+.?AVCBaseObject@@
+.?AVCBaseOutputPin@@
+.?AVCBasePin@@
+.?AVCEnumMediaTypes@@
+.?AVCEnumPins@@
+.?AVCTransInPlaceFilter@@
+.?AVCTransInPlaceInputPin@@
+.?AVCTransInPlaceOutputPin@@
+.?AVCTransformFilter@@
+.?AVCTransformInputPin@@
+.?AVCTransformOutputPin@@
+.?AVCUnknown@@
+.?AVCVRCameraException@vrcamera@@
+.?AVCVRCameraFilterFrameDS@vrcamera@@
+.?AVCVRCameraFrameWindowsDS@vrcamera@@
+.?AVCVRCameraFrameWindowsVector@vrcamera@@
+.?AVCVRCameraStreamWindowsDS@vrcamera@@
+.?AVCVRCameraWindows@vrcamera@@
+.?AVCVRCameraWindowsDS@vrcamera@@
+.?AVCacheLocalScheduleGroup@details@Concurrency@@
+.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
+.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
+.?AVContext@Concurrency@@
+.?AVContextBase@details@Concurrency@@
+.?AVExecutionResource@details@Concurrency@@
+.?AVExternalContextBase@details@Concurrency@@
+.?AVFairScheduleGroup@details@Concurrency@@
+.?AVFairScheduleGroupSegment@details@Concurrency@@
+.?AVFreeThreadProxy@details@Concurrency@@
+.?AVFreeThreadProxyFactory@details@Concurrency@@
+.?AVFreeVirtualProcessorRoot@details@Concurrency@@
+.?AVIVRCamera@vrcamera@@
+.?AVIVRCameraFrame@vrcamera@@
+.?AVIVRCameraStream@vrcamera@@
+.?AVInternalContextBase@details@Concurrency@@
+.?AVMultiWaitBlock@details@Concurrency@@
+.?AVRealizedChore@details@Concurrency@@
+.?AVResourceManager@details@Concurrency@@
+.?AVScheduleGroup@Concurrency@@
+.?AVScheduleGroupBase@details@Concurrency@@
+.?AVScheduleGroupSegmentBase@details@Concurrency@@
+.?AVScheduler@Concurrency@@
+.?AVSchedulerBase@details@Concurrency@@
+.?AVSchedulerProxy@details@Concurrency@@
+.?AVSingleWaitBlock@details@Concurrency@@
+.?AVThreadInternalContext@details@Concurrency@@
+.?AVThreadProxy@details@Concurrency@@
+.?AVThreadScheduler@details@Concurrency@@
+.?AVThreadVirtualProcessor@details@Concurrency@@
+.?AVTimedSingleWaitBlock@details@Concurrency@@
+.?AVVirtualProcessor@details@Concurrency@@
+.?AVVirtualProcessorRoot@details@Concurrency@@
+.?AVWaitAllBlock@details@Concurrency@@
+.?AVWaitAnyBlock@details@Concurrency@@
+.?AVWaitBlock@details@Concurrency@@
+.?AV_CancellationTokenRegistration@details@Concurrency@@
+.?AV_Facet_base@std@@
+.?AV_Generic_error_category@std@@
+.?AV_Interruption_exception@details@Concurrency@@
+.?AV_Iostream_error_category@std@@
+.?AV_Locimp@locale@std@@
+.?AV_Node_assert@std@@
+.?AV_Node_back@std@@
+.?AV_Node_base@std@@
+.?AV_Node_capture@std@@
+.?AV_Node_end_group@std@@
+.?AV_Node_end_rep@std@@
+.?AV_Node_endif@std@@
+.?AV_Node_if@std@@
+.?AV_Node_rep@std@@
+.?AV_RefCounter@details@Concurrency@@
+.?AV_Ref_count_base@std@@
+.?AV_Root_node@std@@
+.?AV_System_error@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_function_call@std@@
+.?AVcodecvt_base@std@@
+.?AVcontext_self_unblock@Concurrency@@
+.?AVcontext_unblock_unbalanced@Concurrency@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVfailure@ios_base@std@@
+.?AVimproper_lock@Concurrency@@
+.?AVimproper_scheduler_attach@Concurrency@@
+.?AVimproper_scheduler_reference@Concurrency@@
+.?AVinvalid_argument@std@@
+.?AVinvalid_operation@Concurrency@@
+.?AVinvalid_oversubscribe_operation@Concurrency@@
+.?AVinvalid_scheduler_policy_key@Concurrency@@
+.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
+.?AVinvalid_scheduler_policy_value@Concurrency@@
+.?AVios_base@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVmissing_wait@Concurrency@@
+.?AVnested_scheduler_missing_detach@Concurrency@@
+.?AVout_of_range@std@@
+.?AVrange_error@std@@
+.?AVregex_error@std@@
+.?AVruntime_error@std@@
+.?AVscheduler_resource_allocation_error@Concurrency@@
+.?AVscheduler_worker_creation_error@Concurrency@@
+.?AVstl_condition_variable_concrt@details@Concurrency@@
+.?AVstl_condition_variable_interface@details@Concurrency@@
+.?AVstl_condition_variable_vista@details@Concurrency@@
+.?AVstl_condition_variable_win7@details@Concurrency@@
+.?AVstl_critical_section_concrt@details@Concurrency@@
+.?AVstl_critical_section_interface@details@Concurrency@@
+.?AVstl_critical_section_vista@details@Concurrency@@
+.?AVstl_critical_section_win7@details@Concurrency@@
+.?AVsystem_error@std@@
+.?AVtype_info@@
+.?AVunsupported_os@Concurrency@@
+.CRT$XCA
+.CRT$XCC
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPB
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+0123456789-
+0123456789-+Ee
+0123456789ABCDEFabcdef-+Xx
+0123456789ABCDEFabcdef-+XxPp
+0123456789abcdefghijklmnopqrstuvwxyz
+0:D$#u
+0A^_^
+0A^_^][
+0A_A^A\
+0A_A^A\_^
+0A_A^A]
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A_A^A]A\_^]
+0A_A^A]_^
+0A_A^_
+0A_A^_^[
+0A_A^_^]
+0A__[
+0A__^
+0A__^[]
+0w0c1
+0}0i1
+130801120000Z
+1eaB@
+210429000000Z
+211007000000Z
+220323000000Z
+220329000000Z
+220330231137Z0/
+241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+330314235959Z0L1
+360428235959Z0i1
+370322235959Z0c1
+380115120000Z0b1
+3A8A#
+3mq+<
+4.tfH
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6*f(_
+6I]Dc
+6OB,n_
+70503
+8-uCH
+8-uGH
+8A^_^[
+8A_A^A]A\_^][
+8D$ u+H
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8H;^XtB
+8T$0u
+8\$0u`H
+8\$0up
+8_	u7E3
+8_^][
+91~/E3
+9D$(|
+9D$(}k
+9D$`t_
+9FHtGH
+9W$v8D
+9WP~GM
+9WP~HM
+9WP~KM
+9\$0u
+9\u;H
+9\u<H
+9_P~+E3
+9_P~,E3
+9_P~OE3
+9{D~H3
+:AM:am:PM:pm
+:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+:K	t	H
+:L$"u
+:O	t	H
+:O	t	I
+:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+:\uDL
+;A$vTH
+;B$vUH
+;Ct~EH
+;Ct~ZH
+;Ct~gH
+<%ufH
+<0:08
+<:u/H
+<:u3H
+<:wuH
+<HthH
+<xu<D
+<}wYI
+=rIQU
+>Mp$d
+?:>dqLy
+??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
+??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
+??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
+??0CVRCameraWindowsDS@vrcamera@@QEAA@GGE_N@Z
+??0IVRCamera@vrcamera@@QEAA@$$QEAV01@@Z
+??0IVRCamera@vrcamera@@QEAA@AEBV01@@Z
+??0IVRCamera@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
+??0IVRCamera@vrcamera@@QEAA@GGE_N@Z
+??0IVRCameraFrame@vrcamera@@QEAA@AEBV01@@Z
+??0IVRCameraFrame@vrcamera@@QEAA@XZ
+??0IVRCameraStream@vrcamera@@QEAA@AEBV01@@Z
+??0IVRCameraStream@vrcamera@@QEAA@XZ
+??1CVRCameraWindows@vrcamera@@UEAA@XZ
+??1CVRCameraWindowsDS@vrcamera@@UEAA@XZ
+??1IVRCamera@vrcamera@@UEAA@XZ
+??1IVRCameraFrame@vrcamera@@UEAA@XZ
+??1IVRCameraStream@vrcamera@@UEAA@XZ
+??4IVRCamera@vrcamera@@QEAAAEAV01@$$QEAV01@@Z
+??4IVRCamera@vrcamera@@QEAAAEAV01@AEBV01@@Z
+??4IVRCameraFrame@vrcamera@@QEAAAEAV01@AEBV01@@Z
+??4IVRCameraStream@vrcamera@@QEAAAEAV01@AEBV01@@Z
+??_7IVRCameraFrame@vrcamera@@6B@
+??_7IVRCameraStream@vrcamera@@6B@
+?AddConfigurationChangeHandler@CVRCameraWindows@vrcamera@@UEAAXV?$function@$$A6AXXZ@std@@@Z
+?AddFrameHandler@CVRCameraWindows@vrcamera@@UEAAXV?$function@$$A6AXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@std@@@Z@std@@@Z
+?ApplyConfiguration@CVRCameraWindows@vrcamera@@UEAAXXZ
+?BeginStreamingDepth@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@XZ
+?BeginStreamingVideo@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@XZ
+?CalculateColorFrameSize@IVRCamera@vrcamera@@UEAAKXZ
+?CalculateDepthFrameSize@IVRCamera@vrcamera@@UEAAKXZ
+?ClearDepthFrameHandlers@CVRCameraWindows@vrcamera@@UEAAXXZ
+?ClearVideoFrameHandlers@CVRCameraWindows@vrcamera@@UEAAXXZ
+?Clone@IVRCameraFrame@vrcamera@@UEAA?AV?$unique_ptr@VIVRCameraFrame@vrcamera@@U?$default_delete@VIVRCameraFrame@vrcamera@@@std@@@std@@XZ
+?DumpColor@IVRCameraFrame@vrcamera@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?DumpColorAsRGB@IVRCameraFrame@vrcamera@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?DumpDepth@IVRCameraFrame@vrcamera@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?DumpScaledDepth@IVRCameraFrame@vrcamera@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?EndStreamingDepth@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@XZ
+?EndStreamingVideo@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@XZ
+?Failed to RenderStream: 
+?GetAutoExposureTarget@IVRCamera@vrcamera@@UEAAGXZ
+?GetCameraRegister@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@GAEAGW4RegisterType@IVRCamera@2@E_N@Z
+?GetColorConfig@CVRCameraWindows@vrcamera@@UEAA?AW4ColorStreamConfig@IVRCamera@2@XZ
+?GetColorGain@IVRCamera@vrcamera@@UEAAXAEAV?$array@M$02@std@@@Z
+?GetColorHeight@IVRCamera@vrcamera@@UEAAIXZ
+?GetColorWidth@IVRCamera@vrcamera@@UEAAIXZ
+?GetDenoiseEdgeThreshold@IVRCamera@vrcamera@@UEAAEXZ
+?GetDenoiseLevel@IVRCamera@vrcamera@@UEAAEXZ
+?GetDepthConfig@CVRCameraWindows@vrcamera@@UEAA?AW4DepthStreamConfig@IVRCamera@2@XZ
+?GetDepthFormat@CVRCameraWindows@vrcamera@@UEAA?AW4DepthFormat@IVRCamera@2@XZ
+?GetDepthHeight@IVRCamera@vrcamera@@UEAAIXZ
+?GetDepthWidth@IVRCamera@vrcamera@@UEAAIXZ
+?GetEdgeEnhancementGain@IVRCamera@vrcamera@@UEAAEXZ
+?GetEdgeEnhancementThreshold@IVRCamera@vrcamera@@UEAAEXZ
+?GetExposure@IVRCamera@vrcamera@@UEAANXZ
+?GetExternalColorBuffer@IVRCamera@vrcamera@@UEAAPEAEXZ
+?GetExternalColorBufferSize@IVRCamera@vrcamera@@UEAAKXZ
+?GetExternalDepthBuffer@IVRCamera@vrcamera@@UEAAPEAEXZ
+?GetExternalDepthBufferSize@IVRCamera@vrcamera@@UEAAKXZ
+?GetFirmwareVersion@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetFrameNumber@IVRCameraFrame@vrcamera@@UEAAGXZ
+?GetGlobalGain@IVRCamera@vrcamera@@UEAAMXZ
+?GetRGB@IVRCameraFrame@vrcamera@@UEAAXAEAV?$vector@EV?$allocator@E@std@@@std@@@Z
+?GetTargetFPS@IVRCamera@vrcamera@@UEAAMXZ
+?GetVersionMajor@IVRCamera@vrcamera@@UEAAHXZ
+?GetVersionMinor@IVRCamera@vrcamera@@UEAAHXZ
+?GetVersionRevision@IVRCamera@vrcamera@@UEAAHXZ
+?GetWhiteBalance@IVRCamera@vrcamera@@UEAAIXZ
+?IsAutoExposure@IVRCamera@vrcamera@@UEAA_NXZ
+?IsAutoWhiteBalance@IVRCamera@vrcamera@@UEAA_NXZ
+?IsBacklightCompensation@IVRCamera@vrcamera@@UEAA_NXZ
+?IsConnected@CVRCameraWindows@vrcamera@@UEAA_NXZ
+?IsRawMode@IVRCamera@vrcamera@@UEAA_NXZ
+?ReadConfiguration@CVRCameraWindows@vrcamera@@UEAAXXZ
+?Reconnect@CVRCameraWindows@vrcamera@@UEAAXXZ
+?SetAutoExposureTarget@IVRCamera@vrcamera@@UEAAXG@Z
+?SetBacklightCompensation@IVRCamera@vrcamera@@UEAAX_N@Z
+?SetCameraRegister@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@GGW4RegisterType@IVRCamera@2@W4Sensor@52@@Z
+?SetColorConfig@CVRCameraWindows@vrcamera@@UEAAXW4ColorStreamConfig@IVRCamera@2@@Z
+?SetColorGain@IVRCamera@vrcamera@@UEAAXMMM@Z
+?SetDenoiseEdgeThreshold@IVRCamera@vrcamera@@UEAAXE@Z
+?SetDenoiseLevel@IVRCamera@vrcamera@@UEAAXE@Z
+?SetDepthConfig@CVRCameraWindows@vrcamera@@UEAAXW4DepthStreamConfig@IVRCamera@2@@Z
+?SetDepthFormat@CVRCameraWindows@vrcamera@@UEAAXW4DepthFormat@IVRCamera@2@@Z
+?SetEdgeEnhancementGain@IVRCamera@vrcamera@@UEAAXE@Z
+?SetEdgeEnhancementThreshold@IVRCamera@vrcamera@@UEAAXE@Z
+?SetExposure@CVRCameraWindowsDS@vrcamera@@UEAAXN_N@Z
+?SetExposure@IVRCamera@vrcamera@@UEAAXN_N@Z
+?SetExternalColorBuffer@IVRCamera@vrcamera@@UEAAXPEAEK@Z
+?SetExternalDepthBuffer@IVRCamera@vrcamera@@UEAAXPEAEK@Z
+?SetGlobalGain@CVRCameraWindowsDS@vrcamera@@UEAAXM@Z
+?SetGlobalGain@IVRCamera@vrcamera@@UEAAXM@Z
+?SetRawMode@IVRCamera@vrcamera@@UEAAX_N@Z
+?SetTargetFPS@IVRCamera@vrcamera@@UEAAXM@Z
+?SetWhiteBalance@IVRCamera@vrcamera@@UEAAXI_N@Z
+?Trace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?TraceConfiguration@IVRCamera@vrcamera@@UEAAXXZ
+?UploadFirmware@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@AEAV?$vector@EV?$allocator@E@std@@@std@@@Z
+?UploadFirmwareViaBootloader@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@AEAV?$vector@EV?$allocator@E@std@@@std@@@Z
+?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@3@E@Z
+?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@3@E_N@Z
+?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG@Z
+?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GGE_N@Z
+?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG_N@Z
+?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
+?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@_N@Z
+?WTrace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
+?YUVToRGB@IVRCameraFrame@vrcamera@@MEAAXEEEAEAD00@Z
+@(D9i(
+@.data
+@.reloc
+@8t$0
+@8t$8t)A
+@8w	u3E3
+@8w	u8E3
+@A^A\_^]
+@A^^[
+@A^_^
+@A_A^A\
+@A_A^A\_^
+@A_A^A\_^][
+@A_A^A]A\_
+@A_A^A]A\_^]
+@A_A^]
+@A_A^_
+@A_A^_^]
+@SAUAVAWH
+@SUVAWH
+@SUVWATAUAVAWH
+@SUVWATAVAWH
+@SUVWAVH
+@SUVWH
+@SVATAVH
+@SVAUAVH
+@SVAVAWH
+@SVAVH
+@SVWAVAWH
+@SVWH
+@SWATAVH
+@SWAVH
+@SWAWH
+@UATAVH
+@UAVAWH
+@USVWATAUAVAWH
+@USVWATAUAVH
+@USVWATAVAWH
+@USVWAUH
+@USVWAVH
+@USVWAWH
+@UVATAUAVH
+@UVWATAUAVAWH
+@UVWAVAWH
+@UVWH
+@UWAVAWH
+@VWATAVAWH
+@VWAVH
+@WAUAVAWH
+@WAVAWH
+A$+A,t\3
+A(9B(D
+A+B$+
+A+B$A
+A+B$D
+A+X$D
+A+n H
+A,A9A(v&L
+A,H;B,u4H
+A,H;B,u;H
+A,H;B,u>H
+A,u+H
+A0H9P
+A4H;B4u*
+A4H;B4u1
+A4H;B4u4
+A8+A0
+A;6}#I
+A;H$I
+A;H$s
+A;J$vdH
+AH;BHu"
+AH;BHu)
+AH;BHu,
+ATAVAWH
+A^A\_
+A^_^][
+A_A^A\
+A_A^A\_]
+A_A^A\_^
+A_A^A\_^[]
+A_A^A\_^][
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^[
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^A]A\_^][
+A_A^A]_^
+A_A^]
+A_A^_
+A_A^_^[
+A_A^_^[]
+A_A^_^]
+A`D9L8
+AcquireSRWLockExclusive
+AjEB#AZ
+Applying depth format 
+Applying first frame camera configuration options...
+AuthD
+Auto Exposure Target:		
+Auto Exposure:			
+Auto White Balance:		
+B$D+B,toD+B(
+B0E8XAt
+BL$(A
+Backlight Compensation:		
+Begin Streaming Depth...
+Begin Streaming Video...
+Beginning detectedStream 
+Bellevue1
+C H9G
+C$9C w H
+C$u	H
+C(H;C0r
+C0HcF
+C4D+@ H
+C9|0$uA
+C@H98t"H
+C@H98t%H
+CB(A;J,A
+CB0A;B(A
+CD$(H
+CD$0H
+CD$0fD
+CD$xH
+CE'H+
+CE,D;m0D
+CM'L+
+CT$ L
+CT$(H
+CT$8L
+CT$xL
+CVRCameraWindows Destructor...
+C`D;Sh|
+Camera Exception while adding configuration change handler to video stream: 
+Camera Exception while adding frame handler to video stream: 
+Camera Exception while applying configuration: 
+Camera Exception while beginning depth stream: 
+Camera Exception while beginning video stream: 
+Camera Exception while clearing depth frame handlers: 
+Camera Exception while clearing video frame handlers: 
+Camera Exception while connecting to camera: 
+Camera Exception while ending depth stream: 
+Camera Exception while ending video stream: 
+Camera Exception while getting color configuration: 
+Camera Exception while getting depth configuration: 
+Camera Exception while handling configuration change: 
+Camera Exception while reading configuration: 
+Camera Exception while receiving camera frame: 
+Camera Exception while setting color configuration: 
+Camera Exception while setting depth configuration: 
+Camera Exception while setting depth format: 
+Camera reconnect failed
+Capability Count: 
+ChangeTimerQueueTimer
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CloseThreadpoolWork
+CoCreateInstance
+CoFreeUnusedLibraries
+CoInitialize
+CoInitializeEx
+CoTaskMemAlloc
+CoTaskMemFree
+CoUninitialize
+Color Gain:			
+CompareStringEx
+CompareStringW
+ContextPriority
+ContextStackSize
+Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+CreateEventA
+CreateEventExW
+CreateEventW
+CreateItemMoniker
+CreateRemoteThreadEx
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+CreateThreadpoolWork
+CreateTimerQueue
+CreateTimerQueueTimer
+CreateUmsCompletionList
+CreateUmsThreadContext
+Ct$HL
+CtfD;
+D	g I
+D$ 3A
+D$ 3Q
+D$ E3
+D$ H;
+D$ I;
+D$(E3
+D$(H;
+D$(fD
+D$0,fD
+D$0.fD
+D$09D$ 
+D$0E3
+D$0H;
+D$0L+
+D$0L;
+D$0f;VPu
+D$0tu
+D$49D$$
+D$89D$(
+D$8H;
+D$@H9D$8t
+D$@H;
+D$@HcH
+D$@Ic
+D$H9D$8
+D$HH;
+D$HL;
+D$L9D$<
+D$P"D
+D$P9D$@
+D$PE3
+D$PH;
+D$PHcH
+D$PIc
+D$PL;
+D$XH+D$PH
+D$XH9
+D$`HcH
+D$hE;
+D$hH;
+D$hI;
+D$pE3
+D$pH;
+D$pHcH
+D$pfD
+D$xI;
+D+ShHcChM
+D8"u3H
+D8A=t	
+D8A>t
+D8M@t
+D8M@t^
+D8[	u7E3
+D8d$1u
+D8d$8tEI
+D8l$`
+D8yDt
+D8|$0u
+D9&tXA
+D9B,t
+D9G$s5
+D9J,w
+D9L$,uDH
+D9L$0uFI
+D9Y$v+E
+D9d$$u
+D9g@~2Ic
+D9h(uiE
+D9k(u
+D9v|t
+D;d$$A
+D;d$$u
+D;j0v
+D;v sgH
+D;w@|
+D;z,A
+D;z,u
+D;z,v	A
+DFailed to EnumPins.
+DecodePointer
+DeleteCriticalSection
+DeleteProcThreadAttributeList
+DeleteTimerQueueTimer
+DeleteUmsCompletionList
+DeleteUmsThreadContext
+DequeueUmsCompletionListItems
+Device Path: 
+DigiCert Inc1
+DigiCert Timestamp 2022 - 20
+DigiCert Trusted Root G40
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+Dl$8E
+DuplicateHandle
+DynamicProgressFeedback
+E HcH
+E+BhIcBhM
+E0HcH
+E8X@t8A
+E9e ~9I
+E;B0E
+E;Bl}DM
+EI2C support not yet implemented
+EPHc@
+ET$(H
+EncodePointer
+End Streaming Depth...
+End Streaming Video...
+EnterCriticalSection
+EnterUmsSchedulingMode
+EpHcH
+Etron Camera: Erase whole chip to prepare for FW update
+Etron Camera: FW update success.  Please re-connect the camera to apply FW update
+Etron Camera: Updating FW image in SPI flash via bootloader
+Etron Camera: Verify FW 
+Etron Camera: Writing FW 
+Etron read flash failed
+Etron: Wait SPI time out!!(%f sec)
+Exception connecting to camera: 
+Exception constructing Camera: 
+ExecuteUmsThread
+Exposure:			
+F(LcF I
+Failed to AddFilter.
+Failed to AddToRot: 
+Failed to BindToObject.
+Failed to BindToStorage.
+Failed to CreateClassEnumerator.
+Failed to GetNumberOfCapabilities.
+Failed to GetStreamCaps.
+Failed to KsProperty.
+Failed to QI IAMCameraControl.
+Failed to QI IAMStreamConfig.
+Failed to QI IAMVideoProcAmp.
+Failed to QI IMediaControl.
+Failed to QI IMediaEventEx.
+Failed to QueryPinInfo.
+Failed to Run Graph.
+Failed to SetFiltergraph.
+Failed to apply depth format.
+Failed to create IBaseFilter
+Failed to create ICaptureGraphBuilder2.
+Failed to create ICreateDeviceEnum
+Failed to create IGraphBuilder.
+Failed to create IKsControl.
+Failed to find target device.
+Failed to parse device path.
+Failed to read DevicePath
+Failed to read FriendlyName.
+Failed to read flash file chunk.
+Failed to set denoise edge threshold...
+Failed to set denoise level...
+Failed to set edge enhancement gain...
+Failed to set edge enhancement threshold...
+Failed to set exposure.
+Failed to set white balance.
+Failed to write firmware packet properties.
+Failed to write firmware packet.
+Firmware Register Buffer: 
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushProcessWriteBuffers
+Found device path.
+FreeLibrary
+FreeLibraryAndExitThread
+FreeLibraryWhenCallbackReturns
+Friendly Name: 
+G$;G,
+G(9G u
+G,9G$u
+G0LcGDI
+G89D$0u
+G8HcODI
+Get ASIC register value failed
+GetCPInfo
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentProcessorNumberEx
+GetCurrentThread
+GetCurrentThreadId
+GetCurrentUmsThread
+GetFileInformationByHandleEx
+GetLastError
+GetLocaleInfoEx
+GetLocaleInfoW
+GetLogicalProcessorInformation
+GetLogicalProcessorInformationEx
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetNextUmsListItem
+GetNumaHighestNodeNumber
+GetProcAddress
+GetProcessAffinityMask
+GetRunningObjectTable
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetThreadGroupAffinity
+GetThreadPriority
+GetThreadTimes
+GetTickCount
+GetTickCount64
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+GetUmsCompletionListEvent
+GetVersionExW
+Global Gain:			
+H WATAUAVAWH
+H!T$0D
+H#T$0H
+H#|$0tB
+H+C H=
+H+D$XH+D$@3
+H+G H=
+H+L$(x?H
+H+L$(xAH
+H+\$0H
+H+|$8
+H3\$HH
+H99u{
+H9=(U	
+H9=bN	
+H9A4u
+H9Ahs
+H9D$8t
+H9D$@u
+H9D$Ht
+H9E8u$H
+H9J t1
+H9K u
+H9P0tLH
+H9Q,u
+H9Qhv#H
+H9\$ u
+H9_ht0H
+H9h0t`
+H9t$@t
+H;@0u
+H;@Xu
+H;A0s
+H;D$pr
+H;\$8
+H;\$H
+H;_Xt
+H;|$8u
+HHtfH
+H_^][
+Hc;HcK
+HcD$hH
+HcGTL
+HcGl;Gh}
+HcKhH
+HcKpH
+Hpu+H
+I9Bhs
+I9Chs
+IcI A
+IcJ 3
+IcJPHc
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+Index: 
+InitOnceExecuteOnce
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeProcThreadAttributeList
+InitializeSListHead
+InitializeSRWLock
+InterlockedFlushSList
+InterlockedPopEntrySList
+InterlockedPushEntrySList
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J$A;H$A
+J>@G_
+J`E;Bh|
+K 9N v@H
+K H9y
+K0u2H
+K4A+H 
+K8Hc@
+KERNEL32.dll
+KH;_XtW3
+K}*n:	
+L$ SUVH
+L$ SUVWH
+L$ SVWH
+L$ UVWATAUAVAWH
+L$(E3
+L$(H3
+L$0E3
+L$0H3
+L$8I;
+L$@H3
+L$PH3
+L$XH3
+L$pD9c
+L$pH3
+L+t$0
+L9%!^
+L9%M[
+L9%u]
+L9-		
+L90u$H
+L9B4t4H
+L9Ihv'H
+L9L$(L
+L9|$pveH;
+L9}osDH
+L9~ t
+L;FHu
+L;L$(A
+L;L$(t
+L?n(Zy&
+LCMapStringEx
+LCMapStringW
+LMzDx
+LcCP3
+LcGDI
+LcGP3
+LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+LoadLibraryExW
+LoadLibraryW
+LocalContextCacheSize
+Lock already taken
+M H1E
+M'H9E
+MB(iVR
+MJPEG color format is not yet implemented.
+MaxConcurrency
+MaxPolicyElementKey
+Mbp?333333
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+MinConcurrency
+MultiByteToWideChar
+No Description
+No IPin available.
+No color stream to configure.
+No depth or color data. Cannot determine frame number.
+No depth stream to configure.
+O,D9O(vcH
+OLEAUT32.dll
+P8fD;
+P@fD;
+PA^A\]
+PA^_^
+PA^_^[]
+PA_A^A]A\_^[
+PA_A^A]A\_^]
+PA__^[]
+PAq=?Mp#
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Pz}b!
+QueryDepthSList
+QueryPerformanceCounter
+QueryPerformanceFrequency
+QueryUmsThreadInformation
+R0E8XAt
+RaiseException
+RegisterTraceGuidsW
+RegisterWaitForSingleObject
+ReleaseSRWLockExclusive
+ReleaseSemaphore
+ResetEvent
+RoInitialize
+RoUninitialize
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlVirtualUnwind
+S0Q0O
+SA|X=G
+SUVWATAUAVAWH
+SUVWATAVAWH
+SUVWAVH
+SVWATAUAVAWH
+SVWAVAWH
+SVWAVH
+Saw DEVICE LOST event
+SchedulerKind
+SchedulingProtocol
+Set Color Config: 
+SetEvent
+SetFileInformationByHandle
+SetLastError
+SetThreadAffinityMask
+SetThreadGroupAffinity
+SetThreadPriority
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUmsThreadInformation
+SetUnhandledExceptionFilter
+Setting register failed: 
+SignalObjectAndWait
+Sleep
+SleepConditionVariableCS
+SleepConditionVariableSRW
+SubmitThreadpoolWork
+SwitchToThread
+T$ 3Q
+T$ A;U
+T$ D;
+T$ E3
+T$0D9d$8
+T$0D9d$@
+T$0E3
+T$8H+
+T$@H+
+T$HfH
+T$PH;
+T$PI+
+T$`H+
+T$pE3
+Target device found.
+TargetOversubscriptionFactor
+TerminateProcess
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TraceEvent
+TryAcquireSRWLockExclusive
+TryEnterCriticalSection
+UATAUAVAWH
+UAVAWH
+USVWATAUAVAWH
+USVWAVAWH
+UVWATAUAVAWH
+UVWATAVH
+UVWAVAWH
+UWATAVAWH
+UWAVH
+UmsThreadYield
+Unexpected capability size.
+Unhandled Exception while adding configuration change handler to video stream: 
+Unhandled Exception while adding frame handler to video stream: 
+Unhandled Exception while applying configuration: 
+Unhandled Exception while beginning depth stream: 
+Unhandled Exception while beginning video stream: 
+Unhandled Exception while clearing depth frame handlers: 
+Unhandled Exception while clearing video frame handlers: 
+Unhandled Exception while connecting to camera: 
+Unhandled Exception while ending depth stream: 
+Unhandled Exception while ending video stream: 
+Unhandled Exception while getting color configuration: 
+Unhandled Exception while getting depth configuration: 
+Unhandled Exception while handling configuration change: 
+Unhandled Exception while reading configuration: 
+Unhandled Exception while receiving camera frame: 
+Unhandled Exception while setting color configuration: 
+Unhandled Exception while setting depth configuration: 
+Unhandled Exception while setting depth format: 
+UnhandledExceptionFilter
+Unknown exception
+Unrecognized color configuration.
+Unrecognized color format.
+Unrecognized depth format.
+UnregisterTraceGuids
+UnregisterWait
+UnregisterWaitEx
+UpdateProcThreadAttribute
+VCRUNTIME140.dll
+VUD8oDu
+VWATAVAWH
+VWAUAVAWH
+VWAVH
+VWAWH
+V_~]	,
+Valve Corp.0
+Valve Corp.1
+Verify failed at 0x%X/0x%X Bytes
+VirtualAlloc
+VirtualFree
+VirtualProtect
+W0;Ct~ZH
+W8HcH
+WATAUAVAWH
+WATAVH
+WATAWH
+WAVAWH
+W`;Ct~|H
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WakeAllConditionVariable
+WakeConditionVariable
+Washington1
+White Balance:			
+WideCharToMultiByte
+WinRTInitialization
+Writing failed at 0x%X/0x%X Bytes
+X E9j
+Y$D;R
+Y0t>H
+Y9"SD
+Z(D9Z
+Zl#3F 
+[@D8}oteH
+[K]taM?
+\$ UH
+\$ UVWAVAWH
+\$ UWAVH
+\$ WH
+\$(H;
+\$(Hc
+\$0H+^
+\$0H9^
+\$2fE
+\$8E3
+\$8I+_
+\$8I9_
+\$<D2
+\$@fD
+\$HfD
+\$PE3
+\$Pu-H
+\$hE3
+\$pE3
+\6#sOC6K
+]J<0"0i3
+]`u7H
+_(H9n
+_CxxThrowException
+_Getdays
+_Getmonths
+_Gettnames
+_Strftime
+_W_Getdays
+_W_Getmonths
+_W_Gettnames
+_Wcsftime
+__AdjustPointer
+__C_specific_handler
+__CxxFrameHandler3
+__RTDynamicCast
+___lc_codepage_func
+___lc_collate_cp_func
+___lc_locale_name_func
+___mb_cur_max_func
+__acrt_iob_func
+__current_exception
+__pctype_func
+__processing_throw
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vfprintf
+__stdio_common_vsprintf_s
+__stdio_common_vswprintf
+__strncnt
+__uncaught_exception
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_errno
+_execute_onexit_table
+_fseeki64
+_fsopen
+_gUT^
+_get_stream_buffer_pointers
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo
+_invalid_parameter_noinfo_noreturn
+_ismbblead
+_lock_file
+_lock_locales
+_purecall
+_register_onexit_function
+_seh_filter_dll
+_unlock_file
+_unlock_locales
+_wcsdup
+`.rdata
+`A]_^[]
+`A^_^][
+`A_A^A]A\_^]
+`A_A^_^[
+abort
+address family not supported
+address in use
+address not available
+alnum
+alpha
+already connected
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-multibyte-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+argument list too long
+argument out of domain
+bad address
+bad allocation
+bad array new length
+bad cast
+bad conversion
+bad exception
+bad file descriptor
+bad function call
+bad locale name
+bad message
+blank
+broken pipe
+c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+calloc
+cntrl
+connection aborted
+connection already in progress
+connection refused
+connection reset
+count
+cross device link
+d$ E3
+d$DE;
+d$XD9
+d$XE3
+d$`H=
+d$vI9V
+destination address required
+device or resource busy
+digit
+directory not empty
+e,>~^
+e0A^A]A\_^[]
+e@A_A^]
+eventObject
+executable format error
+f	n@H
+f#D$@H
+f9,Yu
+f9/t	H
+f9D$pu
+f;D$ u
+f;M	tt
+fA;	H
+fD9 u
+fD9!t	H
+fD98t
+fD9|$Xu
+false
+fclose
+fflush
+fgetc
+fgetpos
+fgetwc
+file exists
+file too large
+filename too long
+fputc
+fputwc
+frexp
+fseek
+fsetpos
+function not supported
+fwrite
+generic
+graph
+h< t <$
+hA_A^A]A\_^][
+host unreachable
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0X
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+interrupted
+invalid argument
+invalid seek
+invalid stoul argument
+invalid string position
+io error
+ios_base::badbit set
+ios_base::eofbit set
+ios_base::failbit set
+iostream
+iostream stream error
+is a directory
+islower
+isspace
+isupper
+jj@0HK4
+jyvids
+k0i0$
+l$ E3
+l$ H;
+l$ H=
+l$ VWATAUAVAWE3
+l$ VWATAVAWH
+l$ VWAVH
+l$(E3
+l$0E3
+l$4D8d$1u
+l$4E3
+l$4E;C
+l$4H9u
+l$4I;
+l$4L9}
+l$8E3
+l$@H;
+l$PA_A^A]A\_^
+l$PD;
+l$PE;C
+l$`E;
+l$pfA#
+l$xM+
+l*$D+l*,tDD+l*(
+ldexp
+lnmvh
+localeconv
+lower
+lstrcmpW
+malloc
+memchr
+memcmp
+memcpy
+memmove
+memset
+message size
+nD8-V
+network down
+network reset
+network unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+ntelD
+o0t$I
+ole32.dll
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+owner dead
+p AWH
+p D9V
+p WAVAWH
+pA^_^
+pA_A^A]A\_^]
+pContext
+pEvents
+pExecutionResource
+pScheduler
+pThreadProxy
+permission denied
+ppVirtualProcessorRoots
+print
+protocol error
+protocol not supported
+punct
+q(9qD~[E3
+r	uAD;d$$u:
+r yA:
+rBu/H
+rLp>B
+raB3G
+read only file system
+realloc
+regex_error
+regex_error(error_backref): The expression contained an invalid back reference.
+regex_error(error_badbrace): The expression contained an invalid range in a { expression }.
+regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
+regex_error(error_brace): The expression contained mismatched { and }.
+regex_error(error_brack): The expression contained mismatched [ and ].
+regex_error(error_collate): The expression contained an invalid collating element name.
+regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
+regex_error(error_ctype): The expression contained an invalid character class name.
+regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
+regex_error(error_paren): The expression contained mismatched ( and ).
+regex_error(error_parse)
+regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
+regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
+regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
+regex_error(error_syntax)
+resource deadlock would occur
+resource unavailable try again
+result out of range
+setlocale
+setvbuf
+space
+state not recoverable
+stoul argument out of range
+strchr
+strcspn
+stream timeout
+string too long
+strtod
+strtof
+switchState
+sxu/H
+sxuIH
+sxutH
+t @8x
+t H9X8t]
+t!fff
+t$ AVH
+t$ E3
+t$ L+
+t$ WATAUAVAWH
+t$ WATAWH
+t$ WAVAWH
+t$ WH
+t$0E3
+t$0H+
+t$8H+
+t$<D;t$@
+t$@H=
+t$HI+
+t$HL;
+t$Hu{H
+t$PuyH
+t$XH;
+t$XM;u
+t$`;w
+t$hE3
+t$pH9\$ u
+t$xE3
+t(B;\ 
+t(fff
+t*H9p8u$@8
+t+H;E
+t.8\$P
+t4~ ;
+t>fff
+t>y#H
+t>y#I
+t>y&H
+t?y&I
+t@LcM
+tG8\$ u08\$!t*E
+tKI;D
+tP8]w
+tRH9h0tLH
+t_H9Q0tYH
+terminate
+text file busy
+timed out
+tjL9Chu
+tlLcA
+tlMcH
+tolower
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+tpH91uk
+tvLcK
+t}D8O
+u	9o$
+u D9~
+u!!D$(H
+u%!D$@H
+u&8_rt
+u)!t$(H
+u2A8D
+uJL9J,u
+uY8\$ t
+ueA8F
+ug8Y$t
+ujL9J
+ungetc
+ungetwc
+unknown error
+uoA8F
+upE8N
+upH;~ uj
+upper
+uxHcOP
+u~LcW
+v=Y]Bv
+v?fD;
+value too large
+vector<T> too long
+vector<bool> too long
+version
+vrcamera_api.dll
+w(HcODI
+wcsnlen
+wcstoul
+wrong protocol type
+www.digicert.com1!0
+x ATAVAWH
+x AVAWL
+x AVE3
+x AVH
+x UAVAWH
+x]~\6
+xdigit
+yH;YXtl
+{ ATAVAWH
+{ AVH
+{ tjL
+{un'%
+{x\u!H
+{|-ueH
+{|?uWH
+{|]u%H
+|$ A;
+|$ ATAVAWH
+|$ AUAVAWH
+|$ AVH
+|$ AVL
+|$ AWH
+|$ E3
+|$ UATAUAVAWH
+|$ UH
+|$(A^
+|$0@"
+|$0A_A^
+|$0E3
+|$0H+
+|$4E3
+|$4H9]
+|$4H9u
+|$8A_A^A\
+|$8H+
+|$8I+
+|$@E3
+|$HH;
+|$Pff
+|$h9i
+|$h9w
+|$rfD
+|Lu?c
+}LuHO
+~`D8I!t-
+~t&LN

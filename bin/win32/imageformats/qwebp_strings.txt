@@ -1,0 +1,1053 @@
+	$	/	5	>	D	X	^	g	m	x	~	
+	+L$(
+	?customEvent@QObject@@MAEXPAVQEvent@@@Z
+	@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
+	JqAl
+ !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
+ !"#$%&'()*+,-./0123456789:;<=>?
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !#$&')*,-/0235689;<>???????????????????
+ !#$&')*,-/0235689;<>????????????????????
+ !#$&')*,-/0235689;<>?????????????????????
+ "#%&()+,./124578:;=>???????????????????
+ "#%&()+,./124578:;=>????????????????????
+ ;h4|
+ ;s4|
+ SUVW
+ _^][
+ bn0s}Q_@r~aoPq
+ s^RQ
+!"$%'(*+-.0134679:<=????????????????????
+!"$%'(*+-.0134679:<=?????????????????????
+!/?WiZF4%
+!This program cannot be run in DOS mode.
+"/#|>
+"b}b*XhUu
+#CfU7
+$1CSdsl^L@2,(")-3AM_mvqg\PD<869=EQ]hrwtojaXTJHKUYbkpu
+$H_^][
+$SUVW
+$_^][
+%*Di-,D 6.D
+%A Is
+&5G[ncRB0#
+&xr(*
+(D$ f
+(D$@f
+(D$Pf
+(D$`f
+(D$pf
+(D$|f
+(L$ f
+(L$0f
+(L$@f
+(L$Pf
+(T$ f
+(T$0f
+(T$Pf
+(T$pO
+(T$pf
+(\$ f
+(\$0f
+(\$@f
+(\$Pf
+(d$Pf
+(l$@f
+(l$`f
+(xA=6
+(|$0f
+)+D$H
+)+L$$
+)2STud>
+);L$@
+);L$T
+)D$ +
+)D$ f
+)D$@f
+)D$Pf
+)D$TB
+)D$`f
+)D$pf
+)L$ f
+)L$0f
+)L$Pf
+)T$0f
+)\$ f
+)\$@f
+)d$ f
+)d$0f
+)l$Pf
+)l$`f
+)t$0f
+)t$@f
+)t$Pf
+)|$0f
+)|$@f
+)|$pf
+*_^][Y
++:{Z\>
++;OfV>. 
++D$ +
++D$8P
++D$<+L$@
++l$0+
++l$@I
+,*/vu
+,BAl@B=6UB
+,SUVW
+-Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
+.00cfg
+.8"6z>
+.;\$$
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQObject@@
+.?AVQWebpHandler@@
+.?AVQWebpPlugin@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.qtmetad$
+.qtmetadata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$sxdata
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata$x
+/84_>
+/D$ _^
+/D$8V
+/I%_n
+0	043}3
+0 0$0(0,000
+0 0I0c0r0
+0$0=0z0
+0%0,0
+0%0R0
+0'050p0)151
+0*131
+0*1U1
+02080>0D0J0P0W0^0e0l0s0z0
+04080@0H0P0T0\0p0x0
+091}1
+0;0K0\0p0
+0@0T0q0{0
+0F0M0
+0H0L0P0T0X0
+0a6g6x6
+1%181D1S1X1m1s1x1
+1(2@2H2
+1)202
+1*151N1m1
+1+101B1d1
+1,1@1z1
+1,1H1d1
+1-1G1Y1j1x1
+1-2D2k2	3
+10171
+131d1$232<2I2`2{2
+145=5H6R6
+1;L$D
+1;L$H
+1;L$X
+1;L$`
+1=1M1
+1]2k2
+1_3}3
+1j3w374C4
+1x2|2
+2	2G2
+2 2+232;2/3:3B3J3R3Z3
+2 3u4
+2#282I2^2d2~2
+2$2)2/23292=2C2G2M2Q2W2[2a2e2k2o2u2y2
+2%2-272I2O2U2[2a2k2u2
+2%2?2g3u3
+2&2=2T2c2k2
+2,242A2N2d2t2
+2?2h2
+2@2b4s4
+2L3S3v3
+2d3r3
+2n3L4	6
+3 3&3*30343:3>3D3H3N3R3X3\3b3f3l3p3v3z3
+3#353j3t3
+3#3I3N3
+3#3K3]3h3
+3(4S4~4
+3,454=4y4
+333333
+333333"@
+354E4L4e4s4
+3;3k4{4
+3=3H3S3q3
+3>4k4
+3@3V3i4
+3L3Y3`3y3~3
+3M4^4u4}4
+3^3t3
+3a4y4
+3g6	7
+4"5,555E5R5r5
+4$41494D4P436
+4&4/494M4d4m4w4
+4&4J4Q4t4
+4)6:6
+4.4p4
+424D4
+42QPW
+465G5
+4B5]5
+4R5Y5u5
+4SUVW
+4[5u5
+4`5d5h5l5{5J7
+5 595>5S5a5g5r5x5|5
+5'6.6
+5.5J5Y5a5<7
+5/565b5r5
+5/5:5
+5/5H6U6
+576U6e6
+586n6g8j;#?5?N?i?w?
+5;FJ$,XEK4<
+5F7N7V7c7l7
+5K8m8
+5O6W6|6
+5S5i5
+5V7<8H8[8L9[9g9
+5]6i6
+5c5u5
+5c;j;
+5ineI
+5ntel
+6	7W7
+6$6(6.62686<6B6F6L6P6V6Z6`6d6
+6$6G6Z6c6r6
+636{6
+6:%+H
+6G9p9|9
+6I6v6
+6O7W7
+6^6z6
+6k7s7{7
+6m6|6
+6o7$8(8,8084888<8K8
+7 7$7(7,7074787<7
+7!8_8
+7#7)7-73777=7A7G7K7Q7U7n7s7
+7$8M8}8
+7%878C8O8[8g8s8
+7&F|If
+7(7|7W9r<	=
+7)757C7&878L8
+7+727O7g7n7
+7+7O7d7y7
+7084888<8
+71:V:j:
+727J7
+769S9q9
+798[8q8v8
+7;\$ 
+7M8T8
+7T7m7
+7pC&"wCw
+8"3hrf
+8"8,8>8H8N8f8u8
+84:^:
+859F9]9e9
+8;8E8
+8E8d8{8
+8K9t9
+8i9p9
+9!9'92989<9B9F9L9P9V9Z9`9d9j9n9t9x9~9
+9!9)919;9j9y9
+9$:Z:
+9%9`9n9
+9(989J9^9l9z9
+9-949T9g9
+9/:;:
+929J9i9
+94;P<
+979r9~9
+97:t:
+9>9C9
+9ALPHu
+9D$ t=
+9D$ ~/
+9D$H}b
+9D9U9d9
+9F`}(
+9K:W:h:p:
+9L$ |
+9VP8 
+9VP8L
+9]4~&
+9_x~%V
+9o4~j
+9t$Dh
+9|$ u
+9|$(~P
+9|$Pv
+:	;3;C;
+: :$:(:,:4:L:P:h:x:|:
+:#:+:Y:h:t:
+:$:,:
+:$:D:U:f:o:
+:%:,:M:e:l:
+:(:/:_:k:~:
+:-;J;T;b;t;
+:4<k>
+:5:w:
+:B:J:^:l:z:
+:H;y=
+:P=a=
+:^;l;
+:dD8XfD
+:l;s;
+; ;0;4;H;L;\;`;h;
+; ;2;Q;d;q;
+;!;4;
+;$<K<
+;&;2;F;^;
+;';I;Q;f;
+;);S;
+;+;4;C;R;
+;6;J;
+;AX}9
+;D$ |
+;D$ }2
+;D$ ~
+;D;k;g?
+;L$0s"
+;L$4t
+;L$4|
+;L$hs _^]
+;T$(|
+;T$D~
+;\$(|
+;l$ |
+;l$$|
+;l$,|]
+;l$,}
+;q<x<
+;t$(|
+;t$,|
+;t$0|
+;t$H|
+;t$H|{
+;t$Ls&
+;t$`}:;t$\~4
+;t$p}A
+;|$$|
+;|$(}G
+;|$4|
+;|$<u
+<"<&<,<0<D<
+<$<(<8<<<@<D<L<d<
+<&=/=8=
+<'=?=E=Z=r=x=
+<.<C<s<
+</=k={=
+<1<:<
+<1=8=,?L?l?
+<2<I<b<z<
+<8bunz8
+<@En[vP
+<G=m=x=
+<XC;\$
+<ZZ<ZZZZZZZ
+<^]_[
+<_^][
+<`=x=
+<kVSWj
+<{Q}<
+<}=@>q>
+=%=-=X=`=h=
+=%=@=]=u=
+=(>,>0>H>L>P>d>h>l>
+=,=>=P=b=t=
+=3>E>
+=5=B=L=
+===E=
+=G>Q>q>y>
+=K>k>
+=VP8 t!=ALPH
+=VP8L
+=nI-$
+>!?'?7?=?A?G?K?Q?U?[?_?e?i?o?s?y?}?
+>!?-?<?
+>!?3?E?W?i?w?
+>%>?>
+>&>1>C>M>Z>c>u>
+>(>9>W>g>
+>(?]?
+>)>6>
+>,>E>
+>2?6?I?
+>3>I>
+><>S>l>
+>ALPH
+>RIFF
+>VP8L
+>VP8X
+>a?n?z?
+?#%X.y
+?$(}(
+?(FN\
+?*hiR
+?,?A?X?_?
+?-{Dn
+?..$s
+?0D6J2D
+?1?9?M?U?i?
+?333333
+?3ScR.>
+?5?L?a?h?n?
+?7?A?\?d?q?
+?8?r?
+??0QImage@@QAE@ABV0@@Z
+??0QImage@@QAE@HHW4Format@0@@Z
+??0QImageIOHandler@@QAE@XZ
+??0QImageIOPlugin@@QAE@PAVQObject@@@Z
+??0QMessageLogger@@QAE@PBDH0@Z
+??0QVariant@@QAE@ABVQSize@@@Z
+??0QVariant@@QAE@H@Z
+??0QVariant@@QAE@XZ
+??1QByteArray@@QAE@XZ
+??1QDebug@@QAE@XZ
+??1QImage@@UAE@XZ
+??1QImageIOHandler@@UAE@XZ
+??1QImageIOPlugin@@UAE@XZ
+??4QImage@@QAEAAV0@$$QAV0@@Z
+??4QImage@@QAEAAV0@ABV0@@Z
+??6QDebug@@QAEAAV0@H@Z
+??6QDebug@@QAEAAV0@PBD@Z
+?AFxD
+?I_C.
+?Tu7R
+?UUUUUU
+?bits@QImage@@QAEPAEXZ
+?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?constData@QByteArray@@QBEPBDXZ
+?convertToFormat_helper@QImage@@IBE?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+?currentImageNumber@QImageIOHandler@@UBEHXZ
+?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+?endsWith@QByteArray@@QBE_NPBD@Z
+?event@QObject@@UAE_NPAVQEvent@@@Z
+?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+?ffffff
+?format@QImage@@QBE?AW4Format@1@XZ
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+?gibQ^AX>
+?isOpen@QIODevice@@QBE_NXZ
+?isReadable@QIODevice@@QBE_NXZ
+?isWritable@QIODevice@@QBE_NXZ
+?k)T|F
+?peek@QIODevice@@QAE?AVQByteArray@@_J@Z
+?q42s(
+?qstrcmp@@YAHABVQByteArray@@PBD@Z
+?readAll@QIODevice@@QAE?AVQByteArray@@XZ
+?rmMx
+?startsWith@QByteArray@@QBE_NPBD@Z
+?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
+?toInt@QVariant@@QBEHPA_N@Z
+?warning@QMessageLogger@@QBAXPBDZZ
+?warning@QMessageLogger@@QBE?AVQDebug@@XZ
+?write@QIODevice@@QAE_JPBD_J@Z
+@.data
+@.reloc
+@.rsrc
+@0D0H0L0P0T0
+@33333
+@333333
+@VSWj
+@Y>)F
+ALPHwl
+AL[`>
+AiFC.
+Bad code word
+C 9K0t
+C)t$4
+C,^][
+CG;t$
+CHSVU
+CloseHandle
+Could not decode alpha data.
+CreateEventW
+D$ +D$<
+D$ +D$@
+D$ +G 
+D$ 9D$
+D$ 9{
+D$ ;C4w
+D$ ;l$
+D$ ;t$
+D$ PSuSj
+D$ PW
+D$ QP
+D$ SU
+D$ USP
+D$ WEBP
+D$ ff
+D$$+D$
+D$$+D$(
+D$$+|$H
+D$$@R
+D$$PUup
+D$$QRPj
+D$$VWPU
+D$$WP
+D$$];
+D$(9t$,~7
+D$(9w
+D$(;C8w
+D$(PS
+D$(PV
+D$(PW
+D$(Pj
+D$(SQPRj
+D$(SUV
+D$(U+
+D$(UV
+D$(VWSU
+D$(t1
+D$(|	W
+D$,9D$p
+D$,;D$p
+D$,;t$
+D$,PQSRj
+D$,PS
+D$,PV
+D$,UV
+D$0;C<w
+D$0;W
+D$0;t$l
+D$0PVUSW
+D$0PW
+D$0Pj
+D$0SU
+D$0SUV
+D$0UVPW
+D$0_^]
+D$0t#
+D$4)T$4
+D$4+t$$
+D$49D$
+D$4PW
+D$4SUVW
+D$4VP
+D$4Wj
+D$4ff
+D$89D$4
+D$8;D$4
+D$8C;\$\
+D$8PR
+D$8SU
+D$8SUW
+D$8UP
+D$8j(V
+D$<	F
+D$<)T$<
+D$<+D$$
+D$<+D$@
+D$<;t$
+D$<PS
+D$<PW
+D$<SUV
+D$<WP
+D$<|	W
+D$@+D$<
+D$@+G j
+D$@PSj
+D$@PVW
+D$@PW
+D$@UP
+D$@VW
+D$@_^
+D$@t2
+D$D+G j
+D$D9D$4
+D$DPR
+D$DPV
+D$DPW
+D$DUV
+D$D_^][
+D$H9D$,
+D$HPQR
+D$HRIFF
+D$HSU
+D$L+D$`
+D$LH;
+D$LPW
+D$LPj
+D$LSU
+D$LWP
+D$LWUP
+D$P+D$H
+D$P+D$`
+D$PPW
+D$PSUV
+D$PWEBP
+D$PWP
+D$T+D$`
+D$TPV
+D$TUS
+D$TVP8L
+D$Tff
+D$X+D$T
+D$X9D$8
+D$XQRPj
+D$\+D$0
+D$\NWP
+D$\PSj
+D$\PUj
+D$`9D$D
+D$`WP
+D$dPU
+D$dWP
+D$hSU
+D$pF;0|
+D$tPUf
+D$xPV
+D$xSUV
+D3H3L3P3`6d6l6p6x6|6
+DBM&(
+DeleteCriticalSection
+DisableThreadLibraryCalls
+E,H9D$
+E<G&Iw
+EH^][
+EXIFw6t&
+EnterCriticalSection
+F(+V0
+F8_^]
+F;t$H
+FD^][
+FK?imageCount@QImageIOHandler@@UBEHXZ
+FU?setOption@QImageIOHandler@@UAEXW4ImageOption@1@ABVQVariant@@@Z
+FhPQR
+Frame not displayable.
+Frame setup failed
+F||<##
+G#_^[
+G$[^]
+G$_^]
+G0SW@UP
+G;|$D
+G<^]_
+GF;T$
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+Gf95)1&!
+H4;H,w
+HA;L$
+IT=_9
+Incorrect keyframe parameters.
+InitializeConditionVariable
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J\;5yTb
+K<<H!
+K?height@QImage@@QBEHXZ
+KERNEL32.dll
+KQD2cSDy{UD
+L$ +L$
+L$ @j
+L$ _^
+L$$)\$L
+L$$_^]
+L$(90~a
+L$(^]
+L$,;A
+L$,;L$$
+L$,SV
+L$,UQ
+L$,~%
+L$0;l$@
+L$0_^3
+L$4QP
+L$4_^][3
+L$4ff
+L$8A;
+L$<+L$@
+L$<SU
+L$<^][3
+L$@	\$4
+L$@+L$D
+L$@9D$$
+L$@;L$d
+L$T+L$$
+L$T+L$(
+L$T_^
+L$X+L$(
+L$\+L$X
+L$\;T$`
+L$\_^][3
+L$d9L$0
+L$h_^][3
+L?isNull@QImage@@QBE_NXZ
+L?jumpToImage@QImageIOHandler@@UAE_NH@Z
+L?jumpToNextImage@QImageIOHandler@@UAE_NXZ
+LL$P;L$\
+LL$\;L$h
+LL$h;L$t
+LeaveCriticalSection
+M?loopCount@QImageIOHandler@@UBEHXZ
+MetaData
+MimeTypes
+MnZ/rs
+M|$ ;
+NULL VP8Io parameter in VP8Decode().
+N_U9203
+Not a key frame.
+Nt$H3
+O$_^[
+O?nextImageDelay@QImageIOHandler@@UBEHXZ
+OL+t$
+Output aborted.
+P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+PPUVW
+PUSUSj
+P_RDATA
+Premature end-of-file encountered.
+Premature end-of-partition0 encountered.
+P~6-U~/W
+QTMETADATA  qbjs
+QWebpHandler::canRead() called with no device
+QWebpPlugin
+Qt5Core.dll
+Qt5Gui.dll
+QueryPerformanceCounter
+R\vn>
+R_T5Y
+ResetEvent
+Richb
+SUVPW
+SUVW3
+SUVWI3
+Sequential devices are not supported
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+T$ )D$P
+T$ ;D$$
+T$ SU
+T$$EC@
+T$(9T$`
+T$(Rj
+T$,EC@
+T$,SUV
+T$,|R
+T$0)|$L
+T$4)|$\
+T$4t h`
+T$89D$
+T$<+|$4
+T$<;D$$
+T$D9l$Hw3r
+T$D;T$,
+T$DSU
+T$T;L$<
+T$T@)\$P
+T$\9T$$t
+T$hUV
+T$lUSWV
+T$lUVWS
+T$p;D$t
+T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
+T@Tg]@
+TerminateProcess
+Truncated header.
+T~OXu
+U%	>G
+U7>F%+%
+U\8h(
+UnhandledExceptionFilter
+Unknown exception
+VCRUNTIME140.dll
+VP8Xt{
+VZ#-DLU[3=h
+W%	s;M@
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WDG,r3
+WQRSN
+WR_l%2>
+WUSUSj
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Xl=hs>
+Y__^[
+Z({:3m
+Z?width@QImage@@QBEHXZ
+Z_JmLd
+[C2zbCSTiC
+\$ )D$P
+\$ )O
+\$ 9D$
+\$ ;D$$
+\$ ;\$$
+\$$FG
+\$(JUVW
+\$(SW
+\$(UV
+\$(UVW
+\$(UW
+\$(Ui
+\$(tQ
+\$,+\$ 
+\$,UVW
+\$4)l$4
+\$8UV
+\$8UVW
+\$<;\$`}
+\$<UVW
+\$<UVj
+\$DUV3
+\$PPS
+\$T;D$X
+]_^[3
+^[+D$
+^_][3
+^_][Y
+_CxxThrowException
+_RDATA
+_W4~w
+_][^3
+_^]9A
+_^][3
+_^][Y
+_^][u
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__vcrt_InitializeCriticalSectionEx
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_except1
+_except_handler4_common
+_execute_onexit_table
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_libm_sse2_log10_precise
+_libm_sse2_log_precise
+_libm_sse2_pow_precise
+_register_onexit_function
+_seh_filter_dll
+`*Hhq
+`.rdata
+`D$ f
+`D$\f
+`D$`f
+`n`lns
+`t)@%
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-utility-l1-1-0.dll
+bad allocation
+bad array new length
+bad partition length
+calloc
+cannot parse filter header
+cannot parse partitions
+cannot parse picture header
+cannot parse segment header
+className
+debug
+dlBNvz!/u{1?cmR^
+dqe-KO{/3
+f=G%"5
+f@)rM
+failed to encode webp picture, error code: 
+failed to import image data to webp picture.
+failed to init webp picture and config
+fj".T\CMek2>x
+fl.&|
+g#v~>
+h	?byteCount@QImage@@QBEHXZ
+hI{L[
+hL$ f
+hT$\f
+h|$`f
+iD$ 4^
+iD$$L
+iD$(%f
+iD$0L
+iD$L%f
+iD$\%f
+iD$d%f
+iD$h%f
+id@j>
+image/webp
+j	?bytesPerLine@QImage@@QBEHXZ
+kGCu!NC
+kU!W>
+l$$t,
+l$0VW3
+l$4SuTj
+l$8VWU
+l$DVW
+l$H;t$
+l$HVW
+l$LVW
+l$TVW
+l$XV3
+l$\V3
+l$\VW
+l$lVW
+l$pv!Q
+m1WY$
+malloc
+memcpy
+memmove
+memset
+nH[_^]
+no memory during frame initialization.
+null VP8Io passed to VP8GetHeaders()
+o KPBf
+oHPRVW
+oY.o<
+ofn}>
+opqMU
+org.qt-project.Qt.QImageIOHandlerFactoryInterface
+p ^][
+qo-W>
+qsort
+qt_plugin_instance
+qt_plugin_query_metadata
+qwebp.dll
+sD}>uD
+source image is null.
+t$ VQ
+t$ VW
+t$ WQU
+t$$PV
+t$$UW
+t$$VWS
+t$$WP
+t$$ff
+t$(WV
+t$,SV
+t$,SW
+t$,Sj
+t$,UQ
+t$,WU
+t$,Wj
+t$0)L$0
+t$0t<
+t$4SV
+t$8PRQj
+t$8VS
+t$<+T$0f
+t$@SV
+t$@WV
+t$DSP
+t$DVS
+t$DWV
+t$HPQ
+t$HWS
+t$LVQ
+t$P+|$L
+t$TSUPR
+t$XWV
+t$XtT
+t$h9t$l
+t$lVj
+t$pVQ
+t$tSW
+t$tVR
+t$xSP
+t&PQSUV
+t'UVh
+t'UWh
+tc_^]
+thread initialization failed.
+u	_^]
+u!9D$
+u!9t$
+u#PQV
+u#PVS
+u'H$>
+u'_^[
+uT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
+v	_^3
+vT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z
+version
+x0Ysqx
+xB;D$$}<
+y dwh
+y";D$P
+y8dw#
+yLdw5
+{G;|$$
+|	;p 
+|$ ;\$
+|$ iL$
+|$()D$(
+|$0;|$8u
+|$0EC;t$
+|$4Wj
+|$8PW
+|$@)t$@
+|$HWS
+|$P;\$|
+|$PWU
+|$Pu`
+|$dZ} 
+|$hff
+}mxQ>
+~D$ f
+~D$0Pf
+~T$@f
+~Y+l$L
+~_fff
+~d$ f
+~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! 

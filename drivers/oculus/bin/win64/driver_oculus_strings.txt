@@ -1,0 +1,2463 @@
+					
+							
+												
+																																												
+																																																																																																																
+			"translation" : [ 0, 0, 0 ],
+			"yaw" : 0
+			[ -0.5, 0, -0.5 ]
+			[ -0.5, 0, -0.5 ],
+			[ -0.5, 0, 0.5 ]
+			[ -0.5, 0, 0.5 ],
+			[ -0.5, 2.43, -0.5 ],
+			[ -0.5, 2.43, 0.5 ],
+			[ 0.5, 0, -0.5 ]
+			[ 0.5, 0, -0.5 ],
+			[ 0.5, 0, 0.5 ]
+			[ 0.5, 0, 0.5 ],
+			[ 0.5, 2.43, -0.5 ],
+			[ 0.5, 2.43, 0.5 ],
+		"collision_bounds" : [
+		"play_area" : [ 1, 1 ],
+		"seated" : {
+		"standing" : {
+	!s99
+	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
+	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
+	D$HA
+	w=%d, h=%d, format=%d
+	|$HA
+    A
+ !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
+ '-46
+ (Camera
+ (Left Controller)
+ (Right Controller)
+ (does the path point to a directory?)
+ (libfound)
+ (noexist)
+ 9D$D
+ ;]X|
+ =RDHI
+ A^A]A\_^
+ A^_^
+ A_A\_
+ A_A]A\_^
+ A_A^A\
+ A_A^A\_^
+ A_A^A]A\_
+ A_A^A]A\_^]
+ A_A^]
+ A_A^^
+ A_A^_
+ A_A^_][
+ A_A^_^]
+ A_^[
+ A__[
+ A__^
+ H3E H3E
+ at line 
+ in Buffer
+ in `
+ sJE3
+!&.37<
+!(0)"
+!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
+" not found in the scene.
+"""""""
+"%/28;=#$019:>?
+". Must be "perspective" or "orthographic"
+"9k0t
+"accessors" object not found in .gltf
+"asset" object not found in .gltf or not an object type
+"bufferViews" object not found in .gltf
+"buffers" object not found in .gltf
+"nodes" object not found in .gltf
+"orthographic" is not a JSON object.
+"perspective" is not a JSON object.
+"scenes" object not found in .gltf or not an array type
+"spot" is not a JSON object.
+#*1892+$
+#9i0t
+#?RADIANCE
+#?RGBE
+#D9c0t
+#D9{0t
+#oculus_requested_quit
+$w!Hc
+%%.%dg
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%,3:;4-&
+%9k0t
+%9{0t
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%03u
+%s begin_ctx=%llu
+%s end_ctx=%llu
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&(z>)
+&9k0t
+&D9c0t
+&D9k0t
+&D9{0t
+' is not a number.
+' property is missing
+' property is missing in 
+' property is missing.
+' property is missing. 
+' property is not a JSON object.
+' property is not a bool type.
+' property is not a number type.
+' property is not a number.
+' property is not a positive integer.
+' property is not a string type.
+' property is not an array
+' property is not an integer type.
+' property is not an object.
+' value is not an integer type.
+'.5<=6/7>????????????????
+'9k0t
+'D9c0t
+'[', '{', or a literal
+'uri' is missing from non binary glTF file buffer.
+(A\^][
+(A\_^[
+(A^A]^[
+(A^A]_[
+(A_A^
+(A_A^^[
+(A_A^_[
+(A_A^_]
+(D$ H
+(D$ I
+(D$ f
+(D$0D
+(D$0H
+(D$0f
+(D$@H
+(D$PL
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
+(L$ D
+(L$`E
+(L$pL
+(T$ H
+(T$PD
+(Unable to load LibOVR)
+(d$pD
+(l$0L
+(t$ 2
+(t$ D
+(t$ H
+(t$0H
+(t$@H
+(t$@L
+(t$PD
+(t$PH
+(t$pD
+(t$pH
+(t$pL
+(t$pfD
+(|$ H
+(|$0H
+(|$0s
+(|$@D
+(|$PL
+(|$`D
+(|$`I
+(|$`M
+)9k0t
+)D$ L
+)D$0A
+)D$0D
+)D$0H
+)D$0fD
+)D$0s"L
+)D$0s'A
+)D$@A
+)D$PD
+)D$pI
+)L$ fD
+)L$P@
+)L$PL
+)L$pA
+)l$0D
+)t$ D
+)t$ H
+)t$0A
+)t$0H
+)t$@H
+)t$@f
+)t$Pf
+)t$pD
+)t$pH
+)t$pu.H
+)|$ D
+)|$ H
+)|$0E3
+)|$0f
+)|$@D
+)|$@f
+)|$PD
+)|$`D
+)|$`H
+)|$pf
+***** Reloading Shaders Begin
+***** Reloading Shaders End
+*uXI;
++o'q)}
+, binary size = 
+, but got 
+, column 
+, last executing in 
+, requestedBytes 
+,9k0t%H
+,9{0t%H
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
+-1003
+-1e+9999
+-3003
+-9k0t&H
+-9{0t%H
+-D9c0t%H
+-Infinity
+-startup
+-u-I;
+.00cfg
+.?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
+.?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
+.?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
+.?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AUBlendState@D3D11VRRenderer@@
+.?AUBlendStateBase@VRRenderer@@
+.?AUCFactoryMaker@CAnimFactoryBase@@
+.?AUConstantBuffer@D3D11VRRenderer@@
+.?AUConstantBufferBase@VRRenderer@@
+.?AUDepthStencilState@D3D11VRRenderer@@
+.?AUDepthStencilStateBase@VRRenderer@@
+.?AUEventQuery@D3D11VRRenderer@@
+.?AUEventQueryBase@VRRenderer@@
+.?AUGPUCountingSemaphore@D3D11VRRenderer@@
+.?AUGPUCountingSemaphoreBase@VRRenderer@@
+.?AUIndexBuffer@D3D11VRRenderer@@
+.?AUIndexBufferBase@VRRenderer@@
+.?AURasterizerState@D3D11VRRenderer@@
+.?AURasterizerStateBase@VRRenderer@@
+.?AUSampler@D3D11VRRenderer@@
+.?AUSamplerBase@VRRenderer@@
+.?AUTexture@D3D11VRRenderer@@
+.?AUTextureBase@VRRenderer@@
+.?AUToBase_t@Detail@Reflection@@
+.?AUVertexBuffer@D3D11VRRenderer@@
+.?AUVertexBufferBase@VRRenderer@@
+.?AU_Crt_new_delete@std@@
+.?AUinput_adapter_protocol@detail@nlohmann@@
+.?AV<lambda_6bc426c35396bdea5e49056f57d7ec5a>@@
+.?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
+.?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
+.?AV?$TypeInfoT@VCBoneMaskResource@@@Detail@Reflection@@
+.?AV?$TypeInfoT@VCKeyframedDataResource@@@Detail@Reflection@@
+.?AV?$TypeInfoT@VObject@Reflection@@@Detail@Reflection@@
+.?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@XAEBVValue@Json@@@std@@
+.?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6bc426c35396bdea5e49056f57d7ec5a>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
+.?AV?$_Ref_count_obj@Vinput_buffer_adapter@detail@nlohmann@@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVBinaryBlendPoseMaker@@
+.?AVBlendMatrix3x3PoseMaker@@
+.?AVCAnimResource@@
+.?AVCAnimSkeleton@@
+.?AVCBoneMaskResource@@
+.?AVCD3D11VRRenderer@@
+.?AVCHandPoseLogic_OculusTouch@@
+.?AVCKeyframedDataResource@@
+.?AVCNonCopyable@@
+.?AVCOVRRuntimeWindowThread@@
+.?AVCOculusCameraTransformDriver@@
+.?AVCOculusHmdLatest@@
+.?AVCOculusState@@
+.?AVCOculusTouchControllerDriver@@
+.?AVCRefCount@@
+.?AVCServerDriver_Oculus@@
+.?AVCSignalThread@@
+.?AVCThread@@
+.?AVCVRMailbox@@
+.?AVCVRMailboxBase@@
+.?AVException@Json@@
+.?AVIHandPoseLogic@@
+.?AVIOculusState@@
+.?AVIOculusTrackedDeviceDriver@@
+.?AVIServerTrackedDeviceProvider@vr@@
+.?AVIStatePoseMaker@@
+.?AVITrackedDeviceServerDriver@vr@@
+.?AVIVRDisplayComponent@vr@@
+.?AVIVRDriverDirectModeComponent@vr@@
+.?AVIVRRenderer@@
+.?AVLogicError@Json@@
+.?AVPassThroughPoseMaker@@
+.?AVRuntimeError@Json@@
+.?AVStaticPoseMaker@@
+.?AVStyledWriter@Json@@
+.?AVTypeInfo@Reflection@@
+.?AVUpdateThread@@
+.?AVWriter@Json@@
+.?AV_Facet_base@std@@
+.?AV_Pad@std@@
+.?AV_Ref_count_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@detail@nlohmann@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVinput_buffer_adapter@detail@nlohmann@@
+.?AVios_base@std@@
+.?AVout_of_range@detail@nlohmann@@
+.?AVparse_error@detail@nlohmann@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.D9c0t&H
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+/9{0t'H
+/input/a/click
+/input/a/touch
+/input/b/click
+/input/b/touch
+/input/gesture/pointing
+/input/gesture/thumb_rest
+/input/gesture/thumb_up
+/input/grip/value
+/input/joystick/click
+/input/joystick/touch
+/input/joystick/x
+/input/joystick/y
+/input/remote_back/click
+/input/remote_dpad/down/click
+/input/remote_dpad/enter/click
+/input/remote_dpad/left/click
+/input/remote_dpad/right/click
+/input/remote_dpad/up/click
+/input/skeleton/left
+/input/skeleton/right
+/input/system/click
+/input/tap/click
+/input/trigger/touch
+/input/trigger/value
+/input/x/click
+/input/x/touch
+/input/y/click
+/input/y/touch
+/output/haptic
+/pose/raw
+/proximity
+/skeleton/hand/left
+/skeleton/hand/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+0 width
+0-pixel image
+0A^_^
+0A_A^A\_^
+0A_A^A]A\^
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A_A^A]_^
+0A_A^^][
+0A_A^_
+0A_A^_^[
+0A_A^_^]
+0A__^
+0D9c0t'H
+0}0i1
+1/2/4/8/16-bit only
+11 4 22 44 44 22 444444
+130801120000Z
+160107120000Z
+1e+9999
+2.5.4.3
+210101000000Z
+210429000000Z
+211007000000Z
+220330231641Z0/
+2333333
+241009235959Z0a1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+310106000000Z0H1
+310107120000Z0r1
+360428235959Z0i1
+380115120000Z0b1
+3?9y>m0_D@H_
+3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6*f(_
+69k0t1
+6I]Dc
+6OB,n_
+6p7M=:P_:}u
+70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+7u;H;
+8A^A\
+8D$!t
+8D$#u
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8_^][
+8aMbF$
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+9C s.H
+9T$Pu9A
+9T$XJ
+9]pu2
+9k0t$H
+9k0t[D
+9k0t\D
+9k0t_D
+9k0tcH
+9l$Lt	E
+9|$0u
+: one or more FS callback not set
+:0806
+; expected 
+; last read: '
+;K sCH
+;K sUH
+;S sAH
+;S sDH
+< t+<
+</u#H
+<0:08
+<U+%.4X>
+<parse error>
+<uninitialized>
+<unknown>
+=7p7M}
+=ETLP
+=IBgC
+=SNRtt%
+=TADIt<=DNEI
+>Mp$d
+>W`.]tB3?
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??0_Lockit@std@@QEAA@H@Z
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1_Lockit@std@@QEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?@s#0?LD
+?POSITION
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?always_noconv@codecvt_base@std@@QEBA_NXZ
+?const unsigned int __cdecl Reflection::Object::MyTypeID(void)
+?ff&?
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+?u='?
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@.data
+@.reloc
+@.rsrc
+@8I+@0H
+@A\^]
+@A^A]A\[]
+@A^_^
+@A^_^][
+@A_A\]
+@A_A^A\
+@A_A^A\_^
+@A_A^A]A\_^[
+@A_A^A]_[
+@A_A^_
+@HcQdH
+@LcqHD
+@SATAUAVAWH
+@SAUAVAWH
+@SAWH
+@SUVATH
+@SUVAVAWH
+@SUVH
+@SUWATAVH
+@SUWAVAWH
+@SVAUAVH
+@SVAVAWH
+@SVAWH
+@SVWATAUAVAWH
+@SVWATAUAWH
+@SVWATAWH
+@SVWATH
+@SVWH
+@SWAUAVAWH
+@SWAVAWH
+@SWAWH
+@UATAUAVAWH
+@UATAWH
+@UAUAWH
+@UAUH
+@UAVH
+@USATAUAVH
+@USAUAVAWH
+@USVATAVH
+@USVAVH
+@USVH
+@USVWATAUAVH
+@USVWATAVAWH
+@USVWATH
+@USVWAUAVAWH
+@USVWAUAVH
+@USWATAWH
+@USWH
+@UVATAUAVH
+@UVATH
+@UVAUH
+@UWAVAWH
+@UWAVH
+@VAVAWH
+@VAVH
+@VWAVH
+@VWAWH
+@_RDATA
+@fff>fff>fff>fff>
+A valid JSON document must be either an array or an object value.
+A8~xt
+A9A A
+A9Q sEI
+A;Q s?I
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ADVAPI32.dll
+APH+AHH
+ASSERT: "%s" at %s:%d.
+ATAVAWH
+ATAVH
+ATAWH
+AVAWH
+A\_^[]
+A]A\^
+A]A\^[]
+A]_[]
+A^A\^
+A^A\^[]
+A^A\_
+A^A\_]
+A^A\_][
+A^A]A\^]
+A^A]A\_^[]
+A^A]_[]
+A^A]_^[]
+A^A]_^]
+A^_[]
+A_A\[]
+A_A\_
+A_A\_[]
+A_A\_][
+A_A\_^[
+A_A\_^]
+A_A]A\^[]
+A_A]A\_^[
+A_A]A\_^]
+A_A]]
+A_A]^]
+A_A]_[
+A_A]_[]
+A_A^A\
+A_A^A\_]
+A_A^A\_^[]
+A_A^A]
+A_A^A]A\]
+A_A^A]A\^
+A_A^A]A\_
+A_A^A]A\_^[
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^A]A\_^][
+A_A^A][
+A_A^A][]
+A_A^A]_]
+A_A^A]_^[]
+A_A^A]_^][
+A_A^]
+A_A^^
+A_A^_
+A_A^_^[]
+A_A^_^]
+A__[]
+Accessor
+Adobe
+AnimationChannel
+Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
+Array length of `emissiveFactor` parameter in material must be 3, but got 
+Asset
+AuthD
+BINORMAL
+BMP RLE
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Bellevue1
+Buffer
+BufferView
+C ;s@
+C @8{
+C D8s
+C D8{
+C(H9C0t
+C0L9$
+C8H+C0H
+CAnimResource
+CBoneMaskResource
+CD$03
+CD$@3
+CD3D11VRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle
+CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.
+CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to import GPU counting shared semaphore.
+CD3D11VRRenderer::Initialize(): Failed to create compute shader %s!
+CD3D11VRRenderer::Initialize(): Failed to create input layout for vertex shader %s!
+CD3D11VRRenderer::Initialize(): Failed to create pixel shader %s!
+CD3D11VRRenderer::Initialize(): Failed to create vertex shader %s!
+CD3D11VRRenderer::Initialize(): Failed to load compute shader %s! (size=%d)
+CD3D11VRRenderer::Initialize(): Failed to load pixel shader %s! (size=%d)
+CD3D11VRRenderer::Initialize(): Failed to load vertex shader %s! (size=%d)
+CD3D11VRRenderer::Signal
+CD3D11VRRenderer::UnampTexture: dangling data pointer
+CKeyframedDataResource
+CL$0A
+CL$0H
+CL$PH
+COLOR
+COculusHmdLatest::UpdateThread
+CT$ H
+CT$pH
+C\$0D
+C\$0H
+C\$0L
+C\$0L9%
+C\$0M
+C\$PE
+C\$PH
+C\$PL
+C\$PM
+C\$pL
+Camera
+CertGetNameStringW
+Chaperone updated with universe ID %d
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+CloseHandle
+CreateDXGIFactory1
+CreateEventA
+CreateEventW
+CreateFileW
+CreateSession was invoked without calling DestroySession, textures may have been leaked.
+CreateThread
+C|$PL
+D$ A;
+D$ E3
+D$ E;
+D$ H+]
+D$ H;
+D$ HcH
+D$ fE
+D$ ff
+D$$E3
+D$(@88
+D$(H+
+D$(H+]
+D$(H;
+D$(Hi
+D$(I+
+D$(I;
+D$(L;D$PtVI
+D$,D;l$8
+D$,I+
+D$0E+
+D$0E3
+D$0H+
+D$0H9Q
+D$0H;
+D$0H;D$Pt
+D$0L;D$htVI
+D$0fD
+D$0fff
+D$0tx
+D$4I;
+D$8H;
+D$8I;
+D$8L+
+D$@E3
+D$@H9Q
+D$@H9Q@t
+D$@H9S@t
+D$@L;
+D$@fA
+D$HE3
+D$HHi
+D$PH9Q
+D$PH;
+D$PI;
+D$PM;
+D$PMc
+D$PfA
+D$TI;
+D$XA#
+D$XH+
+D$XH9D$8
+D$XH9Q
+D$XHc
+D$`H9D$@
+D$`H;
+D$`HcH
+D$`I;
+D$`L;
+D$`fI
+D$hH9D$H
+D$hH;
+D$pE3
+D$pH;
+D$pHcH
+D$pI;
+D$pL;
+D$xH+
+D$xHc
+D3D11CreateDevice
+D8$0u
+D8$3u
+D8,8u
+D8d$P
+D8fht/H
+D8o)tJ
+D8o)tU
+D90uGH
+D9@ s
+D9H s
+D9c0t
+D9c0t)H
+D9d$Lt
+D9w u
+D9x s
+D9{0t
+D9{0t'H
+D9{0t?H
+D9{0tZD
+D;A s
+D;I s
+D;l$0
+D;v(s
+D;z s
+D;}Tr
+Default audio playback device: %s
+Default audio recording device: %s
+DeleteCriticalSection
+Detected new Oculus Touch controller: %d/%d
+Detected new Oculus tracker: %d
+DigiCert Assured ID Root CA0
+DigiCert Inc1
+DigiCert Timestamp 20210
+DigiCert Trusted Root G40
+DigiCert, Inc.1 0
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+DuplicateHandle
+E H9Q
+E0H+E(H
+E;u`|
+ERROR: Failed to dup handle!
+E`HcH
+EgH9Q@t
+EgH9S@t
+Empty escape sequence in string
+Empty file.
+EnterCriticalSection
+Error! EventWriteString Severe: %s
+EventRegister
+EventUnregister
+EventWrite
+EventWriteString
+Exceeded stackLimit in readValue().
+ExpandEnvironmentStringsA
+FORMAT=32-bit_rle_rgbe
+FS callback[s] not set
+Failed CreateTexture2D with 0x%X
+Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
+Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
+Failed to convert guardian data to chaperone
+Failed to create DepthStencilView for texture %s
+Failed to create RTV for texture
+Failed to decode 'uri' : 
+Failed to decode 'uri' for image[
+Failed to get default audio playback device
+Failed to get default audio recording device
+Failed to initalize OVR direct mode support.
+Failed to initialize Oculus Touch controller driver with unsupported hand type %d
+Failed to initialized Oculus device
+Failed to load external 'uri' for image[
+Failed to open oculus_hmd mailbox (%d)
+Failed to parse JSON object
+Failed to parse `bufferView` for image[
+Failed to parse `uri` for image[
+Failed to read file: 
+Failed to send mailbox message (%d)
+Failed to set thread %p priority: invalid priority %d
+Failed to start update thread
+Failed to update guardian data
+File is empty : 
+File not found : 
+File open error : 
+File open error for writing : 
+File read error : 
+File size mismatch : 
+File write error: 
+Forcing chaperone update
+Found path: 
+FreeLibrary
+G(M+G I
+G8$1u
+GPUCountingSemaphore::Signal(%llu)
+GPUCountingSemaphore::Signal(%llu) FAILED!!
+GPUCountingSemaphore::Wait(%llu)
+GPUCountingSemaphore::Wait(%llu) FAILED!!
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetDriveTypeA
+GetEnvironmentVariableA
+GetExitCodeThread
+GetFullPathNameW
+GetLastError
+GetModuleHandleA
+GetModuleHandleW
+GetProcAddress
+GetProcessHeap
+GetSystemTime
+GetSystemTimeAsFileTime
+GetTickCount64
+Graphics LUID changed
+Guardian changed, updating chaperone
+H SVWH
+H SWH
+H!C@H
+H+C H;
+H+C0H
+H+L$0H
+H+SpI
+H+WpA
+H+WpH
+H+WpI
+H93t	H
+H9Ahs
+H9D$@
+H9D$@u
+H9D$P
+H9E8u$H
+H9Qhv#H
+H9UPt
+H;0u8H
+H;0u:H
+H;9u|A
+H;C(v
+H;Cxu
+H;H r
+H;H s
+H;S8r
+H;Y t
+H;\$X
+H;\$h
+H;_ t+H
+H;_ t,H
+H;_ u
+H;s(r
+H;t$`
+H;{XH
+H;|$0t
+H;|$Pt
+H;|$X
+H;|$Xt
+H;|$`
+H;|$x
+H;}PtwH
+HA^_^[
+HMD no longer present
+HcB Hi
+HcC H
+HcD$ H
+HcD$x
+HcF$H
+HcFdH
+HcOXH
+Hct$@L+
+HeapAlloc
+HeapFree
+Hmd not found.
+HmdDriverFactory
+Hu"Hc
+I(+K H
+I(I+I H
+I+M0H
+I+M0I
+I0G08
+I9<$u
+I9Bhs
+I;4$H
+I;4$L
+I;8u?H
+I;V8r
+ID3D11DeviceContext4::Signal
+IDATH
+IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_005
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRCameraComponent_003
+IVRChaperoneInternal_001
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorPluginProvider_001
+IVRCompositorSystemInternal_001
+IVRControlPanel_006
+IVRDebug_001
+IVRDisplayComponent_002
+IVRDriverDirectInternal_XXX
+IVRDriverDirectModeComponent_008
+IVRDriverInput_003
+IVRDriverLog_001
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRInputInternal_002
+IVRInput_010
+IVRMailbox_002
+IVROverlayInternal_XXX
+IVROverlay_025
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRServerDriverHost_006
+IVRServer_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+IVRVirtualDisplay_002
+IVRWatchdogProvider_001
+I\$(H
+IcV E3
+IcV H
+IcV0E3
+Image data is empty for image[
+Image height mismatch. for image[
+Image width mismatch for image[
+Index Controller CreateSkeletonComponent failed.  Error: %i
+Infinity
+InitDirectMode: DX11 level hardware required!
+InitDirectMode: Failed to create D3D11 device! (err=%u)
+InitDirectMode: Failed to start signal thread!
+Initialization failed due to an invalid Oculus state.
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Initialized Oculus device %s
+Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
+Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
+Invalid `componentType` in accessor. Got 
+Invalid binary data in `Buffer'.
+Invalid camera type: "
+Invalid file size : 
+Invalid glTF binary.
+Invalid image data for image[
+Invalid magic.
+IsDebuggerPresent
+IsDepthFormat( eTextureFormatConcrete )
+IsProcessorFeaturePresent
+J>@G_
+JSON string too short.
+KERNEL32.dll
+KHR_lights_punctual
+K}*n:	
+L$ E3
+L$ H;
+L$ Hc
+L$ HcQ
+L$ I;
+L$ L;
+L$ SH
+L$ SUVWAVH
+L$ SUVWH
+L$ SVWH
+L$ SWH
+L$ UWAUAVAWH
+L$"H;
+L$$H;
+L$$Ic
+L$(E3
+L$(H9U
+L$(H;
+L$0E3
+L$0fE
+L$4D;
+L$89s(udL
+L$8A+
+L$8D;
+L$8H;
+L$8H;L$0
+L$8L;
+L$@D8	u
+L$@D;
+L$@E3
+L$@H;
+L$@L+
+L$@fD
+L$HI+
+L$HI9T$Xt
+L$PE3
+L$PH3
+L$XE3
+L$XM+
+L$\E3
+L$`E3
+L$`fD
+L$pE2
+L$pE3
+L$pHcQ
+L95:Z
+L9k8v
+L9t$@
+L9|$p
+L;8u6H
+L;D$x
+L;l$P
+L;l$p
+L;t$h
+L<pL;
+L?n(Zy&
+LINEAR
+Lc E3
+LcD$0L
+Lcl$$I
+LeaveCriticalSection
+LibOVRRT64_1.dll
+LoadLibraryA
+LoadLibraryW
+LocalizationManager
+M H1E
+M$#0]
+M98u/
+MB(iVR
+MSVCP140.dll
+MS_:F
+MT$dA
+MainThrd
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+N I9N(
+N0H9Q
+NORMAL
+NPH9Q
+Neither required `bufferView` nor `uri` defined for image[
+No LoadImageData callback specified.
+No valid guardian bounds. Creating standing chaperone
+NormalTextureInfo
+Not writing %s because the texture was null
+OPAQUE
+OVR Runtime Init
+OVR runtime requested recenter
+OVRRuntimeWindowThread
+OVRSignalThread
+OVRSignalThread thread ending
+Object
+Oculus
+Oculus API has been in a failure state for at least %d ms, requesting disconnect/reconnect.
+Oculus Touch controller driver rejected by vrserver
+Oculus device attached but Oculus service does not report it. The Oculus link has probably not been manually enabled.
+Oculus device attached but the Oculus service is uninstalled or not running.
+Oculus driver requested quit.
+Oculus driver requires restart for bad LUID.
+Oculus remote %s %s.
+Oculus service not running.
+Oculus session was recreated but display is still lost.
+Oculus touch %s controller state %s.
+Oculus tracker %s %s.
+Oculus tracker driver rejected by vrserver
+Oculus\Support\oculus-runtime
+Only one of `bufferView` or `uri` should be defined, but both are defined for image[
+OpenEventW
+OpenProcess
+Orhographic camera description not found.
+OrthographicCamera
+Out of thread local storage!
+PA^_^
+PA^_^][
+PA_A]A\_^
+PA_A^A\^]
+PA_A^A]A\[
+PA_A^A]A\]
+PA_A^A]A\_^[
+PA_A^A]A\_^]
+PA_A^_
+PA_A^_^]
+PAq=?Mp#
+Path_Exists( absFilePath )
+Perspective camera description not found.
+PerspectiveCamera
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Primitive
+Program Files
+Pz}b!
+QJxy6z'
+Qkkbal
+QueryPerformanceCounter
+QueryPerformanceFrequency
+R$fE;B*
+RPCRT4.dll
+RYxm^
+RaiseException
+ResetEvent
+RlK8`K8
+RootNode
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S8H+S0H
+SATAUAVAWH
+SA|X=G
+SCALAR
+SDL2.dll
+SDL_CreateWindow
+SDL_DestroyWindow
+SDL_WaitEventTimeout
+SETUPAPI.dll
+SPB8t
+SPB8u,
+SUVWATAUAVAWH
+SUVWATAVH
+SUVWAUAVAWH
+SUVWAVH
+SUVWH
+SUWATAWH
+SVWATAUAVAWH
+SVWAVAWH
+SVWAVH
+SWAUAVH
+SWAUAWH
+SearchPathW
+Session created!
+Set thread %p priority to: %d
+SetEnvironmentVariableA
+SetEvent
+SetThreadPriority
+SetUnhandledExceptionFilter
+SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInterfaces
+SetupDiGetClassDevsA
+SetupDiGetDeviceInterfaceDetailA
+Sleep
+SleepConditionVariableCS
+Spot light description not found.
+Syntax error: value, object or array expected.
+SystemTimeToFileTime
+T$ E3
+T$ H;
+T$ I;
+T$ fD
+T$$I+
+T$(H9T$0t!H
+T$0fA
+T$8;T$<
+T$@H;
+T$@Hc
+T$@I;
+T$@L;
+T$HH;
+T$PL;
+T$PM;
+T$XA#
+T$XH;
+T$pD;
+T$pL;
+T$xH;
+T$xL;
+TANGENT
+TEXCOORD
+TUUUUUU
+TdhEnumerateManifestProviderEvents
+Temp Window to disable SW_HIDE
+TerminateProcess
+TextureInfo
+This is not a D3D11 object
+This is not a Vulkan object
+Thread exited immediately
+Thread failed to initialize 1
+Thread failed to initialize 2
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Too short data size for glTF Binary.
+Tp=9y>m0_D@H_
+U0H9U8t
+UATAUAVAWH
+UAVAWH
+UNNAMED
+USATAWH
+USATH
+USVATAUAWH
+USVATAUH
+USVWATAUAVAWH
+USVWATAUAVH
+USVWAVAWH
+USVWAVAWI
+USWAUAVH
+USWAUAWH
+USWAUH
+USWAVH
+USWAWH
+UUUUUUU
+UVATAVAWH
+UVAUAWH
+UVAVH
+UVWATAUAVAWH
+UVWATAUAWH
+UVWATAWH
+UVWAUAVH
+UVWAVAWH
+UWATAVAWH
+UWATAVH
+UWAVH
+UWAWH
+Unable to create texture set for pid %u: %s
+Unable to destroy %d swap textures due to invalid session
+Unable to init Oculus Touch controller
+Unable to init Oculus tracker
+Unable to load LibOVRRT DLL
+Unable to locate LibOVRRT symbol: 
+Unable to write chaperone info to %s
+UnhandledExceptionFilter
+Unknown exception
+Unknown image format. STB cannot decode image data for image[
+Unknown(%u, %u)
+Unsupported `type` for accessor object. Got "
+UpdateThrottling
+UuidFromStringA
+V3"/"6
+VATAUAVAWH
+VATAUH
+VATAVH
+VAVAWH
+VCRUNTIME140.dll
+VRInitError_VendorSpecific_OculusRuntimeBadInstall 
+VR_CONFIG_PATH
+VR_LOG_PATH
+VR_OVERRIDE
+VWATAUAWH
+VWATAVAWH
+VWAUAVAWH
+VWAVH
+VWAWH
+V_~]	,
+Valve Corp.0
+Valve Corp.1
+VirtualDesktop.LibOVRRT64_1.dll
+W-(O	
+WATAUAVAWH
+WAVAWH
+WINMM.dll
+WTHelperGetProvSignerFromChain
+WTHelperProvDataFromStateData
+WaitForSingleObject
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning: Watchdog %s not properly cleaned up%s%s
+Washington1
+WinVerifyTrust
+X UVWH
+X%R4	
+X-E3	
+XA^^[]
+XXXX PNG chunk not known
+Y9"SD
+Z9k0tUD
+ZL$Xf
+[K]taM?
+[OVRSignalThread] Wait
+[OculusDirect] !!!! AcquireSync FAILED with E_FAIL
+[OculusDirect] !!!! AcquireSync FAILED with WAIT_ABANDONED
+[OculusDirect] !!!! AcquireSync FAILED with WAIT_TIMEOUT
+[OculusDirect] !!!! AcquireSync FAILED with unknown hr
+[OculusDirect] !!!! ReleaseSync FAILED with E_FAIL
+[OculusDirect] !!!! ReleaseSync FAILED with unknown hr
+[OculusDirect] PostPresent:%lli th=%d pr=%d(%d)
+[OculusDirect] ReleaseSync
+[OculusDirect] Vsync: %.2f(%.2f) th=%d pf=%d qa=%.2fms pt=%.2f asw=%d
+[OculusDirect] ovr_BeginFrame:%lli
+[OculusDirect] ovr_EndFrame:%lli
+[OculusDirect] ovr_WaitToBeginFrame:%lli
+[json.exception.
+\$ E3
+\$ H;
+\$ I;
+\$ UATAUAVAWH
+\$ UAVAWH
+\$ UH
+\$ UVAVH
+\$ UVWATAUAVAWH
+\$ UWATH
+\$ UWAVH
+\$ VH
+\$ WH
+\$(H9V
+\$(H;
+\$(HcC
+\$0H;
+\$0I+
+\$8D;
+\$8H;
+\$8I+
+\$8I9\$@tGH
+\$@H;
+\$HH9Q
+\$HH;
+\$PH;
+\$PI;
+\$PfD
+\$XI;
+\$XLc
+\$`E3
+\$`H+
+\$hH;
+\$hI;
+\$pI;
+\$pfD
+\$xH;
+\u=H;
+\|$`D
+] buffer "
+] bufferView "
+] invalid bufferView
+] is not a JSON object.
+] name = "
+] name = [
+]5sD	
+]9k0tVD
+]J<0"0i3
+][OculusDirect] AquireSync
+]g@8yhu
+^9k0tWD
+_Camera
+_Cnd_destroy
+_Cnd_destroy_in_situ
+_Cnd_do_broadcast_at_thread_exit
+_Cnd_init
+_Cnd_init_in_situ
+_Cnd_signal
+_Cnd_wait
+_Controller_Left
+_Controller_Right
+_CxxThrowException
+_D9c0tWD
+_D9k0tWD
+_D9s0tWD
+_D9w0tWD
+_Mtx_destroy
+_Mtx_destroy_in_situ
+_Mtx_init
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Query_perf_counter
+_Query_perf_frequency
+_RDATA
+_Thrd_id
+_Thrd_join
+_Thrd_sleep
+_Thrd_start
+_Xtime_get_ticks
+__C_specific_handler
+__CxxFrameHandler3
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vsnprintf_s
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vswprintf
+_aligned_free
+_aligned_malloc
+_aligned_realloc
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_errno
+_execute_onexit_table
+_fseeki64
+_gUT^
+_get_stream_buffer_pointers
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo
+_invalid_parameter_noinfo_noreturn
+_lCI	
+_localtime64
+_lock_file
+_mbsstr
+_purecall
+_register_onexit_function
+_seh_filter_dll
+_stricmp
+_unlock_file
+_wfopen_s
+_wgetenv_s
+_wstat64i32
+` UAVAWH
+`.rdata
+`A_A^A]A\_^[
+`A_A^A]A\_^]
+`A__^
+`accessors' does not contain an JSON object.
+`animations' does not contain an JSON object.
+`bufferViews' does not contain an JSON object.
+`buffers' does not contain an JSON object.
+`cameras' does not contain an JSON object.
+`input` field is missing in animation.sampler
+`materials' does not contain an JSON object.
+`meshes' does not contain an JSON object.
+`node` field is missing in animation.channels.target
+`nodes' does not contain an JSON object.
+`output` field is missing in animation.sampler
+`path` field is missing in animation.channels.target
+`sampler` field is missing in animation channels
+`samplers' does not contain an JSON object.
+`scenes' does not contain an JSON object.
+`skins' does not contain an JSON object.
+`textures' does not contain an JSON object.
+abort
+accessor[
+accessors
+acosf
+additional six characters expected to parse unicode surrogate pair.
+alphaCutoff
+alphaMode
+animations
+anims
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-multibyte-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+array
+aspectRatio
+assert json failed
+asset
+attributes
+bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
+bad AC huff
+bad APP len
+bad BMP
+bad COM len
+bad DC huff
+bad DHT header
+bad DNL height
+bad DNL len
+bad DQT table
+bad DQT type
+bad DRI len
+bad H
+bad IHDR len
+bad Image Descriptor
+bad SOF len
+bad SOS
+bad SOS component count
+bad SOS len
+bad TQ
+bad V
+bad allocation
+bad array new length
+bad bpp
+bad cast
+bad code lengths
+bad codelengths
+bad comp method
+bad component count
+bad compression
+bad conversion
+bad ctype
+bad dist
+bad file
+bad filter method
+bad format
+bad huffman code
+bad interlace method
+bad masks
+bad palette
+bad png sig
+bad req_comp
+bad sizes
+bad tRNS len
+bad zlib header
+baseColorFactor
+baseColorTexture
+bonemask_grip.txt
+bonemask_index.txt
+bonemask_indexcurl.txt
+bonemask_indexnocarpal.txt
+bonemask_middle.txt
+bonemask_middlenocarpal.txt
+bonemask_thumb.txt
+buffer
+bufferView
+bufferViews
+buffers
+byteLength
+byteOffset
+byteStride
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
+camera
+cameras
+can't merge dc and ac
+channels
+chaperone_info
+children
+collision_bounds
+color
+componentType
+connected
+const unsigned int __cdecl CAnimResource::MyTypeID(void)
+const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
+const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
+corrupt
+count
+d$ H;
+d$ UAVAWH
+d$$E3
+d$(E3
+d$(Hi
+d$(M;
+d$<Mc
+d$HMc
+d$PE3
+d$PfD
+d$`H=
+d$`L;
+d$`fD
+d$bHc
+d3d11.dll
+data:application/gltf-buffer;base64,
+data:application/octet-stream;base64,
+data:image/bmp;base64,
+data:image/gif;base64,
+data:image/jpeg;base64,
+data:image/png;base64,
+data:text/plain;base64,
+deque<T> too long
+disconnected
+dk2_camera
+doubleSided
+driver_oculus.dll
+driver_oculus.vrchap
+dwc_#Ri
+dxgi.dll
+eCS < CS_Count
+ePS < PS_Count
+eVS < VS_Count
+effffff
+emissiveFactor
+emissiveTexture
+end of input
+expected marker
+expecting another \u token to begin the second half of a unicode surrogate pair
+extensions
+extensionsRequired
+extensionsUsed
+extras
+fD9	u
+false
+false literal
+fclose
+fflush
+fgetc
+fgetpos
+first not IHDR
+fnVa')
+fopen_s
+fputc
+fputs
+fread
+fseek
+fsetpos
+fwrite
+g9k0t_D
+generator
+gfffffffH
+gfffffffH+
+gfffffffI
+hand_right_poses.glb
+handlers
+headset
+height
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+https://www.digicert.com/CPS0
+ig@-?e
+illegal code in raster
+image/bmp
+image/gif
+image/jpeg
+image/png
+image[
+images
+in Json::Value::clear(): requires complex value
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resize(): requires arrayValue
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+index
+indices
+innerConeAngle
+input
+intensity
+interpolation
+invalid
+invalid BOM; must be 0xEF 0xBB 0xBF if given
+invalid PLTE
+invalid decoded scanline length
+invalid filter
+invalid literal
+invalid number; expected '+', '-', or digit after exponent
+invalid number; expected digit after '-'
+invalid number; expected digit after '.'
+invalid number; expected digit after exponent sign
+invalid string position
+invalid string: '\u' must be followed by 4 hex digits
+invalid string: control character U+0000 (NUL) must be escaped to \u0000
+invalid string: control character U+0001 (SOH) must be escaped to \u0001
+invalid string: control character U+0002 (STX) must be escaped to \u0002
+invalid string: control character U+0003 (ETX) must be escaped to \u0003
+invalid string: control character U+0004 (EOT) must be escaped to \u0004
+invalid string: control character U+0005 (ENQ) must be escaped to \u0005
+invalid string: control character U+0006 (ACK) must be escaped to \u0006
+invalid string: control character U+0007 (BEL) must be escaped to \u0007
+invalid string: control character U+0008 (BS) must be escaped to \u0008 or \b
+invalid string: control character U+0009 (HT) must be escaped to \u0009 or \t
+invalid string: control character U+000A (LF) must be escaped to \u000A or \n
+invalid string: control character U+000B (VT) must be escaped to \u000B
+invalid string: control character U+000C (FF) must be escaped to \u000C or \f
+invalid string: control character U+000D (CR) must be escaped to \u000D or \r
+invalid string: control character U+000E (SO) must be escaped to \u000E
+invalid string: control character U+000F (SI) must be escaped to \u000F
+invalid string: control character U+0010 (DLE) must be escaped to \u0010
+invalid string: control character U+0011 (DC1) must be escaped to \u0011
+invalid string: control character U+0012 (DC2) must be escaped to \u0012
+invalid string: control character U+0013 (DC3) must be escaped to \u0013
+invalid string: control character U+0014 (DC4) must be escaped to \u0014
+invalid string: control character U+0015 (NAK) must be escaped to \u0015
+invalid string: control character U+0016 (SYN) must be escaped to \u0016
+invalid string: control character U+0017 (ETB) must be escaped to \u0017
+invalid string: control character U+0018 (CAN) must be escaped to \u0018
+invalid string: control character U+0019 (EM) must be escaped to \u0019
+invalid string: control character U+001A (SUB) must be escaped to \u001A
+invalid string: control character U+001B (ESC) must be escaped to \u001B
+invalid string: control character U+001C (FS) must be escaped to \u001C
+invalid string: control character U+001D (GS) must be escaped to \u001D
+invalid string: control character U+001E (RS) must be escaped to \u001E
+invalid string: control character U+001F (US) must be escaped to \u001F
+invalid string: forbidden character after backslash
+invalid string: ill-formed UTF-8 byte
+invalid string: missing closing quote
+invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
+invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
+invalid vector<T> subscript
+inverseBindMatrices
+isalnum
+ix`fA
+j0h02
+jj@0HK4
+joints
+jsonid
+k0i0$
+l$ ATAVAWH
+l$ E3
+l$ H;
+l$ H=
+l$ VATAUAVAWH
+l$ VH
+l$ VWATAUAVH
+l$ VWAVH
+l$ VWAWH
+l$ WATAWH
+l$ WAVAWH
+l$ WAVHc|$8I
+l$ WH
+l$ fI
+l$(E3
+l$0A^_
+l$0E3
+l$4H;
+l$8E3
+l$8M;
+l$@H;
+l$@t^
+l$PI;
+l$PM9n
+l$TD;
+l$XH;
+l$pL;l$P
+l$xLc
+ldexp
+left_controller
+lights
+list<T> too long
+localeconv
+m0k0$
+m_frameInfo.nFramesToThrottleApp == 0
+m_pidCache.empty()
+m_ulHandle != vr::k_ulInvalidMailbox
+magFilter
+malloc
+map/set<T> too long
+material
+materials
+matrix
+max value > 255
+memchr
+memcmp
+memcpy
+memmove
+memset
+meshes
+message_id
+metallicFactor
+metallicRoughnessTexture
+mimeType
+minFilter
+minVersion
+missing color table
+multiple IHDR
+n0_D@
+no IDAT
+no PLTE
+no SOF
+no SOI
+no clear code
+no header height
+no preset dict
+nodes
+normalTexture
+normalized
+not BMP
+not GIF
+not HDR
+not PSD
+not enough pixels
+ntelD
+null literal
+number literal
+number overflow parsing '
+o@@fD
+oD$ fD
+oD$0f
+oD$0fD
+oL$ f
+oT$0f
+object
+object key
+object separator
+occlusionTexture
+oculus
+oculus/
+oculus_cv1_controller_left
+oculus_cv1_controller_right
+oculus_hmd
+oculus_quest2_controller_left
+oculus_quest2_controller_right
+oculus_quest_controller_left
+oculus_quest_controller_right
+oculus_rifts_controller_left
+oculus_rifts_controller_right
+oculus_touch
+only 8-bit
+orthographic
+ot$Pf
+out_of_range
+outerConeAngle
+outofdata
+outofmem
+output
+output buffer limit
+ovrHmd_Create failed(%d)
+ovr_BeginFrame
+ovr_BeginFrame(%d) failed: [%d] %s
+ovr_ClearShouldRecenterFlag
+ovr_CommitTextureSwapChain
+ovr_CommitTextureSwapChain(%d) failed: %s
+ovr_Create
+ovr_CreateMirrorTextureDX
+ovr_CreateMirrorTextureGL
+ovr_CreateMirrorTextureWithOptionsDX
+ovr_CreateMirrorTextureWithOptionsGL
+ovr_CreateMirrorTextureWithOptionsVk
+ovr_CreateTextureSwapChainDX
+ovr_CreateTextureSwapChainGL
+ovr_CreateTextureSwapChainVk
+ovr_Destroy
+ovr_DestroyMirrorTexture
+ovr_DestroyTextureSwapChain
+ovr_EnableExtension
+ovr_EndFrame
+ovr_EndFrame(%d) failed: %s
+ovr_GetAudioDeviceInGuid
+ovr_GetAudioDeviceInGuidStr
+ovr_GetAudioDeviceInWaveId
+ovr_GetAudioDeviceOutGuid
+ovr_GetAudioDeviceOutGuidStr
+ovr_GetAudioDeviceOutWaveId
+ovr_GetBool
+ovr_GetBoundaryDimensions
+ovr_GetBoundaryGeometry
+ovr_GetBoundaryVisible
+ovr_GetConnectedControllerTypes
+ovr_GetControllerVibrationState
+ovr_GetDeviceExtensionsVk
+ovr_GetDevicePoses
+ovr_GetExternalCameras
+ovr_GetFloat
+ovr_GetFloatArray
+ovr_GetFovStencil
+ovr_GetFovTextureSize
+ovr_GetHmdColorDesc
+ovr_GetHmdDesc
+ovr_GetInputState
+ovr_GetInstanceExtensionsVk
+ovr_GetInt
+ovr_GetLastErrorInfo
+ovr_GetMirrorTextureBufferDX
+ovr_GetMirrorTextureBufferGL
+ovr_GetMirrorTextureBufferVk
+ovr_GetPerfStats
+ovr_GetPerfStats(%d) failed: %s
+ovr_GetPredictedDisplayTime
+ovr_GetRenderDesc2
+ovr_GetSessionPhysicalDeviceVk
+ovr_GetSessionStatus
+ovr_GetString
+ovr_GetTextureSwapChainBufferDX
+ovr_GetTextureSwapChainBufferGL
+ovr_GetTextureSwapChainBufferVk
+ovr_GetTextureSwapChainCurrentIndex
+ovr_GetTextureSwapChainDesc
+ovr_GetTextureSwapChainLength
+ovr_GetTimeInSeconds
+ovr_GetTouchHapticsDesc
+ovr_GetTrackerCount
+ovr_GetTrackerDesc
+ovr_GetTrackerPose
+ovr_GetTrackingOriginType
+ovr_GetTrackingState
+ovr_GetVersionString
+ovr_IdentifyClient
+ovr_Initialize
+ovr_Initialize failed with ovrErrorType %d
+ovr_Initialize failed with ovrErrorType %d - %s
+ovr_Initialize never called
+ovr_Initialize second attempt failed with ovrErrorType %d - %s
+ovr_IsExtensionSupported
+ovr_Lookup
+ovr_RecenterTrackingOrigin
+ovr_ReportClientInfo
+ovr_RequestBoundaryVisible
+ovr_ResetBoundaryLookAndFeel
+ovr_ResetPerfStats
+ovr_SetBool
+ovr_SetBoundaryLookAndFeel
+ovr_SetClientColorDesc
+ovr_SetControllerVibration
+ovr_SetExternalCameraProperties
+ovr_SetFloat
+ovr_SetFloatArray
+ovr_SetInt
+ovr_SetString
+ovr_SetSynchronizationQueueVk
+ovr_SetTrackingOriginType
+ovr_SetTrackingOriginType failed with ovrErrorType %d - %s
+ovr_Shutdown
+ovr_SpecifyTrackingOrigin
+ovr_SubmitControllerVibration
+ovr_SubmitFrame failed: Disconnected
+ovr_SubmitFrame2
+ovr_TestBoundary
+ovr_TestBoundaryPoint
+ovr_TraceMessage
+ovr_WaitToBeginFrame
+ovr_WaitToBeginFrame(%d) failed: %s
+p WATAVH
+p$D+;
+pA^^]
+pA_A^A]A\[
+pA_A^A]A\_^[
+pA_A^A]A\_^]
+pA_A^^
+pA_A^_
+pA_A^_^]
+pNewResource
+pNewResource->Load( absFilePath )
+parameter must be a string or number / number array.
+parse error
+parse_error
+pbrMetallicRoughness
+perspective
+pid_%04x
+play_area
+primitive indices accessor out of bounds
+primitives
+quest
+rND9{0t
+range
+read past buffer
+realloc
+request_handlers
+request_handlers_response
+returnAddress
+rift_camera
+rifts
+right_controller
+rotation
+roughnessFactor
+roundf
+s fff
+sampler
+samplers
+scale
+scene
+scenes
+seated_position_reset
+setvbuf
+shaders/d3d11/distort_cs.fxo
+shaders/d3d11/distort_cs_mc.fxo
+shaders/d3d11/distort_geom_aa_circles_ps.fxo
+shaders/d3d11/distort_geom_aa_circles_vs.fxo
+shaders/d3d11/distort_geom_aa_lines_ps.fxo
+shaders/d3d11/distort_geom_aa_lines_vs.fxo
+shaders/d3d11/distort_geom_aa_quads_ps.fxo
+shaders/d3d11/distort_geom_aa_quads_vs.fxo
+shaders/d3d11/distort_geom_constant_ps.fxo
+shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_curved_vs.fxo
+shaders/d3d11/distort_geom_floor_ps.fxo
+shaders/d3d11/distort_geom_fresnel_ps.fxo
+shaders/d3d11/distort_geom_fresnel_vs.fxo
+shaders/d3d11/distort_geom_grid_ps.fxo
+shaders/d3d11/distort_geom_grid_vs.fxo
+shaders/d3d11/distort_geom_hard_bounds_aa_lines_ps.fxo
+shaders/d3d11/distort_geom_hard_bounds_aa_lines_vs.fxo
+shaders/d3d11/distort_geom_hard_bounds_aa_squares_ps.fxo
+shaders/d3d11/distort_geom_hard_bounds_aa_squares_vs.fxo
+shaders/d3d11/distort_geom_horizon_ps.fxo
+shaders/d3d11/distort_geom_ltc_ps.fxo
+shaders/d3d11/distort_geom_motes_ps.fxo
+shaders/d3d11/distort_geom_motes_vs.fxo
+shaders/d3d11/distort_geom_multitap_ps.fxo
+shaders/d3d11/distort_geom_pbr_ps.fxo
+shaders/d3d11/distort_geom_ps.fxo
+shaders/d3d11/distort_geom_ptnorm_curved_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_ptnorm_curved_vs.fxo
+shaders/d3d11/distort_geom_ptnorm_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_ptnorm_vs.fxo
+shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
+shaders/d3d11/distort_geom_reflect_ps.fxo
+shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
+shaders/d3d11/distort_geom_simplified_ps.fxo
+shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
+shaders/d3d11/distort_geom_tan_vs.fxo
+shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_vignette_ps.fxo
+shaders/d3d11/distort_geom_vignette_vs.fxo
+shaders/d3d11/distort_geom_vs.fxo
+shaders/d3d11/distort_none_ps.fxo
+shaders/d3d11/distort_none_ps_gamma.fxo
+shaders/d3d11/distort_none_ps_layered.fxo
+shaders/d3d11/distort_none_vs.fxo
+shaders/d3d11/distort_panorama_dome_ps.fxo
+shaders/d3d11/distort_panorama_dome_radius_ps.fxo
+shaders/d3d11/distort_panorama_ps.fxo
+shaders/d3d11/distort_panorama_vs.fxo
+shaders/d3d11/distort_ps.fxo
+shaders/d3d11/distort_ps_achromatic_layered_simplified.fxo
+shaders/d3d11/distort_ps_achromatic_simplified.fxo
+shaders/d3d11/distort_ps_achromatic_squinched_layered_simplified.fxo
+shaders/d3d11/distort_ps_achromatic_squinched_simplified.fxo
+shaders/d3d11/distort_ps_gamma.fxo
+shaders/d3d11/distort_ps_gamma_mc.fxo
+shaders/d3d11/distort_ps_gamma_mc_nd.fxo
+shaders/d3d11/distort_ps_gamma_nd.fxo
+shaders/d3d11/distort_ps_layered.fxo
+shaders/d3d11/distort_ps_layered_mc.fxo
+shaders/d3d11/distort_ps_layered_mc_nd.fxo
+shaders/d3d11/distort_ps_layered_nd.fxo
+shaders/d3d11/distort_ps_layered_simplified.fxo
+shaders/d3d11/distort_ps_mc.fxo
+shaders/d3d11/distort_ps_mc_nd.fxo
+shaders/d3d11/distort_ps_nd.fxo
+shaders/d3d11/distort_ps_scene.fxo
+shaders/d3d11/distort_ps_scene0.fxo
+shaders/d3d11/distort_ps_scene_blur.fxo
+shaders/d3d11/distort_ps_simplified.fxo
+shaders/d3d11/distort_ps_squinched_layered_simplified.fxo
+shaders/d3d11/distort_ps_squinched_simplified.fxo
+shaders/d3d11/distort_vs.fxo
+shaders/d3d11/distort_vs_latest_nd.fxo
+shaders/d3d11/distort_vs_layered.fxo
+shaders/d3d11/distort_vs_layered_nd.fxo
+shaders/d3d11/distort_vs_nd.fxo
+shaders/d3d11/distort_vs_reproject.fxo
+shaders/d3d11/distort_vs_reproject_mv.fxo
+shaders/d3d11/distort_vs_reproject_nd.fxo
+shaders/d3d11/downsample_filter_x_ps.fxo
+shaders/d3d11/downsample_filter_x_srgb_ps.fxo
+shaders/d3d11/downsample_filter_y_ps.fxo
+shaders/d3d11/downsample_filter_y_srgb_ps.fxo
+shaders/d3d11/downsample_ps.fxo
+shaders/d3d11/downsample_srgb_ps.fxo
+shaders/d3d11/downsample_vs.fxo
+shaders/d3d11/frame_hallucination_ps.fxo
+shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/gpu_measurement_ps.fxo
+shaders/d3d11/gpu_measurement_vs.fxo
+shaders/d3d11/linepixelsim2_cs.fxo
+shaders/d3d11/linepixelsim_cs.fxo
+shaders/d3d11/motion_filter_attenuation_ps.fxo
+shaders/d3d11/motion_filter_blur_ps.fxo
+shaders/d3d11/motion_filter_cost_ps.fxo
+shaders/d3d11/motion_filter_early_out_vs.fxo
+shaders/d3d11/motion_filter_median_ps.fxo
+shaders/d3d11/motion_filter_vs.fxo
+shaders/d3d11/motion_smoothing_debug_ps.fxo
+shaders/d3d11/motion_smoothing_debug_vs.fxo
+shaders/d3d11/motionvector_cost_cs.fxo
+shaders/d3d11/msaa_resolve_2x_ps.fxo
+shaders/d3d11/msaa_resolve_4x_ps.fxo
+shaders/d3d11/msaa_resolve_8x_ps.fxo
+shaders/d3d11/msaa_resolve_vs.fxo
+shaders/d3d11/panel_mask_ps.fxo
+shaders/d3d11/panel_mask_vs.fxo
+shaders/d3d11/testgrid2_cs.fxo
+shaders/d3d11/tracked_camera_edgefilter_ps.fxo
+shaders/d3d11/tracked_camera_edgefilter_vs.fxo
+shaders/d3d11/tracked_camera_lines_ps.fxo
+shaders/d3d11/tracked_camera_lines_vs.fxo
+shaders/d3d11/tracked_camera_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_vs.fxo
+shaders/d3d11/tracked_camera_reprojection_vs.fxo
+shaders/d3d11/tracked_camera_undistort_ps.fxo
+shaders/d3d11/tracked_camera_undistort_vs.fxo
+shaders/d3d11/tracked_camera_vs.fxo
+shaders/d3d11/unlit_convert_to_nv12_ps.fxo
+shaders/d3d11/unlit_gaussian_blur_u_ps.fxo
+shaders/d3d11/unlit_gaussian_blur_v_ps.fxo
+shaders/d3d11/unlit_motion_attenuation_ps.fxo
+shaders/d3d11/unlit_motion_color_diff_ps.fxo
+shaders/d3d11/unlit_motion_cost_ps.fxo
+shaders/d3d11/unlit_motion_vector_diff_ps.fxo
+shaders/d3d11/unlit_motion_vectors_ps.fxo
+shaders/d3d11/unlit_ps.fxo
+shaders/d3d11/unlit_sint16_ps.fxo
+shaders/d3d11/unlit_vs.fxo
+skeleton
+skeletons
+skins
+source
+sparse
+standing
+strcmp
+strength
+strftime
+string literal
+string too long
+strncmp
+strncpy
+strncpy_s
+strpbrk
+strstr
+strtod
+strtol
+strtoll
+strtoull
+syntax error 
+t#fff
+t$ AVH
+t$ AWH
+t$ E3
+t$ H;
+t$ HcH
+t$ I;
+t$ L;
+t$ UH
+t$ UWATAVAWH
+t$ UWAVH
+t$ WATAUAVAWH
+t$ WATAWH
+t$ WAV
+t$ WAVAWH
+t$ WH
+t$,H+>H
+t$0A^_
+t$0H+
+t$8E3
+t$8H+
+t$8H;
+t$8HcA
+t$8I;
+t$8L9t$@tg
+t$@E3
+t$@H+
+t$@H;
+t$@H=
+t$DA+
+t$HH+
+t$HHi
+t$PE3
+t$PH=
+t$PHc
+t$`D;
+t$`H;
+t$`L;
+t$`Li
+t$`Lk
+t$hHc
+t$hL;
+t$pI;
+t$pfA
+t$pfD
+t1Hcl$@
+t9fff
+t>H9n
+t>y#I
+t?y$I
+t?y&I
+tAy&H
+tRNS after IDAT
+tRNS before PLTE
+tRNS with alpha
+tXH+A
+tXfff
+t[D8p
+t[H+A
+target
+targets
+tb9l$Xt@9n$~;
+tdh.dll
+teHcD$P
+terminate
+texCoord
+text/plain
+textures
+the sparse object ob ths accessor doesn't have values
+the sparse object of this accessor doesn't have indices
+timeBeginPeriod
+timeEndPeriod
+timeKillEvent
+timeSetEvent
+tkH97t	H
+tolower
+too large
+too many codes
+touch_poses_right.glb
+translation
+true literal
+t|SUVH
+u>f9X u8f9X0u2f9X@u,f9XPu&
+u>f9X"u8f9X2u2f9XBu,f9XRu&
+uDf9X
+uJf9X
+uTL9%O
+unexpected 
+ungetc
+universeID
+universes
+unknown BMP
+unknown code
+unknown image type
+unknown marker
+unknown token
+unsupported bit depth
+unsupported data layout
+unsupported format
+v4fff
+v=Y]Bv
+vE;E`M
+vHcD$LH
+value
+values
+vector<T> too long
+vector<bool> too long
+version
+version %s
+vfA'I
+vid_%04x
+vr_glove_left_skeleton.glb
+vr_glove_right_skeleton.glb
+vrcompositor_mailbox
+w(M9w0tH
+wXH9w`t/H
+weights
+while parsing 
+width
+wn>Jj
+wrapR
+wrapS
+wrapT
+wrong channel count
+wrong color format
+wrong version
+www.digicert.com1!0
+www.digicert.com1$0"
+www.digicert.com110/
+x AVH
+xA^A\_^][
+y0w0$
+yxxxxxxxH
+yxxxxxxxH+
+yxxxxxxxI
+z0x0:
+zlib corrupt
+znear
+{%s}%s
+{oculus}/icons/%s_%s_alert_searching.gif
+{oculus}/icons/%s_%s_error.png
+{oculus}/icons/%s_%s_off.png
+{oculus}/icons/%s_%s_ready.png
+{oculus}/icons/%s_%s_ready_alert.png
+{oculus}/icons/%s_%s_searching.gif
+{oculus}/icons/%s_%s_standby.png
+{oculus}/input/rift_dk2.json
+{oculus}/input/rift_profile.json
+{oculus}/input/touch_profile.json
+|$ ATAVAWH
+|$ AUAVAWH
+|$ AVH
+|$ AVL
+|$ E3
+|$ M;
+|$ UATAUAVAWH
+|$ UAVAWH
+|$ UH
+|$(A^
+|$(E3
+|$(I9V
+|$0H;
+|$0Hk
+|$0Mc
+|$8A_A^A\
+|$8H9S
+|$8H;
+|$8I+
+|$8M;
+|$<I;
+|$@D;
+|$@E3
+|$@H+
+|$@Hc
+|$@M;
+|$HH;
+|$HH=
+|$HI+
+|$PH+
+|$PH;
+|$PL9~
+|$PLc
+|$PM+
+|$XH;
+|$XuMH
+|$`H;
+|$`M+
+|LL\t
+|Lu?c
+|]E-K
+}/n<j
+}LuHO
+~+fff
+~3LcD$(L
+~6HcD$ I
+~t&LN

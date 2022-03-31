@@ -1,0 +1,705 @@
+	kE>fvw
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ 'L>[
+ A^_^
+ A_A^A\
+ A_A^A\_^
+ A_A^A]A\^
+ A_A^A]A\_
+ A_A^_
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ H3E H3E
+ Type Descriptor'
+ delete
+ delete[]
+ new[]
+ t?D9
+ tDE3
+ vJH+
+!,X< w
+!>6'Y
+!This program cannot be run in DOS mode.
+%s:AITROMAPI_OpenDevice() is failed!!
+%s:CoCreateInstance(hr=0x%x) is failed!!
+%s:CoGetMalloc() is failed!!
+%s:CreateClassEnumerator(hr=0x%x) is failed. Couldn't create class enumerator!!
+%s:Handle is NULL
+%s:get_NumNodes(result:0x%x) is failed!!
+%s:new AitDeviceConfig is failed!!
+%s:pClassEnum is NULL. No video capture device was detected!!
+%s:pDevHandle is NULL
+%s:pFilter is NULL!!
+%s:pHandle is NULL
+%s:pKsInfo is NULL!!
+%s:pMoniker->GetDisplayName() is failed!!
+%s\ait_setting.ini
+'D8l$@
+( 8PX
+('8PW
+(null)
+(t$PH
+(t$pH
+)>6{1n
+)t$pH
+*StO9>T
++ !4, !
++M<7>
++f)>0'
++h->|
+,/<-w
+,I<%w
+.00cfg
+.?AVAitRomBootConfig@@
+.?AVUsbScsiCmd@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.gfids$x
+.gfids$y
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.reloc
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xJ>Hf
+.xdata
+.xdata$x
+/>58d%
+0A^_^
+0A_A^A\
+0A_A^A]
+0A_A^A]A\_^[
+0A_A^A]A\_^]
+0A_A^_
+0A_A^_^]
+0iN>/
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+1<.	/>:
+3>N;kU
+3>fvw
+700PP
+700WP
+80tWD
+8A_A^A]A\_^][
+8_^][
+9X@u4
+9t$Xt
+;=u~H
+;H9>&X
+;Hfind_node_by_guid
+<	w	@
+< t;<	t7
+<htr<jtb<lt6<tt&<wt
+=imb;D
+>jtm}S
+?*u8H
+?7zQ6$
+?:kP<
+?AITROMAPI_BurnFw@@YAJPEAXPEBDPEAI@Z
+?AITROMAPI_BurnPcCamFw@@YAJPEAXPEBDPEAI@Z
+?AITROMAPI_BurnPcCamFwPnsV2@@YAJPEAXPEBDPEAI@Z
+?AITROMAPI_CloseDevice@@YAXPEAPEAX@Z
+?AITROMAPI_CreateDumpFile@@YAJPEAXPEBDI@Z
+?AITROMAPI_DispackAitPcCamFw@@YAJPEAXPEBD@Z
+?AITROMAPI_Erase@@YAJPEAXII@Z
+?AITROMAPI_LoadFW2Memory@@YAJPEAXPEBDPEAI@Z
+?AITROMAPI_LoadMiniUVC@@YAJPEAXPEBD@Z
+?AITROMAPI_LoadUpdater@@YAJPEAXPEBD@Z
+?AITROMAPI_LongJump@@YAJPEAXI@Z
+?AITROMAPI_MkEmmcEhancedArea@@YAJPEAXII@Z
+?AITROMAPI_OpenDevice@@YAPEAXI@Z
+?AITROMAPI_PartialRead@@YAJPEAXPEBDPEAII@Z
+?AITROMAPI_PartialUpdate@@YAJPEAXPEBDPEAI@Z
+?AITROMAPI_PartialUpdateWithHeader@@YAJPEAXPEBDPEAI@Z
+?AITROMAPI_ResetSystem@@YAJPEAX@Z
+?AITROMAPI_ScsiCommand@@YAJPEAXHKPEAE1@Z
+?AITROMAPI_SetFwDownloadAddr@@YAJPEAXI@Z
+?AITROMAPI_SwitchModePCAM_DRAM@@YAJPEAX@Z
+?AITROMAPI_SwitchModePCAM_EMMC@@YAJPEAXE@Z
+?AITROMAPI_SwitchModePCAM_PARALLEL_NAND@@YAJPEAXE@Z
+?AITROMAPI_SwitchModePCAM_SF@@YAJPEAX@Z
+?AITROMAPI_SwitchModePCAM_SPI_NAND@@YAJPEAXE@Z
+?AITROMAPI_UpdateLinuxFwPkg@@YAJPEAXPEBDII@Z
+?AITROMAPI_UpdateLinuxFwPkg_@@YAJPEAXPEBDI@Z
+?H33H
+?QY^&
+?UUUUUU
+?f`Y4
+@.data
+@.gfids
+@.tls
+@8|$^t
+@>%>b
+@A^_^
+@A_A^A\
+@A_A^A]A\_
+@A_A^_
+@SUVH
+@SUVWATAUAVAWH
+@SVAVH
+@SVWATAUAVAWH
+@SVWH
+@UATAUAVAWH
+@UATAVH
+@UAVH
+@USATAUAVAWH
+@USVWATAUAVAWH
+@UVATH
+@UVWH
+@VAUH
+@VAVH
+@VAWH
+@WAVH
+@b;zO]
+A81t@@8r
+A84.u
+A86taH
+A>pP&
+AA,A$
+AA<Fu
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+AITAPI_CloseBootloader
+AITAPI_CloseDevice
+AITAPI_EnableUpgradeOldFw
+AITAPI_EnterBootloaderMode
+AITAPI_GetAudioSource
+AITAPI_GetFWVersion
+AITAPI_GetISPSyncDuration
+AITAPI_GetISPSyncHighLow
+AITAPI_OpenAitDevice
+AITAPI_OpenBootloader
+AITAPI_ResumePreview
+AITAPI_SetAudioSource
+AITAPI_SuspendPreview
+AITAPI_UpdateFW_842x
+AITAPI_UpdateFwBootloader
+AITROMAPI_LoadUpdater(hr:0x%lx) is failed!!
+AITROMAPI_PartialUpdate(hr:0x%lx) is failed!!
+AITROMAPI_ResetSystem(hr:0x%lx) is failed!!
+AITROMAPI_SwitchModePCAM_SF(hr:0x%lx) is failed!!
+AITROMAPI_UpdateLinuxFwPkg_ file error.
+ATAVAWH
+AUAVAWH
+A^A\]
+A^_^[]
+A^_^][
+A_A\_^]
+A_A^A\
+A_A^A\_]
+A_A^A\_^
+A_A^A]A\[]
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^_^]
+Adr=0x%X, Len=0x%X Flag=0x%X
+April
+AreFileApisANSI
+August
+AuthE
+B(I9A(
+B.rsrc
+B8|09
+BC?>6t9^	c:>
+BF>^G
+C8<(u
+CA< t(<#t
+CD$pD
+CameraFirmwareUpgradeDLL.dll
+Cannot CloseDeivce()!!
+Cannot OpenDeivce()!!
+CheckXU
+ChkSum=0x%X
+CloseHandle
+CoCreateInstance
+CoGetMalloc
+CoInitialize
+CoUninitialize
+CorExitProcess
+CreateEventW
+CreateFileA
+CreateFileW
+D$ E3
+D$(H;
+D$0A;
+D$0E3
+D$0H;
+D$0H;G
+D$0HcH
+D$3!H
+D$49C
+D$8A;
+D$8E3
+D$8H=
+D$8L9
+D$<E3
+D$@H+
+D$@H;
+D$@H;G
+D$HE3
+D$P I
+D$PA#
+D$PH+
+D$PHc
+D$PHcX H
+D$PI;
+D$`E3
+D$`H;
+D$`Hc
+D$x$H
+D(8Ht}
+D08@t	
+D18 t
+D82u&H
+D88Ht!
+D88Hte
+D8d$H
+D8d$Ht
+D8d$ht
+D8d$pt
+D8l$@t
+D8l$ht
+D8t$Ht
+D98Ht;H
+D9c t
+D9|$ 
+D;-z~
+D<P0I
+DD$$H
+December
+DeleteCriticalSection
+DeviceIoControl
+DevicePid
+DeviceVid
+E'H;G
+E+BHI
+E0HcH
+E0Lcx
+EP*?@
+EncodePointer
+EnterCriticalSection
+ExitProcess
+Failed to create destination file.
+Failed to select storage type -> AIT_STORAGE_EMMC.
+Failed to select storage type -> AIT_STORAGE_PCAM_DRAM.
+Failed to select storage type -> AIT_STORAGE_PCAM_SF.
+Failed to select storage type -> AIT_STORAGE_SPI_NAND.
+Failed to transfer data to device.
+February
+FindClose
+FindFirstFileExA
+FindNextFileA
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FormatMessageA
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
+G0Hc	H
+Genu3
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentStringsW
+GetFileType
+GetLastError
+GetModuleFileNameA
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetPrivateProfileIntA
+GetProcAddress
+GetProcessHeap
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+H!D$ E
+H!T$0D
+H9\$@u$H
+H;XXs
+H;xXu9
+HA_A]A\_^[
+HH:mm:ss
+HcC H
+HcG(H
+HcH<H
+HcK H
+Hc]`M
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+Ht)I;
+I9}(t9H
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+InterlockedFlushSList
+IsBootloaderMode
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+J;D10t	H
+January
+K&>.yC
+KERNEL32.dll
+K~Je#>!
+L!|$(L!
+L$ E3
+L$ SUVWH
+L$ SVWH
+L$ UVWATAUAVAWH
+L$ WATAUAVAWH
+L$ WH
+L$&@8t$&t0@8q
+L$0)y
+L$0E3
+L$0H;
+L$0Hc
+L$8H3
+L$8Lc
+L$@;|
+L$@E3
+L$@H3
+L$DE3
+L$HH3
+L$PE3
+L$PH3
+L$XE3
+L$`E3
+L$pH3
+L$xE3
+L(:A:
+L(;A:
+L(;E:
+L(<A:
+L9*u&
+L9`8tA
+LCMapStringEx
+LCMapStringW
+LcA<E3
+LeaveCriticalSection
+Lj[;>
+LoadLibraryExW
+LocalFree
+LocaleNameToLCID
+Long jump command failed.
+M H1E
+MM/dd/yy
+March
+Monday
+MultiByteToWideChar
+N0Hci
+NAN(IND)
+NAN(SNAN)
+November
+O0HcQ
+October
+OpenDevice
+OutputDebugStringA
+OutputDebugStringW
+PathFileExistsA
+PathRemoveFileSpecA
+QueryPerformanceCounter
+RaiseException
+ReadConsoleW
+ReadFile
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+S,, <Zw
+SHLWAPI.dll
+SUVWATAUAVAWH
+SUVWAVH
+SVWATAUAVAWH
+SVWATAUAWH
+Saturday
+Select storage type 'AIT_STORAGE_SPI_NAND'
+SendScsiCmdIIn Failed, Erroe=0x%X %s
+SendScsiCmdIOut Failed, Erroe=0x%X %s
+September
+Set addr div = 1
+SetEndOfFile
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
+Sleep
+SleepConditionVariableCS
+Storage Address Divider=0x%X 
+Sunday
+T$ A;
+T$PD+
+T$PE3
+TUUUU
+TerminateProcess
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Tuesday
+UATAUAVAWH
+USVWAVH
+UTF-16LEUNICODE
+UTF-8
+UUUUUU
+UVWATAUAVAW
+UVWATAUAVAWH
+UVWATAWH
+UVWAVAWH
+UWAVH
+UnhandledExceptionFilter
+Unknown exception
+Usb transfer failed
+V2BCf
+V2FWf
+V6E>`"(5
+VATAUAVAWH
+VSN2A
+VSN_H
+VSN_V3BC
+VSN_V3FW
+VWATAVAW
+VWATAVAWH
+VWAVH
+WATAUAVAWH
+WAVAWH
+WD8l$@t
+WakeAllConditionVariable
+Wednesday
+WideCharToMultiByte
+WriteConsoleW
+WriteFile
+[aOni*{
+\$ E3
+\$ H;
+\$ UH
+\$ UVWATAUAVAWH
+\$ UVWAVAWH
+\$ UVWH
+\$ WH
+\$0H;
+\$@@8=
+\$@H;
+\\.\F:
+^<V7w
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+`.rdata
+`A^^[
+`A_A^A]A\_^]
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h````
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+bad allocation
+bad array new length
+bad exception
+bp(=>?g
+c [1>H'
+c(>\,
+cAMDD
+dddd, MMMM dd, yyyy
+e+000
+e0A_A^A]A\]
+eLK(w
+entiA
+fD9*u
+fD90t
+fD94Fu
+fD96u
+fD9t$b
+fF9,Bu
+ffffff
+fffffff
+fopen(%s) is failed!!
+fread():a:%ld is failed!!
+getLibVersion
+gfffA
+gfffffffH
+ineIA
+invalid string position
+iu+-,
+l$ E3
+l$ VWATAVAWH
+l$ WAVAWH
+l$PE3
+log10
+malloc() is failed!!
+n03>Pu
+nan(ind)
+nan(snan)
+ntelE
+obwQ4
+ole32.dll
+operator
+operator "" 
+ot$ H
+p AWH
+pA_A^A]A\_^[
+pA_A^A]A\_^]
+r	Vr.>T
+r 9_ t
+r:D8v
+restrict(
+ri9V vdH
+s WAVAWH
+s4+sP+
+stfE;
+stgE;
+string too long
+t"<.u
+t$ E3
+t$ UH
+t$ UWATAVAWH
+t$ UWAVH
+t$ WATAUAVAWH
+t$ WAVAWH
+t$ WH
+t$(I;
+t$8H+
+t)D8l$@t
+t4McF
+t7HcF
+tCHcP
+tXLcQ
+ttIcF
+u3HcH<H
+uf!T$(H!T$ 
+uzKs@>
+v2!L.2
+vid_%.4x&pid_%.4x
+x ATAVAWH
+x AV3
+x AVH
+x AWH
+xpxxxx
+xwpwpp
+yBNu'
+y\PD>!
+|$ ATAVAWH
+|$ AVH
+|$ D!
+|$ E3
+|$ UATAUAVAWH
+|$ UH
+|$(A^
+|$(I;
+|$0s-
+|$8;3
+|$@-D
+|$@-H
+|$@H;
+|$\.u
+|$`Ic
+|b=})>
+~ $s%r

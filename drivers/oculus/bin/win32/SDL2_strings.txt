@@ -1,0 +1,3981 @@
+																									
+	0&0?0S1w2
+                          0,      -0.2132,   2.1124,
+                          0,      -0.3441,   1.772,
+                          0,      -0.3918,   2.0172,
+                          1.402,  -0.7141,   0);
+                          1.596,  -0.813,    0);
+                          1.7927, -0.5329,   0);
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+      <requestedPrivileges>
+     #extension GL_OES_EGL_image_external : require
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_color;     varying vec2 v_texCoord;         void main()     {         gl_FragColor = texture2D(u_texture, v_texCoord);         gl_FragColor *= u_color;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_color;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.a = 1.0;         gl_FragColor *= u_color;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_color;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor *= u_color;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_color;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor.a = 1.0;         gl_FragColor *= u_color;     } 
+     precision mediump float;     uniform vec4 u_color;         void main()     {         gl_FragColor = u_color;     } 
+    * %s (%s:%d)
+    * always ignore: %s.
+    * triggered %u time%s.
+    // Do the color transform 
+    // Get the U and V values 
+    // Get the Y value 
+    // Get the YUV values 
+    // That was easy. :) 
+    </security>
+    <security>
+    gl_FragColor *= u_color;
+    gl_FragColor *= v_color;
+    gl_FragColor = texture2D(tex0, v_texCoord) * v_color;
+    gl_FragColor = texture2D(tex0, v_texCoord);
+    gl_FragColor = v_color;
+    gl_FragColor = vec4(rgb, 1);
+    gl_FragColor = vec4(rgb, 1.0) * v_color;
+    gl_FragColor.a = 1.0;
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+    lowp vec3 rgb;
+    mediump vec3 yuv;
+    precision mediump float;     uniform samplerExternalOES u_texture;     uniform vec4 u_color;     varying vec2 v_texCoord;         void main()     {         gl_FragColor = texture2D(u_texture, v_texCoord);         gl_FragColor *= u_color;     } 
+    rgb = matrix * yuv;
+    rgb.b = dot(yuv, Bcoeff);
+    rgb.g = dot(yuv, Gcoeff);
+    rgb.r = dot(yuv, Rcoeff);
+    tcoord *= UVCoordScale;
+    tcoord = v_texCoord;
+    v_color = gl_Color;
+    v_texCoord = vec2(gl_MultiTexCoord0);
+    vec2 tcoord;
+    vec3 yuv, rgb;
+    yuv += offset;
+    yuv.x = texture2D(tex0, tcoord).r;
+    yuv.x = texture2D(u_texture,   v_texCoord).r;
+    yuv.y = texture2D(tex1, tcoord).r;
+    yuv.y = texture2D(u_texture_u, v_texCoord).r;
+    yuv.yz = texture2D(tex1, tcoord).ar;
+    yuv.yz = texture2D(tex1, tcoord).ra;
+    yuv.yz = texture2D(u_texture_u, v_texCoord).ar;
+    yuv.yz = texture2D(u_texture_u, v_texCoord).ra;
+    yuv.z = texture2D(tex2, tcoord).r;
+    yuv.z = texture2D(u_texture_v, v_texCoord).r;
+  '%s'
+  </trustInfo>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$******************************************%*******************&'(*****)
+ "$&(*,.02468:<>@BDFHJLNPRTVXZ\^`bdfhjlnprtvxz|~
+ #%u! (Bug? FIXME?)
+ $(,048<@DHLPUY]aeimquy}
+ %s file [%s].
+ (THIS IS PROBABLY A BUG!)
+ (file='%s' timestamp=%u windowid=%u)
+ (timestamp=%u touchid=%I64d dtheta=%f ddist=%f x=%f y=%f numfingers=%u)
+ (timestamp=%u touchid=%I64d fingerid=%I64d x=%f y=%f dx=%f dy=%f pressure=%f)
+ (timestamp=%u touchid=%I64d gestureid=%I64d numfingers=%u error=%f x=%f y=%f)
+ (timestamp=%u which=%d axis=%u value=%d)
+ (timestamp=%u which=%d ball=%u xrel=%d yrel=%d)
+ (timestamp=%u which=%d button=%u state=%s)
+ (timestamp=%u which=%d hat=%u value=%u)
+ (timestamp=%u which=%d)
+ (timestamp=%u which=%u iscapture=%s)
+ (timestamp=%u windowid=%u event=%s data1=%d data2=%d)
+ (timestamp=%u windowid=%u state=%s repeat=%s scancode=%u keycode=%u mod=%u)
+ (timestamp=%u windowid=%u text='%s' start=%d length=%d)
+ (timestamp=%u windowid=%u text='%s')
+ (timestamp=%u windowid=%u which=%u button=%u state=%s clicks=%u x=%d y=%d)
+ (timestamp=%u windowid=%u which=%u state=%u x=%d y=%d xrel=%d yrel=%d)
+ (timestamp=%u windowid=%u which=%u x=%d y=%d direction=%s)
+ (timestamp=%u)
+ )19AJRZbjs{
+ 0%0,010
+ 0<0\0
+ 303@3P3`3p3
+ 9(X`
+ [^_]
+ _^[]
+ niWRV
+ t#j 
+ t*j 
+!)@:F,@zj/@\G1@|
+"1s1*2
+"3DUfw
+"j@h0
+#0a1R2w2|2
+#define UVCoordScale 0.5
+#define UVCoordScale 1.0
+#define sampler2D sampler2DRect
+#define texture2D texture2DRect
+$PVQR
+%d bpp BMP files not supported
+%d-bpp BMP images are not supported
+%d.%d
+%s (%d)
+%s (call to %s failed, reporting an error of %s)
+%s (timestamp=%u windowid=%u code=%d data1=%p data2=%p)
+%s not available
+%s%s%s
+%s() DirectX error 0x%8.8lx
+%s,%s,%s
+%s: %s
+%s: %s (%d): %s %s
+%s: %s (%d): %s %s (0x%X)
+%s: Unknown DirectSound error: 0x%x
+%u-bit IEEE floating-point format not supported
+%u-bit PCM format not supported
+'0Q0f0
+(DigiCert SHA2 Assured ID Code Signing CA
+(DigiCert SHA2 Assured ID Code Signing CA0
+(null)
+(o:R	
+********
+*********
+***********
+*******************
+****************************************************************************
++2:2j2
++A,+A$
++A0+A(
++F@+ND
+,.!&e
+,|%)v
+-NV12t
+-NV12t&
+-NV21
+-NV21t
+-NV21t8-
+..\..\src\render\opengl\SDL_render_gl.c
+..\..\src\render\opengles2\SDL_render_gles2.c
+.http://www.digicert.com/ssl-cps-repository.htm0
+.rsrc
+.text
+// RGB coefficients 
+// YUV offset 
+/;~Hu
+/=$!6
+/http://crl3.digicert.com/sha2-assured-cs-g1.crl05
+/http://crl4.digicert.com/sha2-assured-cs-g1.crl0L
+/usV3
+0 0$0(0,0004080
+0 0$0(0,0004080<0@0D0
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0 0$0(0,0004080<0@0D0Q1{5
+0 0$0(0d1h1l1t1x1|1
+0 0'0.0
+0 1H1p1
+0!0E0
+0!0Q0
+0"0(0,02060<0@0F0J0P0T0Z0^0d0h0n0r0x0|0
+0"0+030A0J0Y0b0g0u0}0
+0"020B0R0f0v0
+0#0;0S0k0
+0#0E0
+0$0(0.02080<0B0F0L0P0V0Z0`0d0j0n0t0x0~0
+0$080A0T0^0k0u0
+0$0A0F0V0s0x0
+0%0L0_0|0
+0%2>2_2{2
+0&0-040;0B0I0P0W0&1M1`1g1
+0&020F0R0b0r0
+0&060F0_0
+0&1<1V1
+0'0/0?0
+0'0;0K0[0k0{0
+0'0?0o1
+0'111
+0(0E0b0
+0(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+0)000;0
+0)2.2
+0*0{0
+0+0H0R1r1
+0+0J0k0{0
+0,030L0S0Z0a0h0r0x011b1t1{1
+0,2H2h2
+0-070
+000000000000
+000D0X0l0
+000L0o0
+000X0
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZI64
+0123456789abcdef
+021Q1t1
+03000000
+0300000000050000289b000000000000,Saturn_Adapter_2.0,a:b1,b:b2,leftshoulder:b6,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,righttrigger:b5,start:b9,x:b0,y:b3,
+0300000000f000000300000000000000,RetroUSB.com RetroPad,a:b1,b:b5,back:b2,leftshoulder:b6,leftx:a0,lefty:a1,rightshoulder:b7,start:b3,x:b0,y:b4,
+0300000000f00000f100000000000000,RetroUSB.com Super RetroPort,a:b1,b:b5,back:b2,leftshoulder:b6,leftx:a0,lefty:a1,rightshoulder:b7,start:b3,x:b0,y:b4,
+03000000022000000090000000000000,8Bitdo NES30 Pro,a:b1,b:b0,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b4,y:b3,
+030000000d0500000308000000000000,Nostromo N45,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b9,leftshoulder:b4,leftstick:b12,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b10,x:b2,y:b3,
+030000000d0f00000900000000000000,Hori Pad 3 Turbo,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00001100000000000000,REAL ARCADE PRO.3,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,rightshoulder:b5,rightstick:b11,righttrigger:b7,start:b9,x:b0,y:b3,
+030000000d0f00002200000000000000,REAL ARCADE Pro.V3,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00002700000000000000,FIGHTING STICK V3,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,rightshoulder:b5,righttrigger:b7,start:b9,x:b0,y:b3,
+030000000d0f00004000000000000000,Hori Fighting Stick Mini 3,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b5,lefttrigger:b4,rightshoulder:b7,righttrigger:b6,start:b9,x:b0,y:b3,
+030000000d0f00004900000000000000,Hatsune Miku Sho Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00004d00000000000000,Hori Pad A,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00005400000000000000,Hori Pad 3,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00005b00000000000000,Real Arcade Pro.V4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000000d0f00005c00000000000000,Real Arcade Pro.V4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00005e00000000000000,Hori Fighting Commander 4 (PS4),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000000d0f00005f00000000000000,Hori Fighting Commander 4 (PS3),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00006600000000000000,HORIPAD 4 (PS4),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000000d0f00006a00000000000000,Real Arcade Pro.4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000000d0f00006b00000000000000,Real Arcade Pro.4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00006e00000000000000,HORIPAD 4 (PS3),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00007000000000000000,REAL ARCADE PRO.4 VLX,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,rightshoulder:b5,rightstick:b11,righttrigger:b7,start:b9,x:b0,y:b3,
+030000000d0f00008400000000000000,Fighting Commander 5,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000000d0f00008500000000000000,Fighting Commander 2016 PS3,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f00008700000000000000,Fighting Stick mini 4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,rightshoulder:b5,righttrigger:b7,start:b9,x:b0,y:b3,
+030000000d0f00008800000000000000,Fighting Stick mini 4,a:b1,b:b2,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,rightshoulder:b5,righttrigger:b7,start:b8,x:b0,y:b3,
+030000000d0f00008a00000000000000,Real Arcade Pro.4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000000d0f00008b00000000000000,Real Arcade Pro.4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f0000c100000000000000,Horipad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000000d0f0000ee00000000000000,HORIPAD mini4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+03000000100000008200000000000000,PS360+ v1.66,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,leftx:h0.4,rightshoulder:b5,righttrigger:b7,start:b9,x:b0,y:b3,
+03000000100800000100000000000000,PS1 Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a3,righty:a2,start:b9,x:b3,y:b0,
+030000001008000001e5000000000000,NEXT SNES Controller,a:b2,b:b1,back:b8,dpdown:+a1,dpleft:-a0,dpright:+a0,dpup:-a1,leftshoulder:b4,rightshoulder:b6,start:b9,x:b3,y:b0,
+03000000100800000300000000000000,PS2 Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a4,righty:a2,start:b9,x:b3,y:b0,
+03000000101c0000171c000000000000,uRage Gamepad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000102800000900000000000000,8Bitdo SFC30 GamePad,a:b1,b:b0,back:b10,leftshoulder:b6,leftx:a0,lefty:a1,rightshoulder:b7,start:b11,x:b4,y:b3,
+03000000110100001914000000000000,SteelSeries,a:b0,b:b1,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:,leftstick:b13,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:,rightstick:b14,righttrigger:b7,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000120c0000f60e000000000000,P4 Wired Gamepad,a:b1,b:b2,back:b12,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b5,lefttrigger:b7,rightshoulder:b4,righttrigger:b6,start:b9,x:b0,y:b3,
+03000000152000000182000000000000,NGDS,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a4,start:b9,x:b3,y:b0,
+03000000172700004431000000000000,XiaoMi Game Controller,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b20,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:a7,rightx:a2,righty:a5,start:b11,x:b3,y:b4,
+03000000203800000900000000000000,8Bitdo NES30 Pro,a:b1,b:b0,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b4,y:b3,
+03000000222c00000020000000000000,QANBA DRONE ARCADE JOYSTICK,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:a3,rightshoulder:b5,righttrigger:a4,start:b9,x:b0,y:b3,
+03000000222c00000023000000000000,Qanba Obsidian Arcade Joystick PS4 Mode,a:b1,b:b2,back:b13,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+03000000222c00000223000000000000,Qanba Obsidian Arcade Joystick PS3 Mode,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000250900000017000000000000,HRAP2 on PS/SS/N64 Joypad to USB BOX,a:b2,b:b1,back:b9,leftshoulder:b5,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,righttrigger:b6,start:b8,x:b3,y:b0,
+03000000250900000128000000000000,Mayflash Arcade Stick,a:b1,b:b2,back:b8,leftshoulder:b0,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b3,righttrigger:b7,start:b9,x:b5,y:b6,
+03000000250900000500000000000000,PS3 Controller,a:b2,b:b1,back:b9,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b0,y:b3,
+03000000250900006688000000000000,MP-8866 Super Dual Box,a:b2,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b3,y:b0,
+03000000250900008888000000000000,PS2 Controller,a:b2,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b3,y:b0,
+0300000025090000e803000000000000,Mayflash Wii Classic Controller,a:b1,b:b0,back:b8,dpdown:b13,dpleft:b12,dpright:b14,dpup:b11,guide:b10,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b2,
+03000000260900002625000000000000,Gamecube Controller,a:b0,b:b1,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b6,lefttrigger:a4,leftx:a0,lefty:a1,righttrigger:a5,rightx:a2,righty:a3,start:b7,x:b2,y:b3,
+03000000260900008888000000000000,Cyber Gadget GameCube Controller,a:b0,b:b1,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,lefttrigger:a5,leftx:a0,lefty:a1,rightshoulder:b6,righttrigger:a4,rightx:a2,righty:a3~,start:b7,x:b2,y:b3,
+03000000280400000140000000000000,GamePad Pro USB,a:b1,b:b2,back:b8,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,start:b9,x:b0,y:b3,
+030000002a0600001024000000000000,Matricom,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a4,start:b9,x:b2,y:b3,
+03000000300f00000011000000000000,QanBa Arcade JoyStick 1008,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,start:b10,x:b0,y:b3,
+03000000300f00000701000000000000,USB 4-Axis 12-Button Gamepad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b3,y:b0,
+03000000300f00000b01000000000000,GGE909 Recoil Pad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b3,y:b0,
+03000000300f00001001000000000000,Saitek P480 Rumble Pad,a:b2,b:b3,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b0,y:b1,
+03000000300f00001101000000000000,Saitek Rumble Pad,a:b2,b:b3,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b10,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b0,y:b1,
+03000000300f00001201000000000000,Saitek Dual Analog Pad,a:b2,b:b3,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b0,y:b1,
+03000000300f00001210000000000000,QanBa Joystick Plus,a:b0,b:b1,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,rightshoulder:b5,start:b9,x:b2,y:b3,
+03000000300f00001611000000000000,QanBa Arcade JoyStick 4018,a:b1,b:b2,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b9,leftshoulder:b4,lefttrigger:b6,rightshoulder:b5,righttrigger:b7,start:b8,x:b0,y:b3,
+03000000321500000003000000000000,Razer Hydra,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b8,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a2,rightx:a3,righty:a4,start:b7,x:b2,y:b3,
+03000000321500000104000000000000,Razer Panthera (PS4),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+03000000321500000204000000000000,Razer Panthera (PS3),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000321500000507000000000000,Razer Raiju Mobile,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000321500000707000000000000,Razer Raiju Mobile,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000341a00000104000000000000,QanBa Joystick Q4RAF,a:b5,b:b6,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b0,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b3,righttrigger:b7,start:b9,x:b1,y:b2,
+03000000341a00000108000000000000,EXEQ RF USB Gamepad 8206,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b8,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000341a00000208000000000000,SL-6555-SBK,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b8,lefttrigger:-a4,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a4,rightx:a3,righty:a2,start:b7,x:b2,y:b3,
+03000000341a00000302000000000000,Hama Scorpad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000341a00000608000000000000,Xeox,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000341a00000908000000000000,SL-6566,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000341a00002308000000000000,USB gamepad,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000341a00003608000000000000,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000362800000100000000000000,OUYA Game Controller,a:b0,b:b3,dpdown:b9,dpleft:b10,dpright:b11,dpup:b8,guide:b14,leftshoulder:b4,leftstick:b6,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b7,righttrigger:b13,rightx:a3,righty:a4,x:b1,y:b2,
+03000000380700001888000000000000,MadCatz SFIV FightStick PS3,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b5,lefttrigger:b7,leftx:a0,lefty:a1,rightshoulder:b4,righttrigger:b6,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000380700003888000000000000,Madcatz Arcade Fightstick TE S+ PS3,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000380700005032000000000000,Mad Catz FightPad PRO (PS3),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000380700005082000000000000,Mad Catz FightPad PRO (PS4),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000003807000056a8000000000000,PS3 RF pad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000380700006252000000000000,Mad Catz Micro C.T.R.L.R,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a4,start:b9,x:b0,y:b3,
+03000000380700006382000000000000,MLG GamePad PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000380700006652000000000000,Mad Catz C.T.R.L.R,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a4,start:b9,x:b0,y:b3,
+03000000380700008034000000000000,Mad Catz TE2 PS3 Fightstick,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000380700008081000000000000,MADCATZ SFV Arcade FightStick Alpha PS4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+03000000380700008084000000000000,Mad Catz TE2 PS4 Fightstick,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+03000000380700008134000000000000,Mad Catz FightStick TE2+ PS3,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b7,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b4,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000380700008184000000000000,Mad Catz FightStick TE2+ PS4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b5,leftstick:b10,lefttrigger:a4,leftx:a0,lefty:a1,rightshoulder:b4,rightstick:b11,righttrigger:b7,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+03000000380700008433000000000000,Mad Catz FightStick TE S+ (PS3),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000380700008483000000000000,Mad Catz FightStick TE S+ (PS4),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+03000000380700008532000000000000,Madcatz Arcade Fightstick TE S PS3,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000381000001814000000000000,SteelSeries Stratus XL,a:b0,b:b1,back:b18,dpdown:b13,dpleft:b14,dpright:b15,dpup:b12,guide:b19,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b2,y:b3,
+03000000450c00002043000000000000,XEOX Gamepad SL-6556-BK,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000451300000010000000000000,Genius Maxfire Grandias 12,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000451300000830000000000000,Defender Game Racer X7,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000491900000204000000000000,Ipega PG-9023,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+030000004b120000014d000000000000,NYKO AIRFLO,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:a3,leftstick:a0,lefttrigger:b6,rightshoulder:b5,rightstick:a2,righttrigger:b7,start:b9,x:b2,y:b3,
+030000004c0500006802000000000000,PS3 Controller,a:b2,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b10,lefttrigger:a3~,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:a4~,rightx:a2,righty:a5,start:b8,x:b3,y:b0,
+030000004c050000a00b000000000000,PS4 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000004c050000c405000000000000,PS4 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000004c050000cc09000000000000,PS4 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000004f04000000b3000000000000,Thrustmaster Firestorm Dual Power,a:b0,b:b2,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b11,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b12,righttrigger:b7,rightx:a2,righty:a3,start:b10,x:b1,y:b3,
+030000004f04000003d0000000000000,run'n'drive,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b7,leftshoulder:a3,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:a4,rightstick:b11,righttrigger:b5,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000004f04000004b3000000000000,Thrustmaster Firestorm Dual Power 3,a:b0,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b1,y:b3,
+030000004f04000007d0000000000000,T Mini Wireless,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000004f04000015b3000000000000,Thrustmaster Dual Analog 4,a:b0,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b1,y:b3,
+030000004f04000023b3000000000000,Thrustmaster Dual Trigger 3-in-1,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000005509000000b4000000000000,USB gamepad,a:b10,b:b11,back:b5,dpdown:b1,dpleft:b2,dpright:b3,dpup:b0,guide:b14,leftshoulder:b8,leftstick:b6,lefttrigger:a4,leftx:a0,lefty:a1,rightshoulder:b9,rightstick:b7,righttrigger:a5,rightx:a2,righty:a3,start:b4,x:b12,y:b13,
+030000005c1a00003330000000000000,Genius MaxFire Grandias 12V,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b7,leftx:a0,lefty:a1,rightshoulder:b4,rightstick:b11,righttrigger:b5,rightx:a3,righty:a2,start:b9,x:b2,y:b3,
+030000005f140000c501000000000000,Trust Gamepad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000632500002305000000000000,USB Vibration Joystick (BM),a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000632500002306000000000000,PS Controller,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a2,righty:a3,start:b11,x:b3,y:b4,
+03000000632500002605000000000000,HJD-X,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000632500007505000000000000,PS3 Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000666600000488000000000000,TigerGame PS/PS2 Game Controller Adapter,a:b2,b:b1,back:b9,dpdown:b14,dpleft:b15,dpright:b13,dpup:b12,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b3,y:b0,
+03000000666600006706000000000000,PS2 Controller,a:b2,b:b1,back:b8,dpdown:b14,dpleft:b15,dpright:b13,dpup:b12,leftshoulder:b6,leftstick:b9,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b10,righttrigger:b5,rightx:a2,righty:a3,start:b11,x:b3,y:b0,
+0300000066f700000100000000000000,Game VIB Joystick,a:b2,b:b3,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b8,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:b7,rightx:a3,righty:a2,start:b11,x:b0,y:b1,
+0300000066f700000500000000000000,BrutalLegendTest,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b0,y:b3,
+030000006b1400000055000000000000,Bigben PS3 Controller,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+030000006b1400000103000000000000,Bigben PS3 Controller,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b2,
+030000006b140000010d000000000000,Revolution Pro Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+030000006b14000001a1000000000000,Orange Controller,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b6,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b7,righttrigger:a4,rightx:a5,righty:a2,start:b9,x:b2,y:b3,
+030000006b1400000203000000000000,USB gamepad,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+030000006b1400000303000000000000,PS2 Controller,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+030000006d04000011c2000000000000,Logitech Cordless Wingman,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b9,leftstick:b5,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b10,rightstick:b2,righttrigger:b7,rightx:a3,righty:a4,x:b4,
+030000006d04000016c2000000000000,Logitech Dual Action,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006d04000018c2000000000000,Logitech F510 Gamepad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006d04000019c2000000000000,Logitech F710 Gamepad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006d040000d1ca000000000000,Logitech ChillStream,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006d040000d2ca000000000000,Logitech Cordless Precision,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006e0500000320000000000000,JC-U3613M (DInput),a:b2,b:b3,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b8,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:b7,rightx:a2,righty:a3,start:b11,x:b0,y:b1,
+030000006e0500000520000000000000,JC-P301U,a:b2,b:b3,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b8,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:b7,rightx:a2,righty:a3,start:b11,x:b0,y:b1,
+030000006e0500000720000000000000,JC-W01U,a:b2,b:b3,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b1,
+030000006f0e00000263000000000000,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00000302000000000000,Victrix Pro Fight Stick for PS4,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,rightshoulder:b5,righttrigger:b7,start:b9,x:b0,y:b3,
+030000006f0e00001101000000000000,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00001401000000000000,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00001402000000000000,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00001901000000000000,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00001a01000000000000,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00001e01000000000000,Rock Candy PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00002401000000000000,INJUSTICE FightStick PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,rightshoulder:b5,righttrigger:b7,start:b9,x:b0,y:b3,
+030000006f0e00002801000000000000,Rock Candy PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00002f01000000000000,Rock Candy PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00003001000000000000,EA SPORTS PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000006f0e00003201000000000000,Battlefield 4 PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000782300000a10000000000000,Onlive Wireless Controller,a:b15,b:b14,back:b7,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b5,leftshoulder:b11,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b10,rightstick:b8,righttrigger:a5,rightx:a3,righty:a4,start:b6,x:b13,y:b12,
+03000000790000000018000000000000,Mayflash WiiU Pro Game Controller Adapter (DInput),a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000790000000200000000000000,King PS3 Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a4,start:b9,x:b3,y:b0,
+03000000790000000600000000000000,G-Shark GS-GP702,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a4,start:b9,x:b3,y:b0,
+03000000790000000700000000000000,Betop Gamepad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a4,start:b9,x:b3,y:b0,
+03000000790000000a00000000000000,USB gamepad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a4,start:b9,x:b3,y:b0,
+03000000790000001100000000000000,Retrolink SNES Controller,a:b2,b:b1,back:b8,dpdown:+a4,dpleft:-a3,dpright:+a3,dpup:-a4,leftshoulder:b4,rightshoulder:b5,start:b9,x:b3,y:b0,
+03000000790000001b18000000000000,Venom Arcade Joystick,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,lefttrigger:b6,rightshoulder:b5,righttrigger:b7,start:b9,x:b0,y:b3,
+03000000790000001c18000000000000,STK-7024X,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000790000002201000000000000,Game Controller for PC,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000790000004318000000000000,Mayflash GameCube Controller Adapter,a:b1,b:b2,back:b0,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b0,leftshoulder:b4,leftstick:b0,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b0,righttrigger:a4,rightx:a5,righty:a2,start:b9,x:b0,y:b3,
+03000000790000004418000000000000,Mayflash GameCube Controller,a:b1,b:b2,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b7,righttrigger:a4,rightx:a5,righty:a2,start:b9,x:b0,y:b3,
+03000000790000004f18000000000000,ZD-T Android,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000791d00000103000000000000,Dual Box WII,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b6,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,righttrigger:b5,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+030000007e0500000920000000000000,Nintendo Switch Pro Controller,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000808300000300000000000000,Betop Gamepad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a4,start:b9,x:b3,y:b0,
+030000008305000009a0000000000000,Genius,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+030000008305000031b0000000000000,Genius Maxfire Blaze 3,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000830500006020000000000000,iBuffalo SNES Controller,a:b1,b:b0,back:b6,dpdown:+a1,dpleft:-a0,dpright:+a0,dpup:-a1,leftshoulder:b4,rightshoulder:b5,start:b7,x:b3,y:b2,
+03000000852100000201000000000000,FF-GP1,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000888800000803000000000000,PS3 Controller,a:b2,b:b1,back:b8,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b9,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:b7,rightx:a3,righty:a4,start:b11,x:b0,y:b3,
+030000008f0e00000300000000000000,Piranha xtreme,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a3,righty:a2,start:b9,x:b3,y:b0,
+030000008f0e00000800000000000000,SpeedLink Strike FX,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+030000008f0e00000d31000000000000,GAMEPAD 3 TURBO,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000008f0e00000f31000000000000,EXEQ,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b2,
+030000008f0e00001030000000000000,Mayflash USB Adapter for original Sega Saturn controller,a:b0,b:b1,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,lefttrigger:b5,rightshoulder:b2,righttrigger:b7,start:b9,x:b3,y:b4,
+030000008f0e00001200000000000000,Acme GA-02,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b2,y:b3,
+030000008f0e00001330000000000000,HuiJia SNES Controller,a:b2,b:b1,back:b8,dpdown:+a1,dpleft:-a0,dpright:+a0,dpup:-a1,leftshoulder:b6,rightshoulder:b7,start:b9,x:b3,y:b0,
+030000008f0e00001431000000000000,PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000008f0e00007530000000000000,PS1 Controller,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b1,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+030000009b2800000500000000000000,Saturn_Adapter_2.0,a:b1,b:b2,leftshoulder:b6,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,righttrigger:b5,start:b9,x:b0,y:b3,
+030000009d0d00001330000000000000,PS2 Controller,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+03000000a00500003232000000000000,8Bitdo Zero GamePad,a:b0,b:b1,back:b10,dpdown:+a2,dpleft:-a0,dpright:+a0,dpup:-a2,leftshoulder:b6,rightshoulder:b7,start:b11,x:b3,y:b4,
+03000000a30600000b04000000000000,Saitek P990,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b0,y:b3,
+03000000a30600000b04000000010000,Saitek P990 Dual Analog Pad,a:b1,b:b2,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b8,x:b0,y:b3,
+03000000a30600000c04000000000000,Saitek P2900,a:b1,b:b2,back:b12,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b0,y:b3,
+03000000a30600000cff000000000000,Saitek P2500 Force Rumble Pad,a:b2,b:b3,back:b11,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:b7,rightx:a2,righty:a3,x:b0,y:b1,
+03000000a30600001af5000000000000,Saitek Cyborg,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a4,start:b9,x:b0,y:b3,
+03000000a306000020f6000000000000,Saitek PS2700,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a4,start:b9,x:b0,y:b3,
+03000000a30600002106000000000000,Saitek PS1000,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a4,start:b9,x:b0,y:b3,
+03000000a306000022f6000000000000,Cyborg V.3 Rumble Pad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:+a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:-a3,rightx:a2,righty:a4,start:b9,x:b0,y:b3,
+03000000a306000023f6000000000000,Saitek Cyborg V.1 Game pad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a4,start:b9,x:b0,y:b3,
+03000000ac0500002c02000000000000,IPEGA,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b8,leftstick:b13,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b9,rightstick:b14,righttrigger:b7,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000ac0500003d03000000000000,GameSir,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000ac0500004d04000000000000,GameSir,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000b50700001203000000000000,Techmobility X6-38V,a:b2,b:b3,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b0,y:b1,
+03000000b50700001403000000000000,Impact Black,a:b2,b:b3,back:b8,leftshoulder:b4,leftstick:b10,lefttrigger:b5,leftx:a0,lefty:a1,rightshoulder:b6,rightstick:b11,righttrigger:b7,rightx:a3,righty:a2,start:b9,x:b0,y:b1,
+03000000b80500000210000000000000,Trust Gamepad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000b80500000410000000000000,Elecom Gamepad,a:b2,b:b3,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b1,
+03000000b80500000610000000000000,Elecom Gamepad,a:b2,b:b3,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b1,
+03000000bc2000000055000000000000,Betop BFM Gamepad,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,
+03000000bc2000006012000000000000,Betop 2126F,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000bc2000006312000000000000,Betop Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000bc2000006412000000000000,Betop Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000bd12000002e0000000000000,Dual USB Vibration Joystick,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b9,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b10,righttrigger:b5,rightx:a3,righty:a2,start:b11,x:b3,y:b0,
+03000000bd12000015d0000000000000,Nintendo Retrolink USB Super SNES Classic Controller,a:b2,b:b1,back:b8,leftshoulder:b4,leftx:a0,lefty:a1,rightshoulder:b5,start:b9,x:b3,y:b0,
+03000000c01100000555000000000000,Betop Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000c01100000591000000000000,Speedlink Torid,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000c01100000655000000000000,Betop Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000c01100001352000000000000,Battalife Joystick,a:b6,b:b7,back:b2,leftshoulder:b0,leftx:a0,lefty:a1,rightshoulder:b1,start:b3,x:b4,y:b5,
+03000000c82d00000060000000000000,8Bitdo SF30 Pro,a:b1,b:b0,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b4,y:b3,
+03000000c82d00000061000000000000,8Bitdo SF30 Pro,a:b1,b:b0,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b2,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b4,y:b3,
+03000000c82d00002038000000000000,8bitdo,a:b1,b:b0,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b2,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b4,y:b3,
+03000000d620000011a7000000000000,Switch,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000d62000001d57000000000000,Airflo PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000d62000006000000000000000,Tournament PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000d62000006d57000000000000,OPP PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000d62000006dca000000000000,PowerA Pro Ex,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000d62000009557000000000000,Pro Elite PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000d62000009f31000000000000,Pro Ex mini PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000d6200000c757000000000000,Pro Ex mini PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000d6200000e557000000000000,Batarang,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000d81400000862000000000000,HitBox Edition Cthulhu+,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b5,lefttrigger:b4,rightshoulder:b7,righttrigger:b6,start:b9,x:b0,y:b3,
+03000000d81d00000b00000000000000,BUFFALO BSGP1601 Series ,a:b5,b:b3,back:b12,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b8,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b9,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b13,x:b4,y:b2,
+03000000d81d00000f00000000000000,iBUFFALO BSGP1204 Series,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000d81d00001000000000000000,iBUFFALO BSGP1204P Series,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000d90400000200000000000000,TwinShock PS2,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a3,righty:a2,start:b9,x:b3,y:b0,
+03000000e30500009605000000000000,PS to USB convert cable,a:b2,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b3,y:b0,
+03000000e82000006058000000000000,Cideko AK08b,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000efbe0000edfe000000000000,Monect Virtual Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a5,rightx:a3,righty:a4,start:b9,x:b3,y:b0,
+03000000f025000021c1000000000000,Gioteck PS3 Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000f0250000c183000000000000,USB gamepad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+03000000f0250000c283000000000000,Gioteck,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000f0250000c383000000000000,Gioteck VX2 Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000f0250000c483000000000000,Gioteck VX2 Controller,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000fa1900000706000000000000,Team 5,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000fa190000f0ff000000000000,Acteck AGJ-3200,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+03000000fa2d00000100000000000000,3DRUDDER,leftx:a0,lefty:a1,rightx:a5,righty:a2,
+03000000ff1100003133000000000000,SVEN X-PAD,a:b2,b:b3,back:b4,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,righttrigger:b9,rightx:a2,righty:a4,start:b5,x:b0,y:b1,
+03000000ff1100004133000000000000,USB gamepad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a4,righty:a2,start:b9,x:b3,y:b0,
+03000000ffff00000000000000000000,GameStop Gamepad,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+031`1
+050K0f0{0
+051_1
+061110000000Z
+061[1q1
+071A1
+081o1
+082<2@2D2H2L2P2T2
+091C1
+0;0S0d0y0
+0<1J1u1
+0=0X0|0
+0A0?1N1f1~1
+0C0K0h0n0v0~0
+0D0W0\0v0{0
+0D0]0|0
+0D1N1
+0D1V1
+0F0e0j0y0
+0H1L1P1T1X1\1`1d1>2W2x2
+0J0|0
+0J1P1
+0K1w1
+0L1\1u1
+0\1u1
+0_1h1
+0_1x1
+0`4d4h4l4p4t4x4|4
+0e1<4B4H4
+0v0b1
+1	2.2u2
+1	2;2[2
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1 1+161G1]1
+1 1,151<1E1L1Z1c1i1t1}1
+1 141H1\1p1
+1 2$2(2,202
+1!2J2g2{2
+1"1&1,10161:1@1D1J1N1T1X1^1b1h1l1r1v1|1
+1"1(1,12161<1@1F1J1P1T1Z1^1d1h1n1r1x1|1
+1"1(1.141:1@1F1L1R1
+1"111K1P1_1y1~1
+1"121B1V1f1v1
+1"161F1R1f1r1
+1"222G2L2V2[2f2l2z2
+1#191P1g1
+1#3{3
+1$1+151;1h1l1p1t1x1
+1$121J1
+1%171P1
+1%1D1X1
+1%2@2[2v2
+1&1+1
+1&161>1F1z1
+1&161F1V1f1v1
+1'191d1}1
+1'1H1w1
+1'212e2m2v2{2
+1'252<2H2R2
+1'2=2m2Y3
+1(111X1
+1)1D1H1L1P1T1
+1+1;1K1[1k1{1
+1+1;1V1k1w1
+1+1H1g1z2
+1.282z2
+1/141q1
+1/282I2r2y2
+1/292
+1/2N2u2
+101L1
+111S1g1{1
+121J1V1d1
+123K3l3
+131022120000Z
+132C4I4P4V4 5
+141022000000Z
+142B2a2s2
+162r2
+172F2P2
+181004000000Z
+190930195647Z0#
+1;2T2
+1<3X3x3
+1D1X1
+1G2~2
+1R2h2z2
+1S2l2
+1T1_1w1
+1X1b1
+1]1d1
+1`3n3|3
+1a2h2\3`3d3h3l3p3t3x3|3
+1b2r2
+1d1n182F2Q2e2x2
+1j2w2
+1q1{1T2_2g2}2
+2	3b3{3
+2 2$2(2
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2 2&2*20242:2>2D2H2N2R2X2\2b2f2l2p2v2z2
+2!252I2
+2"2&2,20262:2@2D2J2N2T2X2^2b2h2l2r2v2|2
+2"222?2O2^2k2{2
+2"242<2D2|2
+2"262F2R2f2r2
+2#2L2{2
+2$2.2<2y2
+2$282L2`2t2
+2$2<2K2X2h2m2
+2$3N3l3
+2%202D2W2a2
+2%3,3
+2%3/3
+2%3Q3
+2&2024282<2@2
+2&2<2}2
+2'232
+2(252d2
+2(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+2)2D2
+2*3F3g3
+2+2;2K2[2k2{2
+2+2;2K2u2
+2,3:3R3r3x3
+2-3<3
+2.2F2V2f2v2
+203h3
+211007120000Z0M1
+211110000000Z0b1
+21262E2_2d2s2
+241022000000Z0G1
+243>3
+243T3`3
+252O2p2
+253k3
+263Z3
+281022120000Z0r1
+282`2
+284T4t4
+2<2W2p2
+2<2_2
+2@2R2Y2r2y2
+2@3Z3
+2F2'3
+2F2R2\2o2w2
+2G2f2n2
+2H3U3`3k3
+2H4L4P4T4X4\4`4d4
+2L2S2Z2d2n2x2
+2L3Z3i3-434W4q4
+2O3[3
+2X3a3
+2Z3z3
+2\5`5d5h5
+2c2m2
+2http://crl3.digicert.com/DigiCertAssuredIDCA-1.crl08
+2http://crl4.digicert.com/DigiCertAssuredIDCA-1.crl0w
+2k3x3
+3	4*4Z4
+3	4>4C4_4d4l5q5
+3	4J4w4
+3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+3 3$3*3.34383>3B3H3L3R3V3\3`3f3j3p3t3z3~3
+3 3&3*30343:3>3D3H3N3R3X3\3b3f3l3p3v3z3
+3 323O3Z3e3u3
+3 363@3|3
+3!3&3+3
+3!3A3a3r3
+3"3'31363;3E3J3O3Y3^3c3m3r3w3
+3"4;4T4
+3#3:3Y3
+3$3\3
+3$3\3k3p3
+3$3b3f4
+3%414
+3&3>3\3~3
+3&3Q3f3v3
+3'393F3v3
+3'4P4
+3(3034383<3
+3(323t3~3
+3(3<3P3d3x3
+3)4`5d5h5l5p5t5x5|5
+3+373G3[3g3{3
+3+3;3K3g3{3
+3+3E3J3Y3s3x3
+3+3F3[3p3
+3+3L3T3\3d3l3
+3,3A3k3
+3-bit IMA ADPCM currently not supported
+3.3E3
+3.3w3
+3/4K4d4
+311110000000Z0e1
+313z6
+314K4t4
+33333
+335;5C5K5S5[5m5
+364i4
+373e3z3
+394c4
+3:4o4
+3:6D6i6
+3;3X3m3
+3?4H4
+3?4M4
+3@4{4
+3A3e3
+3A4L4T4m4z4
+3D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
+3F4z4
+3H4c4
+3L3n3
+3T3p4
+3T5X5\5`5
+3V4_4
+3X3j3r3
+3X4o4
+3Z4>5_5
+3\3c3s3
+3]3%5A5
+3_^[]
+3f4w;
+3u4}<B=*?
+3w4k6	7
+3|j},
+4	4&4+42494@4G4N4U4\4f4l4
+4	5&5+5:5W5\5k5
+4 4$4
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+4 4$4*4.44484>4B4H4L4R4V4\4`4f4j4p4t4z4~4
+4 4.4@4`4i4v4
+4 404@4P4`4p4
+4 5C5f5
+4!6Z6
+4"424B4R4b4r4
+4"5;5a5|5
+4#4*41484B4H4l4p4t4x4|4"9t9y9
+4$4(4.42484<4B4F4L4P4V4Z4`4d4j4n4t4x4~4
+4%5E5v5{5
+4&4-4q4.565<5
+4&404;4
+4&424P4
+4&474A4
+4(5`5q5
+4*525<5G5b5
+4+4;4K4[4k4{4
+4+4;4K4f4{4
+4+4V4n4
+4,4e4
+4-4@5}6
+4-4R4f4
+40474<4x4
+4080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+41464E4b4g4v4
+41484?4F4M4W4]4
+414Q4f4v4
+41j1t1y1~1*2<2C2`2e2l2s2z2
+424O4k4y5
+42W2m2
+434=4G4M4g4y4
+434Q4k4{4
+444T4s4
+464F4V4n4
+46658M8l8
+466g6
+4;4T5[5
+4;5F5N5g5q5|5g6
+4=4J4
+4C5_5
+4D6`6
+4F5_5
+4I4N4Z4_4
+4J5\5
+4J5k5
+4P4b4u4
+4SVW3
+4T5g5h8
+4U5n5
+4[5q5
+4g6w6"81:
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+4rt)A
+5 5$5(5,5054585<5@5D5
+5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
+5 5$5(5,50545K5
+5 5A5Z5
+5 6T6q6?8
+5!5%5+5/55595?5C5I5M5S5W5]5a5g5k5q5u5{5
+5!5-595J5Y5j5v5
+5!5<5A5L5U5r5{5
+5!5G5a5
+5"505>5M5S5Z5`5h5n5
+5"525F5R5b5r5
+5$5(5.52585<5B5F5L5P5V5Z5`5d5j5n5t5x5~5
+5%5/5=5N5S5b5
+5%656
+5%7H7o7
+5&565F5V5f5r5
+5'505k5
+5'5@5
+5)6B6[6n6|6
+5+5;5G5[5k5{5
+5+5C5[5k5
+5+6Q6
+5,555G5{5
+5,575N5W5]5q5|5
+5,5?5[5o5
+5,8084888
+5-5N5}5
+5.5D5a5
+5.5L5n5
+504944564944
+50N0g0z0
+535F5T5f5
+555J5Q5h5
+565J5o5
+575V5k5{5
+576A6F6K6
+585J5n6
+586Q6r6
+596R6W8
+596n6
+5<5k5
+5C5V6[6i6n6
+5D6L9y9
+5G6d6
+5H7y7$9t9
+5O5e5u5
+5P6X6^6
+5R6Y6`6
+5T5`5f5U6a6-7A7h7
+5U5q5
+5X6\6`6d6h6l6p6t6x6|6
+5Z6|6
+5a8p8
+5cjMT
+5d6h6l6
+5f5u5~5
+5f6k6
+5http://cacerts.digicert.com/DigiCertAssuredIDCA-1.crt0
+5p5t5x5
+6 6$6(6,6064686<6@6D6
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+6 6/6L6Q6`6}6
+6"6(6
+6"6(6,62666<6@6F6J6P6T6Z6^6d6h6n6r6x6|6
+6"626B6V6b6v6
+6"666F6V6f6v6
+6$6;6K6[6k6{6
+6$6K6P6^6f6l6
+6%6)6/63696=6C6K6
+6%636e6s6
+6%6>6K6Y6
+6&626B6V6f6v6
+6&6D6X6
+6'6.646C6J6P6_6f6l6|6
+6'616
+6'6@6
+6(6@6^6
+6)696A6w6
+6*6B6M6e6p6v6
+6*6e6
+6*7=7D7\7c7j7q7x7
+6+6;6K6[6g6{6
+6+6;6K6[6k6{6
+6,6H6i6y6~6
+6-747K7
+6.6S6g6
+6.7O7p7
+606B6K6
+61;p;
+636R6
+646s6
+656I6
+666;6T6Y6
+676o6k7
+686Y6v6
+6:6`6]7
+6;6N7
+6;7v7
+6B7|8
+6C7d7
+6G7N8
+6K6h6
+6N8j8
+6R7`7u7
+6W7^7e7l7s7z7
+6Y7`7e7l7s7z7
+6[6w7
+6e6~6
+6q729
+6s6=7D7
+7	8T8[8b8u8|8
+7 7$7(7,7074787
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+7 7$7(7,7074787<7@7D7H7L7Q7q7
+7 7$7l7p7t7x7|7
+7 787r7~7
+7!7,777R7r768
+7!7-7
+7!7074787<7@7D7H7L7P7T7X7\7`7d7h7l7
+7!787J7p7x7
+7!7@7
+7"7&7,70767:7@7D7J7N7T7X7^7b7h7l7r7v7|7
+7#7*7=7D7M7
+7$7+72797@7G7N7~7
+7$7A7F7U7r7w7
+7$8*82878B8H8M8u8{8
+7%7F7b7
+7&727F7V7f7r7
+7&767@7I7V7
+7&767F7V7f7v7
+7'7G7[7g7{7
+7'8H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+7'8J8m8
+7(7<7P7d7x7
+7)8=8R8c8
+7+7;7G7W7k7w7
+7/747D7^7c7s7
+717>7V7t7
+727@7N7`7q7
+737<7q7z7
+747M7]7k7}7
+777K7p7
+777T7
+778W8`8s8
+779x9
+78696e70757403000000000000000000,Fightstick TES,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,lefttrigger:a2,rightshoulder:b5,righttrigger:a5,start:b7,x:b2,y:b3,
+797C7a7v7}8
+797X7
+7:7[7k7{7
+7<7V7f7v7
+7<7Y7c8
+7<7Y7u7
+7>9O9?;K;
+7A7d7p7x7
+7A8M8k8
+7A8p8~9
+7D8X8`8d8h8l8p8t8x8|8
+7G7z7I8k8p8
+7H7O7Z7
+7I8N8_8~8
+7L7T7
+7M8W8a8k8u8
+7N80999
+7\8j8x8
+7]7|7
+7]8s8$9<9L9
+7]9v9:;
+7_^[]
+7a7z7
+7b8k8
+7e8v8
+7h8z8
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+7~Q0-
+8	8,838:8A8h8m8t8{8
+8 8$8(8,808
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8`9d9h9l9p9G:^:e:
+8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8 8&8*80848:8>8D8H8N8R8X8\8b8f8l8p8v8z8
+8 8(8,8084888<8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+8!8?8V8n8
+8!9,9@9F9
+8!9r;
+8"828F8V8f8v8
+8#8(8;8A8H8
+8%8-858=8E8M8[8x8
+8&9j9&:^:
+8'9H9p9
+8(8:8L8Q8`8
+8)959G9e9s9~9
+8*8A8
+8+878K8[8g8{8
+8+8;8K8W8k8{8
+8-8^8~8
+8/8I8N8^8x8}8
+8/8T8k8x8
+838>8
+84888<8@8D8H8L8P8T8|8
+849>9
+868;8J8g8l8
+8859-1
+88:<:@:D:H:L:P:T:X:`:p:
+8:8A8F8O8^8g8v8
+8:8T8u8
+8:8}8
+8;8A8
+8@8V8f8
+8G9Q9
+8H8p8y8
+8I8f8
+8R9k9
+8S9v9
+8U9v9
+8V"uZf
+8^ tS
+8^:~:
+8e<n<)=
+8m9 :4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:
+8s9[:d:
+8y8~8
+9 9$9(9,9094989
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+9 9$9(9,9094989<9]9
+9 9$9*9.94989>9B9H9L9R9V9\9`9f9j9p9t9z9~9
+9 9%969=9K9]9
+9 9(90989@9H9P9X9`9h9p9x9
+9 939I9g9
+9!9-9
+9":):9:e:l:
+9#9D9\9
+9#;8;Y;
+9%9<9U:
+9%9D9I9d9i9v9
+9%:D:}:
+9%<B<
+9&969F9V9f9v9
+9&9;9^9r9
+9&9_9
+9&:u:
+9'9-989
+9'969?9N9W9f9o9~9
+9'979K9[9k9
+9'9D9c9v:
+9':G:f:
+9(92:R:j:
+9(:6<.=	>
+9)9o9y9
+9)9z9
+9*949>9H9R9\9f9p9B:
+9*;6;
+9+9;9G9[9k9{9
+9+9;9K9[9k9{9
+9+9?9H9d9i9
+9,<M<c<m<u<{<
+9-9L9m9
+9-:L;k;
+9.9S9j9
+9/989H9
+90:Y:k:y:
+90<4<8<<<
+919K9
+92:<:J:V:\:
+92:]:g:
+93:U:^:t:|:
+94999I9c9h9x9
+949m9
+94:l:W;
+95:J:z:;;M;[;
+979l9u9
+97:>:u>
+97:H:Y:
+989R9Z9b9j9
+989y:
+98v\SV
+9:9L9S9p9u9|9
+9;9O9
+9<:N:U:r:w:~:
+9<:P:
+9=9u9
+9@9G9
+9B:_=
+9H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+9J9u9
+9N:]:
+9S9h9y9
+9Y9~9];y;
+9YDu_
+9^:t:
+9`:y:
+9b9~:
+9l:p:t:x:|:
+9x$u0
+9y:(;
+:	;5;B;{;(<;<P<
+: :$:(:,:0:4:8:<:@:D:H:L:P:
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+: ;&;q;
+: <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+:!:(:
+:!:(:2:8:n:
+:!:M:
+:":6:B:V:f:v:
+:#:(:
+:$:(:.:2:8:<:B:F:L:P:V:Z:`:d:j:n:t:x:~:
+:$:4:N:S:c:}:
+:$:[:g:{:
+:$;C;p;
+:%<D<
+:&:2:B:V:f:r:
+:&:6:F:^:|:
+:':;:K:[:k:w:
+:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:H;
+:):|:
+:*:6:B:j:
+:*;q;
+:+:;:K:[:k:{:
+:+:A:W:k:w:
+:+;|;
+:,:>:_:h:u:
+:,:@:T:h:|:
+:,:K:
+:,;G;[;g;{;
+:-:K:d:
+:-;4;;;M;T;v;};
+:-<F<g<
+:1:D:
+:1:H:q:
+:1:`:/;u;
+:3;o<
+:4?G?L?f?k?
+:5:X:
+:6;c;J=c=
+:7:@:I:^:h:
+::;W;l;
+:;>tn;
+:<;];z;
+:>:W:
+:>:v:
+:@:F<@Z
+:A:U:
+:A:{:
+:E;e;
+:I:N:i;
+:I;f;
+:Y;v;
+:Y;};
+:_^[]
+:`;i;v;
+:h;|;
+; ;$;(;,;0;4;8;
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+; ;:;T;f;x;
+; <<<k<"=j=
+;!;:;R;Y;p;
+;";(;,;2;6;<;@;F;J;P;T;Z;^;d;h;n;r;x;|;
+;";);0;O<
+;";2;F;V;n;
+;#;*;1;8;B;H;l;p;t;x;|;
+;#;6;J;T;
+;#<(<@<E<m<r<
+;$;Z;q;
+;$;o<
+;%;-;3;C;W;
+;%<<<
+;%<]<
+;&;6;B;V;f;v;
+;&;6;F;V;f;v;
+;&;@;a;
+;&;u<
+;(;<;`;n;K=
+;(;>;T;j;
+;(;@;y<
+;(<T<o<
+;);.;8;=;W;\;f;k;u;z;
+;);3;?;L;Y;f;s;
+;);D;L;
+;*;];n;
+;+;7;G;c;{;
+;+;:;y;~;
+;+;;;K;[;k;
+;-;N;i;
+;-<@=D=H=L=P=T=X=\=
+;.;Q;t;
+;/<a<V=|=
+;0;D;X;l;
+;1<T<Y<b<
+;1<U<_<r<
+;2<D<R<V<\<`<f<j<p<t<z<~<
+;3;t;
+;4;T;t;
+;4<l<
+;6<b<
+;7<J<j<
+;9;>;N;h;m;};
+;;;A;J;Q;
+;==H=P=c=w=
+;?<D<
+;B;P;
+;D<Z<s<
+;F ~A;V$~<
+;F4u	
+;F<c<
+;J<\<b<i<
+;J=O=i=n=
+;M<x<
+;T;X;\;`;d;
+;T;u;
+;T<a<l<w<
+;U<$=E=u=
+;]=h=p=
+;_^[]
+;opengl
+;opengles2
+;w$|	_^3
+;w,t!V
+;w;};
+;z(|n
+< <$<(<,<0<p<t<x<|<
+< <$<<<@<D<H<`<d<h<l<
+< <4<H<\<p<
+< <M<
+< r\<
+<!<+<5<?<I<S<]<g<
+<!<w<
+<"<&<,<0<6<:<@<D<J<N<T<X<^<b<h<l<r<v<|<
+<"<(<,<2<6<<<@<F<J<P<T<Z<^<d<h<n<r<x<|<
+<"<,<f<
+<"<2=Z=
+<"=+=I=P=Z=u={=
+<#<*<1<8<?<I<O<
+<#<0<4<8<<<@<D<
+<#<3<9<D<K<Q<Y<^<
+<$<1<?<I<T<]<u<
+<$<`<g<n<
+<%<3<L<[<q<
+<%=,=
+<%=B=Y=
+<%=V=
+<&<6<F<V<f<v<
+<&<^=
+<'<,<<<Y<^<n<
+<'<1<
+<)<=<k<r<
+<)<I<l<
+<+<;<K<[<g<{<
+<+<;<K<[<k<
+<+<;<K<[<k<{<
+<,<:<
+<,<D<
+<-t	<+t
+<.<><L<^<~<
+<.=s=
+</<|=`>
+</assembly>
+<0<B<x<
+<0A0X0]0
+<0tk<1tgh
+<0|?<9
+<0|P<9
+<1<@<V<
+<2<E=
+<2<Z<
+<2===M=p>
+<3=y=
+<4=@=v=
+<6<B<R<b<r<
+<6=@=
+<7=P=q=
+<7=S>r>
+<9<F<
+<==P=T=X=\=`=d=h=l=p=t=x=|=
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<@=J=
+<F=P=
+<Failed loading 
+<G<L<z<
+<I=b=
+<L=P=T=X=\=
+<L=r=
+<O=T=i=
+<\<p<
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+<a|-<f
+<a|2<f
+<cUUUUU
+<l<q<
+=	>*>G>c>
+=	>O>
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+= =$=(=,=0=4=y=
+= =&=*=0=4=:=>=D=H=N=R=X=\=b=f=l=p=v=z=
+= =2=F=V=b=v=
+=!=&=6=S=X=h=
+=!>O>
+="=&=,=0=6=:=@=D=J=N=T=X=^=b=h=l=r=v=|=
+=#=*=1=8=B=H=h=l=p=t=x=|=
+=$=)=
+=$=8=L=`=t=
+=$=]>
+=$?(?,?0?
+=%>f>0?
+=&=2=F=R=f=v=
+=&=6=B=R=b=r=
+=&===B=q=
+=&>E>a>
+=(>j>
+=)=7=E=Q=k=p=
+=*=5=t=
+=+=5=?=W=
+=+=;=G=[=k={=
+=+=;=K=[=k={=
+=+=C=[=k={=
+=,=;=
+=,?B?l?
+=.=F=\=b=i=o=
+=/=S=t=
+=0>:>
+=0H0P0f0w0
+=1=6=M?R?n?s?
+=1=7=P=Z=f=|=
+=1=:=A=H=O=V=]=g=q=x=
+=1=_=q=
+=2=9=@=G=q=
+=3>`>g>x>
+=4=F=}=
+=4=S=
+=6=W=
+=7=F=R=m=
+=8=T=b>
+=:=L=S=l=s=z=
+=<>@>D>H>L>P>T>X>
+==YV12w
+=>>_>
+=@=D=H=L=
+=@zj?@L~@@\GA@l
+=G=X=\>
+=IYUV
+=IYUVt
+=IYUVu
+=K=[=$>=>L>V>r>
+=L>Q>k>p>
+=N>s>
+=NV12
+=NV12t
+=NV12u1
+=NV21
+=NV21t
+=NV21u?
+=NV21w,tA=
+=NV21wNt}=
+=OES 
+=OES u
+=OES wAt8=
+=OES wst\=
+=RIFFuRj
+=S>[>e>l>s>z>
+=UYVY
+=UYVYt
+=UYVYu]
+=WAVE
+=YUY2
+=YUY2t
+=YUY2t$=UYVYuH
+=YUY2t(=YVYU
+=YUY2wCt:=NV12w%t
+=YV12
+=YV12t
+=YV12u#
+=YV12w7t<=NV21t5=NV12t.
+=YV12w:tQ=NV21t
+=YVYU
+=YVYUt
+=YVYUt#=IYUVt
+=YVYUtH=UYVYt$P
+=datau.9E
+=fmt u<9E
+=h=~=
+=v<y5
+> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>t>x>
+> >$>*>.>4>8>>>B>H>L>R>V>\>`>f>j>p>t>z>~>
+> >&>
+> >&>*>0>4>:>>>D>H>N>R>X>\>b>f>l>p>v>z>
+> >->7>A>K>d>|>
+> >0>M>R>b>
+> >5><>S>u>
+> ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+>!>;>\>
+>!?z?
+>"?6?K?_?
+>#>*>1>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>
+>#><>C>J>Q>X>b>h>'?Z?l?s?
+>#?.?B?O?c?m?
+>$>]>t>
+>%>->8>F>b>
+>&>6>B>V>f>v>
+>&>6>F>V>f>
+>&?G?d?
+>'>;>K>[>k>{>
+>'>t>
+>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>
+>(>2><>F>P>Z>d>n>x>
+>(><>P>d>x>
+>(?1?L?i?
+>(?H?b?
+>)>x>
+>+>;>K>[>k>w>
+>+>A>
+>,>M>l>
+>.>R>v>
+>2>E>P>W>b>l>
+>3>S>s>
+>3>g>n>
+>4?8?<?@?D?H?L?P?T?
+>5>X>{>
+>6?r?
+>8>h>
+>8???F?M?T?[?b?i?
+>9?o?u?
+>:>I>
+>:>[>q>
+>:?E?\?
+><>a>
+>=>D>t>
+>=>T>_>w>
+>=YVYU
+>>?z?
+>?>[>
+>B>U>
+>C>_>
+>G>~>
+>I>N>
+>IYUVu
+>J?T?v?
+>K?V?j?w?
+>P?i?
+>U?_?
+>V>`>
+>W?e?p?
+>YV12u
+>a?i?t?
+>datatY
+>e?m?
+>h>r>B?M?U?k?|?
+>j?p?
+>o?t?
+>s>x>
+? ?$?
+? ?$?(?c?i?q?y?
+? ?$?*?.?4?8?>?B?H?L?R?V?\?`?f?j?p?t?z?~?
+? ?%?B?G?
+?!?=?S?|?
+?!?w?
+?"?,?6?f?
+?"?6?B?R?f?
+?"?6?B?V?b?v?
+?"?6?F?V?f?v?
+?#?,?5?I?O?c?i?
+?$?(?.?2?8?<?B?F?L?P?V?Z?`?d?j?n?t?x?~?
+?$?)?6?S?s?
+?$?4?D?T?d?
+?$?p?
+?&?+?G?L?i?n?
+?&?I?
+?&?]?
+?'?1?s?}?
+?(?O?f?k?
+?)?2?R?[?d?
+?)?H?
+?*?G?L?\?y?~?
+?+?;?K?[?k?{?
+?+?D?d?{?
+?,?@?T?h?|?
+?/?M?~?
+?/lj,D
+?1?G?[?q?
+?2?S?l?
+?5zlO
+?;?W?
+?>UUUUU
+?IUUUUU
+?LUUUUU
+?M?U?a?h?
+?P?W?w?
+?Q?[?a?p?
+?T?^?
+?UUUUUU
+?Unsupported YUV format
+?`?j?
+?cUUUUU
+?g?}?
+?k?s?
+?v<y5
+@ %z8
+@.data
+@.reloc
+@;E u
+@result
+@tt<h
+A BMP image contains a pixel with a color out of the palette
+A(hHZ
+A4^9PDt	P
+A@<4w
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+AC Back
+AC Bookmarks
+AC Forward
+AC Home
+AC Refresh
+AC Search
+AC Stop
+ADVAPI32.dll
+AP_^[
+APassed a NULL condition variable
+ASCII
+Abort
+Acquiring DirectInput device
+AdjustWindowRectEx
+Again
+Aj h0
+All SDL assertions between last init/quit:
+AltErase
+Always Ignore
+An unknown error occured
+Application
+Application didn't initialize properly, did you include SDL_main.h in the file containing your main() function?
+Application not compiled with SDL %d.%d
+Assertion Failed
+Assertion failure at %s (%s:%d), triggered %u %s:
+AttachConsole
+Audio device already open
+Audio device has a callback, queueing not allowed
+Audio device in use
+Audio device is already opened
+Audio filter pointer is NULL
+Audio subsystem is not initialized
+Audio target '%s' not available
+AudioFastForward
+AudioMute
+AudioNext
+AudioPlay
+AudioPrev
+AudioRewind
+AudioStop
+AuthenticAMD
+AvRevertMmThreadCharacteristics
+AvSetMmThreadCharacteristicsW
+B1M1[1e1|3
+B4_9pD^[t	P
+B4_9pD^t	P
+BMP file with bad dimensions (%dx%d)
+Backspace
+BeginScene()
+Bellevue1
+Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
+BitBlt
+Blit combination not supported
+Break
+BrightnessDown
+BrightnessUp
+Button name too large: %s
+C-yh/
+CINTLGNT.IME
+CONFLICTINGRENDERSTATE
+CONFLICTINGTEXTUREFILTER
+CONFLICTINGTEXTUREPALETTE
+CRITICAL
+Calculator
+CallWindowProcW
+Caller doesn't have priority
+Can't add partial sample frames
+Can't change SDL_WINDOW_VULKAN window flag
+Can't change YUV plane types in-place
+Can't create renderer for NULL surface
+Can't request partial sample frames
+Can't write to read-only memory
+Cancel
+CapsLock
+ChangeDisplaySettingsEx() failed: %s
+ChangeDisplaySettingsExW
+ChoosePixelFormat
+Chunk count in WAVE file exceeds limit of %u
+Clear
+Clear / Again
+ClientToScreen
+ClipCursor
+CloseClipboard
+CloseHandle
+CloseTouchInputHandle
+CoCreateInstance
+CoInitialize
+CoInitializeEx
+CoTaskMemFree
+CoUninitialize
+Coinitialize
+CombineRgn
+CompareStringA
+Computer
+Conflicting window flags specified
+Control requested is not available
+Could not allocate space to read DB into memory
+Could not create EGL context
+Could not create EGL context (context attributes are not supported)
+Could not create GL context
+Could not create GLES window surface
+Could not find RIFF or WAVE identifiers (not a Waveform file)
+Could not get EGL display
+Could not initialize EGL
+Could not initialize OpenGL / GLES library
+Could not load EGL library
+Could not parse EGL version string: %s
+Could not read DB
+Could not read MS ADPCM format header
+Could not read RIFF form type
+Could not read RIFF header
+Could not read custom coefficients in MS ADPCM format header
+Could not read data of WAVE data chunk
+Could not read data of WAVE fmt chunk
+Could not retrieve EGL function eglBindAPI
+Could not retrieve EGL function eglChooseConfig
+Could not retrieve EGL function eglCreateContext
+Could not retrieve EGL function eglCreatePbufferSurface
+Could not retrieve EGL function eglCreateWindowSurface
+Could not retrieve EGL function eglDestroyContext
+Could not retrieve EGL function eglDestroySurface
+Could not retrieve EGL function eglGetConfigAttrib
+Could not retrieve EGL function eglGetDisplay
+Could not retrieve EGL function eglGetError
+Could not retrieve EGL function eglGetPlatformDisplay
+Could not retrieve EGL function eglGetProcAddress
+Could not retrieve EGL function eglInitialize
+Could not retrieve EGL function eglMakeCurrent
+Could not retrieve EGL function eglQueryAPI
+Could not retrieve EGL function eglQueryString
+Could not retrieve EGL function eglSwapBuffers
+Could not retrieve EGL function eglSwapInterval
+Could not retrieve EGL function eglTerminate
+Could not retrieve EGL function eglWaitGL
+Could not retrieve EGL function eglWaitNative
+Could not retrieve OpenGL functions
+Could not seek data of WAVE data chunk
+Could not seek in file
+Could not seek to WAVE chunk data
+Could not seek to WAVE chunk header
+Couldn't convert image to %d bpp
+Couldn't create XInput haptic mutex
+Couldn't create XInput haptic thread
+Couldn't create a prefpath.
+Couldn't create audio buffer queue
+Couldn't create audio thread
+Couldn't create mixer lock
+Couldn't create semaphore
+Couldn't create window
+Couldn't find GetModuleFileNameExW
+Couldn't find any displays
+Couldn't find dialog control of the default enter-key button
+Couldn't find display mode match
+Couldn't find dummy surface for window
+Couldn't find joystick in haptic device list
+Couldn't find mapping for device (%d)
+Couldn't find matching EGL config
+Couldn't find matching render driver
+Couldn't find monitor data
+Couldn't get DPI
+Couldn't get clipboard data
+Couldn't load GL function %s: %s
+Couldn't load GLES2 function %s: %s
+Couldn't load psapi.dll
+Couldn't locate our .exe
+Couldn't locate our prefpath
+Couldn't lock event queue
+Couldn't open %s
+Couldn't open clipboard
+Couldn't parse %s
+Couldn't parse GUID from %s
+Couldn't parse name from %s
+Couldn't register application class
+Couldn't set clipboard data
+CrSel
+CreateBitmap
+CreateCompatibleBitmap
+CreateCompatibleDC
+CreateDCW
+CreateDIBSection
+CreateDXGIFactory
+CreateDevice()
+CreateDirectoryW
+CreateEventW
+CreateFileW
+CreateFontIndirectW
+CreateIconFromResource
+CreateIconIndirect
+CreateOffscreenPlainSurface()
+CreatePixelShader()
+CreateRectRgn
+CreateSemaphoreW
+CreateSystemCursor is not currently supported
+CreateTexture(D3DPOOL_DEFAULT)
+CreateTexture(D3DPOOL_SYSTEMMEM)
+CreateThread
+CreateToolhelp32Snapshot
+CreateWindowExW
+Created renderer: %s
+Creating DirectInput device
+CurrencySubUnit
+CurrencyUnit
+Cursor hot spot doesn't lie within cursor
+Cursor not associated with the current mouse
+Cursors are not currently supported
+D3D9.DLL
+DEBUG
+DEVICELOST
+DEVICENOTRESET
+DISABLED
+DISP_CHANGE_BADFLAGS
+DISP_CHANGE_BADMODE
+DISP_CHANGE_BADPARAM
+DISP_CHANGE_FAILED
+DRIVERINTERNALERROR
+DRIVERINVALIDCALL
+DS4Windows.exe
+DSOUND.DLL
+DXGI.DLL
+Data of WAVE fmt chunk too big
+DecimalSeparator
+DefWindowProcW
+Delete
+DeleteCriticalSection
+DeleteDC
+DeleteObject
+DescribePixelFormat
+Destination pitch is too small, expected at least %d
+Destination rate is equal to or less than zero
+Destination rate is too high
+DestroyIcon
+DestroyWindow
+Device doesn't support rumble
+DialogBoxIndirectParamW
+DigiCert Assured ID CA-1
+DigiCert Assured ID CA-10
+DigiCert Assured ID Root CA0
+DigiCert Inc1
+DigiCert Timestamp Responder0
+DigiCert1%0#
+Direct3DCreate9
+DirectSound
+DirectSound CreateCaptureBuffer
+DirectSound CreateSoundBuffer
+DirectSound GetCurrentPosition
+DirectSound Lock
+DirectSound SetCooperativeLevel
+DirectSound Start
+DirectSound: System doesn't appear to have DX8.
+DirectSound: Unsupported audio format
+DirectSound: failed to load DSOUND.DLL
+DirectSoundCaptureCreate8
+DirectSoundCaptureEnumerateW
+DirectSoundCreate8
+DirectSoundEnumerateW
+DispatchMessageW
+DisplaySwitch
+DragAcceptFiles
+DragFinish
+DragQueryFileW
+DrawTextW
+Dropping back to a slower method.
+E,SVW
+E0C07
+EGL context already created
+EGL implementation does not support no_error contexts
+EGL implementation does not support sRGB system framebuffers
+EGL not initialized
+EGL_BAD_ACCESS
+EGL_BAD_ALLOC
+EGL_BAD_ATTRIBUTE
+EGL_BAD_CONFIG
+EGL_BAD_CONTEXT
+EGL_BAD_CURRENT_SURFACE
+EGL_BAD_DISPLAY
+EGL_BAD_MATCH
+EGL_BAD_NATIVE_PIXMAP
+EGL_BAD_NATIVE_WINDOW
+EGL_BAD_PARAMETER
+EGL_BAD_SURFACE
+EGL_CONTEXT_LOST
+EGL_EXT_platform_base
+EGL_KHR_create_context
+EGL_KHR_create_context_no_error
+EGL_KHR_gl_colorspace
+EGL_NOT_INITIALIZED
+EGL_SUCCESS
+ENABLED
+ERROR
+ERROR: NumPoints = %i
+Eject
+Empty destination palette
+EmptyClipboard
+Enabling actuators
+EndDialog
+EnterCriticalSection
+EnumDisplayDevicesW
+EnumDisplayMonitors
+EnumDisplaySettingsW
+Enumerating DirectInput devices
+Enumerating supported effects
+Error reading from BMP
+Error reading from datastream
+Error seeking in datastream
+Error writing to datastream
+Escape
+Event queue is full (%d events)
+ExSel
+Execute
+ExitProcess
+Extensible WAVE header too small
+ExtractIconExW
+F f;F
+F$0\	
+F$f;F
+F$hHZ
+F0 d	
+F0@u+V
+F32LSB
+F32MSB
+F32SYS
+F49HDt	P
+F4pf	
+F8`g	
+FD _	
+FOURCC pixel formats are not supported
+F\pa	
+F`_^[
+Failed to compile shader:
+Failed to create message window for joystick autodetect
+Failed to create notify device for joystick autodetect
+Failed to create register class for joystick autodetect
+Failed to link shader program
+Failed to load the shader
+Failed to load the shader: %s
+Failed to obtain XInput device capabilities. Device disconnected?
+Fc?u(5
+FhPSQt
+File is not a Windows BMP file
+FlPWQ
+FormatMessageW
+Fp g	
+FreeLibrary
+Ft0b	
+Function not supported
+G0@t	j
+G43G0
+G@PQRVh
+GDI32.dll
+GL 3.x is not supported
+GLES2_CreateRenderer
+GLES2_CreateTexture
+GLES2_DestroyRenderer
+GLES2_RenderReadPixels
+GLES2_RunCommandQueue
+GLES2_UpdateTexture
+GLES2_UpdateTextureYUV
+GL_ARB_ES3_1_compatibility
+GL_ARB_ES3_2_compatibility
+GL_ARB_ES3_compatibility
+GL_ARB_debug_output
+GL_ARB_fragment_shader
+GL_ARB_multitexture
+GL_ARB_shader_objects
+GL_ARB_shading_language_100
+GL_ARB_texture_non_power_of_two
+GL_ARB_texture_rectangle
+GL_ARB_vertex_shader
+GL_CreateTexture
+GL_DestroyRenderer
+GL_EXT_framebuffer_object
+GL_EXT_texture_rectangle
+GL_INVALID_ENUM
+GL_INVALID_OPERATION
+GL_INVALID_VALUE
+GL_NO_ERROR
+GL_OUT_OF_MEMORY
+GL_RenderReadPixels
+GL_RunCommandQueue
+GL_STACK_OVERFLOW
+GL_STACK_UNDERFLOW
+GL_TABLE_TOO_LARGE
+GL_UpdateTexture
+GL_UpdateTextureYUV
+GT_^[
+GenuineIntel
+GetAsyncKeyState
+GetClassInfoExW
+GetClientRect
+GetClipCursor
+GetClipboardData
+GetClipboardSequenceNumber
+GetConsoleMode
+GetCurrentProcess
+GetCurrentThread
+GetCurrentThreadId
+GetCursorPos
+GetDC
+GetDC failed
+GetDIBits
+GetDesc()
+GetDesktopWindow
+GetDeviceCaps
+GetDeviceGammaRamp
+GetDeviceGammaRamp()
+GetDlgItem
+GetDoubleClickTime
+GetDpiForMonitor
+GetDpiForMonitor failed
+GetEnvironmentVariableA
+GetFileSizeEx
+GetFileVersionInfoA
+GetFileVersionInfoSizeA
+GetFocus
+GetKeyState
+GetKeyboardLayout
+GetKeyboardState
+GetLastError
+GetMenu
+GetMessageExtraInfo
+GetMessageW
+GetModuleFileNameExW
+GetModuleFileNameW
+GetModuleHandle() failed with error code %lu.
+GetModuleHandleW
+GetMonitorInfoW
+GetParent
+GetPixelFormat
+GetPresentParameters()
+GetProcAddress
+GetPropW
+GetRawInputData
+GetRawInputDeviceInfoA
+GetRawInputDeviceList
+GetReadingString
+GetRenderTargetData()
+GetStdHandle
+GetSurfaceLevel()
+GetSwapChain()
+GetSystemInfo
+GetSystemMetrics
+GetSystemPowerStatus
+GetTextExtentPoint32A
+GetTextMetricsW
+GetTickCount
+GetTouchInputInfo
+GetUpdateRect
+GetWindowLongW
+GetWindowRect
+GetWindowTextLengthW
+GetWindowTextW
+GetYUVPlanes(): Unsupported YUV format: %s
+GetYUVPlanes[2]: Unsupported YUV format: %s
+Getting Vulkan extensions failed:
+Getting Vulkan extensions failed: vkEnumerateInstanceExtensionProperties returned %s(%d)
+Getting device axes
+Getting effect status
+GlobalAlloc
+GlobalLock
+GlobalMemoryStatusEx
+GlobalUnlock
+Gt_^[]
+G|_^[
+H0F08
+HI9F0~
+HP_^[
+Haptic error %s
+Haptic: Autocenter must be between 0 and 100.
+Haptic: Device does not support setting autocenter.
+Haptic: Device does not support setting gain.
+Haptic: Device does not support setting pausing.
+Haptic: Device does not support status queries.
+Haptic: Device has no free space left.
+Haptic: Effect not supported by haptic device.
+Haptic: Gain must be between 0 and 100.
+Haptic: Internal error on finding supported effects.
+Haptic: Invalid effect identifier.
+Haptic: Invalid haptic device identifier
+Haptic: Joystick isn't a haptic device.
+Haptic: Joystick isn't valid.
+Haptic: Mouse isn't a haptic device.
+Haptic: Rumble effect not initialized on haptic device
+Haptic: SDL_SYS_HapticOpenFromJoystick failed.
+Haptic: SubSystem already open.
+Haptic: There are %d haptic devices available
+Haptic: Unknown direction type.
+Haptic: Unknown effect type.
+Haptic: Updating effect type is illegal.
+Hu5j h
+HuO9C,t
+HygonGenuine
+IDirect3DDevice9_SetPixelShader()
+IDirectInput::CreateDevice
+IDirectInput::Initialize
+IDirectInputDevice8::Acquire
+IDirectInputDevice8::CreateEffect
+IDirectInputDevice8::GetCapabilities
+IDirectInputDevice8::QueryInterface
+IDirectInputDevice8::SendForceFeedbackCommand(DISFFC_RESET)
+IDirectInputDevice8::SendForceFeedbackCommand(DISFFC_SETACTUATORSON)
+IDirectInputDevice8::SetCooperativeLevel
+IDirectInputDevice8::SetDataFormat
+IDirectInputDevice8::SetParameters
+IDirectInputDevice8::SetProperty
+IDirectInputDevice8::Start
+IDirectInputDevice8::Unacquire
+IMM32.dll
+INVALIDCALL
+INVALIDDEVICE
+ISO-8859-1
+IYUVt
+IYUVtN
+IYUVtj
+IYUVu%
+IYUVu5
+Ignore
+ImmAssociateContext
+ImmGetCandidateListW
+ImmGetCompositionStringW
+ImmGetContext
+ImmGetIMEFileNameA
+ImmLockIMC
+ImmLockIMCC
+ImmNotifyIME
+ImmReleaseContext
+ImmSetCompositionStringW
+ImmSetCompositionWindow
+ImmUnlockIMC
+ImmUnlockIMCC
+Indexed pixel formats not supported
+InitializeCriticalSectionAndSpinCount
+Initializing DirectInput device
+InputMapper.exe
+Insert
+Installed Vulkan doesn't implement the VK_KHR_surface extension
+Installed Vulkan doesn't implement the VK_KHR_win32_surfaceextension
+InterlockedCompareExchange
+InterlockedDecrement
+InterlockedExchange
+InterlockedIncrement
+Invalid IMA ADPCM bits per sample of %u
+Invalid IMA ADPCM block size (nBlockAlign)
+Invalid MS ADPCM bits per sample of %u
+Invalid MS ADPCM block size (nBlockAlign)
+Invalid MS ADPCM coefficient index in block header
+Invalid MS ADPCM format header (too small)
+Invalid RWops
+Invalid WAVE fmt chunk length (too small)
+Invalid audio device ID
+Invalid bits per sample
+Invalid block alignment
+Invalid call for the current state
+Invalid channel combination
+Invalid companded bits per sample of %u
+Invalid destination blit rectangle
+Invalid destination channels
+Invalid destination format
+Invalid display index
+Invalid fact chunk in WAVE file
+Invalid message box pointer in dialog procedure
+Invalid number of buttons
+Invalid number of channels
+Invalid number of sample frames in WAVE fact chunk (too many)
+Invalid number of samples per IMA ADPCM block (wSamplesPerBlock)
+Invalid number of samples per MS ADPCM block (wSamplesPerBlock)
+Invalid parameter
+Invalid parent window handle
+Invalid renderer
+Invalid sample rate
+Invalid source blit rectangle
+Invalid source channels
+Invalid source format
+Invalid texture
+Invalid texture format
+Invalid window
+InvalidateRect
+IsClipboardFormatAvailable
+IsDebuggerPresent
+IsIconic
+IsRectEmpty
+IsWindowVisible
+Joystick button name too large: %s
+Joystick hasn't been opened yet
+Joystick only has %d axes
+Joystick only has %d balls
+Joystick only has %d buttons
+Joystick only has %d hats
+K7A^6
+KBDIllumDown
+KBDIllumToggle
+KBDIllumUp
+KERNEL32.dll
+Keypad !
+Keypad #
+Keypad %
+Keypad &
+Keypad &&
+Keypad (
+Keypad )
+Keypad *
+Keypad +
+Keypad +/-
+Keypad ,
+Keypad -
+Keypad .
+Keypad /
+Keypad 0
+Keypad 00
+Keypad 000
+Keypad 1
+Keypad 2
+Keypad 3
+Keypad 4
+Keypad 5
+Keypad 6
+Keypad 7
+Keypad 8
+Keypad 9
+Keypad :
+Keypad <
+Keypad =
+Keypad = (AS400)
+Keypad >
+Keypad @
+Keypad A
+Keypad B
+Keypad Backspace
+Keypad Binary
+Keypad C
+Keypad Clear
+Keypad ClearEntry
+Keypad D
+Keypad Decimal
+Keypad E
+Keypad Enter
+Keypad F
+Keypad Hexadecimal
+Keypad MemAdd
+Keypad MemClear
+Keypad MemDivide
+Keypad MemMultiply
+Keypad MemRecall
+Keypad MemStore
+Keypad MemSubtract
+Keypad Octal
+Keypad Space
+Keypad Tab
+Keypad XOR
+Keypad ^
+Keypad {
+Keypad |
+Keypad ||
+Keypad }
+KillTimer
+LC_ALL
+LC_CTYPE
+LC_MESSAGES
+LX>[]
+LX@[]
+LeaveCriticalSection
+Left Alt
+Left Ctrl
+Left GUI
+Left Shift
+Left Windows
+LoadCursorW
+LoadIconW
+LoadLibraryA
+LoadLibraryW
+LockRect()
+MOREDATA
+MPEG formats not supported
+MS ADPCM with the extensible header is not supported
+MSSCIPYA.IME
+MSTCIPHA.IME
+MapVirtualKeyW
+MediaSelect
+Metal is not supported.
+Microsoft (R) HLSL Shader Compiler 6.3.9600.16384
+Missing data chunk in WAVE file
+Missing desired mode or closest mode parameter
+Missing fact chunk in WAVE file
+Missing fmt chunk in WAVE file
+Missing required coefficients in MS ADPCM format header
+Missing wBitsPerSample field in WAVE fmt chunk
+Mixing buffer was lost
+ModeSwitch
+MulDiv
+N499u$
+N49YDt	Q
+N4SW3
+NEJ(~
+NOTAVAILABLE
+NOTFOUND
+NV12t
+NV12t"
+NV12t&
+NV12t'
+NV21t
+NV21t-
+NV21tB
+NV21tL
+NV21tX
+NV21u
+NV21wDtq
+NVIDIA Corporation 
+Negative swap interval unsupported in this GL
+NhQWS
+No GL driver has been loaded
+No OpenGL context has been made current
+No Vulkan loader has been loaded
+No audio device found
+No available audio device
+No available video device
+No buffer allocated for conversion
+No capture support
+No conversion available for these rates
+No conversion from float to destination format available
+No conversion from source format to float available
+No displays available
+No dynamic GL support in current SDL video driver (%s)
+No hardware accelerated renderers available
+No matching GL pixel format available
+No message system available
+No relative mode implementation available
+No shader matching the requested characteristics was found
+No such device
+No such device.
+No video mode large enough for %dx%d
+No window has focus
+No window texture data
+Not enough resources to create thread
+Nt#j	
+Number of butons exceeds limit of %d
+Number of channels exceeds limit of 255
+Numlock
+OLEAUT32.dll
+OPENGL32.DLL
+OT_^[
+OUTOFVIDEOMEMORY
+O`Vj 
+Only works with same format surfaces
+OpenClipboard
+OpenGL error: %08X
+OpenGL error: GL_INVALID_ENUM
+OpenGL error: GL_INVALID_VALUE
+OpenGL library already loaded
+OpenGL not initialized
+OpenGL shaders: %s
+OpenGL support is either not configured in SDL or not available in current SDL video driver (%s) or platform
+Ot	Ou
+Out of memory
+Output array for SDL_Vulkan_GetInstanceExtensions needs to be at least %d big
+OutputDebugStringW
+PIDVID
+PIDVID^
+PINTLGNT.IME
+PQRPQR
+PQRh@6
+PRQSWV
+PSVRW
+PageDown
+PageUp
+Palettized textures are not supported
+Parameter '%s' is invalid
+Passed NULL cursor surface
+Passed NULL destination surface
+Passed a NULL mutex
+Passed a NULL sem
+Paste
+Path too long.
+Pause
+Pausing the device
+PeekMessageW
+Ph@,	
+Pj(VW
+PostMessageW
+PostThreadMessageW
+Power
+Present()
+PrintScreen
+Prior
+Process32First
+Process32Next
+PropVariantClear
+QSVW3
+QVWhP-
+QueryPerformanceCounter
+QueryPerformanceFrequency
+Querying DirectInput interface
+RIFF form type is not WAVE (not a Waveform file)
+RIFF size truncates chunk
+RaiseException
+ReadFile
+Reading from
+RegCloseKey
+RegOpenKeyExW
+RegQueryValueExW
+RegisterClassExW
+RegisterClassW
+RegisterDeviceNotificationW
+RegisterRawInputDevices
+RegisterTouchWindow
+ReleaseDC
+ReleaseSemaphore
+ReleaseSemaphore() failed
+RemovePropW
+Removing effect from the device
+Render targets not supported by OpenGL
+Renderer already associated with window
+Renderer does not support RenderCopyEx
+Renderer doesn't support querying output size
+Renderer is not a D3D renderer
+Reset()
+Resetting device
+Retry
+Return
+Right
+Right Alt
+Right Ctrl
+Right GUI
+Right Shift
+Right Windows
+RtlGetVersion
+Running the effect
+S16LSB
+S16MSB
+S16SYS
+S32LSB
+S32MSB
+S32SYS
+SDL EVENT QUEUE: Maximum events in-flight: %d
+SDL EVENT: %s%s
+SDL Windows video driver
+SDL assertion report.
+SDL dummy audio driver
+SDL dummy video driver
+SDL failed to get a vertex buffer for this Direct3D 9 rendering batch!
+SDL not compiled with stdio support
+SDL video driver doesn't support changing display mode
+SDL2.dll
+SDLAudio%c%d
+SDLTimer
+SDLXInputDev%d
+SDL_ALLOW_TOPMOST
+SDL_APP_DIDENTERBACKGROUND
+SDL_APP_DIDENTERFOREGROUND
+SDL_APP_LOWMEMORY
+SDL_APP_TERMINATING
+SDL_APP_WILLENTERBACKGROUND
+SDL_APP_WILLENTERFOREGROUND
+SDL_ASSERT
+SDL_AUDIODEVICEADDED
+SDL_AUDIODEVICEREMOVED
+SDL_AUDIODRIVER
+SDL_AUDIO_CHANNELS
+SDL_AUDIO_DEVICE_NAME
+SDL_AUDIO_FORMAT
+SDL_AUDIO_FREQUENCY
+SDL_AUDIO_SAMPLES
+SDL_AddEventWatch
+SDL_AddHintCallback
+SDL_AddTimer
+SDL_AllocFormat
+SDL_AllocPalette
+SDL_AllocRW
+SDL_AtomicAdd
+SDL_AtomicCAS
+SDL_AtomicCASPtr
+SDL_AtomicGet
+SDL_AtomicGetPtr
+SDL_AtomicLock
+SDL_AtomicSet
+SDL_AtomicSetPtr
+SDL_AtomicTryLock
+SDL_AtomicUnlock
+SDL_AudioInit
+SDL_AudioQuit
+SDL_AudioStreamAvailable
+SDL_AudioStreamClear
+SDL_AudioStreamFlush
+SDL_AudioStreamGet
+SDL_AudioStreamPut
+SDL_BLIT_CPU_FEATURES
+SDL_BMP_SAVE_LEGACY_FORMAT
+SDL_BORDERLESS_WINDOWED_STYLE
+SDL_BlendFillRects(): Unsupported surface format
+SDL_BlendLines(): Passed NULL destination surface
+SDL_BlendLines(): Unsupported surface format
+SDL_BlendPoint(): Unsupported surface format
+SDL_BlendPoints(): Unsupported surface format
+SDL_BuildAudioCVT
+SDL_CLIPBOARDUPDATE
+SDL_CONTROLLERAXISMOTION
+SDL_CONTROLLERBUTTONDOWN
+SDL_CONTROLLERBUTTONUP
+SDL_CONTROLLERDEVICEADDED
+SDL_CONTROLLERDEVICEREMAPPED
+SDL_CONTROLLERDEVICEREMOVED
+SDL_CalculateGammaRamp
+SDL_CaptureMouse
+SDL_ClearError
+SDL_ClearHints
+SDL_ClearQueuedAudio
+SDL_CloseAudio
+SDL_CloseAudioDevice
+SDL_ComposeCustomBlendMode
+SDL_CondBroadcast
+SDL_CondSignal
+SDL_CondWait
+SDL_CondWaitTimeout
+SDL_ConvertAudio
+SDL_ConvertPixels
+SDL_ConvertPixels_Packed4_to_Packed4: Unsupported YUV conversion: %s -> %s
+SDL_ConvertPixels_Planar2x2_to_Planar2x2: Unsupported YUV conversion: %s -> %s
+SDL_ConvertPixels_YUV_to_YUV: Unsupported YUV conversion: %s -> %s
+SDL_ConvertPixels_YUV_to_YUV_Copy: Unsupported YUV format: %s
+SDL_ConvertSurface
+SDL_ConvertSurfaceFormat
+SDL_CreateColorCursor
+SDL_CreateCond
+SDL_CreateCursor
+SDL_CreateMutex
+SDL_CreateRGBSurface
+SDL_CreateRGBSurfaceFrom
+SDL_CreateRGBSurfaceWithFormat
+SDL_CreateRGBSurfaceWithFormatFrom
+SDL_CreateRenderer
+SDL_CreateSemaphore
+SDL_CreateShapedWindow
+SDL_CreateSoftwareRenderer
+SDL_CreateSystemCursor
+SDL_CreateTexture
+SDL_CreateTextureFromSurface
+SDL_CreateTextureFromSurface() passed NULL surface
+SDL_CreateThread
+SDL_CreateThreadWithStackSize
+SDL_CreateWindow
+SDL_CreateWindowAndRenderer
+SDL_CreateWindowFrom
+SDL_DISKAUDIODELAY
+SDL_DISKAUDIOFILE
+SDL_DISKAUDIOFILEIN
+SDL_DOLLARGESTURE
+SDL_DOLLARRECORD
+SDL_DROPBEGIN
+SDL_DROPCOMPLETE
+SDL_DROPFILE
+SDL_DROPTEXT
+SDL_DXGIGetOutputInfo
+SDL_DYNAMIC_API
+SDL_DYNAPI_entry
+SDL_DelEventWatch
+SDL_DelHintCallback
+SDL_Delay
+SDL_DequeueAudio
+SDL_DestroyCond
+SDL_DestroyMutex
+SDL_DestroyRenderer
+SDL_DestroySemaphore
+SDL_DestroyTexture
+SDL_DestroyWindow
+SDL_DetachThread
+SDL_Direct3D9GetAdapterIndex
+SDL_DisableScreenSaver
+SDL_DrawLines(): Passed NULL destination surface
+SDL_DrawLines(): Unsupported surface format
+SDL_DrawPoint(): Unsupported surface format
+SDL_DrawPoints(): Unsupported surface format
+SDL_DuplicateSurface
+SDL_EVENT_LOGGING
+SDL_EVENT_QUEUE_STATISTICS
+SDL_EnableScreenSaver
+SDL_EnclosePoints
+SDL_Error
+SDL_EventState
+SDL_FINGERDOWN
+SDL_FINGERMOTION
+SDL_FINGERUP
+SDL_FIRSTEVENT
+SDL_FRAMEBUFFER_ACCELERATION
+SDL_FillRect
+SDL_FillRect(): Unsupported surface format
+SDL_FillRect(): You must lock the surface
+SDL_FillRects
+SDL_FillRects() passed NULL rects
+SDL_FilterEvents
+SDL_FlushEvent
+SDL_FlushEvents
+SDL_FreeAudioStream
+SDL_FreeCursor
+SDL_FreeFormat
+SDL_FreePalette
+SDL_FreeRW
+SDL_FreeSurface
+SDL_FreeWAV
+SDL_GAMECONTROLLERCONFIG
+SDL_GAMECONTROLLERCONFIG_FILE
+SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
+SDL_GAMECONTROLLER_IGNORE_DEVICES
+SDL_GAMECONTROLLER_IGNORE_DEVICES_EXCEPT
+SDL_GL_BindTexture
+SDL_GL_CreateContext
+SDL_GL_DeleteContext
+SDL_GL_ExtensionSupported
+SDL_GL_GetAttribute
+SDL_GL_GetCurrentContext
+SDL_GL_GetCurrentWindow
+SDL_GL_GetDrawableSize
+SDL_GL_GetProcAddress
+SDL_GL_GetSwapInterval
+SDL_GL_LoadLibrary
+SDL_GL_MakeCurrent
+SDL_GL_ResetAttributes
+SDL_GL_SetAttribute
+SDL_GL_SetSwapInterval
+SDL_GL_SwapWindow
+SDL_GL_UnbindTexture
+SDL_GL_UnloadLibrary
+SDL_GameControllerAddMapping
+SDL_GameControllerAddMappingsFromRW
+SDL_GameControllerClose
+SDL_GameControllerEventState
+SDL_GameControllerFromInstanceID
+SDL_GameControllerGetAttached
+SDL_GameControllerGetAxis
+SDL_GameControllerGetAxisFromString
+SDL_GameControllerGetBindForAxis
+SDL_GameControllerGetBindForButton
+SDL_GameControllerGetButton
+SDL_GameControllerGetButtonFromString
+SDL_GameControllerGetJoystick
+SDL_GameControllerGetPlayerIndex
+SDL_GameControllerGetProduct
+SDL_GameControllerGetProductVersion
+SDL_GameControllerGetStringForAxis
+SDL_GameControllerGetStringForButton
+SDL_GameControllerGetVendor
+SDL_GameControllerMapping
+SDL_GameControllerMappingForDeviceIndex
+SDL_GameControllerMappingForGUID
+SDL_GameControllerMappingForIndex
+SDL_GameControllerName
+SDL_GameControllerNameForIndex
+SDL_GameControllerNumMappings
+SDL_GameControllerOpen
+SDL_GameControllerRumble
+SDL_GameControllerUpdate
+SDL_GetAssertionHandler
+SDL_GetAssertionReport
+SDL_GetAudioDeviceName
+SDL_GetAudioDeviceStatus
+SDL_GetAudioDriver
+SDL_GetAudioStatus
+SDL_GetBasePath
+SDL_GetCPUCacheLineSize
+SDL_GetCPUCount
+SDL_GetClipRect
+SDL_GetClipboardText
+SDL_GetClosestDisplayMode
+SDL_GetColorKey
+SDL_GetCurrentAudioDriver
+SDL_GetCurrentDisplayMode
+SDL_GetCurrentVideoDriver
+SDL_GetCursor
+SDL_GetDefaultAssertionHandler
+SDL_GetDefaultCursor
+SDL_GetDesktopDisplayMode
+SDL_GetDisplayBounds
+SDL_GetDisplayDPI
+SDL_GetDisplayMode
+SDL_GetDisplayName
+SDL_GetDisplayOrientation
+SDL_GetDisplayUsableBounds
+SDL_GetError
+SDL_GetEventFilter
+SDL_GetGlobalMouseState
+SDL_GetGrabbedWindow
+SDL_GetHint
+SDL_GetHintBoolean
+SDL_GetKeyFromName
+SDL_GetKeyFromScancode
+SDL_GetKeyName
+SDL_GetKeyboardFocus
+SDL_GetKeyboardState
+SDL_GetMemoryFunctions
+SDL_GetModState
+SDL_GetMouseFocus
+SDL_GetMouseState
+SDL_GetNumAllocations
+SDL_GetNumAudioDevices
+SDL_GetNumAudioDrivers
+SDL_GetNumDisplayModes
+SDL_GetNumRenderDrivers
+SDL_GetNumTouchDevices
+SDL_GetNumTouchFingers
+SDL_GetNumVideoDisplays
+SDL_GetNumVideoDrivers
+SDL_GetPerformanceCounter
+SDL_GetPerformanceFrequency
+SDL_GetPixelFormatName
+SDL_GetPlatform
+SDL_GetPowerInfo
+SDL_GetPrefPath
+SDL_GetQueuedAudioSize
+SDL_GetRGB
+SDL_GetRGBA
+SDL_GetRelativeMouseMode
+SDL_GetRelativeMouseState
+SDL_GetRenderDrawBlendMode
+SDL_GetRenderDrawColor
+SDL_GetRenderDriverInfo
+SDL_GetRenderTarget
+SDL_GetRenderer
+SDL_GetRendererInfo
+SDL_GetRendererOutputSize
+SDL_GetRevision
+SDL_GetRevisionNumber
+SDL_GetScancodeFromKey
+SDL_GetScancodeFromName
+SDL_GetScancodeName
+SDL_GetShapedWindowMode
+SDL_GetSurfaceAlphaMod
+SDL_GetSurfaceBlendMode
+SDL_GetSurfaceColorMod
+SDL_GetSystemRAM
+SDL_GetTextureAlphaMod
+SDL_GetTextureBlendMode
+SDL_GetTextureColorMod
+SDL_GetThreadID
+SDL_GetThreadName
+SDL_GetTicks
+SDL_GetTouchDevice
+SDL_GetTouchDeviceType
+SDL_GetTouchFinger
+SDL_GetVersion
+SDL_GetVideoDriver
+SDL_GetWindowBordersSize
+SDL_GetWindowBrightness
+SDL_GetWindowData
+SDL_GetWindowDisplayIndex
+SDL_GetWindowDisplayMode
+SDL_GetWindowFlags
+SDL_GetWindowFromID
+SDL_GetWindowGammaRamp
+SDL_GetWindowGrab
+SDL_GetWindowID
+SDL_GetWindowMaximumSize
+SDL_GetWindowMinimumSize
+SDL_GetWindowOpacity
+SDL_GetWindowPixelFormat
+SDL_GetWindowPosition
+SDL_GetWindowSize
+SDL_GetWindowSurface
+SDL_GetWindowTitle
+SDL_GetWindowWMInfo
+SDL_GetYUVConversionMode
+SDL_GetYUVConversionModeForResolution
+SDL_HAPTIC_GAIN_MAX
+SDL_HapticClose
+SDL_HapticDestroyEffect
+SDL_HapticEffectSupported
+SDL_HapticGetEffectStatus
+SDL_HapticIndex
+SDL_HapticName
+SDL_HapticNewEffect
+SDL_HapticNumAxes
+SDL_HapticNumEffects
+SDL_HapticNumEffectsPlaying
+SDL_HapticOpen
+SDL_HapticOpenFromJoystick
+SDL_HapticOpenFromMouse
+SDL_HapticOpened
+SDL_HapticPause
+SDL_HapticQuery
+SDL_HapticRumbleInit
+SDL_HapticRumblePlay
+SDL_HapticRumbleStop
+SDL_HapticRumbleSupported
+SDL_HapticRunEffect
+SDL_HapticSetAutocenter
+SDL_HapticSetGain
+SDL_HapticStopAll
+SDL_HapticStopEffect
+SDL_HapticUnpause
+SDL_HapticUpdateEffect
+SDL_Has3DNow
+SDL_HasAVX
+SDL_HasAVX2
+SDL_HasAVX512F
+SDL_HasAltiVec
+SDL_HasClipboardText
+SDL_HasColorKey
+SDL_HasEvent
+SDL_HasEvents
+SDL_HasIntersection
+SDL_HasMMX
+SDL_HasNEON
+SDL_HasRDTSC
+SDL_HasSSE
+SDL_HasSSE2
+SDL_HasSSE3
+SDL_HasSSE41
+SDL_HasSSE42
+SDL_HasScreenKeyboardSupport
+SDL_HideWindow
+SDL_Init
+SDL_InitSubSystem
+SDL_IntersectRect
+SDL_IntersectRectAndLine
+SDL_IsGameController
+SDL_IsScreenKeyboardShown
+SDL_IsScreenSaverEnabled
+SDL_IsShapedWindow
+SDL_IsTablet
+SDL_IsTextInputActive
+SDL_JOYAXISMOTION
+SDL_JOYBALLMOTION
+SDL_JOYBUTTONDOWN
+SDL_JOYBUTTONUP
+SDL_JOYDEVICEADDED
+SDL_JOYDEVICEREMOVED
+SDL_JOYHATMOTION
+SDL_JOYSTICK_ALLOW_BACKGROUND_EVENTS
+SDL_JoystickClose
+SDL_JoystickCurrentPowerLevel
+SDL_JoystickEventState
+SDL_JoystickFromInstanceID
+SDL_JoystickGetAttached
+SDL_JoystickGetAxis
+SDL_JoystickGetAxisInitialState
+SDL_JoystickGetBall
+SDL_JoystickGetButton
+SDL_JoystickGetDeviceGUID
+SDL_JoystickGetDeviceInstanceID
+SDL_JoystickGetDevicePlayerIndex
+SDL_JoystickGetDeviceProduct
+SDL_JoystickGetDeviceProductVersion
+SDL_JoystickGetDeviceType
+SDL_JoystickGetDeviceVendor
+SDL_JoystickGetGUID
+SDL_JoystickGetGUIDFromString
+SDL_JoystickGetGUIDString
+SDL_JoystickGetHat
+SDL_JoystickGetPlayerIndex
+SDL_JoystickGetProduct
+SDL_JoystickGetProductVersion
+SDL_JoystickGetType
+SDL_JoystickGetVendor
+SDL_JoystickInstanceID
+SDL_JoystickIsHaptic
+SDL_JoystickName
+SDL_JoystickNameForIndex
+SDL_JoystickNumAxes
+SDL_JoystickNumBalls
+SDL_JoystickNumButtons
+SDL_JoystickNumHats
+SDL_JoystickOpen
+SDL_JoystickRumble
+SDL_JoystickUpdate
+SDL_KEYDOWN
+SDL_KEYMAPCHANGED
+SDL_KEYUP
+SDL_LoadBMP_RW
+SDL_LoadDollarTemplates
+SDL_LoadFile
+SDL_LoadFile_RW
+SDL_LoadFunction
+SDL_LoadObject
+SDL_LoadWAV_RW
+SDL_LockAudio
+SDL_LockAudioDevice
+SDL_LockJoysticks
+SDL_LockMutex
+SDL_LockSurface
+SDL_LockTexture
+SDL_LockTexture(): texture must be streaming
+SDL_Log
+SDL_LogCritical
+SDL_LogDebug
+SDL_LogError
+SDL_LogGetOutputFunction
+SDL_LogGetPriority
+SDL_LogInfo
+SDL_LogMessage
+SDL_LogMessageV
+SDL_LogResetPriorities
+SDL_LogSetAllPriority
+SDL_LogSetOutputFunction
+SDL_LogSetPriority
+SDL_LogVerbose
+SDL_LogWarn
+SDL_LowerBlit
+SDL_LowerBlitScaled
+SDL_MOUSEBUTTONDOWN
+SDL_MOUSEBUTTONUP
+SDL_MOUSEMOTION
+SDL_MOUSEWHEEL
+SDL_MOUSE_DOUBLE_CLICK_RADIUS
+SDL_MOUSE_DOUBLE_CLICK_TIME
+SDL_MOUSE_FOCUS_CLICKTHROUGH
+SDL_MOUSE_NORMAL_SPEED_SCALE
+SDL_MOUSE_RELATIVE_MODE_WARP
+SDL_MOUSE_RELATIVE_SPEED_SCALE
+SDL_MOUSE_TOUCH_EVENTS
+SDL_MULTIGESTURE
+SDL_MapRGB
+SDL_MapRGBA
+SDL_MasksToPixelFormatEnum
+SDL_MaximizeWindow
+SDL_MemoryBarrierAcquireFunction
+SDL_MemoryBarrierReleaseFunction
+SDL_Metal_CreateView
+SDL_Metal_DestroyView
+SDL_MinimizeWindow
+SDL_MixAudio
+SDL_MixAudioFormat
+SDL_MixAudioFormat(): unknown audio format
+SDL_MouseIsHaptic
+SDL_NewAudioStream
+SDL_NumHaptics
+SDL_NumJoysticks
+SDL_NumSensors
+SDL_OPENGL_ES_DRIVER
+SDL_OPENGL_LIBRARY
+SDL_OpenAudio
+SDL_OpenAudioDevice
+SDL_PIXELFORMAT_ABGR1555
+SDL_PIXELFORMAT_ABGR4444
+SDL_PIXELFORMAT_ABGR8888
+SDL_PIXELFORMAT_ARGB1555
+SDL_PIXELFORMAT_ARGB2101010
+SDL_PIXELFORMAT_ARGB4444
+SDL_PIXELFORMAT_ARGB8888
+SDL_PIXELFORMAT_BGR24
+SDL_PIXELFORMAT_BGR555
+SDL_PIXELFORMAT_BGR565
+SDL_PIXELFORMAT_BGR888
+SDL_PIXELFORMAT_BGRA4444
+SDL_PIXELFORMAT_BGRA5551
+SDL_PIXELFORMAT_BGRA8888
+SDL_PIXELFORMAT_BGRX8888
+SDL_PIXELFORMAT_INDEX1LSB
+SDL_PIXELFORMAT_INDEX1MSB
+SDL_PIXELFORMAT_INDEX4LSB
+SDL_PIXELFORMAT_INDEX4MSB
+SDL_PIXELFORMAT_INDEX8
+SDL_PIXELFORMAT_IYUV
+SDL_PIXELFORMAT_NV12
+SDL_PIXELFORMAT_NV21
+SDL_PIXELFORMAT_RGB24
+SDL_PIXELFORMAT_RGB332
+SDL_PIXELFORMAT_RGB444
+SDL_PIXELFORMAT_RGB555
+SDL_PIXELFORMAT_RGB565
+SDL_PIXELFORMAT_RGB888
+SDL_PIXELFORMAT_RGBA4444
+SDL_PIXELFORMAT_RGBA5551
+SDL_PIXELFORMAT_RGBA8888
+SDL_PIXELFORMAT_RGBX8888
+SDL_PIXELFORMAT_UNKNOWN
+SDL_PIXELFORMAT_UYVY
+SDL_PIXELFORMAT_YUY2
+SDL_PIXELFORMAT_YV12
+SDL_PIXELFORMAT_YVYU
+SDL_PauseAudio
+SDL_PauseAudioDevice
+SDL_PeepEvents
+SDL_PixelFormatEnumToMasks
+SDL_PollEvent
+SDL_PumpEvents
+SDL_PushEvent
+SDL_QUIT
+SDL_QueryTexture
+SDL_QueueAudio
+SDL_Quit
+SDL_QuitSubSystem
+SDL_RENDER_BATCHING
+SDL_RENDER_DEVICE_RESET
+SDL_RENDER_DIRECT3D_THREADSAFE
+SDL_RENDER_DRIVER
+SDL_RENDER_LOGICAL_SIZE_MODE
+SDL_RENDER_OPENGL_SHADERS
+SDL_RENDER_SCALE_QUALITY
+SDL_RENDER_TARGETS_RESET
+SDL_RENDER_VSYNC
+SDL_RWFromConstMem
+SDL_RWFromFP
+SDL_RWFromFile
+SDL_RWFromFile(): No file or no mode specified
+SDL_RWFromMem
+SDL_RWclose
+SDL_RWread
+SDL_RWseek
+SDL_RWsize
+SDL_RWtell
+SDL_RWwrite
+SDL_RaiseWindow
+SDL_ReadBE16
+SDL_ReadBE32
+SDL_ReadBE64
+SDL_ReadLE16
+SDL_ReadLE32
+SDL_ReadLE64
+SDL_ReadU8
+SDL_RecordGesture
+SDL_RegisterApp
+SDL_RegisterEvents
+SDL_RemoveTimer
+SDL_RenderClear
+SDL_RenderCopy
+SDL_RenderCopyEx
+SDL_RenderCopyExF
+SDL_RenderCopyF
+SDL_RenderDrawFPoints(): Passed NULL points
+SDL_RenderDrawLine
+SDL_RenderDrawLineF
+SDL_RenderDrawLines
+SDL_RenderDrawLines(): Passed NULL points
+SDL_RenderDrawLinesF
+SDL_RenderDrawPoint
+SDL_RenderDrawPointF
+SDL_RenderDrawPoints
+SDL_RenderDrawPoints(): Passed NULL points
+SDL_RenderDrawPointsF
+SDL_RenderDrawRect
+SDL_RenderDrawRectF
+SDL_RenderDrawRects
+SDL_RenderDrawRects(): Passed NULL rects
+SDL_RenderDrawRectsF
+SDL_RenderFillFRects(): Passed NULL rects
+SDL_RenderFillRect
+SDL_RenderFillRectF
+SDL_RenderFillRects
+SDL_RenderFillRects(): Passed NULL rects
+SDL_RenderFillRectsF
+SDL_RenderFlush
+SDL_RenderGetClipRect
+SDL_RenderGetD3D9Device
+SDL_RenderGetIntegerScale
+SDL_RenderGetLogicalSize
+SDL_RenderGetMetalCommandEncoder
+SDL_RenderGetMetalLayer
+SDL_RenderGetScale
+SDL_RenderGetViewport
+SDL_RenderIsClipEnabled
+SDL_RenderPresent
+SDL_RenderReadPixels
+SDL_RenderSetClipRect
+SDL_RenderSetIntegerScale
+SDL_RenderSetLogicalSize
+SDL_RenderSetScale
+SDL_RenderSetViewport
+SDL_RenderTargetSupported
+SDL_ReportAssertion
+SDL_ResetAssertionReport
+SDL_RestoreWindow
+SDL_SIMDAlloc
+SDL_SIMDFree
+SDL_SIMDGetAlignment
+SDL_SYSWMEVENT
+SDL_SaveAllDollarTemplates
+SDL_SaveBMP_RW
+SDL_SaveDollarTemplate
+SDL_SemPost
+SDL_SemTryWait
+SDL_SemValue
+SDL_SemWait
+SDL_SemWaitTimeout
+SDL_SensorClose
+SDL_SensorFromInstanceID
+SDL_SensorGetData
+SDL_SensorGetDeviceInstanceID
+SDL_SensorGetDeviceName
+SDL_SensorGetDeviceNonPortableType
+SDL_SensorGetDeviceType
+SDL_SensorGetInstanceID
+SDL_SensorGetName
+SDL_SensorGetNonPortableType
+SDL_SensorGetType
+SDL_SensorOpen
+SDL_SensorUpdate
+SDL_SetAssertionHandler
+SDL_SetClipRect
+SDL_SetClipboardText
+SDL_SetColorKey
+SDL_SetCursor
+SDL_SetError
+SDL_SetEventFilter
+SDL_SetHint
+SDL_SetHintWithPriority
+SDL_SetMainReady
+SDL_SetMemoryFunctions
+SDL_SetModState
+SDL_SetPaletteColors
+SDL_SetPixelFormatPalette
+SDL_SetPixelFormatPalette() passed NULL format
+SDL_SetPixelFormatPalette() passed a palette that doesn't match the format
+SDL_SetRelativeMouseMode
+SDL_SetRenderDrawBlendMode
+SDL_SetRenderDrawColor
+SDL_SetRenderTarget
+SDL_SetSurfaceAlphaMod
+SDL_SetSurfaceBlendMode
+SDL_SetSurfaceColorMod
+SDL_SetSurfacePalette
+SDL_SetSurfacePalette() passed a NULL surface
+SDL_SetSurfaceRLE
+SDL_SetTextInputRect
+SDL_SetTextureAlphaMod
+SDL_SetTextureBlendMode
+SDL_SetTextureColorMod
+SDL_SetThreadPriority
+SDL_SetWindowBordered
+SDL_SetWindowBrightness
+SDL_SetWindowData
+SDL_SetWindowDisplayMode
+SDL_SetWindowFullscreen
+SDL_SetWindowGammaRamp
+SDL_SetWindowGrab
+SDL_SetWindowHitTest
+SDL_SetWindowIcon
+SDL_SetWindowInputFocus
+SDL_SetWindowMaximumSize
+SDL_SetWindowMaximumSize(): Tried to set maximum size smaller than minimum size
+SDL_SetWindowMinimumSize
+SDL_SetWindowMinimumSize(): Tried to set minimum size larger than maximum size
+SDL_SetWindowModalFor
+SDL_SetWindowOpacity
+SDL_SetWindowPosition
+SDL_SetWindowResizable
+SDL_SetWindowShape
+SDL_SetWindowSize
+SDL_SetWindowTitle
+SDL_SetWindowsMessageHook
+SDL_SetYUVConversionMode
+SDL_ShowCursor
+SDL_ShowMessageBox
+SDL_ShowSimpleMessageBox
+SDL_ShowWindow
+SDL_SoftStretch
+SDL_StartTextInput
+SDL_StopTextInput
+SDL_TEXTEDITING
+SDL_TEXTINPUT
+SDL_THREAD_STACK_SIZE
+SDL_TIMER_RESOLUTION
+SDL_TLSCreate
+SDL_TLSGet
+SDL_TLSSet
+SDL_TOUCH_MOUSE_EVENTS
+SDL_ThreadID
+SDL_TryLockMutex
+SDL_USEREVENT
+SDL_UnionRect
+SDL_UnloadObject
+SDL_UnlockAudio
+SDL_UnlockAudioDevice
+SDL_UnlockJoysticks
+SDL_UnlockMutex
+SDL_UnlockSurface
+SDL_UnlockTexture
+SDL_UnregisterApp
+SDL_UpdateTexture
+SDL_UpdateWindowSurface
+SDL_UpdateWindowSurfaceRects
+SDL_UpdateYUVTexture
+SDL_UpperBlit
+SDL_UpperBlit: passed a NULL surface
+SDL_UpperBlitScaled
+SDL_UpperBlitScaled: passed a NULL surface
+SDL_VIDEODRIVER
+SDL_VIDEO_ALLOW_SCREENSAVER
+SDL_VIDEO_DUMMY_SAVE_FRAMES
+SDL_VIDEO_EGL_DRIVER
+SDL_VIDEO_GL_DRIVER
+SDL_VIDEO_HIGHDPI_DISABLED
+SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS
+SDL_VIDEO_WINDOW_SHARE_PIXEL_FORMAT
+SDL_VIDEO_WIN_D3DCOMPILER
+SDL_VULKAN_LIBRARY
+SDL_VideoInit
+SDL_VideoQuit
+SDL_Vulkan_CreateSurface
+SDL_Vulkan_GetDrawableSize
+SDL_Vulkan_GetInstanceExtensions
+SDL_Vulkan_GetVkGetInstanceProcAddr
+SDL_Vulkan_LoadLibrary
+SDL_Vulkan_UnloadLibrary
+SDL_WAVE_CHUNK_LIMIT
+SDL_WAVE_FACT_CHUNK
+SDL_WAVE_RIFF_CHUNK_SIZE
+SDL_WAVE_TRUNCATION
+SDL_WINDOWEVENT
+SDL_WINDOWEVENT_CLOSE
+SDL_WINDOWEVENT_ENTER
+SDL_WINDOWEVENT_EXPOSED
+SDL_WINDOWEVENT_FOCUS_GAINED
+SDL_WINDOWEVENT_FOCUS_LOST
+SDL_WINDOWEVENT_HIDDEN
+SDL_WINDOWEVENT_HIT_TEST
+SDL_WINDOWEVENT_LEAVE
+SDL_WINDOWEVENT_MAXIMIZED
+SDL_WINDOWEVENT_MINIMIZED
+SDL_WINDOWEVENT_MOVED
+SDL_WINDOWEVENT_NONE (THIS IS PROBABLY A BUG!)
+SDL_WINDOWEVENT_RESIZED
+SDL_WINDOWEVENT_RESTORED
+SDL_WINDOWEVENT_SHOWN
+SDL_WINDOWEVENT_SIZE_CHANGED
+SDL_WINDOWEVENT_TAKE_FOCUS
+SDL_WINDOWS_DISABLE_THREAD_NAMING
+SDL_WINDOWS_ENABLE_MESSAGELOOP
+SDL_WINDOWS_INTRESOURCE_ICON
+SDL_WINDOWS_INTRESOURCE_ICON_SMALL
+SDL_WINDOWS_NO_CLOSE_ON_ALT_F4
+SDL_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN
+SDL_WaitEvent
+SDL_WaitEventTimeout
+SDL_WaitThread
+SDL_WarpMouseGlobal
+SDL_WarpMouseInWindow
+SDL_WasInit
+SDL_WriteBE16
+SDL_WriteBE32
+SDL_WriteBE64
+SDL_WriteLE16
+SDL_WriteLE32
+SDL_WriteLE64
+SDL_WriteU8
+SDL_XINPUT_ENABLED
+SDL_XINPUT_USE_OLD_JOYSTICK_MAPPING
+SDL_abs
+SDL_acos
+SDL_acosf
+SDL_app
+SDL_asin
+SDL_asinf
+SDL_atan
+SDL_atan2
+SDL_atan2f
+SDL_atanf
+SDL_atof
+SDL_atoi
+SDL_calloc
+SDL_ceil
+SDL_ceilf
+SDL_copysign
+SDL_copysignf
+SDL_cos
+SDL_cosf
+SDL_exp
+SDL_expf
+SDL_fabs
+SDL_fabsf
+SDL_floor
+SDL_floorf
+SDL_fmod
+SDL_fmodf
+SDL_free
+SDL_getenv
+SDL_iconv
+SDL_iconv_close
+SDL_iconv_open
+SDL_iconv_string
+SDL_isdigit
+SDL_isspace
+SDL_itoa
+SDL_joystick
+SDL_lltoa
+SDL_log
+SDL_log10
+SDL_log10f
+SDL_logf
+SDL_ltoa
+SDL_malloc
+SDL_memcmp
+SDL_memcpy
+SDL_memmove
+SDL_memset
+SDL_pow
+SDL_powf
+SDL_qsort
+SDL_realloc
+SDL_scalbn
+SDL_scalbnf
+SDL_setenv
+SDL_sin
+SDL_sinf
+SDL_snprintf
+SDL_sqrt
+SDL_sqrtf
+SDL_sscanf
+SDL_strcasecmp
+SDL_strchr
+SDL_strcmp
+SDL_strdup
+SDL_strlcat
+SDL_strlcpy
+SDL_strlen
+SDL_strlwr
+SDL_strncasecmp
+SDL_strncmp
+SDL_strrchr
+SDL_strrev
+SDL_strstr
+SDL_strtod
+SDL_strtol
+SDL_strtoll
+SDL_strtoul
+SDL_strtoull
+SDL_strupr
+SDL_tan
+SDL_tanf
+SDL_tolower
+SDL_toupper
+SDL_uitoa
+SDL_ulltoa
+SDL_ultoa
+SDL_utf8strlcpy
+SDL_utf8strlen
+SDL_vsnprintf
+SDL_vsscanf
+SDL_wcscmp
+SDL_wcsdup
+SDL_wcslcat
+SDL_wcslcpy
+SDL_wcslen
+SDL_window%d-%8.8d.bmp
+SHCORE.DLL
+SHELL32.dll
+SHGetFolderPathW
+SRQW9F
+SRQWu
+SSj j SSh
+SVWj8j
+SVWjl
+SVWj|j
+Sample rate exceeds limit of %d
+ScreenToClient
+ScrollLock
+Select
+SelectObject
+SendMessageW
+Sensor hasn't been opened yet
+Separator
+SetClipboardData
+SetCursor
+SetCursorPos
+SetDeviceGammaRamp
+SetDeviceGammaRamp()
+SetEnvironmentVariableA
+SetErrorMode
+SetFilePointer
+SetFilePointerEx
+SetFocus
+SetForegroundWindow
+SetLayeredWindowAttributes
+SetLayeredWindowAttributes()
+SetPixelFormat
+SetPixelFormat()
+SetProp() failed
+SetPropW
+SetRenderTarget()
+SetTexture()
+SetThreadDescription
+SetThreadExecutionState
+SetThreadPriority
+SetThreadPriority()
+SetTimer
+SetWindowLong()
+SetWindowLongW
+SetWindowPos
+SetWindowRgn
+SetWindowTextW
+Setting autocenter
+Setting cooperative level to exclusive
+Setting data format
+Setting gain
+Setting the swap interval is not supported
+ShowReadingWindow
+ShowWindow
+Sleep
+Software renderer doesn't have an output surface
+Sound buffer size must be between %d and %d
+Source rate is equal to or less than zero
+Source rate is too high
+Space
+Stopping the device
+Surface doesn't have a colorkey
+Surfaces must not be locked during blit
+SwapBuffers
+SwapBuffers()
+SysReq
+System audio capture device
+System audio output device
+SystemParametersInfoA
+SystemParametersInfoW
+System\CurrentControlSet\Control\MediaCategories\{%02X%02X%02X%02X-%02X%02X-%02X%02X-%02X%02X-%02X%02X%02X%02X%02X%02X}
+T< tP<,u3
+TINTLGNT.IME
+TOOMANYOPERATIONS
+T_^[]
+TaskDialogIndirect
+TerminateProcess
+Texture dimensions are limited to %dx%d
+Texture dimensions can't be 0
+Texture format %s not supported by OpenGL
+Texture format must by YV12 or IYUV
+Texture format not supported
+Texture is not currently available
+Texture not created with SDL_TEXTUREACCESS_TARGET
+Texture was not created with this renderer
+That operation is not supported
+The event system has been shut down
+The message box encountered an error.
+The specified shader cannot be loaded on the current platform
+The specified window has not been made current
+The specified window isn't a Vulkan window
+The specified window isn't an OpenGL window
+The video driver did not add any displays
+There are %d joysticks available
+There are %d sensors available
+This error will not be logged again for this renderer.
+This is a capture device, queueing not allowed
+This might be a brief hiccup, but if performance is bad, this is probably why.
+ThousandsSeparator
+TlsAlloc
+TlsGetValue
+TlsSetValue
+TlsSetValue() failed
+ToUnicode
+Too many filters needed for conversion, exceeded maximum of %d
+Too many open audio devices
+TrackMouseEvent
+TranslateMessage
+Tried to read outside of surface bounds
+Truncated IMA ADPCM block
+Truncated MS ADPCM block
+Truncated data chunk
+Truncated data chunk in WAVE file
+TryEnterCriticalSection
+U$SVWH
+U16LSB
+U16MSB
+U16SYS
+UCS-2
+UCS-2-INTERNAL
+UCS-2BE
+UCS-2LE
+UCS-4
+UCS-4-INTERNAL
+UCS-4BE
+UCS-4LE
+UNKNOWN
+UNKNOWN (bug? fixme?)
+UNSUPPORTEDALPHAARG
+UNSUPPORTEDALPHAOPERATION
+UNSUPPORTEDCOLORARG
+UNSUPPORTEDCOLOROPERATION
+UNSUPPORTEDFACTORVALUE
+UNSUPPORTEDTEXTUREFILTER
+US-ASCII
+USER32.DLL
+USER32.dll
+UTF-16
+UTF-16BE
+UTF-16LE
+UTF-32
+UTF-32BE
+UTF-32LE
+UTF-8
+UTF16
+UTF16BE
+UTF16LE
+UTF32
+UTF32BE
+UTF32LE
+UUUUU
+UYVYt
+UYVYu
+Unable to create DXGI interface
+Unable to create Direct3D interface
+Unable to create Helper Window
+Unable to create Helper Window Class
+Unable to create effect
+Unable to destroy Helper Window
+Unable to destroy Helper Window Class
+Unable to lock destination surface
+Unable to lock source surface
+Unable to make EGL context current
+Unable to set the EGL swap interval
+Unable to stop effect
+Unable to update effect
+Unexpected %u-bit PCM data format
+Unexpected YUV conversion mode
+Unexpected controller element %s
+Unexpected end of WAVE file
+Unexpected joystick element: %s
+Unexpected overflow in IMA ADPCM decoder
+Unexpected overflow in MS ADPCM decoder
+Unknown
+Unknown OpenGL attribute
+Unknown OpenGL context flag %d
+Unknown OpenGL context profile %d
+Unknown SDL error
+Unknown WAVE format GUID: %08x-%04x-%04x-%02x%02x%02x%02x%02x%02x%02x%02x
+Unknown WAVE format tag: 0x%04x
+Unknown companded encoding
+Unknown gestureId
+Unknown pixel format
+Unknown reason
+Unknown texture format
+Unknown touch device id %d, cannot reset
+Unknown touch device index %d
+Unknown touch finger
+Unknown touch id %d, resetting
+Unknown value for 'whence'
+UnlockRect()
+UnregisterClassW
+UnregisterDeviceNotification
+Unsupported YUV conversion
+Unsupported YUV conversion mode
+Unsupported YUV conversion mode: %d
+Unsupported YUV destination format: %s
+Unsupported audio format
+Unsupported block alignment
+Unsupported interface -- Is DirectX 8.0 or later installed?
+Unsupported number of audio channels.
+Unsupported texture access for SDL_PIXELFORMAT_EXTERNAL_OES
+Unsupported texture format
+UpdateTexture()
+Upitch
+Uplane
+V?LUUUUU
+VERBOSE
+VERSION.dll
+VK_<Unknown>
+VK_ERROR_<Unknown>
+VK_ERROR_DEVICE_LOST
+VK_ERROR_EXTENSION_NOT_PRESENT
+VK_ERROR_FEATURE_NOT_PRESENT
+VK_ERROR_FORMAT_NOT_SUPPORTED
+VK_ERROR_FRAGMENTED_POOL
+VK_ERROR_INCOMPATIBLE_DISPLAY_KHR
+VK_ERROR_INCOMPATIBLE_DRIVER
+VK_ERROR_INITIALIZATION_FAILED
+VK_ERROR_INVALID_SHADER_NV
+VK_ERROR_LAYER_NOT_PRESENT
+VK_ERROR_MEMORY_MAP_FAILED
+VK_ERROR_NATIVE_WINDOW_IN_USE_KHR
+VK_ERROR_OUT_OF_DATE_KHR
+VK_ERROR_OUT_OF_DEVICE_MEMORY
+VK_ERROR_OUT_OF_HOST_MEMORY
+VK_ERROR_OUT_OF_POOL_MEMORY_KHR
+VK_ERROR_SURFACE_LOST_KHR
+VK_ERROR_TOO_MANY_OBJECTS
+VK_ERROR_VALIDATION_FAILED_EXT
+VK_EVENT_RESET
+VK_EVENT_SET
+VK_INCOMPLETE
+VK_KHR_surface
+VK_KHR_win32_surface
+VK_KHR_win32_surface extension is not enabled in the Vulkan instance.
+VK_NOT_READY
+VK_SUBOPTIMAL_KHR
+VK_SUCCESS
+VK_TIMEOUT
+VPhdS
+VWhHZ
+VWjHj
+ValidateRect
+Valve0
+Valve1
+VerQueryValueA
+VerSetConditionMask
+VerifyVersionInfoW
+Video subsystem has not been initialized
+Video subsystem must be initialized to check clipboard text
+Video subsystem must be initialized to get clipboard text
+Video subsystem must be initialized to set clipboard text
+VirtualAlloc
+VirtualFree
+VirtualQuery
+VolumeDown
+VolumeUp
+Vpitch
+Vplane
+Vulkan already loaded
+Vulkan and OpenGL not supported on same window
+Vulkan is not loaded
+Vulkan loader library already loaded
+Vulkan support is either not configured in SDL or not available in current SDL video driver (%s) or platform
+W;r$|v
+WASAPI
+WASAPI CoCreateInstance(MMDeviceEnumerator)
+WASAPI can't activate audio endpoint
+WASAPI can't create an event handle
+WASAPI can't determine buffer size
+WASAPI can't determine minimum device period
+WASAPI can't determine mix format
+WASAPI can't find requested audio endpoint
+WASAPI can't get capture client service
+WASAPI can't get render client service
+WASAPI can't initialize audio client
+WASAPI can't set event handle
+WASAPI can't start capture
+WASAPI can't start playback
+WASAPI support requires Windows Vista or later
+WASAPI: CoInitialize() failed
+WASAPI: Unsupported audio format
+WASSTILLDRAWING
+WAVE file too big
+WAVEt
+WGL_ARB_context_flush_control
+WGL_ARB_create_context_no_error
+WGL_ARB_create_context_robustness
+WGL_ARB_pixel_format
+WGL_EXT_create_context_es2_profile
+WGL_EXT_swap_control
+WGL_EXT_swap_control_tear
+WINMM.dll
+WQRh@6
+WQSPRV
+WRONGTEXTUREFORMAT
+WaitForSingleObject
+WaitForSingleObject() failed
+WaitForSingleObjectEx
+WideCharToMultiByte
+Window is too large.
+Window surface is invalid, please call SDL_GetWindowSurface() to get a new surface
+WindowFromPoint
+Windows
+Windows Waveform Audio
+WriteConsoleW
+WriteFile
+Writing to
+Wrong preset coefficients in MS ADPCM format header
+X-Box
+X360 Controller #%u
+X@CreateIconIndirect()
+XInput ArcadePad #%u
+XInput ArcadeStick #%u
+XInput Controller #%u
+XInput DancePad #%u
+XInput Device #%u
+XInput DrumKit #%u
+XInput FlightStick #%u
+XInput Guitar #%u
+XInput Wheel #%u
+XInputGetBatteryInformation
+XInputGetCapabilities
+XInputGetState
+XInputSetState
+XInputSetState() failed
+YUY2t
+YUY2w
+YV12, IYUV, NV12, NV21 textures only support full surface locks
+YV12t
+YV12t]
+YV12tr
+YV12u
+YVYUt
+YVYUt	
+YVYUt$
+YVYUtX
+YVYUt{
+YVYUu
+You are using the SDL disk i/o audio driver!
+You probably don't have a working Vulkan driver installed. %s %s %s(%d)
+Ypitch
+Yplane
+Z=factuS
+\tB=|
+]1h1p1
+^ ^_[
+^$_^[]
+^@;F(
+^@Unable to create DIB
+^[t	W
+_SDL_DummySurface
+_SDL_WindowRenderData
+_SDL_WindowTextureData
+`.rdata
+a_angle
+a_center
+a_position
+a_texCoord
+abort
+adapterIndex
+aj@hp
+always_ignore
+audio_buf
+audio_len
+break
+c0{0Z1Z2`3k3s3
+c3m3\7`7d7h7l7p7t7x7|7
+c:\buildslave\sdl_win32\build\dev\VisualC\Win32\Release\SDL2.pdb
+callback
+calloc_func
+const mat3 matrix = mat3( 1,       1,        1,
+const mat3 matrix = mat3( 1.1644,  1.1644,   1.1644,
+const vec3 Bcoeff = vec3(1,  1.772,  0.000);
+const vec3 Bcoeff = vec3(1.1644,  2.0172,  0.000);
+const vec3 Bcoeff = vec3(1.1644,  2.1124,  0.000);
+const vec3 Gcoeff = vec3(1, -0.3441, -0.7141);
+const vec3 Gcoeff = vec3(1.1644, -0.2132, -0.5329);
+const vec3 Gcoeff = vec3(1.1644, -0.3918, -0.813);
+const vec3 Rcoeff = vec3(1,  0.000,  1.402);
+const vec3 Rcoeff = vec3(1.1644,  0.000,  1.596);
+const vec3 Rcoeff = vec3(1.1644,  0.000,  1.7927);
+const vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);
+const vec3 offset = vec3(0, -0.501960814, -0.501960814);
+could not read any dollar gesture from rwops
+count
+d0h0l0p0t0x0|0
+d3dcompiler_43.dll
+d3dcompiler_46.dll
+d3dcompiler_47.dll
+dNtsq
+datat
+default
+direct-to-disk audio
+direct3d
+directsound
+displayIndex must be in the range 0 - %d
+dpdown
+dpleft
+dpright
+dropblock
+dropframe
+dst_pitch
+dummy
+eFlv!@r
+eglBindAPI
+eglChooseConfig
+eglCreateContext
+eglCreatePbufferSurface
+eglCreateWindowSurface
+eglDestroyContext
+eglDestroySurface
+eglGetConfigAttrib
+eglGetDisplay
+eglGetError
+eglGetPlatformDisplay
+eglGetPlatformDisplayEXT
+eglGetProcAddress
+eglInitialize
+eglMakeCurrent
+eglQueryAPI
+eglQueryDevicesEXT
+eglQueryString
+eglSwapBuffers
+eglSwapInterval
+eglTerminate
+eglWaitGL
+eglWaitNative
+f9LP@u%B;
+f?>UUUUU
+false
+flipped
+fmt chunk after data chunk in WAVE file
+force
+format
+free_func
+gamma
+generic
+given touch id not found
+glActiveTexture
+glActiveTextureARB
+glAttachObjectARB
+glAttachShader
+glBegin
+glBindAttribLocation
+glBindBuffer
+glBindFramebuffer
+glBindFramebufferEXT
+glBindTexture
+glBlendEquation
+glBlendEquationSeparate
+glBlendFuncSeparate
+glBufferData
+glBufferSubData
+glCheckFramebufferStatus
+glCheckFramebufferStatusEXT
+glClear
+glClearColor
+glColor3fv
+glColor4f
+glCompileShader
+glCompileShaderARB
+glCreateProgram
+glCreateProgramObjectARB
+glCreateShader
+glCreateShaderObjectARB
+glDebugMessageCallbackARB
+glDeleteBuffers
+glDeleteFramebuffers
+glDeleteFramebuffersEXT
+glDeleteObjectARB
+glDeleteProgram
+glDeleteShader
+glDeleteTextures
+glDepthFunc
+glDisable
+glDisableVertexAttribArray
+glDrawArrays
+glDrawPixels
+glEnable
+glEnableVertexAttribArray
+glEnd
+glFinish
+glFramebufferTexture2D
+glFramebufferTexture2D() failed
+glFramebufferTexture2DEXT
+glFramebufferTexture2DEXT() failed
+glGenBuffers
+glGenFramebuffers
+glGenFramebuffersEXT
+glGenTextures
+glGenTextures()
+glGenTexures()
+glGetAttribLocation
+glGetBooleanv
+glGetError
+glGetFramebufferAttachmentParameteriv
+glGetInfoLogARB
+glGetIntegerv
+glGetObjectParameterivARB
+glGetPointerv
+glGetProgramInfoLog
+glGetProgramiv
+glGetShaderInfoLog
+glGetShaderiv
+glGetString
+glGetStringi
+glGetUniformLocation
+glGetUniformLocationARB
+glLineWidth
+glLinkProgram
+glLinkProgramARB
+glLoadIdentity
+glMatrixMode
+glOrtho
+glPixelStorei
+glPointSize
+glPopMatrix
+glPushMatrix
+glRasterPos2i
+glReadBuffer
+glReadPixels
+glReadPixels()
+glRectf
+glRotated
+glRotatef
+glScissor
+glShadeModel
+glShaderBinary
+glShaderSource
+glShaderSourceARB
+glTexCoord2f
+glTexEnvf
+glTexImage2D
+glTexImage2D()
+glTexParameteri
+glTexSubImage2D
+glTexSubImage2D()
+glTranslatef
+glUniform1fARB
+glUniform1i
+glUniform1iARB
+glUniform4f
+glUniformMatrix4fv
+glUseProgram
+glUseProgramObjectARB
+glVertex2f
+glVertex3fv
+glVertexAttribPointer
+glViewport
+guide
+height
+hg-0:aaaaaaaaaaah
+hidapi
+hidapi,*,a:b0,b:b1,back:b4,dpdown:b12,dpleft:b13,dpright:b14,dpup:b11,guide:b5,leftshoulder:b9,leftstick:b7,lefttrigger:a4,leftx:a0,lefty:a1,rightshoulder:b10,rightstick:b8,righttrigger:a5,rightx:a2,righty:a3,start:b6,x:b2,y:b3,
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0N
+https://www.digicert.com/CPS0
+iW!]4/
+ibt<X~
+ignore
+ignorezero
+imm32.dll
+index must be -1 or in the range of 0 - %d
+index must be in the range of 0 - %d
+instance
+jj@hP
+k0i0$
+leftshoulder
+leftstick
+lefttrigger
+leftx
+lefty
+libEGL.dll
+libGLES_CM.dll
+libGLESv1_CM.dll
+libGLESv2.dll
+linear
+lstrcatW
+lstrlenA
+lstrlenW
+m0k0$
+malloc_func
+mappingString
+max_h
+max_w
+maximum
+messageboxdata
+min_h
+min_w
+mouse_input
+ncolors
+nearest
+nmP:F
+no gesture touch devices registered
+normal
+numrects
+ole32.dll
+outputIndex
+overscan
+p0n05
+p1f3q>
+p?t?x?|?
+p?varying vec4 v_color;
+palette
+pitch
+pixels
+platform:
+points
+precision mediump float;
+pressed
+ps_2_0
+queue
+qwasapi
+realloc_func
+rects
+released
+retry
+ri7f>
+rightshoulder
+rightstick
+righttrigger
+rightx
+righty
+rk-_,0EG
+s$_^[]
+s,^_[]
+scancode
+sdlaudio-in.raw
+sdlaudio.raw
+sj@h8
+software
+start
+stream
+strict
+surface
+t	[_3
+t	_^3
+t!Nuf
+t!PhT|
+t#92u
+t#=#0
+t%QPV
+t%VSW
+t&hd_
+t(=NV21t!=NV12
+t(hHh
+t)9x$t$
+t)hD^
+t+It(Iu
+t+It(IuG
+t/VWj
+t2RQQ
+t4Ht!
+t7Ht"HuM
+t8SW3
+t;Ht1Ht'VS
+t<Ht$
+t<Ht$HuEj
+tChT&
+tDHt;Ht
+tDVhpP
+tHhT0
+tHj=V
+tIYUV
+tNV12
+tNV21
+tOES 
+tS=$0
+tWHt;Ht
+tYHt9Ht
+tYV12
+t_^[]
+t`h4y
+ta<:u
+tbVWS
+tcF;u
+tdh w
+tex%d
+tfHt=
+theSampler+theTextureU
+theSampler+theTextureV
+theSampler+theTextureY
+timeBeginPeriod
+timeEndPeriod
+timeGetTime
+times
+tlQVW
+tqHtb-
+truncate
+tvSWh
+t}HtRH
+u	91u
+u	[_3
+u	_[3
+u	_^3
+u	j5V
+u QWV
+u"h |
+u&hHj
+u(9],tZ
+u,h\j
+u/hHZ
+u8h4/
+uBhLR
+uE_^3
+uJhPR
+uQhtU
+uY^_3
+u_color
+u_projection
+u_texture
+u_texture_u
+u_texture_v
+uih$/
+umQWS
+unable to create an EGL window surface
+unable to show color buffer in an OS-native window
+uniform sampler2D tex0;
+uniform sampler2D tex0; // Y 
+uniform sampler2D tex1; // U 
+uniform sampler2D tex1; // U/V 
+uniform sampler2D tex2; // V 
+uniform sampler2D u_texture;
+uniform sampler2D u_texture_u;
+uniform sampler2D u_texture_v;
+uniform vec4 u_color;
+ut_^3
+uyhPP
+v	N+D$
+v0t08
+v@     uniform mat4 u_projection;     attribute vec2 a_position;     attribute vec2 a_texCoord;     attribute vec2 a_angle;     attribute vec2 a_center;     varying vec2 v_texCoord;         void main()     {         float s = a_angle[0];         float c = a_angle[1] + 1.0;         mat2 rotationMatrix = mat2(c, -s, s, c);         vec2 position = rotationMatrix * (a_position - a_center) + a_center;         v_texCoord = a_texCoord;         gl_Position = u_projection * vec4(position, 0.0, 1.0);        gl_PointSize = 1.0;     } 
+v`c_n
+value
+varying vec2 v_texCoord;
+varying vec4 v_color;
+verystrict
+vkCreateWin32SurfaceKHR
+vkCreateWin32SurfaceKHR failed: %s
+vkEnumerateInstanceExtensionProperties
+vkEnumerateInstanceExtensionProperties returned
+vkGetInstanceProcAddr
+void main()
+vulkan-1.dll
+w#t(=
+w't,=
+w)t =
+w3t(-
+wKtB=
+waveInAddBuffer
+waveInAddBuffer()
+waveInClose
+waveInGetDevCapsW
+waveInGetNumDevs
+waveInOpen
+waveInOpen()
+waveInPrepareHeader
+waveInPrepareHeader()
+waveInReset
+waveInStart
+waveInStart()
+waveInUnprepareHeader
+waveOutClose
+waveOutGetDevCapsW
+waveOutGetErrorTextW
+waveOutGetNumDevs
+waveOutOpen
+waveOutOpen()
+waveOutPrepareHeader
+waveOutPrepareHeader()
+waveOutReset
+waveOutUnprepareHeader
+waveOutWrite
+wglChoosePixelFormatARB
+wglCreateContext
+wglCreateContextAttribsARB
+wglDeleteContext
+wglGetExtensionsStringARB
+wglGetPixelFormatAttribivARB
+wglGetProcAddress
+wglGetSwapIntervalEXT
+wglMakeCurrent
+wglMakeCurrent()
+wglShareLists
+wglSwapIntervalEXT
+wglSwapIntervalEXT()
+whhp 
+width
+windows
+windows_file_seek
+windows_file_seek: Unknown value for 'whence'
+windows_file_seek: invalid context/file not opened
+windows_file_size
+windows_file_size: invalid context/file not opened
+winmm
+wjt;=
+wnt?=
+wnt~=
+www.digicert.com1!0
+www.digicert.com1$0"
+www.digicert.com110/
+x0v0$
+xinput
+xinput,XInput Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,
+y	_^3
+y'Ph|
+y(hHZ
+y5Pht
+z0x0:
+|.;w,u 
+|j@h 
+}h><PE
+~&QPW
+~&QSW
+~(f;~
+~/SVP
+~4WSV
+~mVpd3

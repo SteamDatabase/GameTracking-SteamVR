@@ -1,0 +1,4910 @@
+									
+	D7HI
+	D9%Sm
+	D;G<v
+	HcB(L
+	s.M9xHu(I
+                          
+  !!""##$$%%&&''(())**++,,--..//00112233445566778899
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ %d(%lld)
+ %lld%s
+ %llu
+ ;K(|
+ ;N(|
+ ;O(|
+ ;^(|
+ ;j(|
+ ;k(|
+ ;uT|
+ ;w(|
+ ;x(|
+ ;{$|
+ ;{(|
+ ;}(|
+ ;~(|
+ A;L$(|
+ A;N(|
+ A;V(|
+ A;X(|
+ A;t$,|
+ A;|$
+ A;|$(|
+ A;}(|
+ AND 
+ AS %s
+ A\^]
+ A\_[
+ A\_]
+ A\_^
+ A\_^][
+ A]A\]
+ A]A\^
+ A]A\_
+ A]A\_^]
+ A]][
+ A]^[
+ A]^]
+ A]_]
+ A]_^
+ A]_^][
+ A^A\^][
+ A^A\_][
+ A^A\_][H
+ A^A\_^[
+ A^A\_^]
+ A^A]A\
+ A^A]A\^[
+ A^A]A\^]
+ A^A]A\_]
+ A^A]^
+ A^A]^][
+ A^A]_
+ A^][
+ A^_[
+ A^_^][
+ A_A]A\^[
+ A_A]A\_^
+ A_A]_][
+ A_A^A\_[
+ A_A^A\_^
+ A_A^A]A\[
+ A_A^A]A\]
+ A_A^A]A\^][
+ A_A^A]A\_
+ A_A^A]A\_^]
+ A_A^A]_]
+ A_A^A]_^
+ A_A^A]_^][
+ A_A^_^[
+ A_A^_^]
+ A__^][
+ D8{?u
+ D9m4t
+ D;'|
+ D;K(|
+ D;c(
+ D;c(|
+ D;e(
+ D;f(
+ D;f(|
+ D;g(|
+ D;o(|
+ D;s(
+ D;v(|
+ E;l$
+ E;t$(
+ FROM '%q'.'%q%s' AS x
+ Hc*L
+ Hc:3
+ Hc:H
+ Hc:I
+ HcA H
+ HcA I
+ HcY`H
+ Hcl$p3
+ Jc<(
+ Jc|(
+ Lcd$pI
+ NOT 
+ REAL
+ SUBQUERY %d
+ TABLE %s
+ TEXT
+ UNIQUE
+ USING 
+ USING COVERING INDEX 
+ USING INTEGER PRIMARY KEY (rowid%s?)
+ VIRTUAL TABLE INDEX %d:%s
+ WITHOUT ROWID
+ [%z]
+ data
+ ffff
+ fffff
+ id=%lld
+ missing from index 
+ nPos=%d%s
+ t8IcG
+ tVHcO
+ term=%.*s
+ {id=%d leaves=%d..%d}
+ {lvl=%d nMerge=%d nSeg=%d
+!<!t)@
+!T$(H
+!This program cannot be run in DOS mode.
+!t$(!t$ E3
+!t$(A
+!t$(H!t$ H
+"<{u"E
+"Icl$
+$.fff
+$7E;c
+$>D9d$0}<H
+$@8xUt
+$D8qUu
+$G<C|z
+$HcJ@H
+$fffff
+%!.15g
+%!.20e
+%.*s"%w"%s
+%.*z:%u
+%.16g
+%02d:%02d:%02d
+%04d-%02d-%02d
+%04d-%02d-%02d %02d:%02d:%02d
+%06.3f
+%Q.%Q
+%Q.'%q_%s'
+%_`ab
+%c"%s"
+%d %d %d %d 
+%d columns assigned %d values
+%d of %d pages missing from overflow list starting at %d
+%d values for %d columns
+%lld %lld
+%r %s BY term out of range - should be between 1 and %d
+%r ORDER BY term does not match any column in the result set
+%s %T cannot reference objects in database %s
+%s : 
+%s OR name=%Q
+%s at line %d of [%.10s]
+%s cannot use variables
+%s constraint failed
+%s mode not allowed: %s
+%s prohibited in %s
+%s {%s}
+%s%.*s"%w"
+%s%.3x+%.6x
+%s%.3x/
+%s%c%s
+%s%s%z%s
+%s(%d)
+%s, %s
+%s-mjXXXXXX9XXz
+%s-shm
+%s.%s
+%s.%s.%s
+%s.rowid
+%s.xBestIndex malfunction
+%s: %s
+%s: %s.%s
+%s: %s.%s.%s
+%s: table does not support scanning
+%s_data
+%s_node
+%s_segments
+%s_stat
+%z - %s
+%z%.*s
+%z%Q, 
+%z%s%Q
+%z, %Q HIDDEN, %s HIDDEN)
+%z, 'c%d%q'
+%z, langid
+%z: %s
+&&&&&&&&&&
+&H9CP|
+'%.*q'
+'%s' is not a function
+'57;'WX'G
+'bDDf
+'delete-all' may only be used with a contentless or external content fts5 table
+'rebuild' may not be used with a contentless fts5 table
+("%s"
+(%.20s)
+(;kP|
+(A;<$
+(A]A\
+(A]A\^[
+(A]A\_[
+(A]_H
+(A^A\][
+(A^A]A\^
+(A^A]A\_][
+(A^A]^]
+(A^A]_]
+(A^_^[
+(A_A]A\^][
+(A_A^A\^
+(A_A^A]A\
+(A_A^A]A\_^][
+(A_A^^[
+(A_A^_^
+(A__^[
+(D$ H
+(D$ f
+(D;SP|
+(H;\$X|
+(H;l$x
+(L9-FM
+(L;d$ 
+(NULL)
+(_^][
+(blob)
+(fffff
+(fffffff
+(t$ ;
+(t$ E
+(t$ H
+(t$0H
+(t$@L
+(t$PH
+(t$`H
+(|$`H
+(|$pH
+)'&(E
+);Ux~
+)S+h4"q-.1
+)t$ A
+)t$ H
+)t$ f
+)t$0I
+)t$0f
+)t$PA
+)t$`A
+)t$pL
+)|$`L
+*** in database %s ***
+******""""""""""""""""""""
+*H+K0H
+*H+L$@H
+*I+NhH
++IcB0A
+, %d)
+, T.%Q
+, T.c%d
+, c%d
+, x.%Q
+, x.'%q'
+,$A9m
+,%s%s
+,%s(?)
+,%s(x.'c%d%q')
+,+@:(
+,,,,,,DFH
+,0<	w
+,HR>O
+,T$PD
+,arg HIDDEN
+,schema HIDDEN
+- Attempt to initialize the CRT more than once.
+- Attempt to use MSIL code from this assembly during native code initialization
+- CRT not initialized
+- floating point support not loaded
+- not enough space for _onexit/atexit table
+- not enough space for arguments
+- not enough space for environment
+- not enough space for locale information
+- not enough space for lowio initialization
+- not enough space for stdio initialization
+- not enough space for thread data
+- pure virtual function call
+- unable to initialize heap
+- unable to open console device
+- unexpected heap error
+- unexpected multithread lock error
+-- %s
+-- TRIGGER %s
+-64OS
+-BH>t
+-col %d 
+-col {%d
+-journal
+-mj%06X9%02X
+-near %d 
+.%.*s
+.>PJ;I:qE>
+.H9:u|
+.pdata
+.t$0z
+.t*Hc
+.text
+/2GG>!B
+/|$@v
+0123456789ABCDEF
+0123456789ABCDEF0123456789abcdef
+0123456789abcdef
+09~8~
+0><[cZUg^>
+0A\][
+0A\^]
+0A\_]
+0A\_^
+0A]A\]
+0A]A\^
+0A]A\_
+0A]A\_^[
+0A]A\_^]
+0A]^]
+0A]_^
+0A]_^][
+0A^A\^
+0A^A\^][
+0A^A\_
+0A^A\_][
+0A^A\_^]
+0A^A]A\
+0A^A]A\_^
+0A^A]^
+0A^A]_
+0A^_[
+0A^_]
+0A^_^][
+0A_A\_^]
+0A_A]A\^[
+0A_A]_][
+0A_A^A\_^
+0A_A^A]A\^
+0A_A^A]A\^][
+0A_A^A]A\_
+0A_A^A]A\_^]
+0A_A^A]^[
+0A_A^A]_]
+0A_A^A]_^
+0A_A^_^]
+0HcA83
+0L9Fp
+0fffff
+0ffffff
+0t-ff
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+12"4Z[\]^`aba
+12ZXY
+1@8wUt
+1H+|$@D8t$`t
+1M9nHI
+2017-08-01 13:24:15 9501e22dfeebdcefa783575e47c60b514d7c2e0cad73b2a496c0bc4b680900a8
+20b:20e
+20c:20e
+2nd reference to page %d
+3.20.0
+333333
+3@8t$`@
+3@8xU
+3D$p3
+3H;D$@
+3e1$ m
+4(ffff
+40f-21a-21d
+6@8sLL
+7D8t$H
+7D9@<
+7D;Cdv
+8-uaH
+80tWD
+8A]^][
+8A^A]A\[
+8A^A]^]
+8A^^][
+8A_A\
+8A_A\_^][
+8A_A]
+8A_A]A\]
+8A_A]A\_][
+8A_A]_[
+8A_A^A\_][
+8A_A^A]A\][
+8A_A^A]A\_[
+8A_A^A]A\_^][
+8A_A^A][
+8A_A^A]_^[
+8BDt>H
+8D$8t
+8D$Xt
+8D$pL
+8E%v7H
+8Gu!f
+8L$8t
+8O[v!H
+8Q%v/L
+8Q%v5H
+8Q%v7H
+8S%v!f
+8S%v/L
+8S%v8L
+8T$@t#H
+8T$ru
+8V%v6L
+8V&uKH
+8W%v'L
+8Z2t8H
+8\$Xt
+8^%v#L
+8^u1H
+8_^][
+8zu	H
+9.vTH
+90~ 3
+922337203685477580
+97~7H
+99~%Hc
+9:~{H
+9>~,H
+9>~PH
+9B,uJM
+9D$ u
+9D$4t
+9D$@t
+9D$`t!H
+9D$hu
+9D$lH
+9D$lu
+9G0v,Hc
+9GXt&H
+9Gdud
+9L$@u5L
+9L$Ht
+9N(~FD
+9O(~%H
+9S }_E3
+9S }fE3
+9X4t4H
+9XTttM
+9X\tcA
+9Y(~;H
+9Y(~@H
+9Y(~bH
+9\$0u
+9\$4}
+9\$@v
+9\$`u
+9\$du
+9l$4u
+9l$<tC
+9l$Lu
+9l$Pu
+9l$tu
+9n(~@L
+9o4uBH
+9q4uiH9qpu;H
+9s }!E3
+9s0~)f
+9s4|%
+9s8t 
+9sHuF
+9s|~03
+9t$0I
+9t$PI
+9wuIc
+9y udH
+9y(~!H
+9y(~IH
+9yd~h
+9{ }&E3
+9{(~AH
+9{(~DH
+9{0~NL
+9{Pu	H
+9{Xt6
+9|$8E
+9|$X}AH
+9~Xt0H
+:.uHHc
+:0u	I
+:12OPQR
+:>)*	v
+:>t6k'
+:H9Xxt
+:memory:
+:pFGHIJKLMNOPQR
+:uRA8\
+;.uAL
+;9-7u
+;=u	H
+;?u#A
+;C ~TH
+;CuTD8c
+;D$8w
+;D$<r
+;D$Lr
+;D$\r
+;E9l$Tt'I
+;Fu,L
+;HXt9H
+;L$Lr
+;N ~F
+;O8tLH
+;Q<v5H
+;Q<vIH
+;T$Lr
+;\$d~B
+;\$p|
+;_P}PM
+;eu/H
+;l$\C
+;s(}7H
+;s0r#H
+;s0t/H
+;s0}%L
+;s0}(H
+;y ~,L
+;{(}!H
+;{(}"H
+;{(}NH
+;|$0v
+;}P}*H
+<	w)C
+< tG<	tC
+<"tC:
+<"t_<'t[<[t3<`tS
+<"ti<'te<[t<<`t]
+<"to<'tk<[tC<`tc
+<"u8A
+<$-Hc
+<,uIH
+<-t3<0|
+<-uHB
+</tH<\tD
+<0u	I
+<0|&<9
+<0|)<9
+<8D9|$`v
+<9~+<}u
+<>#n2
+<AtyB
+<BunD
+<Et	H
+<Eu`B
+<EueHc
+<Kt#<Ht
+<Xtc<n
+<XuAA
+<`uS<[
+<`ugE3
+<at$<et <it
+<at*<et&<it"<ot
+<b>...</b>
+<etQ<n
+<expr>
+<fumH
+<ltR<s
+<nu~H
+<program name unknown>
+<s}>?/t
+<tt	<st
+<tumH
+<wtb<xt^<ytZ3
+<wtt<
+<wu	H
+<wu)H
+<wu*H
+<wu+H
+<wu+I
+<wu7H
+<wu;I
+<wuWL
+<wubH
+<wueH
+<zu	H
+>? AND rowid<
+>AEZMV
+>Gt0H
+>H9t$0tq
+>e/ABj
+?-u	A
+?7zQ6$
+?:kP<
+?:u2H
+?:ulH
+?H9l$0tr
+?QY^&
+?UUUUUU
+?^uSD
+?f`Y4
+?~/Hc
+@	0t;H
+@ D9L(
+@(9B,t
+@(HcHh
+@(HcHl
+@(Ic@pH;
+@,9Q<
+@.data
+@.idata
+@.reloc
+@.rsrc
+@0L9C(u.H
+@8(ts
+@81tD
+@83uY;k
+@88uTH
+@8:u#@
+@8A8<
+@8H9Bp
+@8HcU
+@8I9Cp
+@8h,u
+@8hSu
+@8hUt	H
+@8iUt
+@8iUt	H
+@8iUu
+@8iUuZH
+@8kSu	H
+@8kX|1H
+@8k[v!H
+@8k]u
+@8nUu"@8nVu
+@8n]u
+@8o%v
+@8oDt0
+@8oXu5H9o8H
+@8q#H
+@8qUt
+@8qUu
+@8s?u
+@8s?u*H
+@8sUt#
+@8sUu
+@8sVu
+@8s]u
+@8t$Ht
+@8u0u
+@8w%v
+@8x!t D
+@8x"@
+@8xUt
+@8xUu#@8xVu
+@8xUuP;
+@8xbtbH
+@8yUt
+@8yUuE
+@8{ u
+@8{%v
+@8{(u
+@8{C~
+@8{Uu
+@8{]u
+@8|$@uG
+@8|$Ht
+@8~$t
+@8~JtI
+@8~Uu
+@:8u<
+@@ uB
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@D
+@A;o|
+@A\^[
+@A\^]
+@A\_^
+@A\_^][
+@A]A\[
+@A]A\^
+@A]A\_
+@A]A\_^[
+@A]A\_^]
+@A]^[
+@A]_^
+@A^A\]
+@A^A]A\
+@A^A]A\_^
+@A^A]A\_^][
+@A^A]_
+@A^A]_][
+@A^][
+@A^_^
+@A_A]A\_^][
+@A_A]^
+@A_A]_][
+@A_A^A\][
+@A_A^A]
+@A_A^A]A\[
+@A_A^A]A\^][
+@A_A^A]A\_
+@A_A^A]A\_][
+@A_A^A]A\_^[
+@A_A^A]A\_^]
+@A_A^A]_]
+@A_A^A]_^][
+@A_A^^
+@A_A^^][
+@A_A^_][
+@A_A^_^]
+@L9g@H
+@SATAUAVAWH
+@SATAUAVH
+@SATAUH
+@SATH
+@SAUAVAWH
+@SAVH
+@SAWH
+@SUATAUAVAWH
+@SUATAVAWH
+@SUATAVH
+@SUATH
+@SUAUH
+@SUAVH
+@SUVATAUAVAWH
+@SUVATAVH
+@SUVATAWH
+@SUVAUAVH
+@SUVAUH
+@SUVAVAWH
+@SUVAVH
+@SUVH
+@SUVWATAUAVAWH
+@SUVWATAUAVH
+@SUVWATH
+@SUVWAUAVAWH
+@SUVWAUH
+@SUVWAVH
+@SUVWAWH
+@SUVWH
+@SUWATAUAVAWH
+@SUWATAUAVH
+@SUWATAUAWH
+@SUWATAUH
+@SUWATAVH
+@SUWAUAWH
+@SUWAUH
+@SUWAVAWH
+@SUWH
+@SVATAUAVH
+@SVATAUAWH
+@SVATAUH
+@SVAUH
+@SVAVAWH
+@SVWATAVH
+@SVWATAWH
+@SVWATH
+@SVWAUAVAWH
+@SVWAUAVH
+@SVWAVAWH
+@SVWAVH
+@SVWAWH
+@SVWH
+@SWATAUH
+@SWATH
+@SWAUAWH
+@SWAVH
+@UATAUAVAWH
+@UATAUAVH
+@UATAUAWH
+@UATAUH
+@UATAVAWH
+@UATAVH
+@UATH
+@UAUAVH
+@UAUH
+@USVWATAUAVAWH
+@UVATAUAVH
+@UVATH
+@UVAUAVH
+@UVWATAUAVAWH
+@UVWATAUH
+@UWATAUAVAWH
+@UWATAUAVH
+@UWATH
+@UWAUAVAWH
+@UWAVH
+@VATAUAVAWH
+@VATAUAVH
+@VATAUH
+@VATAVH
+@VATH
+@VAUAVAWH
+@VAUH
+@VAVH
+@VAWH
+@VWATAVAWH
+@VWAUAVAWH
+@VWAUH
+@VWAVAWH
+@WATAUH
+@WATAVAWH
+@WAUH
+@^fA;
+@`f;A
+@fB+L@
+@pH9A8t"L
+@|D9C(~
+@|E9D$(~
+A	D8<
+A	G@A
+A @8)u
+A H9P
+A Hc@
+A#t$H
+A&@u/I
+A+F(A
+A+}(A
+A03>A|
+A09B r
+A09B r*
+A0A9@ r
+A0A9A r
+A0H9F(
+A0H9F(t
+A0LcI4
+A0fA9
+A6<at9<
+A6u"H
+A8+t.H
+A8+t?H
+A8;t_A
+A8>t%L
+A8D$St
+A8D$U
+A8E!t
+A8F!t
+A8G%v
+A8S%v
+A8S%v7H
+A8T$%v
+A8T$%v<M
+A8l$V
+A8m%v8I
+A8t	H
+A9.~AI
+A9<$H
+A9D$(
+A9D$H
+A9D$t
+A9E,t
+A9F(A
+A9FTte
+A9L$(D
+A9L$(~ I
+A9O8tc
+A9Q fA
+A9RHu
+A9T$0H
+A9W }&E3
+A9\$(
+A9\$4t
+A9\$4u
+A9\$@
+A9](Hc
+A9]4t
+A9^Tt+I
+A9n(D
+A9n<uvL
+A9o8u+
+A9t$4
+A9t$@L
+A9t$Tu
+A9t$X
+A9u }
+A9u0L
+A9v4t
+A9|$T
+A9}(I
+A9~8uLL
+A;<$|
+A;B0}
+A;C<~
+A;E0}
+A;EXs
+A;F8~
+A;L$p
+A;Y$v
+A;\$(
+A;\$0
+A;^<v
+A;_0t?H
+A;l$8
+A;r<v1L
+A;t$(|
+A;u4L
+A;y(|
+A;|$8
+A;|$8|
+A>l$/
+A@D9q@}"H
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.DLL
+AFGHIJKLMNOPQR
+AFTER
+AH#ADH
+AK>(v
+ALTER TABLE %Q.'%q_%s' RENAME TO '%q_%s';
+ALTER TABLE %Q.'%q_content'  RENAME TO '%q_content';
+ALTER TABLE %Q.'%q_docsize'  RENAME TO '%q_docsize';
+ALTER TABLE %Q.'%q_node'   RENAME TO "%w_node";ALTER TABLE %Q.'%q_parent' RENAME TO "%w_parent";ALTER TABLE %Q.'%q_rowid'  RENAME TO "%w_rowid";
+ALTER TABLE %Q.'%q_segdir'   RENAME TO '%q_segdir';
+ALTER TABLE %Q.'%q_segments' RENAME TO '%q_segments';
+ALTER TABLE %Q.'%q_stat'  RENAME TO '%q_stat';
+ANALYZE "%w"."%w"
+ANY(%s)
+API call with %s database connection pointer
+API called with NULL prepared statement
+API called with finalized prepared statement
+ATAUAVAWH
+ATAUAVH
+ATAUAWH
+ATAUH
+ATAWH
+ATTACH''AS vacuum_db
+AUAVAWH
+AUAWH
+AUTOINCREMENT is only allowed on an INTEGER PRIMARY KEY
+AUTOINCREMENT not allowed on WITHOUT ROWID tables
+AUTOMATIC COVERING INDEX
+AUTOMATIC PARTIAL COVERING INDEX
+AVAWH
+AZf;B
+A\_^[
+A\_^][
+A\_^][H
+A]A\^
+A]A\_
+A]A\_^]
+A]A\_^][
+A]^][
+A^A\^
+A^A\^][
+A^A]A\
+A^A]A\_[
+A^A]A\_^
+A^A]A\_^][
+A^A]]
+A^A]][
+A^A]_^
+A_A\][
+A_A\^][
+A_A\_^[
+A_A\_^]
+A_A\_^][
+A_A]A\
+A_A]A\^
+A_A]A\^][
+A_A]A\_][
+A_A]A\_^]
+A_A]_
+A_A^A\[
+A_A^A\]
+A_A^A\^
+A_A^A\_[
+A_A^A\_]
+A_A^A\_^][
+A_A^A]
+A_A^A]A\[
+A_A^A]A\]
+A_A^A]A\^
+A_A^A]A\^[
+A_A^A]A\^][
+A_A^A]A\_
+A_A^A]A\_^[
+A_A^A]A\_^]
+A_A^A]A\_^][
+A_A^A][
+A_A^A]^][
+A_A^A]_^
+A_A^A]_^[
+A_A^A]_^]
+A_A^A]_^][
+A_A^^
+A_A^_^[
+AddImm
+Affinity
+AggFinal
+AggStep
+AggStep0
+An application has made an attempt to load the C runtime library incorrectly.
+April
+AreFileApisANSI
+August
+AutoCommit
+B McPPE
+B f9A t
+B$+B f
+B,+B(f
+B09A r
+B09A0s
+B4IcB8
+B8uEE
+B@ fD
+B@ tG
+B@~MH
+BDfA9D$D
+BEFORE
+BEGIN
+BINARY
+Bad ptr map entry key=%d expected=(%d,%d) got=(%d,%d)
+Bb8Fbu
+BitAnd
+BitNot
+BitOr
+B|D9C(~
+B|D9G(~
+C 9w<t5
+C D8t0
+C I9F
+C$D9C
+C& u?H
+C(D9PTt
+C(HcHpH;
+C,9A,u
+C0*C4
+C09CPA
+C09F s
+C0H94
+C0L98u
+C0f9A0t
+C69A u
+C8+C@
+C8@8u
+C8D8m
+C8E8l$
+C8HcKP
+C@ t	L
+C@ tWL
+C@ u=D
+C@ uQM9fHuKM
+C@;s0~8H
+CASCADE
+CHECK
+CHECK constraint failed in %s
+CHECK constraints
+CHt4H
+CJfA9F\
+CL:>8
+COMMIT
+COMPILER=msvc-1500
+COMPOUND SUBQUERIES %d AND %d %s(%s)
+CORRELATED 
+COVERING INDEX %s
+CP8FUu
+CPH90
+CPH90t
+CPH90t&H
+CPH90uyH
+CR8Bqt
+CREATE %s %.*s
+CREATE TABLE 
+CREATE TABLE "%w"."%w_node"(nodeno INTEGER PRIMARY KEY, data BLOB);CREATE TABLE "%w"."%w_rowid"(rowid INTEGER PRIMARY KEY, nodeno INTEGER);CREATE TABLE "%w"."%w_parent"(nodeno INTEGER PRIMARY KEY, parentnode INTEGER);INSERT INTO '%q'.'%q_node' VALUES(1, zeroblob(%d))
+CREATE TABLE %Q.%s(%s)
+CREATE TABLE %Q.'%q_%q'(%s)%s
+CREATE TABLE %Q.'%q_content'(%s)
+CREATE TABLE %Q.'%q_docsize'(docid INTEGER PRIMARY KEY, size BLOB);
+CREATE TABLE %Q.'%q_segdir'(level INTEGER,idx INTEGER,start_block INTEGER,leaves_end_block INTEGER,end_block INTEGER,root BLOB,PRIMARY KEY(level, idx));
+CREATE TABLE %Q.'%q_segments'(blockid INTEGER PRIMARY KEY, block BLOB);
+CREATE TABLE %Q.sqlite_sequence(name,seq)
+CREATE TABLE IF NOT EXISTS %Q.'%q_stat'(id INTEGER PRIMARY KEY, value BLOB);
+CREATE TABLE x
+CREATE TABLE x(
+CREATE TABLE x(%s
+CREATE TABLE x(%s %Q HIDDEN, docid HIDDEN, %Q HIDDEN)
+CREATE TABLE x(input, token, start, end, position)
+CREATE TABLE x(key,value,type,atom,id,parent,fullkey,path,json HIDDEN,root HIDDEN)
+CREATE TABLE x(term, col, documents, occurrences, languageid HIDDEN)
+CREATE TABLE x(type text,name text,tbl_name text,rootpage integer,sql text)
+CREATE TABLE xx(   name       TEXT,             /* Name of table or index */  path       TEXT,             /* Path to page from root */  pageno     INTEGER,          /* Page number */  pagetype   TEXT,             /* 'internal', 'leaf' or 'overflow' */  ncell      INTEGER,          /* Cells on page (0 for overflow) */  payload    INTEGER,          /* Bytes of payload on this page */  unused     INTEGER,          /* Bytes of unused space on this page */  mx_payload INTEGER,          /* Largest payload size of all cells */  pgoffset   INTEGER,          /* Offset of page in file */  pgsize     INTEGER,          /* Size of the page */  schema     TEXT HIDDEN       /* Database schema being analyzed */);
+CREATE TABlE vocab(term, col, doc, cnt)
+CREATE TABlE vocab(term, doc, cnt)
+CREATE VIRTUAL TABLE %T
+CREATE%s INDEX %.*s
+CT;F0}
+CWD>~3
+CXD9-
+CZfA;@
+C^fA;
+C`H9C0}
+Cannot add a NOT NULL column with default value NULL
+Cannot add a PRIMARY KEY column
+Cannot add a REFERENCES column with non-NULL default value
+Cannot add a UNIQUE column
+Cannot add a column to a view
+Cannot add a column with non-constant default
+Cfffff
+ChD8l
+ChD8t
+ChH9C0
+CharLowerW
+CharUpperW
+Checkpoint
+Child page depth differs
+Clear
+Close
+CloseHandle
+CollSeq
+Column
+ColumnsUsed
+Compare
+CompareStringA
+CompareStringW
+Concat
+CorExitProcess
+Count
+CreateEventExW
+CreateFile2
+CreateFileA
+CreateFileMappingA
+CreateFileMappingFromApp
+CreateFileMappingW
+CreateFileW
+CreateIndex
+CreateMutexW
+CreateTable
+CreateThread
+CursorHint
+CxH90t
+CxH98t
+C|9k|
+C|D9C(~
+C|D9C(~!H
+C|D9C(~"H
+C|D9C(~/H
+C|D9G(~
+D! D9f
+D$	yfA
+D$ 9p0~
+D$ D;
+D$ E3
+D$ H;
+D$ Hc
+D$ Hk
+D$ Ic
+D$ L9r
+D$ M9/t
+D$ Mc
+D$ fA
+D$%D;
+D$%fffffff
+D$&8\$&t-8X
+D$'oD
+D$(@8pUuu9w
+D$(E3
+D$(H;
+D$(Hc
+D$(L#
+D$(fffff
+D$(ffffff
+D$(}	A
+D$,eA
+D$0!P`H
+D$08H
+D$09F 
+D$0D	 
+D$0D	`
+D$0D	``H
+D$0D9
+D$0E3
+D$0E;
+D$0H+
+D$0H9D$8r
+D$0H;
+D$0Hc@
+D$0HcH
+D$0HcL$,L
+D$0HcP
+D$0HcX
+D$0Hcx
+D$0L+
+D$0L;
+D$0LcP
+D$0LcX
+D$0fA
+D$0fD
+D$0t?
+D$0~1H
+D$4Ic
+D$4fD
+D$6fD)O
+D$7yD
+D$88]UM
+D$8E3
+D$8H+
+D$8H;
+D$8Hc
+D$8HcQpH;
+D$8Hk
+D$8L;
+D$8Lc
+D$8f!H
+D$8f#D$t3
+D$8fA#
+D$<A8l$!
+D$<fA
+D$@ t	3
+D$@ usE
+D$@9uXt
+D$@D8s
+D$@E+
+D$@E3
+D$@H9x(H
+D$@H;
+D$@H;+
+D$@Hc
+D$@I;
+D$@Ic
+D$@fA
+D$@fD
+D$@ffffff
+D$@tlA
+D$@u!f
+D$@u(E
+D$B[H
+D$D9B,
+D$DE3
+D$H8]
+D$H9B
+D$H9C
+D$H@8xU
+D$HD9h0
+D$HH)G
+D$HH+
+D$HH;
+D$HHc
+D$HHcH
+D$HHcX
+D$HHcp
+D$HHcx
+D$HI;
+D$HIc
+D$HLc
+D$HLcx
+D$HfE
+D$H|&f
+D$L9D$@v2H
+D$LHc
+D$LfD;E^
+D$P9O t
+D$P9P<
+D$PA99t	
+D$PD;
+D$PE3
+D$PH9B
+D$PH9D$`}
+D$PL;
+D$PMc
+D$Pf	C
+D$Pu"I
+D$Pu:H
+D$P~/8\$vt)H
+D$R$H
+D$R[H
+D$RfE
+D$R{H
+D$T9X<
+D$TE3
+D$TH+
+D$TfD
+D$XA;
+D$XD9b(
+D$XD;A
+D$XE3
+D$XE;
+D$XH;
+D$XHc
+D$Xt"I
+D$\;D$XuBH
+D$^E3
+D$`	x,
+D$`9h(~-H
+D$`E3
+D$`H+
+D$`H;
+D$`Hc
+D$`Lc
+D$`Lct$h
+D$`ff
+D$`fff
+D$bfE
+D$dfD
+D$dyA
+D$hD+
+D$hE3
+D$hE;
+D$hHc
+D$hHcF
+D$hI;
+D$hIc
+D$hfE
+D$p H
+D$pA+F
+D$pA8E
+D$pA9G
+D$pE3
+D$pH;
+D$pI;
+D$pfA#
+D$pfD
+D$x8L$Xt
+D$x@8(t
+D$xA9\$4u
+D$xA;
+D$xE3
+D$xHcr
+D$xfE
+D'D t$A
+D+=&u
+D+=:o
+D8	t>
+D8#t;L
+D8(u@
+D80uhH
+D82tPf
+D84(u
+D84(u!
+D8;t3
+D8A%v/I
+D8C%v4H
+D8C%v9H
+D8D$:u
+D8G$vaL
+D8G%v+H
+D8I%v
+D8I%v!L
+D8I%v;L
+D8N&u\H
+D8O%v,L
+D8Q%v5L
+D8Q&uT
+D8S%v
+D8T$H
+D8YLtMD
+D8\$8t
+D8\$8t#H
+D8`Ut	H
+D8`Ut	L
+D8`pu
+D8a&ukE
+D8aUt
+D8aUu
+D8aUuk
+D8cSu
+D8cUu
+D8eUt
+D8f!t,H
+D8gUu
+D8gVu
+D8hUt
+D8hUt	H
+D8hUu
+D8iUt
+D8iUu
+D8jSu
+D8k$u
+D8kUu
+D8l$Ht
+D8mUu
+D8o!t 
+D8o$u
+D8o(u
+D8oUu
+D8pUu
+D8qUt
+D8qUt	3
+D8qUu
+D8sPu.H
+D8sUu#D8sVu
+D8t$@uSD8t$AuaH
+D8t$H
+D8t$Ht
+D8t$`t
+D8wUuV
+D8xUt
+D8xUuA
+D8yUt
+D8yUt%H
+D8{?t
+D8{?u
+D8{?u&H
+D8{?u.H
+D8{?u4H
+D8~Ut
+D9%(4
+D9&ttH
+D9(~V3
+D9+ul
+D9+~<3
+D91u(
+D92Hc
+D95^h
+D9<(uY
+D9@8u
+D9@<D
+D9@<H
+D9@@u3E;
+D9@Xu
+D9A$t
+D9A<H
+D9AHu
+D9B<u-L
+D9C t
+D9C0w
+D9H<D
+D9I$t
+D9I<H
+D9S0vKM
+D9S<|	
+D9T$(t^M
+D9ZHH
+D9[4u9
+D9_4u-
+D9_@u
+D9_`un
+D9`tu=
+D9a(A
+D9aHA
+D9aXu
+D9b8H
+D9c t
+D9c0A
+D9c8t
+D9d$ 
+D9d$4
+D9d$@t"Lc
+D9d$`u
+D9e4H
+D9e@t0H
+D9h$ta
+D9jpu
+D9k t
+D9k |gH
+D9k(H
+D9k4u5H
+D9l$P
+D9l$Pu
+D9l$h
+D9l$hD
+D9l$x
+D9m4u@
+D9o(A
+D9oPu	L
+D9pTt
+D9q(E
+D9r ~
+D9rTL
+D9s t
+D9t$@A
+D9t$@t`H
+D9t$@u
+D9t$H
+D9t$P
+D9t$Pu
+D9u(E
+D9uTt^H
+D9uTu
+D9vTt
+D9w@|
+D9x,t
+D9x<A
+D9x<D
+D9x\ta
+D9z8H
+D9{ t
+D9|$x
+D9|$xt
+D;/}>H
+D;@x~
+D;BP|
+D;D$HuW;T$LuQH
+D;H||
+D;L$h
+D;O0|
+D;P||(
+D;S(|
+D;S0r
+D;c(L
+D;ct~4L
+D;d$p
+D;d$x
+D;f(|
+D;l$ 
+D;l$P
+D;nHD
+D;nXL
+D;s(H
+D;t$ 
+D;t$8t
+D;t$8v
+D;t$P
+D;|$P|if;
+D> HcD$xI
+DELETE FROM %Q.%s WHERE %s=%Q
+DELETE FROM %Q.%s WHERE name=%Q AND type='index'
+DELETE FROM %Q.%s WHERE name=%Q AND type='trigger'
+DELETE FROM %Q.%s WHERE tbl_name=%Q and type!='trigger'
+DELETE FROM %Q.'%q_content'
+DELETE FROM %Q.'%q_content' WHERE id=?
+DELETE FROM %Q.'%q_content' WHERE rowid = ?
+DELETE FROM %Q.'%q_data';DELETE FROM %Q.'%q_idx';
+DELETE FROM %Q.'%q_docsize'
+DELETE FROM %Q.'%q_docsize' WHERE docid = ?
+DELETE FROM %Q.'%q_docsize' WHERE id=?
+DELETE FROM %Q.'%q_docsize';
+DELETE FROM %Q.'%q_segdir'
+DELETE FROM %Q.'%q_segdir' WHERE level = ?
+DELETE FROM %Q.'%q_segdir' WHERE level = ? AND idx = ?
+DELETE FROM %Q.'%q_segdir' WHERE level BETWEEN ? AND ?
+DELETE FROM %Q.'%q_segments'
+DELETE FROM %Q.'%q_segments' WHERE blockid BETWEEN ? AND ?
+DELETE FROM %Q.'%q_stat'
+DELETE FROM %Q.sqlite_sequence WHERE name=%Q
+DELETE FROM '%q'.'%q_data' WHERE id>=? AND id<=?
+DELETE FROM '%q'.'%q_idx' WHERE segid=?
+DELETE FROM '%q'.'%q_node' WHERE nodeno = :1
+DELETE FROM '%q'.'%q_parent' WHERE nodeno = :1
+DELETE FROM '%q'.'%q_rowid' WHERE rowid = :1
+DELETE from
+DISTINCT
+DISTINCT aggregates must have exactly one argument
+DOMAIN error
+DROP TABLE '%q'.'%q_node';DROP TABLE '%q'.'%q_rowid';DROP TABLE '%q'.'%q_parent';
+DROP TABLE IF EXISTS %Q.'%q_content'
+DROP TABLE IF EXISTS %Q.'%q_content';
+DROP TABLE IF EXISTS %Q.'%q_data';DROP TABLE IF EXISTS %Q.'%q_idx';DROP TABLE IF EXISTS %Q.'%q_config';
+DROP TABLE IF EXISTS %Q.'%q_docsize'
+DROP TABLE IF EXISTS %Q.'%q_docsize';
+DROP TABLE IF EXISTS %Q.'%q_segdir'
+DROP TABLE IF EXISTS %Q.'%q_segments'
+DROP TABLE IF EXISTS %Q.'%q_stat'
+D\$@H
+December
+DecodePointer
+DecrJumpZero
+DeferredSeek
+Delete
+DeleteCriticalSection
+DeleteFileA
+DeleteFileW
+Destroy
+Divide
+DropIndex
+DropTable
+DropTrigger
+D|$\H
+E ;AXs
+E":E!s
+E(A84
+E+f H
+E,9A,uP
+E0E8nU
+E0H9C(u
+E0H9F(u
+E80~	
+E8A%v$H
+E8l$U
+E8t$UuMD9
+E8t$UuRE9u0uEH
+E8t$UujH
+E8u?u
+E8|$St
+E8|$]u
+E9Z@u
+E9f u/H
+E9f4}
+E9fXD
+E9l$Tt
+E9t$(H
+E9t$8A
+E9u(H
+E9w(L
+E;D$dv
+E;J<~
+E;e0H
+E;l$(|
+E>nEA
+E@ LcJ
+E@ uE
+E@@8<
+ENABLE_COLUMN_METADATA
+ENABLE_DBSTAT_VTAB
+ENABLE_FTS3
+ENABLE_FTS4
+ENABLE_FTS5
+ENABLE_JSON1
+ENABLE_RTREE
+ESCAPE expression must be a single character
+EXCEPT
+EXECUTE %s%s SUBQUERY %d
+EXf9A0uF
+E\$hA
+E^9H<A
+EhD8|
+EhI96u
+ElseNotEq
+EncodePointer
+EndCoroutine
+EnterCriticalSection
+EnumSystemLocalesA
+ExA9]4u
+ExD9e4u
+ExitProcess
+ExitThread
+Expire
+Explain
+Expression tree is too large (maximum depth %d)
+Extends off end of page
+F	f;C
+F HcHh3
+F(@8<
+F(A8<
+F(H+C(H
+F0HcC
+F4D8s
+F<IcO
+F>qUxv
+F@ t	H
+F@ uhK
+F@D9`T
+FGHIJKLMNOPQR
+FGHIJKLMNOPQR2TUVWXYZ[\]^
+FGHIJKLMNOPQRETUVWXYZ[\]^
+FGHIJKLMNOPQR^TUVWXYZ[\]^
+FHA9@
+FOREIGN KEY
+FOREIGN KEY constraint failed
+FTS expression tree is too large (maximum depth %d)
+F`;CX
+F`;GXu~8_?t
+Failed to read ptrmap key=%d
+FatalAppExitA
+February
+Fh@8l
+FhD8d
+FileTimeToLocalFileTime
+FileTimeToSystemTime
+FkCounter
+FkIfZero
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushViewOfFile
+FormatMessageA
+FormatMessageW
+Found
+Fragmentation of %d bytes reported as %d on page %d
+FreeEnvironmentStringsA
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
+Function
+Function0
+G HcHPA
+G HcT$@H
+G L9` u
+G f9P
+G"f9W"
+G"f9W"wi
+G(I9\$8tBL
+G(fE;GFI
+G0E;D$p
+G0f9C0
+G49H<
+G4HcuP
+G8D8m
+G@ uiH
+G@HcW@H
+GD9k(t
+GH#C8H
+GHA8h
+GHA9@,u
+GROUP
+GROUP BY
+GX9H<
+G^9P<
+G`HcOhI
+Gd0y5
+Gd3-<
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetDateFormatA
+GetDiskFreeSpaceA
+GetDiskFreeSpaceW
+GetEnvironmentStrings
+GetEnvironmentStringsW
+GetFileAttributesA
+GetFileAttributesExW
+GetFileAttributesW
+GetFileInformationByHandleEx
+GetFileSize
+GetFileType
+GetFullPathNameA
+GetFullPathNameW
+GetLastActivePopup
+GetLastError
+GetLocaleInfoA
+GetLocaleInfoW
+GetModuleFileNameA
+GetModuleHandleW
+GetNativeSystemInfo
+GetOEMCP
+GetProcAddress
+GetProcAddressA
+GetProcessHeap
+GetProcessWindowStation
+GetStartupInfoA
+GetStdHandle
+GetStringTypeA
+GetStringTypeW
+GetSystemInfo
+GetSystemTime
+GetSystemTimeAsFileTime
+GetTempPathA
+GetTempPathW
+GetTickCount
+GetTickCount64
+GetTimeFormatA
+GetTimeZoneInformation
+GetUserDefaultLCID
+GetUserObjectInformationA
+GetVersionExA
+GetVersionExW
+Gh@8t
+Gh@8w
+GhD8d
+GhD8l
+GhD8t
+GhD8|
+GhH;F
+Gosub
+GpI9C0uVH
+GxI9t
+H	E`I
+H +YP
+H HcP
+H IcP
+H SAVH
+H SUVWH
+H SWH
+H!L$ E3
+H!\$ E3
+H!t$ 
+H!t$ E3
+H!|$ 
+H!|$ E3
+H(HcApH;
+H(HcQpH
+H)D$0
+H+K(H
+H+K8H
+H+L$@H
+H+L$@f
+H+P(H
+H+W(H
+H+\$@H
+H+l$0L
+H+l$@
+H+|$@H
+H0+H4
+H9(u)H
+H9*t*H
+H9+t	H
+H9+t@L
+H9+ujH
+H9/u	
+H93uVI
+H93udH
+H99v 
+H99v)ff
+H99vdH
+H99viH
+H9;t	H
+H9;uYL
+H9>t(H
+H9>uZH
+H9B u(H
+H9C0u
+H9C`u'
+H9D$@
+H9Hxu3
+H9K0u
+H9K8ub
+H9Q u
+H9QHM
+H9WHL
+H9X8u
+H9XhA
+H9\$0
+H9\$0~
+H9\$@
+H9^Xu
+H9hxt
+H9j u
+H9kh}
+H9kh~
+H9n u
+H9q@tcH
+H9rHL
+H9s |
+H9s(u
+H9s0u
+H9s@u
+H9sHu
+H9sP~
+H9sXu
+H9u(tG
+H9w@t
+H9wPH
+H9wXt
+H9xPu	
+H9xhu
+H9xxu*
+H9y@u
+H9zXu
+H9{@u
+H9{P~
+H9{pu
+H9|$(~"H
+H9|$0~
+H9|$@toL
+H9|$`t(I
+H9~ t
+H9~Hu6H
+H9~Xt
+H;5 N
+H;B0u
+H;B8u
+H;Cxt
+H;D$0r
+H;D$@
+H;FXv
+H;L$@r
+H;T$0
+H;\$(
+H;\$(s'H
+H;\$8t
+H;\$X
+H;l$@
+H;n ~!D
+H;sht.H
+H;t$8r"
+H;t$Hr"
+H;t$pH
+H;{P}
+H;|$@
+HA\_^[
+HA]A\_^][
+HA^A]A\]
+HA^A]A\_
+HA_A\
+HA_A]A\^][
+HA_A^
+HA_A^A\_
+HA_A^A]A\_]
+HA_A^A]A\_^][
+HA_A^_^
+HA__^[
+HH:mm:ss
+HHD9Q<D
+HHL91t
+HHcD$hH
+HIJKLMNOPQR
+HXD+I(A;
+H[><y5
+H\f;JJ}
+H_^][
+H`tJA
+HaltIfNull
+HcA H
+HcA L
+HcA(H
+HcA0L
+HcApH;
+HcB(H
+HcB0L
+HcC D
+HcCTA
+HcD$0
+HcD$0H
+HcD$0O
+HcD$4H
+HcD$8;
+HcD$8A
+HcD$8O
+HcD$<
+HcD$<H
+HcD$@
+HcD$HH
+HcD$LH
+HcD$LK
+HcD$PHc
+HcD$`H
+HcD$h
+HcD$hH
+HcD$lE3
+HcD$lH
+HcD$pH
+HcD$pLc
+HcD$xH
+HcF4H
+HcG0H
+HcG0I
+HcH<H
+HcIpH
+HcJ@H
+HcJpH;
+HcJpHcR L
+HcK H
+HcK8H
+HcKTA
+HcK`Ic
+HcKhL
+HcKpHc
+HcK|H
+HcL$0
+HcL$03
+HcL$@H
+HcL$@N
+HcL$PH
+HcL$`
+HcL$pH
+HcN(+F
+HcN8M
+HcN`E
+HcO0A
+HcO8H
+HcO@H9,
+HcQ4H
+HcQtH
+HcS I
+HcT$(
+HcT$8I
+HcT$HH
+HcT$HI
+HcT$tHc
+HcV4A;
+Hc\$ Hc
+Hc\$0D+
+Hc\$0L
+Hc\$hH
+Hc^0A
+Hch(H
+Hch\M
+HckPL
+Hcl$0L
+HcnPL
+Hct$@H
+Hct$`;w
+Hct$h
+Hct$xH
+HcuPL
+HczhH
+Hc{PD
+Hc|$<A
+Hc|$P
+Hc|$`L
+Hc~(H
+HeapAlloc
+HeapCompact
+HeapCreate
+HeapDestroy
+HeapFree
+HeapReAlloc
+HeapSetInformation
+HeapSize
+HeapValidate
+HqH9/
+I	T8hH
+I fff
+I+D$0H
+I+T$PH;
+I+V I
+I9(u,D
+I9D$ 
+I9^Hu%I
+I9o0u A
+I9p0u
+I9pXu,H
+I9phu
+I9t$XtO
+I9t,0t
+I9|$ u
+I;D$0u
+I;D$x
+I;Pht	H
+IHH99t
+IJFGHIJKLMNOPQR
+INDEX %s
+INSERT INTO %Q.%s VALUES('index',%Q,%Q,#%d,%Q);
+INSERT INTO %Q.%s VALUES('trigger',%Q,%Q,0,'CREATE TRIGGER %q')
+INSERT INTO %Q.'%q_content' VALUES(%s)
+INSERT INTO '%q'.'%q_idx'(segid,term,pgno) VALUES(?,?,?)
+INSERT INTO vacuum_db.sqlite_master SELECT*FROM "%w".sqlite_master WHERE type IN('view','trigger') OR(type='table'AND rootpage=0)
+INSERT OR REPLACE INTO '%q'.'%q_node' VALUES(:1, :2)
+INSERT OR REPLACE INTO '%q'.'%q_parent' VALUES(:1, :2)
+INSERT OR REPLACE INTO '%q'.'%q_rowid' VALUES(:1, :2)
+INTEGER
+INTERSECT
+IcD$pH;
+IcF4L
+IcF8H
+IcFPE3
+IcL$0H
+IcL$`D
+IcL$`H
+IcVPLc
+Icl$P
+IdxDelete
+IdxGE
+IdxGT
+IdxInsert
+IdxLE
+IdxLT
+IdxRowid
+IfNot
+IfNotZero
+IfNullRow
+IfPos
+IfSmaller
+IncrVacuum
+Index already optimal
+Index optimized
+InitCoroutine
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+Insert
+InsertInt
+Int64
+IntCopy
+Integer
+IntegrityCk
+InterlockedCompareExchange
+Invalid argument to rtreedepth()
+IsDebuggerPresent
+IsNull
+IsValidCodePage
+IsValidLocale
+J,E;B,t
+JSON cannot hold BLOB values
+JSON path error near '%q'
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+JournalMode
+K ;K(v'
+K LcD$4H
+K VWH
+K$LcC$A
+K&9{<u
+K&D9k<u
+K&L9k
+K(fA;
+K09K4u
+K0H9K(u@H
+K8H99t
+KERNEL32.dll
+KH@8{%
+KHD8k%
+KHH9)t
+KHH91t
+KHH91t*@8s
+KHL91t
+KX;9w
+K`9{`
+K`f9O
+KhH9K`~
+KhI9M
+L!d$ E3
+L$ D+
+L$ E3
+L$ H3
+L$ Hc
+L$ HcD$<H
+L$ HcG
+L$ Ic
+L$ Lc
+L$ SH
+L$ SUVATAUAVAWH
+L$ SUVWATAUAVAWH
+L$ SUVWATAUAVH
+L$ SUVWATAUH
+L$ SUVWH
+L$ SUWATAVH
+L$ SVH
+L$ SVWATAUAVAWH
+L$ SVWH
+L$ SWH
+L$ UATAUAVAWH
+L$ UVWATAUAVAWH
+L$ UVWAUAWH
+L$ UWH
+L$ VWH
+L$ WATAUAVAWH
+L$ WH
+L$ fI
+L$#E3
+L$$E3
+L$(A+
+L$(E3
+L$(H3
+L$(Hc
+L$(I;
+L$(Ic
+L$(Mc
+L$,r9L
+L$09M
+L$0@2
+L$0D;L$`tIE
+L$0E3
+L$0H+P(H
+L$0H3
+L$0H9
+L$0H;
+L$0Hc
+L$0HcY
+L$0Lc
+L$0fA
+L$0fI
+L$0ff
+L$2fA;
+L$2fD
+L$4E3
+L$6E3
+L$8E3
+L$8E;
+L$8H3
+L$8H;
+L$8H;L$@u
+L$8Hc
+L$8I;
+L$8Lc
+L$<E;
+L$<HcH
+L$<fA
+L$<y$A
+L$@@8pUt	A
+L$@E3
+L$@H;
+L$@Hc
+L$@L;
+L$D@:
+L$DIc
+L$Ff;JF
+L$HE3
+L$HH3
+L$HHc
+L$HHcp
+L$HIc
+L$HLc
+L$LE3
+L$LHc
+L$P;Ap
+L$PD+
+L$PE3
+L$PH3
+L$PHcT$0L
+L$PIc
+L$PL;
+L$PLcz
+L$PMc
+L$PfD
+L$Pfffff
+L$TA;
+L$TE3
+L$TE; u+H
+L$TIc
+L$TfD
+L$X9O
+L$XHc
+L$XHk
+L$XI9Np
+L$XMc
+L$Xf9G
+L$Xtx
+L$\E3
+L$`E3
+L$`H3
+L$`Hc
+L$`Mc
+L$`|E
+L$hE3
+L$hH3
+L$hHc
+L$hI;
+L$hIc
+L$hM3
+L$hff
+L$pE3
+L$pH3
+L$pLc
+L$pfD
+L$pu	H
+L$xE3
+L$xH3
+L$xIc
+L$xL;
+L$xMc
+L$xffff
+L$x};A
+L+K(L
+L+YPL
+L+\$hI
+L+d$XL
+L+l$`L
+L+t$(
+L+t$P
+L9/t	H
+L9Q8t:E
+L9X8tLH
+L9a0u
+L9e8uE
+L9ePt0H
+L9gHu
+L9kPt
+L9l$`t
+L9m`tC
+L9oHtaHc
+L9pPu
+L9t$@v
+L9t$`t}D9t$P
+L9v u	H
+L9w`u.H
+L9x8u
+L;8u?
+L;d$8r
+L;d$X|
+L;l$ L
+L;l$@
+L;l$Hr
+L;t$pu
+LCMapStringA
+LCMapStringW
+LC_ALL
+LC_COLLATE
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+LIKE or GLOB pattern too complex
+LIMIT clause should come after %s not before
+LL+d$@M
+Lc@ H
+Lc@\H
+LcA<E3
+LcD$4A
+LcD$4H
+LcD$PHc
+LcD$pH
+LcF$3
+LcF$H
+LcG H
+LcG I
+LcG$H
+LcG8H
+LcHpI;
+LcL$0E3
+LcL$hH
+LcT$XH
+Lc[8D
+Lc\$ E
+Lc\$0D;
+Lc\$DD
+Lcc(3
+Lcd$ D;d
+Lcd$(t	E
+Lcd$8A
+Lch\D
+Lcl$@H
+Lcl$|M
+Lcq0D
+Lcr L
+Lct$0E
+Lct$LH
+Lct$`H
+Lc|$P
+Lc|$pI
+LeaveCriticalSection
+LoadAnalysis
+LoadLibraryA
+LoadLibraryW
+LoadPackagedLibrary
+LocalFree
+LockFile
+LockFileEx
+M(H+N(
+M8D+o
+M9B u
+M9oXt
+M9t$ u
+M9|$(t
+M9|$ht"H
+M;\$0t
+MATCH
+MAX_TRIGGER_DEPTH=100
+MJ collide: %s
+MJ delete: %s
+MM/dd/yy
+Main freelist: 
+MakeRecord
+MapViewOfFile
+MapViewOfFileFromApp
+March
+MaxPgcnt
+McuPA
+Mc|$4@
+Md f;~FD
+MemMax
+MessageBoxA
+Microsoft Visual C++ Runtime Library
+Monday
+MpA:q
+MultiByteToWideChar
+Multiple uses for byte %u of page %d
+Multiply
+MustBeInt
+N HcD$LH
+N>O=I9
+NEAR(
+NNNNo`z#
+NO ACTION
+NOCASE
+NOT NULL
+NULL value in %s.%s
+NewRowid
+NextIfOpen
+NoConflict
+Norwegian-Nynorsk
+NotExists
+NotFound
+NotNull
+November
+NullRow
+NxD;d
+O ~lD
+O&D9o<u
+O&L9o
+O0H9O(u H
+O@BE3
+O@D8,
+OF>;^
+OH@8o%
+OHA8q
+OHL9!t!H
+ON clause references tables to its right
+OPQRSTUVWXYZ[\]^
+ORDER
+ORDER BY
+ORDER BY clause should come after %s not before
+October
+Offset %d out of range %d..%d
+OffsetLimit
+On page %d at right child: 
+On tree page %d cell %d: 
+OpenAutoindex
+OpenDup
+OpenEphemeral
+OpenPseudo
+OpenRead
+OpenWrite
+OsError 0x%lx (%lu)
+OutputDebugStringA
+OutputDebugStringW
+P<Hc@0H
+P>q_Y~
+P@8s	t
+PA\^]
+PA\_^
+PA\_^][
+PA]A\]
+PA]A\_
+PA]A\_^]
+PA]_^
+PA^A\_^[
+PA^A\_^]
+PA^A]A\^]
+PA^A]A\_^
+PA^A]A\_^][
+PA^A]_^[
+PA^_^
+PA_A]A\
+PA_A]_^]
+PA_A^A]A\]
+PA_A^A]A\_^[
+PA_A^A]A\_^]
+PA_A^A]^]
+PA_A^A]_[
+PA_A^A]_^][
+PA_A^_^[
+PA_^]
+PA__^][
+PRAGMA 
+PRAGMA %Q.data_version
+PRAGMA %Q.page_size
+PRIMARY KEY
+PRIMARY KEY missing on table %s
+Page %d is never used
+Page %d: 
+Pagecount
+Param
+ParseSchema
+Permutation
+Please contact the application's support team for more information.
+Pointer map page %d is referenced
+PrevIfOpen
+Program
+Program: 
+PureFunc
+PureFunc0
+Q	LcX4H
+Q	fffff
+Q HcQ
+Q(D8b
+Q(HcJpH;
+Q0A9P r
+Q4D+Y(B
+Q5rHg,>
+QPI92
+QX+S(;
+QX+V(;
+QXA+R(;
+QueryPerformanceCounter
+Q|Hcy\I
+R,9H<
+R6002
+R6008
+R6009
+R6016
+R6017
+R6018
+R6019
+R6024
+R6025
+R6026
+R6027
+R6028
+R6030
+R6031
+R6032
+R6033
+R6034
+R9k tMH
+RAISE() may only be used within a trigger-program
+REINDEXEDESCAPEACHECKEYBEFOREIGNOREGEXPLAINSTEADDATABASELECTABLEFTHENDEFERRABLELSEXCEPTRANSACTIONATURALTERAISEXCLUSIVEXISTSAVEPOINTERSECTRIGGEREFERENCESCONSTRAINTOFFSETEMPORARYUNIQUERYWITHOUTERELEASEATTACHAVINGROUPDATEBEGINNERECURSIVEBETWEENOTNULLIKECASCADELETECASECOLLATECREATECURRENT_DATEDETACHIMMEDIATEJOINSERTMATCHPLANALYZEPRAGMABORTVALUESVIRTUALIMITWHENWHERENAMEAFTEREPLACEANDEFAULTAUTOINCREMENTCASTCOLUMNCOMMITCONFLICTCROSSCURRENT_TIMESTAMPRIMARYDEFERREDISTINCTDROPFAILFROMFULLGLOBYIFISNULLORDERESTRICTRIGHTROLLBACKROWUNIONUSINGVACUUMVIEWINITIALLY
+RELEASE
+RELEASE fts3
+REPLACE INTO %Q.'%q_config' VALUES(?,?)
+REPLACE INTO %Q.'%q_content' VALUES(%s)
+REPLACE INTO %Q.'%q_docsize' VALUES(?,?)
+REPLACE INTO %Q.'%q_segdir' VALUES(?,?,?,?,?,?)
+REPLACE INTO %Q.'%q_segments'(blockid, block) VALUES(?, ?)
+REPLACE INTO %Q.'%q_stat' VALUES(?,?)
+REPLACE INTO '%q'.'%q_data'(id, block) VALUES(?,?)
+RESTRICT
+RIGHT PART OF ORDER BY
+RIGHT and FULL OUTER JOINs are not currently supported
+ROLLBACK
+ROLLBACK TO fts3
+ROWID
+RSDSq
+RTRIM
+RaiseException
+ReadCookie
+ReadFile
+RealAffinity
+Remainder
+ReopenIdx
+ResetCount
+ResetSorter
+ResultRow
+Return
+Rewind
+Rich=
+RowData
+RowSetAdd
+RowSetRead
+RowSetTest
+Rowid
+Rowid %lld out of order
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlUnwindEx
+RtlVirtualUnwind
+RtreeMatchArg
+Runtime Error!
+S 9S(v
+S(L9k
+S09H<
+S8@8qUu
+S8@8yUu
+SATAUAVAWH
+SATAVAWH
+SATAWH
+SAUAVAWH
+SAVEPOINT fts3
+SCALAR
+SCAN TABLE %s%s%s
+SCopy
+SEARCH
+SELECT %s
+SELECT %s FROM %s AS T
+SELECT %s FROM %s T WHERE T.%Q <= ? AND T.%Q >= ? ORDER BY T.%Q DESC
+SELECT %s FROM %s T WHERE T.%Q >= ? AND T.%Q <= ? ORDER BY T.%Q ASC
+SELECT %s FROM %s T WHERE T.%Q=?
+SELECT %s ORDER BY rowid %s
+SELECT %s WHERE rowid = ?
+SELECT %s WHERE rowid BETWEEN %lld AND %lld ORDER BY rowid %s
+SELECT %s WHERE rowid=?
+SELECT 'sqlite_master' AS name, 1 AS rootpage, 'table' AS type  UNION ALL  SELECT name, rootpage, type  FROM "%w".%s WHERE rootpage!=0  ORDER BY name
+SELECT (SELECT max(idx) FROM %Q.'%q_segdir' WHERE level = ?) + 1
+SELECT * FROM %Q.%Q
+SELECT 1 FROM %Q.'%q_segments' WHERE blockid=? AND block IS NULL
+SELECT 2 * total(1 + leaves_end_block - start_block)   FROM %Q.'%q_segdir' WHERE level = ? AND idx < ?
+SELECT ? UNION SELECT level / (1024 * ?) FROM %Q.'%q_segdir'
+SELECT NOT EXISTS(SELECT docid FROM %Q.'%q_content' WHERE rowid!=?)
+SELECT coalesce((SELECT max(blockid) FROM %Q.'%q_segments') + 1, 1)
+SELECT count(*) FROM %Q.'%q_%s'
+SELECT count(*) FROM %Q.'%q_segdir' WHERE level = ?
+SELECT idx FROM %Q.'%q_segdir' WHERE level=? ORDER BY 1 ASC
+SELECT idx, start_block, leaves_end_block, end_block, root FROM %Q.'%q_segdir' WHERE level = ? AND idx = ?
+SELECT idx, start_block, leaves_end_block, end_block, root FROM %Q.'%q_segdir' WHERE level = ? ORDER BY idx ASC
+SELECT idx, start_block, leaves_end_block, end_block, root FROM %Q.'%q_segdir' WHERE level BETWEEN ? AND ?ORDER BY level DESC, idx ASC
+SELECT k, v FROM %Q.'%q_config'
+SELECT length(data) FROM '%q'.'%q_node' WHERE nodeno = 1
+SELECT level, count(*) AS cnt FROM %Q.'%q_segdir'   GROUP BY level HAVING cnt>=?  ORDER BY (level %% 1024) ASC LIMIT 1
+SELECT level, idx, end_block FROM %Q.'%q_segdir' WHERE level BETWEEN ? AND ? ORDER BY level DESC, idx ASC
+SELECT max( level %% 1024 ) FROM %Q.'%q_segdir'
+SELECT max(level) FROM %Q.'%q_segdir' WHERE level BETWEEN ? AND ?
+SELECT name, rootpage, sql FROM "%w".%s ORDER BY rowid
+SELECT name, rootpage, sql FROM '%q'.%s WHERE %s ORDER BY rowid
+SELECT nodeno FROM '%q'.'%q_rowid' WHERE rowid = :1
+SELECT parentnode FROM '%q'.'%q_parent' WHERE nodeno = :1
+SELECT pgno FROM '%q'.'%q_idx' WHERE segid=? AND term<=? ORDER BY term DESC LIMIT 1
+SELECT rowid, rank FROM %Q.%Q ORDER BY %s(%s%s%s) %s
+SELECT segid, term, (pgno>>1), (pgno&1) FROM %Q.'%q_idx' WHERE segid=%d
+SELECT size FROM %Q.'%q_docsize' WHERE docid=?
+SELECT sql FROM "%w".sqlite_master WHERE type='index' AND length(sql)>10
+SELECT sql FROM "%w".sqlite_master WHERE type='table'AND name<>'sqlite_sequence' AND coalesce(rootpage,1)>0
+SELECT stat FROM %Q.sqlite_stat1 WHERE tbl = '%q_rowid'
+SELECT sz FROM %Q.'%q_docsize' WHERE id=?
+SELECT t.%Q FROM %Q.%Q AS t WHERE t.%Q MATCH '*id'
+SELECT tbl,idx,stat FROM %Q.sqlite_stat1
+SELECT value FROM %Q.'%q_stat' WHERE id=?
+SELECT'INSERT INTO vacuum_db.'||quote(name)||' SELECT*FROM"%w".'||quote(name)FROM vacuum_db.sqlite_master WHERE type='table'AND coalesce(rootpage,1)>0
+SELECTs to the left and right of %s do not have the same number of result columns
+SET DEFAULT
+SET NULL
+SHM92tU
+SING error
+SQL logic error
+SQLITE_
+SQLite format 3
+SUATAUH
+SUATAVH
+SUATAWH
+SUAUAVH
+SUVATAUAVAWH
+SUVATAUAWH
+SUVATAVH
+SUVATAWH
+SUVAUAVAWH
+SUVAUH
+SUVWATAUAVAWH
+SUVWATAUAVH
+SUVWATAUAWH
+SUVWATAUH
+SUVWATAVAWH
+SUVWATAWH
+SUVWATH
+SUVWAUAVAWH
+SUVWAUAWH
+SUVWAUH
+SUVWAVAWH
+SUVWAVH
+SUVWAWH
+SUVWH
+SUWATAUAVAWH
+SUWATAUAWH
+SUWATAUH
+SUWATAVAWH
+SUWAUAVH
+SUWAVAWH
+SUWAWH
+SVATAUAVAWH
+SVATAUAWH
+SVATAWH
+SVATH
+SVAUAVAWH
+SVWATAUAVAWH
+SVWATAUAWH
+SVWATAUH
+SVWATAVAWH
+SVWATAVH
+SVWATAWH
+SVWAUAVAWH
+SVWAUH
+SVWAVAWH
+SVWAWH
+SWATAUAVAWH
+SWATAUAVH
+SWATAVAWH
+SWAUAVAWH
+SWAUAWH
+SWAUH
+SWAVAWH
+S`H9T$P~
+S`ffffff
+Safety level may not be changed inside a transaction
+Saturday
+Savepoint
+SeekGE
+SeekGT
+SeekLE
+SeekLT
+SeekRowid
+September
+Sequence
+SequenceTest
+SetConsoleCtrlHandler
+SetCookie
+SetEndOfFile
+SetEnvironmentVariableA
+SetFilePointer
+SetFilePointerEx
+SetHandleCount
+SetLastError
+SetUnhandledExceptionFilter
+ShiftLeft
+ShiftRight
+Sleep
+SoftNull
+SorterCompare
+SorterData
+SorterInsert
+SorterNext
+SorterOpen
+SorterSort
+SqlExec
+String
+String8
+Subtract
+SunMonTueWedThuFriSat
+Sunday
+SystemFunction036
+SystemTimeToFileTime
+T$ E3
+T$ Lc
+T$ fD
+T$(D;
+T$(E3
+T$(H;
+T$(I+
+T$(Mc
+T$(ff
+T$(ffffff
+T$,9H<
+T$09Wxt
+T$0A+
+T$0D;
+T$0E3
+T$0H+
+T$0HcK
+T$0Hk
+T$0Ic
+T$0Mc
+T$0fD
+T$0fffffff
+T$0u$D
+T$4Lc
+T$89r
+T$8A8D$
+T$8D;B
+T$8E3
+T$8Mc
+T$8fD
+T$@A;
+T$@E+
+T$@E3
+T$@fA
+T$@fD
+T$H8V
+T$HE3
+T$HH;T$@r
+T$HHc
+T$HfD
+T$Hu&L
+T$H~:
+T$H~GH
+T$PE3
+T$PHc
+T$PHk
+T$TIcL
+T$Tu+B
+T$XHc
+T$\9H<
+T$`E3
+T$`Hk
+T$`Lc
+T$`fA
+T$`fD
+T$dfE;]`
+T$hA;
+T$hE3
+T$hIc
+T$pIc
+T$pfD
+T$tHc
+T$x;_
+T$xA+
+T$xA9P
+T$xA;Q
+T$xE3
+T$xfD
+T/(E3
+T0 HcG4H
+T8ht!D8oPt
+T>89H<
+TABLE
+TEMP_STORE=1
+THREADSAFE=1
+TLOSS error
+TLpD;
+TUUUU
+TUVWXYZ[\]^
+TableLock
+TerminateProcess
+This application has requested the Runtime to terminate it in an unusual way.
+This indicates a bug in your application.
+This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+Thursday
+TlsAlloc
+Too few columns for an rtree table
+Too many columns for an rtree table
+Transaction
+TryEnterCriticalSection
+Tuesday
+U0@8s
+UATAUAVAWH
+UATAUAVH
+UATAUH
+UAUAVAWH
+UNION
+UNION ALL
+UNIQUE
+UNIQUE constraint failed: %s.%s
+UPDATE
+UPDATE "%w".%s SET sql = sqlite_rename_parent(sql, %Q, %Q) WHERE %s;
+UPDATE "%w".%s SET sql = substr(sql,1,%d) || ', ' || %Q || substr(sql,%d) WHERE type = 'table' AND name = %Q
+UPDATE "%w".sqlite_sequence set name = %Q WHERE name = %Q
+UPDATE %Q.%s SET rootpage=%d WHERE #%d AND rootpage=#%d
+UPDATE %Q.%s SET sql = CASE WHEN type = 'trigger' THEN sqlite_rename_trigger(sql, %Q)ELSE sqlite_rename_table(sql, %Q) END, tbl_name = %Q, name = CASE WHEN type='table' THEN %Q WHEN name LIKE 'sqlite_autoindex%%' AND type='index' THEN 'sqlite_autoindex_' || %Q || substr(name,%d+18) ELSE name END WHERE tbl_name=%Q COLLATE nocase AND (type='table' OR type='index' OR type='trigger');
+UPDATE %Q.%s SET type='%s', name=%Q, tbl_name=%Q, rootpage=#%d, sql=%Q WHERE rowid=#%d
+UPDATE %Q.%s SET type='table', name=%Q, tbl_name=%Q, rootpage=0, sql=%Q WHERE rowid=#%d
+UPDATE %Q.'%q_segdir' SET idx = ? WHERE level=? AND idx=?
+UPDATE %Q.'%q_segdir' SET start_block = ?, root = ?WHERE level = ? AND idx = ?
+UPDATE OR FAIL %Q.'%q_segdir' SET level=-1,idx=? WHERE level=? AND idx=?
+UPDATE OR FAIL %Q.'%q_segdir' SET level=? WHERE level=-1
+UPDATE sqlite_temp_master SET sql = sqlite_rename_trigger(sql, %Q), tbl_name = %Q WHERE %s;
+USE TEMP B-TREE FOR %s
+USER32.DLL
+USING
+USING INDEX %s FOR IN-OPERATOR
+USING TEMP B-TREE 
+UTF-16
+UTF-16be
+UTF-16le
+UTF-8
+UTF16
+UTF16be
+UTF16le
+UUUUUU
+UVATAUAVAWH
+UVATAUAVH
+UVATH
+UVAUAVAWH
+UVAUAVH
+UVAUH
+UVAVH
+UVAWH
+UVWATAUAVAWA
+UVWATAUAVAWH
+UVWATAUAWH
+UVWATAUH
+UVWATAVH
+UVWATAWH
+UVWAUAVAWH
+UVWAUH
+UVWAVAWH
+UVWAVH
+UWATAVAWH
+UWATH
+UWAUAVAWH
+UWAUAVH
+UWAUH
+UX9H<
+UnhandledExceptionFilter
+UnlockFile
+UnlockFileEx
+UnmapViewOfFile
+UuidCreate
+UuidCreateSequential
+V(fff
+V,D9@<D
+V8D8iUu
+V@9|$<D
+VATAUAVAWH
+VATAUAWH
+VATAUH
+VATAVAWH
+VAUAVH
+VAUAWH
+VAVAWH
+VBegin
+VColumn
+VCreate
+VDestroy
+VFilter
+VNext
+VOpen
+VRename
+VUUUA
+VUpdate
+VWATAUAVAWL
+VWATAUAVH
+VWATAUAWH
+VWATAVAWH
+VWATH
+VWAUAVAWH
+VWAUAVH
+VWAUH
+VWAVAWH
+VWAVH
+Vacuum
+Variable
+W @8j
+W&D9o<u
+W&L9o
+WATAUAVAWD
+WATAUAVAWH
+WATAUAVH
+WATAUH
+WAUAWH
+WF9H<
+WX9H<
+WaitForSingleObject
+WaitForSingleObjectEx
+Wednesday
+WideCharToMultiByte
+WriteFile
+Wrong number of columns for an rtree table
+X A8h
+X E8p
+X UATAUAVAWH
+XA]_][
+XA]_^]
+XA^A\][
+XA^A]A\]
+XA^_^]
+XA_A]A\_^[
+XA_A]_[
+XA_A^A\]
+XA_A^A]A\_^][
+XA_A^_[
+XA_A^_^][
+XA__][
+X_^][
+XfD+LX
+Y89q0v
+Y89y0v
+Y>kX>M
+Yield
+ZGHIJKLMNOPQR
+Z\>z8
+ZpHcJ L
+[ 9{ t	H
+[4tJD;c$~3H
+[8tJ9k,}
+[D9%>g
+[D9-h
+\$ A9
+\$ A;w
+\$ ATAUAVH
+\$ ATH
+\$ Hk
+\$ UATAUH
+\$ UVATAUAVH
+\$ UVATH
+\$ UVAUH
+\$ UVHc
+\$ UVWATAUAVAWH
+\$ UVWATAUH
+\$ UVWATAVH
+\$ UVWAVAWH
+\$ UVWH
+\$ UWATH
+\$ VH
+\$ VWATH
+\$ WATAUH
+\$ WH
+\$ fA
+\$(A#
+\$(D;
+\$(fD
+\$09w
+\$0A;s(~
+\$0E3
+\$0H9nxH
+\$0H;
+\$0Hc
+\$0HcS
+\$0HcYH;
+\$0Hc{
+\$0Ic
+\$0L;
+\$0LcE
+\$0^]
+\$0fffff
+\$0tAH
+\$0tFH
+\$0tGH
+\$0tMH
+\$0tOH
+\$0u#H
+\$0}LH
+\$4E;
+\$8D;
+\$8E2
+\$8E3
+\$8Hc
+\$8HcZ 
+\$8L3
+\$8~MD
+\$<E3
+\$@A_A^A]A\_^]
+\$@D9-
+\$@E3
+\$@I;
+\$@Lc7
+\$@u0H
+\$@~;H
+\$D9H<
+\$DD;
+\$DD;\$@s 
+\$DD;\$@s/
+\$DD;\$@s;H
+\$DE3
+\$H;D$D
+\$HA;
+\$HE2
+\$HE3
+\$HH;
+\$HLcD$4Lc
+\$P8X
+\$PD;
+\$PIc
+\$PfD
+\$PfD3
+\$P~9H
+\$RA;
+\$TfE#
+\$VfA;
+\$XE3
+\$XfA;
+\$XfD
+\$XtbH
+\$`9P<
+\$`E+
+\$`H;
+\$`Hc
+\$dD;\$`s:
+\$hHc
+\$hIc
+\$hLc
+\$hff
+\$p+_(3
+\$p8^]u
+\$pE3
+\$pL9m
+\$x@8
+])6M>&
+]8LcJ8D
+]>)2X
+]^9P<
+^ 9{ t	H
+^ L9\$Pt
+^49H<A
+^RfN>
+^almncdefghi wxN
+^hD9^T
+^hHcD$lH
+^hIcE
+^xHcH
+_ LcG$A
+_PD8vUt
+_PuRH
+_ROWID_
+_\aXm
+__langid
+_`abXYe
+_cabs
+_content
+_hypot
+_init
+_logb
+_nextafter
+_oD>Kg
+` AUAVAWH
+` AUH
+`.rdata
+`9\$8u
+`A	E@
+`A;EX
+`A\_^][
+`A]A\_][
+`A]_^][
+`A^A]A\_^][
+`A^A]^
+`A_A]A\
+`A_A]A\_^
+`A_A^A]A\^][
+`A_A^A]A\_][
+`A_A^A]A\_^[
+`A_A^A]A\_^]
+`A_A^A]^[
+`A_A^A]_[
+`PE8t$
+`ab`a
+`ab`ab
+`abt`ab
+`f9J0ubD9j,u\I
+a GROUP BY clause is required before HAVING
+a JOIN clause is required before %s
+a NATURAL join may not have an ON or USING clause
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+abort at %d in [%s]: %s
+abort due to ROLLBACK
+access
+access permission denied
+access to %s.%s is prohibited
+access to %s.%s.%s is prohibited
+aggregate functions are not allowed in the GROUP BY clause
+alism
+aliti
+alize
+all VALUES must have the same number of terms
+altertab_
+am/pm
+ambiguous column name
+america
+american
+american english
+american-english
+aolfu	
+application_id
+argument type mismatch
+array
+ascii
+at most %d tables in a join
+atan2
+ation
+ational
+ative
+attached databases must use the same text encoding as main database
+attempt to write a readonly database
+australian
+authorization denied
+authorizer malfunction
+auto-index
+auto_vacuum
+automatic extension loading failed: %s
+automatic index on %s(%s)
+automatic_index
+automerge
+automerge=
+bad parameter or other API misuse
+belgian
+biliti
+bind on a busy prepared statement: [%s]
+block
+bolbu
+bolcu
+britain
+btreeInitPage() returns error code %d
+builtin
+buodu	
+busy_timeout
+c(	sFH
+c0&>`
+c:\dev\sqlite\core\sqlite3.pdb
+cT|:;k }5L
+c\HcF
+cache
+cache_size
+cache_spill
+canadian
+cannot %s contentless fts5 table: %s
+cannot ATTACH database within transaction
+cannot DETACH database within transaction
+cannot VACUUM - SQL statements in progress
+cannot VACUUM from within a transaction
+cannot change %s wal mode from within a transaction
+cannot commit - no transaction is active
+cannot commit transaction - SQL statements in progress
+cannot create %s trigger on view: %S
+cannot create INSTEAD OF trigger on table: %S
+cannot create a TEMP index on non-TEMP table "%s"
+cannot create trigger on system table
+cannot create triggers on virtual tables
+cannot detach database %s
+cannot have both ON and USING clauses in the same join
+cannot join using column %s - column not present in both tables
+cannot limit WAL size: %s
+cannot modify %s because it is a view
+cannot open %s column for writing
+cannot open file
+cannot open savepoint - SQL statements in progress
+cannot open table without rowid: %s
+cannot open value of type %s
+cannot open view: %s
+cannot open virtual table: %s
+cannot release savepoint - SQL statements in progress
+cannot rollback - no transaction is active
+cannot start a transaction within a transaction
+case_sensitive_like
+cell_size_check
+changes
+checkpoint_fullfsync
+checkpointed
+china
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+circular reference: %s
+coalesce
+collation_list
+column index out of range
+column%d
+columns
+columnsize
+comment
+compile_options
+compress
+config
+conflicting ON CONFLICT clauses specified
+constraint failed
+content
+content_rowid
+corrupt
+corrupt database
+corrupted
+count
+count_changes
+create
+create 
+crisismerge
+current_date
+current_time
+current_timestamp
+czech
+d$ AUAVAWH
+d$ E3
+d$!E+
+d$(D+
+d$0E3
+d$0E;
+d$0H+
+d$0Hc
+d$4E3
+d$8D+
+d$8E3
+d$@D+
+d$@E3
+d$@H+
+d$@Hc
+d$@fA
+d$D@8w!t4
+d$HA;
+d$HE3
+d$HHk
+d$HLc`(
+d$HMk
+d$P9H<A
+d$P;s$~,L
+d$PA9}4uN
+d$PE3
+d$PHc
+d$PL9)t"ffff
+d$PLc
+d$Pff
+d$Pt1I
+d$XE3
+d$XH;
+d$`9i(L
+d$`D;
+d$`E3
+d$`Hc
+d$`fA#
+d$dfD3
+d$ff;
+d$ffA;
+d$h;k 
+d$hD8{%v8H
+d$hE3
+d$hfA
+d$hfE#
+d$p8]!t
+d$pA+
+d$pH9>u0
+d$tE3
+d$t}]
+dD8{?u
+data_store_directory
+data_version
+database
+database %s is already in use
+database %s is locked
+database corruption
+database disk image is malformed
+database is already attached
+database is locked
+database or disk is full
+database schema has changed
+database schema is locked: %s
+database table is locked
+database table is locked: %s
+database_list
+datatype mismatch
+datetime
+dbstat
+dddd, MMMM dd, yyyy
+default value of column [%s] is not constant
+default_cache_size
+defer_foreign_keys
+delayed %dms for lock/sharing conflict at line %d
+delete
+delete-all
+destination database is in use
+detail
+dflt_value
+disk I/O error
+dlidx 
+docid
+docid INTEGER PRIMARY KEY
+docsize
+dr-IcApL;
+duplicate WITH table name: %s
+duplicate column name: %s
+dutch-belgian
+e A_A^A]A\]
+e+000
+e0A_A^A]A\]
+e8A_A^A]A\_^[]
+eHA_A^A]A\_^[]
+eL	E@H
+e`uZH
+ement
+empty_result_callbacks
+encoding
+england
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+entli
+error during initialization: %s
+error in tokenizer constructor
+error parsing prefix parameter: %s
+etaci
+etilqs_
+evita
+exclusive
+expected %d columns for '%s' but got %d
+expected integer, got "%.*s"
+explain
+expressions prohibited in PRIMARY KEY and UNIQUE constraints
+ezila
+f	G0f
+f	o09w,
+f	x&H
+f E;n
+f ffff
+f!A4f
+f!ArH
+f!F&H
+f!H&H
+f!P4H
+f!S2H
+f9*r%H
+f9BRvoD
+f9CZs
+f9N^t	3
+f9y^v
+f;K\}
+f;_^slA
+f;s }fH
+fA	A&
+fA	F@
+fA!E&
+fA!E&A
+fA+D$
+fA9t$D|
+fA9{D}
+fA;JDB
+fA;L$^sLH
+fA;MF
+fA;]F
+fA;m^
+fA;oF
+fA;x^
+fA;}F
+fD	|$hH
+fD9#t
+fD9'u
+fD92r&H
+fD95ky
+fD9l$0
+fD9u0uEH
+fD9x0
+fD9|$b
+fD;	u
+fD;FFA
+fD;RFD
+fD;SFA
+fD;]FE
+fD;k^s|L
+fD;mFA
+fD;mFL
+fD;{^
+fE;CF}:H
+fE;EFE
+fE;Z`s2I
+fE;^^
+fE;t$ E
+fE;|$
+fJBGo
+failed memory resize %u to %u bytes
+failed to allocate %u bytes of memory
+failed to get page %d
+false
+fffff
+ffffff
+fffffff
+file is not a database
+file:
+first arg to fts5_rowid() must be 'segment'
+floor
+foreign key
+foreign key mismatch - "%w" referencing "%w"
+foreign key on %s should reference only one column of table %T
+foreign_key_check
+foreign_key_list
+foreign_keys
+free-page count in header is too small
+freelist leaf count too big on page %d
+freelist_count
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
+frexp
+fts3_tokenizer
+fts3cursor
+fts3tokenize
+fts3tokenize disabled
+fts4aux
+fts5: %s queries are not supported (detail!=full)
+fts5: 2017-08-01 13:24:15 9501e22dfeebdcefa783575e47c60b514d7c2e0cad73b2a496c0bc4b680900a8
+fts5: column queries are not supported (detail=none)
+fts5: error creating shadow table %q_%s: %s
+fts5: parser stack overflow
+fts5: syntax error near "%.*s"
+fts5: syntax error near "%.1s"
+fts5_api_ptr
+fts5_decode
+fts5_decode_none
+fts5_expr
+fts5_expr_tcl
+fts5_fold
+fts5_isalnum
+fts5_rowid
+fts5_source_id
+fts5vocab
+fts5vocab: unknown table type: %Q
+full_column_names
+fullfsync
+fulness
+g E8t$]u
+g0D+g4
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
+gfffA
+gfffH
+gfffffff
+gfffffffH
+gfffffffI
+gfffffffL9o
+great britain
+group_concat
+h4D+h0D
+h4E8e
+h9y4ukL
+hA]A\][
+hA]A\_^][
+hA]_^[
+hA_A\^[
+hA_A]A\^][
+hA_A]A\_^[
+hA_A^A]A\_^][
+hA_A^A]^
+hA__^[
+hL9l9xH
+h_^][
+hashsize
+hex literal too big: %s%s
+hhhhhhYhbhhgggghhhhhUhhh^hhT`hhah
+hidden
+highlight
+holland
+hong-kong
+hu+A9h
+iHt~I
+i`H;F
+i`u]H
+icate
+iciti
+id INTEGER PRIMARY KEY
+id INTEGER PRIMARY KEY, block BLOB
+id INTEGER PRIMARY KEY, sz BLOB
+iffff
+ifnull
+ignore_check_constraints
+iissssss
+illegal first argument to %s
+ilsuo
+iltne
+immutable
+incremental
+incremental_vacuum
+index
+index %s already exists
+index '%q'
+index associated with UNIQUE or PRIMARY KEY constraint cannot be dropped
+index expressions
+index_info
+index_list
+index_xinfo
+indexed
+insert
+instr
+integer
+integer overflow
+integrity-check
+integrity_check
+internal
+interrupted
+invalid
+invalid arguments to fts4aux constructor
+invalid fts5 file format (found %d, expected %d) - run 'rebuild'
+invalid page number %d
+invalid rootpage
+invalid uri authority: %.*s
+irish-english
+isisi
+issisi
+italian-swiss
+itici
+itila
+itilib
+itivi
+iveness
+iviti
+ization
+j>>A?1
+journal_mode
+journal_size_limit
+json_%s() needs an odd number of arguments
+json_array
+json_array_length
+json_each
+json_extract
+json_group_array
+json_group_object
+json_insert
+json_object
+json_object() labels must be TEXT
+json_object() requires an even number of arguments
+json_patch
+json_quote
+json_remove
+json_replace
+json_set
+json_tree
+json_type
+json_valid
+julianday
+k PRIMARY KEY, v
+k VWATAUAVH
+k VWATH
+k f	C
+k(H;S
+k4u/H
+k6f9h
+k8IcE
+kxf!C&A
+l$ 9_
+l$ ATAUAVH
+l$ ATH
+l$ AVH
+l$ E3
+l$ Lc
+l$ VATAVH
+l$ VAUAVH
+l$ VH
+l$ VHc
+l$ VWATAUAVH
+l$ VWATH
+l$ VWAUAVAWH
+l$ VWAUH
+l$ VWAVH
+l$ WATAUAVAWH
+l$ WATAUH
+l$ WAUAVH
+l$ WH
+l$ ~*L
+l$"fD
+l$(E3
+l$(Hc
+l$0;p
+l$0E3
+l$0H+
+l$0ff
+l$0t7H
+l$0}2
+l$0}lH
+l$0~7
+l$4A;
+l$4fD
+l$8;X
+l$8A;L$8
+l$8E3
+l$8Hc
+l$8fA
+l$@9H<L
+l$@<[t
+l$@D;
+l$@E3
+l$@Hc
+l$@Hck
+l$@Hk
+l$@Ic
+l$@u3D
+l$@~/H
+l$HE+
+l$HE3
+l$HE8t$U
+l$HLc
+l$P9H<
+l$P;s<~
+l$PA_A^A]A\_^
+l$PHk
+l$PIc
+l$PMk
+l$Pff
+l$P~4
+l$XE+
+l$XE3
+l$XE9w4
+l$XHcL
+l$XfD9u
+l$Xfff
+l$Z@8~
+l$\;h0}
+l$`<e
+l$`@8y"
+l$`A8mSu
+l$`E3
+l$`Hk
+l$`Lc
+l$`u(H
+l$dA	
+l$dfA
+l$h;s(~,L
+l$hA9l$8
+l$hA;
+l$h}T;z<|)A
+l$jfE
+l$lHk
+l$pE3
+l$pLco
+l$pfE
+l$x<J
+l$x@8n]u
+l><D9@<D
+lA#Ic
+laeru	
+langid
+languageid
+lanoit
+lanoita
+last_insert_rowid
+ldexp
+legacy_file_format
+length
+likelihood
+likely
+load_extension
+local time unavailable
+localhost
+localtime
+locking protocol
+locking_mode
+log10
+log10f
+lower
+ltrim
+malformed JSON
+malformed MATCH expression: [%s]
+malformed columnsize=... directive
+malformed database schema (%s)
+malformed detail=... directive
+malformed prefix=... directive
+match
+matchinfo
+max_page_count
+memory
+merge
+merge=
+minute
+missing %s parameter in fts4 constructor
+misuse
+misuse of aggregate function %.*s()
+misuse of aggregate: %s()
+misuse of aliased aggregate %s
+mmap_size
+month
+msila
+multiple content=... directives
+multiple content_rowid=... directives
+multiple recursive references: %s
+multiple references to recursive table: %s
+multiple tokenize=... directives
+mxI9ux
+n <wu	H
+n0+n4
+nD$ H
+nD$@f
+nD$PH
+nL$@H
+n`A9_4
+name=%Q
+name='%q' AND type='index'
+name='%q' AND type='table'
+naturaleftouterightfullinnercross
+near "%T": syntax error
+nearset
+new-zealand
+no entry point [%s] in shared library [%s]
+no query solution
+no such %s mode: %s
+no such collation sequence: %s
+no such column
+no such column: "%s"
+no such column: %s
+no such cursor: %lld
+no such database: %s
+no such fts5 table: %s.%s
+no such function: %.*s
+no such function: %s
+no such index: %S
+no such index: %s
+no such module: %s
+no such rowid: %lld
+no such savepoint: %s
+no such schema: %s
+no such table
+no such table column: %s.%s
+no such table: %s
+no such tokenizer: %s
+no such trigger: %S
+no such vfs: %s
+no such view
+no tables specified
+noita
+noitazi
+nolock
+non-deterministic function in index expression or CHECK constraint
+non-deterministic functions
+non-unique entry in index 
+normal
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+noskipscan*
+not a writable directory
+not an error
+not authorized
+not authorized to use function: %s
+notindexed
+notnull
+nuj@8
+nullif
+number of columns in foreign key does not match the number of columns in the referenced table
+o%L9jX
+o8YUugH
+oI>O7
+object
+object name reserved for internal use: %s
+offsets
+on_delete
+on_update
+onoffalseyestruextrafull
+opcode
+optimize
+order
+origin
+os_win.c:%d: (%lu) %s(%s) - %s
+ot$@H
+ousli
+ousness
+out of
+out of memory
+overflow
+p WATAUH
+p,9\$8
+p8H9rp
+p8Mc`@M
+pA^A]A\^]
+pA_A\[
+pA_A]A\_^][
+pA_A]^
+pA_A^A]A\^
+pA_A^A]A\^][
+pA_A^_][
+p]^)XYZ[\]^12TUVWXYZ[\]^:
+page_count
+page_size
+parameters
+parameters are not allowed in views
+parent
+parse error in "%s"
+parse error in rank function: %s
+parse error in tokenize directive
+parser stack overflow
+partial
+partial index WHERE clauses
+persist
+phrase
+porter
+portuguese-brazilian
+pr china
+pr-china
+pragma_
+prefix
+prefix length out of range (max 999)
+printf
+private
+program
+puerto-rico
+qualified table names are not allowed on INSERT, UPDATE, and DELETE statements within triggers
+query aborted
+query_only
+quick_check
+quote
+r`H9z8t)
+rahcu
+random
+randomblob
+read_uncommitted
+reads
+rebuild
+recovered %d frames from WAL file %s
+recovered %d pages from %s
+recursive aggregate queries not supported
+recursive reference in a subquery: %s
+recursive_triggers
+regexp
+remove_diacritics
+remove_diacritics=0
+remove_diacritics=1
+replace
+reserved fts5 column name: %s
+reserved fts5 table name: %s
+restart
+reverse_unordered_selects
+round
+row value misused
+rowid
+rows deleted
+rows inserted
+rows updated
+rtree
+rtree constraint failed: %s.(%s<=%s)
+rtree_i32
+rtreedepth
+rtreenode
+rtrim
+runtime error 
+s Hc@
+s L9s
+s WATAUAVAWH
+s#;K s
+s4HcK43
+s5HcD$xHcO
+sL9=C
+s\HcL$HH
+schema_version
+second
+second argument to likelihood() must be a constant between 0.0 and 1.0
+secure_delete
+segid, term, pgno, PRIMARY KEY(segid, term)
+segment
+selectid
+separators
+separators=
+seqno
+set list
+shared
+short_column_names
+should be: fts5_rowid('segment', segid, pgno))
+should be: fts5_rowid(subject, ....)
+shrink_memory
+simple
+slovak
+snippet
+soft_heap_limit
+source and destination must be distinct
+south africa
+south korea
+south-africa
+south-korea
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
+sqlite3.dll
+sqlite3_I
+sqlite3_aggregate_context
+sqlite3_aggregate_count
+sqlite3_auto_extension
+sqlite3_backup_finish
+sqlite3_backup_init
+sqlite3_backup_pagecount
+sqlite3_backup_remaining
+sqlite3_backup_step
+sqlite3_bind_blob
+sqlite3_bind_blob64
+sqlite3_bind_double
+sqlite3_bind_int
+sqlite3_bind_int64
+sqlite3_bind_null
+sqlite3_bind_parameter_count
+sqlite3_bind_parameter_index
+sqlite3_bind_parameter_name
+sqlite3_bind_pointer
+sqlite3_bind_text
+sqlite3_bind_text16
+sqlite3_bind_text64
+sqlite3_bind_value
+sqlite3_bind_zeroblob
+sqlite3_bind_zeroblob64
+sqlite3_blob_bytes
+sqlite3_blob_close
+sqlite3_blob_open
+sqlite3_blob_read
+sqlite3_blob_reopen
+sqlite3_blob_write
+sqlite3_busy_handler
+sqlite3_busy_timeout
+sqlite3_cancel_auto_extension
+sqlite3_changes
+sqlite3_clear_bindings
+sqlite3_close
+sqlite3_close_v2
+sqlite3_collation_needed
+sqlite3_collation_needed16
+sqlite3_column_blob
+sqlite3_column_bytes
+sqlite3_column_bytes16
+sqlite3_column_count
+sqlite3_column_database_name
+sqlite3_column_database_name16
+sqlite3_column_decltype
+sqlite3_column_decltype16
+sqlite3_column_double
+sqlite3_column_int
+sqlite3_column_int64
+sqlite3_column_name
+sqlite3_column_name16
+sqlite3_column_origin_name
+sqlite3_column_origin_name16
+sqlite3_column_table_name
+sqlite3_column_table_name16
+sqlite3_column_text
+sqlite3_column_text16
+sqlite3_column_type
+sqlite3_column_value
+sqlite3_commit_hook
+sqlite3_compileoption_get
+sqlite3_compileoption_used
+sqlite3_complete
+sqlite3_complete16
+sqlite3_config
+sqlite3_context_db_handle
+sqlite3_create_collation
+sqlite3_create_collation16
+sqlite3_create_collation_v2
+sqlite3_create_function
+sqlite3_create_function16
+sqlite3_create_function_v2
+sqlite3_create_module
+sqlite3_create_module_v2
+sqlite3_data_count
+sqlite3_data_directory
+sqlite3_db_cacheflush
+sqlite3_db_config
+sqlite3_db_filename
+sqlite3_db_handle
+sqlite3_db_mutex
+sqlite3_db_readonly
+sqlite3_db_release_memory
+sqlite3_db_status
+sqlite3_declare_vtab
+sqlite3_enable_load_extension
+sqlite3_enable_shared_cache
+sqlite3_errcode
+sqlite3_errmsg
+sqlite3_errmsg16
+sqlite3_errstr
+sqlite3_exec
+sqlite3_expanded_sql
+sqlite3_expired
+sqlite3_extended_errcode
+sqlite3_extended_result_codes
+sqlite3_extension_init
+sqlite3_file_control
+sqlite3_finalize
+sqlite3_free
+sqlite3_free_table
+sqlite3_fts5_may_be_corrupt
+sqlite3_get_autocommit
+sqlite3_get_auxdata
+sqlite3_get_table
+sqlite3_get_table() called with two or more incompatible queries
+sqlite3_global_recover
+sqlite3_initialize
+sqlite3_interrupt
+sqlite3_last_insert_rowid
+sqlite3_libversion
+sqlite3_libversion_number
+sqlite3_limit
+sqlite3_load_extension
+sqlite3_log
+sqlite3_malloc
+sqlite3_malloc64
+sqlite3_memory_alarm
+sqlite3_memory_highwater
+sqlite3_memory_used
+sqlite3_mprintf
+sqlite3_msize
+sqlite3_mutex_alloc
+sqlite3_mutex_enter
+sqlite3_mutex_free
+sqlite3_mutex_leave
+sqlite3_mutex_try
+sqlite3_next_stmt
+sqlite3_open
+sqlite3_open16
+sqlite3_open_v2
+sqlite3_os_end
+sqlite3_os_init
+sqlite3_overload_function
+sqlite3_prepare
+sqlite3_prepare16
+sqlite3_prepare16_v2
+sqlite3_prepare16_v3
+sqlite3_prepare_v2
+sqlite3_prepare_v3
+sqlite3_profile
+sqlite3_progress_handler
+sqlite3_randomness
+sqlite3_realloc
+sqlite3_realloc64
+sqlite3_release_memory
+sqlite3_reset
+sqlite3_reset_auto_extension
+sqlite3_result_blob
+sqlite3_result_blob64
+sqlite3_result_double
+sqlite3_result_error
+sqlite3_result_error16
+sqlite3_result_error_code
+sqlite3_result_error_nomem
+sqlite3_result_error_toobig
+sqlite3_result_int
+sqlite3_result_int64
+sqlite3_result_null
+sqlite3_result_pointer
+sqlite3_result_subtype
+sqlite3_result_text
+sqlite3_result_text16
+sqlite3_result_text16be
+sqlite3_result_text16le
+sqlite3_result_text64
+sqlite3_result_value
+sqlite3_result_zeroblob
+sqlite3_result_zeroblob64
+sqlite3_rollback_hook
+sqlite3_rtree_geometry_callback
+sqlite3_rtree_query_callback
+sqlite3_set_authorizer
+sqlite3_set_auxdata
+sqlite3_set_last_insert_rowid
+sqlite3_shutdown
+sqlite3_sleep
+sqlite3_snprintf
+sqlite3_soft_heap_limit
+sqlite3_soft_heap_limit64
+sqlite3_sourceid
+sqlite3_sql
+sqlite3_status
+sqlite3_status64
+sqlite3_step
+sqlite3_stmt_busy
+sqlite3_stmt_readonly
+sqlite3_stmt_status
+sqlite3_strglob
+sqlite3_stricmp
+sqlite3_strlike
+sqlite3_strnicmp
+sqlite3_system_errno
+sqlite3_table_column_metadata
+sqlite3_temp_directory
+sqlite3_test_control
+sqlite3_thread_cleanup
+sqlite3_threadsafe
+sqlite3_total_changes
+sqlite3_trace
+sqlite3_trace_v2
+sqlite3_transfer_bindings
+sqlite3_update_hook
+sqlite3_uri_boolean
+sqlite3_uri_int64
+sqlite3_uri_parameter
+sqlite3_user_data
+sqlite3_value_blob
+sqlite3_value_bytes
+sqlite3_value_bytes16
+sqlite3_value_double
+sqlite3_value_dup
+sqlite3_value_free
+sqlite3_value_int
+sqlite3_value_int64
+sqlite3_value_numeric_type
+sqlite3_value_pointer
+sqlite3_value_subtype
+sqlite3_value_text
+sqlite3_value_text16
+sqlite3_value_text16be
+sqlite3_value_text16le
+sqlite3_value_type
+sqlite3_version
+sqlite3_vfs_find
+sqlite3_vfs_register
+sqlite3_vfs_unregister
+sqlite3_vmprintf
+sqlite3_vsnprintf
+sqlite3_vtab_config
+sqlite3_vtab_on_conflict
+sqlite3_wal_autocheckpoint
+sqlite3_wal_checkpoint
+sqlite3_wal_checkpoint_v2
+sqlite3_wal_hook
+sqlite3_win32_is_nt
+sqlite3_win32_mbcs_to_utf8
+sqlite3_win32_mbcs_to_utf8_v2
+sqlite3_win32_set_directory
+sqlite3_win32_sleep
+sqlite3_win32_unicode_to_utf8
+sqlite3_win32_utf8_to_mbcs
+sqlite3_win32_utf8_to_mbcs_v2
+sqlite3_win32_utf8_to_unicode
+sqlite3_win32_write_debug
+sqlite_
+sqlite_%
+sqlite_altertab_%s
+sqlite_attach
+sqlite_autoindex_%s_%d
+sqlite_compileoption_get
+sqlite_compileoption_used
+sqlite_detach
+sqlite_log
+sqlite_master
+sqlite_rename_parent
+sqlite_rename_table
+sqlite_rename_trigger
+sqlite_sequence
+sqlite_source_id
+sqlite_sq_%p
+sqlite_stat
+sqlite_stat%d
+sqlite_stat1
+sqlite_stat3
+sqlite_stat4
+sqlite_temp_master
+sqlite_version
+ssenevi
+ssenluf
+ssensuo
+start of 
+stat_get
+stat_init
+stat_push
+statement aborts at %d: [%s] %s
+statement too long
+status
+strftime
+string or blob too big
+sub-select returns %d columns - expected %d
+subqueries
+substr
+swedish-finland
+swiss
+synchronous
+syntax error after column name "%.*s"
+sz=[0-9]*
+t	#YH
+t	@82t
+t	D90
+t	LcC
+t <"u
+t fff
+t!D9k(A
+t!H;8
+t!HcS H
+t!ffff
+t"91u
+t"9G(D
+t"9~(D
+t"A9R
+t"H9p
+t"fff
+t"fffff
+t#ffffff
+t$ ;k(~:L
+t$ ATAUAVH
+t$ ATH
+t$ E3
+t$ Hc
+t$ L+
+t$ WAT
+t$ WATAUAVAWH
+t$ WATAUH
+t$ WATAVH
+t$ WATL
+t$ WAUAVH
+t$ WAUM
+t$ WH
+t$ ff
+t$09i
+t$09k|~0L
+t$09q 
+t$0@8k
+t$0A\_
+t$0A]_
+t$0E+
+t$0E3
+t$0H)ChH
+t$0H;
+t$0Hc
+t$0Hk
+t$0I;
+t$0tl
+t$0|3H
+t$0~)
+t$4fffff
+t$89i,
+t$8D+
+t$8H9_PuAL
+t$8Hcw
+t$8fA
+t$8t	H
+t$@9-
+t$@9P<
+t$@D9H<I
+t$@E3
+t$@H3
+t$@Hc
+t$@fff
+t$@fffff
+t$@tBH
+t$@tGHcC0H
+t$@tvD
+t$D9l$`u
+t$DE3
+t$H9C t+L
+t$HA_A^A]A\_
+t$HD+
+t$HD8kUH
+t$HD8l$Mt
+t$HHc
+t$HHcs
+t$HIc
+t$HfA
+t$PA;\$
+t$PE3
+t$PH9qP
+t$PHcr(H
+t$Pff
+t$XD	` 
+t$XE3
+t$XHc
+t$XL;
+t$Xu+
+t$ZfE
+t$`A;
+t$`D9s
+t$`D;
+t$`E3
+t$`E9w4
+t$`H9
+t$`Hc
+t$`Lct$Pf+
+t$`Mk
+t$`f+
+t$`fD
+t$`t!H
+t$hE3
+t$hH;q0u
+t$hf#
+t$jfE
+t$pE3
+t$pH9X
+t$pI;
+t$xA;
+t$xLc
+t%<C}
+t&D9o(E
+t&D9s
+t&Lc@
+t'9Y t
+t'IcF@9BHu
+t(HcM
+t(f9>t#H
+t)D9i t
+t)H9{
+t)ffffff
+t*E9p
+t+E9|$(A
+t,H9K
+t.D8f@tCD8f?u
+t.D8{?u
+t/9-"T
+t/9_0D
+t/;slv
+t/HcGHHcKHH
+t/LcD
+t0D;v<v
+t1D;ndv
+t2@8o!t
+t3<]t
+t3HcS|H
+t4<]t
+t4A9v\u.E
+t5;n`~
+t5HcFHHcJHH
+t68O0u%D9o
+t6LcF 3
+t7D8ibt1H
+t8H;T$0t
+t99w`}
+t9<C}
+t9H9hxt
+t9I9l$
+t9L9-
+t:<]t
+t:D8v?tbH
+t:fD;
+t;I;D$8u
+t<H9Yxt
+t<L9c@t
+t=@8~U
+t>HcE
+t?</t;<bt7<ft3<nt/<rt+<tt'<u
+t@H9hxt
+t@L9`xt
+tAH;_
+tAHcyHA;
+tBI9Ixt
+tC@8{
+tCA;t$dv
+tCHcWT
+tD9H<
+tEHcF 3
+tFL9s(t@HcGHHcKH
+tGA9\$
+tHL9JHt?I
+tJH9z@tDL
+tK<^u
+tNH9hxt%
+tO9s rJE
+tOI9H
+tPHcD$tD
+tPffff
+tRHc\$hLcV
+tRLcP
+tTD9%:<
+tTE8N
+tWI;w
+tX9s@tSA
+tYD8v
+tZ9-"
+tZ951
+tZ95r
+tZLc2I
+t[D9%
+t[D9%!=
+t[D9%)
+t[D9-
+t[D95
+t[D95\
+t[fff
+t\IcJ
+t]D9s
+t]H9l$0t
+t_D8v
+t`fff
+table
+table "%s" has more than one primary key
+table %S has %d columns but %d values were supplied
+table %S has no column named %s
+table %T already exists
+table %s has %d values for %d columns
+table %s may not be altered
+table %s may not be dropped
+table %s may not be indexed
+table %s may not be modified
+table_info
+tb<C}
+tbD9%G
+tbl,idx,stat
+tbl_name=%Q
+tbl_name='%q' AND type!='trigger'
+tc@8o
+tefffff
+temp_store
+temp_store_directory
+temporary
+temporary storage cannot be changed from within a transaction
+temporary table name must be unqualified
+temporary trigger may not have qualified name
+tfL9l
+tgH9t$0t
+tgH9~ u;
+the "." operator
+the INDEXED BY clause is not allowed on UPDATE or DELETE statements within triggers
+the NOT INDEXED clause is not allowed on UPDATE or DELETE statements within triggers
+there is already a table named %s
+there is already an index named %s
+there is already another table or index with this name: %s
+threads
+thstndrd
+timeout
+tional
+tk@8x?ue
+tkD9-D
+tkfffff
+tn8_UuiH9Z
+tnL;D$`tXL;D$PtQH
+tneme
+toH+|$ Hc
+tokenchars
+tokenchars=
+tokenize
+too many SQL variables
+too many arguments on %s() - max %d
+too many arguments on function %T
+too many attached databases - max %d
+too many columns in %s
+too many columns in result set
+too many columns on %s
+too many levels of trigger recursion
+too many prefix indexes (max %d)
+too many references to "%s": max 65535
+too many terms in %s BY clause
+too many terms in ORDER BY clause
+too many terms in compound SELECT
+total
+total_changes
+tpE9$
+tq;s 
+trHcW
+trigger
+trigger %T already exists
+trinidad & tobago
+truncate
+tu.E3
+twH9n u
+txetu
+txfA;
+tyD8s
+type='trigger' AND (%s)
+type='trigger' AND name='%q'
+typeof
+t|D95zh
+t|E9`
+u	A!I
+u	I9	
+u ;n$w
+u HcE
+u I9T$
+u"LcE0H
+u#@8s
+u#H;n }
+u#HcL
+u#HcW@H
+u$8CVu
+u$8FVu
+u$HcM
+u$LcF0H
+u%@8y
+u%HcC4H
+u&8CUu!8CVu
+u&8CVu
+u&A8EUu I
+u&D8kUu D8kVu
+u'A9T$
+u(8O u#E3
+u(f9_
+u)HcG0I
+u*ffff
+u+@8sLI
+u,8CVu
+u,8D$htb
+u,E;A
+u-@8y
+u18GUu!8GVu
+u1@8u
+u1D8m
+u1fD;jFA
+u2D86H
+u2E8l$Uu+E8l$Vu$E9
+u2HcK
+u2HcL$l
+u3A;]
+u3H9{`t'H
+u3IcD$
+u3L9c
+u48_Uus8_Vun9
+u49D$Xu.L
+u4D8c
+u58CVu
+u5@8{
+u5HcC4L
+u6D8oU
+u7LcF
+u8@8s
+u8D8k$u2H
+u8D8o$u2H
+u9@8{
+u;8CVu
+u;D8k$u5H
+u;D9k t5H
+u=9|$8t7
+u>HcT$@H
+u?9_0~:H
+u?9iPu:H
+u@!D$0
+u@9s8t5
+u@D8o$u:H
+u@D9{xA
+uA8Q?t4
+uAL9t$@w:
+uCH+|$@A
+uDD9{,u>
+uEA9x
+uH9D$@t5H
+uHHcH
+uI;7~3L
+uJ9C t
+uK9CXt"H
+uKE8l$
+uL9D$xuFH
+uNfff
+uP@8{
+uQHcD$DD;
+uRfD;
+uTfD;nF}ML
+uTfff
+uZ8C)tU
+uZHcB
+u[9t$4tUL
+u[HcH
+u[HcV
+u\H9s
+u]HcO
+u]f	~
+u`E8l$0u
+u`HcO
+u`Hc\$h
+uaA	kP
+ub;|$p}YH
+uc9ZTu^I9]
+ucD9|$8u\
+uh;o0
+ujD;f0}dH
+unable to close due to unfinalized statements or unfinished backups
+unable to delete/modify collation sequence due to active statements
+unable to delete/modify user-function due to active statements
+unable to get the page. error code=%d
+unable to identify the object to be reindexed
+unable to open a temporary database file for storing temporary tables
+unable to open database file
+unable to open database: %s
+unable to open shared library [%s]
+unable to use function %s in the requested context
+uncompress
+undersize RTree blobs in "%q_node"
+unicode
+unicode61
+unindexed
+unique
+united-kingdom
+united-states
+unixepoch
+unknown column "%s" in foreign key definition
+unknown database %T
+unknown database %s
+unknown database: %s
+unknown error
+unknown function: %s()
+unknown operation
+unknown or unsupported join type: %T %T%s%T
+unknown special query: %.*s
+unknown table option: %.*s
+unknown tokenizer
+unknown tokenizer: %s
+unlikely
+unopened
+unordered*
+unrecognized column option: %s
+unrecognized matchinfo request: %c
+unrecognized matchinfo: %s
+unrecognized option: "%.*s"
+unrecognized order: %s
+unrecognized parameter: %s
+unrecognized token: "%.*s"
+unsupported encoding: %s
+unsupported file format
+unterminated string
+uo;w\~0H
+uofD9p^uh3
+upper
+urD8c
+usIcD$8Hk
+use DROP TABLE to delete table %s
+use DROP VIEW to delete view %s
+user_version
+usermerge
+uvHcC0L
+uw9kdvrL
+uxE8|$UuqH
+uyHcCTA
+u}9D$@t
+u}@8{
+u~@8s?u
+v(D9=(%
+v3D8s
+variable number must be between ?1 and ?%d
+version
+view %s is circularly defined
+view %s may not be altered
+views may not be indexed
+virtual tables may not be altered
+virtual tables may not be indexed
+vpHcO`A
+vtab:%p
+vtable constructor called recursively: %s
+vtable constructor did not declare schema: %s
+vtable constructor failed: %s
+v}`[>
+w.fD+
+w0;s 
+w7A9_<
+wKt!=
+wKt-=
+wKt8=
+wKtZ=
+wKt`=
+wKts=
+w`D9w4
+wal_autocheckpoint
+wal_checkpoint
+weekday 
+win32
+win32-longpath
+win32-longpath-none
+win32-none
+winAccess
+winClose
+winDelete
+winFileSize
+winFullPathname1
+winFullPathname2
+winFullPathname3
+winFullPathname4
+winGetTempname1
+winGetTempname2
+winGetTempname3
+winGetTempname4
+winGetTempname5
+winMapfile1
+winMapfile2
+winOpen
+winOpenShm
+winRead
+winSeekFile
+winShmMap1
+winShmMap2
+winShmMap3
+winSync1
+winSync2
+winTruncate1
+winTruncate2
+winUnlock
+winUnlockReadLock
+winUnmapfile1
+winUnmapfile2
+winWrite1
+winWrite2
+writable_schema
+wrong # of entries in index 
+wrong number of arguments to function %.*s()
+wrong number of arguments to function %s
+wrong number of arguments to function fts5_fold
+wrong number of arguments to function fts5_isalnum
+wrong number of arguments to function highlight()
+wrong number of arguments to function snippet()
+wrong number of vtable arguments
+wxlmn
+x ATAUAVH
+x ATAUAWH
+x ATH
+x AUH
+x Icx
+x#fff
+x%fffff
+x(fffffff
+x+H;S`t%9K<u H9KPH
+x0+x4
+x89j(~cH
+xA9AL
+xA;.|
+xA\_^[
+xA]A\][
+xA^A]^]
+xA_A]A\_][
+xA_A]_^][
+xA_A^
+xA_A^A\_^[
+xA_A^A]A\^]
+xA_A^A]A\_^][
+xA_A^A]]
+xBf;^Dt<
+xD;(|
+xD;8D
+xHMchPE3
+xL9l8xH
+xL9l9x
+xPq>.T
+xf9K0
+y+D8j
+y0I+t$hH
+y7D8j
+yHr,{b1#
+yX+{(;
+z%u#f
+z&u$H
+z6^ucL
+z?aUY
+zBtGA
+zX;^P}WL9g tGD
+zY;>u:m	
+zc%C1
+zeroblob
+zeroblob(%d)
+{ ATH
+{ HcF
+{ tIH
+{%E9|$,I
+{%ssegid=%d h=%d pgno=%d}
+{6@8~
+{PL9/
+{averages} 
+{structure}
+{t'H;K
+{t+H;
+{t+I;
+{t5H;T$0r
+|$ 9_(M
+|$ AT
+|$ ATAUA
+|$ ATAUAVAW3
+|$ ATAUAVH
+|$ ATH
+|$ ATL
+|$ AUAVA
+|$ AUH
+|$ E3
+|$ E9t$
+|$ H;
+|$ Hs
+|$ Ic
+|$ L#
+|$$	{
+|$(8Y
+|$(A\
+|$(H9
+|$(ffffff
+|$0-H
+|$0A;m
+|$0A]A\
+|$0E3
+|$0H;
+|$0Hc
+|$0HcH
+|$0HcO
+|$0Hc_
+|$0Hk
+|$0IcITH
+|$0IcW
+|$0L9
+|$0L9[
+|$0Lc
+|$0McW
+|$0fA
+|$0fD
+|$0ff
+|$0r!I
+|$0t#H
+|$0tMH
+|$2fA;
+|$4E3
+|$4L9PP
+|$89n,u
+|$8@8jBvyH
+|$8A+
+|$8A^A]A\
+|$8D;C4v
+|$8H9o
+|$8H;|$@r
+|$8Lc
+|$8fD
+|$8tFH
+|$8tMA
+|$8tMH
+|$8uFH
+|$<~)M
+|$@ L
+|$@-D
+|$@-H
+|$@8C
+|$@9Y4udH
+|$@9^(~)3
+|$@@8s?u
+|$@A_A^A]A\
+|$@E3
+|$@E8t$]u
+|$@H9q
+|$@H;
+|$@Hc
+|$@Ic
+|$@Lc
+|$@ffffff
+|$@tFH
+|$@tMH
+|$H8Y?u
+|$HE3
+|$HHc
+|$HHc\$|H
+|$HI;
+|$HIc
+|$HfD
+|$Hfff
+|$Ht%
+|$Ht/Mc
+|$PD9
+|$PD9e(
+|$PD;
+|$PE3
+|$PH+
+|$PHcW
+|$PHch
+|$PI9t$@tO
+|$PIc
+|$Pt5
+|$T9H<
+|$UI9xPt
+|$XHc
+|$XfE;KFA
+|$`D;l$ |
+|$`E3
+|$`H9s
+|$`H;
+|$`Hk
+|$`iD
+|$hA9\$4
+|$hHcH
+|$ht)H
+|$hu/H
+|$h|S
+|$h}5H
+|$h~MI
+|$pE3
+|$pH9]
+|$pI;
+|$pubH
+|$x;A
+|$x;]<w=L
+|$zfD
+|DD9c8u
+|EH9yht?H
+|FD9m4u@
+|j<{9
+}(9p<
+}A8xUurH
+}Cfff
+}HHcL$0H
+}`D8z
+}x@8o
+~ ffff
+~"ffff
+~"ffffff
+~#fffffff
+~4ffffff
+~8H9G0u
+~8fffff
+~98\$vt3H
+~DH9X t;H
+~Dffffff
+~F@}u
+~HcjhH
+~JH9{ 
+~PD8~
+~Yfffff
+~gHcD$PH
+~~HIc

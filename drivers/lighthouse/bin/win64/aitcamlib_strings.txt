@@ -1,0 +1,870 @@
+																																																																																																																
+	!s99
+	D$HA
+	|$HA
+    A
+ %41g
+ =RDHI
+ A^A]A\_^
+ A_A\_
+ A_A]A\_^
+ A_A^A\
+ A_A^A]A\_
+ A_A^^
+ A_A^_
+ A_A^_][
+ A_A^_^]
+ A__^
+ H3E H3E
+!(0)"
+!hn7!
+"9k0t
+#*1892+$
+#9i0t
+#?RADIANCE
+#?RGBE
+#D9c0t
+#D9{0t
+%,3:;4-&
+%9k0t
+%9{0t
+&9k0t
+&D9c0t
+&D9k0t
+&D9{0t
+',=?k
+'.5<=6/7>????????????????
+'9k0t
+'D9c0t
+(A\^][
+(A^A]^[
+(A^A]_[
+(A_A^_[
+(A_A^_]
+(L$ D
+(f*^[0
+(t$ H
+(t$ u
+(t$0H
+(t$PD
+(t$PL
+(|$ H
+(|$@D
+)9k0t
+)D$0fD
+)L$ fD
+)t$ H
+)t$0H
+)|$ H
+)|$@f
+*9Z9N
++Xt@(
++o'q)}
+, last executing in 
+,0GKK
+,9k0t%H
+,9{0t%H
+,W5y+
+-9k0t&H
+-9{0t%H
+-D9c0t%H
+.00cfg
+.?AU_Crt_new_delete@std@@
+.?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
+.?AV?$_Binder@U_Unforced@std@@P8CEtronCamera@@EAAXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@XV?$shared_ptr@VIVRCameraFrame@vrcamera@@@std@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_022a9aff244731cf200ee99aeca958ed>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CEtronCamera@@EAAXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCAitCamera@@
+.?AVCBaseCamera@@
+.?AVCCameraWorkThread@@
+.?AVCEtronCamera@@
+.?AVCThread@@
+.?AVICameraCompletionCallback@@
+.?AVICameraHAL@vr@@
+.?AV_Facet_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.D9c0t&H
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+/9{0t'H
+/delivery_rate
+/elapsed_time
+/format
+/frame_sequence
+/frame_size
+/frame_time_monotonic
+/height
+/lighthouse/camera/raw_frames
+/server_time_ticks
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/width
+0 width
+0-pixel image
+0A_A^A]A\^
+0A_A^_
+0D9c0t'H
+0w0c1
+0}0i1
+1/2/4/8/16-bit only
+130801120000Z
+210429000000Z
+211007000000Z
+220323000000Z
+220329000000Z
+220330231450Z0/
+241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+330314235959Z0L1
+360428235959Z0i1
+370322235959Z0c1
+380115120000Z0b1
+3mq+<
+4%RLY{X
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6*f(_
+6=)V*
+6I]Dc
+6OB,n_
+70503
+7u;H;
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8_^][
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+9C }.H
+9T$XJ
+9]pu2
+9k0t$H
+9k0t[D
+9k0t\D
+9k0t_D
+9k0tcH
+9l$Lt	E
+;D$ht6
+<0:08
+=ETLP
+=IBgC
+=SNRtt%
+=TADIt<=DNEI
+=rIQU
+>Mp$d
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+@.data
+@.reloc
+@A^_^
+@A_A^A\_]
+@LocalizationManager
+@SATAUAVAWH
+@SAVH
+@SAWH
+@SUVATH
+@SUWAVAWH
+@SVAUAVH
+@SWAVAWH
+@USVH
+@USVWATAVAWH
+@USVWATH
+@USVWAVH
+@UWAVAWH
+@VAVAWH
+A9A A
+A9Q }EI
+A;Q }?I
+ADVAPI32.dll
+AITAPI_AitExtGet
+AITAPI_AitExtSet
+AITAPI_CloseDevice
+AITAPI_GetFWBuildDate
+AITAPI_GetFWVersion
+AITAPI_IspCommand
+AITAPI_MmpCommand
+AITAPI_OpenDeviceEx
+ASSERT: "%s" at %s:%d.
+ATAWH
+A\_^[]
+A]A\^
+A^A]A\_^[]
+A^A]_[]
+A^_^[]
+A_A]A\^[]
+A_A^A\_^[]
+A_A^A]A\_
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^A]A\_^][
+A_A^A]_^][
+A_A^_
+A_A^_^]
+Adobe
+AitH264Capture.dll
+AitUVCExtApi.dll
+AjEB#AZ
+AuthD
+BMP RLE
+Bellevue1
+C<unknown>
+CAMCMD_GET_OPENCAMERA_RESULT
+CT$ H
+CallCreateObject
+CameraWork
+CloseHandle
+Closed
+CreateEventA
+CreateEventW
+CreateThread
+D$ E;
+D$ H;
+D$ fE
+D$$E3
+D$(@88
+D$0E3
+D$0H+
+D$0fD
+D$0fff
+D$4I;
+D$8I;
+D$@H+
+D$@HcD$@H
+D$@fA
+D$HHc
+D$PI;
+D$PfA
+D$TI;
+D$XA#
+D8-1P
+D8-SS
+D8-|Q
+D9c0t
+D9c0t)H
+D9{0t
+D9{0t'H
+D9{0t?H
+D9{0tZD
+DeleteCriticalSection
+DigiCert Inc1
+DigiCert Timestamp 2022 - 20
+DigiCert Trusted Root G40
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+ECameraHAL_OpenError_ToString
+Enabled
+EnterCriticalSection
+Error! EventWriteString Severe: %s
+Error: Can't decode MJPG frame. The failed output frame will be blacked.
+Etron_%d_%d_v%d
+EventRegister
+EventUnregister
+EventWrite
+EventWriteString
+FORMAT=32-bit_rle_rgbe
+Failed
+Failed to acquire raw camera block for writing: %d
+Failed to join thread CameraWorkThread /+/ TID: %d
+FailedToGetFirmwareVersion
+FreeLibrary
+GetCameraHALInterface
+GetCurrentProcessId
+GetCurrentThreadId
+GetExitCodeThread
+GetLastError
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+GetTickCount64
+H+C H;
+H93t	H
+H9D$@u
+H;C(v
+H;s(r
+H;{XH
+HcD$@
+HcD$@H
+HcD$x
+HcF$H
+HcL$4
+Hct$@L+
+Hu"Hc
+I(+K H
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRChaperoneInternal_001
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorSystemInternal_001
+IVRControlPanel_006
+IVRDebug_001
+IVRDriverDirectInternal_XXX
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRInputInternal_002
+IVRInput_010
+IVRMailbox_002
+IVROverlayInternal_XXX
+IVROverlay_025
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRServer_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+InitCameraHAL
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J>@G_
+KERNEL32.dll
+K}*n:	
+L$ E3
+L$ Hc
+L$ L;
+L$ SH
+L$ SUVWH
+L$ SVWH
+L$ SWAVH
+L$ SWH
+L$"H;
+L$0fE
+L$4D;
+L$8A+
+L$8H;L$0
+L$@D8	u
+L$@D;
+L$@fD
+L$\E3
+L$`fD
+L9l$@u1
+L9t$@
+L;D$0u
+L<pL;
+L?n(Zy&
+Lc E3
+Lcl$$I
+LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+LoadLibraryA
+M H1E
+MB(iVR
+MSVCP140.dll
+MainThrd
+MbP?{
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Not Available
+NotFound
+Out of thread local storage!
+OutputDebugStringA
+PA^_^
+PA_A^A]A\[
+PAq=?Mp#
+PauseCamera
+PauseCamera (delayed...)
+PauseCamera (immediate)
+PermissionDenied
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Pz}b!
+QueryPerformanceCounter
+QueryPerformanceFrequency
+R$fE;B*
+RPCRT4.dll
+RaiseException
+Received camera frame of size %u that is larger than the block queue we are copying into %u
+ResetEvent
+ResumeCamera
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S0Q0O
+SATAUAVAWH
+SA|X=G
+SPB8t
+SPB8u,
+SUVWATAUAVAWH
+SUVWAUAVAWH
+SWAUAVH
+SetEvent
+SetUnhandledExceptionFilter
+ShutdownCameraHAL
+Sleep
+SleepConditionVariableCS
+StartVideoStream
+StopVideoStream
+Success
+T$ fD
+T$0fA
+T$8;T$<
+T$@Hc
+T$@I;
+T$XA#
+T$pD;
+TUUUUUU
+TdhEnumerateManifestProviderEvents
+Thread exited immediately
+Thread failed to initialize 1
+Thread failed to initialize 2
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TrackedCamera: CloseCamera()
+TrackedCamera: Couldn't find Dual Cameras at USB VID:%04X, USB PID:%04X
+TrackedCamera: Degenerate Frame Buffering size %d.
+TrackedCamera: Detailed Firmware Information: model:%d, date:%d, version:%d
+TrackedCamera: Expecting drivers at '%s'
+TrackedCamera: Failed to create video graph interface!
+TrackedCamera: Failed to end video stream (err=0x%08X)!
+TrackedCamera: Failed to find camera at USB VID:%04X, USB PID:%04X
+TrackedCamera: Failed to get firmware version.
+TrackedCamera: Failed to open device using video graph interface!
+TrackedCamera: Failed to query interface, IID_IConnectVideoSink!
+TrackedCamera: Failed to queue.
+TrackedCamera: Failed to resume video stream (err=0x08X)!
+TrackedCamera: Failed to start preview (err=%d)!
+TrackedCamera: Failed to start preview (err=0x%08X)!
+TrackedCamera: Found Camera at USB VID:%04X, USB PID:%04X
+TrackedCamera: Found Dual Cameras at USB VID:%04X, USB PID:%04X
+TrackedCamera: Frame Buffering, missing buffer %d.
+TrackedCamera: ISP Sync: %s (Divisor:%d).
+TrackedCamera: Incompatible firmware version: %llu.
+TrackedCamera: OnStartCommand_StartVideoStreamInternal()
+TrackedCamera: OnWorkThread_CloseCamera()
+TrackedCamera: OnWorkThread_OpenCamera()
+TrackedCamera: OnWorkThread_PauseCamera()
+TrackedCamera: OnWorkThread_ResumeCamera()
+TrackedCamera: OpenCamera()
+TrackedCamera: StartVideoStream() took %.0f ms
+TrackedCamera: Starting Video Stream.
+TrackedCamera: Stopping Video Stream For Camera Shutdown.
+TrackedCamera: Stopping Video Stream.
+TrackedCamera: Video Stream Stopped (abnormal shutdown).
+TrackedCamera: Video Stream Stopped (failed startup).
+TrackedCamera: Video Stream Stopped.
+TrackedCamera: Worker thread OpenCamera result: %s.
+USVATAUAWH
+USVWATAUAVAWH
+USVWATAUAVH
+USWAUAVH
+UT	.x,
+UVWATAUAVAWH
+UVWAVAWH
+UWATAVAWH
+UZM7ra
+UnhandledExceptionFilter
+Unknown
+Unknown exception
+UuidFromStringA
+VATAUH
+VCRUNTIME140.dll
+VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
+VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
+VR_CONFIG_PATH
+VR_LOG_PATH
+VR_OVERRIDE
+VWATAUAWH
+VWAVH
+VWAWH
+V_~]	,
+Valve Corp.0
+Valve Corp.1
+Version: %X%X.%X%X.%X%X Date: %s
+WATAUAVAWH
+WAVAWH
+WaitForSingleObject
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning: Watchdog %s not properly cleaned up%s%s
+Washington1
+WorkerThreadInitFailed
+XXXX PNG chunk not known
+Y9"SD
+Z9k0tUD
+[Camera] OnCamSyncEvent(%d,%d,%lf)
+[Camera] OnISPSyncEvent(%d,%lf)
+[Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
+[K]taM?
+\$ E3
+\$ UH
+\$ UVWATAUAVAWH
+\$ VH
+\$8D;
+\$PfD
+\$XLc
+\$pfD
+]9k0tVD
+]J<0"0i3
+]g@8yhu
+^9k0tWD
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_CxxThrowException
+_D9c0tWD
+_D9k0tWD
+_D9s0tWD
+_D9w0tWD
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Thrd_id
+_Thrd_join
+__C_specific_handler
+__CxxFrameHandler3
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vsprintf
+__stdio_common_vsscanf
+_aligned_free
+_aligned_malloc
+_aligned_realloc
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_execute_onexit_table
+_gUT^
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_purecall
+_register_onexit_function
+_seh_filter_dll
+_wchdir
+_wgetcwd
+`.rdata
+`A_A^A]A\_^]
+`A__^
+aitcamlib
+aitcamlib.dll
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+bad AC huff
+bad APP len
+bad BMP
+bad COM len
+bad DC huff
+bad DHT header
+bad DNL height
+bad DNL len
+bad DQT table
+bad DQT type
+bad DRI len
+bad H
+bad IHDR len
+bad Image Descriptor
+bad SOF len
+bad SOS
+bad SOS component count
+bad SOS len
+bad TQ
+bad V
+bad allocation
+bad array new length
+bad bpp
+bad code lengths
+bad codelengths
+bad comp method
+bad component count
+bad compression
+bad conversion
+bad ctype
+bad dist
+bad file
+bad filter method
+bad format
+bad huffman code
+bad interlace method
+bad masks
+bad palette
+bad png sig
+bad req_comp
+bad sizes
+bad tRNS len
+bad zlib header
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
+cameraEdgeEnhancement
+cameraFrameCaptureOffsetTime
+cameraFrameRate
+cameraISPSyncDivisor
+cameraSensorFrameRate
+can't merge dc and ac
+corrupt
+d$$E3
+d$(Hi
+d$<Mc
+d$PfD
+d$`H=
+d$`fD
+deque<T> too long
+driver_lighthouse
+e,>~^
+etronlib
+expected marker
+fD9	u
+first not IHDR
+fread
+fseek
+g9k0t_D
+gfffffffH
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0X
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+illegal code in raster
+invalid
+invalid PLTE
+invalid decoded scanline length
+invalid filter
+ix`fA
+j%v2d*|
+jj@0HK4
+k0i0$
+l$ ATAVAWH
+l$ H;
+l$ VATAUAVAWH
+l$ VH
+l$ VWATAUAVH
+l$ WAVHc|$8I
+l$ WH
+l$0A^_
+l$0E3
+l$4H;
+l$8E3
+l$@H;
+l$@t^
+l$HuF
+l$TD;
+l$hA+
+l$hHc
+ldexp
+malloc
+map/set<T> too long
+max value > 255
+memcmp
+memcpy
+memmove
+memset
+missing color table
+multiple IHDR
+no IDAT
+no PLTE
+no SOF
+no SOI
+no clear code
+no header height
+no preset dict
+not BMP
+not GIF
+not HDR
+not PSD
+not enough pixels
+ntelD
+o@@fD
+oD$ fD
+oD$0f
+oD$0fD
+oL$ f
+oT$0f
+only 8-bit
+ot$Pf
+outofdata
+outofmem
+output buffer limit
+p UWAVH
+pA^_[
+pA_A^A]A\[
+pvBuffer != nullptr
+rND9{0t
+read past buffer
+startup
+strcmp
+string too long
+strncmp
+strncpy
+strncpy_s
+strtol
+t$ AVH
+t$ H;
+t$ WATAUAVAWH
+t$ WATAWH
+t$ WAV
+t$ WAVAWH
+t$ WH
+t$0A^_
+t$0ff
+t$8H;
+t$@E3
+t$@H=
+t$PHc
+t$hL;
+t$pfA
+t$pfD
+t>H9n
+tRNS after IDAT
+tRNS before PLTE
+tRNS with alpha
+tXfff
+tb9l$Xt@9n$~;
+tdh.dll
+terminate
+too large
+too many codes
+u,@8}
+u.9x }
+u>f9X u8f9X0u2f9X@u,f9XPu&
+u>f9X"u8f9X2u2f9XBu,f9XRu&
+uDf9X
+uH@8}
+uJf9X
+ulBlockContainer != vr::k_ulInvalidPropertyContainer
+unknown BMP
+unknown code
+unknown image type
+unknown marker
+unsupported bit depth
+unsupported data layout
+unsupported format
+v=Y]Bv
+vHcD$LH
+vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
+vrcamera_api.dll
+wrong channel count
+wrong color format
+wrong version
+www.digicert.com1!0
+x]~\6
+zlib corrupt
+{un'%
+|$ ATAVAWH
+|$ AVH
+|$ AVL
+|$ E3
+|$(A^
+|$0H;
+|$8A_A^A\
+|$8H;
+|$<I;
+|$@E3
+|$HH;
+|$PH;
+|$PLc
+|$XH;
+|Lu?c
+}LuHO
+~3LcD$(L
+~6HcD$ I
+~t&LN

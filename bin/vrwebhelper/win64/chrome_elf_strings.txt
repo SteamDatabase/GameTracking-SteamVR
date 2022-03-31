@@ -1,0 +1,1595 @@
+					
+	kE>fvw
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ 'L>[
+ ( ) / _ 
+ (%d = %3.1f%%)
+ (0x%lX)
+ (flags = 0x%x)
+ 000000000000
+ A^_^
+ A_A^A\
+ A_A^A\_^
+ A_A^A]
+ A_A^A]A\_
+ A_A^A]A\_^]
+ A_A^_
+ Base Class Array'
+ Base Class Descriptor at (
+ C>TQ
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ H3E H3E
+ Type Descriptor'
+ []_^A\A^A_
+ []_^A^
+ [_^A\A]A^A_
+ [_^A\A^A_]
+ [_^A^A_
+ [_^A^]
+ [_^H
+ delete
+ delete[]
+ expected to start with 
+ new[]
+ tDE3
+ t^D9
+ vJH+
+ {%3.1f%%}
+!,X< w
+!>6'Y
+!T$(H!T$ 
+!This program cannot be run in DOS mode.$
+"""""""
+"e?<<<<<<l?
+"f9;t
+$H;0t
+$Ib?s
+%08X%x
+%08x-%04hx-%04hx-%02hhx%02hhx-%02hhx%02hhx%02hhx%02hhx%02hhx%02hhx
+%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
+%08x-%04x-%04x-%04x-%012llx
+%GoU?*
+%s:%d: %s
+&?PPPPPPP?
+( 8PX
+('8PW
+(D$(H
+(D$@H
+(D$`A
+(H9;t
+(L9 t
+(T?j?Y
+([]_^
+([]_^A\A]A^A_
+([]_^A^A_
+([_^A\A]A^A_]
+([_^A\A^A_
+([_^A^
+([_^A^A_]
+([_^]
+(\$pH
+(null)
+(t$ H
+(t$0H
+(t$@H
+(t$PH
+(t$`H
+(t$pH
+(|$0D
+(|$0H
+(|$@H
+(|$`H
+)>6{1n
+)D$ H
+)D$ H9B
+)D$ H;|$(v
+)D$ I
+)D$0H
+)D$@A
+)D$@H
+)D$@I
+)D$@L
+)D$@M
+)D$@f
+)D$PH
+)D$PL
+)D$`I9
+)D$`M
+)D$`M9
+)D$pH
+)D$pM
+)\$@f
+)t$ H
+)t$ I
+)t$ L9
+)t$ M
+)t$0H
+)t$PH
+)t$PI
+)t$PL
+)t$PM
+)t$`H
+)t$pH
+)t$pI
+)t$pM
+)|$0f
+)|B?d!
+*L$4L
+*StO9>T
++M<7>
++f)>0'
++h->|
+, mean = %.1f
+, observed 
+,/<-w
+,0<	w
+,HR>O
+,I<%w
+,QfA;,WH
+,X< w
+,yfA;,
+--initial-client-data=
+--max-db-age=
+--max-db-size=
+--max-uploads=
+--monitor-self
+--monitor-self-annotation=ptype=
+--monitor-self-argument=
+--no-rate-limit
+--type=
+--user-data-dir=
+-BH>t
+-inlu
+../../base/metrics/persistent_memory_allocator.cc
+../../base/metrics/statistics_recorder.cc
+../../third_party/crashpad/crashpad/client/crash_report_database_win.cc
+../../third_party/crashpad/crashpad/client/crashpad_client_win.cc
+../../third_party/crashpad/crashpad/client/settings.cc
+../../third_party/crashpad/crashpad/util/file/file_io.cc
+../../third_party/crashpad/crashpad/util/file/file_io_win.cc
+../../third_party/crashpad/crashpad/util/file/file_reader.cc
+../../third_party/crashpad/crashpad/util/file/file_writer.cc
+../../third_party/crashpad/crashpad/util/file/filesystem_win.cc
+../../third_party/crashpad/crashpad/util/win/critical_section_with_debug_info.cc
+../../third_party/crashpad/crashpad/util/win/registration_protocol_win.cc
+../../third_party/crashpad/crashpad/util/win/scoped_handle.cc
+..om?
+.>PJ;I:qE>
+.?AU_Crt_new_delete@std@@
+.?AV?$codecvt@DDU_Mbstatet@@@std@@
+.?AV_Facet_base@std@@
+.?AV_Locimp@locale@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVtype_info@@
+.i?0@I
+.pdata
+.rsrc
+.text
+.xJ>Hf
+/2GG>!B
+/>58d%
+/prefetch:7
+0123456789abcdefghijklmnopqrstuvwxyz
+0><[cZUg^>
+0A^A\_
+0A^_^
+0A_A^A\
+0A_A^A\_^
+0A_A^A]
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A_A^A]A\_^]
+0A_A^_
+0A_A^_^]
+0X8b?~
+0[]_^A\A^A_
+0[]_^A^
+0[_^A\A]A^A_
+0[_^A^A_
+0iN>/
+0x%x,0x%x,0x%x,0x%x,0x%x,0x%I64x,0x%I64x,0x%I64x
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+1<.	/>:
+1U!SI
+2333333
+3.3578.1860.g36610bd
+3>N;kU
+3>fvw
+4_f94Zu
+4xf;4zu
+4yf;4zu=H
+700PP
+700WP
+71.0.3578.80
+80tWD
+8A_A^A]A\_^][
+8[]_^
+8[]_^A\A]A^A_
+8[]_^A^A_
+8[_^A\A^A_
+8[_^A^
+8[_^A^A_]
+8\$PtD
+8\$PtF
+8]Ot	H
+8_^][
+8ke?;
+8rJf.
+9"u-H
+9>exp
+9\t/H
+9\u'H
+9_\~5Hc
+9_l~OHc
+9t$,u
+: not a directory
+::DeleteProcThreadAttributeList
+::GetUserNameW
+::InitializeCriticalSectionEx
+::InitializeProcThreadAttributeList
+::SHGetSpecialFolderPathW
+::UpdateProcThreadAttribute
+::WTSFreeMemory
+::WTSQuerySessionInformationW
+:>)*	v
+:>t6k'
+;.u1L
+;D$ u
+;D$$u
+;H9>&X
+;I9}(tiH
+;\$p|
+<	w	@
+<	w	D
+< t=<	t9
+<-uVI;
+</PRE>
+<>#n2
+<>:"/\|?*
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<B\t<H
+<PRE>
+<PREf
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel></requestedPrivileges></security></trustInfo></assembly>
+<htn<jt^<lt6<tt&<wt
+<rfA;<qH
+=imb;D
+>ffffff
+>jtm}S
+>sdPCuW@
+?!5WOo
+?+>^m
+?49HoKC
+?7zQ6$
+?7{KV
+?8bunz8
+?:kP<
+?@En[vP
+?Cu2fD9
+?D8d$8
+?E=$% B
+?Histogram.MismatchedConstructionArguments
+?QY^&
+?R0I?
+?TY,>5
+?UUUUUU
+?f`Y4
+?kxG2)
+?{Q}<
+@.00cfg
+@.crthunk@
+@.data
+@.gfids
+@.oldntma
+@.reloc
+@8)u#H
+@8<)u
+@8l$8t
+@8l$Ht
+@8l$Pt
+@8t$HtrL
+@8t(8}
+@8t(8}nH
+@8y:t
+@8{:t
+@8|$Pu
+@8|$^t
+@>%>b
+@A^A]A\_^
+@A^_^
+@A_A^A\
+@A_A^A\_^[]
+@A_A^A]A\_^]
+@A_A^_^]
+@HcC(H
+@SUVWATAUAVAWH
+@SUVWATAVAWH
+@SVWATAUAVAWH
+@SVWH
+@UATAUAVAWH
+@UAVAWH
+@USVWATAUAVAWH
+@USVWATAVAWH
+@UVWH
+@[]_^A\A^A_
+@[]_^A^
+@[_^A\A]A^A_
+@[_^A\A^A_]
+@[_^A^A_
+@b;zO]
+@~"Hi
+@~#Hi
+A H;A
+A03>A|
+A84.u
+A:8ueI
+A>l$/
+A>pP&
+AA,A$
+AA<Fu
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
+AK>(v
+ATAUAVH
+ATAVAWH
+AUAVAWH
+AVVWSH
+AVVWUS
+AVVWUSH
+AWAVATVWSH
+AWAVATVWUSH
+AWAVAUATVWSH
+AWAVAUATVWUSH
+AWAVVWSH
+AWAVVWSL
+AWAVVWUSH
+A^A]A\
+A^_^[]
+A_A^A\_]
+A_A^A\_^
+A_A^A\_^[]
+A_A^A\_^][
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^A]_]
+A_A^]
+A_A^_
+A_A^_^]
+AcquireSRWLockExclusive
+ActivityTracker.ThreadTrackers.Count
+ActivityTracker.ThreadTrackers.MemLimitTrackerCount
+AddDllToBlacklist
+AppName
+AppPolicyGetProcessTerminationMethod
+April
+AreFileApisANSI
+August
+AuthD
+B(I9A(u
+BC?>6t9^	c:>
+BF>^G
+BL$(A
+BOOLEAN_HISTOGRAM
+C H9C
+C(H+C
+C5R?	
+C8<(u
+CA< t(<#t
+CEF_CRASH_REPORTER_RATE_LIMIT_ENABLED
+CEF_CRASH_REPORTER_SERVER_URL
+CHROME_CRASHPAD_PIPE_NAME
+CL:>8
+CPADinfo8
+CUSTOM_HISTOGRAM
+CWD>~3
+CloseHandle
+CloseHandle process
+CloseHandle thread
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CloseThreadpoolWork
+Collections of all histograms
+Collections of histograms for %s
+CompareStringEx
+Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+CorExitProcess
+Corruption detected in shared-memory segment.
+CrashForException_ExportThunk
+Crashpad.CrashReportPending
+Crashpad.CrashReportSize
+Crashpad.CrashUpload.AttemptSuccessful
+Crashpad.CrashUpload.Skipped
+CreateDirectory 
+CreateDirectoryW
+CreateEventExW
+CreateEventW
+CreateFile
+CreateFile 
+CreateFileW
+CreateMutexW
+CreateNamedPipeW
+CreateProcess
+CreateProcessW
+CreateRemoteThread
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+CreateThreadpoolWork
+D W?{W
+D!l$xA
+D$ E3
+D$ H)
+D$ H+D$(H=
+D$ H;
+D$ |z1
+D$&fA
+D$'s]H
+D$(H)
+D$(H9
+D$(H;
+D$(H;AHt#H
+D$(L9
+D$0<br>
+D$0E3
+D$0E;
+D$0H#
+D$0H)
+D$0H+
+D$0H9
+D$0H;
+D$0H;G
+D$0Hc
+D$0HcH
+D$0M9t$8v
+D$0fD
+D$49C
+D$8 H
+D$8 I
+D$8H;D$(uZ
+D$8Hi
+D$8L9
+D$8u+I
+D$@E3
+D$@H+
+D$@H9A
+D$@H;G
+D$@I)
+D$@L9
+D$@[H
+D$@fD
+D$D=L
+D$DD9
+D$DDtRH
+D$HH+D$@H
+D$LM;
+D$P I
+D$PA#
+D$PA+
+D$PH)
+D$PH+
+D$PH9l$Xv
+D$PH;
+D$PI;
+D$PL;
+D$PM9t$Xv
+D$T9F
+D$XH+
+D$XL)
+D$]fA
+D$`E3
+D$`H9
+D$`Hc
+D$`L;
+D$h9t$P
+D$hH)
+D$hI9
+D$pA+
+D$pE:
+D$pH)
+D$pH9l$xv
+D$pI9
+D$xH)
+D$xfD
+D$}fA
+D):A:
+D+ 90
+D+d$8H
+D/@I;D$
+D8&t 
+D8&t4H
+D88Ht;I
+D8T$pt
+D8Y:uEH
+D8a:uDH
+D8c:u
+D8d$8t
+D8d$Xt
+D8l$ht
+D8t$8t
+D9P |J
+D9P }#H
+D9c t
+D;P }(H
+D<7-M
+DD8T$pu
+DUMMY_HIH
+December
+DecodePointer
+DeleteCriticalSection
+DeleteFile 
+DeleteFileW
+DrainLog
+DumpHungProcessWithPtype_ExportThunk
+DumpProcessWithoutCrash
+DuplicateHandle
+E0HcH
+E0Lcx
+E>nEA
+EP*?H
+ERROR
+EncodePointer
+EnterCriticalSection
+EnumSystemLocalesEx
+EnumSystemLocalesW
+Error (0x%lX) while retrieving error. (0x%lX)
+ExitProcess
+ExternalHandler
+F H;F
+F(H+F
+F>qUxv
+FATAL
+FXH9~Hu
+February
+File::Close
+File::Initialize
+File::Read
+File::ReadAtCurrentPos
+File::Seek
+File::Write
+File::WriteAtCurrentPos
+FindClose
+FindFirstFileExW
+FindNextFileW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+FormatMessageA
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryWhenCallbackReturns
+Friday
+G0Hc	H
+G8L98u	H
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetComputerNameExW
+GetConsoleCP
+GetConsoleMode
+GetCrashReports_ExportThunk
+GetCrashpadDatabasePath_ExportThunk
+GetCurrentDirectoryW
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentThreadId
+GetDateFormatEx
+GetDriveTypeW
+GetEnvironmentStringsW
+GetEnvironmentVariableW
+GetFileAttributes 
+GetFileAttributesW
+GetFileInformationByHandleEx
+GetFileType
+GetFullPathNameW
+GetHandleVerifier
+GetInstallDetailsPayload
+GetLastError
+GetLocalTime
+GetLocaleInfoEx
+GetLocaleInfoW
+GetLongPathNameW
+GetModuleFileNameW
+GetModuleHandleExW
+GetModuleHandleW
+GetNativeSystemInfo
+GetOEMCP
+GetProcAddress
+GetProcessId
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemInfo
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetTempPathW
+GetTickCount
+GetTickCount64
+GetTimeFormatEx
+GetUserDataDirectoryThunk
+GetUserDefaultLCID
+GetUserDefaultLocaleName
+GetVersion
+GhH;G@s
+H!D$ H
+H!T$0D
+H#Q0H
+H#S0H
+H)l$PA
+H+\$ H
+H+l$H
+H+l$HH
+H+t$@
+H9:tCH9
+H9>u+A
+H9A u
+H9D$8
+H9D$`uLH
+H9J @
+H9L$Ht?H
+H9Qhs
+H9T$0v
+H9T$0v6H
+H9\$X
+H9\$hr:
+H9\$hs`1
+H9n uo
+H9t$@v
+H9t$Hv
+H9w H
+H9|$@u
+H9|$@v
+H;3u=
+H;:t	H
+H;;t.
+H;>u;
+H;>u>
+H;C u
+H;D$Xt7H
+H;E t"I;E
+H;G@~8H
+H;G@~;L
+H;G@~?H
+H;G@~DH
+H;H H
+H;L$0u+
+H;L$8
+H;L$hH
+H;L$xH
+H;O@t
+H;T+@
+H;T;@
+H;XXs
+H;k@~KM
+H;t$PA
+H;w8t
+H;xXu5
+H;|$PteH
+H;|80u
+HAYAXZY
+HH:mm:ss
+HISTOGRAH
+HYLLD PDB.
+H[><y5
+H[]_^
+H[]_^A\A]A^A_
+H[]_^A^A_
+H[_^A^
+Hc@ H
+HcC H
+HcC0H
+HcD$DH
+HcG(H
+HcH<A
+HcK H
+HcS H
+Hc]`M
+HeapAlloc
+HeapCreate
+HeapDestroy
+HeapFree
+HeapReAlloc
+HeapSize
+Histogram.BadConstructionArguments
+Histogram: %s recorded %d samples
+I#T$0I
+I#U0I
+I9D$(r
+I;D7@~AL
+IND)ind)m
+INITY
+IPHc	H
+ISTOGRAMH
+Il?333333c?
+InitOnceExecuteOnce
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeProcThreadAttributeList
+InitializeProcThreadAttributeList (size)
+InitializeProcThreadAttributeList (size) succeeded, expected failure
+InitializeSListHead
+InitializeSRWLock
+InjectDumpForHungInput_ExportThunk
+InterlockedFlushSList
+Invalid file handle
+IsBlacklistInitialized
+IsCrashReportingEnabledImpl
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+IsValidLocale
+IsValidLocaleName
+IsWow64Process
+J9D7@
+January
+K&>.yC
+K;D4@~@H
+KERNEL32.dll
+K~Je#>!
+L!|$(L!
+L$ E1
+L$ E3
+L$ H)
+L$ I;
+L$ L;
+L$ SH
+L$ SUVWH
+L$ VWAVH
+L$ WH
+L$ fff
+L$ tC
+L$ |+L;
+L$&8\$&t,8Y
+L$(E1
+L$(H+
+L$(H1
+L$(H3
+L$(I)
+L$0H)
+L$0H1
+L$0H3
+L$0H;
+L$0H;K
+L$0I)
+L$0I;}
+L$0f9)
+L$0fH
+L$0fI
+L$4+L$8
+L$4+L$@
+L$4D;N
+L$8E1
+L$8H1
+L$8H3
+L$8Hk
+L$<;L$H
+L$@;|
+L$@H1
+L$@H3
+L$@H9
+L$@H;
+L$@uU
+L$HH)
+L$HH1
+L$HH9
+L$PH1
+L$PI)
+L$XE1
+L$XE3
+L$XH1
+L$XH9
+L$XI9
+L$XtTH9
+L$`H)
+L$`H1
+L$`H9
+L$hE1
+L$hH1
+L$pE1
+L$pH1
+L$pH9
+L$xE1
+L$xH1
+L(;A:
+L(<A:
+L+|$(1
+L9	u%L
+L9"u&
+L9L$(D
+L9L$pv^
+L9P rH
+L9P s#H
+L9`8u'L
+L9d$P
+L9l$`tuH
+L9|$hr1
+L9|$hsW1
+L;L$8t;L9
+L;P s(H
+L;t$ v
+L;t$ vpL
+L?UUUUUUU?
+LCIDToLocaleName
+LCMapStringEx
+LCMapStringW
+LH9T$8u
+LOG_FATAL
+LcA<E3
+LcP<M
+LeaveCriticalSection
+Lj[;>
+Lkl$X8I
+LoadLibraryExA
+LoadLibraryExW
+LoadLibraryW
+LocaleNameToLCID
+LockFileEx
+M H1E
+MH9L8
+MM/dd/yy
+March
+MaxDatabaseAgeInDays
+MaxDatabaseSizeInMb
+MaxUploadsPerDay
+Md$LA
+MiniDumpWriteDump
+Monday
+MultiByteToWideChar
+N3`d?
+N>O=I9
+NAN(IND)
+NAN(SNAN)
+November
+NtClose
+NtCreateKey
+NtDeleteKey
+NtEnumerateKey
+NtMapViewOfSection
+NtOpenKeyEx
+NtQueryKey
+NtQuerySection
+NtQueryValueKey
+NtQueryVirtualMemory
+NtSetValueKey
+NtUnmapViewOfSection
+O H;O
+O t7L
+O0HcQ
+O0LcQ
+OF>;^
+October
+OpenProcess
+OutputDebugStringA
+OutputDebugStringW
+P>q_Y~
+P[]_^A\A^A_
+P[_^A\A]A^A_
+P[_^A^A_
+P[_^A^]
+PlatformFile.UnknownErrors.Windows
+ProductName
+ProductVersion
+Q5rHg,>
+QRAPAQH
+QZ^&A
+Qkkbal
+QueryPerformanceCounter
+QueryPerformanceFrequency
+R@LINEAR_HISTOGRAM
+RSDS7d
+RaiseException
+RateLimitEnabled
+ReadConsoleW
+ReadExactly: expected 
+ReadFile
+ReadProcessMemory
+RecursiveDirectoryCreate
+RegisterLogNotification
+RegisterNonABICompliantCodeRange_ExportThunk
+ReleaseMutex
+ReleaseSRWLockExclusive
+RemoveDirectory 
+RemoveDirectoryW
+RequestSingleCrashUpload_ExportThunk
+ResetEvent
+RtlAddFunctionTable
+RtlCaptureContext
+RtlCaptureStackBackTrace
+RtlDeleteFunctionTable
+RtlFormatCurrentUserKeyPath
+RtlFreeUnicodeString
+RtlInitUnicodeString
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+S;\$0tH
+S>$hkDh$h>[2
+SD8d$8t
+SNAN)
+SPARSE_HISTOGRAM
+SVWATAUAVAWH
+Saturday
+September
+ServerURL
+SetConsoleCtrlHandler
+SetCrashKeyValueImpl
+SetEndOfFile
+SetEnvironmentVariableW
+SetEvent
+SetFileInformationByHandle
+SetFilePointerEx
+SetLastError
+SetMetricsClientId
+SetNamedPipeHandleState
+SetStdHandle
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUnhandledExceptionFilter
+SetUploadConsent_ExportThunk
+Settings magic is not 
+Settings version is not 
+SignalChromeElf
+SignalInitializeCrashReporting
+Sleep
+SleepConditionVariableCS
+SleepConditionVariableSRW
+SleepEx
+SubmitThreadpoolWork
+SuccessfullyBlocked
+Sunday
+SwitchToThread
+SystemFunction036
+T$	fA
+T$ E1
+T$ t!H
+T$(E1
+T$(H;PHt
+T$0E1
+T$0I9\$8t/M
+T$0L9
+T$0fD
+T$8I)
+T$8I9
+T$@H9
+T$HL9
+T$Hr'H
+T$PD+
+T$PE3
+T$PH3
+T$`E1
+T$`H9
+T$`r?H
+T$xH9
+T(;E:
+TH9T$0u
+TUUUU
+TUUUUUU
+TerminateProcess
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TransactNamedPipe
+TransactNamedPipe: expected 
+TryAcquireSRWLockExclusive
+Tuesday
+UA>N0Wl
+UATAUAVAWH
+UAVVWSH
+UAWAVATVWSH
+UAWAVAUATVWSH
+UAWAVVWSH
+UMA.NegativeSamples.Histogram
+UMA.NegativeSamples.Increment
+UMA.NegativeSamples.Reason
+UNKNOWN
+USVWAVH
+UUUUUU
+UUUUUUU
+UVWATAUAVAWH
+UVWAVAWH
+UVWSH
+UWATAVAWH
+UWAVH
+UnhandledExceptionFilter
+Unknown exception
+UnlockFileEx
+UnregisterNonABICompliantCodeRange_ExportThunk
+UpdateProcThreadAttribute
+V6E>`"(5
+VD$Pf
+VERBOSE
+VT$PD
+VWATAVAW
+VWATAVAWH
+VWAUH
+VWAVH
+VWUSH
+VerSetConditionMask
+VerifyVersionInfoW
+VirtualProtect
+VirtualProtectEx
+VirtualQuery
+W(u.A
+WARNING
+WATAUAVAWH
+WATAVH
+WAVAWH
+WINMM.dll
+WaNd?
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WaitNamedPipe
+WaitNamedPipeW
+WakeAllConditionVariable
+WakeConditionVariable
+Wednesday
+WideCharToMultiByte
+WriteConsoleW
+WriteFile
+WriteIoVec(): no iovecs
+WriteProcessMemory
+X[]_^
+X[]_^A\A]A^A_
+X[_^A\A^A_
+X[_^A^
+Y>kX>M
+YD$@f
+Z\>z8
+Zod(^?
+[*ncd>0
+[Config]
+[CrashKeys]
+[]_^A\A]A^A_
+[]_^A\A^A_
+[]_^A^
+[]_^A^A_
+[_^A\A]A^A_
+[_^A\A]A^A_]
+[_^A\A^A_
+[_^A^
+[_^A^A_
+[_^A^A_]
+[_^A^]
+[aOni*{
+\$ E1
+\$ E3
+\$ UH
+\$ UVWATAUAVAWH
+\$ UVWAVAWH
+\$ VWATAUAVH
+\$ WH
+\$(H9
+\$0H;
+\$0eH
+\$8E1
+\$8H9
+\$8I;
+\$8L9
+\$8ryH
+\$@H9
+\$@H;
+\$Hf.
+\$PI9E
+\$Pf.
+\$gm?
+\$xH9
+\\.\pipe\crashpad_%lu_
+\ffff
+\tJH9
+])6M>&
+]>)2X
+^8H+^0H
+^8_(t
+^<V7w
+^RfN>
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__swift
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+_oD>Kg
+`+!]?
+`.rdata
+`A^_^
+`A_A^A]A\_^]
+`RTTI
+`[]_^A\A^A_
+`[]_^A^
+`[_^A\A^A_]
+`[_^A^A_
+`[_^A^]
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h````
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+address family not supported
+address in use
+address not available
+already connected
+annotation
+argument list too long
+argument out of domain
+atan2
+b?^Cy
+bad address
+bad allocation
+bad array new length
+bad cast
+bad exception
+bad file descriptor
+bad locale name
+bad message
+bad string table
+bp(=>?g
+broken pipe
+browser
+bucket_count
+c [1>H'
+c(>\,
+c0&>`
+c?FA@s}
+canary
+channel
+chrome_elf.dll
+chrome_elf.dll.pdb
+connection aborted
+connection already in progress
+connection refused
+connection reset
+count
+crash server did not respond, self-terminating
+crash server failed to launch, no dump captured
+crash server failed to launch, self-terminating
+crashpad-handler
+cross device link
+d$ E3
+d$ I)
+d$0t	L
+d$8E;
+d$`M9
+d?000000`?
+daPC8
+database
+dbghelp.dll
+dddd, MMMM dd, yyyy
+destination address required
+device or resource busy
+directory not empty
+dl0f;
+dummy_histogram
+e+000
+e0A_A^A]A\]
+e0A_A^]
+eLK(w
+effffff
+executable format error
+f9)u H
+f9)uUH
+f9,Ju
+f9,Yu
+f9,~u
+f94H}7H
+f9<Bu
+f9<^u
+f9M`tVH
+f9t$bu
+f;4Qu
+fA9	t	I
+fA9,Au
+fA90u
+fB9,Nu
+fB94Ou
+fB9<@u
+fB9<Bu
+fB9<Hu
+fD9	t(L
+fD9	t{H
+fD9 t
+fD9!H
+fD9!u
+fD9$Hu
+fD9&u
+fD9)H
+fD9,Au
+fD90t
+fD91u
+fD92t
+fD94Fu
+fD94H}0L
+fD94Xu
+fD96u
+fD97t
+fD97t&
+fD98t
+fD98u
+fD9;u
+fD9<Au
+fD9t$b
+fE98t'
+fF9<qu
+fG9$Ou
+fJBGo
+failed to read header
+failed to read records
+failed to rewind to read
+failed to rewind to write
+failed to truncate
+failed to write header
+failed to write records
+failed to write string table
+fffff
+ffffff
+fffffff
+file exists
+file too large
+filename too long
+floor
+frexp
+function not supported
+gfffA
+gfffffffH
+h>1my
+h[]_^A\A]A^A_
+h[]_^A^A_
+h[_^A\A^A_
+h[_^A^
+host unreachable
+http://
+https://
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+inity
+interrupted
+invalid argument
+invalid seek
+invalid string position
+invalid string table index
+io error
+ios_base::badbit set
+ios_base::eofbit set
+ios_base::failbit set
+iostream
+iostream stream error
+is a directory
+iu+-,
+j>>A?1
+j?V()
+j?{$*
+kernel32.dll
+l$ E1
+l$ E3
+l$ VWAVH
+l$(E1
+l$(f.
+l$(w$
+l$8L9
+l$@I9
+l$HL9
+l$Xf.
+large
+ldexp
+list<T> too long
+log10
+mL+6H
+map/set<T> too long
+medium
+message size
+metrics-dir
+metrics_client_id
+n03>Pu
+n]?iJ
+nan(ind)
+nan(snan)
+network down
+network reset
+network unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+ntelD
+oI>O7
+oT$ f
+o\$0H
+obwQ4
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operator
+operator "" 
+operator co_await
+ot$ H
+owner dead
+o|$0f
+pA_A^A]A\_^[
+pA_A^A]A\_^]
+p[]_^A\A]A^A_
+p[_^A\A]A^A_
+p[_^A^A_
+permission denied
+platform
+product
+protocol error
+protocol not supported
+ptype
+qS>g?h3
+r	Vr.>T
+r>@8o
+read only file system
+record size out of range
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+ri9O vdH
+s WATAUAVAWH
+s WAVAWH
+s(+sPH
+s(+{PL
+s0L9|$P
+sdPCH
+small
+snan)
+special
+state not recoverable
+stream timeout
+string too long
+su	A;
+su	E;
+t	;B I
+t	;Z H
+t	L9c
+t!A9Q M
+t"<.u
+t#HcT$<H
+t$ E3
+t$ E;
+t$ L9
+t$ UH
+t$ UWAUAVAWH
+t$ UWAVH
+t$ WATAUAVAW
+t$ WATAUAVAWH
+t$ WAVAWH
+t$ WH
+t$(I;
+t$(L9
+t$,f.
+t$0E1
+t$0M9
+t$0s5
+t$8H+
+t$8L9
+t$8f9L$`
+t$8t*H
+t$8tM1
+t$@H9
+t$A8P
+t$HA_A^A]A\_
+t$HL+t$@
+t$hf.
+t&A88t
+t'D8d$8t
+t'HcG<
+t'fE9
+t,;O |'
+t,<tt
+t/D8e
+t0fE;
+t5HcP
+t:H;w
+t;LcF
+t<ffff
+t?8_:t
+t?D+d$4L
+t?~=H
+tA8_:t
+tEHcN
+tELcC
+tQfD9 tK
+tRLcY
+tSL9c u
+tSf91tNH
+tTD8c:u0M
+tTH9w
+tW9y H
+t_H;>t
+tbH;3t
+tbH;>t
+text file busy
+timeGetTime
+timed out
+tn<jtZA
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+tpH91uk
+trueI
+ttIcF
+txHc@
+tyfD9 tsH
+t}H;7u
+u HcA<H
+u"H;w
+u'L;k
+u(8J(t
+u(H;A
+u(HcH<
+u,H;A
+u,H;F
+u1!D$0H
+u1L;I
+u2H;N
+u3HcH<H
+u4D9~
+u4I9}(
+ue!T$(H!T$ 
+ug8Y$t
+unexpected header
+unknown
+unknown error
+unknown exception
+uzKs@>
+u~9t$Xt
+v/t2H
+v0D8eou\H
+v2!L.2
+value too large
+vector<T> too long
+version
+v}`[>
+win64
+wn>Jj
+wrong protocol type
+x ATAVAWH
+x AVAWE3
+x AVH
+x AWH
+xA_A^A]A\_^[]
+xL;d$h
+xMHcC
+x[]_^A\A]A^A_
+x[]_^A^A_
+x[_^A^
+xpxxxx
+xwpwpp
+yBNu'
+yBgt	3
+y\PD>!
+zY;>u:m	
+|$ AVH
+|$ D!
+|$ E1
+|$ E3
+|$ UH
+|$ f.
+|$ fA
+|$ r"H
+|$":us
+|$(E1
+|$(H9
+|$(L9
+|$(f.
+|$(r@H
+|$,'w
+|$0 u+H
+|$0A_A^
+|$0Ar/
+|$0H)
+|$0I9
+|$0f.
+|$8;3
+|$8tyH
+|$:%u=
+|$@-D
+|$@-H
+|$@E;
+|$@H9
+|$HH9
+|$HvlM
+|$Hx%L
+|$XE3
+|$\.u
+|$`CI
+|$`E1
+|$hE1
+|$xE1
+|$xH9
+|b=})>
+~ $s%r

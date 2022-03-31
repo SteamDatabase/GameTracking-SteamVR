@@ -1,0 +1,2910 @@
+																									
+	O0WPV
+        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+      </requestedPrivileges>
+      <requestedPrivileges>
+     precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform sampler2D u_texture_v;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.y = texture2D(u_texture_u, v_texCoord).r - 0.5;         yuv.z = texture2D(u_texture_v, v_texCoord).r - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.yz = texture2D(u_texture_u, v_texCoord).ar - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.yz = texture2D(u_texture_u, v_texCoord).ra - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         gl_FragColor = texture2D(u_texture, v_texCoord);         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.a = 1.0;         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor.a = 1.0;         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform vec4 u_color;         void main()     {         gl_FragColor = u_color;     } 
+     uniform mat4 u_projection;     attribute vec2 a_position;     attribute vec2 a_texCoord;     attribute float a_angle;     attribute vec2 a_center;     varying vec2 v_texCoord;         void main()     {         float angle = radians(a_angle);         float c = cos(angle);         float s = sin(angle);         mat2 rotationMatrix = mat2(c, -s, s, c);         vec2 position = rotationMatrix * (a_position - a_center) + a_center;         v_texCoord = a_texCoord;         gl_Position = u_projection * vec4(position, 0.0, 1.0);        gl_PointSize = 1.0;     } 
+    * %s (%s:%d)
+    * always ignore: %s.
+    * triggered %u time%s.
+    // Do the color transform 
+    // Get the U and V values 
+    // Get the Y value 
+    // That was easy. :) 
+    </security>
+    <security>
+    gl_FragColor = texture2D(tex0, v_texCoord) * v_color;
+    gl_FragColor = v_color;
+    gl_FragColor = vec4(rgb, 1.0) * v_color;
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+    rgb.b = dot(yuv, Bcoeff);
+    rgb.g = dot(yuv, Gcoeff);
+    rgb.r = dot(yuv, Rcoeff);
+    tcoord *= UVCoordScale;
+    tcoord = v_texCoord;
+    v_color = gl_Color;
+    v_texCoord = vec2(gl_MultiTexCoord0);
+    vec2 tcoord;
+    vec3 yuv, rgb;
+    yuv += offset;
+    yuv.x = texture2D(tex0, tcoord).r;
+    yuv.y = texture2D(tex1, tcoord).r;
+    yuv.yz = texture2D(tex1, tcoord).ar;
+    yuv.yz = texture2D(tex1, tcoord).ra;
+    yuv.z = texture2D(tex2, tcoord).r;
+  '%s'
+  </trustInfo>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%******************************************&*******************'()*****
+ "$&(*,.02468:<>@BDFHJLNPRTVXZ\^`bdfhjlnprtvxz|~
+ $(,048<@DHLPUY]aeimquy}
+ )19AJRZbjs{
+ 02090V0[0b0i0p0w0~0
+ SVWj
+ _^[]
+!	@Present()
+!)@:F,@zj/@\G1@|
+!2^[]
+!This program cannot be run in DOS mode.
+"3DUfw
+#define UVCoordScale 0.5
+#define UVCoordScale 1.0
+#define sampler2D sampler2DRect
+#define texture2D texture2DRect
+$RPWV
+%d bpp BMP files not supported
+%s not available
+%s%s%s
+%s() DirectX error 0x%8.8lx
+%s,%s,%s
+%s: %s
+%s: %s (%d): %s %s
+%s: %s (%d): %s %s (0x%X)
+%s: Unknown DirectSound error: 0x%x
+&0-0m0
+&0E0a0
+(SVW3
+(null)
+******
+********
+*********
+***********
+*******************
+****************************************************************************
++A,+A$
++A0+A(
++~@+^D3
+,SVWj
+--NV12t
+-NV21t
+..\..\src\render\opengl\SDL_render_gl.c
+..\..\src\render\opengles2\SDL_render_gles2.c
+.030M0R0l0q0,111H1M1d1i1J2O2k2p2&4+4F4K4g4l4
+.0;0p0
+.OC9p
+.rsrc
+.text
+// RGB coefficients 
+// YUV offset 
+0	1'1
+0	1,1J1:2S2v2
+0 0$0
+0 0$0(0,0004080<0@0D0H0L0P0T0X0
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0
+0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0 040H0\0p0
+0 2[2e2j2o2
+0!0(0/060@0F0d0h0l0p0t0
+0!161B1R1b1v1
+0!494P4\8
+0"0,060@0J0T0
+0"060F0V0f0r0
+0#0)0-03070=0A0G0K0Q0U0[0_0e0i0o0s0y0}0
+0#0*040:0	1:1L1S1l1s1z1
+0#020
+0#0s0
+0$020L0Q0_0y0~0
+0$0A0
+0$1D1z1
+0%0B0a0
+0&0+010>0N0k0
+0&060B0V0f0r0
+0'0/0B0U0e0
+0'2i2
+0(080H0X0h0x0
+0(141>1N1x1
+0(2,20242
+0(2h2r2w2|2
+0)0F0c0
+0)0Q0Z0n0
+0)0d1
+0*000;0T0b0~0
+0+070K0[0g0w0
+0+0;0K0[0k0{0
+0+0;0U0g0{0
+0+0H0M0[0x0}0
+0+0M0h0
+0+131L1S1Y1g1p1u1
+0,0;0E0l0
+0,0p0
+0,181@1G1Q1\1d1j1u1
+0/040N0S0m0r0
+0/0g0~0
+000D0X0l0
+001=1
+010O0t0
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0x
+0123456789abcdef
+030{0
+040>0K0^0s0~0
+040Q0m0
+050W0y0
+061R1i1
+061y1
+080D0L0~0
+081<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+0:1\1`1d1h1l1p1t1x1|1
+0=0[0
+0?0]2
+0G0b0{0
+0J1s1:2
+0P1X1
+0VWj<
+0\0y0
+0\0{0
+0^_[]
+0`2d2h2l2p2t2x2|2
+0k1r1~1
+0l2p2t2x2
+0t0}0
+0t5q8
+0x1}1
+1	1k2
+1 1$1(1,1
+1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+1 1-1:1M1f1
+1 1/1>1
+1 141H1\1p1
+1 2S2
+1 2c2
+1!2/2M2
+1!2=2
+1#1'1-11171;1A1E1K1O1U1Y1_1c1i1m1s1w1}1
+1#1*111\1a1{1
+1$181L1`1t1
+1$1<1\1z1
+1%161H2
+1&161F1V1f1v1
+1'1;1K1W1g1{1
+1+1:1a1
+1+1;1K1[1k1{1
+1+2@2Y2
+1,161I1e1o1
+1,1I1
+1-121@1Z1_1m1
+1-1G1X1`1
+121I1P1c2o2
+1474C4I4Z4`4m4
+151L1\1w1
+151]1t1
+181=1K1h1m1{1
+181G1T1`1r1
+191U1p1
+192,3S3}3
+192A2K2
+192V2f2v2
+1:2A2
+1;1]1
+1A2T2m2
+1A2]2
+1D2a2~2
+1F1Q1
+1H2e2
+1J1f1
+1O1k1{1
+1P2{2
+1U2q2
+1Z2o3+4
+1`2i2
+1a2f2x2
+1g2~2
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2
+2 2$2(2,2024282<2@2p2t2x2|2
+2 2$2(2,2024282i2o2
+2 2$2(2,20242<2@2D2
+2!2'2+21252;2?2E2I2O2S2Y2]2c2g2m2q2w2{2
+2!252
+2!3=3T3q3
+2!3H4a4
+2#3=3
+2#3I3P3W3^3e3k3
+2#3t3x3|3
+2$282L2`2t2
+2%2;2K2[2k2w2
+2&262F2V2f2v2
+2'2<2U2]2
+2(2-2;2X2]2k2
+2(2<2P2d2x2
+2(2E2p2u2
+2)2K2h2
+2*2H2Q2Y2_2k2t2z2
+2+272
+2+2;2K2W2k2w2
+2+2;2K2[2k2{2
+2-242;2B2I2S2Y2
+2-2J2O2]2z2
+2-3u3
+2.2Q2o2
+2/2Q2n2
+2/656
+212I2
+243@3[3
+25090500000000000000504944564944,PS3 DualShock,a:b2,b:b1,back:b9,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b0,y:b3,
+273>3E3L3S3Z3a3h3o3
+282L2
+292V2!3h4
+2:3v3
+2:3~3
+2;3?4%668 :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:$;
+2;3A3I3
+2G2d2i2
+2I3h3
+2N3q3
+2O354B4H4R4i4
+2X5\5`5d5$6
+2\3p5t5x5|5
+2d3!5O5a5h5
+2q2{2
+3	4 4=4
+3 3$3(3,3
+3 3(30383@3H3P3X3`3h3p3x3
+3!3%3+3/35393?3C3I3M3S3W3]3a3g3k3q3u3{3
+3!3C3H3
+3"3+353;3G3P3\3e3l3u3|3
+3"323F3V3f3v3
+3#3<4X4o4
+3#434
+3$343<3S3[3o3
+3$4D4
+3%3-3
+3&363F3V3f3v3
+3&3=4
+3'313;3E3O3Y3c3m3
+3'373G3W3g3w3
+3'373K3[3g3{3
+3(3<3P3d3x3
+3(42474<4
+3)3<3Q3`3f3q3
+3*4<4C4\4c4j4q4x4
+3+3;3K3[3k3{3
+3,333P3U3\3c3j3q3x3
+3,3@3T3h3|3
+3,4044484<4@4D4H4L4P4T4X4\4`4d4h4
+3-3O3l3
+3-NV12t'
+3/3Q3l3
+3/5>5s5
+31383
+31383U3Z3a3h3o3v3}3
+313A3H3R3a3v3
+315G6
+33333
+341a3608000000000000504944564944,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+344T4t4
+353S3q3
+373h3
+393[3w3
+3:3?3M3j3o3}3
+3:4S4p4
+3;4f4
+3<4F4f4v4
+3=4U4\4c4j4q4x4
+3A3V3]3v3}3
+3E3[3z3
+3H3Q3X3g3
+3H4X4`4h4
+3J3S3
+3M4^4r4
+3N3T3}3
+3N8k:r<z<
+3R3i3
+3T4>6
+3_4h4
+3k78;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+3n4|4
+3r4y4
+3t4x4|4
+3v3044484<4@4D4H4L4
+4 4$4(4
+4 4$4(4,4044484<4@4D4H4
+4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
+4!4B4r4<5X5`5j5z5
+4!4[4
+4!4e4
+4!5>5[5
+4!5?5
+4"4,414G4M4h4v4
+4"454=4
+4"464F4V4f4r4
+4"5a5
+4$5+6L6g6
+4%4)4/43494=4C4G4M4Q4W4[4a4e4k4o4u4y4
+4&464F4V4f4v4
+4&464F4V4p4
+4'565
+4(4B4X4
+4(4E4
+4(5,5054585<5@5D5
+4*4/4=4Z4_4m4
+4+4;4K4[4k4{4
+4,4=4U4j4
+4,4@4T4h4|4
+404D4X4l4
+414S4q4
+444a4
+455u5
+474S4s4
+484I4
+494~4
+4>4`4
+4A6f6
+4H5a5
+4L5f5}5
+4O5l5{5
+4SVWj
+4[5`5n5v5|5
+4\5u5
+4`4q4
+4c056802000000000000504944564944,PS3 Controller,a:b14,b:b13,back:b0,dpdown:b6,dpleft:b7,dpright:b5,dpup:b4,guide:b16,leftshoulder:b10,leftstick:b1,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b11,rightstick:b2,righttrigger:b9,rightx:a2,righty:a3,start:b3,x:b15,y:b12,
+4c05c405000000000000504944564944,PS4 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+4d6963726f736f66742050432d6a6f79,OUYA Controller,a:b0,b:b3,dpdown:b9,dpleft:b10,dpright:b11,dpup:b8,guide:b14,leftshoulder:b4,leftstick:b6,lefttrigger:b12,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b7,righttrigger:b13,rightx:a5,righty:a4,x:b1,y:b2,
+4k7p7
+5	6;6K6[6y6
+5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5t5x5|5
+5 5%5,535:5A5H5O5V5`5f5
+5 5&5=5C5H5L5P5T5X5\5
+5 545H5\5p5
+5#5)5-53575=5A5G5K5Q5U5[5_5e5i5o5s5y5}5
+5#5A5_5}5
+5$5+52595@5G5N5X5^5064686<6@6
+5&5+515>5D5}5
+5&525F5R5f5v5
+5&565F5V5f5r5
+5&565F5V5y5
+5'545A5N5
+5*5=5J5W5j5o5
+5+5;5K5[5k5{5
+5+5H5
+5+5T5`5f5
+5,515<5J5Z5`5i5r5z5
+5,5@5T5h5|5
+5-5J5O5]5z5
+505D5X5l5
+526d7
+545Q5i5
+565K5[5k5{5
+585U5
+595m5
+5;6`7y7
+5;6z6D7
+5=6r6
+5>5U5
+5>6[6w6
+5D6H6L6P6T6X6\6`6d6h6l6p6
+5H6c6
+5I5R5[5c5q5z5
+5K6o6x8
+5P6T6X6\6`6d6
+5R6e6t6
+5[5~5
+5cjMT
+5l6q6
+5n6/7'8B8
+5x7|7
+6	7:7}7
+6 6$6(6,6
+6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+6 646H6\6p6
+6 676
+6!6@6b6
+6"626B6R6b6r6
+6"666F6V6f6|6
+6#6'6-61676;6A6E6K6O6U6Y6_6c6i6m6s6w6}6
+6#6.6_7
+6#7<7Y7u7
+6$6F6a6z6
+6$6F6m6
+6&666F6V6f6v6
+6&6\6
+6+6;6K6[6k6{6
+6+6K6b6
+6,61686?6F6[6`6g6n6u6
+6-7J7g7
+6.6X6	7G7
+606D6X6l6
+6074787<7@7D7H7L7
+607H7g7
+616I6a6s6
+617C7Q7i7
+646g6w6
+686U6q6
+686h6
+696U6
+6:6?6
+6<6k6
+6=7H7
+6@7z7F8`8
+6E7O7T7Y7!:p:
+6H7h7
+6K6o6
+6Q7\7
+6d0416c2000000000000504944564944,Generic DirectInput Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+6d0419c2000000000000504944564944,Logitech F710 Gamepad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+6l6q6m7t7
+6t7{7
+6y7~7
+7	8'8&9?9b9
+7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
+7 7$7(7,7074787<7@7D7H7L7P7T7`7d7h7l7p7t7x7|7
+7 7&797I7V7_7u7
+7 7&7L7P7T7X7\7
+7 747H7\7p7
+7 8l8
+7!7'7+71757;7?7E7I7O7S7Y7]7c7g7m7q7w7{7
+7!7(72787r8
+7!8%80848?8C8\8`8k8o8z8~8
+7$787L7`7t7
+7$7M7j7
+7$8=8T8[8b8
+7%8,8K8R8q8x8
+7%868$9-9R9
+7&767B7V7f7v7
+7&767F7V7f7v7
+7&777K7[7k7{7
+7&7H7j7
+7(777l7t7{7
+7+7;7K7[7k7{7
+7,7A7
+7,7Q7t7
+7-8N8v8
+7.7|7
+7.8H8L8P8T8X8\8
+728@8
+729D9{9
+747R7p7
+74989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+7<7R7|7
+7=7T7
+7=IYUVt'=UYVYt
+7>8d8h8l8p8
+7@7Y7v7
+7@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
+7B7Y7
+7B8z8
+7C7P7
+7C7f7
+7H8Q8W8a8k8z8
+7Z7r7
+7Z8s8
+7\8e8
+7\8u8
+7^8e8
+7_^[]
+7p8v8|8
+8	9&9B9
+8	9+9;9K9[9k9{9
+8 8$8(8,8084888<8@8D8H8
+8 8Q8a8
+8!8%8+8/85898?8C8I8M8S8W8]8a8g8k8q8u8{8
+8!8'8U8p8w8
+8!8=8C8Y8_8j8v8
+8!9C9e9
+8"8*828L8
+8"9w:
+8#818N8]8q8
+8$888L8`8t8
+8$8m8
+8$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+8%888
+8%8D8D9
+8%9e9
+8&868F8V8f8v8
+8'999
+8'9:9
+8(888H8X8h8x8
+8(8<8P8d8x8
+8(9@9I9N9i9
+8)8U8f8l8
+8+8;8K8[8k8{8
+8+9/95999?9C9I9M9S9W9]9a9g9k9q9u9{9
+8+9D9d9{9
+8,9m9
+8-8H8_9
+8.979Y9
+8/8L8i8!9e:~:
+8/9H9k9
+818N8
+818Q8f8v8
+819f9
+858S8s8
+859U9l9
+868T8y8
+878S8
+8859-1
+88880803000000000000504944564944,PS3 Controller,a:b2,b:b1,back:b8,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b9,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:b7,rightx:a3,righty:a4,start:b11,x:b0,y:b3,
+888O8n8
+888`8
+8:8j8
+8<9Y9
+8@9P9k9
+8B9G9
+8G8[8*9A9[9
+8H9L9P9T9X9\9`9d9h9l9p9t9x9|9
+8K9l9~9
+8K=d>
+8P8Y8b8}8
+8Q8L:
+8VWj8
+8^ tQ
+8^:p:%;
+8_^[]
+8b9@:D:H:L:P:T:X:\:h:
+8j8y8
+9 9+939;9D9W9
+9 9/9>9L9P9T9X9\9c9o9
+9 9094989<9@9D9
+9 919B9d9n9
+9!>2>8>@>L>\>a>l>u>
+9"9(9
+9":B:L:S:`:y:
+9":|>
+9#9)9
+9#969G9O9]9x9
+9$9+92999@9G9N9U9\9c9p9O:`:
+9%9)9/93999=9C9G9M9Q9W9[9a9e9k9o9u9y9
+9%9-949N9p9
+9%:::E:M:V:q:
+9%:~:
+9&969F9V9f9v9
+9(9<9P9d9x9
+9(9P9X9\9`9d9T>
+9(9h9l9p9t9x9|9
+9+9;9S9s9
+9+:?:M:Z:u:
+9,9@9T9h9|9
+9094989<9@9
+909>9O9
+90:u:
+919;9@9I9O9Y9g9t9
+91:9:A:I:Q:]:i:~:
+91:::\:f:
+929O9
+93:9:@:F:g;
+949f9v9
+96:O:l:
+979N9k9
+98:q:
+99:>:P:e:(;
+9::]:{:k;
+9;9V9o9
+9A9d:h:l:p:
+9B:e:
+9F(t"
+9FPtZ
+9K:4;
+9L:^:f:~:
+9U:i:
+9]$u,
+9^0tN3
+9`9d9h9l9p9t9x9
+9`:y:
+9d:k:{:
+9i9u9
+9u(tT
+9v:{:
+9~(tW
+:	:1:?:J:
+: :$:(:,:0:4:8:<:@:D:H:L:P:
+: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+:!;;>
+:";!<1<
+:";B;Y;
+:#:):-:3:7:=:A:G:K:Q:U:[:_:e:i:o:s:y:}:
+:%:):/:3:9:=:C:G:M:Q:W:[:a:e:k:o:u:y:
+:%:<:[:
+:&:6:B:R:f:v:
+:&:6:F:V:f:v:
+:';r;
+:(:i:p:
+:+:9:O:V:d:s:
+:+:C:p:
+:,:@:T:h:|:
+:,;=;k;
+:0:5:
+:0:D:X:l:
+:1;W;i;p;
+:2:Z<
+:3:J:
+:3:Q:s:
+:4:::@:F:L:R:X:b:n:
+:4:T:
+:6;c<
+:6;p;
+:7:S:x:
+:9;C;H;M;
+:<:a:f:
+:<;J;Q;];g;
+:@:F<@Z
+:B:r:
+:D;J;p;
+:O;h;s;
+:P<s<z<K=R=
+:R;f;
+:T;d;l;t;
+:a;h;
+;	;V;d;r;
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+; ;4;H;\;p;
+; <8<X<b<
+;";1;?;Q;\;o;v;
+;#;';-;1;7;;;A;E;K;O;U;Y;_;c;i;m;s;w;};
+;#;);-;3;7;=;A;G;K;Q;U;[;_;e;i;o;s;y;};
+;#;A;c;{;
+;&;-;7;=;`;d;h;l;p;^=
+;&;6;F;V;f;v;
+;+;7;K;[;k;{;
+;+;=;I;[;m;y;
+;+;r;{;
+;+<R<{<
+;,;|;
+;-;4;V;];d;v;};
+;-;T;v;
+;.<U<\<t<|<
+;/;T;
+;0;:;t;{;
+;0;D;X;l;
+;0;l;
+;0=|=
+;1;N;
+;1;p;
+;1<]<o<v<
+;2;7;E;_;d;r;
+;3;l>p>t>x>|>
+;4<`<
+;5;p;
+;6;X;r;
+;:;@;H;P;X;`;h;n;v;~;
+;;;P;s;
+;>;f;
+;@;E;
+;B;7<u<j=
+;D<K<
+;F;p<
+;G<~<
+;GL_TABLE_TOO_LARGE
+;L7LuV
+;R<n<
+;_^[]
+;`;};
+;c<l<
+;d;o;};
+;glBufferSubData
+;l<r<
+;p?t?x?|?
+;w(tL
+< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+< <$<(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>
+< <4<H<\<p<
+< <;<@<
+< <g<
+< r^<
+<!<*<.<4<8<><B<H<L<R<V<\<`<f<j<p<t<z<~<
+<!<5<?<g<x<
+<"<D<f<
+<#<'<-<1<7<;<A<E<K<O<U<Y<_<c<i<m<s<w<}<
+<#<*<U<o<}<
+<$<,<4<<<D<L<T<\<d<l<t<|<
+<$<5<I<e<
+<$<8<L<`<t<
+<%<1<A<c<q<
+<%<7<K<r<
+<&<2<B<V<f<v<
+<&<@<E<S<m<r<
+<&<_<z<
+<&<y<
+<'<7<G<
+<(<-<4<;<B<I<P<W<^<h<n<
+<(<4<W<
+<(=L=
+<)<H<
+<)=P=
+<+<;<G<W<g<{<
+<+<;<K<[<k<{<
+<.<B<I<P<W<^<e<o<v<}<
+</=Z=
+</=_=}=
+</?m?w?|?
+</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
+<00u 
+<0<S<h<
+<0t[<1tWh
+<1<N<k<
+<1<T<
+<2<;<?<E<N<R<X<a<e<k<t<x<~<
+<2<>=Z=q=
+<5<N<u<
+<5<S<x<
+<6<><F<N<V<^<f<n<v<~<
+<8<U<l<q<
+<8={=:>M>n>
+<@<G<N<`<g<
+<B=Q=
+<H<R<W<\<
+<H>[>
+<I>s>
+<K=a=
+<L>P>T>X>\>`>d>h>l>p>t>x>|>
+<M=j=
+<X<b<
+<\<`<d<h<l<p<t<x<p=
+<`=d=h=l=p=t=x=|=
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<a|-<f
+<a|.<f
+<b?h?
+<cUUUUU
+<e=8><>@>D>H>L>P>T>
+<m<v<
+<qsort.c gjm 1.12 1998-03-19>
+= =$=
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+= ='=J=S>
+= =+=;=F=O=
+= >>>]>|>
+=!=&=-=4=;=B=I=P=W=a=g=
+=!=&=4=N=S=a={=
+=!='=+=1=5=;=?=E=I=O=S=Y=]=c=g=m=q=w={=
+=!=(=/=
+=!>C>a>
+="='=5=O=T=b=|=
+="=,=?=G=O=W=_=g=o=w=
+="=E=
+="=~=
+=#=<=_=}=
+=#=I=N=
+=#=S=a=u=
+=$=(=.=2=8=<=B=F=L=P=V=Z=`=d=j=n=t=x=~=
+=$=,=4=<=D=L=T=\=d=l=t=|=
+=$=.=8=B=L=V=`=j=t=~=
+=$=8=L=`=t=
+=%=4=8=<=@=D=H=L=P=T=X=\=`=d=
+=%=B=_=
+=%=_=u=
+='=G=O=g=q=
+=(=<=P=d=x=
+=*>`?y?
+=+=;=G=[=k=w=
+=+=;=K=[=k={=
+=+>k>
+=+?3?
+=/=F=
+=0f0^4L;];e;
+=1=V=s=
+=3=8=
+=3=H=k=
+=3=P=o=
+=5=R=
+=5=R=n=
+=5>Q>
+=6=I=
+=6>J>f>}>
+=7=\=w=
+=9=U=
+=9>V>s>
+=:=G=\=o=t=z=
+=@zj?@L~@@\GA@l
+=A>\>
+=D>N>`>
+=I>g>
+=IYUV
+=IYUVt
+=IYUVtq=UYVY
+=IYUVu
+=IYUVuy
+=NV12t
+=NV12wbtn=
+=NV21
+=NV21t
+=NV21u?
+=NV21w<t3=
+=NV21w<t`=
+=Q=`=s=
+=R>z>
+=T>p>
+=UYVY
+=UYVYt
+=UYVYuQ
+=W=a=n=
+=WAVE
+=WAVEu
+=YUY2t
+=YUY2u,
+=YUY2wCt:=NV12w%t
+=YV12t
+=YV12u
+=YV12u#
+=YVYU
+=YVYUt
+=YVYUt#=IYUVt
+=YVYUw
+=YVYUw.t!=YV12t
+=Z>l>s>
+=\=s=E>V>
+=_>(?
+=`>d>h>l>p>t>
+=`>d>h>l>p>t>x>|>
+={>l?z?
+> >$>(>,>0>4>8><>@>D>H>L>P>T>X>X?\?`?d?h?
+> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+> >2>9>K>R>d>k>}>
+>!>%>+>/>5>9>?>C>I>M>S>W>]>a>g>k>q>u>{>
+>!?0?Q?`?k?
+>">(>,>2>6><>@>F>J>P>T>Z>^>d>h>n>r>x>|>
+>$>+>2>9>@>G>N>U>\>c>j>q>x>
+>$>,>4><>D>L>T>\>x>
+>$?.?;?[?
+>$?D?P?
+>%?A?X?u?
+>&>1>?>I>O>X>l>
+>&>6>F>R>f>r>
+>&>6>F>V>f>v>
+>&>H>j>
+>'>7>G>[>k>{>
+>'>;>K>W>k>{>
+>(><>P>d>x>
+>(?2?7?<?
+>)>@>G>L>i>z>
+>*>0>F>P>T>X>\>`>w>
+>*?6?>?
+>+>m>
+>,>@>T>h>|>
+>-><>M>
+>-?j?
+>/>D>
+>/>R>p>
+>0>5>C>]>b>p>
+>1>Q>s>
+>5>l>
+>6>7?K?
+>6?O?k?
+>7?U?
+>8>=>K>h>m>{>
+>A>X>`>t>
+>D>e>
+>E?b?~?
+>H?r?
+>M>z?
+>N>g>
+>S?g?
+>Z>~>
+>\>u>
+>b?t?
+>d?}?
+? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+? ?)?G?b?}?
+? ?1?=?Q?[?m?v?
+? ?K?\?
+?!?1?U?
+?"?)?B?I?P?W?^?h?n?
+?"?D?f?
+?$?)?h?o?
+?$?4?d?i?
+?$?>?C?Q?k?p?~?
+?%?)?/?3?9?=?C?G?M?Q?W?[?a?e?k?o?u?y?
+?%?L?n?
+?&?2?F?V?f?v?
+?&?6?F?V?f?v?
+?(?-?;?X?]?k?
+?(?8?H?X?h?x?
+?*?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+?+?;?G?W?g?{?
+?+?;?K?[?k?{?
+?,?3?E?L?^?e?w?~?
+?,?@?T?h?|?
+?,?J?
+?/lj,D
+?0?D?X?l?
+?1?8?Q?X?_?f?m?w?}?
+?3?P?m?
+?:?L?S?l?s?z?
+?>UUUUU
+?Application didn't initialize properly, did you include SDL_main.h in the file containing your main() function?
+?C?\?u?
+?Created renderer: %s
+?F?b?i?
+?F?l?
+?Haptic error %s
+?IUUUUU
+?IYUV
+?LUUUUU
+?N?q?
+?UUUUUU
+?Unable to lock source surface
+?Unsupported YUV format
+?W?t?
+?YV12
+?\?x?
+?f?k?z?
+?h?l?
+?v<y5
+@ %z8
+@.data
+@.reloc
+@0D0H0L0P0
+@1D1H1L1P1d1h1l1p1t1x1|1
+@49PDt	P
+@49pD^[t	P
+@Couldn't open %s
+@l '	
+@p@*	
+AC Back
+AC Bookmarks
+AC Forward
+AC Home
+AC Refresh
+AC Search
+AC Stop
+ACouldn't create mixer lock
+APassed NULL destination surface
+ASCII
+Abort
+Acquiring DirectInput device
+AdjustWindowRectEx
+Again
+All SDL assertions between last init/quit:
+AltErase
+Always Ignore
+Application
+Application not compiled with SDL %d.%d
+Assertion Failed
+Assertion failure at %s (%s:%d), triggered %u %s:
+AttachConsole
+Audio device already open
+Audio device has a callback, queueing not allowed
+Audio device in use
+Audio device is already opened
+Audio subsystem is not initialized
+Audio target '%s' not available
+AudioMute
+AudioNext
+AudioPlay
+AudioPrev
+AudioStop
+AuthenticAMD
+Axis index too large: %d
+Backspace
+BeginScene()
+BitBlt
+Blit combination not supported
+Break
+BrightnessDown
+BrightnessUp
+Button index too large: %d
+Button name too large: %s
+C6\6v6
+C@PQW
+CINTLGNT.IME
+CONFLICTINGRENDERSTATE
+CONFLICTINGTEXTUREFILTER
+CONFLICTINGTEXTUREPALETTE
+CRITICAL
+Calculator
+CallWindowProcW
+Caller doesn't have priority
+Can't create renderer for NULL surface
+Can't write to read-only memory
+Cancel
+CapsLock
+ChangeDisplaySettingsEx() failed: %s
+ChangeDisplaySettingsExW
+ChoosePixelFormat
+Clear
+Clear / Again
+Clear()
+ClientToScreen
+ClipCursor
+CloseClipboard
+CloseHandle
+CloseTouchInputHandle
+CoCreateInstance
+CoInitialize
+CoInitializeEx
+CoUninitialize
+Coinitialize
+CombineRgn
+CompareStringA
+Complex WAVE files not supported
+Compressed BMP files not supported
+Computer
+Control requested is not available
+Could not allocate space to read DB into memory
+Could not create EGL context
+Could not create EGL context (context attributes are not supported)
+Could not create GL context
+Could not create GLES window surface
+Could not get EGL display
+Could not initialize EGL
+Could not initialize OpenGL / GLES library
+Could not load EGL library
+Could not make EGL context current
+Could not read DB
+Could not retrieve EGL function eglBindAPI
+Could not retrieve EGL function eglChooseConfig
+Could not retrieve EGL function eglCreateContext
+Could not retrieve EGL function eglCreateWindowSurface
+Could not retrieve EGL function eglDestroyContext
+Could not retrieve EGL function eglDestroySurface
+Could not retrieve EGL function eglGetConfigAttrib
+Could not retrieve EGL function eglGetDisplay
+Could not retrieve EGL function eglGetProcAddress
+Could not retrieve EGL function eglInitialize
+Could not retrieve EGL function eglMakeCurrent
+Could not retrieve EGL function eglQueryString
+Could not retrieve EGL function eglSwapBuffers
+Could not retrieve EGL function eglSwapInterval
+Could not retrieve EGL function eglTerminate
+Could not retrieve EGL function eglWaitGL
+Could not retrieve EGL function eglWaitNative
+Could not retrieve OpenGL functions
+Couldn't convert image to %d bpp
+Couldn't create XInput haptic mutex
+Couldn't create XInput haptic thread
+Couldn't create a prefpath.
+Couldn't create audio thread
+Couldn't create semaphore
+Couldn't create window
+Couldn't find GetModuleFileNameExW
+Couldn't find any displays
+Couldn't find display mode match
+Couldn't find dummy surface for window
+Couldn't find joystick in haptic device list
+Couldn't find mapping for device (%d)
+Couldn't find matching EGL config
+Couldn't find matching render driver
+Couldn't get clipboard data
+Couldn't load GL function %s: %s
+Couldn't load GLES2 function %s: %s
+Couldn't load psapi.dll
+Couldn't locate our .exe
+Couldn't locate our prefpath
+Couldn't lock event queue
+Couldn't open clipboard
+Couldn't parse %s
+Couldn't parse GUID from %s
+Couldn't parse name from %s
+Couldn't register application class
+Couldn't set clipboard data
+CrSel
+CreateBitmap
+CreateCompatibleBitmap
+CreateCompatibleDC
+CreateDCW
+CreateDIBSection
+CreateDXGIFactory
+CreateDevice()
+CreateDirectoryW
+CreateFileW
+CreateFontIndirectW
+CreateIconFromResource
+CreateIconIndirect
+CreateIconIndirect()
+CreateOffscreenPlainSurface()
+CreatePixelShader()
+CreateRectRgn
+CreateSemaphoreW
+CreateSystemCursor is not currently supported
+CreateTexture(D3DPOOL_DEFAULT)
+CreateTexture(D3DPOOL_SYSTEMMEM)
+CreateThread
+CreateWindowExW
+Creating DirectInput device
+CurrencySubUnit
+CurrencyUnit
+Cursor hot spot doesn't lie within cursor
+Cursor not associated with the current mouse
+Cursors are not currently supported
+D3D9.DLL
+D7TRPS
+DEBUG
+DEVICELOST
+DEVICENOTRESET
+DISABLED
+DISP_CHANGE_BADFLAGS
+DISP_CHANGE_BADMODE
+DISP_CHANGE_BADPARAM
+DISP_CHANGE_FAILED
+DRIVERINTERNALERROR
+DRIVERINVALIDCALL
+DRPQS
+DSOUND.DLL
+DXGI.DLL
+DecimalSeparator
+DefWindowProcW
+Delete
+DeleteCriticalSection
+DeleteDC
+DeleteObject
+DescribePixelFormat
+DestroyIcon
+DestroyWindow
+Device doesn't support rumble
+DialogBoxIndirectParamW
+Direct3DCreate9
+DirectSound
+DirectSound CreateSoundBuffer
+DirectSound GetCurrentPosition
+DirectSound Lock
+DirectSound SetCooperativeLevel
+DirectSound: System doesn't appear to have DX8.
+DirectSound: Unsupported audio format
+DirectSound: failed to load DSOUND.DLL
+DirectSoundCaptureEnumerateW
+DirectSoundCreate
+DirectSoundCreate8
+DirectSoundEnumerateW
+DispatchMessageW
+DisplaySwitch
+DragAcceptFiles
+DragFinish
+DragQueryFileW
+DrawPrimitiveUP()
+DrawTextW
+E QRP
+E WHVS
+EGL implementation does not support sRGB system framebuffers
+EGL not initialized
+EGL_DestroyRenderer
+EGL_KHR_create_context
+EGL_KHR_gl_colorspace
+ENABLED
+ERROR
+Eject
+Empty destination palette
+EmptyClipboard
+Enabling actuators
+EndDialog
+EnterCriticalSection
+EnumDisplayDevicesW
+EnumDisplayMonitors
+EnumDisplaySettingsW
+Enumerating DirectInput devices
+Enumerating supported effects
+Error reading from BMP
+Error reading from datastream
+Error seeking in datastream
+Error writing to datastream
+Escape
+Event queue is full (%d events)
+ExSel
+Execute
+ExitProcess
+F(SWP
+F,QRP
+F,RPW
+F0@u/j
+F32LSB
+F32MSB
+F32SYS
+F8_;F4u
+FD_^3
+FHaptic: Invalid haptic device identifier
+FOURCC pixel formats are not supported
+Failed getting OpenGL glGetError entry point
+Failed getting OpenGL glGetFramebufferAttachmentParameteriv entry point
+Failed getting OpenGL glGetIntegerv entry point
+Failed getting OpenGL glGetString entry point
+Failed loading 
+Failed to compile shader:
+Failed to create message window for joystick autodetect
+Failed to create register class for joystick autodetect
+Failed to link shader program
+Failed to load the shader
+Failed to load the shader: %s
+Failed to obtain XInput device capabilities. Device disconnected?
+Fc?u(5
+File is not a Windows BMP file
+FormatMessageW
+Fppt	
+FreeLibrary
+Function not supported
+G _^3
+G(QRP
+G(SVh
+GDI32.dll
+GL 3.x is not supported
+GLES2_CreateTexture
+GLES2_DestroyRenderer
+GLES2_RenderCopy
+GLES2_RenderCopyEx
+GLES2_RenderDrawLines
+GLES2_RenderFillRects
+GLES2_ResetState
+GLES2_UpdateTexture
+GLES2_UpdateTextureYUV
+GLES2_UpdateViewport
+GL_ARB_debug_output
+GL_ARB_fragment_shader
+GL_ARB_multitexture
+GL_ARB_shader_objects
+GL_ARB_shading_language_100
+GL_ARB_texture_non_power_of_two
+GL_ARB_texture_rectangle
+GL_ARB_vertex_shader
+GL_CreateTexture
+GL_EXT_framebuffer_object
+GL_EXT_texture_rectangle
+GL_INVALID_ENUM
+GL_INVALID_OPERATION
+GL_INVALID_VALUE
+GL_NO_ERROR
+GL_OUT_OF_MEMORY
+GL_RenderCopy
+GL_RenderCopyEx
+GL_RenderDrawLines
+GL_RenderFillRects
+GL_RenderReadPixels
+GL_ResetState
+GL_STACK_OVERFLOW
+GL_STACK_UNDERFLOW
+GL_UpdateTexture
+GL_UpdateTextureYUV
+GL_UpdateViewport
+GenuineIntel
+GetAsyncKeyState
+GetClassInfoW
+GetClientRect
+GetClipboardData
+GetClipboardSequenceNumber
+GetCurrentProcess
+GetCurrentThread
+GetCurrentThreadId
+GetCursorPos
+GetDC
+GetDIBits
+GetDesc()
+GetDesktopWindow
+GetDeviceCaps
+GetDeviceGammaRamp
+GetDeviceGammaRamp()
+GetDoubleClickTime
+GetDpiForMonitor
+GetEnvironmentVariableA
+GetFileSizeEx
+GetFileVersionInfoA
+GetFileVersionInfoSizeA
+GetFocus
+GetKeyState
+GetKeyboardLayout
+GetLastError
+GetMenu
+GetMessageExtraInfo
+GetMessageW
+GetModuleFileNameExW
+GetModuleHandle() failed with error code %lu.
+GetModuleHandleW
+GetPixelFormat
+GetPresentParameters()
+GetProcAddress
+GetPropW
+GetRawInputData
+GetRawInputDeviceInfoA
+GetRawInputDeviceList
+GetReadingString
+GetRenderTargetData()
+GetStdHandle
+GetSurfaceLevel()
+GetSwapChain()
+GetSystemInfo
+GetSystemPowerStatus
+GetTextMetricsW
+GetTickCount
+GetTouchInputInfo
+GetUpdateRect
+GetVersionExA
+GetWindowLongW
+GetWindowRect
+GetWindowTextLengthW
+GetWindowTextW
+Getting device axes
+Getting effect status
+GlobalAlloc
+GlobalLock
+GlobalMemoryStatusEx
+GlobalUnlock
+Gt_^[]
+H`u	Q
+Haptic: Autocenter must be between 0 and 100.
+Haptic: Device does not support setting autocenter.
+Haptic: Device does not support setting gain.
+Haptic: Device does not support setting pausing.
+Haptic: Device does not support status queries.
+Haptic: Device has no free space left.
+Haptic: Effect not supported by haptic device.
+Haptic: Gain must be between 0 and 100.
+Haptic: Internal error on finding supported effects.
+Haptic: Invalid effect identifier.
+Haptic: Joystick isn't a haptic device.
+Haptic: Joystick isn't valid.
+Haptic: Mouse isn't a haptic device.
+Haptic: Rumble effect not initialized on haptic device
+Haptic: SubSystem already open.
+Haptic: There are %d haptic devices available
+Haptic: Unknown direction type.
+Haptic: Unknown effect type.
+Haptic: Updating effect type is illegal.
+Hat index too large: %d
+I0[0K3
+I9F0~
+IDirectInput::CreateDevice
+IDirectInput::Initialize
+IDirectInputDevice8::Acquire
+IDirectInputDevice8::GetCapabilities
+IDirectInputDevice8::QueryInterface
+IDirectInputDevice8::SetCooperativeLevel
+IDirectInputDevice8::SetDataFormat
+IDirectInputDevice8::SetProperty
+IDirectInputDevice8::Unacquire
+IMA ADPCM decoder can only handle %u channels
+IMM32.dll
+INVALIDCALL
+INVALIDDEVICE
+ISO-8859-1
+IYUVt
+IYUVtD
+IYUVu
+IYUVu.
+Ignore
+ImmAssociateContext
+ImmGetCandidateListW
+ImmGetCompositionStringW
+ImmGetContext
+ImmGetIMEFileNameA
+ImmLockIMC
+ImmLockIMCC
+ImmNotifyIME
+ImmReleaseContext
+ImmSetCompositionStringW
+ImmSetCompositionWindow
+ImmUnlockIMC
+ImmUnlockIMCC
+Indexed pixel formats not supported
+InitializeCriticalSectionAndSpinCount
+Initializing DirectInput device
+Insert
+InterlockedCompareExchange
+InterlockedDecrement
+InterlockedExchange
+InterlockedIncrement
+Invalid RWops
+Invalid audio device ID
+Invalid call for the current state
+Invalid destination blit rectangle
+Invalid destination format
+Invalid display index
+Invalid parameter
+Invalid renderer
+Invalid source blit rectangle
+Invalid source format
+Invalid target pixel format
+Invalid texture
+Invalid texture format
+Invalid window
+IsClipboardFormatAvailable
+IsIconic
+IsRectEmpty
+I|RPW
+JUNKt
+Joystick button name too large: %s
+Joystick hasn't been opened yet
+Joystick only has %d axes
+Joystick only has %d balls
+Joystick only has %d buttons
+Joystick only has %d hats
+K43K0
+KBDIllumDown
+KBDIllumToggle
+KBDIllumUp
+KERNEL32.dll
+Keypad !
+Keypad #
+Keypad %
+Keypad &
+Keypad &&
+Keypad (
+Keypad )
+Keypad *
+Keypad +
+Keypad +/-
+Keypad ,
+Keypad -
+Keypad .
+Keypad /
+Keypad 0
+Keypad 00
+Keypad 000
+Keypad 1
+Keypad 2
+Keypad 3
+Keypad 4
+Keypad 5
+Keypad 6
+Keypad 7
+Keypad 8
+Keypad 9
+Keypad :
+Keypad <
+Keypad =
+Keypad = (AS400)
+Keypad >
+Keypad @
+Keypad A
+Keypad B
+Keypad Backspace
+Keypad Binary
+Keypad C
+Keypad Clear
+Keypad ClearEntry
+Keypad D
+Keypad Decimal
+Keypad E
+Keypad Enter
+Keypad F
+Keypad Hexadecimal
+Keypad MemAdd
+Keypad MemClear
+Keypad MemDivide
+Keypad MemMultiply
+Keypad MemRecall
+Keypad MemStore
+Keypad MemSubtract
+Keypad Octal
+Keypad Space
+Keypad Tab
+Keypad XOR
+Keypad ^
+Keypad {
+Keypad |
+Keypad ||
+Keypad }
+L1$4(4,4
+L7TPQS
+LC_ALL
+LC_CTYPE
+LC_MESSAGES
+LISTt
+LeaveCriticalSection
+Left Alt
+Left Ctrl
+Left GUI
+Left Shift
+Left Windows
+LoadCursorW
+LoadImageW
+LoadLibraryA
+LoadLibraryW
+LockRect()
+M QRP
+M WVS
+M,VWQ
+MOREDATA
+MPEG Layer 3 data not supported
+MSSCIPYA.IME
+MSTCIPHA.IME
+MapVirtualKeyW
+MediaSelect
+Missing desired mode or closest mode parameter
+Mixing buffer was lost
+ModeSwitch
+MulDiv
+N(RPQ
+NDSWV
+NEJ(~
+NOTAVAILABLE
+NOTFOUND
+NV12t
+NV21u
+Negative swap interval unsupported in this GL
+No GL driver has been loaded
+No OpenGL context has been made current
+No OpenGL support in video driver
+No audio device found
+No available audio device
+No available video device
+No buffer allocated for conversion
+No capture support
+No conversion available for these formats
+No conversion available for these rates
+No dynamic GL support in video driver
+No hardware accelerated renderers available
+No matching GL pixel format available
+No message system available
+No shader matching the requested characteristics was found
+No such device
+No such device.
+No video mode large enough for %dx%d
+No window has focus
+No window texture data
+Not enough resources to create thread
+Numlock
+O(PSj
+OLEAUT32.dll
+OPENGL32.DLL
+OS_^3
+OUTOFVIDEOMEMORY
+Only works with same format surfaces
+OpenClipboard
+OpenGL ES context already created
+OpenGL error: %08X
+OpenGL error: GL_INVALID_ENUM
+OpenGL error: GL_INVALID_VALUE
+OpenGL library already loaded
+OpenGL not initialized
+OpenGL shaders: %s
+Out of memory
+OutputDebugStringW
+PIDVID8y
+PIDVID^
+PINTLGNT.IME
+PQ9~$t
+PQhXn
+PageDown
+PageUp
+Palettized textures are not supported
+Parameter '%s' is invalid
+Passed NULL cursor surface
+Passed a NULL condition variable
+Passed a NULL mutex
+Passed a NULL sem
+Paste
+Path too long.
+Pause
+Pausing the device
+PeekMessageW
+Power
+PrintScreen
+Prior
+QPVRS
+QRPhT&
+QRWVS
+QSVWj
+Qh@O	
+QueryPerformanceCounter
+QueryPerformanceFrequency
+Querying DirectInput interface
+RPQVj
+RQWPS
+RSDS"
+RVWPQ
+RVWPQu
+ReadFile
+RegisterClassExW
+RegisterClassW
+RegisterDeviceNotificationW
+RegisterRawInputDevices
+RegisterTouchWindow
+ReleaseDC
+ReleaseSemaphore
+ReleaseSemaphore() failed
+RemovePropW
+Removing effect from the device
+Renderer already associated with window
+Renderer does not support RenderCopyEx
+Renderer doesn't support querying output size
+Renderer is not a D3D renderer
+Reset()
+Resetting device
+Retry
+Return
+RhpO	
+Right
+Right Alt
+Right Ctrl
+Right GUI
+Right Shift
+Right Windows
+Rj(QP
+Rj(WV
+Running the effect
+S16LSB
+S16MSB
+S16SYS
+S32LSB
+S32MSB
+S32SYS
+S4^_3
+S;GT|V
+SDL EVENT QUEUE: Maximum events in-flight: %d
+SDL Windows video driver
+SDL assertion report.
+SDL dummy audio driver
+SDL dummy video driver
+SDL not compiled with stdio support
+SDL2.dll
+SDLAudioDev%d
+SDLTimer
+SDLXInputDev%d
+SDL_ALLOW_TOPMOST
+SDL_ASSERT
+SDL_AUDIODRIVER
+SDL_AUDIO_CHANNELS
+SDL_AUDIO_DEVICE_NAME
+SDL_AUDIO_FORMAT
+SDL_AUDIO_FREQUENCY
+SDL_AUDIO_SAMPLES
+SDL_AddEventWatch
+SDL_AddHintCallback
+SDL_AddTimer
+SDL_AllocFormat
+SDL_AllocPalette
+SDL_AllocRW
+SDL_AtomicAdd
+SDL_AtomicCAS
+SDL_AtomicCASPtr
+SDL_AtomicGet
+SDL_AtomicGetPtr
+SDL_AtomicLock
+SDL_AtomicSet
+SDL_AtomicSetPtr
+SDL_AtomicTryLock
+SDL_AtomicUnlock
+SDL_AudioInit
+SDL_AudioQuit
+SDL_BLIT_CPU_FEATURES
+SDL_BlendFillRects(): Unsupported surface format
+SDL_BlendLines(): Passed NULL destination surface
+SDL_BlendLines(): Unsupported surface format
+SDL_BlendPoint(): Unsupported surface format
+SDL_BlendPoints(): Unsupported surface format
+SDL_BuildAudioCVT
+SDL_CalculateGammaRamp
+SDL_CaptureMouse
+SDL_ClearError
+SDL_ClearHints
+SDL_ClearQueuedAudio
+SDL_CloseAudio
+SDL_CloseAudioDevice
+SDL_CondBroadcast
+SDL_CondSignal
+SDL_CondWait
+SDL_CondWaitTimeout
+SDL_ConvertAudio
+SDL_ConvertPixels
+SDL_ConvertSurface
+SDL_ConvertSurfaceFormat
+SDL_CreateColorCursor
+SDL_CreateCond
+SDL_CreateCursor
+SDL_CreateMutex
+SDL_CreateRGBSurface
+SDL_CreateRGBSurfaceFrom
+SDL_CreateRenderer
+SDL_CreateSemaphore
+SDL_CreateShapedWindow
+SDL_CreateSoftwareRenderer
+SDL_CreateSystemCursor
+SDL_CreateTexture
+SDL_CreateTextureFromSurface
+SDL_CreateTextureFromSurface() passed NULL surface
+SDL_CreateThread
+SDL_CreateWindow
+SDL_CreateWindowAndRenderer
+SDL_CreateWindowFrom
+SDL_DISKAUDIODELAY
+SDL_DISKAUDIOFILE
+SDL_DXGIGetOutputInfo
+SDL_DYNAMIC_API
+SDL_DYNAPI_entry
+SDL_DelEventWatch
+SDL_DelHintCallback
+SDL_Delay
+SDL_DestroyCond
+SDL_DestroyMutex
+SDL_DestroyRenderer
+SDL_DestroySemaphore
+SDL_DestroyTexture
+SDL_DestroyWindow
+SDL_DetachThread
+SDL_Direct3D9GetAdapterIndex
+SDL_DisableScreenSaver
+SDL_DrawLines(): Passed NULL destination surface
+SDL_DrawLines(): Unsupported surface format
+SDL_DrawPoint(): Unsupported surface format
+SDL_DrawPoints(): Unsupported surface format
+SDL_EVENT_QUEUE_STATISTICS
+SDL_EnableScreenSaver
+SDL_EnclosePoints
+SDL_Error
+SDL_EventState
+SDL_FRAMEBUFFER_ACCELERATION
+SDL_FillRect
+SDL_FillRect(): Unsupported surface format
+SDL_FillRect(): You must lock the surface
+SDL_FillRects
+SDL_FillRects() passed NULL rects
+SDL_FilterEvents
+SDL_FlushEvent
+SDL_FlushEvents
+SDL_FreeCursor
+SDL_FreeFormat
+SDL_FreePalette
+SDL_FreeRW
+SDL_FreeSurface
+SDL_FreeWAV
+SDL_GAMECONTROLLERCONFIG
+SDL_GL_BindTexture
+SDL_GL_CreateContext
+SDL_GL_DeleteContext
+SDL_GL_ExtensionSupported
+SDL_GL_GetAttribute
+SDL_GL_GetCurrentContext
+SDL_GL_GetCurrentWindow
+SDL_GL_GetDrawableSize
+SDL_GL_GetProcAddress
+SDL_GL_GetSwapInterval
+SDL_GL_LoadLibrary
+SDL_GL_MakeCurrent
+SDL_GL_ResetAttributes
+SDL_GL_SetAttribute
+SDL_GL_SetSwapInterval
+SDL_GL_SwapWindow
+SDL_GL_UnbindTexture
+SDL_GL_UnloadLibrary
+SDL_GameControllerAddMapping
+SDL_GameControllerAddMappingsFromRW
+SDL_GameControllerClose
+SDL_GameControllerEventState
+SDL_GameControllerGetAttached
+SDL_GameControllerGetAxis
+SDL_GameControllerGetAxisFromString
+SDL_GameControllerGetBindForAxis
+SDL_GameControllerGetBindForButton
+SDL_GameControllerGetButton
+SDL_GameControllerGetButtonFromString
+SDL_GameControllerGetJoystick
+SDL_GameControllerGetStringForAxis
+SDL_GameControllerGetStringForButton
+SDL_GameControllerMapping
+SDL_GameControllerMappingForGUID
+SDL_GameControllerName
+SDL_GameControllerNameForIndex
+SDL_GameControllerOpen
+SDL_GameControllerUpdate
+SDL_GetAssertionHandler
+SDL_GetAssertionReport
+SDL_GetAudioDeviceName
+SDL_GetAudioDeviceStatus
+SDL_GetAudioDriver
+SDL_GetAudioStatus
+SDL_GetBasePath
+SDL_GetCPUCacheLineSize
+SDL_GetCPUCount
+SDL_GetClipRect
+SDL_GetClipboardText
+SDL_GetClosestDisplayMode
+SDL_GetColorKey
+SDL_GetCurrentAudioDriver
+SDL_GetCurrentDisplayMode
+SDL_GetCurrentVideoDriver
+SDL_GetCursor
+SDL_GetDefaultAssertionHandler
+SDL_GetDefaultCursor
+SDL_GetDesktopDisplayMode
+SDL_GetDisplayBounds
+SDL_GetDisplayDPI
+SDL_GetDisplayMode
+SDL_GetDisplayName
+SDL_GetError
+SDL_GetEventFilter
+SDL_GetGlobalMouseState
+SDL_GetGrabbedWindow
+SDL_GetHint
+SDL_GetKeyFromName
+SDL_GetKeyFromScancode
+SDL_GetKeyName
+SDL_GetKeyboardFocus
+SDL_GetKeyboardState
+SDL_GetModState
+SDL_GetMouseFocus
+SDL_GetMouseState
+SDL_GetNumAudioDevices
+SDL_GetNumAudioDrivers
+SDL_GetNumDisplayModes
+SDL_GetNumRenderDrivers
+SDL_GetNumTouchDevices
+SDL_GetNumTouchFingers
+SDL_GetNumVideoDisplays
+SDL_GetNumVideoDrivers
+SDL_GetPerformanceCounter
+SDL_GetPerformanceFrequency
+SDL_GetPixelFormatName
+SDL_GetPlatform
+SDL_GetPowerInfo
+SDL_GetPrefPath
+SDL_GetQueuedAudioSize
+SDL_GetRGB
+SDL_GetRGBA
+SDL_GetRelativeMouseMode
+SDL_GetRelativeMouseState
+SDL_GetRenderDrawBlendMode
+SDL_GetRenderDrawColor
+SDL_GetRenderDriverInfo
+SDL_GetRenderTarget
+SDL_GetRenderer
+SDL_GetRendererInfo
+SDL_GetRendererOutputSize
+SDL_GetRevision
+SDL_GetRevisionNumber
+SDL_GetScancodeFromKey
+SDL_GetScancodeFromName
+SDL_GetScancodeName
+SDL_GetShapedWindowMode
+SDL_GetSurfaceAlphaMod
+SDL_GetSurfaceBlendMode
+SDL_GetSurfaceColorMod
+SDL_GetSystemRAM
+SDL_GetTextureAlphaMod
+SDL_GetTextureBlendMode
+SDL_GetTextureColorMod
+SDL_GetThreadID
+SDL_GetThreadName
+SDL_GetTicks
+SDL_GetTouchDevice
+SDL_GetTouchFinger
+SDL_GetVersion
+SDL_GetVideoDriver
+SDL_GetWindowBrightness
+SDL_GetWindowData
+SDL_GetWindowDisplayIndex
+SDL_GetWindowDisplayMode
+SDL_GetWindowFlags
+SDL_GetWindowFromID
+SDL_GetWindowGammaRamp
+SDL_GetWindowGrab
+SDL_GetWindowID
+SDL_GetWindowMaximumSize
+SDL_GetWindowMinimumSize
+SDL_GetWindowPixelFormat
+SDL_GetWindowPosition
+SDL_GetWindowSize
+SDL_GetWindowSurface
+SDL_GetWindowTitle
+SDL_GetWindowWMInfo
+SDL_HAPTIC_GAIN_MAX
+SDL_HapticClose
+SDL_HapticDestroyEffect
+SDL_HapticEffectSupported
+SDL_HapticGetEffectStatus
+SDL_HapticIndex
+SDL_HapticName
+SDL_HapticNewEffect
+SDL_HapticNumAxes
+SDL_HapticNumEffects
+SDL_HapticNumEffectsPlaying
+SDL_HapticOpen
+SDL_HapticOpenFromJoystick
+SDL_HapticOpenFromMouse
+SDL_HapticOpened
+SDL_HapticPause
+SDL_HapticQuery
+SDL_HapticRumbleInit
+SDL_HapticRumblePlay
+SDL_HapticRumbleStop
+SDL_HapticRumbleSupported
+SDL_HapticRunEffect
+SDL_HapticSetAutocenter
+SDL_HapticSetGain
+SDL_HapticStopAll
+SDL_HapticStopEffect
+SDL_HapticUnpause
+SDL_HapticUpdateEffect
+SDL_Has3DNow
+SDL_HasAVX
+SDL_HasAVX2
+SDL_HasAltiVec
+SDL_HasClipboardText
+SDL_HasEvent
+SDL_HasEvents
+SDL_HasIntersection
+SDL_HasMMX
+SDL_HasRDTSC
+SDL_HasSSE
+SDL_HasSSE2
+SDL_HasSSE3
+SDL_HasSSE41
+SDL_HasSSE42
+SDL_HasScreenKeyboardSupport
+SDL_HideWindow
+SDL_Init
+SDL_InitSubSystem
+SDL_IntersectRect
+SDL_IntersectRectAndLine
+SDL_IsGameController
+SDL_IsScreenKeyboardShown
+SDL_IsScreenSaverEnabled
+SDL_IsShapedWindow
+SDL_IsTextInputActive
+SDL_JOYSTICK_ALLOW_BACKGROUND_EVENTS
+SDL_JoystickClose
+SDL_JoystickCurrentPowerLevel
+SDL_JoystickEventState
+SDL_JoystickGetAttached
+SDL_JoystickGetAxis
+SDL_JoystickGetBall
+SDL_JoystickGetButton
+SDL_JoystickGetDeviceGUID
+SDL_JoystickGetGUID
+SDL_JoystickGetGUIDFromString
+SDL_JoystickGetGUIDString
+SDL_JoystickGetHat
+SDL_JoystickInstanceID
+SDL_JoystickIsHaptic
+SDL_JoystickName
+SDL_JoystickNameForIndex
+SDL_JoystickNumAxes
+SDL_JoystickNumBalls
+SDL_JoystickNumButtons
+SDL_JoystickNumHats
+SDL_JoystickOpen
+SDL_JoystickUpdate
+SDL_LoadBMP_RW
+SDL_LoadDollarTemplates
+SDL_LoadFunction
+SDL_LoadObject
+SDL_LoadWAV_RW
+SDL_LockAudio
+SDL_LockAudioDevice
+SDL_LockMutex
+SDL_LockSurface
+SDL_LockTexture
+SDL_LockTexture(): texture must be streaming
+SDL_Log
+SDL_LogCritical
+SDL_LogDebug
+SDL_LogError
+SDL_LogGetOutputFunction
+SDL_LogGetPriority
+SDL_LogInfo
+SDL_LogMessage
+SDL_LogMessageV
+SDL_LogResetPriorities
+SDL_LogSetAllPriority
+SDL_LogSetOutputFunction
+SDL_LogSetPriority
+SDL_LogVerbose
+SDL_LogWarn
+SDL_LowerBlit
+SDL_LowerBlitScaled
+SDL_MOUSE_RELATIVE_MODE_WARP
+SDL_MapRGB
+SDL_MapRGBA
+SDL_MasksToPixelFormatEnum
+SDL_MaximizeWindow
+SDL_MinimizeWindow
+SDL_MixAudio
+SDL_MixAudio(): unknown audio format
+SDL_MixAudioFormat
+SDL_MouseIsHaptic
+SDL_NO_SIGNAL_HANDLERS
+SDL_NumHaptics
+SDL_NumJoysticks
+SDL_OPENGL_LIBRARY
+SDL_OpenAudio
+SDL_OpenAudioDevice
+SDL_PIXELFORMAT_ABGR1555
+SDL_PIXELFORMAT_ABGR4444
+SDL_PIXELFORMAT_ABGR8888
+SDL_PIXELFORMAT_ARGB1555
+SDL_PIXELFORMAT_ARGB2101010
+SDL_PIXELFORMAT_ARGB4444
+SDL_PIXELFORMAT_ARGB8888
+SDL_PIXELFORMAT_BGR24
+SDL_PIXELFORMAT_BGR555
+SDL_PIXELFORMAT_BGR565
+SDL_PIXELFORMAT_BGR888
+SDL_PIXELFORMAT_BGRA4444
+SDL_PIXELFORMAT_BGRA5551
+SDL_PIXELFORMAT_BGRA8888
+SDL_PIXELFORMAT_BGRX8888
+SDL_PIXELFORMAT_INDEX1LSB
+SDL_PIXELFORMAT_INDEX1MSB
+SDL_PIXELFORMAT_INDEX4LSB
+SDL_PIXELFORMAT_INDEX4MSB
+SDL_PIXELFORMAT_INDEX8
+SDL_PIXELFORMAT_IYUV
+SDL_PIXELFORMAT_NV12
+SDL_PIXELFORMAT_NV21
+SDL_PIXELFORMAT_RGB24
+SDL_PIXELFORMAT_RGB332
+SDL_PIXELFORMAT_RGB444
+SDL_PIXELFORMAT_RGB555
+SDL_PIXELFORMAT_RGB565
+SDL_PIXELFORMAT_RGB888
+SDL_PIXELFORMAT_RGBA4444
+SDL_PIXELFORMAT_RGBA5551
+SDL_PIXELFORMAT_RGBA8888
+SDL_PIXELFORMAT_RGBX8888
+SDL_PIXELFORMAT_UNKNOWN
+SDL_PIXELFORMAT_UYVY
+SDL_PIXELFORMAT_YUY2
+SDL_PIXELFORMAT_YV12
+SDL_PIXELFORMAT_YVYU
+SDL_PauseAudio
+SDL_PauseAudioDevice
+SDL_PeepEvents
+SDL_PixelFormatEnumToMasks
+SDL_PollEvent
+SDL_PumpEvents
+SDL_PushEvent
+SDL_QueryTexture
+SDL_QueueAudio
+SDL_Quit
+SDL_QuitSubSystem
+SDL_RENDER_DIRECT3D_THREADSAFE
+SDL_RENDER_DRIVER
+SDL_RENDER_OPENGL_SHADERS
+SDL_RENDER_SCALE_QUALITY
+SDL_RENDER_VSYNC
+SDL_RWFromConstMem
+SDL_RWFromFP
+SDL_RWFromFile
+SDL_RWFromFile(): No file or no mode specified
+SDL_RWFromMem
+SDL_RaiseWindow
+SDL_ReadBE16
+SDL_ReadBE32
+SDL_ReadBE64
+SDL_ReadLE16
+SDL_ReadLE32
+SDL_ReadLE64
+SDL_ReadU8
+SDL_RecordGesture
+SDL_RegisterApp
+SDL_RegisterEvents
+SDL_RemoveTimer
+SDL_RenderClear
+SDL_RenderCopy
+SDL_RenderCopyEx
+SDL_RenderDrawLine
+SDL_RenderDrawLines
+SDL_RenderDrawLines(): Passed NULL points
+SDL_RenderDrawPoint
+SDL_RenderDrawPoints
+SDL_RenderDrawPoints(): Passed NULL points
+SDL_RenderDrawRect
+SDL_RenderDrawRects
+SDL_RenderDrawRects(): Passed NULL rects
+SDL_RenderFillRect
+SDL_RenderFillRects
+SDL_RenderFillRects(): Passed NULL rects
+SDL_RenderGetClipRect
+SDL_RenderGetD3D9Device
+SDL_RenderGetLogicalSize
+SDL_RenderGetScale
+SDL_RenderGetViewport
+SDL_RenderIsClipEnabled
+SDL_RenderPresent
+SDL_RenderReadPixels
+SDL_RenderSetClipRect
+SDL_RenderSetLogicalSize
+SDL_RenderSetScale
+SDL_RenderSetViewport
+SDL_RenderTargetSupported
+SDL_ReportAssertion
+SDL_ResetAssertionReport
+SDL_RestoreWindow
+SDL_SaveAllDollarTemplates
+SDL_SaveBMP_RW
+SDL_SaveDollarTemplate
+SDL_SemPost
+SDL_SemTryWait
+SDL_SemValue
+SDL_SemWait
+SDL_SemWaitTimeout
+SDL_SetAssertionHandler
+SDL_SetClipRect
+SDL_SetClipboardText
+SDL_SetColorKey
+SDL_SetCursor
+SDL_SetError
+SDL_SetEventFilter
+SDL_SetHint
+SDL_SetHintWithPriority
+SDL_SetMainReady
+SDL_SetModState
+SDL_SetPaletteColors
+SDL_SetPixelFormatPalette
+SDL_SetPixelFormatPalette() passed NULL format
+SDL_SetPixelFormatPalette() passed a palette that doesn't match the format
+SDL_SetRelativeMouseMode
+SDL_SetRenderDrawBlendMode
+SDL_SetRenderDrawColor
+SDL_SetRenderTarget
+SDL_SetSurfaceAlphaMod
+SDL_SetSurfaceBlendMode
+SDL_SetSurfaceColorMod
+SDL_SetSurfacePalette
+SDL_SetSurfacePalette() passed a NULL surface
+SDL_SetSurfaceRLE
+SDL_SetTextInputRect
+SDL_SetTextureAlphaMod
+SDL_SetTextureBlendMode
+SDL_SetTextureColorMod
+SDL_SetThreadPriority
+SDL_SetWindowBordered
+SDL_SetWindowBrightness
+SDL_SetWindowData
+SDL_SetWindowDisplayMode
+SDL_SetWindowFullscreen
+SDL_SetWindowGammaRamp
+SDL_SetWindowGrab
+SDL_SetWindowHitTest
+SDL_SetWindowIcon
+SDL_SetWindowMaximumSize
+SDL_SetWindowMinimumSize
+SDL_SetWindowPosition
+SDL_SetWindowShape
+SDL_SetWindowSize
+SDL_SetWindowTitle
+SDL_SetWindowsMessageHook
+SDL_ShowCursor
+SDL_ShowMessageBox
+SDL_ShowSimpleMessageBox
+SDL_ShowWindow
+SDL_SoftStretch
+SDL_StartTextInput
+SDL_StopTextInput
+SDL_TIMER_RESOLUTION
+SDL_TLSCreate
+SDL_TLSGet
+SDL_TLSSet
+SDL_ThreadID
+SDL_TryLockMutex
+SDL_UnionRect
+SDL_UnloadObject
+SDL_UnlockAudio
+SDL_UnlockAudioDevice
+SDL_UnlockMutex
+SDL_UnlockSurface
+SDL_UnlockTexture
+SDL_UnregisterApp
+SDL_UpdateTexture
+SDL_UpdateWindowSurface
+SDL_UpdateWindowSurfaceRects
+SDL_UpdateYUVTexture
+SDL_UpperBlit
+SDL_UpperBlit: passed a NULL surface
+SDL_UpperBlitScaled
+SDL_UpperBlitScaled: passed a NULL surface
+SDL_VIDEODRIVER
+SDL_VIDEO_ALLOW_SCREENSAVER
+SDL_VIDEO_DUMMY_SAVE_FRAMES
+SDL_VIDEO_EGL_DRIVER
+SDL_VIDEO_GL_DRIVER
+SDL_VIDEO_HIGHDPI_DISABLED
+SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS
+SDL_VIDEO_WINDOW_SHARE_PIXEL_FORMAT
+SDL_VIDEO_WIN_D3DCOMPILER
+SDL_VideoInit
+SDL_VideoQuit
+SDL_WINDOWS_ENABLE_MESSAGELOOP
+SDL_WINDOWS_NO_CLOSE_ON_ALT_F4
+SDL_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN
+SDL_WaitEvent
+SDL_WaitEventTimeout
+SDL_WaitThread
+SDL_WarpMouseGlobal
+SDL_WarpMouseInWindow
+SDL_WasInit
+SDL_WriteBE16
+SDL_WriteBE32
+SDL_WriteBE64
+SDL_WriteLE16
+SDL_WriteLE32
+SDL_WriteLE64
+SDL_WriteU8
+SDL_XINPUT_ENABLED
+SDL_XINPUT_USE_OLD_JOYSTICK_MAPPING
+SDL_abs
+SDL_acos
+SDL_app
+SDL_asin
+SDL_atan
+SDL_atan2
+SDL_atof
+SDL_atoi
+SDL_calloc
+SDL_ceil
+SDL_copysign
+SDL_cos
+SDL_cosf
+SDL_fabs
+SDL_floor
+SDL_free
+SDL_getenv
+SDL_iconv
+SDL_iconv_close
+SDL_iconv_open
+SDL_iconv_string
+SDL_isdigit
+SDL_isspace
+SDL_itoa
+SDL_joystick
+SDL_lltoa
+SDL_log
+SDL_ltoa
+SDL_malloc
+SDL_memcmp
+SDL_memcpy
+SDL_memmove
+SDL_memset
+SDL_pow
+SDL_qsort
+SDL_realloc
+SDL_scalbn
+SDL_setenv
+SDL_sin
+SDL_sinf
+SDL_snprintf
+SDL_sqrt
+SDL_sqrtf
+SDL_sscanf
+SDL_strcasecmp
+SDL_strchr
+SDL_strcmp
+SDL_strdup
+SDL_strlcat
+SDL_strlcpy
+SDL_strlen
+SDL_strlwr
+SDL_strncasecmp
+SDL_strncmp
+SDL_strrchr
+SDL_strrev
+SDL_strstr
+SDL_strtod
+SDL_strtol
+SDL_strtoll
+SDL_strtoul
+SDL_strtoull
+SDL_strupr
+SDL_tan
+SDL_tanf
+SDL_tolower
+SDL_toupper
+SDL_uitoa
+SDL_ulltoa
+SDL_ultoa
+SDL_utf8strlcpy
+SDL_vsnprintf
+SDL_vsscanf
+SDL_wcslcat
+SDL_wcslcpy
+SDL_wcslen
+SDL_window%d-%8.8d.bmp
+SHCORE.DLL
+SHELL32.dll
+SHGetFolderPathW
+SVWP3
+SVWjl
+SVWus
+SWQh@
+SWjrV
+ScreenToClient
+ScrollLock
+Select
+SelectObject
+SendMessageW
+Separator
+SetClipboardData
+SetCursor
+SetCursorPos
+SetDeviceGammaRamp
+SetDeviceGammaRamp()
+SetEnvironmentVariableA
+SetErrorMode
+SetFilePointer
+SetFilePointerEx
+SetPixelFormat
+SetPixelFormat()
+SetProp() failed
+SetPropW
+SetRenderTarget()
+SetScissor()
+SetShader()
+SetTexture()
+SetThreadPriority
+SetThreadPriority()
+SetWindowLongW
+SetWindowPos
+SetWindowRgn
+SetWindowTextW
+Setting autocenter
+Setting cooperative level to exclusive
+Setting data format
+Setting gain
+Setting the swap interval is not supported
+ShowReadingWindow
+ShowWindow
+Sleep
+Software renderer doesn't have an output surface
+Sound buffer size must be between %d and %d
+Source or destination channels is zero
+Source or destination rate is zero
+Space
+Stopping the device
+Surfaces must not be locked during blit
+SwapBuffers
+SysReq
+System audio capture device
+System audio output device
+SystemParametersInfoA
+SystemParametersInfoW
+T7TQRS
+T< tP<,u3
+TINTLGNT.IME
+TOOMANYOPERATIONS
+Texture dimensions are limited to %dx%d
+Texture dimensions can't be 0
+Texture format %s not supported by OpenGL
+Texture format must by YV12 or IYUV
+Texture format not supported
+Texture is not currently available
+Texture not created with SDL_TEXTUREACCESS_TARGET
+Texture was not created with this renderer
+That operation is not supported
+The event system has been shut down
+The specified shader cannot be loaded on the current platform
+The specified window has not been made current
+The specified window isn't an OpenGL window
+The video driver did not add any displays
+There are %d joysticks available
+ThousandsSeparator
+TlsAlloc
+TlsGetValue
+TlsSetValue
+TlsSetValue() failed
+Too many open audio devices
+TrackMouseEvent
+TranslateMessage
+Tried to read outside of surface bounds
+TryEnterCriticalSection
+U(Pj 
+U16LSB
+U16MSB
+U16SYS
+UCS-2
+UCS-2-INTERNAL
+UCS-2BE
+UCS-2LE
+UCS-4
+UCS-4-INTERNAL
+UCS-4BE
+UCS-4LE
+UNKNOWN
+UNSUPPORTEDALPHAARG
+UNSUPPORTEDALPHAOPERATION
+UNSUPPORTEDCOLORARG
+UNSUPPORTEDCOLOROPERATION
+UNSUPPORTEDFACTORVALUE
+UNSUPPORTEDTEXTUREFILTER
+US-ASCII
+USER32.DLL
+USER32.dll
+UTF-16
+UTF-16BE
+UTF-16LE
+UTF-32
+UTF-32BE
+UTF-32LE
+UTF-8
+UTF16
+UTF16BE
+UTF16LE
+UTF32
+UTF32BE
+UTF32LE
+UUUUU
+UYVYt
+UYVYtw
+Unable to create DIB
+Unable to create DXGI interface
+Unable to create Direct3D interface
+Unable to create Helper Window
+Unable to create Helper Window Class
+Unable to create effect
+Unable to destroy Helper Window
+Unable to destroy Helper Window Class
+Unable to lock destination surface
+Unable to make EGL context current
+Unable to stop effect
+Unable to update effect
+Unknown
+Unknown %d-bit PCM data format
+Unknown FOURCC pixel format
+Unknown OpenGL attribute
+Unknown OpenGL context flag %d
+Unknown OpenGL context profile %d
+Unknown SDL error
+Unknown WAVE data format: 0x%.4x
+Unknown gestureId
+Unknown pixel format
+Unknown reason
+Unknown set of MS_ADPCM coefficients
+Unknown texture format
+Unknown touch device
+Unknown touch finger
+Unknown value for 'whence'
+UnlockRect()
+Unrecognized file type (not WAVE)
+UnregisterClassW
+UnregisterDeviceNotification
+Unsupported YUV destination format
+Unsupported YUV format in copy
+Unsupported audio format
+Unsupported interface -- Is DirectX 8.0 or later installed?
+Unsupported number of audio channels.
+Unsupported texture format
+UpdateTexture()
+Upitch
+Uplane
+V<WSV
+V@WSV
+VDQWV
+VDSWV
+VERBOSE
+VERSION.dll
+VQPh,
+VSQPW
+VWPh<
+VWh$|
+ValidateRect
+VdRVQ
+VerQueryValueA
+VerSetConditionMask
+VerifyVersionInfoW
+Video driver doesn't support changing display mode
+Video subsystem has not been initialized
+Video subsystem must be initialized to check clipboard text
+Video subsystem must be initialized to get clipboard text
+Video subsystem must be initialized to set clipboard text
+VirtualAlloc
+VirtualFree
+VirtualQuery
+VolumeDown
+VolumeUp
+Vpitch
+Vplane
+Vt4Ht!
+W(PSj
+WARNING: Ignoring SDL_GL_SetSwapInterval call due to ANGLE bug
+WASSTILLDRAWING
+WGL_ARB_context_flush_control
+WGL_ARB_pixel_format
+WGL_EXT_create_context_es2_profile
+WGL_EXT_swap_control
+WGL_EXT_swap_control_tear
+WINMM.dll
+WRONGTEXTUREFORMAT
+WSPQV
+WVPSR
+WaitForSingleObject
+WaitForSingleObject() failed
+WideCharToMultiByte
+Window is too large.
+Window surface is invalid, please call SDL_GetWindowSurface() to get a new surface
+WindowFromPoint
+Windows
+Windows Waveform Audio
+WriteConsoleW
+WriteFile
+X-Box
+X0\0`0d0
+X360 Controller #%u
+XAudio2
+XAudio2: SDL was built without XAudio2 support (old DirectX SDK).
+XInput ArcadePad #%u
+XInput ArcadeStick #%u
+XInput Controller #%u
+XInput DancePad #%u
+XInput Device #%u
+XInput DrumKit #%u
+XInput FlightStick #%u
+XInput Guitar #%u
+XInput Wheel #%u
+XInputGetBatteryInformation
+XInputGetCapabilities
+XInputGetState
+XInputSetState
+YUY2t
+YUY2w
+YV12 and IYUV textures only support full surface locks
+YV12t
+YV12t,
+YV12tL
+YV12u
+YVYUt
+YVYUt$
+YVYUto
+YVYUu
+YVYUw
+Ypitch
+Yplane
+[1a1g1
+\SVWj
+^\SPWR
+_SDL_DummySurface
+_SDL_WindowRenderData
+_SDL_WindowTextureData
+_[=YVYUw
+_^t	P
+_^t	S
+_tD=|
+`.rdata
+`ff9@No displays available
+a_angle
+a_center
+a_position
+a_texCoord
+abort
+adapterIndex
+always_ignore
+bextt
+break
+c:\buildslave\sdl_win32\build\dev\VisualC\Win32\Release\SDL2.pdb
+callback
+const vec3 Bcoeff = vec3(1.164,  2.018,  0.000);
+const vec3 Gcoeff = vec3(1.164, -0.391, -0.813);
+const vec3 Rcoeff = vec3(1.164,  0.000,  1.596);
+const vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);
+could not read any dollar gesture from rwops
+count
+d3dcompiler_43.dll
+d3dcompiler_46.dll
+dNtsq
+direct-to-disk audio
+direct3d
+directsound
+displayIndex must be in the range 0 - %d
+dpdown
+dpleft
+dpright
+dst_pitch
+dummy
+e2m2x2
+e8206058000000000000504944564944,Cideko AK08b,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+eFlv!@r
+eglBindAPI
+eglChooseConfig
+eglCreateContext
+eglCreateWindowSurface
+eglDestroyContext
+eglDestroySurface
+eglGetConfigAttrib
+eglGetDisplay
+eglGetProcAddress
+eglInitialize
+eglMakeCurrent
+eglQueryString
+eglSwapBuffers
+eglSwapInterval
+eglTerminate
+eglWaitGL
+eglWaitNative
+emscripten
+f9TC@u3@;
+f;<pt%
+f;<q}
+factt
+ffff0000000000000000504944564944,GameStop Gamepad,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+fmt t
+format
+gamma
+generic
+given touch id not found
+glActiveTexture
+glActiveTextureARB
+glAttachObjectARB
+glAttachShader
+glBegin
+glBindAttribLocation
+glBindBuffer
+glBindFramebuffer
+glBindFramebufferEXT
+glBindTexture
+glBlendFunc
+glBlendFuncSeparate
+glBufferData
+glCheckFramebufferStatus
+glCheckFramebufferStatusEXT
+glClear
+glClearColor
+glColor3fv
+glColor4f
+glCompileShader
+glCompileShaderARB
+glCreateProgram
+glCreateProgramObjectARB
+glCreateShader
+glCreateShaderObjectARB
+glDebugMessageCallbackARB
+glDeleteFramebuffers
+glDeleteFramebuffersEXT
+glDeleteObjectARB
+glDeleteProgram
+glDeleteShader
+glDeleteTextures
+glDepthFunc
+glDisable
+glDisableVertexAttribArray
+glDrawArrays
+glDrawPixels
+glEnable
+glEnableVertexAttribArray
+glEnd
+glFinish
+glFramebufferTexture2D
+glFramebufferTexture2D() failed
+glFramebufferTexture2DEXT
+glFramebufferTexture2DEXT() failed
+glGenBuffers
+glGenFramebuffers
+glGenFramebuffersEXT
+glGenTextures
+glGenTextures()
+glGenTexures()
+glGetAttribLocation
+glGetBooleanv
+glGetError
+glGetFramebufferAttachmentParameteriv
+glGetInfoLogARB
+glGetIntegerv
+glGetObjectParameterivARB
+glGetPointerv
+glGetProgramInfoLog
+glGetProgramiv
+glGetShaderInfoLog
+glGetShaderiv
+glGetString
+glGetStringi
+glGetUniformLocation
+glGetUniformLocationARB
+glLineWidth
+glLinkProgram
+glLinkProgramARB
+glLoadIdentity
+glMatrixMode
+glOrtho
+glPixelStorei
+glPointSize
+glPopMatrix
+glPushMatrix
+glRasterPos2i
+glReadBuffer
+glReadPixels
+glReadPixels()
+glRectf
+glRotated
+glRotatef
+glScissor
+glShadeModel
+glShaderBinary
+glShaderSource
+glShaderSourceARB
+glTexCoord2f
+glTexEnvf
+glTexImage2D
+glTexImage2D()
+glTexParameteri
+glTexSubImage2D
+glTexSubImage2D()
+glTranslatef
+glUniform1fARB
+glUniform1i
+glUniform1iARB
+glUniform4f
+glUniformMatrix4fv
+glUseProgram
+glUseProgramObjectARB
+glVertex2f
+glVertex3fv
+glVertexAttribPointer
+glViewport
+guide
+height
+hg-0:aaaaaaaaaaah
+ignore
+imm32.dll
+index must be -1 or in the range of 0 - %d
+index must be in the range of 0 - %d
+j(WSQ
+leftshoulder
+leftstick
+lefttrigger
+leftx
+lefty
+libEGL.dll
+libGLES_CM.dll
+libGLESv1_CM.dll
+libGLESv2.dll
+lstrcatW
+lstrlenW
+mappingString
+max_h
+max_w
+messageboxdata
+min_h
+min_w
+n5Failed to create notify device for joystick autodetect
+ncolors
+nearest
+nmP:F
+no gesture touch devices registered
+numrects
+ole32.dll
+opengl
+opengles2
+outputIndex
+p?ramp
+p@ERROR: NumPoints = %i
+pH[_3
+palette
+pitch
+pixels
+platform:
+points
+rects
+result
+retry
+ri7f>
+rightshoulder
+rightstick
+righttrigger
+rightx
+righty
+scancode
+sdlaudio.raw
+software
+start
+surface
+t	[_3
+t	^_3
+t!=NV21t`P
+t!Iuc
+t#=#0
+t#=YUY2t
+t#Ht	_^3
+t$=YV12t5=YUY2t
+t+hpz
+t-=YV12
+t4Ht!
+t:9=L
+t>9~(t
+t@Ht&H
+tAHt HuM
+tB;P`t8
+tBHt+Ht
+tC;~du	P
+tCHt'
+tCHt:Ht
+tCNt#N
+tFHt)H
+tIYUV
+tJWVS
+tNV12
+tNV21
+tQj=V
+tU=$0
+tWHt;Ht
+tWVjP
+tWVjT
+tYHt9Ht
+tYV12
+t_^[]
+ta<:u
+taVWS
+tex%d
+tgF;u
+timeBeginPeriod
+timeEndPeriod
+timeGetTime
+times
+toJtB
+trh`'
+tzSWj
+u	[_3
+u	^[3
+u	^_3
+u	_^3
+u"_^[]
+u,ht)
+u6jpj
+uI_^3
+uJhL)
+u_color
+u_modulation
+u_projection
+u_texture
+u_texture_u
+u_texture_v
+ug_^3
+ujSVW
+uniform sampler2D tex0;
+uniform sampler2D tex0; // Y 
+uniform sampler2D tex1; // U 
+uniform sampler2D tex1; // U/V 
+uniform sampler2D tex2; // V 
+uw^_3
+v	N+D$
+v49VDt	V
+v49~Dt	V
+v@GLES2_RenderReadPixels
+varying vec2 v_texCoord;
+varying vec4 v_color;
+void main()
+w#t(=
+w)t =
+wKtB=
+waveInClose
+waveInGetDevCapsW
+waveInGetNumDevs
+waveInOpen
+waveOutClose
+waveOutGetDevCapsW
+waveOutGetErrorTextW
+waveOutGetNumDevs
+waveOutOpen
+waveOutOpen()
+waveOutPrepareHeader
+waveOutPrepareHeader()
+waveOutUnprepareHeader
+waveOutWrite
+wglChoosePixelFormatARB
+wglCreateContext
+wglCreateContextAttribsARB
+wglDeleteContext
+wglGetExtensionsStringARB
+wglGetPixelFormatAttribivARB
+wglGetProcAddress
+wglGetSwapIntervalEXT
+wglMakeCurrent
+wglMakeCurrent()
+wglShareLists
+wglSwapIntervalEXT
+wglSwapIntervalEXT()
+width
+windows
+windows_file_seek
+windows_file_seek: Unknown value for 'whence'
+windows_file_seek: invalid context/file not opened
+windows_file_size
+windows_file_size: invalid context/file not opened
+winmm
+xZj<j
+xaudio2
+xinpf
+xinput
+xinput,XInput Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,
+|$;w,u
+|2hXz
+}h><PE
+~$9~ t
+~d9=8

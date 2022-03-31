@@ -1,0 +1,1361 @@
+					
+							
+												
+																			
+																									
+																												
+																																												
+	!s99
+	<bu 
+	@81t/@8q
+ !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
+ -SERVICE_EXPLORE
+ A^A]A\^]
+ A^^[
+ A^_^
+ A_A\[
+ A_A]A\
+ A_A]A\_[
+ A_A^A\
+ A_A^A]A\_
+ A_A^]
+ A_A^_
+ A_A^_^]
+ A_^[
+ A__[
+ A__^
+ Error:
+ H3E H3E
+ for detail.
+ inflate 1.1.3 Copyright 1995-1998 Mark Adler 
+ t;A;
+%%.%dg
+%2.2X
+%8.8X
+%s setup error from %s
+%s: %s
+%s: ( %d ): ReadFile failed! (%s)
+%s: ( %d ): Unknown pipe type.
+%s: ( %d ): unexpected data size, expected %lu, got %lu 
+%s: (%d) Pipe type unknown.
+%s: (%d) completed.
+%s: BS1_ProcessCommand( MSG_SCAN ) for serial number %08X failed! (error:%d)
+%s: Cannot find firmware '%s'
+%s: Client Pipe (%d) init Failed!
+%s: Client Pipe (%d) init Success.
+%s: Client Pipe (%d) not available. Retry in %d milliseconds.
+%s: CreateFile( %s ) failed! (%s)
+%s: CreateFile( %s ) success.
+%s: CreateFile( %s ) timeout. Attempts: %d
+%s: Empty driver log '%s'
+%s: End of scanning, %d filtered
+%s: Failed in state: %d (vl2_error: %s)
+%s: Failed to open driver log '%s'
+%s: Failed to resolve LinkBox Device Address.
+%s: Failed, missing vivelink working directory.
+%s: Found %4.4X
+%s: Found LinkBox Device Address %llX
+%s: Init Failure.
+%s: Init Success.
+%s: Invalid VL2 handles.
+%s: Missing nonce.
+%s: Missing path to firmware.
+%s: ReadFile failed! (%s)
+%s: Receive %s from %08X : %u (%s)
+%s: Receive result: %s
+%s: Rejected %4.4X
+%s: Response: %s
+%s: Send %s to %08X
+%s: Send command: %s (length:%d, send_bytes:%d)
+%s: SetNamedPipeHandleState() failed! (%s)
+%s: Stop Scanning. All scan completion candidates found, %d filtered
+%s: System Not Initialized.
+%s: Timeout.
+%s: Unknown component type %d.
+%s: WriteFile failed! (%s)
+' is not a number.
+()$^.*+?[]|\-{},:=!
+(9Q|uWH
+(::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
+(ADDR:)([0-9A-F]{12})
+(A^A]^[
+(A_A^^[
+(A_A^_]
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
+(HANDLE:)([0-9A-F]{4})
+(HANDLE:)([0-9A-F]{4})(-)([0-9A-F]{4})
+(HANDLE:)([0-9A-F]{4})\s([0-9A-F]*)
+(MFG:)("(.*?)")
+(MTU:)([0-9A-F]{2})
+(NAME:)("(.*?)")
+(R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
+(RSSI:)(-?[0-9]{0,3})
+(UUID128:)([0-9A-F]{32})
+(UUID16:)([0-9A-F]{4})
+([0-9A-F]{12})
+([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
+(t$@H
+(t$PA;
+(t$PH
+(t$`M
+)D$ L
+)t$@H
+)t$PA
+*uXI;
++9kdt	H
++o'q)}
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
+-1e+9999
+-ADDR %s
+-Infinity
+-NAME "%s"
+-btdriverver
+-start
+-status
+-stop
+-u-I;
+-version
+.00cfg
+.?AU_Crt_new_delete@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
+.?AV?$_Node_str@D@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$collate@D@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCHTCViveLinkClient@@
+.?AVException@Json@@
+.?AVIBaseStationWireless@@
+.?AVLogicError@Json@@
+.?AVRuntimeError@Json@@
+.?AV_Facet_base@std@@
+.?AV_Node_assert@std@@
+.?AV_Node_back@std@@
+.?AV_Node_base@std@@
+.?AV_Node_capture@std@@
+.?AV_Node_end_group@std@@
+.?AV_Node_end_rep@std@@
+.?AV_Node_endif@std@@
+.?AV_Node_if@std@@
+.?AV_Node_rep@std@@
+.?AV_Root_node@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+/f /s
+000015231212EFDE1523785FEABCD124
+000015241212EFDE1523785FEABCD124
+000015251212EFDE1523785FEABCD124
+000084211212EFDE1523785FEABCD124
+0A^_^
+0A_A^A\_^
+0A_A^A]A\_^[
+0A_A^A]A\_^]
+0A_A^A]_^
+0A_A^[
+0A_A^_^[
+0A__[
+0A__^
+0L;w(
+0}0i1
+130801120000Z
+160107120000Z
+1e+9999
+210101000000Z
+210429000000Z
+211007000000Z
+220330231454Z0/
+241009235959Z0a1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+310106000000Z0H1
+310107120000Z0r1
+3333333
+360428235959Z0i1
+380115120000Z0b1
+3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6*f(_
+666666666666666666666666666666666666666666666666666666666666
+6I]Dc
+6OB,n_
+70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8EC90001F3154F609FB8838830DAEA50
+8EC90002F3154F609FB8838830DAEA50
+8EC90003F3154F609FB8838830DAEA50
+8L$4tMH
+8_^][
+8aMbF$
+9\u-H
+9\u4H
+9sdu	@8s
+:0806
+::LHB::%4.4X %s
+:\u-L
+:\u6L
+</u#H
+<0:08
+<= Exiting Context: (%.2f seconds)
+<Bu'H
+======================
+==============================
+=> Entering Context
+>"t H
+>"t-H
+>Mp$d
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??0_Locinfo@std@@QEAA@PEBD@Z
+??0_Lockit@std@@QEAA@H@Z
+??0facet@locale@std@@IEAA@_K@Z
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1_Locinfo@std@@QEAA@XZ
+??1_Lockit@std@@QEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getcoll@_Locinfo@std@@QEBA?AU_Collvec@@XZ
+?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_alloc@std@@YAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xinvalid_argument@std@@YAXPEBD@Z
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?id@?$collate@D@std@@2V0locale@2@A
+?id@?$ctype@D@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?tolower@?$ctype@D@std@@QEBADD@Z
+?tolower@?$ctype@D@std@@QEBAPEBDPEADPEBD@Z
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@.data
+@.reloc
+@81t)@8q
+@A^_^
+@A_A\_^]
+@A_A^A\
+@A_A^A\_^
+@A_A^A]A\_^[
+@A_A^_^[
+@LcqHD
+@SATAWH
+@SAUAVAWH
+@SAVAWH
+@SAVH
+@SUATAUAWH
+@SUVATAUAVAWH
+@SUVATH
+@SUVAWH
+@SVAUAVH
+@SVAVAWH
+@SVAVH
+@SVAWH
+@SVWATAWH
+@SVWATH
+@SVWH
+@SWATAUAWH
+@SWAWH
+@UATAUAVAWH
+@USATAWH
+@USVATAVH
+@USVATAWH
+@USVH
+@USVWAUH
+@USVWAWH
+@USWATAUH
+@USWATAWH
+@USWAVH
+@UVATAUAVH
+@UVWATAWH
+@UWAVAWH
+@UWAVH
+@WAVAWH
+A valid JSON document must be either an array or an object value.
+A;A A
+A]A\_[]
+A]A\_]
+A]A\_^]
+A]_^[]
+A^A\^
+A^A\^[]
+A^A\_^]
+A^A]A\_[]
+A^A]A\_]
+A^A]A\_^[]
+A^A]]
+A^_[]
+A_A\[]
+A_A\^[]
+A_A\_[]
+A_A\_]
+A_A\_^[
+A_A\_^]
+A_A]A\][
+A_A]A\^[]
+A_A^A\
+A_A^A\^]
+A_A^A\_]
+A_A^A\_^
+A_A^A]A\]
+A_A^A]A\^][
+A_A^A]A\_
+A_A^A]A\_^[
+A_A^A]A\_^]
+A_A^A][
+A_A^[
+A_A^]
+A_A^_
+A_A^_^]
+A__^[]
+Address:  %s
+AuthD
+Authentication
+BDFU Post
+BS1_MSG_EXTEND_TIMEOUT
+BS1_MSG_FOTA_STAT
+BS1_MSG_IDENTIFY
+BS1_MSG_INIT
+BS1_MSG_INVALID
+BS1_MSG_NEVER_TIMEOUT
+BS1_MSG_SCAN
+BS1_MSG_SCAN_AND_IDENTIFY
+BS1_MSG_SCAN_FULL_BS
+BS1_MSG_SHUTDOWN
+BS1_MSG_UPDATE_SN
+BS1_MSG_WAKE_UP
+BS1_PerformDFU
+BS1_ProcessCommand
+BS1_RSP_BS_DEVICE_ERROR
+BS1_RSP_BS_NOT_FOUND
+BS1_RSP_BS_PROBE_NOT_READY
+BS1_RSP_CB_DEVICE_ERROR
+BS1_RSP_CB_NOT_FOUND
+BS1_RSP_FOTA_PROCESSING
+BS1_RSP_MESSAGE_INVALID
+BS1_RSP_SUCCESS
+BS1_RSP_VERSION_INVALID
+BS_Scan
+BTManagerService*.txt
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Bellevue1
+Bluetooth Link Version: %s
+Bluetooth Link communication initialize (%s) (%.2f seconds)
+Bluetooth Link communication initialize.
+Bluetooth Link not found: %s
+Bluetooth Link shutdown (%.2f seconds)
+Bluetooth Link was not able to start. (Status: %d, Error %s)
+Bluetooth service shutdown.
+Bootloader Mode
+C$9C w
+C(I9F(
+C0L9$
+CD$(H
+CD$0D
+CD$0H
+CD$0J
+CD$0L
+CD$hL
+CD$p3
+CHARS -S %4.4X -E %4.4X
+CL$0H
+CL$H3
+CL$PH
+CL$XH
+CL$pH
+CMD=BASE_STATION_BS_BLE_FOTA
+CMD=BASE_STATION_BS_MCU_FOTA
+CONNECT -ADDR_TYPE %s -SV_TO 190 -CON_MIN 6 -CON_MAX 6 -T %X %s
+CT$ H
+CT$(L
+CT$0H
+CT$8H
+CT$HH
+CT$HL
+CT$PL
+CT$XH
+CT$pH
+C\$03
+C\$0H
+C\$0L
+C\$HL
+C\$HM
+C\$PH
+C\$PL
+C\$XH
+C\$XM
+C\$pH
+C\$pL
+C\$pM
+Caller: additions to the zip have already been ended
+Caller: can only get memory of a memory zipfile
+Caller: faulty arguments
+Caller: mixing creation and opening of zip
+Caller: not enough space allocated for memory zipfile
+Caller: the file had already been partially unzipped
+Caller: there was a previous error
+Can not open file to determine Bluetooth Link status (%s)
+Can not open file to determine Bluetooth driver version (%s)
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+Cl$ M
+Cl$0H
+CloseHandle
+Cntdll.dll
+Completed. Transfer took %.2f seconds.
+Continue
+Could not determine Bluetooth Link status from %s.
+Couldn't create/open file
+CreateDirectoryA
+CreateEventA
+CreateEventW
+CreateFileA
+CreatePipe
+CreateProcessA
+Ct$P3
+Ct$PL
+Ct$pL
+Culdn't duplicate handle
+Cx<au
+Cx<bu
+Cx<cuW
+Cx<fu
+CxL9 u
+C|$0H
+C|$8H
+D$ A;
+D$ E3
+D$(H;
+D$0H+
+D$0H;
+D$8H+
+D$8H9D$@t
+D$8L;
+D$@</t
+D$@E3
+D$@H;
+D$@I;
+D$HE3
+D$HL9|$Xu
+D$HL;
+D$PH;
+D$PL;
+D$PL;u(
+D$XA+
+D$XH;
+D$`H;
+D$`I;
+D$`fI
+D$hL9 u-L
+D$hL;
+D$pH;
+D$xH;
+D848u
+D9\$ u
+D9egt
+D;l$0
+D;v sWH
+DESCS -S %4.4X -E %4.4X
+DFU_EXT_ERROR_FW_VERSION_FAILURE
+DFU_EXT_ERROR_HASH_FAILED
+DFU_EXT_ERROR_HW_VERSION_FAILURE
+DFU_EXT_ERROR_INIT_COMMAND_INVALID
+DFU_EXT_ERROR_INSUFFICIENT_SPACE
+DFU_EXT_ERROR_INVALID_ERROR_CODE
+DFU_EXT_ERROR_NO_ERROR
+DFU_EXT_ERROR_SD_VERSION_FAILURE
+DFU_EXT_ERROR_SIGNATURE_MISSING
+DFU_EXT_ERROR_UNKNOWN_COMMAND
+DFU_EXT_ERROR_VERIFICATION_FAILED
+DFU_EXT_ERROR_WRONG_COMMAND_FORMAT
+DFU_EXT_ERROR_WRONG_HASH_TYPE
+DFU_EXT_ERROR_WRONG_SIGNATURE_TYPE
+DFU_OBJECT_COMMAND
+DFU_OBJECT_FIRMWARE
+DFU_OBJECT_NONE
+DFU_OPCODE_CALCULATE_CRC
+DFU_OPCODE_CREATE
+DFU_OPCODE_EXECUTE
+DFU_OPCODE_RESPONSE
+DFU_OPCODE_SELECT
+DFU_OPCODE_SET_PRN
+DFU_RESPONSE_EXTENDED_ERROR
+DFU_RESPONSE_INSUFFICIENT_RESOURCES
+DFU_RESPONSE_INVALID
+DFU_RESPONSE_INVALID_OBJECT
+DFU_RESPONSE_INVALID_PARAMETER
+DFU_RESPONSE_OPCODE_NOT_SUPPORTED
+DFU_RESPONSE_OPERATION_FAILED
+DFU_RESPONSE_OPERATION_NOT_PERMITTED
+DFU_RESPONSE_SUCCESS
+DFU_RESPONSE_UNSUPPORTED_TYPE
+DISCONNECT
+DeleteCriticalSection
+DeleteFileW
+DigiCert Assured ID Root CA0
+DigiCert Inc1
+DigiCert Timestamp 20210
+DigiCert Trusted Root G40
+DigiCert, Inc.1 0
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+DisconnectNamedPipe
+DosDateTimeToFileTime
+Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
+Driver version: %s
+DuplicateHandle
+E9e ~7I
+Empty escape sequence in string
+EnterCriticalSection
+Error reading file
+Error writing to file
+ExM;n0I
+Exceeded stackLimit in readValue().
+Execute '%s %s' failed (Error:%d)
+Execute Elevated '%s %s' failed (Error:%d)
+Existing Bootloader mode.
+Extended Error: %s, %s
+Failed
+Failed to allocate memory
+Failed to open DFU zip file '%s'
+Failed.
+Failed. Base needs power cycle.
+File not found in the zipfile
+FindClose
+FindFirstFileW
+FindNextFileW
+Firmware: %s
+FormatMessageA
+Found: %s, size: %d
+G(H9C(
+G(H;C(
+G@9E0t
+GD9E0t
+GH9E0t
+GXA_A^A]A\_^]
+GetCurrentDirectoryA
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetExitCodeProcess
+GetFileAttributesW
+GetFileType
+GetLastError
+GetModuleFileNameW
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+GetTickCount64
+GetVersionExA
+H!C@H
+H+SpI
+H+WpA
+H+WpH
+H+WpI
+H9Ahs
+H9D$@u
+H9D$x
+H9Qhv#H
+H9\$`u+H
+H9u8v/ff
+H;0u8H
+H;9u|A
+H;Cxu
+H;G(|
+H;HPu	
+H;KPu	
+H;OPu	
+H;^Ht
+H;^Pu	H
+HA_A^A]A\_^][
+HA_^][
+HTC BS
+HcMxI
+I0G08
+I9Bhs
+I;4$L
+I@H9k8u
+Infinity
+InitLinkToService
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Invalid address %s.
+Invalid nonce %d
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J>@G_
+K32EnumProcessModules
+K32EnumProcesses
+K32GetModuleBaseNameA
+K32GetProcessImageFileNameA
+KERNEL32.dll
+K}*n:	
+L$ H;
+L$ L;
+L$ SH
+L$ SUVWH
+L$ SVWH
+L$ USWATAUAVH
+L$ UVWATAUAVAWH
+L$ UWATAUAVH
+L$(H;
+L$(I;
+L$0E3
+L$0H;
+L$@I;
+L$HL+
+L$HL9l$Hu
+L$XE3
+L$XI;
+L$`H+
+L$`L9t$`tW
+L$`t I
+L$pE3
+L+g@M
+L8(fA
+L9d$X
+L9|$p
+L9}gsBH
+L;8u6H
+L;M8r
+L;gHu
+L?n(Zy&
+LHB-DFU
+LeaveCriticalSection
+Line %d, Column %d
+Linkbox Not Connected
+LinkboxNotConnected
+Linux
+Linux 2.2
+Linux 2.4
+Linux 2.6
+Linux 3.10
+Linux 3.2
+Linux 3.5
+Linux 3.6
+LoadLibraryA
+LocalFree
+Logger.txt
+M H1E
+M$#0]
+M98u/
+MB(iVR
+MSVCP140.dll
+Mac OS
+MacOS 10.10
+MacOS 10.11
+MacOS 10.12
+MacOS 10.4
+MacOS 10.5
+MacOS 10.5.8
+MacOS 10.6
+MacOS 10.6.3
+MacOS 10.6.4 with Apple's Snow Leopard Graphics Update
+MacOS 10.6.7
+MacOS 10.7
+MacOS 10.8
+MacOS 10.9
+MainThrd
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Missing %s from %s
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+Missing manifest file %s from %s
+Nonce:    %d
+O(H9N(|
+OXL9OPt
+OpenProcess
+Out of thread local storage!
+PAIR -NONCE %6.6d
+PA^A]_^]
+PA^_]
+PA^_^
+PA_A^_^]
+PAq=?Mp#
+PUBLIC
+Parsing of JSON string "%s" failed: %s
+PeekNamedPipe
+PerformDFU
+Performing DFU:
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+PipeInit
+Progress: %d%% (%d/%d)
+Pz}b!
+QJxy6z'
+Qkkbal
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RANDOM
+READ -H %4.4X
+RESET
+RaiseException
+ReadFile
+ReadPipeResponse
+ResetEvent
+Response: %s, %s
+Restart:  %s
+RtlCaptureContext
+RtlGetNtVersionNumbers
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+Running
+SA|X=G
+SCAN -NAME "%s" -T %X
+SERVICES
+SERVICES -U128 %s
+SERVICES -U16 %4.4X
+SHELL32.dll
+SUVWATAUAVAWH
+SVATAUAVAWH
+SVWATAUAVAWH
+SVWAVAWH
+Selecting Data Packet:
+Selecting Init Packet:
+Send CRC Command.
+Send Create Object %s
+Send Enter Bootloader Command.
+Send Execute Command.
+Send Select Object %s
+Set CCCD (handle %d). Notifications: %d, Indications: %d
+SetEvent
+SetFileAttributesW
+SetFilePointer
+SetFileTime
+SetNamedPipeHandleState
+SetUnhandledExceptionFilter
+ShellExecuteExA
+ShutdownLinkToService
+Sleep
+SleepConditionVariableCS
+Starting Bluetooth Link: %s
+Still more data to unzip
+Stopped
+Stopping Bluetooth Link
+Success
+Syntax error: value, object or array expected.
+SystemTimeToFileTime
+T$ E3
+T$ I;
+T$4L+
+T$DE3
+T$HE3
+T$HH;
+T$HI;
+T$PH;
+T$TE3
+T$XL;
+T$XM;
+T$`H+
+T$hD:
+TIMEOUT
+TerminateProcess
+Terminating discovered vivelink process.
+TlsAlloc
+TlsFree
+UATAUAVAWH
+UAUAVH
+USVATAUAWH
+USVATAVH
+USVWATAUAVH
+USVWAWH
+UUUUUUU
+UVATAVAWH
+UVAVH
+UVWATAUAVAWH
+UVWATAUAVAWL
+UVWATAWH
+UVWAUAVH
+UVWAVAWH
+UWATAUH
+UWATAVAWH
+UWATAVAWI
+UWATAWH
+UWATH
+UWAVH
+UWAWH
+UnhandledExceptionFilter
+Unknown
+Unknown DFU Extended Error (%d)
+Unknown DFU Object (%d)
+Unknown DFU OpCode (%d)
+Unknown DFU Response (%d)
+Unknown ViveLink Error (%d)
+Unknown exception
+V3"/"6
+VATAVH
+VCRUNTIME140.dll
+VL2_Connect
+VL2_Disconnect
+VL2_DiscoverCharacteristics
+VL2_DiscoverDescriptors
+VL2_DiscoverServices
+VL2_HandleNotificationResponse
+VL2_HandleResponse
+VL2_HandleScanResponse
+VL2_Pair
+VL2_Read
+VL2_ReadResponse
+VL2_Reset
+VL2_WriteCommand
+VL2_WriteWithResponse
+VL2_WriteWithoutResponse
+VWATAUH
+VWATAVAWH
+VWAUAVAWH
+VWAVH
+VWAWH
+V_~]	,
+Valve Corp.0
+Valve Corp.1
+VerSetConditionMask
+VerifyVersionInfoW
+ViveLinkError_AUTH_SMP_BUSY
+ViveLinkError_AUTH_SMP_CONFIRM_FAIL
+ViveLinkError_AUTH_SMP_CONFIRM_VALUE_FAIL
+ViveLinkError_AUTH_SMP_ENC_FAIL
+ViveLinkError_AUTH_SMP_ENC_KEY_SIZE
+ViveLinkError_AUTH_SMP_INIT_FAIL
+ViveLinkError_AUTH_SMP_INTERNAL_ERR
+ViveLinkError_AUTH_SMP_INVALID_CMD
+ViveLinkError_AUTH_SMP_INVALID_PARAMETERS
+ViveLinkError_AUTH_SMP_OOB_FAIL
+ViveLinkError_AUTH_SMP_PAIR_AUTH_FAIL
+ViveLinkError_AUTH_SMP_PAIR_NOT_SUPPORT
+ViveLinkError_AUTH_SMP_PASSKEY_FAIL
+ViveLinkError_AUTH_SMP_REPEATED_ATTEMPT
+ViveLinkError_AUTH_SMP_RSP_TIMEOUT
+ViveLinkError_AUTH_SMP_UNKNOWN_ERR
+ViveLinkError_AUTH_SMP_UNKNOWN_IO
+ViveLinkError_AuthenticationError_NonceRejected
+ViveLinkError_AuthenticationError_PairingLockout
+ViveLinkError_CONNECTED_TO_MAX_DEVICES
+ViveLinkError_CONNECT_TIMEOUT
+ViveLinkError_DEVICE_NOT_FOUND
+ViveLinkError_DFUError_BaseNeedsPowerCycle
+ViveLinkError_DFUError_FWVersionFailure
+ViveLinkError_DFUError_HWVersionFailure
+ViveLinkError_DFUError_HashFailed
+ViveLinkError_DFUError_InitCommandInvalid
+ViveLinkError_DFUError_InsufficientSpace
+ViveLinkError_DFUError_InvalidErrorCode
+ViveLinkError_DFUError_SDVersionFailure
+ViveLinkError_DFUError_SignatureMissing
+ViveLinkError_DFUError_UnknownCommand
+ViveLinkError_DFUError_VerificationFailed
+ViveLinkError_DFUError_WrongCommandFormat
+ViveLinkError_DFUError_WrongHashType
+ViveLinkError_DFUError_WrongSignatureType
+ViveLinkError_DFUPost_BaseNotFound
+ViveLinkError_DFUPost_BaseStuckInDFU
+ViveLinkError_Error
+ViveLinkError_GATT_AUTH_FAIL
+ViveLinkError_GATT_BUSY
+ViveLinkError_GATT_CCC_CFG_ERR
+ViveLinkError_GATT_CMD_STARTED
+ViveLinkError_GATT_CONGESTED
+ViveLinkError_GATT_DB_FULL
+ViveLinkError_GATT_ENCRYPED_NO_MITM
+ViveLinkError_GATT_ERROR
+ViveLinkError_GATT_ERR_UNLIKELY
+ViveLinkError_GATT_ILLEGAL_PARAMETER
+ViveLinkError_GATT_INSUF_AUTHENTICATION
+ViveLinkError_GATT_INSUF_AUTHORIZATION
+ViveLinkError_GATT_INSUF_ENCRYPTION
+ViveLinkError_GATT_INSUF_KEY_SIZE
+ViveLinkError_GATT_INSUF_RESOURCE
+ViveLinkError_GATT_INTERNAL_ERROR
+ViveLinkError_GATT_INVALID_ATTR_LEN
+ViveLinkError_GATT_INVALID_CFG
+ViveLinkError_GATT_INVALID_HANDLE
+ViveLinkError_GATT_INVALID_OFFSET
+ViveLinkError_GATT_INVALID_PDU
+ViveLinkError_GATT_MORE
+ViveLinkError_GATT_NOT_ENCRYPTED
+ViveLinkError_GATT_NOT_FOUND
+ViveLinkError_GATT_NOT_LONG
+ViveLinkError_GATT_NO_RESOURCES
+ViveLinkError_GATT_OUT_OF_RANGE
+ViveLinkError_GATT_PENDING
+ViveLinkError_GATT_PRC_IN_PROGRESS
+ViveLinkError_GATT_PREPARE_Q_FULL
+ViveLinkError_GATT_READ_NOT_PERMIT
+ViveLinkError_GATT_REQ_NOT_SUPPORTED
+ViveLinkError_GATT_SERVICE_STARTED
+ViveLinkError_GATT_UNSUPPORT_GRP_TYPE
+ViveLinkError_GATT_WRITE_NOT_PERMIT
+ViveLinkError_GATT_WRONG_STATE
+ViveLinkError_InternalError
+ViveLinkError_InvalidAddress
+ViveLinkError_InvalidArgument
+ViveLinkError_NotFound
+ViveLinkError_Success
+ViveLinkError_Timeout
+ViveLinkLib_GetBaseStationWirelessInterface
+WATAUAVAWH
+WAVAW
+WAVAWH
+WRITE_WO_RESP -H %4.4X 
+WRITE_W_RESP -H %4.4X 
+WXM9WPt(E
+WaitForPipeCreation
+WaitForSingleObject
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Washington1
+WideCharToMultiByte
+Windows
+Windows 10
+Windows 11
+Windows 2000
+Windows 2003
+Windows 2008
+Windows 2012
+Windows 2012 R2
+Windows 3.11
+Windows 7
+Windows 8
+Windows 8.1
+Windows 95
+Windows 98
+Windows ME
+Windows NT
+Windows Vista
+Windows XP
+WriteFile
+XA]A\_^
+Y9"SD
+Zip Error: %s
+Zip-bug: an internal error during flation
+Zip-bug: internal initialisation not completed
+Zip-bug: the anticipated size turned out wrong
+Zip-bug: tried to change mind, but not allowed
+Zip-bug: trying to seek the unseekable
+Zipfile is corrupt or not a zipfile
+[DFU]
+[K]taM?
+\$ UAVAWH
+\$ UH
+\$ UVWATAUH
+\$ UVWATAVH
+\$ UWATH
+\$0E3
+\$0H+
+\$0H;
+\$8E3
+\$8H;
+\$@E3
+\$@H;
+\$DE2
+\$PI;
+\$XH;
+\$hI;
+\$pH;
+\$pI;
+\\.\pipe\BaseStationFirmwareUpgrade
+\\.\pipe\BaseStationFirmwareUpgradeStatus
+\\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
+\\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
+\\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
+\u=H;
+]J<0"0i3
+]g@8yhu
+]gfff
+^(::LHB::)([0-9A-F]{4})
+^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Strcoll
+_Strxfrm
+__C_specific_handler
+__CxxFrameHandler3
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_errno
+_execute_onexit_table
+_gUT^
+_gmtime64
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_lCI	
+_mbsstr
+_register_onexit_function
+_seh_filter_dll
+_stricmp
+_strnicmp
+_wfopen_s
+_wfsopen
+_wstat64i32
+`.rdata
+`A_A^A]A\_^[
+`A_A^_
+a#G(t
+additional six characters expected to parse unicode surrogate pair.
+alnum
+alpha
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-multibyte-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+application
+assert json failed
+bad allocation
+bad array new length
+bad cast
+bad conversion
+bin_file
+blank
+bootloader
+buffer error
+c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
+calloc
+cntrl
+cw~Hc
+d$(E3
+d$@E3
+d$@HcH
+d$`H=
+dat_file
+data error
+deque<T> too long
+digit
+dwc_#Ri
+empty distance tree with lengths
+exception thrown in JSON library
+expecting another \u token to begin the second half of a unicode surrogate pair
+fD9>uF
+false
+fclose
+file error
+fnVa')
+fputs
+fread
+fseek
+ftell
+gfffffffH
+gfffffffI
+gfffffffL
+gfffffffM
+graph
+hA\_^[
+hA_A^A]A\^[
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+https://www.digicert.com/CPS0
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+incompatible version
+incomplete distance tree
+incomplete dynamic bit lengths tree
+incomplete literal/length tree
+incorrect data check
+incorrect header check
+insufficient memory
+invalid bit length repeat
+invalid block type
+invalid distance code
+invalid literal/length code
+invalid stoi argument
+invalid stored block lengths
+invalid stoul argument
+invalid string position
+invalid vector<T> subscript
+invalid window size
+isxdigit
+j0h02
+jj@0HK4
+k0i0$
+l$ H;
+l$ H=
+l$ VWATAVAW
+l$ VWAVH
+l$ VWAWH
+l$@H;
+l$@I+
+l$PI+
+l$PM9n
+l$pM+
+lighthouse
+lower
+m0k0$
+malloc
+manifest
+manifest file %s parse error from %s
+manifest file %s setup error from %s
+manifest.json
+map/set<T> too long
+memchr
+memcmp
+memcpy
+memmove
+memset
+need dictionary
+ntelD
+oversubscribed distance tree
+oversubscribed dynamic bit lengths tree
+oversubscribed literal/length tree
+p UWATAVAWH
+print
+punct
+r*=/N
+r9=/N
+realloc
+runas
+s#fff
+soH9t$@t
+space
+stoi argument out of range
+stoul argument out of range
+strchr
+stream end
+stream error
+string too long
+strncat
+strncpy
+strrchr
+strstr
+strtol
+strtoul
+strtoull
+t	M+|$ M
+t -"N
+t!-"N
+t"-"N
+t"H;HHt
+t"H;KHt
+t"H;OHt
+t$ AWH
+t$ E3
+t$ UAVAWH
+t$ UH
+t$ UWAVH
+t$ WATAUAVAWH
+t$ WH
+t$(E3
+t$8E3
+t$8H;
+t$@D;
+t$@H=
+t$@I+
+t$HH;
+t$HI;
+t$PE3
+t$PH=
+t$X@2
+t$XE3
+t$hE3
+t$hH+
+t$hM;
+t$xH9^
+t$xL;
+t'-"N
+t(D8g
+t+-"N
+t--"N
+t1H9]
+t6H9}
+t>-"N
+t>y#I
+t?y&I
+tAy&H
+tB-"N
+tS@8uw
+tXfff
+too many length or distance symbols
+tools
+u D8u
+u"fD;
+u'fD;
+uHfC;
+unknown compression method
+unknown zip result code
+upH;~ uj
+upper
+v&=6N
+v=Y]Bv
+vector<T> too long
+vector<bool> too long
+vivebtdriver.exe
+vivebtdriver_win10.exe
+vivelink-btver.txt
+vivelink-driver.txt
+vivelink-output.txt
+vivelink.exe
+vivelinklib.dll
+v~w]#
+win64
+wn>Jj
+www.digicert.com1!0
+www.digicert.com1$0"
+www.digicert.com110/
+xA\^][
+xAtAL
+xdigit
+y0w0$
+z0x0:
+{x\u!H
+{|?uWH
+|$ ATAUAWH
+|$ ATAVAWH
+|$ AVH
+|$ AVL
+|$ E3
+|$ UATAUAVAWH
+|$ UH
+|$(A^
+|$(H;
+|$0E3
+|$0HcH
+|$8A_A^A\
+|$8E3
+|$8H;
+|$@E3
+|$A:t
+|$HH;
+|$HH=
+|$HL;
+|$PL9~
+|$XH;
+|$`H+
+|$pE2
+|$xH;
+|Lu?c
+|]E-K
+}LuHO
+~t&LN

@@ -1,0 +1,1006 @@
+					
+							
+												
+																																												
+	!s99
+    Object[
+    SessionLabel[
+ "functions" section contains non-string values.
+ (Error message: 
+ A_A\_
+ A_A^A\
+ A_A^A]A\^
+ A_A^A]A\_
+ A_A^A]A\_^]
+ A_A^]
+ A_A^_
+ A_^[
+ A__[
+ A__^
+ H3E H3E
+ Is it a valid layer manifest file?
+ Is it a valid runtime manifest file?
+ and OpenXR API version 
+ because negotiation function 
+ does not appear to exist
+ due to failed negotiation with error 
+ for detail.
+ has invalid API Version.  Skipping layer.
+ in HKEY_LOCAL_MACHINE
+ in either HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
+ is disabled
+ is missing "disable_environment"
+ is missing required fields.  Verify all proper fields exist.
+ is not a valid manifest file.
+ is not supported
+ layers enabled and runtime interface - created instance = 
+ library 
+ requires a valid instance
+ sJE3
+ using interface version 
+ was not found
+ with error 
+%u.%u
+%u.%u.%u
+' is not a number.
+(A^A]^[
+(A_A^^[
+(A_A^_]
+(D$ H
+(D$ f
+(DigiCert SHA2 Assured ID Timestamping CA
+(DigiCert SHA2 Assured ID Timestamping CA0
+(t$ 2
+(t$ H
+(t$PL
+(unknown)
+)D$ L
+)t$ H
++Wk7,+
++o'q)}
+, OpenXR version returned not compatible with this loader
+, failed to load with message "
+, negotiation did not return a valid getInstanceProcAddr
+, negotiation failed with error 
+, negotiation succeeded but returned NULL getInstanceProcAddr
+, negotiation succeeded but returned invalid interface version
+,http://crl3.digicert.com/sha2-assured-ts.crl02
+,http://crl4.digicert.com/sha2-assured-ts.crl0
+-1e+9999
+-Infinity
+.  Does it exist?
+.  Max supported version is 
+.00cfg
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AVApiLayerInterface@@
+.?AVCharReader@Json@@
+.?AVCharReaderBuilder@Json@@
+.?AVDebugUtilsLogRecorder@?A0xe2804085@@
+.?AVDebuggerLoaderLogRecorder@?A0xe2804085@@
+.?AVFactory@CharReader@Json@@
+.?AVLoaderInstance@@
+.?AVLoaderLogRecorder@@
+.?AVOstreamLoaderLogRecorder@?A0xe2804085@@
+.?AVOurCharReader@Json@@
+.?AVRuntimeInterface@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVexception@std@@
+.?AVios_base@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.json
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+/api_layers/explicit.d
+/api_layers/implicit.d
+000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
+0123456789abcdef
+0A^A\_
+0A^_^
+0A_A^A\_^
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A__[
+0x%llx (%lld): 
+0}0i1
+130801120000Z
+160107120000Z
+1e+9999
+210101000000Z
+210429000000Z
+211007000000Z
+220330231132Z0/
+2333333
+241009235959Z0a1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+310106000000Z0H1
+310107120000Z0r1
+360428235959Z0i1
+380115120000Z0b1
+3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6*f(_
+6I]Dc
+6OB,n_
+70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8_^][
+8aMbF$
+92UlZ
+:0806
+< =	#
+<0:08
+>Mp$d
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0_Lockit@std@@QEAA@H@Z
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1_Lockit@std@@QEAA@XZ
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@K@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7ios_base@std@@6B@
+?_BADOFF@std@@3_JB
+?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?always_noconv@codecvt_base@std@@QEBA_NXZ
+?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exception@std@@YA_NXZ
+?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@.data
+@.reloc
+@.rsrc
+@8}wu
+@A\_[
+@A^_^
+@A_A^A\
+@A_A^A\_^
+@A_A^A]A\_
+@A_A^A]A\_^[
+@A_A^_
+@A_A^_][
+@SUVH
+@SUWH
+@SVAUAVH
+@SVAVAWH
+@SVAWH
+@SVWH
+@SWATH
+@SWAWH
+@UAUAVAWH
+@UAVH
+@UAWH
+@USVATAWH
+@USVH
+@USWATAVH
+@USWATAWH
+@UVATAUAWH
+@UWAVAWH
+@VATAVH
+@VWAVH
+A valid JSON document must be either an array or an object value.
+A(t	H
+ADVAPI32.dll
+ATAVAWH
+AUAVAWH
+A]A\_^]
+A^A\^
+A^A\_[]
+A^A]A\_]
+A^_^[]
+A_A\^[]
+A_A\_[]
+A_A]A\^]
+A_A]_
+A_A^A\
+A_A^A\_]
+A_A^A]
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^[
+A_A^A]A\_^]
+A_A^A]]
+A_A^]
+A_A^_
+A_A^_[]
+A_A^_^]
+Active XrInstance handle already exists
+ActiveRuntime
+ApiLayerInterface being destroyed for layer 
+ApiLayerInterface::GetApiLayerProperties - failed searching for API layer manifest files
+ApiLayerInterface::GetInstanceExtensionProperties - failed searching for API layer manifest files
+ApiLayerInterface::LoadApiLayers - failed to find layer 
+ApiLayerInterface::LoadApiLayers skipping layer 
+ApiLayerInterface::LoadApiLayers succeeded loading layer 
+ApiLayerManifestFile::CreateIfValid 
+ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
+AuthD
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Bellevue1
+C0L9<
+CD$0D
+CD$0I
+CD$0f
+CD$@@
+CD$@A
+CD$@D
+CD$@I
+CD$`3
+CD$h3
+CL$0H
+CL$0K
+CL$@E3
+CL$`H
+CT$@E
+CT$XH
+C\$0L
+C\$@D
+C\$@H
+C\$@L
+C\$@M
+C\$PH
+C\$PL
+C\$XE
+C\$XH
+C\$XL
+C\$XM
+C\$`L
+C\$`M
+C\$xL
+Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+CloseHandle
+Completed loader terminator
+Completed loader trampoline
+CreateEventW
+D$ A;
+D$ E3
+D$ H;
+D$ L;
+D$(H;
+D$0E3
+D$0H;
+D$0tx
+D$8L96u
+D$@HcH
+D$@I;
+D$PH9A
+D$PH;
+D$PL;
+D$Pu)
+D$`HcH
+D$hH;
+D$hL;
+D$pE3
+D$pHcH
+D$xH+
+D$xI+
+D8|$AD
+D;l$0
+DeleteCriticalSection
+Destroying LoaderInstance = 
+DigiCert Assured ID Root CA0
+DigiCert Inc1
+DigiCert Timestamp 20210
+DigiCert Trusted Root G40
+DigiCert, Inc.1 0
+DigiCert, Inc.1A0?
+DisableThreadLibraryCalls
+Duplicate key: '
+E8,9u
+Empty escape sequence in string
+EnterCriticalSection
+Entering LoaderInstance::CreateInstance
+Entering loader terminator
+Entering loader trampoline
+Eo%lf
+EpHcH
+Error [
+Exceeded stackLimit in readValue().
+Extra non-whitespace after JSON value.
+Failed ApiLayerInterface::GetApiLayerProperties
+Failed loading layer information
+Failed loading runtime information
+Failed querying extension properties
+Failed to find default runtime with RuntimeInterface::LoadRuntime()
+Failed to open dynamic library 
+FindFirstFileW
+FindNextFileW
+FormatMessageW
+Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
+FreeLibrary
+GENERAL
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentVariableW
+GetFileAttributesW
+GetFullPathNameW
+GetLastError
+GetModuleHandleW
+GetProcAddress
+GetSidSubAuthority
+GetSidSubAuthorityCount
+GetSystemTimeAsFileTime
+GetTokenInformation
+H!C@H
+H#L$PH
+H+L$HI
+H+SpI
+H+WpH
+H+WpI
+H+WpJ
+H9Ahs
+H9E8u$H
+H9Qhv#H
+H;9u|A
+H;Axt
+H;Cxu
+H;Y t
+H;k u
+HA_A]_[
+I#V0I
+I0G08
+I9Bhs
+I9W(t
+Implicit layer 
+Infinity
+Info [
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Instance handle is XR_NULL_HANDLE.
+Invalid Name pointer
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J>@G_
+JY04e
+KERNEL32.dll
+K}*n:	
+L#A0L
+L#F0H
+L#F0L
+L$ E3
+L$ H;
+L$ SUVWH
+L$ SVWH
+L$(E3
+L$(K9
+L$0H9V
+L$0K9
+L$@H;
+L$@I;
+L$PH;
+L$XI+
+L9T$Xty
+L9d$pu
+L9d$xu
+L9uHt<H
+L9v t=H
+L9|$@
+L;8tUM
+L;8u6H
+L;C u
+L;C u=
+L?n(Zy&
+LargestInt out of UInt range
+LargestUInt out of UInt range
+LeaveCriticalSection
+Line %d, Column %d
+LoadLibraryExW
+LoadLibraryW
+Loader does not support simultaneous XrInstances
+LoaderInstance::CreateInstance chained CreateInstance call failed
+LoaderInstance::CreateInstance succeeded with 
+LoaderInstance::CreateInstance, no support found for requested extension: 
+M H1E
+M$#0]
+M98u/
+MB(iVR
+MSVCP140.dll
+M^k}g
+ManifestFile::IsValidJson - JSON "file_format_version" 
+ManifestFile::IsValidJson - JSON file missing "file_format_version"
+ManifestFile::ParseCommon 
+Messenger handle is XR_NULL_HANDLE.
+Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+MultiByteToWideChar
+No active XrInstance handle.
+OpenProcessToken
+OpenXR-Loader
+OutputDebugStringA
+P8H+P0H
+PA^_^
+PA_A^A\_]
+PA_A^A]A\_^]
+PA_A^_^]
+PAq=?Mp#
+Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Pz}b!
+QJxy6z'
+QueryPerformanceCounter
+ReadLayerDataFilesInRegistry - failed to read registry location 
+ReadRuntimeDataFilesInRegistry - failed to open registry key 
+ReadRuntimeDataFilesInRegistry - failed to read registry value 
+RegCloseKey
+RegEnumValueW
+RegGetValueW
+RegOpenKeyExW
+ResetEvent
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+RuntimeInterface being destroyed.
+RuntimeInterface::LoadRuntime skipping manifest file 
+RuntimeInterface::LoadRuntime succeeded loading runtime defined in manifest file 
+RuntimeInterface::LoadRuntimes - failed to load a runtime
+RuntimeInterface::LoadRuntimes - unknown error
+RuntimeInterface::UnloadRuntime - Unloading RuntimeInterface
+RuntimeManifestFile::CreateIfValid 
+RuntimeManifestFile::CreateIfValid - attempting to load 
+RuntimeManifestFile::FindManifestFiles - failed to find active runtime file in registry
+RuntimeManifestFile::FindManifestFiles - found too many default runtime files in registry
+RuntimeManifestFile::FindManifestFiles - using environment variable override runtime file 
+RuntimeManifestFile::FindManifestFiles - using global runtime file 
+RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
+SA|X=G
+SOFTWARE\Khronos\OpenXR\
+SUAVAWH
+SUWAVAWH
+SVWATAUAVAWH
+SWAUAWH
+SWAWH
+Session handle is XR_NULL_HANDLE.
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+Syntax error: value, object or array expected.
+T$0H;
+T$HE3
+T$PH;
+T$xE3
+TUUUUUU
+Type is not convertible to string
+UATAUAVAWH
+UAVAWH
+UNKNOWN
+USVWAVH
+USWAVAWH
+UUUUUUU
+UVAVH
+UVWATAUAVAWH
+UVWAVAWH
+UWATAUAVH
+UWATAVAWH
+UWAVH
+UWAWH
+Unable to parse token length
+UnhandledExceptionFilter
+Unknown error occurred calling down chain
+Unknown exception
+Unknown failure
+Unknown failure: 
+V H+V
+V I9V(t L
+V3"/"6
+VATAUAVAWH
+VCRUNTIME140.dll
+VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
+VUID-XrApplicationInfo-applicationName-parameter
+VUID-XrApplicationInfo-engineName-parameter
+VUID-XrApplicationInfo-engineName-parameter: application name can not be empty.
+VUID-XrExtensionProperties-type-type
+VUID-XrInstanceCreateInfo-applicationInfo-parameter
+VUID-XrInstanceCreateInfo-createFlags-zerobitmask
+VUID-XrInstanceCreateInfo-enabledApiLayerNames-parameter: enabledApiLayerCount is non-0 but array is NULL
+VUID-XrInstanceCreateInfo-enabledExtensionNames-parameter
+VUID-XrInstanceCreateInfo-type-type
+VUID-xrCreateDebugUtilsMessengerEXT-messenger-parameter
+VUID-xrCreateInstance-info-parameter
+VUID-xrCreateInstance-info-parameter: something wrong with XrInstanceCreateInfo contents
+VUID-xrCreateInstance-instance-parameter
+VUID-xrEnumerateApiLayerProperties-properties-parameter: non-zero capacity but null array
+VUID-xrEnumerateApiLayerProperties-propertyCapacityInput-parameter: insufficient space in array
+VUID-xrEnumerateInstanceExtensionProperties-properties-parameter
+VUID-xrEnumerateInstanceExtensionProperties-propertyCountOutput-parameter
+VUID-xrGetInstanceProcAddr-function-parameter
+VUID-xrGetInstanceProcAddr-instance-parameter
+VUID-xrSessionBeginDebugUtilsLabelRegionEXT-labelInfo-parameter
+VUID-xrSessionInsertDebugUtilsLabelEXT-labelInfo-parameter
+VWATAVAWH
+VWAVH
+VWAWH
+V_~]	,
+Value is not convertible to UInt.
+Value is not convertible to bool.
+Valve Corp.0
+Valve Corp.1
+Verbose [
+WATAUAVAWH
+WATAVH
+WAUAWH
+WAVAWH
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning [
+Washington1
+WideCharToMultiByte
+XR_API_LAYER_PATH
+XR_ENABLE_API_LAYERS
+XR_EXT_debug_utils
+XR_LOADER_DEBUG
+XR_NULL_HANDLE for instance but query for 
+XR_RUNTIME_JSON
+Y9"SD
+[K]taM?
+[j	GW
+\$ I;]
+\$ UAVAWH
+\$ UH
+\$ UVWATAUH
+\$ UWATH
+\$ UWAWH
+\$ VWATAVAWH
+\$ WAVAWH
+\$(I;
+\$(I;]
+\$0H;
+\$8H;
+\$HH9W
+\$HH;
+\$PH;
+\$PI;
+\$hI;
+\$xHi
+\ApiLayers\Explicit
+\ApiLayers\Implicit
+\u=H;
+]J<0"0i3
+_Cnd_broadcast
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_Cnd_wait
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+__C_specific_handler
+__CxxFrameHandler3
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vsprintf
+__stdio_common_vsscanf
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_dtest
+_errno
+_execute_onexit_table
+_finite
+_fseeki64
+_gUT^
+_get_stream_buffer_pointers
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo
+_invalid_parameter_noinfo_noreturn
+_isnan
+_lCI	
+_lock_file
+_register_onexit_function
+_seh_filter_dll
+_unlock_file
+`.rdata
+`A^_^
+`A_A^A\_^
+`A_A^A]A\_^]
+abort
+additional six characters expected to parse unicode surrogate pair.
+allowComments
+allowDroppedNullPlaceholders
+allowNumericKeys
+allowSingleQuotes
+allowSpecialFloats
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api_layer
+api_version
+application name missing NULL terminator.
+bad allocation
+bad array new length
+bad cast
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+collectComments
+d$ UAVAWH
+d$PE3
+d$`H=
+deque<T> too long
+description
+disable_environment
+double out of UInt range
+dwc_#Ri
+e>g*i
+enable_environment
+enabledExtensionCount is non-0 but array is NULL
+engine name missing NULL terminator.
+error
+expected XR_TYPE_INSTANCE_CREATE_INFO.
+expecting another \u token to begin the second half of a unicode surrogate pair
+extension_version
+f9,Xu
+fB94@u
+fF9$@u
+failIfExtra
+failed allocating memory
+failed to open 
+failed to parse 
+false
+fclose
+fffffff
+fflush
+fgetc
+fgetpos
+file_format_version
+flags must be 0.
+fnVa')
+fputc
+fsetpos
+functions
+fwrite
+gfffffffH
+gfffffffH+
+gfffffffI
+gfffffffI+
+gfffffffL+
+gfffffffM
+hA_A^][
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0O
+http://ocsp.digicert.com0\
+http://www.digicert.com/CPS0
+https://www.digicert.com/CPS0
+implementation_version
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(begin, end): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+info->applicationInfo is not valid.
+instance_extensions
+insufficient space in array
+invalid messenger pointer
+invalid properties
+invalid string position
+isValidJson indicates 
+j0h02
+jj@0HK4
+k0i0$
+keylength >= 2^30
+l$ H;
+l$ H=
+l$ UAVAWH
+l$ VH
+l$@E3
+l$PH;1u;H;
+l$pE3
+l$ptNH
+l$pu!H
+lT`d[F
+labelInfo must be non-NULL
+layer 
+library_path
+list<T> too long
+localeconv
+m0k0$
+malloc
+map/set<T> too long
+memchr
+memcmp
+memcpy
+memmove
+memset
+must be non-NULL
+nfinity
+ntelD
+openxr/
+openxr_loader.dll
+psn,g
+rejectDupKeys
+runtime
+s t#fff
+setvbuf
+something wrong with XrInstanceCreateInfo contents
+stackLimit
+strcmp
+strictRoot
+string too long
+strncpy
+t$ AVH
+t$ AWH
+t$ E3
+t$ UH
+t$ UWAWH
+t$ WATAUAVAWH
+t$ WATAWH
+t$ WAVAWH
+t$ WH
+t$0H;
+t$8E3
+t$8H+
+t$8t*
+t$@E3
+t$@H+
+t$@H;
+t$@H=
+t$@HcH
+t$HH;
+t$HL;
+t$HM;
+t$PH=
+t$`HcH
+t$xH;
+t9H9h
+tmfff
+ungetc
+unknown type in properties
+v=Y]Bv
+vector<T> too long
+verbose
+www.digicert.com1!0
+www.digicert.com1$0"
+www.digicert.com110/
+xrAcquireSwapchainImage
+xrApplyHapticFeedback
+xrAttachSessionActionSets
+xrBeginFrame
+xrBeginSession
+xrConvertTimeToWin32PerformanceCounterKHR
+xrConvertWin32PerformanceCounterToTimeKHR
+xrCreateAction
+xrCreateActionSet
+xrCreateActionSpace
+xrCreateApiLayerInstance
+xrCreateDebugUtilsMessengerEXT
+xrCreateHandMeshSpaceMSFT
+xrCreateHandTrackerEXT
+xrCreateInstance
+xrCreateInstance called with invalid API version 
+xrCreateInstance failed
+xrCreateReferenceSpace
+xrCreateSession
+xrCreateSpatialAnchorFromPerceptionAnchorMSFT
+xrCreateSpatialAnchorMSFT
+xrCreateSpatialAnchorSpaceMSFT
+xrCreateSpatialGraphNodeSpaceMSFT
+xrCreateSwapchain
+xrCreateVulkanDeviceKHR
+xrCreateVulkanInstanceKHR
+xrDestroyAction
+xrDestroyActionSet
+xrDestroyDebugUtilsMessengerEXT
+xrDestroyHandTrackerEXT
+xrDestroyInstance
+xrDestroySession
+xrDestroySpace
+xrDestroySpatialAnchorMSFT
+xrDestroySwapchain
+xrEndFrame
+xrEndSession
+xrEnumerateApiLayerProperties
+xrEnumerateBoundSourcesForAction
+xrEnumerateColorSpacesFB
+xrEnumerateDisplayRefreshRatesFB
+xrEnumerateEnvironmentBlendModes
+xrEnumerateInstanceExtensionProperties
+xrEnumerateReferenceSpaces
+xrEnumerateSwapchainFormats
+xrEnumerateSwapchainImages
+xrEnumerateViewConfigurationViews
+xrEnumerateViewConfigurations
+xrGetActionStateBoolean
+xrGetActionStateFloat
+xrGetActionStatePose
+xrGetActionStateVector2f
+xrGetControllerModelKeyMSFT
+xrGetControllerModelPropertiesMSFT
+xrGetControllerModelStateMSFT
+xrGetCurrentInteractionProfile
+xrGetD3D11GraphicsRequirementsKHR
+xrGetD3D12GraphicsRequirementsKHR
+xrGetDisplayRefreshRateFB
+xrGetInputSourceLocalizedName
+xrGetInstanceProcAddr
+xrGetInstanceProperties
+xrGetReferenceSpaceBoundsRect
+xrGetSystem
+xrGetSystemProperties
+xrGetViewConfigurationProperties
+xrGetVisibilityMaskKHR
+xrGetVulkanDeviceExtensionsKHR
+xrGetVulkanGraphicsDevice2KHR
+xrGetVulkanGraphicsDeviceKHR
+xrGetVulkanGraphicsRequirements2KHR
+xrGetVulkanGraphicsRequirementsKHR
+xrGetVulkanInstanceExtensionsKHR
+xrInitializeLoaderKHR
+xrLoadControllerModelMSFT
+xrLocateHandJointsEXT
+xrLocateSpace
+xrLocateViews
+xrNegotiateLoaderApiLayerInterface
+xrNegotiateLoaderRuntimeInterface
+xrPathToString
+xrPerfSettingsSetPerformanceLevelEXT
+xrPollEvent
+xrReleaseSwapchainImage
+xrRequestDisplayRefreshRateFB
+xrRequestExitSession
+xrResultToString
+xrSessionBeginDebugUtilsLabelRegionEXT
+xrSessionEndDebugUtilsLabelRegionEXT
+xrSessionInsertDebugUtilsLabelEXT
+xrSetColorSpaceFB
+xrSetDebugUtilsObjectNameEXT
+xrSetEnvironmentDepthEstimationVARJO
+xrSetInputDeviceActiveEXT
+xrSetInputDeviceLocationEXT
+xrSetInputDeviceStateBoolEXT
+xrSetInputDeviceStateFloatEXT
+xrSetInputDeviceStateVector2fEXT
+xrStopHapticFeedback
+xrStringToPath
+xrStructureTypeToString
+xrSubmitDebugUtilsMessageEXT
+xrSuggestInteractionProfileBindings
+xrSyncActions
+xrThermalGetTemperatureTrendEXT
+xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
+xrUpdateHandMeshMSFT
+xrWaitFrame
+xrWaitSwapchainImage
+y0w0$
+z0x0:
+|$ ATAVAWH
+|$ AVH
+|$ UATAUAVAWH
+|$ UAVAWH
+|$ UH
+|$0H;
+|$0L;
+|$8L;
+|$AE3
+|$HH;
+|$HH=
+|$HI+
+|$HL;
+|$PH+
+|$XH;
+|$hH;
+|$pH+
+|$xH;
+|$xIi
+|Lu?c
+|]E-K
+}LuHO
+~+fff
+~t&LN

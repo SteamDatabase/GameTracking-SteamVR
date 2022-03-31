@@ -1,0 +1,1231 @@
+	kE>fvw
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ 'L>[
+ A^_^
+ A_A^A\
+ A_A^A\_^
+ A_A^A]A\_
+ A_A^A]A\_^]
+ A_A^A]_^
+ A_A^_
+ Base Class Array'
+ Base Class Descriptor at (
+ C>TQ
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ D;5u
+ H3E H3E
+ Type Descriptor'
+ delete
+ delete[]
+ new[]
+ t?D9
+ tDE3
+ vJH+
+!>6'Y
+!This program cannot be run in DOS mode.
+&D;j0u
+(D$ H
+(D$ f
+(D$PH
+(L$@D
+(t$ H
+(t$@H
+(t$@L
+(t$PH
+(|$ H
+(|$0I
+)>6{1n
+)D$03
+)D$@H
+)D$`A
+)t$0H
+)t$@H
+*StO9>T
++J$D8M@
++M<7>
++f)>0'
++h->|
+,/<-w
+,t0D9J0v*L
+.00cfg
+.?AU?$_InitialTaskHandle@XV<lambda_67b6e2ce0763d97d4e8d739e75423c77>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
+.?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_67b6e2ce0763d97d4e8d739e75423c77>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
+.?AU?$_Task_impl@E@details@Concurrency@@
+.?AUIExecutionContext@Concurrency@@
+.?AUIExecutionResource@Concurrency@@
+.?AUIResourceManager@Concurrency@@
+.?AUIScheduler@Concurrency@@
+.?AUISchedulerProxy@Concurrency@@
+.?AUIThreadProxy@Concurrency@@
+.?AUIThreadProxyFactory@details@Concurrency@@
+.?AUITopologyExecutionResource@Concurrency@@
+.?AUITopologyNode@Concurrency@@
+.?AUIVirtualProcessorRoot@Concurrency@@
+.?AUTopologyObject@GlobalCore@details@Concurrency@@
+.?AUTopologyObject@GlobalNode@details@Concurrency@@
+.?AU_Anon@?$_Associated_state@PEAX@std@@
+.?AU_Chore@details@Concurrency@@
+.?AU_TaskProcHandle@details@Concurrency@@
+.?AU_Task_impl_base@details@Concurrency@@
+.?AUscheduler_interface@Concurrency@@
+.?AV<lambda_1a419ad640aac7235f014887ac755191>@@
+.?AV<lambda_67b6e2ce0763d97d4e8d739e75423c77>@@
+.?AV<lambda_713ee8bbd6b08550d59c52695cab5ce3>@@
+.?AV<lambda_763529b0c7473cbc215a52d189ac9b18>@@
+.?AV<lambda_e0b623a606acfd10554dbddbb0c1a7da>@@
+.?AV<lambda_f25c37099038263181b5186a3fa41b37>@@
+.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
+.?AV?$_Associated_state@PEAX@std@@
+.?AV?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@
+.?AV?$_Fake_no_copy_callable_adapter@AEAV<lambda_509bcfb5fba7c74d957c38c9541f3077>@@PEAXAEAPEAXAEAUIPLRenderingSettings@@AEAUIPLAudioFormat@@@std@@
+.?AV?$_Func_base@E$$V@std@@
+.?AV?$_Func_base@PEAX$$V@std@@
+.?AV?$_Func_base@X$$V@std@@
+.?AV?$_Func_impl@V<lambda_1a419ad640aac7235f014887ac755191>@@V?$allocator@H@std@@PEAX$$V@std@@
+.?AV?$_Func_impl@V<lambda_67b6e2ce0763d97d4e8d739e75423c77>@@V?$allocator@H@std@@X$$V@std@@
+.?AV?$_Func_impl@V<lambda_713ee8bbd6b08550d59c52695cab5ce3>@@V?$allocator@H@std@@X$$V@std@@
+.?AV?$_Func_impl@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@V?$allocator@H@std@@X$$V@std@@
+.?AV?$_Func_impl@V<lambda_e0b623a606acfd10554dbddbb0c1a7da>@@V?$allocator@H@std@@E$$V@std@@
+.?AV?$_Func_impl@V<lambda_f25c37099038263181b5186a3fa41b37>@@V?$allocator@H@std@@X$$V@std@@
+.?AV?$_Func_impl@V?$_Fake_no_copy_callable_adapter@AEAV<lambda_509bcfb5fba7c74d957c38c9541f3077>@@PEAXAEAPEAXAEAUIPLRenderingSettings@@AEAUIPLAudioFormat@@@std@@V?$allocator@H@2@PEAX$$V@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P6AXPEAV?$WorkerThread@PEAX@@@ZPEAV1@@std@@U?$default_delete@V?$tuple@P6AXPEAV?$WorkerThread@PEAX@@@ZPEAV1@@std@@@2@@std@@@std@@
+.?AV?$_MallocaArrayHolder@PEAVContext@Concurrency@@@details@Concurrency@@
+.?AV?$_MallocaArrayHolder@PEAVevent@Concurrency@@@details@Concurrency@@
+.?AV?$_Packaged_state@$$A6APEAXXZ@std@@
+.?AV?$_Ref_count_obj@U?$_Task_impl@E@details@Concurrency@@@std@@
+.?AV?$_Ref_count_obj@U_ExceptionHolder@details@Concurrency@@@std@@
+.?AV?$_Ref_count_obj@VAudioEngineSettings@@@std@@
+.?AV?$_Ref_count_obj@VEnvironmentProxy@@@std@@
+.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
+.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
+.?AV?$_Task_async_state@PEAX$0A@@std@@
+.?AVCacheLocalScheduleGroup@details@Concurrency@@
+.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
+.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
+.?AVContext@Concurrency@@
+.?AVContextBase@details@Concurrency@@
+.?AVExecutionResource@details@Concurrency@@
+.?AVExternalContextBase@details@Concurrency@@
+.?AVFairScheduleGroup@details@Concurrency@@
+.?AVFairScheduleGroupSegment@details@Concurrency@@
+.?AVFreeThreadProxy@details@Concurrency@@
+.?AVFreeThreadProxyFactory@details@Concurrency@@
+.?AVFreeVirtualProcessorRoot@details@Concurrency@@
+.?AVInternalContextBase@details@Concurrency@@
+.?AVMultiWaitBlock@details@Concurrency@@
+.?AVRealizedChore@details@Concurrency@@
+.?AVResourceManager@details@Concurrency@@
+.?AVScheduleGroup@Concurrency@@
+.?AVScheduleGroupBase@details@Concurrency@@
+.?AVScheduleGroupSegmentBase@details@Concurrency@@
+.?AVScheduler@Concurrency@@
+.?AVSchedulerBase@details@Concurrency@@
+.?AVSchedulerProxy@details@Concurrency@@
+.?AVSingleWaitBlock@details@Concurrency@@
+.?AVThreadInternalContext@details@Concurrency@@
+.?AVThreadProxy@details@Concurrency@@
+.?AVThreadScheduler@details@Concurrency@@
+.?AVThreadVirtualProcessor@details@Concurrency@@
+.?AVTimedSingleWaitBlock@details@Concurrency@@
+.?AVVirtualProcessor@details@Concurrency@@
+.?AVVirtualProcessorRoot@details@Concurrency@@
+.?AVWaitAllBlock@details@Concurrency@@
+.?AVWaitAnyBlock@details@Concurrency@@
+.?AVWaitBlock@details@Concurrency@@
+.?AV_CancellationTokenRegistration@details@Concurrency@@
+.?AV_DefaultPPLTaskScheduler@details@Concurrency@@
+.?AV_Future_error_category@std@@
+.?AV_Generic_error_category@std@@
+.?AV_Interruption_exception@details@Concurrency@@
+.?AV_Pad@std@@
+.?AV_RefCounter@details@Concurrency@@
+.?AV_Ref_count_base@std@@
+.?AV_System_error@std@@
+.?AV__non_rtti_object@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_function_call@std@@
+.?AVbad_typeid@std@@
+.?AVcontext_self_unblock@Concurrency@@
+.?AVcontext_unblock_unbalanced@Concurrency@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVfuture_error@std@@
+.?AVimproper_lock@Concurrency@@
+.?AVimproper_scheduler_attach@Concurrency@@
+.?AVimproper_scheduler_reference@Concurrency@@
+.?AVinvalid_argument@std@@
+.?AVinvalid_operation@Concurrency@@
+.?AVinvalid_oversubscribe_operation@Concurrency@@
+.?AVinvalid_scheduler_policy_key@Concurrency@@
+.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
+.?AVinvalid_scheduler_policy_value@Concurrency@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVmissing_wait@Concurrency@@
+.?AVnested_scheduler_missing_detach@Concurrency@@
+.?AVout_of_range@std@@
+.?AVruntime_error@std@@
+.?AVscheduler_resource_allocation_error@Concurrency@@
+.?AVscheduler_worker_creation_error@Concurrency@@
+.?AVstl_condition_variable_concrt@details@Concurrency@@
+.?AVstl_condition_variable_interface@details@Concurrency@@
+.?AVstl_condition_variable_vista@details@Concurrency@@
+.?AVstl_condition_variable_win7@details@Concurrency@@
+.?AVstl_critical_section_concrt@details@Concurrency@@
+.?AVstl_critical_section_interface@details@Concurrency@@
+.?AVstl_critical_section_vista@details@Concurrency@@
+.?AVstl_critical_section_win7@details@Concurrency@@
+.?AVsystem_error@std@@
+.?AVtask_canceled@Concurrency@@
+.?AVtype_info@@
+.?AVunsupported_os@Concurrency@@
+.CRT$XCA
+.CRT$XCC
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPB
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.gfids$x
+.gfids$y
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls$
+.tls$ZZZ
+.xJ>Hf
+.xdata
+.xdata$x
+/>58d%
+0A^_^
+0A_A^A\
+0A_A^A\_^
+0A_A^A\_^][
+0A_A^A]
+0A_A^A]A\_
+0A_A^A]A\_^[
+0A_A^A]A\_^]
+0A_A^A]_^
+0A_A^_
+0A_A^_^[
+0A_A^_^]
+0iN>/
+1<.	/>:
+1eaB@
+2333333
+3>N;kU
+3>fvw
+3A8A#
+5@8|$"t.9|
+8A^_^[
+8A_A^A]A\_^][
+8D$ u+I
+8Y0t]
+8\$`t
+91t0H
+91~/E3
+9>exp
+9D$(}y
+9G$vAD
+9WP~GM
+9WP~HM
+9WP~KM
+9X@u4
+9YD~/3
+9_D~/3
+9_D~H3
+9_P~OE3
+9oP~2E3
+9oP~3E3
+;B$vUH
+;B$vvI
+;Ct~EH
+;Ct~MH
+;Ct~ZH
+;Ct~bH
+;H9>&X
+;Vl}fD
+< t;<	t7
+<sqrt
+=imb;D
+>ffffff
+>jtm}S
+?7zQ6$
+?8bunz8
+?:kP<
+?@En[vP
+?H33H
+?QY^&
+?UUUUUU
+?f`Y4
+?{Q}<
+@(A+@4;
+@.data
+@.gfids
+@.reloc
+@.tls
+@09D$0
+@8|$^t
+@>%>b
+@A^A\_^]
+@A^_^
+@A_A^A\_^][
+@A_A^A]A\_
+@A_A^A]A\_^]
+@A_A^]
+@A_A^_
+@A_A^_^]
+@SUVWATAUAVAWH
+@SUVWATAVAWH
+@SVWATAUAVAWH
+@SVWH
+@UATAUAVAWH
+@UATAVH
+@UAVAWH
+@USVWATAUAVAWH
+@VWATAVAWH
+@VWAVH
+@WAVAWH
+A$+A,t[3
+A(9B(D
+A+n H
+A,A9A(v&L
+A,u+H
+A0H9P
+A81t@@8r
+A84.u
+A86taH
+A9FHt
+A9FHtQI
+A;6}#I
+A;H$s
+A;H$v}H
+A>pP&
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ATAVAWH
+AUAVAWH
+A^A\]
+A^A]A\_[]
+A^_^[]
+A^_^][
+A_A^A\
+A_A^A\_]
+A_A^A\_^
+A_A^A]
+A_A^A]A\]
+A_A^A]A\_
+A_A^A]A\_^[]
+A_A^A]A\_^]
+A_A^A]A\_^][
+A_A^A]_]
+A_A^A]_^
+A_A^]
+A_A^_
+A_A^_^]
+A`D9L8
+Access violation - no RTTI data!
+AcquireSRWLockExclusive
+AirAbsorption
+April
+August
+AuthE
+B(I9A(
+B0E8XAt
+B8|09
+BC?>6t9^	c:>
+BF>^G
+Bad dynamic_cast!
+Binaural
+Blends between omni and dipole directivity.
+Bypass the effect during initialization.
+BypassAtInit
+C$u	H
+C(9C u&
+C,9C$u
+C0H9C(r
+C0HcF
+C4D+@ H
+C8<(u
+C9|)$u?C
+C:\buildslave\phonon_rel_win64\build\unity\bin\windows-vs2015-x64-release\audioplugin_phonon.pdb
+ChangeTimerQueueTimer
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CloseThreadpoolWork
+CompareStringEx
+ContextPriority
+ContextStackSize
+CorExitProcess
+CreateEventExW
+CreateEventW
+CreateFileW
+CreateRemoteThreadEx
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+CreateThreadpoolWork
+CreateTimerQueue
+CreateTimerQueueTimer
+CreateUmsCompletionList
+CreateUmsThreadContext
+D$ !\$$H
+D$ 3A
+D$ E3
+D$ H;
+D$ I;
+D$(H;
+D$0C+D0(
+D$0E3
+D$0HcH
+D$0L;
+D$0f;UPu
+D$0tbA
+D$8HcJ
+D$8L9
+D$@E3
+D$@H+
+D$@H;
+D$@Ic
+D$@csm
+D$HL+
+D$PE;O
+D$PH+
+D$PH;
+D$PI;
+D$PIc
+D$XL+
+D$`E3
+D$`Hc
+D$`L+
+D$hA;
+D$xL+
+D08@t	
+D18 t
+D82u&H
+D8;tAH
+D8M@t
+D8M@t^
+D8l$`
+D8sAt
+D8t$Ht
+D8{$t1H
+D9B,t
+D9G$s5
+D9J,w
+D9c t
+D9d$(u
+D9f@~0Hc
+D9x(uiE
+D9{(u
+D9|$ 
+D;j0v
+D;z,u
+D;z,v
+D;z,v(A
+DD$$H
+DP_AirAbsHigh
+DP_AirAbsLow
+DP_AirAbsMid
+DP_Delay
+DP_Directivity
+DP_Distance
+DP_Occlusion
+DP_TransHigh
+DP_TransLow
+DP_TransMid
+December
+DecodePointer
+DeleteCriticalSection
+DeleteProcThreadAttributeList
+DeleteTimerQueueTimer
+DeleteUmsCompletionList
+DeleteUmsThreadContext
+DequeueUmsCompletionListItems
+DipolePower
+DipoleWeight
+Direct occlusion algorithm.
+Direct occlusion and transmission mode.
+DirectBinaural
+DirectLevel
+DirectPath air absorption, high.
+DirectPath air absorption, low.
+DirectPath air absorption, mid.
+DirectPath directivity.
+DirectPath distance attenuation.
+DirectPath occlusion.
+DirectPath propagation delay.
+DirectPath transmission, high.
+DirectPath transmission, low.
+DirectPath transmission, mid.
+Distance
+DuplicateHandle
+DynamicProgressFeedback
+E+H(A
+E0HcH
+E0Lcx
+E8X@t8A
+E;Bl}NE
+E;F$w
+EP*?@
+EPHc@
+ET$(H
+Enable air absorption.
+Enable distance attenuation.
+Enable indirect sound.
+EnableBinaural
+EncodePointer
+EnterCriticalSection
+EnterUmsSchedulingMode
+ExecuteUmsThread
+ExitProcess
+ExitThread
+F(LcF I
+F0LcFDI
+F8HcNDI
+Fail to schedule the chore!
+February
+FindClose
+FindFirstFileExA
+FindNextFileA
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryAndExitThread
+FreeLibraryWhenCallbackReturns
+Friday
+FxH9Fp
+G H9F
+G$;G,
+G0Hc	H
+G8Hc@
+Genu3
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentProcessorNumberEx
+GetCurrentThread
+GetCurrentThreadId
+GetCurrentUmsThread
+GetEnvironmentStringsW
+GetExitCodeThread
+GetFileInformationByHandleEx
+GetFileType
+GetLastError
+GetLocaleInfoEx
+GetLogicalProcessorInformation
+GetLogicalProcessorInformationEx
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetNextUmsListItem
+GetNumaHighestNodeNumber
+GetOEMCP
+GetProcAddress
+GetProcessAffinityMask
+GetProcessHeap
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetThreadGroupAffinity
+GetThreadPriority
+GetThreadTimes
+GetTickCount
+GetTickCount64
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+GetUmsCompletionListEvent
+GetVersionExW
+H!D$ E
+H!T$0D
+H!\$(L
+H!\$03
+H!u H
+H#N(H
+H#t$0tB
+H$E+H,toA
+H+C H=
+H+D$hH+D$P3
+H+D$pH
+H+G H=
+H3\$HH
+H98u	H
+H99u{
+H9A(s
+H9BhuTH
+H9D$PuCI
+H9D$p
+H9J t1
+H9K u
+H9_ht0H
+H9s@u
+H;@0u
+H;@Xu
+H;D$Pu
+H;D$`
+H;XXs
+H;YXt 
+H;xXu9
+HA_A]A\_^[
+HA_A^A]A\_^][
+HH:mm:ss
+HRTF interpolation.
+HRTFIndex
+Hc;HcK
+HcC H
+HcFTL
+HcGl;Gh}
+HcH<H
+HcK H
+HcKhH
+Hc]`M
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+Ht)I;
+I9}(t9H
+IcI A
+Index of the HRTF to use.
+IndirBinaural
+IndirLevel
+IndirType
+Indirect
+InitOnceExecuteOnce
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeProcThreadAttributeList
+InitializeSListHead
+InitializeSRWLock
+InterlockedFlushSList
+InterlockedPopEntrySList
+InterlockedPushEntrySList
+Interpolation
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+January
+K 9N v@H
+K H9y
+K&>.yC
+K0u,H
+K4A+H 
+KERNEL32.dll
+K~Je#>!
+L!|$(L!
+L$ SVWH
+L$ UATAUAVAWH
+L$ UVWATAUAVAWH
+L$ WATAUAVAWH
+L$ WH
+L$$D;
+L$&@8t$&t0@8q
+L$(E3
+L$0H3
+L$0H;
+L$8H3
+L$8H=
+L$@;|
+L$@H3
+L$PH3
+L$XE3
+L$XH3
+L$`E;
+L$`tcA
+L$pH3
+L9`8tA
+L9w t#H
+L9x8u
+L9|$p
+L9~ t
+L;EHt
+LCMapStringEx
+LCMapStringW
+LcA<E3
+LcCP3
+LcFDI
+LcGP3
+LeaveCriticalSection
+Lj[;>
+LoadLibraryExW
+LoadLibraryW
+LocalContextCacheSize
+LocaleNameToLCID
+Lock already taken
+M H1E
+MM/dd/yy
+March
+MaxConcurrency
+MaxPolicyElementKey
+Mbp?333333
+MinConcurrency
+Monday
+MultiByteToWideChar
+N0Hci
+November
+O,D9O(vcH
+O0HcQ
+OcclusionMethod
+OcclusionMode
+October
+OverrideHRTF
+PA^_^
+PA_A^_^]
+QueryDepthSList
+QueryPerformanceCounter
+QueryUmsThreadInformation
+QueueUserWorkItem
+R(A9P4A
+R0E8XAt
+RSDS}
+Radius of the source.
+RaiseException
+Real-time or baked.
+RegisterTraceGuidsW
+RegisterWaitForSingleObject
+Relative level of direct sound.
+Relative level of indirect sound.
+ReleaseSRWLockExclusive
+ReleaseSemaphore
+ResetEvent
+RoInitialize
+RoUninitialize
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+S>$hkDh$h>[2
+SUVWATAUAVAWH
+SUVWAVH
+SVWATAUAVAWH
+SVWATAUAWH
+SVWATAVAWH
+SVWAVAWH
+SVWAVH
+Saturday
+SchedulerKind
+SchedulingProtocol
+September
+SetEvent
+SetFileInformationByHandle
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetThreadAffinityMask
+SetThreadGroupAffinity
+SetThreadPriority
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUmsThreadInformation
+SetUnhandledExceptionFilter
+Sharpness of the dipole directivity.
+SignalObjectAndWait
+Sleep
+SleepConditionVariableCS
+SleepConditionVariableSRW
+SourceRadius
+Spatialize ambisonics audio using HRTF.
+Spatialize direct sound using HRTF.
+Spatialize indirect sound using HRTF.
+Spatialize mixed audio using HRTF.
+Spatialize reverb using HRTF.
+StaticListener
+Steam Audio Ambisonics
+Steam Audio Mixer Return
+Steam Audio Reverb
+Steam Audio Spatializer
+SubmitThreadpoolWork
+Sunday
+SwitchToThread
+T$ A3
+T$ A;
+T$ D+
+T$ E3
+T$0E3
+T$@H;
+T$PE3
+T$`H;
+T$pD;
+T$pE3
+T$pLk
+TUUUU
+TargetOversubscriptionFactor
+TerminateProcess
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TraceEvent
+TryAcquireSRWLockExclusive
+TryEnterCriticalSection
+Tuesday
+UA>N0Wl
+UATAUAVAWH
+UAVAWH
+USVWATAUAVAWH
+USVWAVH
+USWATAUAVH
+UUUUUU
+UVWATAUAVAWH
+UVWATAVH
+UVWAVAWH
+UWATAVAWH
+UWAUAVAWH
+UWAVH
+UmsThreadYield
+UnhandledExceptionFilter
+Unique identifier for the source.
+UnityGetAudioEffectDefinitions
+Unknown exception
+UnregisterTraceGuids
+UnregisterWait
+UnregisterWaitEx
+UpdateProcThreadAttribute
+Uses static listener.
+V0;Ct~ZH
+V6E>`"(5
+VWATAUAVAWL
+VWATAVAW
+VWATAVAWH
+VWAUAVAWH
+VWAVH
+V`;Ct~bH
+VirtualAlloc
+VirtualFree
+VirtualProtect
+W8HcH
+WATAUAVAWH
+WAVAWH
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WakeAllConditionVariable
+WakeConditionVariable
+Wednesday
+Whether to override HRTF index per-source.
+WideCharToMultiByte
+WinRTInitialization
+WriteConsoleW
+WriteFile
+X E9z
+X(D9y(
+XA_A^A\_^[
+Y$D;R
+Y0t>H
+Z(D9Z
+[*ncd>0
+\$ H;
+\$ UH
+\$ UVWATAUAVAWH
+\$ UVWAVAWH
+\$ UVWH
+\$ WH
+\$(I;
+\$0H;
+\$4E;O
+\$@H;
+\$PE3
+\$pE3
+\ffff
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+` UAVAWH
+`.rdata
+`A_A^A]A\_^]
+`A_A^_^]
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+address family not supported
+address in use
+address not available
+already connected
+argument list too long
+argument out of domain
+audioplugin_phonon.dll
+bad address
+bad allocation
+bad array new length
+bad exception
+bad file descriptor
+bad function call
+bad message
+bp(=>?g
+broken pipe
+broken promise
+c [1>H'
+c(>\,
+cAMDD
+connection aborted
+connection already in progress
+connection refused
+connection reset
+count
+cross device link
+d$ D;
+d$ E3
+d$DE;
+d$`H+
+d$hE3
+dddd, MMMM dd, yyyy
+deque<T> too long
+destination address required
+device or resource busy
+directory not empty
+e0A_A^A]A\]
+e@A_A^]
+entiA
+eventObject
+executable format error
+fA9	u/I
+fD90t
+fD94Fu
+fD96u
+fD9t$b
+ffffff
+fffffff
+file exists
+file too large
+filename too long
+function not supported
+future
+future already retrieved
+generic
+h>1my
+host unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+ineIA
+interrupted
+invalid argument
+invalid seek
+invalid string position
+io error
+iplApplyAmbisonicsBinauralEffect
+iplApplyAmbisonicsPanningEffect
+iplApplyBinauralEffect
+iplApplyBinauralEffectWithParameters
+iplApplyDirectSoundEffect
+iplApplyPanningEffect
+iplConvertAudioBufferFormat
+iplCreateAmbisonicsBinauralEffect
+iplCreateAmbisonicsPanningEffect
+iplCreateAmbisonicsRotator
+iplCreateBinauralEffect
+iplCreateBinauralRenderer
+iplCreateContext
+iplCreateConvolutionEffect
+iplCreateDirectSoundEffect
+iplCreateEnvironmentalRenderer
+iplCreatePanningEffect
+iplDeinterleaveAudioBuffer
+iplDestroyAmbisonicsBinauralEffect
+iplDestroyAmbisonicsPanningEffect
+iplDestroyAmbisonicsRotator
+iplDestroyBinauralEffect
+iplDestroyBinauralRenderer
+iplDestroyContext
+iplDestroyConvolutionEffect
+iplDestroyDirectSoundEffect
+iplDestroyEnvironment
+iplDestroyEnvironmentalRenderer
+iplDestroyPanningEffect
+iplFlushAmbisonicsBinauralEffect
+iplFlushAmbisonicsPanningEffect
+iplFlushConvolutionEffect
+iplGetDirectSoundPath
+iplGetEnvironmentForRenderer
+iplGetMixedEnvironmentalAudio
+iplGetWetAudioForConvolutionEffect
+iplInterleaveAudioBuffer
+iplRotateAmbisonicsAudioBuffer
+iplSetAmbisonicsRotation
+iplSetConvolutionEffectIdentifier
+iplSetDryAudioForConvolutionEffect
+iplUnityAddSOFAFileName
+iplUnityGetVersion
+iplUnityRemoveSOFAFileName
+iplUnityResetAudioEngine
+iplUnityResetEnvironment
+iplUnitySetCurrentSOFAFile
+iplUnitySetEnvironment
+iplUnitySetListener
+is a directory
+k0t$I
+kxu/H
+l$ VWATAUAVAWE3
+l$ VWATAVAWH
+l$ VWAVH
+l$ WAVAWH
+l$0E3
+l$HA_A^A]A\_^
+l$PA_A^A]A\_^
+l$`C9,
+list<T> too long
+log10
+message size
+n D9e
+n03>Pu
+network down
+network reset
+network unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no state
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+ntelE
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operator
+operator "" 
+ot$ H
+owner dead
+p AWH
+pA_A^A]A\_^[
+pA_A^A]A\_^]
+pContext
+pEvents
+pExecutionResource
+pScheduler
+pThreadProxy
+permission denied
+ppVirtualProcessorRoots
+promise already satisfied
+protocol error
+protocol not supported
+q(9YD~tE3
+r	Vr.>T
+r	uOD;d$(uH
+r 9_ t
+r:D8v
+rBu/H
+rLp>B
+read only file system
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+ri9V vdH
+s	A9;A
+s@t%@
+sqrtf
+state not recoverable
+stream timeout
+string too long
+switchState
+t H9X8tN
+t"<.u
+t$ AVH
+t$ E3
+t$ WATAUAVAWH
+t$ WAVAWH
+t$ WH
+t$$E3
+t$0f9u
+t$4E3
+t$8H+
+t$H;^Xt
+t$Pu1H
+t$`9w
+t$`;w
+t$h9~
+t&D8{9
+t'B;| 
+t*H9X8u$@8
+t+H;G
+t.8\$P
+t4McF
+t:LcM
+t;A9;
+tCHcP
+tDD9V
+tGH;~XtA
+tP@8|$!u4@8|$"t-
+tSK;D
+tXLcQ
+tbD9R
+text file busy
+timed out
+tlLcA
+tlMcH
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+trLcJ
+ttIcF
+tvLcK
+twH;^XtH3
+u	9w$
+u!!D$(H
+u%!D$@H
+u)!t$(H
+u2A8D
+u3HcH<H
+uf!T$(H!T$ 
+uh@8|$!t,
+unknown error
+uuHcF
+uxHcOP
+uzKs@>
+v A9~ w
+value too large
+vector<T> too long
+version
+wrong protocol type
+x ATAVA
+x ATAVAWH
+x AV3
+x AVE2
+x AVE3
+x AVH
+x AVHcA
+x AWH
+xA_A^A]A\_^][
+y\PD>!
+{ ATAVAWH
+{ AVH
+{(H9n
+|$ AVH
+|$ D!
+|$ E3
+|$ UATAUAVAWH
+|$ UAVAWH
+|$(A^
+|$(I;
+|$0@"
+|$0A^A\
+|$4E;
+|$89^
+|$8;3
+|$@H;
+|$XHcU
+|$\.u
+|$h9i
+|$pE3
+|b=})>
+~(HcNDI
+~`8A!t

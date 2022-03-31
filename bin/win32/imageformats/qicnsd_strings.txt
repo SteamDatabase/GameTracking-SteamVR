@@ -1,0 +1,373 @@
+	?customEvent@QObject@@MAEXPAVQEvent@@@Z
+!This program cannot be run in DOS mode.
+!weakref.load()
+!x->ref.isStatic()
+)<5<R<t<
+,0<0^0n0
+.00cfg
+.?AVQICNSHandler@@
+.?AVQICNSPlugin@@
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQObject@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.idata
+.text
+0 090R0n0
+0!0P0U0[0-22282
+0(0D0J0d0
+0,1L1
+0.0=0P0^0k0
+01P1t1
+020H0^0q0
+0Q?qt_metacast@QImageIOPlugin@@UAEPAXPBD@Z
+0X0p0
+1	1$1B1I1d1
+1)1E1^1w1
+1+1>1Q1d1w1
+1,181P1h1p1t1|1
+1V1`1m1y1
+2"2c2
+2"3'3-3
+2.33393
+202H2P2d2h2|2
+212D2W2s2
+262O2h2~2
+272A2L2S2
+282J2
+293k3
+2k2p2v2
+2k3p3v3
+3!3*333T3]3k3!4-424<4E4L4y4
+3!373S3o3
+3$3J3S3\3r3
+3'393K3]3f3
+3*4X4z4
+3,34383@3X3p3t3
+3/3B3U3K9^9
+4$4+42494A4I4Q4\4a4g4q4{4
+4*4C4\4u4
+4V4[4m4
+4t5y5
+5&5-545;5B5I5Q5Y5a5l5q5w5
+5-5F5_5u5
+526>6f6
+5C6T6e6
+5Genu
+5K5P5V5
+5P6V6\6b6h6n6t6z6
+6.6G6`6y6
+6@7g7t7}7
+7"7(7.747:7@7F7L7R7X7^7d7j7p7v7
+727H7a7z7
+7F7O7n7w7
+8 8$8(8
+8 868L8b8x8
+8$8G8d8
+8%868J8s8
+8S9[9y9
+8q8y8
+9#9,9Z9o9|9
+9/:>:r:}:
+929E9X9n9
+939<9^9o9
+9yRich
+:':k:
+:);8;t;z;
+:*;2;:;@;E;O;[;b;n;w;
+:*;3;
+:/:<:E:z:
+:4:J:`:y:
+:5:<:
+:?:H:q:
+:S?setAlphaChannel@QImage@@QAEXABV1@@Z
+;!;V;|;
+;#;T;Y;_;
+;$;7;J;`;|;
+;%<1<W<c<
+;8;N;d;z;
+;:;O;\;e;
+;H,t.
+;K<g<
+;Q,t&
+;k=p=v=
+<!<7<J<]<p<
+<!=@=h=
+<%<+<1<7<=<C<I<O<U<[<a<g<m<s<y<
+<%<Z<o<|<
+<'<@<E<J<
+<,<8<L<X<`<l<p<t<
+<,=(>|>
+<.<9<?<D<N<Z<a<p<y<
+<8<B<
+<J<W<\<f<o<v<
+=!='=-=3=9=?=E=K=Q=W=]=c=i=o=u={=
+="=;=T=m=
+=)=;=V=^=l=y=
+=/=<=E=
+=4=8=<=X=\=`=
+=6=L=b=x=
+>#>)>/>
+>%>>>W>m>
+>7>P>f>|>
+>9>B>P>T>X>\>`>
+? ?-?f?p?
+?#?)?W?\?b?
+?#?9?O?b?u?
+?&???X?q?
+?+?v?
+??0QBuffer@@QAE@PAVQByteArray@@PAVQObject@@@Z
+??0QByteArray@@QAE@$$QAV0@@Z
+??0QByteArray@@QAE@ABV0@@Z
+??0QByteArray@@QAE@PBDH@Z
+??0QByteArray@@QAE@UQByteArrayDataPtr@@@Z
+??0QByteArray@@QAE@XZ
+??0QDataStream@@QAE@PAVQIODevice@@@Z
+??0QImage@@QAE@$$QAV0@@Z
+??0QImage@@QAE@ABV0@@Z
+??0QImage@@QAE@HHW4Format@0@@Z
+??0QImage@@QAE@XZ
+??0QImageIOHandler@@QAE@XZ
+??0QImageIOPlugin@@QAE@PAVQObject@@@Z
+??0QMessageLogger@@QAE@PBDH0@Z
+??0QRegularExpression@@QAE@ABVQString@@V?$QFlags@W4PatternOption@QRegularExpression@@@@@Z
+??0QString@@QAE@ABV0@@Z
+??0QString@@QAE@UQStringDataPtr@@@Z
+??0QVariant@@QAE@ABVQByteArray@@@Z
+??0QVariant@@QAE@XZ
+??1QBuffer@@UAE@XZ
+??1QByteArray@@QAE@XZ
+??1QDataStream@@QAE@XZ
+??1QImage@@UAE@XZ
+??1QImageIOHandler@@UAE@XZ
+??1QImageIOPlugin@@UAE@XZ
+??1QRegularExpression@@QAE@XZ
+??1QRegularExpressionMatch@@QAE@XZ
+??1QString@@QAE@XZ
+??4QImage@@QAEAAV0@$$QAV0@@Z
+??4QImage@@QAEAAV0@ABV0@@Z
+??5QDataStream@@QAEAAV0@AAE@Z
+??5QDataStream@@QAEAAV0@AAI@Z
+??6QDataStream@@QAEAAV0@I@Z
+??YQByteArray@@QAEAAV0@ABV0@@Z
+??YQByteArray@@QAEAAV0@D@Z
+??YQByteArray@@QAEAAV0@PBD@Z
+?C?H?i?n?|?
+?O?W?_?g?
+?allocate@QArrayData@@SAPAU1@IIIV?$QFlags@W4AllocationOption@QArrayData@@@@@Z
+?at@QString@@QBE?BVQChar@@H@Z
+?atEnd@QDataStream@@QBE_NXZ
+?captured@QRegularExpressionMatch@@QBE?AVQString@@ABV2@@Z
+?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+?close@QBuffer@@UAEXXZ
+?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?constData@QByteArray@@QBEPBDXZ
+?currentImageNumber@QImageIOHandler@@UBEHXZ
+?currentImageRect@QImageIOHandler@@UBE?AVQRect@@XZ
+?data@QArrayData@@QAEPAXXZ
+?deallocate@QArrayData@@SAXPAU1@II@Z
+?device@QDataStream@@QBEPAVQIODevice@@XZ
+?device@QImageIOHandler@@QBEPAVQIODevice@@XZ
+?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+?event@QObject@@UAE_NPAVQEvent@@@Z
+?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+?fromData@QImage@@SA?AV1@ABVQByteArray@@PBD@Z
+?fromLatin1@QString@@SA?AV1@ABVQByteArray@@@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
+?hasMatch@QRegularExpressionMatch@@QBE_NXZ
+?isEmpty@QByteArray@@QBE_NXZ
+?isEmpty@QString@@QBE_NXZ
+?isOpen@QIODevice@@QBE_NXZ
+?isReadable@QIODevice@@QBE_NXZ
+?isWritable@QIODevice@@QBE_NXZ
+?match@QRegularExpression@@QBE?AVQRegularExpressionMatch@@ABVQString@@HW4MatchType@1@V?$QFlags@W4MatchOption@QRegularExpression@@@@@Z
+?number@QByteArray@@SA?AV1@HH@Z
+?number@QByteArray@@SA?AV1@_JH@Z
+?open@QBuffer@@UAE_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+?peek@QIODevice@@QAE?AVQByteArray@@_J@Z
+?qt_assert@@YAXPBD0H@Z
+?qt_assert_x@@YAXPBD00H@Z
+?qt_check_pointer@@YAXPBDH@Z
+?read@QIODevice@@QAE?AVQByteArray@@_J@Z
+?setByteOrder@QDataStream@@QAEXW4ByteOrder@1@@Z
+?sharedNull@QArrayData@@SAPAU1@XZ
+?size@QByteArray@@QBEHXZ
+?skipRawData@QDataStream@@QAEHH@Z
+?startsWith@QByteArray@@QBE_NABV1@@Z
+?status@QDataStream@@QBE?AW4Status@1@XZ
+?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
+?toLatin1@QChar@@QBEDXZ
+?toLocal8Bit@QString@@QHAE?AVQByteArray@@XZ
+?toUInt@QString@@QBEIPA_NH@Z
+?warning@QMessageLogger@@QBAXPBDZZ
+?writeRawData@QDataStream@@QAEHPBDH@Z
+@.data
+@.qtmetadc
+@.reloc
+@.rsrc
+CloseHandle
+CreateEventW
+DeleteCriticalSection
+DisableThreadLibraryCalls
+EnterCriticalSection
+F:\qt5\qtimageformats\plugins\imageformats\qicnsd.pdb
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetStartupInfoW
+GetSystemTimeAsFileTime
+InitializeConditionVariable
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+JU?setOption@QImageIOHandler@@UAEXW4ImageOption@1@ABVQVariant@@@Z
+K?height@QImage@@QBEHXZ
+KERNEL32.dll
+L?isNull@QImage@@QBE_NXZ
+LeaveCriticalSection
+M?loopCount@QImageIOHandler@@UBEHXZ
+MetaData
+MimeTypes
+O?nextImageDelay@QImageIOHandler@@UBEHXZ
+P.tls
+P?qt_metacall@QImageIOPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+QICNSHandler::canRead() called on a sequential device
+QICNSHandler::canRead() called without a readable device
+QICNSHandler::read(): Failed, compressed format "%s" is not supported by your Qt library or this file is corrupt. OSType: "%s"
+QICNSHandler::read(): Failed, unsupported icon bit depth: %u, OSType: "%s"
+QICNSHandler::read(): The device wasn't parsed properly!
+QICNSHandler::scanDevice(): Failed, bad header at pos %s. OSType "%s", length %u
+QICNSHandler::scanDevice(): Failed, file is incomplete.
+QICNSHandler::scanDevice(): Warning! Table of contents contains a bad entry! Stop at device pos: %s bytes. This file may be corrupted.
+QICNSPlugin
+QTMETADATA  qbjs
+QVector<T>::at
+Q_UNREACHABLE was reached
+Q_UNREACHABLE()
+Qt5Cored.dll
+Qt5Guid.dll
+QueryPerformanceCounter
+R?save@QImage@@QBE_NPAVQIODevice@@PBDH@Z
+R?scaled@QImage@@QBE?AV1@HHW4AspectRatioMode@Qt@@W4TransformationMode@3@@Z
+R?scanLine@QImage@@QAEPAEH@Z
+Reason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
+ResetEvent
+S?setColorTable@QImage@@QAEXV?$QVector@I@@@Z
+Scan of the icon variant container ("%s") failed at pos %s.
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+T?setDevice@QImageIOHandler@@QAEXPAVQIODevice@@@Z
+TerminateProcess
+U?setPixel@QImage@@QAEXHHI@Z
+UnhandledExceptionFilter
+Unknown exception
+VCRUNTIME140D.dll
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Z?width@QImage@@QBEHXZ
+_CrtDbgReportW
+_CxxThrowException
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__vcrt_InitializeCriticalSectionEx
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_at_quick_exit
+_crt_atexit
+_except_handler4_common
+_execute_onexit_table
+_free_dbg
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_register_onexit_function
+_seh_filter_dll
+`.rdata
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+asize >= 0 && asize <= aalloc
+ba.ref.isStatic()
+bad allocation
+bad array new length
+bool __cdecl QICNSHandler::canRead(class QIODevice *)
+bool __cdecl parseIconEntryInfo(struct ICNSEntry &)
+bool __thiscall QICNSHandler::read(class QImage *)
+bool __thiscall QICNSHandler::scanDevice(void)
+class QImage __cdecl readMask(const struct ICNSEntry &,class QDataStream &)
+className
+d != Data::unsharableEmpty()
+d->alloc >= uint(aalloc)
+d->data()
+d->size == asize
+debug
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qstring.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+image/x-icns
+index out of range
+int(d->alloc) == aalloc
+isDetached()
+j"j"j"
+j3j3h
+j3j3j
+j3j3j3
+j3j3jf
+j3jfh
+j3jfj
+j3jfj3
+j3jfjf
+j:jqh
+j@j@j@
+jDjDjD
+jUjUjU
+jfj3h
+jfj3j
+jfj3j3
+jfj3jf
+jfjfh
+jfjfj
+jfjfj3
+jfjfjf
+jwjwjw
+malloc
+memcmp
+memcpy
+memset
+org.qt-project.Qt.QImageIOHandlerFactoryInterface
+parseIconEntryInfo(): Failed, 32bit icon from an unknown group. OSType: "%s"
+parseIconEntryInfo(): Failed, OSType doesn't match: "%s"
+pordw,
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qicnsd.dll
+qicnshandler.cpp
+qt_plugin_instance
+qt_plugin_query_metadata
+readMask(): Failed, unusual bit depth: %u OSType: "%s"
+revow,
+snciwT
+str.ref.isStatic()
+strcmp
+strongref.load() <= 0
+terminate
+ucrtbased.dll
+uint(d->size) <= d->alloc
+unknown
+version
+x == d
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
+yT?setFormat@QImageIOHandler@@QAEXABVQByteArray@@@Z
+zT?setFormat@QImageIOHandler@@QBEXABVQByteArray@@@Z

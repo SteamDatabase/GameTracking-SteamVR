@@ -1,0 +1,898 @@
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+ 9(X`
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ SVW3
+ Type Descriptor'
+ delete
+ delete[]
+ new[]
+"0+030o0
+"B <1=
+#.X'=
+#020Q0d0
+$121w1
+%S#[k
+%s/%s
+%s\steamclient.dll
+&0$0"
+'Symantec Time Stamping Services CA - G2
+'Symantec Time Stamping Services CA - G20
+( 8PX
+( CMilesAudioOutputStream * ) m_vecAudioOutputStreams[i]
+( CMilesAudioSound * ) m_vecAudioSounds[i]
+(%s%d)
+(DigiCert SHA2 Assured ID Code Signing CA
+(DigiCert SHA2 Assured ID Code Signing CA0
+(null)
++Symantec Time Stamping Services Signer - G40
++http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
++http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
+,!10	
+,0<	w
+,|%)v
+-jd_;
+.00cfg
+.?AV?$CDynamicFunc@P6GHI@Z@@
+.?AV?$CDynamicFunc@P6GHIH@Z@@
+.?AV?$CDynamicFunc@P6GHPADPAI@Z@@
+.?AV?$CDynamicFunc@P6GHPAHPAIPAPAD@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_DIG_DRIVER@@@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_DIG_DRIVER@@HH@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_SAMPLE@@@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_SAMPLE@@H@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_SAMPLE@@HPAI1PAH2@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_SAMPLE@@HPBXI@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_SAMPLE@@I@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_SAMPLE@@PBDPBXIH@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_SAMPLE@@PBXH@Z@@
+.?AV?$CDynamicFunc@P6GHPAU_SAMPLE@@W4SAMPLESTAGE@@PBDHPAXPBX3@Z@@
+.?AV?$CDynamicFunc@P6GHPBD0I@Z@@
+.?AV?$CDynamicFunc@P6GIPAU_SAMPLE@@@Z@@
+.?AV?$CDynamicFunc@P6GIPAU_SAMPLE@@W4SAMPLESTAGE@@I@Z@@
+.?AV?$CDynamicFunc@P6GIPBD0000@Z@@
+.?AV?$CDynamicFunc@P6GIXZ@@
+.?AV?$CDynamicFunc@P6GP6GXPAU_SAMPLE@@@Z0P6GX0@Z@Z@@
+.?AV?$CDynamicFunc@P6GPADPBD@Z@@
+.?AV?$CDynamicFunc@P6GPADXZ@@
+.?AV?$CDynamicFunc@P6GPAU_DIG_DRIVER@@IHHI@Z@@
+.?AV?$CDynamicFunc@P6GPAU_SAMPLE@@PAU_DIG_DRIVER@@@Z@@
+.?AV?$CDynamicFunc@P6GPAXPBDPAX0I@Z@@
+.?AV?$CDynamicFunc@P6GXP6GIPBDPAI@ZP6GXI@ZP6GHIHI@ZP6GIIPAXI@Z@Z@@
+.?AV?$CDynamicFunc@P6GXPAU_DIG_DRIVER@@@Z@@
+.?AV?$CDynamicFunc@P6GXPAU_SAMPLE@@@Z@@
+.?AV?$CDynamicFunc@P6GXPAU_SAMPLE@@H@Z@@
+.?AV?$CDynamicFunc@P6GXPAU_SAMPLE@@I@Z@@
+.?AV?$CDynamicFunc@P6GXPAU_SAMPLE@@IH@Z@@
+.?AV?$CDynamicFunc@P6GXPAU_SAMPLE@@MM@Z@@
+.?AV?$CDynamicFunc@P6GXPAU_SAMPLE@@PAH1@Z@@
+.?AV?$CDynamicFunc@P6GXPAU_SAMPLE@@PAM1@Z@@
+.?AV?$CDynamicFunc@P6GXPAU_SAMPLE@@PBXI@Z@@
+.?AV?$CDynamicFunc@P6GXPAX@Z@@
+.?AV?$CDynamicFunc@P6GXXZ@@
+.?AV?$CUtlMap@VCUtlSymbol@@PAXHV?$CDefLess@VCUtlSymbol@@@@@@
+.?AV?$CUtlRBTree@UNode_t@?$CUtlMap@VCUtlSymbol@@PAXHV?$CDefLess@VCUtlSymbol@@@@@@HVCKeyLess@2@V?$CDefRBTreeBalanceListener@H@@@@
+.?AV?$CUtlRBTree@VCStringPoolIndex@CUtlSymbolTable@@GVCLess@2@V?$CDefRBTreeBalanceListener@G@@@@
+.?AV?$CUtlVector@PAUStringPool_t@CUtlSymbolTable@@V?$CUtlMemory@PAUStringPool_t@CUtlSymbolTable@@@@@@
+.?AV?$CUtlVector@PAVCMilesAudioDevice@@V?$CUtlMemory@PAVCMilesAudioDevice@@@@@@
+.?AV?$CUtlVector@PAVIAudioDeviceListener@@V?$CUtlMemory@PAVIAudioDeviceListener@@@@@@
+.?AV?$CUtlVector@PAVIAudioOutputStream@@V?$CUtlMemory@PAVIAudioOutputStream@@@@@@
+.?AV?$CUtlVector@PAVIAudioSound@@V?$CUtlMemory@PAVIAudioSound@@@@@@
+.?AVCAudioController@@
+.?AVCDLLValidate@@
+.?AVCIAudioSinkListNull@@
+.?AVCMilesAudioDevice@@
+.?AVCMilesAudioOutputStream@@
+.?AVCMilesAudioSound@@
+.?AVCMilesLibrary@@
+.?AVCPathString@@
+.?AVCUtlCStringConversion@@
+.?AVCUtlCharConversion@@
+.?AVCUtlMemoryBase@@
+.?AVCUtlNoEscConversion@@
+.?AVCUtlString@@
+.?AVIAudioDevice@@
+.?AVIAudioOutputStream@@
+.?AVIAudioSinkList@@
+.?AVIAudioSound@@
+.?AVIDynamicFunction@@
+.?AVIValidate@@
+.?AV__non_rtti_object@std@@
+.?AV_com_error@@
+.?AVbad_typeid@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XPA
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data
+.data$r
+.edata
+.http://crl.thawte.com/ThawteTimestampingCA.crl0
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.rdata
+.rdata$r
+.rdata$sxdata
+.rdata$zzzdbg
+.reloc
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text
+.text$di
+.text$mn
+.text$yd
+.xdata$x
+/http://crl3.digicert.com/sha2-assured-cs-g1.crl05
+/http://crl4.digicert.com/sha2-assured-cs-g1.crl0K
+0 0$0(0,000T0X0\0`0d0
+0 0,040@0H0T0\0h0p0|0
+0!0-04090>0E0K0V0Z0a0m0t0y0~0
+0'1T1g1
+0+020A0U0a0k0
+0,0<0@0P0T0\0t0
+0,1d1
+010C0U0g0
+040P0
+050?0D0L0^0|0
+050L0S0
+051K1
+061110000000Z
+0A0I0N0^0h0
+0A0d0
+0D0`0
+0D2k2
+0r0^1
+1 1$1@1D1H1L1P1p1t1x1|1
+1 1:1C1P1Z1|1
+1!1-14191>1E1K1V1Z1a1m1t1y1~1
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+1$10181D1L1X1`1l1t1
+1,10141<1T1d1h1p1
+111=1E1]1I2
+121018000000Z
+121221000000Z
+131022120000Z
+150925000000Z
+180430185305Z0#
+181003120000Z0M1
+1?2U2|2
+1D1I1O1T1
+1V1n1
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2 2(242<2H2P2\2d2p2x2
+2!2-24292>2E2K2V2Z2a2m2t2y2~2
+2$2,242<2D2L2T2\2d2l2t2|2
+2$212N2
+2$3,343<3D3L3T3\3d3l3t3|3
+2%6,636:6
+2+202[2`2
+2+3X3
+2,2024282<2
+2,20242<2T2d2h2x2|2
+2,3`3
+201229235959Z0b1
+201230235959Z0^1
+281022120000Z0r1
+282`2
+2@2L2]2n2~2
+2B2]2m2r2|2
+2H3L3P3T3X3x3|3
+2R3^3
+2^31;9;p;w;
+2h4l4p4t4x4|4
+3 383H3L3\3`3d3l3
+3 3<3@3H3P3X3`3t3
+3 4$4(4,404L4P4T4X4\4t4x4|4
+3!3'3-32383@3E3T3a3l3r3w3
+3!3-34393>3E3K3V3Z3a3m3t3y3~3
+3$3,383@3L3T3`3h3t3|3
+3%3Q3
+3&3,323[3c3h3
+3+7.8?8p:
+3,4`4
+3-3M3R3V5^5f5n5
+311110000000Z0e1
+3B3J3c3n3
+3B3T3]3q3
+3F3W3~3
+3]4l4~4
+4 4@4H4L4h4
+4!4'4.454<4C4J4Q4X4`4h4p4|4
+4!4'4c4q4v4
+4!4-44494>4E4K4V4Z4a4m4t4y4~4
+4$4,444<4D4L4T4\4d4l4t4|4
+4(4w4
+4+494I4^4u4
+4,404@4D4H4P4h4x4|4
+42595@5G5a5p5z5
+454:4@4
+465}6e9
+4P5e5
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
+4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+4r4w4}4m5
+5 5(50585@5H5P5X5`5h5p5x5
+5!5-54595>5E5K5V5Z5a5m5t5y5~5
+5!525
+5#6;6F6W6m6}6
+5$5(5,545L5\5`5p5t5x5
+5$5,545<5D5L5T5\5d5l5
+5$5,545<5D5L5T5\5d5l5t5|5
+5$5:5s5
+5'6t6
+5(5H5h5
+5(6`6
+5-6t6
+50301
+506B6x6
+516L6^8
+516w6
+535I5V5r5
+5C5g5
+5D5x5
+5F6K6]6{6
+5Genu
+5T7X7
+5ineI
+6 6(60686@6H6P6X6`6h6p6x6
+6!6-64696>6E6K6V6Z6a6m6t6y6~6
+6$6,646<6D6L6T6\6d6l6t6|6
+6&7M7X7
+6(686H6X6p6|6
+6(6H6T6p6
+6)71797A7I7g7o7
+606@6D6T6X6\6d6|6
+6H6Z6
+6N8W8w8
+6n617b7
+7	8)8p8
+7 7&7A7H7
+7 7(70787@7H7P7X7`7h7p7x7
+7!7-74797>7E7K7V7Z7a7m7t7y7~7
+7!72787C7K7V7\7g7m7{7
+7"7v7
+7#8j8t8
+7$7(787<7@7H7`7p7t7
+7$7,747<7D7L7T7\7d7l7t7|7
+7,8H8d8
+700WP
+7;7K7
+7<7h7
+7Q7c7
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+8 8$8,8D8T8X8h8l8p8x8
+8 8(80888@8H8P8X8`8h8p8x8
+8!8-84898>8E8K8V8Z8a8m8t8y8~8
+8"8.8<8h8q8y8h9
+8"979E9N9
+8$8,848<8D8L8T8\8d8l8t8|8
+8&8=8R8Y8_8q8{8
+8)8m8
+8/8I8p8
+80604
+80848<8@8D8(:,:0:4:8:<:
+879S9}>
+8F%t 
+8\9d9j9{9
+8] j0
+9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9l9p9t9x9|9
+9 9(90989@9H9P9X9`9h9p9x9
+9!9-94999>9E9K9V9Z9a9m9t9y9~9
+9$9,949<9D9L9T9\9d9l9t9|9
+9$9T9x9
+9(989<9L9P9T9\9t9
+9(:3:
+96:E:S:p:x:
+98:c:
+9;9@9E9K9S9c9h9u9
+9E WW
+9K9P9T9X9\9
+9b9f9r9z9
+9s@~%
+9{l~.
+: :(:0:8:@:H:P:X:`:h:p:x:
+: :0:4:8:@:X:h:l:|:
+:!:(:1:A:L:R:c:p:
+:!:-:4:9:>:E:K:V:Z:a:m:t:y:~:
+:$:,:4:<:
+:$:@:d:
+:%;d;
+:(:0:5:@:F:K:[:`:k:q:v:
+:*:C:R:^:l:
+:3;:;
+:4:T:t:
+:5>5B5F5
+:6:A:N:a:g:n:t:z:
+:6:V:|:\;
+:B:O:p:u:
+; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+; ;(;0;8;@;H;P;X;
+;!;-;4;9;>;E;K;V;Z;a;m;t;y;~;
+;!<1<B<H<
+;$;<;L;P;`;d;h;p;
+;%;w;
+;&;,;1;A;_;g;~;
+;&;0;L;W;\;a;|;
+;*;<;T;
+;,;0;4;8;<;|;
+;.;e;
+;4;T;t;
+;7<Z<
+;?<w<
+;Z;f;r;~;
+;_;7<
+;t$,v-
+< <$<(<,<0<4<8<<<@<
+< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+< <0<4<D<H<L<T<l<|<
+< <;<K<m<
+< t1<	t-
+<#<4<
+<$<T<t<
+<)=T=v=
+<,=\=
+<-<G<\<n<|<
+<0E0]0o0
+<1<A<]<h<m<r<
+<1<G<Q<W<q<x<
+<5IkQ
+<6=\=
+<9<l<p<t<x<|<
+<9=V=f=
+<<<G<W<
+= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+= =x=
+="=*=3=O=v=
+="=,=5=F=X=s=
+=$=:=D=c=
+=$=D=d=
+=(=,=4=L=\=`=h=
+=(=9=E=V=b=~=
+=*>7>B>H>Q>W>^>e>t>
+=;=F=S=h=s=
+=G>e>
+=L>l>
+=U=h=
+=W>^>e>l>y>
+=]>f>
+> >D>H>L>P>T>t>x>|>
+>"hcS
+>$>,>4><>D>L>T>\>d>l>t>|>
+>*>F>
+>,><>@>P>T>\>t>
+>,?K?P?x?}?
+>3>I>o>
+>4?F?
+>B>`>
+>D>Z>l>
+>Z?h?
+>_?g?
+? ?$?(?,?
+?!?&?M?V?[?`?
+?(?,?4?L?\?`?p?t?x?
+?,?0?4?8?@?X?
+?0?L?
+?5Wg4p
+??0?$CDbgFmtSafeImplT@$00@@QAE@PBD@Z
+??0?$CDbgFmtSafeImplT@$0A@@@QAA@PBDZZ
+??0CThreadMutex@@QAE@XZ
+??1CThreadMutex@@QAE@XZ
+?@?D?H?L?P?t?x?|?
+?ClaimArrayMemory@CValidator@@QAEXPAX@Z
+?ClaimMemory@CValidator@@QAEXPAX@Z
+?IsClaimed@CValidator@@QAE_NPAX@Z
+?J?Z?
+?Pop@CValidator@@QAEXXZ
+?Push@CValidator@@QAEXPBDPAX0@Z
+?V_stristr@@YAPBDPBD0@Z
+@.data
+@3F3P3W3
+@4H4P4X4`4h4p4x4
+@b;zO]
+A1<Fu
+A3kdm
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
+Access violation - no RTTI data!
+April
+AssertMsgImplementation
+Assertion Failed: !pszString || pszString[nChars] == '\0'
+Assertion Failed: (&src < Base()) || (&src >= (Base() + Count()) )
+Assertion Failed: (elem == Count()) || IsValidIndex(elem)
+Assertion Failed: 0
+Assertion Failed: info.m_pReplacementString == 0
+Assertion Failed: len <= mlen
+Assertion Failed: len > 0 || HasError()
+Assertion Failed: m_nBytesPerSample == 2
+Assertion Failed: m_nChannels == 1 || m_nChannels == 2
+Assertion Failed: m_nCount == 0
+Assertion Failed: m_nCount == 1
+Assertion Failed: m_nCount >= 0
+Assertion Failed: m_pModule
+Assertion Failed: m_unSizeOfElements > 0
+Assertion Failed: nChannels == 1 || nChannels == 2
+Assertion Failed: nGrowSize >= 0
+Assertion Failed: nMinCapacity <= k_nMaxStringSize
+Assertion Failed: nMinCapacity > Capacity()
+Assertion Failed: nMinCapacity >= nChars
+Assertion Failed: num > 0
+Assertion Failed: pPool->m_SpaceUsed < 0xFFFF
+Assertion Failed: s_bAllowStaticSymbolTable
+Assertion Failed: strlen(pchModuleName) + V_strlen(pModuleExtension) < MAX_UNICODE_PATH_IN_UTF8
+Assertion failed: length > k_cchMaxString
+Attempted a typeid of nullptr pointer!
+AudioSinkList
+August
+BC .=
+BVj(j
+Bad read pointer - no RTTI data!
+Bellevue1
+Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
+C;^8u
+CPathString
+CRYPT32.DLL
+CS:GO
+CUtlSymbol
+CUtlSymbolTable
+CloseHandle
+CorExitProcess
+CreateFileW
+CreateInterface
+CreateMilesMusicAudioDevice
+CreateMilesSoundAudioDevice
+CreateMilesVoiceAudioDevice
+D0B07
+December
+DeleteCriticalSection
+DetectNow failed
+DigiCert Assured ID Root CA0
+DigiCert Inc1
+Dota 2
+Download failed
+Durbanville1
+EnterCriticalSection
+Error State on string being set.
+ExitProcess
+F1<at
+F1<gt
+F4^[]
+F;s@|
+F;w@|
+F@j:f
+Failed setting downloads
+Failed setting updates
+Failed to get IAutomaticUpdates
+Failed to get ISystemInformation
+Failed to get IUpdateDownloader
+Failed to get IUpdateInstallationResult
+Failed to get IUpdateInstaller
+Failed to get IUpdateSearcher
+Failed to get IUpdateSession
+Failed to get update result code
+Failed to init COM
+Failed to open digital audio driver %s
+February
+FindClose
+FindFirstFileExA
+FindNextFileA
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FreeAudioDevice
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
+GD[_^]
+GWVj	
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentDirectoryW
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetDriveTypeW
+GetEnvironmentStringsW
+GetExitCodeProcess
+GetFileAttributesW
+GetFileSizeEx
+GetFileType
+GetFullPathNameW
+GetLastError
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExA
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+H0F08
+H3|vr
+HH:mm:ss
+HeapAlloc
+Ht$;}
+IVALIDATE001
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+Install failed
+Install failed for one or more updates
+InstallPath
+InterlockedFlushSList
+InvalidParameterHandler
+Is64BitOS
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+January
+KERNEL32.dll
+LCMapStringEx
+LCMapStringW
+LeaveCriticalSection
+LoadLibraryA
+LoadLibraryExA
+LoadLibraryExW
+LoadLibraryW
+LocalFree
+LocaleNameToLCID
+MM/dd/yy
+MUSIC
+March
+MilesLoader
+Monday
+MultiByteToWideChar
+NAN(IND)
+NAN(SNAN)
+November
+OLEAUT32.dll
+October
+OpenProcess
+PDG;{l|
+PP9E u:PPVWP
+PPPPP
+PPPPPPPP
+PPPPPWS
+PQhXH
+PQh`I
+Plat_ExitProcess
+Plat_FloatTime
+Plat_IsInDebugSession
+PureClass
+QQSVW
+QQSWj0j@
+QVWSj
+QueryPerformanceCounter
+RUNASADMIN
+RaiseException
+Ramp Time
+Ramp To
+ReadFile
+RegCloseKey
+RegOpenKeyExA
+RegQueryValueExA
+RegQueryValueExW
+RtlUnwind
+SOUND
+SSVWh 
+SVWPh
+SVWUj
+Saturday
+September
+SetFilePointer
+SetFilePointerEx
+SetFileTime
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
+Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
+Software\Microsoft\Windows\CurrentVersion\Run
+Software\Valve\Steam
+Software\Valve\Steam\ActiveProcess
+Steam
+SteamClientDll
+StringFindSuffix
+Sunday
+Symantec Corporation100.
+Symantec Corporation1402
+TerminateProcess
+Thawte Certification1
+Thawte Timestamping CA0
+Thawte1
+Thursday
+TimeStamp-2048-10
+TimeStamp-2048-20
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Tuesday
+UQPXY]Y[
+URPQQhP
+UnhandledExceptionFilter
+Unknown exception
+Update search failed
+VISTARTM
+VISTASP1
+VISTASP2
+VOICE
+V_FixDoubleSlashes
+V_FixSlashes
+V_IsAbsolutePath
+V_RemoveDotSlashes
+V_RemoveDotSlashes failed for "%s".
+V_StripFilename
+V_UTF16ToUTF8
+V_UTF32ToUTF16
+V_UTF32ToUTF8
+V_UTF8ToUTF16
+V_UnqualifiedFileName
+V_snprintf
+V_strncat
+V_strncat_length
+V_strncpy
+V_strnicmp
+Valve0
+Valve1
+Volume Ramp Filter
+WIN2000
+WIN4SP5
+WIN7RTM
+WIN95
+WIN98
+WINSRV03SP1
+WINSRV08SP1
+WINXPSP2
+WINXPSP3
+WSVPP
+WWWPWS
+Wednesday
+Western Cape1
+WideCharToMultiByte
+Wj0XPV
+WriteConsoleW
+WriteFile
+WriteMiniDump
+Y_[^]
+Y__^[
+[aOni*{
+\bin\
+\vnO^
+]jxdE
+^$+^8+
+^<V7w
+_AIL_allocate_sample_handle@4
+_AIL_close_digital_driver@4
+_AIL_digital_latency@4
+_AIL_enumerate_filters@12
+_AIL_file_read_info@16
+_AIL_file_size_info@12
+_AIL_find_filter@8
+_AIL_get_preference@4
+_AIL_get_timer_highest_delay@0
+_AIL_init_sample@8
+_AIL_last_error@0
+_AIL_load_sample_buffer@16
+_AIL_mem_free_lock@4
+_AIL_minimum_sample_buffer_size@12
+_AIL_open_digital_driver@16
+_AIL_register_EOS_callback@8
+_AIL_release_sample_handle@4
+_AIL_resume_sample@4
+_AIL_sample_buffer_available@4
+_AIL_sample_buffer_info@24
+_AIL_sample_loop_count@4
+_AIL_sample_mixed_ms@4
+_AIL_sample_ms_position@12
+_AIL_sample_stage_property@28
+_AIL_sample_status@4
+_AIL_sample_user_data@8
+_AIL_sample_volume_pan@12
+_AIL_serve@0
+_AIL_set_file_callbacks@16
+_AIL_set_named_sample_file@20
+_AIL_set_preference@8
+_AIL_set_redist_directory@4
+_AIL_set_sample_address@12
+_AIL_set_sample_buffer_count@8
+_AIL_set_sample_file@12
+_AIL_set_sample_loop_count@8
+_AIL_set_sample_playback_rate@8
+_AIL_set_sample_position@8
+_AIL_set_sample_processor@12
+_AIL_set_sample_user_data@12
+_AIL_set_sample_volume_levels@12
+_AIL_set_sample_volume_pan@12
+_AIL_shutdown@0
+_AIL_start_sample@4
+_AIL_startup@0
+_AIL_stop_sample@4
+_RIB_find_files_provider@20
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+`.rdata
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h````
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+atan2
+audio.dll
+bin/mss32
+c:\buildslave\vrpanorama_main_win32\build\src\common\AudioRelease\audio.pdb
+c:\buildslave\vrpanorama_main_win32\build\src\common\audio\audiocontroller.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\common\audio\milesaudiodevice.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\common\audio\milesaudiooutputstream.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\common\audio\milesaudiosound.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\common\audio\mileswrapper.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\public\tier1\interface.h
+c:\buildslave\vrpanorama_main_win32\build\src\public\tier1\utlstring.h
+c:\buildslave\vrpanorama_main_win32\build\src\public\tier1\utlvector.h
+c:\buildslave\vrpanorama_main_win32\build\src\tier1\fileio.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier1\interface.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlbuffer.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlmemory.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlstring.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlsymbol.cpp
+csgolauncher.exe
+dddd, MMMM dd, yyyy
+dota2launcher.exe
+dota2launcher_nexon.exe
+e+000
+eLK(w
+f9:t!V
+f<\u<h
+failed to load miles library
+floor
+frexp
+g0e0*
+g_dwDllEntryThreadId
+g_pMemAllocSteam
+get_Count failed
+get_RebootRequired failed
+get_Updates failed
+getcwd_utf8
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0N
+http://ocsp.thawte.com0
+http://ts-ocsp.ws.symantec.com07
+https://www.digicert.com/CPS0
+iu+-,
+j Y;E
+ldexp
+log10
+m0k0$
+m_Elements
+m_Lookup
+m_Memory
+m_StringPools
+m_Tree
+m_mapSoundImages
+m_strFileName
+m_strUniqueName
+m_vecAudioDeviceListeners
+m_vecAudioOutputStreams
+m_vecAudioSounds
+m_vecDevices
+m_vecDevices[i]
+memoverride.cpp
+nBytesItem is %d in UtlMemory_CalcNewAllocationCount
+nan(ind)
+nan(snan)
+obwQ4
+operator
+operator "" 
+operator co_await
+p0n05
+p1f3q>
+restrict(
+rxP-'
+s_pAudioController
+s_pSymbolTable
+steam.exe
+steamcmd
+steamcmd.exe
+t#G;~
+t(F;w
+t4SWV
+tBf;~
+tOf;]
+tier0_vr.dll
+t}SVP
+u	[_2
+u"h`n
+u-PWWS
+v	N+D$
+v2!L.2
+vstdlib_vr.dll
+wIPS3
+www.digicert.com1$0"
+www.digicert.com110/
+x0v0$
+xpxxxx
+y3+.{
+z0x0:
+|1!2H2
+~ $s%r
+~0WPQ
