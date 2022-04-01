@@ -133,6 +133,7 @@
   wmstatus.audio_tf9892_sregs 
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
+ %41g
  '-46
  (cal)
  (does the path point to a directory?)
@@ -160,6 +161,7 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
+ 1{A%
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -252,6 +254,7 @@
 !IsInUse()
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
 !bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
+!hn7!
 !leftSyncIsReal
 !m_stackFreeResources.empty()
 !rightSyncIsRealAsItGets
@@ -613,6 +616,7 @@ $w!Hc
 ' property is not an integer type.
 ' property is not an object.
 ' value is not an integer type.
+',=?k
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
@@ -655,8 +659,6 @@ $w!Hc
 (D$`f
 (D$pH
 (D;}8
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (E;~,
 (Enumerating)
 (Failed Enumeration)
@@ -699,6 +701,7 @@ $w!Hc
 (d$`B
 (d$`L
 (d$pD
+(f*^[0
 (l$0D
 (l$0I
 (l$@D
@@ -861,12 +864,14 @@ $w!Hc
 )|$pH
 )|$pI
 )|$pf
+*9Z9N
 *H+KXI
 *HcT$PH
 *T$4I
 *uXI;
 +C,+C
 +D9c0t H
++Xt@(
 +laser0
 +laser1
 +motor0
@@ -890,8 +895,7 @@ $w!Hc
 ,0<6w H
 ,9k0t%H
 ,9{0t%H
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
@@ -1354,6 +1358,7 @@ $w!Hc
 0D9c0t'H
 0_^[H
 0_^]H
+0w0c1
 0x%08llx
 0}0i1
 1.2.5
@@ -1361,35 +1366,37 @@ $w!Hc
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 130801120000Z
-160107120000Z
 1A26b
 1A9p 
 1I9p 
 1e+9999
 1wsHp
 2).lighthouse.pb.CBaseConfigAndDynamicState"
-210101000000Z
 210429000000Z
 211007000000Z
 21VNt
-220331225335Z0/
+220323000000Z
+220329000000Z
+220401223505Z0/
 2333333
 241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2HcB,
 2YUYw,tE
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-310106000000Z0H1
-310107120000Z0r1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+330314235959Z0L1
 3333333
 360428235959Z0i1
+370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
 3Pole
 3mq+<
 42HcF,
 4Pole
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -1398,7 +1405,6 @@ $w!Hc
 70503
 7HcC,
 7^d[L
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7u;H;
 8"u	H
 8*u	H
@@ -1432,7 +1438,6 @@ $w!Hc
 8\u7H
 8^Ht!D8fIt
 8_^][
-8aMbF$
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -1536,10 +1541,10 @@ $w!Hc
 : exception thrown in JSON library
 : one or more FS callback not set
 : ppm=
-:0806
 :0u(H
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
+:?BTc
 :EotB
 ; expected 
 ; last read: '
@@ -1591,6 +1596,7 @@ $w!Hc
 =SNRtt%
 =TADIt<=DNEI
 =q=J?
+=rIQU
 >"t-H
 >#u&H
 >$u5I
@@ -2116,6 +2122,7 @@ AddUInt32
 AddUInt64
 Additional system report data updated for %s
 Adobe
+AjEB#AZ
 Alfred
 Alias
 Already saw decimal point or exponent; can't have another one.
@@ -2462,7 +2469,6 @@ CertFindCertificateInStore
 CertFreeCertificateContext
 CertGetNameStringA
 Ch9C,uiH
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 ClHcKhH
 Clamping MC to %d (%0.1f%%) %d (%0.1f%%)
 ClearField
@@ -2911,11 +2917,11 @@ DeviceGC
 DeviceIoControl
 DeviceMessageWindow_t::RunFrame
 Devices with no on-device calibration are not supported in the Lighthouse driver.
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Disabled
@@ -3592,7 +3598,6 @@ I(+K H
 I(9J(}
 I(I+I H
 I+G@H
-I0G08
 I9<$u
 I9A A
 I9B A
@@ -3752,6 +3757,7 @@ IcE4J
 IcL$,
 IcN,H
 IcO4H
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 IiGM>nw
 Image data is empty for image[
 Image height mismatch. for image[
@@ -4084,6 +4090,7 @@ LcO,H+H@I
 LcQ(I
 Lcl$$I
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Lighthouse %s HID device error
 Lighthouse %s HID opened
 Lighthouse DB Base station %08X has a zero serialNumber in JSON
@@ -4117,7 +4124,6 @@ M H1E
 M#V0M
 M#W0M
 M#e0I
-M$#0]
 M98u/
 M9H s
 M;A r
@@ -4366,7 +4372,6 @@ Protocol message was modified concurrently during serialization.
 Prototype
 Pz}b!
 Q@D85
-QJxy6z'
 Qk6eV5RE
 Qkkbal
 QueryPerformanceCounter
@@ -4378,7 +4383,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDS]
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4439,6 +4443,7 @@ S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-39871
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 S0IcH
+S0Q0O
 S8H+S0H
 SATAUAVAWH
 SATAUAWH
@@ -4925,7 +4930,6 @@ Utah MP
 UuidFromStringA
 V H+V
 V2 HMD with bogus trackrefs detected in configuration:
-V3"/"6
 V8H;C
 VATAUAVH
 VATAUH
@@ -5342,7 +5346,6 @@ YAPH+
 Yl$ M
 Yl$4E
 Yl$hfD
-Yoyo(
 YwrHc
 Z* ,	
 Z9k0tUD
@@ -5570,7 +5573,6 @@ _initterm
 _initterm_e
 _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _localtime64
 _lock_file
 _low_res.obj
@@ -5936,11 +5938,11 @@ drop %08X u%d (i%d)
 dualSpeakerAndJackOutput
 dual_extrinsics
 dvNL9
-dwc_#Ri
 dxgi.dll
 dynamic_state
 dynamic_state_json
 dynamic_states
+e,>~^
 eCapture
 eCommunications
 eConsole
@@ -6082,7 +6084,6 @@ flWaitTime < 1.0
 flags
 flags2
 float
-fnVa')
 focal_x
 focal_y
 fopen
@@ -6177,12 +6178,10 @@ hits:
 htc/vive_controller
 htc/vive_tracker
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
-https://www.digicert.com/CPS0
 i H9i0u
 iauds
 ideal_period
@@ -6312,7 +6311,6 @@ isalpha
 isdigit
 isspace
 ix`fA
-j0h02
 java_generate_equals_and_hash
 java_generic_services
 java_multiple_files
@@ -6394,7 +6392,6 @@ l$xM+
 l6qnk
 l?Nb0?
 lEyeFile:%s width:%d height:%d components:%d
-lF:WR
 label
 lastChaperoneCommit
 last_eye
@@ -6428,7 +6425,6 @@ localeconv
 location
 low_mm
 m0_$@
-m0k0$
 mXu.H
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
@@ -6546,7 +6542,6 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-nwA?y
 o@@fD
 oD$ fD
 oD$0H
@@ -7618,7 +7613,6 @@ w(M9w0tH
 w+OQvr
 wUD;C$}OH
 wXH9w`t/H
-w^$1~
 wcsncmp
 wcsrchr
 wcsstr
@@ -7640,8 +7634,6 @@ wrong color format
 wrong submessage type
 wrong version
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
 w{L9=
 x ATAVAWH
 x AVH
@@ -7652,8 +7644,8 @@ xA\_][
 xA^A\_^][
 xA_A]_]
 xA_A^_^][
+x]~\6
 x_^][
-y0w0$
 y@tTyY1
 yxxxxxxx
 yxxxxxxxE
@@ -7663,10 +7655,8 @@ yxxxxxxxI
 yxxxxxxxL;
 yxxxxxxxf
 yxxxxxxxu!H
-y}sTzh[
 z+u)H
 z/u-H
-z0x0:
 z2u0H
 z4u2H
 z?X9T?
@@ -7703,6 +7693,7 @@ zuusA
 {knuckles}valve_controller_knu_ev1_3_right
 {knuckles}valve_controller_knu_ev2_0_left
 {knuckles}valve_controller_knu_ev2_0_right
+{un'%
 |$ 9kh~
 |$ 9y ~=H
 |$ @8y
@@ -7821,7 +7812,6 @@ zuusA
 |D;k(|?uyH
 |Lu?c
 |Wu	A
-|]E-K
 |fu0f
 |s;K(tnA
 }(Hcv4I

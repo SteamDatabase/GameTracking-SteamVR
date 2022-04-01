@@ -14,7 +14,6 @@
 (f*^[0
 (l$PD
 (t$pH
-)/(Z6
 )D$ H
 )\$pD
 )d$`D
@@ -92,7 +91,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220331225133Z0/
+220401223229Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -104,7 +103,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4"mF'
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -175,7 +173,6 @@ D9@ s
 D9H s
 D;A s
 D;I s
-D[Ej)
 DeleteCriticalSection
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -266,7 +263,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS%jwO@
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -297,6 +293,7 @@ TlsSetValue
 UAVAWH
 USVWATAUH
 UWAVH
+Ujnqq|
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -318,6 +315,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+YaEB2
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -326,7 +324,6 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
-\ZY,|W
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -365,7 +362,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`>nGp=O
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -375,16 +371,14 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
 camera
+cou=[
 d$`H=
 d3d11.dll
-dgwLg7U+
 dk2_camera
 driver_oculus_legacy.dll
 e,>~^
 effffff
 f9<Xu
-fj@+6
-g>eHoK
 getenv
 gfffffffH
 headset
@@ -450,7 +444,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-pC&@.
+q3{\Hko
 startup
 string too long
 strncpy
@@ -461,7 +455,6 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-t0Fb6
 tIL95v
 tXfff
 tdh.dll
@@ -472,7 +465,6 @@ vector<T> too long
 www.digicert.com1!0
 x]~\6
 z(uMH
-zah0+T
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -486,5 +478,6 @@ zah0+T
 |$ AVH
 |$8I;
 |Lu?c
+|}Gb+
 }LuHO
 ~t&LN

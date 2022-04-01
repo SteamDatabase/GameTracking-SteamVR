@@ -8,7 +8,6 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
-#o>s*_
 ',=?k
 (D$0f
 (f*^[0
@@ -112,12 +111,11 @@
 0}0i1
 1.0.0
 130801120000Z
-1U/[L
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220331224614Z0/
+220401222718Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -128,13 +126,12 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3T+v;
 3mq+<
-5/Fbv3
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
+7+ddCw$;j?
 70503
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -165,6 +162,7 @@ A_A^A\_^[]
 A_A^^]
 AjEB#AZ
 AuthD
+B	Qwv
 Bellevue1
 C++/WinRT version:1.0.190111.3
 CD$@3
@@ -223,7 +221,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KurOD<
 K}*n:	
 L$ SH
 L$ SUVWH
@@ -244,6 +241,7 @@ OLEAUT32.dll
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QI(?/'
 QueryPerformanceCounter
 QueryPerformanceFrequency
 ResetEvent
@@ -252,6 +250,7 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+Rz^vu
 S0Q0O
 SA|X=G
 SVWATAUAVAWH
@@ -329,7 +328,6 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
-_}lwLiE
 `.rdata
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -363,7 +361,6 @@ malloc
 memcpy
 memmove
 memset
-muH(Q?
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
@@ -375,7 +372,6 @@ t$8H9)t
 t$@H=
 tXfff
 terminate
-uD7\o
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long

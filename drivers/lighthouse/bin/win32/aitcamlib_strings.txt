@@ -30,6 +30,7 @@ $9^ t
 , last executing in 
 ,020@0L0
 ,W5y+
+.#+Y9
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -99,7 +100,6 @@ $9^ t
 .tls$ZZZ
 .xdata$x
 /9s<u*
-/Fb	_
 /delivery_rate
 /elapsed_time
 /format
@@ -153,6 +153,7 @@ $9^ t
 1F1V1`1e1o1
 1H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 1Q1U1*2.2_6c6
+1Z5-E
 1a2q2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2
 2 2(2@2P2T2d2h2l2t2
@@ -166,7 +167,7 @@ $9^ t
 211007000000Z
 220323000000Z
 220329000000Z
-220331224800Z0/
+220401222919Z0/
 241009235959Z0a1
 262H2O2o283?3
 293r3
@@ -189,7 +190,6 @@ $9^ t
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3??:?'N
 3N4^4b4
 3mq+<
 4 494@4Y4^4c4h4
@@ -366,7 +366,7 @@ Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 AjEB#AZ
-Ar#A&7RGkUMY
+B=;tS
 BMP RLE
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
@@ -483,8 +483,8 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R?Ya)
 RPCRT4.dll
+RSDSv
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -575,13 +575,15 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
+XkcA0
 Y9"SD
+Y<^S]rJ
 Y__^[
+ZbUGjX	
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
-[]8Z=
 \2d2h2l2p2t2x2|2
 ]J<0"0i3
 _CIpow
@@ -625,6 +627,7 @@ _seh_filter_dll
 _strupr_s
 _wchdir
 _wgetcwd
+`&iJ.	
 `.rdata
 aitcamlib
 aitcamlib.dll
@@ -692,7 +695,6 @@ can't merge dc and ac
 corrupt
 deque<T> too long
 e,>~^
-eM?$5
 etronlib
 expected marker
 f;A*stSW
@@ -703,6 +705,7 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iAUic
 illegal code in raster
 invalid
 invalid PLTE
@@ -738,6 +741,7 @@ output buffer limit
 pvBuffer != nullptr
 qdriver_lighthouse
 r0	2q2
+rE;|\
 read past buffer
 startup
 string too long
@@ -779,6 +783,7 @@ x]~\6
 yrPhX
 zlib corrupt
 {un'%
+|Gbna
 |Lu?c
 }LuHO
 ~t&LN

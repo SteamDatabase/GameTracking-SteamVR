@@ -11,6 +11,8 @@
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>
+ %41g
+ '((|
  0(0:0G0i0
  Base Class Array'
  Base Class Descriptor at (
@@ -25,6 +27,7 @@
  t\9]
 !0*0d0v0
 !0O0u0
+!hn7!
 !~?s5
 "B <1=
 #.X'=
@@ -49,18 +52,19 @@ $iMBm
 &?~YK|
 &uo r
 ' is not a number.
+',=?k
 '010F0n0
 ( 8PX
 ('8PW
 (8084888<8@8D8H8L8P8T8X8\8`8d8h8l8`<d<h<l<p<t<x<|<
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (HXt9f
 (Ht5F
+(f*^[0
 (null)
 (uEKw
 )-M-=
 *0F0R0
+*9Z9N
 *PjTW
 +A Vj$
 +A$+Y
@@ -69,6 +73,7 @@ $iMBm
 +AHVj(
 +PjUW
 +S@H#
++Xt@(
 +Z$cH
 +o'q)}
 +p$+p
@@ -76,8 +81,7 @@ $iMBm
 ,040;1C1w1
 ,0<	w
 ,PjVW
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 ,zeDo
 ,~fMK
 -0zAoL
@@ -325,6 +329,7 @@ $iMBm
 0 0(00080@0H0P0X0`0h0p0x0
 0 0(0@0P0T0d0h0l0p0t0|0
 0 0(0@0P0T0d0h0l0t0
+0 wR-
 0"0(0.040[0
 0$0(000D0L0T0\0`0h0|0
 0$0)0.03080=0B0G0L0Q0V0[0`0e0j0o0t0y0~0
@@ -372,6 +377,7 @@ $iMBm
 0`1n1
 0c0r0
 0k3!4+4<4m4
+0w0c1
 0}0i1
 1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
 1 1$1(1d2h2l2p2t2x2|2
@@ -408,7 +414,6 @@ $iMBm
 122N2m2
 130801120000Z
 153W3
-160107120000Z
 1@1h1
 1@2D2H2L2P2T2X2\2`2d2
 1@2r2
@@ -449,10 +454,11 @@ $iMBm
 2.2f2
 2/363=3D3Q3
 202=2Y2}2
-210101000000Z
 210429000000Z
 211007000000Z
-220331224749Z0/
+220323000000Z
+220329000000Z
+220401222855Z0/
 222f2
 223A3S3h3y3
 241009235959Z0a1
@@ -463,13 +469,17 @@ $iMBm
 2:2U2}2
 2@2L2T2l2t2|2
 2B2m2
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2N3x3
 2O3e5
 2g3,4S4k4\526F7
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2ieO=
 2k2x2
 2o3y3
+2xJK7*L
 2{3q4}4
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 3 3(30383@3H3P3X3`3h3p3x3
@@ -497,12 +507,12 @@ $iMBm
 3.3M3
 30373I3m3
 304J4d4
-310106000000Z0H1
-310107120000Z0r1
 323C3]3}3
 323o3|3
+330314235959Z0L1
 343D3H3\3`3p3t3x3|3
 360428235959Z0i1
+370322235959Z0c1
 374X4
 380115120000Z0b1
 383\3h3p3
@@ -564,8 +574,6 @@ $iMBm
 4W5`5
 4Z4q4
 4\4c4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 4k9j;r;
 4n4x4
 4u6:;B;J;
@@ -708,7 +716,6 @@ $iMBm
 7[7#8r8
 7d7|7
 7e7o7t7z7
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7|8B:]:x:
 8 848<8H8h8p8|8
 8 888<8T8d8h8l8
@@ -750,7 +757,6 @@ $iMBm
 8T8t8
 8V9u9
 8_^[]
-8aMbF$
 8j9n:.;?;^;
 9	:f:
 9 9$9(9,90949g9n9s9z9
@@ -835,7 +841,6 @@ $iMBm
 :,:L:T:\:d:l:t:
 :-:Q:u:
 :/;{;
-:0806
 :0;i;
 :0L0p0
 :2:U:b:p:u:{:
@@ -1015,6 +1020,7 @@ $iMBm
 =P>g>
 =WIDATx
 =\uI=
+=rIQU
 =v>0?
 >	?:?
 >	?G?
@@ -1119,11 +1125,11 @@ A1<Fu
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AHPQVR
 AHkO($
-AL(,Z
 Access violation - no RTTI data!
 AcquireSRWLockExclusive
 Af;:u
 AiFC.
+AjEB#AZ
 Another app was already launching (117)
 App info manager init failed (114)
 AppPolicyGetProcessTerminationMethod
@@ -1151,7 +1157,6 @@ C8;sx|
 C;^8u
 CA7%^[
 ChangeTimerQueueTimer
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 CloseHandle
 CloseThreadpoolTimer
 CloseThreadpoolWait
@@ -1191,11 +1196,11 @@ DeleteCriticalSection
 DeleteTimerQueueTimer
 Device Calibration is invalid (207)
 Device is not calibrated (206)
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 Driver Failed (200)
 Driver Not Known (201)
@@ -1362,7 +1367,6 @@ Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
-I0G08
 ILiquidVR_001
 IND)ind)
 IND)ind)pow
@@ -1372,6 +1376,7 @@ IVRControlPanel_006
 IVRHeadsetView_001
 IVRPaths_001
 IVRVirtualDisplay_002
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitOnceExecuteOnce
 InitializeConditionVariable
@@ -1408,9 +1413,11 @@ LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LPjQW
+L`UYDO"
 LargestInt out of Int range
 LargestUInt out of Int range
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LiquidVR
 LoadLibraryExA
@@ -1422,7 +1429,6 @@ Lock already taken
 Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 LrvD)O
-M$#0]
 M$+E4@Pj
 MB(iVR
 MM/dd/yy
@@ -1476,7 +1482,6 @@ Q$B@;
 Q0]0*2
 Q;FD~R
 Q;FD~Z
-QJxy6z'
 QQSVW
 QQSVWd
 QQSWj0j@
@@ -1491,7 +1496,6 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
-RSDS<
 RWQSV
 R\hvv
 RaiseException
@@ -1506,6 +1510,7 @@ ResetEvent
 RoInitialize
 RoUninitialize
 RtlUnwind
+S0Q0O
 SA|X=G
 SHELL32.dll
 SHGetFolderPathW
@@ -1595,7 +1600,6 @@ User Canceled Init (116)
 User Config Directory Invalid (107)
 V%A+=
 V,_^[
-V3"/"6
 V<;V8}	
 V@j0P
 VR Dashboard Not Found (133)
@@ -1906,7 +1910,6 @@ Y__^[
 ^$+^8+
 ^<V7w
 ^@[uC
-^B,x}
 ^f93u
 _C5D#
 _WVj@
@@ -1927,7 +1930,6 @@ __vectorcall
 _cabs
 _gUT^
 _hypot
-_lCI	
 _logb
 _nextafter
 _tcPVj@
@@ -2020,8 +2022,8 @@ destination address required
 device or resource busy
 directory not empty
 double out of Int range
-dwc_#Ri
 e+000
+e,>~^
 eLK(w
 eTe6 d4
 eventObject
@@ -2038,26 +2040,21 @@ file exists
 file too large
 filename too long
 floor
-fnVa')
 frexp
 ft%9q
 function not supported
 g081w1
 generic
 gfe[D
-gr=fa
 h-y"3
 hI{L[
 hPP`*
 hb?O2
 host unreachable
-hr-<bY
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
 i,MFey<e
 iG8O(
 identifier removed
@@ -2090,7 +2087,6 @@ j(hXZ
 j-XGf
 j.Yf;
 j0Xf;
-j0h02
 j:Xf;
 j;Xf9
 jAZf;
@@ -2111,7 +2107,6 @@ l,kg<i
 ldexp
 log10
 lq%&1T
-m0k0$
 m1WY$
 map/set<T> too long
 message size
@@ -2186,7 +2181,6 @@ restrict(
 result out of range
 rr	jrZ
 runtime
-s"$v,
 sQA^7&^7%sP@
 sU0&?W
 snan)
@@ -2259,31 +2253,28 @@ wIPS3
 wXJR*
 wrong protocol type
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
 x(kP$4
 xP?b3
 xRB`2
+x]~\6
 x`cot~
 xmZ8(N*
 xpxxxx
 xwpwpp
-y0w0$
 y1~?|"
+y]1~'
 y^QZ8(O*
 ygCH2
-z0x0:
 zwom}
 {S@d6
 {XIZ/
 {ZLjF5jE5zZK
 {^5#W-
-{h}dd
+{un'%
 |)P!?Ua0
 |Lu?c
 |TBc4
 |W8A=
-|]E-K
 |^4#W,
 }	jCh
 }:;2|6

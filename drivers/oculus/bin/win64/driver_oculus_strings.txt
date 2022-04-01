@@ -29,6 +29,7 @@
 	|$HA
     A
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
+ %41g
  '-46
  (Camera
  (Left Controller)
@@ -60,9 +61,12 @@
  in Buffer
  in `
  sJE3
+ xU )
+ |\%qY
 !&.37<
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
+!hn7!
 " not found in the scene.
 """""""
 "%/28;=#$019:>?
@@ -90,6 +94,7 @@ $w!Hc
 %,3:;4-&
 %9k0t
 %9{0t
+%J-vP
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s begin_ctx=%llu
@@ -114,6 +119,7 @@ $w!Hc
 ' property is not an integer type.
 ' property is not an object.
 ' value is not an integer type.
+',=?k
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
@@ -135,8 +141,6 @@ $w!Hc
 (D$0f
 (D$@H
 (D$PL
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (L$ D
 (L$`E
 (L$pL
@@ -144,6 +148,7 @@ $w!Hc
 (T$PD
 (Unable to load LibOVR)
 (d$pD
+(f*^[0
 (l$0L
 (t$ 2
 (t$ D
@@ -203,7 +208,9 @@ $w!Hc
 )|$pf
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
+*9Z9N
 *uXI;
++Xt@(
 +o'q)}
 , binary size = 
 , but got 
@@ -212,8 +219,7 @@ $w!Hc
 , requestedBytes 
 ,9k0t%H
 ,9{0t%H
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 -1003
 -1e+9999
 -3003
@@ -444,28 +450,31 @@ $w!Hc
 0A_A^_^]
 0A__^
 0D9c0t'H
+0w0c1
 0}0i1
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 130801120000Z
-160107120000Z
 1e+9999
 2.5.4.3
-210101000000Z
 210429000000Z
 211007000000Z
-220331224950Z0/
+220323000000Z
+220329000000Z
+220401223129Z0/
 2333333
 241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
-310106000000Z0H1
-310107120000Z0r1
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
+330314235959Z0L1
 360428235959Z0i1
+370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 69k0t1
@@ -473,7 +482,6 @@ $w!Hc
 6OB,n_
 6p7M=:P_:}u
 70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7u;H;
 8A^A\
 8D$!t
@@ -481,7 +489,6 @@ $w!Hc
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-8aMbF$
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -497,7 +504,6 @@ $w!Hc
 9l$Lt	E
 9|$0u
 : one or more FS callback not set
-:0806
 ; expected 
 ; last read: '
 ;K sCH
@@ -516,6 +522,7 @@ $w!Hc
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
+=rIQU
 >Mp$d
 >W`.]tB3?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -665,6 +672,7 @@ $w!Hc
 @VWAWH
 @_RDATA
 @fff>fff>fff>fff>
+@}Gb`
 A valid JSON document must be either an array or an object value.
 A8~xt
 A9A A
@@ -730,6 +738,7 @@ A_A^_^]
 A__[]
 Accessor
 Adobe
+AjEB#AZ
 AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
@@ -784,10 +793,10 @@ C\$PH
 C\$PL
 C\$PM
 C\$pL
+C^^V7>
 Camera
 CertGetNameStringW
 Chaperone updated with universe ID %d
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 CloseHandle
 CreateDXGIFactory1
 CreateEventA
@@ -796,6 +805,7 @@ CreateFileW
 CreateSession was invoked without calling DestroySession, textures may have been leaked.
 CreateThread
 C|$PL
+D!pCwZ
 D$ A;
 D$ E3
 D$ E;
@@ -890,17 +900,16 @@ D;l$0
 D;v(s
 D;z s
 D;}Tr
-D[~G^
 Default audio playback device: %s
 Default audio recording device: %s
 DeleteCriticalSection
 Detected new Oculus Touch controller: %d/%d
 Detected new Oculus tracker: %d
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DuplicateHandle
@@ -1041,7 +1050,6 @@ I(+K H
 I(I+I H
 I+M0H
 I+M0I
-I0G08
 I9<$u
 I9Bhs
 I;4$H
@@ -1096,6 +1104,7 @@ I\$(H
 IcV E3
 IcV H
 IcV0E3
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
@@ -1187,18 +1196,18 @@ Lc E3
 LcD$0L
 Lcl$$I
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LibOVRRT64_1.dll
 LoadLibraryA
 LoadLibraryW
 LocalizationManager
+L~'D<
 M H1E
-M$#0]
 M98u/
 MB(iVR
 MSVCP140.dll
 MS_:F
 MT$dA
-Ma*YJ
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
@@ -1260,7 +1269,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Primitive
 Program Files
 Pz}b!
-QJxy6z'
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1273,6 +1281,7 @@ RootNode
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S0Q0O
 S8H+S0H
 SATAUAVAWH
 SA|X=G
@@ -1394,7 +1403,6 @@ Unknown(%u, %u)
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
-V3"/"6
 VATAUAVAWH
 VATAUH
 VATAVH
@@ -1556,7 +1564,6 @@ _initterm
 _initterm_e
 _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _localtime64
 _lock_file
 _mbsstr
@@ -1615,7 +1622,6 @@ aspectRatio
 assert json failed
 asset
 attributes
-av/]u
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
 bad APP len
@@ -1727,8 +1733,8 @@ dk2_camera
 doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
-dwc_#Ri
 dxgi.dll
+e,>~^
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
@@ -1750,7 +1756,6 @@ fflush
 fgetc
 fgetpos
 first not IHDR
-fnVa')
 fopen_s
 fputc
 fputs
@@ -1763,16 +1768,15 @@ generator
 gfffffffH
 gfffffffH+
 gfffffffI
+h3}A	K|
 hand_right_poses.glb
 handlers
 headset
 height
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
 ig@-?e
 illegal code in raster
 image/bmp
@@ -1852,7 +1856,7 @@ invalid vector<T> subscript
 inverseBindMatrices
 isalnum
 ix`fA
-j0h02
+j@g9o(
 jj@0HK4
 joints
 jsonid
@@ -1890,7 +1894,6 @@ left_controller
 lights
 list<T> too long
 localeconv
-m0k0$
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -2091,6 +2094,7 @@ pid_%04x
 play_area
 primitive indices accessor out of bounds
 primitives
+qLDA]C
 quest
 rND9{0t
 range
@@ -2393,15 +2397,12 @@ wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
 x AVH
 xA^A\_^][
-y0w0$
+x]~\6
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
-z0x0:
 zlib corrupt
 znear
 {%s}%s
@@ -2415,6 +2416,7 @@ znear
 {oculus}/input/rift_dk2.json
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
+{un'%
 |$ ATAVAWH
 |$ AUAVAWH
 |$ AVH
@@ -2455,9 +2457,6 @@ znear
 |$`M+
 |LL\t
 |Lu?c
-|Y(U?6)
-|]E-K
-|gZ#\
 }LuHO
 ~+fff
 ~3LcD$(L

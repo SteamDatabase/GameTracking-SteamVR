@@ -46,6 +46,7 @@
 %u.%u.%u
 ' is not a number.
 ',=?k
+'|Gbw5
 (A^A]^[
 (A_A^^[
 (A_A^_]
@@ -67,10 +68,10 @@
 , negotiation failed with error 
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
-,2Im=C
 ,W5y+
 -1e+9999
 -Infinity
+-_`3&
 .  Does it exist?
 .  Max supported version is 
 .00cfg
@@ -164,7 +165,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220331224509Z0/
+220401222648Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -440,6 +441,7 @@ H;Y t
 H;k u
 HA_A]_[
 I#V0I
+I&3YY
 I9Bhs
 I9W(t
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -520,8 +522,8 @@ PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QHZYn	
 QueryPerformanceCounter
-RSDS4
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -628,6 +630,7 @@ WakeAllConditionVariable
 Warning [
 Washington1
 WideCharToMultiByte
+W}8:*X
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
@@ -636,6 +639,7 @@ XR_NULL_HANDLE for instance but query for
 XR_RUNTIME_JSON
 Y9"SD
 [K]taM?
+[jl"B
 \$ I;]
 \$ UAVAWH
 \$ UH
@@ -658,6 +662,7 @@ Y9"SD
 \ApiLayers\Implicit
 \u=H;
 ]J<0"0i3
+]]Ld[
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -697,7 +702,6 @@ _isnan
 _lock_file
 _register_onexit_function
 _seh_filter_dll
-_tU&s
 _unlock_file
 `.rdata
 `A^_^
@@ -725,7 +729,6 @@ bad allocation
 bad array new length
 bad cast
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
-cd<6&
 collectComments
 d$ UAVAWH
 d$PE3
@@ -856,7 +859,6 @@ tmfff
 ungetc
 unknown type in properties
 v=Y]Bv
-vIsuD\;
 vector<T> too long
 verbose
 www.digicert.com1!0
@@ -970,6 +972,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+zdxR$
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -991,7 +994,6 @@ xrWaitSwapchainImage
 |$xH;
 |$xIi
 |Lu?c
-}"5"t
 }LuHO
 ~+fff
 ~t&LN

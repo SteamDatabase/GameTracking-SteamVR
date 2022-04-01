@@ -1387,6 +1387,7 @@
  %+lf%s
  %.20g,%.20g
  %.20gx%.20g %s
+ %41g
  (%s)
  (Normalized)
  (Sum %.*lg)
@@ -1602,6 +1603,7 @@
 !font_map || PANGO_IS_FONT_MAP (font_map)
 !g_type_is_a (interface_type, prerequisite_type)
 !g_type_is_a (prerequisite_type, interface_type)
+!hn7!
 !layout->log_attrs
 !lock->writer_locked
 !puhQ*
@@ -2089,6 +2091,7 @@ $wtpt
 ')AP*
 '*&&4+):670-1$
 ',',',',',',',',',',',',',',',',',',',',',',',',','#'#'c
+',=?k
 '6Q N
 '7GWgw
 '<' in entity '%s' is not allowed in attributes values
@@ -2172,8 +2175,6 @@ $wtpt
 (D9s`u
 (D;_(
 (DICOM)", is available at http://medical.nema.org/.  In particular,
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (E;w(
 (H9=.
 (H9=n
@@ -2253,6 +2254,7 @@ $wtpt
 (d$pH
 (error == NULL) || (*error == NULL)
 (exception processing is suspended)
+(f*^[0
 (fA;k
 (fGrLUq
 (flags & ~G_DATALIST_FLAGS_MASK) == 0
@@ -2603,6 +2605,7 @@ $wtpt
 **************************
 ***MEMORY-ERROR***: 
 *5*h*
+*9Z9N
 *:JZjz
 *Cyan*
 *D$XA
@@ -2660,6 +2663,7 @@ $wtpt
 +T$XD
 +T$hA
 +TCP!
++Xt@(
 +YRSt
 +\$DE+
 +\$LE3
@@ -2999,11 +3003,10 @@ $wtpt
 ,Reference Viewing Condition in IEC61966-2.1
 ,T$hH
 ,T$xf
+,W5y+
 ,dfff
 ,filc
 ,hdX:`
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
 ,rB)N
 -*Tl}T
 -1.0*
@@ -3016,7 +3019,6 @@ $wtpt
 -A-v-
 -B@u.
 -HP  
--Ld_a&
 -Y %.20g +X %.20g
 -a.:/
 -abcdefghijklmnopqrstuvwxyz
@@ -3466,7 +3468,6 @@ $wtpt
 /* columns rows colors chars-per-pixel */
 /* pixels */
 /-?$_-?e
-//Fb2
 /84_>
 /8R:5
 /9)v7
@@ -3643,6 +3644,7 @@ $wtpt
 0r/hL
 0tIff
 0vq2fL
+0w0c1
 0x%02X 0x%02X 0x%02X 0x%02X
 0x%02X%s
 0x%02X, 
@@ -3682,7 +3684,6 @@ $wtpt
 1584x2448
 15x15+3+3
 16 16
-160107120000Z
 1684x2384
 16bit/pixel interleaved YUV
 1728x2592
@@ -3711,11 +3712,12 @@ $wtpt
 2064x2920
 20907
 20907-GITv2.9.7-rc1
-210101000000Z
 210429000000Z
 210x297
 211007000000Z
-220331224608Z0/
+220323000000Z
+220329000000Z
+220401222707Z0/
 230x323
 2384x3370
 24 24
@@ -3734,26 +3736,29 @@ $wtpt
 2920x4127
 297x420
 2>a(6>
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2EDU$h
 2H;C(H
 2H;G(L
 2I`Jb"cH
 2aKCx
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2lcnH
 2tfm ABm1tfm
 2tfm BAm1tfm
 2tfmubH
+2xJK7*L
 2~6D9
 3&#38H
 30 18
-310106000000Z0H1
-310107120000Z0r1
 32 32
 32#t@
 32-bit_rle_rgbe
 32-bit_rle_xyze
 323x459
+330314235959Z0L1
 333333
 3333UUUU
 33f33333
@@ -3762,6 +3767,7 @@ $wtpt
 360x504
 363x516
 364x515
+370322235959Z0c1
 380115120000Z0b1
 396x612
 39Iys_x
@@ -3862,8 +3868,6 @@ $wtpt
 4S3=VW
 4U!-%AI-P	
 4^d;@
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 4i5U6B738%9
 4x1:0,1,1,0
 4x3+1+1:-,1,1,0 -,1,1,- 0,1,1,-
@@ -3883,7 +3887,6 @@ $wtpt
 5: -4,-1,0,-1,-4  -1,2,3,2,-1  0,3,4,3,0  -1,2,3,2,-1  -4,-1,0,-1,-4
 5: 0,0,-1,0,0  0,-1,-2,-1,0  -1,-2,16,-2,-1  0,-1,-2,-1,0  0,0,-1,0,0
 5?rM5?
-5TT?V
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5r?lt
 6*f(_
@@ -3937,7 +3940,6 @@ $wtpt
 7H;H(
 7H;O }
 7P.F!
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7v,=p
 8't#H
 8*** BUG ***
@@ -3999,7 +4001,6 @@ $wtpt
 8[tsD9
 8\?Ig\?x
 8_^][
-8aMbF$
 8av/&J
 8bim:
 8fA9x
@@ -4114,7 +4115,6 @@ $wtpt
 :.{9/|90{<3z<4p;1k8-i7-h8-h8.k70i6-a0'Y+
 :/?_.#&;=
 :/uJH
-:0806
 :1F)%X3&
 :4C,T%f
 :6:t:
@@ -4126,7 +4126,6 @@ $wtpt
 :LOG*}
 :NF& 
 :RS	x 
-:Z{eFON
 :\FSY$
 :acspMSFT
 :gscP
@@ -4135,6 +4134,7 @@ $wtpt
 :uj@8+ueH
 :x(a4E
 :{%s}
+:|GbE
 :~dm1	
 ;"u}H;
 ;&u&H
@@ -4257,6 +4257,7 @@ $wtpt
 <3]uMH
 <3]uRH
 <3]uTH
+<7Yg.O8N
 <8bunz8
 <:u&A
 <;t+H
@@ -4435,6 +4436,7 @@ $wtpt
 =n2U|
 =nI-$
 =pscat;H
+=rIQU
 =rtnmt
 =rtnmu
 =rtrp
@@ -4579,7 +4581,6 @@ $wtpt
 @"t$P
 @#@d@
 @$(1D$
-@$)wd
 @%04lx
 @%s: %s/%s/%s
 @%wED
@@ -5371,6 +5372,7 @@ AiFC.
 Air Kerma Rate Reference Date
 Air Kerma Rate Reference Time
 Aj@PE
+AjEB#AZ
 Aku isa mangan beling tanpa lara.
 Aladdin Ghostscript
 Algorithm Code Sequence
@@ -6034,7 +6036,6 @@ Child watch source dispatched without callback
 Chop/Image
 Chroma
 Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 Chuaigh b
 Cine Rate
 Cineon Image File
@@ -7192,11 +7193,11 @@ Did not see expected message %s-%s: %s
 Difference
 Differential Channel Source
 Differential Channel Source Modifiers
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 Digital Image Format Acquired
 Digital Imaging and Communications in Medicine image
@@ -8822,7 +8823,6 @@ I+F(H
 I+G H
 I+h H
 I.S(ja
-I0G08
 I0IcQ
 I8L;J8u_3
 I96tEfff
@@ -9007,6 +9007,7 @@ Ignoring attempt to write tRNS chunk out-of-range for bit_depth
 Ignoring invalid time value
 Ignoring request to write a PLTE chunk in grayscale PNG
 Igrave
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 IiGM>nw
 Ii`QjaRlbTjaRjaRkbSkbSkbRlcSlcTpbRpaUf_RfaP_YCA@%rM<
 Image
@@ -9996,6 +9997,7 @@ LevelImage
 LevelImageColors
 Levelize/Image
 LevelizeImage
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LiL$p
 Li`Qi`Qi`QjaRjaQk_Zk__kaVkaTkaXlaRkbNZVDDF8<C55C1?C)
 Libpng jmp_buf still allocated
@@ -10127,7 +10129,6 @@ M %g %g
 M D9d$xu
 M H1E
 M fff
-M$#0]
 M' pozz magna' o'vetr, e nun m' fa mal.
 M'(:fjgl4
 M(u	I
@@ -11651,7 +11652,6 @@ QC)\C
 QCannot load font '%s
 QH9Q(~
 QH;t$8
-QJxy6z'
 QLEQMmQN
 QName split
 Q^=Q_eQ`
@@ -11748,6 +11748,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS$
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -12285,6 +12286,7 @@ S urrainn dhomh gloinne ithe; cha ghoirtich i mi.
 S']!e
 S(H;W
 S(I+V
+S0Q0O
 S1?=ST6I
 S8;z<u
 S8HcK@H
@@ -13701,7 +13703,6 @@ V H;U
 V!MV	
 V*?=%,?
 V0N94
-V3"/"6
 V8HcV@H
 V939j%5'
 V@H9W@t
@@ -13754,6 +13755,7 @@ VWAWH
 VYBYe
 V_:X1:
 V_~]	,
+VaZ4#
 Valid palette required for paletted images
 Validate
 ValidateColormapValue
@@ -14241,7 +14243,6 @@ Y|q'za
 Z Offset In Slide Coordinate System
 Z({:3m
 Z* ,	
-Z0A'm
 ZDepthHomogeneous
 ZDepthLinear
 ZEK|D
@@ -14639,7 +14640,6 @@ _invalid_parameter_noinfo_noreturn
 _isatty
 _isnan
 _kbhit
-_lCI	
 _lseek
 _lseeki64
 _map.shtml
@@ -15787,12 +15787,12 @@ duplicate
 duplicate sRGB information ignored
 duployan
 dv (0..255), count (0..255), text
-dwc_#Ri
 d}_S_G671681==8B@;FA?HC>HC>JD<MB7J=0H<-F=/E;0A91<71:7.>9,E</M?/OA0O>1K;1D:/>=17=0
 e	@cy
 e A_A^A]A\]
 e bez moljca.
 e, na st?pe sa ?ate? u?
+e,>~^
 e-1.0*
 e0A_A^A]A\]
 eC}gc}m
@@ -16355,7 +16355,6 @@ floodfill
 floor
 florin
 flush error
-fnVa')
 folio
 font != NULL
 font face
@@ -17154,14 +17153,12 @@ hook_list != NULL
 hook_list->is_setup
 http://
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 http://www.imagemagick.org
 http://www.w3.org/2000/xmlns/
 http://www.w3.org/XML/1998/namespace
-https://www.digicert.com/CPS0
 hungarumlaut
 hxi(j
 hyphen
@@ -17178,6 +17175,7 @@ iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWj
 iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
+iU7mr
 iacute
 ibm737
 ibm775
@@ -17503,7 +17501,6 @@ j!3V$E
 j+@u'`
 j,Hcj0D
 j,Hcz0
-j0h02
 j2k:%s
 jGj=Lk<Li;WuFb
 jIT<<H,g~Cj
@@ -17794,7 +17791,6 @@ lwtpt
 lycian
 lydian
 m,!$;Y
-m0k0$
 m1WY$
 m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
 m>EKn>
@@ -18115,7 +18111,6 @@ onehalf
 onequarter
 onesuperior
 ons d'hidrogen, coi!
-oo]f>}
 opacity
 opacity "%s"
 opacity %s 
@@ -19781,7 +19776,6 @@ uXHcD$XIc
 uXL9%`
 uZD9d$0uS
 u]yH1e6"e3)j90l?4i>4h>2cA7_D5YG5e]GEF/9C'EI+ppR\`G29'7=57=37>48>38<57;66;5271.3-,1+(.(*.*,1,/2/=D==J81?(BP<EPD/90ddSgdUhgWieWhfWkeVnd\lhZdkRdwo
-u^.}2
 u^E9xDu
 u_9/t[
 u`Hcu
@@ -20017,8 +20011,6 @@ writing raw profile: type=%s, length=%.20g
 wrp==rdp, !running
 wsbdp
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
 x ATAVAWH
 x AVH
 x AWH
@@ -20103,6 +20095,7 @@ xSvf$
 xV4"?UUUUUU
 x[fff
 x\|@W
+x]~\6
 x_Chinese-Eten
 x_H;V(}Y
 x_^][
@@ -20795,7 +20788,6 @@ xx-large
 xx-small
 y H+y
 y-resolution
-y0w0$
 y8fff
 y8udL
 yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
@@ -20824,7 +20816,6 @@ z+u)A
 z-u+fD
 z.u,f
 z/u-H
-z0x0:
 z2u0H
 z3u1A
 z5u3A
@@ -20890,6 +20881,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 {P@8s
 {`_{P
 {s[zV
+{un'%
 {wo={
 {} def
 |	*oEY
@@ -21111,7 +21103,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |UHcG(
 |WI;E(}QH
 |ZzsP
-|]E-K
 |rA9^
 } +]dx
 } H9{(

@@ -13,6 +13,7 @@
   SetMultiByteHWValue:Get Value Fail-1! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
   SetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
   SetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
+ %41g
  0$0(0<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0
  Capability Size: 
  Height: 
@@ -20,6 +21,7 @@
  s;Wj
  sCWj
  t\9]
+!hn7!
 #9Npt
 #>B>J>
 $0,040<0P0X0`0h0p0|0
@@ -35,21 +37,22 @@ $_^[]
 %j+hD
 %m / %d / %y
 &1V6|:^<
+',=?k
 ()$^.*+?[]|\-{},:=!
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
+(f*^[0
+*9Z9N
 +A Vj$
 +A$+Y
 +A$tU3
 +A$tp
 +AHVj(
 +OL+WL
++Xt@(
 +o'q)}
 +p$+p
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,0I0\0
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 .00cfg
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
@@ -309,7 +312,6 @@ $_^[]
 .tls$
 .tls$ZZZ
 .xdata$x
-/[,!!/
 0 0$0<0L0P0`0d0h0l0p0x0
 0 0(00080@0H0P0X0`0h0p0x0
 0 00040D0H0L0T0l0|0
@@ -354,6 +356,7 @@ $_^[]
 0K0y0
 0U1|1
 0f0u0
+0w0c1
 0}0i1
 1 1$1(1,1014181<1\1`1d1h1x1|1
 1 1$1<1L1P1T1h1l1|1
@@ -386,7 +389,6 @@ $_^[]
 130801120000Z
 132:2E2S2g2
 141<1D1L1`1h1p1x1
-160107120000Z
 181\1
 181d1
 1:1h1
@@ -425,10 +427,11 @@ $_^[]
 2/2I2
 202@2D2T2X2\2d2|2
 202P2X2`2h2p2x2
-210101000000Z
 210429000000Z
 211007000000Z
-220331224457Z0/
+220323000000Z
+220329000000Z
+220401222558Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -443,6 +446,8 @@ $_^[]
 2B3`3
 2C2s2
 2D2L2T2\2p2x2
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2G2w2
 2J2d2
 2J3|3
@@ -454,7 +459,9 @@ $_^[]
 2b6v6
 2c3p3
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2x2v3
+2xJK7*L
 3 3$34383<3D3\3l3p3
 3 3(30383@3H3P3X3`3h3p3x3
 3 3(30383@3H3P3X3`3l3
@@ -474,15 +481,15 @@ $_^[]
 3,323<3O3
 3,5=5
 303P3X3`3h3p3x3
-310106000000Z0H1
-310107120000Z0r1
 323<3V3`3v3
+330314235959Z0L1
 333V3
 34484<4T4X4\4`4d4h4@5D5H5X5\5`5d5h5l5t5x5|5
 344|4
 360428235959Z0i1
 363@3V3
 363C3M3a3{3
+370322235959Z0c1
 373g3
 380115120000Z0b1
 383@3H3P3\3|3
@@ -544,8 +551,6 @@ $_^[]
 4X4|4
 4_6w7
 4b4l4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 4m5z5
 4n5{5
 5	6%6=6^6s6
@@ -652,7 +657,6 @@ $_^[]
 6[7A9`9
 6a6k6
 6c7t7}7
-6zuht5
 7 7$7(7,7074787<7 8$8(8,808X8\8`8d8h8l8p8t8x8|8
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 7 7$7(7,747L7\7`7p7t7x7|7
@@ -693,7 +697,6 @@ $_^[]
 7S8]8z8
 7Z8b8j8r8
 7`7R8
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7i7 8
 8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
 8 8$8(8,8084888D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
@@ -746,7 +749,6 @@ $_^[]
 8Q8}8
 8Z8w8
 8[9w9
-8aMbF$
 8f8s8
 8q8~8
 8t97:
@@ -849,7 +851,6 @@ $_^[]
 :/:U:[:
 :/:W:&<5<Q<
 :/;5;9;A;G;L;U;`;u;z;
-:0806
 :0:v:
 :1:o:
 :4:X:
@@ -1017,6 +1018,7 @@ $_^[]
 =G=g=
 =T=t=
 =g>q>
+=rIQU
 =~>A?
 > >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
 > >$>(>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
@@ -1061,7 +1063,6 @@ $_^[]
 >Mp$d
 >T>c>
 >_>f>
->e0:qP?
 >p>v>k?w?
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
 ? ?$?(?,?4?L?\?`?p?t?
@@ -1212,11 +1213,13 @@ A0B;W
 AHPQVR
 AHkO($
 AcquireSRWLockExclusive
+AjEB#AZ
 Applying depth format 
 Applying first frame camera configuration options...
 Auto Exposure Target:		
 Auto Exposure:			
 Auto White Balance:		
+B6	|<
 BP;BL
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1249,7 +1252,6 @@ Camera Exception while setting depth format:
 Camera reconnect failed
 Capability Count: 
 ChangeTimerQueueTimer
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 CloseHandle
 CloseThreadpoolTimer
 CloseThreadpoolWait
@@ -1285,11 +1287,12 @@ DecodePointer
 DeleteCriticalSection
 DeleteTimerQueueTimer
 Device Path: 
-DigiCert Assured ID Root CA0
+Dg.K\
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DuplicateHandle
@@ -1411,7 +1414,7 @@ Global Gain:
 GxVPR
 HP;HL
 HPQVR
-I0G08
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Index: 
 InitOnceExecuteOnce
 InitializeConditionVariable
@@ -1436,15 +1439,16 @@ L?n(Zy&
 LCMapStringEx
 LCMapStringW
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
 Lock already taken
 M SVW
-M$#0]
 M$+E4@Pj
 MB(iVR
 MJPEG color format is not yet implemented.
+MWs/N
 MaxConcurrency
 MaxPolicyElementKey
 Mbp?333333
@@ -1474,7 +1478,6 @@ Pz}b!
 Q$B@;
 Q;FD~R
 Q;FD~Z
-QJxy6z'
 QQSVW
 QSVWj
 QVWjt
@@ -1493,6 +1496,7 @@ ReleaseSemaphore
 ResetEvent
 RoInitialize
 RoUninitialize
+S0Q0O
 SA|X=G
 SSWVj	
 SVWhp
@@ -1554,7 +1558,6 @@ Unrecognized depth format.
 UnregisterTraceGuids
 UnregisterWait
 UnregisterWaitEx
-V3"/"6
 V<;V8}	
 VCRUNTIME140.dll
 V_~]	,
@@ -1590,8 +1593,8 @@ Y__^[
 [SPj"
 [tc9]
 \SVW3
+]A.[4
 ]J<0"0i3
-]Nu-R
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1645,7 +1648,6 @@ _initterm_e
 _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
 _ismbblead
-_lCI	
 _lock_file
 _lock_locales
 _purecall
@@ -1700,7 +1702,7 @@ destination address required
 device or resource busy
 digit
 directory not empty
-dwc_#Ri
+e,>~^
 eventObject
 executable format error
 f	_$_^[
@@ -1713,7 +1715,6 @@ fgetwc
 file exists
 file too large
 filename too long
-fnVa')
 fputc
 fputwc
 frexp
@@ -1727,11 +1728,9 @@ gj h
 graph
 host unreachable
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1750,7 +1749,6 @@ is a directory
 islower
 isspace
 isupper
-j0h02
 j@j0P
 jj@0HK4
 k0i0$
@@ -1760,7 +1758,6 @@ ldexp
 localeconv
 lower
 lstrcmpW
-m0k0$
 malloc
 memchr
 memcmp
@@ -1805,7 +1802,6 @@ pExecutionResource
 pScheduler
 pThreadProxy
 permission denied
-pnWm\e
 ppVirtualProcessorRoots
 print
 protocol error
@@ -1834,6 +1830,7 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
+rn3L}
 sDh|t
 setlocale
 setvbuf
@@ -1894,20 +1891,18 @@ wcsnlen
 wcstoul
 wrong protocol type
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
 x(kP$4
 x,G;}
 x0c1l1
 x\SVW
+x]~\6
 xdigit
 y'j h
-y0w0$
-z0x0:
+{>Wb6-
 {L?uI
+{un'%
 |Lu?c
 |SVWj
-|]E-K
 }:;2|6
 }LuHO
 ~t&LN

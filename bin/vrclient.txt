@@ -7635,6 +7635,7 @@
  t BProcessRunning(char const*, bool)
  t BProcessRunning(char const*, bool) [clone .cold]
  t BProcessRunning(unsigned int)
+ t BRealtimeProcess()
  t BRenameFile(char const*, char const*)
  t BSharedResourceNamespaceAvailable()
  t BSharedResourceNamespaceAvailable() [clone .cold]

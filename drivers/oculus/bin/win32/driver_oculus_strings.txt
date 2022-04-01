@@ -27,6 +27,7 @@
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	w=%d, h=%d, format=%d
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*
+ %41g
  '-46
  (Camera
  (Left Controller)
@@ -37,6 +38,7 @@
  1F2f3
  4$41454
  ;y8|
+ XIOSt%
  at line 
  in Buffer
  in `
@@ -44,6 +46,7 @@
 !&.37<
 !(0)"
 !9~ t
+!hn7!
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
@@ -63,7 +66,6 @@
 #oculus_requested_quit
 $0W0s0
 $9^ t
-%$:_C
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -89,6 +91,7 @@ $9^ t
 ' property is not an integer type.
 ' property is not an object.
 ' value is not an integer type.
+',=?k
 '.5<=6/7>????????????????
 '00090B0G0L0S0X0i0o0
 '[', '{', or a literal
@@ -97,12 +100,13 @@ $9^ t
 (%PP	
 (-`P	
 (5pP	
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (Unable to load LibOVR)
+(f*^[0
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *0G0M0T0[0`0f0x0
+*9Z9N
++Xt@(
 +o'q)}
 , binary size = 
 , but got 
@@ -110,9 +114,8 @@ $9^ t
 , last executing in 
 , requestedBytes 
 ,20242,70787<7T8X8\8p8t8x849@9
+,W5y+
 ,^_[]
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
 -1003
 -1e+9999
 -3003
@@ -370,6 +373,7 @@ $9^ t
 0cbJ<H
 0cbZ<H
 0m1;2
+0w0c1
 0}0i1
 1 1$1(1
 1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
@@ -402,7 +406,6 @@ $9^ t
 131A1v1
 141f1k1r1w1
 14282<2
-160107120000Z
 181D1L1l1
 1:1}1
 1:3v3
@@ -449,11 +452,12 @@ $9^ t
 2-3c3a4m4
 2.5.4.3
 2/3E3q3
-210101000000Z
 210429000000Z
 211007000000Z
 212l2
-220331224836Z0/
+220323000000Z
+220329000000Z
+220401223002Z0/
 233w4
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -468,6 +472,8 @@ $9^ t
 2A3L3
 2A3V3_3c3
 2B2\2a2i2o2v2|2
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2F3F4T6f6F8 :%:-:>:J:^:k:
 2G3h3
 2L5P5Z7^7
@@ -478,6 +484,8 @@ $9^ t
 2T3o3|3
 2a3p4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
 3	4N4T4u4
 3	4Q4
 3 3$3(3,3034383<3@3D3H3L3
@@ -502,18 +510,18 @@ $9^ t
 3+3/3>3B3Q3U3d3h3w3{3
 3,305U5f5r5
 3,434
-310106000000Z0H1
-310107120000Z0r1
 31363;3@3E3J3O3T3Y3^3c3h3m3r3w3|3
 31363@3F3J3c3h3r3
 314S4X4p4z4
 323N3h3
 323n3
 324Y4}5
+330314235959Z0L1
 343X3d3l3
 344>4D4Y4m4
 35 B	
 360428235959Z0i1
+370322235959Z0c1
 380115120000Z0b1
 3A4J4S4\4a4f4m4
 3C4(5
@@ -574,8 +582,6 @@ $9^ t
 4V4T6
 4W5`5k5
 4b5i5
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5	5.585A5J5o5y5
 5	6*6s6
 5 5$5(5,5054585
@@ -727,7 +733,6 @@ $9^ t
 7L7q7
 7S8c9
 7W7b7
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 7r7z7
 8 8$8(8
 8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
@@ -746,6 +751,7 @@ $9^ t
 8(8-8[8y8
 8(848<8\8
 8+969=9G9R9g9q9
+8,.;v
 8,808@8D8H8L8T8l8|8
 8-919@9D9
 8/8N8S8]8|8
@@ -768,7 +774,6 @@ $9^ t
 8_^[]
 8`8}8
 8a9i9y9
-8aMbF$
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -854,7 +859,6 @@ $9^ t
 :,:<:@:P:T:X:`:x:|:
 :,;!<T?
 :,;P;
-:0806
 :0:4:D:H:X:\:`:h:
 :0:@:D:T:X:\:`:h:
 :1:A:F:s:
@@ -1023,6 +1027,7 @@ $9^ t
 =[>|>
 =a=h=
 =f>,?
+=rIQU
 > >$>(>,>0>4>8>
 > >(>,>4>8>@>D>L>P>X>\>d>h>p>t>|>
 > >(>@>P>T>\>t>
@@ -1177,6 +1182,7 @@ ADVAPI32.dll
 ASSERT: "%s" at %s:%d.
 Accessor
 Adobe
+AjEB#AZ
 AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
@@ -1213,7 +1219,6 @@ COculusHmdLatest::UpdateThread
 Camera
 CertGetNameStringW
 Chaperone updated with universe ID %d
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 CloseHandle
 CreateDXGIFactory1
 CreateEventA
@@ -1228,11 +1233,11 @@ Default audio recording device: %s
 DeleteCriticalSection
 Detected new Oculus Touch controller: %d/%d
 Detected new Oculus tracker: %d
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DuplicateHandle
@@ -1314,12 +1319,12 @@ GetSystemTimeAsFileTime
 GetTickCount64
 Graphics LUID changed
 Guardian changed, updating chaperone
+HD<h2
 HMD no longer present
 HeapAlloc
 HeapFree
 Hmd not found.
 HmdDriverFactory
-I0G08
 ID3D11DeviceContext4::Signal
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -1363,6 +1368,7 @@ IVRSystem_022
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
@@ -1399,11 +1405,11 @@ K}*n:
 L?n(Zy&
 LINEAR
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LibOVRRT64_1.dll
 LoadLibraryA
 LoadLibraryW
 LocalizationManager
-M$#0]
 M$SVW
 MB(iVR
 MSVCP140.dll
@@ -1463,7 +1469,6 @@ Primitive
 Program Files
 Pz}b!
 Q9F t
-QJxy6z'
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1471,6 +1476,7 @@ RPCRT4.dll
 RPVhXk
 RaiseException
 ResetEvent
+S0Q0O
 SA|X=G
 SCALAR
 SDL2.dll
@@ -1510,7 +1516,6 @@ SystemTimeToFileTime
 S|!h8
 TADItA
 TANGENT
-TBEFy`
 TEXCOORD
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
@@ -1541,7 +1546,6 @@ Unknown(%u, %u)
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
-V3"/"6
 V<_^]
 VCRUNTIME140.dll
 VRInitError_VendorSpecific_OculusRuntimeBadInstall 
@@ -1568,6 +1572,7 @@ XXXX PNG chunk not known
 Y9"SD
 Y9]9l9p9}9
 Y__^[
+ZfR2z
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1657,7 +1662,6 @@ _initterm
 _initterm_e
 _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _localtime64
 _lock_file
 _mbsstr
@@ -1777,6 +1781,7 @@ buffers
 byteLength
 byteOffset
 byteStride
+b}zE 
 c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
@@ -1814,8 +1819,8 @@ dk2_camera
 doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
-dwc_#Ri
 dxgi.dll
+e,>~^
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
@@ -1837,7 +1842,6 @@ fflush
 fgetc
 fgetpos
 first not IHDR
-fnVa')
 fopen_s
 fputc
 fputs
@@ -1857,11 +1861,9 @@ handlers
 headset
 height
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
 illegal code in raster
 image/bmp
 image/gif
@@ -1943,8 +1945,8 @@ j	h0-
 j	hD(
 j	h|0
 j!hlp
+j%X		
 j(h@p
-j0h02
 j1h0/
 j3hd*
 j5hl/
@@ -1959,7 +1961,6 @@ left_controller
 lights
 list<T> too long
 localeconv
-m0k0$
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -2001,6 +2002,7 @@ not enough pixels
 null literal
 number literal
 number overflow parsing '
+n~e."/P
 object
 object key
 object separator
@@ -2393,11 +2395,8 @@ wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
-y0w0$
+x]~\6
 yxxx+
-z0x0:
 zlib corrupt
 znear
 {%s}%s
@@ -2411,8 +2410,8 @@ znear
 {oculus}/input/rift_dk2.json
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
+{un'%
 |Lu?c
-|]E-K
 |cj#h
 }	jCh
 }LuHO

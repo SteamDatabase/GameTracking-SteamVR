@@ -15,6 +15,9 @@
  for detail.
 !! refusing to trigger minidump with debugger attached
 !hn7!
+!iz/Y0
+$8S=^
+$G\WKC
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -39,10 +42,8 @@
 ,W5y+
 -1e+9999
 -Infinity
--lv*S
 -u-I;
 .00cfg
-.0Fb~\b
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
 .?AUhresult_access_denied@winrt@@
@@ -175,14 +176,13 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220331225023Z0/
+220401223149Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
-3!:Gc
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -193,13 +193,11 @@
 6I]Dc
 6OB,n_
 70503
-7|,x)S
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 9D$xu
 9D$|tcH
-:p>D<j
 < t+<
 </u#H
 <0:08
@@ -436,8 +434,6 @@ Error showing window.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
-F6CwN
-FLY;N&u
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -587,6 +583,7 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
+KKw, 
 K}*n:	
 L$ E3
 L$ H;
@@ -645,7 +642,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSg]
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -656,6 +652,7 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
+S;Ut(
 SA|X=G
 SHCreateItemFromParsingName
 SHELL32.dll
@@ -705,6 +702,7 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
+T}Gb	
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -779,7 +777,6 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
-\4P.9
 \u=H;
 ]J<0"0i3
 _Cnd_destroy
@@ -878,7 +875,6 @@ fF94@u
 false
 fffffff
 frame_time
-gf^F=
 gfffffffH
 gfffffffI
 handlers
@@ -900,6 +896,7 @@ in Json::Value::setComment(): Comments must start with /
 input_frame_time
 invalid stoull argument
 jj@0HK4
+jqZ~L
 k0i0$
 l$ H;
 l$ H=
@@ -908,6 +905,7 @@ l$@H;
 l$PM9n
 l$xM;
 list<T> too long
+m*p`61;
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -928,6 +926,7 @@ pA_A^A\_^][
 pA_A^_
 pA_A^_^]
 product_name
+qb[u$
 r,fff
 request_destroy_window_view
 request_handlers
@@ -993,7 +992,7 @@ wn>Jj
 www.digicert.com1!0
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 x]~\6
-z:>08
+xa%s4
 {un'%
 |$ ATAVAWH
 |$ AVH

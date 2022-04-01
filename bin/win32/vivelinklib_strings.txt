@@ -7,12 +7,13 @@
 																																												
 	!s99
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
+ %41g
  -SERVICE_EXPLORE
  Error:
  for detail.
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
- z%~iI
 !0L0w0
+!hn7!
 $Phdd
 %%.%dg
 %2.2X
@@ -58,12 +59,12 @@ $Phdd
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
+&__n>
 ' is not a number.
+',=?k
 ()$^.*+?[]|\-{},:=!
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
 (HANDLE:)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})(-)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})\s([0-9A-F]*)
@@ -76,10 +77,12 @@ $Phdd
 (UUID16:)([0-9A-F]{4})
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
+(f*^[0
+*9Z9N
 +KL+SL_;
++Xt@(
 +o'q)}
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
 -1e+9999
 -ADDR %s
 -Infinity
@@ -190,6 +193,7 @@ $Phdd
 0`0|0
 0g1q1
 0p1t1x1|1
+0w0c1
 0}0i1
 1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
 1 1$1(1,1014181<1@1D1H1k1v3]4
@@ -204,7 +208,6 @@ $Phdd
 1/3;3v3U4
 130801120000Z
 151b4
-160107120000Z
 172>2
 181B1L1V1`1j1
 181D1L1l1
@@ -225,17 +228,22 @@ $Phdd
 2(3Q3`3s3
 203@3
 20>0J0S0x0
-210101000000Z
 210429000000Z
 211007000000Z
-220331224759Z0/
+220323000000Z
+220329000000Z
+220401222919Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
 2@2L2T2t2
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2F2q2
 2f5l5p5t5x5
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
 3 3$3(3
 3 3$3(3,3034383<3@3D3H3L3P3u3
 3 3%3
@@ -245,10 +253,10 @@ $Phdd
 3&5M5j5o5
 3,3W3
 3/3T3
-310106000000Z0H1
-310107120000Z0r1
+330314235959Z0L1
 343X3x3
 360428235959Z0i1
+370322235959Z0c1
 374o4
 374w4
 380115120000Z0b1
@@ -270,11 +278,10 @@ $Phdd
 4585<5@5X5\5h5l5x5|5
 465t5
 475J5]5p5
+4>2 =
 4A5J5
 4^4c4i4r4
 4d4h4l4p4t4x4|4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 4i4v4
 4m5;6
 4v6P8U8]8n8z8
@@ -340,7 +347,6 @@ $Phdd
 737:7S7
 7@PVW
 7V8n9
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 8	9e9
 8 8(8H8l8x8
 8 9%9
@@ -363,7 +369,6 @@ $Phdd
 8V9]9E:L:k;r;
 8_:u:
 8_^[]
-8aMbF$
 8b9y9
 8f8M9
 8m8r8y8
@@ -390,7 +395,6 @@ $Phdd
 :+;0;A;X;g;p;{;
 :-;W<x<
 :.;^;
-:0806
 :2:I:[:
 :7:A:\:e:j:}:
 :::e:
@@ -399,7 +403,6 @@ $Phdd
 :H;=</=
 :N:V:
 :j;q;
-:~Eo8Vd
 ; ;$;
 ; <A<
 ;";@;
@@ -457,7 +460,9 @@ $Phdd
 =Q={=
 =T?Y?g?l?
 =Z>d>l>z>
+=kr9?
 =r>y>
+=rIQU
 > ?%?
 >!>7>I>d>
 >$?(?,?0?4?8?<?@?D?H?
@@ -553,6 +558,7 @@ $Phdd
 A valid JSON document must be either an array or an object value.
 AAuthentication
 Address:  %s
+AjEB#AZ
 BS1_MSG_EXTEND_TIMEOUT
 BS1_MSG_FOTA_STAT
 BS1_MSG_IDENTIFY
@@ -606,7 +612,6 @@ Caller: the file had already been partially unzipped
 Caller: there was a previous error
 Can not open file to determine Bluetooth Link status (%s)
 Can not open file to determine Bluetooth driver version (%s)
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
 ClPSR
 CloseHandle
 Completed. Transfer took %.2f seconds.
@@ -657,11 +662,11 @@ DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
 DeleteCriticalSection
 DeleteFileW
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DisconnectNamedPipe
@@ -701,6 +706,7 @@ FormatMessageA
 Found: %s, size: %d
 G ;B 
 G$;B$
+G,rwO
 G0_^]
 GH+G@
 Gd;Fd|:
@@ -722,7 +728,8 @@ GetTickCount64
 GetVersionExA
 H$;J$
 HTC BS
-I0G08
+IbTjj]_
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
 InitializeConditionVariable
@@ -747,6 +754,7 @@ L3T3X3\3`3d3h3l3x3$4(4,4D4H4L4
 L?n(Zy&
 LHB-DFU
 LeaveCriticalSection
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 Linkbox Not Connected
 LinkboxNotConnected
@@ -761,7 +769,6 @@ Linux 3.6
 LoadLibraryA
 LocalFree
 Logger.txt
-M$#0]
 MB(iVR
 MSVCP140.dll
 Mac OS
@@ -804,7 +811,6 @@ PipeInit
 Progress: %d%% (%d/%d)
 Pz}b!
 Q0;Q(t#
-QJxy6z'
 QPRh4X
 QPhtF
 Qkkbal
@@ -821,6 +827,7 @@ Response: %s, %s
 Restart:  %s
 RtlGetNtVersionNumbers
 Running
+S0Q0O
 SA|X=G
 SCAN -NAME "%s" -T %X
 SERVICES
@@ -856,7 +863,6 @@ Success
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
 TIMEOUT
-TMYc~;
 TerminateProcess
 Terminating discovered vivelink process.
 TlsAlloc
@@ -872,7 +878,6 @@ Unknown exception
 V$9Q$
 V$;Q$
 V0;1]1}1 2
-V3"/"6
 VCRUNTIME140.dll
 VL2_Connect
 VL2_Disconnect
@@ -978,6 +983,7 @@ ViveLinkError_Success
 ViveLinkError_Timeout
 ViveLinkLib_GetBaseStationWirelessInterface
 W9shvN3
+W@8}I
 WRITE_WO_RESP -H %4.4X 
 WRITE_W_RESP -H %4.4X 
 WaitForPipeCreation
@@ -1057,7 +1063,6 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _mbsstr
 _register_onexit_function
 _seh_filter_dll
@@ -1096,7 +1101,7 @@ dat_file
 data error
 deque<T> too long
 digit
-dwc_#Ri
+e,>~^
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1104,7 +1109,6 @@ f=DFu
 false
 fclose
 file error
-fnVa')
 fputs
 fread
 fseek
@@ -1114,11 +1118,9 @@ gfffSV
 gfffV
 graph
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1171,12 +1173,11 @@ j)hXH
 j)h`O
 j)hpG
 j*hPQ
-j0h02
 jj@0HK4
 k0i0$
+lYg)O
 lighthouse
 lower
-m0k0$
 malloc
 manifest
 manifest file %s parse error from %s
@@ -1194,6 +1195,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
+q}BbG
 realloc
 runas
 space
@@ -1236,7 +1238,6 @@ unknown compression method
 unknown zip result code
 upper
 uq;s,u
-uq^_j`
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
@@ -1253,18 +1254,15 @@ wd_^[
 win64
 wn>Jj
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
 x5t7j
+x]~\6
 xdigit
-y0w0$
 y4_^[
-z0x0:
 {L?uI
+{un'%
 |	9A 
 |	;J 
 |Lu?c
-|]E-K
 |cj#h
 }	jCh
 }LuHO

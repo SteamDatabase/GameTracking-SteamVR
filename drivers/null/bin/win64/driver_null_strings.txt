@@ -4,8 +4,8 @@
  H3E H3E
 !hn7!
 ',=?k
-'r%yd
 (f*^[0
+(|\>/
 *9Z9N
 +Xt@(
 +o'q)}
@@ -80,14 +80,13 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220331224935Z0/
+220401223116Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
-30xWl
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -97,7 +96,6 @@
 6*f(_
 6I]Dc
 6OB,n_
-6\prnOP
 70503
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -121,7 +119,6 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Do>k>
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -148,9 +145,11 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JN39/
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
+LN&}*
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
 MB(iVR
@@ -210,6 +209,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`Vkqzi
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -217,7 +217,6 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
-dMeoj
 displayFrequency
 driver_null
 driver_null.dll
@@ -234,6 +233,7 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
+k&8N`
 k0i0$
 l$8E3
 malloc
@@ -241,6 +241,7 @@ memcpy
 memmove
 memset
 modelNumber
+n?Lbe
 ntelD
 renderHeight
 renderWidth
@@ -251,6 +252,7 @@ string too long
 t$ AVH
 t$ UWAVH
 t$@H=
+uO]iw
 v=Y]Bv
 vector<T> too long
 windowHeight
@@ -259,7 +261,6 @@ windowX
 windowY
 www.digicert.com1!0
 x]~\6
-z$T"9S
 {un'%
 |$ AVH
 |Lu?c

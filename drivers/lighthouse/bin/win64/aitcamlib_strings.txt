@@ -16,15 +16,14 @@
  A_A^_^]
  A__^
  H3E H3E
- m%h$
 !(0)"
 !hn7!
 "9k0t
-"L;yo
 #*1892+$
 #9i0t
 #?RADIANCE
 #?RGBE
+#BBmr
 #D9c0t
 #D9{0t
 %,3:;4-&
@@ -60,6 +59,7 @@
 )|$ H
 )|$@f
 *9Z9N
++#0)c
 +Xt@(
 +o'q)}
 , last executing in 
@@ -175,7 +175,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220331224828Z0/
+220401223002Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -209,9 +209,7 @@
 9k0tcH
 9l$Lt	E
 ;D$ht6
-;Fe*,
 <0:08
-<U?h#^
 =ETLP
 =IBgC
 =SNRtt%
@@ -353,6 +351,7 @@ Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
+FyX#l
 GetCameraHALInterface
 GetCurrentProcessId
 GetCurrentThreadId
@@ -469,7 +468,8 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSAp:
+RSDSdP`
+RYIBO
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -649,7 +649,6 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-au.oh
 bad AC huff
 bad APP len
 bad BMP
@@ -863,7 +862,6 @@ zlib corrupt
 |$PH;
 |$PLc
 |$XH;
-|1)qT
 |Lu?c
 }LuHO
 ~3LcD$(L

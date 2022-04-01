@@ -1,9 +1,13 @@
 	!s99
-(DigiCert SHA2 Assured ID Timestamping CA
-(DigiCert SHA2 Assured ID Timestamping CA0
+ %41g
+!hn7!
+',=?k
+(f*^[0
+*9Z9N
++Xt@(
 +o'q)}
-,http://crl3.digicert.com/sha2-assured-ts.crl02
-,http://crl4.digicert.com/sha2-assured-ts.crl0
+,W5y+
+-RNKF
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -68,31 +72,34 @@
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
 0'0,01080
 090o0
+0w0c1
 0}0i1
 1)10161H1R1
 1)181G1l1
 101X1x1
 130801120000Z
-160107120000Z
 1T2l2
-210101000000Z
 210429000000Z
 211007000000Z
-220331224834Z0/
+220323000000Z
+220329000000Z
+220401222953Z0/
 241009235959Z0a1
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2xJK7*L
 3(3d3
-310106000000Z0H1
-310107120000Z0r1
+330314235959Z0L1
 360428235959Z0i1
+370322235959Z0c1
 380115120000Z0b1
 3<3Y3o3
 3mq+<
 4(4Z4
 4*464<4B4N4q4O5o5y5
 4>4K4S4[4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
-4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
 5 5$5(5H6L6P6T6X6\6`6x6|6
 5&53595C5M5W5a5k5x5
 5&5V5[5~5
@@ -107,13 +114,11 @@
 6OB,n_
 6k6p6
 70503
-7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
 8(8,8<8@8D8L8d8t8x8
 8)8?8H8S8Z8z8
 8*858?8K8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8aMbF$
 9#9,9>9C9M9W9`9i9~9
 9$9>9
 9%959E9N9]9c9i9o9u9{9
@@ -121,7 +126,6 @@
 :!:3:Q:
 :(:-:;:E:N:W:b:g:u:
 :(:8:<:L:P:X:p:
-:0806
 ;(;2;;;G;P;U;`;q;
 ;4>X>d>l>
 ;Z;k;
@@ -131,6 +135,7 @@
 ='=9=Q=
 =(=.=4=x=}=
 =?>S>x>
+=rIQU
 >4?=?F?O?T?Y?`?
 >Mp$d
 >T>]>f>o>t>y>
@@ -139,22 +144,22 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-AKy[m
+AjEB#AZ
 Bellevue1
-Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
-DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 20210
+DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1 0
+DigiCert, Inc.1$0"
+DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+Fc*4]
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
 HmdDriverFactory
-I0G08
+I=t7Q
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -169,6 +174,7 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
@@ -176,23 +182,23 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
-M$#0]
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+N:PXcj
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QJxy6z'
 QueryPerformanceCounter
+S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
-V3"/"6
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
@@ -202,6 +208,7 @@ Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
+^YP-jG
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -225,7 +232,6 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
-_lCI	
 _purecall
 _register_onexit_function
 _seh_filter_dll
@@ -249,19 +255,13 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-dwc_#Ri
-fnVa')
+e,>~^
 http://ocsp.digicert.com0A
-http://ocsp.digicert.com0C
-http://ocsp.digicert.com0O
+http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-https://www.digicert.com/CPS0
-j0h02
 jj@0HK4
 k0i0$
-lO&QR@
-m0k0$
 malloc
 memcpy
 memmove
@@ -281,12 +281,8 @@ windowWidth
 windowX
 windowY
 www.digicert.com1!0
-www.digicert.com1$0"
-www.digicert.com110/
-y0w0$
-z0x0:
+x]~\6
+{un'%
 |Lu?c
-|]E-K
-} i-7`Zw
 }LuHO
 ~t&LN

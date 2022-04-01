@@ -477,7 +477,7 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-22:44:37
+22:25:30
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -539,6 +539,7 @@ AllocateMemoryFromType
 Apply blur filter
 Apply median filter
 Apr
+Apr  1 2022
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe
@@ -2001,7 +2002,6 @@ MV-PreviousInput-%s
 MV-Threshold
 Map
 Mar
-Mar 31 2022
 March
 MarkInUse
 Mask Input Image
