@@ -133,6 +133,7 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+/zAC|
 0A^_^
 0A_A^A\_^
 0A_A^A]A\_^[
@@ -144,15 +145,15 @@
 0}0i1
 130801120000Z
 1e+9999
+1ebw\F:<
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220401223135Z0/
+220408232134Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2H'()Ec
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -174,6 +175,7 @@
 <0:08
 <unknown>
 =rIQU
+=r`tN0
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -200,7 +202,6 @@
 ?_Xlength_error@std@@YAXPEBD@Z
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
-?k1u)
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
 ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
@@ -216,6 +217,7 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@"ph%
 @.data
 @.reloc
 @A^_^
@@ -493,7 +495,6 @@ Initializing output duplication for desktop view %d.
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-J]d,Z3
 K32GetModuleFileNameExW
 KERNEL32.dll
 K}*n:	
@@ -558,7 +559,6 @@ ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S _CM
 S0Q0O
 SA|X=G
 SHCreateItemFromParsingName
@@ -599,7 +599,6 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-U<eaV
 UATAUAVAWH
 USER32.dll
 USVWATAUAVAWH
@@ -720,32 +719,54 @@ api-ms-win-crt-string-l1-1-0.dll
 assert json failed
 bad allocation
 bad array new length
+bg_bg
+brazilian
+bulgarian
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+cs_cs
+czech
 d$`H=
 d$hM;
 d$pE3
 d3d11.dll
+da_da
+danish
+de_de
 deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
 e,>~^
+el_el
+en_us
+english
+es_es
+es_mx
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fF94@u
 false
 fffffff
+fi_fi
+finnish
+fr_fr
+french
+german
 gfffffffH
 gfffffffI
+greek
 handlers
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+hu_hu
+hungarian
+iaEcM
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -757,12 +778,19 @@ in Json::Value::operator[](int index) const: index cannot be negative
 in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
+it_it
+italian
+ja_jp
+japanese
 jj@0HK4
 k0i0$
+ko_ko
+korean
 l$ H;
 l$ H=
 l$8E3
 l$PM9n
+latam
 list<T> too long
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
@@ -774,6 +802,8 @@ memcpy
 memmove
 memset
 message_id
+no_no
+norwegian
 ntelD
 ole32.dll
 openvr_api.dll
@@ -781,17 +811,30 @@ overlay_keyboard_closed
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
+pl_pl
+polish
+portuguese
+pt_br
+pt_pt
 r,fff
 request_handlers
 request_handlers_response
 returnAddress
+ro_ro
+romanian
+ru_ru
+russian
+schinese
 shcore.dll
 shutdown
+spanish
 startup
 string too long
 strncpy
 strpbrk
 strtoull
+sv_sv
+swedish
 system.cursor.ibeam
 system.desktop.%d
 system.desktop.pointer
@@ -807,12 +850,20 @@ t$PH=
 t:I;>t
 tVfff
 tXfff
+tchinese
 terminate
+th_th
 tolower
+tr_tr
+turkish
+ua_ua
+ukranian
 user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
+vi_vi
+vietnamiese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )
 vr::VROverlay()->DestroyOverlay( m_ulOverlayHandle )
@@ -834,6 +885,8 @@ wn>Jj
 www.digicert.com1!0
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 x]~\6
+zh_cn
+zh_tw
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -847,4 +900,3 @@ x]~\6
 |Lu?c
 }LuHO
 ~t&LN
-~|pQh

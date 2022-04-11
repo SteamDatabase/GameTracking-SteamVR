@@ -175,6 +175,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.Z&`o
 .data
 .data$r
 .edata
@@ -225,7 +226,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220401223007Z0/
+220408231953Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -267,6 +268,7 @@
 =rIQU
 >"t H
 >"t-H
+>=bZ	
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -785,6 +787,7 @@ PA_A^_^]
 PAq=?Mp#
 PUBLIC
 Parsing of JSON string "%s" failed: %s
+Pbj'c
 PeekNamedPipe
 PerformDFU
 Performing DFU:
@@ -1072,7 +1075,6 @@ Zipfile is corrupt or not a zipfile
 ]gfff
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
-^lc4>U
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -1199,7 +1201,6 @@ invalid window size
 isxdigit
 jj@0HK4
 k0i0$
-kb(7)
 l$ H;
 l$ H=
 l$ VWATAVAW
@@ -1223,6 +1224,7 @@ memcmp
 memcpy
 memmove
 memset
+n!O#j
 need dictionary
 ntelD
 oversubscribed distance tree
@@ -1316,6 +1318,8 @@ vivelink-driver.txt
 vivelink-output.txt
 vivelink.exe
 vivelinklib.dll
+vplH?>o]
+wQ!fn
 win64
 wn>Jj
 www.digicert.com1!0
@@ -1324,7 +1328,6 @@ xAtAL
 x]~\6
 xdigit
 {un'%
-{vPy;V
 {x\u!H
 {|?uWH
 |$ ATAUAWH
@@ -1351,8 +1354,6 @@ xdigit
 |$`H+
 |$pE2
 |$xH;
-|Gb,B
 |Lu?c
 }LuHO
-}mZD^
 ~t&LN

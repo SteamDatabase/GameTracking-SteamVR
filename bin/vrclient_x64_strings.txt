@@ -16,7 +16,6 @@
 	driver_id
 	enum_type
 	extension
-	fyCo*
 	is_hidden
 	log_level
 	mime_type
@@ -48,7 +47,7 @@
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`ab
+ !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`aba.
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !00"#$%&'()*+,-./f
@@ -240,6 +239,7 @@
 #CVRMsg_TrackedCamera_GetFrameBounds
 #D9c0t
 #D9{0t
+#Gj|ka
 #OriginString_All
 #OriginString_Controller
 #OriginString_ControllerSource
@@ -552,11 +552,10 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(-eJ"
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
-(=>>"
+(=^M"
 (A\^][
 (A\_^[
 (A]_^[
@@ -674,6 +673,7 @@ $w!Hc
 (|$`L
 (|$pH
 (|$pI
+)	uhR
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )9k0t
@@ -827,7 +827,6 @@ $w!Hc
 ,CVRMsg_TrackedCamera_StopVideoStreamResponse
 ,H;D$ 
 ,W5y+
-,lH`L
 -1e+9999
 -9k0t&H
 -9{0t%H
@@ -2210,7 +2209,7 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220401223437Z0/
+220408232301Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2219,6 +2218,7 @@ $w!Hc
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2HcB,
+2VZ](
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -2281,7 +2281,6 @@ $w!Hc
 9)u$M
 98tHH
 9;tC@8{
-9=/L%
 9A(~0H
 9A|6H
 9C s.H
@@ -2591,7 +2590,14 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@8=]!=
+@8=	7=
+@8=$?=
+@8=@;=
+@8=D==
+@8=[:=
+@8=[==
+@8=]A=
+@8=k<=
 @8I+@0H
 @8i(u
 @8k t
@@ -2765,7 +2771,6 @@ $w!Hc
 @[Compositor Client] Flush (GL) - Begin
 @_RDATA
 @fff>fff>fff>fff>
-@long_press_delay
 A ;G@t
 A A;B
 A H+A
@@ -2841,7 +2846,6 @@ A]A\^[]
 A]A\^]
 A]A\_[]
 A]A\_^[]
-A]A\_^]
 A]_[]
 A]_^[]
 A]_^]
@@ -3071,19 +3075,19 @@ C H9C(t
 C H9T$@t
 C t~H
 C$A;A
-C%H =
+C%H@=
 C(9~(~FL
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-&E0
 C09w(~:L
 C0L9$
 C0L;E
 C0L;F
 C0L;G
 C4LcC0H
+C5X>=
 C8;C<
 C8;K<
 C8@8l$8t.
@@ -3802,6 +3806,8 @@ D8$0u
 D8$7u
 D8$>u
 D8,8u
+D85Y*5
+D85Z94
 D8<0u
 D8<>u
 D8D$9t$
@@ -4681,7 +4687,6 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;= E0
 H;A s
 H;Axt
 H;C(v
@@ -4869,6 +4874,7 @@ Hex and octal numbers must be integers.
 Hi Joe(D). Your text goes here
 HiL$ 
 HiL$  
+Hj,eN5
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -5299,6 +5305,7 @@ J949u
 J>@G_
 JPI+JHH
 JSON string too short.
+Jv3M6
 K(9J(}
 K(H+K H
 K(H9H s
@@ -6338,6 +6345,7 @@ Successfully changed app type
 Successfully reconnected to server
 Suggested binding for [%s] [%s]:
 Suggested bindings for %s:
+SwE	gx
 SwapChainImage
 SwapChainImageView
 Swapchain-WaitImage
@@ -6597,7 +6605,6 @@ UVAWH
 UVWATAUAVAWE3
 UVWATAUAVAWH
 UVWATAUAWH
-UVWATAUH
 UVWATAVAWH
 UVWATAVH
 UVWATAWH
@@ -6751,6 +6758,7 @@ Unknown property error (%d)
 Unknown render model error (%d)
 Unknown skeleton path %s
 Unknown skeleton type %u
+Unknown string table context %s
 UnmapViewOfFile
 Unnamed simulated action failed to parse: 
 Unsupported `type` for accessor object. Got "
@@ -7484,7 +7492,7 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
-X5bU'
+X%,)/
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -7815,13 +7823,12 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%3R/
-Y%wq-
-Y5Q~"
-Y5[U/
-Y5~U/
+Y%3b/
+Y%8$.
+Y-`$.
+Y5[e/
+Y5~e/
 Y9"SD
-Y=^~"
 Y>t$7?*
 YD$8E
 Yd$@A
@@ -7839,7 +7846,6 @@ ZvFailed to create fence to block on queue flush at shutdown.
 [%s] End Reading Timestamps: %d
 [%s] Mark Timing Event: %s(%d)
 [(HcS
-[:z\j
 [CDownsampleRenderer] Failed to create blend state!
 [CDownsampleRenderer] Failed to create depth stencil state!
 [CDownsampleRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!
@@ -8001,7 +8007,6 @@ ZvFailed to create fence to block on queue flush at shutdown.
 \10I;
 \U%08x
 \\.\pipe\
-\\eI4Z
 \u=H;
 \x%02x
 \|$`D
@@ -8024,7 +8029,8 @@ ZvFailed to create fence to block on queue flush at shutdown.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%k'"
+_%	>"
+_%'C"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8297,6 +8303,7 @@ bad zlib header
 baseColorFactor
 baseColorTexture
 baseSkeletonPose
+bg_bg
 bin\vrwebhelper\win64\vrwebhelper.exe
 bin\win32\vrmonitor.exe
 bin\win32\vrstartup.exe
@@ -8322,11 +8329,13 @@ boolean_latch
 boolean_or
 boolean_threshold
 boolean_toggle
+brazilian
 bsearch_s
 buffer
 bufferView
 bufferViews
 buffers
+bulgarian
 button
 button_
 button_toggle
@@ -8464,7 +8473,9 @@ coordinates
 corrupt
 count
 create
+cs_cs
 ctype
+czech
 d$ E3
 d$ IcA,H
 d$ Mc
@@ -8504,6 +8515,8 @@ d$hI;
 d$pI;
 d$pM;
 d3d11.dll
+da_da
+danish
 dashboard
 dashboard_overlay
 dashboard_overlay_created
@@ -8518,6 +8531,7 @@ data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
 data_revision
+de_de
 deactivateStandbyOverride
 deactivate_threshold
 deadzone
@@ -8615,6 +8629,7 @@ e_H9U
 east_click
 east_touch
 effffff
+el_el
 elapsed_time
 emissiveFactor
 emissiveTexture
@@ -8626,9 +8641,12 @@ enableDriverBoundsImport
 enableHomeApp
 enableYAMLCompatibility
 end of input
+english
 entries
 error
 error %s when initing driver %s from %s.
+es_es
+es_mx
 event_memory_handle
 event_mutex_handle
 exception thrown in JSON library
@@ -8726,6 +8744,7 @@ fffffff
 fflush
 fgetc
 fgetpos
+fi_fi
 field
 file://
 file:///
@@ -8733,6 +8752,7 @@ file_path
 filename
 filename_type
 filters
+finnish
 firmwarerecovery
 firmwareupdate
 first not IHDR
@@ -8758,10 +8778,12 @@ format
 fovScale
 fputc
 fputs
+fr_fr
 frame_buffer_datasize
 frame_type
 framesToThrottle
 fread
+french
 frequency
 fseek
 fsetpos
@@ -8774,6 +8796,7 @@ gamepad
 generator
 generic
 generic_hmd
+german
 gfffA
 gfffD+
 gfffI
@@ -8828,6 +8851,7 @@ gpuSpeedRenderTargetScale
 gpuSpeedVendor
 gpu_profiler_capture
 grab_value_and_force
+greek
 green
 green_u
 green_v
@@ -8865,6 +8889,8 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 https://
+hu_hu
+hungarian
 iError calling pDownsampleRenderer->Draw()!
 identifier_value
 ig@-?e
@@ -8988,7 +9014,11 @@ isalpha
 isdigit
 isspace
 it->nRefCount > 0
+it_it
+italian
 ix`fA
+ja_jp
+japanese
 java_generate_equals_and_hash
 java_generic_services
 java_multiple_files
@@ -9029,6 +9059,8 @@ keyboard
 keylength >= 2^30
 khr_simple_controller
 knuckles
+ko_ko
+korean
 l$ 8Y 
 l$ ATAVAWH
 l$ AVH
@@ -9093,9 +9125,11 @@ l$xE3
 l$xHc
 l$xLc
 label
+language
 language_tag
 last_launch_time
 last_played_time
+latam
 latch
 launch_app_already_running
 launch_type
@@ -9128,6 +9162,7 @@ log_message
 log_timestamp
 log_web_console_handle
 loglevel
+long_press_delay
 m0_$@
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
@@ -9254,6 +9289,7 @@ no SOI
 no clear code
 no header height
 no preset dict
+no_no
 no_standard_descriptor_accessor
 nodes
 normalTexture
@@ -9261,6 +9297,7 @@ normalized
 north
 north_click
 north_touch
+norwegian
 not BMP
 not GIF
 not HDR
@@ -9278,7 +9315,7 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5bW&
+o5\g&
 o@@fD
 oD$ fD
 oD$0f
@@ -9402,8 +9439,11 @@ pid_%04x
 pinch
 pinchgrab
 pivot
+pl_pl
 playAreaColor
 play_area
+polish
+portuguese
 pose_component
 pose_constant
 poses
@@ -9435,6 +9475,8 @@ prism_host_pid
 process_id
 progress
 progress_icon
+pt_br
+pt_pt
 public_dependency
 pulse_duration
 py_generic_services
@@ -9490,13 +9532,17 @@ returnBindingsWithRightHand
 right
 rightThumbstickRotation
 rnw(I
+ro_ro
+romanian
 rotate
 rotate_xyz
 rotation
 roughnessFactor
 round
 roundf
+ru_ru
 runtime
+russian
 s AVH
 s$D;E
 s(HcEoH
@@ -9515,6 +9561,7 @@ scale
 scale_sao_%s%s%s
 scene
 scenes
+schinese
 scope
 scroll
 scroll_mode
@@ -9860,6 +9907,7 @@ sources
 south
 south_click
 south_touch
+spanish
 sparse
 spatialAnchorsSupport
 stackLimit
@@ -9928,7 +9976,9 @@ supported_buttons
 supported_mime_types
 supports_dominant_hand_setting
 suppressedByPriority
+sv_sv
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
+swedish
 sxr_xrAcquireSwapchainImage
 sxr_xrApplyHapticFeedback
 sxr_xrAttachSessionActionSets
@@ -10158,7 +10208,7 @@ t1Hcl$@
 t1fff
 t3fff
 t4L9P
-t8D8-Q
+t8D8-
 t9fff
 t:fff
 t<Lc@xE
@@ -10185,6 +10235,7 @@ t`fff
 target
 targets
 tb9l$Xt@9n$~;
+tchinese
 tdh.dll
 teH9EXtPA
 template_app_key
@@ -10199,6 +10250,7 @@ texture1
 texture2
 textures
 tgfff
+th_th
 the global scope
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
@@ -10239,6 +10291,7 @@ touchy_latch
 toupper
 tpH9+t	H
 trH9}
+tr_tr
 trackedCamera
 tracked_device_index
 trackers
@@ -10261,6 +10314,7 @@ trigger_haptic
 trigger_laser_mouse_haptic_vibration
 trigger_path
 true literal
+turkish
 tx<	u#
 types
 t|SUVH
@@ -10306,6 +10360,7 @@ uP@8;uo
 uSD9d$DuLD8
 uZEeu
 u[fff
+ua_ua
 ub'vb'v
 ubHcC0I
 udH9P sRH
@@ -10316,6 +10371,7 @@ ui8D$0tc
 uint32
 uint64
 ukH9X s
+ukranian
 umM;~
 unCallingProcessID
 unMyPID == data
@@ -10376,9 +10432,11 @@ version_build
 version_major
 version_minor
 vfA'I
+vi_vi
 vibration
 vid_%04x
 video_stream_format
+vietnamiese
 visibility
 vive_controller
 vive_cosmos_controller
@@ -10901,7 +10959,7 @@ wcscpy_s
 wcsrchr
 wcsstr
 weak_dependency
-webinterface/dashboard/localization/webhelper_english.json
+webinterface/dashboard/localization/webhelper_
 wedge_angle
 weights
 west_click
@@ -11082,6 +11140,8 @@ z2u0H
 z4u2H
 z_far
 z_near
+zh_cn
+zh_tw
 zlib corrupt
 znear
 zuusA
@@ -11091,6 +11151,7 @@ zuusA
 {%s}%s
 {,	u#
 {8@8l$8t1
+{d	qpn}v
 {un'%
 |$ 9kh~
 |$ 9y ~=H
@@ -11206,7 +11267,6 @@ zuusA
 }0H;}8tQH
 }8HcF,H
 }</uyH
-}Gb4&
 }LuHO
 }PI9}Xt2H
 }`H+}XH

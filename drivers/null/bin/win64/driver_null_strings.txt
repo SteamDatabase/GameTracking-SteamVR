@@ -1,11 +1,12 @@
 	!s99
+	k}(}
  %41g
  A__^
  H3E H3E
 !hn7!
 ',=?k
 (f*^[0
-(|\>/
+*1=h0
 *9Z9N
 +Xt@(
 +o'q)}
@@ -80,7 +81,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220401223116Z0/
+220408232107Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -145,22 +146,24 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JN39/
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
-LN&}*
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
 MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+M| 0<
 NPH9Q
+O!ro~
+O`r?{
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSm
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -179,6 +182,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
+XQKu2
 Y9"SD
 [K]taM?
 \$ UH
@@ -209,7 +213,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`Vkqzi
+a |d 
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -233,15 +237,14 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
-k&8N`
 k0i0$
+kVr ?
 l$8E3
 malloc
 memcpy
 memmove
 memset
 modelNumber
-n?Lbe
 ntelD
 renderHeight
 renderWidth
@@ -252,7 +255,7 @@ string too long
 t$ AVH
 t$ UWAVH
 t$@H=
-uO]iw
+v#kc 
 v=Y]Bv
 vector<T> too long
 windowHeight

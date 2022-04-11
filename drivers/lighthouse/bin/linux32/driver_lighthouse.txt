@@ -849,6 +849,7 @@
  d g_nSIMDBitMaskToIndex
  d g_pAITCamera
  d g_pEtronCamera
+ d g_rPairs
  d g_szSemFileName
  d s_Distortion_Type
  d s_Eye
@@ -4782,12 +4783,15 @@
  t CLinuxVideoStream::StopPreview()
  t CLocalizationManager::BLoadDriverStringTable(std::string const&)
  t CLocalizationManager::BLoadDriverStringTable(std::string const&) [clone .cold]
- t CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&)
- t CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&) [clone .cold]
+ t CLocalizationManager::BLoadWebStringTable(std::string const&)
+ t CLocalizationManager::BLoadWebStringTable(std::string const&) [clone .cold]
+ t CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*)
+ t CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*) [clone .cold]
  t CLocalizationManager::GetStringEntry(std::string const&, std::string const&)
  t CLocalizationManager::GetStringEntry(std::string const&, std::string const&) [clone .cold]
  t CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
  t CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&) [clone .cold]
+ t CLocalizationManager::SetLanguage(std::string const&)
  t CLog::AddCallback(CLogCallback*)
  t CLog::AddCallback(CLogCallback*) [clone .cold]
  t CLog::GetInstance()
@@ -5265,6 +5269,8 @@
  t EyeFromName(char const*)
  t FileSelect(dirent const*)
  t FillDataStruct(_finddata_t*)
+ t FindLanguageTag(Json::Value const&, std::string const&)
+ t FindLanguageTag(Json::Value const&, std::string const&) [clone .cold]
  t FindUserDataByName(unsigned char const*, unsigned int, char const*, int*)
  t Format(char const*, ...)
  t Format(char const*, ...) [clone .cold]
@@ -5295,6 +5301,7 @@
  t GetPortableOsVersionInformation(SPortableOsVersionInformation*)
  t GetResourceBaseDir()
  t GetResourceBaseDir() [clone .cold]
+ t GetSteamVRLanguage(ISteamUtils*)
  t GetSystemBaseTicks()
  t GetSystemTicksFromTime(double)
  t GetSystemTime()
@@ -6006,6 +6013,7 @@
  t StaticPoseMaker::CreatePose(CPoseRecipe&, unsigned char) const
  t StaticPoseMaker::StaticPoseMaker(CKeyframedDataResource const*, int)
  t StaticPoseMaker::~StaticPoseMaker()
+ t SteamLanguageToSteamVRLanguage(std::string const&)
  t SteamThreadTools::CThread::BHasValidThreadID()
  t SteamThreadTools::CThread::CThread()
  t SteamThreadTools::CThread::GetCurrentCThread()

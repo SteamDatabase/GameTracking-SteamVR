@@ -135,6 +135,7 @@
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  %41g
  '-46
+ 'nV+
  (cal)
  (does the path point to a directory?)
  (object had no JSON IMU cal)
@@ -161,7 +162,6 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
- 1{A%
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -895,6 +895,7 @@ $w!Hc
 ,0<6w H
 ,9k0t%H
 ,9{0t%H
+,=Nr0
 ,W5y+
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
@@ -1241,6 +1242,7 @@ $w!Hc
 /D8pH
 /F@v	L
 /Z v"
+/\/S)
 /bin/mail
 /delivery_rate
 /devices/lighthouse/
@@ -1377,7 +1379,7 @@ $w!Hc
 21VNt
 220323000000Z
 220329000000Z
-220401223505Z0/
+220408232522Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1544,7 +1546,6 @@ $w!Hc
 :0u(H
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
-:?BTc
 :EotB
 ; expected 
 ; last read: '
@@ -1721,6 +1722,7 @@ $w!Hc
 ?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
 ?prepareFrame@PE@@YAXPEAUMultiCameraColorFrame@ST@@W4FramePreparationStrategy@1@N0_N2@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+?qcop
 ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAV32@@Z
 ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?rotated@Matrix4@ST@@QEBA?AU12@AEBU?$Vector3@M@2@@Z
@@ -3598,6 +3600,7 @@ I(+K H
 I(9J(}
 I(I+I H
 I+G@H
+I/L*8
 I9<$u
 I9A A
 I9B A
@@ -5474,7 +5477,6 @@ ZL$Xf
 \%03o
 \1??I
 \D$ A
-\O(|%
 \T$@IcD$ H
 \U%08x
 \\.\pipe\
@@ -5741,6 +5743,7 @@ base_config_json
 base_serial_number
 base_stations
 basestation_mode
+bg_bg
 bin\win64\vrprismhost.exe
 bit_offset
 bit_width
@@ -5757,11 +5760,13 @@ bonemask_ring.txt
 bonemask_squeeze.txt
 bonemask_thumb.txt
 bonemask_thumb_and_wrist.txt
+brazilian
 buffer
 buffer error
 bufferView
 bufferViews
 buffers
+bulgarian
 bxk.f
 byteLength
 byteOffset
@@ -5837,7 +5842,9 @@ controller
 corrupt
 count
 create
+cs_cs
 ctype
+czech
 d$ E3
 d$ IcA,H
 d$ UAVAWH
@@ -5869,6 +5876,8 @@ d$hHcC,L
 d$pI;
 d$xL;
 d3d11.dll
+da_da
+danish
 data error
 data->IsInitialized()
 data:application/gltf-buffer;base64,
@@ -5879,6 +5888,7 @@ data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
 dbhistory
+de_de
 deactivateStandbyOverride
 default_value
 delayed
@@ -5958,17 +5968,22 @@ eRender
 e_H9U
 echo %127s
 effffff
+el_el
 emissiveFactor
 emissiveTexture
+en_us
 enable
 enableCamera
 enableImuFallback
 enableMJPEGMode
 enableRawMode
 end of input
+english
 entiu
 error
 es-8R
+es_es
+es_mx
 ev3Ff
 ewh/?y
 exception thrown in JSON library
@@ -6067,10 +6082,12 @@ fffffff
 fflush
 fgetc
 fgetpos
+fi_fi
 field
 file error
 file is empty or does not exist
 filename
+finnish
 firmwareVersion
 firmware_config
 firmware_update_required
@@ -6095,9 +6112,11 @@ forcedGlobalGain
 forcedWhiteBalance
 fputc
 fputs
+fr_fr
 framer
 framesToThrottle
 fread
+french
 from base 
 fseek
 fsetpos
@@ -6109,6 +6128,7 @@ generator
 generic_controller
 generic_hmd
 generic_tracker
+german
 getDeviceProperty returned empty
 getDeviceProperty returned wrong type %d
 get_eye_to_head
@@ -6130,6 +6150,7 @@ gfffffffL+
 gfffffffM
 go_package
 gravity_vector
+greek
 group
 grow_for_undistort
 gyro_bias
@@ -6182,6 +6203,8 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
+hu_hu
+hungarian
 i H9i0u
 iauds
 ideal_period
@@ -6310,7 +6333,11 @@ isalnum
 isalpha
 isdigit
 isspace
+it_it
+italian
 ix`fA
+ja_jp
+japanese
 java_generate_equals_and_hash
 java_generic_services
 java_multiple_files
@@ -6327,6 +6354,8 @@ known_objects
 known_universes
 knuckles
 knuckles_ev1
+ko_ko
+korean
 l!;b	F
 l$ 8Y 
 l$ ATAVAWH
@@ -6396,6 +6425,7 @@ label
 lastChaperoneCommit
 last_eye
 last_id
+latam
 ldexp
 leading_comments
 left eye
@@ -6425,6 +6455,7 @@ localeconv
 location
 low_mm
 m0_$@
+mBC*/
 mXu.H
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
@@ -6518,6 +6549,7 @@ no clear code
 no header height
 no optical samples 
 no preset dict
+no_no
 no_standard_descriptor_accessor
 noclk
 nodes
@@ -6525,6 +6557,7 @@ non-finite elements of state vector:
 nonce
 normalTexture
 normalized
+norwegian
 not BMP
 not GIF
 not HDR
@@ -6637,8 +6670,11 @@ pd$@D
 pd$`D
 perspective
 pitch
+pl_pl
 plus_x
 plus_z
+polish
+portuguese
 position
 position out of bounds 
 positive_int_value
@@ -6657,6 +6693,8 @@ priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.
 prism.dll
 product %u rev %u.%u.%u lot %u/%u/%u %u
 proximity
+pt_br
+pt_pt
 public_dependency
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x
@@ -6707,12 +6745,16 @@ right_hand
 right_sync_is_real_as_it_gets
 right_sync_time
 rnw(I
+ro_ro
+romanian
 rootserial
 rotating at 
 rotation
 roughnessFactor
 roundf
+ru_ru
 runtime
+russian
 r|fff
 s AVH
 s H9S
@@ -6730,6 +6772,7 @@ scalar
 scale
 scene
 scenes
+schinese
 second_tracked_camera
 secondary
 seconds_from_photons_to_vblank
@@ -6763,6 +6806,7 @@ slow-edid
 sobChannel
 source
 source_code_info
+spanish
 sparse
 special_value_zero
 stackLimit
@@ -6809,8 +6853,10 @@ subpixel_shift_red_in_pixels
 subtype mismatch
 succeeded
 success
+sv_sv
 svuyt
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
+swedish
 sync_width
 synconbeam
 syntax error 
@@ -6988,6 +7034,7 @@ target_pose
 target_serial_number
 targets
 tb9l$Xt@9n$~;
+tchinese
 tdLc\$HIc
 tdh.dll
 tdm sync acquired
@@ -7008,6 +7055,7 @@ text format contains deprecated field "
 text/plain
 textures
 tgfff
+th_th
 the global scope
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
@@ -7028,6 +7076,7 @@ too many length or distance symbols
 toupper
 tpH9.t	H
 trH9}
+tr_tr
 trackedCamera
 tracked_camera
 tracked_camera1
@@ -7045,6 +7094,7 @@ translation
 treadmill
 true literal
 ttfD;W@smE
+turkish
 tvfff
 twos_complement
 tx<	u#
@@ -7079,9 +7129,11 @@ uKb!?6mH
 uSL9-
 uSfff
 uZEeu
+ua_ua
 ubHcC0I
 uint32
 uint64
+ukranian
 umM;~
 undist_height
 undist_width
@@ -7134,9 +7186,11 @@ version
 version %s
 version.txt
 vfA'I
+vi_vi
 via transform to global
 vibration
 video_mode
+vietnamiese
 viveVR
 vive_controller
 vive_pro
@@ -7661,6 +7715,8 @@ z2u0H
 z4u2H
 z?X9T?
 zd?/n
+zh_cn
+zh_tw
 zlib corrupt
 znear
 zuusA

@@ -2,7 +2,7 @@
  %41g
  A__^
  H3E H3E
-!RqObRUH
+!AT 	
 !hn7!
 ',=?k
 (D$ f
@@ -12,7 +12,6 @@
 +Xt@(
 +o'q)}
 ,W5y+
-,}GbHv
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -99,7 +98,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220401223109Z0/
+220408232101Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -203,6 +202,7 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+Q0#@%
 QueryPerformanceCounter
 RaiseException
 RtlCaptureContext
@@ -243,6 +243,7 @@ SleepConditionVariableCS
 TUUUUUU
 TlsAlloc
 TlsFree
+U6Fdy
 UVWAVAWH
 UWAVH
 UnhandledExceptionFilter
@@ -259,6 +260,7 @@ Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
+^zs,7
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -305,6 +307,8 @@ bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
 e,>~^
+eDW1!4
+fnT*<\G{
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -317,8 +321,10 @@ map/set<T> too long
 memcpy
 memmove
 memset
+m}Fv9@
 ntelD
 p WAVAWH
+sWaKXL
 string too long
 t$ AVH
 t$ AWH

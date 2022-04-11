@@ -61,8 +61,6 @@
  in Buffer
  in `
  sJE3
- xU )
- |\%qY
 !&.37<
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
@@ -94,7 +92,6 @@ $w!Hc
 %,3:;4-&
 %9k0t
 %9{0t
-%J-vP
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s begin_ctx=%llu
@@ -185,6 +182,7 @@ $w!Hc
 )L$P@
 )L$PL
 )L$pA
+)N;P2
 )l$0D
 )t$ D
 )t$ H
@@ -461,7 +459,7 @@ $w!Hc
 211007000000Z
 220323000000Z
 220329000000Z
-220401223129Z0/
+220408232129Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -469,6 +467,7 @@ $w!Hc
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+3	iy,
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -672,7 +671,6 @@ $w!Hc
 @VWAWH
 @_RDATA
 @fff>fff>fff>fff>
-@}Gb`
 A valid JSON document must be either an array or an object value.
 A8~xt
 A9A A
@@ -793,7 +791,6 @@ C\$PH
 C\$PL
 C\$PM
 C\$pL
-C^^V7>
 Camera
 CertGetNameStringW
 Chaperone updated with universe ID %d
@@ -805,7 +802,6 @@ CreateFileW
 CreateSession was invoked without calling DestroySession, textures may have been leaked.
 CreateThread
 C|$PL
-D!pCwZ
 D$ A;
 D$ E3
 D$ E;
@@ -932,6 +928,7 @@ Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set
+FUQL\
 Failed CreateTexture2D with 0x%X
 Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
 Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
@@ -1201,7 +1198,6 @@ LibOVRRT64_1.dll
 LoadLibraryA
 LoadLibraryW
 LocalizationManager
-L~'D<
 M H1E
 M98u/
 MB(iVR
@@ -1219,6 +1215,7 @@ N I9N(
 N0H9Q
 NORMAL
 NPH9Q
+N^b)d
 Neither required `bufferView` nor `uri` defined for image[
 No LoadImageData callback specified.
 No valid guardian bounds. Creating standing chaperone
@@ -1263,6 +1260,7 @@ PA_A^_
 PA_A^_^]
 PAq=?Mp#
 Path_Exists( absFilePath )
+PbgaT.
 Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -1669,6 +1667,7 @@ bad tRNS len
 bad zlib header
 baseColorFactor
 baseColorTexture
+bg_bg
 bonemask_grip.txt
 bonemask_index.txt
 bonemask_indexcurl.txt
@@ -1676,10 +1675,12 @@ bonemask_indexnocarpal.txt
 bonemask_middle.txt
 bonemask_middlenocarpal.txt
 bonemask_thumb.txt
+brazilian
 buffer
 bufferView
 bufferViews
 buffers
+bulgarian
 byteLength
 byteOffset
 byteStride
@@ -1705,6 +1706,8 @@ const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 corrupt
 count
+cs_cs
+czech
 d$ H;
 d$ UAVAWH
 d$$E3
@@ -1720,6 +1723,8 @@ d$`L;
 d$`fD
 d$bHc
 d3d11.dll
+da_da
+danish
 data:application/gltf-buffer;base64,
 data:application/octet-stream;base64,
 data:image/bmp;base64,
@@ -1727,6 +1732,7 @@ data:image/gif;base64,
 data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
+de_de
 deque<T> too long
 disconnected
 dk2_camera
@@ -1739,9 +1745,14 @@ eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
 effffff
+el_el
 emissiveFactor
 emissiveTexture
+en_us
 end of input
+english
+es_es
+es_mx
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
 extensions
@@ -1755,20 +1766,25 @@ fclose
 fflush
 fgetc
 fgetpos
+fi_fi
+finnish
 first not IHDR
 fopen_s
 fputc
 fputs
+fr_fr
 fread
+french
 fseek
 fsetpos
 fwrite
 g9k0t_D
 generator
+german
 gfffffffH
 gfffffffH+
 gfffffffI
-h3}A	K|
+greek
 hand_right_poses.glb
 handlers
 headset
@@ -1777,6 +1793,8 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+hu_hu
+hungarian
 ig@-?e
 illegal code in raster
 image/bmp
@@ -1855,12 +1873,17 @@ invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
 invalid vector<T> subscript
 inverseBindMatrices
 isalnum
+it_it
+italian
 ix`fA
-j@g9o(
+ja_jp
+japanese
 jj@0HK4
 joints
 jsonid
 k0i0$
+ko_ko
+korean
 l$ ATAVAWH
 l$ E3
 l$ H;
@@ -1889,6 +1912,7 @@ l$TD;
 l$XH;
 l$pL;l$P
 l$xLc
+latam
 ldexp
 left_controller
 lights
@@ -1926,9 +1950,11 @@ no SOI
 no clear code
 no header height
 no preset dict
+no_no
 nodes
 normalTexture
 normalized
+norwegian
 not BMP
 not GIF
 not HDR
@@ -2091,10 +2117,14 @@ parse_error
 pbrMetallicRoughness
 perspective
 pid_%04x
+pl_pl
 play_area
+polish
+portuguese
 primitive indices accessor out of bounds
 primitives
-qLDA]C
+pt_br
+pt_pt
 quest
 rND9{0t
 range
@@ -2106,15 +2136,20 @@ returnAddress
 rift_camera
 rifts
 right_controller
+ro_ro
+romanian
 rotation
 roughnessFactor
 roundf
+ru_ru
+russian
 s fff
 sampler
 samplers
 scale
 scene
 scenes
+schinese
 seated_position_reset
 setvbuf
 shaders/d3d11/distort_cs.fxo
@@ -2253,6 +2288,7 @@ skeleton
 skeletons
 skins
 source
+spanish
 sparse
 standing
 strcmp
@@ -2269,6 +2305,8 @@ strtod
 strtol
 strtoll
 strtoull
+sv_sv
+swedish
 syntax error 
 t#fff
 t$ AVH
@@ -2332,12 +2370,14 @@ t[H+A
 target
 targets
 tb9l$Xt@9n$~;
+tchinese
 tdh.dll
 teHcD$P
 terminate
 texCoord
 text/plain
 textures
+th_th
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
 timeBeginPeriod
@@ -2349,14 +2389,18 @@ tolower
 too large
 too many codes
 touch_poses_right.glb
+tr_tr
 translation
 true literal
+turkish
 t|SUVH
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
 uTL9%O
+ua_ua
+ukranian
 unexpected 
 ungetc
 universeID
@@ -2380,7 +2424,9 @@ vector<bool> too long
 version
 version %s
 vfA'I
+vi_vi
 vid_%04x
+vietnamiese
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcompositor_mailbox
@@ -2403,6 +2449,8 @@ x]~\6
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
+zh_cn
+zh_tw
 zlib corrupt
 znear
 {%s}%s

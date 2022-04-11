@@ -38,6 +38,7 @@ $_^[]
 %m / %d / %y
 &1V6|:^<
 ',=?k
+'=t6*TE@
 ()$^.*+?[]|\-{},:=!
 (f*^[0
 *9Z9N
@@ -287,6 +288,7 @@ $_^[]
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.awkbA6
 .data
 .data$r
 .edata
@@ -431,7 +433,7 @@ $_^[]
 211007000000Z
 220323000000Z
 220329000000Z
-220401222558Z0/
+220408231553Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1219,7 +1221,6 @@ Applying first frame camera configuration options...
 Auto Exposure Target:		
 Auto Exposure:			
 Auto White Balance:		
-B6	|<
 BP;BL
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1287,7 +1288,6 @@ DecodePointer
 DeleteCriticalSection
 DeleteTimerQueueTimer
 Device Path: 
-Dg.K\
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -1412,6 +1412,7 @@ GetVersionExW
 Gh;G<
 Global Gain:			
 GxVPR
+HNqhnd
 HP;HL
 HPQVR
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -1448,7 +1449,6 @@ M SVW
 M$+E4@Pj
 MB(iVR
 MJPEG color format is not yet implemented.
-MWs/N
 MaxConcurrency
 MaxPolicyElementKey
 Mbp?333333
@@ -1487,6 +1487,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
+RSDS3h
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1593,7 +1594,6 @@ Y__^[
 [SPj"
 [tc9]
 \SVW3
-]A.[4
 ]J<0"0i3
 _$@;Ghr
 _CIexp
@@ -1807,7 +1807,9 @@ print
 protocol error
 protocol not supported
 punct
+q4*Q-
 rLp>B
+ra;FZ
 raB3G
 read only file system
 realloc
@@ -1830,7 +1832,6 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
-rn3L}
 sDh|t
 setlocale
 setvbuf
@@ -1881,6 +1882,7 @@ unknown error
 upper
 v	N+D$
 v=Y]Bv
+vWMtr
 value too large
 vector<T> too long
 vector<bool> too long
@@ -1898,7 +1900,6 @@ x\SVW
 x]~\6
 xdigit
 y'j h
-{>Wb6-
 {L?uI
 {un'%
 |Lu?c

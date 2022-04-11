@@ -7,7 +7,6 @@
 +Xt@(
 +o'q)}
 ,W5y+
--RNKF
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -71,6 +70,7 @@
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
 0'0,01080
+02@:e
 090o0
 0w0c1
 0}0i1
@@ -83,7 +83,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220401222953Z0/
+220408231927Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -123,12 +123,14 @@
 9$9>9
 9%959E9N9]9c9i9o9u9{9
 90949L9\9`9p9t9|9
+9W+PJ
 :!:3:Q:
 :(:-:;:E:N:W:b:g:u:
 :(:8:<:L:P:X:p:
 ;(;2;;;G;P;U;`;q;
 ;4>X>d>l>
 ;Z;k;
+;dJ-t
 <0:08
 <B<O<X<a<f<k<r<
 <B<O<p<u<
@@ -153,13 +155,11 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Fc*4]
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
 HmdDriverFactory
-I=t7Q
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -187,11 +187,11 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-N:PXcj
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS|
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -208,7 +208,6 @@ Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
-^YP-jG
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -260,6 +259,7 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+j`S7+
 jj@0HK4
 k0i0$
 malloc
@@ -267,6 +267,7 @@ memcpy
 memmove
 memset
 modelNumber
+p,R5?
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -274,6 +275,7 @@ serialNumber
 steamvr
 string too long
 uCVj@
+uUlYg
 v=Y]Bv
 vector<T> too long
 windowHeight
@@ -281,6 +283,7 @@ windowWidth
 windowX
 windowY
 www.digicert.com1!0
+x y-	+jR
 x]~\6
 {un'%
 |Lu?c

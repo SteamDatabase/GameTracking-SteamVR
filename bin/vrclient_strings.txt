@@ -1387,40 +1387,40 @@ $0}
 .L189
 .L19
 .L190
-.L19045
-.L19046
-.L19048
-.L19049
-.L19050
-.L19051
-.L19052
+.L19055
+.L19056
+.L19058
+.L19059
+.L19060
+.L19061
+.L19062
 .L191
-.L19167
-.L19168
-.L19170
-.L19171
-.L19172
-.L19173
-.L19174
-.L19175
+.L19119
+.L19120
+.L19122
+.L19123
+.L19124
+.L19125
+.L19126
+.L19127
+.L19191
+.L19192
+.L19194
+.L19195
+.L19196
+.L19197
+.L19198
 .L192
-.L19239
-.L19240
-.L19242
-.L19243
-.L19244
-.L19245
-.L19246
+.L19259
+.L19260
+.L19262
+.L19263
+.L19264
+.L19265
+.L19266
+.L19267
+.L19268
 .L193
-.L19307
-.L19308
-.L19310
-.L19311
-.L19312
-.L19313
-.L19314
-.L19315
-.L19316
 .L194
 .L1941
 .L1942
@@ -1473,20 +1473,20 @@ $0}
 .L210
 .L211
 .L212
-.L21238
-.L21239
-.L21241
-.L21242
-.L21243
-.L21244
-.L21245
-.L21246
-.L21247
-.L21248
-.L21249
-.L21250
-.L21251
-.L21252
+.L21207
+.L21208
+.L21210
+.L21211
+.L21212
+.L21213
+.L21214
+.L21215
+.L21216
+.L21217
+.L21218
+.L21219
+.L21220
+.L21221
 .L213
 .L214
 .L215
@@ -1497,6 +1497,13 @@ $0}
 .L2155
 .L2157
 .L2158
+.L21581
+.L21582
+.L21584
+.L21585
+.L21586
+.L21587
+.L21588
 .L216
 .L217
 .L218
@@ -1531,14 +1538,14 @@ $0}
 .L2244
 .L225
 .L226
-.L22613
-.L22614
-.L22616
-.L22617
-.L22618
-.L22619
-.L22620
 .L227
+.L22712
+.L22713
+.L22715
+.L22716
+.L22717
+.L22718
+.L22719
 .L228
 .L229
 .L23
@@ -1644,13 +1651,6 @@ $0}
 .L2782
 .L2783
 .L2784
-.L27842
-.L27843
-.L27845
-.L27846
-.L27847
-.L27848
-.L27849
 .L2785
 .L2786
 .L2787
@@ -1662,6 +1662,13 @@ $0}
 .L2792
 .L2793
 .L2794
+.L27941
+.L27942
+.L27944
+.L27945
+.L27946
+.L27947
+.L27948
 .L2795
 .L2796
 .L2797
@@ -1814,35 +1821,35 @@ $0}
 .L315
 .L316
 .L317
-.L31775
-.L31776
-.L31778
-.L31779
-.L31780
-.L31781
-.L31782
-.L31783
-.L31784
-.L31785
-.L31786
-.L31787
-.L31788
-.L31789
-.L31790
-.L31791
-.L31793
-.L31794
-.L31796
-.L31797
-.L31798
-.L31799
 .L318
-.L31800
-.L31801
-.L31802
-.L31803
+.L31874
+.L31875
+.L31877
+.L31878
+.L31879
+.L31880
+.L31881
+.L31882
+.L31883
+.L31884
+.L31885
+.L31886
+.L31887
+.L31888
+.L31889
+.L31890
+.L31892
+.L31893
+.L31895
+.L31896
+.L31897
+.L31898
+.L31899
 .L319
 .L3190
+.L31900
+.L31901
+.L31902
 .L3192
 .L3193
 .L3194
@@ -1995,14 +2002,14 @@ $0}
 .L413
 .L414
 .L415
-.L41529
-.L41530
-.L41532
-.L41533
-.L41534
-.L41535
-.L41536
 .L416
+.L41628
+.L41629
+.L41631
+.L41632
+.L41633
+.L41634
+.L41635
 .L417
 .L418
 .L4183
@@ -2111,18 +2118,18 @@ $0}
 .L4731
 .L4732
 .L4733
-.L47334
-.L47335
-.L47337
-.L47338
-.L47339
 .L4734
-.L47340
-.L47341
-.L47342
-.L47343
 .L4735
 .L474
+.L47433
+.L47434
+.L47436
+.L47437
+.L47438
+.L47439
+.L47440
+.L47441
+.L47442
 .L475
 .L4756
 .L4758
@@ -3125,7 +3132,6 @@ $0}
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:25:26
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3142,6 +3148,7 @@ $0}
 22IVRDisplayComponent001
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:15:16
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -3700,7 +3707,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
-Apr  1 2022
+Apr  8 2022
 April
 Array for decompressed transforms is too small.  Needed %u got %u
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
@@ -3848,8 +3855,8 @@ C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DescriptorPool::Tables]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1116.336570
-C.1117.336581
+C.1116.336612
+C.1117.336623
 C.427.288574
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -4953,12 +4960,16 @@ CLegacyInput::WaitGetPosesCalled()
 CLegacyInput::~CLegacyInput()
 CLocalizationManager::BLoadDriverStringTable(std::string const&)
 CLocalizationManager::BLoadDriverStringTable(std::string const&) [clone .cold]
-CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&)
-CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&) [clone .cold]
+CLocalizationManager::BLoadWebStringTable(std::string const&)
+CLocalizationManager::BLoadWebStringTable(std::string const&) [clone .cold]
+CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*)
+CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*) [clone .cold]
 CLocalizationManager::GetStringEntry(std::string const&, std::string const&)
 CLocalizationManager::GetStringEntry(std::string const&, std::string const&) [clone .cold]
 CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
 CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&) [clone .cold]
+CLocalizationManager::SetLanguage(std::string const&)
+CLocalizationManager::~CLocalizationManager()
 CLog::AddCallback(CLogCallback*)
 CLog::AddCallback(CLogCallback*) [clone .cold]
 CLog::GetInstance()
@@ -10200,12 +10211,19 @@ CVRMsg_ConnectResponse::SerializeWithCachedSizes(google::protobuf::io::CodedOutp
 CVRMsg_ConnectResponse::SerializeWithCachedSizesToArray(unsigned char*) const
 CVRMsg_ConnectResponse::SetCachedSize(int) const
 CVRMsg_ConnectResponse::SharedCtor()
+CVRMsg_ConnectResponse::SharedCtor() [clone .cold]
 CVRMsg_ConnectResponse::SharedDtor()
 CVRMsg_ConnectResponse::Swap(CVRMsg_ConnectResponse*)
 CVRMsg_ConnectResponse::default_instance()
 CVRMsg_ConnectResponse::default_instance_
 CVRMsg_ConnectResponse::descriptor()
 CVRMsg_ConnectResponse::descriptor() [clone .cold]
+CVRMsg_ConnectResponse::mutable_language()
+CVRMsg_ConnectResponse::release_language()
+CVRMsg_ConnectResponse::set_allocated_language(std::string*)
+CVRMsg_ConnectResponse::set_language(char const*)
+CVRMsg_ConnectResponse::set_language(char const*, unsigned int)
+CVRMsg_ConnectResponse::set_language(std::string const&)
 CVRMsg_ConnectResponse::~CVRMsg_ConnectResponse()
 CVRMsg_CreateSwapTextureSet::ByteSize() const
 CVRMsg_CreateSwapTextureSet::CVRMsg_CreateSwapTextureSet()
@@ -18627,6 +18645,8 @@ FindAppByKey(VRApplicationsState_t const*, char const*)
 FindAppByProcessId(VRApplicationsState_t const*, unsigned int)
 FindBestInterfaceMatch(char const*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
 FindInterface(char const*)
+FindLanguageTag(Json::Value const&, std::string const&)
+FindLanguageTag(Json::Value const&, std::string const&) [clone .cold]
 FindOverlayByKey(VRSystemLayerState_t const*, char const*, unsigned long long*)
 FindOverlayTextureReadLock(VRCompositor_OverlayState_t const&, unsigned int, unsigned int*, unsigned int*)
 Firmware Recovery In Progress (139)
@@ -18850,6 +18870,7 @@ GetResourceBaseDir() [clone .cold]
 GetSceneApplicationState(VRApplicationsState_t const*)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() [clone .cold]
+GetSteamVRLanguage(ISteamUtils*)
 GetString
 GetStringForCompositorError(vr::EVRCompositorError)
 GetStringForCompositorError(vr::EVRCompositorError)::buf
@@ -24028,6 +24049,7 @@ SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
 SteamAppId
 SteamGameId
+SteamLanguageToSteamVRLanguage(std::string const&)
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::GetInterface()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::~SteamPrivateInterfaceRegistration()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>::GetInterface()
@@ -24480,6 +24502,7 @@ Unknown render model error (%d)
 Unknown scalar unit type (%d)
 Unknown skeleton path %s
 Unknown skeleton type %u
+Unknown string table context %s
 Unknown tracker role (%d)
 UnlinkFile(char const*)
 Unnamed simulated action failed to parse:
@@ -26788,6 +26811,7 @@ bf_write::WriteVarInt64(unsigned long long)
 bf_write::bf_write()
 bf_write::bf_write(char const*, void*, int, int)
 bf_write::bf_write(void*, int, int)
+bg_bg
 bin
 bin/linux64/vrclient.so
 bin/linux64/vrdashboard
@@ -26957,12 +26981,14 @@ boolean_latch
 boolean_or
 boolean_threshold
 boolean_toggle
+brazilian
 btowc
 buffer
 buffer. Use the 'bytes' type if you intend to send raw
 bufferView
 bufferViews
 buffers
+bulgarian
 button
 button_
 button_toggle
@@ -27126,6 +27152,8 @@ cplus_demangle_builtin_types
 cplus_demangle_operators
 crc32(unsigned int, void const*, unsigned int)
 crc32(unsigned int, void const*, unsigned int)::crcTable
+cs_cs
+czech
 d
 dV
 d_abi_tags
@@ -27171,6 +27199,8 @@ d_type
 d_type.cold
 d_unqualified_name
 da
+da_da
+danish
 dashboard
 dashboard_overlay_created
 dashboard_overlay_destroyed
@@ -27186,6 +27216,7 @@ data:text/plain;base64,
 dc
 dds
 de
+de_de
 deactivateStandbyOverride
 deactivate_threshold
 deadzone
@@ -27295,6 +27326,7 @@ eO
 east
 east_click
 east_touch
+el_el
 emissiveFactor
 emissiveTexture
 empty_string_ != __null
@@ -27306,6 +27338,7 @@ enableDriverBoundsImport
 enableHomeApp
 enableYAMLCompatibility
 end of input
+english
 entries
 enum
 eo
@@ -27313,6 +27346,8 @@ eq
 err
 error
 error %s when initing driver %s from %s.
+es_es
+es_mx
 exception thrown in JSON library
 execute_cfa_program
 execute_cfa_program.cold
@@ -27364,12 +27399,14 @@ fdopen
 feof
 fflush
 fgets
+fi_fi
 file://
 file_path
 filename
 fileno
 filters
 filters_to_cancel
+finnish
 firmwarerecovery
 firmwareupdate
 first not IHDR
@@ -27402,6 +27439,7 @@ fovScale
 fputc
 fputs
 fr
+fr_fr
 frame_downheap
 frame_dummy
 frame_hdr_cache
@@ -27409,6 +27447,7 @@ frame_hdr_cache_head
 frame_heapsort
 fread
 free
+french
 frequency
 frexpf
 fseek
@@ -27628,6 +27667,7 @@ g_pVRSystem
 g_pVRSystemLayerInternal
 g_pVRTrackedCameraInternal
 g_pWatchdogHostLatest
+g_rPairs
 g_sharedResourceNamespaceClient
 g_szSemFileName
 g_unNextBlockQueueId
@@ -27636,6 +27676,7 @@ ge
 generator
 generic
 generic_hmd
+german
 get_adjusted_ptr(std::type_info const*, std::type_info const*, void**)
 get_cie_encoding
 get_nprocs
@@ -29720,6 +29761,7 @@ gpu_profiler_capture
 grab
 grab_value_and_force
 graph
+greek
 green
 gripLimitData
 group
@@ -29842,6 +29884,8 @@ holographic_controller
 hpmotioncontroller
 http://
 https://
+hu_hu
+hungarian
 i
 i >= 0
 i+
@@ -29982,10 +30026,14 @@ is_system_process
 isalnum
 isalpha
 isspace
+it_it
+italian
 iterator does not fit current value
 iterator out of range
 ix
 j
+ja_jp
+japanese
 java Class for
 java resource
 java_outer_classname
@@ -30056,9 +30104,12 @@ keyboard
 keylength >= 2^30
 kill
 knuckles
+ko_ko
+korean
 l
 lS
 language_tag
+latam
 latch
 launch_app_already_running
 ld-linux.so.2
@@ -30292,6 +30343,7 @@ no SOI
 no clear code
 no header height
 no preset dict
+no_no
 node
 nodes
 noexcept
@@ -30646,6 +30698,7 @@ normalized
 north
 north_click
 north_touch
+norwegian
 not BMP
 not GIF
 not HDR
@@ -30766,12 +30819,15 @@ pinch
 pinchgrab
 pivot
 pl
+pl_pl
 playAreaColor
 play_area
 pm
 png
+polish
 poll
 popen
+portuguese
 pose
 pose_component
 pose_constant
@@ -31001,6 +31057,8 @@ protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_WritePropertyDataToFile_offs
 protobuf_ShutdownFile_vr_5fmessages_2eproto()
 ps
 pt
+pt_br
+pt_pt
 pthread_attr_init
 pthread_attr_setstacksize
 pthread_cancel
@@ -31103,12 +31161,16 @@ right
 rightThumbstickRotation
 rm
 rmdir
+ro_ro
+romanian
 rotate
 rotate_xyz
 rotation
 roughnessFactor
 rs
+ru_ru
 runtime
+russian
 s
 sButtonTexts
 sCaptionText
@@ -31152,6 +31214,7 @@ sched_getparam
 sched_getscheduler
 sched_setscheduler
 sched_yield
+schinese
 scope
 scroll
 scroll_mode
@@ -31385,6 +31448,7 @@ south
 south_click
 south_touch
 space
+spanish
 sparse
 spatialAnchorsSupport
 spot
@@ -31725,7 +31789,6 @@ std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::all
 std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned int, std::string const&, unsigned int) const
 std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned int, unsigned int const&)
 std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::find(std::string const&)
-std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable()
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned int, std::string const&, unsigned int) const
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned int, unsigned int, std::__detail::_Hash_node<std::pair<std::string const, unsigned long long>, true>*, unsigned int)
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned int, unsigned int const&)
@@ -34431,6 +34494,8 @@ supersampleScale
 supported_buttons
 supports_dominant_hand_setting
 suppressedByPriority
+sv_sv
+swedish
 symlink
 syntax = "proto2";
 syntax error
@@ -34458,6 +34523,7 @@ tRNS before PLTE
 tRNS with alpha
 target
 targets
+tchinese
 template parameter object for
 terminate called after throwing an instance of '
 terminate called recursively
@@ -34468,6 +34534,8 @@ texCoord
 text format contains deprecated field "
 text/plain
 textures
+th_th
+thai
 the global scope
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
@@ -34697,6 +34765,7 @@ touchy_click
 touchy_latch
 toupper
 tr
+tr_tr
 trackedCamera
 tracked_device_index
 trackers
@@ -34754,6 +34823,7 @@ trigger_laser_mouse_haptic_vibration
 trigger_path
 true
 true literal
+turkish
 tw
 type
 type must be boolean, but is
@@ -36979,8 +37049,10 @@ typeinfo name for wchar_t
 typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
 u
+ua_ua
 uint32
 uint64
+ukranian
 ul
 ull
 umask
@@ -37073,7 +37145,9 @@ vector<bool>::_M_fill_insert
 vector<bool>::_M_insert_aux
 version
 version.txt
+vi_vi
 vibration
+vietnamiese
 virtual thunk to
 virtual thunk to CSharedBufferLinux::GetDeviceSize() const
 virtual thunk to CSharedBufferLinux::GetSize() const
@@ -39379,7 +39453,7 @@ wcslen
 wcsnrtombs
 wcsstr
 wctob
-webinterface/dashboard/localization/webhelper_english.json
+webinterface/dashboard/localization/webhelper_
 wedge_angle
 weights
 west
@@ -39425,6 +39499,8 @@ yfov
 ymag
 z
 zfar
+zh_cn
+zh_tw
 zlib corrupt
 znear
 {

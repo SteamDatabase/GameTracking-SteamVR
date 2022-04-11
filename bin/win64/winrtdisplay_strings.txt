@@ -81,6 +81,7 @@
 .data
 .data$r
 .edata
+.fBd+AC
 .idata$2
 .idata$3
 .idata$4
@@ -115,7 +116,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220401222718Z0/
+220408231708Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -131,7 +132,6 @@
 6*f(_
 6I]Dc
 6OB,n_
-7+ddCw$;j?
 70503
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -162,7 +162,6 @@ A_A^A\_^[]
 A_A^^]
 AjEB#AZ
 AuthD
-B	Qwv
 Bellevue1
 C++/WinRT version:1.0.190111.3
 CD$@3
@@ -241,7 +240,6 @@ OLEAUT32.dll
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QI(?/'
 QueryPerformanceCounter
 QueryPerformanceFrequency
 ResetEvent
@@ -250,7 +248,6 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-Rz^vu
 S0Q0O
 SA|X=G
 SVWATAUAVAWH
@@ -260,12 +257,14 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+SoUP}J
 UVAWH
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
 Unknown exception encountered initializing WinRT display.
 VCRUNTIME140.dll
+VUwU/
 VWATAVAWH
 VWAVH
 VWAWH
@@ -352,10 +351,12 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iEO^c
 iswspace
 jj@0HK4
 k0i0$
 l$ WH
+m?nJPgb$ZU
 m_path
 malloc
 memcpy

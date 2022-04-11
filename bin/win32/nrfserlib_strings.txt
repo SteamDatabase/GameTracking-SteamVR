@@ -64,7 +64,6 @@ $Ph%*
 $Ph'*
 $Ph)*
 $Vh&*
-$bT_ 0
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -80,6 +79,7 @@ $bT_ 0
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
+)hsvz
 *9Z9N
 +KL+SL_;
 +Xt@(
@@ -90,6 +90,7 @@ $bT_ 0
 , defaulting to stop_bits::one!
 ,W5y+
 -1e+9999
+-EkwP
 -Infinity
 -external
 -internal
@@ -707,7 +708,7 @@ $bT_ 0
 211007000000Z
 220323000000Z
 220329000000Z
-220401222919Z0/
+220408231904Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -839,7 +840,6 @@ $bT_ 0
 4]4t4z4
 4f5s546
 4q5v5
-4rB G
 5	646\6
 5 5$5
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
@@ -917,7 +917,6 @@ $bT_ 0
 6+727>7i7
 607S7
 607X8Z9t9
-620/>
 636g6
 646D6H6L6P6T6X6\6`6d6h6p6
 647l7
@@ -1035,7 +1034,6 @@ $bT_ 0
 8I:P:U:\:c:j:q:x:
 8LHB-u
 8LHB-uJ
-8Lc?\
 8O9i9
 8W9n9x9
 8^8q8x8
@@ -1738,6 +1736,7 @@ GetQueuedCompletionStatus
 GetSystemTimeAsFileTime
 GetTickCount64
 Gt_^[
+H(-eQ
 HCI_COMMAND_PACKET
 HCI_EVENT_PACKET
 HTC BS
@@ -2099,6 +2098,7 @@ Zipfile is corrupt or not a zipfile
 [K]taM?
 \0`0d0|0
 \Device Parameters
+\v2#	
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2451,7 +2451,6 @@ unknown error
 unknown zip result code
 upper
 uq;s,u
-uqJ7P
 uzj h
 v=Y]Bv
 vGh@7
@@ -2477,6 +2476,7 @@ y4_^[
 |cj#h
 }	jCh
 }LuHO
+}WNb1
 }qj<h
 ~L][u
 ~d;{d|	

@@ -872,9 +872,9 @@ $@
 20CVRFramerateGovernor
 20CVkCommandBufferPool
 20IVRAudioNotification
-22:25:30
 22CKeyframedDataResource
 22CLighthouseHmdProvider
+23:15:28
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -1023,7 +1023,7 @@ App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
 Apr
-Apr  1 2022
+Apr  8 2022
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
@@ -2096,12 +2096,15 @@ CLinuxVideoStream::StartPreview(unsigned int (*)(unsigned int, void*, void*), vo
 CLinuxVideoStream::StopPreview()
 CLocalizationManager::BLoadDriverStringTable(std::string const&)
 CLocalizationManager::BLoadDriverStringTable(std::string const&) [clone .cold]
-CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&)
-CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&) [clone .cold]
+CLocalizationManager::BLoadWebStringTable(std::string const&)
+CLocalizationManager::BLoadWebStringTable(std::string const&) [clone .cold]
+CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*)
+CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*) [clone .cold]
 CLocalizationManager::GetStringEntry(std::string const&, std::string const&)
 CLocalizationManager::GetStringEntry(std::string const&, std::string const&) [clone .cold]
 CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
 CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&) [clone .cold]
+CLocalizationManager::SetLanguage(std::string const&)
 CLog::AddCallback(CLogCallback*)
 CLog::AddCallback(CLogCallback*) [clone .cold]
 CLog::GetInstance()
@@ -3344,6 +3347,8 @@ FillDataStruct(_finddata_t*)
 FillPipeAddr(sockaddr_un&, std::string)
 FillPipeAddr(sockaddr_un&, std::string) [clone .cold]
 FillPipeAddr(sockaddr_un&, std::string)::sPrefix
+FindLanguageTag(Json::Value const&, std::string const&)
+FindLanguageTag(Json::Value const&, std::string const&) [clone .cold]
 FindUserDataByName(unsigned char const*, unsigned long, char const*, int*)
 Firmware
 Firmware Recovery In Progress (139)
@@ -3475,6 +3480,7 @@ GetResourceBaseDir()
 GetResourceBaseDir() [clone .cold]
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() [clone .cold]
+GetSteamVRLanguage(ISteamUtils*)
 GetString
 GetStringReference
 GetSystemBaseTicks()
@@ -5398,6 +5404,7 @@ SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
 SteamAppId
 SteamGameId
+SteamLanguageToSteamVRLanguage(std::string const&)
 SteamThreadTools::CThread::BHasValidThreadID()
 SteamThreadTools::CThread::CThread()
 SteamThreadTools::CThread::GetCurrentCThread()
@@ -5758,6 +5765,7 @@ Unknown family id: %d - default to highest alignment
 Unknown image format. STB cannot decode image data for image[
 Unknown method: "
 Unknown priority class!
+Unknown string table context %s
 UnlinkFile(char const*)
 Unsupported `type` for accessor object. Got "
 Unused
@@ -7103,6 +7111,7 @@ basic_string::resize
 basic_string::substr
 bcdDevice
 best
+bg_bg
 bin
 bin/linux64/vrprismhost.sh
 bind
@@ -7249,12 +7258,14 @@ bool vortex::lighthouse::SelectGlobalFrameSplit<__gnu_cxx::__normal_iterator<vor
 bool vortex::lighthouse::SelectGlobalFrameSplit<std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*> >(double*, std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*>, std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::SensorHit_s&, vortex::lighthouse::SensorHit_s*>)
 bool* google::protobuf::internal::GeneratedMessageReflection::MutableRaw<bool>(google::protobuf::Message*, google::protobuf::FieldDescriptor const*) const
 boolean
+brazilian
 btowc
 buffer
 buffer. Use the 'bytes' type if you intend to send raw
 bufferView
 bufferViews
 buffers
+bulgarian
 byte
 byteLength
 byteOffset
@@ -7447,7 +7458,9 @@ crc32
 crc32(unsigned int, void const*, unsigned long)
 crc32(unsigned int, void const*, unsigned long)::crcTable
 create
+cs_cs
 ctime
+czech
 d
 dV
 d_abi_tags
@@ -7494,6 +7507,8 @@ d_type
 d_type.cold
 d_unqualified_name
 da
+da_da
+danish
 data->IsInitialized()
 data.hIPC.IsValid()
 data:application/gltf-buffer;base64,
@@ -7507,6 +7522,7 @@ dbhistory
 dc
 dcil
 de
+de_de
 deactivateStandbyOverride
 decimal128
 decimal32
@@ -7618,6 +7634,7 @@ eO
 echo %127s
 edid_pid_to_str(int)
 edid_vid_to_str(unsigned short)
+el_el
 emissiveFactor
 emissiveTexture
 empty_string_ != __null
@@ -7630,11 +7647,14 @@ enableMJPEGMode
 enableRawMode
 enableYAMLCompatibility
 end of input
+english
 enum
 eo
 eq
 err
 error
+es_es
+es_mx
 etronlib
 exception thrown in JSON library
 execute_cfa_program
@@ -7863,10 +7883,12 @@ fdopen
 feof
 fflush
 fgets
+fi_fi
 file is empty or does not exist
 file://
 filename
 fileno
+finnish
 firmwareVersion
 firmware_config
 firmware_update_required
@@ -7908,6 +7930,7 @@ fork
 fputc
 fputs
 fr
+fr_fr
 frame_downheap
 frame_dummy
 frame_hdr_cache
@@ -7917,6 +7940,7 @@ framer
 framesToThrottle
 fread
 free
+french
 frexpf
 from base
 fseek
@@ -8002,6 +8026,7 @@ g_pVRSettingsInternal
 g_pVRSystem
 g_pVRSystemLayerInternal
 g_pVRTrackedCameraInternal
+g_rPairs
 g_sVortexBasePath
 g_serverDriverLighthouse
 g_setLoadedLighthouseScaleDataFiles
@@ -8016,6 +8041,7 @@ generic
 generic_controller
 generic_hmd
 generic_tracker
+german
 get_adjusted_ptr(std::type_info const*, std::type_info const*, void**)
 get_cie_encoding
 get_device_string(hid_device_*, device_string_id, wchar_t*, unsigned long) [clone .isra.0]
@@ -10048,6 +10074,7 @@ google::protobuf::uint64 google::protobuf::UnknownField::varint() const
 gpuSpeedDriver
 graph
 gravity_vector
+greek
 group
 grow_for_undistort
 gs
@@ -10176,6 +10203,8 @@ htc::GetViveProAudioBridgeVersion()
 http://
 https://
 https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
+hu_hu
+hungarian
 i
 i >= 0
 i+
@@ -10324,10 +10353,14 @@ isalnum
 isalpha
 isps
 isspace
+it_it
+italian
 iterator does not fit current value
 iterator out of range
 ix
 j
+ja_jp
+japanese
 java Class for
 java resource
 java_outer_classname
@@ -10359,6 +10392,8 @@ known_objects
 known_universes
 knuckles
 knuckles_ev1
+ko_ko
+korean
 l
 lEyeFile:%s width:%d height:%d components:%d
 lS
@@ -10366,6 +10401,7 @@ language_tag
 lastChaperoneCommit
 last_eye
 last_id
+latam
 ld-linux-x86-64.so.2
 ldexpf
 le
@@ -11301,6 +11337,7 @@ no clear code
 no header height
 no optical samples
 no preset dict
+no_no
 noclk
 node
 nodes
@@ -11443,6 +11480,7 @@ nonce
 none
 normalTexture
 normalized
+norwegian
 nosplit=
 not BMP
 not GIF
@@ -11576,14 +11614,17 @@ pfnSteamAPI_UseBreakpadCrashHandler
 pfnSteamAPI_WriteMiniDump
 pitch
 pl
+pl_pl
 play
 plss
 plus_x
 plus_z
 pm
 png
+polish
 poll
 popen
+portuguese
 pose
 position
 position out of bounds
@@ -11611,6 +11652,8 @@ proximity
 ps
 ps3
 pt
+pt_br
+pt_pt
 pthread_attr_init
 pthread_attr_setstacksize
 pthread_cancel
@@ -11716,13 +11759,17 @@ right
 right eye
 right_hand
 rm
+ro_ro
 roll
+romanian
 rootserial
 rotating at
 rotation
 roughnessFactor
 rs
+ru_ru
 runtime
+russian
 s
 sP
 sZ
@@ -11760,6 +11807,7 @@ sched_getparam
 sched_getscheduler
 sched_setscheduler
 sched_yield
+schinese
 search_object
 search_object.cold
 sec)
@@ -11836,6 +11884,7 @@ sobChannel
 socket
 source
 space
+spanish
 sparse
 special_value_zero
 spks
@@ -14754,7 +14803,9 @@ subs.10133
 subtype mismatch
 succeeded
 success
+sv_sv
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
+swedish
 sws
 synconbeam
 syncs=
@@ -14779,6 +14830,7 @@ target
 target_pose
 target_serial_number
 targets
+tchinese
 tdm
 tdm sync acquired
 tdm sync lost
@@ -14798,6 +14850,8 @@ texCoord
 text format contains deprecated field "
 text/plain
 textures
+th_th
+thai
 the global scope
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
@@ -15000,6 +15054,7 @@ too large
 too many codes
 toupper
 tr
+tr_tr
 trackedCamera
 tracked_camera
 tracked_camera1
@@ -15056,6 +15111,7 @@ treadmill
 true
 true literal
 tsd
+turkish
 tw
 twos_complement
 type
@@ -16139,6 +16195,7 @@ typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
 tz
 u
+ua_ua
 udev_device_get_devnode
 udev_device_get_parent_with_subsystem_devtype
 udev_device_get_sysattr_value
@@ -16157,6 +16214,7 @@ udev_unref
 uevent
 uint32
 uint64
+ukranian
 ul
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 ull
@@ -16254,9 +16312,11 @@ velocity %0.2fm/s
 version
 version %s
 version.txt
+vi_vi
 via transform to global
 vibration
 video_mode
+vietnamiese
 virtual thunk to
 virtual thunk to std::basic_fstream<char, std::char_traits<char> >::~basic_fstream()
 virtual thunk to std::basic_fstream<wchar_t, std::char_traits<wchar_t> >::~basic_fstream()
@@ -18953,6 +19013,7 @@ wcsncpy
 wcsnrtombs
 wctob
 wdr
+webinterface/dashboard/localization/webhelper_
 weights
 what():
 while parsing
@@ -18995,6 +19056,8 @@ ymag
 z
 zD
 zfar
+zh_cn
+zh_tw
 zlib corrupt
 znear
 {

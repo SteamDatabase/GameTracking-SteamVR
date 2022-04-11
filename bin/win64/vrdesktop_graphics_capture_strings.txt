@@ -15,9 +15,6 @@
  for detail.
 !! refusing to trigger minidump with debugger attached
 !hn7!
-!iz/Y0
-$8S=^
-$G\WKC
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -35,6 +32,7 @@ $G\WKC
 )t$0H
 )t$@H
 *9Z9N
+*I>,t-u
 *uXI;
 +Xt@(
 +o'q)}
@@ -176,10 +174,11 @@ $G\WKC
 211007000000Z
 220323000000Z
 220329000000Z
-220401223149Z0/
+220408232145Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2d{cmt=n
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -204,6 +203,7 @@ $G\WKC
 <unknown>
 =rIQU
 >Mp$d
+>j5-:
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -461,6 +461,7 @@ Failed to map desktop upload texture.
 Failed to reinitialize output duplication for desktop %d, updating description.
 Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
+Fnh02L
 FormatMessageA
 GDI32.dll
 GetCurrentProcessId
@@ -583,7 +584,6 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
-KKw, 
 K}*n:	
 L$ E3
 L$ H;
@@ -642,6 +642,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSw
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -652,7 +653,6 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
-S;Ut(
 SA|X=G
 SHCreateItemFromParsingName
 SHELL32.dll
@@ -702,7 +702,6 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
-T}Gb	
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -855,33 +854,54 @@ assert json failed
 bad allocation
 bad array new length
 bad conversion
+bg_bg
+brazilian
+bulgarian
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+cs_cs
+czech
 d$`H=
 d3d11.dll
+da_da
+danish
 dashboard
+de_de
 deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
 e,>~^
+el_el
+en_us
 enableWindowView
+english
+es_es
+es_mx
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fF94@u
 false
 fffffff
+fi_fi
+finnish
+fr_fr
 frame_time
+french
+german
 gfffffffH
 gfffffffI
+greek
 handlers
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+hu_hu
+hungarian
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -895,17 +915,22 @@ in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 input_frame_time
 invalid stoull argument
+it_it
+italian
+ja_jp
+japanese
 jj@0HK4
-jqZ~L
 k0i0$
+ko_ko
+korean
 l$ H;
 l$ H=
 l$8E3
 l$@H;
 l$PM9n
 l$xM;
+latam
 list<T> too long
-m*p`61;
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -916,6 +941,8 @@ memcpy
 memmove
 memset
 message_id
+no_no
+norwegian
 ntelD
 ole32.dll
 openvr_api.dll
@@ -925,8 +952,12 @@ overlay_keyboard_closed
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
+pl_pl
+polish
+portuguese
 product_name
-qb[u$
+pt_br
+pt_pt
 r,fff
 request_destroy_window_view
 request_handlers
@@ -935,15 +966,24 @@ request_show_desktop
 request_spawn_window_view
 request_window_list_update
 returnAddress
+ro_ro
+romanian
+rp ^1
+ru_ru
 running
+russian
+schinese
 shcore.dll
 shutdown
+spanish
 startup
 stoull argument out of range
 string too long
 strncpy
 strpbrk
 strtoull
+sv_sv
+swedish
 system.cursor.ibeam
 system.desktop.%d
 system.desktop.pointer
@@ -959,15 +999,23 @@ t$@H=
 t$PH=
 t:I;>t
 tXfff
+tchinese
 terminate
+th_th
 title
 tolower
+tr_tr
+turkish
+ua_ua
+ukranian
 update_debug_info
 update_window_list
 user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
+vi_vi
+vietnamiese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )
 vr::VROverlay()->DestroyOverlay( m_ulOverlayHandle )
@@ -985,6 +1033,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
+wPIAK
 window_view_created
 window_view_destroyed
 windows
@@ -992,7 +1041,8 @@ wn>Jj
 www.digicert.com1!0
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 x]~\6
-xa%s4
+zh_cn
+zh_tw
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -1009,5 +1059,6 @@ xa%s4
 |$PL9~
 |$hH9>ueH
 |Lu?c
+};#Sn
 }LuHO
 ~t&LN

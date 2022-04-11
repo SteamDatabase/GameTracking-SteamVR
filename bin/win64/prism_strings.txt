@@ -45,7 +45,7 @@
  A_^]
  A__^
  H3E H3E
- YR_L
+ `Bc2
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -357,6 +357,8 @@ $II+L$`
 +o'q)}
 , last executing in 
 ,W5y+
+,gj&}I
+-6<.)
 -IPCWrapper
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -530,7 +532,7 @@ $II+L$`
 211007000000Z
 220323000000Z
 220329000000Z
-220401222909Z0/
+220408231840Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -565,9 +567,9 @@ $II+L$`
 :EotB
 ;K sOH
 ;S sMH
-;W|zJ
 ;\$x|
 <0:08
+<N!1\4
 <P)9Y
 <unknown>
 =rIQU
@@ -903,6 +905,7 @@ ConvertStringSidToSidA failed for test app %d
 CopyLayers
 CopySid
 Cost reduction pass
+Cp,>O)
 CreateDXGIFactory1
 CreateDXGIFactory2
 CreateEventA
@@ -1001,6 +1004,7 @@ DumpHistory-Staging
 Dumping display history...
 DuplicateHandle
 E8~(t\
+EB^uLM
 E\f9A
 EhH9E`
 EnterCriticalSection
@@ -1375,6 +1379,7 @@ PanelMask-%s
 PanelMask-Frag
 PanelMask-Staging
 PanelMask-Vert
+Pbxub
 PeekNamedPipe
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PoolGC
@@ -1408,7 +1413,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSs%D
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1612,6 +1616,7 @@ WindowsPromoteStringBuffer
 WriteFile
 XA_A][]
 XA_A^A]_
+XB%Oyn
 Y9"SD
 YUV conversion - %s
 Yl$ M
@@ -1655,8 +1660,10 @@ Yl$4E
 \$xHk
 \$xMi
 \\.\pipe\
+\c_\A#
 ]J<0"0i3
 ]g@8yhu
+^5k_4
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1847,7 +1854,6 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iYvO0V5Q
 input.colorIndices.nSwapchainIndex != SwapchainIndices_t::k_nInvalidSwapchainIndex
 invalid bitset<N> position
 invalid string position
@@ -2006,6 +2012,7 @@ strncpy_s
 strstr
 strtoull
 s}fff
+s~lbs
 t$ AVH
 t$ AWH
 t$ UH
@@ -2525,7 +2532,6 @@ wcsstr
 www.digicert.com1!0
 xA_A^A]A\_^[]
 x]~\6
-yP27;
 yxxxxxxxH
 yxxxxxxxI+
 {pH;{xw?
@@ -2562,8 +2568,6 @@ yxxxxxxxI+
 |$xIk
 |$xMi
 |6hE3
-|Fb%n
-|GbTX}
 |Lu?c
 }(M98t
 }LuHO

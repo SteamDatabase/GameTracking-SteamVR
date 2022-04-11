@@ -1653,7 +1653,6 @@ $tI
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:25:30
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -1677,6 +1676,7 @@ $tI
 22IVRDisplayComponent001
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:15:28
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2262,7 +2262,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
-Apr  1 2022
+Apr  8 2022
 April
 Array for decompressed transforms is too small.  Needed %u got %u
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
@@ -2424,8 +2424,8 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1108.336424
-C.1109.336435
+C.1108.336466
+C.1109.336477
 C.413.288424
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -3539,12 +3539,16 @@ CLegacyInput::WaitGetPosesCalled()
 CLegacyInput::~CLegacyInput()
 CLocalizationManager::BLoadDriverStringTable(std::string const&)
 CLocalizationManager::BLoadDriverStringTable(std::string const&) [clone .cold]
-CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&)
-CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&) [clone .cold]
+CLocalizationManager::BLoadWebStringTable(std::string const&)
+CLocalizationManager::BLoadWebStringTable(std::string const&) [clone .cold]
+CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*)
+CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*) [clone .cold]
 CLocalizationManager::GetStringEntry(std::string const&, std::string const&)
 CLocalizationManager::GetStringEntry(std::string const&, std::string const&) [clone .cold]
 CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
 CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&) [clone .cold]
+CLocalizationManager::SetLanguage(std::string const&)
+CLocalizationManager::~CLocalizationManager()
 CLog::AddCallback(CLogCallback*)
 CLog::AddCallback(CLogCallback*) [clone .cold]
 CLog::GetInstance()
@@ -9161,12 +9165,19 @@ CVRMsg_ConnectResponse::SerializeWithCachedSizes(google::protobuf::io::CodedOutp
 CVRMsg_ConnectResponse::SerializeWithCachedSizesToArray(unsigned char*) const
 CVRMsg_ConnectResponse::SetCachedSize(int) const
 CVRMsg_ConnectResponse::SharedCtor()
+CVRMsg_ConnectResponse::SharedCtor() [clone .cold]
 CVRMsg_ConnectResponse::SharedDtor()
 CVRMsg_ConnectResponse::Swap(CVRMsg_ConnectResponse*)
 CVRMsg_ConnectResponse::default_instance()
 CVRMsg_ConnectResponse::default_instance_
 CVRMsg_ConnectResponse::descriptor()
 CVRMsg_ConnectResponse::descriptor() [clone .cold]
+CVRMsg_ConnectResponse::mutable_language()
+CVRMsg_ConnectResponse::release_language()
+CVRMsg_ConnectResponse::set_allocated_language(std::string*)
+CVRMsg_ConnectResponse::set_language(char const*)
+CVRMsg_ConnectResponse::set_language(char const*, unsigned long)
+CVRMsg_ConnectResponse::set_language(std::string const&)
 CVRMsg_ConnectResponse::~CVRMsg_ConnectResponse()
 CVRMsg_CreateSwapTextureSet::ByteSize() const
 CVRMsg_CreateSwapTextureSet::CVRMsg_CreateSwapTextureSet()
@@ -17870,6 +17881,8 @@ FindAppByKey(VRApplicationsState_t const*, char const*)
 FindAppByProcessId(VRApplicationsState_t const*, unsigned int)
 FindBestInterfaceMatch(char const*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
 FindInterface(char const*)
+FindLanguageTag(Json::Value const&, std::string const&)
+FindLanguageTag(Json::Value const&, std::string const&) [clone .cold]
 FindOverlayByKey(VRSystemLayerState_t const*, char const*, unsigned long*)
 FindOverlayTextureReadLock(VRCompositor_OverlayState_t const&, unsigned int, unsigned int*, unsigned int*)
 Firmware Recovery In Progress (139)
@@ -18111,6 +18124,7 @@ GetResourceBaseDir() [clone .cold]
 GetSceneApplicationState(VRApplicationsState_t const*)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() [clone .cold]
+GetSteamVRLanguage(ISteamUtils*)
 GetString
 GetStringForCompositorError(vr::EVRCompositorError)
 GetStringForCompositorError(vr::EVRCompositorError)::buf
@@ -23391,6 +23405,7 @@ SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
 SteamAppId
 SteamGameId
+SteamLanguageToSteamVRLanguage(std::string const&)
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::GetInterface()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::~SteamPrivateInterfaceRegistration()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>::GetInterface()
@@ -23863,6 +23878,7 @@ Unknown render model error (%d)
 Unknown scalar unit type (%d)
 Unknown skeleton path %s
 Unknown skeleton type %u
+Unknown string table context %s
 Unknown tracker role (%d)
 UnlinkFile(char const*)
 Unnamed simulated action failed to parse:
@@ -26554,6 +26570,7 @@ bf_write::WriteVarInt64(unsigned long)
 bf_write::bf_write()
 bf_write::bf_write(char const*, void*, int, int)
 bf_write::bf_write(void*, int, int)
+bg_bg
 bin
 bin/linux64/vrclient.so
 bin/linux64/vrdashboard
@@ -26724,12 +26741,14 @@ boolean_latch
 boolean_or
 boolean_threshold
 boolean_toggle
+brazilian
 btowc
 buffer
 buffer. Use the 'bytes' type if you intend to send raw
 bufferView
 bufferViews
 buffers
+bulgarian
 button
 button_
 button_toggle
@@ -26905,6 +26924,8 @@ cplus_demangle_operators
 crc32(unsigned int, void const*, unsigned long)
 crc32(unsigned int, void const*, unsigned long)::crcTable
 create
+cs_cs
+czech
 d
 dV
 d_abi_tags
@@ -26951,6 +26972,8 @@ d_type
 d_type.cold
 d_unqualified_name
 da
+da_da
+danish
 dashboard
 dashboard_overlay_created
 dashboard_overlay_destroyed
@@ -26968,6 +26991,7 @@ data:text/plain;base64,
 dc
 dds
 de
+de_de
 deactivateStandbyOverride
 deactivate_threshold
 deadzone
@@ -27084,6 +27108,7 @@ eO
 east
 east_click
 east_touch
+el_el
 emissiveFactor
 emissiveTexture
 empty_string_ != __null
@@ -27095,6 +27120,7 @@ enableDriverBoundsImport
 enableHomeApp
 enableYAMLCompatibility
 end of input
+english
 entries
 enum
 eo
@@ -27102,6 +27128,8 @@ eq
 err
 error
 error %s when initing driver %s from %s.
+es_es
+es_mx
 exception thrown in JSON library
 execute_cfa_program
 execute_cfa_program.cold
@@ -27329,12 +27357,14 @@ fdopen
 feof
 fflush
 fgets
+fi_fi
 file://
 file_path
 filename
 fileno
 filters
 filters_to_cancel
+finnish
 firmwarerecovery
 firmwareupdate
 first not IHDR
@@ -27368,6 +27398,7 @@ fovScale
 fputc
 fputs
 fr
+fr_fr
 frame_downheap
 frame_dummy
 frame_hdr_cache
@@ -27376,6 +27407,7 @@ frame_heapsort
 framesToThrottle
 fread
 free
+french
 frequency
 frexpf
 fseek
@@ -27599,6 +27631,7 @@ g_pVRSystem
 g_pVRSystemLayerInternal
 g_pVRTrackedCameraInternal
 g_pWatchdogHostLatest
+g_rPairs
 g_sharedResourceNamespaceClient
 g_szSemFileName
 g_unInstanceCount
@@ -27609,6 +27642,7 @@ ge
 generator
 generic
 generic_hmd
+german
 get_adjusted_ptr(std::type_info const*, std::type_info const*, void**)
 get_cie_encoding
 get_nprocs
@@ -29703,6 +29737,7 @@ gpu_profiler_capture
 grab
 grab_value_and_force
 graph
+greek
 green
 gripLimitData
 group
@@ -29842,6 +29877,8 @@ holographic_controller
 hpmotioncontroller
 http://
 https://
+hu_hu
+hungarian
 i
 i >= 0
 i+
@@ -29983,10 +30020,14 @@ is_system_process
 isalnum
 isalpha
 isspace
+it_it
+italian
 iterator does not fit current value
 iterator out of range
 ix
 j
+ja_jp
+japanese
 java Class for
 java resource
 java_outer_classname
@@ -30089,9 +30130,12 @@ keylength >= 2^30
 khr_simple_controller
 kill
 knuckles
+ko_ko
+korean
 l
 lS
 language_tag
+latam
 latch
 launch_app_already_running
 ld-linux-x86-64.so.2
@@ -30370,6 +30414,7 @@ no SOI
 no clear code
 no header height
 no preset dict
+no_no
 node
 nodes
 noexcept
@@ -30769,6 +30814,7 @@ normalized
 north
 north_click
 north_touch
+norwegian
 not BMP
 not GIF
 not HDR
@@ -30909,12 +30955,15 @@ pinch
 pinchgrab
 pivot
 pl
+pl_pl
 playAreaColor
 play_area
 pm
 png
+polish
 poll
 popen
+portuguese
 pose
 pose_component
 pose_constant
@@ -31146,6 +31195,8 @@ protobuf_AssignDesc_vr_5fmessages_2eproto()::CVRMsg_WritePropertyDataToFile_offs
 protobuf_ShutdownFile_vr_5fmessages_2eproto()
 ps
 pt
+pt_br
+pt_pt
 pthread_attr_init
 pthread_attr_setstacksize
 pthread_cancel
@@ -31249,12 +31300,16 @@ right
 rightThumbstickRotation
 rm
 rmdir
+ro_ro
+romanian
 rotate
 rotate_xyz
 rotation
 roughnessFactor
 rs
+ru_ru
 runtime
+russian
 rw
 rx
 ry
@@ -31302,6 +31357,7 @@ sched_getparam
 sched_getscheduler
 sched_setscheduler
 sched_yield
+schinese
 scope
 scroll
 scroll_mode
@@ -31549,6 +31605,7 @@ south
 south_click
 south_touch
 space
+spanish
 sparse
 spatialAnchorsSupport
 spot
@@ -31921,7 +31978,6 @@ std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::u
 std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, true>*, unsigned long)
 std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
 std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::find(std::string const&)
-std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable()
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned long, std::string const&, unsigned long) const
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::string const, unsigned long>, true>*, unsigned long)
 std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
@@ -34719,7 +34775,9 @@ supersampleScale
 supported_buttons
 supports_dominant_hand_setting
 suppressedByPriority
+sv_sv
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
+swedish
 sxr_wrap_xrAcquireSwapchainImage(XrSwapchain_T*, XrSwapchainImageAcquireInfo const*, unsigned int*)
 sxr_wrap_xrAcquireSwapchainImage(XrSwapchain_T*, XrSwapchainImageAcquireInfo const*, unsigned int*) [clone .cold]
 sxr_wrap_xrApplyHapticFeedback(XrSession_T*, XrHapticActionInfo const*, XrHapticBaseHeader const*)
@@ -35111,6 +35169,7 @@ tRNS with alpha
 tanf
 target
 targets
+tchinese
 template parameter object for
 terminate called after throwing an instance of '
 terminate called recursively
@@ -35121,6 +35180,8 @@ texCoord
 text format contains deprecated field "
 text/plain
 textures
+th_th
+thai
 the global scope
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
@@ -35354,6 +35415,7 @@ touchy_click
 touchy_latch
 toupper
 tr
+tr_tr
 trackedCamera
 tracked_device_index
 trackers
@@ -35412,6 +35474,7 @@ trigger_laser_mouse_haptic_vibration
 trigger_path
 true
 true literal
+turkish
 tw
 type
 type must be boolean, but is
@@ -37799,8 +37862,10 @@ typeinfo name for wchar_t
 typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
 u
+ua_ua
 uint32
 uint64
+ukranian
 ul
 ull
 umask
@@ -37899,7 +37964,9 @@ vector<bool>::_M_fill_insert
 vector<bool>::_M_insert_aux
 version
 version.txt
+vi_vi
 vibration
+vietnamiese
 virtual thunk to
 virtual thunk to CSharedBufferLinux::GetDeviceSize() const
 virtual thunk to CSharedBufferLinux::GetSize() const
@@ -40318,7 +40385,7 @@ wcslen
 wcsnrtombs
 wcsstr
 wctob
-webinterface/dashboard/localization/webhelper_english.json
+webinterface/dashboard/localization/webhelper_
 wedge_angle
 weights
 west
@@ -40468,6 +40535,8 @@ yfov
 ymag
 z
 zfar
+zh_cn
+zh_tw
 zlib corrupt
 znear
 {

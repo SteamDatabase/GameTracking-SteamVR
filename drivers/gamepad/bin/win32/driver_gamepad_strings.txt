@@ -7,7 +7,6 @@
 +Xt@(
 +o'q)}
 ,W5y+
-->DH}
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -88,6 +87,7 @@
 0 0.03090C0M0a0f0k0p0u0z0
 0"080e0
 0<1E1M1
+0=o~Ig
 0?0\0t0
 0w0c1
 0}0i1
@@ -104,7 +104,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220401222945Z0/
+220408231921Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -170,6 +170,7 @@
 =O>h>{>
 =V=8>j>
 =rIQU
+=uG'F.
 > >$>(>0>H>X>\>l>p>t>x>
 >!>*>5>
 >Mp$d
@@ -225,8 +226,8 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-J}bJ,
 KERNEL32.dll
+Kt/-}
 K}*n:	
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -240,6 +241,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS#p
 RaiseException
 S0Q0O
 SA|X=G
@@ -286,7 +288,6 @@ Washington1
 Y9"SD
 Y__^[
 [K]taM?
-\TNj?Z
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -327,6 +328,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`B60S
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -334,12 +336,14 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
+c~dv=
 driver_gamepad.dll
 e,>~^
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i8T HW
 jj@0HK4
 k0i0$
 malloc
@@ -347,14 +351,15 @@ map/set<T> too long
 memcpy
 memmove
 memset
-qqugR
 string too long
 terminate
 uCVj@
 v=Y]Bv
+v_eM<
 vector<T> too long
 www.digicert.com1!0
 x]~\6
+ys^~3M
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

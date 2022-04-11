@@ -2390,6 +2390,7 @@
  d g_VR_IVRSystem_FnTable
  d g_VR_IVRTrackedCamera_FnTable
  d g_nSIMDBitMaskToIndex
+ d g_rPairs
  d g_szSemFileName
  d g_unNextBlockQueueId
  d k_pchCameraComponentPrefix
@@ -4400,8 +4401,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1108.336424
- r C.1109.336435
+ r C.1108.336466
+ r C.1109.336477
  r C.413.288424
  r CSWTCH.100
  r CSWTCH.16
@@ -6999,12 +7000,16 @@
  t CLegacyInput::~CLegacyInput()
  t CLocalizationManager::BLoadDriverStringTable(std::string const&)
  t CLocalizationManager::BLoadDriverStringTable(std::string const&) [clone .cold]
- t CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&)
- t CLocalizationManager::BLoadWebStringTable(std::string const&, std::string const&) [clone .cold]
+ t CLocalizationManager::BLoadWebStringTable(std::string const&)
+ t CLocalizationManager::BLoadWebStringTable(std::string const&) [clone .cold]
+ t CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*)
+ t CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*) [clone .cold]
  t CLocalizationManager::GetStringEntry(std::string const&, std::string const&)
  t CLocalizationManager::GetStringEntry(std::string const&, std::string const&) [clone .cold]
  t CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
  t CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&) [clone .cold]
+ t CLocalizationManager::SetLanguage(std::string const&)
+ t CLocalizationManager::~CLocalizationManager()
  t CLog::AddCallback(CLogCallback*)
  t CLog::AddCallback(CLogCallback*) [clone .cold]
  t CLog::GetInstance()
@@ -12085,11 +12090,18 @@
  t CVRMsg_ConnectResponse::SerializeWithCachedSizesToArray(unsigned char*) const
  t CVRMsg_ConnectResponse::SetCachedSize(int) const
  t CVRMsg_ConnectResponse::SharedCtor()
+ t CVRMsg_ConnectResponse::SharedCtor() [clone .cold]
  t CVRMsg_ConnectResponse::SharedDtor()
  t CVRMsg_ConnectResponse::Swap(CVRMsg_ConnectResponse*)
  t CVRMsg_ConnectResponse::default_instance()
  t CVRMsg_ConnectResponse::descriptor()
  t CVRMsg_ConnectResponse::descriptor() [clone .cold]
+ t CVRMsg_ConnectResponse::mutable_language()
+ t CVRMsg_ConnectResponse::release_language()
+ t CVRMsg_ConnectResponse::set_allocated_language(std::string*)
+ t CVRMsg_ConnectResponse::set_language(char const*)
+ t CVRMsg_ConnectResponse::set_language(char const*, unsigned long)
+ t CVRMsg_ConnectResponse::set_language(std::string const&)
  t CVRMsg_ConnectResponse::~CVRMsg_ConnectResponse()
  t CVRMsg_CreateSwapTextureSet::ByteSize() const
  t CVRMsg_CreateSwapTextureSet::CVRMsg_CreateSwapTextureSet()
@@ -19422,6 +19434,8 @@
  t FindAppByProcessId(VRApplicationsState_t const*, unsigned int)
  t FindBestInterfaceMatch(char const*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
  t FindInterface(char const*)
+ t FindLanguageTag(Json::Value const&, std::string const&)
+ t FindLanguageTag(Json::Value const&, std::string const&) [clone .cold]
  t FindOverlayByKey(VRSystemLayerState_t const*, char const*, unsigned long*)
  t FindOverlayTextureReadLock(VRCompositor_OverlayState_t const&, unsigned int, unsigned int*, unsigned int*)
  t FnTableRegistration::FnTableRegistration(char const*, void*)
@@ -19489,6 +19503,7 @@
  t GetSceneApplicationState(VRApplicationsState_t const*)
  t GetSharedResourceNamespace()
  t GetSharedResourceNamespace() [clone .cold]
+ t GetSteamVRLanguage(ISteamUtils*)
  t GetStringForCompositorError(vr::EVRCompositorError)
  t GetStringForInputActionType(EInputActionType)
  t GetStringForInputValueType(EInputValueType)
@@ -23181,6 +23196,7 @@
  t SplitInputPath(std::string const&, std::string*, std::string*)
  t SplitInputPath(std::string const&, std::string*, std::string*) [clone .cold]
  t StaticCompositorPresent(int)
+ t SteamLanguageToSteamVRLanguage(std::string const&)
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::GetInterface()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::~SteamPrivateInterfaceRegistration()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>::GetInterface()
@@ -25454,7 +25470,6 @@
  t std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, true>*, unsigned long)
  t std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
  t std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::find(std::string const&)
- t std::_Hashtable<std::string, std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, std::allocator<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > > >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable()
  t std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned long, std::string const&, unsigned long) const
  t std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::string const, unsigned long>, true>*, unsigned long)
  t std::_Hashtable<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)

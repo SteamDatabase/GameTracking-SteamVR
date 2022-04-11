@@ -24,6 +24,7 @@ message CVRMsg_ConnectResponse {
 	optional bool debug_pipe = 2;
 	optional uint32 initial_next_event = 3;
 	optional uint32 observed_pid = 4;
+	optional string language = 5;
 }
 
 message CVRMsg_ServiceConnect {

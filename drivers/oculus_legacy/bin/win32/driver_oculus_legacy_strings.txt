@@ -1,16 +1,18 @@
 	!s99
  %41g
  (Camera)
+!7pmw
+!^Z<=
 !hn7!
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
-*8a7L
 *9Z9N
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
+-=#t~
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -74,7 +76,6 @@
 0"0(00080=0C0K0S0X0^0f0n0s0y0
 0#0A0M0S0a0k0q0
 0,040<0D0H0L0T0h0
-0K''n
 0n0y0
 0w0c1
 0}0i1
@@ -94,12 +95,11 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220401223002Z0/
+220408231928Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2V>C4
 2\3&4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
@@ -139,7 +139,6 @@
 6,6<6@6P6T6X6`6x6
 6I]Dc
 6OB,n_
-6eI\p
 7!7Z7}7
 7#7+7
 7$737<7E7N7S7X7_7
@@ -161,7 +160,6 @@
 9)9m9
 9*:F:K:U:f:
 919H9d9
-9:)F0
 9B:U:j:
 9H;X;{;
 9^9d9
@@ -288,6 +286,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NooSzF`
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -297,7 +296,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS{
 RaiseException
 S0Q0O
 SA|X=G
@@ -326,6 +324,7 @@ Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
 VCRUNTIME140.dll
+VM0pw
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
@@ -344,9 +343,9 @@ Y__^[
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
-]0q7I
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
+^s~R\
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -461,7 +460,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-stN'\I,]
 startup
 string too long
 strncpy
@@ -485,7 +483,6 @@ x]~\6
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
-|Gbkj
 |Lu?c
 }LuHO
 ~t&LN

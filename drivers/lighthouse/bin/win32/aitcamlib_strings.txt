@@ -5,6 +5,8 @@
  %41g
 !(0)"
 !9~ t
+!SWV9
+!`9y=
 !hn7!
 #*1892+$
 #?RADIANCE
@@ -30,7 +32,6 @@ $9^ t
 , last executing in 
 ,020@0L0
 ,W5y+
-.#+Y9
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -125,12 +126,12 @@ $9^ t
 /user/waist
 /width
 0 0$0(0,0004080
+0 0$0,0D0T0X0h0l0t0
 0 width
 0!0%0+050?0F0P0Z0a0k0
 0&020;0@0F0P0Z0j0z0
 0(070
 0*0:0K0a0x0
-0,0<0@0D0H0L0T0l0|0
 0-pixel image
 0.0>0H0R0b0m0
 052:2n2
@@ -138,8 +139,8 @@ $9^ t
 0w0c1
 0x1|1
 0}0i1
-1 1$1(1,10141<1T1d1h1x1|1
 1 1&111A1Q1[1e1p1}1
+1 1014181@1X1h1l1t1
 1!1H1P1i1
 1(161D1R1`1p1
 1)1@1V1b1n1~1
@@ -153,10 +154,8 @@ $9^ t
 1F1V1`1e1o1
 1H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 1Q1U1*2.2_6c6
-1Z5-E
 1a2q2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2
-2 2(2@2P2T2d2h2l2t2
 2!212A2Q2a2q2
 2#2(222C2H2R2c2h2r2
 2$2.282B2L2V2`2j2t2~2
@@ -167,8 +166,9 @@ $9^ t
 211007000000Z
 220323000000Z
 220329000000Z
-220401222919Z0/
+220408231902Z0/
 241009235959Z0a1
+242D2H2X2\2`2h2
 262H2O2o283?3
 293r3
 2>3k3
@@ -186,6 +186,7 @@ $9^ t
 3%3,3E3L3e3l3
 3(323B3M3n3~3
 3)3-3:3>3r7v7
+3,3<3@3D3H3P3h3x3|3
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -195,6 +196,7 @@ $9^ t
 4 494@4Y4^4c4h4
 4!4U5Y5h5l5m6q6
 4"43484B4Q4V4[4`4e4j4o4t4y4~4
+4$4(484<4@4D4H4L4P4X4p4
 4%40464=4
 4%5*5Z5_5u5z5@6y6
 4%5o5s5
@@ -202,22 +204,26 @@ $9^ t
 44585<5@5D5
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
+4_)9$
 4`:d:q:u:
 5	7+7
 5 5$5
 5!5M5c5k5
 5"5,565@5J5T5^5h5
 5"5-5N5^5h5r5
+5$5(5,545L5\5`5p5t5x5|5
 5$5f5n5
 5%5R6
 5'5.5G5N5g5n5
 5(5/5
 5/676b6
 555M5V5e5x5
+5<9`9l9t9
 5=5C5
 5Genu
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
+6 6$6(6,6064686<6@6D6D8H8L8P8T8X8\8
 6 7<7F7T7]7
 6#6(626C6H6R6c6h6r6
 6%626@6L6V6^6d6t6z6
@@ -237,7 +243,6 @@ $9^ t
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7
 7#7(73787B7S7X7b7s7x7
 7,737L718C8I8
-7,7P7\7d7
 7.7>7H7R7b7m7
 70503
 7[8_8
@@ -248,14 +253,12 @@ $9^ t
 8"83888B8Q8V8[8`8e8j8o8t8y8~8
 8#9{9
 8+9g9
-8,808@8d8p8x8
 8=;A;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8F9);-;<;@;-<8<@<`<h<n<
 8I9M9
 8SVWh
-8`9d9h9|9
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -263,7 +266,6 @@ $9^ t
 9"9'9,91969;9@9E9J9O9T9Y9^9c9h9q9v9{9
 9':P:r:
 9(929B9M9n9~9
-909<9D9\9p9x9
 979;9J9N9]9a9p9t9
 989]9d9
 98:[:
@@ -271,49 +273,52 @@ $9^ t
 9B:F:
 9]:p:
 9_lt\
+9x:|:
 :#:-:A:O:T:b:g:q:~:
+:$:D:h:t:|:
 :.:8:B:R:]:~:
-:0:L:P:X:`:h:l:t:
 :3:9:N:f:l:|:
-:8;<;@;D;\;`;p;t;x;|;
 :;;L;];u;H<L<
+:T;X;
 :T;l;
 :g=l=u=?>|>
 ;	<P<V<p<
 ; ;$;(;,;0;4;q;|;
 ;";);.;3;A;F;Q;V;c;m;s;};
+;$;0;8;P;d;t;
 ;%<)<8<<<
 ;5;x;|;
 ;>;N;X;b;r;};
 ;O<b<
 ;S;`;
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<
+< <4<8<<<X<\<
 <!<-<9<C<Y<h<w<
 <"<2<=<^<n<x<
 <$<-<1<
 <%<)<t?x?
 <(=/=5=;=A=G=M=S=]=k=
 <+=3=;=
-<,<<<@<H<`<p<t<
 <0:08
+<0<8<@<H<L<P<X<l<
 <0@0M0Q0
 <5=A=Y=o=x=
 <=<F<O<]<f<y<Z=z=
 <I=M=
 <h<n<
 <unknown>
+= =(=,=4=H=P=X=`=d=h=p=
 = >8>T>
 =,=P=|=
 =.=8=B=R=]=~=
-=0=@=D=T=X=\=`=d=l=
 =8=e=
 =8>J>P>W>b>o>|>
 =?>U>|>
 =N>R>
 =rIQU
+> >0>4>8><>@>H>`>d>|>
 > >B>Q>Z>g>
 > ?(?-?@?T?Y?l?
->4>D>H>\>`>p>t>x>
 >:>I>X>
 >>>N>X>b>r>}>
 >@>V>
@@ -322,9 +327,9 @@ $9^ t
 >Mp$d
 >g?x?|?
 >m?q?
+? ?0?4?D?H?X?\?l?p?
 ?"?2?=?^?n?x?
 ?%?2?<?B?
-?(?,?<?@?P?T?\?t?
 ?)?[?|?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
@@ -366,7 +371,6 @@ Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 AjEB#AZ
-B=;tS
 BMP RLE
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
@@ -457,6 +461,7 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
+LLsK*
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
@@ -474,7 +479,6 @@ OutputDebugStringW
 P<^_3
 PAq=?Mp#
 PID_%04X
-PQh@(
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
@@ -484,7 +488,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSv
+RSDS5
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -575,11 +579,8 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
-XkcA0
 Y9"SD
-Y<^S]rJ
 Y__^[
-ZbUGjX	
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
@@ -627,7 +628,7 @@ _seh_filter_dll
 _strupr_s
 _wchdir
 _wgetcwd
-`&iJ.	
+_x<wiC[
 `.rdata
 aitcamlib
 aitcamlib.dll
@@ -682,6 +683,9 @@ bad req_comp
 bad sizes
 bad tRNS len
 bad zlib header
+bg_bg
+brazilian
+bulgarian
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
@@ -693,26 +697,50 @@ cameraISPSyncDivisor
 cameraSensorFrameRate
 can't merge dc and ac
 corrupt
+cs_cs
+czech
+da_da
+danish
+de_de
 deque<T> too long
 e,>~^
+el_el
+en_us
+english
+es_es
+es_mx
 etronlib
 expected marker
 f;A*stSW
+fi_fi
+finnish
 first not IHDR
+fr_fr
 fread
+french
 fseek
+german
+greek
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iAUic
+hu_hu
+hungarian
 illegal code in raster
 invalid
 invalid PLTE
 invalid decoded scanline length
 invalid filter
+it_it
+italian
+ja_jp
+japanese
 jj@0HK4
 k0i0$
+ko_ko
+korean
+latam
 ldexp
 malloc
 map/set<T> too long
@@ -729,6 +757,8 @@ no SOI
 no clear code
 no header height
 no preset dict
+no_no
+norwegian
 not BMP
 not GIF
 not HDR
@@ -738,11 +768,22 @@ only 8-bit
 outofdata
 outofmem
 output buffer limit
+p5t5x5|5
+pl_pl
+polish
+portuguese
+pt_br
+pt_pt
 pvBuffer != nullptr
 qdriver_lighthouse
 r0	2q2
-rE;|\
 read past buffer
+ro_ro
+romanian
+ru_ru
+russian
+schinese
+spanish
 startup
 string too long
 strncmp
@@ -750,19 +791,27 @@ strncpy
 strncpy_s
 strstr
 strtol
+sv_sv
+swedish
 tQPh8
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
+tchinese
 tdh.dll
 terminate
+th_th
 too large
 too many codes
+tr_tr
+turkish
 u(_^[
 u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
 uCVj@
 uEVj@
+ua_ua
+ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 unknown BMP
 unknown code
@@ -773,6 +822,8 @@ unsupported data layout
 unsupported format
 v#QPh
 v=Y]Bv
+vi_vi
+vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
 wrong channel count
@@ -781,9 +832,10 @@ wrong version
 www.digicert.com1!0
 x]~\6
 yrPhX
+zh_cn
+zh_tw
 zlib corrupt
 {un'%
-|Gbna
 |Lu?c
 }LuHO
 ~t&LN
