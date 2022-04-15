@@ -5,13 +5,12 @@
  %41g
 !(0)"
 !9~ t
-!SWV9
-!`9y=
 !hn7!
 #*1892+$
 #?RADIANCE
 #?RGBE
 $9^ t
+%)2IU
 %,3:;4-&
 %3333
 %UUUU
@@ -166,7 +165,7 @@ $9^ t
 211007000000Z
 220323000000Z
 220329000000Z
-220408231902Z0/
+220415190215Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -204,7 +203,6 @@ $9^ t
 44585<5@5D5
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
-4_)9$
 4`:d:q:u:
 5	7+7
 5 5$5
@@ -461,7 +459,6 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
-LLsK*
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
@@ -488,7 +485,6 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS5
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -561,6 +557,7 @@ UnhandledExceptionFilter
 Unknown
 Unknown exception
 UuidFromStringA
+V;~/`
 VCRUNTIME140.dll
 VID_%04X
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
@@ -581,6 +578,7 @@ WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
+Yb|fw/
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
@@ -628,7 +626,6 @@ _seh_filter_dll
 _strupr_s
 _wchdir
 _wgetcwd
-_x<wiC[
 `.rdata
 aitcamlib
 aitcamlib.dll
@@ -712,6 +709,7 @@ es_mx
 etronlib
 expected marker
 f;A*stSW
+fCEV=
 fi_fi
 finnish
 first not IHDR

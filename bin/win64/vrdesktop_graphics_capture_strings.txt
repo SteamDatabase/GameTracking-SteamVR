@@ -24,6 +24,7 @@
 (A_A^^[
 (A_A^_]
 (D$ f
+(S9nKk*
 (f*^[0
 (t$ 2
 (t$@H
@@ -32,7 +33,6 @@
 )t$0H
 )t$@H
 *9Z9N
-*I>,t-u
 *uXI;
 +Xt@(
 +o'q)}
@@ -166,6 +166,7 @@
 0A_A^_^[
 0A_A^_^]
 0A__[
+0OG>y4+V
 0w0c1
 0}0i1
 130801120000Z
@@ -174,11 +175,10 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220408232145Z0/
+220415190557Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2d{cmt=n
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -201,9 +201,9 @@
 </u#H
 <0:08
 <unknown>
+=JI[J
 =rIQU
 >Mp$d
->j5-:
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -321,6 +321,7 @@ Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C++/WinRT version:1.0.190111.3
 C0L9$
+C5N|d
 CD$(H
 CD$0H
 CD$hH
@@ -461,7 +462,6 @@ Failed to map desktop upload texture.
 Failed to reinitialize output duplication for desktop %d, updating description.
 Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
-Fnh02L
 FormatMessageA
 GDI32.dll
 GetCurrentProcessId
@@ -642,7 +642,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSw
+RSDSM
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -917,6 +917,7 @@ input_frame_time
 invalid stoull argument
 it_it
 italian
+j'"Ch
 ja_jp
 japanese
 jj@0HK4
@@ -968,7 +969,6 @@ request_window_list_update
 returnAddress
 ro_ro
 romanian
-rp ^1
 ru_ru
 running
 russian
@@ -1033,7 +1033,6 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
-wPIAK
 window_view_created
 window_view_destroyed
 windows
@@ -1059,6 +1058,5 @@ zh_tw
 |$PL9~
 |$hH9>ueH
 |Lu?c
-};#Sn
 }LuHO
 ~t&LN

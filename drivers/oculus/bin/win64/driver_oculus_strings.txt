@@ -182,7 +182,6 @@ $w!Hc
 )L$P@
 )L$PL
 )L$pA
-)N;P2
 )l$0D
 )t$ D
 )t$ H
@@ -459,7 +458,7 @@ $w!Hc
 211007000000Z
 220323000000Z
 220329000000Z
-220408232129Z0/
+220415190558Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -467,7 +466,6 @@ $w!Hc
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
-3	iy,
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -928,7 +926,6 @@ Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set
-FUQL\
 Failed CreateTexture2D with 0x%X
 Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
 Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
@@ -964,6 +961,7 @@ Found path:
 FreeLibrary
 G(M+G I
 G8$1u
+G9ZF8-
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
 GPUCountingSemaphore::Wait(%llu)
@@ -1128,6 +1126,7 @@ IsDebuggerPresent
 IsDepthFormat( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
+JMc3i	,
 JSON string too short.
 KERNEL32.dll
 KHR_lights_punctual
@@ -1215,7 +1214,6 @@ N I9N(
 N0H9Q
 NORMAL
 NPH9Q
-N^b)d
 Neither required `bufferView` nor `uri` defined for image[
 No LoadImageData callback specified.
 No valid guardian bounds. Creating standing chaperone
@@ -1260,7 +1258,6 @@ PA_A^_
 PA_A^_^]
 PAq=?Mp#
 Path_Exists( absFilePath )
-PbgaT.
 Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -1357,6 +1354,7 @@ TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
 Tp=9y>m0_D@H_
+T~LQ!
 U0H9U8t
 UATAUAVAWH
 UAVAWH
@@ -2367,6 +2365,7 @@ tXH+A
 tXfff
 t[D8p
 t[H+A
+t[aI[
 target
 targets
 tb9l$Xt@9n$~;

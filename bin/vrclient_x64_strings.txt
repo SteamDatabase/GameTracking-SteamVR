@@ -47,7 +47,7 @@
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`aba.
+ !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`ab
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !00"#$%&'()*+,-./f
@@ -93,6 +93,7 @@
  CVRMsg_Settings_GetBool_Response
  H3E H3E
  H;\$xu
+ L;uX
  Outdent() without matching Indent().
  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
  Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
@@ -237,9 +238,9 @@
 #CVRMsg_Settings_GetNumeric_Response
 #CVRMsg_TrackedCamera_EnableResponse
 #CVRMsg_TrackedCamera_GetFrameBounds
+#CompatibilityMode_Notification
 #D9c0t
 #D9{0t
-#Gj|ka
 #OriginString_All
 #OriginString_Controller
 #OriginString_ControllerSource
@@ -256,6 +257,7 @@ $0$1 = $2
 $0$1$2 $3 = $4
 $0enum $1 {
 $0option $1;
+$@:MRU
 $CVRMsg_ClientMailbox_RegisterMailbox
 $CVRMsg_CompositorUnrefSharedResource
 $CVRMsg_GetApplicationLaunchArguments
@@ -264,7 +266,7 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knN
+$tI(knNh
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -543,6 +545,7 @@ $w!Hc
 'CVRMsg_SetDefaultApplicationForMimeType
 'D9c0t
 '[', '{', or a literal
+'\	pd
 'action_sets' member found for legacy binding manifest. New action sets cannot be added.
 'action_sets' member is not an array
 'actions' member found for legacy binding manifest. New actions cannot be added.
@@ -552,10 +555,11 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
+(-eU"
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
-(=^M"
+(=>I"
 (A\^][
 (A\_^[
 (A]_^[
@@ -673,7 +677,6 @@ $w!Hc
 (|$`L
 (|$pH
 (|$pI
-)	uhR
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )9k0t
@@ -827,6 +830,7 @@ $w!Hc
 ,CVRMsg_TrackedCamera_StopVideoStreamResponse
 ,H;D$ 
 ,W5y+
+,b}S*
 -1e+9999
 -9k0t&H
 -9{0t%H
@@ -1803,6 +1807,7 @@ $w!Hc
 .idata$4
 .idata$5
 .idata$6
+.inputnotifications
 .json
 .pdata
 .placeholder.proto
@@ -2209,7 +2214,7 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220408232301Z0/
+220415190546Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2218,7 +2223,6 @@ $w!Hc
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2HcB,
-2VZ](
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -2281,10 +2285,12 @@ $w!Hc
 9)u$M
 98tHH
 9;tC@8{
+9=Md%
 9A(~0H
 9A|6H
 9C s.H
 9C }(H
+9C }.H
 9C0r'H
 9CTt=
 9CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
@@ -2419,6 +2425,7 @@ $w!Hc
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 :EotB
+:WQMV
 ; expected 
 ; last read: '
 ;<$uCB
@@ -2590,14 +2597,14 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@8=	7=
-@8=$?=
-@8=@;=
-@8=D==
-@8=[:=
-@8=[==
-@8=]A=
-@8=k<=
+@8=	G=
+@8=$O=
+@8=@K=
+@8=DM=
+@8=[J=
+@8=[M=
+@8=]Q=
+@8=kL=
 @8I+@0H
 @8i(u
 @8k t
@@ -2707,8 +2714,10 @@ $w!Hc
 @USATAUAWH
 @USATAUH
 @USATAVAWH
+@USATAVH
 @USAUAVAWH
 @USAWH
+@USVATAUAWH
 @USVATAVH
 @USVAVH
 @USVH
@@ -2799,6 +2808,7 @@ A9B0s
 A9P }
 A9Q sEI
 A9Q }
+A9Q }EI
 A9R }
 A9^H~,3
 A9^x~93
@@ -2813,6 +2823,7 @@ A;B$u
 A;L$8}
 A;O0}
 A;Q s?I
+A;Q }?I
 A;^H|
 A;^x|
 A;_h|
@@ -2850,6 +2861,7 @@ A]_[]
 A]_^[]
 A]_^]
 A]_^][
+A^A\[]
 A^A\]
 A^A\^
 A^A\^[]
@@ -2873,6 +2885,7 @@ A^A]_]
 A^A]_^[]
 A^A]_^]
 A^^[]
+A^_[]
 A^_^[]
 A^_^]
 A^_^][
@@ -3075,7 +3088,7 @@ C H9C(t
 C H9T$@t
 C t~H
 C$A;A
-C%H@=
+C%HP=
 C(9~(~FL
 C(D![ D!S$D!K(
 C(H9C0t
@@ -3087,7 +3100,7 @@ C0L;E
 C0L;F
 C0L;G
 C4LcC0H
-C5X>=
+C5XN=
 C8;C<
 C8;K<
 C8@8l$8t.
@@ -3124,7 +3137,6 @@ CD$`H
 CD$`I
 CD$`L
 CD$hH
-CD$xH
 CD3D11VRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle
 CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.
 CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to import GPU counting shared semaphore.
@@ -3192,6 +3204,7 @@ CL$(3
 CL$0H
 CL$0I+
 CL$0I;
+CL$0L;
 CL$0fI
 CL$8I
 CL$8L
@@ -3806,8 +3819,8 @@ D8$0u
 D8$7u
 D8$>u
 D8,8u
-D85Y*5
-D85Z94
+D85Y:5
+D85ZI4
 D8<0u
 D8<>u
 D8D$9t$
@@ -3832,6 +3845,7 @@ D8}gt$L
 D8}gu
 D8}guH
 D8~ A
+D9%3<,
 D90uGH
 D9>u:H
 D9@ }
@@ -3958,10 +3972,10 @@ DuplicateHandle
 E H9E(t
 E$HcM H
 E'H9G
-E(H9C
 E0D9mtu
 E0Lc$
 E8$(u
+E8,9u
 E8,>u
 E8I9E@t
 E9A(|
@@ -4031,13 +4045,8 @@ Ep9H(tRA
 Error creating VR renderer.
 Error creating depth texture '%s' %dx%d (Format=%d, SampleCount=%d)
 Error creating shared texture '%s' %dx%d (%d mips)
-Error in input profile simulation settings for %s. Internal error: Failed to assign controller_type. 
-Error in input profile simulation settings for %s. Internal error: Failed to assign simulate_rendermodel. 
 Error in input profile simulation settings for %s. Missing property: %s 
-Error in input profile simulation settings for %s. Missing property: manufacturer_name 
-Error in input profile simulation settings for %s. Missing property: tracking_system_name 
-Error in input profile simulation settings for %s. legacy_axis needs 5 values.
-Error in input profile simulation settings for %s. legacy_buttons needs to be specified.
+Error in input profile simulation settings. Likely invalid controller type. Aborting simulation. 
 Error initializing CDownsampleRenderer
 Error initializing CMsaaResolveRenderer
 Error parsing text-format 
@@ -4240,8 +4249,12 @@ Failed to load glTexImage3D!
 Failed to load glTexStorage3D!
 Failed to load input profile for controller type: %s
 Failed to load input profile for simulated controller type: %s
+Failed to load input profile for simulated hmd type: %s
 Failed to load libvulkan
 Failed to load pixel shader %s! (size=%d)
+Failed to load simulation settings for %s. Input profile at %s could not be loaded.
+Failed to load simulation settings for %s. Input profile does not have a simulation_settings item.
+Failed to load simulation settings for %s. Input profile has a simulation_settings item but it is not an object.
 Failed to load vertex shader %s! (size=%d)
 Failed to load wglDXCloseDeviceNV!
 Failed to load wglDXLockObjectsNV!
@@ -4436,6 +4449,7 @@ G,iV(
 G0L;F
 G0M;A
 G8$(u
+G8<1u
 G8@8n4t{H
 G8D8t$8t/A
 G@A;A t
@@ -4695,7 +4709,6 @@ H;Cxu
 H;D$ 
 H;D$(
 H;D$X
-H;D$`
 H;D$`}
 H;EHt
 H;GhtWH
@@ -4874,7 +4887,6 @@ Hex and octal numbers must be integers.
 Hi Joe(D). Your text goes here
 HiL$ 
 HiL$  
-Hj,eN5
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -5207,7 +5219,6 @@ InitializeSecurityDescriptor failed. GetLastError returned: %d
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.
 Initializing CVulkanVRRenderer
 Initializing the limited version of CVRCompositorClient
-Input profile has a simulation_settings item but is not an object
 InputCoord
 InputValueType_Boolean
 InputValueType_Haptic
@@ -5305,7 +5316,6 @@ J949u
 J>@G_
 JPI+JHH
 JSON string too short.
-Jv3M6
 K(9J(}
 K(H+K H
 K(H9H s
@@ -5624,6 +5634,7 @@ LoadResult
 Loaded %s in %fms
 Loaded image %s (%dx%d) dur=%fms
 Loaded input profile for simulated controller type: %s
+Loaded input profile for simulated hmd type: %s
 Loaded resource-only driver %s from %s
 Loaded server driver %s (%s) from %s
 Loading compute shader %s
@@ -6345,7 +6356,6 @@ Successfully changed app type
 Successfully reconnected to server
 Suggested binding for [%s] [%s]:
 Suggested bindings for %s:
-SwE	gx
 SwapChainImage
 SwapChainImageView
 Swapchain-WaitImage
@@ -6450,6 +6460,7 @@ T$xE3
 T$xH;
 T$xL+
 T$xL;
+T5O,&
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -6590,6 +6601,7 @@ USWAUAVAWH
 USWAUAVH
 USWAUH
 USWAVAWH
+USWAVH
 USWAWH
 UUUUUU
 UUUUUUU
@@ -7434,6 +7446,8 @@ W(H;C
 W(LcB
 W,H;C
 W0H;C
+W5S]$
+W5|]$
 W8H+W`I
 W8H;C
 W<H;C
@@ -7492,7 +7506,7 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
-X%,)/
+X%,9/
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -7823,11 +7837,11 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%3b/
-Y%8$.
-Y-`$.
-Y5[e/
-Y5~e/
+Y%3r/
+Y%84.
+Y-`4.
+Y5[u/
+Y5~u/
 Y9"SD
 Y>t$7?*
 YD$8E
@@ -7864,6 +7878,10 @@ ZvFailed to create fence to block on queue flush at shutdown.
 [CMsaaResolveRenderer] Failed to create sampler state!
 [CMsaaResolveRenderer] Failed to create shader resource view for src texture calling ImportTextureFromNativeTexture()! Texture doesn't have D3D11_BIND_SHADER_RESOURCE set on desc.BindFlags
 [CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!
+[Compatibility Mode] Error: Could not get notification interface. %d
+[Compatibility Mode] Error: Could not get overlay interface. %d
+[Compatibility Mode] Error: Notification failed: %d
+[Compatibility Mode] Error: Overlay creation failed: %s
 [Compositor Client] !!!! AcquireSync FAILED with E_FAIL
 [Compositor Client] !!!! AcquireSync FAILED with WAIT_ABANDONED
 [Compositor Client] !!!! AcquireSync FAILED with WAIT_TIMEOUT
@@ -8029,8 +8047,8 @@ ZvFailed to create fence to block on queue flush at shutdown.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%	>"
-_%'C"
+^W.7%
+_%k2"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8085,9 +8103,6 @@ _aligned_realloc
 _callnewh
 _cexit
 _configure_narrow_argv
-_controller_modelnumber
-_controller_rendermodel
-_controller_serialnumber
 _crt_atexit
 _dtest
 _errno
@@ -8111,7 +8126,6 @@ _mbsstr
 _mktime64
 _purecall
 _register_onexit_function
-_registered_device_type
 _response
 _seh_filter_dll
 _stickyclick
@@ -8151,6 +8165,7 @@ _wstat64i32
 `A_A^A]A\_^]H
 `A_A^_^]
 `A__^
+`Fr9wI
 `H@SH
 `P@SH
 `X@SH
@@ -8513,7 +8528,6 @@ d$hE3
 d$hHcC,L
 d$hI;
 d$pI;
-d$pM;
 d3d11.dll
 da_da
 danish
@@ -8881,6 +8895,7 @@ hide_callout
 hide_dashboard_requested
 hmd_interface_version
 hmd_presence
+hmd_profile
 holographic_controller
 hpmotioncontroller
 http://
@@ -9136,6 +9151,7 @@ launch_type
 ldexp
 leading_comments
 leftThumbstickRotation
+left_
 leftright
 legacy
 legacy_axis
@@ -9258,6 +9274,7 @@ missing binding_url in default binding
 missing color table
 missing controller_type in default binding
 model_number
+modelnumber
 modelskins
 modff
 motion
@@ -9315,7 +9332,7 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5\g&
+o5\w&
 o@@fD
 oD$ fD
 oD$0f
@@ -9504,9 +9521,11 @@ red_u
 red_v
 redirectsDisplay
 registered: 
+registered_device_type
 rejectDupKeys
 render_message
 renderable
+rendermodel
 rendermodels
 repeated
 request
@@ -9531,6 +9550,7 @@ returnBindingsWithLeftHand
 returnBindingsWithRightHand
 right
 rightThumbstickRotation
+right_
 rnw(I
 ro_ro
 romanian
@@ -9572,6 +9592,7 @@ section
 section_key
 sendSystemButtonToAllApps
 serial_number
+serialnumber
 server
 server_crc
 service
@@ -9861,10 +9882,12 @@ shaders/vulkan/unlit_vs.spv
 shared_memory_block
 short_alloc: spilling into system allocator
 should_kill
+showCompatibilityModeNotification
 show_app_binding
 show_dashboard_requested
 shtOH
 simple
+simulate_hmd
 simulate_rendermodel
 simulated action does not have a type
 simulated action had unknown type '
@@ -10163,6 +10186,7 @@ t$PI;
 t$Pt	
 t$TI;
 t$XE3
+t$XH;
 t$Xw1
 t$`8Y
 t$`D;
@@ -10336,6 +10360,7 @@ u*H9{`t$H
 u,+u(
 u-H9X s
 u.H9{`t(H
+u/fff
 u4H9X s
 u5H9t$0u.H
 u9fff
@@ -10359,7 +10384,6 @@ uO8D$@tI
 uP@8;uo
 uSD9d$DuLD8
 uZEeu
-u[fff
 ua_ua
 ub'vb'v
 ubHcC0I
@@ -10410,6 +10434,7 @@ v=Y]Bv
 vD;EHL
 vE;E`M
 vHcD$LH
+v[L9c u
 value
 value_hold_threshold
 value_mapping
@@ -11151,7 +11176,6 @@ zuusA
 {%s}%s
 {,	u#
 {8@8l$8t1
-{d	qpn}v
 {un'%
 |$ 9kh~
 |$ 9y ~=H
@@ -11248,6 +11272,7 @@ zuusA
 |$pH+
 |$pI+
 |$pI;
+|$pM;
 |$t!u
 |$xHc
 |$xHcF4

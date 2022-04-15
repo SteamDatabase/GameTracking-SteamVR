@@ -93,16 +93,17 @@
   },
   "simulation_settings":
   {
-    "left_controller_modelnumber": "VIVE Controller Pro MV",
-    "right_controller_modelnumber": "VIVE Controller Pro MV",
-    "left_controller_serialnumber": "LHR-00000001",
-    "right_controller_serialnumber": "LHR-00000002",
-    "left_controller_rendermodel": "vr_controller_vive_1_5",
-    "right_controller_rendermodel": "vr_controller_vive_1_5",
-    "tracking_system_name": "lighthouse",
-    "manufacturer_name": "HTC",
+	"hmd_profile": "vive",
+    "left_modelnumber": "VIVE Controller Pro MV",
+    "right_modelnumber": "VIVE Controller Pro MV",
+    "left_serialnumber": "LHR-00000001",
+    "right_serialnumber": "LHR-00000002",
+    "left_rendermodel": "vr_controller_vive_1_5",
+    "right_rendermodel": "vr_controller_vive_1_5",
 	"left_registered_device_type": "htc/vive_controllerLHR-00000001",
 	"right_registered_device_type": "htc/vive_controllerLHR-00000002",
+    "tracking_system_name": "lighthouse",
+    "manufacturer_name": "HTC",
 	"legacy_buttons": [0, 1, 2, 32, 33],
 	"legacy_axis": [1, 3, 0, 0, 0]
   }

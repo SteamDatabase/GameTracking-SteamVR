@@ -1,6 +1,9 @@
 {
 	"jsonid" : "input_profile",
   "controller_type": "indexhmd",
+  "device_class" : "TrackedDeviceClass_HMD",
+  "resource_root" : "indexhmd",
+  "driver_name" : "lighthouse",
   "input_bindingui_mode" : "hmd",
   "input_bindingui_right" :
   {
@@ -23,5 +26,14 @@
         "app_key" : "openvr.component.vrcompositor",
         "binding_url" : "vrcompositor_bindings_indexhmd.json"
    }
-  ]
+  ],
+  "simulation_settings":
+  {
+    "modelnumber": "Index",
+    "serialnumber": "LHR-FFFFFFF0",
+    "rendermodel": "generic_hmd",
+	"registered_device_type": "valve/index",
+    "tracking_system_name": "lighthouse",
+    "manufacturer_name": "Valve"
+  }
 }

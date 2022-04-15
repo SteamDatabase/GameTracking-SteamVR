@@ -45,7 +45,6 @@
  A_^]
  A__^
  H3E H3E
- `Bc2
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -357,8 +356,6 @@ $II+L$`
 +o'q)}
 , last executing in 
 ,W5y+
-,gj&}I
--6<.)
 -IPCWrapper
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -532,7 +529,7 @@ $II+L$`
 211007000000Z
 220323000000Z
 220329000000Z
-220408231840Z0/
+220415190121Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -545,6 +542,7 @@ $II+L$`
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+3};0\1
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -559,6 +557,7 @@ $II+L$`
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+95^6sy
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -569,7 +568,6 @@ $II+L$`
 ;S sMH
 ;\$x|
 <0:08
-<N!1\4
 <P)9Y
 <unknown>
 =rIQU
@@ -905,7 +903,6 @@ ConvertStringSidToSidA failed for test app %d
 CopyLayers
 CopySid
 Cost reduction pass
-Cp,>O)
 CreateDXGIFactory1
 CreateDXGIFactory2
 CreateEventA
@@ -1004,7 +1001,6 @@ DumpHistory-Staging
 Dumping display history...
 DuplicateHandle
 E8~(t\
-EB^uLM
 E\f9A
 EhH9E`
 EnterCriticalSection
@@ -1266,6 +1262,7 @@ ME-Reprojector-Mask
 ME-VisibleAreaMask-%s
 ME-VisibleAreaMask-Graphics Command Pool
 ME-VisibleAreaMask-Timeline
+MH	=4u
 MSVCP140.dll
 MV-Attenuation
 MV-Attenuation-%s
@@ -1326,6 +1323,7 @@ NvEncode %s-%s
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
 O0H9Q
+OC0WJ
 OLEAUT32.dll
 OpH9Q
 OpenEventA
@@ -1379,7 +1377,6 @@ PanelMask-%s
 PanelMask-Frag
 PanelMask-Staging
 PanelMask-Vert
-Pbxub
 PeekNamedPipe
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PoolGC
@@ -1616,7 +1613,6 @@ WindowsPromoteStringBuffer
 WriteFile
 XA_A][]
 XA_A^A]_
-XB%Oyn
 Y9"SD
 YUV conversion - %s
 Yl$ M
@@ -1660,10 +1656,9 @@ Yl$4E
 \$xHk
 \$xMi
 \\.\pipe\
-\c_\A#
 ]J<0"0i3
+]WUbu
 ]g@8yhu
-^5k_4
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1999,6 +1994,7 @@ r,fff
 renderdoc.dll
 result == ALVR_OK
 s AVH
+s@5XC(
 s_nInstanceCount > 0
 server
 short_alloc: spilling into system allocator
@@ -2012,7 +2008,6 @@ strncpy_s
 strstr
 strtoull
 s}fff
-s~lbs
 t$ AVH
 t$ AWH
 t$ UH
@@ -2532,6 +2527,7 @@ wcsstr
 www.digicert.com1!0
 xA_A^A]A\_^[]
 x]~\6
+y)sXc
 yxxxxxxxH
 yxxxxxxxI+
 {pH;{xw?

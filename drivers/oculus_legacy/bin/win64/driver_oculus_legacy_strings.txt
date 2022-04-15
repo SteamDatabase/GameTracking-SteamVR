@@ -1,13 +1,12 @@
 	!s99
-	(+<Q
     A
  %41g
  (Camera)
  9D$D
  A__^
  H3E H3E
- a%>O
 !hn7!
+!t1Z2"6
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -93,7 +92,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220408232225Z0/
+220415190749Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,6 +104,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+5C:6'7
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -160,7 +160,6 @@ C(L95
 CL$PH
 COculusHmdLatest::UpdateThread
 CT$ H
-CY-hAp
 Camera tracker driver for rejected by vrserver
 CloseHandle
 Code: -1003
@@ -192,7 +191,6 @@ EventWriteString
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
-G57nd
 GetCurrentDirectoryW
 GetCurrentProcess
 GetCurrentProcessId
@@ -226,6 +224,7 @@ IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+InFb	
 InitDirectMode: DX11 level hardware required!
 InitDirectMode: Failed to create D3D11 device! (err=%u)
 InitializeConditionVariable
@@ -267,7 +266,9 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDS=wLA
 RaiseException
+RkZo?
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -307,6 +308,7 @@ VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
+VUCkUK
 VWAVH
 VWAWH
 V_~]	,
@@ -326,7 +328,6 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
-]#gf{a%
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -364,7 +365,6 @@ _purecall
 _register_onexit_function
 _seh_filter_dll
 _stricmp
-_vW\RG
 `.rdata
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -379,6 +379,7 @@ d$`H=
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
+dsAi24K
 e,>~^
 effffff
 f9<Xu
@@ -459,7 +460,6 @@ t$ WH
 t$@H=
 tIL95v
 tXfff
-t]|g_NJ
 tdh.dll
 terminate
 tkH97t	H
@@ -467,6 +467,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 x]~\6
+x_}jZ
 z(uMH
 {ERR-001}
 {ERR-079}

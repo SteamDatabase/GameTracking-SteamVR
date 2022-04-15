@@ -8,6 +8,7 @@
 																												
 																																												
 	!s99
+	G/|?}f 
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -79,7 +80,6 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-)hsvz
 *9Z9N
 +KL+SL_;
 +Xt@(
@@ -90,7 +90,6 @@ $Vh&*
 , defaulting to stop_bits::one!
 ,W5y+
 -1e+9999
--EkwP
 -Infinity
 -external
 -internal
@@ -708,7 +707,7 @@ $Vh&*
 211007000000Z
 220323000000Z
 220329000000Z
-220408231904Z0/
+220415190217Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -1132,6 +1131,7 @@ $Vh&*
 :T:}:
 :V;d;{<
 :[:h:t:
+:j]o4
 ; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
 ; ;$;(;0;H;X;\;l;p;t;|;
 ; ;$;(;<;@;D;H;L;P;X;p;
@@ -1196,6 +1196,7 @@ $Vh&*
 <%<2<@<L<V<^<d<t<z<
 <&<.<4<8<><B<L<[<
 <&<0<:<D<N<X<b<l<v<
+<'%EUS
 <(<e<
 <*=K=
 <,<<<@<P<T<X<\<d<|<
@@ -1736,10 +1737,10 @@ GetQueuedCompletionStatus
 GetSystemTimeAsFileTime
 GetTickCount64
 Gt_^[
-H(-eQ
 HCI_COMMAND_PACKET
 HCI_EVENT_PACKET
 HTC BS
+Hbf*:
 HeapAlloc
 HeapFree
 IO_RESOURCES_UNAVAILABLE
@@ -2096,9 +2097,9 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
+[z)aFc
 \0`0d0|0
 \Device Parameters
-\v2#	
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2166,6 +2167,7 @@ _strnicmp
 _strupr_s
 `.rdata
 a9~@u
+aNDwR
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -2469,6 +2471,7 @@ www.digicert.com1!0
 x5t7j
 x]~\6
 xdigit
+y#E4Fc
 y4_^[
 {L?uI
 {un'%
@@ -2476,7 +2479,6 @@ y4_^[
 |cj#h
 }	jCh
 }LuHO
-}WNb1
 }qj<h
 ~L][u
 ~d;{d|	

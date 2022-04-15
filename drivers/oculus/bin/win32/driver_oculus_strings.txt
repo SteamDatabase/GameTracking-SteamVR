@@ -61,6 +61,7 @@
 "scenes" object not found in .gltf or not an array type
 "spot" is not a JSON object.
 #*1892+$
+#>s4j
 #?RADIANCE
 #?RGBE
 #oculus_requested_quit
@@ -100,6 +101,7 @@ $9^ t
 (%PP	
 (-`P	
 (5pP	
+(O(&fR
 (Unable to load LibOVR)
 (f*^[0
 ***** Reloading Shaders Begin
@@ -115,10 +117,12 @@ $9^ t
 , requestedBytes 
 ,W5y+
 ,^_[]
+,{G, 
 -1003
 -1e+9999
 -3003
 -Infinity
+-h<"Bx
 -startup
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -249,6 +253,7 @@ $9^ t
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.O>BFWg
 .data
 .data$r
 .edata
@@ -459,7 +464,7 @@ $9^ t
 212l2
 220323000000Z
 220329000000Z
-220408231935Z0/
+220415190318Z0/
 233w4
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -541,6 +546,7 @@ $9^ t
 3mq+<
 3p=t=x=|=
 3x4|4
+3y,GY
 4	4:4X4]4e4k4q4x4}4
 4	5|5
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4
@@ -879,6 +885,7 @@ $9^ t
 :_;Z?
 :f:o:
 :rota
+:t%%7
 :v;	=F=6?v?
 :v;6<
 :v<&>
@@ -1059,6 +1066,7 @@ $9^ t
 >M?j?
 >Mp$d
 >P>x?
+>R{q@
 >Z?x?|?
 >[?b?
 ? ?$?(?,?0?4?
@@ -1108,7 +1116,6 @@ $9^ t
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?A?O?q?
-?Hf?d
 ?J?l?q?
 ?M?|?
 ?POSITION
@@ -1565,7 +1572,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 Wjlhx
-XULFK
 XXXX PNG chunk not known
 Y9"SD
 Y9]9l9p9}9
@@ -1681,6 +1687,7 @@ _wstat64i32
 `bufferViews' does not contain an JSON object.
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
+`h^|]!
 `input` field is missing in animation.sampler
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
@@ -1807,7 +1814,6 @@ count
 cs_cs
 czech
 d3d11.dll
-d_0{j+
 da_da
 danish
 data:application/gltf-buffer;base64,
@@ -2007,7 +2013,7 @@ minFilter
 minVersion
 missing color table
 multiple IHDR
-nTx4R
+nKEg;
 no IDAT
 no PLTE
 no SOF
@@ -2429,7 +2435,6 @@ vietnamiese
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcompositor_mailbox
-vyix&
 w QVR
 w,_^[
 w4_^]

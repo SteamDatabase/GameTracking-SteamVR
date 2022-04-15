@@ -14,7 +14,6 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
 !0L0w0
 !hn7!
-#2js8
 $Phdd
 %%.%dg
 %2.2X
@@ -187,6 +186,7 @@ $Phdd
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
 000<0D0d0
+07A*In
 090>0O0U0Z0e0o0v0|0
 0L1P1T1X1\1`1d1h1l1p1t1x1|1
 0V2y2
@@ -232,7 +232,7 @@ $Phdd
 211007000000Z
 220323000000Z
 220329000000Z
-220408231906Z0/
+220415190212Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -441,6 +441,7 @@ $Phdd
 <6=E=
 <;<m<
 <= Exiting Context: (%.2f seconds)
+<@XL^
 <SVWj
 <_<g<
 = >,>4>T>x>
@@ -725,6 +726,7 @@ GetTickCount64
 GetVersionExA
 H$;J$
 HTC BS
+Hf**(
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
@@ -790,7 +792,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
-NS?v 
 Nonce:    %d
 ODFU Post
 OpenProcess
@@ -816,6 +817,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSMG
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1020,6 +1022,8 @@ Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
+\<)hG4\
+\KR]ZF
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME

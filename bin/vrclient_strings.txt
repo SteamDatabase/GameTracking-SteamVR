@@ -120,6 +120,7 @@
 #?RADIANCE
 #?RADIANCE# Written by stb_image_write.hFORMAT=32-bit_rle_rgbe
 #?RGBE
+#CompatibilityMode_Notification
 #OriginString_All
 #OriginString_Controller
 #OriginString_ControllerSource
@@ -797,7 +798,15 @@ $0}
 .L1010
 .L1011
 .L1012
+.L10126
+.L10127
+.L10129
 .L1013
+.L10130
+.L10131
+.L10132
+.L10133
+.L10134
 .L1014
 .L1015
 .L1016
@@ -1155,15 +1164,9 @@ $0}
 .L14380
 .L14381
 .L144
-.L1442
-.L1443
 .L14433
 .L14434
 .L14439
-.L1445
-.L1446
-.L1447
-.L1448
 .L1449
 .L145
 .L1451
@@ -1286,13 +1289,19 @@ $0}
 .L16240
 .L16242
 .L163
+.L1638
+.L1639
 .L164
+.L1641
 .L16412
 .L16413
 .L16415
 .L16416
 .L16417
 .L16418
+.L1642
+.L1643
+.L1644
 .L16443
 .L16444
 .L16446
@@ -2699,15 +2708,7 @@ $0}
 .L980
 .L981
 .L982
-.L9823
-.L9824
-.L9826
-.L9827
-.L9828
-.L9829
 .L983
-.L9830
-.L9831
 .L984
 .L985
 .L986
@@ -2730,6 +2731,7 @@ $0}
 .desktop
 .dummy
 .foo = value".
+.inputnotifications
 .json
 .obj
 .placeholder.proto
@@ -3060,6 +3062,7 @@ $0}
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:58:32
 18CPropertyContainer
 18CSharedBufferLinux
 18CVRChaperoneClient
@@ -3148,7 +3151,6 @@ $0}
 22IVRDisplayComponent001
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:15:16
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -3707,7 +3709,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
-Apr  8 2022
+Apr 15 2022
 April
 Array for decompressed transforms is too small.  Needed %u got %u
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
@@ -3855,8 +3857,8 @@ C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DescriptorPool::Tables]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1116.336612
-C.1117.336623
+C.1147.340941
+C.1150.340952
 C.427.288574
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -7486,15 +7488,19 @@ CVRControllerTypeBindings::AddPerInputTutorialActions(Json::Value const&, CInput
 CVRControllerTypeBindings::AddPerInputTutorialActions(Json::Value const&, CInputActionManifest&, CActionBindingConfig&) [clone .cold]
 CVRControllerTypeBindings::AppliesToDeviceContainer(unsigned long long)
 CVRControllerTypeBindings::AppliesToDevicePath(unsigned long long)
+CVRControllerTypeBindings::EraseOverridePropertiesForControllerType(unsigned long long)
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const [clone .cold]
+CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&)
+CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) [clone .cold]
 CVRControllerTypeBindings::GetOverrideDeviceClass()
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole) [clone .cold]
 CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
+CVRControllerTypeBindings::OverridePropertiesForControllerType(unsigned long long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
+CVRControllerTypeBindings::OverridePropertiesForControllerType(unsigned long long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&) [clone .cold]
 CVRControllerTypeBindings::SendBindingUpdatedEvents()
 CVRControllerTypeBindings::UpdateSimulatedDevices()
-CVRControllerTypeBindings::UpdateSimulatedDevices() [clone .cold]
 CVRDashboardManager_001::CloseKeyboard()
 CVRDashboardManager_001::CreateDashboardCoreOverlay(char const*, char const*, unsigned long long*)
 CVRDashboardManager_001::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -7682,7 +7688,6 @@ CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const
 CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const [clone .cold]
 CVRInputLatest::DoesActionHaveOrigin(unsigned long long, unsigned long long, bool&)
 CVRInputLatest::DoesActionHaveOrigin(unsigned long long, unsigned long long, bool&) [clone .cold]
-CVRInputLatest::EraseOverridePropertiesForControllerType(unsigned long long)
 CVRInputLatest::GetActionBindingInfo(unsigned long long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*)
 CVRInputLatest::GetActionBindingInfo(unsigned long long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*) [clone .cold]
 CVRInputLatest::GetActionHandle(char const*, unsigned long long*)
@@ -7715,6 +7720,8 @@ CVRInputLatest::GetInputValue(std::shared_ptr<CVRInputLatest::InputFrame_t>, uns
 CVRInputLatest::GetInputValue(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long long, int, VRInputValue_t*, bool*) [clone .cold]
 CVRInputLatest::GetInputValueOrDefault(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long long, EInputValueType, int, VRInputValue_t*)
 CVRInputLatest::GetInputValueOrDefault(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long long, EInputValueType, int, VRInputValue_t*) [clone .cold]
+CVRInputLatest::GetIsHMDBindingSimulated()
+CVRInputLatest::GetLastCompatibilityControllerType()
 CVRInputLatest::GetOriginLocalizedName(unsigned long long, char*, unsigned int, int)
 CVRInputLatest::GetOriginLocalizedName(unsigned long long, char*, unsigned int, int) [clone .cold]
 CVRInputLatest::GetOriginTrackedDeviceInfo(unsigned long long, vr::InputOriginInfo_t*, unsigned int)
@@ -7776,14 +7783,14 @@ CVRInputLatest::OpenBindingUI(char const*, unsigned long long, unsigned long lon
 CVRInputLatest::OpenBindingUI(char const*, unsigned long long, unsigned long long, bool) [clone .cold]
 CVRInputLatest::OverrideCurlValue(unsigned long long, unsigned long long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*)
 CVRInputLatest::OverrideCurlValue(unsigned long long, unsigned long long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*) [clone .cold]
-CVRInputLatest::OverridePropertiesForControllerType(unsigned long long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
-CVRInputLatest::OverridePropertiesForControllerType(unsigned long long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&) [clone .cold]
 CVRInputLatest::OverrideSplayValue(unsigned long long, unsigned long long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*)
 CVRInputLatest::OverrideSplayValue(unsigned long long, unsigned long long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*) [clone .cold]
 CVRInputLatest::ReloadConfigIfNecessary()
 CVRInputLatest::ReloadConfigIfNecessary() [clone .cold]
 CVRInputLatest::ResetPriorityMapToGlobals()
 CVRInputLatest::ResetPriorityMapToGlobals() [clone .cold]
+CVRInputLatest::SendCompatibilityNotification(std::string const&)
+CVRInputLatest::SendCompatibilityNotification(std::string const&) [clone .cold]
 CVRInputLatest::SendHapticVibrationEvent(unsigned int, unsigned long long, unsigned long long, float, float, float, float)
 CVRInputLatest::SendStateToDebugger(std::string const&, std::shared_ptr<CVRInputLatest::InputFrame_t>)
 CVRInputLatest::SendStateToDebugger(std::string const&, std::shared_ptr<CVRInputLatest::InputFrame_t>) [clone .cold]
@@ -7792,6 +7799,8 @@ CVRInputLatest::SetActionManifestPath(char const*) [clone .cold]
 CVRInputLatest::SetDominantHand(vr::ETrackedControllerRole)
 CVRInputLatest::SetDominantHand(vr::ETrackedControllerRole) [clone .cold]
 CVRInputLatest::SetInTutorialMode(bool)
+CVRInputLatest::SetIsHMDBindingSimulated(bool)
+CVRInputLatest::SetLastCompatibilityControllerType(std::string const&)
 CVRInputLatest::SetXrInputConfig(std::string const&, std::vector<std::string, std::allocator<std::string> > const&)
 CVRInputLatest::SetXrInputConfig(std::string const&, std::vector<std::string, std::allocator<std::string> > const&) [clone .cold]
 CVRInputLatest::ShouldExposeInternalInputs()
@@ -18320,13 +18329,8 @@ Error %d growing shared object manager file.
 Error %d locking shared memory file
 Error calling m_pDownsampleRenderer->Draw()!
 Error from reader: %s
-Error in input profile simulation settings for %s. Internal error: Failed to assign controller_type.
-Error in input profile simulation settings for %s. Internal error: Failed to assign simulate_rendermodel.
 Error in input profile simulation settings for %s. Missing property: %s
-Error in input profile simulation settings for %s. Missing property: manufacturer_name
-Error in input profile simulation settings for %s. Missing property: tracking_system_name
-Error in input profile simulation settings for %s. legacy_axis needs 5 values.
-Error in input profile simulation settings for %s. legacy_buttons needs to be specified.
+Error in input profile simulation settings. Likely invalid controller type. Aborting simulation.
 Error initializing CDownsampleRenderer
 Error initializing CVulkanVRRenderer
 Error on Release(): Not the lock owner(%d) != %d
@@ -18518,11 +18522,15 @@ Failed to load extension: ImportSemaphoreFdKHR
 Failed to load external 'uri' for image[
 Failed to load input profile for controller type: %s
 Failed to load input profile for simulated controller type: %s
+Failed to load input profile for simulated hmd type: %s
 Failed to load libdrm
 Failed to load libdrm entrypoints
 Failed to load libdrm_amdgpu
 Failed to load libvulkan
 Failed to load pixel shader %s! (size=%d)
+Failed to load simulation settings for %s. Input profile at %s could not be loaded.
+Failed to load simulation settings for %s. Input profile does not have a simulation_settings item.
+Failed to load simulation settings for %s. Input profile has a simulation_settings item but it is not an object.
 Failed to load vertex shader %s! (size=%d)
 Failed to lock shared semaphore 0x%llx, skipping
 Failed to map IB bo
@@ -22066,7 +22074,6 @@ InitializeInterfaceFnTables()
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.
 Initializing CVulkanVRRenderer
 Initializing the limited version of CVRCompositorClient
-Input profile has a simulation_settings item but is not an object
 InputActionRequirementToEnum(std::string const&)
 InputActionRequirementToStdString(EInputActionRequirement)
 InputActionScopeToStdString(EInputActionScope)
@@ -22759,6 +22766,7 @@ LoadObjFromUtf8Path(std::vector<tinyobj::shape_t, std::allocator<tinyobj::shape_
 LoadRenderModelInternal
 LoadRenderModel_Async
 Loaded input profile for simulated controller type: %s
+Loaded input profile for simulated hmd type: %s
 Loaded resource-only driver %s from %s
 Loaded server driver %s (%s) from %s
 Loading compute shader %s
@@ -25974,6 +25982,10 @@ Yr)
 [CMsaaResolveRenderer] Failed to create rasterizer state!
 [CMsaaResolveRenderer] Failed to create sampler state!
 [CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!
+[Compatibility Mode] Error: Could not get notification interface. %d
+[Compatibility Mode] Error: Could not get overlay interface. %d
+[Compatibility Mode] Error: Notification failed: %d
+[Compatibility Mode] Error: Overlay creation failed: %s
 [Compositor Client] AcquireSync
 [Compositor Client] ClientToCompositorSyncSignal:%d(%s)
 [Compositor Client] CompositorToClientSyncWait:%d(%s)
@@ -26503,9 +26515,6 @@ __x86.get_pc_thunk.dx
 __x86.get_pc_thunk.si
 __xstat
 __xstat64
-_controller_modelnumber
-_controller_rendermodel
-_controller_serialnumber
 _edata
 _end
 _exit
@@ -26517,7 +26526,6 @@ _handle
 _header
 _init
 _legacy
-_registered_device_type
 _steamvrinput
 _stickyclick
 _storage%u
@@ -27086,6 +27094,7 @@ collision_bounds
 color
 commentStyle
 commentStyle must be 'All' or 'None'
+compatibility_mode
 completed.7532
 complex
 complex_button
@@ -29880,6 +29889,7 @@ hmd004
 hmd005
 hmd006
 hmd_presence
+hmd_profile
 holographic_controller
 hpmotioncontroller
 http://
@@ -30117,6 +30127,7 @@ le
 leading_comments
 left
 leftThumbstickRotation
+left_
 leftright
 legacy
 legacy_axis
@@ -30244,6 +30255,7 @@ mm
 mmap
 mmap of %s failed: %d
 mode
+modelnumber
 modelskins
 modf
 motion
@@ -31129,11 +31141,13 @@ redirectsDisplay
 reference temporary #
 register_tm_clones
 registered:
+registered_device_type
 reinterpret_cast
 rejectDupKeys
 remove
 rename
 render_message
+rendermodel
 rendermodels
 repeated
 request_binding_callouts
@@ -31159,6 +31173,7 @@ rewind
 rift
 right
 rightThumbstickRotation
+right_
 rm
 rmdir
 ro_ro
@@ -31234,6 +31249,7 @@ sendmsg
 sendto
 serialize
 serializing
+serialnumber
 service $0 {
 set_notification_image
 set_notification_image_response
@@ -31390,6 +31406,7 @@ shm_open of %s, %X failed: %d
 shm_open without O_CREAT of %s, %X failed: %d
 shm_unlink
 short
+showCompatibilityModeNotification
 show_app_binding
 show_dashboard_requested
 shutdown
@@ -31397,6 +31414,7 @@ side
 sigaction
 signed char
 simple
+simulate_hmd
 simulate_rendermodel
 simulated action does not have a type
 simulated action had unknown type '
@@ -31996,6 +32014,8 @@ std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, vr::VROver
 std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, vr::VROverlayView_t*>, std::_Select1st<std::pair<unsigned long long const, vr::VROverlayView_t*> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, vr::VROverlayView_t*> > >::_M_get_insert_unique_pos(unsigned long long const&)
 std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, vr::VROverlayView_t*>, std::_Select1st<std::pair<unsigned long long const, vr::VROverlayView_t*> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, vr::VROverlayView_t*> > >::erase(unsigned long long const&)
 std::_Rb_tree<unsigned long long, unsigned long long, std::_Identity<unsigned long long>, std::less<unsigned long long>, std::allocator<unsigned long long> >::_M_erase(std::_Rb_tree_node<unsigned long long>*)
+std::_Rb_tree<vr::ETrackedDeviceProperty, std::pair<vr::ETrackedDeviceProperty const, std::string>, std::_Select1st<std::pair<vr::ETrackedDeviceProperty const, std::string> >, std::less<vr::ETrackedDeviceProperty>, std::allocator<std::pair<vr::ETrackedDeviceProperty const, std::string> > >::_M_erase(std::_Rb_tree_node<std::pair<vr::ETrackedDeviceProperty const, std::string> >*)
+std::_Rb_tree<vr::ETrackedDeviceProperty, std::pair<vr::ETrackedDeviceProperty const, std::string>, std::_Select1st<std::pair<vr::ETrackedDeviceProperty const, std::string> >, std::less<vr::ETrackedDeviceProperty>, std::allocator<std::pair<vr::ETrackedDeviceProperty const, std::string> > >::_M_get_insert_unique_pos(vr::ETrackedDeviceProperty const&)
 std::_Rb_tree<vr::IHmdWindow::EWindowType, std::pair<vr::IHmdWindow::EWindowType const, bool>, std::_Select1st<std::pair<vr::IHmdWindow::EWindowType const, bool> >, std::less<vr::IHmdWindow::EWindowType>, std::allocator<std::pair<vr::IHmdWindow::EWindowType const, bool> > >::_M_erase(std::_Rb_tree_node<std::pair<vr::IHmdWindow::EWindowType const, bool> >*)
 std::_Rb_tree<vr::IHmdWindow::EWindowType, std::pair<vr::IHmdWindow::EWindowType const, bool>, std::_Select1st<std::pair<vr::IHmdWindow::EWindowType const, bool> >, std::less<vr::IHmdWindow::EWindowType>, std::allocator<std::pair<vr::IHmdWindow::EWindowType const, bool> > >::_M_get_insert_unique_pos(vr::IHmdWindow::EWindowType const&)
 std::_Rb_tree_black_count(std::_Rb_tree_node_base const*, std::_Rb_tree_node_base const*)
@@ -38182,6 +38202,7 @@ vr::CVROverlayInternalLatest::SetToastOverlayRendererToThis() [clone .cold]
 vr::CVROverlayInternalLatest::ToggleCameraRoomView()
 vr::CVROverlayInternalLatest::ToggleCameraRoomView() [clone .cold]
 vr::CVROverlayInternalLatest::~CVROverlayInternalLatest()
+vr::CVRPathHelpers::GetStringPath(unsigned long long, unsigned long long, vr::ETrackedPropertyError*)
 vr::CVRPathHelpers::HandleToString(unsigned long long, std::string*)
 vr::CVRPropertyHelpers::GetStringProperty(unsigned long long, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
 vr::CVRSettingsLatest::BInit(CVRSystemLatest*, CVRClient*)

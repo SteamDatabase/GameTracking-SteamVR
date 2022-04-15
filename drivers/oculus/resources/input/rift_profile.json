@@ -1,6 +1,9 @@
 {
   "jsonid" : "input_profile",
   "controller_type": "rift",
+  "device_class" : "TrackedDeviceClass_HMD",
+  "resource_root" : "oculus",
+  "driver_name" : "oculus",
   "legacy_binding" : "{oculus}/input/legacy_bindings_rift.json",
   "input_bindingui_mode" : "hmd",
   "input_bindingui_right" :
@@ -48,5 +51,14 @@
         "type" : "pose",
         "binding_image_point" : [ 105, 200 ]
     }
+  },
+  "simulation_settings":
+  {
+    "modelnumber": "Oculus Quest2",
+    "serialnumber": "WMHD315M3010GV",
+    "rendermodel": "generic_hmd",
+	"registered_device_type": "oculus/WMHD315M3010GV",
+    "tracking_system_name": "oculus",
+    "manufacturer_name": "Oculus"
   }
  }

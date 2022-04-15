@@ -87,7 +87,6 @@
 0 0.03090C0M0a0f0k0p0u0z0
 0"080e0
 0<1E1M1
-0=o~Ig
 0?0\0t0
 0w0c1
 0}0i1
@@ -104,7 +103,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220408231921Z0/
+220415190307Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -152,6 +151,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9!9&9-929>9`9w9
 9*;V;c;
+9=u4:x
 9p9}9
 :":.:P:g:p:y:
 :(:,:0:L:P:
@@ -170,7 +170,6 @@
 =O>h>{>
 =V=8>j>
 =rIQU
-=uG'F.
 > >$>(>0>H>X>\>l>p>t>x>
 >!>*>5>
 >Mp$d
@@ -227,7 +226,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-Kt/-}
 K}*n:	
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -241,7 +239,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS#p
+R_l:A
 RaiseException
 S0Q0O
 SA|X=G
@@ -279,6 +277,7 @@ TlsAlloc
 TlsFree
 UnhandledExceptionFilter
 Unknown exception
+V HWO
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
@@ -288,6 +287,7 @@ Washington1
 Y9"SD
 Y__^[
 [K]taM?
+\ S&N}
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -328,22 +328,20 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`B60S
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
+c1vgu
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
-c~dv=
 driver_gamepad.dll
 e,>~^
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i8T HW
 jj@0HK4
 k0i0$
 malloc
@@ -355,11 +353,10 @@ string too long
 terminate
 uCVj@
 v=Y]Bv
-v_eM<
 vector<T> too long
 www.digicert.com1!0
 x]~\6
-ys^~3M
+{e'D(
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

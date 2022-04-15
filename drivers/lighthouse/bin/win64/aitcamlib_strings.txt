@@ -34,6 +34,7 @@
 &D9{0t
 ',=?k
 '.5<=6/7>????????????????
+'/[0y
 '9k0t
 'D9c0t
 (A\^][
@@ -169,12 +170,11 @@
 0}0i1
 1/2/4/8/16-bit only
 130801120000Z
-1>X0?:
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220408231952Z0/
+220415190359Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -198,6 +198,7 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+930bUp
 9C }.H
 9T$XJ
 9]pu2
@@ -466,7 +467,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-R`A&7
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -474,12 +474,12 @@ ResumeCamera
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S%.s	
 S0Q0O
 SATAUAVAWH
 SA|X=G
 SPB8t
 SPB8u,
+SP~PQ!
 SUVWATAUAVAWH
 SUVWAUAVAWH
 SWAUAVH
@@ -592,6 +592,7 @@ Z9k0tUD
 ]9k0tVD
 ]J<0"0i3
 ]g@8yhu
+]p^"$
 ^9k0tWD
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -733,7 +734,6 @@ fr_fr
 fread
 french
 fseek
-g *4	/S
 g9k0t_D
 german
 gfffffffH
@@ -752,7 +752,6 @@ invalid filter
 it_it
 italian
 ix`fA
-j1(JQ
 ja_jp
 japanese
 jj@0HK4
@@ -806,7 +805,6 @@ o@@fD
 oD$ fD
 oD$0f
 oD$0fD
-oFaT<,
 oL$ f
 oT$0f
 only 8-bit
@@ -823,7 +821,7 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
-q,3Tr
+r!V#+!
 rND9{0t
 read past buffer
 ro_ro
@@ -898,7 +896,6 @@ wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
-x+$w0@
 x]~\6
 zh_cn
 zh_tw
@@ -922,4 +919,5 @@ zlib corrupt
 }LuHO
 ~3LcD$(L
 ~6HcD$ I
+~T!wuN}
 ~t&LN

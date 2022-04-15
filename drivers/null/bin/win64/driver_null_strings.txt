@@ -1,12 +1,11 @@
 	!s99
-	k}(}
  %41g
  A__^
  H3E H3E
 !hn7!
+!|Gf	8t
 ',=?k
 (f*^[0
-*1=h0
 *9Z9N
 +Xt@(
 +o'q)}
@@ -81,7 +80,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220408232107Z0/
+220415190527Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -101,6 +100,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 <0:08
+<SlP:v
 =rIQU
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -155,15 +155,12 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-M| 0<
+Ms!K3
 NPH9Q
-O!ro~
-O`r?{
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSm
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -171,18 +168,19 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
+So!["
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
 VCRUNTIME140.dll
+VQ7}'
 VWAVH
 VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
-XQKu2
 Y9"SD
 [K]taM?
 \$ UH
@@ -213,7 +211,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-a |d 
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -238,7 +235,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-kVr ?
+kRbM&g
 l$8E3
 malloc
 memcpy
@@ -255,7 +252,6 @@ string too long
 t$ AVH
 t$ UWAVH
 t$@H=
-v#kc 
 v=Y]Bv
 vector<T> too long
 windowHeight

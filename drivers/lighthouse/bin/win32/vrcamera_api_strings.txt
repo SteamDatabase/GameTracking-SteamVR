@@ -38,7 +38,6 @@ $_^[]
 %m / %d / %y
 &1V6|:^<
 ',=?k
-'=t6*TE@
 ()$^.*+?[]|\-{},:=!
 (f*^[0
 *9Z9N
@@ -288,7 +287,6 @@ $_^[]
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.awkbA6
 .data
 .data$r
 .edata
@@ -433,7 +431,7 @@ $_^[]
 211007000000Z
 220323000000Z
 220329000000Z
-220408231553Z0/
+220415185918Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1412,7 +1410,6 @@ GetVersionExW
 Gh;G<
 Global Gain:			
 GxVPR
-HNqhnd
 HP;HL
 HPQVR
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -1430,6 +1427,7 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jfbo@S
 K _^[
 K$t"j
 K@;O@uc
@@ -1445,6 +1443,7 @@ LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
 Lock already taken
+LrZ=i
 M SVW
 M$+E4@Pj
 MB(iVR
@@ -1485,9 +1484,9 @@ QkK04
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
+R$#[M
 RPj(h
 RPj(hp
-RSDS3h
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1750,6 +1749,7 @@ islower
 isspace
 isupper
 j@j0P
+jT{69$+
 jj@0HK4
 k0i0$
 kK04k
@@ -1807,9 +1807,7 @@ print
 protocol error
 protocol not supported
 punct
-q4*Q-
 rLp>B
-ra;FZ
 raB3G
 read only file system
 realloc
@@ -1882,7 +1880,6 @@ unknown error
 upper
 v	N+D$
 v=Y]Bv
-vWMtr
 value too large
 vector<T> too long
 vector<bool> too long
@@ -1900,10 +1897,12 @@ x\SVW
 x]~\6
 xdigit
 y'j h
+yM<*Q
 {L?uI
 {un'%
 |Lu?c
 |SVWj
 }:;2|6
 }LuHO
+}{~ck
 ~t&LN

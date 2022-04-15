@@ -1,6 +1,9 @@
 {
 	"jsonid" : "input_profile",
   "controller_type": "vive",
+  "device_class" : "TrackedDeviceClass_HMD",
+  "resource_root" : "htc",
+  "driver_name" : "lighthouse",
   "input_bindingui_mode" : "hmd",
   "input_bindingui_right" :
   {
@@ -16,5 +19,14 @@
         "type" : "pose",
         "binding_image_point" : [ 63, 148 ]
     }
+  },
+  "simulation_settings":
+  {
+    "modelnumber": "Vive",
+    "serialnumber": "LHR-00000000",
+    "rendermodel": "generic_hmd",
+	"registered_device_type": "htc/vive",
+    "tracking_system_name": "lighthouse",
+    "manufacturer_name": "HTC"
   }
  }

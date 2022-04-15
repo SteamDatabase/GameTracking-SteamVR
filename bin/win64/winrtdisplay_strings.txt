@@ -81,7 +81,6 @@
 .data
 .data$r
 .edata
-.fBd+AC
 .idata$2
 .idata$3
 .idata$4
@@ -116,7 +115,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220408231708Z0/
+220415190024Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -137,10 +136,12 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 9E ukH
+:LF^@
 <0:08
 <P)9Y
 <unknown>
 =rIQU
+>HN^!
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -257,14 +258,12 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-SoUP}J
 UVAWH
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
 Unknown exception encountered initializing WinRT display.
 VCRUNTIME140.dll
-VUwU/
 VWATAVAWH
 VWAVH
 VWAWH
@@ -295,6 +294,7 @@ WindowsGetStringRawBuffer
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
+Xh:p:;
 Y9"SD
 [K]taM?
 \$ H;
@@ -351,12 +351,10 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iEO^c
 iswspace
 jj@0HK4
 k0i0$
 l$ WH
-m?nJPgb$ZU
 m_path
 malloc
 memcpy
@@ -378,6 +376,7 @@ v=Y]Bv
 vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
+xNY$:O
 x]~\6
 {un'%
 |$ AVH

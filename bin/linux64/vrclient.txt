@@ -4401,8 +4401,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1108.336466
- r C.1109.336477
+ r C.1139.340795
+ r C.1142.340806
  r C.413.288424
  r CSWTCH.100
  r CSWTCH.16
@@ -9756,14 +9756,18 @@
  t CVRControllerTypeBindings::AddPerInputTutorialActions(Json::Value const&, CInputActionManifest&, CActionBindingConfig&) [clone .cold]
  t CVRControllerTypeBindings::AppliesToDeviceContainer(unsigned long)
  t CVRControllerTypeBindings::AppliesToDevicePath(unsigned long)
+ t CVRControllerTypeBindings::EraseOverridePropertiesForControllerType(unsigned long)
  t CVRControllerTypeBindings::GetBindingInfo(unsigned long) const
  t CVRControllerTypeBindings::GetBindingInfo(unsigned long) const [clone .cold]
+ t CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&)
+ t CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) [clone .cold]
  t CVRControllerTypeBindings::GetOverrideDeviceClass()
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole) [clone .cold]
+ t CVRControllerTypeBindings::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
+ t CVRControllerTypeBindings::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&) [clone .cold]
  t CVRControllerTypeBindings::SendBindingUpdatedEvents()
  t CVRControllerTypeBindings::UpdateSimulatedDevices()
- t CVRControllerTypeBindings::UpdateSimulatedDevices() [clone .cold]
  t CVRDashboardManager_001::CloseKeyboard()
  t CVRDashboardManager_001::CreateDashboardCoreOverlay(char const*, char const*, unsigned long*)
  t CVRDashboardManager_001::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -9950,7 +9954,6 @@
  t CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const [clone .cold]
  t CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&)
  t CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&) [clone .cold]
- t CVRInputLatest::EraseOverridePropertiesForControllerType(unsigned long)
  t CVRInputLatest::GetActionBindingInfo(unsigned long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*)
  t CVRInputLatest::GetActionBindingInfo(unsigned long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*) [clone .cold]
  t CVRInputLatest::GetActionHandle(char const*, unsigned long*)
@@ -9983,6 +9986,8 @@
  t CVRInputLatest::GetInputValue(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long, int, VRInputValue_t*, bool*) [clone .cold]
  t CVRInputLatest::GetInputValueOrDefault(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long, EInputValueType, int, VRInputValue_t*)
  t CVRInputLatest::GetInputValueOrDefault(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long, EInputValueType, int, VRInputValue_t*) [clone .cold]
+ t CVRInputLatest::GetIsHMDBindingSimulated()
+ t CVRInputLatest::GetLastCompatibilityControllerType()
  t CVRInputLatest::GetOriginLocalizedName(unsigned long, char*, unsigned int, int)
  t CVRInputLatest::GetOriginLocalizedName(unsigned long, char*, unsigned int, int) [clone .cold]
  t CVRInputLatest::GetOriginTrackedDeviceInfo(unsigned long, vr::InputOriginInfo_t*, unsigned int)
@@ -10033,14 +10038,14 @@
  t CVRInputLatest::OpenBindingUI(char const*, unsigned long, unsigned long, bool) [clone .cold]
  t CVRInputLatest::OverrideCurlValue(unsigned long, unsigned long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*)
  t CVRInputLatest::OverrideCurlValue(unsigned long, unsigned long, vr::EVRFinger, vr::VRSkeletalSummaryData_t*) [clone .cold]
- t CVRInputLatest::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
- t CVRInputLatest::OverridePropertiesForControllerType(unsigned long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&) [clone .cold]
  t CVRInputLatest::OverrideSplayValue(unsigned long, unsigned long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*)
  t CVRInputLatest::OverrideSplayValue(unsigned long, unsigned long, vr::EVRFingerSplay, vr::VRSkeletalSummaryData_t*) [clone .cold]
  t CVRInputLatest::ReloadConfigIfNecessary()
  t CVRInputLatest::ReloadConfigIfNecessary() [clone .cold]
  t CVRInputLatest::ResetPriorityMapToGlobals()
  t CVRInputLatest::ResetPriorityMapToGlobals() [clone .cold]
+ t CVRInputLatest::SendCompatibilityNotification(std::string const&)
+ t CVRInputLatest::SendCompatibilityNotification(std::string const&) [clone .cold]
  t CVRInputLatest::SendHapticVibrationEvent(unsigned int, unsigned long, unsigned long, float, float, float, float)
  t CVRInputLatest::SendStateToDebugger(std::string const&, std::shared_ptr<CVRInputLatest::InputFrame_t>)
  t CVRInputLatest::SendStateToDebugger(std::string const&, std::shared_ptr<CVRInputLatest::InputFrame_t>) [clone .cold]
@@ -10049,6 +10054,8 @@
  t CVRInputLatest::SetDominantHand(vr::ETrackedControllerRole)
  t CVRInputLatest::SetDominantHand(vr::ETrackedControllerRole) [clone .cold]
  t CVRInputLatest::SetInTutorialMode(bool)
+ t CVRInputLatest::SetIsHMDBindingSimulated(bool)
+ t CVRInputLatest::SetLastCompatibilityControllerType(std::string const&)
  t CVRInputLatest::SetXrInputConfig(std::string const&, std::vector<std::string, std::allocator<std::string> > const&)
  t CVRInputLatest::SetXrInputConfig(std::string const&, std::vector<std::string, std::allocator<std::string> > const&) [clone .cold]
  t CVRInputLatest::ShouldExposeInternalInputs()
@@ -25714,6 +25721,9 @@
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, vr::VROverlayView_t*>, std::_Select1st<std::pair<unsigned long const, vr::VROverlayView_t*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, vr::VROverlayView_t*> > >::_M_get_insert_unique_pos(unsigned long const&)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, vr::VROverlayView_t*>, std::_Select1st<std::pair<unsigned long const, vr::VROverlayView_t*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, vr::VROverlayView_t*> > >::erase(unsigned long const&)
  t std::_Rb_tree<unsigned long, unsigned long, std::_Identity<unsigned long>, std::less<unsigned long>, std::allocator<unsigned long> >::_M_erase(std::_Rb_tree_node<unsigned long>*)
+ t std::_Rb_tree<vr::ETrackedDeviceProperty, std::pair<vr::ETrackedDeviceProperty const, std::string>, std::_Select1st<std::pair<vr::ETrackedDeviceProperty const, std::string> >, std::less<vr::ETrackedDeviceProperty>, std::allocator<std::pair<vr::ETrackedDeviceProperty const, std::string> > >::_M_erase(std::_Rb_tree_node<std::pair<vr::ETrackedDeviceProperty const, std::string> >*)
+ t std::_Rb_tree<vr::ETrackedDeviceProperty, std::pair<vr::ETrackedDeviceProperty const, std::string>, std::_Select1st<std::pair<vr::ETrackedDeviceProperty const, std::string> >, std::less<vr::ETrackedDeviceProperty>, std::allocator<std::pair<vr::ETrackedDeviceProperty const, std::string> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<vr::ETrackedDeviceProperty const, std::string> >, vr::ETrackedDeviceProperty const&)
+ t std::_Rb_tree<vr::ETrackedDeviceProperty, std::pair<vr::ETrackedDeviceProperty const, std::string>, std::_Select1st<std::pair<vr::ETrackedDeviceProperty const, std::string> >, std::less<vr::ETrackedDeviceProperty>, std::allocator<std::pair<vr::ETrackedDeviceProperty const, std::string> > >::_M_get_insert_unique_pos(vr::ETrackedDeviceProperty const&)
  t std::_Rb_tree<vr::IHmdWindow::EWindowType, std::pair<vr::IHmdWindow::EWindowType const, bool>, std::_Select1st<std::pair<vr::IHmdWindow::EWindowType const, bool> >, std::less<vr::IHmdWindow::EWindowType>, std::allocator<std::pair<vr::IHmdWindow::EWindowType const, bool> > >::_M_erase(std::_Rb_tree_node<std::pair<vr::IHmdWindow::EWindowType const, bool> >*)
  t std::_Rb_tree<vr::IHmdWindow::EWindowType, std::pair<vr::IHmdWindow::EWindowType const, bool>, std::_Select1st<std::pair<vr::IHmdWindow::EWindowType const, bool> >, std::less<vr::IHmdWindow::EWindowType>, std::allocator<std::pair<vr::IHmdWindow::EWindowType const, bool> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<vr::IHmdWindow::EWindowType const, bool> >, vr::IHmdWindow::EWindowType const&)
  t std::_Rb_tree<vr::IHmdWindow::EWindowType, std::pair<vr::IHmdWindow::EWindowType const, bool>, std::_Select1st<std::pair<vr::IHmdWindow::EWindowType const, bool> >, std::less<vr::IHmdWindow::EWindowType>, std::allocator<std::pair<vr::IHmdWindow::EWindowType const, bool> > >::_M_get_insert_unique_pos(vr::IHmdWindow::EWindowType const&)
@@ -25997,7 +26007,6 @@
  t std::__numpunct_cache<wchar_t>::~__numpunct_cache()
  t std::__pad<char, std::char_traits<char> >::_S_pad(std::ios_base&, char, char*, char const*, long, long)
  t std::__pad<wchar_t, std::char_traits<wchar_t> >::_S_pad(std::ios_base&, wchar_t, wchar_t*, wchar_t const*, long, long)
- t std::__shared_count<(__gnu_cxx::_Lock_policy)2>::operator=(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [clone .isra.0]
  t std::__throw_bad_alloc()
  t std::__throw_bad_cast()
  t std::__throw_bad_exception()

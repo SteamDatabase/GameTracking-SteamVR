@@ -6,6 +6,7 @@
 																												
 																																												
 	!s99
+	$ugxt
 	<bu 
 	@81t/@8q
    Driver Description: %s
@@ -66,6 +67,7 @@
  times.
  version-number:
 !hn7!
+$t(-x
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -127,6 +129,7 @@
 ,W5y+
 -1e+9999
 -Infinity
+-N(u(`
 -external
 -internal
 -u-I;
@@ -626,21 +629,19 @@
 0w0c1
 0}0i1
 130801120000Z
-1A3{T
 1e+9999
 2.0.0
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220408232003Z0/
+220415190405Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
-3,Q 3
 330314235959Z0L1
 3333333
 360428235959Z0i1
@@ -679,7 +680,6 @@
 9|$@u
 9|$Pt
 9|$`t
-:Ds85
 :\u-L
 :\u6L
 ;K }DH
@@ -1772,7 +1772,6 @@ Zipfile is corrupt or not a zipfile
 ]J<0"0i3
 ]gfff
 ^[0-9]+$
-_;6\k
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -2158,6 +2157,7 @@ upper
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
+wAD|O
 wcschr
 winsock
 wn>Jj
@@ -2169,8 +2169,6 @@ xA^A]_[
 xAtAL
 x]~\6
 xdigit
-yDlb]
-{8qfR
 {un'%
 {x\u!H
 {|?uWH
@@ -2208,6 +2206,6 @@ yDlb]
 |$ps`H
 |Lu?c
 }LuHO
-}aFFG
+}]/,^
 ~'HcB
 ~t&LN
