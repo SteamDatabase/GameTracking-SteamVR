@@ -42,9 +42,9 @@
  was not found
  with error 
 !hn7!
+$I9u^
 %u.%u
 %u.%u.%u
-&+uUV
 ' is not a number.
 ',=?k
 (A^A]^[
@@ -62,7 +62,6 @@
 *9Z9N
 +Xt@(
 +o'q)}
-+tDu{
 , OpenXR version returned not compatible with this loader
 , failed to load with message "
 , negotiation did not return a valid getInstanceProcAddr
@@ -124,7 +123,6 @@
 .idata$4
 .idata$5
 .idata$6
-.j=5J
 .json
 .pdata
 .rdata
@@ -166,7 +164,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190016Z0/
+220419013735Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -178,6 +176,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3Cf%]
 3mq+<
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -441,7 +440,6 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
-H[uU=%
 I#V0I
 I9Bhs
 I9W(t
@@ -524,7 +522,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSD
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -622,7 +619,6 @@ Value is not convertible to bool.
 Valve Corp.0
 Valve Corp.1
 Verbose [
-VhQh::-u
 WATAUAVAWH
 WATAVH
 WAUAWH
@@ -736,7 +732,6 @@ deque<T> too long
 description
 disable_environment
 double out of UInt range
-e$jEy|
 e,>~^
 enable_environment
 enabledExtensionCount is non-0 but array is NULL
@@ -820,6 +815,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+qGm&1
 rejectDupKeys
 runtime
 s t#fff

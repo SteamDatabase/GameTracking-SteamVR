@@ -37,7 +37,6 @@
 	I'~:bI'
 	I;F |
 	JqAl
-	Q7y'
 	TAU;
 	Total Number of Clusters = %.20g
 	Weighting Exponent = %g
@@ -3718,7 +3717,7 @@ $wtpt
 211007000000Z
 220323000000Z
 220329000000Z
-220415190028Z0/
+220419013808Z0/
 230x323
 2384x3370
 24 24
@@ -3934,6 +3933,7 @@ $wtpt
 7777777777777777777777777777==77[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[=[[[[[[[[[[[[[[[[[[[[[[[[[[[[[==[[[[[[[[[[[======[[[[[[[[[[======[[[[[[[[[[[[[[==
 792x1224
 7:-10,-5,-2,-1,-2,-5,-10 -5,0,3,4,3,0,-5 -2,3,6,7,6,3,-2 -1,4,7,8,7,4,-1 -2,3,6,7,6,3,-2 -5,0,3,4,3,0,-5 -10,-5,-2,-1,-2,-5,-10
+7;0g@
 7?5 :
 7@BGR
 7A9v(u
@@ -11747,7 +11747,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDS&[
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -12278,6 +12277,7 @@ Run Length Triplet
 RunLengthDecode
 Runic
 RunlengthEncoded
+RyrzV
 S Coord Of Bottom Right Corner
 S Coord Of Top Right Corner
 S H;W
@@ -16219,7 +16219,6 @@ extra-expanded
 f	BJL
 f	_(H
 f ny wra ow ankenya.
-f/kn3
 f0O94
 f3ff33f3
 f9KpuE
@@ -17496,6 +17495,7 @@ ivote.
 izol ce mamvj ka raq kuse bafkeh mew.
 j > 0
 j!3V$E
+j'D!N
 j+@u'`
 j,Hcj0D
 j,Hcz0
@@ -18164,6 +18164,7 @@ p L+p
 p UWATAVAWH
 p WATAUAVAWH
 p WAVAWH
+p'DbA
 p88pD8pT8p`8pp8pp8`p8Tp8Dp88pD8pT8p`8pp8`p8Tp8Dp88p88pE8pT8p`8pp8`p8Tp8DpPPpXPp`PphPppPppPhpP`pPXpPPpXPp`PphPppPhpP`pPXpPPpPPpXPp`PphPppPrpP`pPXp
 p?, d
 p?l ?
@@ -19880,6 +19881,7 @@ uzrg#
 u}A:Q
 v&fD;
 v(fff
+v-10]e
 v.p{ xx-v.page.x-.5, yy-v.page.y-.5 }
 v0H;_
 v5fff

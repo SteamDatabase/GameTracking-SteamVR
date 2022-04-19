@@ -80,6 +80,7 @@ $Phdd
 *9Z9N
 +KL+SL_;
 +Xt@(
++lb0E
 +o'q)}
 ,W5y+
 -1e+9999
@@ -186,7 +187,6 @@ $Phdd
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
 000<0D0d0
-07A*In
 090>0O0U0Z0e0o0v0|0
 0L1P1T1X1\1`1d1h1l1p1t1x1|1
 0V2y2
@@ -232,7 +232,7 @@ $Phdd
 211007000000Z
 220323000000Z
 220329000000Z
-220415190212Z0/
+220419014006Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -441,7 +441,6 @@ $Phdd
 <6=E=
 <;<m<
 <= Exiting Context: (%.2f seconds)
-<@XL^
 <SVWj
 <_<g<
 = >,>4>T>x>
@@ -673,6 +672,7 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
+E@MWd
 Empty escape sequence in string
 EnterCriticalSection
 Error reading file
@@ -726,7 +726,6 @@ GetTickCount64
 GetVersionExA
 H$;J$
 HTC BS
-Hf**(
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
@@ -817,7 +816,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSMG
+RSDS>hC
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1022,8 +1021,6 @@ Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
-\<)hG4\
-\KR]ZF
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
@@ -1183,6 +1180,7 @@ manifest file %s parse error from %s
 manifest file %s setup error from %s
 manifest.json
 map/set<T> too long
+meP6{!
 memchr
 memcpy
 memmove
@@ -1196,6 +1194,7 @@ print
 punct
 realloc
 runas
+s2o@>{
 space
 stoi argument out of range
 stoul argument out of range
@@ -1256,6 +1255,7 @@ x5t7j
 x]~\6
 xdigit
 y4_^[
+{	,10
 {L?uI
 {un'%
 |	9A 
@@ -1268,4 +1268,5 @@ y4_^[
 ~6VVS
 ~L][u
 ~d;{d|	
+~eWuZ
 ~t&LN

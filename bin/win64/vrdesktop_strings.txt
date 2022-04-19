@@ -40,7 +40,6 @@
 -1e+9999
 -Infinity
 -u-I;
-.*6],
 .00cfg
 .?AUIInteractableOverlay@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
@@ -120,7 +119,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/%)Ud
 /user/camera
 /user/chest
 /user/elbow/left
@@ -150,7 +148,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190607Z0/
+220419014507Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -544,7 +542,6 @@ Out of thread local storage!
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
-Pa-U~
 Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -552,7 +549,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RKy^!
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -789,7 +785,6 @@ l$ H;
 l$ H=
 l$8E3
 l$PM9n
-lK]4vcY
 latam
 list<T> too long
 m_nMaxLogBufferingSize > 0
@@ -802,10 +797,10 @@ memcpy
 memmove
 memset
 message_id
-nI?9Q
 no_no
 norwegian
 ntelD
+ocX4l
 ole32.dll
 openvr_api.dll
 overlay_keyboard_closed
@@ -826,7 +821,6 @@ romanian
 ru_ru
 russian
 schinese
-sfJq`
 shcore.dll
 shutdown
 spanish

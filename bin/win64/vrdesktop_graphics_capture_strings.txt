@@ -19,17 +19,18 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+'VW;K
 (A\_^[
 (A^A]^[
 (A_A^^[
 (A_A^_]
 (D$ f
-(S9nKk*
 (f*^[0
 (t$ 2
 (t$@H
 (|$ H
 )D$ L
+)HT7KYr\
 )t$0H
 )t$@H
 *9Z9N
@@ -166,7 +167,6 @@
 0A_A^_^[
 0A_A^_^]
 0A__[
-0OG>y4+V
 0w0c1
 0}0i1
 130801120000Z
@@ -175,7 +175,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190557Z0/
+220419014522Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -187,21 +187,24 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+3}MIW
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+61+zO
 6I]Dc
 6OB,n_
 70503
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+8g|cN
 9D$xu
 9D$|tcH
+:wlGsF	
 < t+<
 </u#H
 <0:08
 <unknown>
-=JI[J
 =rIQU
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -287,6 +290,7 @@
 @UVWATAUAVAWH
 @UVWAVAWH
 @UWAVAWH
+@Z&v?
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
@@ -321,7 +325,6 @@ Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C++/WinRT version:1.0.190111.3
 C0L9$
-C5N|d
 CD$(H
 CD$0H
 CD$hH
@@ -626,6 +629,7 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+Mt3G)$
 NPH9Q
 OLEAUT32.dll
 OpenProcess
@@ -642,7 +646,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSM
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -764,6 +767,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WindowView_%s
 WindowsCreateStringReference
+Xboz}i
 Y9"SD
 [K]taM?
 \$ E3
@@ -778,6 +782,7 @@ Y9"SD
 \$pI;
 \u=H;
 ]J<0"0i3
+^b`N6
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -917,7 +922,6 @@ input_frame_time
 invalid stoull argument
 it_it
 italian
-j'"Ch
 ja_jp
 japanese
 jj@0HK4
@@ -1033,6 +1037,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
+w]B*9
 window_view_created
 window_view_destroyed
 windows

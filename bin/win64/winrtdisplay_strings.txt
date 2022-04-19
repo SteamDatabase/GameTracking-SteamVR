@@ -12,6 +12,7 @@
 (D$0f
 (f*^[0
 *9Z9N
+*PVKc
 +Xt@(
 +o'q)}
 ,W5y+
@@ -105,6 +106,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/8wgm
 0A^_]
 0A_A^A]A\_^[
 0w0c1
@@ -115,7 +117,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190024Z0/
+220419013809Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -136,12 +138,10 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 9E ukH
-:LF^@
 <0:08
 <P)9Y
 <unknown>
 =rIQU
->HN^!
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -243,6 +243,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS0
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -294,7 +295,6 @@ WindowsGetStringRawBuffer
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
-Xh:p:;
 Y9"SD
 [K]taM?
 \$ H;
@@ -344,6 +344,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+cameO
 d3d11.dll
 dxgi.dll
 e,>~^
@@ -360,6 +361,8 @@ malloc
 memcpy
 memmove
 memset
+n!X;'
+n?*p8Sb:
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
@@ -369,6 +372,7 @@ t$ WH
 t$0H+
 t$8H9)t
 t$@H=
+tRtaJ<Pu
 tXfff
 terminate
 v!neException encountered initializing WinRT display (%d): %s
@@ -376,7 +380,6 @@ v=Y]Bv
 vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
-xNY$:O
 x]~\6
 {un'%
 |$ AVH

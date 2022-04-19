@@ -1,9 +1,6 @@
 {
   "jsonid" : "input_profile",
   "controller_type": "rift",
-  "device_class" : "TrackedDeviceClass_HMD",
-  "resource_root" : "oculus",
-  "driver_name" : "oculus",
   "legacy_binding" : "{oculus}/input/legacy_bindings_rift.json",
   "input_bindingui_mode" : "hmd",
   "input_bindingui_right" :

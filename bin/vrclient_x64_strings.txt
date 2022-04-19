@@ -257,7 +257,6 @@ $0$1 = $2
 $0$1$2 $3 = $4
 $0enum $1 {
 $0option $1;
-$@:MRU
 $CVRMsg_ClientMailbox_RegisterMailbox
 $CVRMsg_CompositorUnrefSharedResource
 $CVRMsg_GetApplicationLaunchArguments
@@ -545,7 +544,6 @@ $w!Hc
 'CVRMsg_SetDefaultApplicationForMimeType
 'D9c0t
 '[', '{', or a literal
-'\	pd
 'action_sets' member found for legacy binding manifest. New action sets cannot be added.
 'action_sets' member is not an array
 'actions' member found for legacy binding manifest. New actions cannot be added.
@@ -555,11 +553,11 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(-eU"
+(-EU"
+(5zt(
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
-(=>I"
 (A\^][
 (A\_^[
 (A]_^[
@@ -830,7 +828,6 @@ $w!Hc
 ,CVRMsg_TrackedCamera_StopVideoStreamResponse
 ,H;D$ 
 ,W5y+
-,b}S*
 -1e+9999
 -9k0t&H
 -9{0t%H
@@ -2214,7 +2211,7 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220415190546Z0/
+220419014338Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2285,7 +2282,7 @@ $w!Hc
 9)u$M
 98tHH
 9;tC@8{
-9=Md%
+9=-d%
 9A(~0H
 9A|6H
 9C s.H
@@ -2425,7 +2422,6 @@ $w!Hc
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 :EotB
-:WQMV
 ; expected 
 ; last read: '
 ;<$uCB
@@ -3489,6 +3485,7 @@ C\HcKXH
 C`9C(uq
 C`9FX
 C`H9F
+CaQGM
 Call from application to set %s.%s. Scene applications are not allowed to set most settings
 Camera
 Can't 
@@ -3819,8 +3816,8 @@ D8$0u
 D8$7u
 D8$>u
 D8,8u
-D85Y:5
-D85ZI4
+D859:5
+D85:I4
 D8<0u
 D8<>u
 D8D$9t$
@@ -3845,7 +3842,6 @@ D8}gt$L
 D8}gu
 D8}guH
 D8~ A
-D9%3<,
 D90uGH
 D9>u:H
 D9@ }
@@ -6079,6 +6075,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSL
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6460,7 +6457,7 @@ T$xE3
 T$xH;
 T$xL+
 T$xL;
-T5O,&
+T5/,&
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -7446,8 +7443,8 @@ W(H;C
 W(LcB
 W,H;C
 W0H;C
-W5S]$
-W5|]$
+W53]$
+W5\]$
 W8H+W`I
 W8H;C
 W<H;C
@@ -7826,6 +7823,7 @@ XR_UNKNOWN_SUCCESS_%d
 XR_VALVE_analog_threshold
 XXXX PNG chunk not known
 X_^][
+Xf9V5>{6
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]
 XrProto:NewFrameIdx=%d Id=%d Vsync=%d
 XrProto:Predict:%d
@@ -7838,8 +7836,7 @@ XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
 Y%3r/
-Y%84.
-Y-`4.
+Y-@4.
 Y5[u/
 Y5~u/
 Y9"SD
@@ -8047,8 +8044,8 @@ ZvFailed to create fence to block on queue flush at shutdown.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-^W.7%
-_%k2"
+^R4YM
+_%K2"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8165,7 +8162,6 @@ _wstat64i32
 `A_A^A]A\_^]H
 `A_A^_^]
 `A__^
-`Fr9wI
 `H@SH
 `P@SH
 `X@SH
@@ -8262,6 +8258,7 @@ attributes
 audio
 autoLaunchSteamVROnButtonPress
 axis_index
+a~WgUe
 b@8u'u
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
@@ -9332,7 +9329,7 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5\w&
+o5<w&
 o@@fD
 oD$ fD
 oD$0f

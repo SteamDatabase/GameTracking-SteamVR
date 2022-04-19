@@ -6,7 +6,6 @@
 																												
 																																												
 	!s99
-	$ugxt
 	<bu 
 	@81t/@8q
    Driver Description: %s
@@ -67,7 +66,6 @@
  times.
  version-number:
 !hn7!
-$t(-x
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -129,7 +127,6 @@ $t(-x
 ,W5y+
 -1e+9999
 -Infinity
--N(u(`
 -external
 -internal
 -u-I;
@@ -635,7 +632,7 @@ $t(-x
 211007000000Z
 220323000000Z
 220329000000Z
-220415190405Z0/
+220419014221Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -648,6 +645,7 @@ $t(-x
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4^O}C
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 64-bit
@@ -682,6 +680,7 @@ $t(-x
 9|$`t
 :\u-L
 :\u6L
+;0F',9
 ;K }DH
 ;Q |	H
 </u#H
@@ -774,6 +773,7 @@ $t(-x
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exceptions@std@@YAHXZ
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?xF%De
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 @.data
@@ -1960,6 +1960,7 @@ memcpy
 memmove
 memset
 mutex
+n/FfCg1
 need dictionary
 nrfserlib.dll
 ntelD
@@ -2157,7 +2158,6 @@ upper
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
-wAD|O
 wcschr
 winsock
 wn>Jj
@@ -2206,6 +2206,5 @@ xdigit
 |$ps`H
 |Lu?c
 }LuHO
-}]/,^
 ~'HcB
 ~t&LN

@@ -3,8 +3,6 @@
  A__^
  H3E H3E
 !hn7!
-"U_[fj
-%M.ce
 ',=?k
 (D$ f
 (f*^[0
@@ -42,8 +40,8 @@
 .CRT$XTZ
 .data
 .data$r
-.eCTEe
 .edata
+.fR5L
 .idata$2
 .idata$3
 .idata$4
@@ -100,7 +98,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190519Z0/
+220419014454Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -120,7 +118,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
-9{#65
 <0:08
 =rIQU
 >Mp$d
@@ -139,7 +136,7 @@ A_A^_^]
 AjEB#AZ
 AuthD
 Bellevue1
-C%GaF
+CNM\A
 CloseHandle
 CreateEventW
 D$8H9
@@ -158,7 +155,6 @@ GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-GnRY( 
 H SWH
 H93t	H
 H957{
@@ -204,11 +200,13 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 NPH9Q
 Out of thread local storage!
+O|I@	
 PAq=?Mp#
+P\UtX
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS W
+RSDSdJ
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -258,7 +256,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-VlU/|
 WakeAllConditionVariable
 Washington1
 Y9"SD
@@ -303,7 +300,6 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`SFdY
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -333,9 +329,9 @@ t$ WH
 t$@H=
 tXfff
 terminate
+tpi&i
 v=Y]Bv
 vector<T> too long
-wCe:T
 www.digicert.com1!0
 x]~\6
 {gamepad}/icons/gamepad_status_error.png
@@ -349,6 +345,7 @@ x]~\6
 {gamepad}/input/gamepad_profile.json
 {un'%
 |$ AVH
+|3,=P
 |Lu?c
 }LuHO
 ~t&LN

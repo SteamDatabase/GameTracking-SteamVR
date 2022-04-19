@@ -1,4 +1,5 @@
 	!s99
+	UY#%/n
     A
  %41g
  (Camera)
@@ -6,7 +7,6 @@
  A__^
  H3E H3E
 !hn7!
-!t1Z2"6
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -92,7 +92,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190749Z0/
+220419014631Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -104,7 +104,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-5C:6'7
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -141,6 +140,7 @@
 @UATAVH
 @UAWH
 @USVWATAUAVAWH
+A6aK\Gq
 A9A A
 A9Q sEI
 A;Q s?I
@@ -224,7 +224,6 @@ IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
-InFb	
 InitDirectMode: DX11 level hardware required!
 InitDirectMode: Failed to create D3D11 device! (err=%u)
 InitializeConditionVariable
@@ -266,9 +265,8 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS=wLA
+RSDSy
 RaiseException
-RkZo?
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -308,7 +306,6 @@ VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
-VUCkUK
 VWAVH
 VWAWH
 V_~]	,
@@ -319,7 +316,9 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+WuH}Xc
 Y9"SD
+[2I]2
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -379,7 +378,6 @@ d$`H=
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
-dsAi24K
 e,>~^
 effffff
 f9<Xu
@@ -467,7 +465,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 x]~\6
-x_}jZ
 z(uMH
 {ERR-001}
 {ERR-079}

@@ -1,7 +1,6 @@
 {
   "jsonid": "input_profile",
   "controller_type": "knuckles",
-  "compatibility_mode_controller_type": "oculus_touch",
   "device_class" : "TrackedDeviceClass_Controller",
   "resource_root" : "indexcontroller",
   "driver_name" : "lighthouse",

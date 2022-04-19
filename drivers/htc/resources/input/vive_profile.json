@@ -1,9 +1,6 @@
 {
 	"jsonid" : "input_profile",
   "controller_type": "vive",
-  "device_class" : "TrackedDeviceClass_HMD",
-  "resource_root" : "htc",
-  "driver_name" : "lighthouse",
   "input_bindingui_mode" : "hmd",
   "input_bindingui_right" :
   {

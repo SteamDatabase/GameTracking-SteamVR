@@ -2,7 +2,8 @@
  %41g
  (Camera)
 !hn7!
-!xMw/
+##ErM
+$(?cP!m/m
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
@@ -11,6 +12,8 @@
 +o'q)}
 , last executing in 
 ,W5y+
+-("%>K
+-lWT2
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -93,7 +96,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190319Z0/
+220419014055Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -137,7 +140,6 @@
 6,6<6@6P6T6X6`6x6
 6I]Dc
 6OB,n_
-6ul~`_
 7!7Z7}7
 7#7+7
 7$737<7E7N7S7X7_7
@@ -188,7 +190,6 @@
 =$=H=T=\=|=
 =@>X>\>
 =M=V=_=h=m=r=y=~=
-=eAtjz
 =j)h8
 =rIQU
 >!>'>/>7><>B>J>R>W>]>e>m>r>x>
@@ -213,7 +214,7 @@
 ADVAPI32.dll
 AjEB#AZ
 Bellevue1
-C2	%t
+C2,Lr
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -231,7 +232,6 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-E9	.E
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
@@ -252,7 +252,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 HmdDriverFactory
-I	a`>
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -297,8 +296,8 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-R=jtY
 RPCRT4.dll
+RSDS"<
 RaiseException
 S0Q0O
 SA|X=G
@@ -345,10 +344,8 @@ Y__^[
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
-[S&tSr
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
-^'_*$
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -402,7 +399,6 @@ driver_oculus_legacy.dll
 e,>~^
 f;A*stSW
 getenv
-h[)?U
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
@@ -486,6 +482,7 @@ x]~\6
 {oculus_legacy}/icons/%s_%s_ready_alert.png
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
+{qj].S'
 {un'%
 |Lu?c
 }LuHO

@@ -2326,6 +2326,7 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+01:36:29
 0@
 0A
 0x
@@ -2379,7 +2380,6 @@ $tI
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
-18:58:32
 18IUsbDeviceCallback
 19CWirelessDecoderWv2
 1e+9999
@@ -2522,7 +2522,7 @@ App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
 Apr
-Apr 15 2022
+Apr 19 2022
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got

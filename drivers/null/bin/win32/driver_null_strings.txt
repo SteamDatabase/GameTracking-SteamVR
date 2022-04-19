@@ -1,7 +1,7 @@
 	!s99
  %41g
+ Ufy5S
 !hn7!
-"6XXb8
 ',=?k
 (f*^[0
 *9Z9N
@@ -83,7 +83,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190311Z0/
+220419014023Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -112,7 +112,6 @@
 6I]Dc
 6K7T7\7
 6OB,n_
-6[rwrq
 6k6p6
 70503
 8(8,8<8@8D8L8d8t8x8
@@ -127,7 +126,6 @@
 :!:3:Q:
 :(:-:;:E:N:W:b:g:u:
 :(:8:<:L:P:X:p:
-:tY%}7*
 ;(;2;;;G;P;U;`;q;
 ;4>X>d>l>
 ;Z;k;
@@ -155,7 +153,6 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Dy&7(
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -183,7 +180,6 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
-LMNPa4
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
 MSVCP140.dll
@@ -193,6 +189,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSOc
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -200,6 +197,7 @@ TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
+U}8M+
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
@@ -267,6 +265,8 @@ memcpy
 memmove
 memset
 modelNumber
+ojQS&
+qG5&"5m
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -283,7 +283,7 @@ windowY
 www.digicert.com1!0
 x]~\6
 {un'%
+|!*\=
 |Lu?c
-|aBx\
 }LuHO
 ~t&LN

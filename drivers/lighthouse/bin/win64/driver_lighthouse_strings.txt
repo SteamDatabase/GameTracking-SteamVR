@@ -347,7 +347,6 @@ $tAUUPE
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-%(	oR
 %,3:;4-&
 %9k0t
 %9{0t
@@ -1377,7 +1376,7 @@ $w!Hc
 21VNt
 220323000000Z
 220329000000Z
-220415190734Z0/
+220419014511Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1397,7 +1396,6 @@ $w!Hc
 3mq+<
 42HcF,
 4Pole
-5Q'54`
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -1542,7 +1540,7 @@ $w!Hc
 : exception thrown in JSON library
 : one or more FS callback not set
 : ppm=
-:&mJl
+:(;TR
 :0u(H
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
@@ -2160,7 +2158,6 @@ B(A9A
 B(A9C
 B(teH
 B,9A,
-B4Jc0
 B98Fyt
 B<I;_X
 B@H+P0
@@ -3087,7 +3084,6 @@ F()h(H
 F(HcH
 F,9ATu
 F,9G,
-F-gbGHbG
 F0D85
 F8@85W
 F<@85
@@ -3668,6 +3664,7 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
+IFXX(
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -4386,7 +4383,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDSO~
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5275,6 +5271,7 @@ WINRT_Present
 WINRT_Release
 WINRT_ReleaseDisplay
 WINRT_WaitForPresent
+WJznF=-
 Wait For Sync
 WaitForMultipleObjects
 WaitForSingleObject
@@ -5602,7 +5599,6 @@ _wstat64i32
 `	P!A
 ` UAVAWH
 `.rdata
-`={)M
 `A^_]
 `A^_^
 `A_A]A\_^][

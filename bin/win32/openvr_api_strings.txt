@@ -456,7 +456,7 @@ $iMBm
 211007000000Z
 220323000000Z
 220329000000Z
-220415190156Z0/
+220419013955Z0/
 222f2
 223A3S3h3y3
 241009235959Z0a1
@@ -1125,7 +1125,6 @@ AHPQVR
 AHkO($
 Access violation - no RTTI data!
 AcquireSRWLockExclusive
-AduNjt~
 Af;:u
 AiFC.
 AjEB#AZ
@@ -1406,13 +1405,13 @@ K3tyI
 K74LN
 K<<H!
 KERNEL32.dll
+KU!;~c
 K}*n:	
 L?n(Zy&
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LPjQW
-LVD11t
 LargestInt out of Int range
 LargestUInt out of Int range
 LeaveCriticalSection
@@ -1495,7 +1494,6 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
-RSDSB
 RWQSV
 R\hvv
 RaiseException
@@ -2001,6 +1999,7 @@ bad locale name
 bad message
 broken pipe
 c%;>7
+c8gvz+k
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
 cD5U3#eF7v\NV5%J%
 cRpp`
@@ -2211,7 +2210,6 @@ t^97uZjD
 t^WjU
 tbhHS
 text file busy
-ti3ex	
 timed out
 tkSVP
 toA l<
@@ -2233,13 +2231,13 @@ u0jAXf;
 u28C`t
 u2Vj@hX_
 u?^p?o4
+u@3zU
 uCPVj
 uOSVW
 u^9^\t/
 unknown error
 v	N+D$
 v!j"X_^[
-v$"Zy`b
 v2!L.2
 v<'*6
 v=Y]Bv
@@ -2266,7 +2264,6 @@ xwpwpp
 y1~?|"
 y^QZ8(O*
 ygCH2
-zZgAm#e
 zwom}
 {S@d6
 {XIZ/
@@ -2283,7 +2280,6 @@ zwom}
 }LuHO
 }qj<h
 ~ $s%r
-~ 4^1W
 ~0WPQ
 ~4VVS
 ~t&LN

@@ -1,9 +1,6 @@
 {
 	"jsonid" : "input_profile",
   "controller_type": "indexhmd",
-  "device_class" : "TrackedDeviceClass_HMD",
-  "resource_root" : "indexhmd",
-  "driver_name" : "lighthouse",
   "input_bindingui_mode" : "hmd",
   "input_bindingui_right" :
   {

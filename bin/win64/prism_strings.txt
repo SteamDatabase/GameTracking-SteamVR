@@ -355,7 +355,9 @@ $II+L$`
 +Xt@(
 +o'q)}
 , last executing in 
+,!jri
 ,W5y+
+,[RB:,/
 -IPCWrapper
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -529,7 +531,7 @@ $II+L$`
 211007000000Z
 220323000000Z
 220329000000Z
-220415190121Z0/
+220419013851Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -542,7 +544,6 @@ $II+L$`
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3};0\1
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -557,7 +558,6 @@ $II+L$`
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-95^6sy
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -1050,6 +1050,7 @@ Frame Hallucination Pipeline Variant %d
 FrameHallucination-Frag
 FrameHallucination-Vert
 FreeLibrary
+G;^"%
 GLSL.std.450
 GetCurrentProcess
 GetCurrentProcessId
@@ -1081,6 +1082,7 @@ H+EpH
 H+L$XE3
 H+SXH
 H+T$pH
+H.f|Nz}
 H9.u0
 H9.u2
 H93t	H
@@ -1262,7 +1264,6 @@ ME-Reprojector-Mask
 ME-VisibleAreaMask-%s
 ME-VisibleAreaMask-Graphics Command Pool
 ME-VisibleAreaMask-Timeline
-MH	=4u
 MSVCP140.dll
 MV-Attenuation
 MV-Attenuation-%s
@@ -1323,7 +1324,6 @@ NvEncode %s-%s
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
 O0H9Q
-OC0WJ
 OLEAUT32.dll
 OpH9Q
 OpenEventA
@@ -1410,6 +1410,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDSE
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1615,6 +1616,7 @@ XA_A][]
 XA_A^A]_
 Y9"SD
 YUV conversion - %s
+YWM>NN
 Yl$ M
 Yl$4E
 [ AVH
@@ -1657,8 +1659,9 @@ Yl$4E
 \$xMi
 \\.\pipe\
 ]J<0"0i3
-]WUbu
+]aJ@K
 ]g@8yhu
+]|x>!
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1857,6 +1860,7 @@ isdigit
 it != m_importedClients.end()
 jj@0HK4
 k0i0$
+k73t=
 l$ E3
 l$ H;
 l$ H=
@@ -1994,7 +1998,6 @@ r,fff
 renderdoc.dll
 result == ALVR_OK
 s AVH
-s@5XC(
 s_nInstanceCount > 0
 server
 short_alloc: spilling into system allocator
@@ -2527,7 +2530,6 @@ wcsstr
 www.digicert.com1!0
 xA_A^A]A\_^[]
 x]~\6
-y)sXc
 yxxxxxxxH
 yxxxxxxxI+
 {pH;{xw?

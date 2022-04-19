@@ -34,7 +34,6 @@
 &D9{0t
 ',=?k
 '.5<=6/7>????????????????
-'/[0y
 '9k0t
 'D9c0t
 (A\^][
@@ -61,6 +60,7 @@
 *9Z9N
 +Xt@(
 +o'q)}
++ql+`
 , last executing in 
 ,9k0t%H
 ,9{0t%H
@@ -174,7 +174,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190359Z0/
+220419014207Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -198,7 +198,6 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-930bUp
 9C }.H
 9T$XJ
 9]pu2
@@ -210,6 +209,7 @@
 9l$Lt	E
 ;D$ht6
 <0:08
+<>so"L
 =ETLP
 =IBgC
 =SNRtt%
@@ -467,6 +467,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS;
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -479,7 +480,6 @@ SATAUAVAWH
 SA|X=G
 SPB8t
 SPB8u,
-SP~PQ!
 SUVWATAUAVAWH
 SUVWAUAVAWH
 SWAUAVH
@@ -575,6 +575,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
+Y+m>5XmIO5
 Y9"SD
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -592,8 +593,8 @@ Z9k0tUD
 ]9k0tVD
 ]J<0"0i3
 ]g@8yhu
-]p^"$
 ^9k0tWD
+^bXeE
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -744,6 +745,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+il''D
 illegal code in raster
 invalid
 invalid PLTE
@@ -821,7 +823,6 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
-r!V#+!
 rND9{0t
 read past buffer
 ro_ro
@@ -897,6 +898,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 x]~\6
+ylyhr
 zh_cn
 zh_tw
 zlib corrupt
@@ -919,5 +921,4 @@ zlib corrupt
 }LuHO
 ~3LcD$(L
 ~6HcD$ I
-~T!wuN}
 ~t&LN

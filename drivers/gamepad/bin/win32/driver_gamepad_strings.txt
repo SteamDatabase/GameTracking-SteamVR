@@ -1,6 +1,8 @@
 	!s99
  %41g
 !hn7!
+%Zok=k
+&^WKf
 ',=?k
 (f*^[0
 *9Z9N
@@ -103,7 +105,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220415190307Z0/
+220419014022Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -140,6 +142,7 @@
 6D6Z6
 6I]Dc
 6OB,n_
+6T)Dj
 7!7'7-73797?7E7K7Q7a7q7
 7/8X8g8z8
 70503
@@ -151,7 +154,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9!9&9-929>9`9w9
 9*;V;c;
-9=u4:x
 9p9}9
 :":.:P:g:p:y:
 :(:,:0:L:P:
@@ -195,6 +197,7 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+DqJB{v
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -203,6 +206,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 HmdDriverFactory
+I-crV'[
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -239,7 +243,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-R_l:A
 RaiseException
 S0Q0O
 SA|X=G
@@ -277,7 +280,6 @@ TlsAlloc
 TlsFree
 UnhandledExceptionFilter
 Unknown exception
-V HWO
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
@@ -287,7 +289,6 @@ Washington1
 Y9"SD
 Y__^[
 [K]taM?
-\ S&N}
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -334,7 +335,6 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
-c1vgu
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
 e,>~^
@@ -344,6 +344,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+k:2Y_
 malloc
 map/set<T> too long
 memcpy
@@ -356,7 +357,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 x]~\6
-{e'D(
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

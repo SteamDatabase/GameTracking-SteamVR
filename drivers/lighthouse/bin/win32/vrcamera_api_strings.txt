@@ -431,7 +431,7 @@ $_^[]
 211007000000Z
 220323000000Z
 220329000000Z
-220415185918Z0/
+220419013702Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1427,7 +1427,6 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Jfbo@S
 K _^[
 K$t"j
 K@;O@uc
@@ -1443,7 +1442,6 @@ LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
 Lock already taken
-LrZ=i
 M SVW
 M$+E4@Pj
 MB(iVR
@@ -1484,7 +1482,6 @@ QkK04
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R$#[M
 RPj(h
 RPj(hp
 RWQSV
@@ -1521,6 +1518,7 @@ SleepConditionVariableCS
 SleepConditionVariableSRW
 SubmitThreadpoolWork
 SwitchToThread
+T![1p
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1697,6 +1695,7 @@ connection refused
 connection reset
 count
 cross device link
+d?*ssK
 destination address required
 device or resource busy
 digit
@@ -1749,7 +1748,6 @@ islower
 isspace
 isupper
 j@j0P
-jT{69$+
 jj@0HK4
 k0i0$
 kK04k
@@ -1897,12 +1895,11 @@ x\SVW
 x]~\6
 xdigit
 y'j h
-yM<*Q
 {L?uI
 {un'%
 |Lu?c
 |SVWj
+|Tek8
 }:;2|6
 }LuHO
-}{~ck
 ~t&LN
