@@ -4,7 +4,7 @@
 																																												
 																																																																																																																
 	!s99
-	000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
 	9\$x
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CODE_SIZE
@@ -47,10 +47,10 @@
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`ab
+ !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`abaC
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
- !00"#$%&'()*+,-./f
+ !55"#$%&'()*+,-./01234
  %41g
  '-46
  (Thumb)
@@ -265,7 +265,7 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knNh
+$tI(knN
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -553,7 +553,7 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(-EU"
+(%XU"
 (5zt(
 (;^,|
 (;s,|
@@ -2146,8 +2146,6 @@ $w!Hc
 0	FAJ
 0 width
 0-pixel image
-0000000
-000000000000000000000000000000000000000000000000000000000000000000000000000000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
@@ -2211,7 +2209,7 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220419014338Z0/
+220426194051Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2236,6 +2234,8 @@ $w!Hc
 42HcF,
 440.97
 4IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
+5555555
+555555555555555555555555555555555555555555555555555555555555555555555555555555
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 650000
@@ -2282,7 +2282,7 @@ $w!Hc
 9)u$M
 98tHH
 9;tC@8{
-9=-d%
+9=mc%
 9A(~0H
 9A|6H
 9C s.H
@@ -2484,6 +2484,7 @@ $w!Hc
 ?/t6H
 ?/u3H
 ?/uqH
+??&	b'9e
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -2967,6 +2968,8 @@ Action Manifest Path set to %s
 Action Set names may not be empty
 Action names may not be empty
 Action paths must take the form '/actions/<action set>/in|out/<action>'. "
+Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
+Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 Active pri %u, device=%s
 AddAccessAllowedAce
 AddAccessAllowedAce failed for administrator. GetLastError returned: %d
@@ -3055,6 +3058,7 @@ BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
+BbWQQ
 Begin
 BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
 BeginFrame called outside of a valid session.
@@ -3485,7 +3489,6 @@ C\HcKXH
 C`9C(uq
 C`9FX
 C`H9F
-CaQGM
 Call from application to set %s.%s. Scene applications are not allowed to set most settings
 Camera
 Can't 
@@ -3842,6 +3845,7 @@ D8}gt$L
 D8}gu
 D8}guH
 D8~ A
+D9%s;,
 D90uGH
 D9>u:H
 D9@ }
@@ -3919,6 +3923,7 @@ DD$(H
 DD$@H
 DX11 level hardware required!
 DXGI adapter not found, defaulting to index 0.
+Deactivation threshold of %f will be set to the minimum allowed value %f in filter %s.
 Debug markers: disabled, missing entrypoints
 Debug markers: disabled, missing extension support. Is the Renderdoc layer enabled?
 Debug markers: enabled
@@ -6075,7 +6080,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSL
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6928,8 +6932,11 @@ VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
 VREvent_DashboardRequested
 VREvent_DashboardSectionSettingChanged
+VREvent_DesktopViewReady
+VREvent_DesktopViewUpdating
 VREvent_DismissedWarningsSectionSettingChanged
 VREvent_DriverRequestedQuit
+VREvent_ElevatePrism
 VREvent_EnableHomeAppSettingsHaveChanged
 VREvent_EnterStandbyMode
 VREvent_EnvironmentSettingsHaveChanged
@@ -6982,6 +6989,7 @@ VREvent_Notification_Shown
 VREvent_NotificationsSectionSettingChanged
 VREvent_NullSectionSettingChanged
 VREvent_OtherSectionSettingChanged
+VREvent_OverlayClosed
 VREvent_OverlayFocusChanged
 VREvent_OverlayGamepadFocusGained
 VREvent_OverlayGamepadFocusLost
@@ -7022,6 +7030,7 @@ VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
+VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged
 VREvent_SubmitScreenshotToDashboard
@@ -7823,7 +7832,6 @@ XR_UNKNOWN_SUCCESS_%d
 XR_VALVE_analog_threshold
 XXXX PNG chunk not known
 X_^][
-Xf9V5>{6
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]
 XrProto:NewFrameIdx=%d Id=%d Vsync=%d
 XrProto:Predict:%d
@@ -8033,6 +8041,7 @@ ZvFailed to create fence to block on queue flush at shutdown.
 ] name = [
 ]8H9X
 ]9k0tVD
+]=m["
 ]@L9{(
 ]HH;]Pt8
 ]HH;]Ptb
@@ -8044,8 +8053,8 @@ ZvFailed to create fence to block on queue flush at shutdown.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-^R4YM
-_%K2"
+_%7="
+_%y9"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8258,7 +8267,6 @@ attributes
 audio
 autoLaunchSteamVROnButtonPress
 axis_index
-a~WgUe
 b@8u'u
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
@@ -9567,6 +9575,7 @@ s@fff
 sButtonTexts
 sCaptionText
 sMessageText
+sVOhG
 safe_mode_driver_whitelist.json
 samplecount
 sampler

@@ -3717,7 +3717,7 @@ $wtpt
 211007000000Z
 220323000000Z
 220329000000Z
-220419013808Z0/
+220426193505Z0/
 230x323
 2384x3370
 24 24
@@ -3933,7 +3933,6 @@ $wtpt
 7777777777777777777777777777==77[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[=[[[[[[[[[[[[[[[[[[[[[[[[[[[[[==[[[[[[[[[[[======[[[[[[[[[[======[[[[[[[[[[[[[[==
 792x1224
 7:-10,-5,-2,-1,-2,-5,-10 -5,0,3,4,3,0,-5 -2,3,6,7,6,3,-2 -1,4,7,8,7,4,-1 -2,3,6,7,6,3,-2 -5,0,3,4,3,0,-5 -10,-5,-2,-1,-2,-5,-10
-7;0g@
 7?5 :
 7@BGR
 7A9v(u
@@ -4020,6 +4019,7 @@ $wtpt
 91x127
 92t.H
 92t5H
+93(8U
 93v9ff
 94L;Q*
 95'O#
@@ -11747,6 +11747,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS_]J
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -12277,7 +12278,6 @@ Run Length Triplet
 RunLengthDecode
 Runic
 RunlengthEncoded
-RyrzV
 S Coord Of Bottom Right Corner
 S Coord Of Top Right Corner
 S H;W
@@ -16251,6 +16251,7 @@ fF;D0
 fF;D:
 fIXeH
 fIXeu
+fY[H=
 face=%S,charset=%s,it=%s,wt=%ld,ht=%ld,ff=%s%s
 factor
 failed to allocate %u bytes (alignment: %u): %s
@@ -17495,7 +17496,6 @@ ivote.
 izol ce mamvj ka raq kuse bafkeh mew.
 j > 0
 j!3V$E
-j'D!N
 j+@u'`
 j,Hcj0D
 j,Hcz0
@@ -18164,7 +18164,6 @@ p L+p
 p UWATAVAWH
 p WATAUAVAWH
 p WAVAWH
-p'DbA
 p88pD8pT8p`8pp8pp8`p8Tp8Dp88pD8pT8p`8pp8`p8Tp8Dp88p88pE8pT8p`8pp8`p8Tp8DpPPpXPp`PphPppPppPhpP`pPXpPPpXPp`PphPppPhpP`pPXpPPpPPpXPp`PphPppPrpP`pPXp
 p?, d
 p?l ?
@@ -19881,7 +19880,6 @@ uzrg#
 u}A:Q
 v&fD;
 v(fff
-v-10]e
 v.p{ xx-v.page.x-.5, yy-v.page.y-.5 }
 v0H;_
 v5fff

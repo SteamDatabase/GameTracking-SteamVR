@@ -19,7 +19,6 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
-'VW;K
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -30,7 +29,6 @@
 (t$@H
 (|$ H
 )D$ L
-)HT7KYr\
 )t$0H
 )t$@H
 *9Z9N
@@ -175,7 +173,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220419014522Z0/
+220426194223Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -187,20 +185,16 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3}MIW
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-61+zO
 6I]Dc
 6OB,n_
 70503
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-8g|cN
 9D$xu
 9D$|tcH
-:wlGsF	
 < t+<
 </u#H
 <0:08
@@ -290,7 +284,6 @@
 @UVWATAUAVAWH
 @UVWAVAWH
 @UWAVAWH
-@Z&v?
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
@@ -333,6 +326,7 @@ CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CT$ H
 CT$(L
+CT$0H
 CT$0I
 CT$8D
 CT$`H
@@ -364,8 +358,8 @@ Created desktop staging texture.
 Created desktop upload texture.
 Cursor has neither color nor mask bitmap.
 C|$PL
-D	d$DA
-D	l$DH
+D	d$DH
+D	l$DA
 D$ A;
 D$ E3
 D$ H;
@@ -527,6 +521,7 @@ Handling lock mouse
 Handling mouse button down
 Handling mouse button up
 Handling mouse move
+Handling overlay closed
 Handling overlay events
 Handling overlay focus enter
 Handling overlay focus leave
@@ -629,7 +624,6 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-Mt3G)$
 NPH9Q
 OLEAUT32.dll
 OpenProcess
@@ -714,7 +708,6 @@ USVWAVH
 UVWATAUAVAWH
 UVWATAWH
 UVWAVAWH
-UWATAVAWH
 UWAVH
 UWAWH
 Unable to call duplication release frame for desktop %d.
@@ -757,6 +750,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+V{vMB_s
 W H+W
 WATAUAVAWH
 WAVAWH
@@ -767,7 +761,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WindowView_%s
 WindowsCreateStringReference
-Xboz}i
 Y9"SD
 [K]taM?
 \$ E3
@@ -782,7 +775,6 @@ Y9"SD
 \$pI;
 \u=H;
 ]J<0"0i3
-^b`N6
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -870,6 +862,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
 d$`H=
+d$`M;
 d3d11.dll
 da_da
 danish
@@ -907,6 +900,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+i3:rg|
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -933,7 +927,6 @@ l$ H=
 l$8E3
 l$@H;
 l$PM9n
-l$xM;
 latam
 list<T> too long
 m_nMaxLogBufferingSize > 0
@@ -1037,7 +1030,6 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
-w]B*9
 window_view_created
 window_view_destroyed
 windows

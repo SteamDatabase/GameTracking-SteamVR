@@ -4401,8 +4401,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1139.340799
- r C.1142.340810
+ r C.1139.340804
+ r C.1142.340815
  r C.413.288424
  r CSWTCH.100
  r CSWTCH.16
@@ -29044,6 +29044,7 @@
  t vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse) [clone .cold]
  t vr::CVROverlayInternalLatest::SendKeyboardDone()
  t vr::CVROverlayInternalLatest::SendKeyboardDone() [clone .cold]
+ t vr::CVROverlayInternalLatest::SendOverlayClosed(unsigned long)
  t vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long, float)
  t vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long, float) [clone .cold]
  t vr::CVROverlayInternalLatest::SetKeyboardOverlayHandle(unsigned long)

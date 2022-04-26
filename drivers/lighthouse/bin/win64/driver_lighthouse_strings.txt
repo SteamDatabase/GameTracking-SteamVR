@@ -918,6 +918,7 @@ $w!Hc
 .... BaseStation Map has %d entries
 ../..
 .00cfg
+.8t;	9
 .>u%A
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -1376,7 +1377,7 @@ $w!Hc
 21VNt
 220323000000Z
 220329000000Z
-220419014511Z0/
+220426194200Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1425,6 +1426,7 @@ $w!Hc
 8A_A^A]A\_^][
 8A_A^_^][
 8Bu	H
+8CFOf
 8CytW
 8D$Xt
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -1540,7 +1542,6 @@ $w!Hc
 : exception thrown in JSON library
 : one or more FS callback not set
 : ppm=
-:(;TR
 :0u(H
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
@@ -3664,7 +3665,6 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
-IFXX(
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -5222,6 +5222,7 @@ VerifyUSBUserDataInDirectory: error parsing user data header
 VerifyUSBUserDataInDirectory: header failed sanity check
 VerifyVersionInfoW
 Version
+VfH_{
 Video Failure
 Video state: 
 Vive 2.0
@@ -5271,7 +5272,6 @@ WINRT_Present
 WINRT_Release
 WINRT_ReleaseDisplay
 WINRT_WaitForPresent
-WJznF=-
 Wait For Sync
 WaitForMultipleObjects
 WaitForSingleObject
@@ -5351,6 +5351,7 @@ YwrHc
 Z* ,	
 Z9k0tUD
 ZL$Xf
+Z[x#UTU
 [ UVWAVAWI
 [ UWATAVAWI
 [(HcS

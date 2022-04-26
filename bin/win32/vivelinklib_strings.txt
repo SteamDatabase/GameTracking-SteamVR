@@ -15,6 +15,7 @@
 !0L0w0
 !hn7!
 $Phdd
+$f\qr
 %%.%dg
 %2.2X
 %8.8X
@@ -61,6 +62,7 @@ $Phdd
 %s: WriteFile failed! (%s)
 ' is not a number.
 ',=?k
+'>JzW
 ()$^.*+?[]|\-{},:=!
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
@@ -80,7 +82,6 @@ $Phdd
 *9Z9N
 +KL+SL_;
 +Xt@(
-+lb0E
 +o'q)}
 ,W5y+
 -1e+9999
@@ -232,7 +233,7 @@ $Phdd
 211007000000Z
 220323000000Z
 220329000000Z
-220419014006Z0/
+220426193748Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -557,6 +558,7 @@ A valid JSON document must be either an array or an object value.
 AAuthentication
 Address:  %s
 AjEB#AZ
+B#B},
 BS1_MSG_EXTEND_TIMEOUT
 BS1_MSG_FOTA_STAT
 BS1_MSG_IDENTIFY
@@ -672,7 +674,6 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
-E@MWd
 Empty escape sequence in string
 EnterCriticalSection
 Error reading file
@@ -738,6 +739,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J1T1\1j1
 J>@G_
+JhbGXZS
 K ;S$
 K$t"j
 K,+K(+
@@ -795,6 +797,7 @@ Nonce:    %d
 ODFU Post
 OpenProcess
 Out of thread local storage!
+P('xzu
 PAIR -NONCE %6.6d
 PAq=?Mp#
 PQShXa
@@ -816,7 +819,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDS>hC
+RSDSwL'
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1069,6 +1072,7 @@ _wfopen_s
 _wfsopen
 _wstat64i32
 `.rdata
+a5xEt
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1180,7 +1184,6 @@ manifest file %s parse error from %s
 manifest file %s setup error from %s
 manifest.json
 map/set<T> too long
-meP6{!
 memchr
 memcpy
 memmove
@@ -1194,7 +1197,6 @@ print
 punct
 realloc
 runas
-s2o@>{
 space
 stoi argument out of range
 stoul argument out of range
@@ -1214,6 +1216,7 @@ t hpC
 t0-"N
 t8;G,t
 t<-"N
+tW$oFM
 t]SPR
 t`9~\u
 thh(Z
@@ -1255,18 +1258,18 @@ x5t7j
 x]~\6
 xdigit
 y4_^[
-{	,10
+zD}N?:
 {L?uI
 {un'%
 |	9A 
 |	;J 
 |Lu?c
 |cj#h
+|~='X
 }	jCh
 }LuHO
 }qj<hx
 ~6VVS
 ~L][u
 ~d;{d|	
-~eWuZ
 ~t&LN

@@ -79,7 +79,6 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-*8_)v
 *9Z9N
 +KL+SL_;
 +Xt@(
@@ -707,7 +706,7 @@ $Vh&*
 211007000000Z
 220323000000Z
 220329000000Z
-220419014022Z0/
+220426193824Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -935,6 +934,7 @@ $Vh&*
 6PVhX_
 6X8\8`8d8h8l8p8t8x8|8
 6]6c6t6
+6^|LN
 6a7q7
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 7 7$7,7D7T7X7h7l7p7t7|7
@@ -1434,7 +1434,6 @@ Already open
 Attribute Discovery
 Authentication
 Authentication status failed. (auth_status: %s)
-B@g{8
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1902,6 +1901,7 @@ QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
 RaiseException
+Rdm=X
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
 Read Properties
@@ -2024,7 +2024,6 @@ TlsGetValue
 TlsSetValue
 Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
-UIr!{
 UNKNOWN[0x
 USER32.dll
 UnhandledExceptionFilter
@@ -2212,6 +2211,7 @@ f;GDu
 f=DFu
 f=cku7
 false
+ff9K@
 file error
 floor
 generic
@@ -2421,6 +2421,7 @@ u!h`5
 u!h`K
 u!hp8
 u%;Q(t 
+u'T^{1
 u.h`5
 u.hpQ
 u0h 5

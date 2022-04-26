@@ -462,7 +462,6 @@ $+
 0+
 0123456789
 0123456789ABCDEF
-01:36:38
 1
 11CVkTimeline
 12CNonCopyable
@@ -471,6 +470,7 @@ $+
 16CVkCommandBuffer
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:33:20
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
@@ -539,7 +539,7 @@ AllocateMemoryFromType
 Apply blur filter
 Apply median filter
 Apr
-Apr 19 2022
+Apr 26 2022
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe

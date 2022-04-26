@@ -1447,6 +1447,7 @@
  SOCK sock=%d
  SUV3
  SUVW
+ T?;N
  Un ?
  WSASetEvent(%p)
  X&A5$
@@ -1454,7 +1455,6 @@
  ZYXu
  ZYXu!S
  [%#x :
- [8,p
  _][^
  _^[3
  _^]3
@@ -4038,6 +4038,7 @@ $~O="""
 1=2B2Q2V2
 1=2e2
 1=2p2
+1=F@=
 1>1F1N1d1h1l1p1t1
 1>1U1
 1>3a3C4d4i4x4}4
@@ -4322,7 +4323,7 @@ $~O="""
 213w3
 220323000000Z
 220329000000Z
-220419013750Z0/
+220426193508Z0/
 22272A2Y2d2
 22282E2
 222A2F2
@@ -9252,6 +9253,7 @@ $~O="""
 @333333#@
 @3L$$#
 @4+A4y
+@5iY~8wJA
 @8+C8
 @8?"p8?b
 @8SUQ
@@ -9288,6 +9290,7 @@ $~O="""
 @_^][
 @` !.
 @cairo:
+@fMSo
 @gDio
 @ghostscript_font_path@
 @h - oW
@@ -9981,6 +9984,7 @@ CSPCP852
 CSPTCP154
 CSWINDOWS31J
 CT Water Number
+CXH}Lu
 CYRILLIC-ASIAN
 C\[^]
 C\_[^]
@@ -14195,7 +14199,6 @@ LATIN1
 LAUNCH
 LBLSIZE
 LBLSIZE=%.20g FORMAT='BYTE' TYPE='IMAGE' BUFSIZE=20000 DIM=2 EOL=0 RECSIZE=%.20g ORG='BSQ' NL=%.20g NS=%.20g NB=1 N1=0 N2=0 N3=0 N4=0 NBB=0 NLB=0 TASK='ImageMagick'
-LC2"1
 LCHab
 LCHuv
 LC_ALL
@@ -14828,7 +14831,6 @@ New_Tai_Lue
 Next Directory Record Offset
 NgepI
 Nikon Digital SLR Camera Raw Image File
-NmH-_
 NmToken
 NmToken expected in ATTLIST enumeration
 No IDATs written into file
@@ -15461,7 +15463,6 @@ PEReference: forbidden within markup decl in internal subset
 PEReference: no name
 PEReferences forbidden in internal subset
 PFS: 1st Publisher Clip Art
-PFb`Q"v
 PG LM
 PG ML
 PG ML + %g %g %g
@@ -16149,6 +16150,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS7
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18615,6 +18617,7 @@ YShear/Image
 YShearImage
 YT$$f
 YU u.
+YUaQUR
 Y\o`pr
 Y__^[
 Yacute
@@ -19772,6 +19775,7 @@ c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32-shape.c
 c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32.c
 c?G:c?
 c?W&d?
+cEs(X
 cHRM Blue X
 cHRM Blue Y
 cHRM Green X
@@ -21642,7 +21646,7 @@ hypot
 hz-gb-2312
 h}	!l
 i&Ma.
-i''av
+i.Mmp
 i1!i6Ai;ai@
 i= BGRtZ= ZYXtI=rbCYt8
 iCCP: invalid keyword
@@ -21651,7 +21655,6 @@ iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWj
 iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
-iZ,<]
 iacute
 ibm737
 ibm775
@@ -22317,7 +22320,6 @@ lwtpt
 lycian
 lydian
 m,!$;Y
-m1Ndp
 m1WY$
 m5u5A6I6
 m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
@@ -23122,7 +23124,6 @@ q#(R$=
 q0v0{0
 q@WS+q(
 q@WUV
-qF@9lv
 q[khc
 q_nk[)2(17.07-16*05,/3-/3-/4..1,.5.2?43@3@M:IX@BU8Mg@Gb9XrJ]xT4D5heVheVheVheVheVgeUkd[ndXghP}
 qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
@@ -23305,6 +23306,7 @@ s90*
 s<Uh@
 s?? yish???go b
 sFFou
+sFdmQ
 sJWSU
 sPLT chunk has bad length
 sPLT chunk requires too much memory

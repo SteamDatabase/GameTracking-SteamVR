@@ -4179,8 +4179,8 @@
  putc
  putwc
  qsort
- r C.1147.340945
- r C.1150.340956
+ r C.1147.340950
+ r C.1150.340961
  r C.427.288574
  r CSWTCH.101
  r CSWTCH.213
@@ -5628,8 +5628,8 @@
  t (anonymous namespace)::xwrite(int, char const*, int)
  t .L10
  t .L100
- t .L1000
- t .L1005
+ t .L1004
+ t .L1006
  t .L1007
  t .L1008
  t .L1009
@@ -5658,14 +5658,13 @@
  t .L1022
  t .L1023
  t .L1024
- t .L1025
- t .L1027
+ t .L1026
+ t .L1029
  t .L103
  t .L1030
- t .L1031
+ t .L1032
  t .L1033
  t .L1034
- t .L1035
  t .L1036
  t .L1037
  t .L1038
@@ -5676,8 +5675,9 @@
  t .L1042
  t .L1043
  t .L1044
- t .L1049
+ t .L1048
  t .L105
+ t .L1050
  t .L1051
  t .L1052
  t .L1053
@@ -5690,7 +5690,6 @@
  t .L106
  t .L1060
  t .L1061
- t .L1062
  t .L1063
  t .L1064
  t .L1065
@@ -6432,6 +6431,7 @@
  t .L24
  t .L240
  t .L241
+ t .L242
  t .L243
  t .L244
  t .L245
@@ -6745,9 +6745,8 @@
  t .L335
  t .L336
  t .L337
- t .L338
+ t .L339
  t .L34
- t .L340
  t .L342
  t .L343
  t .L344
@@ -6871,23 +6870,21 @@
  t .L4230
  t .L424
  t .L4248
- t .L425
  t .L4250
  t .L4251
  t .L4271
  t .L429
  t .L43
  t .L430
- t .L431
+ t .L432
  t .L433
  t .L434
  t .L435
  t .L436
- t .L437
  t .L438
  t .L439
  t .L44
- t .L440
+ t .L441
  t .L442
  t .L443
  t .L444
@@ -7180,7 +7177,7 @@
  t .L592
  t .L593
  t .L594
- t .L595
+ t .L596
  t .L597
  t .L598
  t .L599
@@ -7202,6 +7199,7 @@
  t .L613
  t .L614
  t .L615
+ t .L616
  t .L617
  t .L618
  t .L619
@@ -7218,7 +7216,8 @@
  t .L629
  t .L63
  t .L630
- t .L633
+ t .L632
+ t .L634
  t .L635
  t .L636
  t .L637
@@ -7247,7 +7246,6 @@
  t .L658
  t .L659
  t .L66
- t .L660
  t .L661
  t .L662
  t .L663
@@ -7451,6 +7449,7 @@
  t .L816
  t .L817
  t .L82
+ t .L823
  t .L824
  t .L825
  t .L826
@@ -7499,7 +7498,8 @@
  t .L9021
  t .L9022
  t .L9023
- t .L904
+ t .L903
+ t .L905
  t .L906
  t .L907
  t .L908
@@ -7529,20 +7529,20 @@
  t .L929
  t .L93
  t .L930
- t .L931
- t .L933
- t .L937
+ t .L932
+ t .L936
+ t .L938
  t .L939
  t .L94
  t .L940
  t .L941
- t .L942
- t .L944
+ t .L943
  t .L95
  t .L96
  t .L97
+ t .L976
  t .L977
- t .L978
+ t .L979
  t .L98
  t .L980
  t .L981
@@ -7562,7 +7562,7 @@
  t .L994
  t .L995
  t .L996
- t .L997
+ t .L999
  t ActionDirectionNameToEnum(std::string const&)
  t ActionScopeNameToEnum(std::string const&)
  t ActionTypeNameToEnum(std::string const&)
@@ -29358,6 +29358,7 @@
  t vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse) [clone .cold]
  t vr::CVROverlayInternalLatest::SendKeyboardDone()
  t vr::CVROverlayInternalLatest::SendKeyboardDone() [clone .cold]
+ t vr::CVROverlayInternalLatest::SendOverlayClosed(unsigned long long)
  t vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long long, float)
  t vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long long, float) [clone .cold]
  t vr::CVROverlayInternalLatest::SetKeyboardOverlayHandle(unsigned long long)

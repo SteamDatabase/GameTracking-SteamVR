@@ -9,25 +9,25 @@
       u++
     )
       (s = a[u]),
-        Object.prototype.hasOwnProperty.call(i, s) && i[s] && p.push(i[s][0]),
-        (i[s] = 0);
+        Object.prototype.hasOwnProperty.call(o, s) && o[s] && p.push(o[s][0]),
+        (o[s] = 0);
     for (n in l) Object.prototype.hasOwnProperty.call(l, n) && (e[n] = l[n]);
     for (c && c(t); p.length; ) p.shift()();
-    return o.push.apply(o, d || []), r();
+    return i.push.apply(i, d || []), r();
   }
   function r() {
-    for (var e, t = 0; t < o.length; t++) {
-      for (var r = o[t], n = !0, a = 1; a < r.length; a++) {
+    for (var e, t = 0; t < i.length; t++) {
+      for (var r = i[t], n = !0, a = 1; a < r.length; a++) {
         var l = r[a];
-        0 !== i[l] && (n = !1);
+        0 !== o[l] && (n = !1);
       }
-      n && (o.splice(t--, 1), (e = s((s.s = r[0]))));
+      n && (i.splice(t--, 1), (e = s((s.s = r[0]))));
     }
     return e;
   }
   var n = {},
-    i = { 5: 0 },
-    o = [];
+    o = { 5: 0 },
+    i = [];
   function s(t) {
     if (n[t]) return n[t].exports;
     var r = (n[t] = { i: t, l: !1, exports: {} });
@@ -83,13 +83,13 @@
   (a.push = t), (a = a.slice());
   for (var d = 0; d < a.length; d++) t(a[d]);
   var c = l;
-  o.push(["5GKQ", 0, 1]), r();
+  i.push(["5GKQ", 0, 1]), r();
 })({
   "/i/y": function (e, t, r) {
     "use strict";
     var n = r("mrSG"),
-      i = r("7wIv"),
-      o = r.n(i);
+      o = r("7wIv"),
+      i = r.n(o);
     class s {
       constructor() {
         (this.m_wsWebSocketToServer = void 0),
@@ -271,17 +271,17 @@
       let t = 0.5 * e.x,
         r = 0.5 * e.y,
         n = 0.5 * e.z,
-        i = Math.cos(t),
-        o = Math.cos(r),
+        o = Math.cos(t),
+        i = Math.cos(r),
         s = Math.cos(n),
         a = Math.sin(t),
         l = Math.sin(r),
         d = Math.sin(n);
       return {
-        w: i * o * s + a * l * d,
-        x: a * o * s + i * l * d,
-        y: i * l * s - a * o * d,
-        z: i * o * d - a * l * s,
+        w: o * i * s + a * l * d,
+        x: a * i * s + o * l * d,
+        y: o * l * s - a * i * d,
+        z: o * i * d - a * l * s,
       };
     }
     function f(e) {
@@ -326,11 +326,11 @@
     function b(e, t) {
       let r = 2 * (e.y * t.z - e.z * t.y),
         n = 2 * (e.z * t.x - e.x * t.z),
-        i = 2 * (e.x * t.y - e.y * t.x);
+        o = 2 * (e.x * t.y - e.y * t.x);
       return {
-        x: t.x + e.w * r + e.y * i - e.z * n,
-        y: t.y + e.w * n + e.z * r - e.x * i,
-        z: t.z + e.w * i + e.x * n - e.y * r,
+        x: t.x + e.w * r + e.y * o - e.z * n,
+        y: t.y + e.w * n + e.z * r - e.x * o,
+        z: t.z + e.w * o + e.x * n - e.y * r,
       };
     }
     function y(e, t, r) {
@@ -359,11 +359,11 @@
       return { w: e.w / t, x: -e.x / t, y: -e.y / t, z: -e.z / t };
     }
     (s.s_nNextMailboxNumber = 1),
-      Object(n.b)([i.bind], s.prototype, "OpenWebSocketToHost", null),
-      Object(n.b)([i.bind], s.prototype, "OnWebSocketOpen", null),
-      Object(n.b)([i.bind], s.prototype, "OnWebSocketClose", null),
-      Object(n.b)([i.bind], s.prototype, "WebSocketSend", null),
-      Object(n.b)([i.bind], s.prototype, "OnWebSocketMessage", null);
+      Object(n.b)([o.bind], s.prototype, "OpenWebSocketToHost", null),
+      Object(n.b)([o.bind], s.prototype, "OnWebSocketOpen", null),
+      Object(n.b)([o.bind], s.prototype, "OnWebSocketClose", null),
+      Object(n.b)([o.bind], s.prototype, "WebSocketSend", null),
+      Object(n.b)([o.bind], s.prototype, "OnWebSocketMessage", null);
     class C {
       constructor() {
         (this.m_mailbox = new s()), this.m_mailbox.Init("sgtransformcache");
@@ -372,17 +372,17 @@
         return C.instance || (C.instance = new C()), C.instance;
       }
       requestSGTransform(e, t = 0) {
-        return new Promise((r, i) =>
+        return new Promise((r, o) =>
           Object(n.a)(this, void 0, void 0, function* () {
             let n = { type: "transform_request", id: e, flPushDistance: t },
-              o = yield this.m_mailbox.SendMessageAndWaitForResponse(
+              i = yield this.m_mailbox.SendMessageAndWaitForResponse(
                 "vrcompositor_systemlayer",
                 n,
                 "transform_response"
               );
-            o.id == e && o.transform
-              ? r(o.transform)
-              : i("requestSGTransform failed");
+            i.id == e && i.transform
+              ? r(i.transform)
+              : o("requestSGTransform failed");
           })
         );
       }
@@ -433,99 +433,99 @@
           let r = t.buildNode;
           if (r) return r(e, t);
           let n = Object.assign({}, e),
-            i = null;
+            o = null;
           switch (t.nodeName.toUpperCase()) {
             case "VSG-TRANSFORM":
-              (i = T("transform", t)),
-                (i.properties.translation = x(t, "translation")),
-                (i.properties.rotation = x(t, "rotation")),
-                (i.properties.scale = x(t, "scale")),
-                (i.properties["parent-path"] = O(t, "parent-path")),
-                (i.properties["parent-origin"] = O(t, "parent-origin")),
-                (i.properties["parent-id"] = F(t, "parent-id"));
+              (o = T("transform", t)),
+                (o.properties.translation = x(t, "translation")),
+                (o.properties.rotation = x(t, "rotation")),
+                (o.properties.scale = x(t, "scale")),
+                (o.properties["parent-path"] = O(t, "parent-path")),
+                (o.properties["parent-origin"] = O(t, "parent-origin")),
+                (o.properties["parent-id"] = F(t, "parent-id"));
               break;
             case "VSG-TRACKING-STATE-VISIBILITY":
-              (i = T("trackingstatevisibility", t)),
-                (i.properties["visible-0dof"] = w(t, "visible-0dof")),
-                (i.properties["visible-3dof"] = w(t, "visible-3dof")),
-                (i.properties["visible-6dof"] = w(t, "visible-6dof"));
+              (o = T("trackingstatevisibility", t)),
+                (o.properties["visible-0dof"] = w(t, "visible-0dof")),
+                (o.properties["visible-3dof"] = w(t, "visible-3dof")),
+                (o.properties["visible-6dof"] = w(t, "visible-6dof"));
               break;
             case "VSG-ELASTIC-HEAD-TRANSFORM":
-              (i = T("elasticheadtransform", t)),
-                (i.properties["start-angle-threshold"] = M(
+              (o = T("elasticheadtransform", t)),
+                (o.properties["start-angle-threshold"] = M(
                   t,
                   "start-angle-threshold"
                 )),
-                (i.properties["stop-angle-threshold"] = M(
+                (o.properties["stop-angle-threshold"] = M(
                   t,
                   "stop-angle-threshold"
                 )),
-                (i.properties["ease-in-time"] = M(t, "ease-in-time")),
-                (i.properties["ease-in-power"] = M(t, "ease-in-power")),
-                (i.properties["ease-out-angle-threshold"] = M(
+                (o.properties["ease-in-time"] = M(t, "ease-in-time")),
+                (o.properties["ease-in-power"] = M(t, "ease-in-power")),
+                (o.properties["ease-out-angle-threshold"] = M(
                   t,
                   "ease-out-angle-threshold"
                 )),
-                (i.properties["ease-out-power"] = M(t, "ease-out-power")),
-                (i.properties["min-angular-velocity"] = M(
+                (o.properties["ease-out-power"] = M(t, "ease-out-power")),
+                (o.properties["min-angular-velocity"] = M(
                   t,
                   "min-angular-velocity"
                 )),
-                (i.properties["max-angular-velocity"] = M(
+                (o.properties["max-angular-velocity"] = M(
                   t,
                   "max-angular-velocity"
                 )),
-                (i.properties["lock-to-horizon"] = w(t, "lock-to-horizon")),
-                (i.properties["translation-behavior"] = P(
+                (o.properties["lock-to-horizon"] = w(t, "lock-to-horizon")),
+                (o.properties["translation-behavior"] = P(
                   t,
                   "translation-behavior"
                 ));
               break;
             case "VSG-LINE":
-              (i = T("line", t)),
-                (i.properties["target-id"] = F(t, "target-id")),
-                (i.properties.thickness = M(t, "thickness")),
-                (i.properties["start-buffer"] = M(t, "start-buffer")),
-                (i.properties["end-buffer"] = M(t, "end-buffer"));
+              (o = T("line", t)),
+                (o.properties["target-id"] = F(t, "target-id")),
+                (o.properties.thickness = M(t, "thickness")),
+                (o.properties["start-buffer"] = M(t, "start-buffer")),
+                (o.properties["end-buffer"] = M(t, "end-buffer"));
               break;
             case "VSG-LINE-CONSTRAINED-TRANSFORM":
-              (i = T("line-constrained-transform", t)),
-                (i.properties["target-id"] = F(t, "target-id")),
-                (i.properties["source-id"] = F(t, "source-id")),
-                (i.properties["source-distance"] = M(t, "source-distance")),
-                (i.properties["target-limit"] = M(t, "target-limit"));
+              (o = T("line-constrained-transform", t)),
+                (o.properties["target-id"] = F(t, "target-id")),
+                (o.properties["source-id"] = F(t, "source-id")),
+                (o.properties["source-distance"] = M(t, "source-distance")),
+                (o.properties["target-limit"] = M(t, "target-limit"));
               break;
             case "VSG-CALLOUT-TRANSFORM":
-              (i = T("callout-transform", t)),
-                (i.properties.offset = x(t, "offset"));
+              (o = T("callout-transform", t)),
+                (o.properties.offset = x(t, "offset"));
               break;
             case "VSG-HEAD-FACING-TRANSFORM":
-              i = T("head-facing-transform", t);
+              o = T("head-facing-transform", t);
               break;
             case "VSG-PIN-TO-VIEW-TRANSFORM":
-              (i = T("pin-to-view-transform", t)),
-                (i.properties["offscreen-z-depth"] = M(t, "offscreen-z-depth")),
-                (i.properties["off-axis-limit"] = M(t, "off-axis-limit")),
-                (i.properties["transition-limit"] = M(t, "transition-limit"));
+              (o = T("pin-to-view-transform", t)),
+                (o.properties["offscreen-z-depth"] = M(t, "offscreen-z-depth")),
+                (o.properties["off-axis-limit"] = M(t, "off-axis-limit")),
+                (o.properties["transition-limit"] = M(t, "transition-limit"));
           }
-          return [n, i];
+          return [n, o];
         })(e, t),
-        i = [];
+        o = [];
       for (let e = 0; e < t.children.length; e++) {
         let n = t.children.item(e);
         if (n.children) {
           let e = N(r, n);
-          e && (i = i.concat(e));
+          e && (o = o.concat(e));
         }
       }
       return r.bShouldAbort
         ? null
         : n
-        ? (i.length > 0 && (n.children = i), [n])
-        : i.length > 0
-        ? 1 == i.length
-          ? i
-          : [{ children: i }]
+        ? (o.length > 0 && (n.children = o), [n])
+        : o.length > 0
+        ? 1 == o.length
+          ? o
+          : [{ children: o }]
         : null;
     }
     let B,
@@ -688,7 +688,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(n.b)([o.a], ee.prototype, "buildNode", null);
+    Object(n.b)([i.a], ee.prototype, "buildNode", null);
     class te extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
@@ -706,7 +706,7 @@
         );
       }
     }
-    Object(n.b)([o.a], te.prototype, "buildNode", null);
+    Object(n.b)([i.a], te.prototype, "buildNode", null);
     class re extends $ {
       constructor(e) {
         var t;
@@ -750,7 +750,7 @@
         );
       }
     }
-    Object(n.b)([o.a], re.prototype, "buildNode", null);
+    Object(n.b)([i.a], re.prototype, "buildNode", null);
     class ne extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
@@ -771,8 +771,8 @@
         return [e, r];
       }
     }
-    Object(n.b)([o.a], ne.prototype, "buildNode", null);
-    class ie extends $ {
+    Object(n.b)([i.a], ne.prototype, "buildNode", null);
+    class oe extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -784,13 +784,13 @@
         return (r.properties.opacity = this.props.value), [e, r];
       }
     }
-    var oe, se, ae, le, de, ce, ue, pe, he, _e, me;
-    Object(n.b)([o.a], ie.prototype, "buildNode", null),
+    var ie, se, ae, le, de, ce, ue, pe, he, _e, me;
+    Object(n.b)([i.a], oe.prototype, "buildNode", null),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.Raw = 2)] = "Raw");
-      })(oe || (oe = {}));
+      })(ie || (ie = {}));
     class ge extends $ {
       constructor(e) {
         super(e);
@@ -823,18 +823,18 @@
                   }
                 : Q(this.props.scale, { x: 1, y: 1, z: 1 })));
         let n = Z(e),
-          i = (function (e) {
+          o = (function (e) {
             if (e) return e.w + " " + e.x + " " + e.y + " " + e.z;
           })(t),
-          o = Z(r);
+          i = Z(r);
         return I.createElement(
           "vsg-transform",
           {
             translation: n,
-            rotation: i,
-            scale: o,
+            rotation: o,
+            scale: i,
             "parent-path": this.props.parent_path,
-            "parent-origin": oe[this.props.parent_origin],
+            "parent-origin": ie[this.props.parent_origin],
             "parent-id": this.props.parent_id,
           },
           this.props.children
@@ -1017,15 +1017,15 @@
           (this.m_bOverdragBlocking = !1));
       }
       createOverdragBlockingElement(e, t, r, n) {
-        let i = document.createElement("div");
-        (i.style.position = "absolute"),
-          (i.style.top = t + "px"),
-          (i.style.left = e + "px"),
-          (i.style.width = r + "px"),
-          (i.style.height = n + "px"),
-          (i.style.zIndex = "90019001"),
-          this.m_overdragBlockingElements.push(i),
-          document.body.appendChild(i);
+        let o = document.createElement("div");
+        (o.style.position = "absolute"),
+          (o.style.top = t + "px"),
+          (o.style.left = e + "px"),
+          (o.style.width = r + "px"),
+          (o.style.height = n + "px"),
+          (o.style.zIndex = "90019001"),
+          this.m_overdragBlockingElements.push(o),
+          document.body.appendChild(o);
       }
       onWindowMouseUp(e) {
         this.stopOverDragBlocking();
@@ -1038,7 +1038,7 @@
         return null != (e = this.props.visibility) ? e : de.Visible;
       }
       buildNode(e, t) {
-        var r, n, i, o, s;
+        var r, n, o, i, s;
         if (this.visibility != de.Visible) return [e, null];
         let a = Object.assign({}, e),
           l = this.createSgNode(t),
@@ -1062,8 +1062,8 @@
               })()),
           (l.properties.uv_min = null != (r = be(this.m_UVsMin)) ? r : void 0),
           (l.properties.uv_max = null != (n = be(this.m_UVsMax)) ? n : void 0),
-          (l.properties.width = null != (i = this.props.width) ? i : void 0),
-          (l.properties.height = null != (o = this.props.height) ? o : void 0),
+          (l.properties.width = null != (o = this.props.width) ? o : void 0),
+          (l.properties.height = null != (i = this.props.height) ? i : void 0),
           (l.properties["min-width"] =
             null != (s = this.props.min_width) ? s : void 0),
           (l.properties["target-width-anchor-id"] = z(
@@ -1129,10 +1129,10 @@
       }
     }
     (ve.s_bPanelsAreDirty = !1),
-      Object(n.b)([o.a], ve.prototype, "onResizeObserved", null),
-      Object(n.b)([o.a], ve.prototype, "onPanelMouseDown", null),
-      Object(n.b)([o.a], ve.prototype, "onWindowMouseUp", null),
-      Object(n.b)([o.a], ve.prototype, "buildNode", null);
+      Object(n.b)([i.a], ve.prototype, "onResizeObserved", null),
+      Object(n.b)([i.a], ve.prototype, "onPanelMouseDown", null),
+      Object(n.b)([i.a], ve.prototype, "onWindowMouseUp", null),
+      Object(n.b)([i.a], ve.prototype, "buildNode", null);
     class Se extends I.Component {
       constructor(e) {
         super(e),
@@ -1196,7 +1196,7 @@
         let r = Math.max(0, Math.floor((this.m_nEmbeddedDataWidth - 1) / 3));
         for (let e = 0; e < r; e++)
           this.m_rAvailableEmbeddedIndicesQueue.push(e);
-        var n, i, o;
+        var n, o, i;
         e.addEventListener("mousemove", this.onMouseMove),
           (this.m_Observer = new MutationObserver(this.onMutation)),
           this.m_Observer.observe(this.m_DomRef.current, {
@@ -1212,11 +1212,11 @@
           (t.toggleDebugPointer = this.toggleDebugPointer),
           (this.props.owning_overlay_key || this.props.web_secret) &&
             ((n = this.props.owning_overlay_key),
-            (i = this.m_DomRef.current),
-            (o = this.props.web_secret),
+            (o = this.m_DomRef.current),
+            (i = this.props.web_secret),
             (B = n),
-            (E = i),
-            (A = o),
+            (E = o),
+            (A = i),
             console.log("Setting owning overlay key to " + n));
       }
       componentWillUnmount() {
@@ -1286,16 +1286,16 @@
           t = this.m_scalingDomRef.current.getBoundingClientRect(),
           r = t.width / this.m_fCurrentScale,
           n = t.height / this.m_fCurrentScale,
-          i = { x: e.innerWidth / r, y: e.innerHeight / n },
-          o = Math.min(i.x, i.y, 1);
-        o != this.m_fCurrentScale &&
-          (1 != o
+          o = { x: e.innerWidth / r, y: e.innerHeight / n },
+          i = Math.min(o.x, o.y, 1);
+        i != this.m_fCurrentScale &&
+          (1 != i
             ? this.m_scalingDomRef.current.setAttribute(
                 "style",
-                "transform: scale(" + o + "); transform-origin: top left"
+                "transform: scale(" + i + "); transform-origin: top left"
               )
             : this.m_scalingDomRef.current.removeAttribute("style"),
-          (this.m_fCurrentScale = o),
+          (this.m_fCurrentScale = i),
           (ve.s_bPanelsAreDirty = !0)),
           ve.s_bPanelsAreDirty &&
             (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
@@ -1320,19 +1320,19 @@
           this.m_mapPanels.forEach((e, t) => {
             let r = e.m_Rect.x,
               n = e.m_Rect.x + e.m_Rect.width,
-              i = e.m_Rect.y,
-              o = e.m_Rect.y + e.m_Rect.height,
+              o = e.m_Rect.y,
+              i = e.m_Rect.y + e.m_Rect.height,
               s = 1 + 3 * e.getEmbeddedIndex();
-            if (e.isExternal() || r >= n || i >= o)
+            if (e.isExternal() || r >= n || o >= i)
               for (let e = 0; e < 3; e++) this.setPixel(s + 1, 0, 0, 0, 0);
             else
               this.setPixel(s, (65280 & r) >> 8, 255 & r, 0),
-                this.setPixel(s + 1, (65280 & n) >> 8, 255 & n, 255 & i),
+                this.setPixel(s + 1, (65280 & n) >> 8, 255 & n, 255 & o),
                 this.setPixel(
                   s + 2,
-                  (65280 & o) >> 8,
-                  255 & o,
-                  (65280 & i) >> 8
+                  (65280 & i) >> 8,
+                  255 & i,
+                  (65280 & o) >> 8
                 );
           });
         let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
@@ -1348,11 +1348,11 @@
           (this.m_nDirtyXMin = -1),
           (this.m_nDirtyXMax = -1);
       }
-      setPixel(e, t, r, n, i = 255) {
+      setPixel(e, t, r, n, o = 255) {
         (this.m_Pixels.data[4 * e + 0] = t),
           (this.m_Pixels.data[4 * e + 1] = r),
           (this.m_Pixels.data[4 * e + 2] = n),
-          (this.m_Pixels.data[4 * e + 3] = i),
+          (this.m_Pixels.data[4 * e + 3] = o),
           (-1 === this.m_nDirtyXMin || e < this.m_nDirtyXMin) &&
             (this.m_nDirtyXMin = e),
           (-1 === this.m_nDirtyXMax || e > this.m_nDirtyXMax) &&
@@ -1361,12 +1361,12 @@
     }
     (Se.s_Current = null),
       (Se.k_EmbeddedDataRows = 1),
-      Object(n.b)([i.bind], Se.prototype, "toggleDebugPointer", null),
-      Object(n.b)([i.bind], Se.prototype, "onMouseMove", null),
-      Object(n.b)([i.bind], Se.prototype, "forceLayoutUpdate", null),
-      Object(n.b)([i.bind], Se.prototype, "onMutation", null);
+      Object(n.b)([o.bind], Se.prototype, "toggleDebugPointer", null),
+      Object(n.b)([o.bind], Se.prototype, "onMouseMove", null),
+      Object(n.b)([o.bind], Se.prototype, "forceLayoutUpdate", null),
+      Object(n.b)([o.bind], Se.prototype, "onMutation", null);
     Object(n.b)(
-      [o.a],
+      [i.a],
       class extends $ {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -1422,7 +1422,7 @@
         );
       }
     }
-    Object(n.b)([o.a], De.prototype, "buildNode", null);
+    Object(n.b)([i.a], De.prototype, "buildNode", null);
     class Re extends $ {
       constructor(e) {
         super(e);
@@ -1481,17 +1481,17 @@
             (n.properties["anchor-v"] = this.m_latchedPosition.v);
         else if (r) {
           const t = { u: 0.5 * r.x + 0.5, v: -0.5 * r.y + 0.5 },
-            i = e.currentPanel.props.overlay_key
+            o = e.currentPanel.props.overlay_key
               ? t
               : e.currentPanel.scaleLocalUVToGlobal(t);
-          (n.properties["anchor-u"] = i.u), (n.properties["anchor-v"] = i.v);
+          (n.properties["anchor-u"] = o.u), (n.properties["anchor-v"] = o.v);
         } else {
           const r = t.ownerDocument,
-            i = t.getBoundingClientRect(),
-            o = i.left + i.width / 2,
-            s = i.top + i.height / 2,
+            o = t.getBoundingClientRect(),
+            i = o.left + o.width / 2,
+            s = o.top + o.height / 2,
             a = e.currentPanel.m_Rect;
-          if (o < a.x || o > a.x + a.width || s < a.y || s > a.y + a.height)
+          if (i < a.x || i > a.x + a.width || s < a.y || s > a.y + a.height)
             return [
               Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
               null,
@@ -1503,7 +1503,7 @@
               Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
               null,
             ];
-          (n.properties["anchor-u"] = o / l),
+          (n.properties["anchor-u"] = i / l),
             (n.properties["anchor-v"] = s / d);
         }
         return (
@@ -1515,7 +1515,7 @@
         );
       }
     }
-    Object(n.b)([o.a], Ie.prototype, "buildNode", null);
+    Object(n.b)([i.a], Ie.prototype, "buildNode", null);
     !(function (e) {
       (e[(e.LockedToParent = 0)] = "LockedToParent"),
         (e[(e.LockedToWorld = 1)] = "LockedToWorld");
@@ -1537,7 +1537,7 @@
           n = this.props.min_angular_velocity
             ? (this.props.min_angular_velocity * Math.PI) / 180
             : null,
-          i = this.props.max_angular_velocity
+          o = this.props.max_angular_velocity
             ? (this.props.max_angular_velocity * Math.PI) / 180
             : null;
         return I.createElement(
@@ -1550,7 +1550,7 @@
             "ease-out-angle-threshold": r,
             "ease-out-power": this.props.ease_out_power,
             "min-angular-velocity": n,
-            "max-angular-velocity": i,
+            "max-angular-velocity": o,
             "lock-to-horizon": this.props.lock_to_horizon,
             "translation-behavior": this.props.translation_behavior,
           },
@@ -1660,7 +1660,8 @@
           (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
           (e[(e.EnableControlBar = 8388608)] = "EnableControlBar"),
           (e[(e.EnableControlBarKeyboard = 16777216)] =
-            "EnableControlBarKeyboard");
+            "EnableControlBarKeyboard"),
+          (e[(e.EnableControlBarClose = 33554432)] = "EnableControlBarClose");
       })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -2151,7 +2152,7 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(n.b)([o.a], Qe.prototype, "buildNode", null),
+    Object(n.b)([i.a], Qe.prototype, "buildNode", null),
       r.d(t, "c", function () {
         return s;
       }),
@@ -2216,13 +2217,13 @@
         return ne;
       }),
       r.d(t, "X", function () {
-        return ie;
+        return oe;
       }),
       r.d(t, "S", function () {
         return te;
       }),
       r.d(t, "B", function () {
-        return oe;
+        return ie;
       }),
       r.d(t, "lb", function () {
         return ge;
@@ -2361,12 +2362,12 @@
         return c;
       });
     var n = r("mrSG"),
-      i = r("q1tI"),
-      o = r("okNM"),
+      o = r("q1tI"),
+      i = r("okNM"),
       s = r("GXif"),
       a = r("Z0gP"),
       l = r("DwIg");
-    class d extends i.Component {
+    class d extends o.Component {
       constructor(e) {
         super(e);
       }
@@ -2392,34 +2393,34 @@
               ),
               []
             )),
-          i.createElement(
+          o.createElement(
             "div",
             { className: "FlexColumn" },
-            i.createElement(
+            o.createElement(
               "div",
               { className: t },
-              i.createElement(
+              o.createElement(
                 "div",
                 { className: "StateIcon" },
-                i.createElement("img", { src: e.state_icon })
+                o.createElement("img", { src: e.state_icon })
               ),
-              i.createElement(
+              o.createElement(
                 "div",
                 { className: "Label Status" },
-                i.createElement(
+                o.createElement(
                   "div",
                   { className: "FlexColumn" },
-                  i.createElement("div", { className: "Label" }, e.state_text),
+                  o.createElement("div", { className: "Label" }, e.state_text),
                   e.has_battery &&
-                    i.createElement(
+                    o.createElement(
                       "div",
                       { className: "FlexRow" },
-                      i.createElement(
+                      o.createElement(
                         "div",
                         { className: "BatteryIcon" },
-                        i.createElement("img", { src: e.battery_state_icon })
+                        o.createElement("img", { src: e.battery_state_icon })
                       ),
-                      i.createElement(
+                      o.createElement(
                         "div",
                         { className: "Label SubLabel" },
                         " ",
@@ -2428,18 +2429,18 @@
                       )
                     ),
                   e.state_secondary_text &&
-                    i.createElement(
+                    o.createElement(
                       "div",
                       { className: "Label SubLabel" },
                       e.state_secondary_text
                     )
                 )
               ),
-              i.createElement(
+              o.createElement(
                 "div",
                 { className: "Actions" },
                 r.length > 0 &&
-                  i.createElement(l.a, {
+                  o.createElement(l.a, {
                     vecOptions: r,
                     sModalTitleString: Object(s.c)(
                       "#BindingUI_Chord_SelectActionModalHeader"
@@ -2456,7 +2457,7 @@
         );
       }
     }
-    let c = class extends i.Component {
+    let c = class extends o.Component {
       constructor(e) {
         super(e);
       }
@@ -2464,7 +2465,7 @@
         return null;
       }
     };
-    c = Object(n.b)([o.a], c);
+    c = Object(n.b)([i.a], c);
   },
   "5GKQ": function (e, t, r) {
     "use strict";
@@ -2476,8 +2477,8 @@
         return u;
       });
     var n = r("mrSG"),
-      i = r("q1tI"),
-      o = r("i8i4"),
+      o = r("q1tI"),
+      i = r("i8i4"),
       s = r("Z0gP"),
       a = r("/i/y"),
       l = r("2LNE"),
@@ -2488,24 +2489,24 @@
       }
       render() {
         let e = this.props.status;
-        return i.createElement(
+        return o.createElement(
           "div",
           {
             className:
               "DeviceStatus " + (e.is_connected ? "Connected" : "Disconnected"),
           },
-          i.createElement(
+          o.createElement(
             a.lb,
             { rotation: { x: -20, y: 180 } },
-            i.createElement(a.db, { source: e.rendermodelname })
+            o.createElement(a.db, { source: e.rendermodelname })
           ),
-          i.createElement(
+          o.createElement(
             a.lb,
             { translation: { y: -0.37 } },
-            i.createElement(
+            o.createElement(
               a.Y,
               { height: 0.18, width: void 0 },
-              i.createElement(
+              o.createElement(
                 "div",
                 { className: "DeviceStatusLabel" },
                 e.model || e.class_string
@@ -2515,70 +2516,70 @@
         );
       }
     }
-    let u = class extends i.Component {
+    let u = class extends o.Component {
       render() {
         let e = [],
           t = Math.min(e.length, 4),
           r = e.map((e, r) => {
             let n = Math.floor(r / t),
-              o = Math.floor(r % t);
-            return i.createElement(
+              i = Math.floor(r % t);
+            return o.createElement(
               a.lb,
               {
                 key: e.serial,
-                translation: { x: 0.8 * (o - (t - 1) / 2), y: 0.7 * -n },
+                translation: { x: 0.8 * (i - (t - 1) / 2), y: 0.7 * -n },
               },
-              i.createElement(c, { status: e })
+              o.createElement(c, { status: e })
             );
           }),
           n = Math.floor(e.length / t),
-          o = "system ready" == s.a.status.status_string.toLowerCase(),
+          i = "system ready" == s.a.status.status_string.toLowerCase(),
           l = "system not ready" == s.a.status.status_string.toLowerCase(),
           d = null;
         return (
           s.a.status.is_perforce
             ? (d = "Perforce")
             : s.a.status.is_main && (d = "Main"),
-          i.createElement(
+          o.createElement(
             "div",
             null,
             r,
-            i.createElement(
+            o.createElement(
               a.lb,
               { translation: { y: -0.7 * (n + 1) }, rotation: { x: -20 } },
-              i.createElement(
+              o.createElement(
                 a.Y,
                 { width: 3.2, height: void 0 },
-                i.createElement(
+                o.createElement(
                   "div",
                   { className: "MonitorPanel" },
-                  i.createElement(
+                  o.createElement(
                     "div",
                     { className: "SteamTitleLabel" },
-                    null !== d && i.createElement("span", null, "[", d, "] "),
+                    null !== d && o.createElement("span", null, "[", d, "] "),
                     "SteamVR"
                   ),
-                  i.createElement(
+                  o.createElement(
                     "div",
                     {
                       className:
                         "SteamStatusLabel " +
-                        (o ? "Ready" : l ? "NotReady" : ""),
+                        (i ? "Ready" : l ? "NotReady" : ""),
                     },
                     !s.a.connected &&
-                      i.createElement("span", null, "Loading System Status"),
+                      o.createElement("span", null, "Loading System Status"),
                     s.a.status && s.a.status.status_string
                   ),
                   s.a.connected &&
-                    i.createElement(
+                    o.createElement(
                       "div",
                       { className: "SteamStatusRight" },
                       s.a.status.hostname &&
-                        i.createElement(
+                        o.createElement(
                           "div",
                           { className: "Hostname" },
                           "Hostname:",
-                          i.createElement("br", null),
+                          o.createElement("br", null),
                           s.a.status.hostname
                         )
                     )
@@ -2590,40 +2591,40 @@
       }
     };
     u = Object(n.b)([d.a], u);
-    class p extends i.Component {
+    class p extends o.Component {
       constructor(e) {
         super(e), s.a.Init(), (this.state = { Message: "Loading..." });
       }
       render() {
-        return i.createElement(
+        return o.createElement(
           a.kb,
           { visibleIn3DOF: !0, visibleIn6DOF: !1 },
-          i.createElement(
+          o.createElement(
             a.lb,
             { parent_path: "/user/head" },
-            i.createElement(
+            o.createElement(
               a.G,
               null,
-              i.createElement(
+              o.createElement(
                 a.lb,
                 { translation: { z: -5, y: 1 } },
-                i.createElement(
+                o.createElement(
                   a.lb,
                   { translation: { y: 0.35 }, rotation: { x: 20 } },
-                  i.createElement(
+                  o.createElement(
                     a.Y,
                     { width: 3.2, height: void 0 },
-                    i.createElement(
+                    o.createElement(
                       "div",
                       { className: "TrackingLostPanel" },
                       "Tracking lost"
                     )
                   )
                 ),
-                i.createElement(
+                o.createElement(
                   a.lb,
                   { translation: { y: -0.2 } },
-                  i.createElement(u, null)
+                  o.createElement(u, null)
                 )
               )
             )
@@ -2631,10 +2632,10 @@
         );
       }
     }
-    o.render(
-      i.createElement(a.eb, null, i.createElement(p, null)),
+    i.render(
+      o.createElement(a.eb, null, o.createElement(p, null)),
       document.getElementById("root")
     );
   },
 });
-//# sourceMappingURL=fallback.js.map?v=fffaaf25b7e89e1c3cb8
+//# sourceMappingURL=fallback.js.map?v=1aee75aab466ba8ca0f6

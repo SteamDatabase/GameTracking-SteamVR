@@ -41,7 +41,6 @@
 .data
 .data$r
 .edata
-.fR5L
 .idata$2
 .idata$3
 .idata$4
@@ -98,7 +97,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220419014454Z0/
+220426194153Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -135,8 +134,8 @@ A_A^_
 A_A^_^]
 AjEB#AZ
 AuthD
+B\(_!.U
 Bellevue1
-CNM\A
 CloseHandle
 CreateEventW
 D$8H9
@@ -163,6 +162,7 @@ H95Dz
 H95E}
 H95O~
 H9w`tFH
+HaYaL:k
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -200,13 +200,11 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 NPH9Q
 Out of thread local storage!
-O|I@	
 PAq=?Mp#
-P\UtX
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSdJ
+RSDS/
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -303,11 +301,13 @@ _seh_filter_dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
+b'e4A
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
 e,>~^
+hq-V#
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -329,7 +329,6 @@ t$ WH
 t$@H=
 tXfff
 terminate
-tpi&i
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
@@ -345,7 +344,6 @@ x]~\6
 {gamepad}/input/gamepad_profile.json
 {un'%
 |$ AVH
-|3,=P
 |Lu?c
 }LuHO
 ~t&LN

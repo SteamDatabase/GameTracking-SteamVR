@@ -2,8 +2,6 @@
  %41g
  (Camera)
 !hn7!
-##ErM
-$(?cP!m/m
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
@@ -12,8 +10,6 @@ $(?cP!m/m
 +o'q)}
 , last executing in 
 ,W5y+
--("%>K
--lWT2
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -96,7 +92,7 @@ $(?cP!m/m
 211007000000Z
 220323000000Z
 220329000000Z
-220419014055Z0/
+220426193906Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -214,7 +210,7 @@ $(?cP!m/m
 ADVAPI32.dll
 AjEB#AZ
 Bellevue1
-C2,Lr
+Brq5*s	
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -240,6 +236,7 @@ EventWriteString
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
+F{%?%
 GetCurrentDirectoryW
 GetCurrentProcess
 GetCurrentProcessId
@@ -266,6 +263,7 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+IbO?Z
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitDirectMode: DX11 level hardware required!
 InitDirectMode: Failed to create D3D11 device! (err=%u)
@@ -297,7 +295,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS"<
 RaiseException
 S0Q0O
 SA|X=G
@@ -319,6 +316,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+UJhbf
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -404,7 +402,9 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i<Z/oZ
 invalid string position
+j@"ua
 jdjdh
 jj@0HK4
 k0i0$
@@ -482,7 +482,6 @@ x]~\6
 {oculus_legacy}/icons/%s_%s_ready_alert.png
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
-{qj].S'
 {un'%
 |Lu?c
 }LuHO

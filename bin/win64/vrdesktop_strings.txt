@@ -148,7 +148,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220419014507Z0/
+220426194206Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -168,6 +168,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+:	/{b
 < t+<
 </u#H
 <0:08
@@ -435,6 +436,7 @@ Handling lock mouse
 Handling mouse button down
 Handling mouse button up
 Handling mouse move
+Handling overlay closed
 Handling overlay events
 Handling overlay focus enter
 Handling overlay focus leave
@@ -549,6 +551,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+ROr0:
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -634,6 +637,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+Vo~.x
 W H+W
 WATAUAVAWH
 WAVAWH
@@ -642,6 +646,7 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+Y/_#&a
 Y9"SD
 [K]taM?
 \$ E3
@@ -716,8 +721,10 @@ assert json failed
 bad allocation
 bad array new length
 bg_bg
+bp0aR
 brazilian
 bulgarian
+c(hsT
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
@@ -726,9 +733,9 @@ c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
 d$`H=
-d$hM;
-d$pE3
+d$`M;
 d3d11.dll
+d5SDvm
 da_da
 danish
 de_de
@@ -742,6 +749,7 @@ en_us
 english
 es_es
 es_mx
+ewHvh
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fF94@u
@@ -800,7 +808,6 @@ message_id
 no_no
 norwegian
 ntelD
-ocX4l
 ole32.dll
 openvr_api.dll
 overlay_keyboard_closed

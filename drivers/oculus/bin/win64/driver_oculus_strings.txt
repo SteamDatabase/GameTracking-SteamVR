@@ -458,7 +458,7 @@ $w!Hc
 211007000000Z
 220323000000Z
 220329000000Z
-220419014515Z0/
+220426194219Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -740,6 +740,7 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
+A~D=d
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -748,7 +749,6 @@ Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 Buffer
 BufferView
-Bw9Zk
 C ;s@
 C @8{
 C D8s
@@ -1051,6 +1051,7 @@ I;4$H
 I;4$L
 I;8u?H
 I;V8r
+IBk::
 ID3D11DeviceContext4::Signal
 IDATH
 IServerTrackedDeviceProvider_004
@@ -1129,6 +1130,7 @@ J>@G_
 JSON string too short.
 KERNEL32.dll
 KHR_lights_punctual
+KhbPI$
 K}*n:	
 L$ E3
 L$ H;
@@ -1335,7 +1337,6 @@ T$pD;
 T$pL;
 T$xH;
 T$xL;
-T=/CM
 TANGENT
 TEXCOORD
 TUUUUUU
@@ -1500,6 +1501,7 @@ ZL$Xf
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ]g@8yhu
+]i+;6O}
 ^9k0tWD
 _Camera
 _Cnd_destroy
@@ -1739,6 +1741,7 @@ driver_oculus.vrchap
 dxgi.dll
 e,>~^
 eCS < CS_Count
+eOO:lV
 ePS < PS_Count
 eVS < VS_Count
 effffff
@@ -1786,7 +1789,6 @@ hand_right_poses.glb
 handlers
 headset
 height
-hlKIUh
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -1876,6 +1878,7 @@ italian
 ix`fA
 ja_jp
 japanese
+jbBtE
 jj@0HK4
 joints
 jsonid
@@ -1939,7 +1942,6 @@ mimeType
 minFilter
 minVersion
 missing color table
-mnL*$,.
 multiple IHDR
 n0_D@
 no IDAT
@@ -2429,7 +2431,6 @@ vietnamiese
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcompositor_mailbox
-v{I k
 w(M9w0tH
 wXH9w`t/H
 weights
@@ -2454,7 +2455,6 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
-{J|D?
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

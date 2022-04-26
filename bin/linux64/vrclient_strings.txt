@@ -1413,8 +1413,7 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:36:38
-0C
+0C19CVRRenderModels_005
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -1584,6 +1583,7 @@ $tI
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
+19:33:20
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1606,7 +1606,6 @@ $tI
 19CVRRenderModels_002
 19CVRRenderModels_003
 19CVRRenderModels_004
-19CVRRenderModels_005
 19CVRSteamPrivate_001
 19CVRSteamPrivate_002
 19CVRWatchdogHost_001
@@ -2185,6 +2184,8 @@ Action paths must take the form '/actions/<action set>/in|out/<action>'. "
 ActionDirectionNameToEnum(std::string const&)
 ActionScopeNameToEnum(std::string const&)
 ActionTypeNameToEnum(std::string const&)
+Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
+Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 Active pri %u, device=%s
 Actual    :
 AddBool
@@ -2264,7 +2265,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
-Apr 19 2022
+Apr 26 2022
 April
 Array for decompressed transforms is too small.  Needed %u got %u
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
@@ -2426,8 +2427,8 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1139.340799
-C.1142.340810
+C.1139.340804
+C.1142.340815
 C.413.288424
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -17417,6 +17418,7 @@ DashboardManagerInterfaceRegistration<CVRDashboardManager_001>::GetInterface()
 DashboardManagerInterfaceRegistration<CVRDashboardManager_001>::~DashboardManagerInterfaceRegistration()
 Dd
 De
+Deactivation threshold of %f will be set to the minimum allowed value %f in filter %s.
 Debug markers: disabled, missing entrypoints
 Debug markers: disabled, missing extension support. Is the Renderdoc layer enabled?
 Debug markers: enabled
@@ -22250,6 +22252,7 @@ N2vr22CVRNotificationsLatestE
 N2vr22IVRControllerComponentE
 N2vr22IVRExternalEventSourceE
 N2vr23IVRApplicationsInternalE
+N2vr23IVRDriverDirectInternalE
 N2vr23IVRRenderModelsInternalE
 N2vr24CVROverlayInternalLatestE
 N2vr24IVRTrackedCameraInternalE
@@ -23345,6 +23348,7 @@ St21__ctype_abstract_baseIwE
 St23_Sp_counted_ptr_inplaceI11CBlockQueueSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceI11VcetContextSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceI13InputConfig_tSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceI15CInputActionSetSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceI21CSimulatedTriggerPullSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceI23CSimulatedTrackpadClickSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceI6VcetBoSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE
@@ -24062,8 +24066,11 @@ VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
 VREvent_DashboardRequested
 VREvent_DashboardSectionSettingChanged
+VREvent_DesktopViewReady
+VREvent_DesktopViewUpdating
 VREvent_DismissedWarningsSectionSettingChanged
 VREvent_DriverRequestedQuit
+VREvent_ElevatePrism
 VREvent_EnableHomeAppSettingsHaveChanged
 VREvent_EnterStandbyMode
 VREvent_EnvironmentSettingsHaveChanged
@@ -24116,6 +24123,7 @@ VREvent_Notification_Shown
 VREvent_NotificationsSectionSettingChanged
 VREvent_NullSectionSettingChanged
 VREvent_OtherSectionSettingChanged
+VREvent_OverlayClosed
 VREvent_OverlayFocusChanged
 VREvent_OverlayGamepadFocusGained
 VREvent_OverlayGamepadFocusLost
@@ -24156,6 +24164,7 @@ VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
+VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged
 VREvent_SubmitScreenshotToDashboard
@@ -39074,6 +39083,7 @@ vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayRespo
 vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse) [clone .cold]
 vr::CVROverlayInternalLatest::SendKeyboardDone()
 vr::CVROverlayInternalLatest::SendKeyboardDone() [clone .cold]
+vr::CVROverlayInternalLatest::SendOverlayClosed(unsigned long)
 vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long, float)
 vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long, float) [clone .cold]
 vr::CVROverlayInternalLatest::SetKeyboardOverlayHandle(unsigned long)

@@ -789,8 +789,8 @@ $0}
 ./obj_vrclient_linux32/release/vrclient.so
 .L10
 .L100
-.L1000
-.L1005
+.L1004
+.L1006
 .L1007
 .L1008
 .L1009
@@ -819,14 +819,13 @@ $0}
 .L1022
 .L1023
 .L1024
-.L1025
-.L1027
+.L1026
+.L1029
 .L103
 .L1030
-.L1031
+.L1032
 .L1033
 .L1034
-.L1035
 .L1036
 .L1037
 .L1038
@@ -837,8 +836,9 @@ $0}
 .L1042
 .L1043
 .L1044
-.L1049
+.L1048
 .L105
+.L1050
 .L1051
 .L1052
 .L1053
@@ -851,7 +851,6 @@ $0}
 .L106
 .L1060
 .L1061
-.L1062
 .L1063
 .L1064
 .L1065
@@ -1593,6 +1592,7 @@ $0}
 .L24
 .L240
 .L241
+.L242
 .L243
 .L244
 .L245
@@ -1906,9 +1906,8 @@ $0}
 .L335
 .L336
 .L337
-.L338
+.L339
 .L34
-.L340
 .L342
 .L343
 .L344
@@ -2032,23 +2031,21 @@ $0}
 .L4230
 .L424
 .L4248
-.L425
 .L4250
 .L4251
 .L4271
 .L429
 .L43
 .L430
-.L431
+.L432
 .L433
 .L434
 .L435
 .L436
-.L437
 .L438
 .L439
 .L44
-.L440
+.L441
 .L442
 .L443
 .L444
@@ -2341,7 +2338,7 @@ $0}
 .L592
 .L593
 .L594
-.L595
+.L596
 .L597
 .L598
 .L599
@@ -2363,6 +2360,7 @@ $0}
 .L613
 .L614
 .L615
+.L616
 .L617
 .L618
 .L619
@@ -2379,7 +2377,8 @@ $0}
 .L629
 .L63
 .L630
-.L633
+.L632
+.L634
 .L635
 .L636
 .L637
@@ -2408,7 +2407,6 @@ $0}
 .L658
 .L659
 .L66
-.L660
 .L661
 .L662
 .L663
@@ -2612,6 +2610,7 @@ $0}
 .L816
 .L817
 .L82
+.L823
 .L824
 .L825
 .L826
@@ -2660,7 +2659,8 @@ $0}
 .L9021
 .L9022
 .L9023
-.L904
+.L903
+.L905
 .L906
 .L907
 .L908
@@ -2690,20 +2690,20 @@ $0}
 .L929
 .L93
 .L930
-.L931
-.L933
-.L937
+.L932
+.L936
+.L938
 .L939
 .L94
 .L940
 .L941
-.L942
-.L944
+.L943
 .L95
 .L96
 .L97
+.L976
 .L977
-.L978
+.L979
 .L98
 .L980
 .L981
@@ -2723,7 +2723,7 @@ $0}
 .L994
 .L995
 .L996
-.L997
+.L999
 .PLACEHOLDER_VALUE
 .bin
 .config
@@ -2926,7 +2926,6 @@ $0}
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:36:29
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -3071,6 +3070,7 @@ $0}
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
+19:33:17
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -3641,6 +3641,8 @@ Action paths must take the form '/actions/<action set>/in|out/<action>'. "
 ActionDirectionNameToEnum(std::string const&)
 ActionScopeNameToEnum(std::string const&)
 ActionTypeNameToEnum(std::string const&)
+Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
+Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 Active pri %u, device=%s
 Actual    :
 AddBool
@@ -3709,7 +3711,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
-Apr 19 2022
+Apr 26 2022
 April
 Array for decompressed transforms is too small.  Needed %u got %u
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
@@ -3857,8 +3859,8 @@ C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DescriptorPool::Tables]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1147.340945
-C.1150.340956
+C.1147.340950
+C.1150.340961
 C.427.288574
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -18218,6 +18220,7 @@ DashboardManagerInterfaceRegistration<CVRDashboardManager_001>::GetInterface()
 DashboardManagerInterfaceRegistration<CVRDashboardManager_001>::~DashboardManagerInterfaceRegistration()
 Dd
 De
+Deactivation threshold of %f will be set to the minimum allowed value %f in filter %s.
 Debug markers: disabled, missing entrypoints
 Debug markers: disabled, missing extension support. Is the Renderdoc layer enabled?
 Debug markers: enabled
@@ -24668,8 +24671,11 @@ VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
 VREvent_DashboardRequested
 VREvent_DashboardSectionSettingChanged
+VREvent_DesktopViewReady
+VREvent_DesktopViewUpdating
 VREvent_DismissedWarningsSectionSettingChanged
 VREvent_DriverRequestedQuit
+VREvent_ElevatePrism
 VREvent_EnableHomeAppSettingsHaveChanged
 VREvent_EnterStandbyMode
 VREvent_EnvironmentSettingsHaveChanged
@@ -24722,6 +24728,7 @@ VREvent_Notification_Shown
 VREvent_NotificationsSectionSettingChanged
 VREvent_NullSectionSettingChanged
 VREvent_OtherSectionSettingChanged
+VREvent_OverlayClosed
 VREvent_OverlayFocusChanged
 VREvent_OverlayGamepadFocusGained
 VREvent_OverlayGamepadFocusLost
@@ -24762,6 +24769,7 @@ VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
+VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged
 VREvent_SubmitScreenshotToDashboard
@@ -38186,6 +38194,7 @@ vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayRespo
 vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse) [clone .cold]
 vr::CVROverlayInternalLatest::SendKeyboardDone()
 vr::CVROverlayInternalLatest::SendKeyboardDone() [clone .cold]
+vr::CVROverlayInternalLatest::SendOverlayClosed(unsigned long long)
 vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long long, float)
 vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long long, float) [clone .cold]
 vr::CVROverlayInternalLatest::SetKeyboardOverlayHandle(unsigned long long)

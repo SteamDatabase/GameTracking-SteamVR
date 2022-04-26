@@ -530,8 +530,8 @@
     }
     let N,
       k,
-      A,
       B,
+      A,
       V = [],
       U = null,
       L = null,
@@ -559,7 +559,7 @@
         : N;
     }
     function q() {
-      B = !0;
+      A = !0;
     }
     function j(e) {
       e != H && ((H = e), K());
@@ -574,7 +574,7 @@
               let t = {
                 type: "root",
                 rootproperties: {
-                  relatchDashboardTransform: B,
+                  relatchDashboardTransform: A,
                   sceneCompositeMult: H,
                 },
                 children: E({ currentPanel: null, bShouldAbort: !1 }, e),
@@ -582,7 +582,7 @@
               L ||
                 (console.log("Initializing sg_mailbox"),
                 (L = new s()),
-                yield L.Init("sg_mailbox", A));
+                yield L.Init("sg_mailbox", B));
               let r = {
                 type: "update_scene_graph",
                 owning_overlay_key: G(),
@@ -592,7 +592,7 @@
               L.SendMessage("vrcompositor_systemlayer", r),
                 (U = null),
                 (V = []),
-                (B = !1);
+                (A = !1);
             }),
           0
         ));
@@ -1216,7 +1216,7 @@
             (o = this.props.web_secret),
             (N = n),
             (k = i),
-            (A = o),
+            (B = o),
             console.log("Setting owning overlay key to " + n));
       }
       componentWillUnmount() {
@@ -1608,7 +1608,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(_e || (_e = {}));
-    var we, Oe, Fe, Te, Ee, Ne, ke, Ae, Be, Ve, Ue, Le, He, We, ze, Ge, qe, je;
+    var we, Oe, Fe, Te, Ee, Ne, ke, Be, Ae, Ve, Ue, Le, He, We, ze, Ge, qe, je;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1660,7 +1660,8 @@
           (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
           (e[(e.EnableControlBar = 8388608)] = "EnableControlBar"),
           (e[(e.EnableControlBarKeyboard = 16777216)] =
-            "EnableControlBarKeyboard");
+            "EnableControlBarKeyboard"),
+          (e[(e.EnableControlBarClose = 33554432)] = "EnableControlBarClose");
       })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -1991,7 +1992,7 @@
           (e[(e.Quitting = 2)] = "Quitting"),
           (e[(e.Running = 3)] = "Running"),
           (e[(e.Waiting = 4)] = "Waiting");
-      })(Ae || (Ae = {})),
+      })(Be || (Be = {})),
       (function (e) {
         (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
           (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -2001,7 +2002,7 @@
           (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
             "CouldntFindOrCreateClientOverlay"),
           (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-      })(Be || (Be = {})),
+      })(Ae || (Ae = {})),
       (function (e) {
         (e[(e.Normal = 0)] = "Normal"),
           (e[(e.Password = 1)] = "Password"),
@@ -2324,10 +2325,10 @@
         return Ne;
       }),
       r.d(t, "v", function () {
-        return Ae;
+        return Be;
       }),
       r.d(t, "C", function () {
-        return Be;
+        return Ae;
       }),
       r.d(t, "p", function () {
         return Ve;
@@ -2766,4 +2767,4 @@
         );
   },
 });
-//# sourceMappingURL=scenegraphtest.js.map?v=fa32d5c8a329518942be
+//# sourceMappingURL=scenegraphtest.js.map?v=944c1e7192106baeddfc

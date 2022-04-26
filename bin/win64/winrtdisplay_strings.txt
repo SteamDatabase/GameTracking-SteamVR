@@ -12,7 +12,6 @@
 (D$0f
 (f*^[0
 *9Z9N
-*PVKc
 +Xt@(
 +o'q)}
 ,W5y+
@@ -106,7 +105,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/8wgm
 0A^_]
 0A_A^A]A\_^[
 0w0c1
@@ -117,7 +115,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220419013809Z0/
+220426193505Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -141,6 +139,7 @@
 <0:08
 <P)9Y
 <unknown>
+=XHYp,.
 =rIQU
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -211,6 +210,7 @@ H9o8H
 H9o@H
 H9oHH
 HeapFree
+IHr@4[:
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -243,7 +243,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS0
+RSDSu
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -271,6 +271,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+W#Q~2
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -342,9 +343,9 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
+c(@%m
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
-cameO
 d3d11.dll
 dxgi.dll
 e,>~^
@@ -356,13 +357,12 @@ iswspace
 jj@0HK4
 k0i0$
 l$ WH
+lYtx55-
 m_path
 malloc
 memcpy
 memmove
 memset
-n!X;'
-n?*p8Sb:
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
@@ -372,10 +372,10 @@ t$ WH
 t$0H+
 t$8H9)t
 t$@H=
-tRtaJ<Pu
 tXfff
 terminate
 v!neException encountered initializing WinRT display (%d): %s
+v/{?*E
 v=Y]Bv
 vector<T> too long
 winrtdisplay.dll

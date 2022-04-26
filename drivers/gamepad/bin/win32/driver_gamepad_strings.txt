@@ -1,10 +1,10 @@
 	!s99
+	ps+8
  %41g
 !hn7!
-%Zok=k
-&^WKf
 ',=?k
 (f*^[0
+)\\/eT
 *9Z9N
 +Xt@(
 +o'q)}
@@ -105,7 +105,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220419014022Z0/
+220426193856Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -142,7 +142,6 @@
 6D6Z6
 6I]Dc
 6OB,n_
-6T)Dj
 7!7'7-73797?7E7K7Q7a7q7
 7/8X8g8z8
 70503
@@ -157,6 +156,7 @@
 9p9}9
 :":.:P:g:p:y:
 :(:,:0:L:P:
+:j9iZ
 ;!;J<
 ;'<1<;<M<e<
 ;@;W;`;i;r;w;|;
@@ -185,6 +185,7 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
+A!^-0|
 AjEB#AZ
 Bellevue1
 CloseHandle
@@ -197,7 +198,6 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-DqJB{v
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -206,7 +206,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 HmdDriverFactory
-I-crV'[
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -230,6 +229,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KJhb[
 K}*n:	
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -238,12 +238,14 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+M|7s[zqZp
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 RaiseException
+S/@9C
 S0Q0O
 SA|X=G
 SDL2.dll
@@ -344,12 +346,12 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-k:2Y_
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
+p8c5i
 string too long
 terminate
 uCVj@

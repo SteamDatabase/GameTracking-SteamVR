@@ -1,5 +1,4 @@
 	!s99
-	UY#%/n
     A
  %41g
  (Camera)
@@ -23,6 +22,7 @@
 +Xt@(
 +o'q)}
 , last executing in 
+,H+XI>8
 ,W5y+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
@@ -92,7 +92,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220419014631Z0/
+220426194316Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,7 +105,9 @@
 380115120000Z0b1
 3mq+<
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5z++/Y
 6*f(_
+62o4&
 6I]Dc
 6OB,n_
 70503
@@ -140,7 +142,6 @@
 @UATAVH
 @UAWH
 @USVWATAUAVAWH
-A6aK\Gq
 A9A A
 A9Q sEI
 A;Q s?I
@@ -233,6 +234,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JvHu }a
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -253,6 +255,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+N4j4Z
 NPH9Q
 OD$DH
 OVR Runtime Init
@@ -265,7 +268,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDSy
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -316,9 +318,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-WuH}Xc
 Y9"SD
-[2I]2
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -327,6 +327,7 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
+]#Ngtc
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -399,6 +400,7 @@ memmove
 memset
 n\tuH
 ntelD
+oWDD} 
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed

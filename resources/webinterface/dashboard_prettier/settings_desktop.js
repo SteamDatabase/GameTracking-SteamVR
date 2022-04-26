@@ -1660,7 +1660,8 @@
           (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
           (e[(e.EnableControlBar = 8388608)] = "EnableControlBar"),
           (e[(e.EnableControlBarKeyboard = 16777216)] =
-            "EnableControlBarKeyboard");
+            "EnableControlBarKeyboard"),
+          (e[(e.EnableControlBarClose = 33554432)] = "EnableControlBarClose");
       })(Ie || (Ie = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -2771,9 +2772,11 @@
         this.state.mapWindowInfo.set(e, { sHwnd: t }),
           this.setState({ sCurrentWindowOverlayKey: e });
       }
+      onWindowViewClosed(e) {
+        this.state.sCurrentWindowOverlayKey == e && this.onDesktopChange(1);
+      }
       onWindowViewDestroyed(e) {
-        this.state.sCurrentWindowOverlayKey == e && this.onDesktopChange(1),
-          this.state.mapWindowInfo.delete(e);
+        this.state.mapWindowInfo.delete(e);
       }
       onWindowViewChange(e) {
         this.setState({ sCurrentWindowOverlayKey: e });
@@ -2797,32 +2800,20 @@
           p.d.SetSettingsValue("/settings/dashboard/desktopIndex", 1),
           this.setState({ bIsReady: !0, desktopIndices: n });
       }
-      CloseWindow() {
-        let e = "";
-        this.props.mapWindows.forEach((t) => {
-          t.overlay_key == this.state.sCurrentWindowOverlayKey && (e = t.hwnd);
-        });
-        let t = { type: "request_destroy_window_view", hwnd: e };
-        this.m_mailbox.SendMessage("desktopview", t);
-      }
       ShowDesktop() {
         this.m_mailbox.SendMessage("desktopview", {
           type: "request_show_desktop",
         });
       }
-      renderControlBarButtons() {
+      renderControlBarButtons(e) {
         return c.createElement(
           c.Fragment,
           null,
-          this.props.bWindowViewEnabled &&
-            "" != this.state.sCurrentWindowOverlayKey &&
-            c.createElement(g.p, {
-              iconUrl: "/dashboard/images/icons/icon_close_black.png",
-              onClick: this.CloseWindow,
-            }),
           "" == this.state.sCurrentWindowOverlayKey &&
             c.createElement(g.p, {
               iconUrl: "/dashboard/images/icons/icon_showdesktop.png",
+              title: "Show Desktop",
+              tooltipTranslation: e,
               onClick: this.ShowDesktop,
             })
         );
@@ -2928,7 +2919,6 @@
       Object(o.b)([l.a], y.prototype, "onDesktopViewUpdating", null),
       Object(o.b)([l.a], y.prototype, "onDesktopViewReady", null),
       Object(o.b)([l.a], y.prototype, "onWindowViewChange", null),
-      Object(o.b)([l.a], y.prototype, "CloseWindow", null),
       Object(o.b)([l.a], y.prototype, "ShowDesktop", null),
       (y = i = Object(o.b)([m.a], y));
     var f,
@@ -4050,8 +4040,15 @@
         this.initializeOverlayState(e.overlay_key);
       }
       onDashboardOverlayDestroyed(e) {
-        this.state.mapOverlayState.has(e.overlay_key) &&
-          this.state.mapOverlayState.delete(e.overlay_key);
+        var t;
+        e.overlay_key.startsWith("system.window.")
+          ? null === (t = this.m_refDesktopView.current) ||
+            void 0 === t ||
+            t.onWindowViewDestroyed(e.overlay_key)
+          : e.overlay_key == this.getActiveOverlayKey() &&
+            this.switchToOverlay(u.r),
+          this.state.mapOverlayState.has(e.overlay_key) &&
+            this.state.mapOverlayState.delete(e.overlay_key);
       }
       onUpdateDashboardTabs(e) {
         (this.m_mapExternalOverlays = {}),
@@ -4074,15 +4071,7 @@
             void 0 === r ||
             r.onWindowViewCreated(e.overlay_key, e.hwnd);
       }
-      onWindowViewDestroyed(e) {
-        var t;
-        null === (t = this.m_refDesktopView.current) ||
-          void 0 === t ||
-          t.onWindowViewDestroyed(e.overlay_key),
-          this.state.mapOverlayState.has(e.overlay_key) &&
-            (this.state.mapOverlayState.delete(e.overlay_key),
-            this.forceUpdate());
-      }
+      onWindowViewDestroyed(e) {}
       onUpdateWindowList(e) {
         var t;
         let r = new Map();
@@ -5051,9 +5040,30 @@
           return { mapOverlayState: r.set(this.getActiveOverlayKey(), n) };
         });
       }
+      onActiveOverlayClosed() {
+        var e;
+        const t = this.getActiveOverlayKey();
+        t &&
+          (t.startsWith("system.window.")
+            ? null === (e = this.m_refDesktopView.current) ||
+              void 0 === e ||
+              e.onWindowViewClosed(t)
+            : this.switchToOverlay(u.r),
+          VRHTML.VRDashboardManager.SendOverlayClosed(t));
+      }
       renderOverlayControlBar() {
         var e;
         const t = this.isDarkMode ? { r: 0.25, g: 0.25, b: 0.25 } : null;
+        let r = !1,
+          n = !1,
+          i = this.getActiveOverlayKey();
+        if (i) {
+          let e = VRHTML.VROverlay.FindOverlay(i);
+          (r =
+            !!e && VRHTML.VROverlay.GetFlag(e, a.D.EnableControlBarKeyboard)),
+            (n = !!e && VRHTML.VROverlay.GetFlag(e, a.D.EnableControlBarClose));
+        }
+        const o = { x: 0, y: -0.15, z: 0.1 };
         return c.createElement(
           c.Fragment,
           null,
@@ -5073,11 +5083,11 @@
                   height: 0.15,
                   min_width: 1.66,
                   debug_name: "ActiveOverlayControlBarBackground",
+                  sampler: a.t.SingleTap,
                   reflect: 0.1,
                 },
                 c.createElement("div", {
-                  className: "OverlayControlBar",
-                  style: { width: "1024px", height: "64px" },
+                  className: "OverlayControlBarBackground",
                 })
               )
             )
@@ -5099,14 +5109,10 @@
                   interactive: !0,
                   target_dpi_panel_id: g.s,
                   debug_name: "ActiveOverlayControlBar",
-                  reflect: 0.1,
                 },
                 c.createElement(
                   "div",
-                  {
-                    className: "OverlayControlBar",
-                    style: { background: "none" },
-                  },
+                  { className: "OverlayControlBar" },
                   c.createElement(
                     "div",
                     { className: "Section" },
@@ -5125,14 +5131,21 @@
                       detents: [1],
                       renderValue: (e) => (100 * e).toFixed(0) + "%",
                     }),
-                    c.createElement(g.p, {
-                      iconUrl: "/dashboard/images/icons/svr_keyboard.svg",
-                      additionalClassNames: "Keyboard",
-                      onClick: this.toggleKeyboard,
-                      active: this.state.bKeyboardVisible,
-                    }),
+                    r &&
+                      c.createElement(g.p, {
+                        iconUrl: "/dashboard/images/icons/svr_keyboard.svg",
+                        title: this.state.bKeyboardVisible
+                          ? Object(h.c)("#HideKeyboardTooltip")
+                          : Object(h.c)("#ShowKeyboardTooltip"),
+                        tooltipTranslation: o,
+                        additionalClassNames: "Keyboard",
+                        onClick: this.toggleKeyboard,
+                        active: this.state.bKeyboardVisible,
+                      }),
                     c.createElement(g.p, {
                       iconUrl: "/dashboard/images/icons/mirror_left.png",
+                      title: Object(h.c)("#DockOnLeftController"),
+                      tooltipTranslation: o,
                       onClick: () => {
                         let e = this.getActiveOverlayKey();
                         this.state.mapOverlayState.has(e) &&
@@ -5155,6 +5168,8 @@
                     }),
                     c.createElement(g.p, {
                       iconUrl: "/dashboard/images/icons/mirror_right.png",
+                      title: Object(h.c)("#DockOnRightController"),
+                      tooltipTranslation: o,
                       onClick: () => {
                         let e = this.getActiveOverlayKey();
                         this.state.mapOverlayState.has(e) &&
@@ -5177,6 +5192,8 @@
                     }),
                     c.createElement(g.p, {
                       iconUrl: "/dashboard/images/icons/icon_globe.png",
+                      title: Object(h.c)("#FloatInWorld"),
+                      tooltipTranslation: o,
                       onClick: () => {
                         let e = this.getActiveOverlayKey();
                         this.state.mapOverlayState.has(e) &&
@@ -5193,11 +5210,18 @@
                           this.getActiveOverlayKey()
                         ).dockLocation == g.i.World,
                     }),
+                    n &&
+                      c.createElement(g.p, {
+                        iconUrl: "/dashboard/images/icons/icon_close_black.png",
+                        title: Object(h.c)("#CloseOverlay"),
+                        tooltipTranslation: o,
+                        onClick: this.onActiveOverlayClosed,
+                      }),
                     this.isDesktopOverlayActive() &&
                       (null === (e = this.m_refDesktopView.current) ||
                       void 0 === e
                         ? void 0
-                        : e.renderControlBarButtons())
+                        : e.renderControlBarButtons(o))
                   )
                 )
               )
@@ -5543,6 +5567,7 @@
       Object(o.b)([s.bind], oe.prototype, "onKeyboardClosed", null),
       Object(o.b)([v.f], oe.prototype, "activeOverlayScale", null),
       Object(o.b)([s.bind], oe.prototype, "onActiveOverlayScaleChange", null),
+      Object(o.b)([s.bind], oe.prototype, "onActiveOverlayClosed", null),
       Object(o.b)([v.m], oe, "s_dashboardUserDistance", void 0),
       Object(o.b)([v.m], oe, "s_dashboardUserScale", void 0),
       (oe = X = Object(o.b)([m.a], oe));
@@ -7184,7 +7209,10 @@
       }
       render() {
         const e =
-          this.props.text && (this.props.shown || this.isShowingTooltip);
+            this.props.text && (this.props.shown || this.isShowingTooltip),
+          t = this.props.translation
+            ? this.props.translation
+            : { x: 0, y: -0.2, z: 0.05 };
         return s.createElement(
           "div",
           { style: { position: "absolute", left: "50%", top: "50%" } },
@@ -7193,7 +7221,7 @@
             { allowableParentSelectors: [".DashboardMain"] },
             s.createElement(
               p.lb,
-              { translation: { y: -0.2, z: 0.05 } },
+              { translation: t },
               s.createElement(
                 p.Y,
                 {
@@ -8032,7 +8060,12 @@
           },
           enabled: e.enabled,
         },
-        e.title && s.createElement(H, { text: e.title, ref: t }),
+        e.title &&
+          s.createElement(H, {
+            text: e.title,
+            translation: e.tooltipTranslation,
+            ref: t,
+          }),
         e.label && s.createElement("span", null, e.label),
         e.iconUrl &&
           s.createElement("img", {
@@ -8458,4 +8491,4 @@
       Object(i.b)([a.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=settings_desktop.js.map?v=b62bd67c1602f4033143
+//# sourceMappingURL=settings_desktop.js.map?v=3e91fdf0b323a06073b0
