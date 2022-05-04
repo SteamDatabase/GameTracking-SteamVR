@@ -6,6 +6,8 @@
  A__^
  H3E H3E
 !hn7!
+"+HLy
+"Y<m2
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -19,10 +21,10 @@
 )d$`D
 )t$pu.H
 *9Z9N
+*Q2	$TB
 +Xt@(
 +o'q)}
 , last executing in 
-,H+XI>8
 ,W5y+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
@@ -92,7 +94,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220426194316Z0/
+220504001546Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,9 +107,7 @@
 380115120000Z0b1
 3mq+<
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5z++/Y
 6*f(_
-62o4&
 6I]Dc
 6OB,n_
 70503
@@ -126,6 +126,7 @@
 ;k sAH
 ;k sDH
 <0:08
+='(A^
 =rIQU
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -234,7 +235,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JvHu }a
+K7|G\o
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -255,7 +256,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-N4j4Z
 NPH9Q
 OD$DH
 OVR Runtime Init
@@ -327,7 +327,6 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
-]#Ngtc
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -377,6 +376,7 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\201
 camera
 d$`H=
 d3d11.dll
+dRPg=
 dk2_camera
 driver_oculus_legacy.dll
 e,>~^
@@ -400,7 +400,6 @@ memmove
 memset
 n\tuH
 ntelD
-oWDD} 
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed

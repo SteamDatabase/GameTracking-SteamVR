@@ -163,7 +163,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220426193439Z0/
+220504000737Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -175,19 +175,16 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3B~+*m
 3mq+<
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
-6s^cbS'G
 70503
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 <0:08
-=(Q$0
 =rIQU
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -456,7 +453,6 @@ Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JIhb|
 KERNEL32.dll
 K}*n:	
 L#A0L
@@ -524,7 +520,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS5
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -631,7 +626,6 @@ WakeAllConditionVariable
 Warning [
 Washington1
 WideCharToMultiByte
-XMF. 
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
@@ -639,7 +633,6 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-[Gp$^
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -737,7 +730,6 @@ deque<T> too long
 description
 disable_environment
 double out of UInt range
-e+3'}
 e,>~^
 enable_environment
 enabledExtensionCount is non-0 but array is NULL
@@ -776,6 +768,7 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iF:_n;
 implementation_version
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -809,7 +802,6 @@ layer
 library_path
 list<T> too long
 localeconv
-m:<7D
 malloc
 map/set<T> too long
 memchr
@@ -974,6 +966,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+{:sWU
 {un'%
 |$ ATAVAWH
 |$ AVH

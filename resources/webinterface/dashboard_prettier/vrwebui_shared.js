@@ -13719,7 +13719,7 @@
                               ),
                               s.createElement(d.m, {
                                 min: 0,
-                                max: 9,
+                                max: 3,
                                 step: 1,
                                 value: this.state.nAdditionalPrediction,
                                 valueStyleVariant: S.c.OnHandle,
@@ -13869,4 +13869,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=309c367a37a8ff969683
+//# sourceMappingURL=vrwebui_shared.js.map?v=044dda3149088179f556

@@ -1160,7 +1160,7 @@ $tAUUPE
 212@2b2
 220323000000Z
 220329000000Z
-220426194200Z0/
+220504001203Z0/
 22282
 223W3
 232~2
@@ -3189,6 +3189,7 @@ $tAUUPE
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ
 ?gyro_scale
+?hqQ3
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
@@ -3272,6 +3273,7 @@ AUDIO:
 AUDIO: %s
 AX,0<	w
 AX<0|
+Ab"d{
 Accessor
 Add Json firmware manifest from %s
 AddBool
@@ -4194,6 +4196,7 @@ IsProcessorFeaturePresent
 IsWow64Process
 J0+J(
 J>@G_
+JGKjI
 JSON Update
 JSON string too short.
 JSONuTS
@@ -4255,6 +4258,7 @@ Lost default audio recording %s
 L~Zs@
 M$SVW
 M2:3>4r4M5m7
+MANce
 MAX10
 MB(iVR
 MFCreateMediaType
@@ -5218,6 +5222,7 @@ Y__^[
 Z _^]
 Z(rDf
 Z* ,	
+Z8	~,
 [-&LMb#{'
 [DepthAugmentedPassthrough] supported on this system: %d
 [FORCEUPDATE]
@@ -5228,6 +5233,7 @@ Z* ,
 \%03o
 \0a0~0
 \U%08x
+\^%hpHk
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -5509,6 +5515,7 @@ c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
 cAMDt
+cU-:Sh
 cal_method
 calloc
 camera
@@ -5757,7 +5764,6 @@ group
 grow_for_undistort
 gu3jd
 gyro_bias
-h	DR 
 h6l6p6t6x6|6
 hGenu
 hand_right_closeanim.glb
@@ -6099,7 +6105,6 @@ object key
 object separator
 occlusionTexture
 offset
-oj(2X
 ole32.dll
 oneof_decl
 oneof_index
@@ -6484,6 +6489,7 @@ v(hID
 v0D1I1
 v0PRV
 v0fff
+v;T}y>
 v=Y]Bv
 v>;T3$r8w
 vDQPh

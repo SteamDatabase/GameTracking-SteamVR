@@ -1,6 +1,5 @@
 																																																																																																																
 	!s99
-	5.$|
 	D$HA
 	|$HA
     A
@@ -62,10 +61,11 @@
 +Xt@(
 +o'q)}
 , last executing in 
+,/}5c
 ,9k0t%H
 ,9{0t%H
 ,W5y+
--*b=v
+,aMdk
 -9k0t&H
 -9{0t%H
 -D9c0t%H
@@ -167,7 +167,6 @@
 0A_A^A]A\^
 0A_A^_
 0D9c0t'H
-0dI`O?
 0w0c1
 0}0i1
 1/2/4/8/16-bit only
@@ -176,7 +175,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220426193801Z0/
+220504001158Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -292,6 +291,7 @@ BMP RLE
 Bellevue1
 C<unknown>
 CAMCMD_GET_OPENCAMERA_RESULT
+CFn!U
 CT$ H
 CallCreateObject
 CameraWork
@@ -319,6 +319,7 @@ D$PI;
 D$PfA
 D$TI;
 D$XA#
+D2@$J
 D8-1P
 D8-SS
 D8-|Q
@@ -406,7 +407,6 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
-Ig]]c2ut'3
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
@@ -469,7 +469,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSj
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -723,10 +722,10 @@ e,>~^
 el_el
 en_us
 english
-eo.=-be
 es_es
 es_mx
 etronlib
+ev}BT
 expected marker
 fD9	u
 fi_fi

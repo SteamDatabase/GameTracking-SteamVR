@@ -835,6 +835,7 @@ $w!Hc
 -CVRMsg_CompositorTakeStereoScreenshotResponse
 -CVRMsg_TrackedCamera_PauseVideoStreamResponse
 -CVRMsg_TrackedCamera_StartVideoStreamResponse
+-Cgl>
 -D9c0t%H
 -GetDXGISharedHandle
 -ID3D11On12Device::CreateWrappedResource failed.
@@ -2209,7 +2210,7 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220426194051Z0/
+220504001349Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2484,7 +2485,6 @@ $w!Hc
 ?/t6H
 ?/u3H
 ?/uqH
-??&	b'9e
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -3058,7 +3058,6 @@ BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-BbWQQ
 Begin
 BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
 BeginFrame called outside of a valid session.
@@ -6080,6 +6079,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSL
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7524,6 +7524,7 @@ XA_A^A]^][
 XA__^[
 XH;}8u
 XL$4H
+XP+QJ
 XR Swapchain-%d
 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
 XR_ERROR_ACTIONSET_NOT_ATTACHED
@@ -7925,6 +7926,7 @@ ZvFailed to create fence to block on queue flush at shutdown.
 [Settings] Unable to load driver defaults from %s
 [Settings] Unable to read path registry...
 [Settings] Using default values. No Json Settings available at %s
+[V;YO4
 [VirtualDisplay] Present took to long!
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
@@ -9575,7 +9577,6 @@ s@fff
 sButtonTexts
 sCaptionText
 sMessageText
-sVOhG
 safe_mode_driver_whitelist.json
 samplecount
 sampler
@@ -11175,6 +11176,7 @@ zh_cn
 zh_tw
 zlib corrupt
 znear
+ztFSD-+
 zuusA
 { "type": "hide_keyboard" }
 { "type": "show_keyboard" }

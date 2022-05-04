@@ -352,6 +352,7 @@ $II+L$`
 ********** Red ( nLoopCount++ > 1000 )!
 *9Z9N
 *HcT$PH
++P_*q
 +Xt@(
 +o'q)}
 , last executing in 
@@ -525,12 +526,11 @@ $II+L$`
 0}0i1
 1.2.840.113549.1.9.6
 130801120000Z
-2+B_(
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220426193559Z0/
+220504001003Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -547,6 +547,7 @@ $II+L$`
 6*f(_
 6I]Dc
 6OB,n_
+6^$y3
 70503
 8 t"L
 8 u'L
@@ -1614,7 +1615,6 @@ Y9"SD
 YUV conversion - %s
 Yl$ M
 Yl$4E
-Zq^{dT
 [ AVH
 [K]taM?
 \$ AVH
@@ -1653,12 +1653,9 @@ Zq^{dT
 \$pI;\$xtIH
 \$xHk
 \$xMi
-\FY#k
 \\.\pipe\
 ]J<0"0i3
-]VZki
 ]g@8yhu
-^XlJ/
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1855,7 +1852,6 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
-jc +,
 jj@0HK4
 k0i0$
 l$ E3
@@ -1991,6 +1987,7 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
+qbh43
 r,fff
 renderdoc.dll
 result == ALVR_OK

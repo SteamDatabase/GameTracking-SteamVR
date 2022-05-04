@@ -6,6 +6,7 @@
 																												
 																																												
 	!s99
+	7+}Ao
 	<bu 
 	@81t/@8q
    Driver Description: %s
@@ -43,7 +44,6 @@
  for detail.
  handlers.
  header_checksum:
- iUwh
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  irrecoverableSyncError:
  isFullfilled:
@@ -67,9 +67,9 @@
  times.
  version-number:
 !hn7!
-#Gc8p"R
 %%.%dg
 %4.4X:%4.4X
+%;B&R
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
 %s setup error from %s
@@ -113,6 +113,7 @@
 )D$`H
 )D$p3
 )D$pH
+)LJv6
 )t$@H
 )t$`H
 )t$pA
@@ -604,6 +605,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/xa0I
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
@@ -629,17 +631,15 @@
 0}0i1
 130801120000Z
 1e+9999
-1yor""
 2.0.0
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220426193842Z0/
+220504001159Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2f>},
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -657,6 +657,7 @@
 6I]Dc
 6OB,n_
 70503
+7yGGy
 8A^A]^]
 8A_A^A]]
 8D$Ru
@@ -693,7 +694,6 @@
 ==============================
 => Entering Context
 =rIQU
->JhbI
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -1713,7 +1713,6 @@ WAVAW
 WAVAWH
 WOKEN
 WS2_32.dll
-WW\=h
 WXM9WPt(E
 WaitForMultipleObjects
 WaitForSingleObject
@@ -1896,7 +1895,6 @@ h AVH
 h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 
-h7y	g=
 hA_A^A\_^]
 hardware
 http://ocsp.digicert.com0A

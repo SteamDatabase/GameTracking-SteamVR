@@ -167,6 +167,7 @@ $w!Hc
 (|$`D
 (|$`I
 (|$`M
+)#S	e
 )9k0t
 )D$ L
 )D$0A
@@ -458,7 +459,7 @@ $w!Hc
 211007000000Z
 220323000000Z
 220329000000Z
-220426194219Z0/
+220504001309Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -472,6 +473,7 @@ $w!Hc
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
+5ZTj|s
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 69k0t1
@@ -736,11 +738,11 @@ Accessor
 Adobe
 AjEB#AZ
 AnimationChannel
+An|<E
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
-A~D=d
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -1027,6 +1029,7 @@ H;|$`
 H;|$x
 H;}PtwH
 HA^_^[
+HGG0D9iI
 HMD no longer present
 HcB Hi
 HcC H
@@ -1051,7 +1054,6 @@ I;4$H
 I;4$L
 I;8u?H
 I;V8r
-IBk::
 ID3D11DeviceContext4::Signal
 IDATH
 IServerTrackedDeviceProvider_004
@@ -1128,9 +1130,9 @@ IsDepthFormat( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
+Jz:`Z
 KERNEL32.dll
 KHR_lights_punctual
-KhbPI$
 K}*n:	
 L$ E3
 L$ H;
@@ -1270,6 +1272,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS(
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1501,7 +1504,6 @@ ZL$Xf
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ]g@8yhu
-]i+;6O}
 ^9k0tWD
 _Camera
 _Cnd_destroy
@@ -1741,7 +1743,6 @@ driver_oculus.vrchap
 dxgi.dll
 e,>~^
 eCS < CS_Count
-eOO:lV
 ePS < PS_Count
 eVS < VS_Count
 effffff
@@ -1878,7 +1879,6 @@ italian
 ix`fA
 ja_jp
 japanese
-jbBtE
 jj@0HK4
 joints
 jsonid
@@ -2126,6 +2126,7 @@ primitive indices accessor out of bounds
 primitives
 pt_br
 pt_pt
+q=>~R
 quest
 rND9{0t
 range
@@ -2450,6 +2451,7 @@ x]~\6
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
+z 9ai
 zh_cn
 zh_tw
 zlib corrupt

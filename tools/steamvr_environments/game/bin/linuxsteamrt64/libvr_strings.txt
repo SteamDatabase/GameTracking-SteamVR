@@ -146,6 +146,7 @@ $ORIGIN
 -sse3
 -sse4
 -stencilmesh
+-use_genericconfig
 -use_rift360config
 -use_viveconfig
 -vr         Enable VR (can be automatically enabled if launched from Steam in VR mode)
@@ -1364,10 +1365,10 @@ Unable to write file '%s'
 Unexpected end of file
 Unknown (%d)
 Unknown EVRCompositorError
-Unknown HMD manufacturer name '%s' - falling back to %s.
+Unknown HMD expected controller type '%s' - falling back to %s.
 Unknown compression type.
 Unknown controller modelnumber '%s' - falling back to WindowsMR controller.
-Unknown controller type name '%s' - falling back to HMD manufacturer name.
+Unknown controller type name '%s' - falling back to HMD expected controller type.
 Unnormalized joint weights encountered (%f): Skinning may not work! (At position %.3f %.3f %.3f)
 Unrecognized flag name '%s'
 Unrecognized resource version (%d): %s
@@ -2375,7 +2376,6 @@ operator new[](unsigned long, std::nothrow_t const&)
 optionallycompressedtangentframe
 origin_max_delta
 origin_relative
-osvr
 out of memory
 overlay
 pA
@@ -2668,6 +2668,7 @@ vpcf6
 vpcf7
 vpcf8
 vpcf9
+vr
 vr.cpp
 vr.cpp(4536): ERROR! Unknown controller axis type %d!
 vr.cpp(6093): VR - Destroying old VB for Stenciling!

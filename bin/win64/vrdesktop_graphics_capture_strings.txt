@@ -17,6 +17,7 @@
 !hn7!
 %%.%dg
 %s%s%s%s%s
+&\z.j
 ' is not a number.
 ',=?k
 (A\_^[
@@ -168,12 +169,13 @@
 0w0c1
 0}0i1
 130801120000Z
+1?6:4
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220426194223Z0/
+220504001406Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -640,6 +642,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSs
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -698,6 +701,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+To8K5}
 TryGetNextFrame
 UATAUAVAWH
 USER32.dll
@@ -750,7 +754,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-V{vMB_s
 W H+W
 WATAUAVAWH
 WAVAWH
@@ -900,7 +903,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
-i3:rg|
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -1039,6 +1041,7 @@ x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 x]~\6
 zh_cn
 zh_tw
+{ddZ4=
 {un'%
 |$ ATAVAWH
 |$ AVH

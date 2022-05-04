@@ -92,7 +92,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220426193906Z0/
+220504001043Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -143,6 +143,7 @@
 7(81898u8
 70503
 7c8w8
+7h+	k
 8#8,888>8D8O8
 8'818;8E8O8\8e8s8|8
 8,80888P8`8d8t8x8|8
@@ -151,6 +152,7 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8i(?-l
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
 9!939=9G9R9]9j9t9
 9$?(?,?0?4?8?<?@?D?H?h?l?p?t?x?|?
@@ -210,7 +212,7 @@
 ADVAPI32.dll
 AjEB#AZ
 Bellevue1
-Brq5*s	
+C*HHR
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -233,10 +235,10 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
+FT74 
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
-F{%?%
 GetCurrentDirectoryW
 GetCurrentProcess
 GetCurrentProcessId
@@ -263,7 +265,6 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-IbO?Z
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitDirectMode: DX11 level hardware required!
 InitDirectMode: Failed to create D3D11 device! (err=%u)
@@ -275,6 +276,8 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KIl$q
+KjG180?
 K}*n:	
 L?n(Zy&
 LIBOVR_DLL_DIR
@@ -316,7 +319,6 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-UJhbf
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -336,12 +338,14 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
+ZDrThW
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
+]/>6y
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -394,6 +398,7 @@ camera
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
+d~\XR%t
 e,>~^
 f;A*stSW
 getenv
@@ -402,9 +407,7 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i<Z/oZ
 invalid string position
-j@"ua
 jdjdh
 jj@0HK4
 k0i0$

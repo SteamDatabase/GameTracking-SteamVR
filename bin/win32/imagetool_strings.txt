@@ -1447,7 +1447,6 @@
  SOCK sock=%d
  SUV3
  SUVW
- T?;N
  Un ?
  WSASetEvent(%p)
  X&A5$
@@ -4038,7 +4037,6 @@ $~O="""
 1=2B2Q2V2
 1=2e2
 1=2p2
-1=F@=
 1>1F1N1d1h1l1p1t1
 1>1U1
 1>3a3C4d4i4x4}4
@@ -4323,7 +4321,7 @@ $~O="""
 213w3
 220323000000Z
 220329000000Z
-220426193508Z0/
+220504000800Z0/
 22272A2Y2d2
 22282E2
 222A2F2
@@ -5229,6 +5227,7 @@ $~O="""
 4_^][
 4_^][Y
 4`5h5
+4bSV&
 4c4u4
 4d6h8
 4g4o4
@@ -6267,6 +6266,7 @@ $~O="""
 8&8M8U8n8
 8&9-9a9l9
 8&9T9^9c9
+8&BKw
 8&u%V
 8'8,8@8E8Y8^8r8w8
 8'8-92979D9
@@ -9253,7 +9253,6 @@ $~O="""
 @333333#@
 @3L$$#
 @4+A4y
-@5iY~8wJA
 @8+C8
 @8?"p8?b
 @8SUQ
@@ -9290,7 +9289,6 @@ $~O="""
 @_^][
 @` !.
 @cairo:
-@fMSo
 @gDio
 @ghostscript_font_path@
 @h - oW
@@ -9620,6 +9618,7 @@ B+D$,
 B+D$<
 B,a yb
 B,laa
+B-.Ir
 B/FAC
 B0;A0uu
 B0BrB
@@ -9984,7 +9983,6 @@ CSPCP852
 CSPTCP154
 CSWINDOWS31J
 CT Water Number
-CXH}Lu
 CYRILLIC-ASIAN
 C\[^]
 C\_[^]
@@ -14580,6 +14578,7 @@ MaxRGB
 Maximum
 Maximum Coordinate Value
 MaximumChannelsExceeded
+MdkY=
 Mean Of Corrected Gray Levels
 Mean Of Log Region Gray Levels
 Mean Of Offset Gray Levels
@@ -16150,7 +16149,6 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDS7
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18617,7 +18615,6 @@ YShear/Image
 YShearImage
 YT$$f
 YU u.
-YUaQUR
 Y\o`pr
 Y__^[
 Yacute
@@ -18633,6 +18630,7 @@ Z Offset In Slide Coordinate System
 Z({:3m
 Z* ,	
 Z0_0n0s0
+Z8;W@$
 Z9/t3
 ZDepthHomogeneous
 ZDepthLinear
@@ -19775,7 +19773,6 @@ c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32-shape.c
 c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32.c
 c?G:c?
 c?W&d?
-cEs(X
 cHRM Blue X
 cHRM Blue Y
 cHRM Green X
@@ -21646,7 +21643,6 @@ hypot
 hz-gb-2312
 h}	!l
 i&Ma.
-i.Mmp
 i1!i6Ai;ai@
 i= BGRtZ= ZYXtI=rbCYt8
 iCCP: invalid keyword
@@ -23302,11 +23298,11 @@ s%hcsedW
 s0^][
 s1 != NULL
 s2 != NULL
+s7ll8>8IW
 s90* 
 s<Uh@
 s?? yish???go b
 sFFou
-sFdmQ
 sJWSU
 sPLT chunk has bad length
 sPLT chunk requires too much memory

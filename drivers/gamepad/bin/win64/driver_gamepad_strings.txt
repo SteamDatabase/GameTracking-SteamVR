@@ -97,7 +97,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220426194153Z0/
+220504001238Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -109,6 +109,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+5>tp6Q
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -134,7 +135,6 @@ A_A^_
 A_A^_^]
 AjEB#AZ
 AuthD
-B\(_!.U
 Bellevue1
 CloseHandle
 CreateEventW
@@ -162,7 +162,6 @@ H95Dz
 H95E}
 H95O~
 H9w`tFH
-HaYaL:k
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -185,6 +184,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J#r4e
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -204,7 +204,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS/
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -256,9 +255,11 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+XwcW&|k
 Y9"SD
 [K]taM?
 \$ UH
+]&yq^
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -301,13 +302,11 @@ _seh_filter_dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
-b'e4A
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
 e,>~^
-hq-V#
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -331,6 +330,7 @@ tXfff
 terminate
 v=Y]Bv
 vector<T> too long
+vtsYKZ8
 www.digicert.com1!0
 x]~\6
 {gamepad}/icons/gamepad_status_error.png
