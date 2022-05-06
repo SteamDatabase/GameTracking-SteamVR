@@ -286,6 +286,7 @@ $9^ t
 $Qjnj
 $SWj8
 $VPhp
+$qoV$XY"Z])
 $tAUUPE
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -1160,7 +1161,7 @@ $tAUUPE
 212@2b2
 220323000000Z
 220329000000Z
-220504001203Z0/
+220506225945Z0/
 22282
 223W3
 232~2
@@ -3189,7 +3190,6 @@ $tAUUPE
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ
 ?gyro_scale
-?hqQ3
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
@@ -3273,7 +3273,6 @@ AUDIO:
 AUDIO: %s
 AX,0<	w
 AX<0|
-Ab"d{
 Accessor
 Add Json firmware manifest from %s
 AddBool
@@ -4001,6 +4000,7 @@ HidD_GetProductString
 HidD_GetSerialNumberString
 HidD_SetFeature
 HidP_GetCaps
+Hkl5?O
 HmdDeviceConnect( %u, %u, %llu, %llu )
 HmdDriverFactory
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x
@@ -4196,7 +4196,6 @@ IsProcessorFeaturePresent
 IsWow64Process
 J0+J(
 J>@G_
-JGKjI
 JSON Update
 JSON string too short.
 JSONuTS
@@ -4258,7 +4257,6 @@ Lost default audio recording %s
 L~Zs@
 M$SVW
 M2:3>4r4M5m7
-MANce
 MAX10
 MB(iVR
 MFCreateMediaType
@@ -4500,6 +4498,7 @@ R8F;u
 RENDERDOC_GetAPI
 RHhp)
 RPCRT4.dll
+RSDS8
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5222,7 +5221,6 @@ Y__^[
 Z _^]
 Z(rDf
 Z* ,	
-Z8	~,
 [-&LMb#{'
 [DepthAugmentedPassthrough] supported on this system: %d
 [FORCEUPDATE]
@@ -5233,7 +5231,6 @@ Z8	~,
 \%03o
 \0a0~0
 \U%08x
-\^%hpHk
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -5423,6 +5420,7 @@ audio_recording_device_vid
 average_period
 avrt.dll
 axisSW
+b0:O8
 bad AC huff
 bad APP len
 bad BMP
@@ -5515,7 +5513,6 @@ c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
 cAMDt
-cU-:Sh
 cal_method
 calloc
 camera
@@ -5987,6 +5984,7 @@ l!;b	F
 l6qnk
 l?Nb0?
 lEyeFile:%s width:%d height:%d components:%d
+lH!-"
 label
 lastChaperoneCommit
 last_eye
@@ -6448,6 +6446,7 @@ uKj@P
 uWj&h
 uZVj(
 ua_ua
+ub|#d
 uint32
 uint64
 ukranian
@@ -6489,7 +6488,6 @@ v(hID
 v0D1I1
 v0PRV
 v0fff
-v;T}y>
 v=Y]Bv
 v>;T3$r8w
 vDQPh

@@ -17,7 +17,6 @@
 !hn7!
 %%.%dg
 %s%s%s%s%s
-&\z.j
 ' is not a number.
 ',=?k
 (A\_^[
@@ -105,6 +104,7 @@
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
+.@YTb 
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -169,13 +169,12 @@
 0w0c1
 0}0i1
 130801120000Z
-1?6:4
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220504001406Z0/
+220506230350Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -642,7 +641,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSs
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -701,7 +699,6 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-To8K5}
 TryGetNextFrame
 UATAUAVAWH
 USER32.dll
@@ -764,6 +761,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WindowView_%s
 WindowsCreateStringReference
+Xj?:-
 Y9"SD
 [K]taM?
 \$ E3
@@ -896,6 +894,7 @@ german
 gfffffffH
 gfffffffI
 greek
+h6KQL4L
 handlers
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
@@ -1041,7 +1040,6 @@ x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 x]~\6
 zh_cn
 zh_tw
-{ddZ4=
 {un'%
 |$ ATAVAWH
 |$ AVH

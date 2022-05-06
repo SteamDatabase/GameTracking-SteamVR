@@ -6,8 +6,6 @@
  A__^
  H3E H3E
 !hn7!
-"+HLy
-"Y<m2
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -21,7 +19,6 @@
 )d$`D
 )t$pu.H
 *9Z9N
-*Q2	$TB
 +Xt@(
 +o'q)}
 , last executing in 
@@ -94,7 +91,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220504001546Z0/
+220506230406Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -121,12 +118,12 @@
 9h u{H
 9l$Ht
 9l$pt
+;&=KM
 ;K sCH
 ;K sUH
 ;k sAH
 ;k sDH
 <0:08
-='(A^
 =rIQU
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -169,6 +166,7 @@ Code: -3003
 CreateEventA
 CreateEventW
 CreateThread
+CsGO`
 C|$XH
 D$0Hc
 D3D11CreateDevice
@@ -235,7 +233,6 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-K7|G\o
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -304,6 +301,7 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
+VB(a"
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
@@ -376,7 +374,6 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\201
 camera
 d$`H=
 d3d11.dll
-dRPg=
 dk2_camera
 driver_oculus_legacy.dll
 e,>~^
@@ -462,6 +459,7 @@ tXfff
 tdh.dll
 terminate
 tkH97t	H
+ubf:Gf(
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0

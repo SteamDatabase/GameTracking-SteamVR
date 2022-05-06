@@ -49,10 +49,8 @@
 !,X< w
 !>6'Y
 !T$(H!T$ 
-!e5fL8zl:
 !hn7!
 !~?s5
-"YG,N
 "e?<<<<<<l?
 "f9;t
 #])#	
@@ -68,11 +66,9 @@ $iMBm
 %H : %M
 %H : %M : %S
 %I : %M : %S %p
-%WPIP
 %Z/nJ?
 %b %d %H : %M : %S %Y
 %d / %m / %y
-%fCeq5
 %m / %d / %y
 &<	x4;O
 &?PPPPPPP?
@@ -118,7 +114,6 @@ $iMBm
 *9Z9N
 *StO9>T
 *uXI;
-+/&LZ
 +J$D8M@
 +M<7>
 +Xt@(
@@ -379,7 +374,6 @@ $iMBm
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
-0+$:+
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
@@ -416,11 +410,10 @@ $iMBm
 211007000000Z
 220323000000Z
 220329000000Z
-220504001140Z0/
+220506230000Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2J7	WcU
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -511,9 +504,11 @@ $iMBm
 <htr<jtb<lt6<tt&<wt
 <xu<D
 <}wYI
+=3@fz;5
 =WIDATx
 =imb;D
 =rIQU
+>>)6L
 >KpP`
 >Mp$d
 >ffffff
@@ -932,6 +927,7 @@ G0LcGDI
 G8HcODI
 GPP@&R7T
 GQ@R<E
+G\]@I
 GetACP
 GetCPInfo
 GetCommandLineA
@@ -999,7 +995,6 @@ H!D$ E
 H!T$0D
 H#T$0H
 H#|$0tB
-H+))*
 H+C H=
 H+D$XH+D$@3
 H+G H=
@@ -1288,7 +1283,6 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDS^
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1408,7 +1402,6 @@ UVWAUAWH
 UVWAVAWH
 UWATAVAWH
 UWAVH
-UcHe~
 UmsThreadYield
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
@@ -2039,7 +2032,6 @@ kB0[/
 kC2\/
 kXL9sHu
 keylength >= 2^30
-kp6YLuf
 l$ E3
 l$ H;
 l$ H=
@@ -2065,11 +2057,13 @@ l$`E;
 l$xM+
 l*$D+l*,tDD+l*(
 l*JHD
+l8PH2
 ldexp
 log10
 lq%&1T
 map/set<T> too long
 message size
+miL nH
 n03>Pu
 nD8-.
 n]?iJ
@@ -2079,6 +2073,7 @@ network down
 network reset
 network unreachable
 nfinity
+ng9<1
 no buffer space
 no child process
 no link

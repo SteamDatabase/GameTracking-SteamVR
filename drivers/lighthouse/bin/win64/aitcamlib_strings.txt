@@ -1,6 +1,7 @@
 																																																																																																																
 	!s99
 	D$HA
+	bm5z
 	|$HA
     A
  %41g
@@ -28,6 +29,8 @@
 %,3:;4-&
 %9k0t
 %9{0t
+%S5RbC
+%v?ypf{E\z\
 &9k0t
 &D9c0t
 &D9k0t
@@ -61,11 +64,9 @@
 +Xt@(
 +o'q)}
 , last executing in 
-,/}5c
 ,9k0t%H
 ,9{0t%H
 ,W5y+
-,aMdk
 -9k0t&H
 -9{0t%H
 -D9c0t%H
@@ -175,7 +176,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220504001158Z0/
+220506230008Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -200,6 +201,7 @@
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9C }.H
+9I8%1
 9T$XJ
 9]pu2
 9k0t$H
@@ -291,7 +293,6 @@ BMP RLE
 Bellevue1
 C<unknown>
 CAMCMD_GET_OPENCAMERA_RESULT
-CFn!U
 CT$ H
 CallCreateObject
 CameraWork
@@ -319,7 +320,6 @@ D$PI;
 D$PfA
 D$TI;
 D$XA#
-D2@$J
 D8-1P
 D8-SS
 D8-|Q
@@ -591,6 +591,7 @@ Z9k0tUD
 \$XLc
 \$pfD
 ]9k0tVD
+]J:k 
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
@@ -725,7 +726,6 @@ english
 es_es
 es_mx
 etronlib
-ev}BT
 expected marker
 fD9	u
 fi_fi
@@ -736,6 +736,7 @@ fread
 french
 fseek
 g9k0t_D
+gBSB1 >
 german
 gfffffffH
 greek
@@ -808,6 +809,7 @@ oD$0f
 oD$0fD
 oL$ f
 oT$0f
+oigPP
 only 8-bit
 ot$Pf
 outofdata
@@ -916,6 +918,7 @@ zlib corrupt
 |$PLc
 |$XH;
 |Lu?c
+}+k[e
 }LuHO
 ~3LcD$(L
 ~6HcD$ I

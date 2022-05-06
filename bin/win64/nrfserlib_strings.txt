@@ -6,7 +6,6 @@
 																												
 																																												
 	!s99
-	7+}Ao
 	<bu 
 	@81t/@8q
    Driver Description: %s
@@ -69,7 +68,6 @@
 !hn7!
 %%.%dg
 %4.4X:%4.4X
-%;B&R
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
 %s setup error from %s
@@ -113,7 +111,6 @@
 )D$`H
 )D$p3
 )D$pH
-)LJv6
 )t$@H
 )t$`H
 )t$pA
@@ -123,6 +120,7 @@
 +9kdt	H
 +Xt@(
 +o'q)}
++uC2r
 , H5 error count: 
 , defaulting to flow_control::none!
 , defaulting to parity::none!
@@ -605,7 +603,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/xa0I
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
@@ -636,7 +633,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220504001159Z0/
+220506230012Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -656,8 +653,9 @@
 6666666666666
 6I]Dc
 6OB,n_
+7+,t}F
 70503
-7yGGy
+7uCYdQSx
 8A^A]^]
 8A_A^A]]
 8D$Ru
@@ -778,6 +776,7 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@,9/D
 @.data
 @.reloc
 @81t)@8q
@@ -1237,6 +1236,7 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
+G8=y~1	
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1728,6 +1728,7 @@ Write to BS2 Power Control Point. %d.
 Write to Power Control Point.
 Write to SOB Channel.
 WriteFile
+X"4i\
 XA]A\_^
 XA^A]_[H
 XA^_][H
@@ -1891,6 +1892,7 @@ gfffffffH
 gfffffffI
 gfffffffM
 graph
+g|a?ogrZ
 h AVH
 h5_decode error, code: 0x
 h5_transport is in state 
@@ -2207,5 +2209,6 @@ xdigit
 |$ps`H
 |Lu?c
 }LuHO
+}QEB@
 ~'HcB
 ~t&LN

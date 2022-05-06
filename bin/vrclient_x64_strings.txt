@@ -535,6 +535,7 @@ $w!Hc
 ',=?k
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '.5<=6/7>????????????????
+'4U9-
 '9k0t
 'CVRMsg_ClientMailbox_SendMailboxMessage
 'CVRMsg_CompositorHookScreenshotResponse
@@ -835,7 +836,6 @@ $w!Hc
 -CVRMsg_CompositorTakeStereoScreenshotResponse
 -CVRMsg_TrackedCamera_PauseVideoStreamResponse
 -CVRMsg_TrackedCamera_StartVideoStreamResponse
--Cgl>
 -D9c0t%H
 -GetDXGISharedHandle
 -ID3D11On12Device::CreateWrappedResource failed.
@@ -2210,7 +2210,7 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220504001349Z0/
+220506230310Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -4817,6 +4817,7 @@ H_^][
 Haptic
 Haptic vibration had the wrong type tag: %u
 HasField
+Hc4m)
 HcA,H
 HcA,L
 HcA0H
@@ -5655,6 +5656,7 @@ M H1E
 M#V0M
 M#W0M
 M#e0I
+M("tw
 M+HPI
 M,fff
 M9 t13
@@ -6070,6 +6072,7 @@ Protocol message was modified concurrently during serialization.
 Purging all shared textures because the connection to vrserver was lost
 Pz}b!
 Q H9P 
+Q;Cn\
 QFailed to create internal command allocator
 QHL9u
 QHtfH
@@ -6079,7 +6082,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSL
+RSDS,
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7524,7 +7527,6 @@ XA_A^A]^][
 XA__^[
 XH;}8u
 XL$4H
-XP+QJ
 XR Swapchain-%d
 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
 XR_ERROR_ACTIONSET_NOT_ATTACHED
@@ -7926,7 +7928,6 @@ ZvFailed to create fence to block on queue flush at shutdown.
 [Settings] Unable to load driver defaults from %s
 [Settings] Unable to read path registry...
 [Settings] Using default values. No Json Settings available at %s
-[V;YO4
 [VirtualDisplay] Present took to long!
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
@@ -8535,6 +8536,7 @@ d$hE3
 d$hHcC,L
 d$hI;
 d$pI;
+d0E&7
 d3d11.dll
 da_da
 danish
@@ -11176,7 +11178,6 @@ zh_cn
 zh_tw
 zlib corrupt
 znear
-ztFSD-+
 zuusA
 { "type": "hide_keyboard" }
 { "type": "show_keyboard" }
@@ -11292,6 +11293,7 @@ zuusA
 |8PH;
 |D8E t"H
 |Lu?c
+|Uup4
 |s;K(tnA
 }(Hcv4I
 }(M98t

@@ -460,7 +460,6 @@ $+
 /u%d-Shm_%x
 0
 0+
-00:06:23
 0123456789
 0123456789ABCDEF
 1
@@ -478,6 +477,7 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
+22:54:40
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -2005,7 +2005,7 @@ March
 MarkInUse
 Mask Input Image
 May
-May  4 2022
+May  6 2022
 MillisecondsFromNanoseconds(unsigned long)
 Minidump comment truncated
 Missing ',' or ']' in array declaration

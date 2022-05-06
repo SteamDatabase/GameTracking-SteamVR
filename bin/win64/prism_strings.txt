@@ -307,6 +307,7 @@ $II+L$`
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
+'B8[RJj"'
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -352,7 +353,6 @@ $II+L$`
 ********** Red ( nLoopCount++ > 1000 )!
 *9Z9N
 *HcT$PH
-+P_*q
 +Xt@(
 +o'q)}
 , last executing in 
@@ -530,7 +530,7 @@ $II+L$`
 211007000000Z
 220323000000Z
 220329000000Z
-220504001003Z0/
+220506225649Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -547,7 +547,6 @@ $II+L$`
 6*f(_
 6I]Dc
 6OB,n_
-6^$y3
 70503
 8 t"L
 8 u'L
@@ -558,6 +557,7 @@ $II+L$`
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8z!"8:
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -570,6 +570,7 @@ $II+L$`
 <0:08
 <P)9Y
 <unknown>
+=,{,Ks
 =rIQU
 >Mp$d
 >ffv?
@@ -1987,7 +1988,6 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
-qbh43
 r,fff
 renderdoc.dll
 result == ALVR_OK
@@ -2052,6 +2052,7 @@ timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
 uAfff
+uM;boM
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S

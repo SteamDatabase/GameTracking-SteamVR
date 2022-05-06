@@ -4321,7 +4321,7 @@ $~O="""
 213w3
 220323000000Z
 220329000000Z
-220504000800Z0/
+220506225611Z0/
 22272A2Y2d2
 22282E2
 222A2F2
@@ -5227,7 +5227,6 @@ $~O="""
 4_^][
 4_^][Y
 4`5h5
-4bSV&
 4c4u4
 4d6h8
 4g4o4
@@ -6266,7 +6265,6 @@ $~O="""
 8&8M8U8n8
 8&9-9a9l9
 8&9T9^9c9
-8&BKw
 8&u%V
 8'8,8@8E8Y8^8r8w8
 8'8-92979D9
@@ -9618,7 +9616,6 @@ B+D$,
 B+D$<
 B,a yb
 B,laa
-B-.Ir
 B/FAC
 B0;A0uu
 B0BrB
@@ -12110,6 +12107,7 @@ DuplicateHandle
 Duration Of Xray On
 During the first end_element call after invoking a subparser you must pop the subparser stack and handle the freeing of the subparser user_data.  This can be done by calling the end function of the subparser.  Very probably, your program just leaked memory.
 Dw i'n gallu bwyta gwydr, 'dyw e ddim yn gwneud dolur i mi.
+Dw~rT 
 Dx,2$E
 Dynamic Range
 Dynamic Z Alpha Value
@@ -13714,6 +13712,7 @@ Kapur
 Katakana
 Kaya kong kumain nang bubog at hindi ako masaktan.
 Kayah_Li
+Kdrhb
 Kernel
 Keyword
 Kg	S[
@@ -14578,7 +14577,6 @@ MaxRGB
 Maximum
 Maximum Coordinate Value
 MaximumChannelsExceeded
-MdkY=
 Mean Of Corrected Gray Levels
 Mean Of Log Region Gray Levels
 Mean Of Offset Gray Levels
@@ -18630,7 +18628,6 @@ Z Offset In Slide Coordinate System
 Z({:3m
 Z* ,	
 Z0_0n0s0
-Z8;W@$
 Z9/t3
 ZDepthHomogeneous
 ZDepthLinear
@@ -19381,6 +19378,7 @@ azure3
 azure4
 b"$ V'(
 b&;AL
+b7qq2U|4B
 b<buI
 b?8Nb?g}b?
 bKGD must be after
@@ -21644,6 +21642,7 @@ hz-gb-2312
 h}	!l
 i&Ma.
 i1!i6Ai;ai@
+i2@G]
 i= BGRtZ= ZYXtI=rbCYt8
 iCCP: invalid keyword
 iMW=}V
@@ -21986,6 +21985,7 @@ j8h u*
 j<h<Q;
 j>j-j-S
 j>j]j]S
+jG39U??y
 jGj=Lk<Li;WuFb
 jIT<<H,g~Cj
 j\hp"@
@@ -22481,6 +22481,7 @@ n_param_values == 1
 n_param_values == 2
 n_pspecs_p != NULL
 n_values >= value_array->n_values
+n`i>/q
 nabataean
 name != NULL
 name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)
@@ -23125,6 +23126,7 @@ q_nk[)2(17.07-16*05,/3-/3-/4..1,.5.2?43@3@M:IX@BU8Mg@Gb9XrJ]xT4D5heVheVheVheVheV
 qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
 qesppL
 qo-W>
+qq~oEy
 qsort
 quality
 quality software.  Thanks.  Julian Seward, 10 December 2007.
@@ -23298,7 +23300,6 @@ s%hcsedW
 s0^][
 s1 != NULL
 s2 != NULL
-s7ll8>8IW
 s90* 
 s<Uh@
 s?? yish???go b

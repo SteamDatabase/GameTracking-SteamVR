@@ -1,4 +1,5 @@
 	!s99
+	x-{`K'
  %41g
  A__^
  H3E H3E
@@ -31,6 +32,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.X~@+,,
 .data
 .data$r
 .edata
@@ -75,19 +77,17 @@
 0w0c1
 0}0i1
 130801120000Z
-1`&5^
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220504001246Z0/
+220506230116Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
-31BF6M
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -120,7 +120,6 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-F(\mG
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -180,10 +179,8 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
-[G>]&
 [K]taM?
 \$ UH
-\bMHO's
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -229,9 +226,6 @@ driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
 e,>~^
-f.3ZN
-g~.54
-h*$y6
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -262,6 +256,7 @@ windowX
 windowY
 www.digicert.com1!0
 x]~\6
+{WoP^
 {un'%
 |$ AVH
 |Lu?c

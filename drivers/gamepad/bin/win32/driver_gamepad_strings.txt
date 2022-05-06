@@ -2,6 +2,8 @@
  %41g
 !hn7!
 ',=?k
+'@PV}^
+'v5Ms
 (f*^[0
 *9Z9N
 +Xt@(
@@ -103,7 +105,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220504001035Z0/
+220506225823Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,7 +146,9 @@
 7/8X8g8z8
 70503
 787X7t7x7
+7_c4la
 8!8<8R8[8`8j8t8~8
+8#i[=:
 8%80868<8C8
 8(9,909H9L9
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -162,6 +166,7 @@
 < =)=2=;=@=E=L=Q=]=
 <0:08
 <0<G<P<Y<b<g<l<s<
+<>HO1
 <S=g=
 = =0=4=D=H=L=T=l=|=
 = =F=O=Z=
@@ -194,8 +199,6 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-G%:$f
-G,,V&S
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -228,7 +231,6 @@ IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
 K}*n:	
-L/B @
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
@@ -236,13 +238,12 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-N>d?r
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSu
+RSDS41
 RaiseException
 S0Q0O
 SA|X=G
@@ -280,7 +281,6 @@ TlsAlloc
 TlsFree
 UnhandledExceptionFilter
 Unknown exception
-U}8r!
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
@@ -337,9 +337,9 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
-dk>iv
 driver_gamepad.dll
 e,>~^
+e/XS'
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -351,7 +351,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
-prP2m
+mp*G.
 string too long
 terminate
 uCVj@
@@ -359,7 +359,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 x]~\6
-zv.h`
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -371,5 +370,6 @@ zv.h`
 {gamepad}/input/gamepad_profile.json
 {un'%
 |Lu?c
+|NqaQ
 }LuHO
 ~t&LN

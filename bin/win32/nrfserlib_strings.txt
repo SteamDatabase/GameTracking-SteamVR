@@ -56,6 +56,7 @@
 !hn7!
 "0)0C0
 "j h4_
+$ 5$?
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -89,7 +90,6 @@ $Vh&*
 , defaulting to stop_bits::one!
 ,W5y+
 -1e+9999
--Dnz	
 -Infinity
 -external
 -internal
@@ -613,6 +613,7 @@ $Vh&*
 0D1^2
 0G0r0
 0H1a1f1
+0K#vV
 0O0~0
 0S1m1
 0^0q0x0
@@ -707,7 +708,7 @@ $Vh&*
 211007000000Z
 220323000000Z
 220329000000Z
-220504001032Z0/
+220506225822Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -838,6 +839,7 @@ $Vh&*
 4U7p7
 4]4t4z4
 4f5s546
+4lTTi
 4q5v5
 5	646\6
 5 5$5
@@ -1368,7 +1370,6 @@ $Vh&*
 ?E?p?
 ?F?R?
 ?H?l?v?
-?XB-%~
 ?^?k?
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
@@ -1612,6 +1613,7 @@ DFU_RESPONSE_OPERATION_FAILED
 DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
+DReyAi
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
@@ -1901,6 +1903,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSR
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2213,7 +2216,6 @@ f=cku7
 false
 file error
 floor
-gY~56.X;
 generic
 gfffVW3
 graph
@@ -2458,7 +2460,6 @@ vector<T> too long
 vector<bool> too long
 w QVR
 w(_^[]
-w+_>M+b^cJ
 w0_^[
 wXtM=!N
 wcschr
@@ -2469,6 +2470,7 @@ www.digicert.com1!0
 x5t7j
 x]~\6
 xdigit
+xg9jf
 y4_^[
 {L?uI
 {un'%

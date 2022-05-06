@@ -25,6 +25,7 @@
 	0 0D0\0t0
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
+	`@<p
 	w=%d, h=%d, format=%d
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*
  %41g
@@ -38,7 +39,6 @@
  0,040T0x0
  ;y8|
  at line 
- i1Y;
  in Buffer
  in `
  sDQj
@@ -451,7 +451,7 @@ $9^ t
 212l2
 220323000000Z
 220329000000Z
-220504001044Z0/
+220506225842Z0/
 233w4
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -1176,8 +1176,6 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
-Bg;JRy/n+
-BnY;R
 Buffer
 BufferView
 CAnimResource
@@ -1549,6 +1547,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 Wjlhx
+WttaXn
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -1574,10 +1573,12 @@ Y__^[
 ] is not a JSON object.
 ] name = "
 ] name = [
+]0{a"[X.0 
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ^$Q9C
 ^<Q9C
+^K8qv
 ^X_^[
 ^h4<	
 _,9_0t-
@@ -1658,6 +1659,7 @@ _wstat64i32
 `0_tL
 `0d0h0
 `4h4l4p4t4x4|4
+`MEN8k
 `SVWj%h
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
@@ -1855,6 +1857,7 @@ gfffS
 gfffW
 greek
 gu3jd
+hH]f~+
 hand_right_poses.glb
 handlers
 headset
@@ -2011,7 +2014,6 @@ not enough pixels
 null literal
 number literal
 number overflow parsing '
-o$jUM
 object
 object key
 object separator
@@ -2141,6 +2143,7 @@ ovr_TestBoundaryPoint
 ovr_TraceMessage
 ovr_WaitToBeginFrame
 ovr_WaitToBeginFrame(%d) failed: %s
+p76<!
 pNewResource
 pNewResource->Load( absFilePath )
 parameter must be a string or number / number array.

@@ -115,7 +115,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220504000827Z0/
+220506225634Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -190,7 +190,7 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-EY/0^
+EO!(!
 E`9D$Pu
 Ed9D$Tu
 EnterCriticalSection
@@ -242,7 +242,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS&J]
+RSDSd
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -296,6 +296,7 @@ WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
 [K]taM?
+[}9v4
 \$ H;
 \$ UH
 \$(H;
@@ -351,6 +352,7 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 iswspace
+jd58@
 jj@0HK4
 k0i0$
 l$ WH
@@ -361,7 +363,6 @@ memmove
 memset
 ntelD
 ole32.dll
-qbTQq
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -369,7 +370,6 @@ t$ WH
 t$0H+
 t$8H9)t
 t$@H=
-t5JW\*`
 tXfff
 terminate
 v!neException encountered initializing WinRT display (%d): %s

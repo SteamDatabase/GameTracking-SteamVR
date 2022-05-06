@@ -6,8 +6,8 @@
 !(0)"
 !9~ t
 !hn7!
+"wn{Jf
 #*1892+$
-#=QmJ
 #?RADIANCE
 #?RGBE
 $9^ t
@@ -16,7 +16,6 @@ $9^ t
 %UUUU
 ',=?k
 '.5<=6/7>????????????????
-'xT" 
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -32,7 +31,6 @@ $9^ t
 , last executing in 
 ,020@0L0
 ,W5y+
--7T;*
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -167,7 +165,7 @@ $9^ t
 211007000000Z
 220323000000Z
 220329000000Z
-220504001011Z0/
+220506225801Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -253,6 +251,7 @@ $9^ t
 8"83888B8Q8V8[8`8e8j8o8t8y8~8
 8#9{9
 8+9g9
+82pm*
 8=;A;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -341,7 +340,6 @@ $9^ t
 ?G?K?w?
 ?I?O?d?m?
 ?K?n?{?
-?MY#'
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UAEXXZ
@@ -373,9 +371,9 @@ AitH264Capture.dll
 AitUVCExtApi.dll
 AjEB#AZ
 BMP RLE
+BQw+?$D
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
-CMX7j
 CallCreateObject
 Camera Recovery Mode Required
 CameraWork
@@ -420,6 +418,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
+I)*!Xr
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -479,7 +478,6 @@ OutputDebugStringA
 OutputDebugStringW
 P<^_3
 PAq=?Mp#
-PHh2q
 PID_%04X
 PauseCamera
 PauseCamera (delayed...)
@@ -490,6 +488,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDSf
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -562,10 +561,12 @@ UnhandledExceptionFilter
 Unknown
 Unknown exception
 UuidFromStringA
+V&DR+
 VCRUNTIME140.dll
 VID_%04X
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
 VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
+VKaW0
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
@@ -580,7 +581,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
-Y/.uE\Sl
 Y9"SD
 Y__^[
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -631,7 +631,6 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
-`44(}
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -740,6 +739,7 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
+klhE5
 ko_ko
 korean
 latam
@@ -828,13 +828,13 @@ vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
-w&W.	pv
 wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
 x]~\6
 yrPhX
+za%^y
 zh_cn
 zh_tw
 zlib corrupt

@@ -40,6 +40,7 @@ $_^[]
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (f*^[0
+)/A_)Y
 *9Z9N
 +A Vj$
 +A$+Y
@@ -424,7 +425,6 @@ $_^[]
 2,2024282<2D2\2l2p2
 2,242<2D2H2P2d2l2t2
 2,2V2e2#4,454;4s4y4
-2.znO
 2/2I2
 202@2D2T2X2\2d2|2
 202P2X2`2h2p2x2
@@ -432,7 +432,7 @@ $_^[]
 211007000000Z
 220323000000Z
 220329000000Z
-220504000719Z0/
+220506225528Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -501,6 +501,7 @@ $_^[]
 3@3|3
 3F3n3s3
 3K3S3[3
+3]9fBz
 3i3v3
 3mq+<
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4
@@ -998,7 +999,6 @@ $_^[]
 =+>F>
 =,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=t=x=|=
 =,=D=y=
-=,SFT
 =->6>?>s>|>
 =.=L=l=w=
 =.>B>Y>
@@ -1215,7 +1215,6 @@ A0B;W
 AHPQVR
 AHkO($
 AcquireSRWLockExclusive
-Ag."J
 AjEB#AZ
 Applying depth format 
 Applying first frame camera configuration options...
@@ -1285,7 +1284,6 @@ CreateThreadpoolWork
 CreateTimerQueue
 CreateTimerQueueTimer
 DFailed to EnumPins.
-D`eH"
 DecodePointer
 DeleteCriticalSection
 DeleteTimerQueueTimer
@@ -1594,6 +1592,7 @@ Y__^[
 [SPj"
 [tc9]
 \SVW3
+\fFV*$9
 ]J<0"0i3
 _$@;Ghr
 _CIexp
@@ -1677,6 +1676,7 @@ api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
 b1	3C3
+b?;>KS 
 bad address
 bad allocation
 bad array new length
@@ -1690,6 +1690,7 @@ bad message
 blank
 broken pipe
 c:\buildslave\steamvr_rel_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
+c=_Te%M
 calloc
 cntrl
 connection aborted
@@ -1758,7 +1759,7 @@ ldexp
 localeconv
 lower
 lstrcmpW
-mXh+1TE
+mB80o;
 malloc
 memchr
 memcmp
@@ -1860,7 +1861,6 @@ t\QSV
 t]VWj>
 t]WPR
 t^97uZjD
-te5F}
 terminate
 text file busy
 timed out
