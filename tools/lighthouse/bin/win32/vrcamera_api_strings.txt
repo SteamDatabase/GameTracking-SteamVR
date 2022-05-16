@@ -40,7 +40,6 @@ $_^[]
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (f*^[0
-)/A_)Y
 *9Z9N
 +A Vj$
 +A$+Y
@@ -432,7 +431,7 @@ $_^[]
 211007000000Z
 220323000000Z
 220329000000Z
-220506225528Z0/
+220516222033Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -501,7 +500,6 @@ $_^[]
 3@3|3
 3F3n3s3
 3K3S3[3
-3]9fBz
 3i3v3
 3mq+<
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4
@@ -846,6 +844,7 @@ $_^[]
 :(:4:T:\:d:p:
 :(:H:T:t:
 :(:V:w:
+:)Kn@
 :*:E:
 :,:0:@:D:H:L:P:T:X:\:`:d:h:l:p:t:|:
 :-:A:e:x:*;y;
@@ -1484,6 +1483,7 @@ QkK04
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RA07I
 RPj(h
 RPj(hp
 RWQSV
@@ -1592,7 +1592,6 @@ Y__^[
 [SPj"
 [tc9]
 \SVW3
-\fFV*$9
 ]J<0"0i3
 _$@;Ghr
 _CIexp
@@ -1676,7 +1675,6 @@ api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
 b1	3C3
-b?;>KS 
 bad address
 bad allocation
 bad array new length
@@ -1690,7 +1688,6 @@ bad message
 blank
 broken pipe
 c:\buildslave\steamvr_rel_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
-c=_Te%M
 calloc
 cntrl
 connection aborted
@@ -1759,7 +1756,6 @@ ldexp
 localeconv
 lower
 lstrcmpW
-mB80o;
 malloc
 memchr
 memcmp

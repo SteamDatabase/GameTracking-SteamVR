@@ -286,7 +286,6 @@ $9^ t
 $Qjnj
 $SWj8
 $VPhp
-$qoV$XY"Z])
 $tAUUPE
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -1161,7 +1160,7 @@ $tAUUPE
 212@2b2
 220323000000Z
 220329000000Z
-220506225945Z0/
+220516222826Z0/
 22282
 223W3
 232~2
@@ -1238,6 +1237,7 @@ $tAUUPE
 2v9;:J:
 2xJK7*L
 2y4d6h6l6p6i9X;v;q<
+2~taB
 3	4.4J4
 3	;Z;
 3 3$3(3,303
@@ -4000,7 +4000,6 @@ HidD_GetProductString
 HidD_GetSerialNumberString
 HidD_SetFeature
 HidP_GetCaps
-Hkl5?O
 HmdDeviceConnect( %u, %u, %llu, %llu )
 HmdDriverFactory
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x
@@ -4498,7 +4497,7 @@ R8F;u
 RENDERDOC_GetAPI
 RHhp)
 RPCRT4.dll
-RSDS8
+RSDS8D
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5149,6 +5148,7 @@ Vortex Error
 VrController
 W(PQR
 W0PQR
+W9wP9
 WARNING
 WARNING: Base %08X has no factory calibration and will be ignored
 WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
@@ -5420,7 +5420,6 @@ audio_recording_device_vid
 average_period
 avrt.dll
 axisSW
-b0:O8
 bad AC huff
 bad APP len
 bad BMP
@@ -5984,7 +5983,6 @@ l!;b	F
 l6qnk
 l?Nb0?
 lEyeFile:%s width:%d height:%d components:%d
-lH!-"
 label
 lastChaperoneCommit
 last_eye
@@ -6129,6 +6127,7 @@ pNewResource
 pNewResource->Load( absFilePath )
 pO Df
 pO`Df
+pQ2O?
 package
 packed
 pairing_result
@@ -6231,11 +6230,13 @@ s$;s(t3
 s(+CD
 s(h`	
 s4;s8
+sDXtoR9
 sX;s\t]
 sample_angle_estimate
 sampler
 samplers
 samples
+sb&Jt
 sbetuw
 scalar
 scale
@@ -6446,7 +6447,6 @@ uKj@P
 uWj&h
 uZVj(
 ua_ua
-ub|#d
 uint32
 uint64
 ukranian

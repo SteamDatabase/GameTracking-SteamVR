@@ -1425,6 +1425,7 @@
  ;_$|
  ;w$|
  ;|$0|
+ ;}a[
  <xu1j
  =c~!
  ?? ??? ???? ???? ????? ??? ????? ???????!
@@ -1626,6 +1627,7 @@
 #%02X
 #%04lx
 #%d;2;%d;%d;%d
+#&W@1(
 #&cK=YB
 #'#'#'#'#'
 #'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'
@@ -4321,7 +4323,7 @@ $~O="""
 213w3
 220323000000Z
 220329000000Z
-220506225611Z0/
+220516222126Z0/
 22272A2Y2d2
 22282E2
 222A2F2
@@ -9830,6 +9832,7 @@ C$VWP
 C$_[^
 C$_^[
 C(TRST
+C.MaK8
 C0UQj
 C0VUj
 C0]_^[
@@ -12107,7 +12110,6 @@ DuplicateHandle
 Duration Of Xray On
 During the first end_element call after invoking a subparser you must pop the subparser stack and handle the freeing of the subparser user_data.  This can be done by calling the end function of the subparser.  Very probably, your program just leaked memory.
 Dw i'n gallu bwyta gwydr, 'dyw e ddim yn gwneud dolur i mi.
-Dw~rT 
 Dx,2$E
 Dynamic Range
 Dynamic Z Alpha Value
@@ -13712,7 +13714,6 @@ Kapur
 Katakana
 Kaya kong kumain nang bubog at hindi ako masaktan.
 Kayah_Li
-Kdrhb
 Kernel
 Keyword
 Kg	S[
@@ -13726,6 +13727,7 @@ Kodak Digital Camera Raw Image Format
 KopCw;n
 Kp0qb
 Kristala jan dezaket, ez dit minik ematen.
+Ku{Bo
 K}*n:	
 L %g %g
 L %g %g Z
@@ -14768,6 +14770,7 @@ NAXIS2  =           %10lu
 NAXIS3  =           %10lu
 NCName
 NCV;heVheWheWheWheWieVkdZneWhfQnlh
+NCpAS
 ND;NH
 NETSCAPE
 NETSCAPE2.0
@@ -16080,6 +16083,7 @@ R Wave Pointer
 R"Z$g
 R'Jj7D
 R+42W
+R,l6r
 R-R Interval Vector
 R1R|R
 R1h58
@@ -19378,7 +19382,6 @@ azure3
 azure4
 b"$ V'(
 b&;AL
-b7qq2U|4B
 b<buI
 b?8Nb?g}b?
 bKGD must be after
@@ -21642,7 +21645,6 @@ hz-gb-2312
 h}	!l
 i&Ma.
 i1!i6Ai;ai@
-i2@G]
 i= BGRtZ= ZYXtI=rbCYt8
 iCCP: invalid keyword
 iMW=}V
@@ -21985,7 +21987,6 @@ j8h u*
 j<h<Q;
 j>j-j-S
 j>j]j]S
-jG39U??y
 jGj=Lk<Li;WuFb
 jIT<<H,g~Cj
 j\hp"@
@@ -22481,7 +22482,6 @@ n_param_values == 1
 n_param_values == 2
 n_pspecs_p != NULL
 n_values >= value_array->n_values
-n`i>/q
 nabataean
 name != NULL
 name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)
@@ -23126,7 +23126,6 @@ q_nk[)2(17.07-16*05,/3-/3-/4..1,.5.2?43@3@M:IX@BU8Mg@Gb9XrJ]xT4D5heVheVheVheVheV
 qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
 qesppL
 qo-W>
-qq~oEy
 qsort
 quality
 quality software.  Thanks.  Julian Seward, 10 December 2007.
@@ -25857,6 +25856,7 @@ zt?"
 z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@/MD3iE4
 {*LOG(%s)
 {0;2O3
+{>zdy
 {?a4{?
 {?o}'
 {?q |?

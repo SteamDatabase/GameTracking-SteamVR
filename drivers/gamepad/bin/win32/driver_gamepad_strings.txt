@@ -2,8 +2,6 @@
  %41g
 !hn7!
 ',=?k
-'@PV}^
-'v5Ms
 (f*^[0
 *9Z9N
 +Xt@(
@@ -105,7 +103,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220506225823Z0/
+220516222350Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -146,13 +144,12 @@
 7/8X8g8z8
 70503
 787X7t7x7
-7_c4la
 8!8<8R8[8`8j8t8~8
-8#i[=:
 8%80868<8C8
 8(9,909H9L9
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8Vy6\
 9!9&9-929>9`9w9
 9*;V;c;
 9p9}9
@@ -166,12 +163,12 @@
 < =)=2=;=@=E=L=Q=]=
 <0:08
 <0<G<P<Y<b<g<l<s<
-<>HO1
 <S=g=
 = =0=4=D=H=L=T=l=|=
 = =F=O=Z=
 =N>_>
 =O>h>{>
+=Re{[
 =V=8>j>
 =rIQU
 > >$>(>0>H>X>\>l>p>t>x>
@@ -207,6 +204,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 HmdDriverFactory
+I(9@p|H'
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -243,7 +241,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS41
 RaiseException
 S0Q0O
 SA|X=G
@@ -337,9 +334,9 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
+d];Ly
 driver_gamepad.dll
 e,>~^
-e/XS'
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -351,7 +348,6 @@ map/set<T> too long
 memcpy
 memmove
 memset
-mp*G.
 string too long
 terminate
 uCVj@
@@ -359,6 +355,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 x]~\6
+x|[	lq@
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -370,6 +367,6 @@ x]~\6
 {gamepad}/input/gamepad_profile.json
 {un'%
 |Lu?c
-|NqaQ
 }LuHO
 ~t&LN
+~uswo

@@ -45,6 +45,7 @@ $< t6<$t,<+t"<vt
 %d / %m / %y
 %m / %d / %y
 ',=?k
+'_R=D>
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
 (A^A\_[
@@ -378,7 +379,7 @@ $< t6<$t,<+t"<vt
 211007000000Z
 220323000000Z
 220329000000Z
-220506225527Z0/
+220516222051Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -391,11 +392,9 @@ $< t6<$t,<+t"<vt
 380115120000Z0b1
 3A8A#
 3mq+<
-4 !@2
 4.tfH
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-6C8'<
 6I]Dc
 6OB,n_
 70503
@@ -670,6 +669,7 @@ Begin Streaming Depth...
 Begin Streaming Video...
 Beginning detectedStream 
 Bellevue1
+B~$?,K
 C H9G
 C$9C w H
 C$u	H
@@ -1119,7 +1119,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSw
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1242,7 +1241,6 @@ WATAUAVAWH
 WATAVH
 WATAWH
 WAVAWH
-WPAc0O
 W`;Ct~|H
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1393,6 +1391,7 @@ destination address required
 device or resource busy
 digit
 directory not empty
+d~T[E]G
 e,>~^
 e0A^A]A\_^[]
 e@A_A^]
@@ -1564,6 +1563,7 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
+sSl0UE
 setlocale
 setvbuf
 space
@@ -1676,6 +1676,8 @@ x UAVAWH
 x]~\6
 xdigit
 yH;YXtl
+yJcLJZ
+yW=p0g
 { ATAVAWH
 { AVH
 { tjL

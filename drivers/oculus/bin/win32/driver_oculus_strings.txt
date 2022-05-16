@@ -25,7 +25,6 @@
 	0 0D0\0t0
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
-	`@<p
 	w=%d, h=%d, format=%d
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*
  %41g
@@ -63,6 +62,7 @@
 #?RGBE
 #oculus_requested_quit
 $9^ t
+$|FUP
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -451,7 +451,7 @@ $9^ t
 212l2
 220323000000Z
 220329000000Z
-220506225842Z0/
+220516222520Z0/
 233w4
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -1024,6 +1024,7 @@ $9^ t
 >!>)>/>5><>N>X>^>e>s>|>
 >!>1>A>Q>a>q>
 >">4>>>D>K>Y>b>g>
+>#GzF
 >$>*>0>7>>>E>L>S>Z>a>i>q>y>
 >$>4>D>T>d>p>x>
 >%>7>?>
@@ -1382,6 +1383,7 @@ KHR_lights_punctual
 K}*n:	
 L?n(Zy&
 LINEAR
+Lc(~B
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LibOVRRT64_1.dll
@@ -1547,7 +1549,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 Wjlhx
-WttaXn
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -1573,12 +1574,10 @@ Y__^[
 ] is not a JSON object.
 ] name = "
 ] name = [
-]0{a"[X.0 
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ^$Q9C
 ^<Q9C
-^K8qv
 ^X_^[
 ^h4<	
 _,9_0t-
@@ -1659,7 +1658,6 @@ _wstat64i32
 `0_tL
 `0d0h0
 `4h4l4p4t4x4|4
-`MEN8k
 `SVWj%h
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
@@ -1857,7 +1855,6 @@ gfffS
 gfffW
 greek
 gu3jd
-hH]f~+
 hand_right_poses.glb
 handlers
 headset
@@ -2143,7 +2140,6 @@ ovr_TestBoundaryPoint
 ovr_TraceMessage
 ovr_WaitToBeginFrame
 ovr_WaitToBeginFrame(%d) failed: %s
-p76<!
 pNewResource
 pNewResource->Load( absFilePath )
 parameter must be a string or number / number array.
@@ -2160,6 +2156,7 @@ primitive indices accessor out of bounds
 primitives
 pt_br
 pt_pt
+q&y32Bb
 quest
 range
 read past buffer

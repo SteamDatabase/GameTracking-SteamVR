@@ -1,6 +1,5 @@
 	!s99
  %41g
-!+3u;
 !hn7!
 ',=?k
 (f*^[0
@@ -83,7 +82,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220506225826Z0/
+220516222352Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -100,7 +99,6 @@
 4(4Z4
 4*464<4B4N4q4O5o5y5
 4>4K4S4[4
-4A4=7
 5 5$5(5H6L6P6T6X6\6`6x6|6
 5&53595C5M5W5a5k5x5
 5&5V5[5~5
@@ -110,6 +108,7 @@
 6$7o7y7
 6&636E6O6Y6b6
 6*f(_
+6GufWQ
 6I]Dc
 6K7T7\7
 6OB,n_
@@ -124,6 +123,7 @@
 9$9>9
 9%959E9N9]9c9i9o9u9{9
 90949L9\9`9p9t9|9
+9JPNm
 :!:3:Q:
 :(:-:;:E:N:W:b:g:u:
 :(:8:<:L:P:X:p:
@@ -133,7 +133,6 @@
 <0:08
 <B<O<X<a<f<k<r<
 <B<O<p<u<
-= BdrsY
 ='=9=Q=
 =(=.=4=x=}=
 =?>S>x>
@@ -148,7 +147,6 @@
 @.reloc
 AjEB#AZ
 Bellevue1
-CX17M
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -161,7 +159,6 @@ GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
 HmdDriverFactory
-I4.hL
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -193,11 +190,11 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RiT(a9
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
 TerminateProcess
+U1dO0
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
@@ -209,7 +206,9 @@ Washington1
 Y9"SD
 Y__^[
 [K]taM?
+\P3kJ
 ]J<0"0i3
+]`W*[
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -257,6 +256,7 @@ driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
 e,>~^
+ggAzt
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -281,10 +281,13 @@ windowHeight
 windowWidth
 windowX
 windowY
+wp;G	
 www.digicert.com1!0
 x]~\6
+xq/2s
+y@CQa+4
 {un'%
 |Lu?c
+}6}md\O*
 }LuHO
-~ikOa
 ~t&LN

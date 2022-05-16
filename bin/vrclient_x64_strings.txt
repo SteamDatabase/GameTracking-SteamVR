@@ -503,6 +503,8 @@ $w!Hc
 %s_%3d
 %s_%s%s
 %u != %zu
+%v+B9
+&#i\%
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
 &CVRMsg_CancelApplicationLaunchResponse
@@ -535,7 +537,6 @@ $w!Hc
 ',=?k
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '.5<=6/7>????????????????
-'4U9-
 '9k0t
 'CVRMsg_ClientMailbox_SendMailboxMessage
 'CVRMsg_CompositorHookScreenshotResponse
@@ -787,6 +788,7 @@ $w!Hc
 )|$pD
 )|$pE
 )|$pf
+*'Aj#q5\
 **** JUDDER **** expected %u got %u
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
@@ -2210,7 +2212,7 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220506230310Z0/
+220516222541Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -4817,7 +4819,6 @@ H_^][
 Haptic
 Haptic vibration had the wrong type tag: %u
 HasField
-Hc4m)
 HcA,H
 HcA,L
 HcA0H
@@ -5656,7 +5657,6 @@ M H1E
 M#V0M
 M#W0M
 M#e0I
-M("tw
 M+HPI
 M,fff
 M9 t13
@@ -5695,6 +5695,7 @@ ML$hH
 MSVCP140.dll
 MS_:F
 MT$dA
+MaF7'
 MainThrd
 MapViewOfFile
 Message class "
@@ -6072,7 +6073,6 @@ Protocol message was modified concurrently during serialization.
 Purging all shared textures because the connection to vrserver was lost
 Pz}b!
 Q H9P 
-Q;Cn\
 QFailed to create internal command allocator
 QHL9u
 QHtfH
@@ -6082,7 +6082,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS,
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -8222,6 +8221,7 @@ actual_mailbox_name
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 aggregate_value
+aguah
 alias_info
 alias_info field exists, but it is not an object
 alias_name
@@ -8536,7 +8536,6 @@ d$hE3
 d$hHcC,L
 d$hI;
 d$pI;
-d0E&7
 d3d11.dll
 da_da
 danish
@@ -9579,6 +9578,7 @@ s@fff
 sButtonTexts
 sCaptionText
 sMessageText
+s]<E_:
 safe_mode_driver_whitelist.json
 samplecount
 sampler
@@ -11185,6 +11185,7 @@ zuusA
 {%s}%s
 {,	u#
 {8@8l$8t1
+{M3!zBE
 {un'%
 |$ 9kh~
 |$ 9y ~=H
@@ -11293,7 +11294,6 @@ zuusA
 |8PH;
 |D8E t"H
 |Lu?c
-|Uup4
 |s;K(tnA
 }(Hcv4I
 }(M98t

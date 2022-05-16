@@ -79,6 +79,7 @@
 "perspective" is not a JSON object.
 "scenes" object not found in .gltf or not an array type
 "spot" is not a JSON object.
+##zI"
 #*1892+$
 #9i0t
 #?RADIANCE
@@ -216,7 +217,6 @@ $w!Hc
 , requestedBytes 
 ,9k0t%H
 ,9{0t%H
-,HqL];
 ,W5y+
 -1003
 -1e+9999
@@ -459,7 +459,7 @@ $w!Hc
 211007000000Z
 220323000000Z
 220329000000Z
-220506230126Z0/
+220516222834Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -490,7 +490,6 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9*Zyk
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -501,6 +500,7 @@ $w!Hc
 9k0t_D
 9k0tcH
 9l$Lt	E
+9maL.
 9|$0u
 : one or more FS callback not set
 ; expected 
@@ -612,6 +612,7 @@ $w!Hc
 @.reloc
 @.rsrc
 @8I+@0H
+@ANZY
 @A\^]
 @A^A]A\[]
 @A^_^
@@ -742,7 +743,6 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
-Ax>/{ :1(
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -985,6 +985,7 @@ GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount64
 Graphics LUID changed
+GuIU0
 Guardian changed, updating chaperone
 H SVWH
 H SWH
@@ -996,7 +997,6 @@ H+SpI
 H+WpA
 H+WpH
 H+WpI
-H8*,Z
 H93t	H
 H9Ahs
 H9D$@
@@ -1271,7 +1271,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS}
+RSDSu
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1339,6 +1339,7 @@ T$pD;
 T$pL;
 T$xH;
 T$xL;
+T(^H*V
 TANGENT
 TEXCOORD
 TUUUUUU
@@ -1490,7 +1491,6 @@ ZL$Xf
 \$pI;
 \$pfD
 \$xH;
-\%Fp?9
 \u=H;
 \|$`D
 ] buffer "
@@ -1566,6 +1566,7 @@ _invalid_parameter_noinfo_noreturn
 _localtime64
 _lock_file
 _mbsstr
+_p[M~@
 _purecall
 _register_onexit_function
 _seh_filter_dll
@@ -2447,7 +2448,6 @@ www.digicert.com1!0
 x AVH
 xA^A\_^][
 x]~\6
-x~*BTL
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI

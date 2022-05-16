@@ -5664,8 +5664,7 @@ AvatarCustomizationItem #SliderThumb
 {
 	visibility: visible;
 }
-.WinMRController .item_def_windowsmr_controllers,
-.ReverbG2Controller .item_def_full_hands
+.WinMRController .item_def_windowsmr_controllers
 {
 	visibility: visible;
 }
@@ -5677,13 +5676,10 @@ AvatarCustomizationItem #SliderThumb
 {
 	visibility: visible;
 }
-
-/* The Vive Focus 3 is the first controller we're falling back to GenericTrackedController for, and it doesn't provide hand (finger) animation data
-.GenericTrackedController .item_def_full_hands
+.ControllerHasFingerTracking .item_def_full_hands
 {
 	visibility: visible;
 }
-*/
 
 .item_def_vive_headset,
 .item_def_vive_pro_headset,

@@ -55,6 +55,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+#^3J4)
 $9E0u
 $II+L$`
 %s begin_ctx=%llu
@@ -307,7 +308,8 @@ $II+L$`
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
-'B8[RJj"'
+'3r<z_o
+'IeE4
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -530,7 +532,7 @@ $II+L$`
 211007000000Z
 220323000000Z
 220329000000Z
-220506225649Z0/
+220516222209Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -557,7 +559,6 @@ $II+L$`
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8z!"8:
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -570,7 +571,6 @@ $II+L$`
 <0:08
 <P)9Y
 <unknown>
-=,{,Ks
 =rIQU
 >Mp$d
 >ffv?
@@ -651,6 +651,7 @@ $II+L$`
 @WAUAVAWH
 @WAVAWH
 @`fff
+@s_8T
 A(A9C
 A(H9A t!H
 A8H9A0t
@@ -1406,6 +1407,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
+R"|[C
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
@@ -1612,6 +1614,7 @@ WindowsPromoteStringBuffer
 WriteFile
 XA_A][]
 XA_A^A]_
+XR:,&
 Y9"SD
 YUV conversion - %s
 Yl$ M
@@ -1710,6 +1713,7 @@ _wcsicmp
 _wcsnicmp
 _wcsupr
 `.rdata
+`2m+Q
 `A^A]_^]
 `A^_]
 `A_A][
@@ -2052,12 +2056,12 @@ timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
 uAfff
-uM;boM
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
 v!ne8=
 v=Y]Bv
+v@n[C
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
 vkAcquireDrmDisplayEXT
@@ -2525,6 +2529,7 @@ wcsstr
 www.digicert.com1!0
 xA_A^A]A\_^[]
 x]~\6
+y+}x*
 yxxxxxxxH
 yxxxxxxxI+
 {pH;{xw?

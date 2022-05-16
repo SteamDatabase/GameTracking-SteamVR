@@ -6,7 +6,6 @@
 !(0)"
 !9~ t
 !hn7!
-"wn{Jf
 #*1892+$
 #?RADIANCE
 #?RGBE
@@ -165,7 +164,7 @@ $9^ t
 211007000000Z
 220323000000Z
 220329000000Z
-220506225801Z0/
+220516222332Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -173,6 +172,7 @@ $9^ t
 2>3k3
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2FR	P
 2SPV9
 2Z3a3
 2`4{4
@@ -251,7 +251,6 @@ $9^ t
 8"83888B8Q8V8[8`8e8j8o8t8y8~8
 8#9{9
 8+9g9
-82pm*
 8=;A;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -371,7 +370,6 @@ AitH264Capture.dll
 AitUVCExtApi.dll
 AjEB#AZ
 BMP RLE
-BQw+?$D
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
@@ -418,7 +416,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
-I)*!Xr
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -488,7 +485,6 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSf
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -561,12 +557,10 @@ UnhandledExceptionFilter
 Unknown
 Unknown exception
 UuidFromStringA
-V&DR+
 VCRUNTIME140.dll
 VID_%04X
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
 VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
-VKaW0
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
@@ -580,6 +574,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+Wtho4
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -684,6 +679,7 @@ bad req_comp
 bad sizes
 bad tRNS len
 bad zlib header
+bc0Gdz
 bg_bg
 brazilian
 bulgarian
@@ -739,7 +735,6 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
-klhE5
 ko_ko
 korean
 latam
@@ -834,11 +829,11 @@ wrong version
 www.digicert.com1!0
 x]~\6
 yrPhX
-za%^y
 zh_cn
 zh_tw
 zlib corrupt
 {un'%
 |Lu?c
 }LuHO
+}Q#_+R
 ~t&LN

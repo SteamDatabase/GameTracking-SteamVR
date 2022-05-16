@@ -11,11 +11,9 @@
  A_^[
  A__[
  A__^
- G$"j
  H3E H3E
  for detail.
 !! refusing to trigger minidump with debugger attached
-!0rdl
 !hn7!
 %%.%dg
 %s%s%s%s%s
@@ -145,13 +143,12 @@
 0w0c1
 0}0i1
 130801120000Z
-1di#h
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220506230338Z0/
+220516222829Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -176,7 +173,6 @@
 <0:08
 <unknown>
 =rIQU
->.D|f
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -454,7 +450,6 @@ I9Bhs
 I;4$H
 I;4$L
 I;8u?H
-I<h2!
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -487,6 +482,7 @@ IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+Ih}tm
 Infinity
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -555,6 +551,9 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+R1O+f
+RSDS-
+R]/7*d0
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -565,7 +564,6 @@ S0Q0O
 SA|X=G
 SHCreateItemFromParsingName
 SHELL32.dll
-SN%Qvl
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
@@ -650,6 +648,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+Z(/i&V;
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -725,6 +724,7 @@ bad array new length
 bg_bg
 brazilian
 bulgarian
+c.Wl}
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
@@ -848,6 +848,7 @@ t$ WH
 t$0H;
 t$@H=
 t$PH=
+t(kZ+
 t:I;>t
 tVfff
 tXfff
@@ -882,6 +883,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop.dll
+wd.^%
 wn>Jj
 www.digicert.com1!0
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.

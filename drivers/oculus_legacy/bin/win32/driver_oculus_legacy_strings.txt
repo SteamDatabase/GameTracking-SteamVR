@@ -3,6 +3,7 @@
  (Camera)
 !hn7!
 ',=?k
+'[(H~TP
 (Unable to load LibOVR)
 (f*^[0
 *9Z9N
@@ -73,6 +74,7 @@
 0"0(00080=0C0K0S0X0^0f0n0s0y0
 0#0A0M0S0a0k0q0
 0,040<0D0H0L0T0h0
+0IR%W
 0n0y0
 0w0c1
 0}0i1
@@ -92,7 +94,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220506225828Z0/
+220516222400Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -185,6 +187,7 @@
 =$=B=w=
 =$=H=T=\=|=
 =@>X>\>
+=Cvx:U
 =M=V=_=h=m=r=y=~=
 =j)h8
 =rIQU
@@ -246,7 +249,6 @@ GetModuleHandleExW
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-H'i6,
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -288,6 +290,7 @@ OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
 Out of thread local storage!
+P/D]l0
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
@@ -304,7 +307,6 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-TCbH`)
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -401,6 +403,7 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 invalid string position
+jSYw/
 jdjdh
 jj@0HK4
 k0i0$
@@ -456,8 +459,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-rM/D-
-rzZ]20,
 startup
 string too long
 strncpy

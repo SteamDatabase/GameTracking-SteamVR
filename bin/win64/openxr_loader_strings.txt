@@ -67,6 +67,7 @@
 , negotiation failed with error 
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
+,@>!R+ 
 ,W5y+
 -1e+9999
 -Infinity
@@ -163,7 +164,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220506225533Z0/
+220516222041Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -276,10 +277,10 @@
 @UWAVAWH
 @VATAVH
 @VWAVH
+@[Ru`
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
-AKJur&
 ATAVAWH
 AUAVAWH
 A]A\_^]
@@ -521,7 +522,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS&'
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -634,6 +634,7 @@ XR_EXT_debug_utils
 XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
+Y%0%u
 Y9"SD
 [K]taM?
 \$ I;]
@@ -702,7 +703,6 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
-`qgeJ
 abort
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -724,6 +724,7 @@ application name missing NULL terminator.
 bad allocation
 bad array new length
 bad cast
+c7+Ug5
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 collectComments
 d$ UAVAWH
@@ -741,6 +742,7 @@ error
 expected XR_TYPE_INSTANCE_CREATE_INFO.
 expecting another \u token to begin the second half of a unicode surrogate pair
 extension_version
+f5sO>
 f9,Xu
 fB94@u
 fF9$@u
@@ -789,7 +791,6 @@ invalid string position
 isValidJson indicates 
 jj@0HK4
 k0i0$
-k:WH7
 keylength >= 2^30
 l$ H;
 l$ H=
@@ -993,4 +994,3 @@ xrWaitSwapchainImage
 }LuHO
 ~+fff
 ~t&LN
-~w RJ

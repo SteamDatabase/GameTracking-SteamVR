@@ -56,7 +56,6 @@
 !hn7!
 "0)0C0
 "j h4_
-$ 5$?
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -613,7 +612,6 @@ $Vh&*
 0D1^2
 0G0r0
 0H1a1f1
-0K#vV
 0O0~0
 0S1m1
 0^0q0x0
@@ -708,7 +706,7 @@ $Vh&*
 211007000000Z
 220323000000Z
 220329000000Z
-220506225822Z0/
+220516222346Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -839,7 +837,6 @@ $Vh&*
 4U7p7
 4]4t4z4
 4f5s546
-4lTTi
 4q5v5
 5	646\6
 5 5$5
@@ -1613,7 +1610,6 @@ DFU_RESPONSE_OPERATION_FAILED
 DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
-DReyAi
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
@@ -1743,6 +1739,7 @@ HCI_EVENT_PACKET
 HTC BS
 HeapAlloc
 HeapFree
+Hq[Ps!
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
@@ -1903,7 +1900,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSR
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2166,6 +2162,7 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
+`ubr0=C%	
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -2196,6 +2193,7 @@ c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.
 calloc
 close
 cntrl
+d\#Av
 dat_file
 data error
 deque<T> too long
@@ -2223,6 +2221,7 @@ h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 
 hardware
+hft{Q
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -2285,6 +2284,7 @@ oversubscribed literal/length tree
 print
 punct
 realloc
+s0$Tr
 s?=2N
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
@@ -2470,7 +2470,6 @@ www.digicert.com1!0
 x5t7j
 x]~\6
 xdigit
-xg9jf
 y4_^[
 {L?uI
 {un'%
