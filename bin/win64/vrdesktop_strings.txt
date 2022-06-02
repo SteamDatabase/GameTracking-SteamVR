@@ -29,6 +29,7 @@
 (t$@H
 (|$ H
 )D$ L
+)Zi\[
 )t$0H
 )t$@H
 *9Z9N
@@ -144,11 +145,12 @@
 0}0i1
 130801120000Z
 1e+9999
+2)D!sL
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220602001244Z0/
+220602205152Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -164,6 +166,7 @@
 6*f(_
 6I]Dc
 6OB,n_
+6^7J~
 70503
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -512,7 +515,6 @@ L$8ff
 L$@H;
 L$hE3
 L$pE3
-L5^5 
 L9l$H
 L9|$p
 L;8u6H
@@ -527,6 +529,7 @@ LocalizationManager
 M H1E
 M98u/
 MB(iVR
+MQ`gX,$
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
@@ -551,7 +554,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSIAb
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -716,6 +718,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
+bZz8@
 bad allocation
 bad array new length
 bg_bg
@@ -802,12 +805,14 @@ message_id
 no_no
 norwegian
 ntelD
+n{)&bE
 ole32.dll
 openvr_api.dll
 overlay_keyboard_closed
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
+pkD:r
 pl_pl
 polish
 portuguese
@@ -878,6 +883,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop.dll
+wJYpi
 wn>Jj
 www.digicert.com1!0
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.

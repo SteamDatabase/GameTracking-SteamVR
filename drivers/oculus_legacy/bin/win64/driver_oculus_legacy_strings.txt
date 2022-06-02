@@ -6,6 +6,7 @@
  A__^
  H3E H3E
 !hn7!
+%zH5J
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -16,6 +17,7 @@
 (t$pH
 )D$ H
 )\$pD
+)c@ZA ]
 )d$`D
 )t$pu.H
 *9Z9N
@@ -87,11 +89,12 @@
 0w0c1
 0}0i1
 130801120000Z
+1Ic7k7#
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220602001602Z0/
+220602205519Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,7 +147,6 @@ A9Q sEI
 A;Q s?I
 A;R s
 ADVAPI32.dll
-AQmW/
 A]A\_^[]
 A^A\]
 A^_^][
@@ -264,7 +266,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDSp
+RSDS4
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -288,7 +290,6 @@ TerminateProcess
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
-TlHqE
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -316,7 +317,6 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-X{pD7
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -326,6 +326,7 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
+\,e<L
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -460,6 +461,7 @@ tXfff
 tdh.dll
 terminate
 tkH97t	H
+uK{070%
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
@@ -479,4 +481,5 @@ z(uMH
 |$8I;
 |Lu?c
 }LuHO
+~>Z01
 ~t&LN

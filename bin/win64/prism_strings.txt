@@ -339,7 +339,6 @@ $II+L$`
 )d$pD
 )l$0E
 )l$pD
-)mV<W
 )t$ D
 )t$@H
 )t$PD
@@ -357,7 +356,6 @@ $II+L$`
 +o'q)}
 , last executing in 
 ,W5y+
--1%vNW
 -IPCWrapper
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -531,25 +529,26 @@ $II+L$`
 211007000000Z
 220323000000Z
 220329000000Z
-220602000701Z0/
+220602204845Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2Rl6*
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
 330314235959Z0L1
+33`Om
 33s?+
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3v1.FHB/
+5( /f&
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
-7'1IV
 70503
 8 t"L
 8 u'L
@@ -1410,7 +1409,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSr
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1717,7 +1715,6 @@ _wcsupr
 `A_A][
 `A_A^A]A\_^[
 `A_^]
-aae]M
 abort
 acosf
 api-ms-win-core-debug-l1-1-0.dll
@@ -1819,6 +1816,7 @@ deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
 e,>~^
+eS\oH:`j
 effffff
 fabsf( *pSecondsSinceVsync ) < 1000.0f
 facet::CVkTimestampQueryPool<2>::Create
@@ -1856,7 +1854,6 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
-iubm+{
 jj@0HK4
 k0i0$
 l$ E3
@@ -1937,7 +1934,6 @@ nvEncOpenEncodeSession != nullptr
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 nvcuda.dll
-o(">b
 ole32.dll
 ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
@@ -1993,6 +1989,7 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
+q@{:Ok'
 r,fff
 renderdoc.dll
 result == ALVR_OK
@@ -2056,13 +2053,13 @@ timeSetEvent
 timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
+u@4^n
 uAfff
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
 v!ne8=
 v=Y]Bv
-vNTmF
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
 vkAcquireDrmDisplayEXT
@@ -2523,9 +2520,9 @@ vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
+vm!2z
 vr-marker,frame_end,type,application
 vulkan-1.dll
-w -uW
 wcsrchr
 wcsstr
 www.digicert.com1!0
@@ -2533,6 +2530,7 @@ xA_A^A]A\_^[]
 x]~\6
 yxxxxxxxH
 yxxxxxxxI+
+z]1Urt
 {pH;{xw?
 {un'%
 |$ ATAVAWH
@@ -2571,6 +2569,7 @@ yxxxxxxxI+
 }(M98t
 }LuHO
 }`H+}XH
+}o-Z9
 }wH9S
 ~t&LN
 ~xM+~pI

@@ -19,7 +19,6 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
-'jhAC
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -33,17 +32,15 @@
 )t$0H
 )t$@H
 *9Z9N
-*<@gS
 *uXI;
 +Xt@(
 +o'q)}
 , last executing in 
+,' \V
 ,W5y+
 -1e+9999
--8Jn$Z
 -Infinity
 -u-I;
--z_5C`
 .00cfg
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
@@ -177,11 +174,10 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602001303Z0/
+220602205208Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2M.x*
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -190,7 +186,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3yd9f>Q
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -291,6 +286,7 @@
 @UVWAVAWH
 @UWAVAWH
 A valid JSON document must be either an array or an object value.
+ALY=g
 ASSERT: "%s" at %s:%d.
 ATAVAWH
 A^A\^
@@ -436,7 +432,6 @@ Error setting foreground window.
 Error setting window position.
 Error showing window.
 Error uploading cursor texture for desktop %d.
-EvCRT
 Exceeded stackLimit in readValue().
 Executable: %s
 Failed Watchdog timeout in thread %s after %f seconds
@@ -647,7 +642,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSuS
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -801,6 +795,7 @@ _Mtx_unlock
 _Thrd_id
 _Thrd_join
 _Thrd_start
+_X39,
 _Xtime_get_ticks
 __C_specific_handler
 __CxxFrameHandler3
@@ -933,6 +928,7 @@ l$ H=
 l$8E3
 l$@H;
 l$PM9n
+l<{/-N}r5
 latam
 list<T> too long
 m_nMaxLogBufferingSize > 0

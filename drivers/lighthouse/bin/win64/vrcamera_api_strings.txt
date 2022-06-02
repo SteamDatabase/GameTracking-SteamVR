@@ -3,7 +3,6 @@
 																									
 																												
 	!s99
-	K!O2
   GetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
   GetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
   SetMultiByteHWValue:Get Value Fail-1! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
@@ -46,6 +45,7 @@ $< t6<$t,<+t"<vt
 %d / %m / %y
 %m / %d / %y
 ',=?k
+'2!l$
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
 (A^A\_[
@@ -379,11 +379,10 @@ $< t6<$t,<+t"<vt
 211007000000Z
 220323000000Z
 220329000000Z
-220602000519Z0/
+220602204600Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2U	2;
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -398,6 +397,7 @@ $< t6<$t,<+t"<vt
 6*f(_
 6I]Dc
 6OB,n_
+6kKn|
 70503
 8-uCH
 8-uGH
@@ -412,7 +412,6 @@ $< t6<$t,<+t"<vt
 8\$0up
 8_	u7E3
 8_^][
-8w8,{
 91~/E3
 9D$(|
 9D$(}k
@@ -578,7 +577,6 @@ $< t6<$t,<+t"<vt
 @A_A^]
 @A_A^_
 @A_A^_^]
-@DTRI
 @SAUAVAWH
 @SUVAWH
 @SUVWATAUAVAWH
@@ -664,6 +662,7 @@ AuthD
 Auto Exposure Target:		
 Auto Exposure:			
 Auto White Balance:		
+Au~%_
 B$D+B,toD+B(
 B0E8XAt
 BL$(A
@@ -1015,7 +1014,6 @@ HcGl;Gh}
 HcKhH
 HcKpH
 Hpu+H
-I+kL	2
 I9Bhs
 I9Chs
 IcI A
@@ -1122,7 +1120,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS~
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1261,6 +1258,7 @@ Y$D;R
 Y0t>H
 Y9"SD
 Z(D9Z
+Z+I*!
 [@D8}oteH
 [K]taM?
 \$ UH
@@ -1319,6 +1317,7 @@ _callnewh
 _cexit
 _configure_narrow_argv
 _crt_atexit
+_cwFl
 _errno
 _execute_onexit_table
 _fseeki64
@@ -1391,6 +1390,7 @@ d$XD9
 d$XE3
 d$`H=
 d$vI9V
+dM``q
 destination address required
 device or resource busy
 digit
@@ -1455,6 +1455,7 @@ is a directory
 islower
 isspace
 isupper
+jXY@%
 jj@0HK4
 jyvids
 k0i0$
@@ -1713,6 +1714,7 @@ yH;YXtl
 |$h9w
 |$rfD
 |Lu?c
+}4%w4
 }LuHO
 ~`D8I!t-
 ~t&LN

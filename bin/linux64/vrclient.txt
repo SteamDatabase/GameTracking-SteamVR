@@ -811,6 +811,7 @@
  b CSharedResourceBaseLinux::CSharedResourceData::s_CachedResourceData
  b CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
  b CSxrInstance::ComputeBindingFiles()::k_pathCosmosController
+ b CSxrInstance::ComputeBindingFiles()::k_pathFocus3Controller
  b CSxrInstance::ComputeBindingFiles()::k_pathG2Controller
  b CSxrInstance::ComputeBindingFiles()::k_pathIndexController
  b CSxrInstance::ComputeBindingFiles()::k_pathMRController
@@ -1303,6 +1304,7 @@
  b guard variable for CSettingsSetting::GetDefaultValue() const::Empty
  b guard variable for CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
  b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathCosmosController
+ b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathFocus3Controller
  b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathG2Controller
  b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathIndexController
  b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathMRController
@@ -4410,7 +4412,7 @@
  r CSWTCH.221
  r CSWTCH.23
  r CSWTCH.28
- r CSWTCH.418
+ r CSWTCH.419
  r CSWTCH.725
  r CSWTCH.772
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -7904,8 +7906,8 @@
  t CSxrSession::BIsInState(std::vector<XrSessionState, std::allocator<XrSessionState> >)
  t CSxrSession::BeginFrame(XrFrameBeginInfo const*)
  t CSxrSession::BeginSession(XrSessionBeginInfo const*)
- t CSxrSession::CSxrSession(CSxrInstance*, XrSessionCreateInfo const*, IXrBinding*)
- t CSxrSession::CSxrSession(CSxrInstance*, XrSessionCreateInfo const*, IXrBinding*) [clone .cold]
+ t CSxrSession::CSxrSession(CSxrInstance*, XrSessionCreateInfo const*, IXrBinding*, bool)
+ t CSxrSession::CSxrSession(CSxrInstance*, XrSessionCreateInfo const*, IXrBinding*, bool) [clone .cold]
  t CSxrSession::ClearConformanceAutomation()
  t CSxrSession::ClearConformanceAutomation() [clone .cold]
  t CSxrSession::EndFrame(XrFrameEndInfo const*)

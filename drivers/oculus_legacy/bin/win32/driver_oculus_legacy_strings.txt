@@ -10,7 +10,6 @@
 +o'q)}
 , last executing in 
 ,W5y+
--)p j
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -69,6 +68,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+/(ORpm
 0 0$0(0H0L0t0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
 0"0(00080=0C0K0S0X0^0f0n0s0y0
@@ -93,7 +93,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602001052Z0/
+220602204922Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -113,6 +113,7 @@
 3V3w3
 3mq+<
 4!4*434<4
+4$W[d
 4'414;4J4P4d4
 4(4<4D4J4X4d4
 4,40484P4`4d4t4x4|4
@@ -182,6 +183,7 @@
 <6>A>\>e>
 <?<E<K<Q<W<]<d<k<r<y<
 <J=R=
+= 	P4F
 ="=(=.=8=F=b=z=
 =$=B=w=
 =$=H=T=\=|=
@@ -192,7 +194,6 @@
 >!>'>/>7><>B>J>R>W>]>e>m>r>x>
 >">(>.>4>:>@>F>L>R>X>^>d>j>p>v>|>
 >">D>N>W>b>h>n>u>
->+0`X0
 >,>P>\>d>
 >5>L>a>h>n>
 >Mp$d
@@ -212,6 +213,7 @@
 ADVAPI32.dll
 AjEB#AZ
 Bellevue1
+B|+5q
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -294,6 +296,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
+RSDSCL
 RaiseException
 S0Q0O
 SA|X=G
@@ -332,6 +335,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+X|8Q4
 Y9"SD
 Y__^[
 [K]taM?
@@ -369,6 +373,7 @@ _except_handler3
 _except_handler4_common
 _execute_onexit_table
 _gUT^
+_h7vRE#
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -409,6 +414,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
+nB=cXe
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
@@ -480,5 +486,6 @@ x]~\6
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |Lu?c
+|l4UT
 }LuHO
 ~t&LN

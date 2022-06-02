@@ -13,7 +13,6 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
-&RP$i@,E
 ',=?k
 '.5<=6/7>????????????????
 (Enumerating)
@@ -154,6 +153,7 @@ $9^ t
 1H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 1Q1U1*2.2_6c6
 1a2q2
+1t,0]Qc
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2
 2!212A2Q2a2q2
 2#2(222C2H2R2c2h2r2
@@ -165,14 +165,16 @@ $9^ t
 211007000000Z
 220323000000Z
 220329000000Z
-220602001002Z0/
+220602204852Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
 293r3
 2>3k3
+2A %"
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2Fmu)r0
 2SPV9
 2Z3a3
 2`4{4
@@ -245,7 +247,6 @@ $9^ t
 70503
 7[8_8
 7u7%8
-7y&hW
 8 8$8(8X8t8
 8!8B8F8U8Y8h8l8{8
 8"8-8N8^8h8r8
@@ -287,7 +288,6 @@ $9^ t
 ;$;0;8;P;d;t;
 ;%<)<8<<<
 ;5;x;|;
-;=)Be
 ;>;N;X;b;r;};
 ;O<b<
 ;S;`;
@@ -382,6 +382,7 @@ Closed
 CreateEventA
 CreateEventW
 CreateThread
+Dbs^HmMT
 DeleteCriticalSection
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -483,6 +484,7 @@ PauseCamera (delayed...)
 PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+PnT@ZQ
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -555,6 +557,7 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
+U)}@k
 UnhandledExceptionFilter
 Unknown
 Unknown exception
@@ -576,18 +579,16 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+X1Mx,
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
-ZPza\
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
 \2d2h2l2p2t2x2|2
-]5z+J
 ]J<0"0i3
-]j"G2
 _CIpow
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -782,6 +783,7 @@ ro_ro
 romanian
 ru_ru
 russian
+s[1e]
 schinese
 spanish
 startup
@@ -801,6 +803,7 @@ tchinese
 tdh.dll
 terminate
 th_th
+tjxn~
 too large
 too many codes
 tr_tr
@@ -830,12 +833,12 @@ wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
-xFVA,"
 x]~\6
 yrPhX
 zh_cn
 zh_tw
 zlib corrupt
+zugkZs
 {un'%
 |Lu?c
 }LuHO

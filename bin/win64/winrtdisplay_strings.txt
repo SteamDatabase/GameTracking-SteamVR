@@ -115,7 +115,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602000555Z0/
+220602204704Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -134,12 +134,12 @@
 70503
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8Zkg),
 8_^][
 9E ukH
 <0:08
 <P)9Y
 <unknown>
+=U i9
 =rIQU
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -242,6 +242,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSQf2
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -257,6 +258,7 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+T-`Ep
 UVAWH
 UWAVH
 UnhandledExceptionFilter
@@ -358,9 +360,9 @@ malloc
 memcpy
 memmove
 memset
+n%~XX
 ntelD
 ole32.dll
-p#m8Y" 
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -373,7 +375,6 @@ terminate
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long
-v~79t
 winrtdisplay.dll
 www.digicert.com1!0
 x]~\6
@@ -381,5 +382,6 @@ x]~\6
 |$ AVH
 |$xMi
 |Lu?c
+|P'j#
 }LuHO
 ~t&LN

@@ -47,7 +47,7 @@
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`abaC
+ !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`abqK
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
@@ -265,7 +265,7 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knN
+$tI(knNX
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -553,8 +553,9 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%XU"
-(5zt(
+(%YT/
+(-E]"
+(5Z|(
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
@@ -1930,6 +1931,7 @@ $w!Hc
 /interaction_profiles/hp/mixed_reality_controller
 /interaction_profiles/htc/vive_controller
 /interaction_profiles/htc/vive_cosmos_controller
+/interaction_profiles/htc/vive_focus3_controller
 /interaction_profiles/htc/vive_pro
 /interaction_profiles/htc/vive_tracker_htcx
 /interaction_profiles/khr/simple_controller
@@ -2038,6 +2040,7 @@ $w!Hc
 /user/hand/left/input/skeleton/left/without_controller_data
 /user/hand/left/input/squeeze/click
 /user/hand/left/input/squeeze/force
+/user/hand/left/input/squeeze/touch
 /user/hand/left/input/squeeze/value
 /user/hand/left/input/system/click
 /user/hand/left/input/system/touch
@@ -2089,6 +2092,7 @@ $w!Hc
 /user/hand/right/input/skeleton/right/without_controller_data
 /user/hand/right/input/squeeze/click
 /user/hand/right/input/squeeze/force
+/user/hand/right/input/squeeze/touch
 /user/hand/right/input/squeeze/value
 /user/hand/right/input/system/click
 /user/hand/right/input/system/touch
@@ -2209,7 +2213,7 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220602001537Z0/
+220602205308Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2280,10 +2284,9 @@ $w!Hc
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9)u$M
-97"@L
 98tHH
 9;tC@8{
-9=mc%
+9=/x%
 9A(~0H
 9A|6H
 9C s.H
@@ -2461,7 +2464,6 @@ $w!Hc
 <NONE>
 <U+%.4X>
 <^w&E
-<ibH+
 <invalid handle>
 <parse error>
 <uninitialized>
@@ -2470,10 +2472,12 @@ $w!Hc
 =7p7M}
 =====================================
 ================================================================================================
+=Cg5ol
 =ETLP
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
+=nMay
 =rIQU
 >"tVH
 >-ufH
@@ -2595,14 +2599,14 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@8=	G=
-@8=$O=
-@8=@K=
-@8=DM=
-@8=[J=
-@8=[M=
-@8=]Q=
-@8=kL=
+@8=%g=
+@8=0i=
+@8=4k=
+@8=;o=
+@8=Kh=
+@8=[j=
+@8=\p=
+@8=~i=
 @8I+@0H
 @8i(u
 @8k t
@@ -2652,7 +2656,6 @@ $w!Hc
 @A_A^_
 @A_A^_^[
 @A_A^_^]
-@CI]$
 @HcQdH
 @LcqHD
 @SATAUAVAWH
@@ -2762,6 +2765,7 @@ $w!Hc
 @UWAVAWH
 @UWAVH
 @VATAUAVAW
+@VATAUH
 @VATAVAWH
 @VATAWH
 @VAVAWH
@@ -2777,6 +2781,7 @@ $w!Hc
 @WAVAWH
 @WAVH
 @[Compositor Client] Flush (GL) - Begin
+@[VIX
 @_RDATA
 @fff>fff>fff>fff>
 A ;G@t
@@ -3038,7 +3043,6 @@ Axis4
 Axis4_Value_e0
 Axis4_Value_e1
 B H9C(s
-B&FP`c
 B(A9A
 B(A9C
 B(I9A
@@ -3090,19 +3094,18 @@ C H9C(t
 C H9T$@t
 C t~H
 C$A;A
-C%HP=
 C(9~(~FL
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
+C-=~#
 C09w(~:L
 C0L9$
 C0L;E
 C0L;F
 C0L;G
 C4LcC0H
-C5XN=
 C8;C<
 C8;K<
 C8@8l$8t.
@@ -3268,7 +3271,7 @@ CSxrCompositorPrism::GetVulkanGraphicsDevice
 CSxrCompositorPrism::Init
 CSxrCompositorPrism::OnSessionCreated
 CSxrCompositorPrism::WaitFrame
-CSxrGraphicsBindingD3D12OpenVR shutdown event
+CSxrGraphicsBindingD3D12OpenVR gpu completion event
 CSxrGraphicsBindingPrism::Init
 CSxrGraphicsBindingPrism::InitD3D11
 CSxrGraphicsBindingPrism::InitVulkan2
@@ -3821,8 +3824,8 @@ D8$0u
 D8$7u
 D8$>u
 D8,8u
-D859:5
-D85:I4
+D85YR5
+D85Za4
 D8<0u
 D8<>u
 D8D$9t$
@@ -3847,7 +3850,6 @@ D8}gt$L
 D8}gu
 D8}guH
 D8~ A
-D9%s;,
 D90uGH
 D9>u:H
 D9@ }
@@ -4121,6 +4123,7 @@ F0L;G
 F8I+F0H
 F9D	(
 F9D	(t
+F?N3;b
 F@;G t
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -4174,12 +4177,12 @@ Failed to create RTV for texture
 Failed to create Vulkan depth image from D3D11 resource.  Depth image will not be updated.
 Failed to create Vulkan image from D3D11 resource.
 Failed to create Vulkan image with LiquidVR.
+Failed to create command list %ls.
 Failed to create compute shader module %s!
 Failed to create d3d11 swapchain image: Unsupported number of faces: %d
 Failed to create d3d11 swapchain image: failed to create %d
 Failed to create descriptor heap to clear blank texture
-Failed to create event for fence to signal on queue flush at shutdown.
-Failed to create internal command list
+Failed to create event for fence %ls to signal gpu completion.
 Failed to create opengl swapchain image: MakeCurrent failed
 Failed to create opengl swapchain image: Unsupported number of faces: %d
 Failed to create opengl swapchain image: array size must be at least 1
@@ -4303,7 +4306,7 @@ Failed to start vrserver: %s.
 Failed to unref VRCompositor resource 0x%llx
 Failed to write app container status to pipe %s after connecting because %s
 Failed to write event process handle after connecting because %s
-Failed waiting for GPU to be finished with CSxrGraphicsBindingD3D12OpenVR resources. We might be about to crash on xrDestroyInstance
+Failed waiting for gpu to be finished for fence %ls. 
 Failed when calling CheckFeatureSupport for %d
 False
 Fatal : VkResult is "
@@ -4465,6 +4468,7 @@ GPUCountingSemaphore::Wait(%llu)
 GPUCountingSemaphore::Wait(%llu) FAILED!!
 GXkVp8H
 G`9C@r
+Generated action manifest: %s
 GetBool
 GetCommandLineW
 GetCurrentProcess
@@ -4607,6 +4611,7 @@ H93t	H
 H948t
 H98t	H
 H98uGI
+H98uKI
 H9;uAA
 H9A H
 H9A s
@@ -4704,6 +4709,7 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
+H;=:9*
 H;A s
 H;Axt
 H;C(v
@@ -5820,7 +5826,6 @@ PA^_]
 PA^_^
 PA^_^[]
 PA^_^][
-PA_A\^
 PA_A]A\_^
 PA_A]_
 PA_A^A]
@@ -6387,7 +6392,6 @@ T$ M+
 T$ fD
 T$$I+
 T$(D+
-T$(E3
 T$(H+
 T$(H9T$0t!H
 T$(H;T$htTH
@@ -6463,7 +6467,6 @@ T$xE3
 T$xH;
 T$xL+
 T$xL;
-T5/,&
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -6509,8 +6512,8 @@ Thread failed to initialize 1
 Thread failed to initialize 2
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
-Timed out waiting for GPU to be finished with CSxrGraphicsBindingD3D12OpenVR resources. We might be about to crash on xrDestroyInstance
 Timed out waiting for a good app key
+Timed out waiting for gpu to be finished for fence %ls.
 Timed out waiting for reply of type %s from %s
 Timeout while waiting for message of type %d on pipe %s
 TimestampQueryPool-%s
@@ -6639,6 +6642,8 @@ UWAUAWH
 UWAVAWI
 UWAVH
 UWAWH
+Uc:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
+Ug@8=Eq=
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
 Unable to coerce boolean action to input source that supports neither float nor boolean: %s
 Unable to coerce float action to input source that supports neither float nor boolean: %s
@@ -7454,8 +7459,6 @@ W(H;C
 W(LcB
 W,H;C
 W0H;C
-W53]$
-W5\]$
 W8H+W`I
 W8H;C
 W<H;C
@@ -7514,7 +7517,6 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
-X%,9/
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -7574,6 +7576,7 @@ XR_ERROR_PATH_INVALID
 XR_ERROR_PATH_UNSUPPORTED
 XR_ERROR_POSE_INVALID
 XR_ERROR_REFERENCE_SPACE_UNSUPPORTED
+XR_ERROR_RENDER_MODEL_KEY_INVALID_FB
 XR_ERROR_REPROJECTION_MODE_UNSUPPORTED_MSFT
 XR_ERROR_RUNTIME_FAILURE
 XR_ERROR_RUNTIME_UNAVAILABLE
@@ -7589,6 +7592,10 @@ XR_ERROR_SESSION_NOT_RUNNING
 XR_ERROR_SESSION_NOT_STOPPING
 XR_ERROR_SESSION_RUNNING
 XR_ERROR_SIZE_INSUFFICIENT
+XR_ERROR_SPACE_COMPONENT_NOT_ENABLED_FB
+XR_ERROR_SPACE_COMPONENT_NOT_SUPPORTED_FB
+XR_ERROR_SPACE_COMPONENT_STATUS_ALREADY_SET_FB
+XR_ERROR_SPACE_COMPONENT_STATUS_PENDING_FB
 XR_ERROR_SPATIAL_ANCHOR_NAME_INVALID_MSFT
 XR_ERROR_SPATIAL_ANCHOR_NAME_NOT_FOUND_MSFT
 XR_ERROR_SWAPCHAIN_FORMAT_UNSUPPORTED
@@ -7611,6 +7618,7 @@ XR_FB_display_refresh_rate
 XR_FRAME_DISCARDED
 XR_HTCX_vive_tracker_interaction
 XR_HTC_vive_cosmos_controller_interaction
+XR_HTC_vive_focus3_controller_interaction
 XR_KHR_D3D11_enable
 XR_KHR_D3D12_enable
 XR_KHR_binding_modification
@@ -7620,6 +7628,8 @@ XR_KHR_visibility_mask
 XR_KHR_vulkan_enable
 XR_KHR_vulkan_enable2
 XR_KHR_win32_convert_performance_counter_time
+XR_MND_headless
+XR_RENDER_MODEL_UNAVAILABLE_FB
 XR_RESULT_MAX_ENUM
 XR_SESSION_LOSS_PENDING
 XR_SESSION_NOT_FOCUSED
@@ -7667,6 +7677,7 @@ XR_TYPE_COMPOSITION_LAYER_QUAD
 XR_TYPE_COMPOSITION_LAYER_REPROJECTION_INFO_MSFT
 XR_TYPE_COMPOSITION_LAYER_REPROJECTION_PLANE_OVERRIDE_MSFT
 XR_TYPE_COMPOSITION_LAYER_SECURE_CONTENT_FB
+XR_TYPE_COMPOSITION_LAYER_SETTINGS_FB
 XR_TYPE_COMPOSITION_LAYER_SPACE_WARP_INFO_FB
 XR_TYPE_CONTROLLER_MODEL_KEY_STATE_MSFT
 XR_TYPE_CONTROLLER_MODEL_NODE_PROPERTIES_MSFT
@@ -7677,6 +7688,7 @@ XR_TYPE_DEBUG_UTILS_LABEL_EXT
 XR_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT
 XR_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
 XR_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT
+XR_TYPE_DIGITAL_LENS_CONTROL_ALMALENCE
 XR_TYPE_EVENT_DATA_BUFFER
 XR_TYPE_EVENT_DATA_DISPLAY_REFRESH_RATE_CHANGED_FB
 XR_TYPE_EVENT_DATA_EVENTS_LOST
@@ -7688,10 +7700,18 @@ XR_TYPE_EVENT_DATA_PASSTHROUGH_STATE_CHANGED_FB
 XR_TYPE_EVENT_DATA_PERF_SETTINGS_EXT
 XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING
 XR_TYPE_EVENT_DATA_SESSION_STATE_CHANGED
+XR_TYPE_EVENT_DATA_SPACE_ERASE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPACE_QUERY_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPACE_QUERY_RESULTS_AVAILABLE_FB
+XR_TYPE_EVENT_DATA_SPACE_SAVE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPACE_SET_STATUS_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPATIAL_ANCHOR_CREATE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_VISIBILITY_MASK_CHANGED_KHR
 XR_TYPE_EVENT_DATA_VIVE_TRACKER_CONNECTED_HTCX
 XR_TYPE_EXTENSION_PROPERTIES
 XR_TYPE_EYE_GAZE_SAMPLE_TIME_EXT
+XR_TYPE_FACIAL_EXPRESSIONS_HTC
+XR_TYPE_FACIAL_TRACKER_CREATE_INFO_HTC
 XR_TYPE_FOVEATED_VIEW_CONFIGURATION_VIEW_VARJO
 XR_TYPE_FOVEATION_LEVEL_PROFILE_CREATE_INFO_FB
 XR_TYPE_FOVEATION_PROFILE_CREATE_INFO_FB
@@ -7740,15 +7760,26 @@ XR_TYPE_INTERACTION_PROFILE_ANALOG_THRESHOLD_VALVE
 XR_TYPE_INTERACTION_PROFILE_DPAD_BINDING_EXT
 XR_TYPE_INTERACTION_PROFILE_STATE
 XR_TYPE_INTERACTION_PROFILE_SUGGESTED_BINDING
+XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
+XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
 XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
 XR_TYPE_MARKER_SPACE_CREATE_INFO_VARJO
 XR_TYPE_NEW_SCENE_COMPUTE_INFO_MSFT
+XR_TYPE_PASSTHROUGH_BRIGHTNESS_CONTRAST_SATURATION_FB
 XR_TYPE_PASSTHROUGH_COLOR_MAP_MONO_TO_MONO_FB
 XR_TYPE_PASSTHROUGH_COLOR_MAP_MONO_TO_RGBA_FB
 XR_TYPE_PASSTHROUGH_CREATE_INFO_FB
+XR_TYPE_PASSTHROUGH_KEYBOARD_HANDS_INTENSITY_FB
 XR_TYPE_PASSTHROUGH_LAYER_CREATE_INFO_FB
 XR_TYPE_PASSTHROUGH_STYLE_FB
+XR_TYPE_PERFORMANCE_METRICS_COUNTER_META
+XR_TYPE_PERFORMANCE_METRICS_STATE_META
 XR_TYPE_REFERENCE_SPACE_CREATE_INFO
+XR_TYPE_RENDER_MODEL_BUFFER_FB
+XR_TYPE_RENDER_MODEL_CAPABILITIES_REQUEST_FB
+XR_TYPE_RENDER_MODEL_LOAD_INFO_FB
+XR_TYPE_RENDER_MODEL_PATH_INFO_FB
+XR_TYPE_RENDER_MODEL_PROPERTIES_FB
 XR_TYPE_SCENE_COMPONENTS_GET_INFO_MSFT
 XR_TYPE_SCENE_COMPONENTS_LOCATE_INFO_MSFT
 XR_TYPE_SCENE_COMPONENTS_MSFT
@@ -7778,13 +7809,27 @@ XR_TYPE_SESSION_ACTION_SETS_ATTACH_INFO
 XR_TYPE_SESSION_BEGIN_INFO
 XR_TYPE_SESSION_CREATE_INFO
 XR_TYPE_SESSION_CREATE_INFO_OVERLAY_EXTX
+XR_TYPE_SPACE_COMPONENT_FILTER_INFO_FB
+XR_TYPE_SPACE_COMPONENT_STATUS_FB
+XR_TYPE_SPACE_COMPONENT_STATUS_SET_INFO_FB
+XR_TYPE_SPACE_CONTAINER_FB
+XR_TYPE_SPACE_ERASE_INFO_FB
 XR_TYPE_SPACE_LOCATION
+XR_TYPE_SPACE_QUERY_INFO_FB
+XR_TYPE_SPACE_QUERY_RESULTS_FB
+XR_TYPE_SPACE_SAVE_INFO_FB
+XR_TYPE_SPACE_STORAGE_LOCATION_FILTER_INFO_FB
+XR_TYPE_SPACE_UUID_FILTER_INFO_FB
 XR_TYPE_SPACE_VELOCITY
+XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_FB
 XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_FROM_PERSISTED_ANCHOR_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_PERSISTENCE_INFO_MSFT
 XR_TYPE_SPATIAL_ANCHOR_SPACE_CREATE_INFO_MSFT
+XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_GET_INFO_MSFT
+XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_MSFT
 XR_TYPE_SPATIAL_GRAPH_NODE_SPACE_CREATE_INFO_MSFT
+XR_TYPE_SPATIAL_GRAPH_STATIC_NODE_BINDING_CREATE_INFO_MSFT
 XR_TYPE_SWAPCHAIN_CREATE_INFO
 XR_TYPE_SWAPCHAIN_CREATE_INFO_FOVEATION_FB
 XR_TYPE_SWAPCHAIN_IMAGE_ACQUIRE_INFO
@@ -7802,14 +7847,18 @@ XR_TYPE_SWAPCHAIN_STATE_SAMPLER_OPENGL_ES_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_VULKAN_FB
 XR_TYPE_SYSTEM_COLOR_SPACE_PROPERTIES_FB
 XR_TYPE_SYSTEM_EYE_GAZE_INTERACTION_PROPERTIES_EXT
+XR_TYPE_SYSTEM_FACIAL_TRACKING_PROPERTIES_HTC
 XR_TYPE_SYSTEM_FOVEATED_RENDERING_PROPERTIES_VARJO
 XR_TYPE_SYSTEM_GET_INFO
 XR_TYPE_SYSTEM_HAND_TRACKING_MESH_PROPERTIES_MSFT
 XR_TYPE_SYSTEM_HAND_TRACKING_PROPERTIES_EXT
+XR_TYPE_SYSTEM_KEYBOARD_TRACKING_PROPERTIES_FB
 XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_VARJO
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES_FB
 XR_TYPE_SYSTEM_PROPERTIES
+XR_TYPE_SYSTEM_RENDER_MODEL_PROPERTIES_FB
 XR_TYPE_SYSTEM_SPACE_WARP_PROPERTIES_FB
+XR_TYPE_SYSTEM_SPATIAL_ENTITY_PROPERTIES_FB
 XR_TYPE_TRIANGLE_MESH_CREATE_INFO_FB
 XR_TYPE_UNKNOWN
 XR_TYPE_VIEW
@@ -7826,6 +7875,7 @@ XR_TYPE_VIVE_TRACKER_PATHS_HTCX
 XR_TYPE_VULKAN_DEVICE_CREATE_INFO_KHR
 XR_TYPE_VULKAN_GRAPHICS_DEVICE_GET_INFO_KHR
 XR_TYPE_VULKAN_INSTANCE_CREATE_INFO_KHR
+XR_TYPE_VULKAN_SWAPCHAIN_CREATE_INFO_META
 XR_TYPE_VULKAN_SWAPCHAIN_FORMAT_LIST_CREATE_INFO_KHR
 XR_UNITY_hand_model_pose
 XR_UNKNOWN_FAILURE_%d
@@ -7845,10 +7895,8 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%3r/
-Y-@4.
-Y5[u/
-Y5~u/
+Y%c~/
+Y%h<.
 Y9"SD
 Y>t$7?*
 YD$8E
@@ -7861,7 +7909,7 @@ Z8\$xu
 Z9k0tUD
 ZA<a`
 ZL$Xf
-ZvFailed to create fence to block on queue flush at shutdown.
+ZvFailed to create fence %ls.
 [%s] Begin Frame Timing: %d
 [%s] End Frame Timing: %d
 [%s] End Reading Timestamps: %d
@@ -8043,7 +8091,6 @@ ZvFailed to create fence to block on queue flush at shutdown.
 ] name = [
 ]8H9X
 ]9k0tVD
-]=m["
 ]@L9{(
 ]HH;]Pt8
 ]HH;]Ptb
@@ -8055,8 +8102,7 @@ ZvFailed to create fence to block on queue flush at shutdown.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%7="
-_%y9"
+_%K:"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8161,6 +8207,7 @@ _wstat64i32
 `0@SH
 `8@SH
 `@@SH
+`A]A\^
 `A^A\_^]
 `A^_]
 `A^_^
@@ -8269,7 +8316,6 @@ attributes
 audio
 autoLaunchSteamVROnButtonPress
 axis_index
-b4X9"
 b@8u'u
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
@@ -8412,7 +8458,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_conformance.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_device.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d11_openvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_gl_openvr.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_prism.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_vulkan_openvr.cpp
@@ -8643,6 +8688,7 @@ duration
 dxgi.dll
 e,>~^
 e0A_A^A]A\]
+e1HkF
 eCS < CS_Count
 ePH9C tEH
 ePS < PS_Count
@@ -8814,7 +8860,6 @@ fwrite
 fxL9f0H
 g(u^H
 g9k0t_D
-gEq,?
 gamepad
 generator
 generic
@@ -9272,6 +9317,7 @@ message_type
 metallicFactor
 metallicRoughnessTexture
 method
+mg@8=Hk=
 microtxn_finished
 mimeType
 minFilter
@@ -9341,7 +9387,6 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5<w&
 o@@fD
 oD$ fD
 oD$0f
@@ -9423,6 +9468,7 @@ pBuffer != nullptr
 pClient
 pCmdBuf
 pCmdBuf != nullptr
+pCommandList
 pCreateInfo->createFlags == 0
 pDevice
 pHandle
@@ -9508,6 +9554,7 @@ pulse_duration
 py_generic_services
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
+qt%tod
 r	D;@(}
 r+w.I
 r,fff
@@ -9932,7 +9979,6 @@ smooth_scroll_min_side_scroll_ratio
 smooth_scroll_min_throw_velocity
 smooth_scroll_multiplier
 smooth_scroll_thrown_termination_velocity
-sol?/2l[s
 source
 source_code_info
 source_type
@@ -10258,6 +10304,7 @@ tFfff
 tHI9|$
 tJL;y rDH
 tNI;X rHI
+tOfff
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -10367,6 +10414,7 @@ u(K9<
 u)IcA,D
 u*H9w`t$H
 u*H9{`t$H
+u*fff
 u,+u(
 u-H9X s
 u.H9{`t(H
@@ -10398,6 +10446,7 @@ ua_ua
 ub'vb'v
 ubHcC0I
 udH9P sRH
+ug@8=&p=
 ugL9x s
 ugL;D$H
 uguTA
@@ -10475,6 +10524,7 @@ vietnamiese
 visibility
 vive_controller
 vive_cosmos_controller
+vive_focus3_controller
 vive_pro
 vive_tracker
 vive_tracker_camera
@@ -11277,6 +11327,7 @@ zuusA
 |$`H+
 |$`H;
 |$`M+
+|$hw4
 |$pD9y8
 |$pE3
 |$pH+

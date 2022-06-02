@@ -36,6 +36,7 @@
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
+((R6i	f
 (A\^][
 (A^A]^[
 (A^A]_[
@@ -57,7 +58,6 @@
 )t$0H
 )|$ H
 )|$@f
-*2*3I
 *9Z9N
 +Xt@(
 +o'q)}
@@ -168,13 +168,14 @@
 0D9c0t'H
 0w0c1
 0}0i1
+1*!Fki
 1/2/4/8/16-bit only
 130801120000Z
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220602001126Z0/
+220602205042Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -404,6 +405,7 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
+IaHcO
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
@@ -444,7 +446,6 @@ Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 M H1E
 MB(iVR
-MJ(\,S
 MSVCP140.dll
 MainThrd
 MbP?{
@@ -467,6 +468,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS/
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -540,6 +542,7 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
+Tz<GS
 USVATAUAWH
 USVWATAUAVAWH
 USVWATAUAVH
@@ -573,7 +576,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
-X(Lj&
 XXXX PNG chunk not known
 Y9"SD
 Z9k0tUD
@@ -750,8 +752,8 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
-iwR|#
 ix`fA
+iyXc#F
 ja_jp
 japanese
 jj@0HK4
@@ -870,7 +872,6 @@ tr_tr
 turkish
 u,@8}
 u.9x }
-u04a6
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X

@@ -42,8 +42,10 @@
  was not found
  with error 
 !hn7!
+"9,}0
 %u.%u
 %u.%u.%u
+&.l=3D#
 ' is not a number.
 ',=?k
 (A^A]^[
@@ -56,6 +58,7 @@
 (t$ H
 (t$PL
 (unknown)
+)6H?2'.4
 )D$ L
 )t$ H
 *9Z9N
@@ -163,7 +166,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602000530Z0/
+220602204612Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -314,6 +317,7 @@ ApiLayerInterface::LoadApiLayers succeeded loading layer
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
 AuthD
+A{v0,4
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -386,7 +390,6 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Duplicate key: '
-E1T&t
 E8,9u
 Empty escape sequence in string
 EnterCriticalSection
@@ -409,7 +412,6 @@ FindNextFileW
 FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
-GA\f 
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -522,6 +524,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS58
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -702,6 +705,7 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
+a5TKJ
 abort
 additional six characters expected to parse unicode surrogate pair.
 allowComments

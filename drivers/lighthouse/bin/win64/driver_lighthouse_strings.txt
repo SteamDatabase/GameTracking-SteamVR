@@ -895,7 +895,6 @@ $w!Hc
 ,9k0t%H
 ,9{0t%H
 ,W5y+
-,wl]1
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
@@ -1377,7 +1376,7 @@ $w!Hc
 21VNt
 220323000000Z
 220329000000Z
-220602001558Z0/
+220602205441Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2776,7 +2775,6 @@ D$xH+
 D$xH;
 D$xHc
 D$xL;
-D'~MY
 D3D11CreateDevice
 D8$:u
 D8,7u
@@ -4372,7 +4370,6 @@ Protocol message was modified concurrently during serialization.
 Prototype
 Pz}b!
 Q@D85
-Q\Jj*
 Qk6eV5RE
 Qkkbal
 QueryPerformanceCounter
@@ -4384,7 +4381,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-R`:eZ
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4509,6 +4505,7 @@ SWAUAWH
 SWAUH
 SWAWH
 S\9SXuv
+S_U$EN
 Samples didn't yield successful bootstrap pose
 Saved LighthouseDB rev %u to %s
 Saw %d early IMU related panics, using factory IMU cal
@@ -5336,7 +5333,6 @@ XA^^[]
 XA_A^A]^][
 XD$XH
 XE;>|
-XKlI([H
 XL$hL
 XXXX PNG chunk not known
 X_^][
@@ -5507,6 +5503,7 @@ ZL$Xf
 ^HH9|$hu
 ^`I;^h
 ^oEZ_
+_ *q*
 _0IcG
 _Cnd_broadcast
 _Cnd_destroy

@@ -45,7 +45,6 @@
 !(0)"
 !9~ t
 !hn7!
-!|->[
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
@@ -61,7 +60,6 @@
 #*1892+$
 #?RADIANCE
 #?RGBE
-#c1oT
 #oculus_requested_quit
 $9^ t
 %%.%dg
@@ -104,6 +102,8 @@ $9^ t
 ***** Reloading Shaders End
 *0G0M0T0[0`0f0x0
 *9Z9N
+*g:AT'
++W,r+esH
 +Xt@(
 +o'q)}
 , binary size = 
@@ -452,7 +452,7 @@ $9^ t
 212l2
 220323000000Z
 220329000000Z
-220602001101Z0/
+220602204929Z0/
 233w4
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -1438,6 +1438,7 @@ Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
 P0_0<1w1
+P5l:"`
 PAq=?Mp#
 PVShp
 Path_Exists( absFilePath )
@@ -1464,7 +1465,6 @@ SDL_DestroyWindow
 SDL_WaitEventTimeout
 SETUPAPI.dll
 SNRtt(
-SO)KqVac
 SPB8t
 SPB8u
 SSVRP
@@ -1490,6 +1490,7 @@ SetupDiGetClassDevsA
 SetupDiGetDeviceInterfaceDetailA
 Sleep
 SleepConditionVariableCS
+Snn	E
 Spot light description not found.
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
@@ -1498,6 +1499,7 @@ T0E1\1`1d1h1l1p1t1x1
 TADItA
 TANGENT
 TEXCOORD
+TT9h4
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -1538,7 +1540,6 @@ Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
 Vp_^]
-W#{}P_
 W0^0c0q0
 WINMM.dll
 WTHelperGetProvSignerFromChain
@@ -1550,7 +1551,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 Wjlhx
-XLz)n
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -1582,6 +1582,7 @@ Y__^[
 ^<Q9C
 ^X_^[
 ^h4<	
+^|CSO\;Iz
 _,9_0t-
 _0_[]
 _0_^]
@@ -1963,6 +1964,7 @@ jsonid
 k0i0$
 ko_ko
 korean
+lCw{UY
 latam
 ldexp
 left_controller
@@ -1993,7 +1995,6 @@ minVersion
 missing color table
 multiple IHDR
 n176@6D6T6]6a68;?;s;z;
-ncMjGX
 no IDAT
 no PLTE
 no SOF

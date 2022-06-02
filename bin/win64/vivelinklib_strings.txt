@@ -34,6 +34,7 @@
 %%.%dg
 %2.2X
 %8.8X
+%> k(
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -200,9 +201,9 @@
 .text$yd
 .tls$
 .tls$ZZZ
-.wz[`
 .xdata
 .xdata$x
+/"$_6
 /f /s
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
@@ -226,7 +227,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602001124Z0/
+220602205044Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -239,13 +240,13 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-5aC4"
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 666666666666666666666666666666666666666666666666666666666666
 6I]Dc
 6OB,n_
 70503
+8&+%=
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8EC90001F3154F609FB8838830DAEA50
@@ -253,7 +254,6 @@
 8EC90003F3154F609FB8838830DAEA50
 8L$4tMH
 8_^][
-8u-Xk
 9\u-H
 9\u4H
 9sdu	@8s
@@ -267,7 +267,6 @@
 ======================
 ==============================
 => Entering Context
-=f7w?
 =rIQU
 >"t H
 >"t-H
@@ -383,7 +382,6 @@
 @WAVAWH
 A valid JSON document must be either an array or an object value.
 A;A A
-AWN*&
 A]A\_[]
 A]A\_]
 A]A\_^]
@@ -616,7 +614,6 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
-E6F+Y,
 E9e ~7I
 Empty escape sequence in string
 EnterCriticalSection
@@ -798,6 +795,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 PipeInit
 Progress: %d%% (%d/%d)
 Pz}b!
+QHcs<
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -898,7 +896,6 @@ Unknown DFU OpCode (%d)
 Unknown DFU Response (%d)
 Unknown ViveLink Error (%d)
 Unknown exception
-V9p{M
 VATAVH
 VCRUNTIME140.dll
 VL2_Connect
@@ -1120,6 +1117,7 @@ _wstat64i32
 `.rdata
 `A_A^A]A\_^[
 `A_A^_
+a'J*[
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1134,6 +1132,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
+b ^~*
 bad allocation
 bad array new length
 bad cast
@@ -1141,7 +1140,6 @@ bad conversion
 bin_file
 blank
 bootloader
-bskj/
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
@@ -1325,6 +1323,7 @@ vivelinklib.dll
 win64
 wn>Jj
 www.digicert.com1!0
+x6Q3h
 xA\^][
 xAtAL
 x]~\6
