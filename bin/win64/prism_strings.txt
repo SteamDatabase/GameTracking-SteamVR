@@ -55,7 +55,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-#^3J4)
 $9E0u
 $II+L$`
 %s begin_ctx=%llu
@@ -308,8 +307,6 @@ $II+L$`
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
-'3r<z_o
-'IeE4
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -342,6 +339,7 @@ $II+L$`
 )d$pD
 )l$0E
 )l$pD
+)mV<W
 )t$ D
 )t$@H
 )t$PD
@@ -359,6 +357,7 @@ $II+L$`
 +o'q)}
 , last executing in 
 ,W5y+
+-1%vNW
 -IPCWrapper
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -532,7 +531,7 @@ $II+L$`
 211007000000Z
 220323000000Z
 220329000000Z
-220516222209Z0/
+220602000701Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -545,10 +544,12 @@ $II+L$`
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+3v1.FHB/
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
+7'1IV
 70503
 8 t"L
 8 u'L
@@ -651,7 +652,6 @@ $II+L$`
 @WAUAVAWH
 @WAVAWH
 @`fff
-@s_8T
 A(A9C
 A(H9A t!H
 A8H9A0t
@@ -1407,10 +1407,10 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
-R"|[C
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDSr
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1614,7 +1614,6 @@ WindowsPromoteStringBuffer
 WriteFile
 XA_A][]
 XA_A^A]_
-XR:,&
 Y9"SD
 YUV conversion - %s
 Yl$ M
@@ -1713,12 +1712,12 @@ _wcsicmp
 _wcsnicmp
 _wcsupr
 `.rdata
-`2m+Q
 `A^A]_^]
 `A^_]
 `A_A][
 `A_A^A]A\_^[
 `A_^]
+aae]M
 abort
 acosf
 api-ms-win-core-debug-l1-1-0.dll
@@ -1857,6 +1856,7 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
+iubm+{
 jj@0HK4
 k0i0$
 l$ E3
@@ -1937,6 +1937,7 @@ nvEncOpenEncodeSession != nullptr
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 nvcuda.dll
+o(">b
 ole32.dll
 ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
@@ -2061,7 +2062,7 @@ unsupported format
 uwH9S
 v!ne8=
 v=Y]Bv
-v@n[C
+vNTmF
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
 vkAcquireDrmDisplayEXT
@@ -2524,12 +2525,12 @@ vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
 vr-marker,frame_end,type,application
 vulkan-1.dll
+w -uW
 wcsrchr
 wcsstr
 www.digicert.com1!0
 xA_A^A]A\_^[]
 x]~\6
-y+}x*
 yxxxxxxxH
 yxxxxxxxI+
 {pH;{xw?

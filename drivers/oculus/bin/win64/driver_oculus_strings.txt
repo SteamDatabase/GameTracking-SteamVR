@@ -79,7 +79,6 @@
 "perspective" is not a JSON object.
 "scenes" object not found in .gltf or not an array type
 "spot" is not a JSON object.
-##zI"
 #*1892+$
 #9i0t
 #?RADIANCE
@@ -225,6 +224,7 @@ $w!Hc
 -9{0t%H
 -D9c0t%H
 -Infinity
+-oFQ/
 -startup
 -u-I;
 .00cfg
@@ -436,6 +436,7 @@ $w!Hc
 /user/waist
 0 width
 0-pixel image
+0@d$#
 0A^_^
 0A_A^A\_^
 0A_A^A]A\^
@@ -454,12 +455,13 @@ $w!Hc
 11 4 22 44 44 22 444444
 130801120000Z
 1e+9999
+1| l$k
 2.5.4.3
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220516222834Z0/
+220602001250Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -500,7 +502,6 @@ $w!Hc
 9k0t_D
 9k0tcH
 9l$Lt	E
-9maL.
 9|$0u
 : one or more FS callback not set
 ; expected 
@@ -612,7 +613,6 @@ $w!Hc
 @.reloc
 @.rsrc
 @8I+@0H
-@ANZY
 @A\^]
 @A^A]A\[]
 @A^_^
@@ -927,6 +927,7 @@ EventWrite
 EventWriteString
 Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
+F7&`}M
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set
 Failed CreateTexture2D with 0x%X
@@ -985,7 +986,6 @@ GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount64
 Graphics LUID changed
-GuIU0
 Guardian changed, updating chaperone
 H SVWH
 H SWH
@@ -1221,6 +1221,7 @@ No LoadImageData callback specified.
 No valid guardian bounds. Creating standing chaperone
 NormalTextureInfo
 Not writing %s because the texture was null
+ONk"v
 OPAQUE
 OVR Runtime Init
 OVR runtime requested recenter
@@ -1271,7 +1272,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSu
+RSDS/Wl!v>~C
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1339,7 +1340,6 @@ T$pD;
 T$pL;
 T$xH;
 T$xL;
-T(^H*V
 TANGENT
 TEXCOORD
 TUUUUUU
@@ -1438,6 +1438,7 @@ X-E3
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
+Y<YmR
 Z9k0tUD
 ZL$Xf
 [K]taM?
@@ -1566,7 +1567,6 @@ _invalid_parameter_noinfo_noreturn
 _localtime64
 _lock_file
 _mbsstr
-_p[M~@
 _purecall
 _register_onexit_function
 _seh_filter_dll
@@ -1878,6 +1878,7 @@ isalnum
 it_it
 italian
 ix`fA
+jFHyM
 ja_jp
 japanese
 jj@0HK4

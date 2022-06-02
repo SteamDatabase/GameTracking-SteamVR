@@ -16,6 +16,7 @@
    Service: %s
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
  %41g
+ 64` E
  QP9F
  aborted.
  ack#:
@@ -88,6 +89,7 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
+,_(V,u
 -1e+9999
 -Infinity
 -external
@@ -97,6 +99,8 @@ $Vh&*
 . Ignoring the packet.
 . ack_num is: 
 . raw packet: 
+."\(t
+.%j?/
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_02e728be6b281fc7c0cdb870c5d215f6>@@
@@ -704,9 +708,10 @@ $Vh&*
 2.3?3F3M3
 210429000000Z
 211007000000Z
+21u#U
 220323000000Z
 220329000000Z
-220516222346Z0/
+220602001003Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -790,6 +795,7 @@ $Vh&*
 3N4d4
 3V4=5
 3mq+<
+3~N@z4m
 4 4$4(4,4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
 4 4$4(4,40444@4D4H4L4P4T4X4t4x4|4
@@ -976,6 +982,7 @@ $Vh&*
 7V8J9
 7V8h8
 7^8~8
+7lFv{g
 7t7y7~7
 8	9%9=9^9s9
 8 8$8(8,808
@@ -1739,7 +1746,7 @@ HCI_EVENT_PACKET
 HTC BS
 HeapAlloc
 HeapFree
-Hq[Ps!
+Hq)d	@
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
@@ -2098,6 +2105,7 @@ Zipfile is corrupt or not a zipfile
 \Device Parameters
 ]J<0"0i3
 ^[0-9]+$
+^tKg}
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -2162,7 +2170,6 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
-`ubr0=C%	
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -2193,7 +2200,6 @@ c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.
 calloc
 close
 cntrl
-d\#Av
 dat_file
 data error
 deque<T> too long
@@ -2221,7 +2227,6 @@ h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 
 hardware
-hft{Q
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -2281,10 +2286,10 @@ ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
+p%o9G
 print
 punct
 realloc
-s0$Tr
 s?=2N
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)

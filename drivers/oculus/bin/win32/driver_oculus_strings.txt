@@ -45,6 +45,7 @@
 !(0)"
 !9~ t
 !hn7!
+!|->[
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
@@ -60,9 +61,9 @@
 #*1892+$
 #?RADIANCE
 #?RGBE
+#c1oT
 #oculus_requested_quit
 $9^ t
-$|FUP
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -451,7 +452,7 @@ $|FUP
 212l2
 220323000000Z
 220329000000Z
-220516222520Z0/
+220602001101Z0/
 233w4
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -1024,7 +1025,6 @@ $|FUP
 >!>)>/>5><>N>X>^>e>s>|>
 >!>1>A>Q>a>q>
 >">4>>>D>K>Y>b>g>
->#GzF
 >$>*>0>7>>>E>L>S>Z>a>i>q>y>
 >$>4>D>T>d>p>x>
 >%>7>?>
@@ -1383,7 +1383,6 @@ KHR_lights_punctual
 K}*n:	
 L?n(Zy&
 LINEAR
-Lc(~B
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LibOVRRT64_1.dll
@@ -1465,6 +1464,7 @@ SDL_DestroyWindow
 SDL_WaitEventTimeout
 SETUPAPI.dll
 SNRtt(
+SO)KqVac
 SPB8t
 SPB8u
 SSVRP
@@ -1538,6 +1538,7 @@ Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
 Vp_^]
+W#{}P_
 W0^0c0q0
 WINMM.dll
 WTHelperGetProvSignerFromChain
@@ -1549,6 +1550,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 Wjlhx
+XLz)n
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -1991,6 +1993,7 @@ minVersion
 missing color table
 multiple IHDR
 n176@6D6T6]6a68;?;s;z;
+ncMjGX
 no IDAT
 no PLTE
 no SOF
@@ -2156,7 +2159,6 @@ primitive indices accessor out of bounds
 primitives
 pt_br
 pt_pt
-q&y32Bb
 quest
 range
 read past buffer

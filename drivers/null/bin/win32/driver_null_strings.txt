@@ -1,8 +1,10 @@
 	!s99
  %41g
 !hn7!
+"0<	B
 ',=?k
 (f*^[0
+)[y"Qw
 *9Z9N
 +Xt@(
 +o'q)}
@@ -82,7 +84,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220516222352Z0/
+220602001046Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -102,13 +104,13 @@
 5 5$5(5H6L6P6T6X6\6`6x6|6
 5&53595C5M5W5a5k5x5
 5&5V5[5~5
+5>g*t
 5Genu
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6$7o7y7
 6&636E6O6Y6b6
 6*f(_
-6GufWQ
 6I]Dc
 6K7T7\7
 6OB,n_
@@ -123,7 +125,6 @@
 9$9>9
 9%959E9N9]9c9i9o9u9{9
 90949L9\9`9p9t9|9
-9JPNm
 :!:3:Q:
 :(:-:;:E:N:W:b:g:u:
 :(:8:<:L:P:X:p:
@@ -143,6 +144,7 @@
 ?0?8?L?T?\?d?h?l?t?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
+@!\kAf
 @.data
 @.reloc
 AjEB#AZ
@@ -190,11 +192,11 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS~'6
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
 TerminateProcess
-U1dO0
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
@@ -204,11 +206,11 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
+Y]V#f
 Y__^[
 [K]taM?
-\P3kJ
 ]J<0"0i3
-]`W*[
+]\Ub\O'
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -256,7 +258,6 @@ driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
 e,>~^
-ggAzt
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
@@ -267,6 +268,7 @@ malloc
 memcpy
 memmove
 memset
+mh^{p
 modelNumber
 renderHeight
 renderWidth
@@ -281,13 +283,9 @@ windowHeight
 windowWidth
 windowX
 windowY
-wp;G	
 www.digicert.com1!0
 x]~\6
-xq/2s
-y@CQa+4
 {un'%
 |Lu?c
-}6}md\O*
 }LuHO
 ~t&LN

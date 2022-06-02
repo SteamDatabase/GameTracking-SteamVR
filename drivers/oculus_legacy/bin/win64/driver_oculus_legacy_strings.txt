@@ -91,7 +91,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220516222905Z0/
+220602001602Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -103,7 +103,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-5X;!=
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -145,6 +144,7 @@ A9Q sEI
 A;Q s?I
 A;R s
 ADVAPI32.dll
+AQmW/
 A]A\_^[]
 A^A\]
 A^_^][
@@ -168,7 +168,6 @@ CreateEventW
 CreateThread
 C|$XH
 D$0Hc
-D-|sO
 D3D11CreateDevice
 D848u
 D9@ s
@@ -265,6 +264,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDSp
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -288,6 +288,7 @@ TerminateProcess
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
+TlHqE
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -315,6 +316,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+X{pD7
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -385,7 +387,6 @@ http://ocsp.digicert.com0A
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i23RN
 jj@0HK4
 k0i0$
 l$8E3
@@ -476,7 +477,6 @@ z(uMH
 {un'%
 |$ AVH
 |$8I;
-|8z*$
 |Lu?c
 }LuHO
 ~t&LN

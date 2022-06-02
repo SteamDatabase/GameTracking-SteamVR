@@ -503,8 +503,6 @@ $w!Hc
 %s_%3d
 %s_%s%s
 %u != %zu
-%v+B9
-&#i\%
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
 &CVRMsg_CancelApplicationLaunchResponse
@@ -788,7 +786,6 @@ $w!Hc
 )|$pD
 )|$pE
 )|$pf
-*'Aj#q5\
 **** JUDDER **** expected %u got %u
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
@@ -2212,7 +2209,7 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220516222541Z0/
+220602001537Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2283,6 +2280,7 @@ $w!Hc
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9)u$M
+97"@L
 98tHH
 9;tC@8{
 9=mc%
@@ -2463,6 +2461,7 @@ $w!Hc
 <NONE>
 <U+%.4X>
 <^w&E
+<ibH+
 <invalid handle>
 <parse error>
 <uninitialized>
@@ -2653,6 +2652,7 @@ $w!Hc
 @A_A^_
 @A_A^_^[
 @A_A^_^]
+@CI]$
 @HcQdH
 @LcqHD
 @SATAUAVAWH
@@ -3038,6 +3038,7 @@ Axis4
 Axis4_Value_e0
 Axis4_Value_e1
 B H9C(s
+B&FP`c
 B(A9A
 B(A9C
 B(I9A
@@ -5695,7 +5696,6 @@ ML$hH
 MSVCP140.dll
 MS_:F
 MT$dA
-MaF7'
 MainThrd
 MapViewOfFile
 Message class "
@@ -8221,7 +8221,6 @@ actual_mailbox_name
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 aggregate_value
-aguah
 alias_info
 alias_info field exists, but it is not an object
 alias_name
@@ -8270,6 +8269,7 @@ attributes
 audio
 autoLaunchSteamVROnButtonPress
 axis_index
+b4X9"
 b@8u'u
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
@@ -8814,6 +8814,7 @@ fwrite
 fxL9f0H
 g(u^H
 g9k0t_D
+gEq,?
 gamepad
 generator
 generic
@@ -9578,7 +9579,6 @@ s@fff
 sButtonTexts
 sCaptionText
 sMessageText
-s]<E_:
 safe_mode_driver_whitelist.json
 samplecount
 sampler
@@ -9932,6 +9932,7 @@ smooth_scroll_min_side_scroll_ratio
 smooth_scroll_min_throw_velocity
 smooth_scroll_multiplier
 smooth_scroll_thrown_termination_velocity
+sol?/2l[s
 source
 source_code_info
 source_type
@@ -11185,7 +11186,6 @@ zuusA
 {%s}%s
 {,	u#
 {8@8l$8t1
-{M3!zBE
 {un'%
 |$ 9kh~
 |$ 9y ~=H

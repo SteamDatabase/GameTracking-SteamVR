@@ -148,7 +148,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220516222829Z0/
+220602001244Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -482,7 +482,6 @@ IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
-Ih}tm
 Infinity
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -513,6 +512,7 @@ L$8ff
 L$@H;
 L$hE3
 L$pE3
+L5^5 
 L9l$H
 L9|$p
 L;8u6H
@@ -551,9 +551,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R1O+f
-RSDS-
-R]/7*d0
+RSDSIAb
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -648,7 +646,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-Z(/i&V;
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -724,7 +721,6 @@ bad array new length
 bg_bg
 brazilian
 bulgarian
-c.Wl}
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
@@ -848,7 +844,6 @@ t$ WH
 t$0H;
 t$@H=
 t$PH=
-t(kZ+
 t:I;>t
 tVfff
 tXfff
@@ -883,7 +878,6 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop.dll
-wd.^%
 wn>Jj
 www.digicert.com1!0
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.

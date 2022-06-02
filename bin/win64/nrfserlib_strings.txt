@@ -126,6 +126,7 @@
 , defaulting to stop_bits::one!
 ,W5y+
 -1e+9999
+-4R	5
 -Infinity
 -external
 -internal
@@ -575,6 +576,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.Kh[v)
 .data
 .data$r
 .edata
@@ -632,7 +634,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220516222536Z0/
+220602001125Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -645,7 +647,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-5X?t3
+4XM/K
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 64-bit
@@ -690,6 +692,8 @@
 ==============================
 => Entering Context
 =rIQU
+=z$<f
+=z`x\U
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -988,6 +992,7 @@ Baud rate:
 Bellevue1
 Bluetooth_Initialize
 Bootloader Mode
+B~hfj
 C$9C w
 C0L9$
 CD$(H
@@ -1511,7 +1516,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSQ
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1788,6 +1792,7 @@ _Mtx_init
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
+_M{#q!;
 _Strcoll
 _Strxfrm
 _Thrd_id
@@ -1864,6 +1869,7 @@ c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.
 calloc
 close
 cntrl
+c}QWk
 d$0D)#
 d$@E3
 d$`H=
@@ -1873,7 +1879,6 @@ data error
 deque<T> too long
 digit
 e,>~^
-e3k&"
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1881,9 +1886,7 @@ fD9$xu
 fD9+u
 fE9&t2H
 false
-fdf7)
 file error
-fj(?e
 floor
 generic
 gfffffffD
@@ -1965,6 +1968,7 @@ mutex
 need dictionary
 nrfserlib.dll
 ntelD
+nyp'pm>
 oL$PH
 ole32.dll
 oversubscribed distance tree
@@ -2170,7 +2174,6 @@ xA^A]_[
 xAtAL
 x]~\6
 xdigit
-{;MNd
 {un'%
 {x\u!H
 {|?uWH
@@ -2208,6 +2211,5 @@ xdigit
 |$ps`H
 |Lu?c
 }LuHO
-}nFRsC
 ~'HcB
 ~t&LN

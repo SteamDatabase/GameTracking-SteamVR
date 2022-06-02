@@ -3,7 +3,6 @@
  (Camera)
 !hn7!
 ',=?k
-'[(H~TP
 (Unable to load LibOVR)
 (f*^[0
 *9Z9N
@@ -11,6 +10,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
+-)p j
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -74,7 +74,6 @@
 0"0(00080=0C0K0S0X0^0f0n0s0y0
 0#0A0M0S0a0k0q0
 0,040<0D0H0L0T0h0
-0IR%W
 0n0y0
 0w0c1
 0}0i1
@@ -94,7 +93,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220516222400Z0/
+220602001052Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -187,13 +186,13 @@
 =$=B=w=
 =$=H=T=\=|=
 =@>X>\>
-=Cvx:U
 =M=V=_=h=m=r=y=~=
 =j)h8
 =rIQU
 >!>'>/>7><>B>J>R>W>]>e>m>r>x>
 >">(>.>4>:>@>F>L>R>X>^>d>j>p>v>|>
 >">D>N>W>b>h>n>u>
+>+0`X0
 >,>P>\>d>
 >5>L>a>h>n>
 >Mp$d
@@ -290,7 +289,6 @@ OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
 Out of thread local storage!
-P/D]l0
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
@@ -403,7 +401,6 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 invalid string position
-jSYw/
 jdjdh
 jj@0HK4
 k0i0$

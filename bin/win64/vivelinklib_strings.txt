@@ -200,6 +200,7 @@
 .text$yd
 .tls$
 .tls$ZZZ
+.wz[`
 .xdata
 .xdata$x
 /f /s
@@ -225,7 +226,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220516222507Z0/
+220602001124Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -238,6 +239,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+5aC4"
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 666666666666666666666666666666666666666666666666666666666666
@@ -251,6 +253,7 @@
 8EC90003F3154F609FB8838830DAEA50
 8L$4tMH
 8_^][
+8u-Xk
 9\u-H
 9\u4H
 9sdu	@8s
@@ -264,6 +267,7 @@
 ======================
 ==============================
 => Entering Context
+=f7w?
 =rIQU
 >"t H
 >"t-H
@@ -379,6 +383,7 @@
 @WAVAWH
 A valid JSON document must be either an array or an object value.
 A;A A
+AWN*&
 A]A\_[]
 A]A\_]
 A]A\_^]
@@ -611,6 +616,7 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
+E6F+Y,
 E9e ~7I
 Empty escape sequence in string
 EnterCriticalSection
@@ -692,7 +698,6 @@ Invalid nonce %d
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JD{8]
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -893,6 +898,7 @@ Unknown DFU OpCode (%d)
 Unknown DFU Response (%d)
 Unknown ViveLink Error (%d)
 Unknown exception
+V9p{M
 VATAVH
 VCRUNTIME140.dll
 VL2_Connect
@@ -1127,7 +1133,6 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
-as3xp3o%
 assert json failed
 bad allocation
 bad array new length
@@ -1136,6 +1141,7 @@ bad conversion
 bin_file
 blank
 bootloader
+bskj/
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
@@ -1231,7 +1237,6 @@ oversubscribed literal/length tree
 p UWATAVAWH
 print
 punct
-q8GInCU
 r*=/N
 r9=/N
 realloc
@@ -1324,7 +1329,6 @@ xA\^][
 xAtAL
 x]~\6
 xdigit
-{[k=D\
 {un'%
 {x\u!H
 {|?uWH

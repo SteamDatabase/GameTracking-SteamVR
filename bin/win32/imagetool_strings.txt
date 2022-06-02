@@ -1425,7 +1425,6 @@
  ;_$|
  ;w$|
  ;|$0|
- ;}a[
  <xu1j
  =c~!
  ?? ??? ???? ???? ????? ??? ????? ???????!
@@ -1627,7 +1626,6 @@
 #%02X
 #%04lx
 #%d;2;%d;%d;%d
-#&W@1(
 #&cK=YB
 #'#'#'#'#'
 #'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'
@@ -1643,6 +1641,7 @@
 #050c0w0
 #0BYs
 #0E0r0
+#0F=3
 #1e	A
 #3CScs
 #40*1Q|
@@ -4323,7 +4322,7 @@ $~O="""
 213w3
 220323000000Z
 220329000000Z
-220516222126Z0/
+220602000603Z0/
 22272A2Y2d2
 22282E2
 222A2F2
@@ -8638,6 +8637,7 @@ $~O="""
 =knil
 =knilt
 =knilu
+=l02m-
 =lcmn
 =lcmnu!
 =n2U|
@@ -9630,6 +9630,7 @@ B6:A6u]
 B7:A7uU
 B8:A8uM
 B9:A9uE
+B9U)a
 B:k(T
 B;:A;u=
 B;@U=
@@ -9832,7 +9833,6 @@ C$VWP
 C$_[^
 C$_^[
 C(TRST
-C.MaK8
 C0UQj
 C0VUj
 C0]_^[
@@ -13727,7 +13727,6 @@ Kodak Digital Camera Raw Image Format
 KopCw;n
 Kp0qb
 Kristala jan dezaket, ez dit minik ematen.
-Ku{Bo
 K}*n:	
 L %g %g
 L %g %g Z
@@ -14770,7 +14769,6 @@ NAXIS2  =           %10lu
 NAXIS3  =           %10lu
 NCName
 NCV;heVheWheWheWheWieVkdZneWhfQnlh
-NCpAS
 ND;NH
 NETSCAPE
 NETSCAPE2.0
@@ -16083,7 +16081,6 @@ R Wave Pointer
 R"Z$g
 R'Jj7D
 R+42W
-R,l6r
 R-R Interval Vector
 R1R|R
 R1h58
@@ -16151,6 +16148,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS:E
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18563,6 +18561,7 @@ X^.as
 Xi#/H
 Xl=hs>
 XqTNr
+Xr+U+
 Xray Chain
 Xray Off Position
 Y %d %d
@@ -21987,6 +21986,7 @@ j8h u*
 j<h<Q;
 j>j-j-S
 j>j]j]S
+jBc>|
 jGj=Lk<Li;WuFb
 jIT<<H,g~Cj
 j\hp"@
@@ -22471,6 +22471,7 @@ n10-/.,43/892>?5GD;OK8MK4XWW
 n2/t.
 n?EKn?tzn?
 nD$ 3
+nEl:_
 nF1~P8wH*n_*
 nT$xf
 n\$xf
@@ -25856,7 +25857,6 @@ zt?"
 z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@/MD3iE4
 {*LOG(%s)
 {0;2O3
-{>zdy
 {?a4{?
 {?o}'
 {?q |?

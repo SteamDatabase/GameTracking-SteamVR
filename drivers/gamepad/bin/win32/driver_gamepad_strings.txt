@@ -1,6 +1,7 @@
 	!s99
  %41g
 !hn7!
+%,OAJ
 ',=?k
 (f*^[0
 *9Z9N
@@ -103,7 +104,7 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220516222350Z0/
+220602001038Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -149,7 +150,6 @@
 8(9,909H9L9
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8Vy6\
 9!9&9-929>9`9w9
 9*;V;c;
 9p9}9
@@ -168,7 +168,6 @@
 = =F=O=Z=
 =N>_>
 =O>h>{>
-=Re{[
 =V=8>j>
 =rIQU
 > >$>(>0>H>X>\>l>p>t>x>
@@ -186,6 +185,7 @@
 @.reloc
 AjEB#AZ
 Bellevue1
+BhpH0n
 CloseHandle
 CreateEventW
 DeleteCriticalSection
@@ -204,7 +204,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 HmdDriverFactory
-I(9@p|H'
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -241,6 +240,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS;\
 RaiseException
 S0Q0O
 SA|X=G
@@ -334,7 +334,6 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
-d];Ly
 driver_gamepad.dll
 e,>~^
 http://ocsp.digicert.com0A
@@ -348,6 +347,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
+m}U'k.E\/
 string too long
 terminate
 uCVj@
@@ -355,7 +355,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 x]~\6
-x|[	lq@
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -369,4 +368,3 @@ x|[	lq@
 |Lu?c
 }LuHO
 ~t&LN
-~uswo
