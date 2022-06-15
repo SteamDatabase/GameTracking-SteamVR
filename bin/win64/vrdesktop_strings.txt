@@ -19,6 +19,7 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+'7D`D0
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -29,7 +30,6 @@
 (t$@H
 (|$ H
 )D$ L
-)Zi\[
 )t$0H
 )t$@H
 *9Z9N
@@ -145,37 +145,41 @@
 0}0i1
 130801120000Z
 1e+9999
-2)D!sL
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220602205152Z0/
+220609000000Z
+220614230354Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
-6^7J~
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+:%P56
 < t+<
 </u#H
 <0:08
 <unknown>
 =rIQU
+>0<0:
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -339,6 +343,7 @@ DesktopView %d exiting
 DesktopView_%d
 Destroying overlay for desktop %d.
 Destroying pointer overlay for desktop.
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -349,6 +354,7 @@ DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
+Ehri+:
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
 EnterCriticalSection
@@ -470,7 +476,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -529,7 +535,6 @@ LocalizationManager
 M H1E
 M98u/
 MB(iVR
-MQ`gX,$
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
@@ -718,7 +723,6 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
-bZz8@
 bad allocation
 bad array new length
 bg_bg
@@ -734,6 +738,7 @@ czech
 d$`H=
 d$`M;
 d3d11.dll
+d:fc+
 da_da
 danish
 de_de
@@ -762,6 +767,7 @@ gfffffffI
 greek
 handlers
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -792,6 +798,7 @@ l$8E3
 l$PM9n
 latam
 list<T> too long
+m0k0$
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -805,14 +812,12 @@ message_id
 no_no
 norwegian
 ntelD
-n{)&bE
 ole32.dll
 openvr_api.dll
 overlay_keyboard_closed
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
-pkD:r
 pl_pl
 polish
 portuguese
@@ -883,9 +888,9 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop.dll
-wJYpi
 wn>Jj
 www.digicert.com1!0
+www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 x]~\6
 zh_cn
@@ -900,6 +905,7 @@ zh_tw
 |$HH=
 |$PL9~
 |$hH9>ueH
+|@N3>
 |Lu?c
 }LuHO
 ~t&LN

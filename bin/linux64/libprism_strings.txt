@@ -474,10 +474,10 @@ $+
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
 2
-20:45:15
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
+22:53:07
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -884,7 +884,7 @@ CPrismPoseProvider_Null::GetPoses(glm::mat<4, 4, float, (glm::qualifier)0>*, boo
 CST
 CSWTCH.100
 CSWTCH.16
-CSWTCH.211
+CSWTCH.213
 CSWTCH.23
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -960,6 +960,7 @@ CVRPathRegistry_Public::GetVRPathRegistryFilename()
 CVRPathRegistry_Public::GetVRPathRegistryFilename() [clone .cold]
 CVRPathRegistry_Public::InitSteamAppId()
 CVRPathRegistry_Public::InitSteamAppId() [clone .cold]
+CVRPathRegistry_Public::IsChildOfVRServer()
 CVRPathRegistry_Public::IsSteamVRMain()
 CVRPathRegistry_Public::ToJsonString(std::string&)
 CVRPathRegistry_Public::ToJsonString(std::string&) [clone .cold]
@@ -1939,7 +1940,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone
 Jul
 July
 Jun
-Jun  2 2022
+Jun 14 2022
 June
 K
 K~
@@ -2307,6 +2308,7 @@ SDL_GetError
 SDL_GetPowerInfo
 SDL_SetThreadPriority
 SPV_NV_compute_shader_derivatives
+STEAMVR_APPKEY
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
@@ -3782,6 +3784,7 @@ oo
 open
 opendir
 openvr
+openvr.component.vrserver
 openvrpaths.vrpath
 operator
 operator delete(void*)
@@ -3936,6 +3939,7 @@ sched_get_priority_max
 sched_get_priority_min
 sched_getparam
 sched_getscheduler
+sched_setaffinity
 sched_setscheduler
 sched_yield
 search_object

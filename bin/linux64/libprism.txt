@@ -1622,7 +1622,7 @@
  r (anonymous namespace)::k_nVertBytecode
  r CSWTCH.100
  r CSWTCH.16
- r CSWTCH.211
+ r CSWTCH.213
  r CSWTCH.23
  r CVkDevice::CreateDevice(CreateDeviceDetails_t const&)::queuePriorities
  r IPC::crc32(unsigned int, void const*, unsigned long)::s_crc32
@@ -1922,6 +1922,7 @@
  sched_get_priority_min
  sched_getparam
  sched_getscheduler
+ sched_setaffinity
  sched_setscheduler
  sched_yield
  semctl
@@ -2354,6 +2355,7 @@
  t CVRPathRegistry_Public::GetVRPathRegistryFilename() [clone .cold]
  t CVRPathRegistry_Public::InitSteamAppId()
  t CVRPathRegistry_Public::InitSteamAppId() [clone .cold]
+ t CVRPathRegistry_Public::IsChildOfVRServer()
  t CVRPathRegistry_Public::IsSteamVRMain()
  t CVRPathRegistry_Public::ToJsonString(std::string&)
  t CVRPathRegistry_Public::ToJsonString(std::string&) [clone .cold]

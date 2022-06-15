@@ -1,8 +1,10 @@
 	!s99
  %41g
  (Camera)
+ bcy_/
 !hn7!
 ',=?k
+'7D`D0
 (Unable to load LibOVR)
 (f*^[0
 *9Z9N
@@ -68,11 +70,11 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-/(ORpm
 0 0$0(0H0L0t0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
 0"0(00080=0C0K0S0X0^0f0n0s0y0
 0#0A0M0S0a0k0q0
+0*q&L
 0,040<0D0H0L0T0h0
 0n0y0
 0w0c1
@@ -93,7 +95,8 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602204922Z0/
+220609000000Z
+220614225755Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -104,6 +107,7 @@
 2xJK7*L
 3!3+383B3H3O3S3Y3c3m3w3
 3#3-373A3K3U3_3i3s3}3
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -113,18 +117,19 @@
 3V3w3
 3mq+<
 4!4*434<4
-4$W[d
 4'414;4J4P4d4
 4(4<4D4J4X4d4
 4,40484P4`4d4t4x4|4
 40m0v0
 4<4^4
 4>5G5P5Y5^5c5j5
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 4j/hd
 5#5-585]5
 5&5b5p5
 5,505@5D5H5P5h5l5
 5-6#7A7n7
+52Os3b
 54585<5@5D5H5L5P5
 546q6
 586<6@6D6H6L6P6T6X6\6`6
@@ -145,6 +150,7 @@
 7(81898u8
 70503
 7c8w8
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8#8,888>8D8O8
 8'818;8E8O8\8e8s8|8
 8,80888P8`8d8t8x8|8
@@ -183,7 +189,6 @@
 <6>A>\>e>
 <?<E<K<Q<W<]<d<k<r<y<
 <J=R=
-= 	P4F
 ="=(=.=8=F=b=z=
 =$=B=w=
 =$=H=T=\=|=
@@ -195,9 +200,11 @@
 >">(>.>4>:>@>F>L>R>X>^>d>j>p>v>|>
 >">D>N>W>b>h>n>u>
 >,>P>\>d>
+>0<0:
 >5>L>a>h>n>
 >Mp$d
 >P>^>
+>v*X}
 ?!?<?W?b?l?
 ?"?*?/?5?=?E?J?P?X?`?e?k?s?{?
 ?$?=?r?
@@ -213,7 +220,6 @@
 ADVAPI32.dll
 AjEB#AZ
 Bellevue1
-B|+5q
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -224,6 +230,7 @@ CreateEventW
 CreateThread
 D3D11CreateDevice
 DeleteCriticalSection
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -294,9 +301,9 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QL$~]0
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSCL
 RaiseException
 S0Q0O
 SA|X=G
@@ -335,7 +342,6 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-X|8Q4
 Y9"SD
 Y__^[
 [K]taM?
@@ -344,6 +350,7 @@ Y__^[
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
+\X7jV9
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -373,12 +380,12 @@ _except_handler3
 _except_handler4_common
 _execute_onexit_table
 _gUT^
-_h7vRE#
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
+_oQrY(S
 _purecall
 _register_onexit_function
 _seh_filter_dll
@@ -400,21 +407,25 @@ driver_oculus_legacy.dll
 e,>~^
 f;A*stSW
 getenv
+h/H34
 headset
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i	3>r'
 invalid string position
 jdjdh
 jj@0HK4
 k0i0$
+kegBCy=!
+m0k0$
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
-nB=cXe
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
@@ -474,7 +485,9 @@ uCVj@
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
+www.digicert.com1$0"
 x]~\6
+zf	(X
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -485,7 +498,8 @@ x]~\6
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
+|@N3>
 |Lu?c
-|l4UT
+|ZoED
 }LuHO
 ~t&LN

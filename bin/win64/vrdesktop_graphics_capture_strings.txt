@@ -15,10 +15,14 @@
  for detail.
 !! refusing to trigger minidump with debugger attached
 !hn7!
+"TpP)I
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+'7D`D0
+'G:j9
+'wL_]
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -36,7 +40,6 @@
 +Xt@(
 +o'q)}
 , last executing in 
-,' \V
 ,W5y+
 -1e+9999
 -Infinity
@@ -145,6 +148,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/^H=O
 /user/camera
 /user/chest
 /user/elbow/left
@@ -174,23 +178,27 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602205208Z0/
+220609000000Z
+220614230401Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -201,7 +209,9 @@
 <0:08
 <unknown>
 =rIQU
+>0<0:
 >Mp$d
+>Mt|K6	bk2
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -286,7 +296,6 @@
 @UVWAVAWH
 @UWAVAWH
 A valid JSON document must be either an array or an object value.
-ALY=g
 ASSERT: "%s" at %s:%d.
 ATAVAWH
 A^A\^
@@ -314,6 +323,7 @@ AjEB#AZ
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
+B$Zqt
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -403,6 +413,7 @@ DesktopView_%d
 Destroying overlay for desktop %d.
 Destroying overlay for window %s.
 Destroying pointer overlay for desktop.
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -555,7 +566,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -795,7 +806,6 @@ _Mtx_unlock
 _Thrd_id
 _Thrd_join
 _Thrd_start
-_X39,
 _Xtime_get_ticks
 __C_specific_handler
 __CxxFrameHandler3
@@ -897,6 +907,7 @@ gfffffffI
 greek
 handlers
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -928,9 +939,9 @@ l$ H=
 l$8E3
 l$@H;
 l$PM9n
-l<{/-N}r5
 latam
 list<T> too long
+m0k0$
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -1037,6 +1048,7 @@ window_view_destroyed
 windows
 wn>Jj
 www.digicert.com1!0
+www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 x]~\6
 zh_cn
@@ -1056,6 +1068,7 @@ zh_tw
 |$HH=
 |$PL9~
 |$hH9>ueH
+|@N3>
 |Lu?c
 }LuHO
 ~t&LN

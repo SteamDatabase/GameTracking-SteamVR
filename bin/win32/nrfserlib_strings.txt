@@ -17,6 +17,7 @@
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
  %41g
  QP9F
+ \ ZuEk
  aborted.
  ack#:
  but should be in STATE_START. This state is not valid.
@@ -74,13 +75,12 @@ $Vh&*
 &060K0S0X0
 ' is not a number.
 ',=?k
-'TM~U
+'7D`D0
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-*&<k/
 *9Z9N
 +KL+SL_;
 +Xt@(
@@ -94,6 +94,7 @@ $Vh&*
 -Infinity
 -external
 -internal
+-}?AFt
 . Aborting.
 . Baud rate requested (
 . Ignoring the packet.
@@ -564,7 +565,6 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
-/rTc-
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -709,7 +709,8 @@ $Vh&*
 211007000000Z
 220323000000Z
 220329000000Z
-220602204909Z0/
+220609000000Z
+220614225723Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -771,6 +772,7 @@ $Vh&*
 3,303@3D3H3P3h3x3|3
 3-3H3c3q3
 3.3R3\3
+311109235959Z0b1
 31;1C1M1
 32-bit
 323H3
@@ -840,6 +842,7 @@ $Vh&*
 4U7p7
 4]4t4z4
 4f5s546
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 4q5v5
 5	646\6
 5 5$5
@@ -979,6 +982,7 @@ $Vh&*
 7V8J9
 7V8h8
 7^8~8
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7t7y7~7
 8	9%9=9^9s9
 8 8$8(8,808
@@ -1290,6 +1294,7 @@ $Vh&*
 >,>0>8>P>`>d>h>p>
 >.>n>s>y>
 >/>H>[>g>v>
+>0<0:
 >1?Z?
 >2>q>.?A?H?x?
 >5?B?K?
@@ -1427,7 +1432,6 @@ $Vh&*
 @SVWj
 @d;Cd
 A valid JSON document must be either an array or an object value.
-A0i%B^
 A98t	
 ACL_DATA_PACKET
 ADVAPI32.dll
@@ -1614,9 +1618,11 @@ DFU_RESPONSE_OPERATION_FAILED
 DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
+DQUM9
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -1765,6 +1771,7 @@ IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jyd k0
 K$t"j
 K(PPW
 K(PQh
@@ -1872,6 +1879,7 @@ OLEAUT32.dll
 OT+O`
 Od+O`
 Out of thread local storage!
+OyRh(w
 P4X4\4`4d4h4l4p4t4x4|4
 PAq=?Mp#
 PID_%04X
@@ -1897,14 +1905,12 @@ Progress: %d%% (%d/%d)
 Pz}b!
 Q0;Q(t#
 QPh@	
-Qk%={
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS|2~e
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2113,7 +2119,6 @@ _Cnd_signal
 _Cnd_timedwait
 _Cnd_wait
 _CxxThrowException
-_F'-ZV!
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -2194,6 +2199,7 @@ bin_file
 blank
 bootloader
 buffer error
+b}BG?
 c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
 calloc
 close
@@ -2226,6 +2232,7 @@ h5_transport is in state
 h5_transport received ack packet in state 
 hardware
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -2267,6 +2274,7 @@ k0i0$
 list<T> too long
 lj!hh
 lower
+m0k0$
 malloc
 manifest
 manifest file %s parse error from %s
@@ -2469,12 +2477,14 @@ winsock
 wn>Jj
 wt_^[
 www.digicert.com1!0
+www.digicert.com1$0"
 x5t7j
 x]~\6
 xdigit
 y4_^[
 {L?uI
 {un'%
+|@N3>
 |Lu?c
 |cj#h
 }	jCh

@@ -34,7 +34,6 @@
 %%.%dg
 %2.2X
 %8.8X
-%> k(
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -78,6 +77,7 @@
 %s: WriteFile failed! (%s)
 ' is not a number.
 ',=?k
+'7D`D0
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
@@ -203,7 +203,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/"$_6
 /f /s
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
@@ -227,26 +226,29 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602205044Z0/
+220609000000Z
+220614225758Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 3333333
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 666666666666666666666666666666666666666666666666666666666666
 6I]Dc
 6OB,n_
 70503
-8&+%=
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8EC90001F3154F609FB8838830DAEA50
@@ -270,6 +272,7 @@
 =rIQU
 >"t H
 >"t-H
+>0<0:
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -602,6 +605,7 @@ DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
 DeleteCriticalSection
 DeleteFileW
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -679,6 +683,7 @@ H;^Ht
 H;^Pu	H
 HA_A^A]A\_^][
 HA_^][
+HDXL{
 HTC BS
 HcMxI
 I9Bhs
@@ -795,7 +800,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 PipeInit
 Progress: %d%% (%d/%d)
 Pz}b!
-QHcs<
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1117,7 +1121,6 @@ _wstat64i32
 `.rdata
 `A_A^A]A\_^[
 `A_A^_
-a'J*[
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1132,7 +1135,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
-b ^~*
+b4r8Xf
 bad allocation
 bad array new length
 bad cast
@@ -1155,6 +1158,7 @@ deque<T> too long
 digit
 e,>~^
 empty distance tree with lengths
+et6u*M-x
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fD9>uF
@@ -1173,6 +1177,7 @@ graph
 hA\_^[
 hA_A^A]A\^[
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -1216,6 +1221,7 @@ l$PM9n
 l$pM+
 lighthouse
 lower
+m0k0$
 malloc
 manifest
 manifest file %s parse error from %s
@@ -1323,7 +1329,7 @@ vivelinklib.dll
 win64
 wn>Jj
 www.digicert.com1!0
-x6Q3h
+www.digicert.com1$0"
 xA\^][
 xAtAL
 x]~\6
@@ -1355,6 +1361,7 @@ xdigit
 |$`H+
 |$pE2
 |$xH;
+|@N3>
 |Lu?c
 }LuHO
 ~t&LN

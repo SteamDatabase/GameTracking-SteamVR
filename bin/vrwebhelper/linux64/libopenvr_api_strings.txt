@@ -232,6 +232,7 @@ CVRPathRegistry_Public::GetVRPathRegistryFilename()
 CVRPathRegistry_Public::GetVRPathRegistryFilename() [clone .cold]
 CVRPathRegistry_Public::InitSteamAppId()
 CVRPathRegistry_Public::InitSteamAppId() [clone .cold]
+CVRPathRegistry_Public::IsChildOfVRServer()
 CVRPathRegistry_Public::IsSteamVRMain()
 CVRPathRegistry_Public::ToJsonString(std::string&)
 CVRPathRegistry_Public::ToJsonString(std::string&) [clone .cold]
@@ -998,6 +999,7 @@ RepairUTF8(char const*, char const*, std::string&) [clone .cold]
 RepairUTF8(std::string const&, std::string&)
 ReturnStdString(std::string const&, char*, unsigned int)
 S
+STEAMVR_APPKEY
 Sat
 Saturday
 Sd
@@ -2261,6 +2263,7 @@ object_mutex
 once_regsizes.10235
 oo
 openvr
+openvr.component.vrserver
 openvrpaths.vrpath
 operator
 operator delete(void*)

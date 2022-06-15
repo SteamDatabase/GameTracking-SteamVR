@@ -34,9 +34,9 @@
 &D9{0t
 ',=?k
 '.5<=6/7>????????????????
+'7D`D0
 '9k0t
 'D9c0t
-((R6i	f
 (A\^][
 (A^A]^[
 (A^A]_[
@@ -58,6 +58,7 @@
 )t$0H
 )|$ H
 )|$@f
+*%\-Yr
 *9Z9N
 +Xt@(
 +o'q)}
@@ -168,30 +169,33 @@
 0D9c0t'H
 0w0c1
 0}0i1
-1*!Fki
 1/2/4/8/16-bit only
 130801120000Z
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220602205042Z0/
+220609000000Z
+220614225750Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -212,9 +216,11 @@
 <0:08
 =ETLP
 =IBgC
+=KM5w
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
+>0<0:
 >Mp$d
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
@@ -328,6 +334,7 @@ D9{0t'H
 D9{0t?H
 D9{0tZD
 DeleteCriticalSection
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -391,7 +398,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -405,7 +412,6 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
-IaHcO
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
@@ -468,7 +474,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS/
+RSDSdT
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -542,7 +548,6 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
-Tz<GS
 USVATAUAWH
 USVWATAUAVAWH
 USVWATAUAVH
@@ -740,6 +745,7 @@ german
 gfffffffH
 greek
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -753,7 +759,6 @@ invalid filter
 it_it
 italian
 ix`fA
-iyXc#F
 ja_jp
 japanese
 jj@0HK4
@@ -779,6 +784,7 @@ l$hA+
 l$hHc
 latam
 ldexp
+m0k0$
 malloc
 map/set<T> too long
 max value > 255
@@ -897,6 +903,7 @@ wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
+www.digicert.com1$0"
 x]~\6
 zh_cn
 zh_tw
@@ -916,6 +923,7 @@ zlib corrupt
 |$PH;
 |$PLc
 |$XH;
+|@N3>
 |Lu?c
 }LuHO
 ~3LcD$(L

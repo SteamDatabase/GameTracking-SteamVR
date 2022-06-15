@@ -13,6 +13,7 @@
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>
  %41g
  0(0:0G0i0
+ 2#,q
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -53,12 +54,14 @@ $iMBm
 ' is not a number.
 ',=?k
 '010F0n0
+'7D`D0
 ( 8PX
 ('8PW
 (8084888<8@8D8H8L8P8T8X8\8`8d8h8l8`<d<h<l<p<t<x<|<
 (HXt9f
 (Ht5F
 (f*^[0
+(kK`O W5
 (null)
 (uEKw
 )-M-=
@@ -81,6 +84,7 @@ $iMBm
 ,0<	w
 ,PjVW
 ,W5y+
+,YCz{
 ,zeDo
 ,~fMK
 -0zAoL
@@ -456,7 +460,8 @@ $iMBm
 211007000000Z
 220323000000Z
 220329000000Z
-220602204842Z0/
+220609000000Z
+220614225700Z0/
 222f2
 223A3S3h3y3
 241009235959Z0a1
@@ -505,6 +510,7 @@ $iMBm
 3.3M3
 30373I3m3
 304J4d4
+311109235959Z0b1
 323C3]3}3
 323o3|3
 330314235959Z0L1
@@ -572,6 +578,7 @@ $iMBm
 4W5`5
 4Z4q4
 4\4c4
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 4k9j;r;
 4n4x4
 4u6:;B;J;
@@ -601,6 +608,7 @@ $iMBm
 5,5<5@5P5T5X5\5d5|5
 5-686H6T6b6p6z6
 505]5
+52K"1
 536m6
 545<5D5T5`5h5
 545D5H5X5\5`5d5h5p5
@@ -654,6 +662,7 @@ $iMBm
 6F6Q6
 6I:N:d:k:q:v:
 6I]Dc
+6Io0d
 6L6n6
 6OB,n_
 6S8`8z8@9|9
@@ -714,6 +723,7 @@ $iMBm
 7[7#8r8
 7d7|7
 7e7o7t7z7
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7|8B:]:x:
 8 848<8H8h8p8|8
 8 888<8T8d8h8l8
@@ -1046,6 +1056,7 @@ $iMBm
 >,>0>4>8><>D>\>l>p>
 >,>3>8>a>|>
 >->s>
+>0<0:
 >0>P>p>
 >0?l?
 >6?F?|?
@@ -1194,6 +1205,7 @@ DeleteCriticalSection
 DeleteTimerQueueTimer
 Device Calibration is invalid (207)
 Device is not calibrated (206)
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -1355,6 +1367,7 @@ HP;HL
 HPQVR
 HPhX_
 HPjPW
+H]6~O
 H`$?h|
 Hc9;q
 HeapAlloc
@@ -1493,6 +1506,7 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
+RSDSZh
 RWQSV
 R\hvv
 RaiseException
@@ -1576,6 +1590,7 @@ TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
 T~OXu
+U'XoA_
 UQPXY]Y[
 URPQQh
 USB Service Busy (140)
@@ -1903,7 +1918,6 @@ Y__^[
 ]+9pa
 ]6%S*
 ]J<0"0i3
-]Pzp]4
 ]vQ<)8
 ^$+^8+
 ^<V7w
@@ -1946,7 +1960,6 @@ _tcPVj@
 `eh vector vbase copy constructor iterator'
 `h````
 `h`hhh
-`lAq<
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -2013,6 +2026,7 @@ connection refused
 connection reset
 count
 cross device link
+d''JCt
 dC4N(
 dI;D#
 dddd, MMMM dd, yyyy
@@ -2043,19 +2057,23 @@ frexp
 ft%9q
 function not supported
 g081w1
+gA>k1
 generic
 gfe[D
 h-y"3
 hI{L[
 hPP`*
+h]A%N
 hb?O2
 host unreachable
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 i,MFey<e
 iG8O(
+iKK(Cb
 identifier removed
 illegal byte sequence
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
@@ -2106,6 +2124,7 @@ l,kg<i
 ldexp
 log10
 lq%&1T
+m0k0$
 m1WY$
 map/set<T> too long
 message size
@@ -2252,6 +2271,7 @@ wIPS3
 wXJR*
 wrong protocol type
 www.digicert.com1!0
+www.digicert.com1$0"
 x(kP$4
 xP?b3
 xRB`2
@@ -2270,6 +2290,7 @@ zwom}
 {^5#W-
 {un'%
 |)P!?Ua0
+|@N3>
 |Lu?c
 |TBc4
 |W8A=

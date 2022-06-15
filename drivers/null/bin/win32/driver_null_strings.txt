@@ -1,7 +1,9 @@
 	!s99
  %41g
+ 8S}+h
 !hn7!
 ',=?k
+'7D`D0
 (f*^[0
 *9Z9N
 +Xt@(
@@ -82,7 +84,8 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602204920Z0/
+220609000000Z
+220614225749Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -90,16 +93,17 @@
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
 3(3d3
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3<3Y3o3
-3ONl7
 3mq+<
 4(4Z4
 4*464<4B4N4q4O5o5y5
 4>4K4S4[4
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5 5$5(5H6L6P6T6X6\6`6x6|6
 5&53595C5M5W5a5k5x5
 5&5V5[5~5
@@ -114,6 +118,7 @@
 6OB,n_
 6k6p6
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8(8,8<8@8D8L8d8t8x8
 8)8?8H8S8Z8z8
 8*858?8K8
@@ -135,18 +140,21 @@
 ='=9=Q=
 =(=.=4=x=}=
 =?>S>x>
-=Mz@%
 =rIQU
+>0<0:
 >4?=?F?O?T?Y?`?
 >Mp$d
 >T>]>f>o>t>y>
 ?0?8?L?T?\?d?h?l?t?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
+?k+lD
 @.data
 @.reloc
+@;VVJD~
 AjEB#AZ
 Bellevue1
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -179,12 +187,10 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-Kv[`f 
 K}*n:	
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
-MLfQr
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
@@ -192,7 +198,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSb
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -207,9 +212,7 @@ Valve Corp.1
 Washington1
 Y9"SD
 Y__^[
-Zs(3|
 [K]taM?
-\rG*[
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -259,11 +262,13 @@ driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
 e,>~^
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+m0k0$
 malloc
 memcpy
 memmove
@@ -283,8 +288,10 @@ windowWidth
 windowX
 windowY
 www.digicert.com1!0
+www.digicert.com1$0"
 x]~\6
 {un'%
+|@N3>
 |Lu?c
 }LuHO
 ~t&LN

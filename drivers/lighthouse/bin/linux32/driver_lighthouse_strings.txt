@@ -1244,7 +1244,6 @@ $tI
 .L284
 .L285
 .L2854
-.L2855
 .L2856
 .L2857
 .L2858
@@ -1426,14 +1425,14 @@ $tI
 .L3300
 .L331
 .L34
-.L3416
-.L3418
+.L3417
 .L3419
 .L342
 .L3420
 .L3421
 .L3422
-.L3427
+.L3423
+.L3428
 .L343
 .L344
 .L345
@@ -1938,71 +1937,71 @@ $tI
 .L800
 .L801
 .L802
-.L8022
-.L8024
+.L8023
 .L8025
-.L8027
+.L8026
 .L8028
+.L8029
 .L803
 .L804
 .L805
 .L806
-.L8060
-.L8062
+.L8061
 .L8063
 .L8064
 .L8065
 .L8066
+.L8067
 .L807
 .L808
 .L809
-.L8098
+.L8099
 .L81
 .L810
-.L8100
 .L8101
-.L8103
+.L8102
 .L8104
+.L8105
 .L811
 .L812
 .L813
-.L8136
-.L8138
+.L8137
 .L8139
 .L814
 .L8140
 .L8141
 .L8142
+.L8143
 .L815
 .L816
 .L817
-.L8174
-.L8176
+.L8175
 .L8177
-.L8179
+.L8178
 .L8180
+.L8181
 .L82
-.L8212
-.L8214
+.L8213
 .L8215
 .L8216
 .L8217
 .L8218
-.L8258
-.L8260
+.L8219
+.L8259
 .L8261
-.L8263
+.L8262
 .L8264
+.L8265
 .L828
 .L829
 .L83
 .L831
-.L8312
-.L8314
+.L8313
 .L8315
 .L8316
 .L8317
 .L8318
+.L8319
 .L832
 .L833
 .L834
@@ -2027,6 +2026,7 @@ $tI
 .L851
 .L852
 .L853
+.L854
 .L855
 .L856
 .L857
@@ -2039,39 +2039,40 @@ $tI
 .L863
 .L864
 .L865
-.L8659
 .L866
-.L8661
+.L8660
 .L8662
 .L8663
 .L8664
 .L8665
+.L8666
 .L867
 .L868
+.L869
 .L87
-.L870
 .L871
 .L872
-.L8722
-.L8724
+.L8723
 .L8725
 .L8726
 .L8727
 .L8728
-.L8751
-.L8753
+.L8729
+.L873
+.L8752
 .L8754
 .L8755
 .L8756
 .L8757
-.L878
+.L8758
 .L879
 .L88
 .L880
-.L883
+.L881
 .L884
 .L885
 .L886
+.L887
 .L8886
 .L8887
 .L8889
@@ -2112,38 +2113,38 @@ $tI
 .L926
 .L93
 .L94
-.L9452
-.L9454
+.L9453
 .L9455
 .L9456
 .L9457
 .L9458
+.L9459
 .L95
-.L9505
-.L9507
+.L9506
 .L9508
 .L9509
 .L9510
 .L9511
-.L9558
-.L9560
+.L9512
+.L9559
 .L9561
 .L9562
 .L9563
 .L9564
+.L9565
 .L96
-.L9611
-.L9613
+.L9612
 .L9614
 .L9615
 .L9616
 .L9617
-.L9664
-.L9666
+.L9618
+.L9665
 .L9667
 .L9668
 .L9669
 .L9670
+.L9671
 .L97
 .L98
 .L99
@@ -2383,10 +2384,10 @@ $tI
 19CWirelessDecoderWv2
 1e+9999
 2
-20:45:04
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
+22:53:03
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -3631,8 +3632,8 @@ CSWTCH.138
 CSWTCH.139
 CSWTCH.140
 CSWTCH.157
-CSWTCH.2112
-CSWTCH.213
+CSWTCH.2113
+CSWTCH.216
 CSWTCH.224
 CSWTCH.927
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
@@ -3853,6 +3854,7 @@ CVRPathRegistry_Public::GetVRPathRegistryFilename()
 CVRPathRegistry_Public::GetVRPathRegistryFilename() [clone .cold]
 CVRPathRegistry_Public::InitSteamAppId()
 CVRPathRegistry_Public::InitSteamAppId() [clone .cold]
+CVRPathRegistry_Public::IsChildOfVRServer()
 CVRPathRegistry_Public::IsSteamVRMain()
 CVRPathRegistry_Public::ToJsonString(std::string&)
 CVRPathRegistry_Public::ToJsonString(std::string&) [clone .cold]
@@ -4690,7 +4692,7 @@ IVRInput_010
 IVRMCStore_001
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -5278,7 +5280,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone
 Jul
 July
 Jun
-Jun  2 2022
+Jun 14 2022
 June
 K
 KHR_lights_punctual
@@ -6074,6 +6076,7 @@ SOB: add
 SOB: drop
 SRB-0
 SRW != NULL
+STEAMVR_APPKEY
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
@@ -7238,9 +7241,12 @@ WinRT::GetAdapterLuid(int, void*)
 WinRT::GetCurrentDriverVersion()
 WinRT::GetDeviceString(int)
 WinRT::GetDisplayMode(WinRT::DisplayMode_t*)
+WinRT::GetDisplayModes(unsigned int*, WinRT::DisplayMode_t*)
 WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
 WinRT::HasDisplay(int)
 WinRT::Present()
+WinRT::SetDisplayMode(WinRT::DisplayMode_t*)
+WinRT::Shutdown()
 WinRT::WaitForPresent(unsigned long long*, float*)
 Windows
 Windows 10
@@ -11727,7 +11733,6 @@ math::Vec3T<double> math::operator*<double>(math::QuatT<double> const&, math::Ve
 math::Vec3T<double>& std::vector<math::Vec3T<double>, std::allocator<math::Vec3T<double> > >::emplace_back<math::Vec3T<double> >(math::Vec3T<double>&&)
 math::Vec3T<double>::Vec3T()
 math::Vec3T<double>::Vec3T(double const*)
-math::Vec3T<double>::Vec3T(double)
 math::Vec3T<double>::Vec3T(double, double, double)
 math::Vec3T<double>::Vec3T(math::Vec2T<double> const&, double)
 math::Vec3T<double>::abs() const
@@ -11777,7 +11782,6 @@ math::Vec3T<double>::zero()
 math::Vec3T<float> math::operator*<float>(math::PoseT<float> const&, math::Vec3T<float> const&)
 math::Vec3T<float>::Vec3T()
 math::Vec3T<float>::Vec3T(float const*)
-math::Vec3T<float>::Vec3T(float)
 math::Vec3T<float>::Vec3T(float, float, float)
 math::Vec3T<float>::Vec3T(math::Vec2T<float> const&, float)
 math::Vec3T<float>::abs() const
@@ -12167,6 +12171,7 @@ open
 opendir
 openlog
 openvr
+openvr.component.vrserver
 openvrpaths.vrpath
 operator
 operator delete(void*)
@@ -12412,6 +12417,7 @@ sched_get_priority_max
 sched_get_priority_min
 sched_getparam
 sched_getscheduler
+sched_setaffinity
 sched_setscheduler
 sched_yield
 schinese
@@ -18439,6 +18445,7 @@ vortex::ILighthouseTrackedDeviceServerDriver::LeaveStandby()
 vortex::ILighthouseTrackedDeviceServerDriver::RunFrame()
 vortex::ILighthouseTrackedDeviceServerDriver::ShouldBlockStandby()
 vortex::IPoseTracker::DebugRequest(char const*, char*, unsigned int)
+vortex::IPoseTracker::RunFrame()
 vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&)
 vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&) [clone .cold]
 vortex::LighthouseBaseTargetPose_t::ToJson() const

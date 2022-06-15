@@ -21,6 +21,8 @@
 	"PowerMenuResetSeatedPosition": "Reset Seated Position",
 	"PowerMenuResetStandingPosition": "Reset Standing Position",
 	"Resetting_Countdown" : "Resetting...",
+	"Button_Recenter": "Recenter",
+	"Recentering_Countdown" : "Recentering...",
 	"PowerMenuTurnOffController": "Turn Off Controller",
 	"PowerMenuShutdown": "Shutdown",
 	"PowerMenuQuitSceneApp": "Exit %1$s",

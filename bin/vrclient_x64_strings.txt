@@ -47,7 +47,7 @@
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`abqK
+ !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`ab
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
@@ -265,7 +265,7 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knNX
+$tI(knN
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -535,6 +535,7 @@ $w!Hc
 ',=?k
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '.5<=6/7>????????????????
+'7D`D0
 '9k0t
 'CVRMsg_ClientMailbox_SendMailboxMessage
 'CVRMsg_CompositorHookScreenshotResponse
@@ -553,9 +554,7 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%YT/
-(-E]"
-(5Z|(
+(-%k"
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
@@ -675,7 +674,7 @@ $w!Hc
 (|$`I
 (|$`L
 (|$pH
-(|$pI
+(|$pL
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )9k0t
@@ -818,6 +817,7 @@ $w!Hc
 , last executing in 
 , not just within "
 , requestedBytes 
+,*$-q
 ,+<:w
 ,0<6w H
 ,9k0t%H
@@ -928,13 +928,13 @@ $w!Hc
 .?AV<lambda_882126c582943737e7723162cbfa82ae>@@
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
-.?AV<lambda_ae3f138757aca01e9b3e77cc5e778a39>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
 .?AV<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@
+.?AV<lambda_e0c476e382b8c6d6bc44d302313eca83>@@
 .?AV<lambda_ee980cc98c94f910494c409ed0b46757>@@
 .?AV?$ApplicationsInterfaceRegistration@VCVRApplications_001@@@@
 .?AV?$ApplicationsInterfaceRegistration@VCVRApplications_002@@@@
@@ -1087,6 +1087,7 @@ $w!Hc
 .?AV?$OverlayInterfaceRegistration@VCVROverlay_022@@@@
 .?AV?$OverlayInterfaceRegistration@VCVROverlay_023@@@@
 .?AV?$OverlayInterfaceRegistration@VCVROverlay_024@@@@
+.?AV?$OverlayInterfaceRegistration@VCVROverlay_025@@@@
 .?AV?$OverlayViewInterfaceRegistration@VCVROverlayView_001@@@@
 .?AV?$OverlayViewInterfaceRegistration@VCVROverlayView_002@@@@
 .?AV?$RenderModelsInterfaceRegistration@VCVRRenderModels_001@@@@
@@ -1153,13 +1154,13 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_882126c582943737e7723162cbfa82ae>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_ae3f138757aca01e9b3e77cc5e778a39>@@_NPEBUXrInteractionProfileDpadBindingEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStatePose@@PEA_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e0c476e382b8c6d6bc44d302313eca83>@@_NPEBUXrInteractionProfileDpadBindingEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ee980cc98c94f910494c409ed0b46757>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateVector2f@@PEA_K@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
@@ -1575,6 +1576,7 @@ $w!Hc
 .?AVCVROverlay_022@@
 .?AVCVROverlay_023@@
 .?AVCVROverlay_024@@
+.?AVCVROverlay_025@@
 .?AVCVRRenderModels_001@@
 .?AVCVRRenderModels_002@@
 .?AVCVRRenderModels_003@@
@@ -2213,7 +2215,8 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220602205308Z0/
+220609000000Z
+220614230222Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2225,6 +2228,7 @@ $w!Hc
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 3333333
 333?E
@@ -2238,6 +2242,7 @@ $w!Hc
 42HcF,
 440.97
 4IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -2252,6 +2257,7 @@ $w!Hc
 79L$Pua
 7Failed to create readable frame info buffer (D3D10)!
 7HcC,
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8"u	H
 8*u	H
@@ -2286,7 +2292,6 @@ $w!Hc
 9)u$M
 98tHH
 9;tC@8{
-9=/x%
 9A(~0H
 9A|6H
 9C s.H
@@ -2472,15 +2477,15 @@ $w!Hc
 =7p7M}
 =====================================
 ================================================================================================
-=Cg5ol
 =ETLP
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
-=nMay
 =rIQU
 >"tVH
 >-ufH
+>0<0:
+>2c2?
 >Mp$d
 >W`.]tB3?
 >w\Hc
@@ -2599,14 +2604,6 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@8=%g=
-@8=0i=
-@8=4k=
-@8=;o=
-@8=Kh=
-@8=[j=
-@8=\p=
-@8=~i=
 @8I+@0H
 @8i(u
 @8k t
@@ -2744,6 +2741,7 @@ $w!Hc
 @USWH
 @UVATAUAVH
 @UVATAVH
+@UVATAWH
 @UVATH
 @UVAUAWH
 @UVAUH
@@ -2781,7 +2779,6 @@ $w!Hc
 @WAVAWH
 @WAVH
 @[Compositor Client] Flush (GL) - Begin
-@[VIX
 @_RDATA
 @fff>fff>fff>fff>
 A ;G@t
@@ -2801,7 +2798,7 @@ A0H9A(thH
 A84(u
 A8EPH
 A8L+A0H
-A8_qH
+A8_yH
 A8~xt
 A9@(r"A
 A9A A
@@ -2895,6 +2892,7 @@ A^_^]
 A^_^][
 A_A\[]
 A_A\]
+A_A\^]
 A_A\_
 A_A\_[]
 A_A\_]
@@ -3099,7 +3097,6 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-=~#
 C09w(~:L
 C0L9$
 C0L;E
@@ -3206,15 +3203,16 @@ CL$ H
 CL$ L
 CL$ M+
 CL$(3
+CL$02
 CL$0H
 CL$0I+
 CL$0I;
 CL$0L;
 CL$0fI
 CL$8I
-CL$8L
 CL$@H
 CL$PH
+CL$XL
 CL$`H
 CL$hH
 CL$pH
@@ -3300,14 +3298,12 @@ CT$(L
 CT$0H
 CT$0L
 CT$8E3
-CT$8H
-CT$8I
 CT$@H
-CT$@L
 CT$HH
 CT$PH
 CT$PL+
 CT$XH
+CT$XI
 CT$`L
 CT$`f
 CT$hM
@@ -3684,7 +3680,6 @@ D$0t'
 D$0tx
 D$3D+
 D$4D;
-D$4E3
 D$4I;
 D$88X4tJ
 D$8D8
@@ -3746,6 +3741,7 @@ D$PL;D$Xu
 D$PM;
 D$PMc
 D$PfA
+D$TE3
 D$TE;
 D$TI;
 D$Tt.@
@@ -3805,8 +3801,7 @@ D$pI;
 D$pL;
 D$pfA
 D$t2M
-D$xA9E
-D$xA;E
+D$xA;G
 D$xE3
 D$xH+
 D$xH;
@@ -3823,11 +3818,13 @@ D8$/u
 D8$0u
 D8$7u
 D8$>u
+D8%SK0
 D8,8u
-D85YR5
-D85Za4
+D85:s4
+D85Id5
 D8<0u
 D8<>u
+D8=,&#
 D8D$9t$
 D8D$hH
 D8`)t#E
@@ -3943,6 +3940,7 @@ Device is not calibrated (206)
 DeviceGC
 Did not find any drivers!
 Did the application enable the required instance/device extensions?
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -3959,6 +3957,7 @@ Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
 DisplayInfo
 DominantHand
 Done reading EDID vendor Id.
+Dpad binding modification received for component (%s) and interaction profile (%s)
 Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
@@ -4062,7 +4061,6 @@ Error! EventWriteString Severe: %s
 Error! Failed to create shader resource view for %s
 Error! Failed to load %s
 Error! Unable to load image %s: %s
-Error: Actionset [%s] is already active for dpads. Actionset [%s] can't have any dpad bindings as only one actionset is allowed to have them.
 Error: LiquidVR CreateALVRDeviceExD3D11 failed (%d)
 Error: LiquidVR CreateALVRDeviceExVulkan failed (%d)
 Error: LiquidVR CreateALVRExtensionVulkan failed (%d)
@@ -4071,6 +4069,7 @@ Error: LiquidVR OpenSharedImage failed (%d)
 Error: LiquidVR Vulkan OpenLVRSemaphore failed (%d)
 Error: LiquidVR Vulkan QueueSeamaphoreSignal failed (%d)
 Error: LiquidVR Vulkan QueueSeamaphoreWait failed (%d)
+Error: Multiple dpad modifications received for component [%s]
 Error: Provided dpad for (%s) is not valid for this interaction profile (%s)
 Error: Provided value %f for %s must be between %f and %f
 Error: XR_EXT_dpad_binding extension must be enabled to use dpad binding [%s] for action [%s]
@@ -4115,7 +4114,7 @@ F 9C@|
 F 9G |
 F ;C@t
 F @8p)u]
-F H9C upL
+F H9C unL
 F$HcN H
 F(H;EHrZuSH
 F(H;FHs
@@ -4123,7 +4122,6 @@ F0L;G
 F8I+F0H
 F9D	(
 F9D	(t
-F?N3;b
 F@;G t
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -4207,12 +4205,14 @@ Failed to find entrypoint WINRT_GetAdapterLuid
 Failed to find entrypoint WINRT_GetCurrentDriverVersion
 Failed to find entrypoint WINRT_GetDeviceString
 Failed to find entrypoint WINRT_GetDisplayMode
+Failed to find entrypoint WINRT_GetDisplayModes
 Failed to find entrypoint WINRT_GetSurfaces
 Failed to find entrypoint WINRT_HasDisplay
 Failed to find entrypoint WINRT_Initialize
 Failed to find entrypoint WINRT_Present
 Failed to find entrypoint WINRT_Release
 Failed to find entrypoint WINRT_ReleaseDisplay
+Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to find interface '%s'
 Failed to find system resource manifest %s.
@@ -4402,6 +4402,7 @@ FnTable:IVROverlay_021
 FnTable:IVROverlay_022
 FnTable:IVROverlay_023
 FnTable:IVROverlay_024
+FnTable:IVROverlay_025
 FnTable:IVRRenderModels_004
 FnTable:IVRRenderModels_005
 FnTable:IVRSettings_001
@@ -4541,6 +4542,7 @@ Giving up server connection over pipe %s after %d attempts
 Giving up waiting for vrserver to exit after %dms -- killing it
 Global\VRBootstrapper
 GpuSpeed
+Gx;d~=A
 GxiV@
 H A;H
 H A;I
@@ -4610,8 +4612,6 @@ H92u,
 H93t	H
 H948t
 H98t	H
-H98uGI
-H98uKI
 H9;uAA
 H9A H
 H9A s
@@ -4677,7 +4677,6 @@ H9X s
 H9Y s
 H9Z s
 H9\$0A
-H9\$`
 H9\$p
 H9i s
 H9k vZ
@@ -4709,7 +4708,7 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=:9*
+H;=z><
 H;A s
 H;Axt
 H;C(v
@@ -4774,8 +4773,8 @@ H;k r
 H;o s
 H;q s
 H;s(r
-H;t$Hu
 H;t$`
+H;t$hu
 H;w s
 H;y s
 H;y(r
@@ -4835,7 +4834,7 @@ HcB,H
 HcC(N
 HcC,H
 HcD$$H
-HcD$0H
+HcD$PH
 HcD$x
 HcD7,A
 HcE'H
@@ -5121,6 +5120,7 @@ IVROverlay_022
 IVROverlay_023
 IVROverlay_024
 IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -5531,11 +5531,12 @@ L9`Pt$H
 L9`PtGH
 L9cHt'H
 L9d$ A
+L9d$@
 L9d$@t,H
 L9d$P
 L9d$Pt
+L9d$`
 L9d$pH
-L9d$pu
 L9eHu
 L9f8tV3
 L9k8v
@@ -5770,6 +5771,7 @@ NormalTextureInfo
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not looking for a good app key because Steam didn't start this app
+Not looking for a good app key because we were launched as a child of vrserver
 Not starting vrserver for %s application.
 Not starting vrserver for background app (121)
 Not starting vrserver inside app container.
@@ -5815,6 +5817,7 @@ Out of thread local storage!
 OutputCoord
 OutputDebugStringA
 OutputDebugStringW
+OverlayEvent_%d
 P0@8}
 P0D8e
 PATH_TO_LOCAL_STRING failed with %s
@@ -6087,6 +6090,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSj
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6405,7 +6409,6 @@ T$0LcC(
 T$0fA
 T$4I+
 T$8;T$<
-T$8E3
 T$8H+
 T$8H9T$@
 T$8H9T$@t
@@ -6643,7 +6646,6 @@ UWAVAWI
 UWAVH
 UWAWH
 Uc:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
-Ug@8=Eq=
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
 Unable to coerce boolean action to input source that supports neither float nor boolean: %s
 Unable to coerce float action to input source that supports neither float nor boolean: %s
@@ -7475,12 +7477,14 @@ WINRT_GetAdapterLuid
 WINRT_GetCurrentDriverVersion
 WINRT_GetDeviceString
 WINRT_GetDisplayMode
+WINRT_GetDisplayModes
 WINRT_GetSurfaces
 WINRT_HasDisplay
 WINRT_Initialize
 WINRT_Present
 WINRT_Release
 WINRT_ReleaseDisplay
+WINRT_SetDisplayMode
 WINRT_WaitForPresent
 WTH;C
 WTSAPI32.dll
@@ -7895,9 +7899,11 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%c~/
-Y%h<.
+XrRxN
+Y5vC.
 Y9"SD
+Y=E!.
+Y=^B.
 Y>t$7?*
 YD$8E
 Yd$@A
@@ -8077,6 +8083,7 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \%03o
+\-y'$
 \10I;
 \U%08x
 \\.\pipe\
@@ -8098,11 +8105,13 @@ ZvFailed to create fence %ls.
 ][Compositor Client] Begin AcquireSync
 ]g@8yhu
 ]wfHc
+^.B	Y
 ^8H9?t&H
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%K:"
+_%+H"
+_%gS"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8200,7 +8209,6 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
-` @SH
 ` UAVAWH
 `(@SH
 `.rdata
@@ -8220,6 +8228,7 @@ _wstat64i32
 `A_A^A]A\_^]H
 `A_A^_^]
 `A__^
+`DY)J
 `H@SH
 `P@SH
 `X@SH
@@ -8688,7 +8697,6 @@ duration
 dxgi.dll
 e,>~^
 e0A_A^A]A\]
-e1HkF
 eCS < CS_Count
 ePH9C tEH
 ePS < PS_Count
@@ -8805,6 +8813,7 @@ fake_trigger
 fake_trigger_
 false
 false literal
+false"
 fclose
 ff&?E
 ffffff
@@ -8954,6 +8963,7 @@ holographic_controller
 hpmotioncontroller
 http://
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -9234,6 +9244,7 @@ log_web_console_handle
 loglevel
 long_press_delay
 m0_$@
+m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_acquiredFrameIndices.size() > 0
@@ -9317,7 +9328,6 @@ message_type
 metallicFactor
 metallicRoughnessTexture
 method
-mg@8=Hk=
 microtxn_finished
 mimeType
 minFilter
@@ -9471,6 +9481,7 @@ pCmdBuf != nullptr
 pCommandList
 pCreateInfo->createFlags == 0
 pDevice
+pEvent != nullptr
 pHandle
 pImage != nullptr
 pInput != nullptr
@@ -9494,6 +9505,7 @@ pTexture && pFlags
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
+p\+>M
 package
 packed
 pancake_pid
@@ -9554,7 +9566,6 @@ pulse_duration
 py_generic_services
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
-qt%tod
 r	D;@(}
 r+w.I
 r,fff
@@ -9683,6 +9694,9 @@ shaders/d3d11/distort_geom_constant_ps.fxo
 shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_curved_vs.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
+shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
+shaders/d3d11/distort_geom_floor_reflect_ps.fxo
+shaders/d3d11/distort_geom_floor_vs.fxo
 shaders/d3d11/distort_geom_fresnel_ps.fxo
 shaders/d3d11/distort_geom_fresnel_vs.fxo
 shaders/d3d11/distort_geom_grid_ps.fxo
@@ -9692,7 +9706,9 @@ shaders/d3d11/distort_geom_hard_bounds_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_squares_ps.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_squares_vs.fxo
 shaders/d3d11/distort_geom_horizon_ps.fxo
+shaders/d3d11/distort_geom_ltc_diff_ps.fxo
 shaders/d3d11/distort_geom_ltc_ps.fxo
+shaders/d3d11/distort_geom_ltc_spec_ps.fxo
 shaders/d3d11/distort_geom_motes_ps.fxo
 shaders/d3d11/distort_geom_motes_vs.fxo
 shaders/d3d11/distort_geom_multitap_ps.fxo
@@ -9700,6 +9716,7 @@ shaders/d3d11/distort_geom_pbr_ps.fxo
 shaders/d3d11/distort_geom_ps.fxo
 shaders/d3d11/distort_geom_ptnorm_curved_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_ptnorm_curved_vs.fxo
+shaders/d3d11/distort_geom_ptnorm_ortho_out_vs.fxo
 shaders/d3d11/distort_geom_ptnorm_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_ptnorm_vs.fxo
 shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
@@ -9712,6 +9729,8 @@ shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_vignette_ps.fxo
 shaders/d3d11/distort_geom_vignette_vs.fxo
 shaders/d3d11/distort_geom_vs.fxo
+shaders/d3d11/distort_geom_write_norm_ps.fxo
+shaders/d3d11/distort_geom_write_norm_vs.fxo
 shaders/d3d11/distort_none_ps.fxo
 shaders/d3d11/distort_none_ps_gamma.fxo
 shaders/d3d11/distort_none_ps_layered.fxo
@@ -9815,6 +9834,9 @@ shaders/vulkan/distort_geom_constant_ps.spv
 shaders/vulkan/distort_geom_curved_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_curved_vs.spv
 shaders/vulkan/distort_geom_floor_ps.spv
+shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
+shaders/vulkan/distort_geom_floor_reflect_ps.spv
+shaders/vulkan/distort_geom_floor_vs.spv
 shaders/vulkan/distort_geom_fresnel_ps.spv
 shaders/vulkan/distort_geom_fresnel_vs.spv
 shaders/vulkan/distort_geom_grid_ps.spv
@@ -9824,7 +9846,9 @@ shaders/vulkan/distort_geom_hard_bounds_aa_lines_vs.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_squares_ps.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_squares_vs.spv
 shaders/vulkan/distort_geom_horizon_ps.spv
+shaders/vulkan/distort_geom_ltc_diff_ps.spv
 shaders/vulkan/distort_geom_ltc_ps.spv
+shaders/vulkan/distort_geom_ltc_spec_ps.spv
 shaders/vulkan/distort_geom_motes_ps.spv
 shaders/vulkan/distort_geom_motes_vs.spv
 shaders/vulkan/distort_geom_multitap_ps.spv
@@ -9832,6 +9856,7 @@ shaders/vulkan/distort_geom_pbr_ps.spv
 shaders/vulkan/distort_geom_ps.spv
 shaders/vulkan/distort_geom_ptnorm_curved_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_ptnorm_curved_vs.spv
+shaders/vulkan/distort_geom_ptnorm_ortho_out_vs.spv
 shaders/vulkan/distort_geom_ptnorm_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_ptnorm_vs.spv
 shaders/vulkan/distort_geom_reflect_multitap_ps.spv
@@ -9844,6 +9869,8 @@ shaders/vulkan/distort_geom_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_vignette_ps.spv
 shaders/vulkan/distort_geom_vignette_vs.spv
 shaders/vulkan/distort_geom_vs.spv
+shaders/vulkan/distort_geom_write_norm_ps.spv
+shaders/vulkan/distort_geom_write_norm_vs.spv
 shaders/vulkan/distort_none_ps.spv
 shaders/vulkan/distort_none_ps_gamma.spv
 shaders/vulkan/distort_none_ps_layered.spv
@@ -9941,6 +9968,7 @@ should_kill
 showCompatibilityModeNotification
 show_app_binding
 show_dashboard_requested
+show_overlay_in_quicklaunch
 shtOH
 simple
 simulate_hmd
@@ -9996,6 +10024,7 @@ start
 startCompositorFromAppLaunch
 startDashboardFromAppLaunch
 startMonitorFromAppLaunch
+starts_theater_mode
 startup
 startup_info_json
 startup_reason
@@ -10132,6 +10161,7 @@ sxr_xrWaitSwapchainImage
 syntax error 
 system
 system.messageoverlay.clientpid.%d
+system.systemui
 system.vrresources
 systemui
 systemui_dashboard
@@ -10312,7 +10342,7 @@ tUL9l$ptNH
 tXH+A
 tXfff
 t[H+A
-t`fff
+t^fff
 target
 targets
 tb9l$Xt@9n$~;
@@ -10421,6 +10451,7 @@ u.H9{`t(H
 u/fff
 u4H9X s
 u5H9t$0u.H
+u7fff
 u9fff
 u<H9^xtLH
 u>D8}
@@ -10446,13 +10477,13 @@ ua_ua
 ub'vb'v
 ubHcC0I
 udH9P sRH
-ug@8=&p=
 ugL9x s
 ugL;D$H
 uguTA
 ui8D$0tc
 uint32
 uint64
+uis\O
 ukH9X s
 ukranian
 umM;~
@@ -11081,6 +11112,7 @@ wrong submessage type
 wrong version
 ww'Hc
 www.digicert.com1!0
+www.digicert.com1$0"
 x ATAVAWH
 x AVH
 x L;m
@@ -11321,8 +11353,8 @@ zuusA
 |$TH;
 |$TtH
 |$X@2
+|$XH+
 |$XH;
-|$XL+
 |$`E3
 |$`H+
 |$`H;
@@ -11342,7 +11374,9 @@ zuusA
 |$xL;
 |$xM;
 |$xMi
+|+jGh.
 |8PH;
+|@N3>
 |D8E t"H
 |Lu?c
 |s;K(tnA

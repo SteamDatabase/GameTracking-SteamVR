@@ -199,7 +199,7 @@
 "MenuAction_DisplayMirror" "Mostrar vista de RV"
 "MenuAction_PerformanceGraph" "Mostrar gráfico de rendimiento"
 "MenuAction_ShowControllerBinding" "Ajustes del mando"
-"MenuAction_ShowManageTrackers" "Administrar localizadores"
+"MenuAction_ShowManageTrackers" "Administrar rastreadores"
 "MenuAction_UpdateFirmware" "Actualizar dispositivo"
 "MenuAction_ForceFirmware" "Forzar firmware"
 "MenuAction_DirectMode" "Modo de visualización directo"

@@ -2092,7 +2092,9 @@ $wtpt
 '*&&4+):670-1$
 ',',',',',',',',',',',',',',',',',',',',',',',',','#'#'c
 ',=?k
+'3#BxQ
 '6Q N
+'7D`D0
 '7GWgw
 '<' in entity '%s' is not allowed in attributes values
 '<@!=9
@@ -2988,7 +2990,6 @@ $wtpt
 ,0<6w/H
 ,1<5w
 ,3fZQ%
-,7y59*oe*
 ,9,n,
 ,:<>wmH
 ,:njk
@@ -3641,6 +3642,7 @@ $wtpt
 0Hc|$hI
 0LcD$HH
 0Lc|$xI
+0Ng>&(
 0qB\'
 0r/hL
 0tIff
@@ -3718,7 +3720,8 @@ $wtpt
 211007000000Z
 220323000000Z
 220329000000Z
-220602204653Z0/
+220609000000Z
+220614225458Z0/
 230x323
 2384x3370
 24 24
@@ -3754,6 +3757,7 @@ $wtpt
 2~6D9
 3&#38H
 30 18
+311109235959Z0b1
 32 32
 32#t@
 32-bit_rle_rgbe
@@ -3869,6 +3873,7 @@ $wtpt
 4S3=VW
 4U!-%AI-P	
 4^d;@
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 4i5U6B738%9
 4x1:0,1,1,0
 4x3+1+1:-,1,1,0 -,1,1,- 0,1,1,-
@@ -3910,7 +3915,6 @@ $wtpt
 6I]Dc
 6MQ8u
 6OB,n_
-6]|5+
 6gc6n
 6p#F'
 6ukE3
@@ -3942,7 +3946,7 @@ $wtpt
 7H;H(
 7H;O }
 7P.F!
-7j^__
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7v,=p
 8't#H
 8*** BUG ***
@@ -4341,7 +4345,6 @@ $wtpt
 <it}<x
 <iyo`
 <jxAy
-<k-FR/
 <l	y<o
 <lf}dX^^G
 <locale
@@ -4459,9 +4462,9 @@ $wtpt
 >%,>&T>'|>(
 >&)2yXR_%
 >/uwA
+>0<0:
 >5PJ>
 >D;>A
->Debz+
 >H;G 
 >I;E 
 >Mp$d
@@ -4594,6 +4597,7 @@ $wtpt
 @)tEV|
 @.data
 @.reloc
+@/\f]
 @0D9 u
 @1{Qa
 @24@3\@4
@@ -7196,6 +7200,7 @@ Did not see expected message %s-%s: %s
 Difference
 Differential Channel Source
 Differential Channel Source Modifiers
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -12319,7 +12324,6 @@ SAX.xmlSAX2UnparsedEntityDecl(%s) called while not in subset
 SA|X=G
 SCREENSHOT
 SCRIPT
-SCl2z
 SEQUENCE_ERROR
 SFW94
 SFW94A
@@ -14519,6 +14523,7 @@ Zoom Select Status
 ^5TQ0
 ^?y?^?
 ^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
+^N|2k(gaf
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
 ^oEZ_
 ^w?Hc
@@ -14879,6 +14884,7 @@ azure4
 b"$ V'(
 b&;AL
 b,Lcz0D
+b9pTg
 b<bu(L
 b<bub
 b?8Nb?g}b?
@@ -15611,7 +15617,6 @@ d$x+h
 d$xE3
 d&7F$L
 d(H\Ns
-d9~8N
 d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
@@ -16256,7 +16261,6 @@ fF;D0
 fF;D:
 fIXeH
 fIXeu
-f[ tvC
 face=%S,charset=%s,it=%s,wt=%ld,ht=%ld,ff=%s%s
 factor
 failed to allocate %u bytes (alignment: %u): %s
@@ -17157,6 +17161,7 @@ hook_list != NULL
 hook_list->is_setup
 http://
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -17794,6 +17799,7 @@ lwtpt
 lycian
 lydian
 m,!$;Y
+m0k0$
 m1WY$
 m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
 m>EKn>
@@ -18063,7 +18069,6 @@ number-meta-channels
 numbers out of order in {} quantifier
 numbersign
 numerator (point), denominator (point)
-nz3&s]
 o feliz que dorme regalado.
 o-BK_[
 o8(TH
@@ -18977,7 +18982,6 @@ split_offset < orig->num_chars
 split_offset > 0
 spread
 spver >= 0
-sq1Mk{I
 sqrtf
 squish
 sr@latin
@@ -20016,6 +20020,7 @@ writing raw profile: type=%s, length=%.20g
 wrp==rdp, !running
 wsbdp
 www.digicert.com1!0
+www.digicert.com1$0"
 x ATAVAWH
 x AVH
 x AWH
@@ -20795,7 +20800,6 @@ y H+y
 y-resolution
 y8fff
 y8udL
-yA3!n
 yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
 y\{ZN^G=:32'(/')-(+0(,2(/1+00*0+'
 ya spilte jo whist og quickstep i min taxi.
@@ -20832,6 +20836,7 @@ z8u6fE
 z9u7H
 z9u7fA
 z:u8f
+z<Ji&
 z<u:fA
 z=u;H
 z>rdf:Bag
@@ -20857,7 +20862,6 @@ z[uYI
 z\u*H
 z`u^I
 zcaron
-zc}40
 zh-cn
 zh-hk
 zh-mo
@@ -21093,12 +21097,14 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |$xt.
 |0HcVtH
 |4D+Q
+|5?	\
 |6HcVt
 |7&rU3
 |<HcVtH
 |>>Bq
 |>fff
 |@HcVt
+|@N3>
 |AHcK`I
 |CJ25?+:72*0+Z?>
 |FD;~
@@ -21123,6 +21129,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }>A+]dx8;
 }LuHO
 }Qfff
+}^L1vy
 }b>G:c>
 }ifff
 }mxQ>

@@ -2117,6 +2117,8 @@
  b vroverlay023_FnTable
  b vroverlay024
  b vroverlay024_FnTable
+ b vroverlay025
+ b vroverlay025_FnTable
  b vroverlayview002
  b vroverlayview002_FnTable
  b vrrendermodels001
@@ -2246,6 +2248,7 @@
  d VulkanVRRenderer::iedCameraProxyGeom
  d VulkanVRRenderer::iedDistort
  d VulkanVRRenderer::iedGeom
+ d VulkanVRRenderer::iedGeomFloor
  d VulkanVRRenderer::iedGeomWithNormals
  d VulkanVRRenderer::iedGeomWithTangents
  d VulkanVRRenderer::iedLatLong
@@ -2347,6 +2350,7 @@
  d g_IVROverlay_022_FnTable
  d g_IVROverlay_023_FnTable
  d g_IVROverlay_024_FnTable
+ d g_IVROverlay_025_FnTable
  d g_IVRRenderModels_004_FnTable
  d g_IVRRenderModels_005_FnTable
  d g_IVRSettings_001_FnTable
@@ -2889,6 +2893,7 @@
  d typeinfo for CVROverlay_022
  d typeinfo for CVROverlay_023
  d typeinfo for CVROverlay_024
+ d typeinfo for CVROverlay_025
  d typeinfo for CVRRenderModels_001
  d typeinfo for CVRRenderModels_002
  d typeinfo for CVRRenderModels_003
@@ -3129,11 +3134,12 @@
  d typeinfo for OverlayInterfaceRegistration<CVROverlay_022>
  d typeinfo for OverlayInterfaceRegistration<CVROverlay_023>
  d typeinfo for OverlayInterfaceRegistration<CVROverlay_024>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_025>
  d typeinfo for OverlayViewInterfaceRegistration<CVROverlayView_001>
  d typeinfo for OverlayViewInterfaceRegistration<CVROverlayView_002>
  d typeinfo for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}
  d typeinfo for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}
- d typeinfo for ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}
+ d typeinfo for ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}
  d typeinfo for Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>
  d typeinfo for Reflection::Detail::ToBaseT<CKeyframedDataResource, CAnimResource>
  d typeinfo for Reflection::Detail::ToBase_t
@@ -3877,6 +3883,7 @@
  d vtable for CVROverlay_022
  d vtable for CVROverlay_023
  d vtable for CVROverlay_024
+ d vtable for CVROverlay_025
  d vtable for CVRRenderModels_001
  d vtable for CVRRenderModels_002
  d vtable for CVRRenderModels_003
@@ -4062,6 +4069,7 @@
  d vtable for OverlayInterfaceRegistration<CVROverlay_022>
  d vtable for OverlayInterfaceRegistration<CVROverlay_023>
  d vtable for OverlayInterfaceRegistration<CVROverlay_024>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_025>
  d vtable for OverlayViewInterfaceRegistration<CVROverlayView_001>
  d vtable for OverlayViewInterfaceRegistration<CVROverlayView_002>
  d vtable for Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>
@@ -4403,16 +4411,16 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1139.340804
- r C.1142.340815
+ r C.1139.340871
+ r C.1142.340882
  r C.413.288424
  r CSWTCH.100
  r CSWTCH.16
- r CSWTCH.211
+ r CSWTCH.213
  r CSWTCH.221
  r CSWTCH.23
  r CSWTCH.28
- r CSWTCH.419
+ r CSWTCH.409
  r CSWTCH.725
  r CSWTCH.772
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -5285,6 +5293,7 @@
  r typeinfo name for CVROverlay_022
  r typeinfo name for CVROverlay_023
  r typeinfo name for CVROverlay_024
+ r typeinfo name for CVROverlay_025
  r typeinfo name for CVRRenderModels_001
  r typeinfo name for CVRRenderModels_002
  r typeinfo name for CVRRenderModels_003
@@ -5525,11 +5534,12 @@
  r typeinfo name for OverlayInterfaceRegistration<CVROverlay_022>
  r typeinfo name for OverlayInterfaceRegistration<CVROverlay_023>
  r typeinfo name for OverlayInterfaceRegistration<CVROverlay_024>
+ r typeinfo name for OverlayInterfaceRegistration<CVROverlay_025>
  r typeinfo name for OverlayViewInterfaceRegistration<CVROverlayView_001>
  r typeinfo name for OverlayViewInterfaceRegistration<CVROverlayView_002>
  r typeinfo name for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}
  r typeinfo name for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}
- r typeinfo name for ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}
+ r typeinfo name for ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}
  r typeinfo name for Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>
  r typeinfo name for Reflection::Detail::ToBaseT<CKeyframedDataResource, CAnimResource>
  r typeinfo name for Reflection::Detail::ToBase_t
@@ -5860,6 +5870,7 @@
  sched_get_priority_min
  sched_getparam
  sched_getscheduler
+ sched_setaffinity
  sched_setscheduler
  sched_yield
  semctl
@@ -6797,8 +6808,8 @@
  t CInputActionManifest::GetActionSetsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >) [clone .cold]
  t CInputActionManifest::GetActionsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >)
  t CInputActionManifest::GetActionsFromJSON(Json::Value const&, std::string*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >&, std::map<std::string, std::shared_ptr<CInputActionSet>, std::less<std::string>, std::allocator<std::pair<std::string const, std::shared_ptr<CInputActionSet> > > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >) [clone .cold]
- t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&, std::string const&)
- t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::string const&, std::string const&) [clone .cold]
+ t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::vector<std::string, std::allocator<std::string> >&, bool)
+ t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::vector<std::string, std::allocator<std::string> >&, bool) [clone .cold]
  t CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool)
  t CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool) [clone .cold]
  t CInputActionManifest::GetLocalizationMapFromJSON(Json::Value const&, std::string const&, std::string const&, std::string*, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&)
@@ -7942,6 +7953,7 @@
  t CSxrSession::UpdateInteractionProfile()
  t CSxrSession::UpdateInteractionProfile() [clone .cold]
  t CSxrSession::WaitForQueueToFlush()
+ t CSxrSession::WaitForQueueToFlush() [clone .part.0]
  t CSxrSession::WaitFrame(XrFrameWaitInfo const*, XrFrameState*)
  t CSxrSession::~CSxrSession()
  t CSxrSpace::CSxrSpace(CSxrAction*, XrActionSpaceCreateInfo const*)
@@ -8811,7 +8823,7 @@
  t CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Release(CVRCompositorSharedTextures*)
  t CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
  t CVRCompositorSharedTextures::UnlockGLSharedTextureForAccess(void*)
- t CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
+ t CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
  t CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)
  t CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*) [clone .cold]
  t CVRCompositorSharedTextures::UpdateVRRenderer(void*, void*, void*)
@@ -15740,6 +15752,8 @@
  t CVROverlayLatest::FreeMemoryBlock(unsigned long)
  t CVROverlayLatest::GetDashboardOverlaySceneProcess(unsigned long, unsigned int*)
  t CVROverlayLatest::GetDashboardOverlaySceneProcess(unsigned long, unsigned int*) [clone .cold]
+ t CVROverlayLatest::GetIPCEvent(unsigned long, vr::EVROverlayError*)
+ t CVROverlayLatest::GetIPCEvent(unsigned long, vr::EVROverlayError*) [clone .cold]
  t CVROverlayLatest::GetKeyboardText(char*, unsigned int)
  t CVROverlayLatest::GetKeyboardText(char*, unsigned int) [clone .cold]
  t CVROverlayLatest::GetOverlayAlpha(unsigned long, float*)
@@ -15799,6 +15813,8 @@
  t CVROverlayLatest::HideKeyboard() [clone .cold]
  t CVROverlayLatest::HideOverlay(unsigned long)
  t CVROverlayLatest::HideOverlay(unsigned long) [clone .cold]
+ t CVROverlayLatest::IPCSignal(unsigned long)
+ t CVROverlayLatest::IPCWait(unsigned long, unsigned int)
  t CVROverlayLatest::Init(CVRSystemLatest*, vr::IVRCompositorSystemInternal*, CVRCompositorClient*)
  t CVROverlayLatest::Init(CVRSystemLatest*, vr::IVRCompositorSystemInternal*, CVRCompositorClient*) [clone .cold]
  t CVROverlayLatest::IsActiveDashboardOverlay(unsigned long)
@@ -17520,6 +17536,85 @@
  t CVROverlay_024::ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*)
  t CVROverlay_024::ShowOverlay(unsigned long)
  t CVROverlay_024::TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
+ t CVROverlay_025::ClearOverlayCursorPositionOverride(unsigned long)
+ t CVROverlay_025::ClearOverlayTexture(unsigned long)
+ t CVROverlay_025::CloseMessageOverlay()
+ t CVROverlay_025::ComputeOverlayIntersection(unsigned long, vr::VROverlayIntersectionParams_t const*, vr::VROverlayIntersectionResults_t*)
+ t CVROverlay_025::CreateDashboardOverlay(char const*, char const*, unsigned long*, unsigned long*)
+ t CVROverlay_025::CreateOverlay(char const*, char const*, unsigned long*)
+ t CVROverlay_025::DestroyOverlay(unsigned long)
+ t CVROverlay_025::FindOverlay(char const*, unsigned long*)
+ t CVROverlay_025::GetDashboardOverlaySceneProcess(unsigned long, unsigned int*)
+ t CVROverlay_025::GetKeyboardText(char*, unsigned int)
+ t CVROverlay_025::GetOverlayAlpha(unsigned long, float*)
+ t CVROverlay_025::GetOverlayColor(unsigned long, float*, float*, float*)
+ t CVROverlay_025::GetOverlayCurvature(unsigned long, float*)
+ t CVROverlay_025::GetOverlayErrorNameFromEnum(vr::EVROverlayError)
+ t CVROverlay_025::GetOverlayFlag(unsigned long, vr::VROverlayFlags, bool*)
+ t CVROverlay_025::GetOverlayFlags(unsigned long, unsigned int*)
+ t CVROverlay_025::GetOverlayImageData(unsigned long, void*, unsigned int, unsigned int*, unsigned int*)
+ t CVROverlay_025::GetOverlayInputMethod(unsigned long, vr::VROverlayInputMethod*)
+ t CVROverlay_025::GetOverlayKey(unsigned long, char*, unsigned int, vr::EVROverlayError*)
+ t CVROverlay_025::GetOverlayMouseScale(unsigned long, vr::HmdVector2_t*)
+ t CVROverlay_025::GetOverlayName(unsigned long, char*, unsigned int, vr::EVROverlayError*)
+ t CVROverlay_025::GetOverlayRenderingPid(unsigned long)
+ t CVROverlay_025::GetOverlaySortOrder(unsigned long, unsigned int*)
+ t CVROverlay_025::GetOverlayTexelAspect(unsigned long, float*)
+ t CVROverlay_025::GetOverlayTexture(unsigned long, void**, void*, unsigned int*, unsigned int*, unsigned int*, vr::ETextureType*, vr::EColorSpace*, vr::VRTextureBounds_t*)
+ t CVROverlay_025::GetOverlayTextureBounds(unsigned long, vr::VRTextureBounds_t*)
+ t CVROverlay_025::GetOverlayTextureColorSpace(unsigned long, vr::EColorSpace*)
+ t CVROverlay_025::GetOverlayTextureSize(unsigned long, unsigned int*, unsigned int*)
+ t CVROverlay_025::GetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin*, vr::HmdMatrix34_t*)
+ t CVROverlay_025::GetOverlayTransformCursor(unsigned long, vr::HmdVector2_t*)
+ t CVROverlay_025::GetOverlayTransformOverlayRelative(unsigned long, unsigned long*, vr::HmdMatrix34_t*)
+ t CVROverlay_025::GetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int*, char*, unsigned int)
+ t CVROverlay_025::GetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int*, vr::HmdMatrix34_t*)
+ t CVROverlay_025::GetOverlayTransformType(unsigned long, vr::VROverlayTransformType*)
+ t CVROverlay_025::GetOverlayWidthInMeters(unsigned long, float*)
+ t CVROverlay_025::GetPrimaryDashboardDevice()
+ t CVROverlay_025::GetTransformForOverlayCoordinates(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdVector2_t, vr::HmdMatrix34_t*)
+ t CVROverlay_025::HideKeyboard()
+ t CVROverlay_025::HideOverlay(unsigned long)
+ t CVROverlay_025::IsActiveDashboardOverlay(unsigned long)
+ t CVROverlay_025::IsDashboardVisible()
+ t CVROverlay_025::IsHoverTargetOverlay(unsigned long)
+ t CVROverlay_025::IsOverlayVisible(unsigned long)
+ t CVROverlay_025::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
+ t CVROverlay_025::ReleaseNativeOverlayHandle(unsigned long, void*)
+ t CVROverlay_025::SetDashboardOverlaySceneProcess(unsigned long, unsigned int)
+ t CVROverlay_025::SetKeyboardPositionForOverlay(unsigned long, vr::HmdRect2_t)
+ t CVROverlay_025::SetKeyboardTransformAbsolute(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
+ t CVROverlay_025::SetOverlayAlpha(unsigned long, float)
+ t CVROverlay_025::SetOverlayColor(unsigned long, float, float, float)
+ t CVROverlay_025::SetOverlayCursor(unsigned long, unsigned long)
+ t CVROverlay_025::SetOverlayCursorPositionOverride(unsigned long, vr::HmdVector2_t const*)
+ t CVROverlay_025::SetOverlayCurvature(unsigned long, float)
+ t CVROverlay_025::SetOverlayFlag(unsigned long, vr::VROverlayFlags, bool)
+ t CVROverlay_025::SetOverlayFromFile(unsigned long, char const*)
+ t CVROverlay_025::SetOverlayInputMethod(unsigned long, vr::VROverlayInputMethod)
+ t CVROverlay_025::SetOverlayIntersectionMask(unsigned long, vr::VROverlayIntersectionMaskPrimitive_t*, unsigned int, unsigned int)
+ t CVROverlay_025::SetOverlayMouseScale(unsigned long, vr::HmdVector2_t const*)
+ t CVROverlay_025::SetOverlayName(unsigned long, char const*)
+ t CVROverlay_025::SetOverlayRaw(unsigned long, void*, unsigned int, unsigned int, unsigned int)
+ t CVROverlay_025::SetOverlayRenderingPid(unsigned long, unsigned int)
+ t CVROverlay_025::SetOverlaySortOrder(unsigned long, unsigned int)
+ t CVROverlay_025::SetOverlayTexelAspect(unsigned long, float)
+ t CVROverlay_025::SetOverlayTexture(unsigned long, vr::Texture_t const*)
+ t CVROverlay_025::SetOverlayTextureBounds(unsigned long, vr::VRTextureBounds_t const*)
+ t CVROverlay_025::SetOverlayTextureColorSpace(unsigned long, vr::EColorSpace)
+ t CVROverlay_025::SetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
+ t CVROverlay_025::SetOverlayTransformCursor(unsigned long, vr::HmdVector2_t const*)
+ t CVROverlay_025::SetOverlayTransformOverlayRelative(unsigned long, unsigned long, vr::HmdMatrix34_t const*)
+ t CVROverlay_025::SetOverlayTransformProjection(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*, vr::VROverlayProjection_t const*, vr::EVREye)
+ t CVROverlay_025::SetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int, char const*)
+ t CVROverlay_025::SetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int, vr::HmdMatrix34_t const*)
+ t CVROverlay_025::SetOverlayWidthInMeters(unsigned long, float)
+ t CVROverlay_025::ShowDashboard(char const*)
+ t CVROverlay_025::ShowKeyboard(vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
+ t CVROverlay_025::ShowKeyboardForOverlay(unsigned long, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
+ t CVROverlay_025::ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*)
+ t CVROverlay_025::ShowOverlay(unsigned long)
+ t CVROverlay_025::TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
  t CVRPathRegistry::AddExternalDriver(char const*)
  t CVRPathRegistry::AddExternalDriver(char const*) [clone .cold]
  t CVRPathRegistry::CVRPathRegistry()
@@ -17563,6 +17658,7 @@
  t CVRPathRegistry_Public::GetVRPathRegistryFilename() [clone .cold]
  t CVRPathRegistry_Public::InitSteamAppId()
  t CVRPathRegistry_Public::InitSteamAppId() [clone .cold]
+ t CVRPathRegistry_Public::IsChildOfVRServer()
  t CVRPathRegistry_Public::IsSteamVRMain()
  t CVRPathRegistry_Public::ToJsonString(std::string&)
  t CVRPathRegistry_Public::ToJsonString(std::string&) [clone .cold]
@@ -19357,7 +19453,7 @@
  t ComputeSubresourceRegion(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
  t ComputeTouchIndexControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&)
  t ComputeTouchIndexControllerBindings(std::vector<SuggestedBinding, std::allocator<SuggestedBinding> > const&) [clone .cold]
- t ComputeTransformDetails(vr::HmdMatrix34_t const&, vr::HmdVector2_t const&, float, float, float, float, vr::HmdVector2_t const&, vr::VRTextureBounds_t const&)
+ t ComputeTransformDetails(vr::HmdMatrix34_t const&, vr::HmdVector2_t const&, float, float, float, float, float, vr::HmdVector2_t const&, vr::VRTextureBounds_t const&)
  t ComputeXrViewForEye(vr::EVREye, XrPosef const&, CFrameData*)
  t ComputedBoolSettingForString(std::string const&)
  t ConfigCachedActionValue_t::~ConfigCachedActionValue_t()
@@ -21738,6 +21834,85 @@
  t IVROverlay_024_FnTable_ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*)
  t IVROverlay_024_FnTable_ShowOverlay(unsigned long)
  t IVROverlay_024_FnTable_TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
+ t IVROverlay_025_FnTable_ClearOverlayCursorPositionOverride(unsigned long)
+ t IVROverlay_025_FnTable_ClearOverlayTexture(unsigned long)
+ t IVROverlay_025_FnTable_CloseMessageOverlay()
+ t IVROverlay_025_FnTable_ComputeOverlayIntersection(unsigned long, vr::VROverlayIntersectionParams_t const*, vr::VROverlayIntersectionResults_t*)
+ t IVROverlay_025_FnTable_CreateDashboardOverlay(char const*, char const*, unsigned long*, unsigned long*)
+ t IVROverlay_025_FnTable_CreateOverlay(char const*, char const*, unsigned long*)
+ t IVROverlay_025_FnTable_DestroyOverlay(unsigned long)
+ t IVROverlay_025_FnTable_FindOverlay(char const*, unsigned long*)
+ t IVROverlay_025_FnTable_GetDashboardOverlaySceneProcess(unsigned long, unsigned int*)
+ t IVROverlay_025_FnTable_GetKeyboardText(char*, unsigned int)
+ t IVROverlay_025_FnTable_GetOverlayAlpha(unsigned long, float*)
+ t IVROverlay_025_FnTable_GetOverlayColor(unsigned long, float*, float*, float*)
+ t IVROverlay_025_FnTable_GetOverlayCurvature(unsigned long, float*)
+ t IVROverlay_025_FnTable_GetOverlayErrorNameFromEnum(vr::EVROverlayError)
+ t IVROverlay_025_FnTable_GetOverlayFlag(unsigned long, vr::VROverlayFlags, bool*)
+ t IVROverlay_025_FnTable_GetOverlayFlags(unsigned long, unsigned int*)
+ t IVROverlay_025_FnTable_GetOverlayImageData(unsigned long, void*, unsigned int, unsigned int*, unsigned int*)
+ t IVROverlay_025_FnTable_GetOverlayInputMethod(unsigned long, vr::VROverlayInputMethod*)
+ t IVROverlay_025_FnTable_GetOverlayKey(unsigned long, char*, unsigned int, vr::EVROverlayError*)
+ t IVROverlay_025_FnTable_GetOverlayMouseScale(unsigned long, vr::HmdVector2_t*)
+ t IVROverlay_025_FnTable_GetOverlayName(unsigned long, char*, unsigned int, vr::EVROverlayError*)
+ t IVROverlay_025_FnTable_GetOverlayRenderingPid(unsigned long)
+ t IVROverlay_025_FnTable_GetOverlaySortOrder(unsigned long, unsigned int*)
+ t IVROverlay_025_FnTable_GetOverlayTexelAspect(unsigned long, float*)
+ t IVROverlay_025_FnTable_GetOverlayTexture(unsigned long, void**, void*, unsigned int*, unsigned int*, unsigned int*, vr::ETextureType*, vr::EColorSpace*, vr::VRTextureBounds_t*)
+ t IVROverlay_025_FnTable_GetOverlayTextureBounds(unsigned long, vr::VRTextureBounds_t*)
+ t IVROverlay_025_FnTable_GetOverlayTextureColorSpace(unsigned long, vr::EColorSpace*)
+ t IVROverlay_025_FnTable_GetOverlayTextureSize(unsigned long, unsigned int*, unsigned int*)
+ t IVROverlay_025_FnTable_GetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin*, vr::HmdMatrix34_t*)
+ t IVROverlay_025_FnTable_GetOverlayTransformCursor(unsigned long, vr::HmdVector2_t*)
+ t IVROverlay_025_FnTable_GetOverlayTransformOverlayRelative(unsigned long, unsigned long*, vr::HmdMatrix34_t*)
+ t IVROverlay_025_FnTable_GetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int*, char*, unsigned int)
+ t IVROverlay_025_FnTable_GetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int*, vr::HmdMatrix34_t*)
+ t IVROverlay_025_FnTable_GetOverlayTransformType(unsigned long, vr::VROverlayTransformType*)
+ t IVROverlay_025_FnTable_GetOverlayWidthInMeters(unsigned long, float*)
+ t IVROverlay_025_FnTable_GetPrimaryDashboardDevice()
+ t IVROverlay_025_FnTable_GetTransformForOverlayCoordinates(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdVector2_t, vr::HmdMatrix34_t*)
+ t IVROverlay_025_FnTable_HideKeyboard()
+ t IVROverlay_025_FnTable_HideOverlay(unsigned long)
+ t IVROverlay_025_FnTable_IsActiveDashboardOverlay(unsigned long)
+ t IVROverlay_025_FnTable_IsDashboardVisible()
+ t IVROverlay_025_FnTable_IsHoverTargetOverlay(unsigned long)
+ t IVROverlay_025_FnTable_IsOverlayVisible(unsigned long)
+ t IVROverlay_025_FnTable_PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
+ t IVROverlay_025_FnTable_ReleaseNativeOverlayHandle(unsigned long, void*)
+ t IVROverlay_025_FnTable_SetDashboardOverlaySceneProcess(unsigned long, unsigned int)
+ t IVROverlay_025_FnTable_SetKeyboardPositionForOverlay(unsigned long, vr::HmdRect2_t)
+ t IVROverlay_025_FnTable_SetKeyboardTransformAbsolute(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
+ t IVROverlay_025_FnTable_SetOverlayAlpha(unsigned long, float)
+ t IVROverlay_025_FnTable_SetOverlayColor(unsigned long, float, float, float)
+ t IVROverlay_025_FnTable_SetOverlayCursor(unsigned long, unsigned long)
+ t IVROverlay_025_FnTable_SetOverlayCursorPositionOverride(unsigned long, vr::HmdVector2_t const*)
+ t IVROverlay_025_FnTable_SetOverlayCurvature(unsigned long, float)
+ t IVROverlay_025_FnTable_SetOverlayFlag(unsigned long, vr::VROverlayFlags, bool)
+ t IVROverlay_025_FnTable_SetOverlayFromFile(unsigned long, char const*)
+ t IVROverlay_025_FnTable_SetOverlayInputMethod(unsigned long, vr::VROverlayInputMethod)
+ t IVROverlay_025_FnTable_SetOverlayIntersectionMask(unsigned long, vr::VROverlayIntersectionMaskPrimitive_t*, unsigned int, unsigned int)
+ t IVROverlay_025_FnTable_SetOverlayMouseScale(unsigned long, vr::HmdVector2_t const*)
+ t IVROverlay_025_FnTable_SetOverlayName(unsigned long, char const*)
+ t IVROverlay_025_FnTable_SetOverlayRaw(unsigned long, void*, unsigned int, unsigned int, unsigned int)
+ t IVROverlay_025_FnTable_SetOverlayRenderingPid(unsigned long, unsigned int)
+ t IVROverlay_025_FnTable_SetOverlaySortOrder(unsigned long, unsigned int)
+ t IVROverlay_025_FnTable_SetOverlayTexelAspect(unsigned long, float)
+ t IVROverlay_025_FnTable_SetOverlayTexture(unsigned long, vr::Texture_t const*)
+ t IVROverlay_025_FnTable_SetOverlayTextureBounds(unsigned long, vr::VRTextureBounds_t const*)
+ t IVROverlay_025_FnTable_SetOverlayTextureColorSpace(unsigned long, vr::EColorSpace)
+ t IVROverlay_025_FnTable_SetOverlayTransformAbsolute(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
+ t IVROverlay_025_FnTable_SetOverlayTransformCursor(unsigned long, vr::HmdVector2_t const*)
+ t IVROverlay_025_FnTable_SetOverlayTransformOverlayRelative(unsigned long, unsigned long, vr::HmdMatrix34_t const*)
+ t IVROverlay_025_FnTable_SetOverlayTransformProjection(unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*, vr::VROverlayProjection_t const*, vr::EVREye)
+ t IVROverlay_025_FnTable_SetOverlayTransformTrackedDeviceComponent(unsigned long, unsigned int, char const*)
+ t IVROverlay_025_FnTable_SetOverlayTransformTrackedDeviceRelative(unsigned long, unsigned int, vr::HmdMatrix34_t const*)
+ t IVROverlay_025_FnTable_SetOverlayWidthInMeters(unsigned long, float)
+ t IVROverlay_025_FnTable_ShowDashboard(char const*)
+ t IVROverlay_025_FnTable_ShowKeyboard(vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
+ t IVROverlay_025_FnTable_ShowKeyboardForOverlay(unsigned long, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
+ t IVROverlay_025_FnTable_ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*)
+ t IVROverlay_025_FnTable_ShowOverlay(unsigned long)
+ t IVROverlay_025_FnTable_TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
  t IVRRenderModels_004_FnTable_FreeRenderModel(vr::RenderModel_t*)
  t IVRRenderModels_004_FnTable_FreeTexture(vr::RenderModel_TextureMap_t*)
  t IVRRenderModels_004_FnTable_FreeTextureD3D11(void*)
@@ -23018,6 +23193,8 @@
  t OverlayInterfaceRegistration<CVROverlay_023>::~OverlayInterfaceRegistration()
  t OverlayInterfaceRegistration<CVROverlay_024>::GetInterface()
  t OverlayInterfaceRegistration<CVROverlay_024>::~OverlayInterfaceRegistration()
+ t OverlayInterfaceRegistration<CVROverlay_025>::GetInterface()
+ t OverlayInterfaceRegistration<CVROverlay_025>::~OverlayInterfaceRegistration()
  t OverlayViewInterfaceRegistration<CVROverlayView_001>::GetInterface()
  t OverlayViewInterfaceRegistration<CVROverlayView_001>::~OverlayViewInterfaceRegistration()
  t OverlayViewInterfaceRegistration<CVROverlayView_002>::GetInterface()
@@ -23087,8 +23264,8 @@
  t PredictRawPose(double, vr::HmdMatrix34_t const&, VRTrackingState_DeviceInfo_t const&, VRTrackingState_Pose_t const&, vr::TrackedDevicePose_t*)
  t ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)
  t ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*) [clone .cold]
- t ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)
- t ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*) [clone .cold]
+ t ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)
+ t ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&) [clone .cold]
  t QuaternionAligned::ToMatrix(VectorAligned const&) const
  t ReadJsonFile(std::string const&, Json::Value&, std::string*)
  t ReadJsonFile(std::string const&, Json::Value&, std::string*) [clone .cold]
@@ -23653,6 +23830,8 @@
  t VR_IVROverlay_FnTable_GetTransformForOverlayCoordinates(unsigned long, ETrackingUniverseOrigin, HmdVector2_t, HmdMatrix34_t*)
  t VR_IVROverlay_FnTable_HideKeyboard()
  t VR_IVROverlay_FnTable_HideOverlay(unsigned long)
+ t VR_IVROverlay_FnTable_IPCSignal(unsigned long)
+ t VR_IVROverlay_FnTable_IPCWait(unsigned long, unsigned int)
  t VR_IVROverlay_FnTable_IsActiveDashboardOverlay(unsigned long)
  t VR_IVROverlay_FnTable_IsDashboardVisible()
  t VR_IVROverlay_FnTable_IsHoverTargetOverlay(unsigned long)
@@ -23929,6 +24108,18 @@
  t WatchdogHost<CVRWatchdogHost_001>::GetInterface()
  t WatchdogHost<CVRWatchdogHost_001>::~WatchdogHost()
  t WillLog(ELogLevel)
+ t WinRT::AcquireDisplay(int)
+ t WinRT::GetAdapterLuid(int, void*)
+ t WinRT::GetCurrentDriverVersion()
+ t WinRT::GetDeviceString(int)
+ t WinRT::GetDisplayMode(WinRT::DisplayMode_t*)
+ t WinRT::GetDisplayModes(unsigned int*, WinRT::DisplayMode_t*)
+ t WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
+ t WinRT::HasDisplay(int)
+ t WinRT::Present()
+ t WinRT::SetDisplayMode(WinRT::DisplayMode_t*)
+ t WinRT::Shutdown()
+ t WinRT::WaitForPresent(unsigned long*, float*)
  t WriteOverlayTexture(VRCompositor_OverlayState_t&, unsigned int, unsigned long, vr::VRTextureBounds_t const&)
  t XrGenericTracker::~XrGenericTracker()
  t XrReferenceSpaceType& std::vector<XrReferenceSpaceType, std::allocator<XrReferenceSpaceType> >::emplace_back<XrReferenceSpaceType>(XrReferenceSpaceType&&)
@@ -25410,7 +25601,7 @@
  t std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}> const&, std::_Manager_operation)
- t std::_Function_base::_Base_manager<ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}> const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}> const&, std::_Manager_operation)
@@ -25428,7 +25619,7 @@
  t std::_Function_handler<bool (XrBindingModificationsKHR const*), sxr_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSuggestedBinding const*)::{lambda(XrBindingModificationsKHR const*)#1}>::_M_invoke(std::_Any_data const&, XrBindingModificationsKHR const*&&)
  t std::_Function_handler<bool (XrInteractionProfileAnalogThresholdVALVE const*), ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}>::_M_invoke(std::_Any_data const&, XrInteractionProfileAnalogThresholdVALVE const*&&)
  t std::_Function_handler<bool (XrInteractionProfileAnalogThresholdVALVE const*), ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}>::_M_invoke(std::_Any_data const&, XrInteractionProfileAnalogThresholdVALVE const*&&)
- t std::_Function_handler<bool (XrInteractionProfileDpadBindingEXT const*), ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}>::_M_invoke(std::_Any_data const&, XrInteractionProfileDpadBindingEXT const*&&)
+ t std::_Function_handler<bool (XrInteractionProfileDpadBindingEXT const*), ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}>::_M_invoke(std::_Any_data const&, XrInteractionProfileDpadBindingEXT const*&&)
  t std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
  t std::_Function_handler<bool (unsigned long), CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::{lambda(unsigned long)#1}>::_M_invoke(std::_Any_data const&, unsigned long&&)
  t std::_Function_handler<bool (unsigned short, unsigned short, unsigned short), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}>::_M_invoke(std::_Any_data const&, unsigned short&&, std::_Any_data const&, std::_Any_data const&)
@@ -25659,6 +25850,7 @@
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, ConfigCachedActionValue_t>, std::_Select1st<std::pair<unsigned long const, ConfigCachedActionValue_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, ConfigCachedActionValue_t> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, ConfigCachedActionValue_t> >*)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, ConfigCachedProgressIndicator_t>, std::_Select1st<std::pair<unsigned long const, ConfigCachedProgressIndicator_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, ConfigCachedProgressIndicator_t> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, ConfigCachedProgressIndicator_t> >*)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, HandleAndString_t>, std::_Select1st<std::pair<unsigned long const, HandleAndString_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, HandleAndString_t> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, HandleAndString_t> >*)
+ t std::_Rb_tree<unsigned long, std::pair<unsigned long const, IPC::IEvent*>, std::_Select1st<std::pair<unsigned long const, IPC::IEvent*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, IPC::IEvent*> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, IPC::IEvent*> >*)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, InputSourceInfo_t>, std::_Select1st<std::pair<unsigned long const, InputSourceInfo_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, InputSourceInfo_t> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, InputSourceInfo_t> >*)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, InputSourceInfo_t>, std::_Select1st<std::pair<unsigned long const, InputSourceInfo_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, InputSourceInfo_t> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, InputSourceInfo_t> >, unsigned long const&)
  t std::_Rb_tree<unsigned long, std::pair<unsigned long const, InputSourceInfo_t>, std::_Select1st<std::pair<unsigned long const, InputSourceInfo_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, InputSourceInfo_t> > >::_M_get_insert_unique_pos(unsigned long const&)

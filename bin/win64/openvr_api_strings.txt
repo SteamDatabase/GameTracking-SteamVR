@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	)W1*
 	kE>fvw
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
@@ -66,6 +67,7 @@ $iMBm
 %H : %M
 %H : %M : %S
 %I : %M : %S %p
+%S-QHP>
 %Z/nJ?
 %b %d %H : %M : %S %Y
 %d / %m / %y
@@ -75,6 +77,7 @@ $iMBm
 &uo r
 ' is not a number.
 ',=?k
+'7D`D0
 ( 8PX
 ('8PW
 (A^A]^[
@@ -111,7 +114,6 @@ $iMBm
 )t$`3
 )|$0H
 )|B?d!
-*8$@t7l
 *9Z9N
 *StO9>T
 *uXI;
@@ -411,13 +413,15 @@ $iMBm
 211007000000Z
 220323000000Z
 220329000000Z
-220602205012Z0/
+220609000000Z
+220614225725Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -427,17 +431,17 @@ $iMBm
 3A8A#
 3T$(H
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6({wyyj:
 6*f(_
 6D8\$`u
 6I]Dc
 6OB,n_
-6d`(P~
-6qZ~zK
 700PP
 700WP
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8*u;I
 8-uCH
 8-uGH
@@ -471,6 +475,7 @@ $iMBm
 9WP~KM
 9\$0u
 9^ t"H
+9^o^"
 9_P~+E3
 9_P~,E3
 9_P~OE3
@@ -483,7 +488,6 @@ $iMBm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-:i1HaR
 :u,f9Q
 ;.u1L
 ;:u#H
@@ -511,6 +515,7 @@ $iMBm
 =WIDATx
 =imb;D
 =rIQU
+>0<0:
 >KpP`
 >Mp$d
 >ffffff
@@ -859,6 +864,7 @@ DeleteUmsThreadContext
 DequeueUmsCompletionListItems
 Device Calibration is invalid (207)
 Device is not calibrated (206)
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -900,6 +906,7 @@ ExecuteUmsThread
 ExitProcess
 Extra non-whitespace after JSON value.
 F(LcF I
+F9hHd
 F>qUxv
 Factory Function Not Found (104)
 February
@@ -1252,6 +1259,7 @@ Missing '}' or object member name
 Monday
 MultiByteToWideChar
 N3`d?
+N7{I4	
 N>O=I9
 NAN(IND)
 NAN(SNAN)
@@ -1284,7 +1292,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDS=
+RRe+]
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1295,7 +1303,6 @@ RegisterWaitForSingleObject
 ReleaseSRWLockExclusive
 ReleaseSemaphore
 ResetEvent
-Rn .`P
 RoInitialize
 RoUninitialize
 RtlCaptureContext
@@ -1387,6 +1394,7 @@ TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
+U7r4kB
 U8D8;A
 UA>N0Wl
 UATAUAVAWH
@@ -1691,8 +1699,6 @@ Valve Corp.1
 VirtualAlloc
 VirtualFree
 VirtualProtect
-Vl|:y(J
-W"XdT
 W0;Ct~ZH
 W8HcH
 WATAUAVAWH
@@ -1780,7 +1786,6 @@ Zod(^?
 ^RfN>
 ^fD9(H
 _(H9n
-_A Fo
 _C5D#
 __based(
 __cdecl
@@ -1907,7 +1912,6 @@ destination address required
 device or resource busy
 directory not empty
 double out of Int range
-dq?1m
 e+000
 e,>~^
 e0A^A]A\_^[]
@@ -1999,10 +2003,10 @@ hA_A^A]A\_^][
 hPP`*
 host unreachable
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-h{VZLI
 i,MFey<e
 iG8O(
 identifier removed
@@ -2068,6 +2072,7 @@ l*JHD
 ldexp
 log10
 lq%&1T
+m0k0$
 map/set<T> too long
 message size
 n03>Pu
@@ -2276,6 +2281,7 @@ unfD9A
 unknown error
 uoA8F
 upE8N
+upQ]X
 uxHcOP
 uzKs@>
 u|fD9I
@@ -2297,6 +2303,7 @@ wFHcN
 wXJR*
 wrong protocol type
 www.digicert.com1!0
+www.digicert.com1$0"
 x ATAVAWH
 x AUAVAWH
 x AVAWE3
@@ -2364,6 +2371,7 @@ zwom}
 |$`CI
 |$h9i
 |$h9w
+|@N3>
 |Lu?c
 |TBc4
 |^4#W,

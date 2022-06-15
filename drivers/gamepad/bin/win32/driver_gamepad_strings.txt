@@ -1,9 +1,8 @@
 	!s99
  %41g
 !hn7!
-#v~UM
-%%/mM
 ',=?k
+'7D`D0
 (f*^[0
 *9Z9N
 +Xt@(
@@ -105,14 +104,15 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602204918Z0/
+220609000000Z
+220614225749Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2Uh><Ot
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 324C4
 330314235959Z0L1
 360428235959Z0i1
@@ -128,11 +128,10 @@
 4$4H4T4\4|4
 4I4R4c4o4{4
 4[4~4
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5	6D6Y6b6n6
-5 %M	H
 5+545?5F5f5l5r5x5~5
 5,5P5\5d5
-5-deX
 585E5O5Y5f5s5y5
 5Genu
 5b5s5
@@ -149,13 +148,13 @@
 7/8X8g8z8
 70503
 787X7t7x7
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8!8<8R8[8`8j8t8~8
 8%80868<8C8
 8(9,909H9L9
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9!9&9-929>9`9w9
-9!u%e
 9*;V;c;
 9p9}9
 :":.:P:g:p:y:
@@ -177,6 +176,7 @@
 =rIQU
 > >$>(>0>H>X>\>l>p>t>x>
 >!>*>5>
+>0<0:
 >Mp$d
 ?	?)?n?t?
 ? ?$???D?Q?V?`?e?
@@ -193,6 +193,7 @@ Bellevue1
 CloseHandle
 CreateEventW
 DeleteCriticalSection
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -208,6 +209,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 HmdDriverFactory
+I)>65
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -282,16 +284,15 @@ TlsFree
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
-V[&#aL	
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+WZNNn
 WakeAllConditionVariable
 Washington1
 Y9"SD
 Y__^[
 [K]taM?
-\p2RKs
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -331,7 +332,6 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
-`._@M~	m
 `.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -343,22 +343,26 @@ c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driv
 driver_gamepad.dll
 e,>~^
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+m0k0$
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
+p	%2N
 string too long
 terminate
 uCVj@
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
+www.digicert.com1$0"
 x]~\6
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
@@ -370,6 +374,7 @@ x]~\6
 {gamepad}/icons/gamepad_status_standby.png
 {gamepad}/input/gamepad_profile.json
 {un'%
+|@N3>
 |Lu?c
 }LuHO
 ~t&LN

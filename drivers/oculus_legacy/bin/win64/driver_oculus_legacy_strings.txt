@@ -1,13 +1,15 @@
 	!s99
+	bQ_#1*
     A
  %41g
  (Camera)
+ -A0\l
  9D$D
  A__^
  H3E H3E
 !hn7!
-%zH5J
 ',=?k
+'7D`D0
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -17,7 +19,6 @@
 (t$pH
 )D$ H
 )\$pD
-)c@ZA ]
 )d$`D
 )t$pu.H
 *9Z9N
@@ -89,28 +90,32 @@
 0w0c1
 0}0i1
 130801120000Z
-1Ic7k7#
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220602205519Z0/
+220609000000Z
+220614230410Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3E1	.;!
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -127,6 +132,7 @@
 ;k sDH
 <0:08
 =rIQU
+>0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
@@ -177,6 +183,7 @@ D9H s
 D;A s
 D;I s
 DeleteCriticalSection
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -184,6 +191,7 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E^gK]Yx
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
@@ -266,7 +274,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS4
+RSDSbr
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -326,8 +334,8 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
-\,e<L
 ]J<0"0i3
+]Xe[|
 ][OculusDirect] Begin AcquireSync
 _Camera
 _Cnd_destroy_in_situ
@@ -385,12 +393,14 @@ getenv
 gfffffffH
 headset
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
+m0k0$
 malloc
 map/set<T> too long
 memcmp
@@ -400,6 +410,7 @@ memset
 n\tuH
 ntelD
 oculus
+ojm>AI
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
 ovr_ConfigureTracking
@@ -461,10 +472,10 @@ tXfff
 tdh.dll
 terminate
 tkH97t	H
-uK{070%
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
+www.digicert.com1$0"
 x]~\6
 z(uMH
 {ERR-001}
@@ -479,7 +490,7 @@ z(uMH
 {un'%
 |$ AVH
 |$8I;
+|@N3>
 |Lu?c
 }LuHO
-~>Z01
 ~t&LN

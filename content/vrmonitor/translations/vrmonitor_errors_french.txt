@@ -613,7 +613,7 @@
 "Popover_Off_Base_Action" "Plus d'informations"
 "Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=french#base-stations"
 
-"Popover_Off_Tracker_Header" "Tracker non détecté"
+"Popover_Off_Tracker_Header" "Capteur non détecté"
 "Popover_Off_Tracker_Action" "Plus d'informations"
 "Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
 
@@ -625,7 +625,7 @@
 "Popover_NotReady_Controller_Header" "Contrôleur indisponible"
 "Popover_NotReady_Controller_Description" "Assurez-vous qu'il est allumé et proche."
 "Popover_NotReady_Base_Header" "Station de base indisponible"
-"Popover_NotReady_Tracker_Header" "Tracker indisponible"
+"Popover_NotReady_Tracker_Header" "Capteur indisponible"
 "Popover_Pose_Invalid_Header" "Périphérique actif"
 "Popover_Pose_Invalid_Description" "La position de ce périphérique inconnu est détectée."
 "Popover_Pose_Invalid_Action" "Plus d'informations"
@@ -643,7 +643,7 @@
 "Popover_Pose_Base_Action" "Identifier la station de base"
 "Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
 
-"Popover_Pose_Tracker_Header" "Tracker actif"
+"Popover_Pose_Tracker_Header" "Capteur actif"
 "Popover_Pose_Tracker_Description" "La position de ce périphérique est détectée."
 "Popover_NoPose_Invalid_Header" "Position non détectée"
 "Popover_NoPose_Invalid_Description" "La position de ce périphérique inconnu n'est pas détectée."
@@ -678,8 +678,8 @@
 "Popover_Standby_Controller_Description" "Bougez le contrôleur pour le sortir de veille."
 "Popover_Standby_Base_Header" "Station de base en veille"
 "Popover_Standby_Base_Description" "Commencez à utiliser la VR pour sortir cette station de base de veille."
-"Popover_Standby_Tracker_Header" "Tracker en veille"
-"Popover_Standby_Tracker_Description" "Bougez votre tracker pour le sortir de veille."
+"Popover_Standby_Tracker_Header" "Capteur en veille"
+"Popover_Standby_Tracker_Description" "Bougez votre capteur pour le sortir de veille."
 "Popover_LowBattery_HMD_Header" "Batterie du casque faible"
 "Popover_LowBattery_HMD_Description" "La batterie de ce casque est faible."
 "Popover_LowBattery_Controller_Header" "Batterie du contrôleur faible"
@@ -687,8 +687,8 @@
 "Popover_LowBattery_Controller_Action" "Identifier le contrôleur"
 "Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
-"Popover_LowBattery_Tracker_Header" "Batterie du tracker faible"
-"Popover_LowBattery_Tracker_Description" "La batterie de ce tracker est faible."
+"Popover_LowBattery_Tracker_Header" "Batterie du capteur faible"
+"Popover_LowBattery_Tracker_Description" "La batterie de ce capteur est faible."
 "Popover_BaseStationNoPowerManagement_Header" "Gestion de l'alimentation"
 "Popover_BaseStationNoPowerManagement_Description" "Cette station de base n'est pas compatible avec une gestion de l'alimentation à distance."
 "Popover_BaseStationNoPowerManagement_Action" "Plus d'informations"

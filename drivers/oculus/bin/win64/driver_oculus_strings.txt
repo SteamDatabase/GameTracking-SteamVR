@@ -65,7 +65,6 @@
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !hn7!
-!yFie
 " not found in the scene.
 """""""
 "%/28;=#$019:>?
@@ -81,12 +80,14 @@
 "scenes" object not found in .gltf or not an array type
 "spot" is not a JSON object.
 #*1892+$
+#6@mV
 #9i0t
 #?RADIANCE
 #?RGBE
 #D9c0t
 #D9{0t
 #oculus_requested_quit
+$e6>OK
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -119,6 +120,7 @@ $w!Hc
 ' value is not an integer type.
 ',=?k
 '.5<=6/7>????????????????
+'7D`D0
 '9k0t
 'D9c0t
 '[', '{', or a literal
@@ -207,6 +209,7 @@ $w!Hc
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *9Z9N
+*sF`4
 *uXI;
 +Xt@(
 +o'q)}
@@ -459,7 +462,8 @@ $w!Hc
 211007000000Z
 220323000000Z
 220329000000Z
-220602205152Z0/
+220609000000Z
+220614230004Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -467,12 +471,14 @@ $w!Hc
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 69k0t1
@@ -480,6 +486,7 @@ $w!Hc
 6OB,n_
 6p7M=:P_:}u
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8A^A\
 8D$!t
@@ -508,6 +515,7 @@ $w!Hc
 ;K sUH
 ;S sAH
 ;S sDH
+;t]#]_H
 < t+<
 </u#H
 <0:08
@@ -521,6 +529,7 @@ $w!Hc
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
+>0<0:
 >Mp$d
 >W`.]tB3?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -741,6 +750,7 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
+B*eLij
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -783,7 +793,8 @@ CT$pH
 C\$0D
 C\$0H
 C\$0L
-C\$0L9%
+C\$0L9%4
+C\$0L9%H
 C\$0M
 C\$PE
 C\$PH
@@ -900,6 +911,7 @@ Default audio recording device: %s
 DeleteCriticalSection
 Detected new Oculus Touch controller: %d/%d
 Detected new Oculus tracker: %d
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -1078,7 +1090,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -1175,7 +1187,8 @@ L$`fD
 L$pE2
 L$pE3
 L$pHcQ
-L95:Z
+L95e]
+L95g\
 L9k8v
 L9t$@
 L9|$p
@@ -1211,7 +1224,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 N I9N(
 N0H9Q
-NA[z+
 NORMAL
 NPH9Q
 Neither required `bufferView` nor `uri` defined for image[
@@ -1354,7 +1366,6 @@ TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
 Tp=9y>m0_D@H_
-U!7n)Y
 U0H9U8t
 UATAUAVAWH
 UAVAWH
@@ -1417,13 +1428,12 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
-W-(O	
+W-xO	
 WATAUAVAWH
 WAVAWH
 WINMM.dll
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
-W]P=}
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -1436,9 +1446,9 @@ X-E3
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
+Y^aku
 Z9k0tUD
 ZL$Xf
-ZoOJc
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1503,6 +1513,7 @@ ZoOJc
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ]g@8yhu
+]|=5b&
 ^9k0tWD
 _Camera
 _Cnd_destroy
@@ -1684,6 +1695,7 @@ bulgarian
 byteLength
 byteOffset
 byteStride
+b{j)LA
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
@@ -1778,6 +1790,7 @@ french
 fseek
 fsetpos
 fwrite
+g$K{D
 g9k0t_D
 generator
 german
@@ -1785,12 +1798,12 @@ gfffffffH
 gfffffffH+
 gfffffffI
 greek
-h4(r%K
 hand_right_poses.glb
 handlers
 headset
 height
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -1919,6 +1932,7 @@ left_controller
 lights
 list<T> too long
 localeconv
+m0k0$
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -2165,6 +2179,9 @@ shaders/d3d11/distort_geom_constant_ps.fxo
 shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_curved_vs.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
+shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
+shaders/d3d11/distort_geom_floor_reflect_ps.fxo
+shaders/d3d11/distort_geom_floor_vs.fxo
 shaders/d3d11/distort_geom_fresnel_ps.fxo
 shaders/d3d11/distort_geom_fresnel_vs.fxo
 shaders/d3d11/distort_geom_grid_ps.fxo
@@ -2174,7 +2191,9 @@ shaders/d3d11/distort_geom_hard_bounds_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_squares_ps.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_squares_vs.fxo
 shaders/d3d11/distort_geom_horizon_ps.fxo
+shaders/d3d11/distort_geom_ltc_diff_ps.fxo
 shaders/d3d11/distort_geom_ltc_ps.fxo
+shaders/d3d11/distort_geom_ltc_spec_ps.fxo
 shaders/d3d11/distort_geom_motes_ps.fxo
 shaders/d3d11/distort_geom_motes_vs.fxo
 shaders/d3d11/distort_geom_multitap_ps.fxo
@@ -2182,6 +2201,7 @@ shaders/d3d11/distort_geom_pbr_ps.fxo
 shaders/d3d11/distort_geom_ps.fxo
 shaders/d3d11/distort_geom_ptnorm_curved_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_ptnorm_curved_vs.fxo
+shaders/d3d11/distort_geom_ptnorm_ortho_out_vs.fxo
 shaders/d3d11/distort_geom_ptnorm_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_ptnorm_vs.fxo
 shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
@@ -2194,6 +2214,8 @@ shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_vignette_ps.fxo
 shaders/d3d11/distort_geom_vignette_vs.fxo
 shaders/d3d11/distort_geom_vs.fxo
+shaders/d3d11/distort_geom_write_norm_ps.fxo
+shaders/d3d11/distort_geom_write_norm_vs.fxo
 shaders/d3d11/distort_none_ps.fxo
 shaders/d3d11/distort_none_ps_gamma.fxo
 shaders/d3d11/distort_none_ps_layered.fxo
@@ -2395,12 +2417,11 @@ translation
 true literal
 turkish
 t|SUVH
-u)|=O
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
-uTL9%O
+uTL9%
 ua_ua
 ukranian
 unexpected 
@@ -2445,6 +2466,7 @@ wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
+www.digicert.com1$0"
 x AVH
 xA^A\_^][
 x]~\6
@@ -2505,6 +2527,7 @@ znear
 |$XuMH
 |$`H;
 |$`M+
+|@N3>
 |LL\t
 |Lu?c
 }LuHO

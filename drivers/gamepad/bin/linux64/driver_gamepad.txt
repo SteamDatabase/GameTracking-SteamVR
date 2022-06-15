@@ -949,7 +949,7 @@
  putc
  putwc
  r CSWTCH.100
- r CSWTCH.211
+ r CSWTCH.213
  r SteamThreadTools::CThreadSpinRWLock::TryLockForWrite(unsigned int)::oldValue
  r SteamThreadTools::CThreadSpinRWLock::UnlockWrite()::newValue
  r __FRAME_END__
@@ -1177,6 +1177,7 @@
  sched_get_priority_min
  sched_getparam
  sched_getscheduler
+ sched_setaffinity
  sched_setscheduler
  sched_yield
  semctl

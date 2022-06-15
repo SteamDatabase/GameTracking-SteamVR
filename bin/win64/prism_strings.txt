@@ -307,6 +307,7 @@ $II+L$`
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
+'7D`D0
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -352,6 +353,7 @@ $II+L$`
 ********** Red ( nLoopCount++ > 1000 )!
 *9Z9N
 *HcT$PH
++:nnb
 +Xt@(
 +o'q)}
 , last executing in 
@@ -529,29 +531,32 @@ $II+L$`
 211007000000Z
 220323000000Z
 220329000000Z
-220602204845Z0/
+220609000000Z
+220614225544Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2Rl6*
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
-33`Om
 33s?+
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-5( /f&
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 t"L
 8 u'L
+89AUV
+8:8Rf
 8A^A\
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -572,6 +577,7 @@ $II+L$`
 <P)9Y
 <unknown>
 =rIQU
+>0<0:
 >Mp$d
 >ffv?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
@@ -988,6 +994,7 @@ D;C sIH
 DebugMessengerCallback
 DeleteCriticalSection
 DeviceGC
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -1409,6 +1416,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDSyF
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1574,6 +1582,7 @@ VK_KHR_surface
 VK_KHR_swapchain
 VK_LAYER_KHRONOS_validation
 VK_NV_compute_shader_derivatives
+VKmDS
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
@@ -1614,6 +1623,7 @@ XA_A][]
 XA_A^A]_
 Y9"SD
 YUV conversion - %s
+Yh\51
 Yl$ M
 Yl$4E
 [ AVH
@@ -1743,6 +1753,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 atanf
+b?a9qD
 bad allocation
 bad array new length
 bad conversion
@@ -1816,7 +1827,6 @@ deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
 e,>~^
-eS\oH:`j
 effffff
 fabsf( *pSecondsSinceVsync ) < 1000.0f
 facet::CVkTimestampQueryPool<2>::Create
@@ -1845,6 +1855,7 @@ gfffffffO
 graphicsCommandSet.Valid()
 hA_A^A]A\_^[]
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -1876,6 +1887,7 @@ l$XL9
 l$xHc
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
+m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
@@ -1989,7 +2001,6 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
-q@{:Ok'
 r,fff
 renderdoc.dll
 result == ALVR_OK
@@ -2053,7 +2064,6 @@ timeSetEvent
 timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
-u@4^n
 uAfff
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
@@ -2520,17 +2530,16 @@ vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
-vm!2z
 vr-marker,frame_end,type,application
 vulkan-1.dll
 wcsrchr
 wcsstr
 www.digicert.com1!0
+www.digicert.com1$0"
 xA_A^A]A\_^[]
 x]~\6
 yxxxxxxxH
 yxxxxxxxI+
-z]1Urt
 {pH;{xw?
 {un'%
 |$ ATAVAWH
@@ -2565,11 +2574,11 @@ z]1Urt
 |$xIk
 |$xMi
 |6hE3
+|@N3>
 |Lu?c
 }(M98t
 }LuHO
 }`H+}XH
-}o-Z9
 }wH9S
 ~t&LN
 ~xM+~pI

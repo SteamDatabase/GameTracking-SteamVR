@@ -1250,6 +1250,7 @@
  t CVRPathRegistry_Public::GetVRPathRegistryFilename() [clone .cold]
  t CVRPathRegistry_Public::InitSteamAppId()
  t CVRPathRegistry_Public::InitSteamAppId() [clone .cold]
+ t CVRPathRegistry_Public::IsChildOfVRServer()
  t CVRPathRegistry_Public::IsSteamVRMain()
  t CVRPathRegistry_Public::ToJsonString(std::string&)
  t CVRPathRegistry_Public::ToJsonString(std::string&) [clone .cold]

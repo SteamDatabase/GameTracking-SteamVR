@@ -77,9 +77,9 @@
                 "controller_axis":2,
                 "controller_axis_component":0,
 		        "trigger_path" : "/input/grip",
-                "value_mapping": [0.0,15.0],    
-                "pivot": [-0.01, 0.008, 0.075],
-                "axis": [0.0, 1.0, 0.0]
+                "value_mapping": [0.0, -4.5],    
+                "pivot": [ 0.000325, -0.058975, 0.077072 ],
+                "axis": [0.0, 0.0, 1.0]
             },
             "component_local" : {
                 "origin": [-0.017476, -0.003904, 0.091955],

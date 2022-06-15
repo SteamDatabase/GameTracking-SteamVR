@@ -512,6 +512,8 @@ message CVRMsg_ApplicationInfo_Manifest {
 	optional bool is_hidden = 22 [default = false];
 	optional uint32 last_played_time = 23 [default = 0];
 	optional int32 library_priority = 24 [default = 0];
+	optional bool starts_theater_mode = 25 [default = false];
+	optional bool show_overlay_in_quicklaunch = 26 [default = false];
 }
 
 message CVRMsg_ApplicationInfo_Options {

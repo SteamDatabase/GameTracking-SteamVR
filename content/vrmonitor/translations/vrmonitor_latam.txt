@@ -313,7 +313,7 @@
 "Settings_StatusWindowAlwaysOnTop_Text" "Pantalla siempre visible"
 "Settings_StatusWindowMinimizeToTray_Text" "Minimizar a la bandeja del sistema"
 "Settings_StatusWindowHidePopups_Text" "Suprimir advertencias y alertas de RV cuando esté minimizado"
-"Settings_HomeAppCheck" "Usar Inicio de SteamVR"
+"Settings_HomeAppCheck" "Usar SteamVR Home"
 "Settings_HomeAppDesc" "Disfruta de entornos virtuales, características sociales y mucho más."
 "Settings_NightModeCheck" "Modo nocturno"
 "Settings_NightModeDesc" "Reduce el brillo del visor hasta las 5 a. m. (o hasta que se reinicie SteamVR)."

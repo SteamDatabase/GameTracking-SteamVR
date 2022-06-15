@@ -1,10 +1,12 @@
 	!s99
-	MX51P
  %41g
  A__^
  H3E H3E
 !hn7!
+$'6W3`
+&a]T=
 ',=?k
+'7D`D0
 (D$ f
 (f*^[0
 (|$pL
@@ -98,29 +100,33 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602205133Z0/
+220609000000Z
+220614225910Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2ROm7
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
 <0:08
 =rIQU
+>0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
@@ -142,6 +148,7 @@ CreateEventW
 D$8H9
 D8{0t
 DeleteCriticalSection
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -203,7 +210,6 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QI@{a
 QueryPerformanceCounter
 RaiseException
 RtlCaptureContext
@@ -307,12 +313,14 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driv
 driver_gamepad.dll
 e,>~^
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
+m0k0$
 malloc
 map/set<T> too long
 memcpy
@@ -321,6 +329,7 @@ memset
 ntelD
 p WAVAWH
 string too long
+t!N4Aw
 t$ AVH
 t$ AWH
 t$ WH
@@ -330,6 +339,7 @@ terminate
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
+www.digicert.com1$0"
 x]~\6
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
@@ -342,6 +352,7 @@ x]~\6
 {gamepad}/input/gamepad_profile.json
 {un'%
 |$ AVH
+|@N3>
 |Lu?c
 }LuHO
 ~t&LN

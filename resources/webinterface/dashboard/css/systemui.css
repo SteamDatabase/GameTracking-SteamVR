@@ -1807,6 +1807,11 @@ div.BindingCalloutModifierIcon
 	--size: var(--control-bar-icon-size);
 }
 
+.DashboardMain .ControlBar .ControlBarGroup.Small .ControlBarButton.CenterImageLarge > .Icon
+{
+	--size: var(--control-bar-icon-size-large);
+}
+
 .DashboardMain .ControlBar .ControlBarGroup.Large .ControlBarButton.Store > .Icon
 {
 	margin-right: 25%;

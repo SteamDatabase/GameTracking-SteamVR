@@ -4,15 +4,15 @@
  */ !(function (e) {
   function t(t) {
     for (
-      var n, s, a = t[0], l = t[1], d = t[2], u = 0, p = [];
-      u < a.length;
-      u++
+      var n, s, a = t[0], l = t[1], d = t[2], c = 0, p = [];
+      c < a.length;
+      c++
     )
-      (s = a[u]),
+      (s = a[c]),
         Object.prototype.hasOwnProperty.call(i, s) && i[s] && p.push(i[s][0]),
         (i[s] = 0);
     for (n in l) Object.prototype.hasOwnProperty.call(l, n) && (e[n] = l[n]);
-    for (c && c(t); p.length; ) p.shift()();
+    for (u && u(t); p.length; ) p.shift()();
     return o.push.apply(o, d || []), r();
   }
   function r() {
@@ -82,7 +82,7 @@
     l = a.push.bind(a);
   (a.push = t), (a = a.slice());
   for (var d = 0; d < a.length; d++) t(a[d]);
-  var c = l;
+  var u = l;
   o.push(["HaPb", 0]), r();
 })({
   "/i/y": function (e, t, r) {
@@ -248,10 +248,10 @@
         z: t.z + e * (r.z - t.z),
       };
     }
-    function c(e, t) {
+    function u(e, t) {
       return { x: e.x - t.x, y: e.y - t.y };
     }
-    function u(e, t) {
+    function c(e, t) {
       return { x: e.x - t.x, y: e.y - t.y, z: e.z - t.z };
     }
     function p(e, t) {
@@ -397,11 +397,11 @@
         if (e.length > 0) return e;
       }
     }
-    function P(e, t) {
+    function M(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) return parseFloat(r);
     }
-    function M(e, t) {
+    function P(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) return parseInt(r);
     }
@@ -424,7 +424,7 @@
       let r = { type: e, properties: {} };
       return (
         t.id && (r.properties.id = z(t.id)),
-        (r.properties.sgid = M(t, "sgid")),
+        (r.properties.sgid = P(t, "sgid")),
         r
       );
     }
@@ -440,6 +440,7 @@
                 (i.properties.translation = x(t, "translation")),
                 (i.properties.rotation = x(t, "rotation")),
                 (i.properties.scale = x(t, "scale")),
+                (i.properties["curvature-pitch"] = M(t, "curvature-pitch")),
                 (i.properties["parent-path"] = O(t, "parent-path")),
                 (i.properties["parent-origin"] = O(t, "parent-origin")),
                 (i.properties["parent-id"] = F(t, "parent-id"));
@@ -452,31 +453,31 @@
               break;
             case "VSG-ELASTIC-HEAD-TRANSFORM":
               (i = T("elasticheadtransform", t)),
-                (i.properties["start-angle-threshold"] = P(
+                (i.properties["start-angle-threshold"] = M(
                   t,
                   "start-angle-threshold"
                 )),
-                (i.properties["stop-angle-threshold"] = P(
+                (i.properties["stop-angle-threshold"] = M(
                   t,
                   "stop-angle-threshold"
                 )),
-                (i.properties["ease-in-time"] = P(t, "ease-in-time")),
-                (i.properties["ease-in-power"] = P(t, "ease-in-power")),
-                (i.properties["ease-out-angle-threshold"] = P(
+                (i.properties["ease-in-time"] = M(t, "ease-in-time")),
+                (i.properties["ease-in-power"] = M(t, "ease-in-power")),
+                (i.properties["ease-out-angle-threshold"] = M(
                   t,
                   "ease-out-angle-threshold"
                 )),
-                (i.properties["ease-out-power"] = P(t, "ease-out-power")),
-                (i.properties["min-angular-velocity"] = P(
+                (i.properties["ease-out-power"] = M(t, "ease-out-power")),
+                (i.properties["min-angular-velocity"] = M(
                   t,
                   "min-angular-velocity"
                 )),
-                (i.properties["max-angular-velocity"] = P(
+                (i.properties["max-angular-velocity"] = M(
                   t,
                   "max-angular-velocity"
                 )),
                 (i.properties["lock-to-horizon"] = w(t, "lock-to-horizon")),
-                (i.properties["translation-behavior"] = M(
+                (i.properties["translation-behavior"] = P(
                   t,
                   "translation-behavior"
                 ));
@@ -484,16 +485,16 @@
             case "VSG-LINE":
               (i = T("line", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
-                (i.properties.thickness = P(t, "thickness")),
-                (i.properties["start-buffer"] = P(t, "start-buffer")),
-                (i.properties["end-buffer"] = P(t, "end-buffer"));
+                (i.properties.thickness = M(t, "thickness")),
+                (i.properties["start-buffer"] = M(t, "start-buffer")),
+                (i.properties["end-buffer"] = M(t, "end-buffer"));
               break;
             case "VSG-LINE-CONSTRAINED-TRANSFORM":
               (i = T("line-constrained-transform", t)),
                 (i.properties["target-id"] = F(t, "target-id")),
                 (i.properties["source-id"] = F(t, "source-id")),
-                (i.properties["source-distance"] = P(t, "source-distance")),
-                (i.properties["target-limit"] = P(t, "target-limit"));
+                (i.properties["source-distance"] = M(t, "source-distance")),
+                (i.properties["target-limit"] = M(t, "target-limit"));
               break;
             case "VSG-CALLOUT-TRANSFORM":
               (i = T("callout-transform", t)),
@@ -504,9 +505,9 @@
               break;
             case "VSG-PIN-TO-VIEW-TRANSFORM":
               (i = T("pin-to-view-transform", t)),
-                (i.properties["offscreen-z-depth"] = P(t, "offscreen-z-depth")),
-                (i.properties["off-axis-limit"] = P(t, "off-axis-limit")),
-                (i.properties["transition-limit"] = P(t, "transition-limit"));
+                (i.properties["offscreen-z-depth"] = M(t, "offscreen-z-depth")),
+                (i.properties["off-axis-limit"] = M(t, "off-axis-limit")),
+                (i.properties["transition-limit"] = M(t, "transition-limit"));
           }
           return [n, i];
         })(e, t),
@@ -530,8 +531,8 @@
     }
     let N,
       k,
-      B,
       A,
+      B,
       V = [],
       U = null,
       L = null,
@@ -559,7 +560,7 @@
         : N;
     }
     function q() {
-      A = !0;
+      B = !0;
     }
     function j(e) {
       e != H && ((H = e), K());
@@ -574,7 +575,7 @@
               let t = {
                 type: "root",
                 rootproperties: {
-                  relatchDashboardTransform: A,
+                  relatchDashboardTransform: B,
                   sceneCompositeMult: H,
                 },
                 children: E({ currentPanel: null, bShouldAbort: !1 }, e),
@@ -582,7 +583,7 @@
               L ||
                 (console.log("Initializing sg_mailbox"),
                 (L = new s()),
-                yield L.Init("sg_mailbox", B));
+                yield L.Init("sg_mailbox", A));
               let r = {
                 type: "update_scene_graph",
                 owning_overlay_key: G(),
@@ -592,7 +593,7 @@
               L.SendMessage("vrcompositor_systemlayer", r),
                 (U = null),
                 (V = []),
-                (A = !1);
+                (B = !1);
             }),
           0
         ));
@@ -784,7 +785,7 @@
         return (r.properties.opacity = this.props.value), [e, r];
       }
     }
-    var oe, se, ae, le, de, ce, ue, pe, he, me, _e;
+    var oe, se, ae, le, de, ue, ce, pe, he, me, _e;
     Object(n.b)([o.a], ie.prototype, "buildNode", null),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
@@ -833,6 +834,7 @@
             translation: n,
             rotation: i,
             scale: o,
+            "curvature-pitch": this.props.curvature_pitch,
             "parent-path": this.props.parent_path,
             "parent-origin": oe[this.props.parent_origin],
             "parent-id": this.props.parent_id,
@@ -1047,13 +1049,13 @@
           "object" == typeof this.props.origin
             ? X(this.props.origin, { x: 0, y: 0 })
             : ye(this.props.origin);
-        const c = this.props.overlay_key,
-          u = G();
+        const u = this.props.overlay_key,
+          c = G();
         return (
-          c && c.length > 0
-            ? (l.properties.key = c)
-            : u
+          u && u.length > 0
             ? (l.properties.key = u)
+            : c
+            ? (l.properties.key = c)
             : (l.properties.overlay_handle = (function () {
                 var e;
                 return null === (e = VRHTML) || void 0 === e
@@ -1216,7 +1218,7 @@
             (o = this.props.web_secret),
             (N = n),
             (k = i),
-            (B = o),
+            (A = o),
             console.log("Setting owning overlay key to " + n));
       }
       componentWillUnmount() {
@@ -1388,7 +1390,7 @@
     ),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
-      })(ce || (ce = {}));
+      })(ue || (ue = {}));
     class De extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
@@ -1425,6 +1427,39 @@
     Object(n.b)([o.a], De.prototype, "buildNode", null);
     class Re extends $ {
       constructor(e) {
+        super(e), super.setBuildNodeOverride(this.buildNode);
+      }
+      getNodeType() {
+        return "ltcquad";
+      }
+      buildNode(e, t) {
+        const r = this.createSgNode(t);
+        if (
+          ((r.properties.width = this.props.width),
+          (r.properties.height = this.props.height),
+          (r.properties["near-z"] = this.props["near-z"]),
+          (r.properties["far-z"] = this.props["far-z"]),
+          (r.properties.debug = this.props.debug),
+          this.props.diffuse)
+        ) {
+          let e = this.props.diffuse;
+          (r.properties["diffuse-resolution"] = e.resolution),
+            (r.properties["diffuse-size"] = e.size);
+        }
+        if (this.props.specular) {
+          let e = this.props.specular;
+          if ("string" == typeof e.color) r.properties.color = e.color;
+          else {
+            let t = Q(e.color, { r: 0, g: 0, b: 0 });
+            r.properties.color = [t.r, t.g, t.b];
+          }
+        }
+        return [e, r];
+      }
+    }
+    Object(n.b)([o.a], Re.prototype, "buildNode", null);
+    class Ce extends $ {
+      constructor(e) {
         super(e);
       }
       internalRender() {
@@ -1436,7 +1471,7 @@
         });
       }
     }
-    class Ce extends $ {
+    class Ie extends $ {
       constructor(e) {
         super(e);
       }
@@ -1452,7 +1487,7 @@
         );
       }
     }
-    class Ie extends $ {
+    class xe extends $ {
       constructor(e) {
         super(e),
           (this.m_latchedPosition = null),
@@ -1515,12 +1550,12 @@
         );
       }
     }
-    Object(n.b)([o.a], Ie.prototype, "buildNode", null);
+    Object(n.b)([o.a], xe.prototype, "buildNode", null);
     !(function (e) {
       (e[(e.LockedToParent = 0)] = "LockedToParent"),
         (e[(e.LockedToWorld = 1)] = "LockedToWorld");
-    })(ue || (ue = {}));
-    class xe extends $ {
+    })(ce || (ce = {}));
+    class Me extends $ {
       constructor(e) {
         super(e);
       }
@@ -1570,7 +1605,7 @@
         );
       }
     }
-    function Me() {
+    function we() {
       var e, t;
       return null !=
         (t = null === (e = VRHTML) || void 0 === e ? void 0 : e.Environment())
@@ -1608,7 +1643,7 @@
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
       })(_e || (_e = {}));
-    var we, Oe, Fe, Te, Ee, Ne, ke, Be, Ae, Ve, Ue, Le, He, We, ze, Ge, qe, je;
+    var Oe, Fe, Te, Ee, Ne, ke, Ae, Be, Ve, Ue, Le, He, We, ze, Ge, qe, je, Ke;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1627,11 +1662,11 @@
         (e[(e.Close = 14)] = "Close"),
         (e[(e.TakeFocus = 15)] = "TakeFocus"),
         (e[(e.HitTest = 16)] = "HitTest");
-    })(we || (we = {})),
+    })(Oe || (Oe = {})),
       (function (e) {
         (e[(e.Activated = 0)] = "Activated"),
           (e[(e.Deactivated = 1)] = "Deactivated");
-      })(Oe || (Oe = {})),
+      })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
           (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
@@ -1662,10 +1697,10 @@
           (e[(e.EnableControlBarKeyboard = 16777216)] =
             "EnableControlBarKeyboard"),
           (e[(e.EnableControlBarClose = 33554432)] = "EnableControlBarClose");
-      })(Fe || (Fe = {})),
+      })(Te || (Te = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-      })(Te || (Te = {})),
+      })(Ee || (Ee = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.TrackingSystemName_String = 1e3)] =
@@ -1972,7 +2007,7 @@
             "VendorSpecific_Reserved_End"),
           (e[(e.TrackedDeviceProperty_Max = 1e6)] =
             "TrackedDeviceProperty_Max");
-      })(Ee || (Ee = {})),
+      })(Ne || (Ne = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.HMD = 1)] = "HMD"),
@@ -1980,12 +2015,12 @@
           (e[(e.GenericTracker = 3)] = "GenericTracker"),
           (e[(e.TrackingReference = 4)] = "TrackingReference"),
           (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-      })(Ne || (Ne = {})),
+      })(ke || (ke = {})),
       (function (e) {
         (e[(e.Unknown = 0)] = "Unknown"),
           (e[(e.NVIDIA = 1)] = "NVIDIA"),
           (e[(e.AMD = 2)] = "AMD");
-      })(ke || (ke = {})),
+      })(Ae || (Ae = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.Starting = 1)] = "Starting"),
@@ -2002,16 +2037,16 @@
           (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
             "CouldntFindOrCreateClientOverlay"),
           (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-      })(Ae || (Ae = {})),
+      })(Ve || (Ve = {})),
       (function (e) {
         (e[(e.Normal = 0)] = "Normal"),
           (e[(e.Password = 1)] = "Password"),
           (e[(e.Submit = 2)] = "Submit");
-      })(Ve || (Ve = {})),
+      })(Ue || (Ue = {})),
       (function (e) {
         (e[(e.SingleLine = 0)] = "SingleLine"),
           (e[(e.MultipleLines = 1)] = "MultipleLines");
-      })(Ue || (Ue = {})),
+      })(Le || (Le = {})),
       (function (e) {
         (e[(e.LaserMouse = 1)] = "LaserMouse"),
           (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -2024,7 +2059,7 @@
             "DriverRequestsApplicationPause"),
           (e[(e.DriverRequestsReducedRendering = 128)] =
             "DriverRequestsReducedRendering");
-      })(Le || (Le = {})),
+      })(He || (He = {})),
       (function (e) {
         (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
           (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -2041,14 +2076,14 @@
           (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
           (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
           (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-      })(He || (He = {})),
+      })(We || (We = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
           (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
           (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
           (e[(e.Error = -1)] = "Error");
-      })(We || (We = {})),
+      })(ze || (ze = {})),
       (function (e) {
         (e[(e.TrackedControllerRole_Invalid = 0)] =
           "TrackedControllerRole_Invalid"),
@@ -2061,7 +2096,7 @@
           (e[(e.TrackedControllerRole_Treadmill = 4)] =
             "TrackedControllerRole_Treadmill"),
           (e[(e.TrackedControllerRole_Max = 5)] = "TrackedControllerRole_Max");
-      })(ze || (ze = {})),
+      })(Ge || (Ge = {})),
       (function (e) {
         (e[(e.Unknown = 0)] = "Unknown"),
           (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -2073,19 +2108,18 @@
           (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
           (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
           (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-      })(Ge || (Ge = {})),
+      })(qe || (qe = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(qe || (qe = {})),
+      })(je || (je = {})),
       (function (e) {
         (e[(e.Hostname = 0)] = "Hostname"),
           (e[(e.IP = 1)] = "IP"),
           (e[(e.Version = 2)] = "Version"),
           (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
-          (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate"),
-          (e[(e.SteamVR_Path = 5)] = "SteamVR_Path");
-      })(je || (je = {}));
-    class Ke extends I.Component {
+          (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
+      })(Ke || (Ke = {}));
+    class Xe extends I.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2093,7 +2127,7 @@
           try {
             let e = VRHTML.VRProperties.GetStringProperty(
               this.props.sDevicePath,
-              Ee.RenderModelName_String
+              Ne.RenderModelName_String
             );
             if (e) {
               let r = VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
@@ -2129,7 +2163,7 @@
         );
       }
     }
-    class Xe extends $ {
+    class Ze extends $ {
       constructor(e) {
         super(e);
       }
@@ -2141,7 +2175,7 @@
         );
       }
     }
-    class Ze extends $ {
+    class Qe extends $ {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2149,10 +2183,16 @@
         return "dashboardtransform";
       }
       buildNode(e, t) {
-        return [e, this.createSgNode(t)];
+        var r;
+        const n = this.createSgNode(t);
+        return (
+          (n.properties.continuous_relatch =
+            null != (r = this.props.bContinuousRelatch) && r),
+          [e, n]
+        );
       }
     }
-    Object(n.b)([o.a], Ze.prototype, "buildNode", null),
+    Object(n.b)([o.a], Qe.prototype, "buildNode", null),
       r.d(t, "c", function () {
         return s;
       }),
@@ -2162,196 +2202,202 @@
       r.d(t, "a", function () {
         return l;
       }),
-      r.d(t, "O", function () {
+      r.d(t, "Q", function () {
         return d;
       }),
-      r.d(t, "hb", function () {
-        return c;
-      }),
-      r.d(t, "ib", function () {
+      r.d(t, "jb", function () {
         return u;
       }),
-      r.d(t, "U", function () {
+      r.d(t, "kb", function () {
+        return c;
+      }),
+      r.d(t, "W", function () {
         return p;
       }),
-      r.d(t, "V", function () {
+      r.d(t, "X", function () {
         return h;
       }),
-      r.d(t, "M", function () {
+      r.d(t, "O", function () {
         return m;
       }),
-      r.d(t, "N", function () {
+      r.d(t, "P", function () {
         return _;
       }),
-      r.d(t, "I", function () {
+      r.d(t, "J", function () {
         return g;
       }),
-      r.d(t, "R", function () {
+      r.d(t, "T", function () {
         return f;
       }),
-      r.d(t, "T", function () {
+      r.d(t, "V", function () {
         return b;
       }),
       r.d(t, "b", function () {
         return y;
       }),
-      r.d(t, "J", function () {
+      r.d(t, "K", function () {
         return v;
       }),
-      r.d(t, "W", function () {
+      r.d(t, "Y", function () {
         return S;
       }),
       r.d(t, "h", function () {
         return D;
       }),
-      r.d(t, "L", function () {
+      r.d(t, "M", function () {
         return R;
       }),
-      r.d(t, "fb", function () {
+      r.d(t, "hb", function () {
         return C;
       }),
       r.d(t, "j", function () {
         return re;
       }),
-      r.d(t, "jb", function () {
+      r.d(t, "lb", function () {
         return ne;
       }),
-      r.d(t, "X", function () {
+      r.d(t, "Z", function () {
         return ie;
       }),
-      r.d(t, "S", function () {
+      r.d(t, "U", function () {
         return te;
       }),
-      r.d(t, "B", function () {
+      r.d(t, "C", function () {
         return oe;
       }),
-      r.d(t, "lb", function () {
+      r.d(t, "nb", function () {
         return ge;
       }),
-      r.d(t, "kb", function () {
+      r.d(t, "mb", function () {
         return fe;
       }),
       r.d(t, "f", function () {
         return W;
       }),
-      r.d(t, "cb", function () {
+      r.d(t, "eb", function () {
         return q;
       }),
-      r.d(t, "gb", function () {
+      r.d(t, "ib", function () {
         return j;
       }),
-      r.d(t, "Q", function () {
+      r.d(t, "S", function () {
         return K;
       }),
-      r.d(t, "eb", function () {
+      r.d(t, "gb", function () {
         return Se;
       }),
-      r.d(t, "u", function () {
-        return ce;
+      r.d(t, "v", function () {
+        return ue;
       }),
-      r.d(t, "db", function () {
+      r.d(t, "fb", function () {
         return De;
       }),
-      r.d(t, "P", function () {
+      r.d(t, "N", function () {
         return Re;
       }),
-      r.d(t, "bb", function () {
+      r.d(t, "R", function () {
         return Ce;
       }),
-      r.d(t, "Z", function () {
+      r.d(t, "db", function () {
         return Ie;
       }),
-      r.d(t, "s", function () {
-        return se;
-      }),
-      r.d(t, "t", function () {
-        return ae;
-      }),
-      r.d(t, "ab", function () {
-        return de;
-      }),
-      r.d(t, "Y", function () {
-        return ve;
-      }),
-      r.d(t, "G", function () {
+      r.d(t, "bb", function () {
         return xe;
       }),
-      r.d(t, "K", function () {
+      r.d(t, "t", function () {
+        return se;
+      }),
+      r.d(t, "u", function () {
+        return ae;
+      }),
+      r.d(t, "cb", function () {
+        return de;
+      }),
+      r.d(t, "ab", function () {
+        return ve;
+      }),
+      r.d(t, "H", function () {
+        return Me;
+      }),
+      r.d(t, "L", function () {
         return Pe;
       }),
       r.d(t, "e", function () {
-        return Ke;
-      }),
-      r.d(t, "d", function () {
         return Xe;
       }),
-      r.d(t, "k", function () {
+      r.d(t, "d", function () {
         return Ze;
       }),
-      r.d(t, "H", function () {
+      r.d(t, "k", function () {
+        return Qe;
+      }),
+      r.d(t, "I", function () {
         return pe;
       }),
       r.d(t, "i", function () {
-        return Me;
+        return we;
       }),
-      r.d(t, "q", function () {
+      r.d(t, "r", function () {
         return he;
       }),
-      r.d(t, "z", function () {
+      r.d(t, "A", function () {
         return me;
       }),
-      r.d(t, "A", function () {
+      r.d(t, "B", function () {
         return _e;
       }),
-      r.d(t, "ob", function () {
+      r.d(t, "qb", function () {
         return 0;
       }),
-      r.d(t, "nb", function () {
+      r.d(t, "pb", function () {
         return -1;
       }),
       r.d(t, "m", function () {
-        return Oe;
-      }),
-      r.d(t, "D", function () {
         return Fe;
       }),
       r.d(t, "E", function () {
         return Te;
       }),
-      r.d(t, "y", function () {
+      r.d(t, "F", function () {
         return Ee;
       }),
-      r.d(t, "x", function () {
+      r.d(t, "z", function () {
         return Ne;
       }),
-      r.d(t, "v", function () {
-        return Be;
-      }),
-      r.d(t, "C", function () {
-        return Ae;
-      }),
-      r.d(t, "p", function () {
-        return Ve;
-      }),
-      r.d(t, "o", function () {
-        return Ue;
-      }),
-      r.d(t, "l", function () {
-        return He;
-      }),
-      r.d(t, "r", function () {
-        return We;
+      r.d(t, "y", function () {
+        return ke;
       }),
       r.d(t, "w", function () {
+        return Be;
+      }),
+      r.d(t, "D", function () {
+        return Ve;
+      }),
+      r.d(t, "q", function () {
+        return Ue;
+      }),
+      r.d(t, "p", function () {
+        return Le;
+      }),
+      r.d(t, "l", function () {
+        return We;
+      }),
+      r.d(t, "s", function () {
         return ze;
       }),
-      r.d(t, "F", function () {
+      r.d(t, "x", function () {
         return Ge;
       }),
-      r.d(t, "n", function () {
+      r.d(t, "G", function () {
         return qe;
+      }),
+      r.d(t, "o", function () {
+        return je;
+      }),
+      r.d(t, "n", function () {
+        return Ke;
       });
-    t.mb = VRHTML;
+    t.ob = VRHTML;
   },
   HaPb: function (e, t, r) {
     "use strict";
@@ -2363,8 +2409,8 @@
       a = r("q1tI"),
       l = r("i8i4"),
       d = r("7wIv"),
-      c = r("/i/y");
-    function u() {
+      u = r("/i/y");
+    function c() {
       const [e, t] = a.useState(0);
       return (
         a.useEffect(() => {
@@ -2374,7 +2420,7 @@
           return () => window.clearInterval(r);
         }),
         a.createElement(
-          c.j,
+          u.j,
           {
             summonOverlayKey: "system.dashboardtabtest",
             tabName: "3D Test",
@@ -2383,16 +2429,16 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/3D_model_of_a_Cube.stl/1200px-3D_model_of_a_Cube.stl.png",
           },
           a.createElement(
-            c.lb,
+            u.nb,
             { translation: { y: 0.5 }, scale: 0.2, rotation: { y: e } },
-            a.createElement(c.db, { source: "locator" })
+            a.createElement(u.fb, { source: "locator" })
           ),
           a.createElement(
-            c.K,
+            u.L,
             null,
             a.createElement(
-              c.Y,
-              { width: 1, origin: c.s.BottomCenter },
+              u.ab,
+              { width: 1, origin: u.t.BottomCenter },
               a.createElement(
                 "div",
                 {
@@ -2415,14 +2461,14 @@
           (this.state = {
             Frame: 1,
             Degrees: 0,
-            Transform: Object(c.g)(),
+            Transform: Object(u.g)(),
             LabelValue: "                                               ",
             ShowElasticPanel: !0,
           }),
           (this.animationFrameHandle = window.requestAnimationFrame(
             this.onAnimationFrame
           )),
-          (this.mailbox = new c.c()),
+          (this.mailbox = new u.c()),
           this.mailbox.Init("scenegraphtest"),
           this.mailbox.RegisterHandler("fnord", this.onMailboxMessage);
       }
@@ -2430,7 +2476,7 @@
         window.cancelAnimationFrame(this.animationFrameHandle);
       }
       componentDidMount() {
-        Object(c.Q)();
+        Object(u.S)();
       }
       onAnimationFrame() {
         var e, t;
@@ -2442,7 +2488,7 @@
             (t =
               null === (e = VRHTML) || void 0 === e
                 ? void 0
-                : e.GetPose("/user/hand/right", c.A.Standing)
+                : e.GetPose("/user/hand/right", u.B.Standing)
                     .xfDeviceToAbsoluteTracking)
               ? t
               : this.state.Transform;
@@ -2487,7 +2533,7 @@
           "div",
           null,
           a.createElement(
-            c.j,
+            u.j,
             {
               summonOverlayKey: "keypadtest",
               id: "bigpicture",
@@ -2496,7 +2542,7 @@
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png",
             },
             a.createElement(
-              c.Y,
+              u.ab,
               { width: 1.2, interactive: !0 },
               a.createElement(
                 "div",
@@ -2602,33 +2648,33 @@
             )
           ),
           a.createElement(
-            c.lb,
-            { transform: this.state.Transform, parent_origin: c.B.Standing },
-            a.createElement(c.db, { source: "generic_hmd" })
+            u.nb,
+            { transform: this.state.Transform, parent_origin: u.C.Standing },
+            a.createElement(u.fb, { source: "generic_hmd" })
           ),
           a.createElement(
-            c.lb,
+            u.nb,
             {
               translation: { x: 0, y: 0.3, z: 0 },
               rotation: { x: 30, y: this.state.Degrees, z: 90 },
-              parent_origin: c.B.Standing,
+              parent_origin: u.C.Standing,
             },
-            a.createElement(c.db, { source: "locator" })
+            a.createElement(u.fb, { source: "locator" })
           ),
-          a.createElement(c.lb, {
+          a.createElement(u.nb, {
             translation: { x: 0, y: 1.8, z: 0 },
-            parent_origin: c.B.Standing,
+            parent_origin: u.C.Standing,
             id: "line_origin",
           }),
           a.createElement(
-            c.lb,
+            u.nb,
             {
               translation: { x: 0, y: 0, z: -0.5 },
               scale: { x: 2, y: 2, z: 2 },
-              parent_origin: c.B.Seated,
+              parent_origin: u.C.Seated,
             },
             a.createElement(
-              c.Y,
+              u.ab,
               { height: 0.45, width: 0.45, interactive: !0 },
               a.createElement("iframe", {
                 src: "https://www.valvesoftware.com",
@@ -2639,23 +2685,23 @@
             )
           ),
           a.createElement(
-            c.lb,
+            u.nb,
             {
               translation: { x: 0, y: 0, z: -0.5 },
               parent_path: "/user/hand/left",
               id: "left_hand_model",
             },
-            a.createElement(c.db, { source: "locator_one_sided" })
+            a.createElement(u.fb, { source: "locator_one_sided" })
           ),
           a.createElement(
-            c.lb,
+            u.nb,
             { parent_path: "/user/hand/right" },
-            a.createElement(c.P, {
+            a.createElement(u.R, {
               target_id: "line_origin",
               thickness: 0.01,
               end_buffer: 0.5,
             }),
-            a.createElement(c.P, {
+            a.createElement(u.R, {
               target_id: "left_hand_model",
               thickness: 0.001,
               end_buffer: 0.1,
@@ -2663,7 +2709,7 @@
             })
           ),
           a.createElement(
-            c.j,
+            u.j,
             {
               summonOverlayKey: "bigpicturetest",
               id: "bigpicture",
@@ -2671,7 +2717,7 @@
               iconUri:
                 "data:image/png;base64,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",
             },
-            a.createElement(c.Y, {
+            a.createElement(u.ab, {
               overlay_key: "valve.steam.bigpicture",
               uv_min: { u: 0, v: 0 },
               uv_max: { u: 1, v: 0.3 },
@@ -2679,19 +2725,19 @@
               interactive: !1,
             })
           ),
-          a.createElement(c.lb, {
+          a.createElement(u.nb, {
             translation: { x: 0, y: 0, z: -0.5 },
             parent_path: "/user/hand/right/pose/base",
           }),
           a.createElement(
-            c.lb,
+            u.nb,
             {
               translation: { x: 0, y: -1.2, z: -2 },
               rotation: { x: -45 },
               parent_path: "/user/head/pose/raw",
             },
             a.createElement(
-              c.Y,
+              u.ab,
               { height: 0.2, width: void 0, interactive: !1 },
               a.createElement(
                 "div",
@@ -2710,22 +2756,22 @@
             )
           ),
           a.createElement(
-            c.lb,
-            { parent_origin: c.B.Standing },
-            a.createElement(c.db, {
+            u.nb,
+            { parent_origin: u.C.Standing },
+            a.createElement(u.fb, {
               source: "{knuckles}valve_controller_knu_ev2_0_left",
             })
           ),
           a.createElement(
-            c.lb,
+            u.nb,
             { translation: { y: 0.5 } },
             a.createElement(
-              c.X,
+              u.Z,
               { value: 0.1 },
               a.createElement(
-                c.jb,
+                u.lb,
                 { color: { b: 1, g: 1, r: 0 } },
-                a.createElement(c.db, {
+                a.createElement(u.fb, {
                   source: "generic_hmd",
                   wireframe: !0,
                   fresnel: { color: { r: 1 }, opacity: 0.7, strength: 1 },
@@ -2733,7 +2779,7 @@
               )
             )
           ),
-          a.createElement(u, null)
+          a.createElement(c, null)
         );
       }
     }
@@ -2742,29 +2788,29 @@
       Object(s.b)([d.bind], p.prototype, "onHideElasticPanel", null),
       Object(s.b)([d.bind], p.prototype, "onMailboxMessage", null),
       l.render(
-        a.createElement(c.eb, null, a.createElement(p, null)),
+        a.createElement(u.gb, null, a.createElement(p, null)),
         document.getElementById("root")
       ),
       null === (n = VRHTML) ||
         void 0 === n ||
         n.VROverlay.SetFlag(
           VRHTML.VROverlay.ThisOverlayHandle(),
-          c.D.ShowTouchPadScrollWheel,
+          u.E.ShowTouchPadScrollWheel,
           !0
         ),
       null === (i = VRHTML) ||
         void 0 === i ||
         i.VROverlay.SetFlag(
           VRHTML.VROverlay.ThisOverlayHandle(),
-          c.D.SendVRSmoothScrollEvents,
+          u.E.SendVRSmoothScrollEvents,
           !0
         ),
       null === (o = VRHTML) ||
         void 0 === o ||
         o.VROverlay.SetInputMethod(
           VRHTML.VROverlay.ThisOverlayHandle(),
-          c.E.Mouse
+          u.F.Mouse
         );
   },
 });
-//# sourceMappingURL=scenegraphtest.js.map?v=944c1e7192106baeddfc
+//# sourceMappingURL=scenegraphtest.js.map?v=1e323675195e13107d56

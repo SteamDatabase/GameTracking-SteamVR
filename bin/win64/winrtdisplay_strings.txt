@@ -8,7 +8,10 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
+%s: display mode not found %dx%d @(%d/%d)
+%s: not connected
 ',=?k
+'7D`D0
 (D$0f
 (f*^[0
 *9Z9N
@@ -115,47 +118,54 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602204704Z0/
+220609000000Z
+220614225500Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+9D$@u	
+9D$DtfL9t$xt
 9E ukH
 <0:08
 <P)9Y
 <unknown>
-=U i9
 =rIQU
+>0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
 @.data
 @.reloc
+@A^][
 @A^_^
+@SUAVH
 @SUAWH
-@UATAWH
+@USAUH
 @USVWATAVAWH
 @UVAUAWH
 @UVAVAWH
 @WAUAVAWH
 ASSERT: "%s" at %s:%d.
-A_A\]
 A_A]^]
 A_A^A\_^[
 A_A^A\_^[]
@@ -165,6 +175,8 @@ AuthD
 Bellevue1
 C++/WinRT version:1.0.190111.3
 CD$@3
+CWinRTDisplay::GetDisplayModes
+CWinRTDisplay::SetDisplayMode
 CloseHandle
 CoCreateFreeThreadedMarshaler
 CoIncrementMTAUsage
@@ -179,11 +191,10 @@ D$HM;
 D$PH;
 D$`H;
 D$hH;
-D$xH;
+D$pH;
 D3D11CreateDevice
-D9|$ht
-D9|$lt
 DeleteCriticalSection
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -191,8 +202,8 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-E`9D$Pu
-Ed9D$Tu
+E89D$Pu
+E<9D$Tu
 EnterCriticalSection
 FormatMessageW
 GetCurrentProcessId
@@ -203,6 +214,12 @@ GetProcessHeap
 GetRestrictedErrorInfo
 GetSystemTimeAsFileTime
 GetTickCount64
+H9\$X
+H9\$Xt
+H9\$`t
+H9\$ht
+H9\$pt
+H9\$xt
 H9o H
 H9o(H
 H9o0H
@@ -210,6 +227,8 @@ H9o8H
 H9o@H
 H9oHH
 HeapFree
+I9] M
+I9]8I
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -225,9 +244,10 @@ L$ SH
 L$ SUVWH
 L$ SWH
 L$@s@H
-L9|$xt
-L9}Xt	H
+L9t$xt
+L9|$ht
 L?n(Zy&
+LH,"K
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
@@ -242,7 +262,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSQf2
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -258,7 +277,6 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T-`Ep
 UVAWH
 UWAVH
 UnhandledExceptionFilter
@@ -277,12 +295,14 @@ WINRT_GetAdapterLuid
 WINRT_GetCurrentDriverVersion
 WINRT_GetDeviceString
 WINRT_GetDisplayMode
+WINRT_GetDisplayModes
 WINRT_GetSurfaces
 WINRT_HasDisplay
 WINRT_Initialize
 WINRT_Present
 WINRT_Release
 WINRT_ReleaseDisplay
+WINRT_SetDisplayMode
 WINRT_WaitForPresent
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -296,6 +316,7 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
+[!o60
 [K]taM?
 \$ H;
 \$ UH
@@ -344,23 +365,26 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+d j)6A
 d3d11.dll
 dxgi.dll
 e,>~^
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 iswspace
+j+{i~
 jj@0HK4
 k0i0$
 l$ WH
+m0k0$
 m_path
 malloc
 memcpy
 memmove
 memset
-n%~XX
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
@@ -370,18 +394,25 @@ t$ WH
 t$0H+
 t$8H9)t
 t$@H=
+t$PE3
 tXfff
+tYH9\$`t
 terminate
+uW"=8s
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
+v`^Fm
 vector<T> too long
+wYhj_g~
 winrtdisplay.dll
 www.digicert.com1!0
+www.digicert.com1$0"
 x]~\6
 {un'%
 |$ AVH
+|$0E3
 |$xMi
+|@N3>
 |Lu?c
-|P'j#
 }LuHO
 ~t&LN

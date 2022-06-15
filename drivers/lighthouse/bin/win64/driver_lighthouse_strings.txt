@@ -617,6 +617,7 @@ $w!Hc
 ' value is not an integer type.
 ',=?k
 '.5<=6/7>????????????????
+'7D`D0
 '9k0t
 'D9c0t
 '[', '{', or a literal
@@ -761,6 +762,7 @@ $w!Hc
 ) deg
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+)/c?=w
 )9k0t
 )D$ D
 )D$ H
@@ -1376,7 +1378,8 @@ $w!Hc
 21VNt
 220323000000Z
 220329000000Z
-220602205441Z0/
+220609000000Z
+220614230348Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1386,6 +1389,7 @@ $w!Hc
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 3333333
 360428235959Z0i1
@@ -1395,15 +1399,19 @@ $w!Hc
 3Pole
 3mq+<
 42HcF,
+45DSz
 4Pole
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+62,j	0 
 6I]Dc
 6OB,n_
 6p7M=:P_:}u
 70503
 7HcC,
 7^d[L
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8"u	H
 8*u	H
@@ -1432,6 +1440,7 @@ $w!Hc
 8E;~X|
 8H)t,E
 8H;^pu
+8L9-n@&
 8O0u]A
 8\$@t
 8\u7H
@@ -1599,6 +1608,7 @@ $w!Hc
 >#u&H
 >$u5I
 >-ufH
+>0<0:
 >B`E?)\
 >Mp$d
 >W`.]tB3?
@@ -1652,6 +1662,7 @@ $w!Hc
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?@s#0?LD
+?BJxTW
 ?CVkDevice::CreateDevice
 ?HcC,H
 ?Nbp?
@@ -2445,7 +2456,7 @@ C\$PM
 C\$`H
 C\$pH
 C\$pL
-C\$pL9%
+C\$pL9%}H(
 C\$pM
 C\HcKXH
 C`9C(uq
@@ -2915,6 +2926,7 @@ DeviceGC
 DeviceIoControl
 DeviceMessageWindow_t::RunFrame
 Devices with no on-device calibration are not supported in the Lighthouse driver.
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -2947,7 +2959,7 @@ E0H+E(H
 E0Lc$
 E8^Xt
 E8g(tDD8
-E9>~iI
+E9>~eI
 E9A(|
 E9x s
 E;A }
@@ -3084,7 +3096,7 @@ F(HcH
 F,9ATu
 F,9G,
 F0D85
-F8@85W
+F8@85'
 F<@85
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -3122,12 +3134,14 @@ Failed to find entrypoint WINRT_GetAdapterLuid
 Failed to find entrypoint WINRT_GetCurrentDriverVersion
 Failed to find entrypoint WINRT_GetDeviceString
 Failed to find entrypoint WINRT_GetDisplayMode
+Failed to find entrypoint WINRT_GetDisplayModes
 Failed to find entrypoint WINRT_GetSurfaces
 Failed to find entrypoint WINRT_HasDisplay
 Failed to find entrypoint WINRT_Initialize
 Failed to find entrypoint WINRT_Present
 Failed to find entrypoint WINRT_Release
 Failed to find entrypoint WINRT_ReleaseDisplay
+Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to get HINSTANCE in DeviceMessageWindow_t::Create
 Failed to import client event handle from pipe %s after connecting
@@ -3365,7 +3379,6 @@ H+_pH
 H+q@HcO,H
 H0Ic@,Hc
 H9)u 
-H9-A>!
 H91u 
 H92u&
 H92u,
@@ -3729,7 +3742,7 @@ IVRInput_010
 IVRMCStore_001
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -3837,6 +3850,7 @@ IsManual
 IsProcessorFeaturePresent
 IsValidSid
 J 9H s
+J%ZRUU@qP
 J(9O(|
 J>@G_
 JSON Update
@@ -4004,22 +4018,23 @@ L+H@I
 L+P@H
 L+Q@I
 L80L;
-L9%I?(
-L9%O=(
-L9%^G(
-L9%zF(
-L9%~I(
+L9%.G(
+L9%JF(
+L9%NI(
+L9%XL(
+L9%]E(
 L9&u"
-L9-6,&
-L9-P@&
+L9- @&
 L90H;
 L90M;
 L92u'
-L959S&
-L95MQ&
-L95hS&
-L95wP&
+L95	S&
+L958S&
+L95GP&
+L95xS&
 L97u0H
+L9=_Z&
+L9=t_(
 L9>u	H
 L9@ s
 L9A r
@@ -4505,7 +4520,6 @@ SWAUAWH
 SWAUH
 SWAWH
 S\9SXuv
-S_U$EN
 Samples didn't yield successful bootstrap pose
 Saved LighthouseDB rev %u to %s
 Saw %d early IMU related panics, using factory IMU cal
@@ -5240,7 +5254,6 @@ Vive_Pro
 Vive_Pro DVT
 VpH9Vxt'
 VrController
-W%:R 
 W(LcB
 W0H;C
 W8H;C
@@ -5263,12 +5276,14 @@ WINRT_GetAdapterLuid
 WINRT_GetCurrentDriverVersion
 WINRT_GetDeviceString
 WINRT_GetDisplayMode
+WINRT_GetDisplayModes
 WINRT_GetSurfaces
 WINRT_HasDisplay
 WINRT_Initialize
 WINRT_Present
 WINRT_Release
 WINRT_ReleaseDisplay
+WINRT_SetDisplayMode
 WINRT_WaitForPresent
 Wait For Sync
 WaitForMultipleObjects
@@ -5324,6 +5339,7 @@ WriteFile
 X USVWATAVAWH
 X UVWAVAWH
 X UVWH
+X66Iw
 XA;6|
 XA;?|
 XA\_^[
@@ -5337,7 +5353,7 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5[8!
+Y5+8!
 Y9"SD
 Y?33s?
 YAHH+
@@ -5503,7 +5519,6 @@ ZL$Xf
 ^HH9|$hu
 ^`I;^h
 ^oEZ_
-_ *q*
 _0IcG
 _Cnd_broadcast
 _Cnd_destroy
@@ -6196,6 +6211,7 @@ hits:
 htc/vive_controller
 htc/vive_tracker
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -6452,6 +6468,7 @@ localeconv
 location
 low_mm
 m0_$@
+m0k0$
 mXu.H
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
@@ -7015,7 +7032,7 @@ tAy&H
 tFA;Q r@w
 tKfA9
 tPD8B
-tPL9--
+tPL9-
 tPfA9i
 tRNS after IDAT
 tRNS before PLTE
@@ -7097,8 +7114,9 @@ tx<	u#
 t|C9D
 t|SUVH
 t~L9=
-t~L9=(
-t~L9=k
+t~L9=;
+t~L9=\
+t~L9=~
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7114,7 +7132,7 @@ u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-
+u<L9-P
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7159,14 +7177,14 @@ usePrism
 usedisambiguation
 userdata
 ut9}(voH
-u{L9=
+u{L9=x
 v(M;l
 v9fff
 v=Y]Bv
 v@L;D$P
 vE;E`M
 vHcD$LH
-vOL9-2
+vOL9-
 vQO+t
 value
 values
@@ -7658,7 +7676,7 @@ vrprismhost_startup timed out after %u ms before being set by the new vrprismhos
 vrwebhelper
 vuf?H
 vulkan-1.dll
-v}L9-@
+v}L9-
 w(M9w0tH
 w+OQvr
 wUD;C$}OH
@@ -7684,6 +7702,7 @@ wrong color format
 wrong submessage type
 wrong version
 www.digicert.com1!0
+www.digicert.com1$0"
 w{L9=
 x ATAVAWH
 x AVH
@@ -7861,6 +7880,7 @@ zuusA
 |$xIi
 |$xIk
 |@E;F
+|@N3>
 |D;k(|?uyH
 |Lu?c
 |Wu	A

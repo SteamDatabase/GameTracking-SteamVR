@@ -867,12 +867,12 @@ $@
 19CWirelessDecoderWv2
 1e+9999
 2
-20:45:15
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20CVRFramerateGovernor
 20CVkCommandBufferPool
 20IVRAudioNotification
+22:53:07
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -2228,8 +2228,8 @@ CSWTCH.136
 CSWTCH.138
 CSWTCH.158
 CSWTCH.16
-CSWTCH.1923
-CSWTCH.211
+CSWTCH.1924
+CSWTCH.213
 CSWTCH.221
 CSWTCH.23
 CSWTCH.878
@@ -2476,6 +2476,7 @@ CVRPathRegistry_Public::GetVRPathRegistryFilename()
 CVRPathRegistry_Public::GetVRPathRegistryFilename() [clone .cold]
 CVRPathRegistry_Public::InitSteamAppId()
 CVRPathRegistry_Public::InitSteamAppId() [clone .cold]
+CVRPathRegistry_Public::IsChildOfVRServer()
 CVRPathRegistry_Public::IsSteamVRMain()
 CVRPathRegistry_Public::ToJsonString(std::string&)
 CVRPathRegistry_Public::ToJsonString(std::string&) [clone .cold]
@@ -3660,7 +3661,7 @@ IVRInput_010
 IVRMCStore_001
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -4265,7 +4266,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone
 Jul
 July
 Jun
-Jun  2 2022
+Jun 14 2022
 June
 K
 KHR_lights_punctual
@@ -5119,6 +5120,7 @@ SOB: add
 SOB: drop
 SRB-0
 SRW != NULL
+STEAMVR_APPKEY
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
@@ -6352,9 +6354,12 @@ WinRT::GetAdapterLuid(int, void*)
 WinRT::GetCurrentDriverVersion()
 WinRT::GetDeviceString(int)
 WinRT::GetDisplayMode(WinRT::DisplayMode_t*)
+WinRT::GetDisplayModes(unsigned int*, WinRT::DisplayMode_t*)
 WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
 WinRT::HasDisplay(int)
 WinRT::Present()
+WinRT::SetDisplayMode(WinRT::DisplayMode_t*)
+WinRT::Shutdown()
 WinRT::WaitForPresent(unsigned long*, float*)
 Windows
 Windows 10
@@ -11091,7 +11096,6 @@ math::Vec3T<double> math::operator*<double>(math::QuatT<double> const&, math::Ve
 math::Vec3T<double>& std::vector<math::Vec3T<double>, std::allocator<math::Vec3T<double> > >::emplace_back<math::Vec3T<double> >(math::Vec3T<double>&&)
 math::Vec3T<double>::Vec3T()
 math::Vec3T<double>::Vec3T(double const*)
-math::Vec3T<double>::Vec3T(double)
 math::Vec3T<double>::Vec3T(double, double, double)
 math::Vec3T<double>::Vec3T(math::Vec2T<double> const&, double)
 math::Vec3T<double>::abs() const
@@ -11141,7 +11145,6 @@ math::Vec3T<double>::zero()
 math::Vec3T<float> math::operator*<float>(math::PoseT<float> const&, math::Vec3T<float> const&)
 math::Vec3T<float>::Vec3T()
 math::Vec3T<float>::Vec3T(float const*)
-math::Vec3T<float>::Vec3T(float)
 math::Vec3T<float>::Vec3T(float, float, float)
 math::Vec3T<float>::Vec3T(math::Vec2T<float> const&, float)
 math::Vec3T<float>::abs() const
@@ -11537,6 +11540,7 @@ open
 opendir
 openlog
 openvr
+openvr.component.vrserver
 openvrpaths.vrpath
 operator
 operator delete(void*)
@@ -11805,6 +11809,7 @@ sched_get_priority_max
 sched_get_priority_min
 sched_getparam
 sched_getscheduler
+sched_setaffinity
 sched_setscheduler
 sched_yield
 schinese
@@ -18481,6 +18486,7 @@ vortex::ILighthouseTrackedDeviceServerDriver::LeaveStandby()
 vortex::ILighthouseTrackedDeviceServerDriver::RunFrame()
 vortex::ILighthouseTrackedDeviceServerDriver::ShouldBlockStandby()
 vortex::IPoseTracker::DebugRequest(char const*, char*, unsigned int)
+vortex::IPoseTracker::RunFrame()
 vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&)
 vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&) [clone .cold]
 vortex::LighthouseBaseTargetPose_t::ToJson() const

@@ -3,6 +3,7 @@
 																									
 																												
 	!s99
+	(e]MY
 	010I0t0
 	0P0g0
 	1&2o2t2
@@ -27,18 +28,19 @@
 $0,040<0P0X0`0h0p0|0
 $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+$[<PWEJ
 $_^[]
 %.0Lf
 %H : %M
 %H : %M : %S
 %I : %M : %S %p
-%`gG6
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %j+hD
 %m / %d / %y
 &1V6|:^<
 ',=?k
+'7D`D0
 ()$^.*+?[]|\-{},:=!
 (f*^[0
 *9Z9N
@@ -54,6 +56,7 @@ $_^[]
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,0I0\0
 ,W5y+
+,m\ClJ
 .00cfg
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
@@ -432,7 +435,8 @@ $_^[]
 211007000000Z
 220323000000Z
 220329000000Z
-220602204558Z0/
+220609000000Z
+220614225407Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -482,6 +486,7 @@ $_^[]
 3,323<3O3
 3,5=5
 303P3X3`3h3p3x3
+311109235959Z0b1
 323<3V3`3v3
 330314235959Z0L1
 333V3
@@ -552,6 +557,7 @@ $_^[]
 4X4|4
 4_6w7
 4b4l4
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 4m5z5
 4n5{5
 5	6%6=6^6s6
@@ -652,6 +658,7 @@ $_^[]
 6I]Dc
 6L:T:`:
 6OB,n_
+6RC(w
 6T6^6{6
 6T6x6
 6X768
@@ -698,6 +705,7 @@ $_^[]
 7S8]8z8
 7Z8b8j8r8
 7`7R8
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7i7 8
 8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
 8 8$8(8,8084888D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
@@ -1046,6 +1054,7 @@ $_^[]
 >+?`?
 >,>:>V>
 >,>>>
+>0<0:
 >0><>\>h>
 >0>@>D>T>X>\>`>d>h>l>t>
 >4><>D>H>P>d>l>t>|>
@@ -1287,6 +1296,7 @@ DecodePointer
 DeleteCriticalSection
 DeleteTimerQueueTimer
 Device Path: 
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -1526,7 +1536,6 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-Tp-^m
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
@@ -1593,6 +1602,8 @@ Y__^[
 [tc9]
 \SVW3
 ]J<0"0i3
+]kW8F
+]}N}b"
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1726,11 +1737,11 @@ gj h
 graph
 host unreachable
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 identifier removed
-ie;Qm
 illegal byte sequence
 inappropriate io control operation
 interrupted
@@ -1757,6 +1768,7 @@ ldexp
 localeconv
 lower
 lstrcmpW
+m0k0$
 malloc
 memchr
 memcmp
@@ -1885,11 +1897,11 @@ vector<bool> too long
 version
 vrcamera_api.dll
 w(_^[]
-w+UTSOh
 wcsnlen
 wcstoul
 wrong protocol type
 www.digicert.com1!0
+www.digicert.com1$0"
 x(kP$4
 x,G;}
 x0c1l1
@@ -1899,6 +1911,7 @@ xdigit
 y'j h
 {L?uI
 {un'%
+|@N3>
 |Lu?c
 |SVWj
 }:;2|6

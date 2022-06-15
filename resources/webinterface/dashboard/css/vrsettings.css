@@ -375,7 +375,7 @@ body {
 .SettingsSidebarPageModalContainer {
 	display: flex;
 	flex-direction: row;
-	height: fit-content;
+	height: 100%;
 	flex-grow: 1;
 	position: relative;
 }
@@ -2142,4 +2142,123 @@ body {
 	font-weight: normal;
 	color: var(--text-color);
 	display: inline;
+}
+
+
+
+/* Wifi Configuration */
+
+.SettingsMain .APList
+{
+	display: grid;
+	grid-template-columns: 50% 16.6% 16.6% 16.6%;
+	align-items: center;
+}
+
+.SettingsMain .APHeader,
+.SettingsMain .APRow
+{
+	display: contents;
+}
+
+.SettingsMain .APHeader > div, .SettingsMain .APRow > div
+{
+	padding: 0.5em;
+	padding-left: 0;
+}
+
+.SettingsMain .APRow:hover > div
+{
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.SettingsMain .APHeader
+{
+	font-weight: bold;
+}
+
+.SettingsMain .APSSID
+{
+	grid-column: 1;
+}
+
+.SettingsMain .APBitRate
+{
+	grid-column: 2;
+}
+
+.SettingsMain .APStrength
+{
+	grid-column: 3;
+}
+
+.SettingsMain .APSecure
+{
+	grid-column: 4;
+}
+
+.SettingsMain .APActive
+{
+	grid-column: 5;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.SettingsMain .TwoColumnRow
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.SettingsMain .TwoColumnRow > div
+{
+	width: 50%;
+}
+
+.SettingsMain .HostInfo
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.SettingsMain .HostInfo .Label:first-child
+{
+	font-weight: bold;
+}
+
+.SettingsMain .HostInfo .Label
+{
+	margin-right: 0.8rem;
+}
+
+.SettingsMain .Error
+{
+	color: red;
+}
+
+.SettingsMain .Warning
+{
+	color: yellow;
+}
+
+.SettingsMain .PasswordInput, .SettingsMain .PasswordInputDisabled
+{
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.25);
+	margin-right: 0.5em;
+	padding: 0.5em;
+	padding-left: 0.75em;
+	padding-top: 0.75em;
+}
+
+.SettingsMain .PasswordInputDisabled
+{
+	pointer-events: none;
+	color: rgba(255, 255, 255, 0.25);
+}
+
+.SettingsMain .PasswordInput:hover
+{
+	background: rgba(0, 0, 0, 0.1);
 }

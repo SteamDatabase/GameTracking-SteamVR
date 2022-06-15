@@ -12,11 +12,9 @@
  Error:
  for detail.
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
- r'5e
 !0L0w0
 !hn7!
 $Phdd
-$W49Sg
 %%.%dg
 %2.2X
 %8.8X
@@ -63,7 +61,7 @@ $W49Sg
 %s: WriteFile failed! (%s)
 ' is not a number.
 ',=?k
-'3S9Rn
+'7D`D0
 ()$^.*+?[]|\-{},:=!
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
@@ -80,13 +78,11 @@ $W49Sg
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
-*'+\VPk
 *9Z9N
 +KL+SL_;
 +Xt@(
 +o'q)}
 ,W5y+
-,__~(
 -1e+9999
 -ADDR %s
 -Infinity
@@ -236,7 +232,8 @@ $W49Sg
 211007000000Z
 220323000000Z
 220329000000Z
-220602204853Z0/
+220609000000Z
+220614225722Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -257,8 +254,8 @@ $W49Sg
 3&5M5j5o5
 3,3W3
 3/3T3
+311109235959Z0b1
 330314235959Z0L1
-33Ea`
 343X3x3
 360428235959Z0i1
 370322235959Z0c1
@@ -286,6 +283,7 @@ $W49Sg
 4A5J5
 4^4c4i4r4
 4d4h4l4p4t4x4|4
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 4i4v4
 4m5;6
 4v6P8U8]8n8z8
@@ -351,6 +349,7 @@ $W49Sg
 737:7S7
 7@PVW
 7V8n9
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8	9e9
 8 8(8H8l8x8
 8 9%9
@@ -472,6 +471,7 @@ $W49Sg
 >%>+>1>7>=>C>I>O>U>[>a>g>m>s>y>
 >*?C?V?e?t?
 >+>?>^>
+>0<0:
 >0>4>L>\>`>t>x>
 ><?@?D?H?
 >=?z?
@@ -665,6 +665,7 @@ DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
 DeleteCriticalSection
 DeleteFileW
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -694,6 +695,7 @@ F<\uD
 FH;FDu
 FH<au
 FH<bu
+FUlbp t
 Failed
 Failed to allocate memory
 Failed to open DFU zip file '%s'
@@ -796,6 +798,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
+O3Hq!>}\zCk}Z
 ODFU Post
 OpenProcess
 Out of thread local storage!
@@ -820,7 +823,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSdLC
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -984,7 +986,6 @@ ViveLinkError_NotFound
 ViveLinkError_Success
 ViveLinkError_Timeout
 ViveLinkLib_GetBaseStationWirelessInterface
-Vtls7-
 W9shvN3
 WRITE_WO_RESP -H %4.4X 
 WRITE_W_RESP -H %4.4X 
@@ -1016,7 +1017,6 @@ WriteFile
 X6\6`6d6h6l6p6t6x6|6
 XSVW2
 Y9"SD
-YLPm.
 Y__^[
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1035,7 +1035,6 @@ Zipfile is corrupt or not a zipfile
 ]J<0"0i3
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
-^|`O"
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -1106,6 +1105,7 @@ data error
 deque<T> too long
 digit
 e,>~^
+e63JZ
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1122,6 +1122,7 @@ gfffSV
 gfffV
 graph
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -1179,9 +1180,9 @@ j)hpG
 j*hPQ
 jj@0HK4
 k0i0$
-lV	n_
 lighthouse
 lower
+m0k0$
 malloc
 manifest
 manifest file %s parse error from %s
@@ -1257,6 +1258,7 @@ wd_^[
 win64
 wn>Jj
 www.digicert.com1!0
+www.digicert.com1$0"
 x5t7j
 x]~\6
 xdigit
@@ -1265,6 +1267,7 @@ y4_^[
 {un'%
 |	9A 
 |	;J 
+|@N3>
 |Lu?c
 |cj#h
 }	jCh

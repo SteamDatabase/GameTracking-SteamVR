@@ -75,7 +75,7 @@
 %s: Failed in state: %d (nrf_error: %s)
 ' is not a number.
 ',=?k
-'f}%8
+'7D`D0
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (A^A]A\^
@@ -633,19 +633,22 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602205053Z0/
+220609000000Z
+220614225808Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 3333333
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 64-bit
@@ -654,6 +657,7 @@
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8A^A]^]
 8A_A^A]]
 8D$Ru
@@ -680,7 +684,6 @@
 9|$`t
 :\u-L
 :\u6L
-:h3W7
 ;K }DH
 ;Q |	H
 </u#H
@@ -691,6 +694,7 @@
 ==============================
 => Entering Context
 =rIQU
+>0<0:
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -1098,6 +1102,7 @@ D$pHcH
 D$pI+
 D$xH;
 D$xI;
+D7iOUP
 D9@ }
 D9\$ u
 D9wps
@@ -1138,10 +1143,10 @@ DFU_RESPONSE_OPERATION_FAILED
 DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
-DQM,Z
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -1511,6 +1516,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueueUserAPC
+R)S> *
 RESERVED_5
 RESET_PERFORMED
 RaiseException
@@ -1547,7 +1553,6 @@ Restart:  %s
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S/"H7
 S0Q0O
 SA|X=G
 SD RPC APP Status: %s, %s
@@ -1897,6 +1902,7 @@ h5_transport received ack packet in state
 hA_A^A\_^]
 hardware
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -1930,6 +1936,7 @@ ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
 k0i0$
+k6jw1t(
 l$ H=
 l$ VAVAWH
 l$ VWAVH
@@ -1949,6 +1956,7 @@ l$pM;
 l$xfD
 list<T> too long
 lower
+m0k0$
 malloc
 manifest
 manifest file %s parse error from %s
@@ -2158,11 +2166,11 @@ upper
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
-vgl{?
 wcschr
 winsock
 wn>Jj
 www.digicert.com1!0
+www.digicert.com1$0"
 x AVH
 x UATAUAVAWH
 xA\^][
@@ -2170,7 +2178,7 @@ xA^A]_[
 xAtAL
 x]~\6
 xdigit
-{$iCO
+{_Z\<v
 {un'%
 {x\u!H
 {|?uWH
@@ -2206,6 +2214,7 @@ xdigit
 |$pL+
 |$pf;
 |$ps`H
+|@N3>
 |Lu?c
 }LuHO
 ~'HcB

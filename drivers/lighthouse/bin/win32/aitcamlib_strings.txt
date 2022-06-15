@@ -15,6 +15,7 @@ $9^ t
 %UUUU
 ',=?k
 '.5<=6/7>????????????????
+'7D`D0
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -136,6 +137,7 @@ $9^ t
 061;1
 0w0c1
 0x1|1
+0y9QI
 0}0i1
 1 1&111A1Q1[1e1p1}1
 1 1014181@1X1h1l1t1
@@ -153,7 +155,7 @@ $9^ t
 1H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 1Q1U1*2.2_6c6
 1a2q2
-1t,0]Qc
+1kG*|
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2
 2!212A2Q2a2q2
 2#2(222C2H2R2c2h2r2
@@ -165,16 +167,16 @@ $9^ t
 211007000000Z
 220323000000Z
 220329000000Z
-220602204852Z0/
+220609000000Z
+220614225732Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
 293r3
 2>3k3
-2A %"
+2>PQa
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2Fmu)r0
 2SPV9
 2Z3a3
 2`4{4
@@ -188,6 +190,7 @@ $9^ t
 3(323B3M3n3~3
 3)3-3:3>3r7v7
 3,3<3@3D3H3P3h3x3|3
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -206,6 +209,7 @@ $9^ t
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
 4`:d:q:u:
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5	7+7
 5 5$5
 5!5M5c5k5
@@ -223,6 +227,7 @@ $9^ t
 5Genu
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
+5zWPv
 6 6$6(6,6064686<6@6D6D8H8L8P8T8X8\8
 6 7<7F7T7]7
 6#6(626C6H6R6c6h6r6
@@ -246,6 +251,7 @@ $9^ t
 7.7>7H7R7b7m7
 70503
 7[8_8
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u7%8
 8 8$8(8X8t8
 8!8B8F8U8Y8h8l8{8
@@ -319,12 +325,14 @@ $9^ t
 > >0>4>8><>@>H>`>d>|>
 > >B>Q>Z>g>
 > ?(?-?@?T?Y?l?
+>0<0:
 >:>I>X>
 >>>N>X>b>r>}>
 >@>V>
 >@?U?r?
 >L?l?
 >Mp$d
+>YP`^
 >g?x?|?
 >m?q?
 ? ?0?4?D?H?X?\?l?p?
@@ -382,8 +390,8 @@ Closed
 CreateEventA
 CreateEventW
 CreateThread
-Dbs^HmMT
 DeleteCriticalSection
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -436,7 +444,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
-IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -484,11 +492,12 @@ PauseCamera (delayed...)
 PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-PnT@ZQ
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RPAUQ
 RPCRT4.dll
+RSDSJ
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -557,7 +566,8 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
-U)}@k
+U$Hy{
+U)nyDs	
 UnhandledExceptionFilter
 Unknown
 Unknown exception
@@ -579,15 +589,16 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
-X1Mx,
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
+Zs?1#
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
 \2d2h2l2p2t2x2|2
+\IoGQ
 ]J<0"0i3
 _CIpow
 _Cnd_destroy_in_situ
@@ -723,6 +734,7 @@ fseek
 german
 greek
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -738,11 +750,13 @@ italian
 ja_jp
 japanese
 jj@0HK4
+k#Hb3ln]
 k0i0$
 ko_ko
 korean
 latam
 ldexp
+m0k0$
 malloc
 map/set<T> too long
 max value > 255
@@ -783,7 +797,6 @@ ro_ro
 romanian
 ru_ru
 russian
-s[1e]
 schinese
 spanish
 startup
@@ -803,7 +816,6 @@ tchinese
 tdh.dll
 terminate
 th_th
-tjxn~
 too large
 too many codes
 tr_tr
@@ -833,13 +845,15 @@ wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
+www.digicert.com1$0"
 x]~\6
+y7saz
 yrPhX
 zh_cn
 zh_tw
 zlib corrupt
-zugkZs
 {un'%
+|@N3>
 |Lu?c
 }LuHO
 ~t&LN

@@ -45,7 +45,8 @@ $< t6<$t,<+t"<vt
 %d / %m / %y
 %m / %d / %y
 ',=?k
-'2!l$
+'5 4{
+'7D`D0
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
 (A^A\_[
@@ -82,12 +83,14 @@ $< t6<$t,<+t"<vt
 )t$0H
 )t$`H
 *9Z9N
++D'c;
 +J$D8M@
 +Xt@(
 +o'q)}
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,W5y+
 ,t0D9J0v*L
+-d@Q6
 .00cfg
 .8\$!t.9\
 .?AUIAMovieSetup@@
@@ -379,13 +382,15 @@ $< t6<$t,<+t"<vt
 211007000000Z
 220323000000Z
 220329000000Z
-220602204600Z0/
+220609000000Z
+220614225419Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
@@ -393,12 +398,13 @@ $< t6<$t,<+t"<vt
 3A8A#
 3mq+<
 4.tfH
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
-6kKn|
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8-uCH
 8-uGH
 8A^_^[
@@ -450,6 +456,7 @@ $< t6<$t,<+t"<vt
 <xu<D
 <}wYI
 =rIQU
+>0<0:
 >Mp$d
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
@@ -662,9 +669,9 @@ AuthD
 Auto Exposure Target:		
 Auto Exposure:			
 Auto White Balance:		
-Au~%_
 B$D+B,toD+B(
 B0E8XAt
+B8ZUg
 BL$(A
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -839,6 +846,7 @@ DeleteUmsCompletionList
 DeleteUmsThreadContext
 DequeueUmsCompletionListItems
 Device Path: 
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -1005,6 +1013,7 @@ H;\$8
 H;\$H
 H;_Xt
 H;|$8u
+H? TI
 HHtfH
 H_^][
 Hc;HcK
@@ -1042,6 +1051,7 @@ K H9y
 K0u2H
 K4A+H 
 K8Hc@
+KB\uL
 KERNEL32.dll
 KH;_XtW3
 K}*n:	
@@ -1258,7 +1268,6 @@ Y$D;R
 Y0t>H
 Y9"SD
 Z(D9Z
-Z+I*!
 [@D8}oteH
 [K]taM?
 \$ UH
@@ -1317,7 +1326,6 @@ _callnewh
 _cexit
 _configure_narrow_argv
 _crt_atexit
-_cwFl
 _errno
 _execute_onexit_table
 _fseeki64
@@ -1390,7 +1398,6 @@ d$XD9
 d$XE3
 d$`H=
 d$vI9V
-dM``q
 destination address required
 device or resource busy
 digit
@@ -1434,6 +1441,7 @@ h< t <$
 hA_A^A]A\_^][
 host unreachable
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -1455,7 +1463,6 @@ is a directory
 islower
 isspace
 isupper
-jXY@%
 jj@0HK4
 jyvids
 k0i0$
@@ -1486,6 +1493,7 @@ ldexp
 localeconv
 lower
 lstrcmpW
+m0k0$
 malloc
 memchr
 memcmp
@@ -1582,6 +1590,7 @@ switchState
 sxu/H
 sxuIH
 sxutH
+t 4%s
 t @8x
 t H9X8t]
 t!fff
@@ -1671,6 +1680,7 @@ wcsnlen
 wcstoul
 wrong protocol type
 www.digicert.com1!0
+www.digicert.com1$0"
 x ATAVAWH
 x AVAWL
 x AVE3
@@ -1713,8 +1723,8 @@ yH;YXtl
 |$h9i
 |$h9w
 |$rfD
+|@N3>
 |Lu?c
-}4%w4
 }LuHO
 ~`D8I!t-
 ~t&LN

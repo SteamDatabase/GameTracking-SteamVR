@@ -483,7 +483,7 @@
                     ? void 0
                     : e.VRProperties.GetBoolProperty(
                         "/user/head",
-                        a.y.Audio_SupportsDualSpeakerAndJackOutput_Bool
+                        a.z.Audio_SupportsDualSpeakerAndJackOutput_Bool
                       )) && t,
             r =
               null !=
@@ -492,7 +492,7 @@
                     ? void 0
                     : n.VRProperties.GetBoolProperty(
                         "/user/head",
-                        a.y.Hmd_SupportsMicMonitoring_Bool
+                        a.z.Hmd_SupportsMicMonitoring_Bool
                       )) && i,
             u = !1;
           try {
@@ -612,8 +612,8 @@
           null
         ),
         (m = Object(i.b)([r.a], m));
-      var b,
-        g,
+      var g,
+        b,
         S = n("vzqD"),
         _ = n("6YgL"),
         f = n("7uy8"),
@@ -626,12 +626,12 @@
           (e[(e.VIDEO_TRANSLUCENT = 3)] = "VIDEO_TRANSLUCENT"),
           (e[(e.VIDEO_OPAQUE = 4)] = "VIDEO_OPAQUE"),
           (e[(e.COUNT = 5)] = "COUNT");
-      })(b || (b = {})),
+      })(g || (g = {})),
         (function (e) {
           (e[(e.Evaluating = 0)] = "Evaluating"),
             (e[(e.Success = 1)] = "Success"),
             (e[(e.Failure = 2)] = "Failure");
-        })(g || (g = {}));
+        })(b || (b = {}));
       class O extends o.Component {
         constructor(e) {
           super(e),
@@ -642,8 +642,8 @@
         static get DefaultState() {
           return {
             bShowTest: !1,
-            streamingProgress: g.Evaluating,
-            trackingProgress: g.Evaluating,
+            streamingProgress: b.Evaluating,
+            trackingProgress: b.Evaluating,
           };
         }
         componentWillUnmount() {
@@ -651,16 +651,16 @@
         }
         updateStatus() {
           let e = Date.now() - this.m_startTestTime;
-          this.state.streamingProgress == g.Evaluating &&
+          this.state.streamingProgress == b.Evaluating &&
             (this.m_cameraFrameCount > 0
-              ? this.setState({ streamingProgress: g.Success })
-              : e > 5e3 && this.setState({ streamingProgress: g.Failure }));
-          let t = VRHTML.GetPose(a.ob, a.A.Standing);
+              ? this.setState({ streamingProgress: b.Success })
+              : e > 5e3 && this.setState({ streamingProgress: b.Failure }));
+          let t = VRHTML.GetPose(a.qb, a.B.Standing);
           if (this.m_cameraFrameCount > 0) {
-            t.bPoseIsValid || this.setState({ trackingProgress: g.Failure }),
+            t.bPoseIsValid || this.setState({ trackingProgress: b.Failure }),
               Date.now() - this.m_firstFrameTime > 2e3 &&
-                this.state.trackingProgress == g.Evaluating &&
-                this.setState({ trackingProgress: g.Success });
+                this.state.trackingProgress == b.Evaluating &&
+                this.setState({ trackingProgress: b.Success });
           }
         }
         onUpdateCameraFrame() {
@@ -693,25 +693,25 @@
             (this.m_updateInterval = void 0);
         }
         renderStatusLine() {
-          return this.state.streamingProgress == g.Evaluating
+          return this.state.streamingProgress == b.Evaluating
             ? o.createElement(
                 "h1",
                 { className: "CameraStatus Evaluating" },
                 Object(l.c)("#CameraTest_CheckingCamera")
               )
-            : this.state.streamingProgress == g.Failure
+            : this.state.streamingProgress == b.Failure
             ? o.createElement(
                 "h1",
                 { className: "CameraStatus Failure" },
                 Object(l.c)("#CameraTest_CameraFailed")
               )
-            : this.state.trackingProgress == g.Evaluating
+            : this.state.trackingProgress == b.Evaluating
             ? o.createElement(
                 "h1",
                 { className: "CameraStatus Evaluating" },
                 Object(l.c)("#CameraTest_CheckingTracking")
               )
-            : this.state.trackingProgress == g.Failure
+            : this.state.trackingProgress == b.Failure
             ? o.createElement(
                 "h1",
                 { className: "CameraStatus Failure" },
@@ -772,7 +772,7 @@
                 ? void 0
                 : e.VRProperties.GetBoolProperty(
                     "/user/head",
-                    a.y.SupportsRoomViewDepthProjection_Bool
+                    a.z.SupportsRoomViewDepthProjection_Bool
                   )) && t;
         let i = c.d.settings.get(f.e),
           s = [
@@ -817,7 +817,7 @@
                   ? void 0
                   : e.VRProperties.GetBoolProperty(
                       "/user/head",
-                      a.y.CameraSupportsCompatibilityModes_Bool
+                      a.z.CameraSupportsCompatibilityModes_Bool
                     )) && t
           );
         }
@@ -849,7 +849,7 @@
                   ? void 0
                   : e.VRProperties.GetInt32Property(
                       "/user/head",
-                      a.y.CameraCompatibilityMode_Int32
+                      a.z.CameraCompatibilityMode_Int32
                     ))
               ? t
               : a.l.BULK_DEFAULT
@@ -894,17 +894,17 @@
         }
         get currentRoomViewStyle() {
           let e = c.d.settings.get(f.f);
-          return e == b.DEFAULT && (e = b.EDGE_B), e;
+          return e == g.DEFAULT && (e = g.EDGE_B), e;
         }
         renderEnabledSettings() {
           var e, t;
           let n = !1,
             i = !1;
           switch (this.currentRoomViewStyle) {
-            case b.EDGE_A:
+            case g.EDGE_A:
               (i = !0), (n = !0);
               break;
-            case b.EDGE_B:
+            case g.EDGE_B:
               n = !0;
           }
           const s = this.state.cameraRateValue > 0,
@@ -915,21 +915,21 @@
               ) || r != A.Off;
           let p = [
             {
-              value: b.EDGE_A,
+              value: g.EDGE_A,
               sLabel: Object(l.c)("#Settings_Camera_RoomViewStyle_EdgeA"),
             },
             {
-              value: b.EDGE_B,
+              value: g.EDGE_B,
               sLabel: Object(l.c)("#Settings_Camera_RoomViewStyle_EdgeB"),
             },
             {
-              value: b.VIDEO_TRANSLUCENT,
+              value: g.VIDEO_TRANSLUCENT,
               sLabel: Object(l.c)(
                 "#Settings_Camera_RoomViewStyle_VideoTranslucent"
               ),
             },
             {
-              value: b.VIDEO_OPAQUE,
+              value: g.VIDEO_OPAQUE,
               sLabel: Object(l.c)("#Settings_Camera_RoomViewStyle_VideoOpaque"),
             },
           ];
@@ -940,7 +940,7 @@
                   ? void 0
                   : e.VRProperties.GetBoolProperty(
                       "/user/head",
-                      a.y.SupportsRoomViewDepthProjection_Bool
+                      a.z.SupportsRoomViewDepthProjection_Bool
                     )) && t;
           return o.createElement(
             o.Fragment,
@@ -1115,8 +1115,1022 @@
         }
       };
       (M.Name = "general_settings"), (M = Object(i.b)([r.a], M));
-      var T = n("tALH");
-      function R() {
+      var E,
+        R = n("tALH"),
+        T = n("vDqi"),
+        k = n.n(T);
+      !(function (e) {
+        (e.Unknown = "unknown"),
+          (e.CheckingForUpdate = "checking"),
+          (e.Error = "error"),
+          (e.InProgress = "update_in_progress"),
+          (e.Succeeded = "update_succeeded"),
+          (e.Failed = "update_failed"),
+          (e.Reboot = "reboot"),
+          (e.NoServer = "noserver"),
+          (e.Available = "update"),
+          (e.Reinstall = "reinstall");
+      })(E || (E = {}));
+      class I extends o.Component {
+        constructor(e) {
+          super(e),
+            (this.updateTimer = -1),
+            (this.state = { state: E.Unknown });
+        }
+        componentDidMount() {
+          this.RequestChannels();
+        }
+        cancelUpdateTimer() {
+          -1 != this.updateTimer &&
+            (window.clearInterval(this.updateTimer), (this.updateTimer = -1));
+        }
+        componentWillUnmount() {
+          this.cancelUpdateTimer();
+        }
+        RequestChannels() {
+          return Object(i.a)(this, void 0, void 0, function* () {
+            try {
+              console.log("requesting channels");
+              let e = (yield k.a.get("/linux_update/get_channels.json")).data;
+              this.setState({
+                channels: e.channels,
+                current_channel: e.current_channel,
+              });
+            } catch (e) {
+              console.log("failed to get_channels because of exception: " + e),
+                this.setState({
+                  state: E.Error,
+                  detail: "WebAPI request failed",
+                });
+            }
+          });
+        }
+        RequestUpdateState() {
+          return Object(i.a)(this, void 0, void 0, function* () {
+            try {
+              console.log("requesting update state");
+              let e = (yield k.a.get("/linux_update/get_state.json")).data;
+              switch (
+                (console.log("get_state response " + JSON.stringify(e)),
+                this.setState({ state: e.status, detail: e.detail }),
+                e.status)
+              ) {
+                case E.Error:
+                case E.Failed:
+                case E.Reinstall:
+                case E.Succeeded:
+                case E.Reboot:
+                  this.cancelUpdateTimer();
+              }
+            } catch (e) {
+              console.log(
+                "failed to get update state because of exception: " + e
+              ),
+                this.setState({
+                  state: E.Error,
+                  detail: "WebAPI request failed",
+                }),
+                this.cancelUpdateTimer();
+            }
+          });
+        }
+        onClickUpdate() {
+          this.setState({ state: E.InProgress }),
+            -1 == this.updateTimer &&
+              (this.updateTimer = window.setInterval(() => {
+                this.RequestUpdateState();
+              }, 5e3)),
+            console.log("requesting update");
+          try {
+            k.a.post("/linux_update/update.action");
+          } catch (e) {
+            console.log("failed to request update because of exception: " + e),
+              this.setState({
+                state: E.Error,
+                detail: "WebAPI request failed",
+              }),
+              this.cancelUpdateTimer();
+          }
+        }
+        onClickCheckForUpdate() {
+          console.log("check for update"),
+            this.setState({ state: E.CheckingForUpdate, detail: "" }),
+            this.RequestUpdateState();
+        }
+        onClickReboot() {
+          console.log("requesting reboot");
+          try {
+            k.a.post("/linux_update/reboot.action");
+          } catch (e) {
+            console.log("failed to request reboot because of exception: " + e),
+              this.setState({
+                state: E.Error,
+                detail: "WebAPI request failed",
+              });
+          }
+        }
+        renderStatus(e, t, n) {
+          return o.createElement(
+            d.c,
+            { className: "SettingsItem" },
+            o.createElement("div", { className: "Label" }, "Software Updates"),
+            e &&
+              o.createElement(
+                _.a,
+                { className: "ButtonControl", onClick: n, enabled: !!n },
+                e
+              ),
+            t && o.createElement("div", { className: "Label" }, t)
+          );
+        }
+        renderState() {
+          switch (this.state.state) {
+            default:
+            case E.Unknown:
+              return this.renderStatus(
+                "Check For Updates",
+                "",
+                this.onClickCheckForUpdate
+              );
+            case E.CheckingForUpdate:
+              return this.renderStatus("Checking");
+            case E.InProgress:
+              return this.renderStatus(
+                "Installing update...",
+                "Installing update... (typical duration 5 min)"
+              );
+            case E.Available:
+              return this.renderStatus(
+                "Install",
+                "Update Available: " + this.state.detail,
+                this.onClickUpdate
+              );
+            case E.Error:
+              return this.renderStatus(
+                "Retry Install",
+                "Update Error: " + this.state.detail,
+                this.onClickUpdate
+              );
+            case E.Failed:
+              return this.renderStatus(
+                "Retry Install",
+                "Update Failed:" + this.state.detail,
+                this.onClickUpdate
+              );
+            case E.Reinstall:
+              return this.renderStatus(
+                "Reinstall",
+                this.state.detail,
+                this.onClickUpdate
+              );
+            case E.Succeeded:
+            case E.Reboot:
+              return this.renderStatus(
+                "Reboot",
+                "Update Successful. Reboot to finish Update process",
+                this.onClickReboot
+              );
+          }
+        }
+        onChangeChannel(e) {
+          return Object(i.a)(this, void 0, void 0, function* () {
+            console.log("setting channel to " + e);
+            try {
+              this.setState({ current_channel: e }),
+                yield k.a.post(
+                  "/linux_update/set_channel.action",
+                  JSON.stringify({ sNewChannel: e })
+                ),
+                this.RequestUpdateState();
+            } catch (e) {
+              console.log("failed to set channel because of exception: " + e);
+            }
+          });
+        }
+        renderChannelDropdown() {
+          var e;
+          if (
+            !this.state.current_channel ||
+            !(null === (e = this.state.channels) || void 0 === e
+              ? void 0
+              : e.length)
+          )
+            return o.createElement("div", { className: "Label" }, "Loading...");
+          let t = this.state.channels.map((e) => ({ value: e, sLabel: e }));
+          return o.createElement(d.h, {
+            items: t,
+            value: this.state.current_channel,
+            onChange: this.onChangeChannel,
+            defaultLabel: "Channel",
+          });
+        }
+        renderOSUpdateChannel() {
+          return o.createElement(
+            d.c,
+            { className: "SettingsItem" },
+            o.createElement("div", { className: "Label" }, "OS Update Channel"),
+            this.renderChannelDropdown()
+          );
+        }
+        render() {
+          return o.createElement(
+            o.Fragment,
+            null,
+            this.renderState(),
+            this.renderOSUpdateChannel()
+          );
+        }
+      }
+      function P(e) {
+        return e.replace(/\/+$/, "");
+      }
+      Object(i.b)([u.bind], I.prototype, "RequestUpdateState", null),
+        Object(i.b)([u.bind], I.prototype, "onClickUpdate", null),
+        Object(i.b)([u.bind], I.prototype, "onClickCheckForUpdate", null),
+        Object(i.b)([u.bind], I.prototype, "onClickReboot", null),
+        Object(i.b)([u.bind], I.prototype, "onChangeChannel", null);
+      class D extends o.Component {
+        constructor(e) {
+          super(e), (this.state = { currentPath: "" });
+        }
+        componentDidMount() {
+          const e = a.ob.VRPathRegistry.GetRuntimePath();
+          let t = a.ob.VRPathRegistry.GetRuntimePathHistory();
+          console.log("GetRuntimePathHistory: " + JSON.stringify(t)),
+            console.log("currentPath: " + JSON.stringify(e)),
+            this.setState({ currentPath: e, availablePaths: t });
+        }
+        render() {
+          if (!a.ob || null == this.state.availablePaths) return null;
+          const e = (e) => "/usr/local/steamvr" == P(e.toLowerCase()),
+            t = (t) =>
+              e(t)
+                ? "System Default"
+                : ((e) => "/data/work/steamvr" == P(e.toLowerCase()))(t)
+                ? "Custom Build"
+                : "Custom: " + t.toLowerCase();
+          const n = this.state.availablePaths
+              .filter((e) => e)
+              .map((e) => ({ value: e, sLabel: t(e) })),
+            i = e(this.state.currentPath);
+          return o.createElement(
+            d.c,
+            { className: "SettingsItem" },
+            o.createElement("div", { className: "Label" }, "SteamVR Install"),
+            o.createElement(d.h, {
+              defaultLabel: t(this.state.currentPath),
+              items: n,
+              onChange: (e) => {
+                a.ob.VRPathRegistry.SetRuntimePath(e),
+                  console.log("SetRuntimePath to " + e),
+                  c.d.SetRestartRequired(),
+                  this.setState({
+                    currentPath: a.ob.VRPathRegistry.GetRuntimePath(),
+                  });
+              },
+            }),
+            !i &&
+              o.createElement(
+                "div",
+                { className: "Label Warning" },
+                "(Does not update with System Update)"
+              )
+          );
+        }
+      }
+      let B = class extends d.b {
+        constructor(e) {
+          super(e), (this.state = {});
+        }
+        GetNetworkInfo() {
+          let e = { linksPaired: [], foxnetActive: !1, ethernetActive: !1 },
+            t = a.ob.GetHostInfo(a.n.NetworkConnections);
+          if (void 0 !== t) {
+            let n = t.split("\n");
+            for (let t of n) {
+              let n = t.split(":");
+              switch (n[1]) {
+                case "802-3-ethernet":
+                  "activated" == n[2] && (e.ethernetActive = !0);
+                  break;
+                case "802-11-wireless":
+                  "activated" == n[2] && (e.activeWifi = n[0]);
+                  break;
+                case "wireguard":
+                  "activated" == n[2] && (e.foxnetActive = !0);
+              }
+            }
+          }
+          return e;
+        }
+        getSystemVersion() {
+          var e, t, n, i, o, s;
+          let r =
+              null ===
+                (t =
+                  null === (e = a.ob) || void 0 === e
+                    ? void 0
+                    : e.GetHostInfo(a.n.Version)) || void 0 === t
+                ? void 0
+                : t.split("\n"),
+            l = {};
+          if (void 0 !== r)
+            for (let e of r) {
+              let t = e.split("=");
+              switch (t[0]) {
+                case "VERSION":
+                  l.version = t[1];
+                  break;
+                case "USER":
+                  l.user = t[1];
+                  break;
+                case "MACHINE":
+                  l.hostname = t[1];
+                  break;
+                case "DATE":
+                  l.datetime = t[1];
+              }
+            }
+          return null !=
+            (s =
+              null !=
+              (o =
+                null != (i = null != (n = l.version) ? n : "?" + l.user)
+                  ? i
+                  : "?@" + l.hostname)
+                ? o
+                : "?" + l.datetime)
+            ? s
+            : "?";
+        }
+        render() {
+          var e, t, n, i, s, r, l;
+          if (!this.props.active) return null;
+          let c =
+              null !=
+              (t =
+                null === (e = a.ob) || void 0 === e
+                  ? void 0
+                  : e.GetHostInfo(a.n.XRS_CalibrationDate))
+                ? t
+                : "???",
+            u = null,
+            p = !0;
+          try {
+            u = Date.parse(c.split("_")[0]);
+          } finally {
+          }
+          if (u) {
+            const e = "2021-11-22";
+            p = u < Date.parse(e);
+          }
+          let h = this.getSystemVersion(),
+            m = this.GetNetworkInfo(),
+            g = null != (n = m.activeWifi) ? n : "disconnected";
+          return (
+            m.ethernetActive && (g += " +Ethernet"),
+            m.foxnetActive && (g += " +Foxnet"),
+            o.createElement(
+              o.Fragment,
+              null,
+              o.createElement(I, null),
+              o.createElement(D, null),
+              o.createElement("br", null),
+              o.createElement("hr", null),
+              o.createElement(
+                d.c,
+                { className: "SettingsItem" },
+                o.createElement("div", { className: "Label" }, "Hostname"),
+                o.createElement(
+                  "div",
+                  { className: "Label" },
+                  null === (i = a.ob) || void 0 === i
+                    ? void 0
+                    : i.GetHostInfo(a.n.Hostname)
+                )
+              ),
+              o.createElement(
+                d.c,
+                { className: "SettingsItem" },
+                o.createElement(
+                  "div",
+                  { className: "Label" },
+                  "System Version"
+                ),
+                o.createElement("div", { className: "Label" }, h)
+              ),
+              o.createElement(
+                d.c,
+                { className: "SettingsItem" },
+                o.createElement("div", { className: "Label" }, "WiFi"),
+                o.createElement("div", { className: "Label" }, g)
+              ),
+              o.createElement(
+                d.c,
+                { className: "SettingsItem" },
+                o.createElement("div", { className: "Label" }, "Link paired"),
+                null !=
+                  (r =
+                    null === (s = m.linksPaired) || void 0 === s
+                      ? void 0
+                      : s.map((e, t) =>
+                          o.createElement(
+                            "div",
+                            { key: t, className: "Label" },
+                            e
+                          )
+                        ))
+                  ? r
+                  : "none"
+              ),
+              o.createElement(
+                d.c,
+                { className: "SettingsItem" },
+                o.createElement("div", { className: "Label" }, "XRService Cal"),
+                o.createElement("div", { className: "Label" }, c),
+                p &&
+                  o.createElement(
+                    "div",
+                    { className: "Label Error" },
+                    "REQUIRES CAMERA CALIBRATION"
+                  )
+              ),
+              o.createElement(
+                d.c,
+                { className: "SettingsItem" },
+                o.createElement("div", { className: "Label" }, "IP"),
+                o.createElement(
+                  "div",
+                  { className: "Label" },
+                  null === (l = a.ob) || void 0 === l
+                    ? void 0
+                    : l.GetHostInfo(a.n.IP)
+                )
+              )
+            )
+          );
+        }
+      };
+      var L, V;
+      (B.Name = "system_settings"),
+        (B = Object(i.b)([r.a], B)),
+        (function (e) {
+          (e[(e.NoConnection = 0)] = "NoConnection"),
+            (e[(e.Connected = 1)] = "Connected"),
+            (e[(e.ConnectInitiated = 2)] = "ConnectInitiated"),
+            (e[(e.EnteringPassword = 3)] = "EnteringPassword"),
+            (e[(e.Connecting = 4)] = "Connecting"),
+            (e[(e.ConnectionSuccess = 5)] = "ConnectionSuccess"),
+            (e[(e.ConnectionFailure = 6)] = "ConnectionFailure");
+        })(L || (L = {})),
+        (function (e) {
+          (e[(e.NoSoftAP = 0)] = "NoSoftAP"),
+            (e[(e.GettingStatus = 1)] = "GettingStatus"),
+            (e[(e.Intermediate = 2)] = "Intermediate"),
+            (e[(e.ErrorGettingStatus = 3)] = "ErrorGettingStatus"),
+            (e[(e.Creating = 4)] = "Creating"),
+            (e[(e.CreationSuccess = 5)] = "CreationSuccess"),
+            (e[(e.CreationFailure = 6)] = "CreationFailure"),
+            (e[(e.Connected = 7)] = "Connected"),
+            (e[(e.Destroying = 8)] = "Destroying");
+        })(V || (V = {}));
+      class N extends o.Component {
+        constructor(e) {
+          super(e),
+            (this.state = {
+              accessPoints: [],
+              currentAccessPoint: null,
+              targetAccessPoint: null,
+              sTargetPassword: "",
+              softAPState: V.NoSoftAP,
+              sSoftAPSSID: "",
+              sSoftAPPassword: "",
+              sSoftAPMessage: "",
+              bShowConnectModal: !1,
+              connectionState: L.NoConnection,
+            });
+        }
+        componentDidMount() {
+          (this.m_mailbox = new a.c()),
+            this.m_mailbox.Init("WiFiUI").then(() => {
+              this.RefreshAccessPoints(),
+                this.m_mailbox.RegisterHandler("refresh_wifi_ui", (e) => {
+                  console.log("Received refresh message"),
+                    this.setState({
+                      currentAccessPoint: e.currentAccessPoint,
+                      accessPoints: e.accessPoints,
+                    });
+                }),
+                this.m_mailbox.RegisterHandler("join_network_failed", (e) => {
+                  console.log("Received join_network_failed message"),
+                    this.setState({ sError: e.sError });
+                }),
+                this.m_mailbox.RegisterHandler("sap_status_update", (e) => {
+                  let t = () => {
+                    if (0 == e.nReturnCode) {
+                      switch (e.sOutput.charAt(0)) {
+                        case "0":
+                          this.setState({ softAPState: V.NoSoftAP });
+                          break;
+                        case "1":
+                          this.setState({
+                            softAPState: V.Intermediate,
+                            sSoftAPMessage: e.sOutput,
+                          });
+                          break;
+                        case "2":
+                          this.setState({
+                            softAPState: V.Connected,
+                            sSoftAPMessage: e.sOutput.substring(
+                              2,
+                              e.sOutput.length
+                            ),
+                          });
+                      }
+                    } else
+                      this.setState({
+                        softAPState: V.ErrorGettingStatus,
+                        sSoftAPMessage: e.sOutput,
+                      });
+                  };
+                  switch (this.state.softAPState) {
+                    case V.GettingStatus:
+                    case V.CreationSuccess:
+                      window.setTimeout(t, 3e3);
+                      break;
+                    case V.Connected:
+                    case V.ErrorGettingStatus:
+                    case V.Intermediate:
+                    case V.NoSoftAP:
+                      t();
+                  }
+                }),
+                c.d.GetSettingsValue("/settings/internet/enableSoftAP") &&
+                  this.setState({ softAPState: V.GettingStatus });
+            });
+        }
+        componentWillUnmount() {
+          this.m_mailbox = null;
+        }
+        componentDidUpdate(e, t, n) {
+          t.connectionState != this.state.connectionState &&
+            this.HandleConnectionStateTransition(t.connectionState),
+            t.softAPState != this.state.softAPState &&
+              this.HandleSoftAPStateTransition(t.softAPState);
+        }
+        HandleConnectionStateTransition(e) {
+          switch (this.state.connectionState) {
+            case L.Connecting:
+              this.JoinNetwork(
+                this.state.targetAccessPoint.path,
+                this.state.sTargetPassword
+              );
+              break;
+            case L.ConnectionFailure:
+            case L.ConnectionSuccess:
+              this.RefreshAccessPoints();
+          }
+        }
+        HandleSoftAPStateTransition(e) {
+          switch (this.state.softAPState) {
+            case V.Creating:
+              this.CreateSAP();
+              break;
+            case V.GettingStatus:
+            case V.Intermediate:
+              break;
+            case V.Destroying:
+              this.TeardownSAP();
+              break;
+            case V.CreationFailure:
+            case V.CreationSuccess:
+            case V.Connected:
+              break;
+            case V.NoSoftAP:
+              this.setState({ sSoftAPPassword: "", sSoftAPSSID: "" });
+          }
+        }
+        RefreshAccessPoints() {
+          var e;
+          return Object(i.a)(this, void 0, void 0, function* () {
+            try {
+              console.log("requesting access points");
+              let t = (yield k.a.get("/linux_network/enumerate.json")).data;
+              if (t.sError)
+                console.log("failed to get access points: " + t.sError),
+                  this.setState({ sError: t.sError });
+              else {
+                this.setState({
+                  accessPoints: ((e = t.accessPoints), null != e ? e : []),
+                }),
+                  console.log("requesting current access point\n");
+                let n = (yield k.a.get("/linux_network/get_current.json")).data;
+                n.sError
+                  ? (console.log(
+                      "failed to get current access point: " + n.sError
+                    ),
+                    this.setState({ sError: n.sError }))
+                  : this.setState({ currentAccessPoint: n.accessPoint });
+              }
+            } catch (e) {
+              console.log(
+                "failed to get access points because of exception: " + e
+              ),
+                this.setState({ sError: "" + e });
+            }
+          });
+        }
+        onClickJoin(e) {
+          let t = this.state.accessPoints.find((t) => t.path == e);
+          t
+            ? (this.setState({
+                bShowConnectModal: !0,
+                targetAccessPoint: t,
+                sTargetPassword: "",
+              }),
+              t.secure
+                ? (console.log(`network ${e} secured, showing password prompt`),
+                  this.onShowPasswordKeyboard())
+                : (console.log(
+                    `network ${e} is unsecured, so joining with no password prompt`
+                  ),
+                  this.setState({ connectionState: L.Connecting })))
+            : console.log(`Tried to join AP ${e}, which wasn't in our list`);
+        }
+        JoinNetwork(e, t) {
+          return Object(i.a)(this, void 0, void 0, function* () {
+            let n = { sAccessPointPath: e, sPassword: t };
+            try {
+              let t = Date.now(),
+                i = (yield k.a.post("/linux_network/join_network.action", n))
+                  .data;
+              console.log("join_network response: " + JSON.stringify(i) + "\n");
+              let o = Date.now() - t,
+                s = Math.max(4e3 - o, 0);
+              window.setTimeout(() => {
+                i
+                  ? i.sError
+                    ? (console.log(`Failed to join ${e}: ${i.sError}`),
+                      this.setState({ connectionState: L.ConnectionFailure }))
+                    : (console.log(`Join of ${e} was successful`),
+                      this.setState({
+                        connectionState: L.ConnectionSuccess,
+                        sTargetPassword: "",
+                      }))
+                  : (console.log(`Failed to join ${e}: Invalid response`),
+                    this.setState({ connectionState: L.ConnectionFailure }));
+              }, s);
+            } catch (t) {
+              console.log(`Failed to join wifi network ${e}: ` + t),
+                this.setState({ connectionState: L.ConnectionFailure });
+            }
+          });
+        }
+        RenderAccessPoints() {
+          var e, t, n, i, s;
+          let r = null;
+          for (let n of null != (e = this.state.accessPoints) ? e : [])
+            if (
+              n.path ==
+              (null === (t = this.state.currentAccessPoint) || void 0 === t
+                ? void 0
+                : t.path)
+            ) {
+              r = n.path;
+              break;
+            }
+          if (!r)
+            for (let e of null != (n = this.state.accessPoints) ? n : [])
+              if (
+                e.ssid ==
+                (null === (i = this.state.currentAccessPoint) || void 0 === i
+                  ? void 0
+                  : i.ssid)
+              ) {
+                r = e.path;
+                break;
+              }
+          let a = [];
+          for (let e of null != (s = this.state.accessPoints) ? s : [])
+            e.path != r &&
+              a.push(
+                o.createElement(
+                  "div",
+                  {
+                    className: "APRow",
+                    key: e.path,
+                    onClick: () => {
+                      this.onClickJoin(e.path);
+                    },
+                  },
+                  o.createElement("div", { className: "APSSID" }, e.ssid, " "),
+                  o.createElement(
+                    "div",
+                    { className: "APBitRate" },
+                    (e.bitrate_kb / 1024).toFixed(1),
+                    "Mb "
+                  ),
+                  o.createElement(
+                    "div",
+                    { className: "APStrength" },
+                    e.strength,
+                    "% "
+                  ),
+                  o.createElement(
+                    "div",
+                    { className: "APSecure" },
+                    e.secure ? "Yes" : "No"
+                  )
+                )
+              );
+          return o.createElement(
+            "div",
+            { className: "APList" },
+            o.createElement(
+              "div",
+              { className: "APHeader" },
+              o.createElement("div", { className: "APSSID" }, "SSID"),
+              o.createElement("div", { className: "APBitRate" }, "Bit Rate"),
+              o.createElement("div", { className: "APStrength" }, "Strength"),
+              o.createElement("div", { className: "APSecure" }, "Secure")
+            ),
+            a
+          );
+        }
+        CreateSAP() {
+          return Object(i.a)(this, void 0, void 0, function* () {
+            let e = Date.now();
+            try {
+              console.log("CreateSAP");
+              let t = { type: "sap_create" },
+                n = yield this.m_mailbox.SendMessageAndWaitForResponse(
+                  "driver_cv_hmd",
+                  t,
+                  "sap_create_response"
+                );
+              if (n.sError) {
+                let t = Date.now() - e,
+                  i = Math.max(3e3 - t, 0);
+                window.setTimeout(() => {
+                  console.log("Failed to create SAP: " + n.sError),
+                    this.setState({
+                      softAPState: V.CreationFailure,
+                      sSoftAPMessage: n.sError,
+                    });
+                }, i);
+              } else this.setState({ softAPState: V.CreationSuccess });
+            } catch (t) {
+              let n = Date.now() - e,
+                i = Math.max(3e3 - n, 0);
+              window.setTimeout(() => {
+                console.log("Failed to create SAP because exception: " + t),
+                  this.setState({
+                    softAPState: V.CreationFailure,
+                    sSoftAPMessage: t,
+                  });
+              }, i);
+            }
+          });
+        }
+        TeardownSAP() {
+          return Object(i.a)(this, void 0, void 0, function* () {
+            try {
+              console.log("TeardownSAP");
+              let e = { type: "sap_teardown" },
+                t = yield this.m_mailbox.SendMessageAndWaitForResponse(
+                  "driver_cv_hmd",
+                  e,
+                  "sap_teardown_response"
+                );
+              console.log("TeardownSAP result = " + t.return_code + "\n"),
+                this.setState({ softAPState: V.NoSoftAP });
+            } catch (e) {
+              console.log(
+                "Failed to teardown Wi-Fi Hotspot because exception: " + e
+              ),
+                this.setState({ sError: "" + e });
+            }
+          });
+        }
+        DeleteWifiHotspot() {
+          return Object(i.a)(this, void 0, void 0, function* () {
+            try {
+              console.log("DeleteWifiHotspot");
+              let e = { type: "hotspot_delete" };
+              yield this.m_mailbox.SendMessageAndWaitForResponse(
+                "driver_cv_hmd",
+                e,
+                "hotspot_delete_response"
+              );
+            } catch (e) {
+              console.log(
+                "failed to create Wi-Fi Hotspot because exception: " + e
+              ),
+                this.setState({ sError: "" + e });
+            }
+          });
+        }
+        onShowPasswordKeyboard() {
+          var e, t, n;
+          this.setState({
+            connectionState: L.EnteringPassword,
+            sTargetPassword: "",
+          }),
+            null === (e = VRHTML) ||
+              void 0 === e ||
+              e.VROverlay.ShowKeyboard("Entering password", "", 128, (e) => {
+                e && this.setState({ sTargetPassword: e });
+              }),
+            null === (t = VRHTML) ||
+              void 0 === t ||
+              t.VROverlay.SetKeyboardPositionForOverlay(
+                null === (n = VRHTML) || void 0 === n
+                  ? void 0
+                  : n.VROverlay.ThisOverlayKey(),
+                {}
+              );
+        }
+        BIsPasswordInputEnabled() {
+          return !(
+            this.state.connectionState == L.Connecting ||
+            this.state.connectionState == L.ConnectionSuccess
+          );
+        }
+        render() {
+          var e;
+          return o.createElement(
+            o.Fragment,
+            null,
+            o.createElement(
+              d.c,
+              { className: "SettingsItem" },
+              o.createElement(d.n, {
+                name: "/settings/internet/enableSoftAP",
+                label: "Wi-Fi Hotspot",
+                title: "Toggle the Wi-Fi hotspot on headset.",
+                onChange: (e) => {
+                  this.setState({ softAPState: e ? V.Creating : V.Destroying });
+                },
+                onSubsection: o.createElement(
+                  o.Fragment,
+                  null,
+                  this.state.softAPState == V.Connected &&
+                    o.createElement(
+                      "span",
+                      null,
+                      "Hotspot active. ",
+                      this.state.sSoftAPMessage,
+                      " "
+                    ),
+                  this.state.softAPState == V.GettingStatus &&
+                    o.createElement("span", null, "Getting hotspot status..."),
+                  this.state.softAPState == V.Intermediate &&
+                    o.createElement(
+                      "span",
+                      null,
+                      "Hotspot status: ",
+                      this.state.sSoftAPMessage
+                    ),
+                  this.state.softAPState == V.ErrorGettingStatus &&
+                    o.createElement(
+                      "span",
+                      null,
+                      "Error getting hotspot status. ",
+                      this.state.sSoftAPMessage
+                    ),
+                  (this.state.softAPState == V.Creating ||
+                    this.state.softAPState == V.CreationSuccess) &&
+                    o.createElement("span", null, "Creating hotspot..."),
+                  this.state.softAPState == V.CreationFailure &&
+                    o.createElement("span", null, this.state.sSoftAPMessage),
+                  this.state.softAPState == V.Destroying &&
+                    o.createElement("span", null, "Destroying hotspot..."),
+                  this.state.softAPState == V.NoSoftAP &&
+                    o.createElement("span", null, "Hotspot inactive.")
+                ),
+              })
+            ),
+            o.createElement(
+              d.c,
+              { className: "SettingsItem" },
+              o.createElement(
+                "div",
+                { className: "Label" },
+                "Active Wi-Fi Connection"
+              ),
+              o.createElement(
+                "div",
+                { className: "Label" },
+                this.state.currentAccessPoint
+                  ? this.state.currentAccessPoint.ssid
+                  : "None"
+              )
+            ),
+            o.createElement(
+              d.c,
+              { className: "SettingsItem" },
+              o.createElement(
+                "div",
+                { className: "Label" },
+                "Available Wi-Fi Networks"
+              ),
+              o.createElement(
+                "div",
+                { className: "Label" },
+                o.createElement(
+                  _.a,
+                  {
+                    style: { display: "inline-block", width: "fit-content" },
+                    className: "ButtonControl",
+                    onClick: () => {
+                      this.RefreshAccessPoints();
+                    },
+                  },
+                  "Refresh"
+                )
+              )
+            ),
+            this.RenderAccessPoints(),
+            this.state.bShowConnectModal &&
+              o.createElement(
+                d.i,
+                {
+                  header: o.createElement("h1", null, "Connect to Network"),
+                  subheader:
+                    null === (e = this.state.targetAccessPoint) || void 0 === e
+                      ? void 0
+                      : e.ssid,
+                  onDismissRequested: () => {
+                    this.setState({ bShowConnectModal: !1 });
+                  },
+                },
+                o.createElement(
+                  "div",
+                  { style: { display: "flex", marginBottom: "0.5em" } },
+                  o.createElement(
+                    "div",
+                    {
+                      className: this.BIsPasswordInputEnabled()
+                        ? "PasswordInput"
+                        : "PasswordInputDisabled",
+                      onClick: () => {
+                        this.onShowPasswordKeyboard();
+                      },
+                    },
+                    o.createElement(
+                      "span",
+                      { style: { fontSize: "35px" } },
+                      this.state.sTargetPassword
+                    )
+                  ),
+                  o.createElement(
+                    "div",
+                    null,
+                    o.createElement(
+                      d.e,
+                      {
+                        onClick: () => {
+                          this.setState({ connectionState: L.Connecting });
+                        },
+                        enabled: this.BIsPasswordInputEnabled(),
+                      },
+                      "Submit"
+                    )
+                  )
+                ),
+                this.state.connectionState == L.EnteringPassword &&
+                  o.createElement(
+                    "span",
+                    null,
+                    "Please enter the password with the keyboard."
+                  ),
+                this.state.connectionState == L.Connecting &&
+                  o.createElement("span", null, "Connecting..."),
+                this.state.connectionState == L.ConnectionFailure &&
+                  o.createElement(
+                    "span",
+                    null,
+                    "Failed to connect. Please try again."
+                  ),
+                this.state.connectionState == L.ConnectionSuccess &&
+                  o.createElement("span", null, "Connection successful.")
+              )
+          );
+        }
+      }
+      Object(i.b)([u.bind], N.prototype, "onShowPasswordKeyboard", null),
+        Object(i.b)([u.bind], N.prototype, "BIsPasswordInputEnabled", null);
+      let F = class extends d.b {
+        constructor(e) {
+          super(e);
+        }
+        render() {
+          return this.props.active
+            ? o.createElement(o.Fragment, null, o.createElement(N, null))
+            : null;
+        }
+      };
+      function G() {
         const [e, t] = o.useState();
         return o.createElement(
           d.c,
@@ -1144,26 +2158,8 @@
           e && o.createElement("div", { className: "Subsection Label" }, e)
         );
       }
-      function E() {
-        if (!VRHTML) return null;
-        const e = VRHTML.VRPathRegistry.GetRuntimePathHistory().map((e) => ({
-          value: e,
-          sLabel: e,
-        }));
-        return o.createElement(
-          d.c,
-          { className: "SettingsItem" },
-          o.createElement(d.h, {
-            defaultLabel: "Restart with Another SteamVR Install",
-            items: e,
-            onChange: (e) => {
-              VRHTML.VRPathRegistry.SetRuntimePath(e),
-                VRHTML.RestartSteamVR(!1);
-            },
-          })
-        );
-      }
-      const k = Object(r.a)(() =>
+      (F.Name = "internet_settings"), (F = Object(i.b)([r.a], F));
+      const x = Object(r.a)(() =>
           o.createElement(
             d.c,
             { className: "SettingsItem" },
@@ -1186,7 +2182,7 @@
             })
           )
         ),
-        I = (e) => {
+        H = (e) => {
           const [t, n] = o.useState(1),
             [i, s] = o.useState(1),
             [r, a] = o.useState(1),
@@ -1251,7 +2247,7 @@
             })
           );
         },
-        D = (e) => {
+        W = (e) => {
           const [t, n] = o.useState(1);
           return o.createElement(
             o.Fragment,
@@ -1269,7 +2265,7 @@
             })
           );
         },
-        B = (e) => {
+        U = (e) => {
           const [t, n] = o.useState(1);
           return o.createElement(
             o.Fragment,
@@ -1287,7 +2283,7 @@
             })
           );
         },
-        P = Object(r.a)(() => {
+        q = Object(r.a)(() => {
           const e = "settingscontrolzoo" == c.d.routePageSection;
           return o.createElement(
             o.Fragment,
@@ -1311,15 +2307,15 @@
                   header: "Settings Controls",
                   onDismissRequested: () => c.d.setRoutePageSection(null),
                 },
-                o.createElement(I, null),
+                o.createElement(H, null),
                 o.createElement("hr", null),
-                o.createElement(D, null),
+                o.createElement(W, null),
                 o.createElement("hr", null),
-                o.createElement(B, null)
+                o.createElement(U, null)
               )
           );
         });
-      let L = class extends d.b {
+      let z = class extends d.b {
         constructor(e) {
           super(e);
         }
@@ -1365,18 +2361,17 @@
                   swapOnOff: !0,
                   label: Object(l.c)("#Settings_Animations"),
                 }),
-                o.createElement(k, null),
-                o.createElement(R, null),
-                o.createElement(E, null),
-                o.createElement(P, null),
+                o.createElement(x, null),
+                o.createElement(G, null),
+                o.createElement(q, null),
                 this.makeResetToDefaultButton()
               )
             : null;
         }
       };
-      (L.Name = "internal_settings"), (L = Object(i.b)([r.a], L));
-      var V = n("hcOo");
-      let N = class extends d.b {
+      (z.Name = "internal_settings"), (z = Object(i.b)([r.a], z));
+      var K = n("hcOo");
+      let X = class extends d.b {
         constructor(e) {
           super(e);
         }
@@ -1397,23 +2392,23 @@
                 ? void 0
                 : e.XRRuntimeManager.GetCurrentRuntime())
               ? t
-              : [a.r.Error, ""];
-          a.r.ThisSteamVR;
+              : [a.s.Error, ""];
+          a.s.ThisSteamVR;
           switch (i) {
-            case a.r.AnotherSteamVR:
+            case a.s.AnotherSteamVR:
               s = "#OpenXR_AnotherSteamVR";
               break;
-            case a.r.ThisSteamVR:
+            case a.s.ThisSteamVR:
               s = "#OpenXR_SteamVR";
               break;
             default:
-            case a.r.Error:
+            case a.s.Error:
               s = "#OpenXR_Error";
               break;
-            case a.r.None:
+            case a.s.None:
               s = "#OpenXR_None";
               break;
-            case a.r.AnotherRuntime:
+            case a.s.AnotherRuntime:
               switch (s) {
                 case "Oculus OpenXR":
                   s = "#OpenXR_OculusRuntime";
@@ -1464,11 +2459,11 @@
           );
         }
       };
-      (N.Name = "developer_settings"),
-        Object(i.b)([u.bind], N.prototype, "OnSetAsOpenXRRuntime", null),
-        (N = Object(i.b)([r.a], N));
-      var F = n("uFkT");
-      let G = class extends o.Component {
+      (X.Name = "developer_settings"),
+        Object(i.b)([u.bind], X.prototype, "OnSetAsOpenXRRuntime", null),
+        (X = Object(i.b)([r.a], X));
+      var Q = n("uFkT");
+      let Y = class extends o.Component {
         constructor(e) {
           super(e),
             (this.m_refSelectedButton = o.createRef()),
@@ -1554,7 +2549,7 @@
               o.createElement(
                 _.a,
                 {
-                  className: Object(V.a)("ButtonControl", ["Background", !!i]),
+                  className: Object(K.a)("ButtonControl", ["Background", !!i]),
                   style: {
                     "--background-url-value": i ? 'url("' + i + '")' : null,
                   },
@@ -1570,7 +2565,7 @@
                   onDismissRequested: this.hideModal,
                   className: "Backgrounds",
                   header: Object(l.c)("#Settings_Appearance_Background"),
-                  subheader: F.a.IsSteamAvailable
+                  subheader: Q.a.IsSteamAvailable
                     ? null
                     : Object(l.c)("#Settings_Appearance_Background_NoSteam"),
                 },
@@ -1579,7 +2574,7 @@
                   { className: "BackgroundsGrid" },
                   t.map((t, n) =>
                     o.createElement(_.a, {
-                      className: Object(V.a)("ButtonControl", "Background", [
+                      className: Object(K.a)("ButtonControl", "Background", [
                         "Selected",
                         t.file == e,
                       ]),
@@ -1599,13 +2594,13 @@
           );
         }
       };
-      Object(i.b)([p.a], G.prototype, "updateUGCItems", null),
-        Object(i.b)([p.a], G.prototype, "setBackground", null),
-        Object(i.b)([p.a], G.prototype, "hideModal", null),
-        Object(i.b)([p.a], G.prototype, "showModal", null),
-        Object(i.b)([v.f], G.prototype, "currentBackgroundPath", null),
-        (G = Object(i.b)([r.a], G));
-      class H extends o.Component {
+      Object(i.b)([p.a], Y.prototype, "updateUGCItems", null),
+        Object(i.b)([p.a], Y.prototype, "setBackground", null),
+        Object(i.b)([p.a], Y.prototype, "hideModal", null),
+        Object(i.b)([p.a], Y.prototype, "showModal", null),
+        Object(i.b)([v.f], Y.prototype, "currentBackgroundPath", null),
+        (Y = Object(i.b)([r.a], Y));
+      class J extends o.Component {
         constructor() {
           super(...arguments),
             (this.m_sUniqueIdForForceBoundsVisible = Math.random().toString());
@@ -1628,7 +2623,7 @@
           return null;
         }
       }
-      let x = class extends d.b {
+      let $ = class extends d.b {
         constructor(e) {
           super(e);
         }
@@ -1649,7 +2644,7 @@
             o.createElement(
               o.Fragment,
               null,
-              o.createElement(H, null),
+              o.createElement(J, null),
               o.createElement(d.h, {
                 name: "/settings/collisionBounds/CollisionBoundsStyle",
                 label: Object(l.c)("#Settings_Chaperone_Style"),
@@ -1731,7 +2726,7 @@
                 label: Object(l.c)("#Settings_Appearance_PlayArea_FloorColor"),
                 name: "/settings/steamvr/playAreaColor",
               }),
-              o.createElement(G, null),
+              o.createElement(Y, null),
               n &&
                 o.createElement(d.n, {
                   name: "/settings/steamvr/backgroundUseDomeProjection",
@@ -1789,14 +2784,12 @@
           );
         }
       };
-      (x.Name = "playarea_settings"), (x = Object(i.b)([r.a], x));
-      var W,
-        U = n("vDqi"),
-        q = n.n(U);
-      class z {
+      var Z;
+      ($.Name = "playarea_settings"), ($ = Object(i.b)([r.a], $));
+      class ee {
         constructor() {
           (this.driverNameToIdMap = new Map()),
-            q.a.get("/drivers/list.json").then((e) => {
+            k.a.get("/drivers/list.json").then((e) => {
               const t = e.data.drivers;
               (this.driverList = t),
                 console.log(t),
@@ -1806,7 +2799,7 @@
             });
         }
         prettyName(e) {
-          return z.driverPrettyNames[e] || e;
+          return ee.driverPrettyNames[e] || e;
         }
         unBlock(e) {
           c.d.SetRestartRequired(),
@@ -1814,13 +2807,13 @@
               this.driverNameToIdMap.get(e)
             ].blocked_by_safe_mode = !1);
           let t = { driver: e };
-          return q.a.post("/drivers/unblock", t);
+          return k.a.post("/drivers/unblock", t);
         }
         setEnabled(e, t) {
           c.d.SetRestartRequired(),
             (this.driverList[this.driverNameToIdMap.get(e)].enabled = t);
           let n = { driver: e, enable: t };
-          return q.a.post("/drivers/setenable", n);
+          return k.a.post("/drivers/setenable", n);
         }
         get visibleDriverList() {
           return this.driverList.filter(
@@ -1844,7 +2837,7 @@
           ).length;
         }
       }
-      (z.driverPrettyNames = {
+      (ee.driverPrettyNames = {
         lighthouse: "Lighthouse (Index, Vive, ...)",
         oculus: "Oculus (Rift, Rift S, Quest)",
         oculus_legacy: "Legacy Oculus (DK1, DK2)",
@@ -1860,18 +2853,18 @@
         alvr: "ALVR - Air Light VR (Gear VR, Oculus Go, Quest)",
         VirtualDesktop: "Virtual Desktop Streamer (Quest)",
       }),
-        Object(i.b)([v.m], z.prototype, "driverList", void 0),
-        Object(i.b)([v.f], z.prototype, "visibleDriverList", null),
-        Object(i.b)([v.f], z.prototype, "numBlockedDrivers", null),
-        Object(i.b)([v.f], z.prototype, "numDisabledDrivers", null),
+        Object(i.b)([v.m], ee.prototype, "driverList", void 0),
+        Object(i.b)([v.f], ee.prototype, "visibleDriverList", null),
+        Object(i.b)([v.f], ee.prototype, "numBlockedDrivers", null),
+        Object(i.b)([v.f], ee.prototype, "numDisabledDrivers", null),
         Object(i.b)(
           [v.f],
-          z.prototype,
+          ee.prototype,
           "numUserManuallyDisenabledDrivers",
           null
         );
-      const K = new z(),
-        X = Object(r.a)(() =>
+      const te = new ee(),
+        ne = Object(r.a)(() =>
           s.a.createElement(
             _.a,
             {
@@ -1879,16 +2872,16 @@
               title: Object(l.c)("#Settings_Drivers_UnblockAllTip"),
               onClick: () =>
                 Object(i.a)(void 0, void 0, void 0, function* () {
-                  const e = K.driverList
+                  const e = te.driverList
                     .filter((e) => e.blocked_by_safe_mode)
                     .map((e) => e.manifest.name);
-                  for (let t = 0; t < e.length; ++t) yield K.unBlock(e[t]);
+                  for (let t = 0; t < e.length; ++t) yield te.unBlock(e[t]);
                 }),
             },
             Object(l.c)("#Settings_Drivers_UnblockAll")
           )
         );
-      function Q(e) {
+      function ie(e) {
         return e.blocked
           ? s.a.createElement(
               d.c,
@@ -1911,41 +2904,41 @@
               value: e.enabled,
             });
       }
-      const Y = Object(r.a)(() =>
+      const oe = Object(r.a)(() =>
         s.a.createElement(
           s.a.Fragment,
           null,
-          K.visibleDriverList.map((e) =>
-            s.a.createElement(Q, {
+          te.visibleDriverList.map((e) =>
+            s.a.createElement(ie, {
               key: e.manifest.name,
-              label: K.prettyName(e.manifest.name),
+              label: te.prettyName(e.manifest.name),
               title: e.manifest.name,
               blocked: e.blocked_by_safe_mode,
               enabled: e.enabled,
               onToggleEnable: (t) => {
-                return (n = e.manifest.name), (i = t), void K.setEnabled(n, i);
+                return (n = e.manifest.name), (i = t), void te.setEnabled(n, i);
                 var n, i;
               },
               onUnblock: () => {
-                return (t = e.manifest.name), void K.unBlock(t);
+                return (t = e.manifest.name), void te.unBlock(t);
                 var t;
               },
             })
           )
         )
       );
-      let J = (W = class extends s.a.Component {
+      let se = (Z = class extends s.a.Component {
         constructor(e) {
           super(e);
         }
         render() {
-          const e = K.numBlockedDrivers,
-            t = K.numDisabledDrivers,
+          const e = te.numBlockedDrivers,
+            t = te.numDisabledDrivers,
             n =
               c.d.showAdvancedSettings ||
               e ||
-              K.numUserManuallyDisenabledDrivers,
-            i = c.d.routePageSection == W.PAGE_SECTION;
+              te.numUserManuallyDisenabledDrivers,
+            i = c.d.routePageSection == Z.PAGE_SECTION;
           return s.a.createElement(
             s.a.Fragment,
             null,
@@ -1957,7 +2950,7 @@
                   _.a,
                   {
                     className: "ButtonControl",
-                    onClick: () => c.d.setRoutePageSection(W.PAGE_SECTION),
+                    onClick: () => c.d.setRoutePageSection(Z.PAGE_SECTION),
                   },
                   Object(l.c)("#Settings_Drivers_ShowDriverManagerUI"),
                   0 != e &&
@@ -1976,7 +2969,7 @@
                 )
               ),
             i &&
-              K.driverList &&
+              te.driverList &&
               s.a.createElement(
                 d.i,
                 {
@@ -1992,17 +2985,17 @@
                             { className: "Label" },
                             Object(l.c)("#Settings_Drivers_SomeBlocked")
                           ),
-                          s.a.createElement(X, null)
+                          s.a.createElement(ne, null)
                         ),
                   onDismissRequested: () => c.d.setRoutePageSection(null),
                 },
-                s.a.createElement(Y, null)
+                s.a.createElement(oe, null)
               )
           );
         }
       });
-      (J.PAGE_SECTION = "drivermanager"), (J = W = Object(i.b)([r.a], J));
-      let $ = class extends o.Component {
+      (se.PAGE_SECTION = "drivermanager"), (se = Z = Object(i.b)([r.a], se));
+      let re = class extends o.Component {
         constructor(e) {
           super(e), (this.state = { bShowingModal: !1 });
         }
@@ -2073,10 +3066,10 @@
           );
         }
       };
-      Object(i.b)([p.a], $.prototype, "show", null),
-        Object(i.b)([p.a], $.prototype, "hide", null),
-        ($ = Object(i.b)([r.a], $));
-      let Z = class extends d.b {
+      Object(i.b)([p.a], re.prototype, "show", null),
+        Object(i.b)([p.a], re.prototype, "hide", null),
+        (re = Object(i.b)([r.a], re));
+      let ae = class extends d.b {
         constructor(e) {
           super(e);
         }
@@ -2085,8 +3078,8 @@
             ? o.createElement(
                 o.Fragment,
                 null,
-                o.createElement($, null),
-                o.createElement(J, null),
+                o.createElement(re, null),
+                o.createElement(se, null),
                 o.createElement("hr", null),
                 this.schemaComponents,
                 this.makeResetToDefaultButton()
@@ -2094,8 +3087,8 @@
             : null;
         }
       };
-      (Z.Name = "startupshutdown_settings"), (Z = Object(i.b)([r.a], Z));
-      let ee = class extends o.Component {
+      (ae.Name = "startupshutdown_settings"), (ae = Object(i.b)([r.a], ae));
+      let le = class extends o.Component {
         constructor(e) {
           super(e),
             (this.state = {
@@ -2125,7 +3118,7 @@
             detents: [1],
             onChange: (e) => {
               this.setState({ m_nValue: e }),
-                Object(a.i)() != a.H.Overlay &&
+                Object(a.i)() != a.I.Overlay &&
                   c.d.SetSettingsValue("/settings/dashboard/dashboardScale", e);
             },
             onFinalChange: (e) =>
@@ -2133,8 +3126,8 @@
           });
         }
       };
-      ee = Object(i.b)([r.a], ee);
-      let te = class extends d.b {
+      le = Object(i.b)([r.a], le);
+      let ce = class extends d.b {
         constructor(e) {
           super(e);
         }
@@ -2187,15 +3180,15 @@
             : null;
         }
       };
-      (te.Name = "dashboard_settings"), (te = Object(i.b)([r.a], te));
-      var ne,
-        ie = n("YRJX"),
-        oe = n("p9CI"),
-        se = n("/CXA");
+      (ce.Name = "dashboard_settings"), (ce = Object(i.b)([r.a], ce));
+      var de,
+        ue = n("YRJX"),
+        pe = n("p9CI"),
+        he = n("/CXA");
       n.d(t, "a", function () {
-        return ae;
+        return ge;
       });
-      class re extends o.Component {
+      class me extends o.Component {
         constructor(e) {
           super(e),
             (this.state = {
@@ -2205,16 +3198,16 @@
             });
         }
         get enabled() {
-          const e = Object(a.i)() == a.H.Overlay;
+          const e = Object(a.i)() == a.I.Overlay;
           return this.props.standalonePanel == e;
         }
         onExitApp() {
           var e;
-          null === (e = a.mb) || void 0 === e || e.QuitSceneApp();
+          null === (e = a.ob) || void 0 === e || e.QuitSceneApp();
         }
         onRestartSteamVR() {
-          a.mb
-            ? a.mb.RestartSteamVR(!1)
+          a.ob
+            ? a.ob.RestartSteamVR(!1)
             : window.open("vrmonitor://restartsystem");
         }
         onRestartRequired() {
@@ -2299,16 +3292,16 @@
             if (null === e) return null;
             const t = "mainmountable" + "_TopCenter";
             return o.createElement(
-              a.lb,
+              a.nb,
               { parent_id: t, translation: { y: 0.2, z: -0.05 } },
               o.createElement(
-                a.Y,
+                a.ab,
                 {
                   debug_name: "settingsrestartbanner",
                   curvature_origin_id: f.i,
-                  origin: a.s.BottomCenter,
+                  origin: a.t.BottomCenter,
                   interactive: !0,
-                  target_dpi_panel_id: ie.s,
+                  target_dpi_panel_id: ue.r,
                   reflect: 0.1,
                 },
                 e
@@ -2318,11 +3311,11 @@
           return e;
         }
       }
-      Object(i.b)([u.bind], re.prototype, "onExitApp", null),
-        Object(i.b)([u.bind], re.prototype, "onRestartSteamVR", null),
-        Object(i.b)([u.bind], re.prototype, "onRestartRequired", null),
-        Object(i.b)([u.bind], re.prototype, "onAppRestartRequired", null);
-      let ae = (ne = class extends o.Component {
+      Object(i.b)([u.bind], me.prototype, "onExitApp", null),
+        Object(i.b)([u.bind], me.prototype, "onRestartSteamVR", null),
+        Object(i.b)([u.bind], me.prototype, "onRestartRequired", null),
+        Object(i.b)([u.bind], me.prototype, "onAppRestartRequired", null);
+      let ge = (de = class extends o.Component {
         constructor(e) {
           super(e),
             (this.m_refSettingsPageContainer = o.createRef()),
@@ -2335,10 +3328,10 @@
             c.d.routePage
               ? this.setState({ sActiveSettingSection: c.d.routePage })
               : c.d.setRoutePage(
-                  c.d.settingsSchema.filter(ne.shouldShowSection)[0].controller
+                  c.d.settingsSchema.filter(de.shouldShowSection)[0].controller
                 );
           })),
-            (this.m_fidelitySettingsObserver = new V.b()),
+            (this.m_fidelitySettingsObserver = new K.b()),
             this.ListenForHomeEnabledChanges();
         }
         componentDidUpdate(e, t) {
@@ -2360,17 +3353,17 @@
         render() {
           const e = !c.d.connected || !c.d.settingsSchema;
           let t = null;
-          e && Object(a.i)() != a.H.Overlay
+          e && Object(a.i)() != a.I.Overlay
             ? (t = o.createElement(
                 "div",
                 { className: "Label" },
                 Object(l.c)("#Settings_Loading")
               ))
             : e ||
-              ((Object(a.i)() != a.H.Overlay || this.props.visible) &&
+              ((Object(a.i)() != a.I.Overlay || this.props.visible) &&
                 (t = this.renderSettingsPanelContents()));
           let n = null;
-          if (Object(a.i)() == a.H.Overlay) {
+          if (Object(a.i)() == a.I.Overlay) {
             const e = "mainmountable",
               i = e + "_TopCenter";
             n = o.createElement(
@@ -2382,17 +3375,17 @@
                 summonOverlayKey: f.D,
                 mountableUnqualifiedID: e,
               },
-              t && o.createElement(re, { standalonePanel: !0 }),
+              t && o.createElement(me, { standalonePanel: !0 }),
               t &&
                 o.createElement(
-                  ie.h,
+                  ue.h,
                   {
                     visible: !0,
                     debugName: "settings",
                     additionalClassNames: "Settings",
                     foregroundReflectMultiplier: 0.25,
                   },
-                  o.createElement(a.Z, { id: i, location: a.s.TopCenter }),
+                  o.createElement(a.bb, { id: i, location: a.t.TopCenter }),
                   t
                 )
             );
@@ -2400,9 +3393,9 @@
           return o.createElement(
             "div",
             {
-              className: Object(V.a)(
+              className: Object(K.a)(
                 "SettingsMain",
-                Object(a.i)() == a.H.Overlay ? "Overlay" : "Desktop",
+                Object(a.i)() == a.I.Overlay ? "Overlay" : "Desktop",
                 ["Loading", e]
               ),
             },
@@ -2410,26 +3403,26 @@
           );
         }
         renderSettingsPanelContents() {
-          const e = c.d.settingsSchema.filter(ne.shouldShowSection);
+          const e = c.d.settingsSchema.filter(de.shouldShowSection);
           return o.createElement(
             _.b,
             { className: "SettingsMainPanel" },
-            o.createElement(re, { standalonePanel: !1 }),
+            o.createElement(me, { standalonePanel: !1 }),
             o.createElement(
               "div",
               { className: "SettingsSidebarPageModalContainer" },
               o.createElement(
-                se.c,
+                he.c,
                 { className: "SettingsSidebarPageContainer" },
                 o.createElement(
                   "div",
-                  { className: Object(V.a)("SettingsSidebar") },
+                  { className: Object(K.a)("SettingsSidebar") },
                   e.map(this.renderSectionButton),
                   o.createElement("div", { className: "Spacer" }),
                   o.createElement(
                     "div",
                     {
-                      className: Object(V.a)(
+                      className: Object(K.a)(
                         "Bottom",
                         "AdvancedSettingsToggle",
                         ["Fadable", !c.d.showAdvancedSettings]
@@ -2445,11 +3438,11 @@
                   )
                 ),
                 o.createElement(
-                  oe.b,
+                  pe.b,
                   {
-                    scrollDirection: oe.a.Vertical,
+                    scrollDirection: pe.a.Vertical,
                     alwaysShowScrollbars: !0,
-                    className: Object(V.a)("SettingsPageContainer"),
+                    className: Object(K.a)("SettingsPageContainer"),
                     ref: this.m_refSettingsPageContainer,
                   },
                   e.map(this.renderSectionPage)
@@ -2482,8 +3475,9 @@
           const t = e.controller ? e.controller : "generic",
             n = this.state.sActiveSettingSection === e.controller,
             i =
-              [m, Z, x, S.c, w, M, te, N, L, T.a].find((e) => e.Name === t) ||
-              d.b;
+              [m, ae, $, S.c, w, M, ce, X, z, R.a, B, F].find(
+                (e) => e.Name === t
+              ) || d.b;
           return o.createElement(i, { key: e.title, section: e, active: n });
         }
         static shouldShowSection(e) {
@@ -2491,54 +3485,66 @@
           if (
             e.internal_only &&
             !c.d.showInternalSettings &&
-            !c.d.settings.get(ne.k_sShowInternalSettings)
+            !c.d.settings.get(de.k_sShowInternalSettings)
+          )
+            return !1;
+          if (
+            e.controller == B.Name &&
+            !c.d.settings.get(de.k_sShowSystemSettings)
+          )
+            return !1;
+          if (
+            e.controller == F.Name &&
+            !c.d.settings.get(de.k_sShowInternetSettings)
           )
             return !1;
           if (
             !e.show_without_hmd &&
-            !(null === (t = a.mb) || void 0 === t ? void 0 : t.HasHMD())
+            !(null === (t = a.ob) || void 0 === t ? void 0 : t.HasHMD())
           )
             return !1;
-          if (e.desktop_only && Object(a.i)() == a.H.Overlay) return !1;
+          if (e.desktop_only && Object(a.i)() == a.I.Overlay) return !1;
           if (e.advanced_only && !c.d.showAdvancedSettings) return !1;
           if (
             e.controller == w.Name &&
-            !(null === (n = a.mb) || void 0 === n
+            !(null === (n = a.ob) || void 0 === n
               ? void 0
               : n.VRProperties.GetBoolProperty(
                   "/user/head",
-                  a.y.HasCamera_Bool
+                  a.z.HasCamera_Bool
                 ))
           )
             return !1;
           if (e.controller == m.Name) {
             if (!(c.d.systemInfo && c.d.systemInfo.os_type >= 0)) return !1;
           }
-          return !(!a.mb && e.web_helper_only);
+          return !(!a.ob && e.web_helper_only);
         }
         ListenForHomeEnabledChanges() {
           return Object(i.a)(this, void 0, void 0, function* () {
-            if (Object(a.i)() != a.H.Overlay) return;
+            if (Object(a.i)() != a.I.Overlay) return;
             let e = yield c.d.GetSettingsValue(f.v);
-            a.mb &&
+            a.ob &&
               Object(v.e)(() => {
                 let t = c.d.settings.get(f.v);
                 void 0 !== t &&
                   t != e &&
-                  (t && !a.mb.VRApplications.GetSceneApplicationKey()
-                    ? a.mb.VRApplications.LaunchApplication(f.y)
+                  (t && !a.ob.VRApplications.GetSceneApplicationKey()
+                    ? a.ob.VRApplications.LaunchApplication(f.y)
                     : t ||
-                      a.mb.VRApplications.GetSceneApplicationKey() != f.y ||
-                      a.mb.QuitSceneApp(),
+                      a.ob.VRApplications.GetSceneApplicationKey() != f.y ||
+                      a.ob.QuitSceneApp(),
                   (e = t));
               });
           });
         }
       });
-      (ae.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
-        Object(i.b)([u.bind], ae.prototype, "renderSectionButton", null),
-        Object(i.b)([u.bind], ae.prototype, "renderSectionPage", null),
-        (ae = ne = Object(i.b)([r.a], ae));
+      (ge.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
+        (ge.k_sShowSystemSettings = "/settings/steamvr/showSystemSettings"),
+        (ge.k_sShowInternetSettings = "/settings/steamvr/showInternetSettings"),
+        Object(i.b)([u.bind], ge.prototype, "renderSectionButton", null),
+        Object(i.b)([u.bind], ge.prototype, "renderSectionPage", null),
+        (ge = de = Object(i.b)([r.a], ge));
     },
     "6YgL": function (e, t, n) {
       "use strict";
@@ -2598,13 +3604,13 @@
             void 0 === n ||
             n.call(t, e),
             this.disabled ||
-              (Object(a.i)() == a.H.Overlay &&
+              (Object(a.i)() == a.I.Overlay &&
                 l.b.Instance.triggerHaptic(l.a.ButtonEnter));
         }
         onMouseLeave(e) {
           this.props.onMouseLeave && this.props.onMouseLeave(e),
             this.disabled ||
-              (Object(a.i)() == a.H.Overlay &&
+              (Object(a.i)() == a.I.Overlay &&
                 l.b.Instance.triggerHaptic(l.a.ButtonLeave));
         }
         render() {
@@ -2716,10 +3722,10 @@
           return m;
         }),
         n.d(t, "D", function () {
-          return b;
+          return g;
         }),
         n.d(t, "H", function () {
-          return g;
+          return b;
         }),
         n.d(t, "I", function () {
           return S;
@@ -2755,13 +3761,13 @@
           return M;
         }),
         n.d(t, "x", function () {
-          return T;
+          return E;
         }),
         n.d(t, "f", function () {
           return R;
         }),
         n.d(t, "t", function () {
-          return E;
+          return T;
         }),
         n.d(t, "u", function () {
           return k;
@@ -2770,13 +3776,13 @@
           return I;
         }),
         n.d(t, "z", function () {
-          return D;
+          return P;
         }),
         n.d(t, "E", function () {
-          return B;
+          return D;
         }),
         n.d(t, "A", function () {
-          return P;
+          return B;
         }),
         n.d(t, "m", function () {
           return L;
@@ -2794,10 +3800,10 @@
           return G;
         }),
         n.d(t, "e", function () {
-          return H;
+          return x;
         }),
         n.d(t, "d", function () {
-          return x;
+          return H;
         }),
         n.d(t, "w", function () {
           return W;
@@ -2820,8 +3826,8 @@
         p = "current.scene.app.binding.list",
         h = "system.standalone",
         m = "system.systemui",
-        b = "system.settings",
-        g = "valve.steam.bigpicture",
+        g = "system.settings",
+        b = "valve.steam.bigpicture",
         S = "valve.steam.desktop",
         _ = "system.vrwebhelper.controllerbinding",
         f = "system.messageoverlay",
@@ -2833,21 +3839,21 @@
         w = "/settings/steamvr/enableHomeApp",
         j = "/settings/steamvr/supersampleManualOverride",
         M = "/settings/steamvr/supersampleScale",
-        T = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
+        E = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
         R = "/settings/camera/roomViewStyle",
-        E = "/settings/steamvr/backgroundCameraHeight",
+        T = "/settings/steamvr/backgroundCameraHeight",
         k = "/settings/steamvr/backgroundDomeRadius",
         I = "/settings/steamvr/analogGain",
-        D = "/settings/driver_lighthouse/indexHmdColumnCorrection",
-        B = "/settings/steamvr/showAdvancedSettings",
-        P = "/settings/dashboard/lastAccessedExternalOverlayKey",
+        P = "/settings/driver_lighthouse/indexHmdColumnCorrection",
+        D = "/settings/steamvr/showAdvancedSettings",
+        B = "/settings/dashboard/lastAccessedExternalOverlayKey",
         L = "/settings/internal/dashboardInitialOverlay",
         V = "/settings/dashboard/position_2",
         N = "/settings/dashboard/disableAnimations",
         F = "/settings/steamvr/overlayRenderQuality_2",
         G = "/settings/collisionBounds/CollisionBoundsFadeDistance",
-        H = "/settings/camera/roomView",
-        x = "/settings/camera/enableCamera",
+        x = "/settings/camera/roomView",
+        H = "/settings/camera/enableCamera",
         W = "/settings/dashboard/enableWindowView",
         U = "/settings/dashboard/maxInlineTabs",
         q = "binding_callouts/main";
@@ -2903,12 +3909,12 @@
           return r.s_Instance || (r.s_Instance = new r()), r.s_Instance;
         }
         preloadSounds() {
-          if (!(Object(s.i)() != s.H.Overlay || this.m_mapSoundElems.size > 0))
+          if (!(Object(s.i)() != s.I.Overlay || this.m_mapSoundElems.size > 0))
             for (let e in i) isNaN(Number(e)) || this.loadSounds(Number(e));
         }
         playSound(e) {
           return Object(o.a)(this, void 0, void 0, function* () {
-            if (Object(s.i)() != s.H.Overlay) return;
+            if (Object(s.i)() != s.I.Overlay) return;
             if (null == e) return;
             const t = this.getAudioElems(e);
             if (!t || 0 == t.length) return;
@@ -3340,7 +4346,7 @@
         return i;
       }),
         n.d(t, "a", function () {
-          return g;
+          return b;
         }),
         n.d(t, "c", function () {
           return S;
@@ -3360,7 +4366,7 @@
       !(function (e) {
         e[(e.Separator = 0)] = "Separator";
       })(i || (i = {}));
-      class b extends s.Component {
+      class g extends s.Component {
         constructor() {
           super(...arguments),
             (this.m_refView = s.createRef()),
@@ -3475,17 +4481,17 @@
                 : 0,
             a = this.m_elemBoundingParent.getBoundingClientRect();
           (s.style.minWidth = r + "px"),
-            (s.style.maxWidth = a.width - 2 * b.POPOVER_BOUNDS_MARGIN + "px"),
-            (s.style.maxHeight = a.height - 2 * b.POPOVER_BOUNDS_MARGIN + "px");
+            (s.style.maxWidth = a.width - 2 * g.POPOVER_BOUNDS_MARGIN + "px"),
+            (s.style.maxHeight = a.height - 2 * g.POPOVER_BOUNDS_MARGIN + "px");
           const l = this.props.buttonRef.current.elem.getBoundingClientRect();
           let c = l.left,
             d = l.top;
           const u = o.getBoundingClientRect(),
             p = this.m_elemBoundingParent.getBoundingClientRect(),
-            h = p.left + b.POPOVER_BOUNDS_MARGIN,
-            m = p.right - b.POPOVER_BOUNDS_MARGIN,
-            g = p.top + b.POPOVER_BOUNDS_MARGIN,
-            S = p.bottom - b.POPOVER_BOUNDS_MARGIN;
+            h = p.left + g.POPOVER_BOUNDS_MARGIN,
+            m = p.right - g.POPOVER_BOUNDS_MARGIN,
+            b = p.top + g.POPOVER_BOUNDS_MARGIN,
+            S = p.bottom - g.POPOVER_BOUNDS_MARGIN;
           if (this.m_refSelectedButton.current) {
             d -=
               this.m_refSelectedButton.current.elem.getBoundingClientRect()
@@ -3494,7 +4500,7 @@
           const _ = d;
           c < h && (c = h),
             c + u.width > m && (c = m - u.width),
-            d < g && (d = g),
+            d < b && (d = b),
             d + u.height > S && (d = S - u.height),
             (c = Math.round(c)),
             (d = Math.round(d)),
@@ -3503,13 +4509,13 @@
               "translateX(" + c + "px) translateY(" + d + "px)");
         }
       }
-      (b.POPOVER_BOUNDS_MARGIN = 10),
-        Object(o.b)([c.a], b.prototype, "renderDropdownItem", null),
-        Object(o.b)([c.a], b.prototype, "renderDropdownSpecialItem", null),
-        Object(o.b)([c.a], b.prototype, "renderDropdownValueItem", null),
-        Object(o.b)([c.a], b.prototype, "setValue", null),
-        Object(o.b)([c.a], b.prototype, "updateLayout", null);
-      class g extends s.Component {
+      (g.POPOVER_BOUNDS_MARGIN = 10),
+        Object(o.b)([c.a], g.prototype, "renderDropdownItem", null),
+        Object(o.b)([c.a], g.prototype, "renderDropdownSpecialItem", null),
+        Object(o.b)([c.a], g.prototype, "renderDropdownValueItem", null),
+        Object(o.b)([c.a], g.prototype, "setValue", null),
+        Object(o.b)([c.a], g.prototype, "updateLayout", null);
+      class b extends s.Component {
         constructor(e) {
           super(e),
             (this.m_refButton = s.createRef()),
@@ -3573,7 +4579,7 @@
             ),
             this.state.bShowingOptions &&
               s.createElement(
-                b,
+                g,
                 Object.assign({}, this.props, {
                   selectedItem: e,
                   buttonRef: this.m_refButton,
@@ -3583,11 +4589,11 @@
           );
         }
       }
-      Object(o.b)([c.a], g.prototype, "onParentScroll", null),
-        Object(o.b)([d.f], g.prototype, "value", null),
-        Object(o.b)([d.f], g.prototype, "selectedItem", null),
-        Object(o.b)([c.a], g.prototype, "showDropdown", null),
-        Object(o.b)([c.a], g.prototype, "hideDropdown", null);
+      Object(o.b)([c.a], b.prototype, "onParentScroll", null),
+        Object(o.b)([d.f], b.prototype, "value", null),
+        Object(o.b)([d.f], b.prototype, "selectedItem", null),
+        Object(o.b)([c.a], b.prototype, "showDropdown", null),
+        Object(o.b)([c.a], b.prototype, "hideDropdown", null);
       class S extends s.Component {
         constructor(e) {
           super(e),
@@ -3602,7 +4608,7 @@
           return (
             (e.onChange = this.onChange),
             (e.value = this.state.value),
-            s.createElement(g, Object.assign({}, e))
+            s.createElement(b, Object.assign({}, e))
           );
         }
       }
@@ -3895,12 +4901,12 @@
         p = n("/i/y"),
         h = n("pYJh"),
         m = n("Kysl"),
-        b = n("uFkT");
-      class g {}
-      Object(r.b)([d.m], g.prototype, "path", void 0),
-        Object(r.b)([d.m], g.prototype, "mode", void 0),
-        Object(r.b)([d.m], g.prototype, "parameters", void 0),
-        Object(r.b)([d.m], g.prototype, "inputs", void 0);
+        g = n("uFkT");
+      class b {}
+      Object(r.b)([d.m], b.prototype, "path", void 0),
+        Object(r.b)([d.m], b.prototype, "mode", void 0),
+        Object(r.b)([d.m], b.prototype, "parameters", void 0),
+        Object(r.b)([d.m], b.prototype, "inputs", void 0);
       class S {}
       Object(r.b)([d.m], S.prototype, "path", void 0),
         Object(r.b)([d.m], S.prototype, "output", void 0);
@@ -3977,7 +4983,7 @@
           return this.x + "," + this.y;
         }
       }
-      class T {
+      class E {
         constructor(e, t, n, i, o) {
           (this.m_BindingUISource = void 0),
             (this.m_ControllerProfile = void 0),
@@ -4102,7 +5108,7 @@
           return this.GetActionForInputType(e, "value");
         }
         get GetControllerInputName() {
-          return b.a.LocalizeDriverString(
+          return g.a.LocalizeDriverString(
             this.m_ControllerProfile.resource_root,
             this.m_sInputPath
           );
@@ -4414,77 +5420,77 @@
           );
         }
       }
-      Object(r.b)([d.m], T.prototype, "m_BindingUISource", void 0),
-        Object(r.b)([d.m], T.prototype, "m_ControllerProfile", void 0),
-        Object(r.b)([d.m], T.prototype, "m_sDeviceInputPath", void 0),
-        Object(r.b)([d.m], T.prototype, "m_eButtonSide", void 0),
-        Object(r.b)([d.m], T.prototype, "m_sInputPath", void 0),
-        Object(r.b)([d.m], T.prototype, "m_sActionSet", void 0),
-        Object(r.b)([a.bind], T.prototype, "cancelWatcher", null),
-        Object(r.b)([d.d], T.prototype, "UpdateBindingSource", null),
-        Object(r.b)([d.f], T.prototype, "GetFullInputPath", null),
-        Object(r.b)([a.bind], T.prototype, "GetSVGEndPoint", null),
-        Object(r.b)([d.f], T.prototype, "GetButtonSide", null),
-        Object(r.b)([d.f], T.prototype, "GetNumModes", null),
-        Object(r.b)([a.bind], T.prototype, "GetActionForInputType", null),
-        Object(r.b)([a.bind], T.prototype, "GetClickAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetTouchAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetPositionAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetHeldAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetLongAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetSingleAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetDoubleAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetNorthAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetEastAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetSouthAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetWestAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetCenterAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetScrollAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetPullAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetForceAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetGrabAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetValueAction", null),
-        Object(r.b)([d.f], T.prototype, "GetControllerInputName", null),
-        Object(r.b)([d.f], T.prototype, "GetModes", null),
-        Object(r.b)([a.bind], T.prototype, "GetMode", null),
-        Object(r.b)([d.f], T.prototype, "GetInputSourceType", null),
-        Object(r.b)([d.f], T.prototype, "GetInputSource", null),
-        Object(r.b)([d.f], T.prototype, "GetInputSourceClickSupport", null),
-        Object(r.b)([d.f], T.prototype, "GetInputSourceTouchSupport", null),
-        Object(r.b)([d.f], T.prototype, "GetInputSourceForceSupport", null),
-        Object(r.b)([d.f], T.prototype, "GetInputSourceDefaultDeadzone", null),
-        Object(r.b)([d.d], T.prototype, "SetInputMode", null),
-        Object(r.b)([d.d], T.prototype, "AddInputMode", null),
-        Object(r.b)([d.d], T.prototype, "DeleteInputMode", null),
-        Object(r.b)([a.bind], T.prototype, "ClearNewModeIfSet", null),
-        Object(r.b)([a.bind], T.prototype, "BHasModeSelectionPending", null),
-        Object(r.b)([d.d], T.prototype, "SetClickAction", null),
-        Object(r.b)([d.d], T.prototype, "SetTouchAction", null),
-        Object(r.b)([d.d], T.prototype, "SetHeldAction", null),
-        Object(r.b)([d.d], T.prototype, "SetLongAction", null),
-        Object(r.b)([d.d], T.prototype, "SetSingleAction", null),
-        Object(r.b)([d.d], T.prototype, "SetDoubleAction", null),
-        Object(r.b)([d.d], T.prototype, "SetPositionAction", null),
-        Object(r.b)([d.d], T.prototype, "SetNorthAction", null),
-        Object(r.b)([d.d], T.prototype, "SetEastAction", null),
-        Object(r.b)([d.d], T.prototype, "SetSouthAction", null),
-        Object(r.b)([d.d], T.prototype, "SetWestAction", null),
-        Object(r.b)([d.d], T.prototype, "SetCenterAction", null),
-        Object(r.b)([d.d], T.prototype, "SetScrollAction", null),
-        Object(r.b)([d.d], T.prototype, "SetPullAction", null),
-        Object(r.b)([d.d], T.prototype, "SetForceAction", null),
-        Object(r.b)([d.d], T.prototype, "SetGrabAction", null),
-        Object(r.b)([d.d], T.prototype, "SetValueAction", null),
-        Object(r.b)([d.d], T.prototype, "CopyActions", null),
-        Object(r.b)([a.bind], T.prototype, "BindingsMatch", null),
-        Object(r.b)([d.d], T.prototype, "SetClickParameter", null),
-        Object(r.b)([d.d], T.prototype, "SetTouchParameter", null),
-        Object(r.b)([d.d], T.prototype, "SetParameter", null),
-        Object(r.b)([d.d], T.prototype, "GetClickParameter", null),
-        Object(r.b)([d.d], T.prototype, "GetTouchParameter", null),
-        Object(r.b)([d.d], T.prototype, "GetParameter", null),
-        Object(r.b)([a.bind], T.prototype, "GetTrackpadInvertState", null),
-        Object(r.b)([d.d], T.prototype, "SetTrackpadInvertState", null);
+      Object(r.b)([d.m], E.prototype, "m_BindingUISource", void 0),
+        Object(r.b)([d.m], E.prototype, "m_ControllerProfile", void 0),
+        Object(r.b)([d.m], E.prototype, "m_sDeviceInputPath", void 0),
+        Object(r.b)([d.m], E.prototype, "m_eButtonSide", void 0),
+        Object(r.b)([d.m], E.prototype, "m_sInputPath", void 0),
+        Object(r.b)([d.m], E.prototype, "m_sActionSet", void 0),
+        Object(r.b)([a.bind], E.prototype, "cancelWatcher", null),
+        Object(r.b)([d.d], E.prototype, "UpdateBindingSource", null),
+        Object(r.b)([d.f], E.prototype, "GetFullInputPath", null),
+        Object(r.b)([a.bind], E.prototype, "GetSVGEndPoint", null),
+        Object(r.b)([d.f], E.prototype, "GetButtonSide", null),
+        Object(r.b)([d.f], E.prototype, "GetNumModes", null),
+        Object(r.b)([a.bind], E.prototype, "GetActionForInputType", null),
+        Object(r.b)([a.bind], E.prototype, "GetClickAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetTouchAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetPositionAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetHeldAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetLongAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetSingleAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetDoubleAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetNorthAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetEastAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetSouthAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetWestAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetCenterAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetScrollAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetPullAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetForceAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetGrabAction", null),
+        Object(r.b)([a.bind], E.prototype, "GetValueAction", null),
+        Object(r.b)([d.f], E.prototype, "GetControllerInputName", null),
+        Object(r.b)([d.f], E.prototype, "GetModes", null),
+        Object(r.b)([a.bind], E.prototype, "GetMode", null),
+        Object(r.b)([d.f], E.prototype, "GetInputSourceType", null),
+        Object(r.b)([d.f], E.prototype, "GetInputSource", null),
+        Object(r.b)([d.f], E.prototype, "GetInputSourceClickSupport", null),
+        Object(r.b)([d.f], E.prototype, "GetInputSourceTouchSupport", null),
+        Object(r.b)([d.f], E.prototype, "GetInputSourceForceSupport", null),
+        Object(r.b)([d.f], E.prototype, "GetInputSourceDefaultDeadzone", null),
+        Object(r.b)([d.d], E.prototype, "SetInputMode", null),
+        Object(r.b)([d.d], E.prototype, "AddInputMode", null),
+        Object(r.b)([d.d], E.prototype, "DeleteInputMode", null),
+        Object(r.b)([a.bind], E.prototype, "ClearNewModeIfSet", null),
+        Object(r.b)([a.bind], E.prototype, "BHasModeSelectionPending", null),
+        Object(r.b)([d.d], E.prototype, "SetClickAction", null),
+        Object(r.b)([d.d], E.prototype, "SetTouchAction", null),
+        Object(r.b)([d.d], E.prototype, "SetHeldAction", null),
+        Object(r.b)([d.d], E.prototype, "SetLongAction", null),
+        Object(r.b)([d.d], E.prototype, "SetSingleAction", null),
+        Object(r.b)([d.d], E.prototype, "SetDoubleAction", null),
+        Object(r.b)([d.d], E.prototype, "SetPositionAction", null),
+        Object(r.b)([d.d], E.prototype, "SetNorthAction", null),
+        Object(r.b)([d.d], E.prototype, "SetEastAction", null),
+        Object(r.b)([d.d], E.prototype, "SetSouthAction", null),
+        Object(r.b)([d.d], E.prototype, "SetWestAction", null),
+        Object(r.b)([d.d], E.prototype, "SetCenterAction", null),
+        Object(r.b)([d.d], E.prototype, "SetScrollAction", null),
+        Object(r.b)([d.d], E.prototype, "SetPullAction", null),
+        Object(r.b)([d.d], E.prototype, "SetForceAction", null),
+        Object(r.b)([d.d], E.prototype, "SetGrabAction", null),
+        Object(r.b)([d.d], E.prototype, "SetValueAction", null),
+        Object(r.b)([d.d], E.prototype, "CopyActions", null),
+        Object(r.b)([a.bind], E.prototype, "BindingsMatch", null),
+        Object(r.b)([d.d], E.prototype, "SetClickParameter", null),
+        Object(r.b)([d.d], E.prototype, "SetTouchParameter", null),
+        Object(r.b)([d.d], E.prototype, "SetParameter", null),
+        Object(r.b)([d.d], E.prototype, "GetClickParameter", null),
+        Object(r.b)([d.d], E.prototype, "GetTouchParameter", null),
+        Object(r.b)([d.d], E.prototype, "GetParameter", null),
+        Object(r.b)([a.bind], E.prototype, "GetTrackpadInvertState", null),
+        Object(r.b)([d.d], E.prototype, "SetTrackpadInvertState", null);
       class R {
         constructor(e, t, n) {
           (this.m_sSaveType = e),
@@ -4512,7 +5518,7 @@
             (e[(e.eWebSocketState_Connected = 3)] =
               "eWebSocketState_Connected");
         })(s || (s = {}));
-      class E {
+      class T {
         constructor() {
           (this.m_wsWebSocketToServer = void 0),
             (this.m_eWebSocketState = s.eWebSocketState_Unknown),
@@ -4574,7 +5580,7 @@
         CountDevicesWithControllerType(e) {
           let t = 0;
           return (
-            b.a.ConnectedDevices.forEach((n) => {
+            g.a.ConnectedDevices.forEach((n) => {
               n.controller_type == e && t++;
             }),
             t
@@ -4584,12 +5590,12 @@
           var t, n;
           let i = this.CountDevicesWithControllerType(e.controller_type),
             o =
-              ((null === (t = p.mb) || void 0 === t ? void 0 : t.HasHMD())
-                ? null === (n = p.mb) || void 0 === n
+              ((null === (t = p.ob) || void 0 === t ? void 0 : t.HasHMD())
+                ? null === (n = p.ob) || void 0 === n
                   ? void 0
                   : n.VRProperties.GetStringProperty(
                       "/user/head",
-                      p.y.Prop_ExpectedControllerType_String
+                      p.z.Prop_ExpectedControllerType_String
                     )
                 : void 0) == e.controller_type
                 ? 2
@@ -4600,7 +5606,7 @@
           let e,
             t = 0;
           return (
-            b.a.ControllerTypes.forEach((n) => {
+            g.a.ControllerTypes.forEach((n) => {
               let i = this.ComputeControllerTypeScore(n);
               i > t && ((e = n), (t = i));
             }),
@@ -4609,14 +5615,14 @@
         }
         RefreshInputState() {
           return Object(r.a)(this, void 0, void 0, function* () {
-            let e = b.a.KnownControllerTypes.size;
-            return b.a.GetInputState().then(() => {
+            let e = g.a.KnownControllerTypes.size;
+            return g.a.GetInputState().then(() => {
               this.m_SelectedApp &&
-                e != b.a.KnownControllerTypes.size &&
+                e != g.a.KnownControllerTypes.size &&
                 this.ReloadCurrentApp();
               let t = !1;
               const n = this.GetBestControllerType();
-              let i = b.a.FindDeviceClassForControllerType(
+              let i = g.a.FindDeviceClassForControllerType(
                 this.m_sSelectedControllerType
               );
               if (
@@ -4624,7 +5630,7 @@
                 this.m_sSelectedControllerType != n.controller_type &&
                 !this.m_bControllerTypeSelectedByUser
               ) {
-                let e = b.a.FindDeviceClassForControllerType(n.controller_type);
+                let e = g.a.FindDeviceClassForControllerType(n.controller_type);
                 h.a.IsSafeToResetControllerType(i, e) &&
                   ((this.m_sSelectedControllerType = n.controller_type),
                   (t = !0),
@@ -4784,18 +5790,18 @@
         get CurrentAppCanAccessPrivateInputs() {
           return (
             m.a.IsAppAllowedPrivateInputs(this.m_SelectedApp.key) ||
-            b.a.ShouldSendSystemButtonToAllApps
+            g.a.ShouldSendSystemButtonToAllApps
           );
         }
         get SelectedControllerTypeInfo() {
-          if (b.a.IsValid && null != this.m_sSelectedControllerType)
-            return b.a.GetControllerTypeInfo(this.m_sSelectedControllerType);
+          if (g.a.IsValid && null != this.m_sSelectedControllerType)
+            return g.a.GetControllerTypeInfo(this.m_sSelectedControllerType);
         }
         DeviceForControllerType(e, t) {
-          let n = b.a.GetControllerTypeInfo(e);
+          let n = g.a.GetControllerTypeInfo(e);
           if (!n) return;
           let o = !1,
-            s = b.a.ConnectedDevices.find((s) => {
+            s = g.a.ConnectedDevices.find((s) => {
               if (s.controller_type == e) {
                 if (((o = !0), !t)) return !0;
                 if ("controller_handed" != n.input_bindingui_mode) return !0;
@@ -4807,7 +5813,7 @@
           return (
             s ||
             (o
-              ? b.a.ConnectedDevices.find((t) => t.controller_type == e)
+              ? g.a.ConnectedDevices.find((t) => t.controller_type == e)
               : void 0)
           );
         }
@@ -5086,7 +6092,7 @@
         }
         SetSelectedController(e, t) {
           if (e != this.m_sSelectedControllerType) {
-            let n = b.a.GetControllerTypeInfo(e);
+            let n = g.a.GetControllerTypeInfo(e);
             n &&
               (this.m_ControllerWatchers.clear(),
               (this.m_sSelectedControllerType = n.controller_type),
@@ -5101,7 +6107,7 @@
         LocalizeStringForSelectedControllerType(e) {
           let t = this.SelectedControllerTypeInfo;
           return t && t.resource_root
-            ? b.a.LocalizeDriverString(t.resource_root, e)
+            ? g.a.LocalizeDriverString(t.resource_root, e)
             : e;
         }
         LocalizePathNameForSelectedControllerType(e) {
@@ -5127,7 +6133,7 @@
           let e = this.SelectedControllerTypeInfo;
           return e
             ? e.resource_root
-              ? b.a.LocalizeDriverString(e.resource_root, e.controller_type)
+              ? g.a.LocalizeDriverString(e.resource_root, e.controller_type)
               : e.controller_type
             : "";
         }
@@ -5497,7 +6503,7 @@
         }
         AddInputModeForSource(e, t) {
           this.AddActionSetIfRequired();
-          let n = new g();
+          let n = new b();
           return (
             (n.mode = t),
             (n.path = e),
@@ -5572,7 +6578,7 @@
                   "Trying to set new input mode to old mode!"
                 );
               let i = JSON.parse(JSON.stringify(t)),
-                s = new g();
+                s = new b();
               switch (((s.mode = n), (s.path = e), (s.inputs = d.m.map()), n)) {
                 case "button":
                 case "toggle_button":
@@ -6084,7 +7090,7 @@
         }
         get IsSecondaryController() {
           if (!this.m_sSelectedControllerType) return !1;
-          let e = b.a.FindRootPathForControllerType(
+          let e = g.a.FindRootPathForControllerType(
             this.m_sSelectedControllerType
           );
           return (
@@ -6168,7 +7174,7 @@
         get KnownControllerTypes() {
           let e = [];
           return (
-            b.a.KnownControllerTypes.forEach((t) => {
+            g.a.KnownControllerTypes.forEach((t) => {
               e.push(t);
             }),
             e
@@ -6186,7 +7192,7 @@
         }
         GetDefaultBindingNameForSaveType(e) {
           let t = k.SelectedControllerTypeInfo,
-            n = b.a.LocalizeControllerString(t, t ? t.controller_type : "");
+            n = g.a.LocalizeControllerString(t, t ? t.controller_type : "");
           switch (e) {
             default:
             case "autosave":
@@ -6204,7 +7210,7 @@
             case "public":
               return Object(u.c)(
                 "#BindingUI_SaveDefaultName_Public",
-                b.a.CurrentUserPersonaName
+                g.a.CurrentUserPersonaName
               );
             case "replace_default":
               return k.ConfigName;
@@ -6387,7 +7393,7 @@
             "" == this.m_sName)
           ) {
             let e = k.SelectedControllerTypeInfo,
-              n = b.a.LocalizeControllerString(e, e ? e.controller_type : "");
+              n = g.a.LocalizeControllerString(e, e ? e.controller_type : "");
             this.m_sName = Object(u.c)("#BindingUI_SaveDefaultName", t, n);
           }
           e.binding_config &&
@@ -6400,7 +7406,7 @@
                 (n.skeleton = e.binding_config.bindings[t].skeleton),
                 (n.sources = new Array()),
                 e.binding_config.bindings[t].sources.forEach((e) => {
-                  let t = new g();
+                  let t = new b();
                   (t.mode = e.mode),
                     (t.path = e.path),
                     (t.inputs = d.m.map()),
@@ -6501,7 +7507,7 @@
         }
         ShouldShowBindingFailureForControllerType(e) {
           if (null == e || "" == e) return !1;
-          let t = b.a.GetControllerTypeInfo(e);
+          let t = g.a.GetControllerTypeInfo(e);
           return !!t && !!t.should_show_binding_errors;
         }
         HasBindingUriFailedToLoad(e) {
@@ -6590,7 +7596,7 @@
                   r = "/user/hand/right";
               }
             else {
-              let t = b.a.ConnectedDevices.find(
+              let t = g.a.ConnectedDevices.find(
                 (t) => t.controller_type == e.controller_type
               );
               t && t.root_path
@@ -6600,7 +7606,7 @@
                     e
                   );
             }
-            this.m_ControllerWatchers.set(s, new T(r, e, t, n, o));
+            this.m_ControllerWatchers.set(s, new E(r, e, t, n, o));
           }
           return this.m_ControllerWatchers.get(s);
         }
@@ -6651,217 +7657,217 @@
           return this.m_nBindingSubscriptionChangedCanary;
         }
       }
-      Object(r.b)([d.m], E.prototype, "m_eWebSocketState", void 0),
-        Object(r.b)([d.m], E.prototype, "m_sLoadedBindingURI", void 0),
-        Object(r.b)([d.m], E.prototype, "m_LoadedBinding", void 0),
-        Object(r.b)([d.m], E.prototype, "m_ModifiedBindingSet", void 0),
-        Object(r.b)([d.m], E.prototype, "m_ModifiedOptions", void 0),
-        Object(r.b)([d.m], E.prototype, "m_ModifiedAliases", void 0),
-        Object(r.b)([d.m], E.prototype, "m_sName", void 0),
-        Object(r.b)([d.m], E.prototype, "m_sDescription", void 0),
-        Object(r.b)([d.m], E.prototype, "m_SelectedApp", void 0),
-        Object(r.b)([d.m], E.prototype, "m_SelectedAppActions", void 0),
-        Object(r.b)([d.m], E.prototype, "m_sSelectedActionSet", void 0),
-        Object(r.b)([d.m], E.prototype, "m_sSelectedControllerType", void 0),
-        Object(r.b)([d.m], E.prototype, "m_TrackerBindingSetup", void 0),
+      Object(r.b)([d.m], T.prototype, "m_eWebSocketState", void 0),
+        Object(r.b)([d.m], T.prototype, "m_sLoadedBindingURI", void 0),
+        Object(r.b)([d.m], T.prototype, "m_LoadedBinding", void 0),
+        Object(r.b)([d.m], T.prototype, "m_ModifiedBindingSet", void 0),
+        Object(r.b)([d.m], T.prototype, "m_ModifiedOptions", void 0),
+        Object(r.b)([d.m], T.prototype, "m_ModifiedAliases", void 0),
+        Object(r.b)([d.m], T.prototype, "m_sName", void 0),
+        Object(r.b)([d.m], T.prototype, "m_sDescription", void 0),
+        Object(r.b)([d.m], T.prototype, "m_SelectedApp", void 0),
+        Object(r.b)([d.m], T.prototype, "m_SelectedAppActions", void 0),
+        Object(r.b)([d.m], T.prototype, "m_sSelectedActionSet", void 0),
+        Object(r.b)([d.m], T.prototype, "m_sSelectedControllerType", void 0),
+        Object(r.b)([d.m], T.prototype, "m_TrackerBindingSetup", void 0),
         Object(r.b)(
           [d.m],
-          E.prototype,
+          T.prototype,
           "m_OutstandingSaveBindingCalls",
           void 0
         ),
-        Object(r.b)([d.m], E.prototype, "m_ModifiedSimulatedActions", void 0),
+        Object(r.b)([d.m], T.prototype, "m_ModifiedSimulatedActions", void 0),
         Object(r.b)(
           [d.m],
-          E.prototype,
+          T.prototype,
           "m_nBindingSubscriptionChangedCanary",
           void 0
         ),
-        Object(r.b)([a.bind], E.prototype, "OpenWebSocketToHost", null),
-        Object(r.b)([d.f], E.prototype, "SteamVRUnavailable", null),
-        Object(r.b)([d.f], E.prototype, "ActionSets", null),
-        Object(r.b)([d.f], E.prototype, "ManifestOptions", null),
-        Object(r.b)([d.f], E.prototype, "SecondaryControllerOptions", null),
-        Object(r.b)([d.d], E.prototype, "SetOptionValue", null),
-        Object(r.b)([d.d], E.prototype, "AddSimulatedAction", null),
-        Object(r.b)([d.d], E.prototype, "DeleteSimulatedActionByPath", null),
-        Object(r.b)([d.f], E.prototype, "SelectedApp", null),
-        Object(r.b)([d.f], E.prototype, "SelectedAppActions", null),
+        Object(r.b)([a.bind], T.prototype, "OpenWebSocketToHost", null),
+        Object(r.b)([d.f], T.prototype, "SteamVRUnavailable", null),
+        Object(r.b)([d.f], T.prototype, "ActionSets", null),
+        Object(r.b)([d.f], T.prototype, "ManifestOptions", null),
+        Object(r.b)([d.f], T.prototype, "SecondaryControllerOptions", null),
+        Object(r.b)([d.d], T.prototype, "SetOptionValue", null),
+        Object(r.b)([d.d], T.prototype, "AddSimulatedAction", null),
+        Object(r.b)([d.d], T.prototype, "DeleteSimulatedActionByPath", null),
+        Object(r.b)([d.f], T.prototype, "SelectedApp", null),
+        Object(r.b)([d.f], T.prototype, "SelectedAppActions", null),
         Object(r.b)(
           [d.f],
-          E.prototype,
+          T.prototype,
           "CurrentAppCanAccessPrivateInputs",
           null
         ),
-        Object(r.b)([d.f], E.prototype, "SelectedControllerTypeInfo", null),
-        Object(r.b)([d.f], E.prototype, "CurrentBindingSaveType", null),
+        Object(r.b)([d.f], T.prototype, "SelectedControllerTypeInfo", null),
+        Object(r.b)([d.f], T.prototype, "CurrentBindingSaveType", null),
         Object(r.b)(
           [d.f],
-          E.prototype,
+          T.prototype,
           "CurrentBindingActionManifestVersion",
           null
         ),
-        Object(r.b)([d.f], E.prototype, "SelectedActionSet", null),
-        Object(r.b)([d.f], E.prototype, "SelectedActionSetDetails", null),
-        Object(r.b)([d.f], E.prototype, "SelectedActionSetActions", null),
+        Object(r.b)([d.f], T.prototype, "SelectedActionSet", null),
+        Object(r.b)([d.f], T.prototype, "SelectedActionSetDetails", null),
+        Object(r.b)([d.f], T.prototype, "SelectedActionSetActions", null),
         Object(r.b)(
           [a.bind],
-          E.prototype,
+          T.prototype,
           "GetSelectedAppDefaultBinding",
           null
         ),
-        Object(r.b)([a.bind], E.prototype, "GetActionByName", null),
-        Object(r.b)([d.f], E.prototype, "SelectedActionSetPoses", null),
-        Object(r.b)([d.f], E.prototype, "SelectedActionSetHaptics", null),
-        Object(r.b)([d.f], E.prototype, "SelectedActionSetSkeletons", null),
-        Object(r.b)([d.f], E.prototype, "SelectedActionSetChords", null),
-        Object(r.b)([d.f], E.prototype, "SelectedActionSetChordCount", null),
-        Object(r.b)([d.f], E.prototype, "SelectedActionSetSources", null),
-        Object(r.b)([d.f], E.prototype, "BSelectedActionSetHasPoses", null),
+        Object(r.b)([a.bind], T.prototype, "GetActionByName", null),
+        Object(r.b)([d.f], T.prototype, "SelectedActionSetPoses", null),
+        Object(r.b)([d.f], T.prototype, "SelectedActionSetHaptics", null),
+        Object(r.b)([d.f], T.prototype, "SelectedActionSetSkeletons", null),
+        Object(r.b)([d.f], T.prototype, "SelectedActionSetChords", null),
+        Object(r.b)([d.f], T.prototype, "SelectedActionSetChordCount", null),
+        Object(r.b)([d.f], T.prototype, "SelectedActionSetSources", null),
+        Object(r.b)([d.f], T.prototype, "BSelectedActionSetHasPoses", null),
         Object(r.b)(
           [d.f],
-          E.prototype,
+          T.prototype,
           "BSelectedActionSetHasBoundPoses",
           null
         ),
-        Object(r.b)([d.f], E.prototype, "BSelectedActionSetHasHaptics", null),
+        Object(r.b)([d.f], T.prototype, "BSelectedActionSetHasHaptics", null),
         Object(r.b)(
           [d.f],
-          E.prototype,
+          T.prototype,
           "BSelectedActionSetHasBoundHaptics",
           null
         ),
-        Object(r.b)([d.f], E.prototype, "BSelectedActionSetHasSkeletons", null),
+        Object(r.b)([d.f], T.prototype, "BSelectedActionSetHasSkeletons", null),
         Object(r.b)(
           [d.f],
-          E.prototype,
+          T.prototype,
           "BSelectedActionSetHasBoundSkeletons",
           null
         ),
-        Object(r.b)([d.d], E.prototype, "SetSelectedApp", null),
-        Object(r.b)([d.d], E.prototype, "SetSelectedController", null),
-        Object(r.b)([d.d], E.prototype, "SetSelectedActionSet", null),
+        Object(r.b)([d.d], T.prototype, "SetSelectedApp", null),
+        Object(r.b)([d.d], T.prototype, "SetSelectedController", null),
+        Object(r.b)([d.d], T.prototype, "SetSelectedActionSet", null),
         Object(r.b)(
           [a.bind],
-          E.prototype,
+          T.prototype,
           "LocalizeStringForSelectedControllerType",
           null
         ),
         Object(r.b)(
           [a.bind],
-          E.prototype,
+          T.prototype,
           "LocalizePathNameForSelectedControllerType",
           null
         ),
         Object(r.b)(
           [d.f],
-          E.prototype,
+          T.prototype,
           "SelectedControllerTypeLocalizedName",
           null
         ),
-        Object(r.b)([d.d], E.prototype, "RegisterBindingWatcher", null),
-        Object(r.b)([d.d], E.prototype, "UnregisterBindingWatcher", null),
-        Object(r.b)([d.d], E.prototype, "GetActionBinding", null),
-        Object(r.b)([a.bind], E.prototype, "GetInputModesForSourceType", null),
+        Object(r.b)([d.d], T.prototype, "RegisterBindingWatcher", null),
+        Object(r.b)([d.d], T.prototype, "UnregisterBindingWatcher", null),
+        Object(r.b)([d.d], T.prototype, "GetActionBinding", null),
+        Object(r.b)([a.bind], T.prototype, "GetInputModesForSourceType", null),
         Object(r.b)(
           [a.bind],
-          E.prototype,
+          T.prototype,
           "GetBooleanInputOptionsForMode",
           null
         ),
-        Object(r.b)([a.bind], E.prototype, "GetActionBindingsOfType", null),
-        Object(r.b)([d.f], E.prototype, "GetBooleanActionBindings", null),
-        Object(r.b)([d.f], E.prototype, "GetVector1ActionBindings", null),
+        Object(r.b)([a.bind], T.prototype, "GetActionBindingsOfType", null),
+        Object(r.b)([d.f], T.prototype, "GetBooleanActionBindings", null),
+        Object(r.b)([d.f], T.prototype, "GetVector1ActionBindings", null),
         Object(r.b)(
           [d.f],
-          E.prototype,
+          T.prototype,
           "GetLiteralVector1ActionBindings",
           null
         ),
-        Object(r.b)([d.f], E.prototype, "GetVector2ActionBindings", null),
-        Object(r.b)([d.f], E.prototype, "GetVector3ActionBindings", null),
-        Object(r.b)([d.f], E.prototype, "GetPoseActionBindings", null),
-        Object(r.b)([d.f], E.prototype, "GetHapticsActionBindings", null),
-        Object(r.b)([d.f], E.prototype, "GetSkeletonActionBindings", null),
-        Object(r.b)([d.f], E.prototype, "ConfigName", null),
-        Object(r.b)([d.f], E.prototype, "ConfigDescription", null),
-        Object(r.b)([a.bind], E.prototype, "GetPoseAction", null),
-        Object(r.b)([a.bind], E.prototype, "GetPoseActionByPath", null),
-        Object(r.b)([a.bind], E.prototype, "GetHapticsAction", null),
-        Object(r.b)([a.bind], E.prototype, "GetHapticsActionByPath", null),
-        Object(r.b)([a.bind], E.prototype, "GetSkeletonAction", null),
-        Object(r.b)([a.bind], E.prototype, "GetSkeletonActionByPath", null),
-        Object(r.b)([a.bind], E.prototype, "NotifyWatchersOfChange", null),
-        Object(r.b)([d.d], E.prototype, "SetActionForInputModeType", null),
-        Object(r.b)([d.d], E.prototype, "SetParameterForInputModeType", null),
-        Object(r.b)([a.bind], E.prototype, "AddActionSetIfRequired", null),
-        Object(r.b)([d.d], E.prototype, "AddInputModeForSource", null),
-        Object(r.b)([d.d], E.prototype, "DeleteInputModeForSource", null),
-        Object(r.b)([d.d], E.prototype, "SetInputModeForInputSource", null),
-        Object(r.b)([d.d], E.prototype, "ClearModesForInputPath", null),
-        Object(r.b)([d.d], E.prototype, "SetInputPathForPose", null),
-        Object(r.b)([d.d], E.prototype, "SetPoseForInputPath", null),
-        Object(r.b)([d.d], E.prototype, "AddDefaultPose", null),
-        Object(r.b)([d.d], E.prototype, "SetInputPathForHaptics", null),
-        Object(r.b)([d.d], E.prototype, "SetHapticsForInputPath", null),
-        Object(r.b)([d.d], E.prototype, "AddDefaultHaptics", null),
-        Object(r.b)([d.d], E.prototype, "SetInputPathForSkeleton", null),
-        Object(r.b)([d.d], E.prototype, "SetSkeletonForInputPath", null),
-        Object(r.b)([d.d], E.prototype, "AddDefaultSkeleton", null),
-        Object(r.b)([d.d], E.prototype, "SetActionForChord", null),
-        Object(r.b)([d.d], E.prototype, "DeleteChord", null),
-        Object(r.b)([d.d], E.prototype, "AddChord", null),
-        Object(r.b)([d.d], E.prototype, "DeleteSourceFromChord", null),
-        Object(r.b)([d.d], E.prototype, "SetInputTypeForChord", null),
-        Object(r.b)([d.d], E.prototype, "SetInputSourceForChord", null),
-        Object(r.b)([d.d], E.prototype, "LoadActionManifest", null),
-        Object(r.b)([d.f], E.prototype, "SelectedBindingURL", null),
-        Object(r.b)([d.f], E.prototype, "LoadedBindingURL", null),
-        Object(r.b)([d.f], E.prototype, "SelectedBindingIsLegacy", null),
-        Object(r.b)([d.f], E.prototype, "IsSecondaryController", null),
-        Object(r.b)([d.f], E.prototype, "TrackerBindings", null),
-        Object(r.b)([d.d], E.prototype, "GetTrackerBindings", null),
-        Object(r.b)([a.bind], E.prototype, "SetTrackerBinding", null),
-        Object(r.b)([a.bind], E.prototype, "PulseHaptics", null),
-        Object(r.b)([d.f], E.prototype, "KnownControllerTypes", null),
-        Object(r.b)([a.bind], E.prototype, "AutosaveBinding", null),
-        Object(r.b)([a.bind], E.prototype, "OnWebSocketOpen", null),
-        Object(r.b)([a.bind], E.prototype, "OnWebSocketClose", null),
-        Object(r.b)([a.bind], E.prototype, "WebSocketSend", null),
-        Object(r.b)([a.bind], E.prototype, "OnWorkshopUploadComplete", null),
-        Object(r.b)([a.bind], E.prototype, "OnPendingFileSaved", null),
-        Object(r.b)([d.f], E.prototype, "SaveNoticeText", null),
-        Object(r.b)([a.bind], E.prototype, "QueryBindingList", null),
-        Object(r.b)([a.bind], E.prototype, "DeleteBinding", null),
-        Object(r.b)([a.bind], E.prototype, "OnBindingDeleteComplete", null),
+        Object(r.b)([d.f], T.prototype, "GetVector2ActionBindings", null),
+        Object(r.b)([d.f], T.prototype, "GetVector3ActionBindings", null),
+        Object(r.b)([d.f], T.prototype, "GetPoseActionBindings", null),
+        Object(r.b)([d.f], T.prototype, "GetHapticsActionBindings", null),
+        Object(r.b)([d.f], T.prototype, "GetSkeletonActionBindings", null),
+        Object(r.b)([d.f], T.prototype, "ConfigName", null),
+        Object(r.b)([d.f], T.prototype, "ConfigDescription", null),
+        Object(r.b)([a.bind], T.prototype, "GetPoseAction", null),
+        Object(r.b)([a.bind], T.prototype, "GetPoseActionByPath", null),
+        Object(r.b)([a.bind], T.prototype, "GetHapticsAction", null),
+        Object(r.b)([a.bind], T.prototype, "GetHapticsActionByPath", null),
+        Object(r.b)([a.bind], T.prototype, "GetSkeletonAction", null),
+        Object(r.b)([a.bind], T.prototype, "GetSkeletonActionByPath", null),
+        Object(r.b)([a.bind], T.prototype, "NotifyWatchersOfChange", null),
+        Object(r.b)([d.d], T.prototype, "SetActionForInputModeType", null),
+        Object(r.b)([d.d], T.prototype, "SetParameterForInputModeType", null),
+        Object(r.b)([a.bind], T.prototype, "AddActionSetIfRequired", null),
+        Object(r.b)([d.d], T.prototype, "AddInputModeForSource", null),
+        Object(r.b)([d.d], T.prototype, "DeleteInputModeForSource", null),
+        Object(r.b)([d.d], T.prototype, "SetInputModeForInputSource", null),
+        Object(r.b)([d.d], T.prototype, "ClearModesForInputPath", null),
+        Object(r.b)([d.d], T.prototype, "SetInputPathForPose", null),
+        Object(r.b)([d.d], T.prototype, "SetPoseForInputPath", null),
+        Object(r.b)([d.d], T.prototype, "AddDefaultPose", null),
+        Object(r.b)([d.d], T.prototype, "SetInputPathForHaptics", null),
+        Object(r.b)([d.d], T.prototype, "SetHapticsForInputPath", null),
+        Object(r.b)([d.d], T.prototype, "AddDefaultHaptics", null),
+        Object(r.b)([d.d], T.prototype, "SetInputPathForSkeleton", null),
+        Object(r.b)([d.d], T.prototype, "SetSkeletonForInputPath", null),
+        Object(r.b)([d.d], T.prototype, "AddDefaultSkeleton", null),
+        Object(r.b)([d.d], T.prototype, "SetActionForChord", null),
+        Object(r.b)([d.d], T.prototype, "DeleteChord", null),
+        Object(r.b)([d.d], T.prototype, "AddChord", null),
+        Object(r.b)([d.d], T.prototype, "DeleteSourceFromChord", null),
+        Object(r.b)([d.d], T.prototype, "SetInputTypeForChord", null),
+        Object(r.b)([d.d], T.prototype, "SetInputSourceForChord", null),
+        Object(r.b)([d.d], T.prototype, "LoadActionManifest", null),
+        Object(r.b)([d.f], T.prototype, "SelectedBindingURL", null),
+        Object(r.b)([d.f], T.prototype, "LoadedBindingURL", null),
+        Object(r.b)([d.f], T.prototype, "SelectedBindingIsLegacy", null),
+        Object(r.b)([d.f], T.prototype, "IsSecondaryController", null),
+        Object(r.b)([d.f], T.prototype, "TrackerBindings", null),
+        Object(r.b)([d.d], T.prototype, "GetTrackerBindings", null),
+        Object(r.b)([a.bind], T.prototype, "SetTrackerBinding", null),
+        Object(r.b)([a.bind], T.prototype, "PulseHaptics", null),
+        Object(r.b)([d.f], T.prototype, "KnownControllerTypes", null),
+        Object(r.b)([a.bind], T.prototype, "AutosaveBinding", null),
+        Object(r.b)([a.bind], T.prototype, "OnWebSocketOpen", null),
+        Object(r.b)([a.bind], T.prototype, "OnWebSocketClose", null),
+        Object(r.b)([a.bind], T.prototype, "WebSocketSend", null),
+        Object(r.b)([a.bind], T.prototype, "OnWorkshopUploadComplete", null),
+        Object(r.b)([a.bind], T.prototype, "OnPendingFileSaved", null),
+        Object(r.b)([d.f], T.prototype, "SaveNoticeText", null),
+        Object(r.b)([a.bind], T.prototype, "QueryBindingList", null),
+        Object(r.b)([a.bind], T.prototype, "DeleteBinding", null),
+        Object(r.b)([a.bind], T.prototype, "OnBindingDeleteComplete", null),
         Object(r.b)(
           [a.bind],
-          E.prototype,
+          T.prototype,
           "ShouldShowBindingFailureForControllerType",
           null
         ),
-        Object(r.b)([a.bind], E.prototype, "OnQueryResults", null),
-        Object(r.b)([a.bind], E.prototype, "SelectConfig", null),
-        Object(r.b)([a.bind], E.prototype, "OnSelectConfigComplete", null),
-        Object(r.b)([a.bind], E.prototype, "OnTrackersBindingChanged", null),
-        Object(r.b)([a.bind], E.prototype, "OnActionManifestReloaded", null),
-        Object(r.b)([a.bind], E.prototype, "SetBindingURL", null),
-        Object(r.b)([a.bind], E.prototype, "OnActionBindingsReloaded", null),
+        Object(r.b)([a.bind], T.prototype, "OnQueryResults", null),
+        Object(r.b)([a.bind], T.prototype, "SelectConfig", null),
+        Object(r.b)([a.bind], T.prototype, "OnSelectConfigComplete", null),
+        Object(r.b)([a.bind], T.prototype, "OnTrackersBindingChanged", null),
+        Object(r.b)([a.bind], T.prototype, "OnActionManifestReloaded", null),
+        Object(r.b)([a.bind], T.prototype, "SetBindingURL", null),
+        Object(r.b)([a.bind], T.prototype, "OnActionBindingsReloaded", null),
         Object(r.b)(
           [a.bind],
-          E.prototype,
+          T.prototype,
           "GetControllerWatcherForSourceFromControllerType",
           null
         ),
-        Object(r.b)([a.bind], E.prototype, "OnWebSocketMessage", null),
-        Object(r.b)([d.f], E.prototype, "BindingConfig", null),
+        Object(r.b)([a.bind], T.prototype, "OnWebSocketMessage", null),
+        Object(r.b)([d.f], T.prototype, "BindingConfig", null),
         Object(r.b)(
           [d.f],
-          E.prototype,
+          T.prototype,
           "BindingSubscriptionChangedCanary",
           null
         );
-      const k = new E();
+      const k = new T();
       window.controllerBindingStore = k;
     },
     P8UO: function (e, t, n) {
@@ -6878,7 +7884,7 @@
       class c {
         constructor() {
           var e;
-          (this.m_sceneApplicationState = o.v.None),
+          (this.m_sceneApplicationState = o.w.None),
             (this.m_sceneAppName = ""),
             (this.m_sceneAppKey = ""),
             (this.m_sceneApplicationStateChangedEventHandle = null),
@@ -6912,34 +7918,34 @@
         updateTransitionState() {
           if (!VRHTML) return;
           let e = VRHTML.VRApplications.GetSceneApplicationState();
-          e == o.v.Starting
-            ? (this.m_sceneApplicationState == o.v.Quitting &&
+          e == o.w.Starting
+            ? (this.m_sceneApplicationState == o.w.Quitting &&
                 this.resetLatchedValued(),
               (this.m_sceneApplicationState = e),
               this.updateLatchedValues(),
               this.cancelUnresponsiveTimeout(),
               this.cancelNoAppTimeout())
-            : e == o.v.Quitting
-            ? (this.m_sceneApplicationState == o.v.Starting &&
+            : e == o.w.Quitting
+            ? (this.m_sceneApplicationState == o.w.Starting &&
                 this.resetLatchedValued(),
               (this.m_sceneApplicationState = e),
               this.updateLatchedValues(),
               this.cancelUnresponsiveTimeout(),
               this.cancelNoAppTimeout())
-            : e == o.v.Running
+            : e == o.w.Running
             ? ((this.m_sceneApplicationState = e),
               this.cancelUnresponsiveTimeout(),
               this.cancelNoAppTimeout(),
               this.updateLatchedValues())
-            : e == o.v.None
+            : e == o.w.None
             ? (this.cancelUnresponsiveTimeout(),
-              this.m_sceneApplicationState != o.v.None &&
+              this.m_sceneApplicationState != o.w.None &&
                 this.startNoAppTimer())
-            : e == o.v.Waiting &&
-              (this.m_sceneApplicationState != o.v.Waiting &&
+            : e == o.w.Waiting &&
+              (this.m_sceneApplicationState != o.w.Waiting &&
                 this.startUnresponsiveTimer(),
               this.cancelNoAppTimeout()),
-            this.log("updateTransitionState: " + o.v[e]),
+            this.log("updateTransitionState: " + o.w[e]),
             this.log("this.m_sceneAppKey: " + this.m_sceneAppKey),
             this.log("this.m_sceneAppName: " + this.m_sceneAppName),
             this.log(
@@ -6949,19 +7955,19 @@
         onUnresponsiveTimeout() {
           clearTimeout(this.m_unresponsiveTimeout),
             (this.m_unresponsiveTimeout = void 0),
-            (this.m_sceneApplicationState = o.v.Waiting),
+            (this.m_sceneApplicationState = o.w.Waiting),
             this.updateLatchedValues();
         }
         onNoAppTimeout() {
           clearTimeout(this.m_noAppTimeout),
             (this.m_noAppTimeout = void 0),
-            VRHTML.VRApplications.GetSceneApplicationState() == o.v.None &&
+            VRHTML.VRApplications.GetSceneApplicationState() == o.w.None &&
               this.resetLatchedValued();
         }
         updateLatchedValues() {
           if (VRHTML)
             if (
-              VRHTML.VRApplications.GetSceneApplicationState() == o.v.Starting
+              VRHTML.VRApplications.GetSceneApplicationState() == o.w.Starting
             ) {
               let e = VRHTML.VRApplications.GetStartingApplicationKey();
               e && e.length > 0 && (this.m_sceneAppKey = e);
@@ -6977,7 +7983,7 @@
         resetLatchedValued() {
           (this.m_sceneAppName = ""),
             (this.m_sceneAppKey = ""),
-            (this.m_sceneApplicationState = o.v.None);
+            (this.m_sceneApplicationState = o.w.None);
         }
         cancelUnresponsiveTimeout() {
           this.m_unresponsiveTimeout &&
@@ -7042,7 +8048,7 @@
           return m;
         }),
         n.d(t, "d", function () {
-          return g;
+          return b;
         });
       var i = n("mrSG"),
         o = n("7wIv"),
@@ -7056,7 +8062,7 @@
         p = 0.2,
         h = 5,
         m = 0.02;
-      class b {
+      class g {
         constructor() {
           (this.m_wsWebSocketToServer = void 0),
             (this.m_mailbox = new l.c()),
@@ -7184,9 +8190,9 @@
         get MailboxName() {
           if (!this.m_bIsSettingApp) return "settings";
           switch (Object(l.i)()) {
-            case l.H.Overlay:
+            case l.I.Overlay:
               return "settings/overlay";
-            case l.H.Desktop:
+            case l.I.Desktop:
               return "settings/desktop";
             default:
               return "settings/unknown";
@@ -7320,10 +8326,10 @@
             window.addEventListener("beforeunload", () => {
               this.WebSocketSend("settings_close");
             }),
-            g.GetSettingsInfo().then((e) => {
+            b.GetSettingsInfo().then((e) => {
               this.systemInfo = e;
             }),
-            g.GetAppList().then((e) => {
+            b.GetAppList().then((e) => {
               this.OnVRAppList({ jsonid: "vr_app_list", apps: e });
             });
         }
@@ -7374,7 +8380,7 @@
           }
         }
         SetSettingValueFromServer(e, t) {
-          const n = 1e3 * b.SERVER_SETTING_MERGE_DEFER_DURATION;
+          const n = 1e3 * g.SERVER_SETTING_MERGE_DEFER_DURATION;
           if (this.m_mapSettingsLastWriteInfo.has(e)) {
             let i = this.m_mapSettingsLastWriteInfo.get(e);
             if (new Date().getTime() - i.nLastUserUpdateTime < n)
@@ -7535,63 +8541,63 @@
           this.m_mailbox.SendMessage(d.b, t);
         }
       }
-      (b.SERVER_SETTING_MERGE_DEFER_DURATION = 1),
-        Object(i.b)([a.m], b.prototype, "connected", void 0),
-        Object(i.b)([a.m], b.prototype, "settingsSchema", void 0),
-        Object(i.b)([a.m], b.prototype, "settings", void 0),
-        Object(i.b)([a.m], b.prototype, "systemInfo", void 0),
-        Object(i.b)([a.m], b.prototype, "audioDevices", void 0),
-        Object(i.b)([a.m], b.prototype, "apps", void 0),
-        Object(i.b)([a.m], b.prototype, "probablyOwnedAppkeys", void 0),
-        Object(i.b)([a.m], b.prototype, "showInternalSettings", void 0),
-        Object(i.b)([a.m], b.prototype, "workshopStateChangedCanary", void 0),
-        Object(i.b)([a.m], b.prototype, "pendingChanges", void 0),
-        Object(i.b)([a.m], b.prototype, "route", void 0),
-        Object(i.b)([o.bind], b.prototype, "OpenWebSocketToHost", null),
+      (g.SERVER_SETTING_MERGE_DEFER_DURATION = 1),
+        Object(i.b)([a.m], g.prototype, "connected", void 0),
+        Object(i.b)([a.m], g.prototype, "settingsSchema", void 0),
+        Object(i.b)([a.m], g.prototype, "settings", void 0),
+        Object(i.b)([a.m], g.prototype, "systemInfo", void 0),
+        Object(i.b)([a.m], g.prototype, "audioDevices", void 0),
+        Object(i.b)([a.m], g.prototype, "apps", void 0),
+        Object(i.b)([a.m], g.prototype, "probablyOwnedAppkeys", void 0),
+        Object(i.b)([a.m], g.prototype, "showInternalSettings", void 0),
+        Object(i.b)([a.m], g.prototype, "workshopStateChangedCanary", void 0),
+        Object(i.b)([a.m], g.prototype, "pendingChanges", void 0),
+        Object(i.b)([a.m], g.prototype, "route", void 0),
+        Object(i.b)([o.bind], g.prototype, "OpenWebSocketToHost", null),
         Object(i.b)(
           [o.bind],
-          b.prototype,
+          g.prototype,
           "OnWorkshopStateChangedMessage",
           null
         ),
-        Object(i.b)([o.bind], b.prototype, "OnChangeRouteMessage", null),
-        Object(i.b)([o.bind], b.prototype, "OnAppConfigChangedMessage", null),
-        Object(i.b)([o.bind], b.prototype, "OnRefreshRateChangeMessage", null),
-        Object(i.b)([a.d.bound], b.prototype, "onHashChanged", null),
-        Object(i.b)([a.f], b.prototype, "routePage", null),
-        Object(i.b)([a.f], b.prototype, "routePageSection", null),
-        Object(i.b)([a.f], b.prototype, "routePageSectionParams", null),
-        Object(i.b)([a.d], b.prototype, "setRoutePage", null),
-        Object(i.b)([a.d], b.prototype, "setRoutePageSection", null),
-        Object(i.b)([a.d], b.prototype, "setRoutePageSectionParams", null),
-        Object(i.b)([a.d], b.prototype, "setRoute", null),
-        Object(i.b)([o.bind], b.prototype, "SetDashboardFadeSupression", null),
+        Object(i.b)([o.bind], g.prototype, "OnChangeRouteMessage", null),
+        Object(i.b)([o.bind], g.prototype, "OnAppConfigChangedMessage", null),
+        Object(i.b)([o.bind], g.prototype, "OnRefreshRateChangeMessage", null),
+        Object(i.b)([a.d.bound], g.prototype, "onHashChanged", null),
+        Object(i.b)([a.f], g.prototype, "routePage", null),
+        Object(i.b)([a.f], g.prototype, "routePageSection", null),
+        Object(i.b)([a.f], g.prototype, "routePageSectionParams", null),
+        Object(i.b)([a.d], g.prototype, "setRoutePage", null),
+        Object(i.b)([a.d], g.prototype, "setRoutePageSection", null),
+        Object(i.b)([a.d], g.prototype, "setRoutePageSectionParams", null),
+        Object(i.b)([a.d], g.prototype, "setRoute", null),
+        Object(i.b)([o.bind], g.prototype, "SetDashboardFadeSupression", null),
         Object(i.b)(
           [o.bind],
-          b.prototype,
+          g.prototype,
           "SetDashboardForceBoundsVisible",
           null
         ),
-        Object(i.b)([o.bind], b.prototype, "SetRestartRequired", null),
-        Object(i.b)([o.bind], b.prototype, "OnWebSocketOpen", null),
-        Object(i.b)([o.bind], b.prototype, "OnWebSocketClose", null),
-        Object(i.b)([o.bind], b.prototype, "WebSocketSend", null),
-        Object(i.b)([o.bind], b.prototype, "OnWebSocketMessage", null),
-        Object(i.b)([a.d], b.prototype, "OnVRSettings", null),
-        Object(i.b)([a.d], b.prototype, "SetSettingValueFromServer", null),
-        Object(i.b)([a.d], b.prototype, "OnVRSettingsSchema", null),
-        Object(i.b)([a.d.bound], b.prototype, "ResetSettingsValue", null),
-        Object(i.b)([a.d], b.prototype, "ResetSettingsValues", null),
-        Object(i.b)([a.d], b.prototype, "SetSettingsValue", null),
+        Object(i.b)([o.bind], g.prototype, "SetRestartRequired", null),
+        Object(i.b)([o.bind], g.prototype, "OnWebSocketOpen", null),
+        Object(i.b)([o.bind], g.prototype, "OnWebSocketClose", null),
+        Object(i.b)([o.bind], g.prototype, "WebSocketSend", null),
+        Object(i.b)([o.bind], g.prototype, "OnWebSocketMessage", null),
+        Object(i.b)([a.d], g.prototype, "OnVRSettings", null),
+        Object(i.b)([a.d], g.prototype, "SetSettingValueFromServer", null),
+        Object(i.b)([a.d], g.prototype, "OnVRSettingsSchema", null),
+        Object(i.b)([a.d.bound], g.prototype, "ResetSettingsValue", null),
+        Object(i.b)([a.d], g.prototype, "ResetSettingsValues", null),
+        Object(i.b)([a.d], g.prototype, "SetSettingsValue", null),
         Object(i.b)(
           [a.d],
-          b.prototype,
+          g.prototype,
           "SetSettingsStringValueWithoutSchema",
           null
         ),
-        Object(i.b)([a.f], b.prototype, "NumSupersamplingSteps", null);
-      const g = new b();
-      window.VRSettingsState = g;
+        Object(i.b)([a.f], g.prototype, "NumSupersamplingSteps", null);
+      const b = new g();
+      window.VRSettingsState = b;
     },
     "TbT/": function (e, t, n) {
       "use strict";
@@ -7611,22 +8617,22 @@
           return M;
         }),
         n.d(t, "h", function () {
-          return T;
+          return E;
         }),
         n.d(t, "k", function () {
           return R;
         }),
         n.d(t, "m", function () {
-          return E;
+          return T;
         }),
         n.d(t, "p", function () {
           return I;
         }),
         n.d(t, "o", function () {
-          return D;
+          return P;
         }),
         n.d(t, "g", function () {
-          return P;
+          return B;
         }),
         n.d(t, "a", function () {
           return V;
@@ -7641,7 +8647,7 @@
           return G;
         }),
         n.d(t, "e", function () {
-          return H;
+          return x;
         });
       var i,
         o,
@@ -7655,8 +8661,8 @@
         p = n("/i/y"),
         h = n("CzjV"),
         m = n("6YgL"),
-        b = n("hcOo"),
-        g = n("lbBr"),
+        g = n("hcOo"),
+        b = n("lbBr"),
         S = n("nAcY"),
         _ = n("GxMB"),
         f = n("7uy8"),
@@ -7679,15 +8685,15 @@
           let t = this.props.visibility == o.Advanced;
           switch (this.props.visibility) {
             case o.Desktop:
-              t = Object(p.i)() != p.H.Desktop;
+              t = Object(p.i)() != p.I.Desktop;
               break;
             case o.VR:
-              t = Object(p.i)() != p.H.Overlay;
+              t = Object(p.i)() != p.I.Overlay;
           }
           return t && !u.d.showAdvancedSettings
             ? null
             : (this.props.visibility == o.Advanced &&
-                (e.className = Object(b.a)(e.className, "Advanced")),
+                (e.className = Object(g.a)(e.className, "Advanced")),
               r.createElement("div", e, this.props.children));
         }
       };
@@ -7725,7 +8731,7 @@
                   value: e.value,
                   sLabel: Object(l.c)(e.label),
                 }));
-              return r.createElement(T, {
+              return r.createElement(E, {
                 key: e.name,
                 name: e.name,
                 label: e.label ? Object(l.c)(e.label) : "",
@@ -7748,7 +8754,7 @@
             case "scale":
               return r.createElement("div", { key: e.name });
             case "slider":
-              return r.createElement(E, {
+              return r.createElement(T, {
                 key: e.name,
                 name: e.name,
                 label: e.label ? Object(l.c)(e.label) : "",
@@ -7898,29 +8904,29 @@
           }
           this.props.name && u.d.SetSettingsValue(this.props.name, t),
             this.props.onChange && this.props.onChange(t),
-            Object(p.i)() == p.H.Overlay &&
+            Object(p.i)() == p.I.Overlay &&
               (m.b.temporarilySuppressSoundEffect(),
               h.b.Instance.playSound(h.a.ButtonClick)),
             this.props.requiresRestart && u.d.SetRestartRequired();
         }
         onGroupMouseEnter() {
           2 == this.props.items.length &&
-            Object(p.i)() == p.H.Overlay &&
+            Object(p.i)() == p.I.Overlay &&
             S.b.Instance.triggerHaptic(S.a.ButtonEnter);
         }
         onGroupMouseLeave() {
           2 == this.props.items.length &&
-            Object(p.i)() == p.H.Overlay &&
+            Object(p.i)() == p.I.Overlay &&
             S.b.Instance.triggerHaptic(S.a.ButtonLeave);
         }
         onOptionMouseEnter() {
           2 != this.props.items.length &&
-            Object(p.i)() == p.H.Overlay &&
+            Object(p.i)() == p.I.Overlay &&
             S.b.Instance.triggerHaptic(S.a.ButtonEnter);
         }
         onOptionMouseLeave() {
           2 != this.props.items.length &&
-            Object(p.i)() == p.H.Overlay &&
+            Object(p.i)() == p.I.Overlay &&
             S.b.Instance.triggerHaptic(S.a.ButtonLeave);
         }
         ValuesAreEqual(e, t) {
@@ -7953,18 +8959,18 @@
           return r.createElement(
             A,
             {
-              className: Object(b.a)("SettingsItem", "SegmentedControl"),
+              className: Object(g.a)("SettingsItem", "SegmentedControl"),
               title: this.props.title,
               visibility: this.props.visibility,
             },
             r.createElement("div", { className: "Label" }, this.props.label),
             r.createElement(
               "div",
-              { className: Object(b.a)("SubsectionStem", ["Hidden", !a]) },
+              { className: Object(g.a)("SubsectionStem", ["Hidden", !a]) },
               r.createElement(
                 "div",
                 {
-                  className: Object(b.a)("SegmentedControlGroup", [
+                  className: Object(g.a)("SegmentedControlGroup", [
                     "DualValue",
                     2 == this.props.items.length,
                   ]),
@@ -7990,7 +8996,7 @@
                     "div",
                     {
                       key: t,
-                      className: Object(b.a)("SegmentedControlGroupOption", [
+                      className: Object(g.a)("SegmentedControlGroupOption", [
                         "Active",
                         this.ValuesAreEqual(e.value, i),
                       ]),
@@ -8069,7 +9075,7 @@
         }
       };
       M = Object(s.b)([d.a], M);
-      let T = class extends r.Component {
+      let E = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -8108,7 +9114,7 @@
                 r.createElement(
                   "div",
                   {
-                    className: Object(b.a)("Label", [
+                    className: Object(g.a)("Label", [
                       "Spanning",
                       this.props.fullWidth,
                     ]),
@@ -8118,7 +9124,7 @@
               r.createElement(
                 "div",
                 {
-                  className: Object(b.a)("SubsectionStem", [
+                  className: Object(g.a)("SubsectionStem", [
                     "Hidden",
                     !this.props.subsection,
                   ]),
@@ -8135,9 +9141,9 @@
           );
         }
       };
-      Object(s.b)([c.f], T.prototype, "value", null),
-        Object(s.b)([a.bind], T.prototype, "onChange", null),
-        (T = Object(s.b)([d.a], T));
+      Object(s.b)([c.f], E.prototype, "value", null),
+        Object(s.b)([a.bind], E.prototype, "onChange", null),
+        (E = Object(s.b)([d.a], E));
       let R = class extends r.Component {
         constructor(e) {
           if (
@@ -8162,11 +9168,13 @@
         }
         render() {
           const e = this.props.items.map((e, t) => {
-            const n = e.value == this.value;
+            const n = this.props.comparator
+              ? this.props.comparator(this.value, e.value)
+              : this.value == e.value;
             return r.createElement(
               m.a,
               {
-                className: Object(b.a)("RadioButton", ["Selected", n]),
+                className: Object(g.a)("RadioButton", ["Selected", n]),
                 key: t,
                 enabled: !n,
                 onClick: () => this.onChange(e.value),
@@ -8177,7 +9185,7 @@
           return r.createElement(
             A,
             {
-              className: Object(b.a)("SettingsItem", "RadioButtons"),
+              className: Object(g.a)("SettingsItem", "RadioButtons"),
               title: this.props.title,
             },
             r.createElement("div", { className: "Label" }, this.props.label),
@@ -8188,7 +9196,7 @@
       Object(s.b)([c.f], R.prototype, "value", null),
         Object(s.b)([a.bind], R.prototype, "onChange", null),
         (R = Object(s.b)([d.a], R));
-      let E = class extends r.Component {
+      let T = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -8247,7 +9255,7 @@
             r.createElement(
               A,
               {
-                className: Object(b.a)(
+                className: Object(g.a)(
                   "SettingsItem",
                   "Slider",
                   this.props.additionalClassName
@@ -8258,7 +9266,7 @@
                 r.createElement(
                   "label",
                   {
-                    className: Object(b.a)("Label", [
+                    className: Object(g.a)("Label", [
                       "Spanning",
                       this.props.labelSpans,
                     ]),
@@ -8279,11 +9287,11 @@
           ("0" + Math.floor(255 * e.a).toString(16)).slice(-2)
         ).toUpperCase();
       }
-      Object(s.b)([a.bind], E.prototype, "onInteractionStart", null),
-        Object(s.b)([a.bind], E.prototype, "onInteractionEnd", null),
-        Object(s.b)([c.f], E.prototype, "value", null),
-        Object(s.b)([a.bind], E.prototype, "onChange", null),
-        (E = Object(s.b)([d.a], E));
+      Object(s.b)([a.bind], T.prototype, "onInteractionStart", null),
+        Object(s.b)([a.bind], T.prototype, "onInteractionEnd", null),
+        Object(s.b)([c.f], T.prototype, "value", null),
+        Object(s.b)([a.bind], T.prototype, "onChange", null),
+        (T = Object(s.b)([d.a], T));
       let I = (i = class extends r.Component {
         static HueToRGB(e, t, n) {
           return 6 * (n = (n + 1) % 1) < 1
@@ -8359,7 +9367,7 @@
           const o = i.RGBtoHueLuminance(e, t, n),
             s = 360 / (1 - i.WHITE_SIZE_PERCENT),
             a = 255 == e && 255 == t && 255 == n ? s : o.hue;
-          return r.createElement(E, {
+          return r.createElement(T, {
             additionalClassName: "Hue",
             label: this.props.label,
             labelSpans: !0,
@@ -8376,7 +9384,7 @@
       (I.WHITE_SIZE_PERCENT = 0.03),
         Object(s.b)([a.bind], I.prototype, "onSliderChanged", null),
         (I = i = Object(s.b)([d.a], I));
-      let D = class extends r.Component {
+      let P = class extends r.Component {
         get value() {
           return this.props.name
             ? u.d.settings.get(this.props.name)
@@ -8390,7 +9398,7 @@
           const e = this.props.color
             ? this.props.color
             : { r: 255, g: 255, b: 255 };
-          return r.createElement(E, {
+          return r.createElement(T, {
             additionalClassName: "Alpha",
             label: this.props.label,
             title: this.props.text,
@@ -8412,11 +9420,11 @@
           });
         }
       };
-      Object(s.b)([c.f], D.prototype, "value", null),
-        Object(s.b)([a.bind], D.prototype, "onSliderChanged", null),
-        (D = Object(s.b)([d.a], D));
-      let B,
-        P = class extends r.Component {
+      Object(s.b)([c.f], P.prototype, "value", null),
+        Object(s.b)([a.bind], P.prototype, "onSliderChanged", null),
+        (P = Object(s.b)([d.a], P));
+      let D,
+        B = class extends r.Component {
           constructor(e) {
             super(e), (this.state = { bShowingModal: !1 });
           }
@@ -8514,7 +9522,7 @@
                     onChange: this.onColorChange,
                     value: e,
                   }),
-                  r.createElement(D, {
+                  r.createElement(P, {
                     label: Object(l.c)(
                       "#Settings_Chaperone_BoundsTransparency"
                     ),
@@ -8528,15 +9536,15 @@
             );
           }
         };
-      Object(s.b)([c.f], P.prototype, "value", null),
-        Object(s.b)([c.f], P.prototype, "alphaScale", null),
-        Object(s.b)([a.bind], P.prototype, "onAlphaChange", null),
-        Object(s.b)([c.f], P.prototype, "minA", null),
-        Object(s.b)([c.f], P.prototype, "maxA", null),
-        Object(s.b)([a.bind], P.prototype, "onColorChange", null),
-        Object(s.b)([a.bind], P.prototype, "showModal", null),
-        Object(s.b)([a.bind], P.prototype, "hideModal", null),
-        (P = Object(s.b)([d.a], P));
+      Object(s.b)([c.f], B.prototype, "value", null),
+        Object(s.b)([c.f], B.prototype, "alphaScale", null),
+        Object(s.b)([a.bind], B.prototype, "onAlphaChange", null),
+        Object(s.b)([c.f], B.prototype, "minA", null),
+        Object(s.b)([c.f], B.prototype, "maxA", null),
+        Object(s.b)([a.bind], B.prototype, "onColorChange", null),
+        Object(s.b)([a.bind], B.prototype, "showModal", null),
+        Object(s.b)([a.bind], B.prototype, "hideModal", null),
+        (B = Object(s.b)([d.a], B));
       class L {
         constructor() {
           var e;
@@ -8593,13 +9601,13 @@
         );
       class V extends r.Component {
         constructor(e) {
-          B || (B = new L()), super(e), (this.state = { currentApp: null });
+          D || (D = new L()), super(e), (this.state = { currentApp: null });
         }
         componentDidMount() {
-          B.register(this.props.stateKey, this.onSceneApplicationStateChanged);
+          D.register(this.props.stateKey, this.onSceneApplicationStateChanged);
         }
         componentWillUnmount() {
-          B.unregister(this.props.stateKey);
+          D.unregister(this.props.stateKey);
         }
         onSceneApplicationStateChanged(e) {
           var t, n;
@@ -8648,15 +9656,15 @@
                   });
             }
           const n = (e) =>
-              e.value == B.runningAppKey ||
+              e.value == D.runningAppKey ||
               "openvr.component.vrcompositor" == e.value,
             i = e.filter(n),
             o = e.filter((e) => !n(e));
           return (
             i.sort((e, t) =>
-              e.value == B.runningAppKey
+              e.value == D.runningAppKey
                 ? -1
-                : t.value == B.runningAppKey
+                : t.value == D.runningAppKey
                 ? 1
                 : "openvr.component.vrcompositor" == e.value
                 ? -1
@@ -8673,12 +9681,12 @@
           );
         }
         onControllerDropdownChanged(e) {
-          B.setAppKey(this.props.stateKey, e), this.setCurrentApp(e);
+          D.setAppKey(this.props.stateKey, e), this.setCurrentApp(e);
         }
         render() {
           const e = this.makeAppChoiceList(),
             t = this.state.currentApp ? this.state.currentApp.key : null;
-          return r.createElement(T, {
+          return r.createElement(E, {
             label: this.props.label,
             items: e,
             value: t,
@@ -8711,13 +9719,13 @@
             }));
           const s = t.allowableParentSelectors || [];
           return (
-            p.eb.IsSceneGraphApp ||
+            p.gb.IsSceneGraphApp ||
               (t.allowableParentSelectors = [
                 ...s,
                 ".SettingsSidebarPageModalContainer",
               ]),
             r.createElement(
-              g.a,
+              b.a,
               Object.assign({}, t),
               n && r.createElement("div", { className: "Subsection Top" }, n),
               i &&
@@ -8778,7 +9786,7 @@
       !(function (e) {
         e[(e.PopOut = 0)] = "PopOut";
       })(G || (G = {}));
-      const H = (e) => {
+      const x = (e) => {
         let t = null;
         if (void 0 !== e.icon)
           switch (e.icon) {
@@ -8789,7 +9797,7 @@
           m.a,
           Object.assign(
             {
-              className: Object(b.a)("ButtonControl", ["WithIcon", null !== t]),
+              className: Object(g.a)("ButtonControl", ["WithIcon", null !== t]),
             },
             e
           ),
@@ -8882,14 +9890,14 @@
         }
         render() {
           return i.createElement(
-            r.Z,
+            r.bb,
             { ref: this.m_refPanelAnchor, latched: this.props.latched },
-            i.createElement(r.lb, { id: this.m_sPanelAnchorID }),
+            i.createElement(r.nb, { id: this.m_sPanelAnchorID }),
             i.createElement(
               a,
               Object.assign({}, this.props),
               i.createElement(
-                r.lb,
+                r.nb,
                 { parent_id: this.m_sPanelAnchorID },
                 this.props.children
               )
@@ -8921,8 +9929,8 @@
         p = n("CzjV"),
         h = n("6YgL"),
         m = n("hcOo"),
-        b = n("nAcY"),
-        g = n("p9CI"),
+        g = n("nAcY"),
+        b = n("p9CI"),
         S = n("iHhG");
       !(function (e) {
         (e[(e.Value = 0)] = "Value"), (e[(e.Color = 1)] = "Color");
@@ -8967,8 +9975,8 @@
               this.onWindowMouseUp
             ),
             window.cancelAnimationFrame(this.m_nAnimationFrameCallback),
-            b.b.Instance.unsuppressHaptics(this),
-            g.b.unsuppressScrolling(this.m_sScrollSuppressedIdentifier);
+            g.b.Instance.unsuppressHaptics(this),
+            b.b.unsuppressScrolling(this.m_sScrollSuppressedIdentifier);
         }
         get sliderHandleElement() {
           var e, t;
@@ -9001,18 +10009,18 @@
           null === (n = (t = this.props).onMouseEnter) ||
             void 0 === n ||
             n.call(t, e),
-            Object(u.i)() != u.H.Overlay ||
+            Object(u.i)() != u.I.Overlay ||
               this.state.m_bSliding ||
-              b.b.Instance.triggerHaptic(b.a.ButtonEnter);
+              g.b.Instance.triggerHaptic(g.a.ButtonEnter);
         }
         onSliderMouseLeave(e) {
           var t, n;
           null === (n = (t = this.props).onMouseLeave) ||
             void 0 === n ||
             n.call(t, e),
-            Object(u.i)() != u.H.Overlay ||
+            Object(u.i)() != u.I.Overlay ||
               this.state.m_bSliding ||
-              b.b.Instance.triggerHaptic(b.a.ButtonLeave);
+              g.b.Instance.triggerHaptic(g.a.ButtonLeave);
         }
         getNormalizedValueForMousePosition(e) {
           const t = this.m_refSlider.current.getBoundingClientRect(),
@@ -9043,7 +10051,7 @@
                 ),
               null === s ||
                 this.m_setDetentsToIgnore.has(s) ||
-                b.b.Instance.triggerHaptic(b.a.Snap)),
+                g.b.Instance.triggerHaptic(g.a.Snap)),
             (this.m_nCurrentNearestSnappableDetent = s),
             this.setNormalizedValue(o);
         }
@@ -9074,16 +10082,16 @@
           this.setState({ m_bSliding: !0 }),
             this.updateValueForMousePosition(o, !0),
             this.setDragElapsedSecondsCSSProperty(0),
-            b.b.Instance.suppressHapticsExcept(this, [
-              b.a.Sliding,
-              b.a.SlidingEdge,
-              b.a.Snap,
+            g.b.Instance.suppressHapticsExcept(this, [
+              g.a.Sliding,
+              g.a.SlidingEdge,
+              g.a.Snap,
             ]),
             (this.m_dragStartTime = new Date()),
             (this.m_nAnimationFrameCallback = window.requestAnimationFrame(
               this.onDragAnimationFrame
             )),
-            g.b.suppressScrolling(this.m_sScrollSuppressedIdentifier),
+            b.b.suppressScrolling(this.m_sScrollSuppressedIdentifier),
             p.b.Instance.playSound(
               null != (t = this.props.interactionStartSoundEffect)
                 ? t
@@ -9100,7 +10108,7 @@
             window.cancelAnimationFrame(this.m_nAnimationFrameCallback),
             this.setDragElapsedSecondsCSSProperty(0),
             this.m_setDetentsToIgnore.clear(),
-            b.b.Instance.unsuppressHaptics(this),
+            g.b.Instance.unsuppressHaptics(this),
             null === (t = (e = this.props).onInteractionEnd) ||
               void 0 === t ||
               t.call(e),
@@ -9113,7 +10121,7 @@
                 ? o
                 : p.a.GrabRelease
             ),
-            g.b.unsuppressScrolling(this.m_sScrollSuppressedIdentifier));
+            b.b.unsuppressScrolling(this.m_sScrollSuppressedIdentifier));
         }
         getClosestSnappableDetent(e) {
           const t = this.normalizedDetents;
@@ -9200,12 +10208,12 @@
               o = Math.abs(i - n) < 1e-5 ? 1 : 1 - (1 % n);
             (0 == e || Math.abs(e - o) < 0.001) &&
               !t &&
-              (b.b.Instance.triggerHaptic(b.a.SlidingEdge), (t = !0)),
+              (g.b.Instance.triggerHaptic(g.a.SlidingEdge), (t = !0)),
               !this.shouldTriggerHapticOnSnap ||
                 this.isSnappedToDetent ||
-                Object(u.i)() != u.H.Overlay ||
+                Object(u.i)() != u.I.Overlay ||
                 t ||
-                (b.b.Instance.triggerHaptic(b.a.Snap), (t = !0));
+                (g.b.Instance.triggerHaptic(g.a.Snap), (t = !0));
           }
           if (
             !this.shouldTriggerHapticOnSnap &&
@@ -9217,11 +10225,11 @@
               i > 0 &&
               i < 1 &&
               !t &&
-              (b.b.Instance.triggerHaptic(b.a.SlidingEdge), (t = !0));
+              (g.b.Instance.triggerHaptic(g.a.SlidingEdge), (t = !0));
             const n = 40;
             Math.floor(i * n) == Math.floor(e * n) ||
               t ||
-              (b.b.Instance.triggerHaptic(b.a.Sliding), (t = !0));
+              (g.b.Instance.triggerHaptic(g.a.Sliding), (t = !0));
           }
           const o = this.normalizedToExternal(e);
           this.props.onChange && this.props.onChange(o);
@@ -9855,8 +10863,8 @@
         }
         updateFidelity() {
           var e, t, n;
-          let i = null != (e = a.d.settings.get(l.C)) ? e : c.q.Auto;
-          i == c.q.Auto &&
+          let i = null != (e = a.d.settings.get(l.C)) ? e : c.r.Auto;
+          i == c.r.Auto &&
             (i =
               null !=
               (n =
@@ -9864,8 +10872,8 @@
                   ? void 0
                   : t.GetRecommendedOverlayRenderQuality())
                 ? n
-                : c.q.High);
-          Object(c.i)() == c.H.Overlay && i != c.q.High
+                : c.r.High);
+          Object(c.i)() == c.I.Overlay && i != c.r.High
             ? document.documentElement.classList.add(m.AnimationsDisabledClass)
             : document.documentElement.classList.remove(
                 m.AnimationsDisabledClass
@@ -10098,7 +11106,7 @@
         }
         triggerHaptic(e) {
           var t, n;
-          if (Object(o.i)() != o.H.Overlay || this.isHapticSuppressed(e))
+          if (Object(o.i)() != o.I.Overlay || this.isHapticSuppressed(e))
             return;
           if (e == i.ButtonLeave) return;
           let s = 0,
@@ -10122,7 +11130,7 @@
               ? void 0
               : t.VRProperties.GetStringProperty(
                   "/user/head",
-                  o.y.ModelNumber_String
+                  o.z.ModelNumber_String
                 )) && (a *= 1.8),
             a > 0 &&
               (null === (n = VRHTML) ||
@@ -10363,7 +11371,7 @@
             window.document.addEventListener("mouseup", this.onWindowMouseUp);
         }
         updateMouseTracking(e) {
-          const t = Object(l.hb)(this.m_initialMousePosition, e);
+          const t = Object(l.jb)(this.m_initialMousePosition, e);
           switch (this.state.eScrollState) {
             case o.MouseDown:
               if (this.props.scrollDirection == i.None) break;
@@ -10400,7 +11408,7 @@
             n = Math.sign(this.m_thrownVelocityPerSecond.y),
             i =
               850 +
-              ((Object(l.M)(this.m_thrownVelocityPerSecond) - 500) / 1e4) *
+              ((Object(l.O)(this.m_thrownVelocityPerSecond) - 500) / 1e4) *
                 49150,
             s = Math.min(5e4, Math.max(850, i));
           this.m_thrownVelocityPerSecond = {
@@ -10409,13 +11417,13 @@
           };
           Math.sign(this.m_thrownVelocityPerSecond.x) != t ||
           Math.sign(this.m_thrownVelocityPerSecond.y) != n ||
-          Object(l.M)(this.m_thrownVelocityPerSecond) <= 1
+          Object(l.O)(this.m_thrownVelocityPerSecond) <= 1
             ? this.setState({ eScrollState: o.Default })
             : this.requestNextAnimationFrame();
         }
         startDragging(e) {
           m.isScrollingSuppressed ||
-            (Object(l.i)() == l.H.Overlay &&
+            (Object(l.i)() == l.I.Overlay &&
               (this.setState({ eScrollState: o.Dragging }),
               (this.m_initialMousePosition = e),
               (this.m_initialScrollPosition = {
@@ -10461,10 +11469,10 @@
               : (e = r),
               t++;
           }
-          const n = Object(l.M)(e);
+          const n = Object(l.O)(e);
           return (
             n > m.MAX_PIXELS_PER_SECOND &&
-              (e = Object(l.U)(e, m.MAX_PIXELS_PER_SECOND / n)),
+              (e = Object(l.W)(e, m.MAX_PIXELS_PER_SECOND / n)),
             n < m.MIN_THROW_VELOCITY_PER_SECOND && (e = null),
             null != e ? e : { x: 0, y: 0 }
           );
@@ -10681,7 +11689,7 @@
             history.pushState({ direction: "current" }, "current"),
             history.pushState({ direction: "forward" }, "forward"),
             history.back();
-          let e = "bindingui/" + l.H[Object(l.i)()];
+          let e = "bindingui/" + l.I[Object(l.i)()];
           (this.m_mailbox = new l.c()),
             this.m_mailbox.Init(e),
             this.m_mailbox.RegisterHandler(
@@ -10708,7 +11716,7 @@
         }
         ShowOverlayInDashboard() {
           var e;
-          null === (e = l.mb) ||
+          null === (e = l.ob) ||
             void 0 === e ||
             e.VROverlay.ShowDashboard("system.vrwebhelper.controllerbinding");
         }
@@ -10723,9 +11731,9 @@
             (this.Loading = !0),
             u.a.UpdateApplications().then(() => {
               if (
-                (Object(l.i)() == l.H.Overlay
+                (Object(l.i)() == l.I.Overlay
                   ? this.ShowOverlayInDashboard()
-                  : Object(l.i)() == l.H.Desktop && l.mb.ShowBindingUI(!0),
+                  : Object(l.i)() == l.I.Desktop && l.ob.ShowBindingUI(!0),
                 !u.a.GetApp(e.app_key))
               )
                 return (
@@ -10783,7 +11791,7 @@
                   o
                 )
               ),
-                null === (t = l.mb) || void 0 === t || t.ShowBindingUI(!1);
+                null === (t = l.ob) || void 0 === t || t.ShowBindingUI(!1);
             });
         }
         OnActionManifestLoadFailed(e) {
@@ -10909,7 +11917,7 @@
         ReturnToSettingsUI() {
           var e;
           this.ShowAppSelect(),
-            null === (e = l.mb) || void 0 === e || e.ShowSettingsUI();
+            null === (e = l.ob) || void 0 === e || e.ShowSettingsUI();
         }
         ShowAppSelect() {
           (this.m_bStandaloneSettingsPage = !1),
@@ -10952,7 +11960,7 @@
                     this.UpdatePathsTimeout,
                     500
                   )),
-                  l.mb.ShowBindingUI(Object(l.i)() == l.H.Desktop);
+                  l.ob.ShowBindingUI(Object(l.i)() == l.I.Desktop);
               })
               .catch(() => {
                 this.Loading = !1;
@@ -10984,7 +11992,7 @@
             (this.m_sManifestErrorPath = i),
             (this.m_bShowManifestError = !0),
             this.ShowAppSelect(),
-            null === (o = l.mb) || void 0 === o || o.ShowBindingUI(!1);
+            null === (o = l.ob) || void 0 === o || o.ShowBindingUI(!1);
         }
         ManifestLoadErrorClose() {
           (this.m_sManifestError = void 0),
@@ -11073,8 +12081,8 @@
         p = n("uFkT"),
         h = n("MYgy"),
         m = n("2vnA"),
-        b = n("ru2+");
-      class g extends o.Component {
+        g = n("ru2+");
+      class b extends o.Component {
         constructor(e) {
           super(e),
             (this.m_mailbox = new u.c()),
@@ -11246,9 +12254,9 @@
           );
         }
       }
-      Object(i.b)([s.bind], g.prototype, "OnUpdateComponentStates", null),
-        Object(i.b)([s.bind], g.prototype, "OnCancel", null),
-        Object(i.b)([s.bind], g.prototype, "OnConfirm", null);
+      Object(i.b)([s.bind], b.prototype, "OnUpdateComponentStates", null),
+        Object(i.b)([s.bind], b.prototype, "OnCancel", null),
+        Object(i.b)([s.bind], b.prototype, "OnConfirm", null);
       var S,
         _,
         f = n("N46P"),
@@ -11259,7 +12267,7 @@
         return R;
       }),
         n.d(t, "a", function () {
-          return k;
+          return I;
         });
       const A = Object(r.a)(() => {
           var e;
@@ -11292,7 +12300,7 @@
                   header: Object(a.c)("#Settings_ViveTrackers"),
                   onDismissRequested: () => l.d.setRoutePageSection(null),
                 },
-                o.createElement(b.a, null)
+                o.createElement(g.a, null)
               )
           );
         }),
@@ -11360,10 +12368,10 @@
               onClick: function () {
                 if (VRHTML)
                   switch (Object(u.i)()) {
-                    case u.H.Desktop:
+                    case u.I.Desktop:
                       VRHTML.ShowBindingUI(!0);
                       break;
-                    case u.H.Overlay:
+                    case u.I.Overlay:
                       VRHTML.ShowBindingUI(!1), VRHTML.ShowBindingUIAppSelect();
                   }
                 else window.open("/dashboard/controllerbinding.html");
@@ -11385,13 +12393,13 @@
               onClick: function () {
                 if (VRHTML) {
                   switch (Object(u.i)()) {
-                    case u.H.Desktop:
+                    case u.I.Desktop:
                       VRHTML.ShowBindingUI(!0);
                       break;
-                    case u.H.Overlay:
+                    case u.I.Overlay:
                       VRHTML.ShowBindingUI(!1);
                   }
-                  let t = "bindingui/" + u.H[Object(u.i)()];
+                  let t = "bindingui/" + u.I[Object(u.i)()];
                   e.mailbox.SendMessage(t, { type: "show_input_debugger" });
                 } else
                   window.open(
@@ -11403,7 +12411,7 @@
           )
         );
       }
-      let T = (S = class extends o.Component {
+      let E = (S = class extends o.Component {
         constructor(e) {
           super(e),
             (this.state = { bShowingModal: !1, sDeviceToCalibrate: null });
@@ -11497,7 +12505,7 @@
                     onDismissRequested: this.hide,
                   },
                   null !== this.state.sDeviceToCalibrate &&
-                    o.createElement(g, {
+                    o.createElement(b, {
                       devicePath: this.state.sDeviceToCalibrate,
                       fnCloseCalibrator: this.closeCalibrator,
                       fnUpdateThumbstickCalibration: this.updateCalibration,
@@ -11576,7 +12584,7 @@
           );
         }
       });
-      (T.devices = [
+      (E.devices = [
         {
           sDevicePath: "/user/hand/left",
           sThumbstickAngleSettingPathPrefix:
@@ -11596,13 +12604,13 @@
             "#Settings_General_RightThumbstickAngle_NoValue",
         },
       ]),
-        Object(i.b)([s.bind], T.prototype, "resetToDefaults", null),
-        Object(i.b)([s.bind], T.prototype, "closeCalibrator", null),
-        Object(i.b)([s.bind], T.prototype, "updateCalibration", null),
-        Object(i.b)([s.bind], T.prototype, "showCalibration", null),
-        Object(i.b)([s.bind], T.prototype, "show", null),
-        Object(i.b)([s.bind], T.prototype, "hide", null),
-        (T = S = Object(i.b)([r.a], T));
+        Object(i.b)([s.bind], E.prototype, "resetToDefaults", null),
+        Object(i.b)([s.bind], E.prototype, "closeCalibrator", null),
+        Object(i.b)([s.bind], E.prototype, "updateCalibration", null),
+        Object(i.b)([s.bind], E.prototype, "showCalibration", null),
+        Object(i.b)([s.bind], E.prototype, "show", null),
+        Object(i.b)([s.bind], E.prototype, "hide", null),
+        (E = S = Object(i.b)([r.a], E));
       let R = (_ = class extends o.Component {
         constructor(e) {
           super(e),
@@ -11749,7 +12757,7 @@
           e &&
             (t.controller_type =
               this.state.currentControllerType.controller_type);
-          let n = "bindingui/" + u.H[Object(u.i)()];
+          let n = "bindingui/" + u.I[Object(u.i)()];
           this.m_mailbox.SendMessage(n, t);
         }
         show() {
@@ -11783,8 +12791,8 @@
         }
         onToggleDominantHand(e) {
           let t = e
-            ? u.w.TrackedControllerRole_RightHand
-            : u.w.TrackedControllerRole_LeftHand;
+            ? u.x.TrackedControllerRole_RightHand
+            : u.x.TrackedControllerRole_LeftHand;
           this.setAppState("dominant_hand", t),
             this.setState({ eDominantHand: t });
         }
@@ -11814,7 +12822,7 @@
                 ? void 0
                 : e.supports_dominant_hand_setting) &&
               null != this.state.eDominantHand,
-            h = this.state.eDominantHand == u.w.TrackedControllerRole_RightHand;
+            h = this.state.eDominantHand == u.x.TrackedControllerRole_RightHand;
           return o.createElement(
             o.Fragment,
             null,
@@ -11946,7 +12954,7 @@
                   }),
                 o.createElement("div", { className: "Spacer" }),
                 this.state.currentBinding &&
-                  o.createElement(E, {
+                  o.createElement(T, {
                     appKey: this.state.currentBindingApp.key,
                   }),
                 l &&
@@ -11977,7 +12985,7 @@
         Object(i.b)([s.bind], R.prototype, "showBindingCallouts", null),
         Object(i.b)([s.bind], R.prototype, "onToggleDominantHand", null),
         (R = _ = Object(i.b)([r.a], R));
-      const E = (e) =>
+      const T = (e) =>
         o.createElement(
           c.c,
           { className: "SettingsItem" },
@@ -12001,13 +13009,127 @@
               },
             },
             Object(a.c)(
-              Object(u.i)() == u.H.Overlay
+              Object(u.i)() == u.I.Overlay
                 ? "#Settings_Controller_ShowBindingCallouts"
                 : "#Settings_Controller_ShowBindingCalloutsInVR"
             )
           )
         );
-      let k = class extends c.b {
+      let k = class extends o.Component {
+        constructor(e) {
+          super(e),
+            (this.m_mailbox = new u.c()),
+            (this.state = { bShowingModal: !1, dongles: [], isPairing: !1 }),
+            (this.m_mailbox = new u.c()),
+            this.m_mailbox
+              .Init("deckard_devtools")
+              .then(() => {
+                this.m_mailbox.RegisterHandler(
+                  "discover_dongles_response",
+                  this.OnDiscoverDonglesResponse
+                );
+              })
+              .catch((e) => {
+                console.log("Failed to open deckard_devtools mailbox " + e);
+              });
+        }
+        OnDiscoverDonglesResponse(e) {
+          console.log("OnDiscoverDonglesResponse " + e),
+            this.setState({ dongles: e.dongles, isPairing: e.isPairing });
+        }
+        DiscoverDongles() {
+          let e = {
+            type: "discover_dongles",
+            returnAddress: this.m_mailbox.name,
+          };
+          this.m_mailbox.SendMessage("lighthouse_pairing", e);
+        }
+        StartPairing(e) {
+          let t = {
+            type: "start_pairing",
+            returnAddress: this.m_mailbox.name,
+            serial: e,
+            timeoutSeconds: 10,
+            sendStatusUpdates: !0,
+          };
+          this.m_mailbox.SendMessage("lighthouse_pairing", t),
+            this.setState({ isPairing: !0 }),
+            console.log("StartPairing " + e);
+        }
+        show() {
+          this.DiscoverDongles(), this.setState({ bShowingModal: !0 });
+        }
+        hide() {
+          this.setState({ bShowingModal: !1 });
+        }
+        render() {
+          const e = 0 == this.state.dongles.length;
+          let t = [];
+          for (let e of this.state.dongles) {
+            let n = o.createElement(
+              "div",
+              { key: e.serial, className: "ButtonRow" },
+              "Dongle ",
+              e.serial,
+              " connected to ",
+              e.connectedSerial,
+              !this.state.isPairing &&
+                o.createElement(
+                  d.a,
+                  {
+                    className: "ButtonControl",
+                    onClick: () => this.StartPairing(e.serial),
+                  },
+                  " ",
+                  Object(a.c)("#Settings_Controller_Pair"),
+                  " "
+                ),
+              e.isPairing &&
+                o.createElement(
+                  "h2",
+                  null,
+                  " ",
+                  Object(a.c)("#Settings_Controller_Pairing"),
+                  " "
+                )
+            );
+            t.push(n);
+          }
+          return o.createElement(
+            o.Fragment,
+            null,
+            o.createElement(
+              c.c,
+              { className: "SettingsItem" },
+              o.createElement(
+                d.a,
+                { className: "ButtonControl", onClick: this.show },
+                Object(a.c)("#Settings_Controller_PairControllers")
+              )
+            ),
+            this.state.bShowingModal &&
+              o.createElement(
+                c.i,
+                {
+                  header: Object(a.c)(
+                    "#Settings_Controller_ControllerPairingSection"
+                  ),
+                  onDismissRequested: this.hide,
+                },
+                o.createElement(o.Fragment, null, t),
+                e &&
+                  o.createElement("h1", null, "No controller dongles detected.")
+              )
+          );
+        }
+      };
+      Object(i.b)([s.bind], k.prototype, "OnDiscoverDonglesResponse", null),
+        Object(i.b)([s.bind], k.prototype, "DiscoverDongles", null),
+        Object(i.b)([s.bind], k.prototype, "StartPairing", null),
+        Object(i.b)([s.bind], k.prototype, "show", null),
+        Object(i.b)([s.bind], k.prototype, "hide", null),
+        (k = Object(i.b)([r.a], k));
+      let I = class extends c.b {
         constructor(e) {
           super(e),
             (this.m_mailbox = new u.c()),
@@ -12020,27 +13142,48 @@
               this.m_refControllerSettingsSection.current.resetToDefaults();
         }
         render() {
-          return this.props.active
-            ? o.createElement(
-                o.Fragment,
-                null,
-                o.createElement(E, null),
-                o.createElement(R, null),
-                o.createElement(j, null),
-                o.createElement(T, {
-                  ref: this.m_refControllerSettingsSection,
-                }),
-                o.createElement(w, null),
-                o.createElement(A, null),
-                o.createElement(C, null),
-                o.createElement(M, { mailbox: this.m_mailbox })
+          var e, t;
+          if (!this.props.active) return null;
+          const n =
+              null !=
+                (e = l.d.settings.get(
+                  "/settings/dashboard/allowInHeadsetControllerPairing"
+                )) && e,
+            i =
+              null !=
+                (t = l.d.settings.get(
+                  "/settings/dashboard/showControllerTrackingReset"
+                )) && t;
+          return o.createElement(
+            o.Fragment,
+            null,
+            o.createElement(T, null),
+            o.createElement(R, null),
+            o.createElement(j, null),
+            o.createElement(E, { ref: this.m_refControllerSettingsSection }),
+            o.createElement(w, null),
+            o.createElement(A, null),
+            o.createElement(C, null),
+            o.createElement(M, { mailbox: this.m_mailbox }),
+            n && o.createElement(k, null),
+            i &&
+              o.createElement(
+                d.a,
+                {
+                  className: "ButtonControl",
+                  onClick: () =>
+                    this.m_mailbox.SendMessage("controller_tracking", {
+                      type: "reset_persistent_calibration",
+                    }),
+                },
+                Object(a.c)("#Settings_Controller_ResetTracking")
               )
-            : null;
+          );
         }
       };
-      (k.Name = "controller_settings"),
-        Object(i.b)([s.bind], k.prototype, "ResetToDefaults", null),
-        (k = Object(i.b)([r.a], k));
+      (I.Name = "controller_settings"),
+        Object(i.b)([s.bind], I.prototype, "ResetToDefaults", null),
+        (I = Object(i.b)([r.a], I));
     },
     tUsp: function (e, t, n) {
       "use strict";
@@ -12417,9 +13560,9 @@
           switch (
             null === (e = VRHTML) || void 0 === e ? void 0 : e.Environment()
           ) {
-            case o.H.Desktop:
+            case o.I.Desktop:
               return "desktop";
-            case o.H.Overlay:
+            case o.I.Overlay:
               return VRHTML.VROverlay.ThisOverlayKey();
             default:
               return "unknown";
@@ -12518,7 +13661,7 @@
           return R;
         }),
         n.d(t, "c", function () {
-          return E;
+          return T;
         });
       var i,
         o = n("mrSG"),
@@ -12532,8 +13675,8 @@
         p = n("/i/y"),
         h = n("okNM"),
         m = n("hcOo"),
-        b = n("7uy8"),
-        g = n("GxMB"),
+        g = n("7uy8"),
+        b = n("GxMB"),
         S = n("X3sx");
       function _() {
         VRHTML
@@ -12549,6 +13692,7 @@
           if (c.d.systemInfo.refresh_rates.supported_rates.length > 1)
             return s.createElement(d.k, {
               name: "/settings/steamvr/preferredRefreshRate",
+              comparator: (e, t) => Math.round(e) == Math.round(t),
               label: Object(l.c)("#Settings_Video_RefreshRate_Label_Hz"),
               items: c.d.systemInfo.refresh_rates.supported_rates.map((e) => ({
                 value: e,
@@ -12588,7 +13732,7 @@
                       "#Settings_Video_RefreshRate_NotAvailableExtended"
                     ),
                   t &&
-                    Object(p.i)() != p.H.Overlay &&
+                    Object(p.i)() != p.I.Overlay &&
                     s.createElement(
                       u.a,
                       { className: "ButtonControl", onClick: _ },
@@ -12602,10 +13746,10 @@
           }
         }),
         v = Object(h.a)(() => {
-          const e = c.d.settings.get(b.O),
-            t = c.d.settings.get(b.P);
+          const e = c.d.settings.get(g.O),
+            t = c.d.settings.get(g.P);
           let n = [],
-            i = c.d.settings.get(b.x);
+            i = c.d.settings.get(g.x);
           if ((i > 0 ? n.push(i) : n.push(1), null === e || null === t))
             return null;
           let o = null;
@@ -12636,7 +13780,7 @@
               ));
           }
           return s.createElement(d.n, {
-            name: b.O,
+            name: g.O,
             label: Object(l.c)("#Settings_Advanced_Supersampling_Header"),
             onLabel: Object(l.c)("#Settings_Advanced_Supersampling_Auto"),
             offLabel: Object(l.c)("#Settings_Advanced_Supersampling_Custom"),
@@ -12671,7 +13815,7 @@
                   step: 0.02,
                   detents: n,
                   value: t,
-                  onChange: (e) => c.d.SetSettingsValue(b.P, e),
+                  onChange: (e) => c.d.SetSettingsValue(g.P, e),
                 })
               )
             ),
@@ -12708,7 +13852,7 @@
           if (!VRHTML) return null;
           const e = VRHTML.VRProperties.GetStringProperty(
             "/user/head",
-            p.y.HmdColumnCorrectionSettingPrefix_String
+            p.z.HmdColumnCorrectionSettingPrefix_String
           );
           if (!e) return null;
           if ("firmware_update_required" == e)
@@ -12735,7 +13879,7 @@
               )
             );
           {
-            let t = c.d.settings.get(b.z);
+            let t = c.d.settings.get(g.z);
             const n = "/settings/driver_lighthouse/" + e + "_L",
               i = "/settings/driver_lighthouse/" + e + "_R";
             let o = c.d.settings.get(n);
@@ -12772,7 +13916,7 @@
                       footer: s.createElement(d.j, {
                         showResetButton: !0,
                         onResetRequested: () => {
-                          c.d.SetSettingsValue(b.z, 1),
+                          c.d.SetSettingsValue(g.z, 1),
                             c.d.SetSettingsValue(n, 0),
                             c.d.SetSettingsValue(i, 0);
                         },
@@ -12791,7 +13935,7 @@
                       onLabel: Object(l.c)(
                         "#DisplaySettings_ColumnCorrectionAuto"
                       ),
-                      onChange: (e) => c.d.SetSettingsValue(b.z, e ? 1 : 0),
+                      onChange: (e) => c.d.SetSettingsValue(g.z, e ? 1 : 0),
                     }),
                     s.createElement(d.m, {
                       label: Object(l.c)(
@@ -12834,17 +13978,17 @@
         if (
           !VRHTML.VRProperties.GetBoolProperty(
             "/user/head",
-            p.y.DisplaySupportsAnalogGain_Bool
+            p.z.DisplaySupportsAnalogGain_Bool
           )
         )
           return null;
-        let t = c.d.settings.get(b.a);
+        let t = c.d.settings.get(g.a);
         null == t && (t = 1);
         const n =
           null !=
           (e = VRHTML.VRProperties.GetFloatProperty(
             "/user/head",
-            p.y.DisplayMaxAnalogGain_Float
+            p.z.DisplayMaxAnalogGain_Float
           ))
             ? e
             : 1;
@@ -12867,7 +14011,7 @@
             renderValue: (e) => e.toFixed(0) + "%",
             onChange: (e) =>
               c.d.SetSettingsValue(
-                b.a,
+                g.a,
                 (function (e) {
                   return e < 100 ? Math.pow(e / 100, 2.2) : e / 100;
                 })(e)
@@ -12892,19 +14036,19 @@
             label: Object(l.c)("#Settings_OverlayRenderQuality"),
             items: [
               {
-                value: p.q.Auto,
+                value: p.r.Auto,
                 sLabel:
                   void 0 !== t
                     ? Object(l.c)(
                         "#Settings_Auto_Parenthesized",
-                        Object(l.c)("#Settings_" + p.q[t])
+                        Object(l.c)("#Settings_" + p.r[t])
                       )
                     : Object(l.c)("#Settings_Auto"),
               },
-              g.b.Separator,
-              { value: p.q.Low, sLabel: Object(l.c)("#Settings_Low") },
-              { value: p.q.Medium, sLabel: Object(l.c)("#Settings_Medium") },
-              { value: p.q.High, sLabel: Object(l.c)("#Settings_High") },
+              b.b.Separator,
+              { value: p.r.Low, sLabel: Object(l.c)("#Settings_Low") },
+              { value: p.r.Medium, sLabel: Object(l.c)("#Settings_Medium") },
+              { value: p.r.High, sLabel: Object(l.c)("#Settings_High") },
             ],
             visibility: d.d.Advanced,
           });
@@ -12918,7 +14062,7 @@
           return VRHTML &&
             VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.y.DisplayAllowNightMode_Bool
+              p.z.DisplayAllowNightMode_Bool
             )
             ? s.createElement(d.n, {
                 label: Object(l.c)("#Settings_NightModeCheck"),
@@ -12940,13 +14084,13 @@
         if (
           VRHTML.VRProperties.GetBoolProperty(
             "/user/head",
-            p.y.HasDriverDirectModeComponent_Bool
+            p.z.HasDriverDirectModeComponent_Bool
           )
         ) {
           return "oculus" ===
             VRHTML.VRProperties.GetStringProperty(
               "/user/head",
-              p.y.TrackingSystemName_String
+              p.z.TrackingSystemName_String
             )
             ? null
             : s.createElement(d.n, {
@@ -13005,7 +14149,7 @@
             (e[(e.Normal = 2)] = "Normal"),
             (e[(e.Extreme = 3)] = "Extreme");
         })(M || (M = {}));
-      const T = {
+      const E = {
         [M.Fine]: { min: 0.8, max: 1.25, step: 0.001 },
         [M.Normal]: { min: 0.5, max: 2, step: 0.01 },
         [M.Extreme]: { min: 0.1, max: 10, step: 0.1 },
@@ -13066,12 +14210,12 @@
             !!VRHTML &&
             !!VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.y.SupportsAppThrottling_Bool
+              p.z.SupportsAppThrottling_Bool
             ) &&
             !(
               !VRHTML.VRProperties.GetBoolProperty(
                 "/user/head",
-                p.y.HasDriverDirectModeComponent_Bool
+                p.z.HasDriverDirectModeComponent_Bool
               ) && this.state.disableAsyncReprojection
             )
           );
@@ -13081,14 +14225,14 @@
           if (
             VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.y.HasDriverDirectModeComponent_Bool
+              p.z.HasDriverDirectModeComponent_Bool
             )
           ) {
             return (
               "oculus" !==
               VRHTML.VRProperties.GetStringProperty(
                 "/user/head",
-                p.y.TrackingSystemName_String
+                p.z.TrackingSystemName_String
               )
             );
           }
@@ -13100,18 +14244,18 @@
             !!VRHTML &&
             !VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.y.HasDriverDirectModeComponent_Bool
+              p.z.HasDriverDirectModeComponent_Bool
             )
           );
         }
         get worldScaleRangeMin() {
-          return T[this.state.eWorldScaleRange].min;
+          return E[this.state.eWorldScaleRange].min;
         }
         get worldScaleRangeMax() {
-          return T[this.state.eWorldScaleRange].max;
+          return E[this.state.eWorldScaleRange].max;
         }
         get worldScaleRangeStep() {
-          return T[this.state.eWorldScaleRange].step;
+          return E[this.state.eWorldScaleRange].step;
         }
         onApplicationDropdownChange(e) {
           this.setState((t, n) => {
@@ -13144,8 +14288,8 @@
               (s =
                 Math.round(1e3 * e.worldscale) % 10 != 0
                   ? M.Fine
-                  : e.worldscale < T[M.Normal].min ||
-                    e.worldscale > T[M.Normal].max
+                  : e.worldscale < E[M.Normal].min ||
+                    e.worldscale > E[M.Normal].max
                   ? M.Extreme
                   : M.Normal),
               (this.m_initialAppState = {
@@ -13175,9 +14319,9 @@
           }
         }
         get computedResolution() {
-          let e = c.d.settings.get(b.O)
-            ? c.d.settings.get(b.P)
-            : c.d.settings.get(b.x);
+          let e = c.d.settings.get(g.O)
+            ? c.d.settings.get(g.P)
+            : c.d.settings.get(g.x);
           if (null == e || null == this.state.nResolutionMultiplier) return "";
           let t = c.d.SliderposToSupersample(this.state.nResolutionMultiplier);
           if (
@@ -13273,8 +14417,8 @@
           this.setState({
             eWorldScaleRange: e,
             flWorldScaleMultiplier: Math.max(
-              T[e].min,
-              Math.min(T[e].max, this.state.flWorldScaleMultiplier)
+              E[e].min,
+              Math.min(E[e].max, this.state.flWorldScaleMultiplier)
             ),
           }),
             this.setAppState(
@@ -13787,16 +14931,16 @@
         Object(o.b)([r.f], R.prototype, "allowPerAppRefreshRate", null),
         Object(o.b)([r.f], R.prototype, "currentRefreshRate", null),
         (R = i = Object(o.b)([h.a], R));
-      class E extends d.b {
+      class T extends d.b {
         render() {
           if (!this.props.active) return null;
           const e = VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.y.Hmd_SupportsHDCP14LegacyCompat_Bool
+              p.z.Hmd_SupportsHDCP14LegacyCompat_Bool
             ),
             t = VRHTML.VRProperties.GetBoolProperty(
               "/user/head",
-              p.y.Hmd_SupportsDisplayPortTrainingMode_Bool
+              p.z.Hmd_SupportsDisplayPortTrainingMode_Bool
             );
           return s.createElement(
             s.Fragment,
@@ -13838,7 +14982,7 @@
                       "#Settings_DisplayPortTrainingMode_Automatic"
                     ),
                   },
-                  g.b.Separator,
+                  b.b.Separator,
                   {
                     value: 1,
                     sLabel: Object(l.c)(
@@ -13865,8 +15009,8 @@
           );
         }
       }
-      E.Name = "video_settings";
+      T.Name = "video_settings";
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=044dda3149088179f556
+//# sourceMappingURL=vrwebui_shared.js.map?v=016532c5488351cefab2

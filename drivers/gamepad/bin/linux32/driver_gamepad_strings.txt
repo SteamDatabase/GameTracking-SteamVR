@@ -554,7 +554,7 @@ CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, vo
 CLogCallback::~CLogCallback()
 CST
 CSWTCH.101
-CSWTCH.213
+CSWTCH.216
 CServerDriver_Gamepad::AddGameControllerByIndex(int)
 CServerDriver_Gamepad::Cleanup()
 CServerDriver_Gamepad::Cleanup_SDL()
@@ -1976,6 +1976,7 @@ sched_get_priority_max
 sched_get_priority_min
 sched_getparam
 sched_getscheduler
+sched_setaffinity
 sched_setscheduler
 sched_yield
 search_object

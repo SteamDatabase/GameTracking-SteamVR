@@ -1777,6 +1777,14 @@ div.BindingCalloutModifierIcon {
 
 .DashboardMain
   .ControlBar
+  .ControlBarGroup.Small
+  .ControlBarButton.CenterImageLarge
+  > .Icon {
+  --size: var(--control-bar-icon-size-large);
+}
+
+.DashboardMain
+  .ControlBar
   .ControlBarGroup.Large
   .ControlBarButton.Store
   > .Icon {

@@ -42,12 +42,11 @@
  was not found
  with error 
 !hn7!
-"9,}0
 %u.%u
 %u.%u.%u
-&.l=3D#
 ' is not a number.
 ',=?k
+'7D`D0
 (A^A]^[
 (A_A^^[
 (A_A^_]
@@ -58,7 +57,6 @@
 (t$ H
 (t$PL
 (unknown)
-)6H?2'.4
 )D$ L
 )t$ H
 *9Z9N
@@ -126,6 +124,7 @@
 .idata$5
 .idata$6
 .json
+.k5R9d
 .pdata
 .rdata
 .rdata$T
@@ -166,7 +165,8 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220602204612Z0/
+220609000000Z
+220614225427Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -174,21 +174,25 @@
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 <0:08
 =rIQU
+>0<0:
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -317,7 +321,6 @@ ApiLayerInterface::LoadApiLayers succeeded loading layer
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
 AuthD
-A{v0,4
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -382,6 +385,7 @@ D8|$AD
 D;l$0
 DeleteCriticalSection
 Destroying LoaderInstance = 
+DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
@@ -524,7 +528,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS58
+RSDS'
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -638,6 +642,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
+YsI)Ye
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -659,6 +664,7 @@ Y9"SD
 \$xHi
 \ApiLayers\Explicit
 \ApiLayers\Implicit
+\qnIG
 \u=H;
 ]J<0"0i3
 _Cnd_broadcast
@@ -705,7 +711,7 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
-a5TKJ
+aT-ZJ
 abort
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -763,6 +769,7 @@ fputc
 fsetpos
 functions
 fwrite
+g*W%H
 gfffffffH
 gfffffffH+
 gfffffffI
@@ -771,6 +778,7 @@ gfffffffL+
 gfffffffM
 hA_A^][
 http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
@@ -807,6 +815,7 @@ layer
 library_path
 list<T> too long
 localeconv
+m0k0$
 malloc
 map/set<T> too long
 memchr
@@ -861,6 +870,7 @@ v=Y]Bv
 vector<T> too long
 verbose
 www.digicert.com1!0
+www.digicert.com1$0"
 x]~\6
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
@@ -991,6 +1001,7 @@ xrWaitSwapchainImage
 |$pH+
 |$xH;
 |$xIi
+|@N3>
 |Lu?c
 }LuHO
 ~+fff

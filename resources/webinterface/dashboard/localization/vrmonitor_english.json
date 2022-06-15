@@ -13,11 +13,18 @@
 	"Settings_Controller_ControllerBindingPrompt": "Controller Binding",
 	"Settings_Controller_DefaultBinding": "Default",
 	"Settings_Controller_CustomBinding": "Custom",
+	"Settings_Controller_PairControllers": "Pair Controllers",
 	"Settings_ThumbstickDeadzone_Text": "Thumbstick Deadzone",
 	"Settings_ThumbstickDeadzone_Desc": "Adjust the deadzone on all thumbsticks.",
 	"Settings_DominantHand": "Dominant Hand",
 	"Settings_DominantHand_Left": "Left",
 	"Settings_DominantHand_Right": "Right",
+
+	"Settings_Controller_ControllerPairingSection": "Controller Pairing",
+	"Settings_Controller_Pair": "Pair",
+	"Settings_Controller_Pairing": "Pairing...",
+	"Settings_Controller_ResetTracking": "Reset Controller Tracking Data",
+
 
 	"Settings_Loading_CurrentBinding": "Loading current binding...",
 
@@ -94,6 +101,8 @@
 	"Settings_SectionTitle_PlayArea": "Play Area",
 	"Settings_SectionTitle_BaseStation": "Base Stations",
 	"Settings_SectionTitle_Controller": "Controllers",
+	"Settings_SectionTitle_System": "System",
+	"Settings_SectionTitle_Internet": "Internet",
 
 	"Advanced_AllowSavingOfTimingInfo": "Allow saving of timing info",
 	"Advanced_AutoSaveTimingInfoOnExit": "Auto-save timing info on exit",

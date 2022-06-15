@@ -1616,8 +1616,8 @@
  r CSWTCH.139
  r CSWTCH.140
  r CSWTCH.157
- r CSWTCH.2112
- r CSWTCH.213
+ r CSWTCH.2113
+ r CSWTCH.216
  r CSWTCH.224
  r CSWTCH.927
  r Four_2PIs
@@ -2216,6 +2216,7 @@
  sched_get_priority_min
  sched_getparam
  sched_getscheduler
+ sched_setaffinity
  sched_setscheduler
  sched_yield
  semctl
@@ -3089,7 +3090,6 @@
  t .L284
  t .L285
  t .L2854
- t .L2855
  t .L2856
  t .L2857
  t .L2858
@@ -3271,14 +3271,14 @@
  t .L3300
  t .L331
  t .L34
- t .L3416
- t .L3418
+ t .L3417
  t .L3419
  t .L342
  t .L3420
  t .L3421
  t .L3422
- t .L3427
+ t .L3423
+ t .L3428
  t .L343
  t .L344
  t .L345
@@ -3783,71 +3783,71 @@
  t .L800
  t .L801
  t .L802
- t .L8022
- t .L8024
+ t .L8023
  t .L8025
- t .L8027
+ t .L8026
  t .L8028
+ t .L8029
  t .L803
  t .L804
  t .L805
  t .L806
- t .L8060
- t .L8062
+ t .L8061
  t .L8063
  t .L8064
  t .L8065
  t .L8066
+ t .L8067
  t .L807
  t .L808
  t .L809
- t .L8098
+ t .L8099
  t .L81
  t .L810
- t .L8100
  t .L8101
- t .L8103
+ t .L8102
  t .L8104
+ t .L8105
  t .L811
  t .L812
  t .L813
- t .L8136
- t .L8138
+ t .L8137
  t .L8139
  t .L814
  t .L8140
  t .L8141
  t .L8142
+ t .L8143
  t .L815
  t .L816
  t .L817
- t .L8174
- t .L8176
+ t .L8175
  t .L8177
- t .L8179
+ t .L8178
  t .L8180
+ t .L8181
  t .L82
- t .L8212
- t .L8214
+ t .L8213
  t .L8215
  t .L8216
  t .L8217
  t .L8218
- t .L8258
- t .L8260
+ t .L8219
+ t .L8259
  t .L8261
- t .L8263
+ t .L8262
  t .L8264
+ t .L8265
  t .L828
  t .L829
  t .L83
  t .L831
- t .L8312
- t .L8314
+ t .L8313
  t .L8315
  t .L8316
  t .L8317
  t .L8318
+ t .L8319
  t .L832
  t .L833
  t .L834
@@ -3872,6 +3872,7 @@
  t .L851
  t .L852
  t .L853
+ t .L854
  t .L855
  t .L856
  t .L857
@@ -3884,39 +3885,40 @@
  t .L863
  t .L864
  t .L865
- t .L8659
  t .L866
- t .L8661
+ t .L8660
  t .L8662
  t .L8663
  t .L8664
  t .L8665
+ t .L8666
  t .L867
  t .L868
+ t .L869
  t .L87
- t .L870
  t .L871
  t .L872
- t .L8722
- t .L8724
+ t .L8723
  t .L8725
  t .L8726
  t .L8727
  t .L8728
- t .L8751
- t .L8753
+ t .L8729
+ t .L873
+ t .L8752
  t .L8754
  t .L8755
  t .L8756
  t .L8757
- t .L878
+ t .L8758
  t .L879
  t .L88
  t .L880
- t .L883
+ t .L881
  t .L884
  t .L885
  t .L886
+ t .L887
  t .L8886
  t .L8887
  t .L8889
@@ -3957,38 +3959,38 @@
  t .L926
  t .L93
  t .L94
- t .L9452
- t .L9454
+ t .L9453
  t .L9455
  t .L9456
  t .L9457
  t .L9458
+ t .L9459
  t .L95
- t .L9505
- t .L9507
+ t .L9506
  t .L9508
  t .L9509
  t .L9510
  t .L9511
- t .L9558
- t .L9560
+ t .L9512
+ t .L9559
  t .L9561
  t .L9562
  t .L9563
  t .L9564
+ t .L9565
  t .L96
- t .L9611
- t .L9613
+ t .L9612
  t .L9614
  t .L9615
  t .L9616
  t .L9617
- t .L9664
- t .L9666
+ t .L9618
+ t .L9665
  t .L9667
  t .L9668
  t .L9669
  t .L9670
+ t .L9671
  t .L97
  t .L98
  t .L99
@@ -5080,6 +5082,7 @@
  t CVRPathRegistry_Public::GetVRPathRegistryFilename() [clone .cold]
  t CVRPathRegistry_Public::InitSteamAppId()
  t CVRPathRegistry_Public::InitSteamAppId() [clone .cold]
+ t CVRPathRegistry_Public::IsChildOfVRServer()
  t CVRPathRegistry_Public::IsSteamVRMain()
  t CVRPathRegistry_Public::ToJsonString(std::string&)
  t CVRPathRegistry_Public::ToJsonString(std::string&) [clone .cold]
@@ -6315,9 +6318,12 @@
  t WinRT::GetCurrentDriverVersion()
  t WinRT::GetDeviceString(int)
  t WinRT::GetDisplayMode(WinRT::DisplayMode_t*)
+ t WinRT::GetDisplayModes(unsigned int*, WinRT::DisplayMode_t*)
  t WinRT::GetSurfaces(unsigned int*, IPC::TSharedHandleBase<int, -1>*)
  t WinRT::HasDisplay(int)
  t WinRT::Present()
+ t WinRT::SetDisplayMode(WinRT::DisplayMode_t*)
+ t WinRT::Shutdown()
  t WinRT::WaitForPresent(unsigned long long*, float*)
  t WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool)
  t WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool) [clone .cold]
@@ -7429,7 +7435,6 @@
  t math::Vec3T<double>& std::vector<math::Vec3T<double>, std::allocator<math::Vec3T<double> > >::emplace_back<math::Vec3T<double> >(math::Vec3T<double>&&)
  t math::Vec3T<double>::Vec3T()
  t math::Vec3T<double>::Vec3T(double const*)
- t math::Vec3T<double>::Vec3T(double)
  t math::Vec3T<double>::Vec3T(double, double, double)
  t math::Vec3T<double>::Vec3T(math::Vec2T<double> const&, double)
  t math::Vec3T<double>::abs() const
@@ -7479,7 +7484,6 @@
  t math::Vec3T<float> math::operator*<float>(math::PoseT<float> const&, math::Vec3T<float> const&)
  t math::Vec3T<float>::Vec3T()
  t math::Vec3T<float>::Vec3T(float const*)
- t math::Vec3T<float>::Vec3T(float)
  t math::Vec3T<float>::Vec3T(float, float, float)
  t math::Vec3T<float>::Vec3T(math::Vec2T<float> const&, float)
  t math::Vec3T<float>::abs() const
@@ -11967,6 +11971,7 @@
  t vortex::ILighthouseTrackedDeviceServerDriver::RunFrame()
  t vortex::ILighthouseTrackedDeviceServerDriver::ShouldBlockStandby()
  t vortex::IPoseTracker::DebugRequest(char const*, char*, unsigned int)
+ t vortex::IPoseTracker::RunFrame()
  t vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&)
  t vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&) [clone .cold]
  t vortex::LighthouseBaseTargetPose_t::ToJson() const

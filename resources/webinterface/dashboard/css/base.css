@@ -107,6 +107,7 @@
 
 	--control-bar-button-size: 96px;
 	--control-bar-icon-size: 45px;
+	--control-bar-icon-size-large: 55px;
 	--control-bar-button-gradient-start-color: rgba(35,35,36,1);
 	--control-bar-button-gradient-end-color: rgba(10,10,10,1);
 	--control-bar-button-transition-time: 0.1s;
