@@ -124,7 +124,6 @@
 .idata$5
 .idata$6
 .json
-.k5R9d
 .pdata
 .rdata
 .rdata$T
@@ -166,7 +165,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220614225427Z0/
+220617191450Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -415,6 +414,7 @@ FindFirstFileW
 FindNextFileW
 FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
+FqDI{>
 FreeLibrary
 GENERAL
 GetCurrentProcess
@@ -446,6 +446,7 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
+I kqn
 I#V0I
 I9Bhs
 I9W(t
@@ -494,12 +495,14 @@ LargestUInt out of UInt range
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
+LkRId
 LoadLibraryExW
 LoadLibraryW
 Loader does not support simultaneous XrInstances
 LoaderInstance::CreateInstance chained CreateInstance call failed
 LoaderInstance::CreateInstance succeeded with 
 LoaderInstance::CreateInstance, no support found for requested extension: 
+LvRt.v%^j8
 M H1E
 M98u/
 MB(iVR
@@ -528,7 +531,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS'
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -564,6 +566,7 @@ SWAWH
 Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
+ShO\2##
 SleepConditionVariableCS
 Syntax error: value, object or array expected.
 T$0H;
@@ -642,7 +645,6 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-YsI)Ye
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -664,7 +666,6 @@ YsI)Ye
 \$xHi
 \ApiLayers\Explicit
 \ApiLayers\Implicit
-\qnIG
 \u=H;
 ]J<0"0i3
 _Cnd_broadcast
@@ -711,7 +712,6 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
-aT-ZJ
 abort
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -769,7 +769,6 @@ fputc
 fsetpos
 functions
 fwrite
-g*W%H
 gfffffffH
 gfffffffH+
 gfffffffI
@@ -867,6 +866,7 @@ tmfff
 ungetc
 unknown type in properties
 v=Y]Bv
+vNB1T:
 vector<T> too long
 verbose
 www.digicert.com1!0
@@ -982,6 +982,7 @@ xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
 {un'%
+|	_7p
 |$ ATAVAWH
 |$ AVH
 |$ UATAUAVAWH

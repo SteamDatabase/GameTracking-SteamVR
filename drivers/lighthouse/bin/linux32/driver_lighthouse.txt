@@ -1617,7 +1617,7 @@
  r CSWTCH.140
  r CSWTCH.157
  r CSWTCH.2113
- r CSWTCH.216
+ r CSWTCH.217
  r CSWTCH.224
  r CSWTCH.927
  r Four_2PIs
@@ -6154,6 +6154,7 @@
  t ThreadSetAffinity
  t ThreadSetDebugName
  t ThreadSetDebugName.part.0
+ t ThreadSetDescription
  t ThreadSetPriority
  t ThreadSetPriority.cold
  t ThreadSetProcessPriority

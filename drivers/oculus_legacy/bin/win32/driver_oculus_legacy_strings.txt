@@ -1,8 +1,8 @@
 	!s99
  %41g
  (Camera)
- bcy_/
 !hn7!
+$g)|W
 ',=?k
 '7D`D0
 (Unable to load LibOVR)
@@ -74,7 +74,6 @@
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
 0"0(00080=0C0K0S0X0^0f0n0s0y0
 0#0A0M0S0a0k0q0
-0*q&L
 0,040<0D0H0L0T0h0
 0n0y0
 0w0c1
@@ -96,7 +95,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220614225755Z0/
+220617191713Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -129,7 +128,6 @@
 5&5b5p5
 5,505@5D5H5P5h5l5
 5-6#7A7n7
-52Os3b
 54585<5@5D5H5L5P5
 546q6
 586<6@6D6H6L6P6T6X6\6`6
@@ -137,6 +135,7 @@
 5K6k6x6
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
+5xdVF
 6)6b6
 6*f(_
 6+7H7`7n7
@@ -204,7 +203,6 @@
 >5>L>a>h>n>
 >Mp$d
 >P>^>
->v*X}
 ?!?<?W?b?l?
 ?"?*?/?5?=?E?J?P?X?`?e?k?s?{?
 ?$?=?r?
@@ -301,8 +299,8 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QL$~]0
 QueryPerformanceCounter
+QyM\"
 RPCRT4.dll
 RaiseException
 S0Q0O
@@ -350,7 +348,6 @@ Y__^[
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
-\X7jV9
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -385,7 +382,6 @@ _initialize_onexit_table
 _initterm
 _initterm_e
 _invalid_parameter_noinfo_noreturn
-_oQrY(S
 _purecall
 _register_onexit_function
 _seh_filter_dll
@@ -407,19 +403,16 @@ driver_oculus_legacy.dll
 e,>~^
 f;A*stSW
 getenv
-h/H34
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i	3>r'
 invalid string position
 jdjdh
 jj@0HK4
 k0i0$
-kegBCy=!
 m0k0$
 malloc
 map/set<T> too long
@@ -473,6 +466,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+q#_aJ
 startup
 string too long
 strncpy
@@ -487,7 +481,6 @@ vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
-zf	(X
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -500,6 +493,5 @@ zf	(X
 {un'%
 |@N3>
 |Lu?c
-|ZoED
 }LuHO
 ~t&LN

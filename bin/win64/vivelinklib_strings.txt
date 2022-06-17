@@ -31,6 +31,7 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
 !hn7!
+#*o?z
 %%.%dg
 %2.2X
 %8.8X
@@ -203,6 +204,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/7n;Z
 /f /s
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
@@ -221,13 +223,14 @@
 0w0c1
 0}0i1
 130801120000Z
+1`~'b
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220609000000Z
-220614225758Z0/
+220617191846Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -683,7 +686,6 @@ H;^Ht
 H;^Pu	H
 HA_A^A]A\_^][
 HA_^][
-HDXL{
 HTC BS
 HcMxI
 I9Bhs
@@ -733,6 +735,7 @@ L9d$X
 L9|$p
 L9}gsBH
 L;8u6H
+L;9qw
 L;M8r
 L;gHu
 L?n(Zy&
@@ -782,6 +785,7 @@ Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
 O(H9N(|
+O/3}Zdp
 OXL9OPt
 OpenProcess
 Out of thread local storage!
@@ -806,6 +810,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDS.&
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1121,6 +1126,7 @@ _wstat64i32
 `.rdata
 `A_A^A]A\_^[
 `A_A^_
+`z/[[
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1135,7 +1141,6 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
-b4r8Xf
 bad allocation
 bad array new length
 bad cast
@@ -1158,7 +1163,6 @@ deque<T> too long
 digit
 e,>~^
 empty distance tree with lengths
-et6u*M-x
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fD9>uF
@@ -1169,6 +1173,7 @@ fputs
 fread
 fseek
 ftell
+gW>gp
 gfffffffH
 gfffffffI
 gfffffffL
@@ -1181,6 +1186,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i^y!r)
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1363,5 +1369,6 @@ xdigit
 |$xH;
 |@N3>
 |Lu?c
+}@SWw
 }LuHO
 ~t&LN

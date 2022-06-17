@@ -3,15 +3,15 @@
  A__^
  H3E H3E
 !hn7!
+$<,"Z
 ',=?k
 '7D`D0
 (f*^[0
-)LJ2C$
 *9Z9N
+*out4
 +Xt@(
 +o'q)}
 ,W5y+
--`lp3
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -83,7 +83,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220614225932Z0/
+220617191935Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -103,17 +103,14 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8%	;rMbX
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-;}<Mm
 <0:08
 =rIQU
 >0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
-@&WK/L
 @.data
 @.reloc
 @.rsrc
@@ -133,13 +130,10 @@ DisableThreadLibraryCalls
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
-GrtpU4
 H SWH
-H"iAb
 H93t	H
 H9=*R
 HmdDriverFactory
-IGYX$
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -173,7 +167,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS'_
+RSDSY
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -193,9 +187,11 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
+ZCYHB
 [K]taM?
 \$ UH
 ]J<0"0i3
+]d~LR
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -228,7 +224,6 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-bi	8v
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 displayFrequency
 driver_null
@@ -246,7 +241,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iw'-ij
 jj@0HK4
 k0i0$
 l$8E3
@@ -256,9 +250,7 @@ memcpy
 memmove
 memset
 modelNumber
-nT+\e^&
 ntelD
-q) wB
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons

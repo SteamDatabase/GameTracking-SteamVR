@@ -4187,11 +4187,11 @@
  putc
  putwc
  qsort
- r C.1147.341017
- r C.1150.341028
+ r C.1147.341019
+ r C.1150.341030
  r C.427.288574
  r CSWTCH.101
- r CSWTCH.216
+ r CSWTCH.217
  r CSWTCH.224
  r CSWTCH.28
  r CSWTCH.701
@@ -24573,6 +24573,7 @@
  t ThreadSetAffinity
  t ThreadSetDebugName
  t ThreadSetDebugName.part.0
+ t ThreadSetDescription
  t ThreadSetPriority
  t ThreadSetPriority.cold
  t ThreadSetProcessPriority

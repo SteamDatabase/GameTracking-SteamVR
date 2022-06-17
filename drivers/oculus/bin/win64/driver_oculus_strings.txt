@@ -80,14 +80,12 @@
 "scenes" object not found in .gltf or not an array type
 "spot" is not a JSON object.
 #*1892+$
-#6@mV
 #9i0t
 #?RADIANCE
 #?RGBE
 #D9c0t
 #D9{0t
 #oculus_requested_quit
-$e6>OK
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -185,6 +183,7 @@ $w!Hc
 )L$P@
 )L$PL
 )L$pA
+)e*Im=/yZ
 )l$0D
 )t$ D
 )t$ H
@@ -209,7 +208,6 @@ $w!Hc
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *9Z9N
-*sF`4
 *uXI;
 +Xt@(
 +o'q)}
@@ -230,6 +228,7 @@ $w!Hc
 -Infinity
 -startup
 -u-I;
+."TT!
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -463,7 +462,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220609000000Z
-220614230004Z0/
+220617191948Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -476,6 +475,7 @@ $w!Hc
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3:XJ2C
 3?9y>m0_D@H_
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
@@ -515,7 +515,6 @@ $w!Hc
 ;K sUH
 ;S sAH
 ;S sDH
-;t]#]_H
 < t+<
 </u#H
 <0:08
@@ -750,7 +749,6 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
-B*eLij
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -1428,6 +1426,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
+Vxh84l
 W-xO	
 WATAUAVAWH
 WAVAWH
@@ -1446,7 +1445,6 @@ X-E3
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
-Y^aku
 Z9k0tUD
 ZL$Xf
 [K]taM?
@@ -1513,7 +1511,6 @@ ZL$Xf
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ]g@8yhu
-]|=5b&
 ^9k0tWD
 _Camera
 _Cnd_destroy
@@ -1695,7 +1692,6 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-b{j)LA
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
@@ -1790,7 +1786,6 @@ french
 fseek
 fsetpos
 fwrite
-g$K{D
 g9k0t_D
 generator
 german
@@ -2470,6 +2465,7 @@ www.digicert.com1$0"
 x AVH
 xA^A\_^][
 x]~\6
+y;@jh
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
@@ -2531,6 +2527,7 @@ znear
 |LL\t
 |Lu?c
 }LuHO
+}^0J;[
 ~+fff
 ~3LcD$(L
 ~6HcD$ I

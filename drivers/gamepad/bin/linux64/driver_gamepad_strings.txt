@@ -218,7 +218,7 @@ CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, vo
 CLogCallback::~CLogCallback()
 CST
 CSWTCH.100
-CSWTCH.213
+CSWTCH.214
 CServerDriver_Gamepad::AddGameControllerByIndex(int)
 CServerDriver_Gamepad::Cleanup()
 CServerDriver_Gamepad::Cleanup_SDL()
@@ -753,6 +753,7 @@ ThreadResumeSignal(int)
 ThreadSetAffinity
 ThreadSetDebugName
 ThreadSetDebugName.part.0
+ThreadSetDescription
 ThreadSetPriority
 ThreadSetPriority.cold
 ThreadSetProcessPriority

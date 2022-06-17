@@ -4411,12 +4411,12 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1139.340871
- r C.1142.340882
+ r C.1139.340873
+ r C.1142.340884
  r C.413.288424
  r CSWTCH.100
  r CSWTCH.16
- r CSWTCH.213
+ r CSWTCH.214
  r CSWTCH.221
  r CSWTCH.23
  r CSWTCH.28
@@ -23527,6 +23527,7 @@
  t ThreadSetAffinity
  t ThreadSetDebugName
  t ThreadSetDebugName.part.0
+ t ThreadSetDescription
  t ThreadSetPriority
  t ThreadSetPriority.cold
  t ThreadSetProcessPriority

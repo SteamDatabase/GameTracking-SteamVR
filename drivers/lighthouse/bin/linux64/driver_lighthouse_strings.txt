@@ -862,6 +862,7 @@ $@
 17CKalmanQuaternion
 17CLinuxVideoStream
 18IUsbDeviceCallback
+19:13:02
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -872,7 +873,6 @@ $@
 20CVRFramerateGovernor
 20CVkCommandBufferPool
 20IVRAudioNotification
-22:53:07
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -2229,7 +2229,7 @@ CSWTCH.138
 CSWTCH.158
 CSWTCH.16
 CSWTCH.1924
-CSWTCH.213
+CSWTCH.214
 CSWTCH.221
 CSWTCH.23
 CSWTCH.878
@@ -4266,7 +4266,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone
 Jul
 July
 Jun
-Jun 14 2022
+Jun 17 2022
 June
 K
 KHR_lights_punctual
@@ -5602,6 +5602,7 @@ ThreadResumeSignal(int)
 ThreadSetAffinity
 ThreadSetDebugName
 ThreadSetDebugName.part.0
+ThreadSetDescription
 ThreadSetPriority
 ThreadSetPriority.cold
 ThreadSetProcessPriority

@@ -43,6 +43,7 @@
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
+.?AU_Crt_new_delete@std@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_cf2263839315ded02fdf5be5a75de7a8>@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
@@ -61,6 +62,9 @@
 .?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCDesktopManagerThread@@
 .?AVCDesktopView@@
 .?AVCNonCopyable@@
@@ -74,11 +78,16 @@
 .?AVRuntimeError@Json@@
 .?AVStyledWriter@Json@@
 .?AVWriter@Json@@
+.?AV_Facet_base@std@@
 .?AV_Pad@std@@
 .?AVbad_alloc@std@@
 .?AVbad_array_new_length@std@@
+.?AVcodecvt_base@std@@
 .?AVexception@std@@
+.?AVfacet@locale@std@@
 .?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
 .?AVtype_info@@
 .CRT$XCA
 .CRT$XCL
@@ -150,12 +159,13 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220614230354Z0/
+220617191952Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2uu4+
 2xJK7*L
 311109235959Z0b1
 330314235959Z0L1
@@ -173,7 +183,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-:%P56
 < t+<
 </u#H
 <0:08
@@ -185,18 +194,30 @@
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+??Bid@locale@std@@QEAA_KXZ
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
 ?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
 ?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
 ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
 ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
 ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
 ?_Throw_C_error@std@@YAXH@Z
@@ -205,7 +226,9 @@
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
 ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
@@ -253,6 +276,7 @@ ATAVAWH
 A^A\^
 A^A\^[]
 A^A]A\^]
+A^A]A\_^[]
 A^_^[]
 A_A\_^[
 A_A\_^]
@@ -354,7 +378,6 @@ DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
-Ehri+:
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
 EnterCriticalSection
@@ -411,6 +434,7 @@ GetForegroundWindow
 GetIconInfo
 GetIconInfo failed.
 GetLastError
+GetModuleHandleA
 GetModuleHandleW
 GetOverlayMouseScale
 GetPixelBuffer not implemented for biBitCount == %d.
@@ -430,6 +454,7 @@ H+WpH
 H+WpI
 H93t	H
 H9Ahs
+H9D$@u
 H9Qhv#H
 H;0u:H
 H;9u|A
@@ -502,6 +527,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
+K=M&;'0?l
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -549,6 +575,7 @@ NPH9Q
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
+PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
@@ -562,6 +589,7 @@ QueryPerformanceFrequency
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
+RkVh5
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -580,6 +608,7 @@ SendInput
 SendInput failed: %d events inserted, error code = %s
 Set thread %p priority to: %d
 SetEvent
+SetThreadDescription
 SetThreadPriority
 SetUnhandledExceptionFilter
 Shutdown
@@ -608,6 +637,7 @@ TlsSetValue
 UATAUAVAWH
 USER32.dll
 USVWATAUAVAWH
+USVWATAUAVH
 USVWAVH
 UVWATAUAVAWH
 UVWATAWH
@@ -661,12 +691,14 @@ Y9"SD
 \$0H;
 \$8H;
 \$PI;
-\$Xfff
 \$`H+
 \$hI;
 \$pI;
+\g.b\
 \u=H;
 ]J<0"0i3
+]b|\:4)
+]g@8yhu
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -725,6 +757,7 @@ api-ms-win-crt-string-l1-1-0.dll
 assert json failed
 bad allocation
 bad array new length
+bad conversion
 bg_bg
 brazilian
 bulgarian
@@ -738,12 +771,12 @@ czech
 d$`H=
 d$`M;
 d3d11.dll
-d:fc+
 da_da
 danish
 de_de
 deque<T> too long
 desktopview
+du=Zc
 dwmapi.dll
 dxgi.dll
 e,>~^
@@ -790,11 +823,13 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
+kernel32.dll
 ko_ko
 korean
 l$ H;
 l$ H=
 l$8E3
+l$@H;
 l$PM9n
 latam
 list<T> too long
@@ -898,10 +933,15 @@ zh_tw
 {un'%
 |$ ATAVAWH
 |$ AVH
+|$ AVL
 |$ UATAUAVAWH
 |$ UH
+|$(A^
 |$0H9
+|$8A_A^A\
+|$@E3
 |$@I;
+|$HH;
 |$HH=
 |$PL9~
 |$hH9>ueH

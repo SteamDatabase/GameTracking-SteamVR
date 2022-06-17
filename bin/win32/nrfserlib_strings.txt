@@ -17,7 +17,6 @@
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
  %41g
  QP9F
- \ ZuEk
  aborted.
  ack#:
  but should be in STATE_START. This state is not valid.
@@ -94,7 +93,6 @@ $Vh&*
 -Infinity
 -external
 -internal
--}?AFt
 . Aborting.
 . Baud rate requested (
 . Ignoring the packet.
@@ -710,7 +708,7 @@ $Vh&*
 220323000000Z
 220329000000Z
 220609000000Z
-220614225723Z0/
+220617191705Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -1431,6 +1429,7 @@ $Vh&*
 @.data
 @SVWj
 @d;Cd
+A `lBV
 A valid JSON document must be either an array or an object value.
 A98t	
 ACL_DATA_PACKET
@@ -1618,7 +1617,6 @@ DFU_RESPONSE_OPERATION_FAILED
 DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
-DQUM9
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
@@ -1649,6 +1647,7 @@ DoScanContext
 DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
+E8eR5
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1671,6 +1670,7 @@ Exchange MTU Request Failed. (nrf_error: %s)
 Existing Bootloader mode.
 Extended Error: %s, %s
 F	^[]
+F%`P"
 F(j4f
 F0R0w0}0
 F<\uD
@@ -1749,6 +1749,7 @@ HCI_EVENT_PACKET
 HTC BS
 HeapAlloc
 HeapFree
+Hm<x.
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
@@ -1771,7 +1772,6 @@ IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Jyd k0
 K$t"j
 K(PPW
 K(PQh
@@ -1805,6 +1805,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 MultiByteToWideChar
+N'|{]nN
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
 NRFError_DFUError_BaseNeedsPowerCycle
@@ -1879,7 +1880,6 @@ OLEAUT32.dll
 OT+O`
 Od+O`
 Out of thread local storage!
-OyRh(w
 P4X4\4`4d4h4l4p4t4x4|4
 PAq=?Mp#
 PID_%04X
@@ -2173,6 +2173,7 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
+`Hj%^
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -2199,7 +2200,6 @@ bin_file
 blank
 bootloader
 buffer error
-b}BG?
 c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
 calloc
 close
@@ -2286,6 +2286,7 @@ memcpy
 memmove
 memset
 mutex
+n$=Y;?
 need dictionary
 nrfserlib.dll
 ole32.dll
@@ -2466,6 +2467,7 @@ uzj h
 v=Y]Bv
 vGh@7
 vGh`5
+vcCmJ
 vector<T> too long
 vector<bool> too long
 w QVR
@@ -2482,6 +2484,7 @@ x5t7j
 x]~\6
 xdigit
 y4_^[
+yls19C5
 {L?uI
 {un'%
 |@N3>

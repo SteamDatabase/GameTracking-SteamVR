@@ -15,14 +15,12 @@
  for detail.
 !! refusing to trigger minidump with debugger attached
 !hn7!
-"TpP)I
 %%.%dg
 %s%s%s%s%s
+&U	C0
 ' is not a number.
 ',=?k
 '7D`D0
-'G:j9
-'wL_]
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -148,7 +146,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/^H=O
 /user/camera
 /user/chest
 /user/elbow/left
@@ -179,7 +176,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220614230401Z0/
+220617192022Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -203,7 +200,8 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 9D$xu
-9D$|tcH
+9D$|toH
+;p'ZE
 < t+<
 </u#H
 <0:08
@@ -211,7 +209,6 @@
 =rIQU
 >0<0:
 >Mp$d
->Mt|K6	bk2
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -252,6 +249,7 @@
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
@@ -286,7 +284,6 @@
 @SWAWH
 @UAUAWH
 @USVATAVH
-@USVWATAUAVAWH
 @USVWATAVAWH
 @USVWAVH
 @USVWH
@@ -301,6 +298,7 @@ ATAVAWH
 A^A\^
 A^A\^[]
 A^A]A\^]
+A^A]A\_^[]
 A^_^[]
 A_A\_^[
 A_A\_^]
@@ -315,7 +313,7 @@ A_A^A]A\_^[
 A_A^A]A\_^[]
 A_A^A]A\_^]
 A_A^A][
-A_A^_^[]
+A_A^_^[
 A_A^_^]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
@@ -323,7 +321,6 @@ AjEB#AZ
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
-B$Zqt
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -332,6 +329,7 @@ C++/WinRT version:1.0.190111.3
 C0L9$
 CD$(H
 CD$0H
+CD$PH
 CD$hH
 CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
@@ -359,10 +357,8 @@ CoInitializeEx failed.
 CoTaskMemFree
 CoUninitialize
 ComputeVirtualDesktopBounds
-CoreMessaging.dll
 CreateDXGIFactory1
 CreateDirect3D11DeviceFromDXGIDevice
-CreateDispatcherQueueController
 CreateEventA
 CreateEventW
 CreateThread
@@ -429,6 +425,7 @@ Encountered a fatal error updating desktop views.
 EnterCriticalSection
 EnumWindows
 Error attaching thread input.
+Error creating Direct3D device for window view.
 Error detaching thread input.
 Error enumerating HMD adapter.
 Error getting HMD adapter index.
@@ -444,6 +441,8 @@ Error setting window position.
 Error showing window.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
+Exception encountered closing capture frame pool (%d): %s
+Exception encountered closing graphics capture session (%d): %s
 Executable: %s
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
@@ -473,6 +472,7 @@ Failed to reinitialize output duplication for desktop %d, updating description.
 Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
+FormatMessageW
 GDI32.dll
 GetCurrentProcessId
 GetCurrentThread
@@ -491,10 +491,12 @@ GetForegroundWindow
 GetIconInfo
 GetIconInfo failed.
 GetLastError
+GetModuleHandleA
 GetModuleHandleW
 GetOverlayMouseScale
 GetPixelBuffer not implemented for biBitCount == %d.
 GetProcAddress
+GetProcessHeap
 GetRestrictedErrorInfo
 GetSystemMetrics
 GetSystemTimeAsFileTime
@@ -545,10 +547,12 @@ Handling scroll discrete
 Handling scroll smooth
 Handling unlock mouse
 HcFdH
+HeapFree
 I9Bhs
 I;4$H
 I;4$L
 I;8u?H
+I?C+U
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -616,6 +620,7 @@ L9l$H
 L9|$p
 L;8u6H
 L?n(Zy&
+LUnable to create graphics capture item for window.
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
@@ -623,10 +628,10 @@ LoadCursorA
 LoadLibraryA
 LocalFree
 LocalizationManager
-Lsystem.window.%s
 M H1E
 M98u/
 MB(iVR
+ME9&p
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
@@ -682,6 +687,7 @@ SetEvent
 SetFocus
 SetForegroundWindow
 SetOverlayTexture
+SetThreadDescription
 SetThreadPriority
 SetUnhandledExceptionFilter
 SetWindowLongPtrA
@@ -716,8 +722,9 @@ UATAUAVAWH
 USER32.dll
 USVATAUAWH
 USVWATAUAVAWH
-USVWAVAWH
+USVWATAUAVH
 USVWAVH
+USVWH
 UVWATAUAVAWH
 UVWATAWH
 UVWAVAWH
@@ -741,6 +748,8 @@ Unable to start window view for %s.
 UnhandledExceptionFilter
 Unknown cursor type %d
 Unknown exception
+Unknown exception encountered closing capture frame pool.
+Unknown exception encountered closing graphics capture session.
 UpdateDesktopViews
 UpdateDesktopViews: clear out existing views.
 UpdateDesktopViews: create desktop views.
@@ -771,8 +780,12 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+WideCharToMultiByte
 WindowView_%s
+WindowsCreateString
 WindowsCreateStringReference
+WindowsDeleteString
+WindowsGetStringRawBuffer
 Y9"SD
 [K]taM?
 \$ E3
@@ -787,6 +800,7 @@ Y9"SD
 \$pI;
 \u=H;
 ]J<0"0i3
+]g@8yhu
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -840,6 +854,7 @@ abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-core-errorhandling-l1-1-0.dll
 api-ms-win-core-handle-l1-1-0.dll
+api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-heap-l2-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
 api-ms-win-core-libraryloader-l1-2-0.dll
@@ -905,6 +920,7 @@ german
 gfffffffH
 gfffffffI
 greek
+h_^[]
 handlers
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -926,12 +942,14 @@ in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 input_frame_time
 invalid stoull argument
+iswspace
 it_it
 italian
 ja_jp
 japanese
 jj@0HK4
 k0i0$
+kernel32.dll
 ko_ko
 korean
 l$ H;
@@ -952,6 +970,7 @@ memcpy
 memmove
 memset
 message_id
+nK$l{
 no_no
 norwegian
 ntelD
@@ -997,6 +1016,7 @@ swedish
 system.cursor.ibeam
 system.desktop.%d
 system.desktop.pointer
+system.window.%s
 systemui_dashboard
 t$ AVH
 t$ AWH

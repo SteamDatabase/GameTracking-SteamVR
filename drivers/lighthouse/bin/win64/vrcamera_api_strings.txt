@@ -44,8 +44,8 @@ $< t6<$t,<+t"<vt
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
+&!U=K
 ',=?k
-'5 4{
 '7D`D0
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
@@ -83,14 +83,15 @@ $< t6<$t,<+t"<vt
 )t$0H
 )t$`H
 *9Z9N
-+D'c;
+*h*AkI
 +J$D8M@
 +Xt@(
 +o'q)}
++pGvD
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,W5y+
 ,t0D9J0v*L
--d@Q6
+-)kMB"O
 .00cfg
 .8\$!t.9\
 .?AUIAMovieSetup@@
@@ -383,7 +384,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220329000000Z
 220609000000Z
-220614225419Z0/
+220617191450Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -399,6 +400,7 @@ $< t6<$t,<+t"<vt
 3mq+<
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+5fs5I\
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -671,7 +673,6 @@ Auto Exposure:
 Auto White Balance:		
 B$D+B,toD+B(
 B0E8XAt
-B8ZUg
 BL$(A
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1013,7 +1014,6 @@ H;\$8
 H;\$H
 H;_Xt
 H;|$8u
-H? TI
 HHtfH
 H_^][
 Hc;HcK
@@ -1051,7 +1051,6 @@ K H9y
 K0u2H
 K4A+H 
 K8Hc@
-KB\uL
 KERNEL32.dll
 KH;_XtW3
 K}*n:	
@@ -1587,10 +1586,10 @@ string too long
 strtod
 strtof
 switchState
+sx8&T
 sxu/H
 sxuIH
 sxutH
-t 4%s
 t @8x
 t H9X8t]
 t!fff
@@ -1686,6 +1685,7 @@ x AVAWL
 x AVE3
 x AVH
 x UAVAWH
+x1'!QA)
 x]~\6
 xdigit
 yH;YXtl

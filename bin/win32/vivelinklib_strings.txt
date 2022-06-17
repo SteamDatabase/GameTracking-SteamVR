@@ -83,6 +83,7 @@ $Phdd
 +Xt@(
 +o'q)}
 ,W5y+
+-)w!'
 -1e+9999
 -ADDR %s
 -Infinity
@@ -233,7 +234,7 @@ $Phdd
 220323000000Z
 220329000000Z
 220609000000Z
-220614225722Z0/
+220617191645Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -375,6 +376,7 @@ $Phdd
 8b9y9
 8f8M9
 8m8r8y8
+8tb&U
 9	:?:
 9 9$94989<9D9\9l9p9
 9":>:
@@ -663,6 +665,7 @@ DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
+DRHUzsP
 DeleteCriticalSection
 DeleteFileW
 DigiCert Assured ID Root CA0
@@ -695,7 +698,6 @@ F<\uD
 FH;FDu
 FH<au
 FH<bu
-FUlbp t
 Failed
 Failed to allocate memory
 Failed to open DFU zip file '%s'
@@ -798,7 +800,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
-O3Hq!>}\zCk}Z
 ODFU Post
 OpenProcess
 Out of thread local storage!
@@ -820,9 +821,11 @@ QPhtF
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+R3iG;
 RANDOM
 READ -H %4.4X
 RESET
+RSDSt
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1017,6 +1020,7 @@ WriteFile
 X6\6`6d6h6l6p6t6x6|6
 XSVW2
 Y9"SD
+YV6$U
 Y__^[
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1097,6 +1101,7 @@ bin_file
 blank
 bootloader
 buffer error
+c904l,
 c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 calloc
 cntrl
@@ -1105,7 +1110,6 @@ data error
 deque<T> too long
 digit
 e,>~^
-e63JZ
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1202,6 +1206,7 @@ print
 punct
 realloc
 runas
+s^N}sN
 space
 stoi argument out of range
 stoul argument out of range
@@ -1270,6 +1275,7 @@ y4_^[
 |@N3>
 |Lu?c
 |cj#h
+}	6m?<tq
 }	jCh
 }LuHO
 }qj<hx

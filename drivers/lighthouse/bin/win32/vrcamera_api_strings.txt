@@ -3,7 +3,6 @@
 																									
 																												
 	!s99
-	(e]MY
 	010I0t0
 	0P0g0
 	1&2o2t2
@@ -28,7 +27,6 @@
 $0,040<0P0X0`0h0p0|0
 $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-$[<PWEJ
 $_^[]
 %.0Lf
 %H : %M
@@ -56,7 +54,6 @@ $_^[]
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,0I0\0
 ,W5y+
-,m\ClJ
 .00cfg
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
@@ -436,7 +433,7 @@ $_^[]
 220323000000Z
 220329000000Z
 220609000000Z
-220614225407Z0/
+220617191347Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -658,7 +655,6 @@ $_^[]
 6I]Dc
 6L:T:`:
 6OB,n_
-6RC(w
 6T6^6{6
 6T6x6
 6X768
@@ -1229,6 +1225,7 @@ Applying first frame camera configuration options...
 Auto Exposure Target:		
 Auto Exposure:			
 Auto White Balance:		
+B:2hY
 BP;BL
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1423,6 +1420,7 @@ Global Gain:
 GxVPR
 HP;HL
 HPQVR
+Hl(e=f
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Index: 
 InitOnceExecuteOnce
@@ -1495,6 +1493,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
+RSDS~
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1539,6 +1538,7 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
+U'Co5q
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1590,6 +1590,7 @@ WinRTInitialization
 Wj4XPV
 Writing failed at 0x%X/0x%X Bytes
 XSVW3
+Xz:7z
 Y9"SD
 YYF;w,|
 YYPhHv
@@ -1602,8 +1603,7 @@ Y__^[
 [tc9]
 \SVW3
 ]J<0"0i3
-]kW8F
-]}N}b"
+^<ZMc
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1764,6 +1764,7 @@ jj@0HK4
 k0i0$
 kK04k
 kW$4k_(4
+l`?B	G_
 ldexp
 localeconv
 lower
@@ -1844,6 +1845,7 @@ result out of range
 sDh|t
 setlocale
 setvbuf
+sixZG
 space
 state not recoverable
 stoul argument out of range
@@ -1896,6 +1898,7 @@ vector<T> too long
 vector<bool> too long
 version
 vrcamera_api.dll
+w !FJ
 w(_^[]
 wcsnlen
 wcstoul

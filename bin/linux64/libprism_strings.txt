@@ -470,6 +470,7 @@ $+
 16CVkCommandBuffer
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:13:02
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
@@ -477,7 +478,6 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-22:53:07
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -884,7 +884,7 @@ CPrismPoseProvider_Null::GetPoses(glm::mat<4, 4, float, (glm::qualifier)0>*, boo
 CST
 CSWTCH.100
 CSWTCH.16
-CSWTCH.213
+CSWTCH.214
 CSWTCH.23
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -1940,7 +1940,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone
 Jul
 July
 Jun
-Jun 14 2022
+Jun 17 2022
 June
 K
 K~
@@ -2613,6 +2613,7 @@ ThreadResumeSignal(int)
 ThreadSetAffinity
 ThreadSetDebugName
 ThreadSetDebugName.part.0
+ThreadSetDescription
 ThreadSetPriority
 ThreadSetPriority.cold
 ThreadSetProcessPriority

@@ -817,7 +817,6 @@ $w!Hc
 , last executing in 
 , not just within "
 , requestedBytes 
-,*$-q
 ,+<:w
 ,0<6w H
 ,9k0t%H
@@ -2185,6 +2184,7 @@ $w!Hc
 0CVRMsg_TrackedCamera_IsVideoStreamActiveResponse
 0D9c0t'H
 0I;T$ H
+0Q=uv
 0_^[H
 0_^]H
 0w0c1
@@ -2216,7 +2216,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220609000000Z
-220614230222Z0/
+220617192106Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2485,7 +2485,6 @@ $w!Hc
 >"tVH
 >-ufH
 >0<0:
->2c2?
 >Mp$d
 >W`.]tB3?
 >w\Hc
@@ -4542,7 +4541,6 @@ Giving up server connection over pipe %s after %d attempts
 Giving up waiting for vrserver to exit after %dms -- killing it
 Global\VRBootstrapper
 GpuSpeed
-Gx;d~=A
 GxiV@
 H A;H
 H A;I
@@ -6090,7 +6088,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSj
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7899,7 +7896,6 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-XrRxN
 Y5vC.
 Y9"SD
 Y=E!.
@@ -8105,7 +8101,6 @@ ZvFailed to create fence %ls.
 ][Compositor Client] Begin AcquireSync
 ]g@8yhu
 ]wfHc
-^.B	Y
 ^8H9?t&H
 ^8I9^@
 ^9k0tWD
@@ -8228,7 +8223,6 @@ _wstat64i32
 `A_A^A]A\_^]H
 `A_A^_^]
 `A__^
-`DY)J
 `H@SH
 `P@SH
 `X@SH
@@ -9505,7 +9499,6 @@ pTexture && pFlags
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
-p\+>M
 package
 packed
 pancake_pid
@@ -9633,6 +9626,7 @@ russian
 s AVH
 s$D;E
 s(HcEoH
+s@DC1
 s@fff
 sButtonTexts
 sCaptionText
@@ -10483,7 +10477,6 @@ uguTA
 ui8D$0tc
 uint32
 uint64
-uis\O
 ukH9X s
 ukranian
 umM;~
@@ -11374,7 +11367,6 @@ zuusA
 |$xL;
 |$xM;
 |$xMi
-|+jGh.
 |8PH;
 |@N3>
 |D8E t"H

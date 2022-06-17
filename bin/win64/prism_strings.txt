@@ -353,7 +353,6 @@ $II+L$`
 ********** Red ( nLoopCount++ > 1000 )!
 *9Z9N
 *HcT$PH
-+:nnb
 +Xt@(
 +o'q)}
 , last executing in 
@@ -532,7 +531,7 @@ $II+L$`
 220323000000Z
 220329000000Z
 220609000000Z
-220614225544Z0/
+220617191554Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -555,8 +554,6 @@ $II+L$`
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 t"L
 8 u'L
-89AUV
-8:8Rf
 8A^A\
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -1416,7 +1413,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSyF
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1582,7 +1578,6 @@ VK_KHR_surface
 VK_KHR_swapchain
 VK_LAYER_KHRONOS_validation
 VK_NV_compute_shader_derivatives
-VKmDS
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
@@ -1623,7 +1618,6 @@ XA_A][]
 XA_A^A]_
 Y9"SD
 YUV conversion - %s
-Yh\51
 Yl$ M
 Yl$4E
 [ AVH
@@ -1753,7 +1747,6 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 atanf
-b?a9qD
 bad allocation
 bad array new length
 bad conversion

@@ -24,6 +24,7 @@
 	!s99
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
+	ZsCx) 
 	w=%d, h=%d, format=%d
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*
  %41g
@@ -35,6 +36,7 @@
  (libfound)
  (noexist)
  ;y8|
+ L)uY
  at line 
  in Buffer
  in `
@@ -452,7 +454,7 @@ $9^ t
 220323000000Z
 220329000000Z
 220609000000Z
-220614225819Z0/
+220617191714Z0/
 223w3
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -627,7 +629,6 @@ $9^ t
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 5k6y6
-5tQcM/
 5x6|6;<?<
 6 6%6*6/64696>6C6H6S6Z6a6h6o6v6}6
 6 6&6,62686>6D6J6P6V6\6b6h6n6t6z6
@@ -973,7 +974,6 @@ $9^ t
 = =$=(=,=0=4=8=
 = =%=*=/=4=9=>=C=H=Q=V=[=`=e=j=o=t=y=~=
 = >'>
-= tQ9V
 =!=(=6=?=D=z=
 =!=*===k=|=
 =!=1=A=Q=a=q=
@@ -1216,7 +1216,6 @@ Default audio recording device: %s
 DeleteCriticalSection
 Detected new Oculus Touch controller: %d/%d
 Detected new Oculus tracker: %d
-Dg	c	
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -1280,6 +1279,7 @@ File write error:
 Forcing chaperone update
 Found path: 
 FreeLibrary
+G7qrF
 GH+G@
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
@@ -1457,7 +1457,6 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS3
 RaiseException
 ResetEvent
 S0Q0O
@@ -1588,6 +1587,7 @@ Y__^[
 _,9_0t-
 _0_[]
 _0_^]
+_17;sd
 _CIacos
 _CIfmod
 _CIpow
@@ -1777,6 +1777,7 @@ c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
+cHs11}o
 camera
 cameras
 can't merge dc and ac
@@ -1970,7 +1971,6 @@ jdjdh
 jj@0HK4
 joints
 jsonid
-k/8e|
 k0i0$
 ko_ko
 korean
@@ -1980,6 +1980,7 @@ left_controller
 lights
 list<T> too long
 localeconv
+l~uNr5
 m0k0$
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
@@ -2446,7 +2447,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-x7il:
 x]~\6
 yxxx+
 zh_cn

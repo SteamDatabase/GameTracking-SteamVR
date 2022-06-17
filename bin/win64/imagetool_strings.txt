@@ -2092,7 +2092,6 @@ $wtpt
 '*&&4+):670-1$
 ',',',',',',',',',',',',',',',',',',',',',',',',','#'#'c
 ',=?k
-'3#BxQ
 '6Q N
 '7D`D0
 '7GWgw
@@ -2954,6 +2953,7 @@ $wtpt
 +vignette
 +virtual-pixel
 +visual
++wPpE_#
 +watermark
 +wave
 +wavelet-denoise
@@ -3642,7 +3642,6 @@ $wtpt
 0Hc|$hI
 0LcD$HH
 0Lc|$xI
-0Ng>&(
 0qB\'
 0r/hL
 0tIff
@@ -3721,7 +3720,7 @@ $wtpt
 220323000000Z
 220329000000Z
 220609000000Z
-220614225458Z0/
+220617191457Z0/
 230x323
 2384x3370
 24 24
@@ -4597,7 +4596,6 @@ $wtpt
 @)tEV|
 @.data
 @.reloc
-@/\f]
 @0D9 u
 @1{Qa
 @24@3\@4
@@ -7341,6 +7339,7 @@ Dw i'n gallu bwyta gwydr, 'dyw e ddim yn gwneud dolur i mi.
 Dx,2$E
 Dynamic Range
 Dynamic Z Alpha Value
+Dy~Z~
 E (P&
 E A+E
 E H9X t
@@ -7859,6 +7858,7 @@ G03C0
 G0HcP
 G0Ic@
 G0TRSTH
+G4|&!$
 G5G{G
 G8,7u
 G8HcH4H
@@ -14523,7 +14523,6 @@ Zoom Select Status
 ^5TQ0
 ^?y?^?
 ^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
-^N|2k(gaf
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
 ^oEZ_
 ^w?Hc
@@ -14884,7 +14883,6 @@ azure4
 b"$ V'(
 b&;AL
 b,Lcz0D
-b9pTg
 b<bu(L
 b<bub
 b?8Nb?g}b?
@@ -20836,7 +20834,6 @@ z8u6fE
 z9u7H
 z9u7fA
 z:u8f
-z<Ji&
 z<u:fA
 z=u;H
 z>rdf:Bag
@@ -21097,7 +21094,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |$xt.
 |0HcVtH
 |4D+Q
-|5?	\
 |6HcVt
 |7&rU3
 |<HcVtH
@@ -21129,7 +21125,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }>A+]dx8;
 }LuHO
 }Qfff
-}^L1vy
 }b>G:c>
 }ifff
 }mxQ>
@@ -21152,6 +21147,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~0LcI
 ~1fD;
 ~2D;A
+~3$J[
 ~3HcKH
 ~5fff
 ~>fff

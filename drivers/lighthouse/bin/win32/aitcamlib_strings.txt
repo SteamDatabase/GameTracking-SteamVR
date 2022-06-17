@@ -1,5 +1,6 @@
 																																																																																																																
 	!s99
+	*# S 
 	0=0^0l0t0~0
 	0g0u0|0
  %41g
@@ -13,6 +14,7 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
+'"j]_
 ',=?k
 '.5<=6/7>????????????????
 '7D`D0
@@ -137,7 +139,6 @@ $9^ t
 061;1
 0w0c1
 0x1|1
-0y9QI
 0}0i1
 1 1&111A1Q1[1e1p1}1
 1 1014181@1X1h1l1t1
@@ -155,7 +156,6 @@ $9^ t
 1H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 1Q1U1*2.2_6c6
 1a2q2
-1kG*|
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2
 2!212A2Q2a2q2
 2#2(222C2H2R2c2h2r2
@@ -168,13 +168,12 @@ $9^ t
 220323000000Z
 220329000000Z
 220609000000Z
-220614225732Z0/
+220617191645Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
 293r3
 2>3k3
-2>PQa
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2SPV9
@@ -227,7 +226,6 @@ $9^ t
 5Genu
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5zWPv
 6 6$6(6,6064686<6@6D6D8H8L8P8T8X8\8
 6 7<7F7T7]7
 6#6(626C6H6R6c6h6r6
@@ -332,7 +330,6 @@ $9^ t
 >@?U?r?
 >L?l?
 >Mp$d
->YP`^
 >g?x?|?
 >m?q?
 ? ?0?4?D?H?X?\?l?p?
@@ -381,6 +378,7 @@ AitUVCExtApi.dll
 AjEB#AZ
 BMP RLE
 Bellevue1
+B{Z4@l
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
 Camera Recovery Mode Required
@@ -495,9 +493,8 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RPAUQ
 RPCRT4.dll
-RSDSJ
+RSDS1`
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -566,8 +563,6 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
-U$Hy{
-U)nyDs	
 UnhandledExceptionFilter
 Unknown
 Unknown exception
@@ -592,13 +587,11 @@ WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
-Zs?1#
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
 \2d2h2l2p2t2x2|2
-\IoGQ
 ]J<0"0i3
 _CIpow
 _Cnd_destroy_in_situ
@@ -731,6 +724,7 @@ fr_fr
 fread
 french
 fseek
+g0F|H
 german
 greek
 http://ocsp.digicert.com0A
@@ -747,10 +741,10 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
+j]e$>
 ja_jp
 japanese
 jj@0HK4
-k#Hb3ln]
 k0i0$
 ko_ko
 korean
@@ -847,7 +841,6 @@ wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
-y7saz
 yrPhX
 zh_cn
 zh_tw

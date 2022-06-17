@@ -1,15 +1,14 @@
 	!s99
-	bQ_#1*
     A
  %41g
  (Camera)
- -A0\l
  9D$D
  A__^
  H3E H3E
 !hn7!
 ',=?k
 '7D`D0
+'n!%}
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -18,6 +17,7 @@
 (l$PD
 (t$pH
 )D$ H
+)SN6?
 )\$pD
 )d$`D
 )t$pu.H
@@ -95,7 +95,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220614230410Z0/
+220617192409Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -107,9 +107,9 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3E1	.;!
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+5R&4C
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -138,6 +138,7 @@
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
+?voVe
 @.data
 @.reloc
 @.rsrc
@@ -191,7 +192,6 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-E^gK]Yx
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
@@ -274,7 +274,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDSbr
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -335,7 +334,6 @@ Y9"SD
 \$ E3
 \$ UH
 ]J<0"0i3
-]Xe[|
 ][OculusDirect] Begin AcquireSync
 _Camera
 _Cnd_destroy_in_situ
@@ -373,6 +371,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`kR2g
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -410,7 +409,6 @@ memset
 n\tuH
 ntelD
 oculus
-ojm>AI
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
 ovr_ConfigureTracking

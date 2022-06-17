@@ -1622,7 +1622,7 @@
  r (anonymous namespace)::k_nVertBytecode
  r CSWTCH.100
  r CSWTCH.16
- r CSWTCH.213
+ r CSWTCH.214
  r CSWTCH.23
  r CVkDevice::CreateDevice(CreateDeviceDetails_t const&)::queuePriorities
  r IPC::crc32(unsigned int, void const*, unsigned long)::s_crc32
@@ -3329,6 +3329,7 @@
  t ThreadSetAffinity
  t ThreadSetDebugName
  t ThreadSetDebugName.part.0
+ t ThreadSetDescription
  t ThreadSetPriority
  t ThreadSetPriority.cold
  t ThreadSetProcessPriority

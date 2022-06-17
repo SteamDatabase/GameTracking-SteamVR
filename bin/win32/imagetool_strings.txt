@@ -1529,7 +1529,6 @@
 !!!333EEETTTfffxxx
 !!#&&)++.123669;<32*&
 !%d%c
-!.i:	
 !0&0e0j0
 !010E0h0y0
 !0F0q0
@@ -1598,6 +1597,7 @@
 ";A ~
 "<~$B
 "?8N"?g}"?
+"N)>7
 "WA`7h
 "p#*$
 "segoe ui" = "segoe ui,meiryo,malgun gothic,microsoft jhenghei,microsoft yahei,gisha,leelawadee,arial unicode ms,browallia new,mingliu,simhei,gulimche,ms gothic,sylfaen,kartika,latha,mangal,raavi"
@@ -1681,6 +1681,7 @@
 #}3Tt
 $ hh@
 $&[HY
+$.7/ 
 $/H,9h]	1	
 $0)0=0
 $4DTdt
@@ -2316,7 +2317,6 @@ $~O="""
 *Cyan*
 *E?>YE?
 *EPSF-*
-*K<vI
 *Magenta*
 *Pt)p
 *T$(j
@@ -3043,7 +3043,6 @@ $~O="""
 -ordered-dither
 -orient
 -p#X.
--pM"1
 -page
 -paint
 -path
@@ -4137,7 +4136,6 @@ $~O="""
 1v1{1b2g2
 1wsHp
 1y3~3
-1}?nP
 1~jcG=
 2	2n2s2
 2	3"3-3
@@ -4327,7 +4325,7 @@ $~O="""
 220323000000Z
 220329000000Z
 220609000000Z
-220614225455Z0/
+220617191458Z0/
 22272A2Y2d2
 22282E2
 222A2F2
@@ -12423,6 +12421,7 @@ F?_EF?
 F@;FPu!
 F@Qh~f
 FA;t$ r
+FAEg}
 FALSE
 FAX images may appear to be narrow unless they are explicitly
 FAX machines use non-square pixels which are 1.5 times wider than
@@ -16156,7 +16155,6 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSA
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18315,7 +18313,6 @@ Waveform Number of Samples
 Waveform Padding Value
 Waveform Sample Value Representation
 Waveform Sequence
-Wc"j_
 WcZKe[Ke[Kd[Le[Mg_Jh_Hg^Mg]Lf\I`ZGQN=LH7SP>[ZF__O
 Wedge Angle
 Wedge Factor
@@ -18677,7 +18674,6 @@ Zoom Select Status
 [:#}41
 [;gY $
 [Eqw%
-[F!k(f
 [Invalid UTF-8] 
 [K:[K:YK:YI9[K:]J<^K<^O;^O;_N:_KHaWw|w
 [K]taM?
@@ -18994,6 +18990,7 @@ Zoom Select Status
 ]lF6QC
 ]o^8_
 ]uXj[V
+]vv/"[E:
 ^ j(S
 ^(UWV
 ^-1.0*
@@ -21662,6 +21659,7 @@ iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
 iacute
+ib1\?D
 ibm737
 ibm775
 ibm850
@@ -26136,7 +26134,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }Jfff
 }LuHO
 }WWh\
-}aD%.)A
 }b>G:c>
 }mxQ>
 }za?q

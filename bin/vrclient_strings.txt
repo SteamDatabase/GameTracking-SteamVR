@@ -3075,6 +3075,7 @@ $0}
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
+19:13:00
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -3139,7 +3140,6 @@ $0}
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:53:03
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3864,8 +3864,8 @@ C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DescriptorPool::Tables]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1147.341017
-C.1150.341028
+C.1147.341019
+C.1150.341030
 C.427.288574
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -5351,7 +5351,7 @@ CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*) [clone .cold]
 CRenderModelManager::~CRenderModelManager()
 CST
 CSWTCH.101
-CSWTCH.216
+CSWTCH.217
 CSWTCH.224
 CSWTCH.28
 CSWTCH.701
@@ -22868,7 +22868,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone
 Jul
 July
 Jun
-Jun 14 2022
+Jun 17 2022
 June
 K
 KHR_lights_punctual
@@ -24440,6 +24440,7 @@ ThreadResumeSignal(int)
 ThreadSetAffinity
 ThreadSetDebugName
 ThreadSetDebugName.part.0
+ThreadSetDescription
 ThreadSetPriority
 ThreadSetPriority.cold
 ThreadSetProcessPriority

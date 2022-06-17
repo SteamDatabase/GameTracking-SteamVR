@@ -938,7 +938,7 @@
  putc
  putwc
  r CSWTCH.101
- r CSWTCH.216
+ r CSWTCH.217
  r SteamThreadTools::CThreadSpinRWLock::TryLockForWrite(unsigned int)::oldValue
  r SteamThreadTools::CThreadSpinRWLock::UnlockWrite()::newValue
  r __FRAME_END__
@@ -1751,6 +1751,7 @@
  t ThreadSetAffinity
  t ThreadSetDebugName
  t ThreadSetDebugName.part.0
+ t ThreadSetDescription
  t ThreadSetPriority
  t ThreadSetPriority.cold
  t ThreadSetProcessPriority
