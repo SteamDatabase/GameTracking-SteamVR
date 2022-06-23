@@ -1,11 +1,8 @@
 	!s99
  %41g
-!Jf{I
 !hn7!
-%r#.X
 ',=?k
 '7D`D0
-(,jlR
 (f*^[0
 *9Z9N
 +Xt@(
@@ -65,6 +62,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+/#H9F
 /input/a/click
 /input/b/click
 /input/back/click
@@ -102,14 +100,13 @@
 1@1X1
 1@2x2
 1K1A2N2i2
-1OF8c
 1d2h2l2
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220609000000Z
-220617191706Z0/
+220623195926Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,7 +141,6 @@
 6!6*646=6K6T6]6f6s6
 6!616:6I6O6U6[6a6g6m6s6y6
 6*f(_
-6,qGK
 646X6d6l6
 6D6Z6
 6I]Dc
@@ -236,10 +232,8 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-K#BRQ
 KERNEL32.dll
 K}*n:	
-L2"Brac
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
@@ -298,7 +292,6 @@ Washington1
 Y9"SD
 Y__^[
 [K]taM?
-\rjr#_
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -348,7 +341,6 @@ bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
 e,>~^
-gJN'[
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -357,12 +349,12 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 m0k0$
-m0mT#O
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
+p7-,#G(Th
 string too long
 terminate
 uCVj@
@@ -371,6 +363,7 @@ vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
+z`lKgD
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

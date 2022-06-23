@@ -8,6 +8,7 @@
 																												
 																																												
 	!s99
+	qap^
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -708,7 +709,7 @@ $Vh&*
 220323000000Z
 220329000000Z
 220609000000Z
-220617191705Z0/
+220623195926Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -1230,6 +1231,7 @@ $Vh&*
 <G<r<
 <G=j=v=
 <H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+<M%J*B
 <O=]=k=y=
 <X<\<`<d<h<l<p<t<x<|<
 <]<w<
@@ -1402,6 +1404,7 @@ $Vh&*
 ?_Xout_of_range@std@@YAXPBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?ed;7
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$collate@D@std@@2V0locale@2@A
@@ -1429,7 +1432,7 @@ $Vh&*
 @.data
 @SVWj
 @d;Cd
-A `lBV
+@m0_6/j
 A valid JSON document must be either an array or an object value.
 A98t	
 ACL_DATA_PACKET
@@ -1647,7 +1650,6 @@ DoScanContext
 DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
-E8eR5
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1670,7 +1672,6 @@ Exchange MTU Request Failed. (nrf_error: %s)
 Existing Bootloader mode.
 Extended Error: %s, %s
 F	^[]
-F%`P"
 F(j4f
 F0R0w0}0
 F<\uD
@@ -1749,7 +1750,6 @@ HCI_EVENT_PACKET
 HTC BS
 HeapAlloc
 HeapFree
-Hm<x.
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
@@ -1805,7 +1805,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 MultiByteToWideChar
-N'|{]nN
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
 NRFError_DFUError_BaseNeedsPowerCycle
@@ -1911,6 +1910,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSh
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2173,7 +2173,6 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
-`Hj%^
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -2286,7 +2285,6 @@ memcpy
 memmove
 memset
 mutex
-n$=Y;?
 need dictionary
 nrfserlib.dll
 ole32.dll
@@ -2467,7 +2465,6 @@ uzj h
 v=Y]Bv
 vGh@7
 vGh`5
-vcCmJ
 vector<T> too long
 vector<bool> too long
 w QVR
@@ -2484,7 +2481,7 @@ x5t7j
 x]~\6
 xdigit
 y4_^[
-yls19C5
+yb-`R
 {L?uI
 {un'%
 |@N3>

@@ -23,6 +23,7 @@
 		} } },
 	!s99
 	{ 0x%x, 0x%x, %d, %d, {
+	~\Q=
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
     A
@@ -45,6 +46,7 @@
  A_^]
  A__^
  H3E H3E
+ formatting error code 
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -526,12 +528,13 @@ $II+L$`
 0}0i1
 1.2.840.113549.1.9.6
 130801120000Z
+1mg{x
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220609000000Z
-220617191554Z0/
+220623195815Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -574,6 +577,7 @@ $II+L$`
 <P)9Y
 <unknown>
 =rIQU
+=u)>rz+
 >0<0:
 >Mp$d
 >ffv?
@@ -745,6 +749,7 @@ CFrameHallucination::RegisterDestinationImage
 CFrameHallucination::SetFov
 CL$ H
 CL$0H
+CL$`H;
 CLIENT: I:%6dC:%6dS:%6dP:%6d[%d|%d]
 CMotionEstimation::CRenderPipeline::CreateFramebuffer
 CMotionEstimation::CRenderPipeline::CreateRenderPass
@@ -879,6 +884,8 @@ CVkTimeline::Initialize
 CVkTimeline::InitializeFromIPC
 CVkTimeline::Signal
 CVkTimeline::WaitMultiple
+C\$@H
+C\$@M
 CalculateMotion
 CertCloseStore
 CertFindCertificateInStore
@@ -975,9 +982,9 @@ D$`H;]
 D$hH+
 D$hH;
 D$hI;
-D$hL;
 D$pH;
 D$pH;X
+D$pL;
 D$xD;
 D$xH;
 D$xL;
@@ -1008,6 +1015,7 @@ DuplicateHandle
 E8~(t\
 E\f9A
 EhH9E`
+Encountered error 
 EnterCriticalSection
 Enumerated %zu vulkan displays
 Error! EventWriteString Severe: %s
@@ -1413,6 +1421,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDSr(%
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1714,6 +1723,7 @@ _wcsicmp
 _wcsnicmp
 _wcsupr
 `.rdata
+`9#I(
 `A^A]_^]
 `A^_]
 `A_A][
@@ -1813,6 +1823,7 @@ d$(E3
 d$PE3
 d$XE3
 d$`H=
+d$`L;
 d3d11.dll
 data->IsInitialized()
 data.hIPC.IsValid()
@@ -2061,7 +2072,7 @@ uAfff
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
-v!ne8=
+v!neh=
 v=Y]Bv
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
@@ -2533,6 +2544,7 @@ xA_A^A]A\_^[]
 x]~\6
 yxxxxxxxH
 yxxxxxxxI+
+yzY8A
 {pH;{xw?
 {un'%
 |$ ATAVAWH
@@ -2563,6 +2575,7 @@ yxxxxxxxI+
 |$HH=
 |$PL91t
 |$`E3
+|$pH+
 |$xIi
 |$xIk
 |$xMi

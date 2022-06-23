@@ -2850,11 +2850,11 @@ $0}
 /input/grip/pose
 /input/guide
 /input/guide/click
-/input/hand_model
-/input/hand_model/pose
 /input/joystick
 /input/menu
 /input/menu/click
+/input/palm_ext
+/input/palm_ext/pose
 /input/squeeze
 /input/system
 /input/thumbstick
@@ -3075,7 +3075,7 @@ $0}
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-19:13:00
+19:55:27
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -22868,7 +22868,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone
 Jul
 July
 Jun
-Jun 17 2022
+Jun 23 2022
 June
 K
 KHR_lights_punctual

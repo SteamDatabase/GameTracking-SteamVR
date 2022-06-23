@@ -4587,10 +4587,15 @@
             iconUrl: this.getDashboardIconUri(r),
           });
         }
-        return c.createElement(g.n, {
-          name: r.tab_name,
-          iconUrl: this.getDashboardIconUri(r),
-        });
+        return r.summon_overlay_key == u.c
+          ? c.createElement(g.n, {
+              name: Object(p.c)("#BindingUI_WindowTitle_ControllerBinding"),
+              iconUrl: "/dashboard/images/icons/svr_settings.svg",
+            })
+          : c.createElement(g.n, {
+              name: r.tab_name,
+              iconUrl: this.getDashboardIconUri(r),
+            });
       }
       get isDarkMode() {
         return (
@@ -9617,4 +9622,4 @@
       Object(r.b)([s.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=bindingcallouts.js.map?v=3ac55052a53d496c3bc5
+//# sourceMappingURL=bindingcallouts.js.map?v=5f3ae697668952dcd817

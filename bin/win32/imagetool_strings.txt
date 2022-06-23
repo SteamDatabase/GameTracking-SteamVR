@@ -1597,7 +1597,6 @@
 ";A ~
 "<~$B
 "?8N"?g}"?
-"N)>7
 "WA`7h
 "p#*$
 "segoe ui" = "segoe ui,meiryo,malgun gothic,microsoft jhenghei,microsoft yahei,gisha,leelawadee,arial unicode ms,browallia new,mingliu,simhei,gulimche,ms gothic,sylfaen,kartika,latha,mangal,raavi"
@@ -1681,7 +1680,6 @@
 #}3Tt
 $ hh@
 $&[HY
-$.7/ 
 $/H,9h]	1	
 $0)0=0
 $4DTdt
@@ -2837,6 +2835,7 @@ $~O="""
 -0`0m0
 -1.0*
 -2%tC
+-95mb
 -9?1\9?r
 -<%uE
 -<qeY@c
@@ -3259,6 +3258,7 @@ $~O="""
 .IEC 61966-2.1 Default RGB colour space - sRGB
 .Too many IDATs found
 .W,`]
+._qC/
 .b(9["
 .data
 .data$r
@@ -3795,6 +3795,7 @@ $~O="""
 0x1}1
 0|<O"j
 0}0i1
+1	)c0"d>
 1	2*2A2K2O2T2y2
 1	2:2
 1	2@2E2O2^2z2
@@ -4325,7 +4326,7 @@ $~O="""
 220323000000Z
 220329000000Z
 220609000000Z
-220617191458Z0/
+220623195707Z0/
 22272A2Y2d2
 22282E2
 222A2F2
@@ -5159,6 +5160,7 @@ $~O="""
 4>4g4w4
 4>5C5R5W5
 4>5C5x5
+4>TF,
 4?324?ca4?
 4?4D4P4U4
 4?4P4]4
@@ -6513,6 +6515,7 @@ $~O="""
 8av/&J
 8bim:
 8d$(u
+8d*}G!
 8e8m8
 8f;9u
 8g9|9
@@ -12421,7 +12424,6 @@ F?_EF?
 F@;FPu!
 F@Qh~f
 FA;t$ r
-FAEg}
 FALSE
 FAX images may appear to be narrow unless they are explicitly
 FAX machines use non-square pixels which are 1.5 times wider than
@@ -18990,7 +18992,6 @@ Zoom Select Status
 ]lF6QC
 ]o^8_
 ]uXj[V
-]vv/"[E:
 ^ j(S
 ^(UWV
 ^-1.0*
@@ -20710,6 +20711,7 @@ fatal-criticals
 fatal-warnings
 fclose
 fclose()
+fcs~u
 fd != NULL
 features != NULL
 ferror
@@ -21659,7 +21661,6 @@ iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
 iacute
-ib1\?D
 ibm737
 ibm775
 ibm850
@@ -25045,6 +25046,7 @@ wrp==rdp, !running
 wsbdp
 www.digicert.com1!0
 www.digicert.com1$0"
+w{`rxn
 w|9)t	
 x	;Ut}
 x ;^p
@@ -26183,6 +26185,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~L$Hf
 ~L$df
 ~P9~Pu)
+~Pf\]
 ~T$@f
 ~TYts
 ~V=p 

@@ -69,6 +69,7 @@
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
 ,W5y+
+,X9GO
 -1e+9999
 -Infinity
 .  Does it exist?
@@ -165,7 +166,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220617191450Z0/
+220623195640Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -189,6 +190,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+;&,SL
 <0:08
 =rIQU
 >0<0:
@@ -414,7 +416,6 @@ FindFirstFileW
 FindNextFileW
 FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
-FqDI{>
 FreeLibrary
 GENERAL
 GetCurrentProcess
@@ -446,7 +447,6 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
-I kqn
 I#V0I
 I9Bhs
 I9W(t
@@ -495,14 +495,12 @@ LargestUInt out of UInt range
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
-LkRId
 LoadLibraryExW
 LoadLibraryW
 Loader does not support simultaneous XrInstances
 LoaderInstance::CreateInstance chained CreateInstance call failed
 LoaderInstance::CreateInstance succeeded with 
 LoaderInstance::CreateInstance, no support found for requested extension: 
-LvRt.v%^j8
 M H1E
 M98u/
 MB(iVR
@@ -566,7 +564,6 @@ SWAWH
 Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
-ShO\2##
 SleepConditionVariableCS
 Syntax error: value, object or array expected.
 T$0H;
@@ -638,6 +635,7 @@ WakeAllConditionVariable
 Warning [
 Washington1
 WideCharToMultiByte
+Wvm,(
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
@@ -734,6 +732,7 @@ bad allocation
 bad array new length
 bad cast
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+cd?7*
 collectComments
 d$ UAVAWH
 d$PE3
@@ -825,6 +824,7 @@ memset
 must be non-NULL
 nfinity
 ntelD
+oX!FW
 openxr/
 openxr_loader.dll
 rejectDupKeys
@@ -866,7 +866,6 @@ tmfff
 ungetc
 unknown type in properties
 v=Y]Bv
-vNB1T:
 vector<T> too long
 verbose
 www.digicert.com1!0
@@ -982,7 +981,6 @@ xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
 {un'%
-|	_7p
 |$ ATAVAWH
 |$ AVH
 |$ UATAUAVAWH

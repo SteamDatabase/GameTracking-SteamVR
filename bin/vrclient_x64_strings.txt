@@ -105,6 +105,7 @@
  failed to parse: 
  for action '
  for detail.
+ formatting error code 
  in Buffer
  in `
  is not valid for field 
@@ -196,6 +197,7 @@
 ". Value: "
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
+"7gNK]3
 "9k0t
 "CVRMsg_ApplicationManifestResponse
 "CVRMsg_CompositorRefSharedResource
@@ -265,7 +267,7 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knN
+$tI(knNxV;
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -554,10 +556,12 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(-%k"
+(-Ur"
+(5i/(
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
+(=.f"
 (A\^][
 (A\_^[
 (A]_^[
@@ -800,6 +804,7 @@ $w!Hc
 *CVRMsg_TrackedCamera_GetProjectionResponse
 *H+NpH
 *HcT$PH
+*OM#(
 *uXI;
 +C,+C
 +CVRMsg_ClientMailbox_GetNextMessageResponse
@@ -1903,11 +1908,11 @@ $w!Hc
 /input/grip/pose
 /input/guide
 /input/guide/click
-/input/hand_model
-/input/hand_model/pose
 /input/joystick
 /input/menu
 /input/menu/click
+/input/palm_ext
+/input/palm_ext/pose
 /input/select
 /input/squeeze
 /input/squeeze/click
@@ -2031,10 +2036,10 @@ $w!Hc
 /user/hand/left/input/back/click
 /user/hand/left/input/grip/click
 /user/hand/left/input/grip/pose
-/user/hand/left/input/hand_model/pose
 /user/hand/left/input/joystick/click
 /user/hand/left/input/menu
 /user/hand/left/input/menu/click
+/user/hand/left/input/palm_ext/pose
 /user/hand/left/input/select/click
 /user/hand/left/input/shoulder/click
 /user/hand/left/input/skeleton/left/data
@@ -2083,10 +2088,10 @@ $w!Hc
 /user/hand/right/input/back/click
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/pose
-/user/hand/right/input/hand_model/pose
 /user/hand/right/input/joystick/click
 /user/hand/right/input/menu
 /user/hand/right/input/menu/click
+/user/hand/right/input/palm_ext/pose
 /user/hand/right/input/select/click
 /user/hand/right/input/shoulder/click
 /user/hand/right/input/skeleton/right/data
@@ -2184,7 +2189,6 @@ $w!Hc
 0CVRMsg_TrackedCamera_IsVideoStreamActiveResponse
 0D9c0t'H
 0I;T$ H
-0Q=uv
 0_^[H
 0_^]H
 0w0c1
@@ -2216,7 +2220,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220609000000Z
-220617192106Z0/
+220623200245Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2247,6 +2251,7 @@ $w!Hc
 555555555555555555555555555555555555555555555555555555555555555555555555555555
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+62U;o
 650000
 6CVRMsg_CompositorGetScreenshotPropertyFilenameResponse
 6HiL$8
@@ -2455,6 +2460,7 @@ $w!Hc
 <	w'H
 < t+<
 <$A9~T
+<$HiL$p
 <*tq</tm<
 <*ufH
 </u#H
@@ -2740,7 +2746,6 @@ $w!Hc
 @USWH
 @UVATAUAVH
 @UVATAVH
-@UVATAWH
 @UVATH
 @UVAUAWH
 @UVAUH
@@ -2891,7 +2896,6 @@ A^_^]
 A^_^][
 A_A\[]
 A_A\]
-A_A\^]
 A_A\_
 A_A\_[]
 A_A\_]
@@ -3096,6 +3100,8 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
+C-(6;
+C-e6;
 C09w(~:L
 C0L9$
 C0L;E
@@ -3130,6 +3136,7 @@ CD$8H
 CD$@3
 CD$@H
 CD$@I
+CD$P3
 CD$PH
 CD$PM
 CD$XH
@@ -3208,12 +3215,13 @@ CL$0I+
 CL$0I;
 CL$0L;
 CL$0fI
-CL$8I
 CL$@H
 CL$PH
 CL$XL
 CL$`H
+CL$`H;
 CL$hH
+CL$hI
 CL$pH
 COLOR
 CPH+CHH
@@ -3305,6 +3313,7 @@ CT$XH
 CT$XI
 CT$`L
 CT$`f
+CT$h3
 CT$hM
 CT$pH
 CT$xD
@@ -3468,6 +3477,7 @@ C\$8M
 C\$@E
 C\$@H
 C\$@L
+C\$@M
 C\$HH
 C\$HM
 C\$PE
@@ -3745,6 +3755,7 @@ D$TE;
 D$TI;
 D$Tt.@
 D$X I
+D$X9s
 D$XA#
 D$XE3
 D$XH+
@@ -3786,7 +3797,6 @@ D$hHcA,H
 D$hI9D$
 D$hI;D$
 D$hIc
-D$hL;
 D$hM+
 D$p(;M8
 D$pA+
@@ -3817,13 +3827,10 @@ D8$/u
 D8$0u
 D8$7u
 D8$>u
-D8%SK0
 D8,8u
-D85:s4
-D85Id5
 D8<0u
 D8<>u
-D8=,&#
+D8=,-#
 D8D$9t$
 D8D$hH
 D8`)t#E
@@ -4032,6 +4039,7 @@ Eh+E
 Empty escape sequence in string
 Empty file.
 Enabling LiquidVR fallback path due to missing extension: %s
+Encountered error 
 Encountered unexpected delayed initialization of CPropertyManager
 End-of-file inside block comment.
 EndFrame called w/ incorrect client frame index.
@@ -4113,8 +4121,9 @@ F 9C@|
 F 9G |
 F ;C@t
 F @8p)u]
-F H9C unL
+F H9E
 F$HcN H
+F(H9D$Pt$I
 F(H;EHrZuSH
 F(H;FHs
 F0L;G
@@ -4610,6 +4619,9 @@ H92u,
 H93t	H
 H948t
 H98t	H
+H98uGI
+H98uKI
+H98uNI
 H9;uAA
 H9A H
 H9A s
@@ -4702,11 +4714,12 @@ H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
+H;5"6;
+H;5_6;
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=z><
 H;A s
 H;Axt
 H;C(v
@@ -6088,6 +6101,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSp
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6467,6 +6481,7 @@ T$xE3
 T$xH;
 T$xL+
 T$xL;
+T5oI&
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -6643,6 +6658,7 @@ UWAVAWI
 UWAVH
 UWAWH
 Uc:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
+Ug@8=X
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
 Unable to coerce boolean action to input source that supports neither float nor boolean: %s
 Unable to coerce float action to input source that supports neither float nor boolean: %s
@@ -6790,7 +6806,6 @@ User Canceled Init (116)
 User Config Directory Invalid (107)
 Using physical device: %s
 UuidFromStringA
-V H;P s
 V0H+V H
 V8H;C
 V@I9VHt
@@ -7454,10 +7469,15 @@ VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared text
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
 W H;C
 W$H;C
+W%,>*
+W%D+)
+W%{;.
 W(H;C
 W(LcB
 W,H;C
 W0H;C
+W5Cz$
+W5lz$
 W8H+W`I
 W8H;C
 W<H;C
@@ -7614,6 +7634,7 @@ XR_EXT_frame_composition_report
 XR_EXT_hand_joints_motion_range
 XR_EXT_hand_tracking
 XR_EXT_hp_mixed_reality_controller
+XR_EXT_palm_pose
 XR_EXT_win32_appcontainer_compatible
 XR_FB_display_refresh_rate
 XR_FRAME_DISCARDED
@@ -7661,6 +7682,7 @@ XR_TYPE_ACTION_STATE_VECTOR2F
 XR_TYPE_ANDROID_SURFACE_SWAPCHAIN_CREATE_INFO_FB
 XR_TYPE_API_LAYER_PROPERTIES
 XR_TYPE_BINDING_MODIFICATIONS_KHR
+XR_TYPE_BOUNDARY_2D_FB
 XR_TYPE_BOUND_SOURCES_FOR_ACTION_ENUMERATE_INFO
 XR_TYPE_COMPOSITION_LAYER_ALPHA_BLEND_FB
 XR_TYPE_COMPOSITION_LAYER_COLOR_SCALE_BIAS_KHR
@@ -7781,6 +7803,7 @@ XR_TYPE_RENDER_MODEL_CAPABILITIES_REQUEST_FB
 XR_TYPE_RENDER_MODEL_LOAD_INFO_FB
 XR_TYPE_RENDER_MODEL_PATH_INFO_FB
 XR_TYPE_RENDER_MODEL_PROPERTIES_FB
+XR_TYPE_ROOM_LAYOUT_FB
 XR_TYPE_SCENE_COMPONENTS_GET_INFO_MSFT
 XR_TYPE_SCENE_COMPONENTS_LOCATE_INFO_MSFT
 XR_TYPE_SCENE_COMPONENTS_MSFT
@@ -7805,6 +7828,7 @@ XR_TYPE_SECONDARY_VIEW_CONFIGURATION_LAYER_INFO_MSFT
 XR_TYPE_SECONDARY_VIEW_CONFIGURATION_SESSION_BEGIN_INFO_MSFT
 XR_TYPE_SECONDARY_VIEW_CONFIGURATION_STATE_MSFT
 XR_TYPE_SECONDARY_VIEW_CONFIGURATION_SWAPCHAIN_CREATE_INFO_MSFT
+XR_TYPE_SEMANTIC_LABELS_FB
 XR_TYPE_SERIALIZED_SCENE_FRAGMENT_DATA_GET_INFO_MSFT
 XR_TYPE_SESSION_ACTION_SETS_ATTACH_INFO
 XR_TYPE_SESSION_BEGIN_INFO
@@ -7878,7 +7902,6 @@ XR_TYPE_VULKAN_GRAPHICS_DEVICE_GET_INFO_KHR
 XR_TYPE_VULKAN_INSTANCE_CREATE_INFO_KHR
 XR_TYPE_VULKAN_SWAPCHAIN_CREATE_INFO_META
 XR_TYPE_VULKAN_SWAPCHAIN_FORMAT_LIST_CREATE_INFO_KHR
-XR_UNITY_hand_model_pose
 XR_UNKNOWN_FAILURE_%d
 XR_UNKNOWN_STRUCTURE_TYPE_%d
 XR_UNKNOWN_SUCCESS_%d
@@ -7896,10 +7919,8 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y5vC.
+Y%hp.
 Y9"SD
-Y=E!.
-Y=^B.
 Y>t$7?*
 YD$8E
 Yd$@A
@@ -8074,12 +8095,12 @@ ZvFailed to create fence %ls.
 \$pfD
 \$pff
 \$pu0D9d$<u)M
+\$xA9_
 \$xH+
 \$xH;
 \$xHi
 \$xHk
 \%03o
-\-y'$
 \10I;
 \U%08x
 \\.\pipe\
@@ -8092,7 +8113,7 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
-]8H9X
+]0H9X
 ]9k0tVD
 ]@L9{(
 ]HH;]Pt8
@@ -8105,8 +8126,7 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%+H"
-_%gS"
+_%[O"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8699,6 +8719,7 @@ e_H9U
 east_click
 east_touch
 effffff
+eg@8=W
 el_el
 elapsed_time
 emissiveFactor
@@ -9626,7 +9647,6 @@ russian
 s AVH
 s$D;E
 s(HcEoH
-s@DC1
 s@fff
 sButtonTexts
 sCaptionText
@@ -10312,7 +10332,7 @@ t1Hcl$@
 t1fff
 t3fff
 t4L9P
-t8D8-
+t8D8-a(3
 t9fff
 t:fff
 t<Lc@xE
@@ -10328,7 +10348,6 @@ tFfff
 tHI9|$
 tJL;y rDH
 tNI;X rHI
-tOfff
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -10336,7 +10355,6 @@ tUL9l$ptNH
 tXH+A
 tXfff
 t[H+A
-t^fff
 target
 targets
 tb9l$Xt@9n$~;
@@ -10445,8 +10463,8 @@ u.H9{`t(H
 u/fff
 u4H9X s
 u5H9t$0u.H
-u7fff
 u9fff
+u:[^7(
 u<H9^xtLH
 u>D8}
 u>f9X u8f9X0u2f9X@u,f9XPu&
@@ -10471,9 +10489,9 @@ ua_ua
 ub'vb'v
 ubHcC0I
 udH9P sRH
+ug@8=6
 ugL9x s
 ugL;D$H
-uguTA
 ui8D$0tc
 uint32
 uint64
@@ -11059,6 +11077,7 @@ vrwebhelper
 vrwebhelper.exe
 vulkan-1.dll
 w(M9w0tH
+w:Les
 wXH9w`t/H
 wants_compositor_pause
 watchdog_controller
@@ -11117,6 +11136,7 @@ xA^A\_^][
 xA_A^A]A\][
 xA_A^_^][
 xL97t
+xQMDj
 x]~\6
 x_^][
 x_path
@@ -11328,6 +11348,7 @@ zuusA
 |$HHc
 |$HI+
 |$HL+
+|$HL;
 |$Hff
 |$L!u
 |$L!u	

@@ -119,7 +119,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220617191457Z0/
+220623195725Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -149,8 +149,6 @@
 <P)9Y
 <unknown>
 =rIQU
-> %UF
->$K[6`a
 >0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -240,6 +238,7 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+KE=?A
 KERNEL32.dll
 K}*n:	
 L$ SH
@@ -263,8 +262,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RJ]U6
-RSDSa
+RSDS6
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -385,6 +383,7 @@ malloc
 memcpy
 memmove
 memset
+nW)ya
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()

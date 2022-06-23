@@ -433,7 +433,7 @@ $_^[]
 220323000000Z
 220329000000Z
 220609000000Z
-220617191347Z0/
+220623195656Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -456,6 +456,7 @@ $_^[]
 2K5g5
 2O3w3
 2Q2l275
+2QzIZ%
 2\4k4
 2b2v2
 2b6v6
@@ -1225,7 +1226,6 @@ Applying first frame camera configuration options...
 Auto Exposure Target:		
 Auto Exposure:			
 Auto White Balance:		
-B:2hY
 BP;BL
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1420,7 +1420,6 @@ Global Gain:
 GxVPR
 HP;HL
 HPQVR
-Hl(e=f
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Index: 
 InitOnceExecuteOnce
@@ -1493,7 +1492,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDS~
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1538,7 +1536,6 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
-U'Co5q
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1590,7 +1587,6 @@ WinRTInitialization
 Wj4XPV
 Writing failed at 0x%X/0x%X Bytes
 XSVW3
-Xz:7z
 Y9"SD
 YYF;w,|
 YYPhHv
@@ -1603,7 +1599,7 @@ Y__^[
 [tc9]
 \SVW3
 ]J<0"0i3
-^<ZMc
+]eNtzP
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1666,6 +1662,7 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
+`Q#Vc4
 abort
 address family not supported
 address in use
@@ -1764,7 +1761,6 @@ jj@0HK4
 k0i0$
 kK04k
 kW$4k_(4
-l`?B	G_
 ldexp
 localeconv
 lower
@@ -1845,7 +1841,6 @@ result out of range
 sDh|t
 setlocale
 setvbuf
-sixZG
 space
 state not recoverable
 stoul argument out of range
@@ -1898,7 +1893,6 @@ vector<T> too long
 vector<bool> too long
 version
 vrcamera_api.dll
-w !FJ
 w(_^[]
 wcsnlen
 wcstoul

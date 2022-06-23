@@ -44,7 +44,6 @@ $< t6<$t,<+t"<vt
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-&!U=K
 ',=?k
 '7D`D0
 ()$^.*+?[]|\-{},:=!
@@ -83,15 +82,13 @@ $< t6<$t,<+t"<vt
 )t$0H
 )t$`H
 *9Z9N
-*h*AkI
++Fe	)b
 +J$D8M@
 +Xt@(
 +o'q)}
-+pGvD
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,W5y+
 ,t0D9J0v*L
--)kMB"O
 .00cfg
 .8\$!t.9\
 .?AUIAMovieSetup@@
@@ -384,7 +381,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220329000000Z
 220609000000Z
-220617191450Z0/
+220623195639Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -400,7 +397,6 @@ $< t6<$t,<+t"<vt
 3mq+<
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
-5fs5I\
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -672,8 +668,10 @@ Auto Exposure Target:
 Auto Exposure:			
 Auto White Balance:		
 B$D+B,toD+B(
+B$jk1
 B0E8XAt
 BL$(A
+BP+KC
 Backlight Compensation:		
 Begin Streaming Depth...
 Begin Streaming Video...
@@ -1434,6 +1432,7 @@ fseek
 fsetpos
 function not supported
 fwrite
+g4\Er
 generic
 graph
 h< t <$
@@ -1525,6 +1524,7 @@ not enough memory
 not supported
 ntelD
 o0t$I
+o8	elZ
 ole32.dll
 operation canceled
 operation in progress
@@ -1586,7 +1586,6 @@ string too long
 strtod
 strtof
 switchState
-sx8&T
 sxu/H
 sxuIH
 sxutH
@@ -1638,6 +1637,7 @@ timed out
 tjL9Chu
 tlLcA
 tlMcH
+toOPasm
 tolower
 too many files open
 too many files open in system
@@ -1685,7 +1685,6 @@ x AVAWL
 x AVE3
 x AVH
 x UAVAWH
-x1'!QA)
 x]~\6
 xdigit
 yH;YXtl

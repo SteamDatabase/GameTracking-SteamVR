@@ -388,7 +388,7 @@
       }
     }
     var D = r("q1tI");
-    function M(e, t) {
+    function w(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) {
         if ("undefined" == r) return;
@@ -397,7 +397,7 @@
         if (e.length > 0) return e;
       }
     }
-    function w(e, t) {
+    function M(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) return parseFloat(r);
     }
@@ -437,10 +437,10 @@
           switch (t.nodeName.toUpperCase()) {
             case "VSG-TRANSFORM":
               (i = P("transform", t)),
-                (i.properties.translation = M(t, "translation")),
-                (i.properties.rotation = M(t, "rotation")),
-                (i.properties.scale = M(t, "scale")),
-                (i.properties["curvature-pitch"] = w(t, "curvature-pitch")),
+                (i.properties.translation = w(t, "translation")),
+                (i.properties.rotation = w(t, "rotation")),
+                (i.properties.scale = w(t, "scale")),
+                (i.properties["curvature-pitch"] = M(t, "curvature-pitch")),
                 (i.properties["parent-path"] = T(t, "parent-path")),
                 (i.properties["parent-origin"] = T(t, "parent-origin")),
                 (i.properties["parent-id"] = I(t, "parent-id"));
@@ -453,26 +453,26 @@
               break;
             case "VSG-ELASTIC-HEAD-TRANSFORM":
               (i = P("elasticheadtransform", t)),
-                (i.properties["start-angle-threshold"] = w(
+                (i.properties["start-angle-threshold"] = M(
                   t,
                   "start-angle-threshold"
                 )),
-                (i.properties["stop-angle-threshold"] = w(
+                (i.properties["stop-angle-threshold"] = M(
                   t,
                   "stop-angle-threshold"
                 )),
-                (i.properties["ease-in-time"] = w(t, "ease-in-time")),
-                (i.properties["ease-in-power"] = w(t, "ease-in-power")),
-                (i.properties["ease-out-angle-threshold"] = w(
+                (i.properties["ease-in-time"] = M(t, "ease-in-time")),
+                (i.properties["ease-in-power"] = M(t, "ease-in-power")),
+                (i.properties["ease-out-angle-threshold"] = M(
                   t,
                   "ease-out-angle-threshold"
                 )),
-                (i.properties["ease-out-power"] = w(t, "ease-out-power")),
-                (i.properties["min-angular-velocity"] = w(
+                (i.properties["ease-out-power"] = M(t, "ease-out-power")),
+                (i.properties["min-angular-velocity"] = M(
                   t,
                   "min-angular-velocity"
                 )),
-                (i.properties["max-angular-velocity"] = w(
+                (i.properties["max-angular-velocity"] = M(
                   t,
                   "max-angular-velocity"
                 )),
@@ -485,29 +485,29 @@
             case "VSG-LINE":
               (i = P("line", t)),
                 (i.properties["target-id"] = I(t, "target-id")),
-                (i.properties.thickness = w(t, "thickness")),
-                (i.properties["start-buffer"] = w(t, "start-buffer")),
-                (i.properties["end-buffer"] = w(t, "end-buffer"));
+                (i.properties.thickness = M(t, "thickness")),
+                (i.properties["start-buffer"] = M(t, "start-buffer")),
+                (i.properties["end-buffer"] = M(t, "end-buffer"));
               break;
             case "VSG-LINE-CONSTRAINED-TRANSFORM":
               (i = P("line-constrained-transform", t)),
                 (i.properties["target-id"] = I(t, "target-id")),
                 (i.properties["source-id"] = I(t, "source-id")),
-                (i.properties["source-distance"] = w(t, "source-distance")),
-                (i.properties["target-limit"] = w(t, "target-limit"));
+                (i.properties["source-distance"] = M(t, "source-distance")),
+                (i.properties["target-limit"] = M(t, "target-limit"));
               break;
             case "VSG-CALLOUT-TRANSFORM":
               (i = P("callout-transform", t)),
-                (i.properties.offset = M(t, "offset"));
+                (i.properties.offset = w(t, "offset"));
               break;
             case "VSG-HEAD-FACING-TRANSFORM":
               i = P("head-facing-transform", t);
               break;
             case "VSG-PIN-TO-VIEW-TRANSFORM":
               (i = P("pin-to-view-transform", t)),
-                (i.properties["offscreen-z-depth"] = w(t, "offscreen-z-depth")),
-                (i.properties["off-axis-limit"] = w(t, "off-axis-limit")),
-                (i.properties["transition-limit"] = w(t, "transition-limit"));
+                (i.properties["offscreen-z-depth"] = M(t, "offscreen-z-depth")),
+                (i.properties["off-axis-limit"] = M(t, "off-axis-limit")),
+                (i.properties["transition-limit"] = M(t, "transition-limit"));
           }
           return [n, i];
         })(e, t),
@@ -1487,7 +1487,7 @@
         );
       }
     }
-    class Me extends $ {
+    class we extends $ {
       constructor(e) {
         super(e),
           (this.m_latchedPosition = null),
@@ -1550,12 +1550,12 @@
         );
       }
     }
-    Object(n.b)([o.a], Me.prototype, "buildNode", null);
+    Object(n.b)([o.a], we.prototype, "buildNode", null);
     !(function (e) {
       (e[(e.LockedToParent = 0)] = "LockedToParent"),
         (e[(e.LockedToWorld = 1)] = "LockedToWorld");
     })(ue || (ue = {}));
-    class we extends $ {
+    class Me extends $ {
       constructor(e) {
         super(e);
       }
@@ -2302,7 +2302,7 @@
         return De;
       }),
       r.d(t, "bb", function () {
-        return Me;
+        return we;
       }),
       r.d(t, "t", function () {
         return ae;
@@ -2317,7 +2317,7 @@
         return fe;
       }),
       r.d(t, "H", function () {
-        return we;
+        return Me;
       }),
       r.d(t, "L", function () {
         return Re;
@@ -3358,7 +3358,7 @@
       Object(o.b)([l.a], D.prototype, "onScroll", null),
       Object(o.b)([l.a], D.prototype, "onLeftButtonClick", null),
       Object(o.b)([l.a], D.prototype, "onRightButtonClick", null);
-    let M = class extends c.Component {
+    let w = class extends c.Component {
       constructor(e) {
         super(e),
           (this.m_scrollWatcher = new S.e()),
@@ -3430,11 +3430,11 @@
         );
       }
     };
-    Object(o.b)([l.a], M.prototype, "buttonMouseEnter", null),
-      Object(o.b)([l.a], M.prototype, "buttonMouseLeave", null),
-      Object(o.b)([l.a], M.prototype, "onParentScrollStop", null),
-      (M = Object(o.b)([m.a], M));
-    const w = () =>
+    Object(o.b)([l.a], w.prototype, "buttonMouseEnter", null),
+      Object(o.b)([l.a], w.prototype, "buttonMouseLeave", null),
+      Object(o.b)([l.a], w.prototype, "onParentScrollStop", null),
+      (w = Object(o.b)([m.a], w));
+    const M = () =>
         c.createElement("div", { className: "AppButton Placeholder" }),
       R = (e) => {
         var t;
@@ -3451,14 +3451,14 @@
               c.createElement(
                 c.Fragment,
                 null,
-                c.createElement(w, null),
-                c.createElement(w, null),
-                c.createElement(w, null),
-                c.createElement(w, null)
+                c.createElement(M, null),
+                c.createElement(M, null),
+                c.createElement(M, null),
+                c.createElement(M, null)
               ),
             !r &&
               n.map((e) =>
-                c.createElement(M, Object.assign({ key: e.appkey }, e))
+                c.createElement(w, Object.assign({ key: e.appkey }, e))
               )
           )
         );
@@ -4672,10 +4672,15 @@
             iconUrl: this.getDashboardIconUri(i),
           });
         }
-        return c.createElement(b.n, {
-          name: i.tab_name,
-          iconUrl: this.getDashboardIconUri(i),
-        });
+        return i.summon_overlay_key == u.c
+          ? c.createElement(b.n, {
+              name: Object(h.c)("#BindingUI_WindowTitle_ControllerBinding"),
+              iconUrl: "/dashboard/images/icons/svr_settings.svg",
+            })
+          : c.createElement(b.n, {
+              name: i.tab_name,
+              iconUrl: this.getDashboardIconUri(i),
+            });
       }
       get isDarkMode() {
         return (
@@ -4861,10 +4866,10 @@
           D =
             null == (n = p.d.settings.get("/settings/dashboard/showDesktop")) ||
             n,
-          M =
+          w =
             null ==
               (i = p.d.settings.get("/settings/dashboard/showQuickStore")) || i,
-          w = !(
+          M = !(
             null != (o = p.d.settings.get("/settings/dashboard/arcadeMode")) &&
             o
           ),
@@ -5021,7 +5026,7 @@
                             )
                           )
                         ),
-                      M &&
+                      w &&
                         c.createElement(b.l, {
                           label: Object(h.c)("#Store"),
                           imageUrl: "/dashboard/images/icons/svr_store.svg",
@@ -5084,7 +5089,7 @@
                           onMouseLeave: () => this.startPopupMenuTimeout(500),
                         })
                       ),
-                      w &&
+                      M &&
                         c.createElement(b.l, {
                           imageUrl: "/dashboard/images/icons/svr_settings.svg",
                           active: this.isOverlayActive(u.D),
@@ -5522,19 +5527,19 @@
         let C = !1,
           k = !0,
           D = !1,
-          M = this.getActiveOverlayKey();
-        if (M) {
-          let e = VRHTML.VROverlay.FindOverlay(M);
+          w = this.getActiveOverlayKey();
+        if (w) {
+          let e = VRHTML.VROverlay.FindOverlay(w);
           (D = !!e && VRHTML.VROverlay.GetFlag(e, a.E.EnableControlBar)),
             (k =
-              !this.state.mapOverlayState.has(M) ||
-              this.state.mapOverlayState.get(M).dockLocation == b.i.Dashboard),
+              !this.state.mapOverlayState.has(w) ||
+              this.state.mapOverlayState.get(w).dockLocation == b.i.Dashboard),
             (C =
-              this.state.mapOverlayState.has(M) &&
-              this.state.mapOverlayState.get(M).dockLocation == b.i.World);
+              this.state.mapOverlayState.has(w) &&
+              this.state.mapOverlayState.get(w).dockLocation == b.i.World);
         }
         this.state.bLaserMouseSuppressionActive && (D = !1);
-        const w =
+        const M =
             null !=
             (r = p.d.settings.get("/settings/dashboard/theaterDistance"))
               ? r
@@ -5574,7 +5579,7 @@
           j = T ? 1 : 0;
         return (
           this.state.bTheaterMode
-            ? ((P = { y: -0.8 * R + E, z: -w }),
+            ? ((P = { y: -0.8 * R + E, z: -M }),
               (x = R),
               (V = 1.72),
               (L = 0.82),
@@ -5685,10 +5690,10 @@
                         c.createElement(
                           "h2",
                           null,
-                          this.state.mapOverlayState.get(M).dockLocation ==
+                          this.state.mapOverlayState.get(w).dockLocation ==
                             b.i.LeftHand &&
                             Object(h.c)("#DockedOnLeftController"),
-                          this.state.mapOverlayState.get(M).dockLocation ==
+                          this.state.mapOverlayState.get(w).dockLocation ==
                             b.i.RightHand &&
                             Object(h.c)("#DockedOnRightController")
                         ),
@@ -5697,7 +5702,7 @@
                           {
                             className: "ButtonControl",
                             onClick: () => {
-                              this.onDockOverlay(M, b.i.Dashboard);
+                              this.onDockOverlay(w, b.i.Dashboard);
                             },
                           },
                           Object(h.c)("#DockHere")
@@ -6942,8 +6947,8 @@
       C = r("Q+Z6"),
       k = r("/CXA"),
       D = r("aaBP"),
-      M = r.n(D),
-      w = r("nAcY");
+      w = r.n(D),
+      M = r("nAcY");
     const R = "DashboardPanelTopCenter",
       E = "DashboardPanelBottomCenter",
       T = "DashboardControlStrip",
@@ -7183,12 +7188,12 @@
           let t = VRHTML.ChangeBasis(o, e.pose.xfDeviceToAbsoluteTracking);
           Object(p.P)(t.translation) > n.sfMaxDockDist
             ? this.state.bIsOutsideMaxDist ||
-              (w.b.Instance.triggerHaptic(w.a.SlidingEdge),
+              (M.b.Instance.triggerHaptic(M.a.SlidingEdge),
               this.setState({ bIsOutsideMaxDist: !0, destination: P.World }))
             : (this.state.bIsOutsideMaxDist ||
                 (this.props.dockLocation == P.World &&
                   this.state.destination == P.World)) &&
-              (w.b.Instance.triggerHaptic(w.a.SlidingEdge),
+              (M.b.Instance.triggerHaptic(M.a.SlidingEdge),
               this.setState({
                 bIsOutsideMaxDist: !1,
                 destination: e.location,
@@ -7606,7 +7611,7 @@
           let t = !1;
           e.endsWith(".svg") && (t = !0),
             e.startsWith("data:") &&
-              H.k_rsThumbnailHashesToInvert.indexOf(M.a.hash(e)) >= 0 &&
+              H.k_rsThumbnailHashesToInvert.indexOf(w.a.hash(e)) >= 0 &&
               (t = !0),
             H.s_mapShouldInvertThumbnail.set(e, t);
         }
@@ -8741,4 +8746,4 @@
       Object(i.b)([a.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=notificationtoast.js.map?v=da8c3c29cff486cda390
+//# sourceMappingURL=notificationtoast.js.map?v=5604db18bccb436317b1

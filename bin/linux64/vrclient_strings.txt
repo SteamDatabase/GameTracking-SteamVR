@@ -1149,11 +1149,11 @@ $tI
 /input/grip/pose
 /input/guide
 /input/guide/click
-/input/hand_model
-/input/hand_model/pose
 /input/joystick
 /input/menu
 /input/menu/click
+/input/palm_ext
+/input/palm_ext/pose
 /input/select
 /input/squeeze
 /input/squeeze/click
@@ -1289,10 +1289,10 @@ $tI
 /user/hand/left/input/back/click
 /user/hand/left/input/grip/click
 /user/hand/left/input/grip/pose
-/user/hand/left/input/hand_model/pose
 /user/hand/left/input/joystick/click
 /user/hand/left/input/menu
 /user/hand/left/input/menu/click
+/user/hand/left/input/palm_ext/pose
 /user/hand/left/input/select/click
 /user/hand/left/input/shoulder/click
 /user/hand/left/input/skeleton/left/data
@@ -1341,10 +1341,10 @@ $tI
 /user/hand/right/input/back/click
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/pose
-/user/hand/right/input/hand_model/pose
 /user/hand/right/input/joystick/click
 /user/hand/right/input/menu
 /user/hand/right/input/menu/click
+/user/hand/right/input/palm_ext/pose
 /user/hand/right/input/select/click
 /user/hand/right/input/shoulder/click
 /user/hand/right/input/skeleton/right/data
@@ -1588,7 +1588,7 @@ $tI
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
-19:13:02
+19:55:30
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -22156,7 +22156,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone
 Jul
 July
 Jun
-Jun 17 2022
+Jun 23 2022
 June
 K
 KHR_lights_punctual
@@ -22440,7 +22440,6 @@ N2vr28IServerTrackedDeviceProviderE
 N2vr28IVRDriverDirectModeComponentE
 N2vr8IVRDebugE
 N2vr8IVRInputE
-N2vr8IVRPathsE
 N2vr8IXrProtoE
 N2vr9ILiquidVRE
 N2vr9IVRSystemE
@@ -25643,6 +25642,7 @@ XR_EXT_frame_composition_report
 XR_EXT_hand_joints_motion_range
 XR_EXT_hand_tracking
 XR_EXT_hp_mixed_reality_controller
+XR_EXT_palm_pose
 XR_FB_display_refresh_rate
 XR_FRAME_DISCARDED
 XR_HTCX_vive_tracker_interaction
@@ -25686,6 +25686,7 @@ XR_TYPE_ACTION_STATE_VECTOR2F
 XR_TYPE_ANDROID_SURFACE_SWAPCHAIN_CREATE_INFO_FB
 XR_TYPE_API_LAYER_PROPERTIES
 XR_TYPE_BINDING_MODIFICATIONS_KHR
+XR_TYPE_BOUNDARY_2D_FB
 XR_TYPE_BOUND_SOURCES_FOR_ACTION_ENUMERATE_INFO
 XR_TYPE_COMPOSITION_LAYER_ALPHA_BLEND_FB
 XR_TYPE_COMPOSITION_LAYER_COLOR_SCALE_BIAS_KHR
@@ -25806,6 +25807,7 @@ XR_TYPE_RENDER_MODEL_CAPABILITIES_REQUEST_FB
 XR_TYPE_RENDER_MODEL_LOAD_INFO_FB
 XR_TYPE_RENDER_MODEL_PATH_INFO_FB
 XR_TYPE_RENDER_MODEL_PROPERTIES_FB
+XR_TYPE_ROOM_LAYOUT_FB
 XR_TYPE_SCENE_COMPONENTS_GET_INFO_MSFT
 XR_TYPE_SCENE_COMPONENTS_LOCATE_INFO_MSFT
 XR_TYPE_SCENE_COMPONENTS_MSFT
@@ -25830,6 +25832,7 @@ XR_TYPE_SECONDARY_VIEW_CONFIGURATION_LAYER_INFO_MSFT
 XR_TYPE_SECONDARY_VIEW_CONFIGURATION_SESSION_BEGIN_INFO_MSFT
 XR_TYPE_SECONDARY_VIEW_CONFIGURATION_STATE_MSFT
 XR_TYPE_SECONDARY_VIEW_CONFIGURATION_SWAPCHAIN_CREATE_INFO_MSFT
+XR_TYPE_SEMANTIC_LABELS_FB
 XR_TYPE_SERIALIZED_SCENE_FRAGMENT_DATA_GET_INFO_MSFT
 XR_TYPE_SESSION_ACTION_SETS_ATTACH_INFO
 XR_TYPE_SESSION_BEGIN_INFO
@@ -25903,7 +25906,6 @@ XR_TYPE_VULKAN_GRAPHICS_DEVICE_GET_INFO_KHR
 XR_TYPE_VULKAN_INSTANCE_CREATE_INFO_KHR
 XR_TYPE_VULKAN_SWAPCHAIN_CREATE_INFO_META
 XR_TYPE_VULKAN_SWAPCHAIN_FORMAT_LIST_CREATE_INFO_KHR
-XR_UNITY_hand_model_pose
 XR_UNKNOWN_FAILURE_%d
 XR_UNKNOWN_STRUCTURE_TYPE_%d
 XR_UNKNOWN_SUCCESS_%d
@@ -26402,6 +26404,7 @@ __gnu_cxx::__normal_iterator<char const*, std::string> std::__find_if<__gnu_cxx:
 __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > > std::__find_if<__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const> >(__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
+__gnu_cxx::__normal_iterator<unsigned long const*, std::vector<unsigned long, std::allocator<unsigned long> > > std::__find_if<__gnu_cxx::__normal_iterator<unsigned long const*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const> >(__gnu_cxx::__normal_iterator<unsigned long const*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__normal_iterator<unsigned long const*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > > std::__find_if<__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const> >(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const>, std::random_access_iterator_tag)
 __gnu_cxx::__scoped_lock::~__scoped_lock()
 __gnu_cxx::__snprintf_lite(char*, unsigned long, char const*, __va_list_tag*)
@@ -32580,6 +32583,7 @@ std::_Rb_tree_iterator<std::pair<std::string const, tinygltf::Value> > std::_Rb_
 std::_Rb_tree_iterator<std::pair<unsigned long const, COverlayViewResourceInfo*> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, COverlayViewResourceInfo*>, std::_Select1st<std::pair<unsigned long const, COverlayViewResourceInfo*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, COverlayViewResourceInfo*> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned long const, COverlayViewResourceInfo*> >, std::piecewise_construct_t const&, std::tuple<unsigned long const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<unsigned long const, ConfigCachedActionValue_t> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, ConfigCachedActionValue_t>, std::_Select1st<std::pair<unsigned long const, ConfigCachedActionValue_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, ConfigCachedActionValue_t> > >::_M_emplace_equal<std::pair<unsigned long, ConfigCachedActionValue_t> >(std::pair<unsigned long, ConfigCachedActionValue_t>&&)
 std::_Rb_tree_iterator<std::pair<unsigned long const, HandleAndString_t> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, HandleAndString_t>, std::_Select1st<std::pair<unsigned long const, HandleAndString_t> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, HandleAndString_t> > >::_M_emplace_equal<std::pair<unsigned long, HandleAndString_t> >(std::pair<unsigned long, HandleAndString_t>&&)
+std::_Rb_tree_iterator<std::pair<unsigned long const, SuggestedBinding> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, SuggestedBinding>, std::_Select1st<std::pair<unsigned long const, SuggestedBinding> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SuggestedBinding> > >::_M_emplace_equal<std::pair<unsigned long, SuggestedBinding> >(std::pair<unsigned long, SuggestedBinding>&&)
 std::_Rb_tree_iterator<std::pair<unsigned long const, VulkanVRRenderer::Texture*> > std::_Rb_tree<unsigned long, std::pair<unsigned long const, VulkanVRRenderer::Texture*>, std::_Select1st<std::pair<unsigned long const, VulkanVRRenderer::Texture*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, VulkanVRRenderer::Texture*> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned long const, VulkanVRRenderer::Texture*> >, std::piecewise_construct_t const&, std::tuple<unsigned long const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > > std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > >, std::_Select1st<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned long const, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > > >, std::piecewise_construct_t const&, std::tuple<unsigned long&&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> > > std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> >, std::_Select1st<std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> > >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<unsigned long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData> > >, std::piecewise_construct_t const&, std::tuple<unsigned long const&>&&, std::tuple<>&&)
@@ -34908,6 +34912,7 @@ std::vector<ModeSlot_t, std::allocator<ModeSlot_t> >::~vector()
 std::vector<OpResult, std::allocator<OpResult> >::reserve(unsigned long)
 std::vector<PathHandleInfo_t, std::allocator<PathHandleInfo_t> >::_M_default_append(unsigned long)
 std::vector<PathHandleInfo_t, std::allocator<PathHandleInfo_t> >::reserve(unsigned long)
+std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >::~vector()
 std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> >::~vector()
 std::vector<VRInputValue_t, std::allocator<VRInputValue_t> >::_M_default_append(unsigned long)
 std::vector<ViveTracker, std::allocator<ViveTracker> >::~vector()

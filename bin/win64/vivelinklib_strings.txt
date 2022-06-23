@@ -31,7 +31,7 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
 !hn7!
-#*o?z
+"C~8r
 %%.%dg
 %2.2X
 %8.8X
@@ -204,7 +204,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/7n;Z
+/`e]&
 /f /s
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
@@ -223,14 +223,13 @@
 0w0c1
 0}0i1
 130801120000Z
-1`~'b
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220609000000Z
-220617191846Z0/
+220623200116Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -322,6 +321,7 @@
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?hvIs
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$collate@D@std@@2V0locale@2@A
 ?id@?$ctype@D@std@@2V0locale@2@A
@@ -735,7 +735,6 @@ L9d$X
 L9|$p
 L9}gsBH
 L;8u6H
-L;9qw
 L;M8r
 L;gHu
 L?n(Zy&
@@ -785,10 +784,10 @@ Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
 O(H9N(|
-O/3}Zdp
 OXL9OPt
 OpenProcess
 Out of thread local storage!
+P,Kq;
 PAIR -NONCE %6.6d
 PA^A]_^]
 PA^_]
@@ -810,7 +809,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDS.&
+RSDS,c
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1081,6 +1080,7 @@ Zipfile is corrupt or not a zipfile
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
 \u=H;
 ]J<0"0i3
+]K "2
 ]g@8yhu
 ]gfff
 ^(::LHB::)([0-9A-F]{4})
@@ -1126,7 +1126,6 @@ _wstat64i32
 `.rdata
 `A_A^A]A\_^[
 `A_A^_
-`z/[[
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1148,6 +1147,7 @@ bad conversion
 bin_file
 blank
 bootloader
+bq=4'Z
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
@@ -1173,7 +1173,6 @@ fputs
 fread
 fseek
 ftell
-gW>gp
 gfffffffH
 gfffffffI
 gfffffffL
@@ -1181,12 +1180,12 @@ gfffffffM
 graph
 hA\_^[
 hA_A^A]A\^[
+hnw/,
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i^y!r)
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1369,6 +1368,6 @@ xdigit
 |$xH;
 |@N3>
 |Lu?c
-}@SWw
 }LuHO
+}|>fp$3z
 ~t&LN

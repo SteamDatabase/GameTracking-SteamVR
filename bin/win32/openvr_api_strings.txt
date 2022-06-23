@@ -66,6 +66,7 @@ $iMBm
 *0F0R0
 *9Z9N
 *PjTW
+*V}7 
 +A Vj$
 +A$+Y
 +A$tU3
@@ -75,6 +76,7 @@ $iMBm
 +S@H#
 +Xt@(
 +Z$cH
++d(Pl
 +o'q)}
 +p$+p
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
@@ -93,6 +95,7 @@ $iMBm
 -jd_;
 .00cfg
 .3=}%
+.=FiEJ
 .?AUIExecutionContext@Concurrency@@
 .?AUIExecutionResource@Concurrency@@
 .?AUIResourceManager@Concurrency@@
@@ -306,11 +309,10 @@ $iMBm
 .text$yd
 .tls$
 .tls$ZZZ
+.u|DP
 .xdata$x
 /03070;0?0C0G0K0
 /PjSW
-/PnRN
-/cW@ Cy
 /t;_^2
 /user/camera
 /user/chest
@@ -460,7 +462,7 @@ $iMBm
 220323000000Z
 220329000000Z
 220609000000Z
-220617191632Z0/
+220623195853Z0/
 222f2
 223A3S3h3y3
 241009235959Z0a1
@@ -1024,7 +1026,6 @@ $iMBm
 =I=`=
 =P>g>
 =WIDATx
-=[m)\
 =\uI=
 =rIQU
 =v>0?
@@ -1503,7 +1504,7 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
-RSDS|
+RSDSj
 RWQSV
 R\hvv
 RaiseException
@@ -1590,7 +1591,6 @@ T~OXu
 UQPXY]Y[
 URPQQh
 USB Service Busy (140)
-UZVI#
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
 Unable to determine VR Path Registry filename
@@ -2011,7 +2011,6 @@ bad message
 broken pipe
 c%;>7
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
-cA!oz
 cD5U3#eF7v\NV5%J%
 cRpp`
 ceLfdfK3
@@ -2294,6 +2293,7 @@ zwom}
 }LuHO
 }qj<h
 ~ $s%r
+~'xM:Q
 ~0WPQ
 ~4VVS
 ~t&LN

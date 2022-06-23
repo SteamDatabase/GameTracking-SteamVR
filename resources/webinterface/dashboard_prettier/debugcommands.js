@@ -401,11 +401,11 @@
       let r = e.getAttribute(t);
       if (r && r.length > 0) return parseFloat(r);
     }
-    function R(e, t) {
+    function E(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0) return parseInt(r);
     }
-    function E(e, t) {
+    function R(e, t) {
       let r = e.getAttribute(t);
       if (r && r.length > 0)
         return (
@@ -424,7 +424,7 @@
       let r = { type: e, properties: {} };
       return (
         t.id && (r.properties.id = W(t.id)),
-        (r.properties.sgid = R(t, "sgid")),
+        (r.properties.sgid = E(t, "sgid")),
         r
       );
     }
@@ -447,9 +447,9 @@
               break;
             case "VSG-TRACKING-STATE-VISIBILITY":
               (i = P("trackingstatevisibility", t)),
-                (i.properties["visible-0dof"] = E(t, "visible-0dof")),
-                (i.properties["visible-3dof"] = E(t, "visible-3dof")),
-                (i.properties["visible-6dof"] = E(t, "visible-6dof"));
+                (i.properties["visible-0dof"] = R(t, "visible-0dof")),
+                (i.properties["visible-3dof"] = R(t, "visible-3dof")),
+                (i.properties["visible-6dof"] = R(t, "visible-6dof"));
               break;
             case "VSG-ELASTIC-HEAD-TRANSFORM":
               (i = P("elasticheadtransform", t)),
@@ -476,8 +476,8 @@
                   t,
                   "max-angular-velocity"
                 )),
-                (i.properties["lock-to-horizon"] = E(t, "lock-to-horizon")),
-                (i.properties["translation-behavior"] = R(
+                (i.properties["lock-to-horizon"] = R(t, "lock-to-horizon")),
+                (i.properties["translation-behavior"] = E(
                   t,
                   "translation-behavior"
                 ));
@@ -1593,7 +1593,7 @@
         );
       }
     }
-    class Re extends $ {
+    class Ee extends $ {
       constructor(e) {
         super(e);
       }
@@ -1605,7 +1605,7 @@
         );
       }
     }
-    function Ee() {
+    function Re() {
       var e, t;
       return null !=
         (t = null === (e = VRHTML) || void 0 === e ? void 0 : e.Environment())
@@ -2320,7 +2320,7 @@
         return Me;
       }),
       r.d(t, "L", function () {
-        return Re;
+        return Ee;
       }),
       r.d(t, "e", function () {
         return Qe;
@@ -2335,7 +2335,7 @@
         return he;
       }),
       r.d(t, "i", function () {
-        return Ee;
+        return Re;
       }),
       r.d(t, "r", function () {
         return pe;
@@ -3351,7 +3351,7 @@
       (D = Object(o.b)([m.a], D));
     const M = () =>
         c.createElement("div", { className: "AppButton Placeholder" }),
-      R = (e) => {
+      E = (e) => {
         var t;
         const r = !!e.loading,
           n = null != (t = e.apps) ? t : [];
@@ -3378,7 +3378,7 @@
           )
         );
       };
-    var E = r("Ibgz"),
+    var R = r("Ibgz"),
       T = r("vDqi"),
       I = r.n(T),
       P = r("uTck");
@@ -3394,7 +3394,7 @@
         d.a,
         {
           className: "ButtonControl WithIcon PanelTopRight",
-          onClick: () => E.b.Instance.openBigPictureStore(null, E.a.QuickStore),
+          onClick: () => R.b.Instance.openBigPictureStore(null, R.a.QuickStore),
         },
         c.createElement("span", null, Object(h.c)("#BrowseAll")),
         c.createElement("img", {
@@ -3421,7 +3421,7 @@
           L[t].toLowerCase() + ":" + r,
           "steam.app." + e
         ),
-          E.b.Instance.openBigPictureStore(e, E.a.QuickStore);
+          R.b.Instance.openBigPictureStore(e, R.a.QuickStore);
       }
       makeAppButtonList() {
         let e = [];
@@ -3448,8 +3448,8 @@
       }
       render() {
         return this.state.storeData
-          ? c.createElement(R, { apps: this.makeAppButtonList() })
-          : c.createElement(R, { loading: !0 });
+          ? c.createElement(E, { apps: this.makeAppButtonList() })
+          : c.createElement(E, { loading: !0 });
       }
     };
     B = Object(o.b)([m.a], B);
@@ -3486,7 +3486,7 @@
           {
             className: "ButtonControl WithIcon PanelTopRight",
             onClick: () =>
-              E.b.Instance.openBigPictureLibrary(null, E.a.QuickLaunch),
+              R.b.Instance.openBigPictureLibrary(null, R.a.QuickLaunch),
           },
           c.createElement("span", null, Object(h.c)("#BrowseAll")),
           c.createElement("img", {
@@ -3514,7 +3514,7 @@
           {
             className: "ButtonControl Colorful WelcomeInstall",
             onClick: () =>
-              E.b.Instance.openBigPictureLibrary(null, E.a.QuickLaunch),
+              R.b.Instance.openBigPictureLibrary(null, R.a.QuickLaunch),
           },
           c.createElement("span", null, Object(h.c)("#WelcomeInstall"))
         );
@@ -3546,9 +3546,9 @@
                     className:
                       "WelcomeFloatingApp WelcomeFloatingApp" + e.length,
                     onClick: () =>
-                      E.b.Instance.openBigPictureStore(
+                      R.b.Instance.openBigPictureStore(
                         n.appid,
-                        E.a.QuickLaunch
+                        R.a.QuickLaunch
                       ),
                   },
                   c.createElement("img", { src: n.logo })
@@ -3657,8 +3657,8 @@
             null,
             !n && c.createElement(F, null),
             c.createElement("h2", null, Object(h.c)("#RecentlyPlayed")),
-            c.createElement(R, { className: "TopRow", apps: r }),
-            c.createElement(R, { className: "BottomRow", apps: i })
+            c.createElement(E, { className: "TopRow", apps: r }),
+            c.createElement(E, { className: "BottomRow", apps: i })
           );
         }
         return c.createElement(
@@ -4024,11 +4024,11 @@
             (this.setState({ bKeyboardVisible: !1 }),
             this.isOverlayActive(u.H)))
         )
-          switch (E.b.Instance.lastBigPictureEntryPoint) {
-            case E.a.QuickLaunch:
+          switch (R.b.Instance.lastBigPictureEntryPoint) {
+            case R.a.QuickLaunch:
               this.m_bQuickLaunchShouldReturnToBigPicture = !0;
               break;
-            case E.a.QuickStore:
+            case R.a.QuickStore:
               this.m_bQuickStoreShouldReturnToBigPicture = !0;
           }
         if (t.bKeyboardVisible != this.state.bKeyboardVisible)
@@ -4284,7 +4284,7 @@
         var r, n, i;
         switch (e) {
           case u.H:
-            E.b.Instance.latchBigPictureEntryPoint();
+            R.b.Instance.latchBigPictureEntryPoint();
             break;
           case u.r:
             this.m_bQuickLaunchShouldReturnToBigPicture = !1;
@@ -4398,16 +4398,16 @@
       }
       onQuickLaunchButtonClick() {
         this.m_bQuickLaunchShouldReturnToBigPicture &&
-        E.b.Instance.lastBigPictureEntryPoint == E.a.QuickLaunch &&
+        R.b.Instance.lastBigPictureEntryPoint == R.a.QuickLaunch &&
         !this.isOverlayActive(u.H)
-          ? E.b.Instance.openBigPictureThroughLastEntryPoint()
+          ? R.b.Instance.openBigPictureThroughLastEntryPoint()
           : this.switchToOverlay(u.r);
       }
       onQuickStoreButtonClick() {
         this.m_bQuickStoreShouldReturnToBigPicture &&
-        E.b.Instance.lastBigPictureEntryPoint == E.a.QuickStore &&
+        R.b.Instance.lastBigPictureEntryPoint == R.a.QuickStore &&
         !this.isOverlayActive(u.H)
-          ? E.b.Instance.openBigPictureThroughLastEntryPoint()
+          ? R.b.Instance.openBigPictureThroughLastEntryPoint()
           : this.switchToOverlay(u.s);
       }
       getDashboardIconUri(e) {
@@ -4554,9 +4554,9 @@
         if (!i) return null;
         if (
           (i.summon_overlay_key == u.H &&
-            (E.b.Instance.lastBigPictureEntryPoint == E.a.QuickLaunch
+            (R.b.Instance.lastBigPictureEntryPoint == R.a.QuickLaunch
               ? (i = this.findDashboardTab(u.r))
-              : E.b.Instance.lastBigPictureEntryPoint == E.a.QuickStore &&
+              : R.b.Instance.lastBigPictureEntryPoint == R.a.QuickStore &&
                 (i = this.findDashboardTab(u.s))),
           i.summon_overlay_key == u.k)
         ) {
@@ -4587,10 +4587,15 @@
             iconUrl: this.getDashboardIconUri(i),
           });
         }
-        return c.createElement(g.n, {
-          name: i.tab_name,
-          iconUrl: this.getDashboardIconUri(i),
-        });
+        return i.summon_overlay_key == u.c
+          ? c.createElement(g.n, {
+              name: Object(h.c)("#BindingUI_WindowTitle_ControllerBinding"),
+              iconUrl: "/dashboard/images/icons/svr_settings.svg",
+            })
+          : c.createElement(g.n, {
+              name: i.tab_name,
+              iconUrl: this.getDashboardIconUri(i),
+            });
       }
       get isDarkMode() {
         return (
@@ -4783,7 +4788,7 @@
             null != (o = p.d.settings.get("/settings/dashboard/arcadeMode")) &&
             o
           ),
-          R = this.getPeerButtonInfo(),
+          E = this.getPeerButtonInfo(),
           T = VRHTML.BIsLinkStreamActive(),
           I = VRHTML.BIsLinkServer(),
           P = T || I,
@@ -4892,8 +4897,8 @@
                         active:
                           this.isOverlayActive(u.r) ||
                           (this.isOverlayActive(u.H) &&
-                            E.b.Instance.lastBigPictureEntryPoint ==
-                              E.a.QuickLaunch),
+                            R.b.Instance.lastBigPictureEntryPoint ==
+                              R.a.QuickLaunch),
                         style: g.d.Large,
                         onClick: this.onQuickLaunchButtonClick,
                       }),
@@ -4944,8 +4949,8 @@
                           active:
                             this.isOverlayActive(u.s) ||
                             (this.isOverlayActive(u.H) &&
-                              E.b.Instance.lastBigPictureEntryPoint ==
-                                E.a.QuickStore),
+                              R.b.Instance.lastBigPictureEntryPoint ==
+                                R.a.QuickStore),
                           style: g.d.Large,
                           onClick: this.onQuickStoreButtonClick,
                         })
@@ -5010,12 +5015,12 @@
                           onClick: () => this.switchToOverlay(u.D),
                         }),
                       P &&
-                        R &&
+                        E &&
                         c.createElement(g.l, {
-                          imageUrl: R.sIcon,
+                          imageUrl: E.sIcon,
                           active: !1,
                           enabled: !0,
-                          label: Object(h.c)(R.sButtonName),
+                          label: Object(h.c)(E.sButtonName),
                           style: g.d.Small,
                           centerPanelAnchorID: "VolumeButton",
                           onClick: () => this.handlePeerButton(),
@@ -5454,11 +5459,11 @@
             (r = p.d.settings.get("/settings/dashboard/theaterDistance"))
               ? r
               : 4,
-          R =
+          E =
             null != (n = p.d.settings.get("/settings/dashboard/theaterScale"))
               ? n
               : 2,
-          E =
+          R =
             null !=
             (i =
               0.01 *
@@ -5489,8 +5494,8 @@
           j = T ? 1 : 0;
         return (
           this.state.bTheaterMode
-            ? ((P = { y: -0.8 * R + E, z: -M }),
-              (x = R),
+            ? ((P = { y: -0.8 * E + R, z: -M }),
+              (x = E),
               (V = 1.72),
               (L = 0.82),
               (B = 10))
@@ -7366,10 +7371,10 @@
   YRJX: function (e, t, r) {
     "use strict";
     r.d(t, "t", function () {
-      return R;
+      return E;
     }),
       r.d(t, "s", function () {
-        return E;
+        return R;
       }),
       r.d(t, "r", function () {
         return T;
@@ -7450,8 +7455,8 @@
       w = r("aaBP"),
       D = r.n(w),
       M = r("nAcY");
-    const R = "DashboardPanelTopCenter",
-      E = "DashboardPanelBottomCenter",
+    const E = "DashboardPanelTopCenter",
+      R = "DashboardPanelBottomCenter",
       T = "DashboardControlStrip",
       I = (e) => {
         var t, r, n;
@@ -7489,7 +7494,7 @@
               reflect: 0.01,
               sampler: p.u.SingleTap,
             },
-            a.createElement(p.bb, { id: R, location: p.t.TopCenter }),
+            a.createElement(p.bb, { id: E, location: p.t.TopCenter }),
             a.createElement(
               k.a,
               { ref: i },
@@ -7501,7 +7506,7 @@
                 style: e.additionalStyle,
               })
             ),
-            a.createElement(p.bb, { id: E, location: p.t.BottomCenter })
+            a.createElement(p.bb, { id: R, location: p.t.BottomCenter })
           ),
           a.createElement(
             p.nb,
@@ -9247,4 +9252,4 @@
       Object(i.b)([s.bind], l.prototype, "OnDeviceEvent", null);
   },
 });
-//# sourceMappingURL=debugcommands.js.map?v=a498b055afe13bee8d91
+//# sourceMappingURL=debugcommands.js.map?v=6c08ae6cd55b7f648d3c

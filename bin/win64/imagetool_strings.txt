@@ -29,6 +29,7 @@
 	%	:	O	d	y	
 	.H!5
 	4fvm\_>?
+	5u2O
 	6X	b
 	9	=	=	X	a	
 	<	<	>	L	M	M	Q	T	b	c	
@@ -1417,6 +1418,7 @@
  4 2u/
  5,hC
  55555555555555555555555555555555555555555555555555555555555555555555555555555!"#$%&'()*+,-./01234
+ =GaL
  =c~!
  ?? ??? ???? ???? ????? ??? ????? ???????!
  A l 
@@ -2953,7 +2955,6 @@ $wtpt
 +vignette
 +virtual-pixel
 +visual
-+wPpE_#
 +watermark
 +wave
 +wavelet-denoise
@@ -3720,7 +3721,7 @@ $wtpt
 220323000000Z
 220329000000Z
 220609000000Z
-220617191457Z0/
+220623195725Z0/
 230x323
 2384x3370
 24 24
@@ -7339,7 +7340,6 @@ Dw i'n gallu bwyta gwydr, 'dyw e ddim yn gwneud dolur i mi.
 Dx,2$E
 Dynamic Range
 Dynamic Z Alpha Value
-Dy~Z~
 E (P&
 E A+E
 E H9X t
@@ -7858,7 +7858,6 @@ G03C0
 G0HcP
 G0Ic@
 G0TRSTH
-G4|&!$
 G5G{G
 G8,7u
 G8HcH4H
@@ -11756,6 +11755,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSn
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14306,6 +14306,7 @@ Zoom Select Status
 [ghostscript library %.2f]
 [ghostscript library %.2f]%s: %s
 [zero-configuration]
+\	gv_ 
 \ at end of pattern
 \$ +\$$
 \$ ATAVAWH
@@ -17747,6 +17748,7 @@ letter_spacing
 lettersmall
 level
 lf Boxk
+lfb af9GA
 lfp != NULL
 lfp.face=%S,wt=%ld,ht=%ld,size:%d
 libpng 
@@ -18005,6 +18007,7 @@ new_ref_count > 1
 news gothic
 next_para_index >= delimiter_index
 ng-chunk-
+ni'WNdl
 nick != NULL
 nkd&4
 nl$Xf
@@ -18207,6 +18210,7 @@ pA__]
 pA__^
 pCAL: invalid keyword
 pE2B1
+pEG5lo
 pEqt0
 pFWQb
 pHYg is not implemented.
@@ -21147,7 +21151,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~0LcI
 ~1fD;
 ~2D;A
-~3$J[
 ~3HcKH
 ~5fff
 ~>fff

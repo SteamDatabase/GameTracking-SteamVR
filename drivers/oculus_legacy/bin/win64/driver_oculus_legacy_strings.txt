@@ -1,4 +1,5 @@
 	!s99
+	y|"e
     A
  %41g
  (Camera)
@@ -8,7 +9,6 @@
 !hn7!
 ',=?k
 '7D`D0
-'n!%}
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -17,11 +17,11 @@
 (l$PD
 (t$pH
 )D$ H
-)SN6?
 )\$pD
 )d$`D
 )t$pu.H
 *9Z9N
++?*d=
 +Xt@(
 +o'q)}
 , last executing in 
@@ -95,7 +95,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220617192409Z0/
+220623200612Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -109,11 +109,11 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
-5R&4C
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
+6aHV<z
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -134,11 +134,12 @@
 =rIQU
 >0<0:
 >Mp$d
+>[~M0
+?7!oV(
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
-?voVe
 @.data
 @.reloc
 @.rsrc
@@ -197,6 +198,7 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
+Ey&(,
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
@@ -304,6 +306,7 @@ TlsSetValue
 UAVAWH
 USVWATAUH
 UWAVH
+Ue4w|
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -371,7 +374,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`kR2g
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll

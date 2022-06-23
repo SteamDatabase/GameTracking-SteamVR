@@ -13,6 +13,7 @@
  A__^
  H3E H3E
  for detail.
+ formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
@@ -159,13 +160,12 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220617191952Z0/
+220623200236Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2uu4+
 2xJK7*L
 311109235959Z0b1
 330314235959Z0L1
@@ -183,11 +183,13 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+;*A_|
 < t+<
 </u#H
 <0:08
 <unknown>
 =rIQU
+>$W*x
 >0<0:
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -225,6 +227,7 @@
 ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
@@ -263,6 +266,7 @@
 @UAUAWH
 @USVATAVH
 @USVWATAVAWH
+@USVWATH
 @USVWAVH
 @USVWH
 @UVATAUAVH
@@ -273,6 +277,7 @@
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
+A\_^[]
 A^A\^
 A^A\^[]
 A^A]A\^]
@@ -306,6 +311,7 @@ CD$0H
 CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
+CL$`H;
 CT$ H
 CT$(L
 CT$8D
@@ -313,6 +319,8 @@ CT$pH
 C\$0H
 C\$0L
 C\$0M
+C\$@H
+C\$@M
 C\$PL
 C\$pH
 CloseHandle
@@ -347,8 +355,9 @@ D$PM;
 D$`H;
 D$`I;
 D$`fI
-D$hL;
 D$pE3
+D$pL;
+D$xH;
 D3D11CreateDevice
 D3D11CreateDevice failed.
 D8fht/H
@@ -380,6 +389,7 @@ DwmGetWindowAttribute
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
+Encountered error 
 EnterCriticalSection
 EnumWindows
 Error enumerating HMD adapter.
@@ -527,8 +537,9 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
-K=M&;'0?l
 KERNEL32.dll
+Kr|[wZ"
+KwYo/
 K}*n:	
 L$ E3
 L$ H;
@@ -572,6 +583,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
+OAk:#
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -589,7 +601,6 @@ QueryPerformanceFrequency
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
-RkVh5
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -694,10 +705,8 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
-\g.b\
 \u=H;
 ]J<0"0i3
-]b|\:4)
 ]g@8yhu
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -769,6 +778,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
 d$`H=
+d$`L;
 d$`M;
 d3d11.dll
 da_da
@@ -776,7 +786,6 @@ danish
 de_de
 deque<T> too long
 desktopview
-du=Zc
 dwmapi.dll
 dxgi.dll
 e,>~^
@@ -817,6 +826,7 @@ in Json::Value::operator[](int index) const: index cannot be negative
 in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
+invalid string position
 it_it
 italian
 ja_jp
@@ -859,6 +869,7 @@ portuguese
 pt_br
 pt_pt
 r,fff
+rS#N)
 request_handlers
 request_handlers_response
 returnAddress
@@ -867,6 +878,7 @@ romanian
 ru_ru
 russian
 schinese
+sf+1w
 shcore.dll
 shutdown
 spanish
@@ -945,6 +957,7 @@ zh_tw
 |$HH=
 |$PL9~
 |$hH9>ueH
+|$pH+
 |@N3>
 |Lu?c
 }LuHO

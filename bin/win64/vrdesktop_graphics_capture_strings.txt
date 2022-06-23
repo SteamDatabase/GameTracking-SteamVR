@@ -13,11 +13,11 @@
  A__^
  H3E H3E
  for detail.
+ formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
 %s%s%s%s%s
-&U	C0
 ' is not a number.
 ',=?k
 '7D`D0
@@ -176,7 +176,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220617192022Z0/
+220623200246Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -201,7 +201,6 @@
 8_^][
 9D$xu
 9D$|toH
-;p'ZE
 < t+<
 </u#H
 <0:08
@@ -285,6 +284,7 @@
 @UAUAWH
 @USVATAVH
 @USVWATAVAWH
+@USVWATH
 @USVWAVH
 @USVWH
 @UVATAUAVH
@@ -295,6 +295,7 @@
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
+A\_^[]
 A^A\^
 A^A\^[]
 A^A]A\^]
@@ -321,6 +322,7 @@ AjEB#AZ
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
+B/mHJQy
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -334,6 +336,7 @@ CD$hH
 CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
+CL$`H;
 CT$ H
 CT$(L
 CT$0H
@@ -346,6 +349,8 @@ C\$(3
 C\$0H
 C\$0L
 C\$0M
+C\$@H
+C\$@M
 C\$PL
 C\$pH
 Close Frame
@@ -388,8 +393,9 @@ D$`E3
 D$`H;
 D$`I;
 D$`fI
-D$hL;
 D$pE3
+D$pL;
+D$xH;
 D3D11CreateDevice
 D3D11CreateDevice failed.
 D8fht/H
@@ -422,6 +428,7 @@ DwmGetWindowAttribute
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
+Encountered error 
 EnterCriticalSection
 EnumWindows
 Error attaching thread input.
@@ -552,7 +559,6 @@ I9Bhs
 I;4$H
 I;4$L
 I;8u?H
-I?C+U
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -631,7 +637,6 @@ LocalizationManager
 M H1E
 M98u/
 MB(iVR
-ME9&p
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
@@ -658,6 +663,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSC
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -719,6 +725,7 @@ TlsGetValue
 TlsSetValue
 TryGetNextFrame
 UATAUAVAWH
+UOz[*$
 USER32.dll
 USVATAUAWH
 USVWATAUAVAWH
@@ -799,6 +806,7 @@ Y9"SD
 \$hI;
 \$pI;
 \u=H;
+]J!Q\
 ]J<0"0i3
 ]g@8yhu
 _Cnd_destroy
@@ -889,6 +897,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
 d$`H=
+d$`L;
 d$`M;
 d3d11.dll
 da_da
@@ -942,6 +951,7 @@ in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 input_frame_time
 invalid stoull argument
+invalid string position
 iswspace
 it_it
 italian
@@ -970,7 +980,6 @@ memcpy
 memmove
 memset
 message_id
-nK$l{
 no_no
 norwegian
 ntelD
@@ -1088,6 +1097,7 @@ zh_tw
 |$HH=
 |$PL9~
 |$hH9>ueH
+|$pH+
 |@N3>
 |Lu?c
 }LuHO

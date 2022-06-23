@@ -8,7 +8,6 @@
 +Xt@(
 +o'q)}
 ,W5y+
--/HTb
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -85,7 +84,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220617191706Z0/
+220623195930Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -196,10 +195,10 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSw
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
+St8H/M
 TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
@@ -213,7 +212,6 @@ Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
-^#m?,G
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -242,7 +240,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`10F~7
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -261,6 +258,7 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+du/hg
 e,>~^
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C

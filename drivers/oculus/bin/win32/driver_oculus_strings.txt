@@ -24,7 +24,6 @@
 	!s99
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
-	ZsCx) 
 	w=%d, h=%d, format=%d
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*
  %41g
@@ -36,7 +35,6 @@
  (libfound)
  (noexist)
  ;y8|
- L)uY
  at line 
  in Buffer
  in `
@@ -418,6 +416,7 @@ $9^ t
 1M9Q9
 1Q1a1
 1R1W2b2
+1R`-p
 1[2x2/3d3
 1d1z1
 1d2h2l2p2t2x2|2
@@ -454,7 +453,7 @@ $9^ t
 220323000000Z
 220329000000Z
 220609000000Z
-220617191714Z0/
+220623195938Z0/
 223w3
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -1279,7 +1278,6 @@ File write error:
 Forcing chaperone update
 Found path: 
 FreeLibrary
-G7qrF
 GH+G@
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
@@ -1309,6 +1307,7 @@ HeapFree
 Hmd not found.
 HmdDriverFactory
 ID3D11DeviceContext4::Signal
+IR<7=2
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
@@ -1587,7 +1586,6 @@ Y__^[
 _,9_0t-
 _0_[]
 _0_^]
-_17;sd
 _CIacos
 _CIfmod
 _CIpow
@@ -1777,7 +1775,6 @@ c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
-cHs11}o
 camera
 cameras
 can't merge dc and ac
@@ -1852,6 +1849,7 @@ french
 fseek
 fsetpos
 fwrite
+g])tu*
 generator
 german
 gfff+
@@ -1980,8 +1978,8 @@ left_controller
 lights
 list<T> too long
 localeconv
-l~uNr5
 m0k0$
+m3G-=
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox

@@ -1,8 +1,9 @@
 	!s99
  %41g
  (Camera)
+ Y"? 
 !hn7!
-$g)|W
+$xVmg	
 ',=?k
 '7D`D0
 (Unable to load LibOVR)
@@ -95,7 +96,7 @@ $g)|W
 220323000000Z
 220329000000Z
 220609000000Z
-220617191713Z0/
+220623195938Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -135,7 +136,6 @@ $g)|W
 5K6k6x6
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5xdVF
 6)6b6
 6*f(_
 6+7H7`7n7
@@ -300,7 +300,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-QyM\"
 RPCRT4.dll
 RaiseException
 S0Q0O
@@ -313,6 +312,7 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
+Sukgt
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -350,6 +350,7 @@ Y__^[
 [OculusDirect] ovr_SubmitFrame - End
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
+^|I;<
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -393,6 +394,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b;]ncVl
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
@@ -466,7 +468,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-q#_aJ
 startup
 string too long
 strncpy
@@ -481,6 +482,9 @@ vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
+y_|Ka
+zWE^e
+zde\=
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -492,6 +496,7 @@ x]~\6
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |@N3>
+|Kvn/
 |Lu?c
 }LuHO
 ~t&LN

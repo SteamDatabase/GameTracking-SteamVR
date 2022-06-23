@@ -1,6 +1,5 @@
 																																																																																																																
 	!s99
-	*# S 
 	0=0^0l0t0~0
 	0g0u0|0
  %41g
@@ -14,7 +13,6 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
-'"j]_
 ',=?k
 '.5<=6/7>????????????????
 '7D`D0
@@ -29,6 +27,7 @@ $9^ t
 (f*^[0
 *9Z9N
 +Xt@(
++an		
 +o'q)}
 , last executing in 
 ,020@0L0
@@ -168,7 +167,7 @@ $9^ t
 220323000000Z
 220329000000Z
 220609000000Z
-220617191645Z0/
+220623195903Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -209,6 +208,7 @@ $9^ t
 4B7F7U7Y7h7l7
 4`:d:q:u:
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4vn0X=tj)0
 5	7+7
 5 5$5
 5!5M5c5k5
@@ -378,7 +378,6 @@ AitUVCExtApi.dll
 AjEB#AZ
 BMP RLE
 Bellevue1
-B{Z4@l
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
 Camera Recovery Mode Required
@@ -477,8 +476,10 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+MtQad/c
 Not Available
 NotFound
+Nws>_
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -494,7 +495,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS1`
+RSDS[
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -724,7 +725,6 @@ fr_fr
 fread
 french
 fseek
-g0F|H
 german
 greek
 http://ocsp.digicert.com0A
@@ -741,7 +741,6 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
-j]e$>
 ja_jp
 japanese
 jj@0HK4
