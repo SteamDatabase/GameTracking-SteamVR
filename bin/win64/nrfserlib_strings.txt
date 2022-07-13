@@ -28,6 +28,7 @@
  A_^[
  A__^
  H3E H3E
+ `V|C
  aborted.
  ack#:
  but should be in STATE_START. This state is not valid.
@@ -66,6 +67,7 @@
  times.
  version-number:
 !hn7!
+#5("Z~%
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -634,7 +636,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220623200122Z0/
+220713222314Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -696,6 +698,7 @@
 =rIQU
 >0<0:
 >Mp$d
+?2O-3
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -1175,6 +1178,7 @@ DuplicateHandle
 E M;G
 E9e ~7I
 E@HcH
+EO*dn
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1275,6 +1279,7 @@ H+SpI
 H+WpA
 H+WpH
 H+WpI
+H32>~
 H90t#H
 H9Ahs
 H9C s(H
@@ -1303,7 +1308,6 @@ HcFHE2
 HcMxI
 HeapAlloc
 HeapFree
-HxC&/
 I9Bhs
 I9U t
 I9]8ta
@@ -1518,6 +1522,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSj+[
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1552,7 +1557,6 @@ Restart:  %s
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-Ru>i_
 S0Q0O
 SA|X=G
 SD RPC APP Status: %s, %s
@@ -1732,7 +1736,6 @@ Write to BS2 Power Control Point. %d.
 Write to Power Control Point.
 Write to SOB Channel.
 WriteFile
-X$qiA
 XA]A\_^
 XA^A]_[H
 XA^_][H
@@ -1907,7 +1910,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iW([;J
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -2179,6 +2181,7 @@ xA^A]_[
 xAtAL
 x]~\6
 xdigit
+{U5#El
 {un'%
 {x\u!H
 {|?uWH

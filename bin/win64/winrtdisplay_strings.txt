@@ -6,6 +6,7 @@
  A_^]
  A__^
  H3E H3E
+ Nnw?
 !hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
@@ -119,13 +120,14 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220623195725Z0/
+220713221903Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+3(;wK
 311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
@@ -204,6 +206,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
+EX1Zo
 EnterCriticalSection
 FormatMessageW
 GetCurrentProcessId
@@ -238,7 +241,6 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-KE=?A
 KERNEL32.dll
 K}*n:	
 L$ SH
@@ -262,7 +264,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS6
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -278,6 +279,7 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+UPg}:
 UVAWH
 UWAVH
 UnhandledExceptionFilter
@@ -368,12 +370,14 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
 e,>~^
+en,`ei
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 iswspace
+j'xJa,.
 jj@0HK4
 k0i0$
 l$ WH
@@ -383,7 +387,6 @@ malloc
 memcpy
 memmove
 memset
-nW)ya
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()

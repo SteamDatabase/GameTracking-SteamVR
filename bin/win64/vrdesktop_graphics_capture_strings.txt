@@ -176,7 +176,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220623200246Z0/
+220713222801Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -188,6 +188,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3OqgB
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -196,6 +197,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7xKZJ
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -322,7 +324,6 @@ AjEB#AZ
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
-B/mHJQy
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -663,7 +664,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSC
+RSDSt
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -725,7 +726,6 @@ TlsGetValue
 TlsSetValue
 TryGetNextFrame
 UATAUAVAWH
-UOz[*$
 USER32.dll
 USVATAUAWH
 USVWATAUAVAWH
@@ -806,7 +806,6 @@ Y9"SD
 \$hI;
 \$pI;
 \u=H;
-]J!Q\
 ]J<0"0i3
 ]g@8yhu
 _Cnd_destroy
@@ -1036,6 +1035,7 @@ t$ WH
 t$0H;
 t$@H=
 t$PH=
+t-]HF
 t:I;>t
 tXfff
 tchinese

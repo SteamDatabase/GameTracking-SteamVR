@@ -29,7 +29,6 @@
 	%	:	O	d	y	
 	.H!5
 	4fvm\_>?
-	5u2O
 	6X	b
 	9	=	=	X	a	
 	<	<	>	L	M	M	Q	T	b	c	
@@ -1418,7 +1417,6 @@
  4 2u/
  5,hC
  55555555555555555555555555555555555555555555555555555555555555555555555555555!"#$%&'()*+,-./01234
- =GaL
  =c~!
  ?? ??? ???? ???? ????? ??? ????? ???????!
  A l 
@@ -3721,7 +3719,7 @@ $wtpt
 220323000000Z
 220329000000Z
 220609000000Z
-220623195725Z0/
+220713221920Z0/
 230x323
 2384x3370
 24 24
@@ -3746,6 +3744,7 @@ $wtpt
 2H;C(H
 2H;G(L
 2I`Jb"cH
+2`6%Cwx
 2aKCx
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
@@ -11755,7 +11754,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSn
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -13144,6 +13142,7 @@ TIBsH
 TIBsu
 TID Offset
 TITLE 
+TJZY]
 TLPsD
 TLPsu
 TM-Line Position X0
@@ -13748,6 +13747,7 @@ VUUUUUUU
 VUUUUUUU3
 VUUUUUUUH
 VUUUUUUUI
+VUm(-
 VWATAUAVAWH
 VWATAUAVAWfE
 VWATAUAVH
@@ -14306,7 +14306,6 @@ Zoom Select Status
 [ghostscript library %.2f]
 [ghostscript library %.2f]%s: %s
 [zero-configuration]
-\	gv_ 
 \ at end of pattern
 \$ +\$$
 \$ ATAVAWH
@@ -16232,6 +16231,7 @@ f0O94
 f3ff33f3
 f9KpuE
 f9t$4
+f=`\\C
 f@)rM
 fA	G(L
 fA9O2fA
@@ -17748,7 +17748,6 @@ letter_spacing
 lettersmall
 level
 lf Boxk
-lfb af9GA
 lfp != NULL
 lfp.face=%S,wt=%ld,ht=%ld,size:%d
 libpng 
@@ -18007,7 +18006,6 @@ new_ref_count > 1
 news gothic
 next_para_index >= delimiter_index
 ng-chunk-
-ni'WNdl
 nick != NULL
 nkd&4
 nl$Xf
@@ -18210,7 +18208,6 @@ pA__]
 pA__^
 pCAL: invalid keyword
 pE2B1
-pEG5lo
 pEqt0
 pFWQb
 pHYg is not implemented.
@@ -19558,6 +19555,7 @@ times
 times new roman
 tirhuta
 title
+tj/w{
 tjHcD$XL
 tkHcO(H
 tkHcP
@@ -19890,6 +19888,7 @@ utf9^
 uwA:Q
 uzf9^
 uzrg#
+u{d%$
 u}A:Q
 v&fD;
 v(fff

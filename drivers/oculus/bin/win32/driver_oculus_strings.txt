@@ -416,7 +416,6 @@ $9^ t
 1M9Q9
 1Q1a1
 1R1W2b2
-1R`-p
 1[2x2/3d3
 1d1z1
 1d2h2l2p2t2x2|2
@@ -453,7 +452,7 @@ $9^ t
 220323000000Z
 220329000000Z
 220609000000Z
-220623195938Z0/
+220713222319Z0/
 223w3
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -679,6 +678,7 @@ $9^ t
 6PjMjBhDH
 6R7a7
 6^6f6!7
+6dc|)%
 6v7t9
 7	8x8
 7 7$7(7,70747
@@ -1307,7 +1307,6 @@ HeapFree
 Hmd not found.
 HmdDriverFactory
 ID3D11DeviceContext4::Signal
-IR<7=2
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
@@ -1380,6 +1379,7 @@ J0+J(
 J>@G_
 JSON string too short.
 JSONuTS
+K"~?R
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1528,6 +1528,7 @@ Unknown(%u, %u)
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
+V:9E	7
 V<_^]
 VCRUNTIME140.dll
 VRInitError_VendorSpecific_OculusRuntimeBadInstall 
@@ -1849,7 +1850,6 @@ french
 fseek
 fsetpos
 fwrite
-g])tu*
 generator
 german
 gfff+
@@ -1979,7 +1979,6 @@ lights
 list<T> too long
 localeconv
 m0k0$
-m3G-=
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -2362,6 +2361,7 @@ t	_^2
 t$,RW
 t$j$h`'
 t?hT)
+tKe	=
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -2452,6 +2452,7 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
+{e:/"
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

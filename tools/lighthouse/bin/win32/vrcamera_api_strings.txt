@@ -22,6 +22,7 @@
  sCWj
  t\9]
 !hn7!
+"lx5{
 #9Npt
 #>B>J>
 $0,040<0P0X0`0h0p0|0
@@ -54,6 +55,7 @@ $_^[]
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,0I0\0
 ,W5y+
+-n,%*#
 .00cfg
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
@@ -433,7 +435,7 @@ $_^[]
 220323000000Z
 220329000000Z
 220609000000Z
-220623195656Z0/
+220713221814Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -456,7 +458,6 @@ $_^[]
 2K5g5
 2O3w3
 2Q2l275
-2QzIZ%
 2\4k4
 2b2v2
 2b6v6
@@ -1435,6 +1436,7 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JPd3N
 K _^[
 K$t"j
 K@;O@uc
@@ -1452,6 +1454,7 @@ LocalContextCacheSize
 Lock already taken
 M SVW
 M$+E4@Pj
+M%{`4
 MB(iVR
 MJPEG color format is not yet implemented.
 MaxConcurrency
@@ -1492,7 +1495,9 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
+RSDSS
 RWQSV
+RYj	l
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1598,8 +1603,8 @@ Y__^[
 [SPj"
 [tc9]
 \SVW3
+]<&68
 ]J<0"0i3
-]eNtzP
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1662,7 +1667,6 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
-`Q#Vc4
 abort
 address family not supported
 address in use
@@ -1760,6 +1764,7 @@ j@j0P
 jj@0HK4
 k0i0$
 kK04k
+kSe,D
 kW$4k_(4
 ldexp
 localeconv

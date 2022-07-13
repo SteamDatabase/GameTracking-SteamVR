@@ -31,6 +31,7 @@
 	#jT$
 	%	:	O	d
 	%	:	O	d	y	
+	-_GM
 	.H!5
 	000W0~0
 	0C0h0
@@ -1552,6 +1553,7 @@
 !V?+QV?Z
 !VuCh
 !W,m]
+!WtSc
 ![CDATA[
 !container_class || info->container_class == container_class
 !context->awaiting_pop
@@ -2835,7 +2837,6 @@ $~O="""
 -0`0m0
 -1.0*
 -2%tC
--95mb
 -9?1\9?r
 -<%uE
 -<qeY@c
@@ -3258,7 +3259,6 @@ $~O="""
 .IEC 61966-2.1 Default RGB colour space - sRGB
 .Too many IDATs found
 .W,`]
-._qC/
 .b(9["
 .data
 .data$r
@@ -3795,7 +3795,6 @@ $~O="""
 0x1}1
 0|<O"j
 0}0i1
-1	)c0"d>
 1	2*2A2K2O2T2y2
 1	2:2
 1	2@2E2O2^2z2
@@ -4326,7 +4325,7 @@ $~O="""
 220323000000Z
 220329000000Z
 220609000000Z
-220623195707Z0/
+220713221916Z0/
 22272A2Y2d2
 22282E2
 222A2F2
@@ -5160,7 +5159,6 @@ $~O="""
 4>4g4w4
 4>5C5R5W5
 4>5C5x5
-4>TF,
 4?324?ca4?
 4?4D4P4U4
 4?4P4]4
@@ -6515,7 +6513,6 @@ $~O="""
 8av/&J
 8bim:
 8d$(u
-8d*}G!
 8e8m8
 8f;9u
 8g9|9
@@ -13189,6 +13186,7 @@ H|p@j
 I koh Glos esa, und es duard ma ned wei.
 I suggest the following: try compressing the file again,
 I'?Fx'?v
+I'Q:]
 I.S(ja
 I0N0s0x0
 I1S1X1
@@ -18695,7 +18693,9 @@ Zoom Select Status
 [fa=3HC/
 [ghostscript library %.2f]
 [ghostscript library %.2f]%s: %s
+[vFw5
 [zero-configuration]
+[}\JM
 \ at end of pattern
 \$ 9^
 \$ 9^Xu
@@ -20051,6 +20051,7 @@ d$Hr7
 d$`u|W
 d&7F$L
 d(H\Ns
+d/L`?
 d0h0l0p0t0x0|0
 d0x0v8
 d9h9l9t9x9|9
@@ -20238,6 +20239,7 @@ e, na st?pe sa ?ate? u?
 e,>~^
 e-1.0*
 e0(1Q1V1e1j1
+e6n{0
 eC}gc}m
 ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
 eXC	\
@@ -20711,7 +20713,6 @@ fatal-criticals
 fatal-warnings
 fclose
 fclose()
-fcs~u
 fd != NULL
 features != NULL
 ferror
@@ -21573,6 +21574,7 @@ hYARGW
 hZYXbV
 hZYXgV
 hZYXrV
+h[1'L3Yc*
 halfletter
 handler->closure == closure
 handler->ref_count > 0
@@ -25046,7 +25048,6 @@ wrp==rdp, !running
 wsbdp
 www.digicert.com1!0
 www.digicert.com1$0"
-w{`rxn
 w|9)t	
 x	;Ut}
 x ;^p
@@ -26185,7 +26186,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~L$Hf
 ~L$df
 ~P9~Pu)
-~Pf\]
 ~T$@f
 ~TYts
 ~V=p 

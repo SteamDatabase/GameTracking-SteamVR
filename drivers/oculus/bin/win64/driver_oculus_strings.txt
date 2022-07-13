@@ -209,7 +209,6 @@ $w!Hc
 *9Z9N
 *uXI;
 +Xt@(
-+g}znz
 +o'q)}
 , binary size = 
 , but got 
@@ -461,7 +460,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220609000000Z
-220623200221Z0/
+220713222816Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -495,7 +494,6 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9#)&rI
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -521,9 +519,11 @@ $w!Hc
 <parse error>
 <uninitialized>
 <unknown>
+=#%YL{F
 =7p7M}
 =ETLP
 =IBgC
+=L bXx
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
@@ -801,6 +801,7 @@ C\$PM
 C\$pH
 C\$pL
 Camera
+Cd;mp
 CertGetNameStringW
 Chaperone updated with universe ID %d
 CloseHandle
@@ -1279,7 +1280,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS6
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1427,6 +1427,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
+Vxn"0
 W-xO	
 WATAUAVAWH
 WAVAWH
@@ -1786,6 +1787,7 @@ french
 fseek
 fsetpos
 fwrite
+g/U]QOd
 g9k0t_D
 generator
 german
@@ -2437,7 +2439,6 @@ vE;E`M
 vHcD$LH
 value
 values
-vdAw+
 vector<T> too long
 vector<bool> too long
 version
@@ -2464,6 +2465,7 @@ wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
 x AVH
+x(>ak
 xA^A\_^][
 x]~\6
 yxxxxxxxH

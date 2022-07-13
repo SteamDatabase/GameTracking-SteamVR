@@ -4187,8 +4187,8 @@
  putc
  putwc
  qsort
- r C.1147.341019
- r C.1150.341030
+ r C.1147.341029
+ r C.1150.341040
  r C.427.288574
  r CSWTCH.101
  r CSWTCH.217
@@ -17050,6 +17050,8 @@
  t CVROverlayLatest::GetOverlayMouseScale(unsigned long long, vr::HmdVector2_t*) [clone .cold]
  t CVROverlayLatest::GetOverlayName(unsigned long long, char*, unsigned int, vr::EVROverlayError*)
  t CVROverlayLatest::GetOverlayName(unsigned long long, char*, unsigned int, vr::EVROverlayError*) [clone .cold]
+ t CVROverlayLatest::GetOverlayPreCurvePitch(unsigned long long, float*)
+ t CVROverlayLatest::GetOverlayPreCurvePitch(unsigned long long, float*) [clone .cold]
  t CVROverlayLatest::GetOverlayRenderingPid(unsigned long long)
  t CVROverlayLatest::GetOverlayRenderingPid(unsigned long long) [clone .cold]
  t CVROverlayLatest::GetOverlaySortOrder(unsigned long long, unsigned int*)
@@ -17128,6 +17130,8 @@
  t CVROverlayLatest::SetOverlayMouseScale(unsigned long long, vr::HmdVector2_t const*) [clone .cold]
  t CVROverlayLatest::SetOverlayName(unsigned long long, char const*)
  t CVROverlayLatest::SetOverlayName(unsigned long long, char const*) [clone .cold]
+ t CVROverlayLatest::SetOverlayPreCurvePitch(unsigned long long, float)
+ t CVROverlayLatest::SetOverlayPreCurvePitch(unsigned long long, float) [clone .cold]
  t CVROverlayLatest::SetOverlayRaw(unsigned long long, void*, unsigned int, unsigned int, unsigned int)
  t CVROverlayLatest::SetOverlayRaw(unsigned long long, void*, unsigned int, unsigned int, unsigned int) [clone .cold]
  t CVROverlayLatest::SetOverlayRenderingPid(unsigned long long, unsigned int)
@@ -20786,6 +20790,7 @@
  t HmdMatrix_Invert(vr::HmdMatrix34_t const&, bool*)
  t HmdMatrix_Invert(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t*)
  t HmdMatrix_InvertTR(vr::HmdMatrix34_t const&)
+ t HmdMatrix_Multiply(vr::HmdMatrix34_t const&, vr::HmdMatrix34_t const&)
  t HmdMatrix_Multiply(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t const&)
  t HmdVector2FromJson(Json::Value const&, vr::HmdVector2_t&)
  t HmdVector2ToJson(vr::HmdVector2_t const&)
@@ -24857,6 +24862,7 @@
  t VR_IVROverlay_FnTable_GetOverlayKey(unsigned long long, char*, unsigned int, EVROverlayError*)
  t VR_IVROverlay_FnTable_GetOverlayMouseScale(unsigned long long, HmdVector2_t*)
  t VR_IVROverlay_FnTable_GetOverlayName(unsigned long long, char*, unsigned int, EVROverlayError*)
+ t VR_IVROverlay_FnTable_GetOverlayPreCurvePitch(unsigned long long, float*)
  t VR_IVROverlay_FnTable_GetOverlayRenderingPid(unsigned long long)
  t VR_IVROverlay_FnTable_GetOverlaySortOrder(unsigned long long, unsigned int*)
  t VR_IVROverlay_FnTable_GetOverlayTexelAspect(unsigned long long, float*)
@@ -24897,6 +24903,7 @@
  t VR_IVROverlay_FnTable_SetOverlayIntersectionMask(unsigned long long, VROverlayIntersectionMaskPrimitive_t*, unsigned int, unsigned int)
  t VR_IVROverlay_FnTable_SetOverlayMouseScale(unsigned long long, HmdVector2_t*)
  t VR_IVROverlay_FnTable_SetOverlayName(unsigned long long, char*)
+ t VR_IVROverlay_FnTable_SetOverlayPreCurvePitch(unsigned long long, float)
  t VR_IVROverlay_FnTable_SetOverlayRaw(unsigned long long, void*, unsigned int, unsigned int, unsigned int)
  t VR_IVROverlay_FnTable_SetOverlayRenderingPid(unsigned long long, unsigned int)
  t VR_IVROverlay_FnTable_SetOverlaySortOrder(unsigned long long, unsigned int)

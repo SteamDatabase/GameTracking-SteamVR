@@ -3075,7 +3075,6 @@ $0}
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-19:55:27
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -3140,6 +3139,7 @@ $0}
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:17:20
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3864,8 +3864,8 @@ C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DescriptorPool::Tables]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1147.341019
-C.1150.341030
+C.1147.341029
+C.1150.341040
 C.427.288574
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -14669,6 +14669,8 @@ CVROverlayLatest::GetOverlayMouseScale(unsigned long long, vr::HmdVector2_t*)
 CVROverlayLatest::GetOverlayMouseScale(unsigned long long, vr::HmdVector2_t*) [clone .cold]
 CVROverlayLatest::GetOverlayName(unsigned long long, char*, unsigned int, vr::EVROverlayError*)
 CVROverlayLatest::GetOverlayName(unsigned long long, char*, unsigned int, vr::EVROverlayError*) [clone .cold]
+CVROverlayLatest::GetOverlayPreCurvePitch(unsigned long long, float*)
+CVROverlayLatest::GetOverlayPreCurvePitch(unsigned long long, float*) [clone .cold]
 CVROverlayLatest::GetOverlayRenderingPid(unsigned long long)
 CVROverlayLatest::GetOverlayRenderingPid(unsigned long long) [clone .cold]
 CVROverlayLatest::GetOverlaySortOrder(unsigned long long, unsigned int*)
@@ -14747,6 +14749,8 @@ CVROverlayLatest::SetOverlayMouseScale(unsigned long long, vr::HmdVector2_t cons
 CVROverlayLatest::SetOverlayMouseScale(unsigned long long, vr::HmdVector2_t const*) [clone .cold]
 CVROverlayLatest::SetOverlayName(unsigned long long, char const*)
 CVROverlayLatest::SetOverlayName(unsigned long long, char const*) [clone .cold]
+CVROverlayLatest::SetOverlayPreCurvePitch(unsigned long long, float)
+CVROverlayLatest::SetOverlayPreCurvePitch(unsigned long long, float) [clone .cold]
 CVROverlayLatest::SetOverlayRaw(unsigned long long, void*, unsigned int, unsigned int, unsigned int)
 CVROverlayLatest::SetOverlayRaw(unsigned long long, void*, unsigned int, unsigned int, unsigned int) [clone .cold]
 CVROverlayLatest::SetOverlayRenderingPid(unsigned long long, unsigned int)
@@ -19162,6 +19166,7 @@ HmdMatrix_GetRotationEuler(vr::HmdMatrix34_t const&)
 HmdMatrix_Invert(vr::HmdMatrix34_t const&, bool*)
 HmdMatrix_Invert(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t*)
 HmdMatrix_InvertTR(vr::HmdMatrix34_t const&)
+HmdMatrix_Multiply(vr::HmdMatrix34_t const&, vr::HmdMatrix34_t const&)
 HmdMatrix_Multiply(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t const&)
 HmdSystemFactory
 HmdVector2FromJson(Json::Value const&, vr::HmdVector2_t&)
@@ -22866,9 +22871,9 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
 Jul
+Jul 13 2022
 July
 Jun
-Jun 23 2022
 June
 K
 KHR_lights_punctual
@@ -25712,6 +25717,7 @@ VR_IVROverlay_FnTable_GetOverlayInputMethod(unsigned long long, VROverlayInputMe
 VR_IVROverlay_FnTable_GetOverlayKey(unsigned long long, char*, unsigned int, EVROverlayError*)
 VR_IVROverlay_FnTable_GetOverlayMouseScale(unsigned long long, HmdVector2_t*)
 VR_IVROverlay_FnTable_GetOverlayName(unsigned long long, char*, unsigned int, EVROverlayError*)
+VR_IVROverlay_FnTable_GetOverlayPreCurvePitch(unsigned long long, float*)
 VR_IVROverlay_FnTable_GetOverlayRenderingPid(unsigned long long)
 VR_IVROverlay_FnTable_GetOverlaySortOrder(unsigned long long, unsigned int*)
 VR_IVROverlay_FnTable_GetOverlayTexelAspect(unsigned long long, float*)
@@ -25752,6 +25758,7 @@ VR_IVROverlay_FnTable_SetOverlayInputMethod(unsigned long long, VROverlayInputMe
 VR_IVROverlay_FnTable_SetOverlayIntersectionMask(unsigned long long, VROverlayIntersectionMaskPrimitive_t*, unsigned int, unsigned int)
 VR_IVROverlay_FnTable_SetOverlayMouseScale(unsigned long long, HmdVector2_t*)
 VR_IVROverlay_FnTable_SetOverlayName(unsigned long long, char*)
+VR_IVROverlay_FnTable_SetOverlayPreCurvePitch(unsigned long long, float)
 VR_IVROverlay_FnTable_SetOverlayRaw(unsigned long long, void*, unsigned int, unsigned int, unsigned int)
 VR_IVROverlay_FnTable_SetOverlayRenderingPid(unsigned long long, unsigned int)
 VR_IVROverlay_FnTable_SetOverlaySortOrder(unsigned long long, unsigned int)

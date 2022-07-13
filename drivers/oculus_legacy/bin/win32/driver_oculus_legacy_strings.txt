@@ -1,9 +1,7 @@
 	!s99
  %41g
  (Camera)
- Y"? 
 !hn7!
-$xVmg	
 ',=?k
 '7D`D0
 (Unable to load LibOVR)
@@ -96,7 +94,7 @@ $xVmg
 220323000000Z
 220329000000Z
 220609000000Z
-220623195938Z0/
+220713222301Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -308,11 +306,11 @@ SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
+SL9F&
 SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-Sukgt
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -350,7 +348,6 @@ Y__^[
 [OculusDirect] ovr_SubmitFrame - End
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
-^|I;<
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -394,11 +391,11 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-b;]ncVl
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
+cc#Zn
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
@@ -415,6 +412,7 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
+kDu#oO
 m0k0$
 malloc
 map/set<T> too long
@@ -482,9 +480,6 @@ vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
-y_|Ka
-zWE^e
-zde\=
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -496,7 +491,6 @@ zde\=
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |@N3>
-|Kvn/
 |Lu?c
 }LuHO
 ~t&LN

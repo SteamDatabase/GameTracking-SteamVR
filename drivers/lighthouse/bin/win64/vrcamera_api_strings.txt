@@ -76,13 +76,13 @@ $< t6<$t,<+t"<vt
 )D$PH
 )D$PM
 )D$`I
+)Mn!`N|
 )t$ A
 )t$ H
 )t$ I
 )t$0H
 )t$`H
 *9Z9N
-+Fe	)b
 +J$D8M@
 +Xt@(
 +o'q)}
@@ -381,7 +381,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220329000000Z
 220609000000Z
-220623195639Z0/
+220713221834Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -436,6 +436,7 @@ $< t6<$t,<+t"<vt
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :K	t	H
 :L$"u
+:N!FK
 :O	t	H
 :O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
@@ -668,10 +669,8 @@ Auto Exposure Target:
 Auto Exposure:			
 Auto White Balance:		
 B$D+B,toD+B(
-B$jk1
 B0E8XAt
 BL$(A
-BP+KC
 Backlight Compensation:		
 Begin Streaming Depth...
 Begin Streaming Video...
@@ -1127,6 +1126,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDS7o
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1261,9 +1261,11 @@ WideCharToMultiByte
 WinRTInitialization
 Writing failed at 0x%X/0x%X Bytes
 X E9j
+X`+-i
 Y$D;R
 Y0t>H
 Y9"SD
+Yo@pV
 Z(D9Z
 [@D8}oteH
 [K]taM?
@@ -1432,7 +1434,6 @@ fseek
 fsetpos
 function not supported
 fwrite
-g4\Er
 generic
 graph
 h< t <$
@@ -1524,7 +1525,6 @@ not enough memory
 not supported
 ntelD
 o0t$I
-o8	elZ
 ole32.dll
 operation canceled
 operation in progress
@@ -1637,7 +1637,6 @@ timed out
 tjL9Chu
 tlLcA
 tlMcH
-toOPasm
 tolower
 too many files open
 too many files open in system
@@ -1665,6 +1664,7 @@ uoA8F
 upE8N
 upH;~ uj
 upper
+urXnA}
 uxHcOP
 u~LcW
 v=Y]Bv

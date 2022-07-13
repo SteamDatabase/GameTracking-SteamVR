@@ -184,14 +184,14 @@
         },
         "openxr_handmodel": {
             "component_local" : {
-                "origin": [-0.02, 0.00, 0.10],
-                "rotate_xyz" : [-39.4, 0.0, 0.0]
+                "origin": [-0.02, -0.0285, 0.097],
+                "rotate_xyz" : [1.282, 0.0, 0.0]
              }
         },
         "openxr_handmodel_r": {
             "component_local" : {
-                "origin": [0.02, 0.00, 0.10],
-                "rotate_xyz" : [-39.4, 0.0, 0.0]
+                "origin": [0.02, -0.0285, 0.097],
+                "rotate_xyz" : [1.282, 0.0, 0.0]
              }
         },
         "scroll_wheel": {

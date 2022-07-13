@@ -126,7 +126,7 @@
         },
         "openxr_handmodel": {
             "component_local" : {
-                "origin": [-0.02, 0.00, 0.10],
+                "origin": [-0.01125, -0.00182941, 0.1019482],
                 "rotate_xyz" : [-39.4, 0.0, 0.0]
             }
         },

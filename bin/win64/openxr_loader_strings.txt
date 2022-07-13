@@ -69,7 +69,6 @@
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
 ,W5y+
-,X9GO
 -1e+9999
 -Infinity
 .  Does it exist?
@@ -166,11 +165,12 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220623195640Z0/
+220713221832Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2`nNO
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -190,7 +190,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;&,SL
 <0:08
 =rIQU
 >0<0:
@@ -239,6 +238,7 @@
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?my	(
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
@@ -564,6 +564,7 @@ SWAWH
 Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
+SjgT 
 SleepConditionVariableCS
 Syntax error: value, object or array expected.
 T$0H;
@@ -593,6 +594,7 @@ Unknown failure
 Unknown failure: 
 V H+V
 V I9V(t L
+V4|\:
 VATAUAVAWH
 VCRUNTIME140.dll
 VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
@@ -635,7 +637,6 @@ WakeAllConditionVariable
 Warning [
 Washington1
 WideCharToMultiByte
-Wvm,(
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
@@ -732,7 +733,6 @@ bad allocation
 bad array new length
 bad cast
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
-cd?7*
 collectComments
 d$ UAVAWH
 d$PE3
@@ -824,7 +824,6 @@ memset
 must be non-NULL
 nfinity
 ntelD
-oX!FW
 openxr/
 openxr_loader.dll
 rejectDupKeys
@@ -1003,5 +1002,6 @@ xrWaitSwapchainImage
 |@N3>
 |Lu?c
 }LuHO
+}Q2Cw
 ~+fff
 ~t&LN

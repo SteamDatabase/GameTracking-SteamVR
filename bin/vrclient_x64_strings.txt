@@ -5,7 +5,6 @@
 																																																																																																																
 	!s99
 	555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
-	9\$x
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CODE_SIZE
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
@@ -47,7 +46,7 @@
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`ab
+ !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`abQ|
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
@@ -197,7 +196,6 @@
 ". Value: "
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-"7gNK]3
 "9k0t
 "CVRMsg_ApplicationManifestResponse
 "CVRMsg_CompositorRefSharedResource
@@ -267,7 +265,10 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knNxV;
+$tI(knN
+$u=Hi
+$u[Hi
+$u^Hi
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -506,6 +507,7 @@ $w!Hc
 %s_%s%s
 %u != %zu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&5LFL
 &9k0t
 &CVRMsg_CancelApplicationLaunchResponse
 &CVRMsg_ClientMailbox_UnregisterMailbox
@@ -556,12 +558,12 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(-Ur"
-(5i/(
+(%8p"
+(%@7"
+(59.(
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
-(=.f"
 (A\^][
 (A\_^[
 (A]_^[
@@ -804,7 +806,6 @@ $w!Hc
 *CVRMsg_TrackedCamera_GetProjectionResponse
 *H+NpH
 *HcT$PH
-*OM#(
 *uXI;
 +C,+C
 +CVRMsg_ClientMailbox_GetNextMessageResponse
@@ -2220,7 +2221,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220609000000Z
-220623200245Z0/
+220713222613Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2251,7 +2252,6 @@ $w!Hc
 555555555555555555555555555555555555555555555555555555555555555555555555555555
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-62U;o
 650000
 6CVRMsg_CompositorGetScreenshotPropertyFilenameResponse
 6HiL$8
@@ -2297,6 +2297,7 @@ $w!Hc
 9)u$M
 98tHH
 9;tC@8{
+9=t`>
 9A(~0H
 9A|6H
 9C s.H
@@ -3053,8 +3054,8 @@ B0H+B(D
 B0H+B(H
 B0H9B(tkH
 B84/u
-B9T	(t
-B9T	(u
+B9T	$t
+B9T	$u
 B@H+P0
 B@H+P0I
 BINORMAL
@@ -3100,8 +3101,8 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-(6;
-C-e6;
+C-56;
+C-~!0
 C09w(~:L
 C0L9$
 C0L;E
@@ -3830,7 +3831,6 @@ D8$>u
 D8,8u
 D8<0u
 D8<>u
-D8=,-#
 D8D$9t$
 D8D$hH
 D8`)t#E
@@ -3853,6 +3853,7 @@ D8}gt$L
 D8}gu
 D8}guH
 D8~ A
+D9%cc,
 D90uGH
 D9>u:H
 D9@ }
@@ -4128,8 +4129,8 @@ F(H;EHrZuSH
 F(H;FHs
 F0L;G
 F8I+F0H
-F9D	(
-F9D	(t
+F9D	$
+F9D	$t
 F@;G t
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -4714,12 +4715,13 @@ H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
-H;5"6;
-H;5_6;
+H;5/6;
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
+H;=:M*
+H;=zD<
 H;A s
 H;Axt
 H;C(v
@@ -6101,7 +6103,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSp
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6481,7 +6482,7 @@ T$xE3
 T$xH;
 T$xL+
 T$xL;
-T5oI&
+T5?H&
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -6658,7 +6659,7 @@ UWAVAWI
 UWAVH
 UWAWH
 Uc:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
-Ug@8=X
+Ug@8=(
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
 Unable to coerce boolean action to input source that supports neither float nor boolean: %s
 Unable to coerce float action to input source that supports neither float nor boolean: %s
@@ -7469,15 +7470,13 @@ VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared text
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
 W H;C
 W$H;C
-W%,>*
-W%D+)
-W%{;.
+W%;;.
+W%|9*
 W(H;C
 W(LcB
 W,H;C
 W0H;C
-W5Cz$
-W5lz$
+W5<y$
 W8H+W`I
 W8H;C
 W<H;C
@@ -7538,6 +7537,7 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
+X%lz/
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -7919,7 +7919,8 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%hp.
+Y%(p.
+Y-Pp.
 Y9"SD
 Y>t$7?*
 YD$8E
@@ -8101,6 +8102,7 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \%03o
+\-)-$
 \10I;
 \U%08x
 \\.\pipe\
@@ -8115,6 +8117,7 @@ ZvFailed to create fence %ls.
 ] name = [
 ]0H9X
 ]9k0tVD
+]=Mv"
 ]@L9{(
 ]HH;]Pt8
 ]HH;]Ptb
@@ -8126,10 +8129,12 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%[O"
+_%YT"
+_%wY"
 _8H9_@
 _8H;_@t
 _8I9_@
+_=jv"
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -8224,6 +8229,7 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
+` @SH
 ` UAVAWH
 `(@SH
 `.rdata
@@ -8719,7 +8725,7 @@ e_H9U
 east_click
 east_touch
 effffff
-eg@8=W
+eg@8='
 el_el
 elapsed_time
 emissiveFactor
@@ -8985,6 +8991,7 @@ http://www.digicert.com/CPS0
 https://
 hu_hu
 hungarian
+iBT[q
 iError calling pDownsampleRenderer->Draw()!
 identifier_value
 ig@-?e
@@ -10332,15 +10339,15 @@ t1Hcl$@
 t1fff
 t3fff
 t4L9P
-t8D8-a(3
+t8D8-A'3
 t9fff
 t:fff
 t<Lc@xE
 t>H9n
 t>y#I
+t?9|$pt9H
 t?y$I
 t?y&I
-t@9|$pt:H
 tAD8m
 tAy&H
 tFH;Y r@H
@@ -10464,7 +10471,6 @@ u/fff
 u4H9X s
 u5H9t$0u.H
 u9fff
-u:[^7(
 u<H9^xtLH
 u>D8}
 u>f9X u8f9X0u2f9X@u,f9XPu&
@@ -10489,7 +10495,7 @@ ua_ua
 ub'vb'v
 ubHcC0I
 udH9P sRH
-ug@8=6
+ug@8=
 ugL9x s
 ugL;D$H
 ui8D$0tc
@@ -11077,7 +11083,6 @@ vrwebhelper
 vrwebhelper.exe
 vulkan-1.dll
 w(M9w0tH
-w:Les
 wXH9w`t/H
 wants_compositor_pause
 watchdog_controller
@@ -11136,7 +11141,6 @@ xA^A\_^][
 xA_A^A]A\][
 xA_A^_^][
 xL97t
-xQMDj
 x]~\6
 x_^][
 x_path
@@ -11395,8 +11399,8 @@ zuusA
 |s;K(tnA
 }(Hcv4I
 }(M98t
+},97t
 }/localization/localization.json
-}097t
 }0H;}8tQH
 }8HcF,H
 }</uyH

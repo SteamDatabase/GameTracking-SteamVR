@@ -160,7 +160,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220623200236Z0/
+220713222744Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -180,17 +180,17 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8D	dL
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;*A_|
 < t+<
 </u#H
 <0:08
 <unknown>
 =rIQU
->$W*x
 >0<0:
+>DeS{h
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -306,6 +306,7 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C0L9$
+CBzUB
 CD$(H
 CD$0H
 CDesktopManagerThread
@@ -426,7 +427,9 @@ Failed to reinitialize output duplication for desktop %d, updating description.
 Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
+G<gne
 GDI32.dll
+GWoS@
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -538,8 +541,6 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
-Kr|[wZ"
-KwYo/
 K}*n:	
 L$ E3
 L$ H;
@@ -582,8 +583,8 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+N"~HD|
 NPH9Q
-OAk:#
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -860,6 +861,7 @@ ntelD
 ole32.dll
 openvr_api.dll
 overlay_keyboard_closed
+p&btE
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
@@ -869,7 +871,6 @@ portuguese
 pt_br
 pt_pt
 r,fff
-rS#N)
 request_handlers
 request_handlers_response
 returnAddress
@@ -878,7 +879,6 @@ romanian
 ru_ru
 russian
 schinese
-sf+1w
 shcore.dll
 shutdown
 spanish

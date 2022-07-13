@@ -8,7 +8,6 @@
 																												
 																																												
 	!s99
-	qap^
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -709,7 +708,7 @@ $Vh&*
 220323000000Z
 220329000000Z
 220609000000Z
-220623195926Z0/
+220713222136Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -1231,7 +1230,6 @@ $Vh&*
 <G<r<
 <G=j=v=
 <H=L=P=T=X=\=`=d=h=l=p=t=x=|=
-<M%J*B
 <O=]=k=y=
 <X<\<`<d<h<l<p<t<x<|<
 <]<w<
@@ -1404,7 +1402,6 @@ $Vh&*
 ?_Xout_of_range@std@@YAXPBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-?ed;7
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$collate@D@std@@2V0locale@2@A
@@ -1432,7 +1429,6 @@ $Vh&*
 @.data
 @SVWj
 @d;Cd
-@m0_6/j
 A valid JSON document must be either an array or an object value.
 A98t	
 ACL_DATA_PACKET
@@ -1750,6 +1746,7 @@ HCI_EVENT_PACKET
 HTC BS
 HeapAlloc
 HeapFree
+IG%x!
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
@@ -1910,7 +1907,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSh
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2191,6 +2187,7 @@ asio.misc error
 asio.system
 asio.system error
 assert json failed
+auJ ;k
 bad allocation
 bad array new length
 bad cast
@@ -2207,10 +2204,12 @@ dat_file
 data error
 deque<T> too long
 digit
+dzn;"
 e,>~^
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+ezEaU
 f;G$u
 f;G&u
 f;G(u
@@ -2470,6 +2469,7 @@ vector<bool> too long
 w QVR
 w(_^[]
 w0_^[
+wJfR/_
 wXtM=!N
 wcschr
 winsock
@@ -2481,7 +2481,6 @@ x5t7j
 x]~\6
 xdigit
 y4_^[
-yb-`R
 {L?uI
 {un'%
 |@N3>

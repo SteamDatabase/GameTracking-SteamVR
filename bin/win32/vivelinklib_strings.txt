@@ -14,7 +14,6 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
 !0L0w0
 !hn7!
-"/Blwd
 $Phdd
 %%.%dg
 %2.2X
@@ -64,6 +63,7 @@ $Phdd
 ',=?k
 '7D`D0
 ()$^.*+?[]|\-{},:=!
+(9k`S
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
 (HANDLE:)([0-9A-F]{4})
@@ -80,7 +80,6 @@ $Phdd
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 *9Z9N
-+#"J<
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -90,7 +89,6 @@ $Phdd
 -Infinity
 -NAME "%s"
 -btdriverver
--r _q
 -start
 -status
 -stop
@@ -236,7 +234,7 @@ $Phdd
 220323000000Z
 220329000000Z
 220609000000Z
-220623195905Z0/
+220713222135Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -305,6 +303,7 @@ $Phdd
 545X5d5l5
 547F7|<
 576<6R6
+59V_'
 5;5I5c5h5
 5<5m5
 5=5F5
@@ -339,6 +338,7 @@ $Phdd
 6Vh0b
 6VhXl
 6]8d8
+6vjUYi
 7	8"8
 7 7$7,7D7T7X7h7l7p7t7x7|7
 7 787L7T7\7d7h7l7t7
@@ -362,7 +362,6 @@ $Phdd
 8*8|8
 8*9p;v;
 868a8
-88i=h
 8>8v8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -667,6 +666,7 @@ DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
+DLtD!
 DeleteCriticalSection
 DeleteFileW
 DigiCert Assured ID Root CA0
@@ -825,6 +825,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSxZ
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1029,6 +1030,7 @@ Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
+\'pwz.*v7*
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
@@ -1181,7 +1183,7 @@ j)hpG
 j*hPQ
 jj@0HK4
 k0i0$
-lLW_?N;p
+kgY84
 lighthouse
 lower
 m0k0$
@@ -1269,6 +1271,7 @@ y4_^[
 {un'%
 |	9A 
 |	;J 
+|3t-G
 |@N3>
 |Lu?c
 |cj#h
