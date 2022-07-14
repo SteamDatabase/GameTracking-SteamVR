@@ -33,6 +33,7 @@
 )D$ L
 )t$0H
 )t$@H
+*)',vZ
 *9Z9N
 *uXI;
 +Xt@(
@@ -160,7 +161,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220713222744Z0/
+220714220856Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -180,7 +181,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8D	dL
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -190,7 +190,7 @@
 <unknown>
 =rIQU
 >0<0:
->DeS{h
+>CB11I[
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -306,7 +306,6 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C0L9$
-CBzUB
 CD$(H
 CD$0H
 CDesktopManagerThread
@@ -399,6 +398,7 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
+F( 0m
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -426,10 +426,9 @@ Failed to map desktop upload texture.
 Failed to reinitialize output duplication for desktop %d, updating description.
 Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
+Fd9yo
 FormatMessageA
-G<gne
 GDI32.dll
-GWoS@
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -583,7 +582,6 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-N"~HD|
 NPH9Q
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
@@ -675,6 +673,7 @@ UpdatePointerOverlay
 UploadCursorTexture
 VATAVH
 VCRUNTIME140.dll
+VRB*T
 VR_CONFIG_PATH
 VR_GetGenericInterface
 VR_GetInitToken
@@ -778,6 +777,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
+c|{&j
 d$`H=
 d$`L;
 d$`M;
@@ -861,7 +861,6 @@ ntelD
 ole32.dll
 openvr_api.dll
 overlay_keyboard_closed
-p&btE
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
@@ -907,6 +906,7 @@ tXfff
 tchinese
 terminate
 th_th
+tl.M]
 tolower
 tr_tr
 turkish

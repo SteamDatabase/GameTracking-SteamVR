@@ -7,7 +7,6 @@
 *9Z9N
 +Xt@(
 +o'q)}
-,,L"J
 ,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
@@ -95,25 +94,26 @@
 1#1-1C1M1i1x1
 1&3f4
 130801120000Z
+13\[Q
 162G2
 1;2C2K2
 1@1X1
 1@2x2
 1K1A2N2i2
 1d2h2l2
-2(MGn
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220609000000Z
-220713222245Z0/
+220714220630Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
+2|b7Y
 311109235959Z0b1
 324C4
 330314235959Z0L1
@@ -170,6 +170,7 @@
 <0:08
 <0<G<P<Y<b<g<l<s<
 <S=g=
+<`DHO
 = =0=4=D=H=L=T=l=|=
 = =F=O=Z=
 =N>_>
@@ -180,7 +181,6 @@
 >!>*>5>
 >0<0:
 >Mp$d
->|Pot
 ?	?)?n?t?
 ? ?$???D?Q?V?`?e?
 ?"?0?<?[?`?q?w?|?
@@ -191,7 +191,6 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-@GyQo:
 AjEB#AZ
 Bellevue1
 CloseHandle
@@ -232,10 +231,13 @@ Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
+Ip'?O#
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J/A;8
 J>@G_
 KERNEL32.dll
+K_899r
 K}*n:	
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -250,7 +252,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RaiseException
-R~"ND
 S0Q0O
 SA|X=G
 SDL2.dll
@@ -291,13 +292,13 @@ VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+W\I$%k
 WakeAllConditionVariable
 Washington1
 Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
-]~nc\
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -336,7 +337,6 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
-_zNH3
 `.rdata
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -347,7 +347,6 @@ bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
 e,>~^
-gYr+9)
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -363,13 +362,13 @@ memmove
 memset
 string too long
 terminate
-tg[2s
 uCVj@
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
+yV21ul
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

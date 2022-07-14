@@ -11,6 +11,7 @@
 	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
 	PQh\
 	PQh|
+	Sw&tBX
 	TYPE_BOOL
 	TYPE_ENUM
 	enum_type
@@ -344,7 +345,6 @@ $tAUUPE
 &05061
 &0f0d2
 &54566D6&959V:b:
-&szRt6
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -382,10 +382,8 @@ $tAUUPE
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )020;0D0I0N0U0
-)0a V
 );[_^]
 )D$0f
-)H[Na
 )\ZEo^m/
 *+N43
 *+N4C
@@ -1172,7 +1170,7 @@ $tAUUPE
 220323000000Z
 220329000000Z
 220609000000Z
-220713222721Z0/
+220714220720Z0/
 223W3
 233[3
 233n3
@@ -1575,7 +1573,6 @@ $tAUUPE
 5(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 5)5E5
 5)6P6o6v6
-5*&`?
 5*5A5F5K5P5U5Z5_5d5i5n5s5x5}5
 5*5E5`5{5
 5+535
@@ -2313,7 +2310,6 @@ $tAUUPE
 9s(~'3
 9s<~#3
 9s@~)3
-9snp`,
 9u tL
 9w$~"3
 9w(~#
@@ -4254,7 +4250,6 @@ Looking for default audio playback device matching VID:%04x/PID:%04x %s
 Looking for default audio recording device matching VID:%04x/PID:%04x %s
 Lost default audio playback %s
 Lost default audio recording %s
-Lzpz8
 L~Zs@
 M$SVW
 MAX10
@@ -5349,7 +5344,6 @@ _wstat64i32
 `.rdata
 `0_dL
 `0_tL
-`F Cg
 `SVWj%h
 ``````````````````````````````````````````````````````````````````````````````````````````````````
 `accessors' does not contain an JSON object.
@@ -5369,6 +5363,7 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
+a%dl3
 a0v0.1q1
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
 abort
@@ -6231,7 +6226,6 @@ s$;s(t3
 s(+CD
 s(hp	
 s4;s8
-s;tm`
 sX;s\t]
 sample_angle_estimate
 sampler
@@ -6322,7 +6316,6 @@ syntax error
 systime
 t	_^2
 t!RPV
-t!`.A
 t$,RW
 t$j$hp
 t&Vj4
@@ -6614,7 +6607,6 @@ znear
 ~AVVW
 ~F0Pf
 ~G Wf
-~HjmH{
 ~X0uT
 ~X0ua
 ~t&LN

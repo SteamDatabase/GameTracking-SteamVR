@@ -708,7 +708,7 @@ $Vh&*
 220323000000Z
 220329000000Z
 220609000000Z
-220713222136Z0/
+220714220612Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -939,6 +939,8 @@ $Vh&*
 6X8\8`8d8h8l8p8t8x8|8
 6]6c6t6
 6a7q7
+6uI[@
+7	7N@a
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 7 7$7,7D7T7X7h7l7p7t7|7
 7 7074787@7X7h7l7t7
@@ -1562,6 +1564,7 @@ CoGetClassObject
 CoGetObject
 CoInitialize
 CoUninitialize
+CoVW]
 Completed. Transfer took %.2f seconds.
 Connect To Target
 Connecting to %s, attempt: %d
@@ -1616,6 +1619,7 @@ DFU_RESPONSE_OPERATION_FAILED
 DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
+DbfkC{
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
@@ -1671,9 +1675,11 @@ F	^[]
 F(j4f
 F0R0w0}0
 F<\uD
+FDR;8
 FH;FDu
 FH<au
 FH<bu
+F_;DnEX
 Failed to GAP Auth Key Reply. (nrf_error: %s)
 Failed to GAP Authenticate. (nrf_error: %s)
 Failed to GAP Security Params Reply. (nrf_error: %s)
@@ -1746,7 +1752,6 @@ HCI_EVENT_PACKET
 HTC BS
 HeapAlloc
 HeapFree
-IG%x!
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
@@ -2170,6 +2175,7 @@ _strnicmp
 _strupr_s
 `.rdata
 a9~@u
+aHreR
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -2187,7 +2193,6 @@ asio.misc error
 asio.system
 asio.system error
 assert json failed
-auJ ;k
 bad allocation
 bad array new length
 bad cast
@@ -2203,13 +2208,12 @@ cntrl
 dat_file
 data error
 deque<T> too long
+dgtOb/
 digit
-dzn;"
 e,>~^
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-ezEaU
 f;G$u
 f;G&u
 f;G(u
@@ -2229,6 +2233,7 @@ h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 
 hardware
+hgHgW
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -2286,6 +2291,7 @@ memset
 mutex
 need dictionary
 nrfserlib.dll
+oVGG7
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
@@ -2462,6 +2468,7 @@ upper
 uq;s,u
 uzj h
 v=Y]Bv
+vB^H=$
 vGh@7
 vGh`5
 vector<T> too long
@@ -2469,7 +2476,6 @@ vector<bool> too long
 w QVR
 w(_^[]
 w0_^[
-wJfR/_
 wXtM=!N
 wcschr
 winsock

@@ -38,6 +38,7 @@
 +Xt@(
 +o'q)}
 , last executing in 
+,NCv}
 ,W5y+
 -1e+9999
 -Infinity
@@ -176,19 +177,19 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220713222801Z0/
+220714220923Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2o,zt
 2xJK7*L
 311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3OqgB
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -197,7 +198,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7xKZJ
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -424,6 +424,7 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+Dq?%{Y
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
@@ -650,6 +651,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
 OLEAUT32.dll
+Og\'9
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -664,7 +666,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSt
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -793,6 +794,7 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+Wrv9C
 Y9"SD
 [K]taM?
 \$ E3
@@ -979,6 +981,7 @@ memcpy
 memmove
 memset
 message_id
+nG`c6
 no_no
 norwegian
 ntelD
@@ -1009,6 +1012,7 @@ romanian
 ru_ru
 running
 russian
+sKY-G
 schinese
 shcore.dll
 shutdown
@@ -1035,7 +1039,6 @@ t$ WH
 t$0H;
 t$@H=
 t$PH=
-t-]HF
 t:I;>t
 tXfff
 tchinese

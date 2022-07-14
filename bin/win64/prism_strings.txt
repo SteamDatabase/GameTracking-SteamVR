@@ -56,7 +56,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-$-h+j
 $9E0u
 $II+L$`
 %s begin_ctx=%llu
@@ -360,7 +359,6 @@ $II+L$`
 , last executing in 
 ,W5y+
 -IPCWrapper
--S 9u
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -534,7 +532,7 @@ $II+L$`
 220323000000Z
 220329000000Z
 220609000000Z
-220713222018Z0/
+220714220450Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -601,7 +599,6 @@ $II+L$`
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
-?r43~B-
 @.data
 @.reloc
 @8k(t-H
@@ -1182,6 +1179,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
 J>@G_
+JhF6)F
 KERNEL32.dll
 K}*n:	
 L#A0H
@@ -1334,6 +1332,7 @@ NvEncode
 NvEncode %s-%s
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
+O"g%j
 O0H9Q
 OLEAUT32.dll
 OpH9Q
@@ -1421,7 +1420,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS<M,I
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1587,6 +1585,7 @@ VK_KHR_surface
 VK_KHR_swapchain
 VK_LAYER_KHRONOS_validation
 VK_NV_compute_shader_derivatives
+VQAbCx
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
@@ -1631,6 +1630,7 @@ Yl$ M
 Yl$4E
 [ AVH
 [K]taM?
+[R"wG
 \$ AVH
 \$ E3
 \$ H+
@@ -1728,7 +1728,6 @@ _wcsupr
 `A_A][
 `A_A^A]A\_^[
 `A_^]
-`Kx"(
 abort
 acosf
 api-ms-win-core-debug-l1-1-0.dll
@@ -1869,6 +1868,7 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
+j^BCJq
 jj@0HK4
 k0i0$
 l$ E3

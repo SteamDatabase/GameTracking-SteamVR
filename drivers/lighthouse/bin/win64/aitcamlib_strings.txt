@@ -17,7 +17,6 @@
  A__^
  H3E H3E
 !(0)"
-![ *^
 !hn7!
 "9k0t
 #*1892+$
@@ -33,6 +32,7 @@
 &D9c0t
 &D9k0t
 &D9{0t
+&Q"Z2
 ',=?k
 '.5<=6/7>????????????????
 '7D`D0
@@ -52,7 +52,6 @@
 (t$PL
 (|$ H
 (|$@D
-)$AN_
 )9k0t
 )D$0fD
 )L$ fD
@@ -70,6 +69,7 @@
 -9k0t&H
 -9{0t%H
 -D9c0t%H
+-^27B0
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -177,7 +177,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220713222311Z0/
+220714220749Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,6 +189,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3Z,x S
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -215,7 +216,6 @@
 9l$Lt	E
 ;D$ht6
 <0:08
-<D1}W
 =ETLP
 =IBgC
 =SNRtt%
@@ -223,6 +223,7 @@
 =rIQU
 >0<0:
 >Mp$d
+>bt4n7	!I
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -243,7 +244,6 @@
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
-?r_cN
 @.data
 @.reloc
 @A^_^
@@ -705,6 +705,7 @@ c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
+c^q#j
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -726,7 +727,7 @@ de_de
 deque<T> too long
 driver_lighthouse
 e,>~^
-eL9CC
+e>-*$
 el_el
 en_us
 english
@@ -796,6 +797,7 @@ memmove
 memset
 missing color table
 multiple IHDR
+n>J(X
 no IDAT
 no PLTE
 no SOF

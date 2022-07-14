@@ -35,6 +35,7 @@
  sIE3
 !T$(H!T$ 
 !hn7!
+"xGGc
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -46,6 +47,7 @@ $< t6<$t,<+t"<vt
 %m / %d / %y
 ',=?k
 '7D`D0
+'QwCUJ
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
 (A^A\_[
@@ -76,7 +78,6 @@ $< t6<$t,<+t"<vt
 )D$PH
 )D$PM
 )D$`I
-)Mn!`N|
 )t$ A
 )t$ H
 )t$ I
@@ -341,6 +342,7 @@ $< t6<$t,<+t"<vt
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.t(C:b
 .text
 .text$di
 .text$mn
@@ -381,8 +383,9 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220329000000Z
 220609000000Z
-220713221834Z0/
+220714220300Z0/
 241009235959Z0a1
+2A_\]
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -405,6 +408,7 @@ $< t6<$t,<+t"<vt
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8-uCH
 8-uGH
+83dvk
 8A^_^[
 8A_A^A]A\_^][
 8D$ u+H
@@ -436,7 +440,6 @@ $< t6<$t,<+t"<vt
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :K	t	H
 :L$"u
-:N!FK
 :O	t	H
 :O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
@@ -457,6 +460,7 @@ $< t6<$t,<+t"<vt
 =rIQU
 >0<0:
 >Mp$d
+>}-uS
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -863,6 +867,7 @@ E9e ~9I
 E;B0E
 E;Bl}DM
 EI2C support not yet implemented
+ELYU@/
 EPHc@
 ET$(H
 EncodePointer
@@ -1126,7 +1131,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS7o
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1245,6 +1249,7 @@ VirtualFree
 VirtualProtect
 W0;Ct~ZH
 W8HcH
+W@x|SN
 WATAUAVAWH
 WATAVH
 WATAWH
@@ -1261,11 +1266,10 @@ WideCharToMultiByte
 WinRTInitialization
 Writing failed at 0x%X/0x%X Bytes
 X E9j
-X`+-i
+Y	;MV+R_
 Y$D;R
 Y0t>H
 Y9"SD
-Yo@pV
 Z(D9Z
 [@D8}oteH
 [K]taM?
@@ -1288,6 +1292,7 @@ Z(D9Z
 \$Pu-H
 \$hE3
 \$pE3
+]GU.L
 ]J<0"0i3
 ]`u7H
 _(H9n
@@ -1500,6 +1505,7 @@ memcpy
 memmove
 memset
 message size
+n=B&P
 nD8-V
 network down
 network reset
@@ -1574,6 +1580,7 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
+s6`\%
 setlocale
 setvbuf
 space
@@ -1664,7 +1671,6 @@ uoA8F
 upE8N
 upH;~ uj
 upper
-urXnA}
 uxHcOP
 u~LcW
 v=Y]Bv
@@ -1688,6 +1694,7 @@ x UAVAWH
 x]~\6
 xdigit
 yH;YXtl
+yo)t<H
 { ATAVAWH
 { AVH
 { tjL

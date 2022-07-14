@@ -63,7 +63,6 @@ $Phdd
 ',=?k
 '7D`D0
 ()$^.*+?[]|\-{},:=!
-(9k`S
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
 (HANDLE:)([0-9A-F]{4})
@@ -234,7 +233,7 @@ $Phdd
 220323000000Z
 220329000000Z
 220609000000Z
-220713222135Z0/
+220714220551Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -303,7 +302,6 @@ $Phdd
 545X5d5l5
 547F7|<
 576<6R6
-59V_'
 5;5I5c5h5
 5<5m5
 5=5F5
@@ -338,7 +336,6 @@ $Phdd
 6Vh0b
 6VhXl
 6]8d8
-6vjUYi
 7	8"8
 7 7$7,7D7T7X7h7l7p7t7x7|7
 7 787L7T7\7d7h7l7t7
@@ -563,6 +560,7 @@ $Phdd
 @d;Cd
 A valid JSON document must be either an array or an object value.
 AAuthentication
+A^O Y
 Address:  %s
 AjEB#AZ
 BS1_MSG_EXTEND_TIMEOUT
@@ -666,7 +664,6 @@ DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
-DLtD!
 DeleteCriticalSection
 DeleteFileW
 DigiCert Assured ID Root CA0
@@ -755,6 +752,7 @@ K32EnumProcesses
 K32GetModuleBaseNameA
 K32GetProcessImageFileNameA
 KERNEL32.dll
+Kna$'t|X#
 K}*n:	
 L3T3X3\3`3d3h3l3x3$4(4,4D4H4L4
 L?n(Zy&
@@ -825,7 +823,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSxZ
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1030,7 +1027,6 @@ Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
-\'pwz.*v7*
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
@@ -1183,7 +1179,6 @@ j)hpG
 j*hPQ
 jj@0HK4
 k0i0$
-kgY84
 lighthouse
 lower
 m0k0$
@@ -1271,7 +1266,6 @@ y4_^[
 {un'%
 |	9A 
 |	;J 
-|3t-G
 |@N3>
 |Lu?c
 |cj#h

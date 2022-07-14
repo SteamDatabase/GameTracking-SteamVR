@@ -13,6 +13,7 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
+&0WNM
 ',=?k
 '.5<=6/7>????????????????
 '7D`D0
@@ -166,7 +167,7 @@ $9^ t
 220323000000Z
 220329000000Z
 220609000000Z
-220713222135Z0/
+220714220551Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -207,6 +208,7 @@ $9^ t
 4B7F7U7Y7h7l7
 4`:d:q:u:
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4nMU{
 5	7+7
 5 5$5
 5!5M5c5k5
@@ -240,6 +242,7 @@ $9^ t
 6I]Dc
 6L7Z7h7~7
 6OB,n_
+6gH_<
 6k6}6
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7
 7#7(73787B7S7X7b7s7x7
@@ -284,7 +287,6 @@ $9^ t
 :T;X;
 :T;l;
 :g=l=u=?>|>
-:lu-r
 ;	<P<V<p<
 ; ;$;(;,;0;4;q;|;
 ;";);.;3;A;F;Q;V;c;m;s;};
@@ -292,7 +294,6 @@ $9^ t
 ;%<)<8<<<
 ;5;x;|;
 ;>;N;X;b;r;};
-;FIl	J
 ;O<b<
 ;S;`;
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<
@@ -407,7 +408,6 @@ EventUnregister
 EventWrite
 EventWriteString
 F(j4f
-F-T]\t!
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -690,6 +690,7 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
+bvUR3
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
@@ -843,7 +844,6 @@ zh_cn
 zh_tw
 zlib corrupt
 {un'%
-|0r;zb
 |@N3>
 |Lu?c
 }LuHO

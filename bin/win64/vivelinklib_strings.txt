@@ -31,6 +31,7 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
 !hn7!
+!oSe<i
 %%.%dg
 %2.2X
 %8.8X
@@ -111,7 +112,6 @@
 +Xt@(
 +o'q)}
 ,W5y+
-,bI+h
 -1e+9999
 -ADDR %s
 -Infinity
@@ -228,7 +228,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220713222237Z0/
+220714220751Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -275,6 +275,7 @@
 >"t-H
 >0<0:
 >Mp$d
+>p]d4
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -686,7 +687,6 @@ HA_A^A]A\_^][
 HA_^][
 HTC BS
 HcMxI
-I	T*G
 I9Bhs
 I;4$L
 I@H9k8u
@@ -700,7 +700,6 @@ Invalid address %s.
 Invalid nonce %d
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J.|e]
 J>@G_
 K32EnumProcessModules
 K32EnumProcesses
@@ -798,7 +797,6 @@ Parsing of JSON string "%s" failed: %s
 PeekNamedPipe
 PerformDFU
 Performing DFU:
-PgY%pM
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PipeInit
 Progress: %d%% (%d/%d)
@@ -1083,7 +1081,6 @@ Zipfile is corrupt or not a zipfile
 ]gfff
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
-^n%Am
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -1148,7 +1145,6 @@ blank
 bootloader
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
-c=6LQ
 calloc
 cntrl
 cw~Hc
@@ -1159,6 +1155,7 @@ d$`H=
 dat_file
 data error
 deque<T> too long
+dg	/MT
 digit
 e,>~^
 empty distance tree with lengths
@@ -1211,7 +1208,6 @@ invalid vector<T> subscript
 invalid window size
 isxdigit
 jj@0HK4
-k+*P"
 k0i0$
 l$ H;
 l$ H=
@@ -1237,13 +1233,14 @@ memcmp
 memcpy
 memmove
 memset
-nP7{rH\0V
+mf%m{]P
 need dictionary
 ntelD
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
+phP~4
 print
 punct
 r*=/N
@@ -1320,7 +1317,6 @@ unknown compression method
 unknown zip result code
 upH;~ uj
 upper
-v!{ 9
 v&=6N
 v=Y]Bv
 vector<T> too long
@@ -1370,5 +1366,4 @@ xdigit
 |@N3>
 |Lu?c
 }LuHO
-~i[<K
 ~t&LN

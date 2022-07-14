@@ -58,6 +58,7 @@
 #*1892+$
 #?RADIANCE
 #?RGBE
+#D9Q\
 #oculus_requested_quit
 $9^ t
 %%.%dg
@@ -116,6 +117,7 @@ $9^ t
 -3003
 -Infinity
 -startup
+.$$kzna:
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -383,6 +385,7 @@ $9^ t
 1!1)111/4
 1"1'1,11161;1@1E1J1O1T1Y1^1c1h1u1
 1"1'191?1r1G2T2]2l2q2v2
+1"s<~
 1#3Z3p3
 1$1-121p1
 1$10181X1|1
@@ -452,7 +455,7 @@ $9^ t
 220323000000Z
 220329000000Z
 220609000000Z
-220713222319Z0/
+220714220647Z0/
 223w3
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -678,7 +681,6 @@ $9^ t
 6PjMjBhDH
 6R7a7
 6^6f6!7
-6dc|)%
 6v7t9
 7	8x8
 7 7$7(7,70747
@@ -920,6 +922,7 @@ $9^ t
 ;Z<~<
 ;[<a<
 ;a<h<
+;cQS%`
 <!<'<.<<<E<J<z<
 <!<1<A<Q<a<q<
 <"=[=b=
@@ -1306,6 +1309,7 @@ HeapAlloc
 HeapFree
 Hmd not found.
 HmdDriverFactory
+I<;aooE
 ID3D11DeviceContext4::Signal
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -1379,7 +1383,6 @@ J0+J(
 J>@G_
 JSON string too short.
 JSONuTS
-K"~?R
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1392,6 +1395,7 @@ LoadLibraryA
 LoadLibraryW
 LocalizationManager
 M$SVW
+M?{Z_
 MB(iVR
 MSVCP140.dll
 MainThrd
@@ -1456,6 +1460,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDS$M
 RaiseException
 ResetEvent
 S0Q0O
@@ -1528,7 +1533,6 @@ Unknown(%u, %u)
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
-V:9E	7
 V<_^]
 VCRUNTIME140.dll
 VRInitError_VendorSpecific_OculusRuntimeBadInstall 
@@ -1587,6 +1591,7 @@ Y__^[
 _,9_0t-
 _0_[]
 _0_^]
+_:3`o0:G9
 _CIacos
 _CIfmod
 _CIpow
@@ -2361,7 +2366,7 @@ t	_^2
 t$,RW
 t$j$h`'
 t?hT)
-tKe	=
+tGi n
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -2397,6 +2402,7 @@ u$WVS
 u(_^[
 u8j@P
 u<f9C u6f9C0u0f9C@u*f9CPu$
+u?Ant
 u?jHQ
 uBf9C
 uCVj@
@@ -2452,7 +2458,6 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
-{e:/"
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

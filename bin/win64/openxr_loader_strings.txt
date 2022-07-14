@@ -60,6 +60,7 @@
 )D$ L
 )t$ H
 *9Z9N
+*~9Odn
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -165,12 +166,11 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220713221832Z0/
+220714220302Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2`nNO
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -238,7 +238,6 @@
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
-?my	(
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
@@ -418,6 +417,7 @@ FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
 GENERAL
+GL$Z6
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -517,6 +517,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
 No active XrInstance handle.
+OH/"i,;
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
@@ -564,7 +565,6 @@ SWAWH
 Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
-SjgT 
 SleepConditionVariableCS
 Syntax error: value, object or array expected.
 T$0H;
@@ -594,7 +594,6 @@ Unknown failure
 Unknown failure: 
 V H+V
 V I9V(t L
-V4|\:
 VATAUAVAWH
 VCRUNTIME140.dll
 VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
@@ -644,6 +643,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
+[02]-
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -808,6 +808,7 @@ l$PH;1u;H;
 l$pE3
 l$ptNH
 l$pu!H
+l3_iS4
 labelInfo must be non-NULL
 layer 
 library_path
@@ -826,6 +827,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+q_,G$
 rejectDupKeys
 runtime
 s t#fff
@@ -1002,6 +1004,5 @@ xrWaitSwapchainImage
 |@N3>
 |Lu?c
 }LuHO
-}Q2Cw
 ~+fff
 ~t&LN

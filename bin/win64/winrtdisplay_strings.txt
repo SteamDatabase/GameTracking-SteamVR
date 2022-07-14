@@ -5,10 +5,11 @@
  A_][
  A_^]
  A__^
+ CGw4
  H3E H3E
- Nnw?
 !hn7!
 !m_bIsConnected
+%_L~K
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
@@ -115,19 +116,19 @@
 0}0i1
 1.0.0
 130801120000Z
+1RH!qr
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220609000000Z
-220713221903Z0/
+220714220402Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
-3(;wK
 311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
@@ -141,6 +142,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8(+&x
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -204,9 +206,9 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E(B<H
 E89D$Pu
 E<9D$Tu
-EX1Zo
 EnterCriticalSection
 FormatMessageW
 GetCurrentProcessId
@@ -279,7 +281,6 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-UPg}:
 UVAWH
 UWAVH
 UnhandledExceptionFilter
@@ -351,6 +352,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`["1E	Ed
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
 api-ms-win-core-localization-l1-2-0.dll
@@ -370,14 +372,12 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
 e,>~^
-en,`ei
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 iswspace
-j'xJa,.
 jj@0HK4
 k0i0$
 l$ WH
@@ -387,6 +387,7 @@ malloc
 memcpy
 memmove
 memset
+n#bc{"
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
@@ -413,5 +414,6 @@ x]~\6
 |$xMi
 |@N3>
 |Lu?c
+}!zW<gd3
 }LuHO
 ~t&LN

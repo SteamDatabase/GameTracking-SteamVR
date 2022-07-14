@@ -8675,27 +8675,6 @@
  t CMsaaResolveRenderer::Initialize(IVRRenderer*)
  t CMsaaResolveRenderer::ReleaseResources()
  t CMsaaResolveRenderer::~CMsaaResolveRenderer()
- t COxrRuntimeManager::COxrRuntimeManager()
- t COxrRuntimeManager::ChangesRequireRoot()
- t COxrRuntimeManager::GenerateLinuxManifest(std::string, std::string)
- t COxrRuntimeManager::GenerateLinuxManifest(std::string, std::string) [clone .cold]
- t COxrRuntimeManager::GetCurrentActiveRuntime(std::string*)
- t COxrRuntimeManager::GetCurrentActiveRuntime(std::string*) [clone .cold]
- t COxrRuntimeManager::GetDefaultManifestPath()
- t COxrRuntimeManager::GetDefaultManifestPath() [clone .cold]
- t COxrRuntimeManager::GetLinuxBaseManifestPath()
- t COxrRuntimeManager::GetLinuxBaseManifestPath() [clone .cold]
- t COxrRuntimeManager::GetManifestPath()
- t COxrRuntimeManager::GetManifestPath() [clone .cold]
- t COxrRuntimeManager::GetOpenXrActiveRuntimePath()
- t COxrRuntimeManager::GetOpenXrActiveRuntimePath() [clone .cold]
- t COxrRuntimeManager::GetOpenXrRegistryPath()
- t COxrRuntimeManager::GetRuntimeLibraryPath()
- t COxrRuntimeManager::GetRuntimeLibraryPath() [clone .cold]
- t COxrRuntimeManager::IsActiveRuntime(OxrRuntimeProvider_t)
- t COxrRuntimeManager::SetDefaultRuntime()
- t COxrRuntimeManager::SetDefaultRuntime() [clone .cold]
- t COxrRuntimeManager::~COxrRuntimeManager()
  t CPackedBoneTransforms::ByteSize() const
  t CPackedBoneTransforms::CPackedBoneTransforms()
  t CPackedBoneTransforms::CPackedBoneTransforms() [clone .cold]
@@ -20633,6 +20612,8 @@
  t Format(char const*, ...)
  t Format(char const*, ...) [clone .cold]
  t FormatStdString(char const*, ...)
+ t GenerateLinuxManifest(std::string, std::string)
+ t GenerateLinuxManifest(std::string, std::string) [clone .cold]
  t GenericInterfaceRegistration::GetInterface()
  t GenericInterfaceRegistration::~GenericInterfaceRegistration()
  t GetActionBindingCategoryEnumFromName(std::string const&)
@@ -20648,6 +20629,8 @@
  t GetDefaultClientCore()
  t GetDefaultCompositorClient()
  t GetDefaultInputValueForType(EInputValueType, VRInputValue_t*)
+ t GetDefaultManifestPath()
+ t GetDefaultManifestPath() [clone .cold]
  t GetDefaultOverlay()
  t GetDefaultSystem()
  t GetEnglishStringForHmdError(vr::EVRInitError)
@@ -20668,6 +20651,10 @@
  t GetInputSourceType(Json::Value const&, std::string)
  t GetInputSourceType(Json::Value const&, std::string) [clone .cold]
  t GetInputValueVisibilityFromString(char const*)
+ t GetLinuxBaseManifestPath()
+ t GetLinuxBaseManifestPath() [clone .cold]
+ t GetManifestPath()
+ t GetManifestPath() [clone .cold]
  t GetMaxPriorityForApplicationType(vr::EVRApplicationType)
  t GetModuleRelativeRuntimeDir()
  t GetModuleRelativeRuntimeDir() [clone .cold]
@@ -20676,9 +20663,14 @@
  t GetNextEventId()
  t GetNotificationImageMemoryName(unsigned int, char*, unsigned int)
  t GetOpenGLFunctions() [clone .part.0]
+ t GetOpenXrActiveRuntimePath()
+ t GetOpenXrActiveRuntimePath() [clone .cold]
+ t GetOpenXrAvailableRuntimesPath()
  t GetOverlayTextureToWrite(VRCompositor_OverlayState_t const&, int*, unsigned int*)
  t GetResourceBaseDir()
  t GetResourceBaseDir() [clone .cold]
+ t GetRuntimeLibraryPath()
+ t GetRuntimeLibraryPath() [clone .cold]
  t GetSceneApplicationState(VRApplicationsState_t const*)
  t GetSharedResourceNamespace()
  t GetSharedResourceNamespace() [clone .cold]
@@ -26184,6 +26176,14 @@
  t operator new[](unsigned int)
  t operator new[](unsigned int, std::nothrow_t const&)
  t operator new[](unsigned int, std::nothrow_t const&) [clone .cold]
+ t oxrruntimemanagement::AddSteamVRToAvailableRuntimes()
+ t oxrruntimemanagement::ChangesRequireRoot()
+ t oxrruntimemanagement::GetCurrentActiveRuntime(std::string*)
+ t oxrruntimemanagement::GetCurrentActiveRuntime(std::string*) [clone .cold]
+ t oxrruntimemanagement::GetCurrentDefaultRuntimePath()
+ t oxrruntimemanagement::IsActiveRuntime(OxrRuntimeProvider_t)
+ t oxrruntimemanagement::SetDefaultRuntime()
+ t oxrruntimemanagement::SetDefaultRuntime() [clone .cold]
  t parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
  t protobuf_AddDesc_vr_5fmessages_2eproto()
  t protobuf_AddDesc_vr_5fmessages_2eproto() [clone .cold]
@@ -29623,7 +29623,6 @@
  t vr::CVRSteamPrivateLatest::ShouldKillTheaterPancakeProcess(unsigned int)
  t vr::CVRSteamPrivateLatest::ShouldKillTheaterPancakeProcess(unsigned int) [clone .cold]
  t vr::CVRSteamPrivateLatest::ShouldSetAsOpenXrRuntime()
- t vr::CVRSteamPrivateLatest::ShouldSetAsOpenXrRuntime() [clone .cold]
  t vr::CVRSteamPrivateLatest::~CVRSteamPrivateLatest()
  t vr::CVRTrackedCamera::AcquireVideoStreamingService(unsigned int, unsigned long long*)
  t vr::CVRTrackedCamera::AcquireVideoStreamingService(unsigned int, unsigned long long*) [clone .cold]

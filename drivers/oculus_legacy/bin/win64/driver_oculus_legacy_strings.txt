@@ -93,7 +93,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220713222839Z0/
+220714221255Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -107,7 +107,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
-5/-F$
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -128,6 +127,7 @@
 ;K sUH
 ;k sAH
 ;k sDH
+</A_~
 <0:08
 =rIQU
 >0<0:
@@ -161,7 +161,6 @@ A__][
 AjEB#AZ
 AuthD
 Bellevue1
-Bg1kG
 C(L95
 CL$PH
 COculusHmdLatest::UpdateThread
@@ -215,7 +214,6 @@ H;{XH
 HcD$0
 HcK@H
 HmdDriverFactory
-Hxj|l
 IL95-
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -241,7 +239,6 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JYlx	
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -249,6 +246,7 @@ L$ SH
 L$ SUVWH
 L$ SVWH
 L$@H3
+L%Bru;
 L9t$huP
 L?n(Zy&
 LIBOVR_DLL_DIR
@@ -290,7 +288,6 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-St(:b
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
@@ -387,9 +384,7 @@ dk2_camera
 driver_oculus_legacy.dll
 e,>~^
 effffff
-ek-Uv
 f9<Xu
-g]c6XT'
 getenv
 gfffffffH
 headset
@@ -472,6 +467,7 @@ tXfff
 tdh.dll
 terminate
 tkH97t	H
+v:,r	
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0

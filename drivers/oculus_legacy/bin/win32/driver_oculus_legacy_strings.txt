@@ -2,6 +2,7 @@
  %41g
  (Camera)
 !hn7!
+&bXz~
 ',=?k
 '7D`D0
 (Unable to load LibOVR)
@@ -94,7 +95,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220713222301Z0/
+220714220702Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -290,6 +291,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+Mki=:
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -306,7 +308,6 @@ SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
-SL9F&
 SetEvent
 SetUnhandledExceptionFilter
 Sleep
@@ -395,7 +396,6 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
-cc#Zn
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
@@ -412,7 +412,6 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
-kDu#oO
 m0k0$
 malloc
 map/set<T> too long
@@ -475,11 +474,13 @@ tdh.dll
 terminate
 u7j8Q
 uCVj@
+uTwypBV
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
+y_q,u
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

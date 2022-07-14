@@ -28,7 +28,6 @@
  A_^[
  A__^
  H3E H3E
- `V|C
  aborted.
  ack#:
  but should be in STATE_START. This state is not valid.
@@ -67,7 +66,6 @@
  times.
  version-number:
 !hn7!
-#5("Z~%
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -636,7 +634,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220713222314Z0/
+220714220801Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -698,7 +696,6 @@
 =rIQU
 >0<0:
 >Mp$d
-?2O-3
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -1178,7 +1175,6 @@ DuplicateHandle
 E M;G
 E9e ~7I
 E@HcH
-EO*dn
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1279,7 +1275,6 @@ H+SpI
 H+WpA
 H+WpH
 H+WpI
-H32>~
 H90t#H
 H9Ahs
 H9C s(H
@@ -1522,7 +1517,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSj+[
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1873,6 +1867,7 @@ bootloader
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 calloc
+cdN? 
 close
 cntrl
 d$0D)#
@@ -2181,7 +2176,6 @@ xA^A]_[
 xAtAL
 x]~\6
 xdigit
-{U5#El
 {un'%
 {x\u!H
 {|?uWH

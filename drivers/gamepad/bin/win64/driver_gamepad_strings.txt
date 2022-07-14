@@ -1,8 +1,8 @@
 	!s99
-	%<_^
  %41g
  A__^
  H3E H3E
+!#(V0
 !hn7!
 ',=?k
 '7D`D0
@@ -13,7 +13,6 @@
 +Xt@(
 +o'q)}
 ,W5y+
-,mC=w9o
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -101,7 +100,7 @@
 220323000000Z
 220329000000Z
 220609000000Z
-220713222710Z0/
+220714220832Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -128,6 +127,7 @@
 =rIQU
 >0<0:
 >Mp$d
+?Ucl5;
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -186,7 +186,6 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-I[EXp-#
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -212,6 +211,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS"
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -255,7 +255,6 @@ UVWAVAWH
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
-V#*H-
 VCRUNTIME140.dll
 VWAVH
 VWAWH
@@ -264,10 +263,11 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+Y"HWbOek;~
 Y9"SD
-Z;&R 
 [K]taM?
 \$ UH
+]%V45
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -315,6 +315,7 @@ bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
 e,>~^
+f.IfW
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -323,6 +324,7 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
+l9`C`
 m0k0$
 malloc
 map/set<T> too long
@@ -331,6 +333,7 @@ memmove
 memset
 ntelD
 p WAVAWH
+q4xT*
 string too long
 t$ AVH
 t$ AWH
@@ -338,7 +341,6 @@ t$ WH
 t$@H=
 tXfff
 terminate
-ts|;YWV)
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0

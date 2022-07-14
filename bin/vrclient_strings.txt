@@ -3139,7 +3139,7 @@ $0}
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:17:20
+22:01:57
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -5022,27 +5022,6 @@ CMsaaResolveRenderer::Initialize(IVRRenderer*)
 CMsaaResolveRenderer::ReleaseResources()
 CMsaaResolveRenderer::~CMsaaResolveRenderer()
 COLOR
-COxrRuntimeManager::COxrRuntimeManager()
-COxrRuntimeManager::ChangesRequireRoot()
-COxrRuntimeManager::GenerateLinuxManifest(std::string, std::string)
-COxrRuntimeManager::GenerateLinuxManifest(std::string, std::string) [clone .cold]
-COxrRuntimeManager::GetCurrentActiveRuntime(std::string*)
-COxrRuntimeManager::GetCurrentActiveRuntime(std::string*) [clone .cold]
-COxrRuntimeManager::GetDefaultManifestPath()
-COxrRuntimeManager::GetDefaultManifestPath() [clone .cold]
-COxrRuntimeManager::GetLinuxBaseManifestPath()
-COxrRuntimeManager::GetLinuxBaseManifestPath() [clone .cold]
-COxrRuntimeManager::GetManifestPath()
-COxrRuntimeManager::GetManifestPath() [clone .cold]
-COxrRuntimeManager::GetOpenXrActiveRuntimePath()
-COxrRuntimeManager::GetOpenXrActiveRuntimePath() [clone .cold]
-COxrRuntimeManager::GetOpenXrRegistryPath()
-COxrRuntimeManager::GetRuntimeLibraryPath()
-COxrRuntimeManager::GetRuntimeLibraryPath() [clone .cold]
-COxrRuntimeManager::IsActiveRuntime(OxrRuntimeProvider_t)
-COxrRuntimeManager::SetDefaultRuntime()
-COxrRuntimeManager::SetDefaultRuntime() [clone .cold]
-COxrRuntimeManager::~COxrRuntimeManager()
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
 CPPTYPE_ENUM
@@ -18891,6 +18870,8 @@ GMT
 GNU
 GenSessionId()::sNextSessionId
 GenerateChangeNotifications
+GenerateLinuxManifest(std::string, std::string)
+GenerateLinuxManifest(std::string, std::string) [clone .cold]
 GenericInterfaceRegistration::GetInterface()
 GenericInterfaceRegistration::~GenericInterfaceRegistration()
 GetActionBindingCategoryEnumFromName(std::string const&)
@@ -18908,6 +18889,8 @@ GetDashboardDesktopProvider()
 GetDefaultClientCore()
 GetDefaultCompositorClient()
 GetDefaultInputValueForType(EInputValueType, VRInputValue_t*)
+GetDefaultManifestPath()
+GetDefaultManifestPath() [clone .cold]
 GetDefaultOverlay()
 GetDefaultSystem()
 GetDeviceExtensionProperties - failed to enumerate extensions
@@ -18942,6 +18925,10 @@ GetInstanceExtensionProperties - failed to get extension count
 GetInstanceExtensionProperties - no instance extensions supported
 GetInt32
 GetInt64
+GetLinuxBaseManifestPath()
+GetLinuxBaseManifestPath() [clone .cold]
+GetManifestPath()
+GetManifestPath() [clone .cold]
 GetMaxPriorityForApplicationType(vr::EVRApplicationType)
 GetMessage
 GetModuleRelativeRuntimeDir()
@@ -18957,6 +18944,9 @@ GetNotificationImageMemoryName(unsigned int, char*, unsigned int)
 GetOpenGLFunctions() [clone .part.0]
 GetOpenGLFunctions()::s_OpenGLFunctions
 GetOpenGLFunctions()::s_bExtensionsLoaded
+GetOpenXrActiveRuntimePath()
+GetOpenXrActiveRuntimePath() [clone .cold]
+GetOpenXrAvailableRuntimesPath()
 GetOverlayTextureToWrite(VRCompositor_OverlayState_t const&, int*, unsigned int*)
 GetRenderModelAbsolutePath
 GetRepeatedBool
@@ -18972,6 +18962,8 @@ GetRepeatedUInt32
 GetRepeatedUInt64
 GetResourceBaseDir()
 GetResourceBaseDir() [clone .cold]
+GetRuntimeLibraryPath()
+GetRuntimeLibraryPath() [clone .cold]
 GetSceneApplicationState(VRApplicationsState_t const*)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() [clone .cold]
@@ -22871,7 +22863,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
 Jul
-Jul 13 2022
+Jul 14 2022
 July
 Jun
 June
@@ -31003,6 +30995,14 @@ overlay_handle
 overlay_key
 override_device_class
 overwrite.vrsettings
+oxrruntimemanagement::AddSteamVRToAvailableRuntimes()
+oxrruntimemanagement::ChangesRequireRoot()
+oxrruntimemanagement::GetCurrentActiveRuntime(std::string*)
+oxrruntimemanagement::GetCurrentActiveRuntime(std::string*) [clone .cold]
+oxrruntimemanagement::GetCurrentDefaultRuntimePath()
+oxrruntimemanagement::IsActiveRuntime(OxrRuntimeProvider_t)
+oxrruntimemanagement::SetDefaultRuntime()
+oxrruntimemanagement::SetDefaultRuntime() [clone .cold]
 p
 pA
 pEvent != nullptr
@@ -38473,7 +38473,6 @@ vr::CVRSteamPrivateLatest::QuitSteamVR()
 vr::CVRSteamPrivateLatest::ShouldKillTheaterPancakeProcess(unsigned int)
 vr::CVRSteamPrivateLatest::ShouldKillTheaterPancakeProcess(unsigned int) [clone .cold]
 vr::CVRSteamPrivateLatest::ShouldSetAsOpenXrRuntime()
-vr::CVRSteamPrivateLatest::ShouldSetAsOpenXrRuntime() [clone .cold]
 vr::CVRSteamPrivateLatest::~CVRSteamPrivateLatest()
 vr::CVRTrackedCamera::AcquireVideoStreamingService(unsigned int, unsigned long long*)
 vr::CVRTrackedCamera::AcquireVideoStreamingService(unsigned int, unsigned long long*) [clone .cold]
