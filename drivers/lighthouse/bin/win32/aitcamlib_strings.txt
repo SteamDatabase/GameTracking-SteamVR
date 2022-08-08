@@ -13,10 +13,11 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
-&0WNM
+%_y-U
 ',=?k
 '.5<=6/7>????????????????
-'7D`D0
+']_Ok
+(<]/y
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -32,6 +33,7 @@ $9^ t
 , last executing in 
 ,020@0L0
 ,W5y+
+-YJ66
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -141,6 +143,7 @@ $9^ t
 0}0i1
 1 1&111A1Q1[1e1p1}1
 1 1014181@1X1h1l1t1
+1 WP0v
 1!1H1P1i1
 1(161D1R1`1p1
 1)1@1V1b1n1~1
@@ -166,8 +169,8 @@ $9^ t
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220551Z0/
+220801000000Z
+220808194646Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -207,8 +210,7 @@ $9^ t
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
 4`:d:q:u:
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
-4nMU{
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5	7+7
 5 5$5
 5!5M5c5k5
@@ -223,6 +225,7 @@ $9^ t
 555M5V5e5x5
 5<9`9l9t9
 5=5C5
+5FjiT
 5Genu
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
@@ -242,7 +245,6 @@ $9^ t
 6I]Dc
 6L7Z7h7~7
 6OB,n_
-6gH_<
 6k6}6
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7
 7#7(73787B7S7X7b7s7x7
@@ -286,6 +288,7 @@ $9^ t
 :;;L;];u;H<L<
 :T;X;
 :T;l;
+:aFE*v2
 :g=l=u=?>|>
 ;	<P<V<p<
 ; ;$;(;,;0;4;q;|;
@@ -415,6 +418,7 @@ Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
 F|t	_^3
+G9P0F
 GetCameraHALInterface
 GetCurrentProcess
 GetCurrentProcessId
@@ -690,7 +694,6 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-bvUR3
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
@@ -757,6 +760,7 @@ memmove
 memset
 missing color table
 multiple IHDR
+nZL	a?y
 no IDAT
 no PLTE
 no SOF
@@ -813,6 +817,7 @@ too many codes
 tr_tr
 turkish
 u(_^[
+u)O|5&
 u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
 uCVj@
@@ -844,7 +849,7 @@ zh_cn
 zh_tw
 zlib corrupt
 {un'%
-|@N3>
 |Lu?c
 }LuHO
+~qj#k"
 ~t&LN

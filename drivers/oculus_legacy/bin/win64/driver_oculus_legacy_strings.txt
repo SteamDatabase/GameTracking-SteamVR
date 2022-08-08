@@ -1,4 +1,5 @@
 	!s99
+	HI,^IT
     A
  %41g
  (Camera)
@@ -7,7 +8,6 @@
  H3E H3E
 !hn7!
 ',=?k
-'7D`D0
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -92,8 +92,8 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714221255Z0/
+220801000000Z
+220808195306Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -106,7 +106,8 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -123,11 +124,11 @@
 9h u{H
 9l$Ht
 9l$pt
+9s+?e
 ;K sCH
 ;K sUH
 ;k sAH
 ;k sDH
-</A_~
 <0:08
 =rIQU
 >0<0:
@@ -246,7 +247,6 @@ L$ SH
 L$ SUVWH
 L$ SVWH
 L$@H3
-L%Bru;
 L9t$huP
 L?n(Zy&
 LIBOVR_DLL_DIR
@@ -452,6 +452,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+q	gzIjl
 startup
 string too long
 strncpy
@@ -462,12 +463,12 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
+t8P! 
 tIL95v
 tXfff
 tdh.dll
 terminate
 tkH97t	H
-v:,r	
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
@@ -486,7 +487,7 @@ z(uMH
 {un'%
 |$ AVH
 |$8I;
-|@N3>
 |Lu?c
 }LuHO
+~qj#k"
 ~t&LN

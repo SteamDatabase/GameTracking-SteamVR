@@ -5,15 +5,13 @@
  A_][
  A_^]
  A__^
- CGw4
  H3E H3E
 !hn7!
 !m_bIsConnected
-%_L~K
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
+'&ut;
 ',=?k
-'7D`D0
 (D$0f
 (f*^[0
 *9Z9N
@@ -116,13 +114,12 @@
 0}0i1
 1.0.0
 130801120000Z
-1RH!qr
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220402Z0/
+220801000000Z
+220808194416Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -135,14 +132,14 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8(+&x
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -206,7 +203,6 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-E(B<H
 E89D$Pu
 E<9D$Tu
 EnterCriticalSection
@@ -234,6 +230,7 @@ H9oHH
 HeapFree
 I9] M
 I9]8I
+IT6OK
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -319,6 +316,7 @@ WindowsGetStringRawBuffer
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
+Xh}<]
 Y9"SD
 [K]taM?
 \$ H;
@@ -352,7 +350,6 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`["1E	Ed
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
 api-ms-win-core-localization-l1-2-0.dll
@@ -387,9 +384,11 @@ malloc
 memcpy
 memmove
 memset
-n#bc{"
 ntelD
+oB}=O
 ole32.dll
+orBdQKD
+prJku
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -404,6 +403,7 @@ terminate
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long
+w0CCz
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
@@ -412,8 +412,7 @@ x]~\6
 |$ AVH
 |$0E3
 |$xMi
-|@N3>
 |Lu?c
-}!zW<gd3
 }LuHO
+~qj#k"
 ~t&LN

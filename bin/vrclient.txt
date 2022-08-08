@@ -4187,8 +4187,8 @@
  putc
  putwc
  qsort
- r C.1147.341029
- r C.1150.341040
+ r C.1147.341026
+ r C.1150.341037
  r C.427.288574
  r CSWTCH.101
  r CSWTCH.217
@@ -17067,8 +17067,6 @@
  t CVROverlayLatest::HideKeyboard() [clone .cold]
  t CVROverlayLatest::HideOverlay(unsigned long long)
  t CVROverlayLatest::HideOverlay(unsigned long long) [clone .cold]
- t CVROverlayLatest::IPCSignal(unsigned long long)
- t CVROverlayLatest::IPCWait(unsigned long long, unsigned int)
  t CVROverlayLatest::Init(CVRSystemLatest*, vr::IVRCompositorSystemInternal*, CVRCompositorClient*)
  t CVROverlayLatest::Init(CVRSystemLatest*, vr::IVRCompositorSystemInternal*, CVRCompositorClient*) [clone .cold]
  t CVROverlayLatest::IsActiveDashboardOverlay(unsigned long long)
@@ -17152,6 +17150,8 @@
  t CVROverlayLatest::ShowOverlay(unsigned long long) [clone .cold]
  t CVROverlayLatest::TriggerLaserMouseHapticVibration(unsigned long long, float, float, float)
  t CVROverlayLatest::TriggerLaserMouseHapticVibration(unsigned long long, float, float, float) [clone .cold]
+ t CVROverlayLatest::WaitFrameSync(unsigned int)
+ t CVROverlayLatest::WaitFrameSync(unsigned int) [clone .cold]
  t CVROverlayLatest::~CVROverlayLatest()
  t CVROverlayViewLatest::AcquireOverlayView(unsigned long long, vr::VRNativeDevice_t*, vr::VROverlayView_t*, unsigned int)
  t CVROverlayViewLatest::AcquireOverlayView(unsigned long long, vr::VRNativeDevice_t*, vr::VROverlayView_t*, unsigned int) [clone .cold]
@@ -24873,8 +24873,6 @@
  t VR_IVROverlay_FnTable_GetTransformForOverlayCoordinates(unsigned long long, ETrackingUniverseOrigin, HmdVector2_t, HmdMatrix34_t*)
  t VR_IVROverlay_FnTable_HideKeyboard()
  t VR_IVROverlay_FnTable_HideOverlay(unsigned long long)
- t VR_IVROverlay_FnTable_IPCSignal(unsigned long long)
- t VR_IVROverlay_FnTable_IPCWait(unsigned long long, unsigned int)
  t VR_IVROverlay_FnTable_IsActiveDashboardOverlay(unsigned long long)
  t VR_IVROverlay_FnTable_IsDashboardVisible()
  t VR_IVROverlay_FnTable_IsHoverTargetOverlay(unsigned long long)
@@ -24916,6 +24914,7 @@
  t VR_IVROverlay_FnTable_ShowMessageOverlay(char*, char*, char*, char*, char*, char*)
  t VR_IVROverlay_FnTable_ShowOverlay(unsigned long long)
  t VR_IVROverlay_FnTable_TriggerLaserMouseHapticVibration(unsigned long long, float, float, float)
+ t VR_IVROverlay_FnTable_WaitFrameSync(unsigned int)
  t VR_IVRPaths_FnTable_HandleToString(unsigned long long, char*, unsigned int, unsigned int*)
  t VR_IVRPaths_FnTable_ReadPathBatch(unsigned long long, PathRead_t*, unsigned int)
  t VR_IVRPaths_FnTable_StringToHandle(unsigned long long*, char*)

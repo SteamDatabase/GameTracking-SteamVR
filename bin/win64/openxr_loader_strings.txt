@@ -46,7 +46,6 @@
 %u.%u.%u
 ' is not a number.
 ',=?k
-'7D`D0
 (A^A]^[
 (A_A^^[
 (A_A^_]
@@ -60,7 +59,6 @@
 )D$ L
 )t$ H
 *9Z9N
-*~9Odn
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -165,8 +163,8 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220302Z0/
+220801000000Z
+220808194343Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -179,14 +177,19 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3k}_&vE
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5B&o;
+5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7t^e5Aa
+8@"Fa
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -417,7 +420,6 @@ FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
 GENERAL
-GL$Z6
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -517,7 +519,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
 No active XrInstance handle.
-OH/"i,;
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
@@ -643,7 +644,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-[02]-
+Z0[dd
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -808,11 +809,11 @@ l$PH;1u;H;
 l$pE3
 l$ptNH
 l$pu!H
-l3_iS4
 labelInfo must be non-NULL
 layer 
 library_path
 list<T> too long
+lnze4
 localeconv
 m0k0$
 malloc
@@ -827,7 +828,6 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
-q_,G$
 rejectDupKeys
 runtime
 s t#fff
@@ -981,6 +981,8 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+y?@(;T
+zL'8&
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -1001,8 +1003,8 @@ xrWaitSwapchainImage
 |$pH+
 |$xH;
 |$xIi
-|@N3>
 |Lu?c
 }LuHO
 ~+fff
+~qj#k"
 ~t&LN

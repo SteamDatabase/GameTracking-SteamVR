@@ -25,6 +25,7 @@
 	type_name
 	w=%d, h=%d, format=%d
 	|$HA
+	}yXH
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
     A
@@ -46,7 +47,7 @@
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`ab1|
+ !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`ab
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
@@ -93,7 +94,6 @@
  H3E H3E
  H;\$xu
  L;uX
- O`hF
  Outdent() without matching Indent().
  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
  Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
@@ -114,6 +114,7 @@
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
  of type 
  sJE3
+!	@MI
 !! refusing to trigger minidump with debugger attached
 !""""""
 !&.37<
@@ -266,7 +267,7 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knN
+$tI(knNxV;
 $u=Hi
 $u[Hi
 $u^Hi
@@ -539,7 +540,6 @@ $w!Hc
 ',=?k
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '.5<=6/7>????????????????
-'7D`D0
 '9k0t
 'CVRMsg_ClientMailbox_SendMailboxMessage
 'CVRMsg_CompositorHookScreenshotResponse
@@ -558,12 +558,11 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%Xp"
-(%`7"
-(59.(
+(-Uq"
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
+(=.e"
 (A\^][
 (A\_^[
 (A]_^[
@@ -2220,8 +2219,8 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220329000000Z
-220609000000Z
-220714221008Z0/
+220801000000Z
+220808195209Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2230,7 +2229,6 @@ $w!Hc
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2HcB,
-2V# YE
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -2248,9 +2246,10 @@ $w!Hc
 42HcF,
 440.97
 4IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
+5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 650000
@@ -2297,9 +2296,7 @@ $w!Hc
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9)u$M
 98tHH
-99{Wh
 9;tC@8{
-9=t`>
 9A(~0H
 9A|6H
 9C s.H
@@ -2748,6 +2745,7 @@ $w!Hc
 @USWAVAWH
 @USWH
 @UVATAUAVH
+@UVATAVAWH
 @UVATAVH
 @UVATH
 @UVAUAWH
@@ -2924,6 +2922,7 @@ A_A^A\[
 A_A^A\[]
 A_A^A\]
 A_A^A\^
+A_A^A\^]
 A_A^A\_[]
 A_A^A\_]
 A_A^A\_^
@@ -3083,7 +3082,6 @@ BlockQueueHeaderMutex_
 BlockQueueHeader_
 Boolean default must be true or false.
 Bootstrapper init
-BuU.'
 Buffer
 BufferView
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
@@ -3104,8 +3102,7 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-56;
-C-~!0
+C-U6;
 C09w(~:L
 C0L9$
 C0L;E
@@ -3831,7 +3828,10 @@ D8$/u
 D8$0u
 D8$7u
 D8$>u
+D8%SQ0
 D8,8u
+D85:y4
+D85Ij5
 D8<0u
 D8<>u
 D8D$9t$
@@ -3856,7 +3856,6 @@ D8}gt$L
 D8}gu
 D8}guH
 D8~ A
-D9%Cc,
 D90uGH
 D9>u:H
 D9@ }
@@ -4134,6 +4133,7 @@ F0L;G
 F8I+F0H
 F9D	$
 F9D	$t
+F9{5E
 F@;G t
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -4717,12 +4717,13 @@ H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
-H;5/6;
+H;5O6;
+H;5Z+*
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=zD<
+H;=zN*
 H;A s
 H;Axt
 H;C(v
@@ -5831,7 +5832,6 @@ Out of thread local storage!
 OutputCoord
 OutputDebugStringA
 OutputDebugStringW
-OverlayEvent_%d
 P0@8}
 P0D8e
 PATH_TO_LOCAL_STRING failed with %s
@@ -6483,7 +6483,6 @@ T$xE3
 T$xH;
 T$xL+
 T$xL;
-T5?H&
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -6660,7 +6659,7 @@ UWAVAWI
 UWAVH
 UWAWH
 Uc:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
-Ug@8=(
+Ug@8=H
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
 Unable to coerce boolean action to input source that supports neither float nor boolean: %s
 Unable to coerce float action to input source that supports neither float nor boolean: %s
@@ -7383,6 +7382,7 @@ VR_Compositor_NewFrame
 VR_Compositor_NewPose
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
+VR_Compositor_OverlayVSync
 VR_DriverDirectMutex
 VR_DriverDirectState
 VR_EventMutex
@@ -7471,13 +7471,11 @@ VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared text
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
 W H;C
 W$H;C
-W%;;.
-W%|9*
+W%\9*
 W(H;C
 W(LcB
 W,H;C
 W0H;C
-W5<y$
 W8H+W`I
 W8H;C
 W<H;C
@@ -7538,7 +7536,6 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
-X%lz/
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -7920,9 +7917,10 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%(p.
-Y-Pp.
+Y5vJ.
 Y9"SD
+Y=E(.
+Y=^I.
 Y>t$7?*
 YD$8E
 Yd$@A
@@ -8103,7 +8101,7 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \%03o
-\-)-$
+\-Q/$
 \10I;
 \U%08x
 \\.\pipe\
@@ -8118,7 +8116,6 @@ ZvFailed to create fence %ls.
 ] name = [
 ]0H9X
 ]9k0tVD
-]=mv"
 ]@L9{(
 ]HH;]Pt8
 ]HH;]Ptb
@@ -8130,8 +8127,7 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%7X"
-_%yT"
+_%[N"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8725,7 +8721,7 @@ e_H9U
 east_click
 east_touch
 effffff
-eg@8='
+eg@8=G
 el_el
 elapsed_time
 emissiveFactor
@@ -9365,6 +9361,7 @@ modelskins
 modff
 motion
 motionSmoothing
+mt!Z*
 mtllib
 multiple IHDR
 multiple signals per batch not allowed
@@ -9502,7 +9499,6 @@ pCmdBuf != nullptr
 pCommandList
 pCreateInfo->createFlags == 0
 pDevice
-pEvent != nullptr
 pHandle
 pImage != nullptr
 pInput != nullptr
@@ -10327,6 +10323,7 @@ t)H9P
 t)HcO4
 t+L9P
 t+fff
+t, W-$
 t,HcI
 t,HcK
 t,HcK 
@@ -10338,7 +10335,7 @@ t1Hcl$@
 t1fff
 t3fff
 t4L9P
-t8D8-A'3
+t8D8-
 t9fff
 t:fff
 t<Lc@xE
@@ -10467,6 +10464,7 @@ u,+u(
 u-H9X s
 u.H9{`t(H
 u/fff
+u2W|c/:
 u4H9X s
 u5H9t$0u.H
 u9fff
@@ -10493,8 +10491,9 @@ uZEeu
 ua_ua
 ub'vb'v
 ubHcC0I
+ud;M{
 udH9P sRH
-ug@8=
+ug@8=&
 ugL9x s
 ugL;D$H
 ui8D$0tc
@@ -11214,7 +11213,7 @@ xrGetReferenceSpaceBoundsRect
 xrGetSystem
 xrGetSystemProperties
 xrGetViewConfigurationProperties
-xrGetVisibilityMask: invalid view configuration type
+xrGetVisibilityMask: invalid view configuration type (%i)
 xrGetVisibilityMask: invalid view index
 xrGetVisibilityMask: invalid visibility mask type
 xrGetVisibilityMask: null visibilityMask
@@ -11392,7 +11391,6 @@ zuusA
 |$xM;
 |$xMi
 |8PH;
-|@N3>
 |D8E t"H
 |Lu?c
 |s;K(tnA
@@ -11412,5 +11410,6 @@ zuusA
 ~6HcD$ I
 ~Efff
 ~PH9~Xt(H
+~qj#k"
 ~t&LN
 ~universe:

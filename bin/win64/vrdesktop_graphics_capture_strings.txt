@@ -18,9 +18,9 @@
 !hn7!
 %%.%dg
 %s%s%s%s%s
+' 4xX
 ' is not a number.
 ',=?k
-'7D`D0
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -30,6 +30,7 @@
 (t$ 2
 (t$@H
 (|$ H
+)1 QT
 )D$ L
 )t$0H
 )t$@H
@@ -38,7 +39,6 @@
 +Xt@(
 +o'q)}
 , last executing in 
-,NCv}
 ,W5y+
 -1e+9999
 -Infinity
@@ -176,14 +176,13 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220923Z0/
+220801000000Z
+220808194848Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2o,zt
 2xJK7*L
 311109235959Z0b1
 330314235959Z0L1
@@ -191,7 +190,8 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -206,6 +206,7 @@
 < t+<
 </u#H
 <0:08
+<i&Y6
 <unknown>
 =rIQU
 >0<0:
@@ -328,6 +329,7 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
+Bv Uz
 C++/WinRT version:1.0.190111.3
 C0L9$
 CD$(H
@@ -424,7 +426,6 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Dq?%{Y
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
@@ -649,9 +650,9 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+NIlg0
 NPH9Q
 OLEAUT32.dll
-Og\'9
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -666,6 +667,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSe
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -794,7 +796,6 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-Wrv9C
 Y9"SD
 [K]taM?
 \$ E3
@@ -940,6 +941,7 @@ http://www.digicert.com/CPS0
 hu_hu
 hungarian
 icon_steamvr_desktop.png
+ie"	#2L
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -981,7 +983,6 @@ memcpy
 memmove
 memset
 message_id
-nG`c6
 no_no
 norwegian
 ntelD
@@ -1012,7 +1013,6 @@ romanian
 ru_ru
 running
 russian
-sKY-G
 schinese
 shcore.dll
 shutdown
@@ -1101,7 +1101,8 @@ zh_tw
 |$PL9~
 |$hH9>ueH
 |$pH+
-|@N3>
 |Lu?c
 }LuHO
+~:}jg
+~qj#k"
 ~t&LN

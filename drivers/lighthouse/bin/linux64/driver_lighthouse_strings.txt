@@ -862,6 +862,7 @@ $@
 17CKalmanQuaternion
 17CLinuxVideoStream
 18IUsbDeviceCallback
+19:42:57
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -872,7 +873,6 @@ $@
 20CVRFramerateGovernor
 20CVkCommandBufferPool
 20IVRAudioNotification
-22:02:00
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -1052,6 +1052,7 @@ Attempting HID Open %s: %s
 Audio
 AudioBridge
 Aug
+Aug  8 2022
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)
@@ -4264,7 +4265,6 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
 Jul
-Jul 14 2022
 July
 Jun
 June

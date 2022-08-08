@@ -2817,7 +2817,6 @@ $0}
 /data/src/vrclient/vrcompositorclient.cpp
 /data/src/vrclient/vrcompositorsharedtextures.cpp
 /data/src/vrclient/vrmailboxclient.cpp
-/data/src/vrclient/vroverlay.cpp
 /dev/null
 /device_was_drawn
 /e%s%s
@@ -3075,6 +3074,7 @@ $0}
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
+19:42:53
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -3139,7 +3139,6 @@ $0}
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:01:57
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3741,6 +3740,7 @@ Attempting to wait on a fence that has already been waited for. Current: %llx Wa
 Attempting to wait on a fence value that is too large. Current: %llx Wait: %llx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %llx, Signaled: %llx
 Aug
+Aug  8 2022
 August
 AuthenticAMD
 AutosaveURL
@@ -3864,8 +3864,8 @@ C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DescriptorPool::Tables]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1147.341029
-C.1150.341040
+C.1147.341026
+C.1150.341037
 C.427.288574
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -14686,8 +14686,6 @@ CVROverlayLatest::HideKeyboard()
 CVROverlayLatest::HideKeyboard() [clone .cold]
 CVROverlayLatest::HideOverlay(unsigned long long)
 CVROverlayLatest::HideOverlay(unsigned long long) [clone .cold]
-CVROverlayLatest::IPCSignal(unsigned long long)
-CVROverlayLatest::IPCWait(unsigned long long, unsigned int)
 CVROverlayLatest::Init(CVRSystemLatest*, vr::IVRCompositorSystemInternal*, CVRCompositorClient*)
 CVROverlayLatest::Init(CVRSystemLatest*, vr::IVRCompositorSystemInternal*, CVRCompositorClient*) [clone .cold]
 CVROverlayLatest::IsActiveDashboardOverlay(unsigned long long)
@@ -14771,6 +14769,8 @@ CVROverlayLatest::ShowOverlay(unsigned long long)
 CVROverlayLatest::ShowOverlay(unsigned long long) [clone .cold]
 CVROverlayLatest::TriggerLaserMouseHapticVibration(unsigned long long, float, float, float)
 CVROverlayLatest::TriggerLaserMouseHapticVibration(unsigned long long, float, float, float) [clone .cold]
+CVROverlayLatest::WaitFrameSync(unsigned int)
+CVROverlayLatest::WaitFrameSync(unsigned int) [clone .cold]
 CVROverlayLatest::~CVROverlayLatest()
 CVROverlayViewLatest::AcquireOverlayView(unsigned long long, vr::VRNativeDevice_t*, vr::VROverlayView_t*, unsigned int)
 CVROverlayViewLatest::AcquireOverlayView(unsigned long long, vr::VRNativeDevice_t*, vr::VROverlayView_t*, unsigned int) [clone .cold]
@@ -22863,7 +22863,6 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
 Jul
-Jul 14 2022
 July
 Jun
 June
@@ -25496,6 +25495,7 @@ VR_Compositor_NewFrame
 VR_Compositor_NewPose
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
+VR_Compositor_OverlayVSync
 VR_Compositor_VulkanSyncClientAndCompositor
 VR_Compositor_VulkanSyncClientAndCompositor_SharedMem
 VR_DriverDirectMutex
@@ -25728,8 +25728,6 @@ VR_IVROverlay_FnTable_GetPrimaryDashboardDevice()
 VR_IVROverlay_FnTable_GetTransformForOverlayCoordinates(unsigned long long, ETrackingUniverseOrigin, HmdVector2_t, HmdMatrix34_t*)
 VR_IVROverlay_FnTable_HideKeyboard()
 VR_IVROverlay_FnTable_HideOverlay(unsigned long long)
-VR_IVROverlay_FnTable_IPCSignal(unsigned long long)
-VR_IVROverlay_FnTable_IPCWait(unsigned long long, unsigned int)
 VR_IVROverlay_FnTable_IsActiveDashboardOverlay(unsigned long long)
 VR_IVROverlay_FnTable_IsDashboardVisible()
 VR_IVROverlay_FnTable_IsHoverTargetOverlay(unsigned long long)
@@ -25771,6 +25769,7 @@ VR_IVROverlay_FnTable_ShowKeyboardForOverlay(unsigned long long, EGamepadTextInp
 VR_IVROverlay_FnTable_ShowMessageOverlay(char*, char*, char*, char*, char*, char*)
 VR_IVROverlay_FnTable_ShowOverlay(unsigned long long)
 VR_IVROverlay_FnTable_TriggerLaserMouseHapticVibration(unsigned long long, float, float, float)
+VR_IVROverlay_FnTable_WaitFrameSync(unsigned int)
 VR_IVRPaths_FnTable_HandleToString(unsigned long long, char*, unsigned int, unsigned int*)
 VR_IVRPaths_FnTable_ReadPathBatch(unsigned long long, PathRead_t*, unsigned int)
 VR_IVRPaths_FnTable_StringToHandle(unsigned long long*, char*)
@@ -31005,7 +31004,6 @@ oxrruntimemanagement::SetDefaultRuntime()
 oxrruntimemanagement::SetDefaultRuntime() [clone .cold]
 p
 pA
-pEvent != nullptr
 pHandle
 pInput != nullptr
 pL

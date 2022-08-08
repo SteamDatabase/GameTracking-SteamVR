@@ -58,7 +58,6 @@
 #*1892+$
 #?RADIANCE
 #?RGBE
-#D9Q\
 #oculus_requested_quit
 $9^ t
 %%.%dg
@@ -89,7 +88,7 @@ $9^ t
 ',=?k
 '.5<=6/7>????????????????
 '00090B0G0L0S0X0i0o0
-'7D`D0
+'XxQH
 '[', '{', or a literal
 'uri' is missing from non binary glTF file buffer.
 (%@P	
@@ -117,7 +116,6 @@ $9^ t
 -3003
 -Infinity
 -startup
-.$$kzna:
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -376,6 +374,7 @@ $9^ t
 0^_[]
 0cbJ<H
 0cbZ<H
+0cjamS
 0p1t1x1|1
 0w0c1
 0}0i1
@@ -385,7 +384,6 @@ $9^ t
 1!1)111/4
 1"1'1,11161;1@1E1J1O1T1Y1^1c1h1u1
 1"1'191?1r1G2T2]2l2q2v2
-1"s<~
 1#3Z3p3
 1$1-121p1
 1$10181X1|1
@@ -425,6 +423,7 @@ $9^ t
 1e+9999
 1k3o3
 1o1z1
+1w&Mcn
 2 2$2(2,202
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 2 2$2(2,2024282<2@2D2H2L2l2p2|2
@@ -454,8 +453,8 @@ $9^ t
 212l2
 220323000000Z
 220329000000Z
-220609000000Z
-220714220647Z0/
+220801000000Z
+220808194823Z0/
 223w3
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -584,7 +583,7 @@ $9^ t
 4a8w8
 4c5z5
 4f5s5
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4k5|5
 4l4p4t4x4|4
 4s6=7v7
@@ -619,6 +618,7 @@ $9^ t
 5;6z6
 5>5H5Q5Z5
 5D5e5
+5FjiT
 5Genu
 5I5O5d5m5
 5R5[5d5m5r5w5~5
@@ -922,7 +922,6 @@ $9^ t
 ;Z<~<
 ;[<a<
 ;a<h<
-;cQS%`
 <!<'<.<<<E<J<z<
 <!<1<A<Q<a<q<
 <"=[=b=
@@ -990,6 +989,7 @@ $9^ t
 =&=b=p=
 ='=Z=i=x=
 =(=,=<=@=D=H=P=h=x=|=
+=)F?H
 =*>L>Q>Y>_>e>l>~>
 =,=5=@=
 =,=P=\=d=
@@ -1309,7 +1309,6 @@ HeapAlloc
 HeapFree
 Hmd not found.
 HmdDriverFactory
-I<;aooE
 ID3D11DeviceContext4::Signal
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -1395,7 +1394,6 @@ LoadLibraryA
 LoadLibraryW
 LocalizationManager
 M$SVW
-M?{Z_
 MB(iVR
 MSVCP140.dll
 MainThrd
@@ -1460,7 +1458,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS$M
+RSDSG
 RaiseException
 ResetEvent
 S0Q0O
@@ -1560,6 +1558,7 @@ Wjlhx
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
+ZU&Y'h
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1591,7 +1590,6 @@ Y__^[
 _,9_0t-
 _0_[]
 _0_^]
-_:3`o0:G9
 _CIacos
 _CIfmod
 _CIpow
@@ -1968,6 +1966,7 @@ j7h`-
 j=hL%
 j@hp#
 j@j P
+jGo(K
 ja_jp
 japanese
 jdjdh
@@ -2366,7 +2365,6 @@ t	_^2
 t$,RW
 t$j$h`'
 t?hT)
-tGi n
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -2402,7 +2400,6 @@ u$WVS
 u(_^[
 u8j@P
 u<f9C u6f9C0u0f9C@u*f9CPu$
-u?Ant
 u?jHQ
 uBf9C
 uCVj@
@@ -2436,6 +2433,7 @@ vietnamiese
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcompositor_mailbox
+vtf3^
 w QVR
 w,_^[
 w4_^]
@@ -2469,10 +2467,10 @@ znear
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {un'%
-|@N3>
 |Lu?c
 |cj#h
 }	jCh@u
 }LuHO
 }qj<h
+~qj#k"
 ~t&LN

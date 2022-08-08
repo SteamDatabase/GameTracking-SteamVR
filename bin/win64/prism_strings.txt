@@ -308,7 +308,6 @@ $II+L$`
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
-'7D`D0
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -531,8 +530,8 @@ $II+L$`
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220450Z0/
+220801000000Z
+220808194504Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -546,18 +545,22 @@ $II+L$`
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+6>]Hd
 6I]Dc
 6OB,n_
 70503
+7C`oE
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 t"L
 8 u'L
 8A^A\
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8V:sB
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -568,9 +571,11 @@ $II+L$`
 9H(~-
 :A9x 
 :EotB
+:L}4U
 ;K sOH
 ;S sMH
 ;\$x|
+;k!O*
 <0:08
 <P)9Y
 <unknown>
@@ -1179,7 +1184,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
 J>@G_
-JhF6)F
 KERNEL32.dll
 K}*n:	
 L#A0H
@@ -1332,7 +1336,6 @@ NvEncode
 NvEncode %s-%s
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
-O"g%j
 O0H9Q
 OLEAUT32.dll
 OpH9Q
@@ -1585,7 +1588,6 @@ VK_KHR_surface
 VK_KHR_swapchain
 VK_LAYER_KHRONOS_validation
 VK_NV_compute_shader_derivatives
-VQAbCx
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
@@ -1630,7 +1632,6 @@ Yl$ M
 Yl$4E
 [ AVH
 [K]taM?
-[R"wG
 \$ AVH
 \$ E3
 \$ H+
@@ -1868,7 +1869,6 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
-j^BCJq
 jj@0HK4
 k0i0$
 l$ E3
@@ -2544,6 +2544,7 @@ xA_A^A]A\_^[]
 x]~\6
 yxxxxxxxH
 yxxxxxxxI+
+zd~"u
 {pH;{xw?
 {un'%
 |$ ATAVAWH
@@ -2579,11 +2580,11 @@ yxxxxxxxI+
 |$xIk
 |$xMi
 |6hE3
-|@N3>
 |Lu?c
 }(M98t
 }LuHO
 }`H+}XH
 }wH9S
+~qj#k"
 ~t&LN
 ~xM+~pI

@@ -470,6 +470,7 @@ $+
 16CVkCommandBuffer
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:42:57
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
@@ -477,7 +478,6 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-22:02:00
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -543,6 +543,7 @@ April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe
 Aug
+Aug  8 2022
 August
 Automatically quitting due to idle time > %f seconds.
 B
@@ -1938,7 +1939,6 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
 Jul
-Jul 14 2022
 July
 Jun
 June

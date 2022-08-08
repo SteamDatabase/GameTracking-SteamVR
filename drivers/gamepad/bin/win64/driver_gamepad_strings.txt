@@ -2,13 +2,12 @@
  %41g
  A__^
  H3E H3E
-!#(V0
 !hn7!
 ',=?k
-'7D`D0
 (D$ f
 (f*^[0
 (|$pL
+*9/ u
 *9Z9N
 +Xt@(
 +o'q)}
@@ -99,8 +98,8 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220832Z0/
+220801000000Z
+220808194822Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -113,7 +112,9 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5?Qyh
+5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -127,7 +128,7 @@
 =rIQU
 >0<0:
 >Mp$d
-?Ucl5;
+>\PyF(
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -143,6 +144,7 @@ A_A^_^]
 AjEB#AZ
 AuthD
 Bellevue1
+CcdE!
 CloseHandle
 CreateEventW
 D$8H9
@@ -211,7 +213,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS"
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -263,11 +264,9 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
-Y"HWbOek;~
 Y9"SD
 [K]taM?
 \$ UH
-]%V45
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -315,7 +314,6 @@ bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
 e,>~^
-f.IfW
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -324,7 +322,6 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
-l9`C`
 m0k0$
 malloc
 map/set<T> too long
@@ -333,7 +330,7 @@ memmove
 memset
 ntelD
 p WAVAWH
-q4xT*
+pKkr*
 string too long
 t$ AVH
 t$ AWH
@@ -357,7 +354,7 @@ x]~\6
 {gamepad}/input/gamepad_profile.json
 {un'%
 |$ AVH
-|@N3>
 |Lu?c
 }LuHO
+~qj#k"
 ~t&LN

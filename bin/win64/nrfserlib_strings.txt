@@ -66,6 +66,7 @@
  times.
  version-number:
 !hn7!
+#KMiT
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -75,7 +76,6 @@
 %s: Failed in state: %d (nrf_error: %s)
 ' is not a number.
 ',=?k
-'7D`D0
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (A^A]A\^
@@ -624,6 +624,7 @@
 0A_A^_^[
 0A__[
 0A__^
+0fEE{
 0w0c1
 0}0i1
 130801120000Z
@@ -633,8 +634,8 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220801Z0/
+220801000000Z
+220808194725Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -647,8 +648,11 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3<fjm
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+55*P7
+5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 64-bit
@@ -1058,6 +1062,7 @@ C|$ H
 C|$0H
 C|$PM
 C|$xfff
+D )/m
 D$ @B
 D$ A;
 D$ E3
@@ -1172,6 +1177,7 @@ DoScanContext
 DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
+D}Wq()
 E M;G
 E9e ~7I
 E@HcH
@@ -1199,6 +1205,7 @@ Existing Bootloader mode.
 Extended Error: %s, %s
 F8$3u
 F<f9G
+FU"'FSR
 Failed to GAP Auth Key Reply. (nrf_error: %s)
 Failed to GAP Authenticate. (nrf_error: %s)
 Failed to GAP Security Params Reply. (nrf_error: %s)
@@ -1517,6 +1524,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDS,8
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1867,7 +1875,6 @@ bootloader
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 calloc
-cdN? 
 close
 cntrl
 d$0D)#
@@ -1882,6 +1889,7 @@ e,>~^
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+f.HUm+
 fD9$xu
 fD9+u
 fE9&t2H
@@ -1934,6 +1942,7 @@ ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
+jy)jnL
 k0i0$
 l$ H=
 l$ VAVAWH
@@ -2164,6 +2173,7 @@ upper
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
+wV)2?
 wcschr
 winsock
 wn>Jj
@@ -2211,8 +2221,9 @@ xdigit
 |$pL+
 |$pf;
 |$ps`H
-|@N3>
 |Lu?c
 }LuHO
+}yZzb?
 ~'HcB
+~qj#k"
 ~t&LN

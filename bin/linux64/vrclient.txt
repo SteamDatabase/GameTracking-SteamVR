@@ -4411,8 +4411,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1139.340883
- r C.1142.340894
+ r C.1139.340880
+ r C.1142.340891
  r C.413.288424
  r CSWTCH.100
  r CSWTCH.16
@@ -7858,10 +7858,12 @@
  t CSxrInstance::InitSupportedFeatures()
  t CSxrInstance::InteractionProfileFromControllerType(std::string)
  t CSxrInstance::InteractionProfileToControllerType(std::string)
+ t CSxrInstance::IsDisplayTimeValid(long)
  t CSxrInstance::IsEnvironmentBlendModeSupported(XrViewConfigurationType, XrEnvironmentBlendMode)
  t CSxrInstance::IsExtensionEnabled(char const*)
  t CSxrInstance::IsExtensionSupported(char const*)
  t CSxrInstance::IsViewConfigurationTypeSupported(XrViewConfigurationType)
+ t CSxrInstance::IsViewConfigurationTypeValid(XrViewConfigurationType)
  t CSxrInstance::PathToString(unsigned long, std::string&)
  t CSxrInstance::PathToString(unsigned long, unsigned int, unsigned int*, char*)
  t CSxrInstance::PathToString(unsigned long, unsigned int, unsigned int*, char*) [clone .cold]
@@ -7919,6 +7921,7 @@
  t CSxrSession::GetVisibilityMask(XrViewConfigurationType, unsigned int, XrVisibilityMaskTypeKHR, XrVisibilityMaskKHR*) [clone .cold]
  t CSxrSession::Init()
  t CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView> >&, XrViewLocateInfo const*, XrViewState*)
+ t CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView> >&, XrViewLocateInfo const*, XrViewState*) [clone .part.0]
  t CSxrSession::RefreshSessionStateForFocus()
  t CSxrSession::RefreshSessionStateForFocus() [clone .cold]
  t CSxrSession::RequestDisplayRefreshRateFB(float)
@@ -15794,8 +15797,6 @@
  t CVROverlayLatest::HideKeyboard() [clone .cold]
  t CVROverlayLatest::HideOverlay(unsigned long)
  t CVROverlayLatest::HideOverlay(unsigned long) [clone .cold]
- t CVROverlayLatest::IPCSignal(unsigned long)
- t CVROverlayLatest::IPCWait(unsigned long, unsigned int)
  t CVROverlayLatest::Init(CVRSystemLatest*, vr::IVRCompositorSystemInternal*, CVRCompositorClient*)
  t CVROverlayLatest::Init(CVRSystemLatest*, vr::IVRCompositorSystemInternal*, CVRCompositorClient*) [clone .cold]
  t CVROverlayLatest::IsActiveDashboardOverlay(unsigned long)
@@ -15879,6 +15880,8 @@
  t CVROverlayLatest::ShowOverlay(unsigned long) [clone .cold]
  t CVROverlayLatest::TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
  t CVROverlayLatest::TriggerLaserMouseHapticVibration(unsigned long, float, float, float) [clone .cold]
+ t CVROverlayLatest::WaitFrameSync(unsigned int)
+ t CVROverlayLatest::WaitFrameSync(unsigned int) [clone .cold]
  t CVROverlayLatest::~CVROverlayLatest()
  t CVROverlayViewLatest::AcquireOverlayView(unsigned long, vr::VRNativeDevice_t*, vr::VROverlayView_t*, unsigned int)
  t CVROverlayViewLatest::AcquireOverlayView(unsigned long, vr::VRNativeDevice_t*, vr::VROverlayView_t*, unsigned int) [clone .cold]
@@ -23829,8 +23832,6 @@
  t VR_IVROverlay_FnTable_GetTransformForOverlayCoordinates(unsigned long, ETrackingUniverseOrigin, HmdVector2_t, HmdMatrix34_t*)
  t VR_IVROverlay_FnTable_HideKeyboard()
  t VR_IVROverlay_FnTable_HideOverlay(unsigned long)
- t VR_IVROverlay_FnTable_IPCSignal(unsigned long)
- t VR_IVROverlay_FnTable_IPCWait(unsigned long, unsigned int)
  t VR_IVROverlay_FnTable_IsActiveDashboardOverlay(unsigned long)
  t VR_IVROverlay_FnTable_IsDashboardVisible()
  t VR_IVROverlay_FnTable_IsHoverTargetOverlay(unsigned long)
@@ -23872,6 +23873,7 @@
  t VR_IVROverlay_FnTable_ShowMessageOverlay(char*, char*, char*, char*, char*, char*)
  t VR_IVROverlay_FnTable_ShowOverlay(unsigned long)
  t VR_IVROverlay_FnTable_TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
+ t VR_IVROverlay_FnTable_WaitFrameSync(unsigned int)
  t VR_IVRPaths_FnTable_HandleToString(unsigned long, char*, unsigned int, unsigned int*)
  t VR_IVRPaths_FnTable_ReadPathBatch(unsigned long, PathRead_t*, unsigned int)
  t VR_IVRPaths_FnTable_StringToHandle(unsigned long*, char*)

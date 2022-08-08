@@ -53,7 +53,6 @@ $iMBm
 ' is not a number.
 ',=?k
 '010F0n0
-'7D`D0
 ( 8PX
 ('8PW
 (8084888<8@8D8H8L8P8T8X8\8`8d8h8l8`<d<h<l<p<t<x<|<
@@ -75,6 +74,7 @@ $iMBm
 +S@H#
 +Xt@(
 +Z$cH
++_G%n
 +o'q)}
 +p$+p
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
@@ -457,8 +457,8 @@ $iMBm
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220535Z0/
+220801000000Z
+220808194632Z0/
 222f2
 223A3S3h3y3
 241009235959Z0a1
@@ -540,7 +540,6 @@ $iMBm
 4 4@4L4l4t4
 4 5x5
 4!414A4Q4a4q4
-4!_Mz(
 4"4)40474>4E4L4S4Z4a4h4o4v4}4
 4"595r5
 4"5c5
@@ -576,7 +575,7 @@ $iMBm
 4W5`5
 4Z4q4
 4\4c4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4k9j;r;
 4n4x4
 4u6:;B;J;
@@ -616,9 +615,9 @@ $iMBm
 5B5z5
 5D6|6
 5E5T5b5x5
+5FjiT
 5G7}7
 5Genu
-5M";>
 5U7r7
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
@@ -703,6 +702,7 @@ $iMBm
 717;7H7Q7\7i7E8
 717J7O7d7
 718C8
+71btp4
 747D7H7X7\7`7d7h7p7
 747D7H7X7\7`7h7
 747h7
@@ -1221,6 +1221,7 @@ Dz8QQ
 E _^[
 E'i}p&b
 E;w0tLj
+E<ZWL!{
 Eb2]A=
 Empty escape sequence in string
 EncodePointer
@@ -1364,6 +1365,7 @@ HP;HL
 HPQVR
 HPhX_
 HPjPW
+HRlxm-
 H`$?h|
 Hc9;q
 HeapAlloc
@@ -1406,6 +1408,7 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocale
 IsValidLocaleName
+J5Dp~
 J>@G_
 JBIh	i
 JX<$N
@@ -1461,6 +1464,7 @@ Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 November
 O,9O(vV
+O2lc#
 OH+O@
 OH+O@I
 OHPSQ
@@ -1502,7 +1506,6 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
-RSDS?e
 RWQSV
 R\hvv
 RaiseException
@@ -1571,7 +1574,6 @@ SwgtX
 SwitchToThread
 Syntax error: value, object or array expected.
 SystemTimeToTzSpecificLocalTime
-TAk0\^%X
 TargetOversubscriptionFactor
 TerminateProcess
 The requested interface is incompatible with the compositor and the compositor is running (122)
@@ -1998,7 +2000,6 @@ argument out of domain
 assert json failed
 atan2
 b4 a2
-bOoNj
 bad address
 bad allocation
 bad array new length
@@ -2114,6 +2115,7 @@ kW$4k_(4
 keylength >= 2^30
 l*JHD
 l,kg<i
+lR=K/
 ldexp
 log10
 lq%&1T
@@ -2207,7 +2209,6 @@ t,WW9}
 t/ht$
 t2RWV
 t4x4|4
-t<eG-
 tAm4@
 tB;wPt
 tEj&hd
@@ -2245,6 +2246,7 @@ u28C`t
 u2Vj@hX_
 u?^p?o4
 uCPVj
+uO -U"
 uOSVW
 u^9^\t/
 unknown error
@@ -2253,12 +2255,10 @@ v!j"X_^[
 v2!L.2
 v<'*6
 v=Y]Bv
-vW%8Z
 value too large
 vector<T> too long
 version
 vj`7%X,
-voX'F
 vrclient Shared Lib Not Found (102)
 vrclient.dll
 vrserver internal error (124)
@@ -2286,7 +2286,6 @@ zwom}
 {^5#W-
 {un'%
 |)P!?Ua0
-|@N3>
 |Lu?c
 |TBc4
 |W8A=
@@ -2298,4 +2297,5 @@ zwom}
 ~ $s%r
 ~0WPQ
 ~4VVS
+~qj#k"
 ~t&LN

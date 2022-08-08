@@ -61,7 +61,6 @@ $Phdd
 %s: WriteFile failed! (%s)
 ' is not a number.
 ',=?k
-'7D`D0
 ()$^.*+?[]|\-{},:=!
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
@@ -232,8 +231,8 @@ $Phdd
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220551Z0/
+220801000000Z
+220808194645Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -283,7 +282,7 @@ $Phdd
 4A5J5
 4^4c4i4r4
 4d4h4l4p4t4x4|4
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4i4v4
 4m5;6
 4v6P8U8]8n8z8
@@ -305,6 +304,7 @@ $Phdd
 5;5I5c5h5
 5<5m5
 5=5F5
+5FjiT
 5Genu
 5K6i6
 5Z7L8r8
@@ -560,7 +560,6 @@ $Phdd
 @d;Cd
 A valid JSON document must be either an array or an object value.
 AAuthentication
-A^O Y
 Address:  %s
 AjEB#AZ
 BS1_MSG_EXTEND_TIMEOUT
@@ -752,7 +751,6 @@ K32EnumProcesses
 K32GetModuleBaseNameA
 K32GetProcessImageFileNameA
 KERNEL32.dll
-Kna$'t|X#
 K}*n:	
 L3T3X3\3`3d3h3l3x3$4(4,4D4H4L4
 L?n(Zy&
@@ -773,6 +771,7 @@ Linux 3.6
 LoadLibraryA
 LocalFree
 Logger.txt
+M<T>D(Q
 MB(iVR
 MSVCP140.dll
 Mac OS
@@ -823,6 +822,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDS|
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1199,6 +1199,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
+q4.LC
 realloc
 runas
 space
@@ -1266,7 +1267,6 @@ y4_^[
 {un'%
 |	9A 
 |	;J 
-|@N3>
 |Lu?c
 |cj#h
 }	jCh
@@ -1275,4 +1275,5 @@ y4_^[
 ~6VVS
 ~L][u
 ~d;{d|	
+~qj#k"
 ~t&LN

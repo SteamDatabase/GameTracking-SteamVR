@@ -32,12 +32,11 @@
 &D9c0t
 &D9k0t
 &D9{0t
-&Q"Z2
 ',=?k
 '.5<=6/7>????????????????
-'7D`D0
 '9k0t
 'D9c0t
+'p%$1L
 (A\^][
 (A^A]^[
 (A^A]_[
@@ -69,7 +68,6 @@
 -9k0t&H
 -9{0t%H
 -D9c0t%H
--^27B0
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -176,8 +174,8 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220749Z0/
+220801000000Z
+220808194658Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,9 +187,10 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3Z,x S
 3mq+<
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5FjiT
+5R[6{%
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -223,7 +222,6 @@
 =rIQU
 >0<0:
 >Mp$d
->bt4n7	!I
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -414,6 +412,7 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
+IXiT0
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
@@ -476,6 +475,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSbE.
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -549,6 +549,7 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
+U)fG!(UC
 USVATAUAWH
 USVWATAUAVAWH
 USVWATAUAVH
@@ -583,6 +584,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
+Y8<+t
 Y9"SD
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -705,7 +707,6 @@ c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
-c^q#j
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -727,7 +728,6 @@ de_de
 deque<T> too long
 driver_lighthouse
 e,>~^
-e>-*$
 el_el
 en_us
 english
@@ -797,7 +797,6 @@ memmove
 memset
 missing color table
 multiple IHDR
-n>J(X
 no IDAT
 no PLTE
 no SOF
@@ -927,9 +926,10 @@ zlib corrupt
 |$PH;
 |$PLc
 |$XH;
-|@N3>
 |Lu?c
+|Q?CQ}Z
 }LuHO
 ~3LcD$(L
 ~6HcD$ I
+~qj#k"
 ~t&LN

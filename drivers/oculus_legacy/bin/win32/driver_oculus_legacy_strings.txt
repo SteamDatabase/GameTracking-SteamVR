@@ -2,9 +2,7 @@
  %41g
  (Camera)
 !hn7!
-&bXz~
 ',=?k
-'7D`D0
 (Unable to load LibOVR)
 (f*^[0
 *9Z9N
@@ -94,8 +92,8 @@
 211007000000Z
 220323000000Z
 220329000000Z
-220609000000Z
-220714220702Z0/
+220801000000Z
+220808194814Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -122,7 +120,7 @@
 40m0v0
 4<4^4
 4>5G5P5Y5^5c5j5
-4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0 
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4j/hd
 5#5-585]5
 5&5b5p5
@@ -131,6 +129,7 @@
 54585<5@5D5H5L5P5
 546q6
 586<6@6D6H6L6P6T6X6\6`6
+5FjiT
 5Genu
 5K6k6x6
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -291,7 +290,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-Mki=:
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -301,6 +299,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
+RSDSf
 RaiseException
 S0Q0O
 SA|X=G
@@ -328,6 +327,7 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
+V	1@&
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
@@ -412,6 +412,7 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
+m'1hNG
 m0k0$
 malloc
 map/set<T> too long
@@ -465,6 +466,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+s9P0a
 startup
 string too long
 strncpy
@@ -474,13 +476,11 @@ tdh.dll
 terminate
 u7j8Q
 uCVj@
-uTwypBV
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
-y_q,u
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -491,7 +491,7 @@ y_q,u
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
-|@N3>
 |Lu?c
 }LuHO
+~qj#k"
 ~t&LN
