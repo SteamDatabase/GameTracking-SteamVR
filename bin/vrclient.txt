@@ -1296,6 +1296,10 @@
  b guard variable for UTF8to16(char const*)::s_converter
  b guard variable for gli::dx::dx()::Table
  b guard variable for std::(anonymous namespace)::key_init()::ks
+ b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
+ b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
+ b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
+ b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
  b guard variable for std::__timepunct<char>::id
  b guard variable for std::__timepunct<wchar_t>::id
  b guard variable for std::collate<char>::id
@@ -1371,6 +1375,10 @@
  b std::(anonymous namespace)::key
  b std::(anonymous namespace)::key_init()::ks
  b std::__at_thread_exit(std::__at_thread_exit_elt*)::once
+ b std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
+ b std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
+ b std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
+ b std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
  b std::__ioinit
  b std::__timepunct<char>::id
  b std::__timepunct<wchar_t>::id
@@ -2334,6 +2342,8 @@
  d std::locale::_Impl::_S_id_time
  d std::locale::_S_categories
  d std::money_base::_S_atoms
+ d std::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const::__classnames
+ d std::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const::__collatenames
  d typeinfo for (anonymous namespace)::generic_error_category
  d typeinfo for (anonymous namespace)::system_error_category
  d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_001>
@@ -3081,6 +3091,7 @@
  d typeinfo for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::_Sp_counted_ptr_inplace<nlohmann::detail::input_buffer_adapter, std::allocator<nlohmann::detail::input_buffer_adapter>, (__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
  d typeinfo for std::_V2::error_category
  d typeinfo for std::_Weak_result_type<void (CVRMailbox::*)(Json::Value const&)>
  d typeinfo for std::_Weak_result_type_memfun<void (CVRMailbox::*)(Json::Value const&), true>
@@ -3099,6 +3110,22 @@
  d typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
  d typeinfo for std::__ctype_abstract_base<char>
  d typeinfo for std::__ctype_abstract_base<wchar_t>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>
+ d typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>
+ d typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>
+ d typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>
+ d typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>
+ d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, false, false>
+ d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, false, true>
+ d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, false>
+ d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, true>
  d typeinfo for std::__moneypunct_cache<char, false>
  d typeinfo for std::__moneypunct_cache<char, true>
  d typeinfo for std::__moneypunct_cache<wchar_t, false>
@@ -3196,6 +3223,7 @@
  d typeinfo for std::out_of_range
  d typeinfo for std::overflow_error
  d typeinfo for std::range_error
+ d typeinfo for std::regex_error
  d typeinfo for std::runtime_error
  d typeinfo for std::system_error
  d typeinfo for std::thread::_State
@@ -3927,6 +3955,7 @@
  d vtable for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::_Sp_counted_ptr_inplace<nlohmann::detail::input_buffer_adapter, std::allocator<nlohmann::detail::input_buffer_adapter>, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
  d vtable for std::_V2::error_category
  d vtable for std::__codecvt_abstract_base<char, char, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
@@ -4036,6 +4065,7 @@
  d vtable for std::out_of_range
  d vtable for std::overflow_error
  d vtable for std::range_error
+ d vtable for std::regex_error
  d vtable for std::runtime_error
  d vtable for std::system_error
  d vtable for std::thread::_State
@@ -4187,8 +4217,8 @@
  putc
  putwc
  qsort
- r C.1147.341026
- r C.1150.341037
+ r C.1847.366565
+ r C.1850.366576
  r C.427.288574
  r CSWTCH.101
  r CSWTCH.217
@@ -4524,6 +4554,8 @@
  r std::(anonymous namespace)::utf16le_bom
  r std::(anonymous namespace)::utf8_bom
  r std::_Sp_make_shared_tag::_S_ti()::__tag
+ r std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_is_word(char) const::__s
+ r std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_is_word(char) const::__s
  r std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned int) const::__fast_bkt
  r std::__detail::__prime_list
  r std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_max_size
@@ -5346,6 +5378,7 @@
  r typeinfo name for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::_Sp_counted_ptr_inplace<nlohmann::detail::input_buffer_adapter, std::allocator<nlohmann::detail::input_buffer_adapter>, (__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>
+ r typeinfo name for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
  r typeinfo name for std::_Sp_make_shared_tag
  r typeinfo name for std::_V2::error_category
  r typeinfo name for std::_Weak_result_type<void (CVRMailbox::*)(Json::Value const&)>
@@ -5365,6 +5398,22 @@
  r typeinfo name for std::__codecvt_utf8_utf16_base<wchar_t>
  r typeinfo name for std::__ctype_abstract_base<char>
  r typeinfo name for std::__ctype_abstract_base<wchar_t>
+ r typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>
+ r typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>
+ r typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>
+ r typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>
+ r typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false>
+ r typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true>
+ r typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false>
+ r typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>
+ r typeinfo name for std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>
+ r typeinfo name for std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>
+ r typeinfo name for std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>
+ r typeinfo name for std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>
+ r typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, false, false>
+ r typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, false, true>
+ r typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, true, false>
+ r typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, true, true>
  r typeinfo name for std::__moneypunct_cache<char, false>
  r typeinfo name for std::__moneypunct_cache<char, true>
  r typeinfo name for std::__moneypunct_cache<wchar_t, false>
@@ -5462,6 +5511,7 @@
  r typeinfo name for std::out_of_range
  r typeinfo name for std::overflow_error
  r typeinfo name for std::range_error
+ r typeinfo name for std::regex_error
  r typeinfo name for std::runtime_error
  r typeinfo name for std::system_error
  r typeinfo name for std::thread::_State
@@ -5648,15 +5698,7 @@
  t .L1010
  t .L1011
  t .L1012
- t .L10126
- t .L10127
- t .L10129
  t .L1013
- t .L10130
- t .L10131
- t .L10132
- t .L10133
- t .L10134
  t .L1014
  t .L1015
  t .L1016
@@ -5718,11 +5760,35 @@
  t .L1076
  t .L1077
  t .L1078
+ t .L10785
+ t .L10787
+ t .L10789
  t .L1079
+ t .L10790
+ t .L10791
+ t .L10792
+ t .L10793
+ t .L10794
+ t .L10795
+ t .L10796
+ t .L10797
+ t .L10798
  t .L108
  t .L1080
  t .L1084
  t .L109
+ t .L10940
+ t .L10943
+ t .L10945
+ t .L10946
+ t .L10947
+ t .L10948
+ t .L10949
+ t .L10950
+ t .L10951
+ t .L10952
+ t .L10953
+ t .L10954
  t .L11
  t .L110
  t .L11003
@@ -6096,6 +6162,14 @@
  t .L152
  t .L153
  t .L154
+ t .L15457
+ t .L15458
+ t .L15460
+ t .L15461
+ t .L15462
+ t .L15463
+ t .L15464
+ t .L15465
  t .L155
  t .L1559
  t .L156
@@ -6138,19 +6212,13 @@
  t .L16240
  t .L16242
  t .L163
- t .L1638
- t .L1639
  t .L164
- t .L1641
  t .L16412
  t .L16413
  t .L16415
  t .L16416
  t .L16417
  t .L16418
- t .L1642
- t .L1643
- t .L1644
  t .L16443
  t .L16444
  t .L16446
@@ -6185,7 +6253,10 @@
  t .L174
  t .L1740
  t .L1741
+ t .L1746
+ t .L1747
  t .L1748
+ t .L1749
  t .L175
  t .L1750
  t .L1751
@@ -6245,40 +6316,40 @@
  t .L189
  t .L19
  t .L190
- t .L19082
- t .L19083
- t .L19085
- t .L19086
- t .L19087
- t .L19088
- t .L19089
+ t .L19099
  t .L191
- t .L19146
- t .L19147
- t .L19149
- t .L19150
- t .L19151
- t .L19152
- t .L19153
- t .L19154
+ t .L19100
+ t .L19102
+ t .L19103
+ t .L19104
+ t .L19105
+ t .L19106
+ t .L19163
+ t .L19164
+ t .L19166
+ t .L19167
+ t .L19168
+ t .L19169
+ t .L19170
+ t .L19171
  t .L192
- t .L19218
- t .L19219
- t .L19221
- t .L19222
- t .L19223
- t .L19224
- t .L19225
- t .L19286
- t .L19287
- t .L19289
- t .L19290
- t .L19291
- t .L19292
- t .L19293
- t .L19294
- t .L19295
+ t .L19235
+ t .L19236
+ t .L19238
+ t .L19239
+ t .L19240
+ t .L19241
+ t .L19242
  t .L193
+ t .L19303
+ t .L19304
+ t .L19306
+ t .L19307
+ t .L19308
+ t .L19309
+ t .L19310
+ t .L19311
+ t .L19312
  t .L194
  t .L1941
  t .L1942
@@ -6331,20 +6402,20 @@
  t .L210
  t .L211
  t .L212
- t .L21241
- t .L21242
- t .L21244
- t .L21245
- t .L21246
- t .L21247
- t .L21248
- t .L21249
- t .L21250
- t .L21251
- t .L21252
- t .L21253
- t .L21254
- t .L21255
+ t .L21272
+ t .L21273
+ t .L21275
+ t .L21276
+ t .L21277
+ t .L21278
+ t .L21279
+ t .L21280
+ t .L21281
+ t .L21282
+ t .L21283
+ t .L21284
+ t .L21285
+ t .L21286
  t .L213
  t .L214
  t .L215
@@ -6356,13 +6427,13 @@
  t .L2157
  t .L2158
  t .L216
- t .L21615
- t .L21616
- t .L21618
- t .L21619
- t .L21620
- t .L21621
- t .L21622
+ t .L21646
+ t .L21647
+ t .L21649
+ t .L21650
+ t .L21651
+ t .L21652
+ t .L21653
  t .L217
  t .L218
  t .L219
@@ -6397,13 +6468,13 @@
  t .L225
  t .L226
  t .L227
- t .L22746
- t .L22747
- t .L22749
- t .L22750
- t .L22751
- t .L22752
- t .L22753
+ t .L22777
+ t .L22778
+ t .L22780
+ t .L22781
+ t .L22782
+ t .L22783
+ t .L22784
  t .L228
  t .L229
  t .L23
@@ -6524,17 +6595,17 @@
  t .L2795
  t .L2796
  t .L2797
- t .L27975
- t .L27976
- t .L27978
- t .L27979
- t .L27980
- t .L27981
- t .L27982
  t .L28
  t .L280
  t .L2800
+ t .L28006
+ t .L28007
+ t .L28009
  t .L2801
+ t .L28010
+ t .L28011
+ t .L28012
+ t .L28013
  t .L2803
  t .L2804
  t .L2805
@@ -6683,40 +6754,40 @@
  t .L318
  t .L319
  t .L3190
- t .L31908
- t .L31909
- t .L31911
- t .L31912
- t .L31913
- t .L31914
- t .L31915
- t .L31916
- t .L31917
- t .L31918
- t .L31919
  t .L3192
- t .L31920
- t .L31921
- t .L31922
- t .L31923
- t .L31924
- t .L31926
- t .L31927
- t .L31929
  t .L3193
- t .L31930
- t .L31931
- t .L31932
- t .L31933
- t .L31934
- t .L31935
- t .L31936
- t .L31937
- t .L31938
  t .L3194
  t .L3195
  t .L32
  t .L320
+ t .L32004
+ t .L32005
+ t .L32007
+ t .L32008
+ t .L32009
+ t .L32010
+ t .L32011
+ t .L32012
+ t .L32013
+ t .L32014
+ t .L32015
+ t .L32016
+ t .L32017
+ t .L32018
+ t .L32019
+ t .L32020
+ t .L32022
+ t .L32023
+ t .L32025
+ t .L32026
+ t .L32027
+ t .L32028
+ t .L32029
+ t .L32030
+ t .L32031
+ t .L32032
+ t .L32033
+ t .L32034
  t .L3206
  t .L321
  t .L3211
@@ -6863,14 +6934,14 @@
  t .L414
  t .L415
  t .L416
- t .L41694
- t .L41695
- t .L41697
- t .L41698
- t .L41699
  t .L417
- t .L41700
- t .L41701
+ t .L41790
+ t .L41791
+ t .L41793
+ t .L41794
+ t .L41795
+ t .L41796
+ t .L41797
  t .L418
  t .L4183
  t .L4185
@@ -6979,21 +7050,21 @@
  t .L4734
  t .L4735
  t .L474
- t .L47499
  t .L475
- t .L47500
- t .L47502
- t .L47503
- t .L47504
- t .L47505
- t .L47506
- t .L47507
- t .L47508
  t .L4756
  t .L4758
  t .L4759
+ t .L47595
+ t .L47596
+ t .L47598
+ t .L47599
  t .L476
  t .L4760
+ t .L47600
+ t .L47601
+ t .L47602
+ t .L47603
+ t .L47604
  t .L477
  t .L478
  t .L479
@@ -7685,6 +7756,7 @@
  t BuildFadeGridMessage(float, bool) [clone .cold]
  t BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
  t BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
+ t BuildMatTextureDetails(float (*) [4][4], vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
  t CActionBinding::CActionBinding(CActionBinding const&)
  t CActionBinding::FromJson(Json::Value const&, std::string*)
  t CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
@@ -8160,6 +8232,8 @@
  t CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
  t CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
  t CHmdSystemLatest::GetProperties()
+ t CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*)
+ t CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*) [clone .cold]
  t CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
  t CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string> >*, std::string const&)
  t CHmdSystemLatest::GetResources()
@@ -8412,6 +8486,7 @@
  t CInputActionDefaultBindingFile::~CInputActionDefaultBindingFile()
  t CInputActionManifest::AddDefaultBinding(std::string const&, std::string const&)
  t CInputActionManifest::AddDefaultBinding(std::string const&, std::string const&) [clone .cold]
+ t CInputActionManifest::AddInteractionProfile(std::string const&)
  t CInputActionManifest::FindAction(std::string const&) const
  t CInputActionManifest::FindAction(std::string const&) const [clone .cold]
  t CInputActionManifest::FindActionSet(std::string const&) const
@@ -8425,6 +8500,7 @@
  t CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::vector<std::string, std::allocator<std::string> >&, bool) [clone .cold]
  t CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool)
  t CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool) [clone .cold]
+ t CInputActionManifest::GetInteractionProfiles() const
  t CInputActionManifest::GetLocalizationMapFromJSON(Json::Value const&, std::string const&, std::string const&, std::string*, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&)
  t CInputActionManifest::GetLocalizationMapFromJSON(Json::Value const&, std::string const&, std::string const&, std::string*, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&) [clone .cold]
  t CInputActionManifest::GetOptionsFromJSON(Json::Value const&, std::vector<CInputOption, std::allocator<CInputOption> >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >)
@@ -13476,12 +13552,18 @@
  t CVRMsg_DefaultBinding::default_instance()
  t CVRMsg_DefaultBinding::descriptor()
  t CVRMsg_DefaultBinding::descriptor() [clone .cold]
+ t CVRMsg_DefaultBinding::mutable_category()
  t CVRMsg_DefaultBinding::mutable_controller_type()
  t CVRMsg_DefaultBinding::mutable_url()
+ t CVRMsg_DefaultBinding::release_category()
  t CVRMsg_DefaultBinding::release_controller_type()
  t CVRMsg_DefaultBinding::release_url()
+ t CVRMsg_DefaultBinding::set_allocated_category(std::string*)
  t CVRMsg_DefaultBinding::set_allocated_controller_type(std::string*)
  t CVRMsg_DefaultBinding::set_allocated_url(std::string*)
+ t CVRMsg_DefaultBinding::set_category(char const*)
+ t CVRMsg_DefaultBinding::set_category(char const*, unsigned int)
+ t CVRMsg_DefaultBinding::set_category(std::string const&)
  t CVRMsg_DefaultBinding::set_controller_type(char const*)
  t CVRMsg_DefaultBinding::set_controller_type(char const*, unsigned int)
  t CVRMsg_DefaultBinding::set_controller_type(std::string const&)
@@ -18878,6 +18960,8 @@
  t CVRPathRegistry::GetConfigHistoryPath(unsigned int) const
  t CVRPathRegistry::GetExternalDriverCount() const
  t CVRPathRegistry::GetExternalDriverPath(unsigned int) const
+ t CVRPathRegistry::GetInstalledRuntimes() const
+ t CVRPathRegistry::GetInstalledRuntimes() const [clone .cold]
  t CVRPathRegistry::GetLogHistoryCount() const
  t CVRPathRegistry::GetLogHistoryPath(unsigned int) const
  t CVRPathRegistry::GetRuntimeHistoryCount() const
@@ -20284,7 +20368,7 @@
  t CVulkanVRRenderer::BeginCommandBuffer()
  t CVulkanVRRenderer::BeginDebugEvent(char const*)
  t CVulkanVRRenderer::BeginFrame(unsigned long long)
- t CVulkanVRRenderer::BindRenderTargets(unsigned int, VRRenderer::TextureBase**, VRRenderer::TextureBase*, VRRenderer::Viewport*)
+ t CVulkanVRRenderer::BindRenderTargets(unsigned int, VRRenderer::TextureBase**, VRRenderer::TextureBase*, VRRenderer::Viewport*, VRRenderer::FragmentShadingRate*)
  t CVulkanVRRenderer::CVulkanVRRenderer()
  t CVulkanVRRenderer::CVulkanVRRenderer() [clone .cold]
  t CVulkanVRRenderer::CleanupSyncResources()
@@ -20464,6 +20548,8 @@
  t CloseKeyboard(TVRSharedState<VRSystemLayerState_t, false>*) [clone .cold]
  t CloseLog()
  t CollapseActionValues(std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > const&, std::function<bool (unsigned long long)>)
+ t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&)
+ t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t CollapseInputValues(std::vector<VRInputValue_t, std::allocator<VRInputValue_t> > const&, bool)
  t CompareTrackedDeviceEntry(void const*, void const*)
  t ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>::CreateAdapter(void*, std::string const&)
@@ -20703,12 +20789,14 @@
  t GetStringForVRSettingsError(vr::EVRSettingsError)
  t GetStringForVRTrackedCameraError(vr::EVRTrackedCameraError)
  t GetStringFromInternalInputFocus(EVRInternalSystemBehaviorFlags)
+ t GetSubmitFlagsFromTextureDetails(float const (&) [4][4])
  t GetSystemBaseTicks()
  t GetSystemTicksFromTime(double)
  t GetSystemTime()
  t GetSystemTimeFrequency()
  t GetSystemTimeFromTicks(unsigned long long)
  t GetSystemTimeInTicks()
+ t GetTextureBoundsFromTextureDetails(float const (&) [4][4])
  t GetTrackedControllerRoleFromString(char const*)
  t GetTrackedDeviceClassFromString(char const*)
  t GetTrackedDeviceProperties()
@@ -23600,6 +23688,7 @@
  t InitSharedResourceNamespaceForTest()
  t InitSystemBaseTimeTicks(unsigned long long)
  t InitSystemTime(unsigned long long) [clone .part.0]
+ t InitializeCompositorSharedState(VRCompositorState_t*)
  t InitializeInterfaceAdapters()
  t InitializeInterfaceFnTables()
  t InputActionRequirementToEnum(std::string const&)
@@ -25273,6 +25362,7 @@
  t _GLOBAL__sub_I_vrclientcore.cpp
  t _GLOBAL__sub_I_vrcompositorclient.cpp
  t _GLOBAL__sub_I_vrcompositorclientbase.cpp
+ t _GLOBAL__sub_I_vrcompositorsharedstate.cpp
  t _GLOBAL__sub_I_vrcompositorsharedtextures.cpp
  t _GLOBAL__sub_I_vrcrash.cpp
  t _GLOBAL__sub_I_vrdebug.cpp
@@ -25377,8 +25467,9 @@
  t __gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > > std::__find_if<__gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > >, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long long, unsigned long long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}> >(__gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long long, unsigned long long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long long, unsigned long long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long long, unsigned long long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, std::random_access_iterator_tag) [clone .isra.0]
  t __gnu_cxx::__normal_iterator<char const*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> > >(__gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, std::random_access_iterator_tag) [clone .isra.0]
  t __gnu_cxx::__normal_iterator<char*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept> >(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept>, std::random_access_iterator_tag)
+ t __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::__unique<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter)
  t __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > > std::__find_if<__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const> >(__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const>, std::random_access_iterator_tag)
- t __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const>, std::random_access_iterator_tag)
+ t __gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
  t __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
  t __gnu_cxx::__scoped_lock::~__scoped_lock()
  t __gnu_cxx::__snprintf_lite(char*, unsigned int, char const*, char*)
@@ -25620,6 +25711,12 @@
  t bool std::(anonymous namespace)::write_utf8_bom<char>(std::(anonymous namespace)::range<char, true>&, std::codecvt_mode) [clone .part.0]
  t bool std::(anonymous namespace)::write_utf8_code_point<char8_t>(std::(anonymous namespace)::range<char8_t, true>&, char32_t)
  t bool std::(anonymous namespace)::write_utf8_code_point<char>(std::(anonymous namespace)::range<char, true>&, char32_t)
+ t bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>&)
+ t bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<false, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>&)
+ t bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<true, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>&)
+ t bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<true, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>&)
+ t bool std::__detail::__regex_algo_impl<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, char, std::regex_traits<char>, (std::__detail::_RegexExecutorPolicy)0, false>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::match_results<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >&, std::basic_regex<char, std::regex_traits<char> > const&, std::regex_constants::match_flag_type)
+ t bool std::binary_search<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char const&)
  t bool std::has_facet<std::__timepunct<char> >(std::locale const&)
  t bool std::has_facet<std::__timepunct<wchar_t> >(std::locale const&)
  t bool std::has_facet<std::codecvt<char, char, __mbstate_t> >(std::locale const&)
@@ -25853,6 +25950,7 @@
  t non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
  t non-virtual thunk to CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
  t non-virtual thunk to CHmdSystemLatest::GetProperties()
+ t non-virtual thunk to CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*)
  t non-virtual thunk to CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
  t non-virtual thunk to CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string> >*, std::string const&)
  t non-virtual thunk to CHmdSystemLatest::GetResources()
@@ -26359,6 +26457,9 @@
  t std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_initialize_map(unsigned int)
  t std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::_M_initialize_map(unsigned int)
  t std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::~_Deque_base()
+ t std::_Deque_base<long, std::allocator<long> >::_M_initialize_map(unsigned int)
+ t std::_Deque_base<long, std::allocator<long> >::~_Deque_base()
+ t std::_Deque_base<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::~_Deque_base()
  t std::_Deque_base<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t> >::~_Deque_base()
  t std::_Fnv_hash_bytes(void const*, unsigned int, unsigned int)
  t std::_Function_base::_Base_manager<CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)::{lambda(char const*)#1}> const&, std::_Manager_operation)
@@ -26384,8 +26485,40 @@
  t std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}> const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_base::_Base_manager<void (*)(char const*, char const*, unsigned int, bool, void*, bool*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, true> >::_M_invoke(std::_Any_data const&, char&&)
  t std::_Function_handler<bool (unsigned long long), CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long long, unsigned long long)::{lambda(unsigned long long)#1}>::_M_invoke(std::_Any_data const&, unsigned long long&&)
  t std::_Function_handler<bool (unsigned short, unsigned short, unsigned short), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}>::_M_invoke(std::_Any_data const&, unsigned short&&, std::_Any_data const&, std::_Any_data const&)
  t std::_Function_handler<bool (vr::ETrackedDeviceClass), CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}>::_M_invoke(std::_Any_data const&, vr::ETrackedDeviceClass&&)
@@ -26469,6 +26602,8 @@
  t std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::~_Rb_tree()
  t std::_Rb_tree<int, std::pair<int const, std::string>, std::_Select1st<std::pair<int const, std::string> >, std::less<int>, std::allocator<std::pair<int const, std::string> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, std::string> >*)
  t std::_Rb_tree<int, std::pair<int const, std::string>, std::_Select1st<std::pair<int const, std::string> >, std::less<int>, std::allocator<std::pair<int const, std::string> > >::_M_get_insert_unique_pos(int const&)
+ t std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_erase(std::_Rb_tree_node<std::pair<long const, long> >*)
+ t std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_insert_unique_pos(long const&)
  t std::_Rb_tree<std::pair<std::string, int>, std::pair<std::pair<std::string, int> const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > >, std::less<std::pair<std::string, int> >, std::allocator<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > > >::_M_erase(std::_Rb_tree_node<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > >*)
  t std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CSettingsSetting*>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> > >::_M_erase(std::_Rb_tree_node<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> >*)
  t std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CSettingsSetting*>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CSettingsSetting*> > >::_M_get_insert_unique_pos(std::pair<std::string, std::string> const&)
@@ -26540,6 +26675,7 @@
  t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_erase(std::_Rb_tree_node<std::string>*)
  t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_get_insert_unique_pos(std::string const&)
  t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_Rb_tree_impl<std::less<std::string>, true>::_Rb_tree_impl()
+ t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::find(std::string const&)
  t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::find(std::string const&) const
  t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::operator=(std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> > const&)
  t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::~_Rb_tree()
@@ -26619,6 +26755,7 @@
  t std::_Rb_tree_iterator<std::pair<CVRControllerTypeBindings* const, std::set<std::string, std::less<std::string>, std::allocator<std::string> > > > std::_Rb_tree<CVRControllerTypeBindings*, std::pair<CVRControllerTypeBindings* const, std::set<std::string, std::less<std::string>, std::allocator<std::string> > >, std::_Select1st<std::pair<CVRControllerTypeBindings* const, std::set<std::string, std::less<std::string>, std::allocator<std::string> > > >, std::less<CVRControllerTypeBindings*>, std::allocator<std::pair<CVRControllerTypeBindings* const, std::set<std::string, std::less<std::string>, std::allocator<std::string> > > > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<CVRControllerTypeBindings*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<CVRControllerTypeBindings* const, std::set<std::string, std::less<std::string>, std::allocator<std::string> > > >, std::piecewise_construct_t const&, std::tuple<CVRControllerTypeBindings*&&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_emplace_hint_unique<std::pair<Json::Value::CZString const, Json::Value>&>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::pair<Json::Value::CZString const, Json::Value>&)
  t std::_Rb_tree_iterator<std::pair<int const, std::string> > std::_Rb_tree<int, std::pair<int const, std::string>, std::_Select1st<std::pair<int const, std::string> >, std::less<int>, std::allocator<std::pair<int const, std::string> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<int&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<int const, std::string> >, std::piecewise_construct_t const&, std::tuple<int&&>&&, std::tuple<>&&)
+ t std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > > std::_Rb_tree<std::pair<std::string, int>, std::pair<std::pair<std::string, int> const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > >, std::less<std::pair<std::string, int> >, std::allocator<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > > >::_M_insert_<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > const&>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > const&)
  t std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response> > std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response> >, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
  t std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> > std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> >, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
@@ -26744,6 +26881,10 @@
  t std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
  t std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
  t std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+ t std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+ t std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+ t std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+ t std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
  t std::_V2::error_category::_M_message(int) const
  t std::_V2::error_category::_M_message(int) const [clone .cold]
  t std::_V2::error_category::default_error_condition(int) const
@@ -26847,6 +26988,35 @@
  t std::__codecvt_utf8_utf16_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  t std::__codecvt_utf8_utf16_base<wchar_t>::~__codecvt_utf8_utf16_base()
  t std::__convert_from_v(__locale_struct* const&, char*, int, char const*, ...)
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>::_M_ready()
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>::~_BracketMatcher()
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>::_M_make_range(char, char)
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>::_M_ready()
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>::~_BracketMatcher()
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>::_M_ready()
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>::~_BracketMatcher()
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_make_range(char, char)
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_ready()
+ t std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::~_BracketMatcher()
+ t std::__detail::_Compiler<std::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type)
+ t std::__detail::_Compiler<std::regex_traits<char> >::_M_alternative()
+ t std::__detail::_Compiler<std::regex_traits<char> >::_M_assertion()
+ t std::__detail::_Compiler<std::regex_traits<char> >::_M_atom()
+ t std::__detail::_Compiler<std::regex_traits<char> >::_M_bracket_expression()
+ t std::__detail::_Compiler<std::regex_traits<char> >::_M_cur_int_value(int)
+ t std::__detail::_Compiler<std::regex_traits<char> >::_M_disjunction()
+ t std::__detail::_Compiler<std::regex_traits<char> >::_M_quantifier()
+ t std::__detail::_Compiler<std::regex_traits<char> >::_M_try_char()
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_dfs(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_Match_mode, long)
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_lookahead(long)
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_main_dispatch(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_Match_mode, std::integral_constant<bool, false>)
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_Match_mode, long)
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::~_Executor()
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_dfs(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, long)
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_lookahead(long)
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_main_dispatch(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, std::integral_constant<bool, true>) [clone .isra.0] [clone .constprop.0]
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, long)
+ t std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::~_Executor()
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::pair<int, int> const, unsigned int>, true> > >::_M_allocate_buckets(unsigned int) [clone .isra.0]
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, std::string>, true> > >::_M_allocate_buckets(unsigned int) [clone .isra.0]
  t std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >, true> > >::_M_allocate_buckets(unsigned int) [clone .isra.0]
@@ -26866,8 +27036,22 @@
  t std::__detail::_Map_base<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string const&)
  t std::__detail::_Map_base<std::string, std::pair<std::string const, unsigned long long>, std::allocator<std::pair<std::string const, unsigned long long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string&&)
  t std::__detail::_Map_base<vr::HmdVector2_t, std::pair<vr::HmdVector2_t const, int>, std::allocator<std::pair<vr::HmdVector2_t const, int> >, std::__detail::_Select1st, vr::HmdVector2TolerancedEqual, vr::HmdVector2TolerancedHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](vr::HmdVector2_t const&)
+ t std::__detail::_NFA<std::regex_traits<char> >::_M_insert_backref(unsigned int)
  t std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned int, unsigned int, unsigned int) const
  t std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned int) const
+ t std::__detail::_Scanner<char>::_M_advance()
+ t std::__detail::_Scanner<char>::_M_eat_class(char)
+ t std::__detail::_Scanner<char>::_M_eat_escape_awk()
+ t std::__detail::_Scanner<char>::_M_eat_escape_ecma()
+ t std::__detail::_Scanner<char>::_M_eat_escape_posix()
+ t std::__detail::_Scanner<char>::_M_scan_in_brace()
+ t std::__detail::_Scanner<char>::_M_scan_in_bracket()
+ t std::__detail::_Scanner<char>::_M_scan_normal()
+ t std::__detail::_Scanner<char>::_Scanner(char const*, char const*, std::regex_constants::syntax_option_type, std::locale)
+ t std::__detail::_State<char>::_State(std::__detail::_State<char>&&)
+ t std::__detail::_State<char>::~_State()
+ t std::__detail::_StateSeq<std::regex_traits<char> >& std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::regex_traits<char> > >(std::__detail::_StateSeq<std::regex_traits<char> >&&)
+ t std::__detail::_StateSeq<std::regex_traits<char> >::_M_clone()
  t std::__moneypunct_cache<char, false>::_M_cache(std::locale const&)
  t std::__moneypunct_cache<char, false>::__moneypunct_cache(unsigned int)
  t std::__moneypunct_cache<char, false>::~__moneypunct_cache()
@@ -26890,6 +27074,8 @@
  t std::__numpunct_cache<wchar_t>::~__numpunct_cache()
  t std::__pad<char, std::char_traits<char> >::_S_pad(std::ios_base&, char, char*, char const*, int, int)
  t std::__pad<wchar_t, std::char_traits<wchar_t> >::_S_pad(std::ios_base&, wchar_t, wchar_t*, wchar_t const*, int, int)
+ t std::__shared_count<(__gnu_cxx::_Lock_policy)2>::operator=(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [clone .isra.0]
+ t std::__shared_ptr<CVRInputLatest::InputFrame_t, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<CVRInputLatest::InputFrame_t, (__gnu_cxx::_Lock_policy)2> const&)
  t std::__throw_bad_alloc()
  t std::__throw_bad_cast()
  t std::__throw_bad_exception()
@@ -26906,6 +27092,8 @@
  t std::__throw_out_of_range_fmt(char const*, ...) [clone .cold]
  t std::__throw_overflow_error(char const*)
  t std::__throw_range_error(char const*)
+ t std::__throw_regex_error(std::regex_constants::error_type)
+ t std::__throw_regex_error(std::regex_constants::error_type, char const*)
  t std::__throw_runtime_error(char const*)
  t std::__throw_system_error(int)
  t std::__throw_underflow_error(char const*)
@@ -26950,6 +27138,8 @@
  t std::__verify_grouping(char const*, unsigned int, std::string const&)
  t std::__verify_grouping(char const*, unsigned int, std::string const&) [clone .cold]
  t std::__verify_grouping_impl(char const*, unsigned int, char const*, unsigned int)
+ t std::back_insert_iterator<std::string> std::match_results<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::format<std::back_insert_iterator<std::string> >(std::back_insert_iterator<std::string>, char const*, char const*, std::regex_constants::match_flag_type) const
+ t std::back_insert_iterator<std::string> std::regex_replace<std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::regex_traits<char>, char>(std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::basic_regex<char, std::regex_traits<char> > const&, char const*, std::regex_constants::match_flag_type)
  t std::bad_alloc::what() const
  t std::bad_alloc::~bad_alloc()
  t std::bad_array_new_length::what() const
@@ -27384,6 +27574,7 @@
  t std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::str(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
  t std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::swap(std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&)
  t std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_ostringstream()
+ t std::basic_regex<char, std::regex_traits<char> >::~basic_regex()
  t std::basic_streambuf<char, std::char_traits<char> >::__safe_gbump(int)
  t std::basic_streambuf<char, std::char_traits<char> >::__safe_pbump(int)
  t std::basic_streambuf<char, std::char_traits<char> >::basic_streambuf()
@@ -27890,6 +28081,7 @@
  t std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>, std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>)
  t std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_new_elements_at_back(unsigned int)
  t std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_reallocate_map(unsigned int, bool)
+ t std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::_M_reallocate_map(unsigned int, bool)
  t std::deque<std::string, std::allocator<std::string> >::_M_destroy_data_aux(std::_Deque_iterator<std::string, std::string&, std::string*>, std::_Deque_iterator<std::string, std::string&, std::string*>)
  t std::deque<std::string, std::allocator<std::string> >::~deque()
  t std::domain_error::domain_error(char const*)
@@ -27898,6 +28090,11 @@
  t std::error_code::default_error_condition() const
  t std::exception::what() const
  t std::exception::~exception()
+ t std::function<bool (char)>::function(std::function<bool (char)> const&)
+ t std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>, void, void>(std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>)
+ t std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>, void, void>(std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>)
+ t std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>, void, void>(std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>)
+ t std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>, void, void>(std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>)
  t std::function<bool (int, nlohmann::detail::parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >::parse_event_t, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>&)>::function(std::function<bool (int, nlohmann::detail::parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >::parse_event_t, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>&)> const&)
  t std::function<void (Json::Value const&)>::function(std::function<void (Json::Value const&)> const&)
  t std::function<void (bool)>::~function()
@@ -28456,6 +28653,8 @@
  t std::pair<Json::Value::CZString const, Json::Value>::~pair()
  t std::pair<bool, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>*> nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >::handle_value<bool&>(bool&, bool)
  t std::pair<bool, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>*> nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> >::handle_value<nlohmann::detail::value_t>(nlohmann::detail::value_t&&, bool)
+ t std::pair<char, char>& std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::emplace_back<std::pair<char, char> >(std::pair<char, char>&&)
+ t std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >& std::vector<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >, std::allocator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > > > >::emplace_back<long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&>(long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&)
  t std::pair<std::_Rb_tree_iterator<int>, bool> std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique<int const&>(int const&)
  t std::pair<std::_Rb_tree_iterator<std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long> >, bool> std::_Rb_tree<CVulkanVRRenderer::FramebufferState_t, std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long>, std::_Select1st<std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long> >, std::less<CVulkanVRRenderer::FramebufferState_t>, std::allocator<std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long> > >::_M_emplace_unique<std::pair<CVulkanVRRenderer::FramebufferState_t, unsigned long long> >(std::pair<CVulkanVRRenderer::FramebufferState_t, unsigned long long>&&)
  t std::pair<std::_Rb_tree_iterator<std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long> >, bool> std::_Rb_tree<CVulkanVRRenderer::RenderPassState_t, std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long>, std::_Select1st<std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long> >, std::less<CVulkanVRRenderer::RenderPassState_t>, std::allocator<std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long> > >::_M_emplace_unique<std::pair<CVulkanVRRenderer::RenderPassState_t, unsigned long long> >(std::pair<CVulkanVRRenderer::RenderPassState_t, unsigned long long>&&)
@@ -28481,10 +28680,18 @@
  t std::pair<std::string const, std::string>::~pair()
  t std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >::~pair()
  t std::pair<std::string, std::shared_ptr<CInputActionSet> >::~pair()
+ t std::pair<std::string, std::string>& std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > >::emplace_back<std::pair<std::string, std::string> >(std::pair<std::string, std::string>&&)
  t std::pair<std::string, std::string>::~pair()
  t std::range_error::range_error(char const*)
  t std::range_error::range_error(std::string const&)
  t std::range_error::~range_error()
+ t std::regex_error::regex_error(std::regex_constants::error_type)
+ t std::regex_error::~regex_error()
+ t std::regex_iterator<__gnu_cxx::__normal_iterator<char const*, std::string>, char, std::regex_traits<char> >::operator++()
+ t std::regex_iterator<__gnu_cxx::__normal_iterator<char const*, std::string>, char, std::regex_traits<char> >::operator==(std::regex_iterator<__gnu_cxx::__normal_iterator<char const*, std::string>, char, std::regex_traits<char> > const&) const
+ t std::regex_traits<char>::_RegexMask std::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const
+ t std::regex_traits<char>::isctype(char, std::regex_traits<char>::_RegexMask) const
+ t std::regex_traits<char>::value(char, int) const
  t std::runtime_error::operator=(std::runtime_error const&)
  t std::runtime_error::operator=(std::runtime_error&&)
  t std::runtime_error::runtime_error(char const*)
@@ -28504,6 +28711,8 @@
  t std::string const& CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)
  t std::string const& CSettingsValue::Get<std::string>() const
  t std::string nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>::get<std::string, std::string, 0>() const
+ t std::string std::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const
+ t std::string std::regex_traits<char>::transform_primary<char*>(char*, char*) const
  t std::string& std::vector<std::string, std::allocator<std::string> >::emplace_back<std::string>(std::string&&)
  t std::string** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<std::string*>(std::string* const*, std::string* const*, std::string**)
  t std::string::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)
@@ -28800,6 +29009,7 @@
  t std::vector<char const*, std::allocator<char const*> >::_M_default_append(unsigned int)
  t std::vector<char const*, std::allocator<char const*> >::resize(unsigned int)
  t std::vector<char, std::allocator<char> >::_M_default_append(unsigned int)
+ t std::vector<char, std::allocator<char> >::_M_erase(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >)
  t std::vector<double, std::allocator<double> >::_M_default_append(unsigned int)
  t std::vector<double, std::allocator<double> >::operator=(std::vector<double, std::allocator<double> > const&)
  t std::vector<float, std::allocator<float> >::_M_default_append(unsigned int)
@@ -28812,18 +29022,20 @@
  t std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > >::_M_check_len(unsigned int, char const*) const
  t std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*> >::_M_realloc_insert(__gnu_cxx::__normal_iterator<std::Catalog_info**, std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*> > >, std::Catalog_info* const&)
  t std::vector<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >, std::allocator<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > > >::~vector()
+ t std::vector<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >, std::allocator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > > > >::~vector()
  t std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > >::~vector()
  t std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >::~vector()
  t std::vector<std::string*, std::allocator<std::string*> >::_M_check_len(unsigned int, char const*) const
  t std::vector<std::string*, std::allocator<std::string*> >::_M_default_append(unsigned int)
  t std::vector<std::string, std::allocator<std::string> >::_M_check_len(unsigned int, char const*) const
- t std::vector<std::string, std::allocator<std::string> >::_M_erase(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >)
- t std::vector<std::string, std::allocator<std::string> >::insert(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+ t std::vector<std::string, std::allocator<std::string> >::_M_insert_rval(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
  t std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
  t std::vector<std::string, std::allocator<std::string> >::push_back(std::string const&)
  t std::vector<std::string, std::allocator<std::string> >::reserve(unsigned int)
  t std::vector<std::string, std::allocator<std::string> >::vector(std::initializer_list<std::string>, std::allocator<std::string> const&)
  t std::vector<std::string, std::allocator<std::string> >::~vector()
+ t std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::_M_default_append(unsigned int)
+ t std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::operator=(std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&)
  t std::vector<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block> >, std::allocator<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block> > > >::~vector()
  t std::vector<tinygltf::Animation, std::allocator<tinygltf::Animation> >::push_back(tinygltf::Animation const&)
  t std::vector<tinygltf::AnimationChannel, std::allocator<tinygltf::AnimationChannel> >::~vector()
@@ -29266,17 +29478,43 @@
  t void std::_Destroy_aux<false>::__destroy<std::string*>(std::string*, std::string*)
  t void std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique<int*>(int*, int*)
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, int, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, int, int, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
+ t void std::__adjust_heap<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, int, char, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, int, int, char, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)
  t void std::__convert_to_v<float>(char const*, float&, std::_Ios_Iostate&, __locale_struct* const&)
  t void std::__convert_to_v<long double>(char const*, long double&, std::_Ios_Iostate&, __locale_struct* const&)
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_ecma<false, false>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_ecma<false, true>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_ecma<true, false>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_ecma<true, true>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_posix<false, false>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_posix<false, true>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_posix<true, false>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_posix<true, true>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool)
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<false, true>(bool)
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<true, false>(bool)
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<true, true>(bool)
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<false, false>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<false, true>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<true, false>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<true, true>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<false, false>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<false, true>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<true, false>()
+ t void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<true, true>()
+ t void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
+ t void std::__insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, int, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, int, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
+ t void std::__introsort_loop<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, int, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, int, __gnu_cxx::__ops::_Iter_less_iter)
  t void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
  t void std::deque<CRenderModelLoadThread::TextureEntry_t, std::allocator<CRenderModelLoadThread::TextureEntry_t> >::_M_push_back_aux<CRenderModelLoadThread::TextureEntry_t const&>(CRenderModelLoadThread::TextureEntry_t const&)
  t void std::deque<CVRCompositorSharedTextures::CommandBuffer_t*, std::allocator<CVRCompositorSharedTextures::CommandBuffer_t*> >::_M_push_front_aux<CVRCompositorSharedTextures::CommandBuffer_t* const&>(CVRCompositorSharedTextures::CommandBuffer_t* const&)
  t void std::deque<CVRSharedGLTexture::VulkanInteropSemaphore_t*, std::allocator<CVRSharedGLTexture::VulkanInteropSemaphore_t*> >::_M_push_front_aux<CVRSharedGLTexture::VulkanInteropSemaphore_t* const&>(CVRSharedGLTexture::VulkanInteropSemaphore_t* const&)
  t void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
  t void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
+ t void std::deque<long, std::allocator<long> >::_M_push_back_aux<long const&>(long const&)
+ t void std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::_M_push_back_aux<std::__detail::_StateSeq<std::regex_traits<char> > const&>(std::__detail::_StateSeq<std::regex_traits<char> > const&)
  t void std::deque<std::string, std::allocator<std::string> >::_M_push_back_aux<std::string const&>(std::string const&)
  t void std::vector<BufferedLogMessage_t, std::allocator<BufferedLogMessage_t> >::_M_realloc_insert<BufferedLogMessage_t const&>(__gnu_cxx::__normal_iterator<BufferedLogMessage_t*, std::vector<BufferedLogMessage_t, std::allocator<BufferedLogMessage_t> > >, BufferedLogMessage_t const&)
  t void std::vector<CActionBinding, std::allocator<CActionBinding> >::_M_realloc_insert<CActionBinding const&>(__gnu_cxx::__normal_iterator<CActionBinding*, std::vector<CActionBinding, std::allocator<CActionBinding> > >, CActionBinding const&)
@@ -29358,9 +29596,13 @@
  t void std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > >::_M_realloc_insert<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> const&>(__gnu_cxx::__normal_iterator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>*, std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > > >, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> const&)
  t void std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > >::_M_realloc_insert<nlohmann::detail::value_t>(__gnu_cxx::__normal_iterator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>*, std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > > >, nlohmann::detail::value_t&&)
  t void std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > >::_M_realloc_insert<std::string&>(__gnu_cxx::__normal_iterator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>*, std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer> > > >, std::string&)
+ t void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&)
  t void std::vector<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >, std::allocator<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > > >::_M_realloc_insert<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const&>(__gnu_cxx::__normal_iterator<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >*, std::vector<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >, std::allocator<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > > > >, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const&)
+ t void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::_M_realloc_insert<std::pair<char, char> >(__gnu_cxx::__normal_iterator<std::pair<char, char>*, std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > > >, std::pair<char, char>&&)
  t void std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >::_M_realloc_insert<std::pair<int, int> const&>(__gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > > >, std::pair<int, int> const&)
+ t void std::vector<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >, std::allocator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > > > >::_M_realloc_insert<long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&>(__gnu_cxx::__normal_iterator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >*, std::vector<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >, std::allocator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > > > > >, long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&)
  t void std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > >::_M_realloc_insert<std::pair<std::string, std::string> >(__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, std::pair<std::string, std::string>&&)
+ t void std::vector<std::regex_traits<char>::_RegexMask, std::allocator<std::regex_traits<char>::_RegexMask> >::_M_realloc_insert<std::regex_traits<char>::_RegexMask const&>(__gnu_cxx::__normal_iterator<std::regex_traits<char>::_RegexMask*, std::vector<std::regex_traits<char>::_RegexMask, std::allocator<std::regex_traits<char>::_RegexMask> > >, std::regex_traits<char>::_RegexMask const&)
  t void std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >::_M_realloc_insert<std::shared_ptr<CInputActionSet> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<CInputActionSet>*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > > >, std::shared_ptr<CInputActionSet> const&)
  t void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string const&>(std::string const&)
  t void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string>(std::string&&)

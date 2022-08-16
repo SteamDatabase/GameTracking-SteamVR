@@ -508,6 +508,14 @@
                 (i.properties["offscreen-z-depth"] = M(t, "offscreen-z-depth")),
                 (i.properties["off-axis-limit"] = M(t, "off-axis-limit")),
                 (i.properties["transition-limit"] = M(t, "transition-limit"));
+              break;
+            case "VSG-MANIPULATION-TRANSFORM":
+              (i = T("manipulation-transform", t)),
+                (i.properties["is-moving"] = w(t, "is-moving")),
+                (i.properties["parent-path"] = O(t, "parent-path")),
+                (i.properties.translation = x(t, "translation")),
+                (i.properties.rotation = x(t, "rotation")),
+                (i.properties.scale = x(t, "scale"));
           }
           return [n, i];
         })(e, t),
@@ -563,7 +571,12 @@
       B = !0;
     }
     function j(e) {
-      e != H && ((H = e), K());
+      var t, r;
+      (r = e),
+        (null == (t = H) || null == r
+          ? t == r
+          : t.color_mult == r.color_mult &&
+            t.reflection_mult == r.reflection_mult) || ((H = e), K());
     }
     function K() {
       U ||
@@ -576,7 +589,7 @@
                 type: "root",
                 rootproperties: {
                   relatchDashboardTransform: B,
-                  sceneCompositeMult: H,
+                  sceneColorCorrection: H,
                 },
                 children: E({ currentPanel: null, bShouldAbort: !1 }, e),
               };
@@ -623,13 +636,16 @@
         ? void 0
         : t.join(" ");
     }
-    class $ extends I.Component {
+    function $(e) {
+      if (e) return e.w + " " + e.x + " " + e.y + " " + e.z;
+    }
+    class ee extends I.Component {
       constructor(e) {
         super(e),
           (this.m_domRef = I.createRef()),
           (this.m_buildNodeOverride = null),
-          (this.m_SGID = $.s_NextSGID),
-          ($.s_NextSGID = ($.s_NextSGID + 1) % 4294967296);
+          (this.m_SGID = ee.s_NextSGID),
+          (ee.s_NextSGID = (ee.s_NextSGID + 1) % 4294967296);
       }
       setBuildNodeOverride(e) {
         this.m_buildNodeOverride = e;
@@ -677,8 +693,8 @@
           : null;
       }
     }
-    $.s_NextSGID = 1;
-    class ee extends $ {
+    ee.s_NextSGID = 1;
+    class te extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -689,8 +705,8 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(n.b)([o.a], ee.prototype, "buildNode", null);
-    class te extends $ {
+    Object(n.b)([o.a], te.prototype, "buildNode", null);
+    class re extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -707,8 +723,8 @@
         );
       }
     }
-    Object(n.b)([o.a], te.prototype, "buildNode", null);
-    class re extends $ {
+    Object(n.b)([o.a], re.prototype, "buildNode", null);
+    class ne extends ee {
       constructor(e) {
         var t;
         if (
@@ -744,15 +760,15 @@
           "vsg-node",
           { id: this.props.id },
           I.createElement(
-            ee,
+            te,
             { id: this.m_sMountableUnqualifiedID },
             this.props.children
           )
         );
       }
     }
-    Object(n.b)([o.a], re.prototype, "buildNode", null);
-    class ne extends $ {
+    Object(n.b)([o.a], ne.prototype, "buildNode", null);
+    class ie extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -772,8 +788,8 @@
         return [e, r];
       }
     }
-    Object(n.b)([o.a], ne.prototype, "buildNode", null);
-    class ie extends $ {
+    Object(n.b)([o.a], ie.prototype, "buildNode", null);
+    class oe extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -785,14 +801,14 @@
         return (r.properties.opacity = this.props.value), [e, r];
       }
     }
-    var oe, se, ae, le, de, ue, ce, pe, he, me, _e;
-    Object(n.b)([o.a], ie.prototype, "buildNode", null),
+    var se, ae, le, de, ue, ce, pe, he, me, _e, ge;
+    Object(n.b)([o.a], oe.prototype, "buildNode", null),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.Raw = 2)] = "Raw");
-      })(oe || (oe = {}));
-    class ge extends $ {
+      })(se || (se = {}));
+    class fe extends ee {
       constructor(e) {
         super(e);
         if (
@@ -824,9 +840,7 @@
                   }
                 : Z(this.props.scale, { x: 1, y: 1, z: 1 })));
         let n = Y(e),
-          i = (function (e) {
-            if (e) return e.w + " " + e.x + " " + e.y + " " + e.z;
-          })(t),
+          i = $(t),
           o = Y(r);
         return I.createElement(
           "vsg-transform",
@@ -836,14 +850,14 @@
             scale: o,
             "curvature-pitch": this.props.curvature_pitch,
             "parent-path": this.props.parent_path,
-            "parent-origin": oe[this.props.parent_origin],
+            "parent-origin": se[this.props.parent_origin],
             "parent-id": this.props.parent_id,
           },
           this.props.children
         );
       }
     }
-    class fe extends $ {
+    class be extends ee {
       constructor(e) {
         super(e);
       }
@@ -859,28 +873,28 @@
         );
       }
     }
-    function be(e) {
+    function ye(e) {
       if (e) return [e.u, e.v];
     }
-    function ye(e) {
+    function ve(e) {
       switch (e) {
-        case se.TopLeft:
+        case ae.TopLeft:
           return { x: -1, y: 1 };
-        case se.TopCenter:
+        case ae.TopCenter:
           return { x: 0, y: 1 };
-        case se.TopRight:
+        case ae.TopRight:
           return { x: 1, y: 1 };
-        case se.CenterLeft:
+        case ae.CenterLeft:
           return { x: -1, y: 0 };
-        case se.Center:
+        case ae.Center:
           return { x: 0, y: 0 };
-        case se.CenterRight:
+        case ae.CenterRight:
           return { x: 1, y: 0 };
-        case se.BottomLeft:
+        case ae.BottomLeft:
           return { x: -1, y: -1 };
-        case se.BottomCenter:
+        case ae.BottomCenter:
           return { x: 0, y: -1 };
-        case se.BottomRight:
+        case ae.BottomRight:
           return { x: 1, y: -1 };
       }
     }
@@ -894,23 +908,23 @@
         (e[(e.BottomLeft = 6)] = "BottomLeft"),
         (e[(e.BottomCenter = 7)] = "BottomCenter"),
         (e[(e.BottomRight = 8)] = "BottomRight");
-    })(se || (se = {})),
+    })(ae || (ae = {})),
       (function (e) {
         (e[(e.Auto = 0)] = "Auto"), (e[(e.SingleTap = 1)] = "SingleTap");
-      })(ae || (ae = {})),
+      })(le || (le = {})),
       (function (e) {
         (e[(e.Mono = 0)] = "Mono"),
           (e[(e.Parallel = 1)] = "Parallel"),
           (e[(e.Crossed = 2)] = "Crossed"),
           (e[(e.Panorama = 3)] = "Panorama"),
           (e[(e.StackedPanorama = 4)] = "StackedPanorama");
-      })(le || (le = {})),
+      })(de || (de = {})),
       (function (e) {
         (e[(e.Visible = 0)] = "Visible"),
           (e[(e.SkipInSceneGraph = 1)] = "SkipInSceneGraph"),
           (e[(e.Hidden = 2)] = "Hidden");
-      })(de || (de = {}));
-    class ve extends $ {
+      })(ue || (ue = {}));
+    class Se extends ee {
       constructor(e) {
         super(e),
           (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
@@ -956,14 +970,14 @@
         return this.m_nEmbeddedIndex;
       }
       componentWillReceiveProps_UNSAFE() {
-        ve.s_bPanelsAreDirty = !0;
+        Se.s_bPanelsAreDirty = !0;
       }
       componentDidMount() {
         super.componentDidMount(),
           (this.m_resizeObserver = new ResizeObserver(this.onResizeObserved)),
           this.m_resizeObserver.observe(this.getCurrentRootElement()),
-          (this.m_nEmbeddedIndex = Se.Current().addEmbeddedPanelUVs(this)),
-          (ve.s_bPanelsAreDirty = !0),
+          (this.m_nEmbeddedIndex = De.Current().addEmbeddedPanelUVs(this)),
+          (Se.s_bPanelsAreDirty = !0),
           this.getCurrentRootElement().addEventListener(
             "mousedown",
             this.onPanelMouseDown
@@ -971,7 +985,7 @@
           this.forceUpdate();
       }
       onResizeObserved(e, t) {
-        Se.Current().forceLayoutUpdate();
+        De.Current().forceLayoutUpdate();
       }
       componentWillUnmount() {
         this.m_resizeObserver &&
@@ -981,8 +995,8 @@
             "mousedown",
             this.onPanelMouseDown
           ),
-          (ve.s_bPanelsAreDirty = !0),
-          Se.Current().removeEmbeddedPanelUVs(this),
+          (Se.s_bPanelsAreDirty = !0),
+          De.Current().removeEmbeddedPanelUVs(this),
           super.componentWillUnmount();
       }
       onPanelMouseDown() {
@@ -1037,18 +1051,18 @@
       }
       get visibility() {
         var e;
-        return null != (e = this.props.visibility) ? e : de.Visible;
+        return null != (e = this.props.visibility) ? e : ue.Visible;
       }
       buildNode(e, t) {
         var r, n, i, o, s;
-        if (this.visibility != de.Visible) return [e, null];
+        if (this.visibility != ue.Visible) return [e, null];
         let a = Object.assign({}, e),
           l = this.createSgNode(t),
           d = { x: 0, y: 0 };
         d =
           "object" == typeof this.props.origin
             ? X(this.props.origin, { x: 0, y: 0 })
-            : ye(this.props.origin);
+            : ve(this.props.origin);
         const u = this.props.overlay_key,
           c = G();
         return (
@@ -1062,8 +1076,8 @@
                   ? void 0
                   : e.VROverlay.ThisOverlayHandle();
               })()),
-          (l.properties.uv_min = null != (r = be(this.m_UVsMin)) ? r : void 0),
-          (l.properties.uv_max = null != (n = be(this.m_UVsMax)) ? n : void 0),
+          (l.properties.uv_min = null != (r = ye(this.m_UVsMin)) ? r : void 0),
+          (l.properties.uv_max = null != (n = ye(this.m_UVsMax)) ? n : void 0),
           (l.properties.width = null != (i = this.props.width) ? i : void 0),
           (l.properties.height = null != (o = this.props.height) ? o : void 0),
           (l.properties["min-width"] =
@@ -1125,17 +1139,17 @@
       internalRender() {
         return I.createElement(
           "vsg-node",
-          { style: { display: this.visibility == de.Hidden ? "none" : null } },
+          { style: { display: this.visibility == ue.Hidden ? "none" : null } },
           this.props.children
         );
       }
     }
-    (ve.s_bPanelsAreDirty = !1),
-      Object(n.b)([o.a], ve.prototype, "onResizeObserved", null),
-      Object(n.b)([o.a], ve.prototype, "onPanelMouseDown", null),
-      Object(n.b)([o.a], ve.prototype, "onWindowMouseUp", null),
-      Object(n.b)([o.a], ve.prototype, "buildNode", null);
-    class Se extends I.Component {
+    (Se.s_bPanelsAreDirty = !1),
+      Object(n.b)([o.a], Se.prototype, "onResizeObserved", null),
+      Object(n.b)([o.a], Se.prototype, "onPanelMouseDown", null),
+      Object(n.b)([o.a], Se.prototype, "onWindowMouseUp", null),
+      Object(n.b)([o.a], Se.prototype, "buildNode", null);
+    class De extends I.Component {
       constructor(e) {
         super(e),
           (this.m_DomRef = null),
@@ -1153,7 +1167,7 @@
           (this.m_nDirtyXMin = -1),
           (this.m_nDirtyXMax = -1),
           (this.m_fCurrentScale = 1),
-          (Se.s_Current = this),
+          (De.s_Current = this),
           (this.state = {
             bFontsLoaded: !1,
             nForcedUpdateNumber: 0,
@@ -1165,10 +1179,10 @@
           (this.m_DebugPointerRef = I.createRef());
       }
       static get IsSceneGraphApp() {
-        return null !== Se.Current();
+        return null !== De.Current();
       }
       static Current() {
-        return Se.s_Current;
+        return De.s_Current;
       }
       toggleDebugPointer() {
         this.setState({ bShowDebugPointer: !this.state.bShowDebugPointer });
@@ -1184,7 +1198,7 @@
             "px )");
       }
       forceLayoutUpdate() {
-        (ve.s_bPanelsAreDirty = !0),
+        (Se.s_bPanelsAreDirty = !0),
           this.setState({
             nForcedUpdateNumber: this.state.nForcedUpdateNumber + 1,
           });
@@ -1246,7 +1260,7 @@
             I.createElement("canvas", {
               ref: this.m_CanvasRef,
               className: "EmbeddedData",
-              height: Se.k_EmbeddedDataRows,
+              height: De.k_EmbeddedDataRows,
             }),
             I.createElement(
               "div",
@@ -1279,7 +1293,7 @@
           null === this.m_Pixels &&
             (this.m_Pixels = this.m_CanvasContext.createImageData(
               this.m_nEmbeddedDataWidth,
-              Se.k_EmbeddedDataRows
+              De.k_EmbeddedDataRows
             )),
           this.updateAllPanelBounds();
       }
@@ -1298,11 +1312,11 @@
               )
             : this.m_scalingDomRef.current.removeAttribute("style"),
           (this.m_fCurrentScale = o),
-          (ve.s_bPanelsAreDirty = !0)),
-          ve.s_bPanelsAreDirty &&
+          (Se.s_bPanelsAreDirty = !0)),
+          Se.s_bPanelsAreDirty &&
             (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
             K(),
-            (ve.s_bPanelsAreDirty = !1),
+            (Se.s_bPanelsAreDirty = !1),
             this.updateEmbeddedData());
       }
       updateEmbeddedData() {
@@ -1361,15 +1375,15 @@
             (this.m_nDirtyXMax = e);
       }
     }
-    (Se.s_Current = null),
-      (Se.k_EmbeddedDataRows = 1),
-      Object(n.b)([i.bind], Se.prototype, "toggleDebugPointer", null),
-      Object(n.b)([i.bind], Se.prototype, "onMouseMove", null),
-      Object(n.b)([i.bind], Se.prototype, "forceLayoutUpdate", null),
-      Object(n.b)([i.bind], Se.prototype, "onMutation", null);
+    (De.s_Current = null),
+      (De.k_EmbeddedDataRows = 1),
+      Object(n.b)([i.bind], De.prototype, "toggleDebugPointer", null),
+      Object(n.b)([i.bind], De.prototype, "onMouseMove", null),
+      Object(n.b)([i.bind], De.prototype, "forceLayoutUpdate", null),
+      Object(n.b)([i.bind], De.prototype, "onMutation", null);
     Object(n.b)(
       [o.a],
-      class extends $ {
+      class extends ee {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -1390,8 +1404,8 @@
     ),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
-      })(ue || (ue = {}));
-    class De extends $ {
+      })(ce || (ce = {}));
+    class Re extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -1424,8 +1438,8 @@
         );
       }
     }
-    Object(n.b)([o.a], De.prototype, "buildNode", null);
-    class Re extends $ {
+    Object(n.b)([o.a], Re.prototype, "buildNode", null);
+    class Ce extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -1457,8 +1471,8 @@
         return [e, r];
       }
     }
-    Object(n.b)([o.a], Re.prototype, "buildNode", null);
-    class Ce extends $ {
+    Object(n.b)([o.a], Ce.prototype, "buildNode", null);
+    class Ie extends ee {
       constructor(e) {
         super(e);
       }
@@ -1471,7 +1485,7 @@
         });
       }
     }
-    class Ie extends $ {
+    class xe extends ee {
       constructor(e) {
         super(e);
       }
@@ -1487,7 +1501,7 @@
         );
       }
     }
-    class xe extends $ {
+    class Me extends ee {
       constructor(e) {
         super(e),
           (this.m_latchedPosition = null),
@@ -1509,7 +1523,7 @@
         "object" == typeof this.props.location
           ? (r = X(this.props.location, { x: 0, y: 0 }))
           : "number" == typeof this.props.location &&
-            (r = ye(this.props.location));
+            (r = ve(this.props.location));
         let n = this.createSgNode(t);
         if (this.props.latched && null !== this.m_latchedPosition)
           (n.properties["anchor-u"] = this.m_latchedPosition.u),
@@ -1550,12 +1564,12 @@
         );
       }
     }
-    Object(n.b)([o.a], xe.prototype, "buildNode", null);
+    Object(n.b)([o.a], Me.prototype, "buildNode", null);
     !(function (e) {
       (e[(e.LockedToParent = 0)] = "LockedToParent"),
         (e[(e.LockedToWorld = 1)] = "LockedToWorld");
-    })(ce || (ce = {}));
-    class Me extends $ {
+    })(pe || (pe = {}));
+    class Pe extends ee {
       constructor(e) {
         super(e);
       }
@@ -1593,7 +1607,7 @@
         );
       }
     }
-    class Pe extends $ {
+    class we extends ee {
       constructor(e) {
         super(e);
       }
@@ -1605,25 +1619,25 @@
         );
       }
     }
-    function we() {
+    function Oe() {
       var e, t;
       return null !=
         (t = null === (e = VRHTML) || void 0 === e ? void 0 : e.Environment())
         ? t
-        : pe.Unknown;
+        : he.Unknown;
     }
     !(function (e) {
       (e[(e.Desktop = 1)] = "Desktop"),
         (e[(e.Overlay = 2)] = "Overlay"),
         (e[(e.Unknown = 100)] = "Unknown");
-    })(pe || (pe = {})),
+    })(he || (he = {})),
       window.hasOwnProperty("VRHTML") || (window.VRHTML = null),
       (function (e) {
         (e[(e.Auto = 0)] = "Auto"),
           (e[(e.Low = 1)] = "Low"),
           (e[(e.Medium = 2)] = "Medium"),
           (e[(e.High = 3)] = "High");
-      })(he || (he = {})),
+      })(me || (me = {})),
       (function (e) {
         (e[(e.TrackingResult_Uninitialized = 1)] =
           "TrackingResult_Uninitialized"),
@@ -1637,13 +1651,13 @@
             "TrackingResult_Running_OutOfRange"),
           (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
             "TrackingResult_Fallback_RotationOnly");
-      })(me || (me = {})),
+      })(_e || (_e = {})),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
-      })(_e || (_e = {}));
-    var Oe, Fe, Te, Ee, Ne, ke, Ae, Be, Ve, Ue, Le, He, We, ze, Ge, qe, je, Ke;
+      })(ge || (ge = {}));
+    var Fe, Te, Ee, Ne, ke, Ae, Be, Ve, Ue, Le, He, We, ze, Ge, qe, je, Ke, Xe;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1662,11 +1676,11 @@
         (e[(e.Close = 14)] = "Close"),
         (e[(e.TakeFocus = 15)] = "TakeFocus"),
         (e[(e.HitTest = 16)] = "HitTest");
-    })(Oe || (Oe = {})),
+    })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.Activated = 0)] = "Activated"),
           (e[(e.Deactivated = 1)] = "Deactivated");
-      })(Fe || (Fe = {})),
+      })(Te || (Te = {})),
       (function (e) {
         (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
           (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
@@ -1697,10 +1711,10 @@
           (e[(e.EnableControlBarKeyboard = 16777216)] =
             "EnableControlBarKeyboard"),
           (e[(e.EnableControlBarClose = 33554432)] = "EnableControlBarClose");
-      })(Te || (Te = {})),
+      })(Ee || (Ee = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-      })(Ee || (Ee = {})),
+      })(Ne || (Ne = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.TrackingSystemName_String = 1e3)] =
@@ -2007,7 +2021,7 @@
             "VendorSpecific_Reserved_End"),
           (e[(e.TrackedDeviceProperty_Max = 1e6)] =
             "TrackedDeviceProperty_Max");
-      })(Ne || (Ne = {})),
+      })(ke || (ke = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.HMD = 1)] = "HMD"),
@@ -2015,19 +2029,19 @@
           (e[(e.GenericTracker = 3)] = "GenericTracker"),
           (e[(e.TrackingReference = 4)] = "TrackingReference"),
           (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-      })(ke || (ke = {})),
+      })(Ae || (Ae = {})),
       (function (e) {
         (e[(e.Unknown = 0)] = "Unknown"),
           (e[(e.NVIDIA = 1)] = "NVIDIA"),
           (e[(e.AMD = 2)] = "AMD");
-      })(Ae || (Ae = {})),
+      })(Be || (Be = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.Starting = 1)] = "Starting"),
           (e[(e.Quitting = 2)] = "Quitting"),
           (e[(e.Running = 3)] = "Running"),
           (e[(e.Waiting = 4)] = "Waiting");
-      })(Be || (Be = {})),
+      })(Ve || (Ve = {})),
       (function (e) {
         (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
           (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -2037,16 +2051,16 @@
           (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
             "CouldntFindOrCreateClientOverlay"),
           (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-      })(Ve || (Ve = {})),
+      })(Ue || (Ue = {})),
       (function (e) {
         (e[(e.Normal = 0)] = "Normal"),
           (e[(e.Password = 1)] = "Password"),
           (e[(e.Submit = 2)] = "Submit");
-      })(Ue || (Ue = {})),
+      })(Le || (Le = {})),
       (function (e) {
         (e[(e.SingleLine = 0)] = "SingleLine"),
           (e[(e.MultipleLines = 1)] = "MultipleLines");
-      })(Le || (Le = {})),
+      })(He || (He = {})),
       (function (e) {
         (e[(e.LaserMouse = 1)] = "LaserMouse"),
           (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -2059,7 +2073,7 @@
             "DriverRequestsApplicationPause"),
           (e[(e.DriverRequestsReducedRendering = 128)] =
             "DriverRequestsReducedRendering");
-      })(He || (He = {})),
+      })(We || (We = {})),
       (function (e) {
         (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
           (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -2076,14 +2090,14 @@
           (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
           (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
           (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-      })(We || (We = {})),
+      })(ze || (ze = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
           (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
           (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
           (e[(e.Error = -1)] = "Error");
-      })(ze || (ze = {})),
+      })(Ge || (Ge = {})),
       (function (e) {
         (e[(e.TrackedControllerRole_Invalid = 0)] =
           "TrackedControllerRole_Invalid"),
@@ -2096,7 +2110,7 @@
           (e[(e.TrackedControllerRole_Treadmill = 4)] =
             "TrackedControllerRole_Treadmill"),
           (e[(e.TrackedControllerRole_Max = 5)] = "TrackedControllerRole_Max");
-      })(Ge || (Ge = {})),
+      })(qe || (qe = {})),
       (function (e) {
         (e[(e.Unknown = 0)] = "Unknown"),
           (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -2108,18 +2122,18 @@
           (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
           (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
           (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-      })(qe || (qe = {})),
+      })(je || (je = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(je || (je = {})),
+      })(Ke || (Ke = {})),
       (function (e) {
         (e[(e.Hostname = 0)] = "Hostname"),
           (e[(e.IP = 1)] = "IP"),
           (e[(e.Version = 2)] = "Version"),
           (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
           (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
-      })(Ke || (Ke = {}));
-    class Xe extends I.Component {
+      })(Xe || (Xe = {}));
+    class Ze extends I.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2127,7 +2141,7 @@
           try {
             let e = VRHTML.VRProperties.GetStringProperty(
               this.props.sDevicePath,
-              Ne.RenderModelName_String
+              ke.RenderModelName_String
             );
             if (e) {
               let r = VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
@@ -2153,7 +2167,7 @@
       }
       render() {
         return I.createElement(
-          ge,
+          fe,
           {
             id: this.props.id,
             parent_path: this.props.sDevicePath,
@@ -2163,7 +2177,7 @@
         );
       }
     }
-    class Ze extends $ {
+    class Qe extends ee {
       constructor(e) {
         super(e);
       }
@@ -2175,7 +2189,7 @@
         );
       }
     }
-    class Qe extends $ {
+    class Je extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2192,10 +2206,31 @@
         );
       }
     }
-    Object(n.b)([o.a], Qe.prototype, "buildNode", null),
-      r.d(t, "c", function () {
-        return s;
-      }),
+    Object(n.b)([o.a], Je.prototype, "buildNode", null);
+    class Ye extends ee {
+      constructor(e) {
+        super(e);
+      }
+      internalRender() {
+        let e = Y(this.props.xfCurrent.translation),
+          t = $(this.props.xfCurrent.rotation),
+          r = Y(this.props.xfCurrent.scale);
+        return I.createElement(
+          "vsg-manipulation-transform",
+          {
+            "is-moving": this.props.bIsMoving,
+            "parent-path": this.props.sParentPath,
+            translation: e,
+            rotation: t,
+            scale: r,
+          },
+          this.props.children
+        );
+      }
+    }
+    r.d(t, "c", function () {
+      return s;
+    }),
       r.d(t, "g", function () {
         return a;
       }),
@@ -2205,16 +2240,16 @@
       r.d(t, "Q", function () {
         return d;
       }),
-      r.d(t, "jb", function () {
+      r.d(t, "kb", function () {
         return u;
       }),
-      r.d(t, "kb", function () {
+      r.d(t, "lb", function () {
         return c;
       }),
-      r.d(t, "W", function () {
+      r.d(t, "X", function () {
         return p;
       }),
-      r.d(t, "X", function () {
+      r.d(t, "Y", function () {
         return h;
       }),
       r.d(t, "O", function () {
@@ -2226,10 +2261,10 @@
       r.d(t, "J", function () {
         return g;
       }),
-      r.d(t, "T", function () {
+      r.d(t, "U", function () {
         return f;
       }),
-      r.d(t, "V", function () {
+      r.d(t, "W", function () {
         return b;
       }),
       r.d(t, "b", function () {
@@ -2238,7 +2273,7 @@
       r.d(t, "K", function () {
         return v;
       }),
-      r.d(t, "Y", function () {
+      r.d(t, "Z", function () {
         return S;
       }),
       r.d(t, "h", function () {
@@ -2247,157 +2282,160 @@
       r.d(t, "M", function () {
         return R;
       }),
-      r.d(t, "hb", function () {
+      r.d(t, "ib", function () {
         return C;
       }),
       r.d(t, "j", function () {
-        return re;
-      }),
-      r.d(t, "lb", function () {
         return ne;
       }),
-      r.d(t, "Z", function () {
+      r.d(t, "mb", function () {
         return ie;
       }),
-      r.d(t, "U", function () {
-        return te;
-      }),
-      r.d(t, "C", function () {
+      r.d(t, "ab", function () {
         return oe;
       }),
-      r.d(t, "nb", function () {
-        return ge;
+      r.d(t, "V", function () {
+        return re;
       }),
-      r.d(t, "mb", function () {
+      r.d(t, "C", function () {
+        return se;
+      }),
+      r.d(t, "ob", function () {
         return fe;
+      }),
+      r.d(t, "nb", function () {
+        return be;
       }),
       r.d(t, "f", function () {
         return W;
       }),
-      r.d(t, "eb", function () {
+      r.d(t, "fb", function () {
         return q;
       }),
-      r.d(t, "ib", function () {
+      r.d(t, "jb", function () {
         return j;
       }),
-      r.d(t, "S", function () {
+      r.d(t, "T", function () {
         return K;
       }),
-      r.d(t, "gb", function () {
-        return Se;
-      }),
-      r.d(t, "v", function () {
-        return ue;
-      }),
-      r.d(t, "fb", function () {
+      r.d(t, "hb", function () {
         return De;
       }),
-      r.d(t, "N", function () {
+      r.d(t, "v", function () {
+        return ce;
+      }),
+      r.d(t, "gb", function () {
         return Re;
       }),
-      r.d(t, "R", function () {
+      r.d(t, "N", function () {
         return Ce;
       }),
-      r.d(t, "db", function () {
+      r.d(t, "R", function () {
         return Ie;
       }),
-      r.d(t, "bb", function () {
+      r.d(t, "eb", function () {
         return xe;
       }),
-      r.d(t, "t", function () {
-        return se;
-      }),
-      r.d(t, "u", function () {
-        return ae;
-      }),
       r.d(t, "cb", function () {
-        return de;
-      }),
-      r.d(t, "ab", function () {
-        return ve;
-      }),
-      r.d(t, "H", function () {
         return Me;
       }),
-      r.d(t, "L", function () {
+      r.d(t, "t", function () {
+        return ae;
+      }),
+      r.d(t, "u", function () {
+        return le;
+      }),
+      r.d(t, "db", function () {
+        return ue;
+      }),
+      r.d(t, "bb", function () {
+        return Se;
+      }),
+      r.d(t, "H", function () {
         return Pe;
       }),
-      r.d(t, "e", function () {
-        return Xe;
-      }),
-      r.d(t, "d", function () {
-        return Ze;
-      }),
-      r.d(t, "k", function () {
-        return Qe;
-      }),
-      r.d(t, "I", function () {
-        return pe;
-      }),
-      r.d(t, "i", function () {
+      r.d(t, "L", function () {
         return we;
       }),
-      r.d(t, "r", function () {
+      r.d(t, "e", function () {
+        return Ze;
+      }),
+      r.d(t, "d", function () {
+        return Qe;
+      }),
+      r.d(t, "k", function () {
+        return Je;
+      }),
+      r.d(t, "S", function () {
+        return Ye;
+      }),
+      r.d(t, "I", function () {
         return he;
       }),
-      r.d(t, "A", function () {
+      r.d(t, "i", function () {
+        return Oe;
+      }),
+      r.d(t, "r", function () {
         return me;
       }),
-      r.d(t, "B", function () {
+      r.d(t, "A", function () {
         return _e;
       }),
-      r.d(t, "qb", function () {
+      r.d(t, "B", function () {
+        return ge;
+      }),
+      r.d(t, "rb", function () {
         return 0;
       }),
-      r.d(t, "pb", function () {
+      r.d(t, "qb", function () {
         return -1;
       }),
       r.d(t, "m", function () {
-        return Fe;
-      }),
-      r.d(t, "E", function () {
         return Te;
       }),
-      r.d(t, "F", function () {
+      r.d(t, "E", function () {
         return Ee;
       }),
-      r.d(t, "z", function () {
+      r.d(t, "F", function () {
         return Ne;
       }),
-      r.d(t, "y", function () {
+      r.d(t, "z", function () {
         return ke;
       }),
-      r.d(t, "w", function () {
-        return Be;
+      r.d(t, "y", function () {
+        return Ae;
       }),
-      r.d(t, "D", function () {
+      r.d(t, "w", function () {
         return Ve;
       }),
-      r.d(t, "q", function () {
+      r.d(t, "D", function () {
         return Ue;
       }),
-      r.d(t, "p", function () {
+      r.d(t, "q", function () {
         return Le;
       }),
-      r.d(t, "l", function () {
-        return We;
+      r.d(t, "p", function () {
+        return He;
       }),
-      r.d(t, "s", function () {
+      r.d(t, "l", function () {
         return ze;
       }),
-      r.d(t, "x", function () {
+      r.d(t, "s", function () {
         return Ge;
       }),
-      r.d(t, "G", function () {
+      r.d(t, "x", function () {
         return qe;
       }),
-      r.d(t, "o", function () {
+      r.d(t, "G", function () {
         return je;
       }),
-      r.d(t, "n", function () {
+      r.d(t, "o", function () {
         return Ke;
+      }),
+      r.d(t, "n", function () {
+        return Xe;
       });
-    t.ob = VRHTML;
+    t.pb = VRHTML;
   },
   HaPb: function (e, t, r) {
     "use strict";
@@ -2429,15 +2467,15 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/3D_model_of_a_Cube.stl/1200px-3D_model_of_a_Cube.stl.png",
           },
           a.createElement(
-            u.nb,
+            u.ob,
             { translation: { y: 0.5 }, scale: 0.2, rotation: { y: e } },
-            a.createElement(u.fb, { source: "locator" })
+            a.createElement(u.gb, { source: "locator" })
           ),
           a.createElement(
             u.L,
             null,
             a.createElement(
-              u.ab,
+              u.bb,
               { width: 1, origin: u.t.BottomCenter },
               a.createElement(
                 "div",
@@ -2476,7 +2514,7 @@
         window.cancelAnimationFrame(this.animationFrameHandle);
       }
       componentDidMount() {
-        Object(u.S)();
+        Object(u.T)();
       }
       onAnimationFrame() {
         var e, t;
@@ -2542,7 +2580,7 @@
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png",
             },
             a.createElement(
-              u.ab,
+              u.bb,
               { width: 1.2, interactive: !0 },
               a.createElement(
                 "div",
@@ -2648,33 +2686,33 @@
             )
           ),
           a.createElement(
-            u.nb,
+            u.ob,
             { transform: this.state.Transform, parent_origin: u.C.Standing },
-            a.createElement(u.fb, { source: "generic_hmd" })
+            a.createElement(u.gb, { source: "generic_hmd" })
           ),
           a.createElement(
-            u.nb,
+            u.ob,
             {
               translation: { x: 0, y: 0.3, z: 0 },
               rotation: { x: 30, y: this.state.Degrees, z: 90 },
               parent_origin: u.C.Standing,
             },
-            a.createElement(u.fb, { source: "locator" })
+            a.createElement(u.gb, { source: "locator" })
           ),
-          a.createElement(u.nb, {
+          a.createElement(u.ob, {
             translation: { x: 0, y: 1.8, z: 0 },
             parent_origin: u.C.Standing,
             id: "line_origin",
           }),
           a.createElement(
-            u.nb,
+            u.ob,
             {
               translation: { x: 0, y: 0, z: -0.5 },
               scale: { x: 2, y: 2, z: 2 },
               parent_origin: u.C.Seated,
             },
             a.createElement(
-              u.ab,
+              u.bb,
               { height: 0.45, width: 0.45, interactive: !0 },
               a.createElement("iframe", {
                 src: "https://www.valvesoftware.com",
@@ -2685,16 +2723,16 @@
             )
           ),
           a.createElement(
-            u.nb,
+            u.ob,
             {
               translation: { x: 0, y: 0, z: -0.5 },
               parent_path: "/user/hand/left",
               id: "left_hand_model",
             },
-            a.createElement(u.fb, { source: "locator_one_sided" })
+            a.createElement(u.gb, { source: "locator_one_sided" })
           ),
           a.createElement(
-            u.nb,
+            u.ob,
             { parent_path: "/user/hand/right" },
             a.createElement(u.R, {
               target_id: "line_origin",
@@ -2717,7 +2755,7 @@
               iconUri:
                 "data:image/png;base64,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",
             },
-            a.createElement(u.ab, {
+            a.createElement(u.bb, {
               overlay_key: "valve.steam.bigpicture",
               uv_min: { u: 0, v: 0 },
               uv_max: { u: 1, v: 0.3 },
@@ -2725,19 +2763,19 @@
               interactive: !1,
             })
           ),
-          a.createElement(u.nb, {
+          a.createElement(u.ob, {
             translation: { x: 0, y: 0, z: -0.5 },
             parent_path: "/user/hand/right/pose/base",
           }),
           a.createElement(
-            u.nb,
+            u.ob,
             {
               translation: { x: 0, y: -1.2, z: -2 },
               rotation: { x: -45 },
               parent_path: "/user/head/pose/raw",
             },
             a.createElement(
-              u.ab,
+              u.bb,
               { height: 0.2, width: void 0, interactive: !1 },
               a.createElement(
                 "div",
@@ -2756,22 +2794,22 @@
             )
           ),
           a.createElement(
-            u.nb,
+            u.ob,
             { parent_origin: u.C.Standing },
-            a.createElement(u.fb, {
+            a.createElement(u.gb, {
               source: "{knuckles}valve_controller_knu_ev2_0_left",
             })
           ),
           a.createElement(
-            u.nb,
+            u.ob,
             { translation: { y: 0.5 } },
             a.createElement(
-              u.Z,
+              u.ab,
               { value: 0.1 },
               a.createElement(
-                u.lb,
+                u.mb,
                 { color: { b: 1, g: 1, r: 0 } },
-                a.createElement(u.fb, {
+                a.createElement(u.gb, {
                   source: "generic_hmd",
                   wireframe: !0,
                   fresnel: { color: { r: 1 }, opacity: 0.7, strength: 1 },
@@ -2788,7 +2826,7 @@
       Object(s.b)([d.bind], p.prototype, "onHideElasticPanel", null),
       Object(s.b)([d.bind], p.prototype, "onMailboxMessage", null),
       l.render(
-        a.createElement(u.gb, null, a.createElement(p, null)),
+        a.createElement(u.hb, null, a.createElement(p, null)),
         document.getElementById("root")
       ),
       null === (n = VRHTML) ||
@@ -2813,4 +2851,4 @@
         );
   },
 });
-//# sourceMappingURL=scenegraphtest.js.map?v=1e323675195e13107d56
+//# sourceMappingURL=scenegraphtest.js.map?v=d990f86f6e2f37325976

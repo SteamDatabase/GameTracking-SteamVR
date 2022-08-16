@@ -1255,6 +1255,8 @@ $tI
 .L2863
 .L2864
 .L2865
+.L2866
+.L2867
 .L2868
 .L2869
 .L287
@@ -1425,15 +1427,15 @@ $tI
 .L3300
 .L331
 .L34
-.L3417
-.L3419
 .L342
-.L3420
-.L3421
-.L3422
 .L3423
+.L3425
+.L3426
+.L3427
 .L3428
+.L3429
 .L343
+.L3434
 .L344
 .L345
 .L347
@@ -1937,72 +1939,72 @@ $tI
 .L800
 .L801
 .L802
-.L8023
-.L8025
-.L8026
-.L8028
 .L8029
 .L803
+.L8031
+.L8032
+.L8034
+.L8035
 .L804
 .L805
 .L806
-.L8061
-.L8063
-.L8064
-.L8065
-.L8066
 .L8067
+.L8069
 .L807
+.L8070
+.L8071
+.L8072
+.L8073
 .L808
 .L809
-.L8099
 .L81
 .L810
-.L8101
-.L8102
-.L8104
 .L8105
+.L8107
+.L8108
 .L811
+.L8110
+.L8111
 .L812
 .L813
-.L8137
-.L8139
 .L814
-.L8140
-.L8141
-.L8142
 .L8143
+.L8145
+.L8146
+.L8147
+.L8148
+.L8149
 .L815
 .L816
 .L817
-.L8175
-.L8177
-.L8178
-.L8180
 .L8181
+.L8183
+.L8184
+.L8186
+.L8187
 .L82
-.L8213
-.L8215
-.L8216
-.L8217
-.L8218
 .L8219
-.L8259
-.L8261
-.L8262
-.L8264
+.L8221
+.L8222
+.L8223
+.L8224
+.L8225
 .L8265
+.L8267
+.L8268
+.L8270
+.L8271
 .L828
 .L829
 .L83
 .L831
-.L8313
-.L8315
-.L8316
-.L8317
-.L8318
 .L8319
 .L832
+.L8321
+.L8322
+.L8323
+.L8324
+.L8325
 .L833
 .L834
 .L835
@@ -2040,31 +2042,25 @@ $tI
 .L864
 .L865
 .L866
-.L8660
-.L8662
-.L8663
-.L8664
-.L8665
-.L8666
 .L867
 .L868
 .L869
 .L87
+.L8700
+.L8702
+.L8703
+.L8704
+.L8705
+.L8706
 .L871
 .L872
-.L8723
-.L8725
-.L8726
-.L8727
-.L8728
 .L8729
 .L873
-.L8752
-.L8754
-.L8755
-.L8756
-.L8757
-.L8758
+.L8731
+.L8732
+.L8733
+.L8734
+.L8735
 .L879
 .L88
 .L880
@@ -2113,38 +2109,44 @@ $tI
 .L926
 .L93
 .L94
-.L9453
-.L9455
-.L9456
-.L9457
-.L9458
+.L9406
+.L9408
+.L9409
+.L9410
+.L9411
+.L9412
 .L9459
+.L9461
+.L9462
+.L9463
+.L9464
+.L9465
 .L95
-.L9506
-.L9508
-.L9509
-.L9510
-.L9511
 .L9512
-.L9559
-.L9561
-.L9562
-.L9563
-.L9564
+.L9514
+.L9515
+.L9516
+.L9517
+.L9518
 .L9565
+.L9567
+.L9568
+.L9569
+.L9570
+.L9571
 .L96
-.L9612
-.L9614
-.L9615
-.L9616
-.L9617
 .L9618
-.L9665
-.L9667
-.L9668
-.L9669
-.L9670
+.L9620
+.L9621
+.L9622
+.L9623
+.L9624
 .L9671
+.L9673
+.L9674
+.L9675
+.L9676
+.L9677
 .L97
 .L98
 .L99
@@ -2381,13 +2383,13 @@ $tI
 17CImuTrackerThread
 17CLinuxVideoStream
 18IUsbDeviceCallback
-19:42:53
 19CWirelessDecoderWv2
 1e+9999
 2
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
+22:04:50
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -2550,7 +2552,7 @@ Attempting HID Open %s: %s
 Audio
 AudioBridge
 Aug
-Aug  8 2022
+Aug 15 2022
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)
@@ -3819,6 +3821,8 @@ CVRPathRegistry::GetConfigHistoryCount() const
 CVRPathRegistry::GetConfigHistoryPath(unsigned int) const
 CVRPathRegistry::GetExternalDriverCount() const
 CVRPathRegistry::GetExternalDriverPath(unsigned int) const
+CVRPathRegistry::GetInstalledRuntimes() const
+CVRPathRegistry::GetInstalledRuntimes() const [clone .cold]
 CVRPathRegistry::GetLogHistoryCount() const
 CVRPathRegistry::GetLogHistoryPath(unsigned int) const
 CVRPathRegistry::GetRuntimeHistoryCount() const
@@ -3942,6 +3946,8 @@ CleanupInternalInterfaces()
 ClearField
 CloseLog()
 Closed
+CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&)
+CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
 Comment started here.
 CompareSerialNumbers(wchar_t const*, wchar_t const*)
 Compositor failed to find DX11 hardware (401)
@@ -7639,7 +7645,6 @@ __gnu_cxx::__concurrence_unlock_error::what() const
 __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
 __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 __gnu_cxx::__freeres()
-__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > std::__find_if<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equals_iter<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > > >(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equals_iter<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > >, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > std::__search<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter)
@@ -8438,6 +8443,7 @@ display_color_mult
 display_edid
 display_frequency
 display_gc
+display_hdr10
 display_mc
 display_usb_pid
 display_usb_protocol
@@ -8482,6 +8488,9 @@ drmOpenWithType
 drop %08X u%d (i%d)
 dropNullPlaceholders
 ds
+dsc_bppx16
+dsc_slices
+dsc_version
 dt
 dualSpeakerAndJackOutput
 dual_extrinsics
@@ -15245,8 +15254,7 @@ std::vector<std::pair<google::protobuf::Descriptor const*, int>, std::allocator<
 std::vector<std::string*, std::allocator<std::string*> >::_M_check_len(unsigned int, char const*) const
 std::vector<std::string*, std::allocator<std::string*> >::_M_default_append(unsigned int)
 std::vector<std::string, std::allocator<std::string> >::_M_check_len(unsigned int, char const*) const
-std::vector<std::string, std::allocator<std::string> >::_M_erase(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >)
-std::vector<std::string, std::allocator<std::string> >::insert(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+std::vector<std::string, std::allocator<std::string> >::_M_insert_rval(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
 std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
 std::vector<std::string, std::allocator<std::string> >::reserve(unsigned int)
 std::vector<std::string, std::allocator<std::string> >::~vector()
@@ -17494,6 +17502,7 @@ vortex::CLighthouseDBTrackedObject::BHasValidPose() const
 vortex::CLighthouseDBTrackedObject::BIsTiltPending() const
 vortex::CLighthouseDBTrackedObject::CLighthouseDBTrackedObject(vortex::CLighthouseDB*, std::string, vr::ETrackedDeviceClass)
 vortex::CLighthouseDBTrackedObject::CLighthouseDBTrackedObject(vortex::CLighthouseDB*, std::string, vr::ETrackedDeviceClass) [clone .cold]
+vortex::CLighthouseDBTrackedObject::ClearLiveImuCalibration()
 vortex::CLighthouseDBTrackedObject::ClearPerTrackingSessionState()
 vortex::CLighthouseDBTrackedObject::ClearPerTrackingSessionState() [clone .cold]
 vortex::CLighthouseDBTrackedObject::CreateFromJson(vortex::CLighthouseDBTrackedObject**, vortex::CLighthouseDB*, Json::Value const&)
@@ -17626,6 +17635,7 @@ vortex::CLighthouseDirect::Run() [clone .cold]
 vortex::CLighthouseDirect::SendOnPoseChange()
 vortex::CLighthouseDirect::SendOpticalStateToPoseDriver(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > const&)
 vortex::CLighthouseDirect::SetInitialProcessCovariance()
+vortex::CLighthouseDirect::SetTrackRefFromHead(CTrackedDeviceConfig const*)
 vortex::CLighthouseDirect::ShowBootstrapProgress(unsigned int)
 vortex::CLighthouseDirect::Start()
 vortex::CLighthouseDirect::State_s::operator=(vortex::CLighthouseDirect::State_s const&)

@@ -2,8 +2,10 @@
  %41g
  A__^
  H3E H3E
+![^z?
 !hn7!
 ',=?k
+'_.eO
 (f*^[0
 *9Z9N
 +Xt@(
@@ -80,7 +82,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220808194828Z0/
+220815221641Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,10 +107,8 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 <0:08
 =rIQU
->)EU7A
 >0<0:
 >Mp$d
->\{(&
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 @.data
@@ -167,6 +167,8 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RRn/`
+RSDST
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -174,6 +176,7 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
+T1Nzn
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -233,7 +236,6 @@ driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
 e,>~^
-gXX0	I
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -249,6 +251,8 @@ memmove
 memset
 modelNumber
 ntelD
+q7Y3B 
+q\IM>K
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -270,6 +274,7 @@ x]~\6
 {un'%
 |$ AVH
 |Lu?c
+}>`2P<
 }LuHO
 ~qj#k"
 ~t&LN

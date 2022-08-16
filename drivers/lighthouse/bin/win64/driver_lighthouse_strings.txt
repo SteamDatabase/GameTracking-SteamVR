@@ -164,6 +164,7 @@
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
+ A]A\_
  A^A]A\_^
  A^][
  A^^]
@@ -597,6 +598,7 @@ $w!Hc
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&.FrF
 &9k0t
 &D9c0t
 &D9k0t
@@ -866,8 +868,8 @@ $w!Hc
 )|$pf
 *9Z9N
 *H+KXI
-*HcT$PH
 *T$4I
+*qt vS
 *uXI;
 +C,+C
 +D9c0t H
@@ -895,6 +897,7 @@ $w!Hc
 ,0<6w H
 ,9k0t%H
 ,9{0t%H
+,El #
 ,W5y+
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
@@ -1067,6 +1070,7 @@ $w!Hc
 .?AVCPrismDirect@@
 .?AVCRecord@pb@lighthouse@@
 .?AVCRefCount@@
+.?AVCSingletonCriticalSection@@
 .?AVCSwSyncDetectSource@vortex@@
 .?AVCThread@@
 .?AVCUsbDeviceScannerThread@@
@@ -1234,6 +1238,7 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
+/5d<	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1330,6 +1335,7 @@ $w!Hc
 0@interface
 0A;nh|
 0A\][
+0A]A\_
 0A]A\_^[
 0A^A\^
 0A^A\_
@@ -1362,7 +1368,6 @@ $w!Hc
 0x%08llx
 0}0i1
 1.2.5
-1.2.840.113549.1.9.6
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 130801120000Z
@@ -1378,7 +1383,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220801000000Z
-220808195258Z0/
+220815221654Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1388,7 +1393,6 @@ $w!Hc
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
-3/su6:
 311109235959Z0b1
 330314235959Z0L1
 3333333
@@ -1402,7 +1406,6 @@ $w!Hc
 4Pole
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5^_S\
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -1440,9 +1443,9 @@ $w!Hc
 8E;~X|
 8H)t,E
 8H;^pu
-8L9-^P&
 8O0u]A
 8\$@t
+8\t	H
 8\u7H
 8^Ht!D8fIt
 8_^][
@@ -1559,6 +1562,7 @@ $w!Hc
 ;<$uCB
 ;Ch}(
 ;D$lu H
+;F(Nn
 ;K s;H
 ;K sEH
 ;K sFH
@@ -1575,6 +1579,8 @@ $w!Hc
 ;t$@sH
 ;w,~PA
 ;{(} H
+;|$ r
+<	 tT
 <	u(H
 <	vzH
 <	w'H
@@ -1803,8 +1809,11 @@ $w!Hc
 @A\^]
 @A]A\[
 @A]A\^][H
+@A]A\_
 @A]_[
+@A]_^][
 @A^A]A\[]
+@A^A]A\_^
 @A^][
 @A^_[
 @A^_^
@@ -1848,6 +1857,7 @@ $w!Hc
 @SUVWATAVAWH
 @SUVWATH
 @SUVWAUAVAWH
+@SUVWAUH
 @SUVWAVAWH
 @SUVWAVH
 @SUVWH
@@ -1911,6 +1921,7 @@ $w!Hc
 @UVAVH
 @UVAWH
 @UVWATAUAVAWH
+@UVWATH
 @UVWAUH
 @UVWAVAWH
 @UVWAVH
@@ -1929,6 +1940,7 @@ $w!Hc
 @VATH
 @VAVH
 @VWATAVAWH
+@VWATH
 @VWAUAWH
 @VWAVH
 @VWAWH
@@ -2013,6 +2025,7 @@ AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY
 AUDIO: 
 AUDIO: %s
 A\_^[]
+A\_^]
 A\_^][
 A]A\[
 A]A\]
@@ -2172,6 +2185,7 @@ B<I;_X
 B@H+P0
 B@H+P0I
 BA99u	
+BD9%>
 BL Init
 BL requested by app
 BL requested by buttons
@@ -2457,7 +2471,7 @@ C\$PM
 C\$`H
 C\$pH
 C\$pL
-C\$pL9%}X(
+C\$pL9%]^(
 C\$pM
 C\HcKXH
 C`9C(uq
@@ -2474,10 +2488,6 @@ Can't parse HMD config from USB: %s
 CancelIo
 Cannot allocate buffer larger than kint32max for 
 Cb9CP~(H
-CertCloseStore
-CertFindCertificateInStore
-CertFreeCertificateContext
-CertGetNameStringA
 Ch9C,uiH
 ClHcKhH
 Clamping MC to %d (%0.1f%%) %d (%0.1f%%)
@@ -2556,8 +2566,6 @@ CreateMediaType(pwfxIn) failed hr = 0x%08x
 CreateMediaType(pwfxOut) failed hr = 0x%08x
 CreateMutexA
 CreateProcessA
-CreateProcessAsUserA
-CreateProcessAsUserW
 CreateResampler failed: hr = 0x%08x
 CreateResamplerBuffer (input) failed: hr = 0x%08x
 CreateResamplerBuffer (output) failed: hr = 0x%08x
@@ -2568,10 +2576,6 @@ CreateWellKnownSid failed for WinBuiltinAnyPackageSid
 CreateWindowExA
 Creating new universe %llu because there were no %sexisting universes
 Creating playback mirror thread for device %s
-CryptDecodeObject
-CryptMsgClose
-CryptMsgGetParam
-CryptQueryObject
 Ct$0H
 Ct$PH
 Ct$PI
@@ -2583,7 +2587,6 @@ D#C|D
 D#G|D
 D#K|M#
 D$ 9D$ H
-D$ 9D$Lw
 D$ @f
 D$ A;
 D$ D88
@@ -2617,7 +2620,6 @@ D$(H+
 D$(H+]
 D$(H9D$ 
 D$(H9D$0t
-D$(H9D$Xs
 D$(H;
 D$(Hc
 D$(HcA
@@ -2628,14 +2630,12 @@ D$(I9~
 D$(I;
 D$(I;G
 D$(I;H
-D$(L+
 D$(L;
 D$(L;D$PtVI
 D$(\E3
 D$(t3
 D$)2tsm
 D$,+D$$
-D$,9D$(s
 D$,D;l$8
 D$,I+
 D$-hiBm
@@ -2643,7 +2643,6 @@ D$0+D$(
 D$0E+
 D$0E3
 D$0H+
-D$0H9D$(v
 D$0H9Q
 D$0H9V8t
 D$0H;
@@ -2697,7 +2696,6 @@ D$@fA
 D$@u'H
 D$A8B
 D$B8B
-D$H9D$$
 D$HE3
 D$HH#
 D$HH+
@@ -2706,9 +2704,6 @@ D$Hfff
 D$PE3
 D$PH+
 D$PH9
-D$PH9D$HsHH
-D$PH9D$XscH
-D$PH9D$Xu!H
 D$PH9Q
 D$PH;
 D$PHcC
@@ -2787,11 +2782,15 @@ D$xH;
 D$xHc
 D$xL;
 D3D11CreateDevice
+D3DKMTEnumAdapters2
+D3DKMTQueryAdapterInfo
 D8$:u
 D8,7u
 D8,8u
 D840u
-D85@$(
+D8500(
+D85;2(
+D85`8(
 D8<0u
 D8D$9t$
 D8D$hH
@@ -2963,7 +2962,6 @@ E8g(tDD8
 E9>~eI
 E9A(|
 E9x s
-E;4| 
 E;A }
 E;p s
 E;u`|
@@ -3099,7 +3097,7 @@ F(HcH
 F,9ATu
 F,9G,
 F0D85
-F8@85'$(
+F8@85G8(
 F<@85
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -3293,6 +3291,7 @@ GetLastError
 GetLengthSid
 GetMediaSubtype failed hr = 0x%08x
 GetMessage
+GetModuleFileNameA
 GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleW
@@ -3371,7 +3370,6 @@ H+Q@H
 H+Q@HcO,H
 H+SpH
 H+SpI
-H+T$pH
 H+WpA
 H+WpH
 H+WpI
@@ -3382,6 +3380,7 @@ H+_pH
 H+q@HcO,H
 H0Ic@,Hc
 H9)u 
+H9-'P!
 H91u 
 H92u&
 H92u,
@@ -3410,7 +3409,6 @@ H9C s'L
 H9C s(H
 H9C s.H
 H9C t
-H9D$0s*H
 H9D$@
 H9D$@u
 H9D$Hu
@@ -3454,9 +3452,9 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=#(
-H;=+!
-H;=P"
+H;= %
+H;=U)
+H;=t'
 H;Axt
 H;B0t
 H;C s<H
@@ -3520,7 +3518,6 @@ HA^A]_[
 HA^_^[
 HA_A^A]_][
 HA_A^][
-HHcL$PH
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
 HMD Model: %s
@@ -3544,7 +3541,6 @@ HcB,A
 HcB,H
 HcC(N
 HcC,H
-HcD$$H
 HcD$x
 HcD7,A
 HcE,H
@@ -3560,10 +3556,6 @@ HcI4M
 HcK4M
 HcKHH
 HcKXH
-HcL$4H
-HcL$@H
-HcL$HH
-HcL$PH
 HcN,H
 HcN0L
 HcN4E
@@ -3867,6 +3859,8 @@ K@H+Y0I
 KERNEL32.dll
 KHR_lights_punctual
 K`H;S
+Kf;;u
+KfD;3u
 Knu RevB
 Knuckles
 Knuckles EV1.3
@@ -3937,6 +3931,7 @@ L$(K9
 L$(L+
 L$(fI
 L$0;L$DuLD
+L$0E3
 L$0H+
 L$0H3
 L$0H9
@@ -4023,22 +4018,20 @@ L+H@I
 L+P@H
 L+Q@I
 L80L;
-L9%.W(
-L9%JV(
-L9%NY(
-L9%X\(
-L9%]U(
+L9%*\(
+L9%._(
+L9%8b(
+L9%=[(
+L9%x`(
 L9&u"
-L9-w:&
+L9-[?&
 L90H;
 L90M;
 L92u'
-L95(c&
-L957`&
-L95hc&
+L95 h&
 L97u0H
-L9=Oj&
-L9=to(
+L9=Sn&
+L9=Tu(
 L9>u	H
 L9@ s
 L9A r
@@ -4217,10 +4210,6 @@ NOTPRESENT
 NPH9Q
 NRF52
 NRF52 DTM
-NVIDIA Corporation
-NVIDIA Corporation PE Sign v2016
-NVIDIA Subordinate CA
-NVIDIA Subordinate CA 2016 v2
 NXH9Q
 NamePart
 Need space between identifier and decimal point.
@@ -4252,6 +4241,7 @@ Note that enum values use C++ scoping rules, meaning that enum values are siblin
 Numbers starting with leading zero must be in octal.
 NvAPI
 NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!
+NvAPI: DirectModeGetDisplayModes trying again with older API!
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
 NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d
 O	u~w
@@ -4311,6 +4301,7 @@ PA^_^][
 PA_A]A\_^
 PA_A^A]A\[
 PA_A^A]A\]
+PA_A^A]A\_
 PA_A^A]A\_^[
 PA_A^A]A\_^]
 PA_A^]
@@ -4387,6 +4378,7 @@ Protocol Buffer reflection usage error:
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Prototype
+PuZ;!
 Pz}b!
 Q@D85
 Qk6eV5RE
@@ -4596,6 +4588,7 @@ Setting Edid to edid_id %d...
 Setting firmware manifest beta override: %d
 Setting universe tilt from %08X %s: pitch %0.2f deg roll %0.2f deg
 SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInfo
 SetupDiEnumDeviceInterfaces
 SetupDiGetClassDevsA
 SetupDiGetClassDevsW
@@ -4605,10 +4598,6 @@ SetupDiGetDevicePropertyW
 SetupDiGetDeviceRegistryPropertyW
 SetupGetInfDriverStoreLocationW
 SharedMem access invalid: %x
-ShellExecuteA
-ShellExecuteExA
-ShellExecuteExW
-ShellExecuteW
 Shutdown
 ShutdownCameraHAL
 Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json
@@ -4636,7 +4625,6 @@ Stopped tracking with universe %llu
 Stopping playback mirror thread
 Stopping recording...
 String literals cannot cross line boundaries.
-StringFromGUID2
 StringOutputStream.
 Submit
 Success
@@ -4702,7 +4690,6 @@ T$PL;
 T$PM;
 T$XA#
 T$XE3
-T$XH+
 T$XH;
 T$`H3
 T$`H;
@@ -4753,6 +4740,7 @@ TdhEnumerateManifestProviderEvents
 TerminateProcess
 Test mode ena: 
 TextureInfo
+TfD;u
 The owner SID is invalid.
 The total number of bytes read was 
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
@@ -5193,8 +5181,10 @@ VR_LOG_PATH
 VR_PATHREG_OVERRIDE
 VSYNC:  %8d>%07.4f
 VUUUH
+VWATAUAVH
 VWATAUAWH
 VWATAVAWH
+VWATH
 VWAUAVAWH
 VWAUAWH
 VWAVH
@@ -5227,7 +5217,6 @@ Valve SR Imp
 Valve VR Radio & HMD Mic
 VerQueryValueA
 VerSetConditionMask
-VeriSign Class 3 Code Signing 2010 CA
 VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)
 VerifyUSBUserDataInDirectory: %s data stream failed size validation. Expected %d bytes, copied %d from device
 VerifyUSBUserDataInDirectory: %s failed crc/size validation, replacing with data from device...
@@ -5259,6 +5248,7 @@ Vive_Pro
 Vive_Pro DVT
 VpH9Vxt'
 VrController
+W%*f 
 W(LcB
 W0H;C
 W8H;C
@@ -5272,6 +5262,7 @@ WARNING: Speculative Start Collision for base %0X (removing %s)
 WARNING: large time gap between IMU samples (%f -> %f diff=%f)
 WATAUAVAWH
 WATAUAVH
+WATAUH
 WATAVH
 WAVAWH
 WHH;C
@@ -5357,6 +5348,8 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
+Y5	L!
+Y5/Y#
 Y9"SD
 Y?33s?
 YAHH+
@@ -5497,6 +5490,7 @@ ZL$Xf
 \\.\pipe\
 \\\\\\\\
 \d$`f
+\mfpmp.exe
 \u=H;
 \x%02x
 \|$`D
@@ -5522,7 +5516,6 @@ ZL$Xf
 ^HH9|$hu
 ^`I;^h
 ^oEZ_
-^| &;
 _0IcG
 _Cnd_broadcast
 _Cnd_destroy
@@ -5609,7 +5602,6 @@ _unlock_file
 _wcsdup
 _wcsicmp
 _wcsnicmp
-_wcsupr
 _wfopen_s
 _wfsopen
 _wgetcwd
@@ -5932,6 +5924,7 @@ display_color_mult
 display_edid
 display_frequency
 display_gc
+display_hdr10
 display_mc
 display_usb_pid
 display_usb_protocol
@@ -5961,6 +5954,9 @@ driver_lighthouse: Tracking stopped
 driver_lighthouse: enumerating attached Lighthouse devices HMDs:
 drivers
 drop %08X u%d (i%d)
+dsc_bppx16
+dsc_slices
+dsc_version
 dualSpeakerAndJackOutput
 dual_extrinsics
 dvNL9
@@ -6022,12 +6018,19 @@ eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
 f(I;^
+f9+t4
+f98tZH
+f98t\H
+f9\$`u
 f;D$T
 f;t$V
+f;|$pt_H
 fB9<Bu
 fD9	u
 fD9,Bu
+fD;3t
 fF9,Au
+fJGNI
 facet::CCompositionClient::AcquireCompositorSlot
 facet::CCompositionClient::AcquireImage
 facet::CCompositionClient::BeginFrameRendering
@@ -6389,8 +6392,10 @@ l$ VATAWH
 l$ VAVAWH
 l$ VH
 l$ VWATAUAVH
+l$ VWATH
 l$ VWAVH
 l$ VWAWH
+l$ WATAUH
 l$ WATAWH
 l$ WAVAWH
 l$ WAVHc|$8I
@@ -6471,7 +6476,6 @@ list<T> too long
 localeconv
 location
 low_mm
-l~N4Eu
 m0_$@
 m0k0$
 mXu.H
@@ -6634,6 +6638,7 @@ p AVH
 p UAVAWH
 p WATAVH
 p$D+;
+pA]A\^
 pA^A]A\
 pA^^]
 pA^_^
@@ -7037,11 +7042,13 @@ tAy&H
 tFA;Q r@w
 tKfA9
 tPD8B
-tPL9-
+tPL9-X
 tPfA9i
+tQH957
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
+tTL9-!
 tUA91uPH
 tXH+A
 tXfff
@@ -7118,10 +7125,10 @@ twos_complement
 tx<	u#
 t|C9D
 t|SUVH
+t}H9=&
 t~L9=
-t~L9=;
-t~L9=\
-t~L9=~
+t~L9=/
+t~L9=g
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7137,7 +7144,7 @@ u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-P
+u<L9-
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7145,7 +7152,8 @@ uAfff
 uDf9X
 uJf9X
 uKb!?6mH
-uSL9-
+uRf;>tM
+uSL9-@
 uSfff
 uZEeu
 ua_ua
@@ -7181,8 +7189,7 @@ usbVID
 usePrism
 usedisambiguation
 userdata
-ut9}(voH
-u{L9=x
+u{L9=
 v(M;l
 v9fff
 v=Y]Bv
@@ -7718,6 +7725,7 @@ xA\_][
 xA^A\_^][
 xA_A]_]
 xA_A^_^][
+xP-2!
 x]~\6
 x_^][
 y@tTyY1
@@ -7776,6 +7784,7 @@ zuusA
 |$ ATAUAVAW
 |$ ATAVAW
 |$ ATAVAWH
+|$ ATH
 |$ AUAVAWH
 |$ AVE
 |$ AVH
@@ -7825,7 +7834,6 @@ zuusA
 |$8H;t$p
 |$8L9|$`t 
 |$8tCH
-|$8~u
 |$<I;
 |$@D;
 |$@E2
@@ -7900,6 +7908,7 @@ zuusA
 }LuHO
 }M?/n
 }Ufff
+}X"b=
 }`H+}XH
 }o;Dr_
 }w;Dr_

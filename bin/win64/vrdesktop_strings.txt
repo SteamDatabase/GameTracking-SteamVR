@@ -33,6 +33,7 @@
 )t$0H
 )t$@H
 *9Z9N
+*i2_[
 *uXI;
 +Xt@(
 +o'q)}
@@ -159,7 +160,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220808194840Z0/
+220815221702Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -183,6 +184,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+:"_+]
 < t+<
 </u#H
 <0:08
@@ -328,6 +330,7 @@ CoInitializeEx failed.
 CoTaskMemFree
 CoUninitialize
 ComputeVirtualDesktopBounds
+CpOIc^
 CreateDXGIFactory1
 CreateEventA
 CreateEventW
@@ -593,6 +596,8 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+R@>%|
+RSDS{
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -689,7 +694,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-[D+3q
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -704,7 +708,6 @@ Y9"SD
 \u=H;
 ]J<0"0i3
 ]g@8yhu
-^(4%%
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -876,6 +879,7 @@ russian
 schinese
 shcore.dll
 shutdown
+sn9!|)
 spanish
 startup
 string too long
@@ -954,6 +958,7 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
+|o\FR4
 }LuHO
 ~qj#k"
 ~t&LN

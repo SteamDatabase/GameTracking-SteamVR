@@ -485,6 +485,7 @@ message CVRMsg_MimeType {
 message CVRMsg_DefaultBinding {
 	optional string controller_type = 1;
 	optional string url = 2;
+	optional string category = 3;
 }
 
 message CVRMsg_ApplicationInfo_Manifest {

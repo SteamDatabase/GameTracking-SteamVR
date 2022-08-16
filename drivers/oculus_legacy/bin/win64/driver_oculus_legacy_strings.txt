@@ -1,11 +1,11 @@
 	!s99
-	HI,^IT
     A
  %41g
  (Camera)
  9D$D
  A__^
  H3E H3E
+!dQo 
 !hn7!
 ',=?k
 (A^A]^[
@@ -85,6 +85,7 @@
 .xdata
 .xdata$x
 0A_A^A]A\_^[
+0MBUt2
 0w0c1
 0}0i1
 130801120000Z
@@ -93,10 +94,11 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220808195306Z0/
+220815221803Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2U!.U
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -105,6 +107,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3Ye.s
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -124,7 +127,6 @@
 9h u{H
 9l$Ht
 9l$pt
-9s+?e
 ;K sCH
 ;K sUH
 ;k sAH
@@ -452,7 +454,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-q	gzIjl
 startup
 string too long
 strncpy
@@ -463,7 +464,6 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-t8P! 
 tIL95v
 tXfff
 tdh.dll
@@ -473,10 +473,12 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+x:l[R
 x]~\6
 z(uMH
 {ERR-001}
 {ERR-079}
+{lz3+
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
 {oculus_legacy}/icons/%s_%s_error.png
 {oculus_legacy}/icons/%s_%s_off.png

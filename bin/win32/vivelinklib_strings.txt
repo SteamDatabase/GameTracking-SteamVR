@@ -232,7 +232,7 @@ $Phdd
 220323000000Z
 220329000000Z
 220801000000Z
-220808194645Z0/
+220815220705Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -291,6 +291,7 @@ $Phdd
 5!5\5f5p5
 5"6Q6
 5#5B5G5
+5'cB[	
 5(5<5[5k5
 5(6X6}6
 5*5M5V5*6
@@ -677,6 +678,7 @@ DisconnectNamedPipe
 DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
+DsU /
 DuplicateHandle
 Empty escape sequence in string
 EnterCriticalSection
@@ -731,6 +733,7 @@ GetTickCount64
 GetVersionExA
 H$;J$
 HTC BS
+Hd7{}
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
@@ -771,7 +774,6 @@ Linux 3.6
 LoadLibraryA
 LocalFree
 Logger.txt
-M<T>D(Q
 MB(iVR
 MSVCP140.dll
 Mac OS
@@ -798,6 +800,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
+O/;.98p
 ODFU Post
 OpenProcess
 Out of thread local storage!
@@ -822,7 +825,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDS|
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -989,6 +991,7 @@ ViveLinkLib_GetBaseStationWirelessInterface
 W9shvN3
 WRITE_WO_RESP -H %4.4X 
 WRITE_W_RESP -H %4.4X 
+W[@MC
 WaitForPipeCreation
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1199,7 +1202,6 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-q4.LC
 realloc
 runas
 space
@@ -1264,6 +1266,7 @@ x]~\6
 xdigit
 y4_^[
 {L?uI
+{L\H+#
 {un'%
 |	9A 
 |	;J 

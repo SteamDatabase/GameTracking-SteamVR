@@ -83,6 +83,7 @@ $Vh&*
 +KL+SL_;
 +Xt@(
 +o'q)}
++r@oEC
 , H5 error count: 
 , defaulting to flow_control::none!
 , defaulting to parity::none!
@@ -707,7 +708,7 @@ $Vh&*
 220323000000Z
 220329000000Z
 220801000000Z
-220808194647Z0/
+220815220716Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -1767,8 +1768,8 @@ Invalid stopbits setting
 IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J%Z^>
 J>@G_
+Jy^NF.
 K$t"j
 K(PPW
 K(PQh
@@ -2088,7 +2089,6 @@ WriteFile
 XX.XX.XXXXXXX
 Y9"SD
 Y__^[
-YxRQH
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -2102,8 +2102,10 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
+[q|`'7p
 \0`0d0|0
 \Device Parameters
+\G^7Y[
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2222,6 +2224,7 @@ file error
 floor
 generic
 gfffVW3
+gk))g
 graph
 h5_decode error, code: 0x
 h5_transport is in state 
@@ -2292,6 +2295,7 @@ print
 punct
 realloc
 s?=2N
+sGygL
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)
@@ -2468,7 +2472,6 @@ w QVR
 w(_^[]
 w0_^[
 wXtM=!N
-wY Vq-_\]mO9
 wcschr
 winsock
 wn>Jj
@@ -2481,11 +2484,11 @@ xdigit
 y4_^[
 {L?uI
 {un'%
+|0D.>P
 |Lu?c
 |cj#h
 }	jCh
 }LuHO
-}qOcoP
 }qj<h
 ~L][u
 ~d;{d|	

@@ -28,6 +28,7 @@
 	w=%d, h=%d, format=%d
 	|$HA
     A
+  ~]$A
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  %41g
  '-46
@@ -60,7 +61,6 @@
  at line 
  in Buffer
  in `
- j,#F;
  sJE3
 !&.37<
 !(0)"
@@ -208,6 +208,7 @@ $w!Hc
 ***** Reloading Shaders End
 *9Z9N
 *uXI;
+*~/E{,
 +Xt@(
 +o'q)}
 , binary size = 
@@ -460,7 +461,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220801000000Z
-220808194859Z0/
+220815221702Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1047,7 +1048,6 @@ HcOXH
 Hct$@L+
 HeapAlloc
 HeapFree
-Hf<ml=X
 Hmd not found.
 HmdDriverFactory
 Hu"Hc
@@ -1139,7 +1139,6 @@ J>@G_
 JSON string too short.
 KERNEL32.dll
 KHR_lights_punctual
-Kyoy"V
 K}*n:	
 L$ E3
 L$ H;
@@ -1461,7 +1460,6 @@ ZL$Xf
 [OculusDirect] ovr_BeginFrame:%lli
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
-[ej_a=
 [json.exception.
 \$ E3
 \$ H;
@@ -1501,7 +1499,6 @@ ZL$Xf
 \$xH;
 \u=H;
 \|$`D
-]	}B_)e_
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -2172,6 +2169,7 @@ shaders/d3d11/distort_geom_aa_lines_ps.fxo
 shaders/d3d11/distort_geom_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
+shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
 shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_curved_vs.fxo
@@ -2465,7 +2463,6 @@ wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
 x AVH
-x,+HzY
 xA^A\_^][
 x]~\6
 yxxxxxxxH

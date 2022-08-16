@@ -1,10 +1,14 @@
 					
 							
 												
+																			
+																									
+																												
 																																												
 																																																																																																																
 	!s99
 	555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
+	<bu 
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CODE_SIZE
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
@@ -25,7 +29,6 @@
 	type_name
 	w=%d, h=%d, format=%d
 	|$HA
-	}yXH
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
     A
@@ -58,6 +61,8 @@
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
+ A]A\_
+ A^A]A\^]
  A^A]A\_^
  A^A]_^]
  A^][
@@ -259,6 +264,7 @@ $0$1 = $2
 $0$1$2 $3 = $4
 $0enum $1 {
 $0option $1;
+$@/pose/
 $CVRMsg_ClientMailbox_RegisterMailbox
 $CVRMsg_CompositorUnrefSharedResource
 $CVRMsg_GetApplicationLaunchArguments
@@ -267,7 +273,7 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knNxV;
+$tI(knN
 $u=Hi
 $u[Hi
 $u^Hi
@@ -281,6 +287,7 @@ $w!Hc
 %CVRMsg_Settings_GetValueType_Response
 %CVRMsg_TrackedCamera_PauseVideoStream
 %CVRMsg_TrackedCamera_StartVideoStream
+%LocalAppData%
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %d drivers initialized for watchdog mode.
@@ -558,11 +565,15 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(-Uq"
+(%he"
+(%p,"
+()$^.*+?[]|\-{},:=!
+(9Q|uWH
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
-(=.e"
+(=H\,
+(=tb,
 (A\^][
 (A\_^[
 (A]_^[
@@ -679,7 +690,6 @@ $w!Hc
 (|$`I
 (|$`L
 (|$pH
-(|$pL
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )9k0t
@@ -804,7 +814,6 @@ $w!Hc
 *CVRMsg_TrackedCamera_GetIntrinsicsResponse
 *CVRMsg_TrackedCamera_GetProjectionResponse
 *H+NpH
-*HcT$PH
 *uXI;
 +C,+C
 +CVRMsg_ClientMailbox_GetNextMessageResponse
@@ -1168,6 +1177,8 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_ee980cc98c94f910494c409ed0b46757>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateVector2f@@PEA_K@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
+.?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
+.?AV?$_Node_str@D@std@@
 .?AV?$_Ref_count_obj@UInputConfig_t@@@std@@
 .?AV?$_Ref_count_obj@UInputFrame_t@CVRInputLatest@@@std@@
 .?AV?$_Ref_count_obj@UModelInfo_t@CRenderModelManager@@@std@@
@@ -1191,6 +1202,7 @@ $w!Hc
 .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$collate@D@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCAnimResource@@
 .?AVCAnimSkeleton@@
@@ -1263,6 +1275,7 @@ $w!Hc
 .?AVCSimulatedActionBase@@
 .?AVCSimulatedTrackpadClick@@
 .?AVCSimulatedTriggerPull@@
+.?AVCSingletonCriticalSection@@
 .?AVCSxrAction@@
 .?AVCSxrActionSet@@
 .?AVCSxrCompositorOpenVR@@
@@ -1746,8 +1759,18 @@ $w!Hc
 .?AVWriter@Json@@
 .?AV_Facet_base@std@@
 .?AV_Generic_error_category@std@@
+.?AV_Node_assert@std@@
+.?AV_Node_back@std@@
+.?AV_Node_base@std@@
+.?AV_Node_capture@std@@
+.?AV_Node_end_group@std@@
+.?AV_Node_end_rep@std@@
+.?AV_Node_endif@std@@
+.?AV_Node_if@std@@
+.?AV_Node_rep@std@@
 .?AV_Pad@std@@
 .?AV_Ref_count_base@std@@
+.?AV_Root_node@std@@
 .?AV_System_error@std@@
 .?AVbad_alloc@std@@
 .?AVbad_array_new_length@std@@
@@ -1952,7 +1975,6 @@ $w!Hc
 /menu/click
 /out/
 /output/haptic
-/pose/
 /pose/grip
 /pose/openxr_aim
 /pose/openxr_grip
@@ -2160,6 +2182,7 @@ $w!Hc
 0123456789ABCDEF
 0123456789abcdef
 0A;nh|
+0A]A\_
 0A^A\^
 0A^A][
 0A^][
@@ -2184,6 +2207,7 @@ $w!Hc
 0A_A^_^[
 0A_A^_^]
 0A_^[
+0A__[
 0A__^
 0CVRMsg_TrackedCamera_GetFormatDimensionsResponse
 0CVRMsg_TrackedCamera_IsVideoStreamActiveResponse
@@ -2194,7 +2218,6 @@ $w!Hc
 0w0c1
 0}0i1
 1.0.3.16
-1.2.840.113549.1.9.6
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 130801120000Z
@@ -2220,7 +2243,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220801000000Z
-220808195209Z0/
+220815221346Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2240,6 +2263,7 @@ $w!Hc
 361.75
 370322235959Z0c1
 380115120000Z0b1
+3>(us
 3?9y>m0_D@H_
 3mq+<
 416.16
@@ -2247,7 +2271,7 @@ $w!Hc
 440.97
 4IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5555555
+555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -2262,6 +2286,7 @@ $w!Hc
 79L$Pua
 7Failed to create readable frame info buffer (D3D10)!
 7HcC,
+7Si]2
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8"u	H
@@ -2289,6 +2314,7 @@ $w!Hc
 8O0u]A
 8\$@t
 8\$hu6
+8\t	H
 8\u7H
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -2324,6 +2350,8 @@ $w!Hc
 9ZH~43
 9ZX~;
 9\$0u
+9\u-H
+9\u4H
 9]pu2
 9^(~F3
 9^,~#3
@@ -2436,6 +2464,8 @@ $w!Hc
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 :EotB
+:\u-L
+:\u6L
 ; expected 
 ; last read: '
 ;<$uCB
@@ -2451,6 +2481,7 @@ $w!Hc
 ;^,}	
 ;t:=x3
 ;{(} H
+;|$ r
 <	u#H
 <	u'H
 <	u*H
@@ -2458,6 +2489,7 @@ $w!Hc
 <	u=H
 <	vzH
 <	w'H
+<	wzM
 < t+<
 <$A9~T
 <$HiL$p
@@ -2469,6 +2501,7 @@ $w!Hc
 <9w/H
 <9waH
 <:$u<B
+<Bu'H
 <Eu1H
 <H;D$ 
 <L3]<
@@ -2506,11 +2539,14 @@ $w!Hc
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??0_Locinfo@std@@QEAA@PEBD@Z
 ??0_Lockit@std@@QEAA@H@Z
+??0facet@locale@std@@IEAA@_K@Z
 ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1_Locinfo@std@@QEAA@XZ
 ??1_Lockit@std@@QEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
@@ -2539,6 +2575,8 @@ $w!Hc
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
 ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getcoll@_Locinfo@std@@QEBA?AU_Collvec@@XZ
 ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
 ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
 ?_Incref@facet@locale@std@@UEAAXXZ
@@ -2560,6 +2598,7 @@ $w!Hc
 ?_Xinvalid_argument@std@@YAXPEBD@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
+?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
 ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
@@ -2567,6 +2606,8 @@ $w!Hc
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?id@?$collate@D@std@@2V0locale@2@A
+?id@?$ctype@D@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
@@ -2592,6 +2633,8 @@ $w!Hc
 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+?tolower@?$ctype@D@std@@QEBADD@Z
+?tolower@?$ctype@D@std@@QEBAPEBDPEADPEBD@Z
 ?u='?
 ?uZEeu
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
@@ -2609,6 +2652,15 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
+@8=/4>
+@8=2=>
+@8=4<>
+@8=@:>
+@8=K<>
+@8=d:>
+@8=e9>
+@8=k8>
+@8=}4>
 @8I+@0H
 @8i(u
 @8k t
@@ -2636,7 +2688,11 @@ $w!Hc
 @@L+@0
 @@L+@0I
 @A\^]
+@A]A\_
+@A]_^][
+@A^A\_
 @A^A]A\[]
+@A^A]A\_^
 @A^A]_^[
 @A^][
 @A^_[
@@ -2644,6 +2700,7 @@ $w!Hc
 @A^_^
 @A^_^][
 @A_A\]
+@A_A]A\^[
 @A_A]_][
 @A_A^A\
 @A_A^A\][
@@ -2680,6 +2737,7 @@ $w!Hc
 @SUVWATAVAWH
 @SUVWAUAVAWH
 @SUVWAUAVH
+@SUVWAUH
 @SUVWAVAWH
 @SUVWAVH
 @SUVWH
@@ -2687,6 +2745,7 @@ $w!Hc
 @SUWAVAWH
 @SUWAWH
 @SUWH
+@SVATAUAWH
 @SVAUAVH
 @SVAVAWH
 @SVAVH
@@ -2754,6 +2813,7 @@ $w!Hc
 @UVAWH
 @UVWATAUAVAWH
 @UVWATAVH
+@UVWATH
 @UVWAUAVH
 @UVWAUAWH
 @UVWAUH
@@ -2775,6 +2835,7 @@ $w!Hc
 @VAVH
 @VAWH
 @VWATAVAWH
+@VWATH
 @VWAUAWH
 @VWAVH
 @VWAWH
@@ -2856,6 +2917,7 @@ AUAWH
 A\_[]
 A\_^[
 A\_^[]
+A\_^]
 A]A\[]
 A]A\]
 A]A\^
@@ -3050,6 +3112,7 @@ B(A9A
 B(A9C
 B(I9A
 B(I;A
+B*lK$
 B0A9A
 B0H+B(D
 B0H+B(H
@@ -3096,13 +3159,14 @@ C D;px|
 C H9C(t
 C H9T$@t
 C t~H
+C$9C w
 C$A;A
 C(9~(~FL
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-U6;
+C-m.#
 C09w(~:L
 C0L9$
 C0L;E
@@ -3214,9 +3278,10 @@ CL$02
 CL$0H
 CL$0I+
 CL$0I;
-CL$0L;
 CL$0fI
 CL$@H
+CL$@L
+CL$@L;
 CL$PH
 CL$XL
 CL$`H
@@ -3513,10 +3578,6 @@ Capturing Scene Focus
 Cb9CP~(H
 Cd$@H
 Cd$pL;
-CertCloseStore
-CertFindCertificateInStore
-CertFreeCertificateContext
-CertGetNameStringA
 Ch9C,uiH
 ChH+C`H
 ChangeAppType failed with %s
@@ -3609,8 +3670,6 @@ CreateFileMappingA
 CreateFileW
 CreateMutexA
 CreateProcessA
-CreateProcessAsUserA
-CreateProcessAsUserW
 CreateThread
 CreateVulkanImageFromD3D11TextureHandle: failed to find a LOCAL memory type
 CreateWellKnownSid
@@ -3618,20 +3677,20 @@ CreateWellKnownSid failed for WinBuiltinAnyPackageSid
 CreateXrBinding: unsupported graphics binding type: %d
 Created depth texture '%s' %dx%d (Format=%d, SampleCount=%d)
 Created shared texture '%s' %dx%d (%d mips)
-CryptDecodeObject
-CryptMsgClose
-CryptMsgGetParam
-CryptQueryObject
 Ct$0H
 Ct$@H
 CtHcKpH
+Cx<au
+Cx<bu
+Cx<cuW
+Cx<fu
 C|$0H
 C|$0L
 C|$0M
+C|$@H
 C|$PL
 D$  N
 D$ 9D$ H
-D$ 9D$Lw
 D$ 9]dvnL
 D$ A;
 D$ E3
@@ -3646,6 +3705,7 @@ D$ L;
 D$ M;
 D$ fE
 D$ fH
+D$ fI
 D$ tX
 D$ u!H
 D$$% B
@@ -3653,17 +3713,14 @@ D$$E3
 D$(@88
 D$(E3
 D$(H+
-D$(H9D$Xs
 D$(H;
 D$(HcA
 D$(Hi
 D$(I;
 D$(I;G
-D$(L+
 D$(Lk
 D$(fH
 D$(fI
-D$,9D$(s
 D$,D;l$8
 D$0% B
 D$0A;
@@ -3671,7 +3728,6 @@ D$0D8g
 D$0E+
 D$0E3
 D$0H+
-D$0H9D$(v
 D$0H9Q
 D$0H9V8t
 D$0H;
@@ -3724,7 +3780,6 @@ D$@L;D$Hu
 D$@M+
 D$@fA
 D$@u'H
-D$H9D$$
 D$H@2
 D$HE3
 D$HH+
@@ -3736,9 +3791,6 @@ D$HL;
 D$HfA
 D$PE3
 D$PH9
-D$PH9D$HsHH
-D$PH9D$XscH
-D$PH9D$Xu!H
 D$PH9Q
 D$PH;
 D$PHc
@@ -3824,14 +3876,13 @@ D+\$H
 D3D11CreateDevice
 D3D11On12CreateDevice
 D3D11On12CreateDevice failed
+D3DKMTEnumAdapters2
+D3DKMTQueryAdapterInfo
 D8$/u
 D8$0u
 D8$7u
 D8$>u
-D8%SQ0
 D8,8u
-D85:y4
-D85Ij5
 D8<0u
 D8<>u
 D8D$9t$
@@ -3920,6 +3971,7 @@ D;l$0}K
 D;l$8D
 D;r8|
 D;sh}(
+D;v sWH
 D;v(s
 D;v(|
 D;vh|
@@ -3944,6 +3996,8 @@ DeleteFileW
 Deliberately hanging inside VR_Init because the caller asked us to
 DescriptorProto
 DescriptorProtosH
+Determined this is a legacy app.
+Determined this is a steamvr_input app.
 Device Calibration is invalid (207)
 Device is not calibrated (206)
 DeviceGC
@@ -3992,6 +4046,7 @@ E8,9u
 E8,>u
 E8I9E@t
 E9A(|
+E9w ~EH
 E;A }
 E;n(|
 E;o(|
@@ -4055,6 +4110,7 @@ EnumValueDescriptorProto
 EnumValueOptions
 Enums must contain at least one value.
 Eo%lf
+EoH9EgtUH
 Ep9H(tRA
 Error creating VR renderer.
 Error creating depth texture '%s' %dx%d (Format=%d, SampleCount=%d)
@@ -4133,7 +4189,7 @@ F0L;G
 F8I+F0H
 F9D	$
 F9D	$t
-F9{5E
+F?>ea^
 F@;G t
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -4229,7 +4285,7 @@ Failed to find entrypoint WINRT_WaitForPresent
 Failed to find interface '%s'
 Failed to find system resource manifest %s.
 Failed to generate action set handle for per-input tutorial action set
-Failed to get config binding from server
+Failed to get config binding from server. [app: %s]
 Failed to get graphics adapter LUID for EDID VendorId=%#04X
 Failed to import client event handle from pipe %s after connecting
 Failed to import server event handle from pipe %s after connecting
@@ -4240,7 +4296,7 @@ Failed to init vulkan binding: renderer init error
 Failed to init web server shared state
 Failed to initialize AMD LiquidVR Vulkan support.
 Failed to initialize logging
-Failed to load binding file. We'll wait and try again when CRC or load count changes( computed CRC=%u, old CRC=%u, shared CRC=%u, load count=%u, shared load count=%u
+Failed to load binding file. We'll wait and try again when CRC or load count changes( computed CRC=%u, old CRC=%u, shared CRC=%u, load count=%u, shared load count=%u [app: %s]
 Failed to load compute shader %s! (size=%d)
 Failed to load extension: CmdDebugMarkerBeginEXT
 Failed to load extension: CmdDebugMarkerEndEXT
@@ -4515,6 +4571,7 @@ GetInt64
 GetLastError
 GetLengthSid
 GetMessage
+GetModuleFileNameA
 GetModuleFileNameW
 GetModuleHandleExA
 GetModuleHandleW
@@ -4598,7 +4655,6 @@ H+Q@H
 H+Q@HcO,H
 H+SpH
 H+SpI
-H+T$pH
 H+WpA
 H+WpH
 H+WpI
@@ -4656,7 +4712,6 @@ H9C s.H
 H9C t
 H9C(r'H
 H9CPt$H9CXt
-H9D$0s*H
 H9D$@
 H9D$@t
 H9D$@t!
@@ -4717,13 +4772,10 @@ H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
-H;5O6;
-H;5Z+*
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=zN*
 H;A s
 H;Axt
 H;C(v
@@ -4748,12 +4800,12 @@ H;K sIH
 H;K sKH
 H;K sLH
 H;K sOH
-H;K sPH
 H;K sRH
+H;K sVH
 H;Mgt1
 H;N v
 H;O sLH
-H;O sbH
+H;O s_H
 H;P A
 H;P s
 H;Q s
@@ -4789,6 +4841,7 @@ H;o s
 H;q s
 H;s(r
 H;t$`
+H;t$`A
 H;t$hu
 H;w s
 H;y s
@@ -4804,6 +4857,7 @@ H;|$Pt
 H;|$X
 H;|$Xt
 H;|$`
+H;|$`L
 H;|$x
 H;}Ht
 H;}Pt<
@@ -4817,7 +4871,6 @@ HA^_^[
 HA_A^A]A\
 HA_A^A]A\_^][
 HA_A^][
-HHcL$PH
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -4848,7 +4901,6 @@ HcB,A
 HcB,H
 HcC(N
 HcC,H
-HcD$$H
 HcD$PH
 HcD$x
 HcD7,A
@@ -4869,10 +4921,6 @@ HcK(L
 HcK4M
 HcKHH
 HcKXH
-HcL$4H
-HcL$@H
-HcL$HH
-HcL$PH
 HcM8H
 HcN,H
 HcN0L
@@ -4963,6 +5011,8 @@ I;\$`u
 I;]xH
 I;^hu
 I;q s?I
+I;w0M
+I;wHM
 I;x r
 I;x s
 I;}`I
@@ -5243,6 +5293,7 @@ InitializeSecurityDescriptor failed. GetLastError returned: %d
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.
 Initializing CVulkanVRRenderer
 Initializing the limited version of CVRCompositorClient
+Input is disabled. [app: %s]
 InputCoord
 InputValueType_Boolean
 InputValueType_Haptic
@@ -5351,6 +5402,8 @@ K@H+Y0I
 KERNEL32.dll
 KHH9Q
 KHR_lights_punctual
+Kf;;u
+KfD;3u
 KpH+KhH
 KpLcW4
 K}*n:	
@@ -5392,8 +5445,7 @@ L$ SVWH
 L$ SWATAUAVH
 L$ SWH
 L$ UATAUAVAWH
-L$ UH
-L$ USATH
+L$ USAWH
 L$ UVWATAUAVAWH
 L$ UWATAUAVAWH
 L$ UWAUAVAWH
@@ -5417,6 +5469,7 @@ L$+D+
 L$/D+
 L$0E3
 L$0H3
+L$0H9
 L$0H;
 L$0H;L$xtKH
 L$0I+
@@ -5553,6 +5606,7 @@ L9d$Pt
 L9d$`
 L9d$pH
 L9eHu
+L9egsBH
 L9f8tV3
 L9k8v
 L9l$0
@@ -5667,6 +5721,7 @@ Loading pixel shader %s
 Loading vertex shader %s
 Local next event counter is invalid at %u. Resetting
 LocalAlloc
+LocalAppData
 LocalFree
 Localization files must be either an array (old-style) or an object (new-style). %s is neither
 LocalizationManager
@@ -5757,10 +5812,6 @@ NL$`I
 NORMAL
 NOT_READY
 NPH9Q
-NVIDIA Corporation
-NVIDIA Corporation PE Sign v2016
-NVIDIA Subordinate CA
-NVIDIA Subordinate CA 2016 v2
 NVTTA
 NVTTu
 NXH9Q
@@ -5843,11 +5894,13 @@ PA^_]
 PA^_^
 PA^_^[]
 PA^_^][
+PA_A]A\_[
 PA_A]A\_^
 PA_A]_
 PA_A^A]
 PA_A^A]A\[
 PA_A^A]A\]
+PA_A^A]A\_
 PA_A^A]A\_^[
 PA_A^A]A\_^]
 PA_A^A]^]
@@ -6104,6 +6157,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDS{
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6234,6 +6288,7 @@ SVWATH
 SVWAVAWH
 SVWAVH
 SVWAWH
+SWATAUAWH
 SWAUAVH
 SWAWH
 SXR_GL_CHECK: error:0x%x at %s:%i -> %s
@@ -6303,10 +6358,11 @@ SetThreadPriority
 SetUInt32
 SetUInt64
 SetUnhandledExceptionFilter
-Setting device %u with override properties for %s
+Setting device %d with override properties for %s
 Setting max texture dimensions to %dx%d before requiring downsampling
 Settings manager init failed (118)
 SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInfo
 SetupDiEnumDeviceInterfaces
 SetupDiGetClassDevsA
 SetupDiGetClassDevsW
@@ -6325,10 +6381,6 @@ Shared IPC Mutex Init Failed (304)
 Shared IPC Namespace Unavailable (310)
 Shared IPC State Init Failed (302)
 SharedMem access invalid: %x
-ShellExecuteA
-ShellExecuteExA
-ShellExecuteExW
-ShellExecuteW
 Should never be called for prism
 ShouldKillTheaterProcessHack
 ShowDashboard( %s )
@@ -6373,7 +6425,6 @@ SteamVR/OpenXR
 SteamVR_Namespace
 SteamXR Interop Device
 String literals cannot cross line boundaries.
-StringFromGUID2
 StringOutputStream.
 Submit
 SubmitExplicitTimingData - Explicit timing mode not enabled, must be enabled to submit explicit timing data.
@@ -6464,7 +6515,6 @@ T$TE3
 T$TH+
 T$XA#
 T$XE3
-T$XH+
 T$XH;
 T$XHcM(
 T$XI+
@@ -6513,6 +6563,7 @@ Telling vrstartup that the system was already running.
 TerminateProcess
 TextureInfo
 TextureMsaaResolveRenderer
+TfD;u
 The owner SID is invalid.
 The requested interface is incompatible with the compositor and the compositor is running (122)
 The total number of bytes read was 
@@ -6659,7 +6710,7 @@ UWAVAWI
 UWAVH
 UWAWH
 Uc:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
-Ug@8=H
+Ug@8=
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
 Unable to coerce boolean action to input source that supports neither float nor boolean: %s
 Unable to coerce float action to input source that supports neither float nor boolean: %s
@@ -6727,7 +6778,7 @@ Unable to load safe_mode_driver_whitelist.json: %s.  Nothing will be loaded in s
 Unable to open current process for duplicating handles because %s
 Unable to open process id=%d from pipe %s after connecting because %s
 Unable to parse 
-Unable to parse action manifest: %s
+Unable to parse action manifest: %s [app: %s]
 Unable to parse driver manifest %s
 Unable to parse init info. Options will be ignored
 Unable to parse perimeter
@@ -7037,10 +7088,10 @@ VREvent_ResetDashboard
 VREvent_RestartRequested
 VREvent_RoomViewHidden
 VREvent_RoomViewShown
+VREvent_SceneAppPipeDisconnected
 VREvent_SceneApplicationChanged
 VREvent_SceneApplicationStateChanged
 VREvent_SceneApplicationUsingWrongGraphicsAdapter
-VREvent_SceneFocusChanged
 VREvent_ScreenshotFailed
 VREvent_ScreenshotProgressToDashboard
 VREvent_ScreenshotTaken
@@ -7429,6 +7480,7 @@ VWATAUAVH
 VWATAUAWH
 VWATAVAWH
 VWATAVH
+VWATH
 VWAUAVAWH
 VWAUH
 VWAVH
@@ -7452,7 +7504,6 @@ Valve Corp.0
 Valve Corp.1
 VerQueryValueA
 VerSetConditionMask
-VeriSign Class 3 Code Signing 2010 CA
 VerifyVersionInfoW
 VirtualDisplay_AllQueued
 VirtualDisplay_NewFrame
@@ -7471,7 +7522,6 @@ VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared text
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
 W H;C
 W$H;C
-W%\9*
 W(H;C
 W(LcB
 W,H;C
@@ -7484,6 +7534,8 @@ W@I9WHt
 WARNING
 WATAUAVAW
 WATAUAVAWH
+WATAUH
+WATAVH
 WAUAWH
 WAVAWH
 WINMM.dll
@@ -7917,10 +7969,11 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y5vJ.
+Y-t.)
+Y50H(
+Y590(
+Y5>4(
 Y9"SD
-Y=E(.
-Y=^I.
 Y>t$7?*
 YD$8E
 Yd$@A
@@ -8056,7 +8109,6 @@ ZvFailed to create fence %ls.
 \$8I9H@t
 \$8I9\$@tGH
 \$8I;
-\$<D;
 \$@H;
 \$@Li
 \$@u"H
@@ -8065,6 +8117,7 @@ ZvFailed to create fence %ls.
 \$HH;
 \$HHc
 \$Hu'
+\$LD;
 \$PD;
 \$PH+
 \$PH;
@@ -8101,10 +8154,11 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \%03o
-\-Q/$
+\-1'$
 \10I;
 \U%08x
 \\.\pipe\
+\mfpmp.exe
 \u=H;
 \x%02x
 \|$`D
@@ -8116,18 +8170,20 @@ ZvFailed to create fence %ls.
 ] name = [
 ]0H9X
 ]9k0tVD
+]=}k"
 ]@L9{(
 ]HH;]Pt8
 ]HH;]Ptb
 ]J<0"0i3
 ][Compositor Client] Begin AcquireSync
 ]g@8yhu
+]gfff
 ]wfHc
 ^8H9?t&H
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%[N"
+_%GM"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8154,6 +8210,8 @@ _Mtx_lock
 _Mtx_unlock
 _Press
 _RDATA
+_Strcoll
+_Strxfrm
 _TEST
 _Thrd_id
 _Thrd_join
@@ -8220,7 +8278,6 @@ _unlock_file
 _wchdir
 _wcsicmp
 _wcsnicmp
-_wcsupr
 _wfopen_s
 _wfsopen
 _wgetcwd
@@ -8303,6 +8360,7 @@ allowSingleQuotes
 allowSpecialFloats
 allowSupersampleFiltering
 allow_alias
+alnum
 alpha
 alphaCutoff
 alphaMode
@@ -8346,6 +8404,7 @@ bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
+b\asa
 background
 backgroundCameraHeight
 backgroundDomeRadius
@@ -8413,6 +8472,7 @@ bindings
 bindings_json
 bindingui/desktop
 bindingui/overlay
+blank
 blocked_by_safe_mode
 blue_u
 blue_v
@@ -8536,6 +8596,7 @@ click_initial_state
 client
 client_dll_path
 close_requested
+cntrl
 collectComments
 collisionBounds
 collision_bounds
@@ -8585,9 +8646,9 @@ d$8E3
 d$8L;
 d$8tf
 d$<Mc
+d$@E3
 d$@H;
 d$@I;
-d$@M;
 d$@fff
 d$HA;
 d$HE3
@@ -8595,6 +8656,7 @@ d$HH;
 d$HMc
 d$PE3
 d$PE9~X~QE3
+d$PM;
 d$PfD
 d$XE3
 d$`E3
@@ -8605,6 +8667,7 @@ d$bHc
 d$hE3
 d$hHcC,L
 d$hI;
+d$hM;
 d$pI;
 d3d11.dll
 da_da
@@ -8647,6 +8710,7 @@ deviceContainer
 devicePath
 device_index
 device_path
+digit
 directory
 dirty_count
 disableAsyncCompositor
@@ -8721,7 +8785,7 @@ e_H9U
 east_click
 east_touch
 effffff
-eg@8=G
+eg@8=
 el_el
 elapsed_time
 emissiveFactor
@@ -8758,9 +8822,15 @@ extensionsUsed
 external_drivers
 extras
 f(L9f@H
+f9+t4
+f98tZH
+f98t\H
+f9\$`u
+f;|$pt_H
 fD		H
 fD9	u
 fD9L$
+fD;3t
 facet::CCompositionClient::AcquireCompositorSlot
 facet::CCompositionClient::AcquireImage
 facet::CCompositionClient::BeginFrameRendering
@@ -8891,6 +8961,7 @@ generator
 generic
 generic_hmd
 german
+getenv
 gfffA
 gfffD+
 gfffI
@@ -8945,6 +9016,7 @@ gpuSpeedRenderTargetScale
 gpuSpeedVendor
 gpu_profiler_capture
 grab_value_and_force
+graph
 greek
 green
 green_u
@@ -9037,6 +9109,7 @@ int32
 int64
 intensity
 interaction_profile
+internet
 interpolation
 invalid
 invalid BOM; must be 0xEF 0xBB 0xBF if given
@@ -9172,7 +9245,9 @@ l$ VATAWH
 l$ VH
 l$ VWATAUAVH
 l$ VWATAVAW
+l$ VWATH
 l$ VWAVH
+l$ WATAUH
 l$ WATAWH
 l$ WAVAWH
 l$ WAVHc|$8I
@@ -9214,6 +9289,7 @@ l$`L;
 l$h9s8~F
 l$h9{X~&L
 l$hL;
+l$pE3
 l$pH;
 l$pL;l$P
 l$pM+
@@ -9260,6 +9336,7 @@ log_timestamp
 log_web_console_handle
 loglevel
 long_press_delay
+lower
 m0_$@
 m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
@@ -9361,7 +9438,6 @@ modelskins
 modff
 motion
 motionSmoothing
-mt!Z*
 mtllib
 multiple IHDR
 multiple signals per batch not allowed
@@ -9415,12 +9491,15 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
+o5O91
+o5[71
 o@@fD
 oD$ fD
 oD$0f
 oD$0fD
 oL$ f
 oT$0f
+o^kH"
 object
 object key
 object separator
@@ -9443,6 +9522,7 @@ openvr.component.vrserver
 openvr.tool.steamvr_media_player
 openvr:
 openvrpaths.vrpath
+openxr
 openxr_quadlayer_
 optimize_for
 optional
@@ -9472,6 +9552,7 @@ override_keys
 overwrite.vrsettings
 p UWAVH
 p WATAVH
+pA]A\^
 pA]A\^[]
 pA]A\_
 pA^A]A\
@@ -9568,6 +9649,7 @@ pressed_path
 pressed_value_override
 primitive indices accessor out of bounds
 primitives
+print
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 priority
 priorityMap
@@ -9579,6 +9661,7 @@ pt_br
 pt_pt
 public_dependency
 pulse_duration
+punct
 py_generic_services
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
@@ -9706,6 +9789,7 @@ shaders/d3d11/distort_geom_aa_lines_ps.fxo
 shaders/d3d11/distort_geom_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
+shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
 shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_curved_vs.fxo
@@ -9846,6 +9930,7 @@ shaders/vulkan/distort_geom_aa_lines_ps.spv
 shaders/vulkan/distort_geom_aa_lines_vs.spv
 shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
+shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
 shaders/vulkan/distort_geom_curved_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_curved_vs.spv
@@ -10030,6 +10115,7 @@ sources
 south
 south_click
 south_touch
+space
 spanish
 sparse
 spatialAnchorsSupport
@@ -10323,7 +10409,6 @@ t)H9P
 t)HcO4
 t+L9P
 t+fff
-t, W-$
 t,HcI
 t,HcK
 t,HcK 
@@ -10335,7 +10420,8 @@ t1Hcl$@
 t1fff
 t3fff
 t4L9P
-t8D8-
+t7fff
+t8D8-Q
 t9fff
 t:fff
 t<Lc@xE
@@ -10351,6 +10437,7 @@ tFfff
 tHI9|$
 tJL;y rDH
 tNI;X rHI
+tQH95
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -10444,6 +10531,7 @@ turkish
 tx<	u#
 types
 t|SUVH
+t}H9=
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -10463,12 +10551,11 @@ u*fff
 u,+u(
 u-H9X s
 u.H9{`t(H
-u/fff
-u2W|c/:
 u4H9X s
 u5H9t$0u.H
 u9fff
 u<H9^xtLH
+u=H*=
 u>D8}
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -10486,14 +10573,14 @@ uM8D$@tG
 uMD9I
 uO8D$@tI
 uP@8;uo
+uRf;>tM
 uSD9d$DuLD8
 uZEeu
 ua_ua
 ub'vb'v
 ubHcC0I
-ud;M{
 udH9P sRH
-ug@8=&
+ug@8=
 ugL9x s
 ugL;D$H
 ui8D$0tc
@@ -10525,6 +10612,8 @@ unknown token
 unsupported bit depth
 unsupported data layout
 unsupported format
+upH;~ uj
+upper
 usage
 usage_flags
 usbservice
@@ -11133,6 +11222,7 @@ x AVH
 x L;m
 x UAVAWH
 x2A;O0},I
+xA\^][
 xA]A\_]
 xA]^[]
 xA^A\_^][
@@ -11142,6 +11232,7 @@ xL97t
 x]~\6
 x_^][
 x_path
+xdigit
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -11284,14 +11375,18 @@ zuusA
 {,	u#
 {8@8l$8t1
 {un'%
+{x\u!H
+{|?uWH
 |$ 9kh~
 |$ 9y ~=H
 |$ @8y
 |$ ATAUAVAWL
 |$ ATAVAWH
+|$ ATH
 |$ AUAVAWH
 |$ AV
 |$ AVH
+|$ AVI
 |$ AVL
 |$ AWH
 |$ E3
@@ -11319,6 +11414,7 @@ zuusA
 |$0H;
 |$0Hk
 |$0Mc
+|$0ff
 |$0t@I
 |$0uDH
 |$4$u
@@ -11331,7 +11427,6 @@ zuusA
 |$8E3
 |$8H+
 |$8H;
-|$8~u
 |$<I;
 |$@A_A^A]A\
 |$@D;
@@ -11374,15 +11469,16 @@ zuusA
 |$`E3
 |$`H+
 |$`H;
-|$`M+
 |$hw4
 |$pD9y8
+|$pE2
 |$pE3
 |$pH+
 |$pI+
 |$pI;
 |$pM;
 |$t!u
+|$xE3
 |$xHc
 |$xHcF4
 |$xIi
@@ -11404,6 +11500,7 @@ zuusA
 }LuHO
 }PI9}Xt2H
 }`H+}XH
+}gfff
 ~)HcB
 ~+fff
 ~3LcD$(L

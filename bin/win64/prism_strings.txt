@@ -32,6 +32,7 @@
     Unused timelines: size:%zu
  %41g
  - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s
+ A]A\_
  A^^[
  A_A^A\
  A_A^A\_^
@@ -56,6 +57,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+"4{C3
 $9E0u
 $II+L$`
 %s begin_ctx=%llu
@@ -352,13 +354,13 @@ $II+L$`
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
 *9Z9N
-*HcT$PH
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
 -IPCWrapper
 .00cfg
+.61	@
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@
@@ -420,7 +422,6 @@ $II+L$`
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
-.?AVCAutoCriticalSection@@
 .?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0x9ac02b30@@
 .?AVCMotionEstimator_LiquidVR@@
 .?AVCMotionEstimator_NvEncode@@
@@ -513,6 +514,7 @@ $II+L$`
 .tls$ZZZ
 .xdata
 .xdata$x
+0A]A\_
 0A^A]A\
 0A^_[
 0A^_]
@@ -524,14 +526,13 @@ $II+L$`
 0A_A^_^[
 0w0c1
 0}0i1
-1.2.840.113549.1.9.6
 130801120000Z
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220801000000Z
-220808194504Z0/
+220815221154Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -549,33 +550,32 @@ $II+L$`
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-6>]Hd
 6I]Dc
 6OB,n_
 70503
-7C`oE
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 t"L
 8 u'L
 8A^A\
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8V:sB
+8\t	H
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8|NN)
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
 9H(~-
 :A9x 
 :EotB
-:L}4U
+:M-Wa
 ;K sOH
 ;S sMH
 ;\$x|
-;k!O*
+;|$ r
 <0:08
 <P)9Y
 <unknown>
@@ -607,7 +607,10 @@ $II+L$`
 @.data
 @.reloc
 @8k(t-H
+@A]A\_
 @A]_[
+@A]_^][
+@A^A]A\_^
 @A^_]
 @A^_^
 @A^_^][
@@ -621,6 +624,7 @@ $II+L$`
 @SUATAUAWH
 @SUAWH
 @SUVH
+@SUVWAUH
 @SUWATAVH
 @SUWAVAWH
 @SUWH
@@ -651,11 +655,13 @@ $II+L$`
 @USWH
 @UVAVAWH
 @UVAWH
+@UVWATH
 @UVWAUH
 @UVWH
 @UWAVAWH
 @VATH
 @VAVH
+@VWATH
 @WATAUAVAWH
 @WAUAVAWH
 @WAVAWH
@@ -675,6 +681,7 @@ ATAUAVH
 ATAVAWH
 ATAVH
 A\_^[]
+A\_^]
 A]A\]
 A]A\_[]
 A]A\_^[]
@@ -889,10 +896,6 @@ CVkTimeline::WaitMultiple
 C\$@H
 C\$@M
 CalculateMotion
-CertCloseStore
-CertFindCertificateInStore
-CertFreeCertificateContext
-CertGetNameStringA
 Client (%s) app container state: %d
 Client Swapchain: %d
 ClientLayers-%d
@@ -923,15 +926,8 @@ CreateEventW
 CreateFileA
 CreateFileMappingA
 CreateMutexA
-CreateProcessAsUserA
-CreateProcessAsUserW
 CreateWellKnownSid
 CreateWellKnownSid failed for WinBuiltinAnyPackageSid
-CryptDecodeObject
-CryptMsgClose
-CryptMsgGetParam
-CryptQueryObject
-D$ 9D$Lw
 D$ E3
 D$ H;
 D$ L;
@@ -939,15 +935,10 @@ D$ L;D$(ucM
 D$ Li
 D$ M;
 D$(E3
-D$(H+
-D$(H9D$Xs
 D$(H;
 D$(I;
-D$(L+
-D$,9D$(s
 D$0E3
 D$0H+
-D$0H9D$(v
 D$0H9V8t
 D$0H;
 D$0I;
@@ -962,13 +953,9 @@ D$@E3
 D$@H9Q
 D$@H;
 D$@Rb
-D$H9D$$
 D$HE3
 D$PE3
 D$PH9
-D$PH9D$HsHH
-D$PH9D$XscH
-D$PH9D$Xu!H
 D$PH9Q
 D$PH;
 D$PHk
@@ -991,6 +978,8 @@ D$xD;
 D$xH;
 D$xL;
 D3D11CreateDevice
+D3DKMTEnumAdapters2
+D3DKMTQueryAdapterInfo
 D8<0u
 D9+u/
 D9>u:H
@@ -1078,6 +1067,8 @@ GetFileVersionInfoW
 GetFullPathNameW
 GetLastError
 GetLengthSid
+GetModuleFileNameA
+GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleW
 GetProcAddress
@@ -1095,15 +1086,16 @@ H+D$Xf
 H+EpH
 H+L$XE3
 H+SXH
-H+T$pH
 H9.u0
 H9.u2
 H93t	H
+H95:E	
+H95hB	
+H95|B	
 H97t	H
 H97u2
 H98t	H
 H9C s'L
-H9D$0s*H
 H9D$@u
 H9H s
 H9H s*
@@ -1134,18 +1126,12 @@ H;y s
 H;z s
 H;{XH
 HA^A]_[
-HHcL$PH
 HMD Image %d
 HMD using present mode: %d
 HTC Corporation VIVE
 HallucinateFrame
 Hallucinated-%s%d
-HcD$$H
 HcEwH
-HcL$4H
-HcL$@H
-HcL$HH
-HcL$PH
 HiL$ 
 History Timeline
 History-Buffer-%d
@@ -1185,6 +1171,8 @@ IsProcessorFeaturePresent
 IsValidSid
 J>@G_
 KERNEL32.dll
+Kf;;u
+KfD;3u
 K}*n:	
 L#A0H
 L$ E3
@@ -1199,7 +1187,9 @@ L$(K9
 L$(M;
 L$0A9y
 L$0A9y sEI
+L$0E3
 L$0H+
+L$4E3
 L$8E3
 L$@E3
 L$LH9
@@ -1207,7 +1197,7 @@ L$PE3
 L$PH;
 L$XH9T$@t
 L$`E3
-L$pE3
+L$pH3
 L$pI+
 L$pL9D$8H
 L$pL;
@@ -1302,10 +1292,6 @@ Motion Vector Median5x5 Pipeline
 Motion Vector Threshold Pipeline
 MultiByteToWideChar
 NPH9Q
-NVIDIA Corporation
-NVIDIA Corporation PE Sign v2016
-NVIDIA Subordinate CA
-NVIDIA Subordinate CA 2016 v2
 NXH9Q
 Null Client
 NvAPI
@@ -1350,6 +1336,7 @@ OpenServiceW
 Out of thread local storage!
 Outer
 PA^_^
+PA_A^A]A\_
 PA_A^_
 PA_[]
 PAq=?Mp#
@@ -1423,6 +1410,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDSj
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1474,17 +1462,13 @@ SetSecurityDescriptorDacl failed. GetLastError returned: %d
 SetThreadPriority
 SetUnhandledExceptionFilter
 SetupDiDestroyDeviceInfoList
-SetupDiEnumDeviceInterfaces
+SetupDiEnumDeviceInfo
 SetupDiGetClassDevsW
 SetupDiGetDeviceInterfaceDetailW
 SetupDiGetDevicePropertyW
 SetupDiGetDeviceRegistryPropertyW
 SetupGetInfDriverStoreLocationW
 SharedMem access invalid: %x
-ShellExecuteA
-ShellExecuteExA
-ShellExecuteExW
-ShellExecuteW
 Signal[%d]:%llu
 Skipping CalculateMotion (%llu)
 Skipping CalculateMotion (swapchain mismatch)
@@ -1494,18 +1478,13 @@ Software\Valve\Steam\ActiveProcess
 Somebody beat us to creating event %s to go with pipe %s in WaitForConnection
 Somebody else should have created event %s to go with pipe %s in WaitForConnection
 Somebody locked a non-leaf shared memory %s while %s was already locked
-StringFromGUID2
 Swapchain
 T$ E3
-T$ H+
 T$ fI
-T$0H+
 T$8E3
-T$8H+
 T$8H;
 T$@D9#
 T$@fI
-T$XH+
 T$XI+
 T$`H+T$XH
 T$`L+
@@ -1517,6 +1496,7 @@ T$xL+
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 TerminateProcess
+TfD;u
 The owner SID is invalid.
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
@@ -1573,6 +1553,7 @@ Upload raw motion vectors
 UploadMotionVectors
 Using physical device: %s
 UuidFromStringA
+VATAUH
 VAVAWH
 VCRUNTIME140.dll
 VERSION.dll
@@ -1592,7 +1573,9 @@ VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
 VSYNC:  %8d<%07.4f %0.4f
+VWATAUAVH
 VWATAVAWH
+VWATH
 VWAVH
 VWAWH
 V_~]	,
@@ -1601,10 +1584,10 @@ Valve Corp.1
 Valve Corporation
 VerQueryValueA
 VerSetConditionMask
-VeriSign Class 3 Code Signing 2010 CA
 VerifyVersionInfoW
 Vulkan
 WATAUAVAWH
+WATAUH
 WAVAWH
 WINMM.dll
 Wait:%llu
@@ -1642,6 +1625,7 @@ Yl$4E
 \$ UVATAVAWH
 \$ UWAVH
 \$ VATAVH
+\$ VH
 \$ WH
 \$$H+
 \$(H;
@@ -1669,6 +1653,7 @@ Yl$4E
 \$xHk
 \$xMi
 \\.\pipe\
+\mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
 _Cnd_broadcast
@@ -1722,7 +1707,6 @@ _register_onexit_function
 _seh_filter_dll
 _wcsicmp
 _wcsnicmp
-_wcsupr
 `.rdata
 `A^A]_^]
 `A^_]
@@ -1731,7 +1715,6 @@ _wcsupr
 `A_^]
 abort
 acosf
-api-ms-win-core-debug-l1-1-0.dll
 api-ms-win-core-errorhandling-l1-1-0.dll
 api-ms-win-core-file-l1-1-0.dll
 api-ms-win-core-handle-l1-1-0.dll
@@ -1831,7 +1814,14 @@ deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
 e,>~^
+e,g>F-b
 effffff
+f9+t4
+f98tZH
+f98t\H
+f9\$`u
+f;|$pt_H
+fD;3t
 fabsf( *pSecondsSinceVsync ) < 1000.0f
 facet::CVkTimestampQueryPool<2>::Create
 facet::CVkTimestampQueryPool<2>::UpdateResults
@@ -1877,6 +1867,9 @@ l$ H=
 l$ L;
 l$ VATAUAVAWH
 l$ VAVAWH
+l$ VWATH
+l$ WATAUH
+l$ WH
 l$0D;E
 l$0I;
 l$0L+
@@ -1954,6 +1947,7 @@ ole32.dll
 ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
 p WAVAWH
+pA]A\^
 pA_A^]
 pAllocator
 pAllocator != nullptr
@@ -2017,6 +2011,7 @@ stages.size() == 1
 startup
 string too long
 strncat
+strncmp
 strncpy
 strncpy_s
 strstr
@@ -2057,6 +2052,7 @@ t$hH+
 t$lff
 tC8Khu1
 tOH97t	H
+tQH95
 tUH93t	H
 tXfff
 tdh.dll
@@ -2068,11 +2064,12 @@ timeSetEvent
 timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
+t}H9=
 uAfff
+uRf;>tM
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
-v!neh=
 v=Y]Bv
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
@@ -2544,10 +2541,10 @@ xA_A^A]A\_^[]
 x]~\6
 yxxxxxxxH
 yxxxxxxxI+
-zd~"u
 {pH;{xw?
 {un'%
 |$ ATAVAWH
+|$ ATH
 |$ AVH
 |$ AVL
 |$ E3
@@ -2566,10 +2563,10 @@ zd~"u
 |$8A_A^A\
 |$8L9
 |$8t6H
-|$8~u
 |$@E3
 |$@H;
 |$@I;
+|$HE3
 |$HH+
 |$HH;
 |$HH=
@@ -2585,6 +2582,7 @@ zd~"u
 }LuHO
 }`H+}XH
 }wH9S
+~9k,o
 ~qj#k"
 ~t&LN
 ~xM+~pI

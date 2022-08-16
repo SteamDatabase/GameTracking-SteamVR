@@ -4005,6 +4005,8 @@
  t CVRPathRegistry::GetConfigHistoryPath(unsigned int) const
  t CVRPathRegistry::GetExternalDriverCount() const
  t CVRPathRegistry::GetExternalDriverPath(unsigned int) const
+ t CVRPathRegistry::GetInstalledRuntimes() const
+ t CVRPathRegistry::GetInstalledRuntimes() const [clone .cold]
  t CVRPathRegistry::GetLogHistoryCount() const
  t CVRPathRegistry::GetLogHistoryPath(unsigned int) const
  t CVRPathRegistry::GetRuntimeHistoryCount() const
@@ -4289,6 +4291,8 @@
  t CleanupInternalInterfaces()
  t CleanupSharedResourceNamespace()
  t CloseLog()
+ t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&)
+ t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t CompareSerialNumbers(wchar_t const*, wchar_t const*)
  t CreateSimpleProcess
  t CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
@@ -5741,7 +5745,6 @@
  t __gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*> > > std::__remove_if<__gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*> > >, __gnu_cxx::__ops::_Iter_equals_val<CPrismDirect::TextureSet_t* const> >(__gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*> > >, __gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*> > >, __gnu_cxx::__ops::_Iter_equals_val<CPrismDirect::TextureSet_t* const>)
  t __gnu_cxx::__normal_iterator<char*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept> >(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept>, std::random_access_iterator_tag)
  t __gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool> > > > std::__find_if<__gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool> > > >, __gnu_cxx::__ops::_Iter_pred<bool (*)(std::pair<unsigned int, bool>)> >(__gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool> > > >, __gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool> > > >, __gnu_cxx::__ops::_Iter_pred<bool (*)(std::pair<unsigned int, bool>)>, std::random_access_iterator_tag)
- t __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const>, std::random_access_iterator_tag)
  t __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
  t __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > std::__find_if<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equals_iter<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > > >(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equals_iter<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > >, std::random_access_iterator_tag)
  t __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > std::__search<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter)
@@ -9644,8 +9647,7 @@
  t std::vector<std::string*, std::allocator<std::string*> >::_M_check_len(unsigned long, char const*) const
  t std::vector<std::string*, std::allocator<std::string*> >::_M_default_append(unsigned long)
  t std::vector<std::string, std::allocator<std::string> >::_M_check_len(unsigned long, char const*) const
- t std::vector<std::string, std::allocator<std::string> >::_M_erase(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >)
- t std::vector<std::string, std::allocator<std::string> >::insert(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+ t std::vector<std::string, std::allocator<std::string> >::_M_insert_rval(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
  t std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
  t std::vector<std::string, std::allocator<std::string> >::reserve(unsigned long)
  t std::vector<std::string, std::allocator<std::string> >::vector(std::initializer_list<std::string>, std::allocator<std::string> const&)
@@ -9972,7 +9974,6 @@
  t void ceres::QuaternionToAngleAxis<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
  t void ceres::UnitQuaternionRotatePoint<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
  t void ceres::UnitQuaternionRotatePoint<ceres::Jet<double, 7> >(ceres::Jet<double, 7> const*, ceres::Jet<double, 7> const*, ceres::Jet<double, 7>*)
- t void ceres::UnitQuaternionRotatePoint<double>(double const*, double const*, double*)
  t void ceres::internal::Make1stOrderPerturbation<ceres::Jet<double, 49>, double, 49>(int, double const*, ceres::Jet<double, 49>*)
  t void ceres::internal::Take1stOrderPart<ceres::Jet<double, 49>, double, 0, 49>(int, ceres::Jet<double, 49> const*, double*)
  t void nlohmann::detail::dtoa_impl::grisu2<double>(char*, int&, int&, double)
@@ -10592,6 +10593,7 @@
  t vortex::CLighthouseDBTrackedObject::BIsTiltPending() const
  t vortex::CLighthouseDBTrackedObject::CLighthouseDBTrackedObject(vortex::CLighthouseDB*, std::string, vr::ETrackedDeviceClass)
  t vortex::CLighthouseDBTrackedObject::CLighthouseDBTrackedObject(vortex::CLighthouseDB*, std::string, vr::ETrackedDeviceClass) [clone .cold]
+ t vortex::CLighthouseDBTrackedObject::ClearLiveImuCalibration()
  t vortex::CLighthouseDBTrackedObject::ClearPerTrackingSessionState()
  t vortex::CLighthouseDBTrackedObject::ClearPerTrackingSessionState() [clone .cold]
  t vortex::CLighthouseDBTrackedObject::CreateFromJson(vortex::CLighthouseDBTrackedObject**, vortex::CLighthouseDB*, Json::Value const&)
@@ -10721,6 +10723,7 @@
  t vortex::CLighthouseDirect::SendOnPoseChange()
  t vortex::CLighthouseDirect::SendOpticalStateToPoseDriver(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > const&)
  t vortex::CLighthouseDirect::SetInitialProcessCovariance()
+ t vortex::CLighthouseDirect::SetTrackRefFromHead(CTrackedDeviceConfig const*)
  t vortex::CLighthouseDirect::ShowBootstrapProgress(unsigned int)
  t vortex::CLighthouseDirect::Start()
  t vortex::CLighthouseDirect::Stop()

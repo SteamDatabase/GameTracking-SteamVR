@@ -930,7 +930,7 @@
 "About_VersionPrefix" "버전 %1"
 
 "MenuAction_CalibrateController" "컨트롤러 보정하기"
-"CalibrateControllerTrackpad_Title" "컨트롤러 트랙패트 보정하기"
+"CalibrateControllerTrackpad_Title" "컨트롤러 트랙패드 보정하기"
 "CalibrateControllerTrackpad_Start_UpperText" "컨트롤러의 트랙패드를 보정합니다. 트랙패드가 불안정하거나 터치가 제대로 실현되지 않는 것 같으면 보정을 해야 합니다."
 "CalibrateControllerTrackpad_Start_LowerText" "트랙 패드를 터치하지 않도록 주의하고 '다음'을 클릭하여 계속하세요."
 "CalibrateControllerTrackpad_Progress_UpperText" "트랙패드 보정 중 ..."

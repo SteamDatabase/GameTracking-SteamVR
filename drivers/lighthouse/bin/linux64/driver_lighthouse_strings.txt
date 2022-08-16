@@ -862,7 +862,6 @@ $@
 17CKalmanQuaternion
 17CLinuxVideoStream
 18IUsbDeviceCallback
-19:42:57
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -873,6 +872,7 @@ $@
 20CVRFramerateGovernor
 20CVkCommandBufferPool
 20IVRAudioNotification
+22:05:05
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -1052,7 +1052,7 @@ Attempting HID Open %s: %s
 Audio
 AudioBridge
 Aug
-Aug  8 2022
+Aug 15 2022
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)
@@ -2441,6 +2441,8 @@ CVRPathRegistry::GetConfigHistoryCount() const
 CVRPathRegistry::GetConfigHistoryPath(unsigned int) const
 CVRPathRegistry::GetExternalDriverCount() const
 CVRPathRegistry::GetExternalDriverPath(unsigned int) const
+CVRPathRegistry::GetInstalledRuntimes() const
+CVRPathRegistry::GetInstalledRuntimes() const [clone .cold]
 CVRPathRegistry::GetLogHistoryCount() const
 CVRPathRegistry::GetLogHistoryPath(unsigned int) const
 CVRPathRegistry::GetRuntimeHistoryCount() const
@@ -2790,6 +2792,8 @@ ClientTimeline:%lu
 Close
 CloseLog()
 Closed
+CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&)
+CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
 Command failed with %d: %s
 Comment started here.
 CompareSerialNumbers(wchar_t const*, wchar_t const*)
@@ -6762,7 +6766,6 @@ __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operato
 __gnu_cxx::__freeres()
 __gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*> > > std::__remove_if<__gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*> > >, __gnu_cxx::__ops::_Iter_equals_val<CPrismDirect::TextureSet_t* const> >(__gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*> > >, __gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*> > >, __gnu_cxx::__ops::_Iter_equals_val<CPrismDirect::TextureSet_t* const>)
 __gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool> > > > std::__find_if<__gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool> > > >, __gnu_cxx::__ops::_Iter_pred<bool (*)(std::pair<unsigned int, bool>)> >(__gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool> > > >, __gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool> > > >, __gnu_cxx::__ops::_Iter_pred<bool (*)(std::pair<unsigned int, bool>)>, std::random_access_iterator_tag)
-__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > std::__find_if<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equals_iter<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > > >(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equals_iter<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > >, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > std::__search<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter)
@@ -7574,6 +7577,7 @@ display_color_mult
 display_edid
 display_frequency
 display_gc
+display_hdr10
 display_mc
 display_usb_pid
 display_usb_protocol
@@ -7619,6 +7623,9 @@ drmOpenWithType
 drop %08X u%d (i%d)
 dropNullPlaceholders
 ds
+dsc_bppx16
+dsc_slices
+dsc_version
 dt
 dualSpeakerAndJackOutput
 dual_extrinsics
@@ -14717,8 +14724,7 @@ std::vector<std::pair<google::protobuf::Descriptor const*, int>, std::allocator<
 std::vector<std::string*, std::allocator<std::string*> >::_M_check_len(unsigned long, char const*) const
 std::vector<std::string*, std::allocator<std::string*> >::_M_default_append(unsigned long)
 std::vector<std::string, std::allocator<std::string> >::_M_check_len(unsigned long, char const*) const
-std::vector<std::string, std::allocator<std::string> >::_M_erase(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >)
-std::vector<std::string, std::allocator<std::string> >::insert(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+std::vector<std::string, std::allocator<std::string> >::_M_insert_rval(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
 std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
 std::vector<std::string, std::allocator<std::string> >::reserve(unsigned long)
 std::vector<std::string, std::allocator<std::string> >::vector(std::initializer_list<std::string>, std::allocator<std::string> const&)
@@ -16835,7 +16841,6 @@ void ceres::QuaternionProduct<ceres::Jet<double, 7> >(ceres::Jet<double, 7> cons
 void ceres::QuaternionToAngleAxis<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
 void ceres::UnitQuaternionRotatePoint<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
 void ceres::UnitQuaternionRotatePoint<ceres::Jet<double, 7> >(ceres::Jet<double, 7> const*, ceres::Jet<double, 7> const*, ceres::Jet<double, 7>*)
-void ceres::UnitQuaternionRotatePoint<double>(double const*, double const*, double*)
 void ceres::internal::Make1stOrderPerturbation<ceres::Jet<double, 49>, double, 49>(int, double const*, ceres::Jet<double, 49>*)
 void ceres::internal::Take1stOrderPart<ceres::Jet<double, 49>, double, 0, 49>(int, ceres::Jet<double, 49> const*, double*)
 void google::protobuf::DescriptorBuilder::AllocateOptions<google::protobuf::Descriptor>(google::protobuf::Descriptor::OptionsType const&, google::protobuf::Descriptor*)
@@ -17537,6 +17542,7 @@ vortex::CLighthouseDBTrackedObject::BHasValidPose() const
 vortex::CLighthouseDBTrackedObject::BIsTiltPending() const
 vortex::CLighthouseDBTrackedObject::CLighthouseDBTrackedObject(vortex::CLighthouseDB*, std::string, vr::ETrackedDeviceClass)
 vortex::CLighthouseDBTrackedObject::CLighthouseDBTrackedObject(vortex::CLighthouseDB*, std::string, vr::ETrackedDeviceClass) [clone .cold]
+vortex::CLighthouseDBTrackedObject::ClearLiveImuCalibration()
 vortex::CLighthouseDBTrackedObject::ClearPerTrackingSessionState()
 vortex::CLighthouseDBTrackedObject::ClearPerTrackingSessionState() [clone .cold]
 vortex::CLighthouseDBTrackedObject::CreateFromJson(vortex::CLighthouseDBTrackedObject**, vortex::CLighthouseDB*, Json::Value const&)
@@ -17668,6 +17674,7 @@ vortex::CLighthouseDirect::Run() [clone .cold]
 vortex::CLighthouseDirect::SendOnPoseChange()
 vortex::CLighthouseDirect::SendOpticalStateToPoseDriver(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > const&)
 vortex::CLighthouseDirect::SetInitialProcessCovariance()
+vortex::CLighthouseDirect::SetTrackRefFromHead(CTrackedDeviceConfig const*)
 vortex::CLighthouseDirect::ShowBootstrapProgress(unsigned int)
 vortex::CLighthouseDirect::Start()
 vortex::CLighthouseDirect::Stop()

@@ -187,7 +187,7 @@
 "MenuAction_RecentPlaylists" "Playlists récentes"
 "MenuAction_Diagnostics" "Avancés"
 "MenuAction_Directories" "Répertoires"
-"MenuAction_LogFiles" "Fichiers de logs"
+"MenuAction_LogFiles" "Fichiers journaux"
 "MenuAction_More" "Plus"
 "MenuAction_CouldNotReadLogFiles" "Impossible de lire les fichiers de logs"
 "MenuAction_PairingWizard" "Associer un contrôleur"

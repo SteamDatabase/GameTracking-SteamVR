@@ -655,7 +655,7 @@
             (this.m_cameraFrameCount > 0
               ? this.setState({ streamingProgress: b.Success })
               : e > 5e3 && this.setState({ streamingProgress: b.Failure }));
-          let t = VRHTML.GetPose(a.qb, a.B.Standing);
+          let t = VRHTML.GetPose(a.rb, a.B.Standing);
           if (this.m_cameraFrameCount > 0) {
             t.bPoseIsValid || this.setState({ trackingProgress: b.Failure }),
               Date.now() - this.m_firstFrameTime > 2e3 &&
@@ -1117,8 +1117,8 @@
       (M.Name = "general_settings"), (M = Object(i.b)([r.a], M));
       var E,
         R = n("tALH"),
-        T = n("vDqi"),
-        k = n.n(T);
+        k = n("vDqi"),
+        T = n.n(k);
       !(function (e) {
         (e.Unknown = "unknown"),
           (e.CheckingForUpdate = "checking"),
@@ -1151,7 +1151,7 @@
           return Object(i.a)(this, void 0, void 0, function* () {
             try {
               console.log("requesting channels");
-              let e = (yield k.a.get("/linux_update/get_channels.json")).data;
+              let e = (yield T.a.get("/linux_update/get_channels.json")).data;
               this.setState({
                 channels: e.channels,
                 current_channel: e.current_channel,
@@ -1169,7 +1169,7 @@
           return Object(i.a)(this, void 0, void 0, function* () {
             try {
               console.log("requesting update state");
-              let e = (yield k.a.get("/linux_update/get_state.json")).data;
+              let e = (yield T.a.get("/linux_update/get_state.json")).data;
               switch (
                 (console.log("get_state response " + JSON.stringify(e)),
                 this.setState({ state: e.status, detail: e.detail }),
@@ -1202,7 +1202,7 @@
               }, 5e3)),
             console.log("requesting update");
           try {
-            k.a.post("/linux_update/update.action");
+            T.a.post("/linux_update/update.action");
           } catch (e) {
             console.log("failed to request update because of exception: " + e),
               this.setState({
@@ -1220,7 +1220,7 @@
         onClickReboot() {
           console.log("requesting reboot");
           try {
-            k.a.post("/linux_update/reboot.action");
+            T.a.post("/linux_update/reboot.action");
           } catch (e) {
             console.log("failed to request reboot because of exception: " + e),
               this.setState({
@@ -1297,7 +1297,7 @@
             console.log("setting channel to " + e);
             try {
               this.setState({ current_channel: e }),
-                yield k.a.post(
+                yield T.a.post(
                   "/linux_update/set_channel.action",
                   JSON.stringify({ sNewChannel: e })
                 ),
@@ -1354,14 +1354,14 @@
           super(e), (this.state = { currentPath: "" });
         }
         componentDidMount() {
-          const e = a.ob.VRPathRegistry.GetRuntimePath();
-          let t = a.ob.VRPathRegistry.GetRuntimePathHistory();
-          console.log("GetRuntimePathHistory: " + JSON.stringify(t)),
+          const e = a.pb.VRPathRegistry.GetRuntimePath();
+          let t = a.pb.VRPathRegistry.GetInstalledRuntimes();
+          console.log("installedRuntimes: " + JSON.stringify(t)),
             console.log("currentPath: " + JSON.stringify(e)),
-            this.setState({ currentPath: e, availablePaths: t });
+            this.setState({ currentPath: e, installedRuntimes: t });
         }
         render() {
-          if (!a.ob || null == this.state.availablePaths) return null;
+          if (!a.pb || null == this.state.installedRuntimes) return null;
           const e = (e) => "/usr/local/steamvr" == P(e.toLowerCase()),
             t = (t) =>
               e(t)
@@ -1369,7 +1369,7 @@
                 : ((e) => "/data/work/steamvr" == P(e.toLowerCase()))(t)
                 ? "Custom Build"
                 : "Custom: " + t.toLowerCase();
-          const n = this.state.availablePaths
+          const n = this.state.installedRuntimes
               .filter((e) => e)
               .map((e) => ({ value: e, sLabel: t(e) })),
             i = e(this.state.currentPath);
@@ -1377,18 +1377,27 @@
             d.c,
             { className: "SettingsItem" },
             o.createElement("div", { className: "Label" }, "SteamVR Install"),
-            o.createElement(d.h, {
-              defaultLabel: t(this.state.currentPath),
-              items: n,
-              onChange: (e) => {
-                a.ob.VRPathRegistry.SetRuntimePath(e),
-                  console.log("SetRuntimePath to " + e),
-                  c.d.SetRestartRequired(),
-                  this.setState({
-                    currentPath: a.ob.VRPathRegistry.GetRuntimePath(),
-                  });
-              },
-            }),
+            n.length > 1 &&
+              o.createElement(d.h, {
+                defaultLabel: t(this.state.currentPath),
+                items: n,
+                onChange: (e) => {
+                  a.pb.VRPathRegistry.SetRuntimePath(e),
+                    console.log("SetRuntimePath to " + e),
+                    c.d.SetRestartRequired(),
+                    this.setState({
+                      currentPath: a.pb.VRPathRegistry.GetRuntimePath(),
+                    });
+                },
+              }),
+            1 == n.length &&
+              o.createElement(
+                "div",
+                { className: "Label" },
+                " ",
+                n[0].sLabel,
+                " "
+              ),
             !i &&
               o.createElement(
                 "div",
@@ -1404,7 +1413,7 @@
         }
         GetNetworkInfo() {
           let e = { linksPaired: [], foxnetActive: !1, ethernetActive: !1 },
-            t = a.ob.GetHostInfo(a.n.NetworkConnections);
+            t = a.pb.GetHostInfo(a.n.NetworkConnections);
           if (void 0 !== t) {
             let n = t.split("\n");
             for (let t of n) {
@@ -1428,7 +1437,7 @@
           let r =
               null ===
                 (t =
-                  null === (e = a.ob) || void 0 === e
+                  null === (e = a.pb) || void 0 === e
                     ? void 0
                     : e.GetHostInfo(a.n.Version)) || void 0 === t
                 ? void 0
@@ -1469,7 +1478,7 @@
           let c =
               null !=
               (t =
-                null === (e = a.ob) || void 0 === e
+                null === (e = a.pb) || void 0 === e
                   ? void 0
                   : e.GetHostInfo(a.n.XRS_CalibrationDate))
                 ? t
@@ -1504,7 +1513,7 @@
                 o.createElement(
                   "div",
                   { className: "Label" },
-                  null === (i = a.ob) || void 0 === i
+                  null === (i = a.pb) || void 0 === i
                     ? void 0
                     : i.GetHostInfo(a.n.Hostname)
                 )
@@ -1562,7 +1571,7 @@
                 o.createElement(
                   "div",
                   { className: "Label" },
-                  null === (l = a.ob) || void 0 === l
+                  null === (l = a.pb) || void 0 === l
                     ? void 0
                     : l.GetHostInfo(a.n.IP)
                 )
@@ -1715,7 +1724,7 @@
           return Object(i.a)(this, void 0, void 0, function* () {
             try {
               console.log("requesting access points");
-              let t = (yield k.a.get("/linux_network/enumerate.json")).data;
+              let t = (yield T.a.get("/linux_network/enumerate.json")).data;
               if (t.sError)
                 console.log("failed to get access points: " + t.sError),
                   this.setState({ sError: t.sError });
@@ -1724,7 +1733,7 @@
                   accessPoints: ((e = t.accessPoints), null != e ? e : []),
                 }),
                   console.log("requesting current access point\n");
-                let n = (yield k.a.get("/linux_network/get_current.json")).data;
+                let n = (yield T.a.get("/linux_network/get_current.json")).data;
                 n.sError
                   ? (console.log(
                       "failed to get current access point: " + n.sError
@@ -1762,7 +1771,7 @@
             let n = { sAccessPointPath: e, sPassword: t };
             try {
               let t = Date.now(),
-                i = (yield k.a.post("/linux_network/join_network.action", n))
+                i = (yield T.a.post("/linux_network/join_network.action", n))
                   .data;
               console.log("join_network response: " + JSON.stringify(i) + "\n");
               let o = Date.now() - t,
@@ -1864,7 +1873,7 @@
               console.log("CreateSAP");
               let t = { type: "sap_create" },
                 n = yield this.m_mailbox.SendMessageAndWaitForResponse(
-                  "driver_cv_hmd",
+                  "driver_hmd",
                   t,
                   "sap_create_response"
                 );
@@ -1898,7 +1907,7 @@
               console.log("TeardownSAP");
               let e = { type: "sap_teardown" },
                 t = yield this.m_mailbox.SendMessageAndWaitForResponse(
-                  "driver_cv_hmd",
+                  "driver_hmd",
                   e,
                   "sap_teardown_response"
                 );
@@ -1918,7 +1927,7 @@
               console.log("DeleteWifiHotspot");
               let e = { type: "hotspot_delete" };
               yield this.m_mailbox.SendMessageAndWaitForResponse(
-                "driver_cv_hmd",
+                "driver_hmd",
                 e,
                 "hotspot_delete_response"
               );
@@ -2789,7 +2798,7 @@
       class ee {
         constructor() {
           (this.driverNameToIdMap = new Map()),
-            k.a.get("/drivers/list.json").then((e) => {
+            T.a.get("/drivers/list.json").then((e) => {
               const t = e.data.drivers;
               (this.driverList = t),
                 console.log(t),
@@ -2807,13 +2816,13 @@
               this.driverNameToIdMap.get(e)
             ].blocked_by_safe_mode = !1);
           let t = { driver: e };
-          return k.a.post("/drivers/unblock", t);
+          return T.a.post("/drivers/unblock", t);
         }
         setEnabled(e, t) {
           c.d.SetRestartRequired(),
             (this.driverList[this.driverNameToIdMap.get(e)].enabled = t);
           let n = { driver: e, enable: t };
-          return k.a.post("/drivers/setenable", n);
+          return T.a.post("/drivers/setenable", n);
         }
         get visibleDriverList() {
           return this.driverList.filter(
@@ -3132,52 +3141,85 @@
           super(e);
         }
         render() {
-          return this.props.active
-            ? o.createElement(
-                o.Fragment,
-                null,
-                o.createElement(d.h, {
-                  name: f.q,
-                  label: Object(l.c)("#Settings_Dashboard_Position"),
-                  items: [
-                    { value: j.b.Near, sLabel: Object(l.c)("#Settings_Near") },
-                    {
-                      value: j.b.Middle,
-                      sLabel: Object(l.c)("#Settings_Middle"),
-                    },
-                    { value: j.b.Far, sLabel: Object(l.c)("#Settings_Far") },
-                  ],
-                }),
-                o.createElement(d.n, {
-                  name: "/settings/dashboard/showPowerOptions",
-                  label: Object(l.c)("#Settings_ShowPowerMenu"),
-                  visibility: d.d.Advanced,
-                }),
-                o.createElement(d.n, {
-                  name: "/settings/dashboard/showDesktop",
-                  label: Object(l.c)("#Settings_ShowDesktopViews"),
-                  visibility: d.d.Advanced,
-                }),
-                o.createElement(d.n, {
-                  name: "/settings/dashboard/allowAppQuitting",
-                  label: Object(l.c)("#Settings_AllowAppQuitting"),
-                  visibility: d.d.Advanced,
-                }),
-                o.createElement(d.n, {
-                  name: "/settings/dashboard/arcadeMode",
-                  label: Object(l.c)("#Settings_ShowSettingsInDashboard"),
-                  swapOnOff: !0,
-                  visibility: d.d.Advanced,
-                }),
-                o.createElement(d.n, {
-                  name: "/settings/dashboard/enableDashboard",
-                  title: Object(l.c)("#Settings_EnableDashboardDesc"),
-                  label: Object(l.c)("#Settings_EnableDashboard"),
-                  visibility: d.d.Advanced,
-                }),
-                this.makeResetToDefaultButton()
-              )
-            : null;
+          var e;
+          if (!this.props.active) return null;
+          const t =
+            null !=
+              (e = c.d.settings.get("/settings/dashboard/allowTheaterMode")) &&
+            e;
+          return o.createElement(
+            o.Fragment,
+            null,
+            o.createElement(d.h, {
+              name: f.q,
+              label: Object(l.c)("#Settings_Dashboard_Position"),
+              items: [
+                { value: j.b.Near, sLabel: Object(l.c)("#Settings_Near") },
+                { value: j.b.Middle, sLabel: Object(l.c)("#Settings_Middle") },
+                { value: j.b.Far, sLabel: Object(l.c)("#Settings_Far") },
+              ],
+            }),
+            t &&
+              o.createElement(d.h, {
+                name: "/settings/dashboard/theaterPosition",
+                label: "Theater Position",
+                items: [
+                  { value: j.b.Near, sLabel: Object(l.c)("#Settings_Near") },
+                  {
+                    value: j.b.Middle,
+                    sLabel: Object(l.c)("#Settings_Middle"),
+                  },
+                  { value: j.b.Far, sLabel: Object(l.c)("#Settings_Far") },
+                ],
+              }),
+            t &&
+              o.createElement(d.m, {
+                name: "/settings/dashboard/theaterModeBrightness",
+                label: "Theater Room Brightness",
+                min: 0,
+                max: 1,
+                valueStyleVariant: y.c.OnHandle,
+                detents: [0.5],
+                renderValue: (e) => (100 * e).toFixed(0) + "%",
+              }),
+            t &&
+              o.createElement(d.m, {
+                name: "/settings/dashboard/theaterModeReflection",
+                label: "Theater Room Reflections",
+                min: 0,
+                max: 1,
+                valueStyleVariant: y.c.OnHandle,
+                detents: [0.5],
+                renderValue: (e) => (100 * e).toFixed(0) + "%",
+              }),
+            o.createElement(d.n, {
+              name: "/settings/dashboard/showPowerOptions",
+              label: Object(l.c)("#Settings_ShowPowerMenu"),
+              visibility: d.d.Advanced,
+            }),
+            o.createElement(d.n, {
+              name: "/settings/dashboard/showDesktop",
+              label: Object(l.c)("#Settings_ShowDesktopViews"),
+              visibility: d.d.Advanced,
+            }),
+            o.createElement(d.n, {
+              name: "/settings/dashboard/allowAppQuitting",
+              label: Object(l.c)("#Settings_AllowAppQuitting"),
+              visibility: d.d.Advanced,
+            }),
+            o.createElement(d.n, {
+              name: "/settings/dashboard/arcadeMode",
+              label: Object(l.c)("#Settings_ShowSettingsInDashboard"),
+              swapOnOff: !0,
+              visibility: d.d.Advanced,
+            }),
+            o.createElement(d.n, {
+              name: "/settings/dashboard/enableDashboard",
+              title: Object(l.c)("#Settings_EnableDashboardDesc"),
+              label: Object(l.c)("#Settings_EnableDashboard"),
+              visibility: d.d.Advanced,
+            })
+          );
         }
       };
       (ce.Name = "dashboard_settings"), (ce = Object(i.b)([r.a], ce));
@@ -3203,11 +3245,11 @@
         }
         onExitApp() {
           var e;
-          null === (e = a.ob) || void 0 === e || e.QuitSceneApp();
+          null === (e = a.pb) || void 0 === e || e.QuitSceneApp();
         }
         onRestartSteamVR() {
-          a.ob
-            ? a.ob.RestartSteamVR(!1)
+          a.pb
+            ? a.pb.RestartSteamVR(!1)
             : window.open("vrmonitor://restartsystem");
         }
         onRestartRequired() {
@@ -3292,10 +3334,10 @@
             if (null === e) return null;
             const t = "mainmountable" + "_TopCenter";
             return o.createElement(
-              a.nb,
+              a.ob,
               { parent_id: t, translation: { y: 0.2, z: -0.05 } },
               o.createElement(
-                a.ab,
+                a.bb,
                 {
                   debug_name: "settingsrestartbanner",
                   curvature_origin_id: f.i,
@@ -3385,7 +3427,7 @@
                     additionalClassNames: "Settings",
                     foregroundReflectMultiplier: 0.25,
                   },
-                  o.createElement(a.bb, { id: i, location: a.t.TopCenter }),
+                  o.createElement(a.cb, { id: i, location: a.t.TopCenter }),
                   t
                 )
             );
@@ -3500,14 +3542,17 @@
             return !1;
           if (
             !e.show_without_hmd &&
-            !(null === (t = a.ob) || void 0 === t ? void 0 : t.HasHMD())
+            !(null === (t = a.pb) || void 0 === t ? void 0 : t.HasHMD())
           )
             return !1;
           if (e.desktop_only && Object(a.i)() == a.I.Overlay) return !1;
-          if (e.advanced_only && !c.d.showAdvancedSettings) return !1;
+          let i =
+            e.controller == ce.Name &&
+            c.d.settings.get(de.k_sShowDashboardSettings);
+          if (e.advanced_only && !c.d.showAdvancedSettings && !i) return !1;
           if (
             e.controller == w.Name &&
-            !(null === (n = a.ob) || void 0 === n
+            !(null === (n = a.pb) || void 0 === n
               ? void 0
               : n.VRProperties.GetBoolProperty(
                   "/user/head",
@@ -3518,22 +3563,22 @@
           if (e.controller == m.Name) {
             if (!(c.d.systemInfo && c.d.systemInfo.os_type >= 0)) return !1;
           }
-          return !(!a.ob && e.web_helper_only);
+          return !(!a.pb && e.web_helper_only);
         }
         ListenForHomeEnabledChanges() {
           return Object(i.a)(this, void 0, void 0, function* () {
             if (Object(a.i)() != a.I.Overlay) return;
             let e = yield c.d.GetSettingsValue(f.v);
-            a.ob &&
+            a.pb &&
               Object(v.e)(() => {
                 let t = c.d.settings.get(f.v);
                 void 0 !== t &&
                   t != e &&
-                  (t && !a.ob.VRApplications.GetSceneApplicationKey()
-                    ? a.ob.VRApplications.LaunchApplication(f.y)
+                  (t && !a.pb.VRApplications.GetSceneApplicationKey()
+                    ? a.pb.VRApplications.LaunchApplication(f.y)
                     : t ||
-                      a.ob.VRApplications.GetSceneApplicationKey() != f.y ||
-                      a.ob.QuitSceneApp(),
+                      a.pb.VRApplications.GetSceneApplicationKey() != f.y ||
+                      a.pb.QuitSceneApp(),
                   (e = t));
               });
           });
@@ -3542,6 +3587,8 @@
       (ge.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
         (ge.k_sShowSystemSettings = "/settings/steamvr/showSystemSettings"),
         (ge.k_sShowInternetSettings = "/settings/steamvr/showInternetSettings"),
+        (ge.k_sShowDashboardSettings =
+          "/settings/steamvr/showDashboardSettings"),
         Object(i.b)([u.bind], ge.prototype, "renderSectionButton", null),
         Object(i.b)([u.bind], ge.prototype, "renderSectionPage", null),
         (ge = de = Object(i.b)([r.a], ge));
@@ -3767,10 +3814,10 @@
           return R;
         }),
         n.d(t, "t", function () {
-          return T;
+          return k;
         }),
         n.d(t, "u", function () {
-          return k;
+          return T;
         }),
         n.d(t, "a", function () {
           return I;
@@ -3841,8 +3888,8 @@
         M = "/settings/steamvr/supersampleScale",
         E = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
         R = "/settings/camera/roomViewStyle",
-        T = "/settings/steamvr/backgroundCameraHeight",
-        k = "/settings/steamvr/backgroundDomeRadius",
+        k = "/settings/steamvr/backgroundCameraHeight",
+        T = "/settings/steamvr/backgroundDomeRadius",
         I = "/settings/steamvr/analogGain",
         P = "/settings/driver_lighthouse/indexHmdColumnCorrection",
         D = "/settings/steamvr/showAdvancedSettings",
@@ -4887,7 +4934,7 @@
           return M;
         }),
         n.d(t, "a", function () {
-          return k;
+          return T;
         });
       var i,
         o,
@@ -4998,18 +5045,18 @@
             (this.m_eButtonSide = n),
             (this.m_sInputPath = i),
             (this.m_sActionSet = o),
-            (this.m_BindingStoreObserverDisposer = Object(d.n)(k, (e) => {
+            (this.m_BindingStoreObserverDisposer = Object(d.n)(T, (e) => {
               "m_LoadedBinding" == e.name && this.UpdateBindingSource();
             })),
             this.UpdateBindingSource(),
-            k.RegisterBindingWatcher(this.UpdateBindingSource.bind(this));
+            T.RegisterBindingWatcher(this.UpdateBindingSource.bind(this));
         }
         cancelWatcher() {
           this.m_BindingStoreObserverDisposer(),
-            k.UnregisterBindingWatcher(this.UpdateBindingSource);
+            T.UnregisterBindingWatcher(this.UpdateBindingSource);
         }
         UpdateBindingSource() {
-          this.m_BindingUISource = k.GetActionBinding(
+          this.m_BindingUISource = T.GetActionBinding(
             this.GetFullInputPath,
             this.m_sActionSet
           );
@@ -5041,12 +5088,12 @@
             this.m_BindingUISource[e].inputs.has(t)
           ) {
             let n = this.m_BindingUISource[e].inputs.get(t).output,
-              i = k.GetActionByName(n);
+              i = T.GetActionByName(n);
             if (!i) {
-              let e = k.GetSimulatedActionByPath(n);
-              e && (i = k.CreateActionDefinitionForSimulatedAction(e));
+              let e = T.GetSimulatedActionByPath(n);
+              e && (i = T.CreateActionDefinitionForSimulatedAction(e));
             }
-            let o = k.GetAliasInfo(n);
+            let o = T.GetAliasInfo(n);
             return (
               i &&
                 o &&
@@ -5174,10 +5221,10 @@
           !this.m_BindingUISource || t < 0 || t >= this.m_BindingUISource.length
             ? console.error("SetInputMode: Invalid mode index for new mode")
             : (this.ClearNewModeIfSet(t),
-              k.SetInputModeForInputSource(this.GetFullInputPath, t, e));
+              T.SetInputModeForInputSource(this.GetFullInputPath, t, e));
         }
         AddInputMode(e) {
-          this.m_iNewSourceEntry = k.AddInputModeForSource(
+          this.m_iNewSourceEntry = T.AddInputModeForSource(
             this.GetFullInputPath,
             e
           );
@@ -5185,7 +5232,7 @@
         DeleteInputMode(e) {
           !this.m_BindingUISource || e < 0 || e >= this.m_BindingUISource.length
             ? console.error("SetInputMode: Invalid mode index for new mode")
-            : k.DeleteInputModeForSource(this.GetFullInputPath, e);
+            : T.DeleteInputModeForSource(this.GetFullInputPath, e);
         }
         ClearNewModeIfSet(e) {
           -1 != this.m_iNewSourceEntry &&
@@ -5196,7 +5243,7 @@
           return -1 != this.m_iNewSourceEntry && this.m_iNewSourceEntry == e;
         }
         SetClickAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "click", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "click", t, [
             "button",
             "trackpad",
             "joystick",
@@ -5206,7 +5253,7 @@
           ]);
         }
         SetTouchAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "touch", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "touch", t, [
             "button",
             "trackpad",
             "joystick",
@@ -5216,101 +5263,101 @@
           ]);
         }
         SetHeldAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "held", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "held", t, [
             "button",
             "complex_button",
           ]);
         }
         SetLongAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "long", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "long", t, [
             "button",
             "complex_button",
           ]);
         }
         SetSingleAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "single", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "single", t, [
             "button",
             "complex_button",
           ]);
         }
         SetDoubleAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "double", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "double", t, [
             "button",
             "complex_button",
           ]);
         }
         SetPositionAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "position", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "position", t, [
             "trackpad",
             "joystick",
           ]);
         }
         SetNorthAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "north", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "north", t, [
             "dpad",
             "dpad_click",
             "dpad_touch",
           ]);
         }
         SetEastAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "east", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "east", t, [
             "dpad",
             "dpad_click",
             "dpad_touch",
           ]);
         }
         SetSouthAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "south", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "south", t, [
             "dpad",
             "dpad_click",
             "dpad_touch",
           ]);
         }
         SetWestAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "west", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "west", t, [
             "dpad",
             "dpad_click",
             "dpad_touch",
           ]);
         }
         SetCenterAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "center", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "center", t, [
             "dpad",
             "dpad_click",
             "dpad_touch",
           ]);
         }
         SetScrollAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "scroll", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "scroll", t, [
             "scroll",
           ]);
         }
         SetPullAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "pull", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "pull", t, [
             "trigger",
           ]);
         }
         SetForceAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "force", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "force", t, [
             "force_sensor",
           ]);
         }
         SetGrabAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "grab", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "grab", t, [
             "grab",
           ]);
         }
         SetValueAction(e, t) {
-          k.SetActionForInputModeType(this.GetFullInputPath, e, "value", t, [
+          T.SetActionForInputModeType(this.GetFullInputPath, e, "value", t, [
             "scalar_constant",
           ]);
         }
         CopyActions(e) {
-          k.ClearModesForInputPath(this.GetFullInputPath),
+          T.ClearModesForInputPath(this.GetFullInputPath),
             e.GetModes.map((e, t) => {
-              k.AddInputModeForSource(this.GetFullInputPath, e.mode),
+              T.AddInputModeForSource(this.GetFullInputPath, e.mode),
                 e.inputs.forEach((e, n) => {
-                  k.SetActionForInputModeType(
+                  T.SetActionForInputModeType(
                     this.GetFullInputPath,
                     t,
                     n,
@@ -5341,7 +5388,7 @@
           return !0;
         }
         SetClickParameter(e, t, n) {
-          k.SetParameterForInputModeType(
+          T.SetParameterForInputModeType(
             this.GetFullInputPath,
             e,
             "click",
@@ -5350,7 +5397,7 @@
           );
         }
         SetTouchParameter(e, t, n) {
-          k.SetParameterForInputModeType(
+          T.SetParameterForInputModeType(
             this.GetFullInputPath,
             e,
             "touch",
@@ -5359,10 +5406,10 @@
           );
         }
         SetParameter(e, t, n, i) {
-          k.SetParameterForInputModeType(this.GetFullInputPath, e, t, n, i);
+          T.SetParameterForInputModeType(this.GetFullInputPath, e, t, n, i);
         }
         GetClickParameter(e, t) {
-          return k.GetParameterForInputModeType(
+          return T.GetParameterForInputModeType(
             this.GetFullInputPath,
             e,
             "click",
@@ -5370,7 +5417,7 @@
           );
         }
         GetTouchParameter(e, t) {
-          return k.GetParameterForInputModeType(
+          return T.GetParameterForInputModeType(
             this.GetFullInputPath,
             e,
             "touch",
@@ -5378,11 +5425,11 @@
           );
         }
         GetParameter(e, t, n) {
-          return k.GetParameterForInputModeType(this.GetFullInputPath, e, t, n);
+          return T.GetParameterForInputModeType(this.GetFullInputPath, e, t, n);
         }
         GetTrackpadInvertState(e) {
           switch (
-            k.GetParameterForInputModeType(
+            T.GetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               "trackpad",
@@ -5411,7 +5458,7 @@
             case o.eTrackPadInvert_XY:
               n = "xy";
           }
-          k.SetParameterForInputModeType(
+          T.SetParameterForInputModeType(
             this.GetFullInputPath,
             e,
             "trackpad",
@@ -5518,7 +5565,7 @@
             (e[(e.eWebSocketState_Connected = 3)] =
               "eWebSocketState_Connected");
         })(s || (s = {}));
-      class T {
+      class k {
         constructor() {
           (this.m_wsWebSocketToServer = void 0),
             (this.m_eWebSocketState = s.eWebSocketState_Unknown),
@@ -5531,6 +5578,7 @@
             (this.m_ModifiedAliases = d.m.map()),
             (this.m_sName = void 0),
             (this.m_sDescription = void 0),
+            (this.m_sInteractionProfile = void 0),
             (this.m_SelectedApp = void 0),
             (this.m_SelectedAppActions = void 0),
             (this.m_sSelectedActionSet = void 0),
@@ -5590,8 +5638,8 @@
           var t, n;
           let i = this.CountDevicesWithControllerType(e.controller_type),
             o =
-              ((null === (t = p.ob) || void 0 === t ? void 0 : t.HasHMD())
-                ? null === (n = p.ob) || void 0 === n
+              ((null === (t = p.pb) || void 0 === t ? void 0 : t.HasHMD())
+                ? null === (n = p.pb) || void 0 === n
                   ? void 0
                   : n.VRProperties.GetStringProperty(
                       "/user/head",
@@ -5721,6 +5769,9 @@
             ? this.m_ModifiedOptions.get(e)
             : void 0;
         }
+        HasOptionValue(e) {
+          return this.m_ModifiedOptions.has(e);
+        }
         SetOptionValue(e, t) {
           this.m_ModifiedOptions.set(e, t), this.NotifyWatchersOfChange();
         }
@@ -5820,7 +5871,7 @@
         get CurrentBindingSaveType() {
           if (null != this.m_LoadedBinding)
             return "developer" == this.m_LoadedBinding.save_type &&
-              k.SelectedBindingIsLegacy
+              T.SelectedBindingIsLegacy
               ? "developer_legacy"
               : this.m_LoadedBinding.save_type;
         }
@@ -6068,11 +6119,17 @@
           return !1;
         }
         SetSelectedApp(e, t) {
-          if (null == this.m_SelectedApp || e != this.m_SelectedApp.key) {
+          if (
+            (console.log(`Setting selected app to app key: ${e}.`),
+            null == this.m_SelectedApp || e != this.m_SelectedApp.key)
+          ) {
             (this.m_rKnownFailedBindingUris = []),
               this.m_ControllerWatchers.clear();
             let n = m.a.GetApp(e);
-            n && ((this.m_SelectedApp = n), t || this.ReloadCurrentApp());
+            n &&
+              ((this.m_SelectedApp = n),
+              console.log(`Successfully set selected app to app key: ${e}.`),
+              t || this.ReloadCurrentApp());
           }
         }
         ReloadCurrentApp() {
@@ -7086,7 +7143,10 @@
           return this.m_sLoadedBindingURI;
         }
         get SelectedBindingIsLegacy() {
-          return !this.m_SelectedAppActions || this.m_SelectedAppActions.legacy;
+          return (
+            !this.m_SelectedAppActions ||
+            "legacy" == this.m_SelectedAppActions.category
+          );
         }
         get IsSecondaryController() {
           if (!this.m_sSelectedControllerType) return !1;
@@ -7191,7 +7251,7 @@
             : Promise.resolve(null);
         }
         GetDefaultBindingNameForSaveType(e) {
-          let t = k.SelectedControllerTypeInfo,
+          let t = T.SelectedControllerTypeInfo,
             n = g.a.LocalizeControllerString(t, t ? t.controller_type : "");
           switch (e) {
             default:
@@ -7213,7 +7273,7 @@
                 g.a.CurrentUserPersonaName
               );
             case "replace_default":
-              return k.ConfigName;
+              return T.ConfigName;
           }
         }
         AutosaveBinding() {
@@ -7224,7 +7284,7 @@
               this.m_sDescription,
               "autosave"
             ).then((e) => {
-              k.SetBindingURL(e.uri);
+              T.SetBindingURL(e.uri);
             });
         }
         SaveCurrentBinding(e, t, n) {
@@ -7239,18 +7299,19 @@
                 })
               );
             (this.m_sName = e), (this.m_sDescription = t);
-            let i = {
-              app_key: this.SelectedApp,
-              controller_type: this.SelectedControllerTypeInfo.controller_type,
-              save_type: n,
-            };
-            i.binding = {
+            let i = this.m_sInteractionProfile.trim(),
+              o = {
+                app_key: this.SelectedApp,
+                controller_type:
+                  this.SelectedControllerTypeInfo.controller_type,
+                save_type: n,
+              };
+            o.binding = {
               name: e,
               description: t,
               action_manifest_version: this.m_SelectedAppActions.version,
-              category: this.SelectedBindingIsLegacy
-                ? "legacy"
-                : "steamvr_input",
+              interaction_profile: i,
+              category: this.m_SelectedAppActions.category,
               controller_type: this.SelectedControllerTypeInfo.controller_type,
               bindings: this.m_ModifiedBindingSet,
               options: this.m_ModifiedOptions,
@@ -7260,16 +7321,16 @@
               ),
               app_key: this.SelectedApp,
             };
-            let o = JSON.stringify(i);
+            let s = JSON.stringify(o);
             return (
               console.log(
-                "Saving binding " + e + " for app " + this.SelectedApp
+                "Saving binding " + e + " for app '" + this.SelectedApp + "'."
               ),
               new Promise((e, t) => {
                 let i = new R(n, e, t);
                 this.m_OutstandingSaveBindingCalls.push(i),
                   c.a
-                    .post("/input/savebinding.action", o)
+                    .post("/input/savebinding.action", s)
                     .then((e) => {
                       e.data.error
                         ? (console.log(
@@ -7328,10 +7389,10 @@
         OnWorkshopUploadComplete(e) {
           if (
             (console.log("OnWorkshopUploadComplete: ", e),
-            e.app_key != this.SelectedApp)
+            e.app_key != T.SelectedApp)
           )
             return void console.log(
-              "Ignoring binding load for an app we aren't viewing"
+              `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${T.SelectedApp}.`
             );
           if (this.m_OutstandingSaveBindingCalls.length <= 0)
             return void console.log(
@@ -7341,10 +7402,11 @@
           e.success ? (t.resolve(e), this.LoadActionManifest()) : t.reject(e);
         }
         OnPendingFileSaved(e) {
-          console.log("OnPendingFileSaved: ", e),
-            e.app_key == this.SelectedApp ||
+          let t = e.success ? "Success" : e.error;
+          console.log(`OnPendingFileSaved: ${t}. ${e}`),
+            e.app_key == T.SelectedApp ||
               console.log(
-                "Ignoring pending file saved for an app we aren't viewing"
+                `Ignoring pending file saved for an app we aren't viewing. Pending: ${e.app_key}. Current: ${T.SelectedApp}.`
               );
         }
         get SaveNoticeText() {
@@ -7367,10 +7429,10 @@
               " selected action set:",
               this.m_sSelectedActionSet
             ),
-            e.app_key != this.SelectedApp)
+            e.app_key != T.SelectedApp)
           )
             return void console.log(
-              "Ignoring binding load for an app we aren't viewing"
+              `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${T.SelectedApp}.`
             );
           if (e.uri != this.m_sLoadedBindingURI)
             return void console.log(
@@ -7380,19 +7442,23 @@
             (this.m_LoadedBinding = e),
             (this.m_ModifiedBindingSet = d.m.map());
           let t = Object(u.c)("#unknown_application"),
-            n = m.a.GetApp(k.SelectedApp);
+            n = m.a.GetApp(T.SelectedApp);
           if (
             (n && (t = n.name),
             (this.m_sName = ""),
             (this.m_sDescription = ""),
+            (this.m_sInteractionProfile = " "),
             e.binding_config &&
               (e.binding_config.hasOwnProperty("name") &&
                 (this.m_sName = e.binding_config.name),
               e.binding_config.hasOwnProperty("description") &&
-                (this.m_sDescription = e.binding_config.description)),
+                (this.m_sDescription = e.binding_config.description),
+              e.binding_config.hasOwnProperty("interaction_profile") &&
+                (this.m_sInteractionProfile =
+                  e.binding_config.interaction_profile)),
             "" == this.m_sName)
           ) {
-            let e = k.SelectedControllerTypeInfo,
+            let e = T.SelectedControllerTypeInfo,
               n = g.a.LocalizeControllerString(e, e ? e.controller_type : "");
             this.m_sName = Object(u.c)("#BindingUI_SaveDefaultName", t, n);
           }
@@ -7575,7 +7641,7 @@
           });
         }
         OnActionManifestReloaded(e) {
-          e.app_key == this.SelectedApp && this.ReloadCurrentApp();
+          e.app_key == T.SelectedApp && this.ReloadCurrentApp();
         }
         SetBindingURL(e) {
           this.m_sLoadedBindingURI = e;
@@ -7656,219 +7722,230 @@
         get BindingSubscriptionChangedCanary() {
           return this.m_nBindingSubscriptionChangedCanary;
         }
+        GetInteractionProfile() {
+          return this.m_sInteractionProfile;
+        }
+        SetInteractionProfile(e) {
+          let t = this.m_sInteractionProfile != e;
+          (this.m_sInteractionProfile = e), t && this.NotifyWatchersOfChange();
+        }
+        GetInteractionProfiles() {
+          return this.m_SelectedAppActions.interaction_profiles;
+        }
       }
-      Object(r.b)([d.m], T.prototype, "m_eWebSocketState", void 0),
-        Object(r.b)([d.m], T.prototype, "m_sLoadedBindingURI", void 0),
-        Object(r.b)([d.m], T.prototype, "m_LoadedBinding", void 0),
-        Object(r.b)([d.m], T.prototype, "m_ModifiedBindingSet", void 0),
-        Object(r.b)([d.m], T.prototype, "m_ModifiedOptions", void 0),
-        Object(r.b)([d.m], T.prototype, "m_ModifiedAliases", void 0),
-        Object(r.b)([d.m], T.prototype, "m_sName", void 0),
-        Object(r.b)([d.m], T.prototype, "m_sDescription", void 0),
-        Object(r.b)([d.m], T.prototype, "m_SelectedApp", void 0),
-        Object(r.b)([d.m], T.prototype, "m_SelectedAppActions", void 0),
-        Object(r.b)([d.m], T.prototype, "m_sSelectedActionSet", void 0),
-        Object(r.b)([d.m], T.prototype, "m_sSelectedControllerType", void 0),
-        Object(r.b)([d.m], T.prototype, "m_TrackerBindingSetup", void 0),
+      Object(r.b)([d.m], k.prototype, "m_eWebSocketState", void 0),
+        Object(r.b)([d.m], k.prototype, "m_sLoadedBindingURI", void 0),
+        Object(r.b)([d.m], k.prototype, "m_LoadedBinding", void 0),
+        Object(r.b)([d.m], k.prototype, "m_ModifiedBindingSet", void 0),
+        Object(r.b)([d.m], k.prototype, "m_ModifiedOptions", void 0),
+        Object(r.b)([d.m], k.prototype, "m_ModifiedAliases", void 0),
+        Object(r.b)([d.m], k.prototype, "m_sName", void 0),
+        Object(r.b)([d.m], k.prototype, "m_sDescription", void 0),
+        Object(r.b)([d.m], k.prototype, "m_sInteractionProfile", void 0),
+        Object(r.b)([d.m], k.prototype, "m_SelectedApp", void 0),
+        Object(r.b)([d.m], k.prototype, "m_SelectedAppActions", void 0),
+        Object(r.b)([d.m], k.prototype, "m_sSelectedActionSet", void 0),
+        Object(r.b)([d.m], k.prototype, "m_sSelectedControllerType", void 0),
+        Object(r.b)([d.m], k.prototype, "m_TrackerBindingSetup", void 0),
         Object(r.b)(
           [d.m],
-          T.prototype,
+          k.prototype,
           "m_OutstandingSaveBindingCalls",
           void 0
         ),
-        Object(r.b)([d.m], T.prototype, "m_ModifiedSimulatedActions", void 0),
+        Object(r.b)([d.m], k.prototype, "m_ModifiedSimulatedActions", void 0),
         Object(r.b)(
           [d.m],
-          T.prototype,
+          k.prototype,
           "m_nBindingSubscriptionChangedCanary",
           void 0
         ),
-        Object(r.b)([a.bind], T.prototype, "OpenWebSocketToHost", null),
-        Object(r.b)([d.f], T.prototype, "SteamVRUnavailable", null),
-        Object(r.b)([d.f], T.prototype, "ActionSets", null),
-        Object(r.b)([d.f], T.prototype, "ManifestOptions", null),
-        Object(r.b)([d.f], T.prototype, "SecondaryControllerOptions", null),
-        Object(r.b)([d.d], T.prototype, "SetOptionValue", null),
-        Object(r.b)([d.d], T.prototype, "AddSimulatedAction", null),
-        Object(r.b)([d.d], T.prototype, "DeleteSimulatedActionByPath", null),
-        Object(r.b)([d.f], T.prototype, "SelectedApp", null),
-        Object(r.b)([d.f], T.prototype, "SelectedAppActions", null),
+        Object(r.b)([a.bind], k.prototype, "OpenWebSocketToHost", null),
+        Object(r.b)([d.f], k.prototype, "SteamVRUnavailable", null),
+        Object(r.b)([d.f], k.prototype, "ActionSets", null),
+        Object(r.b)([d.f], k.prototype, "ManifestOptions", null),
+        Object(r.b)([d.f], k.prototype, "SecondaryControllerOptions", null),
+        Object(r.b)([d.d], k.prototype, "SetOptionValue", null),
+        Object(r.b)([d.d], k.prototype, "AddSimulatedAction", null),
+        Object(r.b)([d.d], k.prototype, "DeleteSimulatedActionByPath", null),
+        Object(r.b)([d.f], k.prototype, "SelectedApp", null),
+        Object(r.b)([d.f], k.prototype, "SelectedAppActions", null),
         Object(r.b)(
           [d.f],
-          T.prototype,
+          k.prototype,
           "CurrentAppCanAccessPrivateInputs",
           null
         ),
-        Object(r.b)([d.f], T.prototype, "SelectedControllerTypeInfo", null),
-        Object(r.b)([d.f], T.prototype, "CurrentBindingSaveType", null),
+        Object(r.b)([d.f], k.prototype, "SelectedControllerTypeInfo", null),
+        Object(r.b)([d.f], k.prototype, "CurrentBindingSaveType", null),
         Object(r.b)(
           [d.f],
-          T.prototype,
+          k.prototype,
           "CurrentBindingActionManifestVersion",
           null
         ),
-        Object(r.b)([d.f], T.prototype, "SelectedActionSet", null),
-        Object(r.b)([d.f], T.prototype, "SelectedActionSetDetails", null),
-        Object(r.b)([d.f], T.prototype, "SelectedActionSetActions", null),
+        Object(r.b)([d.f], k.prototype, "SelectedActionSet", null),
+        Object(r.b)([d.f], k.prototype, "SelectedActionSetDetails", null),
+        Object(r.b)([d.f], k.prototype, "SelectedActionSetActions", null),
         Object(r.b)(
           [a.bind],
-          T.prototype,
+          k.prototype,
           "GetSelectedAppDefaultBinding",
           null
         ),
-        Object(r.b)([a.bind], T.prototype, "GetActionByName", null),
-        Object(r.b)([d.f], T.prototype, "SelectedActionSetPoses", null),
-        Object(r.b)([d.f], T.prototype, "SelectedActionSetHaptics", null),
-        Object(r.b)([d.f], T.prototype, "SelectedActionSetSkeletons", null),
-        Object(r.b)([d.f], T.prototype, "SelectedActionSetChords", null),
-        Object(r.b)([d.f], T.prototype, "SelectedActionSetChordCount", null),
-        Object(r.b)([d.f], T.prototype, "SelectedActionSetSources", null),
-        Object(r.b)([d.f], T.prototype, "BSelectedActionSetHasPoses", null),
+        Object(r.b)([a.bind], k.prototype, "GetActionByName", null),
+        Object(r.b)([d.f], k.prototype, "SelectedActionSetPoses", null),
+        Object(r.b)([d.f], k.prototype, "SelectedActionSetHaptics", null),
+        Object(r.b)([d.f], k.prototype, "SelectedActionSetSkeletons", null),
+        Object(r.b)([d.f], k.prototype, "SelectedActionSetChords", null),
+        Object(r.b)([d.f], k.prototype, "SelectedActionSetChordCount", null),
+        Object(r.b)([d.f], k.prototype, "SelectedActionSetSources", null),
+        Object(r.b)([d.f], k.prototype, "BSelectedActionSetHasPoses", null),
         Object(r.b)(
           [d.f],
-          T.prototype,
+          k.prototype,
           "BSelectedActionSetHasBoundPoses",
           null
         ),
-        Object(r.b)([d.f], T.prototype, "BSelectedActionSetHasHaptics", null),
+        Object(r.b)([d.f], k.prototype, "BSelectedActionSetHasHaptics", null),
         Object(r.b)(
           [d.f],
-          T.prototype,
+          k.prototype,
           "BSelectedActionSetHasBoundHaptics",
           null
         ),
-        Object(r.b)([d.f], T.prototype, "BSelectedActionSetHasSkeletons", null),
+        Object(r.b)([d.f], k.prototype, "BSelectedActionSetHasSkeletons", null),
         Object(r.b)(
           [d.f],
-          T.prototype,
+          k.prototype,
           "BSelectedActionSetHasBoundSkeletons",
           null
         ),
-        Object(r.b)([d.d], T.prototype, "SetSelectedApp", null),
-        Object(r.b)([d.d], T.prototype, "SetSelectedController", null),
-        Object(r.b)([d.d], T.prototype, "SetSelectedActionSet", null),
+        Object(r.b)([d.d], k.prototype, "SetSelectedApp", null),
+        Object(r.b)([d.d], k.prototype, "SetSelectedController", null),
+        Object(r.b)([d.d], k.prototype, "SetSelectedActionSet", null),
         Object(r.b)(
           [a.bind],
-          T.prototype,
+          k.prototype,
           "LocalizeStringForSelectedControllerType",
           null
         ),
         Object(r.b)(
           [a.bind],
-          T.prototype,
+          k.prototype,
           "LocalizePathNameForSelectedControllerType",
           null
         ),
         Object(r.b)(
           [d.f],
-          T.prototype,
+          k.prototype,
           "SelectedControllerTypeLocalizedName",
           null
         ),
-        Object(r.b)([d.d], T.prototype, "RegisterBindingWatcher", null),
-        Object(r.b)([d.d], T.prototype, "UnregisterBindingWatcher", null),
-        Object(r.b)([d.d], T.prototype, "GetActionBinding", null),
-        Object(r.b)([a.bind], T.prototype, "GetInputModesForSourceType", null),
+        Object(r.b)([d.d], k.prototype, "RegisterBindingWatcher", null),
+        Object(r.b)([d.d], k.prototype, "UnregisterBindingWatcher", null),
+        Object(r.b)([d.d], k.prototype, "GetActionBinding", null),
+        Object(r.b)([a.bind], k.prototype, "GetInputModesForSourceType", null),
         Object(r.b)(
           [a.bind],
-          T.prototype,
+          k.prototype,
           "GetBooleanInputOptionsForMode",
           null
         ),
-        Object(r.b)([a.bind], T.prototype, "GetActionBindingsOfType", null),
-        Object(r.b)([d.f], T.prototype, "GetBooleanActionBindings", null),
-        Object(r.b)([d.f], T.prototype, "GetVector1ActionBindings", null),
+        Object(r.b)([a.bind], k.prototype, "GetActionBindingsOfType", null),
+        Object(r.b)([d.f], k.prototype, "GetBooleanActionBindings", null),
+        Object(r.b)([d.f], k.prototype, "GetVector1ActionBindings", null),
         Object(r.b)(
           [d.f],
-          T.prototype,
+          k.prototype,
           "GetLiteralVector1ActionBindings",
           null
         ),
-        Object(r.b)([d.f], T.prototype, "GetVector2ActionBindings", null),
-        Object(r.b)([d.f], T.prototype, "GetVector3ActionBindings", null),
-        Object(r.b)([d.f], T.prototype, "GetPoseActionBindings", null),
-        Object(r.b)([d.f], T.prototype, "GetHapticsActionBindings", null),
-        Object(r.b)([d.f], T.prototype, "GetSkeletonActionBindings", null),
-        Object(r.b)([d.f], T.prototype, "ConfigName", null),
-        Object(r.b)([d.f], T.prototype, "ConfigDescription", null),
-        Object(r.b)([a.bind], T.prototype, "GetPoseAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetPoseActionByPath", null),
-        Object(r.b)([a.bind], T.prototype, "GetHapticsAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetHapticsActionByPath", null),
-        Object(r.b)([a.bind], T.prototype, "GetSkeletonAction", null),
-        Object(r.b)([a.bind], T.prototype, "GetSkeletonActionByPath", null),
-        Object(r.b)([a.bind], T.prototype, "NotifyWatchersOfChange", null),
-        Object(r.b)([d.d], T.prototype, "SetActionForInputModeType", null),
-        Object(r.b)([d.d], T.prototype, "SetParameterForInputModeType", null),
-        Object(r.b)([a.bind], T.prototype, "AddActionSetIfRequired", null),
-        Object(r.b)([d.d], T.prototype, "AddInputModeForSource", null),
-        Object(r.b)([d.d], T.prototype, "DeleteInputModeForSource", null),
-        Object(r.b)([d.d], T.prototype, "SetInputModeForInputSource", null),
-        Object(r.b)([d.d], T.prototype, "ClearModesForInputPath", null),
-        Object(r.b)([d.d], T.prototype, "SetInputPathForPose", null),
-        Object(r.b)([d.d], T.prototype, "SetPoseForInputPath", null),
-        Object(r.b)([d.d], T.prototype, "AddDefaultPose", null),
-        Object(r.b)([d.d], T.prototype, "SetInputPathForHaptics", null),
-        Object(r.b)([d.d], T.prototype, "SetHapticsForInputPath", null),
-        Object(r.b)([d.d], T.prototype, "AddDefaultHaptics", null),
-        Object(r.b)([d.d], T.prototype, "SetInputPathForSkeleton", null),
-        Object(r.b)([d.d], T.prototype, "SetSkeletonForInputPath", null),
-        Object(r.b)([d.d], T.prototype, "AddDefaultSkeleton", null),
-        Object(r.b)([d.d], T.prototype, "SetActionForChord", null),
-        Object(r.b)([d.d], T.prototype, "DeleteChord", null),
-        Object(r.b)([d.d], T.prototype, "AddChord", null),
-        Object(r.b)([d.d], T.prototype, "DeleteSourceFromChord", null),
-        Object(r.b)([d.d], T.prototype, "SetInputTypeForChord", null),
-        Object(r.b)([d.d], T.prototype, "SetInputSourceForChord", null),
-        Object(r.b)([d.d], T.prototype, "LoadActionManifest", null),
-        Object(r.b)([d.f], T.prototype, "SelectedBindingURL", null),
-        Object(r.b)([d.f], T.prototype, "LoadedBindingURL", null),
-        Object(r.b)([d.f], T.prototype, "SelectedBindingIsLegacy", null),
-        Object(r.b)([d.f], T.prototype, "IsSecondaryController", null),
-        Object(r.b)([d.f], T.prototype, "TrackerBindings", null),
-        Object(r.b)([d.d], T.prototype, "GetTrackerBindings", null),
-        Object(r.b)([a.bind], T.prototype, "SetTrackerBinding", null),
-        Object(r.b)([a.bind], T.prototype, "PulseHaptics", null),
-        Object(r.b)([d.f], T.prototype, "KnownControllerTypes", null),
-        Object(r.b)([a.bind], T.prototype, "AutosaveBinding", null),
-        Object(r.b)([a.bind], T.prototype, "OnWebSocketOpen", null),
-        Object(r.b)([a.bind], T.prototype, "OnWebSocketClose", null),
-        Object(r.b)([a.bind], T.prototype, "WebSocketSend", null),
-        Object(r.b)([a.bind], T.prototype, "OnWorkshopUploadComplete", null),
-        Object(r.b)([a.bind], T.prototype, "OnPendingFileSaved", null),
-        Object(r.b)([d.f], T.prototype, "SaveNoticeText", null),
-        Object(r.b)([a.bind], T.prototype, "QueryBindingList", null),
-        Object(r.b)([a.bind], T.prototype, "DeleteBinding", null),
-        Object(r.b)([a.bind], T.prototype, "OnBindingDeleteComplete", null),
+        Object(r.b)([d.f], k.prototype, "GetVector2ActionBindings", null),
+        Object(r.b)([d.f], k.prototype, "GetVector3ActionBindings", null),
+        Object(r.b)([d.f], k.prototype, "GetPoseActionBindings", null),
+        Object(r.b)([d.f], k.prototype, "GetHapticsActionBindings", null),
+        Object(r.b)([d.f], k.prototype, "GetSkeletonActionBindings", null),
+        Object(r.b)([d.f], k.prototype, "ConfigName", null),
+        Object(r.b)([d.f], k.prototype, "ConfigDescription", null),
+        Object(r.b)([a.bind], k.prototype, "GetPoseAction", null),
+        Object(r.b)([a.bind], k.prototype, "GetPoseActionByPath", null),
+        Object(r.b)([a.bind], k.prototype, "GetHapticsAction", null),
+        Object(r.b)([a.bind], k.prototype, "GetHapticsActionByPath", null),
+        Object(r.b)([a.bind], k.prototype, "GetSkeletonAction", null),
+        Object(r.b)([a.bind], k.prototype, "GetSkeletonActionByPath", null),
+        Object(r.b)([a.bind], k.prototype, "NotifyWatchersOfChange", null),
+        Object(r.b)([d.d], k.prototype, "SetActionForInputModeType", null),
+        Object(r.b)([d.d], k.prototype, "SetParameterForInputModeType", null),
+        Object(r.b)([a.bind], k.prototype, "AddActionSetIfRequired", null),
+        Object(r.b)([d.d], k.prototype, "AddInputModeForSource", null),
+        Object(r.b)([d.d], k.prototype, "DeleteInputModeForSource", null),
+        Object(r.b)([d.d], k.prototype, "SetInputModeForInputSource", null),
+        Object(r.b)([d.d], k.prototype, "ClearModesForInputPath", null),
+        Object(r.b)([d.d], k.prototype, "SetInputPathForPose", null),
+        Object(r.b)([d.d], k.prototype, "SetPoseForInputPath", null),
+        Object(r.b)([d.d], k.prototype, "AddDefaultPose", null),
+        Object(r.b)([d.d], k.prototype, "SetInputPathForHaptics", null),
+        Object(r.b)([d.d], k.prototype, "SetHapticsForInputPath", null),
+        Object(r.b)([d.d], k.prototype, "AddDefaultHaptics", null),
+        Object(r.b)([d.d], k.prototype, "SetInputPathForSkeleton", null),
+        Object(r.b)([d.d], k.prototype, "SetSkeletonForInputPath", null),
+        Object(r.b)([d.d], k.prototype, "AddDefaultSkeleton", null),
+        Object(r.b)([d.d], k.prototype, "SetActionForChord", null),
+        Object(r.b)([d.d], k.prototype, "DeleteChord", null),
+        Object(r.b)([d.d], k.prototype, "AddChord", null),
+        Object(r.b)([d.d], k.prototype, "DeleteSourceFromChord", null),
+        Object(r.b)([d.d], k.prototype, "SetInputTypeForChord", null),
+        Object(r.b)([d.d], k.prototype, "SetInputSourceForChord", null),
+        Object(r.b)([d.d], k.prototype, "LoadActionManifest", null),
+        Object(r.b)([d.f], k.prototype, "SelectedBindingURL", null),
+        Object(r.b)([d.f], k.prototype, "LoadedBindingURL", null),
+        Object(r.b)([d.f], k.prototype, "SelectedBindingIsLegacy", null),
+        Object(r.b)([d.f], k.prototype, "IsSecondaryController", null),
+        Object(r.b)([d.f], k.prototype, "TrackerBindings", null),
+        Object(r.b)([d.d], k.prototype, "GetTrackerBindings", null),
+        Object(r.b)([a.bind], k.prototype, "SetTrackerBinding", null),
+        Object(r.b)([a.bind], k.prototype, "PulseHaptics", null),
+        Object(r.b)([d.f], k.prototype, "KnownControllerTypes", null),
+        Object(r.b)([a.bind], k.prototype, "AutosaveBinding", null),
+        Object(r.b)([a.bind], k.prototype, "OnWebSocketOpen", null),
+        Object(r.b)([a.bind], k.prototype, "OnWebSocketClose", null),
+        Object(r.b)([a.bind], k.prototype, "WebSocketSend", null),
+        Object(r.b)([a.bind], k.prototype, "OnWorkshopUploadComplete", null),
+        Object(r.b)([a.bind], k.prototype, "OnPendingFileSaved", null),
+        Object(r.b)([d.f], k.prototype, "SaveNoticeText", null),
+        Object(r.b)([a.bind], k.prototype, "QueryBindingList", null),
+        Object(r.b)([a.bind], k.prototype, "DeleteBinding", null),
+        Object(r.b)([a.bind], k.prototype, "OnBindingDeleteComplete", null),
         Object(r.b)(
           [a.bind],
-          T.prototype,
+          k.prototype,
           "ShouldShowBindingFailureForControllerType",
           null
         ),
-        Object(r.b)([a.bind], T.prototype, "OnQueryResults", null),
-        Object(r.b)([a.bind], T.prototype, "SelectConfig", null),
-        Object(r.b)([a.bind], T.prototype, "OnSelectConfigComplete", null),
-        Object(r.b)([a.bind], T.prototype, "OnTrackersBindingChanged", null),
-        Object(r.b)([a.bind], T.prototype, "OnActionManifestReloaded", null),
-        Object(r.b)([a.bind], T.prototype, "SetBindingURL", null),
-        Object(r.b)([a.bind], T.prototype, "OnActionBindingsReloaded", null),
+        Object(r.b)([a.bind], k.prototype, "OnQueryResults", null),
+        Object(r.b)([a.bind], k.prototype, "SelectConfig", null),
+        Object(r.b)([a.bind], k.prototype, "OnSelectConfigComplete", null),
+        Object(r.b)([a.bind], k.prototype, "OnTrackersBindingChanged", null),
+        Object(r.b)([a.bind], k.prototype, "OnActionManifestReloaded", null),
+        Object(r.b)([a.bind], k.prototype, "SetBindingURL", null),
+        Object(r.b)([a.bind], k.prototype, "OnActionBindingsReloaded", null),
         Object(r.b)(
           [a.bind],
-          T.prototype,
+          k.prototype,
           "GetControllerWatcherForSourceFromControllerType",
           null
         ),
-        Object(r.b)([a.bind], T.prototype, "OnWebSocketMessage", null),
-        Object(r.b)([d.f], T.prototype, "BindingConfig", null),
+        Object(r.b)([a.bind], k.prototype, "OnWebSocketMessage", null),
+        Object(r.b)([d.f], k.prototype, "BindingConfig", null),
         Object(r.b)(
           [d.f],
-          T.prototype,
+          k.prototype,
           "BindingSubscriptionChangedCanary",
           null
         );
-      const k = new T();
-      window.controllerBindingStore = k;
+      const T = new k();
+      window.controllerBindingStore = T;
     },
     P8UO: function (e, t, n) {
       "use strict";
@@ -8623,7 +8700,7 @@
           return R;
         }),
         n.d(t, "m", function () {
-          return T;
+          return k;
         }),
         n.d(t, "p", function () {
           return I;
@@ -8754,7 +8831,7 @@
             case "scale":
               return r.createElement("div", { key: e.name });
             case "slider":
-              return r.createElement(T, {
+              return r.createElement(k, {
                 key: e.name,
                 name: e.name,
                 label: e.label ? Object(l.c)(e.label) : "",
@@ -9196,7 +9273,7 @@
       Object(s.b)([c.f], R.prototype, "value", null),
         Object(s.b)([a.bind], R.prototype, "onChange", null),
         (R = Object(s.b)([d.a], R));
-      let T = class extends r.Component {
+      let k = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -9278,7 +9355,7 @@
           );
         }
       };
-      function k(e) {
+      function T(e) {
         return (
           "#" +
           ("0" + Math.floor(e.r).toString(16)).slice(-2) +
@@ -9287,11 +9364,11 @@
           ("0" + Math.floor(255 * e.a).toString(16)).slice(-2)
         ).toUpperCase();
       }
-      Object(s.b)([a.bind], T.prototype, "onInteractionStart", null),
-        Object(s.b)([a.bind], T.prototype, "onInteractionEnd", null),
-        Object(s.b)([c.f], T.prototype, "value", null),
-        Object(s.b)([a.bind], T.prototype, "onChange", null),
-        (T = Object(s.b)([d.a], T));
+      Object(s.b)([a.bind], k.prototype, "onInteractionStart", null),
+        Object(s.b)([a.bind], k.prototype, "onInteractionEnd", null),
+        Object(s.b)([c.f], k.prototype, "value", null),
+        Object(s.b)([a.bind], k.prototype, "onChange", null),
+        (k = Object(s.b)([d.a], k));
       let I = (i = class extends r.Component {
         static HueToRGB(e, t, n) {
           return 6 * (n = (n + 1) % 1) < 1
@@ -9367,7 +9444,7 @@
           const o = i.RGBtoHueLuminance(e, t, n),
             s = 360 / (1 - i.WHITE_SIZE_PERCENT),
             a = 255 == e && 255 == t && 255 == n ? s : o.hue;
-          return r.createElement(T, {
+          return r.createElement(k, {
             additionalClassName: "Hue",
             label: this.props.label,
             labelSpans: !0,
@@ -9398,7 +9475,7 @@
           const e = this.props.color
             ? this.props.color
             : { r: 255, g: 255, b: 255 };
-          return r.createElement(T, {
+          return r.createElement(k, {
             additionalClassName: "Alpha",
             label: this.props.label,
             title: this.props.text,
@@ -9463,7 +9540,7 @@
           onAlphaChange(e) {
             const t = this.value,
               n = { r: t.r, g: t.g, b: t.b, a: e };
-            this.props.name && u.d.SetSettingsValue(this.props.name, k(n)),
+            this.props.name && u.d.SetSettingsValue(this.props.name, T(n)),
               this.props.nameA &&
                 u.d.SetSettingsValue(this.props.nameA, e * this.alphaScale),
               this.props.onChange && this.props.onChange(n);
@@ -9476,7 +9553,7 @@
           }
           onColorChange(e) {
             const t = { r: e.r, g: e.g, b: e.b, a: this.value.a };
-            this.props.name && u.d.SetSettingsValue(this.props.name, k(t)),
+            this.props.name && u.d.SetSettingsValue(this.props.name, T(t)),
               this.props.nameR && u.d.SetSettingsValue(this.props.nameR, t.r),
               this.props.nameG && u.d.SetSettingsValue(this.props.nameG, t.g),
               this.props.nameB && u.d.SetSettingsValue(this.props.nameB, t.b),
@@ -9719,7 +9796,7 @@
             }));
           const s = t.allowableParentSelectors || [];
           return (
-            p.gb.IsSceneGraphApp ||
+            p.hb.IsSceneGraphApp ||
               (t.allowableParentSelectors = [
                 ...s,
                 ".SettingsSidebarPageModalContainer",
@@ -9890,14 +9967,14 @@
         }
         render() {
           return i.createElement(
-            r.bb,
+            r.cb,
             { ref: this.m_refPanelAnchor, latched: this.props.latched },
-            i.createElement(r.nb, { id: this.m_sPanelAnchorID }),
+            i.createElement(r.ob, { id: this.m_sPanelAnchorID }),
             i.createElement(
               a,
               Object.assign({}, this.props),
               i.createElement(
-                r.nb,
+                r.ob,
                 { parent_id: this.m_sPanelAnchorID },
                 this.props.children
               )
@@ -11371,7 +11448,7 @@
             window.document.addEventListener("mouseup", this.onWindowMouseUp);
         }
         updateMouseTracking(e) {
-          const t = Object(l.jb)(this.m_initialMousePosition, e);
+          const t = Object(l.kb)(this.m_initialMousePosition, e);
           switch (this.state.eScrollState) {
             case o.MouseDown:
               if (this.props.scrollDirection == i.None) break;
@@ -11472,7 +11549,7 @@
           const n = Object(l.O)(e);
           return (
             n > m.MAX_PIXELS_PER_SECOND &&
-              (e = Object(l.W)(e, m.MAX_PIXELS_PER_SECOND / n)),
+              (e = Object(l.X)(e, m.MAX_PIXELS_PER_SECOND / n)),
             n < m.MIN_THROW_VELOCITY_PER_SECOND && (e = null),
             null != e ? e : { x: 0, y: 0 }
           );
@@ -11716,7 +11793,7 @@
         }
         ShowOverlayInDashboard() {
           var e;
-          null === (e = l.ob) ||
+          null === (e = l.pb) ||
             void 0 === e ||
             e.VROverlay.ShowDashboard("system.vrwebhelper.controllerbinding");
         }
@@ -11733,7 +11810,7 @@
               if (
                 (Object(l.i)() == l.I.Overlay
                   ? this.ShowOverlayInDashboard()
-                  : Object(l.i)() == l.I.Desktop && l.ob.ShowBindingUI(!0),
+                  : Object(l.i)() == l.I.Desktop && l.pb.ShowBindingUI(!0),
                 !u.a.GetApp(e.app_key))
               )
                 return (
@@ -11791,7 +11868,7 @@
                   o
                 )
               ),
-                null === (t = l.ob) || void 0 === t || t.ShowBindingUI(!1);
+                null === (t = l.pb) || void 0 === t || t.ShowBindingUI(!1);
             });
         }
         OnActionManifestLoadFailed(e) {
@@ -11917,7 +11994,7 @@
         ReturnToSettingsUI() {
           var e;
           this.ShowAppSelect(),
-            null === (e = l.ob) || void 0 === e || e.ShowSettingsUI();
+            null === (e = l.pb) || void 0 === e || e.ShowSettingsUI();
         }
         ShowAppSelect() {
           (this.m_bStandaloneSettingsPage = !1),
@@ -11960,7 +12037,7 @@
                     this.UpdatePathsTimeout,
                     500
                   )),
-                  l.ob.ShowBindingUI(Object(l.i)() == l.I.Desktop);
+                  l.pb.ShowBindingUI(Object(l.i)() == l.I.Desktop);
               })
               .catch(() => {
                 this.Loading = !1;
@@ -11992,7 +12069,7 @@
             (this.m_sManifestErrorPath = i),
             (this.m_bShowManifestError = !0),
             this.ShowAppSelect(),
-            null === (o = l.ob) || void 0 === o || o.ShowBindingUI(!1);
+            null === (o = l.pb) || void 0 === o || o.ShowBindingUI(!1);
         }
         ManifestLoadErrorClose() {
           (this.m_sManifestError = void 0),
@@ -12954,7 +13031,7 @@
                   }),
                 o.createElement("div", { className: "Spacer" }),
                 this.state.currentBinding &&
-                  o.createElement(T, {
+                  o.createElement(k, {
                     appKey: this.state.currentBindingApp.key,
                   }),
                 l &&
@@ -12985,7 +13062,7 @@
         Object(i.b)([s.bind], R.prototype, "showBindingCallouts", null),
         Object(i.b)([s.bind], R.prototype, "onToggleDominantHand", null),
         (R = _ = Object(i.b)([r.a], R));
-      const T = (e) =>
+      const k = (e) =>
         o.createElement(
           c.c,
           { className: "SettingsItem" },
@@ -13015,14 +13092,14 @@
             )
           )
         );
-      let k = class extends o.Component {
+      let T = class extends o.Component {
         constructor(e) {
           super(e),
             (this.m_mailbox = new u.c()),
             (this.state = { bShowingModal: !1, dongles: [], isPairing: !1 }),
             (this.m_mailbox = new u.c()),
             this.m_mailbox
-              .Init("deckard_devtools")
+              .Init("PairControllersModal")
               .then(() => {
                 this.m_mailbox.RegisterHandler(
                   "discover_dongles_response",
@@ -13030,7 +13107,7 @@
                 );
               })
               .catch((e) => {
-                console.log("Failed to open deckard_devtools mailbox " + e);
+                console.log("Failed to open PairControllersModal mailbox " + e);
               });
         }
         OnDiscoverDonglesResponse(e) {
@@ -13123,12 +13200,12 @@
           );
         }
       };
-      Object(i.b)([s.bind], k.prototype, "OnDiscoverDonglesResponse", null),
-        Object(i.b)([s.bind], k.prototype, "DiscoverDongles", null),
-        Object(i.b)([s.bind], k.prototype, "StartPairing", null),
-        Object(i.b)([s.bind], k.prototype, "show", null),
-        Object(i.b)([s.bind], k.prototype, "hide", null),
-        (k = Object(i.b)([r.a], k));
+      Object(i.b)([s.bind], T.prototype, "OnDiscoverDonglesResponse", null),
+        Object(i.b)([s.bind], T.prototype, "DiscoverDongles", null),
+        Object(i.b)([s.bind], T.prototype, "StartPairing", null),
+        Object(i.b)([s.bind], T.prototype, "show", null),
+        Object(i.b)([s.bind], T.prototype, "hide", null),
+        (T = Object(i.b)([r.a], T));
       let I = class extends c.b {
         constructor(e) {
           super(e),
@@ -13157,7 +13234,7 @@
           return o.createElement(
             o.Fragment,
             null,
-            o.createElement(T, null),
+            o.createElement(k, null),
             o.createElement(R, null),
             o.createElement(j, null),
             o.createElement(E, { ref: this.m_refControllerSettingsSection }),
@@ -13165,7 +13242,7 @@
             o.createElement(A, null),
             o.createElement(C, null),
             o.createElement(M, { mailbox: this.m_mailbox }),
-            n && o.createElement(k, null),
+            n && o.createElement(T, null),
             i &&
               o.createElement(
                 d.a,
@@ -13661,7 +13738,7 @@
           return R;
         }),
         n.d(t, "c", function () {
-          return T;
+          return k;
         });
       var i,
         o = n("mrSG"),
@@ -14931,7 +15008,7 @@
         Object(o.b)([r.f], R.prototype, "allowPerAppRefreshRate", null),
         Object(o.b)([r.f], R.prototype, "currentRefreshRate", null),
         (R = i = Object(o.b)([h.a], R));
-      class T extends d.b {
+      class k extends d.b {
         render() {
           if (!this.props.active) return null;
           const e = VRHTML.VRProperties.GetBoolProperty(
@@ -15009,8 +15086,8 @@
           );
         }
       }
-      T.Name = "video_settings";
+      k.Name = "video_settings";
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=016532c5488351cefab2
+//# sourceMappingURL=vrwebui_shared.js.map?v=4388c4558a5c1ec770be

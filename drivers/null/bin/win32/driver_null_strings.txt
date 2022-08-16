@@ -7,7 +7,6 @@
 +Xt@(
 +o'q)}
 ,W5y+
--kg2S
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -68,9 +67,7 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
-/y>^!
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0
-0"n!2^
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
 0'0,01080
 090o0
@@ -81,12 +78,13 @@
 101X1x1
 130801120000Z
 1T2l2
+1\T9 }yG
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220801000000Z
-220808194738Z0/
+220815220723Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -118,6 +116,7 @@
 6I]Dc
 6K7T7\7
 6OB,n_
+6jQ,j[
 6k6p6
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
@@ -153,6 +152,7 @@
 @.data
 @.reloc
 AjEB#AZ
+B(h["/
 Bellevue1
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -187,7 +187,9 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KO/`Lw
 K}*n:	
+L.\6]%
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
@@ -198,11 +200,9 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSb
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
-T\m:0
 TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
@@ -214,11 +214,10 @@ Valve Corp.1
 Washington1
 Y9"SD
 Y__^[
+Z'] t>
 [K]taM?
 ]J<0"0i3
-^'xWs
 _CxxThrowException
-_Hg1'0a
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
@@ -232,6 +231,7 @@ _callnewh
 _cexit
 _configure_narrow_argv
 _crt_atexit
+_dy(h
 _except1
 _except_handler4_common
 _execute_onexit_table
@@ -251,10 +251,10 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b]te 
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
-d4w;gx8/
 displayFrequency
 driver_null
 driver_null.dll

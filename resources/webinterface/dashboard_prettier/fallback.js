@@ -508,6 +508,14 @@
                 (o.properties["offscreen-z-depth"] = M(t, "offscreen-z-depth")),
                 (o.properties["off-axis-limit"] = M(t, "off-axis-limit")),
                 (o.properties["transition-limit"] = M(t, "transition-limit"));
+              break;
+            case "VSG-MANIPULATION-TRANSFORM":
+              (o = N("manipulation-transform", t)),
+                (o.properties["is-moving"] = w(t, "is-moving")),
+                (o.properties["parent-path"] = O(t, "parent-path")),
+                (o.properties.translation = x(t, "translation")),
+                (o.properties.rotation = x(t, "rotation")),
+                (o.properties.scale = x(t, "scale"));
           }
           return [n, o];
         })(e, t),
@@ -563,7 +571,12 @@
       k = !0;
     }
     function q(e) {
-      e != H && ((H = e), K());
+      var t, r;
+      (r = e),
+        (null == (t = H) || null == r
+          ? t == r
+          : t.color_mult == r.color_mult &&
+            t.reflection_mult == r.reflection_mult) || ((H = e), K());
     }
     function K() {
       U ||
@@ -576,7 +589,7 @@
                 type: "root",
                 rootproperties: {
                   relatchDashboardTransform: k,
-                  sceneCompositeMult: H,
+                  sceneColorCorrection: H,
                 },
                 children: T({ currentPanel: null, bShouldAbort: !1 }, e),
               };
@@ -623,13 +636,16 @@
         ? void 0
         : t.join(" ");
     }
-    class $ extends I.Component {
+    function $(e) {
+      if (e) return e.w + " " + e.x + " " + e.y + " " + e.z;
+    }
+    class ee extends I.Component {
       constructor(e) {
         super(e),
           (this.m_domRef = I.createRef()),
           (this.m_buildNodeOverride = null),
-          (this.m_SGID = $.s_NextSGID),
-          ($.s_NextSGID = ($.s_NextSGID + 1) % 4294967296);
+          (this.m_SGID = ee.s_NextSGID),
+          (ee.s_NextSGID = (ee.s_NextSGID + 1) % 4294967296);
       }
       setBuildNodeOverride(e) {
         this.m_buildNodeOverride = e;
@@ -677,8 +693,8 @@
           : null;
       }
     }
-    $.s_NextSGID = 1;
-    class ee extends $ {
+    ee.s_NextSGID = 1;
+    class te extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -689,8 +705,8 @@
         return [e, this.createSgNode(t)];
       }
     }
-    Object(n.b)([i.a], ee.prototype, "buildNode", null);
-    class te extends $ {
+    Object(n.b)([i.a], te.prototype, "buildNode", null);
+    class re extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -707,8 +723,8 @@
         );
       }
     }
-    Object(n.b)([i.a], te.prototype, "buildNode", null);
-    class re extends $ {
+    Object(n.b)([i.a], re.prototype, "buildNode", null);
+    class ne extends ee {
       constructor(e) {
         var t;
         if (
@@ -744,15 +760,15 @@
           "vsg-node",
           { id: this.props.id },
           I.createElement(
-            ee,
+            te,
             { id: this.m_sMountableUnqualifiedID },
             this.props.children
           )
         );
       }
     }
-    Object(n.b)([i.a], re.prototype, "buildNode", null);
-    class ne extends $ {
+    Object(n.b)([i.a], ne.prototype, "buildNode", null);
+    class oe extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -772,8 +788,8 @@
         return [e, r];
       }
     }
-    Object(n.b)([i.a], ne.prototype, "buildNode", null);
-    class oe extends $ {
+    Object(n.b)([i.a], oe.prototype, "buildNode", null);
+    class ie extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -785,14 +801,14 @@
         return (r.properties.opacity = this.props.value), [e, r];
       }
     }
-    var ie, se, ae, le, de, ce, ue, pe, he, _e, me;
-    Object(n.b)([i.a], oe.prototype, "buildNode", null),
+    var se, ae, le, de, ce, ue, pe, he, _e, me, ge;
+    Object(n.b)([i.a], ie.prototype, "buildNode", null),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.Raw = 2)] = "Raw");
-      })(ie || (ie = {}));
-    class ge extends $ {
+      })(se || (se = {}));
+    class fe extends ee {
       constructor(e) {
         super(e);
         if (
@@ -824,9 +840,7 @@
                   }
                 : Q(this.props.scale, { x: 1, y: 1, z: 1 })));
         let n = Z(e),
-          o = (function (e) {
-            if (e) return e.w + " " + e.x + " " + e.y + " " + e.z;
-          })(t),
+          o = $(t),
           i = Z(r);
         return I.createElement(
           "vsg-transform",
@@ -836,14 +850,14 @@
             scale: i,
             "curvature-pitch": this.props.curvature_pitch,
             "parent-path": this.props.parent_path,
-            "parent-origin": ie[this.props.parent_origin],
+            "parent-origin": se[this.props.parent_origin],
             "parent-id": this.props.parent_id,
           },
           this.props.children
         );
       }
     }
-    class fe extends $ {
+    class be extends ee {
       constructor(e) {
         super(e);
       }
@@ -859,28 +873,28 @@
         );
       }
     }
-    function be(e) {
+    function ye(e) {
       if (e) return [e.u, e.v];
     }
-    function ye(e) {
+    function ve(e) {
       switch (e) {
-        case se.TopLeft:
+        case ae.TopLeft:
           return { x: -1, y: 1 };
-        case se.TopCenter:
+        case ae.TopCenter:
           return { x: 0, y: 1 };
-        case se.TopRight:
+        case ae.TopRight:
           return { x: 1, y: 1 };
-        case se.CenterLeft:
+        case ae.CenterLeft:
           return { x: -1, y: 0 };
-        case se.Center:
+        case ae.Center:
           return { x: 0, y: 0 };
-        case se.CenterRight:
+        case ae.CenterRight:
           return { x: 1, y: 0 };
-        case se.BottomLeft:
+        case ae.BottomLeft:
           return { x: -1, y: -1 };
-        case se.BottomCenter:
+        case ae.BottomCenter:
           return { x: 0, y: -1 };
-        case se.BottomRight:
+        case ae.BottomRight:
           return { x: 1, y: -1 };
       }
     }
@@ -894,23 +908,23 @@
         (e[(e.BottomLeft = 6)] = "BottomLeft"),
         (e[(e.BottomCenter = 7)] = "BottomCenter"),
         (e[(e.BottomRight = 8)] = "BottomRight");
-    })(se || (se = {})),
+    })(ae || (ae = {})),
       (function (e) {
         (e[(e.Auto = 0)] = "Auto"), (e[(e.SingleTap = 1)] = "SingleTap");
-      })(ae || (ae = {})),
+      })(le || (le = {})),
       (function (e) {
         (e[(e.Mono = 0)] = "Mono"),
           (e[(e.Parallel = 1)] = "Parallel"),
           (e[(e.Crossed = 2)] = "Crossed"),
           (e[(e.Panorama = 3)] = "Panorama"),
           (e[(e.StackedPanorama = 4)] = "StackedPanorama");
-      })(le || (le = {})),
+      })(de || (de = {})),
       (function (e) {
         (e[(e.Visible = 0)] = "Visible"),
           (e[(e.SkipInSceneGraph = 1)] = "SkipInSceneGraph"),
           (e[(e.Hidden = 2)] = "Hidden");
-      })(de || (de = {}));
-    class ve extends $ {
+      })(ce || (ce = {}));
+    class Se extends ee {
       constructor(e) {
         super(e),
           (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
@@ -956,14 +970,14 @@
         return this.m_nEmbeddedIndex;
       }
       componentWillReceiveProps_UNSAFE() {
-        ve.s_bPanelsAreDirty = !0;
+        Se.s_bPanelsAreDirty = !0;
       }
       componentDidMount() {
         super.componentDidMount(),
           (this.m_resizeObserver = new ResizeObserver(this.onResizeObserved)),
           this.m_resizeObserver.observe(this.getCurrentRootElement()),
-          (this.m_nEmbeddedIndex = Se.Current().addEmbeddedPanelUVs(this)),
-          (ve.s_bPanelsAreDirty = !0),
+          (this.m_nEmbeddedIndex = De.Current().addEmbeddedPanelUVs(this)),
+          (Se.s_bPanelsAreDirty = !0),
           this.getCurrentRootElement().addEventListener(
             "mousedown",
             this.onPanelMouseDown
@@ -971,7 +985,7 @@
           this.forceUpdate();
       }
       onResizeObserved(e, t) {
-        Se.Current().forceLayoutUpdate();
+        De.Current().forceLayoutUpdate();
       }
       componentWillUnmount() {
         this.m_resizeObserver &&
@@ -981,8 +995,8 @@
             "mousedown",
             this.onPanelMouseDown
           ),
-          (ve.s_bPanelsAreDirty = !0),
-          Se.Current().removeEmbeddedPanelUVs(this),
+          (Se.s_bPanelsAreDirty = !0),
+          De.Current().removeEmbeddedPanelUVs(this),
           super.componentWillUnmount();
       }
       onPanelMouseDown() {
@@ -1037,18 +1051,18 @@
       }
       get visibility() {
         var e;
-        return null != (e = this.props.visibility) ? e : de.Visible;
+        return null != (e = this.props.visibility) ? e : ce.Visible;
       }
       buildNode(e, t) {
         var r, n, o, i, s;
-        if (this.visibility != de.Visible) return [e, null];
+        if (this.visibility != ce.Visible) return [e, null];
         let a = Object.assign({}, e),
           l = this.createSgNode(t),
           d = { x: 0, y: 0 };
         d =
           "object" == typeof this.props.origin
             ? X(this.props.origin, { x: 0, y: 0 })
-            : ye(this.props.origin);
+            : ve(this.props.origin);
         const c = this.props.overlay_key,
           u = G();
         return (
@@ -1062,8 +1076,8 @@
                   ? void 0
                   : e.VROverlay.ThisOverlayHandle();
               })()),
-          (l.properties.uv_min = null != (r = be(this.m_UVsMin)) ? r : void 0),
-          (l.properties.uv_max = null != (n = be(this.m_UVsMax)) ? n : void 0),
+          (l.properties.uv_min = null != (r = ye(this.m_UVsMin)) ? r : void 0),
+          (l.properties.uv_max = null != (n = ye(this.m_UVsMax)) ? n : void 0),
           (l.properties.width = null != (o = this.props.width) ? o : void 0),
           (l.properties.height = null != (i = this.props.height) ? i : void 0),
           (l.properties["min-width"] =
@@ -1125,17 +1139,17 @@
       internalRender() {
         return I.createElement(
           "vsg-node",
-          { style: { display: this.visibility == de.Hidden ? "none" : null } },
+          { style: { display: this.visibility == ce.Hidden ? "none" : null } },
           this.props.children
         );
       }
     }
-    (ve.s_bPanelsAreDirty = !1),
-      Object(n.b)([i.a], ve.prototype, "onResizeObserved", null),
-      Object(n.b)([i.a], ve.prototype, "onPanelMouseDown", null),
-      Object(n.b)([i.a], ve.prototype, "onWindowMouseUp", null),
-      Object(n.b)([i.a], ve.prototype, "buildNode", null);
-    class Se extends I.Component {
+    (Se.s_bPanelsAreDirty = !1),
+      Object(n.b)([i.a], Se.prototype, "onResizeObserved", null),
+      Object(n.b)([i.a], Se.prototype, "onPanelMouseDown", null),
+      Object(n.b)([i.a], Se.prototype, "onWindowMouseUp", null),
+      Object(n.b)([i.a], Se.prototype, "buildNode", null);
+    class De extends I.Component {
       constructor(e) {
         super(e),
           (this.m_DomRef = null),
@@ -1153,7 +1167,7 @@
           (this.m_nDirtyXMin = -1),
           (this.m_nDirtyXMax = -1),
           (this.m_fCurrentScale = 1),
-          (Se.s_Current = this),
+          (De.s_Current = this),
           (this.state = {
             bFontsLoaded: !1,
             nForcedUpdateNumber: 0,
@@ -1165,10 +1179,10 @@
           (this.m_DebugPointerRef = I.createRef());
       }
       static get IsSceneGraphApp() {
-        return null !== Se.Current();
+        return null !== De.Current();
       }
       static Current() {
-        return Se.s_Current;
+        return De.s_Current;
       }
       toggleDebugPointer() {
         this.setState({ bShowDebugPointer: !this.state.bShowDebugPointer });
@@ -1184,7 +1198,7 @@
             "px )");
       }
       forceLayoutUpdate() {
-        (ve.s_bPanelsAreDirty = !0),
+        (Se.s_bPanelsAreDirty = !0),
           this.setState({
             nForcedUpdateNumber: this.state.nForcedUpdateNumber + 1,
           });
@@ -1246,7 +1260,7 @@
             I.createElement("canvas", {
               ref: this.m_CanvasRef,
               className: "EmbeddedData",
-              height: Se.k_EmbeddedDataRows,
+              height: De.k_EmbeddedDataRows,
             }),
             I.createElement(
               "div",
@@ -1279,7 +1293,7 @@
           null === this.m_Pixels &&
             (this.m_Pixels = this.m_CanvasContext.createImageData(
               this.m_nEmbeddedDataWidth,
-              Se.k_EmbeddedDataRows
+              De.k_EmbeddedDataRows
             )),
           this.updateAllPanelBounds();
       }
@@ -1298,11 +1312,11 @@
               )
             : this.m_scalingDomRef.current.removeAttribute("style"),
           (this.m_fCurrentScale = i),
-          (ve.s_bPanelsAreDirty = !0)),
-          ve.s_bPanelsAreDirty &&
+          (Se.s_bPanelsAreDirty = !0)),
+          Se.s_bPanelsAreDirty &&
             (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
             K(),
-            (ve.s_bPanelsAreDirty = !1),
+            (Se.s_bPanelsAreDirty = !1),
             this.updateEmbeddedData());
       }
       updateEmbeddedData() {
@@ -1361,15 +1375,15 @@
             (this.m_nDirtyXMax = e);
       }
     }
-    (Se.s_Current = null),
-      (Se.k_EmbeddedDataRows = 1),
-      Object(n.b)([o.bind], Se.prototype, "toggleDebugPointer", null),
-      Object(n.b)([o.bind], Se.prototype, "onMouseMove", null),
-      Object(n.b)([o.bind], Se.prototype, "forceLayoutUpdate", null),
-      Object(n.b)([o.bind], Se.prototype, "onMutation", null);
+    (De.s_Current = null),
+      (De.k_EmbeddedDataRows = 1),
+      Object(n.b)([o.bind], De.prototype, "toggleDebugPointer", null),
+      Object(n.b)([o.bind], De.prototype, "onMouseMove", null),
+      Object(n.b)([o.bind], De.prototype, "forceLayoutUpdate", null),
+      Object(n.b)([o.bind], De.prototype, "onMutation", null);
     Object(n.b)(
       [i.a],
-      class extends $ {
+      class extends ee {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -1390,8 +1404,8 @@
     ),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
-      })(ce || (ce = {}));
-    class De extends $ {
+      })(ue || (ue = {}));
+    class Re extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -1424,8 +1438,8 @@
         );
       }
     }
-    Object(n.b)([i.a], De.prototype, "buildNode", null);
-    class Re extends $ {
+    Object(n.b)([i.a], Re.prototype, "buildNode", null);
+    class Ce extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -1457,8 +1471,8 @@
         return [e, r];
       }
     }
-    Object(n.b)([i.a], Re.prototype, "buildNode", null);
-    class Ce extends $ {
+    Object(n.b)([i.a], Ce.prototype, "buildNode", null);
+    class Ie extends ee {
       constructor(e) {
         super(e);
       }
@@ -1471,7 +1485,7 @@
         });
       }
     }
-    class Ie extends $ {
+    class xe extends ee {
       constructor(e) {
         super(e);
       }
@@ -1487,7 +1501,7 @@
         );
       }
     }
-    class xe extends $ {
+    class Me extends ee {
       constructor(e) {
         super(e),
           (this.m_latchedPosition = null),
@@ -1509,7 +1523,7 @@
         "object" == typeof this.props.location
           ? (r = X(this.props.location, { x: 0, y: 0 }))
           : "number" == typeof this.props.location &&
-            (r = ye(this.props.location));
+            (r = ve(this.props.location));
         let n = this.createSgNode(t);
         if (this.props.latched && null !== this.m_latchedPosition)
           (n.properties["anchor-u"] = this.m_latchedPosition.u),
@@ -1550,12 +1564,12 @@
         );
       }
     }
-    Object(n.b)([i.a], xe.prototype, "buildNode", null);
+    Object(n.b)([i.a], Me.prototype, "buildNode", null);
     !(function (e) {
       (e[(e.LockedToParent = 0)] = "LockedToParent"),
         (e[(e.LockedToWorld = 1)] = "LockedToWorld");
-    })(ue || (ue = {}));
-    class Me extends $ {
+    })(pe || (pe = {}));
+    class Pe extends ee {
       constructor(e) {
         super(e);
       }
@@ -1593,7 +1607,7 @@
         );
       }
     }
-    class Pe extends $ {
+    class we extends ee {
       constructor(e) {
         super(e);
       }
@@ -1605,25 +1619,25 @@
         );
       }
     }
-    function we() {
+    function Oe() {
       var e, t;
       return null !=
         (t = null === (e = VRHTML) || void 0 === e ? void 0 : e.Environment())
         ? t
-        : pe.Unknown;
+        : he.Unknown;
     }
     !(function (e) {
       (e[(e.Desktop = 1)] = "Desktop"),
         (e[(e.Overlay = 2)] = "Overlay"),
         (e[(e.Unknown = 100)] = "Unknown");
-    })(pe || (pe = {})),
+    })(he || (he = {})),
       window.hasOwnProperty("VRHTML") || (window.VRHTML = null),
       (function (e) {
         (e[(e.Auto = 0)] = "Auto"),
           (e[(e.Low = 1)] = "Low"),
           (e[(e.Medium = 2)] = "Medium"),
           (e[(e.High = 3)] = "High");
-      })(he || (he = {})),
+      })(_e || (_e = {})),
       (function (e) {
         (e[(e.TrackingResult_Uninitialized = 1)] =
           "TrackingResult_Uninitialized"),
@@ -1637,13 +1651,13 @@
             "TrackingResult_Running_OutOfRange"),
           (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
             "TrackingResult_Fallback_RotationOnly");
-      })(_e || (_e = {})),
+      })(me || (me = {})),
       (function (e) {
         (e[(e.Seated = 0)] = "Seated"),
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
-      })(me || (me = {}));
-    var Oe, Fe, Ne, Te, Be, Ee, Ae, ke, Ve, Ue, Le, He, We, ze, Ge, je, qe, Ke;
+      })(ge || (ge = {}));
+    var Fe, Ne, Te, Be, Ee, Ae, ke, Ve, Ue, Le, He, We, ze, Ge, je, qe, Ke, Xe;
     !(function (e) {
       (e[(e.None = 0)] = "None"),
         (e[(e.Shown = 1)] = "Shown"),
@@ -1662,11 +1676,11 @@
         (e[(e.Close = 14)] = "Close"),
         (e[(e.TakeFocus = 15)] = "TakeFocus"),
         (e[(e.HitTest = 16)] = "HitTest");
-    })(Oe || (Oe = {})),
+    })(Fe || (Fe = {})),
       (function (e) {
         (e[(e.Activated = 0)] = "Activated"),
           (e[(e.Deactivated = 1)] = "Deactivated");
-      })(Fe || (Fe = {})),
+      })(Ne || (Ne = {})),
       (function (e) {
         (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
           (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
@@ -1697,10 +1711,10 @@
           (e[(e.EnableControlBarKeyboard = 16777216)] =
             "EnableControlBarKeyboard"),
           (e[(e.EnableControlBarClose = 33554432)] = "EnableControlBarClose");
-      })(Ne || (Ne = {})),
+      })(Te || (Te = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-      })(Te || (Te = {})),
+      })(Be || (Be = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.TrackingSystemName_String = 1e3)] =
@@ -2007,7 +2021,7 @@
             "VendorSpecific_Reserved_End"),
           (e[(e.TrackedDeviceProperty_Max = 1e6)] =
             "TrackedDeviceProperty_Max");
-      })(Be || (Be = {})),
+      })(Ee || (Ee = {})),
       (function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.HMD = 1)] = "HMD"),
@@ -2015,19 +2029,19 @@
           (e[(e.GenericTracker = 3)] = "GenericTracker"),
           (e[(e.TrackingReference = 4)] = "TrackingReference"),
           (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-      })(Ee || (Ee = {})),
+      })(Ae || (Ae = {})),
       (function (e) {
         (e[(e.Unknown = 0)] = "Unknown"),
           (e[(e.NVIDIA = 1)] = "NVIDIA"),
           (e[(e.AMD = 2)] = "AMD");
-      })(Ae || (Ae = {})),
+      })(ke || (ke = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.Starting = 1)] = "Starting"),
           (e[(e.Quitting = 2)] = "Quitting"),
           (e[(e.Running = 3)] = "Running"),
           (e[(e.Waiting = 4)] = "Waiting");
-      })(ke || (ke = {})),
+      })(Ve || (Ve = {})),
       (function (e) {
         (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
           (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -2037,16 +2051,16 @@
           (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
             "CouldntFindOrCreateClientOverlay"),
           (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-      })(Ve || (Ve = {})),
+      })(Ue || (Ue = {})),
       (function (e) {
         (e[(e.Normal = 0)] = "Normal"),
           (e[(e.Password = 1)] = "Password"),
           (e[(e.Submit = 2)] = "Submit");
-      })(Ue || (Ue = {})),
+      })(Le || (Le = {})),
       (function (e) {
         (e[(e.SingleLine = 0)] = "SingleLine"),
           (e[(e.MultipleLines = 1)] = "MultipleLines");
-      })(Le || (Le = {})),
+      })(He || (He = {})),
       (function (e) {
         (e[(e.LaserMouse = 1)] = "LaserMouse"),
           (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -2059,7 +2073,7 @@
             "DriverRequestsApplicationPause"),
           (e[(e.DriverRequestsReducedRendering = 128)] =
             "DriverRequestsReducedRendering");
-      })(He || (He = {})),
+      })(We || (We = {})),
       (function (e) {
         (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
           (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -2076,14 +2090,14 @@
           (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
           (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
           (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-      })(We || (We = {})),
+      })(ze || (ze = {})),
       (function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
           (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
           (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
           (e[(e.Error = -1)] = "Error");
-      })(ze || (ze = {})),
+      })(Ge || (Ge = {})),
       (function (e) {
         (e[(e.TrackedControllerRole_Invalid = 0)] =
           "TrackedControllerRole_Invalid"),
@@ -2096,7 +2110,7 @@
           (e[(e.TrackedControllerRole_Treadmill = 4)] =
             "TrackedControllerRole_Treadmill"),
           (e[(e.TrackedControllerRole_Max = 5)] = "TrackedControllerRole_Max");
-      })(Ge || (Ge = {})),
+      })(je || (je = {})),
       (function (e) {
         (e[(e.Unknown = 0)] = "Unknown"),
           (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -2108,18 +2122,18 @@
           (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
           (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
           (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-      })(je || (je = {})),
+      })(qe || (qe = {})),
       (function (e) {
         (e[(e.Minimal = 1)] = "Minimal"), (e[(e.Modal = 2)] = "Modal");
-      })(qe || (qe = {})),
+      })(Ke || (Ke = {})),
       (function (e) {
         (e[(e.Hostname = 0)] = "Hostname"),
           (e[(e.IP = 1)] = "IP"),
           (e[(e.Version = 2)] = "Version"),
           (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
           (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
-      })(Ke || (Ke = {}));
-    class Xe extends I.Component {
+      })(Xe || (Xe = {}));
+    class Qe extends I.Component {
       constructor(e) {
         super(e);
         let t = {};
@@ -2127,7 +2141,7 @@
           try {
             let e = VRHTML.VRProperties.GetStringProperty(
               this.props.sDevicePath,
-              Be.RenderModelName_String
+              Ee.RenderModelName_String
             );
             if (e) {
               let r = VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
@@ -2153,7 +2167,7 @@
       }
       render() {
         return I.createElement(
-          ge,
+          fe,
           {
             id: this.props.id,
             parent_path: this.props.sDevicePath,
@@ -2163,7 +2177,7 @@
         );
       }
     }
-    class Qe extends $ {
+    class Je extends ee {
       constructor(e) {
         super(e);
       }
@@ -2175,7 +2189,7 @@
         );
       }
     }
-    class Je extends $ {
+    class Ye extends ee {
       constructor(e) {
         super(e), super.setBuildNodeOverride(this.buildNode);
       }
@@ -2192,10 +2206,31 @@
         );
       }
     }
-    Object(n.b)([i.a], Je.prototype, "buildNode", null),
-      r.d(t, "c", function () {
-        return s;
-      }),
+    Object(n.b)([i.a], Ye.prototype, "buildNode", null);
+    class Ze extends ee {
+      constructor(e) {
+        super(e);
+      }
+      internalRender() {
+        let e = Z(this.props.xfCurrent.translation),
+          t = $(this.props.xfCurrent.rotation),
+          r = Z(this.props.xfCurrent.scale);
+        return I.createElement(
+          "vsg-manipulation-transform",
+          {
+            "is-moving": this.props.bIsMoving,
+            "parent-path": this.props.sParentPath,
+            translation: e,
+            rotation: t,
+            scale: r,
+          },
+          this.props.children
+        );
+      }
+    }
+    r.d(t, "c", function () {
+      return s;
+    }),
       r.d(t, "g", function () {
         return a;
       }),
@@ -2205,16 +2240,16 @@
       r.d(t, "Q", function () {
         return d;
       }),
-      r.d(t, "jb", function () {
+      r.d(t, "kb", function () {
         return c;
       }),
-      r.d(t, "kb", function () {
+      r.d(t, "lb", function () {
         return u;
       }),
-      r.d(t, "W", function () {
+      r.d(t, "X", function () {
         return p;
       }),
-      r.d(t, "X", function () {
+      r.d(t, "Y", function () {
         return h;
       }),
       r.d(t, "O", function () {
@@ -2226,10 +2261,10 @@
       r.d(t, "J", function () {
         return g;
       }),
-      r.d(t, "T", function () {
+      r.d(t, "U", function () {
         return f;
       }),
-      r.d(t, "V", function () {
+      r.d(t, "W", function () {
         return b;
       }),
       r.d(t, "b", function () {
@@ -2238,7 +2273,7 @@
       r.d(t, "K", function () {
         return v;
       }),
-      r.d(t, "Y", function () {
+      r.d(t, "Z", function () {
         return S;
       }),
       r.d(t, "h", function () {
@@ -2247,157 +2282,160 @@
       r.d(t, "M", function () {
         return R;
       }),
-      r.d(t, "hb", function () {
+      r.d(t, "ib", function () {
         return C;
       }),
       r.d(t, "j", function () {
-        return re;
-      }),
-      r.d(t, "lb", function () {
         return ne;
       }),
-      r.d(t, "Z", function () {
+      r.d(t, "mb", function () {
         return oe;
       }),
-      r.d(t, "U", function () {
-        return te;
-      }),
-      r.d(t, "C", function () {
+      r.d(t, "ab", function () {
         return ie;
       }),
-      r.d(t, "nb", function () {
-        return ge;
+      r.d(t, "V", function () {
+        return re;
       }),
-      r.d(t, "mb", function () {
+      r.d(t, "C", function () {
+        return se;
+      }),
+      r.d(t, "ob", function () {
         return fe;
+      }),
+      r.d(t, "nb", function () {
+        return be;
       }),
       r.d(t, "f", function () {
         return W;
       }),
-      r.d(t, "eb", function () {
+      r.d(t, "fb", function () {
         return j;
       }),
-      r.d(t, "ib", function () {
+      r.d(t, "jb", function () {
         return q;
       }),
-      r.d(t, "S", function () {
+      r.d(t, "T", function () {
         return K;
       }),
-      r.d(t, "gb", function () {
-        return Se;
-      }),
-      r.d(t, "v", function () {
-        return ce;
-      }),
-      r.d(t, "fb", function () {
+      r.d(t, "hb", function () {
         return De;
       }),
-      r.d(t, "N", function () {
+      r.d(t, "v", function () {
+        return ue;
+      }),
+      r.d(t, "gb", function () {
         return Re;
       }),
-      r.d(t, "R", function () {
+      r.d(t, "N", function () {
         return Ce;
       }),
-      r.d(t, "db", function () {
+      r.d(t, "R", function () {
         return Ie;
       }),
-      r.d(t, "bb", function () {
+      r.d(t, "eb", function () {
         return xe;
       }),
-      r.d(t, "t", function () {
-        return se;
-      }),
-      r.d(t, "u", function () {
-        return ae;
-      }),
       r.d(t, "cb", function () {
-        return de;
-      }),
-      r.d(t, "ab", function () {
-        return ve;
-      }),
-      r.d(t, "H", function () {
         return Me;
       }),
-      r.d(t, "L", function () {
+      r.d(t, "t", function () {
+        return ae;
+      }),
+      r.d(t, "u", function () {
+        return le;
+      }),
+      r.d(t, "db", function () {
+        return ce;
+      }),
+      r.d(t, "bb", function () {
+        return Se;
+      }),
+      r.d(t, "H", function () {
         return Pe;
       }),
-      r.d(t, "e", function () {
-        return Xe;
-      }),
-      r.d(t, "d", function () {
-        return Qe;
-      }),
-      r.d(t, "k", function () {
-        return Je;
-      }),
-      r.d(t, "I", function () {
-        return pe;
-      }),
-      r.d(t, "i", function () {
+      r.d(t, "L", function () {
         return we;
       }),
-      r.d(t, "r", function () {
+      r.d(t, "e", function () {
+        return Qe;
+      }),
+      r.d(t, "d", function () {
+        return Je;
+      }),
+      r.d(t, "k", function () {
+        return Ye;
+      }),
+      r.d(t, "S", function () {
+        return Ze;
+      }),
+      r.d(t, "I", function () {
         return he;
       }),
-      r.d(t, "A", function () {
+      r.d(t, "i", function () {
+        return Oe;
+      }),
+      r.d(t, "r", function () {
         return _e;
       }),
-      r.d(t, "B", function () {
+      r.d(t, "A", function () {
         return me;
       }),
-      r.d(t, "qb", function () {
+      r.d(t, "B", function () {
+        return ge;
+      }),
+      r.d(t, "rb", function () {
         return 0;
       }),
-      r.d(t, "pb", function () {
+      r.d(t, "qb", function () {
         return -1;
       }),
       r.d(t, "m", function () {
-        return Fe;
-      }),
-      r.d(t, "E", function () {
         return Ne;
       }),
-      r.d(t, "F", function () {
+      r.d(t, "E", function () {
         return Te;
       }),
-      r.d(t, "z", function () {
+      r.d(t, "F", function () {
         return Be;
       }),
-      r.d(t, "y", function () {
+      r.d(t, "z", function () {
         return Ee;
       }),
-      r.d(t, "w", function () {
-        return ke;
+      r.d(t, "y", function () {
+        return Ae;
       }),
-      r.d(t, "D", function () {
+      r.d(t, "w", function () {
         return Ve;
       }),
-      r.d(t, "q", function () {
+      r.d(t, "D", function () {
         return Ue;
       }),
-      r.d(t, "p", function () {
+      r.d(t, "q", function () {
         return Le;
       }),
-      r.d(t, "l", function () {
-        return We;
+      r.d(t, "p", function () {
+        return He;
       }),
-      r.d(t, "s", function () {
+      r.d(t, "l", function () {
         return ze;
       }),
-      r.d(t, "x", function () {
+      r.d(t, "s", function () {
         return Ge;
       }),
-      r.d(t, "G", function () {
+      r.d(t, "x", function () {
         return je;
       }),
-      r.d(t, "o", function () {
+      r.d(t, "G", function () {
         return qe;
       }),
-      r.d(t, "n", function () {
+      r.d(t, "o", function () {
         return Ke;
+      }),
+      r.d(t, "n", function () {
+        return Xe;
       });
-    t.ob = VRHTML;
+    t.pb = VRHTML;
   },
   "2LNE": function (e, t, r) {
     "use strict";
@@ -2542,15 +2580,15 @@
               "DeviceStatus " + (e.is_connected ? "Connected" : "Disconnected"),
           },
           o.createElement(
-            a.nb,
+            a.ob,
             { rotation: { x: -20, y: 180 } },
-            o.createElement(a.fb, { source: e.rendermodelname })
+            o.createElement(a.gb, { source: e.rendermodelname })
           ),
           o.createElement(
-            a.nb,
+            a.ob,
             { translation: { y: -0.37 } },
             o.createElement(
-              a.ab,
+              a.bb,
               { height: 0.18, width: void 0 },
               o.createElement(
                 "div",
@@ -2570,7 +2608,7 @@
             let n = Math.floor(r / t),
               i = Math.floor(r % t);
             return o.createElement(
-              a.nb,
+              a.ob,
               {
                 key: e.serial,
                 translation: { x: 0.8 * (i - (t - 1) / 2), y: 0.7 * -n },
@@ -2591,10 +2629,10 @@
             null,
             r,
             o.createElement(
-              a.nb,
+              a.ob,
               { translation: { y: -0.7 * (n + 1) }, rotation: { x: -20 } },
               o.createElement(
-                a.ab,
+                a.bb,
                 { width: 3.2, height: void 0 },
                 o.createElement(
                   "div",
@@ -2643,22 +2681,22 @@
       }
       render() {
         return o.createElement(
-          a.mb,
+          a.nb,
           { visibleIn3DOF: !0, visibleIn6DOF: !1 },
           o.createElement(
-            a.nb,
+            a.ob,
             { parent_path: "/user/head" },
             o.createElement(
               a.H,
               null,
               o.createElement(
-                a.nb,
+                a.ob,
                 { translation: { z: -5, y: 1 } },
                 o.createElement(
-                  a.nb,
+                  a.ob,
                   { translation: { y: 0.35 }, rotation: { x: 20 } },
                   o.createElement(
-                    a.ab,
+                    a.bb,
                     { width: 3.2, height: void 0 },
                     o.createElement(
                       "div",
@@ -2668,7 +2706,7 @@
                   )
                 ),
                 o.createElement(
-                  a.nb,
+                  a.ob,
                   { translation: { y: -0.2 } },
                   o.createElement(u, null)
                 )
@@ -2679,9 +2717,9 @@
       }
     }
     i.render(
-      o.createElement(a.gb, null, o.createElement(p, null)),
+      o.createElement(a.hb, null, o.createElement(p, null)),
       document.getElementById("root")
     );
   },
 });
-//# sourceMappingURL=fallback.js.map?v=ef852ce41126304c5093
+//# sourceMappingURL=fallback.js.map?v=ba9af2fb4626e332e25d

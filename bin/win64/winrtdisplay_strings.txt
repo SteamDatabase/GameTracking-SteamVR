@@ -8,9 +8,9 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
+#&_#2
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
-'&ut;
 ',=?k
 (D$0f
 (f*^[0
@@ -119,7 +119,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220808194416Z0/
+220815221047Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -155,6 +155,7 @@
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
+?~&y1
 @.data
 @.reloc
 @A^][
@@ -203,6 +204,7 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E,:>gX
 E89D$Pu
 E<9D$Tu
 EnterCriticalSection
@@ -230,7 +232,6 @@ H9oHH
 HeapFree
 I9] M
 I9]8I
-IT6OK
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -316,7 +317,6 @@ WindowsGetStringRawBuffer
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
-Xh}<]
 Y9"SD
 [K]taM?
 \$ H;
@@ -324,6 +324,7 @@ Y9"SD
 \$(H;
 \$Xfff
 ]J<0"0i3
+^QOrj
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -385,10 +386,7 @@ memcpy
 memmove
 memset
 ntelD
-oB}=O
 ole32.dll
-orBdQKD
-prJku
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -403,7 +401,6 @@ terminate
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long
-w0CCz
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
@@ -413,6 +410,7 @@ x]~\6
 |$0E3
 |$xMi
 |Lu?c
+}?3F%
 }LuHO
 ~qj#k"
 ~t&LN

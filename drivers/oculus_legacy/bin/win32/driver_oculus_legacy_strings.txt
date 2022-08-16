@@ -2,6 +2,7 @@
  %41g
  (Camera)
 !hn7!
+&YIg(
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
@@ -68,6 +69,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+/WKDY&z
 0 0$0(0H0L0t0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
 0"0(00080=0C0K0S0X0^0f0n0s0y0
@@ -93,9 +95,10 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220808194814Z0/
+220815220733Z0/
 241009235959Z0a1
 242M2
+25]OS
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2\3&4
@@ -167,6 +170,7 @@
 9^9d9
 :!;t;
 :":1:N:
+:$9,Ph>[
 :&:/:4:9:@:P:
 :&:/:8:=:B:I:
 :&;E;
@@ -186,6 +190,7 @@
 <6>A>\>e>
 <?<E<K<Q<W<]<d<k<r<y<
 <J=R=
+<[/\b
 ="=(=.=8=F=b=z=
 =$=B=w=
 =$=H=T=\=|=
@@ -299,7 +304,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSf
 RaiseException
 S0Q0O
 SA|X=G
@@ -327,7 +331,6 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown(%u, %u)
 UuidFromStringA
-V	1@&
 VCRUNTIME140.dll
 VR_CONFIG_PATH
 VR_LOG_PATH
@@ -347,6 +350,8 @@ Y__^[
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
+\7mqV
+]Hp'#
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -358,6 +363,7 @@ _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
+_Rui)rJp
 _Thrd_id
 _Thrd_join
 __CxxFrameHandler3
@@ -392,6 +398,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+bCZ\+ k
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
@@ -412,7 +419,6 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
-m'1hNG
 m0k0$
 malloc
 map/set<T> too long
@@ -466,7 +472,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-s9P0a
 startup
 string too long
 strncpy

@@ -168,6 +168,7 @@ $tI
 %F-%H-%M-%S
 %H:%M
 %H:%M:%S
+%LocalAppData%
 %Y-%m-%d
 %Y-%m-%d %I:%M:%S %p
 %a %b %d %H:%M:%S %Y
@@ -990,6 +991,8 @@ $tI
 ./google/protobuf/unknown_field_set.h
 ./obj_vrclient_linux64/release/vrclient.so
 .PLACEHOLDER_VALUE
+.[\()*+?{|^$
+.[\*^$
 .bin
 .config
 .dds
@@ -1416,7 +1419,7 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-0C19CVRRenderModels_005
+0C
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -1587,7 +1590,6 @@ $tI
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
-19:42:57
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1610,6 +1612,7 @@ $tI
 19CVRRenderModels_002
 19CVRRenderModels_003
 19CVRRenderModels_004
+19CVRRenderModels_005
 19CVRSteamPrivate_001
 19CVRSteamPrivate_002
 19CVRWatchdogHost_001
@@ -1659,6 +1662,7 @@ $tI
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:05:05
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -2163,6 +2167,7 @@ A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than
 A valid JSON document must be either an array or an object value.
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ACK
 AKST
 AM
 ASCII
@@ -2294,7 +2299,7 @@ Attempting to wait on a fence that has already been waited for. Current: %lx Wai
 Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
 Aug
-Aug  8 2022
+Aug 15 2022
 August
 AuthenticAMD
 AutosaveURL
@@ -2368,6 +2373,8 @@ BSharedResourceNamespaceAvailable() [clone .cold]
 BSharedResourceNamespaceInTestMode()
 BSharedResourceNamespaceTryOneInit()
 BSharedResourceNamespaceTryOneInit() [clone .cold]
+Back-reference index exceeds current sub-expression count.
+Back-reference referred to an opened sub-expression.
 BackUp() can only be called after Next().
 BackUp() can only be called after a successful Next().
 Bad Access flag on shared mem create: %s: %u
@@ -2424,6 +2431,7 @@ BuildFadeGridMessage(float, bool)
 BuildFadeGridMessage(float, bool) [clone .cold]
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
+BuildMatTextureDetails(float (*) [4][4], vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
 C& google::protobuf::internal::scoped_array<C>::operator[](std::ptrdiff_t) const [with C = int; std::ptrdiff_t = long int]
@@ -2432,9 +2440,10 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1139.340880
-C.1142.340891
+C.1831.365271
+C.1834.365282
 C.413.288424
+CAN
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
@@ -3068,6 +3077,8 @@ CHmdSystemLatest::GetPaths()
 CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 CHmdSystemLatest::GetProperties()
+CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*)
+CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*) [clone .cold]
 CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
 CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string> >*, std::string const&)
 CHmdSystemLatest::GetResources()
@@ -3328,6 +3339,7 @@ CInputAction::~CInputAction()
 CInputActionDefaultBindingFile::~CInputActionDefaultBindingFile()
 CInputActionManifest::AddDefaultBinding(std::string const&, std::string const&)
 CInputActionManifest::AddDefaultBinding(std::string const&, std::string const&) [clone .cold]
+CInputActionManifest::AddInteractionProfile(std::string const&)
 CInputActionManifest::FindAction(std::string const&) const
 CInputActionManifest::FindAction(std::string const&) const [clone .cold]
 CInputActionManifest::FindActionSet(std::string const&) const
@@ -3341,6 +3353,7 @@ CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::v
 CInputActionManifest::GetBindingURLsForControllerType(std::string const&, std::vector<std::string, std::allocator<std::string> >&, bool) [clone .cold]
 CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool)
 CInputActionManifest::GetDefaultBindingsFromJSON(Json::Value const&, std::string const&, std::string*, std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >&, bool) [clone .cold]
+CInputActionManifest::GetInteractionProfiles() const
 CInputActionManifest::GetLocalizationMapFromJSON(Json::Value const&, std::string const&, std::string const&, std::string*, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&)
 CInputActionManifest::GetLocalizationMapFromJSON(Json::Value const&, std::string const&, std::string const&, std::string*, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >&) [clone .cold]
 CInputActionManifest::GetOptionsFromJSON(Json::Value const&, std::vector<CInputOption, std::allocator<CInputOption> >&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >)
@@ -3364,6 +3377,7 @@ CInputFilterBase::StopAnalogActionMomentum()
 CInputFilterBase::ToDebugJson(IInputFilterValueStore*) const
 CInputFilterBase::ToDebugJson(IInputFilterValueStore*) const [clone .cold]
 CInputFilterBase::~CInputFilterBase()
+CInputFilterValueStore::CInputFilterValueStore(CVRInputLatest*, std::shared_ptr<CVRInputLatest::InputFrame_t>)
 CInputFilterValueStore::DebugOutput(unsigned long, char const*, ...)
 CInputFilterValueStore::GetActionSetHandle(std::string const&)
 CInputFilterValueStore::GetComponentTransform(unsigned long, std::string)
@@ -9302,12 +9316,18 @@ CVRMsg_DefaultBinding::default_instance()
 CVRMsg_DefaultBinding::default_instance_
 CVRMsg_DefaultBinding::descriptor()
 CVRMsg_DefaultBinding::descriptor() [clone .cold]
+CVRMsg_DefaultBinding::mutable_category()
 CVRMsg_DefaultBinding::mutable_controller_type()
 CVRMsg_DefaultBinding::mutable_url()
+CVRMsg_DefaultBinding::release_category()
 CVRMsg_DefaultBinding::release_controller_type()
 CVRMsg_DefaultBinding::release_url()
+CVRMsg_DefaultBinding::set_allocated_category(std::string*)
 CVRMsg_DefaultBinding::set_allocated_controller_type(std::string*)
 CVRMsg_DefaultBinding::set_allocated_url(std::string*)
+CVRMsg_DefaultBinding::set_category(char const*)
+CVRMsg_DefaultBinding::set_category(char const*, unsigned long)
+CVRMsg_DefaultBinding::set_category(std::string const&)
 CVRMsg_DefaultBinding::set_controller_type(char const*)
 CVRMsg_DefaultBinding::set_controller_type(char const*, unsigned long)
 CVRMsg_DefaultBinding::set_controller_type(std::string const&)
@@ -15455,6 +15475,8 @@ CVRPathRegistry::GetConfigHistoryCount() const
 CVRPathRegistry::GetConfigHistoryPath(unsigned int) const
 CVRPathRegistry::GetExternalDriverCount() const
 CVRPathRegistry::GetExternalDriverPath(unsigned int) const
+CVRPathRegistry::GetInstalledRuntimes() const
+CVRPathRegistry::GetInstalledRuntimes() const [clone .cold]
 CVRPathRegistry::GetLogHistoryCount() const
 CVRPathRegistry::GetLogHistoryPath(unsigned int) const
 CVRPathRegistry::GetRuntimeHistoryCount() const
@@ -17057,7 +17079,7 @@ CVulkanVRRenderer::BeginCmdDebugMarker(VkCommandBuffer_T*, char const*, float*) 
 CVulkanVRRenderer::BeginCommandBuffer()
 CVulkanVRRenderer::BeginDebugEvent(char const*)
 CVulkanVRRenderer::BeginFrame(unsigned long)
-CVulkanVRRenderer::BindRenderTargets(unsigned int, VRRenderer::TextureBase**, VRRenderer::TextureBase*, VRRenderer::Viewport*)
+CVulkanVRRenderer::BindRenderTargets(unsigned int, VRRenderer::TextureBase**, VRRenderer::TextureBase*, VRRenderer::Viewport*, VRRenderer::FragmentShadingRate*)
 CVulkanVRRenderer::CVulkanVRRenderer()
 CVulkanVRRenderer::CVulkanVRRenderer() [clone .cold]
 CVulkanVRRenderer::CleanupSyncResources()
@@ -17273,6 +17295,7 @@ ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_005>::GetInterface()
 ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_005>::~ChaperoneSetupInterfaceRegistration()
 CharNeedsEscape_Component(char)
 CharNeedsEscape_FullPath(char)
+Character is expected after a dash.
 CheckMinMax(std::string&, float, float, float, float)
 CheckPhysicalDeviceCapabilities
 CheckPoseRecipe(CPoseRecipe const&, unsigned char)
@@ -17323,6 +17346,8 @@ CloseKeyboard(TVRSharedState<VRSystemLayerState_t, false>*) [clone .cold]
 CloseLog()
 Closing Keyboard
 CollapseActionValues(std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > const&, std::function<bool (unsigned long)>)
+CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&)
+CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
 CollapseInputValues(std::vector<VRInputValue_t, std::allocator<VRInputValue_t> > const&, bool)
 Collision Bounds distances: flMinAxis=%f, Hmd=%f->%f, Controllers=%f->%f
 Command failed with %d: %s
@@ -17484,6 +17509,12 @@ Created remote GL texture 0x%lx, dimensions %d x %d, format %d
 Created remote Vulkan image 0x%lx, dimensions %d x %d, format %d, memory size %d and memory type %d.
 CurrentURL
 D
+DC1
+DC2
+DC3
+DC4
+DEL
+DLE
 DW.ref._ZTIN10__cxxabiv115__forced_unwindE
 DW.ref._ZTIPN4Json9ExceptionE
 DW.ref._ZTISt9exception
@@ -17510,6 +17541,8 @@ Default
 Default value for an enum field must be an identifier.
 Deliberately hanging inside VR_Init because the caller asked us to
 Destroying a held mutex
+Determined this is a legacy app.
+Determined this is a steamvr_input app.
 Device Calibration is invalid (207)
 Device is not calibrated (206)
 DeviceGC
@@ -17572,6 +17605,9 @@ Duplicate key: '
 E
 E;
 EET
+EM
+ENQ
+EOT
 ERROR
 ERROR_DEVICE_LOST
 ERROR_EXTENSION_NOT_PRESENT
@@ -17590,7 +17626,10 @@ ERROR_OUT_OF_HOST_MEMORY
 ERROR_SURFACE_LOST_KHR
 ERROR_TOO_MANY_OBJECTS
 ERROR_VALIDATION_FAILED_EXT
+ESC
 EST
+ETB
+ETX
 ETrackedControllerRole_%d
 EVENT_RESET
 EVENT_SET
@@ -17787,7 +17826,7 @@ Failed to free va range
 Failed to generate action set handle for per-input tutorial action set
 Failed to get IB cpu address
 Failed to get backtrace symbols
-Failed to get config binding from server
+Failed to get config binding from server. [app: %s]
 Failed to get cross-process memory FD: %d
 Failed to get cross-process memory FD: invalid parameter
 Failed to get cross-process semaphore FD %d
@@ -17823,7 +17862,7 @@ Failed to initialize libvcetoy motion estimator: ctx create failed
 Failed to initialize logging
 Failed to initialize server address for shared fd id: 0x%lx
 Failed to initialize server address for shared fd: %d
-Failed to load binding file. We'll wait and try again when CRC or load count changes( computed CRC=%u, old CRC=%u, shared CRC=%u, load count=%u, shared load count=%u
+Failed to load binding file. We'll wait and try again when CRC or load count changes( computed CRC=%u, old CRC=%u, shared CRC=%u, load count=%u, shared load count=%u [app: %s]
 Failed to load compute shader %s! (size=%d)
 Failed to load extension: CmdDebugMarkerBeginEXT
 Failed to load extension: CmdDebugMarkerEndEXT
@@ -18287,12 +18326,14 @@ GetStringForXrSessionState(XrSessionState)::buf
 GetStringFromInternalInputFocus(EVRInternalSystemBehaviorFlags)
 GetStringFromInternalInputFocus(EVRInternalSystemBehaviorFlags)::buf
 GetStringReference
+GetSubmitFlagsFromTextureDetails(float const (&) [4][4])
 GetSystemBaseTicks()
 GetSystemTicksFromTime(double)
 GetSystemTime()
 GetSystemTimeFrequency()
 GetSystemTimeFromTicks(unsigned long)
 GetSystemTimeInTicks()
+GetTextureBoundsFromTextureDetails(float const (&) [4][4])
 GetTraceMarkerFd()::__executeCount
 GetTraceMarkerFd()::s_TraceMarkerMutex
 GetTraceMarkerFd()::s_flLastAttemptTime
@@ -18523,6 +18564,10 @@ IPC::crc32(unsigned int, void const*, unsigned long)::s_crc32
 IPC::g_SharedObjectManager
 IPCPipe(%s): Sending packed message type %u, seq %u, len %u
 IPCPipe(%s): Sending simple message type %u, seq %u
+IS1
+IS2
+IS3
+IS4
 IST
 IServerTrackedDeviceProvider_002
 IServerTrackedDeviceProvider_003
@@ -21516,12 +21561,14 @@ InitVulkan
 InitVulkan2
 Initial config load timed out
 Initialize
+InitializeCompositorSharedState(VRCompositorState_t*)
 InitializeFromIPC
 InitializeInterfaceAdapters()
 InitializeInterfaceFnTables()
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.
 Initializing CVulkanVRRenderer
 Initializing the limited version of CVRCompositorClient
+Input is disabled. [app: %s]
 InputActionRequirementToEnum(std::string const&)
 InputActionRequirementToStdString(EInputActionRequirement)
 InputActionScopeToStdString(EInputActionScope)
@@ -21603,6 +21650,8 @@ Invalid bo
 Invalid bo handle
 Invalid bo size
 Invalid camera type: "
+Invalid character class.
+Invalid collate element.
 Invalid command buffer in CVRCompositorSharedTextures::EndCommandBuffer
 Invalid command buffer in CVRCompositorSharedTextures::FinishOpenCommandBuffer!
 Invalid command buffer in VRCompositorSharedTextures::UpdateSceneTextureData
@@ -21611,6 +21660,7 @@ Invalid context handle
 Invalid control characters encountered in text.
 Invalid dead zone %f
 Invalid direction in  '
+Invalid equivalence class.
 Invalid escape sequence in string literal.
 Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
 Invalid file size :
@@ -21636,9 +21686,12 @@ Invalid path in GetActionSetHandle
 Invalid proto descriptor for file "
 Invalid public dependency index.
 Invalid queue family index
+Invalid range in brace expression.
+Invalid range in bracket expression.
 Invalid response to connect message. Connect failed
 Invalid shared buffer in VRCompositorSharedTextures::UpdateSceneTextureData
 Invalid socket name parameters for shared fd
+Invalid special open parenthesis.
 Invalid staging buffer in VRCompositorSharedTextures::UpdateSceneTextureData
 Invalid strings::Substitute() format string: "
 Invalid symbol name:
@@ -22237,6 +22290,7 @@ Loading compute shader %s
 Loading pixel shader %s
 Loading vertex shader %s
 Local next event counter is invalid at %u. Resetting
+LocalAppData
 Localization files must be either an array (old-style) or an object (new-style). %s is neither
 LocalizationManager
 LocateJoints
@@ -22426,7 +22480,6 @@ N2vr22CVRNotificationsLatestE
 N2vr22IVRControllerComponentE
 N2vr22IVRExternalEventSourceE
 N2vr23IVRApplicationsInternalE
-N2vr23IVRDriverDirectInternalE
 N2vr23IVRRenderModelsInternalE
 N2vr24CVROverlayInternalLatestE
 N2vr24IVRTrackedCameraInternalE
@@ -22558,13 +22611,31 @@ N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
 N9__gnu_cxx20recursive_init_errorE
 N9__gnu_cxx24__concurrence_lock_errorE
 N9__gnu_cxx26__concurrence_unlock_errorE
+NAK
 NONE
 NORMAL
 NOT_READY
 NST
 NSt6locale5facetE
 NSt6thread6_StateE
+NSt8__detail11_AnyMatcherISt12regex_traitsIcELb0ELb0ELb0EEE
+NSt8__detail11_AnyMatcherISt12regex_traitsIcELb0ELb0ELb1EEE
+NSt8__detail11_AnyMatcherISt12regex_traitsIcELb0ELb1ELb0EEE
+NSt8__detail11_AnyMatcherISt12regex_traitsIcELb0ELb1ELb1EEE
+NSt8__detail11_AnyMatcherISt12regex_traitsIcELb1ELb0ELb0EEE
+NSt8__detail11_AnyMatcherISt12regex_traitsIcELb1ELb0ELb1EEE
+NSt8__detail11_AnyMatcherISt12regex_traitsIcELb1ELb1ELb0EEE
+NSt8__detail11_AnyMatcherISt12regex_traitsIcELb1ELb1ELb1EEE
+NSt8__detail12_CharMatcherISt12regex_traitsIcELb0ELb0EEE
+NSt8__detail12_CharMatcherISt12regex_traitsIcELb0ELb1EEE
+NSt8__detail12_CharMatcherISt12regex_traitsIcELb1ELb0EEE
+NSt8__detail12_CharMatcherISt12regex_traitsIcELb1ELb1EEE
+NSt8__detail15_BracketMatcherISt12regex_traitsIcELb0ELb0EEE
+NSt8__detail15_BracketMatcherISt12regex_traitsIcELb0ELb1EEE
+NSt8__detail15_BracketMatcherISt12regex_traitsIcELb1ELb0EEE
+NSt8__detail15_BracketMatcherISt12regex_traitsIcELb1ELb1EEE
 NSt8ios_base7failureE
+NUL
 NULL
 NaN
 NanosecondsFromSystemTicks(unsigned long)
@@ -22604,10 +22675,12 @@ Not writing boolean value because it didn't change
 Not writing scalar value because it couldn't be read
 Not writing scalar value because it didn't change
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
+Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
 Nov
 November
+Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 Numbers starting with leading zero must be in octal.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t> >*)
 NvAPI::BCanRunDirectModeBasedOnDriverVersion(unsigned int, unsigned int)
@@ -22793,6 +22866,7 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 Pa
 Parameter to BackUp() can't be negative.
+Parenthesis is not closed.
 Parse error in system resource manifest %s.
 Parse failed for JSON message in mailbox %s: %s
 ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*)
@@ -23252,6 +23326,9 @@ SCALAR
 SDL_GetError
 SDL_GetPowerInfo
 SDL_SetThreadPriority
+SI
+SO
+SOH
 STARTING INPUT FRAME
 STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
@@ -23267,8 +23344,11 @@ STEAMVR_VRENV= STEAM_RUNTIME= LD_LIBRARY_PATH="$SYSTEM_LD_LIBRARY_PATH" QT_PLUGI
 STEAMVR_VRENV= STEAM_RUNTIME= LD_LIBRARY_PATH="$SYSTEM_LD_LIBRARY_PATH" QT_PLUGIN_PATH= xdg-open '
 STEAMVR_WEBHELPER
 STEAM_RUNTIME=0 LD_LIBRARY_PATH= lsusb -d %x:%x > /dev/null
+STX
+SUB
 SUBOPTIMAL_KHR
 SXR_GL_CHECK: error:0x%x at %s:%i -> %s
+SYN
 Sat
 Saturday
 Saw pid %d exit after %d pipe connect attempts
@@ -23347,7 +23427,7 @@ SetSyncTexture
 SetUInt32
 SetUInt64
 SetUsageType
-Setting device %u with override properties for %s
+Setting device %d with override properties for %s
 Setting max texture dimensions to %dx%d before requiring downsampling
 Settings manager init failed (118)
 SettingsIdToEvent(ESettingsSectionId)
@@ -23450,6 +23530,7 @@ St11__timepunctIcE
 St11__timepunctIwE
 St11logic_error
 St11range_error
+St11regex_error
 St12codecvt_base
 St12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
 St12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
@@ -23538,6 +23619,7 @@ St23_Sp_counted_ptr_inplaceIN27CVRCompositorSharedTextures12CVulkanFenceESaIS1_E
 St23_Sp_counted_ptr_inplaceIN3gli14storage_linearESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceIN8nlohmann6detail20input_buffer_adapterESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceIN8nlohmann6detail21output_string_adapterIcSsEESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE
+St23_Sp_counted_ptr_inplaceINSt8__detail4_NFAISt12regex_traitsIcEEESaIS4_ELN9__gnu_cxx12_Lock_policyE2EE
 St23__codecvt_abstract_baseIDiDu11__mbstate_tE
 St23__codecvt_abstract_baseIDic11__mbstate_tE
 St23__codecvt_abstract_baseIDsDu11__mbstate_tE
@@ -23994,7 +24076,7 @@ Unable to load driver %s. Primary driver shared library not found on filesystem 
 Unable to load render model from %s: %s
 Unable to load safe_mode_driver_whitelist.json: %s.  Nothing will be loaded in safe mode.
 Unable to parse
-Unable to parse action manifest: %s
+Unable to parse action manifest: %s [app: %s]
 Unable to parse driver manifest %s
 Unable to parse init info. Options will be ignored
 Unable to parse perimeter
@@ -24023,11 +24105,26 @@ Unable to write VR path registry to %s
 Unable to write action data
 Unable to write path registry (113)
 Unbound input (%s,%s) for chord, ignoring chord.
+Unexpected back-reference in polynomial mode.
+Unexpected character class open bracket.
+Unexpected character in brace expression.
+Unexpected character in bracket expression.
+Unexpected dash in bracket expression. For POSIX syntax, a dash is not treated literally only when it is at beginning or end.
+Unexpected end of brace expression.
+Unexpected end of character class.
+Unexpected end of regex when ascii character.
+Unexpected end of regex when escaping.
+Unexpected end of regex when in an open parenthesis.
+Unexpected end of regex when in brace expression.
+Unexpected end of regex when in bracket expression.
+Unexpected end of regex when reading control code.
 Unexpected end of string.
 Unexpected error %s when trying to read input value %s (%lX)
 Unexpected error %s when trying to read input value %s (%lX) with expected type %s
+Unexpected escape character.
 Unexpected failure when checking for timeline signal
 Unexpected failure while serializing option submessage
+Unexpected token in brace expression.
 Unflushed events requested in CGpuTiming::GetDeltas!
 Unimplemented type:
 UnixTimeToDateAndTimeString(unsigned long)
@@ -24328,10 +24425,10 @@ VREvent_ResetDashboard
 VREvent_RestartRequested
 VREvent_RoomViewHidden
 VREvent_RoomViewShown
+VREvent_SceneAppPipeDisconnected
 VREvent_SceneApplicationChanged
 VREvent_SceneApplicationStateChanged
 VREvent_SceneApplicationUsingWrongGraphicsAdapter
-VREvent_SceneFocusChanged
 VREvent_ScreenshotFailed
 VREvent_ScreenshotProgressToDashboard
 VREvent_ScreenshotTaken
@@ -26037,6 +26134,7 @@ Z
 ] name = "
 ] name = [
 ^
+^$\.*+?()[]{}|
 ^=
 _
 _%lx_%d
@@ -26191,6 +26289,7 @@ _GLOBAL__sub_I_vrclient.cpp
 _GLOBAL__sub_I_vrclientcore.cpp
 _GLOBAL__sub_I_vrcompositorclient.cpp
 _GLOBAL__sub_I_vrcompositorclientbase.cpp
+_GLOBAL__sub_I_vrcompositorsharedstate.cpp
 _GLOBAL__sub_I_vrcompositorsharedtextures.cpp
 _GLOBAL__sub_I_vrcrash.cpp
 _GLOBAL__sub_I_vrdebug.cpp
@@ -26401,8 +26500,9 @@ __gnu_cxx::__freeres()
 __gnu_cxx::__normal_iterator<CSxrDeletableBase**, std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> > > std::__find_if<__gnu_cxx::__normal_iterator<CSxrDeletableBase**, std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> > >, __gnu_cxx::__ops::_Iter_equals_val<CSxrDeletableBase* const> >(__gnu_cxx::__normal_iterator<CSxrDeletableBase**, std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> > >, __gnu_cxx::__normal_iterator<CSxrDeletableBase**, std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*> > >, __gnu_cxx::__ops::_Iter_equals_val<CSxrDeletableBase* const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > > std::__find_if<__gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > >, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long, unsigned long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}> >(__gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long, unsigned long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long, unsigned long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long, unsigned long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, std::random_access_iterator_tag) [clone .isra.0]
 __gnu_cxx::__normal_iterator<char const*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> > >(__gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, std::random_access_iterator_tag) [clone .isra.0]
+__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::__unique<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter)
 __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > > std::__find_if<__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const> >(__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const>, std::random_access_iterator_tag)
-__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const>, std::random_access_iterator_tag)
+__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<unsigned long const*, std::vector<unsigned long, std::allocator<unsigned long> > > std::__find_if<__gnu_cxx::__normal_iterator<unsigned long const*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const> >(__gnu_cxx::__normal_iterator<unsigned long const*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__normal_iterator<unsigned long const*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > > std::__find_if<__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const> >(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, __gnu_cxx::__ops::_Iter_equals_val<vr_internal::CVRPathHandle const>, std::random_access_iterator_tag)
@@ -26525,6 +26625,7 @@ _handle
 _header
 _init
 _legacy
+_openxr
 _response
 _steamvrinput
 _stickyclick
@@ -26587,6 +26688,7 @@ additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 adds.10132
 aggregate_value
+alert
 alias_info
 alias_info field exists, but it is not an object
 alias_name
@@ -26626,12 +26728,14 @@ amdgpu_query_gpu_info
 amdgpu_va_range_alloc
 amdgpu_va_range_free
 amdwvr
+ampersand
 amplitude
 an
 animations
 anims
 any_objects_registered
 api
+apostrophe
 app_key
 app_name
 applaunch_steam
@@ -26653,6 +26757,7 @@ asinf
 aspectRatio
 assert json failed
 asset
+asterisk
 at
 at line
 atan2
@@ -26698,6 +26803,8 @@ background
 backgroundCameraHeight
 backgroundDomeRadius
 backgroundUseDomeProjection
+backslash
+backspace
 backtrace
 backtrace_symbols
 bad AC huff
@@ -26965,6 +27072,12 @@ bool std::(anonymous namespace)::write_utf16_code_point<char16_t, false>(std::(a
 bool std::(anonymous namespace)::write_utf16_code_point<char16_t, true>(std::(anonymous namespace)::range<char16_t, true>&, char32_t, std::codecvt_mode) [clone .part.0]
 bool std::(anonymous namespace)::write_utf8_bom<char>(std::(anonymous namespace)::range<char, true>&, std::codecvt_mode) [clone .part.0]
 bool std::(anonymous namespace)::write_utf8_code_point<char>(std::(anonymous namespace)::range<char, true>&, char32_t)
+bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>&)
+bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<false, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>&)
+bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<true, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>&)
+bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<true, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>&)
+bool std::__detail::__regex_algo_impl<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, char, std::regex_traits<char>, (std::__detail::_RegexExecutorPolicy)0, false>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::match_results<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >&, std::basic_regex<char, std::regex_traits<char> > const&, std::regex_constants::match_flag_type)
+bool std::binary_search<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char const&)
 bool std::has_facet<std::__timepunct<char> >(std::locale const&)
 bool std::has_facet<std::__timepunct<wchar_t> >(std::locale const&)
 bool std::has_facet<std::codecvt<char, char, __mbstate_t> >(std::locale const&)
@@ -27051,6 +27164,7 @@ cannot use push_back() with
 capsense
 capsense_enable_threshold
 capsense_source
+carriage-return
 category
 cc
 center
@@ -27093,6 +27207,7 @@ children
 chmod
 chord_%d_%lu
 chords
+circumflex
 cl
 classify_object_over_fdes
 clear_overlay_texture
@@ -27115,9 +27230,12 @@ co
 collectComments
 collisionBounds
 collision_bounds
+colon
 color
+comma
 commentStyle
 commentStyle must be 'All' or 'None'
+commercial-at
 compatibility_mode
 completed.7953
 complex
@@ -27325,6 +27443,7 @@ dlerror
 dlopen
 dlsym
 doNotFadeToGrid
+dollar-sign
 double
 double const& CSettingsManager::GetValue<double>(char const*, char const*, vr::EVRSettingsError*)
 double const& CSettingsValue::Get<double>() const
@@ -27373,6 +27492,7 @@ eO
 east
 east_click
 east_touch
+eight
 el_el
 emissiveFactor
 emissiveTexture
@@ -27390,12 +27510,14 @@ entries
 enum
 eo
 eq
+equals-sign
 err
 error
 error %s when initing driver %s from %s.
 es_es
 es_mx
 exception thrown in JSON library
+exclamation-mark
 execute_cfa_program
 execute_cfa_program.cold
 execute_native_thread_routine
@@ -27634,6 +27756,7 @@ firmwarerecovery
 firmwareupdate
 first not IHDR
 first_row_filter
+five
 fixed32
 fixed64
 fl
@@ -27659,6 +27782,8 @@ force_sensor
 force_source
 forcedDriver
 fork
+form-feed
+four
 fovScale
 fputc
 fputs
@@ -30003,6 +30128,8 @@ gpu_profiler_capture
 grab
 grab_value_and_force
 graph
+grave-accent
+greater-than-sign
 greek
 green
 gripLimitData
@@ -30083,6 +30210,10 @@ guard variable for UTF16to8(wchar_t const*)::s_converter
 guard variable for UTF8to16(char const*)::s_converter
 guard variable for gli::dx::dx()::Table
 guard variable for std::(anonymous namespace)::key_init()::ks
+guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
+guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
+guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
+guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
 guard variable for std::__timepunct<char>::id
 guard variable for std::__timepunct<wchar_t>::id
 guard variable for std::collate<char>::id
@@ -30147,6 +30278,7 @@ http://
 https://
 hu_hu
 hungarian
+hyphen
 i
 i >= 0
 i+
@@ -30225,6 +30357,7 @@ int32
 int64
 intensity
 interaction_profile
+internet
 interpolation
 invalid
 invalid BOM; must be 0xEF 0xBB 0xBF if given
@@ -30307,6 +30440,7 @@ joystick_rotation_y
 joystick_settings
 jpg
 jsonid
+k
 kMetacarpalBones
 kMirrorTranslationOnlyBones
 kModelSpaceBones
@@ -30411,6 +30545,9 @@ ldexpf
 le
 leading_comments
 left
+left-curly-bracket
+left-parenthesis
+left-square-bracket
 leftThumbstickRotation
 left_
 leftright
@@ -30421,6 +30558,7 @@ legacy_buttons
 legacy_debugger
 legacy_input_frame
 legacy_mirrored
+less-than-sign
 lhs->m_pTimeline == rhs->m_pTimeline
 li
 libGL.so.1
@@ -30605,10 +30743,12 @@ ne
 new
 new[]
 new_pid
+newline
 newmtl
 next_is_type_qual.isra.0
 nfinity
 ng
+nine
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::operator[]<char const>(char const*)
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::emplace_back<bool&>(bool&)
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::emplace_back<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >(nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&&)
@@ -30720,6 +30860,7 @@ non-virtual thunk to CHmdSystemLatest::GetPaths()
 non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 non-virtual thunk to CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 non-virtual thunk to CHmdSystemLatest::GetProperties()
+non-virtual thunk to CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*)
 non-virtual thunk to CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
 non-virtual thunk to CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string> >*, std::string const&)
 non-virtual thunk to CHmdSystemLatest::GetResources()
@@ -31099,6 +31240,7 @@ num_buttons
 number
 number literal
 number overflow parsing '
+number-sign
 nw
 o
 oR
@@ -31123,6 +31265,7 @@ on/
 on/x
 on/y
 once_regsizes.10235
+one
 only 8-bit
 oo
 open
@@ -31221,7 +31364,9 @@ path
 pauseCompositorOnStandby
 pbrMetallicRoughness
 pclose
+percent-sign
 perfcheck
+period
 perspective
 pfnSteamAPI_SetBreakpadAppID
 pfnSteamAPI_SetMiniDumpComment
@@ -31236,6 +31381,7 @@ pl
 pl_pl
 playAreaColor
 play_area
+plus-sign
 pm
 png
 polish
@@ -31517,6 +31663,8 @@ q
 q:
 qsort
 qu
+question-mark
+quotation-mark
 r
 r+
 r+b
@@ -31544,6 +31692,7 @@ recvmsg
 red
 redirectsDisplay
 reference temporary #
+regex_error
 register_tm_clones
 registered:
 registered_device_type
@@ -31577,6 +31726,9 @@ returnBindingsWithRightHand
 rewind
 rift
 right
+right-curly-bracket
+right-parenthesis
+right-square-bracket
 rightThumbstickRotation
 right_
 rm
@@ -31653,6 +31805,7 @@ seen_objects
 selectBuf
 semctl
 semget
+semicolon
 semop
 sendSystemButtonToAllApps
 sendmsg
@@ -31680,6 +31833,7 @@ setrlimit
 settings
 settings/desktop
 setvbuf
+seven
 sfixed32
 sfixed64
 sg_bAcquireSyncInPresent
@@ -31696,6 +31850,7 @@ shaders/vulkan/distort_geom_aa_lines_ps.spv
 shaders/vulkan/distort_geom_aa_lines_vs.spv
 shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
+shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
 shaders/vulkan/distort_geom_curved_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_curved_vs.spv
@@ -31857,6 +32012,7 @@ sinf
 single
 sint32
 sint64
+six
 sizeBytes == 0
 size_of_encoded_value
 size_of_encoded_value.cold
@@ -31869,6 +32025,7 @@ skeletons
 skin
 skins
 slData
+slash
 slot
 smooth
 smooth_scroll_acceleration_power
@@ -32146,6 +32303,9 @@ std::_Deque_base<CVkCommandBuffer*, std::allocator<CVkCommandBuffer*> >::~_Deque
 std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_initialize_map(unsigned long)
 std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::_M_initialize_map(unsigned long)
 std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::~_Deque_base()
+std::_Deque_base<long, std::allocator<long> >::_M_initialize_map(unsigned long)
+std::_Deque_base<long, std::allocator<long> >::~_Deque_base()
+std::_Deque_base<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::~_Deque_base()
 std::_Deque_base<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t> >::~_Deque_base()
 std::_Fnv_hash_bytes(void const*, unsigned long, unsigned long)
 std::_Function_base::_Base_manager<CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)::{lambda(char const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType)::{lambda(char const*)#1}> const&, std::_Manager_operation)
@@ -32174,6 +32334,22 @@ std::_Function_base::_Base_manager<ProcessAnalogThresholds(bool, unsigned int, X
 std::_Function_base::_Base_manager<ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::regex_traits<char>, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::regex_traits<char>, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<sxr_xrGetActionStateFloat(XrSession_T*, XrActionStateGetInfo const*, XrActionStateFloat*)::{lambda(XrAction_T*, unsigned long, XrActionStateFloat*, unsigned long*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<sxr_xrGetActionStateFloat(XrSession_T*, XrActionStateGetInfo const*, XrActionStateFloat*)::{lambda(XrAction_T*, unsigned long, XrActionStateFloat*, unsigned long*)#1}> const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<sxr_xrGetActionStatePose(XrSession_T*, XrActionStateGetInfo const*, XrActionStatePose*)::{lambda(XrAction_T*, unsigned long, XrActionStatePose*, unsigned long*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<sxr_xrGetActionStatePose(XrSession_T*, XrActionStateGetInfo const*, XrActionStatePose*)::{lambda(XrAction_T*, unsigned long, XrActionStatePose*, unsigned long*)#1}> const&, std::_Manager_operation)
@@ -32191,6 +32367,22 @@ std::_Function_handler<bool (XrInteractionProfileAnalogThresholdVALVE const*), P
 std::_Function_handler<bool (XrInteractionProfileAnalogThresholdVALVE const*), ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}>::_M_invoke(std::_Any_data const&, XrInteractionProfileAnalogThresholdVALVE const*&&)
 std::_Function_handler<bool (XrInteractionProfileDpadBindingEXT const*), ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}>::_M_invoke(std::_Any_data const&, XrInteractionProfileDpadBindingEXT const*&&)
 std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::regex_traits<char>, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, true> >::_M_invoke(std::_Any_data const&, char&&)
 std::_Function_handler<bool (unsigned long), CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::{lambda(unsigned long)#1}>::_M_invoke(std::_Any_data const&, unsigned long&&)
 std::_Function_handler<bool (unsigned short, unsigned short, unsigned short), CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}>::_M_invoke(std::_Any_data const&, unsigned short&&, std::_Any_data const&, std::_Any_data const&)
 std::_Function_handler<bool (vr::ETrackedDeviceClass), CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}>::_M_invoke(std::_Any_data const&, vr::ETrackedDeviceClass&&)
@@ -32362,6 +32554,9 @@ std::_Rb_tree<int, std::pair<int const, google::protobuf::internal::ExtensionSet
 std::_Rb_tree<int, std::pair<int const, std::string>, std::_Select1st<std::pair<int const, std::string> >, std::less<int>, std::allocator<std::pair<int const, std::string> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, std::string> >*)
 std::_Rb_tree<int, std::pair<int const, std::string>, std::_Select1st<std::pair<int const, std::string> >, std::less<int>, std::allocator<std::pair<int const, std::string> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<int const, std::string> >, int const&)
 std::_Rb_tree<int, std::pair<int const, std::string>, std::_Select1st<std::pair<int const, std::string> >, std::less<int>, std::allocator<std::pair<int const, std::string> > >::_M_get_insert_unique_pos(int const&)
+std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_erase(std::_Rb_tree_node<std::pair<long const, long> >*)
+std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<long const, long> >, long const&)
+std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_insert_unique_pos(long const&)
 std::_Rb_tree<std::pair<google::protobuf::Descriptor const*, int>, std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*>, std::_Select1st<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> >, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > >::_M_erase(std::_Rb_tree_node<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> >*)
 std::_Rb_tree<std::pair<google::protobuf::Descriptor const*, int>, std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*>, std::_Select1st<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> >, std::less<std::pair<google::protobuf::Descriptor const*, int> >, std::allocator<std::pair<std::pair<google::protobuf::Descriptor const*, int> const, google::protobuf::FieldDescriptor const*> > >::equal_range(std::pair<google::protobuf::Descriptor const*, int> const&)
 std::_Rb_tree<std::pair<std::string, int>, std::pair<std::pair<std::string, int> const, google::protobuf::FileDescriptorProto const*>, std::_Select1st<std::pair<std::pair<std::string, int> const, google::protobuf::FileDescriptorProto const*> >, std::less<std::pair<std::string, int> >, std::allocator<std::pair<std::pair<std::string, int> const, google::protobuf::FileDescriptorProto const*> > >::_M_erase(std::_Rb_tree_node<std::pair<std::pair<std::string, int> const, google::protobuf::FileDescriptorProto const*> >*)
@@ -32457,6 +32652,7 @@ std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<s
 std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::string>, std::string const&)
 std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_get_insert_unique_pos(std::string const&)
 std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_Rb_tree_impl<std::less<std::string>, true>::_Rb_tree_impl()
+std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::find(std::string const&)
 std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::find(std::string const&) const
 std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::operator=(std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> > const&)
 std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::~_Rb_tree()
@@ -32564,6 +32760,7 @@ std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree
 std::_Rb_tree_iterator<std::pair<AssertLookup_t const, bool> > std::_Rb_tree<AssertLookup_t, std::pair<AssertLookup_t const, bool>, std::_Select1st<std::pair<AssertLookup_t const, bool> >, std::less<AssertLookup_t>, std::allocator<std::pair<AssertLookup_t const, bool> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<AssertLookup_t const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<AssertLookup_t const, bool> >, std::piecewise_construct_t const&, std::tuple<AssertLookup_t const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t> > std::_Rb_tree<CVkTimeline*, std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>, std::_Select1st<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t> >, std::less<CVkTimeline*>, std::allocator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<CVkTimeline* const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t> >, std::piecewise_construct_t const&, std::tuple<CVkTimeline* const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_emplace_hint_unique<std::pair<Json::Value::CZString const, Json::Value>&>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::pair<Json::Value::CZString const, Json::Value>&)
+std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > > std::_Rb_tree<std::pair<std::string, int>, std::pair<std::pair<std::string, int> const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > >, std::less<std::pair<std::string, int> >, std::allocator<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > > >::_M_insert_<std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > const&>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::pair<std::string, int> const, std::pair<void const*, int> > const&)
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response> > std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetBool_Response> >, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> > std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> >, std::less<std::pair<std::string, std::string> >, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response> >, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
@@ -32687,6 +32884,10 @@ std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::
 std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
 std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
 std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
 std::_Sp_make_shared_tag::_S_ti()::__tag
 std::_V2::error_category::_M_message(int) const
 std::_V2::error_category::_M_message(int) const [clone .cold]
@@ -32793,6 +32994,41 @@ std::__codecvt_utf8_utf16_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wc
 std::__codecvt_utf8_utf16_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
 std::__codecvt_utf8_utf16_base<wchar_t>::~__codecvt_utf8_utf16_base()
 std::__convert_from_v(__locale_struct* const&, char*, int, char const*, ...)
+std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
+std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
+std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
+std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
+std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>::_M_ready()
+std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>::~_BracketMatcher()
+std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>::_M_make_range(char, char)
+std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>::_M_ready()
+std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>::~_BracketMatcher()
+std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>::_M_ready()
+std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>::~_BracketMatcher()
+std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_make_range(char, char)
+std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_ready()
+std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::~_BracketMatcher()
+std::__detail::_Compiler<std::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type)
+std::__detail::_Compiler<std::regex_traits<char> >::_M_alternative()
+std::__detail::_Compiler<std::regex_traits<char> >::_M_assertion()
+std::__detail::_Compiler<std::regex_traits<char> >::_M_atom()
+std::__detail::_Compiler<std::regex_traits<char> >::_M_bracket_expression()
+std::__detail::_Compiler<std::regex_traits<char> >::_M_cur_int_value(int)
+std::__detail::_Compiler<std::regex_traits<char> >::_M_disjunction()
+std::__detail::_Compiler<std::regex_traits<char> >::_M_quantifier()
+std::__detail::_Compiler<std::regex_traits<char> >::_M_try_char()
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_dfs(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_Match_mode, long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_is_word(char) const::__s
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_lookahead(long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_main_dispatch(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_Match_mode, std::integral_constant<bool, false>)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::_Match_mode, long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, false>::~_Executor()
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_dfs(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_is_word(char) const::__s
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_lookahead(long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_main_dispatch(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, std::integral_constant<bool, true>) [clone .isra.0] [clone .constprop.0]
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::_Match_mode, long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > >, std::regex_traits<char>, true>::~_Executor()
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode> > >, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView> > >, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::pair<int, int> const, unsigned int>, true> > >::_M_allocate_buckets(unsigned long) [clone .isra.0]
@@ -32818,9 +33054,23 @@ std::__detail::_Map_base<std::string, std::pair<std::string const, std::unique_p
 std::__detail::_Map_base<std::string, std::pair<std::string const, unsigned long>, std::allocator<std::pair<std::string const, unsigned long> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string const&)
 std::__detail::_Map_base<std::type_index, std::pair<std::type_index const, ChildData>, std::allocator<std::pair<std::type_index const, ChildData> >, std::__detail::_Select1st, std::equal_to<std::type_index>, std::hash<std::type_index>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](std::type_index const&)
 std::__detail::_Map_base<vr::HmdVector2_t, std::pair<vr::HmdVector2_t const, int>, std::allocator<std::pair<vr::HmdVector2_t const, int> >, std::__detail::_Select1st, vr::HmdVector2TolerancedEqual, vr::HmdVector2TolerancedHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](vr::HmdVector2_t const&)
+std::__detail::_NFA<std::regex_traits<char> >::_M_insert_backref(unsigned long)
 std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
 std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
 std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const::__fast_bkt
+std::__detail::_Scanner<char>::_M_advance()
+std::__detail::_Scanner<char>::_M_eat_class(char)
+std::__detail::_Scanner<char>::_M_eat_escape_awk()
+std::__detail::_Scanner<char>::_M_eat_escape_ecma()
+std::__detail::_Scanner<char>::_M_eat_escape_posix()
+std::__detail::_Scanner<char>::_M_scan_in_brace()
+std::__detail::_Scanner<char>::_M_scan_in_bracket()
+std::__detail::_Scanner<char>::_M_scan_normal()
+std::__detail::_Scanner<char>::_Scanner(char const*, char const*, std::regex_constants::syntax_option_type, std::locale)
+std::__detail::_State<char>::_State(std::__detail::_State<char>&&)
+std::__detail::_State<char>::~_State()
+std::__detail::_StateSeq<std::regex_traits<char> >& std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::regex_traits<char> > >(std::__detail::_StateSeq<std::regex_traits<char> >&&)
+std::__detail::_StateSeq<std::regex_traits<char> >::_M_clone()
 std::__detail::__prime_list
 std::__ioinit
 std::__moneypunct_cache<char, false>::_M_cache(std::locale const&)
@@ -32847,6 +33097,8 @@ std::__numpunct_cache<wchar_t>::__numpunct_cache(unsigned long)
 std::__numpunct_cache<wchar_t>::~__numpunct_cache()
 std::__pad<char, std::char_traits<char> >::_S_pad(std::ios_base&, char, char*, char const*, long, long)
 std::__pad<wchar_t, std::char_traits<wchar_t> >::_S_pad(std::ios_base&, wchar_t, wchar_t*, wchar_t const*, long, long)
+std::__shared_count<(__gnu_cxx::_Lock_policy)2>::operator=(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [clone .isra.0]
+std::__shared_ptr<CVRInputLatest::InputFrame_t, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<CVRInputLatest::InputFrame_t, (__gnu_cxx::_Lock_policy)2> const&)
 std::__throw_bad_alloc()
 std::__throw_bad_cast()
 std::__throw_bad_exception()
@@ -32863,6 +33115,8 @@ std::__throw_out_of_range_fmt(char const*, ...)
 std::__throw_out_of_range_fmt(char const*, ...) [clone .cold]
 std::__throw_overflow_error(char const*)
 std::__throw_range_error(char const*)
+std::__throw_regex_error(std::regex_constants::error_type)
+std::__throw_regex_error(std::regex_constants::error_type, char const*)
 std::__throw_runtime_error(char const*)
 std::__throw_system_error(int)
 std::__throw_underflow_error(char const*)
@@ -32912,6 +33166,8 @@ std::__verify_grouping(char const*, unsigned long, std::string const&)
 std::__verify_grouping(char const*, unsigned long, std::string const&) [clone .cold]
 std::__verify_grouping_impl(char const*, unsigned long, char const*, unsigned long)
 std::allocator
+std::back_insert_iterator<std::string> std::match_results<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::format<std::back_insert_iterator<std::string> >(std::back_insert_iterator<std::string>, char const*, char const*, std::regex_constants::match_flag_type) const
+std::back_insert_iterator<std::string> std::regex_replace<std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::regex_traits<char>, char>(std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::basic_regex<char, std::regex_traits<char> > const&, char const*, std::regex_constants::match_flag_type)
 std::bad_alloc
 std::bad_alloc::what() const
 std::bad_alloc::~bad_alloc()
@@ -33354,6 +33610,7 @@ std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wcha
 std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::str(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
 std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::swap(std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&)
 std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_ostringstream()
+std::basic_regex<char, std::regex_traits<char> >::~basic_regex()
 std::basic_streambuf<char, std::char_traits<char> >::__safe_gbump(long)
 std::basic_streambuf<char, std::char_traits<char> >::__safe_pbump(long)
 std::basic_streambuf<char, std::char_traits<char> >::basic_streambuf()
@@ -33897,6 +34154,7 @@ std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_
 std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>, std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>)
 std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_new_elements_at_back(unsigned long)
 std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_reallocate_map(unsigned long, bool)
+std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::_M_reallocate_map(unsigned long, bool)
 std::deque<std::string, std::allocator<std::string> >::_M_destroy_data_aux(std::_Deque_iterator<std::string, std::string&, std::string*>, std::_Deque_iterator<std::string, std::string&, std::string*>)
 std::deque<std::string, std::allocator<std::string> >::~deque()
 std::domain_error::domain_error(char const*)
@@ -33907,6 +34165,11 @@ std::error_code::default_error_condition() const
 std::exception
 std::exception::what() const
 std::exception::~exception()
+std::function<bool (char)>::function(std::function<bool (char)> const&)
+std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>, void, void>(std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>)
+std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>, void, void>(std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>)
+std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>, void, void>(std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>)
+std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>, void, void>(std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>)
 std::function<bool (int, nlohmann::detail::parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >::parse_event_t, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&)>::function(std::function<bool (int, nlohmann::detail::parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >::parse_event_t, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&)> const&)
 std::function<void (Json::Value const&)>::function(std::function<void (Json::Value const&)> const&)
 std::function<void (bool)>::~function()
@@ -34556,6 +34819,8 @@ std::pair<ETrackerRole, char const*>& std::vector<std::pair<ETrackerRole, char c
 std::pair<Json::Value::CZString const, Json::Value>::~pair()
 std::pair<bool, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>*> nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >::handle_value<bool&>(bool&, bool)
 std::pair<bool, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>*> nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >::handle_value<nlohmann::detail::value_t>(nlohmann::detail::value_t&&, bool)
+std::pair<char, char>& std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::emplace_back<std::pair<char, char> >(std::pair<char, char>&&)
+std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >& std::vector<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >, std::allocator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > > > >::emplace_back<long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&>(long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&)
 std::pair<std::_Rb_tree_iterator<CVkResourceBase*>, bool> std::_Rb_tree<CVkResourceBase*, CVkResourceBase*, std::_Identity<CVkResourceBase*>, CVkResourceComparator, std::allocator<CVkResourceBase*> >::_M_insert_unique<CVkResourceBase* const&>(CVkResourceBase* const&)
 std::pair<std::_Rb_tree_iterator<XrActionType>, bool> std::_Rb_tree<XrActionType, XrActionType, std::_Identity<XrActionType>, std::less<XrActionType>, std::allocator<XrActionType> >::_M_insert_unique<XrActionType const&>(XrActionType const&)
 std::pair<std::_Rb_tree_iterator<facet::CCompositionClient::SwapchainImage_t>, bool> std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t> >::_M_insert_unique<facet::CCompositionClient::SwapchainImage_t const&>(facet::CCompositionClient::SwapchainImage_t const&)
@@ -34591,11 +34856,21 @@ std::pair<std::string const, std::shared_ptr<CSimulatedActionBase> >::~pair()
 std::pair<std::string const, std::string>::~pair()
 std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > > > >::~pair()
 std::pair<std::string, std::shared_ptr<CInputActionSet> >::~pair()
+std::pair<std::string, std::string>& std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > >::emplace_back<std::pair<std::string, std::string> >(std::pair<std::string, std::string>&&)
 std::pair<std::string, std::string>::~pair()
 std::piecewise_construct
 std::range_error::range_error(char const*)
 std::range_error::range_error(std::string const&)
 std::range_error::~range_error()
+std::regex_error::regex_error(std::regex_constants::error_type)
+std::regex_error::~regex_error()
+std::regex_iterator<__gnu_cxx::__normal_iterator<char const*, std::string>, char, std::regex_traits<char> >::operator++()
+std::regex_iterator<__gnu_cxx::__normal_iterator<char const*, std::string>, char, std::regex_traits<char> >::operator==(std::regex_iterator<__gnu_cxx::__normal_iterator<char const*, std::string>, char, std::regex_traits<char> > const&) const
+std::regex_traits<char>::_RegexMask std::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const
+std::regex_traits<char>::isctype(char, std::regex_traits<char>::_RegexMask) const
+std::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const::__classnames
+std::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const::__collatenames
+std::regex_traits<char>::value(char, int) const
 std::runtime_error::operator=(std::runtime_error const&)
 std::runtime_error::operator=(std::runtime_error&&)
 std::runtime_error::runtime_error(char const*)
@@ -34621,6 +34896,8 @@ std::string const* const& google::protobuf::internal::GeneratedMessageReflection
 std::string const* const& google::protobuf::internal::GeneratedMessageReflection::GetRaw<std::string const*>(google::protobuf::Message const&, google::protobuf::FieldDescriptor const*) const
 std::string google::protobuf::StrCat<char [2], std::string, char [2]>(char const (&) [2], std::string const&, char const (&) [2])
 std::string nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::get<std::string, std::string, 0>() const
+std::string std::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const
+std::string std::regex_traits<char>::transform_primary<char*>(char*, char*) const
 std::string& std::vector<std::string, std::allocator<std::string> >::emplace_back<std::string>(std::string&&)
 std::string** google::protobuf::internal::GeneratedMessageReflection::MutableField<std::string*>(google::protobuf::Message*, google::protobuf::FieldDescriptor const*) const
 std::string** google::protobuf::internal::GeneratedMessageReflection::MutableRaw<std::string*>(google::protobuf::Message*, google::protobuf::FieldDescriptor const*) const
@@ -34938,6 +35215,7 @@ std::vector<char const*, std::allocator<char const*> >::_M_check_len(unsigned lo
 std::vector<char const*, std::allocator<char const*> >::_M_default_append(unsigned long)
 std::vector<char const*, std::allocator<char const*> >::resize(unsigned long)
 std::vector<char, std::allocator<char> >::_M_default_append(unsigned long)
+std::vector<char, std::allocator<char> >::_M_erase(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >)
 std::vector<char, std::allocator<char> >::_M_fill_insert(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, unsigned long, char const&)
 std::vector<double, std::allocator<double> >::_M_default_append(unsigned long)
 std::vector<double, std::allocator<double> >::operator=(std::vector<double, std::allocator<double> > const&)
@@ -34963,18 +35241,20 @@ std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*> >::_M_realloc
 std::vector<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >, std::allocator<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > > >::~vector()
 std::vector<std::pair<google::protobuf::Descriptor const*, int>, std::allocator<std::pair<google::protobuf::Descriptor const*, int> > >::_M_check_len(unsigned long, char const*) const
 std::vector<std::pair<google::protobuf::Descriptor const*, int>, std::allocator<std::pair<google::protobuf::Descriptor const*, int> > >::_M_default_append(unsigned long)
+std::vector<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >, std::allocator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > > > >::~vector()
 std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > >::~vector()
 std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >::~vector()
 std::vector<std::string*, std::allocator<std::string*> >::_M_check_len(unsigned long, char const*) const
 std::vector<std::string*, std::allocator<std::string*> >::_M_default_append(unsigned long)
 std::vector<std::string, std::allocator<std::string> >::_M_check_len(unsigned long, char const*) const
-std::vector<std::string, std::allocator<std::string> >::_M_erase(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >)
-std::vector<std::string, std::allocator<std::string> >::insert(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+std::vector<std::string, std::allocator<std::string> >::_M_insert_rval(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
 std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
 std::vector<std::string, std::allocator<std::string> >::push_back(std::string const&)
 std::vector<std::string, std::allocator<std::string> >::reserve(unsigned long)
 std::vector<std::string, std::allocator<std::string> >::vector(std::initializer_list<std::string>, std::allocator<std::string> const&)
 std::vector<std::string, std::allocator<std::string> >::~vector()
+std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::_M_default_append(unsigned long)
+std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::operator=(std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&)
 std::vector<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block> >, std::allocator<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block> > > >::~vector()
 std::vector<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer> >, std::allocator<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer> > > >::~vector()
 std::vector<tinygltf::Animation, std::allocator<tinygltf::Animation> >::push_back(tinygltf::Animation const&)
@@ -35465,6 +35745,7 @@ t
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
+tab
 tanf
 target
 targets
@@ -35485,6 +35766,7 @@ the global scope
 the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
 this
+three
 throw
 thumbnail
 thumbstick
@@ -35494,6 +35776,7 @@ thumbstick_deadzone_%s
 thumbstick_settings
 thumbstick_settings_%s
 thumbstick_system_override
+tilde
 time
 tinygltf::Accessor::operator==(tinygltf::Accessor const&) const
 tinygltf::Accessor::~Accessor()
@@ -35775,6 +36058,7 @@ true
 true literal
 turkish
 tw
+two
 type
 type must be boolean, but is
 type must be number, but is
@@ -36745,6 +37029,7 @@ typeinfo for std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__g
 typeinfo for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<nlohmann::detail::input_buffer_adapter, std::allocator<nlohmann::detail::input_buffer_adapter>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>
+typeinfo for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_V2::error_category
 typeinfo for std::_Weak_result_type<void (CVRMailbox::*)(Json::Value const&)>
 typeinfo for std::_Weak_result_type_memfun<void (CVRMailbox::*)(Json::Value const&), true>
@@ -36763,6 +37048,22 @@ typeinfo for std::__codecvt_utf8_utf16_base<char32_t>
 typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
 typeinfo for std::__ctype_abstract_base<char>
 typeinfo for std::__ctype_abstract_base<wchar_t>
+typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>
+typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>
+typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>
+typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>
+typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false>
+typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true>
+typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false>
+typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>
+typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>
+typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>
+typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>
+typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>
+typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, false, false>
+typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, false, true>
+typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, false>
+typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, true>
 typeinfo for std::__moneypunct_cache<char, false>
 typeinfo for std::__moneypunct_cache<char, true>
 typeinfo for std::__moneypunct_cache<wchar_t, false>
@@ -36860,6 +37161,7 @@ typeinfo for std::ostream
 typeinfo for std::out_of_range
 typeinfo for std::overflow_error
 typeinfo for std::range_error
+typeinfo for std::regex_error
 typeinfo for std::runtime_error
 typeinfo for std::system_error
 typeinfo for std::thread::_State
@@ -37933,6 +38235,7 @@ typeinfo name for std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>,
 typeinfo name for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<nlohmann::detail::input_buffer_adapter, std::allocator<nlohmann::detail::input_buffer_adapter>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>
+typeinfo name for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_make_shared_tag
 typeinfo name for std::_V2::error_category
 typeinfo name for std::_Weak_result_type<void (CVRMailbox::*)(Json::Value const&)>
@@ -37952,6 +38255,22 @@ typeinfo name for std::__codecvt_utf8_utf16_base<char32_t>
 typeinfo name for std::__codecvt_utf8_utf16_base<wchar_t>
 typeinfo name for std::__ctype_abstract_base<char>
 typeinfo name for std::__ctype_abstract_base<wchar_t>
+typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>
+typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>
+typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>
+typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>
+typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false>
+typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true>
+typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false>
+typeinfo name for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>
+typeinfo name for std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>
+typeinfo name for std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>
+typeinfo name for std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>
+typeinfo name for std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>
+typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, false, false>
+typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, false, true>
+typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, true, false>
+typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, true, true>
 typeinfo name for std::__moneypunct_cache<char, false>
 typeinfo name for std::__moneypunct_cache<char, true>
 typeinfo name for std::__moneypunct_cache<wchar_t, false>
@@ -38049,6 +38368,7 @@ typeinfo name for std::ostream
 typeinfo name for std::out_of_range
 typeinfo name for std::overflow_error
 typeinfo name for std::range_error
+typeinfo name for std::regex_error
 typeinfo name for std::runtime_error
 typeinfo name for std::system_error
 typeinfo name for std::thread::_State
@@ -38182,6 +38502,7 @@ unable to allocate vkBuffer-associated memory
 unaligned height
 unaligned width
 uncbVREvent <= sizeof( vr::VREvent_t )
+underscore
 unexpected
 ungetc
 ungetwc
@@ -38267,6 +38588,8 @@ vector<bool>::_M_fill_insert
 vector<bool>::_M_insert_aux
 version
 version.txt
+vertical-line
+vertical-tab
 vi_vi
 vibration
 vietnamiese
@@ -38994,17 +39317,41 @@ void std::_Destroy_aux<false>::__destroy<std::string*>(std::string*, std::string
 void std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique<int*>(int*, int*)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, long, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, long, long, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
+void std::__adjust_heap<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, char, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, long, char, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::FieldDescriptor const*, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, long, google::protobuf::FieldDescriptor const*, google::protobuf::(anonymous namespace)::FieldIndexSorter) [clone .isra.88]
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::FieldDescriptor const*, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, long, google::protobuf::FieldDescriptor const*, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter) [clone .isra.98]
 void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)
 void std::__convert_to_v<float>(char const*, float&, std::_Ios_Iostate&, __locale_struct* const&)
 void std::__convert_to_v<long double>(char const*, long double&, std::_Ios_Iostate&, __locale_struct* const&)
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_ecma<false, false>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_ecma<false, true>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_ecma<true, false>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_ecma<true, true>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_posix<false, false>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_posix<false, true>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_posix<true, false>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_any_matcher_posix<true, true>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool)
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<false, true>(bool)
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<true, false>(bool)
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_bracket_matcher<true, true>(bool)
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<false, false>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<false, true>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<true, false>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_char_matcher<true, true>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<false, false>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<false, true>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<true, false>()
+void std::__detail::_Compiler<std::regex_traits<char> >::_M_insert_character_class_matcher<true, true>()
+void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>) [clone .isra.0]
+void std::__insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::(anonymous namespace)::FieldIndexSorter) [clone .isra.154]
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter) [clone .isra.151]
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>)
+void std::__introsort_loop<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::(anonymous namespace)::FieldIndexSorter) [clone .isra.150]
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*> > >, long, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter) [clone .isra.129]
 void std::__make_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)> >(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>&)
@@ -39022,6 +39369,8 @@ void std::deque<CVRSharedGLTexture::VulkanInteropSemaphore_t*, std::allocator<CV
 void std::deque<CVkCommandBuffer*, std::allocator<CVkCommandBuffer*> >::_M_push_back_aux<CVkCommandBuffer* const&>(CVkCommandBuffer* const&)
 void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
 void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
+void std::deque<long, std::allocator<long> >::_M_push_back_aux<long const&>(long const&)
+void std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::_M_push_back_aux<std::__detail::_StateSeq<std::regex_traits<char> > const&>(std::__detail::_StateSeq<std::regex_traits<char> > const&)
 void std::deque<std::string, std::allocator<std::string> >::_M_push_back_aux<std::string const&>(std::string const&)
 void std::vector<BufferedLogMessage_t, std::allocator<BufferedLogMessage_t> >::_M_realloc_insert<BufferedLogMessage_t const&>(__gnu_cxx::__normal_iterator<BufferedLogMessage_t*, std::vector<BufferedLogMessage_t, std::allocator<BufferedLogMessage_t> > >, BufferedLogMessage_t const&)
 void std::vector<CActionBinding, std::allocator<CActionBinding> >::_M_realloc_insert<CActionBinding const&>(__gnu_cxx::__normal_iterator<CActionBinding*, std::vector<CActionBinding, std::allocator<CActionBinding> > >, CActionBinding const&)
@@ -39150,11 +39499,15 @@ void std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, 
 void std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::_M_realloc_insert<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> const&>(__gnu_cxx::__normal_iterator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>*, std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > > >, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> const&)
 void std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::_M_realloc_insert<nlohmann::detail::value_t>(__gnu_cxx::__normal_iterator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>*, std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > > >, nlohmann::detail::value_t&&)
 void std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::_M_realloc_insert<std::string&>(__gnu_cxx::__normal_iterator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>*, std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > > >, std::string&)
+void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&)
 void std::vector<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >, std::allocator<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > > >::_M_realloc_insert<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const&>(__gnu_cxx::__normal_iterator<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >*, std::vector<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >, std::allocator<std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > > > >, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const&)
 void std::vector<std::pair<ETrackerRole, char const*>, std::allocator<std::pair<ETrackerRole, char const*> > >::_M_realloc_insert<std::pair<ETrackerRole, char const*> >(__gnu_cxx::__normal_iterator<std::pair<ETrackerRole, char const*>*, std::vector<std::pair<ETrackerRole, char const*>, std::allocator<std::pair<ETrackerRole, char const*> > > >, std::pair<ETrackerRole, char const*>&&)
+void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::_M_realloc_insert<std::pair<char, char> >(__gnu_cxx::__normal_iterator<std::pair<char, char>*, std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > > >, std::pair<char, char>&&)
 void std::vector<std::pair<google::protobuf::Descriptor const*, int>, std::allocator<std::pair<google::protobuf::Descriptor const*, int> > >::_M_emplace_back_aux<std::pair<google::protobuf::Descriptor const*, int> const&>(std::pair<google::protobuf::Descriptor const*, int> const&)
 void std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >::_M_realloc_insert<std::pair<int, int> const&>(__gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > > >, std::pair<int, int> const&)
+void std::vector<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >, std::allocator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > > > >::_M_realloc_insert<long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&>(__gnu_cxx::__normal_iterator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >*, std::vector<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > >, std::allocator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > > > > >, long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&)
 void std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > >::_M_realloc_insert<std::pair<std::string, std::string> >(__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, std::pair<std::string, std::string>&&)
+void std::vector<std::regex_traits<char>::_RegexMask, std::allocator<std::regex_traits<char>::_RegexMask> >::_M_realloc_insert<std::regex_traits<char>::_RegexMask const&>(__gnu_cxx::__normal_iterator<std::regex_traits<char>::_RegexMask*, std::vector<std::regex_traits<char>::_RegexMask, std::allocator<std::regex_traits<char>::_RegexMask> > >, std::regex_traits<char>::_RegexMask const&)
 void std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > >::_M_realloc_insert<std::shared_ptr<CInputActionSet> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<CInputActionSet>*, std::vector<std::shared_ptr<CInputActionSet>, std::allocator<std::shared_ptr<CInputActionSet> > > >, std::shared_ptr<CInputActionSet> const&)
 void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string const&>(std::string const&)
 void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string>(std::string&&)
@@ -40542,6 +40895,7 @@ vtable for std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu
 vtable for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<nlohmann::detail::input_buffer_adapter, std::allocator<nlohmann::detail::input_buffer_adapter>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>
+vtable for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_V2::error_category
 vtable for std::__codecvt_abstract_base<char, char, __mbstate_t>
 vtable for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
@@ -40651,6 +41005,7 @@ vtable for std::ostream
 vtable for std::out_of_range
 vtable for std::overflow_error
 vtable for std::range_error
+vtable for std::regex_error
 vtable for std::runtime_error
 vtable for std::system_error
 vtable for std::thread::_State
@@ -40842,6 +41197,7 @@ yes
 yfov
 ymag
 z
+zero
 zfar
 zh_cn
 zh_tw

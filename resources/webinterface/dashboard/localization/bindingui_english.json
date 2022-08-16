@@ -3,6 +3,12 @@
 
   "holographic_controller": "Windows Mixed Reality Controller",
   "holographic_hmd": "Windows Mixed Reality Headset",
+  "knuckles": "Index Controller",
+  "indexhmd": "Index Headset",
+  "vive_controller": "Vive Controller",
+  "vive": "Vive Headset",
+  "oculus_touch": "Oculus Touch Controller",
+  "rift": "Oculus Headset",
 
   "SourceInputMode_UseAs": "Use as %1$s",
   "SourceInputMode_SelectMode": "Use %1$s %2$s as...",
@@ -176,6 +182,16 @@
   "SourceInputMode_DiscreteScroll_Joystick_Deadzone_Horizontal_tooltip": "The side to side percentage that the stick will not scroll.",
   "SourceInputMode_DiscreteScroll_Joystick_Deadzone_Vertical_tooltip": "The top to bottom percentage that the stick will not scroll.",
 
+  "BindingUI_OptionsButton_tooltip": "Global options for this binding",
+  "BindingUI_Options_InteractionProfile_tooltip": "The OpenXR Interaction Profile Path that this binding will report to apps. Some apps may only use certain actions / action sets if you have the corresponding interaction profile selected.",
+  "BindingUI_Options_simulated_controller_type_tooltip": "When the application requests information about the controller instead return information from the specified controller type.",
+  "BindingUI_Options_simulate_rendermodel_tooltip": "When the application requests a 3d model to represent the controller instead return the model for the compatibility mode controller type.",
+  "BindingUI_Options_simulate_hmd_tooltip": "When the application requests a information about the HMD instead return information for the most compatible HMD related to the compatibility mode controller type.",
+
+  "BindingUI_PosesButton_tooltip": "Bindings for the position and rotation of the tracked object.",
+  "BindingUI_HapticsButton_tooltip": "Bindings for haptic feedback actions.",
+  "BindingUI_SkeletonButton_tooltip": "Bindings for finger tracking.",
+  "BindingUI_ChordsButton_tooltip": "Bindings that combine two components or types of input to execute one action.",
 
   "SourceInputMode_ScrollMode": "Scroll mode:",
   "SourceInputMode_ScrollMode_Smooth": "Smooth (Like a trackpad)",
@@ -271,9 +287,6 @@
   "SourceInputSubHeader_PoseActions": "Pose Actions",
   "SourceInputSubHeader_HapticsActions": "Haptic Actions",
 
-  "BindingUI_PoseTitle": "Pose Bindings",
-  "BindingUI_HapticsTitle": "Haptics Bindings",
-  "BindingUI_SkeletonTitle": "Skeleton Bindings",
   "BindingUI_EditPoses": "Edit Action Poses",
   "BindingUI_AddPoses": "Add Action Pose",
   "BindingUI_ViewPoses": "View Action Poses",
@@ -283,6 +296,18 @@
   "BindingUI_ViewSkeleton": "View Skeleton",
   "BindingUI_AddSkeleton": "Add Skeleton",
   "BindingUI_EditSkeleton": "Edit Skeleton",
+  "BindingUI_EditChords": "Edit Chords",
+  "BindingUI_ViewChords": "View Chords",
+  "BindingUI_AddChords": "Add Chords",
+
+  "BindingUI_PoseTitle": "Pose Bindings",
+  "BindingUI_HapticsTitle": "Haptics Bindings",
+  "BindingUI_SkeletonTitle": "Skeleton Bindings",
+
+  "BindingUI_PosesButton": "Poses",
+  "BindingUI_HapticsButton": "Haptics",
+  "BindingUI_SkeletonButton": "Skeletons",
+  "BindingUI_ChordsButton": "Chords",
 
   "BindingSettingsModal_Title": "Input Settings",
 
@@ -305,15 +330,19 @@
   "TrackedControllerRole_LeftHand": "Left Hand",
   "TrackedControllerRole_RightHand": "Right Hand",
 
-  "BindingUI_EditChords": "Edit Chords",
-  "BindingUI_ViewChords": "View Chords",
-  "BindingUI_AddChords": "Add Chords",
   "BindingUI_ChordTitle": "Controller Chords",
   "BindingUI_Chord_Action": "Action:",
   "BindingUI_Chord_Inputs": "Inputs:",
   "BindingUI_Chord_SelectActionModalHeader": "Pick an action for this chord",
   "BindingUI_ExportBindingFile": "Export Binding File",
   "BindingUI_ReplaceDefaultFile": "Replace Default Binding",
+
+  "BindingUI_OptionsButton": "Options",
+  "BindingUI_OptionsTitle": "Binding Options",
+  "BindingUI_Options_InteractionProfile_Label": "Interaction Profile",
+  "BindingUI_Options_simulated_controller_type_Label": "Compatibility Mode",
+  "BindingUI_Options_simulate_rendermodel_Label": "Simulate Render Model",
+  "BindingUI_Options_simulate_hmd_Label": "Simulate HMD",
 
   "BindingUI_MirrorMode": "Mirror Mode",
   "BindingUI_LeftHandController": "Left %1$s",

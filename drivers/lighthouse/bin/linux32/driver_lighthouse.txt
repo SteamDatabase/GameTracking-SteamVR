@@ -3101,6 +3101,8 @@
  t .L2863
  t .L2864
  t .L2865
+ t .L2866
+ t .L2867
  t .L2868
  t .L2869
  t .L287
@@ -3271,15 +3273,15 @@
  t .L3300
  t .L331
  t .L34
- t .L3417
- t .L3419
  t .L342
- t .L3420
- t .L3421
- t .L3422
  t .L3423
+ t .L3425
+ t .L3426
+ t .L3427
  t .L3428
+ t .L3429
  t .L343
+ t .L3434
  t .L344
  t .L345
  t .L347
@@ -3783,72 +3785,72 @@
  t .L800
  t .L801
  t .L802
- t .L8023
- t .L8025
- t .L8026
- t .L8028
  t .L8029
  t .L803
+ t .L8031
+ t .L8032
+ t .L8034
+ t .L8035
  t .L804
  t .L805
  t .L806
- t .L8061
- t .L8063
- t .L8064
- t .L8065
- t .L8066
  t .L8067
+ t .L8069
  t .L807
+ t .L8070
+ t .L8071
+ t .L8072
+ t .L8073
  t .L808
  t .L809
- t .L8099
  t .L81
  t .L810
- t .L8101
- t .L8102
- t .L8104
  t .L8105
+ t .L8107
+ t .L8108
  t .L811
+ t .L8110
+ t .L8111
  t .L812
  t .L813
- t .L8137
- t .L8139
  t .L814
- t .L8140
- t .L8141
- t .L8142
  t .L8143
+ t .L8145
+ t .L8146
+ t .L8147
+ t .L8148
+ t .L8149
  t .L815
  t .L816
  t .L817
- t .L8175
- t .L8177
- t .L8178
- t .L8180
  t .L8181
+ t .L8183
+ t .L8184
+ t .L8186
+ t .L8187
  t .L82
- t .L8213
- t .L8215
- t .L8216
- t .L8217
- t .L8218
  t .L8219
- t .L8259
- t .L8261
- t .L8262
- t .L8264
+ t .L8221
+ t .L8222
+ t .L8223
+ t .L8224
+ t .L8225
  t .L8265
+ t .L8267
+ t .L8268
+ t .L8270
+ t .L8271
  t .L828
  t .L829
  t .L83
  t .L831
- t .L8313
- t .L8315
- t .L8316
- t .L8317
- t .L8318
  t .L8319
  t .L832
+ t .L8321
+ t .L8322
+ t .L8323
+ t .L8324
+ t .L8325
  t .L833
  t .L834
  t .L835
@@ -3886,31 +3888,25 @@
  t .L864
  t .L865
  t .L866
- t .L8660
- t .L8662
- t .L8663
- t .L8664
- t .L8665
- t .L8666
  t .L867
  t .L868
  t .L869
  t .L87
+ t .L8700
+ t .L8702
+ t .L8703
+ t .L8704
+ t .L8705
+ t .L8706
  t .L871
  t .L872
- t .L8723
- t .L8725
- t .L8726
- t .L8727
- t .L8728
  t .L8729
  t .L873
- t .L8752
- t .L8754
- t .L8755
- t .L8756
- t .L8757
- t .L8758
+ t .L8731
+ t .L8732
+ t .L8733
+ t .L8734
+ t .L8735
  t .L879
  t .L88
  t .L880
@@ -3959,38 +3955,44 @@
  t .L926
  t .L93
  t .L94
- t .L9453
- t .L9455
- t .L9456
- t .L9457
- t .L9458
+ t .L9406
+ t .L9408
+ t .L9409
+ t .L9410
+ t .L9411
+ t .L9412
  t .L9459
+ t .L9461
+ t .L9462
+ t .L9463
+ t .L9464
+ t .L9465
  t .L95
- t .L9506
- t .L9508
- t .L9509
- t .L9510
- t .L9511
  t .L9512
- t .L9559
- t .L9561
- t .L9562
- t .L9563
- t .L9564
+ t .L9514
+ t .L9515
+ t .L9516
+ t .L9517
+ t .L9518
  t .L9565
+ t .L9567
+ t .L9568
+ t .L9569
+ t .L9570
+ t .L9571
  t .L96
- t .L9612
- t .L9614
- t .L9615
- t .L9616
- t .L9617
  t .L9618
- t .L9665
- t .L9667
- t .L9668
- t .L9669
- t .L9670
+ t .L9620
+ t .L9621
+ t .L9622
+ t .L9623
+ t .L9624
  t .L9671
+ t .L9673
+ t .L9674
+ t .L9675
+ t .L9676
+ t .L9677
  t .L97
  t .L98
  t .L99
@@ -5046,6 +5048,8 @@
  t CVRPathRegistry::GetConfigHistoryPath(unsigned int) const
  t CVRPathRegistry::GetExternalDriverCount() const
  t CVRPathRegistry::GetExternalDriverPath(unsigned int) const
+ t CVRPathRegistry::GetInstalledRuntimes() const
+ t CVRPathRegistry::GetInstalledRuntimes() const [clone .cold]
  t CVRPathRegistry::GetLogHistoryCount() const
  t CVRPathRegistry::GetLogHistoryPath(unsigned int) const
  t CVRPathRegistry::GetRuntimeHistoryCount() const
@@ -5143,6 +5147,8 @@
  t CleanupDriverLog()
  t CleanupInternalInterfaces()
  t CloseLog()
+ t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&)
+ t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t CompareSerialNumbers(wchar_t const*, wchar_t const*)
  t CreateSimpleProcess
  t CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
@@ -6528,7 +6534,6 @@
  t __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
  t __gnu_cxx::__freeres()
  t __gnu_cxx::__normal_iterator<char*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept> >(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept>, std::random_access_iterator_tag)
- t __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<char const* const>, std::random_access_iterator_tag)
  t __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > > std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const> >(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
  t __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > std::__find_if<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equals_iter<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > > >(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equals_iter<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > >, std::random_access_iterator_tag)
  t __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > > std::__search<__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter)
@@ -10203,8 +10208,7 @@
  t std::vector<std::string*, std::allocator<std::string*> >::_M_check_len(unsigned int, char const*) const
  t std::vector<std::string*, std::allocator<std::string*> >::_M_default_append(unsigned int)
  t std::vector<std::string, std::allocator<std::string> >::_M_check_len(unsigned int, char const*) const
- t std::vector<std::string, std::allocator<std::string> >::_M_erase(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >)
- t std::vector<std::string, std::allocator<std::string> >::insert(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+ t std::vector<std::string, std::allocator<std::string> >::_M_insert_rval(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
  t std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
  t std::vector<std::string, std::allocator<std::string> >::reserve(unsigned int)
  t std::vector<std::string, std::allocator<std::string> >::~vector()
@@ -11108,6 +11112,7 @@
  t vortex::CLighthouseDBTrackedObject::BIsTiltPending() const
  t vortex::CLighthouseDBTrackedObject::CLighthouseDBTrackedObject(vortex::CLighthouseDB*, std::string, vr::ETrackedDeviceClass)
  t vortex::CLighthouseDBTrackedObject::CLighthouseDBTrackedObject(vortex::CLighthouseDB*, std::string, vr::ETrackedDeviceClass) [clone .cold]
+ t vortex::CLighthouseDBTrackedObject::ClearLiveImuCalibration()
  t vortex::CLighthouseDBTrackedObject::ClearPerTrackingSessionState()
  t vortex::CLighthouseDBTrackedObject::ClearPerTrackingSessionState() [clone .cold]
  t vortex::CLighthouseDBTrackedObject::CreateFromJson(vortex::CLighthouseDBTrackedObject**, vortex::CLighthouseDB*, Json::Value const&)
@@ -11238,6 +11243,7 @@
  t vortex::CLighthouseDirect::SendOnPoseChange()
  t vortex::CLighthouseDirect::SendOpticalStateToPoseDriver(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > const&)
  t vortex::CLighthouseDirect::SetInitialProcessCovariance()
+ t vortex::CLighthouseDirect::SetTrackRefFromHead(CTrackedDeviceConfig const*)
  t vortex::CLighthouseDirect::ShowBootstrapProgress(unsigned int)
  t vortex::CLighthouseDirect::Start()
  t vortex::CLighthouseDirect::State_s::operator=(vortex::CLighthouseDirect::State_s const&)
