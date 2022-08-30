@@ -457,7 +457,7 @@ $iMBm
 220323000000Z
 220329000000Z
 220801000000Z
-220815220656Z0/
+220829230314Z0/
 222f2
 223A3S3h3y3
 241009235959Z0a1
@@ -1080,7 +1080,6 @@ $iMBm
 ?#?/?
 ?#?K?
 ?$?,?0?8?@?H?P?X?`?h?p?x?
-?%	r#]
 ?&?-?4?;?B?I?P?W?^?e?l?s?z?
 ?'?1?
 ?'?U?y?
@@ -1123,6 +1122,7 @@ $iMBm
 @_^[]
 @b;zO]
 A valid JSON document must be either an array or an object value.
+A!ev=
 A(;A,v
 A,98~
 A0B;W
@@ -1133,6 +1133,7 @@ AHkO($
 Access violation - no RTTI data!
 AcquireSRWLockExclusive
 Af;:u
+Ai8s&
 AiFC.
 AjEB#AZ
 Another app was already launching (117)
@@ -1434,6 +1435,7 @@ Lock already taken
 Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 LrvD)O
+L~jQw
 M$+E4@Pj
 MB(iVR
 MM/dd/yy
@@ -1501,6 +1503,7 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
+RSDS!*&
 RWQSV
 R\hvv
 RaiseException
@@ -1512,6 +1515,7 @@ RegisterWaitForSingleObject
 ReleaseSRWLockExclusive
 ReleaseSemaphore
 ResetEvent
+RfXh{Qc#
 RoInitialize
 RoUninitialize
 RtlUnwind
@@ -1584,7 +1588,6 @@ TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
 T~OXu
-UI0ip
 UQPXY]Y[
 URPQQh
 USB Service Busy (140)
@@ -1628,10 +1631,9 @@ VR system shutting down (119)
 VRClientCoreFactory
 VRControlPanel
 VRHeadsetView
-VRInitError_Compoistor_CreateBackbufferDepth
-VRInitError_Compoistor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
 VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
@@ -1652,6 +1654,7 @@ VRInitError_Compositor_CreateFullscreenWindowFailed
 VRInitError_Compositor_CreateGeomConstantBuffer
 VRInitError_Compositor_CreateHmdPoseConstantBuffer
 VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateLastFrameRenderTexture
 VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
 VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
@@ -1996,6 +1999,7 @@ argument out of domain
 assert json failed
 atan2
 b4 a2
+bWx?9
 bad address
 bad allocation
 bad array new length
@@ -2271,6 +2275,7 @@ xmZ8(N*
 xpxxxx
 xwpwpp
 y1~?|"
+yE$MRaD
 y^QZ8(O*
 ygCH2
 zwom}

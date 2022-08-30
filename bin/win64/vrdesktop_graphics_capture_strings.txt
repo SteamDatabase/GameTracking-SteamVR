@@ -16,8 +16,8 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-"BsnD
 %%.%dg
+%'.3,;aw$.
 %s%s%s%s%s
 ' is not a number.
 ',=?k
@@ -176,7 +176,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220815221721Z0/
+220829231034Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -480,7 +480,6 @@ Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
 FormatMessageW
-G2S{;
 GDI32.dll
 GetCurrentProcessId
 GetCurrentThread
@@ -661,6 +660,7 @@ Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+Q3IpA
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -685,7 +685,6 @@ SVWATAUAVAWH
 SVWAVAWH
 SVWAVH
 SWAWH
-Sd)c"
 SendInput
 SendInput failed: %d events inserted, error code = %s
 Set thread %p priority to: %d
@@ -793,7 +792,9 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+XOKxW
 Y9"SD
+ZT^%d
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -1097,7 +1098,6 @@ zh_tw
 |$PL9~
 |$hH9>ueH
 |$pH+
-|Br3[
 |Lu?c
 }LuHO
 ~qj#k"

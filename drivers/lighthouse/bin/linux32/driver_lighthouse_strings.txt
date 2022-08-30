@@ -2389,7 +2389,7 @@ $tI
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
-22:04:50
+22:59:33
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -2552,7 +2552,7 @@ Attempting HID Open %s: %s
 Audio
 AudioBridge
 Aug
-Aug 15 2022
+Aug 29 2022
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)
@@ -4039,6 +4039,7 @@ Device JSON: Overriding display_color_mult
 Device JSON: Overriding incorrect device normal (%s)
 Device JSON: Overriding input_profile (%s)
 Device JSON: Overriding input_profile to %s (%s)
+Device JSON: Overriding parallel_render_cameras to enabled (%s)
 Device JSON: Overriding proximityEnable to %d (%s)
 Device JSON: Overriding resource_root (%s)
 Device JSON: Overriding subpixel_shift (%s)
@@ -6769,10 +6770,9 @@ VRCrashHandlingInit(std::function<void (bool)>)::{lambda(void*)#1}::_FUN(void*)
 VRCrashPreCrashSetMinidumpComment(char const*) [clone .part.0]
 VRCrashPreCrashSetMinidumpComment(char const*)::szMinidumpCommentBuffer
 VRCrashPreCrashSetMinidumpComment(char const*)::szPrefix
-VRInitError_Compoistor_CreateBackbufferDepth
-VRInitError_Compoistor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
 VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
@@ -6793,6 +6793,7 @@ VRInitError_Compositor_CreateFullscreenWindowFailed
 VRInitError_Compositor_CreateGeomConstantBuffer
 VRInitError_Compositor_CreateHmdPoseConstantBuffer
 VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateLastFrameRenderTexture
 VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
 VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
@@ -12226,6 +12227,7 @@ panel_burn_time_s: %d %d
 panel_clocking
 panel_on_time_deprecated_s: %d %d
 panel_on_time_s: %d %d
+parallel_render_cameras
 params
 parse
 parse error

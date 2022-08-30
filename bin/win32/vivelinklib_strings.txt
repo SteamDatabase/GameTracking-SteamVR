@@ -232,7 +232,7 @@ $Phdd
 220323000000Z
 220329000000Z
 220801000000Z
-220815220705Z0/
+220829230329Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -291,7 +291,6 @@ $Phdd
 5!5\5f5p5
 5"6Q6
 5#5B5G5
-5'cB[	
 5(5<5[5k5
 5(6X6}6
 5*5M5V5*6
@@ -678,7 +677,6 @@ DisconnectNamedPipe
 DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
-DsU /
 DuplicateHandle
 Empty escape sequence in string
 EnterCriticalSection
@@ -733,7 +731,6 @@ GetTickCount64
 GetVersionExA
 H$;J$
 HTC BS
-Hd7{}
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
@@ -776,6 +773,7 @@ LocalFree
 Logger.txt
 MB(iVR
 MSVCP140.dll
+MZ{w:
 Mac OS
 MacOS 10.10
 MacOS 10.11
@@ -800,7 +798,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
-O/;.98p
 ODFU Post
 OpenProcess
 Out of thread local storage!
@@ -825,6 +822,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSSY
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -991,7 +989,6 @@ ViveLinkLib_GetBaseStationWirelessInterface
 W9shvN3
 WRITE_WO_RESP -H %4.4X 
 WRITE_W_RESP -H %4.4X 
-W[@MC
 WaitForPipeCreation
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1035,6 +1032,7 @@ Zipfile is corrupt or not a zipfile
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
 \\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
+]>V#.
 ]J<0"0i3
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
@@ -1128,6 +1126,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iaSAb
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1265,8 +1264,8 @@ x5t7j
 x]~\6
 xdigit
 y4_^[
+zN+QR
 {L?uI
-{L\H+#
 {un'%
 |	9A 
 |	;J 

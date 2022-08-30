@@ -75,15 +75,16 @@ $Vh&*
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
+(.j2<
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
 *9Z9N
+*[8tg
 +KL+SL_;
 +Xt@(
 +o'q)}
-+r@oEC
 , H5 error count: 
 , defaulting to flow_control::none!
 , defaulting to parity::none!
@@ -708,7 +709,7 @@ $Vh&*
 220323000000Z
 220329000000Z
 220801000000Z
-220815220716Z0/
+220829230341Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -981,6 +982,7 @@ $Vh&*
 7V8J9
 7V8h8
 7^8~8
+7dO"<
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7t7y7~7
 8	9%9=9^9s9
@@ -1769,7 +1771,6 @@ IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Jy^NF.
 K$t"j
 K(PPW
 K(PQh
@@ -1908,6 +1909,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSC~0&
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2069,6 +2071,7 @@ VjySPW
 Vj{SPW
 W9shvN3
 WAKEUP
+WGS*!
 WOKEN
 WS2_32.dll
 WSPh0
@@ -2102,11 +2105,10 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
-[q|`'7p
 \0`0d0|0
 \Device Parameters
-\G^7Y[
 ]J<0"0i3
+^=q<?
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2172,6 +2174,7 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
+`Qzsf~
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -2206,6 +2209,7 @@ dat_file
 data error
 deque<T> too long
 digit
+dqr	^)N"
 e,>~^
 empty distance tree with lengths
 exception thrown in JSON library
@@ -2224,7 +2228,6 @@ file error
 floor
 generic
 gfffVW3
-gk))g
 graph
 h5_decode error, code: 0x
 h5_transport is in state 
@@ -2295,7 +2298,6 @@ print
 punct
 realloc
 s?=2N
-sGygL
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)
@@ -2478,13 +2480,13 @@ wn>Jj
 wt_^[
 www.digicert.com1!0
 www.digicert.com1$0"
+x0*pe
 x5t7j
 x]~\6
 xdigit
 y4_^[
 {L?uI
 {un'%
-|0D.>P
 |Lu?c
 |cj#h
 }	jCh

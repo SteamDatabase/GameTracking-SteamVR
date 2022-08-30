@@ -66,6 +66,7 @@
  times.
  version-number:
 !hn7!
+$U&I~
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -633,10 +634,11 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220815221233Z0/
+220829230533Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2Py_"U
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -1249,6 +1251,7 @@ GATT Write Without Response. (handle: %d, length: %d, queue: %d) '%s'
 GATTC Send handle value confirmation to handle %d
 GBf9F
 GD9E0t
+GDPET?
 GDf9F
 GFf9F
 GH9E0t
@@ -1517,6 +1520,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSLY
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1894,7 +1898,6 @@ gfffffffI
 gfffffffM
 graph
 h AVH
-h)Z$2TkHl1
 h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 
@@ -1952,7 +1955,6 @@ l$XE3
 l$pM+
 l$pM;
 l$xfD
-l,Soo
 list<T> too long
 lower
 m0k0$

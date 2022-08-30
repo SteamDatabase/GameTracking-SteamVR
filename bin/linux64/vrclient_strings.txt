@@ -1662,7 +1662,7 @@ $tI
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:05:05
+22:59:34
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -2299,7 +2299,7 @@ Attempting to wait on a fence that has already been waited for. Current: %lx Wai
 Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
 Aug
-Aug 15 2022
+Aug 29 2022
 August
 AuthenticAMD
 AutosaveURL
@@ -23098,7 +23098,9 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsHDCP14LegacyCompat_Bool
+Prop_Hmd_SupportsHDR10_Bool
 Prop_Hmd_SupportsMicMonitoring_Bool
 Prop_IconPathName_String
 Prop_Identifiable_Bool
@@ -24467,10 +24469,9 @@ VREvent_WebInterface_InstallDriverCompleted
 VREvent_WindowsMRSectionSettingChanged
 VREvent_WirelessDisconnect
 VREvent_WirelessReconnect
-VRInitError_Compoistor_CreateBackbufferDepth
-VRInitError_Compoistor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
 VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
@@ -24491,6 +24492,7 @@ VRInitError_Compositor_CreateFullscreenWindowFailed
 VRInitError_Compositor_CreateGeomConstantBuffer
 VRInitError_Compositor_CreateHmdPoseConstantBuffer
 VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateLastFrameRenderTexture
 VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
 VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
@@ -39914,6 +39916,7 @@ vr_internal::VRRenderModelsInternal()
 vr_internal::VRResources()
 vr_internal::VRServer()
 vr_internal::VRSettings()
+vr_internal::VRSettings() != nullptr
 vr_internal::VRSettingsInternal()
 vr_internal::VRSettingsRaw()
 vr_internal::VRSystem()

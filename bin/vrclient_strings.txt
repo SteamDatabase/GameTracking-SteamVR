@@ -790,9 +790,8 @@ $0}
 ./obj_vrclient_linux32/release/vrclient.so
 .L10
 .L100
-.L1004
+.L1001
 .L1006
-.L1007
 .L1008
 .L1009
 .L101
@@ -812,13 +811,14 @@ $0}
 .L1022
 .L1023
 .L1024
+.L1025
 .L1026
-.L1029
+.L1028
 .L103
-.L1030
+.L1031
 .L1032
-.L1033
 .L1034
+.L1035
 .L1036
 .L1037
 .L1038
@@ -829,10 +829,8 @@ $0}
 .L1042
 .L1043
 .L1044
-.L1048
 .L105
 .L1050
-.L1051
 .L1052
 .L1053
 .L1054
@@ -844,6 +842,7 @@ $0}
 .L106
 .L1060
 .L1061
+.L1062
 .L1063
 .L1064
 .L1065
@@ -2634,14 +2633,13 @@ $0}
 .L816
 .L817
 .L82
-.L823
-.L824
 .L825
 .L826
 .L827
 .L828
 .L829
 .L83
+.L830
 .L831
 .L832
 .L833
@@ -2683,9 +2681,7 @@ $0}
 .L9021
 .L9022
 .L9023
-.L903
 .L905
-.L906
 .L907
 .L908
 .L909
@@ -2709,27 +2705,26 @@ $0}
 .L924
 .L925
 .L926
-.L927
 .L928
 .L929
 .L93
 .L930
+.L931
 .L932
-.L936
+.L934
 .L938
-.L939
 .L94
 .L940
 .L941
+.L942
 .L943
+.L945
 .L95
 .L96
 .L97
-.L976
-.L977
+.L978
 .L979
 .L98
-.L980
 .L981
 .L982
 .L983
@@ -2747,7 +2742,8 @@ $0}
 .L994
 .L995
 .L996
-.L999
+.L997
+.L998
 .PLACEHOLDER_VALUE
 .[\()*+?{|^$
 .[\*^$
@@ -3162,7 +3158,7 @@ $0}
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:04:50
+22:59:33
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3765,7 +3761,7 @@ Attempting to wait on a fence that has already been waited for. Current: %llx Wa
 Attempting to wait on a fence value that is too large. Current: %llx Wait: %llx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %llx, Signaled: %llx
 Aug
-Aug 15 2022
+Aug 29 2022
 August
 AuthenticAMD
 AutosaveURL
@@ -23781,7 +23777,9 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsHDCP14LegacyCompat_Bool
+Prop_Hmd_SupportsHDR10_Bool
 Prop_Hmd_SupportsMicMonitoring_Bool
 Prop_IconPathName_String
 Prop_Identifiable_Bool
@@ -25084,10 +25082,9 @@ VREvent_WebInterface_InstallDriverCompleted
 VREvent_WindowsMRSectionSettingChanged
 VREvent_WirelessDisconnect
 VREvent_WirelessReconnect
-VRInitError_Compoistor_CreateBackbufferDepth
-VRInitError_Compoistor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
 VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
@@ -25108,6 +25105,7 @@ VRInitError_Compositor_CreateFullscreenWindowFailed
 VRInitError_Compositor_CreateGeomConstantBuffer
 VRInitError_Compositor_CreateHmdPoseConstantBuffer
 VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateLastFrameRenderTexture
 VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
 VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer

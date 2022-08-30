@@ -33,6 +33,7 @@
  Width: 
  s2E3
  sIE3
+ v/43	
 !T$(H!T$ 
 !hn7!
 $+xvA
@@ -379,7 +380,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220329000000Z
 220801000000Z
-220815221005Z0/
+220829230057Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -528,6 +529,7 @@ $< t6<$t,<+t"<vt
 ?IsBacklightCompensation@IVRCamera@vrcamera@@UEAA_NXZ
 ?IsConnected@CVRCameraWindows@vrcamera@@UEAA_NXZ
 ?IsRawMode@IVRCamera@vrcamera@@UEAA_NXZ
+?P	s&
 ?ReadConfiguration@CVRCameraWindows@vrcamera@@UEAAXXZ
 ?Reconnect@CVRCameraWindows@vrcamera@@UEAAXXZ
 ?SetAutoExposureTarget@IVRCamera@vrcamera@@UEAAXG@Z
@@ -680,6 +682,7 @@ C$u	H
 C(H;C0r
 C0HcF
 C4D+@ H
+C5v,J
 C9|0$uA
 C@H98t"H
 C@H98t%H
@@ -736,7 +739,6 @@ CompareStringW
 ContextPriority
 ContextStackSize
 Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
-CpSse
 CreateEventA
 CreateEventExW
 CreateEventW
@@ -1120,7 +1122,6 @@ PA__^[]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q#aO>
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1140,7 +1141,6 @@ RtlPcToFileHeader
 RtlVirtualUnwind
 S0Q0O
 SA|X=G
-SFTM4
 SUVWATAUAVAWH
 SUVWATAVAWH
 SUVWAVH
@@ -1380,6 +1380,7 @@ bad locale name
 bad message
 blank
 broken pipe
+c$Km(
 c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 calloc
 cntrl
@@ -1395,6 +1396,7 @@ d$XD9
 d$XE3
 d$`H=
 d$vI9V
+dD4pWBgp
 destination address required
 device or resource busy
 digit
@@ -1587,7 +1589,6 @@ switchState
 sxu/H
 sxuIH
 sxutH
-t	*Dr$
 t @8x
 t H9X8t]
 t!fff
@@ -1721,7 +1722,6 @@ yH;YXtl
 |$h9w
 |$rfD
 |Lu?c
-|oQMi&G+
 }LuHO
 ~`D8I!t-
 ~qj#k"

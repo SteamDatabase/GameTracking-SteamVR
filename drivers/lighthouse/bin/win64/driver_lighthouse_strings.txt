@@ -598,7 +598,6 @@ $w!Hc
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&.FrF
 &9k0t
 &D9c0t
 &D9k0t
@@ -811,6 +810,7 @@ $w!Hc
 )\$0uE
 )\$pI
 )\ZEo^m/
+)a9:N`
 )d$`H
 )d$pD
 )l$ D
@@ -869,7 +869,6 @@ $w!Hc
 *9Z9N
 *H+KXI
 *T$4I
-*qt vS
 *uXI;
 +C,+C
 +D9c0t H
@@ -897,7 +896,6 @@ $w!Hc
 ,0<6w H
 ,9k0t%H
 ,9{0t%H
-,El #
 ,W5y+
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
@@ -1238,7 +1236,6 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
-/5d<	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1383,7 +1380,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220801000000Z
-220815221654Z0/
+220829231017Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1562,7 +1559,6 @@ $w!Hc
 ;<$uCB
 ;Ch}(
 ;D$lu H
-;F(Nn
 ;K s;H
 ;K sEH
 ;K sFH
@@ -1580,7 +1576,6 @@ $w!Hc
 ;w,~PA
 ;{(} H
 ;|$ r
-<	 tT
 <	u(H
 <	vzH
 <	w'H
@@ -1949,6 +1944,7 @@ $w!Hc
 @^8U)zj
 @_RDATA
 @fff>fff>fff>fff>
+@oRlG
 A H+A
 A H;A
 A file with this name is already in the pool.
@@ -2919,6 +2915,7 @@ Device JSON: Overriding display_color_mult
 Device JSON: Overriding incorrect device normal (%s)
 Device JSON: Overriding input_profile (%s)
 Device JSON: Overriding input_profile to %s (%s)
+Device JSON: Overriding parallel_render_cameras to enabled (%s)
 Device JSON: Overriding proximityEnable to %d (%s)
 Device JSON: Overriding resource_root (%s)
 Device JSON: Overriding subpixel_shift (%s)
@@ -3258,6 +3255,7 @@ GOOGLE_LOG_DIR
 GPI+GHf
 GPJMt
 GPJMtUH
+GQ>`,
 GXkVp8H
 General reset
 Generating hidden area mesh for mode "%d" %s
@@ -3380,7 +3378,7 @@ H+_pH
 H+q@HcO,H
 H0Ic@,Hc
 H9)u 
-H9-'P!
+H9-GN!
 H91u 
 H92u&
 H92u,
@@ -3452,9 +3450,8 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;= %
-H;=U)
-H;=t'
+H;=0#
+H;=e'
 H;Axt
 H;B0t
 H;C s<H
@@ -3674,6 +3671,7 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
+IL9-}
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -4024,13 +4022,16 @@ L9%8b(
 L9%=[(
 L9%x`(
 L9&u"
-L9-[?&
+L9-+>&
+L9-V?&
+L9-pS&
 L90H;
 L90M;
 L92u'
-L95 h&
+L95Yf&
+L95md&
 L97u0H
-L9=Sn&
+L9=#m&
 L9=Tu(
 L9>u	H
 L9@ s
@@ -4129,6 +4130,7 @@ Looking for default audio playback device matching VID:%04x/PID:%04x %s
 Looking for default audio recording device matching VID:%04x/PID:%04x %s
 Lost default audio playback %s
 Lost default audio recording %s
+LrtM~
 L~Zs>9
 M H1E
 M#V0M
@@ -4378,7 +4380,6 @@ Protocol Buffer reflection usage error:
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Prototype
-PuZ;!
 Pz}b!
 Q@D85
 Qk6eV5RE
@@ -4392,7 +4393,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDSW
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4963,10 +4963,9 @@ VK_NV_compute_shader_derivatives
 VR Path Registry node %s is not an array
 VRAudioDevices_Init
 VRC-%s
-VRInitError_Compoistor_CreateBackbufferDepth
-VRInitError_Compoistor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
 VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
@@ -4987,6 +4986,7 @@ VRInitError_Compositor_CreateFullscreenWindowFailed
 VRInitError_Compositor_CreateGeomConstantBuffer
 VRInitError_Compositor_CreateHmdPoseConstantBuffer
 VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateLastFrameRenderTexture
 VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
 VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
@@ -5248,7 +5248,7 @@ Vive_Pro
 Vive_Pro DVT
 VpH9Vxt'
 VrController
-W%*f 
+W%Jf 
 W(LcB
 W0H;C
 W8H;C
@@ -5348,8 +5348,7 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5	L!
-Y5/Y#
+Y5)J!
 Y9"SD
 Y?33s?
 YAHH+
@@ -6030,7 +6029,6 @@ fD9	u
 fD9,Bu
 fD;3t
 fF9,Au
-fJGNI
 facet::CCompositionClient::AcquireCompositorSlot
 facet::CCompositionClient::AcquireImage
 facet::CCompositionClient::BeginFrameRendering
@@ -6226,6 +6224,8 @@ https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
 hu_hu
 hungarian
 i H9i0u
+i4SIX
+i5i}4b
 iauds
 ideal_period
 identifier_value
@@ -6681,7 +6681,7 @@ panel_burn_time_s: %d %d
 panel_clocking
 panel_on_time_deprecated_s: %d %d
 panel_on_time_s: %d %d
-parallel
+parallel_render_cameras
 parameter must be a string or number / number array.
 params
 parse
@@ -6722,6 +6722,7 @@ public_dependency
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x
 r	D;@(}
+r XC0`
 r+w.I
 r,fff
 r/w0H
@@ -6743,7 +6744,6 @@ recording
 registered: 
 registered_device_type_prefix
 rejectDupKeys
-renderCameraMode
 render_model
 render_target_scale
 renderdoc.dll
@@ -7042,13 +7042,14 @@ tAy&H
 tFA;Q r@w
 tKfA9
 tPD8B
-tPL9-X
+tPL9-
 tPfA9i
 tQH957
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tTL9-!
+tTL9-
+tTL9-"
 tUA91uPH
 tXH+A
 tXfff
@@ -7127,8 +7128,8 @@ t|C9D
 t|SUVH
 t}H9=&
 t~L9=
-t~L9=/
-t~L9=g
+t~L9=7
+t~L9=X
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7144,7 +7145,7 @@ u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-
+u<L9-;
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7153,7 +7154,7 @@ uDf9X
 uJf9X
 uKb!?6mH
 uRf;>tM
-uSL9-@
+uSL9-
 uSfff
 uZEeu
 ua_ua
@@ -7725,7 +7726,6 @@ xA\_][
 xA^A\_^][
 xA_A]_]
 xA_A^_^][
-xP-2!
 x]~\6
 x_^][
 y@tTyY1
@@ -7908,7 +7908,6 @@ zuusA
 }LuHO
 }M?/n
 }Ufff
-}X"b=
 }`H+}XH
 }o;Dr_
 }w;Dr_

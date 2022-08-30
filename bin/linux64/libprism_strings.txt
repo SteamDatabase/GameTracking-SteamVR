@@ -477,7 +477,7 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-22:05:05
+22:59:34
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -543,7 +543,7 @@ April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe
 Aug
-Aug 15 2022
+Aug 29 2022
 August
 Automatically quitting due to idle time > %f seconds.
 B

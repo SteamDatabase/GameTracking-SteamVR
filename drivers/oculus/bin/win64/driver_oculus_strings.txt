@@ -28,7 +28,6 @@
 	w=%d, h=%d, format=%d
 	|$HA
     A
-  ~]$A
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  %41g
  '-46
@@ -208,7 +207,6 @@ $w!Hc
 ***** Reloading Shaders End
 *9Z9N
 *uXI;
-*~/E{,
 +Xt@(
 +o'q)}
 , binary size = 
@@ -456,12 +454,13 @@ $w!Hc
 130801120000Z
 1e+9999
 2.5.4.3
+20b;_
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220801000000Z
-220815221702Z0/
+220829230643Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -528,6 +527,7 @@ $w!Hc
 =TADIt<=DNEI
 =rIQU
 >0<0:
+><+G^5Xd
 >Mp$d
 >W`.]tB3?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -1137,6 +1137,7 @@ IsDepthFormat( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
+JztFM
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1627,6 +1628,7 @@ aspectRatio
 assert json failed
 asset
 attributes
+bJx%J
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
 bad APP len
@@ -2305,6 +2307,7 @@ shaders/d3d11/unlit_vs.fxo
 skeleton
 skeletons
 skins
+smK$&$
 source
 spanish
 sparse

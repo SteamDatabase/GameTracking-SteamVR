@@ -53,7 +53,6 @@
 !~?s5
 "e?<<<<<<l?
 "f9;t
-#(?pS
 #])#	
 $+xvA
 $< t6<$t,<+t"<vt
@@ -412,7 +411,7 @@ $iMBm
 220323000000Z
 220329000000Z
 220801000000Z
-220815221209Z0/
+220829230509Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -543,7 +542,6 @@ $iMBm
 @.data
 @.reloc
 @.rsrc
-@7JzUV
 @80u#H
 @8<)u
 @8l$8t
@@ -596,7 +594,6 @@ $iMBm
 @UWAVAWH
 @VWAVH
 @b;zO]
-@z ?m
 A valid JSON document must be either an array or an object value.
 A$+A,t\3
 A(9B(D
@@ -1138,8 +1135,8 @@ IsValidCodePage
 IsValidLocale
 IsValidLocaleName
 J$A;H$A
+J)CmBb
 J>@G_
-JA=nU
 JBIh	i
 JX<$N
 J`E;Bh|
@@ -1270,7 +1267,6 @@ November
 O,D9O(vcH
 O0HcQ
 O0LcQ
-O3[E+
 OF>;^
 October
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -1309,7 +1305,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S#s\Mrz
 S0Q0O
 S;\$0tH
 S>$hkDh$h>[2
@@ -1380,7 +1375,6 @@ T$hH;T$pu
 T$pE3
 T$pkD$x<
 TUUUU
-TVR}`
 TargetOversubscriptionFactor
 TerminateProcess
 The requested interface is incompatible with the compositor and the compositor is running (122)
@@ -1454,10 +1448,9 @@ VR system shutting down (119)
 VRClientCoreFactory
 VRControlPanel
 VRHeadsetView
-VRInitError_Compoistor_CreateBackbufferDepth
-VRInitError_Compoistor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
 VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
@@ -1478,6 +1471,7 @@ VRInitError_Compositor_CreateFullscreenWindowFailed
 VRInitError_Compositor_CreateGeomConstantBuffer
 VRInitError_Compositor_CreateHmdPoseConstantBuffer
 VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateLastFrameRenderTexture
 VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
 VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
@@ -1701,6 +1695,7 @@ VirtualFree
 VirtualProtect
 W0;Ct~ZH
 W8HcH
+W94`!
 WATAUAVAWH
 WATAVH
 WATAWH
@@ -1770,6 +1765,7 @@ Zod(^?
 \$gm?
 \$hI;
 \$pE3
+\,IIo
 \@d#_
 \Fj;!h8
 \ffff
@@ -2073,6 +2069,7 @@ ldexp
 log10
 lq%&1T
 m0k0$
+m7*r;l&
 map/set<T> too long
 message size
 n03>Pu
@@ -2105,6 +2102,7 @@ not enough memory
 not supported
 ntelD
 o0t$I
+o>K>KJ
 oB(h8
 oI>O7
 obwQ4
@@ -2124,6 +2122,7 @@ ot$ H
 ot$HH
 owner dead
 o|$0f
+o}tW6
 p AWH
 p D9V
 p WATAUAVAWH
@@ -2189,6 +2188,7 @@ t @8x
 t H9X8t]
 t"<.u
 t#fA;
+t#sMW@
 t$ AVH
 t$ AWH
 t$ E3
@@ -2235,6 +2235,7 @@ tA8_:t
 tAm4@
 tDLcC
 tG8\$ u08\$!t*E
+tI{>2
 tKI;D
 tQfD9 tK
 tRCU+
@@ -2312,6 +2313,7 @@ x AVH
 x AVHcA
 x AWH
 x UAVAWH
+x;-cu
 xMHcC
 xP?b3
 xRB`2

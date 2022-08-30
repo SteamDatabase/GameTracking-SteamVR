@@ -50,7 +50,7 @@
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,cc-./0123456789:;<=>?@cABCDEFGcHIJKLMNOPQcRScTUcccccccccVWcXYcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZ[\]^_`ab
+ !"#$%&'()*+,ii-./0123456789:;<=>?@iABCDEFGiHIJKLMNOPQiRSiTUVWiiiiiiiXYiZ[iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii\]^_`abcdiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiefgh
  !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
@@ -278,6 +278,7 @@ $u=Hi
 $u[Hi
 $u^Hi
 $w!Hc
+%	l%m
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -565,15 +566,14 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%he"
-(%p,"
+(%(e"
+(%0,"
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
-(=H\,
-(=tb,
+(=X\,
 (A\^][
 (A\_^[
 (A]_^[
@@ -815,6 +815,7 @@ $w!Hc
 *CVRMsg_TrackedCamera_GetProjectionResponse
 *H+NpH
 *uXI;
++B&fGn
 +C,+C
 +CVRMsg_ClientMailbox_GetNextMessageResponse
 +CVRMsg_CompositorNewSharedSemaphoreResponse
@@ -1861,6 +1862,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
+/5Bi'
 /9{0t'H
 /CVRMsg_ClientMailbox_SendMailboxMessageResponse
 /CVRMsg_CompositorSetDashboardVisibilityResponse" 
@@ -2243,7 +2245,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220801000000Z
-220815221346Z0/
+220829230830Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2263,8 +2265,8 @@ $w!Hc
 361.75
 370322235959Z0c1
 380115120000Z0b1
-3>(us
 3?9y>m0_D@H_
+3Gg5U`
 3mq+<
 416.16
 42HcF,
@@ -2281,12 +2283,12 @@ $w!Hc
 6HiL$8
 6I]Dc
 6OB,n_
+6VB1+
 6p7M=:P_:}u
 70503
 79L$Pua
 7Failed to create readable frame info buffer (D3D10)!
 7HcC,
-7Si]2
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8"u	H
@@ -3112,7 +3114,6 @@ B(A9A
 B(A9C
 B(I9A
 B(I;A
-B*lK$
 B0A9A
 B0H+B(D
 B0H+B(H
@@ -3166,13 +3167,13 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-m.#
 C09w(~:L
 C0L9$
 C0L;E
 C0L;F
 C0L;G
 C4LcC0H
+C5'%1
 C8;C<
 C8;K<
 C8@8l$8t.
@@ -4189,7 +4190,6 @@ F0L;G
 F8I+F0H
 F9D	$
 F9D	$t
-F?>ea^
 F@;G t
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -4776,6 +4776,7 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
+H;=*S)
 H;A s
 H;Axt
 H;C(v
@@ -4893,6 +4894,7 @@ H_^][
 Haptic
 Haptic vibration had the wrong type tag: %u
 HasField
+Hb"Bn
 HcA,H
 HcA,L
 HcA0H
@@ -6070,7 +6072,9 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsHDCP14LegacyCompat_Bool
+Prop_Hmd_SupportsHDR10_Bool
 Prop_Hmd_SupportsMicMonitoring_Bool
 Prop_IconPathName_String
 Prop_Identifiable_Bool
@@ -6157,7 +6161,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS{
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7130,10 +7133,9 @@ VREvent_WebInterface_InstallDriverCompleted
 VREvent_WindowsMRSectionSettingChanged
 VREvent_WirelessDisconnect
 VREvent_WirelessReconnect
-VRInitError_Compoistor_CreateBackbufferDepth
-VRInitError_Compoistor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
+VRInitError_Compositor_CreateBackbufferDepth
 VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
@@ -7154,6 +7156,7 @@ VRInitError_Compositor_CreateFullscreenWindowFailed
 VRInitError_Compositor_CreateGeomConstantBuffer
 VRInitError_Compositor_CreateHmdPoseConstantBuffer
 VRInitError_Compositor_CreateHmdPoseStagingConstantBuffer
+VRInitError_Compositor_CreateInverseDistortUVs
 VRInitError_Compositor_CreateLastFrameRenderTexture
 VRInitError_Compositor_CreateLayerComputeSceneTextureIndexConstantBuffer
 VRInitError_Compositor_CreateLayerComputeTextureIndexConstantBuffer
@@ -7522,6 +7525,7 @@ VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared text
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
 W H;C
 W$H;C
+W%bs(
 W(H;C
 W(LcB
 W,H;C
@@ -7969,10 +7973,7 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y-t.)
-Y50H(
-Y590(
-Y5>4(
+Y-4.)
 Y9"SD
 Y>t$7?*
 YD$8E
@@ -8154,7 +8155,6 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \%03o
-\-1'$
 \10I;
 \U%08x
 \\.\pipe\
@@ -8170,7 +8170,7 @@ ZvFailed to create fence %ls.
 ] name = [
 ]0H9X
 ]9k0tVD
-]=}k"
+]==k"
 ]@L9{(
 ]HH;]Pt8
 ]HH;]Ptb
@@ -8183,10 +8183,12 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%GM"
+_%II"
+_%gN"
 _8H9_@
 _8H;_@t
 _8I9_@
+_=Zk"
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -8327,6 +8329,7 @@ _wstat64i32
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
 `x@SH
+a9$^Q
 abort
 accessor[
 accessors
@@ -8404,7 +8407,6 @@ bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
-b\asa
 background
 backgroundCameraHeight
 backgroundDomeRadius
@@ -9491,15 +9493,12 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5O91
-o5[71
 o@@fD
 oD$ fD
 oD$0f
 oD$0fD
 oL$ f
 oT$0f
-o^kH"
 object
 object key
 object separator
@@ -9736,6 +9735,7 @@ s@fff
 sButtonTexts
 sCaptionText
 sMessageText
+sWgN*
 safe_mode_driver_whitelist.json
 samplecount
 sampler
@@ -10421,7 +10421,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-Q
+t8D8-
 t9fff
 t:fff
 t<Lc@xE
@@ -10555,7 +10555,6 @@ u4H9X s
 u5H9t$0u.H
 u9fff
 u<H9^xtLH
-u=H*=
 u>D8}
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -11147,6 +11146,7 @@ vr-marker,frame_end,type,application
 vr_filename
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
+vr_internal::VRSettings() != nullptr
 vr_messages.proto
 vr_messages.proto"
 vrclient

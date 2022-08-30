@@ -3530,6 +3530,7 @@ $wtpt
 /Name /Im%.20g
 /Name /Ma%.20g
 /NonMaskedImageDict
+/PH&x
 /Pages %.20g 0 R
 /Parent %.20g 0 R
 /ProcSet %.20g 0 R >>
@@ -3718,7 +3719,7 @@ $wtpt
 220323000000Z
 220329000000Z
 220801000000Z
-220815221039Z0/
+220829230131Z0/
 230x323
 2384x3370
 24 24
@@ -3918,6 +3919,7 @@ $wtpt
 6ukE3
 6x6+0+0
 6|izA:/@A}o
+7"G(R
 7"~:*
 7$7`7
 7+4P;
@@ -7343,7 +7345,6 @@ E A+E
 E H9X t
 E f9X
 E ko?ana e kai i te karahi, mea ??, ?a?e hauhau.
-E%'>;
 E'Lcb
 E(I+E H=
 E)Q H
@@ -7672,6 +7673,7 @@ FUJIFILMCCD-RAW
 FXH)F(
 FXL98t^
 FXL98u
+FY(I}(
 F`H)F0H
 Failed SOP Instance UID List
 Failed SOP Sequence
@@ -8248,6 +8250,7 @@ Group Label
 Group Length
 Group Time Offset
 Group4
+GtaR`R
 Gujarati
 Gurmukhi
 Gvxam mincetu apocikvyeh: 
@@ -9354,6 +9357,7 @@ JPEG2000
 JPEGCompressNotSupported
 JPEGEmbeddingFailed
 JPXDecode
+JQ"Ia
 JUL$O
 JWnw*
 J[=<&AJ0h~St
@@ -9373,7 +9377,6 @@ K H9MPu
 K SUVAUAVAWH
 K UVAVH
 K UWATAWH
-K#I$~
 K$<Au
 K$<Bt
 K$<Zu
@@ -10500,6 +10503,7 @@ NETSCAPE2.0
 NJ2"v
 NJ5mS/iX(
 NJPL1I
+NK &UCIg
 NL$(I;
 NN3xl
 NO?,~O?\
@@ -10703,7 +10707,6 @@ O8D8s,tFi
 O8Yu#k<u
 OCTAGONS
 ODUUUUUU
-OH|xf
 OI;MG:F@5?90=60A=8ME5SD.WLS
 OLEAUT32.dll
 OPL9s8
@@ -11756,7 +11759,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSA
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14752,6 +14754,7 @@ _wstat64i32
 `QSEJ
 `[ghostscript library %.2f]%s': %s
 ``6c3x
+`tQB`
 `}@ReadXBMImage
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
@@ -18076,7 +18079,6 @@ o?T7o?
 o?d#p?
 oD) f
 oD)0f
-oI`8w
 oXiM?;)3)"%+!+/&:&*C))TN:hqRh
 o_fvIGV4^kQKQ5:;#88/8B/i
 oacute
@@ -19357,7 +19359,6 @@ t-D;cp~#
 t.</u
 t.H9u
 t.L9m
-t.SG"
 t/<#t2M
 t/L9(u
 t0fff

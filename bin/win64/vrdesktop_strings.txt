@@ -16,6 +16,7 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+#<f22\
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -33,7 +34,6 @@
 )t$0H
 )t$@H
 *9Z9N
-*i2_[
 *uXI;
 +Xt@(
 +o'q)}
@@ -160,7 +160,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220815221702Z0/
+220829230643Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -184,7 +184,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-:"_+]
 < t+<
 </u#H
 <0:08
@@ -330,7 +329,6 @@ CoInitializeEx failed.
 CoTaskMemFree
 CoUninitialize
 ComputeVirtualDesktopBounds
-CpOIc^
 CreateDXGIFactory1
 CreateEventA
 CreateEventW
@@ -570,6 +568,7 @@ LocalFree
 LocalizationManager
 M H1E
 M98u/
+M:#;p
 MB(iVR
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for
@@ -582,6 +581,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
+Nv`Kv
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -596,8 +596,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R@>%|
-RSDS{
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -775,6 +773,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+cQ7gy
 cs_cs
 czech
 d$`H=
@@ -789,6 +788,7 @@ desktopview
 dwmapi.dll
 dxgi.dll
 e,>~^
+edA#=9
 el_el
 en_us
 english
@@ -879,7 +879,6 @@ russian
 schinese
 shcore.dll
 shutdown
-sn9!|)
 spanish
 startup
 string too long
@@ -939,6 +938,7 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 x]~\6
+zT=l\
 zh_cn
 zh_tw
 {un'%
@@ -958,7 +958,6 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
-|o\FR4
 }LuHO
 ~qj#k"
 ~t&LN

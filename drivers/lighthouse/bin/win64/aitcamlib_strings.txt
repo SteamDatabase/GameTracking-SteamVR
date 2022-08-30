@@ -17,7 +17,6 @@
  A__^
  H3E H3E
 !(0)"
-!Y/Ox
 !hn7!
 "9k0t
 #*1892+$
@@ -29,6 +28,7 @@
 %,3:;4-&
 %9k0t
 %9{0t
+&-'Vf
 &9k0t
 &D9c0t
 &D9k0t
@@ -54,7 +54,6 @@
 )9k0t
 )D$0fD
 )L$ fD
-)e-opr
 )t$ H
 )t$0H
 )|$ H
@@ -69,7 +68,6 @@
 -9k0t&H
 -9{0t%H
 -D9c0t%H
--XAE=
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -177,7 +175,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220815221216Z0/
+220829230529Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -191,7 +189,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5$n&z#
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -206,6 +203,7 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+99ok,k
 9C }.H
 9T$XJ
 9]pu2
@@ -217,6 +215,7 @@
 9l$Lt	E
 ;D$ht6
 <0:08
+<7gsw
 =ETLP
 =IBgC
 =SNRtt%
@@ -262,7 +261,6 @@
 @USVWAVH
 @UWAVAWH
 @VAVAWH
-@uvEa({{hG
 A9A A
 A9Q }EI
 A;Q }?I
@@ -477,7 +475,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS;
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -657,7 +654,6 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-b`EQi
 bad AC huff
 bad APP len
 bad BMP
@@ -721,13 +717,10 @@ d$$E3
 d$(Hi
 d$<Mc
 d$PfD
-d$X} <
 d$`H=
 d$`fD
-dIW:8
 da_da
 danish
-dc{Flu?^&
 de_de
 deque<T> too long
 driver_lighthouse
@@ -751,7 +744,6 @@ g9k0t_D
 german
 gfffffffH
 greek
-g}jy%
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -773,7 +765,6 @@ jj@0HK4
 k0i0$
 ko_ko
 korean
-kv.Yf
 l$ ATAVAWH
 l$ H;
 l$ VATAUAVAWH
@@ -845,7 +836,6 @@ romanian
 ru_ru
 russian
 schinese
-sn@`-q
 spanish
 startup
 strcmp
@@ -918,6 +908,7 @@ x]~\6
 zh_cn
 zh_tw
 zlib corrupt
+{@+#q
 {un'%
 |$ ATAVAWH
 |$ AVH

@@ -2,10 +2,9 @@
  %41g
  A__^
  H3E H3E
-![^z?
 !hn7!
+%'7G~a
 ',=?k
-'_.eO
 (f*^[0
 *9Z9N
 +Xt@(
@@ -82,7 +81,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220815221641Z0/
+220829230630Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -167,8 +166,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RRn/`
-RSDST
+RSDS#q
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -176,7 +174,6 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
-T1Nzn
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -189,6 +186,7 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
+ZqCu,Zj
 [K]taM?
 \$ UH
 ]J<0"0i3
@@ -251,8 +249,7 @@ memmove
 memset
 modelNumber
 ntelD
-q7Y3B 
-q\IM>K
+qcMu2
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -262,7 +259,9 @@ string too long
 t$ AVH
 t$ UWAVH
 t$@H=
+v&k*T
 v=Y]Bv
+v[Yc)
 vector<T> too long
 windowHeight
 windowWidth
@@ -274,7 +273,6 @@ x]~\6
 {un'%
 |$ AVH
 |Lu?c
-}>`2P<
 }LuHO
 ~qj#k"
 ~t&LN

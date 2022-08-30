@@ -139,6 +139,7 @@ $9^ t
 0}0i1
 1 1&111A1Q1[1e1p1}1
 1 1014181@1X1h1l1t1
+1 ypV
 1!1H1P1i1
 1(161D1R1`1p1
 1)1@1V1b1n1~1
@@ -165,7 +166,7 @@ $9^ t
 220323000000Z
 220329000000Z
 220801000000Z
-220815220702Z0/
+220829230324Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -202,6 +203,7 @@ $9^ t
 4%5o5s5
 4.4>4H4R4b4m4
 44585<5@5D5
+44O7&
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
 4`:d:q:u:
@@ -241,7 +243,6 @@ $9^ t
 6L7Z7h7~7
 6OB,n_
 6k6}6
-6xl]R
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7
 7#7(73787B7S7X7b7s7x7
 7,737L718C8I8
@@ -377,6 +378,7 @@ AitUVCExtApi.dll
 AjEB#AZ
 BMP RLE
 Bellevue1
+C<mPBw
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
 Camera Recovery Mode Required
@@ -475,7 +477,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-N%'	 
 Not Available
 NotFound
 Out of thread local storage!
@@ -493,7 +494,6 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS:
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -584,7 +584,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
-Y*VRs
 Y9"SD
 Y__^[
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -733,7 +732,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
-h{ZR-Q%
 illegal code in raster
 invalid
 invalid PLTE
