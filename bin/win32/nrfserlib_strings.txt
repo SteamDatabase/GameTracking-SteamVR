@@ -75,13 +75,11 @@ $Vh&*
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
-(.j2<
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
 *9Z9N
-*[8tg
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -709,7 +707,7 @@ $Vh&*
 220323000000Z
 220329000000Z
 220801000000Z
-220829230341Z0/
+220908231355Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -729,6 +727,7 @@ $Vh&*
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2F3R3_3
+2FGaEz
 2G2Y2t2
 2H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 2J2Q2\2u2
@@ -982,7 +981,6 @@ $Vh&*
 7V8J9
 7V8h8
 7^8~8
-7dO"<
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7t7y7~7
 8	9%9=9^9s9
@@ -1909,7 +1907,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSC~0&
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2071,7 +2068,6 @@ VjySPW
 Vj{SPW
 W9shvN3
 WAKEUP
-WGS*!
 WOKEN
 WS2_32.dll
 WSPh0
@@ -2108,7 +2104,6 @@ Zipfile is corrupt or not a zipfile
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
-^=q<?
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2174,7 +2169,6 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
-`Qzsf~
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -2209,11 +2203,11 @@ dat_file
 data error
 deque<T> too long
 digit
-dqr	^)N"
 e,>~^
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+f2(tM
 f;G$u
 f;G&u
 f;G(u
@@ -2273,6 +2267,7 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
+k:74g
 list<T> too long
 lj!hh
 lower
@@ -2480,7 +2475,6 @@ wn>Jj
 wt_^[
 www.digicert.com1!0
 www.digicert.com1$0"
-x0*pe
 x5t7j
 x]~\6
 xdigit

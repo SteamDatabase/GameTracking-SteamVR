@@ -28,7 +28,6 @@
 %,3:;4-&
 %9k0t
 %9{0t
-&-'Vf
 &9k0t
 &D9c0t
 &D9k0t
@@ -175,7 +174,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829230529Z0/
+220908231414Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -203,7 +202,6 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-99ok,k
 9C }.H
 9T$XJ
 9]pu2
@@ -215,7 +213,6 @@
 9l$Lt	E
 ;D$ht6
 <0:08
-<7gsw
 =ETLP
 =IBgC
 =SNRtt%
@@ -294,6 +291,7 @@ AitH264Capture.dll
 AitUVCExtApi.dll
 AjEB#AZ
 AuthD
+B<B>B
 BMP RLE
 Bellevue1
 C<unknown>
@@ -359,6 +357,7 @@ Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
+GHl	?W&
 GetCameraHALInterface
 GetCurrentProcessId
 GetCurrentThreadId
@@ -460,6 +459,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
+OsJr0
 Out of thread local storage!
 OutputDebugStringA
 PA^_^
@@ -475,10 +475,12 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS7Xs
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
+Rs@LZg
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -487,6 +489,7 @@ SATAUAVAWH
 SA|X=G
 SPB8t
 SPB8u,
+SUL4kl\
 SUVWATAUAVAWH
 SUVWAUAVAWH
 SWAUAVH
@@ -821,6 +824,7 @@ outofdata
 outofmem
 output buffer limit
 p UWAVH
+p<6g,SD
 pA^_[
 pA_A^A]A\[
 pl_pl
@@ -908,7 +912,6 @@ x]~\6
 zh_cn
 zh_tw
 zlib corrupt
-{@+#q
 {un'%
 |$ ATAVAWH
 |$ AVH

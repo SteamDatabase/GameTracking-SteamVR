@@ -3,13 +3,14 @@
  A__^
  H3E H3E
 !hn7!
-%'7G~a
 ',=?k
 (f*^[0
+* yoP
 *9Z9N
 +Xt@(
 +o'q)}
 ,W5y+
+-/&){#
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -72,6 +73,7 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+/y[;:
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -81,7 +83,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829230630Z0/
+220908231526Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -166,7 +168,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS#q
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -174,6 +175,7 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
+UB%:_@5
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -181,12 +183,12 @@ Using settings values
 VCRUNTIME140.dll
 VWAVH
 VWAWH
+V]o|u
 V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
-ZqCu,Zj
 [K]taM?
 \$ UH
 ]J<0"0i3
@@ -249,7 +251,7 @@ memmove
 memset
 modelNumber
 ntelD
-qcMu2
+rOXFgJA 
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -259,9 +261,8 @@ string too long
 t$ AVH
 t$ UWAVH
 t$@H=
-v&k*T
 v=Y]Bv
-v[Yc)
+vJ-,1I\,
 vector<T> too long
 windowHeight
 windowWidth
@@ -270,6 +271,7 @@ windowY
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
+xykNF
 {un'%
 |$ AVH
 |Lu?c

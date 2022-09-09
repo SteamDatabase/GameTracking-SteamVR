@@ -61,6 +61,7 @@ $Phdd
 %s: WriteFile failed! (%s)
 ' is not a number.
 ',=?k
+(&rdH
 ()$^.*+?[]|\-{},:=!
 (::LHB::)([0-9A-F]{4})\s([0-9A-F]*)
 (ADDR:)([0-9A-F]{12})
@@ -77,6 +78,7 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
+).M!I
 *9Z9N
 +KL+SL_;
 +Xt@(
@@ -232,7 +234,7 @@ $Phdd
 220323000000Z
 220329000000Z
 220801000000Z
-220829230329Z0/
+220908231335Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -750,6 +752,7 @@ K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
 K32GetProcessImageFileNameA
+K>Ag1
 KERNEL32.dll
 K}*n:	
 L3T3X3\3`3d3h3l3x3$4(4,4D4H4L4
@@ -773,7 +776,6 @@ LocalFree
 Logger.txt
 MB(iVR
 MSVCP140.dll
-MZ{w:
 Mac OS
 MacOS 10.10
 MacOS 10.11
@@ -822,7 +824,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSSY
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1016,6 +1017,7 @@ Windows XP
 WriteFile
 X6\6`6d6h6l6p6t6x6|6
 XSVW2
+Y&eSZ
 Y9"SD
 Y__^[
 Zip Error: %s
@@ -1032,8 +1034,8 @@ Zipfile is corrupt or not a zipfile
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
 \\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
-]>V#.
 ]J<0"0i3
+]PBnw
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
 _CxxThrowException
@@ -1117,6 +1119,7 @@ fputs
 fread
 fseek
 ftell
+g	o-pHo
 gfff+
 gfffSV
 gfffV
@@ -1126,7 +1129,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iaSAb
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1254,6 +1256,7 @@ vivelink-output.txt
 vivelink.exe
 vivelinklib.dll
 w(_^[]
+w+7qV
 w0_^[
 wd_^[
 win64
@@ -1264,7 +1267,6 @@ x5t7j
 x]~\6
 xdigit
 y4_^[
-zN+QR
 {L?uI
 {un'%
 |	9A 

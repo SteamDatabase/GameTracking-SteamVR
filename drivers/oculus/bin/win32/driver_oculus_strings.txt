@@ -42,7 +42,6 @@
 !&.37<
 !(0)"
 !9~ t
-!D"l$4T
 !hn7!
 " not found in the scene.
 "%/28;=#$019:>?
@@ -117,7 +116,6 @@ $9^ t
 -Infinity
 -startup
 .00cfg
-.;Jv>
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -450,7 +448,7 @@ $9^ t
 220323000000Z
 220329000000Z
 220801000000Z
-220829230358Z0/
+220908231434Z0/
 223w3
 241009235959Z0a1
 243@3M3V3_3d3i3u3
@@ -1003,6 +1001,7 @@ $9^ t
 =@=l=
 =C=G=t=
 =E=K=X=\=`=d=h=z>
+=J<au R
 =P=r=w=
 =U=r=
 =V>{>
@@ -1231,7 +1230,6 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
-Ewo7	<
 Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
 F(+F$
@@ -1510,7 +1508,6 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
-UA Og
 UNNAMED
 Unable to create texture set for pid %u: %s
 Unable to destroy %d swap textures due to invalid session
@@ -1550,6 +1547,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 Wjlhx
+W|HB6
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -1568,7 +1566,6 @@ Y__^[
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
-\FF?J5
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -1772,6 +1769,7 @@ c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
+cX R 
 camera
 cameras
 can't merge dc and ac
@@ -1828,6 +1826,7 @@ extensionsUsed
 extras
 f1&3f4
 f;A*stSW
+falaT
 false
 false literal
 fclose
@@ -2465,6 +2464,5 @@ znear
 }	jChpu
 }LuHO
 }qj<h
-~+JMOp
 ~qj#k"
 ~t&LN

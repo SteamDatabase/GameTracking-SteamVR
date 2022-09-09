@@ -42,6 +42,7 @@
  was not found
  with error 
 !hn7!
+#Nk#U
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -164,7 +165,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829230100Z0/
+220908231043Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -189,12 +190,11 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-:I?:j!k
 <0:08
+<`nxX*E&D
 =rIQU
 >0<0:
 >Mp$d
-?5.e#p
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -462,7 +462,9 @@ Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JKl7.
 KERNEL32.dll
+KZYf3
 K}*n:	
 L#A0L
 L#F0H
@@ -529,7 +531,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSSh~&
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -662,12 +663,11 @@ Y9"SD
 \$PI;
 \$hI;
 \$xHi
-\0V*Y
 \ApiLayers\Explicit
 \ApiLayers\Implicit
 \u=H;
 ]J<0"0i3
-]c+PR
+^?UoG
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -734,6 +734,7 @@ bad allocation
 bad array new length
 bad cast
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+cY%$]=OP
 collectComments
 d$ UAVAWH
 d$PE3
@@ -798,6 +799,7 @@ invalid properties
 invalid string position
 isValidJson indicates 
 jj@0HK4
+k/&\G
 k0i0$
 keylength >= 2^30
 l$ H;
@@ -830,6 +832,7 @@ openxr_loader.dll
 rejectDupKeys
 runtime
 s t#fff
+s1xx)
 setvbuf
 something wrong with XrInstanceCreateInfo contents
 stackLimit

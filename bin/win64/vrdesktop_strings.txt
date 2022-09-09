@@ -16,7 +16,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-#<f22\
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -103,6 +102,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.Q1Ak
 .data
 .data$r
 .edata
@@ -160,7 +160,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829230643Z0/
+220908231623Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -191,6 +191,7 @@
 =rIQU
 >0<0:
 >Mp$d
+>zcp@
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -385,6 +386,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
+E5LY=
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
@@ -568,7 +570,6 @@ LocalFree
 LocalizationManager
 M H1E
 M98u/
-M:#;p
 MB(iVR
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for
@@ -581,7 +582,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
-Nv`Kv
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -773,7 +773,6 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-cQ7gy
 cs_cs
 czech
 d$`H=
@@ -788,7 +787,6 @@ desktopview
 dwmapi.dll
 dxgi.dll
 e,>~^
-edA#=9
 el_el
 en_us
 english
@@ -797,6 +795,7 @@ es_mx
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fF94@u
+fM\]`
 false
 fffffff
 fi_fi
@@ -938,9 +937,9 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 x]~\6
-zT=l\
 zh_cn
 zh_tw
+{QS\w':
 {un'%
 |$ ATAVAWH
 |$ AVH

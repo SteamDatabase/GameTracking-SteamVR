@@ -3530,7 +3530,6 @@ $wtpt
 /Name /Im%.20g
 /Name /Ma%.20g
 /NonMaskedImageDict
-/PH&x
 /Pages %.20g 0 R
 /Parent %.20g 0 R
 /ProcSet %.20g 0 R >>
@@ -3641,6 +3640,7 @@ $wtpt
 0Hc|$hI
 0LcD$HH
 0Lc|$xI
+0c6I5
 0qB\'
 0r/hL
 0tIff
@@ -3719,7 +3719,7 @@ $wtpt
 220323000000Z
 220329000000Z
 220801000000Z
-220829230131Z0/
+220908231114Z0/
 230x323
 2384x3370
 24 24
@@ -3919,7 +3919,6 @@ $wtpt
 6ukE3
 6x6+0+0
 6|izA:/@A}o
-7"G(R
 7"~:*
 7$7`7
 7+4P;
@@ -5929,6 +5928,7 @@ CSPTCP154
 CSWINDOWS31J
 CT Water Number
 CTD9CPu
+CT|1v
 CXD+d
 CXH;CPr
 CYRILLIC-ASIAN
@@ -7673,7 +7673,6 @@ FUJIFILMCCD-RAW
 FXH)F(
 FXL98t^
 FXL98u
-FY(I}(
 F`H)F0H
 Failed SOP Instance UID List
 Failed SOP Sequence
@@ -8186,6 +8185,7 @@ GhostWhite
 Ghostscript (%s) version %d.%02d
 Ghostscript returns status %d, exit code %d
 Gi:%5
+GiUV^
 Glagolitic
 GlobalAlloc
 GlobalFree
@@ -8250,7 +8250,6 @@ Group Label
 Group Length
 Group Time Offset
 Group4
-GtaR`R
 Gujarati
 Gurmukhi
 Gvxam mincetu apocikvyeh: 
@@ -9357,7 +9356,6 @@ JPEG2000
 JPEGCompressNotSupported
 JPEGEmbeddingFailed
 JPXDecode
-JQ"Ia
 JUL$O
 JWnw*
 J[=<&AJ0h~St
@@ -10503,7 +10501,6 @@ NETSCAPE2.0
 NJ2"v
 NJ5mS/iX(
 NJPL1I
-NK &UCIg
 NL$(I;
 NN3xl
 NO?,~O?\
@@ -14754,7 +14751,6 @@ _wstat64i32
 `QSEJ
 `[ghostscript library %.2f]%s': %s
 ``6c3x
-`tQB`
 `}@ReadXBMImage
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
@@ -17900,6 +17896,7 @@ mn-cn
 mn-mn
 mng:need-cacheoff
 mntrRGB XYZ 
+mo-?[0
 moccasin
 modern
 modulate
@@ -19755,6 +19752,7 @@ u8I9vHu2I9v@t
 u8M9f
 u8fD9
 u8z>u<f
+u9+e#
 u9D9B
 u:D9c4u4H
 u;L;^ }5H

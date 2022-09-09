@@ -33,7 +33,6 @@
  Width: 
  s2E3
  sIE3
- v/43	
 !T$(H!T$ 
 !hn7!
 $+xvA
@@ -380,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220329000000Z
 220801000000Z
-220829230057Z0/
+220908231035Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -395,6 +394,7 @@ $< t6<$t,<+t"<vt
 3A8A#
 3mq+<
 4.tfH
+47_<h
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -431,6 +431,7 @@ $< t6<$t,<+t"<vt
 9_P~+E3
 9_P~,E3
 9_P~OE3
+9z2tb
 9{D~H3
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
@@ -529,7 +530,6 @@ $< t6<$t,<+t"<vt
 ?IsBacklightCompensation@IVRCamera@vrcamera@@UEAA_NXZ
 ?IsConnected@CVRCameraWindows@vrcamera@@UEAA_NXZ
 ?IsRawMode@IVRCamera@vrcamera@@UEAA_NXZ
-?P	s&
 ?ReadConfiguration@CVRCameraWindows@vrcamera@@UEAAXXZ
 ?Reconnect@CVRCameraWindows@vrcamera@@UEAAXXZ
 ?SetAutoExposureTarget@IVRCamera@vrcamera@@UEAAXG@Z
@@ -682,7 +682,6 @@ C$u	H
 C(H;C0r
 C0HcF
 C4D+@ H
-C5v,J
 C9|0$uA
 C@H98t"H
 C@H98t%H
@@ -1103,6 +1102,7 @@ Mbp?333333
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MinConcurrency
+MlGu%
 MultiByteToWideChar
 No Description
 No IPin available.
@@ -1120,6 +1120,7 @@ PA_A^A]A\_^[
 PA_A^A]A\_^]
 PA__^[]
 PAq=?Mp#
+PfB+_M$N
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryDepthSList
@@ -1127,6 +1128,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDS?
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1380,7 +1382,6 @@ bad locale name
 bad message
 blank
 broken pipe
-c$Km(
 c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 calloc
 cntrl
@@ -1396,7 +1397,6 @@ d$XD9
 d$XE3
 d$`H=
 d$vI9V
-dD4pWBgp
 destination address required
 device or resource busy
 digit
@@ -1408,6 +1408,7 @@ eventObject
 executable format error
 f	n@H
 f#D$@H
+f'?lT
 f9,Yu
 f9/t	H
 f9D$pu

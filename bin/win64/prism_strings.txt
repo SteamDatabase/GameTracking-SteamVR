@@ -512,6 +512,7 @@ $II+L$`
 .tls$ZZZ
 .xdata
 .xdata$x
+/d2i`	;
 0A]A\_
 0A^A]A\
 0A^_[
@@ -522,7 +523,6 @@ $II+L$`
 0A_A^A]A\_^[
 0A_A^_
 0A_A^_^[
-0f6f.i
 0w0c1
 0}0i1
 130801120000Z
@@ -531,7 +531,7 @@ $II+L$`
 220323000000Z
 220329000000Z
 220801000000Z
-220829230215Z0/
+220908231206Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -545,6 +545,7 @@ $II+L$`
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4*Sy(
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -1076,6 +1077,7 @@ GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d
 Graphics Timeline
+G}<.f
 H SVWH
 H USVAUH
 H+D$@
@@ -1150,6 +1152,7 @@ IPCPipe(%s): Next message type %u, seq %u, len %u
 IPCPipe(%s): Sending simple message type %u, seq %u
 IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal
 IPCPipe(%s): Wrote %u bytes of total message length
+IdiDH
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 ImportClients
 InitializeAcl
@@ -1264,6 +1267,7 @@ ME-Reprojector-Mask
 ME-VisibleAreaMask-%s
 ME-VisibleAreaMask-Graphics Command Pool
 ME-VisibleAreaMask-Timeline
+MHN2s
 MSVCP140.dll
 MV-Attenuation
 MV-Attenuation-%s
@@ -1603,7 +1607,6 @@ WindowsDisplayCore
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 WriteFile
-X:f<7_
 XA_A][]
 XA_A^A]_
 Y9"SD
@@ -1812,7 +1815,6 @@ drawInfo.pVertexBuffer != nullptr
 dxgi.dll
 e,>~^
 effffff
-e~Rax
 f9+t4
 f98tZH
 f98t\H
@@ -1850,7 +1852,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-h{*;k,
 input.colorIndices.nSwapchainIndex != SwapchainIndices_t::k_nInvalidSwapchainIndex
 invalid bitset<N> position
 invalid string position
@@ -2060,6 +2061,7 @@ timeEndPeriod
 timeKillEvent
 timeSetEvent
 timing.nPixelClockRate > 0
+to'M-z
 to.pPool != nullptr
 tolower
 t}H9=
@@ -2537,6 +2539,7 @@ www.digicert.com1!0
 www.digicert.com1$0"
 xA_A^A]A\_^[]
 x]~\6
+yXR7qA
 yxxxxxxxH
 yxxxxxxxI+
 {pH;{xw?

@@ -139,7 +139,6 @@ $9^ t
 0}0i1
 1 1&111A1Q1[1e1p1}1
 1 1014181@1X1h1l1t1
-1 ypV
 1!1H1P1i1
 1(161D1R1`1p1
 1)1@1V1b1n1~1
@@ -166,7 +165,7 @@ $9^ t
 220323000000Z
 220329000000Z
 220801000000Z
-220829230324Z0/
+220908231335Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -203,7 +202,6 @@ $9^ t
 4%5o5s5
 4.4>4H4R4b4m4
 44585<5@5D5
-44O7&
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
 4`:d:q:u:
@@ -378,7 +376,6 @@ AitUVCExtApi.dll
 AjEB#AZ
 BMP RLE
 Bellevue1
-C<mPBw
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
 Camera Recovery Mode Required
@@ -415,6 +412,7 @@ Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
 F|t	_^3
+G@BD\
 GetCameraHALInterface
 GetCurrentProcess
 GetCurrentProcessId
@@ -844,6 +842,7 @@ zh_tw
 zlib corrupt
 {un'%
 |Lu?c
+}5]vIb
 }LuHO
 ~qj#k"
 ~t&LN

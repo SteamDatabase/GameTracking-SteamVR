@@ -17,7 +17,6 @@
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
-%'.3,;aw$.
 %s%s%s%s%s
 ' is not a number.
 ',=?k
@@ -176,7 +175,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829231034Z0/
+220908231640Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -202,6 +201,7 @@
 8_^][
 9D$xu
 9D$|toH
+:1\iP
 < t+<
 </u#H
 <0:08
@@ -660,10 +660,10 @@ Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q3IpA
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSVOG
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -724,6 +724,7 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
+U9pA?J
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -792,9 +793,7 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-XOKxW
 Y9"SD
-ZT^%d
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -988,6 +987,7 @@ openvr_api.dll
 overlay_frame_times
 overlay_key
 overlay_keyboard_closed
+p+:b|0
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]

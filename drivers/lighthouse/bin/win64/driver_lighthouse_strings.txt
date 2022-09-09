@@ -810,7 +810,6 @@ $w!Hc
 )\$0uE
 )\$pI
 )\ZEo^m/
-)a9:N`
 )d$`H
 )d$pD
 )l$ D
@@ -1380,7 +1379,7 @@ $w!Hc
 220323000000Z
 220329000000Z
 220801000000Z
-220829231017Z0/
+220908232028Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1403,6 +1402,7 @@ $w!Hc
 4Pole
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5IDB4
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -1615,6 +1615,7 @@ $w!Hc
 >W`.]tB3?
 >X9t?
 >fff?
+>uw*5
 ?!std::isnan( flSystemTimeInSeconds )
 ?&x0O
 ?'1(?
@@ -1944,7 +1945,6 @@ $w!Hc
 @^8U)zj
 @_RDATA
 @fff>fff>fff>fff>
-@oRlG
 A H+A
 A H;A
 A file with this name is already in the pool.
@@ -1962,6 +1962,7 @@ A,9AT|
 A0H9i8u
 A8IcA0I
 A8_Yt
+A8qY&a
 A8t$qt
 A8t$r
 A9@$}VM
@@ -2249,6 +2250,7 @@ C8@8l$8t.
 C8D;C<
 C8H+C0H
 C8H;s0t!H
+C<+VF
 C@9C0~'H
 C@9E |
 C@H+H0
@@ -2383,6 +2385,7 @@ CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with
 CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace
 CSharedResourceNamespaceClient::Init(): timed out waiting for server reply
 CSharedResourceNamespaceClient::InitIfNeeded
+CSyZd
 CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....
 CT$ H
 CT$(L
@@ -3255,7 +3258,6 @@ GOOGLE_LOG_DIR
 GPI+GHf
 GPJMt
 GPJMtUH
-GQ>`,
 GXkVp8H
 General reset
 Generating hidden area mesh for mode "%d" %s
@@ -4130,7 +4132,6 @@ Looking for default audio playback device matching VID:%04x/PID:%04x %s
 Looking for default audio recording device matching VID:%04x/PID:%04x %s
 Lost default audio playback %s
 Lost default audio recording %s
-LrtM~
 L~Zs>9
 M H1E
 M#V0M
@@ -4393,6 +4394,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
+RS$wb}
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5335,6 +5337,7 @@ WriteFile
 X USVWATAVAWH
 X UVWAVAWH
 X UVWH
+X-X@p
 XA;6|
 XA;?|
 XA\_^[
@@ -5637,6 +5640,7 @@ _wstat64i32
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
+aM~H^
 abgrt
 abort
 acc_bias
@@ -6140,6 +6144,7 @@ fsetpos
 ftell
 fwrite
 g9k0t_D
+g=UUg
 gc/250_v0.gc
 generator
 generic_controller
@@ -6224,8 +6229,6 @@ https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
 hu_hu
 hungarian
 i H9i0u
-i4SIX
-i5i}4b
 iauds
 ideal_period
 identifier_value
@@ -6722,7 +6725,6 @@ public_dependency
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x
 r	D;@(}
-r XC0`
 r+w.I
 r,fff
 r/w0H
@@ -7747,6 +7749,7 @@ zh_cn
 zh_tw
 zlib corrupt
 znear
+ztV7.)x
 zuusA
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,1,'NV12'" ] }
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }

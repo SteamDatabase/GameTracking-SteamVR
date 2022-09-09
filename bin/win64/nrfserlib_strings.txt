@@ -66,7 +66,7 @@
  times.
  version-number:
 !hn7!
-$U&I~
+"1k|	
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -634,11 +634,10 @@ $U&I~
 220323000000Z
 220329000000Z
 220801000000Z
-220829230533Z0/
+220908231417Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2Py_"U
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
@@ -1251,11 +1250,11 @@ GATT Write Without Response. (handle: %d, length: %d, queue: %d) '%s'
 GATTC Send handle value confirmation to handle %d
 GBf9F
 GD9E0t
-GDPET?
 GDf9F
 GFf9F
 GH9E0t
 GXA_A^A]A\_^]
+G[ap.
 G`f9F
 Gdf9F
 Get Service Handles. UUID: 0x%4.4X, start_handle: %d, end_handle: %d
@@ -1416,6 +1415,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
+MtZd9pN
 MultiByteToWideChar
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
@@ -1520,7 +1520,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSLY
+RSDS4
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1776,10 +1776,12 @@ Zipfile is corrupt or not a zipfile
 \$pH;
 \$pI;
 \Device Parameters
+\Ru	h
 \u=H;
 ]J<0"0i3
 ]gfff
 ^[0-9]+$
+^[a"&
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1908,6 +1910,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i')r-
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer

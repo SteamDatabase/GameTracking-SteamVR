@@ -1,6 +1,5 @@
 	!s99
  %41g
- N@PV
 !hn7!
 ',=?k
 (f*^[0
@@ -84,7 +83,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829230347Z0/
+220908231402Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -92,13 +91,13 @@
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2xJK7*L
 3(3d3
+3,wVg
 311109235959Z0b1
 330314235959Z0L1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3<3Y3o3
-3^zH[*)yb
 3mq+<
 4(4Z4
 4*464<4B4N4q4O5o5y5
@@ -147,12 +146,14 @@
 >Mp$d
 >T>]>f>o>t>y>
 ?0?8?L?T?\?d?h?l?t?
+?SH3:
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
 AjEB#AZ
 Bellevue1
+C^YJN
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -208,11 +209,10 @@ VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-W7pE4
+W3^a]r+
 Washington1
 Y9"SD
 Y__^[
-Yoc('
 [K]taM?
 ]J<0"0i3
 _CxxThrowException
@@ -262,7 +262,6 @@ driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
 e,>~^
-g]rp;
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -292,7 +291,6 @@ windowY
 www.digicert.com1!0
 www.digicert.com1$0"
 x]~\6
-z%bCU
 {un'%
 |Lu?c
 }LuHO

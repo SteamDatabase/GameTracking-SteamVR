@@ -22,6 +22,7 @@
 		"seated" : {
 		"standing" : {
 	!s99
+	2^Uz
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	D$HA
@@ -70,6 +71,7 @@
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
 "9k0t
+"Kpd$
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -453,14 +455,14 @@ $w!Hc
 11 4 22 44 44 22 444444
 130801120000Z
 1e+9999
+2-G`)
 2.5.4.3
-20b;_
 210429000000Z
 211007000000Z
 220323000000Z
 220329000000Z
 220801000000Z
-220829230643Z0/
+220908231547Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -527,9 +529,9 @@ $w!Hc
 =TADIt<=DNEI
 =rIQU
 >0<0:
-><+G^5Xd
 >Mp$d
 >W`.]tB3?
+?=q|5x
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -1137,7 +1139,6 @@ IsDepthFormat( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
-JztFM
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1628,7 +1629,6 @@ aspectRatio
 assert json failed
 asset
 attributes
-bJx%J
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
 bad APP len
@@ -1690,6 +1690,7 @@ bufferView
 bufferViews
 buffers
 bulgarian
+bvzU	
 byteLength
 byteOffset
 byteStride
@@ -1768,6 +1769,7 @@ extensions
 extensionsRequired
 extensionsUsed
 extras
+f!xn^q
 fD9	u
 false
 false literal
@@ -2307,7 +2309,6 @@ shaders/d3d11/unlit_vs.fxo
 skeleton
 skeletons
 skins
-smK$&$
 source
 spanish
 sparse
@@ -2374,6 +2375,7 @@ t$hL;
 t$pI;
 t$pfA
 t$pfD
+t+>rn
 t1Hcl$@
 t9fff
 t>H9n

@@ -3158,7 +3158,6 @@ $0}
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:59:33
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3175,6 +3174,7 @@ $0}
 22IVRDisplayComponent001
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:09:35
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -3761,7 +3761,6 @@ Attempting to wait on a fence that has already been waited for. Current: %llx Wa
 Attempting to wait on a fence value that is too large. Current: %llx Wait: %llx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %llx, Signaled: %llx
 Aug
-Aug 29 2022
 August
 AuthenticAMD
 AutosaveURL
@@ -24042,6 +24041,7 @@ Sending focus captured event
 Sending focus released event
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
+Sep  8 2022
 September
 Server
 Server could not create read event %s

@@ -2,6 +2,8 @@
  %41g
  (Camera)
 !hn7!
+"iBkYb
+#q\.aK9xA;b
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
@@ -93,7 +95,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829230351Z0/
+220908231412Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -196,7 +198,6 @@
 >!>'>/>7><>B>J>R>W>]>e>m>r>x>
 >">(>.>4>:>@>F>L>R>X>^>d>j>p>v>|>
 >">D>N>W>b>h>n>u>
->)KSRLA9n
 >,>P>\>d>
 >0<0:
 >5>L>a>h>n>
@@ -216,7 +217,6 @@
 @.reloc
 ADVAPI32.dll
 AjEB#AZ
-B'Hv`
 Bellevue1
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
@@ -301,6 +301,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
+RSDS3{K
 RaiseException
 S0Q0O
 SA|X=G

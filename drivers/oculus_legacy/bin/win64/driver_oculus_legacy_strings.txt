@@ -7,6 +7,7 @@
  H3E H3E
 !hn7!
 ',=?k
+'H6&O
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -15,7 +16,6 @@
 (l$PD
 (t$pH
 )D$ H
-)R8=He
 )\$pD
 )d$`D
 )t$pu.H
@@ -93,7 +93,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829231102Z0/
+220908231720Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -129,6 +129,7 @@
 ;k sAH
 ;k sDH
 <0:08
+<dK!U
 =rIQU
 >0<0:
 >Mp$d
@@ -174,6 +175,7 @@ CreateEventW
 CreateThread
 C|$XH
 D$0Hc
+D$^*+Z
 D3D11CreateDevice
 D848u
 D9@ s
@@ -238,7 +240,6 @@ InitializeSListHead
 Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J:6bs7
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -247,6 +248,7 @@ L$ SH
 L$ SUVWH
 L$ SVWH
 L$@H3
+L3-L9
 L9t$huP
 L?n(Zy&
 LIBOVR_DLL_DIR
@@ -272,10 +274,12 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDS*I
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S#jmg7q&
 S0Q0O
 SA|X=G
 SDL2.dll
@@ -302,6 +306,7 @@ TlsSetValue
 UAVAWH
 USVWATAUH
 UWAVH
+Uj+e]=!:
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter

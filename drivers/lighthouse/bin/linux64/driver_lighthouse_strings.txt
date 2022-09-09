@@ -872,9 +872,9 @@ $@
 20CVRFramerateGovernor
 20CVkCommandBufferPool
 20IVRAudioNotification
-22:59:34
 22CKeyframedDataResource
 22CLighthouseHmdProvider
+23:09:50
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -1052,7 +1052,6 @@ Attempting HID Open %s: %s
 Audio
 AudioBridge
 Aug
-Aug 29 2022
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)
@@ -5188,6 +5187,7 @@ Selected existing universe %llu (%08X is %s)
 Self queried namespace: %u
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
+Sep  8 2022
 September
 Set column correction %f %d %f %d
 Set index backlight gain: %f

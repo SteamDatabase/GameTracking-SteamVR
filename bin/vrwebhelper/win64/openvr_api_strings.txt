@@ -66,6 +66,7 @@ $iMBm
 %H : %M
 %H : %M : %S
 %I : %M : %S %p
+%V%=O
 %Z/nJ?
 %b %d %H : %M : %S %Y
 %d / %m / %y
@@ -114,12 +115,14 @@ $iMBm
 *9Z9N
 *StO9>T
 *uXI;
++%kAVc
 +J$D8M@
 +M<7>
 +Xt@(
 +Z$cH
 +f)>0'
 +h->|
++la.%
 +o'q)}
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,/<-w
@@ -411,7 +414,7 @@ $iMBm
 220323000000Z
 220329000000Z
 220801000000Z
-220829230509Z0/
+220908231342Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -439,6 +442,7 @@ $iMBm
 700PP
 700WP
 70503
+7MQk9E
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8*u;I
 8-uCH
@@ -1135,7 +1139,6 @@ IsValidCodePage
 IsValidLocale
 IsValidLocaleName
 J$A;H$A
-J)CmBb
 J>@G_
 JBIh	i
 JX<$N
@@ -1239,6 +1242,8 @@ Low Power Watchdog Not Supported (129)
 LrvD)O
 M H1E
 M(f95
+M,l}Y	
+M0fB9
 M98u/
 MB(iVR
 MM/dd/yy
@@ -1695,7 +1700,6 @@ VirtualFree
 VirtualProtect
 W0;Ct~ZH
 W8HcH
-W94`!
 WATAUAVAWH
 WATAVH
 WATAWH
@@ -1714,6 +1718,7 @@ WinRTInitialization
 WriteConsoleW
 WriteFile
 X E9j
+X@>r4
 X_^][
 Y$D;R
 Y([~=
@@ -1765,7 +1770,6 @@ Zod(^?
 \$gm?
 \$hI;
 \$pE3
-\,IIo
 \@d#_
 \Fj;!h8
 \ffff
@@ -1884,6 +1888,7 @@ c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
+cU@Bo
 ceLfdfK3
 cg+tY
 collectComments
@@ -2069,7 +2074,6 @@ ldexp
 log10
 lq%&1T
 m0k0$
-m7*r;l&
 map/set<T> too long
 message size
 n03>Pu
@@ -2102,7 +2106,6 @@ not enough memory
 not supported
 ntelD
 o0t$I
-o>K>KJ
 oB(h8
 oI>O7
 obwQ4
@@ -2122,7 +2125,6 @@ ot$ H
 ot$HH
 owner dead
 o|$0f
-o}tW6
 p AWH
 p D9V
 p WATAUAVAWH
@@ -2149,6 +2151,7 @@ r	Vr.>T
 r	uAD;d$$u:
 r8w&M;
 r9D8v
+r9OfO
 rB-<e*
 rBu/H
 rLp>B
@@ -2188,7 +2191,6 @@ t @8x
 t H9X8t]
 t"<.u
 t#fA;
-t#sMW@
 t$ AVH
 t$ AWH
 t$ E3
@@ -2235,7 +2237,6 @@ tA8_:t
 tAm4@
 tDLcC
 tG8\$ u08\$!t*E
-tI{>2
 tKI;D
 tQfD9 tK
 tRCU+
@@ -2313,7 +2314,6 @@ x AVH
 x AVHcA
 x AWH
 x UAVAWH
-x;-cu
 xMHcC
 xP?b3
 xRB`2
@@ -2380,5 +2380,6 @@ zwom}
 }o@8{
 ~ $s%r
 ~`D8I!t-
+~pB6D
 ~qj#k"
 ~t&LN

@@ -3,6 +3,7 @@
  A__^
  H3E H3E
 !hn7!
+$kuI!
 ',=?k
 (D$ f
 (f*^[0
@@ -90,6 +91,7 @@
 /input/y/click
 /output/haptic
 0A_A^A]A\_^[
+0qX]S
 0w0c1
 0}0i1
 130801120000Z
@@ -98,7 +100,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829230624Z0/
+220908231523Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -126,6 +128,7 @@
 =rIQU
 >0<0:
 >Mp$d
+?S?x@:
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -141,7 +144,6 @@ A_A^_^]
 AjEB#AZ
 AuthD
 Bellevue1
-BjXpx
 CloseHandle
 CreateEventW
 D$8H9
@@ -155,6 +157,7 @@ DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+FvMrM
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -209,6 +212,7 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QgkV-!Qi
 QueryPerformanceCounter
 RaiseException
 RtlCaptureContext
@@ -263,6 +267,7 @@ WakeAllConditionVariable
 Washington1
 Y9"SD
 [K]taM?
+[~0j8
 \$ UH
 ]J<0"0i3
 _Cnd_destroy
@@ -303,15 +308,17 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`a[T^
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
+c{RBV
 driver_gamepad.dll
 e,>~^
-gf9~)*F
+g\@@A!
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -319,6 +326,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+kV]%R3
 l$8E3
 m0k0$
 malloc
@@ -335,7 +343,6 @@ t$ WH
 t$@H=
 tXfff
 terminate
-v-WfD
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0

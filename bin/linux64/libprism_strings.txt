@@ -477,7 +477,7 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-22:59:34
+23:09:50
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -543,7 +543,6 @@ April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe
 Aug
-Aug 29 2022
 August
 Automatically quitting due to idle time > %f seconds.
 B
@@ -2319,6 +2318,7 @@ SecondsToSystemTicks(double)
 See
 Self queried namespace: %u
 Sep
+Sep  8 2022
 September
 Set thread %p priority to: %d
 SetCurrentProcessExplicitAppUserModelID()

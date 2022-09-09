@@ -14,7 +14,6 @@
 (D$0f
 (f*^[0
 *9Z9N
-+4E5Gr$
 +Xt@(
 +o'q)}
 ,W5y+
@@ -119,7 +118,7 @@
 220323000000Z
 220329000000Z
 220801000000Z
-220829230223Z0/
+220908231115Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -143,11 +142,10 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-97Ket
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-;/oe@
+;tEd:
 <0:08
 <P)9Y
 <unknown>
@@ -168,7 +166,6 @@
 @UVAUAWH
 @UVAVAWH
 @WAUAVAWH
-A#w{_
 ASSERT: "%s" at %s:%d.
 A_A]^]
 A_A^A\_^[
@@ -265,8 +262,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R-=b3Q
-RSDSD
+R;Uj?
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -389,7 +385,7 @@ memmove
 memset
 ntelD
 ole32.dll
-oz\lg(D
+s1K't
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
