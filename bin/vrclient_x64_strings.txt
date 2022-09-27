@@ -20,7 +20,6 @@
 	enum_type
 	extension
 	is_hidden
-	lIi4jE
 	log_level
 	mime_type
 	name_part
@@ -566,14 +565,13 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(% ,"
+(%hc"
+(%p*"
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
-(=H\,
-(=tb,
 (A\^][
 (A\_^[
 (A]_^[
@@ -804,7 +802,6 @@ $w!Hc
 **** JUDDER **** expected %u got %u
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
-*9Z9N
 *CVRMsg_CompositorGetScreenshotPropertyType
 *CVRMsg_CompositorRefSharedResourceResponse
 *CVRMsg_CompositorRequestScreenshotResponse
@@ -1861,7 +1858,6 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/52i'
 /9{0t'H
 /CVRMsg_ClientMailbox_SendMailboxMessageResponse
 /CVRMsg_CompositorSetDashboardVisibilityResponse" 
@@ -2242,9 +2238,9 @@ $w!Hc
 211007000000Z
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
-220329000000Z
 220801000000Z
-220908231741Z0/
+220921000000Z
+220927205521Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2255,9 +2251,8 @@ $w!Hc
 2HcB,
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 3333333
 333?E
 360428235959Z0i1
@@ -2270,7 +2265,6 @@ $w!Hc
 42HcF,
 440.97
 4IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
-4KqmY
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
@@ -2366,6 +2360,7 @@ $w!Hc
 9_@~;H
 9_X~63
 9_x~33
+9e<?M
 9i ~0H
 9k(~$H
 9k0t$H
@@ -2493,6 +2488,7 @@ $w!Hc
 < t+<
 <$A9~T
 <$HiL$p
+<*J=)
 <*tq</tm<
 <*ufH
 </u#H
@@ -2501,6 +2497,7 @@ $w!Hc
 <9w/H
 <9waH
 <:$u<B
+<B&ce
 <Bu'H
 <Eu1H
 <H;D$ 
@@ -3065,7 +3062,6 @@ Adobe
 After initial config load, app appears to be using legacy input
 After initial config load, app appears to not be using SteamVR Input
 After initial config load, app appears to not be using input
-AjEB#AZ
 Alert
 Alias
 AllowSetForegroundWindow
@@ -3165,7 +3161,7 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-}-#
+C-(o0
 C09w(~:L
 C0L9$
 C0L;E
@@ -3982,6 +3978,7 @@ D;}Tr
 D;~ |
 DD$(H
 DD$@H
+DRe7)
 DX11 level hardware required!
 DXGI adapter not found, defaulting to index 0.
 Deactivation threshold of %f will be set to the minimum allowed value %f in filter %s.
@@ -4006,9 +4003,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 Disabling advanced image processing of scene textures. Only enabled on latest OSs.
 Disabling texture compression on '%s' due to destination texture format.
@@ -4528,6 +4525,7 @@ G8D8t$8t/A
 G@A;A t
 G@H9A@t	E
 GHiVX
+GJx|EBw	
 GPH9CHu.L
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
@@ -4770,6 +4768,7 @@ H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
+H;5Ud)
 H;8u8H
 H;8u9
 H;8u:H
@@ -5680,7 +5679,6 @@ LABEL_REPEATED
 LABEL_REQUIRED
 LINEAR
 LITE_RUNTIME
-L\J[C
 Label
 LastKnown
 LaunchApp
@@ -5736,6 +5734,7 @@ M#W0M
 M#e0I
 M+HPI
 M,fff
+M0tG@
 M9 t13
 M91u?3
 M91uJ3
@@ -6149,7 +6148,7 @@ Protocol message was modified concurrently during serialization.
 Purging all shared textures because the connection to vrserver was lost
 Pz}b!
 Q H9P 
-QFailed to create internal command allocator
+QFailed to create internal command allocator %d
 QHL9u
 QHtfH
 Qkkbal
@@ -6158,6 +6157,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSx$c=
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7522,7 +7522,6 @@ VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared text
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
 W H;C
 W$H;C
-W%Rs(
 W(H;C
 W(LcB
 W,H;C
@@ -7589,7 +7588,6 @@ X Hc@(H
 X Hc@(L
 X UVWH
 X UWATAUAWH
-X-|-)
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -7971,7 +7969,10 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y-$.)
+Y-t,)
+Y50F(
+Y59.(
+Y5>2(
 Y9"SD
 Y>t$7?*
 YD$8E
@@ -8153,6 +8154,7 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \%03o
+\-1%$
 \10I;
 \U%08x
 \\.\pipe\
@@ -8168,7 +8170,7 @@ ZvFailed to create fence %ls.
 ] name = [
 ]0H9X
 ]9k0tVD
-]=-k"
+]=}i"
 ]@L9{(
 ]HH;]Pt8
 ]HH;]Ptb
@@ -8181,12 +8183,10 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%9I"
-_%WN"
+_%GK"
 _8H9_@
 _8H;_@t
 _8I9_@
-_=Jk"
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -8557,6 +8557,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp
 c:\fake_app_container_config_path
 c@L+c8D
+cU	F9
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -8774,7 +8775,6 @@ dropNullPlaceholders
 drop_speed
 duration
 dxgi.dll
-e,>~^
 e0A_A^A]A\]
 eCS < CS_Count
 ePH9C tEH
@@ -9658,6 +9658,7 @@ pt_pt
 public_dependency
 pulse_duration
 punct
+pwWTy
 py_generic_services
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
@@ -10417,7 +10418,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-
+t8D8-a
 t9fff
 t:fff
 t<Lc@xE
@@ -11225,7 +11226,7 @@ xA^A\_^][
 xA_A^A]A\][
 xA_A^_^][
 xL97t
-x]~\6
+xV`v@
 x_^][
 x_path
 xdigit

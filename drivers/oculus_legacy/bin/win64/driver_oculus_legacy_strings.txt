@@ -6,8 +6,8 @@
  A__^
  H3E H3E
 !hn7!
+##i/=
 ',=?k
-'H6&O
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -19,7 +19,6 @@
 )\$pD
 )d$`D
 )t$pu.H
-*9Z9N
 +Xt@(
 +o'q)}
 , last executing in 
@@ -91,17 +90,16 @@
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231720Z0/
+220921000000Z
+220927205820Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -128,8 +126,8 @@
 ;K sUH
 ;k sAH
 ;k sDH
+<*J=)
 <0:08
-<dK!U
 =rIQU
 >0<0:
 >Mp$d
@@ -159,7 +157,6 @@ A_A^A]A\_
 A_A^A]A\_^[]
 A_A^]
 A__][
-AjEB#AZ
 AuthD
 Bellevue1
 C(L95
@@ -175,7 +172,6 @@ CreateEventW
 CreateThread
 C|$XH
 D$0Hc
-D$^*+Z
 D3D11CreateDevice
 D848u
 D9@ s
@@ -187,9 +183,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 Error! EventWriteString Severe: %s
 EventRegister
@@ -248,7 +244,6 @@ L$ SH
 L$ SUVWH
 L$ SVWH
 L$@H3
-L3-L9
 L9t$huP
 L?n(Zy&
 LIBOVR_DLL_DIR
@@ -274,12 +269,11 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS*I
+RSDS2
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S#jmg7q&
 S0Q0O
 SA|X=G
 SDL2.dll
@@ -306,7 +300,6 @@ TlsSetValue
 UAVAWH
 USVWATAUH
 UWAVH
-Uj+e]=!:
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -336,6 +329,7 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
+]F|,%
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -382,12 +376,12 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
+cU	F9
 camera
 d$`H=
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
-e,>~^
 effffff
 f9<Xu
 getenv
@@ -476,7 +470,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-x]~\6
+xJCwk,x
 z(uMH
 {ERR-001}
 {ERR-079}

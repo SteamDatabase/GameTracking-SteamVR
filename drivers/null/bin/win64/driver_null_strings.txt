@@ -1,16 +1,15 @@
 	!s99
+	k7	Wb
  %41g
  A__^
  H3E H3E
 !hn7!
+#F A;c
 ',=?k
 (f*^[0
-* yoP
-*9Z9N
 +Xt@(
 +o'q)}
 ,W5y+
--/&){#
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -73,7 +72,6 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
-/y[;:
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -81,17 +79,16 @@
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231526Z0/
+220921000000Z
+220927205258Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -106,6 +103,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+<*J=)
 <0:08
 =rIQU
 >0<0:
@@ -116,7 +114,6 @@
 @.reloc
 @.rsrc
 @A^_^
-AjEB#AZ
 AuthD
 Bellevue1
 CT$0H
@@ -124,10 +121,11 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
+F(43x
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -175,7 +173,6 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
-UB%:_@5
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -183,7 +180,6 @@ Using settings values
 VCRUNTIME140.dll
 VWAVH
 VWAWH
-V]o|u
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -222,9 +218,11 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b3cG/Q
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+cU	F9
 displayFrequency
 driver_null
 driver_null.dll
@@ -235,7 +233,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-e,>~^
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -251,7 +248,6 @@ memmove
 memset
 modelNumber
 ntelD
-rOXFgJA 
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -262,7 +258,6 @@ t$ AVH
 t$ UWAVH
 t$@H=
 v=Y]Bv
-vJ-,1I\,
 vector<T> too long
 windowHeight
 windowWidth
@@ -270,8 +265,6 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-x]~\6
-xykNF
 {un'%
 |$ AVH
 |Lu?c

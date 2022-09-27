@@ -13,10 +13,10 @@
 ',=?k
 (D$0f
 (f*^[0
-*9Z9N
 +Xt@(
 +o'q)}
 ,W5y+
+,x8HA
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -116,20 +116,20 @@
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231115Z0/
+220921000000Z
+220927204852Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3HK&(
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -145,18 +145,21 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-;tEd:
+9G~6^|l;&
+<*J=)
 <0:08
 <P)9Y
 <unknown>
 =rIQU
 >0<0:
+>?L,C
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
 @.data
 @.reloc
+@6U,k-
 @A^][
 @A^_^
 @SUAVH
@@ -171,8 +174,8 @@ A_A]^]
 A_A^A\_^[
 A_A^A\_^[]
 A_A^^]
-AjEB#AZ
 AuthD
+BEGr_
 Bellevue1
 C++/WinRT version:1.0.190111.3
 CD$@3
@@ -199,9 +202,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
@@ -251,6 +254,7 @@ L?n(Zy&
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
+M3k`/
 MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -259,10 +263,11 @@ MultiByteToWideChar
 OLEAUT32.dll
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+PtMU1
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R;Uj?
+RSDS8
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -365,9 +370,9 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+cU	F9
 d3d11.dll
 dxgi.dll
-e,>~^
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -385,7 +390,7 @@ memmove
 memset
 ntelD
 ole32.dll
-s1K't
+q	5T^!
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -403,7 +408,6 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-x]~\6
 {un'%
 |$ AVH
 |$0E3

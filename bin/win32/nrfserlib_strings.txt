@@ -79,7 +79,6 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-*9Z9N
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -705,9 +704,9 @@ $Vh&*
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231355Z0/
+220921000000Z
+220927205116Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -727,7 +726,6 @@ $Vh&*
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2F3R3_3
-2FGaEz
 2G2Y2t2
 2H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 2J2Q2\2u2
@@ -740,7 +738,6 @@ $Vh&*
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 2v3F4X4
-2xJK7*L
 3	4K4t4
 3 3$3
 3 3$3(3,3034383<3@3D3H3L3P3T3
@@ -774,7 +771,7 @@ $Vh&*
 31;1C1M1
 32-bit
 323H3
-330314235959Z0L1
+331121235959Z0F1
 343D3H3X3\3`3h3
 353[3
 360428235959Z0i1
@@ -837,6 +834,7 @@ $Vh&*
 4L4l4
 4S4g4n4
 4T5X5\5`5d5h5l5p5t5x5|5
+4Tu@v
 4U7p7
 4]4t4z4
 4f5s546
@@ -1202,6 +1200,7 @@ $Vh&*
 <&<0<:<D<N<X<b<l<v<
 <(<e<
 <*=K=
+<*J=)
 <,<<<@<P<T<X<\<d<|<
 <,<<<@<P<T<X<`<x<
 <,=1=k>u>{>
@@ -1435,7 +1434,6 @@ A98t
 ACL_DATA_PACKET
 ADVAPI32.dll
 Address:  %s
-AjEB#AZ
 Already open
 Attribute Discovery
 Authentication
@@ -1624,9 +1622,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 Disconnected, reason: %s
 Disconnecting.
@@ -2076,6 +2074,7 @@ WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Washington1
+Wd/c|
 WideCharToMultiByte
 Write SOB Channel %d.
 Write to BS1 PM Characteristic.
@@ -2196,6 +2195,7 @@ blank
 bootloader
 buffer error
 c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
+cU	F9
 calloc
 close
 cntrl
@@ -2203,11 +2203,9 @@ dat_file
 data error
 deque<T> too long
 digit
-e,>~^
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-f2(tM
 f;G$u
 f;G&u
 f;G(u
@@ -2267,7 +2265,6 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
-k:74g
 list<T> too long
 lj!hh
 lower
@@ -2476,9 +2473,9 @@ wt_^[
 www.digicert.com1!0
 www.digicert.com1$0"
 x5t7j
-x]~\6
 xdigit
 y4_^[
+yj4Xc
 {L?uI
 {un'%
 |Lu?c
@@ -2486,6 +2483,7 @@ y4_^[
 }	jCh
 }LuHO
 }qj<h
+~K+%Q)
 ~L][u
 ~d;{d|	
 ~qj#k"

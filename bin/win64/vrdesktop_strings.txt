@@ -15,11 +15,13 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
+!ZCL6
 !hn7!
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+'H{\3
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -32,7 +34,6 @@
 )D$ L
 )t$0H
 )t$@H
-*9Z9N
 *uXI;
 +Xt@(
 +o'q)}
@@ -102,7 +103,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.Q1Ak
 .data
 .data$r
 .edata
@@ -158,17 +158,16 @@
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231623Z0/
+220921000000Z
+220927205352Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -184,14 +183,15 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+8mD&4
 < t+<
+<*J=)
 </u#H
 <0:08
 <unknown>
 =rIQU
 >0<0:
 >Mp$d
->zcp@
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -298,7 +298,6 @@ A_A^A][
 A_A^_^]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
-AjEB#AZ
 AttemptSendInput failed.
 AuthD
 Bad escape sequence in string
@@ -361,6 +360,7 @@ D$xH;
 D3D11CreateDevice
 D3D11CreateDevice failed.
 D8fht/H
+D:\B\
 D;l$0
 D;v(s
 DXGI output null, failed to duplicate output.
@@ -380,13 +380,12 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
-E5LY=
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
@@ -428,6 +427,7 @@ Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
 GDI32.dll
+GRZc-MKV
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -585,6 +585,7 @@ NPH9Q
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
+P%V\'
 PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
@@ -762,6 +763,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
+b3c/=
 bad allocation
 bad array new length
 bad conversion
@@ -773,6 +775,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+cU	F9
 cs_cs
 czech
 d$`H=
@@ -786,7 +789,6 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
-e,>~^
 el_el
 en_us
 english
@@ -795,7 +797,6 @@ es_mx
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fF94@u
-fM\]`
 false
 fffffff
 fi_fi
@@ -936,10 +937,8 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-x]~\6
 zh_cn
 zh_tw
-{QS\w':
 {un'%
 |$ ATAVAWH
 |$ AVH

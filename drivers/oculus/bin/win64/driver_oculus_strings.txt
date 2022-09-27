@@ -22,7 +22,6 @@
 		"seated" : {
 		"standing" : {
 	!s99
-	2^Uz
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	D$HA
@@ -71,7 +70,6 @@
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
 "9k0t
-"Kpd$
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -103,6 +101,7 @@ $w!Hc
 &D9c0t
 &D9k0t
 &D9{0t
+&d7J(
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -207,7 +206,6 @@ $w!Hc
 )|$pf
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
-*9Z9N
 *uXI;
 +Xt@(
 +o'q)}
@@ -455,23 +453,21 @@ $w!Hc
 11 4 22 44 44 22 444444
 130801120000Z
 1e+9999
-2-G`)
 2.5.4.3
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231547Z0/
+220921000000Z
+220927205345Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -516,6 +512,7 @@ $w!Hc
 ;S sAH
 ;S sDH
 < t+<
+<*J=)
 </u#H
 <0:08
 <U+%.4X>
@@ -531,7 +528,6 @@ $w!Hc
 >0<0:
 >Mp$d
 >W`.]tB3?
-?=q|5x
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -744,7 +740,6 @@ A_A^_^]
 A__[]
 Accessor
 Adobe
-AjEB#AZ
 AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
@@ -915,9 +910,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 DuplicateHandle
 E H9Q
@@ -1281,6 +1276,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSl
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1290,6 +1286,7 @@ RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
 S8H+S0H
+S:EX{
 SATAUAVAWH
 SA|X=G
 SCALAR
@@ -1428,6 +1425,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
+Vm8;K
 W-xO	
 WATAUAVAWH
 WAVAWH
@@ -1513,6 +1511,7 @@ ZL$Xf
 ][OculusDirect] AquireSync
 ]g@8yhu
 ^9k0tWD
+^XOUfG
 _Camera
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1629,6 +1628,7 @@ aspectRatio
 assert json failed
 asset
 attributes
+b3c87
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
 bad APP len
@@ -1690,7 +1690,6 @@ bufferView
 bufferViews
 buffers
 bulgarian
-bvzU	
 byteLength
 byteOffset
 byteStride
@@ -1701,6 +1700,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
+cU	F9
 camera
 cameras
 can't merge dc and ac
@@ -1750,7 +1750,6 @@ doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
-e,>~^
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
@@ -1769,7 +1768,6 @@ extensions
 extensionsRequired
 extensionsUsed
 extras
-f!xn^q
 fD9	u
 false
 false literal
@@ -2375,7 +2373,6 @@ t$hL;
 t$pI;
 t$pfA
 t$pfD
-t+>rn
 t1Hcl$@
 t9fff
 t>H9n
@@ -2469,7 +2466,6 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x AVH
 xA^A\_^][
-x]~\6
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI

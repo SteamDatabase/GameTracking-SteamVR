@@ -1,4 +1,5 @@
 																																																																																																																
+	 #Eu
 	!s99
 	0=0^0l0t0~0
 	0g0u0|0
@@ -7,6 +8,7 @@
 !9~ t
 !hn7!
 #*1892+$
+#6xK5
 #?RADIANCE
 #?RGBE
 $9^ t
@@ -24,7 +26,6 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
-*9Z9N
 +Xt@(
 +o'q)}
 , last executing in 
@@ -163,9 +164,9 @@ $9^ t
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231335Z0/
+220921000000Z
+220927205111Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -178,7 +179,6 @@ $9^ t
 2`4{4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 3 3$3(3,3034383<3@3D3P3$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 3"31393E3V3]3
 3#3(33383B3S3X3b3s3x3
@@ -187,7 +187,7 @@ $9^ t
 3)3-3:3>3r7v7
 3,3<3@3D3H3P3h3x3|3
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -300,6 +300,7 @@ $9^ t
 <$<-<1<
 <%<)<t?x?
 <(=/=5=;=A=G=M=S=]=k=
+<*J=)
 <+=3=;=
 <0:08
 <0<8<@<H<L<P<X<l<
@@ -326,8 +327,10 @@ $9^ t
 >>>N>X>b>r>}>
 >@>V>
 >@?U?r?
+>G\Oa}
 >L?l?
 >Mp$d
+>b3cU
 >g?x?|?
 >m?q?
 ? ?0?4?D?H?X?\?l?p?
@@ -373,7 +376,6 @@ ASSERT: "%s" at %s:%d.
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
-AjEB#AZ
 BMP RLE
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
@@ -390,9 +392,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 ECameraHAL_OpenError_ToString
 Enabled
@@ -412,7 +414,6 @@ Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
 F|t	_^3
-G@BD\
 GetCameraHALInterface
 GetCurrentProcess
 GetCurrentProcessId
@@ -510,6 +511,7 @@ SetupDiEnumDeviceInfo
 SetupDiGetClassDevsA
 SetupDiGetDeviceInstanceIdA
 ShutdownCameraHAL
+Sl*wC
 Sleep
 SleepConditionVariableCS
 StartVideoStream
@@ -692,6 +694,7 @@ c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
+cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -705,7 +708,6 @@ da_da
 danish
 de_de
 deque<T> too long
-e,>~^
 el_el
 en_us
 english
@@ -826,6 +828,7 @@ unsupported data layout
 unsupported format
 v#QPh
 v=Y]Bv
+vNVBW
 vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
@@ -835,14 +838,13 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-x]~\6
 yrPhX
 zh_cn
 zh_tw
 zlib corrupt
 {un'%
+{w!9b
 |Lu?c
-}5]vIb
 }LuHO
 ~qj#k"
 ~t&LN

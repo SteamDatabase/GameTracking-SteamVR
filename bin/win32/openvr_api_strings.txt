@@ -22,7 +22,6 @@
  delete
  delete[]
  for detail.
- h5,6
  new[]
  t\9]
 !0*0d0v0
@@ -64,7 +63,7 @@ $iMBm
 (uEKw
 )-M-=
 *0F0R0
-*9Z9N
+*Pd@9
 *PjTW
 +A Vj$
 +A$+Y
@@ -80,7 +79,6 @@ $iMBm
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,040;1C1w1
 ,0<	w
-,2_.E
 ,PjVW
 ,W5y+
 ,zeDo
@@ -424,6 +422,7 @@ $iMBm
 1J1e1
 1M2W2t2
 1R2^2
+1b3c-_2b
 1e+9999
 1eaB@
 2 2$2(2,2024282D2H2L2P2T2X2l2p2t2x2
@@ -457,9 +456,9 @@ $iMBm
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231324Z0/
+220921000000Z
+220927205058Z0/
 222f2
 223A3S3h3y3
 241009235959Z0a1
@@ -480,7 +479,6 @@ $iMBm
 2ieO=
 2k2x2
 2o3y3
-2xJK7*L
 2{3q4}4
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 3 3(30383@3H3P3X3`3h3p3x3
@@ -502,7 +500,6 @@ $iMBm
 3*343;3A3K3Z3b3n3
 3+3=3y3=5D5L5T5\5
 3+3@3E3
-3+7C%
 3,30343<3T3d3h3x3|3
 3-434g4q4
 3.353K3a3n3s3
@@ -512,7 +509,7 @@ $iMBm
 311109235959Z0b1
 323C3]3}3
 323o3|3
-330314235959Z0L1
+331121235959Z0F1
 343D3H3\3`3p3t3x3|3
 360428235959Z0i1
 370322235959Z0c1
@@ -946,6 +943,7 @@ $iMBm
 <)=H=
 <*=\=
 <*>7>D>Q>
+<*J=)
 <+<1<D<V<_<j<|<
 <,<U<
 <.<<<D<N<X<
@@ -1116,6 +1114,7 @@ $iMBm
 ?g)([|X>=
 ?h6_~
 ?w,_3
+?y^VW}
 ?|I7Z#
 @(;A(s
 @.data
@@ -1136,7 +1135,6 @@ Access violation - no RTTI data!
 AcquireSRWLockExclusive
 Af;:u
 AiFC.
-AjEB#AZ
 Another app was already launching (117)
 App info manager init failed (114)
 AppPolicyGetProcessTerminationMethod
@@ -1207,9 +1205,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
@@ -1503,6 +1501,7 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
+RSDS8T
 RWQSV
 R\hvv
 RaiseException
@@ -1911,6 +1910,7 @@ Y__^[
 \Fj;!h8
 \wDgG
 ]+9pa
+]+ry&v
 ]6%S*
 ]J<0"0i3
 ]vQ<)8
@@ -1996,7 +1996,6 @@ argument list too long
 argument out of domain
 assert json failed
 atan2
-b-yl*o
 b4 a2
 bad address
 bad allocation
@@ -2012,6 +2011,7 @@ c%;>7
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
 cD5U3#eF7v\NV5%J%
 cRpp`
+cU	F9
 ceLfdfK3
 cg+tY
 collectComments
@@ -2022,7 +2022,6 @@ connection refused
 connection reset
 count
 cross device link
-cy?~v
 dC4N(
 dI;D#
 dddd, MMMM dd, yyyy
@@ -2032,7 +2031,6 @@ device or resource busy
 directory not empty
 double out of Int range
 e+000
-e,>~^
 eLK(w
 eTe6 d4
 eventObject
@@ -2053,6 +2051,7 @@ frexp
 ft%9q
 function not supported
 g081w1
+gY,2N
 generic
 gfe[D
 h-y"3
@@ -2268,7 +2267,6 @@ www.digicert.com1$0"
 x(kP$4
 xP?b3
 xRB`2
-x]~\6
 x`cot~
 xmZ8(N*
 xpxxxx

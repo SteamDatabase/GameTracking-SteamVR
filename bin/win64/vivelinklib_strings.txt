@@ -8,7 +8,6 @@
 	!s99
 	<bu 
 	@81t/@8q
-	iY1IT:D
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
  %41g
  -SERVICE_EXPLORE
@@ -105,10 +104,8 @@
 )D$ L
 )t$@H
 )t$PA
-*9Z9N
 *uXI;
 +9kdt	H
-+NcKi@
 +Xt@(
 +o'q)}
 ,W5y+
@@ -226,17 +223,16 @@
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231417Z0/
+220921000000Z
+220927205146Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 3333333
 360428235959Z0i1
 370322235959Z0c1
@@ -264,6 +260,8 @@
 ::LHB::%4.4X %s
 :\u-L
 :\u6L
+;:ED8
+<*J=)
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
@@ -298,6 +296,7 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
+?D4<F
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
@@ -423,7 +422,6 @@ A_A^_
 A_A^_^]
 A__^[]
 Address:  %s
-AjEB#AZ
 AuthD
 Authentication
 BDFU Post
@@ -611,9 +609,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 DisconnectNamedPipe
 DosDateTimeToFileTime
@@ -807,6 +805,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSp\
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1145,6 +1144,7 @@ blank
 bootloader
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
+cU	F9
 calloc
 cntrl
 cw~Hc
@@ -1156,7 +1156,6 @@ dat_file
 data error
 deque<T> too long
 digit
-e,>~^
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1240,7 +1239,6 @@ oversubscribed literal/length tree
 p UWATAVAWH
 print
 punct
-q0;xw
 r*=/N
 r9=/N
 realloc
@@ -1332,7 +1330,6 @@ www.digicert.com1!0
 www.digicert.com1$0"
 xA\^][
 xAtAL
-x]~\6
 xdigit
 {un'%
 {x\u!H

@@ -2386,12 +2386,12 @@ $tI
 19CWirelessDecoderWv2
 1e+9999
 2
+20:47:07
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
 22CKeyframedDataResource
 22CLighthouseHmdProvider
-23:09:35
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -6141,7 +6141,7 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true
 Selected existing universe %llu (%08X is %s)
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
-Sep  8 2022
+Sep 27 2022
 September
 Set column correction %f %d %f %d
 Set index backlight gain: %f

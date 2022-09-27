@@ -66,7 +66,6 @@ $iMBm
 %H : %M
 %H : %M : %S
 %I : %M : %S %p
-%V%=O
 %Z/nJ?
 %b %d %H : %M : %S %Y
 %d / %m / %y
@@ -112,17 +111,14 @@ $iMBm
 )t$`3
 )|$0H
 )|B?d!
-*9Z9N
 *StO9>T
 *uXI;
-+%kAVc
 +J$D8M@
 +M<7>
 +Xt@(
 +Z$cH
 +f)>0'
 +h->|
-+la.%
 +o'q)}
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,/<-w
@@ -399,6 +395,7 @@ $iMBm
 0A__^[]
 0X8b?~
 0iN>/
+0vG1tr
 0w0c1
 0}0i1
 1#IND
@@ -412,17 +409,16 @@ $iMBm
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231342Z0/
+220921000000Z
+220927205108Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -442,7 +438,6 @@ $iMBm
 700PP
 700WP
 70503
-7MQk9E
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8*u;I
 8-uCH
@@ -504,6 +499,7 @@ $iMBm
 <	w	@
 < t;<	t7
 <%ufH
+<*J=)
 </u#H
 <0:08
 <:u/H
@@ -659,7 +655,6 @@ A_A^_^]
 A`D9L8
 Access violation - no RTTI data!
 AcquireSRWLockExclusive
-AjEB#AZ
 Another app was already launching (117)
 App info manager init failed (114)
 AppPolicyGetProcessTerminationMethod
@@ -869,9 +864,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 Dl$8E
 Driver Failed (200)
 Driver Not Known (201)
@@ -1093,6 +1088,7 @@ HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
+Hk`kig
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -1144,6 +1140,7 @@ JBIh	i
 JX<$N
 J`E;Bh|
 January
+Jx[`7
 K 9N v@H
 K H9y
 K&>.yC
@@ -1242,8 +1239,6 @@ Low Power Watchdog Not Supported (129)
 LrvD)O
 M H1E
 M(f95
-M,l}Y	
-M0fB9
 M98u/
 MB(iVR
 MM/dd/yy
@@ -1718,8 +1713,8 @@ WinRTInitialization
 WriteConsoleW
 WriteFile
 X E9j
-X@>r4
 X_^][
+X~*M_
 Y$D;R
 Y([~=
 Y0t>H
@@ -1730,6 +1725,7 @@ Y>kX>M
 YD$@f
 YYyhe"B
 Z(D9Z
+Z+>.<!
 Z\>z8
 Zod(^?
 [ 0@QT
@@ -1888,7 +1884,7 @@ c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
-cU@Bo
+cU	F9
 ceLfdfK3
 cg+tY
 collectComments
@@ -1914,7 +1910,6 @@ device or resource busy
 directory not empty
 double out of Int range
 e+000
-e,>~^
 e0A^A]A\_^[]
 e0A_A^A]A\]
 e0A_A^A]A\_^]
@@ -2151,7 +2146,6 @@ r	Vr.>T
 r	uAD;d$$u:
 r8w&M;
 r9D8v
-r9OfO
 rB-<e*
 rBu/H
 rLp>B
@@ -2275,6 +2269,7 @@ u4I9}(
 uAiD$@
 uIL9[
 uY8\$ t
+u\Z*Zs
 ucD9~
 uf!T$(H!T$ 
 ug8Y$t
@@ -2318,7 +2313,6 @@ xMHcC
 xP?b3
 xRB`2
 xWI96tRI
-x]~\6
 x`cot~
 xmZ8(N*
 xpxxxx
@@ -2380,6 +2374,5 @@ zwom}
 }o@8{
 ~ $s%r
 ~`D8I!t-
-~pB6D
 ~qj#k"
 ~t&LN

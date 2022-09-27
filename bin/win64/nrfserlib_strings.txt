@@ -66,7 +66,6 @@
  times.
  version-number:
 !hn7!
-"1k|	
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -115,7 +114,6 @@
 )t$@H
 )t$`H
 )t$pA
-*9Z9N
 *D8|$h
 *uXI;
 +9kdt	H
@@ -632,17 +630,16 @@
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231417Z0/
+220921000000Z
+220927205149Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 3333333
 360428235959Z0i1
 370322235959Z0c1
@@ -687,6 +684,8 @@
 :\u6L
 ;K }DH
 ;Q |	H
+;WK;x
+<*J=)
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
@@ -891,7 +890,6 @@ A_A^_^]
 A__^[]
 A__^]
 Address:  %s
-AjEB#AZ
 Already open
 Attribute Discovery
 AuthD
@@ -1150,9 +1148,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 Disconnected, reason: %s
 Disconnecting.
@@ -1254,7 +1252,6 @@ GDf9F
 GFf9F
 GH9E0t
 GXA_A^A]A\_^]
-G[ap.
 G`f9F
 Gdf9F
 Get Service Handles. UUID: 0x%4.4X, start_handle: %d, end_handle: %d
@@ -1415,7 +1412,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
-MtZd9pN
 MultiByteToWideChar
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
@@ -1520,7 +1516,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS4
+RPA%,
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1776,12 +1772,10 @@ Zipfile is corrupt or not a zipfile
 \$pH;
 \$pI;
 \Device Parameters
-\Ru	h
 \u=H;
 ]J<0"0i3
 ]gfff
 ^[0-9]+$
-^[a"&
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1872,6 +1866,7 @@ blank
 bootloader
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+cU	F9
 calloc
 close
 cntrl
@@ -1883,7 +1878,7 @@ dat_file
 data error
 deque<T> too long
 digit
-e,>~^
+eb3c#/
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1910,7 +1905,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i')r-
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -2160,6 +2154,7 @@ uKfff
 uL8]8v>H
 uT8\$xvEH
 ub'vb'v
+uhK1N
 unknown
 unknown CONTROL packet type 0x
 unknown compression method
@@ -2171,6 +2166,7 @@ v=Y]Bv
 vector<T> too long
 vector<bool> too long
 wcschr
+wg9rAY
 winsock
 wn>Jj
 www.digicert.com1!0
@@ -2180,7 +2176,6 @@ x UATAUAVAWH
 xA\^][
 xA^A]_[
 xAtAL
-x]~\6
 xdigit
 {un'%
 {x\u!H

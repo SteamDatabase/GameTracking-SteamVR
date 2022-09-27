@@ -14,8 +14,11 @@
  H3E H3E
  for detail.
  formatting error code 
+ y1h%
+ |0Z6D
 !! refusing to trigger minidump with debugger attached
 !hn7!
+"~Xc>c0BJ*
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -32,7 +35,6 @@
 )D$ L
 )t$0H
 )t$@H
-*9Z9N
 *uXI;
 +Xt@(
 +o'q)}
@@ -173,17 +175,16 @@
 210429000000Z
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231640Z0/
+220921000000Z
+220927205406Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2xJK7*L
 311109235959Z0b1
-330314235959Z0L1
+331121235959Z0F1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -201,11 +202,13 @@
 8_^][
 9D$xu
 9D$|toH
-:1\iP
 < t+<
+<*J=)
 </u#H
 <0:08
+<Bm_$
 <unknown>
+=BJl~
 =rIQU
 >0<0:
 >Mp$d
@@ -293,6 +296,7 @@
 @UVWATAUAVAWH
 @UVWAVAWH
 @UWAVAWH
+@W2II
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
@@ -319,7 +323,6 @@ A_A^_^[
 A_A^_^]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
-AjEB#AZ
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
@@ -337,6 +340,7 @@ CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CL$`H;
+CL.DS#a
 CT$ H
 CT$(L
 CT$0H
@@ -419,9 +423,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
@@ -663,7 +667,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSVOG
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -724,7 +727,6 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
-U9pA?J
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -857,6 +859,7 @@ _seh_filter_dll
 `.rdata
 `A_A^A]A\_^[
 `A_A^A]A\_^]
+a^w6E
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -882,6 +885,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
+b3c:%
 bad allocation
 bad array new length
 bad conversion
@@ -893,6 +897,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+cU	F9
 cs_cs
 czech
 d$`H=
@@ -907,7 +912,6 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
-e,>~^
 el_el
 en_us
 enableWindowView
@@ -979,6 +983,7 @@ memcpy
 memmove
 memset
 message_id
+n"W8P
 no_no
 norwegian
 ntelD
@@ -987,7 +992,6 @@ openvr_api.dll
 overlay_frame_times
 overlay_key
 overlay_keyboard_closed
-p+:b|0
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
@@ -997,6 +1001,7 @@ portuguese
 product_name
 pt_br
 pt_pt
+q,<hH
 r,fff
 request_destroy_window_view
 request_handlers
@@ -1079,7 +1084,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-x]~\6
 zh_cn
 zh_tw
 {un'%

@@ -2605,7 +2605,6 @@ $wtpt
 **************************
 ***MEMORY-ERROR***: 
 *5*h*
-*9Z9N
 *:JZjz
 *Cyan*
 *D$XA
@@ -3640,7 +3639,6 @@ $wtpt
 0Hc|$hI
 0LcD$HH
 0Lc|$xI
-0c6I5
 0qB\'
 0r/hL
 0tIff
@@ -3717,9 +3715,9 @@ $wtpt
 210x297
 211007000000Z
 220323000000Z
-220329000000Z
 220801000000Z
-220908231114Z0/
+220921000000Z
+220927204848Z0/
 230x323
 2384x3370
 24 24
@@ -3751,7 +3749,6 @@ $wtpt
 2tfm ABm1tfm
 2tfm BAm1tfm
 2tfmubH
-2xJK7*L
 2~6D9
 3&#38H
 30 18
@@ -3761,7 +3758,7 @@ $wtpt
 32-bit_rle_rgbe
 32-bit_rle_xyze
 323x459
-330314235959Z0L1
+331121235959Z0F1
 333333
 3333UUUU
 33f33333
@@ -4225,6 +4222,7 @@ $wtpt
 <'u1H
 <)tsD9
 <)};(w3"
+<*J=)
 <*tx<@
 <*ulH
 <+ta<-tPH
@@ -5377,7 +5375,6 @@ AiFC.
 Air Kerma Rate Reference Date
 Air Kerma Rate Reference Time
 Aj@PE
-AjEB#AZ
 Aku isa mangan beling tanpa lara.
 Aladdin Ghostscript
 Algorithm Code Sequence
@@ -5928,7 +5925,6 @@ CSPTCP154
 CSWINDOWS31J
 CT Water Number
 CTD9CPu
-CT|1v
 CXD+d
 CXH;CPr
 CYRILLIC-ASIAN
@@ -7203,9 +7199,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 Digital Image Format Acquired
 Digital Imaging and Communications in Medicine image
 Digital Moving Picture Exchange Bitmap, Version 2.0.
@@ -8185,7 +8181,6 @@ GhostWhite
 Ghostscript (%s) version %d.%02d
 Ghostscript returns status %d, exit code %d
 Gi:%5
-GiUV^
 Glagolitic
 GlobalAlloc
 GlobalFree
@@ -8648,6 +8643,7 @@ HS_VERTICAL
 HT9JTy
 HTML parser 
 HTTPS
+HZU'L0
 H_^][
 Half Value Layer
 Hamming
@@ -9413,6 +9409,7 @@ Kapur
 Katakana
 Kaya kong kumain nang bubog at hindi ako masaktan.
 Kayah_Li
+KbzY-
 Kernel
 Keyword
 Kg	S[
@@ -11756,6 +11753,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSf@D
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -15288,6 +15286,7 @@ cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
 cK`x;
+cU	F9
 cache
 cache != NULL
 cache:%s
@@ -15798,7 +15797,6 @@ e	@cy
 e A_A^A]A\]
 e bez moljca.
 e, na st?pe sa ?ate? u?
-e,>~^
 e-1.0*
 e0A_A^A]A\]
 eC}gc}m
@@ -17712,6 +17710,7 @@ l<}2l
 lLVD782782994<:5@=8B:8A95=73<75:549009//61.62.63.641973?72B90H=1J>4H=4B80@61?62<94C54A50<6*E5'c6-
 lO"c3
 lQ 6|+G
+lW%]^
 lW>J)X>K
 l`0@	
 la]^]Gf]Ij\E
@@ -17896,7 +17895,6 @@ mn-cn
 mn-mn
 mng:need-cacheoff
 mntrRGB XYZ 
-mo-?[0
 moccasin
 modern
 modulate
@@ -18068,6 +18066,7 @@ number-meta-channels
 numbers out of order in {} quantifier
 numbersign
 numerator (point), denominator (point)
+n|b+u
 o feliz que dorme regalado.
 o-BK_[
 o8(TH
@@ -19752,7 +19751,6 @@ u8I9vHu2I9v@t
 u8M9f
 u8fD9
 u8z>u<f
-u9+e#
 u9D9B
 u:D9c4u4H
 u;L;^ }5H
@@ -20105,7 +20103,6 @@ xSvf$
 xV4"?UUUUUU
 x[fff
 x\|@W
-x]~\6
 x_Chinese-Eten
 x_H;V(}Y
 x_^][

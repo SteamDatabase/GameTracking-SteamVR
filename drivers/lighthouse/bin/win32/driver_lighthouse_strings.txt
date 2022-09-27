@@ -390,7 +390,7 @@ $tAUUPE
 *+N4C
 *+N@3
 *+N@C
-*9Z9N
+*P2HA
 +0S0p0
 +F +F
 +Xt@(
@@ -1163,9 +1163,9 @@ $tAUUPE
 211007000000Z
 212[2
 220323000000Z
-220329000000Z
 220801000000Z
-220908231719Z0/
+220921000000Z
+220927205345Z0/
 222v2
 23282
 233>3
@@ -1233,7 +1233,6 @@ $tAUUPE
 2l3r3~3
 2q3$4&585
 2u2{2
-2xJK7*L
 3	3O3X3a3j3o3t3{3
 3	4A4X4
 3	4A4y4
@@ -1320,7 +1319,7 @@ $tAUUPE
 313>3]3l3
 313X3\3`3d3h3
 323I3[3
-330314235959Z0L1
+331121235959Z0F1
 334T4
 334n4
 343>3D3.4
@@ -1804,6 +1803,7 @@ $tAUUPE
 6g7W9
 6h7x7
 6j7u7
+6lI>=
 6o6z6
 6p8t8x8|8
 6t6P9T9X9\9`9d9h9
@@ -2691,6 +2691,7 @@ $tAUUPE
 <)=1=
 <*<7<D<O<
 <*=J=_=
+<*J=)
 <+<1<8<A<W<]<d<m<
 <+<]<k<
 <+=R=
@@ -3300,7 +3301,6 @@ Additional system report data updated for %s
 Adobe
 Ah;A\r
 Ah;A\se
-AjEB#AZ
 Alfred
 Alias
 Already saw decimal point or exponent; can't have another one.
@@ -3596,9 +3596,9 @@ DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
 DigiCert Trusted Root G40
-DigiCert, Inc.1$0"
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
+DigiCert1$0"
 DisableThreadLibraryCalls
 Disabled
 Disabled by Config
@@ -4485,7 +4485,6 @@ PRQhX
 PRVQh(
 PSSSj
 PSh(u
-PWeqj
 PWhl`
 P`]s 
 P`]sG
@@ -4532,6 +4531,7 @@ RHhp1
 RPCRT4.dll
 RPh@}
 RPj#h
+RSDScVl
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5265,7 +5265,6 @@ Y__^[
 Z _^]
 Z(rDf
 Z* ,	
-Z/LNJ
 Z0d0f5
 [-&LMb#{'
 [DepthAugmentedPassthrough] supported on this system: %d
@@ -5277,7 +5276,6 @@ Z0d0f5
 \%03o
 \U%08x
 \mfpmp.exe
-\qB"}
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -5395,7 +5393,6 @@ _wstat64i32
 `.rdata
 `0_dL
 `0_tL
-`6kpQ
 `9d9h9l9p9t9x9|9
 `SVWj%h
 ``````````````````````````````````````````````````````````````````````````````````````````````````
@@ -5560,7 +5557,7 @@ c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
 cAMDt
-cHe2UQ('
+cU	F9
 cal_method
 calloc
 camera
@@ -5682,7 +5679,6 @@ dxgi.dll
 dynamic_state
 dynamic_state_json
 dynamic_states
-e,>~^
 eCapture
 eCommunications
 eConsole
@@ -6289,7 +6285,6 @@ s$;s(t"
 s$;s(t3
 s(+CD
 s4;s8
-s=!%"
 sX;s\t]
 sample_angle_estimate
 sampler
@@ -6593,6 +6588,7 @@ w0SPV
 w4_^]
 wLh@i
 wP;wTt
+w^b${
 wcscmp
 wcslen
 wcsncmp
@@ -6620,7 +6616,6 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x001u1
 xRjdj@
-x]~\6
 y!Ph(
 y%PWh
 y-PhH 
@@ -6639,6 +6634,7 @@ znear
 {"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }
 {%s}%s
 {@^_[
+{@j[8
 {htc}
 {htc}/input/vive_controller_profile.json
 {htc}/input/vive_pro_profile.json
