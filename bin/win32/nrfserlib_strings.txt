@@ -8,6 +8,8 @@
 																												
 																																												
 	!s99
+	R=}:VQ
+	{XtI
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -706,7 +708,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 220921000000Z
-220927205116Z0/
+220930215703Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -834,7 +836,6 @@ $Vh&*
 4L4l4
 4S4g4n4
 4T5X5\5`5d5h5l5p5t5x5|5
-4Tu@v
 4U7p7
 4]4t4z4
 4f5s546
@@ -1877,6 +1878,7 @@ Out of thread local storage!
 P4X4\4`4d4h4l4p4t4x4|4
 PAq=?Mp#
 PID_%04X
+PKFxh
 PKT_DECODE_ERROR
 PKT_ENCODE_ERROR
 PKT_SEND_ERROR
@@ -2016,6 +2018,7 @@ Success
 Successfully opened 
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
+TNP<'
 TX Queue Full, retrying at offset %d
 TX Queue Full, timeout at offset %d
 Target Reset performed
@@ -2074,7 +2077,6 @@ WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Washington1
-Wd/c|
 WideCharToMultiByte
 Write SOB Channel %d.
 Write to BS1 PM Characteristic.
@@ -2097,11 +2099,13 @@ Zipfile is corrupt or not a zipfile
 [%s] Initialization attempt: %d
 [%s] Initialization failed after %d attempts and %.3f seconds
 [%s] Initialization succeeded after %d attempts and %.3f seconds
+[*w]]
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
 \0`0d0|0
 \Device Parameters
+\NzLH
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2280,6 +2284,7 @@ memcpy
 memmove
 memset
 mutex
+n(XTJ`
 need dictionary
 nrfserlib.dll
 ole32.dll
@@ -2475,7 +2480,6 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-yj4Xc
 {L?uI
 {un'%
 |Lu?c
@@ -2483,7 +2487,6 @@ yj4Xc
 }	jCh
 }LuHO
 }qj<h
-~K+%Q)
 ~L][u
 ~d;{d|	
 ~qj#k"

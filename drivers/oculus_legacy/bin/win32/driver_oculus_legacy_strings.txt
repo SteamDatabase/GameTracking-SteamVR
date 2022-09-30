@@ -8,6 +8,7 @@
 +Xt@(
 +o'q)}
 , last executing in 
+,LfKi
 ,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
@@ -92,7 +93,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220927205150Z0/
+220930215721Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -170,6 +171,7 @@
 :&;E;
 :9;B;S;_;k;q;w;
 :E:q:
+:f7c*&
 ;!;&;+;2;B;
 ;";';.;3;?;a;x;
 ;Z<a<
@@ -232,7 +234,6 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DigiCert1$0"
 DisableThreadLibraryCalls
-Duw"b
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
@@ -338,7 +339,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
-Z5XYr
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -399,7 +399,6 @@ d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
 f;A*stSW
-g>^tR
 getenv
 headset
 http://ocsp.digicert.com0A
@@ -411,14 +410,12 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
-k4.G/
 m0k0$
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
-n-hx8-*;
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
@@ -479,7 +476,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-y4kEM
+z|Lkb
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -490,9 +487,7 @@ y4kEM
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
-|>l1O
 |Lu?c
 }LuHO
 ~qj#k"
 ~t&LN
-~|R<I

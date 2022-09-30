@@ -15,9 +15,11 @@
 !0L0w0
 !hn7!
 $Phdd
+$mKrv
 %%.%dg
 %2.2X
 %8.8X
+%Dyt$
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -231,7 +233,7 @@ $Phdd
 220323000000Z
 220801000000Z
 220921000000Z
-220927205112Z0/
+220930215651Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -251,7 +253,6 @@ $Phdd
 3&5M5j5o5
 3,3W3
 3/3T3
-3/Vi15
 311109235959Z0b1
 331121235959Z0F1
 343X3x3
@@ -532,7 +533,6 @@ $Phdd
 ?_Xlength_error@std@@YAXPBD@Z
 ?_Xout_of_range@std@@YAXPBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
-?b3cGk
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$collate@D@std@@2V0locale@2@A
@@ -796,6 +796,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
+Mn<xsQ
 Nonce:    %d
 ODFU Post
 OpenProcess
@@ -821,6 +822,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSd
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -830,6 +832,7 @@ Restart:  %s
 RtlGetNtVersionNumbers
 Running
 S0Q0O
+S;06a
 SA|X=G
 SCAN -NAME "%s" -T %X
 SERVICES
@@ -1025,6 +1028,7 @@ Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
+[Wz!]
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
@@ -1107,6 +1111,7 @@ empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 f=DFu
+fMaWr
 false
 fclose
 file error
@@ -1259,11 +1264,11 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-{#c_j
 {L?uI
 {un'%
 |	9A 
 |	;J 
+|7HytE
 |Lu?c
 |cj#h
 }	jCh

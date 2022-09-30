@@ -16,7 +16,7 @@
  A_A^_^]
  A__^
  H3E H3E
- x=1.
+ T1>#l
 !(0)"
 !hn7!
 "9k0t
@@ -54,11 +54,11 @@
 )9k0t
 )D$0fD
 )L$ fD
+)b5Q:O[
 )t$ H
 )t$0H
 )|$ H
 )|$@f
-+ 4Y604
 +Xt@(
 +o'q)}
 , last executing in 
@@ -175,7 +175,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220927205139Z0/
+220930215720Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -245,6 +245,7 @@
 @.reloc
 @A^_^
 @A_A^A\_]
+@DEZ,6$
 @LocalizationManager
 @SATAUAVAWH
 @SAVH
@@ -418,6 +419,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JB\M,
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -459,6 +461,7 @@ Not Available
 NotFound
 Out of thread local storage!
 OutputDebugStringA
+P,DD2
 PA^_^
 PA_A^A]A\[
 PAq=?Mp#
@@ -502,13 +505,12 @@ T$@Hc
 T$@I;
 T$XA#
 T$pD;
+T)TW<H
 TUUUUUU
-T^.d|m
 TdhEnumerateManifestProviderEvents
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
-Ti=vM
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -572,6 +574,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
+W6uupVc
 WATAUAVAWH
 WAVAWH
 WaitForSingleObject
@@ -583,7 +586,6 @@ WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
 Z9k0tUD
-Zb3cY
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
@@ -815,6 +817,7 @@ oD$0f
 oD$0fD
 oL$ f
 oT$0f
+ofJ:t
 only 8-bit
 ot$Pf
 outofdata
@@ -872,6 +875,7 @@ tchinese
 tdh.dll
 terminate
 th_th
+tlp`5
 too large
 too many codes
 tr_tr
@@ -893,6 +897,7 @@ unknown marker
 unsupported bit depth
 unsupported data layout
 unsupported format
+u~.`p7
 v=Y]Bv
 vHcD$LH
 vi_vi

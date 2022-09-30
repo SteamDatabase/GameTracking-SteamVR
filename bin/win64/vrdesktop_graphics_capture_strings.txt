@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	i~w-
  %41g
  A_A^A\
  A_A^A]A\_
@@ -14,11 +15,8 @@
  H3E H3E
  for detail.
  formatting error code 
- y1h%
- |0Z6D
 !! refusing to trigger minidump with debugger attached
 !hn7!
-"~Xc>c0BJ*
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -32,6 +30,7 @@
 (t$ 2
 (t$@H
 (|$ H
+)6g=^J
 )D$ L
 )t$0H
 )t$@H
@@ -177,7 +176,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220927205406Z0/
+220930220337Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -206,9 +205,7 @@
 <*J=)
 </u#H
 <0:08
-<Bm_$
 <unknown>
-=BJl~
 =rIQU
 >0<0:
 >Mp$d
@@ -296,7 +293,6 @@
 @UVWATAUAVAWH
 @UVWAVAWH
 @UWAVAWH
-@W2II
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
@@ -340,7 +336,6 @@ CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CL$`H;
-CL.DS#a
 CT$ H
 CT$(L
 CT$0H
@@ -484,6 +479,7 @@ Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
 FormatMessageW
+G<z:JN
 GDI32.dll
 GetCurrentProcessId
 GetCurrentThread
@@ -796,6 +792,7 @@ WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
+YLcWa
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -859,7 +856,6 @@ _seh_filter_dll
 `.rdata
 `A_A^A]A\_^[
 `A_A^A]A\_^]
-a^w6E
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -885,7 +881,6 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
-b3c:%
 bad allocation
 bad array new length
 bad conversion
@@ -983,7 +978,6 @@ memcpy
 memmove
 memset
 message_id
-n"W8P
 no_no
 norwegian
 ntelD
@@ -1001,7 +995,6 @@ portuguese
 product_name
 pt_br
 pt_pt
-q,<hH
 r,fff
 request_destroy_window_view
 request_handlers

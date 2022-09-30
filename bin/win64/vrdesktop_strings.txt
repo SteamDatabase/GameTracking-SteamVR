@@ -15,13 +15,11 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
-!ZCL6
 !hn7!
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
 ',=?k
-'H{\3
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -34,12 +32,15 @@
 )D$ L
 )t$0H
 )t$@H
+)yn8&x8
+*2r"Fgu
 *uXI;
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
 -1e+9999
+-7y=H
 -Infinity
 -u-I;
 .00cfg
@@ -160,7 +161,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220927205352Z0/
+220930220340Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -178,17 +179,19 @@
 6*f(_
 6I]Dc
 6OB,n_
+6oGMp4
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-8mD&4
+8d<]f5	c
 < t+<
 <*J=)
 </u#H
 <0:08
 <unknown>
+=d/yT2
 =rIQU
 >0<0:
 >Mp$d
@@ -360,7 +363,6 @@ D$xH;
 D3D11CreateDevice
 D3D11CreateDevice failed.
 D8fht/H
-D:\B\
 D;l$0
 D;v(s
 DXGI output null, failed to duplicate output.
@@ -427,7 +429,6 @@ Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
 GDI32.dll
-GRZc-MKV
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -585,7 +586,6 @@ NPH9Q
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
-P%V\'
 PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
@@ -692,6 +692,7 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+Wn~	96
 Y9"SD
 [K]taM?
 \$ E3
@@ -763,7 +764,6 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
-b3c/=
 bad allocation
 bad array new length
 bad conversion
@@ -803,6 +803,7 @@ fi_fi
 finnish
 fr_fr
 french
+g7c,,
 german
 gfffffffH
 gfffffffI
@@ -842,6 +843,7 @@ l$8E3
 l$@H;
 l$PM9n
 latam
+lh<]`d
 list<T> too long
 m0k0$
 m_nMaxLogBufferingSize > 0
@@ -854,6 +856,7 @@ memcpy
 memmove
 memset
 message_id
+nL}4]
 no_no
 norwegian
 ntelD

@@ -565,13 +565,13 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%hc"
-(%p*"
+(%xc"
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (;^,|
 (;s,|
 (<CSxrHandTrackerEXT::LocateJoints
+(=h[,
 (A\^][
 (A\_^[
 (A]_^[
@@ -851,6 +851,7 @@ $w!Hc
 -ID3D11On12Device::CreateWrappedResource failed.
 -IPCWrapper
 -Infinity
+-`	z\
 -disablewatchdogs
 -nokillprocess
 -personality_distort
@@ -1858,6 +1859,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
+/5:e'
 /9{0t'H
 /CVRMsg_ClientMailbox_SendMailboxMessageResponse
 /CVRMsg_CompositorSetDashboardVisibilityResponse" 
@@ -2240,7 +2242,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-220927205521Z0/
+220930220116Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2360,7 +2362,6 @@ $w!Hc
 9_@~;H
 9_X~63
 9_x~33
-9e<?M
 9i ~0H
 9k(~$H
 9k0t$H
@@ -2497,7 +2498,6 @@ $w!Hc
 <9w/H
 <9waH
 <:$u<B
-<B&ce
 <Bu'H
 <Eu1H
 <H;D$ 
@@ -2524,6 +2524,7 @@ $w!Hc
 >Mp$d
 >W`.]tB3?
 >w\Hc
+>ya6k&0
 ? u	Hc
 ?"tfH
 ?.vW@
@@ -2614,6 +2615,7 @@ $w!Hc
 ?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
 ?peek@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+?r='I.
 ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z
@@ -3122,6 +3124,7 @@ BITANGENT
 BMP RLE
 BMissing haptic name in output of haptic filter %s
 BXL9BPu#M
+BXu#0_d&
 BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -3161,13 +3164,14 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-(o0
+C-}+#
 C09w(~:L
 C0L9$
 C0L;E
 C0L;F
 C0L;G
 C4LcC0H
+C5g#1
 C8;C<
 C8;K<
 C8@8l$8t.
@@ -3284,6 +3288,7 @@ CL$`H;
 CL$hH
 CL$hI
 CL$pH
+CL$pL;}
 COLOR
 CPH+CHH
 CPPTYPE_BOOL
@@ -3978,7 +3983,6 @@ D;}Tr
 D;~ |
 DD$(H
 DD$@H
-DRe7)
 DX11 level hardware required!
 DXGI adapter not found, defaulting to index 0.
 Deactivation threshold of %f will be set to the minimum allowed value %f in filter %s.
@@ -4123,6 +4127,7 @@ Error! EventWriteString Severe: %s
 Error! Failed to create shader resource view for %s
 Error! Failed to load %s
 Error! Unable to load image %s: %s
+Error: Could not resolve %%LocalAppData%% in input profile simulation settings for %s. Skipping %s override. 
 Error: LiquidVR CreateALVRDeviceExD3D11 failed (%d)
 Error: LiquidVR CreateALVRDeviceExVulkan failed (%d)
 Error: LiquidVR CreateALVRExtensionVulkan failed (%d)
@@ -4525,7 +4530,6 @@ G8D8t$8t/A
 G@A;A t
 G@H9A@t	E
 GHiVX
-GJx|EBw	
 GPH9CHu.L
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
@@ -4768,7 +4772,6 @@ H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
-H;5Ud)
 H;8u8H
 H;8u9
 H;8u:H
@@ -6157,7 +6160,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSx$c=
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6243,6 +6245,7 @@ S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-378
 S0H;X
 S0IcH
 S0Q0O
+S0oR/
 S8H+S0H
 S8H+S`H
 SATAUAVAWH
@@ -7969,11 +7972,9 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y-t,)
-Y50F(
-Y59.(
-Y5>2(
+Y5=8)
 Y9"SD
+Y=cD)
 Y>t$7?*
 YD$8E
 Yd$@A
@@ -8009,6 +8010,9 @@ ZvFailed to create fence %ls.
 [CMsaaResolveRenderer] Failed to create sampler state!
 [CMsaaResolveRenderer] Failed to create shader resource view for src texture calling ImportTextureFromNativeTexture()! Texture doesn't have D3D11_BIND_SHADER_RESOURCE set on desc.BindFlags
 [CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!
+[CommandAllocator %d] AddResourceBarrier - Execute Command List.
+[CommandAllocator %d] Create Graphics Command List.
+[CommandAllocator %d] Graphics Binding Init.
 [Compatibility Mode] Error: Could not get notification interface. %d
 [Compatibility Mode] Error: Could not get overlay interface. %d
 [Compatibility Mode] Error: Notification failed: %d
@@ -8154,8 +8158,8 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \%03o
-\-1%$
 \10I;
+\5^8)
 \U%08x
 \\.\pipe\
 \mfpmp.exe
@@ -8170,7 +8174,6 @@ ZvFailed to create fence %ls.
 ] name = [
 ]0H9X
 ]9k0tVD
-]=}i"
 ]@L9{(
 ]HH;]Pt8
 ]HH;]Ptb
@@ -8183,7 +8186,7 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_%GK"
+_%WK"
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -9185,6 +9188,7 @@ it->nRefCount > 0
 it_it
 italian
 ix`fA
+iz*4:dH
 ja_jp
 japanese
 java_generate_equals_and_hash
@@ -9288,7 +9292,6 @@ l$`L;
 l$h9s8~F
 l$h9{X~&L
 l$hL;
-l$pE3
 l$pH;
 l$pL;l$P
 l$pM+
@@ -9336,6 +9339,7 @@ log_web_console_handle
 loglevel
 long_press_delay
 lower
+m	WS]61;%
 m0_$@
 m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
@@ -9658,7 +9662,6 @@ pt_pt
 public_dependency
 pulse_duration
 punct
-pwWTy
 py_generic_services
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
@@ -10418,7 +10421,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-a
+t8D8-!
 t9fff
 t:fff
 t<Lc@xE
@@ -11226,7 +11229,6 @@ xA^A\_^][
 xA_A^A]A\][
 xA_A^_^][
 xL97t
-xV`v@
 x_^][
 x_path
 xdigit
@@ -11370,6 +11372,7 @@ zuusA
 { AVH
 {%s}%s
 {,	u#
+{,4~^
 {8@8l$8t1
 {un'%
 {x\u!H

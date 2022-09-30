@@ -1,5 +1,4 @@
 																																																																																																																
-	 #Eu
 	!s99
 	0=0^0l0t0~0
 	0g0u0|0
@@ -8,7 +7,6 @@
 !9~ t
 !hn7!
 #*1892+$
-#6xK5
 #?RADIANCE
 #?RGBE
 $9^ t
@@ -166,7 +164,7 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-220927205111Z0/
+220930215651Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -240,6 +238,7 @@ $9^ t
 6I]Dc
 6L7Z7h7~7
 6OB,n_
+6\{n9
 6k6}6
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7
 7#7(73787B7S7X7b7s7x7
@@ -317,6 +316,7 @@ $9^ t
 =8=e=
 =8>J>P>W>b>o>|>
 =?>U>|>
+=G~1(P
 =N>R>
 =rIQU
 > >0>4>8><>@>H>`>d>|>
@@ -327,10 +327,8 @@ $9^ t
 >>>N>X>b>r>}>
 >@>V>
 >@?U?r?
->G\Oa}
 >L?l?
 >Mp$d
->b3cU
 >g?x?|?
 >m?q?
 ? ?0?4?D?H?X?\?l?p?
@@ -407,6 +405,7 @@ EventUnregister
 EventWrite
 EventWriteString
 F(j4f
+FClkA
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -455,12 +454,14 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
+IfsTI;g
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
+Ip|N|
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
@@ -511,7 +512,6 @@ SetupDiEnumDeviceInfo
 SetupDiGetClassDevsA
 SetupDiGetDeviceInstanceIdA
 ShutdownCameraHAL
-Sl*wC
 Sleep
 SleepConditionVariableCS
 StartVideoStream
@@ -770,6 +770,7 @@ not GIF
 not HDR
 not PSD
 not enough pixels
+o&~#~1
 only 8-bit
 outofdata
 outofmem
@@ -828,7 +829,6 @@ unsupported data layout
 unsupported format
 v#QPh
 v=Y]Bv
-vNVBW
 vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
@@ -843,7 +843,6 @@ zh_cn
 zh_tw
 zlib corrupt
 {un'%
-{w!9b
 |Lu?c
 }LuHO
 ~qj#k"

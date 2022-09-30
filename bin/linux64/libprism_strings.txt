@@ -474,10 +474,10 @@ $+
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
 2
-20:47:10
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
+21:53:21
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -2318,7 +2318,7 @@ SecondsToSystemTicks(double)
 See
 Self queried namespace: %u
 Sep
-Sep 27 2022
+Sep 30 2022
 September
 Set thread %p priority to: %d
 SetCurrentProcessExplicitAppUserModelID()

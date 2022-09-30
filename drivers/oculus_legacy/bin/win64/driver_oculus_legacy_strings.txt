@@ -1,13 +1,16 @@
 	!s99
+	4%:c
     A
  %41g
  (Camera)
  9D$D
  A__^
  H3E H3E
+ }02$ZV!i{'
 !hn7!
-##i/=
+&q_v7}
 ',=?k
+'1{{'.
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -24,6 +27,7 @@
 , last executing in 
 ,W5y+
 .00cfg
+.5),QG
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -87,12 +91,13 @@
 0w0c1
 0}0i1
 130801120000Z
+1ZSz`
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 220921000000Z
-220927205820Z0/
+220930220354Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -237,6 +242,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jm?zz"
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -269,7 +275,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS2
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -312,6 +317,7 @@ VR_LOG_PATH
 VR_OVERRIDE
 VWAVH
 VWAWH
+VX_Q7
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -329,7 +335,6 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
-]F|,%
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -396,6 +401,7 @@ jj@0HK4
 k0i0$
 l$8E3
 m0k0$
+mY2!c
 malloc
 map/set<T> too long
 memcmp
@@ -470,7 +476,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-xJCwk,x
 z(uMH
 {ERR-001}
 {ERR-079}

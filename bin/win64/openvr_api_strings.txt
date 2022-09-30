@@ -395,7 +395,6 @@ $iMBm
 0A__^[]
 0X8b?~
 0iN>/
-0vG1tr
 0w0c1
 0}0i1
 1#IND
@@ -411,7 +410,7 @@ $iMBm
 220323000000Z
 220801000000Z
 220921000000Z
-220927205108Z0/
+220930215655Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -739,6 +738,7 @@ CreateTimerQueue
 CreateTimerQueueTimer
 CreateUmsCompletionList
 CreateUmsThreadContext
+Cs"BJ
 D	g I
 D W?{W
 D!l$x@
@@ -886,6 +886,7 @@ E8X@t8A
 E;B0E
 E;Bl}DM
 E>nEA
+EOz*7
 EP*?@
 EPHc@
 ET$(H
@@ -1088,7 +1089,6 @@ HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-Hk`kig
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -1134,13 +1134,13 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocale
 IsValidLocaleName
+I{_R?
 J$A;H$A
 J>@G_
 JBIh	i
 JX<$N
 J`E;Bh|
 January
-Jx[`7
 K 9N v@H
 K H9y
 K&>.yC
@@ -1714,7 +1714,7 @@ WriteConsoleW
 WriteFile
 X E9j
 X_^][
-X~*M_
+Xcktl
 Y$D;R
 Y([~=
 Y0t>H
@@ -1725,7 +1725,6 @@ Y>kX>M
 YD$@f
 YYyhe"B
 Z(D9Z
-Z+>.<!
 Z\>z8
 Zod(^?
 [ 0@QT
@@ -1923,6 +1922,7 @@ executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
 f#D$@H
+f7cD=
 f9)u H
 f9)uTH
 f9,Ju
@@ -2102,6 +2102,7 @@ not supported
 ntelD
 o0t$I
 oB(h8
+oDa;qc
 oI>O7
 obwQ4
 openvr
@@ -2140,6 +2141,7 @@ protocol error
 protocol not supported
 q(9qD~[E3
 q)]2<Mt
+q20vabx
 qS>g?h3
 qe^3!Y-
 r	Vr.>T
@@ -2269,7 +2271,6 @@ u4I9}(
 uAiD$@
 uIL9[
 uY8\$ t
-u\Z*Zs
 ucD9~
 uf!T$(H!T$ 
 ug8Y$t

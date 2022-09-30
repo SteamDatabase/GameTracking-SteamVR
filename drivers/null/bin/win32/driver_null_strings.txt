@@ -1,12 +1,13 @@
 	!s99
  %41g
+ 9;fL;
 !hn7!
 ',=?k
 (f*^[0
 +Xt@(
 +o'q)}
+,EH	)8
 ,W5y+
--fFk0
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -37,7 +38,6 @@
 .idata$4
 .idata$5
 .idata$6
-.p*Io
 .rdata
 .rdata$r
 .rdata$zzzdbg
@@ -54,6 +54,7 @@
 .text$x
 .text$yd
 .xdata$x
+/f7c.YkY
 /user/camera
 /user/chest
 /user/elbow/left
@@ -84,7 +85,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220927205146Z0/
+220930215710Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -101,9 +102,9 @@
 4(4Z4
 4*464<4B4N4q4O5o5y5
 4>4K4S4[4
-4W7MsEd
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5$5(5H6L6P6T6X6\6`6x6|6
+5$[]$
 5&53595C5M5W5a5k5x5
 5&5V5[5~5
 5FjiT
@@ -196,9 +197,11 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDST
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
+T%<,^
 TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
@@ -240,6 +243,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`[8N>!
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -259,6 +263,7 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+e Fc[1
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -266,18 +271,17 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+kPf"`
 m0k0$
 malloc
 memcpy
 memmove
 memset
 modelNumber
-p$N(B
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
 serialNumber
-sqW_v
 steamvr
 string too long
 uCVj@
@@ -289,10 +293,8 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-{Z*{C@
 {un'%
 |Lu?c
 }LuHO
-~Y9x0
 ~qj#k"
 ~t&LN

@@ -104,6 +104,7 @@
 )D$ L
 )t$@H
 )t$PA
+*>4@i<
 *uXI;
 +9kdt	H
 +Xt@(
@@ -119,6 +120,7 @@
 -stop
 -u-I;
 -version
+.!mBa
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV?$_Iosb@H@std@@
@@ -225,7 +227,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220927205146Z0/
+220930215721Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -246,6 +248,7 @@
 6I]Dc
 6OB,n_
 70503
+7RGT=
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -260,7 +263,7 @@
 ::LHB::%4.4X %s
 :\u-L
 :\u6L
-;:ED8
+:f7c0
 <*J=)
 </u#H
 <0:08
@@ -296,7 +299,6 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?D4<F
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
@@ -688,6 +690,7 @@ HcMxI
 I9Bhs
 I;4$L
 I@H9k8u
+ILG3d
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
@@ -736,6 +739,7 @@ L;M8r
 L;gHu
 L?n(Zy&
 LHB-DFU
+LIu"(
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
@@ -805,7 +809,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSp\
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -824,6 +827,7 @@ SERVICES
 SERVICES -U128 %s
 SERVICES -U16 %4.4X
 SHELL32.dll
+SHT"~
 SUVWATAUAVAWH
 SVATAUAVAWH
 SVWATAUAVAWH
@@ -922,6 +926,7 @@ VWATAVAWH
 VWAUAVAWH
 VWAVH
 VWAWH
+VZVj3
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -1049,6 +1054,7 @@ Zip-bug: the anticipated size turned out wrong
 Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
+Zj4V(
 [DFU]
 [K]taM?
 \$ UAVAWH
@@ -1143,6 +1149,7 @@ bin_file
 blank
 bootloader
 buffer error
+c*(}	
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 cU	F9
 calloc
@@ -1219,6 +1226,7 @@ l$PM9n
 l$pM+
 lighthouse
 lower
+m#4~mO
 m0k0$
 malloc
 manifest
@@ -1331,6 +1339,7 @@ www.digicert.com1$0"
 xA\^][
 xAtAL
 xdigit
+y5j#UN
 {un'%
 {x\u!H
 {|?uWH
@@ -1359,6 +1368,7 @@ xdigit
 |$pE2
 |$xH;
 |Lu?c
+},@%`w
 }LuHO
 ~qj#k"
 ~t&LN

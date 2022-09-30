@@ -101,7 +101,6 @@ $w!Hc
 &D9c0t
 &D9k0t
 &D9{0t
-&d7J(
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -121,6 +120,7 @@ $w!Hc
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
+'H4OW
 '[', '{', or a literal
 'uri' is missing from non binary glTF file buffer.
 (A\^][
@@ -459,7 +459,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-220927205345Z0/
+220930220316Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -493,6 +493,7 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+9*`:-
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -1276,7 +1277,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSl
+RSDSj^W{
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1286,7 +1287,6 @@ RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
 S8H+S0H
-S:EX{
 SATAUAVAWH
 SA|X=G
 SCALAR
@@ -1425,8 +1425,8 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
-Vm8;K
 W-xO	
+W=}vS
 WATAUAVAWH
 WAVAWH
 WINMM.dll
@@ -1511,7 +1511,6 @@ ZL$Xf
 ][OculusDirect] AquireSync
 ]g@8yhu
 ^9k0tWD
-^XOUfG
 _Camera
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1628,7 +1627,6 @@ aspectRatio
 assert json failed
 asset
 attributes
-b3c87
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
 bad APP len
@@ -2525,6 +2523,7 @@ znear
 |$`M+
 |LL\t
 |Lu?c
+|dy2i
 }LuHO
 ~+fff
 ~3LcD$(L

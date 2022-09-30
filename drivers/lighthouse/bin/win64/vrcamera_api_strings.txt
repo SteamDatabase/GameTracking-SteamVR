@@ -37,6 +37,7 @@
 !hn7!
 $+xvA
 $< t6<$t,<+t"<vt
+$TM\C
 %.0Lf
 %H : %M
 %H : %M : %S
@@ -378,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 220921000000Z
-220927204815Z0/
+220930215353Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -394,6 +395,7 @@ $< t6<$t,<+t"<vt
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5fY4>
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -408,6 +410,7 @@ $< t6<$t,<+t"<vt
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8H;^XtB
+8Qp~w
 8T$0u
 8\$0u`H
 8\$0up
@@ -429,12 +432,14 @@ $< t6<$t,<+t"<vt
 9_P~,E3
 9_P~OE3
 9{D~H3
+:%!aVn
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :K	t	H
 :L$"u
 :O	t	H
 :O	t	I
+:OuuB
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
 :\uDL
 ;A$vTH
@@ -450,9 +455,11 @@ $< t6<$t,<+t"<vt
 <:wuH
 <HthH
 <xu<D
+<{k`T
 <}wYI
 =rIQU
 >0<0:
+>0|>m_
 >Mp$d
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
@@ -666,6 +673,7 @@ Auto Exposure:
 Auto White Balance:		
 B$D+B,toD+B(
 B0E8XAt
+BB;HkS
 BL$(A
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1122,7 +1130,9 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDS<
 RaiseException
+RcaPY
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
 ReleaseSRWLockExclusive
@@ -1177,6 +1187,7 @@ T$PH;
 T$PI+
 T$`H+
 T$pE3
+T<Q>L
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1344,7 +1355,6 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
-`slnyg 
 abort
 address family not supported
 address in use
@@ -1364,6 +1374,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
+b[#,|
 bad address
 bad allocation
 bad array new length
@@ -1456,6 +1467,7 @@ is a directory
 islower
 isspace
 isupper
+je7cD
 jj@0HK4
 jyvids
 k0i0$
@@ -1519,6 +1531,7 @@ not enough memory
 not supported
 ntelD
 o0t$I
+o3fgX
 ole32.dll
 operation canceled
 operation in progress
@@ -1534,7 +1547,6 @@ pA_A^A]A\_^]
 pContext
 pEvents
 pExecutionResource
-pSS;Y|
 pScheduler
 pThreadProxy
 permission denied

@@ -22,7 +22,6 @@
  sCWj
  t\9]
 !hn7!
-#%+9H
 #9Npt
 #>B>J>
 $0,040<0P0X0`0h0p0|0
@@ -53,7 +52,7 @@ $_^[]
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,0I0\0
 ,W5y+
-.!_+=
+-fe*v
 .00cfg
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
@@ -433,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 220921000000Z
-220927204747Z0/
+220930215332Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1319,6 +1318,7 @@ Exception connecting to camera:
 Exception constructing Camera: 
 Exposure:			
 F j,Q
+F%=-F
 F;sx|
 FP;FL
 FP;FL~
@@ -1375,6 +1375,7 @@ G @;G
 G(9_Lu8
 G,_^[
 G0_^]
+G:|K6
 G;~,|
 G;~P}
 G;~x|
@@ -1486,6 +1487,7 @@ QQSVW
 QSVWj
 QVWjt
 QkK04
+Qo?RIh
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1535,6 +1537,8 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
+UBTv.d
+Ue7cU
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1598,11 +1602,13 @@ Y__^[
 [tc9]
 \SVW3
 ]J<0"0i3
+^9Y"t
 _$@;Ghr
 _CIexp
 _CIpow
 _CIsqrt
 _CxxThrowException
+_Eb z
 _Getdays
 _Getmonths
 _Gettnames
@@ -1709,7 +1715,6 @@ directory not empty
 eventObject
 executable format error
 f	_$_^[
-fP[3M
 false
 fclose
 fflush
@@ -1909,6 +1914,5 @@ y'j h
 |SVWj
 }:;2|6
 }LuHO
-~A-T-
 ~qj#k"
 ~t&LN
