@@ -2383,13 +2383,13 @@ $tI
 17CImuTrackerThread
 17CLinuxVideoStream
 18IUsbDeviceCallback
+19:49:00
 19CWirelessDecoderWv2
 1e+9999
 2
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
-21:53:04
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -5758,6 +5758,7 @@ OSTypesAreCompatible(EOSType, EOSType)
 OSTypesAreCompatible(EOSType, EOSType) [clone .part.0]
 Object
 Oct
+Oct  3 2022
 October
 Ok
 Old Normal: %f %f %f
@@ -6141,7 +6142,6 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true
 Selected existing universe %llu (%08X is %s)
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
-Sep 30 2022
 September
 Set column correction %f %d %f %d
 Set index backlight gain: %f

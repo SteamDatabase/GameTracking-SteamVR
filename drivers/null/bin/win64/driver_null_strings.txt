@@ -7,6 +7,7 @@
 (f*^[0
 +Xt@(
 +o'q)}
+,>;c8
 ,W5y+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
@@ -56,7 +57,6 @@
 .text$yd
 .xdata
 .xdata$x
-/@dP{
 /user/camera
 /user/chest
 /user/elbow/left
@@ -80,7 +80,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220930220313Z0/
+221003195537Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -100,7 +100,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8Bi3U
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 <*J=)
@@ -117,7 +116,6 @@
 AuthD
 Bellevue1
 CT$0H
-DGp/]
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -166,7 +164,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSG
+RSDSZ
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -178,7 +176,6 @@ UWAVH
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
-V,3e6n
 VCRUNTIME140.dll
 VWAVH
 VWAWH
@@ -216,11 +213,11 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`Rb0%e
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b\;<@
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
@@ -240,10 +237,10 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-ii*6S
 jj@0HK4
 k0i0$
 l$8E3
+lPD:]
 m0k0$
 malloc
 memcpy
@@ -251,8 +248,6 @@ memmove
 memset
 modelNumber
 ntelD
-o', I
-pCr@6M^
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -270,7 +265,7 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-x$zu"
+{p0L*e
 {un'%
 |$ AVH
 |Lu?c

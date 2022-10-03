@@ -1590,6 +1590,7 @@ $tI
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
+19:49:13
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1639,7 +1640,6 @@ $tI
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:53:21
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -22717,6 +22717,7 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
+Oct  3 2022
 October
 OculusSDKStart
 OldAppQuitSent
@@ -23380,7 +23381,6 @@ Sending focus captured event
 Sending focus released event
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
-Sep 30 2022
 September
 Server
 Server could not create read event %s

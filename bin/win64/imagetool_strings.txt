@@ -1470,7 +1470,6 @@
  BGRL
  BGRt
  BGRt	A
- D	=x
  E'*b
  FD thread=%#x
  FD thread=%#x buffer_condition:{%s}
@@ -3718,7 +3717,7 @@ $wtpt
 220323000000Z
 220801000000Z
 220921000000Z
-220930215437Z0/
+221003195032Z0/
 230x323
 2384x3370
 24 24
@@ -4549,7 +4548,6 @@ $wtpt
 ?Too many input channels (%d channels, max=%d)
 ?Tu7R
 ?UUUUUU
-?ZP6JW
 ?[IPH
 ?_BADOFF@std@@3_JB
 ?_B{	
@@ -5006,7 +5004,6 @@ A,3B,
 A0D9D
 A0Ic@
 A1YD8K ~
-A3*\;
 A5~:/y;/u>.z4)
 A8>tZf
 A8H;U v
@@ -8818,7 +8815,6 @@ Huffman Table Triplet
 HuffmanDecodeImage
 HuffmanEncodeImage
 Huge input lookup
-HwGnm
 Hypertext Markup Language and a client-side image map
 H|p@j
 I koh Glos esa, und es duard ma ned wei.
@@ -12324,7 +12320,6 @@ SA|X=G
 SCREENSHOT
 SCRIPT
 SEQUENCE_ERROR
-SFIC<
 SFW94
 SFW94A
 SFW95
@@ -14713,7 +14708,6 @@ _wstat64i32
 `*Hhq
 `.rdata
 `5	xDP
-`96U>$
 `:x@^bp	.
 `@...
 `A\_[
@@ -14758,7 +14752,6 @@ a yo' chumocho krestat, ti ha na'lalamen yo'.
 a(L9a L
 a4small
 aWvd$A;-
-a\b#]
 a]{?P
 a`wwn
 aa@saaho
@@ -15803,7 +15796,6 @@ e bez moljca.
 e, na st?pe sa ?ate? u?
 e-1.0*
 e0A_A^A]A\]
-e7c4`b
 eC}gc}m
 ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
 eXC	\
@@ -17709,6 +17701,7 @@ l$xH+
 l$xH;
 l$xfD
 l$xt	
+l' yN
 l6qnk
 l<"-y<
 l<}2l
@@ -18219,7 +18212,6 @@ pPH9XXu
 pSZG<@301(-)'2,+2,+0,*0-+0/+2*10)(eqR
 pV }S
 p]NCFLC
-p_y1`;
 p`P@0 
 pa-pk
 pa_PK

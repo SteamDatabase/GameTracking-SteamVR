@@ -2,13 +2,13 @@
  %41g
  (Camera)
 !hn7!
+&WMqp
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
 +Xt@(
 +o'q)}
 , last executing in 
-,LfKi
 ,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
@@ -93,7 +93,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220930215721Z0/
+221003195252Z0/
 241009235959Z0a1
 242M2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -171,7 +171,6 @@
 :&;E;
 :9;B;S;_;k;q;w;
 :E:q:
-:f7c*&
 ;!;&;+;2;B;
 ;";';.;3;?;a;x;
 ;Z<a<
@@ -187,9 +186,11 @@
 <6>A>\>e>
 <?<E<K<Q<W<]<d<k<r<y<
 <J=R=
+<PR97
 ="=(=.=8=F=b=z=
 =$=B=w=
 =$=H=T=\=|=
+=;c9[
 =@>X>\>
 =M=V=_=h=m=r=y=~=
 =j)h8
@@ -339,12 +340,14 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
+[;$.+!C
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
+[Q@r-
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -396,6 +399,7 @@ c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\201
 cU	F9
 camera
 d3d11.dll
+dRT9-
 dk2_camera
 driver_oculus_legacy.dll
 f;A*stSW
@@ -406,6 +410,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iPqP&
 invalid string position
 jdjdh
 jj@0HK4
@@ -463,6 +468,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+qKz |.
 startup
 string too long
 strncpy
@@ -476,7 +482,8 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-z|Lkb
+xMHHPL
+xOl>\
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

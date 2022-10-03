@@ -1,4 +1,5 @@
 	!s99
+	>X %T
  %41g
  A_A^A\_^
  A_A^_
@@ -8,11 +9,12 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
+$v:W@
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
+&;<Le
 ',=?k
 (D$0f
-(JJ4^
 (f*^[0
 +Xt@(
 +o'q)}
@@ -118,7 +120,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220930215437Z0/
+221003195028Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,6 +146,7 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
+:P-a!X; S
 <*J=)
 <0:08
 <P)9Y
@@ -205,6 +208,7 @@ E89D$Pu
 E<9D$Tu
 EnterCriticalSection
 FormatMessageW
+Fz=?$
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
@@ -213,7 +217,6 @@ GetProcessHeap
 GetRestrictedErrorInfo
 GetSystemTimeAsFileTime
 GetTickCount64
-Gki;(
 H9\$X
 H9\$Xt
 H9\$`t
@@ -249,7 +252,6 @@ L9|$ht
 L?n(Zy&
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
-M 2gH
 M H1E
 MB(iVR
 MSVCP140.dll
@@ -257,7 +259,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
 OLEAUT32.dll
-Or9_jD
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
@@ -318,6 +319,7 @@ WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
 [K]taM?
+[O_S!
 \$ H;
 \$ UH
 \$(H;
@@ -365,7 +367,6 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
-c=#c3
 cU	F9
 d3d11.dll
 dxgi.dll
@@ -386,6 +387,7 @@ memmove
 memset
 ntelD
 ole32.dll
+pCV}T
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy

@@ -5,6 +5,7 @@
  %41g
 !(0)"
 !9~ t
+!Ziq7
 !hn7!
 #*1892+$
 #?RADIANCE
@@ -164,7 +165,7 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-220930215651Z0/
+221003195226Z0/
 241009235959Z0a1
 242D2H2X2\2`2h2
 262H2O2o283?3
@@ -174,6 +175,7 @@ $9^ t
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2SPV9
 2Z3a3
+2["8,
 2`4{4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
@@ -238,7 +240,6 @@ $9^ t
 6I]Dc
 6L7Z7h7~7
 6OB,n_
-6\{n9
 6k6}6
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7
 7#7(73787B7S7X7b7s7x7
@@ -316,8 +317,8 @@ $9^ t
 =8=e=
 =8>J>P>W>b>o>|>
 =?>U>|>
-=G~1(P
 =N>R>
+=^'c|
 =rIQU
 > >0>4>8><>@>H>`>d>|>
 > >B>Q>Z>g>
@@ -405,7 +406,6 @@ EventUnregister
 EventWrite
 EventWriteString
 F(j4f
-FClkA
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -454,14 +454,12 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
-IfsTI;g
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitCameraHAL
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
-Ip|N|
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
@@ -577,6 +575,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
+W*E-o
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -690,6 +689,7 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
+c%Fk2w
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
@@ -770,7 +770,6 @@ not GIF
 not HDR
 not PSD
 not enough pixels
-o&~#~1
 only 8-bit
 outofdata
 outofmem
@@ -782,6 +781,7 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
+q"oJ:
 qdriver_lighthouse
 r0	2q2
 read past buffer

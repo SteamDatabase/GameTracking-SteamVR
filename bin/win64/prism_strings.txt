@@ -59,7 +59,6 @@
 !std::isnan( flSystemTimeInSeconds )
 $9E0u
 $II+L$`
-$tT/%
 %s begin_ctx=%llu
 %s end_ctx=%llu
 %s%s%s%s%s
@@ -356,6 +355,7 @@ $tT/%
 +Xt@(
 +o'q)}
 , last executing in 
+,=;c2
 ,W5y+
 -IPCWrapper
 .00cfg
@@ -512,7 +512,6 @@ $tT/%
 .tls$ZZZ
 .xdata
 .xdata$x
-/Yh4w
 0A]A\_
 0A^A]A\
 0A^_[
@@ -531,7 +530,7 @@ $tT/%
 220323000000Z
 220801000000Z
 220921000000Z
-220930215519Z0/
+221003195121Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -551,7 +550,6 @@ $tT/%
 6I]Dc
 6OB,n_
 70503
-7dZ	j]
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 t"L
 8 u'L
@@ -986,6 +984,7 @@ D;C sIH
 DebugMessengerCallback
 DeleteCriticalSection
 DeviceGC
+Dh{QA-
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -1407,7 +1406,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSB
+RSDSs
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1811,14 +1810,12 @@ data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
-e7cjC
 effffff
 f9+t4
 f98tZH
 f98t\H
 f9\$`u
 f;|$pt_H
-f<r;L
 fD;3t
 fabsf( *pSecondsSinceVsync ) < 1000.0f
 facet::CVkTimestampQueryPool<2>::Create
@@ -1835,7 +1832,6 @@ fn != nullptr
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
 from.pPool != nullptr
-gc^^7q
 gfffffffA
 gfffffffH
 gfffffffH+

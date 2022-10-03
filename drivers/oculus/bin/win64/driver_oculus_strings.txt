@@ -57,6 +57,7 @@
  A__[
  A__^
  H3E H3E
+ ]p4-<
  at line 
  in Buffer
  in `
@@ -120,7 +121,6 @@ $w!Hc
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
-'H4OW
 '[', '{', or a literal
 'uri' is missing from non binary glTF file buffer.
 (A\^][
@@ -459,7 +459,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-220930220316Z0/
+221003195602Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -482,6 +482,7 @@ $w!Hc
 6OB,n_
 6p7M=:P_:}u
 70503
+7B7We^D
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8A^A\
@@ -493,7 +494,6 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9*`:-
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -902,6 +902,7 @@ D;l$0
 D;v(s
 D;z s
 D;}Tr
+D>;c\
 Default audio playback device: %s
 Default audio recording device: %s
 DeleteCriticalSection
@@ -1277,7 +1278,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSj^W{
+RSDSI
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1426,7 +1427,6 @@ Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
 W-xO	
-W=}vS
 WATAUAVAWH
 WAVAWH
 WINMM.dll
@@ -1441,6 +1441,7 @@ WinVerifyTrust
 X UVWH
 X%R4	
 X-E3	
+X;g|PZ
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
@@ -1731,6 +1732,7 @@ d$`L;
 d$`fD
 d$bHc
 d3d11.dll
+d[aL`
 da_da
 danish
 data:application/gltf-buffer;base64,
@@ -2464,6 +2466,7 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x AVH
 xA^A\_^][
+yTb0hHz
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
@@ -2523,7 +2526,6 @@ znear
 |$`M+
 |LL\t
 |Lu?c
-|dy2i
 }LuHO
 ~+fff
 ~3LcD$(L

@@ -12,6 +12,7 @@
  A__[
  A__^
  H3E H3E
+ HUm{
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
@@ -32,15 +33,13 @@
 )D$ L
 )t$0H
 )t$@H
-)yn8&x8
-*2r"Fgu
 *uXI;
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
 -1e+9999
--7y=H
+-=UVkz
 -Infinity
 -u-I;
 .00cfg
@@ -161,7 +160,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220930220340Z0/
+221003195559Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -179,19 +178,16 @@
 6*f(_
 6I]Dc
 6OB,n_
-6oGMp4
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-8d<]f5	c
 < t+<
 <*J=)
 </u#H
 <0:08
 <unknown>
-=d/yT2
 =rIQU
 >0<0:
 >Mp$d
@@ -280,6 +276,7 @@
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
+AUL2:b
 A\_^[]
 A^A\^
 A^A\^[]
@@ -303,6 +300,7 @@ AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
 AttemptSendInput failed.
 AuthD
+B>;cJ
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -429,6 +427,7 @@ Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
 GDI32.dll
+G\i?{g
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -583,6 +582,8 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
+Nn7GE
+OmS!9
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -692,7 +693,6 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-Wn~	96
 Y9"SD
 [K]taM?
 \$ E3
@@ -803,7 +803,6 @@ fi_fi
 finnish
 fr_fr
 french
-g7c,,
 german
 gfffffffH
 gfffffffI
@@ -843,7 +842,6 @@ l$8E3
 l$@H;
 l$PM9n
 latam
-lh<]`d
 list<T> too long
 m0k0$
 m_nMaxLogBufferingSize > 0
@@ -856,7 +854,6 @@ memcpy
 memmove
 memset
 message_id
-nL}4]
 no_no
 norwegian
 ntelD
@@ -960,5 +957,6 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
+~pv\3
 ~qj#k"
 ~t&LN

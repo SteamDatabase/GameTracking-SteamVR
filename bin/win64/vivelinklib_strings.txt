@@ -104,7 +104,6 @@
 )D$ L
 )t$@H
 )t$PA
-*>4@i<
 *uXI;
 +9kdt	H
 +Xt@(
@@ -120,7 +119,6 @@
 -stop
 -u-I;
 -version
-.!mBa
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV?$_Iosb@H@std@@
@@ -227,7 +225,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-220930215721Z0/
+221003195425Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -248,7 +246,6 @@
 6I]Dc
 6OB,n_
 70503
-7RGT=
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -263,12 +260,13 @@
 ::LHB::%4.4X %s
 :\u-L
 :\u6L
-:f7c0
 <*J=)
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
 <Bu'H
+<xJ.6
+=;c	`
 ======================
 ==============================
 => Entering Context
@@ -690,7 +688,6 @@ HcMxI
 I9Bhs
 I;4$L
 I@H9k8u
-ILG3d
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
@@ -701,6 +698,7 @@ Invalid address %s.
 Invalid nonce %d
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J,qYK
 J>@G_
 K32EnumProcessModules
 K32EnumProcesses
@@ -739,7 +737,6 @@ L;M8r
 L;gHu
 L?n(Zy&
 LHB-DFU
-LIu"(
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
@@ -809,6 +806,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDS4z
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -827,7 +825,6 @@ SERVICES
 SERVICES -U128 %s
 SERVICES -U16 %4.4X
 SHELL32.dll
-SHT"~
 SUVWATAUAVAWH
 SVATAUAVAWH
 SVWATAUAVAWH
@@ -926,7 +923,6 @@ VWATAVAWH
 VWAUAVAWH
 VWAVH
 VWAWH
-VZVj3
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -1054,7 +1050,6 @@ Zip-bug: the anticipated size turned out wrong
 Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
-Zj4V(
 [DFU]
 [K]taM?
 \$ UAVAWH
@@ -1149,7 +1144,6 @@ bin_file
 blank
 bootloader
 buffer error
-c*(}	
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 cU	F9
 calloc
@@ -1224,9 +1218,9 @@ l$@I+
 l$PI+
 l$PM9n
 l$pM+
+lHg[	
 lighthouse
 lower
-m#4~mO
 m0k0$
 malloc
 manifest
@@ -1245,6 +1239,7 @@ oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
+p6yZ+
 print
 punct
 r*=/N
@@ -1302,6 +1297,7 @@ t'-"N
 t(D8g
 t+-"N
 t--"N
+t0J.	
 t1H9]
 t6H9}
 t>-"N
@@ -1316,6 +1312,7 @@ tools
 u D8u
 u"fD;
 u'fD;
+uBU^_
 uHfC;
 unknown compression method
 unknown zip result code
@@ -1339,7 +1336,6 @@ www.digicert.com1$0"
 xA\^][
 xAtAL
 xdigit
-y5j#UN
 {un'%
 {x\u!H
 {|?uWH
@@ -1368,7 +1364,7 @@ y5j#UN
 |$pE2
 |$xH;
 |Lu?c
-},@%`w
+|W)@ 
 }LuHO
 ~qj#k"
 ~t&LN

@@ -37,7 +37,6 @@
 !hn7!
 $+xvA
 $< t6<$t,<+t"<vt
-$TM\C
 %.0Lf
 %H : %M
 %H : %M : %S
@@ -379,7 +378,7 @@ $TM\C
 220323000000Z
 220801000000Z
 220921000000Z
-220930215353Z0/
+221003194956Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -395,7 +394,6 @@ $TM\C
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5fY4>
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -410,7 +408,6 @@ $TM\C
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8H;^XtB
-8Qp~w
 8T$0u
 8\$0u`H
 8\$0up
@@ -432,14 +429,12 @@ $TM\C
 9_P~,E3
 9_P~OE3
 9{D~H3
-:%!aVn
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :K	t	H
 :L$"u
 :O	t	H
 :O	t	I
-:OuuB
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
 :\uDL
 ;A$vTH
@@ -455,11 +450,9 @@ $TM\C
 <:wuH
 <HthH
 <xu<D
-<{k`T
 <}wYI
 =rIQU
 >0<0:
->0|>m_
 >Mp$d
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
@@ -673,7 +666,6 @@ Auto Exposure:
 Auto White Balance:		
 B$D+B,toD+B(
 B0E8XAt
-BB;HkS
 BL$(A
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1107,6 +1099,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MinConcurrency
 MultiByteToWideChar
+NR~j\
 No Description
 No IPin available.
 No color stream to configure.
@@ -1130,9 +1123,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS<
 RaiseException
-RcaPY
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
 ReleaseSRWLockExclusive
@@ -1187,7 +1178,6 @@ T$PH;
 T$PI+
 T$`H+
 T$pE3
-T<Q>L
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1236,6 +1226,7 @@ UnregisterTraceGuids
 UnregisterWait
 UnregisterWaitEx
 UpdateProcThreadAttribute
+Uuj7J
 VCRUNTIME140.dll
 VUD8oDu
 VWATAVAWH
@@ -1355,6 +1346,7 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
+`Pf7G~
 abort
 address family not supported
 address in use
@@ -1374,7 +1366,6 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
-b[#,|
 bad address
 bad allocation
 bad array new length
@@ -1467,7 +1458,6 @@ is a directory
 islower
 isspace
 isupper
-je7cD
 jj@0HK4
 jyvids
 k0i0$
@@ -1499,6 +1489,7 @@ localeconv
 lower
 lstrcmpW
 m0k0$
+mWf0F
 malloc
 memchr
 memcmp
@@ -1531,7 +1522,6 @@ not enough memory
 not supported
 ntelD
 o0t$I
-o3fgX
 ole32.dll
 operation canceled
 operation in progress
@@ -1696,6 +1686,7 @@ yH;YXtl
 { ATAVAWH
 { AVH
 { tjL
+{6'E+
 {un'%
 {x\u!H
 {|-ueH
