@@ -1,16 +1,16 @@
 																																																																																																																
 	!s99
 	0=0^0l0t0~0
-	0g0u0|0
  %41g
 !(0)"
 !9~ t
-!Ziq7
 !hn7!
 #*1892+$
 #?RADIANCE
 #?RGBE
 $9^ t
+$iiv+
+%+,7=C
 %,3:;4-&
 %3333
 %UUUU
@@ -124,24 +124,24 @@ $9^ t
 /user/waist
 /width
 0 0$0(0,0004080
-0 0$0,0D0T0X0h0l0t0
 0 width
 0!0%0+050?0F0P0Z0a0k0
+0$0(0,00040<0T0d0h0x0|0
 0&020;0@0F0P0Z0j0z0
 0(070
 0*0:0K0a0x0
 0-pixel image
 0.0>0H0R0b0m0
-052:2n2
 061;1
+0E2J2~2
 0w0c1
 0x1|1
 0}0i1
-1 1&111A1Q1[1e1p1}1
-1 1014181@1X1h1l1t1
+1!10161A1Q1a1k1u1
 1!1H1P1i1
 1(161D1R1`1p1
 1)1@1V1b1n1~1
+1,101@1D1H1P1h1x1|1
 1.252
 1/2/4/8/16-bit only
 111a1
@@ -153,9 +153,11 @@ $9^ t
 1H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 1Q1U1*2.2_6c6
 1a2q2
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2
+2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+2 2$2,2D2T2X2h2l2p2x2
 2!212A2Q2a2q2
 2#2(222C2H2R2c2h2r2
+2#2c2
 2$2.282B2L2V2`2j2t2~2
 2&2*292=2E3
 2&2,21272B2H2W2^2c2l2q2z2
@@ -165,27 +167,24 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-221003195226Z0/
+221104001251Z0/
 241009235959Z0a1
-242D2H2X2\2`2h2
 262H2O2o283?3
-293r3
 2>3k3
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2SPV9
 2Z3a3
-2["8,
 2`4{4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3 3$3(3,3034383<3@3D3P3$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+3 3$3(3,3034383<3@3D3H3T34686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 3"31393E3V3]3
 3#3(33383B3S3X3b3s3x3
+3$3<3L3P3T3X3`3x3
 3%3,3E3L3e3l3
 3(323B3M3n3~3
 3)3-3:3>3r7v7
-3,3<3@3D3H3P3h3x3|3
 311109235959Z0b1
 331121235959Z0F1
 360428235959Z0i1
@@ -196,35 +195,35 @@ $9^ t
 4 494@4Y4^4c4h4
 4!4U5Y5h5l5m6q6
 4"43484B4Q4V4[4`4e4j4o4t4y4~4
-4$4(484<4@4D4H4L4P4X4p4
+4$44484H4L4P4T4X4\4`4h4
 4%40464=4
 4%5*5Z5_5u5z5@6y6
 4%5o5s5
 4.4>4H4R4b4m4
-44585<5@5D5
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
+4D5H5L5P5T5
 4`:d:q:u:
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5	7+7
 5 5$5
+5 5$54585<5D5\5l5p5
 5!5M5c5k5
 5"5,565@5J5T5^5h5
 5"5-5N5^5h5r5
-5$5(5,545L5\5`5p5t5x5|5
 5$5f5n5
 5%5R6
 5'5.5G5N5g5n5
 5(5/5
 5/676b6
 555M5V5e5x5
-5<9`9l9t9
 5=5C5
 5FjiT
 5Genu
+5L9p9|9
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-6 6$6(6,6064686<6@6D6D8H8L8P8T8X8\8
+6 6$6(6,6064686<6@6D6H6L6P6T6T8X8\8`8d8h8l8
 6 7<7F7T7]7
 6#6(626C6H6R6c6h6r6
 6%626@6L6V6^6d6t6z6
@@ -264,10 +263,11 @@ $9^ t
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+9 :,:4:T:x:
 9 u	A
 9"9'9,91969;9@9E9J9O9T9Y9^9c9h9q9v9{9
-9':P:r:
 9(929B9M9n9~9
+9)9z9
 979;9J9N9]9a9p9t9
 989]9d9
 98:[:
@@ -275,42 +275,40 @@ $9^ t
 9B:F:
 9]:p:
 9_lt\
-9x:|:
 :#:-:A:O:T:b:g:q:~:
-:$:D:h:t:|:
 :.:8:B:R:]:~:
 :3:9:N:f:l:|:
+:7:`:
 :;;L;];u;H<L<
-:T;X;
 :T;l;
+:d;h;(<,<0<D<H<L<h<l<
 :g=l=u=?>|>
 ;	<P<V<p<
 ; ;$;(;,;0;4;q;|;
-;";);.;3;A;F;Q;V;c;m;s;};
-;$;0;8;P;d;t;
+;";';2;9;>;C;Q;V;a;f;s;};
 ;%<)<8<<<
+;4;@;H;`;t;
 ;5;x;|;
 ;>;N;X;b;r;};
 ;O<b<
 ;S;`;
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<
-< <4<8<<<X<\<
-<!<-<9<C<Y<h<w<
+< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<
+<!<1<=<I<S<i<x<
 <"<2<=<^<n<x<
 <$<-<1<
 <%<)<t?x?
 <(=/=5=;=A=G=M=S=]=k=
 <*J=)
-<+=3=;=
+<,<@<H<P<X<\<`<h<|<
 <0:08
-<0<8<@<H<L<P<X<l<
 <0@0M0Q0
 <5=A=Y=o=x=
+<;=C=K=
 <=<F<O<]<f<y<Z=z=
 <I=M=
 <h<n<
 <unknown>
-= =(=,=4=H=P=X=`=d=h=p=
+= =(=0=8=<=D=X=`=h=p=t=x=
 = >8>T>
 =,=P=|=
 =.=8=B=R=]=~=
@@ -318,24 +316,22 @@ $9^ t
 =8>J>P>W>b>o>|>
 =?>U>|>
 =N>R>
-=^'c|
 =rIQU
-> >0>4>8><>@>H>`>d>|>
 > >B>Q>Z>g>
 > ?(?-?@?T?Y?l?
+>,>0>@>D>H>L>P>X>p>t>
 >0<0:
->:>I>X>
 >>>N>X>b>r>}>
 >@>V>
 >@?U?r?
+>J>Y>h>
 >L?l?
 >Mp$d
->g?x?|?
 >m?q?
-? ?0?4?D?H?X?\?l?p?
 ?"?2?=?^?n?x?
 ?%?2?<?B?
 ?)?[?|?
+?0?@?D?T?X?h?l?|?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
 ??Bid@locale@std@@QAEIXZ
@@ -345,8 +341,8 @@ $9^ t
 ??_7facet@locale@std@@6B@
 ?G?K?w?
 ?I?O?d?m?
-?K?n?{?
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
+?[?~?
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UAEXXZ
 ?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
@@ -361,7 +357,6 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
-@1D1H1L1P1T1X1
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -480,6 +475,7 @@ NotFound
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
+P1T1X1\1`1d1h1
 P<^_3
 PAq=?Mp#
 PID_%04X
@@ -575,7 +571,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
-W*E-o
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -689,7 +684,6 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c%Fk2w
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
@@ -732,6 +726,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+i6?uf
 illegal code in raster
 invalid
 invalid PLTE
@@ -774,14 +769,12 @@ only 8-bit
 outofdata
 outofmem
 output buffer limit
-p5t5x5|5
 pl_pl
 polish
 portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
-q"oJ:
 qdriver_lighthouse
 r0	2q2
 read past buffer
@@ -800,7 +793,8 @@ strstr
 strtol
 sv_sv
 swedish
-tQPh8
+t"Ph 
+tQPhH
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -812,6 +806,7 @@ too large
 too many codes
 tr_tr
 turkish
+u"h(m
 u(_^[
 u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
@@ -838,7 +833,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-yrPhX
+yrPhh
 zh_cn
 zh_tw
 zlib corrupt

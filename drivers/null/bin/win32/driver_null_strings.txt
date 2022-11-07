@@ -1,8 +1,7 @@
 	!s99
  %41g
-!%qedy
+ }mNyrzs
 !hn7!
-#%A=C
 ',=?k
 (f*^[0
 +Xt@(
@@ -84,7 +83,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221003195245Z0/
+221104001305Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -127,6 +126,7 @@
 9$9>9
 9%959E9N9]9c9i9o9u9{9
 90949L9\9`9p9t9|9
+9ZBCF
 :!:3:Q:
 :(:-:;:E:N:W:b:g:u:
 :(:8:<:L:P:X:p:
@@ -139,7 +139,6 @@
 <B<O<p<u<
 ='=9=Q=
 =(=.=4=x=}=
-=;cx).
 =?>S>x>
 =rIQU
 >0<0:
@@ -152,7 +151,6 @@
 @.data
 @.reloc
 Bellevue1
-CjhY8>
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -185,11 +183,13 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+J^F[Z
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
+MG)/V
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
@@ -197,12 +197,10 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS1P
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
 TerminateProcess
-U L[G
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
@@ -210,11 +208,8 @@ VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-W2Pog
 Washington1
-Xusg-F
 Y9"SD
-YEi<LP
 Y__^[
 [K]taM?
 ]J<0"0i3
@@ -278,7 +273,6 @@ memcpy
 memmove
 memset
 modelNumber
-qC"o	_
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -295,8 +289,8 @@ windowY
 www.digicert.com1!0
 www.digicert.com1$0"
 {un'%
+|:;rk
 |Lu?c
-}HzFu
 }LuHO
 ~qj#k"
 ~t&LN

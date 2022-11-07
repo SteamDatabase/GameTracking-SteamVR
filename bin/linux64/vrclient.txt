@@ -4369,6 +4369,8 @@
  glTexImage2D
  glTexParameteri
  glXGetCurrentContext
+ glXGetCurrentDisplay
+ glXGetCurrentDrawable
  glXGetProcAddress
  glXMakeCurrent
  iconv
@@ -4441,8 +4443,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1831.365281
- r C.1834.365292
+ r C.1831.365398
+ r C.1834.365409
  r C.413.288424
  r CSWTCH.100
  r CSWTCH.16
@@ -4452,7 +4454,7 @@
  r CSWTCH.28
  r CSWTCH.409
  r CSWTCH.725
- r CSWTCH.772
+ r CSWTCH.773
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetDefaultValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -6115,7 +6117,7 @@
  t BuildFadeGridMessage(float, bool) [clone .cold]
  t BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
  t BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
- t BuildMatTextureDetails(float (*) [4][4], vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
+ t BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
  t CActionBinding::CActionBinding(CActionBinding const&)
  t CActionBinding::FromJson(Json::Value const&, std::string*)
  t CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
@@ -6593,6 +6595,7 @@
  t CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*)
  t CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*) [clone .cold]
  t CHmdSystemLatest::GetIDForVRInitError(vr::EVRInitError)
+ t CHmdSystemLatest::GetIPCResourceManagerClient()
  t CHmdSystemLatest::GetLegacyInput()
  t CHmdSystemLatest::GetPaths()
  t CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -6685,6 +6688,8 @@
  t CHmdSystemLatest::StartVRMonitor() [clone .cold]
  t CHmdSystemLatest::StartVRWebHelper(bool)
  t CHmdSystemLatest::StartVRWebHelper(bool) [clone .cold]
+ t CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+ t CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags) [clone .part.0]
  t CHmdSystemLatest::ThisProcessIsCompositor()
  t CHmdSystemLatest::ThisProcessIsCompositor() [clone .cold]
  t CHmdSystemLatest::TopologyChanged()
@@ -7825,7 +7830,6 @@
  t CSxrGenericTrackerManager::TranslateTrackerInputPath(unsigned long) [clone .cold]
  t CSxrGenericTrackerManager::TranslateViveTopLevelPath(unsigned long)
  t CSxrGenericTrackerManager::~CSxrGenericTrackerManager()
- t CSxrGraphicsBindingGLOpenVR::CGLContextLock::~CGLContextLock()
  t CSxrGraphicsBindingGLOpenVR::CSxrGraphicsBindingGLOpenVR(CSxrInstance*, XrGraphicsBindingOpenGLXlibKHR const*)
  t CSxrGraphicsBindingGLOpenVR::CreateSwapchain(CSxrSession*, XrSwapchainCreateInfo const*)
  t CSxrGraphicsBindingGLOpenVR::CreateSwapchain(CSxrSession*, XrSwapchainCreateInfo const*) [clone .cold]
@@ -7842,6 +7846,7 @@
  t CSxrGraphicsBindingGLOpenVR::PreEndFrame()
  t CSxrGraphicsBindingGLOpenVR::RestoreContextInternal()
  t CSxrGraphicsBindingGLOpenVR::SetContextInternal()
+ t CSxrGraphicsBindingGLOpenVR::SetContextInternal() [clone .part.0]
  t CSxrGraphicsBindingGLOpenVR::~CSxrGraphicsBindingGLOpenVR()
  t CSxrGraphicsBindingPrism::AddTextureFormatIfSupported(long)
  t CSxrGraphicsBindingPrism::CSxrGraphicsBindingPrism(CSxrInstance*, CSxrCompositorPrism*)
@@ -8646,6 +8651,8 @@
  t CVRCompositorClient::SubmitFrameBeginTiming(unsigned long, CVRCompositorSharedTextures::CommandBuffer_t const*)
  t CVRCompositorClient::SubmitFrameData(double, bool)
  t CVRCompositorClient::SubmitFrameData(double, bool) [clone .cold]
+ t CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long const*)
+ t CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long const*) [clone .cold]
  t CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)
  t CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long) [clone .cold]
  t CVRCompositorClient::SuspendRendering(bool)
@@ -8861,7 +8868,8 @@
  t CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Release(CVRCompositorSharedTextures*)
  t CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
  t CVRCompositorSharedTextures::UnlockGLSharedTextureForAccess(void*)
- t CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
+ t CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::ESpatialEncodeMode const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
+ t CVRCompositorSharedTextures::UpdateSceneTextureData(SceneTextureIndexConstantBuffer_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::ESpatialEncodeMode const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
  t CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)
  t CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*) [clone .cold]
  t CVRCompositorSharedTextures::UpdateVRRenderer(void*, void*, void*)
@@ -22014,6 +22022,7 @@
  t IVRRenderModels_005_FnTable_LoadTextureD3D11_Async(int, void*, void**)
  t IVRRenderModels_005_FnTable_LoadTexture_Async(int, vr::RenderModel_TextureMap_t**)
  t IVRRenderModels_005_FnTable_RenderModelHasComponent(char const*, char const*)
+ t IVRRenderer::ReplaceTextureReferences(VRRenderer::TextureBase*, VRRenderer::TextureBase*)
  t IVRSettings_001_FnTable_GetBool(char const*, char const*, bool, vr::EVRSettingsError*)
  t IVRSettings_001_FnTable_GetFloat(char const*, char const*, float, vr::EVRSettingsError*)
  t IVRSettings_001_FnTable_GetInt32(char const*, char const*, int, vr::EVRSettingsError*)
@@ -23190,6 +23199,7 @@
  t NvAPI::GetCurrentDriverVersion()
  t NvAPI::GetDisplayStatus(void*, NvAPI::DisplayStatus_t*)
  t NvAPI::GetDisplayVisibility(int)
+ t NvAPI::GetGpuBusUtilization(int, float*)
  t NvAPI::GetTimeSinceLastVsync(void*, float*, unsigned long*)
  t NvAPI::GetVSyncToFlip(float*)
  t NvAPI::GetVideoMemoryInfo(void*, NvAPI::VideoMemoryInfo_t*)
@@ -25107,6 +25117,7 @@
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewCropped()
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewMode()
  t non-virtual thunk to CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*)
+ t non-virtual thunk to CHmdSystemLatest::GetIPCResourceManagerClient()
  t non-virtual thunk to CHmdSystemLatest::GetLegacyInput()
  t non-virtual thunk to CHmdSystemLatest::GetPaths()
  t non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -25158,6 +25169,7 @@
  t non-virtual thunk to CHmdSystemLatest::StartAutolaunchOverlays()
  t non-virtual thunk to CHmdSystemLatest::StartHomeApp()
  t non-virtual thunk to CHmdSystemLatest::StartSecondaryComponents()
+ t non-virtual thunk to CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
  t non-virtual thunk to CHmdSystemLatest::ThisProcessIsCompositor()
  t non-virtual thunk to CHmdSystemLatest::TopologyChanged()
  t non-virtual thunk to CHmdSystemLatest::TransformPoseToUniverse(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const&, vr::ETrackingUniverseOrigin)

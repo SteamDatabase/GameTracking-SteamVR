@@ -1,5 +1,4 @@
 	!s99
-	>X %T
  %41g
  A_A^A\_^
  A_A^_
@@ -9,10 +8,8 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
-$v:W@
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
-&;<Le
 ',=?k
 (D$0f
 (f*^[0
@@ -120,7 +117,7 @@ $v:W@
 220323000000Z
 220801000000Z
 220921000000Z
-221003195028Z0/
+221104001026Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -138,6 +135,7 @@ $v:W@
 6*f(_
 6I]Dc
 6OB,n_
+7+q2R
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -146,7 +144,6 @@ $v:W@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-:P-a!X; S
 <*J=)
 <0:08
 <P)9Y
@@ -154,6 +151,7 @@ $v:W@
 =rIQU
 >0<0:
 >Mp$d
+?&m+t
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -208,7 +206,6 @@ E89D$Pu
 E<9D$Tu
 EnterCriticalSection
 FormatMessageW
-Fz=?$
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
@@ -319,7 +316,6 @@ WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
 [K]taM?
-[O_S!
 \$ H;
 \$ UH
 \$(H;
@@ -387,7 +383,6 @@ memmove
 memset
 ntelD
 ole32.dll
-pCV}T
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -396,6 +391,7 @@ t$0H+
 t$8H9)t
 t$@H=
 t$PE3
+t4(HZ
 tXfff
 tYH9\$`t
 terminate
@@ -405,6 +401,7 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
+y|4+>x
 {un'%
 |$ AVH
 |$0E3

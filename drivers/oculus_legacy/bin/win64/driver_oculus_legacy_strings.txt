@@ -2,6 +2,7 @@
     A
  %41g
  (Camera)
+ -](U
  9D$D
  A__^
  H3E H3E
@@ -91,7 +92,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221003195918Z0/
+221104001935Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -121,6 +122,7 @@
 9h u{H
 9l$Ht
 9l$pt
+:gU^##
 ;K sCH
 ;K sUH
 ;k sAH
@@ -211,7 +213,6 @@ H;{XH
 HcD$0
 HcK@H
 HmdDriverFactory
-IL95-
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -264,8 +265,8 @@ Oculus
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+PxMDc
 Pz}b!
-QuTJn
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
@@ -285,6 +286,7 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
+TR~fN
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
@@ -320,6 +322,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+ZdcGx
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -449,7 +452,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-q{,Av{
 startup
 string too long
 strncpy
@@ -460,7 +462,7 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-tIL95v
+tIL95f
 tXfff
 tdh.dll
 terminate

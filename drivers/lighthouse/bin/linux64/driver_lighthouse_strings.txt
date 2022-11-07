@@ -747,6 +747,9 @@ $@
 /input/grip/force
 /input/grip/touch
 /input/grip/value
+/input/joystick/click
+/input/joystick/x
+/input/joystick/y
 /input/mute_mic/click
 /input/power/click
 /input/skeleton/left
@@ -768,6 +771,10 @@ $@
 /input/trigger/value
 /input/volume_down/click
 /input/volume_up/click
+/input/x/click
+/input/x/touch
+/input/y/click
+/input/y/touch
 /lighthouse/
 /lighthouse/camera/raw_frames
 /observed_basestations
@@ -799,6 +806,7 @@ $@
 0-pixel image
 0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:08:37
 0123456789
 0123456789ABCDEF
 0123456789abcdef
@@ -862,7 +870,6 @@ $@
 17CKalmanQuaternion
 17CLinuxVideoStream
 18IUsbDeviceCallback
-19:49:13
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -1900,8 +1907,8 @@ CLighthouseHmdDriver::CLighthouseHmdDriver() [clone .cold]
 CLighthouseHmdDriver::Cleanup()
 CLighthouseHmdDriver::ComputeDistortion(vr::EVREye, float, float)
 CLighthouseHmdDriver::ControllerBatteryStatus(float, bool)
-CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, bool, vr::ETrackedControllerRole)
-CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, bool, vr::ETrackedControllerRole) [clone .cold]
+CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole)
+CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole) [clone .cold]
 CLighthouseHmdDriver::Deactivate()
 CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int)
 CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int) [clone .cold]
@@ -1937,6 +1944,10 @@ CLighthouseHmdDriver::GetSensorType()
 CLighthouseHmdDriver::GetSerialNumber()
 CLighthouseHmdDriver::GetVideoStreamFrame()
 CLighthouseHmdDriver::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+CLighthouseHmdDriver::HandleDebug_AdjustPanelCant(char const*)
+CLighthouseHmdDriver::HandleDebug_AdjustPanelCant(char const*) [clone .cold]
+CLighthouseHmdDriver::HandleDebug_AdjustPanelPitch(char const*)
+CLighthouseHmdDriver::HandleDebug_AdjustPanelPitch(char const*) [clone .cold]
 CLighthouseHmdDriver::HandleDebug_GetEyeToHead()
 CLighthouseHmdDriver::HandleDebug_GetEyeToHead() [clone .cold]
 CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)
@@ -1945,8 +1956,13 @@ CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vB
 CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vRedChromaticCorrection
 CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*)
 CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*) [clone .cold]
+CLighthouseHmdDriver::HandleDebug_SetPanelCant(char const*)
+CLighthouseHmdDriver::HandleDebug_SetPanelCant(char const*) [clone .cold]
 CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*)
 CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*) [clone .cold]
+CLighthouseHmdDriver::HandleDebug_SetPanelPitch(char const*)
+CLighthouseHmdDriver::HandleDebug_SetPanelPitch(char const*) [clone .cold]
+CLighthouseHmdDriver::HandleDebug_SetSubpixel(char const*)
 CLighthouseHmdDriver::HasTrackedCamera()
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&) [clone .cold]
@@ -2905,6 +2921,7 @@ Device JSON: Overriding parallel_render_cameras to enabled (%s)
 Device JSON: Overriding proximityEnable to %d (%s)
 Device JSON: Overriding resource_root (%s)
 Device JSON: Overriding subpixel_shift (%s)
+Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)
 Device is not calibrated (206)
 Device was not open when attempting to read its config
 DeviceGC
@@ -2991,8 +3008,11 @@ ECameraHAL_OpenError_ToString.cold
 ECameraHAL_OpenError_ToString::mapStrings
 EET
 ERROR
+ERROR: Expected 1 float args, fDegrees'
+ERROR: Expected 1 float args, fPitchDegrees'
 ERROR: Expected 2 float args, '
 ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
+ERROR: Expected 2 float args, fDegreesLeft fDegreesRight'
 ERROR: GetEdidId (%d)
 ERROR: GetVideoConfig (%d)
 ERROR: No display or device
@@ -3061,6 +3081,7 @@ Empty escape sequence in string
 Empty file.
 Enable multithreading to use std::thread
 Enabled
+Enabling Prism Correction... overriding loaded device JSON
 End
 End-of-file inside block comment.
 EndFrame called w/ incorrect client frame index.
@@ -4727,6 +4748,7 @@ Not the preferred basestation
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Nov
+Nov  4 2022
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -4745,6 +4767,7 @@ NvAPI::GetAdapterLuid(int, void*)
 NvAPI::GetCurrentDriverVersion()
 NvAPI::GetDisplayStatus(void*, NvAPI::DisplayStatus_t*)
 NvAPI::GetDisplayVisibility(int)
+NvAPI::GetGpuBusUtilization(int, float*)
 NvAPI::GetTimeSinceLastVsync(void*, float*, unsigned long*)
 NvAPI::GetVSyncToFlip(float*)
 NvAPI::GetVideoMemoryInfo(void*, NvAPI::VideoMemoryInfo_t*)
@@ -4768,7 +4791,6 @@ OSTypesAreCompatible(EOSType, EOSType)
 OSTypesAreCompatible(EOSType, EOSType) [clone .part.0]
 Object
 Oct
-Oct  3 2022
 October
 Ok
 Old Normal: %f %f %f
@@ -5687,6 +5709,7 @@ Type is already registered:
 U
 UE
 USAGE: set_lenscal <device_json_path>
+USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels
 USB Service Busy (140)
 USB status (rates over
 USER
@@ -6940,6 +6963,10 @@ add_fdes
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 adds.10132
+adjust_panel_cant
+adjust_panel_cant %f %f
+adjust_panel_pitch
+adjust_panel_pitch %f %f
 aggregate_value
 aitcamlib
 alignof
@@ -7580,6 +7607,7 @@ display_frequency
 display_gc
 display_hdr10
 display_mc
+display_multiframerate
 display_usb_pid
 display_usb_protocol
 display_usb_vid
@@ -11659,6 +11687,9 @@ primitive indices accessor out of bounds
 primitives
 print
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
+prismCorrectionEnable
+prismCorrectionHL
+prismCorrectionHR
 product
 product %u rev %u.%u.%u lot %u/%u/%u %u
 proximity
@@ -11848,10 +11879,16 @@ set_chromatic_correction_factors %f %f
 set_index_brightness %f
 set_lenscal
 set_lenscal %255s
+set_panel_cant
+set_panel_cant %f
 set_panel_clocking
 set_panel_clocking %f %f
+set_panel_pitch
+set_panel_pitch %f
 set_radio_mode_ble
 set_radio_mode_valve
+set_subpixel
+set_subpixel %f %f %f %f
 setenv
 setlocale
 setpgid
@@ -16277,6 +16314,7 @@ unsupported data layout
 unsupported format
 unsupported platform
 updated lenscal
+updated subpixel_shift(s)
 upper
 uri
 usb

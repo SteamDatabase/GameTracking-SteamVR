@@ -1,8 +1,9 @@
 	!s99
+ 	bau
  %41g
  (Camera)
 !hn7!
-&WMqp
+"4R~5Ue
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
@@ -70,144 +71,139 @@
 .xdata$x
 0 0$0(0H0L0t0
 0!0&0+00050:0?0D0I0N0S0X0]0b0g0l0
-0"0(00080=0C0K0S0X0^0f0n0s0y0
-0#0A0M0S0a0k0q0
+0"121<1F1O1b1n1~1
+0%0-02080@0H0M0S0[0c0h0n0v0~0
+0)030Q0]0c0r0{0
+0+0-4D4
 0,040<0D0H0L0T0h0
-0n0y0
+0v',f
 0w0c1
 0}0i1
+1	3l364
+1 1%1+131;1@1F1N1V1[1a1i1q1v1|1
+1!1J2
 1"1'1,1A1F1K1P1U1Z1_1d1i1n1s1x1}1
-1#1+10161>1F1K1Q1Y1a1f1l1t1|1
 1$1(1,1014181<1@1D1H1h1l1
-1&1/1B1N1^1s1
 1(2L2x2
-1-232
 130801120000Z
-1G1O1x1
-2"2'2/242=2D2I2P2Y2`2e2l2u2|2
-2#2)21292>2D2L2T2Y2_2g2o2
-2*3d3
-2.4n4
+1W1_1
+2 2D2]2
+2"2-22272?2D2M2T2Y2`2i2p2u2|2
+2&2.23292A2I2N2T2\2d2i2o2w2
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 220921000000Z
-221003195252Z0/
+221104001309Z0/
 241009235959Z0a1
-242M2
+2=2C2
+2>4~4
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2\3&4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3!3+383B3H3O3S3Y3c3m3w3
-3#3-373A3K3U3_3i3s3}3
+3'313;3H3R3X3_3c3i3s3}3
+3)333=3G3Q3[3e3o3y3
 311109235959Z0b1
 331121235959Z0F1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3:3t3
 3<3X3x3
 3T4p4
-3V3w3
 3mq+<
-4!4*434<4
-4'414;4J4P4d4
-4(4<4D4J4X4d4
+4!4*4/484L4T4Z4h4t4
+4#4-474A4K4Z4`4t4
+4'4L4n4
+4(414:4C4L4+5D5H5L5P5T5X5\5`5
 4,40484P4`4d4t4x4|4
-40m0v0
-4<4^4
-4>5G5P5Y5^5c5j5
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4j/hd
-5#5-585]5
-5&5b5p5
+5&5.565r5
 5,505@5D5H5P5h5l5
-5-6#7A7n7
-54585<5@5D5H5L5P5
-546q6
+535=5H5m5
 586<6@6D6H6L6P6T6X6\6`6
+5=637Q7~7
 5FjiT
 5Genu
-5K6k6x6
+5N5W5`5i5n5s5z5
+5[6{6
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-6)6b6
+6!7*717j7
+6$6>6
 6*f(_
-6+7H7`7n7
 6,6<6@6P6T6X6`6x6
+696r6
 6I]Dc
 6OB,n_
-7!7Z7}7
-7#7+7
-7$737<7E7N7S7X7_7
+7!7&747C7L7U7^7c7h7o7
 7(7,7<7@7H7`7p7t7
-7(81898u8
+7+737;7
 70503
-7c8w8
+788A8I8
+7;7X7p7~7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8#8,888>8D8O8
-8'818;8E8O8\8e8s8|8
+8'8-878A8K8U8_8l8u8
 8,80888P8`8d8t8x8|8
+8,8q8
+838<8H8N8T8_8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+9	9)9n9t9
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
-9!939=9G9R9]9j9t9
+9!9+999}9
+9$919C9M9W9b9m9z9
 9$?(?,?0?4?8?<?@?D?H?h?l?p?t?x?|?
-9)9m9
-9*:F:K:U:f:
-919H9d9
-9B:U:j:
-9H;X;{;
-9^9d9
-:!;t;
-:":1:N:
-:&:/:4:9:@:P:
-:&:/:8:=:B:I:
-:&;E;
-:9;B;S;_;k;q;w;
-:E:q:
-;!;&;+;2;B;
-;";';.;3;?;a;x;
-;Z<a<
-;`<w<
-;|< =@=q=
-<!<+<5<?<I<S<]<g<
-<$<i<r<{<
-<'<,<1<8<
-<)<?<H<
+9::V:[:e:v:
+9A9X9t9
+9NtB!
+9R:e:z:
+9X;h;
+:$:-:6:?:D:I:P:`:
+:(:U:
+:-:6:?:H:M:R:Y:
+:2:A:^:
+:6;U;
+;$;-;2;7;>;C;O;q;
+;(;1;6;;;B;R;
+;I;R;c;o;{;
+;j<q<
+<!<9<O<X<
+<#<(<-<4<y<
+<%<.<7<<<A<H<
+<'<1<;<E<O<Y<c<m<w<
+<(</<O<U<[<a<g<m<t<{<
 <*J=)
 <0:08
-<5>z?
-<6>A>\>e>
-<?<E<K<Q<W<]<d<k<r<y<
-<J=R=
-<PR97
-="=(=.=8=F=b=z=
-=$=B=w=
+<0=P=
+<F>Q>l>u>
+<Z=b=
+=#=2=8=>=H=V=r=
 =$=H=T=\=|=
-=;c9[
-=@>X>\>
-=M=V=_=h=m=r=y=~=
+=4=R=
+=P>h>l>
+=]=f=o=x=}=
 =j)h8
 =rIQU
->!>'>/>7><>B>J>R>W>]>e>m>r>x>
->">(>.>4>:>@>F>L>R>X>^>d>j>p>v>|>
->">D>N>W>b>h>n>u>
+> >&>,>2>8>>>D>J>P>V>\>b>h>n>t>z>
+>$>,>1>7>?>G>L>R>Z>b>g>m>u>}>
 >,>P>\>d>
+>/>E>\>q>x>~>
 >0<0:
->5>L>a>h>n>
+>2>T>^>g>r>x>~>
 >Mp$d
->P>^>
-?!?<?W?b?l?
-?"?*?/?5?=?E?J?P?X?`?e?k?s?{?
-?$?=?r?
-?*?]?f?o?x?}?
+>`>n>
+?!?1?L?g?r?|?
+?$?*?2?:???E?M?U?Z?`?h?p?u?{?
+?,?4?M?
 ?,?8?@?l?p?
+?:?m?v?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -340,14 +336,13 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
-[;$.+!C
+ZK_TO
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
-[Q@r-
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -387,6 +382,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+a5P;=
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -399,7 +395,6 @@ c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\201
 cU	F9
 camera
 d3d11.dll
-dRT9-
 dk2_camera
 driver_oculus_legacy.dll
 f;A*stSW
@@ -410,7 +405,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iPqP&
 invalid string position
 jdjdh
 jj@0HK4
@@ -468,7 +462,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-qKz |.
+s*iU"
 startup
 string too long
 strncpy
@@ -482,8 +476,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-xMHHPL
-xOl>\
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

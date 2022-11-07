@@ -1,13 +1,11 @@
 	!s99
  %41g
 !hn7!
+"q_?^
 ',=?k
 (f*^[0
-)zM"xzY)
 +Xt@(
 +o'q)}
-+uUoP
-,<+9z
 ,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
@@ -106,7 +104,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221003195245Z0/
+221104001302Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -179,19 +177,18 @@
 > >$>(>0>H>X>\>l>p>t>x>
 >!>*>5>
 >0<0:
->8^GdD
 >Mp$d
 ?	?)?n?t?
 ? ?$???D?Q?V?`?e?
 ?"?0?<?[?`?q?w?|?
 ?'?z?
+?>^<-
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-B1s&c
 Bellevue1
 CloseHandle
 CreateEventW
@@ -293,6 +290,7 @@ WakeAllConditionVariable
 Washington1
 Y9"SD
 Y__^[
+Ydcp1
 [K]taM?
 ]J<0"0i3
 _Cnd_destroy
@@ -343,13 +341,17 @@ bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 cU	F9
 driver_gamepad.dll
+hE?-s
+hr?lJmAT|
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+jCCN"
 jj@0HK4
 k0i0$
+lUdg6
 m0k0$
 malloc
 map/set<T> too long
@@ -361,9 +363,9 @@ terminate
 uCVj@
 v=Y]Bv
 vector<T> too long
+w^DPI*
 www.digicert.com1!0
 www.digicert.com1$0"
-xq	'&U
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -376,6 +378,5 @@ xq	'&U
 {un'%
 |Lu?c
 }LuHO
-~nTGI
 ~qj#k"
 ~t&LN

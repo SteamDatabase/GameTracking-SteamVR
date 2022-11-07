@@ -101,14 +101,18 @@
             return "dashboardtransform";
           }
           buildNode(e, t) {
-            var r;
-            const o = this.createSgNode(t);
+            var r, o;
+            const i = this.createSgNode(t);
             return (
-              (o.properties.continuous_relatch =
+              (i.properties.continuous_relatch =
                 null !== (r = this.props.bContinuousRelatch) &&
                 void 0 !== r &&
                 r),
-              [e, o]
+              (i.properties.free_dashboard_transform =
+                null !== (o = this.props.bFreeDashboardTransform) &&
+                void 0 !== o &&
+                o),
+              [e, i]
             );
           }
         }
@@ -2455,4 +2459,4 @@
   var i = o.O(void 0, [968, 683], () => o(5375));
   i = o.O(i);
 })();
-//# sourceMappingURL=fallback.js.map?v=a424fb401b999457348e
+//# sourceMappingURL=fallback.js.map?v=e026366a60c6be51b24e

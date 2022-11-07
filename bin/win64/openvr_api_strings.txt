@@ -58,6 +58,7 @@ $+xvA
 $< t6<$t,<+t"<vt
 $C#9$"
 $Ib?s
+$[E#u
 $iMBm
 %%.%dg
 %.0Lf
@@ -77,6 +78,7 @@ $iMBm
 ',=?k
 ( 8PX
 ('8PW
+(0G0R
 (A^A]^[
 (A_A^^[
 (A_A^_]
@@ -410,7 +412,7 @@ $iMBm
 220323000000Z
 220801000000Z
 220921000000Z
-221003195354Z0/
+221104001349Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -452,7 +454,6 @@ $iMBm
 8G	utH
 8H;^XtB
 8HtKH
-8On?]
 8T$0u
 8T$Ht
 8\$0u`H
@@ -495,6 +496,7 @@ $iMBm
 ;Ct~gH
 ;H9>&X
 ;I9}(tiH
+;Ydcj$/
 ;\$p|
 <	w	@
 < t;<	t7
@@ -517,7 +519,6 @@ $iMBm
 >Mp$d
 >ffffff
 >jtm}S
->utRl
 ?!5WOo
 ?+>^m
 ?49HoKC
@@ -884,7 +885,6 @@ E0HcH
 E0Lcx
 E0t H
 E8X@t8A
-E;(s&+
 E;B0E
 E;Bl}DM
 E>nEA
@@ -899,6 +899,7 @@ EnterUmsSchedulingMode
 EnumSystemLocalesEx
 EnumSystemLocalesW
 Eo%lf
+Ev{{a
 Exceeded stackLimit in readValue().
 ExecuteUmsThread
 ExitProcess
@@ -1130,6 +1131,7 @@ InterlockedPushEntrySList
 Internal Retry (115)
 Invalid Application Type (130)
 Invalid Interface (106)
+Iq.)0
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
@@ -1259,11 +1261,13 @@ N3`d?
 N>O=I9
 NAN(IND)
 NAN(SNAN)
+Ne>Ov
 No Error (0)
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 November
+Nv kK
 O,D9O(vcH
 O0HcQ
 O0LcQ
@@ -1306,6 +1310,7 @@ RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 S0Q0O
+S8nM3
 S;\$0tH
 S>$hkDh$h>[2
 SA|X=G
@@ -1774,6 +1779,7 @@ Zod(^?
 ]6%S*
 ]>)2X
 ]J<0"0i3
+]X8Ck 
 ]`u7H
 ]g@8yhu
 ^<V7w
@@ -1794,7 +1800,6 @@ __swift
 __thiscall
 __unaligned
 __vectorcall
-_a9uw0
 _cabs
 _gUT^
 _hypot
@@ -1916,8 +1921,10 @@ e0A_A^]
 e8A_A^A]A\_^[]
 e@A_A^]
 eLK(w
+eSpLX@
 eTe6 d4
 eventObject
+exdkF
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
@@ -1975,7 +1982,6 @@ fG9$Ou
 fJBGo
 failIfExtra
 false
-faqUJ
 fffff
 ffffff
 fffffff
@@ -2030,11 +2036,11 @@ iostream
 iostream stream error
 is a directory
 iu+-,
+j3+U?
 j>>A?1
 j?V()
 j?{$*
 jOIHg
-j^`R$
 jj@0HK4
 k0i0$
 kB0[/
@@ -2119,6 +2125,7 @@ operator co_await
 os.b	
 ot$ H
 ot$HH
+owcb-
 owner dead
 o|$0f
 p AWH

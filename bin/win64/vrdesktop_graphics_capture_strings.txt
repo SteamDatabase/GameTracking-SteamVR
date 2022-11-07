@@ -29,11 +29,9 @@
 (t$ 2
 (t$@H
 (|$ H
-),i?,2/
 )D$ L
 )t$0H
 )t$@H
-)|yv<m
 *uXI;
 +Xt@(
 +o'q)}
@@ -42,7 +40,6 @@
 -1e+9999
 -Infinity
 -u-I;
-.%$K(
 .00cfg
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
@@ -171,14 +168,13 @@
 0w0c1
 0}0i1
 130801120000Z
-1TDE 
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 220921000000Z
-221003195857Z0/
+221104001541Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -210,7 +206,6 @@
 <unknown>
 =rIQU
 >0<0:
->;c?v
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -297,6 +292,7 @@
 @UVWAVAWH
 @UWAVAWH
 A valid JSON document must be either an array or an object value.
+A= xS:
 ASSERT: "%s" at %s:%d.
 ATAVAWH
 A\_^[]
@@ -372,7 +368,6 @@ CreateThread
 Created desktop staging texture.
 Created desktop upload texture.
 Cursor has neither color nor mask bitmap.
-CvSrU
 C|$PL
 D	d$DH
 D	l$DA
@@ -795,7 +790,6 @@ WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
-Yc^TUhyo
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -910,6 +904,7 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
+dyLS:
 el_el
 en_us
 enableWindowView
@@ -963,6 +958,7 @@ k0i0$
 kernel32.dll
 ko_ko
 korean
+ktcA{
 l$ H;
 l$ H=
 l$8E3
@@ -971,7 +967,6 @@ l$PM9n
 latam
 list<T> too long
 m0k0$
-mY	0;
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -986,6 +981,7 @@ no_no
 norwegian
 ntelD
 ole32.dll
+oll0ts8x
 openvr_api.dll
 overlay_frame_times
 overlay_key
@@ -1074,6 +1070,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
+wCkCt
 window_view_created
 window_view_destroyed
 windows
@@ -1083,6 +1080,7 @@ www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
+{+eQ/
 {un'%
 |$ ATAVAWH
 |$ AVH

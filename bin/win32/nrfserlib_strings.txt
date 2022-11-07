@@ -16,7 +16,6 @@
    Service: %s
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
  %41g
- ?R6	
  QP9F
  aborted.
  ack#:
@@ -77,6 +76,7 @@ $Vh&*
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
+(Z<(1I#
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
@@ -88,6 +88,7 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
+-'not
 -1e+9999
 -Infinity
 -external
@@ -707,7 +708,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 220921000000Z
-221003195314Z0/
+221104001251Z0/
 222R2z2
 223}3
 241009235959Z0a1
@@ -969,6 +970,7 @@ $Vh&*
 779>9
 787p7
 7:8C8U8a8
+7;`u1n
 7<7H7P7p7
 7<7P7X7`7h7x7
 7<7R7
@@ -979,7 +981,6 @@ $Vh&*
 7V8J9
 7V8h8
 7^8~8
-7b<n$
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7t7y7~7
 8	9%9=9^9s9
@@ -1084,6 +1085,7 @@ $Vh&*
 9H:d:|:
 9LHB-
 9LHB-u
+9]C	/
 9^@u2h
 9^hve
 9a9t9
@@ -1231,7 +1233,6 @@ $Vh&*
 <G<r<
 <G=j=v=
 <H=L=P=T=X=\=`=d=h=l=p=t=x=|=
-<HB`P
 <O=]=k=y=
 <X<\<`<d<h<l<p<t<x<|<
 <]<w<
@@ -1271,7 +1272,6 @@ $Vh&*
 =D=g=m=~=
 =E=R=[=
 =L=P=T=X=
-=MAu^
 =T=x=
 =V>h>
 =\=p=
@@ -1885,6 +1885,7 @@ PKT_ENCODE_ERROR
 PKT_SEND_ERROR
 PKT_SEND_MAX_RETRIES_REACHED
 PKT_UNEXPECTED
+PNIYn}
 PPPPPPP
 PQSVW
 PROGRAM LOGIC ERROR: app_ble_gap_adv_buf_register not called from context REQUEST_REPLY_CODEC_CONTEXT, terminating
@@ -1908,7 +1909,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSJ
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2018,11 +2018,11 @@ Stopping Scan...
 StringFromGUID2
 Success
 Successfully opened 
+Sw*Bej
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
 TX Queue Full, retrying at offset %d
 TX Queue Full, timeout at offset %d
-T^|4h
 Target Reset performed
 TerminateProcess
 TerminateThread
@@ -2089,6 +2089,7 @@ Write to Power Control Point.
 Write to SOB Channel.
 WriteFile
 XX.XX.XXXXXXX
+Y5	C8f
 Y9"SD
 Y__^[
 Zip Error: %s
@@ -2107,7 +2108,6 @@ Zipfile is corrupt or not a zipfile
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
-]Y[t[
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2291,7 +2291,6 @@ ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
-pX/UV
 print
 punct
 realloc
@@ -2450,7 +2449,6 @@ uDVVV
 uGhpE
 uGhpQ
 uMhP#
-uR;^"
 uSj&h
 uT9=$1
 uj#hD
@@ -2482,6 +2480,7 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
+ypz( 
 {L?uI
 {un'%
 |Lu?c

@@ -16,6 +16,7 @@
  A_A^_^]
  A__^
  H3E H3E
+ xjT[	8
 !(0)"
 !hn7!
 "9k0t
@@ -173,7 +174,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221003195439Z0/
+221104001419Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -194,6 +195,7 @@
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
+7|8]t
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -320,9 +322,9 @@ D$PI;
 D$PfA
 D$TI;
 D$XA#
-D8-1P
-D8-SS
-D8-|Q
+D8-!P
+D8-CS
+D8-lQ
 D9c0t
 D9c0t)H
 D9{0t
@@ -416,7 +418,6 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-KBbiBE
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -471,12 +472,10 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSi
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
-RnsH1
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -702,7 +701,6 @@ c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
-cEvwy
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -758,7 +756,6 @@ invalid filter
 it_it
 italian
 ix`fA
-jPOK,
 ja_jp
 japanese
 jj@0HK4
@@ -862,6 +859,7 @@ t$PHc
 t$hL;
 t$pfA
 t$pfD
+t+B|0d
 t>H9n
 tRNS after IDAT
 tRNS before PLTE

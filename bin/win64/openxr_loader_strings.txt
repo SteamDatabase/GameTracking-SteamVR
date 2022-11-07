@@ -42,7 +42,6 @@
  was not found
  with error 
 !hn7!
-%\'wA
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -59,6 +58,7 @@
 (unknown)
 )D$ L
 )t$ H
+*y=>uj
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -144,7 +144,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/Q_sWL
 /api_layers/explicit.d
 /api_layers/implicit.d
 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
@@ -165,7 +164,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221003194952Z0/
+221104000950Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -191,7 +190,6 @@
 8_^][
 <*J=)
 <0:08
-<;c;b"
 =rIQU
 >0<0:
 >Mp$d
@@ -504,6 +502,7 @@ M H1E
 M98u/
 MB(iVR
 MSVCP140.dll
+MXdcSV#
 ManifestFile::IsValidJson - JSON "file_format_version" 
 ManifestFile::IsValidJson - JSON file missing "file_format_version"
 ManifestFile::ParseCommon 
@@ -528,7 +527,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSu
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -554,7 +552,6 @@ RuntimeManifestFile::FindManifestFiles - using environment variable override run
 RuntimeManifestFile::FindManifestFiles - using global runtime file 
 RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
 S0Q0O
-S1nz6
 SA|X=G
 SOFTWARE\Khronos\OpenXR\
 SUAVAWH
@@ -741,7 +738,6 @@ deque<T> too long
 description
 disable_environment
 double out of UInt range
-eAV6{d
 enable_environment
 enabledExtensionCount is non-0 but array is NULL
 engine name missing NULL terminator.
@@ -749,6 +745,7 @@ error
 expected XR_TYPE_INSTANCE_CREATE_INFO.
 expecting another \u token to begin the second half of a unicode surrogate pair
 extension_version
+f*P c:>
 f9,Xu
 fB94@u
 fF9$@u
@@ -808,7 +805,6 @@ l$PH;1u;H;
 l$pE3
 l$ptNH
 l$pu!H
-l[Wsq
 labelInfo must be non-NULL
 layer 
 library_path
@@ -1002,5 +998,6 @@ xrWaitSwapchainImage
 |Lu?c
 }LuHO
 ~+fff
+~WxOu
 ~qj#k"
 ~t&LN

@@ -12,7 +12,6 @@
  A__[
  A__^
  H3E H3E
- HUm{
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
@@ -21,6 +20,7 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+'Y.xQM
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -39,7 +39,7 @@
 , last executing in 
 ,W5y+
 -1e+9999
--=UVkz
+-=_WaU
 -Infinity
 -u-I;
 .00cfg
@@ -160,7 +160,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221003195559Z0/
+221104001527Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -276,7 +276,6 @@
 A valid JSON document must be either an array or an object value.
 ASSERT: "%s" at %s:%d.
 ATAVAWH
-AUL2:b
 A\_^[]
 A^A\^
 A^A\^[]
@@ -300,7 +299,6 @@ AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
 AttemptSendInput failed.
 AuthD
-B>;cJ
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -427,7 +425,6 @@ Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
 GDI32.dll
-G\i?{g
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -472,6 +469,7 @@ H;9u|A
 H;Cxu
 H;{XH
 H;}PtwH
+HJPz'
 HMD D3D11CreateDevice failed.
 HandleInput
 Handling keyboard char input
@@ -582,8 +580,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
-Nn7GE
-OmS!9
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -598,6 +594,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDStW
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -776,6 +773,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cU	F9
+ckG=V
 cs_cs
 czech
 d$`H=
@@ -856,6 +854,7 @@ memset
 message_id
 no_no
 norwegian
+np{onm
 ntelD
 ole32.dll
 openvr_api.dll
@@ -908,6 +907,7 @@ th_th
 tolower
 tr_tr
 turkish
+t|PO;
 ua_ua
 ukranian
 user32.dll
@@ -957,6 +957,5 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
-~pv\3
 ~qj#k"
 ~t&LN

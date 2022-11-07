@@ -2113,6 +2113,7 @@ $wtpt
 (%s) show
 (%s) stringwidth pop -0.5 mul -0.5 rmoveto
 (%s:%lu): 
+('J)q
 ((%s) %s)
 ((%s*) %p)
 (((((
@@ -2222,6 +2223,7 @@ $wtpt
 (T$pD
 (T$pL
 (T$ps)fA
+(V^#lm]
 (WO:^
 (\$ D
 (\$ H
@@ -3637,6 +3639,7 @@ $wtpt
 0HcD$hM
 0HcD$pM
 0Hc|$hI
+0I=WjXS
 0LcD$HH
 0Lc|$xI
 0qB\'
@@ -3717,7 +3720,7 @@ $wtpt
 220323000000Z
 220801000000Z
 220921000000Z
-221003195032Z0/
+221104001025Z0/
 230x323
 2384x3370
 24 24
@@ -4471,6 +4474,7 @@ $wtpt
 >^//q
 >b0yx0li
 >es-8R
+>l&v@
 >l-$Y
 >xB,$g4$
 ? ????? ??? ??? ?? ??????? ??, ?? ????????? ?????????!
@@ -4481,6 +4485,7 @@ $wtpt
 ?$(}(
 ?(FN\
 ?*hiR
+?+0M_
 ?,D?-l?.
 ?-{Dn
 ?..$s
@@ -7377,6 +7382,7 @@ E;Q0L
 E;n u
 E;t$P
 E;u$t>H
+E<>h)z
 E<ViewH
 E<t&H
 E=FZGrH
@@ -11751,6 +11757,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSX
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -16284,6 +16291,7 @@ fflush()
 fgalpha
 fgcolor
 fgetc
+fh-4^n78_
 field_matches
 fields != NULL
 file %s: line %d (%s): error %s during %s
@@ -17701,7 +17709,6 @@ l$xH+
 l$xH;
 l$xfD
 l$xt	
-l' yN
 l6qnk
 l<"-y<
 l<}2l

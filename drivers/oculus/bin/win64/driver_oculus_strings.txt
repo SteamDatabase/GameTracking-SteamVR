@@ -57,7 +57,6 @@
  A__[
  A__^
  H3E H3E
- ]p4-<
  at line 
  in Buffer
  in `
@@ -99,6 +98,7 @@ $w!Hc
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
+&?G{c
 &D9c0t
 &D9k0t
 &D9{0t
@@ -459,7 +459,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-221003195602Z0/
+221104001525Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -482,7 +482,6 @@ $w!Hc
 6OB,n_
 6p7M=:P_:}u
 70503
-7B7We^D
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8A^A\
@@ -789,8 +788,8 @@ CT$pH
 C\$0D
 C\$0H
 C\$0L
-C\$0L9%4
-C\$0L9%H
+C\$0L9%
+C\$0L9%(
 C\$0M
 C\$PE
 C\$PH
@@ -902,7 +901,6 @@ D;l$0
 D;v(s
 D;z s
 D;}Tr
-D>;c\
 Default audio playback device: %s
 Default audio recording device: %s
 DeleteCriticalSection
@@ -1184,8 +1182,9 @@ L$`fD
 L$pE2
 L$pE3
 L$pHcQ
-L95e]
-L95g\
+L955]
+L957\
+L95ZZ
 L9k8v
 L9t$@
 L9|$p
@@ -1278,7 +1277,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSI
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1286,6 +1284,7 @@ RootNode
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S*d70q
 S0Q0O
 S8H+S0H
 SATAUAVAWH
@@ -1426,7 +1425,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
-W-xO	
+W-HO	
 WATAUAVAWH
 WAVAWH
 WINMM.dll
@@ -1439,9 +1438,8 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
-X%R4	
-X-E3	
-X;g|PZ
+X%24	
+X-%3	
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
@@ -1506,9 +1504,10 @@ ZL$Xf
 ] is not a JSON object.
 ] name = "
 ] name = [
-]5sD	
+]5cD	
 ]9k0tVD
 ]J<0"0i3
+]Tbmj
 ][OculusDirect] AquireSync
 ]g@8yhu
 ^9k0tWD
@@ -1732,7 +1731,6 @@ d$`L;
 d$`fD
 d$bHc
 d3d11.dll
-d[aL`
 da_da
 danish
 data:application/gltf-buffer;base64,
@@ -2222,10 +2220,11 @@ shaders/d3d11/distort_panorama_dome_radius_ps.fxo
 shaders/d3d11/distort_panorama_ps.fxo
 shaders/d3d11/distort_panorama_vs.fxo
 shaders/d3d11/distort_ps.fxo
-shaders/d3d11/distort_ps_achromatic_layered_simplified.fxo
-shaders/d3d11/distort_ps_achromatic_simplified.fxo
-shaders/d3d11/distort_ps_achromatic_squinched_layered_simplified.fxo
-shaders/d3d11/distort_ps_achromatic_squinched_simplified.fxo
+shaders/d3d11/distort_ps_achromatic.fxo
+shaders/d3d11/distort_ps_achromatic_alphaed.fxo
+shaders/d3d11/distort_ps_achromatic_layered.fxo
+shaders/d3d11/distort_ps_achromatic_se1.fxo
+shaders/d3d11/distort_ps_achromatic_se2.fxo
 shaders/d3d11/distort_ps_gamma.fxo
 shaders/d3d11/distort_ps_gamma_mc.fxo
 shaders/d3d11/distort_ps_gamma_mc_nd.fxo
@@ -2234,16 +2233,12 @@ shaders/d3d11/distort_ps_layered.fxo
 shaders/d3d11/distort_ps_layered_mc.fxo
 shaders/d3d11/distort_ps_layered_mc_nd.fxo
 shaders/d3d11/distort_ps_layered_nd.fxo
-shaders/d3d11/distort_ps_layered_simplified.fxo
 shaders/d3d11/distort_ps_mc.fxo
 shaders/d3d11/distort_ps_mc_nd.fxo
 shaders/d3d11/distort_ps_nd.fxo
 shaders/d3d11/distort_ps_scene.fxo
 shaders/d3d11/distort_ps_scene0.fxo
 shaders/d3d11/distort_ps_scene_blur.fxo
-shaders/d3d11/distort_ps_simplified.fxo
-shaders/d3d11/distort_ps_squinched_layered_simplified.fxo
-shaders/d3d11/distort_ps_squinched_simplified.fxo
 shaders/d3d11/distort_vs.fxo
 shaders/d3d11/distort_vs_latest_nd.fxo
 shaders/d3d11/distort_vs_layered.fxo
@@ -2287,8 +2282,11 @@ shaders/d3d11/tracked_camera_lines_ps.fxo
 shaders/d3d11/tracked_camera_lines_vs.fxo
 shaders/d3d11/tracked_camera_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_ps.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_devignette_vs.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_vs.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_ycbcr_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_vs.fxo
 shaders/d3d11/tracked_camera_undistort_ps.fxo
 shaders/d3d11/tracked_camera_undistort_vs.fxo
@@ -2414,6 +2412,7 @@ translation
 true literal
 turkish
 t|SUVH
+u Aj+.
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
@@ -2466,7 +2465,6 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x AVH
 xA^A\_^][
-yTb0hHz
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
