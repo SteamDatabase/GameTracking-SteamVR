@@ -1420,10 +1420,10 @@ $tI
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00:08:37
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+04:53:15
 0C
 1
 1.0.3.16
@@ -3933,7 +3933,7 @@ CSWTCH.214
 CSWTCH.221
 CSWTCH.23
 CSWTCH.28
-CSWTCH.409
+CSWTCH.413
 CSWTCH.725
 CSWTCH.773
 CS_MAIN
@@ -4310,6 +4310,7 @@ CSxrAction::BuildManifestEntry() [clone .cold]
 CSxrAction::CSxrAction(CSxrActionSet*, XrActionCreateInfo const*)
 CSxrAction::CSxrAction(CSxrActionSet*, XrActionCreateInfo const*) [clone .cold]
 CSxrAction::GetRawFromPoseAction(XrSpaceLocation&, XrSpaceVelocity&, unsigned long, long)
+CSxrAction::GetTrackedDeviceIndexForPoseAction(unsigned long) const
 CSxrAction::Init()
 CSxrAction::~CSxrAction()
 CSxrActionSet
@@ -4615,6 +4616,7 @@ CSxrSpace::CSxrSpace(CSxrAction*, XrActionSpaceCreateInfo const*) [clone .cold]
 CSxrSpace::CSxrSpace(CSxrSession*, XrReferenceSpaceCreateInfo const*)
 CSxrSpace::CSxrSpace(CSxrSession*, XrReferenceSpaceCreateInfo const*) [clone .cold]
 CSxrSpace::GetRawFromSpace(XrSpaceLocation&, XrSpaceVelocity&, long)
+CSxrSpace::GetTrackedDeviceIndexAndPoseModification(vr::HmdMatrix34_t&) const
 CSxrSpace::Init()
 CSxrSpace::~CSxrSpace()
 CSxrSwapchainBase
@@ -17544,6 +17546,7 @@ DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
 Dec
+Dec 22 2022
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -22692,7 +22695,6 @@ Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
 Nov
-Nov  4 2022
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 Numbers starting with leading zero must be in octal.

@@ -16,7 +16,6 @@
  A_A^_^]
  A__^
  H3E H3E
- xjT[	8
 !(0)"
 !hn7!
 "9k0t
@@ -116,6 +115,7 @@
 .idata$4
 .idata$5
 .idata$6
+.k D 
 .pdata
 .rdata
 .rdata$T
@@ -169,12 +169,13 @@
 0}0i1
 1/2/4/8/16-bit only
 130801120000Z
+2"?~T
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 220921000000Z
-221104001419Z0/
+221222045749Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -195,7 +196,6 @@
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
-7|8]t
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -366,6 +366,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 H+C H;
+H8SU/3w
 H93t	H
 H9D$@u
 H;C(v
@@ -455,6 +456,7 @@ MainThrd
 MbP?{
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NK$SN
 Not Available
 NotFound
 Out of thread local storage!
@@ -472,6 +474,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSu0i
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -482,6 +485,7 @@ RtlVirtualUnwind
 S0Q0O
 SATAUAVAWH
 SA|X=G
+SM:tsU
 SPB8t
 SPB8u,
 SUVWATAUAVAWH
@@ -581,6 +585,7 @@ WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
 Z9k0tUD
+Z|0x`z#
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
@@ -722,6 +727,7 @@ danish
 de_de
 deque<T> too long
 driver_lighthouse
+eGpe0
 el_el
 en_us
 english
@@ -859,7 +865,6 @@ t$PHc
 t$hL;
 t$pfA
 t$pfD
-t+B|0d
 t>H9n
 tRNS after IDAT
 tRNS before PLTE
@@ -869,6 +874,7 @@ tb9l$Xt@9n$~;
 tchinese
 tdh.dll
 terminate
+tgU$4
 th_th
 too large
 too many codes

@@ -17,10 +17,10 @@
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
+%Rqc`@;
 %s%s%s%s%s
 ' is not a number.
 ',=?k
-'Y.xQM
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -37,12 +37,13 @@
 +Xt@(
 +o'q)}
 , last executing in 
+,0.}j|
 ,W5y+
 -1e+9999
--=_WaU
 -Infinity
 -u-I;
 .00cfg
+.>ss]
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
@@ -144,6 +145,7 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
+/{lb6
 0A^_^
 0A_A^A\_^
 0A_A^A]A\_^[
@@ -160,7 +162,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221104001527Z0/
+221222045936Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -180,6 +182,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8CG:NZ
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -469,7 +472,6 @@ H;9u|A
 H;Cxu
 H;{XH
 H;}PtwH
-HJPz'
 HMD D3D11CreateDevice failed.
 HandleInput
 Handling keyboard char input
@@ -594,7 +596,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDStW
+RSDS]
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -773,7 +775,6 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cU	F9
-ckG=V
 cs_cs
 czech
 d$`H=
@@ -854,7 +855,6 @@ memset
 message_id
 no_no
 norwegian
-np{onm
 ntelD
 ole32.dll
 openvr_api.dll
@@ -907,7 +907,6 @@ th_th
 tolower
 tr_tr
 turkish
-t|PO;
 ua_ua
 ukranian
 user32.dll
@@ -937,6 +936,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+xxE8l
 zh_cn
 zh_tw
 {un'%
@@ -956,6 +956,7 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
+}!&h1
 }LuHO
 ~qj#k"
 ~t&LN

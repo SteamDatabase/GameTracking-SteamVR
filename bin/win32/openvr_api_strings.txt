@@ -39,6 +39,7 @@ $_^[]
 $iMBm
 %%.%dg
 %.0Lf
+%Eqq*
 %H : %M
 %H : %M : %S
 %I : %M : %S %p
@@ -85,6 +86,7 @@ $iMBm
 -0zAoL
 -1e+9999
 -7"+x
+-<'r}>
 -Infinity
 -PjWW
 -\!]N=
@@ -376,6 +378,7 @@ $iMBm
 0k3!4+4<4m4
 0w0c1
 0}0i1
+0~%6I
 1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
 1 1$1(1d2h2l2p2t2x2|2
 1 1$1<1L1P1d1h1x1|1
@@ -419,6 +422,7 @@ $iMBm
 1E4}4
 1F1s1
 1J1e1
+1KK^R+
 1M2W2t2
 1R2^2
 1e+9999
@@ -456,7 +460,7 @@ $iMBm
 220323000000Z
 220801000000Z
 220921000000Z
-221104001222Z0/
+221222045654Z0/
 222f2
 223A3S3h3y3
 241009235959Z0a1
@@ -609,7 +613,6 @@ $iMBm
 5:5_5
 5;5L5a5f5
 5;{0t?
-5=7~.
 5B5z5
 5D6|6
 5E5T5b5x5
@@ -803,6 +806,7 @@ $iMBm
 9V(~?j
 9V(~Bj
 9X9l9
+9X^G3r=G
 9Y:`:
 9^:@<
 9^\t|
@@ -1218,7 +1222,6 @@ Dz8QQ
 E _^[
 E'i}p&b
 E;w0tLj
-EM-3c[
 Eb2]A=
 Empty escape sequence in string
 EncodePointer
@@ -1412,6 +1415,7 @@ K3tyI
 K74LN
 K<<H!
 KERNEL32.dll
+Ko$M5J
 K}*n:	
 L?n(Zy&
 LCIDToLocaleName
@@ -1871,6 +1875,7 @@ WHH+W@
 WHPhhb
 WPWWWS
 WSVPP
+WTEvS
 WWVSW
 WWWSHSh
 WWWWW
@@ -1915,6 +1920,7 @@ Y__^[
 ^<V7w
 ^@[uC
 ^f93u
+_$lFA
 _C5D#
 _WVj@
 _^[h8
@@ -2030,6 +2036,7 @@ double out of Int range
 e+000
 eLK(w
 eTe6 d4
+em@".<Z 
 eventObject
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2044,6 +2051,7 @@ file exists
 file too large
 filename too long
 floor
+fn}qF
 frexp
 ft%9q
 function not supported
@@ -2244,10 +2252,10 @@ u^9^\t/
 unknown error
 v	N+D$
 v!j"X_^[
-v*yn8
 v2!L.2
 v<'*6
 v=Y]Bv
+v_3CQ
 value too large
 vector<T> too long
 version

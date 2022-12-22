@@ -4452,7 +4452,7 @@
  r CSWTCH.221
  r CSWTCH.23
  r CSWTCH.28
- r CSWTCH.409
+ r CSWTCH.413
  r CSWTCH.725
  r CSWTCH.773
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -7731,6 +7731,7 @@
  t CSxrAction::CSxrAction(CSxrActionSet*, XrActionCreateInfo const*)
  t CSxrAction::CSxrAction(CSxrActionSet*, XrActionCreateInfo const*) [clone .cold]
  t CSxrAction::GetRawFromPoseAction(XrSpaceLocation&, XrSpaceVelocity&, unsigned long, long)
+ t CSxrAction::GetTrackedDeviceIndexForPoseAction(unsigned long) const
  t CSxrAction::Init()
  t CSxrAction::~CSxrAction()
  t CSxrActionSet::BSubactionPathIsAllowed(unsigned long)
@@ -8004,6 +8005,7 @@
  t CSxrSpace::CSxrSpace(CSxrSession*, XrReferenceSpaceCreateInfo const*)
  t CSxrSpace::CSxrSpace(CSxrSession*, XrReferenceSpaceCreateInfo const*) [clone .cold]
  t CSxrSpace::GetRawFromSpace(XrSpaceLocation&, XrSpaceVelocity&, long)
+ t CSxrSpace::GetTrackedDeviceIndexAndPoseModification(vr::HmdMatrix34_t&) const
  t CSxrSpace::Init()
  t CSxrSpace::~CSxrSpace()
  t CSxrSwapchainBase::CSxrSwapchainBase(CSxrSession*, XrSwapchainCreateInfo const*, IXrBinding*)

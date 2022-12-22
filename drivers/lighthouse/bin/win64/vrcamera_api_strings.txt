@@ -59,6 +59,7 @@ $< t6<$t,<+t"<vt
 (D$@f
 (D$PE3
 (D$Pf
+(N#jB
 (f*^[0
 (t$ H
 (t$02
@@ -70,6 +71,7 @@ $< t6<$t,<+t"<vt
 (t$pH
 (|$ H
 (|$0I
+);:`O
 )D$ I
 )D$@A
 )D$PH
@@ -348,7 +350,7 @@ $< t6<$t,<+t"<vt
 .tls$ZZZ
 .xdata
 .xdata$x
-.~D;mu
+/}|qz
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
@@ -379,7 +381,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 220921000000Z
-221104000943Z0/
+221222045409Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -401,6 +403,7 @@ $< t6<$t,<+t"<vt
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8#f0AQv
 8-uCH
 8-uGH
 8A^_^[
@@ -613,7 +616,6 @@ $< t6<$t,<+t"<vt
 @VWAVH
 @WAUAVAWH
 @WAVAWH
-@w9xZ3d
 A$+A,t\3
 A(9B(D
 A+B$+
@@ -1124,7 +1126,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSu
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1180,6 +1181,7 @@ T$PH;
 T$PI+
 T$`H+
 T$pE3
+TTsF.
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1241,7 +1243,6 @@ Verify failed at 0x%X/0x%X Bytes
 VirtualAlloc
 VirtualFree
 VirtualProtect
-V|7\A
 W0;Ct~ZH
 W8HcH
 WATAUAVAWH
@@ -1285,6 +1286,7 @@ Z(D9Z
 \$Pu-H
 \$hE3
 \$pE3
+\:I,;_
 ]J<0"0i3
 ]`u7H
 _(H9n
@@ -1381,6 +1383,7 @@ blank
 broken pipe
 c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 cU	F9
+c]a_y
 calloc
 cntrl
 connection aborted
@@ -1462,6 +1465,7 @@ isupper
 jj@0HK4
 jyvids
 k0i0$
+kU`Ux
 l$ E3
 l$ H;
 l$ H=
@@ -1683,6 +1687,7 @@ x AVH
 x UAVAWH
 xdigit
 yH;YXtl
+z($?1a
 { ATAVAWH
 { AVH
 { tjL

@@ -2065,6 +2065,7 @@ $wtpt
 &quof
 &quot;
 &t'<<t
+&}|?d
 ' for value type '
 '%.20g'
 '%s' '%s'
@@ -2113,7 +2114,6 @@ $wtpt
 (%s) show
 (%s) stringwidth pop -0.5 mul -0.5 rmoveto
 (%s:%lu): 
-('J)q
 ((%s) %s)
 ((%s*) %p)
 (((((
@@ -2223,7 +2223,6 @@ $wtpt
 (T$pD
 (T$pL
 (T$ps)fA
-(V^#lm]
 (WO:^
 (\$ D
 (\$ H
@@ -3008,6 +3007,7 @@ $wtpt
 ,dfff
 ,filc
 ,hdX:`
+,pKkr
 ,rB)N
 -*Tl}T
 -1.0*
@@ -3639,7 +3639,6 @@ $wtpt
 0HcD$hM
 0HcD$pM
 0Hc|$hI
-0I=WjXS
 0LcD$HH
 0Lc|$xI
 0qB\'
@@ -3720,7 +3719,7 @@ $wtpt
 220323000000Z
 220801000000Z
 220921000000Z
-221104001025Z0/
+221222045439Z0/
 230x323
 2384x3370
 24 24
@@ -4113,6 +4112,7 @@ $wtpt
 9|$`t(H
 9|$`tVH
 9|$x~
+9|kH V
 : %s %s %s
 :#u,A
 :+}9-}9/}:0|:1w:3s8/p6,o8-n7+n6/k4,g3*`.$p8/
@@ -4474,7 +4474,6 @@ $wtpt
 >^//q
 >b0yx0li
 >es-8R
->l&v@
 >l-$Y
 >xB,$g4$
 ? ????? ??? ??? ?? ??????? ??, ?? ????????? ?????????!
@@ -4485,7 +4484,6 @@ $wtpt
 ?$(}(
 ?(FN\
 ?*hiR
-?+0M_
 ?,D?-l?.
 ?-{Dn
 ?..$s
@@ -7382,7 +7380,6 @@ E;Q0L
 E;n u
 E;t$P
 E;u$t>H
-E<>h)z
 E<ViewH
 E<t&H
 E=FZGrH
@@ -7668,6 +7665,7 @@ FORMAT=32-bit_rle_rgbe
 FOV Mask Y Cutoff Angle
 FOV Shape
 FPTRST
+FQ5]L
 FRACTAL
 FRAM chunk found in MNG-VLC datastream
 FT$(M
@@ -8255,6 +8253,7 @@ Gujarati
 Gurmukhi
 Gvxam mincetu apocikvyeh: 
 Gx;0t=
+G{4	N
 G|9GD
 H '6 (G
 H 9J 
@@ -10889,6 +10888,7 @@ OverviewImage
 Owner Name
 OwrS=
 P uMH
+P$UpVV
 P&15PM
 P'PqP
 P(H+P H
@@ -11757,7 +11757,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSX
+RSDSh
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14245,6 +14245,7 @@ Yj E;
 Yl$8A
 You must call g_source_connect().
 You must call g_source_set_callback().
+YqH$L
 Yt$@H
 YtM=KYMCt0=YARGt
 Y|q'za
@@ -15800,6 +15801,7 @@ d}_S_G671681==8B@;FA?HC>HC>JD<MB7J=0H<-F=/E;0A91<71:7.>9,E</M?/OA0O>1K;1D:/>=17=
 e	@cy
 e A_A^A]A\]
 e bez moljca.
+e&c+\
 e, na st?pe sa ?ate? u?
 e-1.0*
 e0A_A^A]A\]
@@ -16291,7 +16293,6 @@ fflush()
 fgalpha
 fgcolor
 fgetc
-fh-4^n78_
 field_matches
 fields != NULL
 file %s: line %d (%s): error %s during %s
@@ -17712,6 +17713,7 @@ l$xt
 l6qnk
 l<"-y<
 l<}2l
+l=J7J0
 lLVD782782994<:5@=8B:8A95=73<75:549009//61.62.63.641973?72B90H=1J>4H=4B80@61?62<94C54A50<6*E5'c6-
 lO"c3
 lQ 6|+G
@@ -20096,6 +20098,7 @@ xA_A^^[
 xA_A^_[
 xA__][
 xA__^]
+xBe4L"
 xDtdHcP@
 xE)Z,
 xFG:r2

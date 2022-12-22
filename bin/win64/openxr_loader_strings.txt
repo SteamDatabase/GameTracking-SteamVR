@@ -58,7 +58,6 @@
 (unknown)
 )D$ L
 )t$ H
-*y=>uj
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -164,7 +163,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221104000950Z0/
+221222045416Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -308,6 +307,7 @@ A_A^]
 A_A^_
 A_A^_[]
 A_A^_^]
+Aa9pP
 Active XrInstance handle already exists
 ActiveRuntime
 ApiLayerInterface being destroyed for layer 
@@ -323,6 +323,7 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
+C,/bz
 C0L9<
 CD$0D
 CD$0I
@@ -502,7 +503,6 @@ M H1E
 M98u/
 MB(iVR
 MSVCP140.dll
-MXdcSV#
 ManifestFile::IsValidJson - JSON "file_format_version" 
 ManifestFile::IsValidJson - JSON file missing "file_format_version"
 ManifestFile::ParseCommon 
@@ -633,6 +633,7 @@ WakeAllConditionVariable
 Warning [
 Washington1
 WideCharToMultiByte
+XCjg(
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
@@ -745,7 +746,6 @@ error
 expected XR_TYPE_INSTANCE_CREATE_INFO.
 expecting another \u token to begin the second half of a unicode surrogate pair
 extension_version
-f*P c:>
 f9,Xu
 fB94@u
 fF9$@u
@@ -998,6 +998,5 @@ xrWaitSwapchainImage
 |Lu?c
 }LuHO
 ~+fff
-~WxOu
 ~qj#k"
 ~t&LN

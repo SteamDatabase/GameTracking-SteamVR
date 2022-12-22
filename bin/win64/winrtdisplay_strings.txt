@@ -8,6 +8,7 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
+$}+|;%
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
@@ -108,6 +109,8 @@
 .xdata$x
 0A^_]
 0A_A^A]A\_^[
+0Wsr+
+0Z..#PI
 0w0c1
 0}0i1
 1.0.0
@@ -117,7 +120,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221104001026Z0/
+221222045442Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -135,7 +138,6 @@
 6*f(_
 6I]Dc
 6OB,n_
-7+q2R
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -151,7 +153,6 @@
 =rIQU
 >0<0:
 >Mp$d
-?&m+t
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -391,7 +392,6 @@ t$0H+
 t$8H9)t
 t$@H=
 t$PE3
-t4(HZ
 tXfff
 tYH9\$`t
 terminate
@@ -401,7 +401,6 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-y|4+>x
 {un'%
 |$ AVH
 |$0E3

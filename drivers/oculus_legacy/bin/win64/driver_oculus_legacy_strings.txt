@@ -2,11 +2,11 @@
     A
  %41g
  (Camera)
- -](U
  9D$D
  A__^
  H3E H3E
 !hn7!
+#ZP%8
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -92,12 +92,13 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221104001935Z0/
+221222050044Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3 jtk	
 311109235959Z0b1
 331121235959Z0F1
 360428235959Z0i1
@@ -122,7 +123,6 @@
 9h u{H
 9l$Ht
 9l$pt
-:gU^##
 ;K sCH
 ;K sUH
 ;k sAH
@@ -158,6 +158,7 @@ A_A^A]A\_
 A_A^A]A\_^[]
 A_A^]
 A__][
+AgsMQ
 AuthD
 Bellevue1
 C(L95
@@ -237,6 +238,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jp3)q
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -248,6 +250,7 @@ L9t$huP
 L?n(Zy&
 LIBOVR_DLL_DIR
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+LjNj\
 LoadLibraryA
 LoadLibraryW
 M H1E
@@ -265,7 +268,6 @@ Oculus
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-PxMDc
 Pz}b!
 QueryPerformanceCounter
 R$fE;B*
@@ -286,7 +288,6 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-TR~fN
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
@@ -298,6 +299,8 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+TmIhD
+Tu[c`)6/
 UAVAWH
 USVWATAUH
 UWAVH
@@ -322,7 +325,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-ZdcGx
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -452,6 +454,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+r\	X\
 startup
 string too long
 strncpy
@@ -471,6 +474,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+z'lr:u7A
 z(uMH
 {ERR-001}
 {ERR-079}

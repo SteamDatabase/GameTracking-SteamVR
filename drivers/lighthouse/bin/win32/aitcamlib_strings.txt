@@ -9,8 +9,6 @@
 #?RADIANCE
 #?RGBE
 $9^ t
-$iiv+
-%+,7=C
 %,3:;4-&
 %3333
 %UUUU
@@ -98,6 +96,7 @@ $iiv+
 .tls$
 .tls$ZZZ
 .xdata$x
+.{z>{*
 /9s<u*
 /delivery_rate
 /elapsed_time
@@ -167,7 +166,7 @@ $iiv+
 220323000000Z
 220801000000Z
 220921000000Z
-221104001251Z0/
+221222045701Z0/
 241009235959Z0a1
 262H2O2o283?3
 2>3k3
@@ -307,6 +306,7 @@ $iiv+
 <=<F<O<]<f<y<Z=z=
 <I=M=
 <h<n<
+<iw3-
 <unknown>
 = =(=0=8=<=D=X=`=h=p=t=x=
 = >8>T>
@@ -381,6 +381,7 @@ Closed
 CreateEventA
 CreateEventW
 CreateThread
+D4>Wu
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -408,6 +409,7 @@ Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
 F|t	_^3
+GEdj(
 GetCameraHALInterface
 GetCurrentProcess
 GetCurrentProcessId
@@ -475,6 +477,7 @@ NotFound
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
+P ,^]
 P1T1X1\1`1d1h1
 P<^_3
 PAq=?Mp#
@@ -726,7 +729,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
-i6?uf
 illegal code in raster
 invalid
 invalid PLTE
@@ -740,6 +742,7 @@ jj@0HK4
 k0i0$
 ko_ko
 korean
+lW	0'
 latam
 ldexp
 m0k0$
@@ -776,12 +779,14 @@ pt_br
 pt_pt
 pvBuffer != nullptr
 qdriver_lighthouse
+qjyv 
 r0	2q2
 read past buffer
 ro_ro
 romanian
 ru_ru
 russian
+s@a{v
 schinese
 spanish
 startup

@@ -1,9 +1,8 @@
 	!s99
- 	bau
+	%PHf
  %41g
  (Camera)
 !hn7!
-"4R~5Ue
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
@@ -76,7 +75,7 @@
 0)030Q0]0c0r0{0
 0+0-4D4
 0,040<0D0H0L0T0h0
-0v',f
+0Mk*'+
 0w0c1
 0}0i1
 1	3l364
@@ -95,7 +94,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221104001309Z0/
+221222045733Z0/
 241009235959Z0a1
 2=2C2
 2>4~4
@@ -162,7 +161,6 @@
 9$?(?,?0?4?8?<?@?D?H?h?l?p?t?x?|?
 9::V:[:e:v:
 9A9X9t9
-9NtB!
 9R:e:z:
 9X;h;
 :$:-:6:?:D:I:P:`:
@@ -213,6 +211,7 @@
 @.reloc
 ADVAPI32.dll
 Bellevue1
+C5^Ki
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -296,6 +295,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
+RSDSw
 RaiseException
 S0Q0O
 SA|X=G
@@ -334,9 +334,9 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+XJyDdG
 Y9"SD
 Y__^[
-ZK_TO
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -345,6 +345,7 @@ ZK_TO
 [OculusDirect] ovr_SubmitFrame - End
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
+^?Qi+W
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -382,7 +383,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-a5P;=
+`vQsd
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -405,11 +406,14 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i$vL	
 invalid string position
 jdjdh
 jj@0HK4
 k0i0$
+kK"8x
 m0k0$
+mBOCo
 malloc
 map/set<T> too long
 memcpy
@@ -462,7 +466,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-s*iU"
 startup
 string too long
 strncpy
@@ -487,6 +490,7 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |Lu?c
+}>NKs
 }LuHO
 ~qj#k"
 ~t&LN

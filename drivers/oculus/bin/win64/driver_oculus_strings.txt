@@ -69,6 +69,7 @@
 """""""
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
+"/O+xC
 "9k0t
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
@@ -98,7 +99,6 @@ $w!Hc
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
-&?G{c
 &D9c0t
 &D9k0t
 &D9{0t
@@ -435,6 +435,7 @@ $w!Hc
 /user/waist
 0 width
 0-pixel image
+05$-p
 0A^_^
 0A_A^A\_^
 0A_A^A]A\^
@@ -459,7 +460,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-221104001525Z0/
+221222045938Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1277,6 +1278,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS.?
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1284,7 +1286,6 @@ RootNode
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S*d70q
 S0Q0O
 S8H+S0H
 SATAUAVAWH
@@ -1426,6 +1427,7 @@ Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
 W-HO	
+W=}w/
 WATAUAVAWH
 WAVAWH
 WINMM.dll
@@ -1507,7 +1509,6 @@ ZL$Xf
 ]5cD	
 ]9k0tVD
 ]J<0"0i3
-]Tbmj
 ][OculusDirect] AquireSync
 ]g@8yhu
 ^9k0tWD
@@ -1585,6 +1586,7 @@ _wstat64i32
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 `A__^
+`LXIU
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
@@ -2111,6 +2113,7 @@ ovr_WaitToBeginFrame
 ovr_WaitToBeginFrame(%d) failed: %s
 p WATAVH
 p$D+;
+p430H
 pA^^]
 pA_A^A]A\[
 pA_A^A]A\_^[
@@ -2412,7 +2415,6 @@ translation
 true literal
 turkish
 t|SUVH
-u Aj+.
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X

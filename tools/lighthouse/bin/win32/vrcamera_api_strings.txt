@@ -17,7 +17,6 @@
  0$0(0<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0
  Capability Size: 
  Height: 
- SsI6
  Width: 
  s;Wj
  sCWj
@@ -28,7 +27,6 @@
 $0,040<0P0X0`0h0p0|0
 $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-$UV~=
 $_^[]
 %.0Lf
 %H : %M
@@ -400,7 +398,6 @@ $_^[]
 1D2g2
 1F2S2m2
 1F2n2s2
-1HV+wb
 1T1[1b1i1n1w1
 1a2v2
 1b2%3
@@ -434,7 +431,7 @@ $_^[]
 220323000000Z
 220801000000Z
 220921000000Z
-221104000929Z0/
+221222045340Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1289,7 +1286,6 @@ CreateThreadpoolWork
 CreateTimerQueue
 CreateTimerQueueTimer
 DFailed to EnumPins.
-DO<kG4~
 DecodePointer
 DeleteCriticalSection
 DeleteTimerQueueTimer
@@ -1321,7 +1317,6 @@ Exception connecting to camera:
 Exception constructing Camera: 
 Exposure:			
 F j,Q
-F9Wq}
 F;sx|
 FP;FL
 FP;FL~
@@ -1485,7 +1480,6 @@ Pz}b!
 Q$B@;
 Q;FD~R
 Q;FD~Z
-QIqHUY
 QQSVW
 QSVWj
 QVWjt
@@ -1539,7 +1533,6 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
-U	H!l
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1567,6 +1560,7 @@ Unrecognized depth format.
 UnregisterTraceGuids
 UnregisterWait
 UnregisterWaitEx
+V;*<@
 V<;V8}	
 VCRUNTIME140.dll
 V_~]	,

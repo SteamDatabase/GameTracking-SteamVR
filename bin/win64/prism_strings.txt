@@ -47,6 +47,7 @@
  A__^
  H3E H3E
  formatting error code 
+ hS35
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -354,7 +355,6 @@ $II+L$`
 ********** Red ( nLoopCount++ > 1000 )!
 +Xt@(
 +o'q)}
-+x2dO~
 , last executing in 
 ,W5y+
 -IPCWrapper
@@ -530,7 +530,7 @@ $II+L$`
 220323000000Z
 220801000000Z
 220921000000Z
-221104001224Z0/
+221222045538Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -545,6 +545,7 @@ $II+L$`
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5R1@j
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -565,6 +566,7 @@ $II+L$`
 9C<rTH
 9ELtgL9|$Pt
 9H(~-
+9t-zT
 :A9x 
 :EotB
 ;K sOH
@@ -738,7 +740,6 @@ AuthD
 Automatically quitting due to idle time > %f seconds.
 Bellevue1
 Blank
-BsO|*
 C(H+C H
 C(H9C u
 C++/WinRT version:1.0.190111.3
@@ -1077,6 +1078,7 @@ GetTokenInformation failed. GetLastError returned: %d
 Graphics Timeline
 H SVWH
 H USVAUH
+H$*{s
 H+D$@
 H+D$Xf
 H+EpH
@@ -1238,6 +1240,7 @@ LocalAlloc
 LocalFree
 M H1E
 M(I9V t
+M5-=z(
 M98u/
 M9L$pthI
 M9x0t:M
@@ -1406,6 +1409,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDS*6
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1735,6 +1739,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 atanf
+b\5s6Zn^
 bad allocation
 bad array new length
 bad conversion
@@ -1937,7 +1942,6 @@ nvEncOpenEncodeSession != nullptr
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 nvcuda.dll
-o nwF
 ole32.dll
 ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
@@ -1994,6 +1998,7 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
+q0#D,
 r,fff
 renderdoc.dll
 result == ALVR_OK
