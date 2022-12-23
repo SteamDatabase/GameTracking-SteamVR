@@ -914,7 +914,6 @@ RenderPipelineVr
 RenderPrimitiveType_t
 RenderService_001
 RenderSkeletonBone_t
-RenderSystem/AllowSampleableDepthInVr
 RenderSystemSurface001
 RenderUtils_001
 RenderingPipelineForwardManifest

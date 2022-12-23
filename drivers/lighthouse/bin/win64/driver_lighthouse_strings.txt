@@ -335,7 +335,6 @@
 #D9c0t
 #D9{0t
 #bML"
-#j#;`
 $0  extend .$1 {
 $0  extensions $1 to $2;
 $0  message $1
@@ -353,6 +352,7 @@ $w!Hc
 %,3:;4-&
 %9k0t
 %9{0t
+%A[lT
 %Y-%m-%d
 %d.%d.%d
 %hu,%hu,'%4c',%hu
@@ -808,6 +808,7 @@ $w!Hc
 )T$PI
 )T$Pf
 )T$pD
+)\$0uE
 )\$pI
 )\ZEo^m/
 )d$`H
@@ -908,9 +909,11 @@ $w!Hc
 -IPCWrapper
 -Infinity
 -OpenProcessToken failed. GetLastError returned: %d
+-fkm 
 -t!?Ks
 -t1?Ks
 -tA?Ks
+-tQ?x
 -u-I;
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ... Moving the base for tracking too, which might cause a pop
@@ -1030,7 +1033,7 @@ $w!Hc
 .?AVCDepthAugmentedPassthrough@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
+.?AVCDisambiguatorTDM@?A0xf3883f88@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -1268,9 +1271,6 @@ $w!Hc
 /input/grip/force
 /input/grip/touch
 /input/grip/value
-/input/joystick/click
-/input/joystick/x
-/input/joystick/y
 /input/mute_mic/click
 /input/power/click
 /input/skeleton/left
@@ -1292,10 +1292,6 @@ $w!Hc
 /input/trigger/value
 /input/volume_down/click
 /input/volume_up/click
-/input/x/click
-/input/x/touch
-/input/y/click
-/input/y/touch
 /lighthouse/
 /lighthouse/camera/raw_frames
 /lighthouse/depthAugmentedPassthrough/leftMeshElementCount
@@ -1384,7 +1380,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-221222050419Z0/
+221222230308Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1408,7 +1404,6 @@ $w!Hc
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-6<framesToThrottle
 6I]Dc
 6OB,n_
 6p7M=:P_:}u
@@ -1444,7 +1439,6 @@ $w!Hc
 8E;~X|
 8H)t,E
 8H;^pu
-8L9-^X&
 8O0u]A
 8\$@t
 8\t	H
@@ -1455,7 +1449,6 @@ $w!Hc
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8s4A;X u.
-96"xFo?
 9APuC
 9ApuM
 9AtuB
@@ -1610,7 +1603,6 @@ $w!Hc
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
-=WoXa
 =q=J?
 =rIQU
 >"t-H
@@ -1674,7 +1666,9 @@ $w!Hc
 ?CVkDevice::CreateDevice
 ?HcC,H
 ?Nbp?
+?PFhB
 ?UUUUUU
+?VR_OVERRIDE
 ?VUUUUU
 ?Xb&<
 ?Zero@Intrinsics@ST@@SA?BU12@XZ
@@ -1901,6 +1895,7 @@ $w!Hc
 @USAWH
 @USVATAVH
 @USVAVH
+@USVAWH
 @USVH
 @USVWATAUAVAWH
 @USVWATAUAVH
@@ -1965,7 +1960,6 @@ A)}HA
 A+H,A
 A,9AT|
 A0H9i8u
-A8	r 
 A8IcA0I
 A8_Yt
 A8t$qt
@@ -2119,6 +2113,7 @@ A_A^_H
 A_A^_^[]
 A_A^_^]
 A_A^_^][
+A_^[]
 A_^][
 A__[]
 A__^[]
@@ -2185,7 +2180,7 @@ B<I;_X
 B@H+P0
 B@H+P0I
 BA99u	
-BD9%~
+BD9%>
 BL Init
 BL requested by app
 BL requested by buttons
@@ -2471,7 +2466,7 @@ C\$PM
 C\$`H
 C\$pH
 C\$pL
-C\$pL9%-~(
+C\$pL9%]^(
 C\$pM
 C\HcKXH
 C`9C(uq
@@ -2610,7 +2605,9 @@ D$ ff
 D$ tX
 D$ u!H
 D$ v5
+D$!yx~v
 D$$E3
+D$%|oy`
 D$(@88
 D$(E3
 D$(H#
@@ -2632,9 +2629,11 @@ D$(L;
 D$(L;D$PtVI
 D$(\E3
 D$(t3
+D$)2tsm
 D$,+D$$
 D$,D;l$8
 D$,I+
+D$-hiBm
 D$0+D$(
 D$0E+
 D$0E3
@@ -2651,9 +2650,11 @@ D$0M;
 D$0fD
 D$0fff
 D$0tx
+D$1or{t
 D$28I
 D$4I9V@
 D$4I;
+D$5qx3w
 D$88X4tJ
 D$8;D$<u3D
 D$8D8
@@ -2664,6 +2665,7 @@ D$8I+
 D$8I;
 D$8L+
 D$8fff
+D$9nrs
 D$<SX
 D$?I;
 D$@8B
@@ -2688,16 +2690,12 @@ D$@M+
 D$@fA
 D$@u'H
 D$A8B
-D$Ayx~v
 D$B8B
-D$E|oy`
 D$HE3
 D$HH#
 D$HH+
 D$HHi
 D$Hfff
-D$I2tsm
-D$MhiBm
 D$PE3
 D$PH+
 D$PH9
@@ -2715,9 +2713,7 @@ D$PL;D$Xu
 D$PM;
 D$PMc
 D$PfA
-D$Qor{t
 D$TI;
-D$Uqx3w
 D$XA#
 D$XE3
 D$XH+
@@ -2730,7 +2726,6 @@ D$XL;
 D$Xaxis
 D$XuQH
 D$Xv?
-D$Ynrs
 D$] fra
 D$`A9
 D$`D9
@@ -2784,14 +2779,14 @@ D$xL;
 D3D11CreateDevice
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
-D8,2u
+D8$:u
 D8,7u
 D8,8u
 D840u
-D850X(
+D8500(
+D85;2(
+D85`8(
 D8<0u
-D8=F3(
-D8=|3(
 D8D$9t$
 D8D$hH
 D8L$(t
@@ -2923,7 +2918,6 @@ Device JSON: Overriding parallel_render_cameras to enabled (%s)
 Device JSON: Overriding proximityEnable to %d (%s)
 Device JSON: Overriding resource_root (%s)
 Device JSON: Overriding subpixel_shift (%s)
-Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)
 DeviceGC
 DeviceIoControl
 DeviceMessageWindow_t::RunFrame
@@ -2975,11 +2969,8 @@ EHAiWh
 EHI;FHu
 EOfff
 ERROR
-ERROR: Expected 1 float args, fDegrees'
-ERROR: Expected 1 float args, fPitchDegrees'
 ERROR: Expected 2 float args, '
 ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
-ERROR: Expected 2 float args, fDegreesLeft fDegreesRight'
 ERROR: GetEdidId (%d)
 ERROR: GetVideoConfig (%d)
 ERROR: No display or device
@@ -2995,7 +2986,6 @@ EgH9S@t
 EgH9V
 Empty escape sequence in string
 Empty file.
-Enabling Prism Correction... overriding loaded device JSON
 Encountered error 
 End-of-file inside block comment.
 EndFrame called w/ incorrect client frame index.
@@ -3103,7 +3093,7 @@ F(HcH
 F,9ATu
 F,9G,
 F0D85
-F8@85
+F8@85G8(
 F<@85
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -3386,6 +3376,7 @@ H+_pH
 H+q@HcO,H
 H0Ic@,Hc
 H9)u 
+H9-GN!
 H91u 
 H92u&
 H92u,
@@ -3393,8 +3384,6 @@ H93t	H
 H97t	H
 H98t	H
 H9;uAA
-H9=j7(
-H9=y6(
 H9A s
 H9A u&
 H9A u6
@@ -3459,9 +3448,8 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=%*
-H;=D(
-H;=S+
+H;=0#
+H;=e'
 H;Axt
 H;B0t
 H;C s<H
@@ -4026,20 +4014,23 @@ L+H@I
 L+P@H
 L+Q@I
 L80L;
-L9%P}(
-L9%^s(
-L9%lu(
-L9%l|(
+L9%*\(
+L9%._(
+L9%8b(
+L9%=[(
+L9%x`(
 L9&u"
-L9-wB&
+L9-+>&
+L9-V?&
+L9-pS&
 L90H;
 L90M;
 L92u'
-L95(k&
-L957h&
-L95hk&
+L95Yf&
+L95md&
 L97u0H
-L9=Or&
+L9=#m&
+L9=Tu(
 L9>u	H
 L9@ s
 L9A r
@@ -4048,12 +4039,12 @@ L9H@u
 L9J s
 L9J u
 L9d$ A
+L9d$hu
 L9jhu
 L9k8v
 L9l$0
 L9l$@
 L9l$@H
-L9l$`u
 L9l$pH
 L9l$ptLH
 L9t$@
@@ -4087,12 +4078,12 @@ LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
 LG Prototype
+LGI+-
 LHB-%08X
 LHR-%08X
 LHR-00000000
 LINEAR
 LITE_RUNTIME
-LL~@	0
 LPC11 App
 LPC11 BL
 Label
@@ -4148,7 +4139,6 @@ M9H s
 M;A r
 MAX10
 MB(iVR
-MD85H
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
@@ -4789,7 +4779,6 @@ UAVAWH
 UNKNOWN
 UNPLUGGED
 USAGE: set_lenscal <device_json_path>
-USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels
 USATAUAWH
 USATAWH
 USATH
@@ -4847,7 +4836,6 @@ UWAUAVAWH
 UWAUH
 UWAVH
 UWAWH
-UXu.H
 UhH9Upt"A
 Unable to SetLcmBrightness
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s
@@ -5188,7 +5176,6 @@ VR_CONFIG_PATH
 VR_FIRMWARE_MANIFEST_FILE
 VR_LOG_DEBUG
 VR_LOG_PATH
-VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VSYNC:  %8d>%07.4f
 VUUUH
@@ -5259,6 +5246,7 @@ Vive_Pro
 Vive_Pro DVT
 VpH9Vxt'
 VrController
+W%Zf 
 W(LcB
 W0H;C
 W8H;C
@@ -5342,6 +5330,7 @@ WideCharToMultiByte
 Win 10
 WinRT
 WriteFile
+Wzo59,3
 X USVWATAVAWH
 X UVWAVAWH
 X UVWH
@@ -5358,13 +5347,11 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y,c u
-Y5/^#
+Y5)J!
 Y9"SD
 Y?33s?
 YAHH+
 YAPH+
-YL9%ar(
 Yl$ M
 Yl$4E
 Yl$hfD
@@ -5496,6 +5483,7 @@ ZL$Xf
 \%03o
 \1??I
 \D$ A
+\FcmHOU
 \T$@IcD$ H
 \U%08x
 \\.\pipe\
@@ -5660,10 +5648,6 @@ acosf
 add a secondary base
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
-adjust_panel_cant
-adjust_panel_cant %f %f
-adjust_panel_pitch
-adjust_panel_pitch %f %f
 af}{f
 aggregate_value
 aitcamlib.dll
@@ -5797,33 +5781,33 @@ byteStride
 bytes
 c H9K
 c0D9cTt$D
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\prismdirect.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\stereo_setup.cpp
 cAMDt
 cU	F9
 cal_method
@@ -5942,7 +5926,6 @@ display_frequency
 display_gc
 display_hdr10
 display_mc
-display_multiframerate
 display_usb_pid
 display_usb_protocol
 display_usb_vid
@@ -6148,6 +6131,7 @@ fputc
 fputs
 fr_fr
 framer
+framesToThrottle
 fread
 french
 from base 
@@ -6492,6 +6476,7 @@ location
 low_mm
 m0_$@
 m0k0$
+mXu.H
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_eMutexOwnership != MutexOwnership_t::D3D11
@@ -6727,9 +6712,6 @@ primitive indices accessor out of bounds
 primitives
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism.dll
-prismCorrectionEnable
-prismCorrectionHL
-prismCorrectionHR
 product %u rev %u.%u.%u lot %u/%u/%u %u
 proximity
 pt_br
@@ -6826,16 +6808,10 @@ set_chromatic_correction_factors %f %f
 set_index_brightness %f
 set_lenscal
 set_lenscal %255s
-set_panel_cant
-set_panel_cant %f
 set_panel_clocking
 set_panel_clocking %f %f
-set_panel_pitch
-set_panel_pitch %f
 set_radio_mode_ble
 set_radio_mode_valve
-set_subpixel
-set_subpixel %f %f %f %f
 setvbuf
 sfixed32
 sfixed64
@@ -7065,7 +7041,7 @@ tKfA9
 tPD8B
 tPL9-
 tPfA9i
-tQH95w
+tQH957
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -7147,10 +7123,10 @@ twos_complement
 tx<	u#
 t|C9D
 t|SUVH
-t}H9=f
+t}H9=&
 t~L9=
-t~L9='
-t~L9=H
+t~L9=7
+t~L9=X
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7206,7 +7182,6 @@ unsupported data layout
 unsupported format
 upHcH
 updated lenscal
-updated subpixel_shift(s)
 usbPID
 usbVID
 usePrism
@@ -7714,6 +7689,7 @@ vulkan-1.dll
 v}L9-
 w(M9w0tH
 w+OQvr
+w:{$r!
 wUD;C$}OH
 wXH9w`t/H
 wcsncmp

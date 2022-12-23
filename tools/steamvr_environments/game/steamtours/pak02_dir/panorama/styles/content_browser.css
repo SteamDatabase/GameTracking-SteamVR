@@ -3716,8 +3716,8 @@ AvatarCustomizationItem #SliderThumb
 .KnucklesController .ScreenshotViveLabel,
 .KnucklesEV1_3Controller .ScreenshotViveImage,
 .KnucklesEV1_3Controller .ScreenshotViveLabel,
-.GenericTrackedController .ScreenshotTouchImage,
-.GenericTrackedController .ScreenshotTouchLabel,
+.GenericTrackedController .ScreenshotViveImage,
+.GenericTrackedController .ScreenshotViveLabel,
 .WinMRController .ScreenshotWinMRImage,
 .WinMRController .ScreenshotWinMRLabel,
 .WinMRControllerSamsung .ScreenshotWinMRImage,
@@ -3726,12 +3726,8 @@ AvatarCustomizationItem #SliderThumb
 .TouchController .ScreenshotTouchLabel,
 .RiftSController .ScreenshotTouchImage,
 .RiftSController .ScreenshotTouchLabel,
-.Quest2Controller .ScreenshotTouchImage,
-.Quest2Controller .ScreenshotTouchLabel,
 .CosmosController .ScreenshotTouchImage,
-.CosmosController .ScreenshotTouchLabel,
-.ReverbG2Controller .ScreenshotTouchImage,
-.ReverbG2Controller .ScreenshotTouchLabel
+.CosmosController .ScreenshotTouchLabel
 {
 	visibility: visible;
 }
@@ -5611,13 +5607,11 @@ AvatarCustomizationItem #SliderThumb
 .item_def_vive_controllers,
 .item_def_touch_controllers,
 .item_def_rift_s_controllers,
-.item_def_quest_2_controllers,
 .item_def_knuckles_controllers,
 .item_def_knuckles_ev1_3_controllers,
 .item_def_windowsmr_controllers,
 .item_def_windowsmr_samsung_controllers,
 .item_def_cosmos_controllers,
-.item_def_reverbg2_controllers,
 .item_def_generic_tracked_controllers,
 .item_def_full_hands
 {
@@ -5639,11 +5633,6 @@ AvatarCustomizationItem #SliderThumb
 {
 	visibility: visible;
 }
-.Quest2Controller .item_def_quest_2_controllers,
-.Quest2Controller .item_def_full_hands
-{
-	visibility: visible;
-}
 .KnucklesEV1_3Controller .item_def_knuckles_ev1_3_controllers,
 .KnucklesEV1_3Controller .item_def_full_hands
 {
@@ -5659,11 +5648,6 @@ AvatarCustomizationItem #SliderThumb
 {
 	visibility: visible;
 }
-.ReverbG2Controller .item_def_reverbg2_controllers,
-.ReverbG2Controller .item_def_full_hands
-{
-	visibility: visible;
-}
 .WinMRController .item_def_windowsmr_controllers
 {
 	visibility: visible;
@@ -5673,10 +5657,6 @@ AvatarCustomizationItem #SliderThumb
 	visibility: visible;
 }
 .GenericTrackedController .item_def_generic_tracked_controllers
-{
-	visibility: visible;
-}
-.ControllerHasFingerTracking .item_def_full_hands
 {
 	visibility: visible;
 }

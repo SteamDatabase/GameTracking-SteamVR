@@ -1,19 +1,17 @@
 	!s99
-	M?Z*f
  %41g
  A__^
  H3E H3E
 !hn7!
+"x*<by
 ',=?k
 (D$ f
-(ITGG%L
 (f*^[0
 (|$pL
-*_Q\B1
 +Xt@(
 +o'q)}
 ,W5y+
--!@v-
+-f1NH
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -101,7 +99,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222045901Z0/
+221222225759Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -123,7 +121,9 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+9@f#1
 9C }.H
+:mic;
 <*J=)
 <0:08
 =rIQU
@@ -205,14 +205,14 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-N#_4<pb
+NGBG"Z
 NPH9Q
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS?
+RSDS7
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -250,7 +250,6 @@ SetUnhandledExceptionFilter
 Skipping controller %d because it has the Valve VID
 SleepConditionVariableCS
 TUUUUUU
-TkRq]
 TlsAlloc
 TlsFree
 UVWAVAWH
@@ -312,7 +311,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 cU	F9
 driver_gamepad.dll
 http://ocsp.digicert.com0A
@@ -322,7 +321,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-kjA@jR
 l$8E3
 m0k0$
 malloc
@@ -330,10 +328,10 @@ map/set<T> too long
 memcpy
 memmove
 memset
-ms(qC>
 ntelD
 p WAVAWH
-rRh']s
+rZ2F[s
+s0tv_
 string too long
 t$ AVH
 t$ AWH
@@ -358,5 +356,6 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
+~%opf8
 ~qj#k"
 ~t&LN

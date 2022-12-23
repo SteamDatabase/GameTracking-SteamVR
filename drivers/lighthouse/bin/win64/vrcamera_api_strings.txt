@@ -59,7 +59,6 @@ $< t6<$t,<+t"<vt
 (D$@f
 (D$PE3
 (D$Pf
-(N#jB
 (f*^[0
 (t$ H
 (t$02
@@ -71,7 +70,6 @@ $< t6<$t,<+t"<vt
 (t$pH
 (|$ H
 (|$0I
-);:`O
 )D$ I
 )D$@A
 )D$PH
@@ -332,6 +330,7 @@ $< t6<$t,<+t"<vt
 .idata$5
 .idata$6
 .pdata
+.pu*Tm@Z
 .rdata
 .rdata$T
 .rdata$r
@@ -350,7 +349,6 @@ $< t6<$t,<+t"<vt
 .tls$ZZZ
 .xdata
 .xdata$x
-/}|qz
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
@@ -381,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 220921000000Z
-221222045409Z0/
+221222225321Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -403,7 +401,6 @@ $< t6<$t,<+t"<vt
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8#f0AQv
 8-uCH
 8-uGH
 8A^_^[
@@ -935,6 +932,7 @@ G,9G$u
 G0LcGDI
 G89D$0u
 G8HcODI
+GD$fz
 Get ASIC register value failed
 GetCPInfo
 GetCurrentPackageId
@@ -1126,6 +1124,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDSak;
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1181,7 +1180,6 @@ T$PH;
 T$PI+
 T$`H+
 T$pE3
-TTsF.
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1286,7 +1284,6 @@ Z(D9Z
 \$Pu-H
 \$hE3
 \$pE3
-\:I,;_
 ]J<0"0i3
 ]`u7H
 _(H9n
@@ -1294,6 +1291,7 @@ _CxxThrowException
 _Getdays
 _Getmonths
 _Gettnames
+_M#0<'IL
 _Strftime
 _W_Getdays
 _W_Getmonths
@@ -1381,9 +1379,8 @@ bad locale name
 bad message
 blank
 broken pipe
-c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
 cU	F9
-c]a_y
 calloc
 cntrl
 connection aborted
@@ -1404,6 +1401,7 @@ digit
 directory not empty
 e0A^A]A\_^[]
 e@A_A^]
+eNCM8
 eventObject
 executable format error
 f	n@H
@@ -1465,7 +1463,6 @@ isupper
 jj@0HK4
 jyvids
 k0i0$
-kU`Ux
 l$ E3
 l$ H;
 l$ H=
@@ -1687,7 +1684,6 @@ x AVH
 x UAVAWH
 xdigit
 yH;YXtl
-z($?1a
 { ATAVAWH
 { AVH
 { tjL

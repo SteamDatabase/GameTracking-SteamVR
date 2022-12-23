@@ -86,12 +86,12 @@
 .?AVApiLayerInterface@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
-.?AVDebugUtilsLogRecorder@?A0xe2804085@@
-.?AVDebuggerLoaderLogRecorder@?A0xe2804085@@
+.?AVDebugUtilsLogRecorder@?A0x1fce4948@@
+.?AVDebuggerLoaderLogRecorder@?A0x1fce4948@@
 .?AVFactory@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
-.?AVOstreamLoaderLogRecorder@?A0xe2804085@@
+.?AVOstreamLoaderLogRecorder@?A0x1fce4948@@
 .?AVOurCharReader@Json@@
 .?AVRuntimeInterface@@
 .?AVbad_alloc@std@@
@@ -163,7 +163,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222045416Z0/
+221222225323Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -176,6 +176,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4cc> "
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -307,7 +308,6 @@ A_A^]
 A_A^_
 A_A^_[]
 A_A^_^]
-Aa9pP
 Active XrInstance handle already exists
 ActiveRuntime
 ApiLayerInterface being destroyed for layer 
@@ -323,7 +323,6 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
-C,/bz
 C0L9<
 CD$0D
 CD$0I
@@ -404,6 +403,7 @@ EpHcH
 Error [
 Exceeded stackLimit in readValue().
 Extra non-whitespace after JSON value.
+EzZ?F
 Failed ApiLayerInterface::GetApiLayerProperties
 Failed loading layer information
 Failed loading runtime information
@@ -445,6 +445,7 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
+HD@Q-
 I#V0I
 I9Bhs
 I9W(t
@@ -515,6 +516,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
 No active XrInstance handle.
+O/;%	
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
@@ -527,6 +529,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS5
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -633,7 +636,6 @@ WakeAllConditionVariable
 Warning [
 Washington1
 WideCharToMultiByte
-XCjg(
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
@@ -674,6 +676,7 @@ _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
+_TO1S
 __C_specific_handler
 __CxxFrameHandler3
 __std_exception_copy
@@ -729,9 +732,10 @@ application name missing NULL terminator.
 bad allocation
 bad array new length
 bad cast
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 cU	F9
 collectComments
+cw;E>
 d$ UAVAWH
 d$PE3
 d$`H=
@@ -975,6 +979,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+z^g	,
 {un'%
 |$ ATAVAWH
 |$ AVH

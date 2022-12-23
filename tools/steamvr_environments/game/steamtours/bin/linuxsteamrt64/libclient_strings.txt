@@ -1164,7 +1164,6 @@ $tK
 -playtest
 -pressdemo
 -reload
--reset_avatar_config
 -rr_allow_reload
 -s2-mix-blend-mode
 -score
@@ -1191,9 +1190,6 @@ $tK
 -vr_force_gamepad_controller
 -vr_force_generic_tracked
 -vr_force_knuckles_controller
--vr_force_quest_1_controller
--vr_force_quest_2_controller
--vr_force_reverbg2_controller
 -vr_force_rift_s_controller
 -vr_force_touch_controller
 -vr_force_vive_controller
@@ -7656,7 +7652,6 @@ ControlBarRow
 ControlFG
 Controller Binding
 ControllerBindings
-ControllerHasFingerTracking
 ControllerHint
 Controls blending mode for the panel.  See CSS mix-blend-mode docs on web, except normal for us is with alpha blending.<br><br><b>Examples:</b><pre>-s2-mix-blend-mode: normal;-s2-mix-blend-mode: multiply;-s2-mix-blend-mode: screen;</pre>
 Controls if the background should be repeated in the horizontal and vertical directions.<br><br>Possible values per direction:<br>"repeat" - (default) Repeated in the specified direction until it fills the panel<br>"space" - Repeated as many times as required to fill the panel w/o being clipped. Space is added between images to to align first and last image with panel edges.<br>"round" - Repeated as many times as required to fill the panel w/o being clipped. The image is resized to align first and last image with panel edges.<br>"no-repeat" - Not repeated<br><br>Possible single values:<br>"repeat-x" - equals "repeat no-repeat"<br>"repeat-y" - equals "no-repeat repeat"<br><br><b>Examples:</b><pre>background-repeat: repeat; // equals "repeat repeat" (default)background-repeat: repeat space; // repeats horizontally, spaces vertically background-repeat: no-repeat round; // 1 column of images, scaled to fit evenly</pre>
@@ -12301,7 +12296,6 @@ Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
 QuarterSizeAttrWithBoxFilter
 Quaternion-world
-Quest2Controller
 QuestCompleted
 QuestDesc
 QuestDestinations
@@ -12630,7 +12624,6 @@ Returns true if this is lua running from the client.dll.
 Returns true if this is lua running from the server.dll.
 Returns true if this is lua running within tools mode.
 Returns true if this server is a dedicated server.
-ReverbG2Controller
 ReverseSorted
 RevertButton
 Rich Presence: addon: %s
@@ -13681,7 +13674,6 @@ SteamVRController
 SteamVRHomeSessionDetails
 SteampadGuideButton
 SteampadGuideButtonUp
-SteamtoursControllerManifest
 Steamworks Stats: %s Ending %s session id: %llu
 Steamworks Stats: %s Ending CLIENT session id: %llu
 Steamworks Stats: %s Received %s session id: %llu
@@ -14885,9 +14877,8 @@ Zs
 [M:%u:%u:%u]
 [OVERRIDE] Applied controller override to at least one outfit.
 [OVERRIDE] Applied hand override, disabling for future runs.
-[OVERRIDE] Applying current hand or controller model %s to outfit %d.
+[OVERRIDE] Applying current controller model %s to outfit %d.
 [OVERRIDE] Applying hand override %s to all outfits.
-[OVERRIDE] Applying non-finger-tracking hand model %s to outfit %d.
 [P:%u:%u]
 [PR#]
 [RESPONSELIB] %s
@@ -15089,7 +15080,6 @@ _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/point_worldtext.
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/predictioncopy.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/predictioncopy_referenced.h
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/predictioncopy_utlvector.h
-_vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/prop_vr_hand.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/querycache.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/skeletoninstance.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../../shared/spawngroupmgrgamesystem.cpp
@@ -15326,6 +15316,7 @@ autoswitchfrom
 autoswitchto
 avatar menu menu distance offset
 avatar menu offset angle from the main menu
+avatar_config
 avatar_heads
 avatar_num_outfits
 avatar_puppet_clientside
@@ -16994,7 +16985,6 @@ game time per map in minutes
 game/globalsystems/%s
 gameSceneNode
 gameSceneNodeHierarchyAttachmentChanged
-gameSceneNodeHierarchyParentChanged
 gameSceneNodeLocalAnglesChanged
 gameSceneNodeLocalOriginChanged
 gameSceneNodeLocalScaleChanged
@@ -17205,7 +17195,6 @@ h1
 hAttacker
 hThinkFunc
 halfhealth
-hand %d is tracking, but doesn't have a valid tracked device index!
 hand_conform_data
 hand_pose_list
 hand_trackpad_ui
@@ -20205,7 +20194,6 @@ m_pPredictionPlayer
 m_pPrev
 m_pPrevByClass
 m_pRenderComponent
-m_pRenderModelSceneObject
 m_pRope
 m_pSceneNode
 m_pSceneObject
@@ -20752,7 +20740,6 @@ materials/decaltests/runtime_decal_sheet_albedo.vtex
 materials/decaltests/runtime_decal_sheet_normal.vtex
 materials/dev/bicubicfilter_invalphablended.vmat
 materials/dev/blur.vmat
-materials/dev/debug_ghost_translucent.vmat
 materials/dev/glowproperty.vmat
 materials/dev/steamvr_background.vmat
 materials/dev/unlit_vertex_color.vmat
@@ -20931,7 +20918,6 @@ models/controller/knuckles_ev_1_3/knuckles_right_ev_1_3.vmdl
 models/controllers/vr_controller_vive_1_5.vmdl
 models/controllers/vr_controller_vive_1_5_left.vmdl
 models/dev/error.vmdl
-models/development/invisiblebox.vmdl
 models/steamvr_controllers/%llu/%llu.vmdl
 models/steamvr_rendermodels/
 models/survivors/survivor_gambler.vmdl
@@ -21661,10 +21647,6 @@ quantized float differs (1st diff) (net %g - pred %g) delta(%g)
 quaternion
 quaternion (%g %g %g %g)
 quaternion[] differs (1st diff) (net %g %g %g %g - pred %g %g %g %g) delta(%g %g %g %g)
-quest_1
-quest_1_controllers
-quest_2
-quest_2_controllers
 quest_completion_time
 quest_name
 quest_quantity
@@ -21885,8 +21867,6 @@ restoreentityindex
 restoretopred:slot %04d
 resumecondition
 return_children
-reverbg2
-reverbg2_controllers
 rfoot
 rgb
 rgb to gray green coefficient
@@ -22204,6 +22184,7 @@ skeletonMaterialGroupChanged
 skeletonMeshGroupMaskChanged
 skeletonModelChanged
 skeletonMotionTypeChanged
+skeletonRenderingEnableChanged
 skeleton_instance_lod_optimization
 skin_cp
 skipto_tick
@@ -23084,7 +23065,6 @@ v %g %g %g
 v %g %g %g%s
 v axis
 v2f
-v3_hands
 v8::Array::Length() const
 v8::Array::New(v8::Isolate*, int)
 v8::Boolean::Value() const
@@ -23386,7 +23366,6 @@ vr_controller_vive
 vr_controllers_connected
 vr_createhmdavatar
 vr_debug_actions
-vr_debug_hand_proximity_to_chaperone
 vr_debug_hidden_objects
 vr_debug_overlay
 vr_debug_panel_manipulation
@@ -23410,7 +23389,6 @@ vr_fakehands_rotate_z_right
 vr_fakemove_mlook_speed
 vr_fakemove_speed
 vr_fakevr_lockhands
-vr_force_update_controller_type
 vr_game_trophy_details_panel_dpi
 vr_game_trophy_details_panel_height
 vr_game_trophy_details_panel_interact_dist

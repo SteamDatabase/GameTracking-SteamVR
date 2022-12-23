@@ -184,7 +184,7 @@ $Phdd
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
-000<0D0d0
+080D0L0l0
 090>0O0U0Z0e0o0v0|0
 0L1P1T1X1\1`1d1h1l1p1t1x1|1
 0V2y2
@@ -208,9 +208,9 @@ $Phdd
 151b4
 172>2
 181B1L1V1`1j1
-181D1L1l1
 192I2[2
 1=3m3
+1@1L1T1t1
 1B2s2
 1c2|2
 1e+9999
@@ -221,6 +221,7 @@ $Phdd
 2	323<3
 2#3q3
 2$2<2L2P2`2d2h2p2
+2$2H2T2\2|2
 2$3.3H3M3r3w3
 2(2H2h2
 2(3Q3`3s3
@@ -231,14 +232,14 @@ $Phdd
 220323000000Z
 220801000000Z
 220921000000Z
-221222045709Z0/
+221222225608Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
-2@2L2T2t2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2F2q2
+2N!_O
 2f5l5p5t5x5
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
@@ -247,8 +248,8 @@ $Phdd
 3 3%3
 3 30343D3H3L3T3l3|3
 3#4;4S4d4|4	6(6q6
-3$3H3T3\3|3
 3&5M5j5o5
+3,3P3\3d3
 3,3W3
 3/3T3
 311109235959Z0b1
@@ -268,12 +269,12 @@ $Phdd
 4 4)4
 4#5?6f7
 4(4,40484P4`4d4t4x4|4
-4,4P4\4d4
 4-4M4c4
 4.4Y4
 404l4
 414t4y4
 425U5
+444X4d4l4
 4585<5@5X5\5h5l5x5|5
 465t5
 475J5]5p5
@@ -296,10 +297,10 @@ $Phdd
 505[5
 51565=5F5
 545D5H5X5\5`5h5
-545X5d5l5
 547F7|<
 576<6R6
 5;5I5c5h5
+5<5`5l5t5
 5<5m5
 5=5F5
 5FjiT
@@ -312,6 +313,7 @@ $Phdd
 5m6t6Z7a7
 6	747_7
 6 686H6L6P6T6X6l6p6t6x6|6
+6 6@6d6p6x6
 6 6t6
 6$6>6
 6'7,7
@@ -322,7 +324,6 @@ $Phdd
 64787<7@7D7H7L7%9
 666666666666666666666666666666666666666666666666666666666666
 676=6M6~6
-686\6h6p6
 6:7?7y7~7
 6B6G6
 6E6p6
@@ -336,7 +337,7 @@ $Phdd
 6]8d8
 7	8"8
 7 7$7,7D7T7X7h7l7p7t7x7|7
-7 787L7T7\7d7h7l7t7
+7 7(7@7T7\7d7l7p7t7|7
 7 7t7
 7$7-767@7D7H7L7P7T7X7\7`7d7h7l7p7
 7&8+82878
@@ -349,10 +350,10 @@ $Phdd
 7V8n9
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8	9e9
-8 8(8H8l8x8
 8 9%9
 8%838<8[8j8s8
 8'848
+8(808P8t8
 8(888<8L8P8T8X8`8x8
 8*8|8
 8*9p;v;
@@ -376,24 +377,24 @@ $Phdd
 9	:?:
 9 9$94989<9D9\9l9p9
 9":>:
+9$90989X9|9
 9&:g:
-9(909P9t9
 9-999X9]9
 989c9
 9<: <r<
 9A0t+
-9L=p=|=
 9LHB-u
 9M;R;v;{;
 9N:h:
+9T=x=
 9[:2<L=^=
 9^hve
 9s0t2
 : :$:4:8:<:@:P:T:X:\:l:p:t:x:
-:$:0:8:P:X:`:d:h:p:
 :$:@:f:u:
 :%;M;R;v;{;
 :+;0;A;X;g;p;{;
+:,:8:@:X:`:h:l:p:x:
 :-;W<x<
 :.;^;
 :2:I:[:
@@ -408,10 +409,10 @@ $Phdd
 ; <A<
 ;";@;
 ;#;n;
-;(;D;H;
 ;)<A<Z<s<
 ;.;_;
 ;.<U<
+;0;L;P;
 ;3<?<
 ;3<D<S<a<h<
 ;3u3;
@@ -446,7 +447,6 @@ $Phdd
 <= Exiting Context: (%.2f seconds)
 <SVWj
 <_<g<
-= >,>4>T>x>
 =!=/=I=}=
 =%=D=U=_=e=k=q=w=}=
 =%?,?;?B?p?t?
@@ -468,6 +468,7 @@ $Phdd
 >!>7>I>d>
 >$?(?,?0?4?8?<?@?D?H?
 >%>+>1>7>=>C>I>O>U>[>a>g>m>s>y>
+>(>4><>\>
 >*?C?V?e?t?
 >+>?>^>
 >0<0:
@@ -480,7 +481,7 @@ $Phdd
 ? ?)?L?
 ?!?1?A?Q?a?q?
 ?(?,?0?4?<?T?X?p?
-?(?4?<?\?
+?0?<?D?d?
 ?8?@?P?
 ?;?f?
 ?=?[?v?
@@ -769,6 +770,7 @@ Linux 3.6
 LoadLibraryA
 LocalFree
 Logger.txt
+L}iY#c\
 MB(iVR
 MSVCP140.dll
 Mac OS
@@ -794,12 +796,10 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
-NgkPJ3
 Nonce:    %d
 ODFU Post
 OpenProcess
 Out of thread local storage!
-P@9T<
 PAIR -NONCE %6.6d
 PAq=?Mp#
 PQShXa
@@ -821,7 +821,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSJ
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -880,7 +879,6 @@ Unknown ViveLink Error (%d)
 Unknown exception
 V$9Q$
 V$;Q$
-V&e?h
 V0;1]1}1 2
 VCRUNTIME140.dll
 VL2_Connect
@@ -1097,7 +1095,8 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
+cOqKM
 cU	F9
 calloc
 cntrl
@@ -1105,7 +1104,6 @@ dat_file
 data error
 deque<T> too long
 digit
-e%tui
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1216,7 +1214,6 @@ strstr
 strtol
 strtoul
 strtoull
-s{{Fs
 t ;A,t
 t hpC
 t0-"N
@@ -1238,7 +1235,6 @@ u'VPj
 u)h|\
 uCVj@
 ubh(d
-um=O+m
 umRQh
 unknown compression method
 unknown zip result code
@@ -1265,7 +1261,6 @@ x5t7j
 xdigit
 y4_^[
 {L?uI
-{qW:/n
 {un'%
 |	9A 
 |	;J 

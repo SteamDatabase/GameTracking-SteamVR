@@ -191,11 +191,7 @@ $0}
 %s/.steam/steam
 %s: %s
 %s: __pos (which is %zu) > this->size() (which is %zu)
-%s: failed to submit texture set info %d error=%s
 %s: failed to tessellate %s
-%s: index %d out of range %d
-%s: invalid count %d
-%s: texture set not specified
 %s: too many verts; aborting
 %s:%d: Failed condition check '%s':
 %s_%3d
@@ -853,6 +849,7 @@ $0}
 .L1066
 .L1067
 .L1068
+.L1069
 .L107
 .L1070
 .L1071
@@ -878,7 +875,6 @@ $0}
 .L10798
 .L108
 .L1080
-.L1081
 .L1084
 .L109
 .L10940
@@ -2953,7 +2949,6 @@ $0}
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-04:53:06
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -3163,6 +3158,7 @@ $0}
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:52:06
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3883,7 +3879,7 @@ BuildFadeGridMessage(float, bool)
 BuildFadeGridMessage(float, bool) [clone .cold]
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
-BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
+BuildMatTextureDetails(float (*) [4][4], vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
 C& google::protobuf::internal::scoped_array<C>::operator[](std::ptrdiff_t) const [with C = int; std::ptrdiff_t = int]
@@ -3891,8 +3887,8 @@ C& google::protobuf::internal::scoped_ptr<C>::operator*() const [with C = google
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DescriptorPool::Tables]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C.1847.366692
-C.1850.366703
+C.1847.366575
+C.1850.366586
 C.427.288574
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -4514,7 +4510,6 @@ CHmdSystemLatest::GetHeadsetViewMode() [clone .cold]
 CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*)
 CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*) [clone .cold]
 CHmdSystemLatest::GetIDForVRInitError(vr::EVRInitError)
-CHmdSystemLatest::GetIPCResourceManagerClient()
 CHmdSystemLatest::GetLegacyInput()
 CHmdSystemLatest::GetPaths()
 CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -4609,8 +4604,6 @@ CHmdSystemLatest::StartVRMonitor()
 CHmdSystemLatest::StartVRMonitor() [clone .cold]
 CHmdSystemLatest::StartVRWebHelper(bool)
 CHmdSystemLatest::StartVRWebHelper(bool) [clone .cold]
-CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
-CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags) [clone .part.0]
 CHmdSystemLatest::ThisProcessIsCompositor()
 CHmdSystemLatest::ThisProcessIsCompositor() [clone .cold]
 CHmdSystemLatest::TopologyChanged()
@@ -5369,7 +5362,7 @@ CSWTCH.217
 CSWTCH.224
 CSWTCH.28
 CSWTCH.701
-CSWTCH.749
+CSWTCH.748
 CS_MAIN
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -6329,8 +6322,6 @@ CVRCompositorClient::SubmitEyeInternal(vr::EVREye, unsigned int, vr::VRTextureWi
 CVRCompositorClient::SubmitFrameBeginTiming(unsigned long long, CVRCompositorSharedTextures::CommandBuffer_t const*)
 CVRCompositorClient::SubmitFrameData(double, bool)
 CVRCompositorClient::SubmitFrameData(double, bool) [clone .cold]
-CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long long const*)
-CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long long const*) [clone .cold]
 CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long long)
 CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long long) [clone .cold]
 CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long long)::s_bFirstOffense
@@ -6560,8 +6551,7 @@ CVRCompositorSharedTextures::SharedTextureDataVulkan_t::IsReleaseable() const
 CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Release(CVRCompositorSharedTextures*)
 CVRCompositorSharedTextures::SharedTextureDataVulkan_t::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
 CVRCompositorSharedTextures::UnlockGLSharedTextureForAccess(void*)
-CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::ESpatialEncodeMode const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
-CVRCompositorSharedTextures::UpdateSceneTextureData(SceneTextureIndexConstantBuffer_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::ESpatialEncodeMode const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
+CVRCompositorSharedTextures::UpdateSceneTextureData(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long long, vr::HmdMatrix34_t const*, vr::HmdMatrix44_t const*, vr::HmdVector4_t const*, vr::HmdVector4_t const*, vr::VRTextureBounds_t const*, unsigned int const*)
 CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)
 CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*) [clone .cold]
 CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::__executeCount
@@ -20332,7 +20322,6 @@ IVRNotificationsInternal_001
 IVRNotifications_
 IVRNotifications_001
 IVRNotifications_002
-IVROverlay::ShowDashboard
 IVROverlayInternal_XXX
 IVROverlayView_001
 IVROverlayView_001_FnTable_AcquireOverlayView(unsigned long long, OverlayView001_t*, unsigned int)
@@ -21642,7 +21631,6 @@ IVRRenderModels_005_FnTable_LoadTextureD3D11_Async(int, void*, void**)
 IVRRenderModels_005_FnTable_LoadTexture_Async(int, vr::RenderModel_TextureMap_t**)
 IVRRenderModels_005_FnTable_RenderModelHasComponent(char const*, char const*)
 IVRRenderModels_006
-IVRRenderer::ReplaceTextureReferences(VRRenderer::TextureBase*, VRRenderer::TextureBase*)
 IVRResources_001
 IVRScreenshots_
 IVRScreenshots_001
@@ -23414,7 +23402,6 @@ NvAPI::GetAdapterLuid(int, void*)
 NvAPI::GetCurrentDriverVersion()
 NvAPI::GetDisplayStatus(void*, NvAPI::DisplayStatus_t*)
 NvAPI::GetDisplayVisibility(int)
-NvAPI::GetGpuBusUtilization(int, float*)
 NvAPI::GetTimeSinceLastVsync(void*, float*, unsigned long long*)
 NvAPI::GetVSyncToFlip(float*)
 NvAPI::GetVideoMemoryInfo(void*, NvAPI::VideoMemoryInfo_t*)
@@ -24449,7 +24436,6 @@ StringToUpper(std::string const&)
 StringToUpper(std::string const&) [clone .cold]
 Submit
 SubmitExplicitTimingData - Explicit timing mode not enabled, must be enabled to submit explicit timing data.
-SubmitTextureSetInfo
 Successfully changed app type
 Successfully reconnected to server
 Sun
@@ -25539,11 +25525,7 @@ VROverlayError_UnableToLoadFile
 VROverlayError_UnknownOverlay
 VROverlayError_WrongTransformType
 VROverlayError_WrongVisibilityType
-VROverlayFlags_EnableControlBar
-VROverlayFlags_EnableControlBarClose
-VROverlayFlags_EnableControlBarKeyboard
 VROverlayFlags_HideLaserIntersection
-VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
 VROverlayFlags_NoDashboardTab
@@ -26334,7 +26316,6 @@ Z
 [Compositor Client] Submit Right
 [Compositor Client] Submit Right (duplicate)
 [Compositor Client] SubmitExplicitTimingData
-[Compositor Client] SubmitTextureSetInfo: %d[%llx] pid=%d
 [Compositor Client] Timed out waiting for handoff!
 [Compositor Client] WaitGetPoses ThreadId=%d
 [Desktop Entry]Name=
@@ -26967,6 +26948,7 @@ an
 animations
 anims
 any_objects_registered
+api
 apostrophe
 app_key
 applaunch_steam
@@ -30640,7 +30622,6 @@ n
 nMaxLatency < MAX_BLOCKING_VSYNC_INTERVALS
 nNumCoordinates > 0
 nParentBoneIndex != k_unInvalidBoneIndex
-nProcessId == data->m_nSceneFocusProcessId
 na
 name
 name_part
@@ -30762,7 +30743,6 @@ non-virtual thunk to CHmdSystemLatest::GetHeadsetViewBlendRange(float*, float*)
 non-virtual thunk to CHmdSystemLatest::GetHeadsetViewCropped()
 non-virtual thunk to CHmdSystemLatest::GetHeadsetViewMode()
 non-virtual thunk to CHmdSystemLatest::GetHeadsetViewSize(unsigned int*, unsigned int*)
-non-virtual thunk to CHmdSystemLatest::GetIPCResourceManagerClient()
 non-virtual thunk to CHmdSystemLatest::GetLegacyInput()
 non-virtual thunk to CHmdSystemLatest::GetPaths()
 non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -30814,7 +30794,6 @@ non-virtual thunk to CHmdSystemLatest::ShutdownSystem()
 non-virtual thunk to CHmdSystemLatest::StartAutolaunchOverlays()
 non-virtual thunk to CHmdSystemLatest::StartHomeApp()
 non-virtual thunk to CHmdSystemLatest::StartSecondaryComponents()
-non-virtual thunk to CHmdSystemLatest::SubmitTextureSetInfo(unsigned int, unsigned int, unsigned long long const*, vr::Texture_t const*, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 non-virtual thunk to CHmdSystemLatest::ThisProcessIsCompositor()
 non-virtual thunk to CHmdSystemLatest::TopologyChanged()
 non-virtual thunk to CHmdSystemLatest::TransformPoseToUniverse(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const&, vr::ETrackingUniverseOrigin)
@@ -31728,11 +31707,10 @@ shaders/vulkan/distort_panorama_dome_radius_ps.spv
 shaders/vulkan/distort_panorama_ps.spv
 shaders/vulkan/distort_panorama_vs.spv
 shaders/vulkan/distort_ps.spv
-shaders/vulkan/distort_ps_achromatic.spv
-shaders/vulkan/distort_ps_achromatic_alphaed.spv
-shaders/vulkan/distort_ps_achromatic_layered.spv
-shaders/vulkan/distort_ps_achromatic_se1.spv
-shaders/vulkan/distort_ps_achromatic_se2.spv
+shaders/vulkan/distort_ps_achromatic_layered_simplified.spv
+shaders/vulkan/distort_ps_achromatic_simplified.spv
+shaders/vulkan/distort_ps_achromatic_squinched_layered_simplified.spv
+shaders/vulkan/distort_ps_achromatic_squinched_simplified.spv
 shaders/vulkan/distort_ps_gamma.spv
 shaders/vulkan/distort_ps_gamma_mc.spv
 shaders/vulkan/distort_ps_gamma_mc_nd.spv
@@ -31741,12 +31719,16 @@ shaders/vulkan/distort_ps_layered.spv
 shaders/vulkan/distort_ps_layered_mc.spv
 shaders/vulkan/distort_ps_layered_mc_nd.spv
 shaders/vulkan/distort_ps_layered_nd.spv
+shaders/vulkan/distort_ps_layered_simplified.spv
 shaders/vulkan/distort_ps_mc.spv
 shaders/vulkan/distort_ps_mc_nd.spv
 shaders/vulkan/distort_ps_nd.spv
 shaders/vulkan/distort_ps_scene.spv
 shaders/vulkan/distort_ps_scene0.spv
 shaders/vulkan/distort_ps_scene_blur.spv
+shaders/vulkan/distort_ps_simplified.spv
+shaders/vulkan/distort_ps_squinched_layered_simplified.spv
+shaders/vulkan/distort_ps_squinched_simplified.spv
 shaders/vulkan/distort_vs.spv
 shaders/vulkan/distort_vs_latest_nd.spv
 shaders/vulkan/distort_vs_layered.spv
@@ -31790,11 +31772,8 @@ shaders/vulkan/tracked_camera_lines_ps.spv
 shaders/vulkan/tracked_camera_lines_vs.spv
 shaders/vulkan/tracked_camera_ps.spv
 shaders/vulkan/tracked_camera_reprojection_ps.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_devignette_vs.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_devignette_ps.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_vs.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_ycbcr_ps.spv
 shaders/vulkan/tracked_camera_reprojection_vs.spv
 shaders/vulkan/tracked_camera_undistort_ps.spv
 shaders/vulkan/tracked_camera_undistort_vs.spv
@@ -35043,6 +35022,7 @@ subs.9712
 subtype mismatch
 success
 suggested
+summoned_by
 supersampleManualOverride
 supersampleScale
 supported_buttons
@@ -35069,6 +35049,7 @@ systemTicksPerSecond
 systemTicksToNanosecondDenum
 systemTicksToNanosecondNum
 systemTimeInitialized
+systemui
 systemui_dashboard
 sz
 t

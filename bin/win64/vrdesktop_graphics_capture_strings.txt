@@ -14,6 +14,7 @@
  H3E H3E
  for detail.
  formatting error code 
+ nG\u):
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
@@ -158,7 +159,6 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
-02'|$
 0A^_^
 0A_A^A\_^
 0A_A^A]A\_^[
@@ -175,7 +175,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222045952Z0/
+221222225852Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,6 +193,7 @@
 6*f(_
 6I]Dc
 6OB,n_
+6_Y~Y
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -661,6 +662,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSF
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -721,6 +723,7 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
+U$'bvC
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -791,6 +794,7 @@ WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
 [K]taM?
+[jcc4
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -850,6 +854,7 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
+_szV]
 `.rdata
 `A_A^A]A\_^[
 `A_A^A]A\_^]
@@ -884,11 +889,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
 cU	F9
 cs_cs
 czech
@@ -954,7 +959,6 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
-k=YXs
 kernel32.dll
 ko_ko
 korean
@@ -1075,9 +1079,11 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+y.(Mh
 zh_cn
 zh_tw
 {un'%
+|"ETG
 |$ ATAVAWH
 |$ AVH
 |$ AVL

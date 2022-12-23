@@ -17,7 +17,6 @@
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
-%Rqc`@;
 %s%s%s%s%s
 ' is not a number.
 ',=?k
@@ -37,13 +36,11 @@
 +Xt@(
 +o'q)}
 , last executing in 
-,0.}j|
 ,W5y+
 -1e+9999
 -Infinity
 -u-I;
 .00cfg
-.>ss]
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
@@ -145,7 +142,6 @@
 /user/shoulder/left
 /user/shoulder/right
 /user/waist
-/{lb6
 0A^_^
 0A_A^A\_^
 0A_A^A]A\_^[
@@ -162,7 +158,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222045936Z0/
+221222225835Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -182,7 +178,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8CG:NZ
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -596,7 +591,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS]
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -644,6 +638,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+U=:-6
 UATAUAVAWH
 USER32.dll
 USVWATAUAVAWH
@@ -754,6 +749,7 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 `A_A^A]A\_^]
+a8ZMT
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-crt-convert-l1-1-0.dll
@@ -763,17 +759,19 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
+a~eku
 bad allocation
 bad array new length
 bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
+cJy`?g
 cU	F9
 cs_cs
 czech
@@ -806,6 +804,7 @@ german
 gfffffffH
 gfffffffI
 greek
+h`&u.
 handlers
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -875,6 +874,7 @@ ro_ro
 romanian
 ru_ru
 russian
+s6C?LF
 schinese
 shcore.dll
 shutdown
@@ -936,7 +936,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-xxE8l
 zh_cn
 zh_tw
 {un'%
@@ -956,7 +955,6 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
-}!&h1
 }LuHO
 ~qj#k"
 ~t&LN

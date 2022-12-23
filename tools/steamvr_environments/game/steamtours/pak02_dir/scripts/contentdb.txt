@@ -425,7 +425,7 @@
 			name = "#Imported_Vive_RenderModel"
 			desc = "#Imported_Vive_RenderModel_Desc"
 			content = "models/steamvr_rendermodels/vr_controller_vive_1_5/vr_controller_vive_1_5.vmdl"
-			preview_image = "file://{images}/contentdb/vive_controllers.png"
+			preview_image = "file://{images}/contentdb/default_controllers.png"
 			dev_only = true
 		},
 		{
@@ -433,7 +433,7 @@
 			name = "#VR_Avatar_Hand_Default"
 			desc = "#VR_Avatar_Hand_Default_Desc"
 			content = "models/controllers/vr_controller_vive_1_5.vmdl"
-			preview_image = "file://{images}/contentdb/vive_controllers.png"
+			preview_image = "file://{images}/contentdb/default_controllers.png"
 		},
 		{
 			id = "touch_controllers"
@@ -448,13 +448,6 @@
 			desc = "#VR_Avatar_Rift_S_Desc"
 			content = "models/controllers/oculus_rifts_controller_left.vmdl"
 			preview_image = "file://{images}/contentdb/oculus_rifts_controller.png"
-		},
-		{
-			id = "quest_2_controllers"
-			name = "#VR_Avatar_Quest_2"
-			desc = "#VR_Avatar_Quest_2_Desc"
-			content = "models/controllers/oculus_quest2_controller_left.vmdl"
-			preview_image = "file://{images}/contentdb/oculus_quest2_controller.png"
 		},
 		{
 			id = "knuckles_ev1_3_controllers"
@@ -492,17 +485,10 @@
 			preview_image = "file://{images}/contentdb/cosmos_controller.png"
 		},
 		{
-			id = "reverbg2_controllers"
-			name = "#VR_Avatar_ReverbG2_Controllers"
-			desc = "#VR_Avatar_ReverbG2_Controllers_Desc"
-			content = "models/controllers/hp_reverb_g2_controller_left.vmdl"
-			preview_image = "file://{images}/contentdb/reverbg2_controller.png"
-		},
-		{
 			id = "generic_tracked_controllers"
 			name = "#VR_Avatar_Generic_Tracked"
 			desc = "#VR_Avatar_Generic_Tracked_Desc"
-			content = "models/development/invisiblebox.vmdl"
+			content = "models/controllers/vr_controller_vive_1_5.vmdl"
 			preview_image = "file://{images}/contentdb/default_controllers.png"
 		},		
 		{

@@ -1873,6 +1873,7 @@ $wtpt
 %Y:%m:%d:%H:%M:%SUTC
 %YB~L
 %[^-]
+%`vT[+e
 %b&fO|
 %d (%s)
 %d (Adam7 method)
@@ -2065,7 +2066,6 @@ $wtpt
 &quof
 &quot;
 &t'<<t
-&}|?d
 ' for value type '
 '%.20g'
 '%s' '%s'
@@ -2659,6 +2659,7 @@ $wtpt
 +D$Hf
 +D$hH
 +E[-yx
++Q[k7
 +SPE+
 +T$XD
 +T$hA
@@ -3005,9 +3006,9 @@ $wtpt
 ,T$xf
 ,W5y+
 ,dfff
+,eWf)9=
 ,filc
 ,hdX:`
-,pKkr
 ,rB)N
 -*Tl}T
 -1.0*
@@ -3719,7 +3720,7 @@ $wtpt
 220323000000Z
 220801000000Z
 220921000000Z
-221222045439Z0/
+221222225356Z0/
 230x323
 2384x3370
 24 24
@@ -4112,7 +4113,6 @@ $wtpt
 9|$`t(H
 9|$`tVH
 9|$x~
-9|kH V
 : %s %s %s
 :#u,A
 :+}9-}9/}:0|:1w:3s8/p6,o8-n7+n6/k4,g3*`.$p8/
@@ -7665,7 +7665,6 @@ FORMAT=32-bit_rle_rgbe
 FOV Mask Y Cutoff Angle
 FOV Shape
 FPTRST
-FQ5]L
 FRACTAL
 FRAM chunk found in MNG-VLC datastream
 FT$(M
@@ -8253,7 +8252,6 @@ Gujarati
 Gurmukhi
 Gvxam mincetu apocikvyeh: 
 Gx;0t=
-G{4	N
 G|9GD
 H '6 (G
 H 9J 
@@ -10696,6 +10694,7 @@ Number of Warning Suboperations
 Number of Wedges
 NumberOfImagesIsNotSupported
 Numeric Value
+O"2"_
 O(L9w0u(H
 O*9y]
 O/@sh
@@ -10888,7 +10887,6 @@ OverviewImage
 Owner Name
 OwrS=
 P uMH
-P$UpVV
 P&15PM
 P'PqP
 P(H+P H
@@ -11656,6 +11654,7 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
+Q3CU3>
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -11757,7 +11756,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSh
+RSDSb
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14245,7 +14244,6 @@ Yj E;
 Yl$8A
 You must call g_source_connect().
 You must call g_source_set_callback().
-YqH$L
 Yt$@H
 YtM=KYMCt0=YARGt
 Y|q'za
@@ -14465,6 +14463,7 @@ Zoom Select Status
 \D$HH
 \D$Hf
 \D$pH
+\G(;!
 \G/}e[
 \K7\K6\K6]L7]L9]L;^M=]P=]P=aM:cG>g]q
 \L$xI
@@ -15016,7 +15015,7 @@ bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
 c&fs&Y
-c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gerror.c
@@ -15801,7 +15800,6 @@ d}_S_G671681==8B@;FA?HC>HC>JD<MB7J=0H<-F=/E;0A91<71:7.>9,E</M?/OA0O>1K;1D:/>=17=
 e	@cy
 e A_A^A]A\]
 e bez moljca.
-e&c+\
 e, na st?pe sa ?ate? u?
 e-1.0*
 e0A_A^A]A\]
@@ -17713,7 +17711,6 @@ l$xt
 l6qnk
 l<"-y<
 l<}2l
-l=J7J0
 lLVD782782994<:5@=8B:8A95=73<75:549009//61.62.63.641973?72B90H=1J>4H=4B80@61?62<94C54A50<6*E5'c6-
 lO"c3
 lQ 6|+G
@@ -18647,6 +18644,7 @@ q(A9(vH3
 q<<<u
 q<<<ux
 qD99~UH
+qLcd(G%B
 q[khc
 q_nk[)2(17.07-16*05,/3-/3-/4..1,.5.2?43@3@M:IX@BU8Mg@Gb9XrJ]xT4D5heVheVheVheVheVgeUkd[ndXghP}
 qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
@@ -18794,6 +18792,7 @@ rights
 rle mreje 
 rnWAJ<
 rncst$
+ro/_0
 root tag missing
 rorient:
 rotate
@@ -19347,6 +19346,7 @@ t(I9]
 t(fA#
 t)D;oTs#A
 t)H9q
+t)epU@
 t)fE#
 t*9t$0u$
 t*D9x0u$L
@@ -19905,6 +19905,7 @@ v@vEff
 vHH;~
 vIMGView
 vQO+t
+vW[oh
 va_to_ffi_type
 va_to_ffi_type: Unsupported fundamental type: %s
 val != NULL
@@ -20098,7 +20099,6 @@ xA_A^^[
 xA_A^_[
 xA__][
 xA__^]
-xBe4L"
 xDtdHcP@
 xE)Z,
 xFG:r2
