@@ -146,9 +146,12 @@ $ORIGIN
 -sse3
 -sse4
 -stencilmesh
+-use_genericconfig
 -use_rift360config
 -use_viveconfig
 -vr         Enable VR (can be automatically enabled if launched from Steam in VR mode)
+-vr_fidelity_memory_threshold
+-vr_gpu_memory_reserve_mb
 -vr_minigames_transition
 -vrcompdebug
 -vrdebug
@@ -274,7 +277,6 @@ $ORIGIN
 ;
 <
 <!--
-<ERROR>
 <INVALID EXPRESSION>
 <INVALID_RBF_TYPE>
 <NO EXPRESSION>
@@ -672,13 +674,13 @@ Controller %d Manufacturer:
 Controller %d Model:
 Controller %d Render Model:
 Controller %d Serial Number:
+Controller %d type:
 Controller %d, input %2d
 Controller %d, input %2d, VR_CONTROLLER_INPUT_BUTTON
 Controller at tracked device slot: %d %s
 Controller event vr::VREvent_%s, name = %-10s
 ConvertFloatToChannel: Trying to convert to a a float to a destation of byte size %d
 ConvertFloatToChannel: Trying to convert to a a normalized float to a destation of byte size %d
-ConvertGammaToLinear
 Converting display frequency from %f to %d / %d
 CopyAttrFrom
 Couldn't write Frame Timing data.
@@ -858,11 +860,11 @@ Green
 Grow
 HELPER_BONE
 HMD Brand:
+HMD Expected Controller Type:
 HMD Manufacturer:
 HMD Model:
 HMD Position: %.2f, %.2f, %.2f
 HMD Serial Number:
-HTC VIVE
 HammerMapLoader001
 Has Collision;
 HelpSystem_001
@@ -1024,6 +1026,7 @@ Mesh contains %d blend weights per vertex;  truncating to %d
 MeshSystem001
 MeshUtils001
 MiddleEyeToLeftEye                    MiddleEyeToRightEye
+Miramar
 Missing file '%s'
 Model %s missing bone and flex counts (%d < %d), init %d
 Model conversion: %d conversions in %.3fsec (%.3fms each)
@@ -1349,6 +1352,7 @@ Trying to concatenate meshes with different numbers of attributes!
 Trying to concatenate meshes with incompatible attribute sets!
 Trying to find a flex controller (%s) that doesn't actually exist in the model.
 Two Bone
+UNKNOWN
 UV88
 UVLX8888
 UVWQ8888
@@ -1361,10 +1365,10 @@ Unable to write file '%s'
 Unexpected end of file
 Unknown (%d)
 Unknown EVRCompositorError
-Unknown HMD manufacturer name '%s' - falling back to %s.
+Unknown HMD expected controller type '%s' - falling back to %s.
 Unknown compression type.
 Unknown controller modelnumber '%s' - falling back to WindowsMR controller.
-Unknown controller type name '%s' - falling back to HMD manufacturer name.
+Unknown controller type name '%s' - falling back to HMD expected controller type.
 Unnormalized joint weights encountered (%f): Skinning may not work! (At position %.3f %.3f %.3f)
 Unrecognized flag name '%s'
 Unrecognized resource version (%d): %s
@@ -1418,7 +1422,7 @@ VR - Warning! SteamVR failed initialization with error code %s: "%s"!
 VR - vr_test_nonblocking_hmd_input available
 VR GPU Compositor benchmark data not available.
 VR Multiview Instancing enabled.
-VR failure loading render model %s: %d
+VR failure loading render model '%s' (error %d)
 VR load render model texture failure: %d
 VR perf test data written to %s
 VR prediction: client( %s us) + vsyncToPhotons( %s us ) = %s us
@@ -1530,7 +1534,6 @@ V_vsnprintfWarnTrunc
 V_wcstod
 V_wcstoi64
 VaPrintf
-Valve
 VertexColorPos_t
 VertexPaintBlendParams
 VertexPaintBlendParams1
@@ -1568,7 +1571,6 @@ Warning
 Warning:  %s = '%s' is infinite, clamping value.
 Warp mesh covers
 Window Rect:
-WindowsMR
 WindowsMR: %x/%x/%i/%i
 WorkshopSetup001
 WorldRendererBuilderMgr001
@@ -1590,6 +1592,7 @@ ZFP compression is not supported.
 [%.3f server clamped to %.3f]
 [Auto-Fidelity System] %dxMSAA = %dx%d (Color + Depth + Other = %s MB)
 [Auto-Fidelity System] Default fidelity level = %d
+[Auto-Fidelity System] Filtered out fidelity level %d because it used more than %.2f%% of total GPU memory (would use %.2f GB of %.2f GB)
 [Auto-Fidelity System] Initialized with %d fidelity levels
 [Auto-Fidelity System] Initializing auto-fidelity system
 [Auto-Fidelity System] Using %s
@@ -1850,7 +1853,7 @@ headtype
 health
 health_override
 holographic_controller
-htc
+hpmotioncontroller
 hurt_me
 hurt_them
 iBlue >= 0 && iBlue <= 15
@@ -2360,6 +2363,7 @@ numsegments
 nvidia
 nvidia_multigpu
 oculus
+oculus_quest2_controller_
 oculus_rifts_controller_
 oculus_touch
 of the back buffer (shrink wrap saved
@@ -2372,7 +2376,6 @@ operator new[](unsigned long, std::nothrow_t const&)
 optionallycompressedtangentframe
 origin_max_delta
 origin_relative
-osvr
 out of memory
 overlay
 pA
@@ -2665,20 +2668,21 @@ vpcf6
 vpcf7
 vpcf8
 vpcf9
+vr
 vr.cpp
-vr.cpp(4535): ERROR! Unknown controller axis type %d!
-vr.cpp(6082): VR - Destroying old VB for Stenciling!
-vr.cpp(6127): VR - Error! VB handle is invalid in CVrStencilRenderer!
-vr.cpp(6271): VR - Destroying old VB for SubviewStenciling!
-vr.cpp(6613): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
-vr.cpp(6794): VR - Destroying old IB for warping!
-vr.cpp(6872): VR - Error! VB handle is invalid in CVrWarpRenderer!
-vr.cpp(6881): VR - Error! IB handle is invalid in CVrWarpRenderer!
-vr.cpp(7031): VR - Destroying old VB for reconstruction eye %d!
-vr.cpp(7038): VR - Destroying old IB for reconstruction eye %d!
-vr.cpp(7059): VR - Destroying old IB for reconstruction!
-vr.cpp(7199): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
-vr.cpp(7208): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(4536): ERROR! Unknown controller axis type %d!
+vr.cpp(6093): VR - Destroying old VB for Stenciling!
+vr.cpp(6138): VR - Error! VB handle is invalid in CVrStencilRenderer!
+vr.cpp(6282): VR - Destroying old VB for SubviewStenciling!
+vr.cpp(6624): VR - Error! VB handle is invalid in CVrSubviewStencilRenderer!
+vr.cpp(6805): VR - Destroying old IB for warping!
+vr.cpp(6883): VR - Error! VB handle is invalid in CVrWarpRenderer!
+vr.cpp(6892): VR - Error! IB handle is invalid in CVrWarpRenderer!
+vr.cpp(7042): VR - Destroying old VB for reconstruction eye %d!
+vr.cpp(7049): VR - Destroying old IB for reconstruction eye %d!
+vr.cpp(7070): VR - Destroying old IB for reconstruction!
+vr.cpp(7210): VR - Error! VB handle is invalid in CVrReconstructionRenderer!
+vr.cpp(7219): VR - Error! IB handle is invalid in CVrReconstructionRenderer!
 vr_author_refpt vrfly_refpt_pos vrfly_refpt_ang anchor models/dev/gordon_at_desk.vmdl
 vr_black_level_clamp
 vr_carry_type

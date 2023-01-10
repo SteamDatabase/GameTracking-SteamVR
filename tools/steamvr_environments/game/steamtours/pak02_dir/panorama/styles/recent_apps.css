@@ -352,7 +352,8 @@ SteamToursRecentApps
 .RiftSImage,
 .WinMRImage,
 .KnucklesImage,
-.CosmosImage
+.CosmosImage,
+.ReverbG2Image
 {
 	width: 900px;
 	height: 900px;
@@ -374,14 +375,20 @@ SteamToursRecentApps
 .TouchController .PressBOrYButton,
 .RiftSController .RiftSImage,
 .RiftSController .PressBOrYButton,
+.Quest2Controller .RiftSImage,
+.Quest2Controller .PressBOrYButton,
 .WinMRController .WinMRImage,
 .WinMRControllerSamsung .WinMRImage,
 .KnucklesController .KnucklesImage,
 .KnucklesController .PressBButton,
 .CosmosController .CosmosImage,
-.CosmosController .PressBOrYButton
+.CosmosController .PressBOrYButton,
+.ReverbG2Controller .ReverbG2Image,
+.ReverbG2Controller .PressBOrYButton,
+.GenericTrackedController .RiftSImage,
+.GenericTrackedController .PressBOrYButton
 {
-	visibility: visible;	
+	visibility: visible;
 }
 
 // if it's a gamepad or a touch, hide vive controller bits
@@ -391,12 +398,18 @@ SteamToursRecentApps
 .TouchController .PressMenuButton,
 .RiftSController .MotionController,
 .RiftSController .PressMenuButton,
+.Quest2Controller .MotionController,
+.Quest2Controller .PressMenuButton,
 .KnucklesController .MotionController,
 .KnucklesController .PressMenuButton,
 .CosmosController .MotionController,
-.CosmosController .PressMenuButton
+.CosmosController .PressMenuButton,
+.ReverbG2Controller .MotionController,
+.ReverbG2Controller .PressMenuButton,
+.GenericTrackedController .MotionController,
+.GenericTrackedController .PressMenuButton
 {
-	visibility: collapse;	
+	visibility: collapse;
 }
 
 .GlowAnim
@@ -417,13 +430,10 @@ SteamToursRecentApps
 	animation-iteration-count: infinite;
 }
 
-.TouchController .GlowAnim
-{
-	margin-bottom: 270px;
-	margin-right: 310px;
-}
-
-.RiftSController .GlowAnim
+.TouchController .GlowAnim,
+.RiftSController .GlowAnim,
+.Quest2Controller .GlowAnim,
+.GenericTrackedController .GlowAnim
 {
 	margin-bottom: 270px;
 	margin-right: 310px;
@@ -457,6 +467,16 @@ SteamToursRecentApps
 	margin-bottom: 269px;
 	margin-right: -40px;
 	margin-left: 50px;
+}
+
+.ReverbG2Controller .GlowAnim
+{
+	width: 65px;
+	height: 65px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 240px;
 }
 
 /*---------------------

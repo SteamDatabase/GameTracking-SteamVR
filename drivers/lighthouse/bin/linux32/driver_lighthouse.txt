@@ -3066,8 +3066,9 @@
  t .L2810
  t .L2811
  t .L2812
+ t .L2813
+ t .L2815
  t .L2816
- t .L2817
  t .L2818
  t .L2819
  t .L282
@@ -3089,14 +3090,15 @@
  t .L2834
  t .L284
  t .L285
+ t .L2851
+ t .L2853
  t .L2854
+ t .L2855
  t .L2856
  t .L2857
  t .L2858
  t .L2859
  t .L286
- t .L2860
- t .L2861
  t .L2862
  t .L2863
  t .L2864
@@ -3113,6 +3115,7 @@
  t .L2890
  t .L2891
  t .L2892
+ t .L2893
  t .L2894
  t .L2895
  t .L2896
@@ -3167,14 +3170,14 @@
  t .L303
  t .L304
  t .L305
+ t .L3059
  t .L306
- t .L3066
- t .L3068
- t .L3069
+ t .L3061
+ t .L3062
+ t .L3063
+ t .L3064
+ t .L3067
  t .L307
- t .L3070
- t .L3071
- t .L3074
  t .L308
  t .L3080
  t .L3081
@@ -3209,29 +3212,30 @@
  t .L3112
  t .L3113
  t .L312
+ t .L3128
  t .L313
- t .L3135
- t .L3137
- t .L3138
- t .L3139
+ t .L3130
+ t .L3131
+ t .L3132
+ t .L3133
+ t .L3134
  t .L314
- t .L3140
  t .L3141
  t .L3142
  t .L315
  t .L316
  t .L317
  t .L318
+ t .L3186
+ t .L3188
+ t .L3189
  t .L319
  t .L3190
+ t .L3191
  t .L3192
  t .L3193
  t .L3194
  t .L3195
- t .L3196
- t .L3197
- t .L3198
- t .L3199
  t .L32
  t .L320
  t .L3206
@@ -4600,8 +4604,8 @@
  t CLighthouseHmdDriver::Cleanup()
  t CLighthouseHmdDriver::ComputeDistortion(vr::EVREye, float, float)
  t CLighthouseHmdDriver::ControllerBatteryStatus(float, bool)
- t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, bool, vr::ETrackedControllerRole)
- t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, bool, vr::ETrackedControllerRole) [clone .cold]
+ t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole)
+ t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole) [clone .cold]
  t CLighthouseHmdDriver::Deactivate()
  t CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int)
  t CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int) [clone .cold]
@@ -4636,14 +4640,23 @@
  t CLighthouseHmdDriver::GetSerialNumber()
  t CLighthouseHmdDriver::GetVideoStreamFrame()
  t CLighthouseHmdDriver::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t CLighthouseHmdDriver::HandleDebug_AdjustPanelCant(char const*)
+ t CLighthouseHmdDriver::HandleDebug_AdjustPanelCant(char const*) [clone .cold]
+ t CLighthouseHmdDriver::HandleDebug_AdjustPanelPitch(char const*)
+ t CLighthouseHmdDriver::HandleDebug_AdjustPanelPitch(char const*) [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_GetEyeToHead()
  t CLighthouseHmdDriver::HandleDebug_GetEyeToHead() [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)
  t CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*) [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*)
  t CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*) [clone .cold]
+ t CLighthouseHmdDriver::HandleDebug_SetPanelCant(char const*)
+ t CLighthouseHmdDriver::HandleDebug_SetPanelCant(char const*) [clone .cold]
  t CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*)
  t CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*) [clone .cold]
+ t CLighthouseHmdDriver::HandleDebug_SetPanelPitch(char const*)
+ t CLighthouseHmdDriver::HandleDebug_SetPanelPitch(char const*) [clone .cold]
+ t CLighthouseHmdDriver::HandleDebug_SetSubpixel(char const*)
  t CLighthouseHmdDriver::HasTrackedCamera()
  t CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)
  t CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&) [clone .cold]
@@ -5873,6 +5886,7 @@
  t NvAPI::GetCurrentDriverVersion()
  t NvAPI::GetDisplayStatus(void*, NvAPI::DisplayStatus_t*)
  t NvAPI::GetDisplayVisibility(int)
+ t NvAPI::GetGpuBusUtilization(int, float*)
  t NvAPI::GetTimeSinceLastVsync(void*, float*, unsigned long long*)
  t NvAPI::GetVSyncToFlip(float*)
  t NvAPI::GetVideoMemoryInfo(void*, NvAPI::VideoMemoryInfo_t*)

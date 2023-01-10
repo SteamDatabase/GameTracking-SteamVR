@@ -264,7 +264,7 @@
 "Settings_EnableDashboard" "Ativar Painel de R.V."
 "Settings_ArcadeMode" "Ativar modo Arcade"
 "Settings_PauseOnStandby" "Pausar renderização se headset estiver inativo"
-"Settings_DebugInputBindings" "Ativar opções de debug na interface de designação de botões"
+"Settings_DebugInputBindings" "Ativar opções de debug na interface de configuração de controlos"
 "Settings_DoNotFadeToGrid" "Não mostrar grelha se aplicação encravar"
 
 "Settings_ShowPlaylistMenu" "Mostrar menu de reprodução"

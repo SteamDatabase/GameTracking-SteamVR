@@ -173,7 +173,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-221222225640Z0/
+230110005426Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -185,7 +185,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3|]%m
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -321,9 +320,9 @@ D$PI;
 D$PfA
 D$TI;
 D$XA#
-D8-1P
-D8-SS
-D8-|Q
+D8-!P
+D8-CS
+D8-lQ
 D9c0t
 D9c0t)H
 D9{0t
@@ -471,7 +470,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSrM
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -697,10 +695,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -890,6 +888,7 @@ unknown marker
 unsupported bit depth
 unsupported data layout
 unsupported format
+v#<kT
 v=Y]Bv
 vHcD$LH
 vi_vi
@@ -920,7 +919,6 @@ zlib corrupt
 |$PLc
 |$XH;
 |Lu?c
-}>`},
 }LuHO
 ~3LcD$(L
 ~6HcD$ I

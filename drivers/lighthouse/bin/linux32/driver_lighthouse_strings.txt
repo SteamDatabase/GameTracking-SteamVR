@@ -1220,8 +1220,9 @@ $tI
 .L2810
 .L2811
 .L2812
+.L2813
+.L2815
 .L2816
-.L2817
 .L2818
 .L2819
 .L282
@@ -1243,14 +1244,15 @@ $tI
 .L2834
 .L284
 .L285
+.L2851
+.L2853
 .L2854
+.L2855
 .L2856
 .L2857
 .L2858
 .L2859
 .L286
-.L2860
-.L2861
 .L2862
 .L2863
 .L2864
@@ -1267,6 +1269,7 @@ $tI
 .L2890
 .L2891
 .L2892
+.L2893
 .L2894
 .L2895
 .L2896
@@ -1321,14 +1324,14 @@ $tI
 .L303
 .L304
 .L305
+.L3059
 .L306
-.L3066
-.L3068
-.L3069
+.L3061
+.L3062
+.L3063
+.L3064
+.L3067
 .L307
-.L3070
-.L3071
-.L3074
 .L308
 .L3080
 .L3081
@@ -1363,29 +1366,30 @@ $tI
 .L3112
 .L3113
 .L312
+.L3128
 .L313
-.L3135
-.L3137
-.L3138
-.L3139
+.L3130
+.L3131
+.L3132
+.L3133
+.L3134
 .L314
-.L3140
 .L3141
 .L3142
 .L315
 .L316
 .L317
 .L318
+.L3186
+.L3188
+.L3189
 .L319
 .L3190
+.L3191
 .L3192
 .L3193
 .L3194
 .L3195
-.L3196
-.L3197
-.L3198
-.L3199
 .L32
 .L320
 .L3206
@@ -2277,6 +2281,9 @@ $tI
 /input/grip/force
 /input/grip/touch
 /input/grip/value
+/input/joystick/click
+/input/joystick/x
+/input/joystick/y
 /input/mute_mic/click
 /input/power/click
 /input/skeleton/left
@@ -2298,6 +2305,10 @@ $tI
 /input/trigger/value
 /input/volume_down/click
 /input/volume_up/click
+/input/x/click
+/input/x/touch
+/input/y/click
+/input/y/touch
 /lighthouse/
 /lighthouse/camera/raw_frames
 /observed_basestations
@@ -2326,6 +2337,7 @@ $tI
 0-pixel image
 0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:49:03
 0123456789
 0123456789ABCDEF
 0123456789abcdef
@@ -2389,7 +2401,6 @@ $tI
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20IVRAudioNotification
-22:52:06
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23BlendMatrix2x2PoseMaker
@@ -3335,8 +3346,8 @@ CLighthouseHmdDriver::CLighthouseHmdDriver() [clone .cold]
 CLighthouseHmdDriver::Cleanup()
 CLighthouseHmdDriver::ComputeDistortion(vr::EVREye, float, float)
 CLighthouseHmdDriver::ControllerBatteryStatus(float, bool)
-CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, bool, vr::ETrackedControllerRole)
-CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, bool, vr::ETrackedControllerRole) [clone .cold]
+CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole)
+CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole) [clone .cold]
 CLighthouseHmdDriver::Deactivate()
 CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int)
 CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int) [clone .cold]
@@ -3372,6 +3383,10 @@ CLighthouseHmdDriver::GetSensorType()
 CLighthouseHmdDriver::GetSerialNumber()
 CLighthouseHmdDriver::GetVideoStreamFrame()
 CLighthouseHmdDriver::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+CLighthouseHmdDriver::HandleDebug_AdjustPanelCant(char const*)
+CLighthouseHmdDriver::HandleDebug_AdjustPanelCant(char const*) [clone .cold]
+CLighthouseHmdDriver::HandleDebug_AdjustPanelPitch(char const*)
+CLighthouseHmdDriver::HandleDebug_AdjustPanelPitch(char const*) [clone .cold]
 CLighthouseHmdDriver::HandleDebug_GetEyeToHead()
 CLighthouseHmdDriver::HandleDebug_GetEyeToHead() [clone .cold]
 CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)
@@ -3380,8 +3395,13 @@ CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vB
 CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vRedChromaticCorrection
 CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*)
 CLighthouseHmdDriver::HandleDebug_SetLenscal(char const*) [clone .cold]
+CLighthouseHmdDriver::HandleDebug_SetPanelCant(char const*)
+CLighthouseHmdDriver::HandleDebug_SetPanelCant(char const*) [clone .cold]
 CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*)
 CLighthouseHmdDriver::HandleDebug_SetPanelClocking(char const*) [clone .cold]
+CLighthouseHmdDriver::HandleDebug_SetPanelPitch(char const*)
+CLighthouseHmdDriver::HandleDebug_SetPanelPitch(char const*) [clone .cold]
+CLighthouseHmdDriver::HandleDebug_SetSubpixel(char const*)
 CLighthouseHmdDriver::HasTrackedCamera()
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&) [clone .cold]
@@ -4019,7 +4039,6 @@ Dd
 De
 DebugDriverLog(char const*, ...)
 Dec
-Dec 22 2022
 December
 DeclareCurrentThreadIsMainThread
 Default value for an enum field must be an identifier.
@@ -4043,6 +4062,7 @@ Device JSON: Overriding parallel_render_cameras to enabled (%s)
 Device JSON: Overriding proximityEnable to %d (%s)
 Device JSON: Overriding resource_root (%s)
 Device JSON: Overriding subpixel_shift (%s)
+Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)
 Device is not calibrated (206)
 Device was not open when attempting to read its config
 Devices with no on-device calibration are not supported in the Lighthouse driver.
@@ -4125,8 +4145,11 @@ ECameraHAL_OpenError_ToString.cold
 ECameraHAL_OpenError_ToString::mapStrings
 EET
 ERROR
+ERROR: Expected 1 float args, fDegrees'
+ERROR: Expected 1 float args, fPitchDegrees'
 ERROR: Expected 2 float args, '
 ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
+ERROR: Expected 2 float args, fDegreesLeft fDegreesRight'
 ERROR: GetEdidId (%d)
 ERROR: GetVideoConfig (%d)
 ERROR: No display or device
@@ -4198,6 +4221,7 @@ Empty escape sequence in string
 Empty file.
 Enable multithreading to use std::thread
 Enabled
+Enabling Prism Correction... overriding loaded device JSON
 End-of-file inside block comment.
 Entered Debug
 Entry #
@@ -4844,6 +4868,7 @@ JSON Update
 JSON string too short.
 JST
 Jan
+Jan 10 2023
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -5617,7 +5642,6 @@ N6google8protobuf8internal29DescriptorPoolExtensionFinderE
 N6vortex10CHidDeviceE
 N6vortex12IPoseTrackerE
 N6vortex13CVortexThreadE
-N6vortex13CVrControllerE
 N6vortex14IDisambiguatorE
 N6vortex15CImuOnlyTrackerE
 N6vortex15CUserDataThread9ICallbackE
@@ -5736,6 +5760,7 @@ NvAPI::GetAdapterLuid(int, void*)
 NvAPI::GetCurrentDriverVersion()
 NvAPI::GetDisplayStatus(void*, NvAPI::DisplayStatus_t*)
 NvAPI::GetDisplayVisibility(int)
+NvAPI::GetGpuBusUtilization(int, float*)
 NvAPI::GetTimeSinceLastVsync(void*, float*, unsigned long long*)
 NvAPI::GetVSyncToFlip(float*)
 NvAPI::GetVideoMemoryInfo(void*, NvAPI::VideoMemoryInfo_t*)
@@ -6619,6 +6644,7 @@ Type is already registered:
 U
 UE
 USAGE: set_lenscal <device_json_path>
+USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels
 USB Service Busy (140)
 USB status (rates over
 USER
@@ -7827,6 +7853,10 @@ add a secondary base
 add_fdes
 additional six characters expected to parse unicode surrogate pair.
 adds.9711
+adjust_panel_cant
+adjust_panel_cant %f %f
+adjust_panel_pitch
+adjust_panel_pitch %f %f
 aggregate_value
 aitcamlib
 alignof
@@ -8446,6 +8476,7 @@ display_frequency
 display_gc
 display_hdr10
 display_mc
+display_multiframerate
 display_usb_pid
 display_usb_protocol
 display_usb_vid
@@ -12276,6 +12307,9 @@ primarybasestation
 primitive indices accessor out of bounds
 primitives
 print
+prismCorrectionEnable
+prismCorrectionHL
+prismCorrectionHR
 product
 product %u rev %u.%u.%u lot %u/%u/%u %u
 proximity
@@ -12458,10 +12492,16 @@ set_chromatic_correction_factors %f %f
 set_index_brightness %f
 set_lenscal
 set_lenscal %255s
+set_panel_cant
+set_panel_cant %f
 set_panel_clocking
 set_panel_clocking %f %f
+set_panel_pitch
+set_panel_pitch %f
 set_radio_mode_ble
 set_radio_mode_valve
+set_subpixel
+set_subpixel %f %f %f %f
 setenv
 setlocale
 setpriority
@@ -16725,6 +16765,7 @@ unsupported bit depth
 unsupported data layout
 unsupported format
 updated lenscal
+updated subpixel_shift(s)
 upper
 uri
 usb

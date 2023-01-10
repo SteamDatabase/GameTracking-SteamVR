@@ -1873,7 +1873,6 @@ $wtpt
 %Y:%m:%d:%H:%M:%SUTC
 %YB~L
 %[^-]
-%`vT[+e
 %b&fO|
 %d (%s)
 %d (Adam7 method)
@@ -2066,6 +2065,7 @@ $wtpt
 &quof
 &quot;
 &t'<<t
+&|6XDSq;
 ' for value type '
 '%.20g'
 '%s' '%s'
@@ -2659,7 +2659,6 @@ $wtpt
 +D$Hf
 +D$hH
 +E[-yx
-+Q[k7
 +SPE+
 +T$XD
 +T$hA
@@ -3006,7 +3005,6 @@ $wtpt
 ,T$xf
 ,W5y+
 ,dfff
-,eWf)9=
 ,filc
 ,hdX:`
 ,rB)N
@@ -3720,7 +3718,7 @@ $wtpt
 220323000000Z
 220801000000Z
 220921000000Z
-221222225356Z0/
+230110005040Z0/
 230x323
 2384x3370
 24 24
@@ -4180,6 +4178,7 @@ $wtpt
 ;\$0r
 ;\$4~'H
 ;]u_H
+;cg-%
 ;d22Vt::N
 ;i:EH
 ;l$Ps)L
@@ -4318,6 +4317,7 @@ $wtpt
 <Title>%s</Title>
 <Width>%.20g</Width>
 <]&a0F
+<a71.
 <at@<gt
 <atk<gtJ<lt)<q
 <body style="text-align: center;">
@@ -10694,7 +10694,6 @@ Number of Warning Suboperations
 Number of Wedges
 NumberOfImagesIsNotSupported
 Numeric Value
-O"2"_
 O(L9w0u(H
 O*9y]
 O/@sh
@@ -11654,7 +11653,6 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
-Q3CU3>
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -11756,7 +11754,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSb
+RSo;n
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14070,6 +14068,7 @@ Wrong number of profiles. 1..255 expected, %d found.
 Wrong output color space on transform
 Wrong position of PCS. 1..255 expected, %d found.
 Wrote palette index exceeding num_palette
+W{9l5
 X Focus Center
 X Offset In Slide Coordinate System
 X UVWATAUAVAWH
@@ -14463,7 +14462,6 @@ Zoom Select Status
 \D$HH
 \D$Hf
 \D$pH
-\G(;!
 \G/}e[
 \K7\K6\K6]L7]L9]L;^M=]P=]P=aM:cG>g]q
 \L$xI
@@ -15015,7 +15013,7 @@ bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
 c&fs&Y
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gerror.c
@@ -15804,6 +15802,7 @@ e, na st?pe sa ?ate? u?
 e-1.0*
 e0A_A^A]A\]
 eC}gc}m
+eIe{2
 ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
 eXC	\
 eXXXX
@@ -17963,6 +17962,7 @@ nD$pH
 nF1~P8wH*n_*
 nT$PH
 n\$Pf
+n\t1O 
 n]"{7
 n_WlYGh\Kj^N
 n_\SSA
@@ -18644,7 +18644,6 @@ q(A9(vH3
 q<<<u
 q<<<ux
 qD99~UH
-qLcd(G%B
 q[khc
 q_nk[)2(17.07-16*05,/3-/3-/4..1,.5.2?43@3@M:IX@BU8Mg@Gb9XrJ]xT4D5heVheVheVheVheVgeUkd[ndXghP}
 qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
@@ -18792,7 +18791,6 @@ rights
 rle mreje 
 rnWAJ<
 rncst$
-ro/_0
 root tag missing
 rorient:
 rotate
@@ -19346,7 +19344,6 @@ t(I9]
 t(fA#
 t)D;oTs#A
 t)H9q
-t)epU@
 t)fE#
 t*9t$0u$
 t*D9x0u$L
@@ -19905,7 +19902,6 @@ v@vEff
 vHH;~
 vIMGView
 vQO+t
-vW[oh
 va_to_ffi_type
 va_to_ffi_type: Unsupported fundamental type: %s
 val != NULL
@@ -21117,6 +21113,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |WI;E(}QH
 |ZzsP
 |rA9^
+}	S~)
 } +]dx
 } H9{(
 } H;{(

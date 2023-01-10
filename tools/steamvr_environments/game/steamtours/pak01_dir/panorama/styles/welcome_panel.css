@@ -90,12 +90,18 @@ DestinationsWelcomePanel {
 .TouchController .PressBOrYButton,
 .RiftSController .RiftSImage,
 .RiftSController .PressBOrYButton,
+.Quest2Controller .RiftSImage,
+.Quest2Controller .PressBOrYButton,
 .KnucklesController .KnucklesImage,
 .KnucklesController .PressBButton,
 .CosmosController .CosmosImage,
-.CosmosController .PressBOrYButton
+.CosmosController .PressBOrYButton,
+.ReverbG2Controller .ReverbG2Image,
+.ReverbG2Controller .PressBOrYButton,
+.GenericTrackedController .RiftSImage,
+.GenericTrackedController .PressBOrYButton
 {
-	visibility: visible;	
+	visibility: visible;
 }
 
 // if it's a gamepad or a touch, hide vive controller bits
@@ -105,12 +111,18 @@ DestinationsWelcomePanel {
 .TouchController .PressMenuButton,
 .RiftSController .MotionController,
 .RiftSController .PressMenuButton,
+.Quest2Controller .MotionController,
+.Quest2Controller .PressMenuButton,
 .KnucklesController .MotionController,
 .KnucklesController .PressMenuButton,
 .CosmosController .MotionController,
-.CosmosController .PressMenuButton
+.CosmosController .PressMenuButton,
+.ReverbG2Controller .MotionController,
+.ReverbG2Controller .PressMenuButton,
+.GenericTrackedController .MotionController,
+.GenericTrackedController .PressMenuButton,
 {
-	visibility: collapse;	
+	visibility: collapse;
 }
 
 //
@@ -162,7 +174,9 @@ DestinationsWelcomePanel {
 .UpdateDescController,
 .UpdateDescTouch,
 .UpdateDescKnuckles,
-.UpdateDescCosmos {
+.UpdateDescCosmos,
+.UpdateDescReverbG2
+{
 	text-align: left;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -183,20 +197,26 @@ DestinationsWelcomePanel {
 .GamepadController .UpdateDescController,
 .TouchController .UpdateDescTouch,
 .RiftSController .UpdateDescTouch,
+.Quest2Controller .UpdateDescTouch,
 .KnucklesController .UpdateDescKnuckles,
-.CosmosController .UpdateDescCosmos
+.CosmosController .UpdateDescCosmos,
+.ReverbG2Controller .UpdateDescReverbG2,
+.GenericTrackedController .UpdateDescTouch
 {
-	visibility: visible;	
+	visibility: visible;
 }
 
 // if it's a gamepad or a touch, hide the irrelevant bits
 .GamepadController .UpdateDesc,
 .TouchController .UpdateDesc,
 .RiftSController .UpdateDesc,
+.Quest2Controller .UpdateDesc,
 .KnucklesController .UpdateDesc,
-.CosmosController .UpdateDesc
+.CosmosController .UpdateDesc,
+.ReverbG2Controller .UpdateDesc,
+.GenericTrackedController .UpdateDesc
 {
-	visibility: collapse;	
+	visibility: collapse;
 }
 
 .UpdateText {

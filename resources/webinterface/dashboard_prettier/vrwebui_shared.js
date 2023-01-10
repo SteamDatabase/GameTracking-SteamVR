@@ -6,15 +6,22 @@
     9942: (e, t, n) => {
       n.d(t, { _: () => he });
       var i = n(655),
-        o = n(7294),
-        s = n(7062),
-        r = n(6321),
-        a = n(3868),
-        l = n(3446),
-        c = n(8052),
-        d = n(7056),
-        p = n(8325);
-      let u = class extends c.d9 {
+        o = n(6321),
+        s = n(7056),
+        r = n(7679),
+        a = n(2188),
+        l = n(7062),
+        c = n(7294),
+        d = n(1818),
+        p = n(6547),
+        u = n(9392),
+        h = n(197),
+        m = n(3868),
+        g = n(1058),
+        S = n(3446),
+        _ = n(8052),
+        v = n(8325);
+      let f = class extends _.d9 {
         constructor(e) {
           super(e),
             (this.m_audioDeviceChangedEventHandle = null),
@@ -35,21 +42,21 @@
         getHmdAudioSettingsKey(e) {
           return (
             "/settings/audio/" +
-            l.G3.audioDevices.hmd_settings_key.replace("{setting}", e)
+            S.G3.audioDevices.hmd_settings_key.replace("{setting}", e)
           );
         }
         temporaryDropdownOverride(e, t) {
           e.indexOf("Mirror") >= 0
-            ? (l.G3.audioDevices.selected_mirror_device = t)
+            ? (S.G3.audioDevices.selected_mirror_device = t)
             : e.indexOf("playback") >= 0
-            ? (l.G3.audioDevices.selected_playback_device = t)
+            ? (S.G3.audioDevices.selected_playback_device = t)
             : e.indexOf("recording") >= 0 &&
-              (l.G3.audioDevices.selected_recording_device = t);
+              (S.G3.audioDevices.selected_recording_device = t);
         }
         setDeviceSetting(e, t, n) {
           n &&
-            (l.G3.SetSettingsValue(e, n.guid),
-            l.G3.SetSettingsValue(t, n.name),
+            (S.G3.SetSettingsValue(e, n.guid),
+            S.G3.SetSettingsValue(t, n.name),
             this.temporaryDropdownOverride(e, n.guid));
         }
         setDeviceOverride(e, t) {
@@ -61,8 +68,8 @@
         }
         getAudioDevice(e) {
           return e
-            ? l.G3.audioDevices.playback_devices
-                .concat(l.G3.audioDevices.record_devices)
+            ? S.G3.audioDevices.playback_devices
+                .concat(S.G3.audioDevices.record_devices)
                 .find((t) => t.guid == e)
             : { guid: "", name: "" };
         }
@@ -78,15 +85,15 @@
         }
         makeDeviceChoiceList(e) {
           let t = [];
-          t.push({ value: "", sLabel: (0, a.Xx)("#Settings_Audio_Default") }),
-            t.push(p.Kr.Separator);
+          t.push({ value: "", sLabel: (0, m.Xx)("#Settings_Audio_Default") }),
+            t.push(v.Kr.Separator);
           for (let n of e) t.push({ value: n.guid, sLabel: n.name });
           return t;
         }
         render() {
           var e, t;
           if (!this.props.active) return null;
-          if (void 0 === l.G3.audioDevices) return null;
+          if (void 0 === S.G3.audioDevices) return null;
           let n =
               null !==
                 (e =
@@ -94,7 +101,7 @@
                     ? void 0
                     : VRHTML.VRProperties.GetBoolProperty(
                         "/user/head",
-                        r.Uk.Audio_SupportsDualSpeakerAndJackOutput_Bool
+                        o.Uk.Audio_SupportsDualSpeakerAndJackOutput_Bool
                       )) &&
               void 0 !== e &&
               e,
@@ -105,7 +112,7 @@
                     ? void 0
                     : VRHTML.VRProperties.GetBoolProperty(
                         "/user/head",
-                        r.Uk.Hmd_SupportsMicMonitoring_Bool
+                        o.Uk.Hmd_SupportsMicMonitoring_Bool
                       )) &&
               void 0 !== t &&
               t,
@@ -113,118 +120,114 @@
           try {
             s =
               "htc" ==
-                l.G3.settings
+                S.G3.settings
                   .get("/settings/LastKnown/HMDManufacturer")
                   .toLowerCase() &&
-              l.G3.settings
+              S.G3.settings
                 .get("/settings/LastKnown/HMDModel")
                 .toLowerCase()
                 .indexOf("vive") >= 0;
           } catch (e) {}
-          return o.createElement(
-            o.Fragment,
+          return c.createElement(
+            c.Fragment,
             null,
-            o.createElement(c.wy, {
+            c.createElement(_.wy, {
               name: this.getHmdAudioSettingsKey("enablePlaybackDeviceOverride"),
-              label: (0, a.Xx)("#Settings_Audio_Playback_Automatic_Label"),
-              offLabel: (0, a.Xx)("#Settings_Audio_Headset"),
-              onLabel: (0, a.Xx)("#Settings_Audio_Manual"),
-              onSubsection: o.createElement(c.Xp, {
+              label: (0, m.Xx)("#Settings_Audio_Playback_Automatic_Label"),
+              offLabel: (0, m.Xx)("#Settings_Audio_Headset"),
+              onLabel: (0, m.Xx)("#Settings_Audio_Manual"),
+              onSubsection: c.createElement(_.Xp, {
                 items: this.makeDeviceChoiceList(
-                  l.G3.audioDevices.playback_devices
+                  S.G3.audioDevices.playback_devices
                 ),
-                value: l.G3.audioDevices.selected_playback_device,
+                value: S.G3.audioDevices.selected_playback_device,
                 onChange: this.onOverrideDeviceDropdownChanged.bind(
                   this,
                   "playbackDeviceOverride"
                 ),
-                defaultLabel: (0, a.Xx)(
+                defaultLabel: (0, m.Xx)(
                   "#Settings_Audio_Current_Setting_Unknown"
                 ),
               }),
             }),
-            o.createElement(c.wy, {
+            c.createElement(_.wy, {
               name: this.getHmdAudioSettingsKey(
                 "enableRecordingDeviceOverride"
               ),
-              label: (0, a.Xx)("#Settings_Audio_Recording_Automatic_Label"),
-              offLabel: (0, a.Xx)("#Settings_Audio_Headset"),
-              onLabel: (0, a.Xx)("#Settings_Audio_Manual"),
-              onSubsection: o.createElement(c.Xp, {
+              label: (0, m.Xx)("#Settings_Audio_Recording_Automatic_Label"),
+              offLabel: (0, m.Xx)("#Settings_Audio_Headset"),
+              onLabel: (0, m.Xx)("#Settings_Audio_Manual"),
+              onSubsection: c.createElement(_.Xp, {
                 items: this.makeDeviceChoiceList(
-                  l.G3.audioDevices.record_devices
+                  S.G3.audioDevices.record_devices
                 ),
-                value: l.G3.audioDevices.selected_recording_device,
+                value: S.G3.audioDevices.selected_recording_device,
                 onChange: this.onOverrideDeviceDropdownChanged.bind(
                   this,
                   "recordingDeviceOverride"
                 ),
-                defaultLabel: (0, a.Xx)(
+                defaultLabel: (0, m.Xx)(
                   "#Settings_Audio_Current_Setting_Unknown"
                 ),
               }),
             }),
-            o.createElement(c.wy, {
+            c.createElement(_.wy, {
               name: "/settings/audio/enablePlaybackMirror",
-              label: (0, a.Xx)("#Settings_Audio_Mirroring_Label"),
-              onSubsection: o.createElement(
-                o.Fragment,
+              label: (0, m.Xx)("#Settings_Audio_Mirroring_Label"),
+              onSubsection: c.createElement(
+                c.Fragment,
                 null,
-                o.createElement(c.Xp, {
+                c.createElement(_.Xp, {
                   items: this.makeDeviceChoiceList(
-                    l.G3.audioDevices.playback_devices
+                    S.G3.audioDevices.playback_devices
                   ),
-                  value: l.G3.audioDevices.selected_mirror_device,
+                  value: S.G3.audioDevices.selected_mirror_device,
                   onChange: this.onMirrorDeviceDropdownChanged,
-                  defaultLabel: (0, a.Xx)(
+                  defaultLabel: (0, m.Xx)(
                     "#Settings_Audio_Current_Setting_Unknown"
                   ),
                 }),
-                o.createElement(c.wy, {
+                c.createElement(_.wy, {
                   name: "/settings/audio/enablePlaybackMirrorIndependentVolume",
-                  label: (0, a.Xx)(
+                  label: (0, m.Xx)(
                     "#Settings_Audio_Mirroring_Independent_Volume_Label"
                   ),
-                  visibility: c.VK.Advanced,
+                  visibility: _.VK.Advanced,
                 })
               ),
             }),
             s &&
-              o.createElement(c.wy, {
+              c.createElement(_.wy, {
                 name: "/settings/audio/viveHDMIGain",
-                label: (0, a.Xx)("#Settings_Audio_HDMIGain"),
+                label: (0, m.Xx)("#Settings_Audio_HDMIGain"),
               }),
             n &&
-              o.createElement(c.wy, {
+              c.createElement(_.wy, {
                 name: "/settings/audio/dualSpeakerAndJackOutput",
-                label: (0, a.Xx)("#Settings_Audio_SpeakerJackOutput"),
-                offLabel: (0, a.Xx)("#Settings_Audio_Single"),
-                onLabel: (0, a.Xx)("#Settings_Audio_Dual"),
-                title: (0, a.Xx)("#Settings_Audio_SpeakerJackOutput_Title"),
+                label: (0, m.Xx)("#Settings_Audio_SpeakerJackOutput"),
+                offLabel: (0, m.Xx)("#Settings_Audio_Single"),
+                onLabel: (0, m.Xx)("#Settings_Audio_Dual"),
+                title: (0, m.Xx)("#Settings_Audio_SpeakerJackOutput_Title"),
               }),
             i &&
-              o.createElement(c.wy, {
+              c.createElement(_.wy, {
                 name: "/settings/audio/muteMicMonitor",
-                label: (0, a.Xx)("#Settings_Audio_MicMonitor"),
-                offLabel: (0, a.Xx)("#Settings_Audio_Active"),
-                onLabel: (0, a.Xx)("#Settings_Audio_Muted"),
+                label: (0, m.Xx)("#Settings_Audio_MicMonitor"),
+                offLabel: (0, m.Xx)("#Settings_Audio_Active"),
+                onLabel: (0, m.Xx)("#Settings_Audio_Muted"),
               })
           );
         }
       };
-      (u.Name = "audio_settings"),
-        (0, i.gn)([d.ak], u.prototype, "onAudioDeviceChanged", null),
-        (0, i.gn)([d.ak], u.prototype, "onOverrideDeviceDropdownChanged", null),
-        (0, i.gn)([d.ak], u.prototype, "onMirrorDeviceDropdownChanged", null),
-        (u = (0, i.gn)([s.Pi], u));
-      var h,
-        m,
-        g,
-        S = n(505),
-        _ = n(1818),
-        v = n(197),
-        f = n(2188),
-        y = n(1219);
+      (f.Name = "audio_settings"),
+        (0, i.gn)([s.ak], f.prototype, "onAudioDeviceChanged", null),
+        (0, i.gn)([s.ak], f.prototype, "onOverrideDeviceDropdownChanged", null),
+        (0, i.gn)([s.ak], f.prototype, "onMirrorDeviceDropdownChanged", null),
+        (f = (0, i.gn)([l.Pi], f));
+      var y,
+        b,
+        A,
+        C = n(1219);
       !(function (e) {
         (e[(e.DEFAULT = 0)] = "DEFAULT"),
           (e[(e.EDGE_A = 1)] = "EDGE_A"),
@@ -232,24 +235,24 @@
           (e[(e.VIDEO_TRANSLUCENT = 3)] = "VIDEO_TRANSLUCENT"),
           (e[(e.VIDEO_OPAQUE = 4)] = "VIDEO_OPAQUE"),
           (e[(e.COUNT = 5)] = "COUNT");
-      })(h || (h = {})),
+      })(y || (y = {})),
         (function (e) {
           (e[(e.Evaluating = 0)] = "Evaluating"),
             (e[(e.Success = 1)] = "Success"),
             (e[(e.Failure = 2)] = "Failure");
-        })(m || (m = {}));
-      class b extends o.Component {
+        })(b || (b = {}));
+      class w extends c.Component {
         constructor(e) {
           super(e),
-            (this.m_imageRef = o.createRef()),
+            (this.m_imageRef = c.createRef()),
             (this.m_cameraFrameCount = 0),
-            (this.state = b.DefaultState);
+            (this.state = w.DefaultState);
         }
         static get DefaultState() {
           return {
             bShowTest: !1,
-            streamingProgress: m.Evaluating,
-            trackingProgress: m.Evaluating,
+            streamingProgress: b.Evaluating,
+            trackingProgress: b.Evaluating,
           };
         }
         componentWillUnmount() {
@@ -257,16 +260,16 @@
         }
         updateStatus() {
           let e = Date.now() - this.m_startTestTime;
-          this.state.streamingProgress == m.Evaluating &&
+          this.state.streamingProgress == b.Evaluating &&
             (this.m_cameraFrameCount > 0
-              ? this.setState({ streamingProgress: m.Success })
-              : e > 5e3 && this.setState({ streamingProgress: m.Failure }));
-          let t = VRHTML.GetPose(r.wU, r.zq.Standing);
+              ? this.setState({ streamingProgress: b.Success })
+              : e > 5e3 && this.setState({ streamingProgress: b.Failure }));
+          let t = VRHTML.GetPose(o.wU, o.zq.Standing);
           this.m_cameraFrameCount > 0 &&
-            (t.bPoseIsValid || this.setState({ trackingProgress: m.Failure }),
+            (t.bPoseIsValid || this.setState({ trackingProgress: b.Failure }),
             Date.now() - this.m_firstFrameTime > 2e3 &&
-              this.state.trackingProgress == m.Evaluating &&
-              this.setState({ trackingProgress: m.Success }));
+              this.state.trackingProgress == b.Evaluating &&
+              this.setState({ trackingProgress: b.Success }));
         }
         onUpdateCameraFrame() {
           let e = "";
@@ -292,82 +295,82 @@
             this.onUpdateCameraFrame();
         }
         stopTest() {
-          this.setState(b.DefaultState),
+          this.setState(w.DefaultState),
             VRHTML.VRTrackedCameraInternal.StopCameraTest(),
             window.clearInterval(this.m_updateInterval),
             (this.m_updateInterval = void 0);
         }
         renderStatusLine() {
-          return this.state.streamingProgress == m.Evaluating
-            ? o.createElement(
+          return this.state.streamingProgress == b.Evaluating
+            ? c.createElement(
                 "h1",
                 { className: "CameraStatus Evaluating" },
-                (0, a.Xx)("#CameraTest_CheckingCamera")
+                (0, m.Xx)("#CameraTest_CheckingCamera")
               )
-            : this.state.streamingProgress == m.Failure
-            ? o.createElement(
+            : this.state.streamingProgress == b.Failure
+            ? c.createElement(
                 "h1",
                 { className: "CameraStatus Failure" },
-                (0, a.Xx)("#CameraTest_CameraFailed")
+                (0, m.Xx)("#CameraTest_CameraFailed")
               )
-            : this.state.trackingProgress == m.Evaluating
-            ? o.createElement(
+            : this.state.trackingProgress == b.Evaluating
+            ? c.createElement(
                 "h1",
                 { className: "CameraStatus Evaluating" },
-                (0, a.Xx)("#CameraTest_CheckingTracking")
+                (0, m.Xx)("#CameraTest_CheckingTracking")
               )
-            : this.state.trackingProgress == m.Failure
-            ? o.createElement(
+            : this.state.trackingProgress == b.Failure
+            ? c.createElement(
                 "h1",
                 { className: "CameraStatus Failure" },
-                (0, a.Xx)("#CameraTest_TrackingFailed")
+                (0, m.Xx)("#CameraTest_TrackingFailed")
               )
-            : o.createElement(
+            : c.createElement(
                 "h1",
                 { className: "CameraStatus Success" },
-                (0, a.Xx)("#CameraTest_Success")
+                (0, m.Xx)("#CameraTest_Success")
               );
         }
         render() {
-          return o.createElement(
-            o.Fragment,
+          return c.createElement(
+            c.Fragment,
             null,
-            o.createElement(
+            c.createElement(
               "div",
               { className: "SettingsItem CameraTestSettingsItem" },
-              o.createElement(
+              c.createElement(
                 "div",
                 { className: "Label" },
-                (0, a.Xx)("#Settings_CameraTest")
+                (0, m.Xx)("#Settings_CameraTest")
               ),
-              o.createElement(
-                _.z,
+              c.createElement(
+                d.z,
                 { className: "ButtonControl", onClick: this.startTest },
-                (0, a.Xx)("#Settings_StartCameraTest")
+                (0, m.Xx)("#Settings_StartCameraTest")
               )
             ),
             this.state.bShowTest &&
-              o.createElement(
-                c.TB,
+              c.createElement(
+                _.TB,
                 {
                   className: "CameraTest",
                   header: this.renderStatusLine(),
                   onDismissRequested: this.stopTest,
                 },
-                o.createElement("img", { ref: this.m_imageRef })
+                c.createElement("img", { ref: this.m_imageRef })
               )
           );
         }
       }
-      (0, i.gn)([d.ak], b.prototype, "onUpdateCameraFrame", null),
-        (0, i.gn)([d.ak], b.prototype, "startTest", null),
-        (0, i.gn)([d.ak], b.prototype, "stopTest", null),
+      (0, i.gn)([s.ak], w.prototype, "onUpdateCameraFrame", null),
+        (0, i.gn)([s.ak], w.prototype, "startTest", null),
+        (0, i.gn)([s.ak], w.prototype, "stopTest", null),
         (function (e) {
           (e[(e.Off = 0)] = "Off"),
             (e[(e.On2D = 1)] = "On2D"),
             (e[(e.On3D = 2)] = "On3D");
-        })(g || (g = {}));
-      const A = (0, s.Pi)(() => {
+        })(A || (A = {}));
+      const k = (0, l.Pi)(() => {
         var e;
         const t =
           null !==
@@ -376,34 +379,34 @@
                 ? void 0
                 : VRHTML.VRProperties.GetBoolProperty(
                     "/user/head",
-                    r.Uk.SupportsRoomViewDepthProjection_Bool
+                    o.Uk.SupportsRoomViewDepthProjection_Bool
                   )) &&
           void 0 !== e &&
           e;
-        let n = l.G3.settings.get(v.k_),
+        let n = S.G3.settings.get(h.k_),
           i = [
-            { value: g.Off, sLabel: (0, a.Xx)("#Settings_ToggleButton_Off") },
+            { value: A.Off, sLabel: (0, m.Xx)("#Settings_ToggleButton_Off") },
           ];
         return (
-          t || n == g.On3D
-            ? (i.push({ value: g.On2D, sLabel: (0, a.Xx)("#Settings_2D") }),
-              i.push({ value: g.On3D, sLabel: (0, a.Xx)("#Settings_3D") }))
+          t || n == A.On3D
+            ? (i.push({ value: A.On2D, sLabel: (0, m.Xx)("#Settings_2D") }),
+              i.push({ value: A.On3D, sLabel: (0, m.Xx)("#Settings_3D") }))
             : i.push({
-                value: g.On2D,
-                sLabel: (0, a.Xx)("#Settings_ToggleButton_On"),
+                value: A.On2D,
+                sLabel: (0, m.Xx)("#Settings_ToggleButton_On"),
               }),
-          o.createElement(c.D3, {
-            label: (0, a.Xx)("#Settings_Camera_AllowCameraForRoomView"),
-            title: (0, a.Xx)("#Settings_Camera_AllowCameraForRoomView_Desc"),
+          c.createElement(_.D3, {
+            label: (0, m.Xx)("#Settings_Camera_AllowCameraForRoomView"),
+            title: (0, m.Xx)("#Settings_Camera_AllowCameraForRoomView_Desc"),
             items: i,
             value: n,
             onChange: (e) => {
-              l.G3.SetSettingsValue(v.k_, e);
+              S.G3.SetSettingsValue(h.k_, e);
             },
           })
         );
       });
-      let C = class extends c.d9 {
+      let M = class extends _.d9 {
         constructor(e) {
           super(e),
             (this.state = {
@@ -412,7 +415,7 @@
             });
         }
         cameraEnabled() {
-          return l.G3.settings.get(v.Av);
+          return S.G3.settings.get(h.Av);
         }
         get cameraSupportsRates() {
           var e;
@@ -423,7 +426,7 @@
                   ? void 0
                   : VRHTML.VRProperties.GetBoolProperty(
                       "/user/head",
-                      r.Uk.CameraSupportsCompatibilityModes_Bool
+                      o.Uk.CameraSupportsCompatibilityModes_Bool
                     )) &&
             void 0 !== e &&
             e
@@ -434,20 +437,20 @@
           return this.cameraSupportsRates
             ? (function (e) {
                 switch (e) {
-                  case r.lx.ISO_30FPS:
+                  case o.lx.ISO_30FPS:
                     return 30;
-                  case r.lx.ISO_35FPS:
+                  case o.lx.ISO_35FPS:
                     return 35;
-                  case r.lx.ISO_40FPS:
+                  case o.lx.ISO_40FPS:
                     return 40;
-                  case r.lx.ISO_46FPS:
+                  case o.lx.ISO_46FPS:
                     return 45;
-                  case r.lx.ISO_50FPS:
+                  case o.lx.ISO_50FPS:
                     return 50;
-                  case r.lx.BULK_8K_DMA:
+                  case o.lx.BULK_8K_DMA:
                     return 55;
                   default:
-                  case r.lx.BULK_DEFAULT:
+                  case o.lx.BULK_DEFAULT:
                     return 60;
                 }
               })(
@@ -457,10 +460,10 @@
                       ? void 0
                       : VRHTML.VRProperties.GetInt32Property(
                           "/user/head",
-                          r.Uk.CameraCompatibilityMode_Int32
+                          o.Uk.CameraCompatibilityMode_Int32
                         )) && void 0 !== e
                   ? e
-                  : r.lx.BULK_DEFAULT
+                  : o.lx.BULK_DEFAULT
               )
             : 0;
         }
@@ -468,26 +471,26 @@
           let t = (function (e) {
             switch (e) {
               case 30:
-                return r.lx.ISO_30FPS;
+                return o.lx.ISO_30FPS;
               case 35:
-                return r.lx.ISO_35FPS;
+                return o.lx.ISO_35FPS;
               case 40:
-                return r.lx.ISO_40FPS;
+                return o.lx.ISO_40FPS;
               case 45:
-                return r.lx.ISO_46FPS;
+                return o.lx.ISO_46FPS;
               case 50:
-                return r.lx.ISO_50FPS;
+                return o.lx.ISO_50FPS;
               case 55:
-                return r.lx.BULK_8K_DMA;
+                return o.lx.BULK_8K_DMA;
               default:
-                return r.lx.BULK_DEFAULT;
+                return o.lx.BULK_DEFAULT;
             }
           })(e);
           VRHTML.VRTrackedCameraInternal.SetCameraCompatibilityMode(t) &&
-            l.G3.SetRestartRequired();
+            S.G3.SetRestartRequired();
         }
         onCameraEnabled(e) {
-          l.G3.SetSettingsValue("/settings/camera/enableCamera", e),
+          S.G3.SetSettingsValue("/settings/camera/enableCamera", e),
             this.forceUpdate(),
             e || this.onStopCameraTest();
         }
@@ -501,79 +504,79 @@
           this.setState({ showCameraTest: !1 });
         }
         get currentRoomViewStyle() {
-          let e = l.G3.settings.get(v.oh);
-          return e == h.DEFAULT && (e = h.EDGE_B), e;
+          let e = S.G3.settings.get(h.oh);
+          return e == y.DEFAULT && (e = y.EDGE_B), e;
         }
         renderEnabledSettings() {
           var e;
           let t = !1,
             n = !1;
           switch (this.currentRoomViewStyle) {
-            case h.EDGE_A:
+            case y.EDGE_A:
               (n = !0), (t = !0);
               break;
-            case h.EDGE_B:
+            case y.EDGE_B:
               t = !0;
           }
           const i = this.state.cameraRateValue > 0,
-            s = l.G3.settings.get(v.k_),
-            d =
-              l.G3.settings.get(
+            s = S.G3.settings.get(h.k_),
+            r =
+              S.G3.settings.get(
                 "/settings/camera/enableCameraForCollisionBounds"
-              ) || s != g.Off;
-          let p = [
+              ) || s != A.Off;
+          let a = [
             {
-              value: h.EDGE_A,
-              sLabel: (0, a.Xx)("#Settings_Camera_RoomViewStyle_EdgeA"),
+              value: y.EDGE_A,
+              sLabel: (0, m.Xx)("#Settings_Camera_RoomViewStyle_EdgeA"),
             },
             {
-              value: h.EDGE_B,
-              sLabel: (0, a.Xx)("#Settings_Camera_RoomViewStyle_EdgeB"),
+              value: y.EDGE_B,
+              sLabel: (0, m.Xx)("#Settings_Camera_RoomViewStyle_EdgeB"),
             },
             {
-              value: h.VIDEO_TRANSLUCENT,
-              sLabel: (0, a.Xx)(
+              value: y.VIDEO_TRANSLUCENT,
+              sLabel: (0, m.Xx)(
                 "#Settings_Camera_RoomViewStyle_VideoTranslucent"
               ),
             },
             {
-              value: h.VIDEO_OPAQUE,
-              sLabel: (0, a.Xx)("#Settings_Camera_RoomViewStyle_VideoOpaque"),
+              value: y.VIDEO_OPAQUE,
+              sLabel: (0, m.Xx)("#Settings_Camera_RoomViewStyle_VideoOpaque"),
             },
           ];
-          const u =
+          const l =
             null !==
               (e =
                 null === VRHTML || void 0 === VRHTML
                   ? void 0
                   : VRHTML.VRProperties.GetBoolProperty(
                       "/user/head",
-                      r.Uk.SupportsRoomViewDepthProjection_Bool
+                      o.Uk.SupportsRoomViewDepthProjection_Bool
                     )) &&
             void 0 !== e &&
             e;
-          return o.createElement(
-            o.Fragment,
+          return c.createElement(
+            c.Fragment,
             null,
-            o.createElement(A, null),
-            u &&
-              s == g.On3D &&
-              o.createElement(
+            c.createElement(k, null),
+            l &&
+              s == A.On3D &&
+              c.createElement(
                 "div",
                 { className: "SettingsItemValueLabel" },
-                (0, a.Xx)("#Settings_Camera_RoomView3D_Experimental")
+                (0, m.Xx)("#Settings_Camera_RoomView3D_Experimental")
               ),
-            !u &&
-              s == g.On3D &&
-              o.createElement(
+            !l &&
+              s == A.On3D &&
+              c.createElement(
                 "div",
                 { className: "SettingsItemValueLabel" },
-                (0, a.Xx)("#Settings_Camera_RoomView3D_Unsupported")
+                (0, m.Xx)("#Settings_Camera_RoomView3D_Unsupported")
               ),
             i &&
-              o.createElement(c.U4, {
-                label: (0, a.Xx)("#Settings_Camera_Rate_Hz"),
-                title: (0, a.Xx)("#Settings_Camera_CompatibilityExplanation"),
+              c.createElement(_.U4, {
+                label: (0, m.Xx)("#Settings_Camera_Rate_Hz"),
+                title: (0, m.Xx)("#Settings_Camera_CompatibilityExplanation"),
                 min: 30,
                 max: 60,
                 step: 5,
@@ -582,632 +585,629 @@
                   this,
                   "click_activate_threshold"
                 ),
-                valueStyleVariant: y.px.OnHandle,
+                valueStyleVariant: C.px.OnHandle,
                 renderValue: (e) => this.state.cameraRateValue.toString(),
               }),
-            d &&
-              o.createElement(c.Xp, {
+            r &&
+              c.createElement(_.Xp, {
                 value: this.currentRoomViewStyle,
-                onChange: (e) => l.G3.SetSettingsValue(v.oh, e),
-                label: (0, a.Xx)("#Settings_Camera_RoomViewStyle"),
-                items: p,
+                onChange: (e) => S.G3.SetSettingsValue(h.oh, e),
+                label: (0, m.Xx)("#Settings_Camera_RoomViewStyle"),
+                items: a,
                 subsection:
                   (n || t) &&
-                  o.createElement(
-                    o.Fragment,
+                  c.createElement(
+                    c.Fragment,
                     null,
                     t &&
-                      o.createElement(c.vE, {
+                      c.createElement(_.vE, {
                         nameR: "/settings/camera/cameraBoundsColorGammaR",
                         nameG: "/settings/camera/cameraBoundsColorGammaG",
                         nameB: "/settings/camera/cameraBoundsColorGammaB",
-                        label: (0, a.Xx)("#Settings_Chaperone_BoundsColor"),
+                        label: (0, m.Xx)("#Settings_Chaperone_BoundsColor"),
                       }),
                     n &&
-                      o.createElement(c.hR, {
+                      c.createElement(_.hR, {
                         name: "/settings/camera/cameraBoundsColorGammaA",
                         min: 76.5,
                         max: 255,
-                        label: (0, a.Xx)(
+                        label: (0, m.Xx)(
                           "#Settings_Chaperone_BoundsTransparency"
                         ),
                         color: {
-                          r: l.G3.settings.get(
+                          r: S.G3.settings.get(
                             "/settings/camera/cameraBoundsColorGammaR"
                           ),
-                          g: l.G3.settings.get(
+                          g: S.G3.settings.get(
                             "/settings/camera/cameraBoundsColorGammaG"
                           ),
-                          b: l.G3.settings.get(
+                          b: S.G3.settings.get(
                             "/settings/camera/cameraBoundsColorGammaB"
                           ),
                         },
                       })
                   ),
               }),
-            o.createElement(c.wy, {
+            c.createElement(_.wy, {
               name: "/settings/camera/showOnController",
-              label: (0, a.Xx)("#Settings_Camera_ShowOnController"),
-              title: (0, a.Xx)("#Settings_Camera_ShowOnController_Desc"),
+              label: (0, m.Xx)("#Settings_Camera_ShowOnController"),
+              title: (0, m.Xx)("#Settings_Camera_ShowOnController_Desc"),
             }),
-            o.createElement(c.wy, {
+            c.createElement(_.wy, {
               name: "/settings/camera/enableCameraForCollisionBounds",
-              label: (0, a.Xx)(
+              label: (0, m.Xx)(
                 "#Settings_Camera_AllowCameraForChaperoneBounds"
               ),
-              title: (0, a.Xx)(
+              title: (0, m.Xx)(
                 "#Settings_Camera_AllowCameraForChaperoneBounds_Desc"
               ),
             }),
-            o.createElement("hr", null)
+            c.createElement("hr", null)
           );
         }
         render() {
           return this.props.active
-            ? o.createElement(
-                o.Fragment,
+            ? c.createElement(
+                c.Fragment,
                 null,
                 this.cameraEnabled() && this.renderEnabledSettings(),
                 this.cameraEnabled() && this.GetComponentsForGroup("dev"),
-                o.createElement(c.wy, {
-                  label: (0, a.Xx)("#Settings_Camera_EnableCamera"),
+                c.createElement(_.wy, {
+                  label: (0, m.Xx)("#Settings_Camera_EnableCamera"),
                   value: this.cameraEnabled(),
                   requiresRestart: !0,
                   onChange: this.onCameraEnabled,
-                  offLabel: (0, a.Xx)("#Settings_ToggleButton_Disable"),
-                  onLabel: (0, a.Xx)("#Settings_ToggleButton_Enable"),
+                  offLabel: (0, m.Xx)("#Settings_ToggleButton_Disable"),
+                  onLabel: (0, m.Xx)("#Settings_ToggleButton_Enable"),
                 }),
-                this.cameraEnabled() && o.createElement(b, null),
+                this.cameraEnabled() && c.createElement(w, null),
                 this.makeResetToDefaultButton()
               )
             : null;
         }
       };
-      (C.Name = "camera_settings"),
-        (0, i.gn)([d.ak], C.prototype, "onCameraEnabled", null),
-        (0, i.gn)([d.ak], C.prototype, "onCameraRateChanged", null),
-        (0, i.gn)([d.ak], C.prototype, "onStartCameraTest", null),
-        (0, i.gn)([d.ak], C.prototype, "onStopCameraTest", null),
-        (0, i.gn)([f.Fl], C.prototype, "currentRoomViewStyle", null),
-        (C = (0, i.gn)([s.Pi], C));
-      var w = n(8546);
-      let k = class extends c.d9 {
+      (M.Name = "camera_settings"),
+        (0, i.gn)([s.ak], M.prototype, "onCameraEnabled", null),
+        (0, i.gn)([s.ak], M.prototype, "onCameraRateChanged", null),
+        (0, i.gn)([s.ak], M.prototype, "onStartCameraTest", null),
+        (0, i.gn)([s.ak], M.prototype, "onStopCameraTest", null),
+        (0, i.gn)([a.Fl], M.prototype, "currentRoomViewStyle", null),
+        (M = (0, i.gn)([l.Pi], M));
+      var R = n(3371),
+        T = n(7677);
+      let P = class extends c.Component {
+        constructor(e) {
+          super(e),
+            (this.state = {
+              m_nValue: S.G3.settings.get("/settings/dashboard/dashboardScale"),
+            });
+        }
+        componentDidMount() {
+          this.m_settingObserverAutorunDisposer = (0, a.EH)(() => {
+            this.setState({
+              m_nValue: S.G3.settings.get("/settings/dashboard/dashboardScale"),
+            });
+          });
+        }
+        componentWillUnmount() {
+          this.m_settingObserverAutorunDisposer &&
+            (this.m_settingObserverAutorunDisposer(),
+            (this.m_settingObserverAutorunDisposer = null));
+        }
+        render() {
+          return c.createElement(_.U4, {
+            label: (0, m.Xx)("#Settings_DashboardScale"),
+            min: 0.75,
+            max: 1.5,
+            valueStyleVariant: C.px.OnHandle,
+            renderValue: (e) => (100 * e).toFixed(0) + "%",
+            value: this.state.m_nValue,
+            detents: [1],
+            onChange: (e) => {
+              this.setState({ m_nValue: e }),
+                (0, o.Op)() != o.qA.Overlay &&
+                  S.G3.SetSettingsValue(
+                    "/settings/dashboard/dashboardScale",
+                    e
+                  );
+            },
+            onFinalChange: (e) =>
+              S.G3.SetSettingsValue("/settings/dashboard/dashboardScale", e),
+          });
+        }
+      };
+      P = (0, i.gn)([l.Pi], P);
+      let E = class extends _.d9 {
+        constructor(e) {
+          super(e);
+        }
+        render() {
+          var e;
+          if (!this.props.active) return null;
+          const t =
+            null !==
+              (e = S.G3.settings.get("/settings/dashboard/allowTheaterMode")) &&
+            void 0 !== e &&
+            e;
+          return c.createElement(
+            c.Fragment,
+            null,
+            c.createElement(_.Xp, {
+              name: h.o1,
+              label: (0, m.Xx)("#Settings_Dashboard_Position"),
+              items: [
+                { value: T._.Near, sLabel: (0, m.Xx)("#Settings_Near") },
+                { value: T._.Middle, sLabel: (0, m.Xx)("#Settings_Middle") },
+                { value: T._.Far, sLabel: (0, m.Xx)("#Settings_Far") },
+              ],
+            }),
+            t &&
+              c.createElement(_.Xp, {
+                name: "/settings/dashboard/theaterPosition",
+                label: "Theater Position",
+                items: [
+                  { value: T._.Near, sLabel: (0, m.Xx)("#Settings_Near") },
+                  { value: T._.Middle, sLabel: (0, m.Xx)("#Settings_Middle") },
+                  { value: T._.Far, sLabel: (0, m.Xx)("#Settings_Far") },
+                ],
+              }),
+            t &&
+              c.createElement(_.U4, {
+                name: "/settings/dashboard/theaterModeBrightness",
+                label: "Theater Room Brightness",
+                min: 0,
+                max: 1,
+                valueStyleVariant: C.px.OnHandle,
+                detents: [0.5],
+                renderValue: (e) => (100 * e).toFixed(0) + "%",
+              }),
+            t &&
+              c.createElement(_.U4, {
+                name: "/settings/dashboard/theaterModeReflection",
+                label: "Theater Room Reflections",
+                min: 0,
+                max: 1,
+                valueStyleVariant: C.px.OnHandle,
+                detents: [0.5],
+                renderValue: (e) => (100 * e).toFixed(0) + "%",
+              }),
+            c.createElement(_.wy, {
+              name: "/settings/dashboard/showPowerOptions",
+              label: (0, m.Xx)("#Settings_ShowPowerMenu"),
+              visibility: _.VK.Advanced,
+            }),
+            c.createElement(_.wy, {
+              name: "/settings/dashboard/showDesktop",
+              label: (0, m.Xx)("#Settings_ShowDesktopViews"),
+              visibility: _.VK.Advanced,
+            }),
+            c.createElement(_.wy, {
+              name: "/settings/dashboard/allowAppQuitting",
+              label: (0, m.Xx)("#Settings_AllowAppQuitting"),
+              visibility: _.VK.Advanced,
+            }),
+            c.createElement(_.wy, {
+              name: "/settings/dashboard/arcadeMode",
+              label: (0, m.Xx)("#Settings_ShowSettingsInDashboard"),
+              swapOnOff: !0,
+              visibility: _.VK.Advanced,
+            }),
+            c.createElement(_.wy, {
+              name: "/settings/dashboard/enableDashboard",
+              title: (0, m.Xx)("#Settings_EnableDashboardDesc"),
+              label: (0, m.Xx)("#Settings_EnableDashboard"),
+              visibility: _.VK.Advanced,
+            })
+          );
+        }
+      };
+      (E.Name = "dashboard_settings"), (E = (0, i.gn)([l.Pi], E));
+      let L = class extends _.d9 {
+        constructor(e) {
+          super(e);
+        }
+        OnSetAsOpenXRRuntime() {
+          null === VRHTML ||
+            void 0 === VRHTML ||
+            VRHTML.XRRuntimeManager.SetThisRuntimeToCurrent(),
+            this.forceUpdate();
+        }
+        render() {
+          var e;
+          if (!this.props.active) return null;
+          let [t, n] =
+            null !==
+              (e =
+                null === VRHTML || void 0 === VRHTML
+                  ? void 0
+                  : VRHTML.XRRuntimeManager.GetCurrentRuntime()) && void 0 !== e
+              ? e
+              : [o.GC.Error, ""];
+          switch ((o.GC.ThisSteamVR, t)) {
+            case o.GC.AnotherSteamVR:
+              n = "#OpenXR_AnotherSteamVR";
+              break;
+            case o.GC.ThisSteamVR:
+              n = "#OpenXR_SteamVR";
+              break;
+            default:
+            case o.GC.Error:
+              n = "#OpenXR_Error";
+              break;
+            case o.GC.None:
+              n = "#OpenXR_None";
+              break;
+            case o.GC.AnotherRuntime:
+              switch (n) {
+                case "Oculus OpenXR":
+                  n = "#OpenXR_OculusRuntime";
+                  break;
+                case "MixedRealityRuntime":
+                  n = "#OpenXR_WindowsMixedReality";
+              }
+          }
+          return (
+            n.startsWith("#") && (n = (0, m.Xx)(n)),
+            c.createElement(
+              c.Fragment,
+              null,
+              this.schemaComponents,
+              c.createElement(
+                "div",
+                { className: "SettingsItem" },
+                c.createElement(
+                  "div",
+                  { className: "OpenXRRuntimeLabel" },
+                  (0, m.Xx)("#Settings_CurrentOpenXRRuntime")
+                ),
+                c.createElement(
+                  "div",
+                  { className: "OpenXRRuntimeValue" },
+                  " ",
+                  n,
+                  " "
+                )
+              ),
+              !(null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.XRRuntimeManager.IsThisRuntimeCurrent()) &&
+                c.createElement(
+                  "div",
+                  { className: "SettingsItem Button ResetDefaultButton" },
+                  c.createElement(
+                    d.z,
+                    {
+                      className: "ButtonControl",
+                      onClick: this.OnSetAsOpenXRRuntime,
+                    },
+                    (0, m.Xx)("#Settings_SetAsOpenXRRuntime")
+                  )
+                ),
+              this.makeResetToDefaultButton()
+            )
+          );
+        }
+      };
+      (L.Name = "developer_settings"),
+        (0, i.gn)([s.ak], L.prototype, "OnSetAsOpenXRRuntime", null),
+        (L = (0, i.gn)([l.Pi], L));
+      var D = n(505);
+      let I = class extends _.d9 {
         constructor(e) {
           super(e);
         }
         render() {
           return this.props.active
-            ? o.createElement(
-                o.Fragment,
+            ? c.createElement(
+                c.Fragment,
                 null,
-                o.createElement(S.DX, null),
-                o.createElement(S.nb, null),
-                o.createElement(S.RR, null),
-                o.createElement(S.TO, null),
-                o.createElement(S.Dc, null),
-                o.createElement(c.Xp, {
-                  name: v.o1,
-                  label: (0, a.Xx)("#Settings_Dashboard_Position"),
+                c.createElement(D.DX, null),
+                c.createElement(D.nb, null),
+                c.createElement(D.RR, null),
+                c.createElement(D.TO, null),
+                c.createElement(D.Dc, null),
+                c.createElement(_.Xp, {
+                  name: h.o1,
+                  label: (0, m.Xx)("#Settings_Dashboard_Position"),
                   items: [
-                    { value: w._.Near, sLabel: (0, a.Xx)("#Settings_Near") },
+                    { value: T._.Near, sLabel: (0, m.Xx)("#Settings_Near") },
                     {
-                      value: w._.Middle,
-                      sLabel: (0, a.Xx)("#Settings_Middle"),
+                      value: T._.Middle,
+                      sLabel: (0, m.Xx)("#Settings_Middle"),
                     },
-                    { value: w._.Far, sLabel: (0, a.Xx)("#Settings_Far") },
+                    { value: T._.Far, sLabel: (0, m.Xx)("#Settings_Far") },
                   ],
                 }),
-                o.createElement(c.wy, {
+                c.createElement(_.wy, {
                   name: "/settings/notifications/DoNotDisturb",
-                  label: (0, a.Xx)("#Settings_General_Notifications_Label"),
-                  title: (0, a.Xx)("#Settings_General_Notifications_Text"),
+                  label: (0, m.Xx)("#Settings_General_Notifications_Label"),
+                  title: (0, m.Xx)("#Settings_General_Notifications_Text"),
                   swapOnOff: !0,
                 }),
-                o.createElement(c.wy, {
+                c.createElement(_.wy, {
                   name: "/settings/userinterface/StatusAlwaysOnTop",
-                  label: (0, a.Xx)("#Settings_StatusWindowAlwaysOnTop_Text"),
-                  visibility: c.VK.Desktop,
+                  label: (0, m.Xx)("#Settings_StatusWindowAlwaysOnTop_Text"),
+                  visibility: _.VK.Desktop,
                 }),
-                o.createElement(c.wy, {
+                c.createElement(_.wy, {
                   name: "/settings/steamvr/allowDisplayLockedMode",
-                  label: (0, a.Xx)("#Settings_PauseOnLocked"),
+                  label: (0, m.Xx)("#Settings_PauseOnLocked"),
                   swapOnOff: !0,
-                  visibility: c.VK.Advanced,
+                  visibility: _.VK.Advanced,
                 }),
-                o.createElement(c.wy, {
+                c.createElement(_.wy, {
                   name: "/settings/steamvr/enableHomeApp",
-                  label: (0, a.Xx)("#Settings_HomeAppCheck"),
-                  title: (0, a.Xx)("#Settings_HomeAppDesc"),
-                  visibility: c.VK.Advanced,
+                  label: (0, m.Xx)("#Settings_HomeAppCheck"),
+                  title: (0, m.Xx)("#Settings_HomeAppDesc"),
+                  visibility: _.VK.Advanced,
                 })
               )
             : null;
         }
       };
-      (k.Name = "general_settings"), (k = (0, i.gn)([s.Pi], k));
-      var M,
-        R = n(3371),
-        T = n(9669),
-        P = n.n(T);
-      !(function (e) {
-        (e.Unknown = "unknown"),
-          (e.CheckingForUpdate = "checking"),
-          (e.Error = "error"),
-          (e.InProgress = "update_in_progress"),
-          (e.Succeeded = "update_succeeded"),
-          (e.Failed = "update_failed"),
-          (e.Reboot = "reboot"),
-          (e.NoServer = "noserver"),
-          (e.Available = "update"),
-          (e.Reinstall = "reinstall");
-      })(M || (M = {}));
-      class E extends o.Component {
-        constructor(e) {
-          super(e),
-            (this.updateTimer = -1),
-            (this.state = { state: M.Unknown });
-        }
-        componentDidMount() {
-          this.RequestChannels();
-        }
-        cancelUpdateTimer() {
-          -1 != this.updateTimer &&
-            (window.clearInterval(this.updateTimer), (this.updateTimer = -1));
-        }
-        componentWillUnmount() {
-          this.cancelUpdateTimer();
-        }
-        RequestChannels() {
-          return (0, i.mG)(this, void 0, void 0, function* () {
-            try {
-              console.log("requesting channels");
-              let e = (yield P().get("/linux_update/get_channels.json")).data;
-              this.setState({
-                channels: e.channels,
-                current_channel: e.current_channel,
-              });
-            } catch (e) {
-              console.log("failed to get_channels because of exception: " + e),
-                this.setState({
-                  state: M.Error,
-                  detail: "WebAPI request failed",
-                });
-            }
-          });
-        }
-        RequestUpdateState() {
-          return (0, i.mG)(this, void 0, void 0, function* () {
-            try {
-              console.log("requesting update state");
-              let e = (yield P().get("/linux_update/get_state.json")).data;
-              switch (
-                (console.log("get_state response " + JSON.stringify(e)),
-                this.setState({ state: e.status, detail: e.detail }),
-                e.status)
-              ) {
-                case M.Error:
-                case M.Failed:
-                case M.Reinstall:
-                case M.Succeeded:
-                case M.Reboot:
-                  this.cancelUpdateTimer();
-              }
-            } catch (e) {
-              console.log(
-                "failed to get update state because of exception: " + e
-              ),
-                this.setState({
-                  state: M.Error,
-                  detail: "WebAPI request failed",
+      function O() {
+        const [e, t] = c.useState();
+        return c.createElement(
+          _.GV,
+          { className: "SettingsItem" },
+          c.createElement(
+            d.z,
+            {
+              className: "ButtonControl Spanning",
+              onClick: () =>
+                (0, i.mG)(this, void 0, void 0, function* () {
+                  t(null);
+                  try {
+                    (yield S.G3.ReloadSettingsSchema()).success
+                      ? window.location.reload()
+                      : t(
+                          "Failed to reload schema. File might not be found, or might be invalid."
+                        );
+                  } catch (e) {
+                    t(e.message);
+                  }
                 }),
-                this.cancelUpdateTimer();
-            }
-          });
-        }
-        onClickUpdate() {
-          this.setState({ state: M.InProgress }),
-            -1 == this.updateTimer &&
-              (this.updateTimer = window.setInterval(() => {
-                this.RequestUpdateState();
-              }, 5e3)),
-            console.log("requesting update");
-          try {
-            P().post("/linux_update/update.action");
-          } catch (e) {
-            console.log("failed to request update because of exception: " + e),
-              this.setState({
-                state: M.Error,
-                detail: "WebAPI request failed",
-              }),
-              this.cancelUpdateTimer();
-          }
-        }
-        onClickCheckForUpdate() {
-          console.log("check for update"),
-            this.setState({ state: M.CheckingForUpdate, detail: "" }),
-            this.RequestUpdateState();
-        }
-        onClickReboot() {
-          console.log("requesting reboot");
-          try {
-            P().post("/linux_update/reboot.action");
-          } catch (e) {
-            console.log("failed to request reboot because of exception: " + e),
-              this.setState({
-                state: M.Error,
-                detail: "WebAPI request failed",
-              });
-          }
-        }
-        renderStatus(e, t, n) {
-          return o.createElement(
-            c.GV,
+            },
+            "Reload Settings Schema"
+          ),
+          e && c.createElement("div", { className: "Subsection Label" }, e)
+        );
+      }
+      (I.Name = "general_settings"), (I = (0, i.gn)([l.Pi], I));
+      const B = (0, l.Pi)(() =>
+          c.createElement(
+            _.GV,
             { className: "SettingsItem" },
-            o.createElement("div", { className: "Label" }, "Software Updates"),
-            e &&
-              o.createElement(
-                _.z,
-                { className: "ButtonControl", onClick: n, enabled: !!n },
-                e
-              ),
-            t && o.createElement("div", { className: "Label" }, t)
-          );
-        }
-        renderState() {
-          switch (this.state.state) {
-            default:
-            case M.Unknown:
-              return this.renderStatus(
-                "Check For Updates",
-                "",
-                this.onClickCheckForUpdate
-              );
-            case M.CheckingForUpdate:
-              return this.renderStatus("Checking");
-            case M.InProgress:
-              return this.renderStatus(
-                "Installing update...",
-                "Installing update... (typical duration 5 min)"
-              );
-            case M.Available:
-              return this.renderStatus(
-                "Install",
-                "Update Available: " + this.state.detail,
-                this.onClickUpdate
-              );
-            case M.Error:
-              return this.renderStatus(
-                "Retry Install",
-                "Update Error: " + this.state.detail,
-                this.onClickUpdate
-              );
-            case M.Failed:
-              return this.renderStatus(
-                "Retry Install",
-                "Update Failed:" + this.state.detail,
-                this.onClickUpdate
-              );
-            case M.Reinstall:
-              return this.renderStatus(
-                "Reinstall",
-                this.state.detail,
-                this.onClickUpdate
-              );
-            case M.Succeeded:
-            case M.Reboot:
-              return this.renderStatus(
-                "Reboot",
-                "Update Successful. Reboot to finish Update process",
-                this.onClickReboot
-              );
-          }
-        }
-        onChangeChannel(e) {
-          return (0, i.mG)(this, void 0, void 0, function* () {
-            console.log("setting channel to " + e);
-            try {
-              this.setState({ current_channel: e }),
-                yield P().post(
-                  "/linux_update/set_channel.action",
-                  JSON.stringify({ sNewChannel: e })
-                ),
-                this.RequestUpdateState();
-            } catch (e) {
-              console.log("failed to set channel because of exception: " + e);
-            }
-          });
-        }
-        renderChannelDropdown() {
-          var e;
-          if (
-            !this.state.current_channel ||
-            !(null === (e = this.state.channels) || void 0 === e
-              ? void 0
-              : e.length)
+            c.createElement(_.Xp, {
+              label: "Auto-Show Dashboard",
+              name: h.y3,
+              items: [
+                { value: "", sLabel: "Default" },
+                v.Kr.Separator,
+                { value: h.T2, sLabel: "Steam (GamepadUI)" },
+                { value: h.Y8, sLabel: "Steam (Tenfoot)" },
+                v.Kr.Separator,
+                { value: h.O5, sLabel: "Library" },
+                { value: h.PF, sLabel: "Now Playing" },
+                { value: h.wB, sLabel: "Store" },
+                v.Kr.Separator,
+                { value: h.gB, sLabel: "Desktop View" },
+                { value: h.r4 + ".1", sLabel: "Desktop 1" },
+                { value: h.r4 + ".2", sLabel: "Desktop 2" },
+                v.Kr.Separator,
+                { value: h.A4, sLabel: "Settings" },
+              ],
+            })
           )
-            return o.createElement("div", { className: "Label" }, "Loading...");
-          let t = this.state.channels.map((e) => ({ value: e, sLabel: e }));
-          return o.createElement(c.Xp, {
-            items: t,
-            value: this.state.current_channel,
-            onChange: this.onChangeChannel,
-            defaultLabel: "Channel",
-          });
-        }
-        renderOSUpdateChannel() {
-          return o.createElement(
-            c.GV,
-            { className: "SettingsItem" },
-            o.createElement("div", { className: "Label" }, "OS Update Channel"),
-            this.renderChannelDropdown()
-          );
-        }
-        render() {
-          return o.createElement(
-            o.Fragment,
+        ),
+        V = (e) => {
+          const [t, n] = c.useState(1),
+            [i, o] = c.useState(1),
+            [s, r] = c.useState(1),
+            [a, l] = c.useState(1),
+            [d, p] = c.useState(!1);
+          return c.createElement(
+            c.Fragment,
             null,
-            this.renderState(),
-            this.renderOSUpdateChannel()
+            c.createElement(_.D3, {
+              label: "Segmented Control",
+              items: [
+                { sLabel: "One", value: 1 },
+                { sLabel: "Two", value: 2 },
+              ],
+              value: t,
+              onChange: n,
+            }),
+            c.createElement(_.D3, {
+              label: "Segmented Control",
+              items: [
+                { sLabel: "One", value: 1 },
+                { sLabel: "Two", value: 2 },
+                { sLabel: "Three", value: 3 },
+              ],
+              value: i,
+              onChange: o,
+            }),
+            c.createElement(_.D3, {
+              label: "Segmented Control",
+              items: [
+                { sLabel: "One", value: 1 },
+                { sLabel: "Two", value: 2 },
+                { sLabel: "Three", value: 3 },
+                { sLabel: "Four", value: 4 },
+              ],
+              value: s,
+              onChange: r,
+            }),
+            c.createElement(_.D3, {
+              label: "Segmented Control",
+              items: [
+                { sLabel: "1", value: 1 },
+                { sLabel: "2", value: 2 },
+                { sLabel: "3", value: 3 },
+                { sLabel: "4", value: 4 },
+                { sLabel: "5", value: 5 },
+              ],
+              value: a,
+              onChange: l,
+            }),
+            c.createElement("hr", null),
+            c.createElement(_.wy, {
+              label: "Standard Toggle",
+              value: d,
+              onChange: p,
+            }),
+            c.createElement(_.wy, {
+              label: "Inverted Toggle",
+              value: d,
+              onChange: p,
+              swapOnOff: !0,
+            })
           );
-        }
-      }
-      function L(e) {
-        return e.replace(/\/+$/, "");
-      }
-      (0, i.gn)([d.ak], E.prototype, "RequestUpdateState", null),
-        (0, i.gn)([d.ak], E.prototype, "onClickUpdate", null),
-        (0, i.gn)([d.ak], E.prototype, "onClickCheckForUpdate", null),
-        (0, i.gn)([d.ak], E.prototype, "onClickReboot", null),
-        (0, i.gn)([d.ak], E.prototype, "onChangeChannel", null);
-      class D extends o.Component {
-        constructor(e) {
-          super(e), (this.state = { currentPath: "" });
-        }
-        componentDidMount() {
-          const e = r.ZP.VRPathRegistry.GetRuntimePath();
-          let t = r.ZP.VRPathRegistry.GetInstalledRuntimes();
-          console.log("installedRuntimes: " + JSON.stringify(t)),
-            console.log("currentPath: " + JSON.stringify(e)),
-            this.setState({ currentPath: e, installedRuntimes: t });
-        }
-        render() {
-          if (!r.ZP || null == this.state.installedRuntimes) return null;
-          const e = (e) => "/usr/local/steamvr" == L(e.toLowerCase()),
-            t = (t) =>
-              e(t)
-                ? "System Default"
-                : ((e) => "/data/work/steamvr" == L(e.toLowerCase()))(t)
-                ? "Custom Build"
-                : "Custom: " + t.toLowerCase(),
-            n = this.state.installedRuntimes
-              .filter((e) => e)
-              .map((e) => ({ value: e, sLabel: t(e) })),
-            i = e(this.state.currentPath);
-          return o.createElement(
-            c.GV,
-            { className: "SettingsItem" },
-            o.createElement("div", { className: "Label" }, "SteamVR Install"),
-            n.length > 1 &&
-              o.createElement(c.Xp, {
-                defaultLabel: t(this.state.currentPath),
-                items: n,
-                onChange: (e) => {
-                  r.ZP.VRPathRegistry.SetRuntimePath(e),
-                    console.log("SetRuntimePath to " + e),
-                    l.G3.SetRestartRequired(),
-                    this.setState({
-                      currentPath: r.ZP.VRPathRegistry.GetRuntimePath(),
-                    });
+        },
+        G = (e) => {
+          const [t, n] = c.useState(1);
+          return c.createElement(
+            c.Fragment,
+            null,
+            c.createElement(_.t0, {
+              label: "Radio Buttons",
+              items: [
+                { sLabel: "1", value: 1 },
+                { sLabel: "2", value: 2 },
+                { sLabel: "3", value: 3 },
+                { sLabel: "4", value: 4 },
+              ],
+              value: t,
+              onChange: n,
+            })
+          );
+        },
+        x = (e) => {
+          const [t, n] = c.useState(1);
+          return c.createElement(
+            c.Fragment,
+            null,
+            c.createElement(_.Xp, {
+              label: "Dropdown",
+              items: [
+                { sLabel: "One", value: 1 },
+                { sLabel: "Two", value: 2 },
+                { sLabel: "Three", value: 3 },
+                { sLabel: "Four", value: 4 },
+              ],
+              value: t,
+              onChange: n,
+            })
+          );
+        },
+        F = (0, l.Pi)(() => {
+          const e = "settingscontrolzoo",
+            t = S.G3.routePageSection == e;
+          return c.createElement(
+            c.Fragment,
+            null,
+            c.createElement(
+              "div",
+              { className: "SettingsItem Button" },
+              c.createElement(
+                d.z,
+                {
+                  className: "ButtonControl",
+                  onClick: () => S.G3.setRoutePageSection(e),
                 },
-              }),
-            1 == n.length &&
-              o.createElement(
-                "div",
-                { className: "Label" },
-                " ",
-                n[0].sLabel,
-                " "
-              ),
-            !i &&
-              o.createElement(
-                "div",
-                { className: "Label Warning" },
-                "(Does not update with System Update)"
+                "Zoo of Settings Controls"
+              )
+            ),
+            t &&
+              c.createElement(
+                _.TB,
+                {
+                  header: "Settings Controls",
+                  onDismissRequested: () => S.G3.setRoutePageSection(null),
+                },
+                c.createElement(V, null),
+                c.createElement("hr", null),
+                c.createElement(G, null),
+                c.createElement("hr", null),
+                c.createElement(x, null)
               )
           );
-        }
-      }
-      let I = class extends c.d9 {
+        });
+      let N = class extends _.d9 {
         constructor(e) {
-          super(e), (this.state = {});
-        }
-        GetNetworkInfo() {
-          let e = { linksPaired: [], foxnetActive: !1, ethernetActive: !1 },
-            t = r.ZP.GetHostInfo(r.zA.NetworkConnections);
-          if (void 0 !== t) {
-            let n = t.split("\n");
-            for (let t of n) {
-              let n = t.split(":");
-              switch (n[1]) {
-                case "802-3-ethernet":
-                  "activated" == n[2] && (e.ethernetActive = !0);
-                  break;
-                case "802-11-wireless":
-                  "activated" == n[2] && (e.activeWifi = n[0]);
-                  break;
-                case "wireguard":
-                  "activated" == n[2] && (e.foxnetActive = !0);
-              }
-            }
-          }
-          return e;
-        }
-        getSystemVersion() {
-          var e, t, n, i, o;
-          let s =
-              null ===
-                (e =
-                  null === r.ZP || void 0 === r.ZP
-                    ? void 0
-                    : r.ZP.GetHostInfo(r.zA.Version)) || void 0 === e
-                ? void 0
-                : e.split("\n"),
-            a = {};
-          if (void 0 !== s)
-            for (let e of s) {
-              let t = e.split("=");
-              switch (t[0]) {
-                case "VERSION":
-                  a.version = t[1];
-                  break;
-                case "USER":
-                  a.user = t[1];
-                  break;
-                case "MACHINE":
-                  a.hostname = t[1];
-                  break;
-                case "DATE":
-                  a.datetime = t[1];
-              }
-            }
-          return null !==
-            (o =
-              null !==
-                (i =
-                  null !==
-                    (n =
-                      null !== (t = a.version) && void 0 !== t
-                        ? t
-                        : "?" + a.user) && void 0 !== n
-                    ? n
-                    : "?@" + a.hostname) && void 0 !== i
-                ? i
-                : "?" + a.datetime) && void 0 !== o
-            ? o
-            : "?";
+          super(e);
         }
         render() {
-          var e, t, n, i;
-          if (!this.props.active) return null;
-          let s =
-              null !==
-                (e =
-                  null === r.ZP || void 0 === r.ZP
-                    ? void 0
-                    : r.ZP.GetHostInfo(r.zA.XRS_CalibrationDate)) &&
-              void 0 !== e
-                ? e
-                : "???",
-            a = null,
-            l = !0;
-          try {
-            a = Date.parse(s.split("_")[0]);
-          } finally {
-          }
-          if (a) {
-            const e = "2021-11-22";
-            l = a < Date.parse(e);
-          }
-          let d = this.getSystemVersion(),
-            p = this.GetNetworkInfo(),
-            u =
-              null !== (t = p.activeWifi) && void 0 !== t ? t : "disconnected";
-          return (
-            p.ethernetActive && (u += " +Ethernet"),
-            p.foxnetActive && (u += " +Foxnet"),
-            o.createElement(
-              o.Fragment,
-              null,
-              o.createElement(E, null),
-              o.createElement(D, null),
-              o.createElement("br", null),
-              o.createElement("hr", null),
-              o.createElement(
-                c.GV,
-                { className: "SettingsItem" },
-                o.createElement("div", { className: "Label" }, "Hostname"),
-                o.createElement(
-                  "div",
-                  { className: "Label" },
-                  null === r.ZP || void 0 === r.ZP
-                    ? void 0
-                    : r.ZP.GetHostInfo(r.zA.Hostname)
-                )
-              ),
-              o.createElement(
-                c.GV,
-                { className: "SettingsItem" },
-                o.createElement(
-                  "div",
-                  { className: "Label" },
-                  "System Version"
-                ),
-                o.createElement("div", { className: "Label" }, d)
-              ),
-              o.createElement(
-                c.GV,
-                { className: "SettingsItem" },
-                o.createElement("div", { className: "Label" }, "WiFi"),
-                o.createElement("div", { className: "Label" }, u)
-              ),
-              o.createElement(
-                c.GV,
-                { className: "SettingsItem" },
-                o.createElement("div", { className: "Label" }, "Link paired"),
-                null !==
-                  (i =
-                    null === (n = p.linksPaired) || void 0 === n
-                      ? void 0
-                      : n.map((e, t) =>
-                          o.createElement(
-                            "div",
-                            { key: t, className: "Label" },
-                            e
-                          )
-                        )) && void 0 !== i
-                  ? i
-                  : "none"
-              ),
-              o.createElement(
-                c.GV,
-                { className: "SettingsItem" },
-                o.createElement("div", { className: "Label" }, "XRService Cal"),
-                o.createElement("div", { className: "Label" }, s),
-                l &&
-                  o.createElement(
-                    "div",
-                    { className: "Label Error" },
-                    "REQUIRES CAMERA CALIBRATION"
-                  )
-              ),
-              o.createElement(
-                c.GV,
-                { className: "SettingsItem" },
-                o.createElement("div", { className: "Label" }, "IP"),
-                o.createElement(
-                  "div",
-                  { className: "Label" },
-                  null === r.ZP || void 0 === r.ZP
-                    ? void 0
-                    : r.ZP.GetHostInfo(r.zA.IP)
-                )
+          return this.props.active
+            ? c.createElement(
+                c.Fragment,
+                null,
+                !1,
+                !1,
+                !1,
+                !1,
+                !1,
+                !1,
+                this.schemaComponents,
+                c.createElement(_.U4, {
+                  name: "/settings/dashboard/verticalOffsetCm_2",
+                  label: "Vertical Offset (cm)",
+                  min: -9,
+                  max: 9,
+                  valueStyleVariant: C.px.OnHandle,
+                  detents: [0],
+                  renderValue: (e) => e.toFixed(0) + " cm",
+                  step: 1,
+                }),
+                c.createElement(_.wy, {
+                  label: "Enable Per-App Refresh Rate",
+                  name: "/settings/internal/enablePerAppFPS",
+                }),
+                c.createElement(_.wy, {
+                  label: "Allow Dashboard auto-launch with SteamVR Home",
+                  name: "/settings/dashboard/allowDashboardAutoLaunchWithSteamVRHome",
+                }),
+                c.createElement(_.wy, {
+                  label: "Skip the Dashboard BG fade during SteamVR Home",
+                  name: "/settings/dashboard/omitDashboardFadeWithSteamVRHome",
+                }),
+                c.createElement(_.wy, {
+                  label: "Haptics on Button Exit",
+                  name: "/settings/steamvr/noEdgeExitHaptics",
+                  swapOnOff: !0,
+                }),
+                c.createElement(_.wy, {
+                  label: "Force Welcome in Quicklaunch",
+                  name: "/settings/dashboard/forceWelcomeScreen",
+                }),
+                c.createElement(_.wy, {
+                  name: h.BW,
+                  swapOnOff: !0,
+                  label: (0, m.Xx)("#Settings_Animations"),
+                }),
+                c.createElement(B, null),
+                c.createElement(O, null),
+                c.createElement(F, null),
+                this.makeResetToDefaultButton()
               )
-            )
-          );
+            : null;
         }
       };
-      var O, B;
-      (I.Name = "system_settings"),
-        (I = (0, i.gn)([s.Pi], I)),
-        (function (e) {
-          (e[(e.NoConnection = 0)] = "NoConnection"),
-            (e[(e.Connected = 1)] = "Connected"),
-            (e[(e.ConnectInitiated = 2)] = "ConnectInitiated"),
-            (e[(e.EnteringPassword = 3)] = "EnteringPassword"),
-            (e[(e.Connecting = 4)] = "Connecting"),
-            (e[(e.ConnectionSuccess = 5)] = "ConnectionSuccess"),
-            (e[(e.ConnectionFailure = 6)] = "ConnectionFailure");
-        })(O || (O = {})),
+      (N.Name = "internal_settings"), (N = (0, i.gn)([l.Pi], N));
+      var H,
+        U,
+        W = n(9669),
+        X = n.n(W);
+      !(function (e) {
+        (e[(e.NoConnection = 0)] = "NoConnection"),
+          (e[(e.Connected = 1)] = "Connected"),
+          (e[(e.ConnectInitiated = 2)] = "ConnectInitiated"),
+          (e[(e.EnteringPassword = 3)] = "EnteringPassword"),
+          (e[(e.Connecting = 4)] = "Connecting"),
+          (e[(e.ConnectionSuccess = 5)] = "ConnectionSuccess"),
+          (e[(e.ConnectionFailure = 6)] = "ConnectionFailure");
+      })(H || (H = {})),
         (function (e) {
           (e[(e.NoSoftAP = 0)] = "NoSoftAP"),
             (e[(e.GettingStatus = 1)] = "GettingStatus"),
@@ -1218,8 +1218,8 @@
             (e[(e.CreationFailure = 6)] = "CreationFailure"),
             (e[(e.Connected = 7)] = "Connected"),
             (e[(e.Destroying = 8)] = "Destroying");
-        })(B || (B = {}));
-      class V extends o.Component {
+        })(U || (U = {}));
+      class q extends c.Component {
         constructor(e) {
           super(e),
             (this.state = {
@@ -1227,16 +1227,16 @@
               currentAccessPoint: null,
               targetAccessPoint: null,
               sTargetPassword: "",
-              softAPState: B.NoSoftAP,
+              softAPState: U.NoSoftAP,
               sSoftAPSSID: "",
               sSoftAPPassword: "",
               sSoftAPMessage: "",
               bShowConnectModal: !1,
-              connectionState: O.NoConnection,
+              connectionState: H.NoConnection,
             });
         }
         componentDidMount() {
-          (this.m_mailbox = new r.Nv()),
+          (this.m_mailbox = new o.Nv()),
             this.m_mailbox.Init("WiFiUI").then(() => {
               this.RefreshAccessPoints(),
                 this.m_mailbox.RegisterHandler("refresh_wifi_ui", (e) => {
@@ -1255,17 +1255,17 @@
                     if (0 == e.nReturnCode)
                       switch (e.sOutput.charAt(0)) {
                         case "0":
-                          this.setState({ softAPState: B.NoSoftAP });
+                          this.setState({ softAPState: U.NoSoftAP });
                           break;
                         case "1":
                           this.setState({
-                            softAPState: B.Intermediate,
+                            softAPState: U.Intermediate,
                             sSoftAPMessage: e.sOutput,
                           });
                           break;
                         case "2":
                           this.setState({
-                            softAPState: B.Connected,
+                            softAPState: U.Connected,
                             sSoftAPMessage: e.sOutput.substring(
                               2,
                               e.sOutput.length
@@ -1274,24 +1274,24 @@
                       }
                     else
                       this.setState({
-                        softAPState: B.ErrorGettingStatus,
+                        softAPState: U.ErrorGettingStatus,
                         sSoftAPMessage: e.sOutput,
                       });
                   };
                   switch (this.state.softAPState) {
-                    case B.GettingStatus:
-                    case B.CreationSuccess:
+                    case U.GettingStatus:
+                    case U.CreationSuccess:
                       window.setTimeout(t, 3e3);
                       break;
-                    case B.Connected:
-                    case B.ErrorGettingStatus:
-                    case B.Intermediate:
-                    case B.NoSoftAP:
+                    case U.Connected:
+                    case U.ErrorGettingStatus:
+                    case U.Intermediate:
+                    case U.NoSoftAP:
                       t();
                   }
                 }),
-                l.G3.GetSettingsValue("/settings/internet/enableSoftAP") &&
-                  this.setState({ softAPState: B.GettingStatus });
+                S.G3.GetSettingsValue("/settings/internet/enableSoftAP") &&
+                  this.setState({ softAPState: U.GettingStatus });
             });
         }
         componentWillUnmount() {
@@ -1305,33 +1305,33 @@
         }
         HandleConnectionStateTransition(e) {
           switch (this.state.connectionState) {
-            case O.Connecting:
+            case H.Connecting:
               this.JoinNetwork(
                 this.state.targetAccessPoint.path,
                 this.state.sTargetPassword
               );
               break;
-            case O.ConnectionFailure:
-            case O.ConnectionSuccess:
+            case H.ConnectionFailure:
+            case H.ConnectionSuccess:
               this.RefreshAccessPoints();
           }
         }
         HandleSoftAPStateTransition(e) {
           switch (this.state.softAPState) {
-            case B.Creating:
+            case U.Creating:
               this.CreateSAP();
               break;
-            case B.GettingStatus:
-            case B.Intermediate:
+            case U.GettingStatus:
+            case U.Intermediate:
               break;
-            case B.Destroying:
+            case U.Destroying:
               this.TeardownSAP();
               break;
-            case B.CreationFailure:
-            case B.CreationSuccess:
-            case B.Connected:
+            case U.CreationFailure:
+            case U.CreationSuccess:
+            case U.Connected:
               break;
-            case B.NoSoftAP:
+            case U.NoSoftAP:
               this.setState({ sSoftAPPassword: "", sSoftAPSSID: "" });
           }
         }
@@ -1340,7 +1340,7 @@
           return (0, i.mG)(this, void 0, void 0, function* () {
             try {
               console.log("requesting access points");
-              let t = (yield P().get("/linux_network/enumerate.json")).data;
+              let t = (yield X().get("/linux_network/enumerate.json")).data;
               if (t.sError)
                 console.log("failed to get access points: " + t.sError),
                   this.setState({ sError: t.sError });
@@ -1350,7 +1350,7 @@
                     null !== (e = t.accessPoints) && void 0 !== e ? e : [],
                 }),
                   console.log("requesting current access point\n");
-                let n = (yield P().get("/linux_network/get_current.json")).data;
+                let n = (yield X().get("/linux_network/get_current.json")).data;
                 n.sError
                   ? (console.log(
                       "failed to get current access point: " + n.sError
@@ -1380,7 +1380,7 @@
                 : (console.log(
                     `network ${e} is unsecured, so joining with no password prompt`
                   ),
-                  this.setState({ connectionState: O.Connecting })))
+                  this.setState({ connectionState: H.Connecting })))
             : console.log(`Tried to join AP ${e}, which wasn't in our list`);
         }
         JoinNetwork(e, t) {
@@ -1388,7 +1388,7 @@
             let n = { sAccessPointPath: e, sPassword: t };
             try {
               let t = Date.now(),
-                i = (yield P().post("/linux_network/join_network.action", n))
+                i = (yield X().post("/linux_network/join_network.action", n))
                   .data;
               console.log("join_network response: " + JSON.stringify(i) + "\n");
               let o = Date.now() - t,
@@ -1397,24 +1397,24 @@
                 i
                   ? i.sError
                     ? (console.log(`Failed to join ${e}: ${i.sError}`),
-                      this.setState({ connectionState: O.ConnectionFailure }))
+                      this.setState({ connectionState: H.ConnectionFailure }))
                     : (console.log(`Join of ${e} was successful`),
                       this.setState({
-                        connectionState: O.ConnectionSuccess,
+                        connectionState: H.ConnectionSuccess,
                         sTargetPassword: "",
                       }))
                   : (console.log(`Failed to join ${e}: Invalid response`),
-                    this.setState({ connectionState: O.ConnectionFailure }));
+                    this.setState({ connectionState: H.ConnectionFailure }));
               }, s);
             } catch (t) {
               console.log(`Failed to join wifi network ${e}: ` + t),
-                this.setState({ connectionState: O.ConnectionFailure });
+                this.setState({ connectionState: H.ConnectionFailure });
             }
           });
         }
         RenderAccessPoints() {
-          var e, t, n, i, s;
-          let r = null;
+          var e, t, n, i, o;
+          let s = null;
           for (let n of null !== (e = this.state.accessPoints) && void 0 !== e
             ? e
             : [])
@@ -1424,10 +1424,10 @@
                 ? void 0
                 : t.path)
             ) {
-              r = n.path;
+              s = n.path;
               break;
             }
-          if (!r)
+          if (!s)
             for (let e of null !== (n = this.state.accessPoints) && void 0 !== n
               ? n
               : [])
@@ -1437,16 +1437,16 @@
                   ? void 0
                   : i.ssid)
               ) {
-                r = e.path;
+                s = e.path;
                 break;
               }
-          let a = [];
-          for (let e of null !== (s = this.state.accessPoints) && void 0 !== s
-            ? s
+          let r = [];
+          for (let e of null !== (o = this.state.accessPoints) && void 0 !== o
+            ? o
             : [])
-            e.path != r &&
-              a.push(
-                o.createElement(
+            e.path != s &&
+              r.push(
+                c.createElement(
                   "div",
                   {
                     className: "APRow",
@@ -1455,38 +1455,38 @@
                       this.onClickJoin(e.path);
                     },
                   },
-                  o.createElement("div", { className: "APSSID" }, e.ssid, " "),
-                  o.createElement(
+                  c.createElement("div", { className: "APSSID" }, e.ssid, " "),
+                  c.createElement(
                     "div",
                     { className: "APBitRate" },
                     (e.bitrate_kb / 1024).toFixed(1),
                     "Mb "
                   ),
-                  o.createElement(
+                  c.createElement(
                     "div",
                     { className: "APStrength" },
                     e.strength,
                     "% "
                   ),
-                  o.createElement(
+                  c.createElement(
                     "div",
                     { className: "APSecure" },
                     e.secure ? "Yes" : "No"
                   )
                 )
               );
-          return o.createElement(
+          return c.createElement(
             "div",
             { className: "APList" },
-            o.createElement(
+            c.createElement(
               "div",
               { className: "APHeader" },
-              o.createElement("div", { className: "APSSID" }, "SSID"),
-              o.createElement("div", { className: "APBitRate" }, "Bit Rate"),
-              o.createElement("div", { className: "APStrength" }, "Strength"),
-              o.createElement("div", { className: "APSecure" }, "Secure")
+              c.createElement("div", { className: "APSSID" }, "SSID"),
+              c.createElement("div", { className: "APBitRate" }, "Bit Rate"),
+              c.createElement("div", { className: "APStrength" }, "Strength"),
+              c.createElement("div", { className: "APSecure" }, "Secure")
             ),
-            a
+            r
           );
         }
         CreateSAP() {
@@ -1506,18 +1506,18 @@
                 window.setTimeout(() => {
                   console.log("Failed to create SAP: " + n.sError),
                     this.setState({
-                      softAPState: B.CreationFailure,
+                      softAPState: U.CreationFailure,
                       sSoftAPMessage: n.sError,
                     });
                 }, i);
-              } else this.setState({ softAPState: B.CreationSuccess });
+              } else this.setState({ softAPState: U.CreationSuccess });
             } catch (t) {
               let n = Date.now() - e,
                 i = Math.max(3e3 - n, 0);
               window.setTimeout(() => {
                 console.log("Failed to create SAP because exception: " + t),
                   this.setState({
-                    softAPState: B.CreationFailure,
+                    softAPState: U.CreationFailure,
                     sSoftAPMessage: t,
                   });
               }, i);
@@ -1535,7 +1535,7 @@
                   "sap_teardown_response"
                 );
               console.log("TeardownSAP result = " + t.return_code + "\n"),
-                this.setState({ softAPState: B.NoSoftAP });
+                this.setState({ softAPState: U.NoSoftAP });
             } catch (e) {
               console.log(
                 "Failed to teardown Wi-Fi Hotspot because exception: " + e
@@ -1564,7 +1564,7 @@
         }
         onShowPasswordKeyboard() {
           this.setState({
-            connectionState: O.EnteringPassword,
+            connectionState: H.EnteringPassword,
             sTargetPassword: "",
           }),
             null === VRHTML ||
@@ -1588,73 +1588,73 @@
         }
         BIsPasswordInputEnabled() {
           return !(
-            this.state.connectionState == O.Connecting ||
-            this.state.connectionState == O.ConnectionSuccess
+            this.state.connectionState == H.Connecting ||
+            this.state.connectionState == H.ConnectionSuccess
           );
         }
         render() {
           var e;
-          return o.createElement(
-            o.Fragment,
+          return c.createElement(
+            c.Fragment,
             null,
-            o.createElement(
-              c.GV,
+            c.createElement(
+              _.GV,
               { className: "SettingsItem" },
-              o.createElement(c.wy, {
+              c.createElement(_.wy, {
                 name: "/settings/internet/enableSoftAP",
                 label: "Wi-Fi Hotspot",
                 title: "Toggle the Wi-Fi hotspot on headset.",
                 onChange: (e) => {
-                  this.setState({ softAPState: e ? B.Creating : B.Destroying });
+                  this.setState({ softAPState: e ? U.Creating : U.Destroying });
                 },
-                onSubsection: o.createElement(
-                  o.Fragment,
+                onSubsection: c.createElement(
+                  c.Fragment,
                   null,
-                  this.state.softAPState == B.Connected &&
-                    o.createElement(
+                  this.state.softAPState == U.Connected &&
+                    c.createElement(
                       "span",
                       null,
                       "Hotspot active. ",
                       this.state.sSoftAPMessage,
                       " "
                     ),
-                  this.state.softAPState == B.GettingStatus &&
-                    o.createElement("span", null, "Getting hotspot status..."),
-                  this.state.softAPState == B.Intermediate &&
-                    o.createElement(
+                  this.state.softAPState == U.GettingStatus &&
+                    c.createElement("span", null, "Getting hotspot status..."),
+                  this.state.softAPState == U.Intermediate &&
+                    c.createElement(
                       "span",
                       null,
                       "Hotspot status: ",
                       this.state.sSoftAPMessage
                     ),
-                  this.state.softAPState == B.ErrorGettingStatus &&
-                    o.createElement(
+                  this.state.softAPState == U.ErrorGettingStatus &&
+                    c.createElement(
                       "span",
                       null,
                       "Error getting hotspot status. ",
                       this.state.sSoftAPMessage
                     ),
-                  (this.state.softAPState == B.Creating ||
-                    this.state.softAPState == B.CreationSuccess) &&
-                    o.createElement("span", null, "Creating hotspot..."),
-                  this.state.softAPState == B.CreationFailure &&
-                    o.createElement("span", null, this.state.sSoftAPMessage),
-                  this.state.softAPState == B.Destroying &&
-                    o.createElement("span", null, "Destroying hotspot..."),
-                  this.state.softAPState == B.NoSoftAP &&
-                    o.createElement("span", null, "Hotspot inactive.")
+                  (this.state.softAPState == U.Creating ||
+                    this.state.softAPState == U.CreationSuccess) &&
+                    c.createElement("span", null, "Creating hotspot..."),
+                  this.state.softAPState == U.CreationFailure &&
+                    c.createElement("span", null, this.state.sSoftAPMessage),
+                  this.state.softAPState == U.Destroying &&
+                    c.createElement("span", null, "Destroying hotspot..."),
+                  this.state.softAPState == U.NoSoftAP &&
+                    c.createElement("span", null, "Hotspot inactive.")
                 ),
               })
             ),
-            o.createElement(
-              c.GV,
+            c.createElement(
+              _.GV,
               { className: "SettingsItem" },
-              o.createElement(
+              c.createElement(
                 "div",
                 { className: "Label" },
                 "Active Wi-Fi Connection"
               ),
-              o.createElement(
+              c.createElement(
                 "div",
                 { className: "Label" },
                 this.state.currentAccessPoint
@@ -1662,19 +1662,19 @@
                   : "None"
               )
             ),
-            o.createElement(
-              c.GV,
+            c.createElement(
+              _.GV,
               { className: "SettingsItem" },
-              o.createElement(
+              c.createElement(
                 "div",
                 { className: "Label" },
                 "Available Wi-Fi Networks"
               ),
-              o.createElement(
+              c.createElement(
                 "div",
                 { className: "Label" },
-                o.createElement(
-                  _.z,
+                c.createElement(
+                  d.z,
                   {
                     style: { display: "inline-block", width: "fit-content" },
                     className: "ButtonControl",
@@ -1688,10 +1688,10 @@
             ),
             this.RenderAccessPoints(),
             this.state.bShowConnectModal &&
-              o.createElement(
-                c.TB,
+              c.createElement(
+                _.TB,
                 {
-                  header: o.createElement("h1", null, "Connect to Network"),
+                  header: c.createElement("h1", null, "Connect to Network"),
                   subheader:
                     null === (e = this.state.targetAccessPoint) || void 0 === e
                       ? void 0
@@ -1700,10 +1700,10 @@
                     this.setState({ bShowConnectModal: !1 });
                   },
                 },
-                o.createElement(
+                c.createElement(
                   "div",
                   { style: { display: "flex", marginBottom: "0.5em" } },
-                  o.createElement(
+                  c.createElement(
                     "div",
                     {
                       className: this.BIsPasswordInputEnabled()
@@ -1713,20 +1713,20 @@
                         this.onShowPasswordKeyboard();
                       },
                     },
-                    o.createElement(
+                    c.createElement(
                       "span",
                       { style: { fontSize: "35px" } },
                       this.state.sTargetPassword
                     )
                   ),
-                  o.createElement(
+                  c.createElement(
                     "div",
                     null,
-                    o.createElement(
-                      c.ls,
+                    c.createElement(
+                      _.ls,
                       {
                         onClick: () => {
-                          this.setState({ connectionState: O.Connecting });
+                          this.setState({ connectionState: H.Connecting });
                         },
                         enabled: this.BIsPasswordInputEnabled(),
                       },
@@ -1734,385 +1734,55 @@
                     )
                   )
                 ),
-                this.state.connectionState == O.EnteringPassword &&
-                  o.createElement(
+                this.state.connectionState == H.EnteringPassword &&
+                  c.createElement(
                     "span",
                     null,
                     "Please enter the password with the keyboard."
                   ),
-                this.state.connectionState == O.Connecting &&
-                  o.createElement("span", null, "Connecting..."),
-                this.state.connectionState == O.ConnectionFailure &&
-                  o.createElement(
+                this.state.connectionState == H.Connecting &&
+                  c.createElement("span", null, "Connecting..."),
+                this.state.connectionState == H.ConnectionFailure &&
+                  c.createElement(
                     "span",
                     null,
                     "Failed to connect. Please try again."
                   ),
-                this.state.connectionState == O.ConnectionSuccess &&
-                  o.createElement("span", null, "Connection successful.")
+                this.state.connectionState == H.ConnectionSuccess &&
+                  c.createElement("span", null, "Connection successful.")
               )
           );
         }
       }
-      (0, i.gn)([d.ak], V.prototype, "onShowPasswordKeyboard", null),
-        (0, i.gn)([d.ak], V.prototype, "BIsPasswordInputEnabled", null);
-      let G = class extends c.d9 {
+      (0, i.gn)([s.ak], q.prototype, "onShowPasswordKeyboard", null),
+        (0, i.gn)([s.ak], q.prototype, "BIsPasswordInputEnabled", null);
+      let z = class extends _.d9 {
         constructor(e) {
           super(e);
         }
         render() {
           return this.props.active
-            ? o.createElement(o.Fragment, null, o.createElement(V, null))
+            ? c.createElement(c.Fragment, null, c.createElement(q, null))
             : null;
         }
       };
-      function x() {
-        const [e, t] = o.useState();
-        return o.createElement(
-          c.GV,
-          { className: "SettingsItem" },
-          o.createElement(
-            _.z,
-            {
-              className: "ButtonControl Spanning",
-              onClick: () =>
-                (0, i.mG)(this, void 0, void 0, function* () {
-                  t(null);
-                  try {
-                    (yield l.G3.ReloadSettingsSchema()).success
-                      ? window.location.reload()
-                      : t(
-                          "Failed to reload schema. File might not be found, or might be invalid."
-                        );
-                  } catch (e) {
-                    t(e.message);
-                  }
-                }),
-            },
-            "Reload Settings Schema"
-          ),
-          e && o.createElement("div", { className: "Subsection Label" }, e)
-        );
-      }
-      (G.Name = "internet_settings"), (G = (0, i.gn)([s.Pi], G));
-      const F = (0, s.Pi)(() =>
-          o.createElement(
-            c.GV,
-            { className: "SettingsItem" },
-            o.createElement(c.Xp, {
-              label: "Auto-Show Dashboard",
-              name: v.y3,
-              items: [
-                { value: "", sLabel: "Default" },
-                p.Kr.Separator,
-                { value: v.O5, sLabel: "Library" },
-                { value: v.PF, sLabel: "Now Playing" },
-                { value: v.wB, sLabel: "Store" },
-                p.Kr.Separator,
-                { value: v.gB, sLabel: "Desktop View" },
-                { value: v.r4 + ".1", sLabel: "Desktop 1" },
-                { value: v.r4 + ".2", sLabel: "Desktop 2" },
-                p.Kr.Separator,
-                { value: v.A4, sLabel: "Settings" },
-              ],
-            })
-          )
-        ),
-        N = (e) => {
-          const [t, n] = o.useState(1),
-            [i, s] = o.useState(1),
-            [r, a] = o.useState(1),
-            [l, d] = o.useState(1),
-            [p, u] = o.useState(!1);
-          return o.createElement(
-            o.Fragment,
-            null,
-            o.createElement(c.D3, {
-              label: "Segmented Control",
-              items: [
-                { sLabel: "One", value: 1 },
-                { sLabel: "Two", value: 2 },
-              ],
-              value: t,
-              onChange: n,
-            }),
-            o.createElement(c.D3, {
-              label: "Segmented Control",
-              items: [
-                { sLabel: "One", value: 1 },
-                { sLabel: "Two", value: 2 },
-                { sLabel: "Three", value: 3 },
-              ],
-              value: i,
-              onChange: s,
-            }),
-            o.createElement(c.D3, {
-              label: "Segmented Control",
-              items: [
-                { sLabel: "One", value: 1 },
-                { sLabel: "Two", value: 2 },
-                { sLabel: "Three", value: 3 },
-                { sLabel: "Four", value: 4 },
-              ],
-              value: r,
-              onChange: a,
-            }),
-            o.createElement(c.D3, {
-              label: "Segmented Control",
-              items: [
-                { sLabel: "1", value: 1 },
-                { sLabel: "2", value: 2 },
-                { sLabel: "3", value: 3 },
-                { sLabel: "4", value: 4 },
-                { sLabel: "5", value: 5 },
-              ],
-              value: l,
-              onChange: d,
-            }),
-            o.createElement("hr", null),
-            o.createElement(c.wy, {
-              label: "Standard Toggle",
-              value: p,
-              onChange: u,
-            }),
-            o.createElement(c.wy, {
-              label: "Inverted Toggle",
-              value: p,
-              onChange: u,
-              swapOnOff: !0,
-            })
-          );
-        },
-        H = (e) => {
-          const [t, n] = o.useState(1);
-          return o.createElement(
-            o.Fragment,
-            null,
-            o.createElement(c.t0, {
-              label: "Radio Buttons",
-              items: [
-                { sLabel: "1", value: 1 },
-                { sLabel: "2", value: 2 },
-                { sLabel: "3", value: 3 },
-                { sLabel: "4", value: 4 },
-              ],
-              value: t,
-              onChange: n,
-            })
-          );
-        },
-        U = (e) => {
-          const [t, n] = o.useState(1);
-          return o.createElement(
-            o.Fragment,
-            null,
-            o.createElement(c.Xp, {
-              label: "Dropdown",
-              items: [
-                { sLabel: "One", value: 1 },
-                { sLabel: "Two", value: 2 },
-                { sLabel: "Three", value: 3 },
-                { sLabel: "Four", value: 4 },
-              ],
-              value: t,
-              onChange: n,
-            })
-          );
-        },
-        W = (0, s.Pi)(() => {
-          const e = "settingscontrolzoo",
-            t = l.G3.routePageSection == e;
-          return o.createElement(
-            o.Fragment,
-            null,
-            o.createElement(
-              "div",
-              { className: "SettingsItem Button" },
-              o.createElement(
-                _.z,
-                {
-                  className: "ButtonControl",
-                  onClick: () => l.G3.setRoutePageSection(e),
-                },
-                "Zoo of Settings Controls"
-              )
-            ),
-            t &&
-              o.createElement(
-                c.TB,
-                {
-                  header: "Settings Controls",
-                  onDismissRequested: () => l.G3.setRoutePageSection(null),
-                },
-                o.createElement(N, null),
-                o.createElement("hr", null),
-                o.createElement(H, null),
-                o.createElement("hr", null),
-                o.createElement(U, null)
-              )
-          );
-        });
-      let X = class extends c.d9 {
-        constructor(e) {
-          super(e);
-        }
-        render() {
-          return this.props.active
-            ? o.createElement(
-                o.Fragment,
-                null,
-                this.schemaComponents,
-                o.createElement(c.U4, {
-                  name: "/settings/dashboard/verticalOffsetCm_2",
-                  label: "Vertical Offset (cm)",
-                  min: -9,
-                  max: 9,
-                  valueStyleVariant: y.px.OnHandle,
-                  detents: [0],
-                  renderValue: (e) => e.toFixed(0) + " cm",
-                  step: 1,
-                }),
-                o.createElement(c.wy, {
-                  label: "Enable Per-App Refresh Rate",
-                  name: "/settings/internal/enablePerAppFPS",
-                }),
-                o.createElement(c.wy, {
-                  label: "Allow Dashboard auto-launch with SteamVR Home",
-                  name: "/settings/dashboard/allowDashboardAutoLaunchWithSteamVRHome",
-                }),
-                o.createElement(c.wy, {
-                  label: "Skip the Dashboard BG fade during SteamVR Home",
-                  name: "/settings/dashboard/omitDashboardFadeWithSteamVRHome",
-                }),
-                o.createElement(c.wy, {
-                  label: "Haptics on Button Exit",
-                  name: "/settings/steamvr/noEdgeExitHaptics",
-                  swapOnOff: !0,
-                }),
-                o.createElement(c.wy, {
-                  label: "Force Welcome in Quicklaunch",
-                  name: "/settings/dashboard/forceWelcomeScreen",
-                }),
-                o.createElement(c.wy, {
-                  name: v.BW,
-                  swapOnOff: !0,
-                  label: (0, a.Xx)("#Settings_Animations"),
-                }),
-                o.createElement(F, null),
-                o.createElement(x, null),
-                o.createElement(W, null),
-                this.makeResetToDefaultButton()
-              )
-            : null;
-        }
-      };
-      (X.Name = "internal_settings"), (X = (0, i.gn)([s.Pi], X));
-      var q = n(1058);
-      let z = class extends c.d9 {
-        constructor(e) {
-          super(e);
-        }
-        OnSetAsOpenXRRuntime() {
-          null === VRHTML ||
-            void 0 === VRHTML ||
-            VRHTML.XRRuntimeManager.SetThisRuntimeToCurrent(),
-            this.forceUpdate();
-        }
-        render() {
-          var e;
-          if (!this.props.active) return null;
-          let [t, n] =
-            null !==
-              (e =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.XRRuntimeManager.GetCurrentRuntime()) && void 0 !== e
-              ? e
-              : [r.GC.Error, ""];
-          switch ((r.GC.ThisSteamVR, t)) {
-            case r.GC.AnotherSteamVR:
-              n = "#OpenXR_AnotherSteamVR";
-              break;
-            case r.GC.ThisSteamVR:
-              n = "#OpenXR_SteamVR";
-              break;
-            default:
-            case r.GC.Error:
-              n = "#OpenXR_Error";
-              break;
-            case r.GC.None:
-              n = "#OpenXR_None";
-              break;
-            case r.GC.AnotherRuntime:
-              switch (n) {
-                case "Oculus OpenXR":
-                  n = "#OpenXR_OculusRuntime";
-                  break;
-                case "MixedRealityRuntime":
-                  n = "#OpenXR_WindowsMixedReality";
-              }
-          }
-          return (
-            n.startsWith("#") && (n = (0, a.Xx)(n)),
-            o.createElement(
-              o.Fragment,
-              null,
-              this.schemaComponents,
-              o.createElement(
-                "div",
-                { className: "SettingsItem" },
-                o.createElement(
-                  "div",
-                  { className: "OpenXRRuntimeLabel" },
-                  (0, a.Xx)("#Settings_CurrentOpenXRRuntime")
-                ),
-                o.createElement(
-                  "div",
-                  { className: "OpenXRRuntimeValue" },
-                  " ",
-                  n,
-                  " "
-                )
-              ),
-              !(null === VRHTML || void 0 === VRHTML
-                ? void 0
-                : VRHTML.XRRuntimeManager.IsThisRuntimeCurrent()) &&
-                o.createElement(
-                  "div",
-                  { className: "SettingsItem Button ResetDefaultButton" },
-                  o.createElement(
-                    _.z,
-                    {
-                      className: "ButtonControl",
-                      onClick: this.OnSetAsOpenXRRuntime,
-                    },
-                    (0, a.Xx)("#Settings_SetAsOpenXRRuntime")
-                  )
-                ),
-              this.makeResetToDefaultButton()
-            )
-          );
-        }
-      };
-      (z.Name = "developer_settings"),
-        (0, i.gn)([d.ak], z.prototype, "OnSetAsOpenXRRuntime", null),
-        (z = (0, i.gn)([s.Pi], z));
+      (z.Name = "internet_settings"), (z = (0, i.gn)([l.Pi], z));
       var K = n(3947);
-      let j = class extends o.Component {
+      let j = class extends c.Component {
         constructor(e) {
           super(e),
-            (this.m_refSelectedButton = o.createRef()),
+            (this.m_refSelectedButton = c.createRef()),
             (this.state = { bShowModal: !1, rBackgroundUGCItems: [] });
         }
         updateUGCItems() {
-          l.G3.GetSettingsUGC().then((e) => {
+          S.G3.GetSettingsUGC().then((e) => {
             null != e.items && this.setState({ rBackgroundUGCItems: e.items });
           });
         }
         componentDidMount() {
           this.updateUGCItems(),
-            (this.m_workshopStateChangedCanaryDisposer = (0, f.N7)(
-              l.G3,
+            (this.m_workshopStateChangedCanaryDisposer = (0, a.N7)(
+              S.G3,
               "workshopStateChangedCanary",
               this.updateUGCItems
             ));
@@ -2122,10 +1792,10 @@
             (this.m_workshopStateChangedCanaryDisposer = null);
         }
         setBackground(e) {
-          l.G3.systemInfo &&
-            e === l.G3.systemInfo.default_background &&
+          S.G3.systemInfo &&
+            e === S.G3.systemInfo.default_background &&
             (e = ""),
-            l.G3.SetSettingsValue("/settings/steamvr/background", e),
+            S.G3.SetSettingsValue("/settings/steamvr/background", e),
             this.hideModal();
         }
         hideModal() {
@@ -2146,8 +1816,8 @@
         }
         get currentBackgroundPath() {
           return (
-            l.G3.settings.get("/settings/steamvr/background") ||
-            l.G3.systemInfo.default_background
+            S.G3.settings.get("/settings/steamvr/background") ||
+            S.G3.systemInfo.default_background
           );
         }
         render() {
@@ -2171,49 +1841,49 @@
             ],
             n = t.find((t) => t.file == e) || null,
             i = n ? n.preview : null;
-          return o.createElement(
-            o.Fragment,
+          return c.createElement(
+            c.Fragment,
             null,
-            o.createElement(
-              c.GV,
+            c.createElement(
+              _.GV,
               {
                 className: "SettingsItem Background",
-                title: (0, a.Xx)("#Settings_Appearance_BackgroundDesc"),
+                title: (0, m.Xx)("#Settings_Appearance_BackgroundDesc"),
               },
-              o.createElement(
+              c.createElement(
                 "div",
                 { className: "Label" },
-                (0, a.Xx)("#Settings_Appearance_Background")
+                (0, m.Xx)("#Settings_Appearance_Background")
               ),
-              o.createElement(
-                _.z,
+              c.createElement(
+                d.z,
                 {
-                  className: (0, q.LJ)("ButtonControl", ["Background", !!i]),
+                  className: (0, g.LJ)("ButtonControl", ["Background", !!i]),
                   style: {
                     "--background-url-value": i ? 'url("' + i + '")' : null,
                   },
                   onClick: this.showModal,
                 },
-                !i && (0, a.Xx)("#Settings_Appearance_Background_Select")
+                !i && (0, m.Xx)("#Settings_Appearance_Background_Select")
               )
             ),
             this.state.bShowModal &&
-              o.createElement(
-                c.TB,
+              c.createElement(
+                _.TB,
                 {
                   onDismissRequested: this.hideModal,
                   className: "Backgrounds",
-                  header: (0, a.Xx)("#Settings_Appearance_Background"),
+                  header: (0, m.Xx)("#Settings_Appearance_Background"),
                   subheader: K.I.IsSteamAvailable
                     ? null
-                    : (0, a.Xx)("#Settings_Appearance_Background_NoSteam"),
+                    : (0, m.Xx)("#Settings_Appearance_Background_NoSteam"),
                 },
-                o.createElement(
+                c.createElement(
                   "div",
                   { className: "BackgroundsGrid" },
                   t.map((t, n) =>
-                    o.createElement(_.z, {
-                      className: (0, q.LJ)("ButtonControl", "Background", [
+                    c.createElement(d.z, {
+                      className: (0, g.LJ)("ButtonControl", "Background", [
                         "Selected",
                         t.file == e,
                       ]),
@@ -2233,27 +1903,27 @@
           );
         }
       };
-      (0, i.gn)([d.ZP], j.prototype, "updateUGCItems", null),
-        (0, i.gn)([d.ZP], j.prototype, "setBackground", null),
-        (0, i.gn)([d.ZP], j.prototype, "hideModal", null),
-        (0, i.gn)([d.ZP], j.prototype, "showModal", null),
-        (0, i.gn)([f.Fl], j.prototype, "currentBackgroundPath", null),
-        (j = (0, i.gn)([s.Pi], j));
-      class Z extends o.Component {
+      (0, i.gn)([s.ZP], j.prototype, "updateUGCItems", null),
+        (0, i.gn)([s.ZP], j.prototype, "setBackground", null),
+        (0, i.gn)([s.ZP], j.prototype, "hideModal", null),
+        (0, i.gn)([s.ZP], j.prototype, "showModal", null),
+        (0, i.gn)([a.Fl], j.prototype, "currentBackgroundPath", null),
+        (j = (0, i.gn)([l.Pi], j));
+      class Z extends c.Component {
         constructor() {
           super(...arguments),
             (this.m_sUniqueIdForForceBoundsVisible = Math.random().toString());
         }
         componentDidMount() {
-          l.G3.SetDashboardForceBoundsVisible(
-            v.A4,
+          S.G3.SetDashboardForceBoundsVisible(
+            h.A4,
             this.m_sUniqueIdForForceBoundsVisible,
             !0
           );
         }
         componentWillUnmount() {
-          l.G3.SetDashboardForceBoundsVisible(
-            v.A4,
+          S.G3.SetDashboardForceBoundsVisible(
+            h.A4,
             this.m_sUniqueIdForForceBoundsVisible,
             !1
           );
@@ -2262,59 +1932,59 @@
           return null;
         }
       }
-      let J = class extends c.d9 {
+      let J = class extends _.d9 {
         constructor(e) {
           super(e);
         }
         render() {
           var e;
           if (!this.props.active) return null;
-          const t = l.G3.settings.get("/settings/steamvr/background"),
+          const t = S.G3.settings.get("/settings/steamvr/background"),
             n = !!t && !t.startsWith("#"),
             i =
-              null !== (e = l.G3.settings.get(v.yQ)) && void 0 !== e ? e : 0.7;
-          let s;
+              null !== (e = S.G3.settings.get(h.yQ)) && void 0 !== e ? e : 0.7;
+          let o;
           return (
-            (s =
+            (o =
               i < 0.5
-                ? (0, a.Xx)("#Settings_Chaperone_SuitableForSmall")
+                ? (0, m.Xx)("#Settings_Chaperone_SuitableForSmall")
                 : i < 1
-                ? (0, a.Xx)("#Settings_Chaperone_SuitableForMedium")
-                : (0, a.Xx)("#Settings_Chaperone_SuitableForLarge")),
-            o.createElement(
-              o.Fragment,
+                ? (0, m.Xx)("#Settings_Chaperone_SuitableForMedium")
+                : (0, m.Xx)("#Settings_Chaperone_SuitableForLarge")),
+            c.createElement(
+              c.Fragment,
               null,
-              o.createElement(Z, null),
-              o.createElement(c.Xp, {
+              c.createElement(Z, null),
+              c.createElement(_.Xp, {
                 name: "/settings/collisionBounds/CollisionBoundsStyle",
-                label: (0, a.Xx)("#Settings_Chaperone_Style"),
+                label: (0, m.Xx)("#Settings_Chaperone_Style"),
                 items: [
                   {
                     value: 0,
-                    sLabel: (0, a.Xx)("#Settings_Chaperone_Style_0"),
+                    sLabel: (0, m.Xx)("#Settings_Chaperone_Style_0"),
                   },
                   {
                     value: 1,
-                    sLabel: (0, a.Xx)("#Settings_Chaperone_Style_1"),
+                    sLabel: (0, m.Xx)("#Settings_Chaperone_Style_1"),
                   },
                   {
                     value: 3,
-                    sLabel: (0, a.Xx)("#Settings_Chaperone_Style_3"),
+                    sLabel: (0, m.Xx)("#Settings_Chaperone_Style_3"),
                   },
                   {
                     value: 2,
-                    sLabel: (0, a.Xx)("#Settings_Chaperone_Style_2"),
+                    sLabel: (0, m.Xx)("#Settings_Chaperone_Style_2"),
                   },
                   {
                     value: 4,
-                    sLabel: (0, a.Xx)("#Settings_Chaperone_Style_4"),
+                    sLabel: (0, m.Xx)("#Settings_Chaperone_Style_4"),
                   },
                 ],
-                subsection: o.createElement(
-                  o.Fragment,
+                subsection: c.createElement(
+                  c.Fragment,
                   null,
-                  o.createElement(c.Ei, {
-                    label: (0, a.Xx)("#Settings_Chaperone_Color"),
+                  c.createElement(_.Ei, {
+                    label: (0, m.Xx)("#Settings_Chaperone_Color"),
                     nameR:
                       "/settings/collisionBounds/CollisionBoundsColorGammaR",
                     nameG:
@@ -2326,87 +1996,87 @@
                     minA: 0.3,
                     alphaScale: 255,
                   }),
-                  o.createElement(c.wy, {
+                  c.createElement(_.wy, {
                     name: "/settings/collisionBounds/CollisionBoundsGroundPerimeterOn",
-                    label: (0, a.Xx)(
+                    label: (0, m.Xx)(
                       "#Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn"
                     ),
-                    title: (0, a.Xx)(
+                    title: (0, m.Xx)(
                       "#Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc"
                     ),
                   }),
-                  o.createElement(c.U4, {
+                  c.createElement(_.U4, {
                     min: 0.1,
                     max: 3,
                     detents: [2.4],
                     name: "/settings/collisionBounds/CollisionBoundsWallHeight",
-                    label: (0, a.Xx)("#Settings_Chaperone_WallHeight"),
+                    label: (0, m.Xx)("#Settings_Chaperone_WallHeight"),
                     renderValue: (e) => e.toFixed(2),
-                    valueStyleVariant: y.px.OnHandle,
+                    valueStyleVariant: C.px.OnHandle,
                   }),
-                  o.createElement(c.U4, {
+                  c.createElement(_.U4, {
                     min: 0.2,
                     max: 1.4,
                     detents: [0.7],
-                    name: v.yQ,
-                    label: (0, a.Xx)("#Settings_Chaperone_ActivationDistance"),
+                    name: h.yQ,
+                    label: (0, m.Xx)("#Settings_Chaperone_ActivationDistance"),
                     renderValue: (e) => e.toFixed(2),
-                    valueStyleVariant: y.px.OnHandle,
+                    valueStyleVariant: C.px.OnHandle,
                   }),
-                  o.createElement(
+                  c.createElement(
                     "div",
                     { className: "SettingsItemValueLabel" },
-                    s
+                    o
                   )
                 ),
               }),
-              o.createElement(c.Ei, {
-                label: (0, a.Xx)("#Settings_Appearance_PlayArea_FloorColor"),
+              c.createElement(_.Ei, {
+                label: (0, m.Xx)("#Settings_Appearance_PlayArea_FloorColor"),
                 name: "/settings/steamvr/playAreaColor",
               }),
-              o.createElement(j, null),
+              c.createElement(j, null),
               n &&
-                o.createElement(c.wy, {
+                c.createElement(_.wy, {
                   name: "/settings/steamvr/backgroundUseDomeProjection",
-                  label: (0, a.Xx)("#Settings_Appearance_UseDomeProjection"),
-                  title: (0, a.Xx)(
+                  label: (0, m.Xx)("#Settings_Appearance_UseDomeProjection"),
+                  title: (0, m.Xx)(
                     "#Settings_Appearance_UseDomeProjectionDesc"
                   ),
-                  onSubsection: o.createElement(
-                    o.Fragment,
+                  onSubsection: c.createElement(
+                    c.Fragment,
                     null,
-                    o.createElement(c.U4, {
+                    c.createElement(_.U4, {
                       min: 1,
                       max: 10,
                       detents: [1.6],
-                      name: v.EL,
-                      label: (0, a.Xx)("#Settings_Appearance_DomeCameraHeight"),
-                      title: (0, a.Xx)(
+                      name: h.EL,
+                      label: (0, m.Xx)("#Settings_Appearance_DomeCameraHeight"),
+                      title: (0, m.Xx)(
                         "#Settings_Appearance_DomeCameraHeightDesc"
                       ),
                       exponent: 2,
                     }),
-                    o.createElement(c.U4, {
+                    c.createElement(_.U4, {
                       min: 2,
                       max: 250,
                       specialMaxValue: 0,
-                      name: v.RD,
-                      label: (0, a.Xx)("#Settings_Appearance_DomeCameraRadius"),
-                      title: (0, a.Xx)(
+                      name: h.RD,
+                      label: (0, m.Xx)("#Settings_Appearance_DomeCameraRadius"),
+                      title: (0, m.Xx)(
                         "#Settings_Appearance_DomeCameraRadiusDesc"
                       ),
                       exponent: 5,
                     }),
-                    o.createElement(
-                      c.GV,
+                    c.createElement(
+                      _.GV,
                       { className: "SettingsItem" },
-                      o.createElement(
-                        _.z,
+                      c.createElement(
+                        d.z,
                         {
                           className: "ButtonControl",
-                          onClick: () => l.G3.ResetSettingsValues(v.EL, v.RD),
+                          onClick: () => S.G3.ResetSettingsValues(h.EL, h.RD),
                         },
-                        (0, a.Xx)(
+                        (0, m.Xx)(
                           "#Settings_Appearance_ResetDomeProjectionSettings"
                         )
                       )
@@ -2419,11 +2089,11 @@
         }
       };
       var Q;
-      (J.Name = "playarea_settings"), (J = (0, i.gn)([s.Pi], J));
+      (J.Name = "playarea_settings"), (J = (0, i.gn)([l.Pi], J));
       class Y {
         constructor() {
           (this.driverNameToIdMap = new Map()),
-            P()
+            X()
               .get("/drivers/list.json")
               .then((e) => {
                 const t = e.data.drivers;
@@ -2438,18 +2108,18 @@
           return Y.driverPrettyNames[e] || e;
         }
         unBlock(e) {
-          l.G3.SetRestartRequired(),
+          S.G3.SetRestartRequired(),
             (this.driverList[
               this.driverNameToIdMap.get(e)
             ].blocked_by_safe_mode = !1);
           let t = { driver: e };
-          return P().post("/drivers/unblock", t);
+          return X().post("/drivers/unblock", t);
         }
         setEnabled(e, t) {
-          l.G3.SetRestartRequired(),
+          S.G3.SetRestartRequired(),
             (this.driverList[this.driverNameToIdMap.get(e)].enabled = t);
           let n = { driver: e, enable: t };
-          return P().post("/drivers/setenable", n);
+          return X().post("/drivers/setenable", n);
         }
         get visibleDriverList() {
           return this.driverList.filter(
@@ -2491,23 +2161,23 @@
         alvr: "ALVR - Air Light VR (Gear VR, Oculus Go, Quest)",
         VirtualDesktop: "Virtual Desktop Streamer (Quest)",
       }),
-        (0, i.gn)([f.LO], Y.prototype, "driverList", void 0),
-        (0, i.gn)([f.Fl], Y.prototype, "visibleDriverList", null),
-        (0, i.gn)([f.Fl], Y.prototype, "numBlockedDrivers", null),
-        (0, i.gn)([f.Fl], Y.prototype, "numDisabledDrivers", null),
+        (0, i.gn)([a.LO], Y.prototype, "driverList", void 0),
+        (0, i.gn)([a.Fl], Y.prototype, "visibleDriverList", null),
+        (0, i.gn)([a.Fl], Y.prototype, "numBlockedDrivers", null),
+        (0, i.gn)([a.Fl], Y.prototype, "numDisabledDrivers", null),
         (0, i.gn)(
-          [f.Fl],
+          [a.Fl],
           Y.prototype,
           "numUserManuallyDisenabledDrivers",
           null
         );
       const $ = new Y(),
-        ee = (0, s.Pi)(() =>
-          o.createElement(
-            _.z,
+        ee = (0, l.Pi)(() =>
+          c.createElement(
+            d.z,
             {
               className: "ButtonControl",
-              title: (0, a.Xx)("#Settings_Drivers_UnblockAllTip"),
+              title: (0, m.Xx)("#Settings_Drivers_UnblockAllTip"),
               onClick: () =>
                 (0, i.mG)(void 0, void 0, void 0, function* () {
                   const e = $.driverList
@@ -2516,38 +2186,38 @@
                   for (let t = 0; t < e.length; ++t) yield $.unBlock(e[t]);
                 }),
             },
-            (0, a.Xx)("#Settings_Drivers_UnblockAll")
+            (0, m.Xx)("#Settings_Drivers_UnblockAll")
           )
         );
       function te(e) {
         return e.blocked
-          ? o.createElement(
-              c.GV,
+          ? c.createElement(
+              _.GV,
               { className: "SettingsItem", title: e.title },
-              o.createElement("div", { className: "Label" }, e.label),
-              o.createElement(
-                _.z,
+              c.createElement("div", { className: "Label" }, e.label),
+              c.createElement(
+                d.z,
                 {
                   className: "ButtonControl",
                   title: e.title,
                   onClick: e.onUnblock,
                 },
-                (0, a.Xx)("#Settings_Drivers_Unblock")
+                (0, m.Xx)("#Settings_Drivers_Unblock")
               )
             )
-          : o.createElement(c.wy, {
+          : c.createElement(_.wy, {
               label: e.label,
               title: e.title,
               onChange: e.onToggleEnable,
               value: e.enabled,
             });
       }
-      const ne = (0, s.Pi)(() =>
-        o.createElement(
-          o.Fragment,
+      const ne = (0, l.Pi)(() =>
+        c.createElement(
+          c.Fragment,
           null,
           $.visibleDriverList.map((e) =>
-            o.createElement(te, {
+            c.createElement(te, {
               key: e.manifest.name,
               label: $.prettyName(e.manifest.name),
               title: e.manifest.name,
@@ -2565,7 +2235,7 @@
           )
         )
       );
-      let ie = (Q = class extends o.Component {
+      let ie = (Q = class extends c.Component {
         constructor(e) {
           super(e);
         }
@@ -2573,67 +2243,67 @@
           const e = $.numBlockedDrivers,
             t = $.numDisabledDrivers,
             n =
-              l.G3.showAdvancedSettings ||
+              S.G3.showAdvancedSettings ||
               e ||
               $.numUserManuallyDisenabledDrivers,
-            i = l.G3.routePageSection == Q.PAGE_SECTION;
-          return o.createElement(
-            o.Fragment,
+            i = S.G3.routePageSection == Q.PAGE_SECTION;
+          return c.createElement(
+            c.Fragment,
             null,
             !!n &&
-              o.createElement(
+              c.createElement(
                 "div",
                 { className: "SettingsItem Button" },
-                o.createElement(
-                  _.z,
+                c.createElement(
+                  d.z,
                   {
                     className: "ButtonControl",
-                    onClick: () => l.G3.setRoutePageSection(Q.PAGE_SECTION),
+                    onClick: () => S.G3.setRoutePageSection(Q.PAGE_SECTION),
                   },
-                  (0, a.Xx)("#Settings_Drivers_ShowDriverManagerUI"),
+                  (0, m.Xx)("#Settings_Drivers_ShowDriverManagerUI"),
                   0 != e &&
-                    o.createElement(
+                    c.createElement(
                       "div",
                       { className: "Badge DriversBlocked" },
-                      (0, a.Xx)("#Settings_Drivers_Number_Blocked", e)
+                      (0, m.Xx)("#Settings_Drivers_Number_Blocked", e)
                     ),
                   0 == e &&
                     0 != t &&
-                    o.createElement(
+                    c.createElement(
                       "div",
                       { className: "Badge DriversDisabled" },
-                      (0, a.Xx)("#Settings_Drivers_Number_Disabled", t)
+                      (0, m.Xx)("#Settings_Drivers_Number_Disabled", t)
                     )
                 )
               ),
             i &&
               $.driverList &&
-              o.createElement(
-                c.TB,
+              c.createElement(
+                _.TB,
                 {
-                  header: (0, a.Xx)("#Settings_Drivers_Header"),
+                  header: (0, m.Xx)("#Settings_Drivers_Header"),
                   subheader:
                     0 == e
                       ? null
-                      : o.createElement(
+                      : c.createElement(
                           "div",
                           { className: "BlockedSubheader" },
-                          o.createElement(
+                          c.createElement(
                             "div",
                             { className: "Label" },
-                            (0, a.Xx)("#Settings_Drivers_SomeBlocked")
+                            (0, m.Xx)("#Settings_Drivers_SomeBlocked")
                           ),
-                          o.createElement(ee, null)
+                          c.createElement(ee, null)
                         ),
-                  onDismissRequested: () => l.G3.setRoutePageSection(null),
+                  onDismissRequested: () => S.G3.setRoutePageSection(null),
                 },
-                o.createElement(ne, null)
+                c.createElement(ne, null)
               )
           );
         }
       });
-      (ie.PAGE_SECTION = "drivermanager"), (ie = Q = (0, i.gn)([s.Pi], ie));
-      let oe = class extends o.Component {
+      (ie.PAGE_SECTION = "drivermanager"), (ie = Q = (0, i.gn)([l.Pi], ie));
+      let oe = class extends c.Component {
         constructor(e) {
           super(e), (this.state = { bShowingModal: !1 });
         }
@@ -2644,57 +2314,57 @@
           this.setState({ bShowingModal: !1 });
         }
         render() {
-          const e = !!l.G3.apps,
+          const e = !!S.G3.apps,
             t = e
-              ? l.G3.apps.filter(
+              ? S.G3.apps.filter(
                   (e) =>
-                    e.is_dashboard_overlay && e.key != v.Pv && !e.is_internal
+                    e.is_dashboard_overlay && e.key != h.Pv && !e.is_internal
                 )
               : [],
             n = t.filter((e) => e.is_autolaunch);
-          return o.createElement(
-            o.Fragment,
+          return c.createElement(
+            c.Fragment,
             null,
-            o.createElement(
-              c.GV,
+            c.createElement(
+              _.GV,
               {
                 className: "SettingsItem",
-                title: e ? null : (0, a.Xx)("#Settings_Loading"),
+                title: e ? null : (0, m.Xx)("#Settings_Loading"),
               },
-              o.createElement(
-                _.z,
+              c.createElement(
+                d.z,
                 { className: "ButtonControl", enabled: e, onClick: this.show },
-                (0, a.Xx)("#Settings_ChooseStartupOverlayApps"),
+                (0, m.Xx)("#Settings_ChooseStartupOverlayApps"),
                 e &&
-                  o.createElement(
+                  c.createElement(
                     "div",
                     { className: "Badge" },
-                    (0, a.Xx)("#Settings_Number_Selected", n.length)
+                    (0, m.Xx)("#Settings_Number_Selected", n.length)
                   )
               )
             ),
             this.state.bShowingModal &&
-              o.createElement(
-                c.TB,
+              c.createElement(
+                _.TB,
                 {
                   className: "OverlayAutoLaunchModal",
-                  header: (0, a.Xx)("#Settings_StartTheseOverlayAppsOnLaunch"),
+                  header: (0, m.Xx)("#Settings_StartTheseOverlayAppsOnLaunch"),
                   onDismissRequested: this.hide,
                 },
                 t.map((e) =>
-                  o.createElement(c.wy, {
+                  c.createElement(_.wy, {
                     key: e.key,
                     label: e.name,
                     value: e.is_autolaunch,
                     onChange: (t) =>
-                      l.G3.SetAppSettings(e.key, { is_autolaunch: t }),
+                      S.G3.SetAppSettings(e.key, { is_autolaunch: t }),
                   })
                 ),
                 !t.length &&
-                  o.createElement(
+                  c.createElement(
                     "div",
                     { className: "ModalPlaceholder" },
-                    (0, a.Xx)(
+                    (0, m.Xx)(
                       "#Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled"
                     )
                   )
@@ -2702,160 +2372,500 @@
           );
         }
       };
-      (0, i.gn)([d.ZP], oe.prototype, "show", null),
-        (0, i.gn)([d.ZP], oe.prototype, "hide", null),
-        (oe = (0, i.gn)([s.Pi], oe));
-      let se = class extends c.d9 {
+      (0, i.gn)([s.ZP], oe.prototype, "show", null),
+        (0, i.gn)([s.ZP], oe.prototype, "hide", null),
+        (oe = (0, i.gn)([l.Pi], oe));
+      let se = class extends _.d9 {
         constructor(e) {
           super(e);
         }
         render() {
           return this.props.active
-            ? o.createElement(
-                o.Fragment,
+            ? c.createElement(
+                c.Fragment,
                 null,
-                o.createElement(oe, null),
-                o.createElement(ie, null),
-                o.createElement("hr", null),
+                c.createElement(oe, null),
+                c.createElement(ie, null),
+                c.createElement("hr", null),
                 this.schemaComponents,
                 this.makeResetToDefaultButton()
               )
             : null;
         }
       };
-      (se.Name = "startupshutdown_settings"), (se = (0, i.gn)([s.Pi], se));
-      let re = class extends o.Component {
+      var re;
+      (se.Name = "startupshutdown_settings"),
+        (se = (0, i.gn)([l.Pi], se)),
+        (function (e) {
+          (e.Unknown = "unknown"),
+            (e.CheckingForUpdate = "checking"),
+            (e.Error = "error"),
+            (e.InProgress = "update_in_progress"),
+            (e.Succeeded = "update_succeeded"),
+            (e.Failed = "update_failed"),
+            (e.Reboot = "reboot"),
+            (e.NoServer = "noserver"),
+            (e.Available = "update"),
+            (e.Reinstall = "reinstall");
+        })(re || (re = {}));
+      class ae extends c.Component {
         constructor(e) {
           super(e),
-            (this.state = {
-              m_nValue: l.G3.settings.get("/settings/dashboard/dashboardScale"),
-            });
+            (this.updateTimer = -1),
+            (this.state = { state: re.Unknown });
         }
         componentDidMount() {
-          this.m_settingObserverAutorunDisposer = (0, f.EH)(() => {
-            this.setState({
-              m_nValue: l.G3.settings.get("/settings/dashboard/dashboardScale"),
-            });
-          });
+          this.RequestChannels();
+        }
+        cancelUpdateTimer() {
+          -1 != this.updateTimer &&
+            (window.clearInterval(this.updateTimer), (this.updateTimer = -1));
         }
         componentWillUnmount() {
-          this.m_settingObserverAutorunDisposer &&
-            (this.m_settingObserverAutorunDisposer(),
-            (this.m_settingObserverAutorunDisposer = null));
+          this.cancelUpdateTimer();
         }
-        render() {
-          return o.createElement(c.U4, {
-            label: (0, a.Xx)("#Settings_DashboardScale"),
-            min: 0.75,
-            max: 1.5,
-            valueStyleVariant: y.px.OnHandle,
-            renderValue: (e) => (100 * e).toFixed(0) + "%",
-            value: this.state.m_nValue,
-            detents: [1],
-            onChange: (e) => {
-              this.setState({ m_nValue: e }),
-                (0, r.Op)() != r.qA.Overlay &&
-                  l.G3.SetSettingsValue(
-                    "/settings/dashboard/dashboardScale",
-                    e
-                  );
-            },
-            onFinalChange: (e) =>
-              l.G3.SetSettingsValue("/settings/dashboard/dashboardScale", e),
+        RequestChannels() {
+          return (0, i.mG)(this, void 0, void 0, function* () {
+            try {
+              console.log("requesting channels");
+              let e = (yield X().get("/linux_update/get_channels.json")).data;
+              this.setState({
+                channels: e.channels,
+                current_channel: e.current_channel,
+              });
+            } catch (e) {
+              console.log("failed to get_channels because of exception: " + e),
+                this.setState({
+                  state: re.Error,
+                  detail: "WebAPI request failed",
+                });
+            }
           });
         }
-      };
-      re = (0, i.gn)([s.Pi], re);
-      let ae = class extends c.d9 {
-        constructor(e) {
-          super(e);
+        RequestUpdateState() {
+          return (0, i.mG)(this, void 0, void 0, function* () {
+            try {
+              console.log("requesting update state");
+              let e = (yield X().get("/linux_update/get_state.json")).data;
+              switch (
+                (console.log("get_state response " + JSON.stringify(e)),
+                this.setState({ state: e.status, detail: e.detail }),
+                e.status)
+              ) {
+                case re.Error:
+                case re.Failed:
+                case re.Reinstall:
+                case re.Succeeded:
+                case re.Reboot:
+                  this.cancelUpdateTimer();
+              }
+            } catch (e) {
+              console.log(
+                "failed to get update state because of exception: " + e
+              ),
+                this.setState({
+                  state: re.Error,
+                  detail: "WebAPI request failed",
+                }),
+                this.cancelUpdateTimer();
+            }
+          });
+        }
+        onClickUpdate() {
+          this.setState({ state: re.InProgress }),
+            -1 == this.updateTimer &&
+              (this.updateTimer = window.setInterval(() => {
+                this.RequestUpdateState();
+              }, 5e3)),
+            console.log("requesting update");
+          try {
+            X().post("/linux_update/update.action");
+          } catch (e) {
+            console.log("failed to request update because of exception: " + e),
+              this.setState({
+                state: re.Error,
+                detail: "WebAPI request failed",
+              }),
+              this.cancelUpdateTimer();
+          }
+        }
+        onClickCheckForUpdate() {
+          console.log("check for update"),
+            this.setState({ state: re.CheckingForUpdate, detail: "" }),
+            this.RequestUpdateState();
+        }
+        onClickReboot() {
+          console.log("requesting reboot");
+          try {
+            X().post("/linux_update/reboot.action");
+          } catch (e) {
+            console.log("failed to request reboot because of exception: " + e),
+              this.setState({
+                state: re.Error,
+                detail: "WebAPI request failed",
+              });
+          }
+        }
+        renderStatus(e, t, n) {
+          return c.createElement(
+            _.GV,
+            { className: "SettingsItem" },
+            c.createElement("div", { className: "Label" }, "Software Updates"),
+            e &&
+              c.createElement(
+                d.z,
+                { className: "ButtonControl", onClick: n, enabled: !!n },
+                e
+              ),
+            t && c.createElement("div", { className: "Label" }, t)
+          );
+        }
+        renderState() {
+          switch (this.state.state) {
+            default:
+            case re.Unknown:
+              return this.renderStatus(
+                "Check For Updates",
+                "",
+                this.onClickCheckForUpdate
+              );
+            case re.CheckingForUpdate:
+              return this.renderStatus("Checking");
+            case re.InProgress:
+              return this.renderStatus(
+                "Installing update...",
+                "Installing update... (typical duration 5 min)"
+              );
+            case re.Available:
+              return this.renderStatus(
+                "Install",
+                "Update Available: " + this.state.detail,
+                this.onClickUpdate
+              );
+            case re.Error:
+              return this.renderStatus(
+                "Retry Install",
+                "Update Error: " + this.state.detail,
+                this.onClickUpdate
+              );
+            case re.Failed:
+              return this.renderStatus(
+                "Retry Install",
+                "Update Failed:" + this.state.detail,
+                this.onClickUpdate
+              );
+            case re.Reinstall:
+              return this.renderStatus(
+                "Reinstall",
+                this.state.detail,
+                this.onClickUpdate
+              );
+            case re.Succeeded:
+            case re.Reboot:
+              return this.renderStatus(
+                "Reboot",
+                "Update Successful. Reboot to finish Update process",
+                this.onClickReboot
+              );
+          }
+        }
+        onChangeChannel(e) {
+          return (0, i.mG)(this, void 0, void 0, function* () {
+            console.log("setting channel to " + e);
+            try {
+              this.setState({ current_channel: e }),
+                yield X().post(
+                  "/linux_update/set_channel.action",
+                  JSON.stringify({ sNewChannel: e })
+                ),
+                this.RequestUpdateState();
+            } catch (e) {
+              console.log("failed to set channel because of exception: " + e);
+            }
+          });
+        }
+        renderChannelDropdown() {
+          var e;
+          if (
+            !this.state.current_channel ||
+            !(null === (e = this.state.channels) || void 0 === e
+              ? void 0
+              : e.length)
+          )
+            return c.createElement("div", { className: "Label" }, "Loading...");
+          let t = this.state.channels.map((e) => ({ value: e, sLabel: e }));
+          return c.createElement(_.Xp, {
+            items: t,
+            value: this.state.current_channel,
+            onChange: this.onChangeChannel,
+            defaultLabel: "Channel",
+          });
+        }
+        renderOSUpdateChannel() {
+          return c.createElement(
+            _.GV,
+            { className: "SettingsItem" },
+            c.createElement("div", { className: "Label" }, "OS Update Channel"),
+            this.renderChannelDropdown()
+          );
         }
         render() {
-          var e;
-          if (!this.props.active) return null;
-          const t =
-            null !==
-              (e = l.G3.settings.get("/settings/dashboard/allowTheaterMode")) &&
-            void 0 !== e &&
-            e;
-          return o.createElement(
-            o.Fragment,
+          return c.createElement(
+            c.Fragment,
             null,
-            o.createElement(c.Xp, {
-              name: v.o1,
-              label: (0, a.Xx)("#Settings_Dashboard_Position"),
-              items: [
-                { value: w._.Near, sLabel: (0, a.Xx)("#Settings_Near") },
-                { value: w._.Middle, sLabel: (0, a.Xx)("#Settings_Middle") },
-                { value: w._.Far, sLabel: (0, a.Xx)("#Settings_Far") },
-              ],
-            }),
-            t &&
-              o.createElement(c.Xp, {
-                name: "/settings/dashboard/theaterPosition",
-                label: "Theater Position",
-                items: [
-                  { value: w._.Near, sLabel: (0, a.Xx)("#Settings_Near") },
-                  { value: w._.Middle, sLabel: (0, a.Xx)("#Settings_Middle") },
-                  { value: w._.Far, sLabel: (0, a.Xx)("#Settings_Far") },
-                ],
+            this.renderState(),
+            this.renderOSUpdateChannel()
+          );
+        }
+      }
+      function le(e) {
+        return e.replace(/\/+$/, "");
+      }
+      (0, i.gn)([s.ak], ae.prototype, "RequestUpdateState", null),
+        (0, i.gn)([s.ak], ae.prototype, "onClickUpdate", null),
+        (0, i.gn)([s.ak], ae.prototype, "onClickCheckForUpdate", null),
+        (0, i.gn)([s.ak], ae.prototype, "onClickReboot", null),
+        (0, i.gn)([s.ak], ae.prototype, "onChangeChannel", null);
+      class ce extends c.Component {
+        constructor(e) {
+          super(e), (this.state = { currentPath: "" });
+        }
+        componentDidMount() {
+          const e = o.ZP.VRPathRegistry.GetRuntimePath();
+          let t = o.ZP.VRPathRegistry.GetInstalledRuntimes();
+          console.log("installedRuntimes: " + JSON.stringify(t)),
+            console.log("currentPath: " + JSON.stringify(e)),
+            this.setState({ currentPath: e, installedRuntimes: t });
+        }
+        render() {
+          if (!o.ZP || null == this.state.installedRuntimes) return null;
+          const e = (e) => "/usr/local/steamvr" == le(e.toLowerCase()),
+            t = (t) =>
+              e(t)
+                ? "System Default"
+                : ((e) => "/data/work/steamvr" == le(e.toLowerCase()))(t)
+                ? "Custom Build"
+                : "Custom: " + t.toLowerCase(),
+            n = this.state.installedRuntimes
+              .filter((e) => e)
+              .map((e) => ({ value: e, sLabel: t(e) })),
+            i = e(this.state.currentPath);
+          return c.createElement(
+            _.GV,
+            { className: "SettingsItem" },
+            c.createElement("div", { className: "Label" }, "SteamVR Install"),
+            n.length > 1 &&
+              c.createElement(_.Xp, {
+                defaultLabel: t(this.state.currentPath),
+                items: n,
+                onChange: (e) => {
+                  o.ZP.VRPathRegistry.SetRuntimePath(e),
+                    console.log("SetRuntimePath to " + e),
+                    S.G3.SetRestartRequired(),
+                    this.setState({
+                      currentPath: o.ZP.VRPathRegistry.GetRuntimePath(),
+                    });
+                },
               }),
-            t &&
-              o.createElement(c.U4, {
-                name: "/settings/dashboard/theaterModeBrightness",
-                label: "Theater Room Brightness",
-                min: 0,
-                max: 1,
-                valueStyleVariant: y.px.OnHandle,
-                detents: [0.5],
-                renderValue: (e) => (100 * e).toFixed(0) + "%",
-              }),
-            t &&
-              o.createElement(c.U4, {
-                name: "/settings/dashboard/theaterModeReflection",
-                label: "Theater Room Reflections",
-                min: 0,
-                max: 1,
-                valueStyleVariant: y.px.OnHandle,
-                detents: [0.5],
-                renderValue: (e) => (100 * e).toFixed(0) + "%",
-              }),
-            o.createElement(c.wy, {
-              name: "/settings/dashboard/showPowerOptions",
-              label: (0, a.Xx)("#Settings_ShowPowerMenu"),
-              visibility: c.VK.Advanced,
-            }),
-            o.createElement(c.wy, {
-              name: "/settings/dashboard/showDesktop",
-              label: (0, a.Xx)("#Settings_ShowDesktopViews"),
-              visibility: c.VK.Advanced,
-            }),
-            o.createElement(c.wy, {
-              name: "/settings/dashboard/allowAppQuitting",
-              label: (0, a.Xx)("#Settings_AllowAppQuitting"),
-              visibility: c.VK.Advanced,
-            }),
-            o.createElement(c.wy, {
-              name: "/settings/dashboard/arcadeMode",
-              label: (0, a.Xx)("#Settings_ShowSettingsInDashboard"),
-              swapOnOff: !0,
-              visibility: c.VK.Advanced,
-            }),
-            o.createElement(c.wy, {
-              name: "/settings/dashboard/enableDashboard",
-              title: (0, a.Xx)("#Settings_EnableDashboardDesc"),
-              label: (0, a.Xx)("#Settings_EnableDashboard"),
-              visibility: c.VK.Advanced,
-            })
+            1 == n.length &&
+              c.createElement(
+                "div",
+                { className: "Label" },
+                " ",
+                n[0].sLabel,
+                " "
+              ),
+            !i &&
+              c.createElement(
+                "div",
+                { className: "Label Warning" },
+                "(Does not update with System Update)"
+              )
+          );
+        }
+      }
+      let de = class extends _.d9 {
+        constructor(e) {
+          super(e), (this.state = {});
+        }
+        GetNetworkInfo() {
+          let e = { linksPaired: [], foxnetActive: !1, ethernetActive: !1 },
+            t = o.ZP.GetHostInfo(o.zA.NetworkConnections);
+          if (void 0 !== t) {
+            let n = t.split("\n");
+            for (let t of n) {
+              let n = t.split(":");
+              switch (n[1]) {
+                case "802-3-ethernet":
+                  "activated" == n[2] && (e.ethernetActive = !0);
+                  break;
+                case "802-11-wireless":
+                  "activated" == n[2] && (e.activeWifi = n[0]);
+                  break;
+                case "wireguard":
+                  "activated" == n[2] && (e.foxnetActive = !0);
+              }
+            }
+          }
+          return e;
+        }
+        getSystemVersion() {
+          var e, t, n, i, s;
+          let r =
+              null ===
+                (e =
+                  null === o.ZP || void 0 === o.ZP
+                    ? void 0
+                    : o.ZP.GetHostInfo(o.zA.Version)) || void 0 === e
+                ? void 0
+                : e.split("\n"),
+            a = {};
+          if (void 0 !== r)
+            for (let e of r) {
+              let t = e.split("=");
+              switch (t[0]) {
+                case "VERSION":
+                  a.version = t[1];
+                  break;
+                case "USER":
+                  a.user = t[1];
+                  break;
+                case "MACHINE":
+                  a.hostname = t[1];
+                  break;
+                case "DATE":
+                  a.datetime = t[1];
+              }
+            }
+          return null !==
+            (s =
+              null !==
+                (i =
+                  null !==
+                    (n =
+                      null !== (t = a.version) && void 0 !== t
+                        ? t
+                        : "?" + a.user) && void 0 !== n
+                    ? n
+                    : "?@" + a.hostname) && void 0 !== i
+                ? i
+                : "?" + a.datetime) && void 0 !== s
+            ? s
+            : "?";
+        }
+        render() {
+          var e, t, n, i;
+          if (!this.props.active) return null;
+          let s =
+              null !==
+                (e =
+                  null === o.ZP || void 0 === o.ZP
+                    ? void 0
+                    : o.ZP.GetHostInfo(o.zA.XRS_CalibrationDate)) &&
+              void 0 !== e
+                ? e
+                : "???",
+            r = null,
+            a = !0;
+          try {
+            r = Date.parse(s.split("_")[0]);
+          } finally {
+          }
+          if (r) {
+            const e = "2021-11-22";
+            a = r < Date.parse(e);
+          }
+          let l = this.getSystemVersion(),
+            d = this.GetNetworkInfo(),
+            p =
+              null !== (t = d.activeWifi) && void 0 !== t ? t : "disconnected";
+          return (
+            d.ethernetActive && (p += " +Ethernet"),
+            d.foxnetActive && (p += " +Foxnet"),
+            c.createElement(
+              c.Fragment,
+              null,
+              c.createElement(ae, null),
+              c.createElement(ce, null),
+              c.createElement("br", null),
+              c.createElement("hr", null),
+              c.createElement(
+                _.GV,
+                { className: "SettingsItem" },
+                c.createElement("div", { className: "Label" }, "Hostname"),
+                c.createElement(
+                  "div",
+                  { className: "Label" },
+                  null === o.ZP || void 0 === o.ZP
+                    ? void 0
+                    : o.ZP.GetHostInfo(o.zA.Hostname)
+                )
+              ),
+              c.createElement(
+                _.GV,
+                { className: "SettingsItem" },
+                c.createElement(
+                  "div",
+                  { className: "Label" },
+                  "System Version"
+                ),
+                c.createElement("div", { className: "Label" }, l)
+              ),
+              c.createElement(
+                _.GV,
+                { className: "SettingsItem" },
+                c.createElement("div", { className: "Label" }, "WiFi"),
+                c.createElement("div", { className: "Label" }, p)
+              ),
+              c.createElement(
+                _.GV,
+                { className: "SettingsItem" },
+                c.createElement("div", { className: "Label" }, "Link paired"),
+                null !==
+                  (i =
+                    null === (n = d.linksPaired) || void 0 === n
+                      ? void 0
+                      : n.map((e, t) =>
+                          c.createElement(
+                            "div",
+                            { key: t, className: "Label" },
+                            e
+                          )
+                        )) && void 0 !== i
+                  ? i
+                  : "none"
+              ),
+              c.createElement(
+                _.GV,
+                { className: "SettingsItem" },
+                c.createElement("div", { className: "Label" }, "XRService Cal"),
+                c.createElement("div", { className: "Label" }, s),
+                a &&
+                  c.createElement(
+                    "div",
+                    { className: "Label Error" },
+                    "REQUIRES CAMERA CALIBRATION"
+                  )
+              ),
+              c.createElement(
+                _.GV,
+                { className: "SettingsItem" },
+                c.createElement("div", { className: "Label" }, "IP"),
+                c.createElement(
+                  "div",
+                  { className: "Label" },
+                  null === o.ZP || void 0 === o.ZP
+                    ? void 0
+                    : o.ZP.GetHostInfo(o.zA.IP)
+                )
+              )
+            )
           );
         }
       };
-      (ae.Name = "dashboard_settings"), (ae = (0, i.gn)([s.Pi], ae));
-      var le,
-        ce = n(7679),
-        de = n(9392),
-        pe = n(6547);
-      class ue extends o.Component {
+      var pe;
+      (de.Name = "system_settings"), (de = (0, i.gn)([l.Pi], de));
+      class ue extends c.Component {
         constructor(e) {
           super(e),
             (this.state = {
@@ -2865,15 +2875,15 @@
             });
         }
         get enabled() {
-          const e = (0, r.Op)() == r.qA.Overlay;
+          const e = (0, o.Op)() == o.qA.Overlay;
           return this.props.standalonePanel == e;
         }
         onExitApp() {
-          null === r.ZP || void 0 === r.ZP || r.ZP.QuitSceneApp();
+          null === o.ZP || void 0 === o.ZP || o.ZP.QuitSceneApp();
         }
         onRestartSteamVR() {
-          r.ZP
-            ? r.ZP.RestartSteamVR(!1)
+          o.ZP
+            ? o.ZP.RestartSteamVR(!1)
             : window.open("vrmonitor://restartsystem");
         }
         onRestartRequired() {
@@ -2898,76 +2908,76 @@
         }
         componentDidMount() {
           this.enabled &&
-            ((l.G3.onRestartRequired = this.onRestartRequired),
-            (l.G3.onAppRestartRequired = this.onAppRestartRequired));
+            ((S.G3.onRestartRequired = this.onRestartRequired),
+            (S.G3.onAppRestartRequired = this.onAppRestartRequired));
         }
         componentWillUnmount() {
           this.enabled &&
-            (l.G3.onRestartRequired == this.onRestartRequired &&
-              (l.G3.onRestartRequired = null),
-            l.G3.onAppRestartRequired == this.onAppRestartRequired &&
-              (l.G3.onAppRestartRequired = null));
+            (S.G3.onRestartRequired == this.onRestartRequired &&
+              (S.G3.onRestartRequired = null),
+            S.G3.onAppRestartRequired == this.onAppRestartRequired &&
+              (S.G3.onAppRestartRequired = null));
         }
         render() {
           if (!this.enabled) return null;
           let e = null;
           if (
             (this.state.bShowSteamVRRestartRequired
-              ? (e = o.createElement(
-                  _.q,
+              ? (e = c.createElement(
+                  d.q,
                   {
                     className:
                       "SettingsRestartRequiredBanner Shown" +
                       (this.state.bRestartAnimation ? " ReShimmer" : ""),
                   },
-                  o.createElement(
+                  c.createElement(
                     "div",
                     { className: "Label" },
-                    (0, a.Xx)("#Settings_MustRestart_Description")
+                    (0, m.Xx)("#Settings_MustRestart_Description")
                   ),
-                  o.createElement(
-                    _.z,
+                  c.createElement(
+                    d.z,
                     {
                       className: "ButtonControl",
                       onClick: this.onRestartSteamVR,
                     },
-                    (0, a.Xx)("#Settings_MustRestart_RestartSteamVR_Button")
+                    (0, m.Xx)("#Settings_MustRestart_RestartSteamVR_Button")
                   )
                 ))
               : this.state.bShowAppRestartRequired &&
-                (e = o.createElement(
-                  _.q,
+                (e = c.createElement(
+                  d.q,
                   {
                     className:
                       "SettingsRestartRequiredBanner Shown" +
                       (this.state.bRestartAnimation ? " ReShimmer" : ""),
                   },
-                  o.createElement(
+                  c.createElement(
                     "div",
                     { className: "Label" },
-                    (0, a.Xx)("#Settings_MustQuitApp_Description")
+                    (0, m.Xx)("#Settings_MustQuitApp_Description")
                   ),
-                  o.createElement(
-                    _.z,
+                  c.createElement(
+                    d.z,
                     { className: "ButtonControl", onClick: this.onExitApp },
-                    (0, a.Xx)("#Settings_MustQuitApp_QuitCurrentGame_Button")
+                    (0, m.Xx)("#Settings_MustQuitApp_QuitCurrentGame_Button")
                   )
                 )),
             this.props.standalonePanel)
           ) {
             if (null === e) return null;
             const t = "mainmountable_TopCenter";
-            return o.createElement(
-              r.wx,
+            return c.createElement(
+              o.wx,
               { parent_id: t, translation: { y: 0.2, z: -0.05 } },
-              o.createElement(
-                r.s_,
+              c.createElement(
+                o.s_,
                 {
                   debug_name: "settingsrestartbanner",
-                  curvature_origin_id: v.Pt,
-                  origin: r.Ic.BottomCenter,
+                  curvature_origin_id: h.Pt,
+                  origin: o.Ic.BottomCenter,
                   interactive: !0,
-                  target_dpi_panel_id: ce.WR,
+                  target_dpi_panel_id: h.WR,
                   reflect: 0.1,
                 },
                 e
@@ -2977,27 +2987,27 @@
           return e;
         }
       }
-      (0, i.gn)([d.ak], ue.prototype, "onExitApp", null),
-        (0, i.gn)([d.ak], ue.prototype, "onRestartSteamVR", null),
-        (0, i.gn)([d.ak], ue.prototype, "onRestartRequired", null),
-        (0, i.gn)([d.ak], ue.prototype, "onAppRestartRequired", null);
-      let he = (le = class extends o.Component {
+      (0, i.gn)([s.ak], ue.prototype, "onExitApp", null),
+        (0, i.gn)([s.ak], ue.prototype, "onRestartSteamVR", null),
+        (0, i.gn)([s.ak], ue.prototype, "onRestartRequired", null),
+        (0, i.gn)([s.ak], ue.prototype, "onAppRestartRequired", null);
+      let he = (pe = class extends c.Component {
         constructor(e) {
           super(e),
-            (this.m_refSettingsPageContainer = o.createRef()),
+            (this.m_refSettingsPageContainer = c.createRef()),
             (this.m_routeObservingAutorunDisposer = null),
             (this.m_fidelitySettingsObserver = null),
             (this.state = { sActiveSettingSection: null });
         }
         componentDidMount() {
-          (this.m_routeObservingAutorunDisposer = (0, f.EH)(() => {
-            l.G3.routePage
-              ? this.setState({ sActiveSettingSection: l.G3.routePage })
-              : l.G3.setRoutePage(
-                  l.G3.settingsSchema.filter(le.shouldShowSection)[0].controller
+          (this.m_routeObservingAutorunDisposer = (0, a.EH)(() => {
+            S.G3.routePage
+              ? this.setState({ sActiveSettingSection: S.G3.routePage })
+              : S.G3.setRoutePage(
+                  S.G3.settingsSchema.filter(pe.shouldShowSection)[0].controller
                 );
           })),
-            (this.m_fidelitySettingsObserver = new q.kB()),
+            (this.m_fidelitySettingsObserver = new g.kB()),
             this.ListenForHomeEnabledChanges();
         }
         componentDidUpdate(e, t) {
@@ -3017,51 +3027,51 @@
             (this.m_fidelitySettingsObserver = null);
         }
         render() {
-          const e = !l.G3.connected || !l.G3.settingsSchema;
+          const e = !S.G3.connected || !S.G3.settingsSchema;
           let t = null;
-          e && (0, r.Op)() != r.qA.Overlay
-            ? (t = o.createElement(
+          e && (0, o.Op)() != o.qA.Overlay
+            ? (t = c.createElement(
                 "div",
                 { className: "Label" },
-                (0, a.Xx)("#Settings_Loading")
+                (0, m.Xx)("#Settings_Loading")
               ))
             : e ||
-              (((0, r.Op)() != r.qA.Overlay || this.props.visible) &&
+              (((0, o.Op)() != o.qA.Overlay || this.props.visible) &&
                 (t = this.renderSettingsPanelContents()));
           let n = null;
-          if ((0, r.Op)() == r.qA.Overlay) {
+          if ((0, o.Op)() == o.qA.Overlay) {
             const e = "mainmountable",
               i = e + "_TopCenter";
-            n = o.createElement(
-              r.Y9,
+            n = c.createElement(
+              o.Y9,
               {
                 id: "settingstab",
-                tabName: (0, a.Xx)("#VRMonitor_Nav_Settings"),
+                tabName: (0, m.Xx)("#VRMonitor_Nav_Settings"),
                 iconUri: "/dashboard/images/icons/svr_settings.svg",
-                summonOverlayKey: v.A4,
+                summonOverlayKey: h.A4,
                 mountableUnqualifiedID: e,
               },
-              t && o.createElement(ue, { standalonePanel: !0 }),
+              t && c.createElement(ue, { standalonePanel: !0 }),
               t &&
-                o.createElement(
-                  ce.lL,
+                c.createElement(
+                  r.lL,
                   {
                     visible: !0,
                     debugName: "settings",
                     additionalClassNames: "Settings",
                     foregroundReflectMultiplier: 0.25,
                   },
-                  o.createElement(r.at, { id: i, location: r.Ic.TopCenter }),
+                  c.createElement(o.at, { id: i, location: o.Ic.TopCenter }),
                   t
                 )
             );
           } else n = t;
-          return o.createElement(
+          return c.createElement(
             "div",
             {
-              className: (0, q.LJ)(
+              className: (0, g.LJ)(
                 "SettingsMain",
-                (0, r.Op)() == r.qA.Overlay ? "Overlay" : "Desktop",
+                (0, o.Op)() == o.qA.Overlay ? "Overlay" : "Desktop",
                 ["Loading", e]
               ),
             },
@@ -3069,45 +3079,45 @@
           );
         }
         renderSettingsPanelContents() {
-          const e = l.G3.settingsSchema.filter(le.shouldShowSection);
-          return o.createElement(
-            _.q,
+          const e = S.G3.settingsSchema.filter(pe.shouldShowSection);
+          return c.createElement(
+            d.q,
             { className: "SettingsMainPanel" },
-            o.createElement(ue, { standalonePanel: !1 }),
-            o.createElement(
+            c.createElement(ue, { standalonePanel: !1 }),
+            c.createElement(
               "div",
               { className: "SettingsSidebarPageModalContainer" },
-              o.createElement(
-                pe.sC,
+              c.createElement(
+                p.sC,
                 { className: "SettingsSidebarPageContainer" },
-                o.createElement(
+                c.createElement(
                   "div",
-                  { className: (0, q.LJ)("SettingsSidebar") },
+                  { className: (0, g.LJ)("SettingsSidebar") },
                   e.map(this.renderSectionButton),
-                  o.createElement("div", { className: "Spacer" }),
-                  o.createElement(
+                  c.createElement("div", { className: "Spacer" }),
+                  c.createElement(
                     "div",
                     {
-                      className: (0, q.LJ)("Bottom", "AdvancedSettingsToggle", [
+                      className: (0, g.LJ)("Bottom", "AdvancedSettingsToggle", [
                         "Fadable",
-                        !l.G3.showAdvancedSettings,
+                        !S.G3.showAdvancedSettings,
                       ]),
                     },
-                    o.createElement(c.wy, {
-                      label: (0, a.Xx)("#Settings_AdvancedSettings"),
-                      value: l.G3.showAdvancedSettings,
-                      onChange: (e) => (l.G3.showAdvancedSettings = e),
-                      onLabel: (0, a.Xx)("#Settings_Show"),
-                      offLabel: (0, a.Xx)("#Settings_Hide"),
+                    c.createElement(_.wy, {
+                      label: (0, m.Xx)("#Settings_AdvancedSettings"),
+                      value: S.G3.showAdvancedSettings,
+                      onChange: (e) => (S.G3.showAdvancedSettings = e),
+                      onLabel: (0, m.Xx)("#Settings_Show"),
+                      offLabel: (0, m.Xx)("#Settings_Hide"),
                     })
                   )
                 ),
-                o.createElement(
-                  de.P,
+                c.createElement(
+                  u.P,
                   {
-                    scrollDirection: de.I.Vertical,
+                    scrollDirection: u.I.Vertical,
                     alwaysShowScrollbars: !0,
-                    className: (0, q.LJ)("SettingsPageContainer"),
+                    className: (0, g.LJ)("SettingsPageContainer"),
                     ref: this.m_refSettingsPageContainer,
                   },
                   e.map(this.renderSectionPage)
@@ -3121,14 +3131,14 @@
           return (
             this.state.sActiveSettingSection === e.controller &&
               t.push("Active"),
-            o.createElement(
-              _.z,
+            c.createElement(
+              d.z,
               {
                 key: e.title,
                 className: t.join(" "),
-                onClick: () => l.G3.setRoutePage(e.controller),
+                onClick: () => S.G3.setRoutePage(e.controller),
               },
-              o.createElement("div", { className: "Label" }, (0, a.Xx)(e.title))
+              c.createElement("div", { className: "Label" }, (0, m.Xx)(e.title))
             )
           );
         }
@@ -3136,69 +3146,69 @@
           const t = e.controller ? e.controller : "generic",
             n = this.state.sActiveSettingSection === e.controller,
             i =
-              [u, se, J, S.Yw, C, k, ae, z, X, R.P, I, G].find(
+              [f, se, J, D.Yw, M, I, E, L, N, R.P, de, z].find(
                 (e) => e.Name === t
-              ) || c.d9;
-          return o.createElement(i, { key: e.title, section: e, active: n });
+              ) || _.d9;
+          return c.createElement(i, { key: e.title, section: e, active: n });
         }
         static shouldShowSection(e) {
           if (
             e.internal_only &&
-            !l.G3.showInternalSettings &&
-            !l.G3.settings.get(le.k_sShowInternalSettings)
+            !S.G3.showInternalSettings &&
+            !S.G3.settings.get(pe.k_sShowInternalSettings)
           )
             return !1;
           if (
-            e.controller == I.Name &&
-            !l.G3.settings.get(le.k_sShowSystemSettings)
+            e.controller == de.Name &&
+            !S.G3.settings.get(pe.k_sShowSystemSettings)
           )
             return !1;
           if (
-            e.controller == G.Name &&
-            !l.G3.settings.get(le.k_sShowInternetSettings)
+            e.controller == z.Name &&
+            !S.G3.settings.get(pe.k_sShowInternetSettings)
           )
             return !1;
           if (
             !e.show_without_hmd &&
-            !(null === r.ZP || void 0 === r.ZP ? void 0 : r.ZP.HasHMD())
+            !(null === o.ZP || void 0 === o.ZP ? void 0 : o.ZP.HasHMD())
           )
             return !1;
-          if (e.desktop_only && (0, r.Op)() == r.qA.Overlay) return !1;
+          if (e.desktop_only && (0, o.Op)() == o.qA.Overlay) return !1;
           let t =
-            e.controller == ae.Name &&
-            l.G3.settings.get(le.k_sShowDashboardSettings);
+            e.controller == E.Name &&
+            S.G3.settings.get(pe.k_sShowDashboardSettings);
           return (
-            !(e.advanced_only && !l.G3.showAdvancedSettings && !t) &&
+            !(e.advanced_only && !S.G3.showAdvancedSettings && !t) &&
             !(
-              e.controller == C.Name &&
-              !(null === r.ZP || void 0 === r.ZP
+              e.controller == M.Name &&
+              !(null === o.ZP || void 0 === o.ZP
                 ? void 0
-                : r.ZP.VRProperties.GetBoolProperty(
+                : o.ZP.VRProperties.GetBoolProperty(
                     "/user/head",
-                    r.Uk.HasCamera_Bool
+                    o.Uk.HasCamera_Bool
                   ))
             ) &&
             !!(
-              e.controller != u.Name ||
-              (l.G3.systemInfo && l.G3.systemInfo.os_type >= 0)
+              e.controller != f.Name ||
+              (S.G3.systemInfo && S.G3.systemInfo.os_type >= 0)
             ) &&
-            !(!r.ZP && e.web_helper_only)
+            !(!o.ZP && e.web_helper_only)
           );
         }
         ListenForHomeEnabledChanges() {
           return (0, i.mG)(this, void 0, void 0, function* () {
-            if ((0, r.Op)() != r.qA.Overlay) return;
-            let e = yield l.G3.GetSettingsValue(v.je);
-            r.ZP &&
-              (0, f.EH)(() => {
-                let t = l.G3.settings.get(v.je);
+            if ((0, o.Op)() != o.qA.Overlay) return;
+            let e = yield S.G3.GetSettingsValue(h.je);
+            o.ZP &&
+              (0, a.EH)(() => {
+                let t = S.G3.settings.get(h.je);
                 void 0 !== t &&
                   t != e &&
-                  (t && !r.ZP.VRApplications.GetSceneApplicationKey()
-                    ? r.ZP.VRApplications.LaunchApplication(v.hK)
+                  (t && !o.ZP.VRApplications.GetSceneApplicationKey()
+                    ? o.ZP.VRApplications.LaunchApplication(h.hK)
                     : t ||
-                      r.ZP.VRApplications.GetSceneApplicationKey() != v.hK ||
-                      r.ZP.QuitSceneApp(),
+                      o.ZP.VRApplications.GetSceneApplicationKey() != h.hK ||
+                      o.ZP.QuitSceneApp(),
                   (e = t));
               });
           });
@@ -3209,9 +3219,9 @@
         (he.k_sShowInternetSettings = "/settings/steamvr/showInternetSettings"),
         (he.k_sShowDashboardSettings =
           "/settings/steamvr/showDashboardSettings"),
-        (0, i.gn)([d.ak], he.prototype, "renderSectionButton", null),
-        (0, i.gn)([d.ak], he.prototype, "renderSectionPage", null),
-        (he = le = (0, i.gn)([s.Pi], he));
+        (0, i.gn)([s.ak], he.prototype, "renderSectionButton", null),
+        (0, i.gn)([s.ak], he.prototype, "renderSectionPage", null),
+        (he = pe = (0, i.gn)([l.Pi], he));
     },
     3371: (e, t, n) => {
       n.d(t, { P: () => D, f: () => P });
@@ -8905,49 +8915,53 @@
     },
     197: (e, t, n) => {
       n.d(t, {
-        A4: () => g,
-        Av: () => U,
-        Az: () => m,
-        BW: () => x,
-        EL: () => E,
-        Ek: () => F,
-        FM: () => X,
-        GN: () => h,
+        A4: () => v,
+        Av: () => z,
+        Az: () => _,
+        BW: () => U,
+        EL: () => O,
+        Ek: () => W,
+        FM: () => j,
+        GN: () => S,
+        Gl: () => R,
         MI: () => a,
-        MZ: () => A,
-        Ml: () => q,
+        MZ: () => g,
+        Ml: () => Z,
         O5: () => l,
         PF: () => d,
-        Pt: () => w,
+        Pt: () => k,
         Pv: () => o,
-        RD: () => L,
-        RM: () => v,
+        RD: () => B,
+        RM: () => A,
+        T2: () => y,
         Us: () => u,
-        Vq: () => b,
+        Vq: () => m,
         W4: () => s,
-        Xl: () => _,
-        Y8: () => S,
-        aT: () => T,
-        bp: () => D,
-        bt: () => M,
-        eW: () => R,
-        f8: () => f,
-        fY: () => O,
-        fj: () => W,
+        WR: () => T,
+        Xl: () => b,
+        Y8: () => f,
+        aT: () => D,
+        bp: () => V,
+        bt: () => E,
+        eW: () => L,
+        f8: () => C,
+        fY: () => x,
+        fj: () => K,
         gB: () => p,
         hK: () => i,
         jW: () => r,
-        je: () => k,
-        k_: () => H,
-        ml: () => C,
-        nf: () => B,
-        o1: () => G,
-        oh: () => P,
-        r4: () => y,
+        je: () => P,
+        k_: () => q,
+        ml: () => w,
+        nf: () => F,
+        o1: () => H,
+        oh: () => I,
+        r4: () => h,
+        t3: () => M,
         wB: () => c,
-        y3: () => V,
-        yQ: () => N,
-        zL: () => I,
+        y3: () => N,
+        yQ: () => X,
+        zL: () => G,
       });
       const i = "openvr.tool.steamvr_environments",
         o = "system.generated.steam.exe",
@@ -8959,39 +8973,43 @@
         d = a + "nowplaying",
         p = a + "desktop",
         u = "current.scene.app.binding.list",
-        h = "system.standalone",
-        m = "system.systemui",
-        g = "system.settings",
-        S = "valve.steam.bigpicture",
-        _ = "valve.steam.desktop",
-        v = "system.vrwebhelper.controllerbinding",
-        f = "system.messageoverlay",
-        y = "system.desktop",
-        b = "system.window",
-        A = "valve.steam",
-        C = "DashboardCurvatureOrigin",
-        w = m + "::" + C,
-        k = "/settings/steamvr/enableHomeApp",
-        M = "/settings/steamvr/supersampleManualOverride",
-        R = "/settings/steamvr/supersampleScale",
-        T = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
-        P = "/settings/camera/roomViewStyle",
-        E = "/settings/steamvr/backgroundCameraHeight",
-        L = "/settings/steamvr/backgroundDomeRadius",
-        D = "/settings/steamvr/analogGain",
-        I = "/settings/driver_lighthouse/indexHmdColumnCorrection",
-        O = "/settings/steamvr/showAdvancedSettings",
-        B = "/settings/dashboard/lastAccessedExternalOverlayKey",
-        V = "/settings/internal/dashboardInitialOverlay",
-        G = "/settings/dashboard/position_2",
-        x = "/settings/dashboard/disableAnimations",
-        F = "/settings/steamvr/overlayRenderQuality_2",
-        N = "/settings/collisionBounds/CollisionBoundsFadeDistance",
-        H = "/settings/camera/roomView",
-        U = "/settings/camera/enableCamera",
-        W = "/settings/dashboard/enableWindowView",
-        X = "/settings/dashboard/maxInlineTabs",
-        q = "binding_callouts/main";
+        h = "system.desktop",
+        m = "system.window",
+        g = "valve.steam",
+        S = "system.standalone",
+        _ = "system.systemui",
+        v = "system.settings",
+        f = g + ".bigpicture",
+        y = "valve.steam.gamepadui.main",
+        b = g + ".desktop",
+        A = "system.vrwebhelper.controllerbinding",
+        C = "system.messageoverlay",
+        w = "DashboardCurvatureOrigin",
+        k = _ + "::" + w,
+        M = "DashboardPanelTopCenter",
+        R = "DashboardPanelBottomCenter",
+        T = "DashboardControlStrip",
+        P = "/settings/steamvr/enableHomeApp",
+        E = "/settings/steamvr/supersampleManualOverride",
+        L = "/settings/steamvr/supersampleScale",
+        D = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
+        I = "/settings/camera/roomViewStyle",
+        O = "/settings/steamvr/backgroundCameraHeight",
+        B = "/settings/steamvr/backgroundDomeRadius",
+        V = "/settings/steamvr/analogGain",
+        G = "/settings/driver_lighthouse/indexHmdColumnCorrection",
+        x = "/settings/steamvr/showAdvancedSettings",
+        F = "/settings/dashboard/lastAccessedExternalOverlayKey",
+        N = "/settings/internal/dashboardInitialOverlay",
+        H = "/settings/dashboard/position_2",
+        U = "/settings/dashboard/disableAnimations",
+        W = "/settings/steamvr/overlayRenderQuality_2",
+        X = "/settings/collisionBounds/CollisionBoundsFadeDistance",
+        q = "/settings/camera/roomView",
+        z = "/settings/camera/enableCamera",
+        K = "/settings/dashboard/enableWindowView",
+        j = "/settings/dashboard/maxInlineTabs",
+        Z = "binding_callouts/main";
     },
     1428: (e, t, n) => {
       n.d(t, {
@@ -9421,7 +9439,7 @@
         }
         CopyActions(e) {
           L.ClearModesForInputPath(this.GetFullInputPath),
-            e.GetModes.map((e, t) => {
+            e.GetModes.forEach((e, t) => {
               L.AddInputModeForSource(this.GetFullInputPath, e.mode),
                 e.inputs.forEach((e, n) => {
                   L.SetActionForInputModeType(
@@ -10319,7 +10337,6 @@
         }
         GetBooleanInputOptionsForMode(e) {
           switch (e) {
-            case "button":
             case "toggle_button":
             case "trackpad":
             case "trigger":
@@ -10491,7 +10508,7 @@
           if (
             (this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
-              .sources.filter((t, n) => {
+              .sources.forEach((t, n) => {
                 t.path == e && r.push(new s(t, n));
               }),
             r.length <= t)
@@ -10538,7 +10555,7 @@
           if (
             (this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
-              .sources.filter((t, n) => {
+              .sources.forEach((t, n) => {
                 t.path == e && s.push(n);
               }),
             s.length <= t)
@@ -10578,7 +10595,7 @@
           if (
             (this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
-              .sources.filter((t, n) => {
+              .sources.forEach((t, n) => {
                 t.path == e && o.push(n);
               }),
             o.length <= t)
@@ -10637,7 +10654,7 @@
           if (
             (this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
-              .sources.filter((t, i) => {
+              .sources.forEach((t, i) => {
                 t.path.toLowerCase() == e.toLowerCase() && n.push(i);
               }),
             n.length <= t)
@@ -10667,7 +10684,7 @@
           if (
             (this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
-              .sources.filter((t, n) => {
+              .sources.forEach((t, n) => {
                 t.path.toLowerCase() == e.toLowerCase() && i.push(n);
               }),
             i.length <= t)
@@ -10776,7 +10793,7 @@
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses =
-              new Array());
+              []);
           let n = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
             .poses.findIndex(
@@ -10812,7 +10829,7 @@
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses =
-              new Array());
+              []);
           let n = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
             .poses.findIndex((t) => t.path.toLowerCase() == e.toLowerCase());
@@ -10845,7 +10862,7 @@
             (this.AddActionSetIfRequired(),
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses ||
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses =
-                new Array()),
+                []),
             null == this.SelectedControllerTypeInfo)
           )
             return;
@@ -10861,7 +10878,7 @@
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics =
-              new Array());
+              []);
           let n = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
             .haptics.findIndex(
@@ -10897,7 +10914,7 @@
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics =
-              new Array());
+              []);
           let n = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
             .haptics.findIndex((t) => t.path.toLowerCase() == e.toLowerCase());
@@ -10924,7 +10941,7 @@
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics ||
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet
-              ).haptics = new Array());
+              ).haptics = []);
           let n = this.GetFirstInputSourceOfType("haptic");
           if (!n) return;
           let i = t + n,
@@ -10938,7 +10955,7 @@
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton =
-              new Array());
+              []);
           let n = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
             .skeleton.findIndex(
@@ -10974,7 +10991,7 @@
             );
           this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton ||
             (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton =
-              new Array());
+              []);
           let n = this.m_ModifiedBindingSet
             .get(this.m_sSelectedActionSet)
             .skeleton.findIndex((t) => t.path.toLowerCase() == e.toLowerCase());
@@ -11001,7 +11018,7 @@
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton ||
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet
-              ).skeleton = new Array());
+              ).skeleton = []);
           let n = this.GetFirstInputSourceOfType("skeleton");
           if (!n) return;
           let i = t + n,
@@ -11048,7 +11065,7 @@
           this.AddActionSetIfRequired(),
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords ||
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords =
-                new Array()),
+                []),
             this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
               .chords.push(new y()),
@@ -11522,7 +11539,7 @@
                 (n.poses = e.binding_config.bindings[t].poses),
                 (n.haptics = e.binding_config.bindings[t].haptics),
                 (n.skeleton = e.binding_config.bindings[t].skeleton),
-                (n.sources = new Array()),
+                (n.sources = []),
                 e.binding_config.bindings[t].sources.forEach((e) => {
                   let t = new S();
                   (t.mode = e.mode),
@@ -12892,7 +12909,7 @@
         s = n(7056),
         r = n(197),
         a = n(3446),
-        l = n(8546);
+        l = n(7677);
       class c {
         constructor() {
           var e;
@@ -12959,7 +12976,7 @@
           (this.m_lastDashboardSessionId = ++this.m_dashboardSessionCount),
             (this.m_dashboardSession = {
               dashboardSessionId: this.m_lastDashboardSessionId,
-              summonedBy: e,
+              sReason: e,
               appAtStart:
                 null === VRHTML || void 0 === VRHTML
                   ? void 0
@@ -13996,7 +14013,7 @@
         r = n.n(s),
         a = n(2188),
         l = n(6321),
-        c = n(8546),
+        c = n(7677),
         d = n(197);
       const p = 16,
         u = 0.2,
@@ -14721,4 +14738,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=4f8c5928c6802151aa28
+//# sourceMappingURL=vrwebui_shared.js.map?v=5abc8c493a37fc2714a1
