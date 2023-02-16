@@ -1,12 +1,12 @@
 	!s99
-	:h]H
  %41g
 !hn7!
+"h)iS
+%QYC0
 ',=?k
 (f*^[0
 +Xt@(
 +o'q)}
-+yB#g
 ,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
@@ -84,7 +84,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230110005318Z0/
+221222225629Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -96,6 +96,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3;Qfa
 3<3Y3o3
 3mq+<
 4(4Z4
@@ -118,7 +119,6 @@
 6k6p6
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7i:/aTT
 8(8,8<8@8D8L8d8t8x8
 8)8?8H8S8Z8z8
 8*858?8K8
@@ -132,7 +132,7 @@
 :(:-:;:E:N:W:b:g:u:
 :(:8:<:L:P:X:p:
 ;(;2;;;G;P;U;`;q;
-;4>X>d>l>
+;<>`>l>t>
 ;Z;k;
 <*J=)
 <0:08
@@ -146,13 +146,13 @@
 >4?=?F?O?T?Y?`?
 >Mp$d
 >T>]>f>o>t>y>
-?0?8?L?T?\?d?h?l?t?
+?$?8?@?T?\?d?l?p?t?|?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
+B<o=!|_
 Bellevue1
-DYS\9
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 2022 - 20
@@ -161,7 +161,6 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DigiCert1$0"
 DisableThreadLibraryCalls
-Dr9Ss
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -198,6 +197,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS6<
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -211,6 +211,7 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
+YBO2b
 Y__^[
 [K]taM?
 ]J<0"0i3
@@ -242,6 +243,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`P1o7
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -249,7 +251,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
 cU	F9
 displayFrequency
 driver_null
@@ -269,11 +271,13 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 m0k0$
+m]:s3
 malloc
 memcpy
 memmove
 memset
 modelNumber
+r+(n!
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -289,6 +293,7 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+zs-3;
 {un'%
 |Lu?c
 }LuHO

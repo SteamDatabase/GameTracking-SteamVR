@@ -8,7 +8,6 @@
  "functions" section contains non-string values.
  %41g
  (Error message: 
- @nif
  A_A\_
  A_A^A\
  A_A^A]A\^
@@ -87,12 +86,12 @@
 .?AVApiLayerInterface@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
-.?AVDebugUtilsLogRecorder@?A0xe2804085@@
-.?AVDebuggerLoaderLogRecorder@?A0xe2804085@@
+.?AVDebugUtilsLogRecorder@?A0x1fce4948@@
+.?AVDebuggerLoaderLogRecorder@?A0x1fce4948@@
 .?AVFactory@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
-.?AVOstreamLoaderLogRecorder@?A0xe2804085@@
+.?AVOstreamLoaderLogRecorder@?A0x1fce4948@@
 .?AVOurCharReader@Json@@
 .?AVRuntimeInterface@@
 .?AVbad_alloc@std@@
@@ -164,7 +163,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230110004948Z0/
+221222225323Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -177,6 +176,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4cc> "
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -403,6 +403,7 @@ EpHcH
 Error [
 Exceeded stackLimit in readValue().
 Extra non-whitespace after JSON value.
+EzZ?F
 Failed ApiLayerInterface::GetApiLayerProperties
 Failed loading layer information
 Failed loading runtime information
@@ -444,6 +445,7 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
+HD@Q-
 I#V0I
 I9Bhs
 I9W(t
@@ -514,6 +516,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
 No active XrInstance handle.
+O/;%	
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
@@ -526,6 +529,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS5
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -639,8 +643,6 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-Z2$.!S
-Zl?#Z
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -664,7 +666,6 @@ Zl?#Z
 \ApiLayers\Implicit
 \u=H;
 ]J<0"0i3
-^ `^_
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -675,6 +676,7 @@ _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
+_TO1S
 __C_specific_handler
 __CxxFrameHandler3
 __std_exception_copy
@@ -730,10 +732,10 @@ application name missing NULL terminator.
 bad allocation
 bad array new length
 bad cast
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 cU	F9
 collectComments
-cp<!%
+cw;E>
 d$ UAVAWH
 d$PE3
 d$`H=
@@ -797,7 +799,6 @@ invalid string position
 isValidJson indicates 
 jj@0HK4
 k0i0$
-k^t`dVB
 keylength >= 2^30
 l$ H;
 l$ H=
@@ -978,6 +979,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+z^g	,
 {un'%
 |$ ATAVAWH
 |$ AVH

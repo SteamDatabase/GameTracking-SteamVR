@@ -33,6 +33,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.Qj`T
 .data
 .data$r
 .edata
@@ -103,12 +104,14 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230110005313Z0/
+221222225626Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2MiKl
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3$3H3T3\3|3
 311109235959Z0b1
 324C4
 331121235959Z0F1
@@ -117,18 +120,17 @@
 370322235959Z0c1
 380115120000Z0b1
 383P3l3
-3@3L3T3t3
 3J3Y3h3
 3f3w3
 3mq+<
 4 4$4(4,404
-4$4H4T4\4|4
+4,4P4\4d4
 4I4R4c4o4{4
 4[4~4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5	6D6Y6b6n6
 5+545?5F5f5l5r5x5~5
-5,5P5\5d5
+545X5d5l5
 585E5O5Y5f5s5y5
 5FjiT
 5Genu
@@ -138,14 +140,14 @@
 6!6*646=6K6T6]6f6s6
 6!616:6I6O6U6[6a6g6m6s6y6
 6*f(_
-646X6d6l6
+6<6`6l6t6
 6D6Z6
 6I]Dc
 6OB,n_
+7 7@7`7|7
 7!7'7-73797?7E7K7Q7a7q7
 7/8X8g8z8
 70503
-787X7t7x7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8!8<8R8[8`8j8t8~8
 8%80868<8C8
@@ -161,6 +163,7 @@
 ;'<1<;<M<e<
 ;@;W;`;i;r;w;|;
 ;X;\;`;d;|;
+;XM#d
 < <0<4<<<T<d<h<x<|<
 < =)=2=;=@=E=L=Q=]=
 <*J=)
@@ -228,7 +231,6 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J)^pf
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -237,6 +239,7 @@ Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
 MSVCP140.dll
 MainThrd
+Maq6 yC
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Out of thread local storage!
@@ -244,7 +247,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSY
 RaiseException
 S0Q0O
 SA|X=G
@@ -292,7 +294,6 @@ Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
-]iyT7
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -332,14 +333,14 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`S_r@
+aYHQ/
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 cU	F9
 driver_gamepad.dll
 http://ocsp.digicert.com0A
@@ -349,6 +350,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+k1t<L
 m0k0$
 malloc
 map/set<T> too long
@@ -373,7 +375,6 @@ www.digicert.com1$0"
 {gamepad}/input/gamepad_profile.json
 {un'%
 |Lu?c
-}#qA 
 }LuHO
 ~qj#k"
 ~t&LN

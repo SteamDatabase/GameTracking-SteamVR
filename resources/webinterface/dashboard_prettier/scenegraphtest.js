@@ -316,8 +316,8 @@
         let g,
           v,
           S,
-          b,
-          y = [],
+          y,
+          b = [],
           f = null,
           D = null;
         function R(e) {
@@ -349,7 +349,7 @@
                   let t = {
                     type: "root",
                     rootproperties: {
-                      relatchDashboardTransform: b,
+                      relatchDashboardTransform: y,
                       sceneColorCorrection: null,
                     },
                     children: _({ currentPanel: null, bShouldAbort: !1 }, e),
@@ -362,12 +362,12 @@
                     type: "update_scene_graph",
                     owning_overlay_key: C(),
                     scene_graph: t,
-                    retired_sgids: y,
+                    retired_sgids: b,
                   };
                   D.SendMessage("vrcompositor_systemlayer", r),
                     (f = null),
-                    (y = []),
-                    (b = !1);
+                    (b = []),
+                    (y = !1);
                 }),
               0
             ));
@@ -428,7 +428,7 @@
           componentWillUnmount() {
             var e;
             (e = this.m_SGID),
-              y.push(e),
+              b.push(e),
               I(),
               this.m_domRef.current &&
                 this.m_buildNodeOverride &&
@@ -1398,7 +1398,7 @@
             );
           }
         }
-        function be() {
+        function ye() {
           const [e, t] = o.useState(0);
           return (
             o.useEffect(() => {
@@ -1967,18 +1967,14 @@
                 return "dashboardtransform";
               }
               buildNode(e, t) {
-                var r, i;
-                const o = this.createSgNode(t);
+                var r;
+                const i = this.createSgNode(t);
                 return (
-                  (o.properties.continuous_relatch =
+                  (i.properties.continuous_relatch =
                     null !== (r = this.props.bContinuousRelatch) &&
                     void 0 !== r &&
                     r),
-                  (o.properties.free_dashboard_transform =
-                    null !== (i = this.props.bFreeDashboardTransform) &&
-                    void 0 !== i &&
-                    i),
-                  [e, o]
+                  [e, i]
                 );
               }
             }.prototype,
@@ -1986,7 +1982,7 @@
             null
           ),
           VRHTML;
-        class ye extends o.Component {
+        class be extends o.Component {
           constructor(e) {
             super(e),
               (this.state = {
@@ -2314,16 +2310,16 @@
                   )
                 )
               ),
-              o.createElement(be, null)
+              o.createElement(ye, null)
             );
           }
         }
-        (0, i.gn)([s.ak], ye.prototype, "onAnimationFrame", null),
-          (0, i.gn)([s.ak], ye.prototype, "onNumberClicked", null),
-          (0, i.gn)([s.ak], ye.prototype, "onHideElasticPanel", null),
-          (0, i.gn)([s.ak], ye.prototype, "onMailboxMessage", null),
+        (0, i.gn)([s.ak], be.prototype, "onAnimationFrame", null),
+          (0, i.gn)([s.ak], be.prototype, "onNumberClicked", null),
+          (0, i.gn)([s.ak], be.prototype, "onHideElasticPanel", null),
+          (0, i.gn)([s.ak], be.prototype, "onMailboxMessage", null),
           n.render(
-            o.createElement(_e, null, o.createElement(ye, null)),
+            o.createElement(_e, null, o.createElement(be, null)),
             document.getElementById("root")
           ),
           null === VRHTML ||
@@ -2420,4 +2416,4 @@
   var o = i.O(void 0, [968], () => i(5693));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=c2dc4d76a600291c9aa5
+//# sourceMappingURL=scenegraphtest.js.map?v=85c5d8e1cce14e4c02ca

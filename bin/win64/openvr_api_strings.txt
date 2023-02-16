@@ -82,7 +82,6 @@ $iMBm
 (A_A^_]
 (D$ f
 (D$PE3
-(E[ij
 (T?j?Y
 (f*^[0
 (null)
@@ -114,7 +113,6 @@ $iMBm
 )|B?d!
 *StO9>T
 *uXI;
-+4R6?
 +J$D8M@
 +M<7>
 +Xt@(
@@ -138,7 +136,6 @@ $iMBm
 -Infinity
 -\!]N=
 -uKI;
-..@0}
 ..om?
 .00cfg
 .3=}%
@@ -362,7 +359,6 @@ $iMBm
 .xdata$x
 /2GG>!B
 />58d%
-/m,D9
 /user/camera
 /user/chest
 /user/elbow/left
@@ -399,7 +395,6 @@ $iMBm
 0A__^[]
 0X8b?~
 0iN>/
-0tLn|
 0w0c1
 0}0i1
 1#IND
@@ -415,7 +410,7 @@ $iMBm
 220323000000Z
 220801000000Z
 220921000000Z
-230110005416Z0/
+221222225618Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -436,7 +431,6 @@ $iMBm
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6({wyyj:
 6*f(_
-68[AWN*
 6D8\$`u
 6I]Dc
 6OB,n_
@@ -501,9 +495,9 @@ $iMBm
 ;H9>&X
 ;I9}(tiH
 ;\$p|
-;o2y?*
 <	w	@
 < t;<	t7
+<%31M
 <%ufH
 <*J=)
 </u#H
@@ -515,6 +509,7 @@ $iMBm
 <htr<jtb<lt6<tt&<wt
 <xu<D
 <}wYI
+=JP7	f
 =WIDATx
 =imb;D
 =rIQU
@@ -599,7 +594,6 @@ $iMBm
 @UVWH
 @UWAVAWH
 @VWAVH
-@^6HbS
 @b;zO]
 A valid JSON document must be either an array or an object value.
 A$+A,t\3
@@ -904,6 +898,7 @@ EnterUmsSchedulingMode
 EnumSystemLocalesEx
 EnumSystemLocalesW
 Eo%lf
+Ex!*XU
 Exceeded stackLimit in readValue().
 ExecuteUmsThread
 ExitProcess
@@ -1141,7 +1136,6 @@ IsValidCodePage
 IsValidLocale
 IsValidLocaleName
 J$A;H$A
-J4FH*g
 J>@G_
 JBIh	i
 JX<$N
@@ -1161,6 +1155,7 @@ KXHcS8
 K}*n:	
 K~Je#>!
 L!|$(L!
+L#0i5
 L$ E3
 L$ I;
 L$ L;
@@ -1705,7 +1700,6 @@ WATAUAVAWH
 WATAVH
 WATAWH
 WAVAWH
-WTJo!b)
 W`;Ct~|H
 WaNd?
 WaitForSingleObjectEx
@@ -1787,6 +1781,7 @@ Zod(^?
 ^RfN>
 ^fD9(H
 _(H9n
+_?g:W
 _C5D#
 __based(
 __cdecl
@@ -1885,7 +1880,7 @@ c [1>H'
 c%;>7
 c(>\,
 c0&>`
-c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
@@ -2035,6 +2030,7 @@ iostream
 iostream stream error
 is a directory
 iu+-,
+iuTmH
 j>>A?1
 j?V()
 j?{$*
@@ -2077,6 +2073,7 @@ m0k0$
 map/set<T> too long
 message size
 n03>Pu
+n<pjl
 nD8-.
 n]?iJ
 nan(ind)
@@ -2109,6 +2106,7 @@ o0t$I
 oB(h8
 oI>O7
 obwQ4
+on_d@
 openvr
 openvr_api.dll
 openvrpaths.vrpath

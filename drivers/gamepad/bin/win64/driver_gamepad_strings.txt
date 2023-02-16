@@ -3,6 +3,7 @@
  A__^
  H3E H3E
 !hn7!
+"x*<by
 ',=?k
 (D$ f
 (f*^[0
@@ -10,6 +11,7 @@
 +Xt@(
 +o'q)}
 ,W5y+
+-f1NH
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -97,7 +99,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230110005546Z0/
+221222225759Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -115,13 +117,13 @@
 6*f(_
 6I]Dc
 6OB,n_
-6~`)?
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+9@f#1
 9C }.H
-<"@biF
+:mic;
 <*J=)
 <0:08
 =rIQU
@@ -203,13 +205,14 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NGBG"Z
 NPH9Q
-O&/"/t
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS7
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -264,9 +267,7 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
-\ct19A
 ]J<0"0i3
-]Pb/9~o
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -305,13 +306,12 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`^6jc
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 cU	F9
 driver_gamepad.dll
 http://ocsp.digicert.com0A
@@ -330,6 +330,8 @@ memmove
 memset
 ntelD
 p WAVAWH
+rZ2F[s
+s0tv_
 string too long
 t$ AVH
 t$ AWH
@@ -354,5 +356,6 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
+~%opf8
 ~qj#k"
 ~t&LN

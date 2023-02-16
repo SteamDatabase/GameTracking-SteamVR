@@ -6311,7 +6311,7 @@ object-assign
           u.headers[e] = o.merge(a);
         }),
         (e.exports = u);
-    }.call(t, n("W2nU")));
+    }).call(t, n("W2nU"));
   },
   Mn8c: function (e, t, n) {
     "use strict";
@@ -7289,7 +7289,7 @@ object-assign
           };
         __MOBX_DEVTOOLS_GLOBAL_HOOK__.injectMobxReact(ie, oe);
       }
-    }.call(t, n("DuR2")));
+    }).call(t, n("DuR2"));
   },
   O27J: function (e, t, n) {
     "use strict";
@@ -11295,7 +11295,7 @@ and limitations under the License.
             spy: m,
             extras: { getDebugName: ge },
           });
-    }.call(t, n("W2nU"), n("DuR2")));
+    }).call(t, n("W2nU"), n("DuR2"));
   },
 });
 //# sourceMappingURL=vrwebui_core.js.map

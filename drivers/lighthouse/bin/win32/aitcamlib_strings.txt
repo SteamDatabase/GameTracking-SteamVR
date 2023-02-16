@@ -1,9 +1,8 @@
 																																																																																																																
 	!s99
 	0=0^0l0t0~0
-	oP%S
+	0g0u0|0
  %41g
- ^"T!
 !(0)"
 !9~ t
 !hn7!
@@ -132,12 +131,12 @@ $9^ t
 0*0:0K0a0x0
 0-pixel image
 0.0>0H0R0b0m0
+052:2n2
 061;1
-0E2J2~2
 0w0c1
 0x1|1
 0}0i1
-1!10161A1Q1a1k1u1
+1 1&111A1Q1[1e1p1}1
 1!1H1P1i1
 1(161D1R1`1p1
 1)1@1V1b1n1~1
@@ -157,7 +156,6 @@ $9^ t
 2 2$2,2D2T2X2h2l2p2x2
 2!212A2Q2a2q2
 2#2(222C2H2R2c2h2r2
-2#2c2
 2$2.282B2L2V2`2j2t2~2
 2&2*292=2E3
 2&2,21272B2H2W2^2c2l2q2z2
@@ -167,9 +165,10 @@ $9^ t
 220323000000Z
 220801000000Z
 220921000000Z
-230110005247Z0/
+221222225609Z0/
 241009235959Z0a1
 262H2O2o283?3
+293r3
 2>3k3
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -178,7 +177,7 @@ $9^ t
 2`4{4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3 3$3(3,3034383<3@3D3H3T34686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
+3 3$3(3,3034383<3@3D3P3$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 3"31393E3V3]3
 3#3(33383B3S3X3b3s3x3
 3$3<3L3P3T3X3`3x3
@@ -200,9 +199,9 @@ $9^ t
 4%5*5Z5_5u5z5@6y6
 4%5o5s5
 4.4>4H4R4b4m4
+44585<5@5D5
 474;4V4Z4i4m4|4
 4B7F7U7Y7h7l7
-4D5H5L5P5T5
 4`:d:q:u:
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5	7+7
@@ -220,7 +219,7 @@ $9^ t
 5=5C5
 5FjiT
 5Genu
-5L9p9|9
+5T9x9
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6 6$6(6,6064686<6@6D6H6L6P6T6T8X8\8`8d8h8l8
@@ -248,6 +247,7 @@ $9^ t
 7[8_8
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u7%8
+8 8$8(8
 8 8$8(8X8t8
 8!8B8F8U8Y8h8l8{8
 8"8-8N8^8h8r8
@@ -263,11 +263,10 @@ $9^ t
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9 :,:4:T:x:
 9 u	A
 9"9'9,91969;9@9E9J9O9T9Y9^9c9h9q9v9{9
+9':P:r:
 9(929B9M9n9~9
-9)9z9
 979;9J9N9]9a9p9t9
 989]9d9
 98:[:
@@ -276,40 +275,40 @@ $9^ t
 9]:p:
 9_lt\
 :#:-:A:O:T:b:g:q:~:
+:(:4:<:\:
 :.:8:B:R:]:~:
 :3:9:N:f:l:|:
-:7:`:
 :;;L;];u;H<L<
 :T;l;
 :d;h;(<,<0<D<H<L<h<l<
 :g=l=u=?>|>
 ;	<P<V<p<
 ; ;$;(;,;0;4;q;|;
-;";';2;9;>;C;Q;V;a;f;s;};
+;";);.;3;A;F;Q;V;c;m;s;};
 ;%<)<8<<<
-;4;@;H;`;t;
 ;5;x;|;
+;<;H;P;h;|;
 ;>;N;X;b;r;};
 ;O<b<
 ;S;`;
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<
-<!<1<=<I<S<i<x<
+< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<
+<!<-<9<C<Y<h<w<
 <"<2<=<^<n<x<
 <$<-<1<
 <%<)<t?x?
 <(=/=5=;=A=G=M=S=]=k=
 <*J=)
-<,<@<H<P<X<\<`<h<|<
+<+=3=;=
 <0:08
 <0@0M0Q0
+<4<H<P<X<`<d<h<p<
 <5=A=Y=o=x=
-<;=C=K=
 <=<F<O<]<f<y<Z=z=
 <I=M=
 <h<n<
 <unknown>
-= =(=0=8=<=D=X=`=h=p=t=x=
 = >8>T>
+=$=(=0=8=@=D=L=`=h=p=x=|=
 =,=P=|=
 =.=8=B=R=]=~=
 =8=e=
@@ -321,13 +320,13 @@ $9^ t
 > ?(?-?@?T?Y?l?
 >,>0>@>D>H>L>P>X>p>t>
 >0<0:
+>:>I>X>
 >>>N>X>b>r>}>
 >@>V>
 >@?U?r?
->J>Y>h>
 >L?l?
 >Mp$d
->i%'9
+>g?x?|?
 >m?q?
 ?"?2?=?^?n?x?
 ?%?2?<?B?
@@ -342,8 +341,8 @@ $9^ t
 ??_7facet@locale@std@@6B@
 ?G?K?w?
 ?I?O?d?m?
+?K?n?{?
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
-?[?~?
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UAEXXZ
 ?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
@@ -459,6 +458,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jlgep
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -485,12 +485,11 @@ PauseCamera (delayed...)
 PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pz H+a
 Pz}b!
-Qs"a-
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDS-
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -580,7 +579,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
-X?|^x+
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -688,10 +686,11 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
+c2v]3(-
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\work_thread.cpp
 cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -713,6 +712,7 @@ es_es
 es_mx
 etronlib
 expected marker
+f3'1%
 f;A*stSW
 fi_fi
 finnish
@@ -721,6 +721,7 @@ fr_fr
 fread
 french
 fseek
+f},	3
 german
 greek
 http://ocsp.digicert.com0A
@@ -796,7 +797,6 @@ strstr
 strtol
 sv_sv
 swedish
-t"Ph 
 tQPhH
 tRNS after IDAT
 tRNS before PLTE
@@ -809,7 +809,6 @@ too large
 too many codes
 tr_tr
 turkish
-u"h(m
 u(_^[
 u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
@@ -836,7 +835,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-yrPhh
+yrPhX
 zh_cn
 zh_tw
 zlib corrupt

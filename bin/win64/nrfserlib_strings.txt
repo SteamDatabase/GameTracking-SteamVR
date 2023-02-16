@@ -65,7 +65,6 @@
  t;A;
  times.
  version-number:
-!0KiB
 !hn7!
 %%.%dg
 %4.4X:%4.4X
@@ -75,6 +74,7 @@
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 ' is not a number.
+'!:|6
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
@@ -125,7 +125,6 @@
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
-,e1(l
 -1e+9999
 -Infinity
 -external
@@ -634,10 +633,11 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230110005442Z0/
+221222225711Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2Gal[
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -647,6 +647,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4#czn4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -684,6 +685,7 @@
 9|$`t
 :\u-L
 :\u6L
+:^^BS
 ;K }DH
 ;Q |	H
 <*J=)
@@ -896,6 +898,7 @@ Attribute Discovery
 AuthD
 Authentication
 Authentication status failed. (auth_status: %s)
+BK.zp#
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1500,7 +1503,6 @@ PKT_SEND_ERROR
 PKT_SEND_MAX_RETRIES_REACHED
 PKT_UNEXPECTED
 PROGRAM LOGIC ERROR: app_ble_gap_adv_buf_register not called from context REQUEST_REPLY_CODEC_CONTEXT, terminating
-PXdcz~04
 ParentIdPrefix
 Parity: 
 Parsing of JSON string "%s" failed: %s
@@ -1518,8 +1520,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RO4S%
-RSDS]
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1739,7 +1739,6 @@ XA^_][H
 XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
-Y 2!2}\
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1775,6 +1774,7 @@ Zipfile is corrupt or not a zipfile
 \$hI;
 \$pH;
 \$pI;
+\2!"~
 \Device Parameters
 \u=H;
 ]J<0"0i3
@@ -1869,9 +1869,8 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 cU	F9
-cWa~t
 calloc
 close
 cntrl
@@ -1987,7 +1986,6 @@ print
 punct
 realloc
 s#fff
-sT}L:
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)

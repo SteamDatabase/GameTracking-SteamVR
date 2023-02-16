@@ -63,7 +63,6 @@
  sJE3
 !&.37<
 !(0)"
-!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !hn7!
 " not found in the scene.
 """""""
@@ -223,7 +222,6 @@ $w!Hc
 -9{0t%H
 -D9c0t%H
 -Infinity
--f);o`
 -startup
 -u-I;
 .00cfg
@@ -459,7 +457,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 220921000000Z
-230110005858Z0/
+221222225835Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -472,6 +470,7 @@ $w!Hc
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
+3Iejt}
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -481,6 +480,7 @@ $w!Hc
 6I]Dc
 6OB,n_
 6p7M=:P_:}u
+7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
@@ -517,7 +517,6 @@ $w!Hc
 <0:08
 <U+%.4X>
 <parse error>
-<rU*m
 <uninitialized>
 <unknown>
 =7p7M}
@@ -752,6 +751,7 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
+BfR	O@R
 Buffer
 BufferView
 C ;s@
@@ -789,7 +789,8 @@ CT$pH
 C\$0D
 C\$0H
 C\$0L
-C\$0L9%
+C\$0L9%4
+C\$0L9%H
 C\$0M
 C\$PE
 C\$PH
@@ -1182,7 +1183,8 @@ L$`fD
 L$pE2
 L$pE3
 L$pHcQ
-L95)Z
+L95e]
+L95g\
 L9k8v
 L9t$@
 L9|$p
@@ -1217,7 +1219,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 N I9N(
-N-{fn
 N0H9Q
 NORMAL
 NPH9Q
@@ -1276,7 +1277,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSe
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1372,7 +1372,6 @@ USVATAUAWH
 USVATAUH
 USVWATAUAVAWH
 USVWATAUAVH
-USVWAUAVAWH
 USVWAVAWH
 USVWAVAWI
 USWAUAVH
@@ -1425,6 +1424,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
+W-xO	
 WATAUAVAWH
 WAVAWH
 WINMM.dll
@@ -1437,8 +1437,8 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
-X%24	
-X-%3	
+X%R4	
+X-E3	
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
@@ -1503,7 +1503,7 @@ ZL$Xf
 ] is not a JSON object.
 ] name = "
 ] name = [
-]5cD	
+]5sD	
 ]9k0tVD
 ]J<0"0i3
 ][OculusDirect] AquireSync
@@ -1625,6 +1625,7 @@ aspectRatio
 assert json failed
 asset
 attributes
+b&c,d
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
 bad APP len
@@ -1689,13 +1690,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\oculusdirect.cpp
 cU	F9
 camera
 cameras
@@ -1746,7 +1747,6 @@ doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
-e9c=^
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
@@ -2152,7 +2152,6 @@ roundf
 ru_ru
 russian
 s fff
-s.,D9
 sampler
 samplers
 scale
@@ -2220,11 +2219,10 @@ shaders/d3d11/distort_panorama_dome_radius_ps.fxo
 shaders/d3d11/distort_panorama_ps.fxo
 shaders/d3d11/distort_panorama_vs.fxo
 shaders/d3d11/distort_ps.fxo
-shaders/d3d11/distort_ps_achromatic.fxo
-shaders/d3d11/distort_ps_achromatic_alphaed.fxo
-shaders/d3d11/distort_ps_achromatic_layered.fxo
-shaders/d3d11/distort_ps_achromatic_se1.fxo
-shaders/d3d11/distort_ps_achromatic_se2.fxo
+shaders/d3d11/distort_ps_achromatic_layered_simplified.fxo
+shaders/d3d11/distort_ps_achromatic_simplified.fxo
+shaders/d3d11/distort_ps_achromatic_squinched_layered_simplified.fxo
+shaders/d3d11/distort_ps_achromatic_squinched_simplified.fxo
 shaders/d3d11/distort_ps_gamma.fxo
 shaders/d3d11/distort_ps_gamma_mc.fxo
 shaders/d3d11/distort_ps_gamma_mc_nd.fxo
@@ -2233,12 +2231,16 @@ shaders/d3d11/distort_ps_layered.fxo
 shaders/d3d11/distort_ps_layered_mc.fxo
 shaders/d3d11/distort_ps_layered_mc_nd.fxo
 shaders/d3d11/distort_ps_layered_nd.fxo
+shaders/d3d11/distort_ps_layered_simplified.fxo
 shaders/d3d11/distort_ps_mc.fxo
 shaders/d3d11/distort_ps_mc_nd.fxo
 shaders/d3d11/distort_ps_nd.fxo
 shaders/d3d11/distort_ps_scene.fxo
 shaders/d3d11/distort_ps_scene0.fxo
 shaders/d3d11/distort_ps_scene_blur.fxo
+shaders/d3d11/distort_ps_simplified.fxo
+shaders/d3d11/distort_ps_squinched_layered_simplified.fxo
+shaders/d3d11/distort_ps_squinched_simplified.fxo
 shaders/d3d11/distort_vs.fxo
 shaders/d3d11/distort_vs_latest_nd.fxo
 shaders/d3d11/distort_vs_layered.fxo
@@ -2282,11 +2284,8 @@ shaders/d3d11/tracked_camera_lines_ps.fxo
 shaders/d3d11/tracked_camera_lines_vs.fxo
 shaders/d3d11/tracked_camera_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_ps.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_devignette_vs.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_ps.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_vs.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_ycbcr_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_vs.fxo
 shaders/d3d11/tracked_camera_undistort_ps.fxo
 shaders/d3d11/tracked_camera_undistort_vs.fxo
@@ -2416,7 +2415,7 @@ u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
-uTL9%_
+uTL9%
 ua_ua
 ukranian
 unexpected 
@@ -2449,8 +2448,6 @@ vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcompositor_mailbox
 w(M9w0tH
-w,bH'O
-w;*VpR
 wXH9w`t/H
 weights
 while parsing 

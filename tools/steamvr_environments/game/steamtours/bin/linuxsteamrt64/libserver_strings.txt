@@ -5049,7 +5049,6 @@ ApplyRelationshipThink
 ApproachBrightnessThink
 AreAnyVRControllersConnected
 AreChaperoneBoundsVisible
-AreToolActionsBoundToThumbstick
 Area #%d(%d), %d verts, %d connections, %s
 Area %d didn't get any nodes!
 Area %d has area %d on both 2-way and incoming list, should only be on one
@@ -11912,7 +11911,6 @@ Returns whether the player specified is speaking.
 Returns whether this entity is frozen in place.
 Returns whether this entity is grabbable.
 Returns whether this player's chaperone bounds are visible.
-Returns whether tool actions are bound to the thumbstick (vs trackpad) in the default input binding.
 Reversal [%d]
 Reversal accel is %f/%f
 ReverseMove
@@ -14287,9 +14285,6 @@ VR_001
 VR_CONTROLLER_TYPE_COSMOS
 VR_CONTROLLER_TYPE_GENERIC_TRACKED
 VR_CONTROLLER_TYPE_KNUCKLES
-VR_CONTROLLER_TYPE_QUEST_1
-VR_CONTROLLER_TYPE_QUEST_2
-VR_CONTROLLER_TYPE_REVERBG2
 VR_CONTROLLER_TYPE_RIFT_S
 VR_CONTROLLER_TYPE_TOUCH
 VR_CONTROLLER_TYPE_UNKNOWN

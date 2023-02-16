@@ -1,8 +1,0 @@
-"lang"
-{
-	"Tokens"
-	{
-		"VMixToolAppHelp:help"		"This is the tool for authoring audio mix graphs.  These graphs can be used to mix individual voices or the entire audio mix.\n"
-
-	}
-}

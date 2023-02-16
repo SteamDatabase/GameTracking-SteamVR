@@ -2,6 +2,7 @@
  %41g
  A__^
  H3E H3E
+ ^c6,d
 !hn7!
 ',=?k
 (f*^[0
@@ -56,6 +57,7 @@
 .text$yd
 .xdata
 .xdata$x
+/0;rz
 /user/camera
 /user/chest
 /user/elbow/left
@@ -79,7 +81,7 @@
 220323000000Z
 220801000000Z
 220921000000Z
-230110005847Z0/
+221222225807Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -101,12 +103,12 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-;tH.7
 <*J=)
 <0:08
 =rIQU
 >0<0:
 >Mp$d
+>SWE=
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 @.data
@@ -163,9 +165,8 @@ NPH9Q
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q9G=D
 QueryPerformanceCounter
-RSDS{
+RSDSY
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -173,7 +174,6 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
-T{ rGKs
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -188,7 +188,6 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
-\ex_(.'&
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -222,7 +221,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 cU	F9
 displayFrequency
 driver_null
@@ -248,7 +247,6 @@ memcpy
 memmove
 memset
 modelNumber
-n4VA;g
 ntelD
 renderHeight
 renderWidth
@@ -265,6 +263,7 @@ windowHeight
 windowWidth
 windowX
 windowY
+wmc'`
 www.digicert.com1!0
 www.digicert.com1$0"
 {un'%
